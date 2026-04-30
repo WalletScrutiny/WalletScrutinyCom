@@ -1,6 +1,11 @@
 # WalletScrutiny homepage / Nostr check
 
-Uptime-Kuma installation plus a Playwright script that opens the WalletScrutiny homepage, waits for verification UI text that is loaded from Nostr-backed data, then reports the result to **Uptime Kuma** using a **Push** monitor.
+Uptime-Kuma installation plus a Playwright script that opens the WalletScrutiny homepage and runs **two checks**:
+
+1. the expected Nostr-driven UI text is visible
+2. no JavaScript console/runtime errors are detected
+
+Each check can report to its own **Uptime Kuma Push** monitor.
 
 The dashboard is available in the Build Server at [http://66.29.128.152:3001/](http://66.29.128.152:3001/).
 
@@ -76,7 +81,8 @@ After Uptime Kuma is running:
 
 1. Add a new monitor.
 2. Set **Monitor Type** to **Push**, and .
-3. Save the monitor and copy the **Push URL** (it looks like `https://your-kuma-host/api/push/<token>`). It will be used in the crontab line.
+3. Save the monitor and copy the **Push URL** (it looks like `https://your-kuma-host/api/push/<token>`).  
+   Create one monitor for content and another for JavaScript errors if you want separate uptime cards/alerts.
 
 ## Connect the script to Uptime Kuma
 
@@ -89,7 +95,7 @@ crontab -e
 Add the following line:
 
 ```cron
-*/4 * * * * cd /path/to/web-monitoring && UPTIME_KUMA_PUSH_URL='https://kuma.example.com/api/push/yourTokenHere' npm run check-nostr
+*/4 * * * * cd /path/to/web-monitoring && UPTIME_KUMA_CONTENT_PUSH_URL='https://kuma.example.com/api/push/contentToken' UPTIME_KUMA_JS_PUSH_URL='https://kuma.example.com/api/push/jsToken' npm run check-nostr
 ```
 
 ### Cron notes
@@ -101,15 +107,16 @@ Add the following line:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `UPTIME_KUMA_PUSH_URL` | Yes for Kuma | Full Push monitor URL from Uptime Kuma. |
+| `UPTIME_KUMA_CONTENT_PUSH_URL` | No | Push URL for content visibility check. |
+| `UPTIME_KUMA_JS_PUSH_URL` | No | Push URL for JavaScript error check. |
 | `WALLETSCRUTINY_URL` | No | Page to open (default: `https://walletscrutiny.com/`). |
 | `NOSTR_HEALTHCHECK_TEXT` | No | Substring to wait for (default: `Reproducible when tested`). |
 | `HEALTHCHECK_TIMEOUT_MS` | No | Max wait for the text (default: `20000`). |
 | `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` | No | Path to Chromium/Chrome if Playwright’s bundled browser is not used. |
 
-If `UPTIME_KUMA_PUSH_URL` is unset, the script only runs the browser check and prints the result (useful for local debugging). Exit code is `0` when the page check succeeds and `1` when it fails.
+If both push URLs are unset, the script only runs local checks and prints the result (useful for debugging).
 
-When `UPTIME_KUMA_PUSH_URL` is set, the script also sends `status=up` or `status=down` to Uptime Kuma. If that HTTP request fails after a successful page check, the process exits with `1` so the scheduler can surface a delivery problem.
+Exit code is `0` only if both checks pass (text found and no JS errors). It is `1` if either check fails, or if a configured Kuma push request fails.
 
 ## Discord alerts
 
