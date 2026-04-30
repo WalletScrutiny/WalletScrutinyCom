@@ -162,8 +162,8 @@ if (consoleErrors.length > 0) {
 
 try {
   const contentKumaMsg = contentOk
-    ? `Nostr UI: found "${expectedText}"`
-    : `Nostr UI: missing "${expectedText}" (${contentErrorMessage})`;
+    ? `Nostr UI seen "${expectedText}"`
+    : `Nostr UI missing "${expectedText}" (${contentErrorMessage})`;
   await notifyUptimeKuma(
     contentPushUrlRaw,
     contentOk ? 'up' : 'down',
@@ -179,8 +179,8 @@ try {
 
 try {
   const jsKumaMsg = jsOk
-    ? 'Nostr UI JS: no JavaScript errors'
-    : `Nostr UI JS: JavaScript errors detected (${jsErrorMessage})`;
+    ? 'No JavaScript errors'
+    : `JavaScript errors detected (${jsErrorMessage})`;
   await notifyUptimeKuma(jsPushUrlRaw, jsOk ? 'up' : 'down', jsKumaMsg, pingMs);
 } catch (err) {
   if (jsPushUrlRaw) {
