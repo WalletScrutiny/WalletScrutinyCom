@@ -4,8 +4,10 @@
  * then notifies Uptime Kuma via a Push monitor URL.
  *
  * Environment:
- *   UPTIME_KUMA_PUSH_URL - full Push URL from Uptime Kuma (optional; if unset,
- *     only the browser check runs, useful for local runs)
+ *   UPTIME_KUMA_CONTENT_PUSH_URL - Push URL for the "text is visible" check
+ *     (optional; if unset, this check is not pushed to Kuma)
+ *   UPTIME_KUMA_JS_PUSH_URL - Push URL for the "no JavaScript errors" check
+ *     (optional; if unset, this check is not pushed to Kuma)
  *   WALLETSCRUTINY_URL   - page to open (default: https://walletscrutiny.com/)
  *   NOSTR_HEALTHCHECK_TEXT - substring to wait for (default: Reproducible when tested)
  *   HEALTHCHECK_TIMEOUT_MS - max wait in ms (default: 20000)
@@ -17,7 +19,8 @@
 import { existsSync } from 'node:fs';
 import { chromium } from 'playwright';
 
-const pushUrlRaw = process.env.UPTIME_KUMA_PUSH_URL;
+const contentPushUrlRaw = process.env.UPTIME_KUMA_CONTENT_PUSH_URL;
+const jsPushUrlRaw = process.env.UPTIME_KUMA_JS_PUSH_URL;
 const url = process.env.WALLETSCRUTINY_URL ?? 'https://walletscrutiny.com/';
 const expectedText =
   process.env.NOSTR_HEALTHCHECK_TEXT ?? 'Reproducible when tested';
@@ -54,11 +57,12 @@ function resolveChromiumExecutable() {
 }
 
 /**
+ * @param {string | undefined} pushUrlRaw
  * @param {'up' | 'down'} status
  * @param {string} msg
  * @param {number | undefined} pingMs
  */
-async function notifyUptimeKuma(status, msg, pingMs) {
+async function notifyUptimeKuma(pushUrlRaw, status, msg, pingMs) {
   if (!pushUrlRaw) {
     return;
   }
@@ -67,7 +71,9 @@ async function notifyUptimeKuma(status, msg, pingMs) {
   try {
     target = new URL(pushUrlRaw);
   } catch {
-    console.error('Invalid UPTIME_KUMA_PUSH_URL (not a valid URL)');
+    console.error(
+      'Invalid push URL (check UPTIME_KUMA_CONTENT_PUSH_URL / UPTIME_KUMA_JS_PUSH_URL)'
+    );
     process.exitCode = 1;
     throw new Error('Invalid push URL');
   }
@@ -102,47 +108,93 @@ if (executablePath) {
 }
 
 const browser = await chromium.launch(launchOptions);
-let pageOk = false;
+let contentOk = false;
+let jsOk = false;
 let pingMs;
-let lastErrorMessage = '';
+let contentErrorMessage = '';
+let jsErrorMessage = '';
+const consoleErrors = [];
 
 try {
   const t0 = Date.now();
   const page = await browser.newPage();
+
+  // Track both explicit console.error calls and uncaught runtime exceptions.
+  page.on('console', (msg) => {
+    if (msg.type() === 'error') {
+      const text = msg.text();
+      if (!text.startsWith('WebSocket connection to')) {
+        consoleErrors.push(`console.error: ${text}`);
+      }
+    }
+  });
+  page.on('pageerror', (err) => {
+    consoleErrors.push(`pageerror: ${err && err.message ? err.message : String(err)}`);
+  });
+
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60_000 });
 
   const locator = page.getByText(expectedText, { exact: false });
   await locator.first().waitFor({ state: 'visible', timeout: timeoutMs });
 
   pingMs = Date.now() - t0;
-  pageOk = true;
+  contentOk = true;
   console.log(
     `OK: found visible text matching "${expectedText}" on ${url} (${pingMs} ms)`
   );
 } catch (err) {
-  lastErrorMessage = err && err.message ? err.message : String(err);
+  contentErrorMessage = err && err.message ? err.message : String(err);
   console.error(`FAIL: did not find "${expectedText}" on ${url}`);
-  console.error(lastErrorMessage);
-  process.exitCode = 1;
+  console.error(contentErrorMessage);
 } finally {
   await browser.close();
 }
 
-const kumaMsg = pageOk
-  ? `Nostr UI: found "${expectedText}"`
-  : `Nostr UI: missing "${expectedText}" (${lastErrorMessage})`;
+if (consoleErrors.length > 0) {
+  jsErrorMessage = `Detected ${consoleErrors.length} JavaScript console/runtime error(s): ${consoleErrors.join(
+    ' | '
+  )}`;
+  console.error(`FAIL: ${jsErrorMessage}`);
+} else {
+  jsOk = true;
+  console.log(`OK: no JavaScript console/runtime errors detected on ${url}`);
+}
 
 try {
-  await notifyUptimeKuma(pageOk ? 'up' : 'down', kumaMsg, pingMs);
+  const contentKumaMsg = contentOk
+    ? `Nostr UI: found "${expectedText}"`
+    : `Nostr UI: missing "${expectedText}" (${contentErrorMessage})`;
+  await notifyUptimeKuma(
+    contentPushUrlRaw,
+    contentOk ? 'up' : 'down',
+    contentKumaMsg,
+    pingMs
+  );
 } catch (err) {
-  if (pushUrlRaw) {
-    console.error('Uptime Kuma notification failed:', err.message || err);
+  if (contentPushUrlRaw) {
+    console.error('Uptime Kuma content notification failed:', err.message || err);
     process.exitCode = 1;
   }
 }
 
-if (!pushUrlRaw) {
+try {
+  const jsKumaMsg = jsOk
+    ? 'Nostr UI JS: no JavaScript errors'
+    : `Nostr UI JS: JavaScript errors detected (${jsErrorMessage})`;
+  await notifyUptimeKuma(jsPushUrlRaw, jsOk ? 'up' : 'down', jsKumaMsg, pingMs);
+} catch (err) {
+  if (jsPushUrlRaw) {
+    console.error('Uptime Kuma JS notification failed:', err.message || err);
+    process.exitCode = 1;
+  }
+}
+
+if (!contentPushUrlRaw && !jsPushUrlRaw) {
   console.error(
-    'Note: UPTIME_KUMA_PUSH_URL is unset; Uptime Kuma was not notified.'
+    'Note: no Uptime Kuma push URL is set; checks ran locally only.'
   );
+}
+
+if (!contentOk || !jsOk) {
+  process.exitCode = 1;
 }
