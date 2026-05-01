@@ -1,5 +1,5 @@
 ---
-title: Bitkey
+title: Bitkey (2024)
 appId: blockhww
 authors:
 - danny
@@ -45,7 +45,7 @@ features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pZ-Yi7A-o_A?si=cP6zKgW7r-JosAb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}.   
+This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}. For the 2026 hardware revision with OLED touchscreen, see {% include walletLink.html wallet='hardware/bitkey2026' verdict='true' %}.
 
 ## Update, 2024-03-04: The Bitkey Hardware Wallet is now officially released
 
