@@ -109,15 +109,7 @@ The fingerprint scanner unlocks the device and authorizes actions in the app. Bi
 
 ## Verdict
 
-The Android companion app source is publicly available and has a [verifiable build process](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md). The firmware source is published under the MIT License at `firmware/` in the same repository.
-
-However, **the firmware cannot be built or independently verified by external parties.** The [firmware README](https://github.com/proto-at-block/bitkey/tree/main/firmware#a-note-on-building) states:
-
-> *"Currently, external parties will not be able to build Bitkey firmware, because we use a 3rd party fingerprint sensor that comes with a proprietary matching algorithm and we are contractually obligated not to publicly release the library that implements this functionality."*
-
-This is confirmed at the code level. The fingerprint matching is not a peripheral feature — it is the only supported mechanism for unlocking the device and authorizing transactions. `firmware/hal/biometrics/src/fpc_biometrics.c` imports six FPC BEP headers (`fpc_bep_algorithms.h`, `fpc_bep_bio.h`, `fpc_bep_image.h`, `fpc_bep_sensor.h`, `fpc_bep_sensor_test.h`, `fpc_bep_types.h`) that do not exist anywhere in the repository. The build system (`hal/biometrics/meson.build`) lists `fpc_bep_dep` as a required dependency that is never declared in any `meson.build` file in the repo. There is no compiled binary (`.a`, `.so`) either. The library is entirely absent — not vendored, not stubbed, not present in any form.
-
-Without the ability to build and verify the firmware, WalletScrutiny's analysis stops here. The device's security-critical firmware cannot be fully audited or reproduced by external parties. Users must take Block's word that the firmware running on the device matches the published source plus the closed source fingerprint library.
+As documented in the analysis above, the firmware source is published but cannot be built or independently verified by external parties — the required FPC fingerprint library is proprietary and entirely absent from the repository. Without the ability to build and verify this security-critical firmware, WalletScrutiny's analysis stops here. Users must take Block's word that the firmware running on the device matches the published source plus the closed source fingerprint library.
 
 **Verdict: nosource.**
 
