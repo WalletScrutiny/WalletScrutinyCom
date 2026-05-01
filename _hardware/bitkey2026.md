@@ -117,7 +117,7 @@ However, **the firmware cannot be built or independently verified by external pa
 
 This is confirmed at the code level. The fingerprint matching is not a peripheral feature — it is the only supported mechanism for unlocking the device and authorizing transactions. `firmware/hal/biometrics/src/fpc_biometrics.c` imports six FPC BEP headers (`fpc_bep_algorithms.h`, `fpc_bep_bio.h`, `fpc_bep_image.h`, `fpc_bep_sensor.h`, `fpc_bep_sensor_test.h`, `fpc_bep_types.h`) that do not exist anywhere in the repository. The build system (`hal/biometrics/meson.build`) lists `fpc_bep_dep` as a required dependency that is never declared in any `meson.build` file in the repo. There is no compiled binary (`.a`, `.so`) either. The library is entirely absent — not vendored, not stubbed, not present in any form.
 
-Without the ability to build and verify the firmware, WalletScrutiny's analysis stops here. The device's security-critical firmware cannot be fully audited or reproduced by external parties. Users must take Block's word that the firmware running on the device matches the published source plus the unreleased fingerprint library.
+Without the ability to build and verify the firmware, WalletScrutiny's analysis stops here. The device's security-critical firmware cannot be fully audited or reproduced by external parties. Users must take Block's word that the firmware running on the device matches the published source plus the closed source fingerprint library.
 
 **Verdict: nosource.**
 
