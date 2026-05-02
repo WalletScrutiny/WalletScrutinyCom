@@ -16,9 +16,9 @@ repository: https://github.com/leather-io/mono
 icon: io.leather.mobilewallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 appHashes: 
-date: 2025-12-27
+date: 2026-05-02
 signer: 
 twitter: leatherbtc
 social:
