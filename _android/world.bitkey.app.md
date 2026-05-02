@@ -32,7 +32,8 @@ social:
 - https://www.instagram.com/ownbitkey
 redirect_from: 
 developerName: Block, Inc.
-builds: 
+builds:
+  - arch: arm64-v8a
 features:
 - foss
 - multiSig
