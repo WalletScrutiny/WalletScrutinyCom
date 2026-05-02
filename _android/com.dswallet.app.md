@@ -46,9 +46,9 @@ The `dswallet` GitHub organization (`github.com/dswallet`) contains four public 
 
 ## Analysis
 
-We tested the app and posted the [video on x.com](https://x.com/BitcoinWalletz/status/2050119090996716001)
+We tested the app and posted the [video on x.com](https://x.com/BitcoinWalletz/status/2050119090996716001).
 
-The Play Store listing and associated marketing assert the project is “100% open source,” but no source code for the Android application is publicly available — only backend infrastructure libraries are published, under ISC license. The official website (ds.pro) explicitly names Bitcoin, Ethereum, and TRON as supported networks; broader claims of “12+ blockchains and 5000+ tokens” found in third-party marketing materials are not verifiable from the developer's own primary sources.
+The Play Store listing and associated marketing assert the project is “100% open source”, but no source code for the Android application is publicly available — only backend infrastructure libraries are published, under ISC license. The official website (ds.pro) explicitly names Bitcoin, Ethereum, and TRON as supported networks; broader claims of “12+ blockchains and 5000+ tokens” found in third-party marketing materials are not verifiable from the developer's own primary sources.
 
 This app is **not source-available**.
 
