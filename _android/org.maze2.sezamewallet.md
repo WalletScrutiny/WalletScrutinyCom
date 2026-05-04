@@ -19,7 +19,7 @@ bugbounty:
 meta: fewusers
 verdict: nosource
 appHashes: 
-date: 2026-04-23
+date: 2026-05-04
 signer: 
 twitter: SesameWallet
 social:
