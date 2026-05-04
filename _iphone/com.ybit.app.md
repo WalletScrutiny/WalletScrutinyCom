@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ybitBitcoinCrypto
 title: 'Ybit: AI Crypto & DeFi Wallet'
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.ybit.app
 appCountry: us
 idd: '6483864038'
@@ -15,14 +16,16 @@ repository:
 icon: com.ybit.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 appHashes: 
-date: 2026-01-14
+date: 2026-05-02
 signer: 
-twitter: 
-social: 
+twitter: YbitWallet
+social:
+- https://t.me/YbitWallet_Official 
 features: 
 developerName: WEEKWISE INNOVATIONS LLC
 
 ---
 
+{% include copyFromAndroid.html %}
