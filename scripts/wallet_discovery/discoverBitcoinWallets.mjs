@@ -1,5 +1,5 @@
 import gplay from 'google-play-scraper';
-import apple from 'app-store-scraper';
+import { appleApp, search } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import yaml from 'js-yaml';
 import { Semaphore } from 'async-mutex';
@@ -366,7 +366,7 @@ class BitcoinWalletDiscovery {
         const [, release] = await appleSem.acquire();
         
         try {
-          const searchResults = await apple.search({
+          const searchResults = await search({
             term: strategy.term,
             num: 50,
             lang: 'en',
@@ -490,7 +490,7 @@ class BitcoinWalletDiscovery {
         } else {
           const [, release] = await appleSem.acquire();
           try {
-            const details = await apple.app({ id: app.id });
+            const details = await appleApp({ id: app.id });
             enriched.push({
               ...app,
               fullDescription: details.description || app.description || '',

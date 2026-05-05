@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import yaml from 'js-yaml';
 import readline from 'readline';
 import gplay from 'google-play-scraper';
-import apple from 'app-store-scraper';
+import { app } from '@perttu/app-store-scraper';
 import { Semaphore } from 'async-mutex';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -203,7 +203,7 @@ class WalletDiscoveryProcessor {
       } else if (product.platform === 'iphone') {
         const [, release] = await appleSem.acquire();
         try {
-          const details = await apple.app({ id: product.id });
+          const details = await app({ id: product.id });
           
           // Safely assign properties with fallbacks
           product.fullDescription = (details && details.description) || product.description || 'Description not available';
