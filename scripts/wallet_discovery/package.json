@@ -11,9 +11,9 @@
   "author": "WalletScrutiny",
   "license": "ISC",
   "dependencies": {
-    "app-store-scraper": "^0.18.0",
+    "@perttu/app-store-scraper": "github:plahteenlahti/app-store-scraper#ea58e0122a91950094a1ec9341692c76f8cb335f",
     "async-mutex": "^0.5.0",
-    "google-play-scraper": "^10.1.2",
+    "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "js-yaml": "^4.1.1",
     "readline": "^1.3.0"
   }
