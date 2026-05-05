@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.18.1",
-    "isomorphic-dompurify": "^3.0.0",
+    "isomorphic-dompurify": "^3.12.0",
     "js-yaml": "^4.1.1",
     "minimist": "^1.2.8",
-    "p-queue": "^9.1.0",
+    "p-queue": "^9.2.0",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
     "ws": "^8.20.0",
-    "yauzl": "^3.2.1"
+    "yauzl": "^3.3.0"
   },
   "engines": {
     "node": ">= 18.6.0"
