@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: ryderWallet
 title: Ryder
 altTitle: 
 authors:
@@ -17,9 +17,9 @@ repository:
 icon: id.ryder.ryderone.png
 bugbounty: 
 meta: fewusers
-verdict: wip
+verdict: nowallet
 appHashes: 
-date: 2025-10-03
+date: 2026-05-05
 signer: 
 twitter: Ryder_ID
 social:
@@ -35,7 +35,14 @@ features:
 
 ## App Description
 
-The app is described as a companion app to the {% include walletLink.html wallet='hardware/ryder.one' verdict='true' %} device. The mobile app should be paired with the Ryder device via NFC during setup. It claims to support Bitcoin. The app will not be able to generate a wallet on its own without a paired device.
+Ryder is a mobile companion app for the {% include walletLink.html wallet='hardware/ryder.one' verdict='true' %} hardware wallet. The Play Store listing says the app pairs with the hardware wallet over NFC and supports asset management, sending, and receiving for Bitcoin, Ethereum, Stacks, Solana, and other networks.
 
-It currently has only a **few users**.
+## Analysis
 
+We tested the app and posted the video on [X.com](https://x.com/BitcoinWalletz/status/2051580646066434549). All available wallet actions require pairing with the Ryder One hardware wallet device.
+
+This confirms that the app is a companion interface for the Ryder One hardware wallet, not a standalone wallet. The Play Store listing is consistent with this, as it says the app pairs with the hardware wallet by NFC and that private keys remain offline.
+
+Ryder's own documentation says private keys are generated and stored inside the Ryder One secure element, while the app is used for NFC pairing, account management, and transaction initiation. The Ryder One hardware wallet is reviewed separately as {% include walletLink.html wallet='hardware/ryder.one' verdict='true' %}.
+
+Because the mobile app cannot create or use a wallet without the Ryder One hardware device, it does **not function as a standalone Bitcoin wallet**.
