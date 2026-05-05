@@ -7,8 +7,8 @@ appId: com.fxfi.fxwallet
 appCountry: us
 idd: '1560943983'
 released: 2021-05-05
-updated: 2026-02-15
-version: 2.27.1
+updated: 2026-05-01
+version: 2.30.0
 reviews: 29
 website: 
 repository: 

@@ -9,8 +9,8 @@ appId: com.walletverse
 alternativeStores: 
 appCountry: 
 released: 2023-06-29
-updated: 2026-04-14
-version: 1.16.9
+updated: 2026-05-05
+version: 1.17.0
 reviews: 12
 website: https://walletverse.io/
 repository: 

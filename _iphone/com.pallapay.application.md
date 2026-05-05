@@ -8,9 +8,9 @@ appId: com.pallapay.application
 appCountry: us
 idd: '1622391711'
 released: 2022-05-12
-updated: 2025-11-17
-version: 2.3.3
-reviews: 1
+updated: 2026-05-04
+version: 2.3.4
+reviews: 2
 website: https://www.pallapay.com
 repository: 
 icon: com.pallapay.application.jpg

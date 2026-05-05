@@ -3,7 +3,7 @@ wsId: tapProtocolWallet
 title: TAP Protocol Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tapwalletmobile
 alternativeStores: 

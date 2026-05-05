@@ -9,9 +9,9 @@ appId: com.rainmanagement.rain
 alternativeStores: 
 appCountry: bh
 released: 2018-11-02
-updated: 2026-04-16
-version: 3.10.6
-reviews: 3333
+updated: 2026-04-30
+version: 3.10.8
+reviews: 3332
 website: https://rain.com
 repository: 
 icon: com.rainmanagement.rain.png

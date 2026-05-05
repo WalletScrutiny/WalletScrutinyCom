@@ -11,7 +11,7 @@ appCountry: jp
 released: 2019-10-19
 updated: 2026-04-08
 version: 8.65.0
-reviews: 1711
+reviews: 1714
 website: https://bitflyer.com
 repository: 
 icon: com.bitflyer.android.bfwallet.png

@@ -11,7 +11,7 @@ appCountry:
 released: 2019-03-17
 updated: 2026-04-16
 version: 1.10.48
-reviews: 137
+reviews: 136
 website: https://cosmostation.io
 repository: https://github.com/cosmostation/cosmostation-android
 icon: wannabit.io.cosmostaion.png

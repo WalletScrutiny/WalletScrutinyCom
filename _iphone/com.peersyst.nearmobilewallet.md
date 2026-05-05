@@ -8,9 +8,9 @@ appId: com.peersyst.nearmobilewallet
 appCountry: us
 idd: '6443501225'
 released: 2023-03-20
-updated: 2026-01-21
-version: '2.35'
-reviews: 808
+updated: 2026-04-24
+version: 3.8.0
+reviews: 817
 website: https://nearmobile.app/
 repository: 
 icon: com.peersyst.nearmobilewallet.jpg

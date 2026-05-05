@@ -9,8 +9,8 @@ appId: com.robinhood.global
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-20
-version: 2026.17.0
+updated: 2026-04-28
+version: 2026.18.0
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 

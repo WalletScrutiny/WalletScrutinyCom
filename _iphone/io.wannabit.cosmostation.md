@@ -8,8 +8,8 @@ appId: io.wannabit.cosmostation
 appCountry: us
 idd: '1459830339'
 released: 2019-04-17
-updated: 2025-12-29
-version: v1.10.43
+updated: 2026-04-16
+version: v1.10.46
 reviews: 223
 website: 
 repository: https://github.com/cosmostation/cosmostation-ios

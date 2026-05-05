@@ -1,6 +1,6 @@
 ---
 wsId: blofin
-title: BloFin
+title: 'BloFin: Trade Bitcoin Futures'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.blofin.android
 alternativeStores: 
 appCountry: 
 released: 2022-05-13
-updated: 2026-04-18
-version: 3.28.0
+updated: 2026-04-30
+version: 3.29.0
 reviews: 116
 website: https://blofin.com
 repository: 

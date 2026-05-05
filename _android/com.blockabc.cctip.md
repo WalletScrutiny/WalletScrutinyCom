@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-21
 updated: 2026-04-17
 version: 5.3.7
-reviews: 496
+reviews: 498
 website: https://cwallet.com
 repository: 
 icon: com.blockabc.cctip.png

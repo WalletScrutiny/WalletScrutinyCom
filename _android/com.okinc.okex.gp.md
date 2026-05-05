@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2019-10-29
 updated: 2026-04-21
-version: 6.166.1
-reviews: 3868
+version: 6.168.1
+reviews: 3876
 website: https://www.okx.com/
 repository: 
 icon: com.okinc.okex.gp.png

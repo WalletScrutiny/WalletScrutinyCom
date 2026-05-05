@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'FINTOKEN :Web3 & Crypto Wallet'
+title: FINTOKEN :Web3 & Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2023-05-24
 updated: 2026-03-24
-version: 2.2.6
+version: 2.0.1
 reviews: 
 website: https://www.fintoken.pro/
 repository: 

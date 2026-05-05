@@ -8,9 +8,9 @@ appId: org.talkapp
 appCountry: hk
 idd: '1547227377'
 released: 2021-02-10
-updated: 2025-08-13
-version: 2.60.0
-reviews: 168
+updated: 2026-02-27
+version: 3.2.0
+reviews: 169
 website: 
 repository: 
 icon: org.talkapp.jpg

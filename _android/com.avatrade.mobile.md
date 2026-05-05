@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Multi Asset Trading'
+title: 'AvaTrade: Secure Trading App'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.avatrade.mobile
 alternativeStores: 
 appCountry: 
 released: 2017-05-23
-updated: 2026-04-21
-version: '168.6'
+updated: 2026-04-29
+version: '168.7'
 reviews: 11
 website: http://www.avatrade.com
 repository: 

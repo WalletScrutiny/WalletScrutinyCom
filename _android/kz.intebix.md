@@ -3,7 +3,7 @@ wsId: intebix
 title: Intebix
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: kz.intebix
 alternativeStores: 

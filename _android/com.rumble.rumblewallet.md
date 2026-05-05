@@ -9,8 +9,8 @@ appId: com.rumble.rumblewallet
 alternativeStores: 
 appCountry: 
 released: 2026-01-19
-updated: 2026-04-05
-version: 2.0.3
+updated: 2026-05-01
+version: 2.0.4
 reviews: 9
 website: https://wallet.rumble.com
 repository: 

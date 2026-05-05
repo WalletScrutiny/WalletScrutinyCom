@@ -7,9 +7,9 @@ appId: com.ruiebit.bitcoinapp
 appCountry: us
 idd: '6751213042'
 released: 2025-08-27
-updated: 2025-09-17
-version: 3.6.4
-reviews: 132
+updated: 2026-02-24
+version: 3.6.6
+reviews: 53
 website: 
 repository: 
 icon: com.ruiebit.bitcoinapp.jpg

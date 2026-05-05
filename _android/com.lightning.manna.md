@@ -9,8 +9,8 @@ appId: com.lightning.manna
 alternativeStores: 
 appCountry: 
 released: 2025-05-14
-updated: 2025-11-10
-version: 1.1.7
+updated: 2026-04-28
+version: 1.1.9
 reviews: 6
 website: http://mannabitcoin.com/
 repository: 

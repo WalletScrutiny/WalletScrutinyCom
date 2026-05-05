@@ -1,16 +1,3 @@
-2026-04-20:
-- _android/app.anchors.anchorusd
-- _android/co.sarwa
-- _android/com.aufwallet.app
-- _android/com.bitoex.bitopronew
-- _android/com.gopop
-- _android/com.io.coinstore
-- _android/com.kinesis.kinesisapp
-- _android/com.ldvtech.tokero
-- _android/com.mercuryo.app
-- _android/com.pointpay.bank
-- _android/com.stablex
-- _iphone/co.sarwa.ios
 2026-04-28:
 - _android/com.orangexsuper.exchange
 - _android/com.paymium.mobile2
@@ -18,3 +5,7 @@
 - _android/cz.confirmo.app.pos
 - _android/io.bytedex.mobile.tr
 - _android/kg.yaros.crypto
+2026-05-05:
+- _android/com.letsbit.app
+- _android/com.trusteeplus
+- _android/neutronpay.wallet

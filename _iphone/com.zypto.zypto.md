@@ -8,9 +8,9 @@ appId: com.zypto.zypto
 appCountry: us
 idd: '6463755992'
 released: 2024-06-04
-updated: 2026-01-05
-version: 1.24.1
-reviews: 50
+updated: 2026-04-09
+version: 1.27.0
+reviews: 51
 website: https://zypto.com/
 repository: 
 icon: com.zypto.zypto.jpg

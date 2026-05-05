@@ -10,9 +10,9 @@ appId: com.legendwd.hyperpayW
 alternativeStores: 
 appCountry: us
 released: 2018-10-25
-updated: 2026-04-23
+updated: 2026-04-30
 version: 5.6.210401
-reviews: 193
+reviews: 194
 website: https://hyperpay.tech
 repository: 
 icon: com.legendwd.hyperpayW.png

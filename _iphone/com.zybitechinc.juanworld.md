@@ -10,7 +10,7 @@ idd: '1458711891'
 released: 2019-05-23
 updated: 2025-06-23
 version: 2.0.4
-reviews: 56
+reviews: 57
 website: https://www.juancash.com
 repository: 
 icon: com.zybitechinc.juanworld.jpg

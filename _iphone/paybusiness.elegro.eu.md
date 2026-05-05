@@ -11,7 +11,7 @@ released: 2020-08-14
 updated: 2025-05-15
 version: '4.1'
 reviews: 0
-website: https://web.archive.org/web/20210524144106/https://business.elegro.eu/elegro-business-wallet
+website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 

@@ -8,8 +8,8 @@ appId: com.cregis
 appCountry: us
 idd: '6447176492'
 released: 2023-04-04
-updated: 2026-03-15
-version: 3.7.0
+updated: 2026-04-28
+version: 3.7.2
 reviews: 3
 website: 
 repository: 

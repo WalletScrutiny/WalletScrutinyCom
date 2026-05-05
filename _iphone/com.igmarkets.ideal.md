@@ -1,6 +1,6 @@
 ---
 wsId: igTradingPlatform
-title: 'IG: Trading Stocks & Forex'
+title: 'IG: Trading. Investing. Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.igmarkets.ideal
 appCountry: sg
 idd: '406492428'
 released: 2011-01-24
-updated: 2026-01-28
-version: 10.3013.0
-reviews: 2904
+updated: 2026-04-23
+version: 10.3207.0
+reviews: 2952
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 
 icon: com.igmarkets.ideal.jpg

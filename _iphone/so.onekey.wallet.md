@@ -1,6 +1,6 @@
 ---
 wsId: onekeySo.new
-title: 'OneKey: Secure Crypto Wallet'
+title: 'OneKey Wallet: Bitcoin & Web3'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: so.onekey.wallet
 appCountry: us
 idd: '1609559473'
 released: 2022-04-27
-updated: 2025-11-01
-version: 5.16.0
-reviews: 668
+updated: 2026-04-21
+version: 6.2.0
+reviews: 679
 website: https://onekey.so?utm_source=app_store
 repository: https://github.com/OneKeyHQ/app-monorepo
 icon: so.onekey.wallet.jpg

@@ -9,9 +9,9 @@ appId: com.robinhood.gateway
 alternativeStores: 
 appCountry: 
 released: 2024-03-12
-updated: 2026-04-28
-version: 2026.17.2
-reviews: 186
+updated: 2026-05-04
+version: 2026.18.1
+reviews: 190
 website: https://robinhood.com/web3-wallet/
 repository: 
 icon: com.robinhood.gateway.png

@@ -8,9 +8,9 @@ appId: tech.coinflip.CoinFlip
 appCountry: us
 idd: '6502452721'
 released: 2024-06-05
-updated: 2025-12-04
-version: 3.8.0
-reviews: 802
+updated: 2026-03-17
+version: '4.3'
+reviews: 848
 website: https://coinflip.tech/
 repository: 
 icon: tech.coinflip.CoinFlip.jpg

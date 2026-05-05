@@ -10,7 +10,7 @@ idd: 1406211993
 released: 2018-08-04
 updated: 2026-01-13
 version: '38.0'
-reviews: 13977
+reviews: 15264
 website: https://emberfund.io/
 repository: 
 icon: com.emberfund.ember.jpg

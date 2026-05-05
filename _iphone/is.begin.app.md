@@ -1,6 +1,6 @@
 ---
 wsId: beginApp
-title: 'Begin: Bitcoin Cardano Wallet'
+title: 'Begin: Bitcoin Cardano Solana'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: is.begin.app
 appCountry: us
 idd: '1642488837'
 released: 2022-11-03
-updated: 2026-01-19
-version: 2.4.1
+updated: 2026-02-23
+version: 2.5.0
 reviews: 12
 website: https://begin.is
 repository: 

@@ -7,9 +7,9 @@ appId: ng.apexnetwork.apexNetwork
 appCountry: us
 idd: '1549187308'
 released: 2022-01-11
-updated: 2026-01-08
-version: 3.2.8
-reviews: 2325
+updated: 2026-05-03
+version: 3.2.16
+reviews: 2288
 website: https://apexnetwork.ng
 repository: 
 icon: ng.apexnetwork.apexNetwork.jpg

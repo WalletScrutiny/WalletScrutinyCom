@@ -11,7 +11,7 @@ appCountry: th
 released: 2015-10-06
 updated: 2026-04-10
 version: 6.22.0
-reviews: 267
+reviews: 268
 website: https://www.markets4you.com/en/
 repository: 
 icon: com.forex4you.android.png

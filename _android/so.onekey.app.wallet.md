@@ -11,7 +11,7 @@ appCountry:
 released: 2022-04-27
 updated: 2026-04-20
 version: 6.2.0
-reviews: 91
+reviews: 92
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo
 icon: so.onekey.app.wallet.png

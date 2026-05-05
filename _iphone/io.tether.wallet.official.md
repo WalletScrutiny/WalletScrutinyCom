@@ -8,10 +8,10 @@ appId: io.tether.wallet.official
 appCountry: us
 idd: '6759002210'
 released: 2026-04-14
-updated: 2026-04-15
-version: 1.0.1
-reviews: 2
-website: https://wallet.tether.io
+updated: 2026-05-02
+version: 1.0.2
+reviews: 5
+website: https://wallet.tether.io/
 repository: 
 icon: io.tether.wallet.official.jpg
 bugbounty: 

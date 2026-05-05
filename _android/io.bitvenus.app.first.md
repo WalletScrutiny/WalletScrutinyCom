@@ -9,8 +9,8 @@ appId: io.bitvenus.app.first
 alternativeStores: 
 appCountry: 
 released: 2023-07-28
-updated: 2026-04-25
-version: 5.7.15
+updated: 2026-04-30
+version: 5.7.16
 reviews: 6
 website: https://www.bvox.com
 repository: 

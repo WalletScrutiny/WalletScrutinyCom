@@ -9,8 +9,8 @@ appId: com.bybit.eu
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-03
-version: 5.15.0
+updated: 2026-04-29
+version: 5.17.0
 reviews: 
 website: https://www.bybit.eu/help-center
 repository: 

@@ -10,7 +10,7 @@ idd: '1569062610'
 released: 2021-07-27
 updated: 2025-10-02
 version: 1.7.0.2
-reviews: 46
+reviews: 48
 website: http://bytefederal.com/vault
 repository: 
 icon: com.bytefederal.bytewallet.jpg

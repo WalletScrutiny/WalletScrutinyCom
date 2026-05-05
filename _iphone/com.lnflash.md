@@ -8,8 +8,8 @@ appId: com.lnflash
 appCountry: jm
 idd: '6451129095'
 released: 2024-08-08
-updated: 2026-01-19
-version: 0.4.8
+updated: 2026-05-02
+version: 0.5.2
 reviews: 0
 website: https://getflash.io
 repository: https://github.com/lnflash/flash-mobile

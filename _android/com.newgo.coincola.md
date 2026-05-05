@@ -11,7 +11,7 @@ appCountry:
 released: 2017-07-07
 updated: 2026-04-28
 version: 6.7.1
-reviews: 172
+reviews: 173
 website: https://www.coincola.com
 repository: 
 icon: com.newgo.coincola.png

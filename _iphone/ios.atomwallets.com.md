@@ -1,6 +1,6 @@
 ---
 wsId: atomCryptoBitcoinWallet
-title: 'Atom: Crypto & Bitcoin Wallet'
+title: 'Atom: Crypto & USDT Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: ios.atomwallets.com
 appCountry: us
 idd: '6754027418'
 released: 2025-11-07
-updated: 2026-02-13
-version: 2.2.1
+updated: 2026-04-24
+version: 2.2.7
 reviews: 1
-website: 
+website: https://atomwallets.com/
 repository: 
 icon: ios.atomwallets.com.jpg
 bugbounty: 

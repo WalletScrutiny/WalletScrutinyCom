@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2022-02-23
 updated: 2026-04-27
-version: 4.5.18
+version: 4.5.19
 reviews: 345
 website: https://www.weex.com
 repository: 

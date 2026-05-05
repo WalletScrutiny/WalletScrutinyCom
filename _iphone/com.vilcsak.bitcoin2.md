@@ -1,6 +1,6 @@
 ---
 wsId: coinbaseBSB
-title: 'Coinbase: Buy BTC, ETH, SOL'
+title: 'Coinbase: Buy Crypto & Stocks'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2026-01-26
-version: 14.3.37
-reviews: 1786978
+updated: 2026-05-04
+version: 14.17.21
+reviews: 1792733
 website: http://www.coinbase.com
 repository: 
 icon: com.vilcsak.bitcoin2.jpg

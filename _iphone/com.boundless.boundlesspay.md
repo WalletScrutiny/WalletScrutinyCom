@@ -10,7 +10,7 @@ idd: '1598547096'
 released: 2021-12-28
 updated: 2026-03-04
 version: 2.3.9
-reviews: 71
+reviews: 73
 website: https://www.boundlesspay.com
 repository: 
 icon: com.boundless.boundlesspay.jpg

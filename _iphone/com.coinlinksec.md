@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinbag -Crypto & Web3 Wallet
+title: Coldlar - Crypto & Web3 Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.coinlinksec
 appCountry: us
 idd: '6479732222'
 released: 2024-03-26
-updated: 2026-03-11
-version: 1.9.3
+updated: 2026-04-15
+version: '1.10'
 reviews: 5
 website: https://web.archive.org/web/20250409012753/https://www.coinlink.tech/
 repository: 

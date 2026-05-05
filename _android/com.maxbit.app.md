@@ -9,8 +9,8 @@ appId: com.maxbit.app
 alternativeStores: 
 appCountry: 
 released: 2024-09-24
-updated: 2026-04-22
-version: 1.38.1
+updated: 2026-05-04
+version: 1.38.2
 reviews: 
 website: https://www.maxbit.com
 repository: 
@@ -24,7 +24,7 @@ signer:
 twitter: MaxbitOfficial
 social: 
 redirect_from: 
-developerName: Maxbit Digital Asset CO., LTD.
+developerName: MAXBIT DIGITAL ASSET COMPANY LIMITED
 builds: 
 features: 
 

@@ -16,10 +16,10 @@ website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-09-07
+date: 2026-05-05
 signer: 
 twitter: elegro_eu
 social:

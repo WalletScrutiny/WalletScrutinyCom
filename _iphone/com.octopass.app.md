@@ -8,9 +8,9 @@ appId: com.octopass.app
 appCountry: nz
 idd: '6466778991'
 released: 2023-11-21
-updated: 2025-10-07
-version: 1.17.0
-reviews: 1485
+updated: 2026-03-22
+version: 1.18.11
+reviews: 1540
 website: https://easycrypto.com
 repository: 
 icon: com.octopass.app.jpg

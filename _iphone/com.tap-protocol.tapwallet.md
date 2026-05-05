@@ -3,7 +3,7 @@ wsId: tapProtocolWallet
 title: TAP Protocol Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.tap-protocol.tapwallet
 appCountry: us
 idd: '6748963003'
@@ -11,7 +11,7 @@ released: '2025-08-05T07:00:00Z'
 updated: 2026-01-20
 version: 1.0.7
 reviews: 7
-website: ''
+website: 
 repository: 
 icon: com.tap-protocol.tapwallet.jpg
 bugbounty: 

@@ -8,8 +8,8 @@ appId: com.freedx.app.prod
 appCountry: ae
 idd: '6752333961'
 released: 2025-10-21
-updated: 2026-02-18
-version: 1.4.0
+updated: 2026-04-15
+version: 1.6.0
 reviews: 2
 website: 
 repository: 

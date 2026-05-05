@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2016-06-05
 updated: 2026-04-24
-version: 2.159.0
+version: 2.160.1
 reviews: 1210
 website: https://www.maya.ph/
 repository: 

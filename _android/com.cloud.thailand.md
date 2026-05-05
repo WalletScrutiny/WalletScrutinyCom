@@ -9,8 +9,8 @@ appId: com.cloud.thailand
 alternativeStores: 
 appCountry: 
 released: 2023-10-31
-updated: 2026-04-14
-version: 1.54.0
+updated: 2026-04-28
+version: 1.55.0
 reviews: 4
 website: 
 repository: 

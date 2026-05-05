@@ -9,8 +9,8 @@ appId: ng.dtunes.app
 alternativeStores: 
 appCountry: 
 released: 2021-12-29
-updated: 2026-03-23
-version: 3.0.0
+updated: 2026-04-28
+version: 3.0.1
 reviews: 36
 website: https://dtunes.ng
 repository: 

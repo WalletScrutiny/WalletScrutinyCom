@@ -9,8 +9,8 @@ appId: com.iggroup.android.cfd
 alternativeStores: 
 appCountry: br
 released: 2015-05-11
-updated: 2026-04-23
-version: 26.4.16
+updated: 2026-04-30
+version: 26.4.20
 reviews: 14
 website: https://www.ig.com
 repository: 

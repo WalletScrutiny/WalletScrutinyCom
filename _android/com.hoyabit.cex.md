@@ -9,8 +9,8 @@ appId: com.hoyabit.cex
 alternativeStores: 
 appCountry: 
 released: 2023-03-10
-updated: 2026-04-13
-version: 1.55.4
+updated: 2026-04-30
+version: 1.56.2
 reviews: 
 website: https://hoyabit.com/
 repository: 

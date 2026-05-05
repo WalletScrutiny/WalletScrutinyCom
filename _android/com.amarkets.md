@@ -9,9 +9,9 @@ appId: com.amarkets
 alternativeStores: 
 appCountry: us
 released: 2019-05-31
-updated: 2026-04-24
+updated: 2026-04-28
 version: 2.1.134
-reviews: 294
+reviews: 292
 website: https://www.amarkets.com
 repository: 
 icon: com.amarkets.png

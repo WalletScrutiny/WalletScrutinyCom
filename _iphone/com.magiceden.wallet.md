@@ -8,9 +8,9 @@ appId: com.magiceden.wallet
 appCountry: us
 idd: '6478631482'
 released: 2024-07-31
-updated: 2026-01-26
-version: 3.3.0
-reviews: 1945
+updated: 2026-04-01
+version: 3.3.1
+reviews: 1971
 website: https://wallet.magiceden.io/
 repository: 
 icon: com.magiceden.wallet.jpg

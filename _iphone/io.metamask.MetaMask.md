@@ -1,6 +1,6 @@
 ---
 wsId: metamask
-title: 'MetaMask: Crypto & Web3 Wallet'
+title: 'MetaMask: Trade Crypto'
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2026-01-31
-version: 7.62.2
-reviews: 73499
+updated: 2026-05-04
+version: 7.75.0
+reviews: 74693
 website: https://metamask.io/
 repository: 
 icon: io.metamask.MetaMask.jpg

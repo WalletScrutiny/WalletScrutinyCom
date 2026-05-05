@@ -9,9 +9,9 @@ appId: com.wealthsimple.trade
 alternativeStores: 
 appCountry: ca
 released: 2019-03-12
-updated: 2026-04-24
-version: 2.223.1
-reviews: 12945
+updated: 2026-05-02
+version: 2.224.0
+reviews: 12962
 website: https://www.wealthsimple.com/en-ca/
 repository: 
 icon: com.wealthsimple.trade.png

@@ -8,9 +8,9 @@ appId: com.weareblox.app
 appCountry: nl
 idd: '1444159776'
 released: 2019-01-16
-updated: 2026-01-26
-version: 6.8.1
-reviews: 5573
+updated: 2026-04-21
+version: 6.8.2
+reviews: 5606
 website: https://weareblox.com
 repository: 
 icon: com.weareblox.app.jpg

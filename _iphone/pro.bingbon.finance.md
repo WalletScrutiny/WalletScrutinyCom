@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: 'BingX: Buy Bitcoin & Crypto'
+title: 'BingX: Buy Crypto & Stocks'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,9 +9,9 @@ appId: pro.bingbon.finance
 appCountry: us
 idd: 1500217666
 released: 2020-02-25
-updated: 2025-11-11
-version: 4.71.0
-reviews: 2678
+updated: 2026-04-28
+version: 4.82.0
+reviews: 2940
 website: https://bingbon.com#deadLink
 repository: 
 icon: pro.bingbon.finance.jpg

@@ -9,8 +9,8 @@ appId: com.admiralmarkets.android
 alternativeStores: 
 appCountry: us
 released: 2020-10-07
-updated: 2026-04-20
-version: 1.12.12
+updated: 2026-04-28
+version: 1.13.4
 reviews: 4
 website: https://www.admiralmarkets.com
 repository: 

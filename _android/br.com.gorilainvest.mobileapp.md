@@ -9,8 +9,8 @@ appId: br.com.gorilainvest.mobileapp
 alternativeStores: 
 appCountry: 
 released: 2019-05-13
-updated: 2026-04-23
-version: 8.7.0
+updated: 2026-04-28
+version: 8.7.1
 reviews: 25
 website: https://gorila.com.br
 repository: 

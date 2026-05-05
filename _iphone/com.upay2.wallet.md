@@ -10,7 +10,7 @@ idd: '6745806643'
 released: 2025-05-16
 updated: 2026-01-14
 version: 1.0.6
-reviews: 5
+reviews: 6
 website: 
 repository: 
 icon: com.upay2.wallet.jpg

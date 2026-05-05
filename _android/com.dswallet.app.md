@@ -3,14 +3,14 @@ wsId: digitalShield
 title: 'Digital Shield: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.dswallet.app
 alternativeStores: 
 appCountry: 
 released: 2025-03-19
-updated: 2026-04-21
-version: 2.1.6
+updated: 2026-05-01
+version: 2.1.7
 reviews: 
 website: https://ds.pro
 repository: 
@@ -26,7 +26,7 @@ social:
 - https://discord.com/invite/digitshield
 - https://www.youtube.com/@DigitalShield-s6j
 - https://www.facebook.com/profile.php?id=61577514952314
-- https://t.me/DigitaShield 
+- https://t.me/DigitaShield
 redirect_from: 
 developerName: Yoime Technologie
 builds: 

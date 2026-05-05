@@ -1,6 +1,6 @@
 ---
 wsId: biscoint
-title: 'Bitybank: Bitcoin e Crypto'
+title: 'Bity: Bitcoin e Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
 released: 2022-02-09
-updated: 2026-01-22
-version: 2.9.8
-reviews: 8596
-website: https://bitybank.com.br/
+updated: 2026-03-17
+version: 2.9.12
+reviews: 8742
+website: https://bity.com.br/
 repository: 
 icon: io.biscoint.lite.jpg
 bugbounty: 

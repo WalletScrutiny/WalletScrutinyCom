@@ -11,14 +11,14 @@ released: 2022-03-15
 updated: 2024-04-09
 version: '1.26'
 reviews: 19
-website: https://slavi.io#deadLink
+website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
 icon: io.slavi.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: sourceavailable
 appHashes: []
-date: 2025-04-09
+date: 2026-05-05
 signer: 
 twitter: slavi_io
 social:

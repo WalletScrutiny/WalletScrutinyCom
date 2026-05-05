@@ -10,7 +10,7 @@ idd: 1573112964
 released: 2021-09-26
 updated: 2026-03-08
 version: 3.5.0
-reviews: 12
+reviews: 14
 website: https://www.coinmena.com/
 repository: 
 icon: com.coinmena.coinmenaapp.jpg

@@ -8,9 +8,9 @@ appId: com.mirai.miraiex
 appCountry: 'no'
 idd: '1542108249'
 released: 2021-01-09
-updated: 2026-01-14
-version: 3.7.0
-reviews: 10135
+updated: 2026-05-05
+version: 3.7.1
+reviews: 10232
 website: 
 repository: 
 icon: com.mirai.miraiex.jpg

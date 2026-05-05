@@ -26,7 +26,7 @@ social:
 - https://linktr.ee/unionex
 - https://t.me/UnionExGlobal
 - https://t.me/UnionEx_official_bot
-- https://unionex.medium.com/ 
+- https://unionex.medium.com/
 redirect_from: 
 developerName: UnionEx
 builds: 

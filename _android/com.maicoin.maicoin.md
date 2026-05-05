@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: us
 released: 2018-12-19
 updated: 2026-04-13
-version: 14.0.0
+version: 15.0.0
 reviews: 10
 website: https://maicoin.com
 repository: 

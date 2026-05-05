@@ -8,10 +8,10 @@ appId: org.reactjs.native.lemon.appLemonCash
 appCountry: ar
 idd: '1499421511'
 released: 2020-03-24
-updated: 2025-11-10
-version: 2.7.79
-reviews: 3937
-website: https://www.lemon.me/en
+updated: 2026-04-30
+version: 2.7.98
+reviews: 4025
+website: https://www.lemon.me/
 repository: 
 icon: org.reactjs.native.lemon.appLemonCash.jpg
 bugbounty: 

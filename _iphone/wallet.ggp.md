@@ -8,8 +8,8 @@ appId: wallet.ggp
 appCountry: us
 idd: '6692627990'
 released: 2024-11-10
-updated: 2025-11-12
-version: 1.4.5
+updated: 2026-03-10
+version: 1.5.5
 reviews: 9
 website: https://ggp.gg
 repository: 

@@ -9,8 +9,8 @@ appId: com.digifinex.app
 alternativeStores: 
 appCountry: 
 released: 2018-06-26
-updated: 2026-04-20
-version: 2026.04.15
+updated: 2026-04-29
+version: 2026.04.27
 reviews: 112
 website: https://www.digifinex.com/
 repository: 

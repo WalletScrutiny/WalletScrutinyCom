@@ -15,10 +15,10 @@ website: https://difx.com
 repository: 
 icon: app.difx.exchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-05-14
+date: 2026-05-05
 signer: 
 twitter: difx_io
 social:

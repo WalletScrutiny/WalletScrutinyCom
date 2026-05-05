@@ -9,8 +9,8 @@ appId: com.criptan.app
 alternativeStores: 
 appCountry: 
 released: 2020-08-23
-updated: 2026-04-06
-version: 3.3.6
+updated: 2026-04-24
+version: 3.3.10
 reviews: 
 website: https://criptan.com
 repository: 

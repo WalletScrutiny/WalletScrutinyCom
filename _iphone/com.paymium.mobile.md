@@ -8,9 +8,9 @@ appId: com.paymium.mobile
 appCountry: fr
 idd: 1055288395
 released: 2016-01-18
-updated: 2026-01-15
-version: 8.23.2
-reviews: 31
+updated: 2026-04-16
+version: 8.27.1
+reviews: 34
 website: https://www.paymium.com/
 repository: 
 icon: com.paymium.mobile.jpg

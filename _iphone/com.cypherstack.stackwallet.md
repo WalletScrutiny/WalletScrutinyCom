@@ -10,7 +10,7 @@ idd: '1634811534'
 released: 2022-08-26
 updated: 2026-02-07
 version: 2.4.4
-reviews: 22
+reviews: 25
 website: https://stackwallet.com/
 repository: 
 icon: com.cypherstack.stackwallet.jpg

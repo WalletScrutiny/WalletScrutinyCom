@@ -9,8 +9,8 @@ appId: com.coinspace.app
 alternativeStores: 
 appCountry: 
 released: 2015-05-01
-updated: 2026-04-14
-version: 6.26.0
+updated: 2026-05-01
+version: 6.26.1
 reviews: 110
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace

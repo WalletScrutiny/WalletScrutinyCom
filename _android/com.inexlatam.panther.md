@@ -8,9 +8,9 @@ appId: com.inexlatam.panther
 alternativeStores: 
 appCountry: 
 released: 2025-06-05
-updated: 2026-03-17
-version: 0.7.7
-reviews: 
+updated: 2026-04-30
+version: 0.8.0
+reviews: 4
 website: https://mypanther.io
 repository: 
 icon: com.inexlatam.panther.png

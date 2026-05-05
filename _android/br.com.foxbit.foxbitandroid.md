@@ -9,9 +9,9 @@ appId: br.com.foxbit.foxbitandroid
 alternativeStores: 
 appCountry: br
 released: 2019-01-28
-updated: 2026-04-13
-version: 3.40.0
-reviews: 6376
+updated: 2026-04-27
+version: 3.41.0
+reviews: 6380
 website: http://www.foxbit.com.br
 repository: 
 icon: br.com.foxbit.foxbitandroid.png

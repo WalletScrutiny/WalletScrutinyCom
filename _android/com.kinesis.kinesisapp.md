@@ -16,10 +16,10 @@ website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
 icon: com.kinesis.kinesisapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-15
+date: 2026-05-05
 signer: 
 twitter: KinesisMonetary
 social:

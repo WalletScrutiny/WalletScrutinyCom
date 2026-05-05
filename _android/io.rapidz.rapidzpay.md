@@ -9,8 +9,8 @@ appId: io.rapidz.rapidzpay
 alternativeStores: 
 appCountry: 
 released: 2021-06-21
-updated: 2026-04-24
-version: 4.7.3
+updated: 2026-04-28
+version: 4.7.4
 reviews: 6
 website: https://www.rapidz.io/
 repository: 

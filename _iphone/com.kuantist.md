@@ -8,10 +8,10 @@ appId: com.kuantist
 appCountry: tr
 idd: '6502112789'
 released: 2024-07-18
-updated: 2026-04-03
-version: 1.0.51
-reviews: 35
-website: https://www.kuantist.com
+updated: 2026-05-04
+version: 1.0.54
+reviews: 36
+website: https://www.kuantist.com/
 repository: 
 icon: com.kuantist.jpg
 bugbounty: 

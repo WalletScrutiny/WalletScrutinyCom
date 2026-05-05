@@ -8,9 +8,9 @@ appId: com.ourbit.www
 appCountry: us
 idd: '6483944320'
 released: 2024-07-28
-updated: 2026-01-31
-version: 1.17.2
-reviews: 115
+updated: 2026-05-05
+version: 1.20.1
+reviews: 139
 website: 
 repository: 
 icon: com.ourbit.www.jpg

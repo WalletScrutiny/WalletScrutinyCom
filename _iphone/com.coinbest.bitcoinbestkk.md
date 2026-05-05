@@ -10,7 +10,7 @@ idd: '1512389431'
 released: 2021-03-23
 updated: 2026-01-19
 version: 4.1.7
-reviews: 13
+reviews: 12
 website: https://coinbest.com
 repository: 
 icon: com.coinbest.bitcoinbestkk.jpg

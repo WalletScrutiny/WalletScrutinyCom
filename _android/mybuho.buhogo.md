@@ -8,8 +8,8 @@ appId: mybuho.buhogo
 alternativeStores: 
 appCountry: 
 released: 2025-09-26
-updated: 2026-03-09
-version: 1.8.0
+updated: 2026-05-01
+version: 1.8.1
 reviews: 
 website: 
 repository: 

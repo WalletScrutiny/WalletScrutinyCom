@@ -10,8 +10,8 @@ appId: com.roqqu.app
 alternativeStores: 
 appCountry: 
 released: 2019-09-30
-updated: 2026-04-19
-version: 2.5.89
+updated: 2026-05-02
+version: 2.5.90
 reviews: 906
 website: https://roqqu.com
 repository: 

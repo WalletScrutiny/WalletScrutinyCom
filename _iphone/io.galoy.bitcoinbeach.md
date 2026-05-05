@@ -10,7 +10,7 @@ idd: '1531383905'
 released: 2020-11-11
 updated: 2025-12-17
 version: 2.4.15
-reviews: 64
+reviews: 68
 website: https://www.blink.sv/en/features
 repository: https://github.com/GaloyMoney/galoy-mobile
 icon: io.galoy.bitcoinbeach.jpg

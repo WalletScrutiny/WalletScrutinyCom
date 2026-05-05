@@ -12,7 +12,7 @@ appCountry:
 released: 2018-06-29
 updated: 2026-04-17
 version: 2.18.1
-reviews: 631
+reviews: 632
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android
 icon: vip.mytokenpocket.png

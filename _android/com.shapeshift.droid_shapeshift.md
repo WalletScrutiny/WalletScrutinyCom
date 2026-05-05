@@ -12,7 +12,7 @@ appCountry:
 released: 2015-10-26
 updated: 2026-02-16
 version: 3.7.1
-reviews: 511
+reviews: 510
 website: https://ShapeShift.com
 repository: https://github.com/shapeshift/mobile-app
 icon: com.shapeshift.droid_shapeshift.png

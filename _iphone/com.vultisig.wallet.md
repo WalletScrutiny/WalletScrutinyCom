@@ -8,9 +8,9 @@ appId: com.vultisig.wallet
 appCountry: us
 idd: '6503023896'
 released: 2024-09-16
-updated: 2026-01-14
-version: '1.32'
-reviews: 39
+updated: 2026-03-31
+version: '1.35'
+reviews: 61
 website: https://vultisig.com
 repository: 
 icon: com.vultisig.wallet.jpg

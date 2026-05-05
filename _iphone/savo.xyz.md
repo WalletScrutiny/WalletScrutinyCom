@@ -7,9 +7,9 @@ appId: savo.xyz
 appCountry: us
 idd: '6742020669'
 released: 2025-02-18
-updated: 2026-01-13
-version: 1.3.53
-reviews: 136
+updated: 2026-04-29
+version: 1.4.20
+reviews: 168
 website: 
 repository: 
 icon: savo.xyz.jpg

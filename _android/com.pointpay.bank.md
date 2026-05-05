@@ -16,10 +16,10 @@ website: https://pointpay.io/
 repository: 
 icon: com.pointpay.bank.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-04-26
+date: 2026-05-05
 signer: 
 twitter: PointPay1
 social:

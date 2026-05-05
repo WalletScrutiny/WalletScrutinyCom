@@ -3,7 +3,7 @@ wsId: rubicoinWallet
 title: Rubicon Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: ua.rubicon.crypto.wallet
 alternativeStores: 

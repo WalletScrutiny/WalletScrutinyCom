@@ -9,8 +9,8 @@ appId: com.trading.aries
 alternativeStores: 
 appCountry: ng
 released: 2021-06-23
-updated: 2026-04-24
-version: 3.8.0
+updated: 2026-04-29
+version: 3.8.1
 reviews: 
 website: https://tradearies.com
 repository: 

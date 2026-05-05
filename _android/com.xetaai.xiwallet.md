@@ -8,8 +8,8 @@ appId: com.xetaai.xiwallet
 alternativeStores: 
 appCountry: 
 released: 2025-09-18
-updated: 2025-11-25
-version: 1.0.11
+updated: 2026-04-30
+version: 2.1.0
 reviews: 
 website: https://xetaai.io
 repository: 

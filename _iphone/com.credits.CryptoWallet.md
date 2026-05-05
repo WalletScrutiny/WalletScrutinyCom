@@ -11,14 +11,14 @@ released: 2020-07-21
 updated: 2025-04-18
 version: 3.4.1
 reviews: 0
-website: https://credits.com
+website: http://credits.com
 repository: 
 icon: com.credits.CryptoWallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-02
+date: 2026-05-05
 signer: 
 twitter: creditscom
 social:
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
 features: 
-developerName: UAB New Software Solutions
+developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 
 ---
 

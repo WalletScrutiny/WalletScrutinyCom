@@ -8,9 +8,9 @@ appId: com.tiger.cloudbase.thailand
 appCountry: th
 idd: '6450774618'
 released: 2023-11-21
-updated: 2026-01-22
-version: 1.50.0
-reviews: 13862
+updated: 2026-04-29
+version: 1.55.0
+reviews: 15279
 website: https://www.binance.th/en
 repository: 
 icon: com.tiger.cloudbase.thailand.jpg

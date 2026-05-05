@@ -9,8 +9,8 @@ appId: com.combiteu
 alternativeStores: 
 appCountry: 
 released: 2024-07-10
-updated: 2026-02-24
-version: 200.5.4
+updated: 2026-04-28
+version: 200.5.5
 reviews: 
 website: https://bit.eu
 repository: 

@@ -9,9 +9,9 @@ appId: world.bitkey.app
 alternativeStores: 
 appCountry: US
 released: 2024-02-28
-updated: 2026-04-24
-version: 2026.7.0 (2)
-reviews: 31
+updated: 2026-05-01
+version: 2026.8.0 (1)
+reviews: 32
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 icon: world.bitkey.app.png
@@ -33,7 +33,7 @@ social:
 redirect_from: 
 developerName: Block, Inc.
 builds:
-  - arch: arm64-v8a
+- arch: arm64-v8a
 features:
 - foss
 - multiSig

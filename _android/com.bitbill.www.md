@@ -10,8 +10,8 @@ appId: com.bitbill.www
 alternativeStores: 
 appCountry: 
 released: 2018-03-22
-updated: 2026-04-26
-version: 4.63.1
+updated: 2026-05-04
+version: 4.64.0
 reviews: 14
 website: https://ownbit.io
 repository: 

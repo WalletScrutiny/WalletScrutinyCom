@@ -15,10 +15,10 @@ website: https://mydreambit.com/
 repository: 
 icon: io.crypterium.minebest.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-22
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

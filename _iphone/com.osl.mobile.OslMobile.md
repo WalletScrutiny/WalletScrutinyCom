@@ -8,9 +8,9 @@ appId: com.osl.mobile.OslMobile
 appCountry: hk
 idd: '6468963677'
 released: 2024-01-22
-updated: 2026-01-22
-version: 3.6.12
-reviews: 524
+updated: 2026-04-29
+version: 3.6.20
+reviews: 528
 website: https://osl.com
 repository: 
 icon: com.osl.mobile.OslMobile.jpg

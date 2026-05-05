@@ -3,7 +3,7 @@ wsId: budgetCoinz
 title: BudgetCoinz Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: org.budgetcoinz.app
 alternativeStores: 

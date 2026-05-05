@@ -10,8 +10,8 @@ appId: casa.keymaster
 alternativeStores: 
 appCountry: 
 released: 2019-03-01
-updated: 2026-04-16
-version: 5.13.0
+updated: 2026-04-29
+version: 5.14.0
 reviews: 28
 website: https://keys.casa
 repository: 

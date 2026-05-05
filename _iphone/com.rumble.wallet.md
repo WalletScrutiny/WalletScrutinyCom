@@ -8,9 +8,9 @@ appId: com.rumble.wallet
 appCountry: us
 idd: '6748149951'
 released: 2025-12-15
-updated: 2026-01-20
-version: 1.2.0
-reviews: 23
+updated: 2026-05-01
+version: 2.0.4
+reviews: 44
 website: https://wallet.rumble.com
 repository: 
 icon: com.rumble.wallet.jpg

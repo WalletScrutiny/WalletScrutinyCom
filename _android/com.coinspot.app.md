@@ -11,7 +11,7 @@ appCountry: au
 released: 2020-10-07
 updated: 2026-04-13
 version: 3.10.2
-reviews: 2194
+reviews: 2195
 website: https://www.coinspot.com.au
 repository: 
 icon: com.coinspot.app.png

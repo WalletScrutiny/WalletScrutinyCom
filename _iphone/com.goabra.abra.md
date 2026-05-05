@@ -10,15 +10,15 @@ idd: 966301394
 released: 2015-03-12
 updated: 2024-02-16
 version: 145.0.0
-reviews: 160
+reviews: 161
 website: 
 repository: 
 icon: com.goabra.abra.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-02-13
+date: 2026-05-05
 signer: 
 twitter: AbraGlobal
 social:

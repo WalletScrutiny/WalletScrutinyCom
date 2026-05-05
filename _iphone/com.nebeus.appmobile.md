@@ -1,6 +1,6 @@
 ---
 wsId: nebeus
-title: 'Nebeus: IBANs for Crypto'
+title: 'Nebeus: Crypto Finance'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.nebeus.appmobile
 appCountry: gt
 idd: '1568251064'
 released: 2021-05-26
-updated: 2025-12-04
-version: 2.1.3
+updated: 2026-02-11
+version: 2.1.4
 reviews: 0
 website: https://nebeus.com
 repository: 

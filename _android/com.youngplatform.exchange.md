@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 
 updated: 2026-04-27
-version: 3.24.0
+version: 3.25.0
 reviews: 
 website: https://exchange.youngplatform.com
 repository: 

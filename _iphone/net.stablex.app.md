@@ -1,6 +1,6 @@
 ---
 wsId: stablexKripto
-title: Stablex | Kripto Para Al-Sat
+title: Stablex | Kripto Para Borsası
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: net.stablex.app
 appCountry: tr
 idd: '1591457284'
 released: 2021-10-26
-updated: 2025-11-14
-version: 3.0.32
-reviews: 107
+updated: 2026-04-30
+version: 4.0.10
+reviews: 200
 website: https://stablex.com.tr
 repository: 
 icon: net.stablex.app.jpg

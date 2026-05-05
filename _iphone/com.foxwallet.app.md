@@ -8,9 +8,9 @@ appId: com.foxwallet.app
 appCountry: us
 idd: '1590983231'
 released: 2021-11-10
-updated: 2026-02-06
-version: 5.5.16
-reviews: 87
+updated: 2026-04-10
+version: 5.5.20
+reviews: 86
 website: https://foxwallet.com/
 repository: 
 icon: com.foxwallet.app.jpg

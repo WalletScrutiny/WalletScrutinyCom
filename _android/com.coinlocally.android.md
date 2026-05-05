@@ -11,7 +11,7 @@ appCountry:
 released: 2022-04-21
 updated: 2026-04-10
 version: 5.0.10
-reviews: 96
+reviews: 95
 website: https://coinlocally.com
 repository: 
 icon: com.coinlocally.android.png

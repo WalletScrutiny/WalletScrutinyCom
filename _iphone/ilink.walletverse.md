@@ -8,9 +8,9 @@ appId: ilink.walletverse
 appCountry: us
 idd: '6462672660'
 released: 2023-10-15
-updated: 2026-01-22
-version: 1.15.29
-reviews: 43
+updated: 2026-05-05
+version: 1.16.9
+reviews: 40
 website: https://walletverse.io
 repository: 
 icon: ilink.walletverse.jpg

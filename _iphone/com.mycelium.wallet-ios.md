@@ -8,9 +8,9 @@ appId: com.mycelium.wallet-ios
 appCountry: 
 idd: 943912290
 released: 2014-12-17
-updated: 2026-01-26
-version: '2.3'
-reviews: 1
+updated: 2026-03-27
+version: '2.7'
+reviews: 2
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
 icon: com.mycelium.wallet-ios.jpg

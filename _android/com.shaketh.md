@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2018-02-20
 updated: 2026-04-27
-version: 4.6.21
+version: 4.6.22
 reviews: 21
 website: https://shakepay.com
 repository: 

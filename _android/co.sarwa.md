@@ -16,10 +16,10 @@ website: https://www.sarwa.co
 repository: 
 icon: co.sarwa.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-07-28
+date: 2026-05-05
 signer: 
 twitter: SarwaCo
 social:

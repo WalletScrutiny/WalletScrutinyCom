@@ -9,8 +9,8 @@ appId: com.applemoncash
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-21
-version: 2.7.97
+updated: 2026-04-29
+version: 2.7.98
 reviews: 11
 website: https://lemon.me
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: iMeMessenger
-title: 'iMe: AI Messenger for Telegram'
+title: 'iMe: Telegram AI Messenger'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.olcorporation.olai
 appCountry: us
 idd: '1450480822'
 released: 2019-07-31
-updated: 2025-12-30
-version: 12.2.3
-reviews: 7822
+updated: 2026-04-22
+version: 12.2.6
+reviews: 8276
 website: https://imem.app/
 repository: 
 icon: com.olcorporation.olai.jpg

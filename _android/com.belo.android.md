@@ -9,8 +9,8 @@ appId: com.belo.android
 alternativeStores: 
 appCountry: 
 released: 2021-08-23
-updated: 2026-03-19
-version: 7.16.0
+updated: 2026-04-27
+version: 7.17.4
 reviews: 68
 website: https://belo.app
 repository: 

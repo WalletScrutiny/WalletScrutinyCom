@@ -9,8 +9,8 @@ appId: vip.sing.exchange
 alternativeStores: 
 appCountry: 
 released: 2021-05-11
-updated: 2026-04-16
-version: 4.3.3.27
+updated: 2026-04-28
+version: 4.3.3.28
 reviews: 3
 website: https://www.starex.sg/
 repository: 

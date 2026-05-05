@@ -9,8 +9,8 @@ appId: one.big
 alternativeStores: 
 appCountry: us
 released: 2019-10-30
-updated: 2026-04-03
-version: 2.6.420
+updated: 2026-05-01
+version: 2.6.5
 reviews: 56
 website: https://www.b1.zone/
 repository: 

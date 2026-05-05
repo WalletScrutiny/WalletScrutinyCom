@@ -9,9 +9,9 @@ appId: io.gosats
 alternativeStores: 
 appCountry: 
 released: 2021-01-06
-updated: 2026-04-22
-version: 3.0.4
-reviews: 4
+updated: 2026-04-30
+version: 3.0.5
+reviews: 5
 website: https://gosats.io
 repository: 
 icon: io.gosats.png

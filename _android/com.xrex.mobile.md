@@ -9,8 +9,8 @@ appId: com.xrex.mobile
 alternativeStores: 
 appCountry: au
 released: 2020-02-20
-updated: 2026-04-20
-version: 2.1.878
+updated: 2026-04-30
+version: 2.1.890
 reviews: 
 website: https://xrex.io/
 repository: 

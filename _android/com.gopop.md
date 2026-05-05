@@ -15,10 +15,10 @@ website: https://www.gopop.app
 repository: 
 icon: com.gopop.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2025-09-29
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

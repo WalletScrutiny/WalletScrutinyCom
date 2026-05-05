@@ -8,8 +8,8 @@ appId: com.deskoin.app
 appCountry: fr
 idd: '6451258830'
 released: 2023-12-02
-updated: 2026-04-09
-version: 7.5.15
+updated: 2026-05-04
+version: 7.6.10
 reviews: 393
 website: https://www.deskoin.com/
 repository: 

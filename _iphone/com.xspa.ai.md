@@ -8,9 +8,9 @@ appId: com.xspa.ai
 appCountry: us
 idd: '6749689372'
 released: 2025-08-17
-updated: 2026-01-23
-version: 1.0.9
-reviews: 10
+updated: 2026-04-16
+version: 1.0.15
+reviews: 12
 website: 
 repository: 
 icon: com.xspa.ai.jpg

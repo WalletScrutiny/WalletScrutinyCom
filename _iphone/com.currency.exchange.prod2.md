@@ -8,9 +8,9 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2026-01-15
-version: 2.18.10
-reviews: 4430
+updated: 2026-03-26
+version: 2.19.1
+reviews: 4474
 website: https://dzengi.com/ads
 repository: 
 icon: com.currency.exchange.prod2.jpg

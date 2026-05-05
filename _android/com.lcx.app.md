@@ -9,8 +9,8 @@ appId: com.lcx.app
 alternativeStores: 
 appCountry: 
 released: 2021-10-26
-updated: 2026-04-15
-version: 2.4.5
+updated: 2026-04-28
+version: 2.4.6
 reviews: 39
 website: https://lcx.com
 repository: 

@@ -8,9 +8,9 @@ appId: com.korbit.exchange
 appCountry: kr
 idd: 1434511619
 released: 2018-10-18
-updated: 2026-01-22
-version: 11.10.6
-reviews: 625
+updated: 2026-04-29
+version: 11.14.0
+reviews: 629
 website: http://www.korbit.co.kr
 repository: 
 icon: com.korbit.exchange.jpg

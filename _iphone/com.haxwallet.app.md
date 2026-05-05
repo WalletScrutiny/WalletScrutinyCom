@@ -10,7 +10,7 @@ idd: '6447614026'
 released: 2023-08-23
 updated: 2025-12-15
 version: 3.5.2
-reviews: 425
+reviews: 427
 website: 
 repository: 
 icon: com.haxwallet.app.jpg

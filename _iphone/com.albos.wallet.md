@@ -3,7 +3,7 @@ wsId: albosWallet
 title: ALBOS
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.albos.wallet
 appCountry: vn
 idd: '1470902980'

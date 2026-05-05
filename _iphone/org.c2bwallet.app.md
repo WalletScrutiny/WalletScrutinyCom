@@ -8,9 +8,9 @@ appId: org.c2bwallet.app
 appCountry: us
 idd: '6502400846'
 released: 2024-06-26
-updated: 2025-04-25
-version: 1.4.3
-reviews: 15
+updated: 2026-01-14
+version: 1.6.0
+reviews: 13
 website: https://cash2bitcoin.com/
 repository: 
 icon: org.c2bwallet.app.jpg

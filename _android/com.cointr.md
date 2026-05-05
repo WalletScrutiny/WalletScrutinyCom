@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2022-08-17
 updated: 2026-04-26
-version: 3.26.0
+version: 3.27.0
 reviews: 9
 website: https://support.cointr.com
 repository: 

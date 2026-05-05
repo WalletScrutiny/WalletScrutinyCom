@@ -9,8 +9,8 @@ appId: com.btcturk.pro
 alternativeStores: 
 appCountry: 
 released: 2020-09-10
-updated: 2026-04-02
-version: 2.41.0
+updated: 2026-04-29
+version: 2.42.0
 reviews: 232
 website: https://kripto.btcturk.com
 repository: 

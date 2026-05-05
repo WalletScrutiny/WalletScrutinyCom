@@ -8,8 +8,8 @@ appId: nz.lightningpay.wallet
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-23
-version: 3.1.0
+updated: 2026-04-29
+version: 3.1.2
 reviews: 
 website: https://stackedbitcoin.com
 repository: 

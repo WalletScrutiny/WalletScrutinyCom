@@ -4,14 +4,14 @@ title: 'Fasset: Global Digital Bank'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.fasset.cashapp
 alternativeStores: 
 appCountry: 
 released: 2021-12-14
 updated: 2026-04-27
 version: '6.6'
-reviews: 13
+reviews: 14
 website: https://www.fasset.io/
 repository: 
 icon: com.fasset.cashapp.png

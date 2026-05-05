@@ -8,8 +8,8 @@ appId: kanga.mobile
 appCountry: jp
 idd: '1471634153'
 released: 2020-02-13
-updated: 2025-11-14
-version: 1.27.1
+updated: 2026-04-28
+version: 1.29.1
 reviews: 7
 website: http://kanga.exchange
 repository: 
@@ -27,7 +27,7 @@ social:
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
 - https://www.facebook.com/kanga.exchange/
 features: 
-developerName: Grupa IT Sp. z o.o.
+developerName: Kanga Global
 
 ---
 

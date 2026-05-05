@@ -9,8 +9,8 @@ appId: com.lnflash
 alternativeStores: 
 appCountry: 
 released: 2024-01-07
-updated: 2026-04-18
-version: 0.5.1
+updated: 2026-05-02
+version: 0.5.2
 reviews: 
 website: https://getflash.io
 repository: https://github.com/lnflash/flash-mobile

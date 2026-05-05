@@ -9,7 +9,7 @@ idd: '6463799763'
 released: 2024-11-19
 updated: 2025-08-30
 version: 1.0.16
-reviews: 37
+reviews: 38
 website: https://satoshi.money/
 repository: 
 icon: com.stba.satoshi.jpg

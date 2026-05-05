@@ -8,9 +8,9 @@ appId: com.swissquote.Yuh
 appCountry: ch
 idd: '1493935010'
 released: 2021-05-10
-updated: 2026-02-02
-version: 1.37.2
-reviews: 20243
+updated: 2026-05-04
+version: 1.43.1
+reviews: 21023
 website: https://www.yuh.com
 repository: 
 icon: com.swissquote.Yuh.jpg

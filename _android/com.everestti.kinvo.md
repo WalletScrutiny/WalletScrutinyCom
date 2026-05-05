@@ -9,9 +9,9 @@ appId: com.everestti.kinvo
 alternativeStores: 
 appCountry: BR
 released: 2017-12-22
-updated: 2026-04-16
-version: 3.60.0
-reviews: 7546
+updated: 2026-05-04
+version: 3.62.0
+reviews: 7547
 website: http://www.kinvo.com.br
 repository: 
 icon: com.everestti.kinvo.png

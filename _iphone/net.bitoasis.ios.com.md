@@ -8,9 +8,9 @@ appId: net.bitoasis.ios.com
 appCountry: ae
 idd: 1521661794
 released: 2020-07-06
-updated: 2025-10-31
-version: 2.3.8
-reviews: 4489
+updated: 2026-04-22
+version: 2.4.1
+reviews: 4499
 website: https://bitoasis.net/en/home
 repository: 
 icon: net.bitoasis.ios.com.jpg

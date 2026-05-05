@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: gb
 released: 2021-01-11
 updated: 2026-04-21
-version: '1.252'
+version: '1.253'
 reviews: 38
 website: https://www.forex.com
 repository: 

@@ -10,7 +10,7 @@ released: 2018-09-20
 updated: 2023-05-22
 version: '2'
 reviews: 1
-website: http://wampum1st.com#deadLink
+website: http://wampum1st.com
 repository: 
 icon: com.itm.ww.Todaysapp.jpg
 bugbounty: 

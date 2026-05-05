@@ -9,8 +9,8 @@ appId: com.wirex.wallet
 alternativeStores: 
 appCountry: nz
 released: 2021-12-03
-updated: 2026-04-21
-version: 3.0.2
+updated: 2026-04-30
+version: 3.1.1
 reviews: 16
 website: https://wirexapp.com/wirex-wallet#deadLink
 repository: 

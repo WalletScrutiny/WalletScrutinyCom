@@ -15,10 +15,10 @@ website: https://www.ziglu.io
 repository: 
 icon: hippotech.bank.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-12-15
+date: 2026-05-05
 signer: 
 twitter: ziglumoney
 social:

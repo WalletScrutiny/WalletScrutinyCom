@@ -15,10 +15,10 @@ website: https://union.cash
 repository: 
 icon: com.union.cash.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-06
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

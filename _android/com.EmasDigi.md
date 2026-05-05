@@ -9,7 +9,7 @@ appId: com.EmasDigi
 alternativeStores: 
 appCountry: 
 released: 2018-01-21
-updated: 2026-04-27
+updated: 2026-05-02
 version: 7.2.0
 reviews: 123
 website: https://pluang.com

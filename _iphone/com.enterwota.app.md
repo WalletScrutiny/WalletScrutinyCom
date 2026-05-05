@@ -3,7 +3,7 @@ wsId: wota
 title: 'Wota: Amplify Your Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.enterwota.app
 appCountry: us
 idd: '1552728908'

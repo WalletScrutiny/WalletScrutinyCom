@@ -3,7 +3,7 @@ wsId:
 title: iLuminary - BTC, SOL, USDT
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.iluminary
 alternativeStores: 

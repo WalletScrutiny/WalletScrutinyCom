@@ -9,8 +9,8 @@ appId: com.dok.wallet
 alternativeStores: 
 appCountry: il
 released: 2020-09-28
-updated: 2026-04-06
-version: '3.14'
+updated: 2026-04-30
+version: '3.16'
 reviews: 15
 website: https://dokwallet.com/
 repository: 

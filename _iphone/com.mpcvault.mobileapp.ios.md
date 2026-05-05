@@ -8,9 +8,9 @@ appId: com.mpcvault.mobileapp.ios
 appCountry: us
 idd: '1622756458'
 released: 2022-09-13
-updated: 2026-01-26
-version: 1.129.0
-reviews: 139
+updated: 2026-04-30
+version: 1.138.0
+reviews: 135
 website: https://mpcvault.com/
 repository: 
 icon: com.mpcvault.mobileapp.ios.jpg

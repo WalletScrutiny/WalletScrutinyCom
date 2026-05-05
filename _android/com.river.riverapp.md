@@ -9,8 +9,8 @@ appId: com.river.riverapp
 alternativeStores: 
 appCountry: 
 released: 2023-10-20
-updated: 2026-04-24
-version: 7.12.3
+updated: 2026-05-01
+version: 7.28.0
 reviews: 298
 website: https://river.com/
 repository: 

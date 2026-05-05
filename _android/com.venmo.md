@@ -9,9 +9,9 @@ appId: com.venmo
 alternativeStores: 
 appCountry: 
 released: 2010-05-17
-updated: 2026-04-15
+updated: 2026-05-01
 version: 26.7.0
-reviews: 351844
+reviews: 352433
 website: https://venmo.com/
 repository: 
 icon: com.venmo.png

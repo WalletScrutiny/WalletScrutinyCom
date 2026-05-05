@@ -7,9 +7,9 @@ appId: com.nova.dax
 appCountry: br
 idd: 1472203612
 released: 2019-10-02
-updated: 2025-12-30
-version: 3.6.2
-reviews: 2665
+updated: 2026-04-10
+version: 3.6.4
+reviews: 2699
 website: 
 repository: 
 icon: com.nova.dax.jpg

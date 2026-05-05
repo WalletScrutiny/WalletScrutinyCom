@@ -8,9 +8,9 @@ appId: com.safello.iosapp
 appCountry: se
 idd: '1514429922'
 released: 2020-06-18
-updated: 2026-01-22
-version: 1.56.1
-reviews: 3249
+updated: 2026-04-23
+version: 1.62.1
+reviews: 3298
 website: https://safello.com/
 repository: 
 icon: com.safello.iosapp.jpg

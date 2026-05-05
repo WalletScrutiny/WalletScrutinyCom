@@ -15,10 +15,10 @@ website: https://tokenize.exchange
 repository: 
 icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2026-05-05
 signer: 
 twitter: TokenizeXchange
 social:

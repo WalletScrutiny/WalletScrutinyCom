@@ -9,9 +9,9 @@ appId: com.coinbase.android
 alternativeStores: 
 appCountry: 
 released: 2013-03-01
-updated: 2026-04-24
-version: 14.15.19
-reviews: 117242
+updated: 2026-05-01
+version: 14.16.25
+reviews: 117318
 website: https://coinbase.com/
 repository: 
 icon: com.coinbase.android.jpg

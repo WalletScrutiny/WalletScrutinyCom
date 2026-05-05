@@ -9,8 +9,8 @@ appId: com.btckorea.bithumb
 alternativeStores: 
 appCountry: 
 released: 2017-09-26
-updated: 2026-04-14
-version: 3.8.0
+updated: 2026-04-27
+version: 3.8.1
 reviews: 73
 website: http://www.bithumb.com/
 repository: 

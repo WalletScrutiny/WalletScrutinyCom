@@ -9,8 +9,8 @@ appId: com.tapngo.tap
 alternativeStores: 
 appCountry: gb
 released: 2019-12-19
-updated: 2026-04-24
-version: 3.7.9
+updated: 2026-04-29
+version: 3.8.0
 reviews: 301
 website: https://www.withtap.com
 repository: 

@@ -8,8 +8,8 @@ appId: com.voox.www
 appCountry: us
 idd: '6670600403'
 released: 2024-10-10
-updated: 2026-01-30
-version: 1.4.9
+updated: 2026-04-17
+version: 1.5.2
 reviews: 6
 website: 
 repository: 

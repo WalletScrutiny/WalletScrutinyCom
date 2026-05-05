@@ -9,8 +9,8 @@ appId: com.ourbit.client
 alternativeStores: 
 appCountry: 
 released: 2024-04-05
-updated: 2026-04-24
-version: 1.19.7
+updated: 2026-05-03
+version: 1.20.1
 reviews: 56
 website: https://www.ourbit.com
 repository: 

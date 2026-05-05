@@ -8,9 +8,9 @@ appId: au.com.swyftx.ios
 appCountry: au
 idd: '1516986805'
 released: 2020-07-01
-updated: 2026-04-06
-version: 2.8.43
-reviews: 6030
+updated: 2026-04-30
+version: 2.8.44
+reviews: 6029
 website: https://swyftx.com
 repository: 
 icon: au.com.swyftx.ios.jpg

@@ -8,8 +8,8 @@ appId: org.paypilot.app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-22
-version: 1.4.0
+updated: 2026-04-28
+version: 1.5.0
 reviews: 
 website: https://www.paypilot.org
 repository: 

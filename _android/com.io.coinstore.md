@@ -16,10 +16,10 @@ website: https://www.coinstore.com
 repository: 
 icon: com.io.coinstore.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-06-22
+date: 2026-05-05
 signer: 
 twitter: coinstore_en
 social:

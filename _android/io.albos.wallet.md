@@ -3,7 +3,7 @@ wsId: albosWallet
 title: ALBOS Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500
 appId: io.albos.wallet
 alternativeStores: 

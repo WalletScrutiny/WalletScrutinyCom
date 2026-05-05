@@ -16,10 +16,10 @@ website: https://mercuryo.io
 repository: 
 icon: com.mercuryo.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2020-11-17
+date: 2026-05-05
 signer: 
 twitter: Mercuryo_io
 social:

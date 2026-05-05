@@ -3,7 +3,7 @@ wsId: rubicoinWallet
 title: Rubicon Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: money.rubicoin.wallet
 appCountry: ua
 idd: '1669771187'
@@ -11,7 +11,7 @@ released: '2023-04-06T07:00:00Z'
 updated: 2025-12-30
 version: 1.5.4
 reviews: 16
-website: ''
+website: 
 repository: 
 icon: money.rubicoin.wallet.jpg
 bugbounty: 

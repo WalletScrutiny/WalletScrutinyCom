@@ -9,8 +9,8 @@ appId: com.ripio.android
 alternativeStores: 
 appCountry: 
 released: 2015-06-01
-updated: 2026-04-24
-version: 6.5.9
+updated: 2026-04-30
+version: 6.6.1
 reviews: 178
 website: https://ripio.com
 repository: 

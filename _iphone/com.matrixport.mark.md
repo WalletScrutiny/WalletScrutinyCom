@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: 'Matrixport: Crypto Services'
+title: BIT (formerly Matrixport)
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2026-01-29
-version: 4.4.90
-reviews: 48
-website: https://www.matrixport.com
+updated: 2026-04-20
+version: 4.5.70
+reviews: 52
+website: https://www.bit.com
 repository: 
 icon: com.matrixport.mark.jpg
 bugbounty: 

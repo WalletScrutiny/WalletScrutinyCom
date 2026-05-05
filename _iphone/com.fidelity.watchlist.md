@@ -8,9 +8,9 @@ appId: com.fidelity.watchlist
 appCountry: us
 idd: '348177453'
 released: 2010-02-22
-updated: 2026-02-17
-version: '4.26'
-reviews: 3001876
+updated: 2026-04-30
+version: '4.31'
+reviews: 3087283
 website: http://www.fidelity.com
 repository: 
 icon: com.fidelity.watchlist.jpg

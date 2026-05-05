@@ -11,7 +11,7 @@ appCountry:
 released: 2021-12-14
 updated: 2026-04-23
 version: 3.11.12
-reviews: 47
+reviews: 48
 website: 
 repository: 
 icon: co.zoomex.app.png

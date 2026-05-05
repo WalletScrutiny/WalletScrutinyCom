@@ -8,9 +8,9 @@ appId: br.com.mynt
 appCountry: br
 idd: '1592181444'
 released: 2022-06-19
-updated: 2026-04-17
-version: 1.105.0
-reviews: 1864
+updated: 2026-04-29
+version: 1.106.1
+reviews: 1868
 website: 
 repository: 
 icon: br.com.mynt.jpg

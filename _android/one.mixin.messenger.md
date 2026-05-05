@@ -11,8 +11,8 @@ appId: one.mixin.messenger
 alternativeStores: 
 appCountry: us
 released: 2018-05-24
-updated: 2026-04-24
-version: 4.1.3
+updated: 2026-04-30
+version: 4.1.5
 reviews: 153
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app

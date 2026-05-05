@@ -8,8 +8,8 @@ appId: com.ethos2.app
 appCountry: nl
 idd: '6450948705'
 released: 2023-09-10
-updated: 2026-02-03
-version: 5.3.3
+updated: 2026-05-01
+version: 5.4.0
 reviews: 2
 website: https://www.ethosdefi.com
 repository: 

@@ -8,10 +8,10 @@ appId: com.squirrelwallet.onekey
 appCountry: ca
 idd: '6739630128'
 released: 2025-06-07
-updated: 2025-10-23
-version: 1.0.5
+updated: 2026-02-16
+version: 1.0.6
 reviews: 2
-website: 
+website: https://www.squirrelwallet.com/
 repository: 
 icon: com.squirrelwallet.onekey.jpg
 bugbounty: 

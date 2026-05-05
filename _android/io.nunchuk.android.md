@@ -12,8 +12,8 @@ appId: io.nunchuk.android
 alternativeStores: 
 appCountry: 
 released: 2021-11-11
-updated: 2026-04-22
-version: 2.4.2
+updated: 2026-04-29
+version: 2.4.3
 reviews: 41
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android

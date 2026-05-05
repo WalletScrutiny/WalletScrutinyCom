@@ -1,6 +1,6 @@
 ---
 wsId: Mixin
-title: Mixin Messenger
+title: Mixin - Private Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
 released: 2018-01-20
-updated: 2025-11-21
-version: 3.6.0
-reviews: 1084
+updated: 2026-05-02
+version: 4.1.1
+reviews: 1142
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork/android-app
 icon: one.mixin.messenger.jpg

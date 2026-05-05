@@ -9,8 +9,8 @@ appId: com.xtb.xmobile2
 alternativeStores: 
 appCountry: 
 released: 2014-12-17
-updated: 2026-04-27
-version: 2.166.0
+updated: 2026-05-04
+version: 2.167.0
 reviews: 214
 website: http://www.xtb.com
 repository: 

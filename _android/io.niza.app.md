@@ -16,10 +16,10 @@ website: https://niza.io
 repository: 
 icon: io.niza.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-11-09
+date: 2026-05-05
 signer: 
 twitter: nizacoin
 social:

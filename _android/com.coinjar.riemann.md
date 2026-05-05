@@ -9,8 +9,8 @@ appId: com.coinjar.riemann
 alternativeStores: 
 appCountry: au
 released: 2019-11-21
-updated: 2026-04-17
-version: 3.53.0
+updated: 2026-05-04
+version: 3.54.3
 reviews: 1167
 website: https://www.coinjar.com
 repository: 

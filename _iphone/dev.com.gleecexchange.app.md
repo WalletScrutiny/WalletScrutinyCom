@@ -7,10 +7,10 @@ appId: dev.com.gleecexchange.app
 appCountry: ca
 idd: '1541005487'
 released: 2021-02-18
-updated: 2025-11-07
-version: 1.40.0
+updated: 2026-04-01
+version: 1.42.0
 reviews: 0
-website: https://gleecbtc.com#deadLink
+website: https://gleecbtc.com
 repository: 
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 

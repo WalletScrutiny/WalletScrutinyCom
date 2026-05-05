@@ -9,8 +9,8 @@ appId: com.deskoin.app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-07
-version: 7.5.15
+updated: 2026-04-30
+version: 7.6.10
 reviews: 
 website: https://www.deskoin.com/
 repository: 

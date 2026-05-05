@@ -10,7 +10,7 @@ idd: '1629762278'
 released: 2022-06-21
 updated: 2024-01-06
 version: 1.17.6
-reviews: 66
+reviews: 65
 website: https://www.tatcoin.com
 repository: 
 icon: com.tatspaceapp.jpg

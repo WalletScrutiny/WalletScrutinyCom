@@ -8,9 +8,9 @@ appId: com.wiseki.sekiapp.new
 appCountry: ng
 idd: '1622624126'
 released: 2022-06-22
-updated: 2025-11-05
-version: 2.3.5
-reviews: 83
+updated: 2026-04-03
+version: 2.3.6
+reviews: 85
 website: 
 repository: 
 icon: com.wiseki.sekiapp.new.jpg

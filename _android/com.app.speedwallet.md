@@ -11,7 +11,7 @@ appCountry:
 released: 2023-06-18
 updated: 2026-04-24
 version: 2.4.36.0.0.0.fp.gps
-reviews: 1259
+reviews: 1270
 website: https://www.speed.app/
 repository: 
 icon: com.app.speedwallet.png

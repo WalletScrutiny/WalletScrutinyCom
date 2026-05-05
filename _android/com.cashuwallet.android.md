@@ -3,7 +3,7 @@ wsId:
 title: CashuWallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.cashuwallet.android
 alternativeStores: 
 appCountry: 

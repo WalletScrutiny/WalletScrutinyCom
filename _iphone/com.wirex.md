@@ -10,7 +10,7 @@ idd: 1090004654
 released: 2016-03-22
 updated: 2026-01-23
 version: 4.11.75
-reviews: 831
+reviews: 843
 website: https://wirexapp.com/
 repository: 
 icon: com.wirex.jpg

@@ -3,7 +3,7 @@ wsId: puraVidaBitcoin
 title: Pura Vida Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.puravidabitcoin.app
 appCountry: us
 idd: '6443837514'
@@ -31,4 +31,5 @@ features:
 developerName: Pura Vida Technologies S.A.
 
 ---
+
 {% include copyFromAndroid.html %}

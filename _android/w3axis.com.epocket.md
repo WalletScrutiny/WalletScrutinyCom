@@ -9,8 +9,8 @@ appId: w3axis.com.epocket
 alternativeStores: 
 appCountry: 
 released: 2018-06-23
-updated: 2026-04-16
-version: '3.35'
+updated: 2026-04-28
+version: '3.36'
 reviews: 2
 website: https://www.e-pocketexchange.com/
 repository: 

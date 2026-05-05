@@ -11,7 +11,7 @@ appCountry:
 released: 2016-03-31
 updated: 2026-04-08
 version: 4.12.70
-reviews: 1112
+reviews: 1111
 website: https://wirexapp.com
 repository: 
 icon: com.wirex.png

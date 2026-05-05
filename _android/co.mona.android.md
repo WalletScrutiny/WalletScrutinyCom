@@ -12,7 +12,7 @@ appCountry:
 released: 2017-08-30
 updated: 2026-04-27
 version: 3.232.0
-reviews: 56446
+reviews: 56458
 website: https://crypto.com/
 repository: 
 icon: co.mona.android.jpg

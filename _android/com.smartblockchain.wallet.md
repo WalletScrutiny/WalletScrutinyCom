@@ -9,8 +9,8 @@ appId: com.smartblockchain.wallet
 alternativeStores: 
 appCountry: 
 released: 2023-07-20
-updated: 2026-03-24
-version: 2.6.0
+updated: 2026-04-27
+version: 2.6.1
 reviews: 33
 website: https://smartwallet.com
 repository: 

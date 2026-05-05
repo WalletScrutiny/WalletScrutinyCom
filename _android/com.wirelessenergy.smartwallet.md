@@ -3,7 +3,7 @@ wsId: swtWallet
 title: SWT Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500
 appId: com.wirelessenergy.smartwallet
 alternativeStores: 

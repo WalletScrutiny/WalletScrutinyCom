@@ -3,7 +3,7 @@ wsId: guapBitcoinWallet
 title: Guap - Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.useguap.ios.rn
 appCountry: us
 idd: '6744361725'

@@ -8,9 +8,9 @@ appId: com.gateio.app.gateio-app
 appCountry: id
 idd: 1294998195
 released: 2017-11-03
-updated: 2026-02-16
-version: 8.9.0
-reviews: 1418
+updated: 2026-04-30
+version: 8.18.5
+reviews: 1424
 website: https://www.gate.com
 repository: 
 icon: com.gateio.app.gateio-app.jpg

@@ -15,10 +15,10 @@ website: http://xcelpay.io
 repository: 
 icon: com.xcelpay.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-03-14
+date: 2026-05-05
 signer: 
 twitter: XcelPayWallet
 social:

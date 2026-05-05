@@ -1,6 +1,6 @@
 ---
 wsId: neverlessBuyBitcoin
-title: 'Neverless: Buy Crypto & Metals'
+title: 'Neverless: Grow your wealth'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: money.boku.android
 alternativeStores: 
 appCountry: 
 released: 2023-10-17
-updated: 2026-04-20
-version: 1.3.193
+updated: 2026-05-01
+version: 1.3.200
 reviews: 15
 website: https://neverless.com
 repository: 

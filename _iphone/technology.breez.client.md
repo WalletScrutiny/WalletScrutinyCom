@@ -10,15 +10,15 @@ idd: '1463604142'
 released: 2022-05-01
 updated: 2025-01-14
 version: 1.1.21
-reviews: 43
+reviews: 42
 website: 
 repository: https://github.com/breez/breezmobile
 icon: technology.breez.client.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2023-12-15
+date: 2026-05-05
 signer: 
 twitter: breez_tech
 social:

@@ -16,10 +16,10 @@ website: https://web.tokero.com
 repository: 
 icon: com.ldvtech.tokero.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-28
+date: 2026-05-05
 signer: 
 twitter: tokeroexchange
 social:

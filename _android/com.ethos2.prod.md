@@ -9,8 +9,8 @@ appId: com.ethos2.prod
 alternativeStores: 
 appCountry: 
 released: 2023-06-26
-updated: 2026-01-30
-version: 5.3.3
+updated: 2026-05-01
+version: 5.4.0
 reviews: 19
 website: https://www.ethos.io
 repository: 

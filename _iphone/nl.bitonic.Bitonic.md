@@ -8,9 +8,9 @@ appId: nl.bitonic.Bitonic
 appCountry: nl
 idd: '1503179166'
 released: 2020-05-17
-updated: 2025-12-29
-version: 3.15.0
-reviews: 2554
+updated: 2026-04-28
+version: 3.23.1
+reviews: 2572
 website: https://bitonic.nl
 repository: 
 icon: nl.bitonic.Bitonic.jpg

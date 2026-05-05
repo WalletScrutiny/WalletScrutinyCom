@@ -10,7 +10,7 @@ idd: '1614823165'
 released: 2022-03-22
 updated: 2025-11-24
 version: 1.7.43
-reviews: 98
+reviews: 99
 website: https://www.ixfi.com/landing
 repository: 
 icon: com.ixfi.app.jpg

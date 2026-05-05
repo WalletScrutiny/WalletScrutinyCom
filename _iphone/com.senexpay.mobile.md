@@ -10,15 +10,15 @@ idd: '1627864145'
 released: 2022-08-18
 updated: 2024-04-08
 version: 1.5.3
-reviews: 10
+reviews: 9
 website: https://senexpay.com
 repository: 
 icon: com.senexpay.mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-06
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

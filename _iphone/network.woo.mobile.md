@@ -8,8 +8,8 @@ appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
 released: 2021-09-17
-updated: 2025-11-03
-version: 3.65.0
+updated: 2026-03-31
+version: 3.66.0
 reviews: 7
 website: https://woox.io/
 repository: 

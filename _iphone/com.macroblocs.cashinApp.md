@@ -10,7 +10,7 @@ idd: '6443628065'
 released: 2022-10-04
 updated: 2022-10-04
 version: '1.0'
-reviews: 1153
+reviews: 1239
 website: https://cash-in.app/
 repository: 
 icon: com.macroblocs.cashinApp.jpg

@@ -11,7 +11,7 @@ appCountry:
 released: 2019-07-11
 updated: 2026-03-02
 version: 8.6.0
-reviews: 116
+reviews: 118
 website: https://youhodler.com
 repository: 
 icon: com.youhodler.youhodler.png

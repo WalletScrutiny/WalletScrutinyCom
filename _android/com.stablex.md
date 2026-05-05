@@ -16,10 +16,10 @@ website: https://stablex.com.tr
 repository: 
 icon: com.stablex.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-06-03
+date: 2026-05-05
 signer: 
 twitter: Stablex_Turkey
 social:

@@ -10,7 +10,7 @@ released: 2020-02-16
 updated: 2020-05-30
 version: 0.3.6
 reviews: 4
-website: https://moonshinewallet.com#deadLink
+website: https://moonshinewallet.com/
 repository: 
 icon: com.kisswallet.jpg
 bugbounty: 

@@ -11,7 +11,7 @@ appCountry:
 released: 2024-08-30
 updated: 2026-04-22
 version: 2.12.16
-reviews: 8
+reviews: 11
 website: 
 repository: 
 icon: com.rhinoglobal.png

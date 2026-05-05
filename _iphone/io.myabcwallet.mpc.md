@@ -8,8 +8,8 @@ appId: io.myabcwallet.mpc
 appCountry: us
 idd: '1642837445'
 released: 2023-01-05
-updated: 2025-04-24
-version: 2.9.7
+updated: 2026-03-28
+version: 2.9.8
 reviews: 1
 website: 
 repository: 

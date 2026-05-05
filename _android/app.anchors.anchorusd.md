@@ -16,10 +16,10 @@ website: https://www.tryanchor.com
 repository: 
 icon: app.anchors.anchorusd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2026-02-02
+date: 2026-05-05
 signer: 
 twitter: anchorusd
 social: 

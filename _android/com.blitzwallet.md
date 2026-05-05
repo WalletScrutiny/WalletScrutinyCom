@@ -9,8 +9,8 @@ appId: com.blitzwallet
 alternativeStores: 
 appCountry: 
 released: 2025-09-29
-updated: 2026-04-07
-version: 0.7.8
+updated: 2026-05-01
+version: 0.7.9
 reviews: 
 website: https://blitzwalletapp.com/
 repository: https://github.com/BlitzWallet/BlitzWallet

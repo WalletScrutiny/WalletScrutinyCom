@@ -24,7 +24,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: InvoVN Solutions
+developerName: TwiX
 builds: 
 features: 
 

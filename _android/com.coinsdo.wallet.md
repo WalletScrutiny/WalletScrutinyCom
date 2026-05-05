@@ -9,8 +9,8 @@ appId: com.coinsdo.wallet
 alternativeStores: 
 appCountry: 
 released: 2022-06-26
-updated: 2026-04-06
-version: 2.0.26
+updated: 2026-05-05
+version: 2.0.27
 reviews: 118
 website: https://www.coinsdo.com
 repository: 

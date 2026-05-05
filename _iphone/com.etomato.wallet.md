@@ -1,6 +1,6 @@
 ---
 wsId: etomato
-title: 통통지갑
+title: Tomato Wallet(구 통통지갑)
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.etomato.wallet
 appCountry: kr
 idd: '1618695778'
 released: 2022-04-24
-updated: 2025-10-10
-version: 1.5.9
+updated: 2026-04-29
+version: 2.0.2
 reviews: 25
 website: https://tongtongwallet.com/
 repository: 

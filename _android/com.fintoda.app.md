@@ -9,8 +9,8 @@ appId: com.fintoda.app
 alternativeStores: 
 appCountry: 
 released: 2021-08-26
-updated: 2026-04-23
-version: 1.7.5
+updated: 2026-04-30
+version: 1.7.10
 reviews: 
 website: https://fintoda.com
 repository: 

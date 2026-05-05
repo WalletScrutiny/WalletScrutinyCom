@@ -15,10 +15,10 @@ website:
 repository: 
 icon: global.imxchange.iMX.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2026-02-02
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

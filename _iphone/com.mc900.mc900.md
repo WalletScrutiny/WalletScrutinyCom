@@ -15,10 +15,10 @@ website: https://www.headline.net/
 repository: 
 icon: com.mc900.mc900.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-02-26
+date: 2026-05-05
 signer: 
 twitter: 
 social:

@@ -27,7 +27,7 @@ social:
 - https://www.instagram.com/puravidabitcoin
 - https://www.facebook.com/profile.php?id=61561955397001
 - https://www.youtube.com/channel/UCshqYCUZZOglP-eEyP-VP0g
-- https://www.linkedin.com/company/pura-vida-bitcoin 
+- https://www.linkedin.com/company/pura-vida-bitcoin
 redirect_from: 
 developerName: Pura Vida Technologies
 builds: 

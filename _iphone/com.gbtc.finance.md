@@ -8,9 +8,9 @@ appId: com.gbtc.finance
 appCountry: es
 idd: '6742466859'
 released: 2025-08-01
-updated: 2025-09-24
-version: '1.02'
-reviews: 4
+updated: 2026-03-02
+version: '1.03'
+reviews: 5
 website: 
 repository: 
 icon: com.gbtc.finance.jpg

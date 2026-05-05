@@ -10,7 +10,7 @@ idd: '1495966572'
 released: 2020-01-28
 updated: 2025-12-12
 version: 3.1.6
-reviews: 128
+reviews: 131
 website: https://coinlocally.com
 repository: 
 icon: com.coinlocally.app.jpg

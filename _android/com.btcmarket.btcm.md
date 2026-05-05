@@ -9,8 +9,8 @@ appId: com.btcmarket.btcm
 alternativeStores: 
 appCountry: 
 released: 2022-03-17
-updated: 2025-11-07
-version: 1.12.2
+updated: 2026-04-28
+version: 1.13.0
 reviews: 2
 website: https://btcmarkets.net
 repository: 

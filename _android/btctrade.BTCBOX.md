@@ -9,8 +9,8 @@ appId: btctrade.BTCBOX
 alternativeStores: 
 appCountry: 
 released: 2016-04-18
-updated: 2026-03-02
-version: '1.284'
+updated: 2026-04-28
+version: '1.287'
 reviews: 
 website: http://www.btcbox.co.jp
 repository: 

@@ -7,8 +7,8 @@ appId: io.hashport.hashwallet
 appCountry: us
 idd: '6450660947'
 released: 2024-11-05
-updated: 2026-01-28
-version: 3.5.1
+updated: 2026-04-14
+version: 3.10.1
 reviews: 6
 website: 
 repository: 

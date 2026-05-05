@@ -9,8 +9,8 @@ appId: pouch.ph
 alternativeStores: 
 appCountry: 
 released: 2021-09-08
-updated: 2026-02-26
-version: 1.4.8
+updated: 2026-04-24
+version: 1.4.10
 reviews: 4
 website: https://pouch.ph
 repository: 

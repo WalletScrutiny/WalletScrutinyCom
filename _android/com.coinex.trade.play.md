@@ -9,9 +9,9 @@ appId: com.coinex.trade.play
 alternativeStores: 
 appCountry: 
 released: 2019-12-27
-updated: 2026-04-14
-version: 4.11.0
-reviews: 1199
+updated: 2026-04-30
+version: 4.12.0
+reviews: 1198
 website: https://www.coinex.com/
 repository: 
 icon: com.coinex.trade.play.png

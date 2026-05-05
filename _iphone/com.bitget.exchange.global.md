@@ -8,9 +8,9 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2026-04-20
-version: 2.81.0
-reviews: 2208
+updated: 2026-05-05
+version: 2.82.1
+reviews: 2212
 website: https://www.bitget.com/en
 repository: 
 icon: com.bitget.exchange.global.jpg

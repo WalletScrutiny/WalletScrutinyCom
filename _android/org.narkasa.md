@@ -1,6 +1,6 @@
 ---
 wsId: narkasaExchange
-title: 'Bybit TR: Kripto Borsası'
+title: 'Bybit TR: Bitcoin ve Kripto'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2020-10-30
 updated: 2026-04-27
-version: 5.8.16
+version: 5.14.0
 reviews: 
 website: https://narkasa.com
 repository: 

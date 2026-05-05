@@ -15,10 +15,10 @@ website:
 repository: 
 icon: com.papaya.gekkard.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-04-09
+date: 2026-05-05
 signer: 
 twitter: 
 social:

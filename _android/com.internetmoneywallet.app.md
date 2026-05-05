@@ -9,8 +9,8 @@ appId: com.internetmoneywallet.app
 alternativeStores: 
 appCountry: 
 released: 2022-11-12
-updated: 2026-04-01
-version: '2.6'
+updated: 2026-05-04
+version: '2.7'
 reviews: 88
 website: https://internetmoney.io/
 repository: 

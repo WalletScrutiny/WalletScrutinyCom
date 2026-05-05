@@ -10,7 +10,7 @@ idd: 885251393
 released: 2014-06-22
 updated: 2022-03-23
 version: 4.18.0
-reviews: 12194
+reviews: 12184
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 icon: org.voisine.breadwallet.jpg

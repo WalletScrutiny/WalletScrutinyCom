@@ -9,8 +9,8 @@ appId: jp.co.rakuten.wallet.crypto
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-06
-version: 1.6.4
+updated: 2026-04-13
+version: 1.6.5
 reviews: 
 website: https://www.rakuten-wallet.co.jp/
 repository: 

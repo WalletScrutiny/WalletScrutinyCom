@@ -15,10 +15,10 @@ website:
 repository: 
 icon: io.cheeleewallet.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-11-13
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

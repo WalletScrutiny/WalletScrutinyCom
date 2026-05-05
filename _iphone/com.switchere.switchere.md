@@ -10,7 +10,7 @@ idd: '1550289857'
 released: 2021-11-15
 updated: 2024-08-08
 version: 1.1.24
-reviews: 75
+reviews: 78
 website: https://switchere.com/
 repository: 
 icon: com.switchere.switchere.jpg

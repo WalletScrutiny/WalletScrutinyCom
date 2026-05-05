@@ -10,7 +10,7 @@ idd: '1583215766'
 released: 2021-10-06
 updated: 2024-10-28
 version: 2.19.0
-reviews: 278
+reviews: 279
 website: https://hi.com/
 repository: 
 icon: com.hidollars.app.jpg

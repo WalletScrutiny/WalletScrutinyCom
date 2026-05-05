@@ -1,6 +1,6 @@
 ---
 wsId: blockchainWallet
-title: 'Blockchain.com: Buy Bitcoin'
+title: 'Blockchain: Buy Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.rainydayapps.Blockchain
 appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2026-01-28
-version: 202601.1.1
-reviews: 183402
+updated: 2026-05-05
+version: 202605.1.2
+reviews: 183825
 website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
 icon: com.rainydayapps.Blockchain.jpg

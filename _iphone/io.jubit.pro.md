@@ -8,9 +8,9 @@ appId: io.jubit.pro
 appCountry: us
 idd: '6748295209'
 released: 2025-08-06
-updated: 2026-01-09
-version: 3.3.9
-reviews: 17
+updated: 2026-04-29
+version: 3.3.14
+reviews: 23
 website: 
 repository: 
 icon: io.jubit.pro.jpg

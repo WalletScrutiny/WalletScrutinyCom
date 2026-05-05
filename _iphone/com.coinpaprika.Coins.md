@@ -15,10 +15,10 @@ website: http://coins.coinpaprika.com
 repository: 
 icon: com.coinpaprika.Coins.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-09-15
+date: 2026-05-05
 signer: 
 twitter: CoinsOneApp
 social:

@@ -1,6 +1,6 @@
 ---
 wsId: uniSat
-title: UniSat - Inscribe your dreams
+title: UniSat Wallet - Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: io.unisat.mobile
 appCountry: us
 idd: '6498628503'
 released: 2024-08-30
-updated: 2026-01-27
-version: 1.7.9
+updated: 2026-03-08
+version: 1.7.11
 reviews: 27
 website: https://unisat.io
 repository: 

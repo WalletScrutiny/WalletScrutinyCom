@@ -9,8 +9,8 @@ appId: com.bitstack.app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-22
-version: 3.8.3
+updated: 2026-05-02
+version: 3.8.5
 reviews: 
 website: https://bitstack-app.com
 repository: 

@@ -5,13 +5,13 @@ altTitle:
 authors:
 - kiwilamb
 - danny
-users: 500000
+users: 1000000
 appId: coin98.crypto.finance.media
 alternativeStores: 
 appCountry: us
 released: 2019-12-19
-updated: 2026-04-20
-version: 16.11.0
+updated: 2026-05-01
+version: 16.11.1
 reviews: 260
 website: https://coin98.com/
 repository: 

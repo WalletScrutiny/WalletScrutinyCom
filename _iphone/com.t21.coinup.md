@@ -7,9 +7,9 @@ appId: com.t21.coinup
 appCountry: us
 idd: '1645045725'
 released: 2022-10-13
-updated: 2026-01-26
-version: '100024'
-reviews: 27
+updated: 2026-04-18
+version: '100029'
+reviews: 28
 website: https://www.coinup.io/
 repository: 
 icon: com.t21.coinup.jpg

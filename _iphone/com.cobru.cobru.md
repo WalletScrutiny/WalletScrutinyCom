@@ -8,17 +8,17 @@ appId: com.cobru.cobru
 appCountry: us
 idd: '1574045983'
 released: 2021-06-29
-updated: 2024-12-22
-version: 4.1.9
+updated: 2026-04-17
+version: 4.1.12
 reviews: 2
 website: https://cobru.co
 repository: 
 icon: com.cobru.cobru.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-01-08
+date: 2026-05-05
 signer: 
 twitter: cobruapp
 social:

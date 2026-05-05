@@ -9,8 +9,8 @@ appId: nl.bitonic.androidApp
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-17
-version: 3.22.1
+updated: 2026-04-22
+version: 3.23.1
 reviews: 
 website: https://bitonic.nl
 repository: 

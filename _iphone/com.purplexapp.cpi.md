@@ -7,8 +7,8 @@ appId: com.purplexapp.cpi
 appCountry: us
 idd: '6740024218'
 released: 2025-01-09
-updated: 2025-06-28
-version: 1.2.7
+updated: 2026-02-05
+version: 1.2.8
 reviews: 0
 website: https://purplex.io
 repository: 

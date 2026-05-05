@@ -10,7 +10,7 @@ idd: '6444825898'
 released: 2022-12-20
 updated: 2026-04-14
 version: 3.4.1
-reviews: 23
+reviews: 24
 website: https://www.bitaroo.com.au/
 repository: 
 icon: au.com.bitaroo.express.jpg

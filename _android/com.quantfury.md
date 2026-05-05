@@ -9,8 +9,8 @@ appId: com.quantfury
 alternativeStores: 
 appCountry: gb
 released: 2018-11-26
-updated: 2026-04-16
-version: v1.94.0.25682
+updated: 2026-04-30
+version: v1.94.1.25713
 reviews: 23
 website: https://www.quantfury.com/
 repository: 

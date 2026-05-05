@@ -3,7 +3,7 @@ wsId: trustNE
 title: TrustNE
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.trustfresh
 appCountry: jp
 idd: '6746805908'

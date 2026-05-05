@@ -9,9 +9,9 @@ appId: com.prestmit
 alternativeStores: 
 appCountry: us
 released: 2021-04-13
-updated: 2026-02-23
-version: 7.2.488
-reviews: 856
+updated: 2026-04-30
+version: 7.2.491
+reviews: 857
 website: https://staging.prestmit.com
 repository: 
 icon: com.prestmit.png

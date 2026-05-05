@@ -8,9 +8,9 @@ appId: com.unocoin.mainapp.production
 appCountry: in
 idd: 1030422972
 released: 2016-05-12
-updated: 2026-01-08
-version: 6.2.74
-reviews: 1572
+updated: 2026-04-15
+version: 6.2.75
+reviews: 1623
 website: https://www.unocoin.com
 repository: 
 icon: com.unocoin.mainapp.production.jpg

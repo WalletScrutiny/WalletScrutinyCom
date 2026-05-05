@@ -9,9 +9,9 @@ appId: com.bydfi.app
 alternativeStores: 
 appCountry: 
 released: 2023-01-20
-updated: 2026-03-27
-version: 3.9.4
-reviews: 430
+updated: 2026-04-28
+version: 3.9.5
+reviews: 429
 website: https://www.bydfi.com/
 repository: 
 icon: com.bydfi.app.png

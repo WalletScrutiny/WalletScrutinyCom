@@ -9,9 +9,9 @@ appId: io.cex.app.prod
 alternativeStores: 
 appCountry: 
 released: 2015-12-22
-updated: 2026-04-25
-version: 12.39.0
-reviews: 10978
+updated: 2026-04-28
+version: 12.40.1
+reviews: 10977
 website: https://cex.io
 repository: 
 icon: io.cex.app.prod.png

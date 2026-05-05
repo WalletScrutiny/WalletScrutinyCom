@@ -9,9 +9,9 @@ appId: com.whitebit.android
 alternativeStores: 
 appCountry: ua
 released: 2019-06-07
-updated: 2026-04-25
-version: 3.72.2
-reviews: 1340
+updated: 2026-04-29
+version: 3.73.0
+reviews: 1343
 website: https://whitebit.com/
 repository: 
 icon: com.whitebit.android.png

@@ -10,7 +10,7 @@ idd: '6471335774'
 released: 2024-09-18
 updated: 2026-01-22
 version: 2.0.1
-reviews: 21
+reviews: 23
 website: https://getalby.com/
 repository: 
 icon: com.getalby.mobile.jpg

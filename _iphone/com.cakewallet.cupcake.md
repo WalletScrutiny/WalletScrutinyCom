@@ -9,7 +9,7 @@ idd: '6737430272'
 released: 2024-11-16
 updated: 2025-12-03
 version: 1.1.1
-reviews: 7
+reviews: 8
 website: https://cakewallet.com
 repository: 
 icon: com.cakewallet.cupcake.jpg

@@ -27,7 +27,7 @@ features:
 - hd
 - segwit
 - tradeAlts
-developerName: Towo Labs AB
+developerName: Bifrost Software Ltd
 
 ---
 

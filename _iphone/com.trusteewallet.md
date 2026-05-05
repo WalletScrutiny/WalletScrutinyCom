@@ -8,17 +8,17 @@ appId: com.trusteewallet
 appCountry: jp
 idd: 1462924276
 released: 2019-06-14
-updated: 2024-11-16
-version: 1.51.10
+updated: 2026-03-19
+version: 1.52.3
 reviews: 0
 website: https://trusteeglobal.com/
 repository: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: sourceavailable
 appHashes: 
-date: 2025-11-26
+date: 2026-05-05
 signer: 
 twitter: Trustee_Wallet
 social:

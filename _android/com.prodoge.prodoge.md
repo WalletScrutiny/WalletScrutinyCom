@@ -16,10 +16,10 @@ website: https://alxwallet.com
 repository: 
 icon: com.prodoge.prodoge.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-25
+date: 2026-05-05
 signer: 
 twitter: 
 social: 

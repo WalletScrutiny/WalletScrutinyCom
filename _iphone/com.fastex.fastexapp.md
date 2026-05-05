@@ -10,7 +10,7 @@ idd: '6447000686'
 released: 2023-04-13
 updated: 2025-09-08
 version: 1.41.0
-reviews: 236
+reviews: 244
 website: 
 repository: 
 icon: com.fastex.fastexapp.jpg

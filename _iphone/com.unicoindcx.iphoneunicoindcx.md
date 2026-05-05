@@ -15,10 +15,10 @@ website:
 repository: 
 icon: com.unicoindcx.iphoneunicoindcx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-03-23
+date: 2026-05-05
 signer: 
 twitter: Unicoin5
 social:

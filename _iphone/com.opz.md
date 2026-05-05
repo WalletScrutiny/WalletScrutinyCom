@@ -15,10 +15,10 @@ website: https://www.opz.io
 repository: 
 icon: com.opz.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-11-20
+date: 2026-05-05
 signer: 
 twitter: OPZ_Official
 social:

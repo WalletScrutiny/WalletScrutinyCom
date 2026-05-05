@@ -1,6 +1,6 @@
 ---
 wsId: gemWallet
-title: Gem - Crypto & USDT Wallet
+title: Gem Wallet - USDT, USDC, XRP
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.gemwallet.ios
 appCountry: us
 idd: '6448712670'
 released: 2023-07-17
-updated: 2026-02-16
-version: 1.3.346
-reviews: 347
+updated: 2026-04-29
+version: '2.43'
+reviews: 354
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
 icon: com.gemwallet.ios.jpg

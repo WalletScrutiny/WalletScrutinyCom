@@ -9,9 +9,9 @@ appId: defisuisse.thorwallet
 alternativeStores: 
 appCountry: 
 released: 2021-12-23
-updated: 2026-04-22
+updated: 2026-04-29
 version: 3.1.0
-reviews: 37
+reviews: 38
 website: http://thorwallet.org
 repository: 
 icon: defisuisse.thorwallet.png

@@ -8,9 +8,9 @@ appId: io.rayyo
 appCountry: mx
 idd: '6448856707'
 released: 2024-04-22
-updated: 2025-12-18
-version: 0.7.33
-reviews: 35
+updated: 2026-04-21
+version: 0.7.55
+reviews: 36
 website: 
 repository: 
 icon: io.rayyo.jpg

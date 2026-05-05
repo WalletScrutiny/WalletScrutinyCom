@@ -9,8 +9,8 @@ appId: com.plunien.poloniex
 alternativeStores: 
 appCountry: 
 released: 2017-06-19
-updated: 2026-04-07
-version: 2.35.0
+updated: 2026-04-30
+version: 2.36.1
 reviews: 242
 website: https://support.poloniex.com/
 repository: 

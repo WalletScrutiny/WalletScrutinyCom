@@ -8,8 +8,8 @@ appId: com.deffio.app
 appCountry: ua
 idd: '6743933039'
 released: 2025-07-14
-updated: 2025-12-20
-version: 1.6.1
+updated: 2026-03-10
+version: 1.7.0
 reviews: 23
 website: https://deffio.com/wallet
 repository: 

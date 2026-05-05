@@ -9,8 +9,8 @@ appId: com.humbl.wallet.app
 alternativeStores: 
 appCountry: 
 released: 2022-07-04
-updated: 2026-04-23
-version: 1.0.92
+updated: 2026-04-28
+version: 1.0.93
 reviews: 48
 website: https://tapwallet.com/
 repository: 

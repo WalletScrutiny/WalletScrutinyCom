@@ -36,7 +36,7 @@ features:
 
 ---
 
-This device's companion app is {% include walletLink.html wallet='android/id.ryder.ryderone' verdict='true' %}
+This device's companion app is {% include walletLinkArchived.html wallet='android/id.ryder.ryderone' %}
 
 ## Updated Analysis 2025-11-03
 

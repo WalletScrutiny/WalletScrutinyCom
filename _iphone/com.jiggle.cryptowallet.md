@@ -10,15 +10,15 @@ idd: '6446089702'
 released: 2023-06-28
 updated: 2025-04-14
 version: 1.4.8
-reviews: 289
+reviews: 291
 website: 
 repository: 
 icon: com.jiggle.cryptowallet.jpg
 bugbounty: 
-meta: deprecated
+meta: stale
 verdict: wip
 appHashes: 
-date: 2025-11-19
+date: 2026-05-05
 signer: 
 twitter: jiggle_app
 social: 

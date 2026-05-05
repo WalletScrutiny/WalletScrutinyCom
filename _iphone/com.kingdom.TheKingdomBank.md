@@ -8,8 +8,8 @@ appId: com.kingdom.TheKingdomBank
 appCountry: bg
 idd: '1626275936'
 released: 2022-06-15
-updated: 2026-01-31
-version: 10.5.0
+updated: 2026-04-23
+version: 10.7.5
 reviews: 1
 website: https://portal.thekingdombank.com/signup
 repository: 

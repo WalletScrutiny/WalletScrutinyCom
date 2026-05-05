@@ -16,10 +16,10 @@ website: https://www.bitopro.com
 repository: 
 icon: com.bitoex.bitopronew.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-11-13
+date: 2026-05-05
 signer: 
 twitter: BitoEX_Official
 social: 

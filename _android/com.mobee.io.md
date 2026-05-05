@@ -9,8 +9,8 @@ appId: com.mobee.io
 alternativeStores: 
 appCountry: 
 released: 2022-11-14
-updated: 2026-04-17
-version: 2.0.10
+updated: 2026-05-05
+version: 2.0.11
 reviews: 2
 website: https://mobee.com/
 repository: 

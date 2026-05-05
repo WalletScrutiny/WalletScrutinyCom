@@ -11,7 +11,7 @@ appCountry:
 released: 2021-10-20
 updated: 2026-04-21
 version: 3.18.5
-reviews: 198
+reviews: 199
 website: https://walletnow.app
 repository: 
 icon: com.nowwallet.png

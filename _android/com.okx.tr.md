@@ -9,8 +9,8 @@ appId: com.okx.tr
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-20
-version: 6.165.1
+updated: 2026-04-29
+version: 6.168.0
 reviews: 
 website: https://tr.okx.com
 repository: 

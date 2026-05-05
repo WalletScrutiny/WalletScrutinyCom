@@ -11,7 +11,7 @@ appCountry:
 released: 2014-01-31
 updated: 2026-04-24
 version: 1.67.0
-reviews: 2322
+reviews: 2324
 website: https://www.Coinomi.com
 repository: 
 icon: com.coinomi.wallet.png

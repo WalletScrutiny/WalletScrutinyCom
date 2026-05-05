@@ -1,15 +1,15 @@
 ---
 wsId: bitkit
-title: 'Bitkit: Bitcoin & LN Wallet'
+title: 'Bitkit: Bitcoin Wallet'
 altTitle: 
 authors: 
 appId: to.bitkit
 appCountry: us
 idd: '6502440655'
 released: 2024-06-12
-updated: 2025-11-26
-version: 1.1.6
-reviews: 7
+updated: 2026-04-09
+version: 2.2.0
+reviews: 10
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit-ios
 icon: to.bitkit.jpg

@@ -8,9 +8,9 @@ appId: com.kraken.superwallet.app
 appCountry: us
 idd: '1626327149'
 released: 2024-04-17
-updated: 2026-01-14
-version: 1.25.0
-reviews: 1040
+updated: 2026-04-15
+version: 1.28.1
+reviews: 1161
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 icon: com.kraken.superwallet.app.jpg

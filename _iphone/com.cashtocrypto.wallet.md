@@ -10,7 +10,7 @@ idd: 1554808338
 released: 2021-03-30
 updated: 2026-03-04
 version: 4.2.2
-reviews: 1323
+reviews: 1354
 website: https://bitcoindepot.com/
 repository: 
 icon: com.cashtocrypto.wallet.jpg

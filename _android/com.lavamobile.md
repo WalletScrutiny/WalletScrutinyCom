@@ -9,9 +9,9 @@ appId: com.lavamobile
 alternativeStores: 
 appCountry: 
 released: 2024-05-25
-updated: 2026-04-23
-version: 3.3.0
-reviews: 8
+updated: 2026-05-03
+version: 3.4.0
+reviews: 9
 website: https://lava.xyz
 repository: 
 icon: com.lavamobile.png

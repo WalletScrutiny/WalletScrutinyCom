@@ -15,10 +15,10 @@ website: https://mirai.finance/
 repository: 
 icon: io.fgraph.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2025-03-11
+date: 2026-05-05
 signer: 
 twitter: shinobi_wallet
 social:

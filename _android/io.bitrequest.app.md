@@ -25,7 +25,7 @@ twitter: bitrequest
 social:
 - https://github.com/bitrequest/bitrequest.github.io
 - https://www.reddit.com/r/bitrequest/
-- https://www.youtube.com/channel/UCwrbrnGg82FQdVQqCSEBmug/featured 
+- https://www.youtube.com/channel/UCwrbrnGg82FQdVQqCSEBmug/featured
 redirect_from: 
 developerName: XpressZo
 builds: 

@@ -9,8 +9,8 @@ appId: hkd.com
 alternativeStores: 
 appCountry: 
 released: 2020-09-11
-updated: 2026-04-25
-version: 2.9.8
+updated: 2026-04-29
+version: 2.9.9
 reviews: 16
 website: http://hkd.com
 repository: 

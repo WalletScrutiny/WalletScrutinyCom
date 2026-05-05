@@ -11,7 +11,7 @@ appCountry:
 released: 2022-02-21
 updated: 2026-04-28
 version: 7.3.1
-reviews: 205
+reviews: 207
 website: https://breet.app
 repository: 
 icon: com.app.breet.jpg
