@@ -1,4 +1,4 @@
-import apple from 'app-store-scraper';
+import { app } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import path from 'path';
 import helper from './helper.mjs';
@@ -50,7 +50,7 @@ function refreshFile (fileName, content, markRemoved) {
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
     
     if (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved) {
-      apple.app({
+      app({
         id: idd,
         lang: 'en',
         country: appCountry,
@@ -134,7 +134,7 @@ function add (newIdds) {
     if (appId) {
       refreshFile(`${appId}.md`);
     } else {
-      apple.app({
+      app({
         id: idd,
         lang: 'en',
         country: country || 'cl',

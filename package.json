@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.3",
-    "app-store-scraper": "^0.18.0",
+    "@perttu/app-store-scraper": "github:plahteenlahti/app-store-scraper#ea58e0122a91950094a1ec9341692c76f8cb335f",
     "async-mutex": "^0.3.2",
     "autoprefixer": "^10.5.0",
     "axios": "^1.16.0",
@@ -27,7 +27,7 @@
     "dateformat": "^3.0.3",
     "file-type": "^16.5.4",
     "github-graphql-api": "^1.0.6",
-    "google-play-scraper": "github:facundoolano/google-play-scraper#0280abf149b50682ca8f65c080302dc6d477c80b",
+    "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "html-webpack-plugin": "^5.6.7",
     "js-yaml": "^4.1.1",
     "minimist": "^1.2.8",

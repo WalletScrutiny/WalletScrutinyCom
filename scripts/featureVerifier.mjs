@@ -29,8 +29,7 @@ const yaml = require('js-yaml');
 // ESM-default-exporting packages — must use .default when loaded via require()
 const _gplay = require('google-play-scraper');
 const gplay = _gplay.default || _gplay;
-const _apple = require('app-store-scraper');
-const apple = _apple.default || _apple;
+const { app } = require('@perttu/app-store-scraper');
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CACHE_TEXT_DIR = path.join(ROOT, 'scripts', 'cache', 'feature-text');
@@ -243,7 +242,7 @@ async function scrapePlayStore(appId, country = 'us') {
 }
 async function scrapeAppStore(idd, country = 'us') {
   if (!idd) return '';
-  try { return (await apple.app({ id: String(idd), country })).description || ''; } catch { return ''; }
+  try { return (await app({ id: String(idd), country })).description || ''; } catch { return ''; }
 }
 
 function getAllProducts() {
