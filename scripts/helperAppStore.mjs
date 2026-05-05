@@ -108,9 +108,9 @@ function updateFromApp (header, app) {
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
     : new Date(app.updated);
-  header.released = header.released || app.released;
+  header.released = header.released || app.released || null;
   header.reviews = app.reviews;
-  header.website = app.developerWebsite || header.website || '';
+  header.website = app.developerWebsite || header.website || null;
   header.date = header.date || new Date();
   header.developerName = app.developer || header.developerName || 'Unknown Developer(s)';
   helper.updateMeta(header);

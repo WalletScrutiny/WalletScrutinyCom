@@ -107,7 +107,7 @@ function updateFromApp (header, app) {
   }
   header.title = app.title || header.title;
   header.version = (app.version || 'various').replace(/["\\]*/g, ''); // strip " and \ that won't be missed in the version string
-  header.released = header.released || app.released;
+  header.released = header.released || app.released || null;
 
   if (header.meta !== 'obsolete' && header.meta !== 'defunct' && header.meta !== 'removed' && app.minInstalls < 1000) {
     header.meta = 'fewusers';
