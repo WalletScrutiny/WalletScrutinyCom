@@ -18,11 +18,6 @@ import {
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
 import {decode} from "light-bolt11-decoder"
-import WebSocket from "ws";
-
-if (typeof global !== 'undefined') {
-  global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
-}
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
