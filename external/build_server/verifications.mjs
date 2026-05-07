@@ -20,7 +20,7 @@ import {
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
 import { open as openZip } from 'yauzl';
 
@@ -585,7 +585,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${escapedFinalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
+    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${escapedFinalScriptExecutionCommand} ; scriptrc=\\$? ; echo scriptrc=\\$scriptrc ; sleep 5 ; exit \\$scriptrc" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
 
     const child = spawn(asciinemaCommand, {
@@ -607,10 +607,42 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     child.stderr?.on('data', chunk => stderrChunks.push(chunk));
 
     child.on('close', (code, signal) => {
+      const stdoutStr = Buffer.concat(stdoutChunks).toString('utf8');
+      const stderrStr = Buffer.concat(stderrChunks).toString('utf8');
+      let recordedScriptExitCode = null;
+      try {
+        if (castFileName && fs.existsSync(castFileName)) {
+          const castContent = fs.readFileSync(castFileName, 'utf8');
+          const scriptRcMatches = [...castContent.matchAll(/scriptrc=(\d+)/g)];
+          if (scriptRcMatches.length > 0) {
+            const lastMatch = scriptRcMatches[scriptRcMatches.length - 1];
+            recordedScriptExitCode = Number.parseInt(lastMatch[1], 10);
+          }
+        }
+      } catch (castReadError) {
+        appLog.warn(`[QUEUE_INFO] Could not read cast file to infer script exit code. ${jobInfo} castFile=${castFileName} error=${castReadError?.message ?? castReadError}`);
+      }
+      appLog.info(
+        `[QUEUE_INFO] child close event. ${jobInfo} pid=${child.pid ?? 'n/a'} code=${code} signal=${signal ?? 'none'} ` +
+        `stdoutBytes=${stdoutStr.length} stderrBytes=${stderrStr.length} recordedScriptExitCode=${recordedScriptExitCode ?? 'n/a'}`
+      );
+      if (stdoutStr) {
+        appLog.debug(`[QUEUE_INFO] child close stdout (first 500 chars). ${jobInfo} -> ${stdoutStr.slice(0, 500)}`);
+      }
+      if (stderrStr) {
+        appLog.warn(`[QUEUE_INFO] child close stderr (first 500 chars). ${jobInfo} -> ${stderrStr.slice(0, 500)}`);
+      }
       if (signal) {
         done(Object.assign(new Error(`Process killed: ${signal}`), { code: null, signal }), null);
+      } else if (recordedScriptExitCode !== null && recordedScriptExitCode !== 0) {
+        done(
+          Object.assign(
+            new Error(`Recorded script exited with code ${recordedScriptExitCode}${stderrStr ? `: ${stderrStr.slice(0, 200)}` : ''}`),
+            { code: recordedScriptExitCode, signal: null }
+          ),
+          null
+        );
       } else if (code !== 0) {
-        const stderrStr = Buffer.concat(stderrChunks).toString('utf8');
         done(Object.assign(new Error(`Process exited with code ${code}${stderrStr ? `: ${stderrStr.slice(0, 200)}` : ''}`), { code, signal: null }), null);
       } else {
         done(null, {
@@ -620,7 +652,10 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         });
       }
     });
-    child.on('error', err => done(err, null));
+    child.on('error', err => {
+      appLog.error(`[QUEUE_INFO] child error event. ${jobInfo} pid=${child.pid ?? 'n/a'} message=${err?.message ?? err}`);
+      done(err, null);
+    });
   });
 }
 

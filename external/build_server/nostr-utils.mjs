@@ -88,6 +88,19 @@ export async function connectToNostr(nostrPrivateKey) {
     signer: new NDKPrivateKeySigner(nostrPrivateKey)
   });
 
+    // Add event listeners for connection monitoring
+    ndk.pool.on('relay:connect', (relay) => {
+      appLog.info(`✅ Connected to relay: ${relay.url}`);
+    });
+
+    ndk.pool.on('relay:disconnect', (relay) => {
+      appLog.info(`❌ Disconnected from relay: ${relay.url}`);
+    });
+
+    ndk.pool.on('relay:error', (relay, error) => {
+      appLog.error(`🔥 Relay error (${relay.url}):`, error);
+    });
+
   await ndk.connect(2000);
   appLog.info('Successfully connected to Nostr');
 }
