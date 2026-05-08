@@ -108,6 +108,24 @@ export function findQueuedOrErroredSimilarAttempt(row) {
 }
 
 /**
+ * Find the latest failed attempt that used a given build script event.
+ * @param {string} buildScriptEventId
+ * @returns {Object|undefined}
+ */
+export function findErroredAttemptByBuildScriptEventId(buildScriptEventId) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    SELECT *
+    FROM verifications
+    WHERE buildScriptEventId = ?
+      AND endResult = 'error'
+    ORDER BY id DESC
+    LIMIT 1
+  `);
+  return stmt.get(buildScriptEventId);
+}
+
+/**
  * Find all verifications, optionally filtered by appId and/or platform.
  * @param {Object} [options] - { appId?, platform?, limit?, offset? }
  * @returns {Object[]}
