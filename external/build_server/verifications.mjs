@@ -23,6 +23,7 @@ import { appLog, verificationsLog } from './logger.js';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
 import { open as openZip } from 'yauzl';
+import { findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -401,7 +402,6 @@ export async function addJobToQueue({
   const scriptPathForLog = jobType === 'asset'
     ? `${appId}_${fileHash}_script.sh`
     : outputFileName ?? 'script.sh';
-  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptPathForLog} ***`);
 
   const jobPayload = {
     verification,
@@ -418,6 +418,35 @@ export async function addJobToQueue({
     downloadedFileName,
     outputFileName,
     githubToken
+  };
+
+  const verificationAttemptRow = {
+    appId,
+    platform,
+    version: newWalletVersion,
+    arch: architecture ?? '',
+    type: type ?? '',
+    verificationId: verification.id,
+    buildScriptEventId: buildShFileEvent?.id ?? '',
+    endResult: 'queued'
+  };
+
+  const previousAttempt = findQueuedOrErroredSimilarAttempt(verificationAttemptRow);
+  if (previousAttempt) {
+    appLog.info(
+      `[QUEUE_INFO] Similar compilation already attempted on date ${previousAttempt.createdAt} ` +
+      `(rowId=${previousAttempt.id}, endResult=${previousAttempt.endResult}). It will not be retried.`
+    );
+    return;
+  }
+
+  const dbVerificationRowId = insertVerificationRow(verificationAttemptRow);
+  appLog.info(`[QUEUE_INFO] Added verification row to database before queueing job: rowId=${dbVerificationRowId}, verificationId=${verification.id}, buildScriptEventId=${buildShFileEvent?.id ?? ''}`);
+
+  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptPathForLog} ***`);
+  const markVerificationAttemptAsError = () => {
+    updateVerificationRow(dbVerificationRowId, { endResult: 'error' });
+    appLog.info(`[QUEUE_INFO] Updated verification row after compilation problem: rowId=${dbVerificationRowId}, endResult=error`);
   };
 
   const job = queue.add(
@@ -440,6 +469,7 @@ export async function addJobToQueue({
   );
   job.then(async returnParamsFromCompilationJob => {
     if (!returnParamsFromCompilationJob) {
+      markVerificationAttemptAsError();
       return;
     }
     appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
@@ -454,8 +484,12 @@ export async function addJobToQueue({
       type,
       fileEventIdsForSHFiles,
       verificationHash ?? fileHash,
-      binaryFilePath
+      binaryFilePath,
+      dbVerificationRowId
     );
+  }).catch(error => {
+    markVerificationAttemptAsError();
+    appLog.error(`[QUEUE_INFO] Queued compilation job failed before returning a result: rowId=${dbVerificationRowId}`, error);
   });
 }
 
@@ -659,7 +693,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, fileHash, binaryFilePath = null) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, fileHash, binaryFilePath = null, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   const ndkInstance = getNdk();
@@ -731,6 +765,11 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   };
 
   try {
+    if (dbVerificationRowId !== null) {
+      updateVerificationRow(dbVerificationRowId, { endResult: verdict });
+      appLog.info(`[QUEUE_INFO] Updated verification row before creating Nostr event: rowId=${dbVerificationRowId}, endResult=${verdict}`);
+    }
+
     const verificationEventId = await createVerification(ndkInstance, formData);
 
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId.id}`);
