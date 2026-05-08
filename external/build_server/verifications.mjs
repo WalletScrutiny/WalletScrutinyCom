@@ -15,7 +15,7 @@ import {
   findFileRecursively,
   getCombinationsFromAppInfo,
   getFileAttachmentIDsForVerificationEvent,
-  getNewerScriptToReproduce,
+  getScriptsToReproduce,
   findArchAndTypeForFile
 } from './utils.mjs';
 import yaml from 'js-yaml';
@@ -23,7 +23,7 @@ import { appLog, verificationsLog } from './logger.js';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
 import { open as openZip } from 'yauzl';
-import { findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
+import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -221,11 +221,33 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
-    const verification = getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform);
-    if (!verification) {
+    const verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
+    if (verificationCandidates.length === 0) {
       appLog.debug(`   no script to reproduce appId=${appId}, version=${version}, and platform=${platform} found`);
       continue;
     }
+
+    const getNextVerificationCandidate = (startIndex = 0) => {
+      for (let index = startIndex; index < verificationCandidates.length; index++) {
+        const candidate = verificationCandidates[index];
+        const candidateVersion = getFirstTagValue(candidate.verification, 'version');
+        appLog.info(
+          `     - checking build script ${index + 1}/${verificationCandidates.length}: ` +
+          `buildScriptEventId=${candidate.buildShFileEvent.id}, verificationId=${candidate.verification.id}, ` +
+          `version=${candidateVersion}`
+        );
+        const erroredAttempt = findErroredAttemptByBuildScriptEventId(candidate.buildShFileEvent.id);
+        if (!erroredAttempt) {
+          appLog.info(`     - build script ${candidate.buildShFileEvent.id} will be tried`);
+          return { candidate, nextIndex: index + 1 };
+        }
+        appLog.info(
+          `     - build script ${candidate.buildShFileEvent.id} from verification ${candidate.verification.id} ` +
+          `(${appId} ${candidateVersion}) already failed on date ${erroredAttempt.createdAt}; trying next script`
+        );
+      }
+      return null;
+    };
 
     const fileHash = getFirstTagValue(asset, 'x');
     appLog.debug(`     - file hash found: ${fileHash}`);
@@ -252,27 +274,46 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     }
     const { architecture, type } = archAndType;
 
-    if (scriptContainsSudo(verification.buildShFileEvent)) {
-      appLog.info(`     - the script contains sudo (would hang waiting for password if run in the host machine)`);
-    }
-
     const downloadedFileName = sanitizedFileName ?? `${appId}_${version}_${fileHash}_downloaded.apk`;
 
-    await addJobToQueue({
-      verification: verification.verification,
-      appId,
-      platform,
-      newWalletVersion: version,
-      architecture,
-      type,
-      fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-      fileHash,
-      verificationHash,
-      jobType: 'asset',
-      buildShFileEvent: verification.buildShFileEvent,
-      downloadedFileName,
-      githubToken
-    });
+    const queueNextVerificationCandidate = async (startIndex = 0) => {
+      const nextVerificationCandidate = getNextVerificationCandidate(startIndex);
+      if (!nextVerificationCandidate) {
+        appLog.info(`   all scripts to reproduce appId=${appId}, version=${version}, and platform=${platform} already had an error; skipping asset`);
+        return;
+      }
+
+      const { candidate, nextIndex } = nextVerificationCandidate;
+      if (scriptContainsSudo(candidate.buildShFileEvent)) {
+        appLog.info(`     - the script contains sudo (would hang waiting for password if run in the host machine)`);
+      }
+
+      await addJobToQueue({
+        verification: candidate.verification,
+        appId,
+        platform,
+        newWalletVersion: version,
+        architecture,
+        type,
+        fileEventIdsForSHFiles: [candidate.buildShFileEvent.id],
+        fileHash,
+        verificationHash,
+        jobType: 'asset',
+        buildShFileEvent: candidate.buildShFileEvent,
+        downloadedFileName,
+        githubToken,
+        onCompilationProblem: () => {
+          if (nextIndex >= verificationCandidates.length) {
+            appLog.info(`   no more scripts to try for appId=${appId}, version=${version}, and platform=${platform}`);
+            return;
+          }
+          appLog.info(`   trying next script for appId=${appId}, version=${version}, and platform=${platform}`);
+          void queueNextVerificationCandidate(nextIndex);
+        }
+      });
+    };
+
+    await queueNextVerificationCandidate();
   }
 }
 
@@ -397,7 +438,8 @@ export async function addJobToQueue({
   buildShFileEvent,
   downloadedFileName,
   outputFileName,
-  githubToken
+  githubToken,
+  onCompilationProblem
 }) {
   const scriptPathForLog = jobType === 'asset'
     ? `${appId}_${fileHash}_script.sh`
@@ -447,6 +489,9 @@ export async function addJobToQueue({
   const markVerificationAttemptAsError = () => {
     updateVerificationRow(dbVerificationRowId, { endResult: 'error' });
     appLog.info(`[QUEUE_INFO] Updated verification row after compilation problem: rowId=${dbVerificationRowId}, endResult=error`);
+    if (onCompilationProblem) {
+      onCompilationProblem();
+    }
   };
 
   const job = queue.add(

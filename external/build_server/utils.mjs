@@ -8,6 +8,7 @@ import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './co
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
+const MAX_SCRIPTS_TO_TRY = 3;
 
 export function isDebugEnv() {
   const args = minimist(process.argv.slice(2));
@@ -462,23 +463,25 @@ function matchPattern(fileName, pattern) {
   return regex.test(fileName);
 }
 
+export function getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform) {
+  const scriptsToReproduce = verificationsWithBuildShFiles
+    .filter(verification => (
+      getFirstTagValue(verification.verification, 'i') === appId &&
+      getFirstTagValue(verification.verification, 'platform') === platform
+    ))
+    .sort((a, b) => b.verification.created_at - a.verification.created_at);
+  const limitedScriptsToReproduce = scriptsToReproduce.slice(0, MAX_SCRIPTS_TO_TRY);
+
+  appLog.info(
+    `     - found ${scriptsToReproduce.length} scripts to reproduce appId=${appId}, platform=${platform}; ` +
+    `checking ${limitedScriptsToReproduce.length} most recent scripts (max=${MAX_SCRIPTS_TO_TRY})`
+  );
+
+  return limitedScriptsToReproduce;
+}
+
 export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {
-  let createdAt = 0;
-  let newerVerification = null;
-
-  for (const verification of verificationsWithBuildShFiles) {
-    if (
-      getFirstTagValue(verification.verification, 'i') !== appId ||
-      getFirstTagValue(verification.verification, 'platform') !== platform
-    ) {
-      continue;
-    }
-
-    if (verification.verification.created_at > createdAt) {
-      createdAt = verification.verification.created_at;
-      newerVerification = verification;
-    }
-  }
+  const [newerVerification] = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
 
   if (!newerVerification) {
     return null;
