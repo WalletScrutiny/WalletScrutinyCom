@@ -9,12 +9,14 @@ Type=simple
 User=build-server
 Group=build-server
 WorkingDirectory=/opt/build-server/walletScrutinyCom/external/build_server
+StateDirectory=walletscrutiny-build-server
 
 LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
 LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
 
 Environment=WS_BOT_PK_FILE=%d/build-server-ws-bot-pk
 Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
+Environment=BUILD_SERVER_DB_PATH=/var/lib/walletscrutiny-build-server/verifications.db
 
 ExecStart=/usr/bin/node index.mjs
 Restart=always
