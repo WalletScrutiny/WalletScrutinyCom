@@ -76,6 +76,8 @@ A blog post states that this is not an ordinary "companion app", it is a fully-c
 
 {% include featureEvidence.html feature="companion" quote="Use Envoy alongside your Passport hardware wallet for setup, firmware updates, and more." source="Store" %}
 
+Envoy is the companion app for both {% include walletLink.html wallet='hardware/passportb2' verdict='true' %} and {% include walletLink.html wallet='hardware/passportprime' verdict='true' %}.
+
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
 
 An issue has been opened at [https://github.com/Foundation-Devices/envoy/issues/1395](https://github.com/Foundation-Devices/envoy/issues/1395)
