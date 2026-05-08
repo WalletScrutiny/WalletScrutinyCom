@@ -10,7 +10,7 @@ idd: '1534638949'
 released: 2021-06-20
 updated: 2026-04-22
 version: 2.0.8
-reviews: 1177
+reviews: 1178
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.jpg

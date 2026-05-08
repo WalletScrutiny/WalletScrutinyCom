@@ -9,7 +9,7 @@ idd: '1601990386'
 released: 2022-01-07
 updated: 2026-04-23
 version: 6.1.2
-reviews: 371
+reviews: 370
 website: 
 repository: 
 icon: com.cakewallet.monero.jpg

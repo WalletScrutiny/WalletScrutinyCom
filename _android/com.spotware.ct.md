@@ -9,9 +9,9 @@ appId: com.spotware.ct
 alternativeStores: 
 appCountry: 
 released: 2014-02-10
-updated: 2026-04-30
-version: 5.8.200
-reviews: 377
+updated: 2026-05-07
+version: 5.8.220
+reviews: 378
 website: https://ctrader.com/forum
 repository: 
 icon: com.spotware.ct.png

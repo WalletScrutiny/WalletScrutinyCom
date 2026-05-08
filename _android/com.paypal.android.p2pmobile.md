@@ -12,7 +12,7 @@ appCountry:
 released: 2016-02-19
 updated: 2026-04-23
 version: 8.105.1
-reviews: 436705
+reviews: 436844
 website: https://www.paypal.com/mobile
 repository: 
 icon: com.paypal.android.p2pmobile.png

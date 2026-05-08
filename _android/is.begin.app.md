@@ -9,8 +9,8 @@ appId: is.begin.app
 alternativeStores: 
 appCountry: 
 released: 2022-10-30
-updated: 2026-02-23
-version: 2.5.0
+updated: 2026-05-07
+version: 2.6.1
 reviews: 3
 website: https://begin.is
 repository: https://github.com/BeginWallet/begin-core

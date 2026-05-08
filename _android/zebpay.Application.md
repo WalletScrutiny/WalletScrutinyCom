@@ -9,8 +9,8 @@ appId: zebpay.Application
 alternativeStores: 
 appCountry: 
 released: 2014-12-23
-updated: 2026-05-01
-version: 3.81.2
+updated: 2026-05-07
+version: 3.81.3
 reviews: 83
 website: https://www.zebpay.com
 repository: 

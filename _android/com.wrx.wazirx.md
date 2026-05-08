@@ -10,9 +10,9 @@ appId: com.wrx.wazirx
 alternativeStores: 
 appCountry: in
 released: 2018-07-16
-updated: 2026-05-04
+updated: 2026-05-08
 version: 4.4.2
-reviews: 126277
+reviews: 126164
 website: https://wazirx.com
 repository: 
 icon: com.wrx.wazirx.png

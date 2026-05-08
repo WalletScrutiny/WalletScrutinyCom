@@ -8,8 +8,8 @@ appId: cz.coin
 alternativeStores: 
 appCountry: 
 released: 2025-10-01
-updated: 2026-02-15
-version: 0.7.0
+updated: 2026-05-05
+version: 0.8.0
 reviews: 
 website: https://generalbytes.com
 repository: 

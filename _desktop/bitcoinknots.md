@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2009-01-04
 discontinued: 
-updated: 2026-02-10
-version: 29.3.knots20260210
+updated: 2026-05-08
+version: 29.3.knots20260507
 binaries: 
 provider: Luke Dash Jr
 providerWebsite: 

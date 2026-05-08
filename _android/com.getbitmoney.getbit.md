@@ -8,8 +8,8 @@ appId: com.getbitmoney.getbit
 alternativeStores: 
 appCountry: 
 released: 2023-01-16
-updated: 2026-04-19
-version: 2.00.48
+updated: 2026-05-08
+version: 2.00.49
 reviews: 
 website: https://www.getbit.money
 repository: 

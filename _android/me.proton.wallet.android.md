@@ -11,7 +11,7 @@ appCountry:
 released: 2025-02-04
 updated: 2026-04-22
 version: 1.2.6
-reviews: 26
+reviews: 27
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 icon: me.proton.wallet.android.png

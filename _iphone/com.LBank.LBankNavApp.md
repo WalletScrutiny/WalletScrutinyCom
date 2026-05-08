@@ -10,7 +10,7 @@ idd: '1437346368'
 released: 2019-02-22
 updated: 2026-04-30
 version: 5.9.9
-reviews: 697
+reviews: 698
 website: https://www.lbank.com/
 repository: 
 icon: com.LBank.LBankNavApp.jpg

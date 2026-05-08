@@ -11,7 +11,7 @@ appCountry:
 released: 2015-01-23
 updated: 2026-05-04
 version: 4.49.1
-reviews: 2169
+reviews: 2168
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 icon: de.number26.android.png

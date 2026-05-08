@@ -6,8 +6,8 @@ authors:
 - mohammad
 released: 2022-03-08
 discontinued: 
-updated: 2023-06-21
-version: 4.11.0
+updated: 2025-11-26
+version: 4.12.0
 binaries: 
 dimensions:
 - 88

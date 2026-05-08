@@ -9,8 +9,8 @@ appId: com.nanovest.prod
 alternativeStores: 
 appCountry: 
 released: 2023-06-08
-updated: 2026-04-23
-version: 5.6.1
+updated: 2026-05-05
+version: 5.7.0
 reviews: 30
 website: https://nanovest.zendesk.com/hc/en-us
 repository: 

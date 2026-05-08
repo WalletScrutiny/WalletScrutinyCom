@@ -16,12 +16,10 @@ icon: saturnzap.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
 date: 2026-05-08
-signer: 
 twitter: LQWDTech
-social:
-builds:
+social: 
+builds: 
 features:
 - hd
 - ln

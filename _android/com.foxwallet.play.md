@@ -11,7 +11,7 @@ appCountry:
 released: 2021-12-05
 updated: 2026-04-10
 version: 5.5.20
-reviews: 454
+reviews: 453
 website: https://www.foxwallet.com/en
 repository: 
 icon: com.foxwallet.play.png

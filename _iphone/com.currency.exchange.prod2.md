@@ -10,7 +10,7 @@ idd: 1458917114
 released: 2019-04-23
 updated: 2026-03-26
 version: 2.19.1
-reviews: 4474
+reviews: 4477
 website: https://dzengi.com/ads
 repository: 
 icon: com.currency.exchange.prod2.jpg

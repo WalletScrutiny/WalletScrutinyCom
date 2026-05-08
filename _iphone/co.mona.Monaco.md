@@ -10,7 +10,7 @@ idd: '1262148500'
 released: 2017-08-31
 updated: 2026-05-04
 version: 3.232.02
-reviews: 327840
+reviews: 328004
 website: https://crypto.com/
 repository: 
 icon: co.mona.Monaco.jpg

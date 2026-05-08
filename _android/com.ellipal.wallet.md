@@ -12,7 +12,7 @@ appCountry: us
 released: 2018-07-02
 updated: 2026-04-16
 version: 4.12.0
-reviews: 547
+reviews: 548
 website: http://www.ellipal.com
 repository: 
 icon: com.ellipal.wallet.png

@@ -9,9 +9,9 @@ appId: com.getmidas.crypto
 alternativeStores: 
 appCountry: 
 released: 2024-12-01
-updated: 2026-05-04
-version: 2.95.3
-reviews: 2
+updated: 2026-05-07
+version: 2.95.4
+reviews: 3
 website: https://www.midaskripto.com/
 repository: 
 icon: com.getmidas.crypto.png

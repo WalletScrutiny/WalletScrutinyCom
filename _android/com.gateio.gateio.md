@@ -11,7 +11,7 @@ appCountry: id
 released: 2017-11-03
 updated: 2026-04-29
 version: 8.18.5
-reviews: 7136
+reviews: 7131
 website: https://www.gate.com/
 repository: 
 icon: com.gateio.gateio.png

@@ -8,8 +8,8 @@ appId: com.nosapps.android.i5o2
 alternativeStores: 
 appCountry: 
 released: 2022-06-03
-updated: 2026-05-04
-version: 1.2.611
+updated: 2026-05-07
+version: 1.2.612
 reviews: 
 website: https://1502.app/
 repository: 

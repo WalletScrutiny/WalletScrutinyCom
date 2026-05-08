@@ -11,7 +11,7 @@ appCountry: gb
 released: 2020-05-05
 updated: 2026-04-27
 version: 3.0.4
-reviews: 6
+reviews: 7
 website: https://skilling.com/
 repository: 
 icon: com.FinovelCyprusLimited.Skilling.png

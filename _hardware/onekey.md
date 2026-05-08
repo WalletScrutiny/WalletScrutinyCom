@@ -8,8 +8,8 @@ authors:
 - mohammad
 released: 2022-08-23
 discontinued: 
-updated: 2024-05-21
-version: 3.11.0
+updated: 2026-02-05
+version: 3.12.0
 binaries: 
 dimensions:
 - 86

@@ -11,7 +11,7 @@ appCountry: us
 released: 2020-01-14
 updated: 2026-04-27
 version: 3.1.199
-reviews: 393
+reviews: 394
 website: https://metalpay.com
 repository: 
 icon: com.metallicus.metalapp.production.png

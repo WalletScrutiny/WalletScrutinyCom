@@ -16,10 +16,10 @@ website: https://www.altcointrader.co.za/
 repository: 
 icon: co.za.altcointrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-07-22
+date: 2026-05-08
 signer: 
 twitter: AltCoinTraderSA
 social: 

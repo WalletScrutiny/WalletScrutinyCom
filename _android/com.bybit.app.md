@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2019-10-31
 updated: 2026-04-30
-version: 5.17.0
+version: 5.18.0
 reviews: 7178
 website: https://www.bybit.com
 repository: 

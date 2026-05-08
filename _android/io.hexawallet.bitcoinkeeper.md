@@ -9,8 +9,8 @@ appId: io.hexawallet.bitcoinkeeper
 alternativeStores: 
 appCountry: UK
 released: 2022-12-12
-updated: 2026-04-09
-version: 2.5.10
+updated: 2026-05-06
+version: 2.5.11
 reviews: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper

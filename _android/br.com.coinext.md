@@ -9,7 +9,7 @@ appId: br.com.coinext
 alternativeStores: 
 appCountry: 
 released: 2019-11-19
-updated: 2026-04-24
+updated: 2026-05-07
 version: 2.35.8
 reviews: 7
 website: https://coinext.com.br

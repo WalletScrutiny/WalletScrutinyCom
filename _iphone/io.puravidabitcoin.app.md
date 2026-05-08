@@ -7,7 +7,7 @@ authors:
 appId: io.puravidabitcoin.app
 appCountry: us
 idd: '6443837514'
-released: '2023-03-29T07:00:00Z'
+released: 2023-03-29
 updated: 2026-02-26
 version: 2.3.0
 reviews: 25

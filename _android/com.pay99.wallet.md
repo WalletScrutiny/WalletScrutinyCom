@@ -9,9 +9,9 @@ appId: com.pay99.wallet
 alternativeStores: 
 appCountry: br
 released: 2021-09-23
-updated: 2026-04-16
+updated: 2026-05-06
 version: 8.4.52
-reviews: 9794
+reviews: 9798
 website: 
 repository: 
 icon: com.pay99.wallet.png

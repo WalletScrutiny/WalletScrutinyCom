@@ -9,7 +9,7 @@ appId: com.revolut.revolutx
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-05
+updated: 2026-05-06
 version: '1.57'
 reviews: 1
 website: https://www.revolut.com/revolut-x/

@@ -10,7 +10,7 @@ idd: 1437814700
 released: 2019-04-24
 updated: 2026-04-28
 version: 4.13.2
-reviews: 16861
+reviews: 17052
 website: https://www.bitkub.com/download
 repository: 
 icon: com.bitkub.app.jpg

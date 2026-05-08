@@ -11,7 +11,7 @@ alternativeStores:
 appCountry: us
 released: 2018-10-25
 updated: 2026-04-30
-version: 5.6.210401
+version: 5.6.220400
 reviews: 194
 website: https://hyperpay.tech
 repository: 

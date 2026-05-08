@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2018-05-09
 updated: 2026-04-27
-version: 4.2.1
-reviews: 3740
+version: 4.3.1
+reviews: 3753
 website: http://www.bitmart.com
 repository: 
 icon: com.bitmart.bitmarket.png

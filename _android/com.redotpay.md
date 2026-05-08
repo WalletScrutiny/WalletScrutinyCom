@@ -11,7 +11,7 @@ appCountry:
 released: 2023-06-09
 updated: 2026-05-01
 version: 3.5.1
-reviews: 1081
+reviews: 1085
 website: https://www.redotpay.com
 repository: 
 icon: com.redotpay.png

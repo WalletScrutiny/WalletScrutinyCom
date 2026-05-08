@@ -9,9 +9,9 @@ appId: com.bitget.exchange
 alternativeStores: 
 appCountry: us
 released: 2020-04-03
-updated: 2026-04-29
-version: 2.82.0
-reviews: 1667
+updated: 2026-05-07
+version: 2.82.1
+reviews: 1670
 website: https://www.bitget.com/
 repository: 
 icon: com.bitget.exchange.png

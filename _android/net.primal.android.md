@@ -9,7 +9,7 @@ appId: net.primal.android
 alternativeStores: 
 appCountry: 
 released: 2024-07-09
-updated: 2026-04-06
+updated: 2026-05-07
 version: 3.0.21
 reviews: 29
 website: https://www.primal.net

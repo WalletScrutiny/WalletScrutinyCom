@@ -9,8 +9,8 @@ appId: com.bitmarkets.android.app
 alternativeStores: 
 appCountry: 
 released: 2022-10-04
-updated: 2026-04-15
-version: 3.8.10
+updated: 2026-05-07
+version: 3.8.11
 reviews: 
 website: https://www.bitmarkets.com/
 repository: 

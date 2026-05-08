@@ -9,7 +9,7 @@ appId: com.coindcx.btc
 alternativeStores: 
 appCountry: 
 released: 2020-12-09
-updated: 2026-04-29
+updated: 2026-05-06
 version: 7.49.0002
 reviews: 599
 website: https://go.coindcx.com/

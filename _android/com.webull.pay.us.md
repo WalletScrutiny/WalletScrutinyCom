@@ -9,7 +9,7 @@ appId: com.webull.pay.us
 alternativeStores: 
 appCountry: 
 released: 2023-05-26
-updated: 2026-03-19
+updated: 2026-05-06
 version: 2.2.0.29
 reviews: 1164
 website: http://www.webullpay.com

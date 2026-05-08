@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Secure Trading App'
+title: 'AvaTrade: Trusted Trading App'
 altTitle: 
 authors:
 - danny

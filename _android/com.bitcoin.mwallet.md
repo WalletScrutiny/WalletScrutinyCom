@@ -12,7 +12,7 @@ appCountry:
 released: 2017-06-19
 updated: 2026-04-28
 version: 9.19.3
-reviews: 4110
+reviews: 4113
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 icon: com.bitcoin.mwallet.png

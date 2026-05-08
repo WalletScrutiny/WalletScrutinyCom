@@ -6,7 +6,7 @@ authors:
 released: 2022-07-20
 discontinued: 
 updated: 2026-04-17
-version: 14.0
+version: 14
 binaries: https://github.com/wizardsardine/liana/releases
 provider: Wizardsardine
 providerWebsite: 

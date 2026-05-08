@@ -9,9 +9,9 @@ appId: com.bitvavo.android
 alternativeStores: 
 appCountry: nl
 released: 2020-08-19
-updated: 2026-05-01
-version: 2.105.0
-reviews: 3643
+updated: 2026-05-06
+version: 2.106.0
+reviews: 3644
 website: https://bitvavo.com/
 repository: 
 icon: com.bitvavo.android.png

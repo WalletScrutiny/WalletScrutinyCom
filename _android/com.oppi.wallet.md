@@ -9,8 +9,8 @@ appId: com.oppi.wallet
 alternativeStores: 
 appCountry: 
 released: 2024-05-13
-updated: 2026-05-05
-version: 1.0.109
+updated: 2026-05-07
+version: 1.0.110
 reviews: 9
 website: https://oppiwallet.com/en
 repository: 

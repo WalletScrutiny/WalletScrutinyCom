@@ -9,8 +9,8 @@ appId: br.com.mynt
 alternativeStores: 
 appCountry: 
 released: 2022-06-21
-updated: 2026-04-29
-version: 1.106.1
+updated: 2026-05-05
+version: 1.107.0
 reviews: 5
 website: 
 repository: 

@@ -7,7 +7,7 @@ authors:
 appId: com.unionex.coin
 appCountry: us
 idd: '6753883122'
-released: '2025-11-05T08:00:00Z'
+released: 2025-11-05
 updated: 2026-03-02
 version: 1.2.5
 reviews: 1

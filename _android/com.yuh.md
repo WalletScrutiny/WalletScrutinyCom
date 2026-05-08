@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2021-04-06
 updated: 2026-04-30
-version: 1.44.3
+version: 1.44.4
 reviews: 4
 website: https://www.yuh.com
 repository: 

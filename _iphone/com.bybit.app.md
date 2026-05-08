@@ -10,7 +10,7 @@ idd: 1488296980
 released: 2020-01-06
 updated: 2026-05-01
 version: 5.18.0
-reviews: 46529
+reviews: 46547
 website: https://www.bybit.com
 repository: 
 icon: com.bybit.app.jpg

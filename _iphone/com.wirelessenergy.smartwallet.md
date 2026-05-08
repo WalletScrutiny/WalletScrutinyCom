@@ -7,7 +7,7 @@ authors:
 appId: com.wirelessenergy.smartwallet
 appCountry: us
 idd: '6751100799'
-released: '2026-02-02T08:00:00Z'
+released: 2026-02-02
 updated: 2026-04-07
 version: 2.16.2
 reviews: 0

@@ -9,8 +9,8 @@ appId: rs.ecd.ecd
 alternativeStores: 
 appCountry: 
 released: 2024-10-22
-updated: 2026-04-24
-version: 1.4.90
+updated: 2026-05-07
+version: 1.4.91
 reviews: 
 website: https://ecd.rs/
 repository: 

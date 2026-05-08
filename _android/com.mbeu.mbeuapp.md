@@ -9,8 +9,8 @@ appId: com.mbeu.mbeuapp
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-05
-version: 2.1.0
+updated: 2026-05-07
+version: 2.1.1
 reviews: 
 website: https://mercadobitcoin.pt/
 repository: 

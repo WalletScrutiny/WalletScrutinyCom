@@ -9,8 +9,8 @@ appId: com.mirai.miraiex
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-01-14
-version: 3.7.0
+updated: 2026-05-05
+version: 3.7.1
 reviews: 
 website: https://firi.com
 repository: 

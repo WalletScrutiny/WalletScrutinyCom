@@ -9,7 +9,7 @@ appId: io.cex.app.prod
 alternativeStores: 
 appCountry: 
 released: 2015-12-22
-updated: 2026-04-28
+updated: 2026-05-08
 version: 12.40.1
 reviews: 10977
 website: https://cex.io

@@ -7,7 +7,7 @@ authors:
 appId: com.trustfresh
 appCountry: jp
 idd: '6746805908'
-released: '2025-08-12T07:00:00Z'
+released: 2025-08-12
 updated: 2026-02-05
 version: 1.0.4
 reviews: 0

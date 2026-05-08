@@ -9,8 +9,8 @@ appId: com.wallet.noworry
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-09
-version: 5.8.22
+updated: 2026-05-02
+version: 5.8.23
 reviews: 
 website: https://www.nowory.com
 repository: 

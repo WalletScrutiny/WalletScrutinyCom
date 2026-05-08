@@ -9,8 +9,8 @@ appId: com.nicehash.metallum
 alternativeStores: 
 appCountry: 
 released: 2020-04-17
-updated: 2026-04-20
-version: 5.2.4
+updated: 2026-05-06
+version: 5.2.5
 reviews: 677
 website: https://www.nicehash.com/my/
 repository: 

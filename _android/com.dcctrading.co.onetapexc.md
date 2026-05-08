@@ -15,10 +15,10 @@ website: https://onetapexc.com#deadLink
 repository: 
 icon: com.dcctrading.co.onetapexc.png
 bugbounty: 
-meta: fewusers
+meta: stale
 verdict: wip
 appHashes: 
-date: 2026-02-02
+date: 2026-05-08
 signer: 
 twitter: 
 social: 

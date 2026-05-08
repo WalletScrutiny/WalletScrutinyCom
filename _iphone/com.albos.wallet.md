@@ -7,7 +7,7 @@ authors:
 appId: com.albos.wallet
 appCountry: vn
 idd: '1470902980'
-released: '2019-07-16T07:00:00Z'
+released: 2019-07-16
 updated: 2024-07-05
 version: 2.1.17
 reviews: 1

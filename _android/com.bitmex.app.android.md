@@ -9,8 +9,8 @@ appId: com.bitmex.app.android
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-22
-version: 3.2.8
+updated: 2026-05-06
+version: 3.2.9
 reviews: 
 website: https://www.bitmex.com/
 repository: 

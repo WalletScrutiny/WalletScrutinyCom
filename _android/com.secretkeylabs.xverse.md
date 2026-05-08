@@ -9,8 +9,8 @@ appId: com.secretkeylabs.xverse
 alternativeStores: 
 appCountry: cn
 released: 2021-10-12
-updated: 2026-04-30
-version: 2.3.0
+updated: 2026-05-05
+version: 2.3.1
 reviews: 1087
 website: https://www.xverse.app/
 repository: 

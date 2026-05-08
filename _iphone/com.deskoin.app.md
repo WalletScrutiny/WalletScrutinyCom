@@ -10,7 +10,7 @@ idd: '6451258830'
 released: 2023-12-02
 updated: 2026-05-04
 version: 7.6.10
-reviews: 393
+reviews: 394
 website: https://www.deskoin.com/
 repository: 
 icon: com.deskoin.app.jpg

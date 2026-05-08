@@ -9,8 +9,8 @@ appId: io.leather.mobilewallet
 alternativeStores: 
 appCountry: 
 released: 2025-03-25
-updated: 2026-05-04
-version: 2.104.6
+updated: 2026-05-05
+version: 2.105.0
 reviews: 2
 website: https://leather.io
 repository: https://github.com/leather-io/mono

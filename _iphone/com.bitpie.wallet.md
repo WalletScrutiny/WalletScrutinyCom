@@ -10,7 +10,7 @@ idd: 1481314229
 released: 2019-10-01
 updated: 2026-04-21
 version: 5.0.227
-reviews: 358
+reviews: 360
 website: https://bitpie.com
 repository: 
 icon: com.bitpie.wallet.jpg

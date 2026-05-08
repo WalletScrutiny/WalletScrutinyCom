@@ -9,8 +9,8 @@ appId: com.netcoins.app
 alternativeStores: 
 appCountry: 
 released: 2022-12-10
-updated: 2026-04-02
-version: 5.12.0
+updated: 2026-05-05
+version: 5.13.0
 reviews: 15
 website: https://www.netcoins.com
 repository: 

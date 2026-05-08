@@ -10,7 +10,7 @@ idd: 1541949985
 released: 2020-12-13
 updated: 2026-04-15
 version: 3.10.2
-reviews: 44665
+reviews: 44676
 website: https://www.coinspot.com.au/
 repository: 
 icon: com.coinspot.app.jpg

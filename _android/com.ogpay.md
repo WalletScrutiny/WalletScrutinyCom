@@ -9,7 +9,7 @@ appId: com.ogpay
 alternativeStores: 
 appCountry: us
 released: 2019-07-31
-updated: 2026-04-03
+updated: 2026-05-05
 version: VARY
 reviews: 34
 website: https://www.ogpaywallet.com

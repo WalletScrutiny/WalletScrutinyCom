@@ -7,7 +7,7 @@ authors:
 appId: com.useguap.ios.rn
 appCountry: us
 idd: '6744361725'
-released: '2025-12-08T08:00:00Z'
+released: 2025-12-08
 updated: 2026-04-30
 version: 0.8.8
 reviews: 1

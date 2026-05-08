@@ -12,9 +12,9 @@ alternativeStores:
 - fdroid
 appCountry: 
 released: 2018-12-18
-updated: 2026-04-16
-version: 0.48.1
-reviews: 131
+updated: 2026-04-21
+version: 0.48.2
+reviews: 132
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 icon: io.horizontalsystems.bankwallet.png

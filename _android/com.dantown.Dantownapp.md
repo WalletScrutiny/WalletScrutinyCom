@@ -9,8 +9,8 @@ appId: com.dantown.Dantownapp
 alternativeStores: 
 appCountry: 
 released: 2021-03-27
-updated: 2026-04-03
-version: 2.0.78
+updated: 2026-05-08
+version: 2.0.79
 reviews: 43
 website: https://www.dantownms.com
 repository: 

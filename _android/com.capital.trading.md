@@ -9,8 +9,8 @@ appId: com.capital.trading
 alternativeStores: 
 appCountry: 
 released: 2017-10-18
-updated: 2026-04-23
-version: 3.32.0
+updated: 2026-05-06
+version: 3.33.0
 reviews: 36
 website: https://capital.com
 repository: 

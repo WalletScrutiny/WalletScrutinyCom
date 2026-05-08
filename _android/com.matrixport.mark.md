@@ -9,9 +9,9 @@ appId: com.matrixport.mark
 alternativeStores: 
 appCountry: cn
 released: 2019-10-23
-updated: 2026-04-27
-version: 3.8.2
-reviews: 872
+updated: 2026-04-30
+version: 3.8.3
+reviews: 871
 website: https://invest.matrixport.com
 repository: 
 icon: com.matrixport.mark.png

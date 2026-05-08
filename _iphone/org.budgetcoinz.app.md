@@ -7,7 +7,7 @@ authors:
 appId: org.budgetcoinz.app
 appCountry: us
 idd: '6475350192'
-released: '2024-03-20T07:00:00Z'
+released: 2024-03-20
 updated: 2026-01-14
 version: 1.6.0
 reviews: 3

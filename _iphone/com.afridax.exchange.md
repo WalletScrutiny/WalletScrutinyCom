@@ -8,8 +8,8 @@ appId: com.afridax.exchange
 appCountry: za
 idd: '6739197253'
 released: 2025-02-06
-updated: 2026-04-02
-version: 1.0.2
+updated: 2026-05-05
+version: 1.0.4
 reviews: 8
 website: 
 repository: 

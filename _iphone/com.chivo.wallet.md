@@ -10,7 +10,7 @@ idd: 1581515981
 released: 2021-09-07
 updated: 2025-08-28
 version: 3.1.0
-reviews: 4263
+reviews: 4261
 website: https://www.chivowallet.com
 repository: 
 icon: com.chivo.wallet.jpg

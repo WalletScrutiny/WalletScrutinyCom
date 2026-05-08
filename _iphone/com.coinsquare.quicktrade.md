@@ -10,7 +10,7 @@ idd: '1539660922'
 released: 2021-02-05
 updated: 2025-12-08
 version: 5.3.3
-reviews: 5381
+reviews: 5380
 website: https://coinsquare.com
 repository: 
 icon: com.coinsquare.quicktrade.jpg

@@ -11,7 +11,7 @@ idd: 1137855704
 released: 2016-09-04
 updated: 2026-04-17
 version: 5.23.0
-reviews: 31
+reviews: 30
 website: https://www.coinhako.com
 repository: 
 icon: com.coinhako.app.jpg

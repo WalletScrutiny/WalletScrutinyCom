@@ -8,7 +8,7 @@ appId: com.cashuwallet.android
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2025-09-17
+updated: 2026-05-05
 version: VARY
 reviews: 
 website: https://cashu.cc/

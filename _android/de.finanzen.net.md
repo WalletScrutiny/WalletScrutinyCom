@@ -9,7 +9,7 @@ appId: de.finanzen.net
 alternativeStores: 
 appCountry: 
 released: 2012-03-26
-updated: 2026-04-20
+updated: 2026-05-07
 version: 5.9.0
 reviews: 64
 website: http://www.finanzen.net/apps

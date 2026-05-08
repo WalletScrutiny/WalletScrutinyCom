@@ -9,7 +9,7 @@ appId: com.bitpanda.bitpanda
 alternativeStores: 
 appCountry: 
 released: 2018-11-07
-updated: 2026-04-28
+updated: 2026-05-07
 version: 3.22.1
 reviews: 18
 website: https://www.bitpanda.com

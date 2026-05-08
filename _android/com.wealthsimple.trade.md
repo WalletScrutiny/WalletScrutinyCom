@@ -11,7 +11,7 @@ appCountry: ca
 released: 2019-03-12
 updated: 2026-05-02
 version: 2.224.0
-reviews: 12962
+reviews: 12965
 website: https://www.wealthsimple.com/en-ca/
 repository: 
 icon: com.wealthsimple.trade.png

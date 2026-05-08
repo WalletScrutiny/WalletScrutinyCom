@@ -9,7 +9,7 @@ appId: app.simple.com
 alternativeStores: 
 appCountry: 
 released: 2023-04-24
-updated: 2026-04-29
+updated: 2026-05-05
 version: 3.27.0
 reviews: 1854
 website: https://simple.app/

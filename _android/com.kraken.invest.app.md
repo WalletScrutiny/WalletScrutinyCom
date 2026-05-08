@@ -11,7 +11,7 @@ appCountry:
 released: 2020-12-30
 updated: 2026-05-01
 version: 3.62.0
-reviews: 7979
+reviews: 7994
 website: https://www.kraken.com
 repository: 
 icon: com.kraken.invest.app.png

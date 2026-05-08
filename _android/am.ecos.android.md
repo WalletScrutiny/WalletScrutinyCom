@@ -9,9 +9,9 @@ appId: am.ecos.android
 alternativeStores: 
 appCountry: us
 released: 2020-09-22
-updated: 2026-04-29
-version: 3.1.16
-reviews: 220
+updated: 2026-05-06
+version: 3.1.17
+reviews: 221
 website: https://ecos.am
 repository: 
 icon: am.ecos.android.png

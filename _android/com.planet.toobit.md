@@ -9,9 +9,9 @@ appId: com.planet.toobit
 alternativeStores: 
 appCountry: 
 released: 2023-02-14
-updated: 2026-04-28
-version: 2.2.5
-reviews: 330
+updated: 2026-05-07
+version: 2.2.6
+reviews: 331
 website: https://www.toobit.com
 repository: 
 icon: com.planet.toobit.jpg

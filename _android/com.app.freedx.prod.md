@@ -9,8 +9,8 @@ appId: com.app.freedx.prod
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-02-10
-version: 1.4.0
+updated: 2026-05-06
+version: 1.7.0
 reviews: 
 website: https://freedx.com/
 repository: 

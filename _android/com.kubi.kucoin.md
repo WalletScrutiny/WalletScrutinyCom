@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2018-05-03
 updated: 2026-04-30
-version: 4.24.0
-reviews: 5032
+version: 4.25.0
+reviews: 5033
 website: https://www.kucoin.com
 repository: 
 icon: com.kubi.kucoin.jpg

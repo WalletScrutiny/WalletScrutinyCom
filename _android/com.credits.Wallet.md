@@ -9,8 +9,8 @@ appId: com.credits.Wallet
 alternativeStores: 
 appCountry: 
 released: 2020-10-26
-updated: 2026-04-14
-version: 10.0.0.2
+updated: 2026-05-05
+version: 10.5.0
 reviews: 6
 website: https://credits.com/contacts.html
 repository: 

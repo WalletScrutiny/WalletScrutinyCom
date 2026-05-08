@@ -9,8 +9,8 @@ appId: com.afridax.exchange
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-08
-version: 1.0.3
+updated: 2026-05-04
+version: 1.0.4
 reviews: 
 website: https://afridax.com
 repository: 

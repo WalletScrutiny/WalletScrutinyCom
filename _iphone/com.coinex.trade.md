@@ -9,7 +9,7 @@ idd: '1626447428'
 released: 2022-10-25
 updated: 2026-04-30
 version: 4.12.0
-reviews: 5701
+reviews: 5705
 website: https://www.coinex.com/
 repository: 
 icon: com.coinex.trade.jpg

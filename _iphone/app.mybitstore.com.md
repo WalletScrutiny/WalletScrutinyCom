@@ -10,7 +10,7 @@ idd: '1579519877'
 released: 2021-08-12
 updated: 2025-02-18
 version: 7.0.9
-reviews: 497
+reviews: 498
 website: 
 repository: 
 icon: app.mybitstore.com.jpg

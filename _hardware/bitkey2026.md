@@ -11,7 +11,7 @@ binaries: https://github.com/proto-at-block/bitkey/
 dimensions:
 - 66
 - 60
-- 13.6
+- 14
 weight: 79
 provider: Block
 providerWebsite: https://block.xyz/

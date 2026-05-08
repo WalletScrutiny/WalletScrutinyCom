@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: us
 released: 2020-05-08
 updated: 2026-04-29
-version: 7.9.4
-reviews: 686
+version: 7.9.6
+reviews: 684
 website: https://www.lbank.com
 repository: 
 icon: com.superchain.lbankgoogle.png

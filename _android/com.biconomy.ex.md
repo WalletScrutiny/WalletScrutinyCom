@@ -11,7 +11,7 @@ appCountry:
 released: 2020-01-14
 updated: 2026-04-10
 version: 2.3.25
-reviews: 157
+reviews: 158
 website: https://www.biconomy.com
 repository: 
 icon: com.biconomy.ex.png

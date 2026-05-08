@@ -11,7 +11,7 @@ appCountry:
 released: 2021-01-06
 updated: 2026-04-30
 version: 3.0.5
-reviews: 5
+reviews: 4
 website: https://gosats.io
 repository: 
 icon: io.gosats.png

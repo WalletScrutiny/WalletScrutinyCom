@@ -9,8 +9,8 @@ appId: com.hashkeypro.exchange
 alternativeStores: 
 appCountry: 
 released: 2023-11-01
-updated: 2026-04-21
-version: 1.76.0
+updated: 2026-04-30
+version: 1.77.0
 reviews: 30
 website: https://www.hashkey.com/
 repository: 

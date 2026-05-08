@@ -9,7 +9,7 @@ appId: money.boku.android
 alternativeStores: 
 appCountry: 
 released: 2023-10-17
-updated: 2026-05-01
+updated: 2026-05-05
 version: 1.3.200
 reviews: 15
 website: https://neverless.com

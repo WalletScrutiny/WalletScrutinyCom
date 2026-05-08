@@ -11,7 +11,7 @@ appCountry:
 released: 2021-04-28
 updated: 2026-04-24
 version: 3.7.4
-reviews: 77
+reviews: 76
 website: https://www.ascendex.com/
 repository: 
 icon: com.ascendex.exchange.png

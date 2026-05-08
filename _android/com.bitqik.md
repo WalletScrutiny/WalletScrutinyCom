@@ -9,8 +9,8 @@ appId: com.bitqik
 alternativeStores: 
 appCountry: 
 released: 2022-09-23
-updated: 2026-03-04
-version: 3.5.0
+updated: 2026-05-06
+version: 3.7.0
 reviews: 3
 website: https://bitqik.com/
 repository: 

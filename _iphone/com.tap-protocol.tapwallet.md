@@ -7,7 +7,7 @@ authors:
 appId: com.tap-protocol.tapwallet
 appCountry: us
 idd: '6748963003'
-released: '2025-08-05T07:00:00Z'
+released: 2025-08-05
 updated: 2026-01-20
 version: 1.0.7
 reviews: 7

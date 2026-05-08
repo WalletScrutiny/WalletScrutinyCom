@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-26
 updated: 2024-12-26
 version: 511.0.0
-reviews: 410
+reviews: 409
 website: https://saraf.app
 repository: 
 icon: com.parsa.saraf.png

@@ -11,7 +11,7 @@ appCountry:
 released: 2014-10-01
 updated: 2026-04-27
 version: 7.9.29.5
-reviews: 552
+reviews: 553
 website: https://coins.ph
 repository: 
 icon: asia.coins.mobile.png

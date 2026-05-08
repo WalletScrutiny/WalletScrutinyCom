@@ -12,7 +12,7 @@ appCountry:
 released: 2018-09-07
 updated: 2026-04-16
 version: 1.156.46
-reviews: 799
+reviews: 800
 website: https://changenow.io
 repository: 
 icon: io.changenow.changenow.png

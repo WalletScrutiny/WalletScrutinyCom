@@ -7,7 +7,7 @@ authors:
 appId: com.enterwota.app
 appCountry: us
 idd: '1552728908'
-released: '2021-02-11T08:00:00Z'
+released: 2021-02-11
 updated: 2023-05-01
 version: 1.3.1
 reviews: 0

@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2017-04-10
 updated: 2026-05-01
-version: 3.93.0
-reviews: 20871
+version: 3.94.0
+reviews: 20882
 website: https://www.sofi.com
 repository: 
 icon: com.sofi.mobile.png

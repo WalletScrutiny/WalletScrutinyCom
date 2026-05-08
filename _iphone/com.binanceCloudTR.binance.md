@@ -10,7 +10,7 @@ idd: '1548636153'
 released: 2021-02-18
 updated: 2026-04-10
 version: 4.2.0
-reviews: 173045
+reviews: 173260
 website: https://www.trbinance.com/
 repository: 
 icon: com.binanceCloudTR.binance.jpg

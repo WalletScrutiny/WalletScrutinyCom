@@ -10,7 +10,7 @@ idd: 1436799971
 released: 2018-10-06
 updated: 2026-05-05
 version: 3.14.3
-reviews: 51358
+reviews: 51414
 website: https://www.binance.com
 repository: 
 icon: com.czzhao.binance.jpg

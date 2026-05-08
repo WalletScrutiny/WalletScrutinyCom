@@ -9,8 +9,8 @@ appId: co.psychedelic.plug
 alternativeStores: 
 appCountry: 
 released: 2022-07-01
-updated: 2026-03-30
-version: 2.7.6
+updated: 2026-05-06
+version: 2.8.0
 reviews: 17
 website: https://plugwallet.ooo
 repository: 

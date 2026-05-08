@@ -10,7 +10,7 @@ idd: '6453759917'
 released: 2023-08-14
 updated: 2026-05-02
 version: 5.7.11
-reviews: 13
+reviews: 12
 website: 
 repository: 
 icon: com.bitvenus.exchange.jpg

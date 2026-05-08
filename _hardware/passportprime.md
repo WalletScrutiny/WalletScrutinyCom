@@ -10,7 +10,7 @@ version: 1.2.1
 binaries: https://github.com/Foundation-Devices/KeyOS-Releases/releases
 dimensions:
 - 56
-- 105
+- 110
 - 11
 weight: 93
 provider: 
@@ -24,7 +24,7 @@ icon: passportprime.png
 bugbounty: https://foundation.xyz/security/
 meta: ok
 verdict: sourceavailable
-appHashes:
+appHashes: 
 date: 2026-05-08
 signer: 
 twitter: FOUNDATIONdvcs
@@ -32,7 +32,7 @@ social:
 - https://www.linkedin.com/company/foundationdevices
 - https://t.me/foundationdevices
 - https://www.reddit.com/r/FoundationDevices/
-builds:
+builds: 
 features:
 - hd
 - camera

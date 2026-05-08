@@ -9,8 +9,8 @@ appId: com.satang.pro
 alternativeStores: 
 appCountry: 
 released: 2020-04-12
-updated: 2026-03-18
-version: 2.18.35
+updated: 2026-04-30
+version: 2.19.2
 reviews: 4
 website: https://satangcorp.com/
 repository: 

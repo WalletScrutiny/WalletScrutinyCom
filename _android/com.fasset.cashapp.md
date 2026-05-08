@@ -9,9 +9,9 @@ appId: com.fasset.cashapp
 alternativeStores: 
 appCountry: 
 released: 2021-12-14
-updated: 2026-04-27
-version: '6.6'
-reviews: 14
+updated: 2026-05-05
+version: '6.7'
+reviews: 16
 website: https://www.fasset.io/
 repository: 
 icon: com.fasset.cashapp.png

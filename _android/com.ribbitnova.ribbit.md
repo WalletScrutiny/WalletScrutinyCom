@@ -8,8 +8,8 @@ appId: com.ribbitnova.ribbit
 alternativeStores: 
 appCountry: 
 released: 2025-08-20
-updated: 2026-03-23
-version: 1.9.2
+updated: 2026-05-07
+version: 1.9.3
 reviews: 
 website: https://ribbitwallet.com
 repository: 

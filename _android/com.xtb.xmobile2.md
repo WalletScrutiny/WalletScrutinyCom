@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2014-12-17
 updated: 2026-05-04
-version: 2.167.0
+version: 2.168.0
 reviews: 214
 website: http://www.xtb.com
 repository: 

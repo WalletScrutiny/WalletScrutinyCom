@@ -10,7 +10,7 @@ idd: '6479202981'
 released: 2024-04-02
 updated: 2026-05-01
 version: 5.11.0
-reviews: 18690
+reviews: 18874
 website: https://deblock.com
 repository: 
 icon: com.deblock.deblockapp.production.jpg

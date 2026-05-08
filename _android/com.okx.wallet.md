@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2025-03-21
 updated: 2026-04-29
-version: 6.168.0
-reviews: 44
+version: 6.169.0
+reviews: 45
 website: 
 repository: 
 icon: com.okx.wallet.png

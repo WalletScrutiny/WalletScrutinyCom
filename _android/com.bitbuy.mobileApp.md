@@ -11,7 +11,7 @@ appCountry: ca
 released: 2019-10-15
 updated: 2025-12-05
 version: 5.3.3
-reviews: 1382
+reviews: 1384
 website: https://bitbuy.ca/
 repository: 
 icon: com.bitbuy.mobileApp.jpg

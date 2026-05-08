@@ -9,8 +9,8 @@ appId: com.bitnovo.Wallet
 alternativeStores: 
 appCountry: us
 released: 2021-10-27
-updated: 2026-04-21
-version: 3.0.74
+updated: 2026-05-07
+version: 3.0.76
 reviews: 12
 website: https://www.bitnovo.com
 repository: 

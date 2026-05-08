@@ -7,7 +7,7 @@ authors:
 appId: io.bitrequest.app
 appCountry: us
 idd: '1484815377'
-released: '2019-11-15T08:00:00Z'
+released: 2019-11-15
 updated: 2026-03-11
 version: '1.30'
 reviews: 1

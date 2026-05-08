@@ -9,8 +9,8 @@ appId: com.kangamobile
 alternativeStores: 
 appCountry: 
 released: 2020-01-03
-updated: 2026-04-24
-version: 1.29.1
+updated: 2026-05-06
+version: 1.29.2
 reviews: 6
 website: https://kanga.exchange
 repository: 

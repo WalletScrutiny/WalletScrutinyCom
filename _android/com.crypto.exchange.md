@@ -10,8 +10,8 @@ appId: com.crypto.exchange
 alternativeStores: 
 appCountry: nz
 released: 2021-05-26
-updated: 2026-04-29
-version: 3.4.0
+updated: 2026-05-06
+version: 3.4.1
 reviews: 16
 website: https://www.crypto.com/exchange
 repository: 

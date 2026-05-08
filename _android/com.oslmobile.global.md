@@ -9,8 +9,8 @@ appId: com.oslmobile.global
 alternativeStores: 
 appCountry: 
 released: 2025-05-08
-updated: 2026-04-24
-version: 1.10.12
+updated: 2026-05-06
+version: 1.10.13
 reviews: 
 website: https://osl.com
 repository: 

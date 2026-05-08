@@ -11,7 +11,7 @@ appCountry: TR
 released: 2020-12-18
 updated: 2026-04-17
 version: 2.1.53
-reviews: 2576
+reviews: 2575
 website: https://www.bitlo.com/
 repository: 
 icon: com.bitlo.bitloandroid.png

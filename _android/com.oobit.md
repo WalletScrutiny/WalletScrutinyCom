@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: Oobit – Crypto Credit Card
+title: Oobit – Crypto Card
 altTitle: 
 authors:
 - danny

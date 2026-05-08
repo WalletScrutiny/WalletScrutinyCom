@@ -11,7 +11,7 @@ appCountry:
 released: 2020-06-14
 updated: 2026-04-27
 version: 3.1.7
-reviews: 275
+reviews: 274
 website: https://pandar.ng
 repository: 
 icon: i.brains.pandax.png

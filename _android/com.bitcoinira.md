@@ -9,9 +9,9 @@ appId: com.bitcoinira
 alternativeStores: 
 appCountry: us
 released: 2021-06-15
-updated: 2026-04-29
+updated: 2026-05-06
 version: 2.0.9
-reviews: 549
+reviews: 551
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.png

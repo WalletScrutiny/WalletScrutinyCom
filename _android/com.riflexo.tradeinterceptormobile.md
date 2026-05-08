@@ -9,8 +9,8 @@ appId: com.riflexo.tradeinterceptormobile
 alternativeStores: 
 appCountry: us
 released: 2010-08-02
-updated: 2026-05-01
-version: 7.0.5.13
+updated: 2026-05-06
+version: 7.0.5.14
 reviews: 350
 website: http://www.thinkmarkets.com
 repository: 

@@ -11,7 +11,7 @@ appCountry:
 released: 2023-01-16
 updated: 2026-05-03
 version: 5.48.0
-reviews: 202
+reviews: 203
 website: https://klever.io
 repository: 
 icon: finance.klever.bitcoin.wallet.png

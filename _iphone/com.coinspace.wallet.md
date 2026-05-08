@@ -10,7 +10,7 @@ idd: 980719434
 released: 2015-12-14
 updated: 2026-05-01
 version: 6.26.1
-reviews: 479
+reviews: 481
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
 icon: com.coinspace.wallet.jpg

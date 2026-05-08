@@ -7,7 +7,7 @@ authors:
 appId: com.digitalshield.walletapp
 appCountry: at
 idd: '6740052686'
-released: '2025-01-16T08:00:00Z'
+released: 2025-01-16
 updated: 2026-05-01
 version: 2.1.7
 reviews: 0
