@@ -12,7 +12,7 @@ provider: ShockNet
 providerWebsite: 
 website: https://shock.network/
 repository: https://github.com/shocknet/wallet2
-icon: shockwallet.jpg
+icon: shockwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
