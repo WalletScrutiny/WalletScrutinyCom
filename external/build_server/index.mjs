@@ -26,7 +26,8 @@ import {
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
-  BUILD_DIR
+  BUILD_DIR,
+  FEATURE_REFRESH_APPS
 } from './config/config.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -48,16 +49,18 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     await queue.onIdle();
     appLog.info('[QUEUE_INFO] Queue idle - all jobs completed.');
 
-    // For now, we'll try to reproduce only assets from the Asset Registry (android, hardware, desktop)
-    return;
+    if (!FEATURE_REFRESH_APPS) {
+      // For now, we only reproduce assets from the Asset Registry (android, hardware, desktop).
+      // The desktop/hardware refresh flow below is gated until it is fully validated.
+      return;
+    }
 
-    // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);
     appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
 
     const verificationsWithAttachments = [];
     const wsBotVerifications = [];
-    
+
     for (const [, verificationEvents] of allVerificationsRaw) {
       for (const verification of verificationEvents) {
         const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
@@ -89,7 +92,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     }
 
     const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(verificationsWithAttachments);
-    
+
     for (const [appId, verifications] of verificationsByAppId) {
       // Take only the first (highest) verification for the appId
       const highestVersionVerification = verifications[0];

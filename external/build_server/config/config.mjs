@@ -9,6 +9,12 @@ export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717
 // Hours between main process executions
 export const HOURS_BETWEEN_EXECUTIONS = 1;
 
+// Feature flag: when true, mainProcess also refreshes desktop/hardware wallet
+// versions and queues verifications for any new release found in the wallet
+// repos (in addition to assets registered in the Asset Registry).
+// Disabled by default until the new-release flow is finished and validated.
+export const FEATURE_REFRESH_APPS = false;
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
