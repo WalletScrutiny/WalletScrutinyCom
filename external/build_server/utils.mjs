@@ -1,4 +1,5 @@
 import { execSync, spawnSync } from 'child_process';
+import { createHash } from 'node:crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -126,10 +127,7 @@ export async function fetchAppInfo() {
 
 export async function calculateFileHash(file) {
   const arrayBuffer = await file.arrayBuffer();
-  const crypto = await import("crypto");
-  const { Buffer } = await import("buffer");
-  const buffer = Buffer.from(arrayBuffer);
-  return crypto.createHash("sha256").update(buffer).digest("hex");
+  return createHash('sha256').update(Buffer.from(arrayBuffer)).digest('hex');
 }
 
 export function getFirstTagValue(event, tagName, valueIfNull = '') {
