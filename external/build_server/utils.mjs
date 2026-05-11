@@ -1,6 +1,5 @@
 import { execSync, spawnSync } from 'child_process';
 import fs from 'fs';
-import minimist from 'minimist';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.js';
@@ -9,11 +8,6 @@ import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
-
-export function isDebugEnv() {
-  const args = minimist(process.argv.slice(2));
-  return args.debug === true || args.debug === 'true';
-}
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification

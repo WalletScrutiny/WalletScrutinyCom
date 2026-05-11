@@ -16,7 +16,6 @@ import {
   compareVersions,
   fetchAppInfo,
   getFirstTagValue,
-  isDebugEnv,
   groupVerificationsByAppIdAndSortByVersion,
   getFileAttachmentIDsForVerificationEvent
 } from './utils.mjs';
@@ -29,6 +28,7 @@ import {
   BUILD_DIR,
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
+import { DEBUG, isDebugEnv } from './config/env.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -154,8 +154,7 @@ try {
   process.exit(1);
 }
 
-const isDebug = args.debug === true || args.debug === 'true';
-if (isDebug) {
+if (DEBUG) {
   appLog.info('======= DEBUG MODE ENABLED =======');
 }
 

@@ -1,6 +1,6 @@
 import winston from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
-import { isDebugEnv } from './utils.mjs';
+import { isDebugEnv } from './config/env.mjs';
 
 const { createLogger, format, transports } = winston;
 
