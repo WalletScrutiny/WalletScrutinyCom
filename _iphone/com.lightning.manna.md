@@ -16,9 +16,9 @@ repository:
 icon: com.lightning.manna.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2025-09-29
+date: 2026-05-09
 signer: 
 twitter: MannaBitcoin
 social:
@@ -29,5 +29,4 @@ developerName: Manna Open Economy LLC
 ---
 
 {% include copyFromAndroid.html %}
-
 
