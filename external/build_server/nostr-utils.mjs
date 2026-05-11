@@ -268,7 +268,7 @@ export async function createVerification(ndkInstance, {
   appId,
   version,
   platform,
-  createdAt = null,
+  createdAt,
   reusedFileIds = [],
   outputFiles = [],
   basedOn = null
