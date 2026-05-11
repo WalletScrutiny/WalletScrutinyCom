@@ -324,7 +324,7 @@ async function publishNdkEvent(ndkEvent) {
   try {
     const publishedToRelays = await ndkEvent.publish();
     appLog.info(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
-    return ndkEvent;
+    return ndkEvent.id;
   } catch (error) {
     appLog.error(`Error publishing verification to relays`, error);
     
@@ -334,6 +334,6 @@ async function publishNdkEvent(ndkEvent) {
       }
     }
 
-    return ndkEvent.id;
+    throw error;
   }
 }
