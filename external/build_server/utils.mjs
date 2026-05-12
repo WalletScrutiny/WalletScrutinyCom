@@ -1,4 +1,4 @@
-import { execSync, spawnSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import { createHash } from 'node:crypto';
 import fs from 'fs';
 import path from 'path';
@@ -108,16 +108,40 @@ export function groupVerificationsByAppIdAndSortByVersion(verifications) {
   return verificationsByAppId;
 }
 
+/**
+ * Find the first file named `fileName` anywhere under `dir`, traversing
+ * subdirectories depth-first. Returns the absolute or relative path to the
+ * match (depending on how `dir` was passed) or `null` if no match is found.
+ *
+ * Implemented with `fs.readdirSync` instead of shelling out to `find` to avoid
+ * shell-injection risk from interpolated paths and to drop a child-process per
+ * call. Unreadable subdirectories are skipped, mirroring `find`'s behavior of
+ * continuing past per-entry errors. Symlinks are not followed.
+ */
 export function findFileRecursively(dir, fileName) {
   if (!fs.existsSync(dir)) return null;
 
-  try {
-    const result = execSync(`find "${dir}" -name "${fileName}" -type f | head -n 1`, { encoding: 'utf8' });
-    const filePath = result.trim();
-    return filePath || null;
-  } catch (error) {
-    return null;
+  const stack = [dir];
+  while (stack.length > 0) {
+    const current = stack.pop();
+    let entries;
+    try {
+      entries = fs.readdirSync(current, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+
+    for (const entry of entries) {
+      const entryPath = path.join(current, entry.name);
+      if (entry.isFile() && entry.name === fileName) {
+        return entryPath;
+      }
+      if (entry.isDirectory()) {
+        stack.push(entryPath);
+      }
+    }
   }
+  return null;
 }
 
 export async function fetchAppInfo() {
