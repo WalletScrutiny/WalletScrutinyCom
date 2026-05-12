@@ -123,27 +123,29 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
 const args = minimist(process.argv.slice(2));
 
+/**
+ * Load a secret from a file referenced by an env var, falling back to a CLI
+ * argument for local development. Throws if neither source is provided.
+ */
+function loadSecret({ name, fileEnv, argName }) {
+  const filePath = process.env[fileEnv];
+  if (filePath) {
+    return fs.readFileSync(filePath, 'utf8').trim();
+  }
+  const argValue = args[argName];
+  if (argValue) {
+    console.warn(`Warning: Using ${name} from argv (dev only)`);
+    return argValue;
+  }
+  throw new Error(`${name} not provided`);
+}
+
 let githubToken;
 let wsBotNostrPrivateKey;
 
 try {
-  if (process.env.GITHUB_TOKEN_FILE) {
-    githubToken = fs.readFileSync(process.env.GITHUB_TOKEN_FILE, 'utf8').trim();
-  } else if (args.githubToken) {
-    console.warn('Warning: Using GITHUB_TOKEN from argv (dev only)');
-    githubToken = args.githubToken;
-  } else {
-    throw new Error('GITHUB_TOKEN not provided');
-  }
-
-  if (process.env.WS_BOT_PK_FILE) {
-    wsBotNostrPrivateKey = fs.readFileSync(process.env.WS_BOT_PK_FILE, 'utf8').trim();
-  } else if (args.wsBotNostrPrivateKey) {
-    console.warn('Warning: Using WS_BOT_PK from argv (dev only)');
-    wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
-  } else {
-    throw new Error('WS_BOT_PK not provided');
-  }
+  githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE', argName: 'githubToken' });
+  wsBotNostrPrivateKey = loadSecret({ name: 'WS_BOT_PK', fileEnv: 'WS_BOT_PK_FILE', argName: 'wsBotNostrPrivateKey' });
 } catch (error) {
   appLog.error('Error loading required secrets:', error);
   process.exit(1);
