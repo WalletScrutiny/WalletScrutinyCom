@@ -222,7 +222,7 @@ export async function getAllVerifications(authorPubkeys = []) {
 }
 
 export async function getAllAssetsForTheseAppIds(appIds) {
-  if (!appIds || appIds.size === 0) {
+  if (!appIds || appIds.length === 0) {
     return [];
   }
   appLog.info(`Getting assets for ${appIds.length} app ids...`);
