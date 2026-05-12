@@ -207,16 +207,16 @@ async function zipContainsBaseApk(zipFilePath) {
 export async function verifyAssetsFromRegistry(verifications, appInfo, githubToken) {
   appLog.debug(`# verifications: ${verifications.size}`);
   const verificationsWithBuildShFiles = await filterVerificationsWithBuildScripts(verifications);
-  appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
+  appLog.debug(`# verificationsWithBuildShFiles: ${verificationsWithBuildShFiles.length}`);
 
   const appIds = getAppIdsFromVerifications(verificationsWithBuildShFiles);
   appLog.debug(`appIds: ${appIds}`);
 
   const assets = await getAllAssetsForTheseAppIds(appIds);
-  appLog.debug(`# assets for appIds with build scripts: ${Object.keys(assets).length}`);
+  appLog.debug(`# assets for appIds with build scripts: ${assets.length}`);
 
   const assetsWithoutVerification = filterAssetsWithoutVerification(assets, verifications);
-  appLog.debug(`# assetsWithoutVerification: ${Object.keys(assetsWithoutVerification).length}`);
+  appLog.debug(`# assetsWithoutVerification: ${assetsWithoutVerification.length}`);
 
   for (const asset of assetsWithoutVerification) {
     const appId = getFirstTagValue(asset, 'i');
