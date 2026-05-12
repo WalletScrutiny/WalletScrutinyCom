@@ -659,33 +659,61 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       }
     };
 
-    // Execute script with asciinema recording
-    const architectureFlag = architecture ? `--arch ${architecture}` : null;
-    const typeFlag = type ? `--type ${type}` : null;
-    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
-    const versionString = platform !== 'android' ? `--version ${newWalletVersion}` : null;
-    const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
+    // Build the script invocation as an argv list. Each value is later quoted
+    // for the inner shell that asciinema spawns for -c, so we never rely on
+    // ad-hoc regex escaping.
+    const scriptArgv = [];
+    if (platform !== 'android') {
+      scriptArgv.push('--version', newWalletVersion);
+    }
+    if (binaryFilePath) {
+      scriptArgv.push('--binary', binaryFilePath);
+    }
+    if (architecture) {
+      scriptArgv.push('--arch', architecture);
+    }
+    if (type) {
+      scriptArgv.push('--type', type);
+    }
 
-    const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
-    const escapedFinalScriptExecutionCommand = finalScriptExecutionCommand.replace(/(["\\$`!()])/g, '\\$1');
+    // Human-readable form used both in logs and in the verification content.
+    // Not passed to any shell, so plain join is fine.
+    const finalScriptExecutionCommand = [script, ...scriptArgv].join(' ');
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${escapedFinalScriptExecutionCommand} ; scriptrc=\\$? ; echo scriptrc=\\$scriptrc ; sleep 5 ; exit \\$scriptrc" ${castFileName}`;
-    appLog.info(`Recording and executing script: ${asciinemaCommand}`);
 
-    const child = spawn(asciinemaCommand, {
-      shell: true,
-      signal: controller.signal,
-      stdio: ['ignore', 'pipe', 'pipe'],
-      env: {
-        PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-        HOME: process.env.HOME || '/tmp',
-        XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config',
-        GITHUB_TOKEN: githubToken || process.env.GITHUB_TOKEN || null
+    // POSIX-safe single-quote escaping: wrap in '...' and turn embedded ' into '\''.
+    const shQuote = (value) => `'${String(value).replace(/'/g, `'\\''`)}'`;
+    const quotedScriptInvocation = [script, ...scriptArgv].map(shQuote).join(' ');
+    // Inner command runs under asciinema's spawned shell ($SHELL -c ...).
+    // We rely on that shell to expand $? and $scriptrc; with spawn(argv) there
+    // is no outer shell that would re-interpret these.
+    const asciinemaInnerCommand =
+      `sleep 2; ${quotedScriptInvocation} ; scriptrc=$? ; echo scriptrc=$scriptrc ; sleep 5 ; exit $scriptrc`;
+
+    appLog.info(
+      `Recording and executing: ` +
+      `asciinema rec --overwrite -c <command> ${castFileName}`
+    );
+    appLog.debug(`asciinema inner command: ${asciinemaInnerCommand}`);
+
+    const child = spawn(
+      'asciinema',
+      ['rec', '--overwrite', '-c', asciinemaInnerCommand, castFileName],
+      {
+        cwd: buildDirForThisVerification,
+        signal: controller.signal,
+        stdio: ['ignore', 'pipe', 'pipe'],
+        env: {
+          PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+          HOME: process.env.HOME || '/tmp',
+          XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
+          ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config',
+          GITHUB_TOKEN: githubToken || process.env.GITHUB_TOKEN || null
+        }
       }
-    });
+    );
 
     const stdoutChunks = [];
     const stderrChunks = [];
