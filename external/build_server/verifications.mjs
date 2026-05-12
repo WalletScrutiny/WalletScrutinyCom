@@ -1,6 +1,8 @@
 import { spawn } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import { Readable } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
 import PQueue from 'p-queue';
 import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
@@ -114,8 +116,13 @@ setInterval(() => {
 }, QUEUE_STATUS_INTERVAL_MINUTES * 60 * 1000);
 
 /**
- * Downloads a file from the Blossom server by its hash.
- * Ensures proper cleanup of HTTP connections to avoid file descriptor leaks.
+ * Downloads a file from the Blossom server by its hash, streaming the body
+ * directly to disk so memory usage stays bounded regardless of file size
+ * (APKs can be tens of MB and several jobs run in parallel).
+ *
+ * pipeline() takes care of fully consuming or destroying the response body,
+ * so the underlying HTTP connection is released even on errors.
+ *
  * @param {string} fileHash - The SHA256 hash of the file to download
  * @param {string} destinationPath - The local path where the file should be saved
  * @returns {Promise<{success: boolean, error?: string}>} - Result of the download operation
@@ -130,27 +137,31 @@ export async function downloadFileFromBlossom(fileHash, destinationPath) {
     return { success: false, error: `Fetch failed: ${fetchError?.message ?? fetchError}` };
   }
 
-  try {
-    if (!response.ok) {
-      return { success: false, error: `HTTP ${response.status}: file not found` };
+  if (!response.ok) {
+    // Release the underlying connection without buffering the body.
+    try {
+      await response.body?.cancel();
+    } catch {
+      // Best-effort; not actionable from here.
     }
+    return { success: false, error: `HTTP ${response.status}: file not found` };
+  }
 
-    const buffer = Buffer.from(await response.arrayBuffer());
-    fs.writeFileSync(destinationPath, buffer);
+  if (!response.body) {
+    return { success: false, error: 'Response has no body' };
+  }
+
+  try {
+    await pipeline(Readable.fromWeb(response.body), fs.createWriteStream(destinationPath));
     return { success: true };
-  } finally {
-    // Ensure response body is consumed to release the HTTP connection
-    if (response && response.body) {
-      try {
-        const reader = response.body.getReader();
-        while (true) {
-          const { done } = await reader.read();
-          if (done) break;
-        }
-      } catch {
-        // Ignore errors during cleanup
-      }
+  } catch (streamError) {
+    // Best-effort cleanup of the (possibly partial) destination file.
+    try {
+      await fs.promises.unlink(destinationPath);
+    } catch {
+      // Ignore if the file was never created or is already gone.
     }
+    return { success: false, error: `Stream failed: ${streamError?.message ?? streamError}` };
   }
 }
 
