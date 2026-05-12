@@ -4,6 +4,11 @@ import { isDebugEnv } from './config/env.mjs';
 
 const { createLogger, format, transports } = winston;
 
+// Skip the on-disk transport when running under the test runner so that
+// importing this module doesn't try to mkdir /var/log/build-server (which
+// fails outside production), and to keep test output noise-free.
+const isTestEnv = process.env.BUILD_SERVER_TEST === '1';
+
 function makeFileTransport(filenameBase) {
   return new DailyRotateFile({
     filename: isDebugEnv() ? `logs/${filenameBase}-%DATE%.log` : `/var/log/build-server/${filenameBase}-%DATE%.log`,
@@ -15,22 +20,23 @@ function makeFileTransport(filenameBase) {
 }
 
 function makeLogger(serviceName, level = 'debug') {
+  const loggerTransports = [];
+  if (!isTestEnv) {
+    loggerTransports.push(makeFileTransport(serviceName));
+  }
+  loggerTransports.push(new transports.Console({
+    format: format.printf(i => `[${i.level}] ${i.message}${i.stack ? '\n'+i.stack : ''}`)
+  }));
+
   return createLogger({
     level,
+    silent: isTestEnv,
     defaultMeta: { service: serviceName },
     format: format.combine(
         format.timestamp(),
         format.printf(i => `${i.timestamp} [${i.level}]: ${i.message}${i.stack ? '\n'+i.stack : ''}`)
     ),
-    transports: [
-      makeFileTransport(serviceName),    // a rotated+compressed file
-      new transports.Console({           // optional: console in dev
-        format: format.combine(
-          format.colorize(),
-          format.printf(i => `[${i.level}] ${i.message}${i.stack ? '\n'+i.stack : ''}`)
-        )
-      })
-    ]
+    transports: loggerTransports
   });
 }
 

@@ -5,3 +5,4 @@ scripts/*
 .tmp/
 temp/
 logs/
+verifications.db

@@ -3,12 +3,25 @@ import { createHash } from 'node:crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { appLog } from './logger.js';
+import { appLog } from './logger.mjs';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
+
+// Platforms whose verifications are bucketed under the legacy "desktop" label
+// used by Asset Registry consumers and the wallet config files.
+const DESKTOP_PLATFORMS = new Set(['linux', 'windows', 'macos']);
+
+/**
+ * Map a raw platform tag (e.g. "linux", "windows", "macos", "android",
+ * "hardware") to the legacy platform name used elsewhere in the pipeline.
+ * Desktop OSes collapse to "desktop"; everything else passes through.
+ */
+export function toLegacyPlatform(platform) {
+  return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
+}
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
@@ -470,17 +483,4 @@ export function getScriptsToReproduce(verificationsWithBuildShFiles, appId, plat
   );
 
   return limitedScriptsToReproduce;
-}
-
-export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {
-  const [newerVerification] = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
-
-  if (!newerVerification) {
-    return null;
-  }
-
-  const verificationVersion = getFirstTagValue(newerVerification.verification, 'version');
-  appLog.debug(`     - getNewerScriptToReproduce - found script used to reproduce ${appId} ${verificationVersion}`);
-
-  return newerVerification;
 }

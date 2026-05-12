@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "test": "BUILD_SERVER_TEST=1 BUILD_SERVER_DB_PATH=:memory: node --test --test-reporter=spec \"test/**/*.test.mjs\""
   },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.18.1",

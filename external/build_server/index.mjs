@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import minimist from 'minimist';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // For NDK
@@ -11,13 +9,14 @@ import {
   getAllVerifications
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
-import { appLog, verificationsLog } from './logger.js';
+import { appLog, verificationsLog } from './logger.mjs';
 import {
   compareVersions,
   fetchAppInfo,
   getFirstTagValue,
   groupVerificationsByAppIdAndSortByVersion,
-  getFileAttachmentIDsForVerificationEvent
+  getFileAttachmentIDsForVerificationEvent,
+  toLegacyPlatform
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
 import {
@@ -25,14 +24,10 @@ import {
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
-  BUILD_DIR,
+  BUILD_DIR_PREFIX,
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
-import { DEBUG, isDebugEnv } from './config/env.mjs';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-export const BUILD_DIR_PREFIX = isDebugEnv() ? path.join(__dirname, 'build_server_build_dir') : BUILD_DIR;
+import { DEBUG } from './config/env.mjs';
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
@@ -98,7 +93,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       const highestVersionVerification = verifications[0];
 
       let platform = getFirstTagValue(highestVersionVerification.verification, 'platform');
-      let legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+      let legacyPlatform = toLegacyPlatform(platform);
 
       let walletInfo = null;
       if (legacyPlatform === 'desktop' && refreshResults.desktop[appId]) {
@@ -128,27 +123,29 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
 const args = minimist(process.argv.slice(2));
 
+/**
+ * Load a secret from a file referenced by an env var, falling back to a CLI
+ * argument for local development. Throws if neither source is provided.
+ */
+function loadSecret({ name, fileEnv, argName }) {
+  const filePath = process.env[fileEnv];
+  if (filePath) {
+    return fs.readFileSync(filePath, 'utf8').trim();
+  }
+  const argValue = args[argName];
+  if (argValue) {
+    console.warn(`Warning: Using ${name} from argv (dev only)`);
+    return argValue;
+  }
+  throw new Error(`${name} not provided`);
+}
+
 let githubToken;
 let wsBotNostrPrivateKey;
 
 try {
-  if (process.env.GITHUB_TOKEN_FILE) {
-    githubToken = fs.readFileSync(process.env.GITHUB_TOKEN_FILE, 'utf8').trim();
-  } else if (args.githubToken) {
-    console.warn('Warning: Using GITHUB_TOKEN from argv (dev only)');
-    githubToken = args.githubToken;
-  } else {
-    throw new Error('GITHUB_TOKEN not provided');
-  }
-
-  if (process.env.WS_BOT_PK_FILE) {
-    wsBotNostrPrivateKey = fs.readFileSync(process.env.WS_BOT_PK_FILE, 'utf8').trim();
-  } else if (args.wsBotNostrPrivateKey) {
-    console.warn('Warning: Using WS_BOT_PK from argv (dev only)');
-    wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
-  } else {
-    throw new Error('WS_BOT_PK not provided');
-  }
+  githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE', argName: 'githubToken' });
+  wsBotNostrPrivateKey = loadSecret({ name: 'WS_BOT_PK', fileEnv: 'WS_BOT_PK_FILE', argName: 'wsBotNostrPrivateKey' });
 } catch (error) {
   appLog.error('Error loading required secrets:', error);
   process.exit(1);

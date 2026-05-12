@@ -1,3 +1,7 @@
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { isDebugEnv } from './env.mjs';
+
 // Approved verifiers public keys (hex format)
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
@@ -28,7 +32,7 @@ export const DEBUG_APP_IDS = {
   include: [],  // If empty, process all except exclude. If has elements, process only these (minus any in exclude)
   exclude: [],   // Always skip these appIds
   // Include these (appId, version) pairs even when they already have verifications (for re-build testing)
-  includeEvenWithVerification: [{ appId: 'world.bitkey.app', version: '2026.2.1 (2)' }]  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+  includeEvenWithVerification: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
 
 export function shouldProcessAppId(appId) {
@@ -38,5 +42,13 @@ export function shouldProcessAppId(appId) {
 }
 
 export const BUILD_DIR = '/opt/build-server-builds';
+
+// Resolves to external/build_server/build_server_build_dir when running in debug mode,
+// and to BUILD_DIR in production. Kept here (rather than in index.mjs) so it can be
+// imported by verifications.mjs and utils.mjs without creating a circular dependency.
+const BUILD_SERVER_ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+export const BUILD_DIR_PREFIX = isDebugEnv()
+  ? path.join(BUILD_SERVER_ROOT, 'build_server_build_dir')
+  : BUILD_DIR;
 
 export const BLOSSOM_SERVER_URL = 'https://files.nostr.info';

@@ -18,12 +18,12 @@ import {
   getCombinationsFromAppInfo,
   getFileAttachmentIDsForVerificationEvent,
   getScriptsToReproduce,
-  findArchAndTypeForFile
+  findArchAndTypeForFile,
+  toLegacyPlatform
 } from './utils.mjs';
 import yaml from 'js-yaml';
-import { appLog, verificationsLog } from './logger.js';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
-import { BUILD_DIR_PREFIX } from './index.mjs';
+import { appLog, verificationsLog } from './logger.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR_PREFIX } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 
@@ -207,16 +207,16 @@ async function zipContainsBaseApk(zipFilePath) {
 export async function verifyAssetsFromRegistry(verifications, appInfo, githubToken) {
   appLog.debug(`# verifications: ${verifications.size}`);
   const verificationsWithBuildShFiles = await filterVerificationsWithBuildScripts(verifications);
-  appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
+  appLog.debug(`# verificationsWithBuildShFiles: ${verificationsWithBuildShFiles.length}`);
 
   const appIds = getAppIdsFromVerifications(verificationsWithBuildShFiles);
   appLog.debug(`appIds: ${appIds}`);
 
   const assets = await getAllAssetsForTheseAppIds(appIds);
-  appLog.debug(`# assets for appIds with build scripts: ${Object.keys(assets).length}`);
+  appLog.debug(`# assets for appIds with build scripts: ${assets.length}`);
 
   const assetsWithoutVerification = filterAssetsWithoutVerification(assets, verifications);
-  appLog.debug(`# assetsWithoutVerification: ${Object.keys(assetsWithoutVerification).length}`);
+  appLog.debug(`# assetsWithoutVerification: ${assetsWithoutVerification.length}`);
 
   for (const asset of assetsWithoutVerification) {
     const appId = getFirstTagValue(asset, 'i');
@@ -228,7 +228,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       continue;
     }
     const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : null;
-    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+    const legacyPlatform = toLegacyPlatform(platform);
 
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
@@ -339,7 +339,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
     const platform = getFirstTagValue(verification, 'platform');
-    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+    const legacyPlatform = toLegacyPlatform(platform);
 
     // Get file attachment IDs
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
@@ -351,8 +351,6 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
     // Get file events
     const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
-
-    let fileEventIdsForSHFiles = [];
 
     let anyFileTried = false;
 
@@ -366,8 +364,6 @@ export async function processNewReleaseVerification(verification, newWalletVersi
       }
 
       anyFileTried = true;
-
-      fileEventIdsForSHFiles.push(fileEvent.id);
 
       const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
       if (!buildCombinations) {
@@ -413,7 +409,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           newWalletVersion,
           architecture,
           type,
-          fileEventIdsForSHFiles,
+          fileEventIdsForSHFiles: [fileEvent.id],
           fileHash: null,
           jobType: 'newRelease',
           buildShFileEvent: fileEvent,
@@ -786,13 +782,13 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
   let description = 'Automatic verification by WalletScrutiny Build Server';
   if (architecture) {
-    description += architecture;
+    description += ` ${architecture}`;
   }
   if (type) {
     if (architecture) {
-      description += ' / ';
+      description += ' /';
     }
-    description += type;
+    description += ` ${type}`;
   }
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;

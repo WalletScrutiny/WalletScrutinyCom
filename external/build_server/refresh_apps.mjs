@@ -8,7 +8,7 @@
 import { spawn } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { appLog } from './logger.js';
+import { appLog } from './logger.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -68,7 +68,7 @@ async function runRefreshScript(scriptName, githubToken) {
  * @param {string} output - The stdout from the refresh script
  * @returns {Object} - Object containing apps and their latest versions
  */
-function parseRefreshOutput(output) {
+export function parseRefreshOutput(output) {
   const apps = {};
   const lines = output.split('\n');
   
