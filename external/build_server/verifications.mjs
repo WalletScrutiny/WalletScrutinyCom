@@ -352,8 +352,6 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     // Get file events
     const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
 
-    let fileEventIdsForSHFiles = [];
-
     let anyFileTried = false;
 
     for (const fileEvent of fileEvents) {
@@ -366,8 +364,6 @@ export async function processNewReleaseVerification(verification, newWalletVersi
       }
 
       anyFileTried = true;
-
-      fileEventIdsForSHFiles.push(fileEvent.id);
 
       const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
       if (!buildCombinations) {
@@ -413,7 +409,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           newWalletVersion,
           architecture,
           type,
-          fileEventIdsForSHFiles,
+          fileEventIdsForSHFiles: [fileEvent.id],
           fileHash: null,
           jobType: 'newRelease',
           buildShFileEvent: fileEvent,
