@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import minimist from 'minimist';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // For NDK
@@ -25,14 +23,10 @@ import {
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
-  BUILD_DIR,
+  BUILD_DIR_PREFIX,
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
-import { DEBUG, isDebugEnv } from './config/env.mjs';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-export const BUILD_DIR_PREFIX = isDebugEnv() ? path.join(__dirname, 'build_server_build_dir') : BUILD_DIR;
+import { DEBUG } from './config/env.mjs';
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
