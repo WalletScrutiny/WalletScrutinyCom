@@ -10,6 +10,19 @@ import { getEventsFromEventIds } from './nostr-utils.mjs';
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
 
+// Platforms whose verifications are bucketed under the legacy "desktop" label
+// used by Asset Registry consumers and the wallet config files.
+const DESKTOP_PLATFORMS = new Set(['linux', 'windows', 'macos']);
+
+/**
+ * Map a raw platform tag (e.g. "linux", "windows", "macos", "android",
+ * "hardware") to the legacy platform name used elsewhere in the pipeline.
+ * Desktop OSes collapse to "desktop"; everything else passes through.
+ */
+export function toLegacyPlatform(platform) {
+  return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
+}
+
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
 // "b" is the latest version found in the update scripts

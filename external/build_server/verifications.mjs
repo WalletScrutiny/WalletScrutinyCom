@@ -18,7 +18,8 @@ import {
   getCombinationsFromAppInfo,
   getFileAttachmentIDsForVerificationEvent,
   getScriptsToReproduce,
-  findArchAndTypeForFile
+  findArchAndTypeForFile,
+  toLegacyPlatform
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
@@ -227,7 +228,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       continue;
     }
     const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : null;
-    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+    const legacyPlatform = toLegacyPlatform(platform);
 
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
@@ -338,7 +339,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
     const platform = getFirstTagValue(verification, 'platform');
-    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+    const legacyPlatform = toLegacyPlatform(platform);
 
     // Get file attachment IDs
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);

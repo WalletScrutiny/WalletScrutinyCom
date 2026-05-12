@@ -15,7 +15,8 @@ import {
   fetchAppInfo,
   getFirstTagValue,
   groupVerificationsByAppIdAndSortByVersion,
-  getFileAttachmentIDsForVerificationEvent
+  getFileAttachmentIDsForVerificationEvent,
+  toLegacyPlatform
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
 import {
@@ -92,7 +93,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       const highestVersionVerification = verifications[0];
 
       let platform = getFirstTagValue(highestVersionVerification.verification, 'platform');
-      let legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+      let legacyPlatform = toLegacyPlatform(platform);
 
       let walletInfo = null;
       if (legacyPlatform === 'desktop' && refreshResults.desktop[appId]) {
