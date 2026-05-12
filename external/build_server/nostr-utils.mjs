@@ -222,7 +222,7 @@ export async function getAllVerifications(authorPubkeys = []) {
 }
 
 export async function getAllAssetsForTheseAppIds(appIds) {
-  if (!appIds || appIds.size === 0) {
+  if (!appIds || appIds.length === 0) {
     return [];
   }
   appLog.info(`Getting assets for ${appIds.length} app ids...`);
@@ -268,7 +268,7 @@ export async function createVerification(ndkInstance, {
   appId,
   version,
   platform,
-  createdAt = null,
+  createdAt,
   reusedFileIds = [],
   outputFiles = [],
   basedOn = null
@@ -324,7 +324,7 @@ async function publishNdkEvent(ndkEvent) {
   try {
     const publishedToRelays = await ndkEvent.publish();
     appLog.info(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
-    return ndkEvent;
+    return ndkEvent.id;
   } catch (error) {
     appLog.error(`Error publishing verification to relays`, error);
     
@@ -334,6 +334,6 @@ async function publishNdkEvent(ndkEvent) {
       }
     }
 
-    return ndkEvent.id;
+    throw error;
   }
 }

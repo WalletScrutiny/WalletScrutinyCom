@@ -1,6 +1,6 @@
 import { execSync, spawnSync } from 'child_process';
+import { createHash } from 'node:crypto';
 import fs from 'fs';
-import minimist from 'minimist';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.js';
@@ -9,11 +9,6 @@ import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
-
-export function isDebugEnv() {
-  const args = minimist(process.argv.slice(2));
-  return args.debug === true || args.debug === 'true';
-}
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
@@ -132,10 +127,7 @@ export async function fetchAppInfo() {
 
 export async function calculateFileHash(file) {
   const arrayBuffer = await file.arrayBuffer();
-  const crypto = await import("crypto");
-  const { Buffer } = await import("buffer");
-  const buffer = Buffer.from(arrayBuffer);
-  return crypto.createHash("sha256").update(buffer).digest("hex");
+  return createHash('sha256').update(Buffer.from(arrayBuffer)).digest('hex');
 }
 
 export function getFirstTagValue(event, tagName, valueIfNull = '') {
