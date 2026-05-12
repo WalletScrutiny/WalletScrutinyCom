@@ -68,7 +68,7 @@ async function runRefreshScript(scriptName, githubToken) {
  * @param {string} output - The stdout from the refresh script
  * @returns {Object} - Object containing apps and their latest versions
  */
-function parseRefreshOutput(output) {
+export function parseRefreshOutput(output) {
   const apps = {};
   const lines = output.split('\n');
   
