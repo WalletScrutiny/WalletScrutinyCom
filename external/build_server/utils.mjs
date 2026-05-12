@@ -484,16 +484,3 @@ export function getScriptsToReproduce(verificationsWithBuildShFiles, appId, plat
 
   return limitedScriptsToReproduce;
 }
-
-export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {
-  const [newerVerification] = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
-
-  if (!newerVerification) {
-    return null;
-  }
-
-  const verificationVersion = getFirstTagValue(newerVerification.verification, 'version');
-  appLog.debug(`     - getNewerScriptToReproduce - found script used to reproduce ${appId} ${verificationVersion}`);
-
-  return newerVerification;
-}
