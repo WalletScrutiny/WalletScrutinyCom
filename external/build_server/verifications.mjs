@@ -786,13 +786,13 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
   let description = 'Automatic verification by WalletScrutiny Build Server';
   if (architecture) {
-    description += architecture;
+    description += ` ${architecture}`;
   }
   if (type) {
     if (architecture) {
-      description += ' / ';
+      description += ' /';
     }
-    description += type;
+    description += ` ${type}`;
   }
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
