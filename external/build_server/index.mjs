@@ -11,7 +11,7 @@ import {
   getAllVerifications
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
-import { appLog, verificationsLog } from './logger.js';
+import { appLog, verificationsLog } from './logger.mjs';
 import {
   compareVersions,
   fetchAppInfo,

@@ -23,12 +23,9 @@ function makeLogger(serviceName, level = 'debug') {
         format.printf(i => `${i.timestamp} [${i.level}]: ${i.message}${i.stack ? '\n'+i.stack : ''}`)
     ),
     transports: [
-      makeFileTransport(serviceName),    // a rotated+compressed file
-      new transports.Console({           // optional: console in dev
-        format: format.combine(
-          format.colorize(),
-          format.printf(i => `[${i.level}] ${i.message}${i.stack ? '\n'+i.stack : ''}`)
-        )
+      makeFileTransport(serviceName),
+      new transports.Console({
+        format: format.printf(i => `[${i.level}] ${i.message}${i.stack ? '\n'+i.stack : ''}`)
       })
     ]
   });

@@ -9,7 +9,7 @@ import {
   nip89ClientTagD,
   mainRelayUrl
 } from './nostr-constants.mjs';
-import { appLog } from './logger.js';
+import { appLog } from './logger.mjs';
 import { calculateFileHash, getFirstTagValue } from './utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
@@ -90,15 +90,15 @@ export async function connectToNostr(nostrPrivateKey) {
 
     // Add event listeners for connection monitoring
     ndk.pool.on('relay:connect', (relay) => {
-      appLog.info(`✅ Connected to relay: ${relay.url}`);
+      appLog.info(`Connected to relay: ${relay.url}`);
     });
 
     ndk.pool.on('relay:disconnect', (relay) => {
-      appLog.info(`❌ Disconnected from relay: ${relay.url}`);
+      appLog.info(`Disconnected from relay: ${relay.url}`);
     });
 
     ndk.pool.on('relay:error', (relay, error) => {
-      appLog.error(`🔥 Relay error (${relay.url}):`, error);
+      appLog.error(`Relay error (${relay.url}):`, error);
     });
 
   await ndk.connect(2000);
