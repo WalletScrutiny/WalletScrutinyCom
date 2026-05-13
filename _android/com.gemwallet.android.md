@@ -9,8 +9,8 @@ appId: com.gemwallet.android
 alternativeStores: 
 appCountry: ae
 released: 2023-06-26
-updated: 2026-04-24
-version: '2.36'
+updated: 2026-05-13
+version: '2.59'
 reviews: 5
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android

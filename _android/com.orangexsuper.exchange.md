@@ -16,9 +16,9 @@ website: https://www.orangex.com/
 repository: 
 icon: com.orangexsuper.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2026-01-23
+date: 2026-05-13
 signer: 
 twitter: OrangeXExchange
 social:

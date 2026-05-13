@@ -9,8 +9,8 @@ appId: com.superex.ex
 alternativeStores: 
 appCountry: 
 released: 2022-03-23
-updated: 2026-04-10
-version: 2.9.60
+updated: 2026-05-09
+version: 2.9.61
 reviews: 258
 website: https://www.superex.com
 repository: 

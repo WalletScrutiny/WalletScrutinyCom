@@ -11,7 +11,7 @@ appCountry:
 released: 2014-02-10
 updated: 2026-05-07
 version: 5.8.220
-reviews: 378
+reviews: 379
 website: https://ctrader.com/forum
 repository: 
 icon: com.spotware.ct.png

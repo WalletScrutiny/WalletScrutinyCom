@@ -11,7 +11,7 @@ appCountry:
 released: 2020-12-27
 updated: 2026-03-25
 version: 8.1.1
-reviews: 18
+reviews: 19
 website: https://profittradingapp.com?utm_source=kucoin_gp
 repository: 
 icon: com.profittrading.forkucoin.png

@@ -10,7 +10,7 @@ idd: '1397585225'
 released: 2018-07-25
 updated: 2026-05-07
 version: 5.55.5
-reviews: 365
+reviews: 366
 website: https://coinmetro.com/
 repository: 
 icon: app.coinmetro.jpg

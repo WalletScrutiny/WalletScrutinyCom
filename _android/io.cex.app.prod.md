@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2015-12-22
 updated: 2026-05-08
-version: 12.40.1
-reviews: 10977
+version: 12.41.0
+reviews: 10976
 website: https://cex.io
 repository: 
 icon: io.cex.app.prod.png

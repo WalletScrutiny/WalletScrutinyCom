@@ -9,8 +9,8 @@ appId: com.coinlocally.android
 alternativeStores: 
 appCountry: 
 released: 2022-04-21
-updated: 2026-04-10
-version: 5.0.10
+updated: 2026-05-10
+version: 5.1.0
 reviews: 94
 website: https://coinlocally.com
 repository: 

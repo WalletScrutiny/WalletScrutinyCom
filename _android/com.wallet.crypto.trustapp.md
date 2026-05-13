@@ -11,8 +11,8 @@ alternativeStores:
 appCountry: 
 released: 2017-10-01
 updated: 2026-05-06
-version: 26.18.11
-reviews: 21098
+version: 26.19.0
+reviews: 21112
 website: https://trustwallet.com/
 repository: 
 icon: com.wallet.crypto.trustapp.png

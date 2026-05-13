@@ -11,7 +11,7 @@ appCountry: ae
 released: 2020-08-20
 updated: 2026-05-05
 version: 4.2.2
-reviews: 666
+reviews: 665
 website: https://bitoasis.net/
 repository: 
 icon: com.bitoasis.png

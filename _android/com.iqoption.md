@@ -11,7 +11,7 @@ appCountry:
 released: 
 updated: 2026-04-14
 version: 8.66.1
-reviews: 542
+reviews: 543
 website: https://km.iqoption.com/en
 repository: 
 icon: com.iqoption.jpg

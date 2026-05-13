@@ -8,8 +8,8 @@ appId: com.boldwallet
 alternativeStores: 
 appCountry: 
 released: 2025-07-15
-updated: 2026-04-03
-version: 3.1.0
+updated: 2026-05-12
+version: 3.1.1
 reviews: 
 website: https://boldbitcoinwallet.com
 repository: 

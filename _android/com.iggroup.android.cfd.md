@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: br
 released: 2015-05-11
 updated: 2026-05-07
-version: 26.4.20
+version: 26.5.4
 reviews: 14
 website: https://www.ig.com
 repository: 

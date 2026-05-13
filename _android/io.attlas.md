@@ -9,8 +9,8 @@ appId: io.attlas
 alternativeStores: 
 appCountry: 
 released: 2021-05-16
-updated: 2026-04-26
-version: 3.5.99
+updated: 2026-05-08
+version: 3.6.0
 reviews: 5
 website: https://atx.com.vn/
 repository: 

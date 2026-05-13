@@ -9,8 +9,8 @@ appId: com.exmo
 alternativeStores: 
 appCountry: 
 released: 2019-11-12
-updated: 2026-05-08
-version: 3.86.1
+updated: 2026-05-11
+version: 3.86.2
 reviews: 96
 website: https://exmo.com/
 repository: 

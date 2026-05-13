@@ -11,7 +11,7 @@ appCountry: br
 released: 2021-02-17
 updated: 2026-03-02
 version: 4.1.02
-reviews: 5630
+reviews: 5632
 website: https://brasilbitcoin.com.br
 repository: 
 icon: br.com.brasilbitcoin.png

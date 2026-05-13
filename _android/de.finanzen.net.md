@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2012-03-26
 updated: 2026-05-07
-version: 5.9.0
+version: 5.9.1
 reviews: 64
 website: http://www.finanzen.net/apps
 repository: 

@@ -9,8 +9,8 @@ appId: com.bitkub
 alternativeStores: 
 appCountry: 
 released: 2019-04-20
-updated: 2026-04-24
-version: 4.13.2
+updated: 2026-05-09
+version: 4.14.0
 reviews: 44
 website: http://www.bitkub.com
 repository: 

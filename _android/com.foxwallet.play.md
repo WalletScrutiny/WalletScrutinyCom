@@ -9,8 +9,8 @@ appId: com.foxwallet.play
 alternativeStores: 
 appCountry: 
 released: 2021-12-05
-updated: 2026-04-10
-version: 5.5.20
+updated: 2026-05-13
+version: 5.5.22
 reviews: 453
 website: https://www.foxwallet.com/en
 repository: 

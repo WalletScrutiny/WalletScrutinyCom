@@ -10,7 +10,7 @@ idd: '1607143703'
 released: 2022-07-07
 updated: 2026-04-07
 version: 2.3.0
-reviews: 99
+reviews: 101
 website: 
 repository: 
 icon: ch.cryptonow.wallet.jpg

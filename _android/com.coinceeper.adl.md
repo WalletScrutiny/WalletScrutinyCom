@@ -8,8 +8,8 @@ appId: com.coinceeper.adl
 alternativeStores: 
 appCountry: 
 released: 2025-08-19
-updated: 2026-05-06
-version: 1.0.45
+updated: 2026-05-11
+version: 1.0.46
 reviews: 
 website: https://coinceeper.com/
 repository: 

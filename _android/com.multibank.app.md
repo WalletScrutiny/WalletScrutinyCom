@@ -9,8 +9,8 @@ appId: com.multibank.app
 alternativeStores: 
 appCountry: 
 released: 2023-04-04
-updated: 2026-05-01
-version: 26.0.22
+updated: 2026-05-08
+version: 26.0.23
 reviews: 7
 website: https://mb.io/
 repository: 

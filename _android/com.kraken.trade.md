@@ -9,9 +9,9 @@ appId: com.kraken.trade
 alternativeStores: 
 appCountry: 
 released: 2019-10-24
-updated: 2026-05-01
-version: 5.53.0
-reviews: 4677
+updated: 2026-05-08
+version: 5.54.0
+reviews: 4684
 website: https://www.kraken.com
 repository: 
 icon: com.kraken.trade.png

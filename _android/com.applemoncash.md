@@ -1,6 +1,6 @@
 ---
 wsId: lemonCash
-title: 'Lemon Cash: tu wallet crypto'
+title: Lemon - Billetera Virtual
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.applemoncash
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-29
-version: 2.7.98
+updated: 2026-05-10
+version: 3.0.0
 reviews: 11
 website: https://lemon.me
 repository: 

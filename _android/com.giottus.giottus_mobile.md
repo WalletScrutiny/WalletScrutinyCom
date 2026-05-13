@@ -9,8 +9,8 @@ appId: com.giottus.giottus_mobile
 alternativeStores: 
 appCountry: us
 released: 2021-02-01
-updated: 2026-04-21
-version: 3.0.43
+updated: 2026-05-11
+version: 3.0.44
 reviews: 26
 website: https://www.giottus.com
 repository: 

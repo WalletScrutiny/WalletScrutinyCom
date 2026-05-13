@@ -9,7 +9,7 @@ appId: com.bullbitcoin.mobile
 alternativeStores: 
 appCountry: 
 released: 2023-10-31
-updated: 2026-04-21
+updated: 2026-05-11
 version: 6.5.2
 reviews: 7
 website: http://bullbitcoin.com

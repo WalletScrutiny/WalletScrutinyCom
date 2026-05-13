@@ -8,8 +8,8 @@ appId: com.gk8.network
 alternativeStores: 
 appCountry: 
 released: 2021-09-01
-updated: 2026-03-21
-version: 18.0.2
+updated: 2026-05-10
+version: 19.0.0
 reviews: 
 website: https://www.gk8.io/contact-us/
 repository: 

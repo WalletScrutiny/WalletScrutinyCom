@@ -8,8 +8,8 @@ appId: com.qiewallet
 alternativeStores: 
 appCountry: 
 released: 2023-06-20
-updated: 2026-04-29
-version: 0.3.60
+updated: 2026-05-13
+version: 0.3.62
 reviews: 
 website: https://qiewallet.qiblockchain.online/
 repository: 

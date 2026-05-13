@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Copaly -Trade Bitcoin & Crypto
+title: 'Copaly: P2P .Bitcoin & Utility'
 altTitle: 
 authors: 
 users: 1000
@@ -8,8 +8,8 @@ appId: com.rexsons.copaly_app
 alternativeStores: 
 appCountry: 
 released: 2022-07-25
-updated: 2026-04-08
-version: 5.2.9
+updated: 2026-05-07
+version: 5.2.10
 reviews: 
 website: https://copaly.com
 repository: 

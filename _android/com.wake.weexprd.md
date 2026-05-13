@@ -9,9 +9,9 @@ appId: com.wake.weexprd
 alternativeStores: 
 appCountry: 
 released: 2022-02-23
-updated: 2026-04-27
-version: 4.5.19
-reviews: 346
+updated: 2026-05-08
+version: 4.5.20
+reviews: 348
 website: https://www.weex.com
 repository: 
 icon: com.wake.weexprd.png

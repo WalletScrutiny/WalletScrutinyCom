@@ -16,9 +16,9 @@ website: http://paymium.com
 repository: 
 icon: com.paymium.mobile2.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-03
+date: 2026-05-13
 signer: 
 twitter: paymium
 social:

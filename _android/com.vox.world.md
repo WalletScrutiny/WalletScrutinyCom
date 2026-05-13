@@ -9,8 +9,8 @@ appId: com.vox.world
 alternativeStores: 
 appCountry: 
 released: 2025-07-09
-updated: 2026-05-03
-version: 1.5.2
+updated: 2026-05-08
+version: 1.5.3
 reviews: 
 website: 
 repository: 

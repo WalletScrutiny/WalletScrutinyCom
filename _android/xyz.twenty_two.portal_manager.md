@@ -16,9 +16,9 @@ website: https://twenty-two.xyz/
 repository: 
 icon: xyz.twenty_two.portal_manager.png
 bugbounty: 
-meta: fewusers
+meta: stale
 verdict: wip
-date: 2025-10-03
+date: 2026-05-13
 signer: 
 twitter: TwentyTwoHW
 social:

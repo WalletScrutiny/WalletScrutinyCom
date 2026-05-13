@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2019-06-14
 updated: 2026-05-08
-version: 5.2.2
+version: 6.0.5
 reviews: 115
 website: https://www.paribu.com
 repository: 

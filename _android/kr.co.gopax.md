@@ -9,8 +9,8 @@ appId: kr.co.gopax
 alternativeStores: 
 appCountry: cn
 released: 2018-11-05
-updated: 2026-05-06
-version: 1.9.45.0e91
+updated: 2026-05-08
+version: 1.9.46.1c4b
 reviews: 1538
 website: https://www.gopax.co.kr
 repository: 

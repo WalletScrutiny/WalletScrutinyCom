@@ -9,9 +9,9 @@ appId: io.tether.wallet
 alternativeStores: 
 appCountry: 
 released: 2026-03-19
-updated: 2026-05-05
-version: 1.1.0
-reviews: 7
+updated: 2026-05-07
+version: 1.1.1
+reviews: 8
 website: https://wallet.tether.io/support/
 repository: https://github.com/tetherto/tether-wallet-app-releases
 icon: io.tether.wallet.png

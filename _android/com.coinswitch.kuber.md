@@ -9,9 +9,9 @@ appId: com.coinswitch.kuber
 alternativeStores: 
 appCountry: in
 released: 2020-05-31
-updated: 2026-05-05
-version: 9.2.8
-reviews: 146738
+updated: 2026-05-12
+version: 9.3.0
+reviews: 146765
 website: https://coinswitch.co
 repository: 
 icon: com.coinswitch.kuber.png

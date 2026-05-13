@@ -11,7 +11,7 @@ appCountry:
 released: 2024-04-11
 updated: 2026-04-10
 version: 1.28.0 (5)
-reviews: 118
+reviews: 120
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 icon: com.kraken.superwallet.png

@@ -11,7 +11,7 @@ appCountry:
 released: 2025-05-14
 updated: 2026-04-28
 version: 1.1.9
-reviews: 6
+reviews: 7
 website: http://mannabitcoin.com/
 repository: 
 icon: com.lightning.manna.png

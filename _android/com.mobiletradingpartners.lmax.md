@@ -9,8 +9,8 @@ appId: com.mobiletradingpartners.lmax
 alternativeStores: 
 appCountry: 
 released: 2014-09-22
-updated: 2025-10-09
-version: 5.1.45
+updated: 2026-05-05
+version: 5.1.80
 reviews: 4
 website: http://www.lmax.com/mobile
 repository: 

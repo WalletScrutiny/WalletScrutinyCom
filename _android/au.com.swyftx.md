@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 
 updated: 2026-05-06
-version: 2.8.45
+version: 2.8.46
 reviews: 
 website: https://swyftx.com/
 repository: 

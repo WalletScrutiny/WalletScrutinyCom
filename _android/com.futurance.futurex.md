@@ -9,8 +9,8 @@ appId: com.futurance.futurex
 alternativeStores: 
 appCountry: 
 released: 2022-07-07
-updated: 2026-04-10
-version: 2.7.4
+updated: 2026-05-11
+version: 2.7.6
 reviews: 
 website: https://www.fexobit.com/
 repository: 

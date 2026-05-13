@@ -1,6 +1,6 @@
 ---
 wsId: emcdPoolWallet
-title: 'EMCD: BTC Wallet & Crypto Earn'
+title: EMCD Coinhold — Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.emcd.emcd_flutter.prod
 alternativeStores: 
 appCountry: 
 released: 2022-01-03
-updated: 2026-04-17
+updated: 2026-05-08
 version: 2.28.0
 reviews: 36
 website: https://emcd.io/ru

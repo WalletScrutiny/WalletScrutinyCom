@@ -9,8 +9,8 @@ appId: com.dex.digitalexchangeid
 alternativeStores: 
 appCountry: us
 released: 2024-09-04
-updated: 2026-04-30
-version: 1.3.35
+updated: 2026-05-08
+version: 1.3.36
 reviews: 
 website: http://digitalexchange.id
 repository: 

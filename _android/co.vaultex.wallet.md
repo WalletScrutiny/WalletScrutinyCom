@@ -16,9 +16,9 @@ website: https://vaultex.co/
 repository: 
 icon: co.vaultex.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2026-01-16
+date: 2026-05-13
 signer: 
 twitter: 
 social: 

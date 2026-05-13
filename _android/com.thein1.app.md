@@ -9,8 +9,8 @@ appId: com.thein1.app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-17
-version: 0.11.4
+updated: 2026-05-08
+version: 0.11.6
 reviews: 
 website: https://www.in1.io
 repository: 

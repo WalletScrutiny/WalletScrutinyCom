@@ -9,8 +9,8 @@ appId: com.safeheron.app.sg
 alternativeStores: 
 appCountry: 
 released: 2022-07-17
-updated: 2026-04-20
-version: 1.6.5
+updated: 2026-05-08
+version: 1.6.6
 reviews: 
 website: 
 repository: 

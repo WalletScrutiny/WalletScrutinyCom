@@ -9,8 +9,8 @@ appId: com.tradestation.MobileTrading
 alternativeStores: 
 appCountry: us
 released: 2013-09-09
-updated: 2026-04-09
-version: 9.4.0
+updated: 2026-05-06
+version: 9.4.1
 reviews: 2061
 website: http://tradestation.com/contact-us/
 repository: 

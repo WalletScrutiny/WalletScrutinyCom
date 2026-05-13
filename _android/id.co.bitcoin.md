@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2014-12-15
 updated: 2026-05-07
-version: 5.8.5
+version: 5.8.6
 reviews: 492
 website: http://indodax.com
 repository: 

@@ -9,8 +9,8 @@ appId: paydeepp.elegro.io
 alternativeStores: 
 appCountry: 
 released: 2018-11-09
-updated: 2026-03-03
-version: 5.4.9
+updated: 2026-05-13
+version: 5.5.0
 reviews: 1
 website: https://elegro.eu/
 repository: 

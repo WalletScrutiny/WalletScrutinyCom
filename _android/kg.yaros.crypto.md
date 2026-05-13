@@ -15,9 +15,9 @@ website:
 repository: 
 icon: kg.yaros.crypto.png
 bugbounty: 
-meta: fewusers
+meta: removed
 verdict: wip
-date: 2026-02-02
+date: 2026-05-13
 signer: 
 twitter: 
 social: 

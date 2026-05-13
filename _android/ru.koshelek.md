@@ -9,8 +9,8 @@ appId: ru.koshelek
 alternativeStores: 
 appCountry: ru
 released: 2020-07-28
-updated: 2026-04-23
-version: 2.3.0
+updated: 2026-05-08
+version: 2.3.2
 reviews: 149
 website: https://koshelek.ru/
 repository: 

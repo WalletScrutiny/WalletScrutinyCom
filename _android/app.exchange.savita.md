@@ -8,7 +8,7 @@ appId: app.exchange.savita
 alternativeStores: 
 appCountry: 
 released: 2023-01-05
-updated: 2026-05-02
+updated: 2026-05-08
 version: 1.0.0
 reviews: 
 website: https://savitaglobal.com/

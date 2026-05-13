@@ -12,8 +12,8 @@ alternativeStores:
 - fdroid
 appCountry: 
 released: 2015-01-01
-updated: 2026-04-08
-version: 5.2.0
+updated: 2026-05-08
+version: 5.3.0
 reviews: 150
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android

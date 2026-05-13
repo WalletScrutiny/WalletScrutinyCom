@@ -9,8 +9,8 @@ appId: com.senexpay.mobile
 alternativeStores: 
 appCountry: 
 released: 2022-08-16
-updated: 2025-11-17
-version: 1.8.4
+updated: 2026-05-13
+version: 1.8.7
 reviews: 
 website: https://senexpay.com
 repository: 

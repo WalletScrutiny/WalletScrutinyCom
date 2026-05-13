@@ -10,8 +10,8 @@ appId: com.mtpelerin.bridge
 alternativeStores: 
 appCountry: us
 released: 2020-04-07
-updated: 2026-04-04
-version: '1.65'
+updated: 2026-05-05
+version: '1.66'
 reviews: 34
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

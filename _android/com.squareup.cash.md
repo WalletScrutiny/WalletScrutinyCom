@@ -11,7 +11,7 @@ appCountry:
 released: 2013-10-15
 updated: 2026-04-24
 version: 5.49.0
-reviews: 463796
+reviews: 464460
 website: https://cash.app
 repository: 
 icon: com.squareup.cash.png

@@ -9,9 +9,9 @@ appId: com.tapbit.android
 alternativeStores: 
 appCountry: 
 released: 2022-09-20
-updated: 2026-04-19
+updated: 2026-05-11
 version: 4.3.4
-reviews: 32
+reviews: 33
 website: 
 repository: 
 icon: com.tapbit.android.png

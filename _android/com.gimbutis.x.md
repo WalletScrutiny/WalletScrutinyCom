@@ -8,8 +8,8 @@ appId: com.gimbutis.x
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-09
-version: 1.6.3
+updated: 2026-05-11
+version: 1.6.4
 reviews: 
 website: https://gimbutiscoin.com/
 repository: 

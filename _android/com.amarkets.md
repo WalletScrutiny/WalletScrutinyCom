@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: us
 released: 2019-05-31
 updated: 2026-05-05
-version: 2.1.134
-reviews: 292
+version: 2.1.135
+reviews: 293
 website: https://www.amarkets.com
 repository: 
 icon: com.amarkets.png

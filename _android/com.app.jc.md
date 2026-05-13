@@ -9,8 +9,8 @@ appId: com.app.jc
 alternativeStores: 
 appCountry: 
 released: 2025-01-13
-updated: 2026-04-29
-version: 3.3.14
+updated: 2026-05-13
+version: 3.3.15
 reviews: 12
 website: 
 repository: 

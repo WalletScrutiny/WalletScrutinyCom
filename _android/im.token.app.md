@@ -11,7 +11,7 @@ alternativeStores:
 appCountry: 
 released: 2018-05-31
 updated: 2026-04-30
-version: 2.19.0
+version: 2.20.0
 reviews: 242
 website: https://token.im
 repository: 

@@ -9,7 +9,7 @@ appId: com.kubi.kucoin
 alternativeStores: 
 appCountry: 
 released: 2018-05-03
-updated: 2026-04-30
+updated: 2026-05-09
 version: 4.25.0
 reviews: 5033
 website: https://www.kucoin.com

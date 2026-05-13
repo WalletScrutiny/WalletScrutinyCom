@@ -8,8 +8,8 @@ appId: com.sinohope.pro
 alternativeStores: 
 appCountry: 
 released: 2025-11-02
-updated: 2026-05-07
-version: 2.3.0
+updated: 2026-05-08
+version: 2.3.1
 reviews: 
 website: 
 repository: 

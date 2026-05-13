@@ -9,8 +9,8 @@ appId: de.bisonapp
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-24
-version: 4.31.1
+updated: 2026-05-12
+version: 4.32.1
 reviews: 2
 website: https://bisonapp.com
 repository: 

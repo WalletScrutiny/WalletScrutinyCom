@@ -11,7 +11,7 @@ appCountry:
 released: 2020-04-30
 updated: 2026-04-17
 version: 3.0.5
-reviews: 87
+reviews: 88
 website: https://vauld.com
 repository: 
 icon: com.bankofhodlers.mobile.png

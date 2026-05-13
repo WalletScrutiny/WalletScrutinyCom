@@ -9,8 +9,8 @@ appId: com.kuantist.app
 alternativeStores: 
 appCountry: 
 released: 2024-07-18
-updated: 2026-04-30
-version: 1.0.54
+updated: 2026-05-08
+version: 1.0.55
 reviews: 
 website: https://www.kuantist.com/
 repository: 

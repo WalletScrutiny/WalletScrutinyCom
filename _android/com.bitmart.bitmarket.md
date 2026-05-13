@@ -9,9 +9,9 @@ appId: com.bitmart.bitmarket
 alternativeStores: 
 appCountry: 
 released: 2018-05-09
-updated: 2026-04-27
+updated: 2026-05-13
 version: 4.3.1
-reviews: 3753
+reviews: 3763
 website: http://www.bitmart.com
 repository: 
 icon: com.bitmart.bitmarket.png

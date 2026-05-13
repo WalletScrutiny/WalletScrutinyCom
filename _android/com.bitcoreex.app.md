@@ -17,7 +17,7 @@ icon: com.bitcoreex.app.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2026-05-08
+date: 2026-05-13
 signer: 
 twitter: 
 social: 

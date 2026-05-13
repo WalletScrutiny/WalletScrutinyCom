@@ -9,9 +9,9 @@ appId: com.elrond.maiar.wallet
 alternativeStores: 
 appCountry: us
 released: 2021-01-15
-updated: 2026-05-07
-version: 2.99.2 (3064)
-reviews: 410
+updated: 2026-05-12
+version: 2.99.3 (3067)
+reviews: 411
 website: https://xportal.com/
 repository: 
 icon: com.elrond.maiar.wallet.png

@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2018-11-07
 updated: 2026-05-07
-version: 3.22.1
+version: 3.23.0
 reviews: 18
 website: https://www.bitpanda.com
 repository: 

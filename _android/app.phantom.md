@@ -11,7 +11,7 @@ appCountry:
 released: 2022-04-12
 updated: 2026-04-28
 version: 26.13.2
-reviews: 2208
+reviews: 2219
 website: https://phantom.com/
 repository: 
 icon: app.phantom.png

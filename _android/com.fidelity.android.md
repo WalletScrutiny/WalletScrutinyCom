@@ -9,9 +9,9 @@ appId: com.fidelity.android
 alternativeStores: 
 appCountry: 
 released: 2010-12-15
-updated: 2026-04-29
+updated: 2026-05-11
 version: '4.31'
-reviews: 56872
+reviews: 56906
 website: https://www.fidelity.com
 repository: 
 icon: com.fidelity.android.png

@@ -9,8 +9,8 @@ appId: com.btse.finance
 alternativeStores: 
 appCountry: ng
 released: 2020-11-30
-updated: 2026-04-24
-version: 1.125.0
+updated: 2026-05-08
+version: 1.126.0
 reviews: 76
 website: https://btse.com
 repository: 

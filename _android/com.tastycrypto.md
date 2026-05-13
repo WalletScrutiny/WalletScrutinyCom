@@ -16,9 +16,9 @@ website: https://www.tastycrypto.com/
 repository: 
 icon: com.tastycrypto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2026-03-11
+date: 2026-05-13
 signer: 
 twitter: tastycrypto
 social:

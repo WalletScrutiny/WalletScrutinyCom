@@ -10,8 +10,8 @@ appId: coin98.crypto.finance.media
 alternativeStores: 
 appCountry: us
 released: 2019-12-19
-updated: 2026-05-01
-version: 16.11.1
+updated: 2026-05-12
+version: 16.12.0
 reviews: 260
 website: https://coin98.com/
 repository: 

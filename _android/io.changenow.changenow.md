@@ -10,7 +10,7 @@ appId: io.changenow.changenow
 alternativeStores: 
 appCountry: 
 released: 2018-09-07
-updated: 2026-04-16
+updated: 2026-05-12
 version: 1.156.46
 reviews: 800
 website: https://changenow.io

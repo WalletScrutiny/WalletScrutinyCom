@@ -9,9 +9,9 @@ appId: com.cloud.tr
 alternativeStores: 
 appCountry: tr
 released: 2021-07-16
-updated: 2026-04-21
+updated: 2026-05-12
 version: 4.2.1
-reviews: 21455
+reviews: 21476
 website: https://www.trbinance.com/
 repository: 
 icon: com.cloud.tr.png

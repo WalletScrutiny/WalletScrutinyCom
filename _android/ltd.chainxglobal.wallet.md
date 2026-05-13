@@ -8,8 +8,8 @@ appId: ltd.chainxglobal.wallet
 alternativeStores: 
 appCountry: 
 released: 2025-09-10
-updated: 2026-04-06
-version: 1.0.96
+updated: 2026-05-11
+version: 1.0.97
 reviews: 
 website: https://chainxglobal.ltd
 repository: 

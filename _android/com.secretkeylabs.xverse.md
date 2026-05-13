@@ -11,7 +11,7 @@ appCountry: cn
 released: 2021-10-12
 updated: 2026-05-05
 version: 2.3.1
-reviews: 1087
+reviews: 1089
 website: https://www.xverse.app/
 repository: 
 icon: com.secretkeylabs.xverse.png

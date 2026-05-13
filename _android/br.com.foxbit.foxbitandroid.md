@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: br
 released: 2019-01-28
 updated: 2026-05-07
-version: 3.41.0
+version: 3.42.1
 reviews: 6383
 website: http://www.foxbit.com.br
 repository: 

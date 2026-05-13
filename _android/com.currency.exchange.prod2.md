@@ -10,7 +10,7 @@ appId: com.currency.exchange.prod2
 alternativeStores: 
 appCountry: 
 released: 2019-04-15
-updated: 2026-03-26
+updated: 2026-05-11
 version: 2.19.1
 reviews: 1
 website: http://dzengi.com

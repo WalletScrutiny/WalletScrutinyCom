@@ -10,7 +10,7 @@ idd: '1448731340'
 released: 2019-01-27
 updated: 2026-05-07
 version: 2.35.9
-reviews: 4978
+reviews: 4991
 website: https://coinext.com.br/
 repository: 
 icon: br.com.coinext.Coinext.jpg

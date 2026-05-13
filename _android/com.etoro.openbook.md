@@ -9,9 +9,9 @@ appId: com.etoro.openbook
 alternativeStores: 
 appCountry: 
 released: 2013-11-05
-updated: 2026-04-26
+updated: 2026-05-06
 version: 651.1246.2
-reviews: 3787
+reviews: 3789
 website: https://www.etoro.com/
 repository: 
 icon: com.etoro.openbook.jpg

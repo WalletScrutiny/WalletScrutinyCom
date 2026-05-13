@@ -9,8 +9,8 @@ appId: io.getamber.app
 alternativeStores: 
 appCountry: 
 released: 2021-06-21
-updated: 2026-05-07
-version: 7.0.2
+updated: 2026-05-13
+version: 7.0.4
 reviews: 26
 website: http://amber.app
 repository: 

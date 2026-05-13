@@ -9,8 +9,8 @@ appId: web.tradenewton.com
 alternativeStores: 
 appCountry: 
 released: 2019-11-18
-updated: 2026-04-24
-version: 2.20.22
+updated: 2026-05-11
+version: 2.20.24
 reviews: 4
 website: https://newton.co
 repository: 

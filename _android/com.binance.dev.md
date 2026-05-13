@@ -9,9 +9,9 @@ appId: com.binance.dev
 alternativeStores: 
 appCountry: 
 released: 2017-10-25
-updated: 2026-05-07
-version: 3.13.5
-reviews: 16549
+updated: 2026-05-11
+version: 3.14.6
+reviews: 16566
 website: https://www.binance.com/
 repository: 
 icon: com.binance.dev.png

@@ -13,7 +13,7 @@ appCountry:
 released: 2018-08-06
 updated: 2026-03-24
 version: 3.34.4
-reviews: 15
+reviews: 16
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 icon: it.airgap.vault.png

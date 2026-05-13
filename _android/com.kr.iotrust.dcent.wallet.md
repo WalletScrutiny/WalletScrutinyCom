@@ -9,7 +9,7 @@ appId: com.kr.iotrust.dcent.wallet
 alternativeStores: 
 appCountry: cn
 released: 2018-10-16
-updated: 2026-04-08
+updated: 2026-04-30
 version: 9.0.5
 reviews: 998
 website: https://dcentwallet.com/

@@ -14,7 +14,7 @@ appCountry:
 released: 2018-03-01
 updated: 2026-04-29
 version: 4.48.1
-reviews: 744
+reviews: 745
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 icon: co.edgesecure.app.png

@@ -9,9 +9,9 @@ appId: com.swissborg.android
 alternativeStores: 
 appCountry: gb
 released: 2020-06-16
-updated: 2026-04-29
-version: 1.134.1
-reviews: 978
+updated: 2026-05-08
+version: 1.135.0
+reviews: 979
 website: https://swissborg.com
 repository: 
 icon: com.swissborg.android.png

@@ -16,9 +16,9 @@ website: https://bexc.io
 repository: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2026-03-11
+date: 2026-05-13
 signer: 
 twitter: byteexchange
 social:
