@@ -142,7 +142,7 @@ Comments added by users to verifications or verification drafts.
     ["content-type", "<mime-type>"],
     ["size", "<file-size>"]
   ],
-  "content": "<Base64 encoded file content>"
+  "content": "<Base64 encoded file content>"  // Max length is 48,235 bytes
 }
 ```
 
@@ -157,6 +157,12 @@ Max length of fields (chars):
 * Tag `status`: 16
 * Tag `output-file`: 64
 * Tag `file-attachment`: 64
+
+Calculations for the max length of File Attachments content field:
+- Max size of Nostr event is 65,536 bytes
+- The json object for the file attachment minus the content field is 900 bytes
+- The max length of the content field is 65,536 - 900 = 64,636
+- `"Base64 encodes 3 bytes into 4 ASCII characters, so the Base64 string is about 33% longer than the raw bytes (sometimes a little longer due to padding to a multiple of 4)"`. So the max length of the script that will be stored in base64 format is 64,636 / 1.34 = 48,235 bytes
 
 ## Functionality presented to users
 1. Assets Registry page: by default will show the latest assets reported by users, with search functionality that let users search

@@ -23,6 +23,8 @@ export const verificationCommentKind = isDebugEnv() ? 30902 : 30802;
 export const codeSnippetKind = 1337;
 export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
+export const maxFileAttachmentContentLength = 48235;
+
 /** NIP-56: reporting; used by site admins to flag bogus verifications. */
 export const verificationReportKind = 1984;
 

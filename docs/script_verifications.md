@@ -25,7 +25,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 
 7. Several combinations of architectures and types for the same application will be launched in parallel. The script must use different names for resources specific to each combination to avoid conflicts.
 8. If the script needs to download assets from GitHub, like dependencies or other files, it can use the GitHub token that the Automated Build Server provides. An environment variable called `GITHUB_TOKEN` will be available to the script.
-9. Ensure the script does not reach 60kb.
+9. Ensure the script does not surpass 48,235 bytes so it fits in the content field of the file attachment event once base64 encoded.
 
 # Results File
 
