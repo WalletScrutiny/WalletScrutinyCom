@@ -16,8 +16,8 @@ const category = 'android';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId alternativeStores ' +
                 'appCountry released updated version reviews website repository ' +
-                'icon bugbounty meta verdict appHashes date signer ' +
-                'twitter social redirect_from developerName builds features').split(' ');
+                'icon bugbounty meta verdict date signer twitter social ' +
+                'social redirect_from developerName builds features').split(' ');
 
 async function refreshAll (ids, markRemoved) {
   var files;
