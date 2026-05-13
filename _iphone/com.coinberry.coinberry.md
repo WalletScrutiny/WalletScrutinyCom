@@ -17,7 +17,6 @@ icon: com.coinberry.coinberry.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-16
 signer: 
 twitter: CoinberryHQ

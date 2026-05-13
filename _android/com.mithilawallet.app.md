@@ -17,7 +17,6 @@ icon: com.mithilawallet.app.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

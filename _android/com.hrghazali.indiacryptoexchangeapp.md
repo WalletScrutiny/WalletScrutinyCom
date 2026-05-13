@@ -17,7 +17,6 @@ icon: com.hrghazali.indiacryptoexchangeapp.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: 

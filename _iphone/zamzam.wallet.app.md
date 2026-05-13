@@ -17,7 +17,6 @@ icon: zamzam.wallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-11-04
 signer: 
 twitter: zam_io

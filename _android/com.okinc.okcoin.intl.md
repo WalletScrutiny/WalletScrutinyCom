@@ -18,7 +18,6 @@ icon: com.okinc.okcoin.intl.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-12-15
 signer: 
 twitter: OKcoin

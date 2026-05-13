@@ -17,7 +17,6 @@ icon: com.dex-trade.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: dextrade_

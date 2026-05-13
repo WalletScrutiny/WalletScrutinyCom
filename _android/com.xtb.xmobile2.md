@@ -18,7 +18,6 @@ icon: com.xtb.xmobile2.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-21
 signer: 
 twitter: xtbuk

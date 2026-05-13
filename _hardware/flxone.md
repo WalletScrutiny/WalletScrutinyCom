@@ -25,7 +25,6 @@ icon: flxone.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-12-08
 signer: 
 twitter: 

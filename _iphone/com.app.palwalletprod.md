@@ -17,7 +17,6 @@ icon: com.app.palwalletprod.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: Pal_wallet

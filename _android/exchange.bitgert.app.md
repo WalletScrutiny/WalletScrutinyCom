@@ -18,7 +18,6 @@ icon: exchange.bitgert.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: exchangebitgert

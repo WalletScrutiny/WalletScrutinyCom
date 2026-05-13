@@ -17,7 +17,6 @@ icon: network.worldshare.safewallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

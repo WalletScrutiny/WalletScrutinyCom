@@ -18,7 +18,6 @@ icon: ru.webtronics.touch_wallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: Touch_Wallet

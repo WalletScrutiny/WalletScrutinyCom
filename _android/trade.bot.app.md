@@ -17,7 +17,6 @@ icon: trade.bot.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-06-18
 signer: 
 twitter: 

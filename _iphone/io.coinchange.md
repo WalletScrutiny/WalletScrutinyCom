@@ -17,7 +17,6 @@ icon: io.coinchange.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-04-09
 signer: 
 twitter: coinchangeio

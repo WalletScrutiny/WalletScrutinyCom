@@ -18,7 +18,6 @@ icon: com.wadz.wadzapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: wadzpay

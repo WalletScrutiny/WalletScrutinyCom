@@ -18,7 +18,6 @@ icon: com.bitfxt.boundlesspay.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-03-29
 signer: 
 twitter: boundlesspay

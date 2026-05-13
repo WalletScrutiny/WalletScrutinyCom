@@ -17,7 +17,6 @@ icon: com.okinc.info.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-04-25
 signer: 
 twitter: 

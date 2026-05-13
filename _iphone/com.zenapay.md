@@ -17,7 +17,6 @@ icon: com.zenapay.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-07-03
 signer: 
 twitter: 

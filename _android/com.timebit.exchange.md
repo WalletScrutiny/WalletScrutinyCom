@@ -17,7 +17,6 @@ icon: com.timebit.exchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: btcmine.btcwallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-07-09
 signer: 
 twitter: 

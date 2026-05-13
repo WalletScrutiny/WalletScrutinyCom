@@ -19,7 +19,6 @@ icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2024-09-12
 signer: 
 twitter: PirateCash_NET

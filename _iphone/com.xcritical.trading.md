@@ -17,7 +17,6 @@ icon: com.xcritical.trading.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-01-15
 signer: 
 twitter: 

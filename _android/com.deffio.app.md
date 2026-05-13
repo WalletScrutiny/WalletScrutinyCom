@@ -18,7 +18,6 @@ icon: com.deffio.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: DeffioCP

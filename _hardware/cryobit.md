@@ -24,7 +24,6 @@ icon: cryobit.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-appHashes: 
 date: 2022-03-11
 signer: 
 twitter: cryobit

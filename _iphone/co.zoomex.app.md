@@ -17,7 +17,6 @@ icon: co.zoomex.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-08-13
 signer: 
 twitter: zoomexofficial

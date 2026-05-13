@@ -18,7 +18,6 @@ icon: com.btcdana.online.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-11-17
 signer: 
 twitter: 

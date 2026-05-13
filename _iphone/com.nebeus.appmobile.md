@@ -17,7 +17,6 @@ icon: com.nebeus.appmobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: NebeusWorld

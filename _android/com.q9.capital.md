@@ -17,7 +17,6 @@ icon: com.q9.capital.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: 

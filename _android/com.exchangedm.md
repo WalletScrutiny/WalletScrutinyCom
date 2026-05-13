@@ -18,7 +18,6 @@ icon: com.exchangedm.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-15
 signer: 
 twitter: dmdigitalmoney

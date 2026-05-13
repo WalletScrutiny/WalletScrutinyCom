@@ -17,7 +17,6 @@ icon: com.basefex.exchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: 

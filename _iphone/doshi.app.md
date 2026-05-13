@@ -17,7 +17,6 @@ icon: doshi.app.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-09-08
 signer: 
 twitter: doshi_wallet

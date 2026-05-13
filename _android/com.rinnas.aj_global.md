@@ -18,7 +18,6 @@ icon: com.rinnas.aj_global.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-10-02
 signer: 
 twitter: ajglobalv

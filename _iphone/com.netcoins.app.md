@@ -17,7 +17,6 @@ icon: com.netcoins.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: Netcoins

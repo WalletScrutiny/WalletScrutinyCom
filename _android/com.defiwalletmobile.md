@@ -19,7 +19,6 @@ icon: com.defiwalletmobile.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: slavi_io

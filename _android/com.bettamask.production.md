@@ -17,7 +17,6 @@ icon: com.bettamask.production.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-10-19
 signer: 
 twitter: 

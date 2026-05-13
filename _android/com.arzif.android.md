@@ -18,7 +18,6 @@ icon: com.arzif.android.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: Arzifofficial

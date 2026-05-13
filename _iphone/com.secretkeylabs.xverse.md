@@ -17,7 +17,6 @@ icon: com.secretkeylabs.xverse.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-01-13
 signer: 
 twitter: secretkeylabs

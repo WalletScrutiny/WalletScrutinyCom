@@ -18,7 +18,6 @@ icon: com.Pepelabs.Pepewallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-04
 signer: 
 twitter: 

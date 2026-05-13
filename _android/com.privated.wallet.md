@@ -17,7 +17,6 @@ icon: com.privated.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

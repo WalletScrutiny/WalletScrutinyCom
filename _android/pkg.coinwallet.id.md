@@ -17,7 +17,6 @@ icon: pkg.coinwallet.id.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-03-09
 signer: 
 twitter: 

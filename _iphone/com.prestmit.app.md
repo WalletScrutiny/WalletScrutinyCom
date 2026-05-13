@@ -17,7 +17,6 @@ icon: com.prestmit.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-11-02
 signer: 
 twitter: prestmit

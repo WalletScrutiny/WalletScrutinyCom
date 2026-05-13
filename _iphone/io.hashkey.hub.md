@@ -17,7 +17,6 @@ icon: io.hashkey.hub.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-26
 signer: 
 twitter: HashkeyHub

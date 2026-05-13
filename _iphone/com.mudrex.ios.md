@@ -17,7 +17,6 @@ icon: com.mudrex.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-07
 signer: 
 twitter: officialmudrex

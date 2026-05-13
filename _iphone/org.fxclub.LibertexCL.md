@@ -17,7 +17,6 @@ icon: org.fxclub.LibertexCL.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2022-02-16
 signer: 
 twitter: libertex_latam

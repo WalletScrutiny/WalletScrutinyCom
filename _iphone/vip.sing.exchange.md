@@ -17,7 +17,6 @@ icon: vip.sing.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-11-14
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.coinsuper.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-01-31
 signer: 
 twitter: Coinsuper_OFCL

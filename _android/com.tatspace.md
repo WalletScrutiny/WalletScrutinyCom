@@ -18,7 +18,6 @@ icon: com.tatspace.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-09-09
 signer: 
 twitter: tatspaceapp

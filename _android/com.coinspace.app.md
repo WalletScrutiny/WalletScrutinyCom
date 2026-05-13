@@ -18,7 +18,6 @@ icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2023-04-22
 signer: 
 twitter: coinappwallet

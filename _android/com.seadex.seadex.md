@@ -18,7 +18,6 @@ icon: com.seadex.seadex.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-06-02
 signer: 
 twitter: 

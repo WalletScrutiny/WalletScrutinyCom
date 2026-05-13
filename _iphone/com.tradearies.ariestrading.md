@@ -17,7 +17,6 @@ icon: com.tradearies.ariestrading.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-11-21
 signer: 
 twitter: TradeAries

@@ -18,7 +18,6 @@ icon: io.getamber.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-17
 signer: 
 twitter: theamberapp

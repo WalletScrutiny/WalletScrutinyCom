@@ -17,7 +17,6 @@ icon: com.jax.peaceWallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-08-07
 signer: 
 twitter: 

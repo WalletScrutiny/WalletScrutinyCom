@@ -18,7 +18,6 @@ icon: com.iluminary.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-01
 signer: 
 twitter: iluminary

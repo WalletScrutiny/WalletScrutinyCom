@@ -18,7 +18,6 @@ icon: com.coinjar.riemann.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-15
 signer: 
 twitter: getcoinjar

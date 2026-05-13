@@ -17,7 +17,6 @@ icon: appinventor.ai_newpaypal92.BestCryptoWallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

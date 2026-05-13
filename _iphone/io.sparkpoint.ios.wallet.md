@@ -17,7 +17,6 @@ icon: io.sparkpoint.ios.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-08-31
 signer: 
 twitter: sparkpointio

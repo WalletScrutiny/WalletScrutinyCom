@@ -17,7 +17,6 @@ icon: com.herufinance.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-07-30
 signer: 
 twitter: 

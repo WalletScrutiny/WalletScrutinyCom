@@ -17,7 +17,6 @@ icon: com.coinlocally.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-21
 signer: 
 twitter: coinlocallyclyc

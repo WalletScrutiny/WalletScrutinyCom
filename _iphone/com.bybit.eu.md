@@ -17,7 +17,6 @@ icon: com.bybit.eu.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-13
 signer: 
 twitter: BybitEU

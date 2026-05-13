@@ -17,7 +17,6 @@ icon: com.muda.exchange.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-19
 signer: 
 twitter: mudatech_

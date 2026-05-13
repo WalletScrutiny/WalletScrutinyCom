@@ -17,7 +17,6 @@ icon: ecurrency.exchange.plus.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-21
 signer: 
 twitter: 

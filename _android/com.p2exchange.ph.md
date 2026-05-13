@@ -17,7 +17,6 @@ icon: com.p2exchange.ph.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-21
 signer: 
 twitter: 

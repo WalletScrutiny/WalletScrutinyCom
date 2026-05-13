@@ -17,7 +17,6 @@ icon: io.slavi.wallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-appHashes: []
 date: 2026-05-05
 signer: 
 twitter: slavi_io

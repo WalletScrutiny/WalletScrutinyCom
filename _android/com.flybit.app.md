@@ -18,7 +18,6 @@ icon: com.flybit.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-30
 signer: 
 twitter: 

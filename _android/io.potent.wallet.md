@@ -17,7 +17,6 @@ icon: io.potent.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-10-16
 signer: 
 twitter: 

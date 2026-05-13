@@ -24,7 +24,6 @@ icon: bithdrazorpro.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-11-23
 signer: 
 twitter: bitpiewallet

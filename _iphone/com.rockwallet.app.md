@@ -17,7 +17,6 @@ icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2023-08-28
 signer: 
 twitter: rockwallet

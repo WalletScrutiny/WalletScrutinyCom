@@ -17,7 +17,6 @@ icon: com.gaincapital.forex.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-16
 signer: 
 twitter: forexcom

@@ -17,7 +17,6 @@ icon: com.bitcoin.wirlpool.jpg
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

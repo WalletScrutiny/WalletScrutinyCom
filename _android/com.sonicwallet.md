@@ -18,7 +18,6 @@ icon: com.sonicwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-03-29
 signer: 
 twitter: SonicWalletHQ

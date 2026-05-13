@@ -18,7 +18,6 @@ icon: com.app.unitic.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-16
 signer: 
 twitter: unitic_exchange

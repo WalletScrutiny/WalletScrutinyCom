@@ -18,7 +18,6 @@ icon: com.app.bitnob.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-07
 signer: 
 twitter: Bitnob_official

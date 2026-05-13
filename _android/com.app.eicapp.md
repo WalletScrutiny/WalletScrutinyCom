@@ -17,7 +17,6 @@ icon: com.app.eicapp.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-03-21
 signer: 
 twitter: 

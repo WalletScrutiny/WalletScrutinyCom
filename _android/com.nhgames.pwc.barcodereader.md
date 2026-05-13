@@ -17,7 +17,6 @@ icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-06-10
 signer: 
 twitter: 

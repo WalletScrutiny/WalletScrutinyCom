@@ -24,7 +24,6 @@ icon: tangemnote.png
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: []
 date: 2025-02-06
 signer: 
 twitter: Tangem

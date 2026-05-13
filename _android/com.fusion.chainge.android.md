@@ -18,7 +18,6 @@ icon: com.fusion.chainge.android.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-06-20
 signer: 
 twitter: FinanceChainge

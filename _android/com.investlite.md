@@ -18,7 +18,6 @@ icon: com.investlite.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2022-01-31
 signer: 
 twitter: invest_lite

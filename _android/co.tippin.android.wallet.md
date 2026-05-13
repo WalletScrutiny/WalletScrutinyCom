@@ -17,7 +17,6 @@ icon: co.tippin.android.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-15
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.hashcash.emetexchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: fm.fountain.apps.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-24
 signer: 
 twitter: fountain_app

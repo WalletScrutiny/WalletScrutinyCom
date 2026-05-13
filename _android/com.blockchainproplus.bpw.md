@@ -17,7 +17,6 @@ icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2021-07-02
 signer: 
 twitter: 

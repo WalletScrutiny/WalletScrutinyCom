@@ -17,7 +17,6 @@ icon: com.prodoge.prodoge.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: 

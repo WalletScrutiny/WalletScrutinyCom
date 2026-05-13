@@ -17,7 +17,6 @@ icon: com.bitcoin.mwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-05-20
 signer: 
 twitter: bitcoincom

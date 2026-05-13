@@ -17,7 +17,6 @@ icon: io.hexawallet.keeper.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-02-12
 signer: 
 twitter: bitcoinKeeper_

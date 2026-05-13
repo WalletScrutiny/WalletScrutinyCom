@@ -18,7 +18,6 @@ icon: com.clubswan.app2.clubswan.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-11
 signer: 
 twitter: clubswanapp

@@ -24,7 +24,6 @@ icon: ellipal.titan.mini.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-11-15
 signer: 
 twitter: ellipalwallet

@@ -17,7 +17,6 @@ icon: com.wirelessenergy.smartwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: swttoken

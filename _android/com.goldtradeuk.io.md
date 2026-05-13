@@ -17,7 +17,6 @@ icon: com.goldtradeuk.io.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-06
 signer: 
 twitter: 

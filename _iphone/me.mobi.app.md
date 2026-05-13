@@ -17,7 +17,6 @@ icon: me.mobi.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: mobimeglobal

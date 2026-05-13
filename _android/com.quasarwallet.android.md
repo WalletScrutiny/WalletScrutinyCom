@@ -18,7 +18,6 @@ icon: com.quasarwallet.android.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-08-26
 signer: 
 twitter: reflextoken

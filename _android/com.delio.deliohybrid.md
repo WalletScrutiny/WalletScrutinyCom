@@ -18,7 +18,6 @@ icon: com.delio.deliohybrid.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-21
 signer: 
 twitter: happydelio

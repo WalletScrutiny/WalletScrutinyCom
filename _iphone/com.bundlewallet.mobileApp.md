@@ -17,7 +17,6 @@ icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-09-08
 signer: 
 twitter: 

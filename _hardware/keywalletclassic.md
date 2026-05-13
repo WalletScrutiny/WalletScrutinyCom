@@ -21,7 +21,6 @@ icon: keywalletclassic.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-10
 signer: 
 twitter: 

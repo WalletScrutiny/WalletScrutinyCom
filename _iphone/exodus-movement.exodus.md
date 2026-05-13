@@ -17,7 +17,6 @@ icon: exodus-movement.exodus.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-01-23
 signer: 
 twitter: exodus_io

@@ -18,7 +18,6 @@ icon: com.app.Safecrypto.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-18
 signer: 
 twitter: 

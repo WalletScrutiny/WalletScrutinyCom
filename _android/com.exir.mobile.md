@@ -18,7 +18,6 @@ icon: com.exir.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-05-10
 signer: 
 twitter: EXIR_Official

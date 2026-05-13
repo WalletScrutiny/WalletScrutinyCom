@@ -17,7 +17,6 @@ icon: com.bitcoin.era.app3.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-26
 signer: 
 twitter: 

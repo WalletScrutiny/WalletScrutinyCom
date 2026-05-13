@@ -18,7 +18,6 @@ icon: com.gleec.png
 bugbounty: 
 meta: defunct
 verdict: custodial
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: GleecOfficial

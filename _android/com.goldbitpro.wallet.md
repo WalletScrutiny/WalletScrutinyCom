@@ -17,7 +17,6 @@ icon: com.goldbitpro.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-03-03
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.probit.app.android2.release.korea.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: ProBit_Exchange

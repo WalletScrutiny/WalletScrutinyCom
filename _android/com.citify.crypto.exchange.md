@@ -17,7 +17,6 @@ icon: com.citify.crypto.exchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: 

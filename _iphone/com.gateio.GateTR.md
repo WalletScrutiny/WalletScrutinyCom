@@ -17,7 +17,6 @@ icon: com.gateio.GateTR.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-23
 signer: 
 twitter: 

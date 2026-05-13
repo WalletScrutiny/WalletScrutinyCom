@@ -24,7 +24,6 @@ icon: trezorSafe7.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-10-22
 signer: 
 twitter: trezor

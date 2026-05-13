@@ -17,7 +17,6 @@ icon: org.Matbea.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-24
 signer: 
 twitter: 

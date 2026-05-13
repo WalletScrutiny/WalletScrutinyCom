@@ -17,7 +17,6 @@ icon: net.bitgin.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-28
 signer: 
 twitter: 

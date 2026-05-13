@@ -19,7 +19,6 @@ icon: co.hodlwallet.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: hodlwallet

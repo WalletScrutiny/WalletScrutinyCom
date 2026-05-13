@@ -18,7 +18,6 @@ icon: app.coinhubatm.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: Coinhubusa

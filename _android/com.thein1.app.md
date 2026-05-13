@@ -18,7 +18,6 @@ icon: com.thein1.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-16
 signer: 
 twitter: in1app

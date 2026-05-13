@@ -18,7 +18,6 @@ icon: com.bitexen.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-01
 signer: 
 twitter: bitexencom

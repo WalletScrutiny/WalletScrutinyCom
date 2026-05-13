@@ -20,7 +20,6 @@ icon: com.pundix.xwallet.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-07-01
 signer: 
 twitter: PundiXLabs

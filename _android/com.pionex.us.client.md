@@ -18,7 +18,6 @@ icon: com.pionex.us.client.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-01
 signer: 
 twitter: PionexUS

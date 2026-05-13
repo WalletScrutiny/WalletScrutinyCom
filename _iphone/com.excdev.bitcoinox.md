@@ -17,7 +17,6 @@ icon: com.excdev.bitcoinox.jpg
 bugbounty: 
 meta: stale
 verdict: wip
-appHashes: 
 date: 2025-06-23
 signer: 
 twitter: 

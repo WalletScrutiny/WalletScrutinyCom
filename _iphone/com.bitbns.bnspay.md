@@ -17,7 +17,6 @@ icon: com.bitbns.bnspay.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-01-16
 signer: 
 twitter: bitbns

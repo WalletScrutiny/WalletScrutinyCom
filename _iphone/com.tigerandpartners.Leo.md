@@ -17,7 +17,6 @@ icon: com.tigerandpartners.Leo.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: LEO12_EXCHANGE

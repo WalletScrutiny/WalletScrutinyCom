@@ -17,7 +17,6 @@ icon: com.yolllo.mobile.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-08
 signer: 
 twitter: 

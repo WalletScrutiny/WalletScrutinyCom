@@ -17,7 +17,6 @@ icon: io.bitrequest.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: bitrequest

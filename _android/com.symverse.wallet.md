@@ -17,7 +17,6 @@ icon: com.symverse.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.skrill.ios.SkrillPayments.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-11-17
 signer: 
 twitter: skrill

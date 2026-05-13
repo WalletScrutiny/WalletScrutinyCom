@@ -17,7 +17,6 @@ icon: de.no26.Number26.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-10-17
 signer: 
 twitter: n26

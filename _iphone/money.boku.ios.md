@@ -17,7 +17,6 @@ icon: money.boku.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-01-02
 signer: 
 twitter: neverlessapp

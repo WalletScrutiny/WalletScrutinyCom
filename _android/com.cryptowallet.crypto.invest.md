@@ -17,7 +17,6 @@ icon: com.cryptowallet.crypto.invest.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-13
 signer: 
 twitter: 

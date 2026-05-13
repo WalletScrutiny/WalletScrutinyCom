@@ -17,7 +17,6 @@ icon: com.paradise.finance.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: io.mahfazah.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-21
 signer: 
 twitter: 

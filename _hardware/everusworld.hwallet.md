@@ -21,7 +21,6 @@ icon: everusworld.hwallet.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: EverusWorld

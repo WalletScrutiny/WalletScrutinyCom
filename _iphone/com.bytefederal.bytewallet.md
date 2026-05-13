@@ -17,7 +17,6 @@ icon: com.bytefederal.bytewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-05-05
 signer: 
 twitter: bytefederal

@@ -17,7 +17,6 @@ icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2023-05-17
 signer: 
 twitter: rsksmart

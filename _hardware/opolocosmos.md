@@ -25,7 +25,6 @@ icon: opolocosmos.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-11-09
 signer: 
 twitter: OpoloWallet

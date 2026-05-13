@@ -18,7 +18,6 @@ icon: app.excoin.com.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

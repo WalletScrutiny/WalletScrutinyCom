@@ -18,7 +18,6 @@ icon: com.quppy.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-12-01
 signer: 
 twitter: QuppyPay

@@ -17,7 +17,6 @@ icon: com.coincorner.checkout.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.admiralmarkets.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-16
 signer: 
 twitter: AdmiralsGlobal

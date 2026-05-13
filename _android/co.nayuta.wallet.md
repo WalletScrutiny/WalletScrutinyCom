@@ -17,7 +17,6 @@ icon: co.nayuta.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2019-12-29
 signer: 
 twitter: 

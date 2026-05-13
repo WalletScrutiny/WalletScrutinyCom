@@ -18,7 +18,6 @@ icon: co.bitcoindepot.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-08
 signer: 
 twitter: bitcoin_depot

@@ -17,7 +17,6 @@ icon: com.abl.vibra.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: VibraAfrica

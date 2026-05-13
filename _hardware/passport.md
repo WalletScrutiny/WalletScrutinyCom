@@ -26,8 +26,6 @@ icon: passport.png
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
 verdict: sourceavailable
-appHashes:
-- db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de
 date: 2024-04-18
 signer: 
 twitter: FOUNDATIONdvcs

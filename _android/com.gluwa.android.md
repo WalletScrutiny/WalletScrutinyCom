@@ -18,7 +18,6 @@ icon: com.gluwa.android.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-12-31
 signer: 
 twitter: gluwa

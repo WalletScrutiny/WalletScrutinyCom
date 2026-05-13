@@ -17,7 +17,6 @@ icon: com.blockchain.android.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2021-01-15
 signer: 
 twitter: 

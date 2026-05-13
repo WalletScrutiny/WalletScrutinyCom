@@ -18,7 +18,6 @@ icon: com.FinovelCyprusLimited.Skilling.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-10-02
 signer: 
 twitter: SkillingTrading

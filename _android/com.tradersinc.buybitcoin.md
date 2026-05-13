@@ -18,7 +18,6 @@ icon: com.tradersinc.buybitcoin.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-07
 signer: 
 twitter: 

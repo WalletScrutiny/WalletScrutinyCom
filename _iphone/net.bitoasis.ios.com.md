@@ -17,7 +17,6 @@ icon: net.bitoasis.ios.com.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-15
 signer: 
 twitter: bitoasis

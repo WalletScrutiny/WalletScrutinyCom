@@ -18,7 +18,6 @@ icon: org.narkasa.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: narkasacom

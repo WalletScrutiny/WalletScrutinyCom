@@ -17,7 +17,6 @@ icon: com.kointra.Kointra.V1.0.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-01-22
 signer: 
 twitter: KointraTR

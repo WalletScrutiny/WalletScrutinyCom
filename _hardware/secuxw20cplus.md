@@ -24,7 +24,6 @@ icon: secuxw20cplus.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-03-20
 signer: 
 twitter: SecuXwallet

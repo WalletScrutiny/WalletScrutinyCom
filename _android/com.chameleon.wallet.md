@@ -17,7 +17,6 @@ icon: com.chameleon.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2020-12-08
 signer: 
 twitter: chainzillaio

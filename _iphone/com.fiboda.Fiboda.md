@@ -17,7 +17,6 @@ icon: com.fiboda.Fiboda.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: 

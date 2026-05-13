@@ -17,7 +17,6 @@ icon: com.ionicframework.myapp474083.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-15
 signer: 
 twitter: 

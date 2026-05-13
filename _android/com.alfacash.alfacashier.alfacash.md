@@ -17,7 +17,6 @@ icon: com.alfacash.alfacashier.alfacash.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-08-07
 signer: 
 twitter: 

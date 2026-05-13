@@ -17,7 +17,6 @@ icon: com.t3securities.matador.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-07-21
 signer: 
 twitter: public

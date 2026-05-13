@@ -22,7 +22,6 @@ icon: coldlarsmart.png
 bugbounty: 
 meta: discontinued
 verdict: wip
-appHashes: 
 date: 2024-12-09
 signer: 
 twitter: Coldlar

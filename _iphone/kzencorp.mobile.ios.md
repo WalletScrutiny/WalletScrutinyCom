@@ -17,7 +17,6 @@ icon: kzencorp.mobile.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2020-04-27
 signer: 
 twitter: zengo

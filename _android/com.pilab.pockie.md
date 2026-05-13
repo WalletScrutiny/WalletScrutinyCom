@@ -18,7 +18,6 @@ icon: com.pilab.pockie.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: Pockie_io

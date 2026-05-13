@@ -18,7 +18,6 @@ icon: org.bitanex.bitanexpro.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-05
 signer: 
 twitter: 

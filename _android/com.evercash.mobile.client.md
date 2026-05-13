@@ -17,7 +17,6 @@ icon: com.evercash.mobile.client.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: 

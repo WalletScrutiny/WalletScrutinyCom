@@ -17,7 +17,6 @@ icon: com.spedn.spedn.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: FlexaHQ

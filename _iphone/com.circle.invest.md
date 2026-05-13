@@ -17,7 +17,6 @@ icon: com.circle.invest.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-09-29
 signer: 
 twitter: circle

@@ -18,7 +18,6 @@ icon: prod.walletv.virgo.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: WalletV_io

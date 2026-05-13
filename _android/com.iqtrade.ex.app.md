@@ -18,7 +18,6 @@ icon: com.iqtrade.ex.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: iqtradegroup

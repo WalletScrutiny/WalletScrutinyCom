@@ -18,7 +18,6 @@ icon: com.pi42.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: 

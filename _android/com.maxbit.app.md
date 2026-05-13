@@ -18,7 +18,6 @@ icon: com.maxbit.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-19
 signer: 
 twitter: MaxbitOfficial

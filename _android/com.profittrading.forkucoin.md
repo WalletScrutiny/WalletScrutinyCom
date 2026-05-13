@@ -18,7 +18,6 @@ icon: com.profittrading.forkucoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-20
 signer: 
 twitter: ProfitTrading_

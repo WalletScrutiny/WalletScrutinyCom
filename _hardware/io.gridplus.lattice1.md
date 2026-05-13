@@ -21,7 +21,6 @@ icon: io.gridplus.lattice1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-06-22
 signer: 
 twitter: gridplus

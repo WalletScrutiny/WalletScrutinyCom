@@ -18,7 +18,6 @@ icon: app.bitafrika.com.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-03-06
 signer: 
 twitter: _bitafrika

@@ -17,7 +17,6 @@ icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-09-19
 signer: 
 twitter: adamant_im

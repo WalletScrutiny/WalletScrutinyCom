@@ -18,7 +18,6 @@ icon: com.jex.trade.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: co.acinq.phoenix.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-07-05
 signer: 
 twitter: PhoenixWallet

@@ -24,7 +24,6 @@ icon: morix.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: MoriXjp

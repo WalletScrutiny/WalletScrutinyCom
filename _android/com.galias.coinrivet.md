@@ -18,7 +18,6 @@ icon: com.galias.coinrivet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-04-02
 signer: 
 twitter: CoinRivet

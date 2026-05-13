@@ -21,7 +21,6 @@ icon: xellox.zifer.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-06
 signer: 
 twitter: xelloxWallet

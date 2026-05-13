@@ -17,7 +17,6 @@ icon: com.usc.uscwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-11-02
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.ruufpay.ruufpaymobileapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-10-23
 signer: 
 twitter: ruufpay

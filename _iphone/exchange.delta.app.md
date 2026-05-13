@@ -17,7 +17,6 @@ icon: exchange.delta.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-07-11
 signer: 
 twitter: Delta_Exchange

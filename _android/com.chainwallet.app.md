@@ -18,7 +18,6 @@ icon: com.chainwallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-11-19
 signer: 
 twitter: chain

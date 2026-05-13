@@ -18,7 +18,6 @@ icon: com.se.digital.brokerage.mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-12-18
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: cz.confirmo.app.confirmo_flutter.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-04-26
 signer: 
 twitter: CryptoConfirmo

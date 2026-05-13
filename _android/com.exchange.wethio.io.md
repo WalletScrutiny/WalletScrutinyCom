@@ -18,7 +18,6 @@ icon: com.exchange.wethio.io.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: wethiox

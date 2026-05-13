@@ -18,7 +18,6 @@ icon: io.tether.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-04-20
 signer: 
 twitter: Tether_to

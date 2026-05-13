@@ -20,7 +20,6 @@ icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2026-03-23
 signer: 
 twitter: Trustee_Wallet

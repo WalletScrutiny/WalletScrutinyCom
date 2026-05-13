@@ -17,7 +17,6 @@ icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-07-28
 signer: 
 twitter: ShapeShift_io

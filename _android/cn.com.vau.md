@@ -18,7 +18,6 @@ icon: cn.com.vau.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-11-01
 signer: 
 twitter: VantageFX

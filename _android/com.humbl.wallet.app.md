@@ -18,7 +18,6 @@ icon: com.humbl.wallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: theTAPwallet

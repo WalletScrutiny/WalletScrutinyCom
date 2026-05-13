@@ -18,7 +18,6 @@ icon: tech.hodler.core.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-04-26
 signer: 
 twitter: HODLER_TECH

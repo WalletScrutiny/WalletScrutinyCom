@@ -18,7 +18,6 @@ icon: asia.coins.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-10-12
 signer: 
 twitter: coinsph

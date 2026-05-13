@@ -17,7 +17,6 @@ icon: com.cryptore.nine99.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-04-19
 signer: 
 twitter: coinlord_trade

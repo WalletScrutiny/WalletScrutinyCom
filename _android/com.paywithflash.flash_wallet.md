@@ -17,7 +17,6 @@ icon: com.paywithflash.flash_wallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-11-10
 signer: 
 twitter: 

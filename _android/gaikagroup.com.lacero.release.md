@@ -17,7 +17,6 @@ icon: gaikagroup.com.lacero.release.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

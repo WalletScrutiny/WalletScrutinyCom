@@ -18,7 +18,6 @@ icon: com.qwertynetworks.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-07-10
 signer: 
 twitter: 

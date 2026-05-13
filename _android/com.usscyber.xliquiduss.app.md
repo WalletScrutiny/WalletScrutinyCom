@@ -17,7 +17,6 @@ icon: com.usscyber.xliquiduss.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-04-09
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: exchange.einstein.mobile.release.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-05-31
 signer: 
 twitter: 

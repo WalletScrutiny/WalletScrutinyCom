@@ -17,7 +17,6 @@ icon: com.conglex.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-04-06
 signer: 
 twitter: conglexglobal

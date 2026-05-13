@@ -17,7 +17,6 @@ icon: world.bitkey.app.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-03-14
 signer: 
 twitter: bitkey

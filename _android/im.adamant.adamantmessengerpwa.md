@@ -18,7 +18,6 @@ icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-09-18
 signer: 
 twitter: adamant_im

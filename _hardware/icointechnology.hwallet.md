@@ -21,7 +21,6 @@ icon: icointechnology.hwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: 

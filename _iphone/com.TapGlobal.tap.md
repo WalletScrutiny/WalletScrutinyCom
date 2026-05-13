@@ -17,7 +17,6 @@ icon: com.TapGlobal.tap.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-15
 signer: 
 twitter: 

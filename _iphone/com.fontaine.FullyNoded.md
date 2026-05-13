@@ -17,7 +17,6 @@ icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2023-11-17
 signer: 
 twitter: FullyNoded

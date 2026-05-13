@@ -18,7 +18,6 @@ icon: com.sonitix_mobility.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-10
 signer: 
 twitter: SonitixO

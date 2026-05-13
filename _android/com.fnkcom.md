@@ -18,7 +18,6 @@ icon: com.fnkcom.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-07-04
 signer: 
 twitter: 

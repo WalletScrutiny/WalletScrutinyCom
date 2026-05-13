@@ -18,7 +18,6 @@ icon: com.tidex.app.exchange.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-06
 signer: 
 twitter: Tidex_Exchange

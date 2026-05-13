@@ -18,7 +18,6 @@ icon: com.BitcoinProfit.com.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-17
 signer: 
 twitter: 

@@ -24,7 +24,6 @@ icon: census.tangem.smartcard.png
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-05-03
 signer: 
 twitter: 

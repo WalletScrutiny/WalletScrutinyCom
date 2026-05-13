@@ -18,7 +18,6 @@ icon: com.ndex.web.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-29
 signer: 
 twitter: 

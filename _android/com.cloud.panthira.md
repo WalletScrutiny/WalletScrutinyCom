@@ -18,7 +18,6 @@ icon: com.cloud.panthira.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

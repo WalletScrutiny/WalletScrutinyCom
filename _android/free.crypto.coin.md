@@ -18,7 +18,6 @@ icon: free.crypto.coin.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-15
 signer: 
 twitter: 

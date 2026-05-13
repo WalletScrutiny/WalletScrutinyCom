@@ -17,7 +17,6 @@ icon: com.primitives.bitdefender.release.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2024-06-17
 signer: 
 twitter: 

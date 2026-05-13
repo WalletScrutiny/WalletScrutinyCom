@@ -17,7 +17,6 @@ icon: com.tnp.fortvax.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2022-07-31
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.bitlo.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-08
 signer: 
 twitter: bitlocom

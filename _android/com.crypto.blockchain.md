@@ -19,7 +19,6 @@ icon: com.crypto.blockchain.jpg
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-10-15
 signer: 
 twitter: 

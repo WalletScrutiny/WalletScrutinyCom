@@ -17,7 +17,6 @@ icon: io.kriptomat.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: kriptomat

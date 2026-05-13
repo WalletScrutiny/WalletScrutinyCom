@@ -17,7 +17,6 @@ icon: dev.com.tradefada.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-19
 signer: 
 twitter: tradefada

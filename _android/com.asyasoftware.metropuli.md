@@ -17,7 +17,6 @@ icon: com.asyasoftware.metropuli.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-08-18
 signer: 
 twitter: 

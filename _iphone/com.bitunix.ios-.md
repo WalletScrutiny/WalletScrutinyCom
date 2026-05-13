@@ -17,7 +17,6 @@ icon: com.bitunix.ios-.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-06
 signer: 
 twitter: BitunixOfficial

@@ -18,7 +18,6 @@ icon: com.application.inocyx.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-12-31
 signer: 
 twitter: INOCYX

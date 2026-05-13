@@ -17,7 +17,6 @@ icon: com.molnike.crypto.seed.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-02-18
 signer: 
 twitter: 

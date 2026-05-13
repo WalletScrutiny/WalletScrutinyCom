@@ -17,7 +17,6 @@ icon: app.difx.exchange.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: difx_io

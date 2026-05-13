@@ -18,7 +18,6 @@ icon: com.cryptex24.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: 

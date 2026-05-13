@@ -18,7 +18,6 @@ icon: com.crypterum.crypterum.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-22
 signer: 
 twitter: 

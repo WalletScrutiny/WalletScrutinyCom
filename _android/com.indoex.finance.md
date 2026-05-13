@@ -18,7 +18,6 @@ icon: com.indoex.finance.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: Indoex_LTD

@@ -18,7 +18,6 @@ icon: com.exchange.hotxapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-08-31
 signer: 
 twitter: 

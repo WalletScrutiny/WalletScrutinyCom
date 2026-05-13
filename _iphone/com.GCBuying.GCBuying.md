@@ -17,7 +17,6 @@ icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-10
 signer: 
 twitter: gcbuying

@@ -18,7 +18,6 @@ icon: org.autonomoussoftwarefoundation.verusmobile.android.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-04-24
 signer: 
 twitter: veruscoin

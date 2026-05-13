@@ -17,7 +17,6 @@ icon: com.magna_numeris.pebbit.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

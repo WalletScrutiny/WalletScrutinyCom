@@ -17,7 +17,6 @@ icon: com.uxuy.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-23
 signer: 
 twitter: uxuycom

@@ -18,7 +18,6 @@ icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.binance.dev.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-03-15
 signer: 
 twitter: binance

@@ -17,7 +17,6 @@ icon: app.phantom.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-12-21
 signer: 
 twitter: phantom

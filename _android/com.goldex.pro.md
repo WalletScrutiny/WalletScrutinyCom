@@ -17,7 +17,6 @@ icon: com.goldex.pro.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-07-25
 signer: 
 twitter: 

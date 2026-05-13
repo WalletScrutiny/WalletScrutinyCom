@@ -17,7 +17,6 @@ icon: wallet.ggp.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-18
 signer: 
 twitter: ggp_wallet

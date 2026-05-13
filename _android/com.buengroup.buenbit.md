@@ -18,7 +18,6 @@ icon: com.buengroup.buenbit.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-12-14
 signer: 
 twitter: 

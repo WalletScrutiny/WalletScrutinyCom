@@ -17,7 +17,6 @@ icon: btc.org.freewallet.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-13
 signer: 
 twitter: freewalletorg

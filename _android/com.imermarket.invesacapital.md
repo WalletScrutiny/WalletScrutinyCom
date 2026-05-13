@@ -17,7 +17,6 @@ icon: com.imermarket.invesacapital.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-08-24
 signer: 
 twitter: 

@@ -16,7 +16,6 @@ icon: app.w3wallet.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: 

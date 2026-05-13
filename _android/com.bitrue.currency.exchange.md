@@ -18,7 +18,6 @@ icon: com.bitrue.currency.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-11-17
 signer: 
 twitter: BitrueOfficial

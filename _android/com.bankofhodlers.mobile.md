@@ -18,7 +18,6 @@ icon: com.bankofhodlers.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-01-09
 signer: 
 twitter: Vauld_

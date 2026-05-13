@@ -17,7 +17,6 @@ icon: com.coinfield.csapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: CoinFieldEx

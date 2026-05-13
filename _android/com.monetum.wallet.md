@@ -17,7 +17,6 @@ icon: com.monetum.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2024-08-31
 signer: 
 twitter: 

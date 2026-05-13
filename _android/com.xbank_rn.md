@@ -18,7 +18,6 @@ icon: com.xbank_rn.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-25
 signer: 
 twitter: xBank_Official

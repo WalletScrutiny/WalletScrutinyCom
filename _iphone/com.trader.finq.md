@@ -17,7 +17,6 @@ icon: com.trader.finq.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: finqcom

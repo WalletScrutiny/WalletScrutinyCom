@@ -18,7 +18,6 @@ icon: com.plutus.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: AbraGlobal

@@ -19,7 +19,6 @@ icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 1b9a070277ab84f0fd4af1dc44a7d861c82f309951d947aaa2bf9cbe431e926c
 date: 2025-03-21
 signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
 twitter: tangem

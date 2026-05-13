@@ -18,7 +18,6 @@ icon: com.afrbtcapp.png
 bugbounty: 
 meta: stale
 verdict: nosendreceive
-appHashes: 
 date: 2025-07-08
 signer: 
 twitter: 

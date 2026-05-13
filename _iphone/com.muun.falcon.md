@@ -17,7 +17,6 @@ icon: com.muun.falcon.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2021-07-30
 signer: 
 twitter: muunwallet

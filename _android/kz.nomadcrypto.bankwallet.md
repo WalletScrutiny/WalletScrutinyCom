@@ -17,7 +17,6 @@ icon: kz.nomadcrypto.bankwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-01-31
 signer: 
 twitter: 

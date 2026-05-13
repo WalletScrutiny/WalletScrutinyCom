@@ -17,7 +17,6 @@ icon: com.premicesoft.tablet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-08-21
 signer: 
 twitter: 

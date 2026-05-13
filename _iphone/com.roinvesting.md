@@ -17,7 +17,6 @@ icon: com.roinvesting.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2021-12-05
 signer: 
 twitter: Roinvesting

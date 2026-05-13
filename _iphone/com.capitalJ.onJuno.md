@@ -17,7 +17,6 @@ icon: com.capitalJ.onJuno.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-23
 signer: 
 twitter: JunoFinanceHQ

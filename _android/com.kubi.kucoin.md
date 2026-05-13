@@ -18,7 +18,6 @@ icon: com.kubi.kucoin.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-02-09
 signer: 
 twitter: KuCoinCom

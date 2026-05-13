@@ -17,7 +17,6 @@ icon: com.mobillium.btcturk.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: btcturk

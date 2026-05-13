@@ -17,7 +17,6 @@ icon: com.tp.ios.jpg
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2023-01-11
 signer: 
 twitter: TokenPocket_TP

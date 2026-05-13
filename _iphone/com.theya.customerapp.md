@@ -17,7 +17,6 @@ icon: com.theya.customerapp.jpg
 bugbounty: 
 meta: stale
 verdict: wip
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: TheyaBitcoin

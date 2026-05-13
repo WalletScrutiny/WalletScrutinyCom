@@ -17,7 +17,6 @@ icon: me.coinpal.xapp.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: coinpalapp

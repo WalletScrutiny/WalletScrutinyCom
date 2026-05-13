@@ -17,7 +17,6 @@ icon: com.tideisun.tidepay.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: isunone1

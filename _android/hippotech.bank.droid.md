@@ -18,7 +18,6 @@ icon: hippotech.bank.droid.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-12-15
 signer: 
 twitter: ziglumoney

@@ -17,7 +17,6 @@ icon: vn.beedu.blockchain.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-09-23
 signer: 
 twitter: LynKey_

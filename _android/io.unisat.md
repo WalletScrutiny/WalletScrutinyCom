@@ -18,7 +18,6 @@ icon: io.unisat.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-10-23
 signer: 
 twitter: unisat_wallet

@@ -21,10 +21,6 @@ icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- d2721ac6aaba398c65c85ce3ed1e7cf312f9cb1273de0fb2eb026389f3ca3b43
-- 377d6a1b285afb8ff9343975736baf61b4f3f692b9aeb0fa18d61880aabb8e89
-- 7862ed4b3830ee1439e8545ebb863b3fe4233697c51edf04ab16090969855b5f
 date: 2025-03-13
 signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
 twitter: nunchuk_io

@@ -18,7 +18,6 @@ icon: com.scallopxledger.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-01-27
 signer: 
 twitter: ScallopOfficial

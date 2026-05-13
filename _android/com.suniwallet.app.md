@@ -18,7 +18,6 @@ icon: com.suniwallet.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: Suni_wallet

@@ -17,7 +17,6 @@ icon: com.avelot.amlsafe.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-12
 signer: 
 twitter: 

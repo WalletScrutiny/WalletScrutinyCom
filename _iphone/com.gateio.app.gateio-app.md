@@ -17,7 +17,6 @@ icon: com.gateio.app.gateio-app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-05
 signer: 
 twitter: gate_io

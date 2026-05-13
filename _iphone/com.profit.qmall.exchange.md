@@ -17,7 +17,6 @@ icon: com.profit.qmall.exchange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-07-28
 signer: 
 twitter: QmallExchange

@@ -18,7 +18,6 @@ icon: io.monabit.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-03-04
 signer: 
 twitter: 

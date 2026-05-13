@@ -18,7 +18,6 @@ icon: com.mbeu.mbeuapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-25
 signer: 
 twitter: mb_portugal

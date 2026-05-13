@@ -17,7 +17,6 @@ icon: coin98.crypto.finance.insights.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-01-10
 signer: 
 twitter: coin98_wallet

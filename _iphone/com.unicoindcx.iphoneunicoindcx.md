@@ -17,7 +17,6 @@ icon: com.unicoindcx.iphoneunicoindcx.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: Unicoin5

@@ -17,7 +17,6 @@ icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-02-04
 signer: 
 twitter: lightning

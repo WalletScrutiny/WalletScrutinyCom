@@ -17,7 +17,6 @@ icon: com.squirrelwallet.onekey.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-09-25
 signer: 
 twitter: squirrel_wallet

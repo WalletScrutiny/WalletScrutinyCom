@@ -17,7 +17,6 @@ icon: com.criptan.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-12-14
 signer: 
 twitter: 

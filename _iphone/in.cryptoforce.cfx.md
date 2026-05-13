@@ -17,7 +17,6 @@ icon: in.cryptoforce.cfx.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-18
 signer: 
 twitter: cryptoforce_in

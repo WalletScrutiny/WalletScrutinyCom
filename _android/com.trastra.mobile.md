@@ -18,7 +18,6 @@ icon: com.trastra.mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: Trastra_ltd

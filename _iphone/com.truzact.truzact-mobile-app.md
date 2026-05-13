@@ -17,7 +17,6 @@ icon: com.truzact.truzact-mobile-app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: truzact

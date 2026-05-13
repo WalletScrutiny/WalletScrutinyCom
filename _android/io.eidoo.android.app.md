@@ -18,7 +18,6 @@ icon: io.eidoo.android.app.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-03-11
 signer: 
 twitter: eidoo_io

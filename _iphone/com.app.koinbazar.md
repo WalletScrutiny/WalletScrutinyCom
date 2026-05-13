@@ -17,7 +17,6 @@ icon: com.app.koinbazar.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-26
 signer: 
 twitter: koinbazar

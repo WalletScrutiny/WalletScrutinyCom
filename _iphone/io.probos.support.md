@@ -17,7 +17,6 @@ icon: io.probos.support.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: probos_wallet

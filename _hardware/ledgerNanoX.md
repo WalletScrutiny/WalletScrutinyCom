@@ -24,7 +24,6 @@ icon: ledgerNanoX.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: Ledger

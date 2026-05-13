@@ -18,7 +18,6 @@ icon: com.pilab.biport.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-03-11
 signer: 
 twitter: 

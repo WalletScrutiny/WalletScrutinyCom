@@ -17,7 +17,6 @@ icon: com.blofin.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: Blofin_Official

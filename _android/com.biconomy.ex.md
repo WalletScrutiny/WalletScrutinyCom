@@ -18,7 +18,6 @@ icon: com.biconomy.ex.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-15
 signer: 
 twitter: BiconomyCom

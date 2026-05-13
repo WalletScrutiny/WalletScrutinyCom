@@ -18,7 +18,6 @@ icon: io.metamask.MetaMask.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-12-16
 signer: 
 twitter: MetaMask

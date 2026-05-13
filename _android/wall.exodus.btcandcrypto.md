@@ -19,7 +19,6 @@ icon: wall.exodus.btcandcrypto.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-08-06
 signer: 
 twitter: 

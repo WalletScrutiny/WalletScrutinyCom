@@ -24,7 +24,6 @@ icon: octowalletsilo.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: octowallet

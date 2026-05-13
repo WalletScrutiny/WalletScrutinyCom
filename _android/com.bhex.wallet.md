@@ -20,7 +20,6 @@ icon: com.bhex.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-03-16
 signer: 
 twitter: BHEXOfficial

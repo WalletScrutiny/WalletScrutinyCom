@@ -17,7 +17,6 @@ icon: com.getchange.dev.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: changefinance

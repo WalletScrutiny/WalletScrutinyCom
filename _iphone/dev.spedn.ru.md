@@ -17,7 +17,6 @@ icon: dev.spedn.ru.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-01-01
 signer: 
 twitter: koshelek_ru

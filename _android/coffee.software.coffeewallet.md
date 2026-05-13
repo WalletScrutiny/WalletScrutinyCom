@@ -20,7 +20,6 @@ icon: coffee.software.coffeewallet.png
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-appHashes: 
 date: 2024-07-03
 signer: 
 twitter: CoffeeWallet

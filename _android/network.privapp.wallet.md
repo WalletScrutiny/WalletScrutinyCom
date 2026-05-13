@@ -18,7 +18,6 @@ icon: network.privapp.wallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-03-23
 signer: 
 twitter: PrivappNetwork

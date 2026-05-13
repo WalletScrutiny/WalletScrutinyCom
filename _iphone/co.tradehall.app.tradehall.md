@@ -17,7 +17,6 @@ icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2023-11-02
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.b4uwallet.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: b4uwallet_b4u

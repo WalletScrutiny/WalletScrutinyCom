@@ -17,7 +17,6 @@ icon: co.busha.apple.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: getbusha

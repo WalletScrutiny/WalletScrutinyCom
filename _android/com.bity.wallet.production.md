@@ -18,7 +18,6 @@ icon: com.bity.wallet.production.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: bity

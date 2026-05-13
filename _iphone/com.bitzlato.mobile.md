@@ -17,7 +17,6 @@ icon: com.bitzlato.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-07-20
 signer: 
 twitter: 

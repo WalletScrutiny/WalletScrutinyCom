@@ -17,7 +17,6 @@ icon: com.digitalshield.walletapp.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-01
 signer: 
 twitter: DigitShield_HQ

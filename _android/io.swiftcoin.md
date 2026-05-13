@@ -18,7 +18,6 @@ icon: io.swiftcoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-30
 signer: 
 twitter: SwiftCoin380

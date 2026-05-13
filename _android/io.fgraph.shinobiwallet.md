@@ -18,7 +18,6 @@ icon: io.fgraph.shinobiwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: shinobi_wallet

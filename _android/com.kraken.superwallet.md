@@ -18,7 +18,6 @@ icon: com.kraken.superwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-06-06
 signer: 
 twitter: krakenfx

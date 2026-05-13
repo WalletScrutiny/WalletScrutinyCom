@@ -19,7 +19,6 @@ icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-13
 signer: 
 twitter: trustwalletapp

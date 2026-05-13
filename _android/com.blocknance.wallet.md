@@ -18,7 +18,6 @@ icon: com.blocknance.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-07-25
 signer: 
 twitter: blocknanceATM

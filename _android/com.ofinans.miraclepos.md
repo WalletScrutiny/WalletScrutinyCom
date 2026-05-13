@@ -17,7 +17,6 @@ icon: com.ofinans.miraclepos.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-12-15
 signer: 
 twitter: 

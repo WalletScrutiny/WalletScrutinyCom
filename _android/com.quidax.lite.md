@@ -18,7 +18,6 @@ icon: com.quidax.lite.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-08-09
 signer: 
 twitter: quidaxglobal

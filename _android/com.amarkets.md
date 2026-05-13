@@ -18,7 +18,6 @@ icon: com.amarkets.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-13
 signer: 
 twitter: 

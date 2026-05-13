@@ -19,7 +19,6 @@ icon: com.tokenize.malaysia.tradingapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-10-30
 signer: 
 twitter: TokenizeM

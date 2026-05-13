@@ -16,7 +16,6 @@ icon: com.vivid.money.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: 

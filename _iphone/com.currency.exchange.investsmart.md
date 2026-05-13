@@ -17,7 +17,6 @@ icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-07-18
 signer: 
 twitter: 

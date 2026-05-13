@@ -27,8 +27,6 @@ icon: onekey.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176
 date: 2025-09-08
 signer: 
 twitter: OneKeyHQ

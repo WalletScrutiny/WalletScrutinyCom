@@ -18,7 +18,6 @@ icon: com.btcturk.pro.png
 bugbounty: https://pro.btcturk.com/en/bug-bounty
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-08-21
 signer: 
 twitter: btcturkpro

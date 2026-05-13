@@ -17,7 +17,6 @@ icon: com.invictuscapital.app.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-03-02
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: org.electrum.electrum99.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-04-29
 signer: 
 twitter: 

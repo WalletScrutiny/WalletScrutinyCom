@@ -17,7 +17,6 @@ icon: com.okx.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: wallet

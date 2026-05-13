@@ -17,7 +17,6 @@ icon: com.vttech.VantageFX.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-11-01
 signer: 
 twitter: VantageFX

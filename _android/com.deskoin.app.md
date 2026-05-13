@@ -18,7 +18,6 @@ icon: com.deskoin.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-04-20
 signer: 
 twitter: deskoin

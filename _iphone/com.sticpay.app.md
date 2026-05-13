@@ -17,7 +17,6 @@ icon: com.sticpay.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: SticPay

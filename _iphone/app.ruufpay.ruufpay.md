@@ -17,7 +17,6 @@ icon: app.ruufpay.ruufpay.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: ruufpay

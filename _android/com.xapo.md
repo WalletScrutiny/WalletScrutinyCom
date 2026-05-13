@@ -18,7 +18,6 @@ icon: com.xapo.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-08-06
 signer: 
 twitter: xapo

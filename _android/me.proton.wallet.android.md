@@ -18,11 +18,6 @@ icon: me.proton.wallet.android.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- ad2518be80d0a5e2669a43ac34b0d6eee267e9ccf5255f07ac87cd1552419115
-- c991c3d1278d24da85168e96aa95ab8ef1af082c9b50862fa1ad8189090f806a
-- 36f28966a062069de7fb4a53c81f75640faa0117179c973efbe9f99781f4308
-- 784d21ba934d509d426e98da41bac5ca5f176cbe6c5c9c0d6addc5e5c87c075d
 date: 2025-05-20
 signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
 twitter: ProtonPrivacy

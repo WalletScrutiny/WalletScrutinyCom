@@ -17,7 +17,6 @@ icon: com.centurion.exchange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-06-09
 signer: 
 twitter: CENTURION_INVST

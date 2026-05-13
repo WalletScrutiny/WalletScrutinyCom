@@ -18,7 +18,6 @@ icon: com.xchangeonio.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2023-07-29
 signer: 
 twitter: XChangeon

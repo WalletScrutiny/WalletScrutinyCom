@@ -18,7 +18,6 @@ icon: com.app.coinloan.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-01-15
 signer: 
 twitter: coin_loan

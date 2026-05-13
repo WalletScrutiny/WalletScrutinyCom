@@ -18,7 +18,6 @@ icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: freewallet

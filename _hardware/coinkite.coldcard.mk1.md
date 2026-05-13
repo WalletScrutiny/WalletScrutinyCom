@@ -21,7 +21,6 @@ icon: coinkite.coldcard.mk1.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: sourceavailable
-appHashes: 
 date: 2022-11-24
 signer: 
 twitter: COLDCARDwallet

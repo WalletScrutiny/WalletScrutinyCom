@@ -17,7 +17,6 @@ icon: com.bitvenus.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-27
 signer: 
 twitter: bvox_global

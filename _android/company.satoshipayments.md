@@ -18,7 +18,6 @@ icon: company.satoshipayments.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-16
 signer: 
 twitter: satoshipayments

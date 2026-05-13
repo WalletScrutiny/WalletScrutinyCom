@@ -18,7 +18,6 @@ icon: com.zbx.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-15
 signer: 
 twitter: zbx_com

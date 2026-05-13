@@ -19,7 +19,6 @@ icon: com.huobionchainwallet.gp.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-04-20
 signer: 
 twitter: HuobiWallet

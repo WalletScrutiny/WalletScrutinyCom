@@ -17,7 +17,6 @@ icon: com.pockan.aicryptotrade.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-11-15
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.maxswap.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

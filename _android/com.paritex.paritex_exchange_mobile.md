@@ -18,7 +18,6 @@ icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: paritexexchange

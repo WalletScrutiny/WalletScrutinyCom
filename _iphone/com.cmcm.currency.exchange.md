@@ -17,7 +17,6 @@ icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-11-13
 signer: 
 twitter: BitrueOfficial

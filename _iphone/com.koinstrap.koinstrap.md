@@ -17,7 +17,6 @@ icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: koinstrap

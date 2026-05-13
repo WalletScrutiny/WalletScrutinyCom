@@ -18,7 +18,6 @@ icon: com.bitcoinglobal.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-03-11
 signer: 
 twitter: BitcoinGlobalEx

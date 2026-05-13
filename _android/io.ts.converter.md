@@ -18,7 +18,6 @@ icon: io.ts.converter.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-01-19
 signer: 
 twitter: tapswapkenya

@@ -18,7 +18,6 @@ icon: app.metavest.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: MetavestApp

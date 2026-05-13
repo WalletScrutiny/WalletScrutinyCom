@@ -18,7 +18,6 @@ icon: com.yaolian.qoline.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: salletone

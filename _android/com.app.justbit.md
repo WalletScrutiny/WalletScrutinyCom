@@ -18,7 +18,6 @@ icon: com.app.justbit.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-06
 signer: 
 twitter: 

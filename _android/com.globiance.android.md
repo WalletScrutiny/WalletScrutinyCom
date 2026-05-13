@@ -18,7 +18,6 @@ icon: com.globiance.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-18
 signer: 
 twitter: globiance

@@ -18,7 +18,6 @@ icon: com.exscudo.channels.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-04-24
 signer: 
 twitter: ex_scudo

@@ -21,7 +21,6 @@ icon: coinvest.hww.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-02-09
 signer: 
 twitter: 

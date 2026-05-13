@@ -21,7 +21,6 @@ icon: pundixbob.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-31
 signer: 
 twitter: PundiXLabs

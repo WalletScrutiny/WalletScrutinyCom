@@ -18,7 +18,6 @@ icon: io.kitefinancial.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-10
 signer: 
 twitter: kite_financial

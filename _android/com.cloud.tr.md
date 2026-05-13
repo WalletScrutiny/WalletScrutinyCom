@@ -18,7 +18,6 @@ icon: com.cloud.tr.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-21
 signer: 
 twitter: BinanceTR

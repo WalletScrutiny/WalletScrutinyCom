@@ -17,7 +17,6 @@ icon: org.bitcoincrypto.bitcoin.investment.apps.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-23
 signer: 
 twitter: 

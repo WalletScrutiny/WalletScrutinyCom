@@ -18,7 +18,6 @@ icon: com.digibot99.dgb.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-23
 signer: 
 twitter: 

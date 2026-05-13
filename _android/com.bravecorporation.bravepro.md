@@ -17,7 +17,6 @@ icon: com.bravecorporation.bravepro.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-10-15
 signer: 
 twitter: 

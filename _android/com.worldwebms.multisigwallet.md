@@ -18,7 +18,6 @@ icon: com.worldwebms.multisigwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-07-24
 signer: 
 twitter: UnidoEP

@@ -18,7 +18,6 @@ icon: i.brains.pandax.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: PandarNG

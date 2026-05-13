@@ -17,7 +17,7 @@ const category = 'iphone';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'updated version reviews website repository ' +
-                'icon bugbounty meta verdict appHashes date signer ' +
+                'icon bugbounty meta verdict date signer ' +
                 'twitter social features developerName').split(' ');
 
 async function refreshAll (ids, markRemoved) {

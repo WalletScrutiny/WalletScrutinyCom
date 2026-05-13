@@ -17,7 +17,6 @@ icon: com.bitfortip.bitfortipapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: bitfortip

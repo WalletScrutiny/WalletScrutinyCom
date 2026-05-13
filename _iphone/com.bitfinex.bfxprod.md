@@ -17,7 +17,6 @@ icon: com.bitfinex.bfxprod.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-31
 signer: 
 twitter: bitfinex

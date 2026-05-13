@@ -19,7 +19,6 @@ icon: com.exchangily.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-07-11
 signer: 
 twitter: ExchangilyC

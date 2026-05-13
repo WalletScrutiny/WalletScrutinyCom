@@ -18,7 +18,6 @@ icon: com.btckorea.bithumb.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-02-19
 signer: 
 twitter: BithumbOfficial

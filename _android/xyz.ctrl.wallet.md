@@ -18,7 +18,6 @@ icon: xyz.ctrl.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-09-24
 signer: 
 twitter: ctrl_wallet

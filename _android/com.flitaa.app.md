@@ -18,7 +18,6 @@ icon: com.flitaa.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-03
 signer: 
 twitter: getflitaa

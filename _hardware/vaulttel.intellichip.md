@@ -21,7 +21,6 @@ icon: vaulttel.intellichip.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: vaulttel

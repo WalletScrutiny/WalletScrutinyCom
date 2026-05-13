@@ -18,7 +18,6 @@ icon: com.conio.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-04-09
 signer: 
 twitter: conio

@@ -17,7 +17,6 @@ icon: net.tuxglobal.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-08-18
 signer: 
 twitter: Coinyexdotcom

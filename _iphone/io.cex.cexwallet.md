@@ -17,7 +17,6 @@ icon: io.cex.cexwallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-04-19
 signer: 
 twitter: cex_io

@@ -17,7 +17,6 @@ icon: com.coinlinksec.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-12-11
 signer: 
 twitter: 

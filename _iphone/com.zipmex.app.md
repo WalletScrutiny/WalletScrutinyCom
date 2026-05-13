@@ -17,7 +17,6 @@ icon: com.zipmex.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-03-02
 signer: 
 twitter: ZipmexTH

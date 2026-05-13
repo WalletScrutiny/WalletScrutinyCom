@@ -17,7 +17,6 @@ icon: com.codevist.paribu.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-12-16
 signer: 
 twitter: paribucom

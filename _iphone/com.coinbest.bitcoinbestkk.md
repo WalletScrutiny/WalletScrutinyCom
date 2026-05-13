@@ -17,7 +17,6 @@ icon: com.coinbest.bitcoinbestkk.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-02-24
 signer: 
 twitter: 

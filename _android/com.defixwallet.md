@@ -17,7 +17,6 @@ icon: com.defixwallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-01-11
 signer: 
 twitter: 

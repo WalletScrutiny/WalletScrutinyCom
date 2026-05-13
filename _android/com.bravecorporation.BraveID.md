@@ -18,7 +18,6 @@ icon: com.bravecorporation.BraveID.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-22
 signer: 
 twitter: BraveCorporati1

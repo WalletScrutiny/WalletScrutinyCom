@@ -18,7 +18,6 @@ icon: com.bitmama.bitmama.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-20
 signer: 
 twitter: bitmama

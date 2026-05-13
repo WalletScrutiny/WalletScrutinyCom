@@ -17,7 +17,6 @@ icon: com.hashkey.global.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-18
 signer: 
 twitter: HashKey_Global

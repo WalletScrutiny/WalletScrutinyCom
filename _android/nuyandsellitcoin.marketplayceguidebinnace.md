@@ -18,7 +18,6 @@ icon: nuyandsellitcoin.marketplayceguidebinnace.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2023-09-15
 signer: 
 twitter: 

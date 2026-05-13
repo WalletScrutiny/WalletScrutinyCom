@@ -17,7 +17,6 @@ icon: com.taotao-ex.TaotaoTrade.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-26
 signer: 
 twitter: sbivc_official

@@ -17,7 +17,6 @@ icon: com.sapien.sapienwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.superchain.lbankgoogle.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-21
 signer: 
 twitter: LBank_Exchange

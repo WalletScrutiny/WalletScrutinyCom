@@ -22,7 +22,6 @@ icon: ellipaltitan.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: ellipalwallet

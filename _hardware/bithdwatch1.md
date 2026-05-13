@@ -26,9 +26,6 @@ icon: bithdwatch1.png
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-appHashes:
-- 7c3126aaff2e983c89f621fa7a3d269385832aeeccc3f13ddd1e540656b059d2
-- 90d795380fa7def90f4924a672b64d086b55892266be8baae12c63871ab6598b
 date: 2022-04-18
 signer: 
 twitter: 

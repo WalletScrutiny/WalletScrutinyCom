@@ -18,7 +18,6 @@ icon: com.smartwallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: echooo_wallet

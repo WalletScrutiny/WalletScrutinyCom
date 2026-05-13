@@ -18,7 +18,6 @@ icon: com.biki.bikicoin.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-03-07
 signer: 
 twitter: BiKiEnglish

@@ -17,7 +17,6 @@ icon: com.app.breet.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: breetapp

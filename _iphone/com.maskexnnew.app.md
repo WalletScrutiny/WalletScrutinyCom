@@ -17,7 +17,6 @@ icon: com.maskexnnew.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-06-05
 signer: 
 twitter: MaskexGlobal

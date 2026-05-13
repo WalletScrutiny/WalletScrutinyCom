@@ -18,7 +18,6 @@ icon: com.ttmbank.wallet.app.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-04-20
 signer: 
 twitter: 0xMarsDAO

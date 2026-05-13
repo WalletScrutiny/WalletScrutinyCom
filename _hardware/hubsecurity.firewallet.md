@@ -24,7 +24,6 @@ icon: hubsecurity.firewallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: id3services

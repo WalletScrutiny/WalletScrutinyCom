@@ -18,7 +18,6 @@ icon: com.digitra.digitraHB.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-07-31
 signer: 
 twitter: Digitra_com

@@ -17,7 +17,6 @@ icon: br.com.brasilbitcoin.run.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-10
 signer: 
 twitter: brbtcoficial

@@ -17,7 +17,6 @@ icon: net.cryptomarketcap.invest.crypto.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-13
 signer: 
 twitter: 

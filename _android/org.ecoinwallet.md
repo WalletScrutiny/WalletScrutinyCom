@@ -18,7 +18,6 @@ icon: org.ecoinwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-03
 signer: 
 twitter: ecoin_wallet

@@ -17,7 +17,6 @@ icon: com.buyucoin.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: buyucoin

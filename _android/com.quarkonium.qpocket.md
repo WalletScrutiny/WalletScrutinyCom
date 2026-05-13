@@ -18,7 +18,6 @@ icon: com.quarkonium.qpocket.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-08-16
 signer: 
 twitter: qPocket_wallet

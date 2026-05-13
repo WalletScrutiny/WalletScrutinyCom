@@ -17,7 +17,6 @@ icon: com.digiwrecks.bitcoingocard.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2024-08-25
 signer: 
 twitter: 

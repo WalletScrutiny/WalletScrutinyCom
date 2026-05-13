@@ -17,7 +17,6 @@ icon: xyz.must.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-12-05
 signer: 
 twitter: 

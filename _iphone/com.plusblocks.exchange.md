@@ -16,7 +16,6 @@ icon: com.plusblocks.exchange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: box_trad

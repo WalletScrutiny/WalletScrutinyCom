@@ -17,7 +17,6 @@ icon: com.maxwallet.cc.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-04-24
 signer: 
 twitter: MaxWalletEN

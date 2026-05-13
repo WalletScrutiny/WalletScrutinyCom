@@ -18,7 +18,6 @@ icon: com.eliminatum.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-07-03
 signer: 
 twitter: GoCrypto_

@@ -18,7 +18,6 @@ icon: is.begin.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: BeginWallet

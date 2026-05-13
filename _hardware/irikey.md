@@ -21,7 +21,6 @@ icon: irikey.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-03-23
 signer: 
 twitter: IriTechInc

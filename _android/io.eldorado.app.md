@@ -18,7 +18,6 @@ icon: io.eldorado.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-18
 signer: 
 twitter: eldoradoio

@@ -17,7 +17,6 @@ icon: com.plusblocks.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-03-21
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.app.cryptobiz.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-06-30
 signer: 
 twitter: 

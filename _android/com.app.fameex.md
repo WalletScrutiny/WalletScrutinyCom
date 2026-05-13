@@ -18,7 +18,6 @@ icon: com.app.fameex.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-04
 signer: 
 twitter: FameexGlobal

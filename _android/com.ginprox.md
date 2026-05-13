@@ -17,7 +17,6 @@ icon: com.ginprox.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-04
 signer: 
 twitter: GinBlockchain

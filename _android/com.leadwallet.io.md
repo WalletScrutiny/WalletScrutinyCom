@@ -18,7 +18,6 @@ icon: com.leadwallet.io.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-10-30
 signer: 
 twitter: Leadwallet

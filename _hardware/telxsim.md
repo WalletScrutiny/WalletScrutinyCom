@@ -21,7 +21,6 @@ icon: telxsim.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-08-01
 signer: 
 twitter: 

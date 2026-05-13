@@ -19,7 +19,6 @@ icon: im.token.app99.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2022-02-10
 signer: 
 twitter: 

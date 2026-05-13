@@ -17,7 +17,6 @@ icon: com.pundix.wallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2022-12-28
 signer: 
 twitter: PundiXLabs

@@ -17,7 +17,6 @@ icon: com.casa.vault.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-05-22
 signer: 
 twitter: CasaHODL

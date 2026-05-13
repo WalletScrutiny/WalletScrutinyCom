@@ -18,7 +18,6 @@ icon: com.giottus.giottus_mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-07-15
 signer: 
 twitter: giottus

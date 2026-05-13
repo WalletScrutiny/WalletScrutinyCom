@@ -18,7 +18,6 @@ icon: com.vegawallet.in.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: vegawallet

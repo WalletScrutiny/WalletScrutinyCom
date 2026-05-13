@@ -18,7 +18,6 @@ icon: com.vnc.trex.bit.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: 

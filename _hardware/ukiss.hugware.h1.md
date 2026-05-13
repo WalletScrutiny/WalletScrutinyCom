@@ -21,7 +21,6 @@ icon: ukiss.hugware.h1.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-02-10
 signer: 
 twitter: UKISSTech

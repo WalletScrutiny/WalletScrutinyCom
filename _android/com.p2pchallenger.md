@@ -18,7 +18,6 @@ icon: com.p2pchallenger.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-11-22
 signer: 
 twitter: 

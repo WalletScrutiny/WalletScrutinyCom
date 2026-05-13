@@ -20,10 +20,6 @@ icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- fe57c48a52177a33ebc386322a1cfd36cb06d2351cb53df96bbc7b456ec3d503
-- b0da32db5b75cf3ea94f6d3f9157c1d5f43a8f34f18c45376c6114f23f91f55d
-- 3da406028595ae50141e13a3530e7702766577eb69551c18d5cfaecbf399fb31
 date: 2025-03-19
 signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
 twitter: BitBananaApp

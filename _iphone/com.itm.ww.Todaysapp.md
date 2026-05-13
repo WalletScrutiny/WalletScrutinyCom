@@ -16,7 +16,6 @@ icon: com.itm.ww.Todaysapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

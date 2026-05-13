@@ -18,7 +18,6 @@ icon: com.smartblockchain.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: 

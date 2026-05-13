@@ -17,7 +17,6 @@ icon: com.globiance.iosapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: globiance

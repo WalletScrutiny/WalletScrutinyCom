@@ -18,7 +18,6 @@ icon: ar.com.andinasmart.defiant.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-07-16
 signer: 
 twitter: defiantApp

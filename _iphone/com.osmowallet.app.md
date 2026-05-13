@@ -17,7 +17,6 @@ icon: com.osmowallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-24
 signer: 
 twitter: osmowallet

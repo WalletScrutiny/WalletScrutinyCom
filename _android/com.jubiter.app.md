@@ -19,7 +19,6 @@ icon: com.jubiter.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-01-02
 signer: 
 twitter: JuBiterWallet

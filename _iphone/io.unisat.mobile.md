@@ -17,7 +17,6 @@ icon: io.unisat.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-10-23
 signer: 
 twitter: unisat_wallet

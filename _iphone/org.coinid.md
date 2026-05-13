@@ -17,7 +17,6 @@ icon: org.coinid.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: COINiDGroup

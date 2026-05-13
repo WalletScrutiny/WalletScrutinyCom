@@ -19,7 +19,6 @@ icon: com.paypal.android.p2pmobile.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-22
 signer: 
 twitter: PayPal

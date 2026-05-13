@@ -18,7 +18,6 @@ icon: org.fxclub.libertex.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-09
 signer: 
 twitter: libertex_latam

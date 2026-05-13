@@ -18,7 +18,6 @@ icon: com.breadwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: []
 date: 2025-12-15
 signer: 
 twitter: BRDHQ

@@ -18,7 +18,6 @@ icon: cash.klever.blockchain.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: klever_io

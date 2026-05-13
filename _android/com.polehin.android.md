@@ -18,7 +18,6 @@ icon: com.polehin.android.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: []
 date: 2024-03-02
 signer: 
 twitter: polehincom

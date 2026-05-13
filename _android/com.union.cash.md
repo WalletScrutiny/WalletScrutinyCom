@@ -18,7 +18,6 @@ icon: com.union.cash.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-11-17
 signer: 
 twitter: unioncash_eu

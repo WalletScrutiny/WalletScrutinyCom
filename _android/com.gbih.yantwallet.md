@@ -18,7 +18,6 @@ icon: com.gbih.yantwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-03-31
 signer: 
 twitter: 

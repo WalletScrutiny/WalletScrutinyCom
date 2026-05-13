@@ -16,7 +16,6 @@ icon: com.balletcrypto.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-03-11
 signer: 
 twitter: BalletCrypto

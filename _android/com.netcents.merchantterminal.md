@@ -17,7 +17,6 @@ icon: com.netcents.merchantterminal.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-07-21
 signer: 
 twitter: 

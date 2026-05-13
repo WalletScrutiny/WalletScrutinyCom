@@ -17,7 +17,6 @@ icon: io.vircap.main.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: 

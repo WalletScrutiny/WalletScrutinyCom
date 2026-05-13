@@ -17,7 +17,6 @@ icon: com.kelta.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-10-21
 signer: 
 twitter: 

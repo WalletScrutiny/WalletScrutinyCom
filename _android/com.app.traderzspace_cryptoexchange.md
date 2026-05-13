@@ -17,7 +17,6 @@ icon: com.app.traderzspace_cryptoexchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: 

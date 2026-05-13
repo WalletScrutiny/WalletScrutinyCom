@@ -17,7 +17,6 @@ icon: com.bankofhodlers.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-03
 signer: 
 twitter: Vauld_

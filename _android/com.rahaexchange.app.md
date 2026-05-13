@@ -18,7 +18,6 @@ icon: com.rahaexchange.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-05-17
 signer: 
 twitter: rahaexchange

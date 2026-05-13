@@ -17,7 +17,6 @@ icon: com.fiber.fiberwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-05-31
 signer: 
 twitter: 

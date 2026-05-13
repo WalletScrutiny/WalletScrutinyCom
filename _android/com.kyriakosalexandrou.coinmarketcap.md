@@ -18,7 +18,6 @@ icon: com.kyriakosalexandrou.coinmarketcap.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-16
 signer: 
 twitter: mydopamineapp

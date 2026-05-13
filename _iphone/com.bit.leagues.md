@@ -17,7 +17,6 @@ icon: com.bit.leagues.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: BitLeague_Group

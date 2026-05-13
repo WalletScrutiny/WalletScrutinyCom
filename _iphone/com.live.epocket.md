@@ -17,7 +17,6 @@ icon: com.live.epocket.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: e_Pocket

@@ -17,7 +17,6 @@ icon: com.suprafin.usa.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-25
 signer: 
 twitter: lreasor

@@ -18,7 +18,6 @@ icon: com.blockabc.abcwallet.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2021-04-13
 signer: 
 twitter: 

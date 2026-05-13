@@ -19,7 +19,6 @@ icon: vip.mytokenpocket.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-appHashes: []
 date: 2024-07-17
 signer: 
 twitter: TokenPocket_TP

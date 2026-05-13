@@ -17,7 +17,6 @@ icon: com.cryptomkt.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-19
 signer: 
 twitter: 

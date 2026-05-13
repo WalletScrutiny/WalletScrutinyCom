@@ -18,7 +18,6 @@ icon: com.cappuu.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: Coinomo_EN

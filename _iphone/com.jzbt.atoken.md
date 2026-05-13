@@ -17,7 +17,6 @@ icon: com.jzbt.atoken.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: ATokenOfficial

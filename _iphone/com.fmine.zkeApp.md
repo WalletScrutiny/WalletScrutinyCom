@@ -17,7 +17,6 @@ icon: com.fmine.zkeApp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-01-27
 signer: 
 twitter: ZKE_com

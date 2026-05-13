@@ -17,7 +17,6 @@ icon: app.codecellar.embitwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-03-11
 signer: 
 twitter: 

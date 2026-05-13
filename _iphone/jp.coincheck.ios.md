@@ -16,7 +16,6 @@ icon: jp.coincheck.ios.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: 

@@ -21,7 +21,6 @@ icon: coinplussolo.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-appHashes: 
 date: 2022-03-23
 signer: 
 twitter: coinplus_sa

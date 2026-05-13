@@ -18,7 +18,6 @@ icon: com.hashkey.me.google.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: hashkey_me

@@ -18,7 +18,6 @@ icon: com.bitop.ex.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-13
 signer: 
 twitter: bitop_exchange

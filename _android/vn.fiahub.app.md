@@ -18,7 +18,6 @@ icon: vn.fiahub.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-07-13
 signer: 
 twitter: FIAHUBVN

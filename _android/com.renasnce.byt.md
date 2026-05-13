@@ -17,7 +17,6 @@ icon: com.renasnce.byt.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-07-14
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: co.airbitz.airbitz.jpg
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-appHashes: 
 date: 2021-10-19
 signer: 
 twitter: 

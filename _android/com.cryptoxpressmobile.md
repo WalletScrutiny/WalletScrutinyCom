@@ -18,7 +18,6 @@ icon: com.cryptoxpressmobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-04-21
 signer: 
 twitter: crypto_xpress

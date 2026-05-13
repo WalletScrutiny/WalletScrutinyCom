@@ -17,7 +17,6 @@ icon: com.sf.monarch.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: Monarchtoken

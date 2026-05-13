@@ -18,7 +18,6 @@ icon: ja.xx.exch.ange.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: []
 date: 2022-01-15
 signer: 
 twitter: 

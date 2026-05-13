@@ -18,7 +18,6 @@ icon: com.uptrend.ainvesting.png
 bugbounty: 
 meta: stale
 verdict: nosendreceive
-appHashes: 
 date: 2025-12-18
 signer: 
 twitter: 

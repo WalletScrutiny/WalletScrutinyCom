@@ -17,7 +17,6 @@ icon: cryptoex.elegro.io.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2023-07-03
 signer: 
 twitter: elegro_eu

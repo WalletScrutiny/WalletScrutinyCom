@@ -19,7 +19,6 @@ icon: com.zumopay.core.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-09-09
 signer: 
 twitter: zumopay

@@ -17,7 +17,6 @@ icon: com.bifrostwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-12
 signer: 
 twitter: 

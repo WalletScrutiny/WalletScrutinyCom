@@ -21,7 +21,6 @@ icon: bitmain.safeprime.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2023-04-06
 signer: 
 twitter: BITMAINtech

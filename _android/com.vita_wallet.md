@@ -18,7 +18,6 @@ icon: com.vita_wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-04
 signer: 
 twitter: vitawallet

@@ -17,7 +17,6 @@ icon: com.maicoin.maicoin.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-01-02
 signer: 
 twitter: Max_exch

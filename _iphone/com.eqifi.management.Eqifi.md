@@ -17,7 +17,6 @@ icon: com.eqifi.management.Eqifi.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-07-01
 signer: 
 twitter: eqifi_finance

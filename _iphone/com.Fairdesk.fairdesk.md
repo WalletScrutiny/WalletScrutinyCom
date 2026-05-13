@@ -17,7 +17,6 @@ icon: com.Fairdesk.fairdesk.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-23
 signer: 
 twitter: FairdeskGlobal

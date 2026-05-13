@@ -22,7 +22,6 @@ icon: finney.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: SIRINLABS

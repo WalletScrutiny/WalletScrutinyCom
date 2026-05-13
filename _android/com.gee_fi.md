@@ -17,7 +17,6 @@ icon: com.gee_fi.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-11-09
 signer: 
 twitter: 

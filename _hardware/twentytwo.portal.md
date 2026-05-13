@@ -24,7 +24,6 @@ icon: twentytwo.portal.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: TwentyTwoHW

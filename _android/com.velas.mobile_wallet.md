@@ -20,7 +20,6 @@ icon: com.velas.mobile_wallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: []
 date: 2026-01-28
 signer: 
 twitter: velasblockchain

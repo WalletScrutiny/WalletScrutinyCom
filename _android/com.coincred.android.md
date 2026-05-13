@@ -18,7 +18,6 @@ icon: com.coincred.android.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: CoinCRED_

@@ -17,7 +17,6 @@ icon: com.blocktrade.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-07-03
 signer: 
 twitter: Blocktradecom

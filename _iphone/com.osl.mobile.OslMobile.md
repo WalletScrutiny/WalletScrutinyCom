@@ -17,7 +17,6 @@ icon: com.osl.mobile.OslMobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-02-28
 signer: 
 twitter: OSLdotcom

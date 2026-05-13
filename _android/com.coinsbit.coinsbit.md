@@ -18,7 +18,6 @@ icon: com.coinsbit.coinsbit.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: c0insbit

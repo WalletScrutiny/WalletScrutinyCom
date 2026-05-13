@@ -18,7 +18,6 @@ icon: com.aibb.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-04-05
 signer: 
 twitter: BLOCKBANKapp

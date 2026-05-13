@@ -17,7 +17,6 @@ icon: org.voisine.breadwallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: []
 date: 2025-04-01
 signer: 
 twitter: BRDHQ

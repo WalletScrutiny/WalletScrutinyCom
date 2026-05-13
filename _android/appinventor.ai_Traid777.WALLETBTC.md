@@ -17,7 +17,6 @@ icon: appinventor.ai_Traid777.WALLETBTC.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-01-02
 signer: 
 twitter: 

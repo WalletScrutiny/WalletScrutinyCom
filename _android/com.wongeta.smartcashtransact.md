@@ -18,7 +18,6 @@ icon: com.wongeta.smartcashtransact.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-10
 signer: 
 twitter: mysmartcasht

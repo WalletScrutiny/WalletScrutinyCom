@@ -17,7 +17,6 @@ icon: com.fasset.cashapp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-10-23
 signer: 
 twitter: fasset_official

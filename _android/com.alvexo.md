@@ -18,7 +18,6 @@ icon: com.alvexo.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: Alvexo_Trade

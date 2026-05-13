@@ -18,7 +18,6 @@ icon: com.ascendex.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-12
 signer: 
 twitter: AscendEX_Global

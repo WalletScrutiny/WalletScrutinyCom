@@ -17,7 +17,6 @@ icon: com.tangem.Tangem.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-10-28
 signer: 
 twitter: tangem

@@ -18,7 +18,6 @@ icon: com.stormgain.mobile.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: StormGain_com

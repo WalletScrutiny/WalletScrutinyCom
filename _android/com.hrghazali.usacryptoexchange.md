@@ -17,7 +17,6 @@ icon: com.hrghazali.usacryptoexchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-15
 signer: 
 twitter: 

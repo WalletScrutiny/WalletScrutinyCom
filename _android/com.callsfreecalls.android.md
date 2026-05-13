@@ -18,7 +18,6 @@ icon: com.callsfreecalls.android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-21
 signer: 
 twitter: cfc_io

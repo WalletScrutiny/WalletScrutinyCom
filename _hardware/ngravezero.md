@@ -25,7 +25,6 @@ icon: ngravezero.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-10-08
 signer: 
 twitter: ngrave_official

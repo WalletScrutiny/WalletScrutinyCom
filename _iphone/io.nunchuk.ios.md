@@ -18,7 +18,6 @@ icon: io.nunchuk.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-01-06
 signer: 
 twitter: nunchuk_io

@@ -17,7 +17,6 @@ icon: com.catecoin.crypto.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: catecoin

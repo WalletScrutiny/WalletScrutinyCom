@@ -18,7 +18,6 @@ icon: com.senexpay.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-09-07
 signer: 
 twitter: senexpay

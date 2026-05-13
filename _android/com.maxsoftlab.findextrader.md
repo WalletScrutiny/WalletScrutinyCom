@@ -18,7 +18,6 @@ icon: com.maxsoftlab.findextrader.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: 

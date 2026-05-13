@@ -18,7 +18,6 @@ icon: io.cex.app.prod.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-16
 signer: 
 twitter: cex_io

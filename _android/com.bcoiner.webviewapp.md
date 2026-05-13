@@ -17,7 +17,6 @@ icon: com.bcoiner.webviewapp.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-06-23
 signer: 
 twitter: 

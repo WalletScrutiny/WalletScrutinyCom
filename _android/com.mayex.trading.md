@@ -18,7 +18,6 @@ icon: com.mayex.trading.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: Mayex_Global

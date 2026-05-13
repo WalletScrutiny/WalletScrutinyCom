@@ -18,7 +18,6 @@ icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-21
 signer: 
 twitter: ThinkMarketscom

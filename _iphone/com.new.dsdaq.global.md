@@ -17,7 +17,6 @@ icon: com.new.dsdaq.global.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: DsdaqCom

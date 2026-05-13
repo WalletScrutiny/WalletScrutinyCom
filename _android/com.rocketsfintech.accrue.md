@@ -18,7 +18,6 @@ icon: com.rocketsfintech.accrue.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-05-04
 signer: 
 twitter: useaccrue

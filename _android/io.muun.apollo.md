@@ -20,8 +20,6 @@ icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
 date: 2025-02-24
 signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
 twitter: MuunWallet

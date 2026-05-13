@@ -18,7 +18,6 @@ icon: com.dowallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-10-03
 signer: 
 twitter: 

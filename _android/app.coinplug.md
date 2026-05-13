@@ -18,7 +18,6 @@ icon: app.coinplug.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-08-29
 signer: 
 twitter: trycoinplug

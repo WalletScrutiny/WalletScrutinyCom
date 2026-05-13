@@ -17,7 +17,6 @@ icon: com.buysellhodl.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2020-05-29
 signer: 
 twitter: BuySellHodlApp

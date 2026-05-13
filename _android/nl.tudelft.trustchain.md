@@ -17,7 +17,6 @@ icon: nl.tudelft.trustchain.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.app.orbitnetwork.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: 

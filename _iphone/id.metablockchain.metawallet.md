@@ -17,7 +17,6 @@ icon: id.metablockchain.metawallet.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-02-20
 signer: 
 twitter: MUIcommunity

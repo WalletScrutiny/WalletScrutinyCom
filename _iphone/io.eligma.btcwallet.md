@@ -17,7 +17,6 @@ icon: io.eligma.btcwallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-07-08
 signer: 
 twitter: GoCrypto_

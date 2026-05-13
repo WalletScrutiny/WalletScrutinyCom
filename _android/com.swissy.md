@@ -18,7 +18,6 @@ icon: com.swissy.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-26
 signer: 
 twitter: 

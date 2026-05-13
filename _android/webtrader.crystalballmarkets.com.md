@@ -18,7 +18,6 @@ icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-08-28
 signer: 
 twitter: 

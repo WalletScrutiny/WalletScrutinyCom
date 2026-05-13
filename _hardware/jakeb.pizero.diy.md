@@ -24,7 +24,6 @@ icon: jakeb.pizero.diy.png
 bugbounty: 
 meta: defunct
 verdict: sourceavailable
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: allaboutjake

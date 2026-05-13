@@ -18,7 +18,6 @@ icon: com.peersyst.nearmobilewallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: NEARMobile_app

@@ -17,7 +17,6 @@ icon: com.payz.maxpayz.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: 

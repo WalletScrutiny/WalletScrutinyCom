@@ -18,7 +18,6 @@ icon: io.myabcwallet.mpc.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-27
 signer: 
 twitter: AhnLab_ABC

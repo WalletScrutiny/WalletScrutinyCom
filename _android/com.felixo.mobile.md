@@ -18,7 +18,6 @@ icon: com.felixo.mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: felixoexchange

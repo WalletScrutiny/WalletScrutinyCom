@@ -25,7 +25,6 @@ icon: cerber.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-11-25
 signer: 
 twitter: 

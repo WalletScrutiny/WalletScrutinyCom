@@ -17,7 +17,6 @@ icon: com.rubycoin.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-31
 signer: 
 twitter: RubyCoinDAO

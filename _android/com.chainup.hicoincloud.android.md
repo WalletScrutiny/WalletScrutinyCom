@@ -18,7 +18,6 @@ icon: com.chainup.hicoincloud.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-02-28
 signer: 
 twitter: ChainUPOfficial

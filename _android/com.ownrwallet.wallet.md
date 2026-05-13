@@ -19,7 +19,6 @@ icon: com.ownrwallet.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-09-11
 signer: 
 twitter: ownrwallet

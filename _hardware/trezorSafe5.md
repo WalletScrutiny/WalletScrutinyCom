@@ -25,12 +25,6 @@ icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628
-- 14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de
-- 01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777
-- 6d932e5200927b6eeebc9b8700effde957a9880774944bcc028b0cbac85e7f6a
-- 9e1bc9773194df462a2350108da1cc4f5a70149b93affcb363c5b96c14b30a4d
 date: 2025-09-11
 signer: 
 twitter: trezor

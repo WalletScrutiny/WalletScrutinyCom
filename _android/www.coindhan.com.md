@@ -18,7 +18,6 @@ icon: www.coindhan.com.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-03
 signer: 
 twitter: coin_dhan

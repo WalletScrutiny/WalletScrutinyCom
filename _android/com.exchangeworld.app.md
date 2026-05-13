@@ -18,7 +18,6 @@ icon: com.exchangeworld.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-30
 signer: 
 twitter: 

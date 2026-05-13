@@ -18,7 +18,6 @@ icon: com.ripio.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-03-28
 signer: 
 twitter: ripioapp

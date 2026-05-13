@@ -22,7 +22,6 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-08-11
 signer: 
 twitter: ElectrumWallet

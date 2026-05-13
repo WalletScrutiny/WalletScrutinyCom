@@ -17,7 +17,6 @@ icon: io.wallet.pro.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: io_wallet

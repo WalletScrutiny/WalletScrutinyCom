@@ -17,7 +17,6 @@ icon: com.tomiapps.production.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-19
 signer: 
 twitter: tomipioneers

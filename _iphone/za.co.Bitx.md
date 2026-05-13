@@ -17,7 +17,6 @@ icon: za.co.Bitx.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-12
 signer: 
 twitter: LunoGlobal

@@ -17,7 +17,6 @@ icon: com.muchbetter.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-08-27
 signer: 
 twitter: paymuchbetter

@@ -17,7 +17,6 @@ icon: com.icecorp.wallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: icewalofficial

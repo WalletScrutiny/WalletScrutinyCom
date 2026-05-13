@@ -18,7 +18,6 @@ icon: com.zb.global.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-13
 signer: 
 twitter: 

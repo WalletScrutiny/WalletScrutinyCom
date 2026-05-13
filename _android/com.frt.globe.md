@@ -17,7 +17,6 @@ icon: com.frt.globe.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-08-09
 signer: 
 twitter: 

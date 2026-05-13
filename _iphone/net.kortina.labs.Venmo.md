@@ -17,7 +17,6 @@ icon: net.kortina.labs.Venmo.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2022-04-12
 signer: 
 twitter: venmo

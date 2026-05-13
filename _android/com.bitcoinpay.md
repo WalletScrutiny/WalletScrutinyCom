@@ -17,7 +17,6 @@ icon: com.bitcoinpay.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-07-01
 signer: 
 twitter: 

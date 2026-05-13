@@ -18,7 +18,6 @@ icon: io.totalcoin.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-24
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.octopass.app.jpg
 bugbounty: 
 meta: deprecated
 verdict: custodial
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: 

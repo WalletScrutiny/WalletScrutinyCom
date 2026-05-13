@@ -17,7 +17,6 @@ icon: com.compie.fxoro.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-08-15
 signer: 
 twitter: 

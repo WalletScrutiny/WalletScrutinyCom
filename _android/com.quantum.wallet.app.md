@@ -18,7 +18,6 @@ icon: com.quantum.wallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: 

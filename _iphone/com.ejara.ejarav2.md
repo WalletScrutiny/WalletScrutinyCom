@@ -17,7 +17,6 @@ icon: com.ejara.ejarav2.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-02-21
 signer: 
 twitter: EjaraApp

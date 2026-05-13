@@ -17,7 +17,6 @@ icon: com.futur.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: 

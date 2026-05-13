@@ -21,7 +21,6 @@ icon: neodun.nel.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-02-06
 signer: 
 twitter: neweconolab

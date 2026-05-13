@@ -17,7 +17,6 @@ icon: coinunited.io.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: realcoinunited

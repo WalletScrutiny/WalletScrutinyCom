@@ -17,7 +17,6 @@ icon: ios.atomwallets.com.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-03-05
 signer: 
 twitter: AtomWallets

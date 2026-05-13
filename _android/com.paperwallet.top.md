@@ -18,7 +18,6 @@ icon: com.paperwallet.top.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: paperwallettop

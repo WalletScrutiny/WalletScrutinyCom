@@ -17,7 +17,6 @@ icon: io.sowaka.avacus.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: 

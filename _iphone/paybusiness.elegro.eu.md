@@ -17,7 +17,6 @@ icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-07
 signer: 
 twitter: elegro_eu

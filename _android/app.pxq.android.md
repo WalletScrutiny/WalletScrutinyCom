@@ -18,7 +18,6 @@ icon: app.pxq.android.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-02-28
 signer: 
 twitter: 

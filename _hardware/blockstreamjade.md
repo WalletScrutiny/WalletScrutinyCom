@@ -27,11 +27,6 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- c88b3d38deddec7265878885b4f1ff952d5ac56d202861a9ce9a6e2b84006280
-- 83098f274244f1b676a2f161da155e6c3444f0a30450fd758a26046a88654ce2
-- e056250e6f75cda5b14a91cc8aef6edcf6a9875cdae2f41ea9b96bd88fdd0e46
-- e38355055873ed9ab10c19cb425a64497589c78c7dad041ec351599e2c2c1b52
 date: 2025-08-04
 signer: 
 twitter: Blockstream

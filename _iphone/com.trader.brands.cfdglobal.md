@@ -17,7 +17,6 @@ icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-03-29
 signer: 
 twitter: capex_en

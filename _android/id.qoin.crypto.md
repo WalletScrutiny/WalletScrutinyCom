@@ -18,7 +18,6 @@ icon: id.qoin.crypto.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: qoinpay

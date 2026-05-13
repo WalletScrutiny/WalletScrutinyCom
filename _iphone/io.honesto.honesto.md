@@ -17,7 +17,6 @@ icon: io.honesto.honesto.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-21
 signer: 
 twitter: 

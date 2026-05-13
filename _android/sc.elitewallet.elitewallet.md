@@ -18,7 +18,6 @@ icon: sc.elitewallet.elitewallet.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-07-10
 signer: 
 twitter: 

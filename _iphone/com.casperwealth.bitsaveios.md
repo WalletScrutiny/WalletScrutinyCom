@@ -17,7 +17,6 @@ icon: com.casperwealth.bitsaveios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-16
 signer: 
 twitter: BitSaveClub

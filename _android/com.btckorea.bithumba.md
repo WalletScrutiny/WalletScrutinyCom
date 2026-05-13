@@ -18,7 +18,6 @@ icon: com.btckorea.bithumba.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-08-04
 signer: 
 twitter: BithumbOfficial

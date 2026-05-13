@@ -17,7 +17,6 @@ icon: com.cointopay.pos.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: 

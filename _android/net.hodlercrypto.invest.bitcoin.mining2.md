@@ -17,7 +17,6 @@ icon: net.hodlercrypto.invest.bitcoin.mining2.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: 

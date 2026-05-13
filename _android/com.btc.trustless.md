@@ -18,8 +18,6 @@ icon: com.btc.trustless.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes:
-- ba6e8fcd2f2d82232916e3a1901f4dff50f21e93ddf3374ea6976103f1987cc8
 date: 2026-03-11
 signer: 
 twitter: https://x.com/Trustlessbtc

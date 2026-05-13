@@ -18,7 +18,6 @@ icon: io.puravidabitcoin.app.png
 bugbounty: 
 meta: fewusers
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: PuraVidaBTC

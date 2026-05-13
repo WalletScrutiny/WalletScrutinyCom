@@ -17,7 +17,6 @@ icon: com.bitcoinsuisse.online.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-22
 signer: 
 twitter: BitcoinSuisseAG

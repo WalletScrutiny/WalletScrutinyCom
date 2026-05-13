@@ -17,7 +17,6 @@ icon: io.antwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-03
 signer: 
 twitter: 

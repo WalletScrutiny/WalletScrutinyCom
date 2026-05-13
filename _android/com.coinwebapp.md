@@ -18,7 +18,6 @@ icon: com.coinwebapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-04-10
 signer: 
 twitter: CoinwebOfficial

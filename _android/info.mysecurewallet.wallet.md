@@ -19,7 +19,6 @@ icon: info.mysecurewallet.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: 

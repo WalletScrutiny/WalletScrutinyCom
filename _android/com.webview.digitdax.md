@@ -17,7 +17,6 @@ icon: com.webview.digitdax.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: 

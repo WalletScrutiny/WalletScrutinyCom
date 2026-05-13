@@ -17,7 +17,6 @@ icon: com.pay99.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-12-26
 signer: 
 twitter: voude99

@@ -17,7 +17,6 @@ icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: TokenizeXchange

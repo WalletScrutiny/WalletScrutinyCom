@@ -18,7 +18,6 @@ icon: com.cfdglobal.android.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: capex_en

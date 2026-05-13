@@ -18,7 +18,6 @@ icon: com.fliplabs.dartafrica.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: dartafrica

@@ -24,7 +24,6 @@ icon: huskyhdw20.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2025-02-06
 signer: 
 twitter: 

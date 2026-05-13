@@ -17,7 +17,6 @@ icon: com.mobile.stablehouse.env.stablehouse.io.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-07-03
 signer: 
 twitter: 

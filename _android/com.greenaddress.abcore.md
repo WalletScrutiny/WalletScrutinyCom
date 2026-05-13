@@ -20,7 +20,6 @@ icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-04-19
 signer: 
 twitter: 

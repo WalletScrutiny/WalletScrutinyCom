@@ -17,7 +17,6 @@ icon: com.bunq.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: bunq

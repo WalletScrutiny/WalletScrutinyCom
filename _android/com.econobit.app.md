@@ -17,7 +17,6 @@ icon: com.econobit.app.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: 

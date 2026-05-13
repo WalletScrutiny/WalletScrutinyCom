@@ -17,7 +17,6 @@ icon: com.velesapp.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-10-28
 signer: 
 twitter: 

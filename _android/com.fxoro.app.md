@@ -18,7 +18,6 @@ icon: com.fxoro.app.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: 

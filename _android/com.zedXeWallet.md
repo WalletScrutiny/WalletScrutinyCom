@@ -18,7 +18,6 @@ icon: com.zedXeWallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-06-12
 signer: 
 twitter: Zed_Xe

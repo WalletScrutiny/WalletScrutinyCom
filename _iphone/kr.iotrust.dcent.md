@@ -17,7 +17,6 @@ icon: kr.iotrust.dcent.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-01-10
 signer: 
 twitter: DCENTwallets

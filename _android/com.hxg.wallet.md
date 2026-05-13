@@ -18,7 +18,6 @@ icon: com.hxg.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-04-09
 signer: 
 twitter: WOWEARNENG

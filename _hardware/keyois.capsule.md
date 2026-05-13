@@ -21,7 +21,6 @@ icon: keyois.capsule.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: 

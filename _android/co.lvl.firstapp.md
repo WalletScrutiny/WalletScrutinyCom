@@ -18,7 +18,6 @@ icon: co.lvl.firstapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: BankWithLVL

@@ -18,7 +18,6 @@ icon: net.treeum.multi.invest.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-18
 signer: 
 twitter: 

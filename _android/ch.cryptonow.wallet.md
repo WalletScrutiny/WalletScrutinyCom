@@ -18,7 +18,6 @@ icon: ch.cryptonow.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: 

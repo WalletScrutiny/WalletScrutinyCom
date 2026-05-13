@@ -18,7 +18,6 @@ icon: com.nobillio.coinbaazar.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: coin_baazar

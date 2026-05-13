@@ -17,7 +17,6 @@ icon: com.nonadirect.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2024-05-10
 signer: 
 twitter: 

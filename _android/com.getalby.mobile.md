@@ -18,7 +18,6 @@ icon: com.getalby.mobile.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-09-09
 signer: 
 twitter: getAlby

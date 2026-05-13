@@ -18,7 +18,6 @@ icon: com.mobee.io.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-19
 signer: 
 twitter: mobee_id

@@ -18,7 +18,6 @@ icon: com.oxmiing.mw.jpg
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2025-04-09
 signer: 
 twitter: 

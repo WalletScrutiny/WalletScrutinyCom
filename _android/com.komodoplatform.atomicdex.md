@@ -20,7 +20,6 @@ icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: []
 date: 2025-08-04
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 twitter: KomodoPlatform

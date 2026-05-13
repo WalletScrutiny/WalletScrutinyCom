@@ -17,7 +17,6 @@ icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-01-02
 signer: 
 twitter: FOUNDATIONdvcs

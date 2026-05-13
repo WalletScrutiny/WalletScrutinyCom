@@ -18,7 +18,6 @@ icon: com.bitcoke.activity.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-03-09
 signer: 
 twitter: BitCokedotcom

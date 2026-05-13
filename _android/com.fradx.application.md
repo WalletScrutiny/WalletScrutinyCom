@@ -17,7 +17,6 @@ icon: com.fradx.application.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-01-09
 signer: 
 twitter: 

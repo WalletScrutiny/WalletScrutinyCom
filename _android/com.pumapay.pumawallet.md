@@ -18,7 +18,6 @@ icon: com.pumapay.pumawallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-05-18
 signer: 
 twitter: PumaPay

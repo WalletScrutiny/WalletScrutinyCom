@@ -17,7 +17,6 @@ icon: com.bbx.bbx.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-10-22
 signer: 
 twitter: 

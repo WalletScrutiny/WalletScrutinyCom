@@ -17,7 +17,6 @@ icon: com.blockchain.btc.coinhub.png
 bugbounty: 
 meta: ok
 verdict: fake
-appHashes: []
 date: 2021-07-26
 signer: 
 twitter: 

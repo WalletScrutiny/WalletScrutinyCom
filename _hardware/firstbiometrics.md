@@ -21,7 +21,6 @@ icon: firstbiometrics.png
 bugbounty: 
 meta: stale
 verdict: vapor
-appHashes: 
 date: 2024-10-18
 signer: 
 twitter: FIRSTBiometrics

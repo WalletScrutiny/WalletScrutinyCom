@@ -17,7 +17,6 @@ icon: io.infinito.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: Infinito_Ltd

@@ -17,7 +17,6 @@ icon: com.bitazza.global.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: BitazzaGlobal

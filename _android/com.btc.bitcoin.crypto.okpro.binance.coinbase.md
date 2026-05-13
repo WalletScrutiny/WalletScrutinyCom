@@ -18,7 +18,6 @@ icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-11-10
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.bitdance.bitpocket.google.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-12
 signer: 
 twitter: BitPocketWallet

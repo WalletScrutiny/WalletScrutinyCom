@@ -17,7 +17,6 @@ icon: com.bitso.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-25
 signer: 
 twitter: Bitso

@@ -18,7 +18,6 @@ icon: app.vipsats.satoshi.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-12-02
 signer: 
 twitter: vipsats

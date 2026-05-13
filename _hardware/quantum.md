@@ -25,7 +25,6 @@ icon: quantum.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-12-20
 signer: 
 twitter: 

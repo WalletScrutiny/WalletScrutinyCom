@@ -18,7 +18,6 @@ icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: zondaglobal

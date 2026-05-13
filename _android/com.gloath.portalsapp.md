@@ -18,7 +18,6 @@ icon: com.gloath.portalsapp.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: 

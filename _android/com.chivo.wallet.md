@@ -19,7 +19,6 @@ icon: com.chivo.wallet.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-appHashes: []
 date: 2024-11-29
 signer: 
 twitter: chivowallet

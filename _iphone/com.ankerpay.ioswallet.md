@@ -17,7 +17,6 @@ icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-07-08
 signer: 
 twitter: AnkerPay

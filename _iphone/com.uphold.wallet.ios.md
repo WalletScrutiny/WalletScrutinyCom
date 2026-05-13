@@ -17,7 +17,6 @@ icon: com.uphold.wallet.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-14
 signer: 
 twitter: UpholdInc

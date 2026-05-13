@@ -17,7 +17,6 @@ icon: com.obrinvestment.obrinvest.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-10-31
 signer: 
 twitter: 

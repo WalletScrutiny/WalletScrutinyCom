@@ -17,7 +17,6 @@ icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: CoinPaymentsNET

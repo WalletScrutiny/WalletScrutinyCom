@@ -18,7 +18,6 @@ icon: com.world.bestinfo.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2023-06-10
 signer: 
 twitter: 

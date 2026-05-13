@@ -18,7 +18,6 @@ icon: cz.hundredspires.wexo.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: WexoOfficial

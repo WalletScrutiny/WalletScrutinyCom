@@ -18,7 +18,6 @@ icon: com.lumiwallet.android.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: Lumi_wallet

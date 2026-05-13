@@ -18,7 +18,6 @@ icon: com.richamster.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-14
 signer: 
 twitter: Richamster_com

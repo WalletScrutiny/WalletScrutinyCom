@@ -17,7 +17,6 @@ icon: com.ftx.FTXMobile.FTXUS.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-01-11
 signer: 
 twitter: ftx_us

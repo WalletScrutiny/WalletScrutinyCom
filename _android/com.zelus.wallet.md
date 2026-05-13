@@ -18,7 +18,6 @@ icon: com.zelus.wallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2025-12-26
 signer: 
 twitter: ZelusWallet

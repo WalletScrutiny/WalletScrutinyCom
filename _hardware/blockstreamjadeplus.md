@@ -24,7 +24,6 @@ icon: blockstreamjadeplus.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: Blockstream

@@ -18,7 +18,6 @@ icon: com.ncwallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-14
 signer: 
 twitter: 

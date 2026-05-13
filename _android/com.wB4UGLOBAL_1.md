@@ -17,7 +17,6 @@ icon: com.wB4UGLOBAL_1.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-04-19
 signer: 
 twitter: 

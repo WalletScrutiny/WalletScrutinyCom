@@ -17,7 +17,6 @@ icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-04-01
 signer: 
 twitter: BLOCKBANKapp

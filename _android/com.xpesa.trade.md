@@ -18,7 +18,6 @@ icon: com.xpesa.trade.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-11
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.walletconnect.walletair.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-16
 signer: 
 twitter: 

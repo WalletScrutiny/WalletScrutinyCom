@@ -17,7 +17,6 @@ icon: cobo.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: Cobo_Wallet

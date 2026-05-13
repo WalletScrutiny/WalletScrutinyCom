@@ -24,7 +24,6 @@ icon: erawallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-03
 signer: 
 twitter: era_wallet

@@ -18,7 +18,6 @@ icon: net.iconomi.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-04
 signer: 
 twitter: iconomicom

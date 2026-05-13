@@ -17,7 +17,6 @@ icon: com.aegiswallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2020-04-07
 signer: 
 twitter: 

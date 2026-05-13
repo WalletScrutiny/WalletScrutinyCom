@@ -18,7 +18,6 @@ icon: com.app.fffex.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-11
 signer: 
 twitter: 

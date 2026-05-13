@@ -17,7 +17,6 @@ icon: com.bydfi.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-21
 signer: 
 twitter: BYDFi

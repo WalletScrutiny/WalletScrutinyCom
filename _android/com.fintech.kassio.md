@@ -18,7 +18,6 @@ icon: com.fintech.kassio.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-31
 signer: 
 twitter: KassioNetwork

@@ -17,7 +17,6 @@ icon: com.viabtc.ViaWallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: viawallet

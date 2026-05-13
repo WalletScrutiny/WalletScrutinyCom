@@ -21,7 +21,6 @@ icon: denisdx.openhw.diy.png
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: 

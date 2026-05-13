@@ -17,7 +17,6 @@ icon: com.hashcash.paybitoadmin.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: 

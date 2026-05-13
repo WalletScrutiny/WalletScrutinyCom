@@ -18,7 +18,6 @@ icon: com.jiggle.wallet.jpg
 bugbounty: 
 meta: stale
 verdict: wip
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: jiggle_app

@@ -21,8 +21,6 @@ icon: com.greenaddress.greenbits_android_wallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- c5f04cdba74164db04a2e036462846c97a01c80879a095b6883af84249cb2736
 date: 2025-03-07
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 twitter: Blockstream

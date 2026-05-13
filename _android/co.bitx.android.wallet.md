@@ -18,7 +18,6 @@ icon: co.bitx.android.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: []
 date: 2020-10-12
 signer: 
 twitter: LunoGlobal

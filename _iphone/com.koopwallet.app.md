@@ -17,7 +17,6 @@ icon: com.koopwallet.app.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-01-27
 signer: 
 twitter: KooP360

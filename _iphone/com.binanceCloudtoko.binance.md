@@ -18,7 +18,6 @@ icon: com.binanceCloudtoko.binance.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: tokocrypto

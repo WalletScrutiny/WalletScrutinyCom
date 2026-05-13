@@ -17,7 +17,6 @@ icon: com.chiji14xchange-.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: myrocketapp

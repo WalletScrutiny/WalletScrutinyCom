@@ -18,11 +18,6 @@ icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 3850818298d2c8f13eb42c38b2fac7f9c46a3047bb8c99c26a1f03901ac097b4
-- 782c20f09f9ced07b5b933dc3f7cdc22c1de2e9723a52e8c62b480fa5c6e1438
-- f5ecf995f916caef93300c55eedce4e3b9cb8a95a0b33cda35571ac6cd7dda28
-- 54cc265679cd8925b9045b3bb8e6099f15f74d55f3f1d8255d4f8773e0cc9bdb
 date: 2025-03-03
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 twitter: bitkey

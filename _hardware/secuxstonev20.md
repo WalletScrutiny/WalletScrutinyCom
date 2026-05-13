@@ -26,7 +26,6 @@ icon: secuxstonev20.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: SecuXwallet

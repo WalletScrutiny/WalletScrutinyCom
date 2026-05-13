@@ -18,7 +18,6 @@ icon: com.arindamdawn.coinflow.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-30
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: app.exchange.savita.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: 

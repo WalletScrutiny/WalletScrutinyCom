@@ -17,7 +17,6 @@ icon: jetonwallet.JetonWallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: jetonwallet

@@ -18,7 +18,6 @@ icon: com.kangamobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-07-20
 signer: 
 twitter: KangaExchange

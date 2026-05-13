@@ -17,7 +17,6 @@ icon: com.spacelink.exchange.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: 

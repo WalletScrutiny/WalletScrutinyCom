@@ -17,7 +17,6 @@ icon: com.MCS.MyCryptoSafe.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-04-26
 signer: 
 twitter: 

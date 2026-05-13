@@ -18,7 +18,6 @@ icon: com.revolut.revolutx.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-05-19
 signer: 
 twitter: RevolutApp

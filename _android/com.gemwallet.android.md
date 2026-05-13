@@ -18,7 +18,6 @@ icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-08-05
 signer: 
 twitter: gemwallet

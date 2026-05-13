@@ -21,7 +21,6 @@ icon: stohr.trezorone.clone.diy.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: _superhero1

@@ -25,7 +25,6 @@ icon: keywallettouch.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-02-07
 signer: 
 twitter: keywallet

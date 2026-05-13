@@ -18,7 +18,6 @@ icon: com.namicorp.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-07-20
 signer: 
 twitter: NamiTrade

@@ -18,7 +18,6 @@ icon: org.nativescript.knakenhybridapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-19
 signer: 
 twitter: knaken_eu

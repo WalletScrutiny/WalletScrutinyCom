@@ -24,7 +24,6 @@ icon: icoldwallet.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-03-11
 signer: 
 twitter: 

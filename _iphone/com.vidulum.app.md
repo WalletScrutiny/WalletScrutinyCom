@@ -17,7 +17,6 @@ icon: com.vidulum.app.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-01-09
 signer: 
 twitter: VidulumApp

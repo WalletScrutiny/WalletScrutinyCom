@@ -18,7 +18,6 @@ icon: com.arbismart.hotwallets.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-29
 signer: 
 twitter: arbismart

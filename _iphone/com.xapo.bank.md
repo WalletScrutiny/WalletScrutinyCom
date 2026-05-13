@@ -17,7 +17,6 @@ icon: com.xapo.bank.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-04-30
 signer: 
 twitter: xapobankapp

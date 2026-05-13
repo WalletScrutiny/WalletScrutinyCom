@@ -18,7 +18,6 @@ icon: com.bytefederal.bytemobile.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

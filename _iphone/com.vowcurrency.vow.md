@@ -17,7 +17,6 @@ icon: com.vowcurrency.vow.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-07-30
 signer: 
 twitter: vowcurrency

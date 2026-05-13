@@ -18,7 +18,6 @@ icon: com.xerium.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: Xerium3

@@ -25,7 +25,6 @@ icon: securewallet.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2021-12-08
 signer: 
 twitter: ecomi_

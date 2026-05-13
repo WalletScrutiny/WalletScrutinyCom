@@ -18,7 +18,6 @@ icon: com.mobiletradingpartners.lmax.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-02-24
 signer: 
 twitter: LMAX

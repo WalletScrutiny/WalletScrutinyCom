@@ -18,7 +18,6 @@ icon: com.dextrade.android.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: dextrade_

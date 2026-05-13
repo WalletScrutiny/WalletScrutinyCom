@@ -17,7 +17,6 @@ icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: 

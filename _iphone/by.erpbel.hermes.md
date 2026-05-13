@@ -17,7 +17,6 @@ icon: by.erpbel.hermes.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-09
 signer: 
 twitter: bynexio

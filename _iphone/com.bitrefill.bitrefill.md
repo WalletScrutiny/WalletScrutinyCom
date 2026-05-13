@@ -17,7 +17,6 @@ icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: []
 date: 2021-09-12
 signer: 
 twitter: bitrefill

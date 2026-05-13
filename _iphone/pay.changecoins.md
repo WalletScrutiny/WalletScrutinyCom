@@ -17,7 +17,6 @@ icon: pay.changecoins.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-03
 signer: 
 twitter: 

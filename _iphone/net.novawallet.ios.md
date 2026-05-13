@@ -17,7 +17,6 @@ icon: net.novawallet.ios.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-04-01
 signer: 
 twitter: solidus_v

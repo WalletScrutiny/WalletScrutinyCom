@@ -18,7 +18,6 @@ icon: com.zypto.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-26
 signer: 
 twitter: Zyptopay

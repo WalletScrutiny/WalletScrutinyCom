@@ -18,7 +18,6 @@ icon: coin.ajaib.co.id.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-06
 signer: 
 twitter: 

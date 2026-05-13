@@ -18,7 +18,6 @@ icon: com.ivan.fgwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: srsfintech

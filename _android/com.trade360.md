@@ -18,7 +18,6 @@ icon: com.trade360.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-03-11
 signer: 
 twitter: Trade360_LTD

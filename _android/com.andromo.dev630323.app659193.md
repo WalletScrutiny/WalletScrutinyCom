@@ -17,7 +17,6 @@ icon: com.andromo.dev630323.app659193.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-09-15
 signer: 
 twitter: 

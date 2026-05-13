@@ -17,7 +17,6 @@ icon: com.mirai.miraiex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-19
 signer: 
 twitter: firiapp

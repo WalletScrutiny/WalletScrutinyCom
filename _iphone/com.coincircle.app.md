@@ -17,7 +17,6 @@ icon: com.coincircle.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2024-01-16
 signer: 
 twitter: coincircle

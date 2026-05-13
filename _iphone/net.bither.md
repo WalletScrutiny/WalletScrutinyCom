@@ -19,7 +19,6 @@ icon: net.bither.jpg
 bugbounty: 
 meta: stale
 verdict: obfuscated
-appHashes: []
 date: 2025-06-24
 signer: 
 twitter: 

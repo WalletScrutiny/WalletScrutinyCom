@@ -16,7 +16,6 @@ icon: com.stba.satoshi.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-12-17
 signer: 
 twitter: 

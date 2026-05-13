@@ -18,7 +18,6 @@ icon: com.jeritex.exchange.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-09-23
 signer: 
 twitter: 

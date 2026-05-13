@@ -18,7 +18,6 @@ icon: com.money91.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: rovi_protocol

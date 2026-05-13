@@ -18,7 +18,6 @@ icon: gbbit.app.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-03
 signer: 
 twitter: 

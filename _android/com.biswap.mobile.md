@@ -18,7 +18,6 @@ icon: com.biswap.mobile.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-07-08
 signer: 
 twitter: exchangilydex

@@ -17,7 +17,6 @@ icon: app.simple.com.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: smpl_app

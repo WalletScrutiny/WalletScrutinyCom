@@ -18,7 +18,6 @@ icon: app.excointrades.com.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

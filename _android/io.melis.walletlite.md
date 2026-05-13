@@ -18,7 +18,6 @@ icon: io.melis.walletlite.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-12-19
 signer: 
 twitter: 

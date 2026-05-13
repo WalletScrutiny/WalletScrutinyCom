@@ -17,7 +17,6 @@ icon: com.global.bitcoin.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-04-14
 signer: 
 twitter: BitcoinGlobalEx
