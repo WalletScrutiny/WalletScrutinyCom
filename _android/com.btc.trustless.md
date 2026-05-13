@@ -4,13 +4,13 @@ title: Trustless
 altTitle: 
 authors:
 - Pechen987 https://github.com/Pechen987
-users: 10
+users: 20
 appId: com.btc.trustless
 alternativeStores: 
 appCountry: it
 released: 2026-02-03
-updated: 2026-02-03
-version: 1.0.0
+updated: 2026-05-12
+version: 2.0.0
 reviews: 0
 website: https://trustlesswallet.github.io/Trustless/
 repository: https://github.com/TrustlessWallet/Trustless
@@ -19,10 +19,10 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes:
-- fe451e1b9e3c42d183c3243802bf1bd1d8b90784b7ba7b12f12f583eb7c71640
+- ba6e8fcd2f2d82232916e3a1901f4dff50f21e93ddf3374ea6976103f1987cc8
 date: 2026-03-11
 signer: 
-twitter: 
+twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
 redirect_from: 
