@@ -3,6 +3,8 @@ layout: archive
 permalink: /new_verification/
 ---
 
+{% assign maxFileAttachmentContentLength = 48235 %}
+
 <style>
       /* Tab styling with light/dark mode support */
       .tab-button {
@@ -463,7 +465,7 @@ permalink: /new_verification/
         <!-- File Dropzone Area -->
         <div id="fileDropzoneArea" class="form-group" style="margin-top: 2em; display: none;">
             <label for="fileInput" id="dropZone" class="drop-zone">
-                <span class="drop-zone-text">If you've used <b>scripts</b> or <b>docker files</b> to build the asset, <b>drag & drop</b> them here to attach them (max 60KB each). Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
+                <span class="drop-zone-text">If you've used <b>scripts</b> or <b>docker files</b> to build the asset, <b>drag & drop</b> them here to attach them (max {{ maxFileAttachmentContentLength | divided_by: 1024 }} KB each). Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
             </label>
             <input type="file" id="fileInput" multiple hidden>
             <div id="fileList" class="file-list"></div>
@@ -553,8 +555,8 @@ permalink: /new_verification/
     }
 
     for (const file of uploadedFiles) {
-      if (file.size > 60000) {
-        showToast(`File "${file.name}" is too large (max 60KB)`, 'error');
+      if (file.size > {{ maxFileAttachmentContentLength }}) {
+        showToast(`File "${file.name}" is too large (max {{ maxFileAttachmentContentLength | divided_by: 1024 }} KB)`, 'error');
         return false;
       }
     }
@@ -586,8 +588,8 @@ permalink: /new_verification/
     const newFiles = Array.from(files);
     let errors = [];
     newFiles.forEach(file => {
-      if (file.size > 60000) {
-        errors.push(`File "${file.name}" exceeds the 60KB limit.`);
+      if (file.size > {{ maxFileAttachmentContentLength }}) {
+        errors.push(`File "${file.name}" exceeds the {{ maxFileAttachmentContentLength | divided_by: 1024 }} KB limit.`);
       } else {
         // Avoid duplicates based on name and size (simple check)
         if (!uploadedFiles.some(f => f.name === file.name && f.size === file.size)) {

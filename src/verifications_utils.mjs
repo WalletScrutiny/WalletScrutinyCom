@@ -13,7 +13,8 @@ import {
   verificationEventsSinceTS,
   mainRelayUrl,
   nip89ClientTagD,
-  wsBotPublicKey
+  wsBotPublicKey,
+  maxFileAttachmentContentLength
 } from "./nostr-constants.mjs";
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
@@ -707,8 +708,8 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
     throw new Error("Missing required parameters for file upload");
   }
 
-  if (fileSize > 60000) { // Double check size
-    throw new Error(`File ${fileName} exceeds the 60KB limit`);
+  if (fileSize > maxFileAttachmentContentLength) { // Double check size
+    throw new Error(`File ${fileName} exceeds the ${maxFileAttachmentContentLength} bytes limit`);
   }
 
   const name = fileName.split('.').slice(0, -1).join('.') ?? '';
