@@ -19,7 +19,6 @@ icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: []
 date: 2025-03-11
 signer: 
 twitter: HexaWallet

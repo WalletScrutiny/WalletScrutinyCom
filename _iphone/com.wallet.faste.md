@@ -17,7 +17,6 @@ icon: com.wallet.faste.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: blocktechbrew

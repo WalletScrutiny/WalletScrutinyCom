@@ -17,7 +17,6 @@ icon: com.tradestation.MobileTrading.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-10
 signer: 
 twitter: tradestation

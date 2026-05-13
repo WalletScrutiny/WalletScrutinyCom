@@ -19,7 +19,6 @@ icon: com.roqqu.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-16
 signer: 
 twitter: roqqupay

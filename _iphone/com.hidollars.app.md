@@ -17,7 +17,6 @@ icon: com.hidollars.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: hi_com_official

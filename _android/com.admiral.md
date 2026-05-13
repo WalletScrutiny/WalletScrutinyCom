@@ -18,7 +18,6 @@ icon: com.admiral.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-02-03
 signer: 
 twitter: 

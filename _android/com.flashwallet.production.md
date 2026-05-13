@@ -18,7 +18,6 @@ icon: com.flashwallet.production.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: Flash_Techno_Of

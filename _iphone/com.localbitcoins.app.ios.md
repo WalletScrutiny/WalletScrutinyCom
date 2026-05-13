@@ -17,7 +17,6 @@ icon: com.localbitcoins.app.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: LocalBitcoins

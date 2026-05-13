@@ -18,7 +18,6 @@ icon: com.rumble.rumblewallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-12
 signer: 
 twitter: rumblevideo

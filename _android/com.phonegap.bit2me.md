@@ -18,7 +18,6 @@ icon: com.phonegap.bit2me.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-05-29
 signer: 
 twitter: bit2me

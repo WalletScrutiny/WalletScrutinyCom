@@ -17,7 +17,6 @@ icon: kumo.africa.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-12-31
 signer: 
 twitter: 

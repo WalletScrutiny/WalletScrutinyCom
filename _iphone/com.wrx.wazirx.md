@@ -16,7 +16,6 @@ icon: com.wrx.wazirx.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-08-09
 signer: 
 twitter: WazirxIndia

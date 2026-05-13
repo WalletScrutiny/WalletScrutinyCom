@@ -18,7 +18,6 @@ icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: []
 date: 2024-02-05
 signer: 
 twitter: 

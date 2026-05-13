@@ -17,7 +17,6 @@ icon: com.swapcrypto.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: in.spiegel.arthbit.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: ArthBitExchange

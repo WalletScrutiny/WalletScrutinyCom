@@ -17,7 +17,6 @@ icon: com.lastbit.cards.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-18
 signer: 
 twitter: 

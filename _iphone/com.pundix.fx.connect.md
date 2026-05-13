@@ -17,7 +17,6 @@ icon: com.pundix.fx.connect.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-10-26
 signer: 
 twitter: FUNCTIONX_IO

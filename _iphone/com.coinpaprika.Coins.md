@@ -17,7 +17,6 @@ icon: com.coinpaprika.Coins.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: CoinsOneApp

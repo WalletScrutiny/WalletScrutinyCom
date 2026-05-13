@@ -18,7 +18,6 @@ icon: com.atomex.android.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2022-02-25
 signer: 
 twitter: atomex_official

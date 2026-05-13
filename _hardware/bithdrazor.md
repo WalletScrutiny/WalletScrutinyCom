@@ -26,8 +26,6 @@ icon: bithdrazor.png
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-appHashes:
-- 784c7448e0b713ef7952ebd454d4e809b15adffd23ac84cfdd3af06358e7cfe2
 date: 2022-11-25
 signer: 
 twitter: 

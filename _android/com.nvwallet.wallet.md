@@ -17,7 +17,6 @@ icon: com.nvwallet.wallet.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-11-09
 signer: 
 twitter: 

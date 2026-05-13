@@ -18,7 +18,6 @@ icon: co.digitalmoney.dmapp.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-06-21
 signer: 
 twitter: 

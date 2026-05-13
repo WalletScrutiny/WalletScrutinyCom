@@ -18,7 +18,6 @@ icon: com.agoradesk.app.png
 bugbounty: https://agoradesk.com/security-bounty-whitehat
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: AgoraDesk

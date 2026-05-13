@@ -18,7 +18,6 @@ icon: com.qfx.trillionerwallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: 

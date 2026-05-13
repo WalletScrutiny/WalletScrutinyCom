@@ -24,7 +24,6 @@ icon: ledger.osjavacard.png
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-05-20
 signer: 
 twitter: ledger

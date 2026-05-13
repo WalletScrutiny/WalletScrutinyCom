@@ -18,7 +18,6 @@ icon: com.jestaapp.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-07-18
 signer: 
 twitter: 

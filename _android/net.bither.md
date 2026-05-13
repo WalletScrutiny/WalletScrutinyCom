@@ -20,7 +20,6 @@ icon: net.bither.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: 

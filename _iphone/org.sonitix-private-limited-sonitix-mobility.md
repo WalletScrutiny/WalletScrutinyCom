@@ -17,7 +17,6 @@ icon: org.sonitix-private-limited-sonitix-mobility.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
-appHashes: 
 date: 2023-09-15
 signer: 
 twitter: SonitixO

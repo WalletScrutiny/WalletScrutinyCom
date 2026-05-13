@@ -17,7 +17,6 @@ icon: com.trdc.token.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: 

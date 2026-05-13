@@ -18,7 +18,6 @@ icon: mudra.exchange.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-09-12
 signer: 
 twitter: mudraex

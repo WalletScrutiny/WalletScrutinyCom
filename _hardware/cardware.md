@@ -24,7 +24,6 @@ icon: cardware.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-04-02
 signer: 
 twitter: CardwareWallet

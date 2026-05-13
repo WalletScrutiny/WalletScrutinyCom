@@ -17,7 +17,6 @@ icon: org.thecrypto.apps.crypto.invest.simulator.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: 

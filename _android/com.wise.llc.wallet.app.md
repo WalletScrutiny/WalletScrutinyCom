@@ -18,7 +18,6 @@ icon: com.wise.llc.wallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

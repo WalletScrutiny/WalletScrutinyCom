@@ -18,7 +18,6 @@ icon: com.techbank_dwallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: 

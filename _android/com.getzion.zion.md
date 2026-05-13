@@ -18,7 +18,6 @@ icon: com.getzion.zion.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: get_zion

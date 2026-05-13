@@ -17,7 +17,6 @@ icon: com.wallet.kmpaywallet_android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-08-17
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: neutronpay.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-31
 signer: 
 twitter: neutron__me

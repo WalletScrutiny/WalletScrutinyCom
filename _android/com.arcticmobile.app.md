@@ -18,7 +18,6 @@ icon: com.arcticmobile.app.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-07-14
 signer: 
 twitter: arctic_wallet

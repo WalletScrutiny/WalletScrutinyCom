@@ -17,7 +17,6 @@ icon: com.fimarketbt.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2024-04-10
 signer: 
 twitter: fmcpay

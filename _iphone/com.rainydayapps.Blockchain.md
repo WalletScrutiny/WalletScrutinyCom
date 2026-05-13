@@ -17,7 +17,6 @@ icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-07-15
 signer: 
 twitter: Blockchain

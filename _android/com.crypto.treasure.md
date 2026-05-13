@@ -18,7 +18,6 @@ icon: com.crypto.treasure.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-01-29
 signer: 
 twitter: treasurewallett

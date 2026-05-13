@@ -21,7 +21,6 @@ icon: esecubit.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-16
 signer: 
 twitter: 

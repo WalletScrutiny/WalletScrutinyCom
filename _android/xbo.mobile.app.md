@@ -18,7 +18,6 @@ icon: xbo.mobile.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: XboOfficial

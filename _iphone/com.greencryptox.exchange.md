@@ -17,7 +17,6 @@ icon: com.greencryptox.exchange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-18
 signer: 
 twitter: 

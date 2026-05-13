@@ -17,7 +17,6 @@ icon: com.nexobank.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-22
 signer: 
 twitter: NexoFinance

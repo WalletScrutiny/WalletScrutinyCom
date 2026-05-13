@@ -18,7 +18,6 @@ icon: com.bitpay.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: []
 date: 2023-03-13
 signer: 
 twitter: BitPay

@@ -17,7 +17,6 @@ icon: com.redotpay.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-23
 signer: 
 twitter: redotpay

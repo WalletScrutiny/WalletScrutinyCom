@@ -17,7 +17,6 @@ icon: app.deltaexchange.india.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: Delta_Exchange

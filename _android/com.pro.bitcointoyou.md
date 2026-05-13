@@ -18,7 +18,6 @@ icon: com.pro.bitcointoyou.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-18
 signer: 
 twitter: bitcointoyou

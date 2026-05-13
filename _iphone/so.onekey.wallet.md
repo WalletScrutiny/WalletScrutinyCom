@@ -17,7 +17,6 @@ icon: so.onekey.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-07-21
 signer: 
 twitter: OneKeyHQ

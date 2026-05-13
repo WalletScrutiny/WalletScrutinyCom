@@ -18,7 +18,6 @@ icon: www.echangerbd.com.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.cropty.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-30
 signer: 
 twitter: cropty_app

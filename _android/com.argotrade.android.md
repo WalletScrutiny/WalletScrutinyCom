@@ -18,7 +18,6 @@ icon: com.argotrade.android.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: 

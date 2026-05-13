@@ -17,7 +17,6 @@ icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-18
 signer: 
 twitter: bitwalletinc

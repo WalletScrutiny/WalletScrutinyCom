@@ -17,7 +17,6 @@ icon: co.sarwa.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-07-28
 signer: 
 twitter: SarwaCo

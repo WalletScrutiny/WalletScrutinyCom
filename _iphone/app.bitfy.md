@@ -17,7 +17,6 @@ icon: app.bitfy.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-10-10
 signer: 
 twitter: bitfyapp

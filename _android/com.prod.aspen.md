@@ -18,7 +18,6 @@ icon: com.prod.aspen.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-08-29
 signer: 
 twitter: 

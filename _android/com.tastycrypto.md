@@ -18,7 +18,6 @@ icon: com.tastycrypto.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-03-11
 signer: 
 twitter: tastycrypto

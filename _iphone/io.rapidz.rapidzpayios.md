@@ -17,7 +17,6 @@ icon: io.rapidz.rapidzpayios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-19
 signer: 
 twitter: Rapidz_io

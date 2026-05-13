@@ -18,7 +18,6 @@ icon: com.box.pro.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-10-23
 signer: 
 twitter: Bibox365

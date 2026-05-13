@@ -19,7 +19,6 @@ icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-10-09
 signer: 
 twitter: walletofsatoshi

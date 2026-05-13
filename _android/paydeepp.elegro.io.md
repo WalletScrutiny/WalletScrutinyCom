@@ -18,7 +18,6 @@ icon: paydeepp.elegro.io.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-12-14
 signer: 
 twitter: NikoTech

@@ -18,7 +18,6 @@ icon: com.cryppter.app.release.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-01-27
 signer: 
 twitter: 

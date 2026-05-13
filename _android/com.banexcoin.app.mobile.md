@@ -18,7 +18,6 @@ icon: com.banexcoin.app.mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-09
 signer: 
 twitter: banexcoin

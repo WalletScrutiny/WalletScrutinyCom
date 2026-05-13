@@ -18,7 +18,6 @@ icon: com.azasend.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-12
 signer: 
 twitter: azasend

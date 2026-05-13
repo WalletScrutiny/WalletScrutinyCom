@@ -18,7 +18,6 @@ icon: io.kasta.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-03-11
 signer: 
 twitter: ka_app

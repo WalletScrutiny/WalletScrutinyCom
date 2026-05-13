@@ -18,7 +18,6 @@ icon: com.paxful.wallet.png
 bugbounty: https://paxful.com/bug-bounty-policy
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: paxful

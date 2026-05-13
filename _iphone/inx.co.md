@@ -17,7 +17,6 @@ icon: inx.co.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-07-28
 signer: 
 twitter: INX_Group

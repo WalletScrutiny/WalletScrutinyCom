@@ -17,7 +17,6 @@ icon: rockitcoinexchange.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-07
 signer: 
 twitter: rockitcoin

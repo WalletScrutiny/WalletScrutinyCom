@@ -24,7 +24,6 @@ icon: passportprime.png
 bugbounty: https://foundation.xyz/security/
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-05-08
 signer: 
 twitter: FOUNDATIONdvcs

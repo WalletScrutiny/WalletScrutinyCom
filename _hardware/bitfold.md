@@ -21,7 +21,6 @@ icon: bitfold.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: Bitfold

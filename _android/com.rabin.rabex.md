@@ -18,7 +18,6 @@ icon: com.rabin.rabex.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-08
 signer: 
 twitter: rabexir

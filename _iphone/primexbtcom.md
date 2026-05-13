@@ -17,7 +17,6 @@ icon: primexbtcom.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: primexbt

@@ -17,7 +17,6 @@ icon: org.cryptodebitcard.bitcoin.investment.hub.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: 

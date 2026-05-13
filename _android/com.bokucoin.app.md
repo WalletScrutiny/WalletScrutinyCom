@@ -18,7 +18,6 @@ icon: com.bokucoin.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-13
 signer: 
 twitter: 

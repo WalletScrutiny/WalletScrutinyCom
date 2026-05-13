@@ -17,7 +17,6 @@ icon: com.pro.b2u.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-04-06
 signer: 
 twitter: bitcointoyou

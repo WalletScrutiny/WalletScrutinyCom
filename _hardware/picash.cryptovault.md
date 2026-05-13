@@ -24,7 +24,6 @@ icon: picash.cryptovault.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-04-28
 signer: 
 twitter: ilinkeds

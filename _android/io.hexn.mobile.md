@@ -18,7 +18,6 @@ icon: io.hexn.mobile.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: hexn_io

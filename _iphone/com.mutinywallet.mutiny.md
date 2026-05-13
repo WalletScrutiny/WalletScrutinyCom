@@ -17,7 +17,6 @@ icon: com.mutinywallet.mutiny.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-01-27
 signer: 
 twitter: MutinyWallet

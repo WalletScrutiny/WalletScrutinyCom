@@ -18,7 +18,6 @@ icon: com.exchange.Ciexv2.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: CENTURION_INVST

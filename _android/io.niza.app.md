@@ -18,7 +18,6 @@ icon: io.niza.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: nizacoin

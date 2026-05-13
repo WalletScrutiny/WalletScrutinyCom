@@ -18,7 +18,6 @@ icon: com.newgo.coincola.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-12-03
 signer: 
 twitter: CoinCola_Global

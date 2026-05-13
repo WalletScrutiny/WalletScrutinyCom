@@ -17,7 +17,6 @@ icon: io.yusewallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-10-15
 signer: 
 twitter: YuseToken

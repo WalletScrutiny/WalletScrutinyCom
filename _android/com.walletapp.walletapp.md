@@ -17,7 +17,6 @@ icon: com.walletapp.walletapp.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-06-18
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: fi.wonder.labs.wallet.png
 bugbounty: 
 meta: stale
 verdict: wip
-appHashes: 
 date: 2026-03-11
 signer: 
 twitter: 

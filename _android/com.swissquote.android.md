@@ -18,7 +18,6 @@ icon: com.swissquote.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-20
 signer: 
 twitter: Swissquote

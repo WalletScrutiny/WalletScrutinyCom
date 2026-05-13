@@ -18,7 +18,6 @@ icon: com.royallyborn.v8.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-09-09
 signer: 
 twitter: 8vGlobal

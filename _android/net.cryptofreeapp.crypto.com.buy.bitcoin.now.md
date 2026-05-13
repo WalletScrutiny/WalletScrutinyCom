@@ -18,7 +18,6 @@ icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-08-26
 signer: 
 twitter: 

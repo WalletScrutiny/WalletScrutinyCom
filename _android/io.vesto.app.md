@@ -18,7 +18,6 @@ icon: io.vesto.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-09-26
 signer: 
 twitter: vestoprotocol

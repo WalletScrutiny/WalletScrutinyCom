@@ -17,7 +17,6 @@ icon: com.boundless.boundlesspay.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-06-23
 signer: 
 twitter: boundlesspay

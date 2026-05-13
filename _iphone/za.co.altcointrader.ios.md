@@ -17,7 +17,6 @@ icon: za.co.altcointrader.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2023-02-03
 signer: 
 twitter: AltCoinTraderSA

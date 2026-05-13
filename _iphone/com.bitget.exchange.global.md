@@ -17,7 +17,6 @@ icon: com.bitget.exchange.global.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-17
 signer: 
 twitter: bitgetglobal

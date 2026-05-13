@@ -18,7 +18,6 @@ icon: bu.app.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: BitunixOfficial

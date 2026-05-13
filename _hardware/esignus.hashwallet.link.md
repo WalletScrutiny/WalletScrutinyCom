@@ -24,7 +24,6 @@ icon: esignus.hashwallet.link.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-08
 signer: 
 twitter: esignus

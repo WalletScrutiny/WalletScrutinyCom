@@ -17,7 +17,6 @@ icon: com.cryptoidlemine.fake.bitcoin.investor.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-18
 signer: 
 twitter: 

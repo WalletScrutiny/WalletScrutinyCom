@@ -18,7 +18,6 @@ icon: com.coinomi.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-09-14
 signer: 
 twitter: CoinomiWallet

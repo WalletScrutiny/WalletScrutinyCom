@@ -18,7 +18,6 @@ icon: com.biboots.flutter_app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-23
 signer: 
 twitter: FairdeskGlobal

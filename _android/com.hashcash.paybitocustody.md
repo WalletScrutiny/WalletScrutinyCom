@@ -17,7 +17,6 @@ icon: com.hashcash.paybitocustody.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-02-16
 signer: 
 twitter: 

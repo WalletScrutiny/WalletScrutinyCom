@@ -18,7 +18,6 @@ icon: com.bideskcom.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-08
 signer: 
 twitter: bideskcom

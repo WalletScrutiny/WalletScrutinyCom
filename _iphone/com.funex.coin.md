@@ -17,7 +17,6 @@ icon: com.funex.coin.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-20
 signer: 
 twitter: Funexclub

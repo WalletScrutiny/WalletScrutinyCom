@@ -17,7 +17,6 @@ icon: app.mudraexchange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-05-21
 signer: 
 twitter: mudraex

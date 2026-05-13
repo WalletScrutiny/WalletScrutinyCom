@@ -18,7 +18,6 @@ icon: com.everdreamsoft.casatookan.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-15
 signer: 
 twitter: everdreamsoft

@@ -18,7 +18,6 @@ icon: com.brand101investing.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2022-04-07
 signer: 
 twitter: 101Investing_eu

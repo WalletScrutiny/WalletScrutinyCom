@@ -18,7 +18,6 @@ icon: org.maze2.sezamewallet.png
 bugbounty: 
 meta: fewusers
 verdict: nosource
-appHashes: 
 date: 2026-05-04
 signer: 
 twitter: SesameWallet

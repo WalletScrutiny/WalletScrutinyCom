@@ -18,7 +18,6 @@ icon: com.webull.trade.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-10
 signer: 
 twitter: WebullGlobal

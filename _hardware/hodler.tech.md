@@ -21,7 +21,6 @@ icon: hodler.tech.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: HODLER_TECH

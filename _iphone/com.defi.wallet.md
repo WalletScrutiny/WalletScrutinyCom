@@ -17,7 +17,6 @@ icon: com.defi.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-10-24
 signer: 
 twitter: cryptocom

@@ -17,7 +17,6 @@ icon: co.Minty.Coincast.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2024-04-28
 signer: 
 twitter: CoincastApp

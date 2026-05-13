@@ -17,7 +17,6 @@ icon: uni.UNI8B7D0E0.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

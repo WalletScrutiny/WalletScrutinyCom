@@ -18,7 +18,6 @@ icon: org.c2bwallet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-13
 signer: 
 twitter: Cash2Bitcoinatm

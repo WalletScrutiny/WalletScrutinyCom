@@ -18,7 +18,6 @@ icon: com.haqabi.mobilewallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-18
 signer: 
 twitter: HaqabiHQ

@@ -18,7 +18,6 @@ icon: com.papaya.gekkard.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-10-10
 signer: 
 twitter: 

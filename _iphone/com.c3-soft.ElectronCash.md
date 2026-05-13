@@ -16,7 +16,6 @@ icon: com.c3-soft.ElectronCash.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

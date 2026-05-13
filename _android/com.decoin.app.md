@@ -18,7 +18,6 @@ icon: com.decoin.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-23
 signer: 
 twitter: decoin_io

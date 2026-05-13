@@ -17,7 +17,6 @@ icon: com.metallicus.webauth.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-06
 signer: 
 twitter: protonxpr

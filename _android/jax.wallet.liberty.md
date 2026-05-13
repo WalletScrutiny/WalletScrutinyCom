@@ -18,7 +18,6 @@ icon: jax.wallet.liberty.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-10-22
 signer: 
 twitter: 

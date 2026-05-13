@@ -17,7 +17,6 @@ icon: coindroplet.com.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2024-11-25
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.ansslimited.xwallet.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-09-23
 signer: 
 twitter: 

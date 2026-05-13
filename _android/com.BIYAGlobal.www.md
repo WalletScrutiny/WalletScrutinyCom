@@ -18,7 +18,6 @@ icon: com.BIYAGlobal.www.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-01
 signer: 
 twitter: 

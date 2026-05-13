@@ -18,7 +18,6 @@ icon: com.bitqik.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-04-14
 signer: 
 twitter: bitqikofficial

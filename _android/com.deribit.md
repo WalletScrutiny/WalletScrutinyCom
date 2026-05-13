@@ -18,7 +18,6 @@ icon: com.deribit.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-03-31
 signer: 
 twitter: deribitexchange

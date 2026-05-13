@@ -18,7 +18,6 @@ icon: com.applemoncash.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-12
 signer: 
 twitter: lemonapp_ar

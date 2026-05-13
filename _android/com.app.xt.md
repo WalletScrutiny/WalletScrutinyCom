@@ -18,7 +18,6 @@ icon: com.app.xt.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-07-31
 signer: 
 twitter: XTexchange

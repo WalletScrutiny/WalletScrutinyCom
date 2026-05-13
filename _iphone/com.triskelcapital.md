@@ -17,7 +17,6 @@ icon: com.triskelcapital.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-04-21
 signer: 
 twitter: TriskelWallet

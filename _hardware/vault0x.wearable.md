@@ -21,7 +21,6 @@ icon: vault0x.wearable.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: vault0x

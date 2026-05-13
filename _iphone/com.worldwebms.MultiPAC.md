@@ -17,7 +17,6 @@ icon: com.worldwebms.MultiPAC.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-08-21
 signer: 
 twitter: UnidoEP

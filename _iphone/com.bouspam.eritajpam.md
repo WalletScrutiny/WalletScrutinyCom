@@ -17,7 +17,6 @@ icon: com.bouspam.eritajpam.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: 

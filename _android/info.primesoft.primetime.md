@@ -18,7 +18,6 @@ icon: info.primesoft.primetime.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

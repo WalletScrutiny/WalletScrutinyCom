@@ -18,7 +18,6 @@ icon: exchange.btc6x.com.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-09-26
 signer: 
 twitter: 

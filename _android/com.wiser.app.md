@@ -17,7 +17,6 @@ icon: com.wiser.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-08-15
 signer: 
 twitter: 

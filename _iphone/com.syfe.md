@@ -17,7 +17,6 @@ icon: com.syfe.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-07-10
 signer: 
 twitter: SyfeSG

@@ -17,7 +17,6 @@ icon: ltd.chainxglobal.wallet.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

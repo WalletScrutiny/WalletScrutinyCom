@@ -17,7 +17,6 @@ icon: com.ixwallet.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: 

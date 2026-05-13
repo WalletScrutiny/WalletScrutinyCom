@@ -18,7 +18,6 @@ icon: com.hoyabit.cex.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-12-02
 signer: 
 twitter: 

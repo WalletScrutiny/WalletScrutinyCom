@@ -17,7 +17,6 @@ icon: com.forex4you.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: []
 date: 2021-12-24
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.biconomy.Innovation.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-03-29
 signer: 
 twitter: BiconomyCom

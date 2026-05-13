@@ -18,7 +18,6 @@ icon: com.switchere.switchere.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-10-15
 signer: 
 twitter: Switchere_com

@@ -18,7 +18,6 @@ icon: com.coinex.trade.play.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-04-15
 signer: 
 twitter: coinexcom

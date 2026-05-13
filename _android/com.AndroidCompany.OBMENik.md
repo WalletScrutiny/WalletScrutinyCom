@@ -18,7 +18,6 @@ icon: com.AndroidCompany.OBMENik.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-26
 signer: 
 twitter: 

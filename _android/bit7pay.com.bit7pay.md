@@ -18,7 +18,6 @@ icon: bit7pay.com.bit7pay.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-04
 signer: 
 twitter: bit7pay

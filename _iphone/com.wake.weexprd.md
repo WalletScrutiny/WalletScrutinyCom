@@ -17,7 +17,6 @@ icon: com.wake.weexprd.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-17
 signer: 
 twitter: WEEX_Official

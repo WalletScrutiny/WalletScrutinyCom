@@ -17,7 +17,6 @@ icon: keystone.mobile.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-07-28
 signer: 
 twitter: KeystoneWallet

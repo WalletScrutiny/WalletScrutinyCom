@@ -17,7 +17,6 @@ icon: net.benoitbasset.bittapi.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2021-08-17
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.ddengle.bts.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-17
 signer: 
 twitter: 

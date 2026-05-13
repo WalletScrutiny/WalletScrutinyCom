@@ -18,7 +18,6 @@ icon: com.zyth.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: UZythOfficial

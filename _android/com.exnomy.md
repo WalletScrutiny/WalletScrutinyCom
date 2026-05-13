@@ -17,7 +17,6 @@ icon: com.exnomy.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-03-02
 signer: 
 twitter: 

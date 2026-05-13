@@ -17,7 +17,6 @@ icon: com.mfcoin.wallet.dev.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
-appHashes: 
 date: 2024-04-26
 signer: 
 twitter: MFC_tech

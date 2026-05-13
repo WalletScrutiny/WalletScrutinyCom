@@ -25,7 +25,6 @@ icon: mirkey.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2021-12-04
 signer: 
 twitter: 

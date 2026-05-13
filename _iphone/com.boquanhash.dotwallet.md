@@ -17,7 +17,6 @@ icon: com.boquanhash.dotwallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: wallet_dot

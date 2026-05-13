@@ -17,7 +17,6 @@ icon: com.foxwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-07-21
 signer: 
 twitter: FoxWallet

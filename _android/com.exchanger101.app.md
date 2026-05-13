@@ -18,7 +18,6 @@ icon: com.exchanger101.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-05-24
 signer: 
 twitter: 

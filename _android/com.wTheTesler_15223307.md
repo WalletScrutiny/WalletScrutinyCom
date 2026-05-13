@@ -17,7 +17,6 @@ icon: com.wTheTesler_15223307.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-01-02
 signer: 
 twitter: 

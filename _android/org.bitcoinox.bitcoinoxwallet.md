@@ -18,7 +18,6 @@ icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-12-18
 signer: 
 twitter: bitcoin_ox

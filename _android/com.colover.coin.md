@@ -18,7 +18,6 @@ icon: com.colover.coin.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-21
 signer: 
 twitter: 

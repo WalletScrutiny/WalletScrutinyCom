@@ -17,7 +17,6 @@ icon: au.com.bitaroo.express.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-05
 signer: 
 twitter: BitarooExchange

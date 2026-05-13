@@ -17,7 +17,6 @@ icon: com.wirex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-01-10
 signer: 
 twitter: wirexapp

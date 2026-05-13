@@ -18,7 +18,6 @@ icon: com.skyewallet.skye_wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-04-25
 signer: 
 twitter: skyewallet

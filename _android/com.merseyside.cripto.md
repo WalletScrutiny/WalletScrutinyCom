@@ -18,7 +18,6 @@ icon: com.merseyside.cripto.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: 

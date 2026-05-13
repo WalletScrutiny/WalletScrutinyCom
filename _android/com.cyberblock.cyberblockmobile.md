@@ -17,7 +17,6 @@ icon: com.cyberblock.cyberblockmobile.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-15
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: swiss.dfx.bitcoin.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-01-03
 signer: 
 twitter: DFX_Swiss

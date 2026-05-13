@@ -18,7 +18,6 @@ icon: com.ohj.berry.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-30
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.capital.trading.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-02-08
 signer: 
 twitter: capitalcom

@@ -18,7 +18,6 @@ icon: com.beeone.techbank.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-04-07
 signer: 
 twitter: 

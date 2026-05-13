@@ -17,7 +17,6 @@ icon: io.pocketex.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-01-15
 signer: 
 twitter: 

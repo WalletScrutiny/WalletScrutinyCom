@@ -17,7 +17,6 @@ icon: capital.spatium.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: spatium_news

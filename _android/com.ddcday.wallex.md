@@ -18,7 +18,6 @@ icon: com.ddcday.wallex.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-11-26
 signer: 
 twitter: 

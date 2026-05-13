@@ -17,7 +17,6 @@ icon: com.dexfin.mpcwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-08-07
 signer: 
 twitter: https://twitter.com/dexfinexchange

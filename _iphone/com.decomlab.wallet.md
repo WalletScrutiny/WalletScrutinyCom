@@ -17,7 +17,6 @@ icon: com.decomlab.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: gomoonwallet

@@ -21,8 +21,6 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
 date: 2025-03-13
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 twitter: ZeusLN

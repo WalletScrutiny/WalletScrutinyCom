@@ -21,7 +21,6 @@ icon: trove.wearable.png
 bugbounty: 
 meta: obsolete
 verdict: noita
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: layer_design

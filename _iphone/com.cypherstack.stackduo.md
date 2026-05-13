@@ -17,7 +17,6 @@ icon: com.cypherstack.stackduo.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-05-31
 signer: 
 twitter: stack_wallet

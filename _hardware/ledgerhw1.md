@@ -22,7 +22,6 @@ icon: ledgerhw1.png
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-01-22
 signer: 
 twitter: Ledger

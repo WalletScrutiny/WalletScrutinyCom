@@ -18,7 +18,6 @@ icon: com.kinesis.kinesisapp.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: KinesisMonetary

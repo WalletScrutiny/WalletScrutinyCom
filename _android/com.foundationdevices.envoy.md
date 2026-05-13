@@ -19,11 +19,6 @@ icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 84628d12486a8f47879952a2cf8bb6e0650c0f0d7ad7c0ccb71fded5bcc6e5f0
-- 651ee1d39e5e8373af42229e98f4cd6c4bb57e070dd8881c31a91c40bcd971b2
-- ad7fccf1d8dfc1761d2dbebc8ca6cc6a55ed7ee48b9e4636301ec184bbf5eb32
-- 44dedb6efff420a0fc618162ab61d6d15b57cb6f025a0e181c072a12c0621727
 date: 2025-02-13
 signer: 
 twitter: FOUNDATIONdvcs

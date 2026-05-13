@@ -17,7 +17,6 @@ icon: com.fenixcoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-07-18
 signer: 
 twitter: 

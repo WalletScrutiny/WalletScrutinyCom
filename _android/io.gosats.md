@@ -18,7 +18,6 @@ icon: io.gosats.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-13
 signer: 
 twitter: gosatsapp

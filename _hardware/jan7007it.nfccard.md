@@ -21,7 +21,6 @@ icon: jan7007it.nfccard.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-04-29
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: org.coinid.wallet.btc.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: COINiDGroup

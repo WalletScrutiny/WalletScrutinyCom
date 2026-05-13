@@ -18,7 +18,6 @@ icon: com.rezor.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: rezor_official

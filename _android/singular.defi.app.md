@@ -17,7 +17,6 @@ icon: singular.defi.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: 

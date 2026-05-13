@@ -18,7 +18,6 @@ icon: com.walletverse.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-31
 signer: 
 twitter: walletverse_io

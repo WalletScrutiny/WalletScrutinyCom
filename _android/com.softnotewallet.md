@@ -17,7 +17,6 @@ icon: com.softnotewallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: tectumsocial

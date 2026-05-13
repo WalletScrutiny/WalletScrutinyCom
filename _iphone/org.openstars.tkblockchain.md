@@ -17,7 +17,6 @@ icon: org.openstars.tkblockchain.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-11-10
 signer: 
 twitter: trustkeysglobal

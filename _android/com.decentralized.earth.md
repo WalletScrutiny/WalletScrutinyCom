@@ -18,7 +18,6 @@ icon: com.decentralized.earth.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: 

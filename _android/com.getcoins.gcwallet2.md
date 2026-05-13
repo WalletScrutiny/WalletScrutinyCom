@@ -18,7 +18,6 @@ icon: com.getcoins.gcwallet2.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: 

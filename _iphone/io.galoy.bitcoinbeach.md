@@ -17,7 +17,6 @@ icon: io.galoy.bitcoinbeach.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-10-20
 signer: 
 twitter: blinkbtc

@@ -18,7 +18,6 @@ icon: com.superex.ex.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-01-31
 signer: 
 twitter: SuperExet

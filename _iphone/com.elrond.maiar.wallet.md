@@ -17,7 +17,6 @@ icon: com.elrond.maiar.wallet.jpg
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: getMaiar

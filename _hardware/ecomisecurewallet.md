@@ -21,7 +21,6 @@ icon: ecomisecurewallet.png
 bugbounty: 
 meta: obsolete
 verdict: plainkey
-appHashes: 
 date: 2025-02-06
 signer: 
 twitter: ecomi_

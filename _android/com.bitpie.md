@@ -19,7 +19,6 @@ icon: com.bitpie.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: BitpieWallet

@@ -21,7 +21,6 @@ icon: tagworldexchange.twal.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-04
 signer: 
 twitter: TWEXInfo

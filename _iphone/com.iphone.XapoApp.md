@@ -17,7 +17,6 @@ icon: com.iphone.XapoApp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2021-08-06
 signer: 
 twitter: xapo

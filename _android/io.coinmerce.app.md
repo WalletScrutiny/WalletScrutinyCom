@@ -18,7 +18,6 @@ icon: io.coinmerce.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-04-15
 signer: 
 twitter: coinmerce

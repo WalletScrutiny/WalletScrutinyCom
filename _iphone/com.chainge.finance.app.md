@@ -17,7 +17,6 @@ icon: com.chainge.finance.app.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-10-10
 signer: 
 twitter: FinanceChainge

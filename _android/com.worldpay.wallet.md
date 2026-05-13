@@ -17,7 +17,6 @@ icon: com.worldpay.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-25
 signer: 
 twitter: 

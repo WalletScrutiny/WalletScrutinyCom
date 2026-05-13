@@ -18,7 +18,6 @@ icon: com.blofin.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-03-29
 signer: 
 twitter: Blofin_Official

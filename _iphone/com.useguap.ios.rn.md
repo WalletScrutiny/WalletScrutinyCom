@@ -17,7 +17,6 @@ icon: com.useguap.ios.rn.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: guap_app

@@ -18,7 +18,6 @@ icon: io.okminer.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-11-02
 signer: 
 twitter: 

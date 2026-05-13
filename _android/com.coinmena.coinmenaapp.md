@@ -18,7 +18,6 @@ icon: com.coinmena.coinmenaapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-10
 signer: 
 twitter: Coinmena

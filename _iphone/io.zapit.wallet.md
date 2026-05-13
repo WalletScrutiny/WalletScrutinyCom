@@ -17,7 +17,6 @@ icon: io.zapit.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-02
 signer: 
 twitter: zapit_io

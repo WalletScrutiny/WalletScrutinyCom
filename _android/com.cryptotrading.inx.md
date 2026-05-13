@@ -18,7 +18,6 @@ icon: com.cryptotrading.inx.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-30
 signer: 
 twitter: INX_Group

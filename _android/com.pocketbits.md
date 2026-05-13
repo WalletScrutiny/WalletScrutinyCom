@@ -18,7 +18,6 @@ icon: com.pocketbits.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-08-21
 signer: 
 twitter: PocketBitsIndia

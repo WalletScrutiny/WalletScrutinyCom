@@ -17,7 +17,6 @@ icon: com.bitcointest.h5.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2022-04-25
 signer: 
 twitter: 

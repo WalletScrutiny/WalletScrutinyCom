@@ -21,7 +21,6 @@ icon: klever.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: klever_io

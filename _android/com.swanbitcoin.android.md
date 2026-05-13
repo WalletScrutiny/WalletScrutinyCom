@@ -18,7 +18,6 @@ icon: com.swanbitcoin.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-17
 signer: 
 twitter: swan

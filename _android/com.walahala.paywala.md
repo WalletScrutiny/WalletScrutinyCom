@@ -17,7 +17,6 @@ icon: com.walahala.paywala.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-04-07
 signer: 
 twitter: 

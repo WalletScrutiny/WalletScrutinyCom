@@ -17,7 +17,6 @@ icon: com.vips.vipsfinstock.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: VIPS_Finstock

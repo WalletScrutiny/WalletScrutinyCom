@@ -17,7 +17,6 @@ icon: com.unifiedsignal.ogpaywallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-15
 signer: 
 twitter: 

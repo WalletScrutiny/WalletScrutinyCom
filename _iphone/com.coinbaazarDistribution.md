@@ -17,7 +17,6 @@ icon: com.coinbaazarDistribution.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: coin_baazar

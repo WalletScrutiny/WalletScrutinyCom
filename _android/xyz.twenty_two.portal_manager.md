@@ -18,7 +18,6 @@ icon: xyz.twenty_two.portal_manager.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: TwentyTwoHW

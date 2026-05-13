@@ -17,7 +17,6 @@ icon: id.qoin.crypto.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: 

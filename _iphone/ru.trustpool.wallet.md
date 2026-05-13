@@ -17,7 +17,6 @@ icon: ru.trustpool.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-06-23
 signer: 
 twitter: 

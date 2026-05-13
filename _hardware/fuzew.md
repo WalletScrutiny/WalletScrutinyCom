@@ -25,7 +25,6 @@ icon: fuzew.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2021-12-03
 signer: 
 twitter: w_fuze

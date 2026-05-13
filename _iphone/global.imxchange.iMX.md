@@ -17,7 +17,6 @@ icon: global.imxchange.iMX.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: 

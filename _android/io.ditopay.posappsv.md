@@ -18,7 +18,6 @@ icon: io.ditopay.posappsv.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-03-03
 signer: 
 twitter: ditobanx

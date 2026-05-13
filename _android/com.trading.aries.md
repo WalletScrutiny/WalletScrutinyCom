@@ -18,7 +18,6 @@ icon: com.trading.aries.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: TradeAries

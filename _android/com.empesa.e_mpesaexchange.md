@@ -17,7 +17,6 @@ icon: com.empesa.e_mpesaexchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-30
 signer: 
 twitter: 

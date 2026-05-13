@@ -18,7 +18,6 @@ icon: com.jaxx.crypto.wallet.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-10-30
 signer: 
 twitter: 

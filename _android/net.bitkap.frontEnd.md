@@ -18,7 +18,6 @@ icon: net.bitkap.frontEnd.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-20
 signer: 
 twitter: BitkapO

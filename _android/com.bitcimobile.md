@@ -18,7 +18,6 @@ icon: com.bitcimobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-06-28
 signer: 
 twitter: bitcicom

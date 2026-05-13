@@ -19,7 +19,6 @@ icon: com.velas.walletmobile.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2025-06-09
 signer: 
 twitter: velasblockchain

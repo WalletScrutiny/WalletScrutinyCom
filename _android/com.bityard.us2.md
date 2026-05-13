@@ -18,7 +18,6 @@ icon: com.bityard.us2.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-03-07
 signer: 
 twitter: BitYard_Global

@@ -18,7 +18,6 @@ icon: wannabit.io.cosmostaion.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2023-01-03
 signer: 
 twitter: CosmostationVD

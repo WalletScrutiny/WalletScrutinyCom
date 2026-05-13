@@ -18,7 +18,6 @@ icon: com.useguap.android.rn.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: guap_app

@@ -18,7 +18,6 @@ icon: mob.bit.alpha82102.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: 

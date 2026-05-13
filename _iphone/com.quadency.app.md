@@ -17,7 +17,6 @@ icon: com.quadency.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-08-07
 signer: 
 twitter: quadency

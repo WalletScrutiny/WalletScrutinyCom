@@ -18,7 +18,6 @@ icon: com.luneswallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: []
 date: 2021-12-29
 signer: 
 twitter: 

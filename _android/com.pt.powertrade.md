@@ -18,7 +18,6 @@ icon: com.pt.powertrade.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: powertradehq

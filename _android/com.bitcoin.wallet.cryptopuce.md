@@ -18,7 +18,6 @@ icon: com.bitcoin.wallet.cryptopuce.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-02-16
 signer: 
 twitter: 

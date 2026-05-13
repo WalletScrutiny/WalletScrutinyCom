@@ -17,7 +17,6 @@ icon: com.nexdax.Nexdax.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: nexdax_exchange

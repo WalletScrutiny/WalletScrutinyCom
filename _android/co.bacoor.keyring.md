@@ -18,7 +18,6 @@ icon: co.bacoor.keyring.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-17
 signer: 
 twitter: KEYRING_PRO

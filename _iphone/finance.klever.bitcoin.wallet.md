@@ -17,7 +17,6 @@ icon: finance.klever.bitcoin.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-11
 signer: 
 twitter: klever_io

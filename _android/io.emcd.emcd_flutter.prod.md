@@ -18,7 +18,6 @@ icon: io.emcd.emcd_flutter.prod.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-07
 signer: 
 twitter: emcd_io

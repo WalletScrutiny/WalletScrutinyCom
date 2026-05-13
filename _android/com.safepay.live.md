@@ -18,7 +18,6 @@ icon: com.safepay.live.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-12-23
 signer: 
 twitter: 

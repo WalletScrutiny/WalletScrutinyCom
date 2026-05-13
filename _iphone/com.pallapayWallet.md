@@ -17,7 +17,6 @@ icon: com.pallapayWallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-05-31
 signer: 
 twitter: pallapay_com

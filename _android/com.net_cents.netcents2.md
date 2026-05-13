@@ -18,7 +18,6 @@ icon: com.net_cents.netcents2.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-01-11
 signer: 
 twitter: netcentshq

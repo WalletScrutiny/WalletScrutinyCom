@@ -18,7 +18,6 @@ icon: com.paymaya.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-02
 signer: 
 twitter: mayaofficialph

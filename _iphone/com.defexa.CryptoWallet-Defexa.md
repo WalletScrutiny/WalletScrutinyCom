@@ -17,7 +17,6 @@ icon: com.defexa.CryptoWallet-Defexa.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: DefexaCrypto

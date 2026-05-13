@@ -17,7 +17,6 @@ icon: io.sevenlabs.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-08-23
 signer: 
 twitter: 

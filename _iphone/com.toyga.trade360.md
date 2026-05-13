@@ -17,7 +17,6 @@ icon: com.toyga.trade360.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: Trade360_LTD

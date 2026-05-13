@@ -18,7 +18,6 @@ icon: com.bitgo.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-04-14
 signer: 
 twitter: BitGo

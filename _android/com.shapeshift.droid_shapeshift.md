@@ -19,7 +19,6 @@ icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2025-07-28
 signer: 
 twitter: ShapeShift

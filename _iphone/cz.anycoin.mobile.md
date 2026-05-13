@@ -17,7 +17,6 @@ icon: cz.anycoin.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-05-03
 signer: 
 twitter: anycoin_cz

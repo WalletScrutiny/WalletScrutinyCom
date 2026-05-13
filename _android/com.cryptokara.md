@@ -18,7 +18,6 @@ icon: com.cryptokara.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: 

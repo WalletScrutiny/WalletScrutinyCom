@@ -16,7 +16,6 @@ icon: com.kisswallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2022-05-22
 signer: 
 twitter: 

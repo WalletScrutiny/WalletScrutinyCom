@@ -18,7 +18,6 @@ icon: com.mercuryo.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: Mercuryo_io

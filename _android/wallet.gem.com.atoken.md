@@ -18,7 +18,6 @@ icon: wallet.gem.com.atoken.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: ATokenOfficial

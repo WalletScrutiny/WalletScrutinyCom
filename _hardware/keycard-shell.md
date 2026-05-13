@@ -21,7 +21,6 @@ icon: keycard-shell.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-01-20
 signer: 
 twitter: Keycard_

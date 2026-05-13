@@ -21,7 +21,6 @@ icon: mighty.coldwallet.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: mightywalletc

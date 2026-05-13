@@ -17,7 +17,6 @@ icon: com.nuralab.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: 

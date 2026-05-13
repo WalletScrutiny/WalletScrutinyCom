@@ -18,7 +18,6 @@ icon: com.xchange.x4ange.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: 

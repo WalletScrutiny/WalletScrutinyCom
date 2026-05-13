@@ -18,7 +18,6 @@ icon: com.nexybit.nexybit.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-08
 signer: 
 twitter: 

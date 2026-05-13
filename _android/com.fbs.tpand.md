@@ -18,7 +18,6 @@ icon: com.fbs.tpand.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-05-18
 signer: 
 twitter: financefreedomsuccess

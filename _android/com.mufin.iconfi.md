@@ -18,7 +18,6 @@ icon: com.mufin.iconfi.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: ICONFiWorld

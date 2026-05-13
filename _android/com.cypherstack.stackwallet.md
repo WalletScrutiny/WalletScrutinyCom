@@ -19,7 +19,6 @@ icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2023-09-11
 signer: 
 twitter: stack_wallet

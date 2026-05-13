@@ -17,7 +17,6 @@ icon: com.nano.moonxbt.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: MoonXBT_Global

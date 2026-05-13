@@ -18,7 +18,6 @@ icon: com.pay99.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-12-26
 signer: 
 twitter: voude99

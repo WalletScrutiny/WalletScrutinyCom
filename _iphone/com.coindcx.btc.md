@@ -17,7 +17,6 @@ icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: coindcx

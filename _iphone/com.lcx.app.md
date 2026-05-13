@@ -17,7 +17,6 @@ icon: com.lcx.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: lcx

@@ -18,7 +18,6 @@ icon: com.app.vuollet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: Vuollet_io

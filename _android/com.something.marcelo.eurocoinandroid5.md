@@ -18,7 +18,6 @@ icon: com.something.marcelo.eurocoinandroid5.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-29
 signer: 
 twitter: eurocoinpay

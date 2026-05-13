@@ -18,7 +18,6 @@ icon: com.liyeplimal.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-05
 signer: 
 twitter: gcct2017

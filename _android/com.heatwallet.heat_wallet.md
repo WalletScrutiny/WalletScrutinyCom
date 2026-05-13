@@ -17,7 +17,6 @@ icon: com.heatwallet.heat_wallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2023-11-25
 signer: 
 twitter: 

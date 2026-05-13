@@ -18,7 +18,6 @@ icon: com.rhinoglobal.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2026-04-09
 signer: 
 twitter: RhinoBitcoin

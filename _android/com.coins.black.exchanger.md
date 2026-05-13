@@ -17,7 +17,6 @@ icon: com.coins.black.exchanger.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: ng.dtunes.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-01-23
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.hagglex.hagglex.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: hagglexintl

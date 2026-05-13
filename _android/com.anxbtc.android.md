@@ -18,7 +18,6 @@ icon: com.anxbtc.android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-05-08
 signer: 
 twitter: 

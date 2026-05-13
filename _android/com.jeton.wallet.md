@@ -18,7 +18,6 @@ icon: com.jeton.wallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: jetonwallet

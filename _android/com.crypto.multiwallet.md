@@ -19,7 +19,6 @@ icon: com.crypto.multiwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-04-14
 signer: 
 twitter: GuardaWallet

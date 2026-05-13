@@ -18,7 +18,6 @@ icon: com.quanli.ibtc.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-16
 signer: 
 twitter: 

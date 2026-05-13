@@ -18,7 +18,6 @@ icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-03-17
 signer: 
 twitter: acornbitsupport

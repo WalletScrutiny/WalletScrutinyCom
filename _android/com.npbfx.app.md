@@ -18,7 +18,6 @@ icon: com.npbfx.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2025-02-05
 signer: 
 twitter: 

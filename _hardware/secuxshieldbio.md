@@ -24,7 +24,6 @@ icon: secuxshieldbio.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-09-03
 signer: 
 twitter: SecuXwallet

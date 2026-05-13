@@ -18,7 +18,6 @@ icon: app.oxwallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: 

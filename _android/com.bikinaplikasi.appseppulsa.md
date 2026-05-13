@@ -17,7 +17,6 @@ icon: com.bikinaplikasi.appseppulsa.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-20
 signer: 
 twitter: 

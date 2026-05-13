@@ -18,7 +18,6 @@ icon: com.xbt.watcher.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: 

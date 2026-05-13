@@ -18,7 +18,6 @@ icon: com.xgo.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: XGo_official

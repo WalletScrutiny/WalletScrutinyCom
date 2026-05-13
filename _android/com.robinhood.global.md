@@ -18,7 +18,6 @@ icon: com.robinhood.global.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: RobinhoodApp

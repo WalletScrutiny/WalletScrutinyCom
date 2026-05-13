@@ -17,7 +17,6 @@ icon: com.riodefi.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: riodefiofficial

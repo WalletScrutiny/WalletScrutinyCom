@@ -17,7 +17,6 @@ icon: ditopos.ditobanx.io.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-12-27
 signer: 
 twitter: ditobanx

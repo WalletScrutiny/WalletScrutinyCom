@@ -18,7 +18,6 @@ icon: com.fibitpro.fibitapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: fibitpro

@@ -17,7 +17,6 @@ icon: com.wBitcoinTrader_15119149.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: 

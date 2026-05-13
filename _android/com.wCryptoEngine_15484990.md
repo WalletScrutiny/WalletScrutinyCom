@@ -17,7 +17,6 @@ icon: com.wCryptoEngine_15484990.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-16
 signer: 
 twitter: 

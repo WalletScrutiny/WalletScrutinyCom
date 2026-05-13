@@ -18,7 +18,6 @@ icon: com.emet.faswet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-10-28
 signer: 
 twitter: emet_group_eng

@@ -18,7 +18,6 @@ icon: com.trycircleapp.wallets.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: 

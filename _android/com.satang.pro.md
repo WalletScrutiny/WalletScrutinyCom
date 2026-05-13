@@ -18,7 +18,6 @@ icon: com.satang.pro.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-06-28
 signer: 
 twitter: SatangOfficial_

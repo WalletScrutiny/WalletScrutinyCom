@@ -18,7 +18,6 @@ icon: finance.hollox.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-10-02
 signer: 
 twitter: Holloxintl

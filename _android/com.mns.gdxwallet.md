@@ -17,7 +17,6 @@ icon: com.mns.gdxwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-04-19
 signer: 
 twitter: 

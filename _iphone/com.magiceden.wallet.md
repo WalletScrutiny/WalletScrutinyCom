@@ -17,7 +17,6 @@ icon: com.magiceden.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-05
 signer: 
 twitter: MagicEden

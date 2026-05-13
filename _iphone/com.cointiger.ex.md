@@ -17,7 +17,6 @@ icon: com.cointiger.ex.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: CoinTigerEX

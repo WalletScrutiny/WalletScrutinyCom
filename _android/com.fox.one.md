@@ -18,7 +18,6 @@ icon: com.fox.one.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-11-11
 signer: 
 twitter: 

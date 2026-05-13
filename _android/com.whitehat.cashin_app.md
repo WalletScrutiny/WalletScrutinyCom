@@ -18,7 +18,6 @@ icon: com.whitehat.cashin_app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: cashin_app

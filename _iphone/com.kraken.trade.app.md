@@ -17,7 +17,6 @@ icon: com.kraken.trade.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-14
 signer: 
 twitter: krakenfx

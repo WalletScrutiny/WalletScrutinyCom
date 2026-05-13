@@ -18,7 +18,6 @@ icon: fior.digital21app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-09-06
 signer: 
 twitter: 21bitcoinApp

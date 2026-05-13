@@ -18,7 +18,6 @@ icon: com.etoro.openbook.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-02
 signer: 
 twitter: etoro

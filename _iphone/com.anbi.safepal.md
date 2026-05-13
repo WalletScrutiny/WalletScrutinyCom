@@ -16,7 +16,6 @@ icon: com.anbi.safepal.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-01-15
 signer: 
 twitter: iSafePal

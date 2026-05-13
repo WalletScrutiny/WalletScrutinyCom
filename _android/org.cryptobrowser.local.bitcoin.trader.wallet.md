@@ -17,7 +17,6 @@ icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-18
 signer: 
 twitter: 

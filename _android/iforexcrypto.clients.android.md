@@ -18,7 +18,6 @@ icon: iforexcrypto.clients.android.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: iforexcrypto_o

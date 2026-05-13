@@ -19,7 +19,6 @@ icon: com.crypto.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-24
 signer: 
 twitter: cryptocom

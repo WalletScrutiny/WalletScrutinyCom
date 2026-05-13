@@ -25,7 +25,6 @@ icon: archossafetmini.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: ARCHOS

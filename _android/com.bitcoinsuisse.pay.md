@@ -17,7 +17,6 @@ icon: com.bitcoinsuisse.pay.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-05-26
 signer: 
 twitter: 

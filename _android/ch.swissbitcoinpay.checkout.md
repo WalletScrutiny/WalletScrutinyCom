@@ -20,10 +20,6 @@ icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 4c027a43cc9fddff3fe15d55ff32a083c761ecfb9c84a3326384cb863455282d
-- 24f70d0f31812cf8012b933d2836e8c6b222e276595164a3d773926fe468c56c
-- e9510b07234d4ff047684745e48250f02fb298117136ed6624ed2ef93d21dc65
 date: 2025-02-06
 signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
 twitter: SwissBitcoinPay

@@ -17,7 +17,6 @@ icon: com.sincere.swallet.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-06-20
 signer: 
 twitter: SWallet_ai

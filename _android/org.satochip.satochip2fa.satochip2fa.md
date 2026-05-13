@@ -17,7 +17,6 @@ icon: org.satochip.satochip2fa.satochip2fa.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: 

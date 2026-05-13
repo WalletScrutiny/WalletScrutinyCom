@@ -21,7 +21,6 @@ icon: secalot.png
 bugbounty: 
 meta: discontinued
 verdict: noita
-appHashes: 
 date: 2023-09-29
 signer: 
 twitter: SecalotDongle

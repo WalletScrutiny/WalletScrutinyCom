@@ -18,7 +18,6 @@ icon: com.pointpayio.PointPayBank.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-27
 signer: 
 twitter: PointPay1

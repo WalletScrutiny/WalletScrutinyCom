@@ -20,8 +20,6 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 3a92bbc4107f7bffbf9b61f73d3b6c9027d8f730d31cb8b1fe3caa0c7af87a17
 date: 2025-03-19
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 twitter: PhoenixWallet

@@ -19,7 +19,6 @@ icon: com.etoro.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-21
 signer: 
 twitter: etoro

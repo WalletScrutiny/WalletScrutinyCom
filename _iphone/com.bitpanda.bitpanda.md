@@ -17,7 +17,6 @@ icon: com.bitpanda.bitpanda.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-29
 signer: 
 twitter: Bitpanda_global

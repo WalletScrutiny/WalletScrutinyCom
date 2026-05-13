@@ -18,7 +18,6 @@ icon: co.za.altcointrader.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-05-08
 signer: 
 twitter: AltCoinTraderSA

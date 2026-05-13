@@ -17,7 +17,6 @@ icon: com.kochure.kochure-app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-07-24
 signer: 
 twitter: kochureglobal

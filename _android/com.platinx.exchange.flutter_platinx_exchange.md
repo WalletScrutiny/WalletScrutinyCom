@@ -17,7 +17,6 @@ icon: com.platinx.exchange.flutter_platinx_exchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: 

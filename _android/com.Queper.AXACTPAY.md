@@ -17,7 +17,6 @@ icon: com.Queper.AXACTPAY.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: 

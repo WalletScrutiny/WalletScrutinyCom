@@ -18,7 +18,6 @@ icon: br.com.treepart.genbit.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-19
 signer: 
 twitter: 

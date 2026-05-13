@@ -18,7 +18,6 @@ icon: org.tronspace.android.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2024-12-27
 signer: 
 twitter: Kointrack_tech

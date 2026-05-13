@@ -17,7 +17,6 @@ icon: com.wiztecbd.e_next_trading.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-10
 signer: 
 twitter: 

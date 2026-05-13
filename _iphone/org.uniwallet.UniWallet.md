@@ -17,7 +17,6 @@ icon: org.uniwallet.UniWallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-24
 signer: 
 twitter: uniwallet_app

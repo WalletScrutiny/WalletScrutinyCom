@@ -17,7 +17,6 @@ icon: com.bisonapp.bison.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-09-05
 signer: 
 twitter: bisonapp

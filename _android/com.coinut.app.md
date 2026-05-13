@@ -18,7 +18,6 @@ icon: com.coinut.app.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: coinut_exchange

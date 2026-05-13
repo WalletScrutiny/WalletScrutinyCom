@@ -17,7 +17,6 @@ icon: com.freaks.app.handcash.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2019-12-25
 signer: 
 twitter: handcashapp

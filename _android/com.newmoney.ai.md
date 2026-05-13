@@ -18,7 +18,6 @@ icon: com.newmoney.ai.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: NewmoneyAI

@@ -21,7 +21,6 @@ icon: justsafe.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2023-02-24
 signer: 
 twitter: Justsafe3

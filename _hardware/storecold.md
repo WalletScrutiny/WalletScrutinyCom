@@ -21,7 +21,6 @@ icon: storecold.png
 bugbounty: 
 meta: stale
 verdict: vapor
-appHashes: 
 date: 2024-10-23
 signer: 
 twitter: 

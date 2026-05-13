@@ -18,7 +18,6 @@ icon: com.goarbit.goarbit.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-02-01
 signer: 
 twitter: 

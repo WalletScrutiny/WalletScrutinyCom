@@ -18,7 +18,6 @@ icon: com.pocketmint.wallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-12-01
 signer: 
 twitter: 

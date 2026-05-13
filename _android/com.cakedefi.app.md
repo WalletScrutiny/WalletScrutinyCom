@@ -18,7 +18,6 @@ icon: com.cakedefi.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: cakedefi

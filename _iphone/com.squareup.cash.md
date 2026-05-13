@@ -17,7 +17,6 @@ icon: com.squareup.cash.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-12-22
 signer: 
 twitter: cashapp

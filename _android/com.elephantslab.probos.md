@@ -18,7 +18,6 @@ icon: com.elephantslab.probos.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: probos_wallet

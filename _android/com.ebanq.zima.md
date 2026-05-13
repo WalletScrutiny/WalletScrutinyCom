@@ -17,7 +17,6 @@ icon: com.ebanq.zima.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-05-18
 signer: 
 twitter: 

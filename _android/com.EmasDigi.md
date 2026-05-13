@@ -18,7 +18,6 @@ icon: com.EmasDigi.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-21
 signer: 
 twitter: 

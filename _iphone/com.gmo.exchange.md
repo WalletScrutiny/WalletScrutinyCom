@@ -17,7 +17,6 @@ icon: com.gmo.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-11-08
 signer: 
 twitter: ZcomExchange

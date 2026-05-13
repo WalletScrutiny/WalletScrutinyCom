@@ -17,7 +17,6 @@ icon: com.bitcoin.cuzdan.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-07-15
 signer: 
 twitter: 

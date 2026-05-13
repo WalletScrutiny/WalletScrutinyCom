@@ -17,7 +17,6 @@ icon: com.savl.savlapp.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-09-11
 signer: 
 twitter: 

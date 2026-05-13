@@ -17,7 +17,6 @@ icon: com.koinkoin.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-01-18
 signer: 
 twitter: koinkoin13

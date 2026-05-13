@@ -17,7 +17,6 @@ icon: com.brave-corporation.brave-pay.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: BraveCorporati1

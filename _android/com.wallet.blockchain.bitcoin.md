@@ -18,7 +18,6 @@ icon: com.wallet.blockchain.bitcoin.png
 bugbounty: 
 meta: stale
 verdict: fake
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: 

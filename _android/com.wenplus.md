@@ -17,7 +17,6 @@ icon: com.wenplus.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-02-28
 signer: 
 twitter: 

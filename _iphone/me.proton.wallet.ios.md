@@ -17,7 +17,6 @@ icon: me.proton.wallet.ios.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-05-20
 signer: 
 twitter: ProtonPrivacy

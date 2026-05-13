@@ -17,7 +17,6 @@ icon: one.citadel.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-06-06
 signer: 
 twitter: CitadelDAO

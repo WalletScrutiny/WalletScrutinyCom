@@ -17,7 +17,6 @@ icon: network.artery.network.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-11-16
 signer: 
 twitter: 

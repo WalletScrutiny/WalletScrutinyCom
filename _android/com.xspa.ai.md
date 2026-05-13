@@ -18,7 +18,6 @@ icon: com.xspa.ai.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-26
 signer: 
 twitter: XSPA_ai

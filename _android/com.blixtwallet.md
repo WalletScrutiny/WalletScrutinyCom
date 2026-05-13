@@ -19,7 +19,6 @@ icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2022-02-07
 signer: 
 twitter: BlixtWallet

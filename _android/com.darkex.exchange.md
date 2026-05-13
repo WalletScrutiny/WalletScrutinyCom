@@ -18,7 +18,6 @@ icon: com.darkex.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: darkexglobal

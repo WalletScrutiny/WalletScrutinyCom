@@ -18,7 +18,6 @@ icon: com.bit.eu.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-09-23
 signer: 
 twitter: BiteeuExchange

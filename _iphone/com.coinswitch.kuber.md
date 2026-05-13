@@ -17,7 +17,6 @@ icon: com.coinswitch.kuber.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-21
 signer: 
 twitter: CoinSwitchKuber

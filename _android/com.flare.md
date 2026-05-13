@@ -18,7 +18,6 @@ icon: com.flare.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-04-26
 signer: 
 twitter: flarewallet

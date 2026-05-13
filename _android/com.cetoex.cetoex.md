@@ -18,7 +18,6 @@ icon: com.cetoex.cetoex.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-09-08
 signer: 
 twitter: Cetoex

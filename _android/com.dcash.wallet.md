@@ -18,7 +18,6 @@ icon: com.dcash.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-03-04
 signer: 
 twitter: 

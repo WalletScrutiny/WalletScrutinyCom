@@ -21,7 +21,6 @@ icon: wookongblue.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-02-17
 signer: 
 twitter: 

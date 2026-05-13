@@ -18,7 +18,6 @@ icon: com.bitcoinira.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-18
 signer: 
 twitter: bitcoin_ira

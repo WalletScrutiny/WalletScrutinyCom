@@ -17,7 +17,6 @@ icon: com.felixo.mobile.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-04-01
 signer: 
 twitter: felixoexchange

@@ -18,7 +18,6 @@ icon: com.incognito.wallet.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-05-18
 signer: 
 twitter: incognitochain

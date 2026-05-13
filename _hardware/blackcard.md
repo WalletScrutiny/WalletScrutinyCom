@@ -21,7 +21,6 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-10
 signer: 
 twitter: 

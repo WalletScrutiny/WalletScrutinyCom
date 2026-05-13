@@ -17,7 +17,6 @@ icon: com.dhanuX.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: 

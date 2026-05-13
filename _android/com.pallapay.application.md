@@ -18,7 +18,6 @@ icon: com.pallapay.application.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-08-24
 signer: 
 twitter: pallapay_com

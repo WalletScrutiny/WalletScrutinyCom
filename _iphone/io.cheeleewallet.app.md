@@ -17,7 +17,6 @@ icon: io.cheeleewallet.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: 

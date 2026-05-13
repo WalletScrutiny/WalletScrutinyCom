@@ -17,7 +17,6 @@ icon: com.atomex.ios.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-07-05
 signer: 
 twitter: atomex_official

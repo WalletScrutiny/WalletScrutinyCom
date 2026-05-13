@@ -17,7 +17,6 @@ icon: com.kingdom.TheKingdomBank.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-11-02
 signer: 
 twitter: kingdombankcom

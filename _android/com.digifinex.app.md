@@ -18,7 +18,6 @@ icon: com.digifinex.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-11-28
 signer: 
 twitter: DigiFinex

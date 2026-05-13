@@ -18,7 +18,6 @@ icon: ge.mobility.emoney.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-05-23
 signer: 
 twitter: 

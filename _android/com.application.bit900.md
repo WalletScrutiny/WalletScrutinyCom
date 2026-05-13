@@ -17,7 +17,6 @@ icon: com.application.bit900.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-11
 signer: 
 twitter: 

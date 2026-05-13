@@ -17,7 +17,6 @@ icon: com.tokoin.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-01-15
 signer: 
 twitter: tokoinindonesia

@@ -24,7 +24,6 @@ icon: onekey.classic.1s.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-08-20
 signer: 
 twitter: OneKeyHQ

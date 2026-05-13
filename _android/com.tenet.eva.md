@@ -18,7 +18,6 @@ icon: com.tenet.eva.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-12-16
 signer: 
 twitter: 

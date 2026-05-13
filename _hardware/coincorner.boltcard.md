@@ -21,7 +21,6 @@ icon: coincorner.boltcard.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-25
 signer: 
 twitter: CoinCorner

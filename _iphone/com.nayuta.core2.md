@@ -17,7 +17,6 @@ icon: com.nayuta.core2.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: []
 date: 2025-10-15
 signer: 
 twitter: 

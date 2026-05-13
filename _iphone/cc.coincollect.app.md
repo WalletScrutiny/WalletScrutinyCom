@@ -17,7 +17,6 @@ icon: cc.coincollect.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2022-01-15
 signer: 
 twitter: coincollectHQ

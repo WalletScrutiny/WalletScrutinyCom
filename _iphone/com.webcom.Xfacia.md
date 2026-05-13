@@ -17,7 +17,6 @@ icon: com.webcom.Xfacia.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: XfaciaXchange

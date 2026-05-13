@@ -24,7 +24,6 @@ icon: picash.hww.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-02-09
 signer: 
 twitter: ilinkeds

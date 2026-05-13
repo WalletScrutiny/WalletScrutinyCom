@@ -25,7 +25,6 @@ icon: bcvaultone.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-12-10
 signer: 
 twitter: bc_vault

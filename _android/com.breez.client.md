@@ -21,7 +21,6 @@ icon: com.breez.client.png
 bugbounty: 
 meta: stale
 verdict: sourceavailable
-appHashes: []
 date: 2026-01-14
 signer: 
 twitter: breez_tech

@@ -18,7 +18,6 @@ icon: org.talkapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-22
 signer: 
 twitter: 

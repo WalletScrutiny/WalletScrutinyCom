@@ -18,7 +18,6 @@ icon: io.rayyo.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-02
 signer: 
 twitter: RayyoApp

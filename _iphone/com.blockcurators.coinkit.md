@@ -17,7 +17,6 @@ icon: com.blockcurators.coinkit.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2023-12-21
 signer: 
 twitter: coinkit_

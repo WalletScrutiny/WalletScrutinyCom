@@ -18,7 +18,6 @@ icon: com.wealthsimple.trade.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-09-03
 signer: 
 twitter: Wealthsimple

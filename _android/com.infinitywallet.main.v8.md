@@ -18,7 +18,6 @@ icon: com.infinitywallet.main.v8.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-11-10
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: io.divipay.divi.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-02-13
 signer: 
 twitter: diviproject

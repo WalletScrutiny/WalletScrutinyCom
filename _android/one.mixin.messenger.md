@@ -20,7 +20,6 @@ icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-09-19
 signer: 
 twitter: MixinMessenger

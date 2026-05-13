@@ -17,7 +17,6 @@ icon: com.dextrade.swap.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: 

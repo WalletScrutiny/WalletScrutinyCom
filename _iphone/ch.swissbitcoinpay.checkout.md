@@ -17,7 +17,6 @@ icon: ch.swissbitcoinpay.checkout.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-02-28
 signer: 
 twitter: SwissBitcoinPay

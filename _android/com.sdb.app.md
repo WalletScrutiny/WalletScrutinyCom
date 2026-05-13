@@ -18,7 +18,6 @@ icon: com.sdb.app.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: 

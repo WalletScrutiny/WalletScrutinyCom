@@ -18,7 +18,6 @@ icon: com.inanomo.market.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-05-26
 signer: 
 twitter: 

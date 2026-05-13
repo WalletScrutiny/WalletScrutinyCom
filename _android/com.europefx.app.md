@@ -18,7 +18,6 @@ icon: com.europefx.app.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2023-08-02
 signer: 
 twitter: 

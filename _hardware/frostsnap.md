@@ -21,7 +21,6 @@ icon: frostsnap.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-appHashes: 
 date: 2025-10-06
 signer: 
 twitter: FrostsnapTech

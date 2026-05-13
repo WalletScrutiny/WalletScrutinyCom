@@ -17,7 +17,6 @@ icon: com.forextech.forextools.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: 

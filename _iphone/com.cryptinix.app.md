@@ -17,7 +17,6 @@ icon: com.cryptinix.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-08-21
 signer: 
 twitter: 

@@ -16,7 +16,6 @@ icon: com.husky.hdw20.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-12-19
 signer: 
 twitter: 

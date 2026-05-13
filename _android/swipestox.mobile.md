@@ -18,7 +18,6 @@ icon: swipestox.mobile.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-10-10
 signer: 
 twitter: nagainvesting

@@ -17,7 +17,6 @@ icon: org.wanchain.WanWallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2024-07-17
 signer: 
 twitter: wanchain_org

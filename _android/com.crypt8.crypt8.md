@@ -17,7 +17,6 @@ icon: com.crypt8.crypt8.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-12-04
 signer: 
 twitter: 

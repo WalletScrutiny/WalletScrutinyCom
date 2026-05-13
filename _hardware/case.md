@@ -22,7 +22,6 @@ icon: case.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2024-01-04
 signer: 
 twitter: CaseWallet

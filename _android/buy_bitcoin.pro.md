@@ -18,7 +18,6 @@ icon: buy_bitcoin.pro.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-09
 signer: 
 twitter: 

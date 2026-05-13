@@ -18,7 +18,6 @@ icon: com.bitazza.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-09-03
 signer: 
 twitter: bitazzaofficial

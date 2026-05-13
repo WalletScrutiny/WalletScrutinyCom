@@ -17,7 +17,6 @@ icon: ru.mosapp.mobile.android5c9f540a7a6d7.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-11-12
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.btc.trustless.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2026-02-03
 signer: 
 twitter: https://x.com/Trustlessbtc

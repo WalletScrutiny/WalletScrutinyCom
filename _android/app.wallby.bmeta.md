@@ -18,7 +18,6 @@ icon: app.wallby.bmeta.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: wallby_app

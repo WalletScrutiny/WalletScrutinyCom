@@ -17,7 +17,6 @@ icon: com.nosapps.android.i5o2.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2023-06-03
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.blockchaincommodities.enifex.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-06-03
 signer: 
 twitter: 

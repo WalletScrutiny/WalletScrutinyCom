@@ -24,7 +24,6 @@ icon: blockchainhackathon2018.lnhw.diy.png
 bugbounty: 
 meta: defunct
 verdict: sourceavailable
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: chainsmiths

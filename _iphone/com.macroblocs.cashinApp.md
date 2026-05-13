@@ -17,7 +17,6 @@ icon: com.macroblocs.cashinApp.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
-appHashes: 
 date: 2024-09-24
 signer: 
 twitter: cashin_app

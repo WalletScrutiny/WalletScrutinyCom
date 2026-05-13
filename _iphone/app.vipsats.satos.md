@@ -17,7 +17,6 @@ icon: app.vipsats.satos.jpg
 bugbounty: 
 meta: stale
 verdict: wip
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: vipsats

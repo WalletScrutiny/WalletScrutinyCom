@@ -17,7 +17,6 @@ icon: ge.smatex.eMoney.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: 

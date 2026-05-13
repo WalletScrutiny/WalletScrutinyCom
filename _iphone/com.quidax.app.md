@@ -19,7 +19,6 @@ icon: com.quidax.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-02-10
 signer: 
 twitter: QuidaxAfrica

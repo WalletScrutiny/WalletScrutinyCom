@@ -17,7 +17,6 @@ icon: com.sovranbitcoin.jpg
 bugbounty: 
 meta: ok
 verdict: ecash
-appHashes: 
 date: 2025-11-03
 signer: 
 twitter: SovranBitcoin

@@ -17,7 +17,6 @@ icon: pay.albrex.io.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-01-02
 signer: 
 twitter: 

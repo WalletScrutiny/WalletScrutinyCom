@@ -25,10 +25,6 @@ icon: coldcardQ1.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 8f53880cde1b58a18e1b3166394a7e19e51866357ed2cbcf0aaa4dbbb9d17edc
-- 2e1aad0a7a3ceb84db34322b54855a0c5496699e46e53606bfa443fcc992adec
-- b7f961a8dd9a957d532da1e98b411b790fc25187c5d58f72380faaba129ca1b1
 date: 2025-09-26
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
 twitter: COLDCARDwallet

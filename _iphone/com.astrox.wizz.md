@@ -17,7 +17,6 @@ icon: com.astrox.wizz.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-03
 signer: 
 twitter: wizzwallet

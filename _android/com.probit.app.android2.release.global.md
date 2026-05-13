@@ -18,7 +18,6 @@ icon: com.probit.app.android2.release.global.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: ProBit_Exchange

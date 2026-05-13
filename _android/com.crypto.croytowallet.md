@@ -18,7 +18,6 @@ icon: com.crypto.croytowallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: 

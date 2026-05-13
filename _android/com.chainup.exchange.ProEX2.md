@@ -18,7 +18,6 @@ icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: 

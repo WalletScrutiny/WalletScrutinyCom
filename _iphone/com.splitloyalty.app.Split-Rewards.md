@@ -17,7 +17,6 @@ icon: com.splitloyalty.app.Split-Rewards.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-06
 signer: 
 twitter: 

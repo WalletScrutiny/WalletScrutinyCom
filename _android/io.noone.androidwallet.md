@@ -18,7 +18,6 @@ icon: io.noone.androidwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-23
 signer: 
 twitter: NooneWallet

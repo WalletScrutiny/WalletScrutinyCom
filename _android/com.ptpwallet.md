@@ -19,7 +19,6 @@ icon: com.ptpwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: []
 date: 2024-12-15
 signer: 
 twitter: PtpWallet

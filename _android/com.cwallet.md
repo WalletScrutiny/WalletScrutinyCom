@@ -18,7 +18,6 @@ icon: com.cwallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-25
 signer: 
 twitter: WalletXapa

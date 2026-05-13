@@ -17,7 +17,6 @@ icon: com.valar.pintu.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: pintuid

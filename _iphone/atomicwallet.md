@@ -17,7 +17,6 @@ icon: atomicwallet.jpg
 bugbounty: 
 meta: ok
 verdict: obfuscated
-appHashes: []
 date: 2023-11-22
 signer: 
 twitter: atomicwallet

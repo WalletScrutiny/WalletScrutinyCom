@@ -17,7 +17,6 @@ icon: com.finance.lovelyindian.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-10-15
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: org.zupago.pe.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-04-15
 signer: 
 twitter: 

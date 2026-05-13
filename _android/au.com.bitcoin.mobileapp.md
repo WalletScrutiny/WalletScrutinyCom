@@ -18,7 +18,6 @@ icon: au.com.bitcoin.mobileapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: bitcoin_com_au

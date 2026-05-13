@@ -18,7 +18,6 @@ icon: io.algowave.algowaveapp.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-05
 signer: 
 twitter: 

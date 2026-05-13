@@ -17,7 +17,6 @@ icon: net.walletharcomia.android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-04-07
 signer: 
 twitter: 

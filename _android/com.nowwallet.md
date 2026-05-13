@@ -18,7 +18,6 @@ icon: com.nowwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-20
 signer: 
 twitter: NOW_Wallet

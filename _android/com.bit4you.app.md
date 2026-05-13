@@ -18,7 +18,6 @@ icon: com.bit4you.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: Bit4you1

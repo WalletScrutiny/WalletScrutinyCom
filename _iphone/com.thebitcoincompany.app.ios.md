@@ -17,7 +17,6 @@ icon: com.thebitcoincompany.app.ios.jpg
 bugbounty: 
 meta: stale
 verdict: nosendreceive
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: thebtcco

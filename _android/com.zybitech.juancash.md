@@ -18,7 +18,6 @@ icon: com.zybitech.juancash.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-08-01
 signer: 
 twitter: JuanCashPH

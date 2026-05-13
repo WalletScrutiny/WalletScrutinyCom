@@ -17,7 +17,6 @@ icon: com.jackmallers.zap.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2022-04-25
 signer: 
 twitter: ln_zap

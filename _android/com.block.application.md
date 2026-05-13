@@ -18,7 +18,6 @@ icon: com.block.application.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-01-06
 signer: 
 twitter: uollar_io

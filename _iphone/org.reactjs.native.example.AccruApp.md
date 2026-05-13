@@ -17,7 +17,6 @@ icon: org.reactjs.native.example.AccruApp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: AQRU_Official

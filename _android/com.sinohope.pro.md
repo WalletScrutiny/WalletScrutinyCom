@@ -17,7 +17,6 @@ icon: com.sinohope.pro.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-12-31
 signer: 
 twitter: 

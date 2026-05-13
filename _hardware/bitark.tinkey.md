@@ -21,7 +21,6 @@ icon: bitark.tinkey.png
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: officialtinkey

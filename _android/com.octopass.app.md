@@ -18,7 +18,6 @@ icon: com.octopass.app.png
 bugbounty: 
 meta: deprecated
 verdict: custodial
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: easycrypto

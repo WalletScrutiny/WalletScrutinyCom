@@ -17,7 +17,6 @@ icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-24
 signer: 
 twitter: 

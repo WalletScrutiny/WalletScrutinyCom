@@ -18,7 +18,6 @@ icon: com.opz.dev.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-20
 signer: 
 twitter: OPZ_Official

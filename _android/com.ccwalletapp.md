@@ -19,7 +19,6 @@ icon: com.ccwalletapp.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: CoinCasso

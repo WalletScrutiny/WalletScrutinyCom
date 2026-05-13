@@ -18,7 +18,6 @@ icon: com.cointree.mobileapp.png
 bugbounty: https://www.cointree.com/company/bug-bounty
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: CointreeAus

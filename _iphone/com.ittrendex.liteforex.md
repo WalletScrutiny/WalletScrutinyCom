@@ -16,7 +16,6 @@ icon: com.ittrendex.liteforex.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-21
 signer: 
 twitter: 

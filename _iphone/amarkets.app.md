@@ -17,7 +17,6 @@ icon: amarkets.app.jpg
 bugbounty: 
 meta: defunct
 verdict: nosendreceive
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.giottus.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-10-07
 signer: 
 twitter: giottus

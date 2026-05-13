@@ -18,7 +18,6 @@ icon: com.icmarkets.mobileapp.png
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
-appHashes: 
 date: 2025-04-01
 signer: 
 twitter: IC_Markets

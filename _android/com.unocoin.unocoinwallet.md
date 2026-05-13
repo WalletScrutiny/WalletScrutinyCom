@@ -18,7 +18,6 @@ icon: com.unocoin.unocoinwallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2020-05-29
 signer: 
 twitter: Unocoin

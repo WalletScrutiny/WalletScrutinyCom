@@ -18,7 +18,6 @@ icon: com.bybt.bybtapp.jpg
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-11-16
 signer: 
 twitter: bybt_com

@@ -18,7 +18,6 @@ icon: com.medishares.android.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: Mathwallet

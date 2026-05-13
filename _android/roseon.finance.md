@@ -18,7 +18,6 @@ icon: roseon.finance.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: RoseonFinance

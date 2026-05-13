@@ -18,7 +18,6 @@ icon: com.hanryubank.fnsWallet.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-07
 signer: 
 twitter: 

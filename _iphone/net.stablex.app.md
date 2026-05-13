@@ -17,7 +17,6 @@ icon: net.stablex.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-03
 signer: 
 twitter: Stablex_Turkey

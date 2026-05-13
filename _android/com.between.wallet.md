@@ -18,7 +18,6 @@ icon: com.between.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-01-16
 signer: 
 twitter: 

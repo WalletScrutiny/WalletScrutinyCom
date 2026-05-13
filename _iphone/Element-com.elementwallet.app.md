@@ -17,7 +17,6 @@ icon: Element-com.elementwallet.app.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-04-13
 signer: 
 twitter: 

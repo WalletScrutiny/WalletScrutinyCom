@@ -17,7 +17,6 @@ icon: com.dok.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-10-03
 signer: 
 twitter: 

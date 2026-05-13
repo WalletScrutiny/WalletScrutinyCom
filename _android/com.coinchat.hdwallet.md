@@ -18,7 +18,6 @@ icon: com.coinchat.hdwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: 

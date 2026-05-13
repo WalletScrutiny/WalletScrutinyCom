@@ -18,7 +18,6 @@ icon: com.wasabiwallet.dev.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-04-09
 signer: 
 twitter: 

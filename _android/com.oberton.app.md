@@ -18,7 +18,6 @@ icon: com.oberton.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: EverspaceWallet

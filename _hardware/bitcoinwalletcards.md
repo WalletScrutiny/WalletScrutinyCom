@@ -24,7 +24,6 @@ icon: bitcoinwalletcards.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: 

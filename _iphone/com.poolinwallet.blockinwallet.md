@@ -17,7 +17,6 @@ icon: com.poolinwallet.blockinwallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: PoolinWallet

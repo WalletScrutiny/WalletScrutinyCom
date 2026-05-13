@@ -18,7 +18,6 @@ icon: com.chainup.exchange.Burency.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-06-29
 signer: 
 twitter: 

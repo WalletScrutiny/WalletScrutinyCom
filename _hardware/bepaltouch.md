@@ -24,7 +24,6 @@ icon: bepaltouch.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2021-07-25
 signer: 
 twitter: 

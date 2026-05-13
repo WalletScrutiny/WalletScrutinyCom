@@ -21,7 +21,6 @@ icon: gk8.coldvault.png
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: gk8_security

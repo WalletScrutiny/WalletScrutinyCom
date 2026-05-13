@@ -17,7 +17,6 @@ icon: net.bitstamp.simple.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-08-31
 signer: 
 twitter: Bitstamp

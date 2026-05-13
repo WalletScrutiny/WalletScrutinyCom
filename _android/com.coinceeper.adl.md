@@ -17,7 +17,6 @@ icon: com.coinceeper.adl.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-11-10
 signer: 
 twitter: 

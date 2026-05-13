@@ -18,7 +18,6 @@ icon: com.viabtc.pool.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2022-06-24
 signer: 
 twitter: ViaBTC

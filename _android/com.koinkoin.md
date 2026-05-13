@@ -18,7 +18,6 @@ icon: com.koinkoin.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: koinkoin13

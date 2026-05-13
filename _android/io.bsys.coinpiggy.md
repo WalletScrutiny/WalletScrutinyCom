@@ -18,7 +18,6 @@ icon: io.bsys.coinpiggy.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-01
 signer: 
 twitter: 

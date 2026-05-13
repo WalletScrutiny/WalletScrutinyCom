@@ -18,7 +18,6 @@ icon: com.trendox.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-29
 signer: 
 twitter: 

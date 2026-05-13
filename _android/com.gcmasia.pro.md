@@ -18,7 +18,6 @@ icon: com.gcmasia.pro.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: 

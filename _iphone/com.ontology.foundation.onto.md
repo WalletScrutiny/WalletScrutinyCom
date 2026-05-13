@@ -17,7 +17,6 @@ icon: com.ontology.foundation.onto.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-09-15
 signer: 
 twitter: ONTOWallet

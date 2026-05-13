@@ -17,7 +17,6 @@ icon: com.lightning.manna.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-09
 signer: 
 twitter: MannaBitcoin

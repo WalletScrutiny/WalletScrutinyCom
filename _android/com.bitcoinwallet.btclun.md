@@ -18,7 +18,6 @@ icon: com.bitcoinwallet.btclun.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-08-25
 signer: 
 twitter: 

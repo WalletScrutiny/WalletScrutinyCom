@@ -18,7 +18,6 @@ icon: exchange.blackfort.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2023-10-22
 signer: 
 twitter: BlackFort_Tech

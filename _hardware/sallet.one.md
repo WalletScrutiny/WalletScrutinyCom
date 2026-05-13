@@ -25,7 +25,6 @@ icon: sallet.one.png
 bugbounty: 
 meta: defunct
 verdict: sourceavailable
-appHashes: []
 date: 2025-02-05
 signer: 
 twitter: SalletOne

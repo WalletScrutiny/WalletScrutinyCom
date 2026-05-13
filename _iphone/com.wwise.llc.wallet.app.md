@@ -17,7 +17,6 @@ icon: com.wwise.llc.wallet.app.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-05-31
 signer: 
 twitter: 

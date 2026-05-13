@@ -18,7 +18,6 @@ icon: com.yykj.bitfree.en.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-01-15
 signer: 
 twitter: bitfree_us

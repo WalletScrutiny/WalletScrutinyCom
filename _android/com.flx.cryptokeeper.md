@@ -18,7 +18,6 @@ icon: com.flx.cryptokeeper.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-17
 signer: 
 twitter: 

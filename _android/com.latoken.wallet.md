@@ -18,7 +18,6 @@ icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: latokens

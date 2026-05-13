@@ -22,7 +22,6 @@ icon: bitbox01.png
 bugbounty: 
 meta: discontinued
 verdict: noita
-appHashes: 
 date: 2022-11-17
 signer: 
 twitter: ShiftCryptoHQ

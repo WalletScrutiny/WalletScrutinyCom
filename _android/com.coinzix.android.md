@@ -18,7 +18,6 @@ icon: com.coinzix.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: coinzixcom

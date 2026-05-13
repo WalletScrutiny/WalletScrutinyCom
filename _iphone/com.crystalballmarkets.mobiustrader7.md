@@ -17,7 +17,6 @@ icon: com.crystalballmarkets.mobiustrader7.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
-appHashes: 
 date: 2025-08-28
 signer: 
 twitter: 

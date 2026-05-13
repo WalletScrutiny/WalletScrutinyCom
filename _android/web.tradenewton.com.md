@@ -18,7 +18,6 @@ icon: web.tradenewton.com.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-05
 signer: 
 twitter: newton_crypto

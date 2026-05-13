@@ -17,7 +17,6 @@ icon: io.aquawallet.ios.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-01-05
 signer: 
 twitter: AquaBitcoin

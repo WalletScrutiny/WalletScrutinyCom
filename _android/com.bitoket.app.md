@@ -17,7 +17,6 @@ icon: com.bitoket.app.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: 

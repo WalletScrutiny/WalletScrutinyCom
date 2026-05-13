@@ -18,7 +18,6 @@ icon: io.leapwallet.cosmos.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-09
 signer: 
 twitter: leap_cosmos

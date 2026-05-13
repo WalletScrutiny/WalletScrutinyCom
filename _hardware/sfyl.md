@@ -21,7 +21,6 @@ icon: sfyl.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-02-27
 signer: 
 twitter: tulipan81

@@ -18,7 +18,6 @@ icon: im.immune.app.png
 bugbounty: 
 meta: stale
 verdict: nosource
-appHashes: 
 date: 2026-03-03
 signer: 
 twitter: 

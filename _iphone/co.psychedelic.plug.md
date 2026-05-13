@@ -17,7 +17,6 @@ icon: co.psychedelic.plug.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-15
 signer: 
 twitter: plug_wallet

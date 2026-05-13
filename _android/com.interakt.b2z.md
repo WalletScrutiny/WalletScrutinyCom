@@ -18,7 +18,6 @@ icon: com.interakt.b2z.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: B2zExchange

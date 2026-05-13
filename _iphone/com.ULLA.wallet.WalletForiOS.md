@@ -17,7 +17,6 @@ icon: com.ULLA.wallet.WalletForiOS.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-09
 signer: 
 twitter: WOWEARNENG

@@ -17,7 +17,6 @@ icon: com.xfun.wallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-07-11
 signer: 
 twitter: FUNtoken_io

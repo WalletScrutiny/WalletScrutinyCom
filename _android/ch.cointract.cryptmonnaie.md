@@ -17,7 +17,6 @@ icon: ch.cointract.cryptmonnaie.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: 

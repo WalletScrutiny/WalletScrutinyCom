@@ -21,7 +21,6 @@ icon: confluxnetwork.bsim.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: Conflux_Network

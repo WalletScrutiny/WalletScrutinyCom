@@ -18,7 +18,6 @@ icon: com.btcmarket.btcm.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-04-20
 signer: 
 twitter: BTCMarkets

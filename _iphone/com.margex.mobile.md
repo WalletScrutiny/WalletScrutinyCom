@@ -17,7 +17,6 @@ icon: com.margex.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-08
 signer: 
 twitter: margexcom

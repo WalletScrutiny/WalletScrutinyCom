@@ -17,7 +17,6 @@ icon: com.qm.bitdata.pro.png
 bugbounty: 
 meta: fewusers
 verdict: wip
-appHashes: 
 date: 2021-08-08
 signer: 
 twitter: 

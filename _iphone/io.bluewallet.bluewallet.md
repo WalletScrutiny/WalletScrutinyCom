@@ -17,7 +17,6 @@ icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2023-12-30
 signer: 
 twitter: bluewalletio

@@ -18,7 +18,6 @@ icon: io.yellowcard.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-13
 signer: 
 twitter: yellowcard_app

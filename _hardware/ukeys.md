@@ -21,7 +21,6 @@ icon: ukeys.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-03-08
 signer: 
 twitter: UnikeysTeam

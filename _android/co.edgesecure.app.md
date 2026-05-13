@@ -21,7 +21,6 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-10-25
 signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
 twitter: edgewallet

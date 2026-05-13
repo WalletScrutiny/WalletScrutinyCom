@@ -24,7 +24,6 @@ icon: imkeypro.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: imkeyofficial

@@ -25,8 +25,6 @@ icon: onekey.pro.png
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 2b8ce9dab486877b78ecfd9b7b5d0579e313197cb92e98f9bec20805072b7cdb
 date: 2025-09-10
 signer: 
 twitter: OneKeyHQ

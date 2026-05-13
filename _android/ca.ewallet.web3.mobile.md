@@ -17,7 +17,6 @@ icon: ca.ewallet.web3.mobile.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-04-03
 signer: 
 twitter: 

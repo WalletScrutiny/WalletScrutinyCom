@@ -18,7 +18,6 @@ icon: com.tarmex.tarmex.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-03-14
 signer: 
 twitter: Tarmexio

@@ -18,7 +18,6 @@ icon: com.conglex.conglex.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: conglexglobal

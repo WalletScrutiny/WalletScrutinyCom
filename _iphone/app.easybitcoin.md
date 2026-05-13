@@ -17,7 +17,6 @@ icon: app.easybitcoin.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: easyBitcoinapp

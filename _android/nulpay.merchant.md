@@ -17,7 +17,6 @@ icon: nulpay.merchant.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-03-18
 signer: 
 twitter: 

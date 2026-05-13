@@ -17,7 +17,6 @@ icon: com.ambergroup.amberapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: ambergroup_io

@@ -17,7 +17,6 @@ icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-12-31
 signer: 
 twitter: bit2me

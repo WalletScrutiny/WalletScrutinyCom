@@ -18,7 +18,6 @@ icon: com.huobilbn.appstore.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-12-17
 signer: 
 twitter: 

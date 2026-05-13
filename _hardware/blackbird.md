@@ -21,7 +21,6 @@ icon: blackbird.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: blackbirdwallet

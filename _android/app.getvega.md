@@ -18,7 +18,6 @@ icon: app.getvega.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-08-09
 signer: 
 twitter: GetVegaApp

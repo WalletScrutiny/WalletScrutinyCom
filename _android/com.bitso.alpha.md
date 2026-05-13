@@ -18,7 +18,6 @@ icon: com.bitso.alpha.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-08
 signer: 
 twitter: Bitso

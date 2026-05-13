@@ -18,7 +18,6 @@ icon: com.babb.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-03-03
 signer: 
 twitter: getbabb

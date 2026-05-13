@@ -17,7 +17,6 @@ icon: com.programonks.CoinMarketApp.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-10-10
 signer: 
 twitter: mydopamineapp

@@ -17,7 +17,6 @@ icon: com.metacoino.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.capitalsecurities.liqx.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-07-22
 signer: 
 twitter: 

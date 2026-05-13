@@ -18,7 +18,6 @@ icon: com.chainup.exchange.DsdaqGlobal.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-12-19
 signer: 
 twitter: DsdaqCom

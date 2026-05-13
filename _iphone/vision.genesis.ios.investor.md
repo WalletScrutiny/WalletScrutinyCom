@@ -17,7 +17,6 @@ icon: vision.genesis.ios.investor.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-09-04
 signer: 
 twitter: genesis_vision

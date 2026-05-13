@@ -18,7 +18,6 @@ icon: com.kyrrex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-07-11
 signer: 
 twitter: Kyrrexcom

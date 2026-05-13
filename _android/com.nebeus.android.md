@@ -18,7 +18,6 @@ icon: com.nebeus.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-02-25
 signer: 
 twitter: NebeusWorld

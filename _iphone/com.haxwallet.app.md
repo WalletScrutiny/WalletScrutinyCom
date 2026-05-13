@@ -17,7 +17,6 @@ icon: com.haxwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-18
 signer: 
 twitter: haxwallet0x

@@ -17,7 +17,6 @@ icon: ch.relai.relai.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-11
 signer: 
 twitter: Relai_app

@@ -18,7 +18,6 @@ icon: com.fxwallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-02-16
 signer: 
 twitter: fxwallet

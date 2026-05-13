@@ -25,8 +25,6 @@ icon: trezorOne.png
 bugbounty: https://trezor.io/security
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8
 date: 2025-05-06
 signer: 
 twitter: trezor

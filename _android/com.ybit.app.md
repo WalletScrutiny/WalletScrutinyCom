@@ -18,7 +18,6 @@ icon: com.ybit.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: YbitWallet

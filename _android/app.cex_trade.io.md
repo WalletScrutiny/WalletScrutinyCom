@@ -18,7 +18,6 @@ icon: app.cex_trade.io.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2023-07-02
 signer: 
 twitter: 

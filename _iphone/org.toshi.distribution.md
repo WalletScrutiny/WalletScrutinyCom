@@ -17,7 +17,6 @@ icon: org.toshi.distribution.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-01-04
 signer: 
 twitter: CoinbaseWallet

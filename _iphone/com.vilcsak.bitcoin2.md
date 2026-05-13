@@ -17,7 +17,6 @@ icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-12
 signer: 
 twitter: coinbase

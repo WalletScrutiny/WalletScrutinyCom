@@ -18,7 +18,6 @@ icon: com.saitapro.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-11-04
 signer: 
 twitter: WeAreSaitama

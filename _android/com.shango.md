@@ -18,7 +18,6 @@ icon: com.shango.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2021-07-16
 signer: 
 twitter: shangoapp

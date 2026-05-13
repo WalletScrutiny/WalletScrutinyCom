@@ -19,7 +19,6 @@ icon: io.changenow.changenow.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-13
 signer: 
 twitter: ChangeNOW_io

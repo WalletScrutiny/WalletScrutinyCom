@@ -18,7 +18,6 @@ icon: com.binance.custody.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-11-02
 signer: 
 twitter: CeffuGlobal

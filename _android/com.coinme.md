@@ -18,7 +18,6 @@ icon: com.coinme.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: Coinme

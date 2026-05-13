@@ -18,7 +18,6 @@ icon: com.primexbt.trade.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-02
 signer: 
 twitter: primexbt

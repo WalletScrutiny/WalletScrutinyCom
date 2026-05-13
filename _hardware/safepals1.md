@@ -25,7 +25,6 @@ icon: safepals1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-23
 signer: 
 twitter: iSafePal

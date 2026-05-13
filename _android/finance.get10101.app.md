@@ -19,7 +19,6 @@ icon: finance.get10101.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-05-30
 signer: 
 twitter: get10101

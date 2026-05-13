@@ -17,7 +17,6 @@ icon: com.trading.iqoption.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-09-02
 signer: 
 twitter: IQOption

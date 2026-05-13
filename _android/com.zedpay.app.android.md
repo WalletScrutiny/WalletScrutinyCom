@@ -18,7 +18,6 @@ icon: com.zedpay.app.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: ZedPayCo

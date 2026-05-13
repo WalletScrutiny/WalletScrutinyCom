@@ -21,7 +21,6 @@ icon: coinpass.bio.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-11-26
 signer: 
 twitter: FEITIAN_Tech

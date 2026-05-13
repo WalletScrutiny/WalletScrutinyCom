@@ -17,7 +17,6 @@ icon: com.exchangily.app.jpg
 bugbounty: 
 meta: defunct
 verdict: sourceavailable
-appHashes: 
 date: 2023-08-16
 signer: 
 twitter: ExchangilyC

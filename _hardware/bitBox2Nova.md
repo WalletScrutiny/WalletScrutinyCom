@@ -24,7 +24,6 @@ icon: bitBox2Nova.png
 bugbounty: https://bitbox.swiss/bug-bounty-program/
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-07-18
 signer: 
 twitter: BitBoxSwiss

@@ -17,7 +17,6 @@ icon: changella.changella.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-11-29
 signer: 
 twitter: 

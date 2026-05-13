@@ -29,8 +29,6 @@ icon: cypherockx1.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562
 date: 2025-09-05
 signer: 
 twitter: CypherockWallet

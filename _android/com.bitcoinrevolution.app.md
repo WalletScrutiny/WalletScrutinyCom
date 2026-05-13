@@ -17,7 +17,6 @@ icon: com.bitcoinrevolution.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-11
 signer: 
 twitter: 

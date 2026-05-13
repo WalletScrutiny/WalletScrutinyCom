@@ -18,7 +18,6 @@ icon: kuna.beta.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-04-22
 signer: 
 twitter: KunaExchange

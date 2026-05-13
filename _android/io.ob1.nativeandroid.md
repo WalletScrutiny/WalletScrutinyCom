@@ -17,7 +17,6 @@ icon: io.ob1.nativeandroid.png
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: []
 date: 2021-01-23
 signer: 
 twitter: HavenPrivacy

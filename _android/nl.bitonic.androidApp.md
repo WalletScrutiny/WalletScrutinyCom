@@ -18,7 +18,6 @@ icon: nl.bitonic.androidApp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-03
 signer: 
 twitter: bitonic

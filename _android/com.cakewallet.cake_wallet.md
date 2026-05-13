@@ -19,7 +19,6 @@ icon: com.cakewallet.cake_wallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2025-01-14
 signer: 
 twitter: cakewallet

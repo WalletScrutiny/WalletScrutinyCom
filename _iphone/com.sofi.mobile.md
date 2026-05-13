@@ -17,7 +17,6 @@ icon: com.sofi.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-01-23
 signer: 
 twitter: SoFi

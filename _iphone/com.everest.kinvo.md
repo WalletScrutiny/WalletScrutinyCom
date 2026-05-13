@@ -17,7 +17,6 @@ icon: com.everest.kinvo.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2022-06-23
 signer: 
 twitter: kinvoapp

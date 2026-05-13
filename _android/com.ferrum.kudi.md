@@ -18,7 +18,6 @@ icon: com.ferrum.kudi.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-05-18
 signer: 
 twitter: firstkudiapp

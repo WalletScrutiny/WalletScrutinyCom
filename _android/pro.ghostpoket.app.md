@@ -18,7 +18,6 @@ icon: pro.ghostpoket.app.png
 bugbounty: 
 meta: fewusers
 verdict: nosource
-appHashes: 
 date: 2026-04-23
 signer: 
 twitter: Ghost_Wallet_

@@ -17,7 +17,6 @@ icon: net.cryptee.bitcoin.trading.app.free.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-01
 signer: 
 twitter: 

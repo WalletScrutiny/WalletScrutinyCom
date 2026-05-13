@@ -17,7 +17,6 @@ icon: com.ckgdesigns.com.bitlord_us.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

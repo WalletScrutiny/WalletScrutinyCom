@@ -16,7 +16,6 @@ icon: app.backpack.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-11-11
 signer: 
 twitter: 

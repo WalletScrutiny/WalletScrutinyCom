@@ -17,7 +17,6 @@ icon: com.cregis.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: 0xCregis

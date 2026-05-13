@@ -17,7 +17,6 @@ icon: com.creadigol.amaano.png
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2023-03-21
 signer: 
 twitter: 

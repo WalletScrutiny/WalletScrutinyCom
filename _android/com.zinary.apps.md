@@ -17,7 +17,6 @@ icon: com.zinary.apps.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: 

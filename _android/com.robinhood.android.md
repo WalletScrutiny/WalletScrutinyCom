@@ -18,7 +18,6 @@ icon: com.robinhood.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-09-15
 signer: 
 twitter: RobinhoodApp

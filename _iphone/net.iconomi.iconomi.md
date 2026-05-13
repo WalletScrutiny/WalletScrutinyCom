@@ -17,7 +17,6 @@ icon: net.iconomi.iconomi.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2025-11-05
 signer: 
 twitter: iconomicom

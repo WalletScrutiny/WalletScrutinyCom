@@ -18,7 +18,6 @@ icon: com.abbc.abbcmobile.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-10-05
 signer: 
 twitter: abbcfoundation

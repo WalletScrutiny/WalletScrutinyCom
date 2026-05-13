@@ -21,7 +21,6 @@ icon: coinkite.tapsigner.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-02-13
 signer: 
 twitter: TAPSIGNER

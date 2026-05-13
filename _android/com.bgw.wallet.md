@@ -18,7 +18,6 @@ icon: com.bgw.wallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: BG_Wallet

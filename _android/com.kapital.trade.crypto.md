@@ -19,7 +19,6 @@ icon: com.kapital.trade.crypto.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2024-02-22
 signer: 
 twitter: capitalcom

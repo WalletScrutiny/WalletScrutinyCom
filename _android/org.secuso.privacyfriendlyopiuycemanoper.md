@@ -18,7 +18,6 @@ icon: org.secuso.privacyfriendlyopiuycemanoper.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-05-11
 signer: 
 twitter: 

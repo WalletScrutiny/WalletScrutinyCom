@@ -18,7 +18,6 @@ icon: io.ducatus.walnew.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-04-11
 signer: 
 twitter: 

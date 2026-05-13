@@ -18,7 +18,6 @@ icon: com.coinzo.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-03-30
 signer: 
 twitter: 

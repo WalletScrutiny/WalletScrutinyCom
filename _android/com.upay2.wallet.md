@@ -18,7 +18,6 @@ icon: com.upay2.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-23
 signer: 
 twitter: UPayOfficial_EN

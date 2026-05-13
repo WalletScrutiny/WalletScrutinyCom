@@ -18,7 +18,6 @@ icon: com.wiseki.sekiapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-14
 signer: 
 twitter: Seki_APP

@@ -18,7 +18,6 @@ icon: com.enjin.mobile.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-01-17
 signer: 
 twitter: enjin

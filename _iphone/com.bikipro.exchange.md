@@ -17,7 +17,6 @@ icon: com.bikipro.exchange.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-03-07
 signer: 
 twitter: BiKiEnglish

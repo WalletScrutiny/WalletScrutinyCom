@@ -17,7 +17,6 @@ icon: com.mojitowallet.jpg
 bugbounty: 
 meta: stale
 verdict: sourceavailable
-appHashes: []
 date: 2026-01-14
 signer: 
 twitter: mintlayer

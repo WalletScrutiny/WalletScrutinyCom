@@ -17,7 +17,6 @@ icon: io.changenow.wallet-now.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-04-08
 signer: 
 twitter: NOW_Wallet

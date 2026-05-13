@@ -17,7 +17,6 @@ icon: com.blubitex.blubitexapp.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: blubitex

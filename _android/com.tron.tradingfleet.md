@@ -17,7 +17,6 @@ icon: com.tron.tradingfleet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-01
 signer: 
 twitter: 

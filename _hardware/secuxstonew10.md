@@ -25,7 +25,6 @@ icon: secuxstonew10.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-11-24
 signer: 
 twitter: SecuXwallet

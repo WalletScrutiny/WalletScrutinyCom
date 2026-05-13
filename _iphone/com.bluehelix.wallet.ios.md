@@ -19,7 +19,6 @@ icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2022-10-21
 signer: 
 twitter: BHEXOfficial

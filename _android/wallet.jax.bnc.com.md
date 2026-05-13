@@ -19,7 +19,6 @@ icon: wallet.jax.bnc.com.png
 bugbounty: 
 meta: removed
 verdict: fake
-appHashes: 
 date: 2021-08-23
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-23
 signer: 
 twitter: 

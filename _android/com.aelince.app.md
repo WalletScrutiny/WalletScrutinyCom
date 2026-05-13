@@ -18,7 +18,6 @@ icon: com.aelince.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-28
 signer: 
 twitter: 

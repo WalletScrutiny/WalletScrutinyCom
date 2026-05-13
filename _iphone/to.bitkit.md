@@ -16,7 +16,6 @@ icon: to.bitkit.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: bitkitwallet

@@ -18,7 +18,6 @@ icon: com.lavamobile.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-05-22
 signer: 
 twitter: lava_xyz

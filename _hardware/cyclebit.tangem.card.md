@@ -24,7 +24,6 @@ icon: cyclebit.tangem.card.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-03
 signer: 
 twitter: Cycle_bit

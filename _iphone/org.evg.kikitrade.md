@@ -17,7 +17,6 @@ icon: org.evg.kikitrade.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-03-21
 signer: 
 twitter: KikitradeHQ

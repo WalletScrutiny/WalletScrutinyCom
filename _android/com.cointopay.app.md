@@ -18,7 +18,6 @@ icon: com.cointopay.app.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2024-05-24
 signer: 
 twitter: Cointopay

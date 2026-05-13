@@ -17,7 +17,6 @@ icon: com.planet.toobit.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-01
 signer: 
 twitter: Toobit_official

@@ -17,7 +17,6 @@ icon: com.robinhood.release.Gateway.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-08
 signer: 
 twitter: RobinhoodApp

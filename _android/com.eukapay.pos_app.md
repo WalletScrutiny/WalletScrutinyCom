@@ -17,7 +17,6 @@ icon: com.eukapay.pos_app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-07-30
 signer: 
 twitter: 

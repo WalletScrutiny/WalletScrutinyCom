@@ -18,7 +18,6 @@ icon: com.vultisig.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-12-26
 signer: 
 twitter: vultisig

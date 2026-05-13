@@ -17,7 +17,6 @@ icon: com.aag.metaone.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-09-23
 signer: 
 twitter: aag_ventures

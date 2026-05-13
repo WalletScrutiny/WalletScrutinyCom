@@ -17,7 +17,6 @@ icon: com.osource.ovest.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-10
 signer: 
 twitter: 

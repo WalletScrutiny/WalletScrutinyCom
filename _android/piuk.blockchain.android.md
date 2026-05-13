@@ -19,7 +19,6 @@ icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 meta: ok
 verdict: nosource
-appHashes: []
 date: 2024-09-12
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 twitter: blockchain

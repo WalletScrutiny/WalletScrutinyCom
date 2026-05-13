@@ -18,7 +18,6 @@ icon: id.co.bitcoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-05-31
 signer: 
 twitter: indodax

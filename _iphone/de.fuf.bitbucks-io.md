@@ -17,7 +17,6 @@ icon: de.fuf.bitbucks-io.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-09-29
 signer: 
 twitter: bit_bucks

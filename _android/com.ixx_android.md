@@ -17,7 +17,6 @@ icon: com.ixx_android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-09-28
 signer: 
 twitter: 

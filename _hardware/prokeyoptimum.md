@@ -26,7 +26,6 @@ icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2024-10-18
 signer: 
 twitter: 

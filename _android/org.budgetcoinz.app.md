@@ -18,7 +18,6 @@ icon: org.budgetcoinz.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: 

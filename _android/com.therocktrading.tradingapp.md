@@ -18,7 +18,6 @@ icon: com.therocktrading.tradingapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-07-21
 signer: 
 twitter: therocktrading

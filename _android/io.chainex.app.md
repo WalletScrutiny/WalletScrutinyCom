@@ -18,7 +18,6 @@ icon: io.chainex.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-26
 signer: 
 twitter: ChainEXIO

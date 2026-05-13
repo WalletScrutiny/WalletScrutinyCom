@@ -17,7 +17,6 @@ icon: com.spotware.ct.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2023-07-01
 signer: 
 twitter: cTrader

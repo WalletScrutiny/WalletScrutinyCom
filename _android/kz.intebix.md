@@ -18,7 +18,6 @@ icon: kz.intebix.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: Intebix

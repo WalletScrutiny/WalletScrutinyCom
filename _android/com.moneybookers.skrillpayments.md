@@ -18,7 +18,6 @@ icon: com.moneybookers.skrillpayments.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-08-09
 signer: 
 twitter: skrill

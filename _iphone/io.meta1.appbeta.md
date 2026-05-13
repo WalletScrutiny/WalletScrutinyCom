@@ -17,7 +17,6 @@ icon: io.meta1.appbeta.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2025-06-11
 signer: 
 twitter: META1Coin

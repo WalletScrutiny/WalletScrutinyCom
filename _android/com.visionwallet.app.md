@@ -18,7 +18,6 @@ icon: com.visionwallet.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2023-06-21
 signer: 
 twitter: 

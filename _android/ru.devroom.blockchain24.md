@@ -17,7 +17,6 @@ icon: ru.devroom.blockchain24.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-06-18
 signer: 
 twitter: 

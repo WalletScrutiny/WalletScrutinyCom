@@ -18,7 +18,6 @@ icon: com.coinbest.coinbest.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-02-24
 signer: 
 twitter: 

@@ -18,7 +18,6 @@ icon: com.coininn.wenwen.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-08-24
 signer: 
 twitter: coin_inn

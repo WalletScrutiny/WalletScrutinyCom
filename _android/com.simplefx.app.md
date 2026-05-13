@@ -18,7 +18,6 @@ icon: com.simplefx.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-13
 signer: 
 twitter: SimpleFXcom

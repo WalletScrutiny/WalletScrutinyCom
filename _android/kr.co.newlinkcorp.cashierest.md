@@ -18,7 +18,6 @@ icon: kr.co.newlinkcorp.cashierest.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-05-14
 signer: 
 twitter: 

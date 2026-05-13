@@ -18,7 +18,6 @@ icon: com.mercadopago.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2021-12-26
 signer: 
 twitter: mercadopago

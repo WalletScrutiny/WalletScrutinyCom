@@ -18,7 +18,6 @@ icon: com.emberfund.ember.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-15
 signer: 
 twitter: Ember_Fund

@@ -17,7 +17,6 @@ icon: com.zbx.www.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-10-02
 signer: 
 twitter: zbx_com

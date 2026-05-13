@@ -19,7 +19,6 @@ icon: com.bitkeep.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-15
 signer: 
 twitter: BitKeepOS

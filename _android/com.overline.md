@@ -18,7 +18,6 @@ icon: com.overline.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2024-05-07
 signer: 
 twitter: overlinenetwork

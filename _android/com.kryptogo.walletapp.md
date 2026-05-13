@@ -18,7 +18,6 @@ icon: com.kryptogo.walletapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-07-20
 signer: 
 twitter: kryptogo_

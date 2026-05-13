@@ -17,7 +17,6 @@ icon: com.gemwallet.ios.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2024-06-12
 signer: 
 twitter: GemWalletApp

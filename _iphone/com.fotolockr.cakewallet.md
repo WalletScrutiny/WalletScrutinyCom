@@ -17,7 +17,6 @@ icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2022-11-02
 signer: 
 twitter: cakewallet

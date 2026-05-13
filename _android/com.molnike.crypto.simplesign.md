@@ -17,7 +17,6 @@ icon: com.molnike.crypto.simplesign.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: 

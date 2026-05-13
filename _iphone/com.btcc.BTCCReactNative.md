@@ -17,7 +17,6 @@ icon: com.btcc.BTCCReactNative.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-23
 signer: 
 twitter: YourBTCC

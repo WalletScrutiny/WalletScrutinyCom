@@ -18,7 +18,6 @@ icon: com.application.changecoin.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-07
 signer: 
 twitter: 

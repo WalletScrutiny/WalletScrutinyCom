@@ -18,7 +18,6 @@ icon: com.aaatrade.aaatrader.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2024-11-19
 signer: 
 twitter: 

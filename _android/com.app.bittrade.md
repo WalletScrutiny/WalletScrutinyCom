@@ -17,7 +17,6 @@ icon: com.app.bittrade.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-09-18
 signer: 
 twitter: 

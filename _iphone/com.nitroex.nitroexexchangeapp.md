@@ -17,7 +17,6 @@ icon: com.nitroex.nitroexexchangeapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-01-14
 signer: 
 twitter: NitroExOfficial

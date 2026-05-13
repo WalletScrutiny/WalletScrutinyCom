@@ -18,7 +18,6 @@ icon: com.blitzwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-11-03
 signer: 
 twitter: blitzwalletapp

@@ -24,7 +24,6 @@ icon: quickxtouch.png
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-03-23
 signer: 
 twitter: quickxprotocol

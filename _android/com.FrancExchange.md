@@ -18,7 +18,6 @@ icon: com.FrancExchange.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-10-24
 signer: 
 twitter: 

@@ -17,7 +17,6 @@ icon: com.cryptonator.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2022-02-25
 signer: 
 twitter: cryptonatorcom

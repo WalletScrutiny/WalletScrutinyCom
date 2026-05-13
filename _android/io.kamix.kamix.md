@@ -18,7 +18,6 @@ icon: io.kamix.kamix.png
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-04-28
 signer: 
 twitter: KamixApp

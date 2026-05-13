@@ -17,7 +17,6 @@ icon: com.app.investyKbill.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2021-11-26
 signer: 
 twitter: 

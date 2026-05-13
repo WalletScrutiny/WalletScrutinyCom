@@ -18,7 +18,6 @@ icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: []
 date: 2025-01-13
 signer: 
 twitter: bullbitcoin_

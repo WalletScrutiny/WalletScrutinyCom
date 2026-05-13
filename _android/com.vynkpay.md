@@ -18,7 +18,6 @@ icon: com.vynkpay.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-12-31
 signer: 
 twitter: vynkgroup

@@ -21,7 +21,6 @@ icon: onekey.lite.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2023-03-01
 signer: 
 twitter: OneKeyHQ

@@ -17,7 +17,6 @@ icon: com.antier.infipay.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2025-04-09
 signer: 
 twitter: 

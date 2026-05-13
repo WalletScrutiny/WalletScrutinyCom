@@ -17,7 +17,6 @@ icon: jp.fcce.zaifapps.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-02-05
 signer: 
 twitter: zaifdotjp

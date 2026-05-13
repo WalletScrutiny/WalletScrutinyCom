@@ -17,7 +17,6 @@ icon: com.finverse-labs.openwallet-mainnet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-11-14
 signer: 
 twitter: openwallet_com

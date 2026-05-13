@@ -18,7 +18,6 @@ icon: com.metallicus.metalapp.production.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2021-10-21
 signer: 
 twitter: metalpaysme

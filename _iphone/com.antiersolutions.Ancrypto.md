@@ -17,7 +17,6 @@ icon: com.antiersolutions.Ancrypto.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-07-01
 signer: 
 twitter: AnCryptoWallet

@@ -18,7 +18,6 @@ icon: ilcbtc.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2025-09-03
 signer: 
 twitter: ILC_B_Project

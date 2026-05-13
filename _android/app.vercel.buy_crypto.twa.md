@@ -17,7 +17,6 @@ icon: app.vercel.buy_crypto.twa.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 

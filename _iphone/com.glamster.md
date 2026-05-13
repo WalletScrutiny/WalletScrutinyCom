@@ -17,7 +17,6 @@ icon: com.glamster.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-06-20
 signer: 
 twitter: 

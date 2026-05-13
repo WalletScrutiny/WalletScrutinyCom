@@ -18,7 +18,6 @@ icon: com.nexdax.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-08-19
 signer: 
 twitter: nexdax_exchange

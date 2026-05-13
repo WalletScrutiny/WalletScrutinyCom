@@ -18,7 +18,6 @@ icon: web.xusdt.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-05
 signer: 
 twitter: 

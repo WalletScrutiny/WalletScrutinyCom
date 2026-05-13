@@ -18,7 +18,6 @@ icon: com.u8ex.app22.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-06-07
 signer: 
 twitter: 

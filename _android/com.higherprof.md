@@ -17,7 +17,6 @@ icon: com.higherprof.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2024-11-30
 signer: 
 twitter: 

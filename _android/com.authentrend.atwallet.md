@@ -17,7 +17,6 @@ icon: com.authentrend.atwallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2025-09-17
 signer: 
 twitter: 

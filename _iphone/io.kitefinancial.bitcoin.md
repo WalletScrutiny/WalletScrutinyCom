@@ -17,7 +17,6 @@ icon: io.kitefinancial.bitcoin.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
-appHashes: 
 date: 2026-02-02
 signer: 
 twitter: kite_financial

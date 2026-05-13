@@ -17,7 +17,6 @@ icon: io.leather.mobilewallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2026-05-02
 signer: 
 twitter: leatherbtc

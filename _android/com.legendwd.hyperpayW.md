@@ -19,7 +19,6 @@ icon: com.legendwd.hyperpayW.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: []
 date: 2025-01-22
 signer: 
 twitter: HyperPay_tech

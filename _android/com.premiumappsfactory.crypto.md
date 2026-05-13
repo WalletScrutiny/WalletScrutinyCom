@@ -17,7 +17,6 @@ icon: com.premiumappsfactory.crypto.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2026-01-08
 signer: 
 twitter: 

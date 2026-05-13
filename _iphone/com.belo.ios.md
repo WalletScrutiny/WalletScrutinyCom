@@ -17,7 +17,6 @@ icon: com.belo.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2023-06-30
 signer: 
 twitter: belo_app

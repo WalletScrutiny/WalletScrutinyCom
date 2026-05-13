@@ -18,7 +18,6 @@ icon: com.voicapps.app2cash.png
 bugbounty: 
 meta: removed
 verdict: custodial
-appHashes: 
 date: 2024-11-04
 signer: 
 twitter: 2cashnetwork

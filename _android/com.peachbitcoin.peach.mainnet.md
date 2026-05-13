@@ -18,7 +18,6 @@ icon: com.peachbitcoin.peach.mainnet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-11-26
 signer: 
 twitter: peachbitcoin

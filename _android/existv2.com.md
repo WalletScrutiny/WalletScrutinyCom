@@ -18,7 +18,6 @@ icon: existv2.com.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2022-06-23
 signer: 
 twitter: nyecoin1

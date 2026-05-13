@@ -17,7 +17,6 @@ icon: com.gopop.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: 

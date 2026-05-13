@@ -18,7 +18,6 @@ icon: io.noah.pro.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-01-26
 signer: 
 twitter: Bitradexen

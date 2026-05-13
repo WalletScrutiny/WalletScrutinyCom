@@ -18,7 +18,6 @@ icon: watt.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-02-26
 signer: 
 twitter: watt_me_token

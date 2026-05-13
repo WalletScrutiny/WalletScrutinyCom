@@ -17,7 +17,6 @@ icon: app.mybitstore.com.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-appHashes: 
 date: 2026-02-20
 signer: 
 twitter: mybitstore

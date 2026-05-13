@@ -17,7 +17,6 @@ icon: io.sylo.dapp.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
-appHashes: 
 date: 2025-02-04
 signer: 
 twitter: sylo

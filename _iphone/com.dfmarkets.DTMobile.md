@@ -17,7 +17,6 @@ icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes: 
 date: 2026-01-28
 signer: 
 twitter: deltastock

@@ -19,8 +19,6 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- dff1afc579b1df3dfeb0c5f6f5c79ade9f3670939128c3b314d84ed69f5a4bc6
 date: 2025-03-07
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 twitter: MyceliumCom

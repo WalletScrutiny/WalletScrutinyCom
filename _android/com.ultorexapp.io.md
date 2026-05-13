@@ -18,7 +18,6 @@ icon: com.ultorexapp.io.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2024-11-28
 signer: 
 twitter: UltorexOfficial

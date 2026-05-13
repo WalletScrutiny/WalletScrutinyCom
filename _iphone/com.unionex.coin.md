@@ -17,7 +17,6 @@ icon: com.unionex.coin.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: UnionExGlobal

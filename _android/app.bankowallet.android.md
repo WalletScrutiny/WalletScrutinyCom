@@ -18,7 +18,6 @@ icon: app.bankowallet.android.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-05-10
 signer: 
 twitter: BankoWallet1

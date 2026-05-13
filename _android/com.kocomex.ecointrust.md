@@ -17,7 +17,6 @@ icon: com.kocomex.ecointrust.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-appHashes: 
 date: 2022-06-23
 signer: 
 twitter: 

@@ -21,7 +21,6 @@ icon: io.quickx.png
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: quickxprotocol

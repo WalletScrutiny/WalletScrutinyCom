@@ -18,7 +18,6 @@ icon: com.b4uglobal.app.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-02-08
 signer: 
 twitter: 

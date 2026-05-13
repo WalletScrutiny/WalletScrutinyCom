@@ -21,7 +21,6 @@ icon: securosys.primusblockchain.hsm.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-05-18
 signer: 
 twitter: securosys

@@ -16,7 +16,6 @@ icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 meta: removed
 verdict: sourceavailable
-appHashes: 
 date: 2022-03-07
 signer: 
 twitter: btccom_official

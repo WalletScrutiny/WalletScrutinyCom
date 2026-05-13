@@ -17,7 +17,6 @@ icon: com.sallet.walletBit.jpg
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-04-16
 signer: 
 twitter: salletone

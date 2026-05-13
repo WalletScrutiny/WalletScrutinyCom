@@ -18,7 +18,6 @@ icon: co.sarwa.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
-appHashes: 
 date: 2026-05-05
 signer: 
 twitter: SarwaCo

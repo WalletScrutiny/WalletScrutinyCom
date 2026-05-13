@@ -17,7 +17,6 @@ icon: com.hustay.swing.d0650e12218a242e795ba79342da8f84b.png
 bugbounty: 
 meta: removed
 verdict: wip
-appHashes: 
 date: 2023-08-04
 signer: 
 twitter: 
