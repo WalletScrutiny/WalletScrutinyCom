@@ -8,8 +8,8 @@ appId: com.btc.trustless
 appCountry: it
 idd: 
 released: 2026-02-03
-updated: 2026-02-03
-version: 1.0.0
+updated: 2026-05-12
+version: 2.0.0
 reviews: 0
 website: https://trustlesswallet.github.io/Trustless/
 repository: https://github.com/TrustlessWallet/Trustless
@@ -20,7 +20,7 @@ verdict: wip
 appHashes: 
 date: 2026-02-03
 signer: 
-twitter: 
+twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
 features: 
