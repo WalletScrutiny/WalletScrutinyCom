@@ -24,8 +24,27 @@ const getPrimaryFileName = event => {
   return getFirstTagValue(event, 'file-name');
 };
 
-// Filter table rows
-async function updateTableVisibility() {
+function fingerprintAllAssetInformation(info) {
+  if (!info?.assets || !info.verifications || !info.draftVerifications) {
+    return '';
+  }
+  const encodeMap = (map, prefix) => {
+    const pairs = [...map.entries()].sort((a, b) => String(a[0]).localeCompare(String(b[0])));
+    return prefix + pairs.map(([k, arr]) => {
+      const ids = (arr || []).map(e => e.id).sort().join(',');
+      return `${k}=${ids}`;
+    }).join(';');
+  };
+  return [
+    encodeMap(info.assets, 'a:'),
+    encodeMap(info.verifications, 'v:'),
+    encodeMap(info.draftVerifications, 'd:'),
+    String(info.oldestEventTimestamp ?? '')
+  ].join('|');
+}
+
+// Filter table rows (core logic; use updateTableVisibility for filter + optional blossom hook)
+async function updateTableVisibilityCore() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
@@ -35,6 +54,9 @@ async function updateTableVisibility() {
 
   // Get all rows except header and show-more
   const assetsTableElement = document.getElementById('assetsTable');
+  if (!assetsTableElement) {
+    return;
+  }
 
   // Find Verifications cell index by looking at the header text
   const headerCells = Array.from(assetsTableElement.querySelectorAll('th'));
@@ -104,6 +126,16 @@ async function updateTableVisibility() {
   });
 }
 
+let assetsTableBlossomFilterHook = null;
+let assetsTableBlossomObserver = null;
+
+async function updateTableVisibility() {
+  await updateTableVisibilityCore();
+  if (typeof assetsTableBlossomFilterHook === 'function') {
+    assetsTableBlossomFilterHook();
+  }
+}
+
 window.renderAssetsTable = async function({
                                             htmlElementId,
                                             pubkey,
@@ -121,26 +153,18 @@ window.renderAssetsTable = async function({
                                             showIssueTracker = false,
                                             showOnlyRegisteredAssets = false,
                                             tableLoadedCallback = null,
-                                            getDrafts = true
+                                            getDrafts = true,
+                                            months
                                           }) {
   let hasAssets = false;
-
-  response = await getAllAssetInformation({
-    pubkey,
-    appId,
-    sha256,
-    getDrafts
-  });
+  let cachePaintFingerprint = null;
+  let cachePaintResult = null;
 
   try {
     window.userPubkey = await getUserPubkey();
   } catch (e) {
     console.error("Error getting user pubkey:", e);
     window.userPubkey = null;
-  }
-
-  if (showIssueTracker) {
-    showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
   }
 
   if (!document.getElementById('verificationModal')) {
@@ -248,8 +272,178 @@ window.renderAssetsTable = async function({
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
   }
 
+  window.downloadBlossomFile = async (hash, filename) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-  let hasVerifications = false;
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+
+  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const filenameFromURL = response.url?.split('/').pop() ?? hash;
+
+      let filename = '';
+      const platform = downloadIcon.getAttribute('data-platform');
+      const version = downloadIcon.getAttribute('data-version');
+      const appid = downloadIcon.getAttribute('data-appid');
+      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
+
+      if (filenameFromEvent) {
+        filename = `${filenameFromEvent}`;
+      } else {
+        filename = `${appid}-${version}-${filenameFromURL}`;
+        if (platform === 'android') {
+          filename += '.apk';
+        }
+      }
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+
+  function setupBlossomDownloadObserverForTable(tableForObserver) {
+    if (assetsTableBlossomObserver) {
+      assetsTableBlossomObserver.disconnect();
+      assetsTableBlossomObserver = null;
+    }
+    assetsTableBlossomFilterHook = null;
+
+    const observedHashes = new Set();
+
+    assetsTableBlossomObserver = new IntersectionObserver((entries) => {
+      entries.forEach(async entry => {
+        if (entry.isIntersecting) {
+          const row = entry.target;
+          const blossomDownloads = row.querySelectorAll('.blossom-download');
+
+          for (const downloadIcon of blossomDownloads) {
+            const hash = downloadIcon.id.replace('blossom-', '');
+
+            if (observedHashes.has(hash)) continue;
+            observedHashes.add(hash);
+
+            try {
+              if (await checkFileExistsInBlossom(hash)) {
+                downloadIcon.style.display = 'inline';
+                downloadIcon.onclick = async () => {
+                  const modal = document.getElementById('blossomWarningModal');
+                  const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+                  const closeButton = document.getElementById('blossomCloseModalButton');
+
+                  const downloadAction = () => {
+                    downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
+                    modal.style.display = 'none';
+                  };
+
+                  confirmButton.replaceWith(confirmButton.cloneNode(true));
+                  const newConfirmButton = document.getElementById('blossomConfirmDownloadButton');
+                  newConfirmButton.addEventListener('click', downloadAction);
+
+                  const closeModal = () => {
+                    modal.style.display = 'none';
+                  };
+                  closeButton.onclick = closeModal;
+                  modal.onclick = (event) => {
+                    if (event.target === modal) {
+                      closeModal();
+                    }
+                  };
+
+                  modal.style.display = 'block';
+                };
+              }
+            } catch (error) {
+              console.error(`Error checking hash ${hash} in Blossom:`, error);
+            }
+          }
+        }
+      });
+    }, {
+      root: null,
+      rootMargin: '100px',
+      threshold: 0.1
+    });
+
+    const tableRows = tableForObserver.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+    tableRows.forEach(row => {
+      assetsTableBlossomObserver.observe(row);
+    });
+
+    function updateObserverForVisibleRows() {
+      const visibleRows = Array.from(tableForObserver.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
+      visibleRows.forEach(row => {
+        assetsTableBlossomObserver.observe(row);
+      });
+    }
+
+    assetsTableBlossomFilterHook = () => {
+      updateObserverForVisibleRows();
+    };
+
+    updateObserverForVisibleRows();
+  }
+
+  function removeAssetsTableDynamicContent() {
+    if (assetsTableBlossomObserver) {
+      assetsTableBlossomObserver.disconnect();
+      assetsTableBlossomObserver = null;
+    }
+    assetsTableBlossomFilterHook = null;
+    const host = document.getElementById(htmlElementId);
+    if (!host) {
+      return;
+    }
+    host.querySelectorAll('.issue-tracker-container').forEach(el => el.remove());
+    host.querySelector('#assetsTable')?.remove();
+    host.querySelectorAll('.assets-table-attachments-wrap').forEach(el => el.remove());
+  }
+
+  function applyDraftRowMetadataToTable(tableEl) {
+    const rows = tableEl.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+    rows.forEach(row => {
+      const verifications = Array.from(row.querySelectorAll('.attestation-link'));
+      let pubkeyVerifications = [];
+      verifications.forEach(verification => {
+        const pk = verification.getAttribute('data-pubkey_verifiers');
+        if (pk) {
+          pubkeyVerifications.push(pk);
+        }
+      });
+      if (verifications.length > 0 && verifications.every(verification => verification.classList.contains('draft-attestation'))) {
+        row.classList.add('draft-attestation');
+        if (pubkeyVerifications.length > 0) {
+          row.dataset.pubkey_verifiers = pubkeyVerifications.join(', ');
+        }
+      }
+    });
+  }
+
+  function paintMainAssetsTable(assetInfo) {
+    response = assetInfo;
+    let hasVerificationsLocal = false;
+    let hasAssetsLocal = false;
 
   let combinedItems = new Map();
 
@@ -264,51 +458,6 @@ window.renderAssetsTable = async function({
   mergeIntoCombined(response.verifications);
   mergeIntoCombined(response.draftVerifications);
   mergeIntoCombined(response.assets);
-
-  // Helper function to find verification by ID across all SHA256 hashes
-  const findVerificationById = (idToFind) => {
-    const allMaps = [response.verifications, response.draftVerifications];
-    for (const map of allMaps) {
-      if (map) { // Check if the map exists (drafts might not)
-        for (const [sha256, attestations] of map.entries()) {
-          const found = attestations.find(att => att.id === idToFind);
-          if (found) {
-            return { verification: found, sha256Hash: sha256 };
-          }
-        }
-      }
-    }
-    return null;
-  };
-
-  // Check URL hash for verification details after fetching data
-  if (location.hash.startsWith('#verificationId=')) {
-    const params = new URLSearchParams(location.hash.substring(1));
-    const verificationId = params.get('verificationId');
-
-    if (verificationId) {
-      const result = findVerificationById(verificationId);
-
-      if (result) {
-        const { verification, sha256Hash } = result;
-        // Extract appId and platform from the found verification's tags
-        const appIdFromVerification = getFirstTagValue(verification, 'i');
-        const platformFromVerification = getFirstTagValue(verification, 'platform');
-
-        // Call showVerificationModal after a short delay
-        setTimeout(() => {
-          window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
-        }, 100);
-      } else {
-        // Clear the hash if the verification ID is invalid/not found
-        console.warn('Verification ID from URL hash not found:', verificationId);
-        history.pushState("", document.title, window.location.pathname + window.location.search);
-      }
-    } else {
-      // Clear incomplete hash
-      history.pushState("", document.title, window.location.pathname + window.location.search);
-    }
-  }
 
   // It's items because they can be verifications or assets (no status or content)
   // Convert to array and sort by most recent item in each group
@@ -447,7 +596,7 @@ window.renderAssetsTable = async function({
       }
 
       if (thisHashHasAssets) {
-        hasAssets = true;
+        hasAssetsLocal = true;
       }
       
       // Get description, guess if it's an asset or a verification
@@ -459,7 +608,7 @@ window.renderAssetsTable = async function({
 
       let verificationsList;
       if (attestations.length > 0) {
-        hasVerifications = true;
+        hasVerificationsLocal = true;
 
         const latestVerificationsByUser = new Map();
         for (const attestation of attestations) {
@@ -591,10 +740,127 @@ window.renderAssetsTable = async function({
 
   document.getElementById(htmlElementId).appendChild(table);
 
-  // At this point, the table is fully loaded and displayed,
-  // so we can call the callback function if it was provided,
-  // so the caller can do something like hide the loading spinner
-  if (typeof tableLoadedCallback === 'function') {
+    return {
+      table,
+      sortedItems,
+      attachmentEventIDs,
+      endorsementEventIDs,
+      profilePubkeys,
+      hasAssets: hasAssetsLocal,
+      hasVerifications: hasVerificationsLocal
+    };
+  }
+
+  response = await getAllAssetInformation({
+    pubkey,
+    appId,
+    sha256,
+    getDrafts,
+    months,
+    onCachedDataLoaded: (cachedData) => {
+      removeAssetsTableDynamicContent();
+      const pr = paintMainAssetsTable(cachedData);
+      hasAssets = pr.hasAssets;
+      cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
+      cachePaintResult = pr;
+      applyDraftRowMetadataToTable(pr.table);
+      void updateTableVisibility();
+      setupBlossomDownloadObserverForTable(pr.table);
+      if (typeof tableLoadedCallback === 'function') {
+        tableLoadedCallback();
+      }
+    }
+  });
+
+  let skipRepaint = cachePaintFingerprint !== null &&
+    fingerprintAllAssetInformation(response) === cachePaintFingerprint;
+  if (skipRepaint && !document.getElementById('assetsTable')) {
+    skipRepaint = false;
+  }
+
+  if (!skipRepaint) {
+    removeAssetsTableDynamicContent();
+  }
+
+  if (showIssueTracker) {
+    await showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
+    const host = document.getElementById(htmlElementId);
+    const issueEl = host?.querySelector('.issue-tracker-container');
+    const searchEl = host?.querySelector('.assets-search-container');
+    if (issueEl && searchEl) {
+      host.insertBefore(issueEl, searchEl);
+    }
+  }
+
+  let paintResult;
+  let table;
+  let sortedItems;
+  let attachmentEventIDs;
+  let endorsementEventIDs;
+  let profilePubkeys;
+
+  if (skipRepaint) {
+    paintResult = cachePaintResult;
+    hasAssets = paintResult.hasAssets;
+    sortedItems = paintResult.sortedItems;
+    attachmentEventIDs = paintResult.attachmentEventIDs;
+    endorsementEventIDs = paintResult.endorsementEventIDs;
+    profilePubkeys = paintResult.profilePubkeys;
+    table = document.getElementById('assetsTable');
+  } else {
+    paintResult = paintMainAssetsTable(response);
+    hasAssets = paintResult.hasAssets;
+    sortedItems = paintResult.sortedItems;
+    attachmentEventIDs = paintResult.attachmentEventIDs;
+    endorsementEventIDs = paintResult.endorsementEventIDs;
+    profilePubkeys = paintResult.profilePubkeys;
+    table = paintResult.table;
+  }
+
+  let hasVerifications = paintResult.hasVerifications;
+
+  function findVerificationByIdInMaps(assetMapsResponse, idToFind) {
+    const allMaps = [assetMapsResponse.verifications, assetMapsResponse.draftVerifications];
+    for (const map of allMaps) {
+      if (map) {
+        for (const [sha256, attestations] of map.entries()) {
+          const found = attestations.find(att => att.id === idToFind);
+          if (found) {
+            return { verification: found, sha256Hash: sha256 };
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  if (location.hash.startsWith('#verificationId=')) {
+    const params = new URLSearchParams(location.hash.substring(1));
+    const verificationId = params.get('verificationId');
+
+    if (verificationId) {
+      const result = findVerificationByIdInMaps(response, verificationId);
+
+      if (result) {
+        const { verification, sha256Hash } = result;
+        const appIdFromVerification = getFirstTagValue(verification, 'i');
+        const platformFromVerification = getFirstTagValue(verification, 'platform');
+
+        setTimeout(() => {
+          window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
+        }, 100);
+      } else {
+        console.warn('Verification ID from URL hash not found:', verificationId);
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
+    } else {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
+  }
+
+  applyDraftRowMetadataToTable(table);
+
+  if (!skipRepaint && typeof tableLoadedCallback === 'function') {
     tableLoadedCallback();
   }
 
@@ -612,12 +878,14 @@ window.renderAssetsTable = async function({
       }
     });
 
+    let attachmentsTable = null;
     if (showAttachmentsTable) {
+      const wrap = document.createElement('div');
+      wrap.className = 'assets-table-attachments-wrap';
       const paragraph = document.createElement('p');
       paragraph.innerHTML = 'Scripts used to reproduce the application:';
-      document.getElementById(htmlElementId).appendChild(paragraph);
-
-      const attachmentsTable = document.createElement('table');
+      wrap.appendChild(paragraph);
+      attachmentsTable = document.createElement('table');
       attachmentsTable.innerHTML = `
         <thead>
           <tr>
@@ -626,6 +894,8 @@ window.renderAssetsTable = async function({
           </tr>
         </thead>
       `;
+      wrap.appendChild(attachmentsTable);
+      document.getElementById(htmlElementId).appendChild(wrap);
     }
 
     attachments.forEach(attachment => {
@@ -642,18 +912,18 @@ window.renderAssetsTable = async function({
         sizeInKb: sizeInKb
       };
 
-      if (showAttachmentsTable) {
+      if (showAttachmentsTable && attachmentsTable) {
         const row = document.createElement('tr');
-        if (verifications.some(v => v.kind === verificationDraftKind)) {
-          row.classList.add('draft-attestation');
-        }
 
-        // Find in sortedItems the specific verification items that use this attachment
         const verifications = sortedItems.flatMap(item =>
           item.items.filter(i =>
             i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
           )
         );
+
+        if (verifications.some(v => v.kind === verificationDraftKind)) {
+          row.classList.add('draft-attestation');
+        }
 
         const date = formatDate(attachment.created_at);
 
@@ -682,182 +952,17 @@ window.renderAssetsTable = async function({
         }
 
         rowHTML += `</td>`;
-      
+
         row.innerHTML = rowHTML;
 
         attachmentsTable.appendChild(row);
       }
     });
-
-    if (showAttachmentsTable) {
-      document.getElementById(htmlElementId).appendChild(attachmentsTable);
-    }
   }
 
-  // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
-  const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
-  rows.forEach(row => {
-    const verifications = Array.from(row.querySelectorAll('.attestation-link'));
-
-    let pubkeyVerifications = [];
-    verifications.forEach(verification => {
-      const pubkey = verification.getAttribute('data-pubkey_verifiers');
-      if (pubkey) {
-        pubkeyVerifications.push(pubkey);
-      }
-    });
-
-    if (verifications.length > 0 && verifications.every(verification => verification.classList.contains('draft-attestation'))) {
-      row.classList.add('draft-attestation');
-      if (pubkeyVerifications.length > 0) {
-        row.dataset.pubkey_verifiers = pubkeyVerifications.join(', ');
-      }
-    }
-  });
-
-  // Setup Intersection Observer for lazy loading Blossom checks
-  const observedHashes = new Set();
-
-  // --- Helper function for actual download with data in downloadIcon ---
-  window.downloadBlossomFile = async (hash, filename) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      // This makes the download process way slower, but it's
-      // the only way to change to a different filename
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href); // Clean up blob URL
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
-  };
-  // --- End helper function ---
-
-  // --- Helper function for actual download with data in downloadIcon ---
-  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      // This makes the download process way slower, but it's
-      // the only way to change to a different filename
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const filenameFromURL = response.url?.split('/').pop() ?? hash;
-
-      let filename = '';
-      const platform = downloadIcon.getAttribute('data-platform');
-      const version = downloadIcon.getAttribute('data-version');
-      const appid = downloadIcon.getAttribute('data-appid');
-      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
-
-      if (filenameFromEvent) {
-        filename = `${filenameFromEvent}`;
-      } else {
-        filename = `${appid}-${version}-${filenameFromURL}`;
-        if (platform === 'android') {
-          filename += '.apk';
-        }
-      }
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href); // Clean up blob URL
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
-  };
-  // --- End helper function ---
-
-  const blossomObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach(async entry => {
-      if (entry.isIntersecting) {
-        const row = entry.target;
-        const blossomDownloads = row.querySelectorAll('.blossom-download');
-
-        for (const downloadIcon of blossomDownloads) {
-          const hash = downloadIcon.id.replace('blossom-', '');
-
-          // Skip if we've already checked this hash
-          if (observedHashes.has(hash)) continue;
-          observedHashes.add(hash);
-
-          try {
-            if (await checkFileExistsInBlossom(hash)) {
-              downloadIcon.style.display = 'inline';
-              downloadIcon.onclick = async () => {
-                const modal = document.getElementById('blossomWarningModal');
-                const confirmButton = document.getElementById('blossomConfirmDownloadButton');
-                const closeButton = document.getElementById('blossomCloseModalButton');
-
-                const downloadAction = () => {
-                  downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
-                  modal.style.display = 'none';
-                };
-
-                // Remove previous listener to avoid duplicates if clicked multiple times
-                confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
-                const newConfirmButton = document.getElementById('blossomConfirmDownloadButton');
-                newConfirmButton.addEventListener('click', downloadAction);
-
-                const closeModal = () => {
-                  modal.style.display = 'none';
-                };
-                closeButton.onclick = closeModal;
-                modal.onclick = (event) => { // Close if clicking outside the content
-                  if (event.target === modal) {
-                    closeModal();
-                  }
-                };
-
-                modal.style.display = 'block'; // Show the modal
-              };
-            }
-          } catch (error) {
-            console.error(`Error checking hash ${hash} in Blossom:`, error);
-          }
-        }
-      }
-    });
-  }, {
-    root: null, // Use the viewport
-    rootMargin: '100px', // Start loading a bit before they become visible
-    threshold: 0.1 // Trigger when at least 10% of the element is visible
-  });
-
-  // Observe all rows in the table
-  const tableRows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
-  tableRows.forEach(row => {
-    blossomObserver.observe(row);
-  });
-
-  // Function to handle filtering and update observer
-  function updateObserverForVisibleRows() {
-    const visibleRows = Array.from(table.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
-
-    // Re-observe all visible rows to trigger checks for newly visible elements
-    visibleRows.forEach(row => {
-      blossomObserver.observe(row);
-    });
+  if (!skipRepaint) {
+    setupBlossomDownloadObserverForTable(table);
   }
-
-  // Hook into the existing updateTableVisibility function to update observer when filtering
-  const originalUpdateTableVisibility = updateTableVisibility;
-  updateTableVisibility = function() {
-    originalUpdateTableVisibility();
-    updateObserverForVisibleRows();
-  };
-
-  // Initial check for visible rows
-  updateObserverForVisibleRows();
 
   if (showProfilePictures) {
     profilePubkeys.forEach(async pubkey => {

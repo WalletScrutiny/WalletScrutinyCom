@@ -1391,6 +1391,14 @@ const getAllAssetInformation = async function({ months,
   let newestEventTimestamp = 0;
 
   const targetKinds = kinds || (getDrafts ? [assetRegistrationKind, verificationKind, verificationDraftKind] : [assetRegistrationKind, verificationKind]);
+  let baseSince = verificationEventsSinceTS;
+  if (months) {
+    console.debug(`Getting events from last ${months} months`);
+    baseSince = getTimestampMonthsAgo(months);
+  } else if (since) {
+    console.debug(`Getting events from ${since} onwards`);
+    baseSince = since;
+  }
 
   // 1. Load from IDB
   try {
@@ -1424,6 +1432,10 @@ const getAllAssetInformation = async function({ months,
           includeEvent = false;
         }
 
+        if (includeEvent && months && eventData.created_at != null && eventData.created_at < baseSince) {
+          includeEvent = false;
+        }
+
         if (includeEvent) {
           const ndkEvent = new NDKEvent(ndk, eventData);
           events.add(ndkEvent);
@@ -1443,9 +1455,8 @@ const getAllAssetInformation = async function({ months,
 
       if (loadedFromIDB && onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const reportedIds = await resolveReportedVerificationIds(new Set(events));
-        const result = processEventsToResult(new Set(events), oldestEventTimestamp, reportedIds);
-        onCachedDataLoaded(result);
+        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, new Set());
+        onCachedDataLoaded(quickResult);
       }
     }
   } catch (e) {
@@ -1454,15 +1465,6 @@ const getAllAssetInformation = async function({ months,
 
   // 2. Determine what to fetch from network
   const filter = { kinds: targetKinds };
-  let baseSince = verificationEventsSinceTS;
-
-  if (months) {
-    console.debug(`Getting events from last ${months} months`);
-    baseSince = getTimestampMonthsAgo(months);
-  } else if (since) {
-    console.debug(`Getting events from ${since} onwards`);
-    baseSince = since;
-  }
 
   // Smart sync: fetch newer events
   if (loadedFromIDB && !until && !singleBatch) {

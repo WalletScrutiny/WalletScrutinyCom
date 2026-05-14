@@ -27,7 +27,7 @@
       // If not on the home page, wait 1 second to let verifications load first
       // If it's the home page, we want it as fast as possible
       {% if page.url != "/" %}
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 2000));
       {% endif %}
 
       // Load with cache - this will fire the event IMMEDIATELY with cached data
