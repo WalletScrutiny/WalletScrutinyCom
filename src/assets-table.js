@@ -24,6 +24,25 @@ const getPrimaryFileName = event => {
   return getFirstTagValue(event, 'file-name');
 };
 
+function fingerprintAllAssetInformation(info) {
+  if (!info?.assets || !info.verifications || !info.draftVerifications) {
+    return '';
+  }
+  const encodeMap = (map, prefix) => {
+    const pairs = [...map.entries()].sort((a, b) => String(a[0]).localeCompare(String(b[0])));
+    return prefix + pairs.map(([k, arr]) => {
+      const ids = (arr || []).map(e => e.id).sort().join(',');
+      return `${k}=${ids}`;
+    }).join(';');
+  };
+  return [
+    encodeMap(info.assets, 'a:'),
+    encodeMap(info.verifications, 'v:'),
+    encodeMap(info.draftVerifications, 'd:'),
+    String(info.oldestEventTimestamp ?? '')
+  ].join('|');
+}
+
 // Filter table rows (core logic; use updateTableVisibility for filter + optional blossom hook)
 async function updateTableVisibilityCore() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
@@ -138,6 +157,8 @@ window.renderAssetsTable = async function({
                                             months
                                           }) {
   let hasAssets = false;
+  let cachePaintFingerprint = null;
+  let cachePaintResult = null;
 
   try {
     window.userPubkey = await getUserPubkey();
@@ -740,6 +761,8 @@ window.renderAssetsTable = async function({
       removeAssetsTableDynamicContent();
       const pr = paintMainAssetsTable(cachedData);
       hasAssets = pr.hasAssets;
+      cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
+      cachePaintResult = pr;
       applyDraftRowMetadataToTable(pr.table);
       void updateTableVisibility();
       setupBlossomDownloadObserverForTable(pr.table);
@@ -749,7 +772,16 @@ window.renderAssetsTable = async function({
     }
   });
 
-  removeAssetsTableDynamicContent();
+  let skipRepaint = cachePaintFingerprint !== null &&
+    fingerprintAllAssetInformation(response) === cachePaintFingerprint;
+  if (skipRepaint && !document.getElementById('assetsTable')) {
+    skipRepaint = false;
+  }
+
+  if (!skipRepaint) {
+    removeAssetsTableDynamicContent();
+  }
+
   if (showIssueTracker) {
     await showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
     const host = document.getElementById(htmlElementId);
@@ -760,14 +792,32 @@ window.renderAssetsTable = async function({
     }
   }
 
-  const paintResult = paintMainAssetsTable(response);
-  hasAssets = paintResult.hasAssets;
+  let paintResult;
+  let table;
+  let sortedItems;
+  let attachmentEventIDs;
+  let endorsementEventIDs;
+  let profilePubkeys;
+
+  if (skipRepaint) {
+    paintResult = cachePaintResult;
+    hasAssets = paintResult.hasAssets;
+    sortedItems = paintResult.sortedItems;
+    attachmentEventIDs = paintResult.attachmentEventIDs;
+    endorsementEventIDs = paintResult.endorsementEventIDs;
+    profilePubkeys = paintResult.profilePubkeys;
+    table = document.getElementById('assetsTable');
+  } else {
+    paintResult = paintMainAssetsTable(response);
+    hasAssets = paintResult.hasAssets;
+    sortedItems = paintResult.sortedItems;
+    attachmentEventIDs = paintResult.attachmentEventIDs;
+    endorsementEventIDs = paintResult.endorsementEventIDs;
+    profilePubkeys = paintResult.profilePubkeys;
+    table = paintResult.table;
+  }
+
   let hasVerifications = paintResult.hasVerifications;
-  const table = paintResult.table;
-  const sortedItems = paintResult.sortedItems;
-  const attachmentEventIDs = paintResult.attachmentEventIDs;
-  const endorsementEventIDs = paintResult.endorsementEventIDs;
-  let profilePubkeys = paintResult.profilePubkeys;
 
   function findVerificationByIdInMaps(assetMapsResponse, idToFind) {
     const allMaps = [assetMapsResponse.verifications, assetMapsResponse.draftVerifications];
@@ -810,7 +860,7 @@ window.renderAssetsTable = async function({
 
   applyDraftRowMetadataToTable(table);
 
-  if (typeof tableLoadedCallback === 'function') {
+  if (!skipRepaint && typeof tableLoadedCallback === 'function') {
     tableLoadedCallback();
   }
 
@@ -910,7 +960,9 @@ window.renderAssetsTable = async function({
     });
   }
 
-  setupBlossomDownloadObserverForTable(table);
+  if (!skipRepaint) {
+    setupBlossomDownloadObserverForTable(table);
+  }
 
   if (showProfilePictures) {
     profilePubkeys.forEach(async pubkey => {
