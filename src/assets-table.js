@@ -251,7 +251,145 @@ window.renderAssetsTable = async function({
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
   }
 
+  window.downloadBlossomFile = async (hash, filename) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+
+  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const filenameFromURL = response.url?.split('/').pop() ?? hash;
+
+      let filename = '';
+      const platform = downloadIcon.getAttribute('data-platform');
+      const version = downloadIcon.getAttribute('data-version');
+      const appid = downloadIcon.getAttribute('data-appid');
+      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
+
+      if (filenameFromEvent) {
+        filename = `${filenameFromEvent}`;
+      } else {
+        filename = `${appid}-${version}-${filenameFromURL}`;
+        if (platform === 'android') {
+          filename += '.apk';
+        }
+      }
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+
+  function setupBlossomDownloadObserverForTable(tableForObserver) {
+    if (assetsTableBlossomObserver) {
+      assetsTableBlossomObserver.disconnect();
+      assetsTableBlossomObserver = null;
+    }
+    assetsTableBlossomFilterHook = null;
+
+    const observedHashes = new Set();
+
+    assetsTableBlossomObserver = new IntersectionObserver((entries) => {
+      entries.forEach(async entry => {
+        if (entry.isIntersecting) {
+          const row = entry.target;
+          const blossomDownloads = row.querySelectorAll('.blossom-download');
+
+          for (const downloadIcon of blossomDownloads) {
+            const hash = downloadIcon.id.replace('blossom-', '');
+
+            if (observedHashes.has(hash)) continue;
+            observedHashes.add(hash);
+
+            try {
+              if (await checkFileExistsInBlossom(hash)) {
+                downloadIcon.style.display = 'inline';
+                downloadIcon.onclick = async () => {
+                  const modal = document.getElementById('blossomWarningModal');
+                  const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+                  const closeButton = document.getElementById('blossomCloseModalButton');
+
+                  const downloadAction = () => {
+                    downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
+                    modal.style.display = 'none';
+                  };
+
+                  confirmButton.replaceWith(confirmButton.cloneNode(true));
+                  const newConfirmButton = document.getElementById('blossomConfirmDownloadButton');
+                  newConfirmButton.addEventListener('click', downloadAction);
+
+                  const closeModal = () => {
+                    modal.style.display = 'none';
+                  };
+                  closeButton.onclick = closeModal;
+                  modal.onclick = (event) => {
+                    if (event.target === modal) {
+                      closeModal();
+                    }
+                  };
+
+                  modal.style.display = 'block';
+                };
+              }
+            } catch (error) {
+              console.error(`Error checking hash ${hash} in Blossom:`, error);
+            }
+          }
+        }
+      });
+    }, {
+      root: null,
+      rootMargin: '100px',
+      threshold: 0.1
+    });
+
+    const tableRows = tableForObserver.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+    tableRows.forEach(row => {
+      assetsTableBlossomObserver.observe(row);
+    });
+
+    function updateObserverForVisibleRows() {
+      const visibleRows = Array.from(tableForObserver.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
+      visibleRows.forEach(row => {
+        assetsTableBlossomObserver.observe(row);
+      });
+    }
+
+    assetsTableBlossomFilterHook = () => {
+      updateObserverForVisibleRows();
+    };
+
+    updateObserverForVisibleRows();
+  }
+
   function removeAssetsTableDynamicContent() {
+    if (assetsTableBlossomObserver) {
+      assetsTableBlossomObserver.disconnect();
+      assetsTableBlossomObserver = null;
+    }
+    assetsTableBlossomFilterHook = null;
     const host = document.getElementById(htmlElementId);
     if (!host) {
       return;
@@ -592,12 +730,6 @@ window.renderAssetsTable = async function({
     };
   }
 
-  if (assetsTableBlossomObserver) {
-    assetsTableBlossomObserver.disconnect();
-    assetsTableBlossomObserver = null;
-  }
-  assetsTableBlossomFilterHook = null;
-
   response = await getAllAssetInformation({
     pubkey,
     appId,
@@ -610,6 +742,7 @@ window.renderAssetsTable = async function({
       hasAssets = pr.hasAssets;
       applyDraftRowMetadataToTable(pr.table);
       void updateTableVisibility();
+      setupBlossomDownloadObserverForTable(pr.table);
       if (typeof tableLoadedCallback === 'function') {
         tableLoadedCallback();
       }
@@ -777,146 +910,7 @@ window.renderAssetsTable = async function({
     });
   }
 
-  // Setup Intersection Observer for lazy loading Blossom checks
-  const observedHashes = new Set();
-
-  // --- Helper function for actual download with data in downloadIcon ---
-  window.downloadBlossomFile = async (hash, filename) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      // This makes the download process way slower, but it's
-      // the only way to change to a different filename
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href); // Clean up blob URL
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
-  };
-  // --- End helper function ---
-
-  // --- Helper function for actual download with data in downloadIcon ---
-  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      // This makes the download process way slower, but it's
-      // the only way to change to a different filename
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const filenameFromURL = response.url?.split('/').pop() ?? hash;
-
-      let filename = '';
-      const platform = downloadIcon.getAttribute('data-platform');
-      const version = downloadIcon.getAttribute('data-version');
-      const appid = downloadIcon.getAttribute('data-appid');
-      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
-
-      if (filenameFromEvent) {
-        filename = `${filenameFromEvent}`;
-      } else {
-        filename = `${appid}-${version}-${filenameFromURL}`;
-        if (platform === 'android') {
-          filename += '.apk';
-        }
-      }
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href); // Clean up blob URL
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
-  };
-  // --- End helper function ---
-
-  assetsTableBlossomObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach(async entry => {
-      if (entry.isIntersecting) {
-        const row = entry.target;
-        const blossomDownloads = row.querySelectorAll('.blossom-download');
-
-        for (const downloadIcon of blossomDownloads) {
-          const hash = downloadIcon.id.replace('blossom-', '');
-
-          // Skip if we've already checked this hash
-          if (observedHashes.has(hash)) continue;
-          observedHashes.add(hash);
-
-          try {
-            if (await checkFileExistsInBlossom(hash)) {
-              downloadIcon.style.display = 'inline';
-              downloadIcon.onclick = async () => {
-                const modal = document.getElementById('blossomWarningModal');
-                const confirmButton = document.getElementById('blossomConfirmDownloadButton');
-                const closeButton = document.getElementById('blossomCloseModalButton');
-
-                const downloadAction = () => {
-                  downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
-                  modal.style.display = 'none';
-                };
-
-                // Remove previous listener to avoid duplicates if clicked multiple times
-                confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
-                const newConfirmButton = document.getElementById('blossomConfirmDownloadButton');
-                newConfirmButton.addEventListener('click', downloadAction);
-
-                const closeModal = () => {
-                  modal.style.display = 'none';
-                };
-                closeButton.onclick = closeModal;
-                modal.onclick = (event) => { // Close if clicking outside the content
-                  if (event.target === modal) {
-                    closeModal();
-                  }
-                };
-
-                modal.style.display = 'block'; // Show the modal
-              };
-            }
-          } catch (error) {
-            console.error(`Error checking hash ${hash} in Blossom:`, error);
-          }
-        }
-      }
-    });
-  }, {
-    root: null, // Use the viewport
-    rootMargin: '100px', // Start loading a bit before they become visible
-    threshold: 0.1 // Trigger when at least 10% of the element is visible
-  });
-
-  // Observe all rows in the table
-  const tableRows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
-  tableRows.forEach(row => {
-    assetsTableBlossomObserver.observe(row);
-  });
-
-  // Function to handle filtering and update observer
-  function updateObserverForVisibleRows() {
-    const visibleRows = Array.from(table.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
-
-    // Re-observe all visible rows to trigger checks for newly visible elements
-    visibleRows.forEach(row => {
-      assetsTableBlossomObserver.observe(row);
-    });
-  }
-
-  assetsTableBlossomFilterHook = () => {
-    updateObserverForVisibleRows();
-  };
-
-  // Initial check for visible rows
-  updateObserverForVisibleRows();
+  setupBlossomDownloadObserverForTable(table);
 
   if (showProfilePictures) {
     profilePubkeys.forEach(async pubkey => {
