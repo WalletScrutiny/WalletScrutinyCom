@@ -9,7 +9,7 @@ appId: com.zedpay.app.android
 alternativeStores: 
 appCountry: 
 released: 2022-10-25
-updated: 2026-02-10
+updated: 2026-05-14
 version: 2.0.0
 reviews: 
 website: https://zed-pay.com

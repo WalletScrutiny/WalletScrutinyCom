@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2013-03-01
 updated: 2026-05-08
-version: 14.17.21
-reviews: 117406
+version: 14.18.13
+reviews: 117443
 website: https://coinbase.com/
 repository: 
 icon: com.coinbase.android.jpg

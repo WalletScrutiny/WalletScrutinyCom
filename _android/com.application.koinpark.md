@@ -9,8 +9,8 @@ appId: com.application.koinpark
 alternativeStores: 
 appCountry: 
 released: 2023-02-04
-updated: 2026-03-24
-version: '1.74'
+updated: 2026-05-14
+version: '1.75'
 reviews: 14
 website: https://www.koinpark.com/
 repository: 

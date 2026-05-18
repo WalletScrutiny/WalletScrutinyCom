@@ -8,9 +8,9 @@ appId: com.bitstack.app
 appCountry: be
 idd: '1608783388'
 released: 2022-07-05
-updated: 2026-05-04
-version: 3.8.5
-reviews: 146
+updated: 2026-05-15
+version: 3.8.6
+reviews: 149
 website: https://www.bitstack-app.com
 repository: 
 icon: com.bitstack.app.jpg

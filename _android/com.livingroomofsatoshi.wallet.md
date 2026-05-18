@@ -10,7 +10,7 @@ appId: com.livingroomofsatoshi.wallet
 alternativeStores: 
 appCountry: 
 released: 2019-05-19
-updated: 2026-04-21
+updated: 2026-05-14
 version: 3.3.1
 reviews: 219
 website: http://www.walletofsatoshi.com

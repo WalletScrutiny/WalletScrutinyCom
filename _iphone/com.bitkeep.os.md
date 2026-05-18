@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: 'Bitget Wallet: Bitcoin, Crypto'
+title: 'Bitget Wallet: Crypto, Markets'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.bitkeep.os
 appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2026-04-30
-version: 9.45.0
-reviews: 5455
+updated: 2026-05-14
+version: 9.46.0
+reviews: 5472
 website: https://web3.bitget.com
 repository: 
 icon: com.bitkeep.os.jpg

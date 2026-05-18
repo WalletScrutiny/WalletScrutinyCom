@@ -9,9 +9,9 @@ appId: com.coinomi.wallet
 alternativeStores: 
 appCountry: 
 released: 2014-01-31
-updated: 2026-04-24
-version: 1.67.0
-reviews: 2327
+updated: 2026-05-15
+version: 1.67.1
+reviews: 2328
 website: https://www.Coinomi.com
 repository: 
 icon: com.coinomi.wallet.png

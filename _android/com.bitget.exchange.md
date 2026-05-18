@@ -11,7 +11,7 @@ appCountry: us
 released: 2020-04-03
 updated: 2026-05-07
 version: 2.82.1
-reviews: 1674
+reviews: 1677
 website: https://www.bitget.com/
 repository: 
 icon: com.bitget.exchange.png

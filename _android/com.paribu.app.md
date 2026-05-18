@@ -9,8 +9,8 @@ appId: com.paribu.app
 alternativeStores: 
 appCountry: 
 released: 2019-06-14
-updated: 2026-05-08
-version: 6.0.5
+updated: 2026-05-18
+version: 6.0.13
 reviews: 115
 website: https://www.paribu.com
 repository: 

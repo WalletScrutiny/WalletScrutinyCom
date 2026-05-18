@@ -9,8 +9,8 @@ appId: com.deblock.deblockapp
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-07
-version: 5.11.1
+updated: 2026-05-14
+version: 5.13.0
 reviews: 10
 website: https://deblock.com/
 repository: 

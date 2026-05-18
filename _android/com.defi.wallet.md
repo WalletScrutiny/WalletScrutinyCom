@@ -12,7 +12,7 @@ appCountry:
 released: 2020-05-11
 updated: 2026-02-11
 version: 2.50.0
-reviews: 3747
+reviews: 3749
 website: https://www.crypto.com
 repository: 
 icon: com.defi.wallet.png

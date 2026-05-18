@@ -4,7 +4,7 @@ title: SmartCash Transact
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.wongeta.smartcashtransact
 alternativeStores: 
 appCountry: 

@@ -9,7 +9,7 @@ appId: com.phonegap.bit2me
 alternativeStores: 
 appCountry: 
 released: 2015-01-08
-updated: 2026-05-04
+updated: 2026-05-18
 version: 3.65.1
 reviews: 55
 website: https://bit2me.com

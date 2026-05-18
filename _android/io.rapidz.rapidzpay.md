@@ -26,7 +26,7 @@ social:
 - https://www.instagram.com/rapidz_io
 - https://www.facebook.com/Rapidz.io
 redirect_from: 
-developerName: UAB Rapidz Pay
+developerName: Rapidz Pay Inc
 builds: 
 features: 
 

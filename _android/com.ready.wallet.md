@@ -3,7 +3,7 @@ wsId:
 title: Ready X
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.ready.wallet
 alternativeStores: 
 appCountry: 

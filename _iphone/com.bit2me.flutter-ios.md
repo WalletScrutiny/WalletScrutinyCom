@@ -10,7 +10,7 @@ idd: '1459809738'
 released: 2019-06-04
 updated: 2026-05-04
 version: 3.65.1
-reviews: 3772
+reviews: 3776
 website: https://bit2me.com
 repository: 
 icon: com.bit2me.flutter-ios.jpg

@@ -9,8 +9,8 @@ appId: com.yuh
 alternativeStores: 
 appCountry: 
 released: 2021-04-06
-updated: 2026-05-07
-version: 1.44.4
+updated: 2026-05-13
+version: 1.44.5
 reviews: 4
 website: https://www.yuh.com
 repository: 

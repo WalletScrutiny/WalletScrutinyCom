@@ -1,6 +1,6 @@
 ---
 wsId: blofin
-title: BloFin
+title: 'BloFin: Trade Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.blofin.app
 appCountry: us
 idd: '1616804346'
 released: 2022-04-15
-updated: 2026-05-01
-version: 3.29.0
-reviews: 1376
+updated: 2026-05-16
+version: 3.30.0
+reviews: 1385
 website: https://blofin.com
 repository: 
 icon: com.blofin.app.jpg

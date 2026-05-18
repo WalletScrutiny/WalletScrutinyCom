@@ -10,7 +10,7 @@ idd: '1476944844'
 released: 2020-05-25
 updated: 2026-04-28
 version: 4.3.2
-reviews: 2348
+reviews: 2383
 website: https://www.bitazza.com
 repository: 
 icon: com.bitazza.ios.jpg

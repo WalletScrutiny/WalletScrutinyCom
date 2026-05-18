@@ -11,7 +11,7 @@ appCountry:
 released: 2023-06-26
 updated: 2026-05-01
 version: 5.4.0
-reviews: 19
+reviews: 20
 website: https://www.ethos.io
 repository: 
 icon: com.ethos2.prod.png

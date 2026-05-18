@@ -9,8 +9,8 @@ appId: com.bitsacard.BitsaApp
 alternativeStores: 
 appCountry: gb
 released: 2019-04-09
-updated: 2026-04-30
-version: 3.0.23
+updated: 2026-05-13
+version: 3.0.24
 reviews: 10
 website: https://www.bitsacard.com
 repository: 

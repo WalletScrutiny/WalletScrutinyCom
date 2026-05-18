@@ -8,8 +8,8 @@ appId: com.BiyaGlobal.Biya
 appCountry: sn
 idd: '1546702297'
 released: 2021-02-09
-updated: 2026-04-30
-version: 3.0.011
+updated: 2026-05-15
+version: 3.0.020
 reviews: 0
 website: 
 repository: 

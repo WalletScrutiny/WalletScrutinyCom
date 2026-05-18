@@ -9,8 +9,8 @@ appId: com.coinhouse
 alternativeStores: 
 appCountry: 
 released: 2025-01-13
-updated: 2026-05-06
-version: 5.3.1
+updated: 2026-05-12
+version: 5.4.0
 reviews: 
 website: https://www.coinhouse.com
 repository: 

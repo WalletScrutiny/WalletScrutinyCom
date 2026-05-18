@@ -11,7 +11,7 @@ appCountry:
 released: 2019-10-31
 updated: 2026-05-08
 version: 5.18.1
-reviews: 7181
+reviews: 7185
 website: https://www.bybit.com
 repository: 
 icon: com.bybit.app.png

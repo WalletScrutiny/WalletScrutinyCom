@@ -9,8 +9,8 @@ appId: com.pi42.app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-06
-version: 2.1.04
+updated: 2026-05-14
+version: 2.2.01
 reviews: 
 website: https://pi42.exchange/
 repository: 

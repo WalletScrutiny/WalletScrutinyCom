@@ -9,8 +9,8 @@ appId: com.relai
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-14
-version: 3.13.0
+updated: 2026-05-15
+version: 3.14.0
 reviews: 
 website: https://relai.app
 repository: 

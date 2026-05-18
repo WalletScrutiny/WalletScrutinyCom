@@ -11,7 +11,7 @@ appCountry:
 released: 2024-03-16
 updated: 2026-03-07
 version: 1.7.11
-reviews: 18
+reviews: 19
 website: https://unisat.io/
 repository: 
 icon: io.unisat.png

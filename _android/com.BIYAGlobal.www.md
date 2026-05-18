@@ -9,8 +9,8 @@ appId: com.BIYAGlobal.www
 alternativeStores: 
 appCountry: 
 released: 2021-04-13
-updated: 2026-04-29
-version: 3.0.011
+updated: 2026-05-14
+version: 3.0.020
 reviews: 15
 website: https://cn.biyapay.com/
 repository: 

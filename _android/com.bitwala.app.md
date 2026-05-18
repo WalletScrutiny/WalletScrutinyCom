@@ -11,7 +11,7 @@ appCountry: gd
 released: 2019-07-11
 updated: 2026-02-17
 version: 4.2.2
-reviews: 3556
+reviews: 3555
 website: https://www.bitwala.com
 repository: 
 icon: com.bitwala.app.png

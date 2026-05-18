@@ -9,8 +9,8 @@ appId: com.finverselabs.openwallet
 alternativeStores: 
 appCountry: 
 released: 2024-07-01
-updated: 2026-04-22
-version: 2026.4.26
+updated: 2026-05-14
+version: 2026.5.30
 reviews: 8
 website: https://openwallet.finance/
 repository: 

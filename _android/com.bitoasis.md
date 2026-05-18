@@ -9,9 +9,9 @@ appId: com.bitoasis
 alternativeStores: 
 appCountry: ae
 released: 2020-08-20
-updated: 2026-05-05
-version: 4.2.2
-reviews: 665
+updated: 2026-05-15
+version: 4.2.4
+reviews: 667
 website: https://bitoasis.net/
 repository: 
 icon: com.bitoasis.png

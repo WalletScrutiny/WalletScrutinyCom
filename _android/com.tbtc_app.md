@@ -11,7 +11,7 @@ appCountry:
 released: 2022-03-17
 updated: 2025-08-26
 version: 0.1.37
-reviews: 21
+reviews: 20
 website: https://thebitcoincompany.com
 repository: 
 icon: com.tbtc_app.png

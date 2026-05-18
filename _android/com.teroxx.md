@@ -9,8 +9,8 @@ appId: com.teroxx
 alternativeStores: 
 appCountry: us
 released: 2019-08-26
-updated: 2026-03-24
-version: 3.0.54
+updated: 2026-05-14
+version: 3.0.55
 reviews: 
 website: https://www.teroxx.com/
 repository: 

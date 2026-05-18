@@ -4,14 +4,14 @@ title: Gate Trade Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 5000000
+users: 10000000
 appId: com.gateio.gateio
 alternativeStores: 
 appCountry: id
 released: 2017-11-03
 updated: 2026-04-29
 version: 8.18.5
-reviews: 7141
+reviews: 7145
 website: https://www.gate.com/
 repository: 
 icon: com.gateio.gateio.png

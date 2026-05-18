@@ -4,14 +4,14 @@ title: Maya – savings, loans, cards​
 altTitle: 
 authors:
 - danny
-users: 10000000
+users: 50000000
 appId: com.paymaya
 alternativeStores: 
 appCountry: 
 released: 2016-06-05
-updated: 2026-04-24
+updated: 2026-05-15
 version: 2.160.1
-reviews: 1211
+reviews: 1213
 website: https://www.maya.ph/
 repository: 
 icon: com.paymaya.png

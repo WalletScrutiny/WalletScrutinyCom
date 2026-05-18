@@ -9,8 +9,8 @@ appId: com.rekeningku
 alternativeStores: 
 appCountry: us
 released: 2018-02-21
-updated: 2026-05-11
-version: 4.5.08
+updated: 2026-05-13
+version: 4.5.10
 reviews: 50
 website: https://reku.id
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinIRA
-title: 'Bitcoin IRA: Buy & Sell Crypto'
+title: 'BitcoinIRA: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.bitcoinira
 appCountry: us
 idd: '1534638949'
 released: 2021-06-20
-updated: 2026-04-22
-version: 2.0.8
-reviews: 1178
+updated: 2026-05-13
+version: 2.0.10
+reviews: 1182
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.jpg

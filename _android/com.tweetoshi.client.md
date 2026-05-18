@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-15
 updated: 2023-02-06
 version: 0.8.5
-reviews: 9
+reviews: 
 website: https://tweetoshi.com
 repository: 
 icon: com.tweetoshi.client.png

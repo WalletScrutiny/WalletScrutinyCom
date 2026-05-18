@@ -8,9 +8,9 @@ appId: com.bitvenus.exchange
 appCountry: us
 idd: '6453759917'
 released: 2023-08-14
-updated: 2026-05-02
-version: 5.7.11
-reviews: 12
+updated: 2026-05-16
+version: 5.7.12
+reviews: 13
 website: 
 repository: 
 icon: com.bitvenus.exchange.jpg

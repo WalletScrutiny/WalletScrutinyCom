@@ -10,7 +10,7 @@ idd: '340408565'
 released: 2009-12-09
 updated: 2026-02-09
 version: 3.45.0
-reviews: 686
+reviews: 687
 website: https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
 repository: 
 icon: com.acm.Mobile-Trader.jpg

@@ -11,7 +11,7 @@ appCountry:
 released: 2021-12-14
 updated: 2026-05-05
 version: '6.7'
-reviews: 15
+reviews: 16
 website: https://www.fasset.io/
 repository: 
 icon: com.fasset.cashapp.png

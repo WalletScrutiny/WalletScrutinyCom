@@ -9,7 +9,7 @@ appId: com.deltaexchangeindia
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-12
+updated: 2026-05-14
 version: 2.16.0
 reviews: 1
 website: https://india.delta.exchange

@@ -9,9 +9,9 @@ appId: app.phantom
 alternativeStores: 
 appCountry: 
 released: 2022-04-12
-updated: 2026-04-28
-version: 26.13.2
-reviews: 2219
+updated: 2026-05-14
+version: 26.13.3
+reviews: 2229
 website: https://phantom.com/
 repository: 
 icon: app.phantom.png

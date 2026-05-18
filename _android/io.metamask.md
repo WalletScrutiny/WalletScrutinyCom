@@ -10,9 +10,9 @@ appId: io.metamask
 alternativeStores: 
 appCountry: 
 released: 2020-09-01
-updated: 2026-05-08
+updated: 2026-05-15
 version: 7.76.0
-reviews: 6606
+reviews: 6617
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 icon: io.metamask.png

@@ -10,7 +10,7 @@ idd: '1627285591'
 released: 2022-10-17
 updated: 2026-04-16
 version: 1.5.0
-reviews: 1832
+reviews: 1837
 website: 
 repository: 
 icon: com.bitoshi.jpg

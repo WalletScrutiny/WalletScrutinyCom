@@ -8,9 +8,9 @@ appId: com.bitsacard.BitsaApp
 appCountry: de
 idd: 1458095544
 released: 2019-04-12
-updated: 2026-04-30
-version: 3.0.23
-reviews: 77
+updated: 2026-05-14
+version: 3.0.24
+reviews: 82
 website: https://www.bitsacard.com/en/
 repository: 
 icon: com.bitsacard.BitsaApp.jpg

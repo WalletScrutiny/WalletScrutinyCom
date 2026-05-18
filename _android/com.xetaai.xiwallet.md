@@ -3,7 +3,7 @@ wsId:
 title: XI Wallet - Crypto Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.xetaai.xiwallet
 alternativeStores: 
 appCountry: 

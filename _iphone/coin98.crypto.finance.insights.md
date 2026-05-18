@@ -10,7 +10,7 @@ idd: '1561969966'
 released: 2021-05-14
 updated: 2026-05-11
 version: 16.12.0
-reviews: 653
+reviews: 654
 website: https://coin98.com
 repository: 
 icon: coin98.crypto.finance.insights.jpg

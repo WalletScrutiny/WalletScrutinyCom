@@ -9,8 +9,8 @@ appId: com.rocketsfintech.accrue
 alternativeStores: 
 appCountry: 
 released: 2021-10-09
-updated: 2026-04-28
-version: 4.9.35
+updated: 2026-05-13
+version: 4.9.36
 reviews: 68
 website: https://useaccrue.com
 repository: 

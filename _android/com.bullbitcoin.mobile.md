@@ -9,8 +9,8 @@ appId: com.bullbitcoin.mobile
 alternativeStores: 
 appCountry: 
 released: 2023-10-31
-updated: 2026-05-11
-version: 6.5.2
+updated: 2026-05-17
+version: 6.10.1
 reviews: 7
 website: http://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile

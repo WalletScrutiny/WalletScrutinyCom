@@ -9,8 +9,8 @@ appId: com.shaketh
 alternativeStores: 
 appCountry: 
 released: 2018-02-20
-updated: 2026-05-04
-version: 4.6.23
+updated: 2026-05-14
+version: 4.6.30
 reviews: 21
 website: https://shakepay.com
 repository: 

@@ -10,7 +10,7 @@ idd: '1528964374'
 released: 2020-11-25
 updated: 2026-05-08
 version: 3.1.17
-reviews: 227
+reviews: 228
 website: https://ecos.am/
 repository: 
 icon: am.ecos.ios.production.jpg

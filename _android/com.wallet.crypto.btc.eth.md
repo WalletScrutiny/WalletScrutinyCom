@@ -9,9 +9,9 @@ appId: com.wallet.crypto.btc.eth
 alternativeStores: 
 appCountry: 
 released: 2023-09-06
-updated: 2026-04-24
-version: 1.10.2
-reviews: 70
+updated: 2026-05-14
+version: 1.10.5
+reviews: 72
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet
 icon: com.wallet.crypto.btc.eth.png

@@ -10,9 +10,9 @@ appId: com.wallet.crypto.trustapp
 alternativeStores: 
 appCountry: 
 released: 2017-10-01
-updated: 2026-05-06
+updated: 2026-05-15
 version: 26.19.0
-reviews: 21112
+reviews: 21124
 website: https://trustwallet.com/
 repository: 
 icon: com.wallet.crypto.trustapp.png

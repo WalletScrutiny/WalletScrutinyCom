@@ -9,8 +9,8 @@ appId: com.wirelessenergy.smartwallet
 alternativeStores: 
 appCountry: 
 released: 2021-09-24
-updated: 2026-03-02
-version: 2.16.1
+updated: 2026-05-16
+version: 2.17.0
 reviews: 
 website: 
 repository: 

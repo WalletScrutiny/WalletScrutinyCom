@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: 'Base: formerly Coinbase Wallet'
+title: 'Base: Built to Trade & Earn'
 altTitle: 
 authors:
 - leo

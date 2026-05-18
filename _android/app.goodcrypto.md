@@ -9,8 +9,8 @@ appId: app.goodcrypto
 alternativeStores: 
 appCountry: 
 released: 2019-05-20
-updated: 2026-03-11
-version: 2.4.4
+updated: 2026-05-14
+version: 2.5.0
 reviews: 150
 website: https://goodcrypto.app
 repository: 

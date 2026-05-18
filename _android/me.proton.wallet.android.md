@@ -9,7 +9,7 @@ appId: me.proton.wallet.android
 alternativeStores: 
 appCountry: 
 released: 2025-02-04
-updated: 2026-04-22
+updated: 2026-05-18
 version: 1.2.6
 reviews: 27
 website: https://proton.me

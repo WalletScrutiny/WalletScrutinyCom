@@ -10,7 +10,7 @@ idd: '6478332344'
 released: 2024-08-16
 updated: 2026-05-11
 version: 2.17.0
-reviews: 19867
+reviews: 19957
 website: https://india.delta.exchange/
 repository: 
 icon: app.deltaexchange.india.jpg

@@ -11,7 +11,7 @@ appCountry:
 released: 2022-12-11
 updated: 2026-03-19
 version: 4.46.0
-reviews: 15
+reviews: 16
 website: https://coinhubatm.com/
 repository: 
 icon: app.coinhubatm.wallet.png

@@ -15,9 +15,9 @@ website:
 repository: 
 icon: app.mudraexchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2025-05-21
+date: 2026-05-18
 signer: 
 twitter: mudraex
 social:

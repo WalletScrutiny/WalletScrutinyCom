@@ -9,8 +9,8 @@ appId: bipa.app.bipa
 alternativeStores: 
 appCountry: 
 released: 2021-01-18
-updated: 2026-05-08
-version: 4.2.32
+updated: 2026-05-15
+version: 4.2.34
 reviews: 13
 website: https://bipa.app/
 repository: 

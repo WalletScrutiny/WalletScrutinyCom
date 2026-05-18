@@ -12,7 +12,7 @@ appCountry: in
 released: 2018-07-16
 updated: 2026-05-08
 version: 4.5.2
-reviews: 126030
+reviews: 126062
 website: https://wazirx.com
 repository: 
 icon: com.wrx.wazirx.png

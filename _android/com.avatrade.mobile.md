@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Trade & Invest'
+title: 'AvaTrade: Trading & Invest'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ released: 2017-05-23
 updated: 2026-04-29
 version: '168.7'
 reviews: 11
-website: http://www.avatrade.com
+website: https://www.avatrade.com/
 repository: 
 icon: com.avatrade.mobile.png
 bugbounty: 

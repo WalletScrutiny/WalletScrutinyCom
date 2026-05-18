@@ -9,9 +9,9 @@ appId: com.app.speedwallet
 alternativeStores: 
 appCountry: 
 released: 2023-06-18
-updated: 2026-05-07
-version: 2.4.37.0.0.2.fp.gps
-reviews: 1288
+updated: 2026-05-15
+version: 2.5.0.0.0.1.fp.gps
+reviews: 1295
 website: https://www.speed.app/
 repository: 
 icon: com.app.speedwallet.png

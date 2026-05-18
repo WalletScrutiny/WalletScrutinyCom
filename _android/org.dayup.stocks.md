@@ -12,7 +12,7 @@ appCountry:
 released: 
 updated: 2026-05-09
 version: 12.0.6.63
-reviews: 41474
+reviews: 41477
 website: https://www.webull.com
 repository: 
 icon: org.dayup.stocks.png

@@ -9,8 +9,8 @@ appId: com.coinme
 alternativeStores: 
 appCountry: 
 released: 2021-05-06
-updated: 2026-04-15
-version: 3.2.15
+updated: 2026-05-11
+version: 3.3.0
 reviews: 1132
 website: https://www.coinme.com
 repository: 

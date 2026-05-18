@@ -9,8 +9,8 @@ appId: com.pionex.client
 alternativeStores: 
 appCountry: us
 released: 2019-11-18
-updated: 2026-05-12
-version: 3.2.2.4
+updated: 2026-05-15
+version: 3.2.2.5
 reviews: 560
 website: https://www.pionex.com
 repository: 

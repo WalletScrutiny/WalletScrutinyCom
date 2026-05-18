@@ -9,8 +9,8 @@ appId: com.vultisig.wallet
 alternativeStores: 
 appCountry: 
 released: 2024-07-01
-updated: 2026-04-28
-version: 1.0.101
+updated: 2026-05-17
+version: 1.0.102
 reviews: 11
 website: https://vultisig.com
 repository: 

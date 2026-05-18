@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2010-05-17
 updated: 2026-05-12
-version: 26.7.0
-reviews: 353014
+version: 26.9.0
+reviews: 353328
 website: https://venmo.com/
 repository: 
 icon: com.venmo.png

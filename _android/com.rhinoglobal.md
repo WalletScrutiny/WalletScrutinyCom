@@ -9,8 +9,8 @@ appId: com.rhinoglobal
 alternativeStores: 
 appCountry: 
 released: 2024-08-30
-updated: 2026-04-22
-version: 2.12.16
+updated: 2026-05-15
+version: 2.12.17
 reviews: 11
 website: 
 repository: 

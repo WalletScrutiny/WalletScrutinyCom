@@ -10,7 +10,7 @@ idd: '1478257827'
 released: 2019-11-05
 updated: 2026-04-24
 version: 1.41.5
-reviews: 18823
+reviews: 18830
 website: https://atomicwallet.io/
 repository: 
 icon: atomicwallet.jpg

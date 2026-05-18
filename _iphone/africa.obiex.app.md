@@ -10,7 +10,7 @@ idd: '1567887163'
 released: 2021-06-18
 updated: 2026-04-14
 version: 4.1.4
-reviews: 689
+reviews: 690
 website: 
 repository: 
 icon: africa.obiex.app.jpg

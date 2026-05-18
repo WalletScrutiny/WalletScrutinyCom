@@ -9,8 +9,8 @@ appId: com.mudrexmobile
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-29
-version: '13.09'
+updated: 2026-05-15
+version: '13.11'
 reviews: 4
 website: https://mudrex.com/
 repository: 

@@ -10,8 +10,8 @@ appId: com.chippercash
 alternativeStores: 
 appCountry: 
 released: 2018-07-07
-updated: 2026-04-05
-version: 1.149.0
+updated: 2026-05-13
+version: 1.151.0
 reviews: 3265
 website: https://chippercash.com
 repository: 

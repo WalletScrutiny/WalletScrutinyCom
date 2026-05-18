@@ -9,7 +9,7 @@ idd: '1474912942'
 released: 2019-09-11
 updated: 2026-05-06
 version: 2.27.3
-reviews: 1519
+reviews: 1523
 website: https://www.ballet.com/
 repository: 
 icon: com.balletcrypto.jpg

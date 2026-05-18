@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2022-09-20
 updated: 2026-05-11
-version: 4.3.4
+version: 4.3.5
 reviews: 33
 website: 
 repository: 

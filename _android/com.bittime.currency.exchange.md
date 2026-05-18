@@ -9,8 +9,8 @@ appId: com.bittime.currency.exchange
 alternativeStores: 
 appCountry: 
 released: 2022-09-23
-updated: 2026-04-15
-version: 2.0.12
+updated: 2026-05-15
+version: 2.0.13
 reviews: 
 website: http://www.bittime.com
 repository: 

@@ -8,8 +8,8 @@ appId: com.balletcrypto
 alternativeStores: 
 appCountry: 
 released: 2019-08-08
-updated: 2026-05-06
-version: 2.27.2
+updated: 2026-05-18
+version: 2.27.4
 reviews: 167
 website: https://www.ballet.com/
 repository: 

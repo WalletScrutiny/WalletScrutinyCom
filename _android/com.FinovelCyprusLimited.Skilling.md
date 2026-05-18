@@ -9,8 +9,8 @@ appId: com.FinovelCyprusLimited.Skilling
 alternativeStores: 
 appCountry: gb
 released: 2020-05-05
-updated: 2026-04-27
-version: 3.0.4
+updated: 2026-05-13
+version: 3.0.5
 reviews: 7
 website: https://skilling.com/
 repository: 

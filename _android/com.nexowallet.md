@@ -9,8 +9,8 @@ appId: com.nexowallet
 alternativeStores: 
 appCountry: 
 released: 2019-06-28
-updated: 2026-04-24
-version: 6.12.0
+updated: 2026-05-15
+version: 7.1.0
 reviews: 1873
 website: https://nexo.com
 repository: 

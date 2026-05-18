@@ -9,8 +9,8 @@ appId: com.btcdana.online
 alternativeStores: 
 appCountry: 
 released: 2019-07-23
-updated: 2026-04-23
-version: 2.9.0
+updated: 2026-05-14
+version: 2.9.1
 reviews: 172
 website: https://www.btcdana.com/
 repository: 

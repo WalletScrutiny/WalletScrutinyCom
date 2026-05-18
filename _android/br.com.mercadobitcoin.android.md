@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2019-07-25
 updated: 2026-05-12
-version: 2.110.1
+version: 2.111.1
 reviews: 73
 website: http://www.mercadobitcoin.com.br
 repository: 

@@ -9,9 +9,9 @@ appId: com.sofi.mobile
 alternativeStores: 
 appCountry: 
 released: 2017-04-10
-updated: 2026-05-08
-version: 3.94.0
-reviews: 20896
+updated: 2026-05-15
+version: 3.95.0
+reviews: 20918
 website: https://www.sofi.com
 repository: 
 icon: com.sofi.mobile.png

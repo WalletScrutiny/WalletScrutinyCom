@@ -11,7 +11,7 @@ appCountry:
 released: 2020-10-20
 updated: 2026-04-17
 version: 4.29.12
-reviews: 9949
+reviews: 9960
 website: https://zbd.gg/z/support
 repository: 
 icon: io.zebedee.wallet.png

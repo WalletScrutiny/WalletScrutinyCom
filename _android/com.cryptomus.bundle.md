@@ -9,8 +9,8 @@ appId: com.cryptomus.bundle
 alternativeStores: 
 appCountry: 
 released: 2024-12-19
-updated: 2026-04-22
-version: 2.9.0(173)
+updated: 2026-05-15
+version: 2.9.1(188)
 reviews: 71
 website: https://cryptomus.com/
 repository: 

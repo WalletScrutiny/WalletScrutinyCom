@@ -9,9 +9,9 @@ appId: com.bunq.android
 alternativeStores: 
 appCountry: 
 released: 2015-11-25
-updated: 2026-05-06
-version: 31.2.1
-reviews: 229
+updated: 2026-05-14
+version: 31.3.1
+reviews: 230
 website: http://www.bunq.com
 repository: 
 icon: com.bunq.android.png

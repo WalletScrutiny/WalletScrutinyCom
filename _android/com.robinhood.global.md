@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 
 updated: 2026-05-12
-version: 2026.19.1
+version: 2026.20.0
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 

@@ -9,8 +9,8 @@ appId: com.avaxwallet
 alternativeStores: 
 appCountry: 
 released: 2022-08-30
-updated: 2026-05-04
-version: 1.0.29
+updated: 2026-05-13
+version: 1.0.30
 reviews: 138
 website: http://core.app
 repository: 

@@ -11,7 +11,7 @@ appCountry:
 released: 2020-04-17
 updated: 2026-05-13
 version: 5.2.7
-reviews: 678
+reviews: 679
 website: https://www.nicehash.com/my/
 repository: 
 icon: com.nicehash.metallum.png

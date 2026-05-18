@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2024-07-09
 updated: 2026-05-07
-version: 3.0.21
+version: 3.5.9
 reviews: 30
 website: https://www.primal.net
 repository: 

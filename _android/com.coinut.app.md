@@ -1,6 +1,6 @@
 ---
 wsId: CoinutExchange
-title: Coins U Trust
+title: Coinut:Crypto&Bitcoin Trading
 altTitle: 
 authors:
 - danny
@@ -9,16 +9,16 @@ appId: com.coinut.app
 alternativeStores: 
 appCountry: 
 released: 2018-02-04
-updated: 2023-12-07
-version: 0.8.5
+updated: 2026-05-14
+version: 0.8.6
 reviews: 15
 website: https://coinut.com
 repository: 
 icon: com.coinut.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2025-11-26
+date: 2026-05-18
 signer: 
 twitter: coinut_exchange
 social:

@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2022-07-15
 updated: 2026-05-13
-version: 2.96.0
+version: 2.97.1
 reviews: 39
 website: https://kripto.ajaib.co.id/
 repository: 

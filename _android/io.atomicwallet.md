@@ -12,7 +12,7 @@ appCountry:
 released: 2019-01-30
 updated: 2026-04-23
 version: 1.41.5
-reviews: 5834
+reviews: 5833
 website: https://atomicwallet.io
 repository: 
 icon: io.atomicwallet.png

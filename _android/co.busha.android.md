@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2019-01-21
 updated: 2026-05-10
-version: 10.1.8
+version: 10.1.9
 reviews: 212
 website: https://busha.co
 repository: 

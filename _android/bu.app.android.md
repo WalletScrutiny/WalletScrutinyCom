@@ -11,7 +11,7 @@ appCountry:
 released: 2025-04-29
 updated: 2026-04-19
 version: 3.32.0
-reviews: 92
+reviews: 93
 website: https://www.unixcrypto.net
 repository: 
 icon: bu.app.android.png

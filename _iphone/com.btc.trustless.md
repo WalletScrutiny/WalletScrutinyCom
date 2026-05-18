@@ -1,6 +1,6 @@
 ---
 wsId: com.btc.trustless
-title: Trustless
+title: 'Trustless: Bitcoin wallet'
 altTitle: 
 authors:
 - Pechen987 https://github.com/Pechen987
@@ -13,7 +13,7 @@ version: 2.0.0
 reviews: 0
 website: https://trustlesswallet.github.io/Trustless/
 repository: https://github.com/TrustlessWallet/Trustless
-icon: com.btc.trustless.png
+icon: com.btc.trustless.jpg
 bugbounty: 
 meta: fewusers
 verdict: wip
@@ -23,7 +23,7 @@ twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
 features: 
-developerName: pechen987
+developerName: Igor Kruglov
 
 ---
 

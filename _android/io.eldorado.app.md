@@ -9,9 +9,9 @@ appId: io.eldorado.app
 alternativeStores: 
 appCountry: 
 released: 2022-04-19
-updated: 2026-04-23
-version: 1.3.2015
-reviews: 486
+updated: 2026-05-14
+version: 1.3.2040
+reviews: 487
 website: https://eldorado.io
 repository: 
 icon: io.eldorado.app.png

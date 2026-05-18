@@ -9,8 +9,8 @@ appId: com.application.inocyx
 alternativeStores: 
 appCountry: 
 released: 2022-11-16
-updated: 2026-04-09
-version: 1.80.32
+updated: 2026-05-14
+version: 1.80.58
 reviews: 
 website: https://inocyx.com/
 repository: 

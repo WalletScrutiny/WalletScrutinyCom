@@ -14,7 +14,7 @@ appCountry:
 released: 2016-10-01
 updated: 2026-05-12
 version: 14.41.1
-reviews: 2300
+reviews: 2301
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 icon: com.bitpay.wallet.png

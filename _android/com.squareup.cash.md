@@ -9,9 +9,9 @@ appId: com.squareup.cash
 alternativeStores: 
 appCountry: 
 released: 2013-10-15
-updated: 2026-04-24
+updated: 2026-05-11
 version: 5.49.0
-reviews: 464460
+reviews: 465004
 website: https://cash.app
 repository: 
 icon: com.squareup.cash.png

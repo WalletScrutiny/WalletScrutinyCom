@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: us
 released: 2015-08-12
 updated: 2026-05-11
-version: 2026.18.2
-reviews: 265265
+version: 2026.19.1
+reviews: 265537
 website: https://robinhood.com/
 repository: 
 icon: com.robinhood.android.png

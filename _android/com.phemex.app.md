@@ -9,9 +9,9 @@ appId: com.phemex.app
 alternativeStores: 
 appCountry: 
 released: 2020-02-19
-updated: 2026-04-22
-version: 5.17.0
-reviews: 1467
+updated: 2026-05-14
+version: 5.18.0
+reviews: 1466
 website: https://phemex.com
 repository: 
 icon: com.phemex.app.png

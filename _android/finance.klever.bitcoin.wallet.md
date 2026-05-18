@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2023-01-16
 updated: 2026-05-12
-version: 5.48.0
+version: 5.48.4
 reviews: 203
 website: https://klever.io
 repository: 

@@ -9,8 +9,8 @@ appId: com.cheezeebit.exchange
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-21
-version: 1.3.4.1
+updated: 2026-05-14
+version: 1.3.5
 reviews: 
 website: https://cheezeebit.com/
 repository: 

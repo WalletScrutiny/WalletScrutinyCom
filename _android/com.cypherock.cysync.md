@@ -8,8 +8,8 @@ appId: com.cypherock.cysync
 alternativeStores: 
 appCountry: 
 released: 2025-03-28
-updated: 2026-02-10
-version: 0.1.17
+updated: 2026-05-18
+version: 0.1.22
 reviews: 
 website: https://www.cypherock.com/
 repository: 

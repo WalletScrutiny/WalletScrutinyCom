@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2020-02-13
 updated: 2026-05-08
-version: 16.0.1
+version: 16.1.0
 reviews: 4
 website: https://www.syfe.com
 repository: 

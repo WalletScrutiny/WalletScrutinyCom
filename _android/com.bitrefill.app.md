@@ -11,7 +11,7 @@ appCountry:
 released: 2018-04-10
 updated: 2026-05-11
 version: 7.5.0
-reviews: 280
+reviews: 281
 website: https://www.bitrefill.com
 repository: 
 icon: com.bitrefill.app.png

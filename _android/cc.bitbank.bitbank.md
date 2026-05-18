@@ -9,8 +9,8 @@ appId: cc.bitbank.bitbank
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-06
-version: 3.7.0
+updated: 2026-05-13
+version: 3.7.1
 reviews: 3
 website: https://bitbank.cc
 repository: 

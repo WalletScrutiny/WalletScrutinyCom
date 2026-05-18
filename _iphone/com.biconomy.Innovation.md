@@ -10,7 +10,7 @@ idd: '1486151349'
 released: 2019-11-06
 updated: 2026-04-14
 version: 2.3.20
-reviews: 150
+reviews: 152
 website: http://www.biconomy.com/
 repository: 
 icon: com.biconomy.Innovation.jpg

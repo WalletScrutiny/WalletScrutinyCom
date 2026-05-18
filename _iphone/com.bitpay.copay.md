@@ -10,7 +10,7 @@ idd: '951330296'
 released: 2015-06-01
 updated: 2021-06-01
 version: 12.5.6
-reviews: 180
+reviews: 181
 website: https://copay.io
 repository: 
 icon: com.bitpay.copay.jpg

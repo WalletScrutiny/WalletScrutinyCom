@@ -9,8 +9,8 @@ appId: com.thekingdombank.app
 alternativeStores: 
 appCountry: 
 released: 2021-12-17
-updated: 2026-04-23
-version: 10.7.4
+updated: 2026-05-13
+version: 10.8.0
 reviews: 8
 website: https://thekingdombank.com
 repository: 

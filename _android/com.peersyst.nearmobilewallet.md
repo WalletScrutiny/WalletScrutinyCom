@@ -11,7 +11,7 @@ appCountry:
 released: 2023-02-21
 updated: 2026-04-24
 version: 3.8.0
-reviews: 1369
+reviews: 1370
 website: https://nearmobile.app/
 repository: 
 icon: com.peersyst.nearmobilewallet.png

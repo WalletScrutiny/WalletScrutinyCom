@@ -11,7 +11,7 @@ appCountry: id
 released: 2020-10-19
 updated: 2026-05-13
 version: 2.32.1
-reviews: 56280
+reviews: 56271
 website: https://www.tokocrypto.com
 repository: 
 icon: com.binance.cloud.tokocrypto.png

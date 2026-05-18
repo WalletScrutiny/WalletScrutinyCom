@@ -11,7 +11,7 @@ appCountry:
 released: 2026-01-19
 updated: 2026-05-08
 version: 2.1.0
-reviews: 10
+reviews: 12
 website: https://wallet.rumble.com
 repository: 
 icon: com.rumble.rumblewallet.png

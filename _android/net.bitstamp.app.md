@@ -11,7 +11,7 @@ appCountry:
 released: 2019-01-29
 updated: 2026-04-21
 version: '4.16'
-reviews: 675
+reviews: 676
 website: https://www.bitstamp.net
 repository: 
 icon: net.bitstamp.app.png

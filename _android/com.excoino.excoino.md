@@ -11,7 +11,7 @@ appCountry:
 released: 2018-09-27
 updated: 2026-01-05
 version: 9.70.0
-reviews: 378
+reviews: 377
 website: https://www.excoino.com/
 repository: 
 icon: com.excoino.excoino.png

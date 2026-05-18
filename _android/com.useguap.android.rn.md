@@ -9,8 +9,8 @@ appId: com.useguap.android.rn
 alternativeStores: 
 appCountry: 
 released: 2025-12-05
-updated: 2026-04-30
-version: 0.8.8
+updated: 2026-05-12
+version: 0.9.0
 reviews: 
 website: https://useguap.com
 repository: 

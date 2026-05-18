@@ -9,8 +9,8 @@ appId: org.ecoinwallet
 alternativeStores: 
 appCountry: 
 released: 2024-01-21
-updated: 2026-01-14
-version: 1.8.6
+updated: 2026-05-15
+version: 1.8.7
 reviews: 5
 website: https://ecoinwallet.org
 repository: https://github.com/ecoin-finance/ecoinwallet

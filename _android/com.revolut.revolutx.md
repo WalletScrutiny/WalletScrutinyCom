@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 
 updated: 2026-05-12
-version: 1.58.1
+version: '1.59'
 reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: 

@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2018-01-21
 updated: 2026-05-02
-version: 7.2.0
+version: 7.2.2
 reviews: 123
 website: https://pluang.com
 repository: 

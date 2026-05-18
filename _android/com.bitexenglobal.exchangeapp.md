@@ -9,8 +9,8 @@ appId: com.bitexenglobal.exchangeapp
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-01-28
-version: '2.17'
+updated: 2026-05-15
+version: '2.18'
 reviews: 
 website: https://global.bitexen.com/
 repository: 

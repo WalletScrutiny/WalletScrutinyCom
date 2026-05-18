@@ -4,5 +4,7 @@
 - _android/neutronpay.wallet
 2026-05-08:
 - _android/com.ancryptoWallet
-
-2026-05-13:
+2026-05-18:
+- _android/co.zoomex.app
+- _android/com.bitstack.app
+- _android/exchange.delta

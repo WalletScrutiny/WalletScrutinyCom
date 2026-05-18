@@ -10,7 +10,7 @@ idd: '6746639763'
 released: 2025-06-14
 updated: 2026-04-19
 version: 1.3.23
-reviews: 0
+reviews: 1
 website: 
 repository: 
 icon: com.bitdance.bitpocket.jpg

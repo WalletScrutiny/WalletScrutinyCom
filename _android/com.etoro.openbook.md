@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2013-11-05
 updated: 2026-05-06
-version: 651.1246.2
-reviews: 3789
+version: 651.1263.0
+reviews: 3790
 website: https://www.etoro.com/
 repository: 
 icon: com.etoro.openbook.jpg

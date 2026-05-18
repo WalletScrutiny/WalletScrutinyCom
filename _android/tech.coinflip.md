@@ -11,7 +11,7 @@ appCountry:
 released: 2024-08-19
 updated: 2026-04-16
 version: 4.2.0
-reviews: 94
+reviews: 93
 website: https://coinflip.tech/
 repository: 
 icon: tech.coinflip.png

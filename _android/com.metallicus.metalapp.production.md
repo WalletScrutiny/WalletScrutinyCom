@@ -9,9 +9,9 @@ appId: com.metallicus.metalapp.production
 alternativeStores: 
 appCountry: us
 released: 2020-01-14
-updated: 2026-04-27
-version: 3.1.199
-reviews: 394
+updated: 2026-05-13
+version: 3.1.205
+reviews: 395
 website: https://metalpay.com
 repository: 
 icon: com.metallicus.metalapp.production.png

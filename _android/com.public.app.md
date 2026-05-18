@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2019-09-06
 updated: 2026-05-11
-version: 3.243.1
-reviews: 9476
+version: 3.245.0
+reviews: 9485
 website: https://public.com
 repository: 
 icon: com.public.app.jpg

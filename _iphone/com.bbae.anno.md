@@ -10,7 +10,7 @@ idd: '1123918627'
 released: 2016-06-25
 updated: 2026-05-01
 version: 7.2.1
-reviews: 835
+reviews: 843
 website: https://www.bbae.com
 repository: 
 icon: com.bbae.anno.jpg
