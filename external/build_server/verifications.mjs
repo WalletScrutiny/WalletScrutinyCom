@@ -19,7 +19,8 @@ import {
   getFileAttachmentIDsForVerificationEvent,
   getScriptsToReproduce,
   findArchAndTypeForFile,
-  toLegacyPlatform
+  toLegacyPlatform,
+  sanitizeFilesystemSegment
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
@@ -285,7 +286,8 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     }
     const { architecture, type } = archAndType;
 
-    const downloadedFileName = sanitizedFileName ?? `${appId}_${version}_${fileHash}_downloaded.apk`;
+    const downloadedFileName = sanitizedFileName
+      ?? `${appId}_${sanitizeFilesystemSegment(version)}_${fileHash}_downloaded.apk`;
 
     const queueNextVerificationCandidate = async (startIndex = 0) => {
       const nextVerificationCandidate = getNextVerificationCandidate(startIndex);
@@ -371,9 +373,9 @@ export async function processNewReleaseVerification(verification, newWalletVersi
       }
 
       for (const { architecture, type } of buildCombinations) {
-        const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const safeAppId = sanitizeFilesystemSegment(appId);
+        const safeVersion = sanitizeFilesystemSegment(newWalletVersion);
+        const safeFileName = sanitizeFilesystemSegment(fileName);
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
 
         // Check if this combination is already in the WS Bot verifications
@@ -561,9 +563,10 @@ async function runJobWithPreparation({
   outputFileName,
   githubToken
 }) {
+  const safeVersion = sanitizeFilesystemSegment(newWalletVersion);
   const buildDirForThisVerification = jobType === 'asset'
-    ? path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''))
-    : path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+    ? path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + safeVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''))
+    : path.join(BUILD_DIR_PREFIX, appId + '_' + safeVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
 
   createCompilationDirectory(buildDirForThisVerification);
 
