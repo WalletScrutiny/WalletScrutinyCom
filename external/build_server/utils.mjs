@@ -6,7 +6,6 @@ import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
-import { decodeFileAttachmentContent, fileAttachmentBytesToUtf8 } from '../../src/file-attachment-content.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
@@ -297,12 +296,12 @@ export function filterAssetsWithoutVerification(assets, verifications) {
  * Scripts with sudo can hang waiting for password input in non-interactive environments.
  */
 export function scriptContainsSudo(fileEvent) {
-  const fileContent = fileAttachmentBytesToUtf8(decodeFileAttachmentContent(fileEvent));
+  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
   return /\bsudo\b/.test(fileContent);
 }
 
 export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
-  const fileContent = fileAttachmentBytesToUtf8(decodeFileAttachmentContent(fileEvent));
+  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
   fs.writeFileSync(filePath, fileContent, 'utf8');
   fs.chmodSync(filePath, 0o755);
 }
