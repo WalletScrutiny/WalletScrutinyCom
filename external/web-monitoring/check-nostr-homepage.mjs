@@ -19,6 +19,23 @@
 import { existsSync } from 'node:fs';
 import { chromium } from 'playwright';
 
+function formatLogTimestamp() {
+  const now = new Date();
+  const date = now.toLocaleDateString('en-CA');
+  const time = now.toLocaleTimeString('en-GB', { hour12: false });
+  return `${date} ${time}`;
+}
+
+/** @param {...unknown} args */
+function log(...args) {
+  console.log(`[${formatLogTimestamp()}]`, ...args);
+}
+
+/** @param {...unknown} args */
+function logError(...args) {
+  console.error(`[${formatLogTimestamp()}]`, ...args);
+}
+
 const contentPushUrlRaw = process.env.UPTIME_KUMA_CONTENT_PUSH_URL;
 const jsPushUrlRaw = process.env.UPTIME_KUMA_JS_PUSH_URL;
 const url = process.env.WALLETSCRUTINY_URL ?? 'https://walletscrutiny.com/';
@@ -28,12 +45,12 @@ const timeoutMs = Number(process.env.HEALTHCHECK_TIMEOUT_MS ?? 40_000);
 const pushTimeoutMs = Number(process.env.UPTIME_KUMA_PUSH_TIMEOUT_MS ?? 30_000);
 
 if (!Number.isFinite(timeoutMs) || timeoutMs < 1) {
-  console.error('Invalid HEALTHCHECK_TIMEOUT_MS');
+  logError('Invalid HEALTHCHECK_TIMEOUT_MS');
   process.exit(1);
 }
 
 if (!Number.isFinite(pushTimeoutMs) || pushTimeoutMs < 1) {
-  console.error('Invalid UPTIME_KUMA_PUSH_TIMEOUT_MS');
+  logError('Invalid UPTIME_KUMA_PUSH_TIMEOUT_MS');
   process.exit(1);
 }
 
@@ -71,9 +88,7 @@ async function notifyUptimeKuma(pushUrlRaw, status, msg, pingMs) {
   try {
     target = new URL(pushUrlRaw);
   } catch {
-    console.error(
-      'Invalid push URL (check UPTIME_KUMA_CONTENT_PUSH_URL / UPTIME_KUMA_JS_PUSH_URL)'
-    );
+    logError('Invalid push URL (check UPTIME_KUMA_CONTENT_PUSH_URL / UPTIME_KUMA_JS_PUSH_URL)');
     process.exitCode = 1;
     throw new Error('Invalid push URL');
   }
@@ -139,13 +154,13 @@ try {
 
   pingMs = Date.now() - t0;
   contentOk = true;
-  console.log(
+  log(
     `OK: found visible text matching "${expectedText}" on ${url} (${pingMs} ms)`
   );
 } catch (err) {
   contentErrorMessage = err && err.message ? err.message : String(err);
-  console.error(`FAIL: did not find "${expectedText}" on ${url}`);
-  console.error(contentErrorMessage);
+  logError(`FAIL: did not find "${expectedText}" on ${url}`);
+  logError(contentErrorMessage);
 } finally {
   await browser.close();
 }
@@ -154,10 +169,10 @@ if (consoleErrors.length > 0) {
   jsErrorMessage = `Detected ${consoleErrors.length} JavaScript console/runtime error(s): ${consoleErrors.join(
     ' | '
   )}`;
-  console.error(`FAIL: ${jsErrorMessage}`);
+  logError(`FAIL: ${jsErrorMessage}`);
 } else {
   jsOk = true;
-  console.log(`OK: no JavaScript console/runtime errors detected on ${url}`);
+  log(`OK: no JavaScript console/runtime errors detected on ${url}`);
 }
 
 try {
@@ -172,7 +187,7 @@ try {
   );
 } catch (err) {
   if (contentPushUrlRaw) {
-    console.error('Uptime Kuma content notification failed:', err.message || err);
+    logError('Uptime Kuma content notification failed:', err.message || err);
     process.exitCode = 1;
   }
 }
@@ -184,15 +199,13 @@ try {
   await notifyUptimeKuma(jsPushUrlRaw, jsOk ? 'up' : 'down', jsKumaMsg, pingMs);
 } catch (err) {
   if (jsPushUrlRaw) {
-    console.error('Uptime Kuma JS notification failed:', err.message || err);
+    logError('Uptime Kuma JS notification failed:', err.message || err);
     process.exitCode = 1;
   }
 }
 
 if (!contentPushUrlRaw && !jsPushUrlRaw) {
-  console.error(
-    'Note: no Uptime Kuma push URL is set; checks ran locally only.'
-  );
+  logError('Note: no Uptime Kuma push URL is set; checks ran locally only.');
 }
 
 if (!contentOk || !jsOk) {
