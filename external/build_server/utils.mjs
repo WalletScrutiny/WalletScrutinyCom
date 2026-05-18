@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
+import { decodeFileAttachmentContent, fileAttachmentBytesToUtf8 } from '../../src/file-attachment-content.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
@@ -21,6 +22,14 @@ const DESKTOP_PLATFORMS = new Set(['linux', 'windows', 'macos']);
  */
 export function toLegacyPlatform(platform) {
   return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
+}
+
+/**
+ * Make a string safe for directory and file names on disk.
+ * Nostr tags and logs should still use the original version string.
+ */
+export function sanitizeFilesystemSegment(value) {
+  return String(value).replace(/[^a-zA-Z0-9.-]/g, '_');
 }
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
@@ -288,12 +297,12 @@ export function filterAssetsWithoutVerification(assets, verifications) {
  * Scripts with sudo can hang waiting for password input in non-interactive environments.
  */
 export function scriptContainsSudo(fileEvent) {
-  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+  const fileContent = fileAttachmentBytesToUtf8(decodeFileAttachmentContent(fileEvent));
   return /\bsudo\b/.test(fileContent);
 }
 
 export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
-  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+  const fileContent = fileAttachmentBytesToUtf8(decodeFileAttachmentContent(fileEvent));
   fs.writeFileSync(filePath, fileContent, 'utf8');
   fs.chmodSync(filePath, 0o755);
 }

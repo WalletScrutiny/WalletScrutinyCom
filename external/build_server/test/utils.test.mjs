@@ -13,7 +13,8 @@ import {
   scriptContainsSudo,
   getCombinationsFromAppInfo,
   findArchAndTypeForFile,
-  getScriptsToReproduce
+  getScriptsToReproduce,
+  sanitizeFilesystemSegment
 } from '../utils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 
@@ -58,6 +59,18 @@ function makeVerification({ appId, platform, version, created_at = 0, id = 'v', 
   ];
   return makeEvent({ id, tags, created_at });
 }
+
+// ---- sanitizeFilesystemSegment -------------------------------------------
+
+describe('sanitizeFilesystemSegment', () => {
+  test('replaces spaces and parentheses in version strings', () => {
+    assert.equal(sanitizeFilesystemSegment('1.28.0 (5)'), '1.28.0__5_');
+  });
+
+  test('preserves dots and hyphens', () => {
+    assert.equal(sanitizeFilesystemSegment('1.2.3-rc1'), '1.2.3-rc1');
+  });
+});
 
 // ---- toLegacyPlatform ----------------------------------------------------
 
