@@ -23,6 +23,14 @@ export function toLegacyPlatform(platform) {
   return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
 }
 
+/**
+ * Make a string safe for directory and file names on disk.
+ * Nostr tags and logs should still use the original version string.
+ */
+export function sanitizeFilesystemSegment(value) {
+  return String(value).replace(/[^a-zA-Z0-9.-]/g, '_');
+}
+
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
 // "b" is the latest version found in the update scripts
