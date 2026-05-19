@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2020-10-30
 updated: 2026-05-13
-version: 5.14.0
+version: 5.14.2
 reviews: 
 website: https://narkasa.com
 repository: 

@@ -10,7 +10,7 @@ appId: com.kapital.trade.crypto
 alternativeStores: 
 appCountry: cz
 released: 2021-01-20
-updated: 2026-05-15
+updated: 2026-05-18
 version: 3.34.0
 reviews: 32
 website: https://capital.com/

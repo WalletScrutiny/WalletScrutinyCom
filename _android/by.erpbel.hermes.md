@@ -9,8 +9,8 @@ appId: by.erpbel.hermes
 alternativeStores: 
 appCountry: 
 released: 2022-10-06
-updated: 2026-03-30
-version: 2.12.04
+updated: 2026-05-18
+version: 2.13.0
 reviews: 
 website: https://bynex.io/
 repository: 

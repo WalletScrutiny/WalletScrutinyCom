@@ -11,7 +11,7 @@ appCountry: cl
 released: 2019-10-16
 updated: 2026-05-11
 version: 7.3.13
-reviews: 880
+reviews: 881
 website: https://vitawallet.io/
 repository: 
 icon: com.vita_wallet.png

@@ -11,7 +11,7 @@ appCountry:
 released: 2015-06-01
 updated: 2026-05-08
 version: 6.6.2
-reviews: 179
+reviews: 178
 website: https://ripio.com
 repository: 
 icon: com.ripio.android.png

@@ -10,7 +10,7 @@ idd: '1252903728'
 released: 2017-07-11
 updated: 2026-05-13
 version: 9.21.0
-reviews: 43464
+reviews: 43484
 website: https://wallet.bitcoin.com/
 repository: 
 icon: com.bitcoin.mwallet.jpg

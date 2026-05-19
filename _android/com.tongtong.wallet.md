@@ -9,8 +9,8 @@ appId: com.tongtong.wallet
 alternativeStores: 
 appCountry: 
 released: 2022-04-21
-updated: 2026-05-13
-version: 2.1.10
+updated: 2026-05-18
+version: 2.1.13
 reviews: 
 website: https://tongtongwallet.com/
 repository: 

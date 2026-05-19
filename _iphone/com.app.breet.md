@@ -10,7 +10,7 @@ idd: '1609711640'
 released: 2022-03-04
 updated: 2026-04-27
 version: 7.2.6
-reviews: 1190
+reviews: 1192
 website: https://breet.io
 repository: 
 icon: com.app.breet.jpg

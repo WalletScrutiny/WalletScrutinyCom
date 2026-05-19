@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2019-11-19
 updated: 2026-05-18
-version: 2.35.9
+version: 2.36.0
 reviews: 7
 website: https://coinext.com.br
 repository: 

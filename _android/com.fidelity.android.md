@@ -11,7 +11,7 @@ appCountry:
 released: 2010-12-15
 updated: 2026-05-11
 version: '4.32'
-reviews: 56933
+reviews: 56940
 website: https://www.fidelity.com
 repository: 
 icon: com.fidelity.android.png

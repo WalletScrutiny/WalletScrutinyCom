@@ -11,7 +11,7 @@ appCountry: br
 released: 2014-12-09
 updated: 2026-05-12
 version: 2.436.2
-reviews: 1086987
+reviews: 1087153
 website: http://www.mercadopago.com
 repository: 
 icon: com.mercadopago.wallet.png

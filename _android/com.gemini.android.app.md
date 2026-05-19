@@ -11,7 +11,7 @@ appCountry:
 released: 2018-12-10
 updated: 2026-05-16
 version: 26.513.0
-reviews: 8537
+reviews: 8539
 website: https://www.gemini.com
 repository: 
 icon: com.gemini.android.app.png

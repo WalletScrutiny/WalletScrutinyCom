@@ -11,7 +11,7 @@ appCountry:
 released: 2022-07-16
 updated: 2026-04-23
 version: 2.0.0
-reviews: 113
+reviews: 114
 website: https://cash-in.app
 repository: 
 icon: com.whitehat.cashin_app.png

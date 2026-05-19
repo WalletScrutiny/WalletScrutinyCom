@@ -11,7 +11,7 @@ appCountry:
 released: 2020-07-23
 updated: 2026-05-17
 version: 6.56.2
-reviews: 3013
+reviews: 3018
 website: https://www.mexc.com
 repository: 
 icon: com.mexcpro.client.png

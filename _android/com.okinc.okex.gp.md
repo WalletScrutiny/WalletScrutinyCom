@@ -9,9 +9,9 @@ appId: com.okinc.okex.gp
 alternativeStores: 
 appCountry: 
 released: 2019-10-29
-updated: 2026-05-11
+updated: 2026-05-18
 version: 6.171.0
-reviews: 3895
+reviews: 3898
 website: https://www.okx.com/
 repository: 
 icon: com.okinc.okex.gp.png

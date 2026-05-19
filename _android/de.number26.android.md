@@ -9,7 +9,7 @@ appId: de.number26.android
 alternativeStores: 
 appCountry: 
 released: 2015-01-23
-updated: 2026-05-13
+updated: 2026-05-15
 version: 4.50.1
 reviews: 2171
 website: https://n26.com/?utm_source=appstore&utm_medium=description

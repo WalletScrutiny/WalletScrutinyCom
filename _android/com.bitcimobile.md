@@ -9,8 +9,8 @@ appId: com.bitcimobile
 alternativeStores: 
 appCountry: 
 released: 2020-03-30
-updated: 2026-04-29
-version: 22.0.5
+updated: 2026-05-17
+version: 23.0.0
 reviews: 14
 website: https://www.safebit.com
 repository: 

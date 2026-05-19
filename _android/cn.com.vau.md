@@ -9,9 +9,9 @@ appId: cn.com.vau
 alternativeStores: 
 appCountry: cn
 released: 2019-07-06
-updated: 2026-05-05
-version: 4.01.1
-reviews: 6848
+updated: 2026-05-14
+version: 4.02.0
+reviews: 6891
 website: https://www.vantagemarkets.com/
 repository: 
 icon: cn.com.vau.png

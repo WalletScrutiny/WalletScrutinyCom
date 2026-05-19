@@ -9,7 +9,7 @@ appId: fior.digital21app
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-09
+updated: 2026-05-13
 version: 2.1.1
 reviews: 
 website: https://21bitcoin.app/

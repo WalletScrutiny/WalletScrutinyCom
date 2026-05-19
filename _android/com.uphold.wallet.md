@@ -11,7 +11,7 @@ appCountry:
 released: 2015-12-29
 updated: 2026-05-15
 version: 6.88.0
-reviews: 8193
+reviews: 8195
 website: https://uphold.com
 repository: 
 icon: com.uphold.wallet.png

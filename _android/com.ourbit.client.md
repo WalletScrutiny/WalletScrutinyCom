@@ -11,7 +11,7 @@ appCountry:
 released: 2024-04-05
 updated: 2026-05-03
 version: 1.20.1
-reviews: 55
+reviews: 54
 website: https://www.ourbit.com
 repository: 
 icon: com.ourbit.client.png

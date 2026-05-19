@@ -10,7 +10,7 @@ idd: '1546957530'
 released: 2022-03-19
 updated: 2026-05-06
 version: 1.13.1
-reviews: 241
+reviews: 248
 website: https://www.btcmarkets.net
 repository: 
 icon: com.btcmarkets.btcm.jpg

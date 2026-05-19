@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: Gate Trade Bitcoin & Crypto
+title: 'Gate: Trade BTC & ETH'
 altTitle: 
 authors:
 - danny
@@ -9,9 +9,9 @@ appId: com.gateio.gateio
 alternativeStores: 
 appCountry: id
 released: 2017-11-03
-updated: 2026-04-29
-version: 8.18.5
-reviews: 7145
+updated: 2026-05-13
+version: 8.19.0
+reviews: 7149
 website: https://www.gate.com/
 repository: 
 icon: com.gateio.gateio.png

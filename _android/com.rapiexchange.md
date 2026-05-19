@@ -9,8 +9,8 @@ appId: com.rapiexchange
 alternativeStores: 
 appCountry: 
 released: 2022-04-19
-updated: 2026-05-14
-version: '3.39'
+updated: 2026-05-19
+version: '3.40'
 reviews: 3
 website: https://www.rapixchange.com/
 repository: 

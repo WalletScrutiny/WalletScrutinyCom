@@ -11,7 +11,7 @@ appCountry: th
 released: 2020-09-29
 updated: 2026-05-11
 version: 4.8.0
-reviews: 2512
+reviews: 2511
 website: http://bitazza.com/
 repository: 
 icon: com.bitazza.android.png

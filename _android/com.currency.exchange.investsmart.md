@@ -11,7 +11,7 @@ appCountry: tm
 released: 2020-12-10
 updated: 2026-05-13
 version: 2.20.2
-reviews: 284
+reviews: 285
 website: https://dzengi.com/
 repository: 
 icon: com.currency.exchange.investsmart.png

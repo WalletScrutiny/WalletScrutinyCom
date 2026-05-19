@@ -9,8 +9,8 @@ appId: com.coinpassmobile
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-25
-version: 3.15.0-coinpass
+updated: 2026-05-13
+version: 3.15.1-coinpass
 reviews: 
 website: https://www.coinpass.com/
 repository: 

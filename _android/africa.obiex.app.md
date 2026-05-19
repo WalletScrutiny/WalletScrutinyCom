@@ -9,8 +9,8 @@ appId: africa.obiex.app
 alternativeStores: 
 appCountry: 
 released: 2021-06-09
-updated: 2026-04-13
-version: 4.1.4
+updated: 2026-05-18
+version: 4.1.5
 reviews: 31
 website: https://obiex.finance/
 repository: 

@@ -11,7 +11,7 @@ appCountry:
 released: 2017-11-01
 updated: 2026-05-14
 version: 11.20.0
-reviews: 593
+reviews: 608
 website: http://www.hbg.com
 repository: 
 icon: pro.huobi.png

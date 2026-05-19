@@ -9,8 +9,8 @@ appId: com.simplefx.app
 alternativeStores: 
 appCountry: 
 released: 2017-12-18
-updated: 2026-04-29
-version: 3.0.88
+updated: 2026-05-19
+version: 3.0.90
 reviews: 7
 website: https://simplefx.com
 repository: 

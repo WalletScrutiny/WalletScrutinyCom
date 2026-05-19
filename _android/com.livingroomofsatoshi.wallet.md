@@ -11,7 +11,7 @@ alternativeStores:
 appCountry: 
 released: 2019-05-19
 updated: 2026-05-14
-version: 3.3.1
+version: 3.3.4
 reviews: 219
 website: http://www.walletofsatoshi.com
 repository: 

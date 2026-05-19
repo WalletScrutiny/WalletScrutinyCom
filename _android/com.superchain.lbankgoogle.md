@@ -11,7 +11,7 @@ appCountry: us
 released: 2020-05-08
 updated: 2026-05-17
 version: 7.9.7
-reviews: 684
+reviews: 685
 website: https://www.lbank.com
 repository: 
 icon: com.superchain.lbankgoogle.png

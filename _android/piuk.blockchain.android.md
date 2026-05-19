@@ -10,8 +10,8 @@ appId: piuk.blockchain.android
 alternativeStores: 
 appCountry: 
 released: 2013-02-01
-updated: 2026-05-16
-version: 202605.2.1
+updated: 2026-05-18
+version: 202605.2.3
 reviews: 6351
 website: https://www.blockchain.com
 repository: 

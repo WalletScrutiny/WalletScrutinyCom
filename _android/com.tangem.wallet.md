@@ -10,9 +10,9 @@ appId: com.tangem.wallet
 alternativeStores: 
 appCountry: 
 released: 2018-10-24
-updated: 2026-05-14
-version: 5.37.4
-reviews: 1744
+updated: 2026-05-19
+version: 5.37.5
+reviews: 1746
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android
 icon: com.tangem.wallet.png

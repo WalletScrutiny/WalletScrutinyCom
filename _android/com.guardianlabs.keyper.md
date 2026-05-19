@@ -17,7 +17,7 @@ icon: com.guardianlabs.keyper.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2026-05-18
+date: 2026-05-19
 signer: 
 twitter: 
 social: 
