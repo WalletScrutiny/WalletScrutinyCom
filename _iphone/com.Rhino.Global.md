@@ -16,8 +16,9 @@ repository:
 icon: com.Rhino.Global.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2026-01-14
+verdict: custodial
+appHashes: 
+date: 2026-05-19
 signer: 
 twitter: RhinoBitcoin
 social:
