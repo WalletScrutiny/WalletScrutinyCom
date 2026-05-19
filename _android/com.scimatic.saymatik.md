@@ -46,7 +46,7 @@ The Play Store description does not mention Bitcoin support. It describes a mult
 
 The Saymatik website also does not list Bitcoin as a supported network. Its visible supported networks are EVM/Web3-style networks such as Binance, Ethereum, Scimatic, Avalanche, Polygon, Fantom, Cronos, and Arbitrum.
 
-We also tested the app and documented the result [here:](https://x.com/BitcoinWalletz/status/2056672581814718922)
+We also tested the app and documented the result [here](https://x.com/BitcoinWalletz/status/2056672581814718922).
 
 At this stage, we found no evidence that Saymatik Web3 Wallet can create or import a native Bitcoin wallet, derive Bitcoin addresses, or send and receive on-chain BTC.
 
