@@ -115,14 +115,6 @@ if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   fi
 fi
 
-echo " * Generating Twitter cards..."
-if ! node scripts/twitterCardGen.mjs; then
-  echo "❌ ERROR: Failed to generate Twitter cards"
-  exit 1
-fi
-
-wait
-
 echo " * Calling refreshResults.sh..."
 if ! ./refreshResults.sh; then
     echo "❌ ERROR: Failed to execute refreshResults.sh"
@@ -146,6 +138,14 @@ if ! node ./scripts/verifications/checkBlossomSpam.mjs; then
   echo "❌ ERROR: Failed to check for Blossom Spam / Orphaned Files"
   exit 1
 fi
+
+echo " * Generating Twitter cards..."
+if ! node scripts/twitterCardGen.mjs; then
+  echo "❌ ERROR: Failed to generate Twitter cards"
+  exit 1
+fi
+
+wait
 
 echo " * Running feature verification..."
 if [ -n "$PPQ_API_KEY" ]; then
