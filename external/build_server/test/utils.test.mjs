@@ -1,6 +1,9 @@
 import './setup.mjs';
-import { describe, test } from 'node:test';
+import { describe, test, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 import {
   toLegacyPlatform,
@@ -14,9 +17,33 @@ import {
   getCombinationsFromAppInfo,
   findArchAndTypeForFile,
   getScriptsToReproduce,
-  sanitizeFilesystemSegment
+  sanitizeFilesystemSegment,
+  findFileRecursively,
+  calculateFileHash,
+  saveScriptFromEventMakeExecutable,
+  removeDirectoryRecursive,
+  createCompilationDirectory
 } from '../utils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
+
+const debugBuildDir = fileURLToPath(new URL('../build_server_build_dir', import.meta.url));
+const tempDirs = [];
+
+function makeTempDir(label) {
+  const dir = path.join(debugBuildDir, `test-${label}-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+  fs.mkdirSync(dir, { recursive: true });
+  tempDirs.push(dir);
+  return dir;
+}
+
+afterEach(() => {
+  while (tempDirs.length > 0) {
+    const dir = tempDirs.pop();
+    if (fs.existsSync(dir)) {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  }
+});
 
 // ---- Helpers for building lightweight fixtures ---------------------------
 
@@ -406,5 +433,94 @@ describe('getScriptsToReproduce', () => {
 
   test('returns an empty array when no candidate matches', () => {
     assert.deepEqual(getScriptsToReproduce([], 'a', 'linux'), []);
+  });
+});
+
+// ---- findFileRecursively -------------------------------------------------
+
+describe('findFileRecursively', () => {
+  test('returns null when the directory does not exist', () => {
+    assert.equal(findFileRecursively('/nonexistent/path/for/tests', 'foo.txt'), null);
+  });
+
+  test('finds a file in a nested subdirectory', () => {
+    const root = makeTempDir('find-file');
+    const nested = path.join(root, 'a', 'b');
+    fs.mkdirSync(nested, { recursive: true });
+    const target = path.join(nested, 'COMPARISON_RESULTS.yaml');
+    fs.writeFileSync(target, 'verdict: reproducible\n');
+
+    assert.equal(findFileRecursively(root, 'COMPARISON_RESULTS.yaml'), target);
+    assert.equal(findFileRecursively(root, 'missing.yaml'), null);
+  });
+});
+
+// ---- calculateFileHash ---------------------------------------------------
+
+describe('calculateFileHash', () => {
+  test('returns the SHA-256 hex digest of the file contents', async () => {
+    const file = new File(['hello build server'], 'sample.txt', { type: 'text/plain' });
+    const hash = await calculateFileHash(file);
+    assert.equal(hash, '09034d0dcabb7c9ed525938a367580431837458d5c49b67b8a25101cc5f85526');
+  });
+});
+
+// ---- saveScriptFromEventMakeExecutable -----------------------------------
+
+describe('saveScriptFromEventMakeExecutable', () => {
+  test('writes decoded script content and marks the file executable', () => {
+    const dir = makeTempDir('save-script');
+    const filePath = path.join(dir, 'build.sh');
+    const scriptText = '#!/bin/bash\necho reproducible\n';
+    const fileEvent = { content: Buffer.from(scriptText, 'utf8').toString('base64') };
+
+    saveScriptFromEventMakeExecutable(fileEvent, filePath);
+
+    assert.equal(fs.readFileSync(filePath, 'utf8'), scriptText);
+    assert.equal(fs.statSync(filePath).mode & 0o777, 0o755);
+  });
+});
+
+// ---- removeDirectoryRecursive / createCompilationDirectory ---------------
+
+describe('removeDirectoryRecursive', () => {
+  test('refuses to delete paths outside the allowed build directories', () => {
+    const outsideDir = path.join('/tmp', `build-server-outside-${Date.now()}`);
+    fs.mkdirSync(outsideDir, { recursive: true });
+    try {
+      removeDirectoryRecursive(outsideDir);
+      assert.ok(fs.existsSync(outsideDir));
+    } finally {
+      fs.rmSync(outsideDir, { recursive: true, force: true });
+    }
+  });
+
+  test('refuses to delete the debug build base directory itself', () => {
+    removeDirectoryRecursive(debugBuildDir);
+    assert.ok(fs.existsSync(debugBuildDir));
+  });
+
+  test('deletes a nested directory under the debug build base', () => {
+    const dir = makeTempDir('remove');
+    const nested = path.join(dir, 'nested');
+    fs.mkdirSync(nested);
+    fs.writeFileSync(path.join(nested, 'artifact.bin'), 'data');
+
+    removeDirectoryRecursive(nested);
+
+    assert.equal(fs.existsSync(nested), false);
+    assert.ok(fs.existsSync(dir));
+  });
+});
+
+describe('createCompilationDirectory', () => {
+  test('replaces an existing directory with a fresh empty one', () => {
+    const dir = makeTempDir('compile');
+    fs.writeFileSync(path.join(dir, 'old.txt'), 'stale');
+
+    createCompilationDirectory(dir);
+
+    assert.ok(fs.existsSync(dir));
+    assert.deepEqual(fs.readdirSync(dir), []);
   });
 });
