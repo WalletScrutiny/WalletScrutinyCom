@@ -50,7 +50,7 @@ The custody question fails before source-code review. Copaly's own website descr
 
 The website also says:
 
-> Set up your custodialwallet, begin trading BTC + 150 more from anywhere in the world.
+> Set up your custodial wallet, begin trading BTC + 150 more from anywhere in the world.
 
 The Play Store listing also describes account creation, account verification, trading, selling Bitcoin, and withdrawals to local bank accounts. Those are exchange/account-service signals, not evidence that users control the Bitcoin private keys.
 
