@@ -60,7 +60,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@napi-rs/canvas": "^0.1.77",
+    "@napi-rs/canvas": "^1.0.0",
     "@nostr-dev-kit/ndk": "^2.14.38",
     "app-info-parser": "^1.1.6",
     "assert": "^2.1.0",
