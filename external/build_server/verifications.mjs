@@ -112,9 +112,11 @@ function logQueueInfo() {
   appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
-setInterval(() => {
-  appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
-}, QUEUE_STATUS_INTERVAL_MINUTES * 60 * 1000);
+if (process.env.BUILD_SERVER_TEST !== '1') {
+  setInterval(() => {
+    appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  }, QUEUE_STATUS_INTERVAL_MINUTES * 60 * 1000);
+}
 
 /**
  * Downloads a file from the Blossom server by its hash, streaming the body
