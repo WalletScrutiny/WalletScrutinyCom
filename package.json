@@ -23,7 +23,7 @@
     "autoprefixer": "^10.5.0",
     "axios": "^1.16.1",
     "babel-loader": "^10.1.1",
-    "cssnano": "^7.1.9",
+    "cssnano": "^8.0.1",
     "dateformat": "^3.0.3",
     "file-type": "^16.5.4",
     "github-graphql-api": "^1.0.6",
