@@ -2,7 +2,8 @@
 
 # This script performs a full WalletScrutiny data/content refresh pipeline.
 # It updates app metadata from stores, syncs F-Droid alternativeStores on
-# Android source-available pages, refreshes desktop/hardware sources,
+# Android source-available pages, syncs bitcoinOrgId from bitcoin.org _wallets,
+# refreshes desktop/hardware sources,
 # updates donations data, regenerates derived assets, feature verification,
 # and more.
 #
@@ -77,6 +78,12 @@ fi
 echo " * Checking F-Droid for Android source-available wallets (alternativeStores)..."
 if ! node scripts/fdroidSourceAvailableCheck.mjs; then
   echo "❌ ERROR: Failed to run fdroidSourceAvailableCheck.mjs"
+  exit 1
+fi
+
+echo " * Syncing bitcoinOrgId from bitcoin.org _wallets..."
+if ! node scripts/syncBitcoinOrgId.mjs; then
+  echo "❌ ERROR: Failed to run syncBitcoinOrgId.mjs"
   exit 1
 fi
 
