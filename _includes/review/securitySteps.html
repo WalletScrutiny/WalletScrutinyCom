@@ -10,8 +10,7 @@
   {% include /review/steps/sourceCode.html %}
     <!-- {% include /review/steps/privacy.html %} -->
   {% include /review/steps/applicationBuild.html platform=platform %}
-  {% if include.filterPlatform=='true' %}
-    <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
+  {% if include.filterPlatform=='true' or include.platform == 'hardware' %}
     {% include /review/steps/distribution.html platform=platform %}
   {% endif %}
   {% include /review/bitcoinOrgFeatured.html %}
