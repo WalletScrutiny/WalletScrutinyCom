@@ -1,0 +1,16 @@
+{% if page.bitcoinOrgId %}
+<div class="step bitcoin-org-featured">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-external-link-alt" style="z-index: 2; font-size: 18px;"></i>
+  </i>
+  <div class="title">
+    <h3>Featured on Bitcoin.org</h3>
+    <p>
+      This wallet is listed in the
+      <a href="https://raw.githubusercontent.com/bitcoin-dot-org/Bitcoin.org/master/_wallets/{{ page.bitcoinOrgId }}.md" target="_blank" rel="noopener noreferrer">Bitcoin.org wallet directory</a>. It had to pass
+      <a href="https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/managing-wallets.md" target="_blank" rel="noopener noreferrer">these tests</a>
+      to be included.
+    </p>
+  </div>
+</div>
+{% endif %}
