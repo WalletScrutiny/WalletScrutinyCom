@@ -16,9 +16,9 @@ website:
 repository: 
 icon: com.planb.wallet.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2026-04-13
+meta: removed
+verdict: nowallet
+date: 2026-05-20
 signer: 
 twitter: 
 social: 
@@ -29,7 +29,7 @@ features:
 
 ---
 
-## App Description from Google Play 
+## Historical App Description
 
 > Plan B is a non-custodial crypto wallet that allows you to send, receive and exchange (swap) your cryptos on the same platform.
 >
@@ -39,9 +39,13 @@ features:
 
 ## Analysis 
 
-- The secondary site for this app, planb.gold, is no longer online.
-- During registration, when we try to fill in the 'Select Country' field, no choices appear 
-- This prevents us from proceeding. 
-- There is **no indication that the project is source-available**. 
-- We emailed the providers to ask them about the app's status, but the email was promptly returned.
-- At this juncture, we'll keep this app as a **work-in-progress**, until new information comes along.
+- The [Google Play listing](https://play.google.com/store/apps/details?id=com.planb.wallet) is no longer available.
+- Chrome-Stats, a third-party Play Store metadata index, shows the same package id as [Stacks Tower Games](https://chrome-stats.com/d/com.planb.wallet).
+- Chrome-Stats lists it as a game, not a wallet.
+- Chrome-Stats also lists the developer as PlanB Wallet Developers, version 9.8.9, and last update date as 2026-03-31.
+- AppRecs, another third-party Play Store mirror, still shows the older [Plan B Wallet](https://apprecs.com/android/com.planb.wallet/plan-b-wallet) description.
+- That older AppRecs description claimed a non-custodial crypto wallet with Bitcoin send and receive support.
+- The current package identity is not a Bitcoin wallet.
+- The app is also unavailable from Google Play.
+
+For these reasons we are marking this entry as *removed* and *not-a-wallet* 

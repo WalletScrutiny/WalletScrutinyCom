@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: pocketmintWallet 
 title: PocketMint Wallet
 altTitle: 
 authors:
@@ -17,8 +17,8 @@ repository:
 icon: com.pocketmint.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2025-12-01
+verdict: nosource
+date: 2026-05-20
 signer: 
 twitter: 
 social: 
@@ -31,24 +31,41 @@ features:
 
 ## App Description
 
-Pocketmint.ai provides a platform for buying, selling, sending, and receiving USDT and Bitcoin, with features such as debit/credit card top-ups, instant fiat withdrawals, and real-time transaction tracking, according to the description. The service supports internal transfers between PocketMint users with no stated limits and processes transactions within its own PocketMint ecosystem. Users can convert crypto to fiat using push-to-card or ACH options, and the app offers multi-layer security features including encryption, 2FA, and fraud detection. The description emphasizes fast processing, integrated fiat support, and a unified interface for managing USDT and BTC in one application.
+PocketMint Wallet is a crypto wallet app for BTC and USDT.
+The Google Play listing says users can buy, sell, send, and receive BTC and USDT.
+It also says users can send USDT or BTC to other PocketMint users inside the PocketMint ecosystem.
+The App Store listing repeats the same BTC and USDT claims.
+The App Store version history also mentions KYC changes and SSN field protection.
+The public website says only the user has access to private keys.
 
 ## Analysis
 
-The app and the website are geo-restricted so we were not able to test the app and not able to find supporting claims on their website. 
+PocketMint is presented as a Bitcoin wallet.
+It claims support for BTC.
+It claims users can send and receive BTC.
+It claims users can buy BTC and sell crypto to fiat.
+It also claims private-key access is controlled by the user.
 
-Through archive.org we were able to see its [terms and conditions](https://pocketmint.ai/termsandconditions).
+The product also has custodial-looking fintech features.
+It supports card purchases.
+It supports push-to-card and ACH withdrawals.
+It supports internal transfers between PocketMint users.
+Its App Store changelog mentions an enhanced KYC experience and SSN field protection.
+These features mean the wallet has account and compliance flows around the crypto wallet.
 
-It mentions:
+We did not find public source code for the Android wallet.
+A GitHub code search for the exact app id `com.pocketmint.wallet` did not return relevant wallet source code.
+Broader searches for PocketMint source code also did not find a current public repository.
+The website does not link to a source repository.
+The Google Play listing does not link to a source repository.
 
-> “You are responsible for securing your private keys, wallet, and digital assets.”
+Without public source code for the reviewed Android release, the app cannot be verified.
+For WalletScrutiny purposes, the verdict is **nosource**.
 
-It does not say however, whether the app itself generates the private key for the user.
+Sources:
 
-> “PocketMint does not store or recover private keys and is not liable for any losses due to user negligence”.
-
-If the app does not generate the private key then it would follow that they do not also bear responsibility for its storage. 
-
-The app description lists features such as buying, selling, and sending USDT and Bitcoin, but the terms do not explain how these functions are performed if PocketMint does not store or recover private keys. At present, there is no available documentation showing whether the app generates private keys, relies on user-provided keys, or uses another mechanism entirely. Because of this lack of clarity, we do not have enough information to determine how custody is handled or to assign an accurate verdict.
-
-Without enough proof of the real implementation for this app, this remains a **work-in-progress**. We'll contact the provider at the listed email in Google Play.
+- [Google Play listing](https://play.google.com/store/apps/details?id=com.pocketmint.wallet)
+- [PocketMint website](https://pocketmint.ai/)
+- [PocketMint App Store listing](https://apps.apple.com/us/app/pocketmint-wallet/id6743178752)
+- [GitHub code search for exact app id](https://github.com/search?q=%22com.pocketmint.wallet%22&type=code)
+- [PocketMint terms and conditions](https://pocketmint.ai/termsandconditions)
