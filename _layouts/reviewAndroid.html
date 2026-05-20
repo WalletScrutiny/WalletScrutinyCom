@@ -36,10 +36,11 @@ layout: default
                     </h1>
 
                     <div class="distribution-store-links">
-                        <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle distribution-store-link">
+                        <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
                         </a>
                         {% include /review/alternativeStoreLinks.html %}
+                        {% include /review/websiteDistributionLink.html %}
                     </div>
 
                     <div class="secondary-text" id="version-number"></div>

@@ -38,6 +38,20 @@ layout: default
             {% endif %}
           </h1>
 
+          {% assign has_github_repo = false %}
+          {% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
+            {% assign has_github_repo = true %}
+          {% endif %}
+          {% assign has_website = false %}
+          {% if page.website and page.website != '' %}
+            {% assign has_website = true %}
+          {% endif %}
+          {% if has_github_repo or has_website %}
+          <div class="distribution-store-links">
+            {% include /review/desktopHardwareDistributionLinks.html %}
+          </div>
+          {% endif %}
+
           <div class="secondary-text" id="version-number"></div>
         </div>
       </div>

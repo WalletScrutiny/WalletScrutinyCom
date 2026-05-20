@@ -8,11 +8,14 @@ import {
   faDiscord,
   faReddit,
   faGooglePlay,
+  faGithub,
   faWindows,
   faApple,
   faBitcoin
 } from '@fortawesome/free-brands-svg-icons';
 import {
+  faGlobe,
+  faDownload,
   faCopy,
   faShareAlt,
   faMoon,
@@ -82,6 +85,8 @@ library.add(
   faChevronLeft,
   faChevronDown,
   faFilter,
+  faGlobe,
+  faDownload,
   faInfoCircle,
   faAnglesRight,
   faAnglesLeft,
@@ -100,6 +105,7 @@ library.add(
   faDiscord,
   faReddit,
   faGooglePlay,
+  faGithub,
   faWindows,
   faApple,
   faBitcoin

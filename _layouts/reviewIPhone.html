@@ -32,9 +32,10 @@ layout: default
           </h1>
 
           <div class="distribution-store-links">
-            <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link">
+            <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
               <i class="i-app-store" aria-hidden="true"></i> App Store
             </a>
+            {% include /review/websiteDistributionLink.html %}
           </div>
 
           <div class="secondary-text" id="version-number"></div>

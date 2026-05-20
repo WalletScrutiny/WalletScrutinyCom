@@ -1,0 +1,8 @@
+{% assign github_releases_url = '' %}
+{% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
+  {% assign repo_url = page.repository | split: '?' | first | split: '#' | first %}
+  {% assign repo_parts = repo_url | split: '/' %}
+  {% if repo_parts[2] == 'github.com' and repo_parts[3] != '' and repo_parts[4] != '' %}
+    {% assign github_releases_url = 'https://github.com/' | append: repo_parts[3] | append: '/' | append: repo_parts[4] | append: '/releases' %}
+  {% endif %}
+{% endif %}

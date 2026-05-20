@@ -1,24 +1,45 @@
+{% assign has_github_repo = false %}
+{% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
+  {% assign has_github_repo = true %}
+{% endif %}
 
-{% if include.platform!='false' %}
+{% assign has_website = false %}
+{% if page.website and page.website != '' %}
+  {% assign has_website = true %}
+{% endif %}
+
+{% assign show_step = false %}
+{% if include.platform == 'iphone' or include.platform == 'android' %}
+  {% assign show_step = true %}
+{% elsif include.platform == 'desktop' or include.platform == 'hardware' %}
+  {% if has_github_repo or has_website %}
+    {% assign show_step = true %}
+  {% endif %}
+{% endif %}
+
+{% if show_step %}
 <div class="step distribution">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-  {% if include.platform == 'iphone' %}
-    <i class="i-app-store" style="z-index: 2; font-size: 23px;"></i>
-  {% elsif include.platform == 'android' %}
-    <i class="fab fa-google-play" style="z-index: 2; font-size: 23px;"></i>
-  {% endif %}
+    <i class="fas fa-download" style="z-index: 2; font-size: 23px;"></i>
   </i>
   <div class="title">
     <h3>Distribution</h3>
       {% if include.platform == 'iphone' %}
         <div class="distribution-store-links">
-          <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link"><i class="i-app-store" aria-hidden="true"></i> App Store</a>
+          <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="i-app-store" aria-hidden="true"></i> App Store</a>
+          {% include /review/websiteDistributionLink.html %}
         </div>
       {% endif %}
       {% if include.platform == 'android' %}
         <div class="distribution-store-links">
-          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle distribution-store-link"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
           {% include /review/alternativeStoreLinks.html %}
+          {% include /review/websiteDistributionLink.html %}
+        </div>
+      {% endif %}
+      {% if include.platform == 'desktop' or include.platform == 'hardware' %}
+        <div class="distribution-store-links">
+          {% include /review/desktopHardwareDistributionLinks.html %}
         </div>
       {% endif %}
   </div>
