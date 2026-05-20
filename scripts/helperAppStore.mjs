@@ -15,7 +15,7 @@ const stats = {
 
 const category = 'iphone';
 const folder = `_${category}/`;
-const headers = ('wsId title altTitle authors appId appCountry idd released ' +
+const headers = ('wsId title altTitle authors appId bitcoinOrgId appCountry idd released ' +
                 'updated version reviews website repository ' +
                 'icon bugbounty meta verdict date signer ' +
                 'twitter social features developerName').split(' ');

@@ -180,12 +180,27 @@ function getEmptyHeader (headers) {
   return headers.reduce((a, v) => ({ ...a, [v]: null }), {});
 }
 
+/** Frontmatter keys listed in headers but omitted from output when empty. */
+const OMIT_IF_EMPTY = new Set(['bitcoinOrgId']);
+
+function omitEmptyOptionalHeaderFields (header) {
+  const out = { ...header };
+  for (const key of OMIT_IF_EMPTY) {
+    const v = out[key];
+    if (v == null || (typeof v === 'string' && v.trim() === '')) {
+      delete out[key];
+    }
+  }
+  return out;
+}
+
 function getResult (header, body) {
   const schema = yaml.DEFAULT_SCHEMA;
   schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function () { return ''; };
   schema.compiledTypeMap.scalar['tag:yaml.org,2002:timestamp'].represent = function (it) { return dateOrEmpty(it); };
+  const headerOut = omitEmptyOptionalHeaderFields(header);
   return `---
-${yaml.dump(header, {
+${yaml.dump(headerOut, {
   noArrayIndent: true,
   schema: schema,
   lineWidth: -1,
