@@ -200,15 +200,17 @@ const getProfileFromIDB = async (pubkey) => {
         return;
       }
 
-      // Check if cached profile is still fresh
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
-      const MAX_AGE = 24 * 60 * 60; // 24 hours
+      const MAX_AGE = 24 * 60 * 60;
 
       if (age > MAX_AGE) {
         reject("Expired");
+      } else if (!result.profile || Object.keys(result.profile).length === 0) {
+        // Legacy entries from before we stopped caching empty results.
+        reject("Empty cached profile");
       } else {
-        resolve(result.profile || {});
+        resolve(result.profile);
       }
     };
     request.onerror = () => reject("Error reading profile");
@@ -249,15 +251,17 @@ const getNostrProfile = async function (pubkey) {
   }
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
+  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
+    return null;
+  }
+
   const sanitizedProfile = {};
-  const profileObj = profile && typeof profile === 'object' ? profile : {};
-  Object.keys(profileObj).forEach(key => {
-    sanitizedProfile[key] = DOMPurify.sanitize(String(profileObj[key] ?? ""));
+  Object.keys(profile).forEach(key => {
+    sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
   });
 
   console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
 
-  // Save to IDB to cache
   saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
   return sanitizedProfile;
@@ -265,6 +269,21 @@ const getNostrProfile = async function (pubkey) {
 
 const getNpubFromPubkey = function (pubkey) {
   return nip19.npubEncode(pubkey);
+}
+
+const shortenNpub = function (npub) {
+  if (!npub || npub.length < 16) return npub;
+  return `${npub.substring(0, 10)}…${npub.substring(npub.length - 6)}`;
+}
+
+const getProfileDisplayName = function (profile, pubkey) {
+  const candidate = profile && (profile.name || profile.displayName || profile.display_name);
+  if (candidate && String(candidate).trim()) return String(candidate).trim();
+  try {
+    return shortenNpub(getNpubFromPubkey(pubkey));
+  } catch (e) {
+    return pubkey ? `${pubkey.substring(0, 8)}…` : '';
+  }
 }
 
 const getWSClientTags = function() {
@@ -2376,6 +2395,8 @@ if (typeof window !== 'undefined') {
   window.getUserPubkey = getUserPubkey;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
+  window.shortenNpub = shortenNpub;
+  window.getProfileDisplayName = getProfileDisplayName;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
@@ -2420,6 +2441,8 @@ export {
   getUserPubkey,
   showToast,
   getNpubFromPubkey,
+  shortenNpub,
+  getProfileDisplayName,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,

@@ -111,11 +111,7 @@ permalink: /verifiers/
       info.verifications += 1;
       
       if (!info.npub) {
-        try {
-          info.npub = getNpubFromPubkey(e.pubkey);
-        } catch(err) {
-          info.npub = e.pubkey.substring(0, 8) + '...';
-        }
+        info.npub = getProfileDisplayName(null, e.pubkey);
       }
       stats.set(e.pubkey, info);
     }
@@ -162,7 +158,7 @@ permalink: /verifiers/
               <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
                 ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
                 <div class="profile-info">
-                  <div>${profile.name || pubkey}</div>
+                  <div>${getProfileDisplayName(profile, pubkey)}</div>
                   ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
                 </div>
               </div>
