@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.horizontalsystems.bank-wallet
+bitcoinOrgId: unstoppable
 appCountry: 
 idd: 1447619907
 released: 2019-01-10

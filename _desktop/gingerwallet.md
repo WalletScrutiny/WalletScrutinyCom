@@ -1,6 +1,7 @@
 ---
 title: Ginger Wallet
 appId: gingerwallet
+bitcoinOrgId: ginger
 authors:
 - danny
 released: 2024-06-06

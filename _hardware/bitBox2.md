@@ -1,6 +1,7 @@
 ---
 title: BitBox02
 appId: bitBox2
+bitcoinOrgId: bitbox
 authors:
 - leo
 - Joko Ono

@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 100000
 appId: io.horizontalsystems.bankwallet
+bitcoinOrgId: unstoppable
 alternativeStores:
 - fdroid
 appCountry: 

@@ -1,6 +1,7 @@
 ---
 title: Ledger Nano S Plus
 appId: ledger.nano.splus
+bitcoinOrgId: ledgernanos
 authors:
 - danny
 released: 2022-04-05

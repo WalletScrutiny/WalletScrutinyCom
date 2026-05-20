@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
+bitcoinOrgId: green
 alternativeStores:
 - fdroid
 appCountry: 

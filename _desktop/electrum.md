@@ -1,6 +1,7 @@
 ---
 title: Electrum
 appId: electrum
+bitcoinOrgId: electrum
 authors:
 - danny
 released: 2011-11-05

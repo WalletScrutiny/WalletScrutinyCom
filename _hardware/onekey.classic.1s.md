@@ -1,6 +1,7 @@
 ---
 title: OneKey Classic 1S
 appId: onekey.classic.1s
+bitcoinOrgId: onekeyclassic1s
 authors:
 - danny
 released: 2024-04-01

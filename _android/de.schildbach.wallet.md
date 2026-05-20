@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 10000000
 appId: de.schildbach.wallet
+bitcoinOrgId: bitcoinwallet
 alternativeStores:
 - fdroid
 appCountry: 

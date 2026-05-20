@@ -1,6 +1,7 @@
 ---
 title: Coldcard Mk4
 appId: coldcardMk4
+bitcoinOrgId: coldcard
 authors:
 - danny
 - leo

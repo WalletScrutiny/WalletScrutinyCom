@@ -1,6 +1,7 @@
 ---
 title: Bitcoin Core
 appId: bitcoincore
+bitcoinOrgId: bitcoincore
 authors:
 - leo
 - danny

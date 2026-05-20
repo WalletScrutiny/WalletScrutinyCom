@@ -1,6 +1,7 @@
 ---
 title: Trezor One
 appId: trezorOne
+bitcoinOrgId: trezorone
 authors:
 - leo
 - Mohammad

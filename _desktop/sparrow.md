@@ -1,6 +1,7 @@
 ---
 title: Sparrow Wallet
 appId: sparrow
+bitcoinOrgId: sparrow
 authors:
 - danny
 released: 2020-09-02

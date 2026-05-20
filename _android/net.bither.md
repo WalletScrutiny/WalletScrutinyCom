@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 50000
 appId: net.bither
+bitcoinOrgId: bither
 alternativeStores: 
 appCountry: 
 released: 2014-02-27

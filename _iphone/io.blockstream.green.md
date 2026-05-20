@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.blockstream.green
+bitcoinOrgId: green
 appCountry: 
 idd: 1402243590
 released: 2019-03-22

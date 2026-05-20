@@ -1,6 +1,7 @@
 ---
 title: Specter Desktop Wallet
 appId: specter
+bitcoinOrgId: specterdesktop
 authors:
 - danny
 released: 2020-06-30

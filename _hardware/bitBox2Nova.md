@@ -1,6 +1,7 @@
 ---
 title: BitBox02 Nova
 appId: bitBox2Nova
+bitcoinOrgId: bitbox
 authors:
 - danny
 released: 2025-06-21
