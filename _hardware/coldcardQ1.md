@@ -1,6 +1,7 @@
 ---
 title: Coldcard Q
 appId: coldcardQ1
+bitcoinOrgId: coldcardq
 authors:
 - danny
 - keraliss

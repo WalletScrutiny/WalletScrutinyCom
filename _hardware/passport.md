@@ -1,6 +1,7 @@
 ---
 title: Foundation Passport - Founder's Edition
 appId: passport
+bitcoinOrgId: passport
 authors:
 - kiwilamb
 - '@sethforprivacy'

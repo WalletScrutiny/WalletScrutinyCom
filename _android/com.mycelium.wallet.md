@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000000
 appId: com.mycelium.wallet
+bitcoinOrgId: mycelium
 alternativeStores: 
 appCountry: 
 released: 2013-07-01

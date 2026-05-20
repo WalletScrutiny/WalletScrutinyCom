@@ -6,6 +6,7 @@ authors:
 - leo
 - emanuel
 appId: co.edgesecure.app
+bitcoinOrgId: edgewallet
 appCountry: 
 idd: '1344400091'
 released: 2018-02-09

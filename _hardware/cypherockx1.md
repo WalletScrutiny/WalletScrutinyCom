@@ -1,6 +1,7 @@
 ---
 title: Cypherock X1
 appId: cypherockx1
+bitcoinOrgId: cypherockx1
 authors:
 - kiwilamb
 - danny

@@ -1,6 +1,7 @@
 ---
 title: Ledger Nano S
 appId: ledgerNanoS
+bitcoinOrgId: ledgernanos
 authors:
 - leo
 released: 

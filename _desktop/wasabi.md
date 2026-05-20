@@ -1,6 +1,7 @@
 ---
 title: Wasabi Wallet
 appId: wasabi
+bitcoinOrgId: wasabi
 authors:
 - danny
 released: 2018-08-01

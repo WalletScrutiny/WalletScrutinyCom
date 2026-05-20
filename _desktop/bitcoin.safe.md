@@ -1,6 +1,7 @@
 ---
 title: Bitcoin-Safe Desktop
 appId: bitcoin.safe
+bitcoinOrgId: bitcoinsafe
 authors:
 - danny
 released: 2025-02-20

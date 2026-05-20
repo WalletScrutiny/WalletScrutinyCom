@@ -1,6 +1,7 @@
 ---
 title: KeepKey
 appId: keepKey
+bitcoinOrgId: keepkey
 authors:
 - leo
 - Mohammad

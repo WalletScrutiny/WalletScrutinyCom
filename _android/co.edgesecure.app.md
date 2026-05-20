@@ -9,6 +9,7 @@ authors:
 - keraliss
 users: 500000
 appId: co.edgesecure.app
+bitcoinOrgId: edgewallet
 alternativeStores: 
 appCountry: 
 released: 2018-03-01

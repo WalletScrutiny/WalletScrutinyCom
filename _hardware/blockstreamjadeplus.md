@@ -1,6 +1,7 @@
 ---
 title: Jade Plus
 appId: blockstreamjadeplus
+bitcoinOrgId: jade
 authors:
 - danny
 released: 2025-01-03

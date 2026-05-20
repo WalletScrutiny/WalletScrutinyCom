@@ -1,6 +1,7 @@
 ---
 title: Blockstream Green
 appId: blockstreamgreen
+bitcoinOrgId: green
 authors:
 - danny
 released: 2020-05-21

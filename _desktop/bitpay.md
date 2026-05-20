@@ -1,6 +1,7 @@
 ---
 title: BitPay
 appId: bitpay
+bitcoinOrgId: bitpay
 authors:
 - danny
 released: 2014-03-15

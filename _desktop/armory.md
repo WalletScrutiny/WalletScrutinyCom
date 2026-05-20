@@ -1,6 +1,7 @@
 ---
 title: Armory Secure Wallet
 appId: armory
+bitcoinOrgId: armory
 authors:
 - danny
 released: 2012-02-15

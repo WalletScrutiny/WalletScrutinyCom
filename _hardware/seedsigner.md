@@ -1,6 +1,7 @@
 ---
 title: SeedSigner
 appId: seedsigner
+bitcoinOrgId: seedsigner
 authors:
 - danny
 - leo

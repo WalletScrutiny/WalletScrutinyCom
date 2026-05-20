@@ -1,6 +1,7 @@
 ---
 title: Foundation Passport
 appId: passportb2
+bitcoinOrgId: passport
 authors:
 - kiwilamb
 - leo

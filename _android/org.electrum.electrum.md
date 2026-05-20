@@ -9,6 +9,7 @@ authors:
 - keraliss
 users: 1000000
 appId: org.electrum.electrum
+bitcoinOrgId: electrum
 alternativeStores:
 - fdroid
 appCountry: 

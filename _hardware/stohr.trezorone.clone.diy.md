@@ -1,6 +1,7 @@
 ---
 title: Sebastian Stohr Trezor One Clone DIY Project
 appId: stohr.trezorone.clone.diy
+bitcoinOrgId: trezorone
 authors:
 - danny
 released: 2022-03-24

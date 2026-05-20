@@ -1,6 +1,7 @@
 ---
 title: Krux DIY Hardware Wallet
 appId: kruxdiyhw
+bitcoinOrgId: krux
 authors:
 - danny
 released: 2021-07-18

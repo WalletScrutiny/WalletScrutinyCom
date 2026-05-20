@@ -7,6 +7,7 @@ authors:
 - emanuel
 - keraliss
 appId: net.bither
+bitcoinOrgId: bither
 appCountry: 
 idd: 899478936
 released: 2014-07-25

@@ -1,6 +1,7 @@
 ---
 title: Trezor Model T
 appId: trezorT
+bitcoinOrgId: trezormodelt
 authors:
 - leo
 - Mohammad

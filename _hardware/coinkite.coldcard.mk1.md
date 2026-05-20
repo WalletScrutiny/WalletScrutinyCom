@@ -1,6 +1,7 @@
 ---
 title: CoinKite Coldcard Mk 1
 appId: coinkite.coldcard.mk1
+bitcoinOrgId: coldcard
 authors:
 - danny
 released: 2018-07-25

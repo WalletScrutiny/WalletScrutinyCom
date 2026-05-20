@@ -1,6 +1,7 @@
 ---
 title: Blockstream Jade DIY
 appId: blockstream.jade.diy
+bitcoinOrgId: jade
 authors:
 - danny
 released: 2023-04-23
