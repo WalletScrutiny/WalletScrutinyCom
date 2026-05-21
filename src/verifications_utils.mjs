@@ -200,15 +200,17 @@ const getProfileFromIDB = async (pubkey) => {
         return;
       }
 
-      // Check if cached profile is still fresh
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
-      const MAX_AGE = 24 * 60 * 60; // 24 hours
+      const MAX_AGE = 24 * 60 * 60;
 
       if (age > MAX_AGE) {
         reject("Expired");
+      } else if (!result.profile || Object.keys(result.profile).length === 0) {
+        // Legacy entries from before we stopped caching empty results.
+        reject("Empty cached profile");
       } else {
-        resolve(result.profile || {});
+        resolve(result.profile);
       }
     };
     request.onerror = () => reject("Error reading profile");
@@ -249,15 +251,17 @@ const getNostrProfile = async function (pubkey) {
   }
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
+  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
+    return null;
+  }
+
   const sanitizedProfile = {};
-  const profileObj = profile && typeof profile === 'object' ? profile : {};
-  Object.keys(profileObj).forEach(key => {
-    sanitizedProfile[key] = DOMPurify.sanitize(String(profileObj[key] ?? ""));
+  Object.keys(profile).forEach(key => {
+    sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
   });
 
   console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
 
-  // Save to IDB to cache
   saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
   return sanitizedProfile;
@@ -266,6 +270,60 @@ const getNostrProfile = async function (pubkey) {
 const getNpubFromPubkey = function (pubkey) {
   return nip19.npubEncode(pubkey);
 }
+
+const shortenNpub = function (npub) {
+  if (!npub || npub.length < 16) return npub;
+  return `${npub.substring(0, 10)}…${npub.substring(npub.length - 6)}`;
+}
+
+const getProfileDisplayName = function (profile, pubkey) {
+  const candidate = profile && (profile.name || profile.displayName || profile.display_name);
+  if (candidate && String(candidate).trim()) return String(candidate).trim();
+  try {
+    return shortenNpub(getNpubFromPubkey(pubkey));
+  } catch (e) {
+    return pubkey ? `${pubkey.substring(0, 8)}…` : '';
+  }
+}
+
+const PROFILE_PLACEHOLDER_IMAGE = 'data:image/svg+xml,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">' +
+  '<circle cx="32" cy="32" r="32" fill="#dfe6e8"/>' +
+  '<circle cx="32" cy="24" r="11" fill="#7f9a9e"/>' +
+  '<ellipse cx="32" cy="52" rx="16" ry="11" fill="#7f9a9e"/>' +
+  '</svg>'
+);
+
+const getProfileImageUrl = function (profile) {
+  const url = profile?.image;
+  return url && String(url).trim() ? String(url).trim() : PROFILE_PLACEHOLDER_IMAGE;
+};
+
+const renderProfileCardHtml = function (pubkey, profile) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  const imageUrl = getProfileImageUrl(profile);
+  return `
+    <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
+      <img src="${imageUrl}" class="profile-image" alt="" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <div class="profile-info">
+        <div>${displayName}</div>
+        ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+      </div>
+    </div>
+  `;
+};
+
+const renderBigProfileCardHtml = function (pubkey, profile) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  const imageUrl = getProfileImageUrl(profile);
+  return `
+    <div class="big-profile-card">
+      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
+      ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+    </div>
+  `;
+};
 
 const getWSClientTags = function() {
   return [
@@ -2376,6 +2434,11 @@ if (typeof window !== 'undefined') {
   window.getUserPubkey = getUserPubkey;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
+  window.shortenNpub = shortenNpub;
+  window.getProfileDisplayName = getProfileDisplayName;
+  window.getProfileImageUrl = getProfileImageUrl;
+  window.renderProfileCardHtml = renderProfileCardHtml;
+  window.renderBigProfileCardHtml = renderBigProfileCardHtml;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
@@ -2420,6 +2483,11 @@ export {
   getUserPubkey,
   showToast,
   getNpubFromPubkey,
+  shortenNpub,
+  getProfileDisplayName,
+  getProfileImageUrl,
+  renderProfileCardHtml,
+  renderBigProfileCardHtml,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,

@@ -94,36 +94,25 @@ permalink: /verifier/
 
       const profile = await getNostrProfile(pubkey);
 
-      if (!profile) {
-        document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
-      } else {
-        if (profile && (profile.lud16 || profile.lud06)) {
-          try {
-            const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
-            window.profileEvent = profileEvent;
-            document.getElementById('zapButtonVerifier').style.display = 'inline-block';
-          } catch (error) {
-            console.error('Error parsing profile event:', error);
-          }
-        } else {
-          const zapBtn = document.getElementById('zapButtonVerifier');
-          zapBtn.style.display = 'inline-block';
-          zapBtn.disabled = true;
-          zapBtn.style.backgroundColor = '#ccc';
-          zapBtn.style.color = '#888';
-          zapBtn.style.cursor = 'not-allowed';
-          zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+      if (profile && (profile.lud16 || profile.lud06)) {
+        try {
+          const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
+          window.profileEvent = profileEvent;
+          document.getElementById('zapButtonVerifier').style.display = 'inline-block';
+        } catch (error) {
+          console.error('Error parsing profile event:', error);
         }
-
-        if (profile.image || profile.name) {
-          document.getElementById('attestator').innerHTML = `
-            <div class="big-profile-card">
-              ${profile.image ? `<img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;" onerror="this.style.display='none'">` : ''}
-              ${profile.name ? `<div style="font-size: 1.5em; font-weight: bold;">${profile.name}</div>` : ''}
-              ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-            </div>`;
-        }
+      } else if (profile) {
+        const zapBtn = document.getElementById('zapButtonVerifier');
+        zapBtn.style.display = 'inline-block';
+        zapBtn.disabled = true;
+        zapBtn.style.backgroundColor = '#ccc';
+        zapBtn.style.color = '#888';
+        zapBtn.style.cursor = 'not-allowed';
+        zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
       }
+
+      document.getElementById('attestator').innerHTML = renderBigProfileCardHtml(pubkey, profile);
     } catch (error) {
       console.error('Error loading profile:', error);
       document.getElementById('attestator').innerHTML = 'Error loading profile';

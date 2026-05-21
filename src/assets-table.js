@@ -975,13 +975,13 @@ window.renderAssetsTable = async function({
 
         profileElementsForThisPubkey.forEach(profileElement => {
           profileElement.innerHTML = `
-            <div class="profile-circle-container" data-name="${profile.name || pubkey}">
+            <div class="profile-circle-container" data-name="${getProfileDisplayName(profile, pubkey)}">
               ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
               <div class="profile-hover-modal">
                 <div class="profile-modal-content">
                   ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
                   <br>
-                  <span>${profile.name || pubkey}</span>
+                  <span>${getProfileDisplayName(profile, pubkey)}</span>
                   <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
                 </div>
               </div>
@@ -1647,11 +1647,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <div class="profile-card">
       ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'" onerror="this.style.display='none'"/>` : ''}
       <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'">
-        <div>${profile.name || verification.pubkey}</div>
+        <div>${getProfileDisplayName(profile, verification.pubkey)}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
       </div>
     </div>
-  ` : verification.pubkey;
+  ` : getProfileDisplayName(null, verification.pubkey);
 
   /* -------------------- Based on -------------------- */
   if (basedOn) {
@@ -1660,11 +1660,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       <div class="profile-card">
         ${basedOnProfile.image ? `<img src="${basedOnProfile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'" onerror="this.style.display='none'"/>` : ''}
         <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'">
-          <div>${basedOnProfile.name || basedOn.split(':')[1]}</div>
+          <div>${getProfileDisplayName(basedOnProfile, basedOn.split(':')[1])}</div>
           ${basedOnProfile.nip05 ? `<div class="profile-nip05">${basedOnProfile.nip05}</div>` : ''}
         </div>
       </div>
-    ` : basedOn.split(':')[1];
+    ` : getProfileDisplayName(null, basedOn.split(':')[1]);
   }
 
   /* -------------------- Zap -------------------- */
@@ -1699,7 +1699,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
           <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
             ${zap.zapperProfile ? `${zap.zapperProfile.image ? `
               <img src="${zap.zapperProfile.image}" class="profile-image"
-                  title="${zap.zapperProfile.name || zap.zapperPubkey} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
+                  title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
                   onclick="window.open('https://njump.me/${npub}', '_blank')"
                   onerror="this.style.display='none'"
               />` : ''}` :
@@ -1707,7 +1707,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
             <div>
               ${formatZapAmount(zap.zapAmount)} sats
               <br>
-              Zapped by ${zap.zapperProfile ? `${zap.zapperProfile.name || zap.zapperPubkey}` : zap.zapperPubkey} on ${formatDate(zap.created_at, true)}
+              Zapped by ${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} on ${formatDate(zap.created_at, true)}
               ${zap.content ? `<br>Message: ${zap.content}` : ''}
             </div>
           </div>`;
@@ -1741,7 +1741,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
           ${endorserProfile ? `${endorserProfile.image ? `
             <img src="${endorserProfile.image}" class="profile-image"
-                title="${endorserProfile.name || endorsement.pubkey} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
+                title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
                 onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
                 onerror="this.style.display='none'"
             />` : ''}` :

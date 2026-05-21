@@ -61,6 +61,9 @@ permalink: /verifiers/
   .profile-image {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
   }
 
   .profile-card {
@@ -69,6 +72,7 @@ permalink: /verifiers/
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
   }
 
   .profile-info {
@@ -105,18 +109,10 @@ permalink: /verifiers/
   // --- UI & LOGIC ---
 
   function aggregateStats(events) {
-    const stats = new Map(); // pubkey -> { verifications, npub }
+    const stats = new Map(); // pubkey -> { verifications }
     for (const e of events) {
-      const info = stats.get(e.pubkey) || { verifications: 0, npub: '' };
+      const info = stats.get(e.pubkey) || { verifications: 0 };
       info.verifications += 1;
-      
-      if (!info.npub) {
-        try {
-          info.npub = getNpubFromPubkey(e.pubkey);
-        } catch(err) {
-          info.npub = e.pubkey.substring(0, 8) + '...';
-        }
-      }
       stats.set(e.pubkey, info);
     }
     return stats;
@@ -141,7 +137,7 @@ permalink: /verifiers/
           ${sortedAttestators.length === 0 ? '<tr><td colspan="2" style="text-align:center; padding: 2em;">No verifications found yet.</td></tr>' : ''}
           ${sortedAttestators.map(([pubkey, info]) => `
             <tr>
-              <td class="attestator-card-column" id="${idPrefix}-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${ info.npub }</a></td>
+              <td class="attestator-card-column" id="${idPrefix}-${pubkey}">${renderProfileCardHtml(pubkey, null)}</td>
               <td class="attestation-count-column">${info.verifications}</td>
             </tr>`).join('')}
         </tbody>
@@ -150,23 +146,14 @@ permalink: /verifiers/
 
     document.getElementById(containerId).innerHTML = tableHTML;
 
-    // Load Profiles asynchronously
+    // Load Profiles asynchronously (placeholder shown until fetch completes)
     (async () => {
       for (const [pubkey] of sortedAttestators) {
         try {
           const profile = await getNostrProfile(pubkey);
-          if (!profile) continue;
           const el = document.getElementById(`${idPrefix}-${pubkey}`);
           if (el) {
-            el.innerHTML = `
-              <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
-                ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
-                <div class="profile-info">
-                  <div>${profile.name || pubkey}</div>
-                  ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-                </div>
-              </div>
-            `;
+            el.innerHTML = renderProfileCardHtml(pubkey, profile);
           }
         } catch(e) {}
       }
