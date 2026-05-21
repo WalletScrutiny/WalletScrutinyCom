@@ -8,7 +8,7 @@ users: 10000
 appId: com.sortedwallet.sorted
 alternativeStores: 
 appCountry: 
-released: Dec 11, 2025
+released: 2025-12-11
 updated: 2026-05-15
 version: 1.0.22
 reviews: 
