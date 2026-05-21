@@ -8,9 +8,9 @@ appId: com.splitloyalty.app.Split-Rewards
 appCountry: us
 idd: '6740720801'
 released: 2025-01-22
-updated: 2026-04-29
-version: 4.0.1
-reviews: 1
+updated: 2026-05-18
+version: 4.3.1
+reviews: 2
 website: https://www.split-loyalty.com
 repository: 
 icon: com.splitloyalty.app.Split-Rewards.jpg

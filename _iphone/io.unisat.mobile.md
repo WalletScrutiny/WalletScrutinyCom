@@ -10,7 +10,7 @@ idd: '6498628503'
 released: 2024-08-30
 updated: 2026-03-08
 version: 1.7.11
-reviews: 27
+reviews: 30
 website: https://unisat.io
 repository: 
 icon: io.unisat.mobile.jpg

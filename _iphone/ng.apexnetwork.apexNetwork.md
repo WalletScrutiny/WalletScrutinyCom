@@ -9,7 +9,7 @@ idd: '1549187308'
 released: 2022-01-11
 updated: 2026-05-03
 version: 3.2.16
-reviews: 2288
+reviews: 2285
 website: https://apexnetwork.ng
 repository: 
 icon: ng.apexnetwork.apexNetwork.jpg

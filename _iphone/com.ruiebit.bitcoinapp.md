@@ -9,7 +9,7 @@ idd: '6751213042'
 released: 2025-08-27
 updated: 2026-02-24
 version: 3.6.6
-reviews: 53
+reviews: 52
 website: 
 repository: 
 icon: com.ruiebit.bitcoinapp.jpg

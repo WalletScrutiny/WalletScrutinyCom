@@ -8,9 +8,9 @@ appId: com.robinhood.release.RobinhoodGlobal
 appCountry: pl
 idd: '6467049008'
 released: 2023-12-06
-updated: 2026-04-29
-version: 2026.18.0
-reviews: 291
+updated: 2026-05-19
+version: 2026.21.0
+reviews: 292
 website: https://robinhood.com/eu/en/
 repository: 
 icon: com.robinhood.release.RobinhoodGlobal.jpg

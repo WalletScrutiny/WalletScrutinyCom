@@ -8,9 +8,9 @@ appId: com.rainydayapps.Blockchain
 appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2026-05-05
-version: 202605.1.2
-reviews: 183825
+updated: 2026-05-14
+version: 202605.2.1
+reviews: 183917
 website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
 icon: com.rainydayapps.Blockchain.jpg

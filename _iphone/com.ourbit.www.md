@@ -10,7 +10,7 @@ idd: '6483944320'
 released: 2024-07-28
 updated: 2026-05-05
 version: 1.20.1
-reviews: 139
+reviews: 142
 website: 
 repository: 
 icon: com.ourbit.www.jpg

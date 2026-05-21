@@ -7,9 +7,9 @@ appId: mobile.mexcglobal.www
 appCountry: us
 idd: '1605393003'
 released: 2022-02-09
-updated: 2026-04-23
-version: 6.53.1
-reviews: 7717
+updated: 2026-05-20
+version: 6.57.1
+reviews: 7806
 website: 
 repository: 
 icon: mobile.mexcglobal.www.jpg

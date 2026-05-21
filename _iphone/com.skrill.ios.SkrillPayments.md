@@ -10,7 +10,7 @@ idd: '718248239'
 released: 2013-10-29
 updated: 2026-05-05
 version: 3.184.0
-reviews: 8686
+reviews: 8736
 website: https://www.skrill.com/
 repository: 
 icon: com.skrill.ios.SkrillPayments.jpg

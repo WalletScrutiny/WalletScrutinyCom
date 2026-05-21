@@ -8,9 +8,9 @@ appId: com.sofi.mobile
 appCountry: us
 idd: '1191985736'
 released: 2017-04-10
-updated: 2026-05-04
-version: 3.94.0
-reviews: 385559
+updated: 2026-05-18
+version: 3.96.0
+reviews: 385560
 website: https://www.sofi.com
 repository: 
 icon: com.sofi.mobile.jpg

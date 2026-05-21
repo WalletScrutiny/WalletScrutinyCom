@@ -15,9 +15,9 @@ website: http://zam.io
 repository: 
 icon: zamzam.wallet.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-04
+date: 2026-05-21
 signer: 
 twitter: zam_io
 social:

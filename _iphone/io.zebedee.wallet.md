@@ -10,7 +10,7 @@ idd: 1484394401
 released: 2020-11-28
 updated: 2026-03-19
 version: 4.29.12
-reviews: 11223
+reviews: 11304
 website: https://zbd.gg
 repository: 
 icon: io.zebedee.wallet.jpg

@@ -1,6 +1,6 @@
 ---
 wsId: ExodusCryptoBitcoinWallet
-title: 'Exodus: Crypto Bitcoin Wallet'
+title: 'Exodus: Crypto & Payments'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: exodus-movement.exodus
 appCountry: 
 idd: 1414384820
 released: 2019-03-23
-updated: 2026-04-30
-version: 26.5.1
-reviews: 35403
+updated: 2026-05-13
+version: 26.5.13
+reviews: 35658
 website: https://exodus.com/mobile
 repository: 
 icon: exodus-movement.exodus.jpg

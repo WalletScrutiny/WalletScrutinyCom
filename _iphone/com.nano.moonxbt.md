@@ -8,8 +8,8 @@ appId: com.nano.moonxbt
 appCountry: us
 idd: 1566536854
 released: 2021-06-08
-updated: 2026-05-01
-version: 6.12.0
+updated: 2026-05-19
+version: 6.14.0
 reviews: 20
 website: https://www.pumpkin.xyz
 repository: 

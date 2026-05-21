@@ -8,8 +8,8 @@ appId: com.useguap.ios.rn
 appCountry: us
 idd: '6744361725'
 released: 2025-12-08
-updated: 2026-04-30
-version: 0.8.8
+updated: 2026-05-14
+version: 0.9.0
 reviews: 1
 website: https://useguap.com/
 repository: 

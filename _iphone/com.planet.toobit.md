@@ -8,9 +8,9 @@ appId: com.planet.toobit
 appCountry: us
 idd: '1660882885'
 released: 2023-02-13
-updated: 2026-04-25
-version: 2.2.3
-reviews: 3748
+updated: 2026-05-20
+version: 2.2.7
+reviews: 3758
 website: https://www.toobit.com/
 repository: 
 icon: com.planet.toobit.jpg

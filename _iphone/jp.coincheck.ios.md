@@ -9,7 +9,7 @@ idd: 957130004
 released: 2015-01-21
 updated: 2026-04-22
 version: 4.20.0
-reviews: 109239
+reviews: 109324
 website: https://coincheck.com
 repository: 
 icon: jp.coincheck.ios.jpg

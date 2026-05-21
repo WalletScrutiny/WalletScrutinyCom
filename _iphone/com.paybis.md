@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: 'Crypto Wallet, Bitcoin: Paybis'
+title: 'Paybis Wallet: Buy Bitcoin'
 altTitle: 
 authors: 
 appId: com.paybis
 appCountry: us
 idd: '1584641245'
 released: 2021-09-20
-updated: 2025-10-21
-version: 1.7.28
-reviews: 2869
+updated: 2026-05-13
+version: 1.7.29
+reviews: 2865
 website: https://paybis.com/
 repository: 
 icon: com.paybis.jpg

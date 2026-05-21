@@ -8,8 +8,8 @@ appId: com.orangex.exchange
 appCountry: us
 idd: '6455259516'
 released: 2023-08-30
-updated: 2026-04-08
-version: 1.0.1
+updated: 2026-05-09
+version: 1.0.2
 reviews: 7
 website: https://www.orangex.com
 repository: 

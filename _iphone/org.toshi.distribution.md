@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: 'Base: Formerly Coinbase Wallet'
+title: 'Base: Built to Trade & Earn'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: org.toshi.distribution
 appCountry: 
 idd: 1278383455
 released: 2017-09-27
-updated: 2026-05-04
-version: '29.93'
-reviews: 161358
+updated: 2026-05-18
+version: '29.95'
+reviews: 161397
 website: https://base.app
 repository: 
 icon: org.toshi.distribution.jpg

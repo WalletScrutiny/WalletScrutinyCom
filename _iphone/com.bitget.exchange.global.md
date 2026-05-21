@@ -10,7 +10,7 @@ idd: 1442778704
 released: 2018-11-29
 updated: 2026-05-20
 version: 2.83.0
-reviews: 2225
+reviews: 2224
 website: https://www.bitget.com/en
 repository: 
 icon: com.bitget.exchange.global.jpg

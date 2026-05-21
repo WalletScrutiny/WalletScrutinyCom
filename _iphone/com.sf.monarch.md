@@ -15,9 +15,9 @@ website: https://monarchwallet.com
 repository: 
 icon: com.sf.monarch.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2026-02-02
+date: 2026-05-21
 signer: 
 twitter: Monarchtoken
 social:

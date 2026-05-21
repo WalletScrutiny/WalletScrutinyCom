@@ -10,7 +10,7 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2026-02-03
 version: 2.10.0
-reviews: 2240
+reviews: 2244
 website: https://changenow.io
 repository: 
 icon: io.changenow.jpg

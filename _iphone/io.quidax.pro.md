@@ -8,9 +8,9 @@ appId: io.quidax.pro
 appCountry: ng
 idd: '6742988930'
 released: 2025-07-07
-updated: 2026-03-30
-version: 1.1.14
-reviews: 572
+updated: 2026-05-13
+version: 1.1.15
+reviews: 580
 website: 
 repository: 
 icon: io.quidax.pro.jpg

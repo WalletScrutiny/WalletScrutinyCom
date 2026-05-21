@@ -10,7 +10,7 @@ idd: '1598882898'
 released: 2022-02-05
 updated: 2026-02-22
 version: 2.0.7
-reviews: 927
+reviews: 947
 website: https://www.oobit.com/
 repository: 
 icon: com.oobit.jpg

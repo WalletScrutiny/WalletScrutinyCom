@@ -10,7 +10,7 @@ idd: '6483864038'
 released: 2024-05-17
 updated: 2026-04-29
 version: 1.0.11
-reviews: 25
+reviews: 24
 website: 
 repository: 
 icon: com.ybit.app.jpg

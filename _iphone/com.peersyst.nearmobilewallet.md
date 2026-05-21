@@ -10,7 +10,7 @@ idd: '6443501225'
 released: 2023-03-20
 updated: 2026-04-24
 version: 3.8.0
-reviews: 817
+reviews: 821
 website: https://nearmobile.app/
 repository: 
 icon: com.peersyst.nearmobilewallet.jpg

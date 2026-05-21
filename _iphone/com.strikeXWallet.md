@@ -10,7 +10,7 @@ idd: '6443517613'
 released: 2022-10-21
 updated: 2025-11-17
 version: '20.04'
-reviews: 232
+reviews: 234
 website: 
 repository: 
 icon: com.strikeXWallet.jpg

@@ -10,7 +10,7 @@ idd: '6743309484'
 released: 2025-04-15
 updated: 2026-04-29
 version: 6.169.0
-reviews: 90
+reviews: 91
 website: 
 repository: 
 icon: com.okx.wallet.jpg

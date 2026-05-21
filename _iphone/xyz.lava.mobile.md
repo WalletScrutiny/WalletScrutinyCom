@@ -8,9 +8,9 @@ appId: xyz.lava.mobile
 appCountry: us
 idd: '1661751123'
 released: 2024-04-29
-updated: 2026-05-03
-version: 3.4.0
-reviews: 138
+updated: 2026-05-12
+version: 3.5.0
+reviews: 141
 website: 
 repository: 
 icon: xyz.lava.mobile.jpg

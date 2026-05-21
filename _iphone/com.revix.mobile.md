@@ -10,7 +10,7 @@ idd: '1590491829'
 released: 2022-08-01
 updated: 2026-04-20
 version: 2.9.10
-reviews: 64
+reviews: 65
 website: https://www.altify.app/
 repository: 
 icon: com.revix.mobile.jpg

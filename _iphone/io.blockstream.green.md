@@ -9,9 +9,9 @@ bitcoinOrgId: green
 appCountry: 
 idd: 1402243590
 released: 2019-03-22
-updated: 2026-04-08
-version: 5.3.0
-reviews: 1141
+updated: 2026-05-18
+version: 5.4.1
+reviews: 1156
 website: https://blockstream.com/app
 repository: https://github.com/Blockstream/green_ios
 icon: io.blockstream.green.jpg

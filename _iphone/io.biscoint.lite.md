@@ -8,9 +8,9 @@ appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
 released: 2022-02-09
-updated: 2026-03-17
-version: 2.9.12
-reviews: 8742
+updated: 2026-05-11
+version: 2.9.13
+reviews: 8786
 website: https://bity.com.br/
 repository: 
 icon: io.biscoint.lite.jpg

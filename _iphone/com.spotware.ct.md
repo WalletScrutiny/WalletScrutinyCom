@@ -8,9 +8,9 @@ appId: com.spotware.ct
 appCountry: my
 idd: '767428811'
 released: 2013-12-05
-updated: 2026-04-30
-version: 5.8.200
-reviews: 777
+updated: 2026-05-08
+version: 5.8.220
+reviews: 787
 website: https://ctrader.com/forum
 repository: 
 icon: com.spotware.ct.jpg

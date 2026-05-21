@@ -10,7 +10,7 @@ idd: 1414619890
 released: 2018-09-02
 updated: 2026-04-30
 version: 3.9.7
-reviews: 2895
+reviews: 2898
 website: https://www.rain.bh/
 repository: 
 icon: com.rainmanagement.rain.jpg

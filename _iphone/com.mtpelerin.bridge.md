@@ -8,9 +8,9 @@ appId: com.mtpelerin.bridge
 appCountry: us
 idd: 1481859680
 released: 2020-04-08
-updated: 2026-04-05
-version: '1.65'
-reviews: 86
+updated: 2026-05-18
+version: '1.67'
+reviews: 87
 website: https://www.mtpelerin.com/
 repository: 
 icon: com.mtpelerin.bridge.jpg

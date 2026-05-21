@@ -1,6 +1,6 @@
 ---
 wsId: walletV
-title: 'Wallet V: Prediction & Crypto'
+title: Wallet V – Create AI Agents
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: prod.walletv.virgo
 appCountry: us
 idd: '6743709480'
 released: 2025-04-02
-updated: 2026-02-06
-version: 1.2.0
+updated: 2026-05-08
+version: 1.2.6
 reviews: 5
 website: https://walletv.io
 repository: 

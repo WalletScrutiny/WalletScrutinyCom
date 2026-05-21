@@ -10,7 +10,7 @@ idd: 1548297139
 released: 2021-01-11
 updated: 2026-04-22
 version: 4.11.2
-reviews: 15769
+reviews: 15951
 website: https://www.safepal.com
 repository: 
 icon: walletapp.safepal.io.jpg

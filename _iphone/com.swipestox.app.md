@@ -10,7 +10,7 @@ idd: 1182702365
 released: 2017-01-15
 updated: 2026-04-23
 version: 9.7.2
-reviews: 62
+reviews: 63
 website: https://www.naga.com
 repository: 
 icon: com.swipestox.app.jpg

@@ -8,8 +8,8 @@ appId: com.wirelessenergy.smartwallet
 appCountry: us
 idd: '6751100799'
 released: 2026-02-02
-updated: 2026-04-07
-version: 2.16.2
+updated: 2026-05-18
+version: 2.17.0
 reviews: 0
 website: https://swttoken.com/
 repository: 

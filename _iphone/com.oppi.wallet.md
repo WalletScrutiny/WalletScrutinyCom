@@ -1,6 +1,6 @@
 ---
 wsId: oppiWallet
-title: 'Oppi Wallet : Crypto Card/Pay'
+title: 'Oppi: Crypto Wallet & Card'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.oppi.wallet
 appCountry: us
 idd: '6502544148'
 released: 2024-08-12
-updated: 2026-01-06
-version: 1.0.95
-reviews: 13
+updated: 2026-05-15
+version: 1.0.111
+reviews: 16
 website: 
 repository: 
 icon: com.oppi.wallet.jpg

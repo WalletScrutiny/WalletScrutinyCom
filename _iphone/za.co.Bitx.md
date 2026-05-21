@@ -10,7 +10,7 @@ idd: 927362479
 released: 2014-11-03
 updated: 2026-05-04
 version: 8.107.0
-reviews: 3631
+reviews: 3633
 website: https://www.luno.com
 repository: 
 icon: za.co.Bitx.jpg

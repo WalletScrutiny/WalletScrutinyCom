@@ -11,7 +11,7 @@ idd: 1447619907
 released: 2019-01-10
 updated: 2026-04-20
 version: 0.48.1
-reviews: 1294
+reviews: 1305
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 icon: io.horizontalsystems.bank-wallet.jpg

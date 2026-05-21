@@ -10,7 +10,7 @@ idd: '1450480822'
 released: 2019-07-31
 updated: 2026-04-22
 version: 12.2.6
-reviews: 8276
+reviews: 8384
 website: https://imem.app/
 repository: 
 icon: com.olcorporation.olai.jpg

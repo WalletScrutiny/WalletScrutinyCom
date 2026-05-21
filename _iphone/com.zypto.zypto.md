@@ -10,7 +10,7 @@ idd: '6463755992'
 released: 2024-06-04
 updated: 2026-04-09
 version: 1.27.0
-reviews: 51
+reviews: 52
 website: https://zypto.com/
 repository: 
 icon: com.zypto.zypto.jpg

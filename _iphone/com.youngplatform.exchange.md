@@ -8,8 +8,8 @@ appId: com.youngplatform.exchange
 appCountry: fr
 idd: '1558657687'
 released: 2021-06-18
-updated: 2026-04-28
-version: 3.25.0
+updated: 2026-05-20
+version: 3.27.0
 reviews: 1094
 website: https://youngplatform.com
 repository: 

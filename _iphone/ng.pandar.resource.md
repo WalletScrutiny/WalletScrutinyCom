@@ -10,7 +10,7 @@ idd: '1563046132'
 released: 2021-04-20
 updated: 2026-04-29
 version: 1.9.10
-reviews: 4630
+reviews: 4668
 website: 
 repository: 
 icon: ng.pandar.resource.jpg

@@ -7,8 +7,8 @@ appId: io.orai.owallet
 appCountry: us
 idd: '1626035069'
 released: 2022-06-06
-updated: 2026-03-25
-version: 3.8.2
+updated: 2026-05-20
+version: 3.8.3
 reviews: 46
 website: https://owallet.io/
 repository: 

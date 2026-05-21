@@ -1,6 +1,6 @@
 ---
 wsId: anycoinCZ
-title: 'Anycoin.cz: Crypto exchange'
+title: 'Anycoin: crypto exchange'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: cz.anycoin.mobile
 appCountry: cz
 idd: '1616670336'
 released: 2022-04-25
-updated: 2026-03-18
-version: 1.32.30
+updated: 2026-05-15
+version: 1.32.32
 reviews: 90
 website: https://www.anycoin.cz
 repository: 

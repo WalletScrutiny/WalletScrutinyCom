@@ -10,7 +10,7 @@ idd: 1567213944
 released: 2021-05-22
 updated: 2026-04-24
 version: 2.1.4
-reviews: 1196
+reviews: 1201
 website: 
 repository: 
 icon: com.pionex.lite.appstore.jpg

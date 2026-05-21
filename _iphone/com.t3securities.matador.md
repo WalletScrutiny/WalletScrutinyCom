@@ -8,9 +8,9 @@ appId: com.t3securities.matador
 appCountry: us
 idd: '1204112719'
 released: 2017-03-13
-updated: 2026-04-24
-version: 5.0.37
-reviews: 81460
+updated: 2026-05-20
+version: 5.1.2
+reviews: 82323
 website: https://public.com
 repository: 
 icon: com.t3securities.matador.jpg

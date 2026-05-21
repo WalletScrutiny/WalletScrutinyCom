@@ -10,7 +10,7 @@ idd: '1514429922'
 released: 2020-06-18
 updated: 2026-04-23
 version: 1.62.1
-reviews: 3298
+reviews: 3300
 website: https://safello.com/
 repository: 
 icon: com.safello.iosapp.jpg

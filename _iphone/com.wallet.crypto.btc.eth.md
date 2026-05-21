@@ -10,7 +10,7 @@ idd: '6451146325'
 released: 2023-10-02
 updated: 2026-05-05
 version: 1.10.5
-reviews: 36
+reviews: 39
 website: https://ironwallet.io/
 repository: 
 icon: com.wallet.crypto.btc.eth.jpg

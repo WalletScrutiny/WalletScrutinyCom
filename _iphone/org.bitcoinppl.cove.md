@@ -8,8 +8,8 @@ appId: org.bitcoinppl.cove
 appCountry: us
 idd: '6642680364'
 released: 2025-06-11
-updated: 2026-03-19
-version: 1.2.2
+updated: 2026-05-19
+version: 1.2.3
 reviews: 22
 website: https://covebitcoinwallet.com
 repository: 

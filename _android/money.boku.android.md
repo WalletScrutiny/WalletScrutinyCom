@@ -1,6 +1,6 @@
 ---
 wsId: neverlessBuyBitcoin
-title: 'Neverless: Buy Crypto & Metals'
+title: 'Neverless: Stocks & Crypto'
 altTitle: 
 authors:
 - danny

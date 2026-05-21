@@ -10,7 +10,7 @@ idd: 1440147115
 released: 2019-06-07
 updated: 2026-04-27
 version: 9.6.3
-reviews: 4369
+reviews: 4376
 website: https://www.zengo.com
 repository: 
 icon: kzencorp.mobile.ios.jpg

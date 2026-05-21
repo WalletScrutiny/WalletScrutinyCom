@@ -10,7 +10,7 @@ idd: '1583801613'
 released: 2022-04-12
 updated: 2026-05-01
 version: 1.16.5
-reviews: 14
+reviews: 15
 website: https://www.sfox.com/
 repository: 
 icon: com.sfox.ios.jpg

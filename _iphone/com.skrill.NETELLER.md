@@ -10,7 +10,7 @@ idd: '1095647938'
 released: 2016-05-02
 updated: 2026-05-05
 version: 3.184.0
-reviews: 1133
+reviews: 1139
 website: 
 repository: 
 icon: com.skrill.NETELLER.jpg

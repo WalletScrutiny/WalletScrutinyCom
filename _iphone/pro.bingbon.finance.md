@@ -9,9 +9,9 @@ appId: pro.bingbon.finance
 appCountry: us
 idd: 1500217666
 released: 2020-02-25
-updated: 2026-04-28
-version: 4.82.0
-reviews: 2940
+updated: 2026-05-14
+version: 4.83.0
+reviews: 2963
 website: https://bingbon.com#deadLink
 repository: 
 icon: pro.bingbon.finance.jpg

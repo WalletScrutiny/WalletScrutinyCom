@@ -10,7 +10,7 @@ idd: '6449486592'
 released: 2023-06-27
 updated: 2026-04-29
 version: 2.2.2
-reviews: 25735
+reviews: 25810
 website: 
 repository: 
 icon: com.webull.pay.us.jpg

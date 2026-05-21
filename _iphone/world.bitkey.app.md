@@ -8,9 +8,9 @@ appId: world.bitkey.app
 appCountry: us
 idd: '6476990471'
 released: 2024-03-13
-updated: 2026-05-04
-version: 2026.8.0
-reviews: 116
+updated: 2026-05-15
+version: 2026.9.1
+reviews: 117
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 icon: world.bitkey.app.jpg

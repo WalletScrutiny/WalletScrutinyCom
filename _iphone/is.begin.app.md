@@ -8,8 +8,8 @@ appId: is.begin.app
 appCountry: us
 idd: '1642488837'
 released: 2022-11-03
-updated: 2026-02-23
-version: 2.5.0
+updated: 2026-05-07
+version: 2.6.1
 reviews: 12
 website: https://begin.is
 repository: 

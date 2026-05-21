@@ -10,7 +10,7 @@ idd: '6502452721'
 released: 2024-06-05
 updated: 2026-03-17
 version: '4.3'
-reviews: 848
+reviews: 851
 website: https://coinflip.tech/
 repository: 
 icon: tech.coinflip.CoinFlip.jpg

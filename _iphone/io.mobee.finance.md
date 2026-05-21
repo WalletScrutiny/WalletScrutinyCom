@@ -8,9 +8,9 @@ appId: io.mobee.finance
 appCountry: id
 idd: '1643474845'
 released: 2023-07-19
-updated: 2026-04-17
-version: 2.0.10
-reviews: 873
+updated: 2026-05-21
+version: 2.0.13
+reviews: 896
 website: https://mobee.com/
 repository: 
 icon: io.mobee.finance.jpg
