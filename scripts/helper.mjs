@@ -8,38 +8,67 @@ import dateFormat from 'dateformat';
 process.env.TZ = 'UTC'; // fix timezone issues
 
 function downloadImageFile (url, iconPath, callback) {
+  const finish = (iconExtension) => {
+    try {
+      callback(iconExtension);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  if (!url || !String(url).startsWith('https://')) {
+    console.error(`Invalid icon URL for ${iconPath}: ${url}`);
+    finish(null);
+    return;
+  }
+
   const iconFile = fs.createWriteStream(iconPath);
-  const request = https.get(`${url}`, response => {
+  const request = https.get(url, response => {
+    if (response.statusCode && response.statusCode >= 400) {
+      console.error(`Icon HTTP ${response.statusCode} for ${iconPath}`);
+      iconFile.close(() => {
+        fs.unlink(iconPath, () => finish(null));
+      });
+      return;
+    }
     response.pipe(iconFile);
     response.on('end', () => {
       (async () => {
-        const mimetype = ((await FileType.fromFile(iconPath)) || { mime: 'undefined' }).mime;
-        var iconExtension = null;
-        if (mimetype === 'image/png') {
-          iconExtension = 'png';
-        } else if (mimetype === 'image/jpg' || mimetype === 'image/jpeg') {
-          iconExtension = 'jpg';
-        } else if (mimetype === 'text/html' || mimetype === 'text/plain') {
-          console.error(`Not writing results to ${iconPath}`);
-          console.error(`Icon wrong mime type ${mimetype}. Skipping.`);
-          return;
-        } else {
-          console.error(`Not writing results to ${iconPath}`);
-          console.error(`Icon wrong mime type ${mimetype}. Skipping.`);
-          return;
+        try {
+          const mimetype = ((await FileType.fromFile(iconPath)) || { mime: 'undefined' }).mime;
+          let iconExtension = null;
+          if (mimetype === 'image/png') {
+            iconExtension = 'png';
+          } else if (mimetype === 'image/jpg' || mimetype === 'image/jpeg') {
+            iconExtension = 'jpg';
+          } else {
+            console.error(`Icon wrong mime type ${mimetype} for ${iconPath}. Keeping previous icon.`);
+            fs.unlink(iconPath, () => {});
+            finish(null);
+            return;
+          }
+          fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
+            if (err) {
+              console.error(`ERROR renaming icon ${iconPath}: ${err}`);
+              finish(null);
+              return;
+            }
+            finish(iconExtension);
+          });
+        } catch (err) {
+          console.error(`Icon processing failed for ${iconPath}: ${err}`);
+          fs.unlink(iconPath, () => finish(null));
         }
-        callback(iconExtension);
-        fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
-          if (err) console.log('ERROR: ' + err);
-        });
       })();
     });
     response.on('error', err => {
       console.error(err);
+      finish(null);
     });
   });
   request.on('error', err => {
     console.error(err);
+    finish(null);
   });
 }
 

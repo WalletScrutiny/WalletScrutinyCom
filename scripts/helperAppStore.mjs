@@ -25,7 +25,7 @@ async function refreshAll (ids, markRemoved) {
   if (ids) {
     files = ids.map(it => `${it}.md`);
   } else {
-    files = await fs.readdir(folder);
+    files = (await fs.readdir(folder)).filter((f) => f.endsWith('.md'));
   }
   console.log(`Updating ${files.length} 🍎 files ...`);
   stats.remaining = files.length;
@@ -53,24 +53,26 @@ function refreshFile (fileName, content, markRemoved) {
       app({
         id: idd,
         lang: 'en',
-        country: appCountry,
-        throttle: 2
-      }).then(app => {
+        country: appCountry
+      }).then((appData) => {
+        updateFromApp(header, appData);
+        if (header.meta === 'removed') {
+          header.meta = 'ok';
+          header.date = new Date();
+        }
         const iconPath = `images/wIcons/iphone/${appId}`;
-        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-          header.icon = `${appId}.${iconExtension}`;
-          if (header.meta === 'removed') {
-            header.meta = 'ok';
-            header.date = new Date();
+        helper.downloadImageFile(`${appData.icon}`, iconPath, iconExtension => {
+          if (iconExtension) {
+            header.icon = `${appId}.${iconExtension}`;
           }
-          updateFromApp(header, app);
           stats.updated++;
           helper.writeResult(folder, header, body);
           stats.remaining--;
           release();
         });
       }, (err) => {
-        if (`${err}`.search(/404/) > -1) {
+        const errText = `${err}`;
+        if (errText.search(/404/) > -1 || errText.includes('App not found')) {
           // If defunct and now 404, change to removed
           if (header.meta === 'defunct' || markRemoved) {
             header.meta = "removed";
@@ -137,8 +139,7 @@ function add (newIdds) {
       app({
         id: idd,
         lang: 'en',
-        country: country || 'cl',
-        throttle: 20
+        country: country || 'cl'
       }).then(app => {
         const path = `_iphone/${app.appId}.md`;
         fs.access(path)

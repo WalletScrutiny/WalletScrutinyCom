@@ -35,23 +35,15 @@ async function refresh (markRemoved, apps) {
     playStore.refreshAll();
   }
   const updateMillis = 500;
-  var msg = '';
-  var msgAgeMs = 0;
   const i = setInterval(() => {
-    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.removed}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.removed}, updated ${appStore.stats.updated}`;
+    const remaining = playStore.stats.remaining + appStore.stats.remaining;
+    const newMsg = `remaining: ${remaining}, 🤖: defunct ${playStore.stats.removed}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.removed}, updated ${appStore.stats.updated}`;
     readline.clearLine(process.stdout);
     readline.cursorTo(process.stdout, 0);
     process.stdout.write(newMsg);
-    readline.cursorTo(process.stdout, 0); // other console.out stuff should write over this.
-    if (msg === newMsg) {
-      msgAgeMs += updateMillis;
-    } else {
-      msg = newMsg;
-      msgAgeMs = 0;
-    }
-    if (playStore.stats.remaining + appStore.stats.remaining === 0 || msgAgeMs > 30000) {
-      console.log(`
-        Finished.`);
+    readline.cursorTo(process.stdout, 0);
+    if (remaining === 0) {
+      console.log('\nFinished.');
       clearInterval(i);
     }
   }, updateMillis);

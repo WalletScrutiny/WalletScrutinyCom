@@ -55,13 +55,15 @@ function refreshFile (fileName, content, markRemoved) {
           country: appCountry
         }).then(app => {
           const iconPath = `images/wIcons/android/${appId}`;
+          updateFromApp(header, app);
+          if (header.meta === 'removed') {
+            header.meta = 'ok';
+            header.date = new Date();
+          }
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-            header.icon = `${appId}.${iconExtension}`;
-            if (header.meta === 'removed') {
-              header.meta = 'ok';
-              header.date = new Date();
+            if (iconExtension) {
+              header.icon = `${appId}.${iconExtension}`;
             }
-            updateFromApp(header, app);
             stats.updated++;
             helper.writeResult(folder, header, body);
             stats.remaining--;
