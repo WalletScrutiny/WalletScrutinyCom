@@ -16,7 +16,7 @@ repository:
 icon: ai.pocketmint.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2026-05-20
 signer: 
 twitter: 

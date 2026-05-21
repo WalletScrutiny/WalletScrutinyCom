@@ -17,7 +17,7 @@ repository:
 icon: com.pocketmint.wallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2026-05-20
 signer: 
 twitter: 
@@ -40,27 +40,24 @@ The public website says only the user has access to private keys.
 
 ## Analysis
 
-PocketMint is presented as a Bitcoin wallet.
-It claims support for BTC.
-It claims users can send and receive BTC.
-It claims users can buy BTC and sell crypto to fiat.
-It also claims private-key access is controlled by the user.
+The app was not available in our country, so we were unable to install or test it directly.
+Our analysis is based on publicly available materials: the Google Play listing, the App Store listing and changelog, the PocketMint website, and the developers' own published articles.
 
-The product also has custodial-looking fintech features.
-It supports card purchases.
-It supports push-to-card and ACH withdrawals.
-It supports internal transfers between PocketMint users.
-Its App Store changelog mentions an enhanced KYC experience and SSN field protection.
-These features mean the wallet has account and compliance flows around the crypto wallet.
+PocketMint is presented as a Bitcoin wallet supporting BTC and USDT.
+It claims users can send and receive BTC, buy crypto with a card, and sell crypto to fiat.
+The website states that only the user has access to private keys.
 
-We did not find public source code for the Android wallet.
-A GitHub code search for the exact app id `com.pocketmint.wallet` did not return relevant wallet source code.
-Broader searches for PocketMint source code also did not find a current public repository.
-The website does not link to a source repository.
-The Google Play listing does not link to a source repository.
+Despite this claim, the feature set is consistent with a custodial service rather than a self-custody wallet.
+The app supports push-to-card and ACH withdrawals, meaning PocketMint must hold or intermediate funds to execute these payouts.
+Transfers are described as happening "within the PocketMint ecosystem," which is characteristic of custodial platforms where the provider controls the underlying balances.
+The App Store changelog references an enhanced KYC experience and SSN field protection, which are compliance features typical of regulated custodial services.
+Card-based purchases also imply PocketMint acts as the intermediary acquiring and holding crypto on behalf of the user.
 
-Without public source code for the reviewed Android release, the app cannot be verified.
-For WalletScrutiny purposes, the verdict is **nosource**.
+The developers' own published materials further undermine the self-custody claim.
+In a Medium article on biometric and private key protection, PocketMint.AI describes traditional seed phrases as a "recipe for anxiety" and "the most intimidating part of self-custody," and promotes Multi-Party Computation (MPC) and Account Abstraction as its security model.
+MPC-based key management means private key material is split and partially controlled by the provider — this is not user-controlled self-custody.
+
+For WalletScrutiny purposes, the verdict is **custodial**.
 
 Sources:
 
@@ -69,3 +66,4 @@ Sources:
 - [PocketMint App Store listing](https://apps.apple.com/us/app/pocketmint-wallet/id6743178752)
 - [GitHub code search for exact app id](https://github.com/search?q=%22com.pocketmint.wallet%22&type=code)
 - [PocketMint terms and conditions](https://pocketmint.ai/termsandconditions)
+- [PocketMint.AI Medium article: Biometric and Private Key Protection in Crypto Wallets](https://medium.com/@pocketmintai/biometric-and-private-key-protection-in-crypto-wallets-b3b01041654c)
