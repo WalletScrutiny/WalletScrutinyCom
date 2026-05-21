@@ -69,7 +69,7 @@ features:
 - Initialization began with wallet creation including the seed phrases.
 - This app supports multiple coins including Bitcoin.
 - There was an option to send and receive. The Bitcoin address was in the Bech32 format.
-- As they claimed to be an Open Source project, we easily found their [repository](https://github.com/gemwalletcom/gem-android). 
+- As they claimed to be an Open Source project, we easily found their [repository](https://github.com/gemwalletcom/wallet). 
 
 
 ### Thank you to Gem Wallet for their donation
