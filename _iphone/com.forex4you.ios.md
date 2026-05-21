@@ -10,7 +10,7 @@ idd: 1008039704
 released: 2015-10-11
 updated: 2026-03-27
 version: 6.22.0
-reviews: 988
+reviews: 989
 website: https://www.markets4you.com/en/contact-us/
 repository: 
 icon: com.forex4you.ios.jpg

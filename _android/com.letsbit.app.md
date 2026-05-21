@@ -16,9 +16,9 @@ website: https://lbfinanzas.com
 repository: 
 icon: com.letsbit.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-07
+date: 2026-05-21
 signer: 
 twitter: LetsBit_ok
 social:

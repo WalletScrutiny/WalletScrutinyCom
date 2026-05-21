@@ -7,8 +7,8 @@ appId: com.bullbitcoin.app
 appCountry: us
 idd: '6743380972'
 released: 2025-09-29
-updated: 2026-01-13
-version: 6.5.4
+updated: 2026-05-20
+version: 6.10.6
 reviews: 14
 website: https://bullbitcoin.com
 repository: 

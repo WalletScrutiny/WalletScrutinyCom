@@ -8,8 +8,8 @@ appId: com.lightning.manna
 appCountry: us
 idd: '6745337602'
 released: 2025-05-16
-updated: 2025-11-10
-version: 1.1.7
+updated: 2026-05-06
+version: 1.1.9
 reviews: 8
 website: https://mannabitcoin.com
 repository: 

@@ -17,7 +17,7 @@ icon: com.markka.markkawallet.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2026-05-19
+date: 2026-05-21
 signer: 
 twitter: 
 social: 

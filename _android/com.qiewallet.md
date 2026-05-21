@@ -1,5 +1,5 @@
 ---
-wsId: qieWallet 
+wsId: qieWallet
 title: QIE Wallet
 altTitle: 
 authors:

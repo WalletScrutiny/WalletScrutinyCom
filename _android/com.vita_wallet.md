@@ -9,8 +9,8 @@ appId: com.vita_wallet
 alternativeStores: 
 appCountry: cl
 released: 2019-10-16
-updated: 2026-05-11
-version: 7.3.13
+updated: 2026-05-19
+version: 7.3.14
 reviews: 881
 website: https://vitawallet.io/
 repository: 

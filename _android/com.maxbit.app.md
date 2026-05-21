@@ -9,7 +9,7 @@ appId: com.maxbit.app
 alternativeStores: 
 appCountry: 
 released: 2024-09-24
-updated: 2026-05-12
+updated: 2026-05-20
 version: 1.39.0
 reviews: 
 website: https://www.maxbit.com

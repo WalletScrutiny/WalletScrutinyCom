@@ -9,7 +9,7 @@ appId: asia.coins.mobile
 alternativeStores: 
 appCountry: 
 released: 2014-10-01
-updated: 2026-05-15
+updated: 2026-05-20
 version: 7.9.29.5
 reviews: 553
 website: https://coins.ph

@@ -9,8 +9,8 @@ appId: com.coinut.app
 alternativeStores: 
 appCountry: 
 released: 2018-02-04
-updated: 2026-05-14
-version: 0.8.6
+updated: 2026-05-20
+version: 0.8.7
 reviews: 15
 website: https://coinut.com
 repository: 

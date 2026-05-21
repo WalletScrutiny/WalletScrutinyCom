@@ -8,8 +8,8 @@ appId: com.idea-soft.intebix
 appCountry: kz
 idd: '6443622769'
 released: 2023-01-11
-updated: 2026-04-23
-version: 0.8.0
+updated: 2026-05-14
+version: 0.8.1
 reviews: 13
 website: 
 repository: 

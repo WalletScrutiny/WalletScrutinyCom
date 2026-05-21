@@ -1,6 +1,6 @@
 ---
 wsId: rumbleWallet
-title: 'Rumble Wallet: Tip With Crypto'
+title: 'Rumble Wallet: Buy Crypto, BTC'
 altTitle: 
 authors:
 - danny

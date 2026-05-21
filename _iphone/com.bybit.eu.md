@@ -10,7 +10,7 @@ idd: '6745866031'
 released: 2025-07-14
 updated: 2026-04-29
 version: 5.17.0
-reviews: 175
+reviews: 173
 website: 
 repository: 
 icon: com.bybit.eu.jpg

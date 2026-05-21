@@ -11,14 +11,13 @@ appCountry:
 released: 2024-08-30
 updated: 2026-05-15
 version: 2.12.17
-reviews: 11
+reviews: 12
 website: https://www.rhinobitcoin.com/
 repository: 
 icon: com.rhinoglobal.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-19
 signer: 
 twitter: RhinoBitcoin

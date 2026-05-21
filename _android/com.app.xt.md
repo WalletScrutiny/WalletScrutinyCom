@@ -9,7 +9,7 @@ appId: com.app.xt
 alternativeStores: 
 appCountry: 
 released: 2021-04-14
-updated: 2026-05-14
+updated: 2026-05-19
 version: 5.23.1
 reviews: 266
 website: http://www.xt.com

@@ -10,14 +10,13 @@ idd: '1564149079'
 released: 2022-06-29
 updated: 2026-05-18
 version: 2.12.17
-reviews: 26
+reviews: 27
 website: https://www.rhinobitcoin.com/
 repository: 
 icon: com.Rhino.Global.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-19
 signer: 
 twitter: RhinoBitcoin

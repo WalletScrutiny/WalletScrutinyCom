@@ -10,7 +10,7 @@ idd: '6670610349'
 released: 2025-01-06
 updated: 2026-03-23
 version: 1.2.0
-reviews: 91
+reviews: 92
 website: 
 repository: 
 icon: com.maxwallet.cc.jpg

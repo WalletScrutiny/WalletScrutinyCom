@@ -9,7 +9,7 @@ idd: '6748661577'
 released: 2025-07-22
 updated: 2026-02-21
 version: 6.0.0
-reviews: 27
+reviews: 29
 website: https://cryptokeeperllc.com/policy/privacy-policy/
 repository: 
 icon: com.flx.cryptokeeper.jpg

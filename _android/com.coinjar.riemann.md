@@ -11,7 +11,7 @@ appCountry: au
 released: 2019-11-21
 updated: 2026-05-07
 version: 3.54.4
-reviews: 1168
+reviews: 1169
 website: https://www.coinjar.com
 repository: 
 icon: com.coinjar.riemann.png

@@ -8,9 +8,9 @@ appId: com.mbeu.mbeuapp
 appCountry: pt
 idd: '6468321511'
 released: 2024-03-05
-updated: 2026-05-04
-version: 2.1.0
-reviews: 26
+updated: 2026-05-07
+version: 2.1.1
+reviews: 38
 website: https://mercadobitcoin.pt/mobile/ios
 repository: 
 icon: com.mbeu.mbeuapp.jpg

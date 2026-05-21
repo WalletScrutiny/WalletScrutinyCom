@@ -16,9 +16,9 @@ website: https://trusteeglobal.com
 repository: 
 icon: com.trusteeplus.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-23
+date: 2026-05-21
 signer: 
 twitter: TrusteeGlobal
 social:

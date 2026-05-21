@@ -9,9 +9,9 @@ appId: com.bybit.app
 alternativeStores: 
 appCountry: 
 released: 2019-10-31
-updated: 2026-05-08
+updated: 2026-05-19
 version: 5.18.1
-reviews: 7185
+reviews: 7186
 website: https://www.bybit.com
 repository: 
 icon: com.bybit.app.png

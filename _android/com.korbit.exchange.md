@@ -9,8 +9,8 @@ appId: com.korbit.exchange
 alternativeStores: 
 appCountry: us
 released: 2018-07-22
-updated: 2026-04-29
-version: 11.14.0
+updated: 2026-05-18
+version: 11.14.1
 reviews: 9
 website: https://www.korbit.co.kr
 repository: 

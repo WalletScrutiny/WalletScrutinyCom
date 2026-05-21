@@ -11,7 +11,7 @@ appCountry:
 released: 2014-12-17
 updated: 2026-05-18
 version: 2.169.0
-reviews: 215
+reviews: 216
 website: http://www.xtb.com
 repository: 
 icon: com.xtb.xmobile2.png

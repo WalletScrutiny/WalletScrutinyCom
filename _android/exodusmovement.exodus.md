@@ -12,7 +12,7 @@ appCountry:
 released: 2019-06-06
 updated: 2026-05-11
 version: 26.5.13
-reviews: 8622
+reviews: 8624
 website: https://exodus.com/mobile
 repository: 
 icon: exodusmovement.exodus.png

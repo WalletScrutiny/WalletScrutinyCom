@@ -10,7 +10,7 @@ idd: '6446243957'
 released: 2023-04-11
 updated: 2026-03-26
 version: 3.28.0
-reviews: 599
+reviews: 602
 website: https://www.bitunix.com
 repository: 
 icon: com.bitunix.ios-.jpg

@@ -8,8 +8,8 @@ appId: com.mexdigital.app
 appCountry: ae
 idd: '1592119946'
 released: 2022-01-18
-updated: 2026-04-30
-version: 26.0.10
+updated: 2026-05-18
+version: 26.0.12
 reviews: 29
 website: 
 repository: 

@@ -10,7 +10,7 @@ idd: '1598432977'
 released: 2022-01-30
 updated: 2026-05-14
 version: 26.13.3
-reviews: 60448
+reviews: 60577
 website: https://phantom.com
 repository: 
 icon: app.phantom.jpg

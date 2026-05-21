@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2026-04-17
 discontinued: 
-updated: 2026-04-23
-version: 1.3.1
+updated: 2026-05-21
+version: 1.3.2
 binaries: https://github.com/lqwdtech/SaturnZap/releases
 provider: LQWD Technologies Corp.
 providerWebsite: https://lqwdtech.com

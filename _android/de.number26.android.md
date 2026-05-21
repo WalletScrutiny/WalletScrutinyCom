@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2015-01-23
 updated: 2026-05-15
-version: 4.50.1
+version: '4.51'
 reviews: 2171
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 

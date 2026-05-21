@@ -12,7 +12,7 @@ idd: '1344400091'
 released: 2018-02-09
 updated: 2026-04-29
 version: 4.48.1
-reviews: 2857
+reviews: 2867
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 icon: co.edgesecure.app.jpg

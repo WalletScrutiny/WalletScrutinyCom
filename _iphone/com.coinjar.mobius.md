@@ -10,7 +10,7 @@ idd: 958797429
 released: 2015-02-04
 updated: 2026-05-07
 version: 3.54.4
-reviews: 15174
+reviews: 15185
 website: https://www.coinjar.com/au
 repository: 
 icon: com.coinjar.mobius.jpg

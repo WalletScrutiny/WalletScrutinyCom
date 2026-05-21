@@ -11,7 +11,7 @@ appCountry: in
 released: 2020-05-31
 updated: 2026-05-12
 version: 9.3.0
-reviews: 146794
+reviews: 146811
 website: https://coinswitch.co
 repository: 
 icon: com.coinswitch.kuber.png

@@ -10,7 +10,7 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2026-05-14
 version: 9.46.0
-reviews: 5472
+reviews: 5474
 website: https://web3.bitget.com
 repository: 
 icon: com.bitkeep.os.jpg

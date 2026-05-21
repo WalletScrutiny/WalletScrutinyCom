@@ -3,11 +3,11 @@ wsId: pantherWallet
 title: 'Panther: Wallet Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.inexlatam.panther
 appCountry: pa
 idd: '6744923576'
-released: '2025-06-29T07:00:00Z'
+released: 2025-06-29
 updated: 2026-05-19
 version: 0.8.4 (1693)
 reviews: 0
@@ -22,7 +22,7 @@ signer:
 twitter: panther_wallet
 social:
 - https://www.instagram.com/panther.wallet
-- https://www.facebook.com/Panther.wallet 
+- https://www.facebook.com/Panther.wallet
 features: 
 developerName: Veltrix Technologies OU
 

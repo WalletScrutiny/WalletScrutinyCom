@@ -9,7 +9,7 @@ appId: com.coinhako
 alternativeStores: 
 appCountry: 
 released: 2018-05-06
-updated: 2026-05-08
+updated: 2026-05-20
 version: 5.24.0
 reviews: 22
 website: https://coinhako.com

@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: nl
 released: 2020-08-19
 updated: 2026-05-15
-version: 2.107.0
-reviews: 3654
+version: 2.108.0
+reviews: 3655
 website: https://bitvavo.com/
 repository: 
 icon: com.bitvavo.android.png

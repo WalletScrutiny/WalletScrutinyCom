@@ -9,9 +9,9 @@ appId: com.binance.us
 alternativeStores: 
 appCountry: 
 released: 2019-12-23
-updated: 2026-05-13
-version: 3.37.2
-reviews: 6854
+updated: 2026-05-19
+version: 3.38.1
+reviews: 6857
 website: https://www.binance.us
 repository: 
 icon: com.binance.us.png

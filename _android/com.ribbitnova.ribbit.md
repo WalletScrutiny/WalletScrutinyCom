@@ -3,7 +3,7 @@ wsId: ribbitCrypto
 title: 'Ribbit: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ribbitnova.ribbit
 alternativeStores: 
@@ -18,12 +18,11 @@ icon: com.ribbitnova.ribbit.png
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2026-05-19
 signer: 
 twitter: ribbitwallet
 social:
-- https://www.linkedin.com/company/ribbit-wallet 
+- https://www.linkedin.com/company/ribbit-wallet
 redirect_from: 
 developerName: Ribbit Nova
 builds: 

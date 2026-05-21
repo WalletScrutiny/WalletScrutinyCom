@@ -10,7 +10,7 @@ idd: 1299421592
 released: 2017-12-05
 updated: 2026-05-14
 version: 3.1.7
-reviews: 4948
+reviews: 4950
 website: https://www.bithumb.com
 repository: 
 icon: com.btckorea.bithumb.jpg

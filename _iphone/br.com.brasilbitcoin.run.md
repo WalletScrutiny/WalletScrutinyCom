@@ -10,7 +10,7 @@ idd: '1519300849'
 released: 2020-07-27
 updated: 2026-03-04
 version: 4.1.03
-reviews: 2280
+reviews: 2281
 website: 
 repository: 
 icon: br.com.brasilbitcoin.run.jpg

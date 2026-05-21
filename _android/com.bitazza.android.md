@@ -9,9 +9,9 @@ appId: com.bitazza.android
 alternativeStores: 
 appCountry: th
 released: 2020-09-29
-updated: 2026-05-11
+updated: 2026-05-18
 version: 4.8.0
-reviews: 2511
+reviews: 2512
 website: http://bitazza.com/
 repository: 
 icon: com.bitazza.android.png

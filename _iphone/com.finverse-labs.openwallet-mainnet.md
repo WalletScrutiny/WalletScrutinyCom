@@ -8,8 +8,8 @@ appId: com.finverse-labs.openwallet-mainnet
 appCountry: ee
 idd: '6502636684'
 released: 2024-06-18
-updated: 2026-05-05
-version: '1.48'
+updated: 2026-05-08
+version: '1.49'
 reviews: 38
 website: https://openwallet.finance/
 repository: 

@@ -9,7 +9,7 @@ appId: com.dunamu.exchange.global
 alternativeStores: 
 appCountry: us
 released: 2018-11-06
-updated: 2026-05-11
+updated: 2026-05-19
 version: 1.22.35
 reviews: 34
 website: https://www.dunamu.com

@@ -10,7 +10,7 @@ idd: '1486286836'
 released: 2019-11-15
 updated: 2026-03-18
 version: 3.5.7(2)
-reviews: 31
+reviews: 32
 website: https://kointra.com
 repository: 
 icon: com.kointra.Kointra.V1.0.jpg

@@ -9,7 +9,7 @@ appId: com.pionex.us.client
 alternativeStores: 
 appCountry: 
 released: 2022-02-25
-updated: 2026-04-23
+updated: 2026-05-19
 version: 2.1.4
 reviews: 648
 website: https://www.pionex.us/

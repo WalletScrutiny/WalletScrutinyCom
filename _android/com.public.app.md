@@ -11,7 +11,7 @@ appCountry:
 released: 2019-09-06
 updated: 2026-05-18
 version: 3.245.0
-reviews: 9487
+reviews: 9492
 website: https://public.com
 repository: 
 icon: com.public.app.jpg

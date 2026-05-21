@@ -11,7 +11,7 @@ appCountry: BR
 released: 2017-12-22
 updated: 2026-05-04
 version: 3.62.0
-reviews: 7551
+reviews: 7552
 website: http://www.kinvo.com.br
 repository: 
 icon: com.everestti.kinvo.png

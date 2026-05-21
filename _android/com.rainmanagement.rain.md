@@ -11,7 +11,7 @@ appCountry: bh
 released: 2018-11-02
 updated: 2026-04-30
 version: 3.10.8
-reviews: 3335
+reviews: 3336
 website: https://rain.com
 repository: 
 icon: com.rainmanagement.rain.png

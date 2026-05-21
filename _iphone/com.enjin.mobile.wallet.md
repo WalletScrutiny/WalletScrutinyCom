@@ -9,8 +9,8 @@ appId: com.enjin.mobile.wallet
 appCountry: 
 idd: 1349078375
 released: 2018-03-12
-updated: 2026-05-04
-version: 3.5.4
+updated: 2026-05-15
+version: 3.5.5
 reviews: 1362
 website: https://enjin.io/products/wallet
 repository: 

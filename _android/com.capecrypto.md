@@ -9,8 +9,8 @@ appId: com.capecrypto
 alternativeStores: 
 appCountry: 
 released: 2022-04-25
-updated: 2026-04-01
-version: 4.1.3
+updated: 2026-05-19
+version: 4.1.6
 reviews: 
 website: https://capecrypto.com
 repository: 

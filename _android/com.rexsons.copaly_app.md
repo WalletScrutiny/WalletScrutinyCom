@@ -1,9 +1,9 @@
 ---
 wsId: copalyBitcoin
-title: Copaly -Trade Bitcoin & Crypto
+title: 'Copaly: P2P .Bitcoin & Utility'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.rexsons.copaly_app
 alternativeStores: 
@@ -18,7 +18,6 @@ icon: com.rexsons.copaly_app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-appHashes: 
 date: 2026-05-19
 signer: 
 twitter: mycopaly

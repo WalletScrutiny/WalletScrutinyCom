@@ -9,8 +9,8 @@ appId: com.youngplatform.exchange
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-15
-version: 3.25.0
+updated: 2026-05-19
+version: 3.27.0
 reviews: 
 website: https://exchange.youngplatform.com
 repository: 

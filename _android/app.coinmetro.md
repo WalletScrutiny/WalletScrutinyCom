@@ -9,8 +9,8 @@ appId: app.coinmetro
 alternativeStores: 
 appCountry: us
 released: 2017-12-10
-updated: 2026-05-13
-version: 5.55.7
+updated: 2026-05-19
+version: 5.55.9
 reviews: 89
 website: https://coinmetro.com/
 repository: 

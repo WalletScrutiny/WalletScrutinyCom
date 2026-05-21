@@ -9,7 +9,7 @@ appId: com.peachbitcoin.peach.mainnet
 alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-05-06
+updated: 2026-05-19
 version: 0.69.0
 reviews: 
 website: https://peachbitcoin.com

@@ -9,8 +9,8 @@ appId: co.rockitcoinx.app
 alternativeStores: 
 appCountry: 
 released: 2019-09-20
-updated: 2026-04-13
-version: 3.7.12
+updated: 2026-05-18
+version: 3.7.13
 reviews: 195
 website: https://rockitcoin.com
 repository: 

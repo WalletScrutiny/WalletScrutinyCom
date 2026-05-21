@@ -8,9 +8,9 @@ appId: com.garanti.cepsube
 appCountry: us
 idd: '521117624'
 released: 2012-04-28
-updated: 2026-05-04
-version: '18.7'
-reviews: 13667
+updated: 2026-05-12
+version: '18.8'
+reviews: 13840
 website: 
 repository: 
 icon: com.garanti.cepsube.jpg

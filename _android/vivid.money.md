@@ -9,8 +9,8 @@ appId: vivid.money
 alternativeStores: 
 appCountry: 
 released: 2020-10-09
-updated: 2026-05-13
-version: 4.27.1
+updated: 2026-05-19
+version: 4.28.0
 reviews: 8
 website: https://vivid.money/
 repository: 

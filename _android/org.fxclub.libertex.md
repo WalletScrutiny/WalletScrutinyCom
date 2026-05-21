@@ -11,7 +11,7 @@ appCountry: cl
 released: 2015-05-22
 updated: 2026-04-15
 version: 2.56.0
-reviews: 1266
+reviews: 1267
 website: https://libertex.org
 repository: 
 icon: org.fxclub.libertex.png

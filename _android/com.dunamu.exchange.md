@@ -9,7 +9,7 @@ appId: com.dunamu.exchange
 alternativeStores: 
 appCountry: 
 released: 2017-10-23
-updated: 2026-05-11
+updated: 2026-05-19
 version: 1.35.0
 reviews: 21
 website: https://upbit.com

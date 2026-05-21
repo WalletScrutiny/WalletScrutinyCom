@@ -10,7 +10,7 @@ idd: '1626327149'
 released: 2024-04-17
 updated: 2026-04-15
 version: 1.28.1
-reviews: 1161
+reviews: 1183
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 icon: com.kraken.superwallet.app.jpg

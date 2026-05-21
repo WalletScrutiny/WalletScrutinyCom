@@ -10,7 +10,7 @@ idd: '1327335329'
 released: 2018-01-03
 updated: 2026-05-05
 version: 3.62.0
-reviews: 19077
+reviews: 19090
 website: http://www.kinvo.com.br
 repository: 
 icon: com.everest.kinvo.jpg

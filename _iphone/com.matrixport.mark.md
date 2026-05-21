@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: BIT (formerly Matrixport)
+title: 'BIT: Buy Crypto & US Stocks'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2026-04-20
-version: 4.5.70
+updated: 2026-05-18
+version: 4.6.00
 reviews: 52
 website: https://www.bit.com
 repository: 

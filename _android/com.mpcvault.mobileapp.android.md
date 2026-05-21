@@ -9,7 +9,7 @@ appId: com.mpcvault.mobileapp.android
 alternativeStores: 
 appCountry: 
 released: 2022-09-13
-updated: 2026-05-11
+updated: 2026-05-21
 version: 3.16.3
 reviews: 3
 website: https://mpcvault.com/

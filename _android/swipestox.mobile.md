@@ -9,7 +9,7 @@ appId: swipestox.mobile
 alternativeStores: 
 appCountry: gb
 released: 2015-10-20
-updated: 2026-04-29
+updated: 2026-05-20
 version: 8.0.463
 reviews: 200
 website: http://www.naga.com

@@ -9,8 +9,8 @@ appId: com.coinzoom.android
 alternativeStores: 
 appCountry: 
 released: 2022-03-25
-updated: 2026-05-07
-version: 1.2.1.6604
+updated: 2026-05-20
+version: 1.2.1.6682
 reviews: 123
 website: https://www.coinzoom.com
 repository: 

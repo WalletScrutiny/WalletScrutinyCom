@@ -9,9 +9,9 @@ appId: com.gemini.android.app
 alternativeStores: 
 appCountry: 
 released: 2018-12-10
-updated: 2026-05-16
-version: 26.513.0
-reviews: 8539
+updated: 2026-05-19
+version: 26.518.1
+reviews: 8538
 website: https://www.gemini.com
 repository: 
 icon: com.gemini.android.app.png

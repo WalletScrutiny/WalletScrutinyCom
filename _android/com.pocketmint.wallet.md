@@ -1,5 +1,5 @@
 ---
-wsId: pocketmintWallet 
+wsId: pocketmintWallet
 title: PocketMint Wallet
 altTitle: 
 authors:

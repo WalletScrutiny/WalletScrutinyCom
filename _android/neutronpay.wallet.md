@@ -16,9 +16,9 @@ website: https://neutron.me/app
 repository: 
 icon: neutronpay.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2025-12-31
+date: 2026-05-21
 signer: 
 twitter: neutron__me
 social:

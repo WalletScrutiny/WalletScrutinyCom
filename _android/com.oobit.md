@@ -9,7 +9,7 @@ appId: com.oobit
 alternativeStores: 
 appCountry: 
 released: 2022-02-07
-updated: 2026-04-24
+updated: 2026-05-20
 version: 2.6.1
 reviews: 39
 website: https://www.oobit.com/

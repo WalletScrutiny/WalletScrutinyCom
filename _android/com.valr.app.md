@@ -11,7 +11,7 @@ appCountry:
 released: 2019-09-13
 updated: 2026-05-06
 version: 1.1.42
-reviews: 39
+reviews: 38
 website: https://www.valr.com
 repository: 
 icon: com.valr.app.png

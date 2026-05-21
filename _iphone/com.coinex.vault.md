@@ -21,7 +21,7 @@ signer:
 twitter: 
 social: 
 features: 
-developerName: Coinex Global Limited
+developerName: Viabtc Technology Limited
 
 ---
 

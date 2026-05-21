@@ -11,7 +11,7 @@ alternativeStores:
 appCountry: cz
 released: 2021-01-20
 updated: 2026-05-18
-version: 3.34.0
+version: 3.34.1
 reviews: 32
 website: https://capital.com/
 repository: 

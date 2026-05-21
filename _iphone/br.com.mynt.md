@@ -10,7 +10,7 @@ idd: '1592181444'
 released: 2022-06-19
 updated: 2026-05-16
 version: 1.108.0
-reviews: 1873
+reviews: 1874
 website: 
 repository: 
 icon: br.com.mynt.jpg

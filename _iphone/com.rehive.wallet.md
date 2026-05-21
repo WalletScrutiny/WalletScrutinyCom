@@ -1,13 +1,13 @@
 ---
-wsId: rehivePay 
+wsId: rehivePay
 title: Rehive Pay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.rehive.wallet
 appCountry: us
 idd: '1371128319'
-released: '2018-10-10T14:49:21Z'
+released: 2018-10-10
 updated: 2026-01-07
 version: 7.11.36
 reviews: 4

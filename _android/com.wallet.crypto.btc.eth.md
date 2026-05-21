@@ -11,7 +11,7 @@ appCountry:
 released: 2023-09-06
 updated: 2026-05-14
 version: 1.10.5
-reviews: 71
+reviews: 70
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet
 icon: com.wallet.crypto.btc.eth.png

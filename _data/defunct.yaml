@@ -1,7 +1,3 @@
-2026-05-05:
-- _android/com.letsbit.app
-- _android/com.trusteeplus
-- _android/neutronpay.wallet
 2026-05-08:
 - _android/com.ancryptoWallet
 2026-05-18:
@@ -11,3 +7,5 @@
 2026-05-19:
 - _android/co.bitcoindepot.app
 - _android/com.planb.wallet
+2026-05-21:
+- _android/com.sinblock.blockchain

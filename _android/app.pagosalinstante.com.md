@@ -9,8 +9,8 @@ appId: app.pagosalinstante.com
 alternativeStores: 
 appCountry: 
 released: 2019-02-03
-updated: 2026-05-08
-version: 1.08.1121
+updated: 2026-05-18
+version: 1.08.1122
 reviews: 41
 website: https://paiexchange.com
 repository: 

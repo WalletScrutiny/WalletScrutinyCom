@@ -11,7 +11,7 @@ appCountry:
 released: 2024-01-03
 updated: 2026-02-12
 version: 1.15.0
-reviews: 205
+reviews: 207
 website: https://www.frwt.app/
 repository: 
 icon: app.frwt.wallet.png

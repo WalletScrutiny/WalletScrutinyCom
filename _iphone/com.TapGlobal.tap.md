@@ -10,7 +10,7 @@ idd: '1492263993'
 released: 2019-12-20
 updated: 2026-05-15
 version: 3.8.5
-reviews: 1904
+reviews: 1906
 website: https://www.withtap.com
 repository: 
 icon: com.TapGlobal.tap.jpg

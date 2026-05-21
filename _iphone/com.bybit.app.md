@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: 'Bybit: Bitcoin & Crypto Wallet'
+title: Bybit - New Financial Platform
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2026-05-01
-version: 5.18.0
-reviews: 46547
+updated: 2026-05-21
+version: 5.19.0
+reviews: 46714
 website: https://www.bybit.com
 repository: 
 icon: com.bybit.app.jpg

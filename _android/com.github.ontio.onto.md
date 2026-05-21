@@ -9,8 +9,8 @@ appId: com.github.ontio.onto
 alternativeStores: 
 appCountry: us
 released: 2018-06-27
-updated: 2026-05-07
-version: 4.10.0
+updated: 2026-05-18
+version: 4.10.1
 reviews: 128
 website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink

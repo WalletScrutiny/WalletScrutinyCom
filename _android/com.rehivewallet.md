@@ -1,5 +1,5 @@
 ---
-wsId: rehivePay 
+wsId: rehivePay
 title: Rehive Pay
 altTitle: 
 authors:

@@ -10,7 +10,7 @@ idd: '1641771042'
 released: 2023-04-17
 updated: 2026-05-04
 version: '2.7'
-reviews: 184
+reviews: 186
 website: https://internetmoney.io/
 repository: 
 icon: com.internetmoneywallet.app.jpg

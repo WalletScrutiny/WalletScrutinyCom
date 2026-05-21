@@ -3,11 +3,11 @@ wsId: pocketmintWallet
 title: PocketMint Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: ai.pocketmint
 appCountry: us
 idd: '6743178752'
-released: '2025-05-14T07:00:00Z'
+released: 2025-05-14
 updated: 2025-12-29
 version: 1.9.0
 reviews: 5

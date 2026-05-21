@@ -11,7 +11,7 @@ appCountry:
 released: 2019-10-24
 updated: 2026-05-15
 version: 5.55.0
-reviews: 4696
+reviews: 4697
 website: https://www.kraken.com
 repository: 
 icon: com.kraken.trade.png

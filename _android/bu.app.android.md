@@ -9,7 +9,7 @@ appId: bu.app.android
 alternativeStores: 
 appCountry: 
 released: 2025-04-29
-updated: 2026-04-19
+updated: 2026-04-24
 version: 3.32.0
 reviews: 93
 website: https://www.unixcrypto.net

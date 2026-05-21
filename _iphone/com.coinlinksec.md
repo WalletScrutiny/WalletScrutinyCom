@@ -8,8 +8,8 @@ appId: com.coinlinksec
 appCountry: us
 idd: '6479732222'
 released: 2024-03-26
-updated: 2026-04-15
-version: '1.10'
+updated: 2026-05-18
+version: 1.20.2
 reviews: 5
 website: https://web.archive.org/web/20250409012753/https://www.coinlink.tech/
 repository: 

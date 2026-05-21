@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: us
 released: 2013-09-09
 updated: 2026-05-12
-version: 9.4.1
+version: 9.5.0
 reviews: 2061
 website: http://tradestation.com/contact-us/
 repository: 

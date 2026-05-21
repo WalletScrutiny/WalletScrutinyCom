@@ -10,7 +10,7 @@ idd: '1566499416'
 released: 2021-10-18
 updated: 2026-03-31
 version: 14.4.0
-reviews: 2282
+reviews: 2283
 website: https://www.independentreserve.com/
 repository: 
 icon: com.independentreserve.mobileapp.jpg

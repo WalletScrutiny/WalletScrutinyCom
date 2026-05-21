@@ -13,7 +13,7 @@ alternativeStores:
 appCountry: 
 released: 2016-10-01
 updated: 2026-05-12
-version: 14.41.1
+version: 14.42.1
 reviews: 2301
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app

@@ -3,7 +3,7 @@ wsId:
 title: 'Sorted: Send Money & Pay Bills'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.sortedwallet.sorted
 alternativeStores: 

@@ -1,13 +1,13 @@
 ---
-wsId: qieWallet 
+wsId: qieWallet
 title: QIE Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.reactjs.native.QIEWallet
 appCountry: us
 idd: '6445826746'
-released: '2024-05-31T07:00:00Z'
+released: 2024-05-31
 updated: 2026-05-13
 version: 2.7.1
 reviews: 1

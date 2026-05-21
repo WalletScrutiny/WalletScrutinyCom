@@ -9,8 +9,8 @@ appId: com.wallet.logos
 alternativeStores: 
 appCountry: 
 released: 2020-09-16
-updated: 2025-10-20
-version: 0.4.3
+updated: 2026-05-15
+version: 0.4.4
 reviews: 
 website: https://logos-foundation.org/logos
 repository: 

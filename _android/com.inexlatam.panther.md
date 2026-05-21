@@ -9,9 +9,9 @@ appId: com.inexlatam.panther
 alternativeStores: 
 appCountry: 
 released: 2025-06-05
-updated: 2026-05-07
-version: 0.8.2
-reviews: 4
+updated: 2026-05-14
+version: 0.8.4
+reviews: 5
 website: https://mypanther.io
 repository: 
 icon: com.inexlatam.panther.png
@@ -23,7 +23,7 @@ signer:
 twitter: panther_wallet
 social:
 - https://www.instagram.com/panther.wallet
-- https://www.facebook.com/Panther.wallet 
+- https://www.facebook.com/Panther.wallet
 redirect_from: 
 developerName: Veltrix Technologies OÜ
 builds: 

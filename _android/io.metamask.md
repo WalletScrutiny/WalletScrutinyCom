@@ -11,8 +11,8 @@ alternativeStores:
 appCountry: 
 released: 2020-09-01
 updated: 2026-05-15
-version: 7.76.0
-reviews: 6620
+version: 7.77.0
+reviews: 6623
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 icon: io.metamask.png

@@ -9,8 +9,8 @@ appId: com.artisan.pledge
 alternativeStores: 
 appCountry: 
 released: 2023-04-03
-updated: 2026-04-27
-version: 1.0.61
+updated: 2026-05-20
+version: 1.0.64
 reviews: 7
 website: https://www.assure.pro
 repository: 

@@ -3,11 +3,11 @@ wsId: openBlock
 title: OBWallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.dssq.obwallet
 appCountry: us
 idd: '6449669390'
-released: '2024-01-04T08:00:00Z'
+released: 2024-01-04
 updated: 2026-03-16
 version: 2.2.6
 reviews: 2

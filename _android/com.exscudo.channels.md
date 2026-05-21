@@ -11,7 +11,7 @@ appCountry: ru
 released: 2018-05-17
 updated: 2026-04-08
 version: 3.30.2738
-reviews: 51
+reviews: 49
 website: https://fintap.app
 repository: 
 icon: com.exscudo.channels.png

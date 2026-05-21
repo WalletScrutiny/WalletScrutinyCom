@@ -11,7 +11,7 @@ appCountry:
 released: 2019-12-27
 updated: 2026-05-15
 version: 4.13.0
-reviews: 1196
+reviews: 1193
 website: https://www.coinex.com/
 repository: 
 icon: com.coinex.trade.play.png

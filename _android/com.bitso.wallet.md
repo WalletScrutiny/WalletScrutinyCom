@@ -10,7 +10,7 @@ alternativeStores:
 appCountry: 
 released: 2018-02-19
 updated: 2026-05-13
-version: 4.15.3
+version: 4.16.0
 reviews: 309
 website: https://bitso.com/app
 repository: 

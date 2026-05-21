@@ -10,7 +10,7 @@ idd: 1512048310
 released: 2020-05-20
 updated: 2026-03-16
 version: 2.50.3
-reviews: 20739
+reviews: 20937
 website: https://crypto.com/onchain
 repository: 
 icon: com.defi.wallet.jpg

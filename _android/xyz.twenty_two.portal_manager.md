@@ -18,7 +18,7 @@ icon: xyz.twenty_two.portal_manager.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2026-05-19
+date: 2026-05-21
 signer: 
 twitter: TwentyTwoHW
 social:

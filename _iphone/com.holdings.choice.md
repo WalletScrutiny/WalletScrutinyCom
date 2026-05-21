@@ -10,7 +10,7 @@ idd: '1563472237'
 released: 2021-08-05
 updated: 2025-09-23
 version: 2.25.0
-reviews: 1498
+reviews: 1499
 website: https://www.choiceapp.io
 repository: 
 icon: com.holdings.choice.jpg

@@ -11,7 +11,7 @@ appCountry:
 released: 
 updated: 2026-05-14
 version: 3.0.1
-reviews: 12
+reviews: 13
 website: https://lemon.me
 repository: 
 icon: com.applemoncash.png

@@ -9,8 +9,8 @@ appId: giniapps.easymarkets.com
 alternativeStores: 
 appCountry: us
 released: 2017-04-05
-updated: 2026-04-27
-version: 3.3.0
+updated: 2026-05-19
+version: 3.3.1
 reviews: 39
 website: https://www.easymarkets.com/
 repository: 

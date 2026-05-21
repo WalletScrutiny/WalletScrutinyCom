@@ -9,8 +9,8 @@ appId: com.ggp__wallet
 alternativeStores: 
 appCountry: 
 released: 2024-06-05
-updated: 2026-04-29
-version: 1.5.7
+updated: 2026-05-19
+version: 1.5.8
 reviews: 16
 website: https://ggp.gg/
 repository: 

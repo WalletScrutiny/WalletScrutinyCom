@@ -3,11 +3,11 @@ wsId: flashBitcoinWallet
 title: 'Flash: Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.paywithflash.flashWallet
 appCountry: us
 idd: '6711339709'
-released: '2025-07-12T07:00:00Z'
+released: 2025-07-12
 updated: 2025-10-16
 version: 1.0.12
 reviews: 1

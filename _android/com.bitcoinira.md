@@ -11,7 +11,7 @@ appCountry: us
 released: 2021-06-15
 updated: 2026-05-12
 version: 2.0.10
-reviews: 550
+reviews: 551
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.png
@@ -25,7 +25,7 @@ social:
 - https://www.linkedin.com/company/bitcoinira
 - https://www.facebook.com/BitcoinIRA
 redirect_from: 
-developerName: Bitcoin IRA
+developerName: BitcoinIRA
 builds: 
 features: 
 

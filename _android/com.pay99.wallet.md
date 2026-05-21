@@ -11,7 +11,7 @@ appCountry: br
 released: 2021-09-23
 updated: 2026-05-06
 version: 8.4.56
-reviews: 9818
+reviews: 9822
 website: 
 repository: 
 icon: com.pay99.wallet.png

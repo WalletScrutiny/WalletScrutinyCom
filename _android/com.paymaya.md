@@ -10,8 +10,8 @@ alternativeStores:
 appCountry: 
 released: 2016-06-05
 updated: 2026-05-15
-version: 2.160.1
-reviews: 1213
+version: 2.161.1
+reviews: 1211
 website: https://www.maya.ph/
 repository: 
 icon: com.paymaya.png

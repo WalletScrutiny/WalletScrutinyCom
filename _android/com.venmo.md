@@ -11,7 +11,7 @@ appCountry:
 released: 2010-05-17
 updated: 2026-05-12
 version: 26.9.0
-reviews: 353404
+reviews: 353532
 website: https://venmo.com/
 repository: 
 icon: com.venmo.png

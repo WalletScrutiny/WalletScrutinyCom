@@ -10,7 +10,7 @@ idd: 1540214951
 released: 2020-12-01
 updated: 2026-04-23
 version: 9.2.7
-reviews: 60586
+reviews: 60694
 website: https://coinswitch.co
 repository: 
 icon: com.coinswitch.kuber.jpg

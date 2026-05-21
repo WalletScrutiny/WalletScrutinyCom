@@ -10,7 +10,7 @@ idd: 1396382871
 released: 2018-08-02
 updated: 2026-05-15
 version: 4.4.1
-reviews: 3346
+reviews: 3345
 website: https://www.bitmart.com/
 repository: 
 icon: com.bitmart.exchange.jpg

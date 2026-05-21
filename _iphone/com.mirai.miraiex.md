@@ -10,7 +10,7 @@ idd: '1542108249'
 released: 2021-01-09
 updated: 2026-05-05
 version: 3.7.1
-reviews: 10232
+reviews: 10249
 website: 
 repository: 
 icon: com.mirai.miraiex.jpg

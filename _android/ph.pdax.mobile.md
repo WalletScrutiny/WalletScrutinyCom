@@ -9,9 +9,9 @@ appId: ph.pdax.mobile
 alternativeStores: 
 appCountry: ph
 released: 2021-01-18
-updated: 2026-04-23
-version: 14.9.2
-reviews: 3640
+updated: 2026-05-12
+version: 14.10.0
+reviews: 3642
 website: https://pdax.ph
 repository: 
 icon: ph.pdax.mobile.png

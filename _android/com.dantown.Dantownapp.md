@@ -11,7 +11,7 @@ appCountry:
 released: 2021-03-27
 updated: 2026-05-08
 version: 2.0.79
-reviews: 43
+reviews: 44
 website: https://www.dantownms.com
 repository: 
 icon: com.dantown.Dantownapp.jpg

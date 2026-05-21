@@ -9,9 +9,9 @@ appId: com.mercadopago.wallet
 alternativeStores: 
 appCountry: br
 released: 2014-12-09
-updated: 2026-05-12
+updated: 2026-05-19
 version: 2.436.2
-reviews: 1087153
+reviews: 1087462
 website: http://www.mercadopago.com
 repository: 
 icon: com.mercadopago.wallet.png
