@@ -9,7 +9,7 @@ appId: com.bitvavo.android
 alternativeStores: 
 appCountry: nl
 released: 2020-08-19
-updated: 2026-05-15
+updated: 2026-05-20
 version: 2.108.0
 reviews: 3655
 website: https://bitvavo.com/

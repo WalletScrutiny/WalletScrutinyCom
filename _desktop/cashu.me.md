@@ -5,8 +5,8 @@ authors:
 - heisenberg
 released: 2023-02-27
 discontinued: 
-updated: 2026-01-30
-version: 
+updated: 2026-05-21
+version: 0.2
 binaries: 
 provider: Cashu
 providerWebsite: https://cashu.space

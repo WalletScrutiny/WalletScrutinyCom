@@ -11,7 +11,7 @@ appCountry:
 released: 2018-05-09
 updated: 2026-05-14
 version: 4.4.1
-reviews: 3756
+reviews: 3755
 website: http://www.bitmart.com
 repository: 
 icon: com.bitmart.bitmarket.png

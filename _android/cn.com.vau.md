@@ -11,7 +11,7 @@ appCountry: cn
 released: 2019-07-06
 updated: 2026-05-19
 version: 4.02.1
-reviews: 6958
+reviews: 6956
 website: https://www.vantagemarkets.com/
 repository: 
 icon: cn.com.vau.png
