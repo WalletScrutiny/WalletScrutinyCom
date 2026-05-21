@@ -1,5 +1,5 @@
 import gplay from 'google-play-scraper';
-import { appleApp, search } from '@perttu/app-store-scraper';
+import { app as appleApp, search } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import yaml from 'js-yaml';
 import { Semaphore } from 'async-mutex';

@@ -149,7 +149,7 @@ See [SEARCH_STRATEGIES.md](SEARCH_STRATEGIES.md) for detailed information about:
 ## Dependencies
 
 - `google-play-scraper` - Google Play Store API
-- `@perttu/app-store-scraper` - Apple App Store API
+- `@perttu/app-store-scraper` - Apple App Store API ([ktecho/app-store-scraper](https://github.com/ktecho/app-store-scraper) fork)
 - `js-yaml` - YAML processing
 - `async-mutex` - Rate limiting
 

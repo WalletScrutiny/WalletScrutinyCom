@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.5",
-    "@perttu/app-store-scraper": "^2.0.0",
+    "@perttu/app-store-scraper": "github:ktecho/app-store-scraper#main",
     "async-mutex": "^0.3.2",
     "autoprefixer": "^10.5.0",
     "axios": "^1.16.1",
