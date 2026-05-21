@@ -13,7 +13,7 @@ updated: 2026-05-19
 version: '2.68'
 reviews: 5
 website: https://gemwallet.com
-repository: https://github.com/gemwalletcom/gem-android
+repository: https://github.com/gemwalletcom/wallet
 icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
@@ -38,6 +38,8 @@ features:
 - tradeAlts
 
 ---
+
+**Note (2026-05-21):** Gem Wallet's Android source code has moved. The original standalone repository [`gemwalletcom/gem-android`](https://github.com/gemwalletcom/gem-android) was archived and its development migrated to the unified monorepo [`gemwalletcom/wallet`](https://github.com/gemwalletcom/wallet), which now hosts both the Android and iOS apps under a shared `android/` and `ios/` directory structure alongside the shared Rust core library. The monorepo uses a new version tag format (e.g. `2.68`) that matches the Play Store `versionName` directly, whereas the old repo used an internal `1.3.x` scheme decoupled from the displayed version.
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4d35b58691a7b46c61502395f1864e0cc5f4c268/_android/com.gemwallet.android.md)*
 
