@@ -8,11 +8,11 @@
     "start": "node index.mjs"
   },
   "dependencies": {
-    "@nodesecure/js-x-ray": "^10.2.1",
-    "axios": "^1.7.8",
-    "better-sqlite3": "^11.7.0",
+    "@nodesecure/js-x-ray": "^15.1.0",
+    "axios": "^1.16.1",
+    "better-sqlite3": "^12.10.0",
     "minimist": "^1.2.8",
-    "obfuscation-detector": "^2.0.7"
+    "obfuscation-detector": "^3.0.0"
   },
   "engines": {
     "node": ">= 18.6.0"
