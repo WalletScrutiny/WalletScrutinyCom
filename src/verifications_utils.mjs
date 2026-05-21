@@ -286,6 +286,45 @@ const getProfileDisplayName = function (profile, pubkey) {
   }
 }
 
+const PROFILE_PLACEHOLDER_IMAGE = 'data:image/svg+xml,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">' +
+  '<circle cx="32" cy="32" r="32" fill="#dfe6e8"/>' +
+  '<circle cx="32" cy="24" r="11" fill="#7f9a9e"/>' +
+  '<ellipse cx="32" cy="52" rx="16" ry="11" fill="#7f9a9e"/>' +
+  '</svg>'
+);
+
+const getProfileImageUrl = function (profile) {
+  const url = profile?.image;
+  return url && String(url).trim() ? String(url).trim() : PROFILE_PLACEHOLDER_IMAGE;
+};
+
+const renderProfileCardHtml = function (pubkey, profile) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  const imageUrl = getProfileImageUrl(profile);
+  return `
+    <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
+      <img src="${imageUrl}" class="profile-image" alt="" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <div class="profile-info">
+        <div>${displayName}</div>
+        ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+      </div>
+    </div>
+  `;
+};
+
+const renderBigProfileCardHtml = function (pubkey, profile) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  const imageUrl = getProfileImageUrl(profile);
+  return `
+    <div class="big-profile-card">
+      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
+      ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+    </div>
+  `;
+};
+
 const getWSClientTags = function() {
   return [
     ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
@@ -2397,6 +2436,9 @@ if (typeof window !== 'undefined') {
   window.getNpubFromPubkey = getNpubFromPubkey;
   window.shortenNpub = shortenNpub;
   window.getProfileDisplayName = getProfileDisplayName;
+  window.getProfileImageUrl = getProfileImageUrl;
+  window.renderProfileCardHtml = renderProfileCardHtml;
+  window.renderBigProfileCardHtml = renderBigProfileCardHtml;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
@@ -2443,6 +2485,9 @@ export {
   getNpubFromPubkey,
   shortenNpub,
   getProfileDisplayName,
+  getProfileImageUrl,
+  renderProfileCardHtml,
+  renderBigProfileCardHtml,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,
