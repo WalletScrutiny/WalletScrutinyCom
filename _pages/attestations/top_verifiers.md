@@ -146,18 +146,16 @@ permalink: /verifiers/
 
     document.getElementById(containerId).innerHTML = tableHTML;
 
-    // Load Profiles asynchronously (placeholder shown until fetch completes)
-    (async () => {
-      for (const [pubkey] of sortedAttestators) {
-        try {
-          const profile = await getNostrProfile(pubkey);
-          const el = document.getElementById(`${idPrefix}-${pubkey}`);
-          if (el) {
-            el.innerHTML = renderProfileCardHtml(pubkey, profile);
-          }
-        } catch(e) {}
-      }
-    })();
+    // Load profiles concurrently — getNostrProfile dedupes in-flight fetches
+    // across the parallel month tables that share verifiers.
+    sortedAttestators.forEach(([pubkey]) => {
+      getNostrProfile(pubkey).then(profile => {
+        const el = document.getElementById(`${idPrefix}-${pubkey}`);
+        if (el) {
+          el.innerHTML = renderProfileCardHtml(pubkey, profile);
+        }
+      }).catch(() => {});
+    });
   }
 
   function renderTables() {
