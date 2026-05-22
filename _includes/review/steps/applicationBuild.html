@@ -73,7 +73,12 @@
           });
         </script>
         {% else %}
+        {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
+        {% if sourceCheckedVerdicts contains page.verdict %}
         <small>Build cannot be done because the source code is not publicly available.</small>
+        {% else %}
+        <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>
+        {% endif %}
         {% endif %}
     </div>
 </div>
