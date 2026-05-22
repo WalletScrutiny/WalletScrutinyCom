@@ -9,14 +9,17 @@
     <h3>Source code</h3>
     <p>
     {% if page.repository %}
-      {{'Public on '}} 
+      {{'Public on '}}
       {% assign string = page.repository | replace: "https://", "" %}
       {% assign split = string | split:"/" %}
       {% assign name = split[0] | split:"." %}
       {% assign name = name[0] %}
       <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
     {% else %}
-      <!-- No repository provided, keeping this blank -->
+      {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
+      {% unless sourceCheckedVerdicts contains page.verdict %}
+        <small>Not evaluated — our review stopped at an earlier step.</small>
+      {% endunless %}
     {% endif %}
     </p>
   </div>
