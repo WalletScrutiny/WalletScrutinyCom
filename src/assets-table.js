@@ -272,55 +272,37 @@ window.renderAssetsTable = async function({
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
   }
 
-  window.downloadBlossomFile = async (hash, filename) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href);
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
+  // Server sets Content-Disposition from ?filename= (see external/configs/blossom-server/filesNostr).
+  const downloadFileWithFilename = (hash, filename) => {
+    const a = document.createElement('a');
+    a.href = getBlossomDownloadURL(hash, filename);
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
 
-  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 12000);
-    try {
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  window.downloadBlossomFile = (hash, filename) => {
+    downloadFileWithFilename(hash, filename);
+  };
 
-      const filenameFromURL = response.url?.split('/').pop() ?? hash;
+  const downloadBlossomFileWithDownloadIcon = (hash, downloadIcon) => {
+    let filename = '';
+    const platform = downloadIcon.getAttribute('data-platform');
+    const version = downloadIcon.getAttribute('data-version');
+    const appid = downloadIcon.getAttribute('data-appid');
+    const filenameFromEvent = downloadIcon.getAttribute('data-filename');
 
-      let filename = '';
-      const platform = downloadIcon.getAttribute('data-platform');
-      const version = downloadIcon.getAttribute('data-version');
-      const appid = downloadIcon.getAttribute('data-appid');
-      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
-
-      if (filenameFromEvent) {
-        filename = `${filenameFromEvent}`;
-      } else {
-        filename = `${appid}-${version}-${filenameFromURL}`;
-        if (platform === 'android') {
-          filename += '.apk';
-        }
+    if (filenameFromEvent) {
+      filename = `${filenameFromEvent}`;
+    } else {
+      filename = `${appid}-${version}-${hash}`;
+      if (platform === 'android') {
+        filename += '.apk';
       }
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href);
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
     }
+
+    downloadFileWithFilename(hash, filename);
   };
 
   function setupBlossomDownloadObserverForTable(tableForObserver) {
@@ -901,12 +883,10 @@ window.renderAssetsTable = async function({
     attachments.forEach(attachment => {
       const { name, sizeInKb } = getAttachmentInfo(attachment);
 
-      // Decode and store attachment data
-      const attachmentContent = atob(attachment.content);
       const attachmentContentType = getFirstTagValue(attachment, 'content-type', 'application/octet-stream');
 
       attachmentDataStore[attachment.id] = {
-        content: attachmentContent,
+        content: atob(attachment.content),
         type: attachmentContentType,
         filename: name,
         sizeInKb: sizeInKb
@@ -1883,10 +1863,10 @@ window.handleAttachmentDownload = function(attachmentId) {
       const a = document.createElement('a');
       a.href = url;
       a.download = attachmentData.filename;
-      document.body.appendChild(a); // Append anchor to body
+      document.body.appendChild(a);
       a.click();
-      document.body.removeChild(a); // Clean up anchor
-      URL.revokeObjectURL(url); // Clean up blob URL
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     } catch (error) {
       console.error('Error preparing download:', error);
       showToast('Error preparing download.', 'error');

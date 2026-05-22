@@ -112,9 +112,19 @@ export function getBlossomFileURL(hash) {
     return blossomServerUrl + '/' + hash;
 }
 
+/** URL for browser download with a suggested filename (requires server Content-Disposition support). */
+export function getBlossomDownloadURL(hash, filename) {
+    const url = new URL(`${blossomServerUrl}/${hash}`);
+    if (filename) {
+        url.searchParams.set('filename', filename);
+    }
+    return url.href;
+}
+
 if (typeof window !== 'undefined') {
     window.checkFileExistsInBlossom = checkFileExistsInBlossom;
     window.getBlossomFileURL = getBlossomFileURL;
+    window.getBlossomDownloadURL = getBlossomDownloadURL;
     window.uploadToBlossom = uploadToBlossom;
 }
 
