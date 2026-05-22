@@ -118,10 +118,6 @@ const nostrConnect = function (nostrPrivateKey) {
 
 // Helper function to ensure NDK is connected before proceeding
 const ensureNdkConnected = async () => {
-  // Fast path: already connected.
-  if (ndk && ndkConnectionPromise) {
-    return;
-  }
   if (!ndkConnectionPromise) {
     await nostrConnectInitiatedPromise;
   }
