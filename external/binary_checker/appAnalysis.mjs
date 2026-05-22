@@ -597,6 +597,76 @@ export async function listDependenciesWithoutFixedVersions(repoPath, appType) {
   }
 }
 
+function parseNpmAuditJson(auditResult) {
+  const audit = JSON.parse(auditResult);
+  return {
+    summaryVulnerabilities: audit.metadata.vulnerabilities,
+    vulnerabilities: Object.values(audit.vulnerabilities || {}).map((v) => ({
+      name: v.name,
+      severity: v.severity,
+      fixAvailable: Boolean(v.fixAvailable),
+    })),
+  };
+}
+
+/**
+ * Yarn Classic audit --json emits one JSON object per line (NDJSON).
+ */
+function parseYarnAuditJson(auditResult) {
+  const advisories = [];
+  let summaryVulnerabilities = null;
+
+  for (const line of auditResult.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    let event;
+    try {
+      event = JSON.parse(trimmed);
+    } catch {
+      continue;
+    }
+
+    if (event.type === 'auditSummary' && event.data?.vulnerabilities) {
+      summaryVulnerabilities = event.data.vulnerabilities;
+    } else if (event.type === 'auditAdvisory' && event.data?.advisory) {
+      const advisory = event.data.advisory;
+      advisories.push({
+        name: advisory.module_name,
+        severity: advisory.severity,
+        fixAvailable: Boolean(advisory.patched_versions),
+      });
+    }
+  }
+
+  if (!summaryVulnerabilities) {
+    throw new Error('yarn audit output missing auditSummary');
+  }
+
+  return { summaryVulnerabilities, vulnerabilities: advisories };
+}
+
+const SEVERITY_RANK = { critical: 4, high: 3, moderate: 2, low: 1, info: 0 };
+
+function dedupeVulnerabilities(vulnerabilities) {
+  const byName = new Map();
+
+  for (const v of vulnerabilities) {
+    const existing = byName.get(v.name);
+    if (!existing) {
+      byName.set(v.name, { ...v, count: 1 });
+      continue;
+    }
+    existing.count += 1;
+    if ((SEVERITY_RANK[v.severity] ?? 0) > (SEVERITY_RANK[existing.severity] ?? 0)) {
+      existing.severity = v.severity;
+    }
+    existing.fixAvailable = existing.fixAvailable || v.fixAvailable;
+  }
+
+  return [...byName.values()];
+}
+
 /**
  * Test 4: Execute vulnerability scan
  */
@@ -608,15 +678,9 @@ export async function scanVulnerabilities(repoPath, appType) {
       case APP_TYPES.NPM:
         try {
           const yarnLockPath = path.join(repoPath, 'yarn.lock');
-          
-          let auditCommand;
-          
-          if (fs.existsSync(yarnLockPath)) {
-            auditCommand = 'yarn audit --json';
-          } else {
-            auditCommand = 'npm audit --json';
-          }
-          
+          const useYarn = fs.existsSync(yarnLockPath);
+          const auditCommand = useYarn ? 'yarn audit --json' : 'npm audit --json';
+
           console.log(`Running ${auditCommand}...`);
           let auditResult;
           try {
@@ -630,17 +694,20 @@ export async function scanVulnerabilities(repoPath, appType) {
             // but still outputs valid JSON to stdout
             auditResult = error.stdout || error.message || '';
           }
-          //console.log('auditResult: ' + JSON.stringify(auditResult));
-          const audit = JSON.parse(auditResult);
-          const summaryVulnerabilities = audit.metadata.vulnerabilities;
+
+          const { summaryVulnerabilities, vulnerabilities } = useYarn
+            ? parseYarnAuditJson(auditResult)
+            : parseNpmAuditJson(auditResult);
+
           console.log('  ' + JSON.stringify(summaryVulnerabilities));
 
           if (summaryVulnerabilities.critical > 0 || summaryVulnerabilities.high > 0) {
             console.log('Critical and high vulnerabilities found:');
 
-            for (const vulnerability of Object.values(audit.vulnerabilities || {})) {
+            for (const vulnerability of dedupeVulnerabilities(vulnerabilities)) {
               if (vulnerability.severity === 'critical' || vulnerability.severity === 'high') {
-                console.log(`  ** ${vulnerability.name} (${vulnerability.severity}) - Fix available: ${vulnerability.fixAvailable ? 'Yes' : 'No'}`);
+                const advisoryCount = vulnerability.count > 1 ? `, ${vulnerability.count} advisories` : '';
+                console.log(`  ** ${vulnerability.name} (${vulnerability.severity}${advisoryCount}) - Fix available: ${vulnerability.fixAvailable ? 'Yes' : 'No'}`);
               }
             }
           } else {
@@ -987,15 +1054,62 @@ function getJavaScriptFiles(dirPath, fileList = []) {
   return fileList;
 }
 
+const JS_TEST_DIR_NAMES = new Set([
+  'test', 'tests', '__tests__', 'spec', 'specs', '__spec__', 'e2e', 'integration'
+]);
+
+/**
+ * Returns true if the path looks like a JavaScript/TypeScript test file.
+ */
+function isJavaScriptTestFile(relativePath) {
+  const normalized = relativePath.replace(/\\/g, '/');
+  const parts = normalized.split('/');
+  const base = parts[parts.length - 1];
+  const lowerBase = base.toLowerCase();
+
+  if (parts.slice(0, -1).some(part => JS_TEST_DIR_NAMES.has(part.toLowerCase()))) {
+    return true;
+  }
+
+  if (/\.(test|spec|tests|e2e)\.(js|mjs|cjs|jsx|ts|tsx)$/.test(lowerBase)) {
+    return true;
+  }
+
+  if (/[._-](test|spec)\.(js|mjs|cjs|jsx|ts|tsx)$/.test(lowerBase)) {
+    return true;
+  }
+
+  if (/^test[._-].+\.(js|mjs|cjs|jsx|ts|tsx)$/.test(lowerBase)) {
+    return true;
+  }
+
+  return false;
+}
+
 /**
  * Test 7: Analyze code vulnerabilities using js-x-ray
+ * @param {string} repoPath
+ * @param {{ includeTestFiles?: boolean }} [options] - includeTestFiles: also scan test files (default false)
  */
-export async function analyzeCodeVulnerabilitiesJSXRay(repoPath) {
+export async function analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles = false } = {}) {
   console.log('\n=== Code Vulnerability Analysis (js-x-ray) ===');
   
   try {
-    const jsFiles = getJavaScriptFiles(repoPath);
-    console.log(`Scanning ${jsFiles.length} JavaScript/TypeScript files...`);
+    const allJsFiles = getJavaScriptFiles(repoPath);
+    const jsFiles = includeTestFiles
+      ? allJsFiles
+      : allJsFiles.filter(filePath => !isJavaScriptTestFile(path.relative(repoPath, filePath)));
+
+    const excludedTestCount = allJsFiles.length - jsFiles.length;
+    if (includeTestFiles) {
+      console.log(`Scanning ${jsFiles.length} JavaScript/TypeScript files (including test files)...`);
+    } else if (excludedTestCount > 0) {
+      console.log(
+        `Scanning ${jsFiles.length} JavaScript/TypeScript files (${excludedTestCount} test file(s) excluded; use --includeTestFiles to include them)...`
+      );
+    } else {
+      console.log(`Scanning ${jsFiles.length} JavaScript/TypeScript files...`);
+    }
     
     if (jsFiles.length === 0) {
       console.log('No JavaScript/TypeScript files found to analyze');
@@ -1439,7 +1553,7 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
 /**
  * Run all tests for a specific app
  */
-export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master' }) {
+export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master', includeTestFiles = false }) {
   console.log(`\n${'='.repeat(60)}`);
   console.log(`Testing: ${name} - Repository: ${repoUrl} ${`- Branch: ${version}`}`);
   console.log('='.repeat(60));
@@ -1475,7 +1589,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master' 
   await scanVulnerabilities(repoPath, appType);
   await analyzeDependencies(repoPath, appType);
   await analyzeCodeVulnerabilitiesSemgrep(repoPath);
-  await analyzeCodeVulnerabilitiesJSXRay(repoPath);
+  await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
   await analyzeObfuscation(repoPath);
   
   // Cleanup

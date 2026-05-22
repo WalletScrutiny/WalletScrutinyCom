@@ -71,6 +71,12 @@ export function initDatabase() {
   return db;
 }
 
+// Returns true if the app already has at least one stored asset (not a baseline run)
+export function hasExistingAssets(db, appId) {
+  const row = db.prepare('SELECT 1 FROM assets WHERE app_id = ? LIMIT 1').get(appId);
+  return row !== undefined;
+}
+
 // Save or update asset in database
 // Returns: 'unchanged', 'added', 'unknown', or 'changed'
 // shaChangeResult: result from evaluateAssetShaChange function

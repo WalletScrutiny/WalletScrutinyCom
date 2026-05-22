@@ -2,12 +2,12 @@
 
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset } from './ddbbUtils.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis } from './appAnalysis.mjs';
 import { APPS } from './config.mjs';
 
 // Main function
-async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null) {
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
   console.log(`\nProcessing app: ${appId}`);
   if (repoUrl) {
     console.log(`  GitHub repo: ${repoUrl}`);
@@ -21,6 +21,10 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
     let addedCount = 0;
     let unknownCount = 0;
     const checkedVersions = new Set(); // Track versions we've already checked for authorId consistency
+    const skipSizeComparison = !hasExistingAssets(db, appId);
+    if (skipSizeComparison) {
+      console.log('  Baseline run: skipping size-change notifications');
+    }
 
     // Fetch GitHub assets
     if (repoUrl) {
@@ -32,7 +36,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         console.log(`Found ${githubAssets.length} GitHub assets`);
         
         for (const asset of githubAssets) {
-          const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset);
+          const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset, { skipSizeComparison });
           const status = saveAsset(db, appId, asset, shaChangeResult);
           if (status === 'unchanged') unchangedCount++;
           else if (status === 'added') {
@@ -50,10 +54,10 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       }
 
       if (mostRecentAsset) {
-        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version });
+        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles });
       } else {
         console.log('  No updates or not a GitHub repo...');
-        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl });
+        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
       }
     }
 
@@ -74,7 +78,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       console.log(`Found ${dockerAssets.length} Docker assets`);
 
       for (const asset of dockerAssets) {
-        const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset);
+        const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset, { skipSizeComparison });
         const status = saveAsset(db, appId, asset, shaChangeResult);
         if (status === 'unchanged') unchangedCount++;
         else if (status === 'added') addedCount++;
@@ -96,15 +100,18 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 // Parse command line arguments with minimist
 const argv = minimist(process.argv.slice(2), {
   string: ['githubToken', 'dockerToken'],
+  boolean: ['includeTestFiles'],
   alias: {
     githubToken: ['github-token', 'gh-token'],
-    dockerToken: ['docker-token', 'docker-token']
+    dockerToken: ['docker-token', 'docker-token'],
+    includeTestFiles: ['include-test-files', 'jsxray-include-tests']
   }
 });
 
 // Extract token arguments
 const githubToken = argv.githubToken || null;
 const dockerToken = argv.dockerToken || null;
+const includeTestFiles = Boolean(argv.includeTestFiles);
 
 if (!githubToken && !dockerToken) {
   console.log('No tokens provided via command line');
@@ -166,7 +173,8 @@ try {
         app.repoUrl || null,
         app.dockerImage || null,
         appGithubToken,
-        effectiveDockerToken
+        effectiveDockerToken,
+        includeTestFiles
       );
       successCount++;
     } catch (error) {

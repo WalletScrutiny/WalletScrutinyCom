@@ -527,7 +527,13 @@ export async function fetchDockerAssets(imageRef, dockerToken = null) {
 // - changed: sha256 changed
 // - unchanged: sha256 matches (metadata may still need update)
 // Also checks size differences with previous versions and alerts if threshold is exceeded
-export function evaluateChangesInNewAsset(db, appId, asset, sizeChangeThresholdPercent = SIZE_CHANGE_THRESHOLD_PERCENT) {
+// skipSizeComparison: set on baseline runs (first ingest for an app) to avoid false alerts
+export function evaluateChangesInNewAsset(db, appId, asset, options = {}) {
+  const {
+    sizeChangeThresholdPercent = SIZE_CHANGE_THRESHOLD_PERCENT,
+    skipSizeComparison = false,
+  } = options;
+
   const selectStmt = db.prepare(`
     SELECT sha256, architecture, os, published_at, size FROM assets 
     WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
@@ -538,8 +544,8 @@ export function evaluateChangesInNewAsset(db, appId, asset, sizeChangeThresholdP
   const existing = selectStmt.get(appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
   const newSha256 = asset.sha256;
 
-  // Check size against previous versions (once, for all cases)
-  if (asset.size !== undefined && asset.size !== null) {
+  // Check size against previous versions (skip on baseline run — no prior snapshot to compare against)
+  if (!skipSizeComparison && asset.size !== undefined && asset.size !== null) {
     checkSizeChangeAgainstPreviousVersions(
       db, 
       appId, 
