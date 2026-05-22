@@ -119,17 +119,10 @@ const nostrConnect = function (nostrPrivateKey) {
 // Helper function to ensure NDK is connected before proceeding
 const ensureNdkConnected = async () => {
   if (!ndkConnectionPromise) {
-    // nostrConnect hasn't been called yet, wait for it to be initiated
-    console.debug("ensureNdkConnected: Waiting for nostrConnect to be initiated...");
     await nostrConnectInitiatedPromise;
-    console.debug("ensureNdkConnected: nostrConnect initiated.");
   }
-  // Now we know ndkConnectionPromise is set (or was already set). Wait for the connection attempt to complete.
-  console.debug("ensureNdkConnected: Waiting for ndkConnectionPromise to resolve...");
   await ndkConnectionPromise;
-  console.debug("ensureNdkConnected: ndkConnectionPromise resolved.");
   if (!ndk) {
-    // Should not happen if nostrConnect was called and promise resolved, but as a safeguard
     throw new Error("NDK object not initialized after connection.");
   }
 };
@@ -179,16 +172,25 @@ const saveProfileToIDB = async (pubkey, profile) => {
   });
 };
 
+// Profile cache TTLs. Negative results expire faster so a verifier who later
+// publishes a kind-0 gets picked up within a few hours instead of a day, but
+// we still avoid re-hitting relays for every missing profile on every page load.
+const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
+const PROFILE_MISS_MAX_AGE = 4 * 60 * 60;
+
 /**
  * Get profile from IDB
  * @param {string} pubkey - User's public key
- * @returns {Promise<Object|null>} Profile data or null
+ * @returns {Promise<{found: boolean, profile: Object|null}|null>}
+ *   - { found: true, profile } if we have a fresh non-empty cached profile
+ *   - { found: false, profile: null } if we have a fresh negative cache entry
+ *   - null if there is no fresh cache entry (caller should hit the network)
  */
 const getProfileFromIDB = async (pubkey) => {
   const db = await initDB().catch(() => null);
   if (!db) return null;
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const transaction = db.transaction([profilesStoreName], "readonly");
     const objectStore = transaction.objectStore(profilesStoreName);
 
@@ -196,26 +198,31 @@ const getProfileFromIDB = async (pubkey) => {
     request.onsuccess = () => {
       const result = request.result;
       if (!result) {
-        reject("There is no profile for this pubkey");
+        resolve(null);
         return;
       }
 
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
-      const MAX_AGE = 24 * 60 * 60;
+      const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
+      const maxAge = isEmpty ? PROFILE_MISS_MAX_AGE : PROFILE_HIT_MAX_AGE;
 
-      if (age > MAX_AGE) {
-        reject("Expired");
-      } else if (!result.profile || Object.keys(result.profile).length === 0) {
-        // Legacy entries from before we stopped caching empty results.
-        reject("Empty cached profile");
+      if (age > maxAge) {
+        resolve(null);
+      } else if (isEmpty) {
+        resolve({ found: false, profile: null });
       } else {
-        resolve(result.profile);
+        resolve({ found: true, profile: result.profile });
       }
     };
-    request.onerror = () => reject("Error reading profile");
+    request.onerror = () => resolve(null);
   });
 };
+
+// Dedupe in-flight network fetches so concurrent callers asking for the same
+// pubkey (e.g. the current-month and prior-month tables on /verifiers/) share
+// one round-trip instead of racing.
+const inFlightProfileFetches = new Map();
 
 const getNostrProfile = async function (pubkey) {
   if (!pubkey || pubkey.length !== 64) {
@@ -223,48 +230,52 @@ const getNostrProfile = async function (pubkey) {
     return null;
   }
 
-  // Try IDB first (fastest)
-  try {
-    const profileFromIDB = await getProfileFromIDB(pubkey);
-    if (profileFromIDB) {
-      console.debug(`Profile loaded from IDB for ${pubkey.substring(0, 8)}...`);
-      return profileFromIDB;
+  const cached = await getProfileFromIDB(pubkey).catch(() => null);
+  if (cached) {
+    return cached.profile;
+  }
+
+  if (inFlightProfileFetches.has(pubkey)) {
+    return inFlightProfileFetches.get(pubkey);
+  }
+
+  const fetchPromise = (async () => {
+    let profile;
+    try {
+      await ensureNdkConnected();
+      const user = ndk.getUser({ pubkey });
+      profile = await user.fetchProfile();
+    } catch (e) {
+      // NDK can throw if the remote profile content is not valid JSON.
+      // Treat this as "profile not available" rather than a hard failure.
+      console.debug(
+        `Nostr profile fetch failed for ${pubkey.substring(0, 8)}...`,
+        e && e.message ? e.message : e
+      );
+      profile = null;
     }
-  } catch (e) {
-    console.debug("Failed to load profile from IDB:", e);
-  }
 
-  // Fetch from network
-  let profile;
-  try {
-    await ensureNdkConnected();
-    const user = ndk.getUser({ pubkey });
-    profile = await user.fetchProfile();
-  } catch (e) {
-    // NDK can throw if the remote profile content is not valid JSON.
-    // Treat this as "profile not available" rather than a hard failure.
-    console.debug(
-      `Nostr profile fetch failed for ${pubkey.substring(0, 8)}...`,
-      e && e.message ? e.message : e
-    );
-    return null;
-  }
-  console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
+    if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
+      // Cache the miss with a short TTL so we don't re-hit relays for every
+      // missing profile on every page load. See PROFILE_MISS_MAX_AGE.
+      saveProfileToIDB(pubkey, {}).catch(e => console.warn("Failed to save profile miss to IDB", e));
+      return null;
+    }
 
-  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
-    return null;
-  }
+    const sanitizedProfile = {};
+    Object.keys(profile).forEach(key => {
+      sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
+    });
 
-  const sanitizedProfile = {};
-  Object.keys(profile).forEach(key => {
-    sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
+    saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
+
+    return sanitizedProfile;
+  })().finally(() => {
+    inFlightProfileFetches.delete(pubkey);
   });
 
-  console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
-
-  saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
-
-  return sanitizedProfile;
+  inFlightProfileFetches.set(pubkey, fetchPromise);
+  return fetchPromise;
 }
 
 const getNpubFromPubkey = function (pubkey) {
@@ -286,13 +297,9 @@ const getProfileDisplayName = function (profile, pubkey) {
   }
 }
 
-const PROFILE_PLACEHOLDER_IMAGE = 'data:image/svg+xml,' + encodeURIComponent(
-  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">' +
-  '<circle cx="32" cy="32" r="32" fill="#dfe6e8"/>' +
-  '<circle cx="32" cy="24" r="11" fill="#7f9a9e"/>' +
-  '<ellipse cx="32" cy="52" rx="16" ry="11" fill="#7f9a9e"/>' +
-  '</svg>'
-);
+// Served as a real file rather than a data: URL so it works under the
+// production CSP (img-src *; — wildcards exclude data:/blob:/filesystem:).
+const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
 const getProfileImageUrl = function (profile) {
   const url = profile?.image;
