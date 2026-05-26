@@ -6,7 +6,6 @@ date: 2026-05-20
 authors:
 - danny
 website: https://paywithflash.com
-developerName: Flash Lightning Solutions
 redirect_from:
 - /android/com.paywithflash.flash_wallet.beta/
 android:
@@ -15,6 +14,8 @@ android:
   updated: 2025-12-30
   version: VARY
   icon: com.paywithflash.flash_wallet.beta.png
+  website: https://paywithflash.com
+  developerName: Flash Lightning Solutions
 
 ---
 

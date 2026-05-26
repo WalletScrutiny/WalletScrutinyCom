@@ -8,7 +8,6 @@ authors:
 website: https://denryu.hashhub.tokyo#deadLink
 features:
 - ln
-developerName: HashHub
 redirect_from:
 - /android/com.lightning.denryu/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2018-12-26
   version: '0.1'
   icon: com.lightning.denryu.png
+  developerName: HashHub
 
 ---
 

@@ -3,7 +3,6 @@ title: Bitcoin Cold
 verdict: wip
 meta: removed
 date: 2024-05-07
-developerName: Michael Wittmann
 redirect_from:
 - /android/org.bitcoincold.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2017-08-23
   version: 1.4.5
   icon: org.bitcoincold.wallet.png
+  developerName: Michael Wittmann
 
 ---
 

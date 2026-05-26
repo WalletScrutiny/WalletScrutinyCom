@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/deploystarship
 - https://www.facebook.com/DeployStarship
 - https://discord.com/invite/deploystarship
-developerName: Starship Holdings, Inc
 redirect_from:
 - /android/com.starbase.wallet/
 android:
@@ -24,6 +23,7 @@ android:
   version: 0.22.1
   reviews: 9
   icon: com.starbase.wallet.jpg
+  developerName: Starship Holdings, Inc
 
 ---
 

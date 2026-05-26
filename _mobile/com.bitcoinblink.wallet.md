@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://bitcoinblink.com/
-developerName: BitcoinBlink
 redirect_from:
 - /android/com.bitcoinblink.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-01
   version: '1.9'
   icon: com.bitcoinblink.wallet.png
+  developerName: BitcoinBlink
 
 ---
 

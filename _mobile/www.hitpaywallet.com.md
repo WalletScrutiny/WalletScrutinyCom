@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://web.archive.org/web/20200204184428/https://www.hitpaywallet.com/
-developerName: HitPay Payment Solutions Ltd.
 redirect_from:
 - /android/www.hitpaywallet.com/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-27
   version: '1.17'
   icon: www.hitpaywallet.com.png
+  developerName: HitPay Payment Solutions Ltd.
 
 ---
 

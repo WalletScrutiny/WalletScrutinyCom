@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://paperbgs.com/
-developerName: PaperBGS
 redirect_from:
 - /android/com.paperbgs.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-02-04
   version: '1.9'
   icon: com.paperbgs.app.jpg
+  developerName: PaperBGS
 
 ---
 

@@ -6,7 +6,6 @@ date: 2024-07-14
 authors:
 - danny
 website: https://icynote.ch
-developerName: Martin Demierre
 redirect_from:
 - /android/ch.smd.icynote/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-09-22
   version: 1.0.2
   icon: ch.smd.icynote.png
+  developerName: Martin Demierre
 
 ---
 

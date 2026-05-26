@@ -26,8 +26,8 @@ android:
   reviews: 64
   icon: app.herewallet.hot.png
   website: https://hot-labs.org/privacypolicy
-  twitter: hotdao_
   developerName: HERE Wallet
+  twitter: hotdao_
 iphone:
   appId: app.here.dev.wallet
   idd: '6740916148'

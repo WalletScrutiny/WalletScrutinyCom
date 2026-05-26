@@ -5,7 +5,6 @@ meta: removed
 date: 2023-04-18
 authors:
 - danny
-developerName: S-ONE Finance
 redirect_from:
 - /android/sone.finance.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.0.12
   reviews: 7
   icon: sone.finance.wallet.png
+  developerName: S-ONE Finance
 
 ---
 

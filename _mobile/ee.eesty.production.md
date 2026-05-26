@@ -6,7 +6,6 @@ date: 2023-08-16
 authors:
 - danny
 website: https://www.eesty.ee#deadLink
-developerName: blockhive
 appCountry: jp
 redirect_from:
 - /iphone/ee.eesty.production/
@@ -18,6 +17,7 @@ iphone:
   version: '3.0'
   reviews: 8
   icon: ee.eesty.production.jpg
+  developerName: blockhive
 
 ---
 

@@ -7,7 +7,6 @@ date: 2025-11-14
 authors:
 - danny
 twitter: fidelity
-developerName: Fidelity Investments
 redirect_from:
 - /android/com.fidelity.android/
 - /iphone/com.fidelity.watchlist/
@@ -15,11 +14,12 @@ android:
   appId: com.fidelity.android
   users: 5000000
   released: 2010-12-15
-  updated: 2026-05-11
+  updated: 2026-05-21
   version: '4.32'
-  reviews: 56959
+  reviews: 56984
   icon: com.fidelity.android.png
   website: https://www.fidelity.com
+  developerName: Fidelity Investments
 iphone:
   appId: com.fidelity.watchlist
   idd: '348177453'
@@ -30,6 +30,7 @@ iphone:
   reviews: 3117678
   icon: com.fidelity.watchlist.jpg
   website: http://www.fidelity.com
+  developerName: Fidelity Investments
 
 ---
 

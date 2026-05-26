@@ -6,7 +6,6 @@ date: 2023-09-15
 authors:
 - danny
 website: https://get2coin.com
-developerName: NOS Microsystems Ltd
 redirect_from:
 - /android/com.nosapps.android.get2cloudsx/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.1.603
   reviews: 3
   icon: com.nosapps.android.get2cloudsx.png
+  developerName: NOS Microsystems Ltd
 
 ---
 

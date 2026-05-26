@@ -10,7 +10,6 @@ twitter: bitgatex
 social:
 - https://www.linkedin.com/company/bitgate
 - https://www.facebook.com/bitgatex
-developerName: BitSpace
 redirect_from:
 - /android/com.bitgate.flutter/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2023-04-14
   version: 0.9.4
   icon: com.bitgate.flutter.png
+  developerName: BitSpace
 
 ---
 

@@ -9,7 +9,6 @@ website: https://wyretrade.com#deadLink
 twitter: wyretrade
 social:
 - https://www.facebook.com/Wyretrade-105994018302814
-developerName: REMITTY LLC
 redirect_from:
 - /android/com.wyre.trade/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.1.7
   reviews: 4
   icon: com.wyre.trade.png
+  developerName: REMITTY LLC
 
 ---
 

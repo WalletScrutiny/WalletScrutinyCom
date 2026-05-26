@@ -25,6 +25,7 @@ android:
   version: 3.6.11
   reviews: 5
   icon: com.usenobi.png
+  website: https://usenobi.com
   developerName: usenobi
 iphone:
   appId: com.usenobi.ios

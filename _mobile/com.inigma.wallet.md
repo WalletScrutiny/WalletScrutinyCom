@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.inigmasys.com#deadLink
-developerName: Inigma Co., Ltd.
 redirect_from:
 - /android/com.inigma.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-22
   version: 0.0.18
   icon: com.inigma.wallet.jpg
+  developerName: Inigma Co., Ltd.
 
 ---
 

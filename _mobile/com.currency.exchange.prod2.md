@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/people/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B1%D0%B8%D1%80%D0%B6%D0%B0-Dzengicom/100076159896281/
 - https://www.youtube.com/channel/UCgUgUM_0y3n_fTCjm6q7vDA
 - https://www.instagram.com/dzengicom/
-developerName: DI INVESTMENTS LLC
 redirect_from:
 - /com.currency.exchange.prod2/
 - /posts/com.currency.exchange.prod2/
@@ -27,6 +26,7 @@ android:
   reviews: 1
   icon: com.currency.exchange.prod2.jpg
   website: http://dzengi.com
+  developerName: DI INVESTMENTS LLC
 iphone:
   appId: com.currency.exchange.prod2
   idd: 1458917114
@@ -37,6 +37,7 @@ iphone:
   reviews: 4483
   icon: com.currency.exchange.prod2.jpg
   website: https://dzengi.com/ads
+  developerName: DI INVESTMENTS LLC
 
 ---
 

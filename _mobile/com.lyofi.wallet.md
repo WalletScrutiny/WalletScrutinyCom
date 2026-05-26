@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/lyopayofficial/
 - https://t.me/lyopay
 - https://www.linkedin.com/company/lyopay/
-developerName: DIGILYO APP LTD
 redirect_from:
 - /android/com.lyofi.wallet/
 - /iphone/com.lyo.wallet/
@@ -24,6 +23,7 @@ android:
   version: 1.5.1
   icon: com.lyofi.wallet.png
   website: https://wallet.lyofi.com#deadLink
+  developerName: DIGILYO APP LTD
 iphone:
   appId: com.lyo.wallet
   idd: '1624892548'
@@ -34,6 +34,7 @@ iphone:
   reviews: 1
   icon: com.lyo.wallet.jpg
   website: https://lyowallet.com#deadLink
+  developerName: DIGILYO APP LTD
 
 ---
 

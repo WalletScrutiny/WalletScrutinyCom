@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://mikodes.com
-developerName: Mikodes Team
 redirect_from:
 - /android/com.mikodesx.cryptowallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-06
   version: 1.5.2
   icon: com.mikodesx.cryptowallet.png
+  developerName: Mikodes Team
 
 ---
 

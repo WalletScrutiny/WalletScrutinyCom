@@ -12,7 +12,6 @@ features:
 - hd
 - segwit
 - tradeAlts
-developerName: Bifrost Software Ltd
 redirect_from:
 - /android/com.bifrostwallet.app/
 - /iphone/com.bifrostwallet.app/
@@ -22,8 +21,10 @@ android:
   released: 2021-09-09
   updated: 2026-04-16
   version: 0.7.45
-  reviews: 107
+  reviews: 108
   icon: com.bifrostwallet.app.png
+  website: https://bifrostwallet.com
+  developerName: Bifrost Software Ltd
 iphone:
   appId: com.bifrostwallet.app
   idd: '1577198351'
@@ -33,6 +34,7 @@ iphone:
   version: 0.7.45
   reviews: 210
   icon: com.bifrostwallet.app.jpg
+  developerName: Bifrost Software Ltd
 
 ---
 

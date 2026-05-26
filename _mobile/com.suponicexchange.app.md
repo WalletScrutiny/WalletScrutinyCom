@@ -6,7 +6,6 @@ date: 2023-06-03
 authors:
 - danny
 website: https://www.suponic.com#deadLink
-developerName: Suponic
 redirect_from:
 - /android/com.suponicexchange.app/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   reviews: 2
   icon: com.suponicexchange.app.png
+  developerName: Suponic
 
 ---
 

@@ -3,7 +3,6 @@ title: Ciwa - CITEX Wallet
 verdict: wip
 meta: removed
 date: 2023-08-25
-developerName: CITEX Platform
 redirect_from:
 - /android/com.citex.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-08
   version: '1.3'
   icon: com.citex.wallet.png
+  developerName: CITEX Platform
 
 ---
 

@@ -5,7 +5,6 @@ meta: removed
 date: 2023-08-05
 authors:
 - danny
-developerName: XUSDT
 redirect_from:
 - /android/web.xusdt.app/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-05-14
   version: 1.0.3
   icon: web.xusdt.app.png
+  developerName: XUSDT
 
 ---
 

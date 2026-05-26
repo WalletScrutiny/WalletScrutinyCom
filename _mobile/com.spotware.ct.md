@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/ctrader
 - https://www.youtube.com/spotware
 - https://t.me/cTrader_Official
-developerName: Spotware
 redirect_from:
 - /android/com.spotware.ct/
 - /iphone/com.spotware.ct/
@@ -24,6 +23,8 @@ android:
   version: 5.8.220
   reviews: 382
   icon: com.spotware.ct.png
+  website: https://ctrader.com/forum
+  developerName: Spotware
 iphone:
   appId: com.spotware.ct
   idd: '767428811'
@@ -33,6 +34,7 @@ iphone:
   version: 5.8.220
   reviews: 787
   icon: com.spotware.ct.jpg
+  developerName: Spotware
 
 ---
 

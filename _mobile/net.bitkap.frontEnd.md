@@ -2,6 +2,7 @@
 wsId: bitkapAfrica
 title: Bitkap
 verdict: custodial
+meta: stale
 date: 2024-12-04
 authors:
 - danny

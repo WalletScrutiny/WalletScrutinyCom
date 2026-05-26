@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UCNZo2GsB_ToorMDDSHoo70g
 - https://www.facebook.com/bunq
 - https://www.instagram.com/bunq
-developerName: bunq
 redirect_from:
 - /android/com.bunq.android/
 - /iphone/com.bunq.ios/
@@ -25,6 +24,7 @@ android:
   reviews: 230
   icon: com.bunq.android.png
   website: http://www.bunq.com
+  developerName: bunq
 iphone:
   appId: com.bunq.ios
   idd: '1021178150'
@@ -35,6 +35,7 @@ iphone:
   reviews: 13778
   icon: com.bunq.ios.jpg
   website: https://www.bunq.com
+  developerName: bunq
 
 ---
 

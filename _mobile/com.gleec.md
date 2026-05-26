@@ -2,6 +2,7 @@
 wsId: gleecCard
 title: Gleec Card Crypto-powered card
 verdict: custodial
+meta: ok
 date: 2023-05-04
 authors:
 - danny

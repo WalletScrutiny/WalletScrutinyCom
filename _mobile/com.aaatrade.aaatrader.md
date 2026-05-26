@@ -6,7 +6,6 @@ date: 2024-11-19
 authors:
 - danny
 website: https://www.aaatrade.com#deadLink
-developerName: AAATrade
 redirect_from:
 - /android/com.aaatrade.aaatrader/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-09-22
   version: 1.1.10
   icon: com.aaatrade.aaatrader.png
+  developerName: AAATrade
 
 ---
 

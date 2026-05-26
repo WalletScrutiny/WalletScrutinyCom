@@ -27,8 +27,8 @@ android:
   appId: com.ellipal.wallet
   users: 100000
   released: 2018-07-02
-  updated: 2026-04-16
-  version: 4.12.0
+  updated: 2026-05-26
+  version: 4.13.0
   reviews: 548
   icon: com.ellipal.wallet.png
   website: http://www.ellipal.com

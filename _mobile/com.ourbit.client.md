@@ -20,7 +20,7 @@ android:
   released: 2024-04-05
   updated: 2026-05-03
   version: 1.20.1
-  reviews: 54
+  reviews: 56
   icon: com.ourbit.client.png
   website: https://www.ourbit.com
   developerName: Ourbit

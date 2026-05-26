@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2026-01-08
 website: http://drone.onlinestore.digital
-developerName: Premium Apps Factory
 redirect_from:
 - /android/com.premiumappsfactory.crypto/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2024-01-01
   version: 6.0.0
   icon: com.premiumappsfactory.crypto.png
+  website: http://drone.onlinestore.digital
+  developerName: Premium Apps Factory
 
 ---
 

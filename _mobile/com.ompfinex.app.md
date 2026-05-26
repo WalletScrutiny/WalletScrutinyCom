@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/ompfinex/
 - https://www.instagram.com/ompfinex/
 - https://www.youtube.com/channel/UC7BfUYMUwddfnwCNvq29QpQ
-developerName: Mammute.co
 redirect_from:
 - /android/com.ompfinex.app/
 android:
@@ -22,6 +21,7 @@ android:
   version: 3.7.0
   reviews: 58
   icon: com.ompfinex.app.png
+  developerName: Mammute.co
 
 ---
 

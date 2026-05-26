@@ -10,7 +10,6 @@ twitter: firstkudiapp
 social:
 - https://www.youtube.com/channel/UCBLGJET0P902_vywOy3PzwA
 - https://www.instagram.com/first_kudi/
-developerName: Ferrum Network
 redirect_from:
 - /android/com.ferrum.kudi/
 android:
@@ -21,6 +20,7 @@ android:
   version: 3.0.6
   reviews: 9
   icon: com.ferrum.kudi.png
+  developerName: Ferrum Network
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-23
 website: https://openturnkey.com#deadLink
-developerName: Cyphereco OÜ
 redirect_from:
 - /android/com.cyphereco.openturnkey/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-13
   version: 2.0.21
   icon: com.cyphereco.openturnkey.png
+  developerName: Cyphereco OÜ
 
 ---
 

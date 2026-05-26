@@ -9,7 +9,6 @@ website: https://profittradingapp.com/
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forhitbtc/
 android:
@@ -20,6 +19,7 @@ android:
   version: VARY
   reviews: 3
   icon: com.profittrading.forhitbtc.png
+  developerName: ProfitTradingApp
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2026-01-14
 website: https://generalbytes.com
-developerName: GENERAL BYTES
 redirect_from:
 - /android/cz.coin/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-05-05
   version: 0.8.0
   icon: cz.coin.png
+  website: https://generalbytes.com
+  developerName: GENERAL BYTES
 
 ---
 

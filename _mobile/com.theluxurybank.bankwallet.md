@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://theluxurybank.com
-developerName: The Luxury Network LTD
 redirect_from:
 - /android/com.theluxurybank.bankwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-22
   version: 0.16.3
   icon: com.theluxurybank.bankwallet.png
+  developerName: The Luxury Network LTD
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-08-02
 authors:
 - danny
 website: https://europefx.com
-developerName: Technologies maxiflex
 redirect_from:
 - /android/com.europefx.app/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-14
   version: '9.65'
   icon: com.europefx.app.png
+  developerName: Technologies maxiflex
 
 ---
 

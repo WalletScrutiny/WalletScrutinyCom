@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: http://demo.kdex.vip/#&deadLink
-developerName: Kde
 redirect_from:
 - /android/vip.kdex.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-02
   version: 1.9.2
   icon: vip.kdex.app.png
+  developerName: Kde
 
 ---
 

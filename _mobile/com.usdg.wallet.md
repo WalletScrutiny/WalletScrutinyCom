@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.bestla.io#deadLink
-developerName: Lead Capital
 redirect_from:
 - /android/com.usdg.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-23
   version: '3.8'
   icon: com.usdg.wallet.png
+  developerName: Lead Capital
 
 ---
 

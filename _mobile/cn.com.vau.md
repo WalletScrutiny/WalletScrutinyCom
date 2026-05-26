@@ -11,7 +11,6 @@ twitter: VantageFX
 social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
-developerName: Vantage Global Prime PTY LTD
 redirect_from:
 - /android/cn.com.vau/
 - /iphone/com.vttech.VantageFX/
@@ -22,8 +21,10 @@ android:
   released: 2019-07-06
   updated: 2026-05-19
   version: 4.02.1
-  reviews: 6956
+  reviews: 7044
   icon: cn.com.vau.png
+  website: https://www.vantagemarkets.com/
+  developerName: Vantage Global Prime PTY LTD
 iphone:
   appId: com.vttech.VantageFX
   idd: 1457929724
@@ -33,6 +34,8 @@ iphone:
   version: 4.02.0
   reviews: 75
   icon: com.vttech.VantageFX.jpg
+  website: https://www.vantagemarkets.com/
+  developerName: Vantage Global Prime PTY LTD
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: http://amber.app/
-developerName: Amber Labs
 appCountry: us
 redirect_from:
 - /iphone/app.amber.v2/
@@ -16,6 +15,8 @@ iphone:
   version: 2.12.0
   reviews: 1
   icon: app.amber.v2.jpg
+  website: http://amber.app/
+  developerName: Amber Labs
 
 ---
 

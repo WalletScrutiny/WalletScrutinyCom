@@ -1,6 +1,6 @@
 ---
 wsId: capitalTrading
-title: Trading app by Capital.com
+title: Trading app by Capital·com
 verdict: nosendreceive
 meta: ok
 date: 2024-02-08
@@ -13,7 +13,6 @@ social:
 - https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw
 - https://www.reddit.com/r/capitalcom
 - https://www.linkedin.com/company/capital.com/
-developerName: Capital Com SV Investments Limited
 redirect_from:
 - /android/com.capital.trading/
 - /iphone/com.capital.trading/
@@ -21,11 +20,12 @@ android:
   appId: com.capital.trading
   users: 10000000
   released: 2017-10-18
-  updated: 2026-05-18
-  version: 3.34.1
+  updated: 2026-05-25
+  version: 3.34.2
   reviews: 36
   icon: com.capital.trading.png
   website: https://capital.com
+  developerName: Capital Com SV Investments Limited
 iphone:
   appId: com.capital.trading
   idd: 1230088754
@@ -36,6 +36,7 @@ iphone:
   reviews: 324
   icon: com.capital.trading.jpg
   website: https://capital.com/
+  developerName: Capital Com SV Investments Limited
 
 ---
 

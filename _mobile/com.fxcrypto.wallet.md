@@ -6,7 +6,6 @@ date: 2023-05-25
 authors:
 - danny
 website: https://forexrobottraders.com/
-developerName: Artificial intelligence technology
 redirect_from:
 - /android/com.fxcrypto.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-11-04
   version: 1.0.2
   icon: com.fxcrypto.wallet.png
+  developerName: Artificial intelligence technology
 
 ---
 

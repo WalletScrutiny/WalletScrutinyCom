@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://web.archive.org/web/20241111010507/http://moonx.pro/
-developerName: MoonX Technologies Ltd
 redirect_from:
 - /android/moonx.exchange.moonx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-16
   version: '2.0'
   icon: moonx.exchange.moonx.png
+  developerName: MoonX Technologies Ltd
 
 ---
 

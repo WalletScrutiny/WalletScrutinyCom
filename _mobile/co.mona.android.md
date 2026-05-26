@@ -28,8 +28,9 @@ android:
   released: 2017-08-30
   updated: 2026-05-18
   version: 3.233.10
-  reviews: 56519
+  reviews: 56529
   icon: co.mona.android.jpg
+  website: https://crypto.com/
   developerName: Crypto Technology Holdings Limited
 iphone:
   appId: co.mona.Monaco
@@ -37,8 +38,9 @@ iphone:
   released: 2017-08-31
   updated: 2026-05-19
   version: 3.233.10
-  reviews: 328950
+  reviews: 329163
   icon: co.mona.Monaco.jpg
+  website: https://crypto.com/
   developerName: Crypto.com
 
 ---

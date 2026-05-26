@@ -23,6 +23,7 @@ android:
   version: 5.9.13
   reviews: 59
   icon: delta.pk.mobile.png
+  website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
   developerName: Deltastock AD
 iphone:
   appId: com.dfmarkets.DTMobile

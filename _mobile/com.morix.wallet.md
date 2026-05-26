@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://morixjp.com/contact
 twitter: MoriXjp
-developerName: MoriX Co., Ltd.
 redirect_from:
 - /android/com.morix.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2023-01-17
   version: v2.0.11
   icon: com.morix.wallet.png
+  developerName: MoriX Co., Ltd.
 
 ---
 

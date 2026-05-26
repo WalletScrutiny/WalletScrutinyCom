@@ -9,7 +9,6 @@ authors:
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
-developerName: Dsdaq Market Ltd.
 appCountry: us
 redirect_from:
 - /android/com.dsdaq.mobiletrader/
@@ -23,6 +22,7 @@ android:
   reviews: 11
   icon: com.dsdaq.mobiletrader.png
   website: https://dsdaq.com#deadLink
+  developerName: Dsdaq Market Ltd.
 iphone:
   appId: com.dsdaq.ios.new
   idd: 1517034078
@@ -32,6 +32,7 @@ iphone:
   reviews: 2
   icon: com.dsdaq.ios.new.jpg
   website: http://dsdaq.com#deadLink
+  developerName: Dsdaq Market Ltd.
 
 ---
 

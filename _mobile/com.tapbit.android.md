@@ -13,7 +13,6 @@ social:
 - https://www.facebook.com/Tapbitglobal
 - https://www.reddit.com/user/tapbit
 - https://www.youtube.com/c/Tapbitglobal
-developerName: Tapbit LLC
 redirect_from:
 - /android/com.tapbit.android/
 - /iphone/com.billance.cn/
@@ -21,10 +20,11 @@ android:
   appId: com.tapbit.android
   users: 100000
   released: 2022-09-20
-  updated: 2026-05-11
+  updated: 2026-05-22
   version: 4.3.5
   reviews: 33
   icon: com.tapbit.android.png
+  developerName: Tapbit LLC
 iphone:
   appId: com.billance.cn
   idd: '1610497530'
@@ -34,6 +34,7 @@ iphone:
   version: 4.3.5
   reviews: 51
   icon: com.billance.cn.jpg
+  developerName: Tapbit LLC
 
 ---
 

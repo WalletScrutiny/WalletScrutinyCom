@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
-developerName: Tuolian (Shanghai) Co., Ltd.
 appCountry: us
 redirect_from:
 - /iphone/com.nbltrust.jadewallet/
@@ -17,6 +16,7 @@ iphone:
   version: 1.27.8
   reviews: 3
   icon: com.nbltrust.jadewallet.jpg
+  developerName: Tuolian (Shanghai) Co., Ltd.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2026-01-14
 website: https://tajirwallet.io/
-developerName: Tajir Web3 LTD
 redirect_from:
 - /android/com.tajir.wallet.app/
 android:
@@ -15,6 +14,8 @@ android:
   version: 2.0.3
   reviews: 2
   icon: com.tajir.wallet.app.jpg
+  website: https://tajirwallet.io/
+  developerName: Tajir Web3 LTD
 
 ---
 

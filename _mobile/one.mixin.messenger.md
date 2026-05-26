@@ -13,7 +13,6 @@ twitter: MixinMessenger
 social:
 - https://www.facebook.com/MixinNetwork
 - https://www.reddit.com/r/mixin
-developerName: Mixin Ltd
 appCountry: us
 redirect_from:
 - /android/one.mixin.messenger/
@@ -27,6 +26,7 @@ android:
   reviews: 152
   icon: one.mixin.messenger.png
   website: https://mixin.one/messenger
+  developerName: Mixin Ltd
 iphone:
   appId: one.mixin.messenger
   idd: 1322324266
@@ -36,6 +36,7 @@ iphone:
   reviews: 1153
   icon: one.mixin.messenger.jpg
   website: https://mixinmessenger.zendesk.com/
+  developerName: Mixin Ltd
 
 ---
 

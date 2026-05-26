@@ -3,7 +3,6 @@ title: Numus
 verdict: wip
 meta: removed
 date: 2024-04-03
-developerName: Digital Rumors
 redirect_from:
 - /android/games.fair.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-13
   version: 2.0.1
   icon: games.fair.wallet.png
+  developerName: Digital Rumors
 
 ---
 

@@ -9,7 +9,6 @@ website: https://dnar.io
 twitter: dnarhq
 social:
 - https://www.facebook.com/dnar.inc
-developerName: Dnar
 redirect_from:
 - /android/dnar.wallet.app/
 android:
@@ -20,6 +19,7 @@ android:
   version: '4.0'
   reviews: 11
   icon: dnar.wallet.app.jpg
+  developerName: Dnar
 
 ---
 

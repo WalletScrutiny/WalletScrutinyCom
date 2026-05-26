@@ -6,7 +6,6 @@ date: 2023-05-17
 authors:
 - danny
 website: https://cokkieswallet.com#deadLink
-developerName: Cokkies Wallet
 redirect_from:
 - /android/com.cokkieswallet.mobileapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-02-26
   version: '1.5'
   icon: com.cokkieswallet.mobileapp.png
+  developerName: Cokkies Wallet
 
 ---
 

@@ -10,7 +10,6 @@ twitter: ChainEXIO
 social:
 - https://www.linkedin.com/company/chainexio
 - https://www.facebook.com/ChainEXIO
-developerName: Lunatech (Pty) Ltd
 redirect_from:
 - /android/io.chainex.app/
 android:
@@ -19,6 +18,8 @@ android:
   updated: 2025-08-29
   version: 2.1.39
   icon: io.chainex.app.png
+  website: https://chainex.io/
+  developerName: Lunatech (Pty) Ltd
 
 ---
 

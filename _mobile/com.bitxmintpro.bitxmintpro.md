@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-03-21
 website: https://bitxmintpro.com#deadLink
-developerName: The Underdog Developer Team
 redirect_from:
 - /android/com.bitxmintpro.bitxmintpro/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-01
   version: 1.0.0
   icon: com.bitxmintpro.bitxmintpro.png
+  developerName: The Underdog Developer Team
 
 ---
 

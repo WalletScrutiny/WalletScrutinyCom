@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: http://www.saveure.com
-developerName: SAVEURE LLC
 redirect_from:
 - /android/com.gyliewallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-01-12
   version: 1.0.4
   icon: com.gyliewallet.app.png
+  developerName: SAVEURE LLC
 
 ---
 

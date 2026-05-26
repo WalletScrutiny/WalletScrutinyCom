@@ -11,7 +11,6 @@ social:
 - https://www.doex.com/
 - https://t.me/DoexOfficial888
 - https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ
-developerName: ETERNA BEAUTY LLC
 redirect_from:
 - /android/io.doex.app/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2024-08-15
   version: 2.2.2
   icon: io.doex.app.png
+  developerName: ETERNA BEAUTY LLC
 
 ---
 

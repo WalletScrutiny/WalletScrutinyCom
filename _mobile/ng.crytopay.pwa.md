@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://cryptopay.ng/
-developerName: Cryptopay.ng
 redirect_from:
 - /android/ng.crytopay.pwa/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-22
   version: '3.0'
   icon: ng.crytopay.pwa.png
+  developerName: Cryptopay.ng
 
 ---
 

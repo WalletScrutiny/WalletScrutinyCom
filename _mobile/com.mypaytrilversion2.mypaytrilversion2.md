@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://mypaytril.com#deadLink
-developerName: PROYA INT.
 redirect_from:
 - /android/com.mypaytrilversion2.mypaytrilversion2/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-25
   version: '2.0'
   icon: com.mypaytrilversion2.mypaytrilversion2.jpg
+  developerName: PROYA INT.
 
 ---
 

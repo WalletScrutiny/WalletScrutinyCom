@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/KassioNetwork
 - https://www.instagram.com/kassionetwork/
 - https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
-developerName: Digital Pung ApS
 redirect_from:
 - /android/com.fintech.kassio/
 - /iphone/com.Kassio/
@@ -24,6 +23,7 @@ android:
   version: 3.1.1
   icon: com.fintech.kassio.png
   website: https://kassio.com
+  developerName: Digital Pung ApS
 iphone:
   appId: com.Kassio
   idd: '1610537547'
@@ -34,6 +34,7 @@ iphone:
   reviews: 12
   icon: com.Kassio.jpg
   website: https://web.archive.org/web/20230201082314/https://www.kassio.com/contact
+  developerName: Digital Pung ApS
 
 ---
 

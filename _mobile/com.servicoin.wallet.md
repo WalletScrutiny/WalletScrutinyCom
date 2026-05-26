@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://www.mysrvcoin.com/index.php#deadLink
-developerName: My Services Shop Inc.
 redirect_from:
 - /android/com.servicoin.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-31
   version: 0.21.0
   icon: com.servicoin.wallet.png
+  developerName: My Services Shop Inc.
 
 ---
 

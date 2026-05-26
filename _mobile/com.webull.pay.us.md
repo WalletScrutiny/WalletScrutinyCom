@@ -19,7 +19,7 @@ android:
   released: 2023-05-26
   updated: 2026-05-06
   version: 2.2.0.29
-  reviews: 1164
+  reviews: 1166
   icon: com.webull.pay.us.png
   website: http://www.webullpay.com
   developerName: Webull Pay LLC

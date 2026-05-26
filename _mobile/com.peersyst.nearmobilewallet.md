@@ -19,10 +19,11 @@ android:
   appId: com.peersyst.nearmobilewallet
   users: 500000
   released: 2023-02-21
-  updated: 2026-04-24
-  version: 3.8.0
+  updated: 2026-05-22
+  version: 3.9.1
   reviews: 1370
   icon: com.peersyst.nearmobilewallet.png
+  website: https://nearmobile.app/
   developerName: Peersyst Technology
 iphone:
   appId: com.peersyst.nearmobilewallet

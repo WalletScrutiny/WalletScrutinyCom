@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://bitzlive.com
-developerName: Bitzlive
 redirect_from:
 - /android/com.bitzlive.bitzlive/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-13
   version: '1.0'
   icon: com.bitzlive.bitzlive.png
+  developerName: Bitzlive
 
 ---
 

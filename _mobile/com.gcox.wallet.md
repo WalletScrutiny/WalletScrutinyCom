@@ -6,7 +6,6 @@ date: 2023-05-25
 authors:
 - danny
 website: https://gcox.com
-developerName: GCOX
 redirect_from:
 - /android/com.gcox.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-10-29
   version: 1.0.6
   icon: com.gcox.wallet.png
+  developerName: GCOX
 
 ---
 

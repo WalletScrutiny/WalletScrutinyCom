@@ -12,7 +12,6 @@ twitter: VidulumApp
 social:
 - https://www.facebook.com/VidulumTeam
 - https://www.reddit.com/r/VidulumOfficial
-developerName: Vidulum LLC
 redirect_from:
 - /com.vidulumwallet.app/
 - /posts/com.vidulumwallet.app/
@@ -26,6 +25,7 @@ android:
   version: '4.0'
   reviews: 12
   icon: com.vidulumwallet.app.png
+  developerName: Vidulum LLC
   repository: https://github.com/vidulum/vidulum.app
 iphone:
   appId: com.vidulum.app
@@ -35,6 +35,7 @@ iphone:
   version: 1.6.1
   reviews: 16
   icon: com.vidulum.app.jpg
+  developerName: Vidulum LLC
 
 ---
 

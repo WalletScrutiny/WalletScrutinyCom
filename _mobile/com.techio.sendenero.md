@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://sendenero.com
-developerName: Xaas Technology Limited
 redirect_from:
 - /android/com.techio.sendenero/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-02
   version: '3.0'
   icon: com.techio.sendenero.png
+  developerName: Xaas Technology Limited
 
 ---
 

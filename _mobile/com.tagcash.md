@@ -9,7 +9,6 @@ website: http://tagcash.com
 social:
 - https://www.linkedin.com/company/tagcash-ltd/
 - https://www.facebook.com/tagcashrewards
-developerName: Tagcash Ltd
 redirect_from:
 - /android/com.tagcash/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2022-10-30
   version: 8.0.4
   icon: com.tagcash.png
+  developerName: Tagcash Ltd
 
 ---
 

@@ -6,7 +6,6 @@ date: 2026-02-02
 authors:
 - danny
 website: https://www.coinhub.africa#deadLink
-developerName: Coinhub Africa Developer
 redirect_from:
 - /android/africa.coinhub.coinhubapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-01-25
   version: '1.3'
   icon: africa.coinhub.coinhubapp.png
+  developerName: Coinhub Africa Developer
 
 ---
 

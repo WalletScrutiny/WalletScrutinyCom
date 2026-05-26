@@ -11,7 +11,6 @@ social:
 - https://optherium.com
 - https://www.youtube.com/c/OptheriumLabs
 - https://t.me/optherium_club
-developerName: Optherium Labs
 redirect_from:
 - /android/com.optherium.wallet/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.3.5
   reviews: 11
   icon: com.optherium.wallet.png
+  developerName: Optherium Labs
 
 ---
 

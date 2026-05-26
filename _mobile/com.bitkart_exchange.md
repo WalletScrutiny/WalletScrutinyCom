@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: http://bitkart.io#deadLink
-developerName: Blockchain Community India
 redirect_from:
 - /android/com.bitkart_exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-03-12
   version: '1.4'
   icon: com.bitkart_exchange.png
+  developerName: Blockchain Community India
 
 ---
 

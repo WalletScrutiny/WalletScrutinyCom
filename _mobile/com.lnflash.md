@@ -21,7 +21,6 @@ features:
 - nfc
 - buyWithCC
 - camera
-developerName: Island Bitcoin
 redirect_from:
 - /android/com.lnflash/
 - /iphone/com.lnflash/
@@ -32,6 +31,8 @@ android:
   updated: 2026-05-02
   version: 0.5.2
   icon: com.lnflash.png
+  website: https://getflash.io
+  developerName: Island Bitcoin
 iphone:
   appId: com.lnflash
   idd: '6451129095'
@@ -41,6 +42,7 @@ iphone:
   version: 0.5.2
   reviews: 0
   icon: com.lnflash.jpg
+  developerName: Island Bitcoin
 
 ---
 

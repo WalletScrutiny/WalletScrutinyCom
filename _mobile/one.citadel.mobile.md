@@ -29,6 +29,7 @@ android:
   version: 2.13.2
   reviews: 15
   icon: one.citadel.mobile.png
+  website: https://citadel.one/
   developerName: Citadel.one
 iphone:
   appId: one.citadel.mobile

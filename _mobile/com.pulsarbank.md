@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://pulsarbank.com#deadLink
-developerName: Pulsar Platform LTD
 redirect_from:
 - /android/com.pulsarbank/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2021-04-28
   version: 1.0.2
   icon: com.pulsarbank.png
+  developerName: Pulsar Platform LTD
 
 ---
 

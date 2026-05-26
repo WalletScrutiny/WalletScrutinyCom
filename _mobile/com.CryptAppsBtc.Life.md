@@ -5,7 +5,6 @@ meta: removed
 date: 2023-08-07
 authors:
 - danny
-developerName: Lifestyle Aррs
 redirect_from:
 - /android/com.CryptAppsBtc.Life/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-03-28
   version: '0.1'
   icon: com.CryptAppsBtc.Life.png
+  developerName: Lifestyle Aррs
 
 ---
 

@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - kiwilamb
-developerName: ATMwallet
 redirect_from:
 - /android/com.BitcoinWalletExchange.org/
 android:
@@ -16,6 +15,7 @@ android:
   version: '1.01'
   reviews: 18
   icon: com.BitcoinWalletExchange.org.png
+  developerName: ATMwallet
 
 ---
 

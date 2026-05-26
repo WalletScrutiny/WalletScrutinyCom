@@ -6,7 +6,6 @@ date: 2025-03-17
 authors:
 - danny
 website: https://smile-bit.com#deadLink
-developerName: SMI-HK.LLC
 redirect_from:
 - /android/com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-08-07
   version: '1.2'
   icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
+  developerName: SMI-HK.LLC
 
 ---
 

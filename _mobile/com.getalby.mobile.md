@@ -16,7 +16,6 @@ features:
 - foss
 - ln
 - ownLN
-developerName: Alby Inc.
 redirect_from:
 - /android/com.getalby.mobile/
 - /iphone/com.getalby.mobile/
@@ -28,6 +27,8 @@ android:
   version: 2.0.1
   reviews: 19
   icon: com.getalby.mobile.png
+  website: https://getalby.com/
+  developerName: Alby Inc.
   repository: https://github.com/getAlby/go
 iphone:
   appId: com.getalby.mobile
@@ -38,6 +39,7 @@ iphone:
   version: 2.0.1
   reviews: 23
   icon: com.getalby.mobile.jpg
+  developerName: Alby Inc.
 
 ---
 

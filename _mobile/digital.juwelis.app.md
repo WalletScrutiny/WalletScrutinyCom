@@ -6,7 +6,6 @@ date: 2024-04-03
 authors:
 - danny
 website: https://juwelis.digital#deadLink
-developerName: JUWELIS Digital
 redirect_from:
 - /android/digital.juwelis.app/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-02-19
   version: VARY
   icon: digital.juwelis.app.png
+  developerName: JUWELIS Digital
 
 ---
 

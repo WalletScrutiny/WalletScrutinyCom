@@ -6,7 +6,6 @@ date: 2023-02-03
 authors:
 - danny
 website: https://admiraloption.com#deadLink
-developerName: Admiral Option Limited
 redirect_from:
 - /android/com.admiral/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.9.3
   reviews: 121
   icon: com.admiral.png
+  developerName: Admiral Option Limited
 
 ---
 

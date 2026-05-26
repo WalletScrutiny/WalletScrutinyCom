@@ -32,8 +32,9 @@ android:
   reviews: 3
   icon: to.bitkit.png
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
-  repository: https://github.com/synonymdev/bitkit
+  website: https://bitkit.to/
   developerName: Synonym
+  repository: https://github.com/synonymdev/bitkit
 iphone:
   appId: to.bitkit
   idd: '6502440655'
@@ -43,8 +44,8 @@ iphone:
   version: 2.2.1
   reviews: 10
   icon: to.bitkit.jpg
-  repository: https://github.com/synonymdev/bitkit-ios
   developerName: Synonym Software Ltd
+  repository: https://github.com/synonymdev/bitkit-ios
 
 ---
 

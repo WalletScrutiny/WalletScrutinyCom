@@ -2,6 +2,7 @@
 wsId: digitalexchangeid
 title: digitalexchange.id Crypto Aset
 verdict: custodial
+meta: ok
 date: 2021-09-17
 authors:
 - danny

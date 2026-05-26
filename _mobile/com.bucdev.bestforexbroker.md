@@ -6,7 +6,6 @@ date: 2025-02-13
 authors:
 - danny
 website: https://www.knightgames.co
-developerName: FinDev
 redirect_from:
 - /android/com.bucdev.bestforexbroker/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-10-09
   version: 1.1.3
   icon: com.bucdev.bestforexbroker.png
+  developerName: FinDev
 
 ---
 

@@ -5,7 +5,6 @@ meta: removed
 date: 2025-02-13
 authors:
 - danny
-developerName: Shenzhen Feitianxia Technology Co, Ltd.
 appCountry: us
 redirect_from:
 - /iphone/com.idiskk.wallet.usb/
@@ -17,6 +16,7 @@ iphone:
   version: 1.0.4
   reviews: 19
   icon: com.idiskk.wallet.usb.jpg
+  developerName: Shenzhen Feitianxia Technology Co, Ltd.
 
 ---
 

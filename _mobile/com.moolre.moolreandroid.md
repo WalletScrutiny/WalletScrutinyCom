@@ -11,7 +11,6 @@ twitter: moolrehq
 social:
 - https://www.instagram.com/moolrehq
 - https://www.facebook.com/moolrehq
-developerName: Moolre Inc
 redirect_from:
 - /android/com.moolre.moolreandroid/
 - /iphone/com.moolre.moolreios/
@@ -23,6 +22,7 @@ android:
   version: 3.5.21
   reviews: 14
   icon: com.moolre.moolreandroid.png
+  developerName: Moolre Inc
 iphone:
   appId: com.moolre.moolreios
   idd: '1439855151'
@@ -32,6 +32,7 @@ iphone:
   version: 3.5.0
   reviews: 26
   icon: com.moolre.moolreios.jpg
+  developerName: Moolre Inc
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-10
 website: https://myovest.com#deadLink
-developerName: OVest
 redirect_from:
 - /android/com.osource.ovest/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-04
   version: 1.0.7
   icon: com.osource.ovest.png
+  developerName: OVest
 
 ---
 

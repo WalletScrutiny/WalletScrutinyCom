@@ -18,8 +18,8 @@ android:
   appId: com.casperwealth.bitsave
   users: 10000
   released: 2024-04-01
-  updated: 2026-02-16
-  version: 1.28.0
+  updated: 2026-05-21
+  version: 1.29.1
   icon: com.casperwealth.bitsave.jpg
   website: https://bitsave.club/
   developerName: Casper Wealth

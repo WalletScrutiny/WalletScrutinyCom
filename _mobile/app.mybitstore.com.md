@@ -2,6 +2,7 @@
 wsId: mybitstore
 title: 'Mybitstore: Bitcoin & Crypto'
 verdict: custodial
+meta: stale
 date: 2022-04-11
 authors:
 - danny
@@ -31,7 +32,7 @@ iphone:
   released: 2021-08-12
   updated: 2025-02-18
   version: 7.0.9
-  reviews: 498
+  reviews: 497
   icon: app.mybitstore.com.jpg
   meta: stale
   developerName: MyBitStore Limited

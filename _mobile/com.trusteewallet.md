@@ -28,8 +28,8 @@ android:
   reviews: 62
   icon: com.trusteewallet.png
   website: https://trusteeglobal.com
-  repository: https://github.com/trustee-wallet/trusteeWallet
   developerName: BlockSoft Lab
+  repository: https://github.com/trustee-wallet/trusteeWallet
 iphone:
   appId: com.trusteewallet
   idd: 1462924276

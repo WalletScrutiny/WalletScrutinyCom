@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://crebit.io/
-developerName: TIDENET LIMITED
 redirect_from:
 - /android/com.crebit/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-06-24
   version: '1.0'
   icon: com.crebit.png
+  developerName: TIDENET LIMITED
 
 ---
 

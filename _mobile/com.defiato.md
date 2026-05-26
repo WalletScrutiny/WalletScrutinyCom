@@ -8,7 +8,6 @@ authors:
 - danny
 social:
 - https://defiato.com
-developerName: Beowulf Network Inc
 redirect_from:
 - /android/com.defiato/
 - /iphone/com.defiato/
@@ -21,6 +20,7 @@ android:
   reviews: 5
   icon: com.defiato.png
   website: https://defiato.com/
+  developerName: Beowulf Network Inc
 iphone:
   appId: com.defiato
   idd: '1591008049'
@@ -30,6 +30,7 @@ iphone:
   version: 1.2.8
   reviews: 2
   icon: com.defiato.jpg
+  developerName: Beowulf Network Inc
 
 ---
 

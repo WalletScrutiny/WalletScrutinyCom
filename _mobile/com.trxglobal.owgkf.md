@@ -5,7 +5,6 @@ meta: removed
 date: 2023-04-12
 authors:
 - danny
-developerName: hiu390hf
 redirect_from:
 - /android/com.trxglobal.owgkf/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-09-05
   version: '1.3'
   icon: com.trxglobal.owgkf.png
+  developerName: hiu390hf
 
 ---
 

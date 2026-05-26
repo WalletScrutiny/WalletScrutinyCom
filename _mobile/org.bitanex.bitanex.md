@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: http://bitanex.com
-developerName: BitAnex
 redirect_from:
 - /android/org.bitanex.bitanex/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.2.49
   reviews: 6
   icon: org.bitanex.bitanex.png
+  developerName: BitAnex
 
 ---
 

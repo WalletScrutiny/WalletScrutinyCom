@@ -10,7 +10,6 @@ social:
 - https://www.facebook.com/lopeerApp
 - https://t.me/+HtDHSJ21tYg5Mzhk
 - https://www.linkedin.com/company/lopeer/
-developerName: Librium
 redirect_from:
 - /android/com.lopeer.lopeer/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2023-12-05
   version: 2.2.7
   icon: com.lopeer.lopeer.png
+  developerName: Librium
 
 ---
 

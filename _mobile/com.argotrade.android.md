@@ -5,7 +5,6 @@ meta: removed
 date: 2025-02-26
 authors:
 - danny
-developerName: Leadcapital Corp LTD
 redirect_from:
 - /android/com.argotrade.android/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2024-09-05
   version: 1.16.1
   icon: com.argotrade.android.png
+  developerName: Leadcapital Corp LTD
 
 ---
 

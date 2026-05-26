@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-23
 website: https://pulpal.ir
-developerName: Pulpal Inc
 redirect_from:
 - /android/ir.pulpal.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-06
   version: 1.0.0
   icon: ir.pulpal.app.png
+  developerName: Pulpal Inc
 
 ---
 

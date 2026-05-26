@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/investvoyager
 - https://www.facebook.com/InvestVoyager
 - https://www.reddit.com/r/Invest_Voyager
-developerName: Voyager Digital, LLC
 redirect_from:
 - /com.investvoyager/
 - /android/com.investvoyager/
@@ -25,6 +24,7 @@ android:
   version: 4.0.0
   reviews: 8249
   icon: com.investvoyager.png
+  developerName: Voyager Digital, LLC
 iphone:
   appId: com.investvoyager.voyager-ios
   idd: 1396178579
@@ -33,6 +33,7 @@ iphone:
   version: 3.2.33
   reviews: 102802
   icon: com.investvoyager.voyager-ios.jpg
+  developerName: Voyager Digital, LLC
 
 ---
 

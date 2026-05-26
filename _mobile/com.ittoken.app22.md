@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://im-token.farm#deadLink
-developerName: ii token
 redirect_from:
 - /android/com.ittoken.app22/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-05-09
   version: '1.0'
   icon: com.ittoken.app22.jpg
+  developerName: ii token
 
 ---
 

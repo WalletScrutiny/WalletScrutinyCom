@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.vitatoken.io/
-developerName: Vitatoken
 redirect_from:
 - /android/uni.UNI8B7D0E0/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.2.5
   reviews: 2
   icon: uni.UNI8B7D0E0.jpg
+  developerName: Vitatoken
 
 ---
 

@@ -9,7 +9,6 @@ website: https://coinsbit.io/
 twitter: c0insbit
 social:
 - https://t.me/coinsbit_chat
-developerName: Coinsbit
 redirect_from:
 - /android/com.coinsbit.coinsbit/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.0.2
   reviews: 48
   icon: com.coinsbit.coinsbit.png
+  developerName: Coinsbit
 
 ---
 

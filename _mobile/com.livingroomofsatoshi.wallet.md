@@ -14,7 +14,6 @@ features:
 - ln
 - buyWithCC
 - nfc
-developerName: Wallet of Satoshi
 redirect_from:
 - /walletofsatoshi/
 - /com.livingroomofsatoshi.wallet/
@@ -28,9 +27,10 @@ android:
   released: 2019-05-19
   updated: 2026-05-14
   version: 3.3.4
-  reviews: 220
+  reviews: 224
   icon: com.livingroomofsatoshi.wallet.png
   website: http://www.walletofsatoshi.com
+  developerName: Wallet of Satoshi
 iphone:
   appId: com.livingroomofsatoshi.wallet
   idd: 1438599608
@@ -41,6 +41,7 @@ iphone:
   reviews: 22
   icon: com.livingroomofsatoshi.wallet.jpg
   website: https://www.walletofsatoshi.com
+  developerName: Wallet of Satoshi
 
 ---
 

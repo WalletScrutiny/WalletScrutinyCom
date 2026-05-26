@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://support.train-technical.com#deadLink
-developerName: Train Technical
 redirect_from:
 - /android/com.traintechnical.ttgen/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-10-07
   version: '1.3'
   icon: com.traintechnical.ttgen.png
+  developerName: Train Technical
 
 ---
 

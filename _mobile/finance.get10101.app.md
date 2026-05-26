@@ -9,7 +9,6 @@ authors:
 website: https://10101.finance
 repository: https://github.com/get10101/10101
 twitter: get10101
-developerName: '10101'
 redirect_from:
 - /android/finance.get10101.app/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2024-11-13
   version: VARY
   icon: finance.get10101.app.png
+  developerName: '10101'
 
 ---
 

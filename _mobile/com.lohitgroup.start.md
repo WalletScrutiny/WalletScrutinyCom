@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: http://lohitgroup.com#deadLink
-developerName: LOHIT ENTERPRISES PRIVATE LIMITED
 redirect_from:
 - /android/com.lohitgroup.start/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-10-05
   version: 0.1.5
   icon: com.lohitgroup.start.png
+  developerName: LOHIT ENTERPRISES PRIVATE LIMITED
 
 ---
 

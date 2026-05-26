@@ -19,7 +19,7 @@ android:
   released: 2019-01-30
   updated: 2026-04-23
   version: 1.41.5
-  reviews: 5833
+  reviews: 5834
   icon: io.atomicwallet.png
   website: https://atomicwallet.io
   developerName: Atomic Wallet

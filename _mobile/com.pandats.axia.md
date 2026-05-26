@@ -5,7 +5,6 @@ verdict: nosendreceive
 date: 2024-10-07
 authors:
 - danny
-developerName: Deloce LTD
 redirect_from:
 - /android/com.pandats.axia/
 - /iphone/com.pandats.axia/
@@ -20,6 +19,7 @@ android:
   icon: com.pandats.axia.png
   meta: removed
   website: https://axiainvestments.com/
+  developerName: Deloce LTD
 iphone:
   appId: com.pandats.axia
   idd: 1538965141
@@ -31,6 +31,7 @@ iphone:
   icon: com.pandats.axia.jpg
   meta: ok
   website: https://www.axiainvestments.com
+  developerName: Deloce LTD
 
 ---
 

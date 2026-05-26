@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://portaltest.gesgame.io#deadLink
-developerName: Ges Ecosystem
 redirect_from:
 - /android/com.geswallet.start/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-04-17
   version: 0.0.2
   icon: com.geswallet.start.png
+  developerName: Ges Ecosystem
 
 ---
 

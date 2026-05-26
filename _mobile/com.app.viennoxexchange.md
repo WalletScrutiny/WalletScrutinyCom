@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://viennox.com#deadLink
-developerName: Viennox
 redirect_from:
 - /android/com.app.viennoxexchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-18
   version: '1.1'
   icon: com.app.viennoxexchange.png
+  developerName: Viennox
 
 ---
 

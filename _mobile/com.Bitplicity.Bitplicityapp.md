@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://Bitplicity.com
-developerName: Bitplicity
 redirect_from:
 - /android/com.Bitplicity.Bitplicityapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-19
   version: '1.4'
   icon: com.Bitplicity.Bitplicityapp.png
+  developerName: Bitplicity
 
 ---
 

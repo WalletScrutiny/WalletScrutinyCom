@@ -10,7 +10,6 @@ website: https://www.ejara.io
 twitter: EjaraApp
 social:
 - https://www.facebook.com/Ejaracapital
-developerName: Ejara
 redirect_from:
 - /android/com.ejara.ejarav2/
 - /iphone/com.ejara.ejarav2/
@@ -22,6 +21,8 @@ android:
   version: 3.9.9
   reviews: 26
   icon: com.ejara.ejarav2.png
+  website: https://www.ejara.io
+  developerName: Ejara
 iphone:
   appId: com.ejara.ejarav2
   idd: '1541127587'
@@ -31,6 +32,7 @@ iphone:
   version: 3.9.8+360
   reviews: 68
   icon: com.ejara.ejarav2.jpg
+  developerName: Ejara
 
 ---
 

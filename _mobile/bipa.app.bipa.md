@@ -18,7 +18,7 @@ android:
   appId: bipa.app.bipa
   users: 500000
   released: 2021-01-18
-  updated: 2026-05-15
+  updated: 2026-05-25
   version: 4.2.34
   reviews: 13
   icon: bipa.app.bipa.png
@@ -31,7 +31,7 @@ iphone:
   released: 2020-06-30
   updated: 2026-05-18
   version: 4.2.13
-  reviews: 9083
+  reviews: 9104
   icon: bipa.app.Bipa.jpg
   website: https://bipa.app
   developerName: Bipa Ltda

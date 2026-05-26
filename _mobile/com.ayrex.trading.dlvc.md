@@ -6,7 +6,6 @@ date: 2023-09-15
 authors:
 - danny
 website: https://www.ayrextrading.com
-developerName: Charu Prakash
 redirect_from:
 - /android/com.ayrex.trading.dlvc/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-05-14
   version: 1.0.1
   icon: com.ayrex.trading.dlvc.png
+  developerName: Charu Prakash
 
 ---
 

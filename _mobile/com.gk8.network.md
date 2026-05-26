@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2022-07-31
 website: https://www.gk8.io/contact-us/
-developerName: GK8 by Galaxy
 redirect_from:
 - /android/com.gk8.network/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-05-10
   version: 19.0.0
   icon: com.gk8.network.png
+  website: https://www.gk8.io/contact-us/
+  developerName: GK8 by Galaxy
 
 ---
 

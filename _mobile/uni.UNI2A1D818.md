@@ -6,7 +6,6 @@ date: 2023-08-05
 authors:
 - danny
 website: https://web.archive.org/web/20220111124040/http://muskbot.io/
-developerName: MUSKBOT
 redirect_from:
 - /android/uni.UNI2A1D818/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-12-16
   version: 1.4.8
   icon: uni.UNI2A1D818.jpg
+  developerName: MUSKBOT
 
 ---
 

@@ -23,10 +23,11 @@ android:
   appId: io.cex.app.prod
   users: 5000000
   released: 2015-12-22
-  updated: 2026-05-15
-  version: 12.41.0
-  reviews: 10976
+  updated: 2026-05-21
+  version: 12.43.0
+  reviews: 10975
   icon: io.cex.app.prod.png
+  website: https://cex.io
   developerName: CEX.IO
 iphone:
   appId: io.cex.app

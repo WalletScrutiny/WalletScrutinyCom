@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.c2cx.com
 twitter: C2CXExchange
-developerName: itkx
 redirect_from:
 - /android/com.hypertherm.app/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2021-03-22
   version: '3.0'
   icon: com.hypertherm.app.png
+  developerName: itkx
 
 ---
 

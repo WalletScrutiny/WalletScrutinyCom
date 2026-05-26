@@ -5,7 +5,6 @@ meta: removed
 date: 2023-04-07
 authors:
 - danny
-developerName: Ticket Land
 redirect_from:
 - /android/com.hanryubank.fnsWallet/
 android:
@@ -16,6 +15,7 @@ android:
   version: 2.1.2
   reviews: 4
   icon: com.hanryubank.fnsWallet.png
+  developerName: Ticket Land
 
 ---
 

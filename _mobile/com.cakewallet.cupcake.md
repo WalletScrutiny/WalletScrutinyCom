@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://cakewallet.com
-developerName: Cake Technologies, LLC
 appCountry: us
 redirect_from:
 - /iphone/com.cakewallet.cupcake/
@@ -16,6 +15,7 @@ iphone:
   version: 1.1.1
   reviews: 8
   icon: com.cakewallet.cupcake.jpg
+  developerName: Cake Technologies, LLC
 
 ---
 

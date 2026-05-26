@@ -13,7 +13,6 @@ social:
 - https://www.facebook.com/mayaiseverything
 - https://www.linkedin.com/company/mayaph
 - https://www.instagram.com/mayaiseverything
-developerName: Maya Philippines, Inc.
 appCountry: ph
 redirect_from:
 - /iphone/com.paymaya.ios/
@@ -25,6 +24,7 @@ iphone:
   version: 2.133.0
   reviews: 229011
   icon: com.paymaya.ios.jpg
+  developerName: Maya Philippines, Inc.
 
 ---
 

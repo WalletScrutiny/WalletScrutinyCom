@@ -22,6 +22,7 @@ android:
   version: 3.14.0
   reviews: 312
   icon: com.viabtc.pool.png
+  website: https://www.viabtc.com/
   developerName: ViaBTC
 iphone:
   appId: com.viabtc.pool2

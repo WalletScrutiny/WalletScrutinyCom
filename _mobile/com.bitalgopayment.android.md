@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-04-20
 website: https://www.bitalgopayment.com#deadLink
-developerName: Mahakarya Infotech
 redirect_from:
 - /android/com.bitalgopayment.android/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-09-10
   version: 1.0.0
   icon: com.bitalgopayment.android.png
+  developerName: Mahakarya Infotech
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: defunct
 date: 2023-05-03
 website: https://www.xbank247.com
-developerName: Thang Nguyen Ngoc
 redirect_from:
 - /android/com.xbank247.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-11-10
   version: 16.1.0
   icon: com.xbank247.app.png
+  developerName: Thang Nguyen Ngoc
 
 ---
 

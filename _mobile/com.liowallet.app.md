@@ -6,7 +6,6 @@ date: 2024-04-26
 authors:
 - danny
 website: https://www.lio-coin.eu/
-developerName: LIOCoin
 redirect_from:
 - /android/com.liowallet.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-06-24
   version: '3.0'
   icon: com.liowallet.app.png
+  developerName: LIOCoin
 
 ---
 

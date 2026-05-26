@@ -7,7 +7,6 @@ date: 2025-11-13
 authors:
 - danny
 website: https://www.cextor.com
-developerName: CEXTOR
 redirect_from:
 - /android/com.cextor.pro/
 android:
@@ -18,6 +17,8 @@ android:
   version: 1.0.0
   reviews: 5
   icon: com.cextor.pro.png
+  website: https://www.cextor.com
+  developerName: CEXTOR
 
 ---
 

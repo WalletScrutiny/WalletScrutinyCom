@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://onetapexc.com#deadLink
-developerName: Tradingly AI
 redirect_from:
 - /android/com.dcctrading.co.onetapexc/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-05-12
   version: '3.1'
   icon: com.dcctrading.co.onetapexc.png
+  website: https://onetapexc.com#deadLink
+  developerName: Tradingly AI
 
 ---
 

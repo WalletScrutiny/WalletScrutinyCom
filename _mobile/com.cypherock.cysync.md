@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://www.cypherock.com/
-developerName: Cypherock
 redirect_from:
 - /android/com.cypherock.cysync/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-05-18
   version: 0.1.22
   icon: com.cypherock.cysync.png
+  website: https://www.cypherock.com/
+  developerName: Cypherock
 
 ---
 

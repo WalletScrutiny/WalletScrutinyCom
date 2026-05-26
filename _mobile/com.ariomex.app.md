@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-07
 website: https://ariomex.com
-developerName: Ariomex
 redirect_from:
 - /android/com.ariomex.app/
 android:
@@ -15,6 +14,7 @@ android:
   version: 2.0.0
   reviews: 6
   icon: com.ariomex.app.png
+  developerName: Ariomex
 
 ---
 

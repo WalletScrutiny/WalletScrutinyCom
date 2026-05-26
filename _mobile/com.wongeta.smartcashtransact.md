@@ -13,7 +13,6 @@ social:
 features:
 - fingerprint
 - tradeAlts
-developerName: Wongeta
 redirect_from:
 - /android/com.wongeta.smartcashtransact/
 android:
@@ -23,6 +22,8 @@ android:
   updated: 2025-07-12
   version: '200'
   icon: com.wongeta.smartcashtransact.png
+  website: https://mysmartcash.tech
+  developerName: Wongeta
 
 ---
 

@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/talos-africa
 - https://www.instagram.com/talos.africa
 - mailto:info@talos.africa
-developerName: Talos Africa
 redirect_from:
 - /android/africa.talos.android/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2022-05-27
   version: 2.2.5
   icon: africa.talos.android.png
+  developerName: Talos Africa
 
 ---
 

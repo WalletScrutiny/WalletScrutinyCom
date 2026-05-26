@@ -23,7 +23,7 @@ android:
   released: 2023-02-14
   updated: 2026-05-07
   version: 2.2.6
-  reviews: 331
+  reviews: 336
   icon: com.planet.toobit.jpg
   website: https://www.toobit.com
   developerName: TooBit Inc.

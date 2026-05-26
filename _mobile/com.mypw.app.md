@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://blockchaindev.my/
-developerName: Blockchain Dev
 redirect_from:
 - /android/com.mypw.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-12
   version: 1.0.7
   icon: com.mypw.app.png
+  developerName: Blockchain Dev
 
 ---
 

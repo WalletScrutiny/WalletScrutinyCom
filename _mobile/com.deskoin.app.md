@@ -10,16 +10,17 @@ website: https://www.deskoin.com/
 twitter: deskoin
 social:
 - https://www.linkedin.com/company/deskoin/
-developerName: Deskoin
 redirect_from:
 - /android/com.deskoin.app/
 - /iphone/com.deskoin.app/
 android:
   appId: com.deskoin.app
   users: 10000
-  updated: 2026-04-30
-  version: 7.6.10
+  updated: 2026-05-23
+  version: 7.7.2
   icon: com.deskoin.app.png
+  website: https://www.deskoin.com/
+  developerName: Deskoin
 iphone:
   appId: com.deskoin.app
   idd: '6451258830'
@@ -29,6 +30,7 @@ iphone:
   version: 7.6.10
   reviews: 395
   icon: com.deskoin.app.jpg
+  developerName: Deskoin
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://dawn.org
-developerName: Dawn Wallet Inc
 redirect_from:
 - /android/com.dawn.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-24
   version: 3.0.2
   icon: com.dawn.wallet.png
+  developerName: Dawn Wallet Inc
 
 ---
 

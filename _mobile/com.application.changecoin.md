@@ -7,7 +7,6 @@ date: 2024-10-03
 authors:
 - danny
 website: https://changecoins.io/
-developerName: Changecoins
 appCountry: us
 redirect_from:
 - /android/com.application.changecoin/
@@ -19,6 +18,7 @@ android:
   updated: 2022-02-10
   version: 1.2.6
   icon: com.application.changecoin.png
+  developerName: Changecoins
 iphone:
   appId: pay.changecoins
   idd: 1515720987
@@ -27,6 +27,7 @@ iphone:
   version: 1.2.6
   reviews: 2
   icon: pay.changecoins.jpg
+  developerName: Changecoins
 
 ---
 

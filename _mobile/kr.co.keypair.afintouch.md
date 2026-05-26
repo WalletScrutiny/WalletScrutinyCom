@@ -7,7 +7,6 @@ website: https://www.afincoin.io/
 twitter: AfinCoin
 social:
 - https://www.facebook.com/asianfintech
-developerName: Keypair Co., Ltd.
 redirect_from:
 - /android/kr.co.keypair.afintouch/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2019-12-27
   version: 1.0.0.60
   icon: kr.co.keypair.afintouch.png
+  developerName: Keypair Co., Ltd.
 
 ---
 

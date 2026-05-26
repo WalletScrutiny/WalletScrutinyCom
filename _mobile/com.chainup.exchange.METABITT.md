@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://www.mt-bitt.com/en_US#deadLink
-developerName: KKOrange
 redirect_from:
 - /android/com.chainup.exchange.METABITT/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-01-17
   version: 5.6.5
   icon: com.chainup.exchange.METABITT.png
+  developerName: KKOrange
 
 ---
 

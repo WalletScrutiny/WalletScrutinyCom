@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.okongpos.com#deadLink
-developerName: 서유테크
 redirect_from:
 - /android/com.okongpos.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-26
   version: Version 2.2.1
   icon: com.okongpos.app.png
+  developerName: 서유테크
 
 ---
 

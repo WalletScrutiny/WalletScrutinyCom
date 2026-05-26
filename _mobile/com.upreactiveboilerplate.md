@@ -3,7 +3,6 @@ title: SafeWallet
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Joint Stock and Trading Safe OÜ
 redirect_from:
 - /android/com.upreactiveboilerplate/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-25
   version: 1.5.2
   icon: com.upreactiveboilerplate.png
+  developerName: Joint Stock and Trading Safe OÜ
 
 ---
 

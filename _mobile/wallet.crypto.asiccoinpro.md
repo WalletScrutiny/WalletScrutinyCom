@@ -3,7 +3,6 @@ title: ASIC Wallet
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: ASIC wallet
 redirect_from:
 - /android/wallet.crypto.asiccoinpro/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-01
   version: '1.0'
   icon: wallet.crypto.asiccoinpro.png
+  developerName: ASIC wallet
 
 ---
 

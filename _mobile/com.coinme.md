@@ -22,7 +22,7 @@ android:
   released: 2021-05-06
   updated: 2026-05-11
   version: 3.3.0
-  reviews: 1134
+  reviews: 1135
   icon: com.coinme.png
   website: https://www.coinme.com
   developerName: Coinme

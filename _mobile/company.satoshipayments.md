@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/satoshipayments
 - https://www.instagram.com/satoshipayments/
 - https://www.linkedin.com/company/satoshipayments/
-developerName: Satoshi Payments
 redirect_from:
 - /android/company.satoshipayments/
 android:
@@ -22,6 +21,7 @@ android:
   version: 0.1.7
   reviews: 4
   icon: company.satoshipayments.png
+  developerName: Satoshi Payments
 
 ---
 

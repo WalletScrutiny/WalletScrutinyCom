@@ -6,7 +6,6 @@ date: 2026-02-02
 authors:
 - leo
 website: https://portals.nz
-developerName: Gloath
 redirect_from:
 - /com.gloath.portalsapp/
 - /android/com.gloath.portalsapp/
@@ -18,6 +17,8 @@ android:
   version: 0.0.4a
   reviews: 24
   icon: com.gloath.portalsapp.png
+  website: https://portals.nz
+  developerName: Gloath
 
 ---
 

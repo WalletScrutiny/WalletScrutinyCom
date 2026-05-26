@@ -10,7 +10,6 @@ twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets
 - https://icmarkets.com
-developerName: Raw Trading Ltd
 redirect_from:
 - /android/com.icmarkets.mobileapp/
 - /iphone/com.ICMarkets.ICMarkets-app/
@@ -23,6 +22,7 @@ android:
   reviews: 11
   icon: com.icmarkets.mobileapp.png
   website: https://ic.com
+  developerName: Raw Trading Ltd
 iphone:
   appId: com.ICMarkets.ICMarkets-app
   idd: '1552875348'
@@ -32,6 +32,7 @@ iphone:
   version: 1.1.2
   reviews: 33
   icon: com.ICMarkets.ICMarkets-app.jpg
+  developerName: Raw Trading Ltd
 
 ---
 

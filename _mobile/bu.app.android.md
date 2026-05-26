@@ -23,9 +23,9 @@ android:
   appId: bu.app.android
   users: 500000
   released: 2025-04-29
-  updated: 2026-04-24
-  version: 3.32.0
-  reviews: 93
+  updated: 2026-05-23
+  version: 3.36.0
+  reviews: 94
   icon: bu.app.android.png
   website: https://www.unixcrypto.net
   developerName: Bitunix Pro
@@ -36,7 +36,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-03-26
   version: 3.28.0
-  reviews: 600
+  reviews: 611
   icon: com.bitunix.ios-.jpg
   website: https://www.bitunix.com
   developerName: Bitunix Global Limited

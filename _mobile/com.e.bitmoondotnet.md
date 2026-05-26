@@ -6,7 +6,6 @@ date: 2023-04-22
 authors:
 - danny
 website: https://bitmoon.net
-developerName: Nguyen Van Tuyen
 redirect_from:
 - /android/com.e.bitmoondotnet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-02-03
   version: '1.0'
   icon: com.e.bitmoondotnet.png
+  developerName: Nguyen Van Tuyen
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://wallet.tkeycoin.com#deadLink
-developerName: TKEY Developers
 redirect_from:
 - /android/io.space.tkey/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-04-27
   version: 1.3.0
   icon: io.space.tkey.jpg
+  developerName: TKEY Developers
 
 ---
 

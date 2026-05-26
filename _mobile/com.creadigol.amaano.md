@@ -4,7 +4,6 @@ verdict: wip
 meta: defunct
 date: 2023-03-21
 website: https://amaano.com/
-developerName: amaano
 redirect_from:
 - /android/com.creadigol.amaano/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2026-03-30
   version: 1.6.2
   icon: com.creadigol.amaano.png
+  developerName: amaano
 
 ---
 

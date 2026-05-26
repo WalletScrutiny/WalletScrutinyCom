@@ -9,7 +9,6 @@ website: https://paiexchange.com
 twitter: paiexchange
 social:
 - https://www.facebook.com/paiexchange
-developerName: PAI Exchange
 redirect_from:
 - /android/app.pagosalinstante.com/
 android:
@@ -20,6 +19,8 @@ android:
   version: 1.08.1122
   reviews: 41
   icon: app.pagosalinstante.com.png
+  website: https://paiexchange.com
+  developerName: PAI Exchange
 
 ---
 

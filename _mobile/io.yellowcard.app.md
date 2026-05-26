@@ -2,6 +2,7 @@
 wsId: yellowcard
 title: 'Yellow Card: Buy & Sell Crypto'
 verdict: custodial
+meta: ok
 date: 2021-04-13
 authors:
 - kiwilamb

@@ -5,7 +5,6 @@ meta: removed
 date: 2023-06-30
 authors:
 - danny
-developerName: AMANPREET KAURt
 redirect_from:
 - /android/com.ohj.berry/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-03-21
   version: '1.0001'
   icon: com.ohj.berry.png
+  developerName: AMANPREET KAURt
 
 ---
 

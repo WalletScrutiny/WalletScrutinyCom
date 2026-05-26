@@ -2,6 +2,7 @@
 wsId: wota
 title: 'Wota: Amplify Your Crypto'
 verdict: custodial
+meta: fewusers
 date: 2026-05-05
 authors:
 - danny
@@ -9,7 +10,6 @@ twitter: WOTAApp
 social:
 - https://www.facebook.com/EnterWOTA
 - https://t.me/WOTAApp
-developerName: WOTA LTD
 redirect_from:
 - /android/com.wota.app/
 - /iphone/com.enterwota.app/
@@ -22,6 +22,7 @@ android:
   icon: com.wota.app.png
   meta: fewusers
   website: https://enterwota.com
+  developerName: WOTA LTD
 iphone:
   appId: com.enterwota.app
   idd: '1552728908'
@@ -33,6 +34,7 @@ iphone:
   icon: com.enterwota.app.jpg
   meta: obsolete
   website: https://enterwota.com/
+  developerName: WOTA LTD
 
 ---
 

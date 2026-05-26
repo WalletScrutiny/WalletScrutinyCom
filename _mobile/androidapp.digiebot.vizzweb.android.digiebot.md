@@ -3,7 +3,6 @@ title: DigieBot
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Mudasser Abbas
 redirect_from:
 - /android/androidapp.digiebot.vizzweb.android.digiebot/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-16
   version: '1.24'
   icon: androidapp.digiebot.vizzweb.android.digiebot.png
+  developerName: Mudasser Abbas
 
 ---
 

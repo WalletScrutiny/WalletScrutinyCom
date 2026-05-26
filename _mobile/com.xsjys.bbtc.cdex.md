@@ -5,7 +5,6 @@ meta: removed
 date: 2024-07-19
 authors:
 - danny
-developerName: CD-Exgroup
 redirect_from:
 - /android/com.xsjys.bbtc.cdex/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-06-07
   version: 1.5.0
   icon: com.xsjys.bbtc.cdex.png
+  developerName: CD-Exgroup
 
 ---
 

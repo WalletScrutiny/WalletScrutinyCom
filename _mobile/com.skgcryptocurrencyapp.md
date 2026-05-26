@@ -3,7 +3,6 @@ title: Crypto Wallet
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Swatantra kumar goswami
 redirect_from:
 - /android/com.skgcryptocurrencyapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-20
   version: '1.0'
   icon: com.skgcryptocurrencyapp.png
+  developerName: Swatantra kumar goswami
 
 ---
 

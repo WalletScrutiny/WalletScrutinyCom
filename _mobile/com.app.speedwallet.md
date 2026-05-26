@@ -24,8 +24,9 @@ android:
   released: 2023-06-18
   updated: 2026-05-15
   version: 2.5.0.0.0.1.fp.gps
-  reviews: 1301
+  reviews: 1313
   icon: com.app.speedwallet.png
+  website: https://www.speed.app/
   developerName: Speed1 Inc
 iphone:
   appId: com.app.speed1

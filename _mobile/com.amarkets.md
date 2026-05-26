@@ -2,6 +2,7 @@
 wsId: AMarkets
 title: 'AMarkets: Finance & Trading'
 verdict: nosendreceive
+meta: ok
 date: 2021-10-13
 authors:
 - danny
@@ -16,8 +17,8 @@ android:
   appId: com.amarkets
   users: 1000000
   released: 2019-05-31
-  updated: 2026-05-05
-  version: 2.1.135
+  updated: 2026-05-25
+  version: 2.1.136
   reviews: 292
   icon: com.amarkets.png
   meta: ok
@@ -27,9 +28,9 @@ iphone:
   appId: amarkets.app
   idd: '1495820700'
   released: 2020-02-12
-  updated: 2026-04-07
-  version: 1.4.169
-  reviews: 3029
+  updated: 2026-05-25
+  version: 1.4.174
+  reviews: 3042
   icon: amarkets.app.jpg
   meta: defunct
   website: https://www.amarkets.com/

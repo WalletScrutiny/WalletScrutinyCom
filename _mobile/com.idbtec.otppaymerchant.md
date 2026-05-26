@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.otppay.com
-developerName: Otppay OU
 redirect_from:
 - /android/com.idbtec.otppaymerchant/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-06-18
   version: '1.4'
   icon: com.idbtec.otppaymerchant.png
+  developerName: Otppay OU
 
 ---
 

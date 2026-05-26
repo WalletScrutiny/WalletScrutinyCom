@@ -8,7 +8,6 @@ authors:
 twitter: qkexglobal
 social:
 - https://t.me/qkexglobal1
-developerName: QKEx Android
 redirect_from:
 - /android/com.qkex/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2023-12-21
   version: 3.0.34
   icon: com.qkex.png
+  developerName: QKEx Android
 
 ---
 

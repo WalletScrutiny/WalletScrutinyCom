@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://dispurseapp.com#deadLink
-developerName: Dispurse
 redirect_from:
 - /android/com.AppInstitute.d3952/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-10
   version: 1.0.0
   icon: com.AppInstitute.d3952.png
+  developerName: Dispurse
 
 ---
 

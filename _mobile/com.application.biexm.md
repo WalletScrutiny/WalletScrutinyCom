@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://biexm.com/
-developerName: Neo Technology Hk limited
 redirect_from:
 - /android/com.application.biexm/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-24
   version: '1.1'
   icon: com.application.biexm.png
+  developerName: Neo Technology Hk limited
 
 ---
 

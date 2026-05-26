@@ -3,7 +3,6 @@ title: Trio Ace Global
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Trio Ace Global
 redirect_from:
 - /android/com.trioace.global/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-03
   version: 1.0.1
   icon: com.trioace.global.png
+  developerName: Trio Ace Global
 
 ---
 

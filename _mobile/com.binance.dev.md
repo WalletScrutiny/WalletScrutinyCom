@@ -20,9 +20,9 @@ android:
   appId: com.binance.dev
   users: 100000000
   released: 2017-10-25
-  updated: 2026-05-18
+  updated: 2026-05-25
   version: 3.14.7
-  reviews: 16604
+  reviews: 16626
   icon: com.binance.dev.png
   website: https://www.binance.com/
   developerName: Binance Inc.

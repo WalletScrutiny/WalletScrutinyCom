@@ -1,14 +1,14 @@
 ---
 wsId: ZixiPay
-title: 'ZixiPay: Tether Wallet'
+title: 'ZixiPay: Crypto Wallet'
 verdict: custodial
+meta: ok
 date: 2021-11-17
 authors:
 - danny
 twitter: zixipay
 social:
 - https://www.facebook.com/ZixiPay
-developerName: ZixiPay LLC
 appCountry: us
 redirect_from:
 - /android/com.zixipay.wallet/
@@ -17,12 +17,13 @@ android:
   appId: com.zixipay.wallet
   users: 50000
   released: 2019-12-18
-  updated: 2026-01-28
-  version: '1.97'
+  updated: 2026-05-16
+  version: '2.00'
   reviews: 11
   icon: com.zixipay.wallet.png
   meta: removed
   website: https://zixipay.com
+  developerName: ZixiPay LLC
 iphone:
   appId: com.zixipay.wallet
   idd: 1492139262
@@ -33,6 +34,7 @@ iphone:
   icon: com.zixipay.wallet.jpg
   meta: ok
   website: https://zixipay.com/
+  developerName: ZixiPay LLC
 
 ---
 

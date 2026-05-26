@@ -2,6 +2,7 @@
 wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 verdict: custodial
+meta: ok
 date: 2023-03-06
 authors:
 - danny

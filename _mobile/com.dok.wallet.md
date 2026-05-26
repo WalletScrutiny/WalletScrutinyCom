@@ -20,8 +20,8 @@ android:
   appId: com.dok.wallet
   users: 5000
   released: 2020-09-28
-  updated: 2026-04-30
-  version: '3.16'
+  updated: 2026-05-25
+  version: '3.17'
   reviews: 15
   icon: com.dok.wallet.png
   website: https://dokwallet.com/

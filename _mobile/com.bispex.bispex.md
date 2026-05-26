@@ -6,7 +6,6 @@ date: 2024-09-25
 authors:
 - danny
 website: https://www.bispex.com/
-developerName: bispex
 redirect_from:
 - /android/com.bispex.bispex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-04-14
   version: 1.1.1
   icon: com.bispex.bispex.png
+  developerName: bispex
 
 ---
 

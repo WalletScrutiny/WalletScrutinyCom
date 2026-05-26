@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-28
 website: https://burtar.com#deadLink
-developerName: GGTC GLOBAL
 redirect_from:
 - /android/com.wallet.burtarapp/
 android:
@@ -15,6 +14,7 @@ android:
   version: '2.0'
   reviews: 7
   icon: com.wallet.burtarapp.png
+  developerName: GGTC GLOBAL
 
 ---
 

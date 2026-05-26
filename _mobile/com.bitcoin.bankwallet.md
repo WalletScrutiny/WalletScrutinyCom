@@ -6,7 +6,6 @@ date: 2024-11-04
 authors:
 - danny
 website: https://wallet-markets.web.app
-developerName: Oriental Thang Long
 redirect_from:
 - /android/com.bitcoin.bankwallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 0.3.7
   reviews: 15
   icon: com.bitcoin.bankwallet.png
+  developerName: Oriental Thang Long
 
 ---
 

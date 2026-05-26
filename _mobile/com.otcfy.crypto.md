@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.otcfy.com/
-developerName: ANYPE Tech. Pvt. Ltd.
 redirect_from:
 - /android/com.otcfy.crypto/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-12-30
   version: '2.0'
   icon: com.otcfy.crypto.png
+  developerName: ANYPE Tech. Pvt. Ltd.
 
 ---
 

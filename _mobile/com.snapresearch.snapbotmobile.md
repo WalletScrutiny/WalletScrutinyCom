@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://app.snapbots.io/
-developerName: SnapBots Limited
 redirect_from:
 - /android/com.snapresearch.snapbotmobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-15
   version: 1.0.1
   icon: com.snapresearch.snapbotmobile.png
+  developerName: SnapBots Limited
 
 ---
 

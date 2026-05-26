@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/Chimpionio/
 - https://www.linkedin.com/company/chimpion/about/
 - https://www.instagram.com/chimpion.io/
-developerName: Chimpion
 redirect_from:
 - /android/com.chimpion.bcdpay/
 android:
@@ -22,6 +21,7 @@ android:
   version: 7.1.63
   reviews: 13
   icon: com.chimpion.bcdpay.png
+  developerName: Chimpion
 
 ---
 

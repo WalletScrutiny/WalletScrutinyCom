@@ -6,7 +6,6 @@ date: 2023-05-24
 authors:
 - danny
 website: https://expo.biz/
-developerName: EXPO R&M
 redirect_from:
 - /android/com.expo.wallet/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-02-18
   version: 1.0.15
   icon: com.expo.wallet.png
+  developerName: EXPO R&M
 
 ---
 

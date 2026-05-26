@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/reflextoken
 - https://www.linkedin.com/company/reflextoken
 - https://www.instagram.com/reflextoken
-developerName: Blaqclouds
 redirect_from:
 - /android/com.quasarwallet.android/
 android:
@@ -22,6 +21,8 @@ android:
   version: '1.5'
   reviews: 10
   icon: com.quasarwallet.android.png
+  website: https://quasarwallet.com
+  developerName: Blaqclouds
 
 ---
 

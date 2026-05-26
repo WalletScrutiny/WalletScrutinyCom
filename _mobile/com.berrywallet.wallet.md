@@ -9,7 +9,6 @@ website: https://wallet.berrychain.io#deadLink
 twitter: BerryChain
 social:
 - https://www.facebook.com/berrychain.official
-developerName: Ahmad soft
 redirect_from:
 - /android/com.berrywallet.wallet/
 android:
@@ -20,6 +19,7 @@ android:
   version: '1.8'
   reviews: 8
   icon: com.berrywallet.wallet.png
+  developerName: Ahmad soft
 
 ---
 

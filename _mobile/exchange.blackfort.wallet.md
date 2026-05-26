@@ -2,6 +2,7 @@
 wsId: BlackFort
 title: BlackFort Wallet & Exchange
 verdict: nosource
+meta: obsolete
 date: 2023-08-16
 authors:
 - danny

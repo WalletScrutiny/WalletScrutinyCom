@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://yuppex.com
-developerName: Avollo.com
 redirect_from:
 - /android/com.yuppex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-09-25
   version: '1.2'
   icon: com.yuppex.png
+  developerName: Avollo.com
 
 ---
 

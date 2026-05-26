@@ -6,7 +6,6 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
-developerName: Streami Inc.
 redirect_from:
 - /android/kr.co.gopax/
 - /iphone/kr.co.gopax/
@@ -17,9 +16,10 @@ android:
   released: 2018-11-05
   updated: 2026-05-08
   version: 1.9.46.1c4b
-  reviews: 1538
+  reviews: 1537
   icon: kr.co.gopax.png
   website: https://www.gopax.co.kr
+  developerName: Streami Inc.
 iphone:
   appId: kr.co.gopax
   idd: 1369896843
@@ -30,6 +30,7 @@ iphone:
   reviews: 530
   icon: kr.co.gopax.jpg
   website: https://www.gopax.co.kr/notice
+  developerName: Streami Inc.
 
 ---
 

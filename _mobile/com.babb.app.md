@@ -26,6 +26,7 @@ android:
   version: 2.6.2
   reviews: 49
   icon: com.babb.app.png
+  website: https://getbabb.com/
   developerName: BABB
 iphone:
   appId: com.babbltd.babb-ios

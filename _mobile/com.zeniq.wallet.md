@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/zeniq_tech/
 - https://www.youtube.com/ZENIQTech#deadLink
 - https://t.me/zeniq_hub
-developerName: ZENIQ Technologies FZ LLC
 redirect_from:
 - /android/com.zeniq.wallet/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2022-10-31
   version: VARY
   icon: com.zeniq.wallet.png
+  developerName: ZENIQ Technologies FZ LLC
 
 ---
 

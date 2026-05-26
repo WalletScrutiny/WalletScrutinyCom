@@ -15,13 +15,14 @@ android:
   appId: com.superex.ex
   users: 1000000
   released: 2022-03-23
-  updated: 2026-05-09
-  version: 2.9.61
+  updated: 2026-05-26
+  version: 2.9.62
   reviews: 258
   icon: com.superex.ex.png
   verdict: custodial
-  twitter: SuperExet
+  website: https://www.superex.com
   developerName: SUPEREX
+  twitter: SuperExet
 iphone:
   appId: com.superex.ex
   idd: '1601589888'

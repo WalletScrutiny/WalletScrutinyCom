@@ -2,12 +2,12 @@
 wsId: pouchPh
 title: Isle
 verdict: custodial
+meta: ok
 date: 2022-06-22
 authors:
 - danny
 features:
 - ln
-developerName: Pouch PH Inc
 redirect_from:
 - /android/pouch.ph/
 - /iphone/pouch.ph/
@@ -21,6 +21,7 @@ android:
   icon: pouch.ph.png
   meta: ok
   website: https://pouch.ph
+  developerName: Pouch PH Inc
 iphone:
   appId: pouch.ph
   idd: '1584404678'
@@ -32,6 +33,7 @@ iphone:
   icon: pouch.ph.jpg
   meta: removed
   website: https://pouch.ph/
+  developerName: Pouch PH Inc
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://alexchanger.com/
-developerName: Tahwiil
 redirect_from:
 - /android/com.alexchanger.alexchanger/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 26
   icon: com.alexchanger.alexchanger.png
+  developerName: Tahwiil
 
 ---
 

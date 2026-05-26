@@ -1,5 +1,5 @@
 ---
-title: BITmarkets
+title: 'BITmarkets: Crypto made simple'
 verdict: custodial
 meta: ok
 date: 2023-08-09
@@ -10,16 +10,17 @@ twitter: bitmarkets_com
 social:
 - https://discord.com/invite/fNCXVKFtfB
 - https://www.facebook.com/bitmarketscom
-developerName: Unicorn Technologies Limited
 redirect_from:
 - /android/com.bitmarkets.android.app/
 android:
   appId: com.bitmarkets.android.app
   users: 10000
   released: 2022-10-04
-  updated: 2026-05-14
-  version: 3.8.12
+  updated: 2026-05-22
+  version: 3.8.13
   icon: com.bitmarkets.android.app.png
+  website: https://www.bitmarkets.com/
+  developerName: Unicorn Technologies Limited
 
 ---
 

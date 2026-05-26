@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/BestDEX
 - https://t.me/exchangily_chat
 - https://www.tiktok.com/@exchangilydex
-developerName: Exchangily LLC
 redirect_from:
 - /android/com.biswap.mobile/
 - /iphone/com.biswap.app/
@@ -23,6 +22,7 @@ android:
   version: 1.0.13
   icon: com.biswap.mobile.png
   website: https://biswap.com/
+  developerName: Exchangily LLC
 iphone:
   appId: com.biswap.app
   idd: '1634279692'
@@ -33,6 +33,7 @@ iphone:
   reviews: 5
   icon: com.biswap.app.jpg
   website: https://biswap.com
+  developerName: Exchangily LLC
 
 ---
 

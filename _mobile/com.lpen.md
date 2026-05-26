@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-23
 website: https://lpenwallet.com#deadLink
-developerName: LPEN
 redirect_from:
 - /android/com.lpen/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-15
   version: 1.0.1260
   icon: com.lpen.png
+  developerName: LPEN
 
 ---
 

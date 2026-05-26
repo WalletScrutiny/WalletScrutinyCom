@@ -3,7 +3,6 @@ title: Elia Wallet
 verdict: wip
 meta: removed
 date: 2024-03-02
-developerName: c&hsoft
 redirect_from:
 - /android/com.bonsystem.chain.eliac/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-05
   version: 1.0.3
   icon: com.bonsystem.chain.eliac.png
+  developerName: c&hsoft
 
 ---
 

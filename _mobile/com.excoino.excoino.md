@@ -9,7 +9,6 @@ website: https://www.excoino.com/
 twitter: excoino
 social:
 - https://www.linkedin.com/company/excoino-com
-developerName: Ernyka Co
 redirect_from:
 - /android/com.excoino.excoino/
 android:
@@ -20,6 +19,8 @@ android:
   version: 9.70.0
   reviews: 377
   icon: com.excoino.excoino.png
+  website: https://www.excoino.com/
+  developerName: Ernyka Co
 
 ---
 

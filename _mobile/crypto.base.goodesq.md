@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://goodesq.com#deadLink
-developerName: GOODESQ
 redirect_from:
 - /android/crypto.base.goodesq/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-06-06
   version: 1.0.0
   icon: crypto.base.goodesq.png
+  developerName: GOODESQ
 
 ---
 

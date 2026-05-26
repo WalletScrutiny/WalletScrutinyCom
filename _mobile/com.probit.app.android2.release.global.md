@@ -10,7 +10,6 @@ twitter: ProBit_Exchange
 social:
 - https://www.linkedin.com/company/probit-exchange
 - https://www.facebook.com/probitexchange
-developerName: Probit Global Services Limited
 redirect_from:
 - /com.probit.app.android2.release.global/
 - /android/com.probit.app.android2.release.global/
@@ -22,6 +21,7 @@ android:
   version: 1.77.3
   reviews: 361
   icon: com.probit.app.android2.release.global.png
+  developerName: Probit Global Services Limited
 
 ---
 

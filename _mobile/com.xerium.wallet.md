@@ -9,7 +9,6 @@ website: https://xerium.info#deadLink
 twitter: Xerium3
 social:
 - https://www.facebook.com/Xerium
-developerName: Xeriumtech
 redirect_from:
 - /android/com.xerium.wallet/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2021-03-04
   version: '1.0'
   icon: com.xerium.wallet.png
+  developerName: Xeriumtech
 
 ---
 

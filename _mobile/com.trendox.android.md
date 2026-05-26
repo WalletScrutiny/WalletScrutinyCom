@@ -9,7 +9,6 @@ website: https://fxtrendo.com
 social:
 - https://t.me/trendo_support
 - https://www.instagram.com/fxtrendo
-developerName: Trendo Forex
 redirect_from:
 - /android/com.trendox.android/
 android:
@@ -20,6 +19,7 @@ android:
   version: 3.9.40_googleplay
   reviews: 72
   icon: com.trendox.android.png
+  developerName: Trendo Forex
 
 ---
 

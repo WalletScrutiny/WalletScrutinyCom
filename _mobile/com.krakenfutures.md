@@ -7,7 +7,6 @@ authors:
 - leo
 - danny
 website: https://futures.kraken.com
-developerName: Payward, Inc.
 redirect_from:
 - /com.krakenfutures/
 - /posts/com.krakenfutures/
@@ -20,6 +19,7 @@ android:
   version: 5.24.0
   reviews: 5
   icon: com.krakenfutures.png
+  developerName: Payward, Inc.
 
 ---
 

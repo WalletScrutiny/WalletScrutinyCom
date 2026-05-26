@@ -11,7 +11,6 @@ social:
 - https://t.me/exbitomarket
 - https://www.instagram.com/exbitomarket1
 - https://www.linkedin.com/company/exbito
-developerName: Exbito
 redirect_from:
 - /android/com.exbito.app/
 android:
@@ -22,6 +21,7 @@ android:
   version: 2.1.3
   reviews: 30
   icon: com.exbito.app.png
+  developerName: Exbito
 
 ---
 

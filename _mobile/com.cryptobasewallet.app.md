@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-02-02
 website: https://cryptobaseatm.com
-developerName: Cryptobase, LLC
 redirect_from:
 - /android/com.cryptobasewallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2025-03-14
   version: 4.23.0
   icon: com.cryptobasewallet.app.png
+  developerName: Cryptobase, LLC
 
 ---
 

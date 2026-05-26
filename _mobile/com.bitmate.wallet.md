@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://bitmate.io#deadLink
-developerName: Bitmate
 redirect_from:
 - /android/com.bitmate.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-13
   version: 9120.10.10
   icon: com.bitmate.wallet.png
+  developerName: Bitmate
 
 ---
 

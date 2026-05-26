@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.halostar.org#deadLink
-developerName: HaloStar
 redirect_from:
 - /android/com.logmethod.hsr/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-18
   version: 1.0.3
   icon: com.logmethod.hsr.png
+  developerName: HaloStar
 
 ---
 

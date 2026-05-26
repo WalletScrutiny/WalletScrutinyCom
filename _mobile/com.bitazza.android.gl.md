@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/bitazzaglobal
 - https://www.linkedin.com/company/bitazza/
 - https://t.me/bitazzaglobal
-developerName: Bitazza Company Limited
 redirect_from:
 - /android/com.bitazza.android.gl/
 - /iphone/com.bitazza.global.ios/
@@ -23,6 +22,7 @@ android:
   version: 4.7.8
   icon: com.bitazza.android.gl.png
   website: http://bitazza.com/
+  developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.global.ios
   idd: '1612226119'
@@ -33,6 +33,7 @@ iphone:
   reviews: 188
   icon: com.bitazza.global.ios.jpg
   website: https://www.bitazza.com
+  developerName: Bitazza Company Limited
 
 ---
 

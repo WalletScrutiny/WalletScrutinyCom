@@ -10,7 +10,6 @@ social:
 - https://www.facebook.com/HOYABITExchange
 - https://www.youtube.com/@HOYA_BIT
 - https://www.instagram.com/hoyabit.exchange
-developerName: HOYA BIT Digital Technology Co., Ltd.
 redirect_from:
 - /android/com.hoyabit.cex/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2026-05-15
   version: 1.56.3
   icon: com.hoyabit.cex.png
+  website: https://hoyabit.com/
+  developerName: HOYA BIT Digital Technology Co., Ltd.
 
 ---
 

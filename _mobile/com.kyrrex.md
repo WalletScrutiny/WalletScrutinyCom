@@ -2,6 +2,7 @@
 wsId: kyrrexGlobal
 title: Kyrrex Global
 verdict: custodial
+meta: ok
 date: 2023-07-11
 authors:
 - danny
@@ -23,6 +24,7 @@ android:
   version: production/v4.2.62
   icon: com.kyrrex.jpg
   meta: ok
+  website: https://kyrrex.com
   developerName: Kyrrex
 iphone:
   appId: com.kyrrex.app

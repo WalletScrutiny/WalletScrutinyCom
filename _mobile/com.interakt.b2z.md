@@ -10,7 +10,6 @@ twitter: B2zExchange
 social:
 - https://www.linkedin.com/company/b2z-exchange/about/
 - https://www.facebook.com/b2zexchange
-developerName: Interakt India
 redirect_from:
 - /android/com.interakt.b2z/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2026-02-10
   version: 1.11.0
   icon: com.interakt.b2z.png
+  website: https://www.b2z.exchange/en/home
+  developerName: Interakt India
 
 ---
 

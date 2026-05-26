@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://www.rightbtc.com#deadLink
-developerName: ViewFin
 redirect_from:
 - /android/rightbtc.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-07
   version: 2.1.0
   icon: rightbtc.app.png
+  developerName: ViewFin
 
 ---
 

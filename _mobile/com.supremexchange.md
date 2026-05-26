@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.supremecrypx.com#deadLink
-developerName: Kripter Kommunications
 redirect_from:
 - /android/com.supremexchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-23
   version: '2.1'
   icon: com.supremexchange.png
+  developerName: Kripter Kommunications
 
 ---
 

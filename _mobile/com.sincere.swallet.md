@@ -2,6 +2,7 @@
 wsId: sincereSWallet
 title: S-Wallet
 verdict: custodial
+meta: obsolete
 date: 2025-04-11
 authors:
 - danny
@@ -22,6 +23,7 @@ android:
   reviews: 28
   icon: com.sincere.swallet.jpg
   meta: obsolete
+  website: https://s-wallet.ai
   developerName: SWallet OU
 iphone:
   appId: com.sincere.swallet

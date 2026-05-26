@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: http://goforsage.com/app#deadLink
-developerName: LIV8 LLC
 redirect_from:
 - /android/com.ebfourapp.android5e8639832c006/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-10
   version: '2.5'
   icon: com.ebfourapp.android5e8639832c006.png
+  developerName: LIV8 LLC
 
 ---
 

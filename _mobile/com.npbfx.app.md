@@ -7,7 +7,6 @@ date: 2024-10-28
 authors:
 - danny
 website: https://www.npbfx.com/
-developerName: NMarkets Limited
 redirect_from:
 - /android/com.npbfx.app/
 - /iphone/com.npbfx.app/
@@ -18,6 +17,8 @@ android:
   updated: 2025-08-27
   version: 1.15.0
   icon: com.npbfx.app.jpg
+  website: https://www.npbfx.com/
+  developerName: NMarkets Limited
 iphone:
   appId: com.npbfx.app
   idd: '1541838401'
@@ -27,6 +28,7 @@ iphone:
   version: 1.15.1
   reviews: 0
   icon: com.npbfx.app.jpg
+  developerName: NMarkets Limited
 
 ---
 

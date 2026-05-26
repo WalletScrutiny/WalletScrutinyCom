@@ -10,7 +10,6 @@ twitter: sevenb_roker
 social:
 - https://www.facebook.com/SevenBbroker
 - https://www.reddit.com/r/SevenB_roker
-developerName: Stash Tech Solutions Limited
 redirect_from:
 - /android/io.sevenb.terminal/
 android:
@@ -21,6 +20,7 @@ android:
   version: 0.3.2
   reviews: 5
   icon: io.sevenb.terminal.png
+  developerName: Stash Tech Solutions Limited
 
 ---
 

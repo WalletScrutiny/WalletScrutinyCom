@@ -1,6 +1,7 @@
 ---
 wsId: theBitcoinCompany
 title: The Bitcoin Company Rewards
+meta: ok
 date: 2024-07-17
 authors:
 - danny
@@ -26,6 +27,7 @@ android:
   icon: com.tbtc_app.png
   meta: ok
   verdict: custodial
+  website: https://thebitcoincompany.com
   developerName: The Bitcoin Company
 iphone:
   appId: com.thebitcoincompany.app.ios

@@ -14,7 +14,6 @@ features:
 - buyWithCC
 - multiSig
 - tradeAlts
-developerName: Conio Srl
 redirect_from:
 - /com.conio.wallet/
 - /posts/com.conio.wallet/
@@ -25,6 +24,8 @@ android:
   updated: 2026-04-27
   version: 10.4.0
   icon: com.conio.wallet.png
+  website: https://www.conio.com
+  developerName: Conio Srl
 
 ---
 

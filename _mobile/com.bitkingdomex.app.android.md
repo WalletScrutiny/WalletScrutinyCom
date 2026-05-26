@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-12
 authors:
 - danny
-developerName: 키스톤랩
 redirect_from:
 - /android/com.bitkingdomex.app.android/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-01-19
   version: 1.0.7
   icon: com.bitkingdomex.app.android.png
+  developerName: 키스톤랩
 
 ---
 

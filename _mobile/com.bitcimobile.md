@@ -19,8 +19,8 @@ android:
   appId: com.bitcimobile
   users: 100000
   released: 2020-03-30
-  updated: 2026-05-20
-  version: 23.0.1
+  updated: 2026-05-21
+  version: 23.0.2
   reviews: 14
   icon: com.bitcimobile.png
   website: https://www.safebit.com

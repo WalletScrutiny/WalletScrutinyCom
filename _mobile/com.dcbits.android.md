@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://dcbits.io#deadLink
-developerName: DcBits Exchange
 redirect_from:
 - /android/com.dcbits.android/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-01-23
   version: '1.5'
   icon: com.dcbits.android.png
+  developerName: DcBits Exchange
 
 ---
 

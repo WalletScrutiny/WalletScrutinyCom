@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.remibit.com#deadLink
-developerName: RemiBit
 redirect_from:
 - /android/com.remibit.wallet.twa/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-17
   version: 3.0.0.0
   icon: com.remibit.wallet.twa.png
+  developerName: RemiBit
 
 ---
 

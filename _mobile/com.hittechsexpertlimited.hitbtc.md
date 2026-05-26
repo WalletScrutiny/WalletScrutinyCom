@@ -10,7 +10,6 @@ twitter: hitbtc
 social:
 - https://www.facebook.com/hitbtc
 - https://www.reddit.com/r/hitbtc
-developerName: HitBTC Exchange
 redirect_from:
 - /com.hittechsexpertlimited.hitbtc/
 - /posts/com.hittechsexpertlimited.hitbtc/
@@ -23,6 +22,8 @@ android:
   version: 3.3.5
   reviews: 5
   icon: com.hittechsexpertlimited.hitbtc.jpg
+  website: https://hitbtc.com/
+  developerName: HitBTC Exchange
 
 ---
 

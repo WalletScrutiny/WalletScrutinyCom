@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://globalswift.net
-developerName: Globals
 redirect_from:
 - /android/net.globalswift/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-22
   version: '1.0'
   icon: net.globalswift.png
+  developerName: Globals
 
 ---
 

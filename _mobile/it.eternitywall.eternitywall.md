@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://eternitywall.it
-developerName: Eternity Wall
 redirect_from:
 - /android/it.eternitywall.eternitywall/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2016-10-14
   version: 1.0.44
   icon: it.eternitywall.eternitywall.png
+  developerName: Eternity Wall
 
 ---
 

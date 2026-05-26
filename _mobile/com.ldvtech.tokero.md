@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/tokero-crypto-exchange/
 - https://www.instagram.com/tokerocryptoexchange/
 - https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw
-developerName: Globe Monnaie SRL
 redirect_from:
 - /android/com.ldvtech.tokero/
 - /iphone/com.ldvtech.tokero/
@@ -25,6 +24,7 @@ android:
   icon: com.ldvtech.tokero.png
   meta: removed
   website: https://web.tokero.com
+  developerName: Globe Monnaie SRL
 iphone:
   appId: com.ldvtech.tokero
   idd: '1569586581'
@@ -36,6 +36,7 @@ iphone:
   icon: com.ldvtech.tokero.jpg
   meta: ok
   website: https://tokero.com
+  developerName: Globe Monnaie SRL
 
 ---
 

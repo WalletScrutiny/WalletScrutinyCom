@@ -10,7 +10,6 @@ twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting
 - https://www.facebook.com/nagainvesting
-developerName: NAGA Markets Ltd.
 redirect_from:
 - /android/swipestox.mobile/
 - /iphone/com.swipestox.app/
@@ -19,11 +18,12 @@ android:
   users: 500000
   appCountry: gb
   released: 2015-10-20
-  updated: 2026-05-20
-  version: 8.0.463
+  updated: 2026-05-23
+  version: 8.0.466
   reviews: 200
   icon: swipestox.mobile.png
   website: http://www.naga.com
+  developerName: NAGA Markets Ltd.
 iphone:
   appId: com.swipestox.app
   idd: 1182702365
@@ -34,6 +34,7 @@ iphone:
   reviews: 63
   icon: com.swipestox.app.jpg
   website: https://www.naga.com
+  developerName: NAGA Markets Ltd.
 
 ---
 

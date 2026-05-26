@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://www.ini.bitcaps.club#deadLink
-developerName: Bitcaps
 redirect_from:
 - /android/com.bitcaps/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-06
   version: 1.5.2
   icon: com.bitcaps.png
+  developerName: Bitcaps
 
 ---
 

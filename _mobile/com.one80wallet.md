@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2025-11-10
 website: https://one80wallet.io/
-developerName: One80
 redirect_from:
 - /android/com.one80wallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-12-15
   version: 1.0.12
   icon: com.one80wallet.png
+  website: https://one80wallet.io/
+  developerName: One80
 
 ---
 

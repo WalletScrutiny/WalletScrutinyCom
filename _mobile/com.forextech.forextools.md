@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-04-16
 website: http://app.forextoolsapp.com
-developerName: ForexTech
 redirect_from:
 - /android/com.forextech.forextools/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-01-11
   version: '1.5'
   icon: com.forextech.forextools.png
+  developerName: ForexTech
 
 ---
 

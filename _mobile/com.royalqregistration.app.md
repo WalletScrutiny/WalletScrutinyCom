@@ -3,7 +3,6 @@ title: Royal Q Automated Trading App
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Infinit Tech
 redirect_from:
 - /android/com.royalqregistration.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-27
   version: '2.0'
   icon: com.royalqregistration.app.png
+  developerName: Infinit Tech
 
 ---
 

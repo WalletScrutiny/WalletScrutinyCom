@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-15
 website: https://bitcointrader.icu#deadLink
-developerName: Bitcoin Trader Exchange
 redirect_from:
 - /android/com.bitcoin.trader2022/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-07
   version: '3.0'
   icon: com.bitcoin.trader2022.png
+  developerName: Bitcoin Trader Exchange
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: Bitnob
 title: Bitnob
 verdict: custodial
+meta: ok
 date: 2021-10-07
 authors:
 - danny
@@ -12,7 +13,6 @@ social:
 - https://www.facebook.com/bitnob
 features:
 - ln
-developerName: Bitnob Technologies
 appCountry: us
 redirect_from:
 - /android/com.app.bitnob/
@@ -26,6 +26,8 @@ android:
   reviews: 38
   icon: com.app.bitnob.png
   meta: ok
+  website: https://bitnob.com
+  developerName: Bitnob Technologies
 iphone:
   appId: com.app.bitnob
   idd: '1513951003'
@@ -35,6 +37,7 @@ iphone:
   reviews: 113
   icon: com.app.bitnob.jpg
   meta: removed
+  developerName: Bitnob Technologies
 
 ---
 

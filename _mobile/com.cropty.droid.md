@@ -9,7 +9,6 @@ authors:
 twitter: cropty_app
 social:
 - https://www.youtube.com/@croptytv
-developerName: Coinscatch
 redirect_from:
 - /android/com.cropty.droid/
 - /iphone/com.cropty.app/
@@ -22,6 +21,7 @@ android:
   reviews: 59
   icon: com.cropty.droid.jpg
   website: https://www.cropty.io/
+  developerName: Coinscatch
 iphone:
   appId: com.cropty.app
   idd: '1624901793'
@@ -32,6 +32,7 @@ iphone:
   reviews: 213
   icon: com.cropty.app.jpg
   website: https://cropty.io/
+  developerName: Coinscatch
 
 ---
 

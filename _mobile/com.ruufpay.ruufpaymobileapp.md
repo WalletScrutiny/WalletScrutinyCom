@@ -2,6 +2,7 @@
 wsId: ruufPayWallet
 title: RuufPay Crypto Pay Swap Wallet
 verdict: nosource
+meta: ok
 date: 2024-10-23
 authors:
 - danny
@@ -12,7 +13,6 @@ social:
 - https://www.instagram.com/ruufpay/
 - https://ruufpay.app
 - https://www.instagram.com/ruufpay
-developerName: RuufPay
 redirect_from:
 - /android/com.ruufpay.ruufpaymobileapp/
 - /iphone/app.ruufpay.ruufpay/
@@ -26,6 +26,7 @@ android:
   icon: com.ruufpay.ruufpaymobileapp.png
   meta: ok
   website: https://ruufpay.app
+  developerName: RuufPay
 iphone:
   appId: app.ruufpay.ruufpay
   idd: '1557726087'
@@ -36,6 +37,7 @@ iphone:
   reviews: 20
   icon: app.ruufpay.ruufpay.jpg
   meta: removed
+  developerName: RuufPay
 
 ---
 

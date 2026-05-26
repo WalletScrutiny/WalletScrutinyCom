@@ -23,6 +23,7 @@ android:
   version: 4.36.0
   reviews: 170
   icon: com.mirlimited.muchbetter.png
+  website: https://www.muchbetter.com
   developerName: Rtekk Holdings Limited
 iphone:
   appId: com.muchbetter

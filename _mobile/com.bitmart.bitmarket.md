@@ -23,9 +23,9 @@ android:
   appId: com.bitmart.bitmarket
   users: 1000000
   released: 2018-05-09
-  updated: 2026-05-14
+  updated: 2026-05-25
   version: 4.4.1
-  reviews: 3755
+  reviews: 3750
   icon: com.bitmart.bitmarket.png
   website: http://www.bitmart.com
   developerName: GBM Foundation Company

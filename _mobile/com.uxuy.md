@@ -11,7 +11,6 @@ social:
 - https://t.me/uxuycom
 - https://discord.com/invite/BZwZA27Zkv#deadLink
 - https://www.linkedin.com/company/uxuy
-developerName: UXUY Limited
 redirect_from:
 - /android/com.uxuy/
 - /iphone/com.uxuy/
@@ -24,6 +23,7 @@ android:
   reviews: 26
   icon: com.uxuy.png
   website: https://uxuy.com
+  developerName: UXUY Limited
 iphone:
   appId: com.uxuy
   idd: '6457257372'
@@ -34,6 +34,7 @@ iphone:
   reviews: 18
   icon: com.uxuy.jpg
   website: https://web.archive.org/web/20250422220123/https://uxuy.com/wallet
+  developerName: UXUY Limited
 
 ---
 

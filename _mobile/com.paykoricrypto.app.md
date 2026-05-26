@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://paykoricrypto.com
-developerName: Paykori
 redirect_from:
 - /android/com.paykoricrypto.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-11-15
   version: 1.0.0
   icon: com.paykoricrypto.app.png
+  developerName: Paykori
 
 ---
 

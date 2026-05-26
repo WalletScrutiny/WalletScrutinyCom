@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://amanpuri.io
-developerName: AMANPURI CO., LTD.
 redirect_from:
 - /android/com.amanpuriexchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-02
   version: '1.1'
   icon: com.amanpuriexchange.png
+  developerName: AMANPURI CO., LTD.
 
 ---
 

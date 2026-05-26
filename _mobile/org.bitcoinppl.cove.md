@@ -2,11 +2,11 @@
 wsId: coveBitcoinWallet
 title: Cove - Simple Bitcoin Wallet
 verdict: wip
+meta: fewusers
 date: 2026-01-14
 authors:
 - danny
 website: https://covebitcoinwallet.com
-developerName: InfraOps LLC
 redirect_from:
 - /android/org.bitcoinppl.cove/
 - /iphone/org.bitcoinppl.cove/
@@ -18,6 +18,8 @@ android:
   version: 1.2.2
   icon: org.bitcoinppl.cove.png
   meta: fewusers
+  website: https://covebitcoinwallet.com
+  developerName: InfraOps LLC
 iphone:
   appId: org.bitcoinppl.cove
   idd: '6642680364'
@@ -28,6 +30,7 @@ iphone:
   reviews: 22
   icon: org.bitcoinppl.cove.jpg
   meta: ok
+  developerName: InfraOps LLC
 
 ---
 

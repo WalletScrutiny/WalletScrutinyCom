@@ -5,7 +5,6 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
-developerName: BETRA Blockchain Trading Academy
 redirect_from:
 - /android/com.bastionpay.betrapay/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2019-11-20
   version: v1.0.1
   icon: com.bastionpay.betrapay.png
+  developerName: BETRA Blockchain Trading Academy
 
 ---
 

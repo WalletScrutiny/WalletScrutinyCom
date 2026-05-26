@@ -9,7 +9,6 @@ authors:
 twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
-developerName: FLITPAY PVT LTD
 redirect_from:
 - /android/com.core.app.flitpay/
 - /iphone/com.core.ios.flitpay/
@@ -23,6 +22,7 @@ android:
   reviews: 2755
   icon: com.core.app.flitpay.png
   website: https://www.flitpay.com/
+  developerName: FLITPAY PVT LTD
 iphone:
   appId: com.core.ios.flitpay
   idd: 1571975471
@@ -33,6 +33,7 @@ iphone:
   reviews: 133
   icon: com.core.ios.flitpay.jpg
   website: https://www.flitpay.com
+  developerName: FLITPAY PVT LTD
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-06-07
 authors:
 - danny
 website: http://www.tradersinc.mobi#deadLink
-developerName: Tradersinc
 redirect_from:
 - /android/com.tradersinc.buybitcoin/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2017-06-26
   version: 1.0.0
   icon: com.tradersinc.buybitcoin.png
+  developerName: Tradersinc
 
 ---
 

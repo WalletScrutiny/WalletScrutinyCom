@@ -9,7 +9,6 @@ twitter: finwhalex
 social:
 - https://finwhalex.com
 - https://www.facebook.com/FinWhaleX
-developerName: FinWhaleX PTE. LTD.
 redirect_from:
 - /android/com.finwhalex/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2020-04-07
   version: VARY
   icon: com.finwhalex.png
+  developerName: FinWhaleX PTE. LTD.
 
 ---
 

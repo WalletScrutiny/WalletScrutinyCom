@@ -18,7 +18,7 @@ android:
   released: 2022-10-18
   updated: 2026-02-27
   version: 1.0.1012
-  reviews: 817
+  reviews: 820
   icon: com.ncwallet.png
   website: https://ncwallet.net
   developerName: NCW Team

@@ -8,7 +8,6 @@ authors:
 website: https://e-mal.ae#deadLink
 social:
 - mailto:info@e-mal.ae
-developerName: eFatoora
 redirect_from:
 - /android/ae.efatoora.emal/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2020-01-02
   version: '3.2'
   icon: ae.efatoora.emal.png
+  developerName: eFatoora
 
 ---
 

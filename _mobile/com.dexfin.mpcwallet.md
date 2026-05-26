@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/dexfinplatform
 - https://t.me/dexfinhq
 - https://www.youtube.com/channel/UCCheJWs3WGOFlVg7VfDl8_g
-developerName: DEXFIN
 redirect_from:
 - /android/com.dexfin.mpcwallet/
 - /iphone/com.dexfin.mpcwallet/
@@ -25,6 +24,7 @@ android:
   version: 0.2.7
   icon: com.dexfin.mpcwallet.png
   website: https://www.dexfin.com
+  developerName: DEXFIN
 iphone:
   appId: com.dexfin.mpcwallet
   idd: '1626267442'
@@ -35,6 +35,7 @@ iphone:
   reviews: 3
   icon: com.dexfin.mpcwallet.jpg
   website: https://dexfin.com
+  developerName: DEXFIN
 
 ---
 

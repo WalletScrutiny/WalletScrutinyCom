@@ -20,7 +20,6 @@ features:
 - secEl
 - companion
 - foss
-developerName: PirateCash and Cosanta foundation
 redirect_from:
 - /android/cash.p.terminal/
 android:
@@ -32,6 +31,8 @@ android:
   icon: cash.p.terminal.png
   alternativeStores:
   - fdroid
+  website: https://p.cash/
+  developerName: PirateCash and Cosanta foundation
 
 ---
 

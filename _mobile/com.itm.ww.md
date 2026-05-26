@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-31
 website: http://www.wampum1st.com#deadLink
-developerName: Wampum 1st. An ITM Business.
 redirect_from:
 - /android/com.itm.ww/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-03-22
   version: 1.0.2
   icon: com.itm.ww.png
+  developerName: Wampum 1st. An ITM Business.
 
 ---
 

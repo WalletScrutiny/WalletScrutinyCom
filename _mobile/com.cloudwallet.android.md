@@ -6,7 +6,6 @@ date: 2023-03-29
 authors:
 - danny
 website: https://cloudtokenwallet.com/
-developerName: Cloud Technology & Investments
 redirect_from:
 - /android/com.cloudwallet.android/
 android:
@@ -17,6 +16,7 @@ android:
   version: 2.0.16
   reviews: 176
   icon: com.cloudwallet.android.png
+  developerName: Cloud Technology & Investments
 
 ---
 

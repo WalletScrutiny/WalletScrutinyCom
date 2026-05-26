@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: https://e-mpesaexchange.com/
-developerName: BH Enterprises
 redirect_from:
 - /android/com.empesa.e_mpesaexchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-28
   version: '1.1'
   icon: com.empesa.e_mpesaexchange.png
+  developerName: BH Enterprises
 
 ---
 

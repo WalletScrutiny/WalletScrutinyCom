@@ -12,7 +12,6 @@ features:
 - TOR
 - foss
 - ln
-developerName: Nadav Ivgi
 redirect_from:
 - /com.spark.wallet/
 - /posts/com.spark.wallet/
@@ -25,6 +24,7 @@ android:
   version: 0.3.1
   reviews: 1
   icon: com.spark.wallet.png
+  developerName: Nadav Ivgi
 
 ---
 

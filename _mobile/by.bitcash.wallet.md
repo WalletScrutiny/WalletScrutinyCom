@@ -12,8 +12,8 @@ redirect_from:
 android:
   appId: by.bitcash.wallet
   users: 10000
-  updated: 2026-04-17
-  version: 1.1.0
+  updated: 2026-05-21
+  version: 1.1.1
   icon: by.bitcash.wallet.png
   website: https://wbitcash.com/
   developerName: LLC BITCASH
@@ -22,9 +22,9 @@ iphone:
   idd: '1602652484'
   appCountry: by
   released: 2022-01-12
-  updated: 2026-04-22
-  version: 1.1.0
-  reviews: 18
+  updated: 2026-05-22
+  version: 1.1.1
+  reviews: 19
   icon: by.bitcash.cryptowallet.jpg
   developerName: BITCASH Inc.
 

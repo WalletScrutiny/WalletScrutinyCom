@@ -10,7 +10,6 @@ authors:
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
-developerName: COIN98 WALLET LTD
 appCountry: us
 redirect_from:
 - /android/coin98.crypto.finance.media/
@@ -19,20 +18,22 @@ android:
   appId: coin98.crypto.finance.media
   users: 1000000
   released: 2019-12-19
-  updated: 2026-05-12
-  version: 16.12.0
+  updated: 2026-05-25
+  version: 16.12.1
   reviews: 261
   icon: coin98.crypto.finance.media.png
   website: https://coin98.com/
+  developerName: COIN98 WALLET LTD
 iphone:
   appId: coin98.crypto.finance.insights
   idd: '1561969966'
   released: 2021-05-14
-  updated: 2026-05-11
-  version: 16.12.0
+  updated: 2026-05-25
+  version: 16.12.1
   reviews: 654
   icon: coin98.crypto.finance.insights.jpg
   website: https://coin98.com
+  developerName: COIN98 WALLET LTD
 
 ---
 

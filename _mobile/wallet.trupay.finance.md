@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: http://trupay.finance#deadLink
-developerName: intrXn Technolabs Pvt Ltd
 redirect_from:
 - /android/wallet.trupay.finance/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-04
   version: VARY
   icon: wallet.trupay.finance.png
+  developerName: intrXn Technolabs Pvt Ltd
 
 ---
 

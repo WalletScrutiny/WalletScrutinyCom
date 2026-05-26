@@ -15,10 +15,11 @@ android:
   appId: com.getmidas.crypto
   users: 500000
   released: 2024-12-01
-  updated: 2026-05-17
-  version: 2.97.3
+  updated: 2026-05-23
+  version: 2.98.1
   reviews: 3
   icon: com.getmidas.crypto.png
+  website: https://www.midaskripto.com/
   developerName: Midas Finansal Teknolojiler
 iphone:
   appId: com.midas.crypto

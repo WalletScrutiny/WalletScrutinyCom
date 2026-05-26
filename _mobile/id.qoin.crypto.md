@@ -12,7 +12,6 @@ social:
 - https://www.tiktok.com/@qoinpay
 - https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg
 - https://t.me/Qoinpay
-developerName: PT. Loyalty Program Indonesia
 redirect_from:
 - /android/id.qoin.crypto/
 - /iphone/id.qoin.crypto/
@@ -23,6 +22,7 @@ android:
   updated: 2024-12-03
   version: 1.4.31
   icon: id.qoin.crypto.png
+  developerName: PT. Loyalty Program Indonesia
   twitter: qoinpay
 iphone:
   appId: id.qoin.crypto
@@ -33,6 +33,7 @@ iphone:
   version: 1.4.29
   reviews: 2
   icon: id.qoin.crypto.jpg
+  developerName: PT. Loyalty Program Indonesia
 
 ---
 

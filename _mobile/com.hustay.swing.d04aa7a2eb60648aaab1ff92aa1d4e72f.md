@@ -6,7 +6,6 @@ date: 2023-08-04
 authors:
 - danny
 website: https://www.f-x5.com#deadLink
-developerName: GO-WOON
 redirect_from:
 - /android/com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-01-26
   version: '0.3'
   icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
+  developerName: GO-WOON
 
 ---
 

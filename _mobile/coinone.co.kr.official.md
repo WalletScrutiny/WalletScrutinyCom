@@ -12,7 +12,6 @@ social:
 - https://coinone.co.kr
 features:
 - fingerprint
-developerName: Coinone
 redirect_from:
 - /android/coinone.co.kr.official/
 - /iphone/kr.co.coinone.officialapp/
@@ -25,6 +24,7 @@ android:
   reviews: 15
   icon: coinone.co.kr.official.png
   website: https://coinone.co.kr
+  developerName: Coinone
 iphone:
   appId: kr.co.coinone.officialapp
   idd: 1326526995
@@ -34,6 +34,7 @@ iphone:
   version: 5.30.0
   reviews: 1036
   icon: kr.co.coinone.officialapp.jpg
+  developerName: Coinone
 
 ---
 

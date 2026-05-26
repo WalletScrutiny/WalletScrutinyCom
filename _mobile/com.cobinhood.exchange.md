@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - leo
 website: https://cobinhood.com#deadLink
-developerName: COBINHOOD, Ltd.
 redirect_from:
 - /com.cobinhood.exchange/
 - /posts/com.cobinhood.exchange/
@@ -19,6 +18,7 @@ android:
   version: 3.50.1
   reviews: 118
   icon: com.cobinhood.exchange.png
+  developerName: COBINHOOD, Ltd.
 
 ---
 

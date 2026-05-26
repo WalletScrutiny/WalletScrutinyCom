@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://www.tatacoabitcoin.com/
-developerName: CitizenFour
 redirect_from:
 - /android/com.tatacoabitcoin.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-17
   version: 1.6.2
   icon: com.tatacoabitcoin.wallet.png
+  developerName: CitizenFour
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://iluminary.ai
 twitter: iluminary
-developerName: GESP IT SOLUTIONS
 redirect_from:
 - /android/com.iluminary/
 android:
@@ -17,6 +16,8 @@ android:
   updated: 2026-03-06
   version: 2.1.0
   icon: com.iluminary.png
+  website: https://iluminary.ai
+  developerName: GESP IT SOLUTIONS
 
 ---
 

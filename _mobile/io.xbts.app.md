@@ -9,7 +9,6 @@ website: https://app.xbts.io
 repository: https://github.com/XBTS/app
 social:
 - https://t.me/xbtsio
-developerName: TechnoL0g
 redirect_from:
 - /android/io.xbts.app/
 android:
@@ -20,6 +19,7 @@ android:
   version: 0.1.29
   reviews: 4
   icon: io.xbts.app.png
+  developerName: TechnoL0g
 
 ---
 

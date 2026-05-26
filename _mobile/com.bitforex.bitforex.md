@@ -6,7 +6,6 @@ date: 2025-02-28
 authors:
 - danny
 website: https://www.bitforex.com
-developerName: BITFOREX LTD.
 redirect_from:
 - /android/com.bitforex.bitforex/
 android:
@@ -17,6 +16,7 @@ android:
   version: 3.5.5
   reviews: 44
   icon: com.bitforex.bitforex.png
+  developerName: BITFOREX LTD.
 
 ---
 

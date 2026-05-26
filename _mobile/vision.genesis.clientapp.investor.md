@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/genesis-vision
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
-developerName: Genesis Vision
 appCountry: us
 redirect_from:
 - /android/vision.genesis.clientapp.investor/
@@ -25,6 +24,7 @@ android:
   reviews: 25
   icon: vision.genesis.clientapp.investor.png
   website: https://genesis.vision
+  developerName: Genesis Vision
   repository: https://github.com/GenesisVision/android-client
 iphone:
   appId: vision.genesis.ios.investor
@@ -35,6 +35,7 @@ iphone:
   reviews: 145
   icon: vision.genesis.ios.investor.jpg
   website: https://genesis.vision/
+  developerName: Genesis Vision
 
 ---
 

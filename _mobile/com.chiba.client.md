@@ -6,7 +6,6 @@ date: 2023-05-17
 authors:
 - danny
 website: https://chiba.exchange#deadLink
-developerName: Chiba Markets
 redirect_from:
 - /android/com.chiba.client/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2018-05-08
   version: 1.0.11
   icon: com.chiba.client.png
+  developerName: Chiba Markets
 
 ---
 

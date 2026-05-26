@@ -9,7 +9,6 @@ authors:
 twitter: amonwallet
 social:
 - https://www.facebook.com/amonwallet
-developerName: Amon OÜ
 redirect_from:
 - /android/tech.amon/
 - /iphone/tech.amon/
@@ -21,6 +20,7 @@ android:
   version: 3.7.31
   icon: tech.amon.png
   website: https://web.archive.org/web/20231006065722/https://amon.tech/
+  developerName: Amon OÜ
 iphone:
   appId: tech.amon
   idd: '1375721006'
@@ -30,6 +30,7 @@ iphone:
   version: 3.7.31
   reviews: 8
   icon: tech.amon.jpg
+  developerName: Amon OÜ
 
 ---
 

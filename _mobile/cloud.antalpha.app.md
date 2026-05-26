@@ -3,7 +3,6 @@ title: Antalpha
 verdict: wip
 meta: fewusers
 date: 2023-06-03
-developerName: Antalpha Platform Technologies Limited
 redirect_from:
 - /android/cloud.antalpha.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2026-02-04
   version: 3.14.0
   icon: cloud.antalpha.app.png
+  developerName: Antalpha Platform Technologies Limited
 
 ---
 

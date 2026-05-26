@@ -3,7 +3,6 @@ title: Defi Master - BTC ETH Cryptocu
 verdict: wip
 meta: removed
 date: 2024-12-23
-developerName: ReyesFields
 redirect_from:
 - /android/com.reyesfields.wgxqwnizbv/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-01
   version: 1.0.1
   icon: com.reyesfields.wgxqwnizbv.png
+  developerName: ReyesFields
 
 ---
 

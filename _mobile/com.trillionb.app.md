@@ -3,7 +3,6 @@ title: TrillionB
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Trillion Bot Asia
 redirect_from:
 - /android/com.trillionb.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-27
   version: 1.1.1
   icon: com.trillionb.app.png
+  developerName: Trillion Bot Asia
 
 ---
 

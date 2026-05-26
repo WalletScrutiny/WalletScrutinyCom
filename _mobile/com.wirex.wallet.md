@@ -21,8 +21,8 @@ android:
   appId: com.wirex.wallet
   users: 500000
   released: 2021-12-03
-  updated: 2026-04-30
-  version: 3.1.1
+  updated: 2026-05-21
+  version: 3.2.0
   reviews: 16
   icon: com.wirex.wallet.png
   website: https://wirexapp.com/wirex-wallet#deadLink

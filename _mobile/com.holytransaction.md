@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://holytransaction.com
-developerName: HolyTransaction Android
 redirect_from:
 - /android/com.holytransaction/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-25
   version: 1.0.0
   icon: com.holytransaction.png
+  developerName: HolyTransaction Android
 
 ---
 

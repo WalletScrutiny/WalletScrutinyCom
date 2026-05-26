@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/p/Freedx-61560053240628
 - https://www.linkedin.com/company/freedx
 - https://www.youtube.com/@FreedXexchange
-developerName: Freedx
 redirect_from:
 - /android/com.app.freedx.prod/
 - /iphone/com.freedx.app.prod/
@@ -22,6 +21,7 @@ android:
   version: 1.7.0
   icon: com.app.freedx.prod.png
   website: https://freedx.com/
+  developerName: Freedx
 iphone:
   appId: com.freedx.app.prod
   idd: '6752333961'
@@ -31,6 +31,7 @@ iphone:
   version: 1.6.0
   reviews: 2
   icon: com.freedx.app.prod.jpg
+  developerName: Freedx
 
 ---
 

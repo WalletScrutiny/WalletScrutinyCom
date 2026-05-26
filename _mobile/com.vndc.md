@@ -2,6 +2,7 @@
 wsId: VNDCPro
 title: 'ONUS: Buy Bitcoin,ETH & Crypto'
 verdict: custodial
+meta: ok
 date: 2021-10-10
 authors:
 - danny

@@ -9,7 +9,6 @@ website: https://www.jackocoins.com/
 twitter: jackocoins
 social:
 - https://www.facebook.com/jackocoins
-developerName: Jackocoins
 redirect_from:
 - /android/com.jackocoins.app/
 android:
@@ -20,6 +19,7 @@ android:
   version: 2.0.2
   reviews: 26
   icon: com.jackocoins.app.png
+  developerName: Jackocoins
 
 ---
 

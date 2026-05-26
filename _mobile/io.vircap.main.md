@@ -10,7 +10,6 @@ social:
 - https://www.facebook.com/Vircaphq
 - https://www.reddit.com/user/Vircaphq
 - https://vircap.medium.com
-developerName: Vircap LLC
 redirect_from:
 - /android/io.vircap.main/
 - /iphone/io.vircap.main/
@@ -21,6 +20,7 @@ android:
   version: VARY
   icon: io.vircap.main.png
   website: https://vircap.io#deadLink
+  developerName: Vircap LLC
 iphone:
   appId: io.vircap.main
   idd: '1616529546'
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.47
   reviews: 9
   icon: io.vircap.main.jpg
+  developerName: Vircap LLC
 
 ---
 

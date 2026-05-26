@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://bit7wallet.com#deadLink
-developerName: TeсhСulture
 redirect_from:
 - /android/com.gexabyte.android.bitseven/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-18
   version: VARY
   icon: com.gexabyte.android.bitseven.png
+  developerName: TeсhСulture
 
 ---
 

@@ -15,7 +15,6 @@ social:
 features:
 - buyWithCC
 - tradeAlts
-developerName: UniWallet Ltd.
 redirect_from:
 - /android/com.uniwallet/
 - /iphone/org.uniwallet.UniWallet/
@@ -27,6 +26,8 @@ android:
   version: 1.1.0
   reviews: 2
   icon: com.uniwallet.png
+  website: https://uniwall.et/
+  developerName: UniWallet Ltd.
 iphone:
   appId: org.uniwallet.UniWallet
   idd: '6503896169'
@@ -36,6 +37,7 @@ iphone:
   version: 1.0.8
   reviews: 1
   icon: org.uniwallet.UniWallet.jpg
+  developerName: UniWallet Ltd.
 
 ---
 

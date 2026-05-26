@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.census.cx#deadLink
-developerName: Census Card
 redirect_from:
 - /android/com.census.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-10
   version: 1.2.10
   icon: com.census.wallet.jpg
+  developerName: Census Card
 
 ---
 

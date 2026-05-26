@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://jetfinex.com/
-developerName: BTCC KOREA
 redirect_from:
 - /android/com.btcckorea/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-07-01
   version: 1.0.19
   icon: com.btcckorea.png
+  developerName: BTCC KOREA
 
 ---
 

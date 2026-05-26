@@ -6,7 +6,6 @@ date: 2023-08-04
 authors:
 - danny
 website: http://betepal.com#deadLink
-developerName: Betepal
 redirect_from:
 - /android/com.betepal.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-05-27
   version: 4.3.0
   icon: com.betepal.wallet.png
+  developerName: Betepal
 
 ---
 

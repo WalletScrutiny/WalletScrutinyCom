@@ -23,18 +23,20 @@ android:
   users: 10000000
   released: 2014-11-01
   updated: 2026-05-18
-  version: 8.107.2
+  version: 8.108.1
   reviews: 1407
   icon: co.bitx.android.wallet.jpg
+  website: https://www.luno.com
   developerName: Luno Group Holdings Ltd
 iphone:
   appId: za.co.Bitx
   idd: 927362479
   released: 2014-11-03
-  updated: 2026-05-04
-  version: 8.107.0
+  updated: 2026-05-22
+  version: 8.108.2
   reviews: 3633
   icon: za.co.Bitx.jpg
+  website: https://www.luno.com
   developerName: Luno Pte Ltd
 
 ---

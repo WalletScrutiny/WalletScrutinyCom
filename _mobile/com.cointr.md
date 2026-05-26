@@ -2,6 +2,7 @@
 wsId: coinTR
 title: "CoinTR |\_Bitcoin & Crypto"
 verdict: custodial
+meta: ok
 date: 2023-08-19
 authors:
 - danny
@@ -18,8 +19,8 @@ android:
   appId: com.cointr
   users: 100000
   released: 2022-08-17
-  updated: 2026-05-08
-  version: 3.28.0
+  updated: 2026-05-20
+  version: 3.29.0
   reviews: 9
   icon: com.cointr.jpg
   meta: ok

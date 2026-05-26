@@ -2,6 +2,7 @@
 wsId: pionex
 title: Pionex - Crypto Trading Bot
 verdict: custodial
+meta: ok
 date: 2021-09-03
 authors:
 - danny
@@ -14,11 +15,12 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-11-18
-  updated: 2026-05-19
-  version: 3.2.3.0
+  updated: 2026-05-22
+  version: 3.2.3.3
   reviews: 560
   icon: com.pionex.client.jpg
   meta: ok
+  website: https://www.pionex.com
   developerName: Pionex
 iphone:
   appId: org.pionex

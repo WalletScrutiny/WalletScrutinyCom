@@ -24,8 +24,9 @@ android:
   version: 3.7.1
   reviews: 16
   icon: xbo.mobile.app.png
-  twitter: XboOfficial
+  website: https://www.xbo.com/
   developerName: Metafortune LTD
+  twitter: XboOfficial
 iphone:
   appId: xbo.mobile.app
   idd: '1638748643'

@@ -8,7 +8,6 @@ authors:
 website: https://enuts.cash
 social:
 - https://t.me/eNutsWallet
-developerName: Elliptica
 appCountry: us
 redirect_from:
 - /iphone/xyz.elliptica.enuts/
@@ -20,6 +19,7 @@ iphone:
   version: 0.3.0
   reviews: 1
   icon: xyz.elliptica.enuts.jpg
+  developerName: Elliptica
 
 ---
 

@@ -10,7 +10,6 @@ twitter: AmmerCards
 features:
 - companion
 - nfc
-developerName: Ammer Technologies AG
 redirect_from:
 - /android/ammer.wallet/
 - /iphone/io.trustody.wallet/
@@ -23,6 +22,7 @@ android:
   reviews: 1
   icon: ammer.wallet.png
   website: https://ammer.cards/
+  developerName: Ammer Technologies AG
 iphone:
   appId: io.trustody.wallet
   idd: '1599698329'
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: io.trustody.wallet.jpg
   website: https://ammer.cards
+  developerName: Ammer Technologies AG
 
 ---
 

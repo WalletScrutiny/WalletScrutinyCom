@@ -2,6 +2,7 @@
 wsId: spednByFlexa
 title: SPEDN by Flexa
 verdict: nosendreceive
+meta: ok
 date: 2025-11-26
 authors:
 - danny
@@ -21,6 +22,7 @@ android:
   reviews: 118
   icon: com.spedn.spedn.png
   meta: ok
+  website: https://spedn.io
   developerName: Flexa
 iphone:
   appId: com.spedn.spedn

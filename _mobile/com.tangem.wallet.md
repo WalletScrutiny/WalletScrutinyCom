@@ -24,13 +24,13 @@ android:
   released: 2018-10-24
   updated: 2026-05-19
   version: 5.37.5
-  reviews: 1747
+  reviews: 1751
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   verdict: sourceavailable
   website: https://tangem.com
-  repository: https://github.com/tangem/tangem-app-android
   developerName: Tangem
+  repository: https://github.com/tangem/tangem-app-android
 iphone:
   appId: com.tangem.Tangem
   idd: 1354868448

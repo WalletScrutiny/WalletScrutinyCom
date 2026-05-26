@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-02-20
 website: https://avacus.cc
-developerName: SOWAKA PTE.LTD.
 redirect_from:
 - /android/io.sowaka.avacus/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2025-12-18
   version: 7.11.0
   icon: io.sowaka.avacus.png
+  developerName: SOWAKA PTE.LTD.
 
 ---
 

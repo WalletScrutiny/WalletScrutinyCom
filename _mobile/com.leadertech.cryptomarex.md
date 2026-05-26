@@ -3,7 +3,6 @@ title: cryptomarex
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: leader ruvuna
 redirect_from:
 - /android/com.leadertech.cryptomarex/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-12
   version: 1.0.0
   icon: com.leadertech.cryptomarex.png
+  developerName: leader ruvuna
 
 ---
 

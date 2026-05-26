@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://k-pap.com/
-developerName: BLUERIVER BANK
 redirect_from:
 - /android/com.kpapwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-06
   version: 1.0.3
   icon: com.kpapwallet.png
+  developerName: BLUERIVER BANK
 
 ---
 

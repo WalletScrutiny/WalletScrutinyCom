@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.cryptoplatz.ch#deadLink
-developerName: Crypto Platz
 redirect_from:
 - /android/com.cryptoplatz.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-05
   version: 1.0.0
   icon: com.cryptoplatz.app.png
+  developerName: Crypto Platz
 
 ---
 

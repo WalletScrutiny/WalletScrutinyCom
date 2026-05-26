@@ -3,7 +3,6 @@ title: Crypto Exchange
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: shahid soft
 redirect_from:
 - /android/crypto.exchange3.shahidsoft/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-12
   version: 1.0.2
   icon: crypto.exchange3.shahidsoft.jpg
+  developerName: shahid soft
 
 ---
 

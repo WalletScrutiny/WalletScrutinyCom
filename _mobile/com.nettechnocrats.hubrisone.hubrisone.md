@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: http://www.hubrisone.com
-developerName: HubrisOne Technologies
 redirect_from:
 - /android/com.nettechnocrats.hubrisone.hubrisone/
 android:
@@ -15,6 +14,7 @@ android:
   version: 2.1.6
   reviews: 8
   icon: com.nettechnocrats.hubrisone.hubrisone.png
+  developerName: HubrisOne Technologies
 
 ---
 

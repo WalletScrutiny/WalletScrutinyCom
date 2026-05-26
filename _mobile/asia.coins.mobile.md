@@ -2,6 +2,7 @@
 wsId: coinsph
 title: 'Coins: Buy Crypto & Pay Wallet'
 verdict: custodial
+meta: ok
 date: 2020-10-12
 authors:
 - leo
@@ -20,8 +21,8 @@ android:
   appId: asia.coins.mobile
   users: 10000000
   released: 2014-10-01
-  updated: 2026-05-20
-  version: 7.9.29.5
+  updated: 2026-05-21
+  version: 7.9.30.2
   reviews: 553
   icon: asia.coins.mobile.png
   meta: ok

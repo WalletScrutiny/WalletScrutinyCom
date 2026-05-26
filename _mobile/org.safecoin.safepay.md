@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/safecoinproject/
 - https://www.linkedin.com/company/safecoins/
 - https://www.youtube.com/c/Safecoin
-developerName: SafeCoin
 redirect_from:
 - /android/org.safecoin.safepay/
 android:
@@ -23,6 +22,7 @@ android:
   version: 7.2.8
   reviews: 5
   icon: org.safecoin.safepay.png
+  developerName: SafeCoin
 
 ---
 

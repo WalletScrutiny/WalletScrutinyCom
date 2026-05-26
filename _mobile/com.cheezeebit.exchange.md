@@ -6,7 +6,6 @@ date: 2025-11-13
 authors:
 - danny
 website: https://cheezeebit.com/
-developerName: Cheezeebit Global Limited
 redirect_from:
 - /android/com.cheezeebit.exchange/
 android:
@@ -15,6 +14,8 @@ android:
   updated: 2026-05-14
   version: 1.3.5
   icon: com.cheezeebit.exchange.png
+  website: https://cheezeebit.com/
+  developerName: Cheezeebit Global Limited
 
 ---
 

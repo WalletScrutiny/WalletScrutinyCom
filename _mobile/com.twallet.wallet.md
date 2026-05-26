@@ -3,7 +3,6 @@ title: TSC Asset
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: clambiz
 redirect_from:
 - /android/com.twallet.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-13
   version: 0.22.0
   icon: com.twallet.wallet.jpg
+  developerName: clambiz
 
 ---
 

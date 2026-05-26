@@ -6,7 +6,6 @@ date: 2021-09-16
 authors:
 - leo
 website: https://hotcoin.com/
-developerName: Hotcoin
 redirect_from:
 - /android/com.pro.hot/
 android:
@@ -17,6 +16,7 @@ android:
   version: 6.1.3
   reviews: 32
   icon: com.pro.hot.png
+  developerName: Hotcoin
 
 ---
 

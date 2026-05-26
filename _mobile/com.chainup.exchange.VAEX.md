@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/vaex2022/
 - https://t.me/Vaex_Exchange
 - https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw
-developerName: VAEX
 redirect_from:
 - /android/com.chainup.exchange.VAEX/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2023-02-02
   version: 5.6.5_push_v2
   icon: com.chainup.exchange.VAEX.png
+  developerName: VAEX
 
 ---
 

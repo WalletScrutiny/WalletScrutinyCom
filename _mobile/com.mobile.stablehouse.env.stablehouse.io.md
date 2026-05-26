@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-07-03
 website: https://www.stablehouse.com
-developerName: Stablehouse
 redirect_from:
 - /android/com.mobile.stablehouse.env.stablehouse.io/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-10-06
   version: 1.1.5
   icon: com.mobile.stablehouse.env.stablehouse.io.png
+  developerName: Stablehouse
 
 ---
 

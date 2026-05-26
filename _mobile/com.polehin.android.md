@@ -9,7 +9,6 @@ website: https://coinbox.org
 twitter: polehincom
 social:
 - https://www.facebook.com/polehincom
-developerName: BW DEV
 redirect_from:
 - /bitcoinwallet/
 - /com.polehin.android/
@@ -24,6 +23,7 @@ android:
   version: 3.7.4
   reviews: 843
   icon: com.polehin.android.png
+  developerName: BW DEV
 
 ---
 

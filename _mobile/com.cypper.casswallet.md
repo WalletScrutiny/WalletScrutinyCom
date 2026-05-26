@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: http://www.cashlesstoken.com#deadLink
-developerName: Chrixtopher Design
 redirect_from:
 - /android/com.cypper.casswallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-12-07
   version: 2.0.7.6
   icon: com.cypper.casswallet.png
+  developerName: Chrixtopher Design
 
 ---
 

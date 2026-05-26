@@ -1,7 +1,7 @@
 ---
 title: 'Ghost Wallet: Crypto Bitcoin'
 verdict: nosource
-meta: fewusers
+meta: ok
 date: 2026-04-23
 authors:
 - danny
@@ -9,16 +9,17 @@ website: https://test.ghostpoket.pro
 twitter: Ghost_Wallet_
 social:
 - https://www.instagram.com/ghost.wallet
-developerName: GhostWallet Global
 redirect_from:
 - /android/pro.ghostpoket.app/
 android:
   appId: pro.ghostpoket.app
-  users: 500
+  users: 1000
   released: 2025-06-21
   updated: 2026-01-15
   version: 1.1.5
   icon: pro.ghostpoket.app.png
+  website: https://test.ghostpoket.pro
+  developerName: GhostWallet Global
 
 ---
 

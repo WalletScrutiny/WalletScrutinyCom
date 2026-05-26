@@ -17,6 +17,7 @@ android:
   updated: 2026-03-10
   version: 4.1.2
   icon: com.coinrepublic.app.png
+  website: https://www.coinrepublic.com.au/
   developerName: Coin Republic Pty Ltd
 iphone:
   appId: com.coinrepublic.app

@@ -15,7 +15,6 @@ features:
 - buyWithCC
 - ln
 - multiSig
-developerName: Bitaroo
 redirect_from:
 - /android/au.com.bitaroo.express/
 - /iphone/au.com.bitaroo.express/
@@ -26,6 +25,7 @@ android:
   version: 3.4.1
   icon: au.com.bitaroo.express.png
   website: https://www.bitaroo.com.au
+  developerName: Bitaroo
 iphone:
   appId: au.com.bitaroo.express
   idd: '6444825898'
@@ -36,6 +36,7 @@ iphone:
   reviews: 24
   icon: au.com.bitaroo.express.jpg
   website: https://www.bitaroo.com.au/
+  developerName: Bitaroo
 
 ---
 

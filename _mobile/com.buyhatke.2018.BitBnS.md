@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/bitbnsinc
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
-developerName: Buyhatke Internet Private Limited
 appCountry: in
 redirect_from:
 - /iphone/com.buyhatke.2018.BitBnS/
@@ -23,6 +22,7 @@ iphone:
   version: 6.1.5
   reviews: 965
   icon: com.buyhatke.2018.BitBnS.jpg
+  developerName: Buyhatke Internet Private Limited
 
 ---
 

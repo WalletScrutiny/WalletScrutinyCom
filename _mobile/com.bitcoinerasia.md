@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-03-18
 website: http://bitcoiner.asia
-developerName: FIRD0US & FREED0M.1
 redirect_from:
 - /android/com.bitcoinerasia/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2016-11-25
   version: 1.0.18
   icon: com.bitcoinerasia.png
+  developerName: FIRD0US & FREED0M.1
 
 ---
 

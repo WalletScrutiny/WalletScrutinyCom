@@ -21,8 +21,8 @@ android:
   appId: com.avaxwallet
   users: 500000
   released: 2022-08-30
-  updated: 2026-05-13
-  version: 1.0.30
+  updated: 2026-05-20
+  version: 1.0.31
   reviews: 138
   icon: com.avaxwallet.png
   website: http://core.app

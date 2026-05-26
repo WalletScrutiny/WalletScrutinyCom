@@ -2,6 +2,7 @@
 wsId: tokocrypto
 title: 'Tokocrypto: Buy Bitcoin Crypto'
 verdict: custodial
+meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -21,9 +22,10 @@ android:
   released: 2020-10-19
   updated: 2026-05-13
   version: 2.33.0
-  reviews: 56329
+  reviews: 56306
   icon: com.binance.cloud.tokocrypto.png
   meta: ok
+  website: https://www.tokocrypto.com
   developerName: Tokocrypto
 iphone:
   appId: com.binanceCloudtoko.binance

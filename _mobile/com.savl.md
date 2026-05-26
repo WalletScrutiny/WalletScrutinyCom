@@ -13,7 +13,6 @@ features:
 - fingerprint
 - multiAccount
 - tradeAlts
-developerName: Unity Software FZE
 appCountry: ru
 redirect_from:
 - /android/com.savl/
@@ -27,6 +26,7 @@ android:
   reviews: 207
   icon: com.savl.png
   website: https://unitywallet.com
+  developerName: Unity Software FZE
 iphone:
   appId: com.savl.savlapp
   idd: 1369912925
@@ -36,6 +36,7 @@ iphone:
   reviews: 278
   icon: com.savl.savlapp.jpg
   website: https://www.unitywallet.com
+  developerName: Unity Software FZE
 
 ---
 

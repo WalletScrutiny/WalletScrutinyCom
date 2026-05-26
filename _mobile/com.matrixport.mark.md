@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: cn
   released: 2019-10-23
-  updated: 2026-05-15
-  version: 3.8.5
+  updated: 2026-05-22
+  version: 3.8.6
   reviews: 870
   icon: com.matrixport.mark.png
   website: https://invest.matrixport.com

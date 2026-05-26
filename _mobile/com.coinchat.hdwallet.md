@@ -6,7 +6,6 @@ date: 2024-04-03
 authors:
 - danny
 website: http://www.coinchat.im#deadLink
-developerName: Biliao Foundation Ltd.
 redirect_from:
 - /android/com.coinchat.hdwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2018-10-15
   version: '0.9'
   icon: com.coinchat.hdwallet.png
+  developerName: Biliao Foundation Ltd.
 
 ---
 

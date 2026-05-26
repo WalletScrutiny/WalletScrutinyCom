@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UCkMwcEkn0F7jvcSeHngwrZw
 - https://www.linkedin.com/company/goodpayglobal
 - https://t.me/goodpayglobal
-developerName: Vaisen
 redirect_from:
 - /android/io.goodpayglobal.wallet/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2023-09-19
   version: 1.0.23
   icon: io.goodpayglobal.wallet.png
+  developerName: Vaisen
 
 ---
 

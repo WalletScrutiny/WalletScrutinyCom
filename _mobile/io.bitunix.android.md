@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/bitunix
 - https://www.facebook.com/bitunix
 - https://www.instagram.com/bitunix.official
-developerName: Bitunix
 redirect_from:
 - /android/io.bitunix.android/
 android:
@@ -23,6 +22,7 @@ android:
   version: 2024.0905.9712 (d802d97a)
   reviews: 34
   icon: io.bitunix.android.png
+  developerName: Bitunix
 
 ---
 

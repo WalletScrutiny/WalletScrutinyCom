@@ -3,7 +3,6 @@ title: BTCKR
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: BTCChina OÜ
 redirect_from:
 - /android/com.btckr/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-11
   version: '1.0'
   icon: com.btckr.jpg
+  developerName: BTCChina OÜ
 
 ---
 

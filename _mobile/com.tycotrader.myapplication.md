@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://tycotrader.com
-developerName: Tyco Security Network
 redirect_from:
 - /android/com.tycotrader.myapplication/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-03-19
   version: 3.9.2
   icon: com.tycotrader.myapplication.png
+  developerName: Tyco Security Network
 
 ---
 

@@ -3,7 +3,6 @@ title: Bitfrost - Crypto wallet
 verdict: wip
 meta: removed
 date: 2025-06-06
-developerName: Bitfrost Wallet
 redirect_from:
 - /android/co.bitfrost/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-02
   version: '1.0'
   icon: co.bitfrost.png
+  developerName: Bitfrost Wallet
 
 ---
 

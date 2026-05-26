@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-30
 website: https://higherprof.pro#deadLink
-developerName: R. MASHA SOLUTIONS
 redirect_from:
 - /android/com.higherprof/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-12
   version: '1.0'
   icon: com.higherprof.jpg
+  developerName: R. MASHA SOLUTIONS
 
 ---
 

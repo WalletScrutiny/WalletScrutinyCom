@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://s4782b2ec.app-ads-txt.com
-developerName: Hard Working Man
 redirect_from:
 - /android/com.wB4UGLOBAL_1/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-16
   version: 1.2.92
   icon: com.wB4UGLOBAL_1.png
+  developerName: Hard Working Man
 
 ---
 

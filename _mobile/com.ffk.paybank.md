@@ -6,7 +6,6 @@ date: 2023-11-02
 authors:
 - danny
 website: https://www.paybank.com#deadLink
-developerName: UAB Livil Pay
 redirect_from:
 - /android/com.ffk.paybank/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-06-21
   version: 2.6.6
   icon: com.ffk.paybank.png
+  developerName: UAB Livil Pay
 
 ---
 

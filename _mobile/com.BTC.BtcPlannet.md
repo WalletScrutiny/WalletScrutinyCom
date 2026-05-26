@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://btcplannet.net#deadLink
-developerName: Qalab Abbas
 redirect_from:
 - /android/com.BTC.BtcPlannet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-20
   version: '5.0'
   icon: com.BTC.BtcPlannet.png
+  developerName: Qalab Abbas
 
 ---
 

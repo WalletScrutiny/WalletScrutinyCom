@@ -6,7 +6,6 @@ date: 2023-06-03
 authors:
 - danny
 website: https://www.legatow.com#deadLink
-developerName: Tempow Project
 redirect_from:
 - /android/com.tempow.legatow/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-01-30
   version: 1.0.3
   icon: com.tempow.legatow.png
+  developerName: Tempow Project
 
 ---
 

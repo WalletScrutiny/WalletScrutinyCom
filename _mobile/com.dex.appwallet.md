@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
-developerName: appstoreafrica
 redirect_from:
 - /android/com.dex.appwallet/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-08-15
   version: 1.0.8
   icon: com.dex.appwallet.png
+  developerName: appstoreafrica
 
 ---
 

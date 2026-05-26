@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://vault.coinex.com
-developerName: Viabtc Technology Limited
 appCountry: us
 redirect_from:
 - /iphone/com.coinex.vault/
@@ -16,6 +15,7 @@ iphone:
   version: 2.21.0
   reviews: 3
   icon: com.coinex.vault.jpg
+  developerName: Viabtc Technology Limited
 
 ---
 

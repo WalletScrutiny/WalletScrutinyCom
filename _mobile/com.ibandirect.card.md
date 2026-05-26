@@ -6,7 +6,6 @@ meta: removed
 date: 2026-02-02
 authors:
 - danny
-developerName: Ibandirect
 redirect_from:
 - /android/com.ibandirect.card/
 - /iphone/com.ibandirect.cards/
@@ -19,6 +18,7 @@ android:
   version: 1.9.2
   icon: com.ibandirect.card.png
   website: https://coincardi.com
+  developerName: Ibandirect
 iphone:
   appId: com.ibandirect.cards
   idd: 1538001175
@@ -29,6 +29,7 @@ iphone:
   reviews: 1
   icon: com.ibandirect.cards.jpg
   website: https://ibandirect.com/
+  developerName: Ibandirect
 
 ---
 

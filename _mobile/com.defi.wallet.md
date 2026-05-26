@@ -29,7 +29,7 @@ android:
   released: 2020-05-11
   updated: 2026-02-11
   version: 2.50.0
-  reviews: 3750
+  reviews: 3751
   icon: com.defi.wallet.png
   website: https://www.crypto.com
   developerName: Crypto.com Onchain Wallet

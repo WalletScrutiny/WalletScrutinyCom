@@ -9,7 +9,6 @@ website: https://profittradingapp.com?utm_source=kucoin_gp
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forkucoin/
 android:
@@ -20,6 +19,8 @@ android:
   version: 8.1.1
   reviews: 19
   icon: com.profittrading.forkucoin.png
+  website: https://profittradingapp.com?utm_source=kucoin_gp
+  developerName: ProfitTradingApp
 
 ---
 

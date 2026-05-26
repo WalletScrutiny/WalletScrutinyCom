@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://arzif.com/
 twitter: Arzifofficial
-developerName: Arzifdev
 redirect_from:
 - /android/com.arzif.android/
 android:
@@ -18,6 +17,8 @@ android:
   version: '2'
   reviews: 21
   icon: com.arzif.android.jpg
+  website: https://arzif.com/
+  developerName: Arzifdev
 
 ---
 

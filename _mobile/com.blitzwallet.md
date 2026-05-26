@@ -1,5 +1,5 @@
 ---
-title: Blitz Wallet
+title: 'Blitz: Bitcoin Payments Wallet'
 verdict: sourceavailable
 meta: ok
 date: 2025-11-03
@@ -17,16 +17,17 @@ features:
 - liquid
 - ln
 - multiAccount
-developerName: Blitz Wallet
 redirect_from:
 - /android/com.blitzwallet/
 android:
   appId: com.blitzwallet
   users: 1000
   released: 2025-09-29
-  updated: 2026-05-01
-  version: 0.7.9
+  updated: 2026-05-23
+  version: 0.7.10
   icon: com.blitzwallet.png
+  website: https://blitzwalletapp.com/
+  developerName: Blitz Wallet
 
 ---
 

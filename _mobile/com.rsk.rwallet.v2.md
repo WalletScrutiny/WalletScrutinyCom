@@ -33,8 +33,8 @@ iphone:
   version: 2.0.1
   reviews: 5
   icon: com.rsk.rwallet.reactnative.jpg
-  twitter: rsksmart
   developerName: IOV Labs S.A
+  twitter: rsksmart
 
 ---
 

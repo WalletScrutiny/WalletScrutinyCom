@@ -9,7 +9,6 @@ authors:
 twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
-developerName: Alvexo
 redirect_from:
 - /android/com.alvexo/
 - /iphone/com.alvexo.mobile.tt/
@@ -23,6 +22,7 @@ android:
   reviews: 21
   icon: com.alvexo.png
   website: https://www.alvexo.com#deadLink
+  developerName: Alvexo
 iphone:
   appId: com.alvexo.mobile.tt
   idd: '1403847666'
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: com.alvexo.mobile.tt.jpg
   website: https://www.alvexo.eu
+  developerName: Alvexo
 
 ---
 

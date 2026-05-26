@@ -20,9 +20,10 @@ redirect_from:
 android:
   appId: com.weareblox.app
   users: 100000
-  updated: 2026-04-08
+  updated: 2026-05-22
   version: 6.8.2
   icon: com.weareblox.app.png
+  website: https://weareblox.com
   developerName: BLOX (Weareblox) - bitcoin & other crypto currency
 iphone:
   appId: com.weareblox.app

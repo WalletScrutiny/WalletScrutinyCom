@@ -5,7 +5,6 @@ meta: removed
 date: 2023-06-02
 authors:
 - danny
-developerName: WorldMiningClub
 redirect_from:
 - /android/com.project.wmc/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2020-03-25
   version: 1.0.4
   icon: com.project.wmc.png
+  developerName: WorldMiningClub
 
 ---
 

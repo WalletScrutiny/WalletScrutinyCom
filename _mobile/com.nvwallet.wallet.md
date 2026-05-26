@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2025-11-09
 website: https://www.nvxowallet.com/
-developerName: Aegea Holdings
 redirect_from:
 - /android/com.nvwallet.wallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-04-18
   version: 0.1.1
   icon: com.nvwallet.wallet.png
+  website: https://www.nvxowallet.com/
+  developerName: Aegea Holdings
 
 ---
 

@@ -10,7 +10,6 @@ website: https://jaxx.io
 twitter: jaxx_io
 social:
 - https://www.facebook.com/JaxxWallet
-developerName: Decentral Inc.
 redirect_from:
 - /jaxx/
 - /com.liberty.jaxx/
@@ -26,6 +25,7 @@ android:
   version: 3.0.0
   reviews: 428
   icon: com.liberty.jaxx.png
+  developerName: Decentral Inc.
 iphone:
   appId: com.liberty.jaxx
   idd: 1435383184
@@ -34,6 +34,7 @@ iphone:
   version: 3.0.0
   reviews: 1566
   icon: com.liberty.jaxx.jpg
+  developerName: Decentral Inc.
 
 ---
 

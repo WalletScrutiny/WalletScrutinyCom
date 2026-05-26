@@ -7,7 +7,6 @@ date: 2026-05-02
 authors:
 - danny
 twitter: guap_app
-developerName: Future Money Labs
 redirect_from:
 - /android/com.useguap.android.rn/
 - /iphone/com.useguap.ios.rn/
@@ -15,10 +14,11 @@ android:
   appId: com.useguap.android.rn
   users: 1000
   released: 2025-12-05
-  updated: 2026-05-12
-  version: 0.9.0
+  updated: 2026-05-21
+  version: 0.9.2
   icon: com.useguap.android.rn.png
   website: https://useguap.com
+  developerName: Future Money Labs
 iphone:
   appId: com.useguap.ios.rn
   idd: '6744361725'
@@ -29,6 +29,7 @@ iphone:
   reviews: 1
   icon: com.useguap.ios.rn.jpg
   website: https://useguap.com/
+  developerName: Future Money Labs
 
 ---
 

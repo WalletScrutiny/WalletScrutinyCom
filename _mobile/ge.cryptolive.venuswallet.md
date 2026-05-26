@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-03-21
 website: https://www.cryptolive.ge#deadLink
-developerName: CryptoLive OÜ
 redirect_from:
 - /android/ge.cryptolive.venuswallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-03-10
   version: 1.0.15
   icon: ge.cryptolive.venuswallet.png
+  developerName: CryptoLive OÜ
 
 ---
 

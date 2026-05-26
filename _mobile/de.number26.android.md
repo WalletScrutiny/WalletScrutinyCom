@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/n26
 - https://www.linkedin.com/company/n26
 - https://www.youtube.com/@n26bank
-developerName: N26 AG
 redirect_from:
 - /android/de.number26.android/
 - /iphone/de.no26.Number26/
@@ -25,6 +24,7 @@ android:
   reviews: 2171
   icon: de.number26.android.png
   website: https://n26.com/?utm_source=appstore&utm_medium=description
+  developerName: N26 AG
 iphone:
   appId: de.no26.Number26
   idd: '956857223'
@@ -35,6 +35,7 @@ iphone:
   reviews: 11416
   icon: de.no26.Number26.jpg
   website: https://n26.com/en-eu?utm_source=appstore&utm_medium=description
+  developerName: N26 AG
 
 ---
 

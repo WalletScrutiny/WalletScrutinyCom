@@ -9,16 +9,16 @@ twitter: Safeheron
 social:
 - https://www.linkedin.com/company/safeheron
 - https://github.com/safeheron
-developerName: Safeheron
 redirect_from:
 - /android/com.safeheron.app.sg/
 android:
   appId: com.safeheron.app.sg
   users: 1000
   released: 2022-07-17
-  updated: 2026-05-08
-  version: 1.6.6
+  updated: 2026-05-22
+  version: 1.6.7
   icon: com.safeheron.app.sg.png
+  developerName: Safeheron
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://cryptomus.com/
 twitter: cryptomus
-developerName: Padel West S.A.
 redirect_from:
 - /android/com.cryptomus.bundle/
 android:
@@ -18,6 +17,8 @@ android:
   version: 2.9.1(188)
   reviews: 71
   icon: com.cryptomus.bundle.jpg
+  website: https://cryptomus.com/
+  developerName: Padel West S.A.
 
 ---
 

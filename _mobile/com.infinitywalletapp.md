@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-30
 website: https://ifwallet.com.br#deadLink
-developerName: Portal Infinity
 redirect_from:
 - /android/com.infinitywalletapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-23
   version: '3.0'
   icon: com.infinitywalletapp.png
+  developerName: Portal Infinity
 
 ---
 

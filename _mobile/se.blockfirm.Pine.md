@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2024-07-10
 website: https://pine.pm
-developerName: Pine Enterprises AB
 redirect_from:
 - /iphone/se.blockfirm.Pine/
 iphone:
@@ -15,6 +14,7 @@ iphone:
   version: 1.3.6
   reviews: 3
   icon: se.blockfirm.Pine.jpg
+  developerName: Pine Enterprises AB
 
 ---
 

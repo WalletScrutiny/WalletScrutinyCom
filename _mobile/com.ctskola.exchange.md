@@ -11,7 +11,6 @@ social:
 - https://t.me/+ubgDH4F2B-ZiMDVl
 - https://www.facebook.com/CTSKOLA
 - https://www.instagram.com/ctskola
-developerName: CTSKOLA
 redirect_from:
 - /android/com.ctskola.exchange/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2022-05-25
   version: '1.0'
   icon: com.ctskola.exchange.png
+  developerName: CTSKOLA
 
 ---
 

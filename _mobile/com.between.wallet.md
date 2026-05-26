@@ -9,7 +9,6 @@ website: https://betweenbits.io/
 social:
 - https://www.linkedin.com/company/betweenbits
 - https://medium.com/@betweenbits
-developerName: BetweenBits Inc.
 redirect_from:
 - /android/com.between.wallet/
 android:
@@ -19,6 +18,8 @@ android:
   updated: 2026-04-24
   version: 1.2.1
   icon: com.between.wallet.png
+  website: https://betweenbits.io/
+  developerName: BetweenBits Inc.
 
 ---
 

@@ -11,7 +11,6 @@ twitter: modeapp_
 social:
 - https://www.linkedin.com/company/modeapp-com
 - https://www.facebook.com/themodeapp
-developerName: Fibermode Limited
 appCountry: gb
 redirect_from:
 - /android/com.fibermode.mode.android/
@@ -24,6 +23,7 @@ android:
   version: 3.0.9
   reviews: 187
   icon: com.fibermode.mode.android.png
+  developerName: Fibermode Limited
 iphone:
   appId: com.fibermode.Mode-Wallet
   idd: 1483284435
@@ -32,6 +32,7 @@ iphone:
   version: 5.7.3
   reviews: 1018
   icon: com.fibermode.Mode-Wallet.jpg
+  developerName: Fibermode Limited
 
 ---
 

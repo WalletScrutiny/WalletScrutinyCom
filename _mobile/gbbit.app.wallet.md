@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: https://www.gbbit.com
-developerName: GBBIT Technologies Private Limited
 redirect_from:
 - /android/gbbit.app.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-05-07
   version: '10.61'
   icon: gbbit.app.wallet.png
+  developerName: GBBIT Technologies Private Limited
 
 ---
 

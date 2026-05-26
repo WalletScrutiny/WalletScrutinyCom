@@ -19,6 +19,7 @@ android:
   version: 1.3.14
   reviews: 2266
   icon: com.papaya.blackcatcard.png
+  website: https://blackcatcard.com
   developerName: PAPAYA LTD
 iphone:
   appId: com.papaya.blackcatcard

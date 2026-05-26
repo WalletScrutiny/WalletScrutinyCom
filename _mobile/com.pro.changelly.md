@@ -10,7 +10,6 @@ twitter: changelly_team
 social:
 - https://www.facebook.com/changellyteam
 - https://www.reddit.com/r/Changelly
-developerName: PRO – Cryptocurrency Trading Platform
 redirect_from:
 - /android/com.pro.changelly/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2025-01-15
   version: 3.3.3
   icon: com.pro.changelly.png
+  website: https://pro.changelly.com/
+  developerName: PRO – Cryptocurrency Trading Platform
 
 ---
 

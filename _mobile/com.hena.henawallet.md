@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-03
 website: http://www.hena.io
-developerName: 해나플랫폼
 redirect_from:
 - /android/com.hena.henawallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: '29'
   reviews: 14
   icon: com.hena.henawallet.png
+  developerName: 해나플랫폼
 
 ---
 

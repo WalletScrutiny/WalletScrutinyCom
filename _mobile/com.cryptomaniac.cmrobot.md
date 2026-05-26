@@ -6,7 +6,6 @@ date: 2023-05-22
 authors:
 - danny
 website: https://www.cmrobot.id#deadLink
-developerName: PT. Eunomia Internasional Grup
 redirect_from:
 - /android/com.cryptomaniac.cmrobot/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-09-11
   version: 2.2.1
   icon: com.cryptomaniac.cmrobot.png
+  developerName: PT. Eunomia Internasional Grup
 
 ---
 

@@ -10,7 +10,6 @@ social:
 - https://www.youtube.com/channel/UC9hIY0-u6Lt1f1NHIt7VF_w
 - https://www.instagram.com/Bmkoin
 - https://www.linkedin.com/company/bmkoin
-developerName: Bmkoin Digital Technology LLP
 redirect_from:
 - /android/com.oxiinc.bmkoin/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2020-11-25
   version: '1.1'
   icon: com.oxiinc.bmkoin.png
+  developerName: Bmkoin Digital Technology LLP
 
 ---
 

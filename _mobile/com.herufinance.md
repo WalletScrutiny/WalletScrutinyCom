@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-30
 website: https://heru.finance#deadLink
-developerName: Tykhe Block Ventures LLC
 redirect_from:
 - /android/com.herufinance/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-12-05
   version: 1.2.7
   icon: com.herufinance.png
+  developerName: Tykhe Block Ventures LLC
 
 ---
 

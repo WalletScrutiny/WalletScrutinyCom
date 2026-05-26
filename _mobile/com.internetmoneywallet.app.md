@@ -23,6 +23,7 @@ android:
   version: '2.7'
   reviews: 88
   icon: com.internetmoneywallet.app.png
+  website: https://internetmoney.io/
   developerName: Internet Money
 iphone:
   appId: com.internetmoneywallet.app

@@ -7,7 +7,6 @@ date: 2026-05-20
 authors:
 - danny
 twitter: OpenBlockWallet
-developerName: JXJL Inc.
 redirect_from:
 - /android/com.openblock.wallet/
 - /iphone/com.dssq.obwallet/
@@ -19,6 +18,7 @@ android:
   version: 2.2.6
   icon: com.openblock.wallet.png
   website: https://openblock.com
+  developerName: JXJL Inc.
 iphone:
   appId: com.dssq.obwallet
   idd: '6449669390'
@@ -28,6 +28,7 @@ iphone:
   version: 2.2.6
   reviews: 2
   icon: com.dssq.obwallet.jpg
+  developerName: JXJL Inc.
 
 ---
 

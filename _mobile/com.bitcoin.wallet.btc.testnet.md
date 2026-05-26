@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-28
 website: https://bitcoin-wallet.flycricket.io/
-developerName: InvoVN Solutions
 redirect_from:
 - /android/com.bitcoin.wallet.btc.testnet/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 1
   icon: com.bitcoin.wallet.btc.testnet.png
+  developerName: InvoVN Solutions
 
 ---
 

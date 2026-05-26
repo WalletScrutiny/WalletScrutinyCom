@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://apluswallet.com
-developerName: Sarnado s.r.o.
 redirect_from:
 - /android/com.sarnado.apluswallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-01-04
   version: 1.0.0
   icon: com.sarnado.apluswallet.png
+  developerName: Sarnado s.r.o.
 
 ---
 

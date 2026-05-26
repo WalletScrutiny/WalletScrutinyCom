@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://payus.io/
-developerName: Worldex Inc USA
 redirect_from:
 - /android/com.worldex.payus/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-02-05
   version: '1.1'
   icon: com.worldex.payus.png
+  developerName: Worldex Inc USA
 
 ---
 

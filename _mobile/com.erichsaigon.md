@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://www.erichsaigon.com#deadLink
-developerName: Erich Saigon Trading LLc
 redirect_from:
 - /android/com.erichsaigon/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-25
   version: '1.3'
   icon: com.erichsaigon.jpg
+  developerName: Erich Saigon Trading LLc
 
 ---
 

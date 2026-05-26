@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://niuupeak.com#deadLink
 twitter: niuupeak
-developerName: Coins Deal
 redirect_from:
 - /android/com.niuupeak.app/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2020-07-02
   version: '1.0'
   icon: com.niuupeak.app.png
+  developerName: Coins Deal
 
 ---
 

@@ -27,15 +27,15 @@ android:
   appId: piuk.blockchain.android
   users: 10000000
   released: 2013-02-01
-  updated: 2026-05-19
-  version: 202605.2.4
-  reviews: 6353
+  updated: 2026-05-25
+  version: 202605.2.5
+  reviews: 6350
   icon: piuk.blockchain.android.png
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   website: https://www.blockchain.com
+  developerName: Blockchain.com
   bugbounty: https://hackerone.com/blockchain
   twitter: blockchain
-  developerName: Blockchain.com
 iphone:
   appId: com.rainydayapps.Blockchain
   idd: 493253309
@@ -45,9 +45,9 @@ iphone:
   reviews: 183917
   icon: com.rainydayapps.Blockchain.jpg
   website: https://www.blockchain.com/wallet
+  developerName: Blockchain
   repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
   twitter: Blockchain
-  developerName: Blockchain
 
 ---
 

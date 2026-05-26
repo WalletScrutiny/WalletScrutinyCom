@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/aax-atom-asset-exchange
 - https://www.facebook.com/AAXExchange
 - https://www.reddit.com/r/AAXExchange
-developerName: AAX
 redirect_from:
 - /android/com.aax.exchange/
 android:
@@ -22,6 +21,7 @@ android:
   version: 3.3.7
   reviews: 89
   icon: com.aax.exchange.png
+  developerName: AAX
 
 ---
 

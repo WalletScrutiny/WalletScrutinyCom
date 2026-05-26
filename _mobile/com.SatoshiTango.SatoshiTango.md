@@ -10,7 +10,6 @@ authors:
 twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
-developerName: Satoshi Tango
 redirect_from:
 - /com.SatoshiTango.SatoshiTango/
 - /android/com.SatoshiTango.SatoshiTango/
@@ -24,6 +23,7 @@ android:
   reviews: 45
   icon: com.SatoshiTango.SatoshiTango.png
   website: http://www.satoshitango.com
+  developerName: Satoshi Tango
 iphone:
   appId: com.SatoshiTango.SatoshiTango
   idd: '1002555958'
@@ -34,6 +34,7 @@ iphone:
   reviews: 2
   icon: com.SatoshiTango.SatoshiTango.jpg
   website: https://www.satoshitango.com/
+  developerName: Satoshi Tango
 
 ---
 

@@ -10,7 +10,6 @@ website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 features:
 - foss
-developerName: GreenAddress IT Ltd
 redirect_from:
 - /com.greenaddress.abcore/
 - /posts/com.greenaddress.abcore/
@@ -23,6 +22,7 @@ android:
   icon: com.greenaddress.abcore.png
   alternativeStores:
   - fdroid
+  developerName: GreenAddress IT Ltd
 
 ---
 

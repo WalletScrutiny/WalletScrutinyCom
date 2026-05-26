@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-05-26
 website: https://www.bitcoinsuisse.com/
-developerName: Bitcoin Suisse AG
 redirect_from:
 - /android/com.bitcoinsuisse.pay/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2023-06-05
   version: 1.3.1
   icon: com.bitcoinsuisse.pay.png
+  website: https://www.bitcoinsuisse.com/
+  developerName: Bitcoin Suisse AG
 
 ---
 

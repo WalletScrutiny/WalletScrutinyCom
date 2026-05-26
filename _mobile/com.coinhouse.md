@@ -7,16 +7,17 @@ authors:
 - danny
 website: https://www.coinhouse.com
 twitter: CoinhouseHQ
-developerName: Coinhouse
 redirect_from:
 - /android/com.coinhouse/
 android:
   appId: com.coinhouse
   users: 100000
   released: 2025-01-13
-  updated: 2026-05-12
-  version: 5.4.0
+  updated: 2026-05-21
+  version: 5.5.0
   icon: com.coinhouse.png
+  website: https://www.coinhouse.com
+  developerName: Coinhouse
 
 ---
 

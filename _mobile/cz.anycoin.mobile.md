@@ -14,7 +14,6 @@ features:
 - ln
 - tradeAlts
 - buyWithCC
-developerName: MP Developers s.r.o.
 redirect_from:
 - /android/cz.anycoin.mobile/
 - /iphone/cz.anycoin.mobile/
@@ -26,6 +25,8 @@ android:
   version: 1.32.30
   reviews: 1
   icon: cz.anycoin.mobile.png
+  website: https://www.anycoin.cz
+  developerName: MP Developers s.r.o.
 iphone:
   appId: cz.anycoin.mobile
   idd: '1616670336'
@@ -35,6 +36,7 @@ iphone:
   version: 1.32.32
   reviews: 90
   icon: cz.anycoin.mobile.jpg
+  developerName: MP Developers s.r.o.
 
 ---
 

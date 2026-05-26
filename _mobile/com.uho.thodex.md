@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-10
 website: https://www.thodex.com/tr
-developerName: Thodex Inc
 redirect_from:
 - /android/com.uho.thodex/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.10
   reviews: 56
   icon: com.uho.thodex.png
+  developerName: Thodex Inc
 
 ---
 

@@ -23,8 +23,8 @@ android:
   icon: com.oduwamultiwallet.png
   meta: removed
   website: https://www.oduwacoin.io/
-  repository: https://github.com/ODUWAX/Android
   developerName: ODUWA BLOCKCHAIN SOLUTION
+  repository: https://github.com/ODUWAX/Android
 iphone:
   appId: com.oduwatrustwallet.ios
   idd: '1580339930'

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.coinfib.com#deadLink
-developerName: Coinfib
 redirect_from:
 - /android/com.coinfib.coinfibmobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-01
   version: 1.0.4
   icon: com.coinfib.coinfibmobile.png
+  developerName: Coinfib
 
 ---
 

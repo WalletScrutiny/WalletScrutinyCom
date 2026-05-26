@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-01-14
 website: https://www.free2ex.com
-developerName: FREE2EX Platform
 redirect_from:
 - /android/free2ex.ticktrader.terminal/
 android:
@@ -15,6 +14,8 @@ android:
   version: 4.10.4.7877 (2024.09.20)
   reviews: 26
   icon: free2ex.ticktrader.terminal.png
+  website: https://www.free2ex.com
+  developerName: FREE2EX Platform
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: cobowallet
 title: Cobo Wallet
 verdict: nosource
+meta: ok
 date: 2021-10-01
 authors:
 - leo
@@ -39,6 +40,7 @@ iphone:
   reviews: 6
   icon: cobo.wallet.jpg
   meta: ok
+  website: https://cobo.com
   developerName: Cobo Global Limited
 
 ---

@@ -5,7 +5,6 @@ meta: removed
 date: 2024-10-28
 authors:
 - danny
-developerName: Ehijihu
 redirect_from:
 - /android/com.asymony.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-01
   version: 1.0.8
   icon: com.asymony.wallet.png
+  developerName: Ehijihu
 
 ---
 

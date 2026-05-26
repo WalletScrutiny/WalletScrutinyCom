@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://www.bitwala.com
 twitter: nuribanking
-developerName: Bitwala
 redirect_from:
 - /android/com.bitwala.app/
 - /iphone/com.bitwala.app/
@@ -21,6 +20,8 @@ android:
   version: 4.2.2
   reviews: 3555
   icon: com.bitwala.app.png
+  website: https://www.bitwala.com
+  developerName: Bitwala
 iphone:
   appId: com.bitwala.app
   idd: 1454003161
@@ -30,6 +31,7 @@ iphone:
   version: 4.2.2
   reviews: 4106
   icon: com.bitwala.app.jpg
+  developerName: Bitwala
 
 ---
 

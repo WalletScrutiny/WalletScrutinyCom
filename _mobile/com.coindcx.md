@@ -10,7 +10,6 @@ twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
-developerName: CoinDCX Official
 redirect_from:
 - /android/com.coindcx/
 android:
@@ -21,6 +20,7 @@ android:
   version: 6.34.0003
   reviews: 111
   icon: com.coindcx.png
+  developerName: CoinDCX Official
 
 ---
 

@@ -8,7 +8,6 @@ authors:
 - leo
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android
-developerName: inbitcoin
 redirect_from:
 - /android/it.inbitcoin.altana/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2024-09-15
   version: VARY
   icon: it.inbitcoin.altana.png
+  developerName: inbitcoin
 
 ---
 

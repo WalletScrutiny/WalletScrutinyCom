@@ -10,7 +10,6 @@ twitter: bitazzaofficial
 social:
 - https://www.linkedin.com/company/bitazza
 - https://www.facebook.com/bitazza
-developerName: Bitazza Company Limited
 appCountry: th
 redirect_from:
 - /android/com.bitazza.android/
@@ -20,10 +19,11 @@ android:
   users: 500000
   released: 2020-09-29
   updated: 2026-05-18
-  version: 4.8.0
-  reviews: 2512
+  version: 4.8.1
+  reviews: 2511
   icon: com.bitazza.android.png
   website: http://bitazza.com/
+  developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.ios
   idd: '1476944844'
@@ -33,6 +33,7 @@ iphone:
   reviews: 2388
   icon: com.bitazza.ios.jpg
   website: https://www.bitazza.com
+  developerName: Bitazza Company Limited
 
 ---
 

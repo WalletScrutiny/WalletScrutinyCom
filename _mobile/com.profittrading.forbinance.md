@@ -9,7 +9,6 @@ website: https://profittradingapp.com?utm_source=binance_gp
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forbinance/
 android:
@@ -20,6 +19,8 @@ android:
   version: 18.1.3
   reviews: 123
   icon: com.profittrading.forbinance.png
+  website: https://profittradingapp.com?utm_source=binance_gp
+  developerName: ProfitTradingApp
 
 ---
 

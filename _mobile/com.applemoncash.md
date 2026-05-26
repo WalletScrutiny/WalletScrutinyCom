@@ -7,7 +7,6 @@ date: 2025-11-12
 authors:
 - danny
 twitter: lemonapp_ar
-developerName: Lemon Cash Inc
 redirect_from:
 - /android/com.applemoncash/
 - /iphone/org.reactjs.native.lemon.appLemonCash/
@@ -19,6 +18,7 @@ android:
   reviews: 13
   icon: com.applemoncash.png
   website: https://lemon.me
+  developerName: Lemon Cash Inc
 iphone:
   appId: org.reactjs.native.lemon.appLemonCash
   idd: '1499421511'
@@ -29,6 +29,7 @@ iphone:
   reviews: 4069
   icon: org.reactjs.native.lemon.appLemonCash.jpg
   website: https://www.lemon.me/
+  developerName: Lemon Cash Inc
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://starmera.com#deadLink
-developerName: Starmera
 redirect_from:
 - /android/com.starmera.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-03-15
   version: 1.2.0
   icon: com.starmera.app.png
+  developerName: Starmera
 
 ---
 

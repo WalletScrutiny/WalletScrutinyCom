@@ -11,7 +11,6 @@ social:
 - https://t.me/x7exchange
 - https://www.youtube.com/c/XigluteCoinXGC
 - https://www.instagram.com/x7exchange
-developerName: X7 Exchange
 redirect_from:
 - /android/com.books.x7exchange/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2023-01-12
   version: '2.3'
   icon: com.books.x7exchange.png
+  developerName: X7 Exchange
 
 ---
 

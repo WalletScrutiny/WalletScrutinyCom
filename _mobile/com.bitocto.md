@@ -10,7 +10,6 @@ twitter: bitoctoexchange
 social:
 - https://www.linkedin.com/company/bitocto
 - https://www.facebook.com/Bitocto
-developerName: Bitocto
 redirect_from:
 - /android/com.bitocto/
 android:
@@ -21,6 +20,7 @@ android:
   version: '3.23'
   reviews: 6
   icon: com.bitocto.png
+  developerName: Bitocto
 
 ---
 

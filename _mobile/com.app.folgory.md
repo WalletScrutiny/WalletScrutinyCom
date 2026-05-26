@@ -8,7 +8,6 @@ authors:
 website: https://folgory.com#deadLink
 social:
 - https://folgory.com#deadLink
-developerName: Folgory
 redirect_from:
 - /android/com.app.folgory/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2019-08-14
   version: '1.5'
   icon: com.app.folgory.png
+  developerName: Folgory
 
 ---
 

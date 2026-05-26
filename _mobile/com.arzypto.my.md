@@ -9,7 +9,6 @@ website: https://arzypto.com
 social:
 - https://www.linkedin.com/company/arzypto
 - https://t.me/Arzypto
-developerName: Arzypto
 redirect_from:
 - /android/com.arzypto.my/
 android:
@@ -20,6 +19,7 @@ android:
   version: 2.4.8
   reviews: 6
   icon: com.arzypto.my.png
+  developerName: Arzypto
 
 ---
 

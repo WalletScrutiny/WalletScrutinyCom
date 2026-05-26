@@ -8,7 +8,6 @@ authors:
 website: https://www.maxsoftlab.com#deadLink
 social:
 - https://findex-fx.com#deadLink
-developerName: MAXSOFTLAB
 redirect_from:
 - /android/com.maxsoftlab.findextrader/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2023-12-25
   version: 1.3.14GMS
   icon: com.maxsoftlab.findextrader.png
+  developerName: MAXSOFTLAB
 
 ---
 

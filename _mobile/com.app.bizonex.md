@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://bizonex.com/
-developerName: Bizonex
 redirect_from:
 - /android/com.app.bizonex/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-12
   version: 1.0.13
   icon: com.app.bizonex.png
+  developerName: Bizonex
 
 ---
 

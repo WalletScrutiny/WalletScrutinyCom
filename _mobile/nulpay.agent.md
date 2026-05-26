@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://nulpay.com
-developerName: Nulpay
 redirect_from:
 - /android/nulpay.agent/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-02
   version: '1'
   icon: nulpay.agent.jpg
+  developerName: Nulpay
 
 ---
 

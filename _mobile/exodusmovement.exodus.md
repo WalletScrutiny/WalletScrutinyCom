@@ -12,7 +12,6 @@ twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
 - https://github.com/exodusmovement
-developerName: Exodus Movement, Inc.
 redirect_from:
 - /android/exodusmovement.exodus/
 - /iphone/exodus-movement.exodus/
@@ -20,10 +19,12 @@ android:
   appId: exodusmovement.exodus
   users: 5000000
   released: 2019-06-06
-  updated: 2026-05-11
+  updated: 2026-05-25
   version: 26.5.13
-  reviews: 8624
+  reviews: 8629
   icon: exodusmovement.exodus.png
+  website: https://exodus.com/mobile
+  developerName: Exodus Movement, Inc.
 iphone:
   appId: exodus-movement.exodus
   idd: 1414384820
@@ -32,6 +33,7 @@ iphone:
   version: 26.5.13
   reviews: 35658
   icon: exodus-movement.exodus.jpg
+  developerName: Exodus Movement, Inc.
 
 ---
 

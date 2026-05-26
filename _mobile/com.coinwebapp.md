@@ -14,7 +14,6 @@ social:
 features:
 - buyWithCC
 - tradeAlts
-developerName: Coinweb
 redirect_from:
 - /android/com.coinwebapp/
 - /iphone/io.coinweb.wallet/
@@ -26,6 +25,8 @@ android:
   version: 1.2.6
   reviews: 4
   icon: com.coinwebapp.png
+  website: https://coinweb.io
+  developerName: Coinweb
 iphone:
   appId: io.coinweb.wallet
   idd: '6443891261'
@@ -35,6 +36,7 @@ iphone:
   version: 1.2.6
   reviews: 4
   icon: io.coinweb.wallet.jpg
+  developerName: Coinweb
 
 ---
 

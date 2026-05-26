@@ -6,7 +6,6 @@ date: 2023-07-02
 authors:
 - danny
 website: https://cex-trade.io
-developerName: Cex-Trade
 redirect_from:
 - /android/app.cex_trade.io/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.1'
   reviews: 7
   icon: app.cex_trade.io.png
+  developerName: Cex-Trade
 
 ---
 

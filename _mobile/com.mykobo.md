@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-07
 website: https://www.mykobo.co
-developerName: MyKobo
 redirect_from:
 - /android/com.mykobo/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-07-04
   version: 2.0.15
   icon: com.mykobo.png
+  developerName: MyKobo
 
 ---
 

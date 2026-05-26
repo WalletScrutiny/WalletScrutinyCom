@@ -7,7 +7,6 @@ date: 2026-04-13
 authors:
 - danny
 twitter: jiggle_app
-developerName: Appia Solutions DMCC
 redirect_from:
 - /android/com.jiggle.wallet/
 - /iphone/com.jiggle.cryptowallet/
@@ -20,6 +19,7 @@ android:
   reviews: 37
   icon: com.jiggle.wallet.jpg
   website: https://jiggle.app
+  developerName: Appia Solutions DMCC
 iphone:
   appId: com.jiggle.cryptowallet
   idd: '6446089702'
@@ -29,6 +29,7 @@ iphone:
   version: 1.4.8
   reviews: 291
   icon: com.jiggle.cryptowallet.jpg
+  developerName: Appia Solutions DMCC
 
 ---
 

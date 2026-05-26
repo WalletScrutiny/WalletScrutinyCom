@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://myeazywallet.com#deadLink
-developerName: Eazy Technology Solutions Sdn Bhd
 redirect_from:
 - /android/com.application.myeazywallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-10-10
   version: 1.0.3
   icon: com.application.myeazywallet.jpg
+  developerName: Eazy Technology Solutions Sdn Bhd
 
 ---
 

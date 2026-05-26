@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://chankura.com
-developerName: Omniverse
 redirect_from:
 - /android/com.barong.chankura/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-02
   version: 1.0.0
   icon: com.barong.chankura.png
+  developerName: Omniverse
 
 ---
 

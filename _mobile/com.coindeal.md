@@ -11,7 +11,6 @@ twitter: coindealcom
 social:
 - https://www.linkedin.com/company/coindealcom
 - https://www.facebook.com/coindealcom
-developerName: CoinDeal Limited
 redirect_from:
 - /android/com.coindeal/
 - /iphone/pl.icoindeal.CoinDeal/
@@ -22,6 +21,7 @@ android:
   updated: 2020-08-18
   version: 1.0.8
   icon: com.coindeal.png
+  developerName: CoinDeal Limited
 iphone:
   appId: pl.icoindeal.CoinDeal
   idd: 1482619122
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.6
   reviews: 1
   icon: pl.icoindeal.CoinDeal.jpg
+  developerName: CoinDeal Limited
 
 ---
 

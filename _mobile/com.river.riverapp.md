@@ -19,9 +19,9 @@ android:
   appId: com.river.riverapp
   users: 50000
   released: 2023-10-20
-  updated: 2026-05-15
-  version: 7.54.7
-  reviews: 303
+  updated: 2026-05-21
+  version: 7.62.2
+  reviews: 304
   icon: com.river.riverapp.png
   website: https://river.com/
   developerName: River Financial

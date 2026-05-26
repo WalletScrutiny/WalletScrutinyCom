@@ -10,7 +10,6 @@ twitter: FinTokenOffic
 social:
 - https://www.facebook.com/FinTokenGlobal
 - https://www.youtube.com/watch?v=5PuaSsLbt2U
-developerName: WEBX SDN BHD
 redirect_from:
 - /android/com.digitalasset.fintoken/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2026-03-24
   version: 2.0.1
   icon: com.digitalasset.fintoken.png
+  website: https://www.fintoken.pro/
+  developerName: WEBX SDN BHD
 
 ---
 

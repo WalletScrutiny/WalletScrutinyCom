@@ -6,7 +6,6 @@ date: 2023-05-22
 authors:
 - danny
 website: https://crypterum.com#deadLink
-developerName: Crypterum Exchange Service
 redirect_from:
 - /android/com.crypterum.crypterum/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-23
   version: 0.1.13
   icon: com.crypterum.crypterum.png
+  developerName: Crypterum Exchange Service
 
 ---
 

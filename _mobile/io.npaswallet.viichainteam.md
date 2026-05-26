@@ -9,7 +9,6 @@ website: https://www.npasglobal.com/
 twitter: OCL890
 social:
 - https://t.me/npasglobal
-developerName: NPAS Wallet
 redirect_from:
 - /android/io.npaswallet.viichainteam/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2022-07-07
   version: 3.0.2
   icon: io.npaswallet.viichainteam.png
+  developerName: NPAS Wallet
 
 ---
 

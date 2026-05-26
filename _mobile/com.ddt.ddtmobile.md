@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://www.ddtwallet.com#deadLink
-developerName: DeepDive Digital Technologies International Inc.
 redirect_from:
 - /android/com.ddt.ddtmobile/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-03-24
   version: 1.1.2
   icon: com.ddt.ddtmobile.png
+  developerName: DeepDive Digital Technologies International Inc.
 
 ---
 

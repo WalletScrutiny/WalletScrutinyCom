@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2025-11-10
 website: https://coinrabbit.io/
-developerName: CoinRabbit
 redirect_from:
 - /android/com.coinrabbit/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-01-23
   version: 1.0.15
   icon: com.coinrabbit.png
+  website: https://coinrabbit.io/
+  developerName: CoinRabbit
 
 ---
 

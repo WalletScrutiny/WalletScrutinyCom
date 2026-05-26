@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/tabdealplatform
 - https://t.me/tabdealplatform
 - https://www.linkedin.com/company/tabdealplatform
-developerName: Tabdeal Platform
 redirect_from:
 - /android/com.tabdeal/
 android:
@@ -23,6 +22,8 @@ android:
   version: 6.1.2
   reviews: 177
   icon: com.tabdeal.png
+  website: https://tabdeal.org
+  developerName: Tabdeal Platform
 
 ---
 

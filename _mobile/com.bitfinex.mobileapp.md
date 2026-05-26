@@ -13,7 +13,6 @@ social:
 - https://www.reddit.com/r/bitfinex
 features:
 - ln
-developerName: Bitfinex
 redirect_from:
 - /android/com.bitfinex.mobileapp/
 - /iphone/com.bitfinex.bfxprod/
@@ -26,6 +25,7 @@ android:
   reviews: 76
   icon: com.bitfinex.mobileapp.png
   website: https://www.bitfinex.com
+  developerName: Bitfinex
 iphone:
   appId: com.bitfinex.bfxprod
   idd: 1436383182
@@ -35,6 +35,7 @@ iphone:
   reviews: 173
   icon: com.bitfinex.bfxprod.jpg
   website: https://www.bitfinex.com/mobile-trading/
+  developerName: Bitfinex
 
 ---
 

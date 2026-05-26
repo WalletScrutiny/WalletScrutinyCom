@@ -2,6 +2,7 @@
 wsId: dzengiComInvesting
 title: 'Dzengi.com: Stock Investing'
 verdict: custodial
+meta: ok
 date: 2025-07-18
 authors:
 - danny
@@ -15,7 +16,7 @@ android:
   released: 2020-12-10
   updated: 2026-05-13
   version: 2.20.2
-  reviews: 285
+  reviews: 288
   icon: com.currency.exchange.investsmart.png
   meta: ok
   website: https://dzengi.com/

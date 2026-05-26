@@ -3,7 +3,6 @@ title: Xcoinance
 verdict: wip
 meta: removed
 date: 2024-12-31
-developerName: xcoinance Capital
 redirect_from:
 - /android/chukstem.xcoinance/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-05
   version: 1.1.3
   icon: chukstem.xcoinance.jpg
+  developerName: xcoinance Capital
 
 ---
 

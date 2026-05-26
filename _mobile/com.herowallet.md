@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-29
 website: https://purchasa.com/
-developerName: Purchasa Pty Ltd
 redirect_from:
 - /android/com.herowallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-24
   version: 1.1.1
   icon: com.herowallet.png
+  developerName: Purchasa Pty Ltd
 
 ---
 

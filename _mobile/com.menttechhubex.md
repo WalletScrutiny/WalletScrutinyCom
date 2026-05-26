@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: https://exchange.e-dome.net/trading/ltcbtc#deadLink
-developerName: Edomian
 redirect_from:
 - /android/com.menttechhubex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-06-04
   version: '3.0'
   icon: com.menttechhubex.png
+  developerName: Edomian
 
 ---
 

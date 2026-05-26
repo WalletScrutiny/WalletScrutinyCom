@@ -3,7 +3,6 @@ title: Epixel Wallet
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Epixel Solutions Pvt Ltd
 redirect_from:
 - /android/com.epixelwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-01-07
   version: 1.3.1
   icon: com.epixelwallet.png
+  developerName: Epixel Solutions Pvt Ltd
 
 ---
 

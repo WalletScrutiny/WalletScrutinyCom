@@ -9,7 +9,6 @@ website: https://inanomo.com/
 social:
 - https://vk.com/inanomo
 - https://www.facebook.com/Inanomo/
-developerName: Inanomo Technologies LLC
 redirect_from:
 - /android/com.inanomo.market/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2022-08-23
   version: 1.1.0
   icon: com.inanomo.market.png
+  developerName: Inanomo Technologies LLC
 
 ---
 

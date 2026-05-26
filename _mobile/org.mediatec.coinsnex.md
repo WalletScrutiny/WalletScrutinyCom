@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.mediatec.org
-developerName: Mediatec Software
 redirect_from:
 - /android/org.mediatec.coinsnex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-07-19
   version: 1.0.0
   icon: org.mediatec.coinsnex.png
+  developerName: Mediatec Software
 
 ---
 

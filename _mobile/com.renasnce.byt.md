@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-14
 website: https://renasnce.com
-developerName: Renasnce Studios
 redirect_from:
 - /android/com.renasnce.byt/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-26
   version: 0.30.29
   icon: com.renasnce.byt.png
+  developerName: Renasnce Studios
 
 ---
 

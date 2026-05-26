@@ -14,7 +14,6 @@ social:
 features:
 - buyWithCC
 - tradeAlts
-developerName: Digital Assets d.o.o
 redirect_from:
 - /android/com.bitcoinstore.bitcoinstorewallet/
 - /iphone/com.bitcoinstore.bitcoinstorewallet/
@@ -26,6 +25,7 @@ android:
   version: 1.0.54
   icon: com.bitcoinstore.bitcoinstorewallet.png
   website: https://bitstore.net
+  developerName: Digital Assets d.o.o
 iphone:
   appId: com.bitcoinstore.bitcoinstorewallet
   idd: '1661281314'
@@ -35,6 +35,7 @@ iphone:
   version: 1.0.26
   reviews: 13
   icon: com.bitcoinstore.bitcoinstorewallet.jpg
+  developerName: Digital Assets d.o.o
 
 ---
 

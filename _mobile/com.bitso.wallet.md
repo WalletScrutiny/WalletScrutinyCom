@@ -18,10 +18,11 @@ android:
   appId: com.bitso.wallet
   users: 10000000
   released: 2018-02-19
-  updated: 2026-05-13
+  updated: 2026-05-25
   version: 4.16.0
   reviews: 309
   icon: com.bitso.wallet.png
+  website: https://bitso.com/app
   developerName: Bitso
 iphone:
   appId: com.bitso.wallet

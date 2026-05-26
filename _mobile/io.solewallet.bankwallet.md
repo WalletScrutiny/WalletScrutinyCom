@@ -5,7 +5,6 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
-developerName: Blocktech Brew
 redirect_from:
 - /android/io.solewallet.bankwallet/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-01-18
   version: 0.26.3
   icon: io.solewallet.bankwallet.png
+  developerName: Blocktech Brew
 
 ---
 

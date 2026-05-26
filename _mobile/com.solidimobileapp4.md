@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://solidi.co
-developerName: Solidi Crypto Exchange
 redirect_from:
 - /android/com.solidimobileapp4/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-01-26
   version: '1.0'
   icon: com.solidimobileapp4.png
+  developerName: Solidi Crypto Exchange
 
 ---
 

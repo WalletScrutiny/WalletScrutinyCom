@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-02-13
 website: https://tmdstudios.wordpress.com/
-developerName: TMD Studios
 redirect_from:
 - /android/com.tmdstudios.cryptoledgerkotlin/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-27
   version: VARY
   icon: com.tmdstudios.cryptoledgerkotlin.png
+  developerName: TMD Studios
 
 ---
 

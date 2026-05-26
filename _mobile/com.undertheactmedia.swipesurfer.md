@@ -3,7 +3,6 @@ title: Swipe Surfer
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Under The Act Media
 redirect_from:
 - /android/com.undertheactmedia.swipesurfer/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-08-31
   version: 1.0.2
   icon: com.undertheactmedia.swipesurfer.png
+  developerName: Under The Act Media
 
 ---
 

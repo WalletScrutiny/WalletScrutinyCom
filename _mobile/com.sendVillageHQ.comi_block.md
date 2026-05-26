@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-21
 website: https://comiblock.com#deadLink
-developerName: ComiBlock Capital
 redirect_from:
 - /android/com.sendVillageHQ.comi_block/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-27
   version: 1.1.6
   icon: com.sendVillageHQ.comi_block.png
+  developerName: ComiBlock Capital
 
 ---
 

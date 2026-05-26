@@ -9,7 +9,6 @@ twitter: OceanexOfficial
 social:
 - https://www.facebook.com/OceanExPROOfficial
 - https://www.reddit.com/r/OceanExOfficial
-developerName: OceanEx Limited
 redirect_from:
 - /android/com.ocean.exchange/
 - /iphone/pro.oceanex.exapp/
@@ -24,6 +23,7 @@ android:
   icon: com.ocean.exchange.png
   meta: removed
   website: https://oceanex.pro
+  developerName: OceanEx Limited
 iphone:
   appId: pro.oceanex.exapp
   idd: 1481311936
@@ -35,6 +35,7 @@ iphone:
   icon: pro.oceanex.exapp.jpg
   meta: obsolete
   website: https://oceanex.pro/
+  developerName: OceanEx Limited
 
 ---
 

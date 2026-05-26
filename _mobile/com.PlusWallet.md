@@ -7,7 +7,6 @@ date: 2025-11-12
 authors:
 - danny
 twitter: coldwalletapp
-developerName: Seekjazz Ventures Limited
 redirect_from:
 - /android/com.PlusWallet/
 - /iphone/com.PlusWallet/
@@ -20,6 +19,7 @@ android:
   reviews: 72
   icon: com.PlusWallet.png
   website: https://coldwallet.com/
+  developerName: Seekjazz Ventures Limited
 iphone:
   appId: com.PlusWallet
   idd: '6467651848'
@@ -29,6 +29,7 @@ iphone:
   version: '3.13'
   reviews: 40
   icon: com.PlusWallet.jpg
+  developerName: Seekjazz Ventures Limited
 
 ---
 

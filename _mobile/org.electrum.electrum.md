@@ -18,7 +18,6 @@ features:
 - ln
 - multiSig
 - segwit
-developerName: Electrum Technologies GmbH
 redirect_from:
 - /electrum/
 - /android/org.electrum.electrum/
@@ -32,6 +31,8 @@ android:
   icon: org.electrum.electrum.png
   alternativeStores:
   - fdroid
+  website: https://electrum.org
+  developerName: Electrum Technologies GmbH
 
 ---
 

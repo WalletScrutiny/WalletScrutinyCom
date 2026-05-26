@@ -6,7 +6,6 @@ date: 2023-12-19
 authors:
 - danny
 website: https://relampago.bigsun.xyz#deadLink
-developerName: fiatjaf
 redirect_from:
 - /android/xyz.bigsun.relampago/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2019-12-03
   version: VARY
   icon: xyz.bigsun.relampago.png
+  developerName: fiatjaf
 
 ---
 

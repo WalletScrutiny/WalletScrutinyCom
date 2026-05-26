@@ -20,10 +20,11 @@ android:
   appId: com.gemini.android.app
   users: 1000000
   released: 2018-12-10
-  updated: 2026-05-19
-  version: 26.518.1
-  reviews: 8539
+  updated: 2026-05-22
+  version: 26.522.0
+  reviews: 8545
   icon: com.gemini.android.app.png
+  website: https://www.gemini.com
   developerName: Gemini Space Station, Inc.
 iphone:
   appId: com.gemini.ios

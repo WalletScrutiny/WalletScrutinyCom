@@ -29,7 +29,6 @@ features:
 - ownLN
 - segwit
 - taproot
-developerName: Atlas 21 Inc.
 redirect_from:
 - /app.zeusln.zeus/
 - /posts/app.zeusln.zeus/
@@ -39,19 +38,23 @@ android:
   appId: app.zeusln.zeus
   users: 10000
   released: 2020-07-07
-  updated: 2026-05-05
-  version: 13.0.1
-  reviews: 38
+  updated: 2026-05-19
+  version: 13.0.2
+  reviews: 39
   icon: app.zeusln.zeus.png
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
+  website: https://zeusln.com
+  developerName: Atlas 21 Inc.
 iphone:
   appId: com.zeusln.zeus
   idd: 1456038895
   released: 2021-04-22
-  updated: 2026-05-07
+  updated: 2026-05-21
   version: v13.0.2
   reviews: 75
   icon: com.zeusln.zeus.jpg
+  website: https://zeusln.com
+  developerName: Atlas 21 Inc.
 
 ---
 

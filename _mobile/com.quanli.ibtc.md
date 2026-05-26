@@ -10,7 +10,6 @@ social:
 - https://www.instagram.com/ibtcex
 - http://t.me/ibtc_official
 - https://www.facebook.com/ibtcex
-developerName: iBTC Technology
 redirect_from:
 - /android/com.quanli.ibtc/
 - /iphone/com.iBTC.trade.hk/
@@ -22,6 +21,7 @@ android:
   version: 1.6.0
   icon: com.quanli.ibtc.png
   website: https://ibtc.com.hk
+  developerName: iBTC Technology
 iphone:
   appId: com.iBTC.trade.hk
   idd: '1489679343'
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.iBTC.trade.hk.jpg
   website: https://ibtc.com.hk/
+  developerName: iBTC Technology
 
 ---
 

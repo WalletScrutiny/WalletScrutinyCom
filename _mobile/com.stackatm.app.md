@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2026-01-14
 website: https://stackatm.com/
-developerName: Kalbas, Inc.
 redirect_from:
 - /android/com.stackatm.app/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.12.1
   reviews: 4
   icon: com.stackatm.app.png
+  website: https://stackatm.com/
+  developerName: Kalbas, Inc.
 
 ---
 

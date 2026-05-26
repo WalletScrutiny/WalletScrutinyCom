@@ -3,7 +3,6 @@ title: FETICK
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: WPP Studio
 redirect_from:
 - /android/uni.UNIDFF115B/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-25
   version: 1.0.0
   icon: uni.UNIDFF115B.png
+  developerName: WPP Studio
 
 ---
 

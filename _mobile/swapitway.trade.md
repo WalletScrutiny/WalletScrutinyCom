@@ -9,7 +9,6 @@ website: https://swapitway.com
 social:
 - https://www.facebook.com/swapitway
 - mailto:swapitway@gmail.com
-developerName: Nairance Limited
 redirect_from:
 - /android/swapitway.trade/
 android:
@@ -18,8 +17,10 @@ android:
   released: 2021-11-01
   updated: 2025-06-17
   version: '5'
-  reviews: 48
+  reviews: 49
   icon: swapitway.trade.jpg
+  website: https://swapitway.com
+  developerName: Nairance Limited
 
 ---
 

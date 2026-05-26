@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-16
 website: http://www.vaulty.pro
-developerName: CoinArmy
 redirect_from:
 - /android/com.vaultycrypto.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-10
   version: '1.2'
   icon: com.vaultycrypto.wallet.png
+  developerName: CoinArmy
 
 ---
 

@@ -10,7 +10,6 @@ twitter: bolt_global
 social:
 - https://www.linkedin.com/company/bolt-global
 - https://www.facebook.com/Global.Bolt
-developerName: Bolt Global
 redirect_from:
 - /android/com.bolt.pegasus/
 android:
@@ -21,6 +20,7 @@ android:
   version: 1.23.1
   reviews: 21
   icon: com.bolt.pegasus.png
+  developerName: Bolt Global
 
 ---
 

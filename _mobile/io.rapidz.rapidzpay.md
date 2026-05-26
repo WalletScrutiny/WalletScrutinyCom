@@ -22,10 +22,11 @@ android:
   appId: io.rapidz.rapidzpay
   users: 10000
   released: 2021-06-21
-  updated: 2026-04-28
-  version: 4.7.4
+  updated: 2026-05-22
+  version: 4.7.9
   reviews: 6
   icon: io.rapidz.rapidzpay.png
+  website: https://www.rapidz.io/
   developerName: Rapidz Pay Inc
 iphone:
   appId: io.rapidz.rapidzpayios

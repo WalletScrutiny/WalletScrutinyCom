@@ -12,7 +12,6 @@ social:
 features:
 - buyWithCC
 - tradeAlts
-developerName: CoinSpot
 appCountry: au
 redirect_from:
 - /android/com.coinspot.app/
@@ -23,9 +22,10 @@ android:
   released: 2020-10-07
   updated: 2026-04-13
   version: 3.10.2
-  reviews: 2196
+  reviews: 2197
   icon: com.coinspot.app.png
   website: https://www.coinspot.com.au
+  developerName: CoinSpot
 iphone:
   appId: com.coinspot.app
   idd: 1541949985
@@ -35,6 +35,7 @@ iphone:
   reviews: 44778
   icon: com.coinspot.app.jpg
   website: https://www.coinspot.com.au/
+  developerName: CoinSpot
 
 ---
 

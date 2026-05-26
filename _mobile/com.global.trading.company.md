@@ -6,7 +6,6 @@ date: 2021-11-04
 authors:
 - danny
 website: https://sites.google.com/view/globlacryptotrading/home
-developerName: Global Crypto Team
 redirect_from:
 - /android/com.global.trading.company/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-03-26
   version: '1.12'
   icon: com.global.trading.company.png
+  developerName: Global Crypto Team
 
 ---
 

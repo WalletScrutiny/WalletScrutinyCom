@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2023-06-03
 website: https://www.lmex.io/
-developerName: LMEX Limited
 redirect_from:
 - /android/mobile.lmex.io/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-04-28
   version: 1.18.0
   icon: mobile.lmex.io.png
+  website: https://www.lmex.io/
+  developerName: LMEX Limited
 
 ---
 

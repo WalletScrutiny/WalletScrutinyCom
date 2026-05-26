@@ -9,7 +9,6 @@ website: https://www.tigerwit.com#deadLink
 twitter: TigerWitGlobal
 social:
 - https://www.linkedin.com/company/tigerwit-group-
-developerName: TigerWit Limited
 redirect_from:
 - /android/com.tigerwit.forex/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2023-04-12
   version: 6.1.5
   icon: com.tigerwit.forex.png
+  developerName: TigerWit Limited
 
 ---
 

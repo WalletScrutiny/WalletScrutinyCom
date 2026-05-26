@@ -6,7 +6,6 @@ date: 2023-12-14
 authors:
 - danny
 website: https://copper.co
-developerName: COPPER TECHNOLOGIES (UK)
 appCountry: us
 redirect_from:
 - /iphone/co.copper.custody/
@@ -18,6 +17,8 @@ iphone:
   version: 2.6.597
   reviews: 4
   icon: co.copper.custody.jpg
+  website: https://copper.co
+  developerName: COPPER TECHNOLOGIES (UK)
 
 ---
 

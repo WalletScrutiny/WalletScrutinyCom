@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2025-11-10
 website: https://coinceeper.com/
-developerName: Taparam
 redirect_from:
 - /android/com.coinceeper.adl/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-05-11
   version: 1.0.46
   icon: com.coinceeper.adl.png
+  website: https://coinceeper.com/
+  developerName: Taparam
 
 ---
 

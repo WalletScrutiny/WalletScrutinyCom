@@ -14,7 +14,6 @@ features:
 - nfc
 - segwit
 - TOR
-developerName: aeonBTC
 redirect_from:
 - /android/github.aeonbtc.ibiswallet/
 android:
@@ -24,6 +23,7 @@ android:
   updated: 2026-03-06
   version: 2.2-beta
   reviews: 0
+  developerName: aeonBTC
 
 ---
 

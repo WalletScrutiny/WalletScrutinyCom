@@ -28,6 +28,7 @@ android:
   version: 3.1.0
   reviews: 38
   icon: defisuisse.thorwallet.png
+  website: http://thorwallet.org
   developerName: EMM Ventures AG
 iphone:
   appId: defisuisseag.thorwallet

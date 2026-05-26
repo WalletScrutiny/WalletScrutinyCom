@@ -3,7 +3,6 @@ title: 가상화폐쉐어서비스-올인비트,비트코인,가상화폐,암호
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: 앱스토리 컴퍼니
 redirect_from:
 - /android/kr.co.coin.be/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-23
   version: '1.0'
   icon: kr.co.coin.be.png
+  developerName: 앱스토리 컴퍼니
 
 ---
 

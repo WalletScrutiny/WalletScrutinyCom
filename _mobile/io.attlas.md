@@ -8,7 +8,6 @@ authors:
 website: https://atx.com.vn/
 social:
 - https://www.facebook.com/attlas.io/
-developerName: ATX GLOBAL
 redirect_from:
 - /android/io.attlas/
 android:
@@ -19,6 +18,8 @@ android:
   version: 3.6.1
   reviews: 5
   icon: io.attlas.png
+  website: https://atx.com.vn/
+  developerName: ATX GLOBAL
 
 ---
 

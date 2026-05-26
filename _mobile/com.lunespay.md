@@ -10,7 +10,6 @@ twitter: LunesPlatform
 social:
 - https://www.facebook.com/lunespay/
 - https://www.instagram.com/lunespay/
-developerName: Lunes Platform
 redirect_from:
 - /android/com.lunespay/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2021-08-10
   version: 1.0.7
   icon: com.lunespay.png
+  developerName: Lunes Platform
 
 ---
 

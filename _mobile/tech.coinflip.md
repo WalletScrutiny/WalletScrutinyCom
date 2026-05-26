@@ -20,10 +20,11 @@ android:
   appId: tech.coinflip
   users: 50000
   released: 2024-08-19
-  updated: 2026-04-16
-  version: 4.2.0
-  reviews: 93
+  updated: 2026-05-18
+  version: 4.3.0
+  reviews: 95
   icon: tech.coinflip.png
+  website: https://coinflip.tech/
   developerName: GPD Holdings LLC
 iphone:
   appId: tech.coinflip.CoinFlip

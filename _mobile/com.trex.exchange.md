@@ -6,7 +6,6 @@ date: 2024-05-07
 authors:
 - danny
 website: https://www.t-rex.exchange/usdt#deadLink
-developerName: T-Rex Global Enterprise
 redirect_from:
 - /android/com.trex.exchange/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-06-20
   version: 2.2.9
   icon: com.trex.exchange.png
+  developerName: T-Rex Global Enterprise
 
 ---
 

@@ -3,7 +3,6 @@ title: BITZAPP BITCOIN WALLET - BUY /
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Bitzapp
 redirect_from:
 - /android/com.bitzapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-08-11
   version: '1.5'
   icon: com.bitzapp.png
+  developerName: Bitzapp
 
 ---
 

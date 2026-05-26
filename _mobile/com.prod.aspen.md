@@ -6,7 +6,6 @@ date: 2025-08-29
 authors:
 - danny
 website: https://www.aspendigital.co/
-developerName: Aspen Digital
 redirect_from:
 - /android/com.prod.aspen/
 android:
@@ -16,6 +15,8 @@ android:
   updated: 2025-09-22
   version: 2.1.20
   icon: com.prod.aspen.png
+  website: https://www.aspendigital.co/
+  developerName: Aspen Digital
 
 ---
 

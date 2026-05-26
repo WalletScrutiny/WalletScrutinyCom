@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://bitjeem.com
-developerName: bitjeem
 redirect_from:
 - /android/com.bitjeem.android/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-12-03
   version: 1.11.0
   icon: com.bitjeem.android.png
+  developerName: bitjeem
 
 ---
 

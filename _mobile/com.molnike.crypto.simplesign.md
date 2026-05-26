@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-02-26
 website: https://github.com/openMolNike/Crypto-Apps
-developerName: Mol Nike
 redirect_from:
 - /android/com.molnike.crypto.simplesign/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2023-03-09
   version: '0.6'
   icon: com.molnike.crypto.simplesign.png
+  website: https://github.com/openMolNike/Crypto-Apps
+  developerName: Mol Nike
 
 ---
 

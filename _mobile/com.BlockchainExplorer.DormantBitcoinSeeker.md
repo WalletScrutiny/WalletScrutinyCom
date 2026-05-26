@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-09
 authors:
 - danny
-developerName: Blockchain Explorer
 redirect_from:
 - /android/com.BlockchainExplorer.DormantBitcoinSeeker/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.0.9
   reviews: 2
   icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
+  developerName: Blockchain Explorer
 
 ---
 

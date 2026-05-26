@@ -3,7 +3,6 @@ title: BitCoreEx
 verdict: wip
 meta: stale
 date: 2026-05-21
-developerName: VALLIDGE CONSULTING PTE. LTD.
 redirect_from:
 - /android/com.bitcoreex.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2024-07-05
   version: 1.1.2
   icon: com.bitcoreex.app.png
+  developerName: VALLIDGE CONSULTING PTE. LTD.
 
 ---
 

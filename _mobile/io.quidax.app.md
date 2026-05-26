@@ -14,7 +14,6 @@ social:
 features:
 - fingerprint
 - tradeAlts
-developerName: Quidax Technologies
 redirect_from:
 - /android/io.quidax.app/
 - /iphone/io.quidax.pro/
@@ -22,11 +21,12 @@ android:
   appId: io.quidax.app
   users: 50000
   released: 2025-04-21
-  updated: 2026-04-16
-  version: 1.2.10
+  updated: 2026-05-22
+  version: 1.2.14
   reviews: 12
   icon: io.quidax.app.png
   website: https://www.quidax.io/
+  developerName: Quidax Technologies
 iphone:
   appId: io.quidax.pro
   idd: '6742988930'
@@ -36,6 +36,7 @@ iphone:
   version: 1.1.15
   reviews: 580
   icon: io.quidax.pro.jpg
+  developerName: Quidax Technologies
 
 ---
 

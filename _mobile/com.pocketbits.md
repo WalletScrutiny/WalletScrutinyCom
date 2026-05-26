@@ -10,7 +10,6 @@ twitter: PocketBitsIndia
 social:
 - https://www.linkedin.com/company/pocketbits.in
 - https://www.facebook.com/Pocketbits.in
-developerName: Defacto Technologies Pvt Ltd
 redirect_from:
 - /android/com.pocketbits/
 android:
@@ -21,6 +20,8 @@ android:
   version: 1.3.7
   reviews: 6
   icon: com.pocketbits.png
+  website: https://pocketbits.in/
+  developerName: Defacto Technologies Pvt Ltd
 
 ---
 

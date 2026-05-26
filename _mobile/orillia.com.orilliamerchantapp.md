@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.orillia.be
-developerName: Orillia BVBA
 redirect_from:
 - /android/orillia.com.orilliamerchantapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2015-06-03
   version: '0.18'
   icon: orillia.com.orilliamerchantapp.png
+  developerName: Orillia BVBA
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://tw.yahoo.com/
-developerName: BobiEX
 redirect_from:
 - /android/com.bobi.maintl/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-06-17
   version: 0.2.3
   icon: com.bobi.maintl.png
+  developerName: BobiEX
 
 ---
 

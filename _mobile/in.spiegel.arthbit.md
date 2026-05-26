@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/arthbitexchange
 - https://www.linkedin.com/company/arthbitexchange
 - https://t.me/ArthBitExchange
-developerName: ARTHBIT PRIVATE LIMITED
 redirect_from:
 - /android/in.spiegel.arthbit/
 android:
@@ -23,6 +22,7 @@ android:
   updated: 2021-11-23
   version: 1.0.1
   icon: in.spiegel.arthbit.png
+  developerName: ARTHBIT PRIVATE LIMITED
 
 ---
 

@@ -31,8 +31,8 @@ iphone:
   reviews: 0
   icon: dev.com.gleecexchange.app.jpg
   website: https://gleecbtc.com
-  twitter: GleecOfficial
   developerName: Gleec-BTC OU
+  twitter: GleecOfficial
 
 ---
 

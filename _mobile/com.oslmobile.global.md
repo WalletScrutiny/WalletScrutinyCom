@@ -11,7 +11,6 @@ social:
 - https://discord.com/invite/oslglobal
 - https://www.linkedin.com/company/osldotcom
 - https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A
-developerName: BC Technology (HK) Limited
 redirect_from:
 - /android/com.oslmobile.global/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2026-05-15
   version: 1.10.14
   icon: com.oslmobile.global.png
+  website: https://osl.com
+  developerName: BC Technology (HK) Limited
 
 ---
 

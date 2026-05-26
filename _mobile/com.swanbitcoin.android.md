@@ -13,7 +13,6 @@ social:
 features:
 - fingerprint
 - multiSig
-developerName: Swan Bitcoin
 redirect_from:
 - /android/com.swanbitcoin.android/
 - /iphone/com.swanbitcoin.app/
@@ -21,11 +20,12 @@ android:
   appId: com.swanbitcoin.android
   users: 100000
   released: 2022-03-25
-  updated: 2026-05-05
-  version: 3.18.0
+  updated: 2026-05-19
+  version: 3.19.0
   reviews: 265
   icon: com.swanbitcoin.android.png
   website: https://www.swanbitcoin.com
+  developerName: Swan Bitcoin
 iphone:
   appId: com.swanbitcoin.app
   idd: '1576287352'
@@ -36,6 +36,7 @@ iphone:
   reviews: 3958
   icon: com.swanbitcoin.app.jpg
   website: http://www.swanbitcoin.com
+  developerName: Swan Bitcoin
 
 ---
 

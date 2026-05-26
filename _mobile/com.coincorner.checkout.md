@@ -2,10 +2,10 @@
 wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 verdict: wip
+meta: fewusers
 date: 2025-09-17
 authors:
 - danny
-developerName: CoinCorner Ltd
 redirect_from:
 - /android/com.coincorner.checkout/
 - /iphone/com.coincorner.checkout/
@@ -18,6 +18,7 @@ android:
   icon: com.coincorner.checkout.png
   meta: fewusers
   website: https://coincorner.com/checkout
+  developerName: CoinCorner Ltd
 iphone:
   appId: com.coincorner.checkout
   idd: '1464880599'
@@ -29,6 +30,7 @@ iphone:
   icon: com.coincorner.checkout.jpg
   meta: ok
   website: https://www.coincorner.com/checkout
+  developerName: CoinCorner Ltd
 
 ---
 

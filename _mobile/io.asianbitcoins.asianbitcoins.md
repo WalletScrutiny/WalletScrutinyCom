@@ -6,7 +6,6 @@ date: 2023-05-05
 authors:
 - danny
 website: https://asianbitcoins.org#deadLink
-developerName: MAK International Inc, USA
 redirect_from:
 - /android/io.asianbitcoins.asianbitcoins/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 113
   icon: io.asianbitcoins.asianbitcoins.png
+  developerName: MAK International Inc, USA
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: http://www.tyco.link/#/
-developerName: TYCO FINTECH TECHNOLOGY
 redirect_from:
 - /android/com.cuckoo.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-27
   version: 3.6.0
   icon: com.cuckoo.wallet.png
+  developerName: TYCO FINTECH TECHNOLOGY
 
 ---
 

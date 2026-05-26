@@ -19,7 +19,7 @@ android:
   released: 2021-04-13
   updated: 2026-04-30
   version: 7.2.491
-  reviews: 860
+  reviews: 861
   icon: com.prestmit.png
   website: https://staging.prestmit.com
   developerName: Prestmit

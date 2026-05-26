@@ -3,7 +3,6 @@ title: Crypto Wallet Guard - Offline
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Mashinz
 redirect_from:
 - /android/co.crypto.wallet.guard/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-07
   version: '1.1'
   icon: co.crypto.wallet.guard.png
+  developerName: Mashinz
 
 ---
 

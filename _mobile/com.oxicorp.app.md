@@ -6,7 +6,6 @@ date: 2023-05-31
 authors:
 - danny
 website: https://oxi-corp.com/
-developerName: OXI Corporation
 redirect_from:
 - /android/com.oxicorp.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-01-26
   version: 6.0.1
   icon: com.oxicorp.app.png
+  developerName: OXI Corporation
 
 ---
 

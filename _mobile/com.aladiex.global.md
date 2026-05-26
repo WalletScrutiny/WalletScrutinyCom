@@ -9,7 +9,6 @@ website: https://aladiex.com
 twitter: Aladiexchange
 social:
 - https://www.facebook.com/AladiEx
-developerName: AladiEx Global Holdings Limited
 redirect_from:
 - /android/com.aladiex.global/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2021-04-27
   version: 1.7.9
   icon: com.aladiex.global.png
+  developerName: AladiEx Global Holdings Limited
 
 ---
 

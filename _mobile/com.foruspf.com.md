@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://foruspf.com
-developerName: Forus Platform
 redirect_from:
 - /android/com.foruspf.com/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-19
   version: '2.2'
   icon: com.foruspf.com.png
+  developerName: Forus Platform
 
 ---
 

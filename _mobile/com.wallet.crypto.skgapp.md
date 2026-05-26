@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://skg-world.com#deadLink
-developerName: SUPER KOREA
 redirect_from:
 - /android/com.wallet.crypto.skgapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-22
   version: 1.4.42
   icon: com.wallet.crypto.skgapp.png
+  developerName: SUPER KOREA
 
 ---
 

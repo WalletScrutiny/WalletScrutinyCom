@@ -9,7 +9,6 @@ website: https://profittradingapp.com/
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forhuobi/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2021-12-03
   version: 3.0.2
   icon: com.profittrading.forhuobi.png
+  developerName: ProfitTradingApp
 
 ---
 

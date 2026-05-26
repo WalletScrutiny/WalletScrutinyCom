@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2025-11-10
 website: https://smashfi.me
-developerName: SmashFi
 redirect_from:
 - /android/me.smashfi.appclient/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-11-12
   version: 1.0.4
   icon: me.smashfi.appclient.png
+  website: https://smashfi.me
+  developerName: SmashFi
 
 ---
 

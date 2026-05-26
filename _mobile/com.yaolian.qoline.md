@@ -2,6 +2,7 @@
 wsId: salletone
 title: SalletOne Live
 verdict: wip
+meta: obsolete
 date: 2023-04-16
 authors:
 - danny
@@ -21,6 +22,7 @@ android:
   version: 1.9.26
   icon: com.yaolian.qoline.png
   meta: obsolete
+  website: https://www.salletone.com
   developerName: V-byte
 iphone:
   appId: com.sallet.walletBit

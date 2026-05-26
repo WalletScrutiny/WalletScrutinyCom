@@ -16,7 +16,6 @@ features:
 - hd
 - segwit
 - tradeAlts
-developerName: FRWLT LLC - Non-Custodial Wallet
 redirect_from:
 - /android/app.frwt.wallet/
 android:
@@ -25,8 +24,10 @@ android:
   released: 2024-01-03
   updated: 2026-02-12
   version: 1.15.0
-  reviews: 207
+  reviews: 208
   icon: app.frwt.wallet.png
+  website: https://www.frwt.app/
+  developerName: FRWLT LLC - Non-Custodial Wallet
 
 ---
 

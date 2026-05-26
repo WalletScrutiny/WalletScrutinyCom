@@ -22,6 +22,7 @@ android:
   updated: 2026-05-08
   version: 1.0.55
   icon: com.kuantist.app.jpg
+  website: https://www.kuantist.com/
   developerName: KUANTİST TEKNOLOJİ ANONİM ŞİRKETİ
 iphone:
   appId: com.kuantist

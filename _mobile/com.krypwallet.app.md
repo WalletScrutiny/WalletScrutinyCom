@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://159.65.248.120/
-developerName: SHmining Tech
 redirect_from:
 - /android/com.krypwallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-08-31
   version: 1.0.0
   icon: com.krypwallet.app.png
+  developerName: SHmining Tech
 
 ---
 

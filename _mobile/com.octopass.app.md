@@ -21,8 +21,8 @@ android:
   version: prod-1.18.11
   icon: com.octopass.app.png
   website: https://easycrypto.com/
-  twitter: easycrypto
   developerName: Dott Enterprises Limited
+  twitter: easycrypto
 iphone:
   appId: com.octopass.app
   idd: '6466778991'

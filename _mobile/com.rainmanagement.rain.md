@@ -20,7 +20,7 @@ android:
   released: 2018-11-02
   updated: 2026-04-30
   version: 3.10.8
-  reviews: 3336
+  reviews: 3337
   icon: com.rainmanagement.rain.png
   website: https://rain.com
   developerName: Rain Trading

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-08
 website: https://flyp.me
-developerName: HolyTransaction Android
 redirect_from:
 - /android/me.flyp.mobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-09
   version: 1.0.4
   icon: me.flyp.mobile.png
+  developerName: HolyTransaction Android
 
 ---
 

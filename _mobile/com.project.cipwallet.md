@@ -3,7 +3,6 @@ title: Cip Wallet
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: BENI DEV
 redirect_from:
 - /android/com.project.cipwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-09-20
   version: 1.1.0
   icon: com.project.cipwallet.png
+  developerName: BENI DEV
 
 ---
 

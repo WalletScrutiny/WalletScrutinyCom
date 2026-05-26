@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://github.com/ejfhp
-developerName: Rabbit Hole Lab
 redirect_from:
 - /android/com.ejfhp.bitonpaper/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-01-11
   version: 2.1.2
   icon: com.ejfhp.bitonpaper.png
+  website: https://github.com/ejfhp
+  developerName: Rabbit Hole Lab
 
 ---
 

@@ -12,7 +12,6 @@ features:
 - fingerprint
 - foss
 - ln
-developerName: Bitango Technologies
 redirect_from:
 - /android/com.minibits_wallet/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2026-03-31
   version: VARY
   icon: com.minibits_wallet.png
+  website: https://www.minibits.cash
+  developerName: Bitango Technologies
 
 ---
 

@@ -9,7 +9,6 @@ website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet#deadLink
 features:
 - ln
-developerName: anton kumaigorodski
 redirect_from:
 - /bictcoinlightningwallet/
 - /com.lightning.walletapp/
@@ -24,6 +23,7 @@ android:
   version: 0.4.8
   reviews: 61
   icon: com.lightning.walletapp.png
+  developerName: anton kumaigorodski
 
 ---
 

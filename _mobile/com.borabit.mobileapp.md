@@ -3,7 +3,6 @@ title: BORABIT
 verdict: wip
 meta: removed
 date: 2023-08-16
-developerName: (주)뱅코
 redirect_from:
 - /android/com.borabit.mobileapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-19
   version: 1.0.2
   icon: com.borabit.mobileapp.png
+  developerName: (주)뱅코
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-02-13
 website: http://inout-blockchain-fiatexchanger.demo.inoutscripts.net
-developerName: Nesote Technologies Private Limited
 redirect_from:
 - /android/net.inoutscripts.demo.inoutblockchainfiatexchanger/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-03-05
   version: '1.1'
   icon: net.inoutscripts.demo.inoutblockchainfiatexchanger.png
+  developerName: Nesote Technologies Private Limited
 
 ---
 

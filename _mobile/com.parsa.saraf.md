@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-01-14
 website: https://saraf.app
-developerName: saraf company
 redirect_from:
 - /android/com.parsa.saraf/
 android:
@@ -13,8 +12,10 @@ android:
   released: 2019-04-26
   updated: 2024-12-26
   version: 511.0.0
-  reviews: 406
+  reviews: 405
   icon: com.parsa.saraf.png
+  website: https://saraf.app
+  developerName: saraf company
 
 ---
 

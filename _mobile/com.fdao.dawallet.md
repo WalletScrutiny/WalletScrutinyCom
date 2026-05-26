@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://fdao.vn#deadLink
-developerName: DAO GROUP., JSC
 redirect_from:
 - /android/com.fdao.dawallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-29
   version: '2005311702'
   icon: com.fdao.dawallet.png
+  developerName: DAO GROUP., JSC
 
 ---
 

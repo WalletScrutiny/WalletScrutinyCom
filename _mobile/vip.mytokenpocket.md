@@ -2,6 +2,7 @@
 wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
 verdict: obfuscated
+meta: ok
 date: 2023-01-11
 authors:
 - leo
@@ -16,14 +17,14 @@ android:
   appId: vip.mytokenpocket
   users: 5000000
   released: 2018-06-29
-  updated: 2026-05-14
-  version: 2.19.2
+  updated: 2026-05-25
+  version: 2.20.0
   reviews: 633
   icon: vip.mytokenpocket.png
   meta: ok
   website: https://www.tokenpocket.pro/
-  repository: https://github.com/TP-Lab/tp-android
   developerName: TP Global Ltd
+  repository: https://github.com/TP-Lab/tp-android
 iphone:
   appId: com.tp.ios
   idd: 1436028697

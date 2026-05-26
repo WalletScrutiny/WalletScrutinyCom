@@ -9,7 +9,6 @@ website: https://www.coinstick.co
 twitter: coinstickHQ
 social:
 - https://www.facebook.com/CoinstickHQ
-developerName: Coinstick
 redirect_from:
 - /android/com.coinstick.myapp/
 android:
@@ -20,6 +19,8 @@ android:
   version: 1.0.0
   reviews: 6
   icon: com.coinstick.myapp.png
+  website: https://www.coinstick.co
+  developerName: Coinstick
 
 ---
 

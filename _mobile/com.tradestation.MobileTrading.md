@@ -9,7 +9,6 @@ authors:
 twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
-developerName: TradeStation Technologies
 appCountry: us
 redirect_from:
 - /android/com.tradestation.MobileTrading/
@@ -23,6 +22,7 @@ android:
   reviews: 2061
   icon: com.tradestation.MobileTrading.png
   website: http://tradestation.com/contact-us/
+  developerName: TradeStation Technologies
 iphone:
   appId: com.tradestation.MobileTrading
   idd: 581548081
@@ -32,6 +32,7 @@ iphone:
   reviews: 18355
   icon: com.tradestation.MobileTrading.jpg
   website: http://www.tradestation.com/trading-technology/tradestation-mobile
+  developerName: TradeStation Technologies
 
 ---
 

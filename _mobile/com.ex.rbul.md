@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-08
 website: https://www.rbul.io#deadLink
-developerName: Redbul
 redirect_from:
 - /android/com.ex.rbul/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-15
   version: '1.6'
   icon: com.ex.rbul.png
+  developerName: Redbul
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: coinsonepaprika
 title: 'COINS: One App For Crypto'
 verdict: nosource
+meta: ok
 date: 2024-07-15
 authors:
 - danny

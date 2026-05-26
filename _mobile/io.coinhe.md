@@ -6,7 +6,6 @@ date: 2023-05-05
 authors:
 - danny
 website: https://coinhe.io/
-developerName: CHT Innovative Technology PTE.  LTD
 redirect_from:
 - /android/io.coinhe/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.6.7
   reviews: 5
   icon: io.coinhe.png
+  developerName: CHT Innovative Technology PTE.  LTD
 
 ---
 

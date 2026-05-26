@@ -2,6 +2,7 @@
 wsId: BuyCoinsPro
 title: 'Buycoins Pro: Trade BTC & USDT'
 verdict: custodial
+meta: obsolete
 date: 2023-06-21
 authors:
 - danny

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-08-18
 website: https://bitlox.com
-developerName: BitLox Ltd.
 redirect_from:
 - /android/com.bitlox.mobilewallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-09-18
   version: 4.0.4
   icon: com.bitlox.mobilewallet.png
+  developerName: BitLox Ltd.
 
 ---
 

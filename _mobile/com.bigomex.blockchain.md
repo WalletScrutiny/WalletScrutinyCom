@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
 - https://www.facebook.com/bigomexofficial
 - https://www.reddit.com/r/bigomex
-developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
 redirect_from:
 - /android/com.bigomex.blockchain/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.2.7
   reviews: 6
   icon: com.bigomex.blockchain.jpg
+  developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
 
 ---
 

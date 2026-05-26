@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/ig-international-
 - https://www.facebook.com/IGInternational2
 - https://www.youtube.com/channel/UCZj-ae-S_X-mocAH3xQnpUw
-developerName: IG Group
 redirect_from:
 - /android/com.iggroup.android.cfd/
 - /iphone/com.igmarkets.ideal/
@@ -21,10 +20,11 @@ android:
   appCountry: br
   released: 2015-05-11
   updated: 2026-05-19
-  version: 26.5.6
+  version: 26.5.7
   reviews: 14
   icon: com.iggroup.android.cfd.png
   website: https://www.ig.com
+  developerName: IG Group
 iphone:
   appId: com.igmarkets.ideal
   idd: '406492428'
@@ -35,6 +35,7 @@ iphone:
   reviews: 2968
   icon: com.igmarkets.ideal.jpg
   website: https://www.ig.com/uk/trading-platforms/trading-apps
+  developerName: IG Group
 
 ---
 

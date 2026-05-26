@@ -6,7 +6,6 @@ date: 2024-04-19
 authors:
 - danny
 website: https://contracoin.network/
-developerName: Contracoin
 redirect_from:
 - /android/com.Contracoin/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-19
   version: '1.00'
   icon: com.Contracoin.png
+  developerName: Contracoin
 
 ---
 

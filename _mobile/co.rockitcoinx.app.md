@@ -26,6 +26,7 @@ android:
   version: 3.7.13
   reviews: 195
   icon: co.rockitcoinx.app.png
+  website: https://rockitcoin.com
   developerName: RockItCoin
 iphone:
   appId: rockitcoinexchange
@@ -34,8 +35,9 @@ iphone:
   released: 2019-09-18
   updated: 2026-05-20
   version: 3.7.13
-  reviews: 159
+  reviews: 160
   icon: rockitcoinexchange.jpg
+  website: https://rockitcoin.com
   developerName: RockitCoin
 
 ---

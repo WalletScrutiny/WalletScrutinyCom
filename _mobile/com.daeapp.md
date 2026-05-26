@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://dae.africa#deadLink
-developerName: Data Analysis Empire
 redirect_from:
 - /android/com.daeapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-12
   version: '12.0'
   icon: com.daeapp.jpg
+  developerName: Data Analysis Empire
 
 ---
 

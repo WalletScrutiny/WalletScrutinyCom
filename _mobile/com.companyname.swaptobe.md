@@ -11,7 +11,6 @@ social:
 - https://t.me/swaptobeglobal
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
 - https://www.facebook.com/swaptobe
-developerName: PIONE CHAIN
 redirect_from:
 - /android/com.companyname.swaptobe/
 android:
@@ -22,6 +21,8 @@ android:
   version: '6.0'
   reviews: 20
   icon: com.companyname.swaptobe.png
+  website: https://pionechain.com
+  developerName: PIONE CHAIN
 
 ---
 

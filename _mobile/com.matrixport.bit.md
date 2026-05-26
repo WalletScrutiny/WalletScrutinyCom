@@ -10,7 +10,6 @@ twitter: bitcom_exchange
 social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
-developerName: BIT Technologies Holding Company
 redirect_from:
 - /android/com.matrixport.bit/
 android:
@@ -21,6 +20,7 @@ android:
   version: 2.2.5
   reviews: 29
   icon: com.matrixport.bit.png
+  developerName: BIT Technologies Holding Company
 
 ---
 

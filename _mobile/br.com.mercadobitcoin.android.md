@@ -10,17 +10,18 @@ twitter: MercadoBitcoin
 social:
 - https://www.linkedin.com/company/mercado-bitcoin
 - https://www.facebook.com/MercadoBitcoin
-developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
 redirect_from:
 - /android/br.com.mercadobitcoin.android/
 android:
   appId: br.com.mercadobitcoin.android
   users: 1000000
   released: 2019-07-25
-  updated: 2026-05-15
-  version: 2.111.1
+  updated: 2026-05-22
+  version: 2.112.0
   reviews: 73
   icon: br.com.mercadobitcoin.android.png
+  website: http://www.mercadobitcoin.com.br
+  developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-07-04
 authors:
 - danny
 website: https://fnk.com#deadLink
-developerName: FNK
 redirect_from:
 - /android/com.fnkcom/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.1.2
   reviews: 8
   icon: com.fnkcom.jpg
+  developerName: FNK
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://sellfastpayfast.com
-developerName: BRANDBOX AFRICA
 redirect_from:
 - /android/com.brandboxafrica.sellfast/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   reviews: 1
   icon: com.brandboxafrica.sellfast.png
+  developerName: BRANDBOX AFRICA
 
 ---
 

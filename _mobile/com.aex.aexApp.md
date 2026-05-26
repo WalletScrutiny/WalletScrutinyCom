@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-06-21
 website: https://www.aex.com
-developerName: AEX
 redirect_from:
 - /android/com.aex.aexApp/
 android:
@@ -15,6 +14,7 @@ android:
   version: 3.36.4
   reviews: 11
   icon: com.aex.aexApp.png
+  developerName: AEX
 
 ---
 

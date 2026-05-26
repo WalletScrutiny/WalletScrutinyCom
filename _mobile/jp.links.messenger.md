@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://getlinks.jp
 twitter: LinksBTC
-developerName: Links K.K.
 redirect_from:
 - /android/jp.links.messenger/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-05-19
   version: 1.35.9
   icon: jp.links.messenger.jpg
+  developerName: Links K.K.
 
 ---
 

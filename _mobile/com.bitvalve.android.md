@@ -7,17 +7,18 @@ authors:
 - danny
 website: https://www.bitvalve.com
 twitter: bitvalve
-developerName: BitValve Developer
 redirect_from:
 - /android/com.bitvalve.android/
 android:
   appId: com.bitvalve.android
   users: 100000
   released: 2019-10-29
-  updated: 2026-04-17
-  version: 1.40.0
+  updated: 2026-05-22
+  version: 1.41.0
   reviews: 62
   icon: com.bitvalve.android.png
+  website: https://www.bitvalve.com
+  developerName: BitValve Developer
 
 ---
 

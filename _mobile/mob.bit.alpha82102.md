@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
-developerName: NADIM BHUTTA
 redirect_from:
 - /android/mob.bit.alpha82102/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-08-19
   version: '1.0'
   icon: mob.bit.alpha82102.png
+  developerName: NADIM BHUTTA
 
 ---
 

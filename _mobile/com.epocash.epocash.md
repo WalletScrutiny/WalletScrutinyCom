@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://www.epocash.com
-developerName: EPO Cash
 redirect_from:
 - /android/com.epocash.epocash/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-21
   version: '1.1'
   icon: com.epocash.epocash.jpg
+  developerName: EPO Cash
 
 ---
 

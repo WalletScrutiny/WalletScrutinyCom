@@ -2,6 +2,7 @@
 wsId: CoinEx
 title: 'CoinEx: Buy Bitcoin & Crypto'
 verdict: custodial
+meta: ok
 date: 2020-04-15
 authors:
 - leo
@@ -20,7 +21,7 @@ android:
   released: 2019-12-27
   updated: 2026-05-15
   version: 4.13.0
-  reviews: 1193
+  reviews: 1192
   icon: com.coinex.trade.play.png
   meta: ok
   website: https://www.coinex.com/

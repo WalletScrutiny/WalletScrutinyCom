@@ -20,6 +20,7 @@ android:
   version: 7.6.49
   reviews: 26
   icon: com.deepcoin.app.global.png
+  website: https://www.deepcoin.com
   developerName: DEEPCOIN
 iphone:
   appId: com.dcglobal.app

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://paapaasi.com
-developerName: Paapaasi Ltd
 redirect_from:
 - /android/com.paapaasi/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-15
   version: '1.0'
   icon: com.paapaasi.png
+  developerName: Paapaasi Ltd
 
 ---
 

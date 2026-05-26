@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://www.mybeyondwallet.com
-developerName: Frictionless Money LLC
 redirect_from:
 - /android/com.beyondwallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-10-19
   version: VARY
   icon: com.beyondwallet.app.png
+  developerName: Frictionless Money LLC
 
 ---
 

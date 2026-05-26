@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://cash2bitcoin.com/
 twitter: Cash2Bitcoinatm
-developerName: Cash2Bitcoin
 redirect_from:
 - /android/org.c2bwallet.app/
 - /iphone/org.c2bwallet.app/
@@ -19,6 +18,8 @@ android:
   updated: 2025-12-25
   version: 1.5.0
   icon: org.c2bwallet.app.png
+  website: https://cash2bitcoin.com/
+  developerName: Cash2Bitcoin
 iphone:
   appId: org.c2bwallet.app
   idd: '6502400846'
@@ -28,6 +29,7 @@ iphone:
   version: 1.6.0
   reviews: 13
   icon: org.c2bwallet.app.jpg
+  developerName: Cash2Bitcoin
 
 ---
 

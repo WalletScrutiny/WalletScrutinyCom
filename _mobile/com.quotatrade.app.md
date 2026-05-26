@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-10
 website: https://www.quotatrade.com/
-developerName: QuotaTrade Ltd
 redirect_from:
 - /android/com.quotatrade.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-23
   version: 1.1.43
   icon: com.quotatrade.app.png
+  developerName: QuotaTrade Ltd
 
 ---
 

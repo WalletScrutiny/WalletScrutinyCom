@@ -22,8 +22,8 @@ android:
   version: 1.3.17851
   icon: app.bankowallet.android.png
   website: http://www.bankowallet.com
-  twitter: BankoWallet1
   developerName: BITROCK
+  twitter: BankoWallet1
 iphone:
   appId: app.banko.ios
   idd: '1441243164'

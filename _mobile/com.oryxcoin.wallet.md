@@ -3,7 +3,6 @@ title: Oryxcoin
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Nextgen IT Services
 redirect_from:
 - /android/com.oryxcoin.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2018-03-29
   version: v5.0.0
   icon: com.oryxcoin.wallet.png
+  developerName: Nextgen IT Services
 
 ---
 

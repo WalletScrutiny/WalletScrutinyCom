@@ -6,7 +6,6 @@ date: 2024-05-07
 authors:
 - danny
 website: https://meeyinvest.com
-developerName: MEEY INVEST GLOBAL PTE. LTD
 redirect_from:
 - /android/com.org.meeyinvest/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-07-13
   version: '7.0'
   icon: com.org.meeyinvest.png
+  developerName: MEEY INVEST GLOBAL PTE. LTD
 
 ---
 

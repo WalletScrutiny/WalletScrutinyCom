@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://24bitbank.io/
-developerName: 24BITBANK
 redirect_from:
 - /android/com.bitbankiosdnge.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-30
   version: '456'
   icon: com.bitbankiosdnge.app.png
+  developerName: 24BITBANK
 
 ---
 

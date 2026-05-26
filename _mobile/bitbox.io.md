@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-09
 authors:
 - danny
-developerName: Cryptex PTE. LTD.
 redirect_from:
 - /android/bitbox.io/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2019-07-30
   version: 1.0.4
   icon: bitbox.io.png
+  developerName: Cryptex PTE. LTD.
 
 ---
 

@@ -12,7 +12,6 @@ social:
 - https://t.me/noworyapp
 features:
 - fingerprint
-developerName: Nowory Labs
 redirect_from:
 - /android/com.wallet.noworry/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2026-05-02
   version: 5.8.23
   icon: com.wallet.noworry.png
+  website: https://www.nowory.com
+  developerName: Nowory Labs
 
 ---
 

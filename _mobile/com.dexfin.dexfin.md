@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://www.dexfin.com
-developerName: DEXFIN
 redirect_from:
 - /android/com.dexfin.dexfin/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-11-30
   version: 1.0.1
   icon: com.dexfin.dexfin.png
+  developerName: DEXFIN
 
 ---
 

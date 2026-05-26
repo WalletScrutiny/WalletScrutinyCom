@@ -6,7 +6,6 @@ date: 2023-06-02
 authors:
 - danny
 website: https://dochcoin.com/
-developerName: DOCH LLC
 redirect_from:
 - /android/com.shashank.doch/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-08-11
   version: 1.6.7
   icon: com.shashank.doch.png
+  developerName: DOCH LLC
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-15
 website: http://crocobit.net
-developerName: RICH MAN HOUSE BUSINESS CENTER
 redirect_from:
 - /android/com.edc.crocobit.wallets/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-15
   version: 1.2.05
   icon: com.edc.crocobit.wallets.png
+  developerName: RICH MAN HOUSE BUSINESS CENTER
 
 ---
 

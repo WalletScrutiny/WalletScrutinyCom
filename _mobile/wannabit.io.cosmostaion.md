@@ -27,8 +27,8 @@ android:
   reviews: 136
   icon: wannabit.io.cosmostaion.png
   website: https://cosmostation.io
-  repository: https://github.com/cosmostation/cosmostation-android
   developerName: Stamper
+  repository: https://github.com/cosmostation/cosmostation-android
 iphone:
   appId: io.wannabit.cosmostation
   idd: '1459830339'
@@ -38,8 +38,8 @@ iphone:
   version: v1.10.46
   reviews: 223
   icon: io.wannabit.cosmostation.jpg
-  repository: https://github.com/cosmostation/cosmostation-ios
   developerName: Stamper Co., Ltd.
+  repository: https://github.com/cosmostation/cosmostation-ios
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: Ledn
 title: Ledn
 verdict: custodial
+meta: obsolete
 date: 2023-08-25
 authors:
 - danny
@@ -23,6 +24,7 @@ android:
   reviews: 12
   icon: io.ledn.app.png
   meta: obsolete
+  website: https://ledn.io
   developerName: Ledn
 iphone:
   appId: io.ledn.app

@@ -17,7 +17,6 @@ social:
 features:
 - segwit
 - foss
-developerName: RBB SRL
 redirect_from:
 - /android/com.mojitowallet/
 - /iphone/com.mojitowallet/
@@ -28,6 +27,7 @@ android:
   version: 0.4.1
   icon: com.mojitowallet.png
   website: https://www.mintlayer.org/en/mojito-wallet/
+  developerName: RBB SRL
   repository: https://github.com/mintlayer/mojito_mobile_wallet
 iphone:
   appId: com.mojitowallet
@@ -39,6 +39,7 @@ iphone:
   reviews: 9
   icon: com.mojitowallet.jpg
   website: https://www.mintlayer.org/
+  developerName: RBB SRL
 
 ---
 

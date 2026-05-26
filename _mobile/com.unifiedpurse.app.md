@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://unifiedpurse.com
-developerName: Tormuto
 redirect_from:
 - /android/com.unifiedpurse.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-08-30
   version: 1.0.9
   icon: com.unifiedpurse.app.png
+  developerName: Tormuto
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2025-09-03
 website: https://coins.black
-developerName: Coins.Black
 redirect_from:
 - /android/com.coins.black.exchanger/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-08-29
   version: '1.5'
   icon: com.coins.black.exchanger.png
+  website: https://coins.black
+  developerName: Coins.Black
 
 ---
 

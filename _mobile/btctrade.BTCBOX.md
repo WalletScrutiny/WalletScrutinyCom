@@ -20,6 +20,7 @@ android:
   updated: 2026-04-28
   version: '1.287'
   icon: btctrade.BTCBOX.png
+  website: http://www.btcbox.co.jp
   developerName: BTCボックス株式会社
 iphone:
   appId: btctrade.btcbox
@@ -30,6 +31,7 @@ iphone:
   version: '1.250'
   reviews: 15
   icon: btctrade.btcbox.jpg
+  website: http://www.btcbox.co.jp
   developerName: BTCBOX CO.,LTD
 
 ---

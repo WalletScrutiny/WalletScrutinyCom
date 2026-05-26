@@ -6,7 +6,6 @@ date: 2023-09-06
 authors:
 - danny
 website: https://justbit.in#deadLink
-developerName: IMSelf Community
 redirect_from:
 - /android/com.app.justbit/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-10-20
   version: 1.1.0
   icon: com.app.justbit.jpg
+  developerName: IMSelf Community
 
 ---
 

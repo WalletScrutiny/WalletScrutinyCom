@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/DeviantCoin
 - https://www.reddit.com/r/DeviantCoin
 - https://t.me/DeviantDEV
-developerName: Deviant Coin
 redirect_from:
 - /android/com.cryptowallet.deviantx/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2019-08-01
   version: '2.6'
   icon: com.cryptowallet.deviantx.jpg
+  developerName: Deviant Coin
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://terra-bit.io#deadLink
 twitter: terrabitcrypto
-developerName: The Terra Foundation
 redirect_from:
 - /android/com.terracredit.pro/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2021-03-02
   version: 1.0.4.210302
   icon: com.terracredit.pro.png
+  developerName: The Terra Foundation
 
 ---
 

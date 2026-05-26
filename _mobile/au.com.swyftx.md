@@ -16,7 +16,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: Swyftx Pty Ltd
 redirect_from:
 - /android/au.com.swyftx/
 - /iphone/au.com.swyftx.ios/
@@ -27,16 +26,18 @@ android:
   version: 2.8.48
   icon: au.com.swyftx.png
   website: https://swyftx.com/
+  developerName: Swyftx Pty Ltd
 iphone:
   appId: au.com.swyftx.ios
   idd: '1516986805'
   appCountry: au
   released: 2020-07-01
-  updated: 2026-05-17
-  version: 2.8.47
-  reviews: 6032
+  updated: 2026-05-20
+  version: 2.8.48
+  reviews: 6035
   icon: au.com.swyftx.ios.jpg
   website: https://swyftx.com
+  developerName: Swyftx Pty Ltd
 
 ---
 

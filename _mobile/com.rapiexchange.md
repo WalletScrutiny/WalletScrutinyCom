@@ -2,6 +2,7 @@
 wsId: rapixchange
 title: RapiXchangE
 verdict: custodial
+meta: ok
 date: 2023-04-29
 authors:
 - danny
@@ -18,6 +19,7 @@ android:
   reviews: 3
   icon: com.rapiexchange.png
   meta: ok
+  website: https://www.rapixchange.com/
   developerName: Rapixchange
 iphone:
   appId: com.rapixchangeapp

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://story3app.web.app/
-developerName: TheStoryApp
 redirect_from:
 - /android/fx.compt.crypto/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-25
   version: '1.0'
   icon: fx.compt.crypto.png
+  developerName: TheStoryApp
 
 ---
 

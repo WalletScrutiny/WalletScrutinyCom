@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-10
 website: https://stormprofit.trade#deadLink
-developerName: StormProfit
 redirect_from:
 - /android/com.stormprofit.stormprofit/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 4
   icon: com.stormprofit.stormprofit.png
+  developerName: StormProfit
 
 ---
 

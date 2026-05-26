@@ -33,15 +33,15 @@ android:
   users: 100000
   released: 2015-01-01
   updated: 2026-05-08
-  version: 5.3.0
+  version: 5.4.0
   reviews: 150
   icon: com.greenaddress.greenbits_android_wallet.jpg
   signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
   alternativeStores:
   - fdroid
   website: https://blockstream.com/green
-  repository: https://github.com/Blockstream/green_android
   developerName: Blockstream Inc
+  repository: https://github.com/Blockstream/green_android
 iphone:
   appId: io.blockstream.green
   idd: 1402243590
@@ -51,8 +51,8 @@ iphone:
   reviews: 1156
   icon: io.blockstream.green.jpg
   website: https://blockstream.com/app
-  repository: https://github.com/Blockstream/green_ios
   developerName: Blockstream
+  repository: https://github.com/Blockstream/green_ios
 
 ---
 

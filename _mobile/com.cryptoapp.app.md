@@ -3,7 +3,6 @@ title: CryptoSystem Mobile Access
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Crypto System IT Support
 redirect_from:
 - /android/com.cryptoapp.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2018-07-30
   version: 1.1.b
   icon: com.cryptoapp.app.png
+  developerName: Crypto System IT Support
 
 ---
 

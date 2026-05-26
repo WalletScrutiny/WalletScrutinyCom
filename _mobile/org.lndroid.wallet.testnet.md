@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://lndroid.org
-developerName: Artur Briugeman
 redirect_from:
 - /android/org.lndroid.wallet.testnet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-04-14
   version: 0.1.6-testnet
   icon: org.lndroid.wallet.testnet.png
+  developerName: Artur Briugeman
 
 ---
 

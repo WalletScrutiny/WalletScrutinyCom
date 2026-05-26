@@ -2,6 +2,7 @@
 wsId: digifinex
 title: DigiFinex- Crypto Exchange
 verdict: custodial
+meta: ok
 date: 2020-11-28
 authors:
 - leo
@@ -18,8 +19,8 @@ android:
   appId: com.digifinex.app
   users: 500000
   released: 2018-06-26
-  updated: 2026-04-29
-  version: 2026.04.27
+  updated: 2026-05-22
+  version: 2026.05.13
   reviews: 112
   icon: com.digifinex.app.png
   meta: ok

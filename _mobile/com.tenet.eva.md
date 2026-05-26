@@ -6,7 +6,6 @@ date: 2025-12-16
 authors:
 - danny
 website: https://tenet.org/eva
-developerName: NETTE TECHNOLOGIES
 redirect_from:
 - /android/com.tenet.eva/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2024-05-02
   version: VARY
   icon: com.tenet.eva.png
+  developerName: NETTE TECHNOLOGIES
 
 ---
 

@@ -3,7 +3,6 @@ title: Tokenpocket Book
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: wafbbail
 redirect_from:
 - /android/com.wafbbail.flutter_wafbbail_notebook/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-24
   version: 1.0.2
   icon: com.wafbbail.flutter_wafbbail_notebook.png
+  developerName: wafbbail
 
 ---
 

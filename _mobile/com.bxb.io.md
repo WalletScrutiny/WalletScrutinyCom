@@ -6,7 +6,6 @@ date: 2023-08-05
 authors:
 - danny
 website: https://www.bxb.io#deadLink
-developerName: Teko Ecommerce Sdn Bhd
 redirect_from:
 - /android/com.bxb.io/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-03-11
   version: 1.2.19
   icon: com.bxb.io.png
+  developerName: Teko Ecommerce Sdn Bhd
 
 ---
 

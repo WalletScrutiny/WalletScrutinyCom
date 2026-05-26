@@ -1,5 +1,6 @@
 ---
 title: 'BtcTurk | Kripto: BTC|USDT|XRP'
+meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -14,15 +15,15 @@ android:
   users: 5000000
   released: 2020-09-10
   updated: 2026-05-15
-  version: 2.42.0
+  version: 2.43.0
   reviews: 232
   icon: com.btcturk.pro.png
   meta: ok
   verdict: custodial
   website: https://kripto.btcturk.com
+  developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
   bugbounty: https://pro.btcturk.com/en/bug-bounty
   twitter: btcturkpro
-  developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
 iphone:
   appId: com.btcturk.pro
   idd: 1471639720

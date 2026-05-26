@@ -6,7 +6,6 @@ date: 2023-08-04
 authors:
 - danny
 website: https://btc-bank.co/
-developerName: Btchange Journal
 redirect_from:
 - /android/com.application.btctr/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-04-30
   version: 1.0.3
   icon: com.application.btctr.png
+  developerName: Btchange Journal
 
 ---
 

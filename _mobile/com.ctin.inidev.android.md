@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-12
 website: https://inindiatech.com
-developerName: Inindia Corporation
 redirect_from:
 - /android/com.ctin.inidev.android/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-06-04
   version: 1.0.1
   icon: com.ctin.inidev.android.png
+  developerName: Inindia Corporation
 
 ---
 

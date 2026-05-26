@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://paybis.com/
-developerName: Paybis LTD
 appCountry: us
 redirect_from:
 - /iphone/com.paybis/
@@ -16,6 +15,7 @@ iphone:
   version: 1.7.29
   reviews: 2865
   icon: com.paybis.jpg
+  developerName: Paybis LTD
 
 ---
 

@@ -13,17 +13,18 @@ social:
 - https://www.tiktok.com/@revolutapp
 - https://www.instagram.com/revolutapp
 - https://www.facebook.com/revolutapp
-developerName: Revolut Ltd
 redirect_from:
 - /android/com.revolut.revolutx/
 - /iphone/com.revolut.revolutx/
 android:
   appId: com.revolut.revolutx
   users: 500000
-  updated: 2026-05-19
-  version: '1.59'
+  updated: 2026-05-26
+  version: '1.60'
   reviews: 1
   icon: com.revolut.revolutx.png
+  website: https://www.revolut.com/revolut-x/
+  developerName: Revolut Ltd
 iphone:
   appId: com.revolut.revolutx
   idd: '6502614478'
@@ -33,6 +34,7 @@ iphone:
   version: '1.59'
   reviews: 2019
   icon: com.revolut.revolutx.jpg
+  developerName: Revolut Ltd
 
 ---
 

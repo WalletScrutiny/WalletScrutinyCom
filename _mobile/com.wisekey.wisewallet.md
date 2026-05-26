@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: http://www.wisekey.com
-developerName: WISeKey
 redirect_from:
 - /android/com.wisekey.wisewallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-28
   version: 1.1.1
   icon: com.wisekey.wisewallet.png
+  developerName: WISeKey
 
 ---
 

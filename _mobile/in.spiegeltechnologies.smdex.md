@@ -11,7 +11,6 @@ social:
 - https://t.me/SMDEX
 - https://www.linkedin.com/in/smdex-exchange-269bb9229
 - https://www.facebook.com/SMDEX-Exchange-110161808203222
-developerName: Devsmdex
 redirect_from:
 - /android/in.spiegeltechnologies.smdex/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2022-04-01
   version: 1.0.5
   icon: in.spiegeltechnologies.smdex.png
+  developerName: Devsmdex
 
 ---
 

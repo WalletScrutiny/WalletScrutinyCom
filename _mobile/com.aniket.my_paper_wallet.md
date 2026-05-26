@@ -6,7 +6,6 @@ date: 2024-04-03
 authors:
 - danny
 repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet
-developerName: Aniket sindhu
 redirect_from:
 - /android/com.aniket.my_paper_wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-12-24
   version: 1.0.0
   icon: com.aniket.my_paper_wallet.png
+  developerName: Aniket sindhu
 
 ---
 

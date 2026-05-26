@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-28
 website: https://www.cryptocashfast.com
-developerName: The Cyber World
 redirect_from:
 - /android/com.crypto_business/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-14
   version: '3.0'
   icon: com.crypto_business.png
+  developerName: The Cyber World
 
 ---
 

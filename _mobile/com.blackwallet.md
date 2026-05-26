@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://blackproject.tech#deadLink
-developerName: WAPCENTR.COM
 redirect_from:
 - /android/com.blackwallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.1'
   reviews: 4
   icon: com.blackwallet.png
+  developerName: WAPCENTR.COM
 
 ---
 

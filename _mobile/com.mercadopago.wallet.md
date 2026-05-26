@@ -18,10 +18,11 @@ android:
   appId: com.mercadopago.wallet
   users: 100000000
   released: 2014-12-09
-  updated: 2026-05-19
-  version: 2.436.2
-  reviews: 1087471
+  updated: 2026-05-25
+  version: 2.437.2
+  reviews: 1088074
   icon: com.mercadopago.wallet.png
+  website: http://www.mercadopago.com
   developerName: Mercado Libre
 iphone:
   appId: com.mercadopago.MercadoPago

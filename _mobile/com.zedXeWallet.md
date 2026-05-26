@@ -14,7 +14,6 @@ social:
 - https://www.youtube.com/c/ZedXe
 - https://www.instagram.com/Zed_Xe
 - https://t.me/ZedXe
-developerName: Zuf Info Tech, LDA
 redirect_from:
 - /android/com.zedXeWallet/
 android:
@@ -24,6 +23,7 @@ android:
   updated: 2020-06-11
   version: '1.8'
   icon: com.zedXeWallet.png
+  developerName: Zuf Info Tech, LDA
 
 ---
 

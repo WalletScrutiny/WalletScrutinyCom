@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/emirex.official
 - https://t.me/emirex_official
 - https://medium.com/@EMIREX_OFFICIAL
-developerName: Emirex
 redirect_from:
 - /android/com.emirex.android/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2022-08-08
   version: '1.1'
   icon: com.emirex.android.png
+  developerName: Emirex
 
 ---
 

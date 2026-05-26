@@ -9,7 +9,6 @@ website: https://elitewallet.sc#deadLink
 social:
 - https://t.me/elite_wallet
 - https://www.reddit.com/user/EliteTechnologies
-developerName: Elite Lab
 redirect_from:
 - /android/sc.elitewallet.elitewallet/
 - /iphone/sc.elitewallet.elite-wallet/
@@ -22,6 +21,7 @@ android:
   reviews: 3
   icon: sc.elitewallet.elitewallet.png
   verdict: sourceavailable
+  developerName: Elite Lab
 iphone:
   appId: sc.elitewallet.elite-wallet
   idd: '6447569561'
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: sc.elitewallet.elite-wallet.jpg
   verdict: wip
+  developerName: Elite Lab
 
 ---
 

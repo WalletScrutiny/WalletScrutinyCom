@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://medooza.io
-developerName: Medooza Ecosystem Apps
 redirect_from:
 - /android/io.crypto.wallet.bitcoin.ethereum.medooza.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-01-04
   version: '1.1'
   icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
+  developerName: Medooza Ecosystem Apps
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-08-04
 website: https://www.capricoin.org/
-developerName: Programio DMCC LLC
 redirect_from:
 - /android/org.capricoin.copay/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-06
   version: 5.5.5
   icon: org.capricoin.copay.png
+  developerName: Programio DMCC LLC
 
 ---
 

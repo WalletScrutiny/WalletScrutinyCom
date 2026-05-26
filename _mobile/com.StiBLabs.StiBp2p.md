@@ -6,7 +6,6 @@ date: 2023-04-20
 authors:
 - danny
 website: http://stib.co#deadLink
-developerName: StiBLabs
 redirect_from:
 - /android/com.StiBLabs.StiBp2p/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.5
   reviews: 13
   icon: com.StiBLabs.StiBp2p.png
+  developerName: StiBLabs
 
 ---
 

@@ -3,7 +3,6 @@ title: bitlouis
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: Bitlouis
 redirect_from:
 - /android/com.bitlouis.bitlouis/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-28
   version: '1.0'
   icon: com.bitlouis.bitlouis.png
+  developerName: Bitlouis
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-11-05
 website: https://cryptmi.com
-developerName: Miles.Blue Inc
 redirect_from:
 - /android/com.milesblue.milesblue/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.1.4
   reviews: 10
   icon: com.milesblue.milesblue.jpg
+  website: https://cryptmi.com
+  developerName: Miles.Blue Inc
 
 ---
 

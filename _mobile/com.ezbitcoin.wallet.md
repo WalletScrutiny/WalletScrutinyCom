@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://cc-communications.net/
-developerName: CryptoCurrencyCommunications
 redirect_from:
 - /android/com.ezbitcoin.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-18
   version: 1.2.1
   icon: com.ezbitcoin.wallet.png
+  developerName: CryptoCurrencyCommunications
 
 ---
 

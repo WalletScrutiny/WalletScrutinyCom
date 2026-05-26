@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://logisticprotrade.com#deadLink
-developerName: Alt 5 Pro
 redirect_from:
 - /android/com.logisticprotrade.droidapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-16
   version: '1.5'
   icon: com.logisticprotrade.droidapp.jpg
+  developerName: Alt 5 Pro
 
 ---
 

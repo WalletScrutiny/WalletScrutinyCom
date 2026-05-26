@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-28
 website: https://kala.finance#deadLink
-developerName: Kala Labs
 redirect_from:
 - /android/finance.kala.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-05
   version: VARY
   icon: finance.kala.app.png
+  developerName: Kala Labs
 
 ---
 

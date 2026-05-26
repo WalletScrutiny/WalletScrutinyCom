@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://sharuvan.com
-developerName: Ahmed Sharuvan
 redirect_from:
 - /android/com.sharuvan.monetaria/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-23
   version: 1.0.2
   icon: com.sharuvan.monetaria.png
+  developerName: Ahmed Sharuvan
 
 ---
 

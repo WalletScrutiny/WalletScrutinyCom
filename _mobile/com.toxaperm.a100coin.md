@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://100coin.ru
-developerName: Kriptolife@
 redirect_from:
 - /android/com.toxaperm.a100coin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-20
   version: '1.0'
   icon: com.toxaperm.a100coin.jpg
+  developerName: Kriptolife@
 
 ---
 

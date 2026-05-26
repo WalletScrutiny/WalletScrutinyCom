@@ -3,7 +3,6 @@ title: BuhoGo
 verdict: wip
 meta: fewusers
 date: 2026-01-14
-developerName: Dr.Shift
 redirect_from:
 - /android/mybuho.buhogo/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-01
   version: 1.8.1
   icon: mybuho.buhogo.png
+  developerName: Dr.Shift
 
 ---
 

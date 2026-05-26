@@ -1,13 +1,12 @@
 ---
 wsId: lavaXYZ
-title: 'Lava: Secure Bitcoin Loans'
+title: 'Lava: Bitcoin Loans & Card'
 verdict: nosource
 meta: ok
 date: 2025-05-22
 authors:
 - danny
 twitter: lava_xyz
-developerName: Lava Global Inc.
 redirect_from:
 - /android/com.lavamobile/
 - /iphone/xyz.lava.mobile/
@@ -15,11 +14,12 @@ android:
   appId: com.lavamobile
   users: 1000
   released: 2024-05-25
-  updated: 2026-05-12
-  version: 3.5.0
+  updated: 2026-05-20
+  version: 3.6.0
   reviews: 9
   icon: com.lavamobile.png
   website: https://lava.xyz
+  developerName: Lava Global Inc.
 iphone:
   appId: xyz.lava.mobile
   idd: '1661751123'
@@ -29,6 +29,7 @@ iphone:
   version: 3.5.0
   reviews: 141
   icon: xyz.lava.mobile.jpg
+  developerName: Lava Global Inc.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://kryptonio.com#deadLink
-developerName: Kryptonio
 redirect_from:
 - /android/com.kryptonio/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-03
   version: VARY
   icon: com.kryptonio.png
+  developerName: Kryptonio
 
 ---
 

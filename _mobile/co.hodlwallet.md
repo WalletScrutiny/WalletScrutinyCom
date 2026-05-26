@@ -29,8 +29,8 @@ android:
   version: 3.3.5
   reviews: 51
   icon: co.hodlwallet.png
-  repository: https://github.com/hodlwallet/hodl-wallet-android
   developerName: Hodl Wallet INC
+  repository: https://github.com/hodlwallet/hodl-wallet-android
 iphone:
   appId: co.hodlwallet
   idd: '1382342568'
@@ -39,8 +39,8 @@ iphone:
   version: '1.13'
   reviews: 138
   icon: co.hodlwallet.jpg
-  repository: https://github.com/hodlwallet/hodl-wallet-ios
   developerName: Hodl Wallet Inc
+  repository: https://github.com/hodlwallet/hodl-wallet-ios
 
 ---
 

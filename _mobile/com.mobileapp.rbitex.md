@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://rbitex.com
-developerName: Rbitex Ventures Private Limited
 redirect_from:
 - /android/com.mobileapp.rbitex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-06-12
   version: 3.0.2
   icon: com.mobileapp.rbitex.png
+  developerName: Rbitex Ventures Private Limited
 
 ---
 

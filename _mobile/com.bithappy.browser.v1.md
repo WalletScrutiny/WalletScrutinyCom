@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://bithappy.co.uk#deadLink
-developerName: S Lee
 redirect_from:
 - /android/com.bithappy.browser.v1/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2017-11-23
   version: 1.2.7
   icon: com.bithappy.browser.v1.png
+  developerName: S Lee
 
 ---
 

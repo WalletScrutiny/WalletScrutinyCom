@@ -10,7 +10,6 @@ twitter: reserveprotocol
 social:
 - https://discord.com/invite/YmbQwmmKEv#deadLink
 - https://www.facebook.com/holareserve
-developerName: Best Friend Finance, LLC
 redirect_from:
 - /android/rsv.walletapp.reserve/
 android:
@@ -19,8 +18,10 @@ android:
   released: 2019-07-30
   updated: 2026-04-22
   version: 3.1.9
-  reviews: 518
+  reviews: 519
   icon: rsv.walletapp.reserve.png
+  website: https://uglycash.app/
+  developerName: Best Friend Finance, LLC
 
 ---
 

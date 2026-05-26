@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/myntapp
 - https://www.youtube.com/channel/UCWodTrNidfujoaKxYhiTpVQ
 - https://www.instagram.com/mynt.crypto
-developerName: MYNT TECNOLOGIA LTDA
 redirect_from:
 - /android/br.com.mynt/
 - /iphone/br.com.mynt/
@@ -23,6 +22,7 @@ android:
   version: 1.108.0
   reviews: 5
   icon: br.com.mynt.png
+  developerName: MYNT TECNOLOGIA LTDA
 iphone:
   appId: br.com.mynt
   idd: '1592181444'
@@ -30,8 +30,9 @@ iphone:
   released: 2022-06-19
   updated: 2026-05-16
   version: 1.108.0
-  reviews: 1874
+  reviews: 1880
   icon: br.com.mynt.jpg
+  developerName: MYNT TECNOLOGIA LTDA
 
 ---
 

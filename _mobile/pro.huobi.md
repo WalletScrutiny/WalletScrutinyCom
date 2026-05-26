@@ -21,9 +21,9 @@ android:
   appId: pro.huobi
   users: 10000000
   released: 2017-11-01
-  updated: 2026-05-14
-  version: 11.20.0
-  reviews: 613
+  updated: 2026-05-22
+  version: 11.20.1
+  reviews: 553
   icon: pro.huobi.png
   website: http://www.hbg.com
   developerName: Huobi

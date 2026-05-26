@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: http://xnano.com.br#deadLink
-developerName: XB Soluções Digitais
 redirect_from:
 - /android/com.inf.os.xnanoandroid/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-08
   version: '4.0'
   icon: com.inf.os.xnanoandroid.png
+  developerName: XB Soluções Digitais
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Investments - Capital.com
+title: Investments - Capital·com
 verdict: nosendreceive
 meta: ok
 date: 2024-02-22
@@ -8,16 +8,17 @@ authors:
 - leo
 website: https://capital.com/
 twitter: capitalcom
-developerName: Capital Com (UK) Limited
 redirect_from:
 - /android/com.capital.etf.trade/
 android:
   appId: com.capital.etf.trade
   users: 5000000
-  updated: 2026-05-18
-  version: 3.34.1
+  updated: 2026-05-25
+  version: 3.34.2
   reviews: 7
   icon: com.capital.etf.trade.png
+  website: https://capital.com/
+  developerName: Capital Com (UK) Limited
 
 ---
 

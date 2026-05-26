@@ -6,7 +6,6 @@ date: 2022-12-17
 authors:
 - danny
 website: https://www.huobilbn.com
-developerName: Huobi Labuan Limited
 redirect_from:
 - /android/com.huobilbn.appstore/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-17
   version: 2.0.1
   icon: com.huobilbn.appstore.png
+  developerName: Huobi Labuan Limited
 
 ---
 

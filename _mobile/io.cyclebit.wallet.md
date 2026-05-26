@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: http://cyclebit.io
-developerName: ISS Technologies
 redirect_from:
 - /android/io.cyclebit.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-02-08
   version: 2.1.0
   icon: io.cyclebit.wallet.png
+  developerName: ISS Technologies
 
 ---
 

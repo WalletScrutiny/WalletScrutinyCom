@@ -6,7 +6,6 @@ date: 2024-12-23
 authors:
 - danny
 website: https://safepay.live#deadLink
-developerName: safepay
 redirect_from:
 - /android/com.safepay.live/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-03-30
   version: 3.0.0
   icon: com.safepay.live.png
+  developerName: safepay
 
 ---
 

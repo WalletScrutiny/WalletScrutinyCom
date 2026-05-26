@@ -11,7 +11,6 @@ twitter: venmo
 social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
-developerName: Venmo
 redirect_from:
 - /android/com.venmo/
 - /iphone/net.kortina.labs.Venmo/
@@ -21,8 +20,10 @@ android:
   released: 2010-05-17
   updated: 2026-05-12
   version: 26.9.0
-  reviews: 353541
+  reviews: 353850
   icon: com.venmo.png
+  website: https://venmo.com/
+  developerName: Venmo
 iphone:
   appId: net.kortina.labs.Venmo
   idd: '351727428'
@@ -32,6 +33,7 @@ iphone:
   version: 26.9.2
   reviews: 15465515
   icon: net.kortina.labs.Venmo.jpg
+  developerName: Venmo
 
 ---
 

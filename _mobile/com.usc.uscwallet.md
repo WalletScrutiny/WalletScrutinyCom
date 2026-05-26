@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://useongcoin.com#deadLink
-developerName: 유성코인
 redirect_from:
 - /android/com.usc.uscwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-21
   version: 1.0.1
   icon: com.usc.uscwallet.png
+  developerName: 유성코인
 
 ---
 

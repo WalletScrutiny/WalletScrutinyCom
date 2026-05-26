@@ -6,7 +6,6 @@ date: 2023-08-04
 authors:
 - danny
 website: http://smilestory.io
-developerName: Smilestory Co., Ltd.
 redirect_from:
 - /android/cryptopia.mobile/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.2
   reviews: 3
   icon: cryptopia.mobile.png
+  developerName: Smilestory Co., Ltd.
 
 ---
 

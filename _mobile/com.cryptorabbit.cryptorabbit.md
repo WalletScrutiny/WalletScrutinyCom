@@ -3,7 +3,6 @@ title: CryptoRabbt! New Free Cryptocu
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: sat.ldt12.12
 redirect_from:
 - /android/com.cryptorabbit.cryptorabbit/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-15
   version: 1.0.9
   icon: com.cryptorabbit.cryptorabbit.png
+  developerName: sat.ldt12.12
 
 ---
 

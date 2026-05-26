@@ -6,7 +6,6 @@ date: 2023-06-01
 authors:
 - danny
 website: http://www.coinchat.im#deadLink
-developerName: Biliao Foundation Ltd.
 redirect_from:
 - /android/com.coinchat.coinchat/
 android:
@@ -17,6 +16,7 @@ android:
   version: 2.0.2
   reviews: 29
   icon: com.coinchat.coinchat.png
+  developerName: Biliao Foundation Ltd.
 
 ---
 

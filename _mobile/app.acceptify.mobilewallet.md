@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://acceptify.io#deadLink
-developerName: Acceptify Limited
 redirect_from:
 - /android/app.acceptify.mobilewallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-11
   version: 0.0.4
   icon: app.acceptify.mobilewallet.png
+  developerName: Acceptify Limited
 
 ---
 

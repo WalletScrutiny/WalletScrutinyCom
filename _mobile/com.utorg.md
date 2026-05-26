@@ -8,16 +8,16 @@ authors:
 twitter: utorgcom
 social:
 - https://www.linkedin.com/company/utorg
-developerName: UTORG LABS HOLDING LTD
 redirect_from:
 - /android/com.utorg/
 android:
   appId: com.utorg
   users: 10000
   released: 2023-06-02
-  updated: 2026-05-14
-  version: 2.92.0
+  updated: 2026-05-22
+  version: 2.92.1
   icon: com.utorg.png
+  developerName: UTORG LABS HOLDING LTD
 
 ---
 

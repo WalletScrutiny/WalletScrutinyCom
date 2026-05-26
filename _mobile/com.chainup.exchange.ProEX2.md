@@ -11,7 +11,6 @@ social:
 - https://discord.com/invite/EG8rVx7qpU#deadLink
 - https://www.instagram.com/proex.io
 - https://www.proex.io
-developerName: ProEX
 redirect_from:
 - /android/com.chainup.exchange.ProEX2/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2023-11-28
   version: 5.9.1_push_v2
   icon: com.chainup.exchange.ProEX2.png
+  developerName: ProEX
 
 ---
 

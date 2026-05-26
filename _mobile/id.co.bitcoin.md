@@ -2,6 +2,7 @@
 wsId: indodax
 title: Indodax Crypto Simple & Secure
 verdict: custodial
+meta: ok
 date: 2021-05-31
 authors:
 - leo
@@ -13,8 +14,8 @@ android:
   appId: id.co.bitcoin
   users: 10000000
   released: 2014-12-15
-  updated: 2026-05-07
-  version: 5.8.6
+  updated: 2026-05-20
+  version: 5.8.7
   reviews: 493
   icon: id.co.bitcoin.png
   meta: ok

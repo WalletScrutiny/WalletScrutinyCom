@@ -17,7 +17,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: TruBit Ltd.
 redirect_from:
 - /android/com.oakk.starocket_wallet/
 - /iphone/com.oakk.starocket-wallet/
@@ -29,6 +28,8 @@ android:
   version: 3.1.7
   reviews: 9
   icon: com.oakk.starocket_wallet.png
+  website: https://trubit.com/
+  developerName: TruBit Ltd.
 iphone:
   appId: com.oakk.starocket-wallet
   idd: '1612013344'
@@ -38,6 +39,7 @@ iphone:
   version: 3.1.6
   reviews: 8
   icon: com.oakk.starocket-wallet.jpg
+  developerName: TruBit Ltd.
 
 ---
 

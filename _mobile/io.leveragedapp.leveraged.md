@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: http://leveragedapp.io#deadLink
-developerName: Leverage Apps
 redirect_from:
 - /android/io.leveragedapp.leveraged/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.6
   reviews: 8
   icon: io.leveragedapp.leveraged.png
+  developerName: Leverage Apps
 
 ---
 

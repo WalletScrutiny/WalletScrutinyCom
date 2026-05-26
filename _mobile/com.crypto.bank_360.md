@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://cryptocash-360.com
-developerName: RYDEUM Technologies, Inc.
 redirect_from:
 - /android/com.crypto.bank_360/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-19
   version: 1.0.0
   icon: com.crypto.bank_360.jpg
+  developerName: RYDEUM Technologies, Inc.
 
 ---
 

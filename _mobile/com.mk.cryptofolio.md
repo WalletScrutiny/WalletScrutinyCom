@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - leo
 website: http://www.thecryptofolioapp.com#deadLink
-developerName: The CryptoFolio App
 redirect_from:
 - /com.mk.cryptofolio/
 - /posts/com.mk.cryptofolio/
@@ -18,6 +17,7 @@ android:
   updated: 2020-08-19
   version: 1.0.51
   icon: com.mk.cryptofolio.png
+  developerName: The CryptoFolio App
 
 ---
 

@@ -20,7 +20,7 @@ android:
   appId: com.exmo
   users: 100000
   released: 2019-11-12
-  updated: 2026-05-18
+  updated: 2026-05-21
   version: 3.86.4
   reviews: 96
   icon: com.exmo.png

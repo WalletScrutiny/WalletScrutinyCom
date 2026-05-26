@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: http://peer2btc.com/
-developerName: SR Corporation
 redirect_from:
 - /android/com.mlm.application/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-04-20
   version: '2.6'
   icon: com.mlm.application.png
+  developerName: SR Corporation
 
 ---
 

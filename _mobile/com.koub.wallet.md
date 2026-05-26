@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://unitechcapital.net
-developerName: BFour Production
 redirect_from:
 - /android/com.koub.wallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-01-09
   version: 1.0.0
   icon: com.koub.wallet.png
+  website: https://unitechcapital.net
+  developerName: BFour Production
 
 ---
 

@@ -3,7 +3,6 @@ title: Paed
 verdict: wip
 meta: removed
 date: 2024-07-22
-developerName: PAED Group
 redirect_from:
 - /android/com.paed.paed/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-25
   version: 1.0.0
   icon: com.paed.paed.png
+  developerName: PAED Group
 
 ---
 

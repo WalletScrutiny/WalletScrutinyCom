@@ -21,8 +21,8 @@ android:
   icon: net.bither.png
   meta: removed
   website: http://Bither.net
-  repository: https://github.com/bither/bither-android
   developerName: getcai
+  repository: https://github.com/bither/bither-android
 iphone:
   appId: net.bither
   idd: 899478936
@@ -33,8 +33,8 @@ iphone:
   icon: net.bither.jpg
   meta: stale
   website: https://bither.net
-  repository: https://github.com/bither/bither-ios
   developerName: BITHER Limited
+  repository: https://github.com/bither/bither-ios
 
 ---
 

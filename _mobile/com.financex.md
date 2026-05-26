@@ -6,7 +6,6 @@ date: 2024-04-03
 authors:
 - danny
 website: http://www.financex.io#deadLink
-developerName: FinanceX
 redirect_from:
 - /android/com.financex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-01-13
   version: 1.3.12
   icon: com.financex.png
+  developerName: FinanceX
 
 ---
 

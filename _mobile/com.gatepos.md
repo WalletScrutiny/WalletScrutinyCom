@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-02-28
 website: https://www.mercury.cash
-developerName: IT Mercury Cash
 redirect_from:
 - /android/com.gatepos/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-21
   version: '1.1'
   icon: com.gatepos.png
+  developerName: IT Mercury Cash
 
 ---
 

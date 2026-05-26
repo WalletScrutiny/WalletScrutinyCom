@@ -6,7 +6,6 @@ meta: ok
 date: 2021-11-15
 authors:
 - danny
-developerName: Original Digital Corporation
 appCountry: us
 redirect_from:
 - /android/com.ogpay/
@@ -15,11 +14,12 @@ android:
   appId: com.ogpay
   users: 10000
   released: 2019-07-31
-  updated: 2026-05-15
+  updated: 2026-05-25
   version: VARY
   reviews: 34
   icon: com.ogpay.png
   website: https://www.ogpaywallet.com
+  developerName: Original Digital Corporation
 iphone:
   appId: com.unifiedsignal.ogpaywallet
   idd: 1471960731
@@ -29,6 +29,7 @@ iphone:
   reviews: 263
   icon: com.unifiedsignal.ogpaywallet.jpg
   website: https://ogpaywallet.com/
+  developerName: Original Digital Corporation
 
 ---
 

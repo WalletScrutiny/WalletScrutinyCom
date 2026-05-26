@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://www.arowex.com#deadLink
-developerName: ArowEx
 redirect_from:
 - /android/arowex.com/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-17
   version: 0.0.0.1
   icon: arowex.com.png
+  developerName: ArowEx
 
 ---
 

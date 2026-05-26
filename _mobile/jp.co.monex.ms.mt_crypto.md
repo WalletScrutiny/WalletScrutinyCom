@@ -6,7 +6,6 @@ date: 2025-11-05
 authors:
 - danny
 website: http://www.monex.co.jp/
-developerName: マネックス証券株式会社
 redirect_from:
 - /android/jp.co.monex.ms.mt_crypto/
 android:
@@ -16,6 +15,8 @@ android:
   updated: 2025-11-27
   version: 1.0.12
   icon: jp.co.monex.ms.mt_crypto.png
+  website: http://www.monex.co.jp/
+  developerName: マネックス証券株式会社
 
 ---
 

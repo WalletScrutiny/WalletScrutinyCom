@@ -13,7 +13,6 @@ social:
 - https://t.me/d_ima13
 - https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
 - https://medium.com/@elegro
-developerName: Niko Technologies
 redirect_from:
 - /android/paybusiness.elegro.eu/
 - /iphone/paybusiness.elegro.eu/
@@ -24,6 +23,8 @@ android:
   updated: 2025-05-09
   version: 1.4.0
   icon: paybusiness.elegro.eu.jpg
+  website: https://business.elegro.eu/elegro-business-wallet
+  developerName: Niko Technologies
 iphone:
   appId: paybusiness.elegro.eu
   idd: '1526117414'
@@ -33,6 +34,7 @@ iphone:
   version: '4.1'
   reviews: 0
   icon: paybusiness.elegro.eu.jpg
+  developerName: Niko Technologies
 
 ---
 

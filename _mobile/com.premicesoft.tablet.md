@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-08-21
 website: http://www.premicesoft.com
-developerName: Premicesoft
 redirect_from:
 - /android/com.premicesoft.tablet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-01-04
   version: 1.2.0
   icon: com.premicesoft.tablet.png
+  developerName: Premicesoft
 
 ---
 

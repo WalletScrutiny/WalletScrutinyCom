@@ -6,7 +6,6 @@ date: 2023-06-11
 authors:
 - danny
 website: https://www.xyt.com#deadLink
-developerName: XYT Pro
 redirect_from:
 - /android/com.xytwww/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-04-14
   version: 1.3.1
   icon: com.xytwww.png
+  developerName: XYT Pro
 
 ---
 

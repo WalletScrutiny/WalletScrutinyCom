@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://qilinlab.com
-developerName: Qilin Lab
 redirect_from:
 - /android/com.qlexchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-03
   version: VARY
   icon: com.qlexchange.png
+  developerName: Qilin Lab
 
 ---
 

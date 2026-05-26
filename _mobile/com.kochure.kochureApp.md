@@ -2,6 +2,7 @@
 wsId: kochureCrypto
 title: 'Kochure: Buy & Sell Crypto'
 verdict: custodial
+meta: ok
 date: 2025-07-24
 authors:
 - danny
@@ -9,7 +10,6 @@ twitter: kochureglobal
 social:
 - https://www.facebook.com/KochureGlobal
 - https://www.instagram.com/kochureglobal
-developerName: Kochure Technologies Limited
 redirect_from:
 - /android/com.kochure.kochureApp/
 - /iphone/com.kochure.kochure-app/
@@ -23,6 +23,7 @@ android:
   icon: com.kochure.kochureApp.png
   meta: ok
   website: https://kochure.com/
+  developerName: Kochure Technologies Limited
 iphone:
   appId: com.kochure.kochure-app
   idd: '1595574962'
@@ -33,6 +34,7 @@ iphone:
   reviews: 236
   icon: com.kochure.kochure-app.jpg
   meta: stale
+  developerName: Kochure Technologies Limited
 
 ---
 

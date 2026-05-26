@@ -7,7 +7,6 @@ date: 2023-08-25
 authors:
 - danny
 twitter: DsdaqCom
-developerName: Dsdaq Market Ltd.
 redirect_from:
 - /android/com.chainup.exchange.DsdaqGlobal/
 - /iphone/com.new.dsdaq.global/
@@ -19,6 +18,7 @@ android:
   version: 5.4.1_push_v2
   icon: com.chainup.exchange.DsdaqGlobal.png
   website: https://dsdaq.com#deadLink
+  developerName: Dsdaq Market Ltd.
 iphone:
   appId: com.new.dsdaq.global
   idd: '1594151467'
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.new.dsdaq.global.jpg
   website: http://dsdaq.io
+  developerName: Dsdaq Market Ltd.
 
 ---
 

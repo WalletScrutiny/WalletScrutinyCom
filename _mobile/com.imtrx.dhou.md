@@ -5,7 +5,6 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
-developerName: g83ohv
 redirect_from:
 - /android/com.imtrx.dhou/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-09-13
   version: '1.2'
   icon: com.imtrx.dhou.png
+  developerName: g83ohv
 
 ---
 

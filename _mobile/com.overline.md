@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/overlinenetwork
 - https://www.instagram.com/overline.network
 - https://www.tiktok.com/@overlinenetwork
-developerName: American Centurion Group, Inc.
 redirect_from:
 - /android/com.overline/
 - /iphone/com.americancenturiongroup.borderless/
@@ -24,6 +23,7 @@ android:
   version: '1.1'
   reviews: 4
   icon: com.overline.png
+  developerName: American Centurion Group, Inc.
 iphone:
   appId: com.americancenturiongroup.borderless
   idd: '1520123027'
@@ -33,6 +33,7 @@ iphone:
   version: '1.17'
   reviews: 10
   icon: com.americancenturiongroup.borderless.jpg
+  developerName: American Centurion Group, Inc.
 
 ---
 

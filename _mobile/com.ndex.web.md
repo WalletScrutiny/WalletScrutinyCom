@@ -6,7 +6,6 @@ date: 2023-04-29
 authors:
 - danny
 website: https://nd-exk.com#deadLink
-developerName: ND-EX
 redirect_from:
 - /android/com.ndex.web/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-04-02
   version: '1.1'
   icon: com.ndex.web.png
+  developerName: ND-EX
 
 ---
 

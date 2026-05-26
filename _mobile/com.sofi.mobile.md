@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://www.sofi.com
 twitter: SoFi
-developerName: Social Finance, LLC
 redirect_from:
 - /android/com.sofi.mobile/
 - /iphone/com.sofi.mobile/
@@ -16,10 +15,12 @@ android:
   appId: com.sofi.mobile
   users: 5000000
   released: 2017-04-10
-  updated: 2026-05-15
-  version: 3.95.0
-  reviews: 20932
+  updated: 2026-05-22
+  version: 3.96.0
+  reviews: 20955
   icon: com.sofi.mobile.png
+  website: https://www.sofi.com
+  developerName: Social Finance, LLC
 iphone:
   appId: com.sofi.mobile
   idd: '1191985736'
@@ -29,6 +30,7 @@ iphone:
   version: 3.96.0
   reviews: 385560
   icon: com.sofi.mobile.jpg
+  developerName: Social Finance, LLC
 
 ---
 

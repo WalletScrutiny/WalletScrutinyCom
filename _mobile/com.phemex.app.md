@@ -23,10 +23,11 @@ android:
   appId: com.phemex.app
   users: 1000000
   released: 2020-02-19
-  updated: 2026-05-14
-  version: 5.18.0
-  reviews: 1467
+  updated: 2026-05-22
+  version: 5.19.0
+  reviews: 1468
   icon: com.phemex.app.png
+  website: https://phemex.com
   developerName: Leading Magic Limited
 iphone:
   appId: com.phemex.submit

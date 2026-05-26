@@ -18,7 +18,6 @@ features:
 - hd
 - segwit
 - tradeAlts
-developerName: Gem Wallet LLC
 redirect_from:
 - /android/com.gemwallet.android/
 - /iphone/com.gemwallet.ios/
@@ -27,12 +26,13 @@ android:
   users: 100000
   appCountry: ae
   released: 2023-06-26
-  updated: 2026-05-19
-  version: '2.68'
+  updated: 2026-05-23
+  version: '2.72'
   reviews: 5
   icon: com.gemwallet.android.png
   verdict: sourceavailable
   website: https://gemwallet.com
+  developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/wallet
   twitter: gemwallet
 iphone:
@@ -46,6 +46,7 @@ iphone:
   icon: com.gemwallet.ios.jpg
   verdict: wip
   website: https://gemwallet.com/
+  developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/gem-android
   twitter: GemWalletApp
 

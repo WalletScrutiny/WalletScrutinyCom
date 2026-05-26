@@ -6,7 +6,6 @@ date: 2023-04-18
 authors:
 - danny
 website: https://qbita.org
-developerName: Valzu
 redirect_from:
 - /android/org.qbita.bitcoin_wallet/
 android:
@@ -17,6 +16,8 @@ android:
   version: '1.0'
   reviews: 11
   icon: org.qbita.bitcoin_wallet.png
+  website: https://qbita.org
+  developerName: Valzu
 
 ---
 

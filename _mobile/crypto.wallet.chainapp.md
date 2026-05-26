@@ -7,7 +7,6 @@ date: 2023-12-19
 authors:
 - danny
 website: https://getbull.app
-developerName: SUPERBRAIN LIMITED
 redirect_from:
 - /android/crypto.wallet.chainapp/
 - /iphone/crypto.wallet.chainapp/
@@ -18,6 +17,7 @@ android:
   updated: 2023-03-23
   version: 2.0.0
   icon: crypto.wallet.chainapp.png
+  developerName: SUPERBRAIN LIMITED
 iphone:
   appId: crypto.wallet.chainapp
   idd: '1558608737'
@@ -27,6 +27,7 @@ iphone:
   version: 2.0.0
   reviews: 3
   icon: crypto.wallet.chainapp.jpg
+  developerName: SUPERBRAIN LIMITED
 
 ---
 

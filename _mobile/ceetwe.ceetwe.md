@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://ceetwe.com#deadLink
-developerName: Mr. Vin
 redirect_from:
 - /android/ceetwe.ceetwe/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-01-02
   version: '22.01'
   icon: ceetwe.ceetwe.png
+  developerName: Mr. Vin
 
 ---
 

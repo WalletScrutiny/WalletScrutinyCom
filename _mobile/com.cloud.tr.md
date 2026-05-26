@@ -18,10 +18,11 @@ android:
   appId: com.cloud.tr
   users: 5000000
   released: 2021-07-16
-  updated: 2026-05-18
-  version: 4.3.1
-  reviews: 21493
+  updated: 2026-05-20
+  version: 4.3.2
+  reviews: 21504
   icon: com.cloud.tr.png
+  website: https://www.trbinance.com/
   developerName: Binance TR
 iphone:
   appId: com.binanceCloudTR.binance

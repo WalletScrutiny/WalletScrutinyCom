@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://easycryptos.io#deadLink
-developerName: ntfs pokem ale
 redirect_from:
 - /android/pixel.websolutions.ecrytpos.easy_cryptos/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-10
   version: 1.0.0
   icon: pixel.websolutions.ecrytpos.easy_cryptos.png
+  developerName: ntfs pokem ale
 
 ---
 

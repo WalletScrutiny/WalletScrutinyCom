@@ -5,7 +5,6 @@ meta: removed
 date: 2025-05-14
 authors:
 - danny
-developerName: Mersey Software
 redirect_from:
 - /android/com.merseyside.cripto/
 android:
@@ -16,6 +15,7 @@ android:
   version: '1.34'
   reviews: 3
   icon: com.merseyside.cripto.png
+  developerName: Mersey Software
 
 ---
 

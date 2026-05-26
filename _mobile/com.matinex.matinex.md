@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://web.archive.org/web/20221120043914/https://matinex.com/
-developerName: Sonny Asgari
 redirect_from:
 - /android/com.matinex.matinex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-22
   version: 1.0.6
   icon: com.matinex.matinex.png
+  developerName: Sonny Asgari
 
 ---
 

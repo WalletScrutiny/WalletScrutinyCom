@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-21
 website: http://www.banco.id
-developerName: Keypair Co., Ltd.
 redirect_from:
 - /android/kr.co.keypair.purplecardtouch/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-17
   version: 1.0.0.45
   icon: kr.co.keypair.purplecardtouch.png
+  developerName: Keypair Co., Ltd.
 
 ---
 

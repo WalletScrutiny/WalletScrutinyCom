@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower
-developerName: Dreacot Digital Limited
 redirect_from:
 - /android/com.dreacotdigital.cryptopower.mainnet/
 android:
@@ -17,6 +16,8 @@ android:
   updated: 2025-08-19
   version: 2.1.1
   icon: com.dreacotdigital.cryptopower.mainnet.png
+  website: https://cryptopower.dev/
+  developerName: Dreacot Digital Limited
 
 ---
 

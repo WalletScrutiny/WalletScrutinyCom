@@ -22,6 +22,7 @@ android:
   updated: 2026-02-20
   version: 7.8.0
   icon: io.kriptomat.app.png
+  website: https://kriptomat.io
   developerName: Kriptomat
 iphone:
   appId: io.kriptomat.app

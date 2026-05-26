@@ -25,8 +25,9 @@ android:
   version: 4.11.1
   reviews: 16
   icon: im.adamant.adamantmessengerpwa.png
-  repository: https://github.com/Adamant-im/adamant-im
+  website: https://adamant.im
   developerName: ADAMANT Foundation
+  repository: https://github.com/Adamant-im/adamant-im
 iphone:
   appId: im.adamant.adamant-messenger
   idd: '1341473829'
@@ -36,8 +37,8 @@ iphone:
   version: 3.10.1
   reviews: 18
   icon: im.adamant.adamant-messenger.jpg
-  repository: https://github.com/Adamant-im/adamant-iOS
   developerName: ADAMANT TECH LABS LP
+  repository: https://github.com/Adamant-im/adamant-iOS
 
 ---
 

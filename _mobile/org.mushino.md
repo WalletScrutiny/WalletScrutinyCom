@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://web.archive.org/web/20220819191059/https://mushino.com/
-developerName: Everstrike
 redirect_from:
 - /android/org.mushino/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-05
   version: 1.0.83
   icon: org.mushino.png
+  developerName: Everstrike
 
 ---
 

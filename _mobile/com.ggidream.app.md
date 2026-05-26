@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.ggidream.com#deadLink
-developerName: 골덴글로리
 redirect_from:
 - /android/com.ggidream.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-07
   version: 1.0.0
   icon: com.ggidream.app.png
+  developerName: 골덴글로리
 
 ---
 

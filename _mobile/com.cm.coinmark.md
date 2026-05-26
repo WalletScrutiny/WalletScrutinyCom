@@ -3,7 +3,6 @@ title: CoinMark
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: CoinMark Pro
 redirect_from:
 - /android/com.cm.coinmark/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-27
   version: 1.3.6
   icon: com.cm.coinmark.png
+  developerName: CoinMark Pro
 
 ---
 

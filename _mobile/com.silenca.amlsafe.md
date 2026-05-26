@@ -9,7 +9,6 @@ authors:
 features:
 - buyWithCC
 - tradeAlts
-developerName: Avelot Limited
 redirect_from:
 - /android/com.silenca.amlsafe/
 - /iphone/com.avelot.amlsafe/
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: com.silenca.amlsafe.png
   website: https://safe3.app/
+  developerName: Avelot Limited
 iphone:
   appId: com.avelot.amlsafe
   idd: '1519145333'
@@ -31,6 +31,7 @@ iphone:
   reviews: 51
   icon: com.avelot.amlsafe.jpg
   website: https://Safe3.app
+  developerName: Avelot Limited
 
 ---
 

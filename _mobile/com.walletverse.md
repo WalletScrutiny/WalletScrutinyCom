@@ -18,7 +18,6 @@ features:
 - hd
 - multiAccount
 - tradeAlts
-developerName: ilink Ltd.
 redirect_from:
 - /android/com.walletverse/
 - /iphone/ilink.walletverse/
@@ -28,9 +27,10 @@ android:
   released: 2023-06-29
   updated: 2026-05-05
   version: 1.17.0
-  reviews: 12
+  reviews: 13
   icon: com.walletverse.png
   website: https://walletverse.io/
+  developerName: ilink Ltd.
 iphone:
   appId: ilink.walletverse
   idd: '6462672660'
@@ -41,6 +41,7 @@ iphone:
   reviews: 41
   icon: ilink.walletverse.jpg
   website: https://walletverse.io
+  developerName: ilink Ltd.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://santiagocelentano.wixsite.com/esantrix#deadLink
-developerName: Santiago Celentano
 redirect_from:
 - /android/esantrix.bsas/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-11
   version: '9.8'
   icon: esantrix.bsas.png
+  developerName: Santiago Celentano
 
 ---
 

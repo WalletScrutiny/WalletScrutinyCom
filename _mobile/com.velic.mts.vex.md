@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: http://www.velic.io
-developerName: VELIC Services
 redirect_from:
 - /android/com.velic.mts.vex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-08-04
   version: 2.2.0
   icon: com.velic.mts.vex.png
+  developerName: VELIC Services
 
 ---
 

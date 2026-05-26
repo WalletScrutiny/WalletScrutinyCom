@@ -6,7 +6,6 @@ date: 2021-08-09
 authors:
 - danny
 website: http://www.allcoinwallet.com
-developerName: All Coin Wallet
 redirect_from:
 - /android/com.allcoinwallet.allcoinwallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.2.22
   reviews: 1
   icon: com.allcoinwallet.allcoinwallet.png
+  developerName: All Coin Wallet
 
 ---
 

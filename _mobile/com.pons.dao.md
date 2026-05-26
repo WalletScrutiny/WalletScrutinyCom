@@ -6,7 +6,6 @@ date: 2021-11-30
 authors:
 - danny
 twitter: daoconsensus
-developerName: DAO Consensus
 redirect_from:
 - /android/com.pons.dao/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-09-18
   version: 1.0.0.20
   icon: com.pons.dao.jpg
+  developerName: DAO Consensus
 
 ---
 

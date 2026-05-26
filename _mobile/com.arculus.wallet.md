@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://www.arculus.co/
-developerName: Arculus Holdings
 appCountry: us
 redirect_from:
 - /iphone/com.arculus.wallet/
@@ -16,6 +15,7 @@ iphone:
   version: 3.11.0
   reviews: 1107
   icon: com.arculus.wallet.jpg
+  developerName: Arculus Holdings
 
 ---
 

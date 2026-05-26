@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-04-16
 website: http://zuobox.com#deadLink
-developerName: ZuoBox
 redirect_from:
 - /android/com.brsoftech.Zuo/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2017-12-04
   version: '1.0'
   icon: com.brsoftech.Zuo.jpg
+  developerName: ZuoBox
 
 ---
 

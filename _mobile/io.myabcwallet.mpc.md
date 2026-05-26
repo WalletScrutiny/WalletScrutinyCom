@@ -10,7 +10,6 @@ twitter: AhnLab_ABC
 social:
 - https://www.facebook.com/abcwallet2022
 - https://www.youtube.com/@AhnLabBlockchainCompany
-developerName: AhnLab Blockchain Company, INC.
 redirect_from:
 - /android/io.myabcwallet.mpc/
 - /iphone/io.myabcwallet.mpc/
@@ -22,6 +21,7 @@ android:
   version: 2.10.5
   icon: io.myabcwallet.mpc.png
   website: https://myabcwallet.io
+  developerName: AhnLab Blockchain Company, INC.
 iphone:
   appId: io.myabcwallet.mpc
   idd: '1642837445'
@@ -31,6 +31,7 @@ iphone:
   version: 2.9.8
   reviews: 1
   icon: io.myabcwallet.mpc.jpg
+  developerName: AhnLab Blockchain Company, INC.
 
 ---
 

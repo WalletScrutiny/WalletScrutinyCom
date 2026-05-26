@@ -13,7 +13,6 @@ social:
 - https://vk.com/deex.exchange
 - https://www.reddit.com/user/the_deex
 - https://t.me/deexexchange
-developerName: Deex Group
 redirect_from:
 - /android/deex.exchange.android/
 android:
@@ -23,6 +22,7 @@ android:
   updated: 2020-04-21
   version: 0.3.9
   icon: deex.exchange.android.png
+  developerName: Deex Group
 
 ---
 

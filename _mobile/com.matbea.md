@@ -2,6 +2,7 @@
 wsId: matbeaExchange
 title: Matbea
 verdict: custodial
+meta: ok
 date: 2023-04-07
 authors:
 - danny

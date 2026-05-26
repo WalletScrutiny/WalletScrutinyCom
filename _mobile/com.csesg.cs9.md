@@ -6,7 +6,6 @@ date: 2023-12-19
 authors:
 - danny
 website: https://cs9.io
-developerName: CSE
 redirect_from:
 - /android/com.csesg.cs9/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-28
   version: 1.2.9
   icon: com.csesg.cs9.png
+  developerName: CSE
 
 ---
 

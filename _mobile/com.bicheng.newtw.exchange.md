@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://www.btcboxtw.com#deadLink
-developerName: BI CHENG TECHNOLOGY CO., LTD.
 redirect_from:
 - /android/com.bicheng.newtw.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-02
   version: 1.2.1
   icon: com.bicheng.newtw.exchange.png
+  developerName: BI CHENG TECHNOLOGY CO., LTD.
 
 ---
 

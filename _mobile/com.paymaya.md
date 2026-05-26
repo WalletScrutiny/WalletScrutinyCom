@@ -13,17 +13,18 @@ social:
 - https://www.facebook.com/mayaiseverything
 - https://www.linkedin.com/company/mayaph
 - https://www.instagram.com/mayaiseverything
-developerName: Maya Philippines, Inc.
 redirect_from:
 - /android/com.paymaya/
 android:
   appId: com.paymaya
   users: 50000000
   released: 2016-06-05
-  updated: 2026-05-15
+  updated: 2026-05-25
   version: 2.161.1
   reviews: 1212
   icon: com.paymaya.png
+  website: https://www.maya.ph/
+  developerName: Maya Philippines, Inc.
 
 ---
 

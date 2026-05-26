@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://definitex.org/
-developerName: Definitex
 redirect_from:
 - /android/io.definitex.walllet/
 android:
@@ -15,6 +14,7 @@ android:
   version: 0.18.2
   reviews: 29
   icon: io.definitex.walllet.png
+  developerName: Definitex
 
 ---
 

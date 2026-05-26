@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://dx.exchange
-developerName: COINS MARKETPLACE TECHNOLOGIES OU
 redirect_from:
 - /android/antroid.cxtech.com.cxandroidproject/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-10-02
   version: 1.3.12
   icon: antroid.cxtech.com.cxandroidproject.png
+  developerName: COINS MARKETPLACE TECHNOLOGIES OU
 
 ---
 

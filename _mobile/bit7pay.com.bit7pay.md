@@ -7,7 +7,6 @@ authors:
 - danny
 website: http://bit7pay.com
 twitter: bit7pay
-developerName: Saizala Services Private Limited.
 redirect_from:
 - /android/bit7pay.com.bit7pay/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2020-04-08
   version: '1.0'
   icon: bit7pay.com.bit7pay.png
+  developerName: Saizala Services Private Limited.
 
 ---
 

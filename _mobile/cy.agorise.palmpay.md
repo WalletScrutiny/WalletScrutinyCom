@@ -7,7 +7,6 @@ authors:
 - danny
 website: http://www.PalmPay.io
 twitter: Agorise_world
-developerName: Agorise, Ltd.
 redirect_from:
 - /android/cy.agorise.palmpay/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-01-20
   version: VARY
   icon: cy.agorise.palmpay.png
+  developerName: Agorise, Ltd.
 
 ---
 

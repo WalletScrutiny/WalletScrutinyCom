@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://mobilinktoken.com/
 twitter: mobilinkcoin
-developerName: B2GO APPS
 redirect_from:
 - /android/com.mobilink.token/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2019-08-17
   version: '1.4'
   icon: com.mobilink.token.png
+  developerName: B2GO APPS
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-12
 website: https://avivawallets.com#deadLink
-developerName: Ryan Davidd
 redirect_from:
 - /android/com.avivawallets/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-02
   version: '1.0'
   icon: com.avivawallets.png
+  developerName: Ryan Davidd
 
 ---
 

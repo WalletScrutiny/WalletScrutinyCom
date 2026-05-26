@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/cointreeofficial
 - https://www.facebook.com/cointreeofficial
 - https://www.youtube.com/channel/UCLalEIAi3vO59xscJarTtqQ
-developerName: Cointree
 redirect_from:
 - /android/com.cointree.mobileapp/
 - /iphone/com.cointree.mobileapp/
@@ -24,6 +23,7 @@ android:
   icon: com.cointree.mobileapp.png
   meta: removed
   website: https://www.cointree.com/
+  developerName: Cointree
   bugbounty: https://www.cointree.com/company/bug-bounty
 iphone:
   appId: com.cointree.mobileapp
@@ -36,6 +36,7 @@ iphone:
   icon: com.cointree.mobileapp.jpg
   meta: obsolete
   website: https://www.cointree.com
+  developerName: Cointree
 
 ---
 

@@ -32,7 +32,7 @@ iphone:
   released: 2019-01-27
   updated: 2026-05-15
   version: 2.36.0
-  reviews: 5002
+  reviews: 5007
   icon: br.com.coinext.Coinext.jpg
   website: https://coinext.com.br/
   developerName: Coinext

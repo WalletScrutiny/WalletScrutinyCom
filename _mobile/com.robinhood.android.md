@@ -19,10 +19,11 @@ android:
   appId: com.robinhood.android
   users: 10000000
   released: 2015-08-12
-  updated: 2026-05-19
-  version: 2026.19.1
-  reviews: 265705
+  updated: 2026-05-24
+  version: 2026.20.3
+  reviews: 265927
   icon: com.robinhood.android.png
+  website: https://robinhood.com/
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Robinhood

@@ -10,7 +10,6 @@ twitter: Exnovin_io
 social:
 - https://www.linkedin.com/company/exnovin
 - https://www.facebook.com/exnovin.io
-developerName: EX NOVIN
 redirect_from:
 - /android/com.exnovin/
 android:
@@ -19,8 +18,10 @@ android:
   released: 2018-07-06
   updated: 2025-12-15
   version: 2.6.9
-  reviews: 86
+  reviews: 85
   icon: com.exnovin.png
+  website: https://exnovin.net
+  developerName: EX NOVIN
 
 ---
 

@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/official-lpnt
 - https://www.facebook.com/officialLPNT
 - https://www.reddit.com/r/lpntokenofficial
-developerName: LUXURIOUS PRO NETWORK GROUP
 redirect_from:
 - /android/com.token.lpnt/
 android:
@@ -22,6 +21,7 @@ android:
   version: '6.11'
   reviews: 4
   icon: com.token.lpnt.png
+  developerName: LUXURIOUS PRO NETWORK GROUP
 
 ---
 

@@ -3,7 +3,6 @@ title: CharmPay
 verdict: wip
 meta: removed
 date: 2023-09-28
-developerName: Michael Charming Adeyinka
 redirect_from:
 - /android/com.mobiroller.mobi1940242759392/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-11-16
   version: 3.41.0.20
   icon: com.mobiroller.mobi1940242759392.png
+  developerName: Michael Charming Adeyinka
 
 ---
 

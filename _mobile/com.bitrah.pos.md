@@ -8,7 +8,6 @@ authors:
 website: https://bitrah.com/
 social:
 - https://t.me/bitrah_com
-developerName: Ernyka Co
 redirect_from:
 - /android/com.bitrah.pos/
 android:
@@ -18,6 +17,8 @@ android:
   updated: 2023-02-07
   version: 3.0.1
   icon: com.bitrah.pos.png
+  website: https://bitrah.com/
+  developerName: Ernyka Co
 
 ---
 

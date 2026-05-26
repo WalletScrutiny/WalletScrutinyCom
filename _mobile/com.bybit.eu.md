@@ -10,7 +10,6 @@ twitter: BybitEU
 features:
 - buyWithCC
 - tradeAlts
-developerName: Bybit EU GmbH
 redirect_from:
 - /android/com.bybit.eu/
 - /iphone/com.bybit.eu/
@@ -21,6 +20,7 @@ android:
   version: 5.17.0
   icon: com.bybit.eu.png
   website: https://www.bybit.eu/help-center
+  developerName: Bybit EU GmbH
 iphone:
   appId: com.bybit.eu
   idd: '6745866031'
@@ -30,6 +30,7 @@ iphone:
   version: 5.17.0
   reviews: 173
   icon: com.bybit.eu.jpg
+  developerName: Bybit EU GmbH
 
 ---
 

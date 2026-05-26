@@ -6,7 +6,6 @@ date: 2021-04-11
 authors:
 - leo
 website: https://ducatus.net/
-developerName: Ducatus Commerce
 redirect_from:
 - /android/io.ducatus.walnew/
 android:
@@ -17,6 +16,8 @@ android:
   version: 3.13.5
   reviews: 8
   icon: io.ducatus.walnew.png
+  website: https://ducatus.net/
+  developerName: Ducatus Commerce
 
 ---
 

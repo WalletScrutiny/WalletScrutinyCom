@@ -9,7 +9,6 @@ website: https://exonyx.ir#deadLink
 twitter: Exonyxir
 social:
 - https://www.facebook.com/exonyxir
-developerName: Exonyx
 redirect_from:
 - /android/com.exonyxapp.trader/
 android:
@@ -20,6 +19,7 @@ android:
   version: 2.0.6
   reviews: 22
   icon: com.exonyxapp.trader.png
+  developerName: Exonyx
 
 ---
 

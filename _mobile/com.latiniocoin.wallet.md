@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://latinio.io/
-developerName: Blockchain Technology SAS
 redirect_from:
 - /android/com.latiniocoin.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-12
   version: v1.0.0
   icon: com.latiniocoin.wallet.png
+  developerName: Blockchain Technology SAS
 
 ---
 

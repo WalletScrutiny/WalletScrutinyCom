@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://bokucoin.com#deadLink
-developerName: Bokucoin
 redirect_from:
 - /android/com.bokucoin.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-10-10
   version: '1.5'
   icon: com.bokucoin.app.png
+  developerName: Bokucoin
 
 ---
 

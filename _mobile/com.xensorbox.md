@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://xensor.cc#deadLink
 twitter: xensor_iot
-developerName: xenix studio
 redirect_from:
 - /android/com.xensorbox/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2019-12-02
   version: 1.3.6
   icon: com.xensorbox.png
+  developerName: xenix studio
 
 ---
 

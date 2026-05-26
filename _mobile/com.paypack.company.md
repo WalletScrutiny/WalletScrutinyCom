@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://paypack.company#deadLink
-developerName: Ajamba
 redirect_from:
 - /android/com.paypack.company/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-02-04
   version: '1.5'
   icon: com.paypack.company.png
+  developerName: Ajamba
 
 ---
 

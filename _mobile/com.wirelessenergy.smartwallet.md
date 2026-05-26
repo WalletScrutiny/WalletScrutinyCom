@@ -2,6 +2,7 @@
 wsId: swtWallet
 title: SWT Wallet
 verdict: nosource
+meta: fewusers
 date: 2026-05-05
 authors:
 - danny
@@ -9,7 +10,6 @@ twitter: swttoken
 social:
 - https://t.me/swttoken
 - https://www.instagram.com/swttoken/
-developerName: Smart Wallet Token
 redirect_from:
 - /android/com.wirelessenergy.smartwallet/
 - /iphone/com.wirelessenergy.smartwallet/
@@ -21,6 +21,7 @@ android:
   version: 2.17.0
   icon: com.wirelessenergy.smartwallet.png
   meta: fewusers
+  developerName: Smart Wallet Token
 iphone:
   appId: com.wirelessenergy.smartwallet
   idd: '6751100799'
@@ -32,6 +33,7 @@ iphone:
   icon: com.wirelessenergy.smartwallet.jpg
   meta: ok
   website: https://swttoken.com/
+  developerName: Smart Wallet Token
 
 ---
 

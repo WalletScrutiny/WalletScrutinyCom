@@ -23,8 +23,9 @@ android:
   released: 2019-09-06
   updated: 2026-05-18
   version: 3.245.0
-  reviews: 9492
+  reviews: 9499
   icon: com.public.app.jpg
+  website: https://public.com
   developerName: Public Holdings, Inc.
 iphone:
   appId: com.t3securities.matador

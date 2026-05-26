@@ -2,6 +2,7 @@
 wsId: libertex
 title: 'Libertex: Trade & Invest'
 verdict: nosendreceive
+meta: ok
 date: 2021-08-09
 authors:
 - danny
@@ -16,7 +17,7 @@ android:
   released: 2015-05-22
   updated: 2026-04-15
   version: 2.56.0
-  reviews: 1267
+  reviews: 1269
   icon: org.fxclub.libertex.png
   meta: ok
   website: https://libertex.org

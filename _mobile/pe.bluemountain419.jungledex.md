@@ -3,7 +3,6 @@ title: JungleDEX Wallet (Bitcoin,Ethe
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: bluemountain419
 redirect_from:
 - /android/pe.bluemountain419.jungledex/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-20
   version: 1.0.2
   icon: pe.bluemountain419.jungledex.png
+  developerName: bluemountain419
 
 ---
 

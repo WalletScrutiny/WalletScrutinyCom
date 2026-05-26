@@ -28,8 +28,8 @@ android:
   reviews: 13
   icon: com.cypherstack.stackwallet.png
   verdict: sourceavailable
-  repository: https://github.com/cypherstack/stack_wallet
   developerName: Cypher Stack Team
+  repository: https://github.com/cypherstack/stack_wallet
 iphone:
   appId: com.cypherstack.stackwallet
   idd: '1634811534'

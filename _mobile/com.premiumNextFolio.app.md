@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-04-16
 website: http://www.n2blockchain.io#deadLink
-developerName: Nextazy Solutions Pvt Ltd
 redirect_from:
 - /android/com.premiumNextFolio.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-16
   version: '1.2'
   icon: com.premiumNextFolio.app.png
+  developerName: Nextazy Solutions Pvt Ltd
 
 ---
 

@@ -6,7 +6,6 @@ date: 2024-10-23
 authors:
 - danny
 website: https://Arz8.com
-developerName: Arz8x
 redirect_from:
 - /android/com.arz8x.app.arz8x/
 android:
@@ -17,6 +16,7 @@ android:
   version: 5.0.3
   reviews: 80
   icon: com.arz8x.app.arz8x.png
+  developerName: Arz8x
 
 ---
 

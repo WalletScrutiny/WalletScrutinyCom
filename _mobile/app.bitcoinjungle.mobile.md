@@ -27,6 +27,7 @@ android:
   version: 1.4.5
   reviews: 1
   icon: app.bitcoinjungle.mobile.png
+  website: https://bitcoinjungle.app
   developerName: Bitcoin Jungle
 iphone:
   appId: app.bitcoinjungle.ios
@@ -37,6 +38,7 @@ iphone:
   version: 1.4.5
   reviews: 18
   icon: app.bitcoinjungle.ios.jpg
+  website: https://bitcoinjungle.app
   developerName: Bitcoin Jungle LLC
 
 ---

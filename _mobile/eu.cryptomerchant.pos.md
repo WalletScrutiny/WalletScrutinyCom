@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-23
 website: https://www.cryptomerchant.eu
-developerName: Wayne Service Ltd
 redirect_from:
 - /android/eu.cryptomerchant.pos/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-10-19
   version: '1.6'
   icon: eu.cryptomerchant.pos.png
+  developerName: Wayne Service Ltd
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-29
 website: https://changella.com#deadLink
-developerName: Changella
 redirect_from:
 - /android/changella.changella/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-20
   version: 1.0.0
   icon: changella.changella.png
+  developerName: Changella
 
 ---
 

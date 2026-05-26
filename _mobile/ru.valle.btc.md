@@ -7,7 +7,6 @@ authors:
 - leo
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
-developerName: FireEdge
 redirect_from:
 - /ru.valle.btc/
 - /posts/ru.valle.btc/
@@ -21,6 +20,7 @@ android:
   reviews: 17
   icon: ru.valle.btc.png
   signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
+  developerName: FireEdge
 
 ---
 

@@ -6,7 +6,6 @@ meta: removed
 date: 2025-05-14
 authors:
 - danny
-developerName: Newlink
 redirect_from:
 - /android/kr.co.newlinkcorp.cashierest/
 - /iphone/kr.co.newlinkcorp.cashierest/
@@ -18,6 +17,7 @@ android:
   version: 4.24.6
   icon: kr.co.newlinkcorp.cashierest.png
   website: https://www.cashierest.com
+  developerName: Newlink
 iphone:
   appId: kr.co.newlinkcorp.cashierest
   idd: '1462245208'
@@ -27,6 +27,7 @@ iphone:
   version: 4.24.3
   reviews: 35
   icon: kr.co.newlinkcorp.cashierest.jpg
+  developerName: Newlink
 
 ---
 

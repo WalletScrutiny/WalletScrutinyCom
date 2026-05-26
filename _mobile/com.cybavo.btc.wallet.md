@@ -6,7 +6,6 @@ date: 2024-04-03
 authors:
 - danny
 website: https://www.cybavo.com/
-developerName: CYBAVO Inc.
 redirect_from:
 - /android/com.cybavo.btc.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-06-10
   version: 1.0.3200
   icon: com.cybavo.btc.wallet.png
+  developerName: CYBAVO Inc.
 
 ---
 

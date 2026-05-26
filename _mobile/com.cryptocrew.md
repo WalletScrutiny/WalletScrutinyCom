@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: http://goforsage.com/app#deadLink
-developerName: LIV8 LLC
 redirect_from:
 - /android/com.cryptocrew/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-23
   version: '1.0'
   icon: com.cryptocrew.png
+  developerName: LIV8 LLC
 
 ---
 

@@ -19,10 +19,11 @@ android:
   appId: money.boku.android
   users: 50000
   released: 2023-10-17
-  updated: 2026-05-21
-  version: 1.3.206
+  updated: 2026-05-25
+  version: 1.3.209
   reviews: 15
   icon: money.boku.android.jpg
+  website: https://neverless.com
   developerName: neverless
 iphone:
   appId: money.boku.ios

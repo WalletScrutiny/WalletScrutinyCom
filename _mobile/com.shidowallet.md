@@ -15,7 +15,6 @@ social:
 - https://www.facebook.com/ShidoGlobal
 - https://www.instagram.com/shidoglobal
 - https://www.reddit.com/r/ShidoInuOfficial
-developerName: Shido Finance
 redirect_from:
 - /android/com.shidowallet/
 - /iphone/com.shido.wallet/
@@ -28,6 +27,7 @@ android:
   reviews: 36
   icon: com.shidowallet.png
   website: https://shido.io
+  developerName: Shido Finance
 iphone:
   appId: com.shido.wallet
   idd: '6443624368'
@@ -37,6 +37,7 @@ iphone:
   version: '2.7'
   reviews: 55
   icon: com.shido.wallet.jpg
+  developerName: Shido Finance
 
 ---
 

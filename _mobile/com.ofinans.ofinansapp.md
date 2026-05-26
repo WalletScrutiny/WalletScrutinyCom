@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/miraclecashandmore/
 - https://www.facebook.com/miraclecashandmore
 - https://www.linkedin.com/company/miraclecashandmore/
-developerName: Ofinans App
 redirect_from:
 - /android/com.ofinans.ofinansapp/
 android:
@@ -22,6 +21,7 @@ android:
   version: 2.1.3
   reviews: 3
   icon: com.ofinans.ofinansapp.png
+  developerName: Ofinans App
 
 ---
 

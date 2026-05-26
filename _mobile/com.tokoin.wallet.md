@@ -2,6 +2,7 @@
 wsId: TokoinTWallet
 title: My-T Wallet
 verdict: nosource
+meta: obsolete
 date: 2025-01-15
 authors:
 - danny

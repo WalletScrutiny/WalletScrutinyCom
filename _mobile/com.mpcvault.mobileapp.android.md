@@ -14,7 +14,6 @@ features:
 - batching
 - multiAccount
 - multiSig
-developerName: MetaLoop Inc
 redirect_from:
 - /android/com.mpcvault.mobileapp.android/
 - /iphone/com.mpcvault.mobileapp.ios/
@@ -22,10 +21,12 @@ android:
   appId: com.mpcvault.mobileapp.android
   users: 5000
   released: 2022-09-13
-  updated: 2026-05-21
-  version: 3.16.3
+  updated: 2026-05-26
+  version: 3.18.0
   reviews: 3
   icon: com.mpcvault.mobileapp.android.png
+  website: https://mpcvault.com/
+  developerName: MetaLoop Inc
 iphone:
   appId: com.mpcvault.mobileapp.ios
   idd: '1622756458'
@@ -35,6 +36,7 @@ iphone:
   version: 1.138.0
   reviews: 135
   icon: com.mpcvault.mobileapp.ios.jpg
+  developerName: MetaLoop Inc
 
 ---
 

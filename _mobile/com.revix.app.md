@@ -18,7 +18,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: ALTIFY GROUP LIMITED
 redirect_from:
 - /android/com.revix.app/
 - /iphone/com.revix.mobile/
@@ -26,10 +25,11 @@ android:
   appId: com.revix.app
   users: 10000
   released: 2022-08-08
-  updated: 2026-04-18
-  version: 2.9.10
+  updated: 2026-05-13
+  version: 3.0.0
   icon: com.revix.app.png
   website: https://altify.app
+  developerName: ALTIFY GROUP LIMITED
 iphone:
   appId: com.revix.mobile
   idd: '1590491829'
@@ -40,6 +40,7 @@ iphone:
   reviews: 65
   icon: com.revix.mobile.jpg
   website: https://www.altify.app/
+  developerName: ALTIFY GROUP LIMITED
 
 ---
 

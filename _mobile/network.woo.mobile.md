@@ -21,8 +21,9 @@ android:
   version: 3.65.1
   reviews: 10
   icon: network.woo.mobile.png
-  twitter: WOOnetwork
+  website: https://woox.io/
   developerName: WOOTECH Limited
+  twitter: WOOnetwork
 iphone:
   appId: network.woo.mobile
   idd: '1576648404'

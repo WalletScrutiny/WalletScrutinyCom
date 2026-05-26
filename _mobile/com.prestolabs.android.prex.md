@@ -13,17 +13,18 @@ social:
 - https://www.facebook.com/AQXofcl
 - https://www.youtube.com/channel/UC_3J-wzFgDu2P8NF_CrjAYg/featured
 - https://t.me/aqxannouncement
-developerName: Flipster Exchange
 redirect_from:
 - /android/com.prestolabs.android.prex/
 android:
   appId: com.prestolabs.android.prex
   users: 500000
   released: 2022-11-18
-  updated: 2026-05-13
-  version: 3.19.100
+  updated: 2026-05-21
+  version: 3.20.101
   reviews: 75
   icon: com.prestolabs.android.prex.png
+  website: https://flipster.io
+  developerName: Flipster Exchange
 
 ---
 

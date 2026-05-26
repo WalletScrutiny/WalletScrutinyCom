@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/Rayyowallet
 features:
 - fingerprint
-developerName: Montebit
 redirect_from:
 - /android/io.rayyo/
 - /iphone/io.rayyo/
@@ -24,6 +23,7 @@ android:
   version: 0.7.55
   icon: io.rayyo.png
   website: https://rayyo.mx
+  developerName: Montebit
 iphone:
   appId: io.rayyo
   idd: '6448856707'
@@ -33,6 +33,7 @@ iphone:
   version: 0.7.55
   reviews: 36
   icon: io.rayyo.jpg
+  developerName: Montebit
 
 ---
 

@@ -11,7 +11,6 @@ repository: https://github.com/ACINQ/eclair-mobile
 twitter: acinq_co
 features:
 - ln
-developerName: ACINQ
 redirect_from:
 - /eclair/
 - /fr.acinq.eclair.wallet.mainnet2/
@@ -26,6 +25,7 @@ android:
   version: 0.4.18
   reviews: 42
   icon: fr.acinq.eclair.wallet.mainnet2.jpg
+  developerName: ACINQ
 
 ---
 

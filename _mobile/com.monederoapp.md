@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://www.monedero.com/
 twitter: monederodotcom
-developerName: Digital Assets Corporation
 redirect_from:
 - /com.monederoapp/
 - /posts/com.monederoapp/
@@ -20,6 +19,7 @@ android:
   updated: 2021-06-25
   version: 4.1.0
   icon: com.monederoapp.png
+  developerName: Digital Assets Corporation
 
 ---
 

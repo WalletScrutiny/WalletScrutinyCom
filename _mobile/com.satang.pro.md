@@ -2,6 +2,7 @@
 wsId: satangPro
 title: 'orbix: Buy Bitcoin & Crypto'
 verdict: custodial
+meta: ok
 date: 2022-06-28
 authors:
 - danny

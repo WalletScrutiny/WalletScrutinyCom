@@ -19,7 +19,7 @@ android:
   users: 1000000
   released: 2010-08-02
   updated: 2026-05-17
-  version: 7.0.5.14
+  version: 7.0.6.0
   reviews: 350
   icon: com.riflexo.tradeinterceptormobile.png
   website: http://www.thinkmarkets.com

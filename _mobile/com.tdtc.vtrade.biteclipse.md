@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://biteclipse.com/query
-developerName: BitEclipse
 redirect_from:
 - /android/com.tdtc.vtrade.biteclipse/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-03
   version: 1.0.6
   icon: com.tdtc.vtrade.biteclipse.png
+  developerName: BitEclipse
 
 ---
 

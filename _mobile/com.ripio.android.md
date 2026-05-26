@@ -10,7 +10,6 @@ twitter: ripioapp
 social:
 - https://www.linkedin.com/company/ripio
 - https://www.facebook.com/RipioApp
-developerName: Ripio Holding
 redirect_from:
 - /ripio/
 - /com.ripio.android/
@@ -21,10 +20,12 @@ android:
   appId: com.ripio.android
   users: 1000000
   released: 2015-06-01
-  updated: 2026-05-08
-  version: 6.6.2
+  updated: 2026-05-20
+  version: 6.6.3
   reviews: 178
   icon: com.ripio.android.png
+  website: https://ripio.com
+  developerName: Ripio Holding
 
 ---
 

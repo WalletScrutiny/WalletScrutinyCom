@@ -2,6 +2,7 @@
 wsId: rekeningku
 title: Reku - Trade Crypto & US Stock
 verdict: custodial
+meta: ok
 date: 2021-08-27
 authors:
 - danny

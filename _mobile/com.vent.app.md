@@ -2,6 +2,7 @@
 wsId: ventAfrica
 title: 'Vent: Sell BTC, USDT & Crypto'
 verdict: custodial
+meta: ok
 date: 2023-06-10
 authors:
 - danny
@@ -16,8 +17,8 @@ android:
   appId: com.vent.app
   users: 10000
   released: 2022-01-26
-  updated: 2026-04-13
-  version: 2.0.7
+  updated: 2026-05-20
+  version: 2.0.8
   reviews: 10
   icon: com.vent.app.png
   meta: ok

@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://web.excoin.cloud#deadLink
-developerName: rocket trade Limited
 redirect_from:
 - /android/app.excointrades.com/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-02-13
   version: 1.1.3
   icon: app.excointrades.com.jpg
+  developerName: rocket trade Limited
 
 ---
 

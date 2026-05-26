@@ -14,7 +14,6 @@ social:
 - https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
 - https://web.archive.org/web/20250303181124/https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
-developerName: Privapp Network
 redirect_from:
 - /android/network.privapp.wallet/
 android:
@@ -25,6 +24,8 @@ android:
   version: '2.0'
   reviews: 20
   icon: network.privapp.wallet.jpg
+  website: https://privapp.network/
+  developerName: Privapp Network
 
 ---
 

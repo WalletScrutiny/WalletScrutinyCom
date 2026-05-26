@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://lunie.io
-developerName: Lunie International Software Systems Inc.
 redirect_from:
 - /android/org.lunie.lunie/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-26
   version: VARY
   icon: org.lunie.lunie.png
+  developerName: Lunie International Software Systems Inc.
 
 ---
 

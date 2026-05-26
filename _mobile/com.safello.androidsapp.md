@@ -21,6 +21,7 @@ android:
   updated: 2026-04-22
   version: 1.62.1
   icon: com.safello.androidsapp.png
+  website: https://safello.com/
   developerName: Safello
 iphone:
   appId: com.safello.iosapp

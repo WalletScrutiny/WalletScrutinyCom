@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://test2.visionxcrypto.com#deadLink
-developerName: VISION-X LIMITED
 redirect_from:
 - /android/com.visionx_crpto/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-28
   version: 1.0.6
   icon: com.visionx_crpto.png
+  developerName: VISION-X LIMITED
 
 ---
 

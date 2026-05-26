@@ -8,7 +8,6 @@ authors:
 website: https://payeer.com#deadLink
 social:
 - https://www.facebook.com/payeercoins
-developerName: Payeer Official
 redirect_from:
 - /android/com.payeer/
 android:
@@ -19,6 +18,7 @@ android:
   version: VARY
   reviews: 206
   icon: com.payeer.png
+  developerName: Payeer Official
 
 ---
 

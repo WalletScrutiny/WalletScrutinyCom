@@ -19,7 +19,7 @@ android:
   released: 2019-01-24
   updated: 2026-01-21
   version: '38.0'
-  reviews: 2597
+  reviews: 2599
   icon: com.emberfund.ember.jpg
   website: https://www.emberfund.io/
   developerName: Ember Fund Inc

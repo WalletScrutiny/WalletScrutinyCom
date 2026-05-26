@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://www.bmgcrypto.us
-developerName: MW KOP
 redirect_from:
 - /android/com.yesapp.mw/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2023-03-05
   version: 11.3.10
   icon: com.yesapp.mw.jpg
+  developerName: MW KOP
 
 ---
 

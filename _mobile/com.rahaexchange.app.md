@@ -10,7 +10,6 @@ twitter: rahaexchange
 social:
 - https://www.aparat.com/rahaexchange
 - https://www.instagram.com/rahaexchange/
-developerName: RahaPay
 redirect_from:
 - /android/com.rahaexchange.app/
 android:
@@ -21,6 +20,7 @@ android:
   version: '1.007'
   reviews: 5
   icon: com.rahaexchange.app.png
+  developerName: RahaPay
 
 ---
 

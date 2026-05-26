@@ -15,7 +15,6 @@ features:
 - segwit
 - taproot
 - tradeAlts
-developerName: Secret Key Labs
 redirect_from:
 - /android/com.secretkeylabs.xverse/
 - /iphone/com.secretkeylabs.xverse/
@@ -26,9 +25,10 @@ android:
   released: 2021-10-12
   updated: 2026-05-14
   version: 2.3.3
-  reviews: 1094
+  reviews: 1098
   icon: com.secretkeylabs.xverse.png
   website: https://www.xverse.app/
+  developerName: Secret Key Labs
 iphone:
   appId: com.secretkeylabs.xverse
   idd: 1552272513
@@ -39,6 +39,7 @@ iphone:
   reviews: 1
   icon: com.secretkeylabs.xverse.jpg
   website: https://twitter.com/xverse
+  developerName: Secret Key Labs
 
 ---
 

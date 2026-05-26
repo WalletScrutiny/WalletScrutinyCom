@@ -10,7 +10,6 @@ twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal
 - https://www.instagram.com/quidaxglobal
-developerName: Quidax Technologies
 redirect_from:
 - /android/com.quidax.lite/
 - /iphone/com.quidax.lite/
@@ -23,6 +22,7 @@ android:
   reviews: 105
   icon: com.quidax.lite.png
   website: https://quidax.io
+  developerName: Quidax Technologies
 iphone:
   appId: com.quidax.lite
   idd: '1603997707'
@@ -32,6 +32,7 @@ iphone:
   version: 1.22.0
   reviews: 1829
   icon: com.quidax.lite.jpg
+  developerName: Quidax Technologies
 
 ---
 

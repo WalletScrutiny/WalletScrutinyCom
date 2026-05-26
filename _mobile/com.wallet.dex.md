@@ -10,7 +10,6 @@ twitter: Dexwallets
 social:
 - https://www.facebook.com/profile.php?id=100088051538476&mibextid=LQQJ4d
 - https://t.me/Dexwalletofficialcommunity
-developerName: DexWallet Pvt. Limited
 redirect_from:
 - /android/com.wallet.dex/
 android:
@@ -21,6 +20,7 @@ android:
   version: 1.3.1
   reviews: 12
   icon: com.wallet.dex.png
+  developerName: DexWallet Pvt. Limited
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://plutx.io#deadLink
-developerName: Infinity Blockchain Labs
 redirect_from:
 - /android/com.plutxwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-07
   version: '1.1'
   icon: com.plutxwallet.png
+  developerName: Infinity Blockchain Labs
 
 ---
 

@@ -9,7 +9,6 @@ website: https://gameper.io
 social:
 - https://www.facebook.com/%EA%B2%9C%ED%8D%BC-2178994162345350
 - https://www.youtube.com/channel/UCvF95zGgUlY2G6Lkb1GO-fw
-developerName: Gameper
 redirect_from:
 - /android/com.bitro2/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2021-12-30
   version: 1.0.80
   icon: com.bitro2.png
+  developerName: Gameper
 
 ---
 

@@ -20,7 +20,6 @@ features:
 - taproot
 - tradeAlts
 - multiAccount
-developerName: Horizontal Systems
 redirect_from:
 - /io.horizontalsystems.bankwallet/
 - /posts/io.horizontalsystems.bankwallet/
@@ -38,6 +37,7 @@ android:
   alternativeStores:
   - fdroid
   website: https://horizontalsystems.io/
+  developerName: Horizontal Systems
   repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 iphone:
   appId: io.horizontalsystems.bank-wallet
@@ -48,6 +48,7 @@ iphone:
   reviews: 1305
   icon: io.horizontalsystems.bank-wallet.jpg
   website: https://unstoppable.money/
+  developerName: Horizontal Systems
   repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 
 ---

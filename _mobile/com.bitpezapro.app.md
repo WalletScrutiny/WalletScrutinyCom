@@ -2,6 +2,7 @@
 wsId: Bekonta
 title: 'Bekonta: Buy & Sell Crypto'
 verdict: custodial
+meta: obsolete
 date: 2024-02-05
 authors:
 - danny

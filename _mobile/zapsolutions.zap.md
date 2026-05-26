@@ -31,8 +31,8 @@ android:
   version: VARY
   icon: zapsolutions.zap.png
   website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
-  repository: https://github.com/LN-Zap/zap-android
   developerName: LN OSS
+  repository: https://github.com/LN-Zap/zap-android
 iphone:
   appId: com.jackmallers.zap
   idd: 1406311960

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://ringworld.live#deadLink
-developerName: LGA SOFT USA
 redirect_from:
 - /android/com.app.ringworld/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-27
   version: '1.0'
   icon: com.app.ringworld.png
+  developerName: LGA SOFT USA
 
 ---
 

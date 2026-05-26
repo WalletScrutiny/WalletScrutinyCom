@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
 - https://www.instagram.com/obsidiam
 - https://t.me/obsidiam
-developerName: Obsidiam
 redirect_from:
 - /android/com.obsidiam.android1/
 - /iphone/com.obsidiam.appstore/
@@ -24,6 +23,7 @@ android:
   version: 1.6.6
   icon: com.obsidiam.android1.png
   website: https://obsidiam.com/
+  developerName: Obsidiam
 iphone:
   appId: com.obsidiam.appstore
   idd: '1449766297'
@@ -33,6 +33,7 @@ iphone:
   version: 3.1.0
   reviews: 14
   icon: com.obsidiam.appstore.jpg
+  developerName: Obsidiam
 
 ---
 

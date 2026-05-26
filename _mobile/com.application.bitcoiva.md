@@ -9,17 +9,18 @@ website: https://bitcoiva.com
 twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169
-developerName: Hyperux Developers
 redirect_from:
 - /android/com.application.bitcoiva/
 android:
   appId: com.application.bitcoiva
   users: 100000
   released: 2020-11-02
-  updated: 2026-03-16
-  version: 1.65.1
+  updated: 2026-05-15
+  version: 1.65.2
   reviews: 5
   icon: com.application.bitcoiva.png
+  website: https://bitcoiva.com
+  developerName: Hyperux Developers
 
 ---
 

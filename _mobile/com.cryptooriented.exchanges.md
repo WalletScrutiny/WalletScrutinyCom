@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2023-12-31
 website: https://cryptooriented.com
-developerName: Transporter Lab GmbH
 redirect_from:
 - /android/com.cryptooriented.exchanges/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2022-01-10
   version: 1.0.0
   icon: com.cryptooriented.exchanges.png
+  website: https://cryptooriented.com
+  developerName: Transporter Lab GmbH
 
 ---
 

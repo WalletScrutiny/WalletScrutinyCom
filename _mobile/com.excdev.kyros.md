@@ -6,7 +6,6 @@ date: 2024-04-19
 authors:
 - danny
 website: https://kyros.team#deadLink
-developerName: Kyros Managment Ltd.
 redirect_from:
 - /android/com.excdev.kyros/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-02-07
   version: 3.2.0
   icon: com.excdev.kyros.png
+  developerName: Kyros Managment Ltd.
 
 ---
 

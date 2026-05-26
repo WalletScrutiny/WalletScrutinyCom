@@ -5,7 +5,6 @@ meta: removed
 date: 2023-09-04
 authors:
 - danny
-developerName: BitFex
 redirect_from:
 - /android/com.bitfex.io/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-08-04
   version: 1.1.3
   icon: com.bitfex.io.png
+  developerName: BitFex
 
 ---
 

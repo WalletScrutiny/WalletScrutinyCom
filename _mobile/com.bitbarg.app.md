@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/bitbarg-com
 - https://t.me/bitbarg24
 - https://www.instagram.com/bitbarg24
-developerName: Bitbarg
 redirect_from:
 - /android/com.bitbarg.app/
 android:
@@ -22,6 +21,8 @@ android:
   version: 3.5.3
   reviews: 44
   icon: com.bitbarg.app.png
+  website: https://bitbarg.com
+  developerName: Bitbarg
 
 ---
 

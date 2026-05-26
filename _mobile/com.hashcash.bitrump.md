@@ -3,7 +3,6 @@ title: Bitrump
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Bitrump Inc.
 redirect_from:
 - /android/com.hashcash.bitrump/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-05
   version: 1.2.1
   icon: com.hashcash.bitrump.png
+  developerName: Bitrump Inc.
 
 ---
 

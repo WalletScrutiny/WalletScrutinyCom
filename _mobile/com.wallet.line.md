@@ -6,7 +6,6 @@ date: 2023-08-25
 authors:
 - danny
 website: https://linechain.io#deadLink
-developerName: Linechain Crypto Technology
 redirect_from:
 - /android/com.wallet.line/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-01-12
   version: 12.0.0
   icon: com.wallet.line.png
+  developerName: Linechain Crypto Technology
 
 ---
 

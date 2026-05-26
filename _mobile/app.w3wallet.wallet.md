@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-04-28
 website: https://w3wallet.app
-developerName: Laptev - FZCO
 appCountry: us
 redirect_from:
 - /iphone/app.w3wallet.wallet/
@@ -16,6 +15,7 @@ iphone:
   version: 1.0.38
   reviews: 3
   icon: app.w3wallet.wallet.jpg
+  developerName: Laptev - FZCO
 
 ---
 

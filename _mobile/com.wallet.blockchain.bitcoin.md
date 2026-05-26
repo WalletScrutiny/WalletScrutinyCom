@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/coindex-wallet-android
-developerName: TwiX
 redirect_from:
 - /android/com.wallet.blockchain.bitcoin/
 android:
@@ -17,6 +16,8 @@ android:
   updated: 2024-11-22
   version: 0.2.7
   icon: com.wallet.blockchain.bitcoin.png
+  website: https://coinhub8899.web.app
+  developerName: TwiX
 
 ---
 

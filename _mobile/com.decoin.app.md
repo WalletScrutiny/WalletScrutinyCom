@@ -10,7 +10,6 @@ twitter: decoin_io
 social:
 - https://www.facebook.com/DECOIN.io
 - https://www.linkedin.com/company/decoin-xde
-developerName: decoin.io
 redirect_from:
 - /android/com.decoin.app/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-07-26
   version: '1.127'
   icon: com.decoin.app.png
+  developerName: decoin.io
 
 ---
 

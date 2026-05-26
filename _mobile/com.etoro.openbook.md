@@ -10,7 +10,6 @@ twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
-developerName: eToro
 redirect_from:
 - /android/com.etoro.openbook/
 - /iphone/com.etoro.openbook/
@@ -18,11 +17,12 @@ android:
   appId: com.etoro.openbook
   users: 10000000
   released: 2013-11-05
-  updated: 2026-05-18
-  version: 651.1263.0
-  reviews: 3791
+  updated: 2026-05-24
+  version: 651.1272.1
+  reviews: 3793
   icon: com.etoro.openbook.jpg
   website: https://www.etoro.com/
+  developerName: eToro
 iphone:
   appId: com.etoro.openbook
   idd: 674984916
@@ -32,6 +32,7 @@ iphone:
   reviews: 9616
   icon: com.etoro.openbook.jpg
   website: https://www.etoro.com/en-us/
+  developerName: eToro
 
 ---
 

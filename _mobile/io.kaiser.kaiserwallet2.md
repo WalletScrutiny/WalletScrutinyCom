@@ -6,7 +6,6 @@ date: 2023-08-08
 authors:
 - danny
 website: https://bizblocks.io
-developerName: Bizblocks
 redirect_from:
 - /android/io.kaiser.kaiserwallet2/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-11-12
   version: 2.9.11
   icon: io.kaiser.kaiserwallet2.png
+  developerName: Bizblocks
 
 ---
 

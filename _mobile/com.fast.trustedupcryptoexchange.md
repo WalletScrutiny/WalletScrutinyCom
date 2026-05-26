@@ -3,7 +3,6 @@ title: TrustedUp Crypto Exchange
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Trustedup Financial
 redirect_from:
 - /android/com.fast.trustedupcryptoexchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-20
   version: '1.0'
   icon: com.fast.trustedupcryptoexchange.png
+  developerName: Trustedup Financial
 
 ---
 

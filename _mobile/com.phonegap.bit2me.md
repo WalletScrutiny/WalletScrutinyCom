@@ -11,7 +11,6 @@ twitter: bit2me
 social:
 - https://www.linkedin.com/company/bit2me
 - https://www.facebook.com/bit2me
-developerName: Bit2Me
 redirect_from:
 - /com.phonegap.bit2me/
 - /posts/com.phonegap.bit2me/
@@ -22,9 +21,11 @@ android:
   users: 500000
   released: 2015-01-08
   updated: 2026-05-18
-  version: 3.65.1
+  version: 3.66.0
   reviews: 55
   icon: com.phonegap.bit2me.png
+  website: https://bit2me.com
+  developerName: Bit2Me
 iphone:
   appId: com.bit2me.flutter-ios
   idd: '1459809738'
@@ -34,6 +35,7 @@ iphone:
   version: 3.66.0
   reviews: 3777
   icon: com.bit2me.flutter-ios.jpg
+  developerName: Bit2Me
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: eqifi
 title: EQIFi | Hold & Transfer Crypto
 verdict: custodial
+meta: stale
 date: 2025-07-01
 authors:
 - danny
@@ -23,6 +24,7 @@ android:
   version: 1.7.4
   icon: com.eqifi.eqifi.png
   meta: ok
+  website: https://www.eqifi.com/
   developerName: EQIFi
 iphone:
   appId: com.eqifi.management.Eqifi

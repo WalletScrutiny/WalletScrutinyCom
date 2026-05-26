@@ -3,7 +3,6 @@ title: Invest in Cryptocurrency
 verdict: wip
 meta: removed
 date: 2024-03-02
-developerName: Elie Muhiya
 redirect_from:
 - /android/com.mke.investcrypto/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-04-25
   version: '1.0'
   icon: com.mke.investcrypto.jpg
+  developerName: Elie Muhiya
 
 ---
 

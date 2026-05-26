@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: http://www.hiluxcoin.com
-developerName: Hilux Infrastructures
 redirect_from:
 - /android/com.hilux.wallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: v2.70
   reviews: 4
   icon: com.hilux.wallet.png
+  developerName: Hilux Infrastructures
 
 ---
 

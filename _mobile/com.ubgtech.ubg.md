@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://ubgtech.my#deadLink
-developerName: UBG Technology
 redirect_from:
 - /android/com.ubgtech.ubg/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-01
   version: 1.0.1
   icon: com.ubgtech.ubg.png
+  developerName: UBG Technology
 
 ---
 

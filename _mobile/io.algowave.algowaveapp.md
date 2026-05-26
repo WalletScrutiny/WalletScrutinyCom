@@ -8,7 +8,6 @@ authors:
 website: https://www.algowave.io
 social:
 - https://web.archive.org/web/20211208164813/https://www.algowave.io/
-developerName: Algowave LTD
 redirect_from:
 - /android/io.algowave.algowaveapp/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2021-04-29
   version: '3.0'
   icon: io.algowave.algowaveapp.png
+  developerName: Algowave LTD
 
 ---
 

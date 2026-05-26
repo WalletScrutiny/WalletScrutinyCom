@@ -6,7 +6,6 @@ date: 2023-04-08
 authors:
 - danny
 website: https://nexybit.com/
-developerName: Nexybit
 redirect_from:
 - /android/com.nexybit.nexybit/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-02-18
   version: 1.0.4
   icon: com.nexybit.nexybit.png
+  developerName: Nexybit
 
 ---
 

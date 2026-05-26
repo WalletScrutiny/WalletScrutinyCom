@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://www.secuxtech.com
-developerName: SecuX
 redirect_from:
 - /android/com.secuxtech.mysecuxpay/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-03-19
   version: 2.2.3
   icon: com.secuxtech.mysecuxpay.png
+  website: https://www.secuxtech.com
+  developerName: SecuX
 
 ---
 

@@ -10,7 +10,6 @@ twitter: tapswapkenya
 social:
 - https://www.instagram.com/tapswap_kenya/
 - https://www.linkedin.com/company/tapswap/
-developerName: TapSwap
 redirect_from:
 - /android/io.ts.converter/
 android:
@@ -21,6 +20,8 @@ android:
   version: 3.12.13
   reviews: 10
   icon: io.ts.converter.png
+  website: https://tapswap.io
+  developerName: TapSwap
 
 ---
 

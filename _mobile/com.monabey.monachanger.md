@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://monabey.com
-developerName: Monabey
 redirect_from:
 - /android/com.monabey.monachanger/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-09-16
   version: '2.2'
   icon: com.monabey.monachanger.png
+  developerName: Monabey
 
 ---
 

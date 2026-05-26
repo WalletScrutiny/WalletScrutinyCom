@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://tgcoin4.com#deadLink
-developerName: TGCoin Capital Limited
 redirect_from:
 - /android/com.currency.tgcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-22
   version: 2.1.2
   icon: com.currency.tgcoin.png
+  developerName: TGCoin Capital Limited
 
 ---
 

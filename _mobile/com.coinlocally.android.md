@@ -18,10 +18,11 @@ android:
   appId: com.coinlocally.android
   users: 100000
   released: 2022-04-21
-  updated: 2026-05-10
-  version: 5.1.0
+  updated: 2026-05-21
+  version: 5.1.1
   reviews: 91
   icon: com.coinlocally.android.png
+  website: https://coinlocally.com
   developerName: Coinlocally Official
 iphone:
   appId: com.coinlocally.app

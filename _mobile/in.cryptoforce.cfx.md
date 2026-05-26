@@ -2,6 +2,7 @@
 wsId: cryptoforceTrade
 title: Cryptoforce:Trade|Stake Crypto
 verdict: custodial
+meta: stale
 date: 2023-08-18
 authors:
 - danny
@@ -12,7 +13,6 @@ social:
 - https://www.linkedin.com/company/cryptoforcein
 - https://t.me/Cryptoforceofficial
 - https://cryptoforceindia.medium.com
-developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 redirect_from:
 - /android/in.cryptoforce.cfx/
 - /iphone/in.cryptoforce.cfx/
@@ -25,6 +25,7 @@ android:
   icon: in.cryptoforce.cfx.png
   meta: stale
   website: https://cryptoforce.in
+  developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 iphone:
   appId: in.cryptoforce.cfx
   idd: '6444105412'
@@ -35,6 +36,7 @@ iphone:
   reviews: 17
   icon: in.cryptoforce.cfx.jpg
   meta: ok
+  developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 
 ---
 

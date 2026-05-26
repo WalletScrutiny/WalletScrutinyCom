@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: http://upay.company#deadLink
-developerName: The Value Group Inc.
 redirect_from:
 - /android/com.upay/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-01-07
   version: '1.1'
   icon: com.upay.png
+  developerName: The Value Group Inc.
 
 ---
 

@@ -18,8 +18,8 @@ android:
   users: 10000000
   released: 2013-10-29
   updated: 2026-05-20
-  version: 3.184.0-2026050414
-  reviews: 3878
+  version: 3.185.0-2026052009
+  reviews: 3884
   icon: com.moneybookers.skrillpayments.png
   website: https://www.skrill.com
   developerName: Paysafe Holdings UK Limited

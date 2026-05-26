@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-25
 authors:
 - danny
-developerName: GoodX Technologies LP
 redirect_from:
 - /android/com.goodx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-03-23
   version: VARY
   icon: com.goodx.png
+  developerName: GoodX Technologies LP
 
 ---
 

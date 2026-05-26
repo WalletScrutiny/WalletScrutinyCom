@@ -14,7 +14,6 @@ social:
 features:
 - multiSig
 - tradeAlts
-developerName: BitcoinIRA
 appCountry: us
 redirect_from:
 - /android/com.bitcoinira/
@@ -27,6 +26,8 @@ android:
   version: 2.0.10
   reviews: 551
   icon: com.bitcoinira.png
+  website: https://bitcoinira.com/
+  developerName: BitcoinIRA
 iphone:
   appId: com.bitcoinira
   idd: '1534638949'
@@ -35,6 +36,7 @@ iphone:
   version: 2.0.10
   reviews: 1182
   icon: com.bitcoinira.jpg
+  developerName: BitcoinIRA
 
 ---
 

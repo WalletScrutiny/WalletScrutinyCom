@@ -11,7 +11,6 @@ repository: https://github.com/IndieSquare/indiesquare-wallet
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
-developerName: IndieSquare Inc.
 appCountry: us
 redirect_from:
 - /android/inc.lireneosoft.counterparty/
@@ -24,6 +23,7 @@ android:
   version: 2.5.4
   reviews: 31
   icon: inc.lireneosoft.counterparty.png
+  developerName: IndieSquare Inc.
 iphone:
   appId: inc.lireneosoft.counterparty
   idd: 977972108
@@ -32,6 +32,7 @@ iphone:
   version: '1.255'
   reviews: 1
   icon: inc.lireneosoft.counterparty.jpg
+  developerName: IndieSquare Inc.
 
 ---
 

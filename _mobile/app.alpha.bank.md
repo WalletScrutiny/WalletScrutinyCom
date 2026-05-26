@@ -3,7 +3,6 @@ title: Alpha Bank
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: ALPHA BANK
 redirect_from:
 - /android/app.alpha.bank/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-06-02
   version: 1.0.3
   icon: app.alpha.bank.png
+  developerName: ALPHA BANK
 
 ---
 

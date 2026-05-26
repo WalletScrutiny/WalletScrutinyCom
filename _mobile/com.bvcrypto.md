@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.bvcrypto.com
-developerName: BV Teknoloji
 redirect_from:
 - /android/com.bvcrypto/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-28
   version: '1.2'
   icon: com.bvcrypto.png
+  developerName: BV Teknoloji
 
 ---
 

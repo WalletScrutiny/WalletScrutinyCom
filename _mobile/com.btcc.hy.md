@@ -20,10 +20,11 @@ android:
   appId: com.btcc.hy
   users: 1000000
   released: 2020-08-04
-  updated: 2026-04-30
-  version: 8.9.84
-  reviews: 4128
+  updated: 2026-05-22
+  version: 8.9.85
+  reviews: 4140
   icon: com.btcc.hy.png
+  website: https://www.btcc.com/en-US
   developerName: BTCC.COM
 iphone:
   appId: com.btcc.hy

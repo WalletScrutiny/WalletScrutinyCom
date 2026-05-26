@@ -6,7 +6,6 @@ date: 2021-08-17
 authors:
 - danny
 website: https://www.youbit.co.kr
-developerName: 유빗
 redirect_from:
 - /android/com.ddengle.bts/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2017-12-08
   version: 1.1.9
   icon: com.ddengle.bts.png
+  developerName: 유빗
 
 ---
 

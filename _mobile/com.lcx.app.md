@@ -2,6 +2,7 @@
 wsId: lcxExchange
 title: Buy Bitcoin & Crypto - LCX
 verdict: custodial
+meta: ok
 date: 2022-06-22
 authors:
 - danny
@@ -16,8 +17,8 @@ android:
   appId: com.lcx.app
   users: 10000
   released: 2021-10-26
-  updated: 2026-04-28
-  version: 2.4.6
+  updated: 2026-05-26
+  version: 2.4.8
   reviews: 39
   icon: com.lcx.app.png
   meta: ok

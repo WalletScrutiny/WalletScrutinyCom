@@ -23,8 +23,9 @@ android:
   released: 2017-12-22
   updated: 2026-05-04
   version: 3.62.0
-  reviews: 7552
+  reviews: 7556
   icon: com.everestti.kinvo.png
+  website: http://www.kinvo.com.br
   developerName: Kinvo Tecnologia da Informação
 iphone:
   appId: com.everest.kinvo

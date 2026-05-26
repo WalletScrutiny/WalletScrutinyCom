@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/cexchange1
 - https://www.youtube.com/channel/UCrNgVFl6hE2gtBoNpjS0DVg
 - https://t.me/+SH-VNP--ecY15_fl
-developerName: NetMart Inc
 redirect_from:
 - /android/com.cexchange.app/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2024-11-19
   version: 13.0.2
   icon: com.cexchange.app.png
+  website: https://c-exchange.com/
+  developerName: NetMart Inc
 
 ---
 

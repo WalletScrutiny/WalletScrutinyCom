@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: http://www.hamilton-systems.io
-developerName: Hamilton Systems
 redirect_from:
 - /android/com.hslwallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2024-07-29
   version: 7.7.2
   icon: com.hslwallet.png
+  website: http://www.hamilton-systems.io
+  developerName: Hamilton Systems
 
 ---
 

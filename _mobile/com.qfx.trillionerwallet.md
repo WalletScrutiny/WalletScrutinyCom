@@ -6,7 +6,6 @@ date: 2025-12-08
 authors:
 - danny
 website: https://trillioner.io
-developerName: Trillioner Innovations
 redirect_from:
 - /android/com.qfx.trillionerwallet/
 android:
@@ -17,6 +16,8 @@ android:
   version: '22.0'
   reviews: 3
   icon: com.qfx.trillionerwallet.png
+  website: https://trillioner.io
+  developerName: Trillioner Innovations
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://apexnetwork.ng
-developerName: Apex Web Network Ltd.
 appCountry: us
 redirect_from:
 - /iphone/ng.apexnetwork.apexNetwork/
@@ -16,6 +15,7 @@ iphone:
   version: 3.2.16
   reviews: 2285
   icon: ng.apexnetwork.apexNetwork.jpg
+  developerName: Apex Web Network Ltd.
 
 ---
 

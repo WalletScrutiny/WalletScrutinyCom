@@ -6,7 +6,6 @@ date: 2023-04-19
 authors:
 - danny
 website: https://bitcoininvestmenthub.com/
-developerName: Dhirrr
 redirect_from:
 - /android/app.bitcoininvestmenthub.com/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 4
   icon: app.bitcoininvestmenthub.com.png
+  developerName: Dhirrr
 
 ---
 

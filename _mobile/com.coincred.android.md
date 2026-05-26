@@ -2,6 +2,7 @@
 wsId: coinCRED
 title: CoinCRED IN
 verdict: custodial
+meta: stale
 date: 2025-05-30
 authors:
 - danny
@@ -9,7 +10,6 @@ twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
-developerName: CoinCRED
 redirect_from:
 - /android/com.coincred.android/
 - /iphone/com.coincred/
@@ -23,6 +23,7 @@ android:
   icon: com.coincred.android.png
   meta: stale
   website: https://coincred.org/
+  developerName: CoinCRED
 iphone:
   appId: com.coincred
   idd: '1596466402'
@@ -34,6 +35,7 @@ iphone:
   icon: com.coincred.jpg
   meta: removed
   website: https://coincred.org#deadLink
+  developerName: CoinCRED
 
 ---
 

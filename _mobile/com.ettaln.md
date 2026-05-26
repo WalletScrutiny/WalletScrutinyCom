@@ -10,7 +10,6 @@ repository: https://github.com/EttaWallet/EttaWallet
 twitter: ettawallet
 features:
 - ln
-developerName: Rukundo
 redirect_from:
 - /android/com.ettaln/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2023-09-06
   version: VARY
   icon: com.ettaln.png
+  developerName: Rukundo
 
 ---
 

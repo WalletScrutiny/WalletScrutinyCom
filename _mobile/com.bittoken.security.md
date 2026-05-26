@@ -3,7 +3,6 @@ title: BitToken
 verdict: wip
 meta: removed
 date: 2024-04-03
-developerName: BitToken Co., Limited
 redirect_from:
 - /android/com.bittoken.security/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-05
   version: 1.5.26
   icon: com.bittoken.security.png
+  developerName: BitToken Co., Limited
 
 ---
 

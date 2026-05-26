@@ -25,6 +25,7 @@ android:
   updated: 2026-05-19
   version: 4.1.6
   icon: com.capecrypto.png
+  website: https://capecrypto.com
   developerName: Cape Crypto
 iphone:
   appId: com.capecrypto.ios

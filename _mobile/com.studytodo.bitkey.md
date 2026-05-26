@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://bitkey.app
-developerName: https://www.surroundingai.com/
 appCountry: us
 redirect_from:
 - /iphone/com.studytodo.bitkey/
@@ -19,6 +18,7 @@ iphone:
   version: 3.0.5
   reviews: 27
   icon: com.studytodo.bitkey.jpg
+  developerName: https://www.surroundingai.com/
 
 ---
 

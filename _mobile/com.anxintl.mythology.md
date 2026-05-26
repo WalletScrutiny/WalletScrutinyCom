@@ -6,7 +6,6 @@ date: 2023-08-07
 authors:
 - danny
 website: https://www.mydicewallet.com
-developerName: HASHIYADA TAKUYA
 redirect_from:
 - /android/com.anxintl.mythology/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2016-10-29
   version: 1.3.3
   icon: com.anxintl.mythology.png
+  developerName: HASHIYADA TAKUYA
 
 ---
 

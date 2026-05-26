@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://gimibits.com#deadLink
-developerName: Blocknomic technologies
 redirect_from:
 - /android/com.blocknomic.gimibits/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-11
   version: 0.1.0
   icon: com.blocknomic.gimibits.png
+  developerName: Blocknomic technologies
 
 ---
 

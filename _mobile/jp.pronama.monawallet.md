@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2021-08-17
 website: https://monawallet.net
-developerName: Pronama LLC
 appCountry: us
 redirect_from:
 - /iphone/jp.pronama.monawallet/
@@ -16,6 +15,7 @@ iphone:
   version: 2.0.0
   reviews: 1
   icon: jp.pronama.monawallet.jpg
+  developerName: Pronama LLC
 
 ---
 

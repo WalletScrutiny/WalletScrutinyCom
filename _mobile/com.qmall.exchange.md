@@ -23,6 +23,7 @@ android:
   version: 1.1.59
   reviews: 3
   icon: com.qmall.exchange.png
+  website: https://qmall.io/
   developerName: Prof-IT Blockchain Limited
 iphone:
   appId: com.profit.qmall.exchange

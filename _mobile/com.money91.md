@@ -8,7 +8,6 @@ authors:
 twitter: rovi_protocol
 social:
 - https://rovi.network
-developerName: Roviri International Pte Ltd
 redirect_from:
 - /android/com.money91/
 android:
@@ -19,6 +18,7 @@ android:
   version: 3.2.20-Rovi Trading-rovi-genesis-month-
   reviews: 136
   icon: com.money91.png
+  developerName: Roviri International Pte Ltd
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2026-01-14
 website: https://support.monsterra.io/
-developerName: Crescent Shine - OLD
 redirect_from:
 - /android/com.crescentshine.monswallet/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.0.1
   reviews: 3
   icon: com.crescentshine.monswallet.png
+  website: https://support.monsterra.io/
+  developerName: Crescent Shine - OLD
 
 ---
 

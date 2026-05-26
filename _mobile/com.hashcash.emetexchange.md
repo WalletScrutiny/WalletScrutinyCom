@@ -3,7 +3,6 @@ title: Emet Exchange
 verdict: wip
 meta: removed
 date: 2023-09-28
-developerName: GPOINT
 redirect_from:
 - /android/com.hashcash.emetexchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-16
   version: 1.0.8
   icon: com.hashcash.emetexchange.png
+  developerName: GPOINT
 
 ---
 

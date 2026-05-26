@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/vipsfinstock
 - https://www.youtube.com/c/VIPSFINSTOCKOFFICIAL
 - https://t.me/vipsfinstockofficial
-developerName: VIPS Trade Finance Pvt. Ltd.
 redirect_from:
 - /android/com.vipsfinstock.vipsapp/
 - /iphone/com.vips.vipsfinstock/
@@ -26,6 +25,7 @@ android:
   reviews: 2
   icon: com.vipsfinstock.vipsapp.png
   website: https://www.vipsfinstock.com
+  developerName: VIPS Trade Finance Pvt. Ltd.
 iphone:
   appId: com.vips.vipsfinstock
   idd: '1603387658'
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.vips.vipsfinstock.jpg
   website: https://vipsfinstock.com/
+  developerName: VIPS Trade Finance Pvt. Ltd.
 
 ---
 

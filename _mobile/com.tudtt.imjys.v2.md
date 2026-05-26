@@ -3,7 +3,6 @@ title: 2v Exchange
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: DOUGLAS HEATH  SIMPSON
 redirect_from:
 - /android/com.tudtt.imjys.v2/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-08
   version: '1.2'
   icon: com.tudtt.imjys.v2.png
+  developerName: DOUGLAS HEATH  SIMPSON
 
 ---
 

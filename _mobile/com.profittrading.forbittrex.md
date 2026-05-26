@@ -9,7 +9,6 @@ website: https://profittradingapp.com/
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forbittrex/
 android:
@@ -20,6 +19,7 @@ android:
   version: 12.0.13
   reviews: 22
   icon: com.profittrading.forbittrex.png
+  developerName: ProfitTradingApp
 
 ---
 

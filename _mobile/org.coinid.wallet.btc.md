@@ -12,7 +12,6 @@ repository: https://github.com/COINiD/COINiDWallet
 twitter: COINiDGroup
 features:
 - companion
-developerName: COINiD Group
 redirect_from:
 - /org.coinid.wallet.btc/
 - /posts/org.coinid.wallet.btc/
@@ -26,6 +25,7 @@ android:
   version: 1.8.0
   reviews: 5
   icon: org.coinid.wallet.btc.png
+  developerName: COINiD Group
 iphone:
   appId: org.coinid.wallet.btc
   idd: 1370200585
@@ -34,6 +34,7 @@ iphone:
   version: 1.8.2
   reviews: 24
   icon: org.coinid.wallet.btc.jpg
+  developerName: COINiD Group
 
 ---
 

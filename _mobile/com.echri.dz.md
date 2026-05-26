@@ -6,7 +6,6 @@ date: 2023-05-23
 authors:
 - danny
 website: https://algeriahost.com
-developerName: AlgeriaHost
 redirect_from:
 - /android/com.echri.dz/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-01-18
   version: 4.0.1
   icon: com.echri.dz.png
+  developerName: AlgeriaHost
 
 ---
 

@@ -20,8 +20,8 @@ android:
   icon: com.banexcoin.app.mobile.png
   verdict: custodial
   website: https://banexcoin.com
-  twitter: banexcoin
   developerName: Banexcoin
+  twitter: banexcoin
 iphone:
   appId: com.banexcoin.app.mobile
   idd: '1583296115'

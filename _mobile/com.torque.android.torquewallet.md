@@ -6,7 +6,6 @@ date: 2023-04-12
 authors:
 - danny
 website: https://torque.asia/home/terms-and-conditions
-developerName: Torque Group Holdings
 redirect_from:
 - /android/com.torque.android.torquewallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.1.15
   reviews: 13
   icon: com.torque.android.torquewallet.png
+  developerName: Torque Group Holdings
 
 ---
 

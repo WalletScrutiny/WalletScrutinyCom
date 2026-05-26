@@ -10,7 +10,6 @@ twitter: echooo_wallet
 social:
 - https://t.me/Echooowallet
 - https://discord.com/invite/UX26GYAJw4
-developerName: Echooo Labs Pte Ltd
 redirect_from:
 - /android/com.smartwallet.app/
 - /iphone/com.soundVelly.echoooLab/
@@ -23,6 +22,7 @@ android:
   reviews: 77
   icon: com.smartwallet.app.png
   website: https://www.echooo.xyz/
+  developerName: Echooo Labs Pte Ltd
 iphone:
   appId: com.soundVelly.echoooLab
   idd: '6446883725'
@@ -33,6 +33,7 @@ iphone:
   reviews: 45
   icon: com.soundVelly.echoooLab.jpg
   website: http://www.echooo.xyz
+  developerName: Echooo Labs Pte Ltd
 
 ---
 

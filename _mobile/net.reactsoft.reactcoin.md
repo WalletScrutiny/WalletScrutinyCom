@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://reactsoft.net
-developerName: ReactSoft
 redirect_from:
 - /android/net.reactsoft.reactcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2017-11-13
   version: 1.0.8
   icon: net.reactsoft.reactcoin.png
+  developerName: ReactSoft
 
 ---
 

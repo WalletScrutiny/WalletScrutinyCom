@@ -23,6 +23,7 @@ android:
   version: 5.55.9
   reviews: 89
   icon: app.coinmetro.png
+  website: https://coinmetro.com/
   developerName: Coinmetro OU
 iphone:
   appId: app.coinmetro
@@ -32,6 +33,7 @@ iphone:
   version: 5.55.9
   reviews: 366
   icon: app.coinmetro.jpg
+  website: https://coinmetro.com/
   developerName: CoinMetro OU
 
 ---

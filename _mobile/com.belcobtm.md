@@ -3,7 +3,6 @@ title: Belco Wallet
 verdict: wip
 meta: removed
 date: 2023-05-17
-developerName: ATUM Network LLC
 redirect_from:
 - /android/com.belcobtm/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-15
   version: 2.7.0
   icon: com.belcobtm.png
+  developerName: ATUM Network LLC
 
 ---
 

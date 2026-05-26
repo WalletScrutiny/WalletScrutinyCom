@@ -6,7 +6,6 @@ date: 2023-06-10
 authors:
 - danny
 website: http://neo-forex.com/
-developerName: Neo Trade
 redirect_from:
 - /android/com.world.bestinfo/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-02-29
   version: '1.0'
   icon: com.world.bestinfo.png
+  developerName: Neo Trade
 
 ---
 

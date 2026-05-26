@@ -6,7 +6,6 @@ date: 2025-11-12
 authors:
 - danny
 website: https://www.assure.pro
-developerName: CRYPASSURE PTE. LTD.
 redirect_from:
 - /android/com.artisan.pledge/
 android:
@@ -17,6 +16,8 @@ android:
   version: 1.0.64
   reviews: 7
   icon: com.artisan.pledge.png
+  website: https://www.assure.pro
+  developerName: CRYPASSURE PTE. LTD.
 
 ---
 

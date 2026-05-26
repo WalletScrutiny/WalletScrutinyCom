@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
 features:
 - buyWithCC
-developerName: Acebitx PTE.LTD.
 redirect_from:
 - /android/com.sinblock.blockchain/
 android:
@@ -23,6 +22,7 @@ android:
   version: 1.0.5
   reviews: 8
   icon: com.sinblock.blockchain.png
+  developerName: Acebitx PTE.LTD.
 
 ---
 

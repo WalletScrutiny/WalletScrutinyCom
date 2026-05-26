@@ -13,7 +13,6 @@ features:
 - tradeAlts
 - buyWithCC
 - fingerprint
-developerName: INWAY AKTIENGESELLSCHAFT
 redirect_from:
 - /android/com.wallet.crypto.btc.eth/
 - /iphone/com.wallet.crypto.btc.eth/
@@ -23,8 +22,10 @@ android:
   released: 2023-09-06
   updated: 2026-05-14
   version: 1.10.5
-  reviews: 70
+  reviews: 71
   icon: com.wallet.crypto.btc.eth.png
+  website: https://ironwallet.io/
+  developerName: INWAY AKTIENGESELLSCHAFT
   repository: https://github.com/Ironwallet/IronWallet
 iphone:
   appId: com.wallet.crypto.btc.eth
@@ -35,6 +36,7 @@ iphone:
   version: 1.10.5
   reviews: 39
   icon: com.wallet.crypto.btc.eth.jpg
+  developerName: INWAY AKTIENGESELLSCHAFT
 
 ---
 

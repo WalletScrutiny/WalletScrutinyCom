@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://markka.com
-developerName: Tulipfox-Tech
 redirect_from:
 - /android/com.markka.markkawallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-02-07
   version: 2.5.1
   icon: com.markka.markkawallet.png
+  website: https://markka.com
+  developerName: Tulipfox-Tech
 
 ---
 

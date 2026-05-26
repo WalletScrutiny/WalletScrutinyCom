@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://www.bynery.com
-developerName: Bynery
 redirect_from:
 - /android/bynery.bce/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-02
   version: 1.5.0
   icon: bynery.bce.png
+  developerName: Bynery
 
 ---
 

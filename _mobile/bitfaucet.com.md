@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://websiapps.blogspot.com
-developerName: Websidea
 redirect_from:
 - /android/bitfaucet.com/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-20
   version: '1.1'
   icon: bitfaucet.com.png
+  developerName: Websidea
 
 ---
 

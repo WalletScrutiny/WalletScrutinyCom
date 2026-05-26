@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://www.bmining.com/
-developerName: Bmining
 redirect_from:
 - /android/com.bminingapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-18
   version: 1.4.1
   icon: com.bminingapp.png
+  developerName: Bmining
 
 ---
 

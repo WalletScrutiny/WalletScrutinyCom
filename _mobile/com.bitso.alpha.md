@@ -9,7 +9,6 @@ website: https://bitso.com/alpha/landing
 twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
-developerName: Bitso
 appCountry: GI
 redirect_from:
 - /android/com.bitso.alpha/
@@ -19,8 +18,10 @@ android:
   released: 2021-09-28
   updated: 2026-05-20
   version: 1.50.2
-  reviews: 593
+  reviews: 594
   icon: com.bitso.alpha.png
+  website: https://bitso.com/alpha/landing
+  developerName: Bitso
 
 ---
 

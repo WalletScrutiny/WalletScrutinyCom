@@ -2,6 +2,7 @@
 wsId: bitay
 title: Bitay | Bitcoin & 200+ Altcoin
 verdict: custodial
+meta: obsolete
 date: 2023-01-30
 authors:
 - danny

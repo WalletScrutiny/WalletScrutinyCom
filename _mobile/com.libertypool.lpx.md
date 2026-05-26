@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://libertypool.com/
-developerName: Libertypool
 redirect_from:
 - /android/com.libertypool.lpx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-01
   version: '1.0'
   icon: com.libertypool.lpx.png
+  developerName: Libertypool
 
 ---
 

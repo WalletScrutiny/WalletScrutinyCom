@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.fybsg.com#deadLink
-developerName: FYB-SG
 redirect_from:
 - /android/com.fybsg.fybmobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-11-19
   version: 0.5 BETA
   icon: com.fybsg.fybmobile.png
+  developerName: FYB-SG
 
 ---
 

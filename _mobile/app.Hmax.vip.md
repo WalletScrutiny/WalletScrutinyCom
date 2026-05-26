@@ -3,7 +3,6 @@ title: Hmax logistics
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: Lorena Barr
 redirect_from:
 - /android/app.Hmax.vip/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-07
   version: 1.0.3
   icon: app.Hmax.vip.png
+  developerName: Lorena Barr
 
 ---
 

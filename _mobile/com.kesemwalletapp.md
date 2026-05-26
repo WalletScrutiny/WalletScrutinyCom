@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://www.kesem.io
-developerName: Kesem
 redirect_from:
 - /android/com.kesemwalletapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-15
   version: '2.17'
   icon: com.kesemwalletapp.png
+  developerName: Kesem
 
 ---
 

@@ -6,7 +6,6 @@ date: 2021-10-01
 authors:
 - leo
 website: https://ok-ex.co
-developerName: Technical team
 redirect_from:
 - /co.okex.app/
 - /android/co.okex.app/
@@ -18,6 +17,8 @@ android:
   version: 7.4.9
   reviews: 364
   icon: co.okex.app.png
+  website: https://ok-ex.co
+  developerName: Technical team
 
 ---
 

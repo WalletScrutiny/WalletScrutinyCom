@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://shopperoo.com#deadLink
-developerName: Shopperoo Technologies Pty Ltd
 redirect_from:
 - /android/com.shopperoo.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-08
   version: 1.0.0
   icon: com.shopperoo.wallet.png
+  developerName: Shopperoo Technologies Pty Ltd
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://keepkey.com
-developerName: ShapeShift.com
 redirect_from:
 - /android/com.shapeshift.keepkey/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.1.0
   reviews: 1
   icon: com.shapeshift.keepkey.png
+  developerName: ShapeShift.com
 
 ---
 

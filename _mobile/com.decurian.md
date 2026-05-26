@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://decurian.com#deadLink
-developerName: Decurian Cryptocurrency
 redirect_from:
 - /android/com.decurian/
 android:
@@ -15,6 +14,7 @@ android:
   version: '2.0'
   reviews: 18
   icon: com.decurian.jpg
+  developerName: Decurian Cryptocurrency
 
 ---
 

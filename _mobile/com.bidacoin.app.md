@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://bidacoin.io/#/
-developerName: BIDACOIN
 redirect_from:
 - /android/com.bidacoin.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-02
   version: 1.0.0
   icon: com.bidacoin.app.png
+  developerName: BIDACOIN
 
 ---
 

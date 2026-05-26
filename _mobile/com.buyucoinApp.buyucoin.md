@@ -2,6 +2,7 @@
 wsId: buyucoin
 title: 'BuyUcoin: Bitcoin & Crypto App'
 verdict: custodial
+meta: stale
 date: 2025-02-04
 authors:
 - leo
@@ -25,6 +26,7 @@ android:
   reviews: 12
   icon: com.buyucoinApp.buyucoin.png
   meta: stale
+  website: https://www.buyucoin.com
   developerName: Iblock Technologies Private Limited
 iphone:
   appId: com.buyucoin

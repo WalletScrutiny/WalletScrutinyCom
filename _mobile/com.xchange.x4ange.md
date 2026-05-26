@@ -6,7 +6,6 @@ date: 2025-02-13
 authors:
 - danny
 website: https://4ange.me/
-developerName: XchangeCapitalGroup OU
 redirect_from:
 - /android/com.xchange.x4ange/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2024-08-04
   version: 4.1.1
   icon: com.xchange.x4ange.png
+  developerName: XchangeCapitalGroup OU
 
 ---
 

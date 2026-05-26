@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://universalbordersolutions.com/
-developerName: Universal Border Solutions
 redirect_from:
 - /android/com.ubsdreamdigital/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-12
   version: '1.01'
   icon: com.ubsdreamdigital.png
+  developerName: Universal Border Solutions
 
 ---
 

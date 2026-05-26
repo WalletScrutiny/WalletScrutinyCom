@@ -5,7 +5,6 @@ meta: obsolete
 date: 2026-02-02
 authors:
 - danny
-developerName: Milepost Power Holdings, LLC
 redirect_from:
 - /android/com.sdb.app/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-03-28
   version: 2023.03.27
   icon: com.sdb.app.png
+  developerName: Milepost Power Holdings, LLC
 
 ---
 

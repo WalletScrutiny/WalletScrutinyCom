@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: https://ex.cointify.com#deadLink
-developerName: Cointify Team
 redirect_from:
 - /android/com.cointify.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-06-24
   version: 1.0.2
   icon: com.cointify.exchange.png
+  developerName: Cointify Team
 
 ---
 

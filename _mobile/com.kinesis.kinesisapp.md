@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/kinesismoney
 - https://www.facebook.com/kinesismoney
 - https://www.reddit.com/r/Kinesis_money
-developerName: Kinesis AG
 redirect_from:
 - /android/com.kinesis.kinesisapp/
 - /iphone/com.kinesis.kinesis-app/
@@ -26,6 +25,7 @@ android:
   reviews: 110
   icon: com.kinesis.kinesisapp.png
   meta: removed
+  developerName: Kinesis AG
 iphone:
   appId: com.kinesis.kinesis-app
   idd: 1490483608
@@ -36,6 +36,7 @@ iphone:
   reviews: 10
   icon: com.kinesis.kinesis-app.jpg
   meta: ok
+  developerName: Kinesis AG
 
 ---
 

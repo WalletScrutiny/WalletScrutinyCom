@@ -6,7 +6,6 @@ date: 2024-07-30
 authors:
 - danny
 website: https://koinwa.com#deadLink
-developerName: koinwa
 redirect_from:
 - /android/com.koinwatech.koinwa/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2024-02-24
   version: 3.2.3
   icon: com.koinwatech.koinwa.png
+  developerName: koinwa
 
 ---
 

@@ -10,7 +10,6 @@ twitter: QuppyPay
 social:
 - https://www.linkedin.com/company/quppy
 - https://www.facebook.com/quppyPay
-developerName: Quppy Europe OU
 redirect_from:
 - /com.quppy/
 - /android/com.quppy/
@@ -24,6 +23,7 @@ android:
   reviews: 42
   icon: com.quppy.png
   website: https://quppy.com/
+  developerName: Quppy Europe OU
 iphone:
   appId: com.quppy.wallet
   idd: 1417802076
@@ -34,6 +34,7 @@ iphone:
   reviews: 3
   icon: com.quppy.wallet.jpg
   website: https://quppy.com
+  developerName: Quppy Europe OU
 
 ---
 

@@ -17,9 +17,10 @@ redirect_from:
 android:
   appId: nl.bitonic.androidApp
   users: 50000
-  updated: 2026-04-22
-  version: 3.23.1
+  updated: 2026-05-21
+  version: 3.25.0
   icon: nl.bitonic.androidApp.jpg
+  website: https://bitonic.nl
   developerName: Bitonic
 iphone:
   appId: nl.bitonic.Bitonic

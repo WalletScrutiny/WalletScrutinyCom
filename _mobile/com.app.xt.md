@@ -21,7 +21,7 @@ android:
   users: 1000000
   released: 2021-04-14
   updated: 2026-05-19
-  version: 5.23.1
+  version: 5.24.0
   reviews: 266
   icon: com.app.xt.jpg
   website: http://www.xt.com

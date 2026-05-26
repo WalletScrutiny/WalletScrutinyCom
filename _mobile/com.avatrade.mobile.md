@@ -1,5 +1,5 @@
 ---
-title: 'AvaTrade: Trading & Invest'
+title: 'AvaTrade: Trading & Investing'
 verdict: nosendreceive
 meta: ok
 date: 2021-08-21
@@ -10,7 +10,6 @@ twitter: AvaTrade
 social:
 - https://www.linkedin.com/company/AvaTrade
 - https://www.facebook.com/AvaTrade
-developerName: Ava Financial Ltd
 redirect_from:
 - /android/com.avatrade.mobile/
 android:
@@ -21,6 +20,8 @@ android:
   version: '168.7'
   reviews: 11
   icon: com.avatrade.mobile.png
+  website: https://www.avatrade.com/
+  developerName: Ava Financial Ltd
 
 ---
 

@@ -3,7 +3,6 @@ title: FiCrEx
 verdict: wip
 meta: removed
 date: 2023-09-15
-developerName: IDT Ruseto
 redirect_from:
 - /android/com.fcx.pro/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-03
   version: 1.0.9.220803
   icon: com.fcx.pro.png
+  developerName: IDT Ruseto
 
 ---
 

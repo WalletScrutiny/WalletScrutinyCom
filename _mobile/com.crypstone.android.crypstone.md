@@ -12,7 +12,6 @@ social:
 - https://t.me/officialcrypstone
 - https://www.instagram.com/crypstoneglobal
 - https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug
-developerName: Crypstone
 redirect_from:
 - /android/com.crypstone.android.crypstone/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2018-07-03
   version: '2.0'
   icon: com.crypstone.android.crypstone.png
+  developerName: Crypstone
 
 ---
 

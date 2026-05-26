@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://gosats.io
 twitter: gosatsapp
-developerName: Saffron Technologies Pte Ltd
 redirect_from:
 - /android/io.gosats/
 - /iphone/io.gosats/
@@ -20,6 +19,8 @@ android:
   version: 3.0.6
   reviews: 4
   icon: io.gosats.png
+  website: https://gosats.io
+  developerName: Saffron Technologies Pte Ltd
 iphone:
   appId: io.gosats
   idd: '1536263998'
@@ -29,6 +30,7 @@ iphone:
   version: 3.0.5
   reviews: 871
   icon: io.gosats.jpg
+  developerName: Saffron Technologies Pte Ltd
 
 ---
 

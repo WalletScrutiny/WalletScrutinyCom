@@ -8,7 +8,6 @@ authors:
 website: http://binarium.support
 social:
 - https://www.facebook.com/binariumcom
-developerName: Binarium LTD
 redirect_from:
 - /android/com.binarium.binariummobile/
 android:
@@ -19,6 +18,8 @@ android:
   version: 1.2.0.1
   reviews: 17
   icon: com.binarium.binariummobile.png
+  website: http://binarium.support
+  developerName: Binarium LTD
 
 ---
 

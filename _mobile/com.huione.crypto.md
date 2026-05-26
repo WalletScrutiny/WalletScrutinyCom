@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://huionepay.com.kh#deadLink
-developerName: Huione Group
 redirect_from:
 - /android/com.huione.crypto/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2024-05-16
   version: 2.3.0
   icon: com.huione.crypto.png
+  developerName: Huione Group
 
 ---
 

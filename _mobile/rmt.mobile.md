@@ -3,7 +3,6 @@ title: RMT
 verdict: wip
 meta: removed
 date: 2024-11-07
-developerName: RMTKOR
 redirect_from:
 - /android/rmt.mobile/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-05-19
   version: 1.0.3
   icon: rmt.mobile.png
+  developerName: RMTKOR
 
 ---
 

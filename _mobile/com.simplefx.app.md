@@ -9,17 +9,18 @@ website: https://simplefx.com
 twitter: SimpleFXcom
 social:
 - https://www.facebook.com/simplefxltd
-developerName: SimpleFX Ltd.
 redirect_from:
 - /android/com.simplefx.app/
 android:
   appId: com.simplefx.app
-  users: 50000
+  users: 100000
   released: 2017-12-18
-  updated: 2026-05-19
-  version: 3.0.90
+  updated: 2026-05-26
+  version: 3.0.92
   reviews: 7
   icon: com.simplefx.app.png
+  website: https://simplefx.com
+  developerName: SimpleFX Ltd.
 
 ---
 

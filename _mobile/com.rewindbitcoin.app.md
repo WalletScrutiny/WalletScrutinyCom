@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2025-11-10
 website: https://rewindbitcoin.com
-developerName: La Bolsa Virtual SL
 redirect_from:
 - /android/com.rewindbitcoin.app/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-09-25
   version: 1.2.4
   icon: com.rewindbitcoin.app.png
+  website: https://rewindbitcoin.com
+  developerName: La Bolsa Virtual SL
 
 ---
 

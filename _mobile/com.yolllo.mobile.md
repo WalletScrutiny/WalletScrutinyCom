@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-08
 website: https://avapayltd.com#deadLink
-developerName: AVAPAY LTD
 redirect_from:
 - /android/com.yolllo.mobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-23
   version: '1.0'
   icon: com.yolllo.mobile.png
+  developerName: AVAPAY LTD
 
 ---
 

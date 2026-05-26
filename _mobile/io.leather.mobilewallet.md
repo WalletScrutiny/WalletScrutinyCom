@@ -10,7 +10,6 @@ repository: https://github.com/leather-io/mono
 twitter: leatherbtc
 social:
 - https://www.youtube.com/@Leather-io
-developerName: Leather Wallet LLC
 redirect_from:
 - /android/io.leather.mobilewallet/
 - /iphone/io.leather.mobilewallet/
@@ -23,6 +22,7 @@ android:
   reviews: 2
   icon: io.leather.mobilewallet.png
   website: https://leather.io
+  developerName: Leather Wallet LLC
 iphone:
   appId: io.leather.mobilewallet
   idd: '6499127775'
@@ -33,6 +33,7 @@ iphone:
   reviews: 7
   icon: io.leather.mobilewallet.jpg
   website: https://www.leather.io
+  developerName: Leather Wallet LLC
 
 ---
 
