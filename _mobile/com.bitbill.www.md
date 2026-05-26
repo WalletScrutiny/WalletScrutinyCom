@@ -19,8 +19,8 @@ android:
   appId: com.bitbill.www
   users: 10000
   released: 2018-03-22
-  updated: 2026-05-16
-  version: 4.64.2
+  updated: 2026-05-22
+  version: 4.65.0
   reviews: 14
   icon: com.bitbill.www.png
   website: https://ownbit.io

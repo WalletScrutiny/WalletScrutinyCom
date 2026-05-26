@@ -6,7 +6,6 @@ date: 2023-04-20
 authors:
 - danny
 website: https://www.bithesap.com
-developerName: Online People
 redirect_from:
 - /android/com.bithesap.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-05-08
   version: '1.3'
   icon: com.bithesap.app.png
+  developerName: Online People
 
 ---
 

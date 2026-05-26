@@ -9,7 +9,6 @@ website: https://www.finbloxapp.com/
 twitter: finblox
 social:
 - https://www.facebook.com/finbloxapp
-developerName: Finblox
 redirect_from:
 - /android/com.finbloxapp.finblox/
 android:
@@ -20,6 +19,7 @@ android:
   version: 0.117.0
   reviews: 19
   icon: com.finbloxapp.finblox.jpg
+  developerName: Finblox
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://darbfinance.com
-developerName: Darb Finance
 redirect_from:
 - /android/com.bizzaria.darbfinance/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-10-07
   version: 1.3.3
   icon: com.bizzaria.darbfinance.png
+  developerName: Darb Finance
 
 ---
 

@@ -6,7 +6,6 @@ date: 2025-11-11
 authors:
 - danny
 twitter: wallby_app
-developerName: Bcademy
 redirect_from:
 - /android/app.wallby.bmeta/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2023-10-04
   version: VARY
   icon: app.wallby.bmeta.png
+  developerName: Bcademy
 
 ---
 

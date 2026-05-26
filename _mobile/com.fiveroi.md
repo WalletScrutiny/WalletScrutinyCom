@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.5roi.com#deadLink
 twitter: 5roiglobal
-developerName: 5ROI Global
 redirect_from:
 - /android/com.fiveroi/
 android:
@@ -18,6 +17,7 @@ android:
   version: 4.3.4
   reviews: 24
   icon: com.fiveroi.png
+  developerName: 5ROI Global
 
 ---
 

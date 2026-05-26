@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://notchtoken.com
-developerName: Notch Networks
 redirect_from:
 - /android/com.notch.token/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-21
   version: V1.0
   icon: com.notch.token.png
+  developerName: Notch Networks
 
 ---
 

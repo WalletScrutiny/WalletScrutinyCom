@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://orading.com/
-developerName: Orading
 redirect_from:
 - /android/com.orading.myapplication/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-23
   version: 1.2.7
   icon: com.orading.myapplication.png
+  developerName: Orading
 
 ---
 

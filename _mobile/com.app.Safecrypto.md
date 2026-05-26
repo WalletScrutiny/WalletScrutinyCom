@@ -6,7 +6,6 @@ date: 2023-08-18
 authors:
 - danny
 website: https://safecryptwallet.com#deadLink
-developerName: SAFE WALL
 redirect_from:
 - /android/com.app.Safecrypto/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.1.1
   reviews: 11
   icon: com.app.Safecrypto.png
+  developerName: SAFE WALL
 
 ---
 

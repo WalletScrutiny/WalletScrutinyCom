@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/redotcom
 - https://www.facebook.com/redotexchange
 - https://www.reddit.com/r/redot_com
-developerName: Redot.com
 redirect_from:
 - /android/com.redot.app/
 android:
@@ -22,6 +21,8 @@ android:
   version: 1.0.64
   reviews: 4
   icon: com.redot.app.png
+  website: https://redot.com/
+  developerName: Redot.com
 
 ---
 

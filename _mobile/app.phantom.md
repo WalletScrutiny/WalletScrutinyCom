@@ -25,7 +25,7 @@ android:
   released: 2022-04-12
   updated: 2026-05-20
   version: 26.13.4
-  reviews: 2236
+  reviews: 2245
   icon: app.phantom.png
   website: https://phantom.com/
   developerName: Phantom Technologies, Inc.
@@ -34,9 +34,9 @@ iphone:
   idd: '1598432977'
   appCountry: us
   released: 2022-01-30
-  updated: 2026-05-14
-  version: 26.13.3
-  reviews: 60577
+  updated: 2026-05-21
+  version: 26.13.4
+  reviews: 60977
   icon: app.phantom.jpg
   website: https://phantom.com
   developerName: Phantom Technologies Incorporated

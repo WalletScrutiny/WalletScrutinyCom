@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-28
 website: https://otcxpert.com/
-developerName: YBEX Ltd.
 redirect_from:
 - /android/hk.unisoft.otcxpert/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-28
   version: 1.0.28
   icon: hk.unisoft.otcxpert.png
+  developerName: YBEX Ltd.
 
 ---
 

@@ -37,8 +37,8 @@ iphone:
   reviews: 0
   icon: kr.co.keypair.keywalletTouchiOS.jpg
   website: http://keywallet.co.kr
-  twitter: quickxprotocol
   developerName: Keypair
+  twitter: quickxprotocol
 
 ---
 

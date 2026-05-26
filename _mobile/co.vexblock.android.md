@@ -6,7 +6,6 @@ date: 2023-04-20
 authors:
 - danny
 website: https://web.archive.org/web/20200805051007/http://vexblock.co/
-developerName: Vex Capital And Technology LTD
 redirect_from:
 - /android/co.vexblock.android/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.3
   reviews: 18
   icon: co.vexblock.android.png
+  developerName: Vex Capital And Technology LTD
 
 ---
 

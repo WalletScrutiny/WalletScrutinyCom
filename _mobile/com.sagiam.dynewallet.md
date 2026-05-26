@@ -3,7 +3,6 @@ title: Personal EMI Calculator
 verdict: wip
 meta: fewusers
 date: 2026-02-02
-developerName: Dyne Coin
 redirect_from:
 - /android/com.sagiam.dynewallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2025-11-13
   version: '2.0'
   icon: com.sagiam.dynewallet.png
+  developerName: Dyne Coin
 
 ---
 

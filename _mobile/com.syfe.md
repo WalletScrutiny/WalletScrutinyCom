@@ -20,10 +20,11 @@ android:
   appId: com.syfe
   users: 100000
   released: 2020-02-13
-  updated: 2026-05-08
+  updated: 2026-05-22
   version: 16.1.0
   reviews: 4
   icon: com.syfe.jpg
+  website: https://www.syfe.com
   developerName: Syfe
 iphone:
   appId: com.syfe

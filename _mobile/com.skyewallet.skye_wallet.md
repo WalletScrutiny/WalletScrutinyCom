@@ -2,6 +2,7 @@
 wsId: SkyeWallet
 title: 'Skye Wallet: Buy Bitcoin Fast'
 verdict: custodial
+meta: ok
 date: 2024-04-25
 authors:
 - danny

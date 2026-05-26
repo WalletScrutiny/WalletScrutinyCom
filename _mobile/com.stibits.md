@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://stibits.com
 twitter: stibits
-developerName: Stibits
 redirect_from:
 - /android/com.stibits/
 - /iphone/com.stibits.wallet/
@@ -20,6 +19,7 @@ android:
   version: 0.16BETA
   reviews: 3
   icon: com.stibits.png
+  developerName: Stibits
 iphone:
   appId: com.stibits.wallet
   idd: '1492464010'
@@ -29,6 +29,7 @@ iphone:
   version: 0.5.1.4
   reviews: 15
   icon: com.stibits.wallet.jpg
+  developerName: Stibits
 
 ---
 

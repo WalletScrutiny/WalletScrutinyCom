@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-11-07
 website: https://tent.app
-developerName: TENT.COM
 redirect_from:
 - /android/com.tent.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-07-16
   version: 1.4.0
   icon: com.tent.app.png
+  developerName: TENT.COM
 
 ---
 

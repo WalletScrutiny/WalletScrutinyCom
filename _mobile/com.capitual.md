@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/Capitual/
 - https://www.youtube.com/c/Capitual
 - https://www.linkedin.com/company/capitual/
-developerName: Capitual
 redirect_from:
 - /android/com.capitual/
 - /iphone/com.capitual/
@@ -25,6 +24,7 @@ android:
   reviews: 6
   icon: com.capitual.png
   website: https://capitual.com
+  developerName: Capitual
 iphone:
   appId: com.capitual
   idd: '1458793819'
@@ -35,6 +35,7 @@ iphone:
   reviews: 8
   icon: com.capitual.jpg
   website: https://www.capitual.com
+  developerName: Capitual
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://bihodl.com
-developerName: Ockchain, Inc.
 redirect_from:
 - /android/com.bihodl/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-10-31
   version: 1.8.0
   icon: com.bihodl.png
+  developerName: Ockchain, Inc.
 
 ---
 

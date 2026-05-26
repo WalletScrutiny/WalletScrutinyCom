@@ -6,7 +6,6 @@ date: 2023-05-10
 authors:
 - danny
 website: https://bitbuddy.app
-developerName: BitBuddy
 redirect_from:
 - /android/co.asachs.bitbuddy/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-28
   version: 2.0.1
   icon: co.asachs.bitbuddy.png
+  developerName: BitBuddy
 
 ---
 

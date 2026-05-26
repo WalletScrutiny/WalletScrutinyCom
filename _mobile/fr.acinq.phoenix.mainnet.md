@@ -15,7 +15,6 @@ features:
 - hd
 - ln
 - segwit
-developerName: ACINQ
 redirect_from:
 - /fr.acinq.phoenix.mainnet/
 - /posts/fr.acinq.phoenix.mainnet/
@@ -26,11 +25,13 @@ android:
   users: 100000
   appCountry: fr
   released: 2019-12-10
-  updated: 2026-02-25
-  version: 2.7.5
+  updated: 2026-05-21
+  version: 2.8.0
   reviews: 10
   icon: fr.acinq.phoenix.mainnet.png
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+  website: https://phoenix.acinq.co
+  developerName: ACINQ
   repository: https://github.com/ACINQ/phoenix
 iphone:
   appId: co.acinq.phoenix
@@ -41,6 +42,7 @@ iphone:
   version: 2.7.5
   reviews: 20
   icon: co.acinq.phoenix.jpg
+  developerName: ACINQ
   repository: https://github.com/ACINQ/phoenix-kmm
 
 ---

@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: https://sicuradata.com#deadLink
-developerName: SICURADATA, INC
 redirect_from:
 - /android/com.sicuradata.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-07
   version: 0.31.0
   icon: com.sicuradata.wallet.png
+  developerName: SICURADATA, INC
 
 ---
 

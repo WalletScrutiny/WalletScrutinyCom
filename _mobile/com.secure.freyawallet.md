@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://freyawallet.com#deadLink
-developerName: FreyaVPN Android Team
 redirect_from:
 - /android/com.secure.freyawallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-05
   version: 1.17.1
   icon: com.secure.freyawallet.png
+  developerName: FreyaVPN Android Team
 
 ---
 

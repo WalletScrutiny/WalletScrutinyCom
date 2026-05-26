@@ -14,13 +14,13 @@ android:
   appId: com.chainapsis.keplr
   users: 500000
   released: 2021-10-01
-  updated: 2026-05-18
-  version: 2.1.195
+  updated: 2026-05-22
+  version: 2.1.198
   reviews: 203
   icon: com.chainapsis.keplr.png
   website: https://keplr.app
-  repository: https://github.com/chainapsis/keplr-wallet
   developerName: Team Keplr
+  repository: https://github.com/chainapsis/keplr-wallet
 iphone:
   appId: com.chainapsis.keplrwallet
   idd: '1567851089'

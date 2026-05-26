@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://glions.io#deadLink
-developerName: Glions Technology OÜ
 redirect_from:
 - /android/app.glions.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-05
   version: 0.0.8
   icon: app.glions.wallet.png
+  developerName: Glions Technology OÜ
 
 ---
 

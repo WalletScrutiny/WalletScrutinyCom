@@ -14,7 +14,6 @@ social:
 - https://t.me/inflowchange
 - https://www.youtube.com/@inflowchange
 - https://www.linkedin.com/company/inflowchange/
-developerName: Paychatik Ltd.
 redirect_from:
 - /android/com.inflowchange.inflowchange/
 android:
@@ -24,6 +23,7 @@ android:
   updated: 2023-06-25
   version: '1.8'
   icon: com.inflowchange.inflowchange.png
+  developerName: Paychatik Ltd.
 
 ---
 

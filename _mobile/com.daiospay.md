@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://daios.io/
-developerName: 다이브 주식회사
 redirect_from:
 - /android/com.daiospay/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-16
   version: 1.0.5
   icon: com.daiospay.png
+  developerName: 다이브 주식회사
 
 ---
 

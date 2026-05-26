@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://alibit.tech#deadLink
-developerName: Alibit Mobile
 redirect_from:
 - /android/com.alibitmobile.alibit/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-09
   version: 1.2.6
   icon: com.alibitmobile.alibit.jpg
+  developerName: Alibit Mobile
 
 ---
 

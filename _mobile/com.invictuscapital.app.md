@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://invictuscapital.com
-developerName: InvictusCapital
 redirect_from:
 - /android/com.invictuscapital.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-28
   version: 1.0.9
   icon: com.invictuscapital.app.jpg
+  developerName: InvictusCapital
 
 ---
 

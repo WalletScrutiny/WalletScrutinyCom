@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UCIxdFFckX14sU_1TD8fcFLQ
 - https://www.instagram.com/indocodex
 - mailto:admin@indocodex.com
-developerName: Indocodex - Rajacoin
 redirect_from:
 - /android/app.indocodex.com/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2021-05-18
   version: 1.1.7
   icon: app.indocodex.com.png
+  developerName: Indocodex - Rajacoin
 
 ---
 

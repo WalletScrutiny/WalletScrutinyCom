@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-10
 website: http://www.gowowx.com
-developerName: wowexchange oü
 redirect_from:
 - /android/com.app.gowowx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-13
   version: 1.0.9
   icon: com.app.gowowx.png
+  developerName: wowexchange oü
 
 ---
 

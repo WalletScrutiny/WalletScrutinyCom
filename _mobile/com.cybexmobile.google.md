@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: http://www.cybex.io
-developerName: Cybex
 redirect_from:
 - /android/com.cybexmobile.google/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-04-28
   version: 1.10.3
   icon: com.cybexmobile.google.png
+  developerName: Cybex
 
 ---
 

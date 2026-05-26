@@ -10,7 +10,6 @@ twitter: acornbitsupport
 social:
 - https://t.me/acornbitofficial
 - https://www.youtube.com/channel/UCm5SSnSICxpGHHBPVHBSigA
-developerName: Cushion Labs
 redirect_from:
 - /android/com.cushionlabs.acornbit.dev/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-12-17
   version: 1.2.10
   icon: com.cushionlabs.acornbit.dev.png
+  developerName: Cushion Labs
 
 ---
 

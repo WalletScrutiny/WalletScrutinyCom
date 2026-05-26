@@ -13,7 +13,6 @@ features:
 - hd
 - segwit
 - tradeAlts
-developerName: Encoin Limited
 redirect_from:
 - /android/com.oppi.wallet/
 - /iphone/com.oppi.wallet/
@@ -21,11 +20,12 @@ android:
   appId: com.oppi.wallet
   users: 10000
   released: 2024-05-13
-  updated: 2026-05-14
-  version: 1.0.111
+  updated: 2026-05-25
+  version: 1.0.112
   reviews: 9
   icon: com.oppi.wallet.png
   website: https://oppiwallet.com/en
+  developerName: Encoin Limited
 iphone:
   appId: com.oppi.wallet
   idd: '6502544148'
@@ -35,6 +35,7 @@ iphone:
   version: 1.0.111
   reviews: 16
   icon: com.oppi.wallet.jpg
+  developerName: Encoin Limited
 
 ---
 

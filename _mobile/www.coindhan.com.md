@@ -15,7 +15,6 @@ social:
 - https://www.instagram.com/coindhan/
 - https://www.youtube.com/channel/UCAPICkLqsUx1qTPa1RPQVUw
 - https://www.reddit.com/user/Coin_Dhan/
-developerName: Wollfish Labs Private Limited
 redirect_from:
 - /android/www.coindhan.com/
 - /iphone/www.coindhan.com/
@@ -26,6 +25,7 @@ android:
   updated: 2024-04-07
   version: '1.0'
   icon: www.coindhan.com.png
+  developerName: Wollfish Labs Private Limited
 iphone:
   appId: www.coindhan.com
   idd: '1601649228'
@@ -35,6 +35,7 @@ iphone:
   version: '1.33'
   reviews: 20
   icon: www.coindhan.com.jpg
+  developerName: Wollfish Labs Private Limited
 
 ---
 

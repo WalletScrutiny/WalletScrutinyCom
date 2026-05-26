@@ -5,7 +5,6 @@ meta: fewusers
 date: 2026-05-05
 authors:
 - danny
-developerName: Revens
 redirect_from:
 - /android/me.skycryptowallet.skymobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2026-01-27
   version: 1.54.0
   icon: me.skycryptowallet.skymobile.png
+  developerName: Revens
 
 ---
 

@@ -10,7 +10,6 @@ twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
-developerName: BG LIMITED
 redirect_from:
 - /android/com.bitget.exchange/
 - /iphone/com.bitget.exchange.global/
@@ -19,11 +18,12 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-04-03
-  updated: 2026-05-20
-  version: 2.82.1
-  reviews: 1680
+  updated: 2026-05-21
+  version: 2.83.2
+  reviews: 1683
   icon: com.bitget.exchange.png
   website: https://www.bitget.com/
+  developerName: BG LIMITED
 iphone:
   appId: com.bitget.exchange.global
   idd: 1442778704
@@ -34,6 +34,7 @@ iphone:
   reviews: 2224
   icon: com.bitget.exchange.global.jpg
   website: https://www.bitget.com/en
+  developerName: BG LIMITED
 
 ---
 

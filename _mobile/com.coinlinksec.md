@@ -6,7 +6,6 @@ date: 2024-12-11
 authors:
 - danny
 website: https://web.archive.org/web/20250409012753/https://www.coinlink.tech/
-developerName: CoinLink SecureTech Limited
 appCountry: us
 redirect_from:
 - /iphone/com.coinlinksec/
@@ -18,6 +17,7 @@ iphone:
   version: 1.20.2
   reviews: 5
   icon: com.coinlinksec.jpg
+  developerName: CoinLink SecureTech Limited
 
 ---
 

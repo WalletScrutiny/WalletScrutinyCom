@@ -8,7 +8,6 @@ authors:
 website: https://exchange.panthira.com/
 social:
 - https://t.me/panthira_official
-developerName: Panthira Exchange
 redirect_from:
 - /android/com.cloud.panthira/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-12-21
   version: 1.1.0
   icon: com.cloud.panthira.png
+  developerName: Panthira Exchange
 
 ---
 

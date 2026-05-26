@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/cryptonex
 - https://t.me/cryptonexCNX
 - https://www.facebook.com/Cryptonex.org
-developerName: Cryptonex LP
 redirect_from:
 - /android/org.cryptonex.android/
 android:
@@ -22,6 +21,7 @@ android:
   version: 2.4.9
   reviews: 5
   icon: org.cryptonex.android.png
+  developerName: Cryptonex LP
 
 ---
 

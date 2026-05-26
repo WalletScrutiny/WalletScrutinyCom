@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.grow3.io
 twitter: ICONFiWorld
-developerName: GROW3
 redirect_from:
 - /android/com.mufin.iconfi/
 android:
@@ -18,6 +17,8 @@ android:
   version: 1.2.9
   reviews: 27
   icon: com.mufin.iconfi.png
+  website: https://www.grow3.io
+  developerName: GROW3
 
 ---
 

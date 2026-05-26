@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: http://www.vcb.com/
-developerName: VCB Information Technology PTY Ltd
 redirect_from:
 - /android/com.coldlar.vcb/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-22
   version: 2.3.0
   icon: com.coldlar.vcb.png
+  developerName: VCB Information Technology PTY Ltd
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2024-05-24
 website: https://trade6ix.com
-developerName: DEVOIO GmbH
 redirect_from:
 - /android/com.devoioapps.trade6ix/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2022-05-31
   version: '1.5'
   icon: com.devoioapps.trade6ix.png
+  website: https://trade6ix.com
+  developerName: DEVOIO GmbH
 
 ---
 

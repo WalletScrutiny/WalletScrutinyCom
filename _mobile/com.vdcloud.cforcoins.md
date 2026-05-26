@@ -9,7 +9,6 @@ website: http://www.cforcoins.com
 twitter: CoinsCfor
 social:
 - https://www.instagram.com/cforcoins/
-developerName: CforCoins
 redirect_from:
 - /android/com.vdcloud.cforcoins/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2020-05-13
   version: 2.7.0
   icon: com.vdcloud.cforcoins.png
+  developerName: CforCoins
 
 ---
 

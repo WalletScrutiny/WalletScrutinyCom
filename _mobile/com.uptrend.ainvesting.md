@@ -10,7 +10,6 @@ social:
 - https://ainvesting.eu
 - https://www.facebook.com/uptrend.bg
 - https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
-developerName: Up Trend LTD
 redirect_from:
 - /android/com.uptrend.ainvesting/
 android:
@@ -19,6 +18,8 @@ android:
   updated: 2024-12-21
   version: 7.0.32
   icon: com.uptrend.ainvesting.png
+  website: http://www.uptrend.bg
+  developerName: Up Trend LTD
 
 ---
 

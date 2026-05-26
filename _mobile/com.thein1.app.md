@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/in1app
 - https://www.facebook.com/in1.international
 - https://www.linkedin.com/company/in1-app
-developerName: IN1 HOLDING LIMITED
 redirect_from:
 - /android/com.thein1.app/
 - /iphone/com.thein1.app/
@@ -22,6 +21,7 @@ android:
   version: 0.11.6
   icon: com.thein1.app.jpg
   website: https://www.in1.io
+  developerName: IN1 HOLDING LIMITED
 iphone:
   appId: com.thein1.app
   idd: '6472618142'
@@ -31,6 +31,7 @@ iphone:
   version: 0.11.6
   reviews: 287
   icon: com.thein1.app.jpg
+  developerName: IN1 HOLDING LIMITED
 
 ---
 

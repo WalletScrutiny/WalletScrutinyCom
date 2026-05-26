@@ -17,7 +17,6 @@ features:
 - multiAccount
 - multiSig
 - nfc
-developerName: Sovran LTD
 appCountry: in
 redirect_from:
 - /iphone/com.sovranbitcoin/
@@ -29,6 +28,7 @@ iphone:
   version: 0.0.62
   reviews: 0
   icon: com.sovranbitcoin.jpg
+  developerName: Sovran LTD
 
 ---
 

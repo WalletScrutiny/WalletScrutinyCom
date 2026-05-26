@@ -6,7 +6,6 @@ date: 2024-04-26
 authors:
 - danny
 website: https://sirinlabs.com/
-developerName: SIRIN LABS
 redirect_from:
 - /android/com.sirinlabs.os.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.9.5489
   reviews: 5
   icon: com.sirinlabs.os.wallet.png
+  developerName: SIRIN LABS
 
 ---
 

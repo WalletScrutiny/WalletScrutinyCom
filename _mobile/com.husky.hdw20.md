@@ -4,7 +4,6 @@ title: Husky HDW20 Hardware Wallet
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Embedded Agency LLC
 redirect_from:
 - /android/com.husky.hdw20/
 - /iphone/com.husky.hdw20/
@@ -16,6 +15,7 @@ android:
   version: 1.0.4
   icon: com.husky.hdw20.png
   website: https://www.huskywallet.com/
+  developerName: Embedded Agency LLC
 iphone:
   appId: com.husky.hdw20
   idd: 1549046963
@@ -25,6 +25,7 @@ iphone:
   version: 1.0.4
   reviews: 0
   icon: com.husky.hdw20.jpg
+  developerName: Embedded Agency LLC
 
 ---
 

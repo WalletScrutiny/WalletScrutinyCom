@@ -6,7 +6,6 @@ date: 2023-05-24
 authors:
 - danny
 website: https://exchanger101.com
-developerName: exchanger company
 redirect_from:
 - /android/com.exchanger101.app/
 android:
@@ -17,6 +16,8 @@ android:
   version: 1.49.3
   reviews: 7
   icon: com.exchanger101.app.png
+  website: https://exchanger101.com
+  developerName: exchanger company
 
 ---
 

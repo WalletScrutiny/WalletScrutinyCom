@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://korvio.io#deadLink
-developerName: korvio
 redirect_from:
 - /android/com.wallet.korvio/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-03-18
   version: 1.0.25
   icon: com.wallet.korvio.png
+  developerName: korvio
 
 ---
 

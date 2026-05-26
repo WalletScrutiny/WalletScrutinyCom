@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-03-14
 website: https://standardsats.github.io
-developerName: Anton Gushcha
 redirect_from:
 - /android/com.btcontract.walletfiat/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-05-07
   version: 4.4.1
   icon: com.btcontract.walletfiat.png
+  developerName: Anton Gushcha
 
 ---
 

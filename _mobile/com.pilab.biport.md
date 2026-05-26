@@ -10,7 +10,6 @@ social:
 - https://t.me/Bifrost_Global
 - https://www.youtube.com/c/Bifrost_BFC
 - https://medium.com/bifrost/how-to-buy-bfc-and-bifi-a21bcb9749a9
-developerName: PiLab Technology
 redirect_from:
 - /android/com.pilab.biport/
 android:
@@ -21,6 +20,8 @@ android:
   version: '0.45'
   reviews: 8
   icon: com.pilab.biport.png
+  website: https://pilab.co
+  developerName: PiLab Technology
 
 ---
 

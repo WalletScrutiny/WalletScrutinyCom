@@ -3,7 +3,6 @@ title: Eron Wallet Dapp
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: Eron Project and Development SRL
 redirect_from:
 - /android/com.eron.eronwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-20
   version: 3.40.91
   icon: com.eron.eronwallet.jpg
+  developerName: Eron Project and Development SRL
 
 ---
 

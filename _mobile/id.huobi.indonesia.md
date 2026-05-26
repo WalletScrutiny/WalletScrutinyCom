@@ -6,7 +6,6 @@ date: 2023-10-16
 authors:
 - danny
 website: http://www.huobi.com.co
-developerName: huobi indonesia info
 redirect_from:
 - /android/id.huobi.indonesia/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-01
   version: 2.0.2
   icon: id.huobi.indonesia.png
+  developerName: huobi indonesia info
 
 ---
 

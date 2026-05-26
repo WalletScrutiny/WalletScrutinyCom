@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://home.star-bit.io
-developerName: STAR_BIT_Innovation
 redirect_from:
 - /android/io.starbit.portal/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-03-15
   version: 1.1.6
   icon: io.starbit.portal.png
+  developerName: STAR_BIT_Innovation
 
 ---
 

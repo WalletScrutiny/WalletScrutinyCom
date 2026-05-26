@@ -9,7 +9,6 @@ website: https://profittradingapp.com?utm_source=bitmex_gp
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forbitmex/
 android:
@@ -20,6 +19,8 @@ android:
   version: 8.1.1
   reviews: 8
   icon: com.profittrading.forbitmex.png
+  website: https://profittradingapp.com?utm_source=bitmex_gp
+  developerName: ProfitTradingApp
 
 ---
 

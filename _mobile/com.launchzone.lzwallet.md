@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: https://lz.finance/#&deadLink
-developerName: LaunchZone
 redirect_from:
 - /android/com.launchzone.lzwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-09-08
   version: 1.0.4
   icon: com.launchzone.lzwallet.png
+  developerName: LaunchZone
 
 ---
 

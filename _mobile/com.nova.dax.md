@@ -7,7 +7,6 @@ authors:
 social:
 - https://www.linkedin.com/company/novadax-do-brasil
 - https://www.facebook.com/novadaxglobal
-developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 redirect_from:
 - /android/com.nova.dax/
 - /iphone/com.nova.dax/
@@ -21,6 +20,7 @@ android:
   icon: com.nova.dax.png
   verdict: custodial
   website: https://www.novadax.com
+  developerName: NOVADAX BRASIL PAGAMENTOS LTDA
   twitter: Nova_DAXglobal
 iphone:
   appId: com.nova.dax
@@ -32,6 +32,7 @@ iphone:
   reviews: 2703
   icon: com.nova.dax.jpg
   verdict: wip
+  developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 
 ---
 

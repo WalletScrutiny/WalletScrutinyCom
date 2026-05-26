@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/riodefiofficial
 - https://www.facebook.com/riodefiofficial
 - https://github.com/riodefi
-developerName: RioDeFi
 appCountry: us
 redirect_from:
 - /android/com.riodefi.store/
@@ -25,6 +24,7 @@ android:
   version: 2.9.8
   reviews: 3
   icon: com.riodefi.store.png
+  developerName: RioDeFi
 iphone:
   appId: com.riodefi
   idd: 1560789648
@@ -33,6 +33,7 @@ iphone:
   version: 2.9.7
   reviews: 5
   icon: com.riodefi.jpg
+  developerName: RioDeFi
 
 ---
 

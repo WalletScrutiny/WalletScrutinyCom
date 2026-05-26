@@ -10,7 +10,6 @@ website: https://koshelek.ru/
 twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru
-developerName: Кошелёк.ру
 appCountry: ru
 redirect_from:
 - /android/ru.koshelek/
@@ -23,6 +22,8 @@ android:
   version: 2.3.2
   reviews: 149
   icon: ru.koshelek.png
+  website: https://koshelek.ru/
+  developerName: Кошелёк.ру
 iphone:
   appId: dev.spedn.ru
   idd: 1524167720
@@ -31,6 +32,7 @@ iphone:
   version: 2.3.3
   reviews: 117
   icon: dev.spedn.ru.jpg
+  developerName: Кошелёк.ру
 
 ---
 

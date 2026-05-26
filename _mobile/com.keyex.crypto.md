@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-09-03
 website: https://www.keyex.com.tr#deadLink
-developerName: DIGIFACTOR TEKNOLOJI ANONIM SIRKETI
 redirect_from:
 - /android/com.keyex.crypto/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-11-12
   version: 1.3.64
   icon: com.keyex.crypto.png
+  developerName: DIGIFACTOR TEKNOLOJI ANONIM SIRKETI
 
 ---
 

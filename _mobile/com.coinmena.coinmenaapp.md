@@ -10,7 +10,6 @@ twitter: Coinmena
 social:
 - https://www.linkedin.com/company/coinmena
 - https://www.facebook.com/CoinMENA.Bahrain
-developerName: CoinMENA
 appCountry: us
 redirect_from:
 - /android/com.coinmena.coinmenaapp/
@@ -19,11 +18,12 @@ android:
   appId: com.coinmena.coinmenaapp
   users: 500000
   released: 2021-08-07
-  updated: 2026-02-26
-  version: 3.5.0
+  updated: 2026-05-19
+  version: 3.6.0
   reviews: 55
   icon: com.coinmena.coinmenaapp.png
   website: http://coinmena.com
+  developerName: CoinMENA
 iphone:
   appId: com.coinmena.coinmenaapp
   idd: 1573112964
@@ -33,6 +33,7 @@ iphone:
   reviews: 14
   icon: com.coinmena.coinmenaapp.jpg
   website: https://www.coinmena.com/
+  developerName: CoinMENA
 
 ---
 

@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/SAFcryptocoin
 - https://www.youtube.com/channel/UCgSsFoSOSZIkulBPGr31t1Q
 - https://t.me/SafcoinGroup
-developerName: SAFCOIN
 redirect_from:
 - /android/com.fhm.safcoin/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2022-03-30
   version: 2.0.5
   icon: com.fhm.safcoin.png
+  developerName: SAFCOIN
 
 ---
 

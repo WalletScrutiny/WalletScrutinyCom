@@ -12,7 +12,6 @@ social:
 - https://hashkey.com
 - https://www.facebook.com/HashKeyMe
 - https://discord.gg/zs569ytTkd#deadLink
-developerName: HASHKEY HUB LIMITED
 redirect_from:
 - /android/com.hashkey.me.google/
 - /iphone/com.hashkey.me/
@@ -24,6 +23,7 @@ android:
   version: 4.1.0
   reviews: 1
   icon: com.hashkey.me.google.png
+  developerName: HASHKEY HUB LIMITED
 iphone:
   appId: com.hashkey.me
   idd: '1547228803'
@@ -33,6 +33,7 @@ iphone:
   version: 4.1.0
   reviews: 9
   icon: com.hashkey.me.jpg
+  developerName: HASHKEY HUB LIMITED
 
 ---
 

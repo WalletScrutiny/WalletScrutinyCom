@@ -20,8 +20,8 @@ android:
   appId: africa.obiex.app
   users: 50000
   released: 2021-06-09
-  updated: 2026-05-18
-  version: 4.1.5
+  updated: 2026-05-23
+  version: 4.1.6
   reviews: 31
   icon: africa.obiex.app.png
   website: https://obiex.finance/
@@ -31,9 +31,9 @@ iphone:
   idd: '1567887163'
   appCountry: ng
   released: 2021-06-18
-  updated: 2026-04-14
-  version: 4.1.4
-  reviews: 690
+  updated: 2026-05-21
+  version: 4.1.5
+  reviews: 692
   icon: africa.obiex.app.jpg
   developerName: Paylot technologies Ltd
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://coins.app/
-developerName: Dan Holdings Limited
 redirect_from:
 - /android/com.coinsapp.mobile/
 android:
@@ -15,6 +14,7 @@ android:
   version: 2.1.4
   reviews: 41
   icon: com.coinsapp.mobile.jpg
+  developerName: Dan Holdings Limited
 
 ---
 

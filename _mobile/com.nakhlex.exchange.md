@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://nakhlex.com#deadLink
-developerName: Nakhlex
 redirect_from:
 - /android/com.nakhlex.exchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-08
   version: 1.1.0
   icon: com.nakhlex.exchange.png
+  developerName: Nakhlex
 
 ---
 

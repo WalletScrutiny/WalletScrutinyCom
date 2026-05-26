@@ -12,7 +12,6 @@ social:
 - https://www.reddit.com/r/javvy
 - https://medium.com/javvy-crypto-analysis
 - https://t.me/javvychat
-developerName: Javvy Technologies Ltd
 redirect_from:
 - /android/com.javvy/
 android:
@@ -23,6 +22,7 @@ android:
   version: 1.0.4
   reviews: 6
   icon: com.javvy.png
+  developerName: Javvy Technologies Ltd
 
 ---
 

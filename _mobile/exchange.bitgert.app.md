@@ -10,7 +10,6 @@ twitter: exchangebitgert
 social:
 - https://www.reddit.com/r/Bitgert
 - https://t.me/exchangebitgert
-developerName: Bitgert Technologies Ltd
 redirect_from:
 - /android/exchange.bitgert.app/
 android:
@@ -21,6 +20,8 @@ android:
   version: '1.0'
   reviews: 31
   icon: exchange.bitgert.app.png
+  website: https://bitgert.exchange
+  developerName: Bitgert Technologies Ltd
 
 ---
 

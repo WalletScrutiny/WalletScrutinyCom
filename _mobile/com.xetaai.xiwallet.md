@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2026-01-14
 website: https://xetaai.io
-developerName: XetaAI
 redirect_from:
 - /android/com.xetaai.xiwallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2026-04-30
   version: 2.1.0
   icon: com.xetaai.xiwallet.png
+  website: https://xetaai.io
+  developerName: XetaAI
 
 ---
 

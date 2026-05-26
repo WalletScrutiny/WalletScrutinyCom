@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://www.theoproject.io#deadLink
-developerName: Centrys Inc.
 redirect_from:
 - /android/io.centrys.synawallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-15
   version: 2.0.1
   icon: io.centrys.synawallet.png
+  developerName: Centrys Inc.
 
 ---
 

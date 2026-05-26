@@ -9,7 +9,6 @@ website: https://bexc.io
 twitter: byteexchange
 social:
 - https://facebook.com/ByteExchangeOfficial
-developerName: Bytedex Teknoloji A.ş.
 redirect_from:
 - /android/io.bytedex.mobile.tr/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2024-03-15
   version: 2.0.16
   icon: io.bytedex.mobile.tr.png
+  developerName: Bytedex Teknoloji A.ş.
 
 ---
 

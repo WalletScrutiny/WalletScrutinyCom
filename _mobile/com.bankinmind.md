@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://bankinmind.com#deadLink
-developerName: BIM GROUP L.L.C-FZ
 redirect_from:
 - /android/com.bankinmind/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-05-01
   version: 1.0.71
   icon: com.bankinmind.png
+  developerName: BIM GROUP L.L.C-FZ
 
 ---
 

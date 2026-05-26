@@ -15,7 +15,6 @@ social:
 - https://zt-exchange.medium.com
 - https://www.instagram.com/zt.exchange
 - https://t.me/ZTGlobal_English
-developerName: Glory Global Technology Limited
 redirect_from:
 - /android/com.zhengtong.zcoin/
 android:
@@ -26,6 +25,7 @@ android:
   version: 2.0.8
   reviews: 18
   icon: com.zhengtong.zcoin.png
+  developerName: Glory Global Technology Limited
 
 ---
 

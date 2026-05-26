@@ -3,7 +3,6 @@ title: DAR Crypto
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: DAR Quick Trade
 redirect_from:
 - /android/com.hustay.swing.d6d86f14e069d437b89577a50c79f0ca5/
 android:
@@ -14,6 +13,7 @@ android:
   version: '0.3'
   reviews: 5
   icon: com.hustay.swing.d6d86f14e069d437b89577a50c79f0ca5.png
+  developerName: DAR Quick Trade
 
 ---
 

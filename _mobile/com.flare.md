@@ -22,8 +22,8 @@ android:
   version: 1.4.0
   reviews: 43
   icon: com.flare.png
-  twitter: flarewallet
   developerName: flarewallet.io
+  twitter: flarewallet
 iphone:
   appId: org.flarewallet.flare
   idd: 1496651406

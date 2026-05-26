@@ -20,7 +20,6 @@ features:
 - fingerprint
 - secEl
 - tradeAlts
-developerName: ONEKEY LIMITED
 redirect_from:
 - /android/so.onekey.app.wallet/
 - /iphone/so.onekey.wallet/
@@ -33,6 +32,7 @@ android:
   reviews: 93
   icon: so.onekey.app.wallet.png
   website: https://onekey.so
+  developerName: ONEKEY LIMITED
 iphone:
   appId: so.onekey.wallet
   idd: '1609559473'
@@ -43,6 +43,7 @@ iphone:
   reviews: 680
   icon: so.onekey.wallet.jpg
   website: https://onekey.so?utm_source=app_store
+  developerName: ONEKEY LIMITED
 
 ---
 

@@ -23,8 +23,8 @@ android:
   reviews: 2
   icon: io.meta1.appbeta.png
   verdict: nosource
-  repository: https://github.com/META-1-Official/litewallet-native#deadLink
   developerName: META 1 Coin
+  repository: https://github.com/META-1-Official/litewallet-native#deadLink
 iphone:
   appId: io.meta1.appbeta
   idd: '1626884236'

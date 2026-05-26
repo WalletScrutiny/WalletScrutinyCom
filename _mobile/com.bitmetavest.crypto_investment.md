@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://bitmetavest.com/en#deadLink
-developerName: ALB Mucia Tech
 redirect_from:
 - /android/com.bitmetavest.crypto_investment/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-18
   version: 1.0.0
   icon: com.bitmetavest.crypto_investment.png
+  developerName: ALB Mucia Tech
 
 ---
 

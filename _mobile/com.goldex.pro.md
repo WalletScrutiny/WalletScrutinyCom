@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-25
 website: https://goldexco.in
-developerName: Denxpro Software
 redirect_from:
 - /android/com.goldex.pro/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-10-18
   version: 1.1.2
   icon: com.goldex.pro.jpg
+  developerName: Denxpro Software
 
 ---
 

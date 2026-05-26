@@ -7,7 +7,6 @@ authors:
 - leo
 repository: https://github.com/Paymint-Labs/Paymint
 twitter: paymint_wallet
-developerName: Paymint Labs
 redirect_from:
 - /com.paymintlabs.paymint/
 - /android/com.paymintlabs.paymint/
@@ -18,6 +17,7 @@ android:
   updated: 2020-10-05
   version: 1.2.2
   icon: com.paymintlabs.paymint.png
+  developerName: Paymint Labs
 
 ---
 

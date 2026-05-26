@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://cxihub.com#deadLink
-developerName: Cxihub
 redirect_from:
 - /android/com.cxihub.cxihubapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-01-08
   version: '1.1'
   icon: com.cxihub.cxihubapp.jpg
+  developerName: Cxihub
 
 ---
 

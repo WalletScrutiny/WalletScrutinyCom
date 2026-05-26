@@ -6,7 +6,6 @@ date: 2023-04-20
 authors:
 - danny
 website: https://www.dmbank.com.br
-developerName: The Digital Money
 redirect_from:
 - /android/com.bancryp.dmbank.user/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-01-13
   version: 1.4.5
   icon: com.bancryp.dmbank.user.png
+  developerName: The Digital Money
 
 ---
 

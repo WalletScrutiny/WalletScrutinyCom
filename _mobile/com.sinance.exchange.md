@@ -6,7 +6,6 @@ date: 2023-08-25
 authors:
 - danny
 website: https://www.sinance.net
-developerName: Sinance Developer
 redirect_from:
 - /android/com.sinance.exchange/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-07-06
   version: 1.2.1
   icon: com.sinance.exchange.jpg
+  developerName: Sinance Developer
 
 ---
 

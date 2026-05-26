@@ -6,7 +6,6 @@ date: 2023-08-05
 authors:
 - danny
 website: https://skenas.app/
-developerName: Nikaat Corp
 redirect_from:
 - /android/com.project.android.skenas/
 android:
@@ -17,6 +16,7 @@ android:
   version: 8.0.2
   reviews: 6
   icon: com.project.android.skenas.png
+  developerName: Nikaat Corp
 
 ---
 

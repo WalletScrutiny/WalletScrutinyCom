@@ -6,7 +6,6 @@ date: 2023-08-07
 authors:
 - danny
 website: https://www.gulftrader.com
-developerName: Gulf Trader LTD
 redirect_from:
 - /android/com.gulftrader/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2020-11-13
   version: 3.0.8
   icon: com.gulftrader.png
+  developerName: Gulf Trader LTD
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: UpbitGlobal
 title: Upbit (Global)
 verdict: custodial
+meta: ok
 date: 2021-10-10
 authors:
 - danny
@@ -17,8 +18,8 @@ android:
   appId: com.dunamu.exchange.global
   users: 500000
   released: 2018-11-06
-  updated: 2026-05-19
-  version: 1.22.35
+  updated: 2026-05-22
+  version: 1.22.36
   reviews: 34
   icon: com.dunamu.exchange.global.png
   meta: ok

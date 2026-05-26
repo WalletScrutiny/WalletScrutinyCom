@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.zabtechnologies.net/
-developerName: Zab Technologies
 redirect_from:
 - /android/com.zab.lbc.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-07
   version: 1.0.0
   icon: com.zab.lbc.app.png
+  developerName: Zab Technologies
 
 ---
 

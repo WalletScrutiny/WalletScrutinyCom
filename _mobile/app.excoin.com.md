@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://m.excoin.cloud#deadLink
-developerName: betcoin
 redirect_from:
 - /android/app.excoin.com/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-09-16
   version: 1.1.2
   icon: app.excoin.com.png
+  developerName: betcoin
 
 ---
 

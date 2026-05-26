@@ -19,10 +19,11 @@ android:
   appId: hkd.com
   users: 100000
   released: 2020-09-11
-  updated: 2026-05-19
-  version: 3.0.5
+  updated: 2026-05-25
+  version: 3.0.6
   reviews: 16
   icon: hkd.com.png
+  website: http://hkd.com
   developerName: HKD.com Limited
 iphone:
   appId: com.hkd.hkdex

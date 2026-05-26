@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://poutineswap.com
-developerName: Poutineswap
 redirect_from:
 - /android/poutineswap.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-04
   version: 1.0.2
   icon: poutineswap.app.png
+  developerName: Poutineswap
 
 ---
 

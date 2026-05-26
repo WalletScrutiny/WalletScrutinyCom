@@ -6,7 +6,6 @@ date: 2023-08-19
 authors:
 - danny
 website: https://prod.xchangemonster.com#deadLink
-developerName: XchangeMonsterMobile
 redirect_from:
 - /android/com.xchangemonster/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-08-24
   version: '1.7'
   icon: com.xchangemonster.png
+  developerName: XchangeMonsterMobile
 
 ---
 

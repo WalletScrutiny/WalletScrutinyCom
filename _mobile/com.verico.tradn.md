@@ -6,7 +6,6 @@ date: 2021-11-15
 authors:
 - danny
 website: https://tradn.io#deadLink
-developerName: Verico International Co., Ltd.
 redirect_from:
 - /android/com.verico.tradn/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-19
   version: 1.5.106
   icon: com.verico.tradn.png
+  developerName: Verico International Co., Ltd.
 
 ---
 

@@ -11,16 +11,17 @@ twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX/
 - https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
-developerName: BitMEX
 redirect_from:
 - /android/com.bitmex.app.android/
 - /iphone/com.bitmex.app.ios/
 android:
   appId: com.bitmex.app.android
   users: 100000
-  updated: 2026-05-06
-  version: 3.2.9
+  updated: 2026-05-21
+  version: 3.2.10
   icon: com.bitmex.app.android.png
+  website: https://www.bitmex.com/
+  developerName: BitMEX
 iphone:
   appId: com.bitmex.app.ios
   idd: '1589023233'
@@ -30,6 +31,7 @@ iphone:
   version: 3.2.9
   reviews: 0
   icon: com.bitmex.app.ios.jpg
+  developerName: BitMEX
 
 ---
 

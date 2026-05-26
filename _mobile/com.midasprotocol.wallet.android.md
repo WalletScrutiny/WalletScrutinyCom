@@ -9,7 +9,6 @@ authors:
 twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
-developerName: Midas Core Pte Ltd
 redirect_from:
 - /android/com.midasprotocol.wallet.android/
 - /iphone/com.midasprotocol.wallet.ios/
@@ -22,6 +21,7 @@ android:
   reviews: 25
   icon: com.midasprotocol.wallet.android.png
   website: https://midasprotocol.io
+  developerName: Midas Core Pte Ltd
 iphone:
   appId: com.midasprotocol.wallet.ios
   idd: 1436698193
@@ -31,6 +31,7 @@ iphone:
   reviews: 90
   icon: com.midasprotocol.wallet.ios.jpg
   website: https://midasprotocol.io/
+  developerName: Midas Core Pte Ltd
 
 ---
 

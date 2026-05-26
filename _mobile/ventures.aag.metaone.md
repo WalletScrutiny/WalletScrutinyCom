@@ -2,6 +2,7 @@
 wsId: metaOneNFT
 title: Saakuru  App
 verdict: custodial
+meta: ok
 date: 2025-09-23
 authors:
 - danny
@@ -12,7 +13,6 @@ social:
 - https://t.me/aagventures
 - https://www.facebook.com/aagventures
 - https://discord.com/invite/aagventures#deadLink
-developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 redirect_from:
 - /android/ventures.aag.metaone/
 - /iphone/com.aag.metaone/
@@ -26,6 +26,7 @@ android:
   icon: ventures.aag.metaone.png
   meta: ok
   website: https://getmeta.one/
+  developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 iphone:
   appId: com.aag.metaone
   idd: '1627212812'
@@ -37,6 +38,7 @@ iphone:
   icon: com.aag.metaone.jpg
   meta: removed
   website: https://saakuru.com/app
+  developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 
 ---
 

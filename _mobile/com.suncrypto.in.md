@@ -5,7 +5,6 @@ meta: ok
 date: 2021-09-11
 website: https://suncrypto.in
 twitter: suncryptoin
-developerName: SunCrypto
 redirect_from:
 - /android/com.suncrypto.in/
 android:
@@ -16,6 +15,8 @@ android:
   version: '5.24'
   reviews: 275
   icon: com.suncrypto.in.png
+  website: https://suncrypto.in
+  developerName: SunCrypto
 
 ---
 

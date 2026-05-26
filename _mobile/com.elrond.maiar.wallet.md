@@ -2,6 +2,7 @@
 wsId: maiarwallet
 title: 'xPortal: Crypto & DeFi Wallet'
 verdict: nosource
+meta: ok
 date: 2023-01-30
 authors:
 - danny
@@ -20,9 +21,10 @@ android:
   released: 2021-01-15
   updated: 2026-05-12
   version: 2.99.3 (3067)
-  reviews: 411
+  reviews: 412
   icon: com.elrond.maiar.wallet.png
   meta: ok
+  website: https://xportal.com/
   developerName: xPortal Labs
 iphone:
   appId: com.elrond.maiar.wallet

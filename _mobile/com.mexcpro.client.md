@@ -11,17 +11,18 @@ social:
 - https://www.linkedin.com/company/mexcglobal
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
-developerName: MEXC Ltd
 redirect_from:
 - /android/com.mexcpro.client/
 android:
   appId: com.mexcpro.client
   users: 10000000
   released: 2020-07-23
-  updated: 2026-05-20
-  version: 6.57.0
-  reviews: 3016
+  updated: 2026-05-21
+  version: 6.57.1
+  reviews: 3033
   icon: com.mexcpro.client.png
+  website: https://www.mexc.com
+  developerName: MEXC Ltd
 
 ---
 

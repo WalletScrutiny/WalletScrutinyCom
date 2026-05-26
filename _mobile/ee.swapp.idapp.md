@@ -6,7 +6,6 @@ date: 2023-07-31
 authors:
 - danny
 website: https://swapp.ee
-developerName: Marble Harp Technologies Inc
 redirect_from:
 - /android/ee.swapp.idapp/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   reviews: 7
   icon: ee.swapp.idapp.png
+  developerName: Marble Harp Technologies Inc
 
 ---
 

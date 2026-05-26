@@ -2,6 +2,7 @@
 wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
 verdict: nosendreceive
+meta: ok
 date: 2024-09-24
 authors:
 - danny
@@ -20,7 +21,7 @@ android:
   released: 2022-07-16
   updated: 2026-04-23
   version: 2.0.0
-  reviews: 116
+  reviews: 117
   icon: com.whitehat.cashin_app.png
   meta: ok
   website: https://cash-in.app

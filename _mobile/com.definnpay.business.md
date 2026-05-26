@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://www.definnpay.com#deadLink
-developerName: mefinnTechnology co.,ltd.
 redirect_from:
 - /android/com.definnpay.business/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-25
   version: 1.2.9
   icon: com.definnpay.business.png
+  developerName: mefinnTechnology co.,ltd.
 
 ---
 

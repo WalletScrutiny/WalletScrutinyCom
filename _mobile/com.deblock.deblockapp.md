@@ -15,7 +15,7 @@ redirect_from:
 android:
   appId: com.deblock.deblockapp
   users: 500000
-  updated: 2026-05-14
+  updated: 2026-05-21
   version: 5.13.0
   reviews: 10
   icon: com.deblock.deblockapp.png

@@ -6,7 +6,6 @@ date: 2023-05-06
 authors:
 - danny
 website: https://web.archive.org/web/20240722011202/https://vrontonode.org/
-developerName: VRONTO NODE & VRONTO TECH
 redirect_from:
 - /android/org.vrontonode.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-11-29
   version: '1.0'
   icon: org.vrontonode.wallet.png
+  developerName: VRONTO NODE & VRONTO TECH
 
 ---
 

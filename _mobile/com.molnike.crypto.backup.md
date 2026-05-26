@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-23
 website: https://github.com/openMolNike/Crypto-Apps
-developerName: Mol Nike
 redirect_from:
 - /android/com.molnike.crypto.backup/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-28
   version: '0.4'
   icon: com.molnike.crypto.backup.png
+  developerName: Mol Nike
 
 ---
 

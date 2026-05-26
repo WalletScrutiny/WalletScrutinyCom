@@ -3,7 +3,6 @@ title: Kryptrx Exchange
 verdict: wip
 meta: removed
 date: 2024-11-29
-developerName: ETHERLIN
 redirect_from:
 - /android/com.kryptrx.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-19
   version: '1.0'
   icon: com.kryptrx.app.png
+  developerName: ETHERLIN
 
 ---
 

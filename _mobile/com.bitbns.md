@@ -14,7 +14,6 @@ social:
 features:
 - fingerprint
 - tradeAlts
-developerName: Bitbns Cryptocurrency Trading Exchange India
 redirect_from:
 - /android/com.bitbns/
 android:
@@ -25,6 +24,8 @@ android:
   version: 6.21.0
   reviews: 44
   icon: com.bitbns.png
+  website: https://bitbns.com/
+  developerName: Bitbns Cryptocurrency Trading Exchange India
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://ex.tcapex.com#deadLink
-developerName: TECHNOLOGY CAPITAL HOLDINGS, LLC
 redirect_from:
 - /android/com.tcapital.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-27
   version: 1.1.5
   icon: com.tcapital.exchange.png
+  developerName: TECHNOLOGY CAPITAL HOLDINGS, LLC
 
 ---
 

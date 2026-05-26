@@ -13,7 +13,6 @@ features:
 - hd
 - segwit
 - ln
-developerName: Tether Data
 redirect_from:
 - /android/io.tether.wallet/
 - /iphone/io.tether.wallet.official/
@@ -21,11 +20,12 @@ android:
   appId: io.tether.wallet
   users: 10000
   released: 2026-03-19
-  updated: 2026-05-07
-  version: 1.1.1
+  updated: 2026-05-20
+  version: 1.2.0
   reviews: 8
   icon: io.tether.wallet.png
   website: https://wallet.tether.io/support/
+  developerName: Tether Data
   repository: https://github.com/tetherto/tether-wallet-app-releases
 iphone:
   appId: io.tether.wallet.official
@@ -37,6 +37,7 @@ iphone:
   reviews: 8
   icon: io.tether.wallet.official.jpg
   website: https://wallet.tether.io/
+  developerName: Tether Data
 
 ---
 

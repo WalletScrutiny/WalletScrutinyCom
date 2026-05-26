@@ -23,6 +23,7 @@ android:
   version: 2.20.0
   reviews: 243
   icon: im.token.app.png
+  website: https://token.im
   developerName: IMTOKEN PTE.LTD.
 iphone:
   appId: im.token.app

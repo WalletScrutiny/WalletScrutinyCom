@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://bt360pro.com#deadLink
-developerName: BT360 Ltd.
 redirect_from:
 - /android/com.bt360.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-02
   version: 1.1.2
   icon: com.bt360.app.png
+  developerName: BT360 Ltd.
 
 ---
 

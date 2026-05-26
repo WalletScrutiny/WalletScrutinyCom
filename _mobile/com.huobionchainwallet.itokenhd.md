@@ -11,7 +11,6 @@ authors:
 social:
 - https://medium.com/@iTokenWalletOfficial
 - https://www.facebook.com/HuobiWallet
-developerName: BlazekTech Internet Technology Service Limited
 redirect_from:
 - /android/com.huobionchainwallet.itokenhd/
 - /iphone/com.walletdev.onchainwallet/
@@ -24,6 +23,7 @@ android:
   reviews: 2
   icon: com.huobionchainwallet.itokenhd.png
   website: https://www.itoken.com/
+  developerName: BlazekTech Internet Technology Service Limited
   twitter: iTokenWallet
 iphone:
   appId: com.walletdev.onchainwallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 136
   icon: com.walletdev.onchainwallet.jpg
   website: https://www.itoken.com/en/
+  developerName: BlazekTech Internet Technology Service Limited
   twitter: HuobiWallet
 
 ---

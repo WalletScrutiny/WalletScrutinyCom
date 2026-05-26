@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://excelplusremit.com/
-developerName: Excel Plus Remit
 redirect_from:
 - /android/com.excelplusremit.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-12
   version: 3.0.8
   icon: com.excelplusremit.app.png
+  developerName: Excel Plus Remit
 
 ---
 

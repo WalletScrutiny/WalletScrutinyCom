@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-06-21
 website: https://safesenda.com
-developerName: Safesenda App
 redirect_from:
 - /android/com.safesenda/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-16
   version: 1.1.10
   icon: com.safesenda.png
+  developerName: Safesenda App
 
 ---
 

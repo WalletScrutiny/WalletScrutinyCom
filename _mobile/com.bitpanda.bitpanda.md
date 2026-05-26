@@ -17,7 +17,6 @@ social:
 features:
 - buyWithCC
 - tradeAlts
-developerName: Bitpanda GmbH
 redirect_from:
 - /android/com.bitpanda.bitpanda/
 - /iphone/com.bitpanda.bitpanda/
@@ -30,6 +29,7 @@ android:
   reviews: 18
   icon: com.bitpanda.bitpanda.png
   website: https://www.bitpanda.com
+  developerName: Bitpanda GmbH
 iphone:
   appId: com.bitpanda.bitpanda
   idd: '1449018960'
@@ -40,6 +40,7 @@ iphone:
   reviews: 25515
   icon: com.bitpanda.bitpanda.jpg
   website: https://www.bitpanda.com/app
+  developerName: Bitpanda GmbH
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://secuxtech.com
-developerName: SecuX
 redirect_from:
 - /android/com.secuxtech.spaymerchanttool/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-01-18
   version: 1.0.1
   icon: com.secuxtech.spaymerchanttool.png
+  developerName: SecuX
 
 ---
 

@@ -22,9 +22,9 @@ android:
   appId: com.kraken.invest.app
   users: 5000000
   released: 2020-12-30
-  updated: 2026-05-15
-  version: 3.64.0
-  reviews: 8053
+  updated: 2026-05-22
+  version: 3.65.0
+  reviews: 8076
   icon: com.kraken.invest.app.png
   website: https://www.kraken.com
   developerName: Payward, Inc.

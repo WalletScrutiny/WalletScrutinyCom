@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-09
 authors:
 - danny
-developerName: MTB SMARTNET
 redirect_from:
 - /android/coinvest.investment/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2020-12-18
   version: '9.8'
   icon: coinvest.investment.png
+  developerName: MTB SMARTNET
 
 ---
 

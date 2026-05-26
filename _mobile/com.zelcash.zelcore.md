@@ -16,7 +16,6 @@ features:
 - fingerprint
 - tradeAlts
 - segwit
-developerName: Influx Technologies Limited
 redirect_from:
 - /com.zelcash.zelcore/
 - /posts/com.zelcash.zelcore/
@@ -30,6 +29,8 @@ android:
   version: 8.31.1
   reviews: 140
   icon: com.zelcash.zelcore.png
+  website: https://zelcore.io
+  developerName: Influx Technologies Limited
 iphone:
   appId: com.zelcash.zelcore
   idd: 1436296839
@@ -38,6 +39,7 @@ iphone:
   version: v8.31.0
   reviews: 23
   icon: com.zelcash.zelcore.jpg
+  developerName: Influx Technologies Limited
 
 ---
 

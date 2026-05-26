@@ -9,7 +9,6 @@ website: https://profittradingapp.com/
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forokex/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2020-07-23
   version: 1.2.0
   icon: com.profittrading.forokex.png
+  developerName: ProfitTradingApp
 
 ---
 

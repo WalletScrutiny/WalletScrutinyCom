@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.hodlnaut.com
 twitter: hodlnautdotcom
-developerName: Hodlnaut
 appCountry: SG
 redirect_from:
 - /android/com.hodlnaut.mobile/
@@ -19,6 +18,7 @@ android:
   version: 1.4.15
   reviews: 76
   icon: com.hodlnaut.mobile.jpg
+  developerName: Hodlnaut
 
 ---
 

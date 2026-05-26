@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: http://menapay.io
-developerName: MC Digital Tic. ve Bil. Hiz. LTD.
 redirect_from:
 - /android/io.menapay/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.8.7
   reviews: 4
   icon: io.menapay.png
+  developerName: MC Digital Tic. ve Bil. Hiz. LTD.
 
 ---
 

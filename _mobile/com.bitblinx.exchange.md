@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://bitblinx.com
-developerName: BitBlinx
 redirect_from:
 - /android/com.bitblinx.exchange/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.8'
   reviews: 5
   icon: com.bitblinx.exchange.png
+  developerName: BitBlinx
 
 ---
 

@@ -3,7 +3,6 @@ title: 'P2Exchange: Buy RON & MATIC'
 verdict: wip
 meta: removed
 date: 2024-09-21
-developerName: KCommerce Online
 redirect_from:
 - /android/com.p2exchange.ph/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-30
   version: 1.0.6
   icon: com.p2exchange.ph.png
+  developerName: KCommerce Online
 
 ---
 

@@ -33,9 +33,10 @@ android:
   released: 2018-03-01
   updated: 2026-04-29
   version: 4.48.1
-  reviews: 747
+  reviews: 748
   icon: co.edgesecure.app.png
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
+  website: https://edge.app
   developerName: Edge (formerly Airbitz)
 iphone:
   appId: co.edgesecure.app
@@ -43,8 +44,9 @@ iphone:
   released: 2018-02-09
   updated: 2026-04-29
   version: 4.48.1
-  reviews: 2867
+  reviews: 2881
   icon: co.edgesecure.app.jpg
+  website: https://edge.app
   developerName: Airbitz Inc
 
 ---

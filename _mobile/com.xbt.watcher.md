@@ -5,7 +5,6 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
-developerName: XBT Crypto Media
 redirect_from:
 - /android/com.xbt.watcher/
 android:
@@ -16,6 +15,7 @@ android:
   version: '1.1'
   reviews: 6
   icon: com.xbt.watcher.png
+  developerName: XBT Crypto Media
 
 ---
 

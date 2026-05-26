@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2026-01-14
 website: https://tweetoshi.com
-developerName: Tweetoshi
 redirect_from:
 - /android/com.tweetoshi.client/
 android:
@@ -15,6 +14,8 @@ android:
   version: 0.8.5
   reviews: 9
   icon: com.tweetoshi.client.png
+  website: https://tweetoshi.com
+  developerName: Tweetoshi
 
 ---
 

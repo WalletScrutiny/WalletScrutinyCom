@@ -9,7 +9,6 @@ website: https://bitcoinox.com
 twitter: bitcoin_ox
 social:
 - https://www.facebook.com/bitcoinoxwallet
-developerName: GNUAPP UNIPESSOAL LDA
 redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
@@ -22,6 +21,8 @@ android:
   version: 2.8.8
   reviews: 5
   icon: org.bitcoinox.bitcoinoxwallet.png
+  website: https://bitcoinox.com
+  developerName: GNUAPP UNIPESSOAL LDA
 
 ---
 

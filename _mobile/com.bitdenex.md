@@ -17,6 +17,7 @@ android:
   updated: 2026-02-12
   version: 3.2.23
   icon: com.bitdenex.png
+  website: https://bitdenex.com
   developerName: Bitdenex
 iphone:
   appId: com.bitdenex.app

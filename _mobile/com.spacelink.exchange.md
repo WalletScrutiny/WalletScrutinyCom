@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2026-02-20
 website: https://spacelink.exchange
-developerName: Space-link
 redirect_from:
 - /android/com.spacelink.exchange/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2021-05-21
   version: '4'
   icon: com.spacelink.exchange.png
+  website: https://spacelink.exchange
+  developerName: Space-link
 
 ---
 

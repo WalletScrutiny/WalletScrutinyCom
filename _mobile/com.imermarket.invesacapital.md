@@ -4,7 +4,6 @@ verdict: nosendreceive
 meta: removed
 date: 2025-08-24
 website: https://www.invesacapital.com#deadLink
-developerName: Imermarket (PTY) Ltd (Proprietary) Limited
 redirect_from:
 - /android/com.imermarket.invesacapital/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2025-07-04
   version: 2.8.5
   icon: com.imermarket.invesacapital.png
+  developerName: Imermarket (PTY) Ltd (Proprietary) Limited
 
 ---
 

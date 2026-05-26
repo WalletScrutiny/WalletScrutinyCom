@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://www.bitone.trade
-developerName: BitOne
 redirect_from:
 - /android/com.habi.bitone.in/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-05-14
   version: 1.3.9
   icon: com.habi.bitone.in.png
+  developerName: BitOne
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-04-01
 website: https://bitzet.com
-developerName: GUDAX LLC
 redirect_from:
 - /android/com.chainup.exchange.BKX/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2022-09-19
   version: 5.5.0_push_v2
   icon: com.chainup.exchange.BKX.png
+  website: https://bitzet.com
+  developerName: GUDAX LLC
 
 ---
 

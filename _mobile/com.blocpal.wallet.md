@@ -2,10 +2,10 @@
 wsId: BlocPal
 title: BlocPal Wallet
 verdict: nosource
+meta: obsolete
 date: 2023-01-02
 authors:
 - danny
-developerName: BlocPal International Inc.
 appCountry: us
 redirect_from:
 - /android/com.blocpal.wallet/
@@ -19,6 +19,7 @@ android:
   icon: com.blocpal.wallet.png
   meta: obsolete
   website: http://www.blocpal.com
+  developerName: BlocPal International Inc.
 iphone:
   appId: com.blocpal.wallet
   idd: 1435628288
@@ -28,6 +29,7 @@ iphone:
   reviews: 1
   icon: com.blocpal.wallet.jpg
   meta: defunct
+  developerName: BlocPal International Inc.
 
 ---
 

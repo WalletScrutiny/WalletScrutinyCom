@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://unitedbit.com/
-developerName: UNITEDBIT
 redirect_from:
 - /android/com.unitedbit.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-19
   version: 1.1.7
   icon: com.unitedbit.app.png
+  developerName: UNITEDBIT
 
 ---
 

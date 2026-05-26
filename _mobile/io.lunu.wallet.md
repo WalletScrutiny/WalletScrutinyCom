@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://wallet.lunu.io
-developerName: Lunu Solutions GmbH
 redirect_from:
 - /android/io.lunu.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-24
   version: 1.3.12
   icon: io.lunu.wallet.png
+  developerName: Lunu Solutions GmbH
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-08
 website: https://rubix.io
-developerName: 'Rubix: Buy, Sell, and Trade Crypto'
 redirect_from:
 - /android/io.rubix.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-10-10
   version: 1.0.8
   icon: io.rubix.exchange.jpg
+  developerName: 'Rubix: Buy, Sell, and Trade Crypto'
 
 ---
 

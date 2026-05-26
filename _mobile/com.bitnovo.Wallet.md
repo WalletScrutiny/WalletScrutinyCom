@@ -2,6 +2,7 @@
 wsId: BitnovoWallet
 title: Bitnovo – Buy Bitcoin
 verdict: nosource
+meta: ok
 date: 2024-07-17
 authors:
 - danny
@@ -18,11 +19,12 @@ android:
   users: 50000
   appCountry: us
   released: 2021-10-27
-  updated: 2026-05-07
-  version: 3.0.76
+  updated: 2026-05-25
+  version: 3.0.78
   reviews: 12
   icon: com.bitnovo.Wallet.png
   meta: ok
+  website: https://www.bitnovo.com
   developerName: BITNOVO
 iphone:
   appId: com.bitnovo.Wallet

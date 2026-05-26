@@ -13,7 +13,6 @@ social:
 features:
 - ln
 - tradeAlts
-developerName: Neutronpay Inc.
 redirect_from:
 - /android/neutronpay.wallet/
 - /iphone/neutronpay.wallet/
@@ -25,6 +24,7 @@ android:
   icon: neutronpay.wallet.png
   meta: removed
   website: https://neutron.me/app
+  developerName: Neutronpay Inc.
 iphone:
   appId: neutronpay.wallet
   idd: '1629825080'
@@ -35,6 +35,7 @@ iphone:
   reviews: 18
   icon: neutronpay.wallet.jpg
   meta: ok
+  developerName: Neutronpay Inc.
 
 ---
 

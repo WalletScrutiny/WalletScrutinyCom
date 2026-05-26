@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://bancobitcoin.net
-developerName: Devtech Development Ltd
 redirect_from:
 - /android/appinventor.ai_suporte.bancobitcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-18
   version: '1.0'
   icon: appinventor.ai_suporte.bancobitcoin.png
+  developerName: Devtech Development Ltd
 
 ---
 

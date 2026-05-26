@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://nonamewallet.com
-developerName: NNW
 redirect_from:
 - /android/com.rasoulj.jozapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-20
   version: 1.0.7
   icon: com.rasoulj.jozapp.png
+  developerName: NNW
 
 ---
 

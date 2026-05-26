@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: https://renzler.one#deadLink
-developerName: Peter Renz
 redirect_from:
 - /android/com.renzler/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-22
   version: VARY
   icon: com.renzler.png
+  developerName: Peter Renz
 
 ---
 

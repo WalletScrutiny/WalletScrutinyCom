@@ -6,7 +6,6 @@ date: 2023-06-10
 authors:
 - danny
 website: https://www.vipsmartbot.com#deadLink
-developerName: Smart Crypto Studio
 redirect_from:
 - /android/com.vipsmartbot.vsb/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-18
   version: 0.0.1
   icon: com.vipsmartbot.vsb.png
+  developerName: Smart Crypto Studio
 
 ---
 

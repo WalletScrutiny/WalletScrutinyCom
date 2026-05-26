@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://exxbank.com/
-developerName: JDK Tecnologia
 redirect_from:
 - /android/com.equuslabs.sample/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-04
   version: 1.0.0
   icon: com.equuslabs.sample.png
+  developerName: JDK Tecnologia
 
 ---
 

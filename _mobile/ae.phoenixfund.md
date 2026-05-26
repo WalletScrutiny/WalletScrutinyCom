@@ -8,7 +8,6 @@ authors:
 website: https://plana.ae
 social:
 - mailto:info@plana.ae
-developerName: PLAN A WEB DESIGN
 redirect_from:
 - /android/ae.phoenixfund/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2022-04-12
   version: 1.1.4
   icon: ae.phoenixfund.png
+  developerName: PLAN A WEB DESIGN
 
 ---
 

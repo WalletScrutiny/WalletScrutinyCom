@@ -16,7 +16,6 @@ social:
 - https://www.youtube.com/@BYDFiOfficial
 - https://discord.com/invite/VJjYhsWegV
 - https://medium.com/bydfi
-developerName: BYDFi Fintech LTD
 redirect_from:
 - /android/com.bydfi.app/
 - /iphone/com.bydfi.app/
@@ -28,6 +27,8 @@ android:
   version: 3.9.5
   reviews: 430
   icon: com.bydfi.app.png
+  website: https://www.bydfi.com/
+  developerName: BYDFi Fintech LTD
 iphone:
   appId: com.bydfi.app
   idd: '6444251506'
@@ -37,6 +38,7 @@ iphone:
   version: 3.9.5
   reviews: 1189
   icon: com.bydfi.app.jpg
+  developerName: BYDFi Fintech LTD
 
 ---
 

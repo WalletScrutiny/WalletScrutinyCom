@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://www.tpglobalwallet.net/#/
-developerName: TP Global Ltd
 appCountry: us
 redirect_from:
 - /iphone/com.global.wallet.ios/
@@ -16,6 +15,7 @@ iphone:
   version: 2.23.1
   reviews: 705
   icon: com.global.wallet.ios.jpg
+  developerName: TP Global Ltd
 
 ---
 

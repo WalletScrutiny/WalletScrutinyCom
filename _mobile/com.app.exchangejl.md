@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/Krypterz-101716118890363
 - https://www.linkedin.com/company/krypterz
 - mailto:info@krypterz.com
-developerName: Krypterz Exchange
 redirect_from:
 - /android/com.app.exchangejl/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2023-05-22
   version: 1.5.0
   icon: com.app.exchangejl.jpg
+  developerName: Krypterz Exchange
 
 ---
 

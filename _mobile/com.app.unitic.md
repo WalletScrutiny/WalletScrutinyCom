@@ -10,7 +10,6 @@ twitter: unitic_exchange
 social:
 - https://www.linkedin.com/company/unitic-exchange
 - https://www.facebook.com/uniticexchange
-developerName: UNITIC PRIVATE LIMITED
 redirect_from:
 - /android/com.app.unitic/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2026-03-30
   version: 0.2.0
   icon: com.app.unitic.png
+  website: https://uniticexchange.com/
+  developerName: UNITIC PRIVATE LIMITED
 
 ---
 

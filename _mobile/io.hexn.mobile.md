@@ -10,7 +10,6 @@ twitter: hexn_io
 social:
 - https://www.facebook.com/hexnio
 - https://t.me/hexnio
-developerName: NuzlTech Limited
 redirect_from:
 - /android/io.hexn.mobile/
 android:
@@ -21,6 +20,8 @@ android:
   version: 1.2.6
   reviews: 5
   icon: io.hexn.mobile.png
+  website: https://hexn.io
+  developerName: NuzlTech Limited
 
 ---
 

@@ -10,7 +10,6 @@ website: https://chippercash.com
 twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp
-developerName: Critical Ideas, Inc.
 redirect_from:
 - /android/com.chippercash/
 android:
@@ -21,6 +20,8 @@ android:
   version: 1.151.0
   reviews: 3267
   icon: com.chippercash.png
+  website: https://chippercash.com
+  developerName: Critical Ideas, Inc.
 
 ---
 

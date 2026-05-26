@@ -3,7 +3,6 @@ title: BkWallet
 verdict: wip
 meta: removed
 date: 2024-03-02
-developerName: BKC Group
 redirect_from:
 - /android/com.coldwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-06-15
   version: 1.2.8.1
   icon: com.coldwallet.png
+  developerName: BKC Group
 
 ---
 

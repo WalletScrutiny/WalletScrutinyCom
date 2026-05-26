@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://www.swissquote.com/robo-advisory#deadLink
-developerName: Swissquote Mobile
 redirect_from:
 - /android/com.swissquote.epb/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-25
   version: 1.1.1
   icon: com.swissquote.epb.jpg
+  developerName: Swissquote Mobile
 
 ---
 

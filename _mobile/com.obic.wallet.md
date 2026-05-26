@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://obictrade.com#deadLink
-developerName: Obictrade
 redirect_from:
 - /android/com.obic.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-05-18
   version: 3.5.3
   icon: com.obic.wallet.png
+  developerName: Obictrade
 
 ---
 

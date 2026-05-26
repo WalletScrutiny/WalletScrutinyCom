@@ -6,7 +6,6 @@ date: 2023-02-01
 authors:
 - danny
 website: https://goarbit.com/
-developerName: GoArbit Inc
 redirect_from:
 - /android/com.goarbit.goarbit/
 android:
@@ -17,6 +16,7 @@ android:
   version: 3.0.1
   reviews: 3080
   icon: com.goarbit.goarbit.png
+  developerName: GoArbit Inc
 
 ---
 

@@ -7,7 +7,6 @@ date: 2025-11-14
 authors:
 - danny
 twitter: Delta_Exchange
-developerName: Delta Exchange India
 redirect_from:
 - /android/com.deltaexchangeindia/
 - /iphone/app.deltaexchange.india/
@@ -19,6 +18,7 @@ android:
   reviews: 1
   icon: com.deltaexchangeindia.png
   website: https://india.delta.exchange
+  developerName: Delta Exchange India
 iphone:
   appId: app.deltaexchange.india
   idd: '6478332344'
@@ -29,6 +29,7 @@ iphone:
   reviews: 19997
   icon: app.deltaexchange.india.jpg
   website: https://india.delta.exchange/
+  developerName: Delta Exchange India
 
 ---
 

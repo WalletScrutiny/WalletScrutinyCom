@@ -9,7 +9,6 @@ authors:
 twitter: blubitex
 social:
 - https://www.facebook.com/blubitexofficial
-developerName: BLUBITEX LIMITED
 appCountry: us
 redirect_from:
 - /android/com.blubitex.blubitexapp/
@@ -23,6 +22,7 @@ android:
   reviews: 37
   icon: com.blubitex.blubitexapp.png
   website: https://blubitex.com#deadLink
+  developerName: BLUBITEX LIMITED
 iphone:
   appId: com.blubitex.blubitexapp
   idd: 1536104225
@@ -32,6 +32,7 @@ iphone:
   reviews: 3
   icon: com.blubitex.blubitexapp.jpg
   website: https://www.blubitex.com#deadLink
+  developerName: BLUBITEX LIMITED
 
 ---
 

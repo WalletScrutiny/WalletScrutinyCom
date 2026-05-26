@@ -15,7 +15,6 @@ social:
 - https://www.tiktok.com/@belo.app
 features:
 - ln
-developerName: belo
 redirect_from:
 - /android/com.belo.android/
 - /iphone/com.belo.ios/
@@ -27,6 +26,8 @@ android:
   version: 7.19.0
   reviews: 68
   icon: com.belo.android.png
+  website: https://belo.app
+  developerName: belo
 iphone:
   appId: com.belo.ios
   idd: '1575614708'
@@ -36,6 +37,7 @@ iphone:
   version: 7.19.0
   reviews: 42
   icon: com.belo.ios.jpg
+  developerName: belo
 
 ---
 

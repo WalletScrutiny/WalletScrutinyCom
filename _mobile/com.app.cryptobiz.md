@@ -6,7 +6,6 @@ date: 2023-06-30
 authors:
 - danny
 website: https://cryptobiz.exchange/
-developerName: Cryptobiz Exchange
 redirect_from:
 - /android/com.app.cryptobiz/
 android:
@@ -17,6 +16,7 @@ android:
   version: '42.5'
   reviews: 33
   icon: com.app.cryptobiz.png
+  developerName: Cryptobiz Exchange
 
 ---
 

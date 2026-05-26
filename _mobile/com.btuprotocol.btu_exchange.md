@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://btu-protocol.com/trading#deadLink
-developerName: Get Verso
 redirect_from:
 - /android/com.btuprotocol.btu_exchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-06
   version: 1.8.2
   icon: com.btuprotocol.btu_exchange.png
+  developerName: Get Verso
 
 ---
 

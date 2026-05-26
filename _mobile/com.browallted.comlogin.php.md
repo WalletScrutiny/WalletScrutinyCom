@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-10-16
 website: https://browallted.com#deadLink
-developerName: Browallted
 redirect_from:
 - /android/com.browallted.comlogin.php/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-13
   version: '3.4'
   icon: com.browallted.comlogin.php.png
+  developerName: Browallted
 
 ---
 

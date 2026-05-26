@@ -9,7 +9,6 @@ website: https://www.zbg.com#deadLink
 twitter: ZBG_Exchange
 social:
 - https://www.facebook.com/ZBGofficial
-developerName: ZBG_exchange
 redirect_from:
 - /android/com.zsdk.exchange/
 android:
@@ -20,6 +19,7 @@ android:
   version: 3.2.0
   reviews: 46
   icon: com.zsdk.exchange.png
+  developerName: ZBG_exchange
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: NamiExchange
 title: Nami - Digital asset platform
 verdict: custodial
+meta: ok
 date: 2022-07-20
 authors:
 - danny

@@ -6,7 +6,6 @@ date: 2023-04-20
 authors:
 - danny
 website: https://coin24.app/ko
-developerName: 주식회사 블록첸
 redirect_from:
 - /android/coin24.mobile/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-28
   version: 1.0.0
   icon: coin24.mobile.png
+  developerName: 주식회사 블록첸
 
 ---
 

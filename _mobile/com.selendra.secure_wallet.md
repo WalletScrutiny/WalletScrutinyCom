@@ -9,7 +9,6 @@ website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
 social:
 - https://www.linkedin.com/company/selendrachain
-developerName: KOOMPI
 redirect_from:
 - /android/com.selendra.secure_wallet/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.0.0
   reviews: 4
   icon: com.selendra.secure_wallet.png
+  developerName: KOOMPI
 
 ---
 

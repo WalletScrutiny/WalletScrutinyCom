@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/movocash.app/
 - https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw
 - https://www.linkedin.com/company/movocash-inc-/
-developerName: MovoCash, Inc.
 redirect_from:
 - /android/com.movocash.movo/
 - /iphone/com.movocash.movo/
@@ -25,6 +24,7 @@ android:
   reviews: 143
   icon: com.movocash.movo.jpg
   website: http://movo.cash
+  developerName: MovoCash, Inc.
 iphone:
   appId: com.movocash.movo
   idd: '1538828856'
@@ -35,6 +35,7 @@ iphone:
   reviews: 400
   icon: com.movocash.movo.jpg
   website: https://movo.cash
+  developerName: MovoCash, Inc.
 
 ---
 

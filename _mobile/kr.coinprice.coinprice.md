@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: http://coinprice.kr#deadLink
-developerName: Edmund.J
 redirect_from:
 - /android/kr.coinprice.coinprice/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2017-10-23
   version: '5.0'
   icon: kr.coinprice.coinprice.png
+  developerName: Edmund.J
 
 ---
 

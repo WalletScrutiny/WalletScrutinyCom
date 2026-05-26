@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://www.blocklink.live#deadLink
-developerName: Analysis
 redirect_from:
 - /android/com.wBlocklink_11263223/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-26
   version: '1.0'
   icon: com.wBlocklink_11263223.png
+  developerName: Analysis
 
 ---
 

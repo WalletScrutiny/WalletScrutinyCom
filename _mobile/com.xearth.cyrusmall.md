@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://cyrus-mall.com#deadLink
-developerName: XEARTH
 redirect_from:
 - /android/com.xearth.cyrusmall/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-15
   version: 1.0.0
   icon: com.xearth.cyrusmall.png
+  developerName: XEARTH
 
 ---
 

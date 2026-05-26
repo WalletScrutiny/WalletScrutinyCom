@@ -23,10 +23,11 @@ android:
   appId: com.payperless.wallet
   users: 50000
   released: 2021-06-03
-  updated: 2026-04-23
-  version: 1.33.9
+  updated: 2026-05-22
+  version: 1.34.2
   reviews: 9
   icon: com.payperless.wallet.png
+  website: https://www.payperless.com
   developerName: Payperless
 iphone:
   appId: com.payperless.wallet

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://dfx.swiss/bitcoin#deadLink
-developerName: DFX AG
 redirect_from:
 - /android/com.defichain.app.dfx.bitcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-18
   version: 2.1.1
   icon: com.defichain.app.dfx.bitcoin.png
+  developerName: DFX AG
 
 ---
 

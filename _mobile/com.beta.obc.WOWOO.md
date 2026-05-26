@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://wowoonet.com
-developerName: WOWOO PTE. LTD.
 redirect_from:
 - /android/com.beta.obc.WOWOO/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-13
   version: 2.1.0
   icon: com.beta.obc.WOWOO.jpg
+  developerName: WOWOO PTE. LTD.
 
 ---
 

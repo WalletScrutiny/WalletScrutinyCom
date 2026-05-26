@@ -18,9 +18,10 @@ android:
   appId: com.tongtong.wallet
   users: 10000
   released: 2022-04-21
-  updated: 2026-05-18
-  version: 2.1.13
+  updated: 2026-05-20
+  version: 2.1.15
   icon: com.tongtong.wallet.png
+  website: https://tongtongwallet.com/
   developerName: Tomato Group
 iphone:
   appId: com.etomato.wallet

@@ -6,7 +6,6 @@ date: 2023-05-05
 authors:
 - danny
 website: http://trade.io#deadLink
-developerName: Trade.io
 redirect_from:
 - /android/io.trade.tradeio.eu/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 6
   icon: io.trade.tradeio.eu.png
+  developerName: Trade.io
 
 ---
 

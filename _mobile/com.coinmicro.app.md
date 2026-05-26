@@ -3,7 +3,6 @@ title: CoinMicro
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: CoinMicro
 redirect_from:
 - /android/com.coinmicro.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-21
   version: 1.0.23
   icon: com.coinmicro.app.png
+  developerName: CoinMicro
 
 ---
 

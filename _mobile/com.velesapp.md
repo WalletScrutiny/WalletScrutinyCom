@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-28
 website: https://veles.finance/
-developerName: Royal Bytes
 redirect_from:
 - /android/com.velesapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-30
   version: '1.0'
   icon: com.velesapp.png
+  developerName: Royal Bytes
 
 ---
 

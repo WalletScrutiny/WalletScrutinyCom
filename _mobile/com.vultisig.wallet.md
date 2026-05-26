@@ -23,10 +23,11 @@ android:
   appId: com.vultisig.wallet
   users: 10000
   released: 2024-07-01
-  updated: 2026-05-17
-  version: 1.0.102
+  updated: 2026-05-22
+  version: 1.0.103
   reviews: 11
   icon: com.vultisig.wallet.png
+  website: https://vultisig.com
   developerName: Vulti Holdings Ltd.
 iphone:
   appId: com.vultisig.wallet

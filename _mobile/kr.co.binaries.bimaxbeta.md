@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://www.bimax.io/
-developerName: Binaries
 redirect_from:
 - /android/kr.co.binaries.bimaxbeta/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-10-02
   version: 1.0.6
   icon: kr.co.binaries.bimaxbeta.png
+  developerName: Binaries
 
 ---
 

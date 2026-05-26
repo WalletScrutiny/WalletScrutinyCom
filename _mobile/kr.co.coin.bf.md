@@ -3,7 +3,6 @@ title: 비트코인렌트-올인비트,비트코인,가상화폐,투자,분석
 verdict: wip
 meta: removed
 date: 2023-06-21
-developerName: fx렌트 fx마진거래 렌트서비스
 redirect_from:
 - /android/kr.co.coin.bf/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-26
   version: '1.0'
   icon: kr.co.coin.bf.png
+  developerName: fx렌트 fx마진거래 렌트서비스
 
 ---
 

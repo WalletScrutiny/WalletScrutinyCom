@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://mwallet.step.holdings#deadLink
-developerName: Blockchain App Factory
 redirect_from:
 - /android/com.blockchainappfactory.mwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-03-09
   version: '1.0'
   icon: com.blockchainappfactory.mwallet.png
+  developerName: Blockchain App Factory
 
 ---
 

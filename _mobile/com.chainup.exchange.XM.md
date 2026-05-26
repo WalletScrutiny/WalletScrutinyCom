@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://xm.im#deadLink
-developerName: 小米XM
 redirect_from:
 - /android/com.chainup.exchange.XM/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-14
   version: 5.7.0_push_v2
   icon: com.chainup.exchange.XM.png
+  developerName: 小米XM
 
 ---
 

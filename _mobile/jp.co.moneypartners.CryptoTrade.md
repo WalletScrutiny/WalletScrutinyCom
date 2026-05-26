@@ -6,7 +6,6 @@ date: 2025-08-28
 authors:
 - danny
 website: https://www.moneypartners.co.jp/
-developerName: MONEY PARTNERS CO.,LTD.
 redirect_from:
 - /android/jp.co.moneypartners.CryptoTrade/
 android:
@@ -16,6 +15,8 @@ android:
   updated: 2025-06-26
   version: 1.6.0
   icon: jp.co.moneypartners.CryptoTrade.png
+  website: https://www.moneypartners.co.jp/
+  developerName: MONEY PARTNERS CO.,LTD.
 
 ---
 

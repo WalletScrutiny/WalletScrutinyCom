@@ -3,7 +3,6 @@ title: UUToken
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: DIGITAL FINANCE TRADER INC.
 redirect_from:
 - /android/io.uutoken/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-14
   version: 1.0.0
   icon: io.uutoken.png
+  developerName: DIGITAL FINANCE TRADER INC.
 
 ---
 

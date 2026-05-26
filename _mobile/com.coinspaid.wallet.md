@@ -13,7 +13,6 @@ social:
 - https://www.youtube.com/channel/UCwnF8wI6tIl3h8KNgpwhqAg
 - https://www.linkedin.com/company/cryptoprocessing-com
 - https://t.me/CoinsPaid_Official
-developerName: CoinsPaid
 redirect_from:
 - /android/com.coinspaid.wallet/
 - /iphone/com.coinspaid.wallet/
@@ -26,6 +25,7 @@ android:
   reviews: 2
   icon: com.coinspaid.wallet.png
   website: https://coinspaid.com
+  developerName: CoinsPaid
 iphone:
   appId: com.coinspaid.wallet
   idd: '1506985729'
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.coinspaid.wallet.jpg
   website: https://coinspaid.com/wallet/
+  developerName: CoinsPaid
 
 ---
 

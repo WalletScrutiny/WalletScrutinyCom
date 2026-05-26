@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/21bitcoinapp
 - https://www.instagram.com/21bitcoin.app
 - https://www.linkedin.com/company/21bitcoin
-developerName: FIOR Digital GmbH
 redirect_from:
 - /android/fior.digital21app/
 - /iphone/digital.fior.21app/
@@ -22,6 +21,7 @@ android:
   version: 2.1.1
   icon: fior.digital21app.png
   website: https://21bitcoin.app/
+  developerName: FIOR Digital GmbH
 iphone:
   appId: digital.fior.21app
   idd: '1579302952'
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: digital.fior.21app.jpg
   website: https://21bitcoin.app/en/home
+  developerName: FIOR Digital GmbH
 
 ---
 

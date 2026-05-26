@@ -11,7 +11,6 @@ social:
 - https://t.me/biskitglobal
 - https://discord.com/invite/WSBke6hfWD
 - https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured
-developerName: KCNET CO.,LTD
 redirect_from:
 - /android/com.chain.zconprotocol/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.0.2
   reviews: 5
   icon: com.chain.zconprotocol.png
+  developerName: KCNET CO.,LTD
 
 ---
 

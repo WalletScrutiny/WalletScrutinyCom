@@ -6,7 +6,6 @@ date: 2023-05-25
 authors:
 - danny
 website: https://www.fsdex.io/
-developerName: FShares Wallet
 redirect_from:
 - /android/com.fscwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-06-18
   version: 4.0.2
   icon: com.fscwallet.png
+  developerName: FShares Wallet
 
 ---
 

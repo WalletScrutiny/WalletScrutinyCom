@@ -2,6 +2,7 @@
 wsId: iconomi
 title: 'ICONOMI: Buy Bitcoin & Crypto'
 verdict: custodial
+meta: ok
 date: 2021-10-04
 authors:
 - danny

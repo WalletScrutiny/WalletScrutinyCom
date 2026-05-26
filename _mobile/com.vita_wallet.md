@@ -18,8 +18,8 @@ android:
   appId: com.vita_wallet
   users: 100000
   released: 2019-10-16
-  updated: 2026-05-19
-  version: 7.3.14
+  updated: 2026-05-22
+  version: 7.3.15
   reviews: 881
   icon: com.vita_wallet.png
   website: https://vitawallet.io/

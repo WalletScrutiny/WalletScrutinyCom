@@ -6,7 +6,6 @@ date: 2023-06-03
 authors:
 - danny
 website: https://torex.one/ru/
-developerName: Torex.one
 redirect_from:
 - /android/com.torexapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-29
   version: '1.1'
   icon: com.torexapp.png
+  developerName: Torex.one
 
 ---
 

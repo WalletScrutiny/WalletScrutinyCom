@@ -3,7 +3,6 @@ title: Werewolf Exchange
 verdict: wip
 meta: removed
 date: 2023-09-15
-developerName: CHAIN SENSE LTD
 redirect_from:
 - /android/com.trade.werewolf_exchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-29
   version: 1.0.5
   icon: com.trade.werewolf_exchange.png
+  developerName: CHAIN SENSE LTD
 
 ---
 

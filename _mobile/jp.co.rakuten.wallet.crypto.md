@@ -17,6 +17,7 @@ android:
   updated: 2026-04-13
   version: 1.6.5
   icon: jp.co.rakuten.wallet.crypto.png
+  website: https://www.rakuten-wallet.co.jp/
   developerName: Rakuten Wallet
 iphone:
   appId: jp.co.rakuten.wallet.crypto

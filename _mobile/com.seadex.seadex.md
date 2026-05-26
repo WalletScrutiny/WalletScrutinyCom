@@ -6,7 +6,6 @@ date: 2026-06-02
 authors:
 - danny
 website: http://seadex.io#deadLink
-developerName: Southeast Asia Digital Exchange
 redirect_from:
 - /android/com.seadex.seadex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2018-09-05
   version: 1.2.0
   icon: com.seadex.seadex.png
+  developerName: Southeast Asia Digital Exchange
 
 ---
 

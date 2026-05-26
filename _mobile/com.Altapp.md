@@ -3,7 +3,6 @@ title: ALT247
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: ALT SECURITIES
 redirect_from:
 - /android/com.Altapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-08-02
   version: '1.1'
   icon: com.Altapp.png
+  developerName: ALT SECURITIES
 
 ---
 

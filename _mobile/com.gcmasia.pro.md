@@ -9,7 +9,6 @@ authors:
 website: https://www.gcmasia.com
 social:
 - https://www.facebook.com/GCMASIA.Forex.Trading.Platform
-developerName: GCM Europe Ltd
 appCountry: HK
 redirect_from:
 - /android/com.gcmasia.pro/
@@ -20,6 +19,7 @@ android:
   updated: 2024-08-18
   version: 90.4.010
   icon: com.gcmasia.pro.png
+  developerName: GCM Europe Ltd
 
 ---
 

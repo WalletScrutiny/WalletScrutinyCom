@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://www.octowallet.com
-developerName: Octowallet
 redirect_from:
 - /android/com.octowallet.manager/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-29
   version: 1.1.0.146
   icon: com.octowallet.manager.png
+  developerName: Octowallet
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://unix.finance
-developerName: Unix finance
 redirect_from:
 - /android/com.unix.unix_finance/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-10
   version: 1.0.7
   icon: com.unix.unix_finance.png
+  developerName: Unix finance
 
 ---
 

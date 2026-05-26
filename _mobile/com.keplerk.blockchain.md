@@ -10,7 +10,6 @@ twitter: BykepFR
 social:
 - https://www.linkedin.com/company/bykepfr
 - https://www.facebook.com/BykepFR
-developerName: BYKEP
 redirect_from:
 - /android/com.keplerk.blockchain/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-06-21
   version: 3.5.4
   icon: com.keplerk.blockchain.jpg
+  developerName: BYKEP
 
 ---
 

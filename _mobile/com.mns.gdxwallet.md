@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://gdxwallet.com/
-developerName: GDX
 redirect_from:
 - /android/com.mns.gdxwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-04
   version: '1.86'
   icon: com.mns.gdxwallet.png
+  developerName: GDX
 
 ---
 

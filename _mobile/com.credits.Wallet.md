@@ -2,6 +2,7 @@
 wsId: creditsCrypto
 title: Credits.com. Buy and Sell BTC.
 verdict: custodial
+meta: ok
 date: 2023-07-02
 authors:
 - danny
@@ -12,7 +13,6 @@ social:
 - https://www.reddit.com/r/CreditsOfficial
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
-developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 redirect_from:
 - /android/com.credits.Wallet/
 - /iphone/com.credits.CryptoWallet/
@@ -26,6 +26,7 @@ android:
   icon: com.credits.Wallet.png
   meta: ok
   website: https://credits.com/contacts.html
+  developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 iphone:
   appId: com.credits.CryptoWallet
   idd: '1502902555'
@@ -37,6 +38,7 @@ iphone:
   icon: com.credits.CryptoWallet.jpg
   meta: stale
   website: http://credits.com
+  developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 
 ---
 

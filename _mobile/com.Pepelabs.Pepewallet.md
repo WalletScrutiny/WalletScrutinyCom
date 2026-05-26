@@ -6,7 +6,6 @@ date: 2024-09-04
 authors:
 - danny
 website: http://pewall.org
-developerName: LusoLabs
 redirect_from:
 - /android/com.Pepelabs.Pepewallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 2.1.2
   reviews: 69
   icon: com.Pepelabs.Pepewallet.png
+  developerName: LusoLabs
 
 ---
 

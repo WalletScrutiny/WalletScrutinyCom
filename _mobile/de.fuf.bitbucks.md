@@ -9,7 +9,6 @@ authors:
 twitter: bit_bucks
 social:
 - https://www.facebook.com/bitbucks.io
-developerName: FUF // Frank und Freunde
 redirect_from:
 - /de.fuf.bitbucks/
 - /posts/de.fuf.bitbucks/
@@ -24,6 +23,7 @@ android:
   reviews: 2
   icon: de.fuf.bitbucks.png
   website: https://www.bitbucks.io/
+  developerName: FUF // Frank und Freunde
 iphone:
   appId: de.fuf.bitbucks-io
   idd: 1453167599
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: de.fuf.bitbucks-io.jpg
   website: https://www.bitbucks.io
+  developerName: FUF // Frank und Freunde
 
 ---
 

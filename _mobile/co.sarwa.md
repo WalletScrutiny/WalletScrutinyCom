@@ -2,6 +2,7 @@
 wsId: sarwaApp
 title: 'Sarwa: Invest, Trade & Save'
 verdict: nosendreceive
+meta: ok
 date: 2023-07-28
 authors:
 - danny
@@ -17,8 +18,8 @@ android:
   appId: co.sarwa
   users: 100000
   released: 2021-04-04
-  updated: 2026-03-27
-  version: 7.4.1
+  updated: 2026-04-14
+  version: 7.5.0
   reviews: 20
   icon: co.sarwa.png
   meta: removed

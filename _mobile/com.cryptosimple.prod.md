@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-02-13
 website: https://cryptosimple.app
-developerName: CryptoSimple
 redirect_from:
 - /android/com.cryptosimple.prod/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-12-08
   version: 1.0.12
   icon: com.cryptosimple.prod.png
+  developerName: CryptoSimple
 
 ---
 

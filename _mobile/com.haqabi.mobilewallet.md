@@ -7,7 +7,6 @@ date: 2025-11-18
 authors:
 - danny
 twitter: HaqabiHQ
-developerName: Haqqex Ltd
 redirect_from:
 - /android/com.haqabi.mobilewallet/
 - /iphone/com.haqabi.mobile-wallet/
@@ -18,6 +17,7 @@ android:
   version: '1.21'
   icon: com.haqabi.mobilewallet.png
   website: https://haqabi.com
+  developerName: Haqqex Ltd
 iphone:
   appId: com.haqabi.mobile-wallet
   idd: '6477534740'
@@ -27,6 +27,7 @@ iphone:
   version: '1.21'
   reviews: 4
   icon: com.haqabi.mobile-wallet.jpg
+  developerName: Haqqex Ltd
 
 ---
 

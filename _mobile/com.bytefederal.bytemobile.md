@@ -5,7 +5,6 @@ meta: ok
 date: 2026-01-14
 authors:
 - danny
-developerName: Byte Federal, Inc
 redirect_from:
 - /android/com.bytefederal.bytemobile/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.13.0
   reviews: 17
   icon: com.bytefederal.bytemobile.png
+  developerName: Byte Federal, Inc
 
 ---
 

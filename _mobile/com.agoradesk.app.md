@@ -22,9 +22,9 @@ android:
   version: 1.1.39
   reviews: 12
   icon: com.agoradesk.app.png
+  developerName: LocalMonero / AgoraDesk
   repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
   bugbounty: https://agoradesk.com/security-bounty-whitehat
-  developerName: LocalMonero / AgoraDesk
 iphone:
   appId: com.agoradesk.app
   idd: '1617601678'

@@ -9,7 +9,6 @@ authors:
 twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp
-developerName: Baanx.com Ltd
 appCountry: us
 redirect_from:
 - /android/com.baanx.baanx/
@@ -22,6 +21,7 @@ android:
   version: 3.1.1
   icon: com.baanx.baanx.png
   website: https://www.baanxapp.com#deadLink
+  developerName: Baanx.com Ltd
 iphone:
   appId: com.baanx.baanxapp
   idd: '1437909986'
@@ -31,6 +31,7 @@ iphone:
   reviews: 7
   icon: com.baanx.baanxapp.jpg
   website: https://baanxapp.com#deadLink
+  developerName: Baanx.com Ltd
 
 ---
 

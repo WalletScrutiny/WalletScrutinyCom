@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://cryptouniversep2p.com#deadLink
-developerName: CRYPTO UNIVERSE
 redirect_from:
 - /android/com.cryptouniverse.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-03
   version: 1.0.0
   icon: com.cryptouniverse.app.png
+  developerName: CRYPTO UNIVERSE
 
 ---
 

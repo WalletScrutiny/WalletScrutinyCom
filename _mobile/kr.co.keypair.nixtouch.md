@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-16
 website: https://www.nixblock.com/
-developerName: Keypair Co., Ltd.
 redirect_from:
 - /android/kr.co.keypair.nixtouch/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-12-27
   version: 1.0.0.65
   icon: kr.co.keypair.nixtouch.png
+  developerName: Keypair Co., Ltd.
 
 ---
 

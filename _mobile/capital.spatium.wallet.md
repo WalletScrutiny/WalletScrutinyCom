@@ -13,7 +13,6 @@ social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
 - https://github.com/CaspianTechnologies
-developerName: CaspianTechnologies
 appCountry: us
 redirect_from:
 - /android/capital.spatium.wallet/
@@ -25,6 +24,7 @@ android:
   updated: 2024-02-22
   version: 3.2.5
   icon: capital.spatium.wallet.png
+  developerName: CaspianTechnologies
 iphone:
   appId: capital.spatium.wallet
   idd: '1404844195'
@@ -33,6 +33,7 @@ iphone:
   version: 3.2.5
   reviews: 26
   icon: capital.spatium.wallet.jpg
+  developerName: CaspianTechnologies
 
 ---
 

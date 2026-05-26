@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-02-13
 website: https://becoin.exchange#deadLink
-developerName: LGA SOFT USA
 redirect_from:
 - /android/com.app.becoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-10-01
   version: '1.0'
   icon: com.app.becoin.png
+  developerName: LGA SOFT USA
 
 ---
 

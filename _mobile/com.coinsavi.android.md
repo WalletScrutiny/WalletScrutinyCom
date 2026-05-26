@@ -19,6 +19,7 @@ android:
   version: 0.70.8
   reviews: 39
   icon: com.coinsavi.android.jpg
+  website: https://coinsavi.com
   developerName: Coin Savi
 iphone:
   appId: com.coinsavi.app

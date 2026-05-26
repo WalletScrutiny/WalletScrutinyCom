@@ -6,7 +6,6 @@ date: 2024-03-02
 authors:
 - danny
 website: https://www.capixal.com/
-developerName: IFC Investments
 redirect_from:
 - /android/com.capixal/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-12-01
   version: 1.5.78-capixal
   icon: com.capixal.png
+  developerName: IFC Investments
 
 ---
 

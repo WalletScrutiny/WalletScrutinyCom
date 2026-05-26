@@ -18,10 +18,11 @@ android:
   appId: fm.fountain.apps
   users: 100000
   released: 2021-08-02
-  updated: 2026-04-21
-  version: 1.5.0
+  updated: 2026-05-14
+  version: 1.5.3
   reviews: 261
   icon: fm.fountain.apps.png
+  website: https://www.fountain.fm
   developerName: Fountain Labs Ltd
 iphone:
   appId: fm.fountain.apps

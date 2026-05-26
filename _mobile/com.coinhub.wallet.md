@@ -7,7 +7,6 @@ authors:
 - leo
 website: https://www.coinhub.org
 twitter: Coinhub_Wallet
-developerName: Coinhub
 redirect_from:
 - /android/com.coinhub.wallet/
 android:
@@ -18,6 +17,7 @@ android:
   version: 2.7.9
   reviews: 31
   icon: com.coinhub.wallet.png
+  developerName: Coinhub
 
 ---
 

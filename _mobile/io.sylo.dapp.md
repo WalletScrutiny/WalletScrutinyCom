@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/sylo.io
 - https://www.facebook.com/sylo.io
 - https://www.reddit.com/r/sylo_io
-developerName: Sylo Licensing Limited
 redirect_from:
 - /io.sylo.dapp/
 - /posts/io.sylo.dapp/
@@ -26,6 +25,7 @@ android:
   reviews: 46
   icon: io.sylo.dapp.png
   website: http://www.sylo.io
+  developerName: Sylo Licensing Limited
 iphone:
   appId: io.sylo.dapp
   idd: 1452964749
@@ -35,6 +35,7 @@ iphone:
   reviews: 82
   icon: io.sylo.dapp.jpg
   website: https://www.sylo.io/wallet/
+  developerName: Sylo Licensing Limited
 
 ---
 

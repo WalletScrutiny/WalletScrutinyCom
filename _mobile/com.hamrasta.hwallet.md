@@ -6,7 +6,6 @@ date: 2023-08-07
 authors:
 - danny
 website: https://hamrasta.com/hamrastamarket#deadLink
-developerName: Hamrasta
 redirect_from:
 - /android/com.hamrasta.hwallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: '2.7'
   reviews: 7
   icon: com.hamrasta.hwallet.png
+  developerName: Hamrasta
 
 ---
 

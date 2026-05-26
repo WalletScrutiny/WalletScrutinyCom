@@ -10,7 +10,6 @@ twitter: TwentyTwoHW
 social:
 - nostr:npub1n3h6vcu0vj4jw70m8p457vk3uq44zz0jc5r6d09chtks6xxyu0gq9s2j0t
 - https://t.me/TwentyTwoHW
-developerName: Portal Technologies Inc
 redirect_from:
 - /android/xyz.twenty_two.portal_manager/
 android:
@@ -19,6 +18,8 @@ android:
   updated: 2025-05-14
   version: VARY
   icon: xyz.twenty_two.portal_manager.png
+  website: https://twenty-two.xyz/
+  developerName: Portal Technologies Inc
 
 ---
 

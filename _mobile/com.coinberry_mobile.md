@@ -10,7 +10,6 @@ twitter: CoinberryHQ
 social:
 - https://www.linkedin.com/company/coinberry
 - https://www.facebook.com/CoinberryOfficial
-developerName: Coinberry
 appCountry: ca
 redirect_from:
 - /android/com.coinberry_mobile/
@@ -24,6 +23,7 @@ android:
   reviews: 655
   icon: com.coinberry_mobile.png
   website: https://www.coinberry.com
+  developerName: Coinberry
 iphone:
   appId: com.coinberry.coinberry
   idd: 1370601820
@@ -33,6 +33,7 @@ iphone:
   reviews: 5958
   icon: com.coinberry.coinberry.jpg
   website: https://coinberry.com
+  developerName: Coinberry
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://privafund.io/
-developerName: privafund
 redirect_from:
 - /android/io.privafund.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-06-15
   version: 1.0.6
   icon: io.privafund.app.png
+  developerName: privafund
 
 ---
 

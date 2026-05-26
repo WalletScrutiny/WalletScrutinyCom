@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://0xdealer.com#deadLink
-developerName: 0xdealer
 redirect_from:
 - /android/com.oxdealer.oxdealer/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-20
   version: '1.0'
   icon: com.oxdealer.oxdealer.png
+  developerName: 0xdealer
 
 ---
 

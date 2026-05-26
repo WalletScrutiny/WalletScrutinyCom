@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://indexchain.org#deadLink
-developerName: Optisecure
 redirect_from:
 - /android/io.horizontalsystems.indexwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-15
   version: 0.16.1
   icon: io.horizontalsystems.indexwallet.png
+  developerName: Optisecure
 
 ---
 

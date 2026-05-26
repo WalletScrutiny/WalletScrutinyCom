@@ -5,7 +5,6 @@ meta: ok
 date: 2021-11-10
 authors:
 - danny
-developerName: TradeWill Global
 redirect_from:
 - /android/com.willtrade.trading/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.3.48
   reviews: 21
   icon: com.willtrade.trading.png
+  developerName: TradeWill Global
 
 ---
 

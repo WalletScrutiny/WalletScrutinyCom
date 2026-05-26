@@ -3,7 +3,6 @@ title: Satoshi Bot
 verdict: wip
 meta: removed
 date: 2025-02-04
-developerName: NFT Beast
 redirect_from:
 - /android/www.satoshibot.org/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-20
   version: 1.0.0
   icon: www.satoshibot.org.png
+  developerName: NFT Beast
 
 ---
 

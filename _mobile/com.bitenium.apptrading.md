@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://bitenium.com/
-developerName: Bitenium Exchange LLC
 redirect_from:
 - /android/com.bitenium.apptrading/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-19
   version: 1.0.6
   icon: com.bitenium.apptrading.png
+  developerName: Bitenium Exchange LLC
 
 ---
 

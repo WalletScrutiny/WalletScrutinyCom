@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/@Official-XSPA
 - https://t.me/XSPAuniversechat
 - https://discord.com/invite/dPtxPK3qP9
-developerName: XSPA
 redirect_from:
 - /android/com.xspa.ai/
 - /iphone/com.xspa.ai/
@@ -25,6 +24,7 @@ android:
   reviews: 8
   icon: com.xspa.ai.png
   website: https://xspa.ai/
+  developerName: XSPA
 iphone:
   appId: com.xspa.ai
   idd: '6749689372'
@@ -34,6 +34,7 @@ iphone:
   version: 1.0.15
   reviews: 12
   icon: com.xspa.ai.jpg
+  developerName: XSPA
 
 ---
 

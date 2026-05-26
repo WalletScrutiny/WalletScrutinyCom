@@ -6,7 +6,6 @@ date: 2025-04-09
 authors:
 - danny
 website: https://www.oxbtc.com
-developerName: haleiyun
 redirect_from:
 - /android/com.oxmiing.mw/
 android:
@@ -17,6 +16,7 @@ android:
   version: 2.7.0
   reviews: 4
   icon: com.oxmiing.mw.jpg
+  developerName: haleiyun
 
 ---
 

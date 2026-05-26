@@ -6,7 +6,6 @@ date: 2023-05-05
 authors:
 - danny
 website: https://web.archive.org/web/20250618122124/http://ethlyte.tech/
-developerName: Ethlyte Crypto
 redirect_from:
 - /android/net.ethylyte.com/
 android:
@@ -17,6 +16,7 @@ android:
   version: '2.8'
   reviews: 6
   icon: net.ethylyte.com.png
+  developerName: Ethlyte Crypto
 
 ---
 

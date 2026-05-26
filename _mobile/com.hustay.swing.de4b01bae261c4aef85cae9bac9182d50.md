@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.earnfinex.com/
-developerName: Earnfinex Limited
 redirect_from:
 - /android/com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-06-28
   version: '0.6'
   icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.png
+  developerName: Earnfinex Limited
 
 ---
 

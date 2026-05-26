@@ -6,7 +6,6 @@ date: 2024-12-23
 authors:
 - leo
 website: http://firstdaotrust.com#deadLink
-developerName: First DAO Trust
 redirect_from:
 - /android/com.newcurrency.coinstrunk.v1/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.12'
   reviews: 50
   icon: com.newcurrency.coinstrunk.v1.png
+  developerName: First DAO Trust
 
 ---
 

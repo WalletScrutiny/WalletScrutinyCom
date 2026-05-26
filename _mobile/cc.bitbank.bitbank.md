@@ -10,7 +10,6 @@ twitter: bitbank_inc
 social:
 - https://www.instagram.com/bitbank_official
 - https://www.facebook.com/bitbank.inc
-developerName: Bitbank, Inc.
 redirect_from:
 - /android/cc.bitbank.bitbank/
 android:
@@ -20,6 +19,8 @@ android:
   version: 3.7.1
   reviews: 3
   icon: cc.bitbank.bitbank.png
+  website: https://bitbank.cc
+  developerName: Bitbank, Inc.
 
 ---
 

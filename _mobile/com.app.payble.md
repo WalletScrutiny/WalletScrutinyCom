@@ -10,7 +10,6 @@ twitter: mypayble
 social:
 - https://www.instagram.com/mypayble
 - https://mypayble.com
-developerName: Payble
 redirect_from:
 - /android/com.app.payble/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2021-03-01
   version: 2.1.5
   icon: com.app.payble.png
+  developerName: Payble
 
 ---
 

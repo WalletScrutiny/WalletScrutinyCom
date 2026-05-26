@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://www.bexpro.ph
-developerName: bexpress
 redirect_from:
 - /android/com.candelachain.bexpro/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-02-20
   version: 1.0.8
   icon: com.candelachain.bexpro.png
+  developerName: bexpress
 
 ---
 

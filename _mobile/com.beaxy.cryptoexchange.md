@@ -11,7 +11,6 @@ twitter: BeaxyExchange
 social:
 - https://www.facebook.com/beaxyexchange
 - https://www.reddit.com/r/BeaxyExchange
-developerName: Beaxy
 appCountry: us
 redirect_from:
 - /android/com.beaxy.cryptoexchange/
@@ -24,6 +23,7 @@ android:
   version: '2.10'
   reviews: 26
   icon: com.beaxy.cryptoexchange.png
+  developerName: Beaxy
 iphone:
   appId: com.beaxy.cryptoexchange
   idd: '1493015933'
@@ -32,6 +32,7 @@ iphone:
   version: '2.10'
   reviews: 74
   icon: com.beaxy.cryptoexchange.jpg
+  developerName: Beaxy
 
 ---
 

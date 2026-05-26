@@ -21,8 +21,9 @@ android:
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
-  reviews: 313
+  reviews: 316
   icon: io.noone.androidwallet.png
+  website: https://noone.io
   developerName: Raias Llc
 iphone:
   appId: io.noone.ioswallet

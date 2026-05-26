@@ -10,7 +10,6 @@ twitter: e_Pocket
 social:
 - https://www.instagram.com/epocketau
 - https://www.e-pocketexchange.com
-developerName: e-Pocket Pty Ltd
 redirect_from:
 - /android/w3axis.com.epocket/
 - /iphone/com.live.epocket/
@@ -23,6 +22,7 @@ android:
   reviews: 2
   icon: w3axis.com.epocket.png
   website: https://www.e-pocketexchange.com/
+  developerName: e-Pocket Pty Ltd
 iphone:
   appId: com.live.epocket
   idd: '1445852225'
@@ -32,6 +32,7 @@ iphone:
   version: 3.3.96
   reviews: 33
   icon: com.live.epocket.jpg
+  developerName: e-Pocket Pty Ltd
 
 ---
 

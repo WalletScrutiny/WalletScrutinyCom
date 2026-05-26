@@ -6,7 +6,6 @@ date: 2023-08-05
 authors:
 - danny
 website: https://maxcryptotraders.com/
-developerName: Max Crypto Traders
 redirect_from:
 - /android/com.maxcryptotraders.maxcryptotradingapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-06-06
   version: 1.0.0
   icon: com.maxcryptotraders.maxcryptotradingapp.png
+  developerName: Max Crypto Traders
 
 ---
 

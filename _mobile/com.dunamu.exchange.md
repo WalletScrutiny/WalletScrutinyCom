@@ -10,17 +10,18 @@ twitter: upbitglobal
 social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
-developerName: Dunamu
 redirect_from:
 - /android/com.dunamu.exchange/
 android:
   appId: com.dunamu.exchange
   users: 10000000
   released: 2017-10-23
-  updated: 2026-05-19
-  version: 1.35.0
+  updated: 2026-05-22
+  version: 1.35.1
   reviews: 21
   icon: com.dunamu.exchange.png
+  website: https://upbit.com
+  developerName: Dunamu
 
 ---
 

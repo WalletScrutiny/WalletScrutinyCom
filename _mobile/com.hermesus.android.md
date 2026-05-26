@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://hermesus.com
 twitter: hermesus_us
-developerName: Hermesus Development
 redirect_from:
 - /android/com.hermesus.android/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-04-17
   version: '1.1'
   icon: com.hermesus.android.png
+  developerName: Hermesus Development
 
 ---
 

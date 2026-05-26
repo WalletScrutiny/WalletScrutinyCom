@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://altcoin-wallet.online/
-developerName: Altcoin Wallet
 redirect_from:
 - /android/com.altcoin.wallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: v1.6
   reviews: 11
   icon: com.altcoin.wallet.png
+  developerName: Altcoin Wallet
 
 ---
 

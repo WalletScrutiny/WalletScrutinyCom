@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-08-18
 website: http://moonposapp.com
-developerName: MoonPos
 redirect_from:
 - /android/com.moonpos/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-08-12
   version: 1.2.8
   icon: com.moonpos.png
+  developerName: MoonPos
 
 ---
 

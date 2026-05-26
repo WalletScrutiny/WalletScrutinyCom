@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://app.fixttoken.com/
-developerName: Artificial intelligence technology
 redirect_from:
 - /android/com.fixttoken.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-27
   version: 2.0.7
   icon: com.fixttoken.wallet.jpg
+  developerName: Artificial intelligence technology
 
 ---
 

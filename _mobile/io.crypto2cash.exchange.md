@@ -24,6 +24,7 @@ android:
   version: 2.1.6
   reviews: 4
   icon: io.crypto2cash.exchange.jpg
+  website: https://www.crypto2cash.com/
   developerName: Crypto2Cash
 iphone:
   appId: com.c2c.B.V.Crypto2Cash

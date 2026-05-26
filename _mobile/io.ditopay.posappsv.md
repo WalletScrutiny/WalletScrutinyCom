@@ -22,6 +22,7 @@ android:
   updated: 2024-03-07
   version: '1.31'
   icon: io.ditopay.posappsv.png
+  website: https://ditobanx.com
   developerName: DitoBanx
 iphone:
   appId: ditopos.ditobanx.io

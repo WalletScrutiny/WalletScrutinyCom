@@ -2,6 +2,7 @@
 wsId: Vauld
 title: Vauld.com
 verdict: custodial
+meta: ok
 date: 2024-09-03
 authors:
 - kiwilamb

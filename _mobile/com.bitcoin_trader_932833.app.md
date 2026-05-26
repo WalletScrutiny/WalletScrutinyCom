@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://the-bitcoin-traderapp.cyou#deadLink
-developerName: NISHANT MAHESH KHARE
 redirect_from:
 - /android/com.bitcoin_trader_932833.app/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-07-21
   version: '1.0'
   icon: com.bitcoin_trader_932833.app.jpg
+  developerName: NISHANT MAHESH KHARE
 
 ---
 

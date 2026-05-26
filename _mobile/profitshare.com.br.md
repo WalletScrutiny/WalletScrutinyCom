@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://profitshare.com.br#deadLink
-developerName: Fastcoin LTDA
 redirect_from:
 - /android/profitshare.com.br/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-23
   version: 1.0.8
   icon: profitshare.com.br.png
+  developerName: Fastcoin LTDA
 
 ---
 

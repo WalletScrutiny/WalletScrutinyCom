@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/ZenaPay
 - https://www.linkedin.com/company/zenapay1/about/
 - https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
-developerName: Epazz
 appCountry: jp
 redirect_from:
 - /iphone/com.zenapay/
@@ -23,6 +22,7 @@ iphone:
   version: '5.2'
   reviews: 0
   icon: com.zenapay.jpg
+  developerName: Epazz
 
 ---
 

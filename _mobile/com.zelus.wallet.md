@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/zeluslabs
 - https://www.instagram.com/zelus_labs
 - https://www.facebook.com/ZelusWallet
-developerName: Zelus IO
 redirect_from:
 - /android/com.zelus.wallet/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.5.3
   reviews: 37
   icon: com.zelus.wallet.png
+  developerName: Zelus IO
 
 ---
 

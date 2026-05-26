@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://h3plex.com#deadLink
-developerName: H3PLEX TECHNOLOGIES PVT LTD
 redirect_from:
 - /android/com.h3blockchain.h3blockchain/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-08-21
   version: '1.0'
   icon: com.h3blockchain.h3blockchain.png
+  developerName: H3PLEX TECHNOLOGIES PVT LTD
 
 ---
 

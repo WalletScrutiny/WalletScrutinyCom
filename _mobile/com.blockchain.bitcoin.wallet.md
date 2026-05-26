@@ -6,7 +6,6 @@ date: 2023-12-19
 authors:
 - leo
 website: https://coinhub8899.web.app
-developerName: InvoVN Solutions
 redirect_from:
 - /android/com.blockchain.bitcoin.wallet/
 android:
@@ -18,6 +17,7 @@ android:
   version: 2.0.2
   reviews: 65
   icon: com.blockchain.bitcoin.wallet.png
+  developerName: InvoVN Solutions
 
 ---
 

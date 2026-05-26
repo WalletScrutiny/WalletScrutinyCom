@@ -6,7 +6,6 @@ date: 2023-04-22
 authors:
 - danny
 website: https://digicox.com
-developerName: DigiCOX Limited
 redirect_from:
 - /android/com.digicox.mobile/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   reviews: 4
   icon: com.digicox.mobile.png
+  developerName: DigiCOX Limited
 
 ---
 

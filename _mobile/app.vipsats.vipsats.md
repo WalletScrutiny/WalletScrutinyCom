@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-13
 website: https://vipsats.app
-developerName: Vipsats
 redirect_from:
 - /android/app.vipsats.vipsats/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.4.2
   reviews: 10
   icon: app.vipsats.vipsats.png
+  developerName: Vipsats
 
 ---
 

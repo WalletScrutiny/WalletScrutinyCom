@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://coinforbarter.com
-developerName: CoinForBarter
 redirect_from:
 - /android/com.coinforbarter/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-28
   version: '2.0'
   icon: com.coinforbarter.png
+  developerName: CoinForBarter
 
 ---
 

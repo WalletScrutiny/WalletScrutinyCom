@@ -17,9 +17,9 @@ android:
   appId: com.foxwallet.play
   users: 100000
   released: 2021-12-05
-  updated: 2026-05-13
-  version: 5.5.22
-  reviews: 452
+  updated: 2026-05-26
+  version: 5.5.23
+  reviews: 451
   icon: com.foxwallet.play.png
   website: https://www.foxwallet.com/en
   developerName: FoxWallet

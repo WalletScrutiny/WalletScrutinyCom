@@ -10,17 +10,18 @@ twitter: xtbuk
 social:
 - https://www.linkedin.com/company/xtb-international
 - https://www.facebook.com/xtb
-developerName: XTB S.A.
 redirect_from:
 - /android/com.xtb.xmobile2/
 android:
   appId: com.xtb.xmobile2
   users: 10000000
   released: 2014-12-17
-  updated: 2026-05-18
-  version: 2.169.0
+  updated: 2026-05-25
+  version: 2.170.1
   reviews: 216
   icon: com.xtb.xmobile2.png
+  website: http://www.xtb.com
+  developerName: XTB S.A.
 
 ---
 

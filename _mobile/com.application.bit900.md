@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-11
 website: https://www.trackonbtcguide.com#deadLink
-developerName: Trackon BTC
 redirect_from:
 - /android/com.application.bit900/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-26
   version: '1.24'
   icon: com.application.bit900.png
+  developerName: Trackon BTC
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: bitcointradingcapital
-title: Bitcoin trading - Capital.com
+title: Bitcoin trading - Capital·com
 verdict: nosendreceive
 meta: ok
 date: 2024-02-08
@@ -17,10 +17,11 @@ android:
   appId: com.kapital.trade.crypto
   users: 1000000
   released: 2021-01-20
-  updated: 2026-05-18
-  version: 3.34.1
+  updated: 2026-05-25
+  version: 3.34.2
   reviews: 32
   icon: com.kapital.trade.crypto.png
+  website: https://capital.com/
   developerName: Capital.com BG
 iphone:
   appId: com.kapital.trade.crypto

@@ -6,7 +6,6 @@ date: 2025-09-23
 authors:
 - danny
 website: https://jeritex.com
-developerName: Jeritex Inc.
 redirect_from:
 - /android/com.jeritex.exchange/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2025-02-28
   version: 1.1.22
   icon: com.jeritex.exchange.png
+  developerName: Jeritex Inc.
 
 ---
 

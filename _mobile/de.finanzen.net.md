@@ -11,7 +11,6 @@ twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
-developerName: finanzen.net GmbH
 redirect_from:
 - /android/de.finanzen.net/
 - /iphone/de.smarthouse.finanzen/
@@ -23,6 +22,8 @@ android:
   version: 5.9.1
   reviews: 64
   icon: de.finanzen.net.png
+  website: http://www.finanzen.net/apps
+  developerName: finanzen.net GmbH
 iphone:
   appId: de.smarthouse.finanzen
   idd: '291973577'
@@ -32,6 +33,7 @@ iphone:
   version: 8.2.8
   reviews: 286
   icon: de.smarthouse.finanzen.jpg
+  developerName: finanzen.net GmbH
 
 ---
 

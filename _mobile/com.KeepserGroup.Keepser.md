@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://web.archive.org/web/20210918112918/https://www.keepser.io/
 twitter: keepser
-developerName: Freemindtronic SL
 redirect_from:
 - /android/com.KeepserGroup.Keepser/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2024-12-17
   version: 2.0.0
   icon: com.KeepserGroup.Keepser.png
+  developerName: Freemindtronic SL
 
 ---
 

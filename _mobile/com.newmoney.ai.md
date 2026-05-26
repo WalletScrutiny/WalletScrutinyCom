@@ -25,8 +25,9 @@ android:
   version: 1.8.10
   reviews: 10
   icon: com.newmoney.ai.png
-  twitter: NewmoneyAI
+  website: https://newmoney.ai/
   developerName: NewmoneyAI
+  twitter: NewmoneyAI
 iphone:
   appId: com.newmoney.ai
   idd: '6745225114'
@@ -36,8 +37,8 @@ iphone:
   version: 1.9.14
   reviews: 8
   icon: com.newmoney.ai.jpg
-  twitter: easycrypto
   developerName: Newmoney AI Wallet
+  twitter: easycrypto
 
 ---
 

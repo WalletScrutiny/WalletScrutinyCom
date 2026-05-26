@@ -7,7 +7,6 @@ date: 2024-10-07
 authors:
 - danny
 website: https://www.bbae.com
-developerName: BBAE Holdings LLC
 appCountry: cn
 redirect_from:
 - /iphone/com.bbae.anno/
@@ -19,6 +18,7 @@ iphone:
   version: 7.2.1
   reviews: 844
   icon: com.bbae.anno.jpg
+  developerName: BBAE Holdings LLC
 
 ---
 

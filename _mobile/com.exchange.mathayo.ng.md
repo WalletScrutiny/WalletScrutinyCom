@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://mathayofunds.com#deadLink
-developerName: Volbri Softwares Intl
 redirect_from:
 - /android/com.exchange.mathayo.ng/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-18
   version: 1.0.0
   icon: com.exchange.mathayo.ng.png
+  developerName: Volbri Softwares Intl
 
 ---
 

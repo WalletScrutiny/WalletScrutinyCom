@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://quintex.io#deadLink
-developerName: Quintex Network
 redirect_from:
 - /android/com.app.quintex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-12
   version: 3.5.8
   icon: com.app.quintex.png
+  developerName: Quintex Network
 
 ---
 

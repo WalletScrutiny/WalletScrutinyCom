@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://fastbitng.com#deadLink
-developerName: Fintava
 redirect_from:
 - /android/com.codepoint.fastbit/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-24
   version: '2.4'
   icon: com.codepoint.fastbit.png
+  developerName: Fintava
 
 ---
 

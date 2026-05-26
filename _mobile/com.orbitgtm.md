@@ -6,7 +6,6 @@ date: 2023-05-31
 authors:
 - danny
 website: http://orbitgt-m.com#deadLink
-developerName: OrbitDevelopers
 redirect_from:
 - /android/com.orbitgtm/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-01-11
   version: 1.7.0
   icon: com.orbitgtm.png
+  developerName: OrbitDevelopers
 
 ---
 

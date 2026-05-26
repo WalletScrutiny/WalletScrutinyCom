@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-31
 website: https://www.gorillabit.io#deadLink
-developerName: (주)로켓차트
 redirect_from:
 - /android/kr.co.rocketchart.gorillabit.v1/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-17
   version: 1.0.0+130
   icon: kr.co.rocketchart.gorillabit.v1.png
+  developerName: (주)로켓차트
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Cregis:BTC, ETH Wallet & Pay
+meta: fewusers
 date: 2025-11-10
 authors:
 - danny
@@ -28,8 +29,8 @@ iphone:
   icon: com.cregis.jpg
   meta: ok
   verdict: nosource
-  twitter: 0xCregis
   developerName: Cregis Technology Limited
+  twitter: 0xCregis
   wsId: cregisApp
 
 ---

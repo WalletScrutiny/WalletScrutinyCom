@@ -10,7 +10,6 @@ twitter: foxbit
 social:
 - https://www.linkedin.com/company/foxbit
 - https://www.facebook.com/foxbitcoin
-developerName: Foxbit
 appCountry: br
 redirect_from:
 - /android/br.com.foxbit.foxbitandroid/
@@ -20,19 +19,21 @@ android:
   users: 500000
   released: 2019-01-28
   updated: 2026-05-19
-  version: 3.42.1
-  reviews: 6385
+  version: 3.43.1
+  reviews: 6387
   icon: br.com.foxbit.foxbitandroid.png
   website: http://www.foxbit.com.br
+  developerName: Foxbit
 iphone:
   appId: br.com.foxbit
   idd: '1435319194'
   released: 2019-03-24
   updated: 2026-05-19
   version: 3.43.1
-  reviews: 5548
+  reviews: 5549
   icon: br.com.foxbit.jpg
   website: https://foxbit.com.br/negociar-criptoativos/
+  developerName: Foxbit
 
 ---
 

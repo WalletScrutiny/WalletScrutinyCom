@@ -10,7 +10,6 @@ twitter: airpayfinance
 social:
 - https://facebook.com/airpaytoken
 - https://www.instagram.com/airpayofficial
-developerName: AIRPAY.FINANCE
 redirect_from:
 - /android/com.airpay.appwallet/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-04-15
   version: 1.0.8
   icon: com.airpay.appwallet.png
+  developerName: AIRPAY.FINANCE
 
 ---
 

@@ -12,7 +12,6 @@ twitter: WazirxIndia
 social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
-developerName: Zanmai Labs Private Limited
 appCountry: in
 redirect_from:
 - /android/com.wrx.wazirx/
@@ -23,8 +22,10 @@ android:
   released: 2018-07-16
   updated: 2026-05-08
   version: 4.5.2
-  reviews: 126086
+  reviews: 126118
   icon: com.wrx.wazirx.png
+  website: https://wazirx.com
+  developerName: Zanmai Labs Private Limited
 iphone:
   appId: com.wrx.wazirx
   idd: 1349082789
@@ -33,6 +34,7 @@ iphone:
   version: 3.6.1
   reviews: 53936
   icon: com.wrx.wazirx.jpg
+  developerName: Zanmai Labs Private Limited
 
 ---
 

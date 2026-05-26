@@ -11,7 +11,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: Tap Global Limited
 appCountry: gb
 redirect_from:
 - /android/com.tapngo.tap/
@@ -24,6 +23,8 @@ android:
   version: 3.8.5
   reviews: 301
   icon: com.tapngo.tap.png
+  website: https://www.withtap.com
+  developerName: Tap Global Limited
 iphone:
   appId: com.TapGlobal.tap
   idd: '1492263993'
@@ -32,6 +33,7 @@ iphone:
   version: 3.8.5
   reviews: 1906
   icon: com.TapGlobal.tap.jpg
+  developerName: Tap Global Limited
 
 ---
 

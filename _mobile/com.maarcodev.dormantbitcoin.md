@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-09
 authors:
 - danny
-developerName: MaarcoDev
 redirect_from:
 - /android/com.maarcodev.dormantbitcoin/
 android:
@@ -16,6 +15,7 @@ android:
   version: '1.3'
   reviews: 2
   icon: com.maarcodev.dormantbitcoin.png
+  developerName: MaarcoDev
 
 ---
 

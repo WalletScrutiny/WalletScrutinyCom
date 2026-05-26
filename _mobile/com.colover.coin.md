@@ -8,7 +8,6 @@ authors:
 website: http://www.colover.com/
 social:
 - https://web.archive.org/web/20191004081856/http://www.colover.com/
-developerName: (주)코러버
 redirect_from:
 - /android/com.colover.coin/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2019-03-11
   version: 1.13.0
   icon: com.colover.coin.png
+  developerName: (주)코러버
 
 ---
 

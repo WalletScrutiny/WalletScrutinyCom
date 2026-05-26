@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://bitcoinpos.americanposllc.com/
-developerName: BitcoinPOS
 appCountry: us
 redirect_from:
 - /iphone/cz.americanPos.bitcoinPOSThree/
@@ -16,6 +15,7 @@ iphone:
   version: 1.0.3
   reviews: 0
   icon: cz.americanPos.bitcoinPOSThree.jpg
+  developerName: BitcoinPOS
 
 ---
 

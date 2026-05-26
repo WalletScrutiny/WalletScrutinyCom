@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - leo
 website: http://bitcoinwalletcoin.com
-developerName: MAX Wallet , Tov
 redirect_from:
 - /com.maxxwallet/
 - /android/com.maxxwallet/
@@ -17,6 +16,7 @@ android:
   updated: 2019-06-12
   version: 3.7.3
   icon: com.maxxwallet.png
+  developerName: MAX Wallet , Tov
 
 ---
 

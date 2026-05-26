@@ -7,7 +7,6 @@ authors:
 - kiwilamb
 website: https://letskrypto.com
 twitter: letskrypto
-developerName: Connect Pvt Ltd
 redirect_from:
 - /android/com.krypto/
 android:
@@ -18,6 +17,7 @@ android:
   version: '8.5'
   reviews: 19
   icon: com.krypto.png
+  developerName: Connect Pvt Ltd
 
 ---
 

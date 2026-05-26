@@ -16,7 +16,6 @@ features:
 - foss
 - segwit
 - fingerprint
-developerName: Jeremy Johnson
 redirect_from:
 - /io.freewallet.mobile/
 - /android/io.freewallet.mobile/
@@ -29,6 +28,8 @@ android:
   version: 0.1.9
   reviews: 30
   icon: io.freewallet.mobile.jpg
+  website: https://freewallet.io
+  developerName: Jeremy Johnson
 iphone:
   appId: io.freewallet.mobile
   idd: 1151168579
@@ -37,6 +38,7 @@ iphone:
   version: 1.0.9
   reviews: 38
   icon: io.freewallet.mobile.jpg
+  developerName: Jeremy Johnson
 
 ---
 

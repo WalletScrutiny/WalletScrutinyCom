@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://first-union.com#deadLink
-developerName: FIRST UNION CAPITAL LTD.
 redirect_from:
 - /android/com.firstunion.uncwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-05
   version: 1.1.5
   icon: com.firstunion.uncwallet.png
+  developerName: FIRST UNION CAPITAL LTD.
 
 ---
 

@@ -3,7 +3,6 @@ title: Crest9
 verdict: wip
 meta: removed
 date: 2024-04-03
-developerName: Crest9 Tech
 redirect_from:
 - /android/com.era.crest9/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-16
   version: 1.0.12
   icon: com.era.crest9.png
+  developerName: Crest9 Tech
 
 ---
 

@@ -23,9 +23,10 @@ android:
   users: 10000000
   released: 2019-10-31
   updated: 2026-05-19
-  version: 5.18.1
-  reviews: 7186
+  version: 5.19.0
+  reviews: 7188
   icon: com.bybit.app.png
+  website: https://www.bybit.com
   developerName: Bybit
 iphone:
   appId: com.bybit.app

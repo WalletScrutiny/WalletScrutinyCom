@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://trxcryptobank.com/
-developerName: TrxcryptoBank
 redirect_from:
 - /android/com.syndicatesoftwareofficial.trxcryptobank/
 android:
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 1
   icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
+  developerName: TrxcryptoBank
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://parkgene.io
 twitter: PARKGENE1
-developerName: PARKGENE
 redirect_from:
 - /android/com.gene.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2019-02-08
   version: 1.4.1
   icon: com.gene.wallet.png
+  developerName: PARKGENE
 
 ---
 

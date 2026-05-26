@@ -10,7 +10,6 @@ website: https://cash.app
 twitter: cashapp
 features:
 - ln
-developerName: Block, Inc.
 redirect_from:
 - /com.squareup.cash/
 - /android/com.squareup.cash/
@@ -19,10 +18,12 @@ android:
   appId: com.squareup.cash
   users: 100000000
   released: 2013-10-15
-  updated: 2026-05-19
+  updated: 2026-05-22
   version: 5.52.0
-  reviews: 465325
+  reviews: 465824
   icon: com.squareup.cash.png
+  website: https://cash.app
+  developerName: Block, Inc.
 iphone:
   appId: com.squareup.cash
   idd: 711923939
@@ -31,6 +32,7 @@ iphone:
   version: 5.52.0
   reviews: 8371834
   icon: com.squareup.cash.jpg
+  developerName: Block, Inc.
 
 ---
 

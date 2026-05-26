@@ -3,7 +3,6 @@ title: Baviera Capital Exchange
 verdict: wip
 meta: removed
 date: 2024-11-22
-developerName: Baviera Capital Ltd
 redirect_from:
 - /android/com.baviera.capital/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2024-04-09
   version: 1.0.0
   icon: com.baviera.capital.png
+  developerName: Baviera Capital Ltd
 
 ---
 

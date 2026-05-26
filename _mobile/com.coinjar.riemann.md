@@ -18,9 +18,9 @@ android:
   appId: com.coinjar.riemann
   users: 100000
   released: 2019-11-21
-  updated: 2026-05-07
-  version: 3.54.4
-  reviews: 1169
+  updated: 2026-05-21
+  version: 3.55.0
+  reviews: 1170
   icon: com.coinjar.riemann.png
   website: https://www.coinjar.com
   developerName: CoinJar

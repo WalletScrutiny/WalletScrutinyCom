@@ -3,7 +3,6 @@ title: Smart Trade Terminal
 verdict: wip
 meta: removed
 date: 2024-05-07
-developerName: DieGOplay
 redirect_from:
 - /android/air.SmartTerminal4/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-08
   version: '0_43'
   icon: air.SmartTerminal4.png
+  developerName: DieGOplay
 
 ---
 

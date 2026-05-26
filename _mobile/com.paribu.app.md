@@ -20,10 +20,11 @@ android:
   appId: com.paribu.app
   users: 5000000
   released: 2019-06-14
-  updated: 2026-05-18
-  version: 6.0.13
+  updated: 2026-05-24
+  version: 6.0.23
   reviews: 115
   icon: com.paribu.app.png
+  website: https://www.paribu.com
   developerName: PARİBU
 iphone:
   appId: com.codevist.paribu

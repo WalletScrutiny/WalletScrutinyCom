@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: http://chronobank.io
-developerName: LaborX
 redirect_from:
 - /android/io.chronobank.chronomint.webview/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2017-10-11
   version: 0.2.1
   icon: io.chronobank.chronomint.webview.png
+  developerName: LaborX
 
 ---
 

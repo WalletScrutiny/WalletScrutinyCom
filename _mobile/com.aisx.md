@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://ais-ex.com#deadLink
-developerName: Vnext
 redirect_from:
 - /android/com.aisx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-29
   version: 1.0.6
   icon: com.aisx.png
+  developerName: Vnext
 
 ---
 

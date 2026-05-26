@@ -3,7 +3,6 @@ title: Plato
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Plato Technologies Inc.
 redirect_from:
 - /android/com.plato.mobile.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-18
   version: 1.0.3
   icon: com.plato.mobile.app.png
+  developerName: Plato Technologies Inc.
 
 ---
 

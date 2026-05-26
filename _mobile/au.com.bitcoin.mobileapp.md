@@ -21,6 +21,7 @@ android:
   updated: 2026-03-31
   version: 14.4.0
   icon: au.com.bitcoin.mobileapp.png
+  website: https://www.bitcoin.com.au
   developerName: bitcoin.com.au
 iphone:
   appId: au.com.bitcoin.mobileapp
@@ -31,6 +32,7 @@ iphone:
   version: 14.4.0
   reviews: 1428
   icon: au.com.bitcoin.mobileapp.jpg
+  website: https://www.bitcoin.com.au
   developerName: Bitcoin.com.au
 
 ---

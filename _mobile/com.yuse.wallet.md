@@ -2,6 +2,7 @@
 wsId: yusetokenio
 title: 'Yuse: Bitcoin & Crypto Wallet'
 verdict: nosource
+meta: ok
 date: 2024-09-04
 authors:
 - danny

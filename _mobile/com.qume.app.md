@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://www.qume.io
-developerName: Karma Innovations PTE. LTD.
 redirect_from:
 - /android/com.qume.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-07
   version: '1.1'
   icon: com.qume.app.png
+  developerName: Karma Innovations PTE. LTD.
 
 ---
 

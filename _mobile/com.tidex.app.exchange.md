@@ -13,7 +13,6 @@ social:
 - https://www.youtube.com/channel/UC5C5h2fePy4CG_FcwgUgwpg
 - https://www.tiktok.com/@tidex_exchange
 - https://www.reddit.com/r/Tidex_Global
-developerName: Tidex
 redirect_from:
 - /android/com.tidex.app.exchange/
 - /iphone/com.tidex.exchange.app/
@@ -26,6 +25,7 @@ android:
   reviews: 7
   icon: com.tidex.app.exchange.png
   website: https://tidex.com
+  developerName: Tidex
 iphone:
   appId: com.tidex.exchange.app
   idd: '1632072370'
@@ -36,6 +36,7 @@ iphone:
   reviews: 15
   icon: com.tidex.exchange.app.jpg
   website: https://tidex.com/
+  developerName: Tidex
 
 ---
 

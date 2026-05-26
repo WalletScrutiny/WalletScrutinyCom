@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://coinshut.africa#deadLink
-developerName: Coinshut Africa
 redirect_from:
 - /android/com.coinshut.coinshut/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-29
   version: 0.1.1
   icon: com.coinshut.coinshut.jpg
+  developerName: Coinshut Africa
 
 ---
 

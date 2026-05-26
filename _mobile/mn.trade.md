@@ -2,6 +2,7 @@
 wsId: TradeMN
 title: Trade.mn
 verdict: custodial
+meta: ok
 date: 2022-05-31
 authors:
 - danny
@@ -9,7 +10,6 @@ website: https://trade.mn
 twitter: TradeMnOfficial
 social:
 - https://www.facebook.com/digitalexchangemongolia
-developerName: Digital Exchange Mongolia LLC
 appCountry: us
 redirect_from:
 - /android/mn.trade/
@@ -23,6 +23,8 @@ android:
   reviews: 13
   icon: mn.trade.png
   meta: defunct
+  website: https://trade.mn
+  developerName: Digital Exchange Mongolia LLC
 iphone:
   appId: mn.trade
   idd: 1303463253
@@ -32,6 +34,7 @@ iphone:
   reviews: 29
   icon: mn.trade.jpg
   meta: removed
+  developerName: Digital Exchange Mongolia LLC
 
 ---
 

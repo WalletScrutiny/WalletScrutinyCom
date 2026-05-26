@@ -6,7 +6,6 @@ date: 2024-10-10
 authors:
 - danny
 website: http://www.cpay.finance/
-developerName: Block Easy Tech Limited
 redirect_from:
 - /android/com.ljkj.blockpay/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.2.7
   reviews: 1
   icon: com.ljkj.blockpay.png
+  developerName: Block Easy Tech Limited
 
 ---
 

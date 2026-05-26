@@ -17,7 +17,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: Independent Reserve
 redirect_from:
 - /android/com.independentreserve.mobileapp/
 - /iphone/com.independentreserve.mobileapp/
@@ -30,6 +29,7 @@ android:
   reviews: 3
   icon: com.independentreserve.mobileapp.png
   website: https://www.independentreserve.com
+  developerName: Independent Reserve
 iphone:
   appId: com.independentreserve.mobileapp
   idd: '1566499416'
@@ -40,6 +40,7 @@ iphone:
   reviews: 2283
   icon: com.independentreserve.mobileapp.jpg
   website: https://www.independentreserve.com/
+  developerName: Independent Reserve
 
 ---
 

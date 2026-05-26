@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-01-02
 website: https://www.bdwallets.com/
-developerName: BD Wallets
 redirect_from:
 - /android/com.exchange.bdwallets.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-01-08
   version: 1.0.2
   icon: com.exchange.bdwallets.app.png
+  developerName: BD Wallets
 
 ---
 

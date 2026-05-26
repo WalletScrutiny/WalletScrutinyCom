@@ -6,7 +6,6 @@ date: 2025-06-23
 authors:
 - leo
 website: https://bitcoinox.com/
-developerName: Excdev
 redirect_from:
 - /iphone/com.excdev.bitcoinox/
 iphone:
@@ -17,6 +16,7 @@ iphone:
   version: 2.8.8
   reviews: 5
   icon: com.excdev.bitcoinox.jpg
+  developerName: Excdev
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.xinbipro.com#deadLink
-developerName: XinBiPro
 redirect_from:
 - /android/com.exchange.XinBi/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-14
   version: 4.0.8
   icon: com.exchange.XinBi.png
+  developerName: XinBiPro
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-05-31
 authors:
 - danny
 website: https://www.fluencybank.com#deadLink
-developerName: Fluency App Ltd.
 redirect_from:
 - /android/com.nbdu.fluency_bank/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 8
   icon: com.nbdu.fluency_bank.png
+  developerName: Fluency App Ltd.
 
 ---
 

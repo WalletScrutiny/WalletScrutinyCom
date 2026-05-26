@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://firstwallet.pro#deadLink
-developerName: First Wallet Lab
 redirect_from:
 - /android/com.firstWallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-30
   version: 1.1.4
   icon: com.firstWallet.png
+  developerName: First Wallet Lab
 
 ---
 

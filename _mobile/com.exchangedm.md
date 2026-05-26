@@ -11,7 +11,6 @@ social:
 - https://t.me/DMdigitalmoney
 - https://discord.com/invite/QqTns8Yu#deadLink
 - https://www.instagram.com/digitalmoney.dm
-developerName: Digital Money Ltd
 redirect_from:
 - /android/com.exchangedm/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2022-08-22
   version: 1.1.0
   icon: com.exchangedm.png
+  developerName: Digital Money Ltd
 
 ---
 

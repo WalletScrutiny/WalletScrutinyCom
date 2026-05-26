@@ -9,7 +9,6 @@ website: https://www.chiliz.net
 twitter: chiliz
 social:
 - https://www.facebook.com/Chilizdotcom
-developerName: Mediarex Enterprises Limited
 redirect_from:
 - /android/net.chiliz.broker.android/
 android:
@@ -20,6 +19,7 @@ android:
   version: 5.12.1
   reviews: 5
   icon: net.chiliz.broker.android.png
+  developerName: Mediarex Enterprises Limited
 
 ---
 

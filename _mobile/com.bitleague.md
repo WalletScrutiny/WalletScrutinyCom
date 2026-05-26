@@ -11,7 +11,6 @@ twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
-developerName: BITLEAGUE LLC
 appCountry: us
 redirect_from:
 - /android/com.bitleague/
@@ -24,6 +23,7 @@ android:
   version: 2.15.2
   reviews: 132
   icon: com.bitleague.png
+  developerName: BITLEAGUE LLC
 iphone:
   appId: com.bit.leagues
   idd: '1460001613'
@@ -32,6 +32,7 @@ iphone:
   version: '2.15'
   reviews: 23
   icon: com.bit.leagues.jpg
+  developerName: BITLEAGUE LLC
 
 ---
 

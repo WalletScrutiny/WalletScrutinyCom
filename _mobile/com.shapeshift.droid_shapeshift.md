@@ -31,9 +31,9 @@ android:
   icon: com.shapeshift.droid_shapeshift.png
   verdict: sourceavailable
   website: https://ShapeShift.com
+  developerName: ShapeShift.com
   repository: https://github.com/shapeshift/mobile-app
   twitter: ShapeShift
-  developerName: ShapeShift.com
 iphone:
   appId: com.shapeShift.shapeShift
   idd: 996569075
@@ -44,8 +44,8 @@ iphone:
   icon: com.shapeShift.shapeShift.jpg
   verdict: nosource
   website: https://shapeshift.com
-  twitter: ShapeShift_io
   developerName: ShapeShift AG
+  twitter: ShapeShift_io
 
 ---
 

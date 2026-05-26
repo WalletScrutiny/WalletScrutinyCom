@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2024-08-15
 website: https://www.rapixchange.com/
-developerName: Rapixchange
 redirect_from:
 - /android/com.rapiexchange.merchant/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2022-08-25
   version: '1.0'
   icon: com.rapiexchange.merchant.png
+  website: https://www.rapixchange.com/
+  developerName: Rapixchange
 
 ---
 

@@ -9,7 +9,6 @@ website: https://custody.bitpanda.com/about
 features:
 - multiSig
 - secEl
-developerName: Bitpanda Custody Ltd
 appCountry: ee
 redirect_from:
 - /iphone/io.trustology.trustvault/
@@ -21,6 +20,7 @@ iphone:
   version: 2.24.7
   reviews: 0
   icon: io.trustology.trustvault.jpg
+  developerName: Bitpanda Custody Ltd
 
 ---
 

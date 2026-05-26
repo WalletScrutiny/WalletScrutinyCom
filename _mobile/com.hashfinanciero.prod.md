@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://www.hashfinanciero.com#deadLink
-developerName: DevPala
 redirect_from:
 - /android/com.hashfinanciero.prod/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-08
   version: '1.0'
   icon: com.hashfinanciero.prod.jpg
+  developerName: DevPala
 
 ---
 

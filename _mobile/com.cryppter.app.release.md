@@ -6,7 +6,6 @@ date: 2025-01-27
 authors:
 - danny
 website: https://cryppter.com/
-developerName: Enex, LLC
 redirect_from:
 - /android/com.cryppter.app.release/
 android:
@@ -17,6 +16,8 @@ android:
   version: 0.0.145 (7755)
   reviews: 9
   icon: com.cryppter.app.release.png
+  website: https://cryppter.com/
+  developerName: Enex, LLC
 
 ---
 

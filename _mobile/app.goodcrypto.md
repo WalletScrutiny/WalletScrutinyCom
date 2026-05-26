@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/goodcrypto
 - https://www.facebook.com/GoodCryptoApp
 - https://www.reddit.com/r/GoodCrypto
-developerName: GoodCrypto.App
 redirect_from:
 - /app.goodcrypto/
 - /android/app.goodcrypto/
@@ -21,8 +20,10 @@ android:
   released: 2019-05-20
   updated: 2026-05-14
   version: 2.5.0
-  reviews: 150
+  reviews: 151
   icon: app.goodcrypto.png
+  website: https://goodcrypto.app
+  developerName: GoodCrypto.App
 
 ---
 

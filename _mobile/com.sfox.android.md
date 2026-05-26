@@ -22,8 +22,8 @@ android:
   reviews: 3
   icon: com.sfox.android.png
   meta: removed
-  twitter: SFox
   developerName: SFOX Inc.
+  twitter: SFox
 iphone:
   appId: com.sfox.ios
   idd: '1583801613'

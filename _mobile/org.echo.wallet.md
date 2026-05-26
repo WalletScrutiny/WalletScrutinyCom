@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://echo-dev.io#deadLink
-developerName: PixelPlex Apps
 redirect_from:
 - /android/org.echo.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-11-21
   version: 1.13.2
   icon: org.echo.wallet.png
+  developerName: PixelPlex Apps
 
 ---
 

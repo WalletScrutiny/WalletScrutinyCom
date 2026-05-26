@@ -10,7 +10,6 @@ twitter: MUIcommunity
 social:
 - https://www.linkedin.com/company/metamui
 - https://www.facebook.com/SovereignWallet
-developerName: Sovereign Wallet Network Pte. Ltd.
 appCountry: us
 redirect_from:
 - /iphone/id.metablockchain.metawallet/
@@ -22,6 +21,7 @@ iphone:
   version: 3.2.5
   reviews: 0
   icon: id.metablockchain.metawallet.jpg
+  developerName: Sovereign Wallet Network Pte. Ltd.
 
 ---
 

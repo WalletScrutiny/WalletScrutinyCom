@@ -13,7 +13,6 @@ social:
 - https://www.youtube.com/@OpenEx_EN#deadLink
 - https://medium.com/@OpenEx_HQ
 - https://www.linkedin.com/company/openex-hq
-developerName: OPENEX TECHNOLOGY PTE.LTD.
 redirect_from:
 - /android/com.aex.exchanges/
 android:
@@ -24,6 +23,7 @@ android:
   version: 1.1.5
   reviews: 3
   icon: com.aex.exchanges.png
+  developerName: OPENEX TECHNOLOGY PTE.LTD.
 
 ---
 

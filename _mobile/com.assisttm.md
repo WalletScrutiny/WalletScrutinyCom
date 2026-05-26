@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.assisttradingmaster.com
-developerName: D Coin Trade
 redirect_from:
 - /android/com.assisttm/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-10
   version: 1.1.3
   icon: com.assisttm.png
+  developerName: D Coin Trade
 
 ---
 

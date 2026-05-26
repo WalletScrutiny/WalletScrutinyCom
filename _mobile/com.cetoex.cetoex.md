@@ -10,7 +10,6 @@ twitter: Cetoex
 social:
 - https://t.me/CetoEXExchange
 - https://www.instagram.com/cetoex
-developerName: CetoEx Labs
 redirect_from:
 - /android/com.cetoex.cetoex/
 android:
@@ -21,6 +20,8 @@ android:
   version: 4.0.2
   reviews: 6
   icon: com.cetoex.cetoex.jpg
+  website: https://cetoex.com
+  developerName: CetoEx Labs
 
 ---
 

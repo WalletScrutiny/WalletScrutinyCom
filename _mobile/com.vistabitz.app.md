@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: http://www.vistabitz.com
-developerName: Vistabitz
 redirect_from:
 - /android/com.vistabitz.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-02
   version: '1.0'
   icon: com.vistabitz.app.png
+  developerName: Vistabitz
 
 ---
 

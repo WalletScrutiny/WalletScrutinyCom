@@ -12,7 +12,6 @@ features:
 - multiSig
 - tradeAlts
 - foss
-developerName: 藤原出帆
 redirect_from:
 - /android/org.missmonacoin.monya/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2021-12-14
   version: 3.10.5
   icon: org.missmonacoin.monya.png
+  developerName: 藤原出帆
 
 ---
 

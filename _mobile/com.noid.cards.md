@@ -9,7 +9,6 @@ website: https://noid.cards/
 twitter: noidcards
 social:
 - https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
-developerName: noID.cards
 redirect_from:
 - /android/com.noid.cards/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2023-03-26
   version: VARY
   icon: com.noid.cards.png
+  developerName: noID.cards
 
 ---
 

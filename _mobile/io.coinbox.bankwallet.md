@@ -3,7 +3,6 @@ title: Coinbox Wallet
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Blocktech Brew
 redirect_from:
 - /android/io.coinbox.bankwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-09-13
   version: 0.26.4.0
   icon: io.coinbox.bankwallet.png
+  developerName: Blocktech Brew
 
 ---
 

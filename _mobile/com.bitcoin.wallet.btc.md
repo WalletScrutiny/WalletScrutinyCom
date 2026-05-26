@@ -7,7 +7,6 @@ authors:
 - leo
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
-developerName: InvoVN Solutions
 redirect_from:
 - /android/com.bitcoin.wallet.btc/
 android:
@@ -19,6 +18,7 @@ android:
   version: 3.0.7
   reviews: 304
   icon: com.bitcoin.wallet.btc.png
+  developerName: InvoVN Solutions
 
 ---
 

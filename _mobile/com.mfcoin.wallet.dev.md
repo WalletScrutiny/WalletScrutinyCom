@@ -8,7 +8,6 @@ twitter: MFC_tech
 social:
 - https://www.linkedin.com/company/groups/13539593
 - https://www.facebook.com/groups/mfcoin
-developerName: FREELAND AGREEMENT LTD.
 redirect_from:
 - /android/com.mfcoin.wallet.dev/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2020-10-04
   version: v4.0.0
   icon: com.mfcoin.wallet.dev.png
+  developerName: FREELAND AGREEMENT LTD.
 
 ---
 

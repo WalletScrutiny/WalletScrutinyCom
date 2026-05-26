@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-17
 website: https://honorfx.com/
-developerName: HonorFX
 redirect_from:
 - /android/com.app.honorfx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-09
   version: '1.3'
   icon: com.app.honorfx.png
+  developerName: HonorFX
 
 ---
 

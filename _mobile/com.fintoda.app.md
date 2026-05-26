@@ -9,7 +9,6 @@ authors:
 social:
 - https://t.me/joinchat/0XnTfyBrU-tiOTNi
 - https://fintoda.com
-developerName: FINTODA LLC
 redirect_from:
 - /android/com.fintoda.app/
 - /iphone/com.fintoda.app/
@@ -17,10 +16,11 @@ android:
   appId: com.fintoda.app
   users: 5000
   released: 2021-08-26
-  updated: 2026-04-30
-  version: 1.7.10
+  updated: 2026-05-25
+  version: 1.7.11
   icon: com.fintoda.app.png
   website: https://fintoda.com
+  developerName: FINTODA LLC
 iphone:
   appId: com.fintoda.app
   idd: '1582196311'
@@ -30,6 +30,7 @@ iphone:
   version: 1.7.10
   reviews: 0
   icon: com.fintoda.app.jpg
+  developerName: FINTODA LLC
 
 ---
 

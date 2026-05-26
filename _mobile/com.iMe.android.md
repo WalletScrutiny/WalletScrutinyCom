@@ -12,7 +12,6 @@ social:
 - https://imesmartplatform.medium.com
 - https://www.youtube.com/c/iMeMessenger
 - https://www.reddit.com/r/iMeSmartPlatform
-developerName: IME LAB - FZCO
 redirect_from:
 - /android/com.iMe.android/
 - /iphone/com.olcorporation.olai/
@@ -20,11 +19,12 @@ android:
   appId: com.iMe.android
   users: 5000000
   released: 2019-07-22
-  updated: 2026-04-08
-  version: 12.3.6
-  reviews: 819
+  updated: 2026-05-15
+  version: 12.3.8
+  reviews: 824
   icon: com.iMe.android.png
   website: https://www.imem.app
+  developerName: IME LAB - FZCO
   repository: https://github.com/imemessenger/iMe-Android
 iphone:
   appId: com.olcorporation.olai
@@ -36,6 +36,7 @@ iphone:
   reviews: 8384
   icon: com.olcorporation.olai.jpg
   website: https://imem.app/
+  developerName: IME LAB - FZCO
 
 ---
 

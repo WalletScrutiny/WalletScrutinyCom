@@ -3,7 +3,6 @@ title: Prosumer
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Elyfran Vaz
 redirect_from:
 - /android/com.prosumer.driver/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-14
   version: 1.0.15
   icon: com.prosumer.driver.png
+  developerName: Elyfran Vaz
 
 ---
 

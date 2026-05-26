@@ -32,7 +32,7 @@ iphone:
   released: 2018-08-02
   updated: 2026-05-13
   version: 5.15.0
-  reviews: 1207
+  reviews: 1208
   icon: com.casa.vault.jpg
   website: https://www.casa.io
   developerName: Casa Inc.

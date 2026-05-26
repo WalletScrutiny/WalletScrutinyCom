@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.2gether.global
 twitter: 2gether_global
-developerName: 2gether global
 redirect_from:
 - /android/com.twogetherbank.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-06-14
   version: 1.9.3
   icon: com.twogetherbank.app.png
+  developerName: 2gether global
 
 ---
 

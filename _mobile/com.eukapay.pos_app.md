@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-07-30
 website: https://eukapay.com
-developerName: EukaPay
 redirect_from:
 - /android/com.eukapay.pos_app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-04-05
   version: 1.2.12
   icon: com.eukapay.pos_app.png
+  developerName: EukaPay
 
 ---
 

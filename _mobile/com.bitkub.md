@@ -19,7 +19,7 @@ android:
   released: 2019-04-20
   updated: 2026-05-18
   version: 4.15.0
-  reviews: 44
+  reviews: 45
   icon: com.bitkub.png
   website: http://www.bitkub.com
   developerName: Bitkub Online Co., Ltd. (Head Office)

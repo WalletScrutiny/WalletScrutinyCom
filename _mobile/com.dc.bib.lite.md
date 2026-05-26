@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/bib_chinese
 - https://bibexchange.medium.com
 - https://t.me/BIBexchange_China
-developerName: ebpay.net
 redirect_from:
 - /android/com.dc.bib.lite/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.2.9
   reviews: 8
   icon: com.dc.bib.lite.png
+  developerName: ebpay.net
 
 ---
 

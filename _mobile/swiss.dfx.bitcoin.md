@@ -17,7 +17,6 @@ features:
 - foss
 - hd
 - segwit
-developerName: DFX AG
 redirect_from:
 - /android/swiss.dfx.bitcoin/
 - /iphone/swiss.dfx.bitcoin/
@@ -29,6 +28,7 @@ android:
   version: 2.0.3
   icon: swiss.dfx.bitcoin.png
   website: https://dfx.swiss/
+  developerName: DFX AG
 iphone:
   appId: swiss.dfx.bitcoin
   idd: '6466037617'
@@ -38,6 +38,7 @@ iphone:
   version: 2.0.3
   reviews: 0
   icon: swiss.dfx.bitcoin.jpg
+  developerName: DFX AG
 
 ---
 

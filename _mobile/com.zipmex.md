@@ -9,7 +9,6 @@ authors:
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
-developerName: Zipmex
 redirect_from:
 - /android/com.zipmex/
 - /iphone/com.zipmex.app/
@@ -23,6 +22,7 @@ android:
   reviews: 11575
   icon: com.zipmex.png
   website: https://zipmex.co.th/
+  developerName: Zipmex
 iphone:
   appId: com.zipmex.app
   idd: 1485647781
@@ -33,6 +33,7 @@ iphone:
   reviews: 127
   icon: com.zipmex.app.jpg
   website: https://www.youtube.com/watch?v=iYI01eFjxTg
+  developerName: Zipmex
 
 ---
 

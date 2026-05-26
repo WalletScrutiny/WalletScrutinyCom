@@ -2,6 +2,7 @@
 wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
 verdict: nosource
+meta: ok
 date: 2024-03-02
 authors:
 - danny
@@ -16,9 +17,9 @@ android:
   appId: com.coinsdo.wallet
   users: 500000
   released: 2022-06-26
-  updated: 2026-05-05
-  version: 2.0.27
-  reviews: 118
+  updated: 2026-05-21
+  version: 2.0.28
+  reviews: 119
   icon: com.coinsdo.wallet.png
   meta: ok
   website: https://www.coinsdo.com

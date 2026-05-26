@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://wapxnigeria.com/
-developerName: Wapxnigeria Technologies
 redirect_from:
 - /android/com.wapxnigeria.wapx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-11-03
   version: 1.1.7
   icon: com.wapxnigeria.wapx.png
+  developerName: Wapxnigeria Technologies
 
 ---
 

@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/kifpool-me
 - https://www.instagram.com/kifpool.me
 - https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ
-developerName: zipboomlak
 redirect_from:
 - /android/kifpool.me/
 android:
@@ -22,6 +21,7 @@ android:
   version: '1.7'
   reviews: 10
   icon: kifpool.me.png
+  developerName: zipboomlak
 
 ---
 

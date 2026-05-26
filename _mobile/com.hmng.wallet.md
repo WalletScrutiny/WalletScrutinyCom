@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-06
 website: https://www.hummingbirdbsc.org/
-developerName: HMNG Development
 redirect_from:
 - /android/com.hmng.wallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.8
   reviews: 7
   icon: com.hmng.wallet.png
+  developerName: HMNG Development
 
 ---
 

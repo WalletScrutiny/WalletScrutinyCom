@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-03
 website: https://antwallet.io
-developerName: Golden Horizon Technologies Pte Ltd
 redirect_from:
 - /android/io.antwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-23
   version: 1.0.2
   icon: io.antwallet.png
+  developerName: Golden Horizon Technologies Pte Ltd
 
 ---
 

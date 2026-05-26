@@ -10,7 +10,6 @@ twitter: exchaino
 social:
 - https://www.instagram.com/myexchaino
 - https://t.me/exchaino
-developerName: Bit24
 redirect_from:
 - /android/com.xchaino/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-06-14
   version: 2.1.3
   icon: com.xchaino.png
+  developerName: Bit24
 
 ---
 

@@ -3,7 +3,6 @@ title: Rightmoney
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Omnilucid Pvt Ltd
 redirect_from:
 - /android/com.rightmoney/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-30
   version: '6.0'
   icon: com.rightmoney.png
+  developerName: Omnilucid Pvt Ltd
 
 ---
 

@@ -13,7 +13,6 @@ social:
 - https://reddit.com/user/MarsDao_blog/
 - https://medium.com/mars-dao
 - https://github.com/orgs/MARS-DAO/repositories
-developerName: MDAO Wallet
 redirect_from:
 - /android/com.ttmbank.wallet.app/
 android:
@@ -23,6 +22,8 @@ android:
   updated: 2024-04-25
   version: 2.3.10
   icon: com.ttmbank.wallet.app.png
+  website: https://ttmwallet.io
+  developerName: MDAO Wallet
 
 ---
 

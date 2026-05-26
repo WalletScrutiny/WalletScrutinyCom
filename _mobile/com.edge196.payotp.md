@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://payotp.com
-developerName: PAYOTP
 redirect_from:
 - /android/com.edge196.payotp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-18
   version: '1.0'
   icon: com.edge196.payotp.png
+  developerName: PAYOTP
 
 ---
 

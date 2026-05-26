@@ -3,7 +3,6 @@ title: 安宝
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: 银链团队
 redirect_from:
 - /android/com.bankledger.safegem/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-08-20
   version: 1.2.0
   icon: com.bankledger.safegem.png
+  developerName: 银链团队
 
 ---
 

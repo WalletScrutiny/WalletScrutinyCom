@@ -6,7 +6,6 @@ date: 2023-09-04
 authors:
 - danny
 website: https://www.goldex.jp#deadLink
-developerName: GOLDEX.,Inc.
 redirect_from:
 - /android/jp.goldex.towerwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-07-16
   version: 3.3.35
   icon: jp.goldex.towerwallet.png
+  developerName: GOLDEX.,Inc.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://hyperpay.tech
-developerName: LEGEND INTERNET SERVICES PTY LTD
 redirect_from:
 - /android/com.legend.offlinewallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-25
   version: 1.0.5
   icon: com.legend.offlinewallet.png
+  developerName: LEGEND INTERNET SERVICES PTY LTD
 
 ---
 

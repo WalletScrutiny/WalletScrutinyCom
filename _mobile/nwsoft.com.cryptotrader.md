@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.nwsoft.co.kr
-developerName: DeveloperYou
 redirect_from:
 - /android/nwsoft.com.cryptotrader/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-07-19
   version: 1.11ai
   icon: nwsoft.com.cryptotrader.png
+  developerName: DeveloperYou
 
 ---
 

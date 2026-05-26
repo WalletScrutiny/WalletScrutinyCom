@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://tkeep.io#deadLink
-developerName: BQEX Inc.
 redirect_from:
 - /android/com.oriovo.dolphin.tkeep.gp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-08
   version: 1.2.3
   icon: com.oriovo.dolphin.tkeep.gp.png
+  developerName: BQEX Inc.
 
 ---
 

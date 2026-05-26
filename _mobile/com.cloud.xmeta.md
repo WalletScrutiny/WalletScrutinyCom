@@ -2,6 +2,7 @@
 wsId: xMetaExchange
 title: X-Meta Exchange
 verdict: custodial
+meta: obsolete
 date: 2023-12-19
 authors:
 - danny

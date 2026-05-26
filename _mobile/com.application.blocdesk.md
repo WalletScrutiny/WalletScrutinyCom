@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://www.velcomex.com
-developerName: VelcomEx
 redirect_from:
 - /android/com.application.blocdesk/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-03-03
   version: 1.1.5
   icon: com.application.blocdesk.png
+  developerName: VelcomEx
 
 ---
 

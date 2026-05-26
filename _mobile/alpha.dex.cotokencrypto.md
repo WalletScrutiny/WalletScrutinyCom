@@ -3,7 +3,6 @@ title: Cotoken
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Riley Thomas Swanston
 redirect_from:
 - /android/alpha.dex.cotokencrypto/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-30
   version: '1.0'
   icon: alpha.dex.cotokencrypto.png
+  developerName: Riley Thomas Swanston
 
 ---
 

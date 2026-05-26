@@ -6,7 +6,6 @@ date: 2023-03-31
 authors:
 - danny
 website: https://www.gbih.org#deadLink
-developerName: GBIH  LIMITED
 redirect_from:
 - /android/com.gbih.yantwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-09-24
   version: 1.1.28
   icon: com.gbih.yantwallet.png
+  developerName: GBIH  LIMITED
 
 ---
 

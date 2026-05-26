@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://www.bitsquadtraders.com#deadLink
-developerName: bitsquadtraders
 redirect_from:
 - /android/com.bitsquad.traders/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-09
   version: 1.0.0
   icon: com.bitsquad.traders.png
+  developerName: bitsquadtraders
 
 ---
 

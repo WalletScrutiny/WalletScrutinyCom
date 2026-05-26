@@ -8,7 +8,6 @@ authors:
 website: https://web.archive.org/web/20250822122845/https://hodler.tech/
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 twitter: HODLER_TECH
-developerName: HODLER.TECH LTD
 redirect_from:
 - /android/tech.hodler.core/
 android:
@@ -18,6 +17,7 @@ android:
   updated: 2019-10-29
   version: 0.4.6
   icon: tech.hodler.core.png
+  developerName: HODLER.TECH LTD
 
 ---
 

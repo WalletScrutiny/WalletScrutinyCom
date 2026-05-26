@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: http://bcdxchange.com#deadLink
-developerName: BCD EX Developer
 redirect_from:
 - /android/com.bcdex.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-05-29
   version: 1.0.0.93
   icon: com.bcdex.wallet.png
+  developerName: BCD EX Developer
 
 ---
 

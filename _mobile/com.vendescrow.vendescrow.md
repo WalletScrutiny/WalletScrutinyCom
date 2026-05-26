@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://vendescrow.com#deadLink
-developerName: mathemartins
 redirect_from:
 - /android/com.vendescrow.vendescrow/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-06
   version: 1.0.0
   icon: com.vendescrow.vendescrow.png
+  developerName: mathemartins
 
 ---
 

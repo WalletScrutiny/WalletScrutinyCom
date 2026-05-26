@@ -6,7 +6,6 @@ date: 2023-05-31
 authors:
 - danny
 website: https://juspay.app
-developerName: Abdurahman Unia
 redirect_from:
 - /android/com.pkg.JusPay/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-10
   version: 3.0.0
   icon: com.pkg.JusPay.png
+  developerName: Abdurahman Unia
 
 ---
 

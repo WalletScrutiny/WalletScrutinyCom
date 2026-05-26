@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-25
 website: https://matrix2020.com
-developerName: Matrix Inc
 redirect_from:
 - /android/com.matrix2020.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-27
   version: 1.6.0
   icon: com.matrix2020.app.jpg
+  developerName: Matrix Inc
 
 ---
 

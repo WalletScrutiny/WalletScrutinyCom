@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://picomediacoin.com#deadLink
-developerName: PicoMediaGroup
 redirect_from:
 - /android/com.zeligz.picomedia/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-27
   version: '1.6'
   icon: com.zeligz.picomedia.png
+  developerName: PicoMediaGroup
 
 ---
 

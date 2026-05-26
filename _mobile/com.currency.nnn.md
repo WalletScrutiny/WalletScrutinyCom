@@ -6,7 +6,6 @@ date: 2023-03-31
 authors:
 - danny
 website: https://nnn.am
-developerName: nanaya
 redirect_from:
 - /android/com.currency.nnn/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-04-25
   version: 2.1.0
   icon: com.currency.nnn.png
+  developerName: nanaya
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.plue.io#deadLink
-developerName: Plue Wallet
 redirect_from:
 - /android/com.plue_wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-08-04
   version: 2.4.2
   icon: com.plue_wallet.png
+  developerName: Plue Wallet
 
 ---
 

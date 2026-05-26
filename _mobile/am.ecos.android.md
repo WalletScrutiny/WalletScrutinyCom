@@ -17,9 +17,9 @@ android:
   appId: am.ecos.android
   users: 100000
   released: 2020-09-22
-  updated: 2026-05-18
-  version: 3.1.18
-  reviews: 229
+  updated: 2026-05-21
+  version: 3.1.19
+  reviews: 233
   icon: am.ecos.android.png
   website: https://ecos.am
   developerName: ECOS CJSC
@@ -27,9 +27,9 @@ iphone:
   appId: am.ecos.ios.production
   idd: '1528964374'
   released: 2020-11-25
-  updated: 2026-05-20
-  version: 3.1.18
-  reviews: 230
+  updated: 2026-05-23
+  version: 3.1.19
+  reviews: 231
   icon: am.ecos.ios.production.jpg
   website: https://ecos.am/
   developerName: Ecos am

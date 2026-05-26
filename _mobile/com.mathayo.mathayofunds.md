@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://mathayofunds.com#deadLink
-developerName: MathayoFunds Crypto Trading
 redirect_from:
 - /android/com.mathayo.mathayofunds/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-05
   version: 3.0.0
   icon: com.mathayo.mathayofunds.png
+  developerName: MathayoFunds Crypto Trading
 
 ---
 

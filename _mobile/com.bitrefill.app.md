@@ -11,7 +11,6 @@ twitter: bitrefill
 social:
 - https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
-developerName: Bitrefill
 redirect_from:
 - /com.bitrefill.app/
 - /posts/com.bitrefill.app/
@@ -23,8 +22,10 @@ android:
   released: 2018-04-10
   updated: 2026-05-11
   version: 7.5.0
-  reviews: 281
+  reviews: 282
   icon: com.bitrefill.app.png
+  website: https://www.bitrefill.com
+  developerName: Bitrefill
 iphone:
   appId: com.bitrefill.bitrefill
   idd: 1378102623
@@ -33,6 +34,7 @@ iphone:
   version: 7.5.0
   reviews: 465
   icon: com.bitrefill.bitrefill.jpg
+  developerName: Bitrefill
 
 ---
 

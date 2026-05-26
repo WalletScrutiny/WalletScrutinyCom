@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-03-11
 website: https://kswappay.com#deadLink
-developerName: Kswap Limited
 redirect_from:
 - /android/com.archgroup.kswappay/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2025-11-10
   version: '3.0'
   icon: com.archgroup.kswappay.jpg
+  developerName: Kswap Limited
 
 ---
 

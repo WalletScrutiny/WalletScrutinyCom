@@ -11,7 +11,6 @@ repository: https://github.com/coingrig/coingrig-wallet
 twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/
-developerName: Qubevo
 redirect_from:
 - /android/com.coingrig/
 - /iphone/com.coingrig.app/
@@ -22,6 +21,7 @@ android:
   updated: 2022-06-22
   version: 1.3.11
   icon: com.coingrig.png
+  developerName: Qubevo
 iphone:
   appId: com.coingrig.app
   idd: '1583464451'
@@ -31,6 +31,7 @@ iphone:
   version: 1.3.11
   reviews: 0
   icon: com.coingrig.app.jpg
+  developerName: Qubevo
 
 ---
 

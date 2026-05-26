@@ -8,7 +8,6 @@ authors:
 - danny
 website: http://www.finq.com#deadLink
 twitter: finqcom
-developerName: Leadcapital Corp LTD
 redirect_from:
 - /android/com.finq.android/
 - /iphone/com.trader.finq/
@@ -20,6 +19,7 @@ android:
   version: 2.11.1
   reviews: 5
   icon: com.finq.android.png
+  developerName: Leadcapital Corp LTD
 iphone:
   appId: com.trader.finq
   idd: '1280873475'
@@ -29,6 +29,7 @@ iphone:
   version: '2.8'
   reviews: 40
   icon: com.trader.finq.jpg
+  developerName: Leadcapital Corp LTD
 
 ---
 

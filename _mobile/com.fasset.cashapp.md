@@ -19,7 +19,7 @@ android:
   appId: com.fasset.cashapp
   users: 1000000
   released: 2021-12-14
-  updated: 2026-05-19
+  updated: 2026-05-26
   version: '6.8'
   reviews: 16
   icon: com.fasset.cashapp.png

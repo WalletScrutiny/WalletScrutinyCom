@@ -6,7 +6,6 @@ date: 2023-12-15
 authors:
 - danny
 website: https://rebellionpay.com#deadLink
-developerName: RBLDE Unconventional S.L.
 appCountry: es
 redirect_from:
 - /iphone/com.rebellionpay.app/
@@ -18,6 +17,7 @@ iphone:
   version: 1.11.21
   reviews: 5869
   icon: com.rebellionpay.app.jpg
+  developerName: RBLDE Unconventional S.L.
 
 ---
 

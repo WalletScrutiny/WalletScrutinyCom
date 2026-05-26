@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/corex.mn
 - https://t.me/corexmngroup
 - https://discord.com/invite/smwtpuyWWH
-developerName: Corex LLC
 redirect_from:
 - /android/mn.ailab.corex/
 - /iphone/mn.ailab.corex/
@@ -23,6 +22,7 @@ android:
   version: 2.0.59
   icon: mn.ailab.corex.png
   website: https://www.corex.mn/
+  developerName: Corex LLC
 iphone:
   appId: mn.ailab.corex
   idd: '1600049260'
@@ -33,6 +33,7 @@ iphone:
   reviews: 9
   icon: mn.ailab.corex.jpg
   website: https://www.corexchain.io/?page_id=1479&lang=en
+  developerName: Corex LLC
 
 ---
 

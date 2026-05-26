@@ -6,7 +6,6 @@ date: 2026-01-14
 authors:
 - danny
 website: http://cryptobuy.ae
-developerName: Globals Bank
 redirect_from:
 - /android/info.primesoft.primetime/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 6
   icon: info.primesoft.primetime.jpg
+  developerName: Globals Bank
 
 ---
 

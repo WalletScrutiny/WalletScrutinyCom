@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.bitdax.io
-developerName: BITDAX
 redirect_from:
 - /android/io.bitdax.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-08-19
   version: 1.0.0
   icon: io.bitdax.app.png
+  developerName: BITDAX
 
 ---
 

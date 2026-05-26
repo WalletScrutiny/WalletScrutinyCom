@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://getcoinsafe.app#deadLink
-developerName: Vevsa
 redirect_from:
 - /android/app.getcoinsafe.android/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-16
   version: 0.1.6
   icon: app.getcoinsafe.android.png
+  developerName: Vevsa
 
 ---
 

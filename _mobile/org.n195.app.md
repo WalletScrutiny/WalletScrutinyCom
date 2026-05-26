@@ -3,7 +3,6 @@ title: N195
 verdict: wip
 meta: removed
 date: 2024-04-26
-developerName: URCC PTE. LTD
 redirect_from:
 - /android/org.n195.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-01
   version: 1.0.1
   icon: org.n195.app.png
+  developerName: URCC PTE. LTD
 
 ---
 

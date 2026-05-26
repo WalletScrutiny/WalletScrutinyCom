@@ -2,10 +2,10 @@
 wsId: immuneMessenger
 title: IMMUNE Messenger
 verdict: nosource
+meta: stale
 date: 2023-04-15
 authors:
 - danny
-developerName: IMM Money Messenger Limited
 redirect_from:
 - /android/im.immune.app/
 - /iphone/im.immune.app/
@@ -18,6 +18,7 @@ android:
   icon: im.immune.app.png
   meta: stale
   website: https://imm.app/
+  developerName: IMM Money Messenger Limited
 iphone:
   appId: im.immune.app
   idd: '1489335158'
@@ -29,6 +30,7 @@ iphone:
   icon: im.immune.app.jpg
   meta: ok
   website: https://immune.im/
+  developerName: IMM Money Messenger Limited
 
 ---
 

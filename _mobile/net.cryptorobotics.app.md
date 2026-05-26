@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://cryptorobotics.co
-developerName: CryptoRobotics Limited
 redirect_from:
 - /android/net.cryptorobotics.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-10-07
   version: '1.0'
   icon: net.cryptorobotics.app.png
+  developerName: CryptoRobotics Limited
 
 ---
 

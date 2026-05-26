@@ -22,6 +22,7 @@ android:
   version: 2.1.53
   reviews: 2574
   icon: com.bitlo.bitloandroid.png
+  website: https://www.bitlo.com/
   developerName: Bitlo Teknoloji A.Ş.
 iphone:
   appId: com.bitlo

@@ -39,8 +39,9 @@ android:
   reviews: 1153
   icon: com.mycelium.wallet.jpg
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-  repository: https://github.com/mycelium-com/wallet-android
+  website: https://wallet.mycelium.com
   developerName: Mycelium Developers
+  repository: https://github.com/mycelium-com/wallet-android
   bitcoinOrgId: mycelium
 iphone:
   appId: com.mycelium.wallet-ios
@@ -50,8 +51,8 @@ iphone:
   version: '2.7'
   reviews: 2
   icon: com.mycelium.wallet-ios.jpg
-  repository: https://github.com/mycelium-com/wallet-ios
   developerName: MRD X-Change GmbH
+  repository: https://github.com/mycelium-com/wallet-ios
 
 ---
 

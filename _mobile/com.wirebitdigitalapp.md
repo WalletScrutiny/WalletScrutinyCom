@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/wirebitdigital
 - https://www.instagram.com/wirebitdigital
 - https://www.linkedin.com/company/wirebit-oficial
-developerName: Wirebit S.A. de C.V.
 redirect_from:
 - /android/com.wirebitdigitalapp/
 - /iphone/wirebit.digital.app/
@@ -22,6 +21,7 @@ android:
   icon: com.wirebitdigitalapp.png
   meta: removed
   website: https://wirebit.com/
+  developerName: Wirebit S.A. de C.V.
 iphone:
   appId: wirebit.digital.app
   idd: '1563970813'
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: wirebit.digital.app.jpg
   meta: obsolete
+  developerName: Wirebit S.A. de C.V.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://fluttermarket.com/view/flutter-crypto-app-theme
-developerName: GeekyAnts
 redirect_from:
 - /android/com.geekyants.fluttercryptocurrency/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-04-30
   version: 1.0.0
   icon: com.geekyants.fluttercryptocurrency.png
+  developerName: GeekyAnts
 
 ---
 

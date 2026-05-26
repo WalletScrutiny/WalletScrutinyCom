@@ -6,7 +6,6 @@ date: 2026-01-06
 authors:
 - danny
 website: https://www.split-loyalty.com
-developerName: Feed Incorporated
 appCountry: us
 redirect_from:
 - /iphone/com.splitloyalty.app.Split-Rewards/
@@ -18,6 +17,7 @@ iphone:
   version: 4.3.1
   reviews: 2
   icon: com.splitloyalty.app.Split-Rewards.jpg
+  developerName: Feed Incorporated
 
 ---
 

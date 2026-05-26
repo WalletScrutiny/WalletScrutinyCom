@@ -17,7 +17,6 @@ social:
 features:
 - foss
 - ln
-developerName: BitPay, Inc.
 redirect_from:
 - /bitpay/
 - /com.bitpay.wallet/
@@ -34,6 +33,8 @@ android:
   reviews: 2301
   icon: com.bitpay.wallet.png
   verdict: sourceavailable
+  website: https://bitpay.com
+  developerName: BitPay, Inc.
   bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 iphone:
   appId: com.bitpay.wallet
@@ -44,6 +45,7 @@ iphone:
   reviews: 3520
   icon: com.bitpay.wallet.jpg
   verdict: wip
+  developerName: BitPay, Inc.
 
 ---
 

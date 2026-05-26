@@ -18,7 +18,6 @@ features:
 - multiSig
 - ownFullNode
 - ownLN
-developerName: Denton LLC
 redirect_from:
 - /iphone/com.fontaine.FullyNoded/
 iphone:
@@ -29,6 +28,7 @@ iphone:
   version: 2.3.1
   reviews: 48
   icon: com.fontaine.FullyNoded.jpg
+  developerName: Denton LLC
 
 ---
 

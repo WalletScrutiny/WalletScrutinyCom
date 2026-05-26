@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://wallet.coremultichain.com/
-developerName: CORE Technology
 redirect_from:
 - /android/com.corewallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   reviews: 1
   icon: com.corewallet.png
+  developerName: CORE Technology
 
 ---
 

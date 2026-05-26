@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://www.365excoin.com#deadLink
-developerName: 365EX LTD.
 redirect_from:
 - /android/com.chainup.exchange.exchange365/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-27
   version: 5.5.0_push_v2
   icon: com.chainup.exchange.exchange365.png
+  developerName: 365EX LTD.
 
 ---
 

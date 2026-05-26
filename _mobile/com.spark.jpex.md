@@ -8,7 +8,6 @@ authors:
 - danny
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
-developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 appCountry: jp
 redirect_from:
 - /android/com.spark.jpex/
@@ -21,6 +20,7 @@ android:
   version: 2.83.848
   icon: com.spark.jpex.jpg
   website: http://jp-ex.io
+  developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
   twitter: ExchangeJpex
 iphone:
   appId: io.jp-ex.iosapp2
@@ -31,6 +31,7 @@ iphone:
   reviews: 4
   icon: io.jp-ex.iosapp2.jpg
   website: https://jp-ex.io/
+  developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---
 

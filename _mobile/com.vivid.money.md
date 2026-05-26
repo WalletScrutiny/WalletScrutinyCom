@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2024-10-07
 website: https://vivid.money/en-de
-developerName: Vivid Money GmbH
 appCountry: jp
 redirect_from:
 - /iphone/com.vivid.money/
@@ -16,6 +15,7 @@ iphone:
   version: 4.28.0
   reviews: 17
   icon: com.vivid.money.jpg
+  developerName: Vivid Money GmbH
 
 ---
 

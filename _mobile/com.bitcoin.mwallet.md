@@ -30,12 +30,12 @@ android:
   users: 10000000
   released: 2017-06-19
   updated: 2026-05-20
-  version: 9.21.1
-  reviews: 4125
+  version: 9.22.1
+  reviews: 4130
   icon: com.bitcoin.mwallet.png
   website: https://www.bitcoin.com
-  repository: https://github.com/Bitcoin-com/Wallet
   developerName: Bitcoin.com Developer
+  repository: https://github.com/Bitcoin-com/Wallet
 iphone:
   appId: com.bitcoin.mwallet
   idd: '1252903728'

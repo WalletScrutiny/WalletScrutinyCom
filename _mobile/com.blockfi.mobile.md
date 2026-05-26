@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/blockfi
 - https://www.facebook.com/BlockFi
 - https://www.reddit.com/r/blockfi
-developerName: BlockFi
 redirect_from:
 - /android/com.blockfi.mobile/
 - /iphone/com.blockfi.mobile/
@@ -22,6 +21,7 @@ android:
   reviews: 1544
   icon: com.blockfi.mobile.png
   verdict: custodial
+  developerName: BlockFi
   twitter: BlockFi
 iphone:
   appId: com.blockfi.mobile
@@ -32,6 +32,7 @@ iphone:
   reviews: 1295
   icon: com.blockfi.mobile.jpg
   verdict: wip
+  developerName: BlockFi
 
 ---
 

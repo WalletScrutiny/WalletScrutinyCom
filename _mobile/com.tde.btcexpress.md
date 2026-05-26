@@ -3,7 +3,6 @@ title: BTC Express
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Tde srl
 redirect_from:
 - /android/com.tde.btcexpress/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-17
   version: '1.1'
   icon: com.tde.btcexpress.png
+  developerName: Tde srl
 
 ---
 

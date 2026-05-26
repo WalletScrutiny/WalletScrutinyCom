@@ -3,7 +3,6 @@ title: DTCWallet
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: Digital Treasures Center
 redirect_from:
 - /android/com.dtcwallet.dtcwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-04-20
   version: 1.9.20
   icon: com.dtcwallet.dtcwallet.png
+  developerName: Digital Treasures Center
 
 ---
 

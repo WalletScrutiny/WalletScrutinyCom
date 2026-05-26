@@ -6,7 +6,6 @@ date: 2023-12-14
 authors:
 - danny
 website: https://copay.io
-developerName: BitPay, Inc.
 appCountry: us
 redirect_from:
 - /iphone/com.bitpay.copay/
@@ -18,6 +17,7 @@ iphone:
   version: 12.5.6
   reviews: 181
   icon: com.bitpay.copay.jpg
+  developerName: BitPay, Inc.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: https://albit.live#deadLink
-developerName: Webzoft Web solution
 redirect_from:
 - /android/com.app.alcoin4naira/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-04
   version: '1.0'
   icon: com.app.alcoin4naira.png
+  developerName: Webzoft Web solution
 
 ---
 

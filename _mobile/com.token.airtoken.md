@@ -6,7 +6,6 @@ date: 2023-06-03
 authors:
 - danny
 website: https://airtokenwallet.com#deadLink
-developerName: Air Token
 redirect_from:
 - /android/com.token.airtoken/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-07-11
   version: 1.0.18
   icon: com.token.airtoken.png
+  developerName: Air Token
 
 ---
 

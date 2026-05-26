@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://ihodl.com
-developerName: GOZO Ltd
 redirect_from:
 - /android/com.gozo.client/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-01-11
   version: 4.39.8
   icon: com.gozo.client.png
+  developerName: GOZO Ltd
 
 ---
 

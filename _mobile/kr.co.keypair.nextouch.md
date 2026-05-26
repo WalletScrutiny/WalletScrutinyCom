@@ -4,7 +4,6 @@ verdict: nosource
 meta: removed
 date: 2024-10-19
 website: http://www.eunex.co
-developerName: Keypair Co., Ltd.
 redirect_from:
 - /android/kr.co.keypair.nextouch/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-22
   version: 1.0.0.57
   icon: kr.co.keypair.nextouch.png
+  developerName: Keypair Co., Ltd.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-31
 website: https://kumo.africa
-developerName: Kumo Africa
 redirect_from:
 - /android/kumo.africa/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-04-25
   version: 8.0.0
   icon: kumo.africa.jpg
+  developerName: Kumo Africa
 
 ---
 

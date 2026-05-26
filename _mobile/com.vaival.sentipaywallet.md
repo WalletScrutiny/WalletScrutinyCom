@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-01-02
 website: http://www.sentipaywallet.com
-developerName: Abdullah Choonara LLC
 redirect_from:
 - /android/com.vaival.sentipaywallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-31
   version: '1.0'
   icon: com.vaival.sentipaywallet.png
+  developerName: Abdullah Choonara LLC
 
 ---
 

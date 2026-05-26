@@ -6,7 +6,6 @@ meta: ok
 date: 2026-05-01
 authors:
 - danny
-developerName: Rubicoin Software Company OU
 redirect_from:
 - /android/ua.rubicon.crypto.wallet/
 - /iphone/money.rubicoin.wallet/
@@ -18,6 +17,7 @@ android:
   version: 1.5.4
   icon: ua.rubicon.crypto.wallet.png
   website: https://rubicoin.money
+  developerName: Rubicoin Software Company OU
 iphone:
   appId: money.rubicoin.wallet
   idd: '1669771187'
@@ -27,6 +27,7 @@ iphone:
   version: 1.5.4
   reviews: 16
   icon: money.rubicoin.wallet.jpg
+  developerName: Rubicoin Software Company OU
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://ecotx.io#deadLink
-developerName: ECOTX L.L.C
 redirect_from:
 - /android/com.ecotx.platform/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-04
   version: VARY
   icon: com.ecotx.platform.png
+  developerName: ECOTX L.L.C
 
 ---
 

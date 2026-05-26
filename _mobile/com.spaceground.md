@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-30
 website: https://www.spaceground.io#deadLink
-developerName: Spaceground
 redirect_from:
 - /android/com.spaceground/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-07-10
   version: 1.0.30
   icon: com.spaceground.png
+  developerName: Spaceground
 
 ---
 

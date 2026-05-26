@@ -13,7 +13,6 @@ features:
 - fingerprint
 - foss
 - camera
-developerName: Hodlers Team
 redirect_from:
 - /android/com.bitorzo.wallet/
 android:
@@ -24,6 +23,7 @@ android:
   updated: 2021-01-03
   version: 3.1.3
   icon: com.bitorzo.wallet.jpg
+  developerName: Hodlers Team
 
 ---
 

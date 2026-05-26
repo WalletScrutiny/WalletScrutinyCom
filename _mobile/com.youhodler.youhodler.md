@@ -10,7 +10,6 @@ twitter: youhodler
 social:
 - https://www.linkedin.com/company/youhodler
 - https://www.facebook.com/YouHodler
-developerName: YouHodler
 redirect_from:
 - /com.youhodler.youhodler/
 - /posts/com.youhodler.youhodler/
@@ -25,6 +24,7 @@ android:
   reviews: 117
   icon: com.youhodler.youhodler.png
   website: https://youhodler.com
+  developerName: YouHodler
 iphone:
   appId: com.youhodler.youhodler
   idd: 1469351696
@@ -35,6 +35,7 @@ iphone:
   reviews: 11
   icon: com.youhodler.youhodler.jpg
   website: https://www.youhodler.com/
+  developerName: YouHodler
 
 ---
 

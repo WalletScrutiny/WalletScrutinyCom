@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-01-02
 website: https://www.suncapital.lk
-developerName: Sun Capital International
 redirect_from:
 - /android/lk.suncapital.chp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-22
   version: 1.0.10
   icon: lk.suncapital.chp.png
+  developerName: Sun Capital International
 
 ---
 

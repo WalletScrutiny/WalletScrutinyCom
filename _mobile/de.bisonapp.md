@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/bison-app
 - https://www.facebook.com/bisonapp
 - https://www.instagram.com/bisonapp
-developerName: Boerse Stuttgart Digital Broker GmbH
 redirect_from:
 - /android/de.bisonapp/
 - /iphone/com.bisonapp.bison/
@@ -23,6 +22,7 @@ android:
   reviews: 2
   icon: de.bisonapp.png
   website: https://bisonapp.com
+  developerName: Boerse Stuttgart Digital Broker GmbH
 iphone:
   appId: com.bisonapp.bison
   idd: '1362518159'
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: com.bisonapp.bison.jpg
   website: https://bisonapp.com/
+  developerName: Boerse Stuttgart Digital Broker GmbH
 
 ---
 

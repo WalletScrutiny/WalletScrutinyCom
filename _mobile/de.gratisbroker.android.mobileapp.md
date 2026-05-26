@@ -10,7 +10,6 @@ twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
-developerName: finanzen.net zero GmbH
 redirect_from:
 - /android/de.gratisbroker.android.mobileapp/
 - /iphone/de.gratisbroker.ios.mobileapp/
@@ -23,6 +22,7 @@ android:
   reviews: 8
   icon: de.gratisbroker.android.mobileapp.png
   website: https://www.finanzen.net/zero
+  developerName: finanzen.net zero GmbH
 iphone:
   appId: de.gratisbroker.ios.mobileapp
   idd: '1556711130'
@@ -33,6 +33,7 @@ iphone:
   reviews: 24659
   icon: de.gratisbroker.ios.mobileapp.jpg
   website: https://www.finanzen.net/zero/
+  developerName: finanzen.net zero GmbH
 
 ---
 

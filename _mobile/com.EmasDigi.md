@@ -6,17 +6,18 @@ date: 2021-08-21
 authors:
 - danny
 website: https://pluang.com
-developerName: pluang
 redirect_from:
 - /android/com.EmasDigi/
 android:
   appId: com.EmasDigi
   users: 5000000
   released: 2018-01-21
-  updated: 2026-05-02
-  version: 7.2.2
+  updated: 2026-05-24
+  version: 7.2.4
   reviews: 123
   icon: com.EmasDigi.png
+  website: https://pluang.com
+  developerName: pluang
 
 ---
 

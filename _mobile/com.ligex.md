@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://ligex.exchange#deadLink
-developerName: LIGEX EXCHANGE
 redirect_from:
 - /android/com.ligex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-05
   version: '1.3'
   icon: com.ligex.png
+  developerName: LIGEX EXCHANGE
 
 ---
 

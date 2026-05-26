@@ -6,7 +6,6 @@ date: 2023-04-19
 authors:
 - danny
 website: https://web.archive.org/web/20250624214402/https://genbit.com.br/
-developerName: TreePart HDN
 redirect_from:
 - /android/br.com.treepart.genbit/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-11-16
   version: '1.2'
   icon: br.com.treepart.genbit.jpg
+  developerName: TreePart HDN
 
 ---
 

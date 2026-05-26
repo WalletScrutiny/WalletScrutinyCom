@@ -12,7 +12,6 @@ twitter: ownrwallet
 social:
 - https://www.facebook.com/ownrwallet
 - https://www.reddit.com/r/ownrwallet
-developerName: OWNR WALLET OU
 redirect_from:
 - /com.ownrwallet.wallet/
 - /android/com.ownrwallet.wallet/
@@ -25,6 +24,8 @@ android:
   version: 1.72.0
   reviews: 107
   icon: com.ownrwallet.wallet.png
+  website: https://ownrwallet.com
+  developerName: OWNR WALLET OU
 iphone:
   appId: com.ownrwallet.wallet
   idd: '1459364947'
@@ -34,6 +35,7 @@ iphone:
   version: 1.71.1
   reviews: 115
   icon: com.ownrwallet.wallet.jpg
+  developerName: OWNR WALLET OU
 
 ---
 

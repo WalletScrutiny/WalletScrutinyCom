@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://www.proof.la/
-developerName: Klickl Global LLC
 redirect_from:
 - /android/com.idcg.idcw.dz/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2024-05-15
   version: 5.4.9
   icon: com.idcg.idcw.dz.png
+  developerName: Klickl Global LLC
 
 ---
 

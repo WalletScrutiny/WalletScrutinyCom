@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://www.coinsher.com/
-developerName: Solidray
 redirect_from:
 - /android/com.coinsher.coinsherapp/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.5.2
   reviews: 9
   icon: com.coinsher.coinsherapp.png
+  website: https://www.coinsher.com/
+  developerName: Solidray
 
 ---
 

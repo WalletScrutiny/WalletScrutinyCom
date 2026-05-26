@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2017-04-05
-  updated: 2026-05-19
-  version: 3.3.1
+  updated: 2026-05-23
+  version: 3.3.2
   reviews: 39
   icon: giniapps.easymarkets.com.png
   website: https://www.easymarkets.com/

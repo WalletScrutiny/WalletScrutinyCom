@@ -9,7 +9,6 @@ website: https://fbs.com/
 twitter: financefreedomsuccess
 social:
 - https://www.facebook.com/financefreedomsuccess
-developerName: FBS.com
 redirect_from:
 - /android/com.fbs.tpand/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.58.6
   reviews: 78
   icon: com.fbs.tpand.png
+  developerName: FBS.com
 
 ---
 

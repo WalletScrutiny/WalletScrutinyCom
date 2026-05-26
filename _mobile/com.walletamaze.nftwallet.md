@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/amazewallet
 - https://t.me/OfficialAmazeWallet
 - https://discord.com/invite/zBMgvBvYUe
-developerName: AmazeWallet
 redirect_from:
 - /android/com.walletamaze.nftwallet/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.1.8
   reviews: 1
   icon: com.walletamaze.nftwallet.png
+  developerName: AmazeWallet
 
 ---
 

@@ -14,7 +14,6 @@ social:
 - https://www.linkedin.com/company/coinpass/
 features:
 - ln
-developerName: Oanda Coinpass Limited
 redirect_from:
 - /android/com.coinpassmobile/
 - /iphone/com.coinpasslimited.coinpassinstant/
@@ -25,6 +24,7 @@ android:
   version: 3.15.1-coinpass
   icon: com.coinpassmobile.png
   website: https://www.coinpass.com/
+  developerName: Oanda Coinpass Limited
 iphone:
   appId: com.coinpasslimited.coinpassinstant
   idd: '1530358553'
@@ -35,6 +35,7 @@ iphone:
   reviews: 18
   icon: com.coinpasslimited.coinpassinstant.jpg
   website: https://coinpass.com/
+  developerName: Oanda Coinpass Limited
 
 ---
 

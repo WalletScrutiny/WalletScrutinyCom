@@ -13,7 +13,6 @@ features:
 - buyWithCC
 - ln
 - nfc
-developerName: CoinCorner Ltd
 redirect_from:
 - /android/com.coincorner.app.crypt/
 - /iphone/com.coincorner.app.crypt/
@@ -26,6 +25,7 @@ android:
   reviews: 5
   icon: com.coincorner.app.crypt.png
   meta: removed
+  developerName: CoinCorner Ltd
 iphone:
   appId: com.coincorner.app.crypt
   idd: 917721788
@@ -36,6 +36,7 @@ iphone:
   reviews: 309
   icon: com.coincorner.app.crypt.jpg
   meta: ok
+  developerName: CoinCorner Ltd
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://ajaxcash.com#deadLink
-developerName: Ajax Fintech Limited
 redirect_from:
 - /android/com.ajaxcash.ajc/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-29
   version: '10.03'
   icon: com.ajaxcash.ajc.png
+  developerName: Ajax Fintech Limited
 
 ---
 

@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - leo
 website: https://www.bitholic.com
-developerName: RDMCHAIN.pte.ltd.
 redirect_from:
 - /com.bitholic.rdmchain.bitholic/
 - /posts/com.bitholic.rdmchain.bitholic/
@@ -18,6 +17,7 @@ android:
   updated: 2021-08-02
   version: 1.1.1
   icon: com.bitholic.rdmchain.bitholic.png
+  developerName: RDMCHAIN.pte.ltd.
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://finn.exchange#deadLink
-developerName: Limewheels.com
 redirect_from:
 - /android/com.finnswap.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-14
   version: '1.0'
   icon: com.finnswap.app.png
+  developerName: Limewheels.com
 
 ---
 

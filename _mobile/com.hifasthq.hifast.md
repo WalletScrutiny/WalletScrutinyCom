@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-03
 website: https://hifast.io
-developerName: HiFast
 redirect_from:
 - /android/com.hifasthq.hifast/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-11-15
   version: 1.0.3
   icon: com.hifasthq.hifast.png
+  developerName: HiFast
 
 ---
 

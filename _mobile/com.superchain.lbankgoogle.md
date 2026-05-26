@@ -20,7 +20,7 @@ android:
   released: 2020-05-08
   updated: 2026-05-17
   version: 7.9.7
-  reviews: 685
+  reviews: 686
   icon: com.superchain.lbankgoogle.png
   website: https://www.lbank.com
   developerName: LBank

@@ -11,7 +11,6 @@ social:
 - https://t.me/xeggex
 - https://www.reddit.com/r/XeggexTalk
 - https://discord.com/invite/HPC2HH9UkQ
-developerName: Dokdo
 redirect_from:
 - /android/com.xeggex.wallet/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2022-07-12
   version: 1.0.0
   icon: com.xeggex.wallet.jpg
+  developerName: Dokdo
 
 ---
 

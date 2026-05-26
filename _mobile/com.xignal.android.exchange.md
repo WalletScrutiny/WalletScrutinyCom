@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://xignalex.com#deadLink
-developerName: xignal
 redirect_from:
 - /android/com.xignal.android.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-05
   version: 1.0.6
   icon: com.xignal.android.exchange.png
+  developerName: xignal
 
 ---
 

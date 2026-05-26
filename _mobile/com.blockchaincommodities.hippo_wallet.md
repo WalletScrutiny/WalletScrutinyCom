@@ -19,7 +19,6 @@ social:
 - https://medium.com/@hippowallet
 features:
 - fingerprint
-developerName: Blockchain Commodities
 redirect_from:
 - /android/com.blockchaincommodities.hippo_wallet/
 - /iphone/com.blockchaincommodities.hippoWallet/
@@ -32,6 +31,7 @@ android:
   reviews: 17
   icon: com.blockchaincommodities.hippo_wallet.png
   website: https://hippowallet.io/
+  developerName: Blockchain Commodities
 iphone:
   appId: com.blockchaincommodities.hippoWallet
   idd: '1613041499'
@@ -42,6 +42,7 @@ iphone:
   reviews: 10
   icon: com.blockchaincommodities.hippoWallet.jpg
   website: https://hippowallet.io
+  developerName: Blockchain Commodities
 
 ---
 

@@ -9,7 +9,6 @@ website: https://elegro.eu/
 twitter: NikoTech
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
-developerName: Niko Technologies
 redirect_from:
 - /paydeepp.elegro.io/
 - /posts/paydeepp.elegro.io/
@@ -18,10 +17,12 @@ android:
   appId: paydeepp.elegro.io
   users: 10000
   released: 2018-11-09
-  updated: 2026-05-13
-  version: 5.5.0
+  updated: 2026-05-21
+  version: 5.5.1
   reviews: 1
   icon: paydeepp.elegro.io.jpg
+  website: https://elegro.eu/
+  developerName: Niko Technologies
 
 ---
 

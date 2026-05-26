@@ -13,7 +13,6 @@ social:
 - https://github.com/haladinar
 - https://t.me/haladinar
 - https://www.linkedin.com/in/haladinar-marketplace-999935171/
-developerName: Haladinar
 redirect_from:
 - /android/com.haladinarwallet/
 android:
@@ -24,6 +23,7 @@ android:
   version: 1.0.13
   reviews: 4
   icon: com.haladinarwallet.png
+  developerName: Haladinar
 
 ---
 

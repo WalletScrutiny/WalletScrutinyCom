@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://360tradehub.com#deadLink
-developerName: 360TradeHub  Limited
 redirect_from:
 - /android/com.tradehub360/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-06-13
   version: 2.0.70
   icon: com.tradehub360.png
+  developerName: 360TradeHub  Limited
 
 ---
 

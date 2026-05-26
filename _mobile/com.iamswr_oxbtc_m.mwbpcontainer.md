@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.oxbtc.com
 twitter: oxbitcoin
-developerName: HALLEY TECHNOLOGIES PTE. ltd.
 redirect_from:
 - /android/com.iamswr_oxbtc_m.mwbpcontainer/
 android:
@@ -18,6 +17,7 @@ android:
   version: 1.3.8
   reviews: 9
   icon: com.iamswr_oxbtc_m.mwbpcontainer.png
+  developerName: HALLEY TECHNOLOGIES PTE. ltd.
 
 ---
 

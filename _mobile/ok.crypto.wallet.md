@@ -3,7 +3,6 @@ title: OK Wallet-Bitcoin & Altcoin Cr
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Gerald H
 redirect_from:
 - /android/ok.crypto.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-09-21
   version: 1.0.0
   icon: ok.crypto.wallet.png
+  developerName: Gerald H
 
 ---
 

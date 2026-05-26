@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://bullionblock.ltd
-developerName: BullionBlock
 redirect_from:
 - /android/com.chat.bullionblock/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-14
   version: '1.3'
   icon: com.chat.bullionblock.png
+  developerName: BullionBlock
 
 ---
 

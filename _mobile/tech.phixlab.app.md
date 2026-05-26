@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://fargomine.com#deadLink
-developerName: Ijezie Emmanuel
 redirect_from:
 - /android/tech.phixlab.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-06-12
   version: '1.0'
   icon: tech.phixlab.app.png
+  developerName: Ijezie Emmanuel
 
 ---
 

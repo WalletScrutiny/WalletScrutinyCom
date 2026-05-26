@@ -3,7 +3,6 @@ title: cWallet
 verdict: wip
 meta: removed
 date: 2024-10-31
-developerName: JimHeApps
 redirect_from:
 - /android/jha.cwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-30
   version: 1.0.5
   icon: jha.cwallet.png
+  developerName: JimHeApps
 
 ---
 

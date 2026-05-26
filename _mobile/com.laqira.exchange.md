@@ -11,7 +11,6 @@ social:
 - https://www.reddit.com/user/laqiraprotocol
 - https://t.me/laqira_official
 - https://www.linkedin.com/in/laqira-protocol-295a6b222
-developerName: Laqira Protocol
 redirect_from:
 - /android/com.laqira.exchange/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2023-03-03
   version: 3.2.2
   icon: com.laqira.exchange.png
+  website: https://laqira.com/
+  developerName: Laqira Protocol
 
 ---
 

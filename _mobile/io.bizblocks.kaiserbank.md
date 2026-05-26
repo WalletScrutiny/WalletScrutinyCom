@@ -6,7 +6,6 @@ date: 2023-08-17
 authors:
 - danny
 website: https://bizblocks.io
-developerName: Bizblocks
 redirect_from:
 - /android/io.bizblocks.kaiserbank/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-10-23
   version: 0.30.27
   icon: io.bizblocks.kaiserbank.png
+  developerName: Bizblocks
 
 ---
 

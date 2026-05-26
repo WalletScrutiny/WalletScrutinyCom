@@ -6,7 +6,6 @@ date: 2023-09-04
 authors:
 - danny
 website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt#deadLink
-developerName: sресtrum, l.l.С.
 redirect_from:
 - /android/com.decentralized.earth/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2023-03-18
   version: 2.19.3
   icon: com.decentralized.earth.png
+  developerName: sресtrum, l.l.С.
 
 ---
 

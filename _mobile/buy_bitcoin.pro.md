@@ -6,7 +6,6 @@ date: 2023-05-09
 authors:
 - danny
 website: https://buy-bitcoin.pro
-developerName: AndreyAKor
 redirect_from:
 - /android/buy_bitcoin.pro/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-05-19
   version: 1.0.9
   icon: buy_bitcoin.pro.png
+  developerName: AndreyAKor
 
 ---
 

@@ -10,7 +10,6 @@ twitter: ILC_B_Project
 social:
 - https://www.facebook.com/ILCoinBlockchainProject
 - https://www.reddit.com/r/ILCoin
-developerName: ILCOIN Dev Team
 redirect_from:
 - /ilcbtc.wallet/
 - /posts/ilcbtc.wallet/
@@ -22,6 +21,8 @@ android:
   updated: 2025-08-29
   version: '4.35'
   icon: ilcbtc.wallet.png
+  website: https://www.ilcoincrypto.com/
+  developerName: ILCOIN Dev Team
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: stormgain
 title: 'StormGain: Bitcoin & Crypto'
 verdict: custodial
+meta: stale
 date: 2023-09-28
 authors:
 - leo

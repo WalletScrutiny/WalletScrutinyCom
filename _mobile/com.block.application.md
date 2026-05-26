@@ -9,7 +9,6 @@ authors:
 twitter: uollar_io
 social:
 - https://www.instagram.com/uollar_io
-developerName: UOLLAR PTY LTD
 redirect_from:
 - /android/com.block.application/
 - /iphone/com.lh2424.uollar/
@@ -21,6 +20,7 @@ android:
   version: 2.4.40
   reviews: 5
   icon: com.block.application.png
+  developerName: UOLLAR PTY LTD
 iphone:
   appId: com.lh2424.uollar
   idd: '1614125568'
@@ -31,6 +31,7 @@ iphone:
   reviews: 1
   icon: com.lh2424.uollar.jpg
   website: http://uollar.io/policy
+  developerName: UOLLAR PTY LTD
 
 ---
 

@@ -13,8 +13,8 @@ android:
   appId: coin.ajaib.co.id
   users: 1000000
   released: 2022-07-15
-  updated: 2026-05-13
-  version: 2.97.1
+  updated: 2026-05-21
+  version: 2.98.0
   reviews: 39
   icon: coin.ajaib.co.id.png
   website: https://kripto.ajaib.co.id/
@@ -24,9 +24,9 @@ iphone:
   idd: '1634168301'
   appCountry: id
   released: 2022-08-16
-  updated: 2026-05-08
-  version: 2.97.0
-  reviews: 3790
+  updated: 2026-05-21
+  version: 2.98.0
+  reviews: 3815
   icon: id.ajaib-coin.co.jpg
   website: https://ajaib.co.id/
   developerName: Ajaib Technologies Corporation

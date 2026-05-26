@@ -3,7 +3,6 @@ title: Crypto Advantage Mobile
 verdict: wip
 meta: removed
 date: 2023-01-02
-developerName: DuplicationSoft
 redirect_from:
 - /android/com.cryptoadvantagemobile/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-09-08
   version: 1.2.1
   icon: com.cryptoadvantagemobile.png
+  developerName: DuplicationSoft
 
 ---
 

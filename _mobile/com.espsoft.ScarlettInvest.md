@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://scarlettglobal.io
-developerName: Barry Moore
 redirect_from:
 - /android/com.espsoft.ScarlettInvest/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-07
   version: '1.20'
   icon: com.espsoft.ScarlettInvest.png
+  developerName: Barry Moore
 
 ---
 

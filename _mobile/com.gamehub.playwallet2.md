@@ -6,7 +6,6 @@ date: 2023-05-25
 authors:
 - danny
 website: http://www.playwallet.io#deadLink
-developerName: GAMEHUB
 redirect_from:
 - /android/com.gamehub.playwallet2/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-04-08
   version: 2.0.6
   icon: com.gamehub.playwallet2.png
+  developerName: GAMEHUB
 
 ---
 

@@ -22,8 +22,8 @@ android:
   reviews: 30
   icon: com.holdings.choice.png
   website: https://www.choiceapp.io/
-  twitter: choicebyKT
   developerName: Choice IRA
+  twitter: choicebyKT
 iphone:
   appId: com.holdings.choice
   idd: '1563472237'

@@ -10,7 +10,6 @@ twitter: m2exchange
 social:
 - https://www.linkedin.com/company/m2-investment
 - https://www.instagram.com/m2exchange
-developerName: M2 Investments Limited
 redirect_from:
 - /android/com.m2.exchange/
 - /iphone/com.m2.exchange/
@@ -21,6 +20,7 @@ android:
   version: 5.21.1
   icon: com.m2.exchange.png
   website: http://m2.com
+  developerName: M2 Investments Limited
 iphone:
   appId: com.m2.exchange
   idd: '6446392999'
@@ -31,6 +31,7 @@ iphone:
   reviews: 71
   icon: com.m2.exchange.jpg
   website: https://www.m2.com/
+  developerName: M2 Investments Limited
 
 ---
 

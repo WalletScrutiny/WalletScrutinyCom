@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://blofin.com
 twitter: Blofin_Official
-developerName: Blofin Inc.
 redirect_from:
 - /android/com.blofin.android/
 - /iphone/com.blofin.app/
@@ -20,6 +19,8 @@ android:
   version: 3.30.0
   reviews: 117
   icon: com.blofin.android.png
+  website: https://blofin.com
+  developerName: Blofin Inc.
 iphone:
   appId: com.blofin.app
   idd: '1616804346'
@@ -29,6 +30,7 @@ iphone:
   version: 3.30.0
   reviews: 1389
   icon: com.blofin.app.jpg
+  developerName: Blofin Inc.
 
 ---
 

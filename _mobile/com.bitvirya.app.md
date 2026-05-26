@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://bitvirya.com#deadLink
-developerName: Profit Oak
 redirect_from:
 - /android/com.bitvirya.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-20
   version: '1.0'
   icon: com.bitvirya.app.png
+  developerName: Profit Oak
 
 ---
 

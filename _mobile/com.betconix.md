@@ -9,7 +9,6 @@ website: https://betconix.com/
 twitter: betconix
 social:
 - https://www.facebook.com/GNBetconixSTOU
-developerName: GN Betconix ST s.r.o.
 redirect_from:
 - /android/com.betconix/
 android:
@@ -20,6 +19,7 @@ android:
   version: '6.7'
   reviews: 2
   icon: com.betconix.png
+  developerName: GN Betconix ST s.r.o.
 
 ---
 

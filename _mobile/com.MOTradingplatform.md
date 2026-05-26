@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://web.archive.org/web/20230607060147/http://1minuteoptions.com/
-developerName: 1minuteoptions
 redirect_from:
 - /android/com.MOTradingplatform/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-08-07
   version: 1.0.1
   icon: com.MOTradingplatform.png
+  developerName: 1minuteoptions
 
 ---
 

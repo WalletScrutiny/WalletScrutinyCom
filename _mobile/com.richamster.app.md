@@ -10,7 +10,6 @@ twitter: Richamster_com
 social:
 - https://www.facebook.com/richamstercom
 - https://t.me/richamster_chat
-developerName: Richamster
 redirect_from:
 - /android/com.richamster.app/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2023-07-12
   version: 3.2.2
   icon: com.richamster.app.png
+  developerName: Richamster
 
 ---
 

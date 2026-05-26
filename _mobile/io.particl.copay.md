@@ -8,7 +8,6 @@ authors:
 website: https://particl.io
 repository: https://github.com/particl/copay
 twitter: ParticlProject
-developerName: Particl Foundation
 redirect_from:
 - /android/io.particl.copay/
 android:
@@ -19,6 +18,7 @@ android:
   version: 5.5.1
   reviews: 17
   icon: io.particl.copay.png
+  developerName: Particl Foundation
 
 ---
 

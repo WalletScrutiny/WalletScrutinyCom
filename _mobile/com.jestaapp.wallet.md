@@ -6,7 +6,6 @@ date: 2023-07-18
 authors:
 - danny
 website: https://burtar.com#deadLink
-developerName: GGTC GLOBAL
 redirect_from:
 - /android/com.jestaapp.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: '2.0'
   reviews: 60
   icon: com.jestaapp.wallet.png
+  developerName: GGTC GLOBAL
 
 ---
 

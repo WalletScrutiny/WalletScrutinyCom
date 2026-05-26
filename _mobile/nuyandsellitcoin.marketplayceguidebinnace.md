@@ -6,7 +6,6 @@ date: 2023-09-15
 authors:
 - danny
 website: https://markouscraff.blogspot.com/
-developerName: Lil99Campbell
 redirect_from:
 - /android/nuyandsellitcoin.marketplayceguidebinnace/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-09-09
   version: 1.0.1
   icon: nuyandsellitcoin.marketplayceguidebinnace.png
+  developerName: Lil99Campbell
 
 ---
 

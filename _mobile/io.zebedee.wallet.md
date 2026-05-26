@@ -17,8 +17,8 @@ android:
   users: 1000000
   released: 2020-10-20
   updated: 2026-04-17
-  version: 4.29.12
-  reviews: 9972
+  version: 4.30.5
+  reviews: 10002
   icon: io.zebedee.wallet.png
   website: https://zbd.gg/z/support
   developerName: ZEBEDEE

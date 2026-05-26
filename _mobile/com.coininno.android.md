@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/coininno/about
 - https://t.me/coininno
 - https://www.instagram.com/coininno
-developerName: Coininno
 redirect_from:
 - /android/com.coininno.android/
 android:
@@ -22,6 +21,7 @@ android:
   version: 2.0.0
   reviews: 4
   icon: com.coininno.android.png
+  developerName: Coininno
 
 ---
 

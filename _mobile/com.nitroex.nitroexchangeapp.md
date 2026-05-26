@@ -2,6 +2,7 @@
 wsId: NitroEXexchangeapp
 title: NitroEx Exchange
 verdict: custodial
+meta: stale
 date: 2026-01-08
 authors:
 - danny
@@ -11,7 +12,6 @@ social:
 - https://www.linkedin.com/company/nitroex
 - https://www.facebook.com/nitroex.io
 - https://www.reddit.com/r/nitroexchange
-developerName: Nitro Software Technologies LTD
 redirect_from:
 - /android/com.nitroex.nitroexchangeapp/
 - /iphone/com.nitroex.nitroexexchangeapp/
@@ -25,6 +25,8 @@ android:
   reviews: 159
   icon: com.nitroex.nitroexchangeapp.png
   meta: stale
+  website: https://www.nitroex.io/
+  developerName: Nitro Software Technologies LTD
 iphone:
   appId: com.nitroex.nitroexexchangeapp
   idd: 1569267465
@@ -35,6 +37,7 @@ iphone:
   reviews: 1
   icon: com.nitroex.nitroexexchangeapp.jpg
   meta: obsolete
+  developerName: Nitro Software Technologies LTD
 
 ---
 

@@ -8,7 +8,6 @@ authors:
 website: https://awallet.digital
 social:
 - https://awallet.digital/
-developerName: Metaverse Network LLC
 redirect_from:
 - /android/digital.awallet.app.gp/
 android:
@@ -19,6 +18,7 @@ android:
   version: 1.3.5
   reviews: 15
   icon: digital.awallet.app.gp.png
+  developerName: Metaverse Network LLC
 
 ---
 

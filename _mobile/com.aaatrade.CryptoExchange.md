@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-04
 website: https://www.aaatrade.com#deadLink
-developerName: AAATrade
 redirect_from:
 - /android/com.aaatrade.CryptoExchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-19
   version: 1.2.5
   icon: com.aaatrade.CryptoExchange.png
+  developerName: AAATrade
 
 ---
 

@@ -38,8 +38,8 @@ iphone:
   icon: com.rockwallet.app.jpg
   verdict: sourceavailable
   website: https://www.rockwallet.com
-  repository: https://github.com/rockwalletcode/wallet-ios#deadLink
   developerName: RockWallet, LLC
+  repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 
 ---
 

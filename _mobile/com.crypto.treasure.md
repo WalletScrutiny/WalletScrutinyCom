@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/TreasuresWallet
 - https://www.instagram.com/treasurewallet
 - https://t.me/Treasurewallet
-developerName: IT Work
 redirect_from:
 - /android/com.crypto.treasure/
 android:
@@ -22,6 +21,8 @@ android:
   version: 1.0.5
   reviews: 5
   icon: com.crypto.treasure.png
+  website: https://treasurewallet.co
+  developerName: IT Work
 
 ---
 

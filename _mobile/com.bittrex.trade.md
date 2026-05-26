@@ -9,7 +9,6 @@ authors:
 twitter: BittrexGlobal
 social:
 - https://www.facebook.com/BittrexGlobal
-developerName: Bittrex, Inc.
 redirect_from:
 - /android/com.bittrex.trade/
 - /iphone/com.bittrex.trade/
@@ -22,6 +21,7 @@ android:
   reviews: 653
   icon: com.bittrex.trade.png
   website: https://global.bittrex.com
+  developerName: Bittrex, Inc.
 iphone:
   appId: com.bittrex.trade
   idd: 1465314783
@@ -31,6 +31,7 @@ iphone:
   reviews: 4357
   icon: com.bittrex.trade.jpg
   website: https://web.archive.org/web/20231003135011/https://bittrex.com/mobile
+  developerName: Bittrex, Inc.
 
 ---
 

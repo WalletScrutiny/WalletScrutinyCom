@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://omni.app/
-developerName: Steakwallet
 appCountry: us
 redirect_from:
 - /iphone/com.thesteakwallet.app/
@@ -16,6 +15,7 @@ iphone:
   version: 3.8.2
   reviews: 97
   icon: com.thesteakwallet.app.jpg
+  developerName: Steakwallet
 
 ---
 

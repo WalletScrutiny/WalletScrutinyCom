@@ -3,7 +3,6 @@ title: LUX Wallet
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Xomelia
 redirect_from:
 - /android/com.luxmarket/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-07
   version: 1.0.3
   icon: com.luxmarket.png
+  developerName: Xomelia
 
 ---
 

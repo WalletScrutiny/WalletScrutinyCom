@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://q8ecoin.com
-developerName: Coindroid
 redirect_from:
 - /android/io.q8ecoin.bankwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-01-14
   version: 0.10.0
   icon: io.q8ecoin.bankwallet.png
+  developerName: Coindroid
 
 ---
 

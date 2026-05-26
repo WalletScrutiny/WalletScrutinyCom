@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.botcoinloan.blissinfosys.com#deadLink
-developerName: BOT CRYPTO LOAN
 redirect_from:
 - /android/com.info.bccl/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-22
   version: '1.0'
   icon: com.info.bccl.png
+  developerName: BOT CRYPTO LOAN
 
 ---
 

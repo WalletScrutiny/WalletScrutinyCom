@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-01-14
 website: https://getjara.xyz
-developerName: Jara Team
 redirect_from:
 - /android/xyz.getjara/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.0.15
   reviews: 16
   icon: xyz.getjara.jpg
+  website: https://getjara.xyz
+  developerName: Jara Team
 
 ---
 

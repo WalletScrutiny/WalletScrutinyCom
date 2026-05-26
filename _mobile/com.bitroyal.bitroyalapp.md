@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://bitroyalexchange.com#deadLink
-developerName: BitRoyal
 redirect_from:
 - /android/com.bitroyal.bitroyalapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-03-07
   version: '2.1'
   icon: com.bitroyal.bitroyalapp.png
+  developerName: BitRoyal
 
 ---
 

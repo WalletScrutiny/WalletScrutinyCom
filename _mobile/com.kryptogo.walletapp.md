@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/kryptogo_/
 - https://t.me/kryptogocom
 - https://www.youtube.com/channel/UCrj-kZUkRde6tvin7DKhfQQ
-developerName: KryptoGO
 redirect_from:
 - /android/com.kryptogo.walletapp/
 - /iphone/com.kryptogo.walletapp/
@@ -20,11 +19,12 @@ android:
   appId: com.kryptogo.walletapp
   users: 10000
   released: 2021-12-28
-  updated: 2026-04-17
-  version: 3.93.0
+  updated: 2026-05-26
+  version: 3.94.0
   reviews: 3
   icon: com.kryptogo.walletapp.png
   website: https://kryptogo.com
+  developerName: KryptoGO
   twitter: kryptogo_
 iphone:
   appId: com.kryptogo.walletapp
@@ -36,6 +36,7 @@ iphone:
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
   website: https://kryptogo.com/wallet
+  developerName: KryptoGO
 
 ---
 

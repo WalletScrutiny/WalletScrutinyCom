@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.instagram.com/lyopayofficial
 - https://www.youtube.com/channel/UCKgAeaCl3YJ6sk_tTxyfq-Q
-developerName: DIGILYO APP LTD
 redirect_from:
 - /android/com.lyotrade/
 - /iphone/com.lyo.trade/
@@ -23,6 +22,7 @@ android:
   version: 3.0.2
   icon: com.lyotrade.png
   website: https://www.lyotrade.com
+  developerName: DIGILYO APP LTD
 iphone:
   appId: com.lyo.trade
   idd: '1624895730'
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.lyo.trade.jpg
   website: https://www.lyotrade.com/
+  developerName: DIGILYO APP LTD
 
 ---
 

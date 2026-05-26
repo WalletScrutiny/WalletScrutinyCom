@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
 - https://www.linkedin.com/company/pallapay
 - https://www.instagram.com/pallapay
-developerName: Palladium Payment Services LLC
 redirect_from:
 - /android/com.pallapay.application/
 - /iphone/com.pallapay.application/
@@ -25,6 +24,7 @@ android:
   icon: com.pallapay.application.jpg
   meta: removed
   website: https://pallapay.com
+  developerName: Palladium Payment Services LLC
 iphone:
   appId: com.pallapay.application
   idd: '1622391711'
@@ -36,6 +36,7 @@ iphone:
   icon: com.pallapay.application.jpg
   meta: ok
   website: https://www.pallapay.com
+  developerName: Palladium Payment Services LLC
 
 ---
 

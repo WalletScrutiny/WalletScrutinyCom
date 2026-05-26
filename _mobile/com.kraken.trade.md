@@ -24,10 +24,11 @@ android:
   appId: com.kraken.trade
   users: 1000000
   released: 2019-10-24
-  updated: 2026-05-15
-  version: 5.55.0
-  reviews: 4697
+  updated: 2026-05-22
+  version: 5.56.0
+  reviews: 4701
   icon: com.kraken.trade.png
+  website: https://www.kraken.com
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.trade.app

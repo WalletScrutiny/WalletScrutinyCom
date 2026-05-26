@@ -9,7 +9,6 @@ website: https://www.airwalletofficial.com
 social:
 - https://t.me/AirWallet
 - https://www.facebook.com/airwalletofficial
-developerName: AWTech Blockchain Solutions
 redirect_from:
 - /android/com.airwalletofficial.air_wallet/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2019-10-29
   version: 1.9.2
   icon: com.airwalletofficial.air_wallet.png
+  developerName: AWTech Blockchain Solutions
 
 ---
 

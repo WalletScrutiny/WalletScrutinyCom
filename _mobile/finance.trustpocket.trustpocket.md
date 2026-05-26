@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://trustpocket.finance#deadLink
-developerName: Trust pocket
 redirect_from:
 - /android/finance.trustpocket.trustpocket/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-04
   version: 1.0.3
   icon: finance.trustpocket.trustpocket.png
+  developerName: Trust pocket
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://mikodes.com
-developerName: Mikodes Team
 redirect_from:
 - /android/com.mikodes.cryptowallerlite/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-12-08
   version: 1.0.1
   icon: com.mikodes.cryptowallerlite.png
+  developerName: Mikodes Team
 
 ---
 

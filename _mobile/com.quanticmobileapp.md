@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://quan-tic.com#deadLink
-developerName: Quantic Venture Limited
 redirect_from:
 - /android/com.quanticmobileapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-08
   version: 2.0.37
   icon: com.quanticmobileapp.png
+  developerName: Quantic Venture Limited
 
 ---
 

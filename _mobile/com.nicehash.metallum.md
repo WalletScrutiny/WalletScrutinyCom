@@ -14,7 +14,6 @@ social:
 - https://www.facebook.com/NiceHash
 features:
 - ln
-developerName: NiceHash AG
 redirect_from:
 - /android/com.nicehash.metallum/
 - /iphone/com.nicehash.mobile/
@@ -27,6 +26,7 @@ android:
   reviews: 679
   icon: com.nicehash.metallum.png
   website: https://www.nicehash.com/my/
+  developerName: NiceHash AG
 iphone:
   appId: com.nicehash.mobile
   idd: '1372054956'
@@ -37,6 +37,7 @@ iphone:
   reviews: 4567
   icon: com.nicehash.mobile.jpg
   website: https://www.nicehash.com/
+  developerName: NiceHash AG
 
 ---
 

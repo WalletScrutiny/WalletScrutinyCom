@@ -10,7 +10,6 @@ twitter: TheyaBitcoin
 social:
 - https://www.linkedin.com/company/theya-us
 - https://www.youtube.com/@theya-bitcoin
-developerName: Theya Inc.
 appCountry: us
 redirect_from:
 - /iphone/com.theya.customerapp/
@@ -22,6 +21,7 @@ iphone:
   version: '1.46'
   reviews: 33
   icon: com.theya.customerapp.jpg
+  developerName: Theya Inc.
 
 ---
 

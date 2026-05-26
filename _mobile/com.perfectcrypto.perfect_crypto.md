@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://perfectcrypto.net/
 twitter: irPerfectCrypto
-developerName: Perfect Crypto
 redirect_from:
 - /android/com.perfectcrypto.perfect_crypto/
 android:
@@ -18,6 +17,7 @@ android:
   version: 1.1.6
   reviews: 29
   icon: com.perfectcrypto.perfect_crypto.png
+  developerName: Perfect Crypto
 
 ---
 

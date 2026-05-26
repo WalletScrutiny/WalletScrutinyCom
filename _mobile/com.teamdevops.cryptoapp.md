@@ -3,7 +3,6 @@ title: 'Crypto Exchange: Bitcoin, Trad'
 verdict: wip
 meta: removed
 date: 2023-11-02
-developerName: Team DevOps
 redirect_from:
 - /android/com.teamdevops.cryptoapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-19
   version: 1.0.0
   icon: com.teamdevops.cryptoapp.png
+  developerName: Team DevOps
 
 ---
 

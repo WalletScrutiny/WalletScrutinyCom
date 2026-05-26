@@ -6,7 +6,6 @@ date: 2023-04-15
 authors:
 - danny
 website: https://osom.finance
-developerName: Polybius Tech OÜ
 redirect_from:
 - /android/io.polybius.osom/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-11-28
   version: 1.24.74
   icon: io.polybius.osom.png
+  developerName: Polybius Tech OÜ
 
 ---
 

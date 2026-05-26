@@ -6,7 +6,6 @@ date: 2023-07-01
 authors:
 - danny
 website: https://usdcdollar.cc/review/privacy#deadLink
-developerName: Ореn Sресtrum, LLС.
 redirect_from:
 - /android/com.test.circle/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.0
   reviews: 5
   icon: com.test.circle.png
+  developerName: Ореn Sресtrum, LLС.
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-07-11
 authors:
 - danny
 website: https://www.obtccoin.com
-developerName: OBTCCOIN
 redirect_from:
 - /android/com.obtccoin.int/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-12-30
   version: 1.3.5
   icon: com.obtccoin.int.jpg
+  developerName: OBTCCOIN
 
 ---
 

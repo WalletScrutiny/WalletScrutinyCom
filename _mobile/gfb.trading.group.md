@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://gfbtrading-group.com#deadLink
-developerName: GFB Trading Group
 redirect_from:
 - /android/gfb.trading.group/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-18
   version: '1.1'
   icon: gfb.trading.group.jpg
+  developerName: GFB Trading Group
 
 ---
 

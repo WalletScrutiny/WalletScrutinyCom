@@ -3,7 +3,6 @@ title: PayBito Admin
 verdict: wip
 meta: removed
 date: 2024-04-03
-developerName: Hashcash Consultants LLC
 redirect_from:
 - /android/com.hashcash.paybitoadmin/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-12
   version: 1.0.11
   icon: com.hashcash.paybitoadmin.png
+  developerName: Hashcash Consultants LLC
 
 ---
 

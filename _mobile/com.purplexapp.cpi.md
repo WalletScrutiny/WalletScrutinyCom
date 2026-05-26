@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://purplex.io
-developerName: PURPLEX FINTECH PRIVATE LIMITED
 appCountry: us
 redirect_from:
 - /iphone/com.purplexapp.cpi/
@@ -16,6 +15,7 @@ iphone:
   version: 1.2.8
   reviews: 0
   icon: com.purplexapp.cpi.jpg
+  developerName: PURPLEX FINTECH PRIVATE LIMITED
 
 ---
 

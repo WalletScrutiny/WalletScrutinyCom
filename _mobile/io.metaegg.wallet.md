@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/metaegg_io
 - https://www.youtube.com/c/MetaeggMetaverse#deadLink
 - https://t.me/metaegg_io
-developerName: Metaegg
 redirect_from:
 - /android/io.metaegg.wallet/
 android:
@@ -24,6 +23,7 @@ android:
   version: 0.1.2
   reviews: 1
   icon: io.metaegg.wallet.png
+  developerName: Metaegg
 
 ---
 

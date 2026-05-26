@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://ukcoins.exchange#deadLink
-developerName: UKCOIN
 redirect_from:
 - /android/com.ukcoin.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-17
   version: '1.0'
   icon: com.ukcoin.exchange.png
+  developerName: UKCOIN
 
 ---
 

@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/followmymoney_official
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/
-developerName: FELS Group GmbH
 redirect_from:
 - /android/de.followmytrader/
 - /iphone/de.followmytrader/
@@ -23,6 +22,8 @@ android:
   updated: 2025-08-27
   version: 3.6.0
   icon: de.followmytrader.png
+  website: https://followmymoney.de
+  developerName: FELS Group GmbH
 iphone:
   appId: de.followmytrader
   idd: '1487657162'
@@ -32,6 +33,7 @@ iphone:
   version: 3.6.0
   reviews: 0
   icon: de.followmytrader.jpg
+  developerName: FELS Group GmbH
 
 ---
 

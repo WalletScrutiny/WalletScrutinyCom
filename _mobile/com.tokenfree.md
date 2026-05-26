@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-30
 website: http://tokenfree.net#deadLink
-developerName: FunV Internet
 redirect_from:
 - /android/com.tokenfree/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-22
   version: '2.1'
   icon: com.tokenfree.png
+  developerName: FunV Internet
 
 ---
 

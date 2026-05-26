@@ -2,6 +2,7 @@
 wsId: primeXBTCryptoTrading
 title: PrimeXBT — Trading Platform
 verdict: custodial
+meta: ok
 date: 2023-06-02
 authors:
 - danny
@@ -21,7 +22,7 @@ android:
   users: 1000000
   released: 2022-02-10
   updated: 2026-05-19
-  version: 4.40.2
+  version: '4.41'
   reviews: 68
   icon: com.primexbt.trade.png
   meta: ok

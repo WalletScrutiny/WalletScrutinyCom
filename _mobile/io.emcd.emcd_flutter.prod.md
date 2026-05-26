@@ -2,6 +2,7 @@
 wsId: emcdPoolWallet
 title: EMCD Coinhold — Crypto Wallet
 verdict: custodial
+meta: ok
 date: 2023-07-07
 authors:
 - danny
@@ -19,7 +20,7 @@ android:
   users: 100000
   released: 2022-01-03
   updated: 2026-05-17
-  version: 2.28.0
+  version: 2.29.1
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.png
   meta: ok

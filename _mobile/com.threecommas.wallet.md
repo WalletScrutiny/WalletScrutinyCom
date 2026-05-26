@@ -12,7 +12,6 @@ social:
 - https://t.me/commas
 - https://discord.com/invite/3commas
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
-developerName: 3Сommas - Cryptocurrency trading terminal and bots
 redirect_from:
 - /android/com.threecommas.wallet/
 android:
@@ -23,6 +22,7 @@ android:
   version: '1.7'
   reviews: 3
   icon: com.threecommas.wallet.png
+  developerName: 3Сommas - Cryptocurrency trading terminal and bots
 
 ---
 

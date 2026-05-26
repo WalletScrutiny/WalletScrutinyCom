@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://bixin.com
 twitter: BixinWallet
-developerName: Bixin.com
 redirect_from:
 - /android/com.bixin.bixin_android/
 android:
@@ -18,6 +17,7 @@ android:
   version: 4.8.2
   reviews: 11
   icon: com.bixin.bixin_android.png
+  developerName: Bixin.com
 
 ---
 

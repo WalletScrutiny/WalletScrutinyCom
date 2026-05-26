@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-16
 website: https://lnorb.com
-developerName: Orb Lightning
 redirect_from:
 - /android/com.lnorb.orb/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-26
   version: 0.21.11.0
   icon: com.lnorb.orb.jpg
+  developerName: Orb Lightning
 
 ---
 

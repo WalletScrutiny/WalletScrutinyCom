@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-09-24
 website: http://Bitcoin.org
-developerName: Bitcoin Inc
 redirect_from:
 - /com.bitcoininc.bitcoinpay/
 - /posts/com.bitcoininc.bitcoinpay/
@@ -17,6 +16,7 @@ android:
   version: 1.0.1
   reviews: 14
   icon: com.bitcoininc.bitcoinpay.png
+  developerName: Bitcoin Inc
 
 ---
 

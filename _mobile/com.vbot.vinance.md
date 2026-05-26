@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://www.vbotadvisor.com#deadLink
-developerName: VBot Solutions Limited
 redirect_from:
 - /android/com.vbot.vinance/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-04
   version: 1.0.0
   icon: com.vbot.vinance.png
+  developerName: VBot Solutions Limited
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: ChainX Vault
 verdict: wip
+meta: fewusers
 date: 2026-01-14
 redirect_from:
 - /android/ltd.chainxglobal.wallet/

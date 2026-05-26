@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://escrowblock.net
-developerName: Escb Foundation
 redirect_from:
 - /android/com.idmid9e01m0afjvnmq1wu/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-06-09
   version: 1.0.5
   icon: com.idmid9e01m0afjvnmq1wu.png
+  developerName: Escb Foundation
 
 ---
 

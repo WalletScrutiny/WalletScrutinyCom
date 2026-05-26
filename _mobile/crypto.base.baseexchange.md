@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://techpay.io/
 twitter: techpay_io
-developerName: TechPay
 redirect_from:
 - /android/crypto.base.baseexchange/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-03-29
   version: '5.2'
   icon: crypto.base.baseexchange.png
+  developerName: TechPay
 
 ---
 

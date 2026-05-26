@@ -6,7 +6,6 @@ date: 2023-06-21
 authors:
 - leo
 website: https://visionwallet.com/en/
-developerName: VISION WALLET LTD
 redirect_from:
 - /com.visionwallet.app/
 - /android/com.visionwallet.app/
@@ -17,6 +16,7 @@ android:
   updated: 2020-11-05
   version: 1.3.2
   icon: com.visionwallet.app.png
+  developerName: VISION WALLET LTD
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://pryvate-technologies.com
-developerName: Pryvate Technologies
 redirect_from:
 - /android/net.pryvate.wallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-30
   version: VARY
   icon: net.pryvate.wallet.png
+  developerName: Pryvate Technologies
 
 ---
 

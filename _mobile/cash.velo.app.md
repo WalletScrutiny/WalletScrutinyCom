@@ -1,6 +1,7 @@
 ---
 title: 'VELO: Bitcoin & USDT Wallet'
 verdict: wip
+meta: fewusers
 date: 2026-01-14
 redirect_from:
 - /android/cash.velo.app/

@@ -8,7 +8,6 @@ authors:
 - leo
 - danny
 twitter: CoinbaseWallet
-developerName: Coinbase Wallet
 redirect_from:
 - /coinbasewallet/
 - /org.toshi/
@@ -20,11 +19,12 @@ android:
   appId: org.toshi
   users: 10000000
   released: 2017-09-20
-  updated: 2026-05-15
+  updated: 2026-05-22
   version: 29.95.0
-  reviews: 14083
+  reviews: 14087
   icon: org.toshi.png
   website: https://wallet.coinbase.com/
+  developerName: Coinbase Wallet
 iphone:
   appId: org.toshi.distribution
   idd: 1278383455
@@ -34,6 +34,7 @@ iphone:
   reviews: 161397
   icon: org.toshi.distribution.jpg
   website: https://base.app
+  developerName: Coinbase Wallet
 
 ---
 

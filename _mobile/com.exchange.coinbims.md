@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://coinbims.com#deadLink
-developerName: Cjy711352
 redirect_from:
 - /android/com.exchange.coinbims/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-09-09
   version: '1.3'
   icon: com.exchange.coinbims.png
+  developerName: Cjy711352
 
 ---
 

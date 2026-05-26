@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: http://spowide.com
-developerName: spowide
 redirect_from:
 - /android/com.spowide.www/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-01-30
   version: 1.0.4
   icon: com.spowide.www.png
+  developerName: spowide
 
 ---
 

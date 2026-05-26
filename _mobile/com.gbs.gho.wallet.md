@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://gho.group#deadLink
-developerName: Sofdia Systems
 redirect_from:
 - /android/com.gbs.gho.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-30
   version: 1.0.6
   icon: com.gbs.gho.wallet.png
+  developerName: Sofdia Systems
 
 ---
 

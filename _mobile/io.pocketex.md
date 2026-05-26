@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-01-15
 website: https://pocketexchange.io
-developerName: Hilotech
 redirect_from:
 - /android/io.pocketex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-25
   version: 1.0.1
   icon: io.pocketex.png
+  developerName: Hilotech
 
 ---
 

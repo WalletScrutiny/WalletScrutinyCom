@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: http://www.icncde.com#deadLink
-developerName: DSSJDEV
 redirect_from:
 - /android/com.dssj.currencytradinggoogle/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.4.1
   reviews: 7
   icon: com.dssj.currencytradinggoogle.png
+  developerName: DSSJDEV
 
 ---
 

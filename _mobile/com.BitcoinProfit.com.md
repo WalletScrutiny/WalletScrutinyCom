@@ -5,7 +5,6 @@ meta: removed
 date: 2023-08-17
 authors:
 - danny
-developerName: devswipe
 redirect_from:
 - /android/com.BitcoinProfit.com/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-06-18
   version: '1.0'
   icon: com.BitcoinProfit.com.png
+  developerName: devswipe
 
 ---
 

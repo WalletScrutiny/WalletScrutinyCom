@@ -4,7 +4,6 @@ verdict: wip
 meta: stale
 date: 2026-05-21
 website: https://funexpro.com/
-developerName: Funex Coin
 redirect_from:
 - /android/com.funex.pro/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2024-08-31
   version: 1.0.1
   icon: com.funex.pro.png
+  website: https://funexpro.com/
+  developerName: Funex Coin
 
 ---
 

@@ -23,6 +23,7 @@ android:
   version: 1.1.42
   reviews: 38
   icon: com.valr.app.png
+  website: https://www.valr.com
   developerName: VALR
 iphone:
   appId: com.valr.mobile

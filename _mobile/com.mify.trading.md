@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: https://www.192trade.biz#deadLink
-developerName: 192Trade
 redirect_from:
 - /android/com.mify.trading/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-19
   version: '1.0'
   icon: com.mify.trading.jpg
+  developerName: 192Trade
 
 ---
 

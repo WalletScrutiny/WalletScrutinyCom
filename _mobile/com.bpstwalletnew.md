@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://bps.money
-developerName: AEQUO ANIMO AG
 redirect_from:
 - /android/com.bpstwalletnew/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-09
   version: 1.44.1
   icon: com.bpstwalletnew.png
+  developerName: AEQUO ANIMO AG
 
 ---
 

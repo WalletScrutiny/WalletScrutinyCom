@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://opuslab.works/apps/crypto-nft
-developerName: Opus LabWorks
 redirect_from:
 - /android/com.flutter.cryptox/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-29
   version: 1.0.1
   icon: com.flutter.cryptox.png
+  developerName: Opus LabWorks
 
 ---
 

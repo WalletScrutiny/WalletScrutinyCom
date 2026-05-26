@@ -11,7 +11,6 @@ social:
 - https://t.me/OObit
 - https://www.instagram.com/oobit_official
 - https://www.linkedin.com/company/oobit
-developerName: Oobit Technologies
 redirect_from:
 - /android/com.oobit/
 - /iphone/com.oobit/
@@ -23,6 +22,8 @@ android:
   version: 2.6.1
   reviews: 39
   icon: com.oobit.png
+  website: https://www.oobit.com/
+  developerName: Oobit Technologies
   twitter: oobit
 iphone:
   appId: com.oobit
@@ -33,6 +34,7 @@ iphone:
   version: 2.0.7
   reviews: 947
   icon: com.oobit.jpg
+  developerName: Oobit Technologies
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://mmex.cc
-developerName: MEME Lab
 redirect_from:
 - /android/com.app.irxauj.cn/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-01
   version: VARY
   icon: com.app.irxauj.cn.png
+  developerName: MEME Lab
 
 ---
 

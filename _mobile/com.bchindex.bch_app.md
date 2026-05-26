@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://bchindex.com#deadLink
-developerName: BCH INDEX LIMITED
 redirect_from:
 - /android/com.bchindex.bch_app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-04-11
   version: 6.2.2
   icon: com.bchindex.bch_app.png
+  developerName: BCH INDEX LIMITED
 
 ---
 

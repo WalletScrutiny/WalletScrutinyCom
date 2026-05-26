@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://pebbit.app
-developerName: Magna Numeris
 redirect_from:
 - /android/com.magna_numeris.pebbit/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-23
   version: 0.9.39
   icon: com.magna_numeris.pebbit.jpg
+  developerName: Magna Numeris
 
 ---
 

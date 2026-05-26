@@ -2,6 +2,7 @@
 wsId: maxSwapApp
 title: 'MaxSwap: Crypto Bitcoin Wallet'
 verdict: custodial
+meta: ok
 date: 2025-08-29
 authors:
 - danny
@@ -19,6 +20,7 @@ android:
   version: 1.0.0
   icon: com.maxswap.app.jpg
   meta: ok
+  website: https://maxswap.cc
   developerName: MS Profit LTD
 iphone:
   appId: com.maxswap.app

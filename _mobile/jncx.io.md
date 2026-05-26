@@ -5,7 +5,6 @@ meta: removed
 date: 2023-07-28
 authors:
 - danny
-developerName: JNC FINTECH
 redirect_from:
 - /android/jncx.io/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-09-01
   version: 1.0.4
   icon: jncx.io.png
+  developerName: JNC FINTECH
 
 ---
 

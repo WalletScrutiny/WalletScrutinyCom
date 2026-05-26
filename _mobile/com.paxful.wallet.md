@@ -28,8 +28,8 @@ android:
   reviews: 1962
   icon: com.paxful.wallet.png
   website: https://Paxful.com
-  bugbounty: https://paxful.com/bug-bounty-policy
   developerName: PaxfulDev
+  bugbounty: https://paxful.com/bug-bounty-policy
 iphone:
   appId: com.paxful.wallet
   idd: 1443813253

@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/alt5sigma_
 - https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
 - https://www.linkedin.com/company/alt-5-sigma
-developerName: Alt 5 Pro
 redirect_from:
 - /android/com.alt5pro.droidapp/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2022-02-16
   version: '1.9'
   icon: com.alt5pro.droidapp.png
+  developerName: Alt 5 Pro
 
 ---
 

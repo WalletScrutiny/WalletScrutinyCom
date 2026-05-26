@@ -3,7 +3,6 @@ title: BAZ
 verdict: wip
 meta: removed
 date: 2023-08-04
-developerName: bitcoinyouth
 redirect_from:
 - /android/com.baz.code/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-28
   version: 3.1.1
   icon: com.baz.code.png
+  developerName: bitcoinyouth
 
 ---
 

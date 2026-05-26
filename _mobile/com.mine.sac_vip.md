@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-04-13
 website: https://www.sac-mine.vip
-developerName: War of the Gods
 redirect_from:
 - /android/com.mine.sac_vip/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2025-02-20
   version: '1.2'
   icon: com.mine.sac_vip.png
+  developerName: War of the Gods
 
 ---
 

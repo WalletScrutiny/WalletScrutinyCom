@@ -3,7 +3,6 @@ title: AlyPay Ecommerce
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: AlySystem
 redirect_from:
 - /android/com.alypay_ecommerce/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-24
   version: '1.0'
   icon: com.alypay_ecommerce.png
+  developerName: AlySystem
 
 ---
 

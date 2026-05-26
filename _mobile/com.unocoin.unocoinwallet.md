@@ -24,10 +24,11 @@ android:
   appId: com.unocoin.unocoinwallet
   users: 1000000
   released: 2016-11-30
-  updated: 2026-01-12
-  version: 5.3.41
+  updated: 2026-05-25
+  version: 5.3.42
   reviews: 55
   icon: com.unocoin.unocoinwallet.png
+  website: https://www.unocoin.com
   developerName: Unocoin Technologies
 iphone:
   appId: com.unocoin.mainapp.production

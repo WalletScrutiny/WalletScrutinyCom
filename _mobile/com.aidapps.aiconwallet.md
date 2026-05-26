@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.aicon.online/
 twitter: AiconOfficial
-developerName: AI-dapps
 redirect_from:
 - /android/com.aidapps.aiconwallet/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2021-03-04
   version: 1.0.1
   icon: com.aidapps.aiconwallet.png
+  developerName: AI-dapps
 
 ---
 

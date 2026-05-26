@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-04-13
 website: https://opermizer.zone
-developerName: AXTECH SDN. BHD.
 redirect_from:
 - /android/com.opi.optimizer/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-08-28
   version: 1.2.2
   icon: com.opi.optimizer.png
+  developerName: AXTECH SDN. BHD.
 
 ---
 

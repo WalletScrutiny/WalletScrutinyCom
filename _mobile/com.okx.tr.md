@@ -20,8 +20,8 @@ redirect_from:
 android:
   appId: com.okx.tr
   users: 500000
-  updated: 2026-05-18
-  version: 6.171.0
+  updated: 2026-05-21
+  version: 6.172.0
   icon: com.okx.tr.png
   website: https://tr.okx.com
   developerName: OKX TR

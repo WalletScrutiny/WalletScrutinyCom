@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: https://quan2um.com
-developerName: Quan2um
 redirect_from:
 - /android/com.mobile.quantum/
 android:
@@ -17,6 +16,8 @@ android:
   version: 1.0.8
   reviews: 1
   icon: com.mobile.quantum.png
+  website: https://quan2um.com
+  developerName: Quan2um
 
 ---
 

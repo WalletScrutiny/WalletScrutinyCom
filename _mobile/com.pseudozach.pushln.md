@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://kriptode.com
-developerName: Pseudozach
 redirect_from:
 - /android/com.pseudozach.pushln/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-09
   version: '1.1'
   icon: com.pseudozach.pushln.png
+  developerName: Pseudozach
 
 ---
 

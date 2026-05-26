@@ -3,7 +3,6 @@ title: Amadis
 verdict: wip
 meta: stale
 date: 2026-05-21
-developerName: entropia
 redirect_from:
 - /android/micat.example.bergamo/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2024-08-14
   version: '1.0'
   icon: micat.example.bergamo.png
+  developerName: entropia
 
 ---
 

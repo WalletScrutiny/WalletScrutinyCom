@@ -2,6 +2,7 @@
 wsId: jeton
 title: Jeton Wallet
 verdict: custodial
+meta: stale
 date: 2025-02-13
 authors:
 - danny

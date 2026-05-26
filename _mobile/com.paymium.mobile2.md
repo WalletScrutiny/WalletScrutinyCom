@@ -9,7 +9,6 @@ twitter: paymium
 social:
 - https://www.linkedin.com/company/paymium
 - https://www.facebook.com/Paymium
-developerName: Paymium SAS
 redirect_from:
 - /android/com.paymium.mobile2/
 - /iphone/com.paymium.mobile/
@@ -23,6 +22,7 @@ android:
   icon: com.paymium.mobile2.png
   meta: removed
   website: http://paymium.com
+  developerName: Paymium SAS
 iphone:
   appId: com.paymium.mobile
   idd: 1055288395
@@ -34,6 +34,7 @@ iphone:
   icon: com.paymium.mobile.jpg
   meta: ok
   website: https://www.paymium.com/
+  developerName: Paymium SAS
 
 ---
 

@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/kyccoin
 - https://www.facebook.com/kyccoin
 - https://www.instagram.com/kyc_coin
-developerName: KYC&AML Ltd
 redirect_from:
 - /android/com.mobile.kyc/
 - /iphone/com.mobile.kyc/
@@ -24,6 +23,7 @@ android:
   icon: com.mobile.kyc.png
   meta: removed
   website: https://kyccoin.io
+  developerName: KYC&AML Ltd
 iphone:
   appId: com.mobile.kyc
   idd: '1606034760'
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.mobile.kyc.jpg
   meta: obsolete
+  developerName: KYC&AML Ltd
 
 ---
 

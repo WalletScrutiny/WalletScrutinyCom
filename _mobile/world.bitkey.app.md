@@ -19,7 +19,6 @@ features:
 - nfc
 - companion
 - fingerprint
-developerName: Block, Inc.
 redirect_from:
 - /android/world.bitkey.app/
 - /iphone/world.bitkey.app/
@@ -35,6 +34,8 @@ android:
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   builds:
   - arch: arm64-v8a
+  website: https://bitkey.world
+  developerName: Block, Inc.
 iphone:
   appId: world.bitkey.app
   idd: '6476990471'
@@ -44,6 +45,7 @@ iphone:
   version: 2026.9.1
   reviews: 117
   icon: world.bitkey.app.jpg
+  developerName: Block, Inc.
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-05-25
 authors:
 - danny
 website: https://wallet.fmetoken.io
-developerName: fmetoken.io
 redirect_from:
 - /android/com.fme.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-06-22
   version: 1.0.0
   icon: com.fme.wallet.jpg
+  developerName: fmetoken.io
 
 ---
 

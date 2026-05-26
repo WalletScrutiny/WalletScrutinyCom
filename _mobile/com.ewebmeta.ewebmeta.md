@@ -6,7 +6,6 @@ date: 2023-08-25
 authors:
 - danny
 website: https://pera.cx
-developerName: Pera Digital Services
 redirect_from:
 - /android/com.ewebmeta.ewebmeta/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-07-06
   version: 2.0.0
   icon: com.ewebmeta.ewebmeta.png
+  developerName: Pera Digital Services
 
 ---
 

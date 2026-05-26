@@ -19,7 +19,6 @@ features:
 - hd
 - multiSig
 - segwit
-developerName: Peach Bitcoin
 redirect_from:
 - /android/com.peachbitcoin.peach.mainnet/
 android:
@@ -28,6 +27,8 @@ android:
   updated: 2026-05-19
   version: 0.69.0
   icon: com.peachbitcoin.peach.mainnet.png
+  website: https://peachbitcoin.com
+  developerName: Peach Bitcoin
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.bitcoke.com
 twitter: BitCokedotcom
-developerName: Bitcoke
 redirect_from:
 - /android/com.bitcoke.activity/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-10-07
   version: 7.0.0.3
   icon: com.bitcoke.activity.png
+  developerName: Bitcoke
 
 ---
 

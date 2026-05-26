@@ -21,8 +21,9 @@ android:
   released: 2020-05-31
   updated: 2026-05-21
   version: 9.3.2
-  reviews: 146823
+  reviews: 147452
   icon: com.coinswitch.kuber.png
+  website: https://coinswitch.co
   developerName: Bitkuber Investments Private Limited
 iphone:
   appId: com.coinswitch.kuber

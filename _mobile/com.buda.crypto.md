@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/BudaPuntoCom
 features:
 - ln
-developerName: Buda.com
 redirect_from:
 - /com.buda.crypto/
 - /posts/com.buda.crypto/
@@ -27,6 +26,7 @@ android:
   reviews: 18
   icon: com.buda.crypto.jpg
   website: https://buda.com
+  developerName: Buda.com
 iphone:
   appId: com.buda.crypto
   idd: 1321460860
@@ -37,6 +37,7 @@ iphone:
   reviews: 1
   icon: com.buda.crypto.jpg
   website: https://www.buda.com
+  developerName: Buda.com
 
 ---
 

@@ -6,7 +6,6 @@ date: 2021-10-13
 authors:
 - danny
 website: http://bitsonic.co.kr
-developerName: bitsonic
 redirect_from:
 - /android/kr.co.bitsonic/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.9.6
   reviews: 3
   icon: kr.co.bitsonic.png
+  developerName: bitsonic
 
 ---
 

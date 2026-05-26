@@ -3,7 +3,6 @@ title: USA:Crypto Exchange App
 verdict: wip
 meta: removed
 date: 2023-09-15
-developerName: Islamic Books Urdu
 redirect_from:
 - /android/com.hrghazali.usacryptoexchange/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-09-14
   version: 1.0.0
   icon: com.hrghazali.usacryptoexchange.png
+  developerName: Islamic Books Urdu
 
 ---
 

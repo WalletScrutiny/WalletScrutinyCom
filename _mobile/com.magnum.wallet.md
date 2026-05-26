@@ -7,7 +7,6 @@ authors:
 - leo
 website: https://magnumwallet.co
 twitter: magnum_wallet
-developerName: Magnum Wallet
 redirect_from:
 - /com.magnum.wallet/
 - /posts/com.magnum.wallet/
@@ -20,6 +19,7 @@ android:
   version: 1.0.12
   reviews: 16
   icon: com.magnum.wallet.png
+  developerName: Magnum Wallet
 
 ---
 

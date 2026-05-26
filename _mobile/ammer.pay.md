@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2023-06-03
 website: https://ammer.cards
-developerName: Ammer Technologies AG
 redirect_from:
 - /android/ammer.pay/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-12-03
   version: 2.0.5
   icon: ammer.pay.png
+  website: https://ammer.cards
+  developerName: Ammer Technologies AG
 
 ---
 

@@ -6,7 +6,6 @@ date: 2024-09-16
 authors:
 - danny
 website: https://lachain.io
-developerName: LATOKEN
 redirect_from:
 - /android/com.app.defi/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.11.25
   reviews: 29
   icon: com.app.defi.png
+  developerName: LATOKEN
 
 ---
 

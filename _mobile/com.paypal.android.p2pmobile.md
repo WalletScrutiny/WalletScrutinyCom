@@ -20,10 +20,11 @@ android:
   appId: com.paypal.android.p2pmobile
   users: 100000000
   released: 2016-02-19
-  updated: 2026-05-18
+  updated: 2026-05-20
   version: 8.105.1
-  reviews: 437339
+  reviews: 437549
   icon: com.paypal.android.p2pmobile.png
+  website: https://www.paypal.com/mobile
   developerName: PayPal Mobile
 iphone:
   appId: com.yourcompany.PPClient

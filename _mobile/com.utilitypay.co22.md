@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://utilitypay.co#deadLink
-developerName: Utilitypay
 redirect_from:
 - /android/com.utilitypay.co22/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-14
   version: 1.0.2
   icon: com.utilitypay.co22.png
+  developerName: Utilitypay
 
 ---
 

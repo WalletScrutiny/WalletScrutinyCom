@@ -11,7 +11,6 @@ social:
 - https://www.youtube.com/@IQTradeGlobal#deadLink
 - https://www.facebook.com/IQTradeGlobal
 - https://www.instagram.com/iqtradeglobal
-developerName: I&Q Financial LLC
 redirect_from:
 - /android/com.iqtrade.ex.app/
 android:
@@ -22,6 +21,7 @@ android:
   version: 3.2.2
   reviews: 20
   icon: com.iqtrade.ex.app.png
+  developerName: I&Q Financial LLC
 
 ---
 

@@ -6,7 +6,6 @@ date: 2021-11-10
 authors:
 - danny
 website: http://www.coinibt.io#deadLink
-developerName: CyberTronChain (CTC)
 redirect_from:
 - /android/com.cybertronchain.coinibt/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.13'
   reviews: 4
   icon: com.cybertronchain.coinibt.png
+  developerName: CyberTronChain (CTC)
 
 ---
 

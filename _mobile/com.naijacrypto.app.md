@@ -6,7 +6,6 @@ date: 2023-08-19
 authors:
 - danny
 website: https://naijacrypto.com#deadLink
-developerName: CI Cryptosolutions
 redirect_from:
 - /android/com.naijacrypto.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-10-22
   version: 5.1.2
   icon: com.naijacrypto.app.png
+  developerName: CI Cryptosolutions
 
 ---
 

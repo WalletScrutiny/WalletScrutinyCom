@@ -6,7 +6,6 @@ date: 2023-03-29
 authors:
 - danny
 website: https://bitflash.io
-developerName: Bitflash Cryptocurrency Exchange
 redirect_from:
 - /android/com.bitflash.exchange/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-04-28
   version: '4.0'
   icon: com.bitflash.exchange.png
+  developerName: Bitflash Cryptocurrency Exchange
 
 ---
 

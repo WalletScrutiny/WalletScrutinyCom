@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-10-15
 website: https://www.bravepay.net/
-developerName: BravePay
 redirect_from:
 - /android/com.bravecorporation.bravepro/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2023-10-22
   version: 1.0.17
   icon: com.bravecorporation.bravepro.png
+  website: https://www.bravepay.net/
+  developerName: BravePay
 
 ---
 

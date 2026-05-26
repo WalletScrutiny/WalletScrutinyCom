@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: http://obolon9.com#deadLink
-developerName: Obolon 9
 redirect_from:
 - /android/com.obolon9_mobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-09
   version: 2.1.2
   icon: com.obolon9_mobile.jpg
+  developerName: Obolon 9
 
 ---
 

@@ -21,8 +21,8 @@ android:
   updated: 2022-02-08
   version: '1.21'
   icon: com.bitturkmobile.android.png
-  twitter: bitturkcom
   developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
+  twitter: bitturkcom
 iphone:
   appId: bitturkmobile.ios
   idd: '1455361684'

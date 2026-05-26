@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-04-16
 website: http://goodbit.co.kr
-developerName: Goodbit Korea
 redirect_from:
 - /android/intowin.co.kr.p2coin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-08-31
   version: '1.0'
   icon: intowin.co.kr.p2coin.png
+  developerName: Goodbit Korea
 
 ---
 

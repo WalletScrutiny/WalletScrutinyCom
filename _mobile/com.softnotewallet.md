@@ -20,12 +20,13 @@ redirect_from:
 - /iphone/com.softnote.wallet/
 android:
   appId: com.softnotewallet
-  users: 1000
+  users: 5000
   released: 2024-08-18
   updated: 2025-10-17
   version: 1.8.4
   reviews: 3
   icon: com.softnotewallet.png
+  website: https://softnote.com
   developerName: Crispmind Ltd.
 iphone:
   appId: com.softnote.wallet

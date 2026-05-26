@@ -6,7 +6,6 @@ date: 2023-05-06
 authors:
 - danny
 website: http://www.cryptopocket.info#deadLink
-developerName: Cryptopocket Solutions
 redirect_from:
 - /android/app.org.cryptopocket/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-09-16
   version: 1.2.8
   icon: app.org.cryptopocket.jpg
+  developerName: Cryptopocket Solutions
 
 ---
 

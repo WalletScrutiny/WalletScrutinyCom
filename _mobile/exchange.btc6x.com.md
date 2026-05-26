@@ -10,7 +10,6 @@ social:
 - https://www.facebook.com/btc6x
 - https://t.me/btc6x
 - https://www.instagram.com/btc.6x/
-developerName: ZeroCash
 redirect_from:
 - /android/exchange.btc6x.com/
 android:
@@ -21,6 +20,7 @@ android:
   version: '1.1'
   reviews: 6
   icon: exchange.btc6x.com.jpg
+  developerName: ZeroCash
 
 ---
 

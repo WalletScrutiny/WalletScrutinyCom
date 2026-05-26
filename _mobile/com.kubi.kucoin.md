@@ -2,6 +2,7 @@
 wsId: kucoinExchange
 title: 'KuCoin: Buy Bitcoin & Crypto'
 verdict: custodial
+meta: ok
 date: 2021-02-09
 authors:
 - leo
@@ -17,9 +18,9 @@ android:
   appId: com.kubi.kucoin
   users: 10000000
   released: 2018-05-03
-  updated: 2026-05-14
+  updated: 2026-05-21
   version: 4.27.0
-  reviews: 5031
+  reviews: 5032
   icon: com.kubi.kucoin.jpg
   meta: ok
   website: https://www.kucoin.com

@@ -3,7 +3,6 @@ title: 'CoinsDo Wallet: BTC ETH Wallet'
 verdict: wip
 meta: ok
 date: 2026-01-14
-developerName: Tecstation Pte Ltd
 appCountry: us
 redirect_from:
 - /iphone/com.coinsdo.coinsdowallet/
@@ -15,6 +14,7 @@ iphone:
   version: 2.0.27
   reviews: 91
   icon: com.coinsdo.coinsdowallet.jpg
+  developerName: Tecstation Pte Ltd
 
 ---
 

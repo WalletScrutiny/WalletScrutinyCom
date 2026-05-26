@@ -3,7 +3,6 @@ title: CryptoPeddle
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Multi_official
 redirect_from:
 - /android/com.app.cpeddle/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-04-10
   version: '1.0'
   icon: com.app.cpeddle.png
+  developerName: Multi_official
 
 ---
 

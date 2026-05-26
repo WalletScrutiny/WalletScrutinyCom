@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://www.melis.io
-developerName: Melis
 redirect_from:
 - /android/io.melis.testwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-05
   version: 1.7.1
   icon: io.melis.testwallet.png
+  developerName: Melis
 
 ---
 

@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - leo
-developerName: FinSec
 redirect_from:
 - /android/appinventor.ai_oldgoldmen.CryptoWallet/
 android:
@@ -16,6 +15,7 @@ android:
   version: '3.0'
   reviews: 4
   icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
+  developerName: FinSec
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://www.imsofnet.com#deadLink
-developerName: Intrepid Multi-Cycle Softnet
 redirect_from:
 - /android/com.imsofnet.apps.mycryptocoinwallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-01-31
   version: '1.1'
   icon: com.imsofnet.apps.mycryptocoinwallet.png
+  developerName: Intrepid Multi-Cycle Softnet
 
 ---
 

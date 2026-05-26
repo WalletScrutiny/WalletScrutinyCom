@@ -1,7 +1,8 @@
 ---
 wsId: bingbon
-title: BingX Trade BTC, Buy Crypto
+title: 'BingX: Buy Crypto & Stocks'
 verdict: custodial
+meta: ok
 date: 2024-10-07
 authors:
 - kiwilamb
@@ -19,9 +20,9 @@ android:
   appId: pro.bingbon.app
   users: 5000000
   released: 2019-05-18
-  updated: 2026-03-03
-  version: 4.78.0
-  reviews: 1408
+  updated: 2026-05-19
+  version: 4.84.0
+  reviews: 1410
   icon: pro.bingbon.app.png
   meta: removed
   website: https://bingx.com

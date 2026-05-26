@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/arumtrade
 - https://www.instagram.com/arum_trade
 - https://arumtrade.com/en
-developerName: Arum Trade Ltd
 redirect_from:
 - /android/com.arumtrade.app.android/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2021-11-18
   version: 1.0.4
   icon: com.arumtrade.app.android.png
+  developerName: Arum Trade Ltd
 
 ---
 

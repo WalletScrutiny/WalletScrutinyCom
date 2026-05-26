@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://hodlit.com
 twitter: hodlitapp
-developerName: Hodlit
 redirect_from:
 - /android/com.savechange.hodlit/
 - /iphone/com.savechange.hodlit/
@@ -20,6 +19,7 @@ android:
   version: 1.0.12
   reviews: 36
   icon: com.savechange.hodlit.png
+  developerName: Hodlit
 iphone:
   appId: com.savechange.hodlit
   idd: '1436264962'
@@ -29,6 +29,7 @@ iphone:
   version: 1.0.12
   reviews: 37
   icon: com.savechange.hodlit.jpg
+  developerName: Hodlit
 
 ---
 

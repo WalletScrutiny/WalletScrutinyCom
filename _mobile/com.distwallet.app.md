@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://distwallet.com#deadLink
-developerName: PROYA INT.
 redirect_from:
 - /android/com.distwallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-01
   version: '1.0'
   icon: com.distwallet.app.png
+  developerName: PROYA INT.
 
 ---
 

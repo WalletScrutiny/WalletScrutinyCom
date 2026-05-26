@@ -27,14 +27,15 @@ android:
   appId: io.nunchuk.android
   users: 10000
   released: 2021-11-11
-  updated: 2026-05-18
-  version: 2.5.0
+  updated: 2026-05-21
+  version: 2.5.1
   reviews: 42
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   verdict: sourceavailable
-  repository: https://github.com/nunchuk-io/nunchuk-android
+  website: https://nunchuk.io
   developerName: Nunchuk Inc
+  repository: https://github.com/nunchuk-io/nunchuk-android
 iphone:
   appId: io.nunchuk.ios
   idd: 1563190073

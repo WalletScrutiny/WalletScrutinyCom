@@ -10,7 +10,6 @@ twitter: bitpinmarket
 social:
 - https://t.me/bitpin
 - https://www.instagram.com/bitpinmarket
-developerName: Bitpin App Developer
 redirect_from:
 - /android/io.bitpin.app/
 android:
@@ -21,6 +20,8 @@ android:
   version: 1.3.0
   reviews: 124
   icon: io.bitpin.app.png
+  website: https://bitpin.ir
+  developerName: Bitpin App Developer
 
 ---
 

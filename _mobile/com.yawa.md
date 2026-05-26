@@ -3,7 +3,6 @@ title: YaWa
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Viktor Yandolin
 redirect_from:
 - /android/com.yawa/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-04-21
   version: 1.0.0.4
   icon: com.yawa.png
+  developerName: Viktor Yandolin
 
 ---
 

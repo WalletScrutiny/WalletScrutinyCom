@@ -19,6 +19,7 @@ android:
   version: 3.9.1
   reviews: 77
   icon: com.azasend.app.jpg
+  website: https://azasend.com
   developerName: Azasend Sp
 iphone:
   appId: com.azasend.app

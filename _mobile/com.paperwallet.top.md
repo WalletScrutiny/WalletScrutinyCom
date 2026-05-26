@@ -8,7 +8,6 @@ authors:
 website: https://github.com/technologiespro/paper-wallet-generator
 repository: https://github.com/technologiespro/paper-wallet-generator
 twitter: paperwallettop
-developerName: TechnoL0g
 redirect_from:
 - /android/com.paperwallet.top/
 android:
@@ -19,6 +18,7 @@ android:
   version: 1.0.22
   reviews: 4
   icon: com.paperwallet.top.png
+  developerName: TechnoL0g
 
 ---
 

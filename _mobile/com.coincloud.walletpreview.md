@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/Bitstopofficial
 - https://www.instagram.com/bitstopofficial
 - https://www.youtube.com/channel/UCInWJCpASNIgENyo9uep0lA/videos
-developerName: Coin Cloud
 redirect_from:
 - /android/com.coincloud.walletpreview/
 - /iphone/com.coincloud.walletpreview/
@@ -24,6 +23,7 @@ android:
   reviews: 44
   icon: com.coincloud.walletpreview.png
   website: http://coin.cloud/app#deadLink
+  developerName: Coin Cloud
 iphone:
   appId: com.coincloud.walletpreview
   idd: '1589867683'
@@ -34,6 +34,7 @@ iphone:
   reviews: 50
   icon: com.coincloud.walletpreview.jpg
   website: https://www.coin.cloud#deadLink
+  developerName: Coin Cloud
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.dcipher.io
 twitter: dCipher_io
-developerName: dCipher Alexandru Dirman
 redirect_from:
 - /android/com.androidwallet/
 android:
@@ -18,6 +17,7 @@ android:
   version: 1.1.20
   reviews: 12
   icon: com.androidwallet.png
+  developerName: dCipher Alexandru Dirman
 
 ---
 

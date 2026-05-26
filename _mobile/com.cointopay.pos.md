@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-02-26
 website: https://cointopay.com
-developerName: Cointopay.com
 redirect_from:
 - /android/com.cointopay.pos/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2023-03-09
   version: 1.3.0
   icon: com.cointopay.pos.png
+  website: https://cointopay.com
+  developerName: Cointopay.com
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://theblockbox.io
-developerName: Nena Vuckovic
 redirect_from:
 - /android/com.casirn/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-29
   version: 4.0.1
   icon: com.casirn.png
+  developerName: Nena Vuckovic
 
 ---
 

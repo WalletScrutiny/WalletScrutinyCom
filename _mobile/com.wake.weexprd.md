@@ -24,8 +24,9 @@ android:
   released: 2022-02-23
   updated: 2026-05-14
   version: 4.5.21
-  reviews: 347
+  reviews: 351
   icon: com.wake.weexprd.png
+  website: https://www.weex.com
   developerName: WEEX PRO
 iphone:
   appId: com.wake.weexprd

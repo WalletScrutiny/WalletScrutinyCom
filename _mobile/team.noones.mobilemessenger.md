@@ -2,6 +2,7 @@
 wsId: noonesMarketplace
 title: 'NoOnes: Buy Bitcoin & Crypto'
 verdict: custodial
+meta: ok
 date: 2023-07-30
 authors:
 - danny
@@ -19,7 +20,7 @@ android:
   released: 2023-05-04
   updated: 2026-04-08
   version: 1.26.0
-  reviews: 154
+  reviews: 156
   icon: team.noones.mobilemessenger.png
   meta: ok
   website: https://noones.com/

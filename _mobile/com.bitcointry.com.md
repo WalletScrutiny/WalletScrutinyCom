@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://bitcointry.com
 twitter: Bitcointrycom
-developerName: Devcode Technology Ltd
 redirect_from:
 - /android/com.bitcointry.com/
 android:
@@ -17,6 +16,8 @@ android:
   updated: 2025-11-07
   version: 5.0.1
   icon: com.bitcointry.com.png
+  website: https://bitcointry.com
+  developerName: Devcode Technology Ltd
 
 ---
 

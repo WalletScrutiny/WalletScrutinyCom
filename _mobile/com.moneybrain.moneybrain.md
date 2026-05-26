@@ -12,7 +12,6 @@ features:
 - buyWithCC
 - fingerprint
 - tradeAlts
-developerName: Moneybrain LTD
 appCountry: gb
 redirect_from:
 - /android/com.moneybrain.moneybrain/
@@ -21,9 +20,11 @@ android:
   appId: com.moneybrain.moneybrain
   users: 1000
   released: 2019-10-17
-  updated: 2026-04-17
-  version: 3.15.2-retail
+  updated: 2026-05-23
+  version: 3.16.2-retail
   icon: com.moneybrain.moneybrain.png
+  website: https://www.moneybrain.com
+  developerName: Moneybrain LTD
 iphone:
   appId: com.moneybrain.moneybrain
   idd: 1476827262
@@ -32,6 +33,7 @@ iphone:
   version: 3.15.2
   reviews: 10
   icon: com.moneybrain.moneybrain.jpg
+  developerName: Moneybrain LTD
 
 ---
 

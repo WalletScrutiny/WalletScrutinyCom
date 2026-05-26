@@ -9,7 +9,6 @@ authors:
 website: https://www.idax.exchange
 social:
 - https://www.facebook.com/daxmnofficial
-developerName: Ard Financial Group
 redirect_from:
 - /android/com.idax.exchange/
 - /iphone/com.idax.exchange/
@@ -21,6 +20,7 @@ android:
   version: 5.5.0_push_v2
   reviews: 6
   icon: com.idax.exchange.png
+  developerName: Ard Financial Group
 iphone:
   appId: com.idax.exchange
   idd: '1619039755'
@@ -30,6 +30,7 @@ iphone:
   version: 1.1.2
   reviews: 2
   icon: com.idax.exchange.jpg
+  developerName: Ard Financial Group
 
 ---
 

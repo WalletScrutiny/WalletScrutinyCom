@@ -6,7 +6,6 @@ date: 2023-08-04
 authors:
 - danny
 website: https://banq.com
-developerName: Banq, Inc.
 redirect_from:
 - /android/com.banqreactnative/
 android:
@@ -17,6 +16,7 @@ android:
   version: 5.4.0
   reviews: 6
   icon: com.banqreactnative.png
+  developerName: Banq, Inc.
 
 ---
 

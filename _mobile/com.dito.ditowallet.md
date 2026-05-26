@@ -10,7 +10,6 @@ twitter: ditobanx
 social:
 - https://www.linkedin.com/company/ditobanx
 - https://www.facebook.com/ditobanx
-developerName: DitoBanx
 redirect_from:
 - /android/com.dito.ditowallet/
 android:
@@ -21,6 +20,8 @@ android:
   version: 3.0.18
   reviews: 38
   icon: com.dito.ditowallet.png
+  website: https://ditobanx.com/
+  developerName: DitoBanx
 
 ---
 

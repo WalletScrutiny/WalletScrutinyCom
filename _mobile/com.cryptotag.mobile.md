@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://www.cryptotag.financial#deadLink
-developerName: Crypto Tag
 redirect_from:
 - /android/com.cryptotag.mobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-30
   version: 1.14.40.00000
   icon: com.cryptotag.mobile.png
+  developerName: Crypto Tag
 
 ---
 

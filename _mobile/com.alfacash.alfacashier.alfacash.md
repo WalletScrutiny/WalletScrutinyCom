@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-07
 website: https://wallet.alfa.cash/
-developerName: Alfa East Ltd.
 redirect_from:
 - /android/com.alfacash.alfacashier.alfacash/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-11-22
   version: 1.11.8
   icon: com.alfacash.alfacashier.alfacash.png
+  developerName: Alfa East Ltd.
 
 ---
 

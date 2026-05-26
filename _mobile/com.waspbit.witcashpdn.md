@@ -6,7 +6,6 @@ date: 2023-06-10
 authors:
 - danny
 website: http://witcash.io#deadLink
-developerName: Witcash
 redirect_from:
 - /android/com.waspbit.witcashpdn/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-14
   version: 2.0.9
   icon: com.waspbit.witcashpdn.jpg
+  developerName: Witcash
 
 ---
 

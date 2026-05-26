@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://web.archive.org/web/20240925161635/https://www.hubitcoinics.org/
-developerName: CodeCraftPro, Inc.
 redirect_from:
 - /android/org.hubitcoinics.Hubitcoinics/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-05-02
   version: 1.0.0
   icon: org.hubitcoinics.Hubitcoinics.png
+  developerName: CodeCraftPro, Inc.
 
 ---
 

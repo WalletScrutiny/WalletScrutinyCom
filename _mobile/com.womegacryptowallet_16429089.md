@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-03-14
 website: https://findhereall.com
-developerName: civilengineerstechnicals.world
 redirect_from:
 - /android/com.womegacryptowallet_16429089/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-06-06
   version: 1.0.4
   icon: com.womegacryptowallet_16429089.png
+  developerName: civilengineerstechnicals.world
 
 ---
 

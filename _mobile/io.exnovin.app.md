@@ -10,7 +10,6 @@ twitter: Exnovin_io
 social:
 - https://www.linkedin.com/company/exnovin
 - https://www.facebook.com/exnovin.io
-developerName: EX NOVIN
 redirect_from:
 - /android/io.exnovin.app/
 android:
@@ -21,6 +20,8 @@ android:
   version: 3.5.9
   reviews: 31
   icon: io.exnovin.app.png
+  website: https://exnovin.io
+  developerName: EX NOVIN
 
 ---
 

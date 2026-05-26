@@ -6,7 +6,6 @@ date: 2026-02-02
 authors:
 - danny
 website: http://www.echangerbd.com/
-developerName: exchangernet.com
 redirect_from:
 - /android/www.echangerbd.com/
 android:
@@ -16,6 +15,8 @@ android:
   updated: 2020-04-23
   version: '2.0'
   icon: www.echangerbd.com.png
+  website: http://www.echangerbd.com/
+  developerName: exchangernet.com
 
 ---
 

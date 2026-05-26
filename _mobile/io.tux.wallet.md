@@ -10,7 +10,6 @@ website: https://tux-wallet.com/
 twitter: Coinyexdotcom
 social:
 - https://t.me/coinyexchannel
-developerName: Coinyex Co., Ltd.
 redirect_from:
 - /android/io.tux.wallet/
 - /iphone/net.tuxglobal.wallet/
@@ -21,6 +20,8 @@ android:
   updated: 2026-04-17
   version: 4.0.8
   icon: io.tux.wallet.png
+  website: https://tux-wallet.com/
+  developerName: Coinyex Co., Ltd.
 iphone:
   appId: net.tuxglobal.wallet
   idd: '1495945761'
@@ -30,6 +31,7 @@ iphone:
   version: 4.0.8
   reviews: 0
   icon: net.tuxglobal.wallet.jpg
+  developerName: Coinyex Co., Ltd.
 
 ---
 

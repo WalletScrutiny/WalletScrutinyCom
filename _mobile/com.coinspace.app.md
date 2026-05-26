@@ -17,7 +17,6 @@ features:
 - foss
 - tradeAlts
 - fingerprint
-developerName: CoinSpace
 redirect_from:
 - /coin/
 - /com.coinspace.app/
@@ -29,11 +28,12 @@ android:
   appId: com.coinspace.app
   users: 500000
   released: 2015-05-01
-  updated: 2026-05-01
-  version: 6.26.1
+  updated: 2026-05-21
+  version: 6.27.0
   reviews: 110
   icon: com.coinspace.app.png
   website: https://coin.space
+  developerName: CoinSpace
   bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 iphone:
   appId: com.coinspace.wallet
@@ -44,6 +44,7 @@ iphone:
   reviews: 484
   icon: com.coinspace.wallet.jpg
   website: https://coin.space/
+  developerName: CoinSpace
   bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 
 ---

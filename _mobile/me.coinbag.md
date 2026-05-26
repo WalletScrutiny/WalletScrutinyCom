@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-23
 website: https://coinbag.me/
-developerName: TechPay
 redirect_from:
 - /android/me.coinbag/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-11-30
   version: '1.8'
   icon: me.coinbag.png
+  developerName: TechPay
 
 ---
 

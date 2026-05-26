@@ -6,7 +6,6 @@ date: 2023-12-19
 authors:
 - danny
 website: https://investxe.com
-developerName: InvestXE
 redirect_from:
 - /android/com.pandats.investxe/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-06-10
   version: 1.0.3
   icon: com.pandats.investxe.png
+  developerName: InvestXE
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2025-09-17
 website: https://www.authentrend.com/contact
-developerName: AuthenTrend Technology Inc.
 redirect_from:
 - /android/com.authentrend.atwallet/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2023-09-28
   version: v2.0.12
   icon: com.authentrend.atwallet.png
+  website: https://www.authentrend.com/contact
+  developerName: AuthenTrend Technology Inc.
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://sortedwallet.com
 twitter: sortedwallet
-developerName: Sors Technology Limited
 redirect_from:
 - /android/com.sortedwallet.sorted/
 android:
@@ -17,6 +16,8 @@ android:
   updated: 2026-05-15
   version: 1.0.22
   icon: com.sortedwallet.sorted.png
+  website: https://sortedwallet.com
+  developerName: Sors Technology Limited
 
 ---
 

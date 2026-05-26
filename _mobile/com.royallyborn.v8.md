@@ -14,7 +14,6 @@ social:
 - https://discord.com/invite/yQusCKf3tN
 - https://www.reddit.com/r/8Voffical_group
 - https://t.me/global8vchat
-developerName: 8v.com
 redirect_from:
 - /android/com.royallyborn.v8/
 android:
@@ -25,6 +24,8 @@ android:
   version: 1.2.5
   reviews: 17
   icon: com.royallyborn.v8.jpg
+  website: https://www.8v.com
+  developerName: 8v.com
 
 ---
 

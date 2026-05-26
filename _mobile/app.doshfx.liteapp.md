@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-10-31
 website: https://doshfx.io/
-developerName: DoshFx
 redirect_from:
 - /android/app.doshfx.liteapp/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-29
   version: '4.5'
   icon: app.doshfx.liteapp.png
+  developerName: DoshFx
 
 ---
 

@@ -22,9 +22,9 @@ android:
   appId: com.wallet.crypto.trustapp
   users: 50000000
   released: 2017-10-01
-  updated: 2026-05-18
-  version: 26.21.0
-  reviews: 21132
+  updated: 2026-05-24
+  version: 26.21.5
+  reviews: 21148
   icon: com.wallet.crypto.trustapp.png
   website: https://trustwallet.com/
   developerName: DApps Platform, Inc.

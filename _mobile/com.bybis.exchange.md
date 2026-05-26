@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/bybis
 - https://www.youtube.com/@ByBISyoutube
 - https://t.me/bybis_announcements
-developerName: ByBIS Limited
 redirect_from:
 - /android/com.bybis.exchange/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2023-07-12
   version: '1.13'
   icon: com.bybis.exchange.png
+  developerName: ByBIS Limited
 
 ---
 

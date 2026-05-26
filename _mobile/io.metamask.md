@@ -24,13 +24,13 @@ android:
   appId: io.metamask
   users: 10000000
   released: 2020-09-01
-  updated: 2026-05-15
+  updated: 2026-05-22
   version: 7.77.0
-  reviews: 6623
+  reviews: 6633
   icon: io.metamask.png
   website: https://support.metamask.io/
-  repository: https://github.com/MetaMask/metamask-mobile
   developerName: MetaMask Web3 Wallet
+  repository: https://github.com/MetaMask/metamask-mobile
 iphone:
   appId: io.metamask.MetaMask
   idd: 1438144202

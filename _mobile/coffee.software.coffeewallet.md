@@ -16,7 +16,6 @@ social:
 features:
 - hd
 - fingerprint
-developerName: Coffee  Software
 redirect_from:
 - /android/coffee.software.coffeewallet/
 android:
@@ -27,6 +26,8 @@ android:
   version: '0.22'
   reviews: 7
   icon: coffee.software.coffeewallet.png
+  website: https://wallet.coffee/
+  developerName: Coffee  Software
 
 ---
 

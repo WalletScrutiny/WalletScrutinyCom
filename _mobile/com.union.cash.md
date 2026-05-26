@@ -2,6 +2,7 @@
 wsId: unionCash
 title: Union.cash
 verdict: custodial
+meta: ok
 date: 2023-11-17
 authors:
 - danny
@@ -18,8 +19,8 @@ android:
   icon: com.union.cash.png
   meta: ok
   website: http://www.union.cash/
-  twitter: unioncash_eu
   developerName: Union Cash
+  twitter: unioncash_eu
 iphone:
   appId: com.union.cash
   idd: '1576165600'

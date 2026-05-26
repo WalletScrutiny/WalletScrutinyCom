@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-26
 website: https://gebo.io#deadLink
-developerName: ITBS LLC
 redirect_from:
 - /android/com.zoid.geboapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-12
   version: 2.0.0
   icon: com.zoid.geboapp.jpg
+  developerName: ITBS LLC
 
 ---
 

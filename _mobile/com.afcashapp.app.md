@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: http://afcash.app#deadLink
-developerName: AFRICUNIA
 redirect_from:
 - /android/com.afcashapp.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-23
   version: 3.57.0
   icon: com.afcashapp.app.png
+  developerName: AFRICUNIA
 
 ---
 

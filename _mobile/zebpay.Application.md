@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/zebpay
 features:
 - foss
-developerName: ZebPay
 redirect_from:
 - /zebpay.Application/
 - /posts/zebpay.Application/
@@ -23,8 +22,10 @@ android:
   released: 2014-12-23
   updated: 2026-05-07
   version: 3.81.3
-  reviews: 85
+  reviews: 84
   icon: zebpay.Application.png
+  website: https://www.zebpay.com
+  developerName: ZebPay
 
 ---
 

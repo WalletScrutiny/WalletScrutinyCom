@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: http://vspark.co
-developerName: Vspark Group
 redirect_from:
 - /android/com.vspark.vhwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-10-04
   version: 6.4.13
   icon: com.vspark.vhwallet.png
+  developerName: Vspark Group
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://topcoinfx.com
-developerName: TopcoinGlobal
 redirect_from:
 - /android/com.topcoinfx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-11
   version: '2.5'
   icon: com.topcoinfx.png
+  developerName: TopcoinGlobal
 
 ---
 

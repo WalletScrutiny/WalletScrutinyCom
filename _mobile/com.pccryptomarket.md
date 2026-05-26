@@ -6,7 +6,6 @@ date: 2023-05-31
 authors:
 - danny
 website: https://www.pccryptomarket.com#deadLink
-developerName: PC Crypto Market
 redirect_from:
 - /android/com.pccryptomarket/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-08-31
   version: '1.2'
   icon: com.pccryptomarket.png
+  developerName: PC Crypto Market
 
 ---
 

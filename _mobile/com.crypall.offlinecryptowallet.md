@@ -3,7 +3,6 @@ title: THE MOST SECURE CRYPTOCURRENCY
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: CRYPall Ltd.
 redirect_from:
 - /android/com.crypall.offlinecryptowallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-12
   version: '2.2'
   icon: com.crypall.offlinecryptowallet.png
+  developerName: CRYPall Ltd.
 
 ---
 

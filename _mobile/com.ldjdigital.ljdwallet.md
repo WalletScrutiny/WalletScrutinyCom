@@ -3,7 +3,6 @@ title: LDJ Wallet, your preferred mul
 verdict: wip
 meta: removed
 date: 2024-03-02
-developerName: LDJ Digital
 redirect_from:
 - /android/com.ldjdigital.ljdwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-09-03
   version: '1.18'
   icon: com.ldjdigital.ljdwallet.png
+  developerName: LDJ Digital
 
 ---
 

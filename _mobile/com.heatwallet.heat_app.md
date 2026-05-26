@@ -3,7 +3,6 @@ title: Heat Wallet
 verdict: wip
 meta: stale
 date: 2026-05-21
-developerName: Tulipfox-Tech
 redirect_from:
 - /android/com.heatwallet.heat_app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2025-02-07
   version: 2.5.2
   icon: com.heatwallet.heat_app.png
+  developerName: Tulipfox-Tech
 
 ---
 

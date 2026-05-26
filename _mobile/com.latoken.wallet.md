@@ -11,7 +11,6 @@ twitter: latokens
 social:
 - https://www.linkedin.com/company/latoken
 - https://www.facebook.com/LiquidAssetToken
-developerName: LATRADE
 redirect_from:
 - /android/com.latoken.wallet/
 android:
@@ -22,6 +21,8 @@ android:
   version: 1.206.00
   reviews: 110
   icon: com.latoken.wallet.png
+  website: http://latoken.com
+  developerName: LATRADE
 
 ---
 

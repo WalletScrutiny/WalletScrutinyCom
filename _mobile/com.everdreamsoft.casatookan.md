@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/everdreamsoft/
 - https://www.facebook.com/EverdreamSoft/
 - https://www.youtube.com/user/Everdreamsoft
-developerName: EverdreamSoft
 redirect_from:
 - /android/com.everdreamsoft.casatookan/
 android:
@@ -22,6 +21,8 @@ android:
   version: 1.2.4
   reviews: 6
   icon: com.everdreamsoft.casatookan.png
+  website: http://everdreamsoft.com
+  developerName: EverdreamSoft
 
 ---
 

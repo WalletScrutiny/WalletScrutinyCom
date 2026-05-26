@@ -18,8 +18,8 @@ android:
   appId: com.gateio.gateio
   users: 10000000
   released: 2017-11-03
-  updated: 2026-05-19
-  version: 8.20.0
+  updated: 2026-05-21
+  version: 8.20.1
   reviews: 7148
   icon: com.gateio.gateio.png
   website: https://www.gate.com/

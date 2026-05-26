@@ -6,7 +6,6 @@ date: 2023-03-30
 authors:
 - danny
 website: https://www.coinzo.com
-developerName: Coinzo
 redirect_from:
 - /android/com.coinzo.app/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-05-11
   version: 1.0.1
   icon: com.coinzo.app.png
+  developerName: Coinzo
 
 ---
 

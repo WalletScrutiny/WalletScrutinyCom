@@ -19,8 +19,9 @@ android:
   released: 2019-08-08
   updated: 2026-05-18
   version: 2.27.4
-  reviews: 167
+  reviews: 168
   icon: com.balletcrypto.png
+  website: https://www.ballet.com/
   developerName: Ballet Global Inc.
 iphone:
   appId: com.balletcrypto

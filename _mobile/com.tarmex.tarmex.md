@@ -14,7 +14,6 @@ social:
 - https://www.reddit.com/user/ARMTOKEN
 - https://www.instagram.com/tarmexio
 - https://www.youtube.com/@Tarmexio
-developerName: Tarmex Exchange
 redirect_from:
 - /android/com.tarmex.tarmex/
 android:
@@ -24,6 +23,7 @@ android:
   updated: 2023-11-09
   version: '1.1'
   icon: com.tarmex.tarmex.png
+  developerName: Tarmex Exchange
 
 ---
 

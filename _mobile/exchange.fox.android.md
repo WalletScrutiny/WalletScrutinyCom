@@ -6,7 +6,6 @@ date: 2023-05-03
 authors:
 - danny
 website: https://fox.exchange#deadLink
-developerName: Fox Exchange
 redirect_from:
 - /android/exchange.fox.android/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-04-20
   version: 1.5.1
   icon: exchange.fox.android.png
+  developerName: Fox Exchange
 
 ---
 

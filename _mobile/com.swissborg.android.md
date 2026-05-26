@@ -19,10 +19,11 @@ android:
   appId: com.swissborg.android
   users: 500000
   released: 2020-06-16
-  updated: 2026-05-14
-  version: 1.135.1
+  updated: 2026-05-22
+  version: 1.136.0
   reviews: 979
   icon: com.swissborg.android.png
+  website: https://swissborg.com
   developerName: SwissBorg
 iphone:
   appId: com.swissborg.ios

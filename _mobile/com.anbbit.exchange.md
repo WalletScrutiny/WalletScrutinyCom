@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-08-04
 website: https://anbbit.com
-developerName: Anbbit.com
 redirect_from:
 - /android/com.anbbit.exchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-31
   version: 1.1.2
   icon: com.anbbit.exchange.png
+  developerName: Anbbit.com
 
 ---
 

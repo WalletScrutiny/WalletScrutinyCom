@@ -18,7 +18,7 @@ android:
   users: 1000000
   released: 2016-03-30
   updated: 2026-05-20
-  version: 3.184.0-2026050414
+  version: 3.185.0-2026052009
   reviews: 279
   icon: com.moneybookers.skrillpayments.neteller.png
   website: https://www.neteller.com

@@ -10,7 +10,6 @@ website: https://www.itoken.com/
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
-developerName: BlazekTech Internet Technology Service Limited
 redirect_from:
 - /android/com.huobionchainwallet.gp/
 android:
@@ -21,6 +20,7 @@ android:
   version: 3.03.06.003
   reviews: 185
   icon: com.huobionchainwallet.gp.png
+  developerName: BlazekTech Internet Technology Service Limited
 
 ---
 

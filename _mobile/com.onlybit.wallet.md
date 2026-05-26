@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://tradebit.in#deadLink
-developerName: trade bit
 redirect_from:
 - /android/com.onlybit.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2021-02-08
   version: '1.4'
   icon: com.onlybit.wallet.png
+  developerName: trade bit
 
 ---
 

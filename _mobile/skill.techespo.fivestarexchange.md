@@ -5,7 +5,6 @@ meta: removed
 date: 2024-05-18
 authors:
 - danny
-developerName: Pingulkars Technology Solutions Private Limited
 redirect_from:
 - /android/skill.techespo.fivestarexchange/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2020-08-27
   version: '1.0'
   icon: skill.techespo.fivestarexchange.png
+  developerName: Pingulkars Technology Solutions Private Limited
 
 ---
 

@@ -24,6 +24,7 @@ android:
   version: 1.9.8
   reviews: 10
   icon: com.scallopxledger.png
+  website: https://emoney.io/
   developerName: Scallop
 iphone:
   appId: com.scallop.app

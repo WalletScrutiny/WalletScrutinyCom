@@ -10,7 +10,6 @@ twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
 - https://www.youtube.com/user/lmax
-developerName: LMAX BROKER LIMITED
 redirect_from:
 - /android/com.mobiletradingpartners.lmax/
 - /iphone/mobiletradingpartners.lmax.exchange.iphone/
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.mobiletradingpartners.lmax.png
   website: http://www.lmax.com/mobile
+  developerName: LMAX BROKER LIMITED
 iphone:
   appId: mobiletradingpartners.lmax.exchange.iphone
   idd: 884042608
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: mobiletradingpartners.lmax.exchange.iphone.jpg
   website: https://www.lmax.com/mobile
+  developerName: LMAX BROKER LIMITED
 
 ---
 

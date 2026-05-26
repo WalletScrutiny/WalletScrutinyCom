@@ -6,7 +6,6 @@ date: 2023-05-23
 authors:
 - danny
 website: https://www.digibot99.com#deadLink
-developerName: Smart Crypto Studio
 redirect_from:
 - /android/com.digibot99.dgb/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-07
   version: 0.0.1
   icon: com.digibot99.dgb.png
+  developerName: Smart Crypto Studio
 
 ---
 

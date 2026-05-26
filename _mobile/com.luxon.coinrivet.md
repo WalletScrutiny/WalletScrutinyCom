@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://coinrivet.com/
-developerName: Galias Services
 redirect_from:
 - /android/com.luxon.coinrivet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-12
   version: 1.0.0.53
   icon: com.luxon.coinrivet.png
+  developerName: Galias Services
 
 ---
 

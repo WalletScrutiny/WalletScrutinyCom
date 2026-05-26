@@ -21,8 +21,8 @@ android:
   appId: com.multibank.app
   users: 100000
   released: 2023-04-04
-  updated: 2026-05-08
-  version: 26.0.23
+  updated: 2026-05-22
+  version: 26.0.25
   reviews: 7
   icon: com.multibank.app.png
   website: https://mb.io/

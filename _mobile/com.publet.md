@@ -6,7 +6,6 @@ date: 2023-06-02
 authors:
 - danny
 website: https://www.publet.io/
-developerName: Publet Pte. Ltd.
 redirect_from:
 - /android/com.publet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-11-20
   version: '1.9'
   icon: com.publet.png
+  developerName: Publet Pte. Ltd.
 
 ---
 

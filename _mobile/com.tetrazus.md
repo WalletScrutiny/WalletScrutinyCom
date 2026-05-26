@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://tetrazus.com#deadLink
-developerName: Tetrazus
 redirect_from:
 - /android/com.tetrazus/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-11
   version: '1.1'
   icon: com.tetrazus.png
+  developerName: Tetrazus
 
 ---
 

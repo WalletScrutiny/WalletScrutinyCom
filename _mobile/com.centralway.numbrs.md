@@ -4,7 +4,6 @@ verdict: nosource
 meta: removed
 date: 2024-03-02
 website: https://www.numbrs.com#deadLink
-developerName: Numbrs Personal Finance AG
 redirect_from:
 - /android/com.centralway.numbrs/
 android:
@@ -15,6 +14,7 @@ android:
   version: 7.4.0
   reviews: 6
   icon: com.centralway.numbrs.png
+  developerName: Numbrs Personal Finance AG
 
 ---
 

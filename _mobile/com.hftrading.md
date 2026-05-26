@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://www.hftrading.com
-developerName: CTRL Investments Ltd
 redirect_from:
 - /android/com.hftrading/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-08-25
   version: 1.5.69-hftrading
   icon: com.hftrading.png
+  developerName: CTRL Investments Ltd
 
 ---
 

@@ -19,9 +19,9 @@ android:
   appId: com.whitebit.android
   users: 1000000
   released: 2019-06-07
-  updated: 2026-05-20
-  version: 3.74.1
-  reviews: 1344
+  updated: 2026-05-22
+  version: 3.74.2
+  reviews: 1348
   icon: com.whitebit.android.png
   website: https://whitebit.com/
   developerName: WhiteBit

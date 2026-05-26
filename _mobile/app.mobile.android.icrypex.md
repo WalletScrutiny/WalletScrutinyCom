@@ -2,6 +2,7 @@
 wsId: iCrypex
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
 verdict: custodial
+meta: ok
 date: 2022-06-24
 authors:
 - danny

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://pealab.io/wallet#deadLink
-developerName: PEALAB
 redirect_from:
 - /android/com.pea.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-27
   version: 1.0.1
   icon: com.pea.wallet.png
+  developerName: PEALAB
 
 ---
 

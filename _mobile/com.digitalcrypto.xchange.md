@@ -5,7 +5,6 @@ meta: removed
 date: 2023-05-23
 authors:
 - danny
-developerName: Sunway Trading Company
 redirect_from:
 - /android/com.digitalcrypto.xchange/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-17
   version: '1.04'
   icon: com.digitalcrypto.xchange.png
+  developerName: Sunway Trading Company
 
 ---
 

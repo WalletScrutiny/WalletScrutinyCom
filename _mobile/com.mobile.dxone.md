@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.dxone.com/
-developerName: DXone Ltd.
 redirect_from:
 - /android/com.mobile.dxone/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-27
   version: 1.0.9
   icon: com.mobile.dxone.png
+  developerName: DXone Ltd.
 
 ---
 

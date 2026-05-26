@@ -5,7 +5,6 @@ meta: removed
 date: 2025-05-14
 authors:
 - danny
-developerName: Bitsofta
 redirect_from:
 - /android/ua.money.storage.moneystorage/
 android:
@@ -16,6 +15,7 @@ android:
   version: 2.1.0
   reviews: 3
   icon: ua.money.storage.moneystorage.png
+  developerName: Bitsofta
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-08-07
 authors:
 - danny
 website: https://www.huoancoin.com#deadLink
-developerName: TRED Studio
 redirect_from:
 - /android/com.app.huoancoin/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   reviews: 18
   icon: com.app.huoancoin.png
+  developerName: TRED Studio
 
 ---
 

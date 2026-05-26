@@ -6,7 +6,6 @@ date: 2023-06-14
 authors:
 - danny
 website: https://ftxtr.com
-developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI
 redirect_from:
 - /android/com.ftxmobile.ftxtr/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-11-01
   version: 2.0.9
   icon: com.ftxmobile.ftxtr.png
+  developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI
 
 ---
 

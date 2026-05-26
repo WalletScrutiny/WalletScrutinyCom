@@ -13,7 +13,7 @@ android:
   appId: com.cloud.thailand
   users: 1000000
   released: 2023-10-31
-  updated: 2026-05-19
+  updated: 2026-05-25
   version: 1.55.0
   reviews: 4
   icon: com.cloud.thailand.jpg

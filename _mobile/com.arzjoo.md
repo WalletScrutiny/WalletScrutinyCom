@@ -7,7 +7,6 @@ authors:
 - leo
 website: https://sarmayex.com
 twitter: arzjoo
-developerName: A to Z Crypto
 redirect_from:
 - /com.arzjoo/
 - /android/com.arzjoo/
@@ -15,10 +14,12 @@ android:
   appId: com.arzjoo
   users: 100000
   released: 2019-04-25
-  updated: 2026-03-13
-  version: 1.9.0
-  reviews: 81
+  updated: 2026-05-23
+  version: 1.9.1
+  reviews: 78
   icon: com.arzjoo.png
+  website: https://sarmayex.com
+  developerName: A to Z Crypto
 
 ---
 

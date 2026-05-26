@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.swiftxchange.com.ng#deadLink
-developerName: Awootech
 redirect_from:
 - /android/com.tradedigitals.swiftxchange/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-16
   version: '1.0'
   icon: com.tradedigitals.swiftxchange.png
+  developerName: Awootech
 
 ---
 

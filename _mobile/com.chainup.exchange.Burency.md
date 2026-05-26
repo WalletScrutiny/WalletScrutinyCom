@@ -8,7 +8,6 @@ authors:
 website: https://www.burency.com#deadLink
 social:
 - https://medium.com/@BurencyOfficial
-developerName: Burency Global
 redirect_from:
 - /android/com.chainup.exchange.Burency/
 android:
@@ -19,6 +18,7 @@ android:
   version: 5.9.1_push_v2
   reviews: 10
   icon: com.chainup.exchange.Burency.png
+  developerName: Burency Global
 
 ---
 

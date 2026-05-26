@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2022-07-31
 website: https://ampiy.com
-developerName: Ampiy
 redirect_from:
 - /android/com.ampiy.app/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-09-30
   version: 5.0.1
   icon: com.ampiy.app.png
+  website: https://ampiy.com
+  developerName: Ampiy
 
 ---
 

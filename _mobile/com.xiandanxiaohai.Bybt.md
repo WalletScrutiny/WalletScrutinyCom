@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.coinglass.com
 twitter: coinglass_com
-developerName: Coinglass Technology Co., Limited
 appCountry: us
 redirect_from:
 - /iphone/com.xiandanxiaohai.Bybt/
@@ -19,6 +18,7 @@ iphone:
   version: 2.7.1
   reviews: 5559
   icon: com.xiandanxiaohai.Bybt.jpg
+  developerName: Coinglass Technology Co., Limited
 
 ---
 

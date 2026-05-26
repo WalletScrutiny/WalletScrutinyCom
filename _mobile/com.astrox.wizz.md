@@ -13,7 +13,6 @@ features:
 - segwit
 - hd
 - taproot
-developerName: AstroX Network
 redirect_from:
 - /android/com.astrox.wizz/
 - /iphone/com.astrox.wizz/
@@ -25,6 +24,7 @@ android:
   version: 1.9.11
   icon: com.astrox.wizz.png
   website: https://wizzwallet.io
+  developerName: AstroX Network
 iphone:
   appId: com.astrox.wizz
   idd: '6451117430'
@@ -35,6 +35,7 @@ iphone:
   reviews: 16
   icon: com.astrox.wizz.jpg
   website: https://wizzwallet.io/
+  developerName: AstroX Network
 
 ---
 

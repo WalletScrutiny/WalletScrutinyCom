@@ -6,7 +6,6 @@ date: 2023-12-19
 authors:
 - leo
 website: https://www.melis.io
-developerName: Melis
 redirect_from:
 - /io.melis.walletlite/
 - /posts/io.melis.walletlite/
@@ -18,6 +17,7 @@ android:
   updated: 2019-06-03
   version: 0.4.0
   icon: io.melis.walletlite.png
+  developerName: Melis
 
 ---
 

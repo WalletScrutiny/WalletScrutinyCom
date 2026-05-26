@@ -11,7 +11,6 @@ twitter: DexNodaWallett
 social:
 - https://www.linkedin.com/company/noda-project-8b4a251b3
 - https://www.reddit.com/r/NodaWallet
-developerName: noda
 redirect_from:
 - /android/com.application.nodawallet/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.0.20
   reviews: 55
   icon: com.application.nodawallet.png
+  developerName: noda
 
 ---
 

@@ -9,7 +9,6 @@ website: https://www.exir.io/
 twitter: EXIR_Official
 social:
 - https://www.linkedin.com/company/exirexchange/
-developerName: EXIR
 redirect_from:
 - /android/com.exir.mobile/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.2.4
   reviews: 14
   icon: com.exir.mobile.jpg
+  developerName: EXIR
 
 ---
 

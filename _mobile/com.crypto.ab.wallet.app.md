@@ -21,8 +21,9 @@ android:
   released: 2023-09-27
   updated: 2026-02-17
   version: 1.20.0
-  reviews: 231
+  reviews: 233
   icon: com.crypto.ab.wallet.app.png
+  website: https://alicebob.com/
   developerName: AliceBob – Secure Crypto Wallet
 iphone:
   appId: com.ab.crypto.wallet.app

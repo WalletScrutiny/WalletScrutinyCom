@@ -4,7 +4,6 @@ verdict: wip
 meta: fewusers
 date: 2026-02-02
 website: https://ninjapay.me/
-developerName: Ninjapay
 redirect_from:
 - /android/com.ninja.ninjapay.me/
 android:
@@ -14,6 +13,8 @@ android:
   updated: 2025-10-16
   version: 2.1.9
   icon: com.ninja.ninjapay.me.png
+  website: https://ninjapay.me/
+  developerName: Ninjapay
 
 ---
 

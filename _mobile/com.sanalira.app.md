@@ -22,8 +22,8 @@ android:
   version: 1.0.32
   icon: com.sanalira.app.png
   website: https://www.sanalira.com
-  twitter: sanaliracom
   developerName: SANALİRA
+  twitter: sanaliracom
 iphone:
   appId: com.sanalira.app
   idd: '1607853983'

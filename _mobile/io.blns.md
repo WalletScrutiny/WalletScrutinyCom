@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-04-28
 website: https://blns.io
-developerName: BLNS Ltd
 redirect_from:
 - /android/io.blns/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2025-10-27
   version: 2.0.1
   icon: io.blns.png
+  developerName: BLNS Ltd
 
 ---
 

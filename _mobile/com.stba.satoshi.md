@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2024-12-17
 website: https://satoshi.money/
-developerName: Satoshi
 appCountry: us
 redirect_from:
 - /iphone/com.stba.satoshi/
@@ -16,6 +15,7 @@ iphone:
   version: 1.0.16
   reviews: 38
   icon: com.stba.satoshi.jpg
+  developerName: Satoshi
 
 ---
 

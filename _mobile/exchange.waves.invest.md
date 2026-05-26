@@ -20,8 +20,8 @@ android:
   version: 1.10.10
   reviews: 5
   icon: exchange.waves.invest.png
-  twitter: WXNetwork
   developerName: WX Development LTD.
+  twitter: WXNetwork
 iphone:
   appId: exchange.waves.invest
   idd: '1582794195'

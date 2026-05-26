@@ -6,7 +6,6 @@ date: 2026-01-14
 authors:
 - danny
 website: https://oxwallet.app
-developerName: Oxlabs group
 redirect_from:
 - /android/app.oxwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2025-04-06
   version: 2.2.3
   icon: app.oxwallet.png
+  developerName: Oxlabs group
 
 ---
 

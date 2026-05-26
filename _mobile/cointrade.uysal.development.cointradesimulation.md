@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.okanuysal.com/
-developerName: uysalokan
 redirect_from:
 - /android/cointrade.uysal.development.cointradesimulation/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2018-02-20
   version: '1.4'
   icon: cointrade.uysal.development.cointradesimulation.png
+  developerName: uysalokan
 
 ---
 

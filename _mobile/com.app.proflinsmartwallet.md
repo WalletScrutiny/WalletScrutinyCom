@@ -3,7 +3,6 @@ title: Proflin Smart Wallet
 verdict: wip
 meta: removed
 date: 2023-09-28
-developerName: Linx GC Dev
 redirect_from:
 - /android/com.app.proflinsmartwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-08
   version: '1.0'
   icon: com.app.proflinsmartwallet.png
+  developerName: Linx GC Dev
 
 ---
 

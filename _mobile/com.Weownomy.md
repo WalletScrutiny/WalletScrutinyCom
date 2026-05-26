@@ -5,7 +5,6 @@ meta: removed
 date: 2023-07-28
 authors:
 - danny
-developerName: Weownomy Platform
 redirect_from:
 - /android/com.Weownomy/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.0.4
   reviews: 67
   icon: com.Weownomy.png
+  developerName: Weownomy Platform
 
 ---
 

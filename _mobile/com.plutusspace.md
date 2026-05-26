@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://plutus.space#deadLink
-developerName: Plutus Space LLC
 redirect_from:
 - /android/com.plutusspace/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-01-22
   version: '1.0'
   icon: com.plutusspace.jpg
+  developerName: Plutus Space LLC
 
 ---
 

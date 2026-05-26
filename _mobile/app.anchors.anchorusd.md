@@ -2,11 +2,11 @@
 wsId: AnchorUSD
 title: Anchor - Buy Bitcoin and Ether
 verdict: custodial
+meta: ok
 date: 2021-10-01
 authors:
 - danny
 twitter: anchorusd
-developerName: Anchor US LLC
 appCountry: us
 redirect_from:
 - /android/app.anchors.anchorusd/
@@ -21,6 +21,7 @@ android:
   icon: app.anchors.anchorusd.png
   meta: removed
   website: https://www.tryanchor.com
+  developerName: Anchor US LLC
 iphone:
   appId: app.anchors.anchorusd
   idd: '1495986023'
@@ -31,6 +32,7 @@ iphone:
   icon: app.anchors.anchorusd.jpg
   meta: ok
   website: https://www.tryanchor.com/
+  developerName: Anchor US LLC
 
 ---
 

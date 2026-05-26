@@ -13,7 +13,6 @@ social:
 - https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg
 - https://www.instagram.com/bytex.io
 - https://www.linkedin.com/company/bytex-canada
-developerName: ByteX Financial LTD.
 redirect_from:
 - /android/com.tusker.bytexio/
 - /iphone/com.tusker.bytexio/
@@ -25,6 +24,7 @@ android:
   version: 1.0.9
   icon: com.tusker.bytexio.png
   meta: removed
+  developerName: ByteX Financial LTD.
 iphone:
   appId: com.tusker.bytexio
   idd: '1621476540'
@@ -36,6 +36,7 @@ iphone:
   icon: com.tusker.bytexio.jpg
   meta: ok
   website: https://bytex.io/
+  developerName: ByteX Financial LTD.
 
 ---
 

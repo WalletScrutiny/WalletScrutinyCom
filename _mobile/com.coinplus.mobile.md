@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://www.coinplus.com
-developerName: Coinplus, Inc
 redirect_from:
 - /android/com.coinplus.mobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-12-15
   version: 1.3.0
   icon: com.coinplus.mobile.png
+  developerName: Coinplus, Inc
 
 ---
 

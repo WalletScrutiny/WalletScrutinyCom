@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://kolicoin.com#deadLink
-developerName: Kolicoin Limited
 redirect_from:
 - /android/com.ubakasi.kolicoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-21
   version: 5.1.7
   icon: com.ubakasi.kolicoin.png
+  developerName: Kolicoin Limited
 
 ---
 

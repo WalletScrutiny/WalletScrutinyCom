@@ -6,7 +6,6 @@ date: 2023-08-05
 authors:
 - danny
 twitter: gcct2017
-developerName: GIT Dev
 redirect_from:
 - /android/com.liyeplimal/
 android:
@@ -17,6 +16,7 @@ android:
   version: '1.18'
   reviews: 7
   icon: com.liyeplimal.jpg
+  developerName: GIT Dev
 
 ---
 

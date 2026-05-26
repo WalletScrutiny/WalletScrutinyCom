@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://nfpfederal.com#deadLink
-developerName: NFP Developer Team
 redirect_from:
 - /android/com.nfpfederal.investorsnfp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-09-23
   version: '1.0'
   icon: com.nfpfederal.investorsnfp.png
+  developerName: NFP Developer Team
 
 ---
 

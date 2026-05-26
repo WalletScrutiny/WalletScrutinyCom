@@ -8,7 +8,6 @@ authors:
 website: https://bitefinance.net#deadLink
 social:
 - https://bitefinance.org#deadLink
-developerName: Bit Crypto Services
 redirect_from:
 - /android/com.bitcoinwallet.btclun/
 android:
@@ -19,6 +18,7 @@ android:
   version: 3.04.28
   reviews: 33
   icon: com.bitcoinwallet.btclun.png
+  developerName: Bit Crypto Services
 
 ---
 

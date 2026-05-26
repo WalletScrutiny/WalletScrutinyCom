@@ -23,6 +23,7 @@ android:
   version: 1.3.3.10300
   reviews: 245
   icon: com.coincircle.png
+  website: https://coincircle.com
   developerName: CoinCircle, Inc.
 iphone:
   appId: com.coincircle.app

@@ -6,7 +6,6 @@ date: 2023-05-30
 authors:
 - danny
 website: https://mtobit.com
-developerName: mtobit
 redirect_from:
 - /android/com.mtobit.aos/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-29
   version: 1.1.6
   icon: com.mtobit.aos.png
+  developerName: mtobit
 
 ---
 

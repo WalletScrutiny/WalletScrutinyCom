@@ -13,7 +13,6 @@ social:
 - https://www.facebook.com/ChivoWalletSLV
 features:
 - ln
-developerName: Gobierno de El Salvador
 appCountry: sv
 redirect_from:
 - /android/com.chivo.wallet/
@@ -26,6 +25,8 @@ android:
   version: 3.0.0
   reviews: 14230
   icon: com.chivo.wallet.png
+  website: https://www.chivowallet.com
+  developerName: Gobierno de El Salvador
 iphone:
   appId: com.chivo.wallet
   idd: 1581515981
@@ -34,6 +35,7 @@ iphone:
   version: 3.1.0
   reviews: 4263
   icon: com.chivo.wallet.jpg
+  developerName: Gobierno de El Salvador
 
 ---
 

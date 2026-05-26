@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/fibitproexchange
 - https://telegram.org/fibitpro
 - https://fibitpro.com
-developerName: Fibit Infotech Pvt. Ltd.
 redirect_from:
 - /android/com.fibitpro.fibitapp/
 - /iphone/com.fibit.ios/
@@ -25,6 +24,7 @@ android:
   reviews: 61
   icon: com.fibitpro.fibitapp.png
   website: https://fibitpro.com
+  developerName: Fibit Infotech Pvt. Ltd.
 iphone:
   appId: com.fibit.ios
   idd: '1603620552'
@@ -34,6 +34,7 @@ iphone:
   version: 1.1.3
   reviews: 10
   icon: com.fibit.ios.jpg
+  developerName: Fibit Infotech Pvt. Ltd.
 
 ---
 

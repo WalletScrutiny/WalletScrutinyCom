@@ -10,7 +10,6 @@ twitter: lulubitapp
 social:
 - https://www.linkedin.com/company/lulubit
 - https://www.facebook.com/lulubitapp
-developerName: Lulubit
 redirect_from:
 - /android/com.lulubit/
 - /iphone/lulubitLLC.lulubit/
@@ -23,6 +22,7 @@ android:
   reviews: 17
   icon: com.lulubit.png
   meta: removed
+  developerName: Lulubit
 iphone:
   appId: lulubitLLC.lulubit
   idd: '6444370380'
@@ -33,6 +33,7 @@ iphone:
   reviews: 176
   icon: lulubitLLC.lulubit.jpg
   meta: ok
+  developerName: Lulubit
 
 ---
 

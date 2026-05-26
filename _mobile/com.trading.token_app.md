@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-09-15
 website: https://exchange.tradingtoken.io#deadLink
-developerName: Trading Token Team
 redirect_from:
 - /android/com.trading.token_app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-14
   version: 1.0.0
   icon: com.trading.token_app.png
+  developerName: Trading Token Team
 
 ---
 

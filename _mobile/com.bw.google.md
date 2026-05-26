@@ -6,7 +6,6 @@ date: 2023-04-21
 authors:
 - danny
 website: https://www.bwex.vip#deadLink
-developerName: bwexchange
 redirect_from:
 - /android/com.bw.google/
 android:
@@ -17,6 +16,7 @@ android:
   version: 2.1.4
   reviews: 4
   icon: com.bw.google.jpg
+  developerName: bwexchange
 
 ---
 

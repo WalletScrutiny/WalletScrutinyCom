@@ -9,7 +9,6 @@ website: https://wmzarin.com
 social:
 - https://www.instagram.com/wmzarin
 - https://t.me/ex_wmzarin
-developerName: DAVID JONS
 redirect_from:
 - /android/com.artarax.cryptoShop.wMZarin/
 android:
@@ -20,6 +19,7 @@ android:
   version: 2.026.148-GooglePlay
   reviews: 2
   icon: com.artarax.cryptoShop.wMZarin.png
+  developerName: DAVID JONS
 
 ---
 

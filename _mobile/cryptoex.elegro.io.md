@@ -13,7 +13,6 @@ social:
 - https://www.instagram.com/elegro.wallet
 - https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
 - https://t.me/nikotech_support
-developerName: Niko Technologies
 redirect_from:
 - /cryptoex.elegro.io/
 - /posts/cryptoex.elegro.io/
@@ -28,6 +27,7 @@ android:
   icon: cryptoex.elegro.io.png
   meta: removed
   website: https://personal.elegro.eu/exchange#deadLink
+  developerName: Niko Technologies
 iphone:
   appId: cryptoex.elegro.io
   idd: '1469234024'
@@ -39,6 +39,7 @@ iphone:
   icon: cryptoex.elegro.io.jpg
   meta: obsolete
   website: https://personal.elegro.eu/certified-coins
+  developerName: Niko Technologies
 
 ---
 

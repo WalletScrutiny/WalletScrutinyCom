@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2026-05-13
 website: https://confirmo.net
-developerName: Confirmo
 redirect_from:
 - /android/cz.confirmo.app.pos/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2025-08-21
   version: VARY
   icon: cz.confirmo.app.pos.png
+  developerName: Confirmo
 
 ---
 

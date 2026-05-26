@@ -10,7 +10,6 @@ repository: https://github.com/Bamskki/Cypher-Box
 twitter: Cypher_Box
 social:
 - https://t.me/cypher_box
-developerName: Cypher Box LLC
 redirect_from:
 - /android/io.cypherbox.btc/
 android:
@@ -20,6 +19,8 @@ android:
   updated: 2026-03-29
   version: 0.0.8
   icon: io.cypherbox.btc.png
+  website: https://cypherbox.io
+  developerName: Cypher Box LLC
 
 ---
 

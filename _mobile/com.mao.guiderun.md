@@ -5,7 +5,6 @@ meta: removed
 date: 2023-08-07
 authors:
 - danny
-developerName: Fabian Cooper
 redirect_from:
 - /android/com.mao.guiderun/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-05-20
   version: 1.0.4
   icon: com.mao.guiderun.png
+  developerName: Fabian Cooper
 
 ---
 

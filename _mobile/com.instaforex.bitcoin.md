@@ -6,7 +6,6 @@ date: 2023-05-10
 authors:
 - danny
 website: http://www.instaforex.com
-developerName: Instaforex
 redirect_from:
 - /android/com.instaforex.bitcoin/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-08-26
   version: 0.12.3
   icon: com.instaforex.bitcoin.png
+  developerName: Instaforex
 
 ---
 

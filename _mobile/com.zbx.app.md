@@ -2,6 +2,7 @@
 wsId: ZBX
 title: ZBX - Bitcoin & Cryptocurrency
 verdict: custodial
+meta: ok
 date: 2021-11-15
 authors:
 - danny

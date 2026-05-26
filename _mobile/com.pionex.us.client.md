@@ -10,7 +10,6 @@ twitter: PionexUS
 social:
 - https://discord.com/invite/dZbvbeXK46
 - https://t.me/pionexus
-developerName: Webot Global
 redirect_from:
 - /android/com.pionex.us.client/
 android:
@@ -18,9 +17,11 @@ android:
   users: 100000
   released: 2022-02-25
   updated: 2026-05-19
-  version: 2.1.4
-  reviews: 648
+  version: 2.1.5
+  reviews: 650
   icon: com.pionex.us.client.png
+  website: https://www.pionex.us/
+  developerName: Webot Global
 
 ---
 

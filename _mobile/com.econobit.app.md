@@ -3,7 +3,6 @@ title: Econobit
 verdict: wip
 meta: obsolete
 date: 2025-11-05
-developerName: Econobit
 redirect_from:
 - /android/com.econobit.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-11-06
   version: 0.1.8
   icon: com.econobit.app.png
+  developerName: Econobit
 
 ---
 

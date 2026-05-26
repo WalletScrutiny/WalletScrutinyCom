@@ -6,7 +6,6 @@ date: 2021-05-08
 authors:
 - kiwilamb
 website: https://anxintl.com
-developerName: ANX
 redirect_from:
 - /android/com.anxbtc.android/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.8.0
   reviews: 10
   icon: com.anxbtc.android.png
+  developerName: ANX
 
 ---
 

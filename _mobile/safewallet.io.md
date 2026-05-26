@@ -10,7 +10,6 @@ twitter: theamgen
 social:
 - https://www.facebook.com/theamgen
 - https://www.instagram.com/the.amgen
-developerName: AmgenWallet
 redirect_from:
 - /android/safewallet.io/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2023-10-19
   version: 1.0.15
   icon: safewallet.io.png
+  developerName: AmgenWallet
 
 ---
 

@@ -10,7 +10,6 @@ twitter: shakepay
 social:
 - https://www.facebook.com/shakepay
 - https://www.reddit.com/r/shakepay
-developerName: Shakepay
 redirect_from:
 - /com.shaketh/
 - /posts/com.shaketh/
@@ -19,10 +18,12 @@ android:
   appId: com.shaketh
   users: 500000
   released: 2018-02-20
-  updated: 2026-05-19
-  version: 4.6.33
+  updated: 2026-05-22
+  version: 4.6.35
   reviews: 21
   icon: com.shaketh.png
+  website: https://shakepay.com
+  developerName: Shakepay
 
 ---
 

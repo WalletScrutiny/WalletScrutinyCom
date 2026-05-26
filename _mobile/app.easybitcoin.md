@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/easyBitcoinApp
 - https://www.instagram.com/easyBitcoinapp
 - https://www.youtube.com/@easyBitcoinApp
-developerName: Uphold HQ Inc.
 redirect_from:
 - /android/app.easybitcoin/
 - /iphone/app.easybitcoin/
@@ -24,6 +23,7 @@ android:
   reviews: 26
   icon: app.easybitcoin.png
   website: https://easybitcoin.app/
+  developerName: Uphold HQ Inc.
 iphone:
   appId: app.easybitcoin
   idd: '6746941684'
@@ -31,8 +31,9 @@ iphone:
   released: 2025-09-09
   updated: 2026-04-11
   version: 1.2.2
-  reviews: 12
+  reviews: 11
   icon: app.easybitcoin.jpg
+  developerName: Uphold HQ Inc.
 
 ---
 

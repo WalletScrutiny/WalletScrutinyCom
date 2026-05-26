@@ -7,7 +7,6 @@ authors:
 - danny
 website: http://chainsafe.io
 repository: https://github.com/ChainSafe/WeiPay
-developerName: ChainSafe Systems
 redirect_from:
 - /android/com.chainsafe.weipay/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-02-18
   version: VARY
   icon: com.chainsafe.weipay.png
+  developerName: ChainSafe Systems
 
 ---
 

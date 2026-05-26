@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: http://www.blocpal.com
-developerName: BlocPal International Inc.
 redirect_from:
 - /android/com.blocpal.terminal/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-23
   version: 1.0.1
   icon: com.blocpal.terminal.png
+  developerName: BlocPal International Inc.
 
 ---
 

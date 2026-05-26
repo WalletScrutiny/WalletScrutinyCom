@@ -6,7 +6,6 @@ date: 2024-12-23
 authors:
 - danny
 website: https://amir.capital/
-developerName: Amir Capital
 redirect_from:
 - /android/capital.amir.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2024-03-21
   version: 3.23.3.01
   icon: capital.amir.wallet.jpg
+  developerName: Amir Capital
 
 ---
 

@@ -11,7 +11,6 @@ twitter: ATAIXcom
 social:
 - https://www.linkedin.com/company/ataixcom
 - https://www.facebook.com/ATAIXcom
-developerName: EuroToken OÜ
 redirect_from:
 - /android/com.ataix.exchange/
 - /iphone/com.eurotoken.ataix/
@@ -24,6 +23,7 @@ android:
   version: 2.1.4
   reviews: 26
   icon: com.ataix.exchange.png
+  developerName: EuroToken OÜ
 iphone:
   appId: com.eurotoken.ataix
   idd: 1467867553
@@ -33,6 +33,7 @@ iphone:
   version: 2.1.3
   reviews: 0
   icon: com.eurotoken.ataix.jpg
+  developerName: EuroToken OÜ
 
 ---
 

@@ -20,10 +20,11 @@ redirect_from:
 android:
   appId: com.mudrexmobile
   users: 1000000
-  updated: 2026-05-19
-  version: '13.13'
+  updated: 2026-05-23
+  version: '13.14'
   reviews: 4
   icon: com.mudrexmobile.png
+  website: https://mudrex.com/
   developerName: Mudrex Inc.
 iphone:
   appId: com.mudrex.ios

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-02
 website: https://themembersclub.vip#deadLink
-developerName: TMC The Members Club
 redirect_from:
 - /android/com.tmc.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-05-04
   version: 1.2.1
   icon: com.tmc.wallet.png
+  developerName: TMC The Members Club
 
 ---
 

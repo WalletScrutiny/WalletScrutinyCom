@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-05-17
 website: http://omnic.website/innovation#deadLink
-developerName: AIO Synergy Holdings Bhd
 redirect_from:
 - /android/com.omnic/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-04
   version: 1.0.81
   icon: com.omnic.png
+  developerName: AIO Synergy Holdings Bhd
 
 ---
 

@@ -11,7 +11,6 @@ repository: https://github.com/COINiD/COINiDVault
 twitter: COINiDGroup
 features:
 - airGapped
-developerName: COINiD Group
 redirect_from:
 - /org.coinid.vault/
 - /posts/org.coinid.vault/
@@ -25,6 +24,7 @@ android:
   version: 1.5.5
   reviews: 3
   icon: org.coinid.vault.png
+  developerName: COINiD Group
 iphone:
   appId: org.coinid
   idd: 1362831898
@@ -33,6 +33,7 @@ iphone:
   version: 1.5.6
   reviews: 22
   icon: org.coinid.jpg
+  developerName: COINiD Group
 
 ---
 

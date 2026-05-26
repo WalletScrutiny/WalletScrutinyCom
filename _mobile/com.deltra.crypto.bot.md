@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-15
 website: https://www.xrstudio.in#deadLink
-developerName: xR Studio LLP
 redirect_from:
 - /android/com.deltra.crypto.bot/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-05-03
   version: 1.1.4
   icon: com.deltra.crypto.bot.png
+  developerName: xR Studio LLP
 
 ---
 

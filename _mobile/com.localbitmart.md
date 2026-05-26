@@ -3,7 +3,6 @@ title: Local BitMart
 verdict: wip
 meta: removed
 date: 2024-04-19
-developerName: Og Software Solutions
 redirect_from:
 - /android/com.localbitmart/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-09
   version: '1.0'
   icon: com.localbitmart.png
+  developerName: Og Software Solutions
 
 ---
 

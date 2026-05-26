@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.10fxpro.com#deadLink
-developerName: Airsoftltd
 redirect_from:
 - /android/com.cfdv2.demo/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-14
   version: 0.6.2
   icon: com.cfdv2.demo.png
+  developerName: Airsoftltd
 
 ---
 

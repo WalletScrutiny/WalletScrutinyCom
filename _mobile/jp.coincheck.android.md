@@ -9,7 +9,6 @@ website: https://coincheck.com
 twitter: coincheckjp
 social:
 - https://www.facebook.com/coincheck
-developerName: Coincheck
 redirect_from:
 - /android/jp.coincheck.android/
 android:
@@ -20,6 +19,8 @@ android:
   version: 4.20.0
   reviews: 13
   icon: jp.coincheck.android.png
+  website: https://coincheck.com
+  developerName: Coincheck
 
 ---
 

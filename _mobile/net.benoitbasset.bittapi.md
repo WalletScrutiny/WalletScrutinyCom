@@ -4,7 +4,6 @@ verdict: wip
 meta: obsolete
 date: 2021-08-17
 website: http://bittapi.oblade.net
-developerName: Oblade
 redirect_from:
 - /android/net.benoitbasset.bittapi/
 android:
@@ -15,6 +14,8 @@ android:
   version: 1.2.1
   reviews: 6
   icon: net.benoitbasset.bittapi.png
+  website: http://bittapi.oblade.net
+  developerName: Oblade
 
 ---
 

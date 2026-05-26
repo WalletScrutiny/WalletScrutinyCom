@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://asbazar.com/en/home#deadLink
 twitter: asbazarofficial
-developerName: ASBAZAR Group
 redirect_from:
 - /android/com.app.asbazar59/
 android:
@@ -18,6 +17,7 @@ android:
   version: '4'
   reviews: 5
   icon: com.app.asbazar59.png
+  developerName: ASBAZAR Group
 
 ---
 

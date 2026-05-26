@@ -6,7 +6,6 @@ date: 2023-05-17
 authors:
 - danny
 website: https://dashboard.criptohub.com.br#deadLink
-developerName: CriptoHub
 redirect_from:
 - /android/com.criptohub/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-10-10
   version: 1.0.6
   icon: com.criptohub.png
+  developerName: CriptoHub
 
 ---
 

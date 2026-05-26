@@ -8,7 +8,6 @@ authors:
 - danny
 website: https://pay.cool
 twitter: Pay_dot_Cool
-developerName: Exchangily LLC
 redirect_from:
 - /android/cool.pay.paycool/
 - /iphone/cool.pay.paycool/
@@ -20,6 +19,7 @@ android:
   version: 2.5.163
   reviews: 3
   icon: cool.pay.paycool.png
+  developerName: Exchangily LLC
 iphone:
   appId: cool.pay.paycool
   idd: '1636549193'
@@ -29,6 +29,7 @@ iphone:
   version: 2.5.163
   reviews: 16
   icon: cool.pay.paycool.jpg
+  developerName: Exchangily LLC
 
 ---
 

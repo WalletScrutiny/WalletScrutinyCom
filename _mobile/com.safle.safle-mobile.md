@@ -4,7 +4,6 @@ verdict: wip
 meta: ok
 date: 2026-01-14
 website: https://safle.com/
-developerName: JUPITER INNOVATIONS LIMITED
 appCountry: us
 redirect_from:
 - /iphone/com.safle.safle-mobile/
@@ -16,6 +15,7 @@ iphone:
   version: 1.7.4
   reviews: 4
   icon: com.safle.safle-mobile.jpg
+  developerName: JUPITER INNOVATIONS LIMITED
 
 ---
 

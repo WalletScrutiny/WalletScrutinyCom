@@ -6,7 +6,6 @@ date: 2023-05-13
 authors:
 - danny
 website: https://bitsmoney.co.com
-developerName: Bits Money Ltd.
 redirect_from:
 - /android/com.bitsmoney.mobile/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.2
   reviews: 6
   icon: com.bitsmoney.mobile.png
+  developerName: Bits Money Ltd.
 
 ---
 

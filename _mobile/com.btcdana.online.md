@@ -6,7 +6,6 @@ date: 2025-11-17
 authors:
 - danny
 website: https://www.btcdana.com/
-developerName: DanaByte Trading
 redirect_from:
 - /android/com.btcdana.online/
 android:
@@ -17,6 +16,8 @@ android:
   version: 2.9.1
   reviews: 172
   icon: com.btcdana.online.png
+  website: https://www.btcdana.com/
+  developerName: DanaByte Trading
 
 ---
 

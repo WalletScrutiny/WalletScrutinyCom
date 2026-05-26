@@ -1,6 +1,7 @@
 ---
 wsId: hyperPay
 title: HPX :Wallet Crypto & Card
+meta: ok
 date: 2023-05-30
 authors:
 - leo
@@ -18,12 +19,13 @@ android:
   appId: com.legendwd.hyperpayW
   users: 100000
   released: 2018-10-25
-  updated: 2026-04-30
-  version: 5.6.220400
+  updated: 2026-05-21
+  version: 5.6.230900
   reviews: 194
   icon: com.legendwd.hyperpayW.png
   meta: ok
   verdict: nosource
+  website: https://hyperpay.tech
   developerName: CIPHER BC PTE. LTD.
 iphone:
   appId: com.legendwd.hyperpay

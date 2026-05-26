@@ -9,7 +9,6 @@ website: https://www.cd-ex.com/index#deadLink
 social:
 - https://www.instagram.com/cd_exglobal
 - https://www.facebook.com/CDEX-109585638344013
-developerName: CDEX
 redirect_from:
 - /android/com.xsjys.bbtc/
 android:
@@ -19,6 +18,7 @@ android:
   updated: 2023-11-07
   version: 1.5.6
   icon: com.xsjys.bbtc.png
+  developerName: CDEX
 
 ---
 

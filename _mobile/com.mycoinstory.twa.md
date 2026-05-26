@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://mycoinstory.com
-developerName: MKT Partners Ltd.
 redirect_from:
 - /android/com.mycoinstory.twa/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-02-23
   version: '2'
   icon: com.mycoinstory.twa.png
+  developerName: MKT Partners Ltd.
 
 ---
 

@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/monarchtoken
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
-developerName: Splash Factory
 redirect_from:
 - /com.sf.monarch/
 - /posts/com.sf.monarch/
@@ -27,6 +26,7 @@ android:
   icon: com.sf.monarch.png
   meta: removed
   website: http://splashfactory.com
+  developerName: Splash Factory
 iphone:
   appId: com.sf.monarch
   idd: 1386397997
@@ -37,6 +37,7 @@ iphone:
   icon: com.sf.monarch.jpg
   meta: obsolete
   website: https://monarchwallet.com
+  developerName: Splash Factory
 
 ---
 

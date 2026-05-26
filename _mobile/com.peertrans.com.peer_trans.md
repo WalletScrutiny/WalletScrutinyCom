@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://peertrans.com#deadLink
-developerName: Brain Bee Business Pvt Ltd
 redirect_from:
 - /android/com.peertrans.com.peer_trans/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-11
   version: 1.0.0
   icon: com.peertrans.com.peer_trans.png
+  developerName: Brain Bee Business Pvt Ltd
 
 ---
 

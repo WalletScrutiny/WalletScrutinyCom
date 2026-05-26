@@ -1,6 +1,6 @@
 ---
 wsId: everspace
-title: Cust Wallet
+title: Oberton Wallet
 verdict: nosource
 meta: ok
 date: 2024-09-06
@@ -19,8 +19,8 @@ android:
   appId: com.oberton.app
   users: 5000
   released: 2021-09-15
-  updated: 2025-08-24
-  version: 2.16.1
+  updated: 2026-05-23
+  version: 2.18.1
   reviews: 27
   icon: com.oberton.app.png
   website: https://bytehub.io

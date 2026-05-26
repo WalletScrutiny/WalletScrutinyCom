@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-03-21
 website: https://www.cobirtolite.com#deadLink
-developerName: Cobirto Global Company Ltd.
 redirect_from:
 - /android/com.corbito.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-02-15
   version: 1.0.0
   icon: com.corbito.app.png
+  developerName: Cobirto Global Company Ltd.
 
 ---
 

@@ -21,6 +21,7 @@ android:
   version: 0.77.0
   reviews: 99
   icon: io.leapwallet.cosmos.png
+  website: https://www.leapwallet.io/mobile
   developerName: Leap Wallet
 iphone:
   appId: com.LeapCosmosWallet

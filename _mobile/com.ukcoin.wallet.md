@@ -6,7 +6,6 @@ date: 2023-06-07
 authors:
 - danny
 website: https://ukcoin.money#deadLink
-developerName: UKCOIN
 redirect_from:
 - /android/com.ukcoin.wallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-07-16
   version: 1.0.0
   icon: com.ukcoin.wallet.png
+  developerName: UKCOIN
 
 ---
 

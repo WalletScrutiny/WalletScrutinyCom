@@ -15,7 +15,6 @@ features:
 - camera
 - multiAccount
 - fingerprint
-developerName: Autonomous Software Foundation
 redirect_from:
 - /android/org.autonomoussoftwarefoundation.verusmobile.android/
 - /iphone/org.autonomoussoftwarefoundation.verusmobile.ios/
@@ -28,6 +27,7 @@ android:
   reviews: 36
   icon: org.autonomoussoftwarefoundation.verusmobile.android.png
   website: https://verus.io/
+  developerName: Autonomous Software Foundation
 iphone:
   appId: org.autonomoussoftwarefoundation.verusmobile.ios
   idd: '6447361908'
@@ -38,6 +38,7 @@ iphone:
   reviews: 19
   icon: org.autonomoussoftwarefoundation.verusmobile.ios.jpg
   website: https://verus.io
+  developerName: Autonomous Software Foundation
 
 ---
 

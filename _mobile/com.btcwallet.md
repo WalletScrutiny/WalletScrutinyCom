@@ -6,7 +6,6 @@ date: 2023-04-21
 authors:
 - danny
 website: https://lunablockchain.com#deadLink
-developerName: Luna blockchain wallet
 redirect_from:
 - /android/com.btcwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-10-23
   version: 8.0.8
   icon: com.btcwallet.jpg
+  developerName: Luna blockchain wallet
 
 ---
 

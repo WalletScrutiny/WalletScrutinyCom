@@ -6,7 +6,6 @@ date: 2024-04-26
 authors:
 - danny
 website: https://web.archive.org/web/20250325221559/https://coinsbank.com/
-developerName: CoinsBank
 redirect_from:
 - /android/com.CoinsBank.CoinsBank/
 android:
@@ -17,6 +16,7 @@ android:
   version: 3.5.4
   reviews: 9
   icon: com.CoinsBank.CoinsBank.png
+  developerName: CoinsBank
 
 ---
 

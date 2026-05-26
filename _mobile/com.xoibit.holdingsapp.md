@@ -6,16 +6,17 @@ date: 2026-01-26
 authors:
 - danny
 website: https://xoibit.com
-developerName: Xoibit
 redirect_from:
 - /android/com.xoibit.holdingsapp/
 android:
   appId: com.xoibit.holdingsapp
   users: 10000
   released: 2025-07-05
-  updated: 2026-04-04
-  version: 1.0.16
+  updated: 2026-05-26
+  version: 1.0.17
   icon: com.xoibit.holdingsapp.jpg
+  website: https://xoibit.com
+  developerName: Xoibit
 
 ---
 

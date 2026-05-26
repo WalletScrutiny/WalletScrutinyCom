@@ -6,7 +6,6 @@ date: 2023-07-10
 authors:
 - danny
 website: https://qwertynetworks.com
-developerName: Qwerty Networks
 redirect_from:
 - /android/com.qwertynetworks/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2022-09-02
   version: '1.1'
   icon: com.qwertynetworks.png
+  developerName: Qwerty Networks
 
 ---
 

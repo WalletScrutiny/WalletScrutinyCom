@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://swap.flamer.life#deadLink
-developerName: Dev Crypto Holdings
 redirect_from:
 - /android/com.flamer.swap/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-25
   version: '4'
   icon: com.flamer.swap.png
+  developerName: Dev Crypto Holdings
 
 ---
 

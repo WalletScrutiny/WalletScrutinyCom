@@ -22,8 +22,9 @@ android:
   version: 2.0.20
   reviews: 4
   icon: com.capitalika.exhange.png
-  twitter: capitalikalatam
+  website: https://capitalika.com/
   developerName: CAPITALIKA®
+  twitter: capitalikalatam
 iphone:
   appId: com.capitalika.exchange
   idd: '1570799130'

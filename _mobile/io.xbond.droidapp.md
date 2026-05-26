@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://xbond.io
-developerName: Wisepayy
 redirect_from:
 - /android/io.xbond.droidapp/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-14
   version: '1.1'
   icon: io.xbond.droidapp.png
+  developerName: Wisepayy
 
 ---
 

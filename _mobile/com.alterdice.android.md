@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/profile.php?id=100083387708481
 - https://www.instagram.com/alterdice_
 - https://www.linkedin.com/company/alterdice/about/
-developerName: Alterdice Developers
 redirect_from:
 - /android/com.alterdice.android/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2018-11-22
   version: 1.3.7
   icon: com.alterdice.android.png
+  developerName: Alterdice Developers
 
 ---
 

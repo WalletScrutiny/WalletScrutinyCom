@@ -16,7 +16,6 @@ features:
 - nfc
 - secEl
 - tradeAlts
-developerName: IoTrust Co., Ltd
 redirect_from:
 - /android/com.kr.iotrust.dcent.wallet/
 - /iphone/kr.iotrust.dcent/
@@ -30,6 +29,7 @@ android:
   reviews: 1001
   icon: com.kr.iotrust.dcent.wallet.png
   website: https://dcentwallet.com/
+  developerName: IoTrust Co., Ltd
 iphone:
   appId: kr.iotrust.dcent
   idd: 1447206611
@@ -40,6 +40,7 @@ iphone:
   reviews: 85
   icon: kr.iotrust.dcent.jpg
   website: https://store.dcentwallet.com/pages/dcent-wallet-app
+  developerName: IoTrust Co., Ltd
 
 ---
 

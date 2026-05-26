@@ -2,6 +2,7 @@
 wsId: bitrequest
 title: Bitrequest
 verdict: nosendreceive
+meta: fewusers
 date: 2026-05-05
 authors:
 - danny
@@ -10,7 +11,6 @@ social:
 - https://github.com/bitrequest/bitrequest.github.io
 - https://www.reddit.com/r/bitrequest/
 - https://www.youtube.com/channel/UCwrbrnGg82FQdVQqCSEBmug/featured
-developerName: XpressZo
 redirect_from:
 - /android/io.bitrequest.app/
 - /iphone/io.bitrequest.app/
@@ -23,6 +23,7 @@ android:
   icon: io.bitrequest.app.png
   meta: fewusers
   website: https://www.bitrequest.io
+  developerName: XpressZo
 iphone:
   appId: io.bitrequest.app
   idd: '1484815377'
@@ -34,6 +35,7 @@ iphone:
   icon: io.bitrequest.app.jpg
   meta: ok
   website: https://www.bitrequest.io/
+  developerName: XpressZo
 
 ---
 

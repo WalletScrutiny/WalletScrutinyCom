@@ -25,8 +25,9 @@ android:
   version: 2.6.1
   reviews: 3
   icon: is.begin.app.png
-  repository: https://github.com/BeginWallet/begin-core
+  website: https://begin.is
   developerName: Begin W
+  repository: https://github.com/BeginWallet/begin-core
 iphone:
   appId: is.begin.app
   idd: '1642488837'

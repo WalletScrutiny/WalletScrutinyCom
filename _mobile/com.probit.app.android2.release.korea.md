@@ -9,7 +9,6 @@ website: https://www.probit.kr#deadLink
 twitter: ProBit_Exchange
 social:
 - https://www.facebook.com/probitexchange
-developerName: Oceans Inc
 redirect_from:
 - /android/com.probit.app.android2.release.korea/
 android:
@@ -20,6 +19,7 @@ android:
   version: 2.0.21
   reviews: 8
   icon: com.probit.app.android2.release.korea.png
+  developerName: Oceans Inc
 
 ---
 

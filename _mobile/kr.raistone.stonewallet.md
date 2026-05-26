@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.raistone.kr
-developerName: raistone co., ltd
 redirect_from:
 - /android/kr.raistone.stonewallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-10-01
   version: 1.1.6
   icon: kr.raistone.stonewallet.png
+  developerName: raistone co., ltd
 
 ---
 

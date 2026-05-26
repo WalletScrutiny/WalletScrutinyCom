@@ -2,6 +2,7 @@
 wsId: monnos
 title: Monnos | Buy Bitcoin & Crypto
 verdict: custodial
+meta: stale
 date: 2025-10-15
 authors:
 - danny
@@ -23,6 +24,7 @@ android:
   reviews: 482
   icon: com.monnos.android.png
   meta: stale
+  website: https://monnos.com
   developerName: Monnos Global
 iphone:
   appId: com.monnos

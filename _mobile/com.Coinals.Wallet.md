@@ -5,7 +5,6 @@ meta: removed
 date: 2021-11-22
 authors:
 - danny
-developerName: COINALS_INC
 redirect_from:
 - /android/com.Coinals.Wallet/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-04-23
   version: 1.0.0
   icon: com.Coinals.Wallet.png
+  developerName: COINALS_INC
 
 ---
 

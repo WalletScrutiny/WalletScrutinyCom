@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://zznex.in#deadLink
-developerName: zznex
 redirect_from:
 - /android/com.zznex.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-04-06
   version: 4.0.0
   icon: com.zznex.app.png
+  developerName: zznex
 
 ---
 

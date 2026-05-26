@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://bitazure.com
-developerName: BitAzure Blockchain Technology
 redirect_from:
 - /android/io.bitazure.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-20
   version: 1.0.1
   icon: io.bitazure.wallet.png
+  developerName: BitAzure Blockchain Technology
 
 ---
 

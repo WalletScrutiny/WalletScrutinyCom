@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.kryptox.com
-developerName: KryptoX
 redirect_from:
 - /android/com.kryptox.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-07
   version: '1.8'
   icon: com.kryptox.app.png
+  developerName: KryptoX
 
 ---
 

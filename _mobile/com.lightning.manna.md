@@ -2,6 +2,7 @@
 wsId: mannaBitcoin
 title: Manna Bitcoin Wallet
 verdict: custodial
+meta: fewusers
 date: 2026-05-09
 authors:
 - danny

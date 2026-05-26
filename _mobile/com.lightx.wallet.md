@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://lightxwallet.io#deadLink
-developerName: BTC Defi
 redirect_from:
 - /android/com.lightx.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-03-26
   version: '1.4'
   icon: com.lightx.wallet.png
+  developerName: BTC Defi
 
 ---
 

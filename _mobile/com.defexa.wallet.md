@@ -17,7 +17,6 @@ features:
 - hd
 - multiAccount
 - tradeAlts
-developerName: FPS Global LTD
 redirect_from:
 - /android/com.defexa.wallet/
 - /iphone/com.defexa.CryptoWallet-Defexa/
@@ -30,6 +29,7 @@ android:
   reviews: 5
   icon: com.defexa.wallet.png
   website: https://defexa.io/wallet/
+  developerName: FPS Global LTD
 iphone:
   appId: com.defexa.CryptoWallet-Defexa
   idd: '6446314571'
@@ -40,6 +40,7 @@ iphone:
   reviews: 0
   icon: com.defexa.CryptoWallet-Defexa.jpg
   website: https://defexa.io/wallet
+  developerName: FPS Global LTD
 
 ---
 

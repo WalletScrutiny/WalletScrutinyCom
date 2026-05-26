@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.dgcusa.com#deadLink
-developerName: Digital Gold Coin
 redirect_from:
 - /android/com.dgc.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-07-25
   version: 0.21.3
   icon: com.dgc.wallet.png
+  developerName: Digital Gold Coin
 
 ---
 

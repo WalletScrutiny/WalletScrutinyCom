@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://smartholdem.io
-developerName: TechnoL0g
 redirect_from:
 - /android/io.smartholdem.client/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-14
   version: 1.0.16
   icon: io.smartholdem.client.png
+  developerName: TechnoL0g
 
 ---
 

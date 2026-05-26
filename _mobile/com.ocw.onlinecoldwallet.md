@@ -12,7 +12,6 @@ social:
 - https://medium.com/@ocwallet
 - https://t.me/ocwallet
 - https://t.me/ocwalletglobal
-developerName: Online Cold Wallet
 redirect_from:
 - /android/com.ocw.onlinecoldwallet/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2022-05-27
   version: 2.2.0
   icon: com.ocw.onlinecoldwallet.png
+  developerName: Online Cold Wallet
 
 ---
 

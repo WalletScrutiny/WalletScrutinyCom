@@ -9,7 +9,6 @@ website: https://profittradingapp.com?utm_source=bybit_gp
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-developerName: ProfitTradingApp
 redirect_from:
 - /android/com.profittrading.forbybit/
 android:
@@ -20,6 +19,8 @@ android:
   version: 7.1.1
   reviews: 4
   icon: com.profittrading.forbybit.png
+  website: https://profittradingapp.com?utm_source=bybit_gp
+  developerName: ProfitTradingApp
 
 ---
 

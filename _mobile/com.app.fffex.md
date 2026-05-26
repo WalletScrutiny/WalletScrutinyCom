@@ -6,7 +6,6 @@ date: 2023-05-11
 authors:
 - danny
 website: https://main.fffex.co#deadLink
-developerName: FFFEX
 redirect_from:
 - /android/com.app.fffex/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-11-24
   version: 2.0.3
   icon: com.app.fffex.png
+  developerName: FFFEX
 
 ---
 

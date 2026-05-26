@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.uzuras.net/
-developerName: UZURAS
 redirect_from:
 - /android/net.uzuras.uzuras/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-15
   version: '4.0'
   icon: net.uzuras.uzuras.png
+  developerName: UZURAS
 
 ---
 

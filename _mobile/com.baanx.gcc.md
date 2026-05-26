@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://www.gccglobalplatform.com
-developerName: GCC GLOBAL PAYMENTS LIMITED
 redirect_from:
 - /android/com.baanx.gcc/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-17
   version: 1.2.0
   icon: com.baanx.gcc.png
+  developerName: GCC GLOBAL PAYMENTS LIMITED
 
 ---
 

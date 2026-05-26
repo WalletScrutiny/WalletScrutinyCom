@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/BitcoinDepot
 features:
 - buyWithCC
-developerName: Bitcoin Depot
 appCountry: us
 redirect_from:
 - /android/co.bitcoindepot.app/
@@ -25,6 +24,7 @@ android:
   reviews: 270
   icon: co.bitcoindepot.app.png
   website: https://www.bitcoindepot.com/
+  developerName: Bitcoin Depot
 iphone:
   appId: com.cashtocrypto.wallet
   idd: 1554808338
@@ -34,6 +34,7 @@ iphone:
   reviews: 1354
   icon: com.cashtocrypto.wallet.jpg
   website: https://bitcoindepot.com/
+  developerName: Bitcoin Depot
 
 ---
 

@@ -6,7 +6,6 @@ meta: ok
 date: 2025-11-11
 authors:
 - danny
-developerName: Värdex Suisse AG
 redirect_from:
 - /android/ch.cryptonow.wallet/
 - /iphone/ch.cryptonow.wallet/
@@ -17,6 +16,7 @@ android:
   version: 2.3.0
   icon: ch.cryptonow.wallet.png
   website: https://cryptonow.ch
+  developerName: Värdex Suisse AG
 iphone:
   appId: ch.cryptonow.wallet
   idd: '1607143703'
@@ -24,8 +24,9 @@ iphone:
   released: 2022-07-07
   updated: 2026-04-07
   version: 2.3.0
-  reviews: 104
+  reviews: 105
   icon: ch.cryptonow.wallet.jpg
+  developerName: Värdex Suisse AG
 
 ---
 

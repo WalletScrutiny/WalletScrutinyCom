@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://baba-moni.co
-developerName: Baba moni
 redirect_from:
 - /android/com.babamoni.trust.bitcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-06-22
   version: '2'
   icon: com.babamoni.trust.bitcoin.png
+  developerName: Baba moni
 
 ---
 

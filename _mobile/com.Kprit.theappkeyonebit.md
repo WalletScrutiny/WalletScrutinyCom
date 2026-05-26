@@ -5,7 +5,6 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
-developerName: Kprit
 redirect_from:
 - /android/com.Kprit.theappkeyonebit/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-11-12
   version: '4.0'
   icon: com.Kprit.theappkeyonebit.png
+  developerName: Kprit
 
 ---
 

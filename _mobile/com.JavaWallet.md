@@ -3,7 +3,6 @@ title: Java Wallet
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Java wallet Technologies
 redirect_from:
 - /android/com.JavaWallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-05
   version: '1.1'
   icon: com.JavaWallet.png
+  developerName: Java wallet Technologies
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 social:
 - https://txtba.com
-developerName: Txtba
 redirect_from:
 - /android/com.txtba.app/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2022-10-20
   version: 1.2.10
   icon: com.txtba.app.png
+  developerName: Txtba
 
 ---
 

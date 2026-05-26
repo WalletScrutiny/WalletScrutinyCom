@@ -5,7 +5,6 @@ meta: removed
 date: 2021-11-22
 authors:
 - danny
-developerName: P2P Options
 redirect_from:
 - /android/com.p2pchallenger/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2021-05-24
   version: 1.0.8
   icon: com.p2pchallenger.jpg
+  developerName: P2P Options
 
 ---
 

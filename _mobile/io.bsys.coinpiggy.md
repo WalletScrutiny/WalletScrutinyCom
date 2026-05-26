@@ -6,7 +6,6 @@ date: 2023-06-01
 authors:
 - danny
 website: https://coinpiggy.io#deadLink
-developerName: THE FORCE LAB
 redirect_from:
 - /android/io.bsys.coinpiggy/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-09-10
   version: '1.106'
   icon: io.bsys.coinpiggy.png
+  developerName: THE FORCE LAB
 
 ---
 

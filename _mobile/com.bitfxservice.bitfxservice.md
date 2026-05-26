@@ -3,7 +3,6 @@ title: Bitcoin Investment Service
 verdict: wip
 meta: removed
 date: 2024-02-05
-developerName: Bit Globe
 redirect_from:
 - /android/com.bitfxservice.bitfxservice/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-08
   version: '1.0'
   icon: com.bitfxservice.bitfxservice.jpg
+  developerName: Bit Globe
 
 ---
 

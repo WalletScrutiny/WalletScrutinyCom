@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: http://bitblaze.co
-developerName: BitBlaze App
 redirect_from:
 - /android/com.cloud.bitblaze/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-23
   version: 1.0.6
   icon: com.cloud.bitblaze.png
+  developerName: BitBlaze App
 
 ---
 

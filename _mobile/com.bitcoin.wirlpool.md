@@ -6,7 +6,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://www.facebook.com/groups/sparrowwallet
-developerName: CONTRACTOR-ADVERTISING INC
 appCountry: us
 redirect_from:
 - /iphone/com.bitcoin.wirlpool/
@@ -18,6 +17,7 @@ iphone:
   version: 1.0.7
   reviews: 9
   icon: com.bitcoin.wirlpool.jpg
+  developerName: CONTRACTOR-ADVERTISING INC
 
 ---
 

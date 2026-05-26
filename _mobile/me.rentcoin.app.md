@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-11-02
 website: https://www.rentcoin.me
-developerName: RS Sistemas Ltda
 redirect_from:
 - /android/me.rentcoin.app/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-10-26
   version: 2.1.1
   icon: me.rentcoin.app.png
+  developerName: RS Sistemas Ltda
 
 ---
 

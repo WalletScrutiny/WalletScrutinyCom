@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: http://www.danmdevelopers.com#deadLink
-developerName: Daniel Nicolalde
 redirect_from:
 - /android/com.danmdevelopers.cryptox/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-01
   version: '1.0'
   icon: com.danmdevelopers.cryptox.png
+  developerName: Daniel Nicolalde
 
 ---
 

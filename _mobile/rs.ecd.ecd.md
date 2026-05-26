@@ -19,8 +19,8 @@ android:
   appId: rs.ecd.ecd
   users: 10000
   released: 2024-10-22
-  updated: 2026-05-07
-  version: 1.4.91
+  updated: 2026-05-25
+  version: 1.4.92
   icon: rs.ecd.ecd.png
   website: https://ecd.rs/
   developerName: ECD.RS

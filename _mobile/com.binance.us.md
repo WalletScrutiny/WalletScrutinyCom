@@ -26,8 +26,9 @@ android:
   released: 2019-12-23
   updated: 2026-05-19
   version: 3.38.1
-  reviews: 6857
+  reviews: 6859
   icon: com.binance.us.png
+  website: https://www.binance.us
   developerName: Binance.US
 iphone:
   appId: us.binance.fiat

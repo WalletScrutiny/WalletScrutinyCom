@@ -5,7 +5,6 @@ meta: removed
 date: 2023-06-07
 authors:
 - danny
-developerName: Georgette Roy
 redirect_from:
 - /android/com.u8ex.app22/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-04-09
   version: '1.0'
   icon: com.u8ex.app22.png
+  developerName: Georgette Roy
 
 ---
 

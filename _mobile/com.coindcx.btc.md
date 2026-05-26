@@ -11,7 +11,6 @@ twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
-developerName: CoinDCX Official
 redirect_from:
 - /android/com.coindcx.btc/
 - /iphone/com.coindcx.btc/
@@ -19,11 +18,12 @@ android:
   appId: com.coindcx.btc
   users: 10000000
   released: 2020-12-09
-  updated: 2026-05-14
-  version: 7.50.0002
+  updated: 2026-05-21
+  version: 7.51.0005
   reviews: 599
   icon: com.coindcx.btc.png
   website: https://go.coindcx.com/
+  developerName: CoinDCX Official
 iphone:
   appId: com.coindcx.btc
   idd: 1517787269
@@ -34,6 +34,7 @@ iphone:
   reviews: 42748
   icon: com.coindcx.btc.jpg
   website: https://coindcx.com
+  developerName: CoinDCX Official
 
 ---
 

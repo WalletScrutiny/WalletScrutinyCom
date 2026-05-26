@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-19
 website: https://www.botcex.com
-developerName: Abelsis Yazılım Tic. Ltd. Şti.
 redirect_from:
 - /android/com.botcex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-30
   version: '1.3'
   icon: com.botcex.png
+  developerName: Abelsis Yazılım Tic. Ltd. Şti.
 
 ---
 

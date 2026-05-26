@@ -6,7 +6,6 @@ date: 2023-04-18
 authors:
 - danny
 website: https://worldmoneytrade.com#deadLink
-developerName: WorldMoneyTrade Inc.
 redirect_from:
 - /android/world.money.trade.worldmoneytrade/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-08-04
   version: '2.0'
   icon: world.money.trade.worldmoneytrade.png
+  developerName: WorldMoneyTrade Inc.
 
 ---
 

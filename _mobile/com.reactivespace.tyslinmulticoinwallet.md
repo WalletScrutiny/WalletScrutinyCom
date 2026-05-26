@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-18
 website: https://tyslin.com/
-developerName: Tyslin Blockchain
 redirect_from:
 - /android/com.reactivespace.tyslinmulticoinwallet/
 android:
@@ -15,6 +14,7 @@ android:
   version: 2.1.38
   reviews: 8
   icon: com.reactivespace.tyslinmulticoinwallet.png
+  developerName: Tyslin Blockchain
 
 ---
 

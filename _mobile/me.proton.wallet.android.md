@@ -18,7 +18,6 @@ features:
 - buyWithCC
 - hd
 - multiAccount
-developerName: Proton AG
 redirect_from:
 - /android/me.proton.wallet.android/
 - /iphone/me.proton.wallet.ios/
@@ -27,11 +26,12 @@ android:
   users: 100000
   released: 2025-02-04
   updated: 2026-05-18
-  version: 1.2.6
-  reviews: 27
+  version: 1.2.7
+  reviews: 28
   icon: me.proton.wallet.android.png
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   website: https://proton.me
+  developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
 iphone:
   appId: me.proton.wallet.ios
@@ -43,6 +43,7 @@ iphone:
   reviews: 213
   icon: me.proton.wallet.ios.jpg
   website: https://proton.me/wallet
+  developerName: Proton AG
 
 ---
 

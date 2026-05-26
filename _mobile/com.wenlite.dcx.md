@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-08-17
 website: http://www.wenlite.io
-developerName: TokenWorld
 redirect_from:
 - /android/com.wenlite.dcx/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-22
   version: 2.0.4
   icon: com.wenlite.dcx.png
+  developerName: TokenWorld
 
 ---
 

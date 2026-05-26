@@ -11,7 +11,6 @@ social:
 - https://www.coincatch.com
 - https://t.me/coincatch_chat_en
 - https://www.instagram.com/coincatch_official
-developerName: Linkbase Technology Limited
 redirect_from:
 - /android/com.coincatch.exchange/
 - /iphone/com.coincatch.global/
@@ -23,6 +22,7 @@ android:
   version: 1.19.0
   reviews: 74
   icon: com.coincatch.exchange.jpg
+  developerName: Linkbase Technology Limited
 iphone:
   appId: com.coincatch.global
   idd: '6449619148'
@@ -32,6 +32,7 @@ iphone:
   version: 1.19.0
   reviews: 172
   icon: com.coincatch.global.jpg
+  developerName: Linkbase Technology Limited
 
 ---
 

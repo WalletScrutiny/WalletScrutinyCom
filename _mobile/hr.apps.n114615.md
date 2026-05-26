@@ -3,7 +3,6 @@ title: CortBit Exchange
 verdict: wip
 meta: removed
 date: 2024-07-05
-developerName: Shoutem, Inc.
 redirect_from:
 - /android/hr.apps.n114615/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-25
   version: 5.0.1
   icon: hr.apps.n114615.png
+  developerName: Shoutem, Inc.
 
 ---
 

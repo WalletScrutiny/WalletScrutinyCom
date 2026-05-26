@@ -7,7 +7,6 @@ authors:
 - danny
 website: https://www.xchangeon.io/
 twitter: XChangeon
-developerName: Xchangeon
 redirect_from:
 - /android/com.xchangeonio/
 android:
@@ -18,6 +17,7 @@ android:
   version: 1.1.7
   reviews: 12
   icon: com.xchangeonio.png
+  developerName: Xchangeon
 
 ---
 

@@ -6,7 +6,6 @@ date: 2023-05-17
 authors:
 - danny
 website: https://www.cmbcwallet.uk#deadLink
-developerName: FFFEX
 redirect_from:
 - /android/com.cmbcwallet.uk/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2019-07-02
   version: 1.0.3
   icon: com.cmbcwallet.uk.png
+  developerName: FFFEX
 
 ---
 

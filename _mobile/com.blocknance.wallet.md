@@ -12,7 +12,6 @@ social:
 - https://www.youtube.com/channel/UCAuqZmDK1puvCH42WW-oSJg
 - https://www.facebook.com/BlocknanceATM
 - https://blockchain.com.do
-developerName: Blocknance Financial International SRL
 redirect_from:
 - /android/com.blocknance.wallet/
 - /iphone/org.reactjs.native.example.blocknance/
@@ -25,6 +24,7 @@ android:
   reviews: 3
   icon: com.blocknance.wallet.png
   website: https://blockchain.com.do
+  developerName: Blocknance Financial International SRL
 iphone:
   appId: org.reactjs.native.example.blocknance
   idd: '6444729550'
@@ -34,6 +34,7 @@ iphone:
   version: 1.0.2
   reviews: 1
   icon: org.reactjs.native.example.blocknance.jpg
+  developerName: Blocknance Financial International SRL
 
 ---
 

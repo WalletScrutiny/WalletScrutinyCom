@@ -3,7 +3,6 @@ title: Kryptiva
 verdict: wip
 meta: removed
 date: 2024-08-17
-developerName: Kryptiva
 redirect_from:
 - /android/app.kryptiva/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-02-18
   version: 1.0.4
   icon: app.kryptiva.jpg
+  developerName: Kryptiva
 
 ---
 

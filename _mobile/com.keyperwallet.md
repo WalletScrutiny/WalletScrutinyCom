@@ -5,7 +5,6 @@ meta: removed
 date: 2024-11-12
 authors:
 - danny
-developerName: keyper Inc.
 redirect_from:
 - /android/com.keyperwallet/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2020-09-02
   version: '1.7'
   icon: com.keyperwallet.png
+  developerName: keyper Inc.
 
 ---
 

@@ -8,7 +8,6 @@ authors:
 - danny
 social:
 - https://t.me/+hObEE-D_GMU2N2U0
-developerName: Nexus Payments Limited
 redirect_from:
 - /android/com.quantum.wallet.app/
 - /iphone/com.quantum.wallet.app/
@@ -21,6 +20,7 @@ android:
   reviews: 4
   icon: com.quantum.wallet.app.jpg
   website: https://quantum.press/
+  developerName: Nexus Payments Limited
 iphone:
   appId: com.quantum.wallet.app
   idd: '6511246853'
@@ -30,6 +30,7 @@ iphone:
   version: 1.19.0
   reviews: 0
   icon: com.quantum.wallet.app.jpg
+  developerName: Nexus Payments Limited
 
 ---
 

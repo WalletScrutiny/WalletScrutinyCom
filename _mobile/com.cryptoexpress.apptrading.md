@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://www.cryptoxpress.io/
-developerName: Bitenium Exchange LLC
 redirect_from:
 - /android/com.cryptoexpress.apptrading/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-10
   version: 1.0.5
   icon: com.cryptoexpress.apptrading.png
+  developerName: Bitenium Exchange LLC
 
 ---
 

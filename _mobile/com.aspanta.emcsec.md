@@ -12,7 +12,6 @@ social:
 - https://www.facebook.com/EmercoinOfficial
 - https://www.youtube.com/channel/UCeHlonUkITqe4PtpW8p4wmg
 - https://www.reddit.com/r/EmerCoin
-developerName: olegarch
 redirect_from:
 - /android/com.aspanta.emcsec/
 android:
@@ -22,6 +21,7 @@ android:
   updated: 2018-12-25
   version: 1.2.1
   icon: com.aspanta.emcsec.png
+  developerName: olegarch
 
 ---
 

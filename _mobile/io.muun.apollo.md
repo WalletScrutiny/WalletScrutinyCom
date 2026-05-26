@@ -25,16 +25,16 @@ android:
   released: 2017-04-25
   updated: 2026-04-22
   version: '55.8'
-  reviews: 229
+  reviews: 230
   icon: io.muun.apollo.png
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:
   - arch: arm64-v8a
   - arch: armeabi-v7a
   website: https://muun.com
+  developerName: muun
   repository: https://github.com/muun/apollo
   twitter: MuunWallet
-  developerName: muun
 iphone:
   appId: com.muun.falcon
   idd: 1482037683
@@ -44,9 +44,9 @@ iphone:
   reviews: 327
   icon: com.muun.falcon.jpg
   website: https://www.muun.com
+  developerName: Muun Wallet, Inc
   repository: https://github.com/muun/falcon
   twitter: muunwallet
-  developerName: Muun Wallet, Inc
 
 ---
 

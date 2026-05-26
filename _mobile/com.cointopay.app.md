@@ -2,6 +2,7 @@
 wsId: CointoPayWallet
 title: Cointopay wallet
 verdict: custodial
+meta: obsolete
 date: 2024-05-24
 authors:
 - danny

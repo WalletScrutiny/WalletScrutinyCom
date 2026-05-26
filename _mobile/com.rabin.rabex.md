@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/rabex
 - https://www.instagram.com/rabex.ir
 - https://t.me/Rabexio
-developerName: Rabex Team
 redirect_from:
 - /android/com.rabin.rabex/
 android:
@@ -22,6 +21,8 @@ android:
   version: 2.7.0-Rabex
   reviews: 10
   icon: com.rabin.rabex.png
+  website: https://rabex.ir
+  developerName: Rabex Team
 
 ---
 

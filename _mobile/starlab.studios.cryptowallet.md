@@ -6,7 +6,6 @@ date: 2024-04-26
 authors:
 - danny
 website: https://web.archive.org/web/20250216120614/https://starlabstudiosapps.xyz/
-developerName: Seven Labs AI Apps
 redirect_from:
 - /android/starlab.studios.cryptowallet/
 android:
@@ -17,6 +16,7 @@ android:
   updated: 2024-01-30
   version: '10.0'
   icon: starlab.studios.cryptowallet.png
+  developerName: Seven Labs AI Apps
 
 ---
 

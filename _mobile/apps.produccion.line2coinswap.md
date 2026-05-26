@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://line2coin.com#deadLink
-developerName: Backdoor Global, Inc.
 redirect_from:
 - /android/apps.produccion.line2coinswap/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-07-24
   version: 1.0.0.4
   icon: apps.produccion.line2coinswap.jpg
+  developerName: Backdoor Global, Inc.
 
 ---
 

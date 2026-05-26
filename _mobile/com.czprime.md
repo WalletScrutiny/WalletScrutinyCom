@@ -11,7 +11,6 @@ twitter: GetCoinZoom
 social:
 - https://www.linkedin.com/company/coinzoomhq
 - https://www.facebook.com/CoinZoom
-developerName: CoinZoom
 redirect_from:
 - /android/com.czprime/
 - /iphone/com.ios.coinzoom/
@@ -24,6 +23,7 @@ android:
   reviews: 418
   icon: com.czprime.png
   website: https://www.coinzoom.com
+  developerName: CoinZoom
 iphone:
   appId: com.ios.coinzoom
   idd: 1443109132
@@ -33,6 +33,7 @@ iphone:
   reviews: 163
   icon: com.ios.coinzoom.jpg
   website: http://www.coinzoom.com
+  developerName: CoinZoom
 
 ---
 

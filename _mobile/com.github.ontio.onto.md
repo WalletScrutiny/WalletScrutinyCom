@@ -23,8 +23,8 @@ android:
   reviews: 128
   icon: com.github.ontio.onto.png
   website: https://onto.app/
-  repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
   developerName: Ontology Foundation Ltd.
+  repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
 iphone:
   appId: com.ontology.foundation.onto
   idd: 1436009823

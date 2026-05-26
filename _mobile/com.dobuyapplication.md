@@ -6,7 +6,6 @@ date: 2024-05-07
 authors:
 - danny
 website: https://dobuy.site#deadLink
-developerName: Dobuy
 redirect_from:
 - /android/com.dobuyapplication/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2021-11-30
   version: 1.0.1
   icon: com.dobuyapplication.png
+  developerName: Dobuy
 
 ---
 

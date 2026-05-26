@@ -6,7 +6,6 @@ date: 2024-02-05
 website: https://thunderboltwallet.us#deadLink
 features:
 - ln
-developerName: EncryptDR
 redirect_from:
 - /android/com.thunderbolt.wallet/
 android:
@@ -17,6 +16,7 @@ android:
   version: 1.0.3
   reviews: 33
   icon: com.thunderbolt.wallet.png
+  developerName: EncryptDR
 
 ---
 

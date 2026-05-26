@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-05-07
 website: https://skyefly.net#deadLink
-developerName: Omojowo Technologies
 redirect_from:
 - /android/skyefly.net/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-11-11
   version: '1.0'
   icon: skyefly.net.png
+  developerName: Omojowo Technologies
 
 ---
 

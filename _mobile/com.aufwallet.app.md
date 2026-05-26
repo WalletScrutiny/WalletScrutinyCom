@@ -3,7 +3,6 @@ title: 'AufWallet: Web3 Wallet'
 verdict: wip
 meta: removed
 date: 2026-05-05
-developerName: LightConsen
 redirect_from:
 - /android/com.aufwallet.app/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2025-07-03
   version: 1.0.0
   icon: com.aufwallet.app.png
+  developerName: LightConsen
 
 ---
 

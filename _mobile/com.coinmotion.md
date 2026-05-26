@@ -2,6 +2,7 @@
 wsId: Coinmotion
 title: 'Coinmotion: Buy Bitcoin Easily'
 verdict: custodial
+meta: ok
 date: 2021-10-19
 authors:
 - danny
@@ -10,7 +11,6 @@ twitter: Coinmotion
 social:
 - https://www.linkedin.com/company/coinmotion
 - https://www.facebook.com/coinmotion
-developerName: Coinmotion Oy
 redirect_from:
 - /android/com.coinmotion/
 - /iphone/com.ios.coinmotion.app/
@@ -23,6 +23,8 @@ android:
   version: 1.13.5
   icon: com.coinmotion.png
   meta: ok
+  website: https://coinmotion.com/
+  developerName: Coinmotion Oy
 iphone:
   appId: com.ios.coinmotion.app
   idd: 1518765595
@@ -33,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.ios.coinmotion.app.jpg
   meta: removed
+  developerName: Coinmotion Oy
 
 ---
 

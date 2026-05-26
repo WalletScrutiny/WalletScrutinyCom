@@ -12,7 +12,6 @@ social:
 - https://www.linkedin.com/company/zondaglobal/
 - https://www.facebook.com/ZondaGlobal/
 - https://www.instagram.com/zondaglobal/
-developerName: BB Trade Estonia
 redirect_from:
 - /android/com.bitbay.pay.bitcoin.pos.terminal/
 android:
@@ -22,6 +21,8 @@ android:
   updated: 2023-11-07
   version: 1.7.3(59)
   icon: com.bitbay.pay.bitcoin.pos.terminal.png
+  website: https://zondaglobal.com/pay
+  developerName: BB Trade Estonia
 
 ---
 

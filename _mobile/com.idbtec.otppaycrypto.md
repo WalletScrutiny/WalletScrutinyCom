@@ -9,7 +9,6 @@ website: https://www.otppay.com
 social:
 - https://t.me/otppaychat
 - https://www.youtube.com/watch?v=otjCnt4qN1E
-developerName: Otppay OU
 redirect_from:
 - /android/com.idbtec.otppaycrypto/
 android:
@@ -20,6 +19,7 @@ android:
   version: '1.21'
   reviews: 4
   icon: com.idbtec.otppaycrypto.png
+  developerName: Otppay OU
 
 ---
 

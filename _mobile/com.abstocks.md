@@ -10,7 +10,6 @@ social:
 - https://www.facebook.com/ABStocksTR
 - https://www.youtube.com/channel/UC3cfWOAJWygI7MKKTqhfDIQ
 - https://www.linkedin.com/company/abcexchange/
-developerName: ABStocks.com
 redirect_from:
 - /android/com.abstocks/
 android:
@@ -20,6 +19,7 @@ android:
   updated: 2022-02-07
   version: 1.6.106
   icon: com.abstocks.png
+  developerName: ABStocks.com
 
 ---
 

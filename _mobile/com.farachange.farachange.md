@@ -5,7 +5,6 @@ meta: removed
 date: 2025-03-11
 authors:
 - danny
-developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'
 redirect_from:
 - /android/com.farachange.farachange/
 android:
@@ -16,6 +15,7 @@ android:
   version: 1.1.20
   reviews: 26
   icon: com.farachange.farachange.png
+  developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'
 
 ---
 

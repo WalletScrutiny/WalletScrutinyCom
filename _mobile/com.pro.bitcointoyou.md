@@ -11,7 +11,6 @@ twitter: bitcointoyou
 social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
-developerName: B2U Limited
 redirect_from:
 - /android/com.pro.bitcointoyou/
 - /iphone/com.pro.b2u/
@@ -23,6 +22,7 @@ android:
   version: 0.0.228
   reviews: 5
   icon: com.pro.bitcointoyou.png
+  developerName: B2U Limited
 iphone:
   appId: com.pro.b2u
   idd: 1489598378
@@ -32,6 +32,7 @@ iphone:
   version: '2.4'
   reviews: 167
   icon: com.pro.b2u.jpg
+  developerName: B2U Limited
 
 ---
 

@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://a1in1.com#deadLink
-developerName: Ceogrowser Ntem Kenyor
 redirect_from:
 - /android/com.a1in1.crypto_coin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-06-19
   version: 1.0.2
   icon: com.a1in1.crypto_coin.jpg
+  developerName: Ceogrowser Ntem Kenyor
 
 ---
 

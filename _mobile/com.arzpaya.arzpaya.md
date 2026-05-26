@@ -6,7 +6,6 @@ date: 2025-11-12
 authors:
 - danny
 website: https://arzpaya.com
-developerName: ArzPaya
 redirect_from:
 - /android/com.arzpaya.arzpaya/
 android:
@@ -17,6 +16,8 @@ android:
   version: 4.08.17.02
   reviews: 5
   icon: com.arzpaya.arzpaya.png
+  website: https://arzpaya.com
+  developerName: ArzPaya
 
 ---
 

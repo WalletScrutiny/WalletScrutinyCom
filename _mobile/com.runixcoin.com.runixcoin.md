@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: https://www.runixcoin.com#deadLink
-developerName: Runixcoin
 redirect_from:
 - /android/com.runixcoin.com.runixcoin/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-04-19
   version: '3.0'
   icon: com.runixcoin.com.runixcoin.png
+  developerName: Runixcoin
 
 ---
 

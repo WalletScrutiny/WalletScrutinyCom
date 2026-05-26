@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-12-31
 website: https://sugi.io
-developerName: Sofitto NV
 redirect_from:
 - /android/com.sofitto.sugi/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-10-12
   version: 1.8.2
   icon: com.sofitto.sugi.png
+  developerName: Sofitto NV
 
 ---
 

@@ -10,7 +10,6 @@ website: https://www.wealthsimple.com/en-ca/
 twitter: Wealthsimple
 social:
 - https://www.facebook.com/wealthsimple
-developerName: Wealthsimple
 appCountry: ca
 redirect_from:
 - /android/com.wealthsimple.trade/
@@ -21,8 +20,10 @@ android:
   released: 2019-03-12
   updated: 2026-05-15
   version: 2.226.1
-  reviews: 12988
+  reviews: 12998
   icon: com.wealthsimple.trade.png
+  website: https://www.wealthsimple.com/en-ca/
+  developerName: Wealthsimple
 iphone:
   appId: com.wealthsimple.trade
   idd: 1403491709
@@ -31,6 +32,7 @@ iphone:
   version: 2.226.1
   reviews: 128585
   icon: com.wealthsimple.trade.jpg
+  developerName: Wealthsimple
 
 ---
 

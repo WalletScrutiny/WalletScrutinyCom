@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-07-05
 website: https://www.cbx.one
-developerName: CBX
 redirect_from:
 - /android/com.cbx.api/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-01-25
   version: 2.2.5
   icon: com.cbx.api.png
+  developerName: CBX
 
 ---
 

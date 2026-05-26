@@ -22,8 +22,9 @@ android:
   released: 2023-06-09
   updated: 2026-05-08
   version: 3.6.0
-  reviews: 1113
+  reviews: 1119
   icon: com.redotpay.png
+  website: https://www.redotpay.com
   developerName: Red Dot Technology Limited
 iphone:
   appId: com.redotpay

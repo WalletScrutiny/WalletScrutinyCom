@@ -9,7 +9,6 @@ website: https://bitpapa.com
 twitter: bitpapa_com
 social:
 - https://www.facebook.com/bitpapacom
-developerName: Bitpapa
 redirect_from:
 - /android/com.bitpapa/
 android:
@@ -20,6 +19,7 @@ android:
   version: 1.12.3
   reviews: 40
   icon: com.bitpapa.png
+  developerName: Bitpapa
 
 ---
 

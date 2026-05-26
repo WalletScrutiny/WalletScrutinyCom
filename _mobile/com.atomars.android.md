@@ -11,7 +11,6 @@ social:
 - https://t.me/AtomarsOfficial
 - https://www.facebook.com/AtomarsExchange
 - https://www.linkedin.com/company/atomars/
-developerName: Atomars
 redirect_from:
 - /android/com.atomars.android/
 android:
@@ -21,6 +20,7 @@ android:
   updated: 2019-07-01
   version: 1.1.1
   icon: com.atomars.android.png
+  developerName: Atomars
 
 ---
 

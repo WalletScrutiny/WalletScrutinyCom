@@ -18,7 +18,7 @@ android:
   users: 100000000
   updated: 2026-04-14
   version: 8.66.1
-  reviews: 543
+  reviews: 542
   icon: com.iqoption.jpg
   website: https://km.iqoption.com/en
   developerName: IQ Option

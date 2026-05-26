@@ -6,7 +6,6 @@ date: 2024-11-12
 authors:
 - danny
 website: http://stocktong.io
-developerName: Tomato Group
 redirect_from:
 - /android/semaphore.stocktrade.tradeweb/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2020-08-28
   version: 4.1.1.15
   icon: semaphore.stocktrade.tradeweb.png
+  developerName: Tomato Group
 
 ---
 

@@ -14,7 +14,6 @@ social:
 - https://t.me/joinchat/1OhMDr9of4dhYjNk
 - https://discord.com/invite/g5RvzcwVWq
 - https://www.youtube.com/c/LordToken/videos
-developerName: LORD SERVICES
 redirect_from:
 - /android/com.cloud.lordtoken/
 - /iphone/com.cloud.lordtoken/
@@ -26,6 +25,7 @@ android:
   version: 1.7.0
   icon: com.cloud.lordtoken.png
   website: https://lordtoken.com
+  developerName: LORD SERVICES
 iphone:
   appId: com.cloud.lordtoken
   idd: '1602239096'
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.cloud.lordtoken.jpg
   website: https://exchange.lordtoken.com/
+  developerName: LORD SERVICES
 
 ---
 

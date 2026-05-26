@@ -2,6 +2,7 @@
 wsId: Pintu
 title: Pintu Trading Crypto & Futures
 verdict: custodial
+meta: ok
 date: 2021-08-27
 authors:
 - danny
@@ -21,10 +22,11 @@ android:
   users: 5000000
   released: 2020-01-25
   updated: 2026-05-18
-  version: 3.95.0
+  version: 3.96.0
   reviews: 191
   icon: com.valar.pintu.png
   meta: ok
+  website: https://pintu.co.id/
   developerName: Pintu Crypto
 iphone:
   appId: com.valar.pintu

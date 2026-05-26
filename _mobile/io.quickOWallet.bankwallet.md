@@ -3,7 +3,6 @@ title: QuickO Wallet
 verdict: wip
 meta: removed
 date: 2023-12-19
-developerName: Blocktech Brew
 redirect_from:
 - /android/io.quickOWallet.bankwallet/
 android:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-18
   version: 0.26.3
   icon: io.quickOWallet.bankwallet.png
+  developerName: Blocktech Brew
 
 ---
 

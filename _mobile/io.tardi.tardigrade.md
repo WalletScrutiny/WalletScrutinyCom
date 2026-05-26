@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://keywa.io
-developerName: Mobius Excellent Group Ltd.
 redirect_from:
 - /android/io.tardi.tardigrade/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2022-06-30
   version: 1.0.2
   icon: io.tardi.tardigrade.png
+  developerName: Mobius Excellent Group Ltd.
 
 ---
 

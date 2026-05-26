@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/yieldapp/
 - https://t.me/yieldapp
 - https://discord.com/invite/crwD3JgMgn#deadLink
-developerName: Yield App
 redirect_from:
 - /android/com.yieldapp_mobile/
 - /iphone/app.yield/
@@ -24,6 +23,7 @@ android:
   reviews: 14
   icon: com.yieldapp_mobile.jpg
   website: https://yield.app
+  developerName: Yield App
 iphone:
   appId: app.yield
   idd: '1591189242'
@@ -34,6 +34,7 @@ iphone:
   reviews: 39
   icon: app.yield.jpg
   website: https://yield.app/
+  developerName: Yield App
 
 ---
 

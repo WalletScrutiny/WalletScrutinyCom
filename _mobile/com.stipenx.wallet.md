@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-04-03
 website: http://www.stipend.com
-developerName: Fintek Labs Limited
 redirect_from:
 - /android/com.stipenx.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-28
   version: '1.2'
   icon: com.stipenx.wallet.png
+  developerName: Fintek Labs Limited
 
 ---
 

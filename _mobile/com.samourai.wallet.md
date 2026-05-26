@@ -10,7 +10,6 @@ authors:
 website: https://samouraiwallet.com
 repository: https://github.com/Samourai-Wallet/samourai-wallet-android
 twitter: SamouraiWallet
-developerName: Samourai
 redirect_from:
 - /samourai/
 - /com.samourai.wallet/
@@ -22,6 +21,7 @@ android:
   version: VARY
   icon: com.samourai.wallet.png
   signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
+  developerName: Samourai
 
 ---
 

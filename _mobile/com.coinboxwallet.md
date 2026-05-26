@@ -6,7 +6,6 @@ date: 2024-12-23
 authors:
 - danny
 website: https://coinboxfinance.com/
-developerName: CoinBox Finance Ecosystem
 redirect_from:
 - /android/com.coinboxwallet/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-03-02
   version: 1.0.2.6
   icon: com.coinboxwallet.png
+  developerName: CoinBox Finance Ecosystem
 
 ---
 

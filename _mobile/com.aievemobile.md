@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-02-05
 website: https://www.aieve.io#deadLink
-developerName: AIEVE Ltd
 redirect_from:
 - /android/com.aievemobile/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2019-05-25
   version: '1.5'
   icon: com.aievemobile.png
+  developerName: AIEVE Ltd
 
 ---
 

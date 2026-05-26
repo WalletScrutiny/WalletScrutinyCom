@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2023-12-19
 website: https://timebitex.com/
-developerName: Timebit pte. Ltd.
 redirect_from:
 - /android/com.timebitex.wallet/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2023-02-08
   version: 3.2.0
   icon: com.timebitex.wallet.png
+  developerName: Timebit pte. Ltd.
 
 ---
 

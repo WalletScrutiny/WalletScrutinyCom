@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2025-08-04
 website: https://trdctoken.com
-developerName: TRDC
 redirect_from:
 - /android/com.trdc.token/
 android:
@@ -15,6 +14,7 @@ android:
   version: 1.0.9
   reviews: 7
   icon: com.trdc.token.png
+  developerName: TRDC
 
 ---
 

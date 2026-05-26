@@ -4,7 +4,6 @@ verdict: wip
 meta: removed
 date: 2024-03-02
 website: https://gunthy.org
-developerName: Gunthy LTD
 redirect_from:
 - /android/org.gunthy.ex/
 android:
@@ -14,6 +13,7 @@ android:
   updated: 2021-01-14
   version: 1.26.0
   icon: org.gunthy.ex.png
+  developerName: Gunthy LTD
 
 ---
 

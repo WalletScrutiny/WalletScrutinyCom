@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/kointrack
 - https://www.facebook.com/kointrack
 - https://www.youtube.com/channel/UClKPs-DFxObnqJbC1-8Fc4Q/videos
-developerName: Kointrack Techsystems Private Limited
 redirect_from:
 - /android/org.tronspace.android/
 android:
@@ -21,6 +20,8 @@ android:
   updated: 2023-01-04
   version: 2.2.6
   icon: org.tronspace.android.png
+  website: https://kointrack.com
+  developerName: Kointrack Techsystems Private Limited
 
 ---
 

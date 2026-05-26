@@ -5,7 +5,6 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
-developerName: MeeMob
 redirect_from:
 - /android/io.cryptosigma.finance/
 android:
@@ -15,6 +14,7 @@ android:
   updated: 2022-06-30
   version: 1.0.5
   icon: io.cryptosigma.finance.png
+  developerName: MeeMob
 
 ---
 

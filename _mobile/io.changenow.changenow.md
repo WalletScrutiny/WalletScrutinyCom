@@ -24,10 +24,11 @@ android:
   appId: io.changenow.changenow
   users: 100000
   released: 2018-09-07
-  updated: 2026-05-12
-  version: 1.156.46
+  updated: 2026-05-22
+  version: 2.0.2
   reviews: 803
   icon: io.changenow.changenow.png
+  website: https://changenow.io
   developerName: ChangeNOW
 iphone:
   appId: io.changenow

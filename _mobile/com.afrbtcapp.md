@@ -6,7 +6,6 @@ date: 2025-07-08
 authors:
 - danny
 website: https://www.afrbtc.com
-developerName: GiftCards Team
 redirect_from:
 - /android/com.afrbtcapp/
 android:
@@ -17,6 +16,8 @@ android:
   version: 4.2.2
   reviews: 140
   icon: com.afrbtcapp.png
+  website: https://www.afrbtc.com
+  developerName: GiftCards Team
 
 ---
 

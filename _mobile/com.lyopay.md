@@ -11,7 +11,6 @@ social:
 - https://www.linkedin.com/company/lyopay
 - https://www.facebook.com/lyopayofficial
 - https://www.reddit.com/r/LYOPAY
-developerName: DIGILYO APP LTD
 appCountry: eg
 redirect_from:
 - /android/com.lyopay/
@@ -24,6 +23,7 @@ android:
   version: '1.1'
   icon: com.lyopay.png
   website: https://lyopay.com
+  developerName: DIGILYO APP LTD
 iphone:
   appId: com.LYOPAY.LYOPAY
   idd: '1537945402'
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.LYOPAY.LYOPAY.jpg
   website: https://lyopay.com/
+  developerName: DIGILYO APP LTD
 
 ---
 

@@ -6,7 +6,6 @@ date: 2024-02-05
 authors:
 - danny
 website: http://www.tosblock.com#deadLink
-developerName: TiOSPay
 redirect_from:
 - /android/com.keepercustomerapp/
 android:
@@ -16,6 +15,7 @@ android:
   updated: 2023-02-17
   version: 3.8.4
   icon: com.keepercustomerapp.png
+  developerName: TiOSPay
 
 ---
 

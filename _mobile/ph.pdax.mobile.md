@@ -21,8 +21,9 @@ android:
   released: 2021-01-18
   updated: 2026-05-12
   version: 14.10.0
-  reviews: 3642
+  reviews: 3645
   icon: ph.pdax.mobile.png
+  website: https://pdax.ph
   developerName: PDAX (Philippine Digital Asset Exchange)
 iphone:
   appId: ph.pdax.mobile

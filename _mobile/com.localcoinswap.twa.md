@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/localcoinswap
 - https://t.me/localcoinswap
 - https://www.youtube.com/channel/UCfUR13Y6dzv84EPG9uY1BUA
-developerName: LocalCoinSwap
 redirect_from:
 - /android/com.localcoinswap.twa/
 android:
@@ -22,6 +21,7 @@ android:
   version: 1.0.0.0
   reviews: 8
   icon: com.localcoinswap.twa.png
+  developerName: LocalCoinSwap
 
 ---
 
