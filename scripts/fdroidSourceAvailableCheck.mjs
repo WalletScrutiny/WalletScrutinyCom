@@ -3,13 +3,13 @@
 /**
  * fdroidSourceAvailableCheck.mjs
  *
- * Walks all .md files under `_android/` only (F-Droid hosts Android packages),
+ * Walks `_mobile/` markdown files with an `android.appId` (F-Droid hosts Android packages),
  * selects YAML front matter with verdict "sourceavailable", reads appId, and
  * checks whether the F-Droid package page exists:
  *   https://f-droid.org/packages/<appId>/
  *
  * When F-Droid lists the package (HTTP 2xx) and verdict is sourceavailable,
- * inserts into the YAML front matter (surgical edit, after appId):
+ * inserts under the `android:` block (surgical edit, after `android.appId`):
  *   alternativeStores:
  *   - fdroid
  *
@@ -43,7 +43,7 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 const F_DROID_ORIGIN = 'https://f-droid.org';
 const USER_AGENT = 'walletscrutiny-fdroid-check/1.0 (+https://walletscrutiny.com)';
 
-const ANDROID_DIR = '_android';
+const MOBILE_DIR = '_mobile';
 
 const YAML_OPTS = { schema: yaml.FAILSAFE_SCHEMA };
 
@@ -83,7 +83,7 @@ async function* walkMarkdownFiles(dir) {
 }
 
 async function collectAndroidMarkdownPaths() {
-  const base = path.join(REPO_ROOT, ANDROID_DIR);
+  const base = path.join(REPO_ROOT, MOBILE_DIR);
   const paths = [];
   try {
     await fsp.access(base);
@@ -94,6 +94,82 @@ async function collectAndroidMarkdownPaths() {
     paths.push(file);
   }
   return paths.sort();
+}
+
+function extractAndroidBlock(rawFm) {
+  const m = rawFm.match(/^android:\n((?:[ \t].*\n)*)/m);
+  if (!m) return null;
+  return { prefix: 'android:\n', body: m[1], full: m[0] };
+}
+
+const FDROID_STORE_BLOCK_INDENTED = '  alternativeStores:\n  - fdroid';
+
+function insertAlternativeStoresFdroidInAndroidBlock(androidBody) {
+  if (/^  alternativeStores:\s*\n((?:[ \t].*\n)+)/m.test(androidBody)) {
+    const listHead = androidBody.match(/^  alternativeStores:\s*\n((?:[ \t].*\n)+)/m);
+    if (listHead && /^\s*-\s+fdroid\b/m.test(listHead[1])) {
+      return { androidBody, changed: false };
+    }
+    return { androidBody, changed: false, conflict: true };
+  }
+
+  if (/^  alternativeStores:\s*fdroid\s*$/m.test(androidBody)) {
+    return {
+      androidBody: androidBody.replace(/^  alternativeStores:\s*fdroid\s*$/m, FDROID_STORE_BLOCK_INDENTED),
+      changed: true
+    };
+  }
+
+  const appIdLine = androidBody.match(/^  appId:.*\n/m);
+  if (appIdLine) {
+    return {
+      androidBody: androidBody.replace(appIdLine[0], `${appIdLine[0]}${FDROID_STORE_BLOCK_INDENTED}\n`),
+      changed: true
+    };
+  }
+  return {
+    androidBody: `${androidBody.trimEnd()}\n${FDROID_STORE_BLOCK_INDENTED}\n`,
+    changed: true
+  };
+}
+
+function stripFdroidFromAndroidBlock(androidBody) {
+  const lines = androidBody.split('\n');
+  const out = [];
+  let i = 0;
+  let changed = false;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    if (/^  alternativeStores:\s*fdroid\s*$/i.test(line)) {
+      changed = true;
+      i += 1;
+      continue;
+    }
+
+    if (/^  alternativeStores:\s*$/.test(line)) {
+      i += 1;
+      const itemLines = [];
+      while (i < lines.length && /^    -\s+.+$/.test(lines[i])) {
+        itemLines.push(lines[i]);
+        i += 1;
+      }
+      const kept = itemLines.filter((l) => !/^\s*-\s+fdroid\s*$/i.test(l));
+      if (itemLines.length !== kept.length) changed = true;
+      if (kept.length === 0) {
+        continue;
+      }
+      out.push('  alternativeStores:');
+      out.push(...kept);
+      continue;
+    }
+
+    out.push(line);
+    i += 1;
+  }
+
+  return { androidBody: out.join('\n'), changed };
 }
 
 async function fetchPackageStatus(appId, signal) {
@@ -141,22 +217,21 @@ function splitLeadingFrontmatter(content) {
 const FDROID_STORE_BLOCK = 'alternativeStores:\n- fdroid';
 
 function insertAlternativeStoresFdroid(rawFm) {
+  const androidSection = extractAndroidBlock(rawFm);
+  if (androidSection) {
+    const { androidBody, changed, conflict } = insertAlternativeStoresFdroidInAndroidBlock(androidSection.body);
+    if (conflict) return { rawFm, changed: false, conflict: true };
+    if (!changed) return { rawFm, changed: false };
+    const nextAndroid = `android:\n${androidBody}`;
+    return {
+      rawFm: rawFm.replace(androidSection.full, nextAndroid),
+      changed: true
+    };
+  }
+
   const listHead = rawFm.match(/^alternativeStores:\s*\n((?:[ \t]*-[^\n]+\n)+)/m);
   if (listHead && /^\s*-\s+fdroid\b/m.test(listHead[1])) {
     return { rawFm, changed: false };
-  }
-
-  if (/^alternativeStores:\s*fdroid\s*$/m.test(rawFm)) {
-    return {
-      rawFm: rawFm.replace(/^alternativeStores:\s*fdroid\s*$/m, FDROID_STORE_BLOCK),
-      changed: true
-    };
-  }
-  if (/^alternativeStores:\s*['"]fdroid['"]\s*$/m.test(rawFm)) {
-    return {
-      rawFm: rawFm.replace(/^alternativeStores:\s*['"]fdroid['"]\s*$/m, FDROID_STORE_BLOCK),
-      changed: true
-    };
   }
 
   if (/^alternativeStores:/m.test(rawFm)) {
@@ -171,7 +246,7 @@ function insertAlternativeStoresFdroid(rawFm) {
 }
 
 function fmHasFdroidInAlternativeStores(fm) {
-  const s = fm?.alternativeStores;
+  const s = fm?.android?.alternativeStores ?? fm?.alternativeStores;
   if (s == null) return false;
   if (typeof s === 'string') return s.trim().toLowerCase() === 'fdroid';
   if (Array.isArray(s)) return s.some((x) => String(x).trim().toLowerCase() === 'fdroid');
@@ -179,6 +254,17 @@ function fmHasFdroidInAlternativeStores(fm) {
 }
 
 function stripFdroidFromAlternativeStoresRaw(rawFm) {
+  const androidSection = extractAndroidBlock(rawFm);
+  if (androidSection) {
+    const { androidBody, changed } = stripFdroidFromAndroidBlock(androidSection.body);
+    if (!changed) return { rawFm, changed: false };
+    const nextAndroid = `android:\n${androidBody}`;
+    return {
+      rawFm: rawFm.replace(androidSection.full, nextAndroid),
+      changed: true
+    };
+  }
+
   const lines = rawFm.split('\n');
   const out = [];
   let i = 0;
@@ -330,7 +416,7 @@ async function main() {
     const hadFdroid = fmHasFdroidInAlternativeStores(fm);
     if (!isSourceAvailable && !hadFdroid) continue;
 
-    const appId = fm.appId;
+    const appId = fm.android?.appId ?? fm.appId;
     if (typeof appId !== 'string' || !appId.trim()) {
       rows.push({
         absPath,
@@ -479,7 +565,7 @@ async function main() {
   console.error('');
   console.error(
     `Summary: ${listed.length} listed on F-Droid, ${notListed.length} not listed (404), ${problems.length} other issues, ` +
-      `${mdPaths.length} markdown files scanned under _android/.` +
+      `${mdPaths.length} markdown files scanned under _mobile/.` +
       (dryRun
         ? ` Add fdroid: ${addWouldUpdate} would update, ${addUnchanged} unchanged, ${fileConflicts} conflicts.` +
             ` Remove fdroid (404 only): ${removeWouldStrip} would strip entry, ${removeWouldRemoveKey} would drop key, ${removeUnchanged} unchanged` +
