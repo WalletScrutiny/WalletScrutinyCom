@@ -3,6 +3,7 @@ wsId: arbismartWallet
 title: ArbiSmart
 verdict: custodial
 meta: removed
+date: 2024-11-29
 authors:
 - danny
 twitter: arbismart
@@ -15,7 +16,6 @@ android:
   updated: 2024-06-18
   version: 1.0.0028
   icon: com.arbismart.hotwallets.jpg
-  date: 2024-11-29
   developerName: Arbismart
 iphone:
   appId: com.arbismart.hotwallets
@@ -26,7 +26,6 @@ iphone:
   version: '2.0005'
   reviews: 0
   icon: com.arbismart.hotwallets.jpg
-  date: 2025-03-11
   developerName: Arbismart OU
 
 ---

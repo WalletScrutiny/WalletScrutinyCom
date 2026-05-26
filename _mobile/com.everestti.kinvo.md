@@ -3,6 +3,7 @@ wsId: everestKinvo
 title: 'Kinvo: Acompanhe investimentos'
 verdict: nosendreceive
 meta: ok
+date: 2022-06-23
 authors:
 - danny
 website: http://www.kinvo.com.br
@@ -24,7 +25,6 @@ android:
   version: 3.62.0
   reviews: 7552
   icon: com.everestti.kinvo.png
-  date: 2022-12-06
   developerName: Kinvo Tecnologia da Informação
 iphone:
   appId: com.everest.kinvo
@@ -34,7 +34,6 @@ iphone:
   version: 3.62.0
   reviews: 19090
   icon: com.everest.kinvo.jpg
-  date: 2022-06-23
   developerName: EVEREST.TI
 
 ---

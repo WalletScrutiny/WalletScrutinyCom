@@ -2,6 +2,7 @@
 wsId: ascendex
 title: 'AscendEX: Buy & Sell Crypto'
 verdict: custodial
+date: 2021-05-12
 authors:
 - leo
 - kiwilamb
@@ -21,7 +22,6 @@ android:
   reviews: 76
   icon: com.ascendex.exchange.png
   meta: ok
-  date: 2021-05-12
   website: https://www.ascendex.com/
   developerName: AscendEX
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 173
   icon: io.bitmax.bitmax.jpg
   meta: defunct
-  date: 2023-03-21
   developerName: Beijing Bsht Network Technology Co. Ltd.
 
 ---

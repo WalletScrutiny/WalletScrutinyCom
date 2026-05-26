@@ -3,6 +3,7 @@ wsId: hotXexchange
 title: HotX
 verdict: custodial
 meta: removed
+date: 2024-08-31
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   updated: 2023-07-14
   version: 1.0.33
   icon: com.exchange.hotxapp.png
-  date: 2024-08-31
   website: https://hotx.pro/en/home
   developerName: Metasigns
 iphone:
@@ -27,7 +27,6 @@ iphone:
   version: 1.0.19
   reviews: 2
   icon: com.metasigns.hotx.jpg
-  date: 2025-05-30
   website: https://themetasigns.com/
   developerName: METASIGNS INC.
 

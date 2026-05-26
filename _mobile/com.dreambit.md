@@ -2,6 +2,7 @@
 wsId: Dreambit
 title: Dreambit
 verdict: custodial
+date: 2023-09-04
 authors:
 - danny
 developerName: Crypterium AS
@@ -18,7 +19,6 @@ android:
   reviews: 9
   icon: com.dreambit.png
   meta: removed
-  date: 2023-09-04
   website: http://www.dreambit.com
 iphone:
   appId: io.crypterium.minebest
@@ -29,7 +29,6 @@ iphone:
   reviews: 0
   icon: io.crypterium.minebest.jpg
   meta: obsolete
-  date: 2026-05-05
   website: https://mydreambit.com/
 
 ---

@@ -2,6 +2,7 @@
 wsId: sonitixExchange
 title: Sonitix Exchange
 verdict: custodial
+date: 2023-09-15
 authors:
 - danny
 twitter: SonitixO
@@ -18,7 +19,6 @@ android:
   version: 2.0.46
   icon: com.sonitix_mobility.png
   meta: removed
-  date: 2024-10-10
   website: https://sonitixexchange.in#deadLink
   developerName: Sonitix
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 24
   icon: org.sonitix-private-limited-sonitix-mobility.jpg
   meta: defunct
-  date: 2023-09-15
   website: https://sonitix.exchange/
   developerName: Sonitix Private Limited
 

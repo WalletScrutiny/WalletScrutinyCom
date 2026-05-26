@@ -3,6 +3,7 @@ wsId: qoinPayID
 title: Qoinpay
 verdict: nosource
 meta: removed
+date: 2026-02-02
 authors:
 - danny
 social:
@@ -22,7 +23,6 @@ android:
   updated: 2024-12-03
   version: 1.4.31
   icon: id.qoin.crypto.png
-  date: 2026-02-02
   twitter: qoinpay
 iphone:
   appId: id.qoin.crypto
@@ -33,7 +33,6 @@ iphone:
   version: 1.4.29
   reviews: 2
   icon: id.qoin.crypto.jpg
-  date: 2026-02-20
 
 ---
 

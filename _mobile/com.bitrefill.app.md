@@ -3,6 +3,7 @@ wsId: bitrefill
 title: Bitrefill - Shop with Crypto
 verdict: custodial
 meta: ok
+date: 2021-09-12
 authors:
 - leo
 website: https://www.bitrefill.com
@@ -24,7 +25,6 @@ android:
   version: 7.5.0
   reviews: 281
   icon: com.bitrefill.app.png
-  date: 2021-09-14
 iphone:
   appId: com.bitrefill.bitrefill
   idd: 1378102623
@@ -33,7 +33,6 @@ iphone:
   version: 7.5.0
   reviews: 465
   icon: com.bitrefill.bitrefill.jpg
-  date: 2021-09-12
 
 ---
 

@@ -3,6 +3,7 @@ wsId: sonicWallet
 title: Sonic Wallet
 verdict: nosource
 meta: removed
+date: 2024-02-05
 authors:
 - danny
 twitter: SonicWalletHQ
@@ -22,7 +23,6 @@ android:
   updated: 2024-11-16
   version: 1.1.41
   icon: com.sonicwallet.png
-  date: 2025-03-29
   website: https://www.sonicwallet.com
   developerName: Sonic Inc
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: '3.2'
   reviews: 2
   icon: com.sonicwallet.jpg
-  date: 2024-02-05
   developerName: Sonic Wallet
 
 ---

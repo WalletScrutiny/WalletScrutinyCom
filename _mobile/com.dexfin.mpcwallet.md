@@ -3,6 +3,7 @@ wsId: dexfinWallet
 title: Dexfin Wallet
 verdict: nosource
 meta: removed
+date: 2024-08-07
 authors:
 - danny
 twitter: https://twitter.com/dexfinexchange
@@ -23,7 +24,6 @@ android:
   updated: 2023-02-01
   version: 0.2.7
   icon: com.dexfin.mpcwallet.png
-  date: 2025-01-09
   website: https://www.dexfin.com
 iphone:
   appId: com.dexfin.mpcwallet
@@ -34,7 +34,6 @@ iphone:
   version: 1.0.2
   reviews: 3
   icon: com.dexfin.mpcwallet.jpg
-  date: 2024-08-07
   website: https://dexfin.com
 
 ---

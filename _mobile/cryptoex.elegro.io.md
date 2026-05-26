@@ -2,6 +2,7 @@
 wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
 verdict: wip
+date: 2023-07-03
 authors:
 - leo
 - danny
@@ -26,7 +27,6 @@ android:
   version: 1.0.4
   icon: cryptoex.elegro.io.png
   meta: removed
-  date: 2024-02-05
   website: https://personal.elegro.eu/exchange#deadLink
 iphone:
   appId: cryptoex.elegro.io
@@ -38,7 +38,6 @@ iphone:
   reviews: 2
   icon: cryptoex.elegro.io.jpg
   meta: obsolete
-  date: 2023-07-03
   website: https://personal.elegro.eu/certified-coins
 
 ---

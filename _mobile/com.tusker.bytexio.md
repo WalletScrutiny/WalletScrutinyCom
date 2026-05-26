@@ -2,6 +2,7 @@
 wsId: byteXTrade
 title: ByteX - Trade, Borrow & Earn
 verdict: custodial
+date: 2024-03-02
 authors:
 - danny
 twitter: bytex_io
@@ -24,7 +25,6 @@ android:
   version: 1.0.9
   icon: com.tusker.bytexio.png
   meta: removed
-  date: 2024-03-02
 iphone:
   appId: com.tusker.bytexio
   idd: '1621476540'
@@ -35,7 +35,6 @@ iphone:
   reviews: 0
   icon: com.tusker.bytexio.jpg
   meta: ok
-  date: 2026-05-05
   website: https://bytex.io/
 
 ---

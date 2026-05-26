@@ -3,6 +3,7 @@ wsId: trusteePlus
 title: Trustee Plus | Wallet & Card
 verdict: custodial
 meta: removed
+date: 2026-02-20
 authors:
 - danny
 twitter: TrusteeGlobal
@@ -21,7 +22,6 @@ android:
   version: 1.32.52
   reviews: 26
   icon: com.trusteeplus.png
-  date: 2026-05-21
   website: https://trusteeglobal.com
   developerName: UAB Trustee Global
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 1.32.36
   reviews: 114
   icon: com.trusteeplus1.jpg
-  date: 2026-02-20
   developerName: Trustee Global
 
 ---

@@ -3,6 +3,7 @@ wsId: phoenix
 title: Phoenix - LN Bitcoin wallet
 verdict: sourceavailable
 meta: ok
+date: 2024-07-05
 authors:
 - leo
 - danny
@@ -30,7 +31,6 @@ android:
   reviews: 10
   icon: fr.acinq.phoenix.mainnet.png
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-  date: 2025-03-19
   repository: https://github.com/ACINQ/phoenix
 iphone:
   appId: co.acinq.phoenix
@@ -41,7 +41,6 @@ iphone:
   version: 2.7.5
   reviews: 20
   icon: co.acinq.phoenix.jpg
-  date: 2024-07-05
   repository: https://github.com/ACINQ/phoenix-kmm
 
 ---

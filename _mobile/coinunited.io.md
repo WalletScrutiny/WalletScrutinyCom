@@ -3,6 +3,7 @@ wsId: CoinUnited
 title: 'CoinUnited: Trade BTC & Stocks'
 verdict: custodial
 meta: removed
+date: 2025-03-19
 authors:
 - danny
 twitter: realcoinunited
@@ -18,7 +19,6 @@ android:
   version: 5.1.0
   reviews: 237
   icon: coinunited.io.jpg
-  date: 2025-09-23
   website: https://coinunited.io/
   developerName: CoinU
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 4.0.2
   reviews: 282
   icon: coinunited.io.jpg
-  date: 2025-03-19
   website: https://www.coinunited.io/
   developerName: CoinUnited Limited
 

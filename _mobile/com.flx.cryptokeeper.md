@@ -1,6 +1,7 @@
 ---
 title: 'Bitcoin Wallet : BTC & Crypto'
 meta: ok
+date: 2025-11-17
 authors:
 - danny
 features:
@@ -17,7 +18,6 @@ android:
   reviews: 12
   icon: com.flx.cryptokeeper.png
   verdict: custodial
-  date: 2025-11-17
   website: http://www.cryptokeeperllc.com
   developerName: Crypto Keeper LLC
 iphone:
@@ -30,7 +30,6 @@ iphone:
   reviews: 29
   icon: com.flx.cryptokeeper.jpg
   verdict: wip
-  date: 2026-01-14
   website: https://cryptokeeperllc.com/policy/privacy-policy/
   developerName: Crypto Keeper
 

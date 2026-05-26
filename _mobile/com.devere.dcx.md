@@ -3,6 +3,7 @@ wsId: devereCrypto
 title: deVere Crypto
 verdict: nosendreceive
 meta: removed
+date: 2024-11-29
 authors:
 - danny
 website: http://www.devere-crypto.com
@@ -21,7 +22,6 @@ android:
   version: 4.4.0
   reviews: 1
   icon: com.devere.dcx.png
-  date: 2025-05-30
   developerName: deVere Group
 iphone:
   appId: com.devere.cryptoapp
@@ -32,7 +32,6 @@ iphone:
   version: '5.1'
   reviews: 1
   icon: com.devere.cryptoapp.jpg
-  date: 2024-11-29
   developerName: DEVERE GROUP LIMITED
 
 ---

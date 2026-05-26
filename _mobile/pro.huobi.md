@@ -3,6 +3,7 @@ wsId: huobi
 title: 'HTX: Buy Crypto & Bitcoin'
 verdict: custodial
 meta: ok
+date: 2020-05-29
 authors:
 - leo
 twitter: HuobiGlobal
@@ -24,7 +25,6 @@ android:
   version: 11.20.0
   reviews: 613
   icon: pro.huobi.png
-  date: 2020-05-29
   website: http://www.hbg.com
   developerName: Huobi
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 11.20.0
   reviews: 1427
   icon: com.huobi.appStoreHuobiSystem.jpg
-  date: 2024-10-07
   website: https://www.htx.com
   developerName: SAFE GLORY UAB
 

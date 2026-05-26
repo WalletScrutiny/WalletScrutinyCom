@@ -2,6 +2,7 @@
 wsId: gemWallet
 title: 'Gem Wallet: Bitcoin, USDT, BNB'
 meta: ok
+date: 2024-06-12
 authors:
 - danny
 social:
@@ -31,7 +32,6 @@ android:
   reviews: 5
   icon: com.gemwallet.android.png
   verdict: sourceavailable
-  date: 2024-08-05
   website: https://gemwallet.com
   repository: https://github.com/gemwalletcom/wallet
   twitter: gemwallet
@@ -45,7 +45,6 @@ iphone:
   reviews: 355
   icon: com.gemwallet.ios.jpg
   verdict: wip
-  date: 2024-06-12
   website: https://gemwallet.com/
   repository: https://github.com/gemwalletcom/gem-android
   twitter: GemWalletApp

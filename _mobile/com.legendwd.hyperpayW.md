@@ -1,6 +1,7 @@
 ---
 wsId: hyperPay
 title: HPX :Wallet Crypto & Card
+date: 2023-05-30
 authors:
 - leo
 - danny
@@ -23,7 +24,6 @@ android:
   icon: com.legendwd.hyperpayW.png
   meta: ok
   verdict: nosource
-  date: 2025-01-22
   developerName: CIPHER BC PTE. LTD.
 iphone:
   appId: com.legendwd.hyperpay
@@ -35,7 +35,6 @@ iphone:
   icon: com.legendwd.hyperpay.jpg
   meta: defunct
   verdict: obfuscated
-  date: 2023-05-30
   developerName: CIPHERBC PTE. LTD.
 
 ---

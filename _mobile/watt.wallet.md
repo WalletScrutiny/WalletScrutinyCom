@@ -3,6 +3,7 @@ wsId: wattMe
 title: WATT ME
 verdict: nosource
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 twitter: watt_me_token
@@ -18,7 +19,6 @@ android:
   updated: 2022-06-11
   version: 1.28.0
   icon: watt.wallet.png
-  date: 2025-02-26
   website: https://watt.me
   developerName: wise.win
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: '1.29'
   reviews: 56
   icon: watt.wallet.jpg
-  date: 2023-12-19
   developerName: Wise Win LTD
 
 ---

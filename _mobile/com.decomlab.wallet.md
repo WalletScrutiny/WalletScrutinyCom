@@ -3,6 +3,7 @@ wsId: decomlab
 title: Moon Wallet
 verdict: nosource
 meta: removed
+date: 2023-01-30
 authors:
 - danny
 website: https://moonwallet.net/
@@ -21,7 +22,6 @@ android:
   version: 1.2.1
   reviews: 8
   icon: com.decomlab.wallet.png
-  date: 2023-03-21
 iphone:
   appId: com.decomlab.wallet
   idd: 1569428098
@@ -30,7 +30,6 @@ iphone:
   version: 1.2.1
   reviews: 8
   icon: com.decomlab.wallet.jpg
-  date: 2023-01-30
 
 ---
 

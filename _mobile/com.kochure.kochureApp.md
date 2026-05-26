@@ -2,6 +2,7 @@
 wsId: kochureCrypto
 title: 'Kochure: Buy & Sell Crypto'
 verdict: custodial
+date: 2025-07-24
 authors:
 - danny
 twitter: kochureglobal
@@ -21,7 +22,6 @@ android:
   reviews: 3
   icon: com.kochure.kochureApp.png
   meta: ok
-  date: 2025-11-05
   website: https://kochure.com/
 iphone:
   appId: com.kochure.kochure-app
@@ -33,7 +33,6 @@ iphone:
   reviews: 236
   icon: com.kochure.kochure-app.jpg
   meta: stale
-  date: 2025-07-24
 
 ---
 

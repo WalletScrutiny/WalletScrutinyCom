@@ -3,6 +3,7 @@ wsId: matrixport
 title: BIT - Buy US Stocks & Crypto
 verdict: custodial
 meta: ok
+date: 2021-09-15
 authors:
 - danny
 twitter: realMatrixport
@@ -22,7 +23,6 @@ android:
   version: 3.8.5
   reviews: 870
   icon: com.matrixport.mark.png
-  date: 2021-09-15
   website: https://invest.matrixport.com
   developerName: MATRIX TECH PTE. LTD
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 4.6.00
   reviews: 52
   icon: com.matrixport.mark.jpg
-  date: 2024-10-07
   website: https://www.bit.com
   developerName: Matrixport Technologies Ltd
 

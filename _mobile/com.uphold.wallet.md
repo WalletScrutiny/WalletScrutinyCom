@@ -3,6 +3,7 @@ wsId: UpholdbuyandsellBitcoin
 title: 'Uphold: Buy BTC, ETH and 300+'
 verdict: custodial
 meta: ok
+date: 2020-10-12
 authors:
 - leo
 website: https://uphold.com
@@ -26,7 +27,6 @@ android:
   version: 6.88.0
   reviews: 8199
   icon: com.uphold.wallet.png
-  date: 2020-10-12
   developerName: Uphold
 iphone:
   appId: com.uphold.wallet.ios
@@ -36,7 +36,6 @@ iphone:
   version: 6.89.0
   reviews: 88599
   icon: com.uphold.wallet.ios.jpg
-  date: 2021-05-14
   developerName: Uphold HQ Inc.
 
 ---

@@ -3,6 +3,7 @@ wsId: truzactCrypto
 title: 'Truzact: Save & Invest Crypto'
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 website: https://truzact.com#deadLink
@@ -21,7 +22,6 @@ android:
   updated: 2023-07-12
   version: 4.6.7
   icon: com.truzact.truzact_mobile.png
-  date: 2024-11-30
   developerName: Truzact
 iphone:
   appId: com.truzact.truzact-mobile-app
@@ -32,7 +32,6 @@ iphone:
   version: 4.1.3
   reviews: 14
   icon: com.truzact.truzact-mobile-app.jpg
-  date: 2024-07-05
   developerName: Truzact Technologies
 
 ---

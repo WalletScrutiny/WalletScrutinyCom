@@ -2,6 +2,7 @@
 wsId: WanWallet
 title: WanWallet
 verdict: nosource
+date: 2022-04-07
 authors:
 - danny
 website: https://www.wanchain.org
@@ -23,7 +24,6 @@ android:
   reviews: 11
   icon: com.wanchain.WanWallet.png
   meta: removed
-  date: 2022-04-07
 iphone:
   appId: org.wanchain.WanWallet
   idd: 1477039507
@@ -33,7 +33,6 @@ iphone:
   reviews: 24
   icon: org.wanchain.WanWallet.jpg
   meta: obsolete
-  date: 2024-07-17
   developerName: Wanchain LTD
 
 ---

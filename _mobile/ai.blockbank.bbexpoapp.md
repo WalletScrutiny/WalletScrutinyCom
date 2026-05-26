@@ -3,6 +3,7 @@ wsId: blockbank.v2
 title: Pairs
 verdict: nosource
 meta: removed
+date: 2025-04-01
 authors:
 - danny
 twitter: BLOCKBANKapp
@@ -21,7 +22,6 @@ android:
   version: 4.4.7
   reviews: 13
   icon: ai.blockbank.bbexpoapp.png
-  date: 2026-04-28
   website: https://pairs.xyz
   developerName: UAB HODL SERVICES
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 3.3.6
   reviews: 13
   icon: ai.blockbank.blockbankv2.jpg
-  date: 2025-04-01
   website: https://twitter.com/BLOCKBANKapp
 
 ---

@@ -3,6 +3,7 @@ wsId: vowCurrency
 title: Vow
 verdict: nosource
 meta: removed
+date: 2024-07-30
 authors:
 - danny
 twitter: vowcurrency
@@ -23,7 +24,6 @@ android:
   version: 10.3.7
   reviews: 4
   icon: com.vowcurrency.vow.png
-  date: 2025-06-06
   developerName: Vow
 iphone:
   appId: com.vowcurrency.vow
@@ -34,7 +34,6 @@ iphone:
   version: 1.3.4
   reviews: 6
   icon: com.vowcurrency.vow.jpg
-  date: 2024-07-30
   website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
   developerName: Vow Limited
 

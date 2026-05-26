@@ -2,6 +2,7 @@
 wsId: tastyCrypto
 title: 'tastycrypto: Crypto Wallet'
 verdict: nosource
+date: 2025-12-16
 authors:
 - danny
 website: https://www.tastycrypto.com/
@@ -28,7 +29,6 @@ android:
   reviews: 9
   icon: com.tastycrypto.png
   meta: removed
-  date: 2026-05-13
   developerName: tastycrypto
 iphone:
   appId: com.tastycrypto
@@ -40,7 +40,6 @@ iphone:
   reviews: 20
   icon: com.tastycrypto.jpg
   meta: ok
-  date: 2025-12-16
   developerName: Tasty
 
 ---

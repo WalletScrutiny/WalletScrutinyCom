@@ -2,6 +2,7 @@
 wsId: xFunWallet
 title: XFUN Wallet
 verdict: nosource
+date: 2025-03-14
 authors:
 - danny
 twitter: FUNtoken_io
@@ -21,7 +22,6 @@ android:
   reviews: 12
   icon: com.xfun.wallet.png
   meta: removed
-  date: 2025-03-14
   website: https://xfun.io#deadLink
   developerName: Funtech Ltd
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 3
   icon: com.xfun.wallet.jpg
   meta: obsolete
-  date: 2025-07-11
   developerName: XFUN
 
 ---

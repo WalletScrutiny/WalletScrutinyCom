@@ -3,6 +3,7 @@ wsId: ViaWallet
 title: CoinEx Wallet - Crypto & DeFi
 verdict: nosource
 meta: ok
+date: 2021-10-01
 authors:
 - leo
 - danny
@@ -26,7 +27,6 @@ android:
   version: 4.23.1
   reviews: 61
   icon: com.viabtc.wallet.png
-  date: 2024-07-13
   website: https://viawallet.com
   developerName: CoinEx
 iphone:
@@ -37,7 +37,6 @@ iphone:
   version: 4.23.1
   reviews: 54
   icon: com.viabtc.ViaWallet.jpg
-  date: 2021-10-01
   website: https://wallet.coinex.com/
   developerName: Coinex Global Limited
 

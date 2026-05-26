@@ -3,6 +3,7 @@ wsId: PoolinWallet
 title: PoolinWallet - Secure Custody
 verdict: custodial
 meta: removed
+date: 2023-08-25
 authors:
 - danny
 website: https://poolin.fi/
@@ -21,7 +22,6 @@ android:
   version: 2.5.13
   reviews: 23
   icon: com.blockin.wallet.png
-  date: 2024-10-19
   developerName: Poolin Singapore - Make the Most of Crypto Assets
 iphone:
   appId: com.poolinwallet.blockinwallet
@@ -31,7 +31,6 @@ iphone:
   version: 2.5.6
   reviews: 41
   icon: com.poolinwallet.blockinwallet.jpg
-  date: 2023-08-25
   developerName: POOLIN TECHNOLOGY PTE.LTD.
 
 ---

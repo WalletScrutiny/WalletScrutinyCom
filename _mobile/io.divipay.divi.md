@@ -3,6 +3,7 @@ wsId: DiviWallet
 title: 'Divi Wallet: Crypto & Staking'
 verdict: nosource
 meta: removed
+date: 2025-02-13
 authors:
 - danny
 twitter: diviproject
@@ -22,7 +23,6 @@ android:
   version: 2.2.01218
   reviews: 13
   icon: io.divipay.divi.png
-  date: 2025-02-28
   website: http://diviproject.org
   developerName: Divi Labs
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 2.2.01215
   reviews: 28
   icon: io.divipay.divi.jpg
-  date: 2025-02-13
   website: https://web.archive.org/web/20210919220325/https://wallet.diviproject.org/
   developerName: Qbito Technologies S.A.
 

@@ -3,6 +3,7 @@ wsId: echooDeFi
 title: 'Echooo : Crypto AA Wallet&DeFi'
 verdict: nosource
 meta: removed
+date: 2026-01-28
 authors:
 - danny
 twitter: echooo_wallet
@@ -21,7 +22,6 @@ android:
   version: 1.24.0
   reviews: 77
   icon: com.smartwallet.app.png
-  date: 2026-01-28
   website: https://www.echooo.xyz/
 iphone:
   appId: com.soundVelly.echoooLab
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.2
   reviews: 45
   icon: com.soundVelly.echoooLab.jpg
-  date: 2026-02-20
   website: http://www.echooo.xyz
 
 ---

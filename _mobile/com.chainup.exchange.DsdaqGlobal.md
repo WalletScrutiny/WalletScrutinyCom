@@ -3,6 +3,7 @@ wsId: dsdaqGlobal
 title: DsdaqGlobal
 verdict: custodial
 meta: removed
+date: 2023-08-25
 authors:
 - danny
 twitter: DsdaqCom
@@ -17,7 +18,6 @@ android:
   updated: 2022-07-18
   version: 5.4.1_push_v2
   icon: com.chainup.exchange.DsdaqGlobal.png
-  date: 2023-12-19
   website: https://dsdaq.com#deadLink
 iphone:
   appId: com.new.dsdaq.global
@@ -28,7 +28,6 @@ iphone:
   version: 5.3.2
   reviews: 0
   icon: com.new.dsdaq.global.jpg
-  date: 2023-08-25
   website: http://dsdaq.io
 
 ---

@@ -3,6 +3,7 @@ wsId: cpass
 title: CPASS
 verdict: custodial
 meta: removed
+date: 2023-09-28
 authors:
 - danny
 twitter: CPass_Official
@@ -21,7 +22,6 @@ android:
   updated: 2023-05-18
   version: 1.9.18
   icon: com.digilab24.apps.png
-  date: 2024-12-15
   website: https://cpass.exchange#deadLink
   developerName: C PASS
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 1.9.18
   reviews: 0
   icon: com.digilab24.apps.jpg
-  date: 2023-09-28
   developerName: C PASS Inc.
 
 ---

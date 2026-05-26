@@ -3,6 +3,7 @@ wsId: indieSquare
 title: IndieSquare Wallet
 verdict: nosource
 meta: removed
+date: 2024-02-05
 authors:
 - danny
 website: https://wallet.indiesquare.me
@@ -23,7 +24,6 @@ android:
   version: 2.5.4
   reviews: 31
   icon: inc.lireneosoft.counterparty.png
-  date: 2024-02-05
 iphone:
   appId: inc.lireneosoft.counterparty
   idd: 977972108
@@ -32,7 +32,6 @@ iphone:
   version: '1.255'
   reviews: 1
   icon: inc.lireneosoft.counterparty.jpg
-  date: 2024-11-21
 
 ---
 

@@ -3,6 +3,7 @@ wsId: LeadWallet
 title: 'Lead Wallet – Swap, Multisend '
 verdict: nosource
 meta: removed
+date: 2023-01-02
 authors:
 - danny
 twitter: leadwallet
@@ -21,7 +22,6 @@ android:
   version: 1.0.39
   reviews: 54
   icon: com.leadWallet.png
-  date: 2023-01-02
   website: https://leadwallet.io
 iphone:
   appId: com.leadWallet
@@ -31,7 +31,6 @@ iphone:
   version: 1.0.32
   reviews: 19
   icon: com.leadWallet.jpg
-  date: 2023-01-11
   website: https://leadwallet.io/
   repository: https://github.com/leadwallet/leadwallet-core#deadLink
 

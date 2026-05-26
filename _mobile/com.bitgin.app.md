@@ -3,6 +3,7 @@ wsId: bitginApp
 title: BITGIN
 verdict: custodial
 meta: removed
+date: 2024-10-28
 authors:
 - danny
 redirect_from:
@@ -14,7 +15,6 @@ android:
   updated: 2023-05-24
   version: 2.2.2
   icon: com.bitgin.app.png
-  date: 2025-04-09
   developerName: BITGIN.NET
 iphone:
   appId: net.bitgin
@@ -25,7 +25,6 @@ iphone:
   version: 2.2.2
   reviews: 19
   icon: net.bitgin.jpg
-  date: 2024-10-28
   website: https://www.bitgin.net/
   developerName: 畢竟科技股份有限公司
 

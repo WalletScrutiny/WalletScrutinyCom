@@ -3,6 +3,7 @@ wsId: CoinBerry
 title: 'Coinberry: Buy and Sell Crypto'
 verdict: custodial
 meta: removed
+date: 2023-08-16
 authors:
 - danny
 twitter: CoinberryHQ
@@ -22,7 +23,6 @@ android:
   version: 137.6.4
   reviews: 655
   icon: com.coinberry_mobile.png
-  date: 2024-04-19
   website: https://www.coinberry.com
 iphone:
   appId: com.coinberry.coinberry
@@ -32,7 +32,6 @@ iphone:
   version: 137.6.3
   reviews: 5958
   icon: com.coinberry.coinberry.jpg
-  date: 2023-08-16
   website: https://coinberry.com
 
 ---

@@ -3,6 +3,7 @@ wsId: flitpay
 title: 'Flitpay: Crypto Trading App'
 verdict: custodial
 meta: ok
+date: 2021-09-30
 authors:
 - danny
 twitter: flitpayofficial
@@ -21,7 +22,6 @@ android:
   version: 1.0.66
   reviews: 2755
   icon: com.core.app.flitpay.png
-  date: 2021-09-30
   website: https://www.flitpay.com/
 iphone:
   appId: com.core.ios.flitpay
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.25
   reviews: 133
   icon: com.core.ios.flitpay.jpg
-  date: 2024-10-07
   website: https://www.flitpay.com
 
 ---

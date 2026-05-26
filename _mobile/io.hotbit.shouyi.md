@@ -3,6 +3,7 @@ wsId: hotbit
 title: Hotbit
 verdict: custodial
 meta: removed
+date: 2023-04-16
 authors:
 - danny
 website: https://www.hotbit.io#deadLink
@@ -21,7 +22,6 @@ android:
   version: 1.4.33
   reviews: 1606
   icon: io.hotbit.shouyi.png
-  date: 2025-03-11
   developerName: Hotbit Technology Limited
 iphone:
   appId: io.chainbase.global
@@ -31,7 +31,6 @@ iphone:
   version: 1.4.13
   reviews: 718
   icon: io.chainbase.global.jpg
-  date: 2023-04-16
   developerName: Chainbase Co.,Ltd.
 
 ---

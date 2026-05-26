@@ -3,6 +3,7 @@ wsId: swissborg
 title: 'SwissBorg: Buy Bitcoin, crypto'
 verdict: custodial
 meta: ok
+date: 2021-08-27
 authors:
 - danny
 website: https://swissborg.com
@@ -22,7 +23,6 @@ android:
   version: 1.135.1
   reviews: 979
   icon: com.swissborg.android.png
-  date: 2021-08-27
   developerName: SwissBorg
 iphone:
   appId: com.swissborg.ios
@@ -32,7 +32,6 @@ iphone:
   version: 1.135.1
   reviews: 2568
   icon: com.swissborg.ios.jpg
-  date: 2021-09-15
   developerName: SBorg SA
 
 ---

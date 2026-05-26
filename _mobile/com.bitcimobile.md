@@ -3,6 +3,7 @@ wsId: bitci
 title: Safebit | Kripto BTC, ETH,USDT
 verdict: custodial
 meta: ok
+date: 2022-06-28
 authors:
 - danny
 twitter: bitcicom
@@ -22,7 +23,6 @@ android:
   version: 23.0.1
   reviews: 14
   icon: com.bitcimobile.png
-  date: 2022-06-28
   website: https://www.safebit.com
   developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 23.0.0
   reviews: 1382
   icon: com.bitcimobil.com.jpg
-  date: 2023-01-21
   website: https://www.safebit.com.tr/
   developerName: Safebit Kripto Varlık AŞ
 

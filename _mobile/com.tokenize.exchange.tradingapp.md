@@ -2,6 +2,7 @@
 wsId: Tokenize
 title: Tokenize Xchange
 verdict: custodial
+date: 2025-11-05
 authors:
 - danny
 twitter: TokenizeXchange
@@ -20,7 +21,6 @@ android:
   reviews: 17
   icon: com.tokenize.exchange.tradingapp.png
   meta: removed
-  date: 2025-11-05
   website: https://tokenize.exchange/
   developerName: Tokenize Xchange
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 2
   icon: com.tokenize.exchange.trading.jpg
   meta: stale
-  date: 2026-05-05
   website: https://tokenize.exchange
   developerName: Tokenize Xchange Pte Ltd
 

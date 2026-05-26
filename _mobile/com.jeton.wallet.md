@@ -2,6 +2,7 @@
 wsId: jeton
 title: Jeton Wallet
 verdict: custodial
+date: 2025-02-13
 authors:
 - danny
 twitter: jetonwallet
@@ -18,7 +19,6 @@ android:
   reviews: 20
   icon: com.jeton.wallet.png
   meta: stale
-  date: 2025-09-03
   website: https://jeton.com/
   developerName: Jeton Wallet
 iphone:
@@ -30,7 +30,6 @@ iphone:
   reviews: 44
   icon: jetonwallet.JetonWallet.jpg
   meta: removed
-  date: 2025-02-13
   website: https://jeton.com
   developerName: LA ORANGE LIMITED
 

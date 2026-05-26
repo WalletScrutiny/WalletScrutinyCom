@@ -3,6 +3,7 @@ wsId: PTPWallet
 title: PTPWallet - Bitcoin, Ethereum,
 verdict: nosource
 meta: removed
+date: 2024-10-05
 authors:
 - leo
 - danny
@@ -23,7 +24,6 @@ android:
   version: 1.0.1281
   reviews: 19
   icon: com.ptpwallet.png
-  date: 2024-12-15
   developerName: PTPWallet
 iphone:
   appId: com.ptpwallet
@@ -33,7 +33,6 @@ iphone:
   version: 1.0.265
   reviews: 24
   icon: com.ptpwallet.jpg
-  date: 2024-10-05
   developerName: 8870985 Canada Corp
 
 ---

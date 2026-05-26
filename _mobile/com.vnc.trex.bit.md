@@ -3,6 +3,7 @@ wsId: trexCrypto
 title: TREX Global-Buy Crypto, FX
 verdict: nosendreceive
 meta: removed
+date: 2024-12-31
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   updated: 2024-07-12
   version: 1.1.0
   icon: com.vnc.trex.bit.png
-  date: 2025-03-14
   website: https://trexglobals.com/
   developerName: trex limited
 iphone:
@@ -27,7 +27,6 @@ iphone:
   version: 2.0.0
   reviews: 1
   icon: com.vn.trextrade.tt.jpg
-  date: 2024-12-31
   website: http://m.trexfx.com#deadLink
   developerName: Kodak Global Futures Limited
 

@@ -3,6 +3,7 @@ wsId: ammerWallet
 title: Ammer Wallet
 verdict: nosource
 meta: ok
+date: 2023-07-20
 authors:
 - danny
 twitter: AmmerCards
@@ -21,7 +22,6 @@ android:
   version: 1.8.1
   reviews: 1
   icon: ammer.wallet.png
-  date: 2024-07-24
   website: https://ammer.cards/
 iphone:
   appId: io.trustody.wallet
@@ -32,7 +32,6 @@ iphone:
   version: '9.0'
   reviews: 0
   icon: io.trustody.wallet.jpg
-  date: 2023-07-20
   website: https://ammer.cards
 
 ---

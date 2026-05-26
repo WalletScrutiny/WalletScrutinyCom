@@ -3,6 +3,7 @@ wsId: ooBit
 title: Oobit – Crypto Card
 verdict: custodial
 meta: ok
+date: 2023-06-14
 authors:
 - danny
 website: https://www.oobit.com/
@@ -22,7 +23,6 @@ android:
   version: 2.6.1
   reviews: 39
   icon: com.oobit.png
-  date: 2023-06-14
   twitter: oobit
 iphone:
   appId: com.oobit
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.7
   reviews: 947
   icon: com.oobit.jpg
-  date: 2026-02-02
 
 ---
 

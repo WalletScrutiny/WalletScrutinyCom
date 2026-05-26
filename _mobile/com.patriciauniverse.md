@@ -3,6 +3,7 @@ wsId: patriciaUniverse
 title: Patricia Universe
 verdict: custodial
 meta: removed
+date: 2024-02-05
 authors:
 - danny
 twitter: PatriciaSwitch
@@ -22,7 +23,6 @@ android:
   version: '1.2'
   reviews: 23
   icon: com.patriciauniverse.png
-  date: 2025-03-11
   website: https://mypatricia.co
   developerName: Patricia Technologies
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: '1.2'
   reviews: 107
   icon: com.patriciauniverse.app.jpg
-  date: 2024-02-05
   developerName: Patricia Technologies Limited
 
 ---

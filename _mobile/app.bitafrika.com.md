@@ -2,6 +2,7 @@
 wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 verdict: custodial
+date: 2023-03-06
 authors:
 - danny
 twitter: _bitafrika
@@ -21,7 +22,6 @@ android:
   reviews: 173
   icon: app.bitafrika.com.png
   meta: ok
-  date: 2023-03-06
   website: https://bitafrika.com
   developerName: BITAFRIKA LTD
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 635
   icon: app.bitafrika.com.jpg
   meta: removed
-  date: 2023-05-17
   website: https://bitafrika.com/contact
 
 ---

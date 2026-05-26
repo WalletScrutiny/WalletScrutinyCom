@@ -2,6 +2,7 @@
 wsId: altcoinTrader
 title: 'AltCoinTrader: Bitcoin, Crypto'
 verdict: custodial
+date: 2023-02-03
 authors:
 - danny
 website: https://www.altcointrader.co.za/
@@ -19,7 +20,6 @@ android:
   reviews: 10
   icon: co.za.altcointrader.png
   meta: stale
-  date: 2026-05-08
 iphone:
   appId: za.co.altcointrader.ios
   idd: '1499787588'
@@ -30,7 +30,6 @@ iphone:
   reviews: 82
   icon: za.co.altcointrader.ios.jpg
   meta: obsolete
-  date: 2023-02-03
 
 ---
 

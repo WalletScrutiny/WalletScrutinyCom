@@ -2,6 +2,7 @@
 wsId: touchWalletCrypto
 title: Touch Wallet — Crypto Wallet
 verdict: custodial
+date: 2024-10-03
 authors:
 - danny
 website: https://touchwallet.com/
@@ -20,7 +21,6 @@ android:
   version: 2.1.14
   icon: ru.webtronics.touch_wallet.png
   meta: stale
-  date: 2026-04-28
 iphone:
   appId: ru.webtronics.touchwallet2
   idd: '6443906980'
@@ -31,7 +31,6 @@ iphone:
   reviews: 3
   icon: ru.webtronics.touchwallet2.jpg
   meta: removed
-  date: 2024-10-03
 
 ---
 

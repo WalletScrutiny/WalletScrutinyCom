@@ -1,6 +1,7 @@
 ---
 title: 'Backpack: Buy SOL, BTC, Crypto'
 meta: ok
+date: 2025-11-09
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   reviews: 65
   icon: app.backpack.mobile.png
   verdict: custodial
-  date: 2025-11-09
   website: https://backpack.app
   developerName: Backpack App
 iphone:
@@ -28,7 +28,6 @@ iphone:
   reviews: 218
   icon: app.backpack.mobile.jpg
   verdict: wip
-  date: 2025-11-11
   website: https://www.backpack.app/
   developerName: Backpack Technologies Ltd.
 

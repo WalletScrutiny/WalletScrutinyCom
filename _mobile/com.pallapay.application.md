@@ -2,6 +2,7 @@
 wsId: pallapayApp
 title: PallaPay
 verdict: custodial
+date: 2025-07-28
 authors:
 - danny
 twitter: pallapay_com
@@ -23,7 +24,6 @@ android:
   version: 1.0.3
   icon: com.pallapay.application.jpg
   meta: removed
-  date: 2025-08-24
   website: https://pallapay.com
 iphone:
   appId: com.pallapay.application
@@ -35,7 +35,6 @@ iphone:
   reviews: 2
   icon: com.pallapay.application.jpg
   meta: ok
-  date: 2025-07-28
   website: https://www.pallapay.com
 
 ---

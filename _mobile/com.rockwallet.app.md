@@ -2,6 +2,7 @@
 wsId: rockwalletApp
 title: 'RockWallet: Buy and Swap'
 meta: ok
+date: 2023-08-28
 authors:
 - danny
 twitter: rockwallet
@@ -24,7 +25,6 @@ android:
   reviews: 283
   icon: com.rockwallet.app.jpg
   verdict: nosource
-  date: 2024-06-07
   website: http://www.rockwallet.com
   developerName: RockWallet
 iphone:
@@ -37,7 +37,6 @@ iphone:
   reviews: 764
   icon: com.rockwallet.app.jpg
   verdict: sourceavailable
-  date: 2023-08-28
   website: https://www.rockwallet.com
   repository: https://github.com/rockwalletcode/wallet-ios#deadLink
   developerName: RockWallet, LLC

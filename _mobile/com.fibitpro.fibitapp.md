@@ -3,6 +3,7 @@ wsId: fibitPro
 title: Fibit Pro
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 twitter: fibitpro
@@ -23,7 +24,6 @@ android:
   version: 0.9.1
   reviews: 61
   icon: com.fibitpro.fibitapp.png
-  date: 2025-03-14
   website: https://fibitpro.com
 iphone:
   appId: com.fibit.ios
@@ -34,7 +34,6 @@ iphone:
   version: 1.1.3
   reviews: 10
   icon: com.fibit.ios.jpg
-  date: 2024-07-05
 
 ---
 

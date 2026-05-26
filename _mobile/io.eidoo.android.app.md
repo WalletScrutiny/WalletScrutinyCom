@@ -3,6 +3,7 @@ wsId: eidooApp
 title: Eidoo
 verdict: nosource
 meta: removed
+date: 2024-04-26
 authors:
 - danny
 twitter: eidoo_io
@@ -19,7 +20,6 @@ android:
   version: 1.14.2
   reviews: 5
   icon: io.eidoo.android.app.jpg
-  date: 2025-03-11
   website: https://eidoo.app/
   developerName: Eidoo Tech
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 1.14.3
   reviews: 22
   icon: io.eidoo.ios.app.jpg
-  date: 2024-04-26
   website: https://eidoo.app
   developerName: Eidoo Tech LTD
 

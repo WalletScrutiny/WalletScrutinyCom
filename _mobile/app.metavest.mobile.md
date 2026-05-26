@@ -3,6 +3,7 @@ wsId: metavestCryptoBank
 title: 'Metavest: AI Portfolio Agent'
 verdict: custodial
 meta: ok
+date: 2023-08-08
 authors:
 - danny
 twitter: MetavestApp
@@ -23,7 +24,6 @@ android:
   updated: 2025-07-27
   version: 3.4.0
   icon: app.metavest.mobile.png
-  date: 2024-11-12
   website: https://metavest.app/
   developerName: Metavest
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 3.4.0
   reviews: 0
   icon: app.metavest.client.jpg
-  date: 2023-08-08
   website: https://metavest.app/affiliate
   developerName: Metavest Limited
 

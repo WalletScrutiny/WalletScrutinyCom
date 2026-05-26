@@ -3,6 +3,7 @@ wsId: prostocash
 title: Prostocash – обменять Биткоин
 verdict: custodial
 meta: removed
+date: 2025-01-15
 authors:
 - danny
 website: https://prostocash.com
@@ -16,7 +17,6 @@ android:
   updated: 2024-08-05
   version: 4.1.1
   icon: com.prostocash.android_prostocash.png
-  date: 2025-02-04
   developerName: DVSOFT PTE LTD
 iphone:
   appId: com.xchangecapital.prostocash
@@ -27,7 +27,6 @@ iphone:
   version: 2.0.3
   reviews: 1
   icon: com.xchangecapital.prostocash.jpg
-  date: 2025-01-15
   developerName: XChangeCapitalGroup
 
 ---

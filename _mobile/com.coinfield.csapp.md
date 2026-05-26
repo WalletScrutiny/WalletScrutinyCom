@@ -3,6 +3,7 @@ wsId: CoinsField
 title: CoinField
 verdict: custodial
 meta: removed
+date: 2023-09-28
 authors:
 - danny
 twitter: CoinFieldEx
@@ -21,7 +22,6 @@ android:
   version: 3.1.5
   reviews: 118
   icon: com.coinfield.csapp.png
-  date: 2025-03-14
   website: http://www.coinfield.com
   developerName: CoinField
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 3.1.5
   reviews: 555
   icon: com.coinfield.csapp.jpg
-  date: 2023-09-28
   website: https://www.coinfield.com/company/pr
   developerName: MANTICORE LABS OÜ
 

@@ -2,6 +2,7 @@
 wsId: powerTrade
 title: PowerTrade
 verdict: custodial
+date: 2026-01-14
 authors:
 - danny
 website: https://power.trade/
@@ -17,7 +18,6 @@ android:
   version: 3.2.1
   icon: com.pt.powertrade.png
   meta: ok
-  date: 2026-02-02
   developerName: PowerTrade
 iphone:
   appId: com.pt.powertrade
@@ -29,7 +29,6 @@ iphone:
   reviews: 1
   icon: com.pt.powertrade.jpg
   meta: obsolete
-  date: 2026-01-14
   developerName: Power Trade
 
 ---

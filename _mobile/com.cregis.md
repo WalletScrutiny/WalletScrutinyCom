@@ -1,5 +1,6 @@
 ---
 title: Cregis:BTC, ETH Wallet & Pay
+date: 2025-11-10
 authors:
 - danny
 redirect_from:
@@ -14,7 +15,6 @@ android:
   icon: com.cregis.png
   meta: fewusers
   verdict: wip
-  date: 2025-11-10
   website: https://www.cregis.com
   developerName: Cregis
 iphone:
@@ -28,7 +28,6 @@ iphone:
   icon: com.cregis.jpg
   meta: ok
   verdict: nosource
-  date: 2025-11-14
   twitter: 0xCregis
   developerName: Cregis Technology Limited
   wsId: cregisApp

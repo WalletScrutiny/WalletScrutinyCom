@@ -3,6 +3,7 @@ wsId: coincloud
 title: 'Coin Cloud: Wallet 1.5'
 verdict: nosource
 meta: removed
+date: 2023-08-29
 authors:
 - kiwilamb
 twitter: CoinCloudATM
@@ -19,7 +20,6 @@ android:
   version: 12.02.18
   reviews: 101
   icon: com.bitpay.coincloud.png
-  date: 2024-03-02
   website: https://www.coin.cloud#deadLink
   developerName: Coin Cloud
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 1.9.6
   reviews: 162
   icon: com.bitpay.coincloud.jpg
-  date: 2023-08-29
   website: https://web.archive.org/web/20230401142623/https://www.coin.cloud/app
 
 ---

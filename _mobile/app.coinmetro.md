@@ -3,6 +3,7 @@ wsId: coinmetro
 title: 'Coinmetro: Buy BTC ETH SOL XRP'
 verdict: custodial
 meta: ok
+date: 2021-10-04
 authors:
 - danny
 website: https://coinmetro.com/
@@ -22,7 +23,6 @@ android:
   version: 5.55.9
   reviews: 89
   icon: app.coinmetro.png
-  date: 2021-10-04
   developerName: Coinmetro OU
 iphone:
   appId: app.coinmetro
@@ -32,7 +32,6 @@ iphone:
   version: 5.55.9
   reviews: 366
   icon: app.coinmetro.jpg
-  date: 2021-10-26
   developerName: CoinMetro OU
 
 ---

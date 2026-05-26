@@ -2,6 +2,7 @@
 wsId: glamster
 title: Glamster | The Smart Messenger
 verdict: nosource
+date: 2025-03-17
 authors:
 - danny
 developerName: Glamster
@@ -17,7 +18,6 @@ android:
   reviews: 6
   icon: com.glamster.png
   meta: removed
-  date: 2025-03-17
   website: https://glamster.me
 iphone:
   appId: com.glamster
@@ -29,7 +29,6 @@ iphone:
   reviews: 241
   icon: com.glamster.jpg
   meta: obsolete
-  date: 2025-06-20
   website: https://glamster.io/
 
 ---

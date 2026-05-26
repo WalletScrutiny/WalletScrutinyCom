@@ -3,6 +3,7 @@ wsId: mudaExchange
 title: MUDA
 verdict: custodial
 meta: removed
+date: 2024-04-26
 authors:
 - danny
 website: https://www.muda.exchange#deadLink
@@ -19,7 +20,6 @@ android:
   updated: 2023-12-06
   version: '1.0'
   icon: com.muda.exchange.png
-  date: 2024-04-26
   developerName: Muda Exchange
 iphone:
   appId: com.muda.exchange
@@ -30,7 +30,6 @@ iphone:
   version: '2.1'
   reviews: 0
   icon: com.muda.exchange.jpg
-  date: 2024-11-19
   developerName: Muda ventures limited
 
 ---

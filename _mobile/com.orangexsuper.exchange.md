@@ -2,6 +2,7 @@
 wsId: orangeXBitcoin
 title: 'OrangeX: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2026-01-23
 authors:
 - danny
 twitter: OrangeXExchange
@@ -22,7 +23,6 @@ android:
   reviews: 5
   icon: com.orangexsuper.exchange.png
   meta: removed
-  date: 2026-05-13
   website: https://www.orangex.com/
   developerName: OrangeX Limited
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 7
   icon: com.orangex.exchange.jpg
   meta: ok
-  date: 2026-01-23
   website: https://www.orangex.com
   developerName: OrangeX Fintech s.r.o.
 

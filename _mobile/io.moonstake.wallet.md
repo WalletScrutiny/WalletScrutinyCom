@@ -3,6 +3,7 @@ wsId: Moonstake
 title: 'Moonstake Wallet: Coin Staking'
 verdict: nosource
 meta: ok
+date: 2021-10-01
 authors:
 - danny
 twitter: moonstake
@@ -21,7 +22,6 @@ android:
   version: 2.36.9
   reviews: 20
   icon: io.moonstake.wallet.png
-  date: 2024-07-15
   website: https://moonstake.io
   developerName: Moonstake Developer
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 2.36.9
   reviews: 18
   icon: io.moonstake.wallet.jpg
-  date: 2021-10-01
   website: http://moonstake.io
   developerName: Moonstake Limited
 

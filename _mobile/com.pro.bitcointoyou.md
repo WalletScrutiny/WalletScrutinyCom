@@ -3,6 +3,7 @@ wsId: bitcointoyou
 title: Bitcointoyou Pro
 verdict: custodial
 meta: removed
+date: 2025-02-18
 authors:
 - kiwilamb
 website: https://www.bitcointoyou.com
@@ -22,7 +23,6 @@ android:
   version: 0.0.228
   reviews: 5
   icon: com.pro.bitcointoyou.png
-  date: 2025-02-18
 iphone:
   appId: com.pro.b2u
   idd: 1489598378
@@ -32,7 +32,6 @@ iphone:
   version: '2.4'
   reviews: 167
   icon: com.pro.b2u.jpg
-  date: 2025-04-06
 
 ---
 

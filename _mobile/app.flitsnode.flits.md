@@ -3,6 +3,7 @@ wsId: flits
 title: 'Flits: Passive income wallet'
 verdict: nosource
 meta: removed
+date: 2025-02-13
 authors:
 - leo
 twitter: FlitsNode
@@ -19,7 +20,6 @@ android:
   version: '4.4'
   reviews: 71
   icon: app.flitsnode.flits.png
-  date: 2025-02-13
   website: https://flitswallet.app/
   developerName: Decenomy
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: '4.4'
   reviews: 73
   icon: app.flitsnode.flits.jpg
-  date: 2026-04-13
   website: https://flitsnode.app
   developerName: Klimatas B.V.
 

@@ -2,6 +2,7 @@
 wsId: LogosDVWallet
 title: Dives Wallet (DABI)
 verdict: custodial
+date: 2024-10-24
 authors:
 - danny
 website: https://logos-foundation.org/logos
@@ -16,7 +17,6 @@ android:
   version: 0.4.4
   icon: com.wallet.logos.png
   meta: ok
-  date: 2024-10-24
   developerName: Logos Foundation PTE. LTD.
 iphone:
   appId: com.wallet.logos
@@ -28,7 +28,6 @@ iphone:
   reviews: 2
   icon: com.wallet.logos.jpg
   meta: removed
-  date: 2026-02-20
   developerName: LOGOS FOUNDATION PTE. LTD.
 
 ---

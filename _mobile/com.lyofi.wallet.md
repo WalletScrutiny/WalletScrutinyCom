@@ -3,6 +3,7 @@ wsId: lyowallet
 title: 'LYO WALLET: NFTs & Crypto'
 verdict: nosource
 meta: removed
+date: 2024-03-02
 authors:
 - danny
 twitter: lyopayofficial
@@ -22,7 +23,6 @@ android:
   updated: 2023-12-27
   version: 1.5.1
   icon: com.lyofi.wallet.png
-  date: 2024-07-05
   website: https://wallet.lyofi.com#deadLink
 iphone:
   appId: com.lyo.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 1.5.1
   reviews: 1
   icon: com.lyo.wallet.jpg
-  date: 2024-03-02
   website: https://lyowallet.com#deadLink
 
 ---

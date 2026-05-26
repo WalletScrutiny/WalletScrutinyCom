@@ -3,6 +3,7 @@ wsId: MoneyPipe
 title: 'MoneyPipe: HD Bitcoin Wallet'
 verdict: nosource
 meta: removed
+date: 2022-05-31
 authors:
 - danny
 twitter: money_pipe
@@ -19,7 +20,6 @@ android:
   updated: 2023-05-05
   version: 6.0.7
   icon: com.beecrypt.beecrypthd.png
-  date: 2025-02-18
   website: https://moneypipe.com#deadLink
   developerName: MadCats
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 3.9.1
   reviews: 1
   icon: com.beecrypt.beecrypthd.jpg
-  date: 2022-05-31
   website: https://web.archive.org/web/20220401111602/https://moneypipe.com/hd-wallet/
 
 ---

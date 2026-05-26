@@ -3,6 +3,7 @@ wsId: coinTraderMobile
 title: Shift Platform
 verdict: custodial
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 twitter: shiftmarkets
@@ -20,7 +21,6 @@ android:
   updated: 2025-01-24
   version: 4.14.0
   icon: com.shiftmarkets.cointrader.png
-  date: 2025-03-29
   website: https://www.shiftmarkets.com/
   developerName: Shift Markets Ltd
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 4.1.0
   reviews: 0
   icon: com.shiftmarkets.cointrader.jpg
-  date: 2023-12-19
   website: https://exchange.shiftmarkets.com#deadLink
   developerName: Shift Markets
 

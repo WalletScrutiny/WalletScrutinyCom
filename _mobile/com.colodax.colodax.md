@@ -3,6 +3,7 @@ wsId: Colodax
 title: Colodax - Bitcoin Exchange
 verdict: custodial
 meta: removed
+date: 2024-10-19
 authors:
 - danny
 website: https://colodax.com#deadLink
@@ -21,7 +22,6 @@ android:
   updated: 2021-09-17
   version: 1.7.2
   icon: com.colodax.colodax.jpg
-  date: 2025-02-13
   developerName: Ganyt Solutions
 iphone:
   appId: com.colodax.colodax
@@ -31,7 +31,6 @@ iphone:
   version: 1.7.2
   reviews: 2
   icon: com.colodax.colodax.jpg
-  date: 2024-10-19
   developerName: Ganyt Solutions LLC
 
 ---

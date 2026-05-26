@@ -2,6 +2,7 @@
 wsId: coincorner
 title: CoinCorner
 verdict: custodial
+date: 2024-10-07
 authors:
 - kiwilamb
 website: https://www.coincorner.com
@@ -25,7 +26,6 @@ android:
   reviews: 5
   icon: com.coincorner.app.crypt.png
   meta: removed
-  date: 2026-04-28
 iphone:
   appId: com.coincorner.app.crypt
   idd: 917721788
@@ -36,7 +36,6 @@ iphone:
   reviews: 309
   icon: com.coincorner.app.crypt.jpg
   meta: ok
-  date: 2024-10-07
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: felixoExchange
 title: Felixo | Bitcoin ETH AVAX CHZ
 verdict: custodial
+date: 2025-02-26
 authors:
 - danny
 website: https://www.felixo.com
@@ -23,7 +24,6 @@ android:
   reviews: 9
   icon: com.felixo.mobile.png
   meta: removed
-  date: 2025-02-26
   developerName: Felixo Teknoloji ve Yazılım A.Ş.
 iphone:
   appId: com.felixo.mobile
@@ -35,7 +35,6 @@ iphone:
   reviews: 5
   icon: com.felixo.mobile.jpg
   meta: obsolete
-  date: 2025-04-01
   developerName: FELIXO TEKNOLOJI VE YAZILIM ANONIM SIRKETI
 
 ---

@@ -2,6 +2,7 @@
 wsId: coincastCrypto
 title: Coincast — Send Crypto
 verdict: nosource
+date: 2024-04-28
 authors:
 - danny
 website: https://coincast.app
@@ -23,7 +24,6 @@ android:
   reviews: 30
   icon: co.minty.coincast.png
   meta: removed
-  date: 2025-03-11
   developerName: Minty Networks, LLC
 iphone:
   appId: co.Minty.Coincast
@@ -35,7 +35,6 @@ iphone:
   reviews: 25
   icon: co.Minty.Coincast.jpg
   meta: obsolete
-  date: 2024-04-28
   developerName: Minty Networks, LLC.
 
 ---

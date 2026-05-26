@@ -3,6 +3,7 @@ wsId: functionX
 title: Pundi Wallet
 verdict: nosource
 meta: ok
+date: 2021-10-26
 authors:
 - danny
 repository: https://github.com/FunctionX/fx-wallet-android
@@ -28,7 +29,6 @@ android:
   version: 5.10.1
   reviews: 42
   icon: com.pundix.functionx.png
-  date: 2024-08-20
   website: https://functionx.io
   developerName: Pundi X Labs
 iphone:
@@ -39,7 +39,6 @@ iphone:
   version: 5.9.0
   reviews: 64
   icon: com.pundix.fx.connect.jpg
-  date: 2021-10-26
   website: https://pundi.ai/
   developerName: PUNDI X LABS
 

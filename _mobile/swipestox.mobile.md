@@ -3,6 +3,7 @@ wsId: swipestoxNaga
 title: 'NAGA: Social Trading Platform'
 verdict: nosendreceive
 meta: ok
+date: 2021-10-10
 authors:
 - danny
 twitter: nagainvesting
@@ -22,7 +23,6 @@ android:
   version: 8.0.463
   reviews: 200
   icon: swipestox.mobile.png
-  date: 2021-10-10
   website: http://www.naga.com
 iphone:
   appId: com.swipestox.app
@@ -33,7 +33,6 @@ iphone:
   version: 9.7.2
   reviews: 63
   icon: com.swipestox.app.jpg
-  date: 2024-10-07
   website: https://www.naga.com
 
 ---

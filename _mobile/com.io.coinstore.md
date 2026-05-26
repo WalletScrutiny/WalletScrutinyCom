@@ -2,6 +2,7 @@
 wsId: coinStore
 title: Coinstore:Trade Crypto&Futures
 verdict: custodial
+date: 2022-06-24
 authors:
 - danny
 website: https://www.coinstore.com
@@ -23,7 +24,6 @@ android:
   reviews: 71
   icon: com.io.coinstore.png
   meta: removed
-  date: 2026-05-05
   developerName: CS- Coinstore
 iphone:
   appId: com.coinstore.sg
@@ -35,7 +35,6 @@ iphone:
   reviews: 99
   icon: com.coinstore.sg.jpg
   meta: ok
-  date: 2022-06-24
   developerName: COINSTORE PTE. LTD.
 
 ---

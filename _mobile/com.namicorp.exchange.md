@@ -2,6 +2,7 @@
 wsId: NamiExchange
 title: Nami - Digital asset platform
 verdict: custodial
+date: 2022-07-20
 authors:
 - danny
 twitter: NamiTrade
@@ -21,7 +22,6 @@ android:
   reviews: 11
   icon: com.namicorp.exchange.png
   meta: ok
-  date: 2022-07-20
   website: https://nami.exchange
   developerName: NAMI EXCHANGE
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 20
   icon: com.namicorp.exchange.jpg
   meta: removed
-  date: 2024-07-22
   website: https://nami.io/
   developerName: NAMI TRADE PTE. LTD.
 

@@ -2,6 +2,7 @@
 wsId: Bitnob
 title: Bitnob
 verdict: custodial
+date: 2021-10-07
 authors:
 - danny
 website: https://bitnob.com
@@ -25,7 +26,6 @@ android:
   reviews: 38
   icon: com.app.bitnob.png
   meta: ok
-  date: 2021-10-07
 iphone:
   appId: com.app.bitnob
   idd: '1513951003'
@@ -35,7 +35,6 @@ iphone:
   reviews: 113
   icon: com.app.bitnob.jpg
   meta: removed
-  date: 2026-04-28
 
 ---
 

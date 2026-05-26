@@ -3,6 +3,7 @@ wsId: theBlackWallStreet
 title: The Black Wall Street
 verdict: custodial
 meta: removed
+date: 2024-07-25
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   version: 1.0-prod2
   reviews: 60
   icon: com.tbws.jpg
-  date: 2025-03-11
   website: https://theblackwallstreet.com
   developerName: The Black Wall Street Holdings, Inc.
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: '2.0'
   reviews: 179
   icon: com.tbws1.app.jpg
-  date: 2024-07-25
   developerName: The Black Wall Street
 
 ---

@@ -2,6 +2,7 @@
 wsId: ChaingeFinance
 title: Chainge Finance
 verdict: nosource
+date: 2025-06-20
 authors:
 - danny
 twitter: FinanceChainge
@@ -21,7 +22,6 @@ android:
   reviews: 63
   icon: com.fusion.chainge.android.png
   meta: removed
-  date: 2025-06-20
   website: https://chainge.finance#deadLink
   developerName: Chainge
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 89
   icon: com.chainge.finance.app.jpg
   meta: stale
-  date: 2025-10-10
   website: https://web.archive.org/web/20251115045754/https://chainge.finance/
   developerName: Chainge Tech Limited
 

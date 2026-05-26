@@ -2,6 +2,7 @@
 wsId: crystalBallMarkets
 title: Crystal Ball Markets MT7
 verdict: nosendreceive
+date: 2024-08-28
 authors:
 - danny
 social:
@@ -19,7 +20,6 @@ android:
   reviews: 45
   icon: webtrader.crystalballmarkets.com.png
   meta: ok
-  date: 2024-08-28
   website: https://crystalballmarkets.com/
   developerName: Crystal Ball Markets
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: com.crystalballmarkets.mobiustrader7.jpg
   meta: obsolete
-  date: 2025-08-28
   website: https://crystalballmarkets.com/platform
   developerName: Crystal Ball Markets LLC
 

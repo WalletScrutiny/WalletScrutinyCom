@@ -3,6 +3,7 @@ wsId: DopamineBitcoin
 title: DOPAMINE - Bitcoin & Crypto
 verdict: nosource
 meta: ok
+date: 2021-10-10
 authors:
 - danny
 twitter: mydopamineapp
@@ -20,7 +21,6 @@ android:
   version: 16.3.1
   reviews: 1388
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
-  date: 2024-07-16
   website: https://www.dopamineapp.com
   developerName: Newtechincubator.com
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 16.3.1
   reviews: 618
   icon: com.programonks.CoinMarketApp.jpg
-  date: 2021-10-10
   website: https://www.dopamineapp.com/
   developerName: CORTEX AG
 

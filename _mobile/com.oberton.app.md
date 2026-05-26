@@ -3,6 +3,7 @@ wsId: everspace
 title: Cust Wallet
 verdict: nosource
 meta: ok
+date: 2024-09-06
 authors:
 - danny
 twitter: EverspaceWallet
@@ -22,7 +23,6 @@ android:
   version: 2.16.1
   reviews: 27
   icon: com.oberton.app.png
-  date: 2025-08-04
   website: https://bytehub.io
   developerName: Bytehub, LLC
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 3.2.0
   reviews: 8
   icon: io.oberton.jpg
-  date: 2024-09-06
   developerName: BYTEHUB, LLC
 
 ---

@@ -3,6 +3,7 @@ wsId: ZelCore
 title: Zelcore - Crypto Wallet
 verdict: nosource
 meta: ok
+date: 2021-10-01
 authors:
 - leo
 - danny
@@ -29,7 +30,6 @@ android:
   version: 8.31.1
   reviews: 140
   icon: com.zelcash.zelcore.png
-  date: 2024-07-13
 iphone:
   appId: com.zelcash.zelcore
   idd: 1436296839
@@ -38,7 +38,6 @@ iphone:
   version: v8.31.0
   reviews: 23
   icon: com.zelcash.zelcore.jpg
-  date: 2021-10-01
 
 ---
 

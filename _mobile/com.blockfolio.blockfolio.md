@@ -3,6 +3,7 @@ wsId: blockfolio
 title: FTX - Buy Crypto, Stocks, ETFs
 verdict: custodial
 meta: removed
+date: 2023-01-02
 authors:
 - leo
 twitter: Blockfolio
@@ -24,7 +25,6 @@ android:
   version: 4.12.5
   reviews: 11863
   icon: com.blockfolio.blockfolio.png
-  date: 2023-01-02
   website: https://www.blockfolio.com#deadLink
 iphone:
   appId: com.blockfolio.blockfolio
@@ -34,7 +34,6 @@ iphone:
   version: 4.10.1
   reviews: 54939
   icon: com.blockfolio.blockfolio.jpg
-  date: 2023-01-11
   website: https://ftx.com
 
 ---

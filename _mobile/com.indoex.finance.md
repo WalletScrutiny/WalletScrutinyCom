@@ -2,6 +2,7 @@
 wsId: indoEx
 title: IndoEx
 verdict: custodial
+date: 2025-05-30
 authors:
 - danny
 twitter: Indoex_LTD
@@ -22,7 +23,6 @@ android:
   reviews: 4
   icon: com.indoex.finance.png
   meta: stale
-  date: 2025-11-26
   website: https://international.indoex.io
   developerName: IndoEx
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 4
   icon: com.indoex.dev.jpg
   meta: removed
-  date: 2025-05-30
   developerName: IndoEx Solutions Ltd
 
 ---

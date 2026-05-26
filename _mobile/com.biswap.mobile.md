@@ -3,6 +3,7 @@ wsId: biswapCryptoApp
 title: Biswap cryptocurrency swap app
 verdict: nosource
 meta: obsolete
+date: 2025-07-03
 authors:
 - danny
 twitter: exchangilydex
@@ -21,7 +22,6 @@ android:
   updated: 2023-07-18
   version: 1.0.13
   icon: com.biswap.mobile.png
-  date: 2025-07-08
   website: https://biswap.com/
 iphone:
   appId: com.biswap.app
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.12
   reviews: 5
   icon: com.biswap.app.jpg
-  date: 2025-07-03
   website: https://biswap.com
 
 ---

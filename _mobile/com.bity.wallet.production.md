@@ -2,6 +2,7 @@
 wsId: bitywallet
 title: Bity Wallet
 verdict: nosource
+date: 2026-01-01
 authors:
 - danny
 twitter: bity
@@ -20,7 +21,6 @@ android:
   reviews: 2
   icon: com.bity.wallet.production.jpg
   meta: removed
-  date: 2026-03-18
   website: https://bity.com
   developerName: Bity.com
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 34
   icon: com.bity.wallet.production.jpg
   meta: ok
-  date: 2026-01-01
   website: https://bity.com/en/personal/wallet
   developerName: Bity SA
 

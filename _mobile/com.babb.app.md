@@ -3,6 +3,7 @@ wsId: babbApp
 title: BABB
 verdict: custodial
 meta: ok
+date: 2026-03-03
 authors:
 - danny
 website: https://getbabb.com/
@@ -25,7 +26,6 @@ android:
   version: 2.6.2
   reviews: 49
   icon: com.babb.app.png
-  date: 2026-03-03
   developerName: BABB
 iphone:
   appId: com.babbltd.babb-ios
@@ -36,7 +36,6 @@ iphone:
   version: 2.5.4
   reviews: 85
   icon: com.babbltd.babb-ios.jpg
-  date: 2026-04-28
   developerName: BABB Ltd
 
 ---

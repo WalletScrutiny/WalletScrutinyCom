@@ -2,6 +2,7 @@
 wsId: pouchPh
 title: Isle
 verdict: custodial
+date: 2022-06-22
 authors:
 - danny
 features:
@@ -19,7 +20,6 @@ android:
   reviews: 4
   icon: pouch.ph.png
   meta: ok
-  date: 2022-06-22
   website: https://pouch.ph
 iphone:
   appId: pouch.ph
@@ -31,7 +31,6 @@ iphone:
   reviews: 5
   icon: pouch.ph.jpg
   meta: removed
-  date: 2023-12-19
   website: https://pouch.ph/
 
 ---

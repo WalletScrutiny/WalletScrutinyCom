@@ -3,6 +3,7 @@ wsId: valr
 title: VALR Crypto Exchange
 verdict: custodial
 meta: ok
+date: 2021-04-13
 authors:
 - kiwilamb
 - leo
@@ -22,7 +23,6 @@ android:
   version: 1.1.42
   reviews: 38
   icon: com.valr.app.png
-  date: 2021-04-13
   developerName: VALR
 iphone:
   appId: com.valr.mobile
@@ -33,7 +33,6 @@ iphone:
   version: 1.1.42
   reviews: 1
   icon: com.valr.mobile.jpg
-  date: 2024-10-07
   developerName: VALR Pty Ltd
 
 ---

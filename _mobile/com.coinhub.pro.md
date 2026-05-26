@@ -2,6 +2,7 @@
 wsId: mnCoinHub
 title: Coinhub
 verdict: custodial
+date: 2022-02-21
 authors:
 - danny
 twitter: CoinhubMongolia
@@ -20,7 +21,6 @@ android:
   reviews: 9
   icon: com.coinhub.pro.png
   meta: ok
-  date: 2022-02-21
   website: https://coinhub.mn/
 iphone:
   appId: mn.coinhub.coinhub
@@ -32,7 +32,6 @@ iphone:
   reviews: 11
   icon: mn.coinhub.coinhub.jpg
   meta: removed
-  date: 2023-09-04
   website: https://about.coinhub.mn
 
 ---

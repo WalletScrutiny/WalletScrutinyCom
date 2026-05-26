@@ -2,6 +2,7 @@
 wsId: gleecCard
 title: Gleec Card Crypto-powered card
 verdict: custodial
+date: 2023-05-04
 authors:
 - danny
 twitter: GleecOfficial
@@ -20,7 +21,6 @@ android:
   reviews: 16
   icon: com.gleec.png
   meta: defunct
-  date: 2023-08-04
   website: http://gleec.com/
   developerName: Gleec Pay OU
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 1
   icon: com.gleecard.ios.jpg
   meta: ok
-  date: 2023-05-04
   website: https://gleec.com/
   developerName: Gleec-BTC OU
 

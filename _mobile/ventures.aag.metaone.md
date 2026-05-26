@@ -2,6 +2,7 @@
 wsId: metaOneNFT
 title: Saakuru  App
 verdict: custodial
+date: 2025-09-23
 authors:
 - danny
 twitter: aag_ventures
@@ -24,7 +25,6 @@ android:
   reviews: 14
   icon: ventures.aag.metaone.png
   meta: ok
-  date: 2026-02-02
   website: https://getmeta.one/
 iphone:
   appId: com.aag.metaone
@@ -36,7 +36,6 @@ iphone:
   reviews: 55
   icon: com.aag.metaone.jpg
   meta: removed
-  date: 2025-09-23
   website: https://saakuru.com/app
 
 ---

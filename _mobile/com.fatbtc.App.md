@@ -3,6 +3,7 @@ wsId: fatBTC
 title: FatBTC
 verdict: custodial
 meta: removed
+date: 2024-02-05
 authors:
 - danny
 twitter: fatbtc
@@ -18,7 +19,6 @@ android:
   version: '2.512'
   reviews: 10
   icon: com.fatbtc.App.png
-  date: 2025-03-17
   website: https://www.fatbtc.com
   developerName: FatBTC Ltd.,
 iphone:
@@ -29,7 +29,6 @@ iphone:
   version: '2.5'
   reviews: 2
   icon: com.fatbtc.FatBTCApp.jpg
-  date: 2024-02-05
   website: https://www.fatbtc.com/
   developerName: FATBTC LTD
 

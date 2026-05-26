@@ -3,6 +3,7 @@ wsId: FluxPay
 title: Flux
 verdict: custodial
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 twitter: ifluxdotapp
@@ -20,7 +21,6 @@ android:
   version: 3.0.391
   reviews: 17
   icon: com.fluxpayment.png
-  date: 2025-03-14
   website: https://iflux.app
   developerName: Blueloop Inc.
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 3.0.391
   reviews: 93
   icon: com.blueloopflux.app.jpg
-  date: 2023-12-19
   website: https://iflux.app/
   developerName: Blueloop
 

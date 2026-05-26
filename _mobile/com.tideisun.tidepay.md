@@ -3,6 +3,7 @@ wsId: iSunOne
 title: iSunOne – Spend Cryptos and Tokens in a Card
 verdict: custodial
 meta: removed
+date: 2022-04-07
 authors:
 - danny
 twitter: isunone1
@@ -20,7 +21,6 @@ android:
   updated: 2021-07-20
   version: 2.1.3
   icon: com.tideisun.tidepay.png
-  date: 2022-04-07
   website: https://isun.one
 iphone:
   appId: com.tideisun.tidepay
@@ -30,7 +30,6 @@ iphone:
   version: 4.0.5
   reviews: 3
   icon: com.tideisun.tidepay.jpg
-  date: 2026-02-20
   website: https://isun1.com
   developerName: TIDENET LIMITED
 

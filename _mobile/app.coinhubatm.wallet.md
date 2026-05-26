@@ -2,6 +2,7 @@
 wsId: coinhubWallet
 title: Coinhub Bitcoin Wallet
 verdict: nosource
+date: 2026-02-02
 authors:
 - danny
 twitter: Coinhubusa
@@ -23,7 +24,6 @@ android:
   reviews: 16
   icon: app.coinhubatm.wallet.png
   meta: ok
-  date: 2026-04-13
   website: https://coinhubatm.com/
   developerName: Coinhub Bitcoin Wallet
 iphone:
@@ -36,7 +36,6 @@ iphone:
   reviews: 10
   icon: app.coinhubatm.wallet.jpg
   meta: stale
-  date: 2026-02-02
   developerName: CHB Holdings LLC
 
 ---

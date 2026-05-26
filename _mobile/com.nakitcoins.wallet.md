@@ -3,6 +3,7 @@ wsId: NakitCoins
 title: Nakitcoins
 verdict: custodial
 meta: removed
+date: 2022-10-21
 authors:
 - danny
 twitter: nakitcoins
@@ -19,7 +20,6 @@ android:
   updated: 2022-03-29
   version: 2.2.0
   icon: com.nakitcoins.wallet.png
-  date: 2023-01-02
   website: https://www.nakitcoins.com#deadLink
 iphone:
   appId: com.nakitcoins.wallet
@@ -29,7 +29,6 @@ iphone:
   version: 2.2.0
   reviews: 2
   icon: com.nakitcoins.wallet.jpg
-  date: 2022-10-21
   website: https://web.archive.org/web/20240914094707/https://nakitcoins.com/
 
 ---

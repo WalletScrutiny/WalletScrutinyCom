@@ -2,6 +2,7 @@
 wsId: narkasaExchange
 title: 'Bybit TR: Bitcoin ve Kripto'
 verdict: custodial
+date: 2024-04-03
 authors:
 - danny
 twitter: narkasacom
@@ -20,7 +21,6 @@ android:
   version: 5.14.2
   icon: org.narkasa.png
   meta: ok
-  date: 2024-04-03
   website: https://narkasa.com
   developerName: Bybit TR
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: org.narkasa.jpg
   meta: removed
-  date: 2024-10-19
   website: https://narkasa.com#deadLink
   developerName: Narkasa Yazılım ve Ticaret A.Ş.
 

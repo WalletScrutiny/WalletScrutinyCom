@@ -2,6 +2,7 @@
 wsId: NitroEXexchangeapp
 title: NitroEx Exchange
 verdict: custodial
+date: 2026-01-08
 authors:
 - danny
 website: https://www.nitroex.io/
@@ -24,7 +25,6 @@ android:
   reviews: 159
   icon: com.nitroex.nitroexchangeapp.png
   meta: stale
-  date: 2026-01-08
 iphone:
   appId: com.nitroex.nitroexexchangeapp
   idd: 1569267465
@@ -35,7 +35,6 @@ iphone:
   reviews: 1
   icon: com.nitroex.nitroexexchangeapp.jpg
   meta: obsolete
-  date: 2026-01-14
 
 ---
 

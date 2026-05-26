@@ -3,6 +3,7 @@ wsId: BitOasis
 title: 'BitOasis: Buy Bitcoin & Crypto'
 verdict: custodial
 meta: ok
+date: 2021-09-15
 authors:
 - danny
 twitter: bitoasis
@@ -25,7 +26,6 @@ android:
   version: 4.2.4
   reviews: 667
   icon: com.bitoasis.png
-  date: 2021-11-15
   website: https://bitoasis.net/
   developerName: BitOasis
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 2.4.2
   reviews: 4498
   icon: net.bitoasis.ios.com.jpg
-  date: 2021-09-15
   website: https://bitoasis.net/en/home
   developerName: BitOasis Technologies FZE
 

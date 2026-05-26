@@ -3,6 +3,7 @@ wsId: payperless
 title: Payperless Crypto & BTC Wallet
 verdict: nosource
 meta: ok
+date: 2024-07-17
 authors:
 - danny
 website: https://www.payperless.com
@@ -26,7 +27,6 @@ android:
   version: 1.33.9
   reviews: 9
   icon: com.payperless.wallet.png
-  date: 2024-07-17
   developerName: Payperless
 iphone:
   appId: com.payperless.wallet
@@ -37,7 +37,6 @@ iphone:
   version: '1.40'
   reviews: 0
   icon: com.payperless.wallet.jpg
-  date: 2024-10-07
   developerName: COREDEV LAB
 
 ---

@@ -2,6 +2,7 @@
 wsId: tokero
 title: TOKERO
 verdict: custodial
+date: 2023-04-28
 authors:
 - danny
 twitter: tokeroexchange
@@ -23,7 +24,6 @@ android:
   reviews: 5
   icon: com.ldvtech.tokero.png
   meta: removed
-  date: 2026-05-05
   website: https://web.tokero.com
 iphone:
   appId: com.ldvtech.tokero
@@ -35,7 +35,6 @@ iphone:
   reviews: 25
   icon: com.ldvtech.tokero.jpg
   meta: ok
-  date: 2023-04-28
   website: https://tokero.com
 
 ---

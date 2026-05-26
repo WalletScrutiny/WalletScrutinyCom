@@ -3,6 +3,7 @@ wsId: GlobalTradeATF
 title: Global TradeATF Online Trading | Forex and Stocks
 verdict: nosendreceive
 meta: removed
+date: 2022-03-07
 authors:
 - danny
 website: https://global.tradeatf.com#deadLink
@@ -22,7 +23,6 @@ android:
   version: 1.5.78-mobiletrade.fms.globaltradeatf
   reviews: 318
   icon: com.mobiletrade.fms.globaltradeatf.png
-  date: 2023-01-02
 iphone:
   appId: com.tradeatf.global
   idd: 1516998762
@@ -30,7 +30,6 @@ iphone:
   updated: 2021-11-26
   version: 1.69.13
   icon: com.tradeatf.global.jpg
-  date: 2022-03-07
 
 ---
 

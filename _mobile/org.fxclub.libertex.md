@@ -2,6 +2,7 @@
 wsId: libertex
 title: 'Libertex: Trade & Invest'
 verdict: nosendreceive
+date: 2021-08-09
 authors:
 - danny
 twitter: libertex_latam
@@ -18,7 +19,6 @@ android:
   reviews: 1267
   icon: org.fxclub.libertex.png
   meta: ok
-  date: 2021-08-09
   website: https://libertex.org
   developerName: Libertex International Company LLC
 iphone:
@@ -30,7 +30,6 @@ iphone:
   reviews: 429
   icon: org.fxclub.LibertexCL.jpg
   meta: removed
-  date: 2022-02-16
   website: https://libertex.org/
 
 ---

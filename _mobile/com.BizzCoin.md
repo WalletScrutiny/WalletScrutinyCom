@@ -3,6 +3,7 @@ wsId: BizzCoin
 title: BizzCoin Wallet
 verdict: nosource
 meta: removed
+date: 2022-04-25
 authors:
 - danny
 twitter: bizz_coin
@@ -20,7 +21,6 @@ android:
   version: '1.21'
   reviews: 13
   icon: com.BizzCoin.png
-  date: 2024-05-07
   website: https://www.bizzcoin.com#deadLink
   developerName: BizzCoin
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: '1.10'
   reviews: 4
   icon: com.bizz.bizzcoinWallet.jpg
-  date: 2022-04-25
   website: https://web.archive.org/web/20210924123416/http://bizzmartdirect.com/
 
 ---

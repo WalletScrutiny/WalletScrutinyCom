@@ -3,6 +3,7 @@ wsId: lanistar
 title: Lanistar
 verdict: custodial
 meta: removed
+date: 2025-03-11
 authors:
 - danny
 website: https://www.lanistar.com#deadLink
@@ -20,7 +21,6 @@ android:
   version: 2.0.64
   reviews: 58
   icon: com.lanistar.png
-  date: 2025-03-11
   developerName: Lanistar
 iphone:
   appId: com.lanistar.lanistarprod
@@ -31,7 +31,6 @@ iphone:
   version: 2.0.65
   reviews: 107
   icon: com.lanistar.lanistarprod.jpg
-  date: 2025-11-26
   developerName: Lanistar Limited
 
 ---

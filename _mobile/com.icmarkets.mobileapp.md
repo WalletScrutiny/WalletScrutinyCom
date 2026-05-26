@@ -3,6 +3,7 @@ wsId: iCMarkets
 title: IC
 verdict: nosendreceive
 meta: obsolete
+date: 2024-05-30
 authors:
 - danny
 twitter: IC_Markets
@@ -21,7 +22,6 @@ android:
   version: '2.0'
   reviews: 11
   icon: com.icmarkets.mobileapp.png
-  date: 2025-04-01
   website: https://ic.com
 iphone:
   appId: com.ICMarkets.ICMarkets-app
@@ -32,7 +32,6 @@ iphone:
   version: 1.1.2
   reviews: 33
   icon: com.ICMarkets.ICMarkets-app.jpg
-  date: 2024-05-30
 
 ---
 

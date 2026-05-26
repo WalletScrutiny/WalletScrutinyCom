@@ -3,6 +3,7 @@ wsId: jiggleCrypto
 title: 'Jiggle: Crypto Wallet'
 verdict: wip
 meta: stale
+date: 2026-04-13
 authors:
 - danny
 twitter: jiggle_app
@@ -18,7 +19,6 @@ android:
   version: 0.2.44
   reviews: 37
   icon: com.jiggle.wallet.jpg
-  date: 2026-04-13
   website: https://jiggle.app
 iphone:
   appId: com.jiggle.cryptowallet
@@ -29,7 +29,6 @@ iphone:
   version: 1.4.8
   reviews: 291
   icon: com.jiggle.cryptowallet.jpg
-  date: 2026-05-05
 
 ---
 

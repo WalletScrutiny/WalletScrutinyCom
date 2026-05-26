@@ -3,6 +3,7 @@ wsId: vuolletApp
 title: Vuollet
 verdict: custodial
 meta: removed
+date: 2024-04-03
 authors:
 - danny
 website: https://vuollet.io#deadLink
@@ -19,7 +20,6 @@ android:
   updated: 2022-04-29
   version: 2.0.5
   icon: com.app.vuollet.png
-  date: 2025-05-30
   developerName: Codego Limited
 iphone:
   appId: com.newapp.vuollet
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.5
   reviews: 0
   icon: com.newapp.vuollet.jpg
-  date: 2024-04-03
   developerName: Codego Ltd
 
 ---

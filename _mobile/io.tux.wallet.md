@@ -3,6 +3,7 @@ wsId: tuxWallet
 title: TUX Wallet
 verdict: nosource
 meta: ok
+date: 2023-08-18
 authors:
 - danny
 website: https://tux-wallet.com/
@@ -20,7 +21,6 @@ android:
   updated: 2026-04-17
   version: 4.0.8
   icon: io.tux.wallet.png
-  date: 2024-07-25
 iphone:
   appId: net.tuxglobal.wallet
   idd: '1495945761'
@@ -30,7 +30,6 @@ iphone:
   version: 4.0.8
   reviews: 0
   icon: net.tuxglobal.wallet.jpg
-  date: 2023-08-18
 
 ---
 

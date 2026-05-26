@@ -3,6 +3,7 @@ wsId: thorWalletDeFi
 title: THORWallet - Crypto Wallet
 verdict: nosource
 meta: ok
+date: 2023-06-30
 authors:
 - danny
 website: http://thorwallet.org
@@ -27,7 +28,6 @@ android:
   version: 3.1.0
   reviews: 38
   icon: defisuisse.thorwallet.png
-  date: 2024-07-24
   developerName: EMM Ventures AG
 iphone:
   appId: defisuisseag.thorwallet
@@ -38,7 +38,6 @@ iphone:
   version: 3.5.0
   reviews: 40
   icon: defisuisseag.thorwallet.jpg
-  date: 2023-06-30
   developerName: DeFi Suisse AG
 
 ---

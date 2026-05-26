@@ -2,6 +2,7 @@
 wsId: coinsonepaprika
 title: 'COINS: One App For Crypto'
 verdict: nosource
+date: 2024-07-15
 authors:
 - danny
 twitter: CoinsOneApp
@@ -26,7 +27,6 @@ android:
   reviews: 94
   icon: com.coinpaprika.coins.png
   meta: ok
-  date: 2024-07-15
   website: https://coins.coinpaprika.com/
   developerName: Coinpaprika
 iphone:
@@ -38,7 +38,6 @@ iphone:
   reviews: 978
   icon: com.coinpaprika.Coins.jpg
   meta: stale
-  date: 2026-05-05
   website: http://coins.coinpaprika.com
   developerName: Coinpaprika Sp. z o.o.
 

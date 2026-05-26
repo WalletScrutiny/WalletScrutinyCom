@@ -2,6 +2,7 @@
 wsId: QPocket
 title: 'QPocket: ETH TRON QKC Crypto W'
 verdict: nosource
+date: 2022-12-26
 authors:
 - danny
 website: https://www.qpocket.io/
@@ -20,7 +21,6 @@ android:
   reviews: 4
   icon: com.quarkonium.qpocket.png
   meta: removed
-  date: 2023-08-16
   developerName: QUARKONIUM PTE. LTD.
 iphone:
   appId: com.quarkchain.qpocket
@@ -31,7 +31,6 @@ iphone:
   reviews: 22
   icon: com.quarkchain.qpocket.jpg
   meta: obsolete
-  date: 2022-12-26
   developerName: QuarkChain Inc
 
 ---

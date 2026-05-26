@@ -3,6 +3,7 @@ wsId: bitthumbglobal
 title: BitGlobal (formerly Bithumb Gl
 verdict: custodial
 meta: removed
+date: 2023-03-21
 authors:
 - danny
 twitter: BithumbGlobal
@@ -22,7 +23,6 @@ android:
   version: 2.6.25
   reviews: 78
   icon: global.bithumb.android.png
-  date: 2023-04-16
   website: https://www.bithumb.pro
   developerName: Bithumb Global Holdings Limited
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 2.6.5
   reviews: 77
   icon: pro.bithumb.global.jpg
-  date: 2023-03-21
   website: https://www.bithumb.pro/alliance#deadLink
 
 ---

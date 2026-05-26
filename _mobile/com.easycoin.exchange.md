@@ -3,6 +3,7 @@ wsId: easycoinExchange
 title: EasyCoins
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 website: https://www.easycoins.com/
@@ -22,7 +23,6 @@ android:
   version: 1.0.76
   reviews: 32
   icon: com.easycoin.exchange.png
-  date: 2025-03-14
   developerName: EasyCoins
 iphone:
   appId: com.easycoin.exchange
@@ -33,7 +33,6 @@ iphone:
   version: 1.0.78
   reviews: 1
   icon: com.easycoin.exchange.jpg
-  date: 2024-07-05
   developerName: Easycoin Labs Private Limited
 
 ---

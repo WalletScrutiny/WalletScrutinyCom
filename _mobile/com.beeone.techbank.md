@@ -3,6 +3,7 @@ wsId: techbankBeeone
 title: TechBank
 verdict: custodial
 meta: removed
+date: 2022-04-07
 authors:
 - leo
 website: https://techbank.finance/
@@ -18,7 +19,6 @@ android:
   version: 4.9.11
   reviews: 43
   icon: com.beeone.techbank.png
-  date: 2022-04-07
 iphone:
   appId: com.Techbank.Beeone
   idd: '1473120022'
@@ -27,7 +27,6 @@ iphone:
   version: 1.0.62
   reviews: 25
   icon: com.Techbank.Beeone.jpg
-  date: 2025-03-29
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---

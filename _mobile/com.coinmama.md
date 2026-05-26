@@ -3,6 +3,7 @@ wsId: coinmamaCryptoWallet
 title: 'Coinmama: Crypto Wallet App'
 verdict: nosource
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 twitter: coinmama
@@ -22,7 +23,6 @@ android:
   version: 1.03.02
   reviews: 18
   icon: com.coinmama.png
-  date: 2024-03-02
   website: https://www.coinmama.com/
   developerName: Coinmama
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 1.3.0
   reviews: 28
   icon: com.coinmama.coinmama.jpg
-  date: 2023-12-19
   website: https://web.archive.org/web/20251229095124/https://www.coinmama.com/coinmama-wallet
   developerName: Cmama Limited
 

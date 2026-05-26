@@ -3,6 +3,7 @@ wsId: xcritical
 title: XCritical
 verdict: custodial
 meta: obsolete
+date: 2025-01-15
 authors:
 - danny
 website: https://xcritical.com/
@@ -15,7 +16,6 @@ android:
   updated: 2023-02-02
   version: 2.23.7
   icon: com.xcritical.trading.png
-  date: 2025-01-27
   developerName: Xcritical Soft LTD
 iphone:
   appId: com.xcritical.trading
@@ -26,7 +26,6 @@ iphone:
   version: 2.23.6
   reviews: 0
   icon: com.xcritical.trading.jpg
-  date: 2025-01-15
   developerName: XCRITICAL SOFT LTD EOOD
 
 ---

@@ -3,6 +3,7 @@ wsId: blocknanceBlockchain
 title: 'Blocknance: Blockchain Wallet'
 verdict: nosource
 meta: removed
+date: 2024-07-25
 authors:
 - danny
 twitter: blocknanceATM
@@ -23,7 +24,6 @@ android:
   version: '1.1'
   reviews: 3
   icon: com.blocknance.wallet.png
-  date: 2024-07-25
   website: https://blockchain.com.do
 iphone:
   appId: org.reactjs.native.example.blocknance
@@ -34,7 +34,6 @@ iphone:
   version: 1.0.2
   reviews: 1
   icon: org.reactjs.native.example.blocknance.jpg
-  date: 2025-09-23
 
 ---
 

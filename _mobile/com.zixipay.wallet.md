@@ -2,6 +2,7 @@
 wsId: ZixiPay
 title: 'ZixiPay: Tether Wallet'
 verdict: custodial
+date: 2021-11-17
 authors:
 - danny
 twitter: zixipay
@@ -21,7 +22,6 @@ android:
   reviews: 11
   icon: com.zixipay.wallet.png
   meta: removed
-  date: 2026-04-13
   website: https://zixipay.com
 iphone:
   appId: com.zixipay.wallet
@@ -32,7 +32,6 @@ iphone:
   reviews: 28
   icon: com.zixipay.wallet.jpg
   meta: ok
-  date: 2021-11-17
   website: https://zixipay.com/
 
 ---

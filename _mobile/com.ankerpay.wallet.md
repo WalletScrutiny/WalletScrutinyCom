@@ -2,6 +2,7 @@
 wsId: ankerPay
 title: 'AnkerPay: Blockchain Crypto Wa'
 verdict: nosource
+date: 2025-06-09
 authors:
 - leo
 - danny
@@ -25,7 +26,6 @@ android:
   version: v1.0.14.12
   icon: com.ankerpay.wallet.png
   meta: stale
-  date: 2025-06-09
 iphone:
   appId: com.ankerpay.ioswallet
   idd: '1487931971'
@@ -36,7 +36,6 @@ iphone:
   reviews: 3
   icon: com.ankerpay.ioswallet.jpg
   meta: removed
-  date: 2025-07-08
 
 ---
 

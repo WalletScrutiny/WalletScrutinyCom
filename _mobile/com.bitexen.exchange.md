@@ -2,6 +2,7 @@
 wsId: Bitexen
 title: Bitexen - Bitcoin and Altcoins
 verdict: custodial
+date: 2023-02-01
 authors:
 - danny
 website: https://www.bitexen.com
@@ -21,7 +22,6 @@ android:
   reviews: 44
   icon: com.bitexen.exchange.jpg
   meta: ok
-  date: 2023-02-01
   developerName: Bitexen Teknoloji A.Ş.
 iphone:
   appId: com.Bitexen.ExchangeApp
@@ -32,7 +32,6 @@ iphone:
   reviews: 5
   icon: com.Bitexen.ExchangeApp.jpg
   meta: removed
-  date: 2023-04-16
 
 ---
 

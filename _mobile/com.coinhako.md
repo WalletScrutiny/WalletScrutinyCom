@@ -3,6 +3,7 @@ wsId: coinhako
 title: 'Coinhako: Buy Bitcoin & Crypto'
 verdict: custodial
 meta: ok
+date: 2021-04-23
 authors:
 - kiwilamb
 - leo
@@ -25,7 +26,6 @@ android:
   version: 5.24.0
   reviews: 22
   icon: com.coinhako.png
-  date: 2021-04-23
   website: https://coinhako.com
   developerName: Coinhako
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 5.24.0
   reviews: 31
   icon: com.coinhako.app.jpg
-  date: 2021-04-24
   website: https://www.coinhako.com
   developerName: CoinHako
 

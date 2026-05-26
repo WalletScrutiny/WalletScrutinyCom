@@ -2,6 +2,7 @@
 wsId: dIFXExchange
 title: 'DIFX Exchange : Buy Crypto'
 verdict: custodial
+date: 2023-06-29
 authors:
 - danny
 twitter: difx_io
@@ -22,7 +23,6 @@ android:
   version: 5.1.11
   icon: app.difx.exchange.png
   meta: ok
-  date: 2023-06-29
   website: https://app.difx.com
   developerName: DIFX
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 0
   icon: app.difx.exchange.jpg
   meta: obsolete
-  date: 2026-05-05
   website: https://difx.com
   developerName: DIFX Limited
 

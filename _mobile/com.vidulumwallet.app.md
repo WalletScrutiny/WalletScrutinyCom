@@ -3,6 +3,7 @@ wsId: Vidulum
 title: Vidulum - Crypto Web Wallet
 verdict: nosource
 meta: removed
+date: 2024-12-15
 authors:
 - leo
 - danny
@@ -25,7 +26,6 @@ android:
   version: '4.0'
   reviews: 12
   icon: com.vidulumwallet.app.png
-  date: 2024-12-15
   repository: https://github.com/vidulum/vidulum.app
 iphone:
   appId: com.vidulum.app
@@ -35,7 +35,6 @@ iphone:
   version: 1.6.1
   reviews: 16
   icon: com.vidulum.app.jpg
-  date: 2025-01-09
 
 ---
 

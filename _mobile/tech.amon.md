@@ -3,6 +3,7 @@ wsId: techAmon
 title: Amon
 verdict: custodial
 meta: removed
+date: 2024-08-17
 authors:
 - danny
 twitter: amonwallet
@@ -19,7 +20,6 @@ android:
   updated: 2023-07-04
   version: 3.7.31
   icon: tech.amon.png
-  date: 2025-03-14
   website: https://web.archive.org/web/20231006065722/https://amon.tech/
 iphone:
   appId: tech.amon
@@ -30,7 +30,6 @@ iphone:
   version: 3.7.31
   reviews: 8
   icon: tech.amon.jpg
-  date: 2024-08-17
 
 ---
 

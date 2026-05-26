@@ -3,6 +3,7 @@ wsId: capexExchange
 title: Capex exchange
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 social:
@@ -19,7 +20,6 @@ android:
   updated: 2023-09-21
   version: 2.0.2
   icon: com.capex.png
-  date: 2024-11-15
   website: https://capex.mn/
   developerName: Dataland LLC
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 2.0.2
   reviews: 0
   icon: com.capexcapital.capex.jpg
-  date: 2024-07-05
   website: https://capex.mn
   developerName: Capex capital LLC
 

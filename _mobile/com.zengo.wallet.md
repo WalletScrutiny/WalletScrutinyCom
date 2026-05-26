@@ -3,6 +3,7 @@ wsId: ZenGo
 title: 'Zengo: Crypto & Bitcoin Wallet'
 verdict: nosource
 meta: ok
+date: 2020-04-27
 authors:
 - leo
 - emanuel
@@ -22,7 +23,6 @@ android:
   version: 9.6.3
   reviews: 600
   icon: com.zengo.wallet.png
-  date: 2024-07-13
   developerName: ZenGo
 iphone:
   appId: kzencorp.mobile.ios
@@ -32,7 +32,6 @@ iphone:
   version: 9.6.3
   reviews: 4376
   icon: kzencorp.mobile.ios.jpg
-  date: 2020-04-27
   developerName: ZenGo Ltd.
 
 ---

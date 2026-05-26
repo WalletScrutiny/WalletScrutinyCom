@@ -3,6 +3,7 @@ wsId: bravePay
 title: 'BravePay: buy&pay with crypto'
 verdict: custodial
 meta: removed
+date: 2024-11-22
 authors:
 - danny
 twitter: BraveCorporati1
@@ -22,7 +23,6 @@ android:
   version: 1.0.22
   reviews: 6
   icon: com.bravecorporation.BraveID.png
-  date: 2024-11-22
   website: https://www.bravepay.net/
   developerName: BravePay
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 1.7.1
   reviews: 5
   icon: com.brave-corporation.brave-pay.jpg
-  date: 2024-12-08
   developerName: Brave Corporation
 
 ---

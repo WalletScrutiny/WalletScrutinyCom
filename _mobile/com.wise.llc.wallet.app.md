@@ -3,6 +3,7 @@ wsId: WiseWinWallet
 title: Win Wallet
 verdict: nosource
 meta: removed
+date: 2022-05-31
 authors:
 - danny
 website: https://wise.win#deadLink
@@ -18,7 +19,6 @@ android:
   version: 2.6.4
   reviews: 28
   icon: com.wise.llc.wallet.app.png
-  date: 2024-07-05
   developerName: wise.win
 iphone:
   appId: com.wwise.llc.wallet.app
@@ -28,7 +28,6 @@ iphone:
   version: 2.6.4
   reviews: 0
   icon: com.wwise.llc.wallet.app.jpg
-  date: 2022-05-31
 
 ---
 

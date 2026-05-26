@@ -2,6 +2,7 @@
 wsId: indodax
 title: Indodax Crypto Simple & Secure
 verdict: custodial
+date: 2021-05-31
 authors:
 - leo
 twitter: indodax
@@ -17,7 +18,6 @@ android:
   reviews: 493
   icon: id.co.bitcoin.png
   meta: ok
-  date: 2021-05-31
   website: http://indodax.com
   developerName: Indodax
 iphone:
@@ -29,7 +29,6 @@ iphone:
   reviews: 8
   icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
   meta: removed
-  date: 2023-01-11
   website: https://indodax.com
 
 ---

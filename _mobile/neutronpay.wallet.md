@@ -2,6 +2,7 @@
 wsId: neutronLNBitcoinWallet
 title: 'Neutron: LN Bitcoin Wallet'
 verdict: custodial
+date: 2025-12-31
 authors:
 - danny
 twitter: neutron__me
@@ -23,7 +24,6 @@ android:
   version: 3.5.0
   icon: neutronpay.wallet.png
   meta: removed
-  date: 2026-05-21
   website: https://neutron.me/app
 iphone:
   appId: neutronpay.wallet
@@ -35,7 +35,6 @@ iphone:
   reviews: 18
   icon: neutronpay.wallet.jpg
   meta: ok
-  date: 2025-12-31
 
 ---
 

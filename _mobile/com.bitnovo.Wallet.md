@@ -2,6 +2,7 @@
 wsId: BitnovoWallet
 title: Bitnovo – Buy Bitcoin
 verdict: nosource
+date: 2024-07-17
 authors:
 - danny
 website: https://www.bitnovo.com
@@ -22,7 +23,6 @@ android:
   reviews: 12
   icon: com.bitnovo.Wallet.png
   meta: ok
-  date: 2024-07-17
   developerName: BITNOVO
 iphone:
   appId: com.bitnovo.Wallet
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.bitnovo.Wallet.jpg
   meta: removed
-  date: 2026-03-11
   developerName: Bitnovo
 
 ---

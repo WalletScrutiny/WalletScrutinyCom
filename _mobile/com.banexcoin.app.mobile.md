@@ -1,6 +1,7 @@
 ---
 title: Banexcoin
 meta: removed
+date: 2023-08-04
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   version: 1.1.254
   icon: com.banexcoin.app.mobile.png
   verdict: custodial
-  date: 2025-06-09
   website: https://banexcoin.com
   twitter: banexcoin
   developerName: Banexcoin
@@ -32,7 +32,6 @@ iphone:
   reviews: 5
   icon: com.banexcoin.app.mobile.jpg
   verdict: wip
-  date: 2023-08-04
   website: https://www.banexcoin.com/
   developerName: Banexcoin SA
 

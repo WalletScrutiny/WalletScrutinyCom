@@ -3,6 +3,7 @@ wsId: adamanyMessenger
 title: ADAMANT Messenger
 verdict: sourceavailable
 meta: ok
+date: 2024-09-18
 authors:
 - danny
 website: https://adamant.im
@@ -24,7 +25,6 @@ android:
   version: 4.11.1
   reviews: 16
   icon: im.adamant.adamantmessengerpwa.png
-  date: 2024-09-18
   repository: https://github.com/Adamant-im/adamant-im
   developerName: ADAMANT Foundation
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 3.10.1
   reviews: 18
   icon: im.adamant.adamant-messenger.jpg
-  date: 2024-09-19
   repository: https://github.com/Adamant-im/adamant-iOS
   developerName: ADAMANT TECH LABS LP
 

@@ -3,6 +3,7 @@ wsId: cryptoComDefi
 title: 'Crypto.com: Onchain Wallet'
 verdict: nosource
 meta: ok
+date: 2021-10-24
 authors:
 - leo
 - danny
@@ -30,7 +31,6 @@ android:
   version: 2.50.0
   reviews: 3750
   icon: com.defi.wallet.png
-  date: 2024-07-16
   website: https://www.crypto.com
   developerName: Crypto.com Onchain Wallet
 iphone:
@@ -41,7 +41,6 @@ iphone:
   version: 2.50.3
   reviews: 20937
   icon: com.defi.wallet.jpg
-  date: 2021-10-24
   website: https://crypto.com/onchain
   developerName: Onchain Wallet Limited
 

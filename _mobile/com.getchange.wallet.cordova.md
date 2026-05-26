@@ -2,6 +2,7 @@
 wsId: changeinvest
 title: 'Change: Buy Bitcoin & crypto'
 verdict: custodial
+date: 2020-05-29
 authors:
 - leo
 - danny
@@ -24,7 +25,6 @@ android:
   reviews: 23
   icon: com.getchange.wallet.cordova.png
   meta: ok
-  date: 2020-05-29
   website: https://changeinvest.com
   developerName: Change Finance
 iphone:
@@ -36,7 +36,6 @@ iphone:
   reviews: 38
   icon: com.getchange.dev.jpg
   meta: removed
-  date: 2026-02-02
   website: https://www.changeinvest.com/
   developerName: xChange AS
 

@@ -2,6 +2,7 @@
 wsId: tangem
 title: Tangem - Hardware Wallet
 meta: ok
+date: 2025-03-21
 authors:
 - leo
 - danny
@@ -27,7 +28,6 @@ android:
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   verdict: sourceavailable
-  date: 2025-03-21
   website: https://tangem.com
   repository: https://github.com/tangem/tangem-app-android
   developerName: Tangem
@@ -40,7 +40,6 @@ iphone:
   reviews: 22481
   icon: com.tangem.Tangem.jpg
   verdict: nosource
-  date: 2025-10-28
   developerName: Tangem AG
 
 ---

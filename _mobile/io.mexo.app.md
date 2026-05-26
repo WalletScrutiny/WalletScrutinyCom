@@ -3,6 +3,7 @@ wsId: Mexo
 title: 'TruBit Pro: Crypto Exchange'
 verdict: custodial
 meta: ok
+date: 2021-10-04
 authors:
 - danny
 twitter: mexo_io
@@ -21,7 +22,6 @@ android:
   version: 3.7.15
   reviews: 18
   icon: io.mexo.app.png
-  date: 2021-10-04
   website: http://www.mexo.io
   developerName: TruBit Ltd
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 3.7.13
   reviews: 135
   icon: com.kmoh.mexo.jpg
-  date: 2021-10-26
   website: https://help.trubit.com/en
   developerName: TruBit Ltd.
 

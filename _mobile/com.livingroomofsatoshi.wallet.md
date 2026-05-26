@@ -3,6 +3,7 @@ wsId: WalletofSatoshi
 title: Wallet of Satoshi
 verdict: custodial
 meta: ok
+date: 2024-10-07
 authors:
 - leo
 - danny
@@ -29,7 +30,6 @@ android:
   version: 3.3.4
   reviews: 220
   icon: com.livingroomofsatoshi.wallet.png
-  date: 2025-10-09
   website: http://www.walletofsatoshi.com
 iphone:
   appId: com.livingroomofsatoshi.wallet
@@ -40,7 +40,6 @@ iphone:
   version: 3.3.4
   reviews: 22
   icon: com.livingroomofsatoshi.wallet.jpg
-  date: 2024-10-07
   website: https://www.walletofsatoshi.com
 
 ---

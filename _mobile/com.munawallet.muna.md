@@ -3,6 +3,7 @@ wsId: munawallet
 title: Muna App
 verdict: custodial
 meta: removed
+date: 2023-05-17
 authors:
 - danny
 website: https://muna.app#deadLink
@@ -21,7 +22,6 @@ android:
   version: 3.0.0
   reviews: 14
   icon: com.munawallet.muna.png
-  date: 2025-02-13
   developerName: Quru Lab
 iphone:
   appId: com.quru.muna
@@ -31,7 +31,6 @@ iphone:
   version: 2.5.2
   reviews: 3
   icon: com.quru.muna.jpg
-  date: 2023-05-17
 
 ---
 

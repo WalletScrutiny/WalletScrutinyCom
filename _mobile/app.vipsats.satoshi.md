@@ -2,6 +2,7 @@
 wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 verdict: wip
+date: 2023-12-02
 authors:
 - danny
 website: https://vipsats.app
@@ -18,7 +19,6 @@ android:
   reviews: 4
   icon: app.vipsats.satoshi.png
   meta: removed
-  date: 2023-12-02
   developerName: Vipsats
 iphone:
   appId: app.vipsats.satos
@@ -30,7 +30,6 @@ iphone:
   reviews: 0
   icon: app.vipsats.satos.jpg
   meta: stale
-  date: 2025-11-05
   developerName: VIPSATS.APP
 
 ---

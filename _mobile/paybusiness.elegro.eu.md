@@ -3,6 +3,7 @@ wsId: payBusinessElegro
 title: elegro Business online banking
 verdict: custodial
 meta: stale
+date: 2026-05-05
 authors:
 - danny
 website: https://business.elegro.eu/elegro-business-wallet
@@ -23,7 +24,6 @@ android:
   updated: 2025-05-09
   version: 1.4.0
   icon: paybusiness.elegro.eu.jpg
-  date: 2026-05-05
 iphone:
   appId: paybusiness.elegro.eu
   idd: '1526117414'
@@ -33,7 +33,6 @@ iphone:
   version: '4.1'
   reviews: 0
   icon: paybusiness.elegro.eu.jpg
-  date: 2026-05-21
 
 ---
 

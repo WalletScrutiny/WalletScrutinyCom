@@ -2,6 +2,7 @@
 wsId: satangPro
 title: 'orbix: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2022-06-28
 authors:
 - danny
 twitter: SatangOfficial_
@@ -21,7 +22,6 @@ android:
   reviews: 4
   icon: com.satang.pro.png
   meta: ok
-  date: 2022-06-28
   website: https://satangcorp.com/
   developerName: Orbix Trade Co., Ltd.
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 6
   icon: com.satang-pro.ios.jpg
   meta: removed
-  date: 2023-12-19
   website: https://satangcorp.com
   developerName: Satang Corporation Co., Ltd.
 

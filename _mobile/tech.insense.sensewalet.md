@@ -3,6 +3,7 @@ wsId: iwallet
 title: iWallet - blockchain wallet for Bitcoin, Ethereum
 verdict: nosource
 meta: removed
+date: 2021-11-16
 authors:
 - leo
 - danny
@@ -20,7 +21,6 @@ android:
   version: 0.0068beta
   reviews: 15
   icon: tech.insense.sensewalet.png
-  date: 2021-11-16
 iphone:
   appId: com.iwallet.iwallet
   idd: 1479545928
@@ -29,7 +29,6 @@ iphone:
   version: '2.35'
   reviews: 46
   icon: com.iwallet.iwallet.jpg
-  date: 2022-05-26
 
 ---
 

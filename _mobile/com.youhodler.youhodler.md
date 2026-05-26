@@ -3,6 +3,7 @@ wsId: YouHodler
 title: 'YouHodler: BTC & Crypto Wallet'
 verdict: custodial
 meta: ok
+date: 2020-06-20
 authors:
 - leo
 twitter: youhodler
@@ -23,7 +24,6 @@ android:
   version: 8.6.3
   reviews: 117
   icon: com.youhodler.youhodler.png
-  date: 2020-06-20
   website: https://youhodler.com
 iphone:
   appId: com.youhodler.youhodler
@@ -34,7 +34,6 @@ iphone:
   version: 8.6.2
   reviews: 11
   icon: com.youhodler.youhodler.jpg
-  date: 2024-10-07
   website: https://www.youhodler.com/
 
 ---

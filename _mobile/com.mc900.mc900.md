@@ -2,6 +2,7 @@
 wsId: headlineCFD
 title: 'Headline.net: Finance & Invest'
 verdict: custodial
+date: 2024-04-19
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   version: 2.6.7
   icon: com.mc900.mc900.jpg
   meta: removed
-  date: 2024-04-19
   website: https://www.headline.net
   developerName: Headline.net
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.mc900.mc900.jpg
   meta: obsolete
-  date: 2026-05-05
   website: https://www.headline.net/
   developerName: Magic Compass Ltd
 

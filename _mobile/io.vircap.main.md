@@ -3,6 +3,7 @@ wsId: vircapExchange
 title: Vircap
 verdict: custodial
 meta: removed
+date: 2024-11-04
 authors:
 - danny
 social:
@@ -19,7 +20,6 @@ android:
   updated: 2024-06-03
   version: VARY
   icon: io.vircap.main.png
-  date: 2024-11-04
   website: https://vircap.io#deadLink
 iphone:
   appId: io.vircap.main
@@ -30,7 +30,6 @@ iphone:
   version: 1.0.47
   reviews: 9
   icon: io.vircap.main.jpg
-  date: 2025-05-30
 
 ---
 

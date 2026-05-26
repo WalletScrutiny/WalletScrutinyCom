@@ -3,6 +3,7 @@ wsId: CashApp
 title: Cash App
 verdict: custodial
 meta: ok
+date: 2020-08-06
 authors:
 - leo
 website: https://cash.app
@@ -22,7 +23,6 @@ android:
   version: 5.52.0
   reviews: 465325
   icon: com.squareup.cash.png
-  date: 2020-08-06
 iphone:
   appId: com.squareup.cash
   idd: 711923939
@@ -31,7 +31,6 @@ iphone:
   version: 5.52.0
   reviews: 8371834
   icon: com.squareup.cash.jpg
-  date: 2020-12-22
 
 ---
 

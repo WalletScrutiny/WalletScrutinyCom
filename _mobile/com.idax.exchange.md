@@ -3,6 +3,7 @@ wsId: idax
 title: iDAX Exchange
 verdict: custodial
 meta: removed
+date: 2023-05-10
 authors:
 - danny
 website: https://www.idax.exchange
@@ -20,7 +21,6 @@ android:
   version: 5.5.0_push_v2
   reviews: 6
   icon: com.idax.exchange.png
-  date: 2023-05-10
 iphone:
   appId: com.idax.exchange
   idd: '1619039755'
@@ -30,7 +30,6 @@ iphone:
   version: 1.1.2
   reviews: 2
   icon: com.idax.exchange.jpg
-  date: 2023-09-15
 
 ---
 

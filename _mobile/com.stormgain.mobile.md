@@ -2,6 +2,7 @@
 wsId: stormgain
 title: 'StormGain: Bitcoin & Crypto'
 verdict: custodial
+date: 2023-09-28
 authors:
 - leo
 twitter: StormGain_com
@@ -20,7 +21,6 @@ android:
   reviews: 969
   icon: com.stormgain.mobile.png
   meta: stale
-  date: 2025-08-04
   website: https://stormgain.com/
   developerName: Stormgain LLC
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 1173
   icon: com.stormgain.mobile.jpg
   meta: removed
-  date: 2023-09-28
   website: https://stormgain.com
   developerName: Stormgain Limited
 

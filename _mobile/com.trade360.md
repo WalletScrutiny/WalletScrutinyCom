@@ -3,6 +3,7 @@ wsId: Trade360
 title: Trade360
 verdict: nosendreceive
 meta: removed
+date: 2023-08-25
 authors:
 - danny
 twitter: Trade360_LTD
@@ -21,7 +22,6 @@ android:
   version: 7.3.1
   reviews: 60
   icon: com.trade360.png
-  date: 2025-03-11
   website: http://www.trade360.com
   developerName: Trade360 Ltd.
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 7.4.0
   reviews: 0
   icon: com.toyga.trade360.jpg
-  date: 2023-08-25
   website: https://www.trade360.com
   developerName: Trade360 LTD
 

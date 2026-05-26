@@ -2,6 +2,7 @@
 wsId: BTCAlpha
 title: BTC-Alpha Exchange
 verdict: custodial
+date: 2024-04-19
 authors:
 - danny
 twitter: btcalpha
@@ -21,7 +22,6 @@ android:
   reviews: 3
   icon: com.btcalpha.exchange.png
   meta: removed
-  date: 2024-04-19
   website: https://btc-alpha.com/
   developerName: BTC-Alpha LTD
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 4
   icon: com.btc-alpha.jpg
   meta: ok
-  date: 2026-02-02
   website: http://alp.com
   developerName: ALPHACOM
 

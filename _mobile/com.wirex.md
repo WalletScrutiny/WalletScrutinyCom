@@ -3,6 +3,7 @@ wsId: wirex
 title: 'Wirex: All-In-One Crypto App'
 verdict: custodial
 meta: ok
+date: 2021-08-21
 authors:
 - danny
 twitter: wirexapp
@@ -20,7 +21,6 @@ android:
   version: 4.12.70
   reviews: 1112
   icon: com.wirex.png
-  date: 2021-08-21
   website: https://wirexapp.com
   developerName: Wirex
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 4.11.75
   reviews: 848
   icon: com.wirex.jpg
-  date: 2022-01-10
   website: https://wirexapp.com/
   developerName: Wirex Limited
 

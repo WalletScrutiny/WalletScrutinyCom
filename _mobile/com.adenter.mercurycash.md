@@ -3,6 +3,7 @@ wsId: mercurycash
 title: Mercury Cash
 verdict: custodial
 meta: removed
+date: 2023-01-02
 authors:
 - leo
 twitter: mercurycash
@@ -20,7 +21,6 @@ android:
   version: 4.4.3
   reviews: 17
   icon: com.adenter.mercurycash.png
-  date: 2025-02-28
   website: http://mercurycash.us
   developerName: IT Mercury Cash
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 4.5.0
   reviews: 68
   icon: com.adenter.mercurycash.jpg
-  date: 2023-01-02
   website: https://www.mercury.cash/
 
 ---

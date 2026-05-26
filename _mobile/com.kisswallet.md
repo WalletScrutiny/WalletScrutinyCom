@@ -1,6 +1,7 @@
 ---
 title: Moonshine
 verdict: wip
+date: 2022-05-22
 authors:
 - leo
 developerName: Ferryman Fin LLC
@@ -18,7 +19,6 @@ android:
   version: 0.3.6
   icon: com.kisswallet.png
   meta: removed
-  date: 2024-07-05
   website: https://www.moonshinewallet.com#deadLink
   repository: https://github.com/coreyphillips/moonshine
   twitter: coreylphillips
@@ -31,7 +31,6 @@ iphone:
   reviews: 4
   icon: com.kisswallet.jpg
   meta: obsolete
-  date: 2022-05-22
   website: https://moonshinewallet.com/
 
 ---

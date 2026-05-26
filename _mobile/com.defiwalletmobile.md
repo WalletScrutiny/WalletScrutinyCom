@@ -1,6 +1,7 @@
 ---
 wsId: slaviWallet
 title: 'Slavi: DeFi Crypto Wallet'
+date: 2025-05-30
 authors:
 - danny
 - keraliss
@@ -26,7 +27,6 @@ android:
   icon: com.defiwalletmobile.png
   meta: stale
   verdict: nosource
-  date: 2025-05-30
   developerName: Slavi Development
 iphone:
   appId: io.slavi.wallet
@@ -39,7 +39,6 @@ iphone:
   icon: io.slavi.wallet.jpg
   meta: obsolete
   verdict: sourceavailable
-  date: 2026-05-05
   developerName: SLAVI DEVELOPMENT CORP UAB
 
 ---

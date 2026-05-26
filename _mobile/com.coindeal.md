@@ -3,6 +3,7 @@ wsId: CoinDeal
 title: CoinDeal - Bitcoin Buy & Sell
 verdict: custodial
 meta: removed
+date: 2023-05-10
 authors:
 - kiwilamb
 website: https://coindeal.com#deadLink
@@ -21,7 +22,6 @@ android:
   updated: 2020-08-18
   version: 1.0.8
   icon: com.coindeal.png
-  date: 2024-02-05
 iphone:
   appId: pl.icoindeal.CoinDeal
   idd: 1482619122
@@ -30,7 +30,6 @@ iphone:
   version: 1.0.6
   reviews: 1
   icon: pl.icoindeal.CoinDeal.jpg
-  date: 2023-05-10
 
 ---
 

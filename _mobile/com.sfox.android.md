@@ -2,6 +2,7 @@
 wsId: sFox
 title: 'sFOX: Buy BTC, ETH, DOGE'
 verdict: custodial
+date: 2025-02-28
 authors:
 - danny
 website: https://www.sfox.com/
@@ -21,7 +22,6 @@ android:
   reviews: 3
   icon: com.sfox.android.png
   meta: removed
-  date: 2025-05-30
   twitter: SFox
   developerName: SFOX Inc.
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 15
   icon: com.sfox.ios.jpg
   meta: ok
-  date: 2025-02-28
   developerName: SFOX Inc
 
 ---

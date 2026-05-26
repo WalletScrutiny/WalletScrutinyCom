@@ -2,6 +2,7 @@
 wsId: TradeMN
 title: Trade.mn
 verdict: custodial
+date: 2022-05-31
 authors:
 - danny
 website: https://trade.mn
@@ -22,7 +23,6 @@ android:
   reviews: 13
   icon: mn.trade.png
   meta: defunct
-  date: 2022-05-31
 iphone:
   appId: mn.trade
   idd: 1303463253
@@ -32,7 +32,6 @@ iphone:
   reviews: 29
   icon: mn.trade.jpg
   meta: removed
-  date: 2023-09-15
 
 ---
 

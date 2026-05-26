@@ -3,6 +3,7 @@ wsId: ChivoWallet
 title: Chivo Wallet
 verdict: obfuscated
 meta: ok
+date: 2024-11-29
 authors:
 - danny
 - leo
@@ -25,7 +26,6 @@ android:
   version: 3.0.0
   reviews: 14230
   icon: com.chivo.wallet.png
-  date: 2024-11-29
 iphone:
   appId: com.chivo.wallet
   idd: 1581515981
@@ -34,7 +34,6 @@ iphone:
   version: 3.1.0
   reviews: 4263
   icon: com.chivo.wallet.jpg
-  date: 2025-08-28
 
 ---
 

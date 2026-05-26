@@ -3,6 +3,7 @@ wsId: buda
 title: Buda.com
 verdict: custodial
 meta: ok
+date: 2022-01-07
 authors:
 - leo
 twitter: BudaPuntoCom
@@ -25,7 +26,6 @@ android:
   version: 2025.11.4
   reviews: 18
   icon: com.buda.crypto.jpg
-  date: 2022-01-07
   website: https://buda.com
 iphone:
   appId: com.buda.crypto
@@ -36,7 +36,6 @@ iphone:
   version: 2026.4.2
   reviews: 1
   icon: com.buda.crypto.jpg
-  date: 2024-10-07
   website: https://www.buda.com
 
 ---

@@ -2,6 +2,7 @@
 wsId: MobiWallet
 title: Mobi - Crypto Asset Wallet
 verdict: custodial
+date: 2021-12-22
 authors:
 - danny
 twitter: mobimeglobal
@@ -20,7 +21,6 @@ android:
   reviews: 19
   icon: com.btcc.mobiwallet.png
   meta: removed
-  date: 2021-12-22
   website: https://www.mobi.me/
 iphone:
   appId: me.mobi.app
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: me.mobi.app.jpg
   meta: obsolete
-  date: 2025-04-22
   website: http://www.mobi.me
   developerName: Mobi Me Limited
 

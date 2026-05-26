@@ -3,6 +3,7 @@ wsId: CoinPayments
 title: CoinPayments - Crypto Wallet
 verdict: custodial
 meta: removed
+date: 2025-02-28
 authors:
 - leo
 website: https://www.coinpayments.net/
@@ -23,7 +24,6 @@ android:
   version: VARY
   reviews: 128
   icon: net.coinpayments.coinpaymentsapp.png
-  date: 2025-02-28
   developerName: Coinpayments Inc
 iphone:
   appId: net.coinpayments.coinpaymentsapp
@@ -33,7 +33,6 @@ iphone:
   version: 2.4.8
   reviews: 52
   icon: net.coinpayments.coinpaymentsapp.jpg
-  date: 2025-05-14
   developerName: CoinPayments Inc
 
 ---

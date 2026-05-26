@@ -2,6 +2,7 @@
 wsId: ShuffleHPX
 title: 'Shuffle: Crypto Payment Wallet'
 verdict: custodial
+date: 2023-01-30
 authors:
 - danny
 website: https://www.hupayx.com/
@@ -20,7 +21,6 @@ android:
   version: 2.0.3
   icon: com.thehumanplus.shuffle.png
   meta: ok
-  date: 2025-11-26
   developerName: HUPAYX
 iphone:
   appId: humanplus.hupay-master-iOS
@@ -32,7 +32,6 @@ iphone:
   reviews: 16
   icon: humanplus.hupay-master-iOS.jpg
   meta: defunct
-  date: 2023-01-30
   developerName: The Humanplus Inc.
 
 ---

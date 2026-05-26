@@ -3,6 +3,7 @@ wsId: capitual
 title: Capitual - Multiple Currencies
 verdict: custodial
 meta: removed
+date: 2025-02-04
 authors:
 - danny
 twitter: capitual
@@ -23,7 +24,6 @@ android:
   version: 3.44.6
   reviews: 6
   icon: com.capitual.png
-  date: 2025-02-04
   website: https://capitual.com
 iphone:
   appId: com.capitual
@@ -34,7 +34,6 @@ iphone:
   version: 3.44.0
   reviews: 8
   icon: com.capitual.jpg
-  date: 2025-08-18
   website: https://www.capitual.com
 
 ---

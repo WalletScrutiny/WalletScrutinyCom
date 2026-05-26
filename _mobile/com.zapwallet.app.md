@@ -2,6 +2,7 @@
 wsId: zapWalletNG
 title: Zap Wallet - Send Crypto Fast
 verdict: custodial
+date: 2025-12-26
 authors:
 - danny
 website: https://zap.africa
@@ -21,7 +22,6 @@ android:
   version: 1.0.9
   icon: com.zapwallet.app.png
   meta: stale
-  date: 2026-04-20
   developerName: Zap Technology
 iphone:
   appId: com.zapapp
@@ -33,7 +33,6 @@ iphone:
   reviews: 31
   icon: com.zapapp.jpg
   meta: ok
-  date: 2025-12-26
   developerName: Zap technology Limited
 
 ---

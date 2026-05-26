@@ -2,6 +2,7 @@
 wsId: techbankDWallet
 title: TechBank Dwallet
 verdict: custodial
+date: 2026-02-02
 authors:
 - danny
 appCountry: in
@@ -17,7 +18,6 @@ android:
   reviews: 12
   icon: com.techbank_dwallet.jpg
   meta: removed
-  date: 2026-04-28
   website: https://techbank.finance/
   developerName: Techbank
 iphone:
@@ -29,7 +29,6 @@ iphone:
   reviews: 3
   icon: com.techbank.dwallettb.jpg
   meta: ok
-  date: 2026-02-02
   website: https://techbank.finance
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 

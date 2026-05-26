@@ -3,6 +3,7 @@ wsId: kassio
 title: Kassio
 verdict: custodial
 meta: removed
+date: 2024-10-31
 authors:
 - danny
 twitter: KassioNetwork
@@ -22,7 +23,6 @@ android:
   updated: 2023-10-27
   version: 3.1.1
   icon: com.fintech.kassio.png
-  date: 2024-10-31
   website: https://kassio.com
 iphone:
   appId: com.Kassio
@@ -33,7 +33,6 @@ iphone:
   version: 1.1.2
   reviews: 12
   icon: com.Kassio.jpg
-  date: 2025-03-14
   website: https://web.archive.org/web/20230201082314/https://www.kassio.com/contact
 
 ---

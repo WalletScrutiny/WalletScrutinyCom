@@ -2,6 +2,7 @@
 wsId: bgWallet
 title: WalletGo - Licensed Crypto App
 verdict: custodial
+date: 2025-08-18
 authors:
 - danny
 website: https://walletgo.ai/
@@ -22,7 +23,6 @@ android:
   version: 0.3.8
   icon: com.bgw.wallet.png
   meta: stale
-  date: 2026-01-08
   developerName: Wellto Go
 iphone:
   appId: io.bgwallet.bgw
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: io.bgwallet.bgw.jpg
   meta: removed
-  date: 2025-08-18
   developerName: BG Technologies Limited
 
 ---

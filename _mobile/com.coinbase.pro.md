@@ -3,6 +3,7 @@ wsId: coinbasepro
 title: 'Coinbase Pro: Trade BTC, ETH'
 verdict: custodial
 meta: removed
+date: 2023-11-02
 authors:
 - leo
 twitter: CoinbasePro
@@ -21,7 +22,6 @@ android:
   version: 1.0.103
   reviews: 4595
   icon: com.coinbase.pro.jpg
-  date: 2023-11-02
   website: http://pro.coinbase.com/
   developerName: Coinbase Android
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.104
   reviews: 173326
   icon: com.coinbase.pro.jpg
-  date: 2024-02-05
   website: https://pro.coinbase.com
   developerName: Coinbase, Inc.
 

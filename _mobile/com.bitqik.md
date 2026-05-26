@@ -3,6 +3,7 @@ wsId: bitqikExchange
 title: bitqik
 verdict: custodial
 meta: ok
+date: 2024-10-07
 authors:
 - danny
 twitter: bitqikofficial
@@ -23,7 +24,6 @@ android:
   version: 3.7.0
   reviews: 3
   icon: com.bitqik.png
-  date: 2025-04-14
   website: https://bitqik.com/
   developerName: bitqik
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 3.7.0
   reviews: 1
   icon: com.bitqik.jpg
-  date: 2024-10-07
   developerName: BITQIK SOLE CO.,LTD
 
 ---

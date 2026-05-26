@@ -3,6 +3,7 @@ wsId: webAuthProton
 title: WebAuth
 verdict: nosource
 meta: ok
+date: 2023-07-06
 authors:
 - danny
 twitter: protonxpr
@@ -22,7 +23,6 @@ android:
   version: 2.1.61
   reviews: 86
   icon: com.metallicus.webauth.png
-  date: 2024-07-24
   website: https://webauth.com/
   developerName: Metallicus Inc.
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 2.1.61
   reviews: 216
   icon: com.metallicus.webauth.jpg
-  date: 2023-07-06
   website: https://xprnetwork.org/
   developerName: Metallicus, Inc.
 

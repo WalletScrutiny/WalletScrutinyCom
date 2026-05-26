@@ -3,6 +3,7 @@ wsId: patriciaApp
 title: Patricia
 verdict: custodial
 meta: removed
+date: 2023-09-28
 authors:
 - danny
 twitter: PatriciaSwitch
@@ -22,7 +23,6 @@ android:
   version: 1.5.2
   reviews: 442
   icon: com.patriciaapp.png
-  date: 2024-04-26
   website: https://mypatricia.co
   developerName: Patricia Technologies
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: '1.3'
   reviews: 0
   icon: app.patricia.jpg
-  date: 2023-09-28
   developerName: Patricia Technologies UAB
 
 ---

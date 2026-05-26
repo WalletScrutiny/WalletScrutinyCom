@@ -3,6 +3,7 @@ wsId: cheeleeDeFiWallet
 title: Cheelee DeFi Wallet
 verdict: custodial
 meta: obsolete
+date: 2025-11-13
 authors:
 - danny
 redirect_from:
@@ -16,7 +17,6 @@ android:
   version: 1.2.1
   reviews: 54
   icon: com.cheeleewallet.png
-  date: 2025-11-13
   website: https://cheeleewallet.io/
   developerName: Cheelee Wallet
 iphone:
@@ -28,7 +28,6 @@ iphone:
   version: 1.2.2
   reviews: 5
   icon: io.cheeleewallet.app.jpg
-  date: 2026-05-05
   developerName: Service Solutions Pro s.r.o.
 
 ---

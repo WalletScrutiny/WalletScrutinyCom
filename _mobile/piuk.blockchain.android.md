@@ -3,6 +3,7 @@ wsId: blockchainWallet
 title: 'Blockchain Wallet: Buy BTC'
 verdict: nosource
 meta: ok
+date: 2021-07-15
 authors:
 - leo
 - danny
@@ -31,7 +32,6 @@ android:
   reviews: 6353
   icon: piuk.blockchain.android.png
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
-  date: 2024-09-12
   website: https://www.blockchain.com
   bugbounty: https://hackerone.com/blockchain
   twitter: blockchain
@@ -44,7 +44,6 @@ iphone:
   version: 202605.2.1
   reviews: 183917
   icon: com.rainydayapps.Blockchain.jpg
-  date: 2021-07-15
   website: https://www.blockchain.com/wallet
   repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
   twitter: Blockchain

@@ -3,6 +3,7 @@ wsId: faswet
 title: Faswet
 verdict: wip
 meta: removed
+date: 2024-10-28
 authors:
 - danny
 twitter: emet_group_eng
@@ -20,7 +21,6 @@ android:
   updated: 2021-07-14
   version: 1.9.2
   icon: com.emet.faswet.png
-  date: 2024-10-28
   website: https://faswet.com
   developerName: EBG Malta Business Group
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 2.9.7
   reviews: 2
   icon: com.emet.faswet.jpg
-  date: 2025-01-09
   website: https://emetenjoy.com/
   developerName: EBG MALTA BUSINESS GROUP LIMITED
 

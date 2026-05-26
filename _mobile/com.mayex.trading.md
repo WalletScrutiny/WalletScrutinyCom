@@ -3,6 +3,7 @@ wsId: mayexTrading
 title: Trade Crypto.BinanceKucoinOkex
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 twitter: Mayex_Global
@@ -21,7 +22,6 @@ android:
   version: 1.9.80
   reviews: 9
   icon: com.mayex.trading.jpg
-  date: 2025-03-14
   website: https://www.mayex.com
   developerName: Mayex
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 1.9.8
   reviews: 5
   icon: com.mayex.trading.jpg
-  date: 2024-07-05
   website: https://www.mayex.com/referral
   developerName: MAYEX LIMITED
 

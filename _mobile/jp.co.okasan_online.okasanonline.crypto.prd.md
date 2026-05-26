@@ -3,6 +3,7 @@ wsId: okasanCryptoCFD
 title: 暗号資産CFD‐ 岡三オンライン
 verdict: nosendreceive
 meta: removed
+date: 2024-10-06
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   updated: 2024-02-21
   version: 1.15.0
   icon: jp.co.okasan_online.okasanonline.crypto.prd.png
-  date: 2024-10-06
   website: https://www.okasan-online.co.jp/
   developerName: 岡三証券株式会社（岡三オンライン）
 iphone:
@@ -27,7 +27,6 @@ iphone:
   version: 1.14.0
   reviews: 2
   icon: jp.co.okasan-online.okasanonline.crypto.prd.jpg
-  date: 2024-10-08
   website: https://www.okasan-online.co.jp
   developerName: 岡三オンライン証券株式会社
 

@@ -3,6 +3,7 @@ wsId: coinInnBTCandDoge
 title: CoinInn-Trade Altcoin
 verdict: custodial
 meta: removed
+date: 2025-07-18
 authors:
 - danny
 website: https://www.coininn.com
@@ -22,7 +23,6 @@ android:
   version: 5.0.25
   reviews: 42
   icon: com.coininn.wenwen.png
-  date: 2025-08-24
   developerName: CoinInn Limited
 iphone:
   appId: com.coininn.yykik
@@ -33,7 +33,6 @@ iphone:
   version: 5.0.25
   reviews: 46
   icon: com.coininn.yykik.jpg
-  date: 2025-07-18
   developerName: CoinInn Wealth UAB
 
 ---

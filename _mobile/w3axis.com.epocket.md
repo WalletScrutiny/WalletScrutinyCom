@@ -3,6 +3,7 @@ wsId: ePocketExchange
 title: e-Pocket
 verdict: custodial
 meta: ok
+date: 2023-09-06
 authors:
 - danny
 twitter: e_Pocket
@@ -21,7 +22,6 @@ android:
   version: '3.38'
   reviews: 2
   icon: w3axis.com.epocket.png
-  date: 2023-09-06
   website: https://www.e-pocketexchange.com/
 iphone:
   appId: com.live.epocket
@@ -32,7 +32,6 @@ iphone:
   version: 3.3.96
   reviews: 33
   icon: com.live.epocket.jpg
-  date: 2024-10-07
 
 ---
 

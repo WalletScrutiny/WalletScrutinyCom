@@ -3,6 +3,7 @@ wsId: Trustee
 title: Trustee | crypto & btc wallet
 verdict: sourceavailable
 meta: ok
+date: 2026-03-23
 authors:
 - leo
 - danny
@@ -26,7 +27,6 @@ android:
   version: 1.52.3
   reviews: 62
   icon: com.trusteewallet.png
-  date: 2026-03-23
   website: https://trusteeglobal.com
   repository: https://github.com/trustee-wallet/trusteeWallet
   developerName: BlockSoft Lab
@@ -39,7 +39,6 @@ iphone:
   version: 1.52.3
   reviews: 0
   icon: com.trusteewallet.jpg
-  date: 2026-05-05
   website: https://trusteeglobal.com/
   developerName: BLOCKSOFTLAB INC
 

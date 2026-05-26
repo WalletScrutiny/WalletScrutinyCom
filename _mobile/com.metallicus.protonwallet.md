@@ -3,6 +3,7 @@ wsId: ProtonWallet
 title: Proton Wallet
 verdict: nosource
 meta: removed
+date: 2023-01-11
 authors:
 - danny
 twitter: protonxpr
@@ -22,7 +23,6 @@ android:
   version: 1.5.20
   reviews: 82
   icon: com.metallicus.protonwallet.png
-  date: 2023-09-28
   website: https://www.protonchain.com#deadLink
   developerName: Metallicus Inc.
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 1.1.20
   reviews: 251
   icon: com.metallicus.proton.jpg
-  date: 2023-01-11
   website: https://web.archive.org/web/20220601075516/https://www.protonchain.com/
 
 ---

@@ -3,6 +3,7 @@ wsId: Cryptology
 title: 'Cryptology: Blockchain Wallet'
 verdict: custodial
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 twitter: Cryptologyexch
@@ -20,7 +21,6 @@ android:
   version: 3.19.0
   reviews: 3
   icon: com.cryptology.android.png
-  date: 2024-04-03
   website: https://cryptology.com/
   developerName: Cypher OÜ
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 3.15.3
   reviews: 6
   icon: com.cryptology.ios.jpg
-  date: 2023-12-19
   website: http://cryptology.com
   developerName: Cypher OU
 

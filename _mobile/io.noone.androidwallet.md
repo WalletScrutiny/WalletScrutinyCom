@@ -3,6 +3,7 @@ wsId: nooneWallet
 title: Noone Crypto Wallet
 verdict: nosource
 meta: ok
+date: 2023-07-24
 authors:
 - danny
 website: https://noone.io
@@ -22,7 +23,6 @@ android:
   version: 1.32.0
   reviews: 313
   icon: io.noone.androidwallet.png
-  date: 2024-07-23
   developerName: Raias Llc
 iphone:
   appId: io.noone.ioswallet
@@ -33,7 +33,6 @@ iphone:
   version: 1.32.0
   reviews: 169
   icon: io.noone.ioswallet.jpg
-  date: 2023-07-24
   developerName: NO ONE FZCO
 
 ---

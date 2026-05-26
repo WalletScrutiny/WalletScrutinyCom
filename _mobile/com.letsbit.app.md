@@ -2,6 +2,7 @@
 wsId: letsBit
 title: 'LB Finanzas: billetera virtual'
 verdict: custodial
+date: 2023-04-07
 authors:
 - danny
 twitter: LetsBit_ok
@@ -22,7 +23,6 @@ android:
   reviews: 18
   icon: com.letsbit.app.png
   meta: removed
-  date: 2026-05-21
   website: https://lbfinanzas.com
   developerName: LB Finanzas
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 420
   icon: com.letsbit.app.jpg
   meta: ok
-  date: 2023-04-07
   website: https://www.lbfinanzas.com
   developerName: Let'sBit
 

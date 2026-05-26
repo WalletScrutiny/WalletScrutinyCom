@@ -3,6 +3,7 @@ wsId: exscudo
 title: 'Fintap: Buy Crypto. BTC, ETH'
 verdict: nosource
 meta: ok
+date: 2021-04-24
 authors:
 - kiwilamb
 - leo
@@ -26,7 +27,6 @@ android:
   version: 3.30.2738
   reviews: 49
   icon: com.exscudo.channels.png
-  date: 2024-07-15
   developerName: NIMERA LTD
 iphone:
   appId: com.exscudo.channels
@@ -36,7 +36,6 @@ iphone:
   version: 3.24.0
   reviews: 55
   icon: com.exscudo.channels.jpg
-  date: 2021-04-24
   developerName: Exscudo OU
 
 ---

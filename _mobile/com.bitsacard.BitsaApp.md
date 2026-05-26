@@ -3,6 +3,7 @@ wsId: bitsa
 title: Bitsa
 verdict: nosendreceive
 meta: ok
+date: 2021-11-02
 authors:
 - danny
 twitter: bitsa_oficial
@@ -21,7 +22,6 @@ android:
   version: 3.0.24
   reviews: 10
   icon: com.bitsacard.BitsaApp.png
-  date: 2021-11-02
   website: https://www.bitsacard.com
   developerName: bitsacard
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 3.0.24
   reviews: 82
   icon: com.bitsacard.BitsaApp.jpg
-  date: 2024-10-07
   website: https://www.bitsacard.com/en/
   developerName: BITSA
 

@@ -3,6 +3,7 @@ wsId: zeusln
 title: ZEUS Wallet
 verdict: sourceavailable
 meta: ok
+date: 2023-12-30
 authors:
 - leo
 - mohammad
@@ -43,7 +44,6 @@ android:
   reviews: 38
   icon: app.zeusln.zeus.png
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-  date: 2025-03-13
 iphone:
   appId: com.zeusln.zeus
   idd: 1456038895
@@ -52,7 +52,6 @@ iphone:
   version: v13.0.2
   reviews: 75
   icon: com.zeusln.zeus.jpg
-  date: 2023-12-30
 
 ---
 

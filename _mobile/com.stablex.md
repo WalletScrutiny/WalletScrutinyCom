@@ -2,6 +2,7 @@
 wsId: stablexKripto
 title: Stablex | Bitcoin & Kripto
 verdict: custodial
+date: 2023-06-03
 authors:
 - danny
 website: https://stablex.com.tr
@@ -21,7 +22,6 @@ android:
   version: 3.0.47
   icon: com.stablex.png
   meta: removed
-  date: 2026-05-05
   developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
 iphone:
   appId: net.stablex.app
@@ -33,7 +33,6 @@ iphone:
   reviews: 203
   icon: net.stablex.app.jpg
   meta: ok
-  date: 2023-06-03
   developerName: STABLEX KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

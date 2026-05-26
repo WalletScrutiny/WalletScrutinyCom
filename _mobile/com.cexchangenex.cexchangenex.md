@@ -3,6 +3,7 @@ wsId: Cexchangenex
 title: Cexchangenex
 verdict: custodial
 meta: removed
+date: 2023-01-11
 authors:
 - danny
 website: https://cexchangenex.com#deadLink
@@ -18,7 +19,6 @@ android:
   version: 1.1.1075
   reviews: 38
   icon: com.cexchangenex.cexchangenex.png
-  date: 2023-12-19
   developerName: Cexchangenex
 iphone:
   appId: com.cexchangenex.cexchangenex
@@ -28,7 +28,6 @@ iphone:
   version: 1.1.1075
   reviews: 5
   icon: com.cexchangenex.cexchangenex.jpg
-  date: 2023-01-11
 
 ---
 

@@ -2,6 +2,7 @@
 wsId: lcxExchange
 title: Buy Bitcoin & Crypto - LCX
 verdict: custodial
+date: 2022-06-22
 authors:
 - danny
 twitter: lcx
@@ -20,7 +21,6 @@ android:
   reviews: 39
   icon: com.lcx.app.png
   meta: ok
-  date: 2022-06-22
   website: https://lcx.com
   developerName: LCX.com
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 18
   icon: com.lcx.app.jpg
   meta: removed
-  date: 2024-11-12
   website: https://web.archive.org/web/20260116090452/https://www.lcx.com/mobile/
   developerName: LCX AG
 

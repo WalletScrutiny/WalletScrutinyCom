@@ -3,6 +3,7 @@ wsId: rWallet
 title: RWallet
 verdict: sourceavailable
 meta: removed
+date: 2023-05-17
 authors:
 - danny
 - leo
@@ -23,7 +24,6 @@ android:
   updated: 2021-06-30
   version: 2.0.1
   icon: com.rsk.rwallet.v2.png
-  date: 2024-04-03
   developerName: IoV Labs
 iphone:
   appId: com.rsk.rwallet.reactnative
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.1
   reviews: 5
   icon: com.rsk.rwallet.reactnative.jpg
-  date: 2023-05-17
   twitter: rsksmart
   developerName: IOV Labs S.A
 

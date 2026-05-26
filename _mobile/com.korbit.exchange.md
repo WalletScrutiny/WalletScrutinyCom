@@ -3,6 +3,7 @@ wsId: korbit
 title: 코빗 - 가상자산 거래소 (비트코인, 이더리움)
 verdict: custodial
 meta: ok
+date: 2021-09-10
 authors:
 - danny
 developerName: Korbit
@@ -18,7 +19,6 @@ android:
   version: 11.14.1
   reviews: 9
   icon: com.korbit.exchange.png
-  date: 2021-09-10
   website: https://www.korbit.co.kr
 iphone:
   appId: com.korbit.exchange
@@ -29,7 +29,6 @@ iphone:
   version: 11.14.1
   reviews: 629
   icon: com.korbit.exchange.jpg
-  date: 2024-10-07
   website: http://www.korbit.co.kr
 
 ---

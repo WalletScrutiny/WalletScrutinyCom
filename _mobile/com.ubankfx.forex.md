@@ -3,6 +3,7 @@ wsId: UBFXGlobal
 title: UBFX Global
 verdict: nosendreceive
 meta: removed
+date: 2021-11-10
 authors:
 - danny
 appCountry: th
@@ -16,7 +17,6 @@ android:
   updated: 2022-03-31
   version: v8.5-5457-b9fe16886
   icon: com.ubankfx.forex.png
-  date: 2022-04-25
   website: http://www.ubfx.co.uk
 iphone:
   appId: com.ubankfx.forex
@@ -25,7 +25,6 @@ iphone:
   updated: 2020-09-22
   version: 6.24.3790
   icon: com.ubankfx.forex.jpg
-  date: 2021-11-10
   website: https://www.ubfx.co.uk/
 
 ---

@@ -3,6 +3,7 @@ wsId: OneKey
 title: OneKey - Safe Crypto Wallet
 verdict: nosource
 meta: removed
+date: 2022-03-07
 authors:
 - danny
 - leo
@@ -21,7 +22,6 @@ android:
   version: 2.12.3
   reviews: 10
   icon: com.bixin.wallet.mainnet.png
-  date: 2023-01-02
   website: https://onekey.so
 iphone:
   appId: com.onekey.wallet
@@ -31,7 +31,6 @@ iphone:
   version: 2.12.2
   reviews: 18
   icon: com.onekey.wallet.jpg
-  date: 2022-03-07
   website: https://www.onekey.so
 
 ---

@@ -3,6 +3,7 @@ wsId: hashKeyMe
 title: HashKey Me - Your Web3 Wallet
 verdict: custodial
 meta: removed
+date: 2024-04-03
 authors:
 - danny
 website: https://me.hashkey.com#deadLink
@@ -23,7 +24,6 @@ android:
   version: 4.1.0
   reviews: 1
   icon: com.hashkey.me.google.png
-  date: 2025-02-04
 iphone:
   appId: com.hashkey.me
   idd: '1547228803'
@@ -33,7 +33,6 @@ iphone:
   version: 4.1.0
   reviews: 9
   icon: com.hashkey.me.jpg
-  date: 2024-04-03
 
 ---
 

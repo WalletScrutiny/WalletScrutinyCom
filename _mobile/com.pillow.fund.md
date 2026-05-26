@@ -3,6 +3,7 @@ wsId: pillowFund
 title: 'Pillow: Save. Invest. Earn.'
 verdict: custodial
 meta: removed
+date: 2023-12-19
 authors:
 - danny
 website: https://www.pillow.fund#deadLink
@@ -20,7 +21,6 @@ android:
   version: '4.0'
   reviews: 68
   icon: com.pillow.fund.png
-  date: 2023-12-19
   developerName: Pillow Fund
 iphone:
   appId: com.pillow.fund
@@ -31,7 +31,6 @@ iphone:
   version: '5.0'
   reviews: 61
   icon: com.pillow.fund.jpg
-  date: 2024-02-05
   developerName: Pillow Digital Technologies Pte Ltd
 
 ---

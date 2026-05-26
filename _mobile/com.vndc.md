@@ -2,6 +2,7 @@
 wsId: VNDCPro
 title: 'ONUS: Buy Bitcoin,ETH & Crypto'
 verdict: custodial
+date: 2021-10-10
 authors:
 - danny
 twitter: vncd_official
@@ -18,7 +19,6 @@ android:
   reviews: 1467
   icon: com.vndc.png
   meta: ok
-  date: 2021-10-10
   website: https://goonus.io
   developerName: ONUS FINANCE UAB
 iphone:
@@ -30,7 +30,6 @@ iphone:
   reviews: 1327
   icon: com.vndc.app.jpg
   meta: removed
-  date: 2025-05-30
   website: https://goonus.io/en
   developerName: ONUS Finance UAB
 

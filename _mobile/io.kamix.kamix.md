@@ -2,6 +2,7 @@
 wsId: kamixApp
 title: Kamix
 verdict: custodial
+date: 2025-08-18
 authors:
 - danny
 twitter: KamixApp
@@ -20,7 +21,6 @@ android:
   version: 3.0.336
   icon: io.kamix.kamix.png
   meta: stale
-  date: 2026-04-28
   website: https://kamix.io
   developerName: Kamix R&D
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 10
   icon: io.kamix.app.jpg
   meta: removed
-  date: 2025-08-18
   website: http://kamix.fr
   developerName: Kamix
 

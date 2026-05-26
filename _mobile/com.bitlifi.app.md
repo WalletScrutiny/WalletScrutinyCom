@@ -3,6 +3,7 @@ wsId: bitlifiApp
 title: Bitlifi
 verdict: custodial
 meta: ok
+date: 2023-11-01
 authors:
 - danny
 website: https://www.bitlifi.com
@@ -22,7 +23,6 @@ android:
   updated: 2025-12-22
   version: 1.11.5
   icon: com.bitlifi.app.png
-  date: 2023-11-01
 iphone:
   appId: com.bitlifi.app
   idd: '6448746690'
@@ -32,7 +32,6 @@ iphone:
   version: 1.11.5
   reviews: 0
   icon: com.bitlifi.app.jpg
-  date: 2024-10-07
 
 ---
 
