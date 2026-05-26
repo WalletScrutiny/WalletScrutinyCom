@@ -18,10 +18,8 @@
 {% if seo_title %}
   {% assign url_path_segments = page.url | split: "/" %}
   {% assign url_first_path_segment = url_path_segments[1] %}
-  {% if url_first_path_segment == "android" %}
-    {% assign seo_title = seo_title | append: " for Android" %}
-  {% elsif url_first_path_segment == "iphone" %}
-    {% assign seo_title = seo_title | append: " for iOS" %}
+  {% elsif url_first_path_segment == "mobile" %}
+    {% assign seo_title = seo_title | append: " for mobile" %}
   {% elsif url_first_path_segment == "desktop" %}
     {% assign seo_title = seo_title | append: " for desktop computers" %}
   {% elsif url_first_path_segment == "hardware" %}
@@ -38,7 +36,12 @@
 {% if site.og_image %}
   {% assign og_image = site.og_image | prepend: "/images/" | prepend: base_url %}
 {% endif %}
-{% if page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' or page.collection == 'desktop' %}
+{% if page.collection == 'mobile' %}
+  {% assign og_app_id = page.android.appId | default: page.iphone.appId | default: page.appId %}
+  {% if og_app_id %}
+    {% assign og_image = base_url | append: "/images/social/android/" | append: og_app_id | append: ".png" %}
+  {% endif %}
+{% elsif page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' or page.collection == 'desktop' %}
   {% assign og_image = base_url | append: "/images/social/" | append: page.collection | append: "/" | append: page.appId | append: ".png" %}
   {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: page.verdict | append: ")" %}
 {% else %}

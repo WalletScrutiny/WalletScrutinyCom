@@ -51,7 +51,7 @@
 
       // Start background sync after page is idle
       // Wait 10s on most pages, immediately on verification pages
-      {% if page.url contains "/android/" or page.url contains "/iphone/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
+      {% if page.url contains "/mobile/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
         backgroundSyncEvents();
       {% else %}
         setTimeout(() => {

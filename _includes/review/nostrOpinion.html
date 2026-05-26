@@ -2,13 +2,15 @@
     const { expertOpinions } = await import('/assets/js/nostr-opinion.js');
 </script>
 
-{% if page.url %}
+{% assign nostr_collection = include.opinionSubject | default: page.collection %}
+{% assign nostr_app_id = include.opinionAppId | default: page.appId %}
+{% if page.url and nostr_app_id %}
 <nostr-opinion
-  subject="{{ page.collection }}/{{ page.appId }}"
-  opinionHeader="******** Opinion about {{ page.title }} ({{ page.collection }})"
-  opinionFooter="[Join the conversation!](https://walletscrutiny.com/{{ page.collection }}/{{ page.appId }})"
+  subject="{{ nostr_collection }}/{{ nostr_app_id }}"
+  opinionHeader="******** Opinion about {{ page.title }} ({{ nostr_collection }})"
+  opinionFooter="[Join the conversation!](https://walletscrutiny.com/{{ nostr_collection }}/{{ nostr_app_id }}/)"
   opinionTitle="Opinion about {{ page.title }}"
-  opinionImage="https://walletscrutiny.com/images/social/{{ page.collection }}/{{ page.appId }}.png"
+  opinionImage="https://walletscrutiny.com/images/social/{{ nostr_collection }}/{{ nostr_app_id }}.png"
   opinionTags="WalletScrutiny,nostrOpinion"
   expertOpinionsConfig='{
         "headline": "Community Opinions ($$nTrusted$$/$$nAll$$)",
