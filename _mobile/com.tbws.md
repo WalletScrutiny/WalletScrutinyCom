@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-25
 authors:
 - danny
+website: https://theblackwallstreet.com
 social:
 - https://theblackwallstreet.com
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.0-prod2
   reviews: 60
   icon: com.tbws.jpg
-  website: https://theblackwallstreet.com
   developerName: The Black Wall Street Holdings, Inc.
 iphone:
   appId: com.tbws1.app

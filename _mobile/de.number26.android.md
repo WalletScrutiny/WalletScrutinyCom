@@ -6,6 +6,7 @@ meta: ok
 date: 2025-10-17
 authors:
 - danny
+website: https://n26.com/?utm_source=appstore&utm_medium=description
 twitter: n26
 social:
 - https://www.facebook.com/N26
@@ -23,7 +24,6 @@ android:
   version: '4.51'
   reviews: 2171
   icon: de.number26.android.png
-  website: https://n26.com/?utm_source=appstore&utm_medium=description
   developerName: N26 AG
 iphone:
   appId: de.no26.Number26
@@ -34,7 +34,6 @@ iphone:
   version: 4.51.1
   reviews: 11416
   icon: de.no26.Number26.jpg
-  website: https://n26.com/en-eu?utm_source=appstore&utm_medium=description
   developerName: N26 AG
 
 ---

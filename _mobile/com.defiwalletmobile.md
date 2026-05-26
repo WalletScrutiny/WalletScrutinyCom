@@ -28,7 +28,6 @@ android:
   icon: com.defiwalletmobile.png
   meta: stale
   verdict: nosource
-  website: https://slavi.io/
   developerName: Slavi Development
 iphone:
   appId: io.slavi.wallet

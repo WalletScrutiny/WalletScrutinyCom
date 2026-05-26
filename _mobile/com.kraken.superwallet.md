@@ -6,6 +6,7 @@ meta: ok
 date: 2025-02-04
 authors:
 - danny
+website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 twitter: krakenfx
 social:
@@ -28,7 +29,6 @@ android:
   version: 1.28.0 (5)
   reviews: 120
   icon: com.kraken.superwallet.png
-  website: https://kraken.com/wallet
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.superwallet.app
@@ -39,7 +39,6 @@ iphone:
   version: 1.28.1
   reviews: 1183
   icon: com.kraken.superwallet.app.jpg
-  website: https://www.kraken.com/wallet
   developerName: Kraken
 
 ---

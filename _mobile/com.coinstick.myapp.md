@@ -19,7 +19,6 @@ android:
   version: 1.0.0
   reviews: 6
   icon: com.coinstick.myapp.png
-  website: https://www.coinstick.co
   developerName: Coinstick
 
 ---

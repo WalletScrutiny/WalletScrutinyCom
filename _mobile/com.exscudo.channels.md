@@ -27,7 +27,6 @@ android:
   version: 3.30.2738
   reviews: 49
   icon: com.exscudo.channels.png
-  website: https://fintap.app
   developerName: NIMERA LTD
 iphone:
   appId: com.exscudo.channels

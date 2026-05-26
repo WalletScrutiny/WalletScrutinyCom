@@ -6,6 +6,7 @@ meta: removed
 date: 2025-05-30
 authors:
 - danny
+website: https://obsidiam.com/
 twitter: obsidiamlatam
 social:
 - https://www.facebook.com/obsidiamexchange
@@ -22,7 +23,6 @@ android:
   updated: 2024-03-22
   version: 1.6.6
   icon: com.obsidiam.android1.png
-  website: https://obsidiam.com/
   developerName: Obsidiam
 iphone:
   appId: com.obsidiam.appstore

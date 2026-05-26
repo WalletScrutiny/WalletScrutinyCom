@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-18
 authors:
 - danny
+website: https://haqabi.com
 twitter: HaqabiHQ
 redirect_from:
 - /android/com.haqabi.mobilewallet/
@@ -16,7 +17,6 @@ android:
   updated: 2025-07-16
   version: '1.21'
   icon: com.haqabi.mobilewallet.png
-  website: https://haqabi.com
   developerName: Haqqex Ltd
 iphone:
   appId: com.haqabi.mobile-wallet

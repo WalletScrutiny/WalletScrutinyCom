@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-15
 authors:
 - danny
+website: https://onto.app/
 twitter: ONTOWallet
 features:
 - fingerprint
@@ -22,7 +23,6 @@ android:
   version: 4.10.1
   reviews: 128
   icon: com.github.ontio.onto.png
-  website: https://onto.app/
   developerName: Ontology Foundation Ltd.
   repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 4.10.1
   reviews: 88
   icon: com.ontology.foundation.onto.jpg
-  website: https://www.onto.app
   developerName: Ontology Foundation
 
 ---

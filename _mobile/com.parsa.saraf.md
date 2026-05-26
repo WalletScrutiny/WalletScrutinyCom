@@ -14,7 +14,6 @@ android:
   version: 511.0.0
   reviews: 405
   icon: com.parsa.saraf.png
-  website: https://saraf.app
   developerName: saraf company
 
 ---

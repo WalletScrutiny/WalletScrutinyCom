@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://capex.mn/
 social:
 - https://www.facebook.com/capex.mn
 - https://www.instagram.com/capex.mn
@@ -20,7 +21,6 @@ android:
   updated: 2023-09-21
   version: 2.0.2
   icon: com.capex.png
-  website: https://capex.mn/
   developerName: Dataland LLC
 iphone:
   appId: com.capexcapital.capex
@@ -31,7 +31,6 @@ iphone:
   version: 2.0.2
   reviews: 0
   icon: com.capexcapital.capex.jpg
-  website: https://capex.mn
   developerName: Capex capital LLC
 
 ---

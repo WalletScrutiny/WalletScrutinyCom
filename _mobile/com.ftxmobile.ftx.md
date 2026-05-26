@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - leo
+website: https://ftx.com/
 twitter: FTX_Official
 social:
 - https://www.facebook.com/ftx.official
@@ -20,7 +21,6 @@ android:
   version: 2.0.8
   reviews: 525
   icon: com.ftxmobile.ftx.png
-  website: https://ftx.com/
 iphone:
   appId: org.reactjs.native.example.FTXMobile.FTX
   idd: 1512374471
@@ -29,7 +29,6 @@ iphone:
   version: 2.0.8
   reviews: 330
   icon: org.reactjs.native.example.FTXMobile.FTX.jpg
-  website: https://ftx.com
 
 ---
 

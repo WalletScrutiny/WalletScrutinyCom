@@ -13,7 +13,6 @@ android:
   updated: 2026-05-18
   version: 0.1.22
   icon: com.cypherock.cysync.png
-  website: https://www.cypherock.com/
   developerName: Cypherock
 
 ---

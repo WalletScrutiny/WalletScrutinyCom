@@ -23,7 +23,6 @@ android:
   version: 1.20.0
   reviews: 233
   icon: com.crypto.ab.wallet.app.png
-  website: https://alicebob.com/
   developerName: AliceBob – Secure Crypto Wallet
 iphone:
   appId: com.ab.crypto.wallet.app

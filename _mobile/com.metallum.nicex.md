@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: http://www.nicex.com
 twitter: NiceXExchange
 social:
 - https://www.facebook.com/NiceXExchange
@@ -20,7 +21,6 @@ android:
   updated: 2024-08-27
   version: 2.3.5
   icon: com.metallum.nicex.png
-  website: http://www.nicex.com
   developerName: H-BIT d.o.o.
 iphone:
   appId: com.nicehash.NiceX
@@ -31,7 +31,6 @@ iphone:
   version: 1.5.2
   reviews: 1
   icon: com.nicehash.NiceX.jpg
-  website: https://www.nicex.com
   developerName: H-BIT, d.o.o.
 
 ---

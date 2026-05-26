@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-04
 authors:
 - danny
+website: https://blockchainwebservices.com.br
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
@@ -20,7 +21,6 @@ android:
   updated: 2024-03-05
   version: 3.12.48
   icon: com.bitfyapp.png
-  website: https://blockchainwebservices.com.br
   developerName: Bitfy
 iphone:
   appId: app.bitfy
@@ -31,7 +31,6 @@ iphone:
   version: 3.12.45
   reviews: 117
   icon: app.bitfy.jpg
-  website: https://bitfy.app
   developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA
 
 ---

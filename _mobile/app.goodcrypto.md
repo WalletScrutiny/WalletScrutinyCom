@@ -22,7 +22,6 @@ android:
   version: 2.5.0
   reviews: 151
   icon: app.goodcrypto.png
-  website: https://goodcrypto.app
   developerName: GoodCrypto.App
 
 ---

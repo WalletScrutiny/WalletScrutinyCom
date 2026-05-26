@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - leo
+website: https://www.counos.io
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform
@@ -21,7 +22,6 @@ android:
   version: 1.9.94
   reviews: 21
   icon: com.counos.png
-  website: https://www.counos.io
   developerName: ZeroCash
 iphone:
   appId: com.counos.wallet
@@ -32,7 +32,6 @@ iphone:
   version: 1.9.94
   reviews: 22
   icon: com.counos.wallet.jpg
-  website: https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
   developerName: CSC Int GmbH
 
 ---

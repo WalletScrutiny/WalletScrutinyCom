@@ -13,7 +13,6 @@ android:
   updated: 2026-04-28
   version: 1.18.0
   icon: mobile.lmex.io.png
-  website: https://www.lmex.io/
   developerName: LMEX Limited
 
 ---

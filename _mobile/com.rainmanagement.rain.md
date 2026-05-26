@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://rain.com
 twitter: rainfinancial
 social:
 - https://www.linkedin.com/company/rainfinancial
@@ -22,7 +23,6 @@ android:
   version: 3.10.8
   reviews: 3337
   icon: com.rainmanagement.rain.png
-  website: https://rain.com
   developerName: Rain Trading
 iphone:
   appId: com.rainmanagement.rain
@@ -32,7 +32,6 @@ iphone:
   version: 3.9.7
   reviews: 2898
   icon: com.rainmanagement.rain.jpg
-  website: https://www.rain.bh/
   developerName: Rain Management
 
 ---

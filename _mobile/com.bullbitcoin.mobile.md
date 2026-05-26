@@ -33,7 +33,6 @@ android:
   version: 6.10.1
   reviews: 7
   icon: com.bullbitcoin.mobile.png
-  website: http://bullbitcoin.com
   developerName: Bull Bitcoin
 
 ---

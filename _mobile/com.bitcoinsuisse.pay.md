@@ -13,7 +13,6 @@ android:
   updated: 2023-06-05
   version: 1.3.1
   icon: com.bitcoinsuisse.pay.png
-  website: https://www.bitcoinsuisse.com/
   developerName: Bitcoin Suisse AG
 
 ---

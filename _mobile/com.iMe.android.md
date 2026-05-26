@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-07
 authors:
 - danny
+website: https://www.imem.app
 twitter: ImePlatform
 social:
 - https://t.me/ime_en
@@ -23,7 +24,6 @@ android:
   version: 12.3.8
   reviews: 824
   icon: com.iMe.android.png
-  website: https://www.imem.app
   developerName: IME LAB - FZCO
   repository: https://github.com/imemessenger/iMe-Android
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 12.2.6
   reviews: 8384
   icon: com.olcorporation.olai.jpg
-  website: https://imem.app/
   developerName: IME LAB - FZCO
 
 ---

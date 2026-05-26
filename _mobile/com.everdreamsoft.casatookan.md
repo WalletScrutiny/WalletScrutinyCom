@@ -21,7 +21,6 @@ android:
   version: 1.2.4
   reviews: 6
   icon: com.everdreamsoft.casatookan.png
-  website: http://everdreamsoft.com
   developerName: EverdreamSoft
 
 ---

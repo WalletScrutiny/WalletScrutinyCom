@@ -7,6 +7,7 @@ date: 2021-09-03
 authors:
 - leo
 - danny
+website: http://www.satoshitango.com
 twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
@@ -22,7 +23,6 @@ android:
   version: 5.11.0
   reviews: 45
   icon: com.SatoshiTango.SatoshiTango.png
-  website: http://www.satoshitango.com
   developerName: Satoshi Tango
 iphone:
   appId: com.SatoshiTango.SatoshiTango
@@ -33,7 +33,6 @@ iphone:
   version: 5.11.0
   reviews: 2
   icon: com.SatoshiTango.SatoshiTango.jpg
-  website: https://www.satoshitango.com/
   developerName: Satoshi Tango
 
 ---

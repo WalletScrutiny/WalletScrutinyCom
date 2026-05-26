@@ -6,6 +6,7 @@ meta: ok
 date: 2025-05-22
 authors:
 - danny
+website: https://lava.xyz
 twitter: lava_xyz
 redirect_from:
 - /android/com.lavamobile/
@@ -18,7 +19,6 @@ android:
   version: 3.6.0
   reviews: 9
   icon: com.lavamobile.png
-  website: https://lava.xyz
   developerName: Lava Global Inc.
 iphone:
   appId: xyz.lava.mobile

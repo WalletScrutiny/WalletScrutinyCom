@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-03
 authors:
 - danny
+website: http://bitazza.com/
 twitter: bitazzaofficial
 social:
 - https://www.linkedin.com/company/bitazza
@@ -22,7 +23,6 @@ android:
   version: 4.8.1
   reviews: 2511
   icon: com.bitazza.android.png
-  website: http://bitazza.com/
   developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.ios
@@ -32,7 +32,6 @@ iphone:
   version: 4.4.1
   reviews: 2388
   icon: com.bitazza.ios.jpg
-  website: https://www.bitazza.com
   developerName: Bitazza Company Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-20
 authors:
 - danny
+website: https://www.rehive.com
 redirect_from:
 - /android/com.rehivewallet/
 - /iphone/com.rehive.wallet/
@@ -16,7 +17,6 @@ android:
   updated: 2026-01-07
   version: 7.11.36
   icon: com.rehivewallet.png
-  website: https://www.rehive.com
   developerName: Rehive
 iphone:
   appId: com.rehive.wallet
@@ -27,7 +27,6 @@ iphone:
   version: 7.11.36
   reviews: 4
   icon: com.rehive.wallet.jpg
-  website: https://rehivepay.com
   developerName: Rehive
 
 ---

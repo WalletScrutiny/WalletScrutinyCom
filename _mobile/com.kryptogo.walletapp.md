@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-28
 authors:
 - danny
+website: https://kryptogo.com
 social:
 - https://www.facebook.com/kryptogo
 - https://www.linkedin.com/company/kryptogo/
@@ -23,7 +24,6 @@ android:
   version: 3.94.0
   reviews: 3
   icon: com.kryptogo.walletapp.png
-  website: https://kryptogo.com
   developerName: KryptoGO
   twitter: kryptogo_
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 3.93.0
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
-  website: https://kryptogo.com/wallet
   developerName: KryptoGO
 
 ---

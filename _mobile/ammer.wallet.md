@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-20
 authors:
 - danny
+website: https://ammer.cards/
 twitter: AmmerCards
 features:
 - companion
@@ -21,7 +22,6 @@ android:
   version: 1.8.1
   reviews: 1
   icon: ammer.wallet.png
-  website: https://ammer.cards/
   developerName: Ammer Technologies AG
 iphone:
   appId: io.trustody.wallet
@@ -32,7 +32,6 @@ iphone:
   version: '9.0'
   reviews: 0
   icon: io.trustody.wallet.jpg
-  website: https://ammer.cards
   developerName: Ammer Technologies AG
 
 ---

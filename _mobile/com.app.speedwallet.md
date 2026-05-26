@@ -26,7 +26,6 @@ android:
   version: 2.5.0.0.0.1.fp.gps
   reviews: 1313
   icon: com.app.speedwallet.png
-  website: https://www.speed.app/
   developerName: Speed1 Inc
 iphone:
   appId: com.app.speed1

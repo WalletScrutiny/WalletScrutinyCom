@@ -26,7 +26,6 @@ android:
   reviews: 1
   icon: io.puravidabitcoin.app.png
   meta: fewusers
-  website: https://puravidabitcoin.io
   developerName: Pura Vida Technologies
 iphone:
   appId: io.puravidabitcoin.app

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-01-13
 authors:
 - danny
+website: https://www.xverse.app/
 twitter: secretkeylabs
 features:
 - buyWithCC
@@ -27,7 +28,6 @@ android:
   version: 2.3.3
   reviews: 1098
   icon: com.secretkeylabs.xverse.png
-  website: https://www.xverse.app/
   developerName: Secret Key Labs
 iphone:
   appId: com.secretkeylabs.xverse
@@ -38,7 +38,6 @@ iphone:
   version: v2.3.3
   reviews: 1
   icon: com.secretkeylabs.xverse.jpg
-  website: https://twitter.com/xverse
   developerName: Secret Key Labs
 
 ---

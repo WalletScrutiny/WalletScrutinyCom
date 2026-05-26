@@ -12,7 +12,6 @@ android:
   updated: 2026-04-17
   version: 1.10.22
   icon: com.unicoin.dcx.limited.abcc.wallet.png
-  website: https://abcc-plus.com/
   developerName: ABCC Tech
 
 ---

@@ -6,6 +6,7 @@ meta: stale
 date: 2025-11-26
 authors:
 - danny
+website: https://alxwallet.com
 redirect_from:
 - /android/com.prodoge.prodoge/
 - /iphone/com.prodoge.prodoge/
@@ -17,7 +18,6 @@ android:
   version: '3.36'
   reviews: 5
   icon: com.prodoge.prodoge.png
-  website: https://alxwallet.com
   developerName: ALXWallet.com
 iphone:
   appId: com.prodoge.prodoge

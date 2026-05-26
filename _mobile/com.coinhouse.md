@@ -16,7 +16,6 @@ android:
   updated: 2026-05-21
   version: 5.5.0
   icon: com.coinhouse.png
-  website: https://www.coinhouse.com
   developerName: Coinhouse
 
 ---

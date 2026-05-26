@@ -16,7 +16,6 @@ android:
   version: 2.9.1
   reviews: 172
   icon: com.btcdana.online.png
-  website: https://www.btcdana.com/
   developerName: DanaByte Trading
 
 ---

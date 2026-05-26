@@ -15,7 +15,6 @@ android:
   updated: 2025-09-22
   version: 2.1.20
   icon: com.prod.aspen.png
-  website: https://www.aspendigital.co/
   developerName: Aspen Digital
 
 ---

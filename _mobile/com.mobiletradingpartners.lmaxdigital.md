@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-04
 authors:
 - danny
+website: http://www.lmax.com/mobile
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
@@ -21,7 +22,6 @@ android:
   version: 5.1.80
   reviews: 2
   icon: com.mobiletradingpartners.lmaxdigital.png
-  website: http://www.lmax.com/mobile
   developerName: LMAX Digital Broker Limited
 iphone:
   appId: com.mobiletradingpartners.lmaxdigital
@@ -32,7 +32,6 @@ iphone:
   version: 5.1.80
   reviews: 0
   icon: com.mobiletradingpartners.lmaxdigital.jpg
-  website: https://www.lmax.com/mobile
   developerName: LMAX DIGITAL EXCHANGE LIMITED
 
 ---

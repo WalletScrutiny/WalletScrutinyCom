@@ -22,7 +22,6 @@ android:
   version: 1.12.3
   icon: com.bit.eu.png
   meta: obsolete
-  website: http://www.biteeu.com
   developerName: INTEBIX LTD
   twitter: BiteeuExchange
 iphone:

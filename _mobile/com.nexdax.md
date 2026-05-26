@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-19
 authors:
 - danny
+website: https://nexdax.com
 twitter: nexdax_exchange
 social:
 - https://www.facebook.com/nexdax
@@ -22,7 +23,6 @@ android:
   version: '3.0'
   icon: com.nexdax.png
   meta: ok
-  website: https://nexdax.com
   developerName: NexDAX Technology Company Limited
 iphone:
   appId: com.nexdax.Nexdax
@@ -34,7 +34,6 @@ iphone:
   reviews: 1
   icon: com.nexdax.Nexdax.jpg
   meta: obsolete
-  website: https://nexdax.com/
   developerName: Nexdax Technology Company Limited
 
 ---

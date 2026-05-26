@@ -6,6 +6,7 @@ meta: ok
 date: 2025-08-29
 authors:
 - danny
+website: https://coinplug.ng
 twitter: trycoinplug
 social:
 - https://www.instagram.com/trycoinplug
@@ -20,7 +21,6 @@ android:
   version: 2.1.1
   reviews: 5
   icon: app.coinplug.jpg
-  website: https://coinplug.ng
   developerName: CoinPlug Digitals LTD
 iphone:
   appId: app.coinplug.ng

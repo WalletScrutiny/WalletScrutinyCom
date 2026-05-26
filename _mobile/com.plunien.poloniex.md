@@ -7,6 +7,7 @@ date: 2020-05-29
 authors:
 - leo
 - danny
+website: https://support.poloniex.com/
 twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex
@@ -24,7 +25,6 @@ android:
   reviews: 241
   icon: com.plunien.poloniex.png
   meta: ok
-  website: https://support.poloniex.com/
   developerName: poloniex
 iphone:
   appId: com.plunien.app.Poloniex
@@ -35,7 +35,6 @@ iphone:
   reviews: 2030
   icon: com.plunien.app.Poloniex.jpg
   meta: removed
-  website: https://www.poloniex.com
   developerName: Polo Digital Assets, Ltd
 
 ---

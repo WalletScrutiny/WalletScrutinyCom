@@ -7,6 +7,7 @@ date: 2023-11-22
 authors:
 - leo
 - danny
+website: https://atomicwallet.io
 twitter: atomicwallet
 social:
 - https://www.facebook.com/atomicwallet
@@ -21,7 +22,6 @@ android:
   version: 1.41.5
   reviews: 5834
   icon: io.atomicwallet.png
-  website: https://atomicwallet.io
   developerName: Atomic Wallet
 iphone:
   appId: atomicwallet
@@ -31,7 +31,6 @@ iphone:
   version: 1.41.5
   reviews: 18835
   icon: atomicwallet.jpg
-  website: https://atomicwallet.io/
   developerName: ATOMIC PROTOCOL SYSTEMS OÜ
 
 ---

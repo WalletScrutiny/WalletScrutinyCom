@@ -26,7 +26,6 @@ android:
   version: 8.108.1
   reviews: 1407
   icon: co.bitx.android.wallet.jpg
-  website: https://www.luno.com
   developerName: Luno Group Holdings Ltd
 iphone:
   appId: za.co.Bitx
@@ -36,7 +35,6 @@ iphone:
   version: 8.108.2
   reviews: 3633
   icon: za.co.Bitx.jpg
-  website: https://www.luno.com
   developerName: Luno Pte Ltd
 
 ---

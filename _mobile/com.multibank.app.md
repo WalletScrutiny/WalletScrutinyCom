@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-20
 authors:
 - danny
+website: https://mb.io/
 twitter: multibankgroup
 social:
 - https://www.linkedin.com/company/multibankgroup
@@ -25,7 +26,6 @@ android:
   version: 26.0.25
   reviews: 7
   icon: com.multibank.app.png
-  website: https://mb.io/
   developerName: MB.IO
 iphone:
   appId: com.mexdigital.app

@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-28
 authors:
 - danny
+website: https://www.bitgin.net/
 redirect_from:
 - /android/com.bitgin.app/
 - /iphone/net.bitgin/
@@ -25,7 +26,6 @@ iphone:
   version: 2.2.2
   reviews: 19
   icon: net.bitgin.jpg
-  website: https://www.bitgin.net/
   developerName: 畢竟科技股份有限公司
 
 ---

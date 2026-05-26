@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://watt.me
 twitter: watt_me_token
 social:
 - https://t.me/watt_me
@@ -19,7 +20,6 @@ android:
   updated: 2022-06-11
   version: 1.28.0
   icon: watt.wallet.png
-  website: https://watt.me
   developerName: wise.win
 iphone:
   appId: watt.wallet

@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-04-01
 authors:
 - leo
+website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
 twitter: BRDHQ
 social:
@@ -23,7 +24,6 @@ android:
   reviews: 1433
   icon: com.breadwallet.jpg
   meta: removed
-  website: https://brd.com
   developerName: breadwallet
 iphone:
   appId: org.voisine.breadwallet
@@ -34,7 +34,6 @@ iphone:
   reviews: 12182
   icon: org.voisine.breadwallet.jpg
   meta: obsolete
-  website: https://brd.com/
   developerName: breadwallet LLC
 
 ---

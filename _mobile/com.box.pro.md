@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-10-23
 authors:
 - danny
+website: https://www.bibox.com
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange
@@ -23,7 +24,6 @@ android:
   reviews: 39
   icon: com.box.pro.png
   meta: removed
-  website: https://www.bibox.com
   developerName: Bibox
 iphone:
   appId: com.biboxpro.release
@@ -35,7 +35,6 @@ iphone:
   reviews: 55
   icon: com.biboxpro.release.jpg
   meta: obsolete
-  website: https://www.bibox.pro
   developerName: Bibox Group Holdings Limited
 
 ---

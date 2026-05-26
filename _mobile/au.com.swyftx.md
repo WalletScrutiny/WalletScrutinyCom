@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-11
 authors:
 - danny
+website: https://swyftx.com/
 twitter: swyftxau
 social:
 - https://www.facebook.com/swyftx
@@ -25,7 +26,6 @@ android:
   updated: 2026-05-20
   version: 2.8.48
   icon: au.com.swyftx.png
-  website: https://swyftx.com/
   developerName: Swyftx Pty Ltd
 iphone:
   appId: au.com.swyftx.ios
@@ -36,7 +36,6 @@ iphone:
   version: 2.8.48
   reviews: 6035
   icon: au.com.swyftx.ios.jpg
-  website: https://swyftx.com
   developerName: Swyftx Pty Ltd
 
 ---

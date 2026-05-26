@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.coinmama.com/
 twitter: coinmama
 social:
 - https://www.linkedin.com/company/coinmama
@@ -23,7 +24,6 @@ android:
   version: 1.03.02
   reviews: 18
   icon: com.coinmama.png
-  website: https://www.coinmama.com/
   developerName: Coinmama
 iphone:
   appId: com.coinmama.coinmama
@@ -34,7 +34,6 @@ iphone:
   version: 1.3.0
   reviews: 28
   icon: com.coinmama.coinmama.jpg
-  website: https://web.archive.org/web/20251229095124/https://www.coinmama.com/coinmama-wallet
   developerName: Cmama Limited
 
 ---

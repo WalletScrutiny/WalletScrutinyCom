@@ -6,6 +6,7 @@ meta: removed
 date: 2021-11-15
 authors:
 - danny
+website: https://sovereignwallet.network/
 twitter: MUIcommunity
 social:
 - https://www.linkedin.com/company/metamui
@@ -22,7 +23,6 @@ android:
   version: 1.18.0
   reviews: 33
   icon: exchange.sovereignwallet.mui.png
-  website: https://sovereignwallet.network/
 iphone:
   appId: exchange.sovereignwallet.mui
   idd: 1351625320
@@ -31,7 +31,6 @@ iphone:
   version: 1.18.0
   reviews: 7
   icon: exchange.sovereignwallet.mui.jpg
-  website: https://www.sovereignwallet.network
 
 ---
 

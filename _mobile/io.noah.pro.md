@@ -17,7 +17,6 @@ android:
   version: 1.2.8
   reviews: 17
   icon: io.noah.pro.png
-  website: https://www.bitradex.com/
   developerName: bitradex
 
 ---

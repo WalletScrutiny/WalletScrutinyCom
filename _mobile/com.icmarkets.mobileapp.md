@@ -6,6 +6,7 @@ meta: obsolete
 date: 2024-05-30
 authors:
 - danny
+website: https://ic.com
 twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets
@@ -21,7 +22,6 @@ android:
   version: '2.0'
   reviews: 11
   icon: com.icmarkets.mobileapp.png
-  website: https://ic.com
   developerName: Raw Trading Ltd
 iphone:
   appId: com.ICMarkets.ICMarkets-app

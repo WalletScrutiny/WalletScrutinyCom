@@ -6,6 +6,7 @@ meta: removed
 date: 2025-01-27
 authors:
 - danny
+website: https://mutinywallet.com#deadLink
 repository: https://github.com/MutinyWallet/mutiny-web
 twitter: MutinyWallet
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.8.0
   reviews: 5
   icon: com.mutinywallet.mutinywallet.png
-  website: https://mutinywallet.com#deadLink
   developerName: Mutiny Wallet
 iphone:
   appId: com.mutinywallet.mutiny
@@ -30,7 +30,6 @@ iphone:
   version: 1.8.0
   reviews: 18
   icon: com.mutinywallet.mutiny.jpg
-  website: https://web.archive.org/web/20250321052421/https://www.mutinywallet.com/
   developerName: Mutiny Wallet, Inc.
 
 ---

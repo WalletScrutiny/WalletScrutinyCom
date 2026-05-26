@@ -18,7 +18,6 @@ android:
   version: 0.4.4
   icon: com.wallet.logos.png
   meta: ok
-  website: https://logos-foundation.org/logos
   developerName: Logos Foundation PTE. LTD.
 iphone:
   appId: com.wallet.logos

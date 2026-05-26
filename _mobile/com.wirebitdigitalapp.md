@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-11-30
 authors:
 - danny
+website: https://wirebit.com/
 social:
 - https://www.facebook.com/wirebitdigital
 - https://www.instagram.com/wirebitdigital
@@ -20,7 +21,6 @@ android:
   version: 1.12.4
   icon: com.wirebitdigitalapp.png
   meta: removed
-  website: https://wirebit.com/
   developerName: Wirebit S.A. de C.V.
 iphone:
   appId: wirebit.digital.app

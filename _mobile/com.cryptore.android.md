@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-19
 authors:
 - danny
+website: https://coinlord.org/
 twitter: coinlord_trade
 social:
 - https://www.facebook.com/coinlordtradee
@@ -24,7 +25,6 @@ android:
   version: 1.2.2
   reviews: 5
   icon: com.cryptore.android.jpg
-  website: https://coinlord.org/
   developerName: Sanatan Technologies
 iphone:
   appId: com.cryptore.nine99

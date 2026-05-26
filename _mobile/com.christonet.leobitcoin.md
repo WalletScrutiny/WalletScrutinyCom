@@ -13,7 +13,6 @@ android:
   updated: 2023-07-17
   version: '1.0'
   icon: com.christonet.leobitcoin.png
-  website: https://leobitcoin.com/
   developerName: Unex
 
 ---

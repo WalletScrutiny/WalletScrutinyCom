@@ -24,7 +24,6 @@ android:
   version: 1.2.5
   icon: com.unionex.exchange.png
   meta: fewusers
-  website: https://unionex.com/
   developerName: UnionEx
 iphone:
   appId: com.unionex.coin

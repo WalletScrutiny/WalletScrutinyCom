@@ -6,6 +6,7 @@ meta: removed
 date: 2024-12-15
 authors:
 - danny
+website: https://cos-in.com
 twitter: Cri_Vivranium
 social:
 - https://www.facebook.com/cosmeta.us
@@ -22,7 +23,6 @@ android:
   version: 2.0.0
   reviews: 14
   icon: network.cri.criwallet.jpg
-  website: https://cos-in.com
   developerName: COSMETA, INC.
 iphone:
   appId: network.cri.criwallet
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.0
   reviews: 14
   icon: network.cri.criwallet.jpg
-  website: https://cos-in.com/
   developerName: COSMETA Inc.
 
 ---

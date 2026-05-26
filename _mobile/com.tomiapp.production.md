@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-19
 authors:
 - danny
+website: https://tomi.com
 twitter: tomipioneers
 social:
 - https://discord.com/invite/tomi
@@ -24,7 +25,6 @@ android:
   version: '267.0'
   reviews: 4
   icon: com.tomiapp.production.png
-  website: https://tomi.com
   developerName: tomi.com
 iphone:
   appId: com.tomiapps.production

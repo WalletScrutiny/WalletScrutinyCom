@@ -7,6 +7,7 @@ date: 2024-07-17
 authors:
 - leo
 - danny
+website: http://keywallet.co.kr/en/
 social:
 - https://www.linkedin.com/company/quickx
 - https://www.facebook.com/quickxprotocol
@@ -26,7 +27,6 @@ android:
   version: 3.0.60
   reviews: 16
   icon: kr.co.keypair.keywalletTouch.png
-  website: http://keywallet.co.kr/en/
   developerName: Keypair Co., Ltd.
 iphone:
   appId: kr.co.keypair.keywalletTouchiOS
@@ -36,7 +36,6 @@ iphone:
   version: 3.0.59
   reviews: 0
   icon: kr.co.keypair.keywalletTouchiOS.jpg
-  website: http://keywallet.co.kr
   developerName: Keypair
   twitter: quickxprotocol
 

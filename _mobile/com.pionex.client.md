@@ -20,7 +20,6 @@ android:
   reviews: 560
   icon: com.pionex.client.jpg
   meta: ok
-  website: https://www.pionex.com
   developerName: Pionex
 iphone:
   appId: org.pionex

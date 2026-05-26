@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-10
 authors:
 - danny
+website: https://vent.africa
 twitter: ventafricaHQ
 social:
 - https://t.me/ventafrica
@@ -22,7 +23,6 @@ android:
   reviews: 10
   icon: com.vent.app.png
   meta: ok
-  website: https://vent.africa
   developerName: Vent Comm & Tech LTD
 iphone:
   appId: com.ventafrica.app

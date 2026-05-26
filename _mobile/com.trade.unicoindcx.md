@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-04-03
 authors:
 - danny
+website: https://unicoindcx.com/
 twitter: Unicoin5
 social:
 - https://www.facebook.com/unicoindcx
@@ -22,7 +23,6 @@ android:
   version: 2.0.0.1
   icon: com.trade.unicoindcx.png
   meta: removed
-  website: https://unicoindcx.com/
   developerName: Captain Infotech LLC
 iphone:
   appId: com.unicoindcx.iphoneunicoindcx

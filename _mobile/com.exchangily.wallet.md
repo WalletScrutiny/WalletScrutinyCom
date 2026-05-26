@@ -25,7 +25,6 @@ android:
   icon: com.exchangily.wallet.png
   meta: obsolete
   verdict: wip
-  website: https://exchangily.com
   developerName: Exchangily LLC
 iphone:
   appId: com.exchangily.app

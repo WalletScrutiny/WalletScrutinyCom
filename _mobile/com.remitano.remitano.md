@@ -26,7 +26,6 @@ android:
   version: 8.8.6
   reviews: 514
   icon: com.remitano.remitano.jpg
-  website: https://remitano.com
   developerName: Remitano
 iphone:
   appId: com.remitano.remitano

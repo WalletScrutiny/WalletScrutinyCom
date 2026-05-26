@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-11
 authors:
 - leo
+website: https://lykke.com#deadLink
 twitter: Lykke
 social:
 - https://www.linkedin.com/company/lykke
@@ -23,7 +24,6 @@ android:
   version: 13.1.1
   reviews: 18
   icon: com.lykkex.LykkeWallet.png
-  website: https://lykke.com#deadLink
   developerName: Lykke
 iphone:
   appId: com.lykkex.Lykke-Wallet
@@ -33,7 +33,6 @@ iphone:
   version: 7.45.0
   reviews: 32
   icon: com.lykkex.Lykke-Wallet.jpg
-  website: https://web.archive.org/web/20231207135142/https://www.lykke.com/wallet
   developerName: Lykke Corp
 
 ---

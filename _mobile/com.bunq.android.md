@@ -6,6 +6,7 @@ meta: ok
 date: 2025-08-28
 authors:
 - danny
+website: http://www.bunq.com
 twitter: bunq
 social:
 - https://www.linkedin.com/company/bunq
@@ -23,7 +24,6 @@ android:
   version: 31.4.1
   reviews: 230
   icon: com.bunq.android.png
-  website: http://www.bunq.com
   developerName: bunq
 iphone:
   appId: com.bunq.ios
@@ -34,7 +34,6 @@ iphone:
   version: 31.4.0
   reviews: 13778
   icon: com.bunq.ios.jpg
-  website: https://www.bunq.com
   developerName: bunq
 
 ---

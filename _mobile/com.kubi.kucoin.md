@@ -6,6 +6,7 @@ meta: ok
 date: 2021-02-09
 authors:
 - leo
+website: https://www.kucoin.com
 twitter: KuCoinCom
 social:
 - https://www.linkedin.com/company/kucoin
@@ -23,7 +24,6 @@ android:
   reviews: 5032
   icon: com.kubi.kucoin.jpg
   meta: ok
-  website: https://www.kucoin.com
   developerName: Kugame Global Limited
 iphone:
   appId: com.kucoin.KuCoin.iOS

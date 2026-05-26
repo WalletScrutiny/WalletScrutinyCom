@@ -20,7 +20,6 @@ android:
   version: 1.2.6
   reviews: 5
   icon: io.hexn.mobile.png
-  website: https://hexn.io
   developerName: NuzlTech Limited
 
 ---

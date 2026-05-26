@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-11-13
 authors:
 - danny
+website: https://www.bitopro.com
 twitter: BitoEX_Official
 redirect_from:
 - /android/com.bitoex.bitopronew/
@@ -17,7 +18,6 @@ android:
   version: 1.52.9
   icon: com.bitoex.bitopronew.png
   meta: removed
-  website: https://www.bitopro.com
   developerName: BitoPro Technology CO., LTD.
 iphone:
   appId: com.bitoex.bitopronew
@@ -29,7 +29,6 @@ iphone:
   reviews: 4751
   icon: com.bitoex.bitopronew.jpg
   meta: ok
-  website: http://taplink.cc/bitogroup
   developerName: BitoPro Technology Co., Ltd.
 
 ---

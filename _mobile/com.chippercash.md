@@ -20,7 +20,6 @@ android:
   version: 1.151.0
   reviews: 3267
   icon: com.chippercash.png
-  website: https://chippercash.com
   developerName: Critical Ideas, Inc.
 
 ---

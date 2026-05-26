@@ -13,7 +13,6 @@ android:
   updated: 2025-05-12
   version: '3.1'
   icon: com.dcctrading.co.onetapexc.png
-  website: https://onetapexc.com#deadLink
   developerName: Tradingly AI
 
 ---

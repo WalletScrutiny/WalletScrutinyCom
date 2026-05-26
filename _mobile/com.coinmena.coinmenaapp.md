@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-10
 authors:
 - danny
+website: http://coinmena.com
 twitter: Coinmena
 social:
 - https://www.linkedin.com/company/coinmena
@@ -22,7 +23,6 @@ android:
   version: 3.6.0
   reviews: 55
   icon: com.coinmena.coinmenaapp.png
-  website: http://coinmena.com
   developerName: CoinMENA
 iphone:
   appId: com.coinmena.coinmenaapp
@@ -32,7 +32,6 @@ iphone:
   version: 3.5.0
   reviews: 14
   icon: com.coinmena.coinmenaapp.jpg
-  website: https://www.coinmena.com/
   developerName: CoinMENA
 
 ---

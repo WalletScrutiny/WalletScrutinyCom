@@ -6,6 +6,7 @@ meta: removed
 date: 2023-03-21
 authors:
 - danny
+website: http://www.kikitrade.com#deadLink
 twitter: KikitradeHQ
 social:
 - https://www.linkedin.com/company/kikitrade
@@ -21,7 +22,6 @@ android:
   updated: 2024-05-29
   version: 6.0.20
   icon: com.kikitrade.png
-  website: http://www.kikitrade.com#deadLink
   developerName: Kikitrade Technologies Limited
 iphone:
   appId: org.evg.kikitrade
@@ -31,7 +31,6 @@ iphone:
   version: 5.0.02
   reviews: 10
   icon: org.evg.kikitrade.jpg
-  website: https://www.kikitrade.com#deadLink
 
 ---
 

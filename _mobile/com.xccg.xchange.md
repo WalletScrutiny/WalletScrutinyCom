@@ -6,6 +6,7 @@ meta: removed
 date: 2024-12-23
 authors:
 - danny
+website: https://xchange.ltd
 twitter: XchangeO
 social:
 - https://vk.com/xchange_cc
@@ -21,7 +22,6 @@ android:
   updated: 2024-08-15
   version: 4.1.1
   icon: com.xccg.xchange.jpg
-  website: https://xchange.ltd
   developerName: natamityaeva80
 iphone:
   appId: com.xchangecapital.xchange

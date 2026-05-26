@@ -14,7 +14,6 @@ android:
   updated: 2025-12-30
   version: VARY
   icon: com.paywithflash.flash_wallet.beta.png
-  website: https://paywithflash.com
   developerName: Flash Lightning Solutions
 
 ---

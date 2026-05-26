@@ -6,6 +6,7 @@ meta: ok
 date: 2025-07-21
 authors:
 - danny
+website: https://keplr.app
 twitter: keplrwallet
 redirect_from:
 - /android/com.chainapsis.keplr/
@@ -18,7 +19,6 @@ android:
   version: 2.1.198
   reviews: 203
   icon: com.chainapsis.keplr.png
-  website: https://keplr.app
   developerName: Team Keplr
   repository: https://github.com/chainapsis/keplr-wallet
 iphone:

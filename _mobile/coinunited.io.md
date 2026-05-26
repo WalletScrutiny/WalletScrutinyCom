@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-19
 authors:
 - danny
+website: https://coinunited.io/
 twitter: realcoinunited
 redirect_from:
 - /android/coinunited.io/
@@ -19,7 +20,6 @@ android:
   version: 5.1.0
   reviews: 237
   icon: coinunited.io.jpg
-  website: https://coinunited.io/
   developerName: CoinU
 iphone:
   appId: coinunited.io
@@ -30,7 +30,6 @@ iphone:
   version: 4.0.2
   reviews: 282
   icon: coinunited.io.jpg
-  website: https://www.coinunited.io/
   developerName: CoinUnited Limited
 
 ---

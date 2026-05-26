@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-02-26
 authors:
 - danny
+website: https://www.moonxbt.com#deadLink
 twitter: MoonXBT_Global
 social:
 - https://www.facebook.com/MoonXBT
@@ -22,7 +23,6 @@ android:
   reviews: 23
   icon: com.nano.moonxbt.png
   meta: removed
-  website: https://www.moonxbt.com#deadLink
   developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
 iphone:
   appId: com.nano.moonxbt
@@ -33,7 +33,6 @@ iphone:
   reviews: 20
   icon: com.nano.moonxbt.jpg
   meta: ok
-  website: https://www.pumpkin.xyz
   developerName: NANO TRADE GLOBAL
 
 ---

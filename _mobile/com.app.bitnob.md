@@ -26,7 +26,6 @@ android:
   reviews: 38
   icon: com.app.bitnob.png
   meta: ok
-  website: https://bitnob.com
   developerName: Bitnob Technologies
 iphone:
   appId: com.app.bitnob

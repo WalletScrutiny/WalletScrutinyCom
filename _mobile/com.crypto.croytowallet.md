@@ -6,6 +6,7 @@ meta: ok
 date: 2026-02-02
 authors:
 - danny
+website: https://imxapp.io/
 social:
 - https://www.facebook.com/profile.php?id=100075743690970
 - https://www.instagram.com/imxapp/
@@ -20,7 +21,6 @@ android:
   version: 13.2.10
   icon: com.crypto.croytowallet.png
   meta: ok
-  website: https://imxapp.io/
   developerName: Smart IoT Technology Co. Ltd
 iphone:
   appId: global.imxchange.iMX

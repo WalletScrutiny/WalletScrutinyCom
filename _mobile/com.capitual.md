@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-04
 authors:
 - danny
+website: https://capitual.com
 twitter: capitual
 social:
 - https://www.instagram.com/capitual/
@@ -23,7 +24,6 @@ android:
   version: 3.44.6
   reviews: 6
   icon: com.capitual.png
-  website: https://capitual.com
   developerName: Capitual
 iphone:
   appId: com.capitual
@@ -34,7 +34,6 @@ iphone:
   version: 3.44.0
   reviews: 8
   icon: com.capitual.jpg
-  website: https://www.capitual.com
   developerName: Capitual
 
 ---

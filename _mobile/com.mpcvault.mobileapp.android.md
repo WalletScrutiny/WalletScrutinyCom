@@ -25,7 +25,6 @@ android:
   version: 3.18.0
   reviews: 3
   icon: com.mpcvault.mobileapp.android.png
-  website: https://mpcvault.com/
   developerName: MetaLoop Inc
 iphone:
   appId: com.mpcvault.mobileapp.ios

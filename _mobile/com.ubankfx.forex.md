@@ -6,6 +6,7 @@ meta: removed
 date: 2021-11-10
 authors:
 - danny
+website: http://www.ubfx.co.uk
 appCountry: th
 redirect_from:
 - /android/com.ubankfx.forex/
@@ -17,7 +18,6 @@ android:
   updated: 2022-03-31
   version: v8.5-5457-b9fe16886
   icon: com.ubankfx.forex.png
-  website: http://www.ubfx.co.uk
 iphone:
   appId: com.ubankfx.forex
   idd: 1233584524
@@ -25,7 +25,6 @@ iphone:
   updated: 2020-09-22
   version: 6.24.3790
   icon: com.ubankfx.forex.jpg
-  website: https://www.ubfx.co.uk/
 
 ---
 

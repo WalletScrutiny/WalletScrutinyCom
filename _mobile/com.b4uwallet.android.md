@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-25
 authors:
 - kiwilamb
+website: https://b4uwallet.com
 twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial
@@ -19,7 +20,6 @@ android:
   updated: 2021-04-22
   version: 4.3.4
   icon: com.b4uwallet.android.png
-  website: https://b4uwallet.com
   developerName: B4U soft
 iphone:
   appId: com.b4uwallet.ioswallet
@@ -29,7 +29,6 @@ iphone:
   version: 1.0.5
   reviews: 2
   icon: com.b4uwallet.ioswallet.jpg
-  website: https://b4uwallet.com/
 
 ---
 

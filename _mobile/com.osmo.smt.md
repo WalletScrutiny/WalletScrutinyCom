@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-24
 authors:
 - danny
+website: https://www.osmowallet.com/
 twitter: osmowallet
 social:
 - https://www.linkedin.com/company/osmo-wallet
@@ -28,7 +29,6 @@ android:
   version: 4.9.12
   reviews: 44
   icon: com.osmo.smt.jpg
-  website: https://www.osmowallet.com/
   developerName: osmo
 iphone:
   appId: com.osmowallet.app
@@ -39,7 +39,6 @@ iphone:
   version: 4.9.12
   reviews: 136
   icon: com.osmowallet.app.jpg
-  website: https://www.osmomoney.com/
   developerName: Hodl Group Inc.
 
 ---

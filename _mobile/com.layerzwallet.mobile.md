@@ -13,7 +13,6 @@ android:
   updated: 2026-04-20
   version: 1.5.4
   icon: com.layerzwallet.mobile.jpg
-  website: https://layerzwallet.com
   developerName: Layerz Tec Ltd
 
 ---

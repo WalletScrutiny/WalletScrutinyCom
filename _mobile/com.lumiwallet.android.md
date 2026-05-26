@@ -6,6 +6,7 @@ meta: removed
 date: 2021-06-16
 authors:
 - leo
+website: https://lumiwallet.com
 twitter: Lumi_wallet
 social:
 - https://www.facebook.com/lumiwallet
@@ -22,7 +23,6 @@ android:
   version: 4.1.6
   reviews: 247
   icon: com.lumiwallet.android.png
-  website: https://lumiwallet.com
   developerName: Raias Llc
 iphone:
   appId: com.lumiwallet.HD
@@ -32,7 +32,6 @@ iphone:
   version: 3.10.2
   reviews: 3449
   icon: com.lumiwallet.HD.jpg
-  website: https://lumiwallet.com/
 
 ---
 

@@ -22,7 +22,6 @@ android:
   version: 3.3.5
   reviews: 5
   icon: com.hittechsexpertlimited.hitbtc.jpg
-  website: https://hitbtc.com/
   developerName: HitBTC Exchange
 
 ---

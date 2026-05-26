@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-03-14
 authors:
 - danny
+website: https://www.cointree.com/
 twitter: CointreeAus
 social:
 - https://www.linkedin.com/company/cointree
@@ -22,7 +23,6 @@ android:
   version: 1.2.6
   icon: com.cointree.mobileapp.png
   meta: removed
-  website: https://www.cointree.com/
   developerName: Cointree
   bugbounty: https://www.cointree.com/company/bug-bounty
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 24
   icon: com.cointree.mobileapp.jpg
   meta: obsolete
-  website: https://www.cointree.com
   developerName: Cointree
 
 ---

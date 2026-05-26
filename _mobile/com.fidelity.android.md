@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://www.fidelity.com
 twitter: fidelity
 redirect_from:
 - /android/com.fidelity.android/
@@ -18,7 +19,6 @@ android:
   version: '4.32'
   reviews: 56984
   icon: com.fidelity.android.png
-  website: https://www.fidelity.com
   developerName: Fidelity Investments
 iphone:
   appId: com.fidelity.watchlist
@@ -29,7 +29,6 @@ iphone:
   version: '4.32'
   reviews: 3117678
   icon: com.fidelity.watchlist.jpg
-  website: http://www.fidelity.com
   developerName: Fidelity Investments
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-15
 authors:
 - danny
+website: https://www.zbx.com/
 twitter: zbx_com
 social:
 - https://www.linkedin.com/company/zbx
@@ -22,7 +23,6 @@ android:
   version: 2.5.28
   icon: com.zbx.app.png
   meta: ok
-  website: https://www.zbx.com/
   developerName: ZBX
 iphone:
   appId: com.zbx.www
@@ -33,7 +33,6 @@ iphone:
   reviews: 4
   icon: com.zbx.www.jpg
   meta: removed
-  website: https://web.archive.org/web/20211209012719/https://www.zbx.one/
   developerName: Zillion Bits AG
 
 ---

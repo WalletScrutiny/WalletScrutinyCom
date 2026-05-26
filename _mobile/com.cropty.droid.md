@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-30
 authors:
 - danny
+website: https://www.cropty.io/
 twitter: cropty_app
 social:
 - https://www.youtube.com/@croptytv
@@ -20,7 +21,6 @@ android:
   version: 2.11.1
   reviews: 59
   icon: com.cropty.droid.jpg
-  website: https://www.cropty.io/
   developerName: Coinscatch
 iphone:
   appId: com.cropty.app
@@ -31,7 +31,6 @@ iphone:
   version: 1.7.4
   reviews: 213
   icon: com.cropty.app.jpg
-  website: https://cropty.io/
   developerName: Coinscatch
 
 ---

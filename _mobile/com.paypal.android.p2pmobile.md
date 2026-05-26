@@ -24,7 +24,6 @@ android:
   version: 8.105.1
   reviews: 437549
   icon: com.paypal.android.p2pmobile.png
-  website: https://www.paypal.com/mobile
   developerName: PayPal Mobile
 iphone:
   appId: com.yourcompany.PPClient

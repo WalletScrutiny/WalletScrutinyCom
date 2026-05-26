@@ -23,7 +23,6 @@ android:
   version: '3.75'
   icon: hippotech.bank.droid.png
   meta: ok
-  website: https://www.ziglu.io
   developerName: Ziglu
 iphone:
   appId: hippotech.bank.ios

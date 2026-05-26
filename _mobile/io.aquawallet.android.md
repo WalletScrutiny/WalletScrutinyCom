@@ -31,7 +31,6 @@ android:
   reviews: 22
   icon: io.aquawallet.android.png
   verdict: nosource
-  website: https://aquawallet.io
   developerName: JAN3
 iphone:
   appId: io.aquawallet.ios

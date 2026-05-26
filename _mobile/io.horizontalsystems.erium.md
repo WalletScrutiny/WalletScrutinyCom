@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://erium.exchange#deadLink
 twitter: EriumExchange
 social:
 - https://t.me/Erium_exchange
@@ -22,7 +23,6 @@ android:
   updated: 2022-10-14
   version: 0.21.17
   icon: io.horizontalsystems.erium.png
-  website: https://erium.exchange#deadLink
   developerName: Devblockex
 iphone:
   appId: io.horizontalsystems.erium

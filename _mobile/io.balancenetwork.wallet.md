@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-31
 authors:
 - danny
+website: https://balancenetwork.io#deadLink
 twitter: balancenetwork_
 social:
 - https://www.linkedin.com/company/balancenetwork
@@ -26,7 +27,6 @@ android:
   version: 1.0.23
   reviews: 8
   icon: io.balancenetwork.wallet.png
-  website: https://balancenetwork.io#deadLink
   developerName: Balance Network Ltd
 iphone:
   appId: com.reacnative.js.balancenetwork.wallet
@@ -37,7 +37,6 @@ iphone:
   version: 1.1.2
   reviews: 10
   icon: com.reacnative.js.balancenetwork.wallet.jpg
-  website: https://web.archive.org/web/20240917143207/https://wallet-balancenetwork.io/
   developerName: BALANCE NETWORK SP ZOO
 
 ---

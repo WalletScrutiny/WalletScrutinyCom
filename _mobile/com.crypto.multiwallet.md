@@ -7,6 +7,7 @@ date: 2021-05-20
 authors:
 - leo
 - danny
+website: https://guarda.com
 twitter: GuardaWallet
 social:
 - https://www.facebook.com/guarda.co
@@ -26,7 +27,6 @@ android:
   version: 3.1.11
   reviews: 561
   icon: com.crypto.multiwallet.jpg
-  website: https://guarda.com
   developerName: GUARDA
 iphone:
   appId: com.crypto.multiwallet
@@ -36,7 +36,6 @@ iphone:
   version: 3.1.9
   reviews: 941
   icon: com.crypto.multiwallet.jpg
-  website: https://guarda.com/
   developerName: GUARDACO LDA
 
 ---

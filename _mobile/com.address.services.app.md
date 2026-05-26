@@ -12,7 +12,6 @@ android:
   updated: 2025-07-24
   version: VARY
   icon: com.address.services.app.png
-  website: https://address.services
   developerName: OnTab Inc.
 
 ---

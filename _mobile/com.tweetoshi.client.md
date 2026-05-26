@@ -14,7 +14,6 @@ android:
   version: 0.8.5
   reviews: 9
   icon: com.tweetoshi.client.png
-  website: https://tweetoshi.com
   developerName: Tweetoshi
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.shiftmarkets.com/
 twitter: shiftmarkets
 social:
 - https://www.linkedin.com/company/shiftmarkets
@@ -21,7 +22,6 @@ android:
   updated: 2025-01-24
   version: 4.14.0
   icon: com.shiftmarkets.cointrader.png
-  website: https://www.shiftmarkets.com/
   developerName: Shift Markets Ltd
 iphone:
   appId: com.shiftmarkets.cointrader
@@ -32,7 +32,6 @@ iphone:
   version: 4.1.0
   reviews: 0
   icon: com.shiftmarkets.cointrader.jpg
-  website: https://exchange.shiftmarkets.com#deadLink
   developerName: Shift Markets
 
 ---

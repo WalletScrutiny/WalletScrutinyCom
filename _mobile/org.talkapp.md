@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-01
 authors:
 - danny
+website: https://talkapp.org
 social:
 - https://talkapp.org
 features:
@@ -20,7 +21,6 @@ android:
   updated: 2026-02-05
   version: 3.2.0
   icon: org.talkapp.png
-  website: https://talkapp.org
   developerName: Bull.B Technology Limited
 iphone:
   appId: org.talkapp

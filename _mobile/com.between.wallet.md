@@ -18,7 +18,6 @@ android:
   updated: 2026-04-24
   version: 1.2.1
   icon: com.between.wallet.png
-  website: https://betweenbits.io/
   developerName: BetweenBits Inc.
 
 ---

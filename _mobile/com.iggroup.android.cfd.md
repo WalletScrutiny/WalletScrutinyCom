@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-23
 authors:
 - danny
+website: https://www.ig.com
 twitter: IGInternationa1
 social:
 - https://www.linkedin.com/company/ig-international-
@@ -23,7 +24,6 @@ android:
   version: 26.5.7
   reviews: 14
   icon: com.iggroup.android.cfd.png
-  website: https://www.ig.com
   developerName: IG Group
 iphone:
   appId: com.igmarkets.ideal
@@ -34,7 +34,6 @@ iphone:
   version: 10.3241.0
   reviews: 2968
   icon: com.igmarkets.ideal.jpg
-  website: https://www.ig.com/uk/trading-platforms/trading-apps
   developerName: IG Group
 
 ---

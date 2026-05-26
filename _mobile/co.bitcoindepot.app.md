@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-08
 authors:
 - danny
+website: https://www.bitcoindepot.com/
 twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
@@ -23,7 +24,6 @@ android:
   version: 4.2.2
   reviews: 270
   icon: co.bitcoindepot.app.png
-  website: https://www.bitcoindepot.com/
   developerName: Bitcoin Depot
 iphone:
   appId: com.cashtocrypto.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 4.2.2
   reviews: 1354
   icon: com.cashtocrypto.wallet.jpg
-  website: https://bitcoindepot.com/
   developerName: Bitcoin Depot
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2023-08-22
   version: 1.0.3
   icon: com.asyasoftware.metropuli.png
-  website: https://asyasoftware.ge
   developerName: Asya Software JSC
 
 ---

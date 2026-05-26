@@ -16,7 +16,6 @@ android:
   version: 4.2.2
   reviews: 140
   icon: com.afrbtcapp.png
-  website: https://www.afrbtc.com
   developerName: GiftCards Team
 
 ---

@@ -21,7 +21,6 @@ android:
   version: 6.57.1
   reviews: 3033
   icon: com.mexcpro.client.png
-  website: https://www.mexc.com
   developerName: MEXC Ltd
 
 ---

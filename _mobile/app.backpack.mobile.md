@@ -4,6 +4,7 @@ meta: ok
 date: 2025-11-09
 authors:
 - danny
+website: https://backpack.app
 redirect_from:
 - /android/app.backpack.mobile/
 - /iphone/app.backpack.mobile/
@@ -16,7 +17,6 @@ android:
   reviews: 66
   icon: app.backpack.mobile.png
   verdict: custodial
-  website: https://backpack.app
   developerName: Backpack App
 iphone:
   appId: app.backpack.mobile
@@ -28,7 +28,6 @@ iphone:
   reviews: 218
   icon: app.backpack.mobile.jpg
   verdict: wip
-  website: https://www.backpack.app/
   developerName: Backpack Technologies Ltd.
 
 ---

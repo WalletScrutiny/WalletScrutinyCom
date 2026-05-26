@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-26
 authors:
 - danny
+website: https://xspa.ai/
 twitter: XSPA_ai
 social:
 - https://www.instagram.com/xspa.ai
@@ -23,7 +24,6 @@ android:
   version: 1.0.15
   reviews: 8
   icon: com.xspa.ai.png
-  website: https://xspa.ai/
   developerName: XSPA
 iphone:
   appId: com.xspa.ai

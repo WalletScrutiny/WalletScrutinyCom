@@ -22,7 +22,6 @@ android:
   version: 5.9.1
   reviews: 64
   icon: de.finanzen.net.png
-  website: http://www.finanzen.net/apps
   developerName: finanzen.net GmbH
 iphone:
   appId: de.smarthouse.finanzen

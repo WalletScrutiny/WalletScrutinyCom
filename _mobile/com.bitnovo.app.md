@@ -6,6 +6,7 @@ meta: removed
 date: 2022-02-10
 authors:
 - leo
+website: http://www.bitnovo.com
 twitter: bitnovo
 social:
 - https://www.facebook.com/BitcoinBitnovo
@@ -21,7 +22,6 @@ android:
   version: 2.8.7
   reviews: 245
   icon: com.bitnovo.app.png
-  website: http://www.bitnovo.com
 iphone:
   appId: com.bitnovo.app
   idd: 1220883632
@@ -30,7 +30,6 @@ iphone:
   version: 2.8.7
   reviews: 5
   icon: com.bitnovo.app.jpg
-  website: https://www.bitnovo.com
 
 ---
 

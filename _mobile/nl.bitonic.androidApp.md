@@ -20,7 +20,6 @@ android:
   updated: 2026-05-21
   version: 3.25.0
   icon: nl.bitonic.androidApp.jpg
-  website: https://bitonic.nl
   developerName: Bitonic
 iphone:
   appId: nl.bitonic.Bitonic

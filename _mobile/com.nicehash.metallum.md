@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-24
 authors:
 - danny
+website: https://www.nicehash.com/my/
 twitter: NiceHashMining
 social:
 - https://www.linkedin.com/company/nicehash
@@ -25,7 +26,6 @@ android:
   version: 5.2.8
   reviews: 679
   icon: com.nicehash.metallum.png
-  website: https://www.nicehash.com/my/
   developerName: NiceHash AG
 iphone:
   appId: com.nicehash.mobile
@@ -36,7 +36,6 @@ iphone:
   version: 7.1.9
   reviews: 4567
   icon: com.nicehash.mobile.jpg
-  website: https://www.nicehash.com/
   developerName: NiceHash AG
 
 ---

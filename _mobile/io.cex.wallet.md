@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-19
 authors:
 - danny
+website: https://wallet.cex.io
 twitter: cex_io
 social:
 - https://t.me/CEX_IO
@@ -23,7 +24,6 @@ android:
   version: 2.7.8
   reviews: 61
   icon: io.cex.wallet.png
-  website: https://wallet.cex.io
   developerName: CEX.IO
 iphone:
   appId: io.cex.cexwallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-02
 authors:
 - danny
+website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
 twitter: Swissquote
 social:
 - https://www.linkedin.com/company/swissquote
@@ -26,7 +27,6 @@ android:
   version: 3.13.0
   reviews: 4
   icon: com.swissquote.mobiletrader.android.wl.acm.png
-  website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
   developerName: Swissquote Mobile
 iphone:
   appId: com.acm.Mobile-Trader
@@ -37,7 +37,6 @@ iphone:
   version: 3.45.0
   reviews: 687
   icon: com.acm.Mobile-Trader.jpg
-  website: https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
   developerName: Swissquote
 
 ---

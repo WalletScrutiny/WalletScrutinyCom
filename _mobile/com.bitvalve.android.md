@@ -17,7 +17,6 @@ android:
   version: 1.41.0
   reviews: 62
   icon: com.bitvalve.android.png
-  website: https://www.bitvalve.com
   developerName: BitValve Developer
 
 ---

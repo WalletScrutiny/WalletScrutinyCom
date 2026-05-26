@@ -22,7 +22,6 @@ android:
   version: 1.8.7
   icon: com.senexpay.mobile.png
   meta: ok
-  website: https://senexpay.com
   developerName: Senex Payment Services Limited
   twitter: senexpay
 iphone:

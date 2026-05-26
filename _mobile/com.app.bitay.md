@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-01-30
 authors:
 - danny
+website: https://bitay.com.tr
 twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
@@ -22,7 +23,6 @@ android:
   reviews: 11
   icon: com.app.bitay.png
   meta: obsolete
-  website: https://bitay.com.tr
   developerName: Bitay Technology
 iphone:
   appId: com.app.Bitay

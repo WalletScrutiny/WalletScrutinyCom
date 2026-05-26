@@ -27,7 +27,6 @@ android:
   icon: com.tbtc_app.png
   meta: ok
   verdict: custodial
-  website: https://thebitcoincompany.com
   developerName: The Bitcoin Company
 iphone:
   appId: com.thebitcoincompany.app.ios

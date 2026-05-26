@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-06
 authors:
 - danny
+website: https://www.okasan-online.co.jp/
 redirect_from:
 - /android/jp.co.okasan_online.okasanonline.crypto.prd/
 - /iphone/jp.co.okasan-online.okasanonline.crypto.prd/
@@ -16,7 +17,6 @@ android:
   updated: 2024-02-21
   version: 1.15.0
   icon: jp.co.okasan_online.okasanonline.crypto.prd.png
-  website: https://www.okasan-online.co.jp/
   developerName: 岡三証券株式会社（岡三オンライン）
 iphone:
   appId: jp.co.okasan-online.okasanonline.crypto.prd
@@ -27,7 +27,6 @@ iphone:
   version: 1.14.0
   reviews: 2
   icon: jp.co.okasan-online.okasanonline.crypto.prd.jpg
-  website: https://www.okasan-online.co.jp
   developerName: 岡三オンライン証券株式会社
 
 ---

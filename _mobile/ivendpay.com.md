@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-08-31
 authors:
 - danny
+website: https://ivendpay.com
 twitter: ivendpay
 social:
 - https://www.linkedin.com/company/ivendpay
@@ -21,7 +22,6 @@ android:
   version: 2.0.4
   icon: ivendpay.com.png
   meta: removed
-  website: https://ivendpay.com
   developerName: IVENDPAY
 iphone:
   appId: ivendpay.com
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: ivendpay.com.jpg
   meta: stale
-  website: https://ivpay.io
   developerName: ivendPay
 
 ---

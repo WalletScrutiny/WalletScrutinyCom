@@ -7,6 +7,7 @@ date: 2022-01-10
 authors:
 - leo
 - danny
+website: https://www.mtpelerin.com/bridge-wallet
 twitter: mtpelerin
 social:
 - https://www.linkedin.com/company/mt-pelerin
@@ -30,7 +31,6 @@ android:
   version: '1.67'
   reviews: 34
   icon: com.mtpelerin.bridge.png
-  website: https://www.mtpelerin.com/bridge-wallet
   developerName: Mt Pelerin Group SA
 iphone:
   appId: com.mtpelerin.bridge
@@ -40,7 +40,6 @@ iphone:
   version: '1.67'
   reviews: 87
   icon: com.mtpelerin.bridge.jpg
-  website: https://www.mtpelerin.com/
   developerName: Mt Pelerin
 
 ---

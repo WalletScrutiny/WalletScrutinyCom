@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-16
 authors:
 - danny
+website: https://www.admiralmarkets.com
 twitter: AdmiralsGlobal
 social:
 - https://www.linkedin.com/company/-admiral-markets-group
@@ -22,7 +23,6 @@ android:
   version: 1.13.6
   reviews: 4
   icon: com.admiralmarkets.android.png
-  website: https://www.admiralmarkets.com
   developerName: Admiral Markets
 iphone:
   appId: com.admiralmarkets.tradersroom
@@ -33,7 +33,6 @@ iphone:
   version: 5.59.0
   reviews: 3
   icon: com.admiralmarkets.tradersroom.jpg
-  website: https://admiralmarkets.com/
   developerName: Admiral Markets AS
 
 ---

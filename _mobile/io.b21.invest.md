@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-30
 authors:
 - danny
+website: https://b21.io
 twitter: B21Official
 social:
 - https://www.linkedin.com/company/b21-limited
@@ -23,7 +24,6 @@ android:
   version: 0.8.0
   reviews: 290
   icon: io.b21.invest.png
-  website: https://b21.io
 iphone:
   appId: io.b21.invest
   idd: 1499042083
@@ -32,7 +32,6 @@ iphone:
   version: 0.8.0
   reviews: 66
   icon: io.b21.invest.jpg
-  website: https://www.b21.io
 
 ---
 

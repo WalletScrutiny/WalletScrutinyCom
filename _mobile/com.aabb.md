@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://aabbgoldtoken.com#deadLink
 twitter: AsiaBroadband
 appCountry: ca
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.0.1271
   reviews: 32
   icon: com.aabb.png
-  website: https://aabbgoldtoken.com#deadLink
   developerName: AABB Gold Token
 iphone:
   appId: com.aabb.wallet
@@ -29,7 +29,6 @@ iphone:
   version: 1.0.265
   reviews: 99
   icon: com.aabb.wallet.jpg
-  website: https://aabbgmine2token.com/
   developerName: Asia Broadband, Inc.
 
 ---

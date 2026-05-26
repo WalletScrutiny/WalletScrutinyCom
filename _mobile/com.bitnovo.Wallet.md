@@ -24,7 +24,6 @@ android:
   reviews: 12
   icon: com.bitnovo.Wallet.png
   meta: ok
-  website: https://www.bitnovo.com
   developerName: BITNOVO
 iphone:
   appId: com.bitnovo.Wallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-23
 authors:
 - danny
+website: https://gate.com.tr/
 social:
 - https://www.instagram.com/gatecomtr
 - https://www.youtube.com/@gatetr
@@ -18,7 +19,6 @@ android:
   updated: 2026-04-14
   version: 6.15.43
   icon: com.gateio.turkey.png
-  website: https://gate.com.tr/
   developerName: Gate.com
 iphone:
   appId: com.gateio.GateTR
@@ -29,7 +29,6 @@ iphone:
   version: 6.15.28
   reviews: 630
   icon: com.gateio.GateTR.jpg
-  website: https://www.gate.com.tr
   developerName: Gate Teknoloji Anonim Sirketi
 
 ---

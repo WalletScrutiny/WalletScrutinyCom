@@ -6,6 +6,7 @@ meta: removed
 date: 2024-03-02
 authors:
 - danny
+website: https://wallet.lyofi.com#deadLink
 twitter: lyopayofficial
 social:
 - https://www.facebook.com/lyopayofficial
@@ -22,7 +23,6 @@ android:
   updated: 2023-12-27
   version: 1.5.1
   icon: com.lyofi.wallet.png
-  website: https://wallet.lyofi.com#deadLink
   developerName: DIGILYO APP LTD
 iphone:
   appId: com.lyo.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 1.5.1
   reviews: 1
   icon: com.lyo.wallet.jpg
-  website: https://lyowallet.com#deadLink
   developerName: DIGILYO APP LTD
 
 ---

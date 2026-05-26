@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-26
 authors:
 - danny
+website: https://exchange.youngplatform.com
 twitter: youngplatform
 social:
 - https://www.facebook.com/youngplatformCME
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-19
   version: 3.27.0
   icon: com.youngplatform.exchange.png
-  website: https://exchange.youngplatform.com
   developerName: Young Platform S.p.a
 iphone:
   appId: com.youngplatform.exchange
@@ -31,7 +31,6 @@ iphone:
   version: 3.27.0
   reviews: 1094
   icon: com.youngplatform.exchange.jpg
-  website: https://youngplatform.com
   developerName: Young Agency S.R.L
 
 ---

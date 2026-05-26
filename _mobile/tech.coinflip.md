@@ -24,7 +24,6 @@ android:
   version: 4.3.0
   reviews: 95
   icon: tech.coinflip.png
-  website: https://coinflip.tech/
   developerName: GPD Holdings LLC
 iphone:
   appId: tech.coinflip.CoinFlip

@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-02
 authors:
 - danny
+website: https://tradefada.com
 twitter: tradefada
 social:
 - https://www.facebook.com/Tradefada01
@@ -21,7 +22,6 @@ android:
   updated: 2023-10-26
   version: 3.3.0
   icon: tradefada.com.exchange.app.png
-  website: https://tradefada.com
   developerName: Tradefada Global
 iphone:
   appId: dev.com.tradefada.app

@@ -19,7 +19,6 @@ android:
   version: 2026.5.30
   reviews: 8
   icon: com.finverselabs.openwallet.png
-  website: https://openwallet.finance/
   developerName: FinVerse Labs FZ-LLC
 iphone:
   appId: com.finverse-labs.openwallet-mainnet

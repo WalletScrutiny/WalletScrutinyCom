@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-27
 authors:
 - danny
+website: https://gbtcfinance.com/
 twitter: gbtcfinance
 social:
 - https://www.linkedin.com/company/gbtc-finance
@@ -21,7 +22,6 @@ android:
   updated: 2026-02-26
   version: '1.16'
   icon: es.gbtcfinance.app.png
-  website: https://gbtcfinance.com/
   developerName: GBTC FINANCE
 iphone:
   appId: com.gbtc.finance

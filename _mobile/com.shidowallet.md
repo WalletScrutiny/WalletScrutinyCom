@@ -6,6 +6,7 @@ meta: removed
 date: 2024-03-02
 authors:
 - danny
+website: https://shido.io
 twitter: ShidoGlobal
 social:
 - https://www.linkedin.com/in/shido-global-522554261
@@ -26,7 +27,6 @@ android:
   version: '1.8'
   reviews: 36
   icon: com.shidowallet.png
-  website: https://shido.io
   developerName: Shido Finance
 iphone:
   appId: com.shido.wallet

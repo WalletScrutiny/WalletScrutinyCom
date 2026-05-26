@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-05-14
 authors:
 - danny
+website: https://dex-trade.com
 twitter: dextrade_
 social:
 - https://www.linkedin.com/company/dex-trade-exchange
@@ -22,7 +23,6 @@ android:
   version: 1.3.0
   reviews: 28
   icon: com.dextrade.android.png
-  website: https://dex-trade.com
   developerName: Dex-Trade
 iphone:
   appId: com.dex-trade.ios
@@ -32,7 +32,6 @@ iphone:
   version: 2.1.9
   reviews: 19
   icon: com.dex-trade.ios.jpg
-  website: https://dex-trade.com/
   developerName: Dex-trade
 
 ---

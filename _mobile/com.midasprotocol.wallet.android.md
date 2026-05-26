@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-26
 authors:
 - kiwilamb
+website: https://midasprotocol.io
 twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
@@ -20,7 +21,6 @@ android:
   version: 2.0.8.1
   reviews: 25
   icon: com.midasprotocol.wallet.android.png
-  website: https://midasprotocol.io
   developerName: Midas Core Pte Ltd
 iphone:
   appId: com.midasprotocol.wallet.ios
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.8
   reviews: 90
   icon: com.midasprotocol.wallet.ios.jpg
-  website: https://midasprotocol.io/
   developerName: Midas Core Pte Ltd
 
 ---

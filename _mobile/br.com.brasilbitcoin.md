@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-10
 authors:
 - danny
+website: https://brasilbitcoin.com.br
 twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial
@@ -21,7 +22,6 @@ android:
   version: 4.1.02
   reviews: 5637
   icon: br.com.brasilbitcoin.png
-  website: https://brasilbitcoin.com.br
   developerName: Brasil Bitcoin
 iphone:
   appId: br.com.brasilbitcoin.run

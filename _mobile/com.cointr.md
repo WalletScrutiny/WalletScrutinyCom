@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-19
 authors:
 - danny
+website: https://support.cointr.com
 twitter: CoinTRTurkiye
 social:
 - https://t.me/CoinTRTurkiye
@@ -24,7 +25,6 @@ android:
   reviews: 9
   icon: com.cointr.jpg
   meta: ok
-  website: https://support.cointr.com
   developerName: CoinTR
 iphone:
   appId: com.cointr

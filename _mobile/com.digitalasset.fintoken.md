@@ -19,7 +19,6 @@ android:
   updated: 2026-03-24
   version: 2.0.1
   icon: com.digitalasset.fintoken.png
-  website: https://www.fintoken.pro/
   developerName: WEBX SDN BHD
 
 ---

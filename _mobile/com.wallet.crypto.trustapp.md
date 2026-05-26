@@ -7,6 +7,7 @@ date: 2020-12-23
 authors:
 - leo
 - danny
+website: https://trustwallet.com/
 twitter: trustwalletapp
 social:
 - https://www.facebook.com/trustwalletapp
@@ -26,7 +27,6 @@ android:
   version: 26.21.5
   reviews: 21148
   icon: com.wallet.crypto.trustapp.png
-  website: https://trustwallet.com/
   developerName: DApps Platform, Inc.
 iphone:
   appId: com.sixdays.trust
@@ -36,7 +36,6 @@ iphone:
   version: 26.21.1
   reviews: 197132
   icon: com.sixdays.trust.jpg
-  website: https://trustwallet.com
   developerName: DApps Platform Software Services Ltd.
 
 ---

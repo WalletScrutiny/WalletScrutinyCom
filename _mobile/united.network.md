@@ -13,7 +13,6 @@ android:
   updated: 2025-07-06
   version: 1.0.4
   icon: united.network.png
-  website: https://united.network
   developerName: Trend IT Services LLC
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-30
 authors:
 - danny
+website: https://tradestrike.io/strikex-wallet/
 twitter: TradeStrikeBVI
 social:
 - https://www.linkedin.com/company/strikex
@@ -33,7 +34,6 @@ android:
   version: 4.2.8
   reviews: 26
   icon: com.tradestrike.png
-  website: https://tradestrike.io/strikex-wallet/
   developerName: TradestrikeBVI
 iphone:
   appId: com.strikeXWallet

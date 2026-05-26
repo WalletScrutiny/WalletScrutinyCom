@@ -6,6 +6,7 @@ meta: removed
 date: 2022-03-09
 authors:
 - danny
+website: https://crystalwallet.eu#deadLink
 twitter: CrystalWalletEU
 appCountry: us
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: '1.77'
   reviews: 9
   icon: eu.crystalwallet.app.png
-  website: https://crystalwallet.eu#deadLink
 iphone:
   appId: eu.crystalwallet.app
   idd: 1501729731
@@ -28,7 +28,6 @@ iphone:
   version: '1.78'
   reviews: 6
   icon: eu.crystalwallet.app.jpg
-  website: https://crystalwallet.eu/#about&deadLink
 
 ---
 

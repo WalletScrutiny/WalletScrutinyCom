@@ -6,6 +6,7 @@ meta: removed
 date: 2021-11-08
 authors:
 - danny
+website: https://bhex.co#deadLink
 appCountry: us
 redirect_from:
 - /android/com.bh.android/
@@ -18,7 +19,6 @@ android:
   version: 4.2.2
   reviews: 21
   icon: com.bh.android.png
-  website: https://bhex.co#deadLink
 iphone:
   appId: io.bhex.app
   idd: 1441395245
@@ -27,7 +27,6 @@ iphone:
   version: 4.1.2
   reviews: 35
   icon: io.bhex.app.jpg
-  website: https://www.hbtc.com/
 
 ---
 

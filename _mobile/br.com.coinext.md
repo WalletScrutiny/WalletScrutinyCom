@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-07
 authors:
 - danny
+website: https://coinext.com.br
 twitter: coinext_oficial
 social:
 - https://www.linkedin.com/company/coinext
@@ -23,7 +24,6 @@ android:
   version: 2.36.0
   reviews: 7
   icon: br.com.coinext.png
-  website: https://coinext.com.br
   developerName: Coinext Serviços Digitais Ltda.
 iphone:
   appId: br.com.coinext.Coinext
@@ -34,7 +34,6 @@ iphone:
   version: 2.36.0
   reviews: 5007
   icon: br.com.coinext.Coinext.jpg
-  website: https://coinext.com.br/
   developerName: Coinext
 
 ---

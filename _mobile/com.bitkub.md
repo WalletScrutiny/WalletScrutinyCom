@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-04
 authors:
 - danny
+website: http://www.bitkub.com
 twitter: bitkubofficial
 social:
 - https://www.linkedin.com/company/bitkub
@@ -21,7 +22,6 @@ android:
   version: 4.15.0
   reviews: 45
   icon: com.bitkub.png
-  website: http://www.bitkub.com
   developerName: Bitkub Online Co., Ltd. (Head Office)
 iphone:
   appId: com.bitkub.app
@@ -32,7 +32,6 @@ iphone:
   version: 4.15.0
   reviews: 17546
   icon: com.bitkub.app.jpg
-  website: https://www.bitkub.com/download
   developerName: Bitkub Online Co., Ltd
 
 ---

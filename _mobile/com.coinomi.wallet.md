@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-14
 authors:
 - leo
+website: https://www.Coinomi.com
 twitter: CoinomiWallet
 social:
 - https://www.linkedin.com/company/coinomi
@@ -34,7 +35,6 @@ android:
   version: 1.67.1
   reviews: 2330
   icon: com.coinomi.wallet.png
-  website: https://www.Coinomi.com
   developerName: Coinomi
 iphone:
   appId: com.coinomi.wallet
@@ -44,7 +44,6 @@ iphone:
   version: 1.67.1
   reviews: 2090
   icon: com.coinomi.wallet.jpg
-  website: https://www.coinomi.com/en/about/
   developerName: Loksias SA
 
 ---

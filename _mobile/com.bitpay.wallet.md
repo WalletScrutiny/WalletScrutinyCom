@@ -33,7 +33,6 @@ android:
   reviews: 2301
   icon: com.bitpay.wallet.png
   verdict: sourceavailable
-  website: https://bitpay.com
   developerName: BitPay, Inc.
   bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 iphone:

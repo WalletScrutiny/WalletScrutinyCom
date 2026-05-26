@@ -6,6 +6,7 @@ meta: ok
 date: 2023-02-10
 authors:
 - danny
+website: https://www.liteforex.eu
 twitter: litefinanceeng
 redirect_from:
 - /android/com.litefinance.cabinet/
@@ -18,7 +19,6 @@ android:
   version: v2.1.2030-cabinet-release
   reviews: 83
   icon: com.litefinance.cabinet.png
-  website: https://www.liteforex.eu
   developerName: LITEFOREX (EUROPE) LTD
 iphone:
   appId: com.litefinance.cabinet
@@ -29,7 +29,6 @@ iphone:
   version: 3.1.11
   reviews: 72
   icon: com.litefinance.cabinet.jpg
-  website: https://www.liteforex.com
   developerName: Liteforex (Europe) Limited
 
 ---

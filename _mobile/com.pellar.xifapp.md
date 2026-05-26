@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-16
 authors:
 - danny
+website: http://www.xinfinity.io
 social:
 - https://www.linkedin.com/company/xinfinityholding/
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 5.3.7
   reviews: 4
   icon: com.pellar.xifapp.png
-  website: http://www.xinfinity.io
   developerName: X INFINITY
 iphone:
   appId: app.xif.com
@@ -30,7 +30,6 @@ iphone:
   version: 5.2.2b270
   reviews: 1
   icon: app.xif.com.jpg
-  website: http://www.xinfinity.io/
   developerName: X-Inifinity
 
 ---

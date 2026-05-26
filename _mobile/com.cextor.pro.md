@@ -17,7 +17,6 @@ android:
   version: 1.0.0
   reviews: 5
   icon: com.cextor.pro.png
-  website: https://www.cextor.com
   developerName: CEXTOR
 
 ---

@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-06-29
 authors:
 - danny
+website: https://app.difx.com
 twitter: difx_io
 social:
 - https://www.linkedin.com/company/difx-io
@@ -24,7 +25,6 @@ android:
   version: 5.1.11
   icon: app.difx.exchange.png
   meta: ok
-  website: https://app.difx.com
   developerName: DIFX
 iphone:
   appId: app.difx.exchange
@@ -36,7 +36,6 @@ iphone:
   reviews: 0
   icon: app.difx.exchange.jpg
   meta: obsolete
-  website: https://difx.com
   developerName: DIFX Limited
 
 ---

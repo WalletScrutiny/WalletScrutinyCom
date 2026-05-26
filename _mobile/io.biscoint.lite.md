@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-02
 authors:
 - danny
+website: https://www.bity.com.br/policies/
 twitter: BityOficial
 social:
 - https://www.facebook.com/bitybankoficial
@@ -20,7 +21,6 @@ android:
   version: 2.9.13
   reviews: 6
   icon: io.biscoint.lite.png
-  website: https://www.bity.com.br/policies/
   developerName: bity.com.br
 iphone:
   appId: io.biscoint.lite
@@ -31,7 +31,6 @@ iphone:
   version: 2.9.13
   reviews: 8786
   icon: io.biscoint.lite.jpg
-  website: https://bity.com.br/
   developerName: Biscoint
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - danny
+website: http://www.hagglex.com
 twitter: hagglexintl
 social:
 - https://www.linkedin.com/company/hagglex
@@ -22,7 +23,6 @@ android:
   version: 1.1.2
   reviews: 90
   icon: com.hagglex.hagglex.png
-  website: http://www.hagglex.com
   developerName: Hagglex Limited
 iphone:
   appId: com.hagglex
@@ -32,7 +32,6 @@ iphone:
   version: 1.1.2
   reviews: 107
   icon: com.hagglex.jpg
-  website: https://www.hagglex.com/
 
 ---
 

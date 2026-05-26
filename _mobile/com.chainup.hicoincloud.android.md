@@ -6,6 +6,7 @@ meta: ok
 date: 2025-02-28
 authors:
 - danny
+website: https://custody.chainup.com/
 twitter: ChainUPOfficial
 social:
 - https://www.linkedin.com/company/chainup-technology
@@ -24,7 +25,6 @@ android:
   updated: 2026-04-07
   version: 6.10.5
   icon: com.chainup.hicoincloud.android.png
-  website: https://custody.chainup.com/
   developerName: KeySecure
 iphone:
   appId: com.joycoin.hicoin

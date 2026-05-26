@@ -26,7 +26,6 @@ android:
   reviews: 191
   icon: com.valar.pintu.png
   meta: ok
-  website: https://pintu.co.id/
   developerName: Pintu Crypto
 iphone:
   appId: com.valar.pintu

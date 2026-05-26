@@ -17,7 +17,6 @@ android:
   version: 7.4.9
   reviews: 364
   icon: co.okex.app.png
-  website: https://ok-ex.co
   developerName: Technical team
 
 ---

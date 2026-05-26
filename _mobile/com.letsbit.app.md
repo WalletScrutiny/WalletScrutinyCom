@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-04-07
 authors:
 - danny
+website: https://lbfinanzas.com
 twitter: LetsBit_ok
 social:
 - https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw
@@ -23,7 +24,6 @@ android:
   reviews: 18
   icon: com.letsbit.app.png
   meta: removed
-  website: https://lbfinanzas.com
   developerName: LB Finanzas
 iphone:
   appId: com.letsbit.app
@@ -35,7 +35,6 @@ iphone:
   reviews: 420
   icon: com.letsbit.app.jpg
   meta: ok
-  website: https://www.lbfinanzas.com
   developerName: Let'sBit
 
 ---

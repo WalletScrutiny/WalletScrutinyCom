@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-17
 authors:
 - danny
+website: http://xfacia.com/
 twitter: XfaciaXchange
 social:
 - https://www.facebook.com/XFACIAXCHANGE
@@ -21,7 +22,6 @@ android:
   updated: 2022-12-21
   version: '2.0'
   icon: com.web.XFacia.png
-  website: http://xfacia.com/
   developerName: Xfacia Labs Pvt Ltd
 iphone:
   appId: com.webcom.Xfacia
@@ -32,7 +32,6 @@ iphone:
   version: '4.1'
   reviews: 0
   icon: com.webcom.Xfacia.jpg
-  website: https://xfacia.com/
   developerName: Xfacia Labs Private Limited
 
 ---

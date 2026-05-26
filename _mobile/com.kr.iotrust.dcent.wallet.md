@@ -7,6 +7,7 @@ date: 2022-01-10
 authors:
 - kiwilamb
 - danny
+website: https://dcentwallet.com/
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
@@ -28,7 +29,6 @@ android:
   version: 9.1.0
   reviews: 1001
   icon: com.kr.iotrust.dcent.wallet.png
-  website: https://dcentwallet.com/
   developerName: IoTrust Co., Ltd
 iphone:
   appId: kr.iotrust.dcent
@@ -39,7 +39,6 @@ iphone:
   version: 9.1.0
   reviews: 85
   icon: kr.iotrust.dcent.jpg
-  website: https://store.dcentwallet.com/pages/dcent-wallet-app
   developerName: IoTrust Co., Ltd
 
 ---

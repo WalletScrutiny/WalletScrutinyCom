@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-12-19
 authors:
 - danny
+website: https://x-meta.com
 twitter: XMetaOfficial
 social:
 - https://www.facebook.com/xmetaofficial
@@ -22,7 +23,6 @@ android:
   reviews: 8
   icon: com.cloud.xmeta.png
   meta: obsolete
-  website: https://x-meta.com
   developerName: x-meta
 iphone:
   appId: com.x-meta.exchange
@@ -34,7 +34,6 @@ iphone:
   reviews: 3
   icon: com.x-meta.exchange.jpg
   meta: removed
-  website: https://x-meta.com/
   developerName: X-META LLC
 
 ---

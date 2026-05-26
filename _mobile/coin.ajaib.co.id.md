@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-06
 authors:
 - danny
+website: https://kripto.ajaib.co.id/
 redirect_from:
 - /android/coin.ajaib.co.id/
 - /iphone/id.ajaib-coin.co/
@@ -17,7 +18,6 @@ android:
   version: 2.98.0
   reviews: 39
   icon: coin.ajaib.co.id.png
-  website: https://kripto.ajaib.co.id/
   developerName: Ajaib Technologies
 iphone:
   appId: id.ajaib-coin.co
@@ -28,7 +28,6 @@ iphone:
   version: 2.98.0
   reviews: 3815
   icon: id.ajaib-coin.co.jpg
-  website: https://ajaib.co.id/
   developerName: Ajaib Technologies Corporation
 
 ---

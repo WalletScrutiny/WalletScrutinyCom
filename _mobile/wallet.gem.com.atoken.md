@@ -6,6 +6,7 @@ meta: removed
 date: 2022-01-15
 authors:
 - kiwilamb
+website: https://www.atoken.com
 twitter: ATokenOfficial
 social:
 - https://www.facebook.com/ATokenOfficial
@@ -20,7 +21,6 @@ android:
   version: 4.2.1
   reviews: 2460
   icon: wallet.gem.com.atoken.png
-  website: https://www.atoken.com
 iphone:
   appId: com.jzbt.atoken
   idd: 1395835245

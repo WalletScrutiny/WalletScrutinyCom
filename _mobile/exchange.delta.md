@@ -5,6 +5,7 @@ verdict: custodial
 date: 2021-10-08
 authors:
 - danny
+website: https://delta.exchange
 twitter: Delta_Exchange
 social:
 - https://www.facebook.com/deltaexchg
@@ -21,7 +22,6 @@ android:
   version: 1.13.0
   icon: exchange.delta.png
   meta: ok
-  website: https://delta.exchange
   developerName: Delta Exchange
 iphone:
   appId: exchange.delta.app
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: exchange.delta.app.jpg
   meta: obsolete
-  website: https://www.delta.exchange/
   developerName: Bit Protocol Ltd.
 
 ---

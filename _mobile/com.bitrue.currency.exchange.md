@@ -6,6 +6,7 @@ meta: ok
 date: 2020-11-17
 authors:
 - leo
+website: https://www.bitrue.com/
 twitter: BitrueOfficial
 social:
 - https://www.facebook.com/BitrueOfficial
@@ -21,7 +22,6 @@ android:
   version: 6.1.22
   reviews: 722
   icon: com.bitrue.currency.exchange.png
-  website: https://www.bitrue.com/
   developerName: Bitrue Support
 iphone:
   appId: com.cmcm.currency.exchange
@@ -31,7 +31,6 @@ iphone:
   version: 6.1.29
   reviews: 1120
   icon: com.cmcm.currency.exchange.jpg
-  website: https://www.bitrue.com
   developerName: BITRUE SINGAPORE PTE. LTD.
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-17
 authors:
 - danny
+website: https://www.b1.zone/
 twitter: BigONEexchange
 social:
 - https://www.facebook.com/exBigONE
@@ -22,7 +23,6 @@ android:
   version: 2.6.5
   reviews: 56
   icon: one.big.png
-  website: https://www.b1.zone/
   developerName: BigONE
 iphone:
   appId: base.big.one
@@ -32,7 +32,6 @@ iphone:
   version: 2.6.502
   reviews: 112
   icon: base.big.one.jpg
-  website: http://www.bigone.com
   developerName: BigONE Investment Corporation
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-14
 authors:
 - danny
+website: https://ncwallet.net
 features:
 - fingerprint
 - tradeAlts
@@ -20,7 +21,6 @@ android:
   version: 1.0.1012
   reviews: 820
   icon: com.ncwallet.png
-  website: https://ncwallet.net
   developerName: NCW Team
 iphone:
   appId: com.ncwallet
@@ -31,7 +31,6 @@ iphone:
   version: 3.4.70
   reviews: 198
   icon: com.ncwallet.jpg
-  website: https://ncwallet.net/
   developerName: Zafiro International Limited
 
 ---

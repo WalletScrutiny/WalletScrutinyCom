@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-02
 authors:
 - danny
+website: https://staging.prestmit.com
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit
@@ -21,7 +22,6 @@ android:
   version: 7.2.491
   reviews: 861
   icon: com.prestmit.png
-  website: https://staging.prestmit.com
   developerName: Prestmit
 iphone:
   appId: com.prestmit.app
@@ -31,7 +31,6 @@ iphone:
   version: 7.2.489
   reviews: 7045
   icon: com.prestmit.app.jpg
-  website: https://prestmit.io
   developerName: Prestmit Technologies LTD.
 
 ---

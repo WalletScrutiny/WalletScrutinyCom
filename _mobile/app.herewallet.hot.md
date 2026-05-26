@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-11
 authors:
 - danny
+website: https://hot-labs.org/privacypolicy
 social:
 - https://www.instagram.com/hot_labs
 - https://t.me/hotonnear
@@ -25,7 +26,6 @@ android:
   version: '1.0'
   reviews: 64
   icon: app.herewallet.hot.png
-  website: https://hot-labs.org/privacypolicy
   developerName: HERE Wallet
   twitter: hotdao_
 iphone:
@@ -37,7 +37,6 @@ iphone:
   version: 1.0.3
   reviews: 44
   icon: app.here.dev.wallet.jpg
-  website: http://hot-labs.org/wallet
   developerName: HERE Wallet, Inc
 
 ---

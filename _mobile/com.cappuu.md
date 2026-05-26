@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-19
 authors:
 - danny
+website: https://www.coinomo.com#deadLink
 twitter: Coinomo_EN
 social:
 - https://www.instagram.com/coinomo_id
@@ -22,7 +23,6 @@ android:
   updated: 2023-08-24
   version: '3.57'
   icon: com.cappuu.png
-  website: https://www.coinomo.com#deadLink
   developerName: PT Tujuhbelas Media Indonesia
 iphone:
   appId: com.cappuu.ios
@@ -33,7 +33,6 @@ iphone:
   version: '3.56'
   reviews: 0
   icon: com.cappuu.ios.jpg
-  website: https://web.archive.org/web/20241213133502/https://coinomo.com/
   developerName: PT. TUJUHBELAS MEDIA INDONESIA
 
 ---

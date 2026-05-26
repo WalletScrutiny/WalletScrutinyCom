@@ -13,7 +13,6 @@ android:
   updated: 2026-02-19
   version: 1.0.5
   icon: com.sinest.adappterwallet.png
-  website: http://adappterwallet.io
   developerName: SHINEST Corporation
 
 ---

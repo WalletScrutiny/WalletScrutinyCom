@@ -13,7 +13,6 @@ android:
   updated: 2026-03-03
   version: 5.0.3
   icon: com.qm.bitdata.pro.png
-  website: https://www.bitdata.site
   developerName: BitDATA FINTECH Co., Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2026-04-20
 authors:
 - danny
+website: https://wallet.tether.io/support/
 twitter: Tether_to
 social:
 - https://t.me/OfficialTether
@@ -24,7 +25,6 @@ android:
   version: 1.2.0
   reviews: 8
   icon: io.tether.wallet.png
-  website: https://wallet.tether.io/support/
   developerName: Tether Data
   repository: https://github.com/tetherto/tether-wallet-app-releases
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 1.1.1
   reviews: 8
   icon: io.tether.wallet.official.jpg
-  website: https://wallet.tether.io/
   developerName: Tether Data
 
 ---

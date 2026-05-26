@@ -13,7 +13,6 @@ android:
   updated: 2025-10-31
   version: 1.1.1.93
   icon: com.masterbitexpress.wallet.png
-  website: https://www.masterbitexpress.com
   developerName: FollowMe Developments
 
 ---

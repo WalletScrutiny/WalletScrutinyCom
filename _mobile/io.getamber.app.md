@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-17
 authors:
 - danny
+website: http://amber.app
 twitter: theamberapp
 social:
 - https://www.facebook.com/theamberapp
@@ -24,7 +25,6 @@ android:
   version: 7.0.4
   reviews: 26
   icon: io.getamber.app.png
-  website: http://amber.app
   developerName: AmberLabs
 iphone:
   appId: io.getamber.app
@@ -35,7 +35,6 @@ iphone:
   version: 7.0.4
   reviews: 286
   icon: io.getamber.app.jpg
-  website: http://amber.app/
   developerName: Amber Labs
 
 ---

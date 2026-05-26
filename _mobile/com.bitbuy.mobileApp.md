@@ -23,7 +23,6 @@ android:
   version: 5.3.3
   reviews: 1383
   icon: com.bitbuy.mobileApp.jpg
-  website: https://bitbuy.ca/
   developerName: WF - Bitbuy
 iphone:
   appId: com.bitbuy.mobileApp

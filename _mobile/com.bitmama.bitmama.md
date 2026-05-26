@@ -6,6 +6,7 @@ meta: stale
 date: 2025-12-15
 authors:
 - danny
+website: https://www.bitmama.io
 twitter: bitmama
 social:
 - https://www.facebook.com/bitmama
@@ -23,7 +24,6 @@ android:
   reviews: 14
   icon: com.bitmama.bitmama.png
   meta: stale
-  website: https://www.bitmama.io
   developerName: WIL Platform Grp.
 iphone:
   appId: com.bitmama.bitmama.ios
@@ -35,7 +35,6 @@ iphone:
   reviews: 2
   icon: com.bitmama.bitmama.ios.jpg
   meta: removed
-  website: https://www.bitmama.io/
   developerName: Bitmama Inc
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-30
 authors:
 - danny
+website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
 twitter: vowcurrency
 social:
 - https://vowcurrency.com
@@ -34,7 +35,6 @@ iphone:
   version: 1.3.4
   reviews: 6
   icon: com.vowcurrency.vow.jpg
-  website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
   developerName: Vow Limited
 
 ---

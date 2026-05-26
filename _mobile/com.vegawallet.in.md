@@ -6,6 +6,7 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
+website: http://www.VegaWallet.com
 twitter: vegawallet
 social:
 - https://www.facebook.com/VegaWallet
@@ -21,7 +22,6 @@ android:
   version: 3.2.3
   reviews: 5
   icon: com.vegawallet.in.png
-  website: http://www.VegaWallet.com
   developerName: Vegawallet
 iphone:
   appId: com.vegawallet.in
@@ -31,7 +31,6 @@ iphone:
   version: '3.3'
   reviews: 9
   icon: com.vegawallet.in.jpg
-  website: https://vegawallet.com
   developerName: VegaWallet
 
 ---

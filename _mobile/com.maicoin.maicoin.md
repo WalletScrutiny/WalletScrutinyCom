@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://maicoin.com
 twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
@@ -22,7 +23,6 @@ android:
   reviews: 10
   icon: com.maicoin.maicoin.png
   meta: ok
-  website: https://maicoin.com
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.maicoin
@@ -33,7 +33,6 @@ iphone:
   reviews: 10
   icon: com.maicoin.maicoin.jpg
   meta: removed
-  website: https://max.maicoin.com
 
 ---
 

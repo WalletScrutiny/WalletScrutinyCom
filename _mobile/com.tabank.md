@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://web.tabus.co/
 twitter: OrgTabank
 social:
 - https://www.facebook.com/tabank.org
@@ -20,7 +21,6 @@ android:
   updated: 2022-02-14
   version: 1.3.7
   icon: com.tabank.png
-  website: https://web.tabus.co/
   developerName: Tabank Holding Pte. Ltd.
 iphone:
   appId: com.tabank
@@ -31,7 +31,6 @@ iphone:
   version: 1.3.5
   reviews: 24
   icon: com.tabank.jpg
-  website: https://web.tabus.co/ecommerce
   developerName: TABANK HOLDING PTE. LTD.
 
 ---

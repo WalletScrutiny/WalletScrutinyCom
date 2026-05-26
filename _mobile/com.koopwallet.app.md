@@ -6,6 +6,7 @@ meta: removed
 date: 2025-01-27
 authors:
 - danny
+website: https://koopwallet.com/privacy.html#deadLink
 twitter: KooP360
 social:
 - https://www.facebook.com/KOOP360
@@ -33,7 +34,6 @@ iphone:
   version: '20.0'
   reviews: 0
   icon: com.koopwallet.app.jpg
-  website: https://koopwallet.com/privacy.html#deadLink
   developerName: KOOP Wallet
 
 ---

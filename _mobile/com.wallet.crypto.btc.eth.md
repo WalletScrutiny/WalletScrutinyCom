@@ -24,7 +24,6 @@ android:
   version: 1.10.5
   reviews: 71
   icon: com.wallet.crypto.btc.eth.png
-  website: https://ironwallet.io/
   developerName: INWAY AKTIENGESELLSCHAFT
   repository: https://github.com/Ironwallet/IronWallet
 iphone:

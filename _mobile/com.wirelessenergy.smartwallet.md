@@ -6,6 +6,7 @@ meta: fewusers
 date: 2026-05-05
 authors:
 - danny
+website: https://swttoken.com/
 twitter: swttoken
 social:
 - https://t.me/swttoken
@@ -32,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.wirelessenergy.smartwallet.jpg
   meta: ok
-  website: https://swttoken.com/
   developerName: Smart Wallet Token
 
 ---

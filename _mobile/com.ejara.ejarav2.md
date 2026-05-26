@@ -21,7 +21,6 @@ android:
   version: 3.9.9
   reviews: 26
   icon: com.ejara.ejarav2.png
-  website: https://www.ejara.io
   developerName: Ejara
 iphone:
   appId: com.ejara.ejarav2

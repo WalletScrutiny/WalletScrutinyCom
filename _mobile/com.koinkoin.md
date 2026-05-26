@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-01-18
 authors:
 - danny
+website: https://koinkoin.io/
 twitter: koinkoin13
 social:
 - https://www.reddit.com/r/KoinKoin_io/
@@ -24,7 +25,6 @@ android:
   version: 6.2.5
   icon: com.koinkoin.png
   meta: removed
-  website: https://koinkoin.io/
   developerName: KoinKoin Development Enterprise
 iphone:
   appId: com.koinkoin.app
@@ -36,7 +36,6 @@ iphone:
   reviews: 1
   icon: com.koinkoin.app.jpg
   meta: ok
-  website: https://koinkoin.io#deadLink
   developerName: KoinKoin Ltd
 
 ---

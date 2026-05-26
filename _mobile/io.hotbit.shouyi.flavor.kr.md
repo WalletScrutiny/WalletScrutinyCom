@@ -6,6 +6,7 @@ meta: removed
 date: 2022-05-31
 authors:
 - danny
+website: https://www.bitclover.io#deadLink
 twitter: hotbit_korea
 redirect_from:
 - /android/io.hotbit.shouyi.flavor.kr/
@@ -19,7 +20,6 @@ android:
   version: 1.0.75
   reviews: 238
   icon: io.hotbit.shouyi.flavor.kr.jpg
-  website: https://www.bitclover.io#deadLink
   developerName: TresLab
 iphone:
   appId: io.hotbit.shouyi.flavor.korea
@@ -30,7 +30,6 @@ iphone:
   version: 1.1.52
   reviews: 36
   icon: io.hotbit.shouyi.flavor.korea.jpg
-  website: https://www.hotbit.co.kr/
 
 ---
 

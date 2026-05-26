@@ -16,7 +16,6 @@ android:
   version: 3.13.5
   reviews: 8
   icon: io.ducatus.walnew.png
-  website: https://ducatus.net/
   developerName: Ducatus Commerce
 
 ---

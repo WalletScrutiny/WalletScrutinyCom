@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-11
 authors:
 - danny
+website: https://www.protonchain.com#deadLink
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr
@@ -23,7 +24,6 @@ android:
   version: 1.5.20
   reviews: 82
   icon: com.metallicus.protonwallet.png
-  website: https://www.protonchain.com#deadLink
   developerName: Metallicus Inc.
 iphone:
   appId: com.metallicus.proton
@@ -33,7 +33,6 @@ iphone:
   version: 1.1.20
   reviews: 251
   icon: com.metallicus.proton.jpg
-  website: https://web.archive.org/web/20220601075516/https://www.protonchain.com/
 
 ---
 

@@ -23,7 +23,6 @@ android:
   version: 1.3.209
   reviews: 15
   icon: money.boku.android.jpg
-  website: https://neverless.com
   developerName: neverless
 iphone:
   appId: money.boku.ios

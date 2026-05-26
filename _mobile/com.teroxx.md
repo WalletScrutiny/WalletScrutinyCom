@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-15
 authors:
 - danny
+website: https://www.teroxx.com/
 appCountry: us
 redirect_from:
 - /android/com.teroxx/
@@ -17,7 +18,6 @@ android:
   updated: 2026-05-14
   version: 3.0.55
   icon: com.teroxx.png
-  website: https://www.teroxx.com/
   developerName: Teroxx
 iphone:
   appId: Teroxx
@@ -27,7 +27,6 @@ iphone:
   version: 3.0.49
   reviews: 1
   icon: Teroxx.jpg
-  website: https://teroxxapp.com#deadLink
   developerName: Teroxx Worldwide UAB
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2020-10-12
 authors:
 - leo
+website: https://spectrocoin.com
 twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin
@@ -24,7 +25,6 @@ android:
   version: 2.10.0
   reviews: 44
   icon: lt.spectrofinance.spectrocoin.android.wallet.png
-  website: https://spectrocoin.com
   developerName: Spectro Finance
 iphone:
   appId: lt.spectrofinance.spectrocoin.ios.wallet
@@ -35,7 +35,6 @@ iphone:
   version: 2.10.0
   reviews: 11
   icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
-  website: https://spectrocoin.com/
   developerName: UAB Spectro Finance
 
 ---

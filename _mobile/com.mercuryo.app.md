@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-10-07
 authors:
 - leo
+website: https://mercuryo.io
 twitter: Mercuryo_io
 social:
 - https://www.linkedin.com/company/mercuryo-io
@@ -23,7 +24,6 @@ android:
   reviews: 127
   icon: com.mercuryo.app.png
   meta: removed
-  website: https://mercuryo.io
   developerName: Mercuryo
 iphone:
   appId: com.mercuryo.app
@@ -35,7 +35,6 @@ iphone:
   reviews: 1133
   icon: com.mercuryo.app.jpg
   meta: ok
-  website: https://mercuryo.io/
   developerName: MonayAmber UAB
 
 ---

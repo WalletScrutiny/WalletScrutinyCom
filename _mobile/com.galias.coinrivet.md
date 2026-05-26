@@ -6,6 +6,7 @@ meta: ok
 date: 2024-04-02
 authors:
 - danny
+website: https://coinrivet.com/
 twitter: CoinRivet
 social:
 - https://coinrivet.com
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-18
   version: 1.5.2.1248
   icon: com.galias.coinrivet.png
-  website: https://coinrivet.com/
   developerName: Galias Services
 iphone:
   appId: com.luxontech.coinrivet

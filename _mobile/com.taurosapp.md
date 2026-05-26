@@ -6,6 +6,7 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
+website: https://tauros.io#deadLink
 twitter: tauros_io
 social:
 - https://www.instagram.com/tauros.io/
@@ -24,7 +25,6 @@ android:
   version: 9.6.4
   reviews: 5
   icon: com.taurosapp.png
-  website: https://tauros.io#deadLink
   developerName: Tauros Exchange S.A. de C.V.
 iphone:
   appId: com.taurosapp

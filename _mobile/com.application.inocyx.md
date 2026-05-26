@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-01
 authors:
 - danny
+website: https://inocyx.com/
 twitter: INOCYX
 social:
 - https://www.linkedin.com/company/inocyx
@@ -27,7 +28,6 @@ android:
   updated: 2026-05-14
   version: 1.80.58
   icon: com.application.inocyx.png
-  website: https://inocyx.com/
   developerName: INOCYX
 iphone:
   appId: com.app.Inocyx

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-17
 authors:
 - danny
+website: https://www.swanbitcoin.com
 twitter: swan
 social:
 - https://www.instagram.com/swanbitcoin
@@ -24,7 +25,6 @@ android:
   version: 3.19.0
   reviews: 265
   icon: com.swanbitcoin.android.png
-  website: https://www.swanbitcoin.com
   developerName: Swan Bitcoin
 iphone:
   appId: com.swanbitcoin.app
@@ -35,7 +35,6 @@ iphone:
   version: 3.19.0
   reviews: 3958
   icon: com.swanbitcoin.app.jpg
-  website: http://www.swanbitcoin.com
   developerName: Swan Bitcoin
 
 ---

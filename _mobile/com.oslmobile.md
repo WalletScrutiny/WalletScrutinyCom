@@ -24,7 +24,6 @@ android:
   version: 3.6.20
   reviews: 34
   icon: com.oslmobile.png
-  website: https://osl.com
   developerName: BC Technology (HK) Limited
 iphone:
   appId: com.osl.mobile.OslMobile

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-21
 authors:
 - danny
+website: https://www.gate.com/
 twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal
@@ -22,7 +23,6 @@ android:
   version: 8.20.1
   reviews: 7148
   icon: com.gateio.gateio.png
-  website: https://www.gate.com/
   developerName: Gate.com
 iphone:
   appId: com.gateio.app.gateio-app
@@ -32,7 +32,6 @@ iphone:
   version: 8.18.5
   reviews: 1424
   icon: com.gateio.app.gateio-app.jpg
-  website: https://www.gate.com
   developerName: GATE GLOBAL UAB
 
 ---

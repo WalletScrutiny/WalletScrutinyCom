@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.sanalira.com
 social:
 - https://www.facebook.com/sanaliracom
 - https://www.instagram.com/sanaliracom
@@ -21,7 +22,6 @@ android:
   updated: 2022-06-14
   version: 1.0.32
   icon: com.sanalira.app.png
-  website: https://www.sanalira.com
   developerName: SANALİRA
   twitter: sanaliracom
 iphone:

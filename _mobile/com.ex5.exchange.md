@@ -12,7 +12,6 @@ android:
   updated: 2025-10-31
   version: 1.0.4
   icon: com.ex5.exchange.png
-  website: https://ex5.com
   developerName: EX5
 
 ---

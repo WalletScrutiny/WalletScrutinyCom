@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-02
 authors:
 - danny
+website: https://pandar.ng
 twitter: PandarNG
 redirect_from:
 - /android/i.brains.pandax/
@@ -18,7 +19,6 @@ android:
   version: 3.1.7
   reviews: 274
   icon: i.brains.pandax.png
-  website: https://pandar.ng
   developerName: Pandar Resources
 iphone:
   appId: ng.pandar.resource

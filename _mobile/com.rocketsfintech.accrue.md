@@ -21,7 +21,6 @@ android:
   version: 4.9.52
   reviews: 68
   icon: com.rocketsfintech.accrue.png
-  website: https://useaccrue.com
   developerName: Accrue Wealth Inc
 iphone:
   appId: com.rocketsfintech.accrue-dca

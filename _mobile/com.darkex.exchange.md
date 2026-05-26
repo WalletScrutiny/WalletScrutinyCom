@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://darkex.com
 twitter: darkexglobal
 redirect_from:
 - /android/com.darkex.exchange/
@@ -16,7 +17,6 @@ android:
   updated: 2026-02-06
   version: 7.0.0
   icon: com.darkex.exchange.png
-  website: https://darkex.com
   developerName: DarkEx
 iphone:
   appId: com.darkex.darkex
@@ -27,7 +27,6 @@ iphone:
   version: 7.0.1
   reviews: 13
   icon: com.darkex.darkex.jpg
-  website: https://www.darkex.com/
   developerName: Darkex Exchange LLC
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.rakuten-wallet.co.jp/
 twitter: Rakuten_Wallet
 redirect_from:
 - /android/jp.co.rakuten.wallet.leverage/
@@ -17,7 +18,6 @@ android:
   updated: 2023-02-17
   version: 1.2.4
   icon: jp.co.rakuten.wallet.leverage.png
-  website: https://www.rakuten-wallet.co.jp/
   developerName: Rakuten Wallet
 iphone:
   appId: jp.co.rakuten.wallet.leverage

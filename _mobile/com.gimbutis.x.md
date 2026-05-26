@@ -12,7 +12,6 @@ android:
   updated: 2026-05-11
   version: 1.6.4
   icon: com.gimbutis.x.png
-  website: https://gimbutiscoin.com/
   developerName: unus nullus
 
 ---

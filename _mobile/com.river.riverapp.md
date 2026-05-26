@@ -6,6 +6,7 @@ meta: ok
 date: 2023-12-15
 authors:
 - danny
+website: https://river.com/
 twitter: River
 social:
 - https://www.linkedin.com/company/riverfinancial
@@ -23,7 +24,6 @@ android:
   version: 7.62.2
   reviews: 304
   icon: com.river.riverapp.png
-  website: https://river.com/
   developerName: River Financial
 iphone:
   appId: com.river.riverapp
@@ -34,7 +34,6 @@ iphone:
   version: 7.54.7
   reviews: 7940
   icon: com.river.riverapp.jpg
-  website: https://river.com/buy-bitcoin
   developerName: River Financial Inc.
 
 ---

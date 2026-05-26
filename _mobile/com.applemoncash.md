@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-12
 authors:
 - danny
+website: https://lemon.me
 twitter: lemonapp_ar
 redirect_from:
 - /android/com.applemoncash/
@@ -17,7 +18,6 @@ android:
   version: 3.0.1
   reviews: 13
   icon: com.applemoncash.png
-  website: https://lemon.me
   developerName: Lemon Cash Inc
 iphone:
   appId: org.reactjs.native.lemon.appLemonCash
@@ -28,7 +28,6 @@ iphone:
   version: 3.0.1
   reviews: 4069
   icon: org.reactjs.native.lemon.appLemonCash.jpg
-  website: https://www.lemon.me/
   developerName: Lemon Cash Inc
 
 ---

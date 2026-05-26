@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-21
 authors:
 - danny
+website: https://coinone.co.kr
 twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
@@ -23,7 +24,6 @@ android:
   version: 5.30.0
   reviews: 15
   icon: coinone.co.kr.official.png
-  website: https://coinone.co.kr
   developerName: Coinone
 iphone:
   appId: kr.co.coinone.officialapp

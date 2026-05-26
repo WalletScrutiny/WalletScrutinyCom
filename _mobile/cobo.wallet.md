@@ -40,7 +40,6 @@ iphone:
   reviews: 6
   icon: cobo.wallet.jpg
   meta: ok
-  website: https://cobo.com
   developerName: Cobo Global Limited
 
 ---

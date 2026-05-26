@@ -6,6 +6,7 @@ meta: ok
 date: 2023-09-07
 authors:
 - danny
+website: https://ari10.com
 twitter: ari10com
 social:
 - https://www.instagram.com/senexpay
@@ -24,7 +25,6 @@ android:
   updated: 2026-02-11
   version: 2.10.3
   icon: com.ari10.bitcan.png
-  website: https://ari10.com
   developerName: ARI10
 iphone:
   appId: com.ari10.bitcan
@@ -35,7 +35,6 @@ iphone:
   version: 2.10.2
   reviews: 164
   icon: com.ari10.bitcan.jpg
-  website: https://ari10.com/exchange
   developerName: BITCAN sp. z o.o.
 
 ---

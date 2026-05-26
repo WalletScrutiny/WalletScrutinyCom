@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-15
 authors:
 - danny
+website: https://invest.matrixport.com
 twitter: realMatrixport
 social:
 - https://www.linkedin.com/company/matrixport
@@ -23,7 +24,6 @@ android:
   version: 3.8.6
   reviews: 870
   icon: com.matrixport.mark.png
-  website: https://invest.matrixport.com
   developerName: MATRIX TECH PTE. LTD
 iphone:
   appId: com.matrixport.mark
@@ -34,7 +34,6 @@ iphone:
   version: 4.6.00
   reviews: 52
   icon: com.matrixport.mark.jpg
-  website: https://www.bit.com
   developerName: Matrixport Technologies Ltd
 
 ---

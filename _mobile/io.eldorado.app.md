@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-18
 authors:
 - danny
+website: https://eldorado.io
 twitter: eldoradoio
 social:
 - https://www.linkedin.com/company/eldoradoio
@@ -23,7 +24,6 @@ android:
   reviews: 487
   icon: io.eldorado.app.png
   meta: ok
-  website: https://eldorado.io
   developerName: eldorado.io
 iphone:
   appId: io.eldorado.app.v1
@@ -35,7 +35,6 @@ iphone:
   reviews: 6036
   icon: io.eldorado.app.v1.jpg
   meta: removed
-  website: https://eldorado.io/
   developerName: eldorado.io
 
 ---

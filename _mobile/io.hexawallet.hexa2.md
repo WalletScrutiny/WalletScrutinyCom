@@ -7,6 +7,7 @@ date: 2025-03-11
 authors:
 - danny
 - keraliss
+website: https://bitcointribe.app/
 repository: https://github.com/bithyve/bitcointribe-classic
 twitter: HexaWallet
 social:
@@ -25,7 +26,6 @@ android:
   version: 2.4.6
   reviews: 6
   icon: io.hexawallet.hexa2.png
-  website: https://bitcointribe.app/
   developerName: BitHyve UK Ltd.
 iphone:
   appId: io.hexawallet.hexa2
@@ -35,7 +35,6 @@ iphone:
   version: 2.4.8
   reviews: 9
   icon: io.hexawallet.hexa2.jpg
-  website: https://hexawallet.io/
   developerName: Bithyve
 
 ---

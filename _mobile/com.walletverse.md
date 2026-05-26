@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-31
 authors:
 - danny
+website: https://walletverse.io/
 twitter: walletverse_io
 social:
 - https://www.linkedin.com/company/walletverse
@@ -29,7 +30,6 @@ android:
   version: 1.17.0
   reviews: 13
   icon: com.walletverse.png
-  website: https://walletverse.io/
   developerName: ilink Ltd.
 iphone:
   appId: ilink.walletverse
@@ -40,7 +40,6 @@ iphone:
   version: 1.17.1
   reviews: 41
   icon: ilink.walletverse.jpg
-  website: https://walletverse.io
   developerName: ilink Ltd.
 
 ---

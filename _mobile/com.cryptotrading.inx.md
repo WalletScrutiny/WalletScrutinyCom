@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-30
 authors:
 - danny
+website: https://www.inx.co
 twitter: INX_Group
 social:
 - https://www.linkedin.com/company/theinxdigitalcompany
@@ -26,7 +27,6 @@ android:
   version: 2.0.12
   reviews: 18
   icon: com.cryptotrading.inx.png
-  website: https://www.inx.co
   developerName: The INX Digital Company
 iphone:
   appId: inx.co

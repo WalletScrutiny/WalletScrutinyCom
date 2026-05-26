@@ -6,6 +6,7 @@ meta: ok
 date: 2020-03-15
 authors:
 - leo
+website: https://www.binance.com/
 twitter: binance
 social:
 - https://www.facebook.com/binance
@@ -24,7 +25,6 @@ android:
   version: 3.14.7
   reviews: 16626
   icon: com.binance.dev.png
-  website: https://www.binance.com/
   developerName: Binance Inc.
 iphone:
   appId: com.czzhao.binance
@@ -35,7 +35,6 @@ iphone:
   version: 3.15.0
   reviews: 51686
   icon: com.czzhao.binance.jpg
-  website: https://www.binance.com
   developerName: Binance Switzerland AG
 
 ---

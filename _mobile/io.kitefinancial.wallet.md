@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-07-10
 authors:
 - danny
+website: https://kitefinancial.io
 twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial
@@ -22,7 +23,6 @@ android:
   reviews: 4
   icon: io.kitefinancial.wallet.png
   meta: removed
-  website: https://kitefinancial.io
   developerName: Kite Financial (Kite Tech Ltd UK)
 iphone:
   appId: io.kitefinancial.bitcoin

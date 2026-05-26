@@ -6,6 +6,7 @@ meta: ok
 date: 2025-05-23
 authors:
 - danny
+website: https://www.emoney.ge/
 social:
 - https://www.instagram.com/emoney.georgia
 - https://www.facebook.com/emoney.ge
@@ -20,7 +21,6 @@ android:
   version: 11.5.10
   reviews: 33
   icon: ge.mobility.emoney.png
-  website: https://www.emoney.ge/
   developerName: eMoney Georgia
 iphone:
   appId: ge.smatex.eMoney
@@ -31,7 +31,6 @@ iphone:
   version: 11.5.10
   reviews: 8
   icon: ge.smatex.eMoney.jpg
-  website: http://emoney.ge
   developerName: eMoney
 
 ---

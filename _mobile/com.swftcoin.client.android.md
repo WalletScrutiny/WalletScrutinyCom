@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-04-16
 authors:
 - leo
+website: http://www.swft.pro/
 twitter: SwftCoin
 social:
 - https://www.linkedin.com/company/swftcoin
@@ -23,7 +24,6 @@ android:
   reviews: 146
   icon: com.swftcoin.client.android.png
   meta: removed
-  website: http://www.swft.pro/
   developerName: GooCoin
 iphone:
   appId: com.SwftBlockChain.client
@@ -35,7 +35,6 @@ iphone:
   reviews: 23
   icon: com.SwftBlockChain.client.jpg
   meta: ok
-  website: http://www.swft.pro
   developerName: Smart Worldwide Financial Technology Inc.
 
 ---

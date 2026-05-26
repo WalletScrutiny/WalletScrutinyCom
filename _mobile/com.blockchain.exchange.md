@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.blockchain.com
 twitter: blockchain
 social:
 - https://www.instagram.com/blockchainofficial
@@ -20,7 +21,6 @@ android:
   version: 202310.1.1
   reviews: 44
   icon: com.blockchain.exchange.png
-  website: https://www.blockchain.com
   developerName: Blockchain Luxembourg S.A.
 iphone:
   appId: com.blockchain.exchangeapp
@@ -31,7 +31,6 @@ iphone:
   version: 202401.1.1
   reviews: 167
   icon: com.blockchain.exchangeapp.jpg
-  website: https://exchange.blockchain.com/
   developerName: Blockchain
 
 ---

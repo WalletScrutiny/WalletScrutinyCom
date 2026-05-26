@@ -6,6 +6,7 @@ meta: ok
 date: 2025-10-02
 authors:
 - danny
+website: https://skilling.com/
 twitter: SkillingTrading
 social:
 - https://www.linkedin.com/company/skilling
@@ -22,7 +23,6 @@ android:
   version: 3.0.5
   reviews: 7
   icon: com.FinovelCyprusLimited.Skilling.png
-  website: https://skilling.com/
   developerName: Skilling
 iphone:
   appId: com.FinovelCyprusLimited.Skilling
@@ -33,7 +33,6 @@ iphone:
   version: 3.0.5
   reviews: 11
   icon: com.FinovelCyprusLimited.Skilling.jpg
-  website: https://skilling.com
   developerName: Skilling Limited
 
 ---

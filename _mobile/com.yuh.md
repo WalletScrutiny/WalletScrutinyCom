@@ -21,7 +21,6 @@ android:
   version: 1.44.6
   reviews: 4
   icon: com.yuh.png
-  website: https://www.yuh.com
   developerName: Swissquote Mobile
 iphone:
   appId: com.swissquote.Yuh

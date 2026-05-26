@@ -13,7 +13,6 @@ android:
   updated: 2021-05-21
   version: '4'
   icon: com.spacelink.exchange.png
-  website: https://spacelink.exchange
   developerName: Space-link
 
 ---

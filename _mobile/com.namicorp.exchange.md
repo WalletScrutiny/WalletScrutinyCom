@@ -6,6 +6,7 @@ meta: ok
 date: 2022-07-20
 authors:
 - danny
+website: https://nami.exchange
 twitter: NamiTrade
 social:
 - https://www.reddit.com/r/NAMIcoin/
@@ -23,7 +24,6 @@ android:
   reviews: 11
   icon: com.namicorp.exchange.png
   meta: ok
-  website: https://nami.exchange
   developerName: NAMI EXCHANGE
 iphone:
   appId: com.namicorp.exchange
@@ -35,7 +35,6 @@ iphone:
   reviews: 20
   icon: com.namicorp.exchange.jpg
   meta: removed
-  website: https://nami.io/
   developerName: NAMI TRADE PTE. LTD.
 
 ---

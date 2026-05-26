@@ -4,6 +4,7 @@ meta: ok
 date: 2025-11-17
 authors:
 - danny
+website: http://www.cryptokeeperllc.com
 features:
 - foss
 redirect_from:
@@ -18,7 +19,6 @@ android:
   reviews: 12
   icon: com.flx.cryptokeeper.png
   verdict: custodial
-  website: http://www.cryptokeeperllc.com
   developerName: Crypto Keeper LLC
 iphone:
   appId: com.flx.cryptokeeper
@@ -30,7 +30,6 @@ iphone:
   reviews: 29
   icon: com.flx.cryptokeeper.jpg
   verdict: wip
-  website: https://cryptokeeperllc.com/policy/privacy-policy/
   developerName: Crypto Keeper
 
 ---

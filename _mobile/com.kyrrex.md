@@ -24,7 +24,6 @@ android:
   version: production/v4.2.62
   icon: com.kyrrex.jpg
   meta: ok
-  website: https://kyrrex.com
   developerName: Kyrrex
 iphone:
   appId: com.kyrrex.app

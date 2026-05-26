@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-25
 authors:
 - danny
+website: https://blockchain.com.do
 twitter: blocknanceATM
 social:
 - https://www.linkedin.com/company/blocknance
@@ -23,7 +24,6 @@ android:
   version: '1.1'
   reviews: 3
   icon: com.blocknance.wallet.png
-  website: https://blockchain.com.do
   developerName: Blocknance Financial International SRL
 iphone:
   appId: org.reactjs.native.example.blocknance

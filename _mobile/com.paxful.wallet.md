@@ -6,6 +6,7 @@ meta: removed
 date: 2024-12-08
 authors:
 - leo
+website: https://Paxful.com
 twitter: paxful
 social:
 - https://www.facebook.com/paxful
@@ -27,7 +28,6 @@ android:
   version: 3.3.1.727
   reviews: 1962
   icon: com.paxful.wallet.png
-  website: https://Paxful.com
   developerName: PaxfulDev
   bugbounty: https://paxful.com/bug-bounty-policy
 iphone:
@@ -38,7 +38,6 @@ iphone:
   version: 3.0.2
   reviews: 3597
   icon: com.paxful.wallet.jpg
-  website: https://paxful.com
   developerName: Paxful Inc
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-09
 authors:
 - danny
+website: https://libertex.org
 twitter: libertex_latam
 appCountry: cl
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 1269
   icon: org.fxclub.libertex.png
   meta: ok
-  website: https://libertex.org
   developerName: Libertex International Company LLC
 iphone:
   appId: org.fxclub.LibertexCL
@@ -31,7 +31,6 @@ iphone:
   reviews: 429
   icon: org.fxclub.LibertexCL.jpg
   meta: removed
-  website: https://libertex.org/
 
 ---
 

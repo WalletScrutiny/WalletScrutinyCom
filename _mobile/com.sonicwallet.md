@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.sonicwallet.com
 twitter: SonicWalletHQ
 social:
 - https://www.facebook.com/sonicwallet
@@ -23,7 +24,6 @@ android:
   updated: 2024-11-16
   version: 1.1.41
   icon: com.sonicwallet.png
-  website: https://www.sonicwallet.com
   developerName: Sonic Inc
 iphone:
   appId: com.sonicwallet

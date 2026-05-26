@@ -12,7 +12,6 @@ android:
   updated: 2025-12-20
   version: VARY
   icon: com.truewallet.app.png
-  website: https://truewallet.dev/
   developerName: INRX CONSENSUS LLP
 
 ---

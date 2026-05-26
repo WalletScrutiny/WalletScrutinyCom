@@ -12,7 +12,6 @@ android:
   updated: 2025-11-26
   version: 1.2.0
   icon: com.ewetechnology.wallet.remixdao.png
-  website: https://benty.ewetechnology.com/
   developerName: ewe technology
 
 ---

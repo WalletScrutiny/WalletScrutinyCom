@@ -6,6 +6,7 @@ meta: deprecated
 date: 2025-11-20
 authors:
 - danny
+website: https://easycrypto.com/
 social:
 - https://www.facebook.com/easycryptoau
 - https://www.instagram.com/easycrypto.global
@@ -20,7 +21,6 @@ android:
   updated: 2026-03-19
   version: prod-1.18.11
   icon: com.octopass.app.png
-  website: https://easycrypto.com/
   developerName: Dott Enterprises Limited
   twitter: easycrypto
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 1.18.11
   reviews: 1540
   icon: com.octopass.app.jpg
-  website: https://easycrypto.com
   developerName: Dott Enterprises Ltd.
 
 ---

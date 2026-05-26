@@ -6,6 +6,7 @@ meta: obsolete
 date: 2026-01-08
 authors:
 - leo
+website: https://www.abra.com/
 twitter: AbraGlobal
 social:
 - https://www.linkedin.com/company/abra
@@ -23,7 +24,6 @@ android:
   version: '146.0'
   reviews: 2894
   icon: com.plutus.wallet.png
-  website: https://www.abra.com/
   developerName: Plutus Financial Inc
 iphone:
   appId: com.goabra.abra

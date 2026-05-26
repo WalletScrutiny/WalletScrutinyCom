@@ -23,7 +23,6 @@ android:
   reviews: 13
   icon: mn.trade.png
   meta: defunct
-  website: https://trade.mn
   developerName: Digital Exchange Mongolia LLC
 iphone:
   appId: mn.trade

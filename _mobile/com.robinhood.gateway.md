@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-08
 authors:
 - danny
+website: https://robinhood.com/web3-wallet/
 twitter: RobinhoodApp
 social:
 - https://www.instagram.com/robinhoodapp
@@ -26,7 +27,6 @@ android:
   version: 2026.20.0
   reviews: 196
   icon: com.robinhood.gateway.png
-  website: https://robinhood.com/web3-wallet/
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Gateway
@@ -37,7 +37,6 @@ iphone:
   version: 2026.20.0
   reviews: 4927
   icon: com.robinhood.release.Gateway.jpg
-  website: https://robinhood.com/web3-wallet
   developerName: Robinhood Markets, Inc.
 
 ---

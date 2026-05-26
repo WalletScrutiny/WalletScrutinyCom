@@ -6,6 +6,7 @@ meta: fewusers
 date: 2026-05-05
 authors:
 - danny
+website: http://www.albos.io/
 twitter: ALBOS77566387
 redirect_from:
 - /android/io.albos.wallet/
@@ -18,7 +19,6 @@ android:
   version: 2.5.1
   icon: io.albos.wallet.png
   meta: fewusers
-  website: http://www.albos.io/
   developerName: ALBOS AND MARE PARTNERS OÜ
 iphone:
   appId: com.albos.wallet
@@ -30,7 +30,6 @@ iphone:
   reviews: 1
   icon: com.albos.wallet.jpg
   meta: stale
-  website: http://www.albos.io
   developerName: ALBOS & MARE PARTNERS
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-25
 authors:
 - danny
+website: https://www.bitfortip.com/
 twitter: bitfortip
 social:
 - https://www.linkedin.com/company/bitfortip
@@ -22,7 +23,6 @@ android:
   version: '2.6'
   reviews: 3
   icon: com.rishabh.bitfortip.jpg
-  website: https://www.bitfortip.com/
   developerName: Bitfortip
 iphone:
   appId: com.bitfortip.bitfortipapp
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.1
   reviews: 1
   icon: com.bitfortip.bitfortipapp.jpg
-  website: https://www.youtube.com/watch?v=62iDBVDlhIU
   developerName: BITFORTIP PTY LTD
 
 ---

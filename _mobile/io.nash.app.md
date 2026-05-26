@@ -22,7 +22,6 @@ android:
   version: 17.0.24
   reviews: 25
   icon: io.nash.app.png
-  website: https://nash.io
   developerName: nash.io
 iphone:
   appId: io.nash.app

@@ -6,6 +6,7 @@ meta: removed
 date: 2025-07-03
 authors:
 - danny
+website: http://blocktrade.com
 twitter: Blocktradecom
 social:
 - https://www.linkedin.com/company/blocktradecom
@@ -22,7 +23,6 @@ android:
   version: 4.1.4
   reviews: 9
   icon: com.blocktrade.android.png
-  website: http://blocktrade.com
   developerName: Blocktrade
 iphone:
   appId: com.blocktrade.ios
@@ -33,7 +33,6 @@ iphone:
   version: 4.1.3
   reviews: 30
   icon: com.blocktrade.ios.jpg
-  website: https://blocktrade.com
   developerName: BlocktradeOperations OU
 
 ---

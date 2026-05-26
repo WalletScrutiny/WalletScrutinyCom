@@ -6,6 +6,7 @@ meta: obsolete
 date: 2026-04-13
 authors:
 - danny
+website: https://vaultex.co/
 redirect_from:
 - /android/co.vaultex.wallet/
 - /iphone/co.vaultex.wallet/
@@ -17,7 +18,6 @@ android:
   version: '1.0'
   icon: co.vaultex.wallet.jpg
   meta: obsolete
-  website: https://vaultex.co/
   developerName: Vaultex Ltd
 iphone:
   appId: co.vaultex.wallet
@@ -29,7 +29,6 @@ iphone:
   reviews: 0
   icon: co.vaultex.wallet.jpg
   meta: removed
-  website: https://vaultex.co
   developerName: Vaultex Ltd
 
 ---

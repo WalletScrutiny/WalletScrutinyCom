@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://pro.nexo.com/
 twitter: Nexo
 social:
 - https://www.reddit.com/r/Nexo
@@ -23,7 +24,6 @@ android:
   version: 1.4.3
   reviews: 1
   icon: io.nexo.pro.png
-  website: https://pro.nexo.com/
   developerName: Nexo Capital Incorporated
 iphone:
   appId: com.nexo.pro

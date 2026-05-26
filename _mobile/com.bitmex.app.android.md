@@ -20,7 +20,6 @@ android:
   updated: 2026-05-21
   version: 3.2.10
   icon: com.bitmex.app.android.png
-  website: https://www.bitmex.com/
   developerName: BitMEX
 iphone:
   appId: com.bitmex.app.ios

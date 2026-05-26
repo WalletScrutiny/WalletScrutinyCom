@@ -6,6 +6,7 @@ meta: obsolete
 date: 2024-02-05
 authors:
 - danny
+website: https://bekonta.com
 social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
@@ -21,7 +22,6 @@ android:
   version: 1.0.3
   icon: com.bitpezapro.app.png
   meta: obsolete
-  website: https://bekonta.com
   developerName: Describe Innovations
 iphone:
   appId: com.bekonta.app
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: com.bekonta.app.jpg
   meta: removed
-  website: http://www.bekonta.com
   developerName: Bitpeza Technology Limited
 
 ---

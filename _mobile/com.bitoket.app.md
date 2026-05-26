@@ -13,7 +13,6 @@ android:
   updated: 2026-03-31
   version: 1.9.0
   icon: com.bitoket.app.png
-  website: https://bitoket.com
   developerName: InfinityChain
 
 ---

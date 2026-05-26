@@ -22,7 +22,6 @@ android:
   version: 2.437.2
   reviews: 1088074
   icon: com.mercadopago.wallet.png
-  website: http://www.mercadopago.com
   developerName: Mercado Libre
 iphone:
   appId: com.mercadopago.MercadoPago

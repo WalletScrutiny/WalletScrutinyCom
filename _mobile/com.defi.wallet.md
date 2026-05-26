@@ -7,6 +7,7 @@ date: 2021-10-24
 authors:
 - leo
 - danny
+website: https://www.crypto.com
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom
@@ -31,7 +32,6 @@ android:
   version: 2.50.0
   reviews: 3751
   icon: com.defi.wallet.png
-  website: https://www.crypto.com
   developerName: Crypto.com Onchain Wallet
 iphone:
   appId: com.defi.wallet
@@ -41,7 +41,6 @@ iphone:
   version: 2.50.3
   reviews: 20937
   icon: com.defi.wallet.jpg
-  website: https://crypto.com/onchain
   developerName: Onchain Wallet Limited
 
 ---

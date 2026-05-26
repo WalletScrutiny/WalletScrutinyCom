@@ -23,7 +23,6 @@ android:
   version: 1.0.9
   icon: com.zapwallet.app.png
   meta: stale
-  website: https://zap.africa
   developerName: Zap Technology
 iphone:
   appId: com.zapapp

@@ -6,6 +6,7 @@ meta: removed
 date: 2026-04-13
 authors:
 - danny
+website: http://bitazza.com/
 twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal
@@ -21,7 +22,6 @@ android:
   updated: 2026-03-17
   version: 4.7.8
   icon: com.bitazza.android.gl.png
-  website: http://bitazza.com/
   developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.global.ios
@@ -32,7 +32,6 @@ iphone:
   version: 3.9.26
   reviews: 188
   icon: com.bitazza.global.ios.jpg
-  website: https://www.bitazza.com
   developerName: Bitazza Company Limited
 
 ---

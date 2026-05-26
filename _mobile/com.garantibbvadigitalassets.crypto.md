@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-23
 authors:
 - danny
+website: https://www.garantibbvakripto.com.tr
 social:
 - https://www.linkedin.com/company/garantibbvakripto
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.15.0
   reviews: 3
   icon: com.garantibbvadigitalassets.crypto.png
-  website: https://www.garantibbvakripto.com.tr
   developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
 iphone:
   appId: com.garanti.cepsube

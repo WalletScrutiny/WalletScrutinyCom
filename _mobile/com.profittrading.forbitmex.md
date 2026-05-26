@@ -19,7 +19,6 @@ android:
   version: 8.1.1
   reviews: 8
   icon: com.profittrading.forbitmex.png
-  website: https://profittradingapp.com?utm_source=bitmex_gp
   developerName: ProfitTradingApp
 
 ---

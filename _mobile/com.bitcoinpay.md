@@ -13,7 +13,6 @@ android:
   updated: 2025-09-12
   version: 2.1.5
   icon: com.bitcoinpay.png
-  website: https://bitcoinpay.trade
   developerName: BitCoinPay Trade
 
 ---

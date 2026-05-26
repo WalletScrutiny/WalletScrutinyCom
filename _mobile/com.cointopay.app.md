@@ -6,6 +6,7 @@ meta: obsolete
 date: 2024-05-24
 authors:
 - danny
+website: https://cointopay.com
 twitter: Cointopay
 social:
 - https://www.facebook.com/CointopayInternational
@@ -23,7 +24,6 @@ android:
   reviews: 7
   icon: com.cointopay.app.png
   meta: obsolete
-  website: https://cointopay.com
   developerName: Cointopay.com
 iphone:
   appId: com.cointopay.iosapp
@@ -34,7 +34,6 @@ iphone:
   reviews: 1
   icon: com.cointopay.iosapp.jpg
   meta: removed
-  website: https://cointopay.com/
   developerName: Cointopay International B.V.
 
 ---

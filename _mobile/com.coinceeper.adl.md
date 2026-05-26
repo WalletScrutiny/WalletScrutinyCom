@@ -13,7 +13,6 @@ android:
   updated: 2026-05-11
   version: 1.0.46
   icon: com.coinceeper.adl.png
-  website: https://coinceeper.com/
   developerName: Taparam
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-16
 authors:
 - danny
+website: https://www.forex.com
 twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom
@@ -21,7 +22,6 @@ android:
   version: '1.253'
   reviews: 38
   icon: com.gaincapital.forex.png
-  website: https://www.forex.com
   developerName: GAIN Capital Group, LLC
 iphone:
   appId: com.gaincapital.forex
@@ -31,7 +31,6 @@ iphone:
   version: 1.253.7924
   reviews: 238
   icon: com.gaincapital.forex.jpg
-  website: https://www.forex.com/en-uk/
   developerName: GAIN Capital Group LLC
 
 ---

@@ -7,6 +7,7 @@ date: 2021-12-03
 authors:
 - leo
 - danny
+website: http://www.ellipal.com
 twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub
@@ -31,7 +32,6 @@ android:
   version: 4.13.0
   reviews: 548
   icon: com.ellipal.wallet.png
-  website: http://www.ellipal.com
   developerName: ellipal
 iphone:
   appId: com.Ellipal.Ellipal
@@ -41,7 +41,6 @@ iphone:
   version: 4.12.0
   reviews: 2949
   icon: com.Ellipal.Ellipal.jpg
-  website: https://www.ellipal.com/
   developerName: Ellipal
 
 ---

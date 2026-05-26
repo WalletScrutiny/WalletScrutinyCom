@@ -24,7 +24,6 @@ android:
   version: 26.522.0
   reviews: 8545
   icon: com.gemini.android.app.png
-  website: https://www.gemini.com
   developerName: Gemini Space Station, Inc.
 iphone:
   appId: com.gemini.ios

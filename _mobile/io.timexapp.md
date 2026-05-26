@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-29
 authors:
 - danny
+website: http://timex.io
 twitter: ExchangeTimex
 social:
 - https://www.facebook.com/timex.io
@@ -22,7 +23,6 @@ android:
   updated: 2023-09-25
   version: 1.4.3
   icon: io.timexapp.png
-  website: http://timex.io
   developerName: Chrono.Tech
 iphone:
   appId: io.timexapp
@@ -33,7 +33,6 @@ iphone:
   version: 1.4.3
   reviews: 0
   icon: io.timexapp.jpg
-  website: https://timex.io
   developerName: Chrono.tech
 
 ---

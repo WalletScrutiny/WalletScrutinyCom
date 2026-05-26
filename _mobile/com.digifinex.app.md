@@ -6,6 +6,7 @@ meta: ok
 date: 2020-11-28
 authors:
 - leo
+website: https://www.digifinex.com/
 twitter: DigiFinex
 social:
 - https://www.linkedin.com/company/digifinex-global
@@ -24,7 +25,6 @@ android:
   reviews: 112
   icon: com.digifinex.app.png
   meta: ok
-  website: https://www.digifinex.com/
   developerName: DigiFinex
 iphone:
   appId: com.digifinex.app
@@ -35,7 +35,6 @@ iphone:
   reviews: 60
   icon: com.digifinex.app.jpg
   meta: defunct
-  website: https://www.digifinex.com
   developerName: DIGIFINEX PTE.LTD.
 
 ---

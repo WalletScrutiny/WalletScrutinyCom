@@ -26,7 +26,6 @@ android:
   version: 4.7.9
   reviews: 6
   icon: io.rapidz.rapidzpay.png
-  website: https://www.rapidz.io/
   developerName: Rapidz Pay Inc
 iphone:
   appId: io.rapidz.rapidzpayios

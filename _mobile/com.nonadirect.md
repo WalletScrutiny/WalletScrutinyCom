@@ -13,7 +13,6 @@ android:
   updated: 2022-05-20
   version: '2.0'
   icon: com.nonadirect.png
-  website: https://easybill.com.ng
   developerName: EasyBill Power Network
 
 ---

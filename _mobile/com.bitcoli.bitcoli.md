@@ -6,6 +6,7 @@ meta: removed
 date: 2025-06-18
 authors:
 - danny
+website: https://BitcoLi.com
 redirect_from:
 - /android/com.bitcoli.bitcoli/
 - /iphone/com.bitcoli.bitcoli/
@@ -17,7 +18,6 @@ android:
   version: 1.2.1
   reviews: 7
   icon: com.bitcoli.bitcoli.jpg
-  website: https://BitcoLi.com
   developerName: BitcoLi
 iphone:
   appId: com.bitcoli.bitcoli
@@ -28,7 +28,6 @@ iphone:
   version: 1.2.1
   reviews: 1
   icon: com.bitcoli.bitcoli.jpg
-  website: https://bitcoli.com
   developerName: Jaroslav Bruzek
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2025-08-29
   version: '1.5'
   icon: com.coins.black.exchanger.png
-  website: https://coins.black
   developerName: Coins.Black
 
 ---

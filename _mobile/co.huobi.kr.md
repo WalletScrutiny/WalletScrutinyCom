@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.huobi.co.kr
 twitter: huobi_korea
 social:
 - https://www.facebook.com/huobikorea
@@ -21,7 +22,6 @@ android:
   version: 3.8.8
   reviews: 752
   icon: co.huobi.kr.jpg
-  website: https://www.huobi.co.kr
   developerName: Hb-korea
 iphone:
   appId: com.huobi.kr
@@ -32,7 +32,6 @@ iphone:
   version: 3.8.8
   reviews: 273
   icon: com.huobi.kr.jpg
-  website: http://www.hb.co.kr
   developerName: Huobi Korea
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2025-01-15
   version: 0.2.37
   icon: com.axir.axrwallet.png
-  website: https://axirwallet.com/
   developerName: Axir Wallet
 
 ---

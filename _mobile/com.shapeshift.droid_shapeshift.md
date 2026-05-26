@@ -6,6 +6,7 @@ date: 2025-07-28
 authors:
 - leo
 - danny
+website: https://ShapeShift.com
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 - https://www.instagram.com/shapeshift_io
@@ -30,7 +31,6 @@ android:
   reviews: 510
   icon: com.shapeshift.droid_shapeshift.png
   verdict: sourceavailable
-  website: https://ShapeShift.com
   developerName: ShapeShift.com
   repository: https://github.com/shapeshift/mobile-app
   twitter: ShapeShift
@@ -43,7 +43,6 @@ iphone:
   reviews: 79
   icon: com.shapeShift.shapeShift.jpg
   verdict: nosource
-  website: https://shapeshift.com
   developerName: ShapeShift AG
   twitter: ShapeShift_io
 

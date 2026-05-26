@@ -4,6 +4,7 @@ meta: ok
 date: 2024-10-07
 authors:
 - danny
+website: https://www.novadax.com
 social:
 - https://www.linkedin.com/company/novadax-do-brasil
 - https://www.facebook.com/novadaxglobal
@@ -19,7 +20,6 @@ android:
   reviews: 42
   icon: com.nova.dax.png
   verdict: custodial
-  website: https://www.novadax.com
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
   twitter: Nova_DAXglobal
 iphone:

@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-09-15
 authors:
 - danny
+website: https://zke.com
 twitter: ZKE_com
 social:
 - https://www.youtube.com/channel/UCGe7ywdJ-0nNad4nbyPHGgg
@@ -23,7 +24,6 @@ android:
   reviews: 37
   icon: com.chainup.exchange.ZKE.png
   meta: removed
-  website: https://zke.com
   developerName: ZKE
 iphone:
   appId: com.fmine.zkeApp
@@ -35,7 +35,6 @@ iphone:
   reviews: 270
   icon: com.fmine.zkeApp.jpg
   meta: ok
-  website: https://www.zke.com/
   developerName: fmine.com
 
 ---

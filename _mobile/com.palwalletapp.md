@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-26
 authors:
 - danny
+website: https://palwallet.com
 twitter: Pal_wallet
 redirect_from:
 - /android/com.palwalletapp/
@@ -17,7 +18,6 @@ android:
   updated: 2025-10-09
   version: 1.0.29
   icon: com.palwalletapp.png
-  website: https://palwallet.com
   developerName: PalWallet LTD
 iphone:
   appId: com.app.palwalletprod

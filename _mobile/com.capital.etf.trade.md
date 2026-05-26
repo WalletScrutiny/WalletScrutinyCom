@@ -17,7 +17,6 @@ android:
   version: 3.34.2
   reviews: 7
   icon: com.capital.etf.trade.png
-  website: https://capital.com/
   developerName: Capital Com (UK) Limited
 
 ---

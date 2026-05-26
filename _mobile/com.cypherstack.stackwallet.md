@@ -6,6 +6,7 @@ date: 2023-09-08
 authors:
 - danny
 - keraliss
+website: https://stackwallet.com/
 twitter: stack_wallet
 social:
 - https://discord.com/invite/mRPZuXx3At
@@ -39,7 +40,6 @@ iphone:
   reviews: 25
   icon: com.cypherstack.stackwallet.jpg
   verdict: wip
-  website: https://stackwallet.com/
   developerName: Cypher Stack LLC
 
 ---

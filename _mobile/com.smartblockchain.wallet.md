@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-08
 authors:
 - danny
+website: https://smartwallet.com
 features:
 - multiAccount
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 2.6.1
   reviews: 33
   icon: com.smartblockchain.wallet.png
-  website: https://smartwallet.com
   developerName: YamaD LLC
 iphone:
   appId: com.smartblockchain.wallet

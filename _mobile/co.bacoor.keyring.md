@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-17
 authors:
 - danny
+website: https://keyring.app
 twitter: KEYRING_PRO
 redirect_from:
 - /android/co.bacoor.keyring/
@@ -18,7 +19,6 @@ android:
   version: 5.5.0
   reviews: 4
   icon: co.bacoor.keyring.png
-  website: https://keyring.app
   developerName: bacoor inc.
 iphone:
   appId: co.bacoor.keyring

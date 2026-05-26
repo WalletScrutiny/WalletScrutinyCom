@@ -17,7 +17,6 @@ iphone:
   version: 2.6.597
   reviews: 4
   icon: co.copper.custody.jpg
-  website: https://copper.co
   developerName: COPPER TECHNOLOGIES (UK)
 
 ---

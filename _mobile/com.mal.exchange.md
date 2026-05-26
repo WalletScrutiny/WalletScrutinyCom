@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-11
 authors:
 - danny
+website: https://mal.io/
 twitter: MalFinance
 social:
 - https://t.me/mal_io
@@ -22,7 +23,6 @@ android:
   version: 1.0.57
   reviews: 34
   icon: com.mal.exchange.jpg
-  website: https://mal.io/
   developerName: MAL finance مال
 iphone:
   appId: io.mal.exchange
@@ -33,7 +33,6 @@ iphone:
   version: 1.8.0
   reviews: 4
   icon: io.mal.exchange.jpg
-  website: https://mal.io
   developerName: Mal Network Limited
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-29
 authors:
 - kiwilamb
+website: https://www.coin.cloud#deadLink
 twitter: CoinCloudATM
 social:
 - https://www.facebook.com/coincloudATM
@@ -20,7 +21,6 @@ android:
   version: 12.02.18
   reviews: 101
   icon: com.bitpay.coincloud.png
-  website: https://www.coin.cloud#deadLink
   developerName: Coin Cloud
 iphone:
   appId: com.bitpay.coincloud
@@ -30,7 +30,6 @@ iphone:
   version: 1.9.6
   reviews: 162
   icon: com.bitpay.coincloud.jpg
-  website: https://web.archive.org/web/20230401142623/https://www.coin.cloud/app
 
 ---
 

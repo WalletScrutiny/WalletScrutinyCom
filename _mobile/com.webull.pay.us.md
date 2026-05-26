@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-26
 authors:
 - danny
+website: http://www.webullpay.com
 twitter: WebullGlobal
 social:
 - https://www.instagram.com/webullglobal
@@ -21,7 +22,6 @@ android:
   version: 2.2.0.29
   reviews: 1166
   icon: com.webull.pay.us.png
-  website: http://www.webullpay.com
   developerName: Webull Pay LLC
 iphone:
   appId: com.webull.pay.us

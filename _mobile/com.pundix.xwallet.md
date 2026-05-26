@@ -8,6 +8,7 @@ authors:
 - kiwilamb
 - leo
 - danny
+website: https://www.pundix.com
 twitter: PundiXLabs
 social:
 - https://www.linkedin.com/company/pundix
@@ -23,7 +24,6 @@ android:
   version: 2.8.7
   reviews: 207
   icon: com.pundix.xwallet.png
-  website: https://www.pundix.com
   developerName: Pundi X Labs
 iphone:
   appId: com.pundix.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 2.9.4
   reviews: 86
   icon: com.pundix.wallet.jpg
-  website: https://pundix.com
   developerName: PUNDI X LABS
 
 ---

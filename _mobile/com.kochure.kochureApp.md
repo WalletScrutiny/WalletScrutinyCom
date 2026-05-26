@@ -6,6 +6,7 @@ meta: ok
 date: 2025-07-24
 authors:
 - danny
+website: https://kochure.com/
 twitter: kochureglobal
 social:
 - https://www.facebook.com/KochureGlobal
@@ -22,7 +23,6 @@ android:
   reviews: 3
   icon: com.kochure.kochureApp.png
   meta: ok
-  website: https://kochure.com/
   developerName: Kochure Technologies Limited
 iphone:
   appId: com.kochure.kochure-app

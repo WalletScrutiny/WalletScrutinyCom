@@ -28,7 +28,6 @@ android:
   version: 3.38.1
   reviews: 6859
   icon: com.binance.us.png
-  website: https://www.binance.us
   developerName: Binance.US
 iphone:
   appId: us.binance.fiat

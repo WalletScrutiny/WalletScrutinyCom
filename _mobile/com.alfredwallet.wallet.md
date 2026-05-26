@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-28
 authors:
 - danny
+website: https://alfwallet.io#deadLink
 social:
 - https://alfwallet.io#deadLink
 redirect_from:
@@ -18,7 +19,6 @@ android:
   updated: 2023-08-23
   version: '1.18'
   icon: com.alfredwallet.wallet.png
-  website: https://alfwallet.io#deadLink
   developerName: PRO DIGITAL
 iphone:
   appId: com.AlfredWallet

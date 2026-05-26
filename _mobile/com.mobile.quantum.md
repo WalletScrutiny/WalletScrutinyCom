@@ -16,7 +16,6 @@ android:
   version: 1.0.8
   reviews: 1
   icon: com.mobile.quantum.png
-  website: https://quan2um.com
   developerName: Quan2um
 
 ---

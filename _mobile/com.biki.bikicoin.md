@@ -6,6 +6,7 @@ meta: removed
 date: 2022-03-07
 authors:
 - danny
+website: https://www.biki.com#deadLink
 twitter: BiKiEnglish
 social:
 - https://www.facebook.com/bikiexchange
@@ -22,7 +23,6 @@ android:
   version: 4.9.1
   reviews: 17
   icon: com.biki.bikicoin.png
-  website: https://www.biki.com#deadLink
 iphone:
   appId: com.bikipro.exchange
   idd: '1470204749'
@@ -31,7 +31,6 @@ iphone:
   version: 4.9.2
   reviews: 16
   icon: com.bikipro.exchange.jpg
-  website: https://www.biki.cc/
 
 ---
 

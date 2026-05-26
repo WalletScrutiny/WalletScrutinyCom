@@ -5,6 +5,7 @@ verdict: nosendreceive
 date: 2023-08-15
 authors:
 - danny
+website: http://fxoro.com
 social:
 - https://www.facebook.com/people/FXORO-India/100087993320592
 - https://t.me/fxoro_official
@@ -30,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.compie.fxoro.jpg
   meta: ok
-  website: http://fxoro.com
   developerName: MCA INTELIFUNDS LIMITED
 
 ---

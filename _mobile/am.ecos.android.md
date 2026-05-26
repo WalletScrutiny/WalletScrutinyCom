@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-07
 authors:
 - danny
+website: https://ecos.am
 twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
@@ -21,7 +22,6 @@ android:
   version: 3.1.19
   reviews: 233
   icon: am.ecos.android.png
-  website: https://ecos.am
   developerName: ECOS CJSC
 iphone:
   appId: am.ecos.ios.production
@@ -31,7 +31,6 @@ iphone:
   version: 3.1.19
   reviews: 231
   icon: am.ecos.ios.production.jpg
-  website: https://ecos.am/
   developerName: Ecos am
 
 ---

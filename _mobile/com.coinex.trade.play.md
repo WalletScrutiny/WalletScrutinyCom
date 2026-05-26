@@ -6,6 +6,7 @@ meta: ok
 date: 2020-04-15
 authors:
 - leo
+website: https://www.coinex.com/
 twitter: coinexcom
 social:
 - https://www.facebook.com/TheCoinEx
@@ -24,7 +25,6 @@ android:
   reviews: 1192
   icon: com.coinex.trade.play.png
   meta: ok
-  website: https://www.coinex.com/
   developerName: CoinEx
 iphone:
   appId: com.viabtc.trader
@@ -35,7 +35,6 @@ iphone:
   reviews: 2032
   icon: com.viabtc.trader.jpg
   meta: removed
-  website: https://www.coinex.com
 
 ---
 

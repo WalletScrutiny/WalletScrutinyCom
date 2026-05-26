@@ -13,7 +13,6 @@ android:
   updated: 2025-01-09
   version: 1.0.0
   icon: com.koub.wallet.png
-  website: https://unitechcapital.net
   developerName: BFour Production
 
 ---

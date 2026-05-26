@@ -13,7 +13,6 @@ android:
   updated: 2024-03-19
   version: 1.2.1
   icon: com.milkywayapps.cryptowallet.png
-  website: https://quasark.io/
   developerName: Milky Way Entertainment LLC
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-09
 authors:
 - danny
+website: https://bynex.io/
 twitter: bynexio
 social:
 - https://www.facebook.com/bynex.io
@@ -23,7 +24,6 @@ android:
   updated: 2026-05-18
   version: 2.13.0
   icon: by.erpbel.hermes.png
-  website: https://bynex.io/
   developerName: Bynex
 iphone:
   appId: by.erpbel.hermes
@@ -34,7 +34,6 @@ iphone:
   version: 2.13.0
   reviews: 89
   icon: by.erpbel.hermes.jpg
-  website: https://bynex.io/en
   developerName: LLC ERPBEL
 
 ---

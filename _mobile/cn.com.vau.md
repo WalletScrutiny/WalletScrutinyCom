@@ -23,7 +23,6 @@ android:
   version: 4.02.1
   reviews: 7044
   icon: cn.com.vau.png
-  website: https://www.vantagemarkets.com/
   developerName: Vantage Global Prime PTY LTD
 iphone:
   appId: com.vttech.VantageFX
@@ -34,7 +33,6 @@ iphone:
   version: 4.02.0
   reviews: 75
   icon: com.vttech.VantageFX.jpg
-  website: https://www.vantagemarkets.com/
   developerName: Vantage Global Prime PTY LTD
 
 ---

@@ -14,7 +14,6 @@ android:
   version: '1.0'
   reviews: 2
   icon: com.app.boastcoast12.png
-  website: https://boastcoast.com
   developerName: BoastCoast.com
 
 ---

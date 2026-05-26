@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-28
 authors:
 - danny
+website: https://cpass.exchange#deadLink
 twitter: CPass_Official
 social:
 - https://www.instagram.com/cpass_official
@@ -22,7 +23,6 @@ android:
   updated: 2023-05-18
   version: 1.9.18
   icon: com.digilab24.apps.png
-  website: https://cpass.exchange#deadLink
   developerName: C PASS
 iphone:
   appId: com.digilab24.apps

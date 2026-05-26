@@ -7,6 +7,7 @@ date: 2021-10-01
 authors:
 - leo
 - danny
+website: https://bitkeep.com
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
@@ -23,7 +24,6 @@ android:
   version: 9.45.0
   reviews: 3826
   icon: com.bitkeep.wallet.png
-  website: https://bitkeep.com
   developerName: Bitget Wallet
 iphone:
   appId: com.bitkeep.os
@@ -33,7 +33,6 @@ iphone:
   version: 9.46.0
   reviews: 5474
   icon: com.bitkeep.os.jpg
-  website: https://web3.bitget.com
   developerName: BitKeep Global Inc.
 
 ---

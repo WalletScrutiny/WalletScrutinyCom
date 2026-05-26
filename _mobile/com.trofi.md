@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.trofi.group#deadLink
 twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp
@@ -23,7 +24,6 @@ android:
   version: 3.2.7
   reviews: 27
   icon: com.trofi.png
-  website: https://www.trofi.group#deadLink
   developerName: Trofi Group
 iphone:
   appId: com.yield.demosp

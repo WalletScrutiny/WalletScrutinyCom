@@ -7,6 +7,7 @@ date: 2025-12-15
 authors:
 - danny
 - keraliss
+website: https://www.mintlayer.org/en/mojito-wallet/
 twitter: mintlayer
 social:
 - https://t.me/mintlayer
@@ -26,7 +27,6 @@ android:
   updated: 2024-12-15
   version: 0.4.1
   icon: com.mojitowallet.png
-  website: https://www.mintlayer.org/en/mojito-wallet/
   developerName: RBB SRL
   repository: https://github.com/mintlayer/mojito_mobile_wallet
 iphone:
@@ -38,7 +38,6 @@ iphone:
   version: 0.4.2
   reviews: 9
   icon: com.mojitowallet.jpg
-  website: https://www.mintlayer.org/
   developerName: RBB SRL
 
 ---

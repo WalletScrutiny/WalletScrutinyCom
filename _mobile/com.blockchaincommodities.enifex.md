@@ -13,7 +13,6 @@ android:
   updated: 2025-08-11
   version: 1.4.1
   icon: com.blockchaincommodities.enifex.png
-  website: https://enifex.com/
   developerName: Blockchain Commodities
 
 ---

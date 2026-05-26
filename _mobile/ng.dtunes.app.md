@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-23
 authors:
 - danny
+website: https://dtunes.ng
 social:
 - https://www.facebook.com/DtunesApp
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 3.0.1
   reviews: 36
   icon: ng.dtunes.app.png
-  website: https://dtunes.ng
   developerName: Dtunes NG
 iphone:
   appId: ng.dtunes.app

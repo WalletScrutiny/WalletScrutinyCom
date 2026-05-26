@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-16
 authors:
 - danny
+website: http://x-widget.org/
 redirect_from:
 - /android/com.msline.mw/
 - /iphone/masterwallet.ai/
@@ -16,7 +17,6 @@ android:
   updated: 2022-06-20
   version: 2.3.3
   icon: com.msline.mw.png
-  website: http://x-widget.org/
   developerName: x-widget
 iphone:
   appId: masterwallet.ai
@@ -27,7 +27,6 @@ iphone:
   version: 2.2.4
   reviews: 0
   icon: masterwallet.ai.jpg
-  website: https://masterwallet.ai/
   developerName: X-widget
 
 ---

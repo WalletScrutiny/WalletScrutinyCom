@@ -20,7 +20,6 @@ android:
   version: 1.35.1
   reviews: 21
   icon: com.dunamu.exchange.png
-  website: https://upbit.com
   developerName: Dunamu
 
 ---

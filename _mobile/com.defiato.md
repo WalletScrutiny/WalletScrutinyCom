@@ -6,6 +6,7 @@ meta: removed
 date: 2025-11-05
 authors:
 - danny
+website: https://defiato.com/
 social:
 - https://defiato.com
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.2.9
   reviews: 5
   icon: com.defiato.png
-  website: https://defiato.com/
   developerName: Beowulf Network Inc
 iphone:
   appId: com.defiato

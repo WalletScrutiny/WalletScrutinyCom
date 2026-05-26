@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-08
 authors:
 - danny
+website: https://www.doshi.app
 twitter: doshi_wallet
 social:
 - https://discord.com/invite/xQkdtmZm5V
@@ -20,7 +21,6 @@ android:
   version: 1.0.130
   reviews: 3
   icon: doshi.app.png
-  website: https://www.doshi.app
   developerName: Doshi
 iphone:
   appId: doshi.app
@@ -31,7 +31,6 @@ iphone:
   version: 1.0.130
   reviews: 16
   icon: doshi.app.jpg
-  website: https://doshi.app
   developerName: Doshi App Limited
 
 ---

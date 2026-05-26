@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-06
 authors:
 - danny
+website: https://www.xapobank.com/
 twitter: xapobankapp
 social:
 - https://www.linkedin.com/company/xapobankapp
@@ -26,7 +27,6 @@ android:
   version: 11.1.0
   reviews: 42
   icon: com.xapo.bank.png
-  website: https://www.xapobank.com/
   developerName: Xapo
 iphone:
   appId: com.xapo.bank
@@ -37,7 +37,6 @@ iphone:
   version: 11.11.0
   reviews: 4
   icon: com.xapo.bank.jpg
-  website: https://xapo.com
   developerName: Xapo Holdings Limited
 
 ---

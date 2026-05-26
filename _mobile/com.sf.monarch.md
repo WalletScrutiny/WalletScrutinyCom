@@ -6,6 +6,7 @@ date: 2024-07-13
 authors:
 - leo
 - danny
+website: http://splashfactory.com
 twitter: Monarchtoken
 social:
 - https://www.linkedin.com/company/monarchtoken
@@ -25,7 +26,6 @@ android:
   reviews: 132
   icon: com.sf.monarch.png
   meta: removed
-  website: http://splashfactory.com
   developerName: Splash Factory
 iphone:
   appId: com.sf.monarch
@@ -36,7 +36,6 @@ iphone:
   reviews: 394
   icon: com.sf.monarch.jpg
   meta: obsolete
-  website: https://monarchwallet.com
   developerName: Splash Factory
 
 ---

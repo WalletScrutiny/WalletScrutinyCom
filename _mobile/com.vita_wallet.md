@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-04
 authors:
 - danny
+website: https://vitawallet.io/
 twitter: vitawallet
 social:
 - https://www.linkedin.com/company/vita-wallet
@@ -22,7 +23,6 @@ android:
   version: 7.3.15
   reviews: 881
   icon: com.vita_wallet.png
-  website: https://vitawallet.io/
   developerName: Vita Solutions SpA
 iphone:
   appId: io.vitawallet.vitawallet
@@ -32,7 +32,6 @@ iphone:
   version: 7.3.14
   reviews: 277
   icon: io.vitawallet.vitawallet.jpg
-  website: https://www.vitawallet.io
   developerName: Vita Solutions S.p.A
 
 ---

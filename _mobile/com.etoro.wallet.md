@@ -7,6 +7,7 @@ date: 2021-04-21
 authors:
 - kiwilamb
 - leo
+website: https://www.etoro.com/crypto/wallet
 twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
@@ -22,7 +23,6 @@ android:
   version: 104.0.0
   reviews: 152
   icon: com.etoro.wallet.png
-  website: https://www.etoro.com/crypto/wallet
   developerName: eToroX
 iphone:
   appId: com.etoro.wallet
@@ -32,7 +32,6 @@ iphone:
   version: 104.0.0
   reviews: 181
   icon: com.etoro.wallet.jpg
-  website: https://www.etoro.com/crypto/wallet/
   developerName: eToro
 
 ---

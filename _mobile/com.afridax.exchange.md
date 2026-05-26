@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-12
 authors:
 - danny
+website: https://afridax.com
 twitter: AfridaxLTD
 redirect_from:
 - /android/com.afridax.exchange/
@@ -16,7 +17,6 @@ android:
   updated: 2026-05-04
   version: 1.0.4
   icon: com.afridax.exchange.png
-  website: https://afridax.com
   developerName: ExoGroup
 iphone:
   appId: com.afridax.exchange

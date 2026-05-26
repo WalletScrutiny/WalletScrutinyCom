@@ -22,7 +22,6 @@ android:
   version: 2.0.3
   icon: com.thehumanplus.shuffle.png
   meta: ok
-  website: https://www.hupayx.com/
   developerName: HUPAYX
 iphone:
   appId: humanplus.hupay-master-iOS

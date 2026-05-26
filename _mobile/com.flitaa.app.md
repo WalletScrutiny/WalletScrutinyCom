@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-03
 authors:
 - danny
+website: https://flitaa.com
 twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa
@@ -21,7 +22,6 @@ android:
   version: 1.51.8
   reviews: 570
   icon: com.flitaa.app.png
-  website: https://flitaa.com
   developerName: FLITBASE Apps
 iphone:
   appId: com.flitaa
@@ -31,7 +31,6 @@ iphone:
   version: 1.51.8
   reviews: 73
   icon: com.flitaa.jpg
-  website: https://flitbase.com
   developerName: FLITBASE
 
 ---

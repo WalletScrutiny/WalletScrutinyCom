@@ -22,7 +22,6 @@ android:
   reviews: 118
   icon: com.spedn.spedn.png
   meta: ok
-  website: https://spedn.io
   developerName: Flexa
 iphone:
   appId: com.spedn.spedn

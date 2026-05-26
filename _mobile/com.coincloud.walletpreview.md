@@ -6,6 +6,7 @@ meta: removed
 date: 2024-03-02
 authors:
 - danny
+website: http://coin.cloud/app#deadLink
 twitter: bitstopofficial
 social:
 - https://www.facebook.com/Bitstopofficial
@@ -22,7 +23,6 @@ android:
   version: 12.9.24
   reviews: 44
   icon: com.coincloud.walletpreview.png
-  website: http://coin.cloud/app#deadLink
   developerName: Coin Cloud
 iphone:
   appId: com.coincloud.walletpreview
@@ -33,7 +33,6 @@ iphone:
   version: 12.9.27
   reviews: 50
   icon: com.coincloud.walletpreview.jpg
-  website: https://www.coin.cloud#deadLink
   developerName: Coin Cloud
 
 ---

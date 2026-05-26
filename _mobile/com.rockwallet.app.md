@@ -5,6 +5,7 @@ meta: ok
 date: 2023-08-28
 authors:
 - danny
+website: http://www.rockwallet.com
 twitter: rockwallet
 social:
 - https://www.facebook.com/rockwalletofficial
@@ -25,7 +26,6 @@ android:
   reviews: 283
   icon: com.rockwallet.app.jpg
   verdict: nosource
-  website: http://www.rockwallet.com
   developerName: RockWallet
 iphone:
   appId: com.rockwallet.app
@@ -37,7 +37,6 @@ iphone:
   reviews: 764
   icon: com.rockwallet.app.jpg
   verdict: sourceavailable
-  website: https://www.rockwallet.com
   developerName: RockWallet, LLC
   repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-08-28
 authors:
 - danny
+website: https://dextrade.com/
 social:
 - https://t.me/dextrade_support
 features:
@@ -22,7 +23,6 @@ android:
   updated: 2025-09-29
   version: 2.0.6
   icon: org.dextrade.wallet.png
-  website: https://dextrade.com/
   developerName: Dextrade Technologies LTD
 iphone:
   appId: com.dextrade.swap

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-22
 authors:
 - danny
+website: https://lcx.com
 twitter: lcx
 social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ
@@ -22,7 +23,6 @@ android:
   reviews: 39
   icon: com.lcx.app.png
   meta: ok
-  website: https://lcx.com
   developerName: LCX.com
 iphone:
   appId: com.lcx.app
@@ -34,7 +34,6 @@ iphone:
   reviews: 18
   icon: com.lcx.app.jpg
   meta: removed
-  website: https://web.archive.org/web/20260116090452/https://www.lcx.com/mobile/
   developerName: LCX AG
 
 ---

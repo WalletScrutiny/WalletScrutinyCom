@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-20
 authors:
 - danny
+website: https://oppiwallet.com/en
 twitter: walletoppi
 features:
 - buyWithCC
@@ -24,7 +25,6 @@ android:
   version: 1.0.112
   reviews: 9
   icon: com.oppi.wallet.png
-  website: https://oppiwallet.com/en
   developerName: Encoin Limited
 iphone:
   appId: com.oppi.wallet

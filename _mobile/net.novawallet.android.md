@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-14
 authors:
 - danny
+website: http://www.vsolidus.com/
 twitter: solidus_v
 social:
 - https://www.facebook.com/vsolidus
@@ -23,7 +24,6 @@ android:
   version: 2.2.5
   reviews: 704
   icon: net.novawallet.android.png
-  website: http://www.vsolidus.com/
   developerName: Nova Coin Ltd.
 iphone:
   appId: net.novawallet.ios

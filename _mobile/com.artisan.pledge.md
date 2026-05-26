@@ -16,7 +16,6 @@ android:
   version: 1.0.64
   reviews: 7
   icon: com.artisan.pledge.png
-  website: https://www.assure.pro
   developerName: CRYPASSURE PTE. LTD.
 
 ---

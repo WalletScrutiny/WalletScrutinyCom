@@ -6,6 +6,7 @@ meta: removed
 date: 2025-06-18
 authors:
 - leo
+website: https://www.bitwallet.org
 twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc
@@ -22,7 +23,6 @@ android:
   version: 2.0.1
   reviews: 262
   icon: com.Android.Inc.bitwallet.png
-  website: https://www.bitwallet.org
   developerName: BitWallet, Incorporated
 iphone:
   appId: Tissatech.Bit-Wallet

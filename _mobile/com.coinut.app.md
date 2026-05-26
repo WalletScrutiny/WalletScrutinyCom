@@ -23,7 +23,6 @@ android:
   reviews: 15
   icon: com.coinut.app.png
   meta: ok
-  website: https://coinut.com
   developerName: COINUT PTE LTD
 iphone:
   appId: com.coinut.app

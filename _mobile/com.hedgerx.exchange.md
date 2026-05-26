@@ -13,7 +13,6 @@ android:
   updated: 2025-12-20
   version: 1.1.14
   icon: com.hedgerx.exchange.png
-  website: https://www.hedgerx.com
   developerName: HedgerX
 
 ---

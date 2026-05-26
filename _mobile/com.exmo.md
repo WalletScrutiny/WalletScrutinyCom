@@ -7,6 +7,7 @@ date: 2021-04-21
 authors:
 - kiwilamb
 - leo
+website: https://exmo.com/
 twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
@@ -24,7 +25,6 @@ android:
   version: 3.86.4
   reviews: 96
   icon: com.exmo.png
-  website: https://exmo.com/
   developerName: Exmo Poland Sp. z o.o.
 iphone:
   appId: com.exmo.enfins
@@ -34,7 +34,6 @@ iphone:
   version: 2.28.26
   reviews: 86
   icon: com.exmo.enfins.jpg
-  website: https://exmo.com/en
   developerName: EXMO EXCHANGE LTD
 
 ---

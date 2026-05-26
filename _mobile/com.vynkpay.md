@@ -6,6 +6,7 @@ meta: removed
 date: 2024-05-07
 authors:
 - danny
+website: https://vynkpay.app#deadLink
 twitter: vynkgroup
 social:
 - https://www.instagram.com/vynkgroup
@@ -23,7 +24,6 @@ android:
   updated: 2024-02-08
   version: '4.4'
   icon: com.vynkpay.png
-  website: https://vynkpay.app#deadLink
   developerName: VYNK GROUP AE
 iphone:
   appId: com.pixels.vynkpay

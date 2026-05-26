@@ -6,6 +6,7 @@ meta: removed
 date: 2023-03-21
 authors:
 - danny
+website: https://www.bithumb.pro
 twitter: BithumbGlobal
 social:
 - https://www.linkedin.com/company/bithumbglobal
@@ -23,7 +24,6 @@ android:
   version: 2.6.25
   reviews: 78
   icon: global.bithumb.android.png
-  website: https://www.bithumb.pro
   developerName: Bithumb Global Holdings Limited
 iphone:
   appId: pro.bithumb.global
@@ -33,7 +33,6 @@ iphone:
   version: 2.6.5
   reviews: 77
   icon: pro.bithumb.global.jpg
-  website: https://www.bithumb.pro/alliance#deadLink
 
 ---
 

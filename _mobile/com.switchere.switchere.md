@@ -27,7 +27,6 @@ android:
   reviews: 47
   icon: com.switchere.switchere.png
   meta: ok
-  website: https://switchere.com/
   developerName: Switchere
 iphone:
   appId: com.switchere.switchere

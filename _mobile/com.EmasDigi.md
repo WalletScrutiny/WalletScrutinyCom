@@ -16,7 +16,6 @@ android:
   version: 7.2.4
   reviews: 123
   icon: com.EmasDigi.png
-  website: https://pluang.com
   developerName: pluang
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://cofinex.io
 twitter: CofinexExchange
 social:
 - https://www.linkedin.com/company/cofinex-exchange
@@ -22,7 +23,6 @@ android:
   updated: 2022-12-08
   version: '3.0'
   icon: com.app.cofinexexchange34.png
-  website: https://cofinex.io
   developerName: Cofinex Inc Ltd.
 iphone:
   appId: com.cofinex.app
@@ -31,7 +31,6 @@ iphone:
   updated: 2021-08-12
   version: '1.0'
   icon: com.cofinex.app.jpg
-  website: https://web.archive.org/web/20230406135322/https://exchange.cofinex.io/
 
 ---
 

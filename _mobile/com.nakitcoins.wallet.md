@@ -6,6 +6,7 @@ meta: removed
 date: 2022-10-21
 authors:
 - danny
+website: https://www.nakitcoins.com#deadLink
 twitter: nakitcoins
 social:
 - https://www.facebook.com/NakitCoins
@@ -20,7 +21,6 @@ android:
   updated: 2022-03-29
   version: 2.2.0
   icon: com.nakitcoins.wallet.png
-  website: https://www.nakitcoins.com#deadLink
 iphone:
   appId: com.nakitcoins.wallet
   idd: 1559751218
@@ -29,7 +29,6 @@ iphone:
   version: 2.2.0
   reviews: 2
   icon: com.nakitcoins.wallet.jpg
-  website: https://web.archive.org/web/20240914094707/https://nakitcoins.com/
 
 ---
 

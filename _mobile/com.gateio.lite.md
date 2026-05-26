@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://gate.io/
 twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal
@@ -24,7 +25,6 @@ android:
   version: 2.0.1
   reviews: 9
   icon: com.gateio.lite.png
-  website: https://gate.io/
   developerName: Gate Global, Corp.
 iphone:
   appId: com.gateio.GateLite

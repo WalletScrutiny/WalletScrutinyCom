@@ -7,6 +7,7 @@ date: 2025-12-16
 authors:
 - leo
 - danny
+website: https://support.metamask.io/
 twitter: MetaMask
 social:
 - https://discord.com/invite/consensys
@@ -28,7 +29,6 @@ android:
   version: 7.77.0
   reviews: 6633
   icon: io.metamask.png
-  website: https://support.metamask.io/
   developerName: MetaMask Web3 Wallet
   repository: https://github.com/MetaMask/metamask-mobile
 iphone:
@@ -39,7 +39,6 @@ iphone:
   version: 7.77.0
   reviews: 74967
   icon: io.metamask.MetaMask.jpg
-  website: https://metamask.io/
   developerName: MetaMask
 
 ---

@@ -37,7 +37,6 @@ android:
   version: 6.1.2
   reviews: 658
   icon: com.cakewallet.cake_wallet.png
-  website: https://cakewallet.com
   developerName: Cake Labs
 iphone:
   appId: com.fotolockr.cakewallet

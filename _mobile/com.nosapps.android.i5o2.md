@@ -13,7 +13,6 @@ android:
   updated: 2026-05-23
   version: 1.2.618
   icon: com.nosapps.android.i5o2.png
-  website: https://1502.app/
   developerName: 1502.app LLC
 
 ---

@@ -6,6 +6,7 @@ meta: fewusers
 date: 2026-05-05
 authors:
 - danny
+website: https://enterwota.com
 twitter: WOTAApp
 social:
 - https://www.facebook.com/EnterWOTA
@@ -21,7 +22,6 @@ android:
   version: 1.5.0
   icon: com.wota.app.png
   meta: fewusers
-  website: https://enterwota.com
   developerName: WOTA LTD
 iphone:
   appId: com.enterwota.app
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.enterwota.app.jpg
   meta: obsolete
-  website: https://enterwota.com/
   developerName: WOTA LTD
 
 ---

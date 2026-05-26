@@ -24,7 +24,6 @@ android:
   version: 1.2.5
   reviews: 17
   icon: com.royallyborn.v8.jpg
-  website: https://www.8v.com
   developerName: 8v.com
 
 ---

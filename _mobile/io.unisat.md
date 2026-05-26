@@ -6,6 +6,7 @@ meta: ok
 date: 2025-10-23
 authors:
 - danny
+website: https://unisat.io/
 twitter: unisat_wallet
 social:
 - https://discord.com/invite/unisat
@@ -22,7 +23,6 @@ android:
   version: 1.7.11
   reviews: 19
   icon: io.unisat.png
-  website: https://unisat.io/
   developerName: UniSat
 iphone:
   appId: io.unisat.mobile
@@ -33,7 +33,6 @@ iphone:
   version: 1.7.11
   reviews: 30
   icon: io.unisat.mobile.jpg
-  website: https://unisat.io
   developerName: UniPro Technology Limited
 
 ---

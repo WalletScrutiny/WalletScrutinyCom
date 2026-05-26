@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-04-19
 authors:
 - danny
+website: https://www.headline.net
 social:
 - https://www.facebook.com/HeadlineTrade
 - https://t.me/Headline_Group
@@ -19,7 +20,6 @@ android:
   version: 2.6.7
   icon: com.mc900.mc900.jpg
   meta: removed
-  website: https://www.headline.net
   developerName: Headline.net
 iphone:
   appId: com.mc900.mc900
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.mc900.mc900.jpg
   meta: obsolete
-  website: https://www.headline.net/
   developerName: Magic Compass Ltd
 
 ---

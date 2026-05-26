@@ -4,6 +4,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - danny
+website: https://www.liteforex.com
 social:
 - https://www.linkedin.com/company/litefinance-official
 - https://www.facebook.com/LiteFinancebroker
@@ -19,7 +20,6 @@ android:
   reviews: 16
   icon: com.ittrendex.liteforex.png
   verdict: custodial
-  website: https://www.liteforex.com
   twitter: litefinanceeng
 iphone:
   appId: com.ittrendex.liteforex

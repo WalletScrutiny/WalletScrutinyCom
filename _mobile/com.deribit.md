@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-31
 authors:
 - danny
+website: https://www.deribit.com
 twitter: deribitexchange
 social:
 - https://www.linkedin.com/company/deribit/
@@ -25,7 +26,6 @@ android:
   version: 3.18.0
   reviews: 5
   icon: com.deribit.png
-  website: https://www.deribit.com
   developerName: Deribit
 iphone:
   appId: com.deribit
@@ -36,7 +36,6 @@ iphone:
   version: 3.18.0
   reviews: 6
   icon: com.deribit.jpg
-  website: http://www.deribit.com
   developerName: Sentillia B.V.
 
 ---

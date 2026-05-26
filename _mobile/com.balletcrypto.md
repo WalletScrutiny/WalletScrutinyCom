@@ -21,7 +21,6 @@ android:
   version: 2.27.4
   reviews: 168
   icon: com.balletcrypto.png
-  website: https://www.ballet.com/
   developerName: Ballet Global Inc.
 iphone:
   appId: com.balletcrypto

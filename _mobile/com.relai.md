@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-11
 authors:
 - danny
+website: https://relai.app
 twitter: Relai_app
 social:
 - https://www.linkedin.com/company/relai-app
@@ -21,7 +22,6 @@ android:
   updated: 2026-05-18
   version: 3.14.1
   icon: com.relai.png
-  website: https://relai.app
   developerName: Relai
 iphone:
   appId: ch.relai.relai
@@ -32,7 +32,6 @@ iphone:
   version: 3.14.1
   reviews: 3309
   icon: ch.relai.relai.jpg
-  website: https://relai.app/
   developerName: Relai App GmbH
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-21
 authors:
 - danny
+website: http://www.thinkmarkets.com
 twitter: ThinkMarketscom
 social:
 - https://www.linkedin.com/company/thinkmarkets
@@ -22,7 +23,6 @@ android:
   version: 7.0.6.0
   reviews: 350
   icon: com.riflexo.tradeinterceptormobile.png
-  website: http://www.thinkmarkets.com
   developerName: ThinkMarkets
 iphone:
   appId: com.riflexo.TradeInterceptor
@@ -32,7 +32,6 @@ iphone:
   version: 9.8.0
   reviews: 773
   icon: com.riflexo.TradeInterceptor.jpg
-  website: https://www.thinkmarkets.com/en/about-us/
   developerName: TF GLOBAL MARKETS (UK) LIMITED
 
 ---

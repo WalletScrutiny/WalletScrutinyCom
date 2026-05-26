@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-14
 authors:
 - danny
+website: https://www.starex.sg/
 features:
 - multiSig
 - tradeAlts
@@ -20,7 +21,6 @@ android:
   version: 4.3.3.28
   reviews: 3
   icon: vip.sing.exchange.png
-  website: https://www.starex.sg/
   developerName: StarEx
 iphone:
   appId: vip.sing.exchange

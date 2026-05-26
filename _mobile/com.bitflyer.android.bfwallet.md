@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-27
 authors:
 - danny
+website: https://bitflyer.com
 twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
@@ -21,7 +22,6 @@ android:
   version: 8.66.0
   reviews: 1715
   icon: com.bitflyer.android.bfwallet.png
-  website: https://bitflyer.com
   developerName: bitFlyer
 iphone:
   appId: jp.bitflyer.wallet
@@ -31,7 +31,6 @@ iphone:
   version: 7.66.0
   reviews: 132821
   icon: jp.bitflyer.wallet.jpg
-  website: https://bitflyer.com/
   developerName: bitFlyer, Inc.
 
 ---

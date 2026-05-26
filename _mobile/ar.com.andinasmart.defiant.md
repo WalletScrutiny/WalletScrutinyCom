@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-16
 authors:
 - danny
+website: https://defiantapp.tech
 twitter: defiantApp
 appCountry: ar
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 5.4.3
   reviews: 41
   icon: ar.com.andinasmart.defiant.png
-  website: https://defiantapp.tech
   developerName: Andina DeFi Ltd
 iphone:
   appId: com.andinadefi.defiant
@@ -29,7 +29,6 @@ iphone:
   version: 5.4.3+304
   reviews: 21
   icon: com.andinadefi.defiant.jpg
-  website: https://defiantapp.tech/
   developerName: Andina Defi Ltd
 
 ---

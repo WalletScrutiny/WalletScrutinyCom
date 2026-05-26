@@ -23,7 +23,6 @@ android:
   version: 9.6.3
   reviews: 600
   icon: com.zengo.wallet.png
-  website: https://www.zengo.com
   developerName: ZenGo
 iphone:
   appId: kzencorp.mobile.ios

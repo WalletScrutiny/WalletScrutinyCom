@@ -6,6 +6,7 @@ meta: stale
 date: 2025-11-13
 authors:
 - danny
+website: http://www.bitop.com
 twitter: bitop_exchange
 redirect_from:
 - /android/com.bitop.ex/
@@ -18,7 +19,6 @@ android:
   version: 1.0.21
   icon: com.bitop.ex.png
   meta: stale
-  website: http://www.bitop.com
   developerName: Bitop Ltd
 iphone:
   appId: com.bitop.exchange.prod

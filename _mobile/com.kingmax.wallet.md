@@ -13,7 +13,6 @@ android:
   updated: 2022-07-01
   version: '12.08'
   icon: com.kingmax.wallet.png
-  website: http://www.kingmax.com
   developerName: KINGMAX 勝創科技
 
 ---

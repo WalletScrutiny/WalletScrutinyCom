@@ -24,7 +24,6 @@ android:
   reviews: 482
   icon: com.monnos.android.png
   meta: stale
-  website: https://monnos.com
   developerName: Monnos Global
 iphone:
   appId: com.monnos

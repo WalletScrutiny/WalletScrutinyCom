@@ -22,7 +22,6 @@ android:
   version: 4.6.35
   reviews: 21
   icon: com.shaketh.png
-  website: https://shakepay.com
   developerName: Shakepay
 
 ---

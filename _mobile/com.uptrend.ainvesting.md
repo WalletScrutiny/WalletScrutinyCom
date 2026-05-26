@@ -18,7 +18,6 @@ android:
   updated: 2024-12-21
   version: 7.0.32
   icon: com.uptrend.ainvesting.png
-  website: http://www.uptrend.bg
   developerName: Up Trend LTD
 
 ---

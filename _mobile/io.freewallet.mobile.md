@@ -28,7 +28,6 @@ android:
   version: 0.1.9
   reviews: 30
   icon: io.freewallet.mobile.jpg
-  website: https://freewallet.io
   developerName: Jeremy Johnson
 iphone:
   appId: io.freewallet.mobile

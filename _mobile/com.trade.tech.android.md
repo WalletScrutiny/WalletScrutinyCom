@@ -13,7 +13,6 @@ android:
   updated: 2022-07-29
   version: 1.15.0
   icon: com.trade.tech.android.png
-  website: https://www.finalto.com/
   developerName: Finalto
 
 ---

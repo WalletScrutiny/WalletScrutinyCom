@@ -5,6 +5,7 @@ meta: ok
 date: 2024-06-12
 authors:
 - danny
+website: https://gemwallet.com
 social:
 - https://github.com/gemwalletcom
 - https://www.reddit.com/r/gemwallet_official
@@ -31,7 +32,6 @@ android:
   reviews: 5
   icon: com.gemwallet.android.png
   verdict: sourceavailable
-  website: https://gemwallet.com
   developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/wallet
   twitter: gemwallet
@@ -45,7 +45,6 @@ iphone:
   reviews: 355
   icon: com.gemwallet.ios.jpg
   verdict: wip
-  website: https://gemwallet.com/
   developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/gem-android
   twitter: GemWalletApp

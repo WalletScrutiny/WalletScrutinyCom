@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-07-07
 authors:
 - danny
+website: https://www.coinw.com
 twitter: CoinWOfficial
 social:
 - https://t.me/CoinwExchangeEnglish
@@ -24,7 +25,6 @@ android:
   reviews: 62
   icon: com.coinw.win.png
   meta: removed
-  website: https://www.coinw.com
   developerName: CoinW.SGP
 iphone:
   appId: com.coinwapp.legend

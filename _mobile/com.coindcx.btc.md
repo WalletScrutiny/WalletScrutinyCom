@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-27
 authors:
 - danny
+website: https://go.coindcx.com/
 bugbounty: https://coindcx.com/bug-bounty
 twitter: coindcx
 social:
@@ -22,7 +23,6 @@ android:
   version: 7.51.0005
   reviews: 599
   icon: com.coindcx.btc.png
-  website: https://go.coindcx.com/
   developerName: CoinDCX Official
 iphone:
   appId: com.coindcx.btc
@@ -33,7 +33,6 @@ iphone:
   version: 7.51.0004
   reviews: 42748
   icon: com.coindcx.btc.jpg
-  website: https://coindcx.com
   developerName: CoinDCX Official
 
 ---

@@ -5,6 +5,7 @@ verdict: custodial
 date: 2026-01-28
 authors:
 - leo
+website: https://choise.com
 twitter: crypterium
 social:
 - https://www.facebook.com/crypterium.org
@@ -21,7 +22,6 @@ android:
   reviews: 439
   icon: com.crypterium.png
   meta: removed
-  website: https://choise.com
   developerName: UAB Choise Servises
 iphone:
   appId: com.Crypterium.Crypterium
@@ -32,7 +32,6 @@ iphone:
   reviews: 933
   icon: com.Crypterium.Crypterium.jpg
   meta: stale
-  website: https://choise.com/
   developerName: Crypterium AS
 
 ---

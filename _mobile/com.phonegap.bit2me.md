@@ -24,7 +24,6 @@ android:
   version: 3.66.0
   reviews: 55
   icon: com.phonegap.bit2me.png
-  website: https://bit2me.com
   developerName: Bit2Me
 iphone:
   appId: com.bit2me.flutter-ios

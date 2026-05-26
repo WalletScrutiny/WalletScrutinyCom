@@ -6,6 +6,7 @@ meta: ok
 date: 2025-02-26
 authors:
 - danny
+website: https://monabit.io
 social:
 - https://www.instagram.com/monabit.io
 - https://www.facebook.com/monabitapp
@@ -22,7 +23,6 @@ android:
   version: 4.5.3
   reviews: 3
   icon: io.monabit.wallet.png
-  website: https://monabit.io
   developerName: MonaBit
 iphone:
   appId: io.monabit.app

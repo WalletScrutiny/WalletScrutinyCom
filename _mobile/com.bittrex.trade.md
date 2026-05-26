@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - leo
+website: https://global.bittrex.com
 twitter: BittrexGlobal
 social:
 - https://www.facebook.com/BittrexGlobal
@@ -20,7 +21,6 @@ android:
   version: 1.22.4
   reviews: 653
   icon: com.bittrex.trade.png
-  website: https://global.bittrex.com
   developerName: Bittrex, Inc.
 iphone:
   appId: com.bittrex.trade
@@ -30,7 +30,6 @@ iphone:
   version: 1.22.0
   reviews: 4357
   icon: com.bittrex.trade.jpg
-  website: https://web.archive.org/web/20231003135011/https://bittrex.com/mobile
   developerName: Bittrex, Inc.
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2021-09-19
 authors:
 - leo
+website: https://www.bitcoin-india.org
 twitter: BTC_india
 social:
 - https://www.linkedin.com/company/bitcoin-india
@@ -22,7 +23,6 @@ android:
   version: 3.1.45
   reviews: 963
   icon: com.bitcoinindia.Btciapp.png
-  website: https://www.bitcoin-india.org
 iphone:
   appId: com.bitcoinindia.Btciapp
   idd: '1230917514'

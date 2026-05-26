@@ -14,7 +14,6 @@ android:
   updated: 2026-05-14
   version: 1.3.5
   icon: com.cheezeebit.exchange.png
-  website: https://cheezeebit.com/
   developerName: Cheezeebit Global Limited
 
 ---

@@ -6,6 +6,7 @@ meta: obsolete
 date: 2026-02-20
 authors:
 - danny
+website: https://mirai.finance/
 twitter: shinobi_wallet
 social:
 - https://discord.com/invite/fg5fFwYYgt
@@ -31,7 +32,6 @@ iphone:
   version: 1.8.9
   reviews: 0
   icon: io.fgraph.wallet.jpg
-  website: https://mirai.finance/
   developerName: RISE LLC.
 
 ---

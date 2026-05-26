@@ -7,6 +7,7 @@ date: 2024-01-23
 authors:
 - leo
 - danny
+website: http://dzengi.com
 twitter: dzengicom
 social:
 - https://www.facebook.com/people/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B1%D0%B8%D1%80%D0%B6%D0%B0-Dzengicom/100076159896281/
@@ -25,7 +26,6 @@ android:
   version: 2.20.2
   reviews: 1
   icon: com.currency.exchange.prod2.jpg
-  website: http://dzengi.com
   developerName: DI INVESTMENTS LLC
 iphone:
   appId: com.currency.exchange.prod2
@@ -36,7 +36,6 @@ iphone:
   version: 2.20.2
   reviews: 4483
   icon: com.currency.exchange.prod2.jpg
-  website: https://dzengi.com/ads
   developerName: DI INVESTMENTS LLC
 
 ---

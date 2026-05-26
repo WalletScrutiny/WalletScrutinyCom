@@ -5,6 +5,7 @@ verdict: custodial
 date: 2026-02-02
 authors:
 - danny
+website: https://www.kasta.io/
 twitter: ka_app
 social:
 - https://t.me/kasta_app
@@ -19,7 +20,6 @@ android:
   version: 2.1.0
   icon: io.kasta.app.png
   meta: removed
-  website: https://www.kasta.io/
   developerName: Kasta.io
 iphone:
   appId: io.kasta.app.ios
@@ -31,7 +31,6 @@ iphone:
   reviews: 2
   icon: io.kasta.app.ios.jpg
   meta: ok
-  website: https://www.kasta.io
   developerName: Kasta CCHS LTD EOOD
 
 ---

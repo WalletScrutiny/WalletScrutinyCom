@@ -20,7 +20,6 @@ android:
   version: 4.0.2
   reviews: 6
   icon: com.cetoex.cetoex.jpg
-  website: https://cetoex.com
   developerName: CetoEx Labs
 
 ---

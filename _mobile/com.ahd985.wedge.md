@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-15
 authors:
 - danny
+website: https://wedge.us
 twitter: wedgefinancial
 social:
 - https://www.linkedin.com/company/wedgefinancial
@@ -22,7 +23,6 @@ android:
   version: 1.4.3
   reviews: 19
   icon: com.ahd985.wedge.png
-  website: https://wedge.us
   developerName: Wedge Financial, Inc.
 iphone:
   appId: com.ahd985.wedge

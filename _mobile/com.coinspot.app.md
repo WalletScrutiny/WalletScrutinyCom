@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-03
 authors:
 - danny
+website: https://www.coinspot.com.au
 twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau
@@ -24,7 +25,6 @@ android:
   version: 3.10.2
   reviews: 2197
   icon: com.coinspot.app.png
-  website: https://www.coinspot.com.au
   developerName: CoinSpot
 iphone:
   appId: com.coinspot.app
@@ -34,7 +34,6 @@ iphone:
   version: 3.10.2
   reviews: 44778
   icon: com.coinspot.app.jpg
-  website: https://www.coinspot.com.au/
   developerName: CoinSpot
 
 ---

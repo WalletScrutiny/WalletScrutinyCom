@@ -6,6 +6,7 @@ meta: ok
 date: 2025-07-18
 authors:
 - danny
+website: https://dzengi.com/
 redirect_from:
 - /android/com.currency.exchange.investsmart/
 - /iphone/com.currency.exchange.investsmart/
@@ -19,7 +20,6 @@ android:
   reviews: 288
   icon: com.currency.exchange.investsmart.png
   meta: ok
-  website: https://dzengi.com/
   developerName: Dzengi.com PL
 iphone:
   appId: com.currency.exchange.investsmart
@@ -31,7 +31,6 @@ iphone:
   reviews: 23
   icon: com.currency.exchange.investsmart.jpg
   meta: removed
-  website: https://currency.com/
   developerName: DZ INVESTMENTS POLAND Sp.z.o.o
 
 ---

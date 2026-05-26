@@ -19,7 +19,6 @@ android:
   version: 3.96.0
   reviews: 20955
   icon: com.sofi.mobile.png
-  website: https://www.sofi.com
   developerName: Social Finance, LLC
 iphone:
   appId: com.sofi.mobile

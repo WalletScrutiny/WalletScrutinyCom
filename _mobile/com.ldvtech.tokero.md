@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-04-28
 authors:
 - danny
+website: https://web.tokero.com
 twitter: tokeroexchange
 social:
 - https://www.facebook.com/TokeroExchange/
@@ -23,7 +24,6 @@ android:
   reviews: 5
   icon: com.ldvtech.tokero.png
   meta: removed
-  website: https://web.tokero.com
   developerName: Globe Monnaie SRL
 iphone:
   appId: com.ldvtech.tokero
@@ -35,7 +35,6 @@ iphone:
   reviews: 25
   icon: com.ldvtech.tokero.jpg
   meta: ok
-  website: https://tokero.com
   developerName: Globe Monnaie SRL
 
 ---

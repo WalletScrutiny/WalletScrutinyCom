@@ -22,7 +22,6 @@ android:
   version: 2.226.1
   reviews: 12998
   icon: com.wealthsimple.trade.png
-  website: https://www.wealthsimple.com/en-ca/
   developerName: Wealthsimple
 iphone:
   appId: com.wealthsimple.trade

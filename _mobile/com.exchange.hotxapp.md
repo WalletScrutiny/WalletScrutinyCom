@@ -6,6 +6,7 @@ meta: removed
 date: 2024-08-31
 authors:
 - danny
+website: https://hotx.pro/en/home
 redirect_from:
 - /android/com.exchange.hotxapp/
 - /iphone/com.metasigns.hotx/
@@ -16,7 +17,6 @@ android:
   updated: 2023-07-14
   version: 1.0.33
   icon: com.exchange.hotxapp.png
-  website: https://hotx.pro/en/home
   developerName: Metasigns
 iphone:
   appId: com.metasigns.hotx
@@ -27,7 +27,6 @@ iphone:
   version: 1.0.19
   reviews: 2
   icon: com.metasigns.hotx.jpg
-  website: https://themetasigns.com/
   developerName: METASIGNS INC.
 
 ---

@@ -22,7 +22,6 @@ android:
   updated: 2024-04-25
   version: 2.3.10
   icon: com.ttmbank.wallet.app.png
-  website: https://ttmwallet.io
   developerName: MDAO Wallet
 
 ---

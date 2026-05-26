@@ -6,6 +6,7 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
+website: https://dmexchange.com
 appCountry: us
 redirect_from:
 - /android/co.digitalmoney.dmapp/
@@ -17,7 +18,6 @@ android:
   updated: 2022-02-15
   version: 1.4.9
   icon: co.digitalmoney.dmapp.png
-  website: https://dmexchange.com
   developerName: Digital Money Ltd
 iphone:
   appId: co.digitalmoney.dmapp

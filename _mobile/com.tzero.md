@@ -6,6 +6,7 @@ meta: removed
 date: 2023-04-16
 authors:
 - danny
+website: http://www.tzero.com/crypto-app#deadLink
 appCountry: us
 redirect_from:
 - /android/com.tzero/
@@ -18,7 +19,6 @@ android:
   version: 2.0.10733
   reviews: 137
   icon: com.tzero.png
-  website: http://www.tzero.com/crypto-app#deadLink
   developerName: tZERO Crypto
 iphone:
   appId: com.tzero.tzerocrypto
@@ -28,7 +28,6 @@ iphone:
   version: 2.0.20
   reviews: 724
   icon: com.tzero.tzerocrypto.jpg
-  website: https://www.tzero.com/crypto-app#deadLink
 
 ---
 

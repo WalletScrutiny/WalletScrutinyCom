@@ -7,6 +7,7 @@ date: 2025-05-30
 authors:
 - leo
 - danny
+website: https://www.spot-wallet.com#deadLink
 twitter: spot_bitcoin
 social:
 - https://www.linkedin.com/company/spot-bitcoin
@@ -23,7 +24,6 @@ android:
   version: 4.88.4
   reviews: 514
   icon: com.spot.spot.png
-  website: https://www.spot-wallet.com#deadLink
   developerName: Spot crypto wallet
 iphone:
   appId: tech.spotapp.spot
@@ -33,7 +33,6 @@ iphone:
   version: '5.25'
   reviews: 6989
   icon: tech.spotapp.spot.jpg
-  website: https://spot-wallet.com#deadLink
   developerName: Spot
 
 ---

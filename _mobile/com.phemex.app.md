@@ -27,7 +27,6 @@ android:
   version: 5.19.0
   reviews: 1468
   icon: com.phemex.app.png
-  website: https://phemex.com
   developerName: Leading Magic Limited
 iphone:
   appId: com.phemex.submit

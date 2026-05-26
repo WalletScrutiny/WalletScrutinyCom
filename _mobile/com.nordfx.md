@@ -6,6 +6,7 @@ meta: removed
 date: 2022-10-21
 authors:
 - danny
+website: http://nordfx.com
 twitter: NordFX
 appCountry: lv
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: '15'
   reviews: 43
   icon: com.nordfx.png
-  website: http://nordfx.com
 iphone:
   appId: com.nordfx.mobiletrading
   idd: 1551642767
@@ -28,7 +28,6 @@ iphone:
   version: '15.0'
   reviews: 1
   icon: com.nordfx.mobiletrading.jpg
-  website: https://nordfx.com/
 
 ---
 

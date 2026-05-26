@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-28
 authors:
 - danny
+website: https://faswet.com
 twitter: emet_group_eng
 social:
 - https://www.instagram.com/emetbusinessgroupeng
@@ -21,7 +22,6 @@ android:
   updated: 2021-07-14
   version: 1.9.2
   icon: com.emet.faswet.png
-  website: https://faswet.com
   developerName: EBG Malta Business Group
 iphone:
   appId: com.emet.faswet
@@ -32,7 +32,6 @@ iphone:
   version: 2.9.7
   reviews: 2
   icon: com.emet.faswet.jpg
-  website: https://emetenjoy.com/
   developerName: EBG MALTA BUSINESS GROUP LIMITED
 
 ---

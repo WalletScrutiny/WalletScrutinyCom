@@ -13,7 +13,6 @@ android:
   updated: 2025-12-03
   version: 2.0.5
   icon: ammer.pay.png
-  website: https://ammer.cards
   developerName: Ammer Technologies AG
 
 ---

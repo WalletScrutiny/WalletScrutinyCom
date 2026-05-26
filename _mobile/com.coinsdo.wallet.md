@@ -6,6 +6,7 @@ meta: ok
 date: 2024-03-02
 authors:
 - danny
+website: https://www.coinsdo.com
 twitter: coinsdogroup
 social:
 - https://www.facebook.com/CoinsDogroup
@@ -22,7 +23,6 @@ android:
   reviews: 119
   icon: com.coinsdo.wallet.png
   meta: ok
-  website: https://www.coinsdo.com
   developerName: COINSDO
 iphone:
   appId: com.coinsdo.wallet

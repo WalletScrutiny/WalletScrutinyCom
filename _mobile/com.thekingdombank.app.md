@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-08
 authors:
 - danny
+website: https://thekingdombank.com
 twitter: kingdombankcom
 social:
 - https://www.linkedin.com/company/thekingdombank
@@ -24,7 +25,6 @@ android:
   version: 10.8.0
   reviews: 8
   icon: com.thekingdombank.app.png
-  website: https://thekingdombank.com
   developerName: TheKingdomBank
 iphone:
   appId: com.kingdom.TheKingdomBank
@@ -35,7 +35,6 @@ iphone:
   version: 10.8.0
   reviews: 1
   icon: com.kingdom.TheKingdomBank.jpg
-  website: https://portal.thekingdombank.com/signup
   developerName: The Kingdom Bank Corporation
 
 ---

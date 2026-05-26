@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-21
 authors:
 - danny
+website: https://www.honesto.swiss/
 redirect_from:
 - /android/io.honesto.honesto/
 - /iphone/io.honesto.honesto/
@@ -15,7 +16,6 @@ android:
   updated: 2025-10-23
   version: 2.0.79
   icon: io.honesto.honesto.png
-  website: https://www.honesto.swiss/
   developerName: Honesto AG Schweiz
 iphone:
   appId: io.honesto.honesto

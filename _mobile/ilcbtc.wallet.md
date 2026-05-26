@@ -21,7 +21,6 @@ android:
   updated: 2025-08-29
   version: '4.35'
   icon: ilcbtc.wallet.png
-  website: https://www.ilcoincrypto.com/
   developerName: ILCOIN Dev Team
 
 ---

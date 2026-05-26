@@ -13,7 +13,6 @@ android:
   updated: 2026-01-23
   version: 1.0.15
   icon: com.coinrabbit.png
-  website: https://coinrabbit.io/
   developerName: CoinRabbit
 
 ---

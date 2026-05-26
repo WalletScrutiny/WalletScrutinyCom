@@ -13,7 +13,6 @@ android:
   updated: 2023-10-22
   version: 1.0.17
   icon: com.bravecorporation.bravepro.png
-  website: https://www.bravepay.net/
   developerName: BravePay
 
 ---

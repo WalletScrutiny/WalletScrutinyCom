@@ -22,7 +22,6 @@ android:
   updated: 2026-04-08
   version: 3.2.7
   icon: com.kriptrade.mobile.png
-  website: https://kriptrade.com
   developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
 iphone:
   appId: com.kriptrade.mobile

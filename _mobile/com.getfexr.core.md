@@ -13,7 +13,6 @@ android:
   updated: 2026-05-22
   version: 3.5.2
   icon: com.getfexr.core.png
-  website: https://getfexr.com
   developerName: Fexr
 
 ---

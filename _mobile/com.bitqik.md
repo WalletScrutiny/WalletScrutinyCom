@@ -6,6 +6,7 @@ meta: ok
 date: 2024-10-07
 authors:
 - danny
+website: https://bitqik.com/
 twitter: bitqikofficial
 social:
 - https://www.facebook.com/bitqik
@@ -24,7 +25,6 @@ android:
   version: 3.7.0
   reviews: 3
   icon: com.bitqik.png
-  website: https://bitqik.com/
   developerName: bitqik
 iphone:
   appId: com.bitqik

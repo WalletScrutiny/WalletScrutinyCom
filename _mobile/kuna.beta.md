@@ -6,6 +6,7 @@ meta: removed
 date: 2025-04-22
 authors:
 - danny
+website: https://kuna.io/
 twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
@@ -21,7 +22,6 @@ android:
   version: 2.1.1891
   reviews: 15
   icon: kuna.beta.png
-  website: https://kuna.io/
   developerName: UAB Kuna Pro
 iphone:
   appId: icecream.group.kuna.fintech
@@ -32,7 +32,6 @@ iphone:
   version: 5.6.4
   reviews: 10
   icon: icecream.group.kuna.fintech.jpg
-  website: https://kuna.io
   developerName: Kuna.io - buy sell crypto
 
 ---

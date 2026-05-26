@@ -9,6 +9,7 @@ authors:
 - leo
 - danny
 - keraliss
+website: https://blockstream.com/green
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream
@@ -39,7 +40,6 @@ android:
   signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
   alternativeStores:
   - fdroid
-  website: https://blockstream.com/green
   developerName: Blockstream Inc
   repository: https://github.com/Blockstream/green_android
 iphone:
@@ -50,7 +50,6 @@ iphone:
   version: 5.4.1
   reviews: 1156
   icon: io.blockstream.green.jpg
-  website: https://blockstream.com/app
   developerName: Blockstream
   repository: https://github.com/Blockstream/green_ios
 

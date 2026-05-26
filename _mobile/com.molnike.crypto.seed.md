@@ -13,7 +13,6 @@ android:
   updated: 2023-02-28
   version: '0.6'
   icon: com.molnike.crypto.seed.png
-  website: https://github.com/openMolNike/Crypto-Apps
   developerName: Mol Nike
 
 ---

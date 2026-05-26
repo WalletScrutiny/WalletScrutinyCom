@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-11
 authors:
 - danny
+website: https://unitywallet.com
 social:
 - https://www.facebook.com/savl.official
 features:
@@ -25,7 +26,6 @@ android:
   version: 9.2.0
   reviews: 207
   icon: com.savl.png
-  website: https://unitywallet.com
   developerName: Unity Software FZE
 iphone:
   appId: com.savl.savlapp
@@ -35,7 +35,6 @@ iphone:
   version: '9.2'
   reviews: 278
   icon: com.savl.savlapp.jpg
-  website: https://www.unitywallet.com
   developerName: Unity Software FZE
 
 ---

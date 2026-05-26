@@ -6,6 +6,7 @@ meta: removed
 date: 2022-10-21
 authors:
 - danny
+website: https://kelta.com/
 appCountry: sk
 redirect_from:
 - /android/com.kelta.app/
@@ -18,7 +19,6 @@ android:
   version: 3.1.2
   reviews: 1102
   icon: com.kelta.app.jpg
-  website: https://kelta.com/
 iphone:
   appId: com.kelta
   idd: 1385038150
@@ -27,7 +27,6 @@ iphone:
   version: 3.1.1
   reviews: 182
   icon: com.kelta.jpg
-  website: https://kelta.com
 
 ---
 

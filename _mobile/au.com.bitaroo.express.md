@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-05
 authors:
 - danny
+website: https://www.bitaroo.com.au
 twitter: BitarooExchange
 social:
 - https://www.youtube.com/@bitarooexchange
@@ -24,7 +25,6 @@ android:
   updated: 2026-04-14
   version: 3.4.1
   icon: au.com.bitaroo.express.png
-  website: https://www.bitaroo.com.au
   developerName: Bitaroo
 iphone:
   appId: au.com.bitaroo.express
@@ -35,7 +35,6 @@ iphone:
   version: 3.4.1
   reviews: 24
   icon: au.com.bitaroo.express.jpg
-  website: https://www.bitaroo.com.au/
   developerName: Bitaroo
 
 ---

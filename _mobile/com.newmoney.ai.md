@@ -25,7 +25,6 @@ android:
   version: 1.8.10
   reviews: 10
   icon: com.newmoney.ai.png
-  website: https://newmoney.ai/
   developerName: NewmoneyAI
   twitter: NewmoneyAI
 iphone:

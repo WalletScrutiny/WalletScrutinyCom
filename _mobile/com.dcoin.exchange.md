@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://www.dcoin.com
 twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange
@@ -21,7 +22,6 @@ android:
   version: 5.7.8-play
   reviews: 43
   icon: com.dcoin.exchange.png
-  website: https://www.dcoin.com
   developerName: Dcoin
 iphone:
   appId: com.dcoin.ios
@@ -31,7 +31,6 @@ iphone:
   version: 5.7.2
   reviews: 19
   icon: com.dcoin.ios.jpg
-  website: https://www.dcoin.com/
   developerName: DAVOX TECH PTE. LTD.
 
 ---

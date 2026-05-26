@@ -6,6 +6,7 @@ meta: ok
 date: 2021-04-11
 authors:
 - leo
+website: https://safe3.app/
 features:
 - buyWithCC
 - tradeAlts
@@ -20,7 +21,6 @@ android:
   version: '2.44'
   reviews: 2
   icon: com.silenca.amlsafe.png
-  website: https://safe3.app/
   developerName: Avelot Limited
 iphone:
   appId: com.avelot.amlsafe
@@ -30,7 +30,6 @@ iphone:
   version: 2.44.814
   reviews: 51
   icon: com.avelot.amlsafe.jpg
-  website: https://Safe3.app
   developerName: Avelot Limited
 
 ---

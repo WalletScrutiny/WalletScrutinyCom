@@ -13,7 +13,6 @@ android:
   updated: 2025-11-12
   version: 1.0.4
   icon: me.smashfi.appclient.png
-  website: https://smashfi.me
   developerName: SmashFi
 
 ---

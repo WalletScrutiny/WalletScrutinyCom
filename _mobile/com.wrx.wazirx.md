@@ -24,7 +24,6 @@ android:
   version: 4.5.2
   reviews: 126118
   icon: com.wrx.wazirx.png
-  website: https://wazirx.com
   developerName: Zanmai Labs Private Limited
 iphone:
   appId: com.wrx.wazirx

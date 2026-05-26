@@ -6,6 +6,7 @@ meta: fewusers
 date: 2026-05-04
 authors:
 - danny
+website: https://sezame.app
 twitter: SesameWallet
 social:
 - https://x.com/SesameWallet
@@ -21,7 +22,6 @@ android:
   version: 0.16.6
   icon: org.maze2.sezamewallet.png
   meta: fewusers
-  website: https://sezame.app
   developerName: Maze 2 Techs
   repository: https://github.com/maze2-org/sezame-wallet
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.maze2.sezamewallet.jpg
   meta: ok
-  website: https://sezame.app/
   developerName: Maze 2 SA
 
 ---

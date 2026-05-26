@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-19
 authors:
 - danny
+website: https://firi.com
 twitter: firiapp
 social:
 - https://www.linkedin.com/company/firias
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-05
   version: 3.7.1
   icon: com.mirai.miraiex.png
-  website: https://firi.com
   developerName: Firi
 iphone:
   appId: com.mirai.miraiex

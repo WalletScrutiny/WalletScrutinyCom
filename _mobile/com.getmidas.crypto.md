@@ -19,7 +19,6 @@ android:
   version: 2.98.1
   reviews: 3
   icon: com.getmidas.crypto.png
-  website: https://www.midaskripto.com/
   developerName: Midas Finansal Teknolojiler
 iphone:
   appId: com.midas.crypto

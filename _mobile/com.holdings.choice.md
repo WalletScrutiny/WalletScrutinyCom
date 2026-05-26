@@ -6,6 +6,7 @@ meta: ok
 date: 2023-12-15
 authors:
 - danny
+website: https://www.choiceapp.io/
 social:
 - https://www.instagram.com/choiceapp.io
 - https://www.facebook.com/choicebykt
@@ -21,7 +22,6 @@ android:
   version: 2.25.0
   reviews: 30
   icon: com.holdings.choice.png
-  website: https://www.choiceapp.io/
   developerName: Choice IRA
   twitter: choicebyKT
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 2.25.0
   reviews: 1499
   icon: com.holdings.choice.jpg
-  website: https://www.choiceapp.io
   developerName: Choice Holdings Incorporated
 
 ---

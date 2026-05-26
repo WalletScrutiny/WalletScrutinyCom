@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://zaif.jp
 twitter: zaifdotjp
 social:
 - https://www.facebook.com/zaifdotjp
@@ -20,7 +21,6 @@ android:
   updated: 2023-10-05
   version: 1.1.23
   icon: jp.fcce.zaifapps.png
-  website: https://zaif.jp
   developerName: 株式会社Ｚａｉｆ
 iphone:
   appId: jp.fcce.zaifapps
@@ -30,7 +30,6 @@ iphone:
   version: 1.1.22
   reviews: 0
   icon: jp.fcce.zaifapps.jpg
-  website: https://zaif.jp/
   developerName: FCCE
 
 ---

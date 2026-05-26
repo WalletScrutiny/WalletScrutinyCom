@@ -8,6 +8,7 @@ authors:
 - leo
 - danny
 - keraliss
+website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 twitter: AirGap_it
 social:
@@ -37,7 +38,6 @@ android:
   reviews: 16
   icon: it.airgap.vault.png
   signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-  website: https://www.airgap.it
   developerName: Papers AG
 iphone:
   appId: it.airgap.vault

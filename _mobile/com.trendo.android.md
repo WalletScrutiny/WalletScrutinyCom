@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-04-04
 authors:
 - danny
+website: https://fxtrendo.com
 social:
 - https://www.instagram.com/fxtrendo/
 redirect_from:
@@ -19,7 +20,6 @@ android:
   reviews: 674
   icon: com.trendo.android.png
   meta: removed
-  website: https://fxtrendo.com
   developerName: Trendo Forex
 iphone:
   appId: ios.m3.Trendo
@@ -31,7 +31,6 @@ iphone:
   reviews: 86
   icon: ios.m3.Trendo.jpg
   meta: ok
-  website: https://fxtrendo.com/
   developerName: Trendo LLC
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-01-15
 authors:
 - danny
+website: https://www.bitfree.us/#contact
 twitter: bitfree_us
 social:
 - https://bitfree.us
@@ -32,7 +33,6 @@ iphone:
   version: 5.6.2
   reviews: 0
   icon: com.yykj.bitfree.en.jpg
-  website: https://www.bitfree.us/#contact
   developerName: Bitfree Limited
 
 ---

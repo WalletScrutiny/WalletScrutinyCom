@@ -14,7 +14,6 @@ android:
   version: 1.1.5
   reviews: 6
   icon: com.gee_fi.png
-  website: https://geefi.io
   developerName: GeeFi Tech
 
 ---

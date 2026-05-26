@@ -6,6 +6,7 @@ meta: removed
 date: 2021-10-22
 authors:
 - danny
+website: https://www.bbx.com/
 appCountry: us
 redirect_from:
 - /android/com.bbx.bmtc/
@@ -18,7 +19,6 @@ android:
   version: 1.3.1
   reviews: 63
   icon: com.bbx.bmtc.png
-  website: https://www.bbx.com/
 iphone:
   appId: com.bbx.bbx
   idd: '1539393718'
@@ -26,7 +26,6 @@ iphone:
   updated: 2021-05-27
   version: 1.3.1
   icon: com.bbx.bbx.jpg
-  website: https://bbx.com
 
 ---
 

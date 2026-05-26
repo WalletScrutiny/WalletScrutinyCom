@@ -6,6 +6,7 @@ meta: removed
 date: 2023-05-30
 authors:
 - danny
+website: https://www.baanxapp.com#deadLink
 twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp
@@ -20,7 +21,6 @@ android:
   updated: 2023-02-02
   version: 3.1.1
   icon: com.baanx.baanx.png
-  website: https://www.baanxapp.com#deadLink
   developerName: Baanx.com Ltd
 iphone:
   appId: com.baanx.baanxapp
@@ -30,7 +30,6 @@ iphone:
   version: 3.1.1
   reviews: 7
   icon: com.baanx.baanxapp.jpg
-  website: https://baanxapp.com#deadLink
   developerName: Baanx.com Ltd
 
 ---

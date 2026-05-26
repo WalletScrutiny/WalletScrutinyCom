@@ -24,7 +24,6 @@ android:
   reviews: 10
   icon: com.tatspace.jpg
   meta: stale
-  website: https://www.tatcoin.com
   developerName: Own the Earth LLC
 iphone:
   appId: com.tatspaceapp

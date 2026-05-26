@@ -10,6 +10,7 @@ authors:
 - mohammad
 - keraliss
 - danny
+website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 twitter: breez_tech
 social:
@@ -36,7 +37,6 @@ android:
   updated: 2025-01-14
   version: VARY
   icon: com.breez.client.png
-  website: http://breez.technology
   developerName: Breez Development LTD
 iphone:
   appId: technology.breez.client

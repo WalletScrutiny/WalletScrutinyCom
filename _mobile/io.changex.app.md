@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-02-04
 authors:
 - danny
+website: https://changex.io/
 twitter: ChangeXapp
 social:
 - https://t.me/changex_official
@@ -25,7 +26,6 @@ android:
   reviews: 7
   icon: io.changex.app.png
   meta: removed
-  website: https://changex.io/
   developerName: ChangeX
 iphone:
   appId: io.changex.app
@@ -37,7 +37,6 @@ iphone:
   reviews: 11
   icon: io.changex.app.jpg
   meta: obsolete
-  website: https://changex.io
   developerName: Olympus Capital AD
 
 ---

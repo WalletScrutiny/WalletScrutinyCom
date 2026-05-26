@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-16
 authors:
 - danny
+website: https://www.cointr.pro
 twitter: CoinTRpro
 social:
 - https://t.me/CoinTRPro
@@ -25,7 +26,6 @@ android:
   version: 2.4.13
   reviews: 56
   icon: pro.cointr.jpg
-  website: https://www.cointr.pro
   developerName: CoinTR pro
 iphone:
   appId: vip.trcoin.global

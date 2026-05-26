@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-01
 authors:
 - danny
+website: https://www.independentreserve.com
 twitter: indepreserve
 social:
 - https://www.linkedin.com/company/independent-reserve
@@ -28,7 +29,6 @@ android:
   version: 14.4.0
   reviews: 3
   icon: com.independentreserve.mobileapp.png
-  website: https://www.independentreserve.com
   developerName: Independent Reserve
 iphone:
   appId: com.independentreserve.mobileapp
@@ -39,7 +39,6 @@ iphone:
   version: 14.4.0
   reviews: 2283
   icon: com.independentreserve.mobileapp.jpg
-  website: https://www.independentreserve.com/
   developerName: Independent Reserve
 
 ---

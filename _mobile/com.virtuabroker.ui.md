@@ -14,7 +14,6 @@ android:
   version: 1.0.3
   reviews: 24
   icon: com.virtuabroker.ui.png
-  website: https://virtuabroker.com
   developerName: VirtuaBroker Ltd
 
 ---

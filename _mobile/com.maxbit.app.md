@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-19
 authors:
 - danny
+website: https://www.maxbit.com
 twitter: MaxbitOfficial
 redirect_from:
 - /android/com.maxbit.app/
@@ -17,7 +18,6 @@ android:
   updated: 2026-05-20
   version: 1.39.1
   icon: com.maxbit.app.png
-  website: https://www.maxbit.com
   developerName: MAXBIT DIGITAL ASSET COMPANY LIMITED
 iphone:
   appId: com.maxbit.app

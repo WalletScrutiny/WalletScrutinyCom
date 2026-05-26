@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-01
 authors:
 - danny
+website: https://www.fexobit.com/
 twitter: Fexobit
 social:
 - https://www.linkedin.com/company/fexobit
@@ -23,7 +24,6 @@ android:
   updated: 2026-05-11
   version: 2.7.6
   icon: com.futurance.futurex.png
-  website: https://www.fexobit.com/
   developerName: Futurance Kripto Varlık Alım Satım Platformu
 iphone:
   appId: com.futurance.futurex

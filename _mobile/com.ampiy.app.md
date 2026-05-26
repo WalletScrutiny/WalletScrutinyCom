@@ -13,7 +13,6 @@ android:
   updated: 2025-09-30
   version: 5.0.1
   icon: com.ampiy.app.png
-  website: https://ampiy.com
   developerName: Ampiy
 
 ---

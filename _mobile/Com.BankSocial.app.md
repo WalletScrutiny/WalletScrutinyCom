@@ -15,7 +15,6 @@ iphone:
   version: 2.31.0
   reviews: 142
   icon: Com.BankSocial.app.jpg
-  website: http://www.banksocial.io
   developerName: Fivancial, Inc d/b/a BankSocial
 
 ---

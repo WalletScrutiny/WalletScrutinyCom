@@ -7,6 +7,7 @@ date: 2023-10-20
 authors:
 - leo
 - danny
+website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
 twitter: blinkbtc
 social:
@@ -28,7 +29,6 @@ android:
   version: 2.4.15
   reviews: 47
   icon: com.galoyapp.png
-  website: https://blink.sv/
   developerName: Blink El Salvador S.A. de C.V.
 iphone:
   appId: io.galoy.bitcoinbeach
@@ -39,7 +39,6 @@ iphone:
   version: 2.4.15
   reviews: 68
   icon: io.galoy.bitcoinbeach.jpg
-  website: https://www.blink.sv/en/features
   developerName: Blink SA de CV
 
 ---

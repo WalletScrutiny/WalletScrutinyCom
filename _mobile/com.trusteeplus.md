@@ -6,6 +6,7 @@ meta: removed
 date: 2026-02-20
 authors:
 - danny
+website: https://trusteeglobal.com
 twitter: TrusteeGlobal
 social:
 - https://t.me/trustee_ru
@@ -22,7 +23,6 @@ android:
   version: 1.32.52
   reviews: 26
   icon: com.trusteeplus.png
-  website: https://trusteeglobal.com
   developerName: UAB Trustee Global
 iphone:
   appId: com.trusteeplus1

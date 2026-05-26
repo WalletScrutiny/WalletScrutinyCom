@@ -6,6 +6,7 @@ meta: ok
 date: 2023-09-04
 authors:
 - danny
+website: https://bousechanj.com/
 redirect_from:
 - /android/com.bouspam.eritajpam/
 - /iphone/com.bouspam.eritajpam/
@@ -18,7 +19,6 @@ android:
   reviews: 24
   icon: com.bouspam.eritajpam.png
   meta: ok
-  website: https://bousechanj.com/
   developerName: Ezechias Caillot
   twitter: eritajpam
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 1
   icon: com.bouspam.eritajpam.jpg
   meta: defunct
-  website: https://vcards.eritajpam.com#deadLink
   developerName: Eritajpam, LLC
 
 ---

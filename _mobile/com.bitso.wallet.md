@@ -22,7 +22,6 @@ android:
   version: 4.16.0
   reviews: 309
   icon: com.bitso.wallet.png
-  website: https://bitso.com/app
   developerName: Bitso
 iphone:
   appId: com.bitso.wallet

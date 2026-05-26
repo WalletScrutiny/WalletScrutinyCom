@@ -20,7 +20,6 @@ android:
   version: '168.7'
   reviews: 11
   icon: com.avatrade.mobile.png
-  website: https://www.avatrade.com/
   developerName: Ava Financial Ltd
 
 ---

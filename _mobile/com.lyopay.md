@@ -6,6 +6,7 @@ meta: removed
 date: 2023-11-02
 authors:
 - danny
+website: https://lyopay.com
 twitter: lyopayofficial
 social:
 - https://www.linkedin.com/company/lyopay
@@ -22,7 +23,6 @@ android:
   updated: 2023-08-10
   version: '1.1'
   icon: com.lyopay.png
-  website: https://lyopay.com
   developerName: DIGILYO APP LTD
 iphone:
   appId: com.LYOPAY.LYOPAY
@@ -32,7 +32,6 @@ iphone:
   version: '8.17'
   reviews: 0
   icon: com.LYOPAY.LYOPAY.jpg
-  website: https://lyopay.com/
   developerName: DIGILYO APP LTD
 
 ---

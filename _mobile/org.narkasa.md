@@ -6,6 +6,7 @@ meta: ok
 date: 2024-04-03
 authors:
 - danny
+website: https://narkasa.com
 twitter: narkasacom
 social:
 - https://www.facebook.com/narkasacom
@@ -22,7 +23,6 @@ android:
   version: 5.14.2
   icon: org.narkasa.png
   meta: ok
-  website: https://narkasa.com
   developerName: Bybit TR
 iphone:
   appId: org.narkasa
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: org.narkasa.jpg
   meta: removed
-  website: https://narkasa.com#deadLink
   developerName: Narkasa Yazılım ve Ticaret A.Ş.
 
 ---

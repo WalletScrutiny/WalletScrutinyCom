@@ -6,6 +6,7 @@ meta: stale
 date: 2026-04-20
 authors:
 - leo
+website: http://www.xcelpay.io
 twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
@@ -25,7 +26,6 @@ android:
   version: 2.91.0
   reviews: 83
   icon: com.XcelTrip.XcelPay.png
-  website: http://www.xcelpay.io
   developerName: XcelTrip LLC
 iphone:
   appId: com.xcelpay.wallet
@@ -35,7 +35,6 @@ iphone:
   version: 2.91.0
   reviews: 64
   icon: com.xcelpay.wallet.jpg
-  website: http://xcelpay.io
   developerName: XcelPay Limited
 
 ---

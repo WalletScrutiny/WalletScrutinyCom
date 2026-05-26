@@ -19,7 +19,6 @@ android:
   version: 1.08.1122
   reviews: 41
   icon: app.pagosalinstante.com.png
-  website: https://paiexchange.com
   developerName: PAI Exchange
 
 ---

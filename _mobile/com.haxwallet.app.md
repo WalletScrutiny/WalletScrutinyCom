@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-18
 authors:
 - danny
+website: http://haxwallet.com
 twitter: haxwallet0x
 features:
 - buyWithCC
@@ -24,7 +25,6 @@ android:
   version: 3.5.2
   reviews: 6
   icon: com.haxwallet.app.png
-  website: http://haxwallet.com
   developerName: HaxSolutions
 iphone:
   appId: com.haxwallet.app

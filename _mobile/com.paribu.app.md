@@ -24,7 +24,6 @@ android:
   version: 6.0.23
   reviews: 115
   icon: com.paribu.app.png
-  website: https://www.paribu.com
   developerName: PARİBU
 iphone:
   appId: com.codevist.paribu

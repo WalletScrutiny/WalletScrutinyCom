@@ -19,7 +19,6 @@ android:
   version: 18.1.3
   reviews: 123
   icon: com.profittrading.forbinance.png
-  website: https://profittradingapp.com?utm_source=binance_gp
   developerName: ProfitTradingApp
 
 ---

@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-10-08
 authors:
 - danny
+website: https://oceanex.pro
 twitter: OceanexOfficial
 social:
 - https://www.facebook.com/OceanExPROOfficial
@@ -22,7 +23,6 @@ android:
   reviews: 15
   icon: com.ocean.exchange.png
   meta: removed
-  website: https://oceanex.pro
   developerName: OceanEx Limited
 iphone:
   appId: pro.oceanex.exapp
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: pro.oceanex.exapp.jpg
   meta: obsolete
-  website: https://oceanex.pro/
   developerName: OceanEx Limited
 
 ---

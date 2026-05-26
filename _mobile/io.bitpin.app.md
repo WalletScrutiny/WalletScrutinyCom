@@ -20,7 +20,6 @@ android:
   version: 1.3.0
   reviews: 124
   icon: io.bitpin.app.png
-  website: https://bitpin.ir
   developerName: Bitpin App Developer
 
 ---

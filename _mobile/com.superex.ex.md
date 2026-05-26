@@ -20,7 +20,6 @@ android:
   reviews: 258
   icon: com.superex.ex.png
   verdict: custodial
-  website: https://www.superex.com
   developerName: SUPEREX
   twitter: SuperExet
 iphone:

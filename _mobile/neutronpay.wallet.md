@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-12-31
 authors:
 - danny
+website: https://neutron.me/app
 twitter: neutron__me
 social:
 - https://www.instagram.com/neutronpay
@@ -23,7 +24,6 @@ android:
   version: 3.5.0
   icon: neutronpay.wallet.png
   meta: removed
-  website: https://neutron.me/app
   developerName: Neutronpay Inc.
 iphone:
   appId: neutronpay.wallet

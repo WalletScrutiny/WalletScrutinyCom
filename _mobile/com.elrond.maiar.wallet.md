@@ -24,7 +24,6 @@ android:
   reviews: 412
   icon: com.elrond.maiar.wallet.png
   meta: ok
-  website: https://xportal.com/
   developerName: xPortal Labs
 iphone:
   appId: com.elrond.maiar.wallet

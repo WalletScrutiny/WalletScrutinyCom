@@ -26,7 +26,6 @@ android:
   version: 4.5.21
   reviews: 351
   icon: com.wake.weexprd.png
-  website: https://www.weex.com
   developerName: WEEX PRO
 iphone:
   appId: com.wake.weexprd

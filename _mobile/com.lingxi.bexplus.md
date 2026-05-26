@@ -7,6 +7,7 @@ date: 2023-01-02
 authors:
 - kiwilamb
 - leo
+website: http://www.bexplus.com
 twitter: BexplusExchange
 social:
 - https://www.reddit.com/r/Bexplus
@@ -21,7 +22,6 @@ android:
   version: 2.2.1
   reviews: 1590
   icon: com.lingxi.bexplus.png
-  website: http://www.bexplus.com
 iphone:
   appId: com.mhc.bexplus
   idd: 1442189260
@@ -30,7 +30,6 @@ iphone:
   version: 2.2.1
   reviews: 225
   icon: com.mhc.bexplus.jpg
-  website: https://www.bexplus.com/activity/cash_back
 
 ---
 

@@ -6,6 +6,7 @@ meta: removed
 date: 2025-06-18
 authors:
 - danny
+website: https://uxuy.com
 twitter: uxuycom
 social:
 - https://t.me/uxuycom
@@ -22,7 +23,6 @@ android:
   version: 1.3.13
   reviews: 26
   icon: com.uxuy.png
-  website: https://uxuy.com
   developerName: UXUY Limited
 iphone:
   appId: com.uxuy
@@ -33,7 +33,6 @@ iphone:
   version: 1.3.13
   reviews: 18
   icon: com.uxuy.jpg
-  website: https://web.archive.org/web/20250422220123/https://uxuy.com/wallet
   developerName: UXUY Limited
 
 ---

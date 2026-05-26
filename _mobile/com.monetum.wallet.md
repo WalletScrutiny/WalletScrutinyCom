@@ -13,7 +13,6 @@ android:
   updated: 2022-09-07
   version: 7.1.4
   icon: com.monetum.wallet.png
-  website: https://monetum.com
   developerName: Monetum Mobile
 
 ---

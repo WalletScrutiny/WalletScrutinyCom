@@ -7,6 +7,7 @@ date: 2022-03-07
 authors:
 - danny
 - leo
+website: https://onekey.so
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
@@ -22,7 +23,6 @@ android:
   version: 2.12.3
   reviews: 10
   icon: com.bixin.wallet.mainnet.png
-  website: https://onekey.so
 iphone:
   appId: com.onekey.wallet
   idd: 1568432215
@@ -31,7 +31,6 @@ iphone:
   version: 2.12.2
   reviews: 18
   icon: com.onekey.wallet.jpg
-  website: https://www.onekey.so
 
 ---
 

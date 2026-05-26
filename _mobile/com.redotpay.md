@@ -24,7 +24,6 @@ android:
   version: 3.6.0
   reviews: 1119
   icon: com.redotpay.png
-  website: https://www.redotpay.com
   developerName: Red Dot Technology Limited
 iphone:
   appId: com.redotpay

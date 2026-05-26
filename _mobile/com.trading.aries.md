@@ -6,6 +6,7 @@ meta: ok
 date: 2024-11-21
 authors:
 - danny
+website: https://tradearies.com
 twitter: TradeAries
 social:
 - https://www.linkedin.com/company/tradearies
@@ -22,7 +23,6 @@ android:
   version: 3.8.3
   icon: com.trading.aries.png
   meta: ok
-  website: https://tradearies.com
   developerName: Aries Financial, Inc.
 iphone:
   appId: com.tradearies.ariestrading
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.tradearies.ariestrading.jpg
   meta: removed
-  website: https://tradearies.com/
   developerName: Aries Financial, Inc.
 
 ---

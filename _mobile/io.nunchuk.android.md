@@ -33,7 +33,6 @@ android:
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   verdict: sourceavailable
-  website: https://nunchuk.io
   developerName: Nunchuk Inc
   repository: https://github.com/nunchuk-io/nunchuk-android
 iphone:

@@ -13,7 +13,6 @@ android:
   updated: 2022-01-23
   version: 2.0.1
   icon: com.unhappychoice.droidflyer.png
-  website: https://github.com/unhappychoice/DroidFlyer
   developerName: Yuji Ueki
 
 ---

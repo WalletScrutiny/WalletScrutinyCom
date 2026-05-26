@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-30
 authors:
 - danny
+website: https://flybit.com
 social:
 - https://www.facebook.com/flybit.exchange
 redirect_from:
@@ -19,7 +20,6 @@ android:
   updated: 2026-03-18
   version: 1.34.04
   icon: com.flybit.app.png
-  website: https://flybit.com
   developerName: 한국디지털거래소
 iphone:
   appId: com.koreadigit.flybit
@@ -30,7 +30,6 @@ iphone:
   version: 1.26.2
   reviews: 18
   icon: com.koreadigit.flybit.jpg
-  website: https://blog.naver.com/flybit
   developerName: Korea Digital Exchange Co., Ltd.
 
 ---

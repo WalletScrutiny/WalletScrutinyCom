@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://raidofinance.eu/
 twitter: financialraido
 appCountry: us
 redirect_from:
@@ -18,7 +19,6 @@ android:
   updated: 2023-09-21
   version: 3.9.0
   icon: com.raido_wallet.png
-  website: https://raidofinance.eu/
   developerName: Raido Exchange
 iphone:
   appId: com.raido.wallet
@@ -28,7 +28,6 @@ iphone:
   version: 3.8.0
   reviews: 0
   icon: com.raido.wallet.jpg
-  website: https://raidofinance.eu
   developerName: Raidofinance OU
 
 ---

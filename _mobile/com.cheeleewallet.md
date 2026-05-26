@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-11-13
 authors:
 - danny
+website: https://cheeleewallet.io/
 redirect_from:
 - /android/com.cheeleewallet/
 - /iphone/io.cheeleewallet.app/
@@ -17,7 +18,6 @@ android:
   version: 1.2.1
   reviews: 54
   icon: com.cheeleewallet.png
-  website: https://cheeleewallet.io/
   developerName: Cheelee Wallet
 iphone:
   appId: io.cheeleewallet.app

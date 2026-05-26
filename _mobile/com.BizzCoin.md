@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-25
 authors:
 - danny
+website: https://www.bizzcoin.com#deadLink
 twitter: bizz_coin
 social:
 - https://www.facebook.com/BizzCoinOfficial
@@ -21,7 +22,6 @@ android:
   version: '1.21'
   reviews: 13
   icon: com.BizzCoin.png
-  website: https://www.bizzcoin.com#deadLink
   developerName: BizzCoin
 iphone:
   appId: com.bizz.bizzcoinWallet
@@ -31,7 +31,6 @@ iphone:
   version: '1.10'
   reviews: 4
   icon: com.bizz.bizzcoinWallet.jpg
-  website: https://web.archive.org/web/20210924123416/http://bizzmartdirect.com/
 
 ---
 

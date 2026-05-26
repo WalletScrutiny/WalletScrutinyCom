@@ -18,7 +18,6 @@ android:
   updated: 2026-03-09
   version: 1.7.0
   icon: com.deffio.app.png
-  website: https://deffio.com/wallet
   developerName: Deffio
 iphone:
   appId: com.deffio.app

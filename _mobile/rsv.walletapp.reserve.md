@@ -20,7 +20,6 @@ android:
   version: 3.1.9
   reviews: 519
   icon: rsv.walletapp.reserve.png
-  website: https://uglycash.app/
   developerName: Best Friend Finance, LLC
 
 ---

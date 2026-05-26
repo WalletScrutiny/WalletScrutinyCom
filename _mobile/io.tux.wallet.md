@@ -20,7 +20,6 @@ android:
   updated: 2026-04-17
   version: 4.0.8
   icon: io.tux.wallet.png
-  website: https://tux-wallet.com/
   developerName: Coinyex Co., Ltd.
 iphone:
   appId: net.tuxglobal.wallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-07-13
 authors:
 - danny
+website: http://www.fiahub.com
 twitter: FIAHUBVN
 social:
 - https://www.facebook.com/FiahubVN
@@ -22,7 +23,6 @@ android:
   version: 2.20.5
   icon: vn.fiahub.app.png
   meta: ok
-  website: http://www.fiahub.com
   developerName: DIGITEX PTE LTD
 iphone:
   appId: bit.coin.Coindess
@@ -34,7 +34,6 @@ iphone:
   reviews: 2
   icon: bit.coin.Coindess.jpg
   meta: removed
-  website: https://www.fiahub.com
 
 ---
 

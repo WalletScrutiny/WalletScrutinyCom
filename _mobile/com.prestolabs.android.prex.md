@@ -23,7 +23,6 @@ android:
   version: 3.20.101
   reviews: 75
   icon: com.prestolabs.android.prex.png
-  website: https://flipster.io
   developerName: Flipster Exchange
 
 ---

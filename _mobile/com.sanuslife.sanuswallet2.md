@@ -21,7 +21,6 @@ android:
   version: 2.1.17
   reviews: 1
   icon: com.sanuslife.sanuswallet2.png
-  website: http://www.sanuslife.com
   developerName: SANUSLIFE INTERNATIONAL
 
 ---

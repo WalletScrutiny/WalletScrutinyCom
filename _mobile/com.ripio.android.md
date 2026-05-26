@@ -24,7 +24,6 @@ android:
   version: 6.6.3
   reviews: 178
   icon: com.ripio.android.png
-  website: https://ripio.com
   developerName: Ripio Holding
 
 ---

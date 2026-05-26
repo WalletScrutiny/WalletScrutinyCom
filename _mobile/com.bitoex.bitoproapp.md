@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.bitopro.com
 twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitopro.bito
@@ -21,7 +22,6 @@ android:
   version: 4.4.7
   reviews: 2
   icon: com.bitoex.bitoproapp.png
-  website: https://www.bitopro.com
   developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 iphone:
   appId: com.bitoex.bitopro
@@ -31,7 +31,6 @@ iphone:
   version: 4.4.7
   reviews: 5
   icon: com.bitoex.bitopro.jpg
-  website: https://www.bitopro.com/
   developerName: BitoEX
 
 ---

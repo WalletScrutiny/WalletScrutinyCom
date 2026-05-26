@@ -13,7 +13,6 @@ android:
   updated: 2024-06-22
   version: '1.0'
   icon: com.catshouse.bitcoinhelper.png
-  website: https://y84060b34.app-ads-txt.com
   developerName: Cats' House Development
 
 ---

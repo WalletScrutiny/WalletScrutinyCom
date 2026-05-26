@@ -25,7 +25,6 @@ android:
   version: 3.0.0
   reviews: 14230
   icon: com.chivo.wallet.png
-  website: https://www.chivowallet.com
   developerName: Gobierno de El Salvador
 iphone:
   appId: com.chivo.wallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-28
 authors:
 - danny
+website: https://www.sarwa.co
 twitter: SarwaCo
 social:
 - https://www.facebook.com/SarwaSocial
@@ -23,7 +24,6 @@ android:
   reviews: 20
   icon: co.sarwa.png
   meta: removed
-  website: https://www.sarwa.co
   developerName: Sarwa Digital Wealth
 iphone:
   appId: co.sarwa.ios
@@ -35,7 +35,6 @@ iphone:
   reviews: 110
   icon: co.sarwa.ios.jpg
   meta: ok
-  website: https://www.sarwa.co/blog
   developerName: Sarwa Digital Wealth Limited
 
 ---

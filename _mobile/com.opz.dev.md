@@ -24,7 +24,6 @@ android:
   version: 2.12.1
   reviews: 31
   icon: com.opz.dev.png
-  website: https://www.opz.io
   developerName: OPZ
 iphone:
   appId: com.opz

@@ -31,7 +31,6 @@ android:
   icon: org.electrum.electrum.png
   alternativeStores:
   - fdroid
-  website: https://electrum.org
   developerName: Electrum Technologies GmbH
 
 ---

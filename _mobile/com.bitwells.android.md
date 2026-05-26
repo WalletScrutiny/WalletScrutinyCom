@@ -6,6 +6,7 @@ meta: removed
 date: 2022-10-21
 authors:
 - danny
+website: https://www.bitwells.com
 twitter: bitwells
 social:
 - https://www.facebook.com/Bitwells
@@ -21,7 +22,6 @@ android:
   version: 1.0.7
   reviews: 1261
   icon: com.bitwells.android.png
-  website: https://www.bitwells.com
 iphone:
   appId: com.bitwells.ios
   idd: 1568669762
@@ -30,7 +30,6 @@ iphone:
   version: 1.0.6
   reviews: 9
   icon: com.bitwells.ios.jpg
-  website: https://www.bitwells.com/
 
 ---
 

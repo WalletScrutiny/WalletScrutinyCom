@@ -21,7 +21,6 @@ android:
   version: 1.206.00
   reviews: 110
   icon: com.latoken.wallet.png
-  website: http://latoken.com
   developerName: LATRADE
 
 ---

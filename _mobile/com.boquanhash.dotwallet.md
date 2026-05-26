@@ -5,6 +5,7 @@ verdict: nosource
 date: 2023-01-02
 authors:
 - danny
+website: https://www.dotwallet.com/
 twitter: wallet_dot
 appCountry: us
 redirect_from:
@@ -18,7 +19,6 @@ android:
   version: 2.15.2
   icon: com.boquanhash.dotwallet.png
   meta: removed
-  website: https://www.dotwallet.com/
 iphone:
   appId: com.boquanhash.dotwallet
   idd: 1509685349
@@ -28,7 +28,6 @@ iphone:
   reviews: 3
   icon: com.boquanhash.dotwallet.jpg
   meta: obsolete
-  website: https://www.dotwallet.com
   developerName: Fuzhou Boquan Network Science & Technology Co., Ltd.
 
 ---

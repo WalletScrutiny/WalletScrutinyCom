@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-03
 authors:
 - danny
+website: https://bitvavo.com/
 redirect_from:
 - /android/com.bitvavo.android/
 - /iphone/com.bitvavo/
@@ -18,7 +19,6 @@ android:
   version: 2.108.0
   reviews: 3656
   icon: com.bitvavo.android.png
-  website: https://bitvavo.com/
   developerName: bitvavo
 iphone:
   appId: com.bitvavo
@@ -29,7 +29,6 @@ iphone:
   version: 2.108.0
   reviews: 8500
   icon: com.bitvavo.jpg
-  website: https://bitvavo.com
   developerName: Bitvavo B.V.
 
 ---

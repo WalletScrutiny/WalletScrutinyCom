@@ -22,7 +22,6 @@ android:
   updated: 2025-07-12
   version: '200'
   icon: com.wongeta.smartcashtransact.png
-  website: https://mysmartcash.tech
   developerName: Wongeta
 
 ---

@@ -24,7 +24,6 @@ android:
   version: 7.5.0
   reviews: 282
   icon: com.bitrefill.app.png
-  website: https://www.bitrefill.com
   developerName: Bitrefill
 iphone:
   appId: com.bitrefill.bitrefill

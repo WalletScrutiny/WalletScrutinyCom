@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-02-26
 authors:
 - danny
+website: https://vexel.com
 social:
 - https://vk.com/vexel_is
 - https://www.instagram.com/vexel_com/
@@ -19,7 +20,6 @@ android:
   version: 1.51.2
   icon: vexel.com.jpg
   meta: removed
-  website: https://vexel.com
   developerName: VEXEL LP
 iphone:
   appId: com.vexel

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-11
 authors:
 - leo
+website: https://ftx.us/
 twitter: ftx_us
 social:
 - https://www.facebook.com/FTXUS
@@ -21,7 +22,6 @@ android:
   version: 2.0.8
   reviews: 639
   icon: com.ftxmobile.ftxus.png
-  website: https://ftx.us/
 iphone:
   appId: com.ftx.FTXMobile.FTXUS
   idd: 1512655474

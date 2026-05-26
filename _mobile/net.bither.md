@@ -8,6 +8,7 @@ authors:
 - leo
 - emanuel
 - keraliss
+website: http://Bither.net
 redirect_from:
 - /android/net.bither/
 - /iphone/net.bither/
@@ -20,7 +21,6 @@ android:
   reviews: 30
   icon: net.bither.png
   meta: removed
-  website: http://Bither.net
   developerName: getcai
   repository: https://github.com/bither/bither-android
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 61
   icon: net.bither.jpg
   meta: stale
-  website: https://bither.net
   developerName: BITHER Limited
   repository: https://github.com/bither/bither-ios
 

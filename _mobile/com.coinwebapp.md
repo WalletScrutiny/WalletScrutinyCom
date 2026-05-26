@@ -25,7 +25,6 @@ android:
   version: 1.2.6
   reviews: 4
   icon: com.coinwebapp.png
-  website: https://coinweb.io
   developerName: Coinweb
 iphone:
   appId: io.coinweb.wallet

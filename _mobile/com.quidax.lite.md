@@ -6,6 +6,7 @@ meta: removed
 date: 2025-08-09
 authors:
 - danny
+website: https://quidax.io
 twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal
@@ -21,7 +22,6 @@ android:
   version: 1.22.0
   reviews: 105
   icon: com.quidax.lite.png
-  website: https://quidax.io
   developerName: Quidax Technologies
 iphone:
   appId: com.quidax.lite

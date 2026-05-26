@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://trustne.io/
 redirect_from:
 - /android/com.trust_fresh/
 - /iphone/com.trustfresh/
@@ -26,7 +27,6 @@ iphone:
   version: 1.0.4
   reviews: 0
   icon: com.trustfresh.jpg
-  website: https://trustne.io/
   developerName: Metgen Solution LTD
 
 ---

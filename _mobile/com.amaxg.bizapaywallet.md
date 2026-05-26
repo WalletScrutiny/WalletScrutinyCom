@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-16
 authors:
 - danny
+website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4
 features:
 - fingerprint
 redirect_from:
@@ -28,7 +29,6 @@ iphone:
   version: 1.1.1
   reviews: 1
   icon: com.amaxg.bizapaywallet.jpg
-  website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4
   developerName: AMAXG
 
 ---

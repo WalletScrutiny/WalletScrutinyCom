@@ -6,6 +6,7 @@ meta: ok
 date: 2025-09-23
 authors:
 - danny
+website: https://getmeta.one/
 twitter: aag_ventures
 social:
 - https://www.linkedin.com/company/aag-ventures
@@ -25,7 +26,6 @@ android:
   reviews: 14
   icon: ventures.aag.metaone.png
   meta: ok
-  website: https://getmeta.one/
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 iphone:
   appId: com.aag.metaone
@@ -37,7 +37,6 @@ iphone:
   reviews: 55
   icon: com.aag.metaone.jpg
   meta: removed
-  website: https://saakuru.com/app
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 
 ---

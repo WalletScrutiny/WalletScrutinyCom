@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-04
 authors:
 - danny
+website: http://www.2cash.io
 twitter: 2cashnetwork
 social:
 - https://www.linkedin.com/company/2cash
@@ -22,7 +23,6 @@ android:
   version: 2.1.00
   reviews: 2
   icon: com.voicapps.app2cash.png
-  website: http://www.2cash.io
   developerName: VOIC
 iphone:
   appId: com.voicapps.app2cash-ios
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.2
   reviews: 1
   icon: com.voicapps.app2cash-ios.jpg
-  website: https://www.2cash.io
 
 ---
 

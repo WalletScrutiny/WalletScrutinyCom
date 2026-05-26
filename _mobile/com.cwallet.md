@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-25
 authors:
 - kiwilamb
+website: https://xapawallet.com
 twitter: WalletXapa
 social:
 - https://www.facebook.com/walletxapa
@@ -20,7 +21,6 @@ android:
   version: 0.741.11
   reviews: 6
   icon: com.cwallet.png
-  website: https://xapawallet.com
   developerName: Cryptocurrency Wallet Development Team
 iphone:
   appId: com.cwallet
@@ -30,7 +30,6 @@ iphone:
   version: 0.741.11
   reviews: 11
   icon: com.cwallet.jpg
-  website: https://xapawallet.com/
   developerName: BHS Solutions
 
 ---

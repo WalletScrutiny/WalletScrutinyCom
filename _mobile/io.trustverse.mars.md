@@ -6,6 +6,7 @@ meta: removed
 date: 2024-05-18
 authors:
 - danny
+website: http://www.trustverse.io
 twitter: TrustVerse
 social:
 - https://www.facebook.com/trustverseofficial
@@ -23,7 +24,6 @@ android:
   updated: 2022-11-22
   version: 2.4.0G
   icon: io.trustverse.mars.jpg
-  website: http://www.trustverse.io
   developerName: TrustVerse(DigiFinance)
 iphone:
   appId: io.trustverse.mars

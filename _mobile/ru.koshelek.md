@@ -22,7 +22,6 @@ android:
   version: 2.3.2
   reviews: 149
   icon: ru.koshelek.png
-  website: https://koshelek.ru/
   developerName: Кошелёк.ру
 iphone:
   appId: dev.spedn.ru

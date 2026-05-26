@@ -7,6 +7,7 @@ date: 2022-01-10
 authors:
 - kiwilamb
 - danny
+website: https://coin98.com/
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
@@ -22,7 +23,6 @@ android:
   version: 16.12.1
   reviews: 261
   icon: coin98.crypto.finance.media.png
-  website: https://coin98.com/
   developerName: COIN98 WALLET LTD
 iphone:
   appId: coin98.crypto.finance.insights
@@ -32,7 +32,6 @@ iphone:
   version: 16.12.1
   reviews: 654
   icon: coin98.crypto.finance.insights.jpg
-  website: https://coin98.com
   developerName: COIN98 WALLET LTD
 
 ---

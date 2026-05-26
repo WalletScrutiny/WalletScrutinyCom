@@ -6,6 +6,7 @@ meta: ok
 date: 2023-01-03
 authors:
 - danny
+website: https://cosmostation.io
 twitter: CosmostationVD
 social:
 - https://t.me/cosmostation
@@ -26,7 +27,6 @@ android:
   version: 1.10.48
   reviews: 136
   icon: wannabit.io.cosmostaion.png
-  website: https://cosmostation.io
   developerName: Stamper
   repository: https://github.com/cosmostation/cosmostation-android
 iphone:

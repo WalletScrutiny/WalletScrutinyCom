@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-05
 authors:
 - danny
+website: https://help.magiceden.io/en/
 twitter: MagicEden
 social:
 - https://www.linkedin.com/company/magic-eden
@@ -24,7 +25,6 @@ android:
   version: 3.3.1
   reviews: 124
   icon: com.magiceden.wallet.png
-  website: https://help.magiceden.io/en/
   developerName: MagicEden
 iphone:
   appId: com.magiceden.wallet
@@ -35,7 +35,6 @@ iphone:
   version: 3.3.1
   reviews: 1971
   icon: com.magiceden.wallet.jpg
-  website: https://wallet.magiceden.io/
   developerName: Magic Eden
 
 ---

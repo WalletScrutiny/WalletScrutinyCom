@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-12
 authors:
 - leo
+website: https://coinbase.com/
 twitter: coinbase
 social:
 - https://www.linkedin.com/company/coinbase
@@ -27,7 +28,6 @@ android:
   version: 14.19.22
   reviews: 117514
   icon: com.coinbase.android.jpg
-  website: https://coinbase.com/
   developerName: Coinbase Inc
 iphone:
   appId: com.vilcsak.bitcoin2
@@ -37,7 +37,6 @@ iphone:
   version: 14.19.19
   reviews: 1793354
   icon: com.vilcsak.bitcoin2.jpg
-  website: http://www.coinbase.com
   developerName: Coinbase, Inc.
 
 ---

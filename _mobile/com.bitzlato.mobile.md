@@ -6,6 +6,7 @@ meta: removed
 date: 2023-07-20
 authors:
 - danny
+website: https://bitzlato.com/
 redirect_from:
 - /android/com.bitzlato.mobile/
 - /iphone/com.bitzlato.mobile/
@@ -15,7 +16,6 @@ android:
   updated: 2023-01-12
   version: 5.5.2
   icon: com.bitzlato.mobile.png
-  website: https://bitzlato.com/
   developerName: Bitzlato ltd.
 iphone:
   appId: com.bitzlato.mobile

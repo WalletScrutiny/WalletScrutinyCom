@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-04
 authors:
 - danny
+website: https://www.coinzix.com
 twitter: coinzixcom
 social:
 - https://www.facebook.com/coinzixcom
@@ -22,7 +23,6 @@ android:
   version: '1.96'
   reviews: 4
   icon: com.coinzix.android.png
-  website: https://www.coinzix.com
   developerName: COINZIX LABS
 iphone:
   appId: com.servotech.coinzix

@@ -5,6 +5,7 @@ verdict: nosource
 date: 2023-12-19
 authors:
 - danny
+website: http://crypto.fastewallet.com#deadLink
 twitter: blocktechbrew
 social:
 - https://www.instagram.com/blocktechbrew
@@ -19,7 +20,6 @@ android:
   version: 0.26.4
   icon: io.fastewallet.bankwallet.png
   meta: removed
-  website: http://crypto.fastewallet.com#deadLink
   developerName: Blocktech Brew
 iphone:
   appId: com.wallet.faste

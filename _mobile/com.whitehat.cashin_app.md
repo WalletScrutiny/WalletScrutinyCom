@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-24
 authors:
 - danny
+website: https://cash-in.app
 twitter: cashin_app
 social:
 - https://www.facebook.com/Cashin.app1
@@ -24,7 +25,6 @@ android:
   reviews: 117
   icon: com.whitehat.cashin_app.png
   meta: ok
-  website: https://cash-in.app
   developerName: Macroblocs Ltd
 iphone:
   appId: com.macroblocs.cashinApp
@@ -36,7 +36,6 @@ iphone:
   reviews: 1243
   icon: com.macroblocs.cashinApp.jpg
   meta: obsolete
-  website: https://cash-in.app/
   developerName: Macroblocs Limited
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-08
 authors:
 - danny
+website: https://aximetria.com#deadLink
 twitter: aximetriagmbh
 social:
 - https://www.linkedin.com/company/aximetriagmbh
@@ -20,7 +21,6 @@ android:
   updated: 2023-07-27
   version: 2.30.0
   icon: com.aximetria.prod.png
-  website: https://aximetria.com#deadLink
   developerName: Aximetria GmbH
 iphone:
   appId: com.aximetria.prod
@@ -31,7 +31,6 @@ iphone:
   version: 3.23.0
   reviews: 0
   icon: com.aximetria.prod.jpg
-  website: https://www.aximetria.com/help#deadLink
   developerName: Aximetria
 
 ---

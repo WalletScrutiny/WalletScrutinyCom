@@ -6,6 +6,7 @@ meta: ok
 date: 2021-04-02
 authors:
 - leo
+website: https://www.etoro.com/
 twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
@@ -21,7 +22,6 @@ android:
   version: 651.1272.1
   reviews: 3793
   icon: com.etoro.openbook.jpg
-  website: https://www.etoro.com/
   developerName: eToro
 iphone:
   appId: com.etoro.openbook
@@ -31,7 +31,6 @@ iphone:
   version: v651.1273.1
   reviews: 9616
   icon: com.etoro.openbook.jpg
-  website: https://www.etoro.com/en-us/
   developerName: eToro
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-03
 authors:
 - kiwilamb
+website: https://vauld.com
 twitter: Vauld_
 social:
 - https://www.linkedin.com/company/vauld
@@ -23,7 +24,6 @@ android:
   reviews: 88
   icon: com.bankofhodlers.mobile.png
   meta: ok
-  website: https://vauld.com
   developerName: VauldGoogleDeveloper
 iphone:
   appId: com.bankofhodlers.app
@@ -34,7 +34,6 @@ iphone:
   reviews: 299
   icon: com.bankofhodlers.app.jpg
   meta: removed
-  website: https://www.vauld.com/
   developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---

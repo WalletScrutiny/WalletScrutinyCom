@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-13
 authors:
 - danny
+website: https://www.btcc.com/wallet
 twitter: BTCCexchange
 redirect_from:
 - /android/com.btcc.wallets/
@@ -18,7 +19,6 @@ android:
   version: 3.5.42
   reviews: 15
   icon: com.btcc.wallets.png
-  website: https://www.btcc.com/wallet
   developerName: BTCC WALLET
 iphone:
   appId: com.btcc.wallets

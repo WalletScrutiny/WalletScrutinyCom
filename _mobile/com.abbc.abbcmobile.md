@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-10
 authors:
 - danny
+website: http://abbcpayment.com
 twitter: abbcfoundation
 social:
 - https://www.facebook.com/abbcfoundation/
@@ -25,7 +26,6 @@ android:
   version: 1.3.4
   reviews: 7
   icon: com.abbc.abbcmobile.png
-  website: http://abbcpayment.com
   developerName: ABBC PAYMENT SERVICES PROVIDER
 iphone:
   appId: com.abbc.wallet
@@ -36,7 +36,6 @@ iphone:
   version: 1.3.3
   reviews: 1
   icon: com.abbc.wallet.jpg
-  website: https://abbccoin.com/
   developerName: MC ABBC IT SOLUTION
 
 ---

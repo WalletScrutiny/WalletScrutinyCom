@@ -23,7 +23,6 @@ android:
   reviews: 12
   icon: com.maicoin.max.png
   meta: ok
-  website: https://max.maicoin.com
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.max

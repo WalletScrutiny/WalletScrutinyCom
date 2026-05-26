@@ -13,7 +13,6 @@ android:
   updated: 2023-03-09
   version: '0.6'
   icon: com.molnike.crypto.simplesign.png
-  website: https://github.com/openMolNike/Crypto-Apps
   developerName: Mol Nike
 
 ---

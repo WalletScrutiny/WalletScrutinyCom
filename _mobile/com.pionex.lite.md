@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-10-07
 authors:
 - danny
+website: https://www.pionex.sg/blog#deadLink
 redirect_from:
 - /android/com.pionex.lite/
 - /iphone/com.pionex.lite.appstore/
@@ -18,7 +19,6 @@ android:
   reviews: 16
   icon: com.pionex.lite.png
   meta: removed
-  website: https://www.pionex.sg/blog#deadLink
 iphone:
   appId: com.pionex.lite.appstore
   idd: 1567213944

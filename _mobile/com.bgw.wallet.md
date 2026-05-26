@@ -24,7 +24,6 @@ android:
   version: 0.3.8
   icon: com.bgw.wallet.png
   meta: stale
-  website: https://walletgo.ai/
   developerName: Wellto Go
 iphone:
   appId: io.bgwallet.bgw

@@ -19,7 +19,6 @@ android:
   updated: 2026-03-30
   version: 0.2.0
   icon: com.app.unitic.png
-  website: https://uniticexchange.com/
   developerName: UNITIC PRIVATE LIMITED
 
 ---

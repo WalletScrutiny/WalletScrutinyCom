@@ -29,7 +29,6 @@ android:
   version: 1.8.7
   reviews: 5
   icon: org.ecoinwallet.png
-  website: https://ecoinwallet.org
   developerName: Ecoin Ecosystem LTDA
 
 ---

@@ -27,7 +27,6 @@ android:
   version: 1.34.2
   reviews: 9
   icon: com.payperless.wallet.png
-  website: https://www.payperless.com
   developerName: Payperless
 iphone:
   appId: com.payperless.wallet

@@ -28,7 +28,6 @@ android:
   version: 5.3.42
   reviews: 55
   icon: com.unocoin.unocoinwallet.png
-  website: https://www.unocoin.com
   developerName: Unocoin Technologies
 iphone:
   appId: com.unocoin.mainapp.production

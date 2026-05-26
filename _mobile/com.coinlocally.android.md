@@ -22,7 +22,6 @@ android:
   version: 5.1.1
   reviews: 91
   icon: com.coinlocally.android.png
-  website: https://coinlocally.com
   developerName: Coinlocally Official
 iphone:
   appId: com.coinlocally.app

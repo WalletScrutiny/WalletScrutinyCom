@@ -31,7 +31,6 @@ android:
   alternativeStores:
   - fdroid
   verdict: sourceavailable
-  website: https://swiss-bitcoin-pay.ch
   developerName: Swiss Bitcoin Pay
 iphone:
   appId: ch.swissbitcoinpay.checkout
@@ -43,7 +42,6 @@ iphone:
   reviews: 1
   icon: ch.swissbitcoinpay.checkout.jpg
   verdict: wip
-  website: https://swiss-bitcoin-pay.ch
   developerName: Swiss Bitcoin Pay Sarl
 
 ---

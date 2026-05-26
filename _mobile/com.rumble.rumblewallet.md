@@ -25,7 +25,6 @@ android:
   version: 2.1.0
   reviews: 12
   icon: com.rumble.rumblewallet.png
-  website: https://wallet.rumble.com
   developerName: Rumble Inc
 iphone:
   appId: com.rumble.wallet

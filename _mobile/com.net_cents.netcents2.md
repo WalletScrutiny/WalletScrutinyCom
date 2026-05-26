@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-11
 authors:
 - danny
+website: http://www.net-cents.com
 twitter: netcentshq
 social:
 - https://www.linkedin.com/company/net-cents
@@ -22,7 +23,6 @@ android:
   version: 2.11.15
   reviews: 3
   icon: com.net_cents.netcents2.png
-  website: http://www.net-cents.com
 iphone:
   appId: com.net-cents.app
   idd: 1105188361
@@ -31,7 +31,6 @@ iphone:
   version: 2.11.17
   reviews: 8
   icon: com.net-cents.app.jpg
-  website: https://www.net-cents.com
   developerName: Net-Cents Technologies
 
 ---

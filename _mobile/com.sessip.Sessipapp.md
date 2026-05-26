@@ -6,6 +6,7 @@ meta: obsolete
 date: 2024-11-30
 authors:
 - danny
+website: https://sessip.com
 twitter: sessipapp
 redirect_from:
 - /android/com.sessip.Sessipapp/
@@ -19,7 +20,6 @@ android:
   reviews: 9
   icon: com.sessip.Sessipapp.png
   meta: obsolete
-  website: https://sessip.com
   developerName: Sessip
 iphone:
   appId: com.sessipapp.Sessip
@@ -31,7 +31,6 @@ iphone:
   reviews: 2
   icon: com.sessipapp.Sessip.jpg
   meta: removed
-  website: https://sessip.com/
   developerName: SOCIETE IVOIRIENNE D'INVESTISSEMENT PARTICIPATIF
 
 ---

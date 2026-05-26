@@ -13,7 +13,6 @@ android:
   updated: 2023-12-19
   version: 2.2.1
   icon: com.secuxtech.merchanttool.png
-  website: https://www.secuxtech.com
   developerName: SecuX
 
 ---

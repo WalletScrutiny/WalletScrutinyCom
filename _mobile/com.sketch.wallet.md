@@ -15,7 +15,6 @@ android:
   updated: 2026-01-16
   version: 2.2.8
   icon: com.sketch.wallet.png
-  website: https://auth.sketchwallet.io:28446/sketch/conditions
   developerName: 앱관리자
 
 ---

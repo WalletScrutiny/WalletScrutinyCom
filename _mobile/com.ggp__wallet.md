@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-18
 authors:
 - danny
+website: https://ggp.gg/
 twitter: ggp_wallet
 features:
 - buyWithCC
@@ -25,7 +26,6 @@ android:
   version: 1.5.8
   reviews: 16
   icon: com.ggp__wallet.jpg
-  website: https://ggp.gg/
   developerName: Planet 9 Group Corporation
 iphone:
   appId: wallet.ggp
@@ -36,7 +36,6 @@ iphone:
   version: 1.5.5
   reviews: 9
   icon: wallet.ggp.jpg
-  website: https://ggp.gg
   developerName: Planet 9 Corp.
 
 ---

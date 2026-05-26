@@ -5,6 +5,7 @@ verdict: nosource
 date: 2023-12-13
 authors:
 - danny
+website: https://trycircleapp.com
 appCountry: us
 redirect_from:
 - /android/com.trycircleapp.wallets/
@@ -17,7 +18,6 @@ android:
   version: '7.0'
   icon: com.trycircleapp.wallets.png
   meta: removed
-  website: https://trycircleapp.com
   developerName: Rioni Marketing Management LLC
 iphone:
   appId: com.thecirclewalletapp
@@ -28,7 +28,6 @@ iphone:
   reviews: 0
   icon: com.thecirclewalletapp.jpg
   meta: obsolete
-  website: https://trycircleapp.com/
   developerName: Rioni Marketing Management LLC
 
 ---

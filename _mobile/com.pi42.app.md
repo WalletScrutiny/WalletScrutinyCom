@@ -14,7 +14,6 @@ android:
   updated: 2026-05-14
   version: 2.2.01
   icon: com.pi42.app.png
-  website: https://pi42.exchange/
   developerName: Lightningnodes Technologies Pvt Ltd
 
 ---

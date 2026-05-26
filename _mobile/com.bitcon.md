@@ -13,7 +13,6 @@ android:
   updated: 2026-04-06
   version: 3.2.0
   icon: com.bitcon.png
-  website: https://spendthebits.com/
   developerName: Spend The Bits Inc.
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-01
 authors:
 - danny
+website: https://www.toobit.com
 twitter: Toobit_official
 social:
 - https://www.reddit.com/r/toobit
@@ -25,7 +26,6 @@ android:
   version: 2.2.6
   reviews: 336
   icon: com.planet.toobit.jpg
-  website: https://www.toobit.com
   developerName: TooBit Inc.
 iphone:
   appId: com.planet.toobit
@@ -36,7 +36,6 @@ iphone:
   version: 2.2.7
   reviews: 3758
   icon: com.planet.toobit.jpg
-  website: https://www.toobit.com/
   developerName: Hopeful Technology Co., Ltd.
 
 ---

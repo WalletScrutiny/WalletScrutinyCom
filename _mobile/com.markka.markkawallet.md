@@ -13,7 +13,6 @@ android:
   updated: 2025-02-07
   version: 2.5.1
   icon: com.markka.markkawallet.png
-  website: https://markka.com
   developerName: Tulipfox-Tech
 
 ---

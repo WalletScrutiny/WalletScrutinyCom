@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-07-28
 authors:
 - danny
+website: https://pallapay.com
 twitter: pallapay_com
 social:
 - https://www.facebook.com/pallapay
@@ -23,7 +24,6 @@ android:
   version: 1.0.3
   icon: com.pallapay.application.jpg
   meta: removed
-  website: https://pallapay.com
   developerName: Palladium Payment Services LLC
 iphone:
   appId: com.pallapay.application
@@ -35,7 +35,6 @@ iphone:
   reviews: 2
   icon: com.pallapay.application.jpg
   meta: ok
-  website: https://www.pallapay.com
   developerName: Palladium Payment Services LLC
 
 ---

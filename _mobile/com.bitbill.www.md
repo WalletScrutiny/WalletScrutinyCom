@@ -7,6 +7,7 @@ date: 2021-10-01
 authors:
 - leo
 - danny
+website: https://ownbit.io
 features:
 - airGapped
 - multiSig
@@ -23,7 +24,6 @@ android:
   version: 4.65.0
   reviews: 14
   icon: com.bitbill.www.png
-  website: https://ownbit.io
   developerName: ownbit
 iphone:
   appId: com.bitbill.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 4.64.4
   reviews: 148
   icon: com.bitbill.wallet.jpg
-  website: http://www.bitbill.com#deadLink
   developerName: BITBILL PTY LTD
 
 ---

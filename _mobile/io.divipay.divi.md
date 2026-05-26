@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-13
 authors:
 - danny
+website: http://diviproject.org
 twitter: diviproject
 social:
 - https://www.facebook.com/diviproject
@@ -23,7 +24,6 @@ android:
   version: 2.2.01218
   reviews: 13
   icon: io.divipay.divi.png
-  website: http://diviproject.org
   developerName: Divi Labs
 iphone:
   appId: io.divipay.divi
@@ -33,7 +33,6 @@ iphone:
   version: 2.2.01215
   reviews: 28
   icon: io.divipay.divi.jpg
-  website: https://web.archive.org/web/20210919220325/https://wallet.diviproject.org/
   developerName: Qbito Technologies S.A.
 
 ---

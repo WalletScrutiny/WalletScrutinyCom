@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-10
 authors:
 - danny
+website: https://www.tbitex.com/
 social:
 - https://www.linkedin.com/company/tbit-global
 - https://www.tbitex.com
@@ -19,7 +20,6 @@ android:
   updated: 2023-05-09
   version: 2.2.9
   icon: com.tbit.android.png
-  website: https://www.tbitex.com/
   developerName: Tbit Global limited
 iphone:
   appId: TbitApp.com

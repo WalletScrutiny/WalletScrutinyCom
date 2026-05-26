@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-07
 authors:
 - danny
+website: https://isun.one
 twitter: isunone1
 social:
 - https://www.linkedin.com/company/isunone
@@ -21,7 +22,6 @@ android:
   updated: 2021-07-20
   version: 2.1.3
   icon: com.tideisun.tidepay.png
-  website: https://isun.one
 iphone:
   appId: com.tideisun.tidepay
   idd: 1384802533
@@ -30,7 +30,6 @@ iphone:
   version: 4.0.5
   reviews: 3
   icon: com.tideisun.tidepay.jpg
-  website: https://isun1.com
   developerName: TIDENET LIMITED
 
 ---

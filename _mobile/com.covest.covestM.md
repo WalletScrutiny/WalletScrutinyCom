@@ -6,6 +6,7 @@ meta: ok
 date: 2023-05-17
 authors:
 - danny
+website: https://covest.pro
 twitter: COVEST_Official
 social:
 - https://t.me/covestpro
@@ -20,7 +21,6 @@ android:
   version: 2.1.0
   icon: com.covest.covestM.png
   meta: ok
-  website: https://covest.pro
   developerName: COVEST PRO
 iphone:
   appId: pro.covest.mapple

@@ -6,6 +6,7 @@ meta: obsolete
 date: 2026-02-02
 authors:
 - danny
+website: https://www.wethiox.io/landing
 twitter: wethiox
 social:
 - https://www.wethiox.io
@@ -33,7 +34,6 @@ iphone:
   version: 3.0.6
   reviews: 4
   icon: com.wethio.io.wethioX.jpg
-  website: https://www.wethiox.io/landing
   developerName: Applinum
 
 ---

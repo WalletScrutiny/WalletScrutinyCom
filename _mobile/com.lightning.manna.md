@@ -6,6 +6,7 @@ meta: fewusers
 date: 2026-05-09
 authors:
 - danny
+website: http://mannabitcoin.com/
 twitter: MannaBitcoin
 social:
 - https://t.me/MannaBitcoin
@@ -21,7 +22,6 @@ android:
   reviews: 7
   icon: com.lightning.manna.png
   meta: fewusers
-  website: http://mannabitcoin.com/
   developerName: Manna Bitcoin
 iphone:
   appId: com.lightning.manna
@@ -33,7 +33,6 @@ iphone:
   reviews: 8
   icon: com.lightning.manna.jpg
   meta: ok
-  website: https://mannabitcoin.com
   developerName: Manna Open Economy LLC
 
 ---

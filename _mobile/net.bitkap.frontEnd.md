@@ -6,6 +6,7 @@ meta: stale
 date: 2024-12-04
 authors:
 - danny
+website: https://bitkap.africa
 twitter: BitkapO
 social:
 - https://www.linkedin.com/company/limitlesstech237
@@ -24,7 +25,6 @@ android:
   reviews: 20
   icon: net.bitkap.frontEnd.jpg
   meta: stale
-  website: https://bitkap.africa
   developerName: bitkap group
 iphone:
   appId: net.bitkap.frondend

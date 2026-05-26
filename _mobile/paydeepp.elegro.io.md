@@ -21,7 +21,6 @@ android:
   version: 5.5.1
   reviews: 1
   icon: paydeepp.elegro.io.jpg
-  website: https://elegro.eu/
   developerName: Niko Technologies
 
 ---

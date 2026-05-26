@@ -18,7 +18,6 @@ android:
   version: 1.2.2
   icon: org.bitcoinppl.cove.png
   meta: fewusers
-  website: https://covebitcoinwallet.com
   developerName: InfraOps LLC
 iphone:
   appId: org.bitcoinppl.cove

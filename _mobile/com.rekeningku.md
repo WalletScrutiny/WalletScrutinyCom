@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-27
 authors:
 - danny
+website: https://reku.id
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com
@@ -23,7 +24,6 @@ android:
   reviews: 50
   icon: com.rekeningku.jpg
   meta: ok
-  website: https://reku.id
   developerName: PT Rekeningku Dotcom Indonesia
 iphone:
   appId: com.rekeningku.app
@@ -34,7 +34,6 @@ iphone:
   reviews: 30
   icon: com.rekeningku.app.jpg
   meta: removed
-  website: https://www.reku.id/
 
 ---
 

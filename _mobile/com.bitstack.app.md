@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-13
 authors:
 - danny
+website: https://bitstack-app.com
 twitter: bitstack
 redirect_from:
 - /android/com.bitstack.app/
@@ -16,7 +17,6 @@ android:
   updated: 2026-05-02
   version: 3.8.5
   icon: com.bitstack.app.png
-  website: https://bitstack-app.com
   developerName: Bitstack
 iphone:
   appId: com.bitstack.app
@@ -27,7 +27,6 @@ iphone:
   version: 3.8.6
   reviews: 149
   icon: com.bitstack.app.jpg
-  website: https://www.bitstack-app.com
   developerName: Bitstack Digital Assets SAS
 
 ---

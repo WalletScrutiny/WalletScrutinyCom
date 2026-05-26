@@ -15,7 +15,6 @@ android:
   updated: 2026-04-28
   version: 200.5.5
   icon: com.combiteu.png
-  website: https://bit.eu
   developerName: Bit.Eu
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-28
 authors:
 - danny
+website: https://lordtoken.com
 twitter: lordtoken_off
 social:
 - https://www.linkedin.com/company/lordtoken-pro
@@ -24,7 +25,6 @@ android:
   updated: 2023-05-30
   version: 1.7.0
   icon: com.cloud.lordtoken.png
-  website: https://lordtoken.com
   developerName: LORD SERVICES
 iphone:
   appId: com.cloud.lordtoken
@@ -35,7 +35,6 @@ iphone:
   version: 1.1.0
   reviews: 0
   icon: com.cloud.lordtoken.jpg
-  website: https://exchange.lordtoken.com/
   developerName: LORD SERVICES
 
 ---

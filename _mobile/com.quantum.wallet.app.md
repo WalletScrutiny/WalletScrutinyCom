@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-08
 authors:
 - danny
+website: https://quantum.press/
 social:
 - https://t.me/+hObEE-D_GMU2N2U0
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 1.3.1
   reviews: 4
   icon: com.quantum.wallet.app.jpg
-  website: https://quantum.press/
   developerName: Nexus Payments Limited
 iphone:
   appId: com.quantum.wallet.app

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-05-23
 authors:
 - danny
+website: https://www.dyorex.com
 twitter: dyorexcom
 social:
 - https://www.linkedin.com/company/dyorexcom
@@ -23,7 +24,6 @@ android:
   updated: 2026-04-10
   version: 2.0.5
   icon: com.dyorex.dyorex_mobile_app.png
-  website: https://www.dyorex.com
   developerName: Dyorex Exchange
 iphone:
   appId: com.dyorex.dyorexMobileApp
@@ -34,7 +34,6 @@ iphone:
   version: 1.9.1
   reviews: 23
   icon: com.dyorex.dyorexMobileApp.jpg
-  website: https://dyorex.com/
   developerName: DyorEX Exchange
 
 ---

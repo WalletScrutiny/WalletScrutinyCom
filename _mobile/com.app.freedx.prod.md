@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-16
 authors:
 - danny
+website: https://freedx.com/
 twitter: Freedx
 social:
 - https://www.facebook.com/p/Freedx-61560053240628
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-06
   version: 1.7.0
   icon: com.app.freedx.prod.png
-  website: https://freedx.com/
   developerName: Freedx
 iphone:
   appId: com.freedx.app.prod

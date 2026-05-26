@@ -6,6 +6,7 @@ meta: stale
 date: 2023-09-28
 authors:
 - leo
+website: https://stormgain.com/
 twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
@@ -22,7 +23,6 @@ android:
   reviews: 969
   icon: com.stormgain.mobile.png
   meta: stale
-  website: https://stormgain.com/
   developerName: Stormgain LLC
 iphone:
   appId: com.stormgain.mobile
@@ -33,7 +33,6 @@ iphone:
   reviews: 1173
   icon: com.stormgain.mobile.jpg
   meta: removed
-  website: https://stormgain.com
   developerName: Stormgain Limited
 
 ---

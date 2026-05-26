@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-17
 authors:
 - danny
+website: https://www.bitget.com/
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
@@ -22,7 +23,6 @@ android:
   version: 2.83.2
   reviews: 1683
   icon: com.bitget.exchange.png
-  website: https://www.bitget.com/
   developerName: BG LIMITED
 iphone:
   appId: com.bitget.exchange.global
@@ -33,7 +33,6 @@ iphone:
   version: 2.83.0
   reviews: 2224
   icon: com.bitget.exchange.global.jpg
-  website: https://www.bitget.com/en
   developerName: BG LIMITED
 
 ---

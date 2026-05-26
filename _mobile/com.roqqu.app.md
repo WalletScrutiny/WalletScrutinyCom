@@ -23,7 +23,6 @@ android:
   version: 2.5.90
   reviews: 907
   icon: com.roqqu.app.png
-  website: https://roqqu.com
   developerName: Roqqu
 iphone:
   appId: com.roqqu.ios

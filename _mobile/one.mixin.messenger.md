@@ -8,6 +8,7 @@ authors:
 - danny
 - emanuel
 - leo
+website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app
 twitter: MixinMessenger
 social:
@@ -25,7 +26,6 @@ android:
   version: 4.2.0
   reviews: 152
   icon: one.mixin.messenger.png
-  website: https://mixin.one/messenger
   developerName: Mixin Ltd
 iphone:
   appId: one.mixin.messenger
@@ -35,7 +35,6 @@ iphone:
   version: 4.2.0
   reviews: 1153
   icon: one.mixin.messenger.jpg
-  website: https://mixinmessenger.zendesk.com/
   developerName: Mixin Ltd
 
 ---

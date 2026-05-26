@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-03
 authors:
 - danny
+website: https://wizzwallet.io
 twitter: wizzwallet
 social:
 - https://discord.com/invite/H7hzuDj2d6
@@ -23,7 +24,6 @@ android:
   updated: 2025-10-13
   version: 1.9.11
   icon: com.astrox.wizz.png
-  website: https://wizzwallet.io
   developerName: AstroX Network
 iphone:
   appId: com.astrox.wizz
@@ -34,7 +34,6 @@ iphone:
   version: 1.9.11
   reviews: 16
   icon: com.astrox.wizz.jpg
-  website: https://wizzwallet.io/
   developerName: AstroX Network
 
 ---

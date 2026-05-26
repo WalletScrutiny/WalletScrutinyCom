@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-22
 authors:
 - danny
+website: https://yield.app
 twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp/
@@ -22,7 +23,6 @@ android:
   version: '24.0527'
   reviews: 14
   icon: com.yieldapp_mobile.jpg
-  website: https://yield.app
   developerName: Yield App
 iphone:
   appId: app.yield
@@ -33,7 +33,6 @@ iphone:
   version: '24.0527'
   reviews: 39
   icon: app.yield.jpg
-  website: https://yield.app/
   developerName: Yield App
 
 ---

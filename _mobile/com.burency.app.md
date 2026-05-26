@@ -6,6 +6,7 @@ meta: removed
 date: 2021-12-05
 authors:
 - danny
+website: https://www.burency.com#deadLink
 twitter: BurencyOfficial
 social:
 - https://www.linkedin.com/company/burencyofficial
@@ -23,7 +24,6 @@ android:
   version: 1.0.2
   reviews: 139
   icon: com.burency.app.png
-  website: https://www.burency.com#deadLink
 iphone:
   appId: com.burency.app
   idd: 1548673602
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.1
   reviews: 25
   icon: com.burency.app.jpg
-  website: https://web.archive.org/web/20250125022752/https://www.burency.com/
 
 ---
 

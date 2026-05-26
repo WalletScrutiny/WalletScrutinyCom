@@ -6,6 +6,7 @@ meta: ok
 date: 2021-04-12
 authors:
 - leo
+website: https://zbd.gg/z/support
 twitter: zebedeeio
 features:
 - ln
@@ -20,7 +21,6 @@ android:
   version: 4.30.5
   reviews: 10002
   icon: io.zebedee.wallet.png
-  website: https://zbd.gg/z/support
   developerName: ZEBEDEE
 iphone:
   appId: io.zebedee.wallet
@@ -30,7 +30,6 @@ iphone:
   version: 4.29.12
   reviews: 11304
   icon: io.zebedee.wallet.jpg
-  website: https://zbd.gg
   developerName: Zebedee Inc.
 
 ---

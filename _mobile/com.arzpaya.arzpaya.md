@@ -16,7 +16,6 @@ android:
   version: 4.08.17.02
   reviews: 5
   icon: com.arzpaya.arzpaya.png
-  website: https://arzpaya.com
   developerName: ArzPaya
 
 ---

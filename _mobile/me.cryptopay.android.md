@@ -4,6 +4,7 @@ title: 'Cryptopay: Spend Crypto Daily'
 verdict: custodial
 meta: removed
 date: 2026-01-28
+website: https://cryptopay.me
 twitter: cryptopay
 social:
 - https://www.linkedin.com/company/cryptopay
@@ -20,7 +21,6 @@ android:
   version: 1.68.0
   reviews: 64
   icon: me.cryptopay.android.png
-  website: https://cryptopay.me
   developerName: Cryptopay Ltd
 iphone:
   appId: me.cryptopay.app
@@ -30,7 +30,6 @@ iphone:
   version: 1.79.1
   reviews: 340
   icon: me.cryptopay.app.jpg
-  website: https://cryptopay.me/
   developerName: Cryptopay
 
 ---

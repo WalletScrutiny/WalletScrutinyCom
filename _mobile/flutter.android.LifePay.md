@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-07
 authors:
 - danny
+website: https://lifpay.me
 twitter: lifpay
 social:
 - https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
@@ -23,7 +24,6 @@ android:
   updated: 2025-08-25
   version: 2.4.8
   icon: flutter.android.LifePay.png
-  website: https://lifpay.me
   developerName: ProminentWise
 iphone:
   appId: com.prominentwiselimited.lifpay

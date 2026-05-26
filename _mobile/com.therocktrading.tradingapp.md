@@ -6,6 +6,7 @@ meta: removed
 date: 2023-07-21
 authors:
 - danny
+website: https://www.therocktrading.com
 twitter: therocktrading
 redirect_from:
 - /android/com.therocktrading.tradingapp/
@@ -17,7 +18,6 @@ android:
   updated: 2022-07-11
   version: 1.6.1
   icon: com.therocktrading.tradingapp.png
-  website: https://www.therocktrading.com
   developerName: The Rock Trading
 iphone:
   appId: com.therocktrading.tradingapp
@@ -28,7 +28,6 @@ iphone:
   version: 1.6.1
   reviews: 0
   icon: com.therocktrading.tradingapp.jpg
-  website: https://www.therocktrading.com/
   developerName: The Rock Trading Srl
 
 ---

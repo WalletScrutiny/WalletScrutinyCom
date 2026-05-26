@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-27
 authors:
 - danny
+website: http://www.bananatok.com
 twitter: kr_bna
 social:
 - https://www.facebook.com/bananatok
@@ -24,7 +25,6 @@ android:
   reviews: 1354
   icon: org.telegram.bananatok.png
   meta: ok
-  website: http://www.bananatok.com
   developerName: Bananatok
 iphone:
   appId: com.xiangjiao.tg
@@ -36,7 +36,6 @@ iphone:
   reviews: 265
   icon: com.xiangjiao.tg.jpg
   meta: defunct
-  website: https://bananatok.io
   developerName: Zoo Holdings Limited
 
 ---

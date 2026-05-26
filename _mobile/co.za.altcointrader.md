@@ -20,7 +20,6 @@ android:
   reviews: 10
   icon: co.za.altcointrader.png
   meta: stale
-  website: https://www.altcointrader.co.za/
   developerName: AltCoinTrader
 iphone:
   appId: za.co.altcointrader.ios
@@ -32,7 +31,6 @@ iphone:
   reviews: 82
   icon: za.co.altcointrader.ios.jpg
   meta: obsolete
-  website: https://www.altcointrader.co.za/
   developerName: AltCoinTrader
 
 ---

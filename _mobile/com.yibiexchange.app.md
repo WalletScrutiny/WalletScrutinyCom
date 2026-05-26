@@ -6,6 +6,7 @@ meta: removed
 date: 2024-08-19
 authors:
 - danny
+website: https://yibi.co
 twitter: OfficialYibi
 social:
 - https://t.me/yibioffical00
@@ -23,7 +24,6 @@ android:
   updated: 2025-07-24
   version: 1.3.90
   icon: com.yibiexchange.app.png
-  website: https://yibi.co
   developerName: YIBI
 iphone:
   appId: com.yibi

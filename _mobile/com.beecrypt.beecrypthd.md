@@ -6,6 +6,7 @@ meta: removed
 date: 2022-05-31
 authors:
 - danny
+website: https://moneypipe.com#deadLink
 twitter: money_pipe
 social:
 - https://www.facebook.com/moneypipewallet
@@ -20,7 +21,6 @@ android:
   updated: 2023-05-05
   version: 6.0.7
   icon: com.beecrypt.beecrypthd.png
-  website: https://moneypipe.com#deadLink
   developerName: MadCats
 iphone:
   appId: com.beecrypt.beecrypthd
@@ -30,7 +30,6 @@ iphone:
   version: 3.9.1
   reviews: 1
   icon: com.beecrypt.beecrypthd.jpg
-  website: https://web.archive.org/web/20220401111602/https://moneypipe.com/hd-wallet/
 
 ---
 

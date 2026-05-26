@@ -29,7 +29,6 @@ android:
   version: 8.31.1
   reviews: 140
   icon: com.zelcash.zelcore.png
-  website: https://zelcore.io
   developerName: Influx Technologies Limited
 iphone:
   appId: com.zelcash.zelcore

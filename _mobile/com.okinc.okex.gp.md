@@ -6,6 +6,7 @@ meta: ok
 date: 2020-05-29
 authors:
 - leo
+website: https://www.okx.com/
 twitter: OKEx
 social:
 - https://www.facebook.com/okexofficial
@@ -23,7 +24,6 @@ android:
   version: 6.172.0
   reviews: 3901
   icon: com.okinc.okex.gp.png
-  website: https://www.okx.com/
   developerName: OKX INC.
 iphone:
   appId: com.okex.OKExAppstoreFull
@@ -33,7 +33,6 @@ iphone:
   version: 6.172.0
   reviews: 22263
   icon: com.okex.OKExAppstoreFull.jpg
-  website: https://www.okx.com/download
   developerName: OKX MALTA LTD
 
 ---

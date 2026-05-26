@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-20
 authors:
 - danny
+website: https://www.swissquote.com/
 twitter: Swissquote
 social:
 - https://www.linkedin.com/company/swissquote
@@ -23,7 +24,6 @@ android:
   version: 9.1.0
   reviews: 43
   icon: com.swissquote.android.png
-  website: https://www.swissquote.com/
   developerName: Swissquote Mobile
 iphone:
   appId: com.swissquote.iphone
@@ -34,7 +34,6 @@ iphone:
   version: 11.29.0
   reviews: 20
   icon: com.swissquote.iphone.jpg
-  website: https://www.swissquote.com
   developerName: Swissquote
 
 ---

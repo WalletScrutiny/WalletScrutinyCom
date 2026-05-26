@@ -20,7 +20,6 @@ android:
   version: 3.0.18
   reviews: 38
   icon: com.dito.ditowallet.png
-  website: https://ditobanx.com/
   developerName: DitoBanx
 
 ---

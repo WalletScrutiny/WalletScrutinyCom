@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-05
 authors:
 - danny
+website: https://bisonapp.com
 twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app
@@ -21,7 +22,6 @@ android:
   version: 4.32.1
   reviews: 2
   icon: de.bisonapp.png
-  website: https://bisonapp.com
   developerName: Boerse Stuttgart Digital Broker GmbH
 iphone:
   appId: com.bisonapp.bison
@@ -32,7 +32,6 @@ iphone:
   version: 4.32.1
   reviews: 2
   icon: com.bisonapp.bison.jpg
-  website: https://bisonapp.com/
   developerName: Boerse Stuttgart Digital Broker GmbH
 
 ---

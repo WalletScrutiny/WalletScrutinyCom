@@ -7,6 +7,7 @@ date: 2020-05-29
 authors:
 - leo
 - danny
+website: https://changeinvest.com
 twitter: changefinance
 social:
 - https://www.linkedin.com/company/changeinvest
@@ -26,7 +27,6 @@ android:
   reviews: 23
   icon: com.getchange.wallet.cordova.png
   meta: ok
-  website: https://changeinvest.com
   developerName: Change Finance
 iphone:
   appId: com.getchange.dev
@@ -37,7 +37,6 @@ iphone:
   reviews: 38
   icon: com.getchange.dev.jpg
   meta: removed
-  website: https://www.changeinvest.com/
   developerName: xChange AS
 
 ---
