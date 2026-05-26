@@ -3,6 +3,7 @@ wsId: casaapp
 title: 'Casa: Bitcoin & Crypto Wallet'
 verdict: nosource
 meta: ok
+date: 2021-05-22
 authors:
 - leo
 - danny
@@ -23,7 +24,6 @@ android:
   version: 5.15.0
   reviews: 28
   icon: casa.keymaster.png
-  date: 2024-07-15
   website: https://keys.casa
   developerName: Casa, Inc
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 5.15.0
   reviews: 1207
   icon: com.casa.vault.jpg
-  date: 2021-05-22
   website: https://www.casa.io
   developerName: Casa Inc.
 

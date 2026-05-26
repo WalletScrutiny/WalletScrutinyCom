@@ -3,6 +3,7 @@ wsId: wadzPay
 title: WadzPay
 verdict: custodial
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 twitter: wadzpay
@@ -23,7 +24,6 @@ android:
   updated: 2022-06-26
   version: 2.1.1
   icon: com.wadz.wadzapp.png
-  date: 2024-07-05
   website: http://www.wadzpay.com
   developerName: 2020 WadzPay Worldwide Pte Ltd
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 2.0.1
   reviews: 1
   icon: com.wadz.wadzapp.jpg
-  date: 2025-02-13
   website: https://www.wadzpay.com/
   developerName: WadzPay Worldwide Pte Ltd
 

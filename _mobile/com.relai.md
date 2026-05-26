@@ -3,6 +3,7 @@ wsId: relaiBuyBitcoin
 title: 'Relai: Bitcoin Savings App'
 verdict: nosource
 meta: ok
+date: 2023-07-11
 authors:
 - danny
 twitter: Relai_app
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-18
   version: 3.14.1
   icon: com.relai.png
-  date: 2024-07-24
   website: https://relai.app
   developerName: Relai
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 3.14.1
   reviews: 3309
   icon: ch.relai.relai.jpg
-  date: 2023-07-11
   website: https://relai.app/
   developerName: Relai App GmbH
 

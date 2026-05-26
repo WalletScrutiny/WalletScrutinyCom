@@ -1,6 +1,7 @@
 ---
 wsId: eXchangily
 title: 'eXchangily DEX Bitcoin Wallet '
+date: 2023-08-16
 authors:
 - emanuel
 - leo
@@ -24,7 +25,6 @@ android:
   icon: com.exchangily.wallet.png
   meta: obsolete
   verdict: wip
-  date: 2025-07-11
 iphone:
   appId: com.exchangily.app
   idd: 1503068552
@@ -35,7 +35,6 @@ iphone:
   icon: com.exchangily.app.jpg
   meta: defunct
   verdict: sourceavailable
-  date: 2023-08-16
 
 ---
 

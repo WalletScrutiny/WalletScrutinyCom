@@ -3,6 +3,7 @@ wsId: BityPreco
 title: Bitypreço
 verdict: custodial
 meta: removed
+date: 2024-03-02
 authors:
 - danny
 website: https://bitpreco.com/
@@ -22,7 +23,6 @@ android:
   version: 2.0.04
   reviews: 726
   icon: com.bitpreco.bitprecoAppAndroid.png
-  date: 2025-03-17
   developerName: Bitpreço
 iphone:
   appId: com.bitpreco.bitprecoApp
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.04
   reviews: 665
   icon: com.bitpreco.bitprecoApp.jpg
-  date: 2024-03-02
   developerName: BitPreço
 
 ---

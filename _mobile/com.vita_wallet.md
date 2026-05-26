@@ -3,6 +3,7 @@ wsId: vita
 title: Vita Wallet
 verdict: custodial
 meta: ok
+date: 2021-10-04
 authors:
 - danny
 twitter: vitawallet
@@ -21,7 +22,6 @@ android:
   version: 7.3.14
   reviews: 881
   icon: com.vita_wallet.png
-  date: 2021-10-04
   website: https://vitawallet.io/
   developerName: Vita Solutions SpA
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 7.3.14
   reviews: 277
   icon: io.vitawallet.vitawallet.jpg
-  date: 2021-10-26
   website: https://www.vitawallet.io
   developerName: Vita Solutions S.p.A
 

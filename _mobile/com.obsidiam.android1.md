@@ -3,6 +3,7 @@ wsId: obsidiam
 title: Obsidiam
 verdict: custodial
 meta: removed
+date: 2025-05-30
 authors:
 - danny
 twitter: obsidiamlatam
@@ -22,7 +23,6 @@ android:
   updated: 2024-03-22
   version: 1.6.6
   icon: com.obsidiam.android1.png
-  date: 2025-05-30
   website: https://obsidiam.com/
 iphone:
   appId: com.obsidiam.appstore
@@ -33,7 +33,6 @@ iphone:
   version: 3.1.0
   reviews: 14
   icon: com.obsidiam.appstore.jpg
-  date: 2025-11-26
 
 ---
 

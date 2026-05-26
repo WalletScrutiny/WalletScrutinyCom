@@ -2,6 +2,7 @@
 wsId: XRex
 title: XREX:Buy Crypto,Bitcoin & USDT
 verdict: custodial
+date: 2021-11-15
 authors:
 - danny
 website: https://xrex.io/
@@ -21,7 +22,6 @@ android:
   version: 2.1.934
   icon: com.xrex.mobile.png
   meta: ok
-  date: 2021-11-15
   developerName: XREX, Inc.
 iphone:
   appId: com.xrex.mobile
@@ -33,7 +33,6 @@ iphone:
   reviews: 9
   icon: com.xrex.mobile.jpg
   meta: removed
-  date: 2025-08-24
   developerName: XREX
 
 ---

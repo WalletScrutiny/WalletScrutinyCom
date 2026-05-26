@@ -3,6 +3,7 @@ wsId: coin98
 title: 'Coin98: Trade Crypto & Stocks'
 verdict: nosource
 meta: ok
+date: 2022-01-10
 authors:
 - kiwilamb
 - danny
@@ -22,7 +23,6 @@ android:
   version: 16.12.0
   reviews: 261
   icon: coin98.crypto.finance.media.png
-  date: 2024-07-15
   website: https://coin98.com/
 iphone:
   appId: coin98.crypto.finance.insights
@@ -32,7 +32,6 @@ iphone:
   version: 16.12.0
   reviews: 654
   icon: coin98.crypto.finance.insights.jpg
-  date: 2022-01-10
   website: https://coin98.com
 
 ---

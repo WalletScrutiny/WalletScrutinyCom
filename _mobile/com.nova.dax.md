@@ -1,6 +1,7 @@
 ---
 title: NovaDAX - Buy & Sell Bitcoin
 meta: ok
+date: 2024-10-07
 authors:
 - danny
 social:
@@ -19,7 +20,6 @@ android:
   reviews: 42
   icon: com.nova.dax.png
   verdict: custodial
-  date: 2026-02-02
   website: https://www.novadax.com
   twitter: Nova_DAXglobal
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 2703
   icon: com.nova.dax.jpg
   verdict: wip
-  date: 2024-10-07
 
 ---
 

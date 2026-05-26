@@ -2,6 +2,7 @@
 wsId: ivendPayPOS
 title: ivendPay POS
 verdict: custodial
+date: 2024-08-31
 authors:
 - danny
 twitter: ivendpay
@@ -20,7 +21,6 @@ android:
   version: 2.0.4
   icon: ivendpay.com.png
   meta: removed
-  date: 2024-08-31
   website: https://ivendpay.com
   developerName: IVENDPAY
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: ivendpay.com.jpg
   meta: stale
-  date: 2025-11-05
   website: https://ivpay.io
   developerName: ivendPay
 

@@ -3,6 +3,7 @@ wsId: CoinCircle
 title: CoinCircle
 verdict: nosource
 meta: obsolete
+date: 2024-01-16
 authors:
 - danny
 website: https://coincircle.com
@@ -22,7 +23,6 @@ android:
   version: 1.3.3.10300
   reviews: 245
   icon: com.coincircle.png
-  date: 2026-02-20
   developerName: CoinCircle, Inc.
 iphone:
   appId: com.coincircle.app
@@ -32,7 +32,6 @@ iphone:
   version: 1.1.1
   reviews: 633
   icon: com.coincircle.app.jpg
-  date: 2024-01-16
   developerName: Coincircle, Inc
 
 ---

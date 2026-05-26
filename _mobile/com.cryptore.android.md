@@ -3,6 +3,7 @@ wsId: coinlord
 title: COINLORD
 verdict: custodial
 meta: removed
+date: 2024-04-19
 authors:
 - danny
 twitter: coinlord_trade
@@ -23,7 +24,6 @@ android:
   version: 1.2.2
   reviews: 5
   icon: com.cryptore.android.jpg
-  date: 2025-02-28
   website: https://coinlord.org/
   developerName: Sanatan Technologies
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 1.1.8
   reviews: 17
   icon: com.cryptore.nine99.jpg
-  date: 2024-04-19
   developerName: Nine 99 Technologies LLP
 
 ---

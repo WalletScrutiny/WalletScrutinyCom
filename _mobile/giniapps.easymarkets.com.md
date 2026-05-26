@@ -3,6 +3,7 @@ wsId: easyMarkets
 title: easyMarkets Online Trading
 verdict: custodial
 meta: ok
+date: 2021-09-10
 authors:
 - danny
 twitter: easymarkets
@@ -21,7 +22,6 @@ android:
   version: 3.3.1
   reviews: 39
   icon: giniapps.easymarkets.com.png
-  date: 2021-09-10
   website: https://www.easymarkets.com/
   developerName: easyMarkets
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: '6.4'
   reviews: 224
   icon: com.easyforex.trading.jpg
-  date: 2024-10-07
   website: https://www.easy-markets.com/syc/en-gb/platforms/easymarkets-mobile-app/
   developerName: Blue Capital Markets Limited
 

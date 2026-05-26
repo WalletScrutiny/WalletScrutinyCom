@@ -3,6 +3,7 @@ wsId: hkd
 title: HKD.com
 verdict: custodial
 meta: ok
+date: 2023-02-13
 authors:
 - danny
 website: http://hkd.com
@@ -22,7 +23,6 @@ android:
   version: 3.0.5
   reviews: 16
   icon: hkd.com.png
-  date: 2026-03-03
   developerName: HKD.com Limited
 iphone:
   appId: com.hkd.hkdex
@@ -33,7 +33,6 @@ iphone:
   version: 3.2.6
   reviews: 52
   icon: com.hkd.hkdex.jpg
-  date: 2023-02-13
   developerName: HKD.COM LIMITED
 
 ---

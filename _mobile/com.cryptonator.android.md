@@ -3,6 +3,7 @@ wsId: cryptonator
 title: Cryptonator cryptocurrency wallet
 verdict: custodial
 meta: removed
+date: 2022-02-25
 authors:
 - leo
 website: https://www.cryptonator.com
@@ -18,7 +19,6 @@ android:
   version: '4.2'
   reviews: 139
   icon: com.cryptonator.android.png
-  date: 2022-04-25
 iphone:
   appId: com.cryptonator.ios
   idd: 1463793201
@@ -27,7 +27,6 @@ iphone:
   version: 4.1.4
   reviews: 26
   icon: com.cryptonator.ios.jpg
-  date: 2022-02-25
 
 ---
 

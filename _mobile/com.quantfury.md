@@ -3,6 +3,7 @@ wsId: quantfury
 title: 'Quantfury: Your Global Broker'
 verdict: custodial
 meta: ok
+date: 2021-11-01
 authors:
 - danny
 twitter: quantfury
@@ -18,7 +19,6 @@ android:
   version: v1.94.1.25713
   reviews: 23
   icon: com.quantfury.png
-  date: 2021-11-01
   website: https://www.quantfury.com/
   developerName: Quantfury Trading Limited
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 1.94.2
   reviews: 76
   icon: com.quantfury.jpg
-  date: 2024-10-07
   website: https://quantfury.com/
   developerName: Quantfury Ltd
 

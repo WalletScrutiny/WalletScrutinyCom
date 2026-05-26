@@ -2,6 +2,7 @@
 wsId: envoyFoundation
 title: Envoy
 meta: ok
+date: 2024-01-02
 authors:
 - danny
 - keraliss
@@ -32,7 +33,6 @@ android:
   reviews: 6
   icon: com.foundationdevices.envoy.jpg
   verdict: sourceavailable
-  date: 2025-02-13
   website: https://foundationdevices.com/
   developerName: Foundation Devices
 iphone:
@@ -45,7 +45,6 @@ iphone:
   reviews: 29
   icon: com.foundationdevices.envoy.jpg
   verdict: wip
-  date: 2024-01-02
   developerName: Foundation Devices, Inc.
 
 ---

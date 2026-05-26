@@ -3,6 +3,7 @@ wsId: STASISStablecoinWallet
 title: STASIS Stablecoin Wallet
 verdict: custodial
 meta: removed
+date: 2024-12-08
 authors:
 - leo
 website: https://stasis.net
@@ -24,7 +25,6 @@ android:
   version: 1.15.0
   reviews: 5
   icon: com.stasis.stasiswallet.png
-  date: 2025-03-14
   developerName: STSS Limited
 iphone:
   appId: net.stasis.mobile
@@ -35,7 +35,6 @@ iphone:
   version: 8.2.2
   reviews: 0
   icon: net.stasis.mobile.jpg
-  date: 2024-12-08
   developerName: STSS LTD
 
 ---

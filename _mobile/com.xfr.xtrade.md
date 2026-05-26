@@ -3,6 +3,7 @@ wsId: xfrXTrade
 title: 'Xtrade: Forex, Stocks & CFDs'
 verdict: custodial
 meta: ok
+date: 2023-11-17
 authors:
 - danny
 twitter: XTrade
@@ -20,7 +21,6 @@ android:
   version: 7.0.24
   reviews: 76
   icon: com.xfr.xtrade.png
-  date: 2026-04-13
   website: http://www.xtrade.com
   developerName: XTRADE
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 7.0.25
   reviews: 29
   icon: com.triviologic.xtrader.jpg
-  date: 2023-11-17
   website: https://www.xtrade.com/
   developerName: XTRADE EUROPE LTD
 

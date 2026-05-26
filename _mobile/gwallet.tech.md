@@ -2,6 +2,7 @@
 wsId: GWalletApp
 title: GWallet
 verdict: nosource
+date: 2025-02-26
 authors:
 - danny
 website: https://gwallet.tech/
@@ -17,7 +18,6 @@ android:
   version: 1.2.6
   icon: gwallet.tech.png
   meta: obsolete
-  date: 2025-02-26
   developerName: GWALLETGLOBAL OÜ
 iphone:
   appId: gwallet.tech
@@ -28,7 +28,6 @@ iphone:
   reviews: 0
   icon: gwallet.tech.jpg
   meta: removed
-  date: 2025-04-22
   developerName: Gwalletglobal OU
 
 ---

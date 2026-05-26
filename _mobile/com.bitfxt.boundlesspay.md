@@ -3,6 +3,7 @@ wsId: boundlessPay
 title: 'BoundlessPay: Buy& Sell Crypto'
 verdict: custodial
 meta: ok
+date: 2023-03-29
 authors:
 - danny
 twitter: boundlesspay
@@ -20,7 +21,6 @@ android:
   version: 2.5.6
   reviews: 15
   icon: com.bitfxt.boundlesspay.png
-  date: 2023-03-29
   website: https://boundlesspay.com
   developerName: Boundless Nexus
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 2.3.9
   reviews: 73
   icon: com.boundless.boundlesspay.jpg
-  date: 2025-06-23
   website: https://www.boundlesspay.com
   developerName: BOUNDLESS NEXUS LIMITED
 

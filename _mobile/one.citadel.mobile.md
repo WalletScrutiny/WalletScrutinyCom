@@ -3,6 +3,7 @@ wsId: CitadelOne
 title: Citadel.one Super App
 verdict: nosource
 meta: ok
+date: 2024-07-17
 authors:
 - danny
 website: https://citadel.one/
@@ -28,7 +29,6 @@ android:
   version: 2.13.2
   reviews: 15
   icon: one.citadel.mobile.png
-  date: 2024-07-17
   developerName: Citadel.one
 iphone:
   appId: one.citadel.mobile
@@ -39,7 +39,6 @@ iphone:
   version: 2.12.2
   reviews: 17
   icon: one.citadel.mobile.jpg
-  date: 2025-06-06
   developerName: Citadel.one LTD
 
 ---

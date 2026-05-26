@@ -3,6 +3,7 @@ wsId: Paritex
 title: Paritex Exchange
 verdict: custodial
 meta: removed
+date: 2023-04-16
 authors:
 - danny
 twitter: paritexexchange
@@ -18,7 +19,6 @@ android:
   version: 3.1.17
   reviews: 106
   icon: com.paritex.paritex_exchange_mobile.png
-  date: 2025-03-14
   website: https://paritex.com/
   developerName: Paritex
 iphone:
@@ -29,7 +29,6 @@ iphone:
   version: 3.1.17
   reviews: 83
   icon: com.paritex.paritexapp.jpg
-  date: 2023-04-16
   website: https://www.paritex.com/
   developerName: Paritex Bilişim Teknolojileri Anonim Şirketi
 

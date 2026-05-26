@@ -2,6 +2,7 @@
 wsId: fastEWallet
 title: FastE Wallet
 verdict: nosource
+date: 2023-12-19
 authors:
 - danny
 twitter: blocktechbrew
@@ -18,7 +19,6 @@ android:
   version: 0.26.4
   icon: io.fastewallet.bankwallet.png
   meta: removed
-  date: 2023-12-19
   website: http://crypto.fastewallet.com#deadLink
   developerName: Blocktech Brew
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.wallet.faste.jpg
   meta: obsolete
-  date: 2026-01-28
   developerName: Code Brew Labs
 
 ---

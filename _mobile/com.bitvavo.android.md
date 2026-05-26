@@ -3,6 +3,7 @@ wsId: bitvavo
 title: Bitvavo | Buy Bitcoin & Crypto
 verdict: custodial
 meta: ok
+date: 2021-09-03
 authors:
 - danny
 redirect_from:
@@ -17,7 +18,6 @@ android:
   version: 2.108.0
   reviews: 3655
   icon: com.bitvavo.android.png
-  date: 2021-09-10
   website: https://bitvavo.com/
   developerName: bitvavo
 iphone:
@@ -29,7 +29,6 @@ iphone:
   version: 2.108.0
   reviews: 8500
   icon: com.bitvavo.jpg
-  date: 2021-09-03
   website: https://bitvavo.com
   developerName: Bitvavo B.V.
 

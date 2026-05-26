@@ -3,6 +3,7 @@ wsId: vegaWallet
 title: VegaWallet
 verdict: nosource
 meta: removed
+date: 2023-06-21
 authors:
 - danny
 twitter: vegawallet
@@ -20,7 +21,6 @@ android:
   version: 3.2.3
   reviews: 5
   icon: com.vegawallet.in.png
-  date: 2024-07-05
   website: http://www.VegaWallet.com
   developerName: Vegawallet
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: '3.3'
   reviews: 9
   icon: com.vegawallet.in.jpg
-  date: 2023-06-21
   website: https://vegawallet.com
   developerName: VegaWallet
 

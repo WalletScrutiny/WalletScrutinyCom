@@ -2,6 +2,7 @@
 wsId: matbeaExchange
 title: Matbea
 verdict: custodial
+date: 2023-04-07
 authors:
 - danny
 social:
@@ -16,7 +17,6 @@ android:
   version: 1.7.9
   icon: com.matbea.png
   meta: ok
-  date: 2023-04-07
   website: https://matbea.com
   developerName: Matbea
 iphone:
@@ -29,7 +29,6 @@ iphone:
   reviews: 127
   icon: org.Matbea.jpg
   meta: removed
-  date: 2024-09-24
   developerName: MATBEA LTD
 
 ---

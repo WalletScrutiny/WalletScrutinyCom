@@ -3,6 +3,7 @@ wsId: LVLMoneyApp
 title: LVL - The Money App
 verdict: custodial
 meta: removed
+date: 2023-01-11
 authors:
 - danny
 twitter: BankWithLVL
@@ -21,7 +22,6 @@ android:
   version: 1.0.5
   reviews: 62
   icon: co.lvl.firstapp.png
-  date: 2024-07-05
   website: https://web.archive.org/web/20250910205356/http://lvl.co/
   developerName: Samsa Technologies Inc.
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.5
   reviews: 369
   icon: co.lvl.firstapp.jpg
-  date: 2023-01-11
   website: https://www.lvl.co#deadLink
 
 ---

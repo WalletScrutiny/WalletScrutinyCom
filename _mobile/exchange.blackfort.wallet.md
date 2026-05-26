@@ -2,6 +2,7 @@
 wsId: BlackFort
 title: BlackFort Wallet & Exchange
 verdict: nosource
+date: 2023-08-16
 authors:
 - danny
 twitter: BlackFort_Tech
@@ -21,7 +22,6 @@ android:
   reviews: 52
   icon: exchange.blackfort.wallet.png
   meta: obsolete
-  date: 2023-10-22
   website: https://blackfort.exchange
   developerName: Blackfort Technologies LLC
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: exchange.blackfort.wallet.jpg
   meta: removed
-  date: 2023-08-16
   website: https://blackfort.exchange/
   developerName: BlackFort
 

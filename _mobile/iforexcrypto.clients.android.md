@@ -3,6 +3,7 @@ wsId: iForexCrypto
 title: iFOREX Crypto online trading
 verdict: nosendreceive
 meta: removed
+date: 2024-11-12
 authors:
 - danny
 twitter: iforexcrypto_o
@@ -18,7 +19,6 @@ android:
   updated: 2024-06-18
   version: 2.1.50
   icon: iforexcrypto.clients.android.png
-  date: 2024-11-12
   website: https://www.iforexcrypto.com
   developerName: Formula Investments House LTD
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 3.1.23
   reviews: 0
   icon: com.bootleg.iforexCryptoWrapper.jpg
-  date: 2025-08-24
   website: https://www.iforex.com
   developerName: Formula Investment House Ltd.
 

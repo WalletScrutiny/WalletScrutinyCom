@@ -2,6 +2,7 @@
 wsId: Vauld
 title: Vauld.com
 verdict: custodial
+date: 2024-09-03
 authors:
 - kiwilamb
 twitter: Vauld_
@@ -21,7 +22,6 @@ android:
   reviews: 88
   icon: com.bankofhodlers.mobile.png
   meta: ok
-  date: 2025-01-09
   website: https://vauld.com
   developerName: VauldGoogleDeveloper
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 299
   icon: com.bankofhodlers.app.jpg
   meta: removed
-  date: 2024-09-03
   website: https://www.vauld.com/
   developerName: DEFI TECHNOLOGIES PTE. LTD.
 

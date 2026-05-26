@@ -3,6 +3,7 @@ wsId: bitfortip
 title: Bitfortip | Now with Tezos sup
 verdict: custodial
 meta: removed
+date: 2023-08-25
 authors:
 - danny
 twitter: bitfortip
@@ -21,7 +22,6 @@ android:
   version: '2.6'
   reviews: 3
   icon: com.rishabh.bitfortip.jpg
-  date: 2023-12-19
   website: https://www.bitfortip.com/
   developerName: Bitfortip
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.1
   reviews: 1
   icon: com.bitfortip.bitfortipapp.jpg
-  date: 2023-08-25
   website: https://www.youtube.com/watch?v=62iDBVDlhIU
   developerName: BITFORTIP PTY LTD
 

@@ -2,6 +2,7 @@
 wsId: swft
 title: SWFT Blockchain
 verdict: custodial
+date: 2023-04-16
 authors:
 - leo
 twitter: SwftCoin
@@ -22,7 +23,6 @@ android:
   reviews: 146
   icon: com.swftcoin.client.android.png
   meta: removed
-  date: 2023-04-16
   website: http://www.swft.pro/
   developerName: GooCoin
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 23
   icon: com.SwftBlockChain.client.jpg
   meta: ok
-  date: 2024-10-07
   website: http://www.swft.pro
   developerName: Smart Worldwide Financial Technology Inc.
 

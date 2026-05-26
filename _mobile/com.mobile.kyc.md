@@ -2,6 +2,7 @@
 wsId: kyccWallet
 title: KYCC Wallet
 verdict: nosource
+date: 2024-10-23
 authors:
 - danny
 twitter: kyc_coin
@@ -22,7 +23,6 @@ android:
   reviews: 1
   icon: com.mobile.kyc.png
   meta: removed
-  date: 2025-03-14
   website: https://kyccoin.io
 iphone:
   appId: com.mobile.kyc
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.mobile.kyc.jpg
   meta: obsolete
-  date: 2024-10-23
 
 ---
 

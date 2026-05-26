@@ -3,6 +3,7 @@ wsId: ctrlWallet
 title: Ctrl Wallet
 verdict: nosource
 meta: ok
+date: 2024-09-24
 authors:
 - danny
 twitter: ctrl_wallet
@@ -19,7 +20,6 @@ android:
   version: 3.3.1
   reviews: 4
   icon: xyz.ctrl.wallet.png
-  date: 2024-09-24
   website: https://ctrl.xyz
   developerName: EMURGO Fintech Inc.
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 3.3.1
   reviews: 9
   icon: xyz.ctrl.wallet.jpg
-  date: 2025-03-14
   website: https://ctrl.xyz/
   developerName: EMURGO Co., Ltd
 

@@ -3,6 +3,7 @@ wsId: gokuMarket
 title: GokuMarket
 verdict: custodial
 meta: removed
+date: 2023-01-30
 authors:
 - danny
 website: https://www.gokumarket.com#deadLink
@@ -23,7 +24,6 @@ android:
   version: '1.35'
   reviews: 1228
   icon: com.gokumarket.png
-  date: 2023-01-30
 iphone:
   appId: com.united.gokumarket
   idd: '1489128011'
@@ -33,7 +33,6 @@ iphone:
   version: '1.28'
   reviews: 8
   icon: com.united.gokumarket.jpg
-  date: 2023-03-21
 
 ---
 

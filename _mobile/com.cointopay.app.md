@@ -2,6 +2,7 @@
 wsId: CointoPayWallet
 title: Cointopay wallet
 verdict: custodial
+date: 2024-05-24
 authors:
 - danny
 twitter: Cointopay
@@ -21,7 +22,6 @@ android:
   reviews: 7
   icon: com.cointopay.app.png
   meta: obsolete
-  date: 2024-05-24
   website: https://cointopay.com
   developerName: Cointopay.com
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 1
   icon: com.cointopay.iosapp.jpg
   meta: removed
-  date: 2025-03-11
   website: https://cointopay.com/
   developerName: Cointopay International B.V.
 

@@ -2,6 +2,7 @@
 wsId: Mercuryo
 title: Mercuryo Bitcoin Cryptowallet
 verdict: custodial
+date: 2024-10-07
 authors:
 - leo
 twitter: Mercuryo_io
@@ -22,7 +23,6 @@ android:
   reviews: 127
   icon: com.mercuryo.app.png
   meta: removed
-  date: 2026-05-05
   website: https://mercuryo.io
   developerName: Mercuryo
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 1133
   icon: com.mercuryo.app.jpg
   meta: ok
-  date: 2024-10-07
   website: https://mercuryo.io/
   developerName: MonayAmber UAB
 

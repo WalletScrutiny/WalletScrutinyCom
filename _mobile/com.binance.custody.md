@@ -2,6 +2,7 @@
 wsId: ceffuCustody
 title: 'Ceffu: Institutional Custody'
 verdict: custodial
+date: 2023-07-21
 authors:
 - danny
 twitter: CeffuGlobal
@@ -21,7 +22,6 @@ android:
   reviews: 8
   icon: com.binance.custody.png
   meta: removed
-  date: 2023-11-02
   website: https://ceffu.com
   developerName: Binance Inc.
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.binance.custody.jpg
   meta: ok
-  date: 2023-07-21
   website: https://www.ceffu.com
   developerName: Block Technologies Pte Ltd
 

@@ -2,6 +2,7 @@
 wsId: swissBitcoinPay
 title: Swiss Bitcoin Pay
 meta: ok
+date: 2024-02-28
 authors:
 - danny
 - keraliss
@@ -30,7 +31,6 @@ android:
   alternativeStores:
   - fdroid
   verdict: sourceavailable
-  date: 2025-02-06
   developerName: Swiss Bitcoin Pay
 iphone:
   appId: ch.swissbitcoinpay.checkout
@@ -42,7 +42,6 @@ iphone:
   reviews: 1
   icon: ch.swissbitcoinpay.checkout.jpg
   verdict: wip
-  date: 2024-02-28
   developerName: Swiss Bitcoin Pay Sarl
 
 ---

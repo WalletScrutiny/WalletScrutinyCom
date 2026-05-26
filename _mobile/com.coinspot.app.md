@@ -3,6 +3,7 @@ wsId: coinspot
 title: CoinSpot - Buy & Sell Bitcoin
 verdict: custodial
 meta: ok
+date: 2021-09-03
 authors:
 - danny
 twitter: coinspotau
@@ -24,7 +25,6 @@ android:
   version: 3.10.2
   reviews: 2196
   icon: com.coinspot.app.png
-  date: 2021-09-10
   website: https://www.coinspot.com.au
 iphone:
   appId: com.coinspot.app
@@ -34,7 +34,6 @@ iphone:
   version: 3.10.2
   reviews: 44778
   icon: com.coinspot.app.jpg
-  date: 2021-09-03
   website: https://www.coinspot.com.au/
 
 ---

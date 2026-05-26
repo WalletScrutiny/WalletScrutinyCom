@@ -3,6 +3,7 @@ wsId: finq
 title: Finq
 verdict: nosendreceive
 meta: removed
+date: 2025-02-26
 authors:
 - danny
 website: http://www.finq.com#deadLink
@@ -19,7 +20,6 @@ android:
   version: 2.11.1
   reviews: 5
   icon: com.finq.android.png
-  date: 2025-02-26
 iphone:
   appId: com.trader.finq
   idd: '1280873475'
@@ -29,7 +29,6 @@ iphone:
   version: '2.8'
   reviews: 40
   icon: com.trader.finq.jpg
-  date: 2025-11-26
 
 ---
 

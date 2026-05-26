@@ -2,6 +2,7 @@
 wsId: ciexExchange
 title: CIEx
 verdict: custodial
+date: 2025-05-30
 authors:
 - danny
 twitter: CENTURION_INVST
@@ -23,7 +24,6 @@ android:
   version: 6.5.4
   icon: com.exchange.Ciexv2.png
   meta: ok
-  date: 2025-05-30
   website: https://centurioninvest.com/
   developerName: Centurion Exchange
 iphone:
@@ -36,7 +36,6 @@ iphone:
   reviews: 0
   icon: com.centurion.exchange.jpg
   meta: stale
-  date: 2025-06-09
   developerName: Centurioninvest OU
 
 ---

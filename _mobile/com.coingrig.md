@@ -3,6 +3,7 @@ wsId: coinGrig
 title: 'Coingrig: Digital Wallet'
 verdict: wip
 meta: removed
+date: 2023-08-04
 authors:
 - danny
 website: https://coingrig.com
@@ -21,7 +22,6 @@ android:
   updated: 2022-06-22
   version: 1.3.11
   icon: com.coingrig.png
-  date: 2024-10-03
 iphone:
   appId: com.coingrig.app
   idd: '1583464451'
@@ -31,7 +31,6 @@ iphone:
   version: 1.3.11
   reviews: 0
   icon: com.coingrig.app.jpg
-  date: 2023-08-04
 
 ---
 

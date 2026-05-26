@@ -3,6 +3,7 @@ wsId: mChange
 title: Mchange - купить Bitcoin
 verdict: custodial
 meta: removed
+date: 2025-01-15
 authors:
 - danny
 website: https://mchange.net
@@ -18,7 +19,6 @@ android:
   updated: 2024-08-10
   version: 4.0.2
   icon: com.mchangeapps.mchange.png
-  date: 2025-02-13
   developerName: exmoneyapps
 iphone:
   appId: com.xchange.mchange
@@ -29,7 +29,6 @@ iphone:
   version: 1.0.3
   reviews: 0
   icon: com.xchange.mchange.jpg
-  date: 2025-01-15
   developerName: XChangeCapitalGroup
 
 ---

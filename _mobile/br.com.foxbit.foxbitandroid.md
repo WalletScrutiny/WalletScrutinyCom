@@ -3,6 +3,7 @@ wsId: foxbitexchange
 title: Foxbit Exchange
 verdict: custodial
 meta: ok
+date: 2021-08-27
 authors:
 - danny
 twitter: foxbit
@@ -22,7 +23,6 @@ android:
   version: 3.42.1
   reviews: 6385
   icon: br.com.foxbit.foxbitandroid.png
-  date: 2021-08-27
   website: http://www.foxbit.com.br
 iphone:
   appId: br.com.foxbit
@@ -32,7 +32,6 @@ iphone:
   version: 3.43.1
   reviews: 5548
   icon: br.com.foxbit.jpg
-  date: 2023-04-16
   website: https://foxbit.com.br/negociar-criptoativos/
 
 ---

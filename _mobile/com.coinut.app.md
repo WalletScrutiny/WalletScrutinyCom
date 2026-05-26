@@ -2,6 +2,7 @@
 wsId: CoinutExchange
 title: Coinut:Crypto&Bitcoin Trading
 verdict: custodial
+date: 2025-05-26
 authors:
 - danny
 website: https://coinut.com
@@ -21,7 +22,6 @@ android:
   reviews: 15
   icon: com.coinut.app.png
   meta: ok
-  date: 2026-05-18
   developerName: COINUT PTE LTD
 iphone:
   appId: com.coinut.app
@@ -33,7 +33,6 @@ iphone:
   reviews: 5
   icon: com.coinut.app.jpg
   meta: obsolete
-  date: 2025-05-26
   developerName: Coinut Pte. Ltd.
 
 ---

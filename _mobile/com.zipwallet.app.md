@@ -2,6 +2,7 @@
 wsId: zipwalletpay
 title: Zipwallet-Buy Btc with Paypal
 verdict: custodial
+date: 2023-01-02
 authors:
 - danny
 website: https://zipwalletpay.com
@@ -18,7 +19,6 @@ android:
   reviews: 13
   icon: com.zipwallet.app.png
   meta: removed
-  date: 2023-01-02
 iphone:
   appId: com.zipwallet.ios
   idd: 1463275408
@@ -28,7 +28,6 @@ iphone:
   reviews: 1
   icon: com.zipwallet.ios.jpg
   meta: obsolete
-  date: 2026-02-02
   developerName: ZIPWALLET INTERNATIONAL
 
 ---

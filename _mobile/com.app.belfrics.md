@@ -3,6 +3,7 @@ wsId: Belfrics
 title: Belfrics – CryptoCurrency
 verdict: custodial
 meta: removed
+date: 2023-08-04
 authors:
 - danny
 twitter: Belfrics
@@ -20,7 +21,6 @@ android:
   version: 2.1.15
   reviews: 8
   icon: com.app.belfrics.png
-  date: 2023-08-04
   website: http://www.belfrics.io
   developerName: Belfrics Holding Ltd
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 2.5.21
   reviews: 25
   icon: com.belfrics.app.jpg
-  date: 2024-02-05
   website: https://www.belfrics.io/
   developerName: Belfrics Group
 

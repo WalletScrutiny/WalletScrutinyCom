@@ -2,6 +2,7 @@
 wsId: ambercrypto
 title: Amber Premium Global
 verdict: custodial
+date: 2021-09-11
 authors:
 - danny
 website: https://www.ambr.io/global
@@ -22,7 +23,6 @@ android:
   reviews: 239
   icon: io.ambergroup.amber.png
   meta: ok
-  date: 2021-09-11
   developerName: Amber AI Limited
 iphone:
   appId: com.ambergroup.amberapp
@@ -33,7 +33,6 @@ iphone:
   reviews: 192
   icon: com.ambergroup.amberapp.jpg
   meta: removed
-  date: 2026-04-28
   developerName: AMBER AI LIMITED
 
 ---

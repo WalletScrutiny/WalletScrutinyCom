@@ -3,6 +3,7 @@ wsId: coindhan
 title: 'Coindhan: Buy Bitcoin & Crypto'
 verdict: custodial
 meta: removed
+date: 2024-10-03
 authors:
 - danny
 website: https://www.coindhan.com
@@ -25,7 +26,6 @@ android:
   updated: 2024-04-07
   version: '1.0'
   icon: www.coindhan.com.png
-  date: 2024-10-03
 iphone:
   appId: www.coindhan.com
   idd: '1601649228'
@@ -35,7 +35,6 @@ iphone:
   version: '1.33'
   reviews: 20
   icon: www.coindhan.com.jpg
-  date: 2025-03-11
 
 ---
 

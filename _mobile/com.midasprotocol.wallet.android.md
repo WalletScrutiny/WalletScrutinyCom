@@ -3,6 +3,7 @@ wsId: midas
 title: Midas Crypto Wallet
 verdict: custodial
 meta: removed
+date: 2024-04-26
 authors:
 - kiwilamb
 twitter: MidasProtocol
@@ -20,7 +21,6 @@ android:
   version: 2.0.8.1
   reviews: 25
   icon: com.midasprotocol.wallet.android.png
-  date: 2024-07-05
   website: https://midasprotocol.io
 iphone:
   appId: com.midasprotocol.wallet.ios
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.8
   reviews: 90
   icon: com.midasprotocol.wallet.ios.jpg
-  date: 2024-04-26
   website: https://midasprotocol.io/
 
 ---

@@ -2,6 +2,7 @@
 wsId: eliteWallet
 title: Elite Wallet
 meta: removed
+date: 2024-05-18
 authors:
 - danny
 website: https://elitewallet.sc#deadLink
@@ -21,7 +22,6 @@ android:
   reviews: 3
   icon: sc.elitewallet.elitewallet.png
   verdict: sourceavailable
-  date: 2024-07-10
 iphone:
   appId: sc.elitewallet.elite-wallet
   idd: '6447569561'
@@ -32,7 +32,6 @@ iphone:
   reviews: 1
   icon: sc.elitewallet.elite-wallet.jpg
   verdict: wip
-  date: 2024-05-18
 
 ---
 

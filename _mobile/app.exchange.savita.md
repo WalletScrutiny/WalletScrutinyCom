@@ -2,6 +2,7 @@
 wsId: savitaBuyBTC
 title: 'Savita: Buy BTC,ETH,USDT'
 verdict: custodial
+date: 2024-08-02
 authors:
 - danny
 social:
@@ -20,7 +21,6 @@ android:
   version: 1.0.0
   icon: app.exchange.savita.png
   meta: ok
-  date: 2026-01-08
   website: https://savitaglobal.com/
   developerName: Savita Global Trading Ltd
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.savita.savitaapp.jpg
   meta: removed
-  date: 2024-08-02
   website: https://savitaglobal.com
   developerName: Savita global
 

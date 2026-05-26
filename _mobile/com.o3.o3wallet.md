@@ -3,6 +3,7 @@ wsId: O3Wallet
 title: O3 Wallet
 verdict: nosource
 meta: removed
+date: 2024-07-05
 authors:
 - danny
 website: https://o3.network#deadLink
@@ -21,7 +22,6 @@ android:
   version: 3.4.1
   reviews: 13
   icon: com.o3.o3wallet.png
-  date: 2024-10-23
   developerName: O3 Labs Inc.
 iphone:
   appId: com.fengsheng.new.o3Wallet
@@ -31,7 +31,6 @@ iphone:
   version: 3.3.1
   reviews: 19
   icon: com.fengsheng.new.o3Wallet.jpg
-  date: 2024-07-05
   developerName: O3 Labs Inc
 
 ---

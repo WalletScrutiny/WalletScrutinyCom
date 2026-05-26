@@ -2,6 +2,7 @@
 wsId: biteEU
 title: Biteeu
 verdict: custodial
+date: 2025-02-26
 authors:
 - danny
 website: http://www.biteeu.com
@@ -20,7 +21,6 @@ android:
   version: 1.12.3
   icon: com.bit.eu.png
   meta: obsolete
-  date: 2025-09-23
   twitter: BiteeuExchange
   developerName: INTEBIX LTD
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.idea-soft.biteeu.jpg
   meta: removed
-  date: 2025-02-26
   developerName: BITEEU LTD
 
 ---

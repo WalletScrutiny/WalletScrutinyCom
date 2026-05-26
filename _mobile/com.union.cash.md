@@ -2,6 +2,7 @@
 wsId: unionCash
 title: Union.cash
 verdict: custodial
+date: 2023-11-17
 authors:
 - danny
 redirect_from:
@@ -16,7 +17,6 @@ android:
   reviews: 5
   icon: com.union.cash.png
   meta: ok
-  date: 2023-11-17
   website: http://www.union.cash/
   twitter: unioncash_eu
   developerName: Union Cash
@@ -30,7 +30,6 @@ iphone:
   reviews: 0
   icon: com.union.cash.jpg
   meta: obsolete
-  date: 2026-05-05
   website: https://union.cash
   developerName: Unioncash EU UAB
 

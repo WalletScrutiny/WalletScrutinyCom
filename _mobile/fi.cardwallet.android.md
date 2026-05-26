@@ -3,6 +3,7 @@ wsId: CardWalletCardano
 title: CWallet - ADA Crypto Wallet
 verdict: nosource
 meta: removed
+date: 2023-09-28
 authors:
 - danny
 website: https://cwallet.finance/
@@ -18,7 +19,6 @@ android:
   updated: 2023-07-11
   version: '1.12'
   icon: fi.cardwallet.android.png
-  date: 2023-12-19
   developerName: CWallet
 iphone:
   appId: fi.cardwallet
@@ -28,7 +28,6 @@ iphone:
   version: '2.2'
   reviews: 1
   icon: fi.cardwallet.jpg
-  date: 2023-09-28
   developerName: CardSoft OU
 
 ---

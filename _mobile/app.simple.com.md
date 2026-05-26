@@ -2,6 +2,7 @@
 wsId: simpleCrypto
 title: 'Simple:  Сrypto BTC, USDC'
 verdict: custodial
+date: 2023-06-13
 authors:
 - danny
 website: https://simple.app/
@@ -22,7 +23,6 @@ android:
   reviews: 1853
   icon: app.simple.com.png
   meta: ok
-  date: 2023-06-13
   developerName: Simple Europe
 iphone:
   appId: app.simple.com
@@ -34,7 +34,6 @@ iphone:
   reviews: 222
   icon: app.simple.com.jpg
   meta: removed
-  date: 2026-03-18
   developerName: Simple Europe UAB
 
 ---

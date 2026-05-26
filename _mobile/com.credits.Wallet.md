@@ -2,6 +2,7 @@
 wsId: creditsCrypto
 title: Credits.com. Buy and Sell BTC.
 verdict: custodial
+date: 2023-07-02
 authors:
 - danny
 twitter: creditscom
@@ -24,7 +25,6 @@ android:
   reviews: 6
   icon: com.credits.Wallet.png
   meta: ok
-  date: 2023-07-02
   website: https://credits.com/contacts.html
 iphone:
   appId: com.credits.CryptoWallet
@@ -36,7 +36,6 @@ iphone:
   reviews: 0
   icon: com.credits.CryptoWallet.jpg
   meta: stale
-  date: 2026-05-05
   website: http://credits.com
 
 ---

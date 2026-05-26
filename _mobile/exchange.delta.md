@@ -2,6 +2,7 @@
 wsId: DeltaExchange
 title: 'Delta Exchange: Crypto Trading'
 verdict: custodial
+date: 2021-10-08
 authors:
 - danny
 twitter: Delta_Exchange
@@ -20,7 +21,6 @@ android:
   version: 1.13.0
   icon: exchange.delta.png
   meta: ok
-  date: 2021-10-08
   website: https://delta.exchange
   developerName: Delta Exchange
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: exchange.delta.app.jpg
   meta: obsolete
-  date: 2025-07-11
   website: https://www.delta.exchange/
   developerName: Bit Protocol Ltd.
 

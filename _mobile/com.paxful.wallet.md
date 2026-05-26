@@ -3,6 +3,7 @@ wsId: Paxful
 title: 'Paxful: Buy BTC, USDT, ETH'
 verdict: custodial
 meta: removed
+date: 2024-12-08
 authors:
 - leo
 twitter: paxful
@@ -26,7 +27,6 @@ android:
   version: 3.3.1.727
   reviews: 1962
   icon: com.paxful.wallet.png
-  date: 2025-11-26
   website: https://Paxful.com
   bugbounty: https://paxful.com/bug-bounty-policy
   developerName: PaxfulDev
@@ -38,7 +38,6 @@ iphone:
   version: 3.0.2
   reviews: 3597
   icon: com.paxful.wallet.jpg
-  date: 2024-12-08
   website: https://paxful.com
   developerName: Paxful Inc
 

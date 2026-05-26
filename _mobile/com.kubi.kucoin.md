@@ -2,6 +2,7 @@
 wsId: kucoinExchange
 title: 'KuCoin: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2021-02-09
 authors:
 - leo
 twitter: KuCoinCom
@@ -21,7 +22,6 @@ android:
   reviews: 5031
   icon: com.kubi.kucoin.jpg
   meta: ok
-  date: 2021-02-09
   website: https://www.kucoin.com
   developerName: Kugame Global Limited
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 26462
   icon: com.kucoin.KuCoin.iOS.jpg
   meta: removed
-  date: 2024-11-15
   developerName: Kucoin Technology Co.,Ltd.
 
 ---

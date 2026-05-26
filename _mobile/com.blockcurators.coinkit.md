@@ -2,6 +2,7 @@
 wsId: coinkit
 title: CoinKit
 verdict: custodial
+date: 2023-12-21
 authors:
 - danny
 website: https://coinkit.de#deadLink
@@ -18,7 +19,6 @@ android:
   reviews: 5
   icon: com.blockcurators.coinkit.png
   meta: removed
-  date: 2025-01-27
   developerName: Blockcurators GmbH
 iphone:
   appId: com.blockcurators.coinkit
@@ -30,7 +30,6 @@ iphone:
   reviews: 3
   icon: com.blockcurators.coinkit.jpg
   meta: obsolete
-  date: 2023-12-21
   developerName: BLOCKCURATORS GMBH
 
 ---

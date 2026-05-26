@@ -2,6 +2,7 @@
 wsId: com.btc.trustless
 title: Trustless
 verdict: wip
+date: 2026-02-03
 authors:
 - Pechen987 https://github.com/Pechen987
 website: https://trustlesswallet.github.io/Trustless/
@@ -22,7 +23,6 @@ android:
   reviews: 0
   icon: com.btc.trustless.png
   meta: removed
-  date: 2026-03-11
   developerName: pechen987
 iphone:
   appId: com.btc.trustless
@@ -33,9 +33,7 @@ iphone:
   reviews: 0
   icon: com.btc.trustless.jpg
   meta: fewusers
-  date: 2026-02-03
   developerName: Igor Kruglov
 
 ---
-
 

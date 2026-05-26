@@ -3,6 +3,7 @@ wsId: Blubitex
 title: Blubitex
 verdict: nosource
 meta: removed
+date: 2023-08-04
 authors:
 - danny
 twitter: blubitex
@@ -21,7 +22,6 @@ android:
   version: 2.1.342
   reviews: 37
   icon: com.blubitex.blubitexapp.png
-  date: 2024-04-03
   website: https://blubitex.com#deadLink
 iphone:
   appId: com.blubitex.blubitexapp
@@ -31,7 +31,6 @@ iphone:
   version: 3.1.341
   reviews: 3
   icon: com.blubitex.blubitexapp.jpg
-  date: 2023-08-04
   website: https://www.blubitex.com#deadLink
 
 ---

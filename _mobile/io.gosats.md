@@ -3,6 +3,7 @@ wsId: gosats
 title: 'GoSats: Gold and BTC Rewards'
 verdict: custodial
 meta: ok
+date: 2023-02-13
 authors:
 - danny
 website: https://gosats.io
@@ -19,7 +20,6 @@ android:
   version: 3.0.6
   reviews: 4
   icon: io.gosats.png
-  date: 2023-02-13
 iphone:
   appId: io.gosats
   idd: '1536263998'
@@ -29,7 +29,6 @@ iphone:
   version: 3.0.5
   reviews: 871
   icon: io.gosats.jpg
-  date: 2023-03-23
 
 ---
 

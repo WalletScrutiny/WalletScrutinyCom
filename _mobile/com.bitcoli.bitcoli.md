@@ -3,6 +3,7 @@ wsId: bitcoli
 title: BitcoLi Lightning wallet
 verdict: custodial
 meta: removed
+date: 2025-06-18
 authors:
 - danny
 redirect_from:
@@ -16,7 +17,6 @@ android:
   version: 1.2.1
   reviews: 7
   icon: com.bitcoli.bitcoli.jpg
-  date: 2025-06-18
   website: https://BitcoLi.com
   developerName: BitcoLi
 iphone:
@@ -28,7 +28,6 @@ iphone:
   version: 1.2.1
   reviews: 1
   icon: com.bitcoli.bitcoli.jpg
-  date: 2026-01-28
   website: https://bitcoli.com
   developerName: Jaroslav Bruzek
 

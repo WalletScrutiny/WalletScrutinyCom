@@ -2,6 +2,7 @@
 wsId: Paymium
 title: Paymium
 verdict: custodial
+date: 2024-10-07
 authors:
 - danny
 twitter: paymium
@@ -21,7 +22,6 @@ android:
   version: 8.27.1
   icon: com.paymium.mobile2.png
   meta: removed
-  date: 2026-05-13
   website: http://paymium.com
 iphone:
   appId: com.paymium.mobile
@@ -33,7 +33,6 @@ iphone:
   reviews: 34
   icon: com.paymium.mobile.jpg
   meta: ok
-  date: 2024-10-07
   website: https://www.paymium.com/
 
 ---

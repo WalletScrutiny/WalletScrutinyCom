@@ -2,6 +2,7 @@
 wsId: iMX
 title: iMX
 verdict: nosource
+date: 2026-02-02
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   version: 13.2.10
   icon: com.crypto.croytowallet.png
   meta: ok
-  date: 2026-02-02
   website: https://imxapp.io/
   developerName: Smart IoT Technology Co. Ltd
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 1
   icon: global.imxchange.iMX.jpg
   meta: obsolete
-  date: 2026-05-05
   developerName: I M SMART IMT (Thailand) COMPANY LIMITED
 
 ---

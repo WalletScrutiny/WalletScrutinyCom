@@ -3,6 +3,7 @@ wsId: etoro
 title: 'eToro: Trade. Invest. Connect.'
 verdict: custodial
 meta: ok
+date: 2021-04-02
 authors:
 - leo
 twitter: etoro
@@ -21,7 +22,6 @@ android:
   version: 651.1263.0
   reviews: 3791
   icon: com.etoro.openbook.jpg
-  date: 2021-04-02
   website: https://www.etoro.com/
 iphone:
   appId: com.etoro.openbook
@@ -31,7 +31,6 @@ iphone:
   version: v651.1273.1
   reviews: 9616
   icon: com.etoro.openbook.jpg
-  date: 2021-04-25
   website: https://www.etoro.com/en-us/
 
 ---

@@ -3,6 +3,7 @@ wsId: sixdays
 title: 'Trust: Crypto & Bitcoin Wallet'
 verdict: nosource
 meta: ok
+date: 2020-12-23
 authors:
 - leo
 - danny
@@ -25,7 +26,6 @@ android:
   version: 26.21.0
   reviews: 21132
   icon: com.wallet.crypto.trustapp.png
-  date: 2024-07-13
   website: https://trustwallet.com/
   developerName: DApps Platform, Inc.
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: 26.21.1
   reviews: 197132
   icon: com.sixdays.trust.jpg
-  date: 2020-12-23
   website: https://trustwallet.com
   developerName: DApps Platform Software Services Ltd.
 

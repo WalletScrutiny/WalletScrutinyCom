@@ -2,6 +2,7 @@
 wsId: ZamWallet
 title: ZamWallet Crypto, DeFi, Invest
 verdict: nosource
+date: 2025-02-26
 authors:
 - danny
 website: http://zam.io
@@ -21,7 +22,6 @@ android:
   reviews: 51
   icon: zam.wallet.jpg
   meta: removed
-  date: 2025-02-26
   developerName: ZamZam Technology
 iphone:
   appId: zamzam.wallet.app
@@ -32,7 +32,6 @@ iphone:
   reviews: 73
   icon: zamzam.wallet.app.jpg
   meta: stale
-  date: 2026-05-21
   developerName: Zamio Limited MMC
 
 ---

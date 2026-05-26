@@ -1,5 +1,6 @@
 ---
 title: 'BtcTurk | Kripto: BTC|USDT|XRP'
+date: 2021-08-21
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   icon: com.btcturk.pro.png
   meta: ok
   verdict: custodial
-  date: 2021-08-21
   website: https://kripto.btcturk.com
   bugbounty: https://pro.btcturk.com/en/bug-bounty
   twitter: btcturkpro
@@ -33,7 +33,6 @@ iphone:
   icon: com.btcturk.pro.jpg
   meta: removed
   verdict: wip
-  date: 2023-01-30
   website: https://pro.btcturk.com
 
 ---

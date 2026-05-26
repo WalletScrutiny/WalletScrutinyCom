@@ -3,6 +3,7 @@ wsId: criWallet
 title: CRI Wallet
 verdict: custodial
 meta: removed
+date: 2024-12-15
 authors:
 - danny
 twitter: Cri_Vivranium
@@ -21,7 +22,6 @@ android:
   version: 2.0.0
   reviews: 14
   icon: network.cri.criwallet.jpg
-  date: 2025-02-26
   website: https://cos-in.com
   developerName: COSMETA, INC.
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.0
   reviews: 14
   icon: network.cri.criwallet.jpg
-  date: 2024-12-15
   website: https://cos-in.com/
   developerName: COSMETA Inc.
 

@@ -3,6 +3,7 @@ wsId: wannabitCosmostation
 title: Cosmostation Interchain Wallet
 verdict: sourceavailable
 meta: ok
+date: 2023-01-03
 authors:
 - danny
 twitter: CosmostationVD
@@ -25,7 +26,6 @@ android:
   version: 1.10.48
   reviews: 136
   icon: wannabit.io.cosmostaion.png
-  date: 2023-01-03
   website: https://cosmostation.io
   repository: https://github.com/cosmostation/cosmostation-android
   developerName: Stamper
@@ -38,7 +38,6 @@ iphone:
   version: v1.10.46
   reviews: 223
   icon: io.wannabit.cosmostation.jpg
-  date: 2026-01-03
   repository: https://github.com/cosmostation/cosmostation-ios
   developerName: Stamper Co., Ltd.
 

@@ -3,6 +3,7 @@ wsId: capex
 title: Capex
 verdict: nosendreceive
 meta: removed
+date: 2025-03-29
 authors:
 - danny
 twitter: capex_en
@@ -21,7 +22,6 @@ android:
   version: 2.30.2
   reviews: 7
   icon: com.cfdglobal.android.png
-  date: 2026-01-28
   website: https://www.capex.com
   developerName: Key Way Investments Ltd
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: '1.51'
   reviews: 7
   icon: com.trader.brands.cfdglobal.jpg
-  date: 2025-03-29
   website: http://www.capex.com/
   developerName: Key Way Investment Ltd
 

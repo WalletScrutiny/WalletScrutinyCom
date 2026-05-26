@@ -2,6 +2,7 @@
 wsId: bingbon
 title: BingX Trade BTC, Buy Crypto
 verdict: custodial
+date: 2024-10-07
 authors:
 - kiwilamb
 - leo
@@ -23,7 +24,6 @@ android:
   reviews: 1408
   icon: pro.bingbon.app.png
   meta: removed
-  date: 2026-04-28
   website: https://bingx.com
   developerName: BINGX GROUP LIMITED
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 2963
   icon: pro.bingbon.finance.jpg
   meta: ok
-  date: 2024-10-07
   website: https://bingbon.com#deadLink
   developerName: BingX Group Limited
 

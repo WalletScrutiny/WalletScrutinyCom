@@ -2,6 +2,7 @@
 wsId: stackWallet
 title: Stack Wallet
 meta: ok
+date: 2023-09-08
 authors:
 - danny
 - keraliss
@@ -27,7 +28,6 @@ android:
   reviews: 13
   icon: com.cypherstack.stackwallet.png
   verdict: sourceavailable
-  date: 2023-09-11
   repository: https://github.com/cypherstack/stack_wallet
   developerName: Cypher Stack Team
 iphone:
@@ -39,7 +39,6 @@ iphone:
   reviews: 25
   icon: com.cypherstack.stackwallet.jpg
   verdict: wip
-  date: 2023-09-08
   website: https://stackwallet.com/
   developerName: Cypher Stack LLC
 

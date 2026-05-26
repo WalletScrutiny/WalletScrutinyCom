@@ -2,6 +2,7 @@
 wsId: BTSE
 title: 'BTSE: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2021-11-15
 authors:
 - danny
 website: https://btse.com
@@ -23,7 +24,6 @@ android:
   reviews: 76
   icon: com.btse.finance.png
   meta: ok
-  date: 2021-11-15
   developerName: BTSE Holdings Limited
 iphone:
   appId: com.btse.BTSE
@@ -34,7 +34,6 @@ iphone:
   reviews: 13
   icon: com.btse.BTSE.jpg
   meta: removed
-  date: 2024-11-25
   developerName: BTSE Holdings Ltd.
 
 ---

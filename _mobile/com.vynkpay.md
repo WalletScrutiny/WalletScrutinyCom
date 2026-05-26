@@ -3,6 +3,7 @@ wsId: vynxPay
 title: VynkPay | Crypto Payments App
 verdict: custodial
 meta: removed
+date: 2024-05-07
 authors:
 - danny
 twitter: vynkgroup
@@ -22,7 +23,6 @@ android:
   updated: 2024-02-08
   version: '4.4'
   icon: com.vynkpay.png
-  date: 2024-12-31
   website: https://vynkpay.app#deadLink
   developerName: VYNK GROUP AE
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: '1.5'
   reviews: 0
   icon: com.pixels.vynkpay.jpg
-  date: 2024-05-07
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED
 
 ---

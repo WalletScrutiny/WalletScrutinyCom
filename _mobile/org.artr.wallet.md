@@ -3,6 +3,7 @@ wsId: ArteryNetwork
 title: Artery Wallet
 verdict: nosource
 meta: removed
+date: 2021-11-16
 authors:
 - danny
 website: https://artery.network/
@@ -19,7 +20,6 @@ android:
   version: '1.8'
   reviews: 1008
   icon: org.artr.wallet.jpg
-  date: 2024-07-05
   developerName: Artery Network Corporation
 iphone:
   appId: network.artery.network
@@ -29,7 +29,6 @@ iphone:
   version: '1.7'
   reviews: 1165
   icon: network.artery.network.jpg
-  date: 2021-11-16
 
 ---
 

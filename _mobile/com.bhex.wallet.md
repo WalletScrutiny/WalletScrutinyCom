@@ -3,6 +3,7 @@ wsId: bhWallet
 title: Bluehelix Wallet
 verdict: wip
 meta: removed
+date: 2022-03-16
 authors:
 - danny
 - emanuel
@@ -21,7 +22,6 @@ android:
   version: 1.3.5
   reviews: 4
   icon: com.bhex.wallet.png
-  date: 2022-03-16
 iphone:
   appId: com.bluehelix.wallet.ios
   idd: 1535791362
@@ -30,7 +30,6 @@ iphone:
   version: 1.3.4
   reviews: 1
   icon: com.bluehelix.wallet.ios.jpg
-  date: 2022-10-21
 
 ---
 

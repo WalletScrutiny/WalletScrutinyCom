@@ -2,6 +2,7 @@
 wsId: hidollars
 title: Hi:Easy-to-Use Crypto Neobank
 verdict: custodial
+date: 2025-03-17
 authors:
 - danny
 website: https://hi.com/
@@ -23,7 +24,6 @@ android:
   reviews: 10703
   icon: com.hi.dollars.png
   meta: removed
-  date: 2025-03-17
   developerName: hi.com
 iphone:
   appId: com.hidollars.app
@@ -35,7 +35,6 @@ iphone:
   reviews: 279
   icon: com.hidollars.app.jpg
   meta: stale
-  date: 2025-11-05
   developerName: HI
 
 ---

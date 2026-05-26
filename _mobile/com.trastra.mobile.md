@@ -2,6 +2,7 @@
 wsId: trastra
 title: 'TRASTRA: Crypto Card & Wallet'
 verdict: custodial
+date: 2025-05-14
 authors:
 - danny
 twitter: Trastra_ltd
@@ -21,7 +22,6 @@ android:
   reviews: 14
   icon: com.trastra.mobile.png
   meta: removed
-  date: 2025-05-14
   website: https://trastra.com/
   developerName: TRASTRA Limited
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 2
   icon: com.trastra.mobile.jpg
   meta: stale
-  date: 2026-02-02
   website: https://mobile-app.trastra.com/
   developerName: Trastra Limited
 

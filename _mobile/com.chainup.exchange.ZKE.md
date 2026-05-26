@@ -2,6 +2,7 @@
 wsId: zkeExchange
 title: ZKE EXCHANGE
 verdict: custodial
+date: 2023-09-15
 authors:
 - danny
 twitter: ZKE_com
@@ -22,7 +23,6 @@ android:
   reviews: 37
   icon: com.chainup.exchange.ZKE.png
   meta: removed
-  date: 2023-09-15
   website: https://zke.com
   developerName: ZKE
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 270
   icon: com.fmine.zkeApp.jpg
   meta: ok
-  date: 2025-01-27
   website: https://www.zke.com/
   developerName: fmine.com
 

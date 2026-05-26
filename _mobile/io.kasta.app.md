@@ -2,6 +2,7 @@
 wsId: kastaCryptoPayments
 title: Ka.app Bitcoin & Crypto Wallet
 verdict: custodial
+date: 2026-02-02
 authors:
 - danny
 twitter: ka_app
@@ -18,7 +19,6 @@ android:
   version: 2.1.0
   icon: io.kasta.app.png
   meta: removed
-  date: 2026-03-11
   website: https://www.kasta.io/
   developerName: Kasta.io
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 2
   icon: io.kasta.app.ios.jpg
   meta: ok
-  date: 2026-02-02
   website: https://www.kasta.io
   developerName: Kasta CCHS LTD EOOD
 

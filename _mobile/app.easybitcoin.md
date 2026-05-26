@@ -3,6 +3,7 @@ wsId: easyBitcoin
 title: easyBitcoin
 verdict: custodial
 meta: ok
+date: 2025-11-10
 authors:
 - danny
 twitter: easyBitcoinapp
@@ -22,7 +23,6 @@ android:
   version: 1.2.2
   reviews: 26
   icon: app.easybitcoin.png
-  date: 2025-11-10
   website: https://easybitcoin.app/
 iphone:
   appId: app.easybitcoin
@@ -33,7 +33,6 @@ iphone:
   version: 1.2.2
   reviews: 12
   icon: app.easybitcoin.jpg
-  date: 2025-11-11
 
 ---
 

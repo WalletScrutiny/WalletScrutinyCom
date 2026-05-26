@@ -3,6 +3,7 @@ wsId: muun
 title: 'Muun: Bitcoin Lightning Wallet'
 verdict: sourceavailable
 meta: ok
+date: 2021-07-30
 authors:
 - leo
 - mohammad
@@ -30,7 +31,6 @@ android:
   builds:
   - arch: arm64-v8a
   - arch: armeabi-v7a
-  date: 2025-02-24
   website: https://muun.com
   repository: https://github.com/muun/apollo
   twitter: MuunWallet
@@ -43,7 +43,6 @@ iphone:
   version: 2.14.0
   reviews: 327
   icon: com.muun.falcon.jpg
-  date: 2021-07-30
   website: https://www.muun.com
   repository: https://github.com/muun/falcon
   twitter: muunwallet

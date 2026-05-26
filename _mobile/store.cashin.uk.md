@@ -2,6 +2,7 @@
 wsId: BitcoinPoint
 title: BitcoinPoint
 verdict: custodial
+date: 2021-11-17
 authors:
 - danny
 features:
@@ -20,7 +21,6 @@ android:
   reviews: 28
   icon: store.cashin.uk.png
   meta: removed
-  date: 2022-05-31
   website: https://www.bitcoinpoint.com/
 iphone:
   appId: com.cashin.store
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.cashin.store.jpg
   meta: ok
-  date: 2021-11-17
   website: https://www.bcpmarkets.co.uk/
   developerName: BCP Technologies Ltd
 

@@ -3,6 +3,7 @@ wsId: Bitwells
 title: Bitwells - Easy Bitcoin/Crypto Futures Trading
 verdict: custodial
 meta: removed
+date: 2022-10-21
 authors:
 - danny
 twitter: bitwells
@@ -20,7 +21,6 @@ android:
   version: 1.0.7
   reviews: 1261
   icon: com.bitwells.android.png
-  date: 2023-01-02
   website: https://www.bitwells.com
 iphone:
   appId: com.bitwells.ios
@@ -30,7 +30,6 @@ iphone:
   version: 1.0.6
   reviews: 9
   icon: com.bitwells.ios.jpg
-  date: 2022-10-21
   website: https://www.bitwells.com/
 
 ---

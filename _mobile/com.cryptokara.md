@@ -3,6 +3,7 @@ wsId: cryptoKara
 title: CryptoKara
 verdict: nosource
 meta: removed
+date: 2025-05-30
 authors:
 - danny
 redirect_from:
@@ -16,7 +17,6 @@ android:
   version: 1.7.5
   reviews: 144
   icon: com.cryptokara.jpg
-  date: 2025-05-30
   website: https://www.cryptokara.com/
   developerName: 'Eagle Network : Digital Currency For Phone'
 iphone:
@@ -28,7 +28,6 @@ iphone:
   version: 7.4.3
   reviews: 45
   icon: com.cryptokara.app.jpg
-  date: 2025-09-09
   website: https://crypto-kara-site.vercel.app/
   developerName: AUTOMATED CHAIN LIMITED
 

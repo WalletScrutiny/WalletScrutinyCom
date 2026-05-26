@@ -3,6 +3,7 @@ wsId: roqqu
 title: 'Roqqu: Buy & Sell Crypto'
 verdict: custodial
 meta: ok
+date: 2021-04-16
 authors:
 - kiwilamb
 - leo
@@ -22,7 +23,6 @@ android:
   version: 2.5.90
   reviews: 907
   icon: com.roqqu.app.png
-  date: 2021-04-16
   developerName: Roqqu
 iphone:
   appId: com.roqqu.ios
@@ -33,7 +33,6 @@ iphone:
   version: 2.5.90
   reviews: 7
   icon: com.roqqu.ios.jpg
-  date: 2024-10-07
   developerName: RedRaven Limited
 
 ---

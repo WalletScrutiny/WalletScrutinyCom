@@ -2,6 +2,7 @@
 wsId: trendofx
 title: 'Trendo: Forex Trading & Broker'
 verdict: custodial
+date: 2023-04-04
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   reviews: 674
   icon: com.trendo.android.png
   meta: removed
-  date: 2025-03-29
   website: https://fxtrendo.com
   developerName: Trendo Forex
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 86
   icon: ios.m3.Trendo.jpg
   meta: ok
-  date: 2023-04-04
   website: https://fxtrendo.com/
   developerName: Trendo LLC
 

@@ -2,6 +2,7 @@
 wsId: oduwaTrustWallet
 title: Oduwa Trust Wallet
 verdict: nosource
+date: 2024-08-26
 authors:
 - danny
 twitter: Oduwacoin
@@ -21,7 +22,6 @@ android:
   version: 1.1.5
   icon: com.oduwamultiwallet.png
   meta: removed
-  date: 2024-11-04
   website: https://www.oduwacoin.io/
   repository: https://github.com/ODUWAX/Android
   developerName: ODUWA BLOCKCHAIN SOLUTION
@@ -35,7 +35,6 @@ iphone:
   reviews: 0
   icon: com.oduwatrustwallet.ios.jpg
   meta: obsolete
-  date: 2024-08-26
   developerName: ODUWA BLOCKCHAIN SOLUTIONS LLC
 
 ---

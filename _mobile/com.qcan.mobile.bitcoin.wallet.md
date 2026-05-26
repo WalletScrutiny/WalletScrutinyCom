@@ -2,6 +2,7 @@
 wsId: Qcan
 title: Mobile Bitcoin Wallet
 verdict: nosource
+date: 2025-04-09
 authors:
 - leo
 - danny
@@ -19,7 +20,6 @@ android:
   reviews: 12
   icon: com.qcan.mobile.bitcoin.wallet.png
   meta: ok
-  date: 2025-04-09
   developerName: Qcan.com
 iphone:
   appId: com.qcan.qcan
@@ -30,7 +30,6 @@ iphone:
   reviews: 17
   icon: com.qcan.qcan.jpg
   meta: removed
-  date: 2025-06-03
   developerName: Qcan International Limited
 
 ---

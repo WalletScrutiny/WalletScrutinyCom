@@ -3,6 +3,7 @@ wsId: ancryptoWallet
 title: Gems Pocket
 verdict: nosource
 meta: ok
+date: 2023-07-01
 authors:
 - danny
 twitter: AnCryptoWallet
@@ -24,7 +25,6 @@ android:
   version: 1.53.0
   reviews: 30
   icon: com.ancryptoWallet.png
-  date: 2024-07-24
   website: https://gemspocket.com/
   developerName: AWT Ltd
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: '50'
   reviews: 20
   icon: com.antiersolutions.Ancrypto.jpg
-  date: 2023-07-01
   website: https://gemspocket.com
   developerName: Ancrypto
 

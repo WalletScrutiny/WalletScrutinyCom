@@ -2,6 +2,7 @@
 wsId: TradeAries
 title: 'Aries: Trade. Invest.'
 verdict: nosendreceive
+date: 2024-11-21
 authors:
 - danny
 twitter: TradeAries
@@ -21,7 +22,6 @@ android:
   version: 3.8.3
   icon: com.trading.aries.png
   meta: ok
-  date: 2026-04-13
   website: https://tradearies.com
 iphone:
   appId: com.tradearies.ariestrading
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: com.tradearies.ariestrading.jpg
   meta: removed
-  date: 2024-11-21
   website: https://tradearies.com/
 
 ---

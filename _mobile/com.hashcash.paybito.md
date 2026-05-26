@@ -2,6 +2,7 @@
 wsId: PayBito
 title: PayBito - Trade Bitcoin and Crypto
 verdict: custodial
+date: 2021-10-26
 authors:
 - danny
 website: https://www.hashcashconsultants.com
@@ -20,7 +21,6 @@ android:
   reviews: 213
   icon: com.hashcash.paybito.png
   meta: removed
-  date: 2022-02-16
 iphone:
   appId: com.hashcashconsultants.payBitoTrade
   idd: 1492071529
@@ -31,7 +31,6 @@ iphone:
   reviews: 65
   icon: com.hashcashconsultants.payBitoTrade.jpg
   meta: ok
-  date: 2021-10-26
   developerName: HashCash Consultants LLC
 
 ---

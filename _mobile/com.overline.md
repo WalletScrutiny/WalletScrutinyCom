@@ -3,6 +3,7 @@ wsId: overlineNetwork
 title: Overline
 verdict: nosource
 meta: removed
+date: 2023-08-16
 authors:
 - danny
 website: https://overline.network
@@ -23,7 +24,6 @@ android:
   version: '1.1'
   reviews: 4
   icon: com.overline.png
-  date: 2024-05-07
 iphone:
   appId: com.americancenturiongroup.borderless
   idd: '1520123027'
@@ -33,7 +33,6 @@ iphone:
   version: '1.17'
   reviews: 10
   icon: com.americancenturiongroup.borderless.jpg
-  date: 2023-08-16
 
 ---
 

@@ -3,6 +3,7 @@ wsId: tidexExchange
 title: Tidex
 verdict: custodial
 meta: removed
+date: 2024-09-10
 authors:
 - danny
 twitter: Tidex_Exchange
@@ -24,7 +25,6 @@ android:
   version: 1.0.6
   reviews: 7
   icon: com.tidex.app.exchange.png
-  date: 2025-06-06
   website: https://tidex.com
 iphone:
   appId: com.tidex.exchange.app
@@ -35,7 +35,6 @@ iphone:
   version: 1.0.5
   reviews: 15
   icon: com.tidex.exchange.app.jpg
-  date: 2024-09-10
   website: https://tidex.com/
 
 ---

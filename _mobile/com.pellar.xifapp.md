@@ -3,6 +3,7 @@ wsId: xInfinity
 title: X Infinity
 verdict: custodial
 meta: removed
+date: 2023-08-16
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   version: 5.3.7
   reviews: 4
   icon: com.pellar.xifapp.png
-  date: 2024-07-05
   website: http://www.xinfinity.io
   developerName: X INFINITY
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 5.2.2b270
   reviews: 1
   icon: app.xif.com.jpg
-  date: 2023-08-16
   website: http://www.xinfinity.io/
   developerName: X-Inifinity
 

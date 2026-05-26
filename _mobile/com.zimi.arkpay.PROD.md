@@ -2,6 +2,7 @@
 wsId: arkpayBTCETHWallet
 title: ArkPay - BTC ETH Wallet
 verdict: custodial
+date: 2025-05-30
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   version: 2.15.0
   icon: com.zimi.arkpay.PROD.png
   meta: removed
-  date: 2025-05-30
   website: https://www.arkpay.site/
   developerName: ZIMI
 iphone:
@@ -28,7 +28,6 @@ iphone:
   reviews: 9
   icon: com.zimi.arkpay.jpg
   meta: stale
-  date: 2026-02-02
   developerName: Zimi
 
 ---

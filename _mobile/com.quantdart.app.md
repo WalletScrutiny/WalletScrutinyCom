@@ -3,6 +3,7 @@ wsId: QuantDART
 title: 'QuantDART: Digital Asset Investment & Management'
 verdict: custodial
 meta: removed
+date: 2023-01-02
 authors:
 - danny
 website: https://www.quantdart.com/
@@ -20,7 +21,6 @@ android:
   updated: 2022-01-27
   version: 1.1.25
   icon: com.quantdart.app.png
-  date: 2023-01-02
 iphone:
   appId: com.quantdart.ios
   idd: 1522245431
@@ -29,7 +29,6 @@ iphone:
   version: 1.1.25
   reviews: 0
   icon: com.quantdart.ios.jpg
-  date: 2023-01-11
 
 ---
 

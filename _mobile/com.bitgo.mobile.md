@@ -2,6 +2,7 @@
 wsId: bitGo
 title: BitGo
 verdict: custodial
+date: 2025-04-14
 authors:
 - danny
 website: https://bitgo.com
@@ -21,7 +22,6 @@ android:
   reviews: 6
   icon: com.bitgo.mobile.jpg
   meta: removed
-  date: 2025-04-14
   developerName: BitGo, Inc
 iphone:
   appId: com.bitgo.mobile
@@ -33,7 +33,6 @@ iphone:
   reviews: 15
   icon: com.bitgo.mobile.jpg
   meta: ok
-  date: 2026-02-02
   developerName: BitGo
 
 ---

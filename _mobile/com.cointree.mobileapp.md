@@ -2,6 +2,7 @@
 wsId: cointreeMobile
 title: Cointree - Buy Bitcoin Easily
 verdict: custodial
+date: 2025-03-14
 authors:
 - danny
 twitter: CointreeAus
@@ -22,7 +23,6 @@ android:
   version: 1.2.6
   icon: com.cointree.mobileapp.png
   meta: removed
-  date: 2025-03-14
   website: https://www.cointree.com/
   bugbounty: https://www.cointree.com/company/bug-bounty
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 24
   icon: com.cointree.mobileapp.jpg
   meta: obsolete
-  date: 2026-03-23
   website: https://www.cointree.com
 
 ---

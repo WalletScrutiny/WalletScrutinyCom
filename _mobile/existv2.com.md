@@ -2,6 +2,7 @@
 wsId: nyeCoin
 title: NYE Coin
 verdict: nosource
+date: 2022-06-23
 authors:
 - danny
 website: https://nyecoin.io#deadLink
@@ -21,7 +22,6 @@ android:
   reviews: 4
   icon: existv2.com.png
   meta: removed
-  date: 2022-06-23
   developerName: New York Exchange Coin
 iphone:
   appId: com.orbitnetwork.nyecoinpublish
@@ -33,7 +33,6 @@ iphone:
   reviews: 15
   icon: com.orbitnetwork.nyecoinpublish.jpg
   meta: defunct
-  date: 2023-06-12
   developerName: Orbit Network Inc
 
 ---

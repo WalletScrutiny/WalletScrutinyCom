@@ -3,6 +3,7 @@ wsId: RioWallet
 title: 'RioWallet: Web3 Crypto Wallet'
 verdict: nosource
 meta: removed
+date: 2023-04-16
 authors:
 - danny
 website: https://riodefi.com/
@@ -24,7 +25,6 @@ android:
   version: 2.9.8
   reviews: 3
   icon: com.riodefi.store.png
-  date: 2024-02-05
 iphone:
   appId: com.riodefi
   idd: 1560789648
@@ -33,7 +33,6 @@ iphone:
   version: 2.9.7
   reviews: 5
   icon: com.riodefi.jpg
-  date: 2023-04-16
 
 ---
 

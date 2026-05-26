@@ -3,6 +3,7 @@ wsId: igTradingPlatform
 title: IG Trading Platform
 verdict: nosendreceive
 meta: ok
+date: 2022-06-23
 authors:
 - danny
 twitter: IGInternationa1
@@ -23,7 +24,6 @@ android:
   version: 26.5.6
   reviews: 14
   icon: com.iggroup.android.cfd.png
-  date: 2022-12-06
   website: https://www.ig.com
 iphone:
   appId: com.igmarkets.ideal
@@ -34,7 +34,6 @@ iphone:
   version: 10.3241.0
   reviews: 2968
   icon: com.igmarkets.ideal.jpg
-  date: 2022-06-23
   website: https://www.ig.com/uk/trading-platforms/trading-apps
 
 ---

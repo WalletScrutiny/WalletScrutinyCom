@@ -2,6 +2,7 @@
 wsId: UpbitGlobal
 title: Upbit (Global)
 verdict: custodial
+date: 2021-10-10
 authors:
 - danny
 social:
@@ -21,7 +22,6 @@ android:
   reviews: 34
   icon: com.dunamu.exchange.global.png
   meta: ok
-  date: 2021-10-10
   website: https://www.dunamu.com
   developerName: Dunamu
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 24
   icon: com.dunamu.upbit.global.jpg
   meta: removed
-  date: 2026-02-02
   website: https://www.dunamu.com/
 
 ---

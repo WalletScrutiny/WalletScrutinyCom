@@ -2,6 +2,7 @@
 wsId: crypterium
 title: Сhoise.com
 verdict: custodial
+date: 2026-01-28
 authors:
 - leo
 twitter: crypterium
@@ -20,7 +21,6 @@ android:
   reviews: 439
   icon: com.crypterium.png
   meta: removed
-  date: 2026-02-02
   website: https://choise.com
   developerName: UAB Choise Servises
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 933
   icon: com.Crypterium.Crypterium.jpg
   meta: stale
-  date: 2026-01-28
   website: https://choise.com/
   developerName: Crypterium AS
 

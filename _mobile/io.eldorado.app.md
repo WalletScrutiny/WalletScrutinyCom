@@ -2,6 +2,7 @@
 wsId: elDoradoWalletExchange
 title: 'El Dorado: Cuenta en Dólares'
 verdict: custodial
+date: 2023-07-18
 authors:
 - danny
 twitter: eldoradoio
@@ -22,7 +23,6 @@ android:
   reviews: 487
   icon: io.eldorado.app.png
   meta: ok
-  date: 2023-07-18
   website: https://eldorado.io
 iphone:
   appId: io.eldorado.app.v1
@@ -34,7 +34,6 @@ iphone:
   reviews: 6036
   icon: io.eldorado.app.v1.jpg
   meta: removed
-  date: 2025-06-23
   website: https://eldorado.io/
 
 ---

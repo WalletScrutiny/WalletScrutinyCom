@@ -2,6 +2,7 @@
 wsId: OceanEX
 title: OceanEx
 verdict: custodial
+date: 2024-10-08
 authors:
 - danny
 twitter: OceanexOfficial
@@ -22,7 +23,6 @@ android:
   reviews: 15
   icon: com.ocean.exchange.png
   meta: removed
-  date: 2025-05-30
   website: https://oceanex.pro
 iphone:
   appId: pro.oceanex.exapp
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: pro.oceanex.exapp.jpg
   meta: obsolete
-  date: 2024-10-08
   website: https://oceanex.pro/
 
 ---

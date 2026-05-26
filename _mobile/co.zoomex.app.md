@@ -2,6 +2,7 @@
 wsId: zoomexCrypto
 title: Zoomex-BTC, ETH Crypto Trading
 verdict: custodial
+date: 2023-07-01
 authors:
 - danny
 twitter: zoomexofficial
@@ -20,7 +21,6 @@ android:
   reviews: 49
   icon: co.zoomex.app.png
   meta: ok
-  date: 2023-07-01
   developerName: Zoomex
 iphone:
   appId: co.zoomex.app
@@ -32,7 +32,6 @@ iphone:
   reviews: 24
   icon: co.zoomex.app.jpg
   meta: removed
-  date: 2024-08-13
   developerName: Octochain Fintech Limited
 
 ---

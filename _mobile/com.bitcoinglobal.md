@@ -2,6 +2,7 @@
 wsId: bitcoinglobal
 title: 'Bitcoin Global: P2P platform'
 verdict: custodial
+date: 2025-04-14
 authors:
 - danny
 website: https://bitcoin.global/
@@ -22,7 +23,6 @@ android:
   reviews: 5
   icon: com.bitcoinglobal.png
   meta: removed
-  date: 2026-03-11
   developerName: Bitcoin Global Ex
 iphone:
   appId: com.global.bitcoin
@@ -33,7 +33,6 @@ iphone:
   reviews: 60
   icon: com.global.bitcoin.jpg
   meta: obsolete
-  date: 2025-04-14
   developerName: Bitcoin Global
 
 ---

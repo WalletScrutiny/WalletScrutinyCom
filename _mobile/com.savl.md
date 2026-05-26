@@ -3,6 +3,7 @@ wsId: Savl
 title: 'UnityWallet: Crypto & Bitcoin'
 verdict: nosource
 meta: ok
+date: 2021-09-11
 authors:
 - danny
 social:
@@ -25,7 +26,6 @@ android:
   version: 9.2.0
   reviews: 207
   icon: com.savl.png
-  date: 2024-07-15
   website: https://unitywallet.com
 iphone:
   appId: com.savl.savlapp
@@ -35,7 +35,6 @@ iphone:
   version: '9.2'
   reviews: 278
   icon: com.savl.savlapp.jpg
-  date: 2021-09-11
   website: https://www.unitywallet.com
 
 ---

@@ -3,6 +3,7 @@ wsId: Nominex
 title: 'Nominex: Cryptocurrency tradin'
 verdict: custodial
 meta: removed
+date: 2023-09-04
 authors:
 - danny
 twitter: NominexExchange
@@ -21,7 +22,6 @@ android:
   version: 1.4.0
   reviews: 38
   icon: com.nominex.app.png
-  date: 2024-04-19
   website: https://nominex.io/defi-nmx
   developerName: Nominex Ltd.
 iphone:
@@ -32,7 +32,6 @@ iphone:
   version: 1.4.1
   reviews: 32
   icon: com.nominex.app.jpg
-  date: 2023-09-04
   website: https://nominex.io
   developerName: Nominex Limited
 

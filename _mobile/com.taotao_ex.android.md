@@ -2,6 +2,7 @@
 wsId: sbivctrade
 title: 旧バージョン：SBI VCTRADE mobile 暗号資産
 verdict: custodial
+date: 2023-02-26
 authors:
 - danny
 website: https://www.sbivc.co.jp/
@@ -19,7 +20,6 @@ android:
   version: 4.0.0
   icon: com.taotao_ex.android.jpg
   meta: removed
-  date: 2026-03-11
   developerName: SBI VC Trade Co., Ltd.
 iphone:
   appId: com.taotao-ex.TaotaoTrade
@@ -31,7 +31,6 @@ iphone:
   reviews: 602
   icon: com.taotao-ex.TaotaoTrade.jpg
   meta: ok
-  date: 2023-02-26
   developerName: SBI VC TRADE CO., LTD.
 
 ---

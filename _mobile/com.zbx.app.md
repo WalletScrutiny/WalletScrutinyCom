@@ -2,6 +2,7 @@
 wsId: ZBX
 title: ZBX - Bitcoin & Cryptocurrency
 verdict: custodial
+date: 2021-11-15
 authors:
 - danny
 twitter: zbx_com
@@ -20,7 +21,6 @@ android:
   version: 2.5.28
   icon: com.zbx.app.png
   meta: ok
-  date: 2021-11-15
   website: https://www.zbx.com/
   developerName: ZBX
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 4
   icon: com.zbx.www.jpg
   meta: removed
-  date: 2025-10-02
   website: https://web.archive.org/web/20211209012719/https://www.zbx.one/
   developerName: Zillion Bits AG
 

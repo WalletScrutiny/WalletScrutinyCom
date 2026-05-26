@@ -3,6 +3,7 @@ wsId: nexo
 title: 'Nexo: Crypto Wealth Platform'
 verdict: custodial
 meta: ok
+date: 2020-11-17
 authors:
 - leo
 website: https://nexo.com
@@ -22,7 +23,6 @@ android:
   version: 7.1.1
   reviews: 1873
   icon: com.nexowallet.png
-  date: 2020-11-17
   developerName: Nexo Capital Incorporated
 iphone:
   appId: com.nexobank.wallet
@@ -32,7 +32,6 @@ iphone:
   version: 7.1.1
   reviews: 1720
   icon: com.nexobank.wallet.jpg
-  date: 2021-05-22
   developerName: Nexo Capital Inc.
 
 ---

@@ -2,6 +2,7 @@
 wsId: TokoinTWallet
 title: My-T Wallet
 verdict: nosource
+date: 2025-01-15
 authors:
 - danny
 twitter: tokoinindonesia
@@ -21,7 +22,6 @@ android:
   reviews: 6
   icon: com.tokoin.wallet.png
   meta: obsolete
-  date: 2025-08-04
   website: https://tokoin.io
   developerName: Tokoin
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 5
   icon: com.tokoin.wallet.jpg
   meta: removed
-  date: 2025-01-15
   website: https://www.tokoin.io/
   developerName: TOKOIN
 

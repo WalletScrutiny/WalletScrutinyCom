@@ -3,6 +3,7 @@ wsId: zedPayExchange
 title: Zed-Pay
 verdict: custodial
 meta: ok
+date: 2023-08-16
 authors:
 - danny
 twitter: ZedPayCo
@@ -24,7 +25,6 @@ android:
   updated: 2026-05-14
   version: 2.0.0
   icon: com.zedpay.app.android.png
-  date: 2026-02-02
   website: https://zed-pay.com
   developerName: ZedPay Company
 iphone:
@@ -36,7 +36,6 @@ iphone:
   version: '1.7'
   reviews: 4
   icon: com.zed-pay.app.ios.jpg
-  date: 2023-08-16
   developerName: ZEDPAY
 
 ---

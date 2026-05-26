@@ -2,6 +2,7 @@
 wsId: changeXCrypto
 title: 'ChangeX: Buy & Earn Crypto'
 verdict: nosource
+date: 2025-02-04
 authors:
 - danny
 twitter: ChangeXapp
@@ -24,7 +25,6 @@ android:
   reviews: 7
   icon: io.changex.app.png
   meta: removed
-  date: 2025-02-04
   website: https://changex.io/
   developerName: ChangeX
 iphone:
@@ -37,7 +37,6 @@ iphone:
   reviews: 11
   icon: io.changex.app.jpg
   meta: obsolete
-  date: 2026-02-02
   website: https://changex.io
   developerName: Olympus Capital AD
 

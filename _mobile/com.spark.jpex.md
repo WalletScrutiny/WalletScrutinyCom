@@ -3,6 +3,7 @@ wsId: JPEX
 title: JPEX Exchange
 verdict: custodial
 meta: removed
+date: 2024-04-03
 authors:
 - danny
 social:
@@ -19,7 +20,6 @@ android:
   updated: 2023-08-02
   version: 2.83.848
   icon: com.spark.jpex.jpg
-  date: 2025-03-14
   website: http://jp-ex.io
   twitter: ExchangeJpex
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 2.83.848
   reviews: 4
   icon: io.jp-ex.iosapp2.jpg
-  date: 2024-04-03
   website: https://jp-ex.io/
 
 ---

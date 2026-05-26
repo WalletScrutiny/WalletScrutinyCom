@@ -3,6 +3,7 @@ wsId: kryptogo
 title: KryptoGO - Web3 Social Payment
 verdict: nosource
 meta: ok
+date: 2023-04-28
 authors:
 - danny
 social:
@@ -23,7 +24,6 @@ android:
   version: 3.93.0
   reviews: 3
   icon: com.kryptogo.walletapp.png
-  date: 2024-07-20
   website: https://kryptogo.com
   twitter: kryptogo_
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 3.93.0
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
-  date: 2023-04-28
   website: https://kryptogo.com/wallet
 
 ---

@@ -3,6 +3,7 @@ wsId: byteWallet
 title: ByteVault
 verdict: nosource
 meta: ok
+date: 2023-05-05
 authors:
 - danny
 twitter: bytefederal
@@ -26,7 +27,6 @@ android:
   version: VARY
   reviews: 54
   icon: io.bytewallet.bytewallet.png
-  date: 2024-07-22
   website: https://www.bytefederal.com
   developerName: Byte Federal, Inc
 iphone:
@@ -38,7 +38,6 @@ iphone:
   version: 1.7.0.2
   reviews: 48
   icon: com.bytefederal.bytewallet.jpg
-  date: 2023-05-05
   website: http://bytefederal.com/vault
   developerName: Byte Federal, Inc.
 

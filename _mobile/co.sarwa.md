@@ -2,6 +2,7 @@
 wsId: sarwaApp
 title: 'Sarwa: Invest, Trade & Save'
 verdict: nosendreceive
+date: 2023-07-28
 authors:
 - danny
 twitter: SarwaCo
@@ -21,7 +22,6 @@ android:
   reviews: 20
   icon: co.sarwa.png
   meta: removed
-  date: 2026-05-05
   website: https://www.sarwa.co
   developerName: Sarwa Digital Wealth
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 110
   icon: co.sarwa.ios.jpg
   meta: ok
-  date: 2023-07-28
   website: https://www.sarwa.co/blog
   developerName: Sarwa Digital Wealth Limited
 

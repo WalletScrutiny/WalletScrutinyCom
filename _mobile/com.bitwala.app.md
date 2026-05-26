@@ -3,6 +3,7 @@ wsId: Nuri
 title: Bitwala - Buy Bitcoin & Ether
 verdict: nosource
 meta: ok
+date: 2024-07-17
 authors:
 - danny
 website: https://www.bitwala.com
@@ -20,7 +21,6 @@ android:
   version: 4.2.2
   reviews: 3555
   icon: com.bitwala.app.png
-  date: 2024-07-17
 iphone:
   appId: com.bitwala.app
   idd: 1454003161
@@ -30,7 +30,6 @@ iphone:
   version: 4.2.2
   reviews: 4106
   icon: com.bitwala.app.jpg
-  date: 2024-10-07
 
 ---
 

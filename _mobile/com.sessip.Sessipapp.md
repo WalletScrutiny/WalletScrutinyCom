@@ -2,6 +2,7 @@
 wsId: sessip
 title: Sessip
 verdict: custodial
+date: 2024-11-30
 authors:
 - danny
 twitter: sessipapp
@@ -17,7 +18,6 @@ android:
   reviews: 9
   icon: com.sessip.Sessipapp.png
   meta: obsolete
-  date: 2024-11-30
   website: https://sessip.com
   developerName: Sessip
 iphone:
@@ -30,7 +30,6 @@ iphone:
   reviews: 2
   icon: com.sessipapp.Sessip.jpg
   meta: removed
-  date: 2025-12-15
   website: https://sessip.com/
   developerName: SOCIETE IVOIRIENNE D'INVESTISSEMENT PARTICIPATIF
 

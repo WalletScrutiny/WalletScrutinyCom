@@ -3,6 +3,7 @@ wsId: tomyaApp
 title: Tomya  Güvenli Kripto Yatırımı
 verdict: custodial
 meta: removed
+date: 2025-02-04
 authors:
 - danny
 redirect_from:
@@ -15,7 +16,6 @@ android:
   updated: 2023-08-23
   version: 1.1.2
   icon: com.tomyaapp.android.png
-  date: 2025-03-17
   website: https://www.tomya.com/
   developerName: Tomya Teknoloji A.Ş.
 iphone:
@@ -27,7 +27,6 @@ iphone:
   version: 1.2.5
   reviews: 21
   icon: com.tomyaapp.ios.jpg
-  date: 2025-02-04
   website: https://www.tomya.com
   developerName: TOMYA TEKNOLOJİ A.Ş.
 

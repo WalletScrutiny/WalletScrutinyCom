@@ -3,6 +3,7 @@ wsId: hebeWallet
 title: Hebe Wallet
 verdict: nosource
 meta: removed
+date: 2023-08-25
 authors:
 - leo
 - danny
@@ -21,7 +22,6 @@ android:
   version: 1.5.10
   reviews: 3
   icon: com.hebeblock.hebewallet.png
-  date: 2024-10-28
   developerName: HebeBlock
 iphone:
   appId: com.hebeblock.hebewallet
@@ -31,7 +31,6 @@ iphone:
   version: 1.5.0
   reviews: 12
   icon: com.hebeblock.hebewallet.jpg
-  date: 2023-08-25
   developerName: Hebeblock Co., Ltd.
 
 ---

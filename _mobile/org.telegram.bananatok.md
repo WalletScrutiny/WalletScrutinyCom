@@ -2,6 +2,7 @@
 wsId: bananatok
 title: Bananatok - Web 3 Messenger
 verdict: custodial
+date: 2022-06-27
 authors:
 - danny
 twitter: kr_bna
@@ -22,7 +23,6 @@ android:
   reviews: 1354
   icon: org.telegram.bananatok.png
   meta: ok
-  date: 2022-06-27
   website: http://www.bananatok.com
   developerName: Bananatok
 iphone:
@@ -35,7 +35,6 @@ iphone:
   reviews: 265
   icon: com.xiangjiao.tg.jpg
   meta: defunct
-  date: 2023-03-21
   website: https://bananatok.io
   developerName: Zoo Holdings Limited
 

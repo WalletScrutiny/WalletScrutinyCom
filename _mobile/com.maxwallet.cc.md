@@ -3,6 +3,7 @@ wsId: maxwallet
 title: MaxWallet
 verdict: nosource
 meta: ok
+date: 2026-01-14
 authors:
 - danny
 twitter: MaxWalletEN
@@ -17,7 +18,6 @@ android:
   updated: 2026-03-26
   version: 1.2.0
   icon: com.maxwallet.cc.png
-  date: 2026-01-14
   website: https://maxwallet.cc/contact-us
   developerName: MaxWallet
 iphone:
@@ -29,7 +29,6 @@ iphone:
   version: 1.2.0
   reviews: 92
   icon: com.maxwallet.cc.jpg
-  date: 2026-04-24
   developerName: MS PROFIT LTD
 
 ---

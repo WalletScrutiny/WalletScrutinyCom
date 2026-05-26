@@ -3,6 +3,7 @@ wsId: bithumbko
 title: Bithumb
 verdict: custodial
 meta: ok
+date: 2021-02-19
 authors:
 - leo
 twitter: BithumbOfficial
@@ -19,7 +20,6 @@ android:
   version: 3.8.2
   reviews: 73
   icon: com.btckorea.bithumb.png
-  date: 2021-02-19
   website: http://www.bithumb.com/
   developerName: Bithumb
 iphone:
@@ -31,7 +31,6 @@ iphone:
   version: 3.1.7
   reviews: 4950
   icon: com.btckorea.bithumb.jpg
-  date: 2024-10-07
   website: https://www.bithumb.com
   developerName: Bithumb Co., Ltd.
 

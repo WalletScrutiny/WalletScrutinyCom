@@ -3,6 +3,7 @@ wsId: npbfxCFD
 title: NPBFX
 verdict: nosendreceive
 meta: ok
+date: 2024-10-28
 authors:
 - danny
 website: https://www.npbfx.com/
@@ -17,7 +18,6 @@ android:
   updated: 2025-08-27
   version: 1.15.0
   icon: com.npbfx.app.jpg
-  date: 2025-02-05
 iphone:
   appId: com.npbfx.app
   idd: '1541838401'
@@ -27,7 +27,6 @@ iphone:
   version: 1.15.1
   reviews: 0
   icon: com.npbfx.app.jpg
-  date: 2024-10-28
 
 ---
 

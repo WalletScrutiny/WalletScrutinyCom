@@ -3,6 +3,7 @@ wsId: FreeWalletIO
 title: FreeWallet
 verdict: sourceavailable
 meta: obsolete
+date: 2021-10-01
 authors:
 - leo
 - danny
@@ -28,7 +29,6 @@ android:
   version: 0.1.9
   reviews: 30
   icon: io.freewallet.mobile.jpg
-  date: 2021-10-01
 iphone:
   appId: io.freewallet.mobile
   idd: 1151168579
@@ -37,7 +37,6 @@ iphone:
   version: 1.0.9
   reviews: 38
   icon: io.freewallet.mobile.jpg
-  date: 2021-10-22
 
 ---
 

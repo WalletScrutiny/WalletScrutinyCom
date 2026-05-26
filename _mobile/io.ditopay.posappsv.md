@@ -3,6 +3,7 @@ wsId: ditobanxPOS
 title: DitoBanx POS Bitcoin
 verdict: custodial
 meta: obsolete
+date: 2025-12-27
 authors:
 - danny
 website: https://ditobanx.com
@@ -21,7 +22,6 @@ android:
   updated: 2024-03-07
   version: '1.31'
   icon: io.ditopay.posappsv.png
-  date: 2026-03-03
   developerName: DitoBanx
 iphone:
   appId: ditopos.ditobanx.io
@@ -32,7 +32,6 @@ iphone:
   version: 1.1.1
   reviews: 2
   icon: ditopos.ditobanx.io.jpg
-  date: 2025-12-27
   developerName: DitoBanx El Salvador
 
 ---

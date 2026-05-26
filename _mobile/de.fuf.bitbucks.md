@@ -3,6 +3,7 @@ wsId: BitcoinWalletBitBucks
 title: Bitcoin Wallet BitBucks
 verdict: custodial
 meta: ok
+date: 2025-09-03
 authors:
 - leo
 twitter: bit_bucks
@@ -22,7 +23,6 @@ android:
   version: 1.5.14
   reviews: 2
   icon: de.fuf.bitbucks.png
-  date: 2025-09-03
   website: https://www.bitbucks.io/
 iphone:
   appId: de.fuf.bitbucks-io
@@ -32,7 +32,6 @@ iphone:
   version: 1.5.16
   reviews: 1
   icon: de.fuf.bitbucks-io.jpg
-  date: 2025-09-29
   website: https://www.bitbucks.io
 
 ---

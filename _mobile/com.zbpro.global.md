@@ -3,6 +3,7 @@ wsId: zbProExchange
 title: 'ZB Pro: Buy BTC, ETH, Doge'
 verdict: custodial
 meta: removed
+date: 2023-09-28
 authors:
 - danny
 twitter: ZBexchange
@@ -23,7 +24,6 @@ android:
   updated: 2022-10-30
   version: 1.4.0.1582
   icon: com.zbpro.global.png
-  date: 2023-09-28
   developerName: ZB GLOBAL COMPANY
 iphone:
   appId: com.zb.international
@@ -34,7 +34,6 @@ iphone:
   version: 1.4.0
   reviews: 22
   icon: com.zb.international.jpg
-  date: 2024-02-05
   developerName: ZB NETWORK PTE. LTD.
 
 ---

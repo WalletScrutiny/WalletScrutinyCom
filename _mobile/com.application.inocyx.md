@@ -3,6 +3,7 @@ wsId: inocyx
 title: 'Inocyx: Buy & Trade Crypto'
 verdict: custodial
 meta: ok
+date: 2023-11-01
 authors:
 - danny
 twitter: INOCYX
@@ -26,7 +27,6 @@ android:
   updated: 2026-05-14
   version: 1.80.58
   icon: com.application.inocyx.png
-  date: 2024-12-31
   website: https://inocyx.com/
   developerName: INOCYX
 iphone:
@@ -38,7 +38,6 @@ iphone:
   version: '5.7'
   reviews: 15
   icon: com.app.Inocyx.jpg
-  date: 2023-11-01
   developerName: Inocyx technologies private limited
 
 ---

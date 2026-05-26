@@ -2,6 +2,7 @@
 wsId: BuyCoinsPro
 title: 'Buycoins Pro: Trade BTC & USDT'
 verdict: custodial
+date: 2023-06-21
 authors:
 - danny
 appCountry: us
@@ -17,7 +18,6 @@ android:
   reviews: 3
   icon: africa.buycoins.buycoinsx.pro.png
   meta: obsolete
-  date: 2025-09-09
   website: https://pro.buycoins.africa
   developerName: Bitkoin Africa Inc
 iphone:
@@ -29,7 +29,6 @@ iphone:
   reviews: 23
   icon: africa.buycoins.BuycoinsX.pro.jpg
   meta: removed
-  date: 2023-06-21
   website: http://buycoins.africa
   developerName: Buycoins, Inc.
 

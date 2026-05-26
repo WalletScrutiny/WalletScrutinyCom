@@ -3,6 +3,7 @@ wsId: CoinMENA
 title: 'CoinMENA: Buy Bitcoin Now'
 verdict: custodial
 meta: ok
+date: 2021-11-10
 authors:
 - danny
 twitter: Coinmena
@@ -22,7 +23,6 @@ android:
   version: 3.5.0
   reviews: 55
   icon: com.coinmena.coinmenaapp.png
-  date: 2021-11-10
   website: http://coinmena.com
 iphone:
   appId: com.coinmena.coinmenaapp
@@ -32,7 +32,6 @@ iphone:
   version: 3.5.0
   reviews: 14
   icon: com.coinmena.coinmenaapp.jpg
-  date: 2026-02-02
   website: https://www.coinmena.com/
 
 ---

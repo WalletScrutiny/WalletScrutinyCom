@@ -2,6 +2,7 @@
 wsId: AMarkets
 title: 'AMarkets: Finance & Trading'
 verdict: nosendreceive
+date: 2021-10-13
 authors:
 - danny
 social:
@@ -20,7 +21,6 @@ android:
   reviews: 292
   icon: com.amarkets.png
   meta: ok
-  date: 2021-10-13
   website: https://www.amarkets.com
   developerName: AMarkets LLC
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 3029
   icon: amarkets.app.jpg
   meta: defunct
-  date: 2023-04-16
   website: https://www.amarkets.com/
   developerName: AMarkets Ltd.
 

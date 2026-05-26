@@ -3,6 +3,7 @@ wsId: xtcom
 title: 'XT.com: Buy Bitcoin & Ethereum'
 verdict: custodial
 meta: ok
+date: 2022-07-31
 authors:
 - danny
 twitter: XTexchange
@@ -23,7 +24,6 @@ android:
   version: 5.23.1
   reviews: 266
   icon: com.app.xt.jpg
-  date: 2022-07-31
   website: http://www.xt.com
   developerName: XT.COM Inc.
 iphone:
@@ -35,7 +35,6 @@ iphone:
   version: 5.23.1
   reviews: 1450
   icon: com.xt.app.jpg
-  date: 2023-02-03
   website: https://www.xt.com
   developerName: XT LTD, LLC
 

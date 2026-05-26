@@ -3,6 +3,7 @@ wsId: leapWallet
 title: Leap Wallet
 verdict: nosource
 meta: ok
+date: 2025-11-09
 authors:
 - danny
 website: https://www.leapwallet.io/mobile
@@ -20,7 +21,6 @@ android:
   version: 0.77.0
   reviews: 99
   icon: io.leapwallet.cosmos.png
-  date: 2025-11-09
   developerName: Leap Wallet
 iphone:
   appId: com.LeapCosmosWallet
@@ -31,7 +31,6 @@ iphone:
   version: 0.77.0
   reviews: 1133
   icon: com.LeapCosmosWallet.jpg
-  date: 2025-12-27
   developerName: Hyphen Labs Ltd.
 
 ---

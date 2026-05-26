@@ -2,6 +2,7 @@
 wsId: covest
 title: 코베스트 - COVEST
 verdict: custodial
+date: 2023-05-17
 authors:
 - danny
 twitter: COVEST_Official
@@ -18,7 +19,6 @@ android:
   version: 2.1.0
   icon: com.covest.covestM.png
   meta: ok
-  date: 2023-05-17
   website: https://covest.pro
   developerName: COVEST PRO
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: pro.covest.mapple.jpg
   meta: obsolete
-  date: 2024-07-05
   developerName: COVEST LLC
 
 ---

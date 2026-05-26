@@ -3,6 +3,7 @@ wsId: mojitoWallet
 title: Mojito wallet
 verdict: sourceavailable
 meta: stale
+date: 2025-12-15
 authors:
 - danny
 - keraliss
@@ -26,7 +27,6 @@ android:
   updated: 2024-12-15
   version: 0.4.1
   icon: com.mojitowallet.png
-  date: 2025-12-15
   website: https://www.mintlayer.org/en/mojito-wallet/
   repository: https://github.com/mintlayer/mojito_mobile_wallet
 iphone:
@@ -38,7 +38,6 @@ iphone:
   version: 0.4.2
   reviews: 9
   icon: com.mojitowallet.jpg
-  date: 2026-01-14
   website: https://www.mintlayer.org/
 
 ---

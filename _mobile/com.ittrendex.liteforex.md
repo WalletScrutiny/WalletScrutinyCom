@@ -1,6 +1,7 @@
 ---
 title: Investing&Trading
 meta: removed
+date: 2023-01-02
 authors:
 - danny
 social:
@@ -18,7 +19,6 @@ android:
   reviews: 16
   icon: com.ittrendex.liteforex.png
   verdict: custodial
-  date: 2023-01-02
   website: https://www.liteforex.com
   twitter: litefinanceeng
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 21
   icon: com.ittrendex.liteforex.jpg
   verdict: wip
-  date: 2023-06-21
   developerName: Liteforex (Europe) Limited
 
 ---

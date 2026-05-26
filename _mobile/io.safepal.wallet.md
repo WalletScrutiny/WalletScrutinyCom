@@ -3,6 +3,7 @@ wsId: safepal
 title: 'SafePal: Crypto Wallet BTC NFT'
 verdict: nosource
 meta: ok
+date: 2021-04-26
 authors:
 - leo
 - danny
@@ -19,7 +20,6 @@ android:
   version: 4.11.2
   reviews: 1092
   icon: io.safepal.wallet.png
-  date: 2024-07-15
   developerName: SafePal Wallet
 iphone:
   appId: walletapp.safepal.io
@@ -29,7 +29,6 @@ iphone:
   version: 4.11.2
   reviews: 15951
   icon: walletapp.safepal.io.jpg
-  date: 2021-04-26
   developerName: SAFEPAL LTD.
 
 ---

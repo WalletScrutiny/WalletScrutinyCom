@@ -2,6 +2,7 @@
 wsId: coveBitcoinWallet
 title: Cove - Simple Bitcoin Wallet
 verdict: wip
+date: 2026-01-14
 authors:
 - danny
 website: https://covebitcoinwallet.com
@@ -17,7 +18,6 @@ android:
   version: 1.2.2
   icon: org.bitcoinppl.cove.png
   meta: fewusers
-  date: 2026-01-29
 iphone:
   appId: org.bitcoinppl.cove
   idd: '6642680364'
@@ -28,7 +28,6 @@ iphone:
   reviews: 22
   icon: org.bitcoinppl.cove.jpg
   meta: ok
-  date: 2026-01-14
 
 ---
 

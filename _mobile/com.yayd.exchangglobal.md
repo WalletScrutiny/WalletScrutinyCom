@@ -3,6 +3,7 @@ wsId: bkexGlobal
 title: BKEX-Global
 verdict: custodial
 meta: removed
+date: 2024-02-05
 authors:
 - danny
 redirect_from:
@@ -16,7 +17,6 @@ android:
   version: 7.30.2
   reviews: 50
   icon: com.yayd.exchangglobal.png
-  date: 2025-03-11
   developerName: DevYian
 iphone:
   appId: com.bkex.exchange
@@ -27,7 +27,6 @@ iphone:
   version: 7.30.1
   reviews: 286
   icon: com.bkex.exchange.jpg
-  date: 2024-02-05
   website: http://www.bkex.vip#deadLink
   developerName: Intellefund Finance Limited
 

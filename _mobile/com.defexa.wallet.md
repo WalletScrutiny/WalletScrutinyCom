@@ -3,6 +3,7 @@ wsId: defexaWallet
 title: Defexa - Safe Crypto Wallet
 verdict: nosource
 meta: ok
+date: 2023-11-02
 authors:
 - danny
 twitter: DefexaCrypto
@@ -28,7 +29,6 @@ android:
   version: 2.3.0
   reviews: 5
   icon: com.defexa.wallet.png
-  date: 2023-11-02
   website: https://defexa.io/wallet/
 iphone:
   appId: com.defexa.CryptoWallet-Defexa
@@ -39,7 +39,6 @@ iphone:
   version: 2.4.0
   reviews: 0
   icon: com.defexa.CryptoWallet-Defexa.jpg
-  date: 2026-02-02
   website: https://defexa.io/wallet
 
 ---

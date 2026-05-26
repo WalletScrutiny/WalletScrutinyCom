@@ -2,6 +2,7 @@
 wsId: iconomi
 title: 'ICONOMI: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2021-10-04
 authors:
 - danny
 twitter: iconomicom
@@ -22,7 +23,6 @@ android:
   reviews: 171
   icon: net.iconomi.android.png
   meta: ok
-  date: 2021-10-04
   website: https://www.iconomi.com
   developerName: ICONOMI
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 84
   icon: net.iconomi.iconomi.jpg
   meta: obsolete
-  date: 2025-11-05
   website: http://www.iconomi.com
   developerName: ICONOMI LTD
 

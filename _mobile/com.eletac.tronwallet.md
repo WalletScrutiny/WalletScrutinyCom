@@ -3,6 +3,7 @@ wsId: visionwallet
 title: 'Vision: Bitcoin Crypto Wallet'
 verdict: nosource
 meta: removed
+date: 2024-07-17
 authors:
 - kiwilamb
 - leo
@@ -18,7 +19,6 @@ android:
   version: 2.4.56
   reviews: 112
   icon: com.eletac.tronwallet.png
-  date: 2024-11-25
   website: https://vision-crypto.com#deadLink
   developerName: Vision Dev - GO 428 LLC
 iphone:
@@ -29,7 +29,6 @@ iphone:
   version: 2.4.46
   reviews: 39
   icon: com.visionsoftware.vision.jpg
-  date: 2024-07-17
   website: https://web.archive.org/web/20250916230349/http://vision-crypto.com/
   developerName: Go 428 llc
 

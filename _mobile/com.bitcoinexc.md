@@ -2,6 +2,7 @@
 wsId: FMCPay
 title: 'FMCPAY: Buy Bitcoin & Crypto'
 verdict: custodial
+date: 2024-04-10
 authors:
 - danny
 website: https://fmcpay.com/
@@ -21,7 +22,6 @@ android:
   reviews: 69
   icon: com.bitcoinexc.png
   meta: removed
-  date: 2025-09-03
   developerName: FUINRE INC
 iphone:
   appId: com.fimarketbt
@@ -33,7 +33,6 @@ iphone:
   reviews: 23
   icon: com.fimarketbt.jpg
   meta: obsolete
-  date: 2024-04-10
   developerName: FUINRE, INC
 
 ---

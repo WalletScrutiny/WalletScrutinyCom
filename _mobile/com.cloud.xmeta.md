@@ -2,6 +2,7 @@
 wsId: xMetaExchange
 title: X-Meta Exchange
 verdict: custodial
+date: 2023-12-19
 authors:
 - danny
 twitter: XMetaOfficial
@@ -20,7 +21,6 @@ android:
   reviews: 8
   icon: com.cloud.xmeta.png
   meta: obsolete
-  date: 2025-04-01
   website: https://x-meta.com
   developerName: x-meta
 iphone:
@@ -33,7 +33,6 @@ iphone:
   reviews: 3
   icon: com.x-meta.exchange.jpg
   meta: removed
-  date: 2023-12-19
   website: https://x-meta.com/
   developerName: X-META LLC
 
