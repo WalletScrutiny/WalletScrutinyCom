@@ -1,0 +1,62 @@
+---
+wsId: fassetCrypto
+title: 'Fasset: Global Digital Bank'
+verdict: custodial
+meta: ok
+authors:
+- danny
+twitter: fasset_official
+social:
+- https://www.linkedin.com/company/fassethq
+- https://www.facebook.com/FassetOfficial
+- https://www.instagram.com/fasset_official
+- https://t.me/+WHV71rgNlWEchWKr
+redirect_from:
+- /android/com.fasset.cashapp/
+- /iphone/com.fasset.cashapp/
+android:
+  appId: com.fasset.cashapp
+  users: 1000000
+  released: 2021-12-14
+  updated: 2026-05-19
+  version: '6.8'
+  reviews: 16
+  icon: com.fasset.cashapp.png
+  date: 2023-07-01
+  website: https://www.fasset.io/
+  developerName: Fasset Labuan Limited
+iphone:
+  appId: com.fasset.cashapp
+  idd: '1599893605'
+  appCountry: us
+  released: 2021-12-14
+  updated: 2026-05-19
+  version: '4.10'
+  reviews: 37
+  icon: com.fasset.cashapp.jpg
+  date: 2024-10-23
+  website: https://fasset.io/
+  developerName: Fasset Ltd.
+
+---
+
+## Android
+
+## App Description from Google Play
+
+This app is in early access.
+
+> Fasset: The easy and secure way to buy, sell, swap, and earn across digital assets including cryptocurrencies and stablecoins such as Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), USD Tether (USDT), PAX Gold (PAXG) and Tether Gold (XAUT).
+
+## Analysis
+
+- Section 4 of the [Global Terms](https://fasset.io/user-agreement-global/), details Fassets inability to provide access to the platform in the event when the user is not able to comply with KYC and ID-verification protocols.
+- Section 2.1 of the [User Agreement](https://fasset.io/user-agreement/) describes the user's eligibility to use the **custodial** services of the platform.
+- Section 4.2 of the same User Agreement, specifically allows the user to appoint Fasset to be the custodian of any digital asset.
+- Based on these facts, we give this app a verdict of **custodial**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

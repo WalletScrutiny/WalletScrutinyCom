@@ -1,0 +1,81 @@
+---
+wsId: Tokenize
+title: Tokenize Xchange
+verdict: custodial
+authors:
+- danny
+twitter: TokenizeXchange
+social:
+- https://www.facebook.com/tokenize.exchange
+redirect_from:
+- /android/com.tokenize.exchange.tradingapp/
+- /iphone/com.tokenize.exchange.trading/
+android:
+  appId: com.tokenize.exchange.tradingapp
+  users: 100000
+  appCountry: us
+  released: 2019-12-03
+  updated: 2025-03-26
+  version: 2.0.21
+  reviews: 17
+  icon: com.tokenize.exchange.tradingapp.png
+  meta: removed
+  date: 2025-11-05
+  website: https://tokenize.exchange/
+  developerName: Tokenize Xchange
+iphone:
+  appId: com.tokenize.exchange.trading
+  idd: 1495765876
+  appCountry: jp
+  released: 2020-02-02
+  updated: 2025-04-02
+  version: 2.0.21
+  reviews: 2
+  icon: com.tokenize.exchange.trading.jpg
+  meta: stale
+  date: 2026-05-05
+  website: https://tokenize.exchange
+  developerName: Tokenize Xchange Pte Ltd
+
+---
+
+## Android
+
+{% include review/bitgo.md %}
+
+## App Description
+
+> Tokenize is a team that aspires to build the next generation digital currency exchange that supports established and emerging digital currencies.
+
+The app claims to have "top notch security:"
+
+> IP whitelisting & 2-Factor authentication available for extra security. **Hybrid wallet mechanism & multi-signature strategy to guarantee asset safety.**
+
+Additionally:
+
+> More than 100,000 **clients trust us to handle their money** everyday  
+> By employing top-tier providers and implementing **the best practices for wallet management** and identity verification, Tokenize ensures the security and robustness of its platform to provide users with a peace of mind when trading.
+
+This exchange is more than likely to be custodial.
+
+## The Site
+
+The FAQ directly says that Tokenize Xchange provides **Custodian Services.**
+
+> Tokenize Xchange takes pride in keeping all assets safe and secure.  Partnering only reputable technology and compliance service providers, we uphold and protect the security integrity of our platform.
+>
+> We collaborate with Bitgo, the global leader in digital asset financial services, to take further stringent measures to safeguard users protection against fraud and we maintain a multi-signature cold wallet under Bitgo custodial solutions for storage of our user's digital assets. While Tokenize Xchange controls one of the keys, the other is held by the multi-signature custodian leader Bitgo making the wallet much more secure.
+
+## The App
+
+We installed the app. Many features of the app are limited and it is mandatory for users to complete KYC verification during registration.
+
+## Verdict
+
+This app is clearly **custodial** and as a result, is **not verifiable.**
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

@@ -1,0 +1,62 @@
+---
+wsId: maicoin
+title: MaiCoin - Buy Bitcoin & Crypto
+verdict: custodial
+authors:
+- danny
+twitter: Max_exch
+social:
+- https://www.facebook.com/MaiCoinAssetExchange
+appCountry: us
+redirect_from:
+- /android/com.maicoin.maicoin/
+- /iphone/com.maicoin.maicoin/
+android:
+  appId: com.maicoin.maicoin
+  users: 100000
+  released: 2018-12-19
+  updated: 2026-04-13
+  version: 15.0.0
+  reviews: 10
+  icon: com.maicoin.maicoin.png
+  meta: ok
+  date: 2021-10-01
+  website: https://maicoin.com
+  developerName: MaiCoin Eng
+iphone:
+  appId: com.maicoin.maicoin
+  idd: 1439583926
+  released: 2018-12-20
+  updated: 2022-04-12
+  version: 4.0.0
+  reviews: 10
+  icon: com.maicoin.maicoin.jpg
+  meta: removed
+  date: 2023-01-02
+  website: https://max.maicoin.com
+
+---
+
+## Android
+
+This is from the Google Play description:
+
+> Securely store Bitcoin, Ethereum, Bitcoin Cash, Litecoin and more in your MAX wallet for free. Your assets are distributed and secured in hot, warm and cold storage. Wallets are guarded with the multi-signature scheme to provide the highest level of protection.
+
+This is a good indication that this is a **custodial** wallet.
+
+[From the FAQ:](https://support.maicoin.com/en/support/solutions/articles/32000021141-can-i-download-a-copy-of-my-private-key-)
+> **Can I download a copy of my private key?**<br>
+> MAX does not provide a copy of the private key.  If you are concerned about the safety of your digital assets, we recommend that you store your assets in cold storage or a hardware wallet.
+
+[How do I know my funds are safe on the exchange?](https://support.maicoin.com/en/support/solutions/articles/32000017302-how-do-i-know-my-funds-are-safe-on-the-exchange-)
+
+> Security is our number one concern, therefore, we have partnered with KGI Trust to manage customers' NTD funds.  A majority of digital assets are held offline in secure cold storage locations.  Customers can be assured that their custodial will be safe and accessible.
+
+As the keys are on the side of the providers that means this app is **custodial** and thus **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

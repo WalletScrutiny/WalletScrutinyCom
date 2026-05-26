@@ -1,0 +1,19 @@
+---
+title: CoinBox
+verdict: wip
+meta: removed
+date: 2023-12-19
+developerName: Code Brew Innovations
+redirect_from:
+- /android/io.codebrew.bankwallet/
+android:
+  appId: io.codebrew.bankwallet
+  users: 100
+  released: 2022-08-30
+  updated: 2022-08-30
+  version: 0.26.1
+  icon: io.codebrew.bankwallet.png
+
+---
+
+

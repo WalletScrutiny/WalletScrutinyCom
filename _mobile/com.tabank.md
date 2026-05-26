@@ -1,0 +1,62 @@
+---
+wsId: tabank
+title: 'Tabank: Tabus Crypto Ecosystem'
+verdict: wip
+meta: removed
+authors:
+- danny
+twitter: OrgTabank
+social:
+- https://www.facebook.com/tabank.org
+- https://t.me/tabankorg
+redirect_from:
+- /android/com.tabank/
+- /iphone/com.tabank/
+android:
+  appId: com.tabank
+  users: 1000
+  released: 2021-08-20
+  updated: 2022-02-14
+  version: 1.3.7
+  icon: com.tabank.png
+  date: 2024-07-05
+  website: https://web.tabus.co/
+  developerName: Tabank Holding Pte. Ltd.
+iphone:
+  appId: com.tabank
+  idd: '1566694611'
+  appCountry: vn
+  released: 2021-08-27
+  updated: 2022-02-28
+  version: 1.3.5
+  reviews: 24
+  icon: com.tabank.jpg
+  date: 2024-07-30
+  website: https://web.tabus.co/ecommerce
+  developerName: TABANK HOLDING PTE. LTD.
+
+---
+
+## Android
+
+## App Description from Google Play 
+
+> The world needs the mobile application to have all the functions: e-commerce platforms, social networks, exchanges and e-wallets where users can buy and sell, payment online with crypto, exchanging cryptocurrencies and storing cryptocurrencies. We will make Tabus have all functions in one like that.
+
+### The [Whitepaper](https://whitepaper.tabank.org#deadLink)
+
+## Analysis 
+
+- The app has a corresponding token [$TAB](https://coinmarketcap.com/currencies/tabank/)
+- The app seems to heavily promote NFTs on its social media channels.
+- Access to the wallet requires registration. 
+- We did not receive the confirmation email
+- Oddly, the app's [terms](https://web.tabus.co/terms) did not contain references to "wallets", "bitcoin" or "cryptocurrencies"
+- We [tweeted](https://twitter.com/BitcoinWalletz/status/1664881907320909824) them to inquire about the status of the app. We also emailed them at admin@tabank.org 
+- This app is very likely to be defunct, but since the last update was just last year, we'll give them time to respond. For now, we'll keep the status of this app as a work-in-progress.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

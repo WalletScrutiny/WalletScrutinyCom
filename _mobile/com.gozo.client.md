@@ -1,0 +1,20 @@
+---
+title: iHodl Pro
+verdict: wip
+meta: removed
+date: 2024-04-19
+website: https://ihodl.com
+developerName: GOZO Ltd
+redirect_from:
+- /android/com.gozo.client/
+android:
+  appId: com.gozo.client
+  users: 100
+  released: 2019-03-28
+  updated: 2023-01-11
+  version: 4.39.8
+  icon: com.gozo.client.png
+
+---
+
+

@@ -1,0 +1,19 @@
+---
+title: Picco Exchange
+verdict: wip
+meta: removed
+date: 2024-03-02
+developerName: Greenback Tech
+redirect_from:
+- /android/com.piccoexchange.app/
+android:
+  appId: com.piccoexchange.app
+  users: 1
+  released: 2019-12-25
+  updated: 2019-12-25
+  version: '1.0'
+  icon: com.piccoexchange.app.png
+
+---
+
+

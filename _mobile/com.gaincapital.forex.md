@@ -1,0 +1,78 @@
+---
+wsId: Forexcom
+title: FOREX.com Forex & CFD Trading
+verdict: nosendreceive
+meta: ok
+date: 2021-10-16
+authors:
+- danny
+twitter: forexcom
+social:
+- https://www.facebook.com/FOREXcom
+appCountry: gb
+redirect_from:
+- /android/com.gaincapital.forex/
+- /iphone/com.gaincapital.forex/
+android:
+  appId: com.gaincapital.forex
+  users: 500000
+  released: 2021-01-11
+  updated: 2026-04-21
+  version: '1.253'
+  reviews: 38
+  icon: com.gaincapital.forex.png
+  website: https://www.forex.com
+  developerName: GAIN Capital Group, LLC
+iphone:
+  appId: com.gaincapital.forex
+  idd: 1506581586
+  released: 2020-10-14
+  updated: 2026-04-23
+  version: 1.253.7924
+  reviews: 238
+  icon: com.gaincapital.forex.jpg
+  website: https://www.forex.com/en-uk/
+  developerName: GAIN Capital Group LLC
+
+---
+
+## Android
+
+## App Description
+
+Perhaps one of the more well-known Forex sites due to its domain power, Forex.com offers trading in 300+ markets. This includes: FX, precious metals, various trade indices, shares and cryptocurrencies.
+
+> - Trade Cryptos: Buy and sell Bitcoin, Bitcoin Cash, Ethereum, Litecoin and Ripple
+
+## The Site
+
+[Gain Capital](http://www.forex.com) now known as Gain Capital Holdings, has been in possession of the domain since 2003. 
+
+Like many of the forex and cryptocurrency trading sites that we've reviewed in the past, Forex.com cannot be funded via cryptocurrencies. Instead, these are the **[funding options](https://www.forex.com/en-us/support/faqs/funding/)**:
+
+- Bank Transfer (ACH)
+- Wire Transfer
+- Debit Card
+
+The same is true for withdrawals:
+
+> **[How do I withdraw funds from my account?](https://www.forex.com/en-us/support/faqs/withdrawals/)**<br> 
+To withdraw funds, log into the trading platform and click “Add Funds” and then select the “withdraw funds” option. Funds must be withdrawn to the originating source of deposit.<br><br>
+Excess funds may be withdrawn by bank transfer or wire transfer. In the event you added a new bank account to withdraw excess funds, FOREX.com will require evidence of the account by uploading a bank statement.
+
+### Trade Cryptocurrencies as CFDs
+
+> [Take advantage of crypto volatility](https://www.forex.com/en/markets/cryptocurrency-trading/)<br>
+Trade a wide range of cryptocurrencies without having to own the underlying asset. Go long or short on Bitcoin, Ethereum, Litecoin and Ripple, with no need for wallets or exchanges.
+
+[**How to Trade Bitcoin in Forex.com (PDF)**](https://www.forex.com/~/media/forex/files/education/guides/uk/how-to-trade-bitcoin-uk-2018.pdf)
+
+## Verdict
+
+Funding can only be via traditional financial institutions, this app **cannot send or receive bitcoins**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

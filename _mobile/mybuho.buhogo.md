@@ -1,0 +1,19 @@
+---
+title: BuhoGo
+verdict: wip
+meta: fewusers
+date: 2026-01-14
+developerName: Dr.Shift
+redirect_from:
+- /android/mybuho.buhogo/
+android:
+  appId: mybuho.buhogo
+  users: 10
+  released: 2025-09-26
+  updated: 2026-05-01
+  version: 1.8.1
+  icon: mybuho.buhogo.png
+
+---
+
+

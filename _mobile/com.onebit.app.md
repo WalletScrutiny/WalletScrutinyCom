@@ -1,0 +1,44 @@
+---
+title: TenX - Buy Bitcoin & Crypto Card
+verdict: custodial
+meta: removed
+date: 2021-09-03
+authors:
+- leo
+- danny
+website: https://www.tenx.tech#deadLink
+redirect_from:
+- /com.onebit.app/
+- /posts/com.onebit.app/
+- /android/com.onebit.app/
+android:
+  appId: com.onebit.app
+  users: 100000
+  released: 2017-11-23
+  updated: 2020-11-11
+  version: 3.25.1
+  reviews: 575
+  icon: com.onebit.app.png
+
+---
+
+**UPDATE: 2021-09-01**
+
+> New sign-ups and deposits have been disabled, and even though your funds remain safe, we encourage you to withdraw your funds from your TenX Wallet at your earliest convenience.
+
+TenX will start "sunsetting their services soon." As such and with no new service replacement announced at the time of this review, it would be best to label this app as defunct.
+
+## Old Analysis
+
+This app's description hints at being custodial with:
+
+> Send cryptocurrencies to other TenX Wallet users for free
+
+as there is no transaction fee if the transaction is just an update of their
+centralized database.
+
+As the core product of TenX is to spend your Bitcoins via a credit card, they
+probably want to be in control of the coins and not surrender this control to
+the user. We assume it is custodial.
+
+Our verdict: **not verifiable**.

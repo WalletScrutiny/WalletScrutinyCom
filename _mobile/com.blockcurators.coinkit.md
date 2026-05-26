@@ -1,0 +1,76 @@
+---
+wsId: coinkit
+title: CoinKit
+verdict: custodial
+authors:
+- danny
+website: https://coinkit.de#deadLink
+twitter: coinkit_
+redirect_from:
+- /android/com.blockcurators.coinkit/
+- /iphone/com.blockcurators.coinkit/
+android:
+  appId: com.blockcurators.coinkit
+  users: 10000
+  released: 2021-12-19
+  updated: 2022-01-19
+  version: 1.1.2
+  reviews: 5
+  icon: com.blockcurators.coinkit.png
+  meta: removed
+  date: 2025-01-27
+  developerName: Blockcurators GmbH
+iphone:
+  appId: com.blockcurators.coinkit
+  idd: '1563481240'
+  appCountry: us
+  released: 2021-12-19
+  updated: 2021-12-29
+  version: 1.2.1
+  reviews: 3
+  icon: com.blockcurators.coinkit.jpg
+  meta: obsolete
+  date: 2023-12-21
+  developerName: BLOCKCURATORS GMBH
+
+---
+
+## Android
+
+## Update 2023-08-07
+
+It has been several months since CoinKit has made their announcement enjoining users to withdraw their funds and the apparent creation of a new wallet.
+
+We decided to take a look.
+
+- The app has not been updated since the announcement was made. 
+- Errors appear when we try to sign up.
+- It appears that this is still a **custodial** provider.
+
+## Previous Review 2023-03-29
+
+{{ page.title }} has a recent [announcement](https://twitter.com/coinkit_/status/1637754800245809153) made on Twitter: 
+
+> Dear CoinKit users,
+>
+> We would like to inform you of an important change to our service. In response to regulatory uncertainty, CoinKit will be transitioning from a custodial to a non-custodial crypto wallet solution.
+>
+> As a result, we kindly request all users to temporarily withdraw their cryptocurrencies from our platform within the next 4 weeks. This will allow you to seamlessly deposit your funds back into the upgraded non-custodial wallet once the transition is complete. 2/4
+> 
+> Please be aware that if you do not withdraw your assets within the initial 4-week period, you will have an additional 2 months to complete the withdrawal process, but only after successfully completing KYC procedures. 3/4
+> 
+> To avoid potential delays, we strongly encourage you to withdraw your funds before the KYC period commences. We appreciate your understanding and cooperation during this transition, and we look forward to continuing to serve you with our enhanced, non-custodial wallet solution. 
+
+## Analysis 
+
+We downloaded the app and registered on the platform. 
+
+Although there is an option to deposit BTC and an option to create a LN invoice, both simply returned an 'undefined' message when we are trying to use it. 
+
+As this app is currently undergoing changes, we will continue to mark it as a work in progress until changes are made.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

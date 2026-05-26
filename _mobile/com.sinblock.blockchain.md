@@ -1,0 +1,45 @@
+---
+title: 'AceBitx: Trade Anytime'
+verdict: custodial
+meta: ok
+date: 2026-02-02
+twitter: aibitcom
+social:
+- https://www.aibit.com/
+- https://www.facebook.com/aibitcom
+- https://discord.com/invite/aibitcom#deadLink
+- https://medium.com/@aibitcom
+- https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
+features:
+- buyWithCC
+developerName: Acebitx PTE.LTD.
+redirect_from:
+- /android/com.sinblock.blockchain/
+android:
+  appId: com.sinblock.blockchain
+  users: 10000
+  released: 2022-09-22
+  updated: 2026-01-26
+  version: 1.0.5
+  reviews: 8
+  icon: com.sinblock.blockchain.png
+
+---
+
+## App Description from Google Play
+
+> AIBIT adopts a comprehensive and multi-dimensional systematic security mechanism for asset security. Its independently developed high-speed matching machine supports the peak capacity of 10k transactions per second (TPS), to ensure your orders are executed immediately.
+>
+> You can buy BTC, ETH, and other cryptocurrencies easily with credit cards, debit cards, and bank transfers.
+
+## Analysis 
+
+- This looks like a cryptocurrency exchange.
+- Registration was pretty straightforward. Users can choose to register via phone or email. 
+- The app's language is mixed with English and Chinese characters.
+- We were not given a mnemonic phrase during registration and there was no wallet creation phase.
+- We found a Bitcoin wallet with a P2SH address
+- There was no option to back up the private keys in the settings.
+- The terms explicitly describe a **custodial** platform, making this app **non-verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="You can buy BTC, ETH, and other cryptocurrencies easily with credit cards, debit cards, and bank transfers." source="Store" %}

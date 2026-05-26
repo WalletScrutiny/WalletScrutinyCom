@@ -1,0 +1,46 @@
+---
+wsId: gcmasiapro
+title: GCMAsia Pro
+verdict: nosendreceive
+meta: removed
+date: 2025-06-11
+authors:
+- danny
+website: https://www.gcmasia.com
+social:
+- https://www.facebook.com/GCMASIA.Forex.Trading.Platform
+developerName: GCM Europe Ltd
+appCountry: HK
+redirect_from:
+- /android/com.gcmasia.pro/
+android:
+  appId: com.gcmasia.pro
+  users: 100000
+  released: 2017-04-24
+  updated: 2024-08-18
+  version: 90.4.010
+  icon: com.gcmasia.pro.png
+
+---
+
+> GCMAsia is "fully synchronized with the Forex MetaTrader 4 (MT4) Platform."
+
+It allows the trading of stocks, indices, commodities, treasuries, precious metals and CFDs. 
+
+Its deposit options include: 
+
+> - China: Credit/Debit Card (China Union), WeChat Pay, Alipay
+> - Malaysia: FPX Payment, Online Banking
+> - International: Credit/Debit (VISA, MASTER, AMEX), BitPay, Neteller, Skrill, Wire Transfer
+
+Users can withdraw by filling up a downloadable form with the following fields: 
+
+- Fortrade TP Account Number:
+- IBAN:
+- Swift Code:
+- Bank Name:
+- Bank Address:
+
+We opened a demo account and noticed that the account is denominated in USD. It is possible to search for a BTC/USD pair. 
+
+This app does not have a bitcoin wallet, but offers opportunities to "buy" BTC/USD via CFD.

@@ -1,0 +1,20 @@
+---
+title: AXACTPAY
+verdict: wip
+meta: removed
+date: 2026-03-18
+website: https://www.axactpay.net#deadLink
+developerName: Pinomz Technologies
+redirect_from:
+- /android/com.Queper.AXACTPAY/
+android:
+  appId: com.Queper.AXACTPAY
+  users: 10
+  released: 2020-07-08
+  updated: 2023-01-10
+  version: 1.0.3
+  icon: com.Queper.AXACTPAY.jpg
+
+---
+
+

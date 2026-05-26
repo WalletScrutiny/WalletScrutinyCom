@@ -1,0 +1,67 @@
+---
+wsId: coinhako
+title: 'Coinhako: Buy Bitcoin & Crypto'
+verdict: custodial
+meta: ok
+authors:
+- kiwilamb
+- leo
+twitter: coinhako
+social:
+- https://www.linkedin.com/company/coinhako
+- https://www.facebook.com/coinhako
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
+redirect_from:
+- /android/com.coinhako/
+- /iphone/com.coinhako.app/
+android:
+  appId: com.coinhako
+  users: 100000
+  released: 2018-05-06
+  updated: 2026-05-20
+  version: 5.24.0
+  reviews: 22
+  icon: com.coinhako.png
+  date: 2021-04-23
+  website: https://coinhako.com
+  developerName: Coinhako
+iphone:
+  appId: com.coinhako.app
+  idd: 1137855704
+  released: 2016-09-04
+  updated: 2026-05-11
+  version: 5.24.0
+  reviews: 31
+  icon: com.coinhako.app.jpg
+  date: 2021-04-24
+  website: https://www.coinhako.com
+  developerName: CoinHako
+
+---
+
+## Android
+
+Having a scan over the providers website and faq articles does not reveal any
+claims regarding the management of private keys.
+We would have to assume this wallet is custodial.
+
+Our verdict: This “wallet” is probably custodial and therefore is **not verifiable**.
+
+---
+
+## iPhone
+
+Having a scan over the providers website and faq articles does not reveal any
+claims regarding the management of private keys.
+We would have to assume this wallet is custodial.
+
+Our verdict: This “wallet” is probably custodial and therefore is **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Visa and Mastercard payments" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade with crypto and fiat currencies at spot pricing" source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" source="Store" %}

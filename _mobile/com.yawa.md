@@ -1,0 +1,19 @@
+---
+title: YaWa
+verdict: wip
+meta: removed
+date: 2024-04-19
+developerName: Viktor Yandolin
+redirect_from:
+- /android/com.yawa/
+android:
+  appId: com.yawa
+  users: 100
+  released: 2021-04-14
+  updated: 2021-04-21
+  version: 1.0.0.4
+  icon: com.yawa.png
+
+---
+
+

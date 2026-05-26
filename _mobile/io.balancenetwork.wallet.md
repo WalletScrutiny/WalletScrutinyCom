@@ -1,0 +1,72 @@
+---
+wsId: balanceWalletApp
+title: BalanceWallet
+verdict: nosource
+meta: removed
+date: 2024-10-31
+authors:
+- danny
+twitter: balancenetwork_
+social:
+- https://www.linkedin.com/company/balancenetwork
+- https://www.facebook.com/BalanceNetworkOfficial
+- https://balancenetwork.medium.com
+- https://www.tiktok.com/@balancenetwork_
+- https://www.reddit.com/r/BalanceNetwork
+- https://t.me/BalanceNetwork
+- https://www.instagram.com/balancenetwork
+redirect_from:
+- /android/io.balancenetwork.wallet/
+- /iphone/com.reacnative.js.balancenetwork.wallet/
+android:
+  appId: io.balancenetwork.wallet
+  users: 1000
+  released: 2022-05-06
+  updated: 2024-05-03
+  version: 1.0.23
+  reviews: 8
+  icon: io.balancenetwork.wallet.png
+  website: https://balancenetwork.io#deadLink
+  developerName: Balance Network Ltd
+iphone:
+  appId: com.reacnative.js.balancenetwork.wallet
+  idd: '1658310376'
+  appCountry: tr
+  released: 2022-12-12
+  updated: 2024-05-03
+  version: 1.1.2
+  reviews: 10
+  icon: com.reacnative.js.balancenetwork.wallet.jpg
+  website: https://web.archive.org/web/20240917143207/https://wallet-balancenetwork.io/
+  developerName: BALANCE NETWORK SP ZOO
+
+---
+
+## Android
+
+## Update 2024-07-24
+
+A search for the [app ID on GitHub](https://github.com/search?q=io.balancenetwork.wallet&type=code) did not turn out any relevant code or repository.
+
+**This app is not source-available.**
+
+## App Description from Google Play 2023-08-16
+
+> Balance Wallet is a worldwide cryptocurrency wallet that offers you the best multi-chain wallet practice and is the gateway to Balance Ecosystem for the Balancers. You can send and exchange an extensive range of cryptocurrencies. It is a simple, fast and safe way to store cryptocurrency in blockchain app.
+>
+> Balance Wallet offers a built-in DEX, access to a multi-chain NFT Marketplace, non-custodial multi-chain wallet for your crypto assets and NFTs, and more. Further features are in the development process just to offer you the best experience.
+
+## Analysis 
+
+- We inputted a 4-digit pin after installing. 
+- We were able to find a Bech32 BTC address that can send and receive. 
+- An option to back up the private keys was in the options. 
+- There were no claims regarding source-availability.
+- When we searched for the app ID via GitHub Code, we only found [2 results](https://github.com/search?q=io.balancenetwork.wallet&type=code) (both related to WalletScrutiny) and no other repositories related to the possible source code of the app.
+- This app is **not source-available**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

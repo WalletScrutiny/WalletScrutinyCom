@@ -1,0 +1,20 @@
+---
+title: 'UNi.Global: Web3 APP & Card'
+verdict: wip
+meta: fewusers
+date: 2025-04-22
+website: https://uni.global
+developerName: UNi.Global
+redirect_from:
+- /android/uni.global.mcdc_client_app/
+android:
+  appId: uni.global.mcdc_client_app
+  users: 100
+  released: 2022-01-24
+  updated: 2025-08-31
+  version: 4.1.8
+  icon: uni.global.mcdc_client_app.png
+
+---
+
+

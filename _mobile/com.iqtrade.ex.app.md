@@ -1,0 +1,45 @@
+---
+title: IQTrade - Trade Bitcoin & Gold
+verdict: custodial
+meta: removed
+date: 2025-04-22
+authors:
+- danny
+website: https://www.iq-trading.com
+twitter: iqtradegroup
+social:
+- https://www.youtube.com/@IQTradeGlobal#deadLink
+- https://www.facebook.com/IQTradeGlobal
+- https://www.instagram.com/iqtradeglobal
+developerName: I&Q Financial LLC
+redirect_from:
+- /android/com.iqtrade.ex.app/
+android:
+  appId: com.iqtrade.ex.app
+  users: 500000
+  released: 2022-10-18
+  updated: 2025-03-17
+  version: 3.2.2
+  reviews: 20
+  icon: com.iqtrade.ex.app.png
+
+---
+
+The registration process seems to be broken for this app/website. We tried inputting our mobile number and it kept issuing an error "Incorrect format"
+We tried several combinations both on the mobile app and on the website. On both occasions it issued the same error. 
+
+We used a VPN to connect a Japanese server and the app informed us that our region is not supported. 
+
+## App Description from Google Play
+
+> Provide more than 30 trading asset such as Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Sol,crude oil, stocks, and Gold with low trading fees and High leverage , and provide comprehensive transaction analysis information and tools
+
+## Analysis 
+
+We tried to look for documentation but it was sparse. We did find however, that it allowed users to [deposit cryptocurrencies](https://www.iq-trading.com/help/detail?id=783906019314245600)
+
+Their user policy does not have a lot of information about the actual service, but it did cite:
+
+> In accordance with the requirements of the Network Security Law of the People's Republic of China and Information Security Technology Personal Information
+
+This is highly-likely to be a **custodial** service with geographic restriction policies.

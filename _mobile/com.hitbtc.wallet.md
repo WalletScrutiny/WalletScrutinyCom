@@ -1,0 +1,71 @@
+---
+wsId: HitBTCWallet
+title: HitBTC altcoin crypto wallet
+verdict: custodial
+authors:
+- danny
+website: https://hitbtc.com/wallet
+twitter: hitbtc
+social:
+- https://www.facebook.com/hitbtc
+- https://www.reddit.com/r/hitbtc
+appCountry: au
+redirect_from:
+- /android/com.hitbtc.wallet/
+- /iphone/com.hitbtc.wallet/
+android:
+  appId: com.hitbtc.wallet
+  users: 10000
+  released: 2021-08-31
+  updated: 2026-05-09
+  version: 1.43.0
+  icon: com.hitbtc.wallet.jpg
+  meta: ok
+  date: 2021-11-15
+  developerName: HitBTC Exchange
+iphone:
+  appId: com.hitbtc.wallet
+  idd: 1580572986
+  released: 2021-09-01
+  updated: 2022-12-20
+  version: 1.3.8
+  reviews: 1
+  icon: com.hitbtc.wallet.jpg
+  meta: obsolete
+  date: 2026-02-02
+  developerName: HitBTC
+
+---
+
+## Android
+
+## App Description
+
+This is the wallet and companion app to: 
+{% include walletLink.html wallet='android/com.hittechsexpertlimited.hitbtc' verdict='true' %}
+
+> The HitBTC app is a multi-wallet app without the private keys. You can send and receive BTC and other crypto. You can buy and swap BTC and other crypto but you can"t sell it on the app.
+
+## Termination Clause in Terms of Service
+
+> **Section 7. SUSPENSION AND TERMINATION OF YOUR HITBTC ACCOUNT**
+> Clause 7.1. In case of your breach of the Terms, or any other event as We may deem necessary, including without limitation market disruption and/or Force Majeure event We may, in our sole discretion and without liability to you, with or without prior notice:
+>  a. suspend your access to all or a portion of our Services; or
+>  b. prevent you from completing any actions via the Technology Platform, including closing any open Trade orders. In case the transferring resumes, you acknowledge that prevailing market rates may differ significantly from the rates available prior to such event; or
+> c. terminate your access to the Services, delete or deactivate your HitBTC Account and all related information and files in such account.
+>
+> 7.2. In the event of termination, HitBTC will return any crypto assets stored in your HitBTC Account and not owed to HitBTC, unless HitBTC believes you have committed fraud, negligence or other misconduct.
+
+## The App
+
+We could not locate the private keys nor were we able to find options allowing for the creation of a wallet backup.  
+
+## Verdict
+
+HitBTC is primarily a cryptocurrency exchange. They may have their own reasons for keeping two separate apps. One is for the exchange itself and the other as a separate wallet. Because no private keys or backup method was readily apparent, we can conclude that this particular wallet app is also **custodial** and thus **cannot be verified**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

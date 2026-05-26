@@ -1,0 +1,46 @@
+---
+title: Arzypto
+verdict: custodial
+meta: removed
+date: 2025-03-11
+authors:
+- danny
+website: https://arzypto.com
+social:
+- https://www.linkedin.com/company/arzypto
+- https://t.me/Arzypto
+developerName: Arzypto
+redirect_from:
+- /android/com.arzypto.my/
+android:
+  appId: com.arzypto.my
+  users: 10000
+  released: 2020-08-15
+  updated: 2025-01-11
+  version: 2.4.8
+  reviews: 6
+  icon: com.arzypto.my.png
+
+---
+
+## App Description from Google Play
+
+> Arzypto is cryptocurrency exchange system that perform simple and secure place to exchange cryptocurrencies with fair price is one of goals arzypto team.
+>
+> Part of the facilities
+- Quick transfer of currencies
+- Automatic and instant settlement
+- Dedicated panel
+- Provide user security
+- complete list of cryptocurrencies
+- 24/7 support team
+- Instant price chart
+- simple authentication
+
+## Analysis
+
+- Registration and verification requires Iranian ID documents. There is an authentications process and corresponding limits on the user account.
+- There are transaction limits on the platform.
+- These are the [Terms](https://www.arzypto.com/terms/)
+- As seen on the website's "[Wallet Training](https://www.arzypto.com/coins)" video, it is possible to deposit or withdraw Bitcoin.
+- This is a cryptocurrency exchange platform that implements controls with an account based wallet. This is a **custodial** service.

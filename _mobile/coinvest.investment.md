@@ -1,0 +1,23 @@
+---
+title: COINVEST INVESTMENTS
+verdict: wip
+meta: removed
+date: 2023-05-09
+authors:
+- danny
+developerName: MTB SMARTNET
+redirect_from:
+- /android/coinvest.investment/
+android:
+  appId: coinvest.investment
+  users: 1000
+  released: 2020-12-12
+  updated: 2020-12-18
+  version: '9.8'
+  icon: coinvest.investment.png
+
+---
+
+- The website associated with the app is no longer online
+- The app just opens a "Recommended App" which shows a targeted Google ad. 
+- We believe this app is already **defunct**

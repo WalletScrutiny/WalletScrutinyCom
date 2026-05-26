@@ -1,0 +1,40 @@
+---
+title: Casa Tookan wallet
+verdict: nosource
+meta: ok
+date: 2024-12-15
+authors:
+- danny
+website: http://everdreamsoft.com
+twitter: everdreamsoft
+social:
+- https://www.linkedin.com/company/everdreamsoft/
+- https://www.facebook.com/EverdreamSoft/
+- https://www.youtube.com/user/Everdreamsoft
+developerName: EverdreamSoft
+redirect_from:
+- /android/com.everdreamsoft.casatookan/
+android:
+  appId: com.everdreamsoft.casatookan
+  users: 10000
+  released: 2018-09-19
+  updated: 2025-08-26
+  version: 1.2.4
+  reviews: 6
+  icon: com.everdreamsoft.casatookan.png
+
+---
+
+## Update 2024-07-24
+
+There is no indication that this app's source code is available to the public. Searching for the [app ID on GitHub](https://github.com/search?q=%22com.everdreamsoft.casatookan%22&type=code) does not turn out relevant results.
+
+## Review 2023-07-17
+
+> This Bitcoin-Ethereum mobile wallet for blockchain gamers & collectors securely and privately store your digital assets and collections. Your digital estate is protected by a secure 12 words passphrase to ensure you are the only custodian of your digital property.
+>
+> Casa Tookan contains an integrated dapp browser, a dedicated news feed and other useful features. Its intuitive interface makes trading a breeze.
+
+We downloaded the app and created a wallet. We were provided with a 12-word phrase and asked to set a PIN. The wallet supports BTC, ETH, and BCY. Users must enter their PIN codes to access the Bitcoin WIF.
+
+We could not find any indication that this product is open-source or that the code is available for review.
