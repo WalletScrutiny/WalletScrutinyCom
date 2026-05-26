@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-01
 authors:
 - danny
+website: https://bitoshi.africa
 twitter: Bitoshiafrica
 social:
 - https://www.linkedin.com/company/bitoshiafrica
@@ -23,7 +24,6 @@ android:
   version: 1.5.0
   reviews: 36
   icon: com.bitoshi.png
-  website: https://bitoshi.africa
   developerName: Bitoshi Africa
 iphone:
   appId: com.bitoshi

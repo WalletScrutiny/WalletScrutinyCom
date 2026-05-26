@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-11
 authors:
 - danny
+website: https://wbitcash.com/
 redirect_from:
 - /android/by.bitcash.wallet/
 - /iphone/by.bitcash.cryptowallet/
@@ -15,7 +16,6 @@ android:
   updated: 2026-05-21
   version: 1.1.1
   icon: by.bitcash.wallet.png
-  website: https://wbitcash.com/
   developerName: LLC BITCASH
 iphone:
   appId: by.bitcash.cryptowallet

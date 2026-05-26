@@ -22,7 +22,6 @@ android:
   version: 1.2.6
   reviews: 2
   icon: prod.walletv.virgo.jpg
-  website: https://walletv.io
   developerName: Wallet V
 iphone:
   appId: prod.walletv.virgo

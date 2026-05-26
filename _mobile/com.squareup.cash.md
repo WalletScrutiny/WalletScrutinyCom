@@ -22,7 +22,6 @@ android:
   version: 5.52.0
   reviews: 465824
   icon: com.squareup.cash.png
-  website: https://cash.app
   developerName: Block, Inc.
 iphone:
   appId: com.squareup.cash

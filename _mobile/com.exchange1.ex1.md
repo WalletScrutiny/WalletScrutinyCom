@@ -12,7 +12,6 @@ android:
   updated: 2026-05-05
   version: 1.1.4
   icon: com.exchange1.ex1.jpg
-  website: https://www.exchange1.com
   developerName: Web 3 Utility Platform UAB
 
 ---

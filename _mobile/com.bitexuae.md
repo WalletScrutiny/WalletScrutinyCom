@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-25
 authors:
 - danny
+website: https://www.bitex.com#deadLink
 twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide
@@ -22,7 +23,6 @@ android:
   version: '3.1'
   reviews: 13
   icon: com.bitexuae.jpg
-  website: https://www.bitex.com#deadLink
 iphone:
   appId: org.bitex.exchange
   idd: 1492803003
@@ -31,7 +31,6 @@ iphone:
   version: '2.8'
   reviews: 15
   icon: org.bitex.exchange.jpg
-  website: https://web.archive.org/web/20230928122134/https://bitex.com/
   developerName: Trade Bit Commercial Brokers LLC
 
 ---

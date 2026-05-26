@@ -14,7 +14,6 @@ android:
   updated: 2025-08-25
   version: 3.2.54
   icon: org.bitcoinindia.Btciapp.jpg
-  website: https://bitcoin-india.org/en
   developerName: BITCOIN INDIA
 
 ---

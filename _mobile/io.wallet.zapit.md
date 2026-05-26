@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-02
 authors:
 - danny
+website: http://zapit.io
 twitter: zapit_io
 social:
 - https://www.linkedin.com/company/zapit-io
@@ -21,7 +22,6 @@ android:
   version: 0.9.67
   reviews: 11
   icon: io.wallet.zapit.png
-  website: http://zapit.io
   developerName: Zapit Web3 Platform
 iphone:
   appId: io.zapit.wallet
@@ -32,7 +32,6 @@ iphone:
   version: v0.9.64
   reviews: 8
   icon: io.zapit.wallet.jpg
-  website: https://zapit.io
   developerName: Zapit Limited
 
 ---

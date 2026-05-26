@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-01-02
 authors:
 - danny
+website: https://hightop.com/
 twitter: genesisblockhq
 social:
 - https://www.linkedin.com/company/genesisblockhq
@@ -23,7 +24,6 @@ android:
   reviews: 17
   icon: com.genesisblock.production.png
   meta: removed
-  website: https://hightop.com/
 iphone:
   appId: com.genesisblock.GenesisBlock
   idd: 1495538730
@@ -33,7 +33,6 @@ iphone:
   reviews: 56
   icon: com.genesisblock.GenesisBlock.jpg
   meta: ok
-  website: https://hightop.com
   developerName: Genesis Block
 
 ---

@@ -28,7 +28,6 @@ android:
   version: 3.18.6
   reviews: 200
   icon: com.nowwallet.png
-  website: https://walletnow.app
   developerName: ChangeNOW
 iphone:
   appId: io.changenow.wallet-now

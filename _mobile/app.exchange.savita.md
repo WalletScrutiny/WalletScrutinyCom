@@ -6,6 +6,7 @@ meta: ok
 date: 2024-08-02
 authors:
 - danny
+website: https://savitaglobal.com/
 social:
 - https://www.facebook.com/savitaglobal
 - https://www.youtube.com/channel/UCZZx1em2q04niz79VTPqpBA
@@ -22,7 +23,6 @@ android:
   version: 1.0.0
   icon: app.exchange.savita.png
   meta: ok
-  website: https://savitaglobal.com/
   developerName: Savita Global Trading Ltd
 iphone:
   appId: com.savita.savitaapp
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.savita.savitaapp.jpg
   meta: removed
-  website: https://savitaglobal.com
   developerName: Savita global
 
 ---

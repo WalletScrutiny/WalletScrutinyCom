@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-25
 authors:
 - danny
+website: https://xbank.plus
 twitter: xBank_Official
 social:
 - https://discord.com/invite/PGBVwcaeQE#deadLink
@@ -22,7 +23,6 @@ android:
   version: 4.0.1
   reviews: 7
   icon: com.xbank_rn.png
-  website: https://xbank.plus
   developerName: xbank.plus
 iphone:
   appId: com.tratao.xpocket
@@ -33,7 +33,6 @@ iphone:
   version: 4.7.0
   reviews: 167
   icon: com.tratao.xpocket.jpg
-  website: https://xbank.plus/
   developerName: INITIAL BLOCKCHAIN TECH PTE. LTD.
 
 ---

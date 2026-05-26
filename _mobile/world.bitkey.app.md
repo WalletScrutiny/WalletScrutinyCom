@@ -34,7 +34,6 @@ android:
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   builds:
   - arch: arm64-v8a
-  website: https://bitkey.world
   developerName: Block, Inc.
 iphone:
   appId: world.bitkey.app

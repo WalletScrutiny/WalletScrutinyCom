@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-21
 authors:
 - danny
+website: https://wirexapp.com
 twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited
@@ -21,7 +22,6 @@ android:
   version: 4.12.70
   reviews: 1112
   icon: com.wirex.png
-  website: https://wirexapp.com
   developerName: Wirex
 iphone:
   appId: com.wirex
@@ -32,7 +32,6 @@ iphone:
   version: 4.11.75
   reviews: 848
   icon: com.wirex.jpg
-  website: https://wirexapp.com/
   developerName: Wirex Limited
 
 ---

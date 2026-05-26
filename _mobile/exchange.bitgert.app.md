@@ -20,7 +20,6 @@ android:
   version: '1.0'
   reviews: 31
   icon: exchange.bitgert.app.png
-  website: https://bitgert.exchange
   developerName: Bitgert Technologies Ltd
 
 ---

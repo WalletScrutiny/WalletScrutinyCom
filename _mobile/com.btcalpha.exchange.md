@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-04-19
 authors:
 - danny
+website: https://btc-alpha.com/
 twitter: btcalpha
 social:
 - https://www.linkedin.com/company/btcalpha
@@ -22,7 +23,6 @@ android:
   reviews: 3
   icon: com.btcalpha.exchange.png
   meta: removed
-  website: https://btc-alpha.com/
   developerName: BTC-Alpha LTD
 iphone:
   appId: com.btc-alpha
@@ -34,7 +34,6 @@ iphone:
   reviews: 4
   icon: com.btc-alpha.jpg
   meta: ok
-  website: http://alp.com
   developerName: ALPHACOM
 
 ---

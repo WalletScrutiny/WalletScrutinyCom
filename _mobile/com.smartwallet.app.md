@@ -6,6 +6,7 @@ meta: removed
 date: 2026-01-28
 authors:
 - danny
+website: https://www.echooo.xyz/
 twitter: echooo_wallet
 social:
 - https://t.me/Echooowallet
@@ -21,7 +22,6 @@ android:
   version: 1.24.0
   reviews: 77
   icon: com.smartwallet.app.png
-  website: https://www.echooo.xyz/
   developerName: Echooo Labs Pte Ltd
 iphone:
   appId: com.soundVelly.echoooLab
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.2
   reviews: 45
   icon: com.soundVelly.echoooLab.jpg
-  website: http://www.echooo.xyz
   developerName: Echooo Labs Pte Ltd
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-12
 authors:
 - danny
+website: https://www.bitdance.network/
 twitter: BitPocketWallet
 features:
 - ln
@@ -20,7 +21,6 @@ android:
   updated: 2026-03-18
   version: 1.3.27
   icon: com.bitdance.bitpocket.google.png
-  website: https://www.bitdance.network/
   developerName: Bitdance
 iphone:
   appId: com.bitdance.bitpocket

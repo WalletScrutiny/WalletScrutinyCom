@@ -6,6 +6,7 @@ meta: removed
 date: 2024-08-07
 authors:
 - danny
+website: https://www.dexfin.com
 twitter: https://twitter.com/dexfinexchange
 social:
 - https://www.linkedin.com/company/dexfin
@@ -23,7 +24,6 @@ android:
   updated: 2023-02-01
   version: 0.2.7
   icon: com.dexfin.mpcwallet.png
-  website: https://www.dexfin.com
   developerName: DEXFIN
 iphone:
   appId: com.dexfin.mpcwallet
@@ -34,7 +34,6 @@ iphone:
   version: 1.0.2
   reviews: 3
   icon: com.dexfin.mpcwallet.jpg
-  website: https://dexfin.com
   developerName: DEXFIN
 
 ---

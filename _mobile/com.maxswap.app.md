@@ -20,7 +20,6 @@ android:
   version: 1.0.0
   icon: com.maxswap.app.jpg
   meta: ok
-  website: https://maxswap.cc
   developerName: MS Profit LTD
 iphone:
   appId: com.maxswap.app

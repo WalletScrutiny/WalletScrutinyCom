@@ -4,6 +4,7 @@ meta: fewusers
 date: 2025-11-10
 authors:
 - danny
+website: https://www.cregis.com
 redirect_from:
 - /android/com.cregis/
 - /iphone/com.cregis/
@@ -16,7 +17,6 @@ android:
   icon: com.cregis.png
   meta: fewusers
   verdict: wip
-  website: https://www.cregis.com
   developerName: Cregis
 iphone:
   appId: com.cregis

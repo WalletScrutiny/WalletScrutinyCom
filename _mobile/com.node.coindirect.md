@@ -8,6 +8,7 @@ authors:
 - kiwilamb
 - leo
 - danny
+website: https://www.coindirect.com
 twitter: coindirectcom
 social:
 - https://www.linkedin.com/company/coindirect
@@ -23,7 +24,6 @@ android:
   version: 1.3.0
   reviews: 31
   icon: com.node.coindirect.png
-  website: https://www.coindirect.com
   developerName: Coin  Limited
 iphone:
   appId: com.node.coindirect
@@ -33,7 +33,6 @@ iphone:
   version: 1.2.7
   reviews: 14
   icon: com.node.coindirect.jpg
-  website: https://www.coindirect.com/
 
 ---
 

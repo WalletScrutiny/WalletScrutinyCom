@@ -7,6 +7,7 @@ date: 2021-10-19
 authors:
 - leo
 - danny
+website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 redirect_from:
 - /airbitz/
@@ -24,7 +25,6 @@ android:
   reviews: 490
   icon: com.airbitz.png
   meta: removed
-  website: https://airbitz.co
 iphone:
   appId: co.airbitz.airbitz
   idd: '843536046'
@@ -34,7 +34,6 @@ iphone:
   reviews: 82
   icon: co.airbitz.airbitz.jpg
   meta: obsolete
-  website: http://airbitz.co
   developerName: Airbitz Inc
 
 ---

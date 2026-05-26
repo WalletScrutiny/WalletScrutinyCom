@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-10
 authors:
 - danny
+website: https://www.easymarkets.com/
 twitter: easymarkets
 social:
 - https://www.linkedin.com/company/easymarkets
@@ -22,7 +23,6 @@ android:
   version: 3.3.2
   reviews: 39
   icon: giniapps.easymarkets.com.png
-  website: https://www.easymarkets.com/
   developerName: easyMarkets
 iphone:
   appId: com.easyforex.trading
@@ -33,7 +33,6 @@ iphone:
   version: '6.4'
   reviews: 224
   icon: com.easyforex.trading.jpg
-  website: https://www.easy-markets.com/syc/en-gb/platforms/easymarkets-mobile-app/
   developerName: Blue Capital Markets Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-19
 authors:
 - danny
+website: https://ribbitwallet.com
 twitter: ribbitwallet
 social:
 - https://www.linkedin.com/company/ribbit-wallet
@@ -19,7 +20,6 @@ android:
   updated: 2026-05-22
   version: 1.9.3
   icon: com.ribbitnova.ribbit.png
-  website: https://ribbitwallet.com
   developerName: Ribbit Nova
 iphone:
   appId: com.ribbitnova.ribbit

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-05-30
 authors:
 - danny
+website: https://centurioninvest.com/
 twitter: CENTURION_INVST
 social:
 - https://t.me/centurioninvestgroup
@@ -25,7 +26,6 @@ android:
   version: 6.5.4
   icon: com.exchange.Ciexv2.png
   meta: ok
-  website: https://centurioninvest.com/
   developerName: Centurion Exchange
 iphone:
   appId: com.centurion.exchange

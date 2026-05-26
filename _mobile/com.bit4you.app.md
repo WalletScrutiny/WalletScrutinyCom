@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-28
 authors:
 - danny
+website: https://www.bit4you.io
 twitter: Bit4you1
 social:
 - https://www.facebook.com/bit4you.io
@@ -22,7 +23,6 @@ android:
   updated: 2022-11-10
   version: 0.9.1
   icon: com.bit4you.app.png
-  website: https://www.bit4you.io
   developerName: bit4you SA
 iphone:
   appId: app.bit4you.io

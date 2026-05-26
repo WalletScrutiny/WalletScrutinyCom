@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-13
 authors:
 - danny
+website: http://www.bittime.com
 twitter: bittimexchange
 redirect_from:
 - /android/com.bittime.currency.exchange/
@@ -17,7 +18,6 @@ android:
   updated: 2026-05-15
   version: 2.0.13
   icon: com.bittime.currency.exchange.png
-  website: http://www.bittime.com
   developerName: Bittime Exchanges
 iphone:
   appId: com.bittime.currency.exchange

@@ -26,7 +26,6 @@ android:
   version: 2.0.10
   reviews: 551
   icon: com.bitcoinira.png
-  website: https://bitcoinira.com/
   developerName: BitcoinIRA
 iphone:
   appId: com.bitcoinira

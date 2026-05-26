@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-06-10
 authors:
 - danny
+website: http://www.gcbuying.com
 twitter: gcbuying
 appCountry: ng
 redirect_from:
@@ -19,7 +20,6 @@ android:
   reviews: 84
   icon: com.gcbuying.app.jpg
   meta: removed
-  website: http://www.gcbuying.com
   developerName: GCBUYING
 iphone:
   appId: com.GCBuying.GCBuying
@@ -30,7 +30,6 @@ iphone:
   reviews: 157
   icon: com.GCBuying.GCBuying.jpg
   meta: ok
-  website: https://gcbuying.com/
   developerName: GCBuying Technology
 
 ---

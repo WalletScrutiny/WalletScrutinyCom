@@ -13,7 +13,6 @@ android:
   updated: 2026-02-16
   version: 1.0.13
   icon: com.oblio.wallet.png
-  website: https://obliowallet.com
   developerName: Oblio Wallet
 
 ---

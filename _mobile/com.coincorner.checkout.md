@@ -6,6 +6,7 @@ meta: fewusers
 date: 2025-09-17
 authors:
 - danny
+website: https://coincorner.com/checkout
 redirect_from:
 - /android/com.coincorner.checkout/
 - /iphone/com.coincorner.checkout/
@@ -17,7 +18,6 @@ android:
   version: 2.7.0
   icon: com.coincorner.checkout.png
   meta: fewusers
-  website: https://coincorner.com/checkout
   developerName: CoinCorner Ltd
 iphone:
   appId: com.coincorner.checkout
@@ -29,7 +29,6 @@ iphone:
   reviews: 0
   icon: com.coincorner.checkout.jpg
   meta: ok
-  website: https://www.coincorner.com/checkout
   developerName: CoinCorner Ltd
 
 ---

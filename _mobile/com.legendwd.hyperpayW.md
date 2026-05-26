@@ -25,7 +25,6 @@ android:
   icon: com.legendwd.hyperpayW.png
   meta: ok
   verdict: nosource
-  website: https://hyperpay.tech
   developerName: CIPHER BC PTE. LTD.
 iphone:
   appId: com.legendwd.hyperpay

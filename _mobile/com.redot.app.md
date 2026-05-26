@@ -21,7 +21,6 @@ android:
   version: 1.0.64
   reviews: 4
   icon: com.redot.app.png
-  website: https://redot.com/
   developerName: Redot.com
 
 ---

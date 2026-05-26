@@ -28,7 +28,6 @@ android:
   version: 5.56.0
   reviews: 4701
   icon: com.kraken.trade.png
-  website: https://www.kraken.com
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.trade.app

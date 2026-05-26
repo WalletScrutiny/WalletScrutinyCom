@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-09-15
 authors:
 - danny
+website: https://sonitixexchange.in#deadLink
 twitter: SonitixO
 social:
 - https://www.facebook.com/Sonitix
@@ -19,7 +20,6 @@ android:
   version: 2.0.46
   icon: com.sonitix_mobility.png
   meta: removed
-  website: https://sonitixexchange.in#deadLink
   developerName: Sonitix
 iphone:
   appId: org.sonitix-private-limited-sonitix-mobility
@@ -31,7 +31,6 @@ iphone:
   reviews: 24
   icon: org.sonitix-private-limited-sonitix-mobility.jpg
   meta: defunct
-  website: https://sonitix.exchange/
   developerName: Sonitix Private Limited
 
 ---

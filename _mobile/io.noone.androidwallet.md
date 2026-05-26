@@ -23,7 +23,6 @@ android:
   version: 1.32.0
   reviews: 316
   icon: io.noone.androidwallet.png
-  website: https://noone.io
   developerName: Raias Llc
 iphone:
   appId: io.noone.ioswallet

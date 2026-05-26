@@ -18,7 +18,6 @@ android:
   updated: 2025-12-25
   version: 1.5.0
   icon: org.c2bwallet.app.png
-  website: https://cash2bitcoin.com/
   developerName: Cash2Bitcoin
 iphone:
   appId: org.c2bwallet.app

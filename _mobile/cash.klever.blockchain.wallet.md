@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - leo
+website: https://klever.org/
 twitter: klever_io
 social:
 - https://www.facebook.com/klever.io
@@ -21,7 +22,6 @@ android:
   version: 4.24.14
   reviews: 593
   icon: cash.klever.blockchain.wallet.png
-  website: https://klever.org/
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 iphone:
   appId: cash.klever.blockchain.wallet
@@ -31,7 +31,6 @@ iphone:
   version: 4.24.14
   reviews: 524
   icon: cash.klever.blockchain.wallet.jpg
-  website: https://klever.org
   developerName: Klever Exchange
 
 ---

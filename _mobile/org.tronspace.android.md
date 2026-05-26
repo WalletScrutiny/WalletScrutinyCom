@@ -20,7 +20,6 @@ android:
   updated: 2023-01-04
   version: 2.2.6
   icon: org.tronspace.android.png
-  website: https://kointrack.com
   developerName: Kointrack Techsystems Private Limited
 
 ---

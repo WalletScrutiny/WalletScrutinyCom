@@ -23,7 +23,6 @@ android:
   version: 3.1.205
   reviews: 395
   icon: com.metallicus.metalapp.production.png
-  website: https://metalpay.com
   developerName: Metallicus Inc.
 iphone:
   appId: com.metallicus.metalpay

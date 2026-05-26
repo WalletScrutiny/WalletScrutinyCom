@@ -6,6 +6,7 @@ meta: stale
 date: 2026-04-13
 authors:
 - danny
+website: https://jiggle.app
 twitter: jiggle_app
 redirect_from:
 - /android/com.jiggle.wallet/
@@ -18,7 +19,6 @@ android:
   version: 0.2.44
   reviews: 37
   icon: com.jiggle.wallet.jpg
-  website: https://jiggle.app
   developerName: Appia Solutions DMCC
 iphone:
   appId: com.jiggle.cryptowallet

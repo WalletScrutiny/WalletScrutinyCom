@@ -13,7 +13,6 @@ android:
   updated: 2025-01-11
   version: 2.1.2
   icon: com.ejfhp.bitonpaper.png
-  website: https://github.com/ejfhp
   developerName: Rabbit Hole Lab
 
 ---

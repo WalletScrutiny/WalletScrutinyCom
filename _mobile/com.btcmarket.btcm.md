@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-20
 authors:
 - danny
+website: https://btcmarkets.net
 twitter: BTCMarkets
 social:
 - https://www.facebook.com/btcmarkets
@@ -26,7 +27,6 @@ android:
   version: 1.13.0
   reviews: 2
   icon: com.btcmarket.btcm.png
-  website: https://btcmarkets.net
   developerName: BTC Markets Pty Ltd
 iphone:
   appId: com.btcmarkets.btcm
@@ -37,7 +37,6 @@ iphone:
   version: 1.13.1
   reviews: 248
   icon: com.btcmarkets.btcm.jpg
-  website: https://www.btcmarkets.net
   developerName: BTC Markets
 
 ---

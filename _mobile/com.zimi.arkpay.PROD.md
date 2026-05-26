@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-05-30
 authors:
 - danny
+website: https://www.arkpay.site/
 redirect_from:
 - /android/com.zimi.arkpay.PROD/
 - /iphone/com.zimi.arkpay/
@@ -16,7 +17,6 @@ android:
   version: 2.15.0
   icon: com.zimi.arkpay.PROD.png
   meta: removed
-  website: https://www.arkpay.site/
   developerName: ZIMI
 iphone:
   appId: com.zimi.arkpay

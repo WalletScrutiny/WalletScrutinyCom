@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.liqi.com.br/
 twitter: liqibr
 social:
 - https://www.linkedin.com/company/liqibr
@@ -22,7 +23,6 @@ android:
   updated: 2023-03-13
   version: 1.2.6
   icon: com.liqidigitalassets.liqi.png
-  website: https://www.liqi.com.br/
   developerName: LIQI DIGITAL ASSETS
 iphone:
   appId: com.liqidigitalassets.liqi
@@ -33,7 +33,6 @@ iphone:
   version: 1.2.6
   reviews: 5
   icon: com.liqidigitalassets.liqi.jpg
-  website: http://www.liqi.com.br
   developerName: LIQI DIGITAL ASSETS LTDA
 
 ---

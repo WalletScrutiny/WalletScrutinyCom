@@ -15,7 +15,6 @@ android:
   version: '5.24'
   reviews: 275
   icon: com.suncrypto.in.png
-  website: https://suncrypto.in
   developerName: SunCrypto
 
 ---

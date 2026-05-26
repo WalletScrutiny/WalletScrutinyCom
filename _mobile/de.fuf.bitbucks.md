@@ -6,6 +6,7 @@ meta: ok
 date: 2025-09-03
 authors:
 - leo
+website: https://www.bitbucks.io/
 twitter: bit_bucks
 social:
 - https://www.facebook.com/bitbucks.io
@@ -22,7 +23,6 @@ android:
   version: 1.5.14
   reviews: 2
   icon: de.fuf.bitbucks.png
-  website: https://www.bitbucks.io/
   developerName: FUF // Frank und Freunde
 iphone:
   appId: de.fuf.bitbucks-io
@@ -32,7 +32,6 @@ iphone:
   version: 1.5.16
   reviews: 1
   icon: de.fuf.bitbucks-io.jpg
-  website: https://www.bitbucks.io
   developerName: FUF // Frank und Freunde
 
 ---

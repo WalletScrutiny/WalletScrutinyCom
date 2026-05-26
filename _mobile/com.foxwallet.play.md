@@ -6,6 +6,7 @@ meta: ok
 date: 2025-07-21
 authors:
 - danny
+website: https://www.foxwallet.com/en
 twitter: FoxWallet
 social:
 - https://t.me/FoxWallet_EN
@@ -21,7 +22,6 @@ android:
   version: 5.5.23
   reviews: 451
   icon: com.foxwallet.play.png
-  website: https://www.foxwallet.com/en
   developerName: FoxWallet
 iphone:
   appId: com.foxwallet.app
@@ -32,7 +32,6 @@ iphone:
   version: 5.5.22
   reviews: 86
   icon: com.foxwallet.app.jpg
-  website: https://foxwallet.com/
   developerName: BlockHill Tech Limited
 
 ---

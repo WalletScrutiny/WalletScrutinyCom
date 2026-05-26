@@ -16,7 +16,6 @@ android:
   updated: 2025-11-07
   version: 5.0.1
   icon: com.bitcointry.com.png
-  website: https://bitcointry.com
   developerName: Devcode Technology Ltd
 
 ---

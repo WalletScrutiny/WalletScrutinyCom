@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.starteos.io#deadLink
 twitter: Starteos
 social:
 - https://www.facebook.com/starteos.io.7
@@ -22,7 +23,6 @@ android:
   version: R02.03.06.478
   reviews: 4
   icon: com.hconline.iso.png
-  website: https://www.starteos.io#deadLink
   developerName: Start.io
 iphone:
   appId: com.HCLT.Starteos.store
@@ -32,7 +32,6 @@ iphone:
   version: 02.00.25
   reviews: 9
   icon: com.HCLT.Starteos.store.jpg
-  website: http://starteos.io#deadLink
   developerName: Starteos Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-30
 authors:
 - danny
+website: http://www.srsfc.com
 twitter: srsfintech
 social:
 - https://www.linkedin.com/company/srsfintech/
@@ -19,7 +20,6 @@ android:
   updated: 2026-05-06
   version: 5.0.6
   icon: com.ivan.fgwallet.png
-  website: http://www.srsfc.com
   developerName: BIB Holdings (M) Sdn Bhd
 iphone:
   appId: com.sfc.fgwallet
@@ -30,7 +30,6 @@ iphone:
   version: 4.1.10
   reviews: 2
   icon: com.sfc.fgwallet.jpg
-  website: https://fg-wallet.com/
   developerName: SRS FINTECH COMMERCE LTD
 
 ---

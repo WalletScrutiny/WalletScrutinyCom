@@ -7,6 +7,7 @@ date: 2024-10-07
 authors:
 - leo
 - danny
+website: http://www.walletofsatoshi.com
 twitter: walletofsatoshi
 social:
 - https://www.facebook.com/walletofsatoshi
@@ -29,7 +30,6 @@ android:
   version: 3.3.4
   reviews: 224
   icon: com.livingroomofsatoshi.wallet.png
-  website: http://www.walletofsatoshi.com
   developerName: Wallet of Satoshi
 iphone:
   appId: com.livingroomofsatoshi.wallet
@@ -40,7 +40,6 @@ iphone:
   version: 3.3.4
   reviews: 22
   icon: com.livingroomofsatoshi.wallet.jpg
-  website: https://www.walletofsatoshi.com
   developerName: Wallet of Satoshi
 
 ---

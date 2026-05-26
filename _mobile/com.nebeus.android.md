@@ -21,7 +21,6 @@ android:
   updated: 2026-02-11
   version: 2.1.6
   icon: com.nebeus.android.png
-  website: https://nebeus.com
   developerName: Rintral Trading SL
 iphone:
   appId: com.nebeus.appmobile

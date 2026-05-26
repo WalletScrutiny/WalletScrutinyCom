@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-03
 authors:
 - danny
+website: https://nanovest.zendesk.com/hc/en-us
 twitter: nanovest_io
 social:
 - https://www.facebook.com/nanovest
@@ -24,7 +25,6 @@ android:
   version: 5.8.0
   reviews: 30
   icon: com.nanovest.prod.png
-  website: https://nanovest.zendesk.com/hc/en-us
   developerName: Nanovest
 iphone:
   appId: io.nanovest
@@ -35,7 +35,6 @@ iphone:
   version: 5.8.0
   reviews: 16
   icon: io.nanovest.jpg
-  website: https://nanovest.io/
   developerName: PT. TUMBUH BERSAMA NANO
 
 ---

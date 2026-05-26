@@ -6,6 +6,7 @@ meta: ok
 date: 2023-10-06
 authors:
 - danny
+website: http://www.kointra.com
 twitter: KointraTR
 social:
 - https://www.instagram.com/kointracom/
@@ -19,7 +20,6 @@ android:
   updated: 2026-04-09
   version: 3.5.8
   icon: com.kointra.kointra.png
-  website: http://www.kointra.com
   developerName: Kointra Bilişim ve Teknoloji A.Ş.
 iphone:
   appId: com.kointra.Kointra.V1.0
@@ -30,7 +30,6 @@ iphone:
   version: 3.5.7(2)
   reviews: 32
   icon: com.kointra.Kointra.V1.0.jpg
-  website: https://kointra.com
   developerName: Kointra A.S
 
 ---

@@ -6,6 +6,7 @@ meta: stale
 date: 2022-04-11
 authors:
 - danny
+website: https://mybitstore.com
 twitter: mybitstore
 social:
 - https://facebook.com/mybitstore
@@ -23,7 +24,6 @@ android:
   reviews: 7
   icon: app.mybitstore.com.png
   meta: ok
-  website: https://mybitstore.com
   developerName: Mybitstore - Buy & Sell BTC
 iphone:
   appId: app.mybitstore.com

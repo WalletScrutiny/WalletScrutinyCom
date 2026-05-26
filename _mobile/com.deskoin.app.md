@@ -19,7 +19,6 @@ android:
   updated: 2026-05-23
   version: 7.7.2
   icon: com.deskoin.app.png
-  website: https://www.deskoin.com/
   developerName: Deskoin
 iphone:
   appId: com.deskoin.app

@@ -26,7 +26,6 @@ android:
   reviews: 12
   icon: com.buyucoinApp.buyucoin.png
   meta: stale
-  website: https://www.buyucoin.com
   developerName: Iblock Technologies Private Limited
 iphone:
   appId: com.buyucoin

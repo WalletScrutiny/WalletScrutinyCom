@@ -23,7 +23,6 @@ android:
   version: 2026.20.3
   reviews: 265927
   icon: com.robinhood.android.png
-  website: https://robinhood.com/
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Robinhood

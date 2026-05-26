@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-03
 authors:
 - leo
+website: https://celsius.network
 twitter: celsiusnetwork
 social:
 - https://www.linkedin.com/company/celsiusnetwork
@@ -22,7 +23,6 @@ android:
   version: 5.2.0
   reviews: 1750
   icon: network.celsius.wallet.png
-  website: https://celsius.network
   developerName: Celsius Network Crypto Wallet
 iphone:
   appId: network.celsius.wallet
@@ -32,7 +32,6 @@ iphone:
   version: v5.2.0
   reviews: 2518
   icon: network.celsius.wallet.jpg
-  website: https://celsius.network/
   developerName: Celsius Network
 
 ---

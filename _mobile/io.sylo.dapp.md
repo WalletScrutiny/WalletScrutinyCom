@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-04
 authors:
 - leo
+website: http://www.sylo.io
 twitter: sylo
 social:
 - https://www.linkedin.com/company/sylo.io
@@ -24,7 +25,6 @@ android:
   version: 4.0.14
   reviews: 46
   icon: io.sylo.dapp.png
-  website: http://www.sylo.io
   developerName: Sylo Licensing Limited
 iphone:
   appId: io.sylo.dapp
@@ -34,7 +34,6 @@ iphone:
   version: 4.0.14
   reviews: 82
   icon: io.sylo.dapp.jpg
-  website: https://www.sylo.io/wallet/
   developerName: Sylo Licensing Limited
 
 ---

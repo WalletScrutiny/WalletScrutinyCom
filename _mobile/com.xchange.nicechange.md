@@ -6,6 +6,7 @@ meta: removed
 date: 2025-01-15
 authors:
 - danny
+website: https://nicechange.net/
 redirect_from:
 - /android/com.xchange.nicechange/
 - /iphone/com.xchangecapital.nicechange/
@@ -16,7 +17,6 @@ android:
   updated: 2024-08-01
   version: 4.1.1
   icon: com.xchange.nicechange.png
-  website: https://nicechange.net/
   developerName: XchangeCapitalGroup OU
 iphone:
   appId: com.xchangecapital.nicechange

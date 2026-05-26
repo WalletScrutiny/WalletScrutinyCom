@@ -20,7 +20,6 @@ android:
   version: '0.45'
   reviews: 8
   icon: com.pilab.biport.png
-  website: https://pilab.co
   developerName: PiLab Technology
 
 ---

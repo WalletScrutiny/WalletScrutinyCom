@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.fatbtc.com
 twitter: fatbtc
 appCountry: us
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: '2.512'
   reviews: 10
   icon: com.fatbtc.App.png
-  website: https://www.fatbtc.com
   developerName: FatBTC Ltd.,
 iphone:
   appId: com.fatbtc.FatBTCApp
@@ -29,7 +29,6 @@ iphone:
   version: '2.5'
   reviews: 2
   icon: com.fatbtc.FatBTCApp.jpg
-  website: https://www.fatbtc.com/
   developerName: FATBTC LTD
 
 ---

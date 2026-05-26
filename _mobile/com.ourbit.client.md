@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-26
 authors:
 - danny
+website: https://www.ourbit.com
 twitter: ourbit
 social:
 - https://t.me/Ourbitglobal
@@ -22,7 +23,6 @@ android:
   version: 1.20.1
   reviews: 56
   icon: com.ourbit.client.png
-  website: https://www.ourbit.com
   developerName: Ourbit
 iphone:
   appId: com.ourbit.www

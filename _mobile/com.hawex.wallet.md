@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-23
 authors:
 - danny
+website: http://hawexdao.com
 twitter: hawexdao
 social:
 - https://t.me/hawex
@@ -20,7 +21,6 @@ android:
   updated: 2024-05-06
   version: '2.1'
   icon: com.hawex.wallet.png
-  website: http://hawexdao.com
   developerName: Hawex Investment LLC
 iphone:
   appId: com.hawex.cryptowallet

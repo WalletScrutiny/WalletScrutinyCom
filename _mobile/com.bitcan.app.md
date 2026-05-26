@@ -5,6 +5,7 @@ verdict: custodial
 date: 2021-10-21
 authors:
 - danny
+website: http://www.bitkan.com
 twitter: bitkanofficial
 features:
 - fingerprint
@@ -22,7 +23,6 @@ android:
   reviews: 29
   icon: com.bitcan.app.png
   meta: removed
-  website: http://www.bitkan.com
   developerName: bitkan.com
 iphone:
   appId: com.btckan.us
@@ -33,7 +33,6 @@ iphone:
   reviews: 51
   icon: com.btckan.us.jpg
   meta: ok
-  website: https://bitkan.com/
   developerName: LUMENRISE LIMITED
 
 ---

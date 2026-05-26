@@ -9,6 +9,7 @@ authors:
 - leo
 - danny
 - keraliss
+website: https://horizontalsystems.io/
 twitter: unstoppablebyhs
 social:
 - https://www.reddit.com/r/UNSTOPPABLEWallet
@@ -36,7 +37,6 @@ android:
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
   - fdroid
-  website: https://horizontalsystems.io/
   developerName: Horizontal Systems
   repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 iphone:
@@ -47,7 +47,6 @@ iphone:
   version: 0.48.1
   reviews: 1305
   icon: io.horizontalsystems.bank-wallet.jpg
-  website: https://unstoppable.money/
   developerName: Horizontal Systems
   repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 

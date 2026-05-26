@@ -24,7 +24,6 @@ android:
   version: '2.0'
   reviews: 20
   icon: network.privapp.wallet.jpg
-  website: https://privapp.network/
   developerName: Privapp Network
 
 ---

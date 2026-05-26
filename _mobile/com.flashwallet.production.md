@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://flash-wallet.com/
 twitter: Flash_Techno_Of
 features:
 - fingerprint
@@ -21,7 +22,6 @@ android:
   updated: 2026-01-29
   version: '32.0'
   icon: com.flashwallet.production.jpg
-  website: https://flash-wallet.com/
   developerName: Flash Wallet
 iphone:
   appId: flashwallet.org.production

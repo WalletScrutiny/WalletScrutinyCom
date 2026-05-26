@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-07-21
 authors:
 - danny
+website: https://ceffu.com
 twitter: CeffuGlobal
 social:
 - https://www.linkedin.com/company/ceffu
@@ -22,7 +23,6 @@ android:
   reviews: 8
   icon: com.binance.custody.png
   meta: removed
-  website: https://ceffu.com
   developerName: Binance Inc.
 iphone:
   appId: com.binance.custody
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: com.binance.custody.jpg
   meta: ok
-  website: https://www.ceffu.com
   developerName: Block Technologies Pte Ltd
 
 ---

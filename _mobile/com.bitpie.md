@@ -6,6 +6,7 @@ date: 2021-10-01
 authors:
 - leo
 - danny
+website: http://bitpie.com
 twitter: BitpieWallet
 social:
 - https://www.facebook.com/BitpieOfficial
@@ -29,7 +30,6 @@ android:
   reviews: 126
   icon: com.bitpie.png
   meta: removed
-  website: http://bitpie.com
   developerName: getcai
 iphone:
   appId: com.bitpie.wallet
@@ -40,7 +40,6 @@ iphone:
   reviews: 362
   icon: com.bitpie.wallet.jpg
   meta: ok
-  website: https://bitpie.com
   developerName: BITPIE HK LIMITED
 
 ---

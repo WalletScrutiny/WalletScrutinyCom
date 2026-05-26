@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-30
 authors:
 - danny
+website: https://www.flitpay.com/
 twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
@@ -21,7 +22,6 @@ android:
   version: 1.0.66
   reviews: 2755
   icon: com.core.app.flitpay.png
-  website: https://www.flitpay.com/
   developerName: FLITPAY PVT LTD
 iphone:
   appId: com.core.ios.flitpay
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.25
   reviews: 133
   icon: com.core.ios.flitpay.jpg
-  website: https://www.flitpay.com
   developerName: FLITPAY PVT LTD
 
 ---

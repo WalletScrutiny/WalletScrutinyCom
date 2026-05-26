@@ -6,6 +6,7 @@ meta: ok
 date: 2023-05-05
 authors:
 - danny
+website: https://www.bytefederal.com
 twitter: bytefederal
 social:
 - https://www.facebook.com/bytefederal
@@ -27,7 +28,6 @@ android:
   version: VARY
   reviews: 54
   icon: io.bytewallet.bytewallet.png
-  website: https://www.bytefederal.com
   developerName: Byte Federal, Inc
 iphone:
   appId: com.bytefederal.bytewallet
@@ -38,7 +38,6 @@ iphone:
   version: 1.7.0.2
   reviews: 48
   icon: com.bytefederal.bytewallet.jpg
-  website: http://bytefederal.com/vault
   developerName: Byte Federal, Inc.
 
 ---

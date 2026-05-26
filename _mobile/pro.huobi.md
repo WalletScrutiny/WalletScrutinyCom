@@ -6,6 +6,7 @@ meta: ok
 date: 2020-05-29
 authors:
 - leo
+website: http://www.hbg.com
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
@@ -25,7 +26,6 @@ android:
   version: 11.20.1
   reviews: 553
   icon: pro.huobi.png
-  website: http://www.hbg.com
   developerName: Huobi
 iphone:
   appId: com.huobi.appStoreHuobiSystem
@@ -36,7 +36,6 @@ iphone:
   version: 11.20.0
   reviews: 1427
   icon: com.huobi.appStoreHuobiSystem.jpg
-  website: https://www.htx.com
   developerName: SAFE GLORY UAB
 
 ---

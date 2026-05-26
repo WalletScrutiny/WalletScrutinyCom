@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-05
 authors:
 - danny
+website: https://newton.co
 twitter: newton_crypto
 social:
 - https://discord.com/invite/newtoncrypto
@@ -23,7 +24,6 @@ android:
   version: 2.20.24
   reviews: 4
   icon: web.tradenewton.com.png
-  website: https://newton.co
   developerName: Newton Crypto Ltd
 iphone:
   appId: co.newton.newtonios
@@ -34,7 +34,6 @@ iphone:
   version: 2.20.24
   reviews: 24480
   icon: co.newton.newtonios.jpg
-  website: https://www.newton.co
   developerName: Newton Crypto Ltd.
 
 ---

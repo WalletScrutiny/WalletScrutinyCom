@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://haruinvest.com
 twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest
@@ -21,7 +22,6 @@ android:
   version: 5.2.0
   reviews: 51
   icon: com.bchi.haruinvestapp.png
-  website: https://haruinvest.com
   developerName: Haru Invest
 iphone:
   appId: com.bchi.haruinvestapp
@@ -31,7 +31,6 @@ iphone:
   version: 5.2.0
   reviews: 203
   icon: com.bchi.haruinvestapp.jpg
-  website: https://haruinvest.com/
   developerName: BCHI Limited
 
 ---

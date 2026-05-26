@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-07
 authors:
 - danny
+website: https://saltlending.com
 twitter: SALTlending
 social:
 - https://www.linkedin.com/company/saltlending
@@ -22,7 +23,6 @@ android:
   version: 2.20.5
   reviews: 44
   icon: com.saltlending.mobile.png
-  website: https://saltlending.com
   developerName: SALT Blockchain, Inc.
 iphone:
   appId: com.saltlending.mobile
@@ -32,7 +32,6 @@ iphone:
   version: 2.20.5
   reviews: 26
   icon: com.saltlending.mobile.jpg
-  website: https://saltlending.com/
   developerName: Salt Blockchain Inc.
 
 ---

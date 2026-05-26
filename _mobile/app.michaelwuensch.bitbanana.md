@@ -35,7 +35,6 @@ android:
   signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
   alternativeStores:
   - fdroid
-  website: https://bitbanana.app/
   developerName: Michael Wünsch
 
 ---

@@ -22,7 +22,6 @@ android:
   version: 3.2.6
   reviews: 34
   icon: com.gmo.exchange.jpg
-  website: https://ex.z.com/
   developerName: GMO-Z.com Cryptonomics Ltd. Thailand
 iphone:
   appId: com.gmo.exchange

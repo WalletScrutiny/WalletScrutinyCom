@@ -6,6 +6,7 @@ meta: removed
 date: 2021-09-08
 authors:
 - kiwilamb
+website: https://bundle.africa
 redirect_from:
 - /android/africa.bundle.mobile.app/
 - /iphone/com.bundlewallet.mobileApp/
@@ -17,7 +18,6 @@ android:
   version: 4.6.9
   reviews: 371
   icon: africa.bundle.mobile.app.png
-  website: https://bundle.africa
   developerName: BundleAfrica
 iphone:
   appId: com.bundlewallet.mobileApp
@@ -27,7 +27,6 @@ iphone:
   version: 3.0.0
   reviews: 208
   icon: com.bundlewallet.mobileApp.jpg
-  website: https://bundle.africa/
 
 ---
 

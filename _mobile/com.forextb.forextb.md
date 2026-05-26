@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://www.forextb.com/eu/
 appCountry: dk
 redirect_from:
 - /android/com.forextb.forextb/
@@ -18,7 +19,6 @@ android:
   version: 2.7.1
   reviews: 146
   icon: com.forextb.forextb.png
-  website: https://www.forextb.com/eu/
   developerName: Forex TB Limited
 iphone:
   appId: com.forextb.forextb
@@ -28,7 +28,6 @@ iphone:
   version: 2.5.2
   reviews: 0
   icon: com.forextb.forextb.jpg
-  website: https://www.forextb.com/
   developerName: Forex TB Limited
 
 ---

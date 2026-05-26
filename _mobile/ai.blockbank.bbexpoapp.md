@@ -6,6 +6,7 @@ meta: removed
 date: 2025-04-01
 authors:
 - danny
+website: https://pairs.xyz
 twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank
@@ -22,7 +23,6 @@ android:
   version: 4.4.7
   reviews: 13
   icon: ai.blockbank.bbexpoapp.png
-  website: https://pairs.xyz
   developerName: UAB HODL SERVICES
 iphone:
   appId: ai.blockbank.blockbankv2
@@ -33,7 +33,6 @@ iphone:
   version: 3.3.6
   reviews: 13
   icon: ai.blockbank.blockbankv2.jpg
-  website: https://twitter.com/BLOCKBANKapp
 
 ---
 

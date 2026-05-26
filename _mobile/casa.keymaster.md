@@ -7,6 +7,7 @@ date: 2021-05-22
 authors:
 - leo
 - danny
+website: https://keys.casa
 twitter: CasaHODL
 features:
 - buyWithCC
@@ -24,7 +25,6 @@ android:
   version: 5.15.0
   reviews: 28
   icon: casa.keymaster.png
-  website: https://keys.casa
   developerName: Casa, Inc
 iphone:
   appId: com.casa.vault
@@ -34,7 +34,6 @@ iphone:
   version: 5.15.0
   reviews: 1208
   icon: com.casa.vault.jpg
-  website: https://www.casa.io
   developerName: Casa Inc.
 
 ---

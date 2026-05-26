@@ -32,7 +32,6 @@ android:
   reviews: 3
   icon: to.bitkit.png
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
-  website: https://bitkit.to/
   developerName: Synonym
   repository: https://github.com/synonymdev/bitkit
 iphone:

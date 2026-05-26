@@ -6,6 +6,7 @@ meta: removed
 date: 2023-03-21
 authors:
 - danny
+website: https://www.stratum.hk/
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
@@ -21,7 +22,6 @@ android:
   updated: 2021-03-18
   version: 1.6.9
   icon: com.modelxv64.png
-  website: https://www.stratum.hk/
 iphone:
   appId: saw.stratumadvancedwallet
   idd: 1514513162

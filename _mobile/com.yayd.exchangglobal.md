@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: http://www.bkex.vip#deadLink
 redirect_from:
 - /android/com.yayd.exchangglobal/
 - /iphone/com.bkex.exchange/
@@ -27,7 +28,6 @@ iphone:
   version: 7.30.1
   reviews: 286
   icon: com.bkex.exchange.jpg
-  website: http://www.bkex.vip#deadLink
   developerName: Intellefund Finance Limited
 
 ---

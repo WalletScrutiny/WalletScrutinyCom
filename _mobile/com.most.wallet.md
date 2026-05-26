@@ -15,7 +15,6 @@ android:
   updated: 2025-10-28
   version: 1.8.52
   icon: com.most.wallet.png
-  website: https://scitechnologyinc.com/mostwallet
   developerName: SCI Technology Inc DE
 
 ---

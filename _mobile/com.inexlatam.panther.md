@@ -22,7 +22,6 @@ android:
   version: 0.8.4
   reviews: 5
   icon: com.inexlatam.panther.png
-  website: https://mypanther.io
   developerName: Veltrix Technologies OÜ
 iphone:
   appId: com.inexlatam.panther

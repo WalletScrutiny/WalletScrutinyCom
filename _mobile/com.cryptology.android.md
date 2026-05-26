@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://cryptology.com/
 twitter: Cryptologyexch
 social:
 - https://www.facebook.com/Cryptologyexch
@@ -21,7 +22,6 @@ android:
   version: 3.19.0
   reviews: 3
   icon: com.cryptology.android.png
-  website: https://cryptology.com/
   developerName: Cypher OÜ
 iphone:
   appId: com.cryptology.ios
@@ -31,7 +31,6 @@ iphone:
   version: 3.15.3
   reviews: 6
   icon: com.cryptology.ios.jpg
-  website: http://cryptology.com
   developerName: Cypher OU
 
 ---

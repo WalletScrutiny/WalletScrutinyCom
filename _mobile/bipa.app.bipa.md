@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-14
 authors:
 - danny
+website: https://bipa.app/
 twitter: usebipa
 features:
 - fingerprint
@@ -22,7 +23,6 @@ android:
   version: 4.2.34
   reviews: 13
   icon: bipa.app.bipa.png
-  website: https://bipa.app/
   developerName: Bipa
 iphone:
   appId: bipa.app.Bipa
@@ -33,7 +33,6 @@ iphone:
   version: 4.2.13
   reviews: 9104
   icon: bipa.app.Bipa.jpg
-  website: https://bipa.app
   developerName: Bipa Ltda
 
 ---

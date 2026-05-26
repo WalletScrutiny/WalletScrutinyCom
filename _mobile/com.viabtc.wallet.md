@@ -7,6 +7,7 @@ date: 2021-10-01
 authors:
 - leo
 - danny
+website: https://viawallet.com
 twitter: viawallet
 social:
 - https://www.facebook.com/ViaWallet
@@ -27,7 +28,6 @@ android:
   version: 4.23.1
   reviews: 61
   icon: com.viabtc.wallet.png
-  website: https://viawallet.com
   developerName: CoinEx
 iphone:
   appId: com.viabtc.ViaWallet
@@ -37,7 +37,6 @@ iphone:
   version: 4.23.1
   reviews: 54
   icon: com.viabtc.ViaWallet.jpg
-  website: https://wallet.coinex.com/
   developerName: Coinex Global Limited
 
 ---

@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-06-21
 authors:
 - danny
+website: https://pro.buycoins.africa
 appCountry: us
 redirect_from:
 - /android/africa.buycoins.buycoinsx.pro/
@@ -19,7 +20,6 @@ android:
   reviews: 3
   icon: africa.buycoins.buycoinsx.pro.png
   meta: obsolete
-  website: https://pro.buycoins.africa
   developerName: Bitkoin Africa Inc
 iphone:
   appId: africa.buycoins.BuycoinsX.pro
@@ -30,7 +30,6 @@ iphone:
   reviews: 23
   icon: africa.buycoins.BuycoinsX.pro.jpg
   meta: removed
-  website: http://buycoins.africa
   developerName: Buycoins, Inc.
 
 ---

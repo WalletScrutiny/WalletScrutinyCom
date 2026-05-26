@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-04
 authors:
 - danny
+website: https://www.dhanu.org#deadLink
 redirect_from:
 - /android/com.cryptoex.dhanux/
 - /iphone/com.dhanuX/
@@ -16,7 +17,6 @@ android:
   updated: 2023-01-12
   version: '4.2'
   icon: com.cryptoex.dhanux.png
-  website: https://www.dhanu.org#deadLink
   developerName: dhanux
 iphone:
   appId: com.dhanuX
@@ -27,7 +27,6 @@ iphone:
   version: 1.6.1
   reviews: 0
   icon: com.dhanuX.jpg
-  website: https://web.archive.org/web/20231129221500/https://www.dhanux.com:443/
   developerName: DHANU INNOVATIVE INFORMATION TECHNOLOGY NETWORK SERVICES CO.
 
 ---

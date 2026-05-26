@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: http://sticpay.com
 twitter: SticPay
 social:
 - https://www.linkedin.com/company/sticpay
@@ -22,7 +23,6 @@ android:
   version: '4.47'
   reviews: 16
   icon: com.sticpay.app.sticpay.png
-  website: http://sticpay.com
   developerName: STICPAY
 iphone:
   appId: com.sticpay.app
@@ -32,7 +32,6 @@ iphone:
   version: '4.02'
   reviews: 27
   icon: com.sticpay.app.jpg
-  website: https://www.sticpay.com/
   developerName: STIC FINANCIAL LTD.
 
 ---

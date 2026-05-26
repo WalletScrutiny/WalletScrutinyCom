@@ -6,6 +6,7 @@ meta: ok
 date: 2023-12-21
 authors:
 - danny
+website: https://phantom.com/
 twitter: phantom
 social:
 - https://www.reddit.com/r/phantom/
@@ -27,7 +28,6 @@ android:
   version: 26.13.4
   reviews: 2245
   icon: app.phantom.png
-  website: https://phantom.com/
   developerName: Phantom Technologies, Inc.
 iphone:
   appId: app.phantom
@@ -38,7 +38,6 @@ iphone:
   version: 26.13.4
   reviews: 60977
   icon: app.phantom.jpg
-  website: https://phantom.com
   developerName: Phantom Technologies Incorporated
 
 ---

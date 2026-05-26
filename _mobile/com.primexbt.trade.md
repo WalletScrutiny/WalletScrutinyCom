@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-02
 authors:
 - danny
+website: https://primexbt.com/
 twitter: primexbt
 social:
 - https://www.facebook.com/primexbt
@@ -26,7 +27,6 @@ android:
   reviews: 68
   icon: com.primexbt.trade.png
   meta: ok
-  website: https://primexbt.com/
   developerName: Prime Technology LTD
 iphone:
   appId: primexbtcom

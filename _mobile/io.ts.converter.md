@@ -20,7 +20,6 @@ android:
   version: 3.12.13
   reviews: 10
   icon: io.ts.converter.png
-  website: https://tapswap.io
   developerName: TapSwap
 
 ---

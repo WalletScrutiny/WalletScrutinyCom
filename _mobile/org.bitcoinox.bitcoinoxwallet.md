@@ -21,7 +21,6 @@ android:
   version: 2.8.8
   reviews: 5
   icon: org.bitcoinox.bitcoinoxwallet.png
-  website: https://bitcoinox.com
   developerName: GNUAPP UNIPESSOAL LDA
 
 ---

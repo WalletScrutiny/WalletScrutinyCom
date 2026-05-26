@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-16
 authors:
 - danny
+website: https://www.coinberry.com
 twitter: CoinberryHQ
 social:
 - https://www.linkedin.com/company/coinberry
@@ -22,7 +23,6 @@ android:
   version: 137.6.4
   reviews: 655
   icon: com.coinberry_mobile.png
-  website: https://www.coinberry.com
   developerName: Coinberry
 iphone:
   appId: com.coinberry.coinberry
@@ -32,7 +32,6 @@ iphone:
   version: 137.6.3
   reviews: 5958
   icon: com.coinberry.coinberry.jpg
-  website: https://coinberry.com
   developerName: Coinberry
 
 ---

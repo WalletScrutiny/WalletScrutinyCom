@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-14
 authors:
 - danny
+website: https://maxwallet.cc/contact-us
 twitter: MaxWalletEN
 social:
 - https://t.me/maxwalletapp
@@ -18,7 +19,6 @@ android:
   updated: 2026-03-26
   version: 1.2.0
   icon: com.maxwallet.cc.png
-  website: https://maxwallet.cc/contact-us
   developerName: MaxWallet
 iphone:
   appId: com.maxwallet.cc

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-10
 authors:
 - danny
+website: https://www.korbit.co.kr
 redirect_from:
 - /android/com.korbit.exchange/
 - /iphone/com.korbit.exchange/
@@ -18,7 +19,6 @@ android:
   version: 11.14.1
   reviews: 9
   icon: com.korbit.exchange.png
-  website: https://www.korbit.co.kr
   developerName: Korbit
 iphone:
   appId: com.korbit.exchange
@@ -29,7 +29,6 @@ iphone:
   version: 11.14.1
   reviews: 629
   icon: com.korbit.exchange.jpg
-  website: http://www.korbit.co.kr
   developerName: Korbit
 
 ---

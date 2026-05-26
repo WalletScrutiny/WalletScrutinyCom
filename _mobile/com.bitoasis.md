@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-15
 authors:
 - danny
+website: https://bitoasis.net/
 twitter: bitoasis
 social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
@@ -26,7 +27,6 @@ android:
   version: 4.2.4
   reviews: 667
   icon: com.bitoasis.png
-  website: https://bitoasis.net/
   developerName: BitOasis
 iphone:
   appId: net.bitoasis.ios.com
@@ -36,7 +36,6 @@ iphone:
   version: 2.4.2
   reviews: 4498
   icon: net.bitoasis.ios.com.jpg
-  website: https://bitoasis.net/en/home
   developerName: BitOasis Technologies FZE
 
 ---

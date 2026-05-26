@@ -23,7 +23,6 @@ android:
   updated: 2026-05-23
   version: 3.16.2-retail
   icon: com.moneybrain.moneybrain.png
-  website: https://www.moneybrain.com
   developerName: Moneybrain LTD
 iphone:
   appId: com.moneybrain.moneybrain

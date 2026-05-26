@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-08-16
 authors:
 - danny
+website: https://blackfort.exchange
 twitter: BlackFort_Tech
 social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
@@ -23,7 +24,6 @@ android:
   reviews: 52
   icon: exchange.blackfort.wallet.png
   meta: obsolete
-  website: https://blackfort.exchange
   developerName: Blackfort Technologies LLC
 iphone:
   appId: exchange.blackfort.wallet
@@ -34,7 +34,6 @@ iphone:
   reviews: 0
   icon: exchange.blackfort.wallet.jpg
   meta: removed
-  website: https://blackfort.exchange/
   developerName: BlackFort
 
 ---

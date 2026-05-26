@@ -6,6 +6,7 @@ meta: ok
 date: 2026-03-05
 authors:
 - danny
+website: https://atomwallets.com
 twitter: AtomWallets
 redirect_from:
 - /android/com.atomwallets.app/
@@ -17,7 +18,6 @@ android:
   updated: 2026-04-22
   version: 2.2.9
   icon: com.atomwallets.app.png
-  website: https://atomwallets.com
   developerName: PayAtom
 iphone:
   appId: ios.atomwallets.com
@@ -28,7 +28,6 @@ iphone:
   version: 2.2.7
   reviews: 1
   icon: ios.atomwallets.com.jpg
-  website: https://atomwallets.com/
   developerName: Atom Wallets
 
 ---

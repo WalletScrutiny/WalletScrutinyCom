@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-22
 authors:
 - danny
+website: https://www.bitcoinsuisse.com
 twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
@@ -24,7 +25,6 @@ android:
   updated: 2026-02-02
   version: 3.0.3
   icon: com.bitcoinsuisse.online.png
-  website: https://www.bitcoinsuisse.com
   developerName: Bitcoin Suisse AG
 iphone:
   appId: com.bitcoinsuisse.online
@@ -34,7 +34,6 @@ iphone:
   version: 3.2.0
   reviews: 0
   icon: com.bitcoinsuisse.online.jpg
-  website: https://www.bitcoinsuisse.com/mobile-app
   developerName: Bitcoin Suisse
 
 ---

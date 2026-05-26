@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-07
 authors:
 - danny
+website: https://aqru.io/
 twitter: AQRU_Official
 social:
 - https://www.linkedin.com/company/get-aqru
@@ -21,7 +22,6 @@ android:
   updated: 2023-01-10
   version: 1.0.201
   icon: com.accru.png
-  website: https://aqru.io/
   developerName: AQRU
 iphone:
   appId: org.reactjs.native.example.AccruApp

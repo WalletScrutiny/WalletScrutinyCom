@@ -21,7 +21,6 @@ android:
   version: 2.7.0-Rabex
   reviews: 10
   icon: com.rabin.rabex.png
-  website: https://rabex.ir
   developerName: Rabex Team
 
 ---

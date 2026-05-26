@@ -19,7 +19,6 @@ android:
   version: 3.2.1
   icon: com.pt.powertrade.png
   meta: ok
-  website: https://power.trade/
   developerName: PowerTrade
 iphone:
   appId: com.pt.powertrade

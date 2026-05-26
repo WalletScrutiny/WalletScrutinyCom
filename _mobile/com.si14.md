@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-08
 authors:
 - danny
+website: https://si14cw.com
 features:
 - buyWithCC
 - customNode
@@ -23,7 +24,6 @@ android:
   updated: 2025-10-09
   version: 1.2.5
   icon: com.si14.png
-  website: https://si14cw.com
   developerName: Si14 Bank
 iphone:
   appId: com.si14wallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-14
 authors:
 - danny
+website: https://sekiapp.com
 twitter: Seki_APP
 social:
 - https://www.linkedin.com/company/sekiapp
@@ -24,7 +25,6 @@ android:
   version: 2.3.7
   reviews: 25
   icon: com.wiseki.sekiapp.png
-  website: https://sekiapp.com
   developerName: SekiApp
 iphone:
   appId: com.wiseki.sekiapp.new

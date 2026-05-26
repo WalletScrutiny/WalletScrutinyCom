@@ -6,6 +6,7 @@ meta: removed
 date: 2025-05-30
 authors:
 - danny
+website: https://www.cryptokara.com/
 redirect_from:
 - /android/com.cryptokara/
 - /iphone/com.cryptokara.app/
@@ -17,7 +18,6 @@ android:
   version: 1.7.5
   reviews: 144
   icon: com.cryptokara.jpg
-  website: https://www.cryptokara.com/
   developerName: 'Eagle Network : Digital Currency For Phone'
 iphone:
   appId: com.cryptokara.app
@@ -28,7 +28,6 @@ iphone:
   version: 7.4.3
   reviews: 45
   icon: com.cryptokara.app.jpg
-  website: https://crypto-kara-site.vercel.app/
   developerName: AUTOMATED CHAIN LIMITED
 
 ---

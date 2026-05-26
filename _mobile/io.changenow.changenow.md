@@ -28,7 +28,6 @@ android:
   version: 2.0.2
   reviews: 803
   icon: io.changenow.changenow.png
-  website: https://changenow.io
   developerName: ChangeNOW
 iphone:
   appId: io.changenow

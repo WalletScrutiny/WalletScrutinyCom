@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-16
 authors:
 - danny
+website: https://www.corex.mn/
 twitter: COREXmn
 social:
 - https://www.instagram.com/corex.mn
@@ -21,7 +22,6 @@ android:
   updated: 2026-01-20
   version: 2.0.59
   icon: mn.ailab.corex.png
-  website: https://www.corex.mn/
   developerName: Corex LLC
 iphone:
   appId: mn.ailab.corex
@@ -32,7 +32,6 @@ iphone:
   version: 2.0.70
   reviews: 9
   icon: mn.ailab.corex.jpg
-  website: https://www.corexchain.io/?page_id=1479&lang=en
   developerName: Corex LLC
 
 ---

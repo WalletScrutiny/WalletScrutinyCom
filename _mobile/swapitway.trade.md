@@ -19,7 +19,6 @@ android:
   version: '5'
   reviews: 49
   icon: swapitway.trade.jpg
-  website: https://swapitway.com
   developerName: Nairance Limited
 
 ---

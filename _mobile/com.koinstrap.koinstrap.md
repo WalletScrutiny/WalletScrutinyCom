@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-26
 authors:
 - danny
+website: https://koinstrap.com
 twitter: koinstrap
 social:
 - https://www.facebook.com/koinstrap
@@ -21,7 +22,6 @@ android:
   version: 4.1.7
   icon: com.koinstrap.koinstrap.png
   meta: ok
-  website: https://koinstrap.com
   developerName: Koinstrap, Inc
 iphone:
   appId: com.koinstrap.koinstrap
@@ -32,7 +32,6 @@ iphone:
   reviews: 34
   icon: com.koinstrap.koinstrap.jpg
   meta: obsolete
-  website: https://koinstrap.com/
   developerName: Koinstrap, Inc.
 
 ---

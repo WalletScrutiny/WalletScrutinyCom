@@ -5,6 +5,7 @@ verdict: custodial
 date: 2021-12-22
 authors:
 - danny
+website: https://www.mobi.me/
 twitter: mobimeglobal
 social:
 - https://www.facebook.com/mobimeglobal
@@ -21,7 +22,6 @@ android:
   reviews: 19
   icon: com.btcc.mobiwallet.png
   meta: removed
-  website: https://www.mobi.me/
 iphone:
   appId: me.mobi.app
   idd: 1180017272
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: me.mobi.app.jpg
   meta: obsolete
-  website: http://www.mobi.me
   developerName: Mobi Me Limited
 
 ---

@@ -26,7 +26,6 @@ android:
   version: 1.1.0
   reviews: 2
   icon: com.uniwallet.png
-  website: https://uniwall.et/
   developerName: UniWallet Ltd.
 iphone:
   appId: org.uniwallet.UniWallet

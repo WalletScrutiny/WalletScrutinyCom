@@ -16,7 +16,6 @@ android:
   updated: 2024-02-29
   version: 1.1.0
   icon: com.fliplabs.dartafrica.png
-  website: https://dartafrica.io
   developerName: FLIP Labs
 
 ---

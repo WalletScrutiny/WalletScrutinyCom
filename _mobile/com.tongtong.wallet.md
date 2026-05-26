@@ -21,7 +21,6 @@ android:
   updated: 2026-05-20
   version: 2.1.15
   icon: com.tongtong.wallet.png
-  website: https://tongtongwallet.com/
   developerName: Tomato Group
 iphone:
   appId: com.etomato.wallet

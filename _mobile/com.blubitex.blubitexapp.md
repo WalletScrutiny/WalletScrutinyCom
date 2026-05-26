@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://blubitex.com#deadLink
 twitter: blubitex
 social:
 - https://www.facebook.com/blubitexofficial
@@ -21,7 +22,6 @@ android:
   version: 2.1.342
   reviews: 37
   icon: com.blubitex.blubitexapp.png
-  website: https://blubitex.com#deadLink
   developerName: BLUBITEX LIMITED
 iphone:
   appId: com.blubitex.blubitexapp
@@ -31,7 +31,6 @@ iphone:
   version: 3.1.341
   reviews: 3
   icon: com.blubitex.blubitexapp.jpg
-  website: https://www.blubitex.com#deadLink
   developerName: BLUBITEX LIMITED
 
 ---

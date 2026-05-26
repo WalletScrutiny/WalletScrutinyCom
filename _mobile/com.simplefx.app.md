@@ -19,7 +19,6 @@ android:
   version: 3.0.92
   reviews: 7
   icon: com.simplefx.app.png
-  website: https://simplefx.com
   developerName: SimpleFX Ltd.
 
 ---

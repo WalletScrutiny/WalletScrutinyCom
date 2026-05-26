@@ -6,6 +6,7 @@ meta: ok
 date: 2024-08-28
 authors:
 - danny
+website: https://crystalballmarkets.com/
 social:
 - https://www.linkedin.com/company/crystal-ball-markets
 - https://www.facebook.com/crystalballmarkets
@@ -21,7 +22,6 @@ android:
   reviews: 45
   icon: webtrader.crystalballmarkets.com.png
   meta: ok
-  website: https://crystalballmarkets.com/
   developerName: Crystal Ball Markets
 iphone:
   appId: com.crystalballmarkets.mobiustrader7
@@ -33,7 +33,6 @@ iphone:
   reviews: 0
   icon: com.crystalballmarkets.mobiustrader7.jpg
   meta: obsolete
-  website: https://crystalballmarkets.com/platform
   developerName: Crystal Ball Markets LLC
 
 ---

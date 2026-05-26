@@ -7,6 +7,7 @@ date: 2024-10-07
 authors:
 - kiwilamb
 - leo
+website: https://bingx.com
 twitter: BingbonOfficial
 social:
 - https://www.linkedin.com/company/bingbon
@@ -25,7 +26,6 @@ android:
   reviews: 1410
   icon: pro.bingbon.app.png
   meta: removed
-  website: https://bingx.com
   developerName: BINGX GROUP LIMITED
 iphone:
   appId: pro.bingbon.finance
@@ -36,7 +36,6 @@ iphone:
   reviews: 2963
   icon: pro.bingbon.finance.jpg
   meta: ok
-  website: https://bingbon.com#deadLink
   developerName: BingX Group Limited
 
 ---

@@ -4,6 +4,7 @@ title: Haven - Private Shopping
 verdict: sourceavailable
 meta: removed
 date: 2021-01-15
+website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven
 twitter: HavenPrivacy
 social:
@@ -21,7 +22,6 @@ android:
   version: 1.3.7
   reviews: 173
   icon: io.ob1.nativeandroid.png
-  website: https://gethaven.app
 iphone:
   appId: io.ob1.native-ios
   idd: 1318395690
@@ -30,7 +30,6 @@ iphone:
   version: 1.3.8
   reviews: 188
   icon: io.ob1.native-ios.jpg
-  website: https://gethaven.app/
 
 ---
 

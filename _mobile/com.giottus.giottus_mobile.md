@@ -5,6 +5,7 @@ meta: ok
 date: 2024-07-15
 authors:
 - danny
+website: https://www.giottus.com
 twitter: giottus
 social:
 - https://www.linkedin.com/company/giottus
@@ -22,7 +23,6 @@ android:
   reviews: 26
   icon: com.giottus.giottus_mobile.png
   verdict: custodial
-  website: https://www.giottus.com
   developerName: Giottus Technologies Private Limited
 iphone:
   appId: com.giottus.app

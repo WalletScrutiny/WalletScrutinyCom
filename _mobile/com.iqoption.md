@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-02
 authors:
 - danny
+website: https://km.iqoption.com/en
 twitter: IQOption
 social:
 - https://www.instagram.com/iqoption_official
@@ -20,7 +21,6 @@ android:
   version: 8.66.1
   reviews: 542
   icon: com.iqoption.jpg
-  website: https://km.iqoption.com/en
   developerName: IQ Option
 iphone:
   appId: com.trading.iqoption
@@ -31,7 +31,6 @@ iphone:
   version: '4.95'
   reviews: 1278
   icon: com.trading.iqoption.jpg
-  website: https://eu.iqoption.com
   developerName: IQOPTION EUROPE LTD
 
 ---

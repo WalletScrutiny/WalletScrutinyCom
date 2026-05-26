@@ -20,7 +20,6 @@ android:
   version: 2.170.1
   reviews: 216
   icon: com.xtb.xmobile2.png
-  website: http://www.xtb.com
   developerName: XTB S.A.
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-07-20
 authors:
 - danny
+website: https://kanga.exchange
 twitter: KangaExchange
 social:
 - https://www.linkedin.com/company/kangaexchange/
@@ -23,7 +24,6 @@ android:
   version: 1.29.2
   reviews: 6
   icon: com.kangamobile.png
-  website: https://kanga.exchange
   developerName: Kanga Technologies
 iphone:
   appId: kanga.mobile
@@ -34,7 +34,6 @@ iphone:
   version: 1.29.2
   reviews: 7
   icon: kanga.mobile.jpg
-  website: http://kanga.exchange
   developerName: Kanga Global
 
 ---

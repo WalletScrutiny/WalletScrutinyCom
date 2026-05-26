@@ -5,6 +5,7 @@ meta: removed
 date: 2021-11-22
 authors:
 - danny
+website: https://cryptowallet.com/
 twitter: cryptowalletcom
 social:
 - https://www.linkedin.com/company/cryptowallet-com
@@ -23,7 +24,6 @@ android:
   reviews: 7
   icon: com.cryptowallet.cryptowalletmobile.prod.png
   verdict: custodial
-  website: https://cryptowallet.com/
 iphone:
   appId: com.cryptowallet.cryptowalletmobile.prod
   idd: 1518941367

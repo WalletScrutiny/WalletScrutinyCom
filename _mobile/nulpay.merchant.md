@@ -13,7 +13,6 @@ android:
   updated: 2024-03-23
   version: '4'
   icon: nulpay.merchant.jpg
-  website: https://nulpay.com
   developerName: Nulpay
 
 ---

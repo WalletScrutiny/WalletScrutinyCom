@@ -7,6 +7,7 @@ date: 2023-01-17
 authors:
 - leo
 - danny
+website: https://enjin.io/wallet
 twitter: enjin
 social:
 - https://www.linkedin.com/company/enjin
@@ -30,7 +31,6 @@ android:
   version: 3.5.20
   reviews: 1090
   icon: com.enjin.mobile.wallet.png
-  website: https://enjin.io/wallet
   developerName: Enjin Pte. Ltd.
 iphone:
   appId: com.enjin.mobile.wallet
@@ -40,7 +40,6 @@ iphone:
   version: 3.5.5
   reviews: 1362
   icon: com.enjin.mobile.wallet.jpg
-  website: https://enjin.io/products/wallet
   developerName: Enjin PTE LTD
 
 ---

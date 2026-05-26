@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-04
 authors:
 - danny
+website: https://genesis.vision
 twitter: genesis_vision
 social:
 - https://www.linkedin.com/company/genesis-vision
@@ -23,7 +24,6 @@ android:
   version: 2.7.7
   reviews: 25
   icon: vision.genesis.clientapp.investor.png
-  website: https://genesis.vision
   developerName: Genesis Vision
   repository: https://github.com/GenesisVision/android-client
 iphone:
@@ -34,7 +34,6 @@ iphone:
   version: 2.4.0
   reviews: 145
   icon: vision.genesis.ios.investor.jpg
-  website: https://genesis.vision/
   developerName: Genesis Vision
 
 ---

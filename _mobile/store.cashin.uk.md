@@ -5,6 +5,7 @@ verdict: custodial
 date: 2021-11-17
 authors:
 - danny
+website: https://www.bitcoinpoint.com/
 features:
 - fingerprint
 - ln
@@ -21,7 +22,6 @@ android:
   reviews: 28
   icon: store.cashin.uk.png
   meta: removed
-  website: https://www.bitcoinpoint.com/
 iphone:
   appId: com.cashin.store
   idd: 1363753409
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.cashin.store.jpg
   meta: ok
-  website: https://www.bcpmarkets.co.uk/
   developerName: BCP Technologies Ltd
 
 ---

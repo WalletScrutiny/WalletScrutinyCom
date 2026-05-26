@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-11
 authors:
 - danny
+website: https://web.archive.org/web/20250910205356/http://lvl.co/
 twitter: BankWithLVL
 social:
 - https://www.linkedin.com/company/bankwithlvl
@@ -22,7 +23,6 @@ android:
   version: 1.0.5
   reviews: 62
   icon: co.lvl.firstapp.png
-  website: https://web.archive.org/web/20250910205356/http://lvl.co/
   developerName: Samsa Technologies Inc.
 iphone:
   appId: co.lvl.firstapp
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.5
   reviews: 369
   icon: co.lvl.firstapp.jpg
-  website: https://www.lvl.co#deadLink
 
 ---
 

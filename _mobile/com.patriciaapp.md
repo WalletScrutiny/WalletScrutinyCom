@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-28
 authors:
 - danny
+website: https://mypatricia.co
 twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
@@ -23,7 +24,6 @@ android:
   version: 1.5.2
   reviews: 442
   icon: com.patriciaapp.png
-  website: https://mypatricia.co
   developerName: Patricia Technologies
 iphone:
   appId: app.patricia

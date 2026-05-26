@@ -27,7 +27,6 @@ android:
   version: 6.89.0
   reviews: 8210
   icon: com.uphold.wallet.png
-  website: https://uphold.com
   developerName: Uphold
 iphone:
   appId: com.uphold.wallet.ios

@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-07-03
 authors:
 - danny
+website: https://biswap.com/
 twitter: exchangilydex
 social:
 - https://www.facebook.com/BestDEX
@@ -21,7 +22,6 @@ android:
   updated: 2023-07-18
   version: 1.0.13
   icon: com.biswap.mobile.png
-  website: https://biswap.com/
   developerName: Exchangily LLC
 iphone:
   appId: com.biswap.app
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.12
   reviews: 5
   icon: com.biswap.app.jpg
-  website: https://biswap.com
   developerName: Exchangily LLC
 
 ---

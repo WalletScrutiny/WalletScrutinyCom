@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-03-02
 authors:
 - danny
+website: https://bytex.io/
 twitter: bytex_io
 social:
 - https://bytex.io
@@ -35,7 +36,6 @@ iphone:
   reviews: 0
   icon: com.tusker.bytexio.jpg
   meta: ok
-  website: https://bytex.io/
   developerName: ByteX Financial LTD.
 
 ---

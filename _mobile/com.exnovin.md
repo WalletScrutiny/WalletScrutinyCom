@@ -20,7 +20,6 @@ android:
   version: 2.6.9
   reviews: 85
   icon: com.exnovin.png
-  website: https://exnovin.net
   developerName: EX NOVIN
 
 ---

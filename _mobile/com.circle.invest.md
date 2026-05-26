@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-16
 authors:
 - danny
+website: https://invest.circle.com
 twitter: circle
 social:
 - https://linkedin.com/company/circle-internet-financial
@@ -22,7 +23,6 @@ android:
   version: 1.5.5
   reviews: 270
   icon: com.circle.invest.png
-  website: https://invest.circle.com
   developerName: Circle Internet Financial
 iphone:
   appId: com.circle.invest
@@ -33,7 +33,6 @@ iphone:
   version: 1.7.3
   reviews: 1868
   icon: com.circle.invest.jpg
-  website: https://circle.com/en/invest
   developerName: Circle Internet Financial, LLC
 
 ---

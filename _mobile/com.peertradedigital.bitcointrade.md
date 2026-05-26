@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: http://www.bitcointrade.com.br
 social:
 - https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
@@ -21,7 +22,6 @@ android:
   version: 3.20.4
   reviews: 4822
   icon: com.peertradedigital.bitcointrade.png
-  website: http://www.bitcointrade.com.br
   developerName: PeerTrade Digital Ltda
 iphone:
   appId: com.root.BitcoinTrade
@@ -31,7 +31,6 @@ iphone:
   version: 4.7.10
   reviews: 978
   icon: com.root.BitcoinTrade.jpg
-  website: http://ripio.com/br/ripiotrade/
   developerName: PeerTrade Digital
 
 ---

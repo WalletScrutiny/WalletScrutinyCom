@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-04
 authors:
 - danny
+website: https://www.tomya.com/
 redirect_from:
 - /android/com.tomyaapp.android/
 - /iphone/com.tomyaapp.ios/
@@ -16,7 +17,6 @@ android:
   updated: 2023-08-23
   version: 1.1.2
   icon: com.tomyaapp.android.png
-  website: https://www.tomya.com/
   developerName: Tomya Teknoloji A.Ş.
 iphone:
   appId: com.tomyaapp.ios
@@ -27,7 +27,6 @@ iphone:
   version: 1.2.5
   reviews: 21
   icon: com.tomyaapp.ios.jpg
-  website: https://www.tomya.com
   developerName: TOMYA TEKNOLOJİ A.Ş.
 
 ---

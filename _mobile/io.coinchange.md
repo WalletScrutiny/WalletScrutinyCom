@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-04-09
 authors:
 - danny
+website: https://coinchange.io
 twitter: coinchangeio
 social:
 - https://www.linkedin.com/company/coinchange/
@@ -22,7 +23,6 @@ android:
   version: 2.1.0
   reviews: 154
   icon: io.coinchange.png
-  website: https://coinchange.io
   developerName: Coinchange  Financials Inc.
 iphone:
   appId: io.coinchange
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.2
   reviews: 40
   icon: io.coinchange.jpg
-  website: https://www.coinchange.io
   developerName: Coinchange Financials Inc
 
 ---

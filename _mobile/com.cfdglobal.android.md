@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-29
 authors:
 - danny
+website: https://www.capex.com
 twitter: capex_en
 social:
 - https://www.linkedin.com/company/capexglobal
@@ -22,7 +23,6 @@ android:
   version: 2.30.2
   reviews: 7
   icon: com.cfdglobal.android.png
-  website: https://www.capex.com
   developerName: Key Way Investments Ltd
 iphone:
   appId: com.trader.brands.cfdglobal
@@ -33,7 +33,6 @@ iphone:
   version: '1.51'
   reviews: 7
   icon: com.trader.brands.cfdglobal.jpg
-  website: http://www.capex.com/
   developerName: Key Way Investment Ltd
 
 ---

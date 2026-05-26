@@ -5,6 +5,7 @@ verdict: wip
 date: 2024-08-23
 authors:
 - danny
+website: https://tdex.network
 social:
 - https://t.me/tdexnetwork
 redirect_from:
@@ -29,7 +30,6 @@ iphone:
   reviews: 3
   icon: io.sevenlabs.app.jpg
   meta: obsolete
-  website: https://tdex.network
   developerName: Seven Labs Limited
 
 ---

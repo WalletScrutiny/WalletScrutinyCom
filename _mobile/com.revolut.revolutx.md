@@ -23,7 +23,6 @@ android:
   version: '1.60'
   reviews: 1
   icon: com.revolut.revolutx.png
-  website: https://www.revolut.com/revolut-x/
   developerName: Revolut Ltd
 iphone:
   appId: com.revolut.revolutx

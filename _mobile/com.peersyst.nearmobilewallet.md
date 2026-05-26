@@ -23,7 +23,6 @@ android:
   version: 3.9.1
   reviews: 1370
   icon: com.peersyst.nearmobilewallet.png
-  website: https://nearmobile.app/
   developerName: Peersyst Technology
 iphone:
   appId: com.peersyst.nearmobilewallet

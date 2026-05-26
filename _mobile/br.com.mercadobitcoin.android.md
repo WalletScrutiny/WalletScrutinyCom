@@ -20,7 +20,6 @@ android:
   version: 2.112.0
   reviews: 73
   icon: br.com.mercadobitcoin.android.png
-  website: http://www.mercadobitcoin.com.br
   developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
 
 ---

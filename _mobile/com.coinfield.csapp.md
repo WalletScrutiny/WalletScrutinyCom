@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-28
 authors:
 - danny
+website: http://www.coinfield.com
 twitter: CoinFieldEx
 social:
 - https://www.linkedin.com/company/coinfield
@@ -22,7 +23,6 @@ android:
   version: 3.1.5
   reviews: 118
   icon: com.coinfield.csapp.png
-  website: http://www.coinfield.com
   developerName: CoinField
 iphone:
   appId: com.coinfield.csapp
@@ -32,7 +32,6 @@ iphone:
   version: 3.1.5
   reviews: 555
   icon: com.coinfield.csapp.jpg
-  website: https://www.coinfield.com/company/pr
   developerName: MANTICORE LABS OÜ
 
 ---

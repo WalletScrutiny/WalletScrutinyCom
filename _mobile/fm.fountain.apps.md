@@ -22,7 +22,6 @@ android:
   version: 1.5.3
   reviews: 261
   icon: fm.fountain.apps.png
-  website: https://www.fountain.fm
   developerName: Fountain Labs Ltd
 iphone:
   appId: fm.fountain.apps

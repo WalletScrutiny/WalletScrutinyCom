@@ -23,7 +23,6 @@ android:
   version: 1.43.0
   icon: com.hitbtc.wallet.jpg
   meta: ok
-  website: https://hitbtc.com/wallet
   developerName: HitBTC Exchange
 iphone:
   appId: com.hitbtc.wallet

@@ -4,6 +4,7 @@ title: newealth
 verdict: wip
 meta: removed
 date: 2024-04-03
+website: https://newealth.app#deadLink
 redirect_from:
 - /android/app.newealth/
 - /iphone/app.newealth/
@@ -14,7 +15,6 @@ android:
   updated: 2021-04-16
   version: 1.2.1
   icon: app.newealth.png
-  website: https://newealth.app#deadLink
   developerName: newealth
 iphone:
   appId: app.newealth

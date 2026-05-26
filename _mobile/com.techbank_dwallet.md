@@ -5,6 +5,7 @@ verdict: custodial
 date: 2026-02-02
 authors:
 - danny
+website: https://techbank.finance/
 appCountry: in
 redirect_from:
 - /android/com.techbank_dwallet/
@@ -18,7 +19,6 @@ android:
   reviews: 12
   icon: com.techbank_dwallet.jpg
   meta: removed
-  website: https://techbank.finance/
   developerName: Techbank
 iphone:
   appId: com.techbank.dwallettb
@@ -29,7 +29,6 @@ iphone:
   reviews: 3
   icon: com.techbank.dwallettb.jpg
   meta: ok
-  website: https://techbank.finance
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---

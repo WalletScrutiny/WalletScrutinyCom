@@ -30,7 +30,6 @@ android:
   reviews: 10
   icon: fr.acinq.phoenix.mainnet.png
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-  website: https://phoenix.acinq.co
   developerName: ACINQ
   repository: https://github.com/ACINQ/phoenix
 iphone:

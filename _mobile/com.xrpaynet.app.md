@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-07
 authors:
 - danny
+website: https://xrpaynet.com
 twitter: XRPayNet
 social:
 - https://xrpaynet.com
@@ -38,7 +39,6 @@ iphone:
   version: 5.0.5+377
   reviews: 30
   icon: com.xrpaynet.app.jpg
-  website: https://xrpaynet.com
   developerName: XRPAYNET GLOBAL LIMITED
 
 ---

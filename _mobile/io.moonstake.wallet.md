@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://moonstake.io
 twitter: moonstake
 social:
 - https://www.linkedin.com/company/moonstake
@@ -22,7 +23,6 @@ android:
   version: 2.36.9
   reviews: 20
   icon: io.moonstake.wallet.png
-  website: https://moonstake.io
   developerName: Moonstake Developer
 iphone:
   appId: io.moonstake.wallet
@@ -32,7 +32,6 @@ iphone:
   version: 2.36.9
   reviews: 18
   icon: io.moonstake.wallet.jpg
-  website: http://moonstake.io
   developerName: Moonstake Limited
 
 ---

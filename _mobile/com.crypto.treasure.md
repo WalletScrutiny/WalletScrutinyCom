@@ -21,7 +21,6 @@ android:
   version: 1.0.5
   reviews: 5
   icon: com.crypto.treasure.png
-  website: https://treasurewallet.co
   developerName: IT Work
 
 ---

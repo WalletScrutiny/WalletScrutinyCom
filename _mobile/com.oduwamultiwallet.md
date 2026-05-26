@@ -5,6 +5,7 @@ verdict: nosource
 date: 2024-08-26
 authors:
 - danny
+website: https://www.oduwacoin.io/
 twitter: Oduwacoin
 social:
 - https://www.facebook.com/Oduwacoin
@@ -22,7 +23,6 @@ android:
   version: 1.1.5
   icon: com.oduwamultiwallet.png
   meta: removed
-  website: https://www.oduwacoin.io/
   developerName: ODUWA BLOCKCHAIN SOLUTION
   repository: https://github.com/ODUWAX/Android
 iphone:

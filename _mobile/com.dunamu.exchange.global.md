@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-10
 authors:
 - danny
+website: https://www.dunamu.com
 social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
@@ -23,7 +24,6 @@ android:
   reviews: 34
   icon: com.dunamu.exchange.global.png
   meta: ok
-  website: https://www.dunamu.com
   developerName: Dunamu
 iphone:
   appId: com.dunamu.upbit.global
@@ -34,7 +34,6 @@ iphone:
   reviews: 24
   icon: com.dunamu.upbit.global.jpg
   meta: removed
-  website: https://www.dunamu.com/
 
 ---
 

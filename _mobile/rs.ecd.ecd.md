@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-03
 authors:
 - danny
+website: https://ecd.rs/
 twitter: ecd_RS
 social:
 - https://www.youtube.com/@ecd-rs/videos
@@ -22,7 +23,6 @@ android:
   updated: 2026-05-25
   version: 1.4.92
   icon: rs.ecd.ecd.png
-  website: https://ecd.rs/
   developerName: ECD.RS
 iphone:
   appId: rs.ecd.ECD

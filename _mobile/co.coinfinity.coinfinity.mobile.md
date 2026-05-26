@@ -25,7 +25,6 @@ android:
   updated: 2026-04-02
   version: 3.0.13
   icon: co.coinfinity.coinfinity.mobile.png
-  website: https://coinfinity.co/
   developerName: Coinfinity
 iphone:
   appId: co.coinfinity.coinfinity.mobile
@@ -36,7 +35,6 @@ iphone:
   version: 3.0.13
   reviews: 0
   icon: co.coinfinity.coinfinity.mobile.jpg
-  website: https://coinfinity.co/
   developerName: Coinfinity GmbH
 
 ---

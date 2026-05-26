@@ -6,6 +6,7 @@ meta: ok
 date: 2023-09-06
 authors:
 - danny
+website: https://www.e-pocketexchange.com/
 twitter: e_Pocket
 social:
 - https://www.instagram.com/epocketau
@@ -21,7 +22,6 @@ android:
   version: '3.38'
   reviews: 2
   icon: w3axis.com.epocket.png
-  website: https://www.e-pocketexchange.com/
   developerName: e-Pocket Pty Ltd
 iphone:
   appId: com.live.epocket

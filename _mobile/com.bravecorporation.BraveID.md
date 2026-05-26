@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-22
 authors:
 - danny
+website: https://www.bravepay.net/
 twitter: BraveCorporati1
 social:
 - https://www.linkedin.com/company/brave-corporation
@@ -23,7 +24,6 @@ android:
   version: 1.0.22
   reviews: 6
   icon: com.bravecorporation.BraveID.png
-  website: https://www.bravepay.net/
   developerName: BravePay
 iphone:
   appId: com.brave-corporation.brave-pay

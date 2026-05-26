@@ -28,7 +28,6 @@ android:
   version: 5.3.3
   reviews: 5
   icon: com.coinsquare.app.quicktrade.png
-  website: https://coinsquare.com
   developerName: WF - Bitbuy
 iphone:
   appId: com.coinsquare.quicktrade

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-10-03
 authors:
 - danny
+website: https://dokwallet.com/
 features:
 - buyWithCC
 - foss
@@ -24,7 +25,6 @@ android:
   version: '3.17'
   reviews: 15
   icon: com.dok.wallet.png
-  website: https://dokwallet.com/
   developerName: Dok wallet
 iphone:
   appId: com.dok.wallet
@@ -34,7 +34,6 @@ iphone:
   version: '2.36'
   reviews: 2
   icon: com.dok.wallet.jpg
-  website: https://dokwallet.com
   developerName: Moreover4u2 Ltd
 
 ---

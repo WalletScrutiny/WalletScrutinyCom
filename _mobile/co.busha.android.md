@@ -24,7 +24,6 @@ android:
   reviews: 212
   icon: co.busha.android.png
   meta: ok
-  website: https://busha.co
   developerName: Busha, Inc.
 iphone:
   appId: co.busha.apple
@@ -35,7 +34,6 @@ iphone:
   reviews: 2469
   icon: co.busha.apple.jpg
   meta: removed
-  website: https://busha.co
   developerName: Busha Digital
 
 ---

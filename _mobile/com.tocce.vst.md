@@ -6,6 +6,7 @@ meta: removed
 date: 2023-04-12
 authors:
 - danny
+website: https://www.vstmex.com#deadLink
 twitter: VSTMEX
 social:
 - https://t.me/VSTMEX001
@@ -18,7 +19,6 @@ android:
   updated: 2023-01-04
   version: 1.3.1
   icon: com.tocce.vst.png
-  website: https://www.vstmex.com#deadLink
   developerName: VSTMEX Technology PTE.LTD.
 iphone:
   appId: com.vstmexvstmex1.vstmexvstmex
@@ -29,7 +29,6 @@ iphone:
   version: 1.3.1
   reviews: 1
   icon: com.vstmexvstmex1.vstmexvstmex.jpg
-  website: https://web.archive.org/web/20250420060222/https://vstmex.com/
 
 ---
 

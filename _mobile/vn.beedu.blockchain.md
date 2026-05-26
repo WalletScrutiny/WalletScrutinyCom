@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-28
 authors:
 - danny
+website: https://lynkey.com/
 twitter: LynKey_
 social:
 - https://www.facebook.com/Lynkeytoken
@@ -25,7 +26,6 @@ android:
   version: 1.4.20
   reviews: 31
   icon: vn.beedu.blockchain.png
-  website: https://lynkey.com/
   developerName: Lynkey International
 iphone:
   appId: vn.beedu.blockchain

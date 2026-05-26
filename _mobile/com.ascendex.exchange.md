@@ -7,6 +7,7 @@ date: 2021-05-12
 authors:
 - leo
 - kiwilamb
+website: https://www.ascendex.com/
 twitter: AscendEX_Global
 social:
 - https://www.facebook.com/AscendEXOfficial
@@ -23,7 +24,6 @@ android:
   reviews: 76
   icon: com.ascendex.exchange.png
   meta: ok
-  website: https://www.ascendex.com/
   developerName: AscendEX
 iphone:
   appId: io.bitmax.bitmax

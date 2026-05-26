@@ -4,6 +4,7 @@ meta: ok
 date: 2021-08-21
 authors:
 - danny
+website: https://kripto.btcturk.com
 social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
@@ -20,7 +21,6 @@ android:
   icon: com.btcturk.pro.png
   meta: ok
   verdict: custodial
-  website: https://kripto.btcturk.com
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
   bugbounty: https://pro.btcturk.com/en/bug-bounty
   twitter: btcturkpro
@@ -34,7 +34,6 @@ iphone:
   icon: com.btcturk.pro.jpg
   meta: removed
   verdict: wip
-  website: https://pro.btcturk.com
 
 ---
 

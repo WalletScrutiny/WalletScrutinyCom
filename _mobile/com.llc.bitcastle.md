@@ -22,7 +22,6 @@ android:
   version: 1.13.10
   reviews: 16
   icon: com.llc.bitcastle.png
-  website: https://bitcastle.io/
   developerName: bitcastle Limited
 iphone:
   appId: com.llc.bitcastle

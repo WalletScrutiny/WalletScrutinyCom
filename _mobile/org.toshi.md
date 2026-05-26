@@ -7,6 +7,7 @@ date: 2021-01-04
 authors:
 - leo
 - danny
+website: https://wallet.coinbase.com/
 twitter: CoinbaseWallet
 redirect_from:
 - /coinbasewallet/
@@ -23,7 +24,6 @@ android:
   version: 29.95.0
   reviews: 14087
   icon: org.toshi.png
-  website: https://wallet.coinbase.com/
   developerName: Coinbase Wallet
 iphone:
   appId: org.toshi.distribution
@@ -33,7 +33,6 @@ iphone:
   version: '29.95'
   reviews: 161397
   icon: org.toshi.distribution.jpg
-  website: https://base.app
   developerName: Coinbase Wallet
 
 ---

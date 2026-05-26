@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-01-06
 authors:
 - danny
+website: http://uollar.io/policy
 twitter: uollar_io
 social:
 - https://www.instagram.com/uollar_io
@@ -30,7 +31,6 @@ iphone:
   version: 2.4.40
   reviews: 1
   icon: com.lh2424.uollar.jpg
-  website: http://uollar.io/policy
   developerName: UOLLAR PTY LTD
 
 ---

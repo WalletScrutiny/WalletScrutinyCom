@@ -6,6 +6,7 @@ meta: ok
 date: 2024-07-24
 authors:
 - danny
+website: https://hippowallet.io/
 twitter: HippoWallet
 social:
 - https://www.linkedin.com/company/hippo-wallet
@@ -30,7 +31,6 @@ android:
   version: 1.23.3
   reviews: 17
   icon: com.blockchaincommodities.hippo_wallet.png
-  website: https://hippowallet.io/
   developerName: Blockchain Commodities
 iphone:
   appId: com.blockchaincommodities.hippoWallet
@@ -41,7 +41,6 @@ iphone:
   version: 1.23.2
   reviews: 10
   icon: com.blockchaincommodities.hippoWallet.jpg
-  website: https://hippowallet.io
   developerName: Blockchain Commodities
 
 ---

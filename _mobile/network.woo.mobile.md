@@ -21,7 +21,6 @@ android:
   version: 3.65.1
   reviews: 10
   icon: network.woo.mobile.png
-  website: https://woox.io/
   developerName: WOOTECH Limited
   twitter: WOOnetwork
 iphone:

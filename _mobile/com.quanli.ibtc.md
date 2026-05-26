@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-16
 authors:
 - danny
+website: https://ibtc.com.hk
 social:
 - https://www.instagram.com/ibtcex
 - http://t.me/ibtc_official
@@ -20,7 +21,6 @@ android:
   updated: 2023-09-07
   version: 1.6.0
   icon: com.quanli.ibtc.png
-  website: https://ibtc.com.hk
   developerName: iBTC Technology
 iphone:
   appId: com.iBTC.trade.hk
@@ -31,7 +31,6 @@ iphone:
   version: 1.6.0
   reviews: 0
   icon: com.iBTC.trade.hk.jpg
-  website: https://ibtc.com.hk/
   developerName: iBTC Technology
 
 ---

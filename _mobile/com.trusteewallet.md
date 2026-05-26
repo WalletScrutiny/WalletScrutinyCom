@@ -8,6 +8,7 @@ authors:
 - leo
 - danny
 - keraliss
+website: https://trusteeglobal.com
 twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet
@@ -27,7 +28,6 @@ android:
   version: 1.52.3
   reviews: 62
   icon: com.trusteewallet.png
-  website: https://trusteeglobal.com
   developerName: BlockSoft Lab
   repository: https://github.com/trustee-wallet/trusteeWallet
 iphone:
@@ -39,7 +39,6 @@ iphone:
   version: 1.52.3
   reviews: 0
   icon: com.trusteewallet.jpg
-  website: https://trusteeglobal.com/
   developerName: BLOCKSOFTLAB INC
 
 ---

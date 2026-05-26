@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-24
 authors:
 - danny
+website: https://ctrl.xyz
 twitter: ctrl_wallet
 social:
 - https://discord.gg/ctrlwallet#deadLink
@@ -20,7 +21,6 @@ android:
   version: 3.3.1
   reviews: 4
   icon: xyz.ctrl.wallet.png
-  website: https://ctrl.xyz
   developerName: EMURGO Fintech Inc.
 iphone:
   appId: xyz.ctrl.wallet
@@ -31,7 +31,6 @@ iphone:
   version: 3.3.1
   reviews: 9
   icon: xyz.ctrl.wallet.jpg
-  website: https://ctrl.xyz/
   developerName: EMURGO Co., Ltd
 
 ---

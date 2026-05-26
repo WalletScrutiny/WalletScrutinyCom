@@ -6,6 +6,7 @@ meta: ok
 date: 2026-02-25
 authors:
 - danny
+website: https://mercadobitcoin.pt/
 twitter: mb_portugal
 social:
 - https://www.facebook.com/mercadobitcoinportugal
@@ -21,7 +22,6 @@ android:
   updated: 2026-05-07
   version: 2.1.1
   icon: com.mbeu.mbeuapp.png
-  website: https://mercadobitcoin.pt/
   developerName: Smart Token Lda
 iphone:
   appId: com.mbeu.mbeuapp
@@ -32,7 +32,6 @@ iphone:
   version: 2.1.1
   reviews: 38
   icon: com.mbeu.mbeuapp.jpg
-  website: https://mercadobitcoin.pt/mobile/ios
   developerName: Smart Token, Lda
 
 ---

@@ -15,7 +15,6 @@ iphone:
   version: 2.12.0
   reviews: 1
   icon: app.amber.v2.jpg
-  website: http://amber.app/
   developerName: Amber Labs
 
 ---

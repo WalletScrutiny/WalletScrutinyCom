@@ -6,6 +6,7 @@ meta: removed
 date: 2022-10-21
 authors:
 - leo
+website: http://www.paytomat.com
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
@@ -23,7 +24,6 @@ android:
   version: 1.37.2
   reviews: 14
   icon: com.paytomat.png
-  website: http://www.paytomat.com
 iphone:
   appId: com.app.paytomat.wallet
   idd: '1415300709'
@@ -32,7 +32,6 @@ iphone:
   version: 1.37.2
   reviews: 22
   icon: com.app.paytomat.wallet.jpg
-  website: https://paytomat.com
 
 ---
 

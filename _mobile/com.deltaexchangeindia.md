@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://india.delta.exchange
 twitter: Delta_Exchange
 redirect_from:
 - /android/com.deltaexchangeindia/
@@ -17,7 +18,6 @@ android:
   version: 2.16.0
   reviews: 1
   icon: com.deltaexchangeindia.png
-  website: https://india.delta.exchange
   developerName: Delta Exchange India
 iphone:
   appId: app.deltaexchange.india
@@ -28,7 +28,6 @@ iphone:
   version: 2.17.0
   reviews: 19997
   icon: app.deltaexchange.india.jpg
-  website: https://india.delta.exchange/
   developerName: Delta Exchange India
 
 ---

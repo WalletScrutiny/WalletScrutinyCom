@@ -24,7 +24,6 @@ android:
   reviews: 1852
   icon: app.simple.com.png
   meta: ok
-  website: https://simple.app/
   developerName: Simple Europe
 iphone:
   appId: app.simple.com
@@ -36,7 +35,6 @@ iphone:
   reviews: 222
   icon: app.simple.com.jpg
   meta: removed
-  website: https://simple.app/
   developerName: Simple Europe UAB
 
 ---

@@ -7,6 +7,7 @@ date: 2025-09-09
 authors:
 - leo
 - danny
+website: https://zumo.tech
 twitter: zumopay
 social:
 - https://www.linkedin.com/company/zumomoney
@@ -23,7 +24,6 @@ android:
   updated: 2025-06-16
   version: 5.13.1
   icon: com.zumopay.core.png
-  website: https://zumo.tech
   developerName: Zumopay
 iphone:
   appId: com.zumopay.core
@@ -34,7 +34,6 @@ iphone:
   version: 5.13.1
   reviews: 307
   icon: com.zumopay.core.jpg
-  website: https://app.zumo.tech
   developerName: Zumo Financial Services Limited
 
 ---

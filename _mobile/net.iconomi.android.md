@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-04
 authors:
 - danny
+website: https://www.iconomi.com
 twitter: iconomicom
 social:
 - https://www.linkedin.com/company/iconominet
@@ -24,7 +25,6 @@ android:
   reviews: 171
   icon: net.iconomi.android.png
   meta: ok
-  website: https://www.iconomi.com
   developerName: ICONOMI
 iphone:
   appId: net.iconomi.iconomi
@@ -35,7 +35,6 @@ iphone:
   reviews: 84
   icon: net.iconomi.iconomi.jpg
   meta: obsolete
-  website: http://www.iconomi.com
   developerName: ICONOMI LTD
 
 ---

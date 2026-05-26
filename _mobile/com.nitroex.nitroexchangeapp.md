@@ -25,7 +25,6 @@ android:
   reviews: 159
   icon: com.nitroex.nitroexchangeapp.png
   meta: stale
-  website: https://www.nitroex.io/
   developerName: Nitro Software Technologies LTD
 iphone:
   appId: com.nitroex.nitroexexchangeapp

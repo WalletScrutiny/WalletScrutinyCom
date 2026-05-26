@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-28
 authors:
 - danny
+website: https://www.safebit.com
 twitter: bitcicom
 social:
 - https://www.linkedin.com/company/bitcicom/
@@ -23,7 +24,6 @@ android:
   version: 23.0.2
   reviews: 14
   icon: com.bitcimobile.png
-  website: https://www.safebit.com
   developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 iphone:
   appId: com.bitcimobil.com
@@ -34,7 +34,6 @@ iphone:
   version: 23.0.0
   reviews: 1382
   icon: com.bitcimobil.com.jpg
-  website: https://www.safebit.com.tr/
   developerName: Safebit Kripto Varlık AŞ
 
 ---

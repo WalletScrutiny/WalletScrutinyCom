@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-01
 authors:
 - danny
+website: https://www.actpass.com
 social:
 - https://www.actpass.com
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 1
   icon: com.actoz.actpass.png
   meta: ok
-  website: https://www.actpass.com
   developerName: ArtalGamesCasual
 iphone:
   appId: com.actoz.actpass

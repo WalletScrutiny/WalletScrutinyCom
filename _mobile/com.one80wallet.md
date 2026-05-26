@@ -13,7 +13,6 @@ android:
   updated: 2025-12-15
   version: 1.0.12
   icon: com.one80wallet.png
-  website: https://one80wallet.io/
   developerName: One80
 
 ---

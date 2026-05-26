@@ -6,6 +6,7 @@ meta: ok
 date: 2024-11-28
 authors:
 - danny
+website: https://ultorex.io/
 twitter: UltorexOfficial
 social:
 - https://www.facebook.com/ultorex
@@ -20,7 +21,6 @@ android:
   updated: 2026-04-24
   version: 1.1.20
   icon: com.ultorexapp.io.png
-  website: https://ultorex.io/
   developerName: Ultorex
 iphone:
   appId: com.ultorex.io
@@ -31,7 +31,6 @@ iphone:
   version: 1.1.20
   reviews: 0
   icon: com.ultorex.io.jpg
-  website: https://ultorex.io/about-us
   developerName: Ultorex LLC
 
 ---

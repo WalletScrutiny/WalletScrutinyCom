@@ -26,7 +26,6 @@ android:
   version: 7.19.0
   reviews: 68
   icon: com.belo.android.png
-  website: https://belo.app
   developerName: belo
 iphone:
   appId: com.belo.ios

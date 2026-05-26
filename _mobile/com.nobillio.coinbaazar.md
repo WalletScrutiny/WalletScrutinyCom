@@ -21,7 +21,6 @@ android:
   updated: 2023-12-06
   version: 1.3.24
   icon: com.nobillio.coinbaazar.jpg
-  website: https://coinbaazar.com
   developerName: Coinbaazar Exchange Team
 iphone:
   appId: com.coinbaazarDistribution

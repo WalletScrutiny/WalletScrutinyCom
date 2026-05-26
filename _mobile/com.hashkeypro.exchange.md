@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-18
 authors:
 - danny
+website: https://www.hashkey.com/
 twitter: HashKey_Global
 redirect_from:
 - /android/com.hashkeypro.exchange/
@@ -18,7 +19,6 @@ android:
   version: 1.78.1
   reviews: 30
   icon: com.hashkeypro.exchange.png
-  website: https://www.hashkey.com/
   developerName: HashKey Digital Asset Group Limited
 iphone:
   appId: com.hashkey.global

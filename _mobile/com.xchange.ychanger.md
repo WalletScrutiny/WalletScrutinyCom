@@ -6,6 +6,7 @@ meta: removed
 date: 2025-01-15
 authors:
 - danny
+website: https://ychanger.org/
 redirect_from:
 - /android/com.xchange.ychanger/
 - /iphone/com.xchange.ychanger/
@@ -16,7 +17,6 @@ android:
   updated: 2024-07-31
   version: 4.2.1
   icon: com.xchange.ychanger.png
-  website: https://ychanger.org/
   developerName: XchangeCapitalGroup OU
 iphone:
   appId: com.xchange.ychanger
@@ -27,7 +27,6 @@ iphone:
   version: 2.0.4
   reviews: 0
   icon: com.xchange.ychanger.jpg
-  website: https://ychanger.net
   developerName: XChangeCapitalGroup
 
 ---

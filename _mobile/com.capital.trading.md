@@ -6,6 +6,7 @@ meta: ok
 date: 2024-02-08
 authors:
 - danny
+website: https://capital.com
 twitter: capitalcom
 social:
 - https://www.linkedin.com/company/capital.com
@@ -24,7 +25,6 @@ android:
   version: 3.34.2
   reviews: 36
   icon: com.capital.trading.png
-  website: https://capital.com
   developerName: Capital Com SV Investments Limited
 iphone:
   appId: com.capital.trading
@@ -35,7 +35,6 @@ iphone:
   version: 3.34.1
   reviews: 324
   icon: com.capital.trading.jpg
-  website: https://capital.com/
   developerName: Capital Com SV Investments Limited
 
 ---

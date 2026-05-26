@@ -23,7 +23,6 @@ android:
   version: 0.7.45
   reviews: 108
   icon: com.bifrostwallet.app.png
-  website: https://bifrostwallet.com
   developerName: Bifrost Software Ltd
 iphone:
   appId: com.bifrostwallet.app

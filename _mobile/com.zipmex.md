@@ -6,6 +6,7 @@ meta: removed
 date: 2024-03-02
 authors:
 - danny
+website: https://zipmex.co.th/
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
@@ -21,7 +22,6 @@ android:
   version: 22.7.3.644
   reviews: 11575
   icon: com.zipmex.png
-  website: https://zipmex.co.th/
   developerName: Zipmex
 iphone:
   appId: com.zipmex.app
@@ -32,7 +32,6 @@ iphone:
   version: 23.0.0
   reviews: 127
   icon: com.zipmex.app.jpg
-  website: https://www.youtube.com/watch?v=iYI01eFjxTg
   developerName: Zipmex
 
 ---

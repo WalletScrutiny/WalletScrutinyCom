@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-01
 authors:
 - danny
+website: https://ds.pro
 twitter: DigitShield_HQ
 social:
 - https://discord.com/invite/digitshield
@@ -22,7 +23,6 @@ android:
   updated: 2026-05-01
   version: 2.1.7
   icon: com.dswallet.app.png
-  website: https://ds.pro
   developerName: Yoime Technologie
 iphone:
   appId: com.digitalshield.walletapp
@@ -33,7 +33,6 @@ iphone:
   version: 2.1.7
   reviews: 0
   icon: com.digitalshield.walletapp.jpg
-  website: https://ds.pro/
   developerName: HONG KONG YUHENG NETWORK TECHNOLOGY CO., LIMITED
 
 ---

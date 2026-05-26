@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-04
 authors:
 - danny
+website: https://yusetoken.io/
 twitter: YuseToken
 social:
 - https://www.facebook.com/yusetoken
@@ -25,7 +26,6 @@ android:
   version: 80.0.0
   icon: com.yuse.wallet.jpg
   meta: ok
-  website: https://yusetoken.io/
   developerName: Web3 Innovations
 iphone:
   appId: io.yusewallet
@@ -37,7 +37,6 @@ iphone:
   reviews: 6
   icon: io.yusewallet.jpg
   meta: removed
-  website: https://yusetoken.io/yuse-wallet/
   developerName: YUSEWallet
 
 ---

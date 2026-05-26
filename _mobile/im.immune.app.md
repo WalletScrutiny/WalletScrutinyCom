@@ -6,6 +6,7 @@ meta: stale
 date: 2023-04-15
 authors:
 - danny
+website: https://imm.app/
 redirect_from:
 - /android/im.immune.app/
 - /iphone/im.immune.app/
@@ -17,7 +18,6 @@ android:
   version: 2.2.1
   icon: im.immune.app.png
   meta: stale
-  website: https://imm.app/
   developerName: IMM Money Messenger Limited
 iphone:
   appId: im.immune.app
@@ -29,7 +29,6 @@ iphone:
   reviews: 4
   icon: im.immune.app.jpg
   meta: ok
-  website: https://immune.im/
   developerName: IMM Money Messenger Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-09
 authors:
 - danny
+website: https://altify.app
 twitter: RevixInvest
 social:
 - https://www.facebook.com/RevixInvest
@@ -28,7 +29,6 @@ android:
   updated: 2026-05-13
   version: 3.0.0
   icon: com.revix.app.png
-  website: https://altify.app
   developerName: ALTIFY GROUP LIMITED
 iphone:
   appId: com.revix.mobile
@@ -39,7 +39,6 @@ iphone:
   version: 2.9.10
   reviews: 65
   icon: com.revix.mobile.jpg
-  website: https://www.altify.app/
   developerName: ALTIFY GROUP LIMITED
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-12-14
 authors:
 - danny
+website: https://criptan.com
 features:
 - buyWithCC
 - fingerprint
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-07
   version: 3.4.3
   icon: com.criptan.app.png
-  website: https://criptan.com
   developerName: CRIPTAN
 iphone:
   appId: com.criptan.app
@@ -31,7 +31,6 @@ iphone:
   version: 3.4.3
   reviews: 500
   icon: com.criptan.app.jpg
-  website: https://criptan.es
   developerName: Criptan Trade SL
 
 ---

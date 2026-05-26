@@ -6,6 +6,7 @@ meta: ok
 date: 2025-07-21
 authors:
 - danny
+website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo
 twitter: OneKeyHQ
 social:
@@ -31,7 +32,6 @@ android:
   version: 6.3.0
   reviews: 93
   icon: so.onekey.app.wallet.png
-  website: https://onekey.so
   developerName: ONEKEY LIMITED
 iphone:
   appId: so.onekey.wallet
@@ -42,7 +42,6 @@ iphone:
   version: 6.3.0
   reviews: 680
   icon: so.onekey.wallet.jpg
-  website: https://onekey.so?utm_source=app_store
   developerName: ONEKEY LIMITED
 
 ---

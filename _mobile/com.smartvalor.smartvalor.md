@@ -16,7 +16,6 @@ android:
   updated: 2024-11-15
   version: 1.0.31.111
   icon: com.smartvalor.smartvalor.png
-  website: https://smartvalor.com/
   developerName: Smart Valor
 
 ---

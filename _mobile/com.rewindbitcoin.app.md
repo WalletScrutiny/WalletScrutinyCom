@@ -13,7 +13,6 @@ android:
   updated: 2025-09-25
   version: 1.2.4
   icon: com.rewindbitcoin.app.png
-  website: https://rewindbitcoin.com
   developerName: La Bolsa Virtual SL
 
 ---

@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-07-08
 authors:
 - danny
+website: https://margex.com
 twitter: margexcom
 social:
 - https://www.facebook.com/margexcom
@@ -23,7 +24,6 @@ android:
   reviews: 100
   icon: com.margex.margex_mobile.png
   meta: removed
-  website: https://margex.com
   developerName: Margex
 iphone:
   appId: com.margex.mobile

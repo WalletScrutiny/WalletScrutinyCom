@@ -6,6 +6,7 @@ meta: ok
 date: 2021-05-20
 authors:
 - leo
+website: http://www.bitmart.com
 twitter: BitMartExchange
 social:
 - https://www.linkedin.com/company/bitmart
@@ -27,7 +28,6 @@ android:
   version: 4.4.1
   reviews: 3750
   icon: com.bitmart.bitmarket.png
-  website: http://www.bitmart.com
   developerName: GBM Foundation Company
 iphone:
   appId: com.bitmart.exchange
@@ -37,7 +37,6 @@ iphone:
   version: 4.4.1
   reviews: 3345
   icon: com.bitmart.exchange.jpg
-  website: https://www.bitmart.com/
   developerName: GBM Foundation Company Ltd
 
 ---

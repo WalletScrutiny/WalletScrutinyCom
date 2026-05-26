@@ -23,7 +23,6 @@ android:
   version: 26.5.13
   reviews: 8629
   icon: exodusmovement.exodus.png
-  website: https://exodus.com/mobile
   developerName: Exodus Movement, Inc.
 iphone:
   appId: exodus-movement.exodus

@@ -6,6 +6,7 @@ meta: stale
 date: 2026-05-05
 authors:
 - danny
+website: https://niza.io
 twitter: nizacoin
 social:
 - https://t.me/nizaio
@@ -20,7 +21,6 @@ android:
   updated: 2025-05-07
   version: 1.4.3
   icon: io.niza.app.png
-  website: https://niza.io
   developerName: Niza Global
 iphone:
   appId: io.niza.app

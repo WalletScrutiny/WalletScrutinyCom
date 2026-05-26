@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-22
 authors:
 - danny
+website: https://pouch.ph
 features:
 - ln
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 4
   icon: pouch.ph.png
   meta: ok
-  website: https://pouch.ph
   developerName: Pouch PH Inc
 iphone:
   appId: pouch.ph
@@ -32,7 +32,6 @@ iphone:
   reviews: 5
   icon: pouch.ph.jpg
   meta: removed
-  website: https://pouch.ph/
   developerName: Pouch PH Inc
 
 ---

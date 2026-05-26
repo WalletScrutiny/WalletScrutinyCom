@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-31
 authors:
 - danny
+website: https://kassio.com
 twitter: KassioNetwork
 social:
 - https://www.linkedin.com/company/kassionetwork/
@@ -22,7 +23,6 @@ android:
   updated: 2023-10-27
   version: 3.1.1
   icon: com.fintech.kassio.png
-  website: https://kassio.com
   developerName: Digital Pung ApS
 iphone:
   appId: com.Kassio
@@ -33,7 +33,6 @@ iphone:
   version: 1.1.2
   reviews: 12
   icon: com.Kassio.jpg
-  website: https://web.archive.org/web/20230201082314/https://www.kassio.com/contact
   developerName: Digital Pung ApS
 
 ---

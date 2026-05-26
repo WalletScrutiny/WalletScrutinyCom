@@ -6,6 +6,7 @@ meta: ok
 date: 2021-05-31
 authors:
 - leo
+website: https://www.bitfinex.com
 twitter: bitfinex
 social:
 - https://www.linkedin.com/company/bitfinex
@@ -24,7 +25,6 @@ android:
   version: 7.20.1
   reviews: 76
   icon: com.bitfinex.mobileapp.png
-  website: https://www.bitfinex.com
   developerName: Bitfinex
 iphone:
   appId: com.bitfinex.bfxprod
@@ -34,7 +34,6 @@ iphone:
   version: 7.20.1
   reviews: 173
   icon: com.bitfinex.bfxprod.jpg
-  website: https://www.bitfinex.com/mobile-trading/
   developerName: Bitfinex
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2026-03-05
 authors:
 - danny
+website: https://www.brics-pay.com/BRICS-Pay-Retail
 redirect_from:
 - /android/com.brics/
 - /iphone/com.bricspay/
@@ -15,7 +16,6 @@ android:
   updated: 2026-03-25
   version: 0.0.11
   icon: com.brics.png
-  website: https://www.brics-pay.com/BRICS-Pay-Retail
   developerName: NB PAY FZCO
 iphone:
   appId: com.bricspay
@@ -26,7 +26,6 @@ iphone:
   version: 0.0.15
   reviews: 0
   icon: com.bricspay.jpg
-  website: https://www.brics-pay.com/
   developerName: NB PAY FZCO Dubai Silicon Oasis, DDP, Building A1, Dubai, UAE.
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://www.zabira.ng
 twitter: thezabira
 social:
 - https://www.facebook.com/thezabira
@@ -22,7 +23,6 @@ android:
   version: 1.0.28
   reviews: 15
   icon: app.zabira.ng.png
-  website: https://www.zabira.ng
   developerName: Zabira
 iphone:
   appId: app.zabira.ng

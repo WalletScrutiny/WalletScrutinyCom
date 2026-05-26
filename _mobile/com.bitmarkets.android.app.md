@@ -19,7 +19,6 @@ android:
   updated: 2026-05-22
   version: 3.8.13
   icon: com.bitmarkets.android.app.png
-  website: https://www.bitmarkets.com/
   developerName: Unicorn Technologies Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-17
 authors:
 - danny
+website: http://digitalexchange.id
 twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid
@@ -21,7 +22,6 @@ android:
   version: 1.3.36
   icon: com.dex.digitalexchangeid.png
   meta: ok
-  website: http://digitalexchange.id
   developerName: PT Indonesia Digital Exchange
 iphone:
   appId: com.dex.digitalexchangeid

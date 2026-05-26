@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-28
 authors:
 - danny
+website: https://satangcorp.com/
 twitter: SatangOfficial_
 social:
 - https://www.facebook.com/satangcorp
@@ -23,7 +24,6 @@ android:
   reviews: 4
   icon: com.satang.pro.png
   meta: ok
-  website: https://satangcorp.com/
   developerName: Orbix Trade Co., Ltd.
 iphone:
   appId: com.satang-pro.ios
@@ -35,7 +35,6 @@ iphone:
   reviews: 6
   icon: com.satang-pro.ios.jpg
   meta: removed
-  website: https://satangcorp.com
   developerName: Satang Corporation Co., Ltd.
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2026-05-25
   version: 1.0.27
   icon: com.earnbit.app.exchange.png
-  website: https://earnbit.com/
   developerName: EarnBit Corp.
 
 ---

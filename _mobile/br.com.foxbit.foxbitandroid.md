@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-27
 authors:
 - danny
+website: http://www.foxbit.com.br
 twitter: foxbit
 social:
 - https://www.linkedin.com/company/foxbit
@@ -22,7 +23,6 @@ android:
   version: 3.43.1
   reviews: 6387
   icon: br.com.foxbit.foxbitandroid.png
-  website: http://www.foxbit.com.br
   developerName: Foxbit
 iphone:
   appId: br.com.foxbit
@@ -32,7 +32,6 @@ iphone:
   version: 3.43.1
   reviews: 5549
   icon: br.com.foxbit.jpg
-  website: https://foxbit.com.br/negociar-criptoativos/
   developerName: Foxbit
 
 ---

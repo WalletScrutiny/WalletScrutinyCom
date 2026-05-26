@@ -19,7 +19,6 @@ android:
   version: 8.1.1
   reviews: 19
   icon: com.profittrading.forkucoin.png
-  website: https://profittradingapp.com?utm_source=kucoin_gp
   developerName: ProfitTradingApp
 
 ---

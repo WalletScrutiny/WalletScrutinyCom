@@ -20,7 +20,6 @@ android:
   updated: 2023-03-03
   version: 3.2.2
   icon: com.laqira.exchange.png
-  website: https://laqira.com/
   developerName: Laqira Protocol
 
 ---

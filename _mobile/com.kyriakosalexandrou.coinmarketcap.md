@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-10
 authors:
 - danny
+website: https://www.dopamineapp.com
 twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
@@ -21,7 +22,6 @@ android:
   version: 16.3.1
   reviews: 1388
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
-  website: https://www.dopamineapp.com
   developerName: Newtechincubator.com
 iphone:
   appId: com.programonks.CoinMarketApp
@@ -31,7 +31,6 @@ iphone:
   version: 16.3.1
   reviews: 618
   icon: com.programonks.CoinMarketApp.jpg
-  website: https://www.dopamineapp.com/
   developerName: CORTEX AG
 
 ---

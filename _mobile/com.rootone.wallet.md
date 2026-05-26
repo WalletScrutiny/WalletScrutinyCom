@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-26
 authors:
 - danny
+website: https://rootone.com#deadLink
 appCountry: us
 redirect_from:
 - /android/com.rootone.wallet/
@@ -18,7 +19,6 @@ android:
   version: 1.5.3
   reviews: 9
   icon: com.rootone.wallet.png
-  website: https://rootone.com#deadLink
   developerName: (주)루트원소프트
 iphone:
   appId: com.rootone.bitberry
@@ -28,7 +28,6 @@ iphone:
   version: 1.4.2
   reviews: 7
   icon: com.rootone.bitberry.jpg
-  website: http://bitberry.app
   developerName: RootOne
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-08
 authors:
 - danny
+website: https://metavest.app/
 twitter: MetavestApp
 social:
 - https://www.facebook.com/Metavestapp
@@ -24,7 +25,6 @@ android:
   updated: 2025-07-27
   version: 3.4.0
   icon: app.metavest.mobile.png
-  website: https://metavest.app/
   developerName: Metavest
 iphone:
   appId: app.metavest.client
@@ -35,7 +35,6 @@ iphone:
   version: 3.4.0
   reviews: 0
   icon: app.metavest.client.jpg
-  website: https://metavest.app/affiliate
   developerName: Metavest Limited
 
 ---

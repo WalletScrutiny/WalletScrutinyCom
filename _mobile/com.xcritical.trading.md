@@ -16,7 +16,6 @@ android:
   updated: 2023-02-02
   version: 2.23.7
   icon: com.xcritical.trading.png
-  website: https://xcritical.com/
   developerName: Xcritical Soft LTD
 iphone:
   appId: com.xcritical.trading

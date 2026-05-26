@@ -27,7 +27,6 @@ android:
   version: 12.43.0
   reviews: 10975
   icon: io.cex.app.prod.png
-  website: https://cex.io
   developerName: CEX.IO
 iphone:
   appId: io.cex.app

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-21
 authors:
 - danny
+website: https://www.kraken.com
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx
@@ -26,7 +27,6 @@ android:
   version: 3.65.0
   reviews: 8076
   icon: com.kraken.invest.app.png
-  website: https://www.kraken.com
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.invest.app
@@ -37,7 +37,6 @@ iphone:
   version: 3.64.0
   reviews: 31190
   icon: com.kraken.invest.app.jpg
-  website: https://kraken.com
   developerName: Kraken
 
 ---

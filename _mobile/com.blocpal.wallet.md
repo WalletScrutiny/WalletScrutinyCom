@@ -6,6 +6,7 @@ meta: obsolete
 date: 2023-01-02
 authors:
 - danny
+website: http://www.blocpal.com
 appCountry: us
 redirect_from:
 - /android/com.blocpal.wallet/
@@ -18,7 +19,6 @@ android:
   version: 2.0.39
   icon: com.blocpal.wallet.png
   meta: obsolete
-  website: http://www.blocpal.com
   developerName: BlocPal International Inc.
 iphone:
   appId: com.blocpal.wallet

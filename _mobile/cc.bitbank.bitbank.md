@@ -19,7 +19,6 @@ android:
   version: 3.7.1
   reviews: 3
   icon: cc.bitbank.bitbank.png
-  website: https://bitbank.cc
   developerName: Bitbank, Inc.
 
 ---

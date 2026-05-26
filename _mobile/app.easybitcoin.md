@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-10
 authors:
 - danny
+website: https://easybitcoin.app/
 twitter: easyBitcoinapp
 social:
 - https://www.facebook.com/easyBitcoinApp
@@ -22,7 +23,6 @@ android:
   version: 1.2.2
   reviews: 26
   icon: app.easybitcoin.png
-  website: https://easybitcoin.app/
   developerName: Uphold HQ Inc.
 iphone:
   appId: app.easybitcoin

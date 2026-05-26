@@ -20,7 +20,6 @@ android:
   version: 2.1.5
   reviews: 650
   icon: com.pionex.us.client.png
-  website: https://www.pionex.us/
   developerName: Webot Global
 
 ---

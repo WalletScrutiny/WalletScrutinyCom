@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://tap-protocol.com
 twitter: tap_protocol
 redirect_from:
 - /android/com.tapwalletmobile/
@@ -17,7 +18,6 @@ android:
   updated: 2026-01-19
   version: 1.0.29
   icon: com.tapwalletmobile.png
-  website: https://tap-protocol.com
   developerName: Trac Systems
 iphone:
   appId: com.tap-protocol.tapwallet

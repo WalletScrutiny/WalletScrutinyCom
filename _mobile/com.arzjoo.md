@@ -18,7 +18,6 @@ android:
   version: 1.9.1
   reviews: 78
   icon: com.arzjoo.png
-  website: https://sarmayex.com
   developerName: A to Z Crypto
 
 ---

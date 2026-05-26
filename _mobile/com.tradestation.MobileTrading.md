@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-10
 authors:
 - danny
+website: http://tradestation.com/contact-us/
 twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
@@ -21,7 +22,6 @@ android:
   version: 9.5.0
   reviews: 2061
   icon: com.tradestation.MobileTrading.png
-  website: http://tradestation.com/contact-us/
   developerName: TradeStation Technologies
 iphone:
   appId: com.tradestation.MobileTrading
@@ -31,7 +31,6 @@ iphone:
   version: 9.5.1
   reviews: 18355
   icon: com.tradestation.MobileTrading.jpg
-  website: http://www.tradestation.com/trading-technology/tradestation-mobile
   developerName: TradeStation Technologies
 
 ---

@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-06-20
 authors:
 - danny
+website: https://chainge.finance#deadLink
 twitter: FinanceChainge
 social:
 - https://www.linkedin.com/company/chainge-finance
@@ -22,7 +23,6 @@ android:
   reviews: 63
   icon: com.fusion.chainge.android.png
   meta: removed
-  website: https://chainge.finance#deadLink
   developerName: Chainge
 iphone:
   appId: com.chainge.finance.app
@@ -33,7 +33,6 @@ iphone:
   reviews: 89
   icon: com.chainge.finance.app.jpg
   meta: stale
-  website: https://web.archive.org/web/20251115045754/https://chainge.finance/
   developerName: Chainge Tech Limited
 
 ---

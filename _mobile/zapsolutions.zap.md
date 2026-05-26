@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-25
 authors:
 - leo
+website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
 twitter: ln_zap
 social:
 - https://medium.com/@JimmyMow
@@ -30,7 +31,6 @@ android:
   updated: 2023-04-16
   version: VARY
   icon: zapsolutions.zap.png
-  website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
   developerName: LN OSS
   repository: https://github.com/LN-Zap/zap-android
 iphone:
@@ -41,7 +41,6 @@ iphone:
   version: 0.5.2
   reviews: 63
   icon: com.jackmallers.zap.jpg
-  website: https://zaphq.io
   repository: https://github.com/LN-Zap/zap-iOS
 
 ---

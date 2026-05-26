@@ -6,6 +6,7 @@ meta: removed
 date: 2021-12-29
 authors:
 - leo
+website: https://hexawallet.io
 twitter: HexaWallet
 features:
 - foss
@@ -21,7 +22,6 @@ android:
   version: 1.7.4
   reviews: 14
   icon: io.hexawallet.hexa.png
-  website: https://hexawallet.io
   repository: https://github.com/bithyve/bitcointribe-classic
 iphone:
   appId: io.hexawallet.hexa
@@ -31,7 +31,6 @@ iphone:
   version: 1.7.7
   reviews: 5
   icon: io.hexawallet.hexa.jpg
-  website: https://hexawallet.io/
 
 ---
 

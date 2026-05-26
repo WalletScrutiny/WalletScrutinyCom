@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-01
 authors:
 - danny
+website: https://www.markets4you.com/en/
 social:
 - https://www.facebook.com/forex4you
 appCountry: th
@@ -20,7 +21,6 @@ android:
   version: 6.22.0
   reviews: 266
   icon: com.forex4you.android.png
-  website: https://www.markets4you.com/en/
   developerName: E-Global Trade & Finance Group Inc.
 iphone:
   appId: com.forex4you.ios
@@ -30,7 +30,6 @@ iphone:
   version: 6.22.0
   reviews: 989
   icon: com.forex4you.ios.jpg
-  website: https://www.markets4you.com/en/contact-us/
   developerName: E-Global Trade & Finance Group, Inc.
 
 ---

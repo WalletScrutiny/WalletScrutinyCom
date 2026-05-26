@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-06
 authors:
 - danny
+website: https://webauth.com/
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr
@@ -23,7 +24,6 @@ android:
   version: 2.1.61
   reviews: 87
   icon: com.metallicus.webauth.png
-  website: https://webauth.com/
   developerName: Metallicus Inc.
 iphone:
   appId: com.metallicus.webauth
@@ -34,7 +34,6 @@ iphone:
   version: 2.1.61
   reviews: 216
   icon: com.metallicus.webauth.jpg
-  website: https://xprnetwork.org/
   developerName: Metallicus, Inc.
 
 ---

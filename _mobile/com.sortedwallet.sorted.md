@@ -16,7 +16,6 @@ android:
   updated: 2026-05-15
   version: 1.0.22
   icon: com.sortedwallet.sorted.png
-  website: https://sortedwallet.com
   developerName: Sors Technology Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-04
 authors:
 - danny
+website: http://www.mexo.io
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio
@@ -22,7 +23,6 @@ android:
   version: 3.7.15
   reviews: 18
   icon: io.mexo.app.png
-  website: http://www.mexo.io
   developerName: TruBit Ltd
 iphone:
   appId: com.kmoh.mexo
@@ -32,7 +32,6 @@ iphone:
   version: 3.7.13
   reviews: 135
   icon: com.kmoh.mexo.jpg
-  website: https://help.trubit.com/en
   developerName: TruBit Ltd.
 
 ---

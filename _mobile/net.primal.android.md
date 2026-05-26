@@ -6,6 +6,7 @@ meta: ok
 date: 2024-03-02
 authors:
 - danny
+website: https://www.primal.net
 features:
 - ln
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 3.5.9
   reviews: 30
   icon: net.primal.android.png
-  website: https://www.primal.net
   developerName: PRIMAL SYSTEMS INC.
 iphone:
   appId: net.primal.iosapp.Primal
@@ -30,7 +30,6 @@ iphone:
   version: 3.0.61
   reviews: 899
   icon: net.primal.iosapp.Primal.jpg
-  website: https://primal.net
   developerName: Primal Systems Incorporated.
 
 ---

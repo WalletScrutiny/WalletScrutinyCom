@@ -13,7 +13,6 @@ android:
   updated: 2025-10-16
   version: 2.1.9
   icon: com.ninja.ninjapay.me.png
-  website: https://ninjapay.me/
   developerName: Ninjapay
 
 ---

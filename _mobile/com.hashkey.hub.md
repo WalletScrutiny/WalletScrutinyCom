@@ -6,6 +6,7 @@ meta: removed
 date: 2023-05-26
 authors:
 - danny
+website: https://hub.hashkey.com#deadLink
 twitter: HashkeyHub
 social:
 - https://www.hashkey.com
@@ -24,7 +25,6 @@ android:
   version: 4.0.0
   reviews: 3
   icon: com.hashkey.hub.png
-  website: https://hub.hashkey.com#deadLink
   developerName: HASHKEY HUB LIMITED
 iphone:
   appId: io.hashkey.hub

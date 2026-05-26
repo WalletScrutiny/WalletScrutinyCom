@@ -25,7 +25,6 @@ android:
   reviews: 56306
   icon: com.binance.cloud.tokocrypto.png
   meta: ok
-  website: https://www.tokocrypto.com
   developerName: Tokocrypto
 iphone:
   appId: com.binanceCloudtoko.binance

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://www.emberfund.io/
 twitter: Ember_Fund
 social:
 - https://github.com/ember-fund
@@ -21,7 +22,6 @@ android:
   version: '38.0'
   reviews: 2599
   icon: com.emberfund.ember.jpg
-  website: https://www.emberfund.io/
   developerName: Ember Fund Inc
 iphone:
   appId: com.emberfund.ember
@@ -31,7 +31,6 @@ iphone:
   version: '38.0'
   reviews: 15679
   icon: com.emberfund.ember.jpg
-  website: https://emberfund.io/
   developerName: Ember Fund LLC
 
 ---

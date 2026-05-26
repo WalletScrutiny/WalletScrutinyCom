@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: app.vipsats.satos.jpg
   meta: stale
-  website: https://vipsats.app
   developerName: VIPSATS.APP
 
 ---

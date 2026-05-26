@@ -6,6 +6,7 @@ meta: fewusers
 date: 2024-05-31
 authors:
 - danny
+website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo
 twitter: stack_wallet
 social:
@@ -24,7 +25,6 @@ android:
   version: 2.4.2
   icon: com.cypherstack.stackduo.png
   meta: fewusers
-  website: https://stackwallet.com
   developerName: Cypher Stack Team
 iphone:
   appId: com.cypherstack.stackduo
@@ -36,7 +36,6 @@ iphone:
   reviews: 7
   icon: com.cypherstack.stackduo.jpg
   meta: ok
-  website: https://duo.stackwallet.com/
   developerName: Cypher Stack LLC
 
 ---

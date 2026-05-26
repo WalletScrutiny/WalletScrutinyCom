@@ -7,6 +7,7 @@ date: 2021-10-24
 authors:
 - danny
 - leo
+website: https://www.crypto.com/exchange
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom
@@ -24,7 +25,6 @@ android:
   version: 3.5.0
   reviews: 16
   icon: com.crypto.exchange.png
-  website: https://www.crypto.com/exchange
   developerName: Crypto.com Exchange
 iphone:
   appId: crypto.com.exchange
@@ -34,7 +34,6 @@ iphone:
   version: 3.5.1
   reviews: 111
   icon: crypto.com.exchange.jpg
-  website: https://crypto.com/exchange
   developerName: Foris DAX Limited
 
 ---

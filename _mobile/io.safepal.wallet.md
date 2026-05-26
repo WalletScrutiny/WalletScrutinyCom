@@ -20,7 +20,6 @@ android:
   version: 4.11.2
   reviews: 1093
   icon: io.safepal.wallet.png
-  website: https://www.safepal.com
   developerName: SafePal Wallet
 iphone:
   appId: walletapp.safepal.io

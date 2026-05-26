@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://fibitpro.com
 twitter: fibitpro
 social:
 - https://www.linkedin.com/company/fibits
@@ -23,7 +24,6 @@ android:
   version: 0.9.1
   reviews: 61
   icon: com.fibitpro.fibitapp.png
-  website: https://fibitpro.com
   developerName: Fibit Infotech Pvt. Ltd.
 iphone:
   appId: com.fibit.ios

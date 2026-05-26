@@ -12,7 +12,6 @@ android:
   updated: 2026-05-15
   version: 3.3.3
   icon: nz.lightningpay.wallet.png
-  website: https://stackedbitcoin.com
   developerName: Ones and Zeros Technology
 
 ---

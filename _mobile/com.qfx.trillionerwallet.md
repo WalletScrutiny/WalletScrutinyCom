@@ -16,7 +16,6 @@ android:
   version: '22.0'
   reviews: 3
   icon: com.qfx.trillionerwallet.png
-  website: https://trillioner.io
   developerName: Trillioner Innovations
 
 ---

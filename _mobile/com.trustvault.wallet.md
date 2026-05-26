@@ -13,7 +13,6 @@ android:
   updated: 2026-02-02
   version: 1.0.0
   icon: com.trustvault.wallet.png
-  website: http://trustvault-app.com
   developerName: UNREAL VENTURES LLC
 
 ---

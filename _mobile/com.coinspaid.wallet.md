@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://coinspaid.com
 twitter: coinspaid
 social:
 - https://www.facebook.com/coinspaid
@@ -24,7 +25,6 @@ android:
   version: 0.9.6
   reviews: 2
   icon: com.coinspaid.wallet.png
-  website: https://coinspaid.com
   developerName: CoinsPaid
 iphone:
   appId: com.coinspaid.wallet
@@ -35,7 +35,6 @@ iphone:
   version: 0.9.6
   reviews: 0
   icon: com.coinspaid.wallet.jpg
-  website: https://coinspaid.com/wallet/
   developerName: CoinsPaid
 
 ---

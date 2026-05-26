@@ -6,6 +6,7 @@ meta: ok
 date: 2025-10-03
 authors:
 - danny
+website: https://tapwallet.com/
 twitter: theTAPwallet
 social:
 - https://www.tiktok.com/@thetapwallet
@@ -22,7 +23,6 @@ android:
   version: 1.0.94
   reviews: 48
   icon: com.humbl.wallet.app.jpg
-  website: https://tapwallet.com/
   developerName: TAP, Inc.
 iphone:
   appId: com.humbl.wallet
@@ -33,7 +33,6 @@ iphone:
   version: 2.0.5
   reviews: 491
   icon: com.humbl.wallet.jpg
-  website: https://tapinvest.com/wallet/
   developerName: HUMBL
 
 ---

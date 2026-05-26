@@ -6,6 +6,7 @@ meta: stale
 date: 2025-05-30
 authors:
 - danny
+website: https://international.indoex.io
 twitter: Indoex_LTD
 social:
 - https://www.linkedin.com/company/indoex-exchange
@@ -24,7 +25,6 @@ android:
   reviews: 4
   icon: com.indoex.finance.png
   meta: stale
-  website: https://international.indoex.io
   developerName: IndoEx
 iphone:
   appId: com.indoex.dev

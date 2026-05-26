@@ -6,6 +6,7 @@ meta: ok
 date: 2023-12-14
 authors:
 - danny
+website: https://www.buenbit.com
 redirect_from:
 - /android/com.buengroup.buenbit/
 - /iphone/com.buengroup.buenbit/
@@ -17,7 +18,6 @@ android:
   version: 3.55.0
   reviews: 32
   icon: com.buengroup.buenbit.png
-  website: https://www.buenbit.com
   developerName: Fiat Flow Solutions
 iphone:
   appId: com.buengroup.buenbit
@@ -28,7 +28,6 @@ iphone:
   version: 3.55.0
   reviews: 19
   icon: com.buengroup.buenbit.jpg
-  website: https://www.buenbit.com/
   developerName: Buenbit
 
 ---

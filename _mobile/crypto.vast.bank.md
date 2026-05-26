@@ -6,6 +6,7 @@ meta: removed
 date: 2024-03-02
 authors:
 - danny
+website: https://www.vast.bank
 twitter: vastbank
 social:
 - https://www.linkedin.com/company/vastbank
@@ -21,7 +22,6 @@ android:
   version: 1.7.15
   reviews: 69
   icon: crypto.vast.bank.jpg
-  website: https://www.vast.bank
   developerName: Vast Bank
 iphone:
   appId: crypto.vast.bank
@@ -32,7 +32,6 @@ iphone:
   version: 1.7.15
   reviews: 83
   icon: crypto.vast.bank.jpg
-  website: https://www.vast.bank/
   developerName: Vast Bank N.A.
 
 ---

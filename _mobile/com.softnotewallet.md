@@ -26,7 +26,6 @@ android:
   version: 1.8.4
   reviews: 3
   icon: com.softnotewallet.png
-  website: https://softnote.com
   developerName: Crispmind Ltd.
 iphone:
   appId: com.softnote.wallet

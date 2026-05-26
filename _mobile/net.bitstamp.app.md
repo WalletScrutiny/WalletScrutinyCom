@@ -6,6 +6,7 @@ meta: ok
 date: 2020-05-29
 authors:
 - leo
+website: https://www.bitstamp.net
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp
@@ -25,7 +26,6 @@ android:
   version: '4.16'
   reviews: 676
   icon: net.bitstamp.app.png
-  website: https://www.bitstamp.net
   developerName: Bitstamp
 iphone:
   appId: net.bitstamp
@@ -35,7 +35,6 @@ iphone:
   version: 4.16.6
   reviews: 7440
   icon: net.bitstamp.jpg
-  website: https://www.bitstamp.net/
   developerName: Bitstamp Ltd.
 
 ---

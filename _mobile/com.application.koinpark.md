@@ -27,7 +27,6 @@ android:
   version: '1.75'
   reviews: 14
   icon: com.application.koinpark.png
-  website: https://www.koinpark.com/
   developerName: Koinpark Private Limited
 iphone:
   appId: com.app.KoinParkios

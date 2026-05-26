@@ -6,6 +6,7 @@ meta: stale
 date: 2026-04-13
 authors:
 - danny
+website: https://www.elementwallet.com/
 redirect_from:
 - /android/com.corewallet.element.app/
 - /iphone/Element-com.elementwallet.app/
@@ -17,7 +18,6 @@ android:
   version: 1.13.0
   reviews: 316
   icon: com.corewallet.element.app.jpg
-  website: https://www.elementwallet.com/
   developerName: Element Wallet Inc
 iphone:
   appId: Element-com.elementwallet.app
@@ -28,7 +28,6 @@ iphone:
   version: 1.13.0
   reviews: 166
   icon: Element-com.elementwallet.app.jpg
-  website: https://www.elementwallet.com
   developerName: Core Wallet Inc
 
 ---

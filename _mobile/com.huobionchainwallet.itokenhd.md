@@ -8,6 +8,7 @@ authors:
 - danny
 - kiwilamb
 - leo
+website: https://www.itoken.com/
 social:
 - https://medium.com/@iTokenWalletOfficial
 - https://www.facebook.com/HuobiWallet
@@ -22,7 +23,6 @@ android:
   version: 4.00.05.003
   reviews: 2
   icon: com.huobionchainwallet.itokenhd.png
-  website: https://www.itoken.com/
   developerName: BlazekTech Internet Technology Service Limited
   twitter: iTokenWallet
 iphone:
@@ -33,7 +33,6 @@ iphone:
   version: 3.3.6
   reviews: 136
   icon: com.walletdev.onchainwallet.jpg
-  website: https://www.itoken.com/en/
   developerName: BlazekTech Internet Technology Service Limited
   twitter: HuobiWallet
 

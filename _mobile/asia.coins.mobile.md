@@ -6,6 +6,7 @@ meta: ok
 date: 2020-10-12
 authors:
 - leo
+website: https://coins.ph
 twitter: coinsph
 social:
 - https://www.linkedin.com/company/coins-ph
@@ -26,7 +27,6 @@ android:
   reviews: 553
   icon: asia.coins.mobile.png
   meta: ok
-  website: https://coins.ph
   developerName: Coins Asia
 iphone:
   appId: gctp.Coins
@@ -37,7 +37,6 @@ iphone:
   reviews: 3330
   icon: gctp.Coins.jpg
   meta: removed
-  website: https://coins.ph/
 
 ---
 

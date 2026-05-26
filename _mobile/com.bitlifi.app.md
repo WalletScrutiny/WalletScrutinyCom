@@ -22,7 +22,6 @@ android:
   updated: 2025-12-22
   version: 1.11.5
   icon: com.bitlifi.app.png
-  website: https://www.bitlifi.com
   developerName: MP Developers s.r.o.
 iphone:
   appId: com.bitlifi.app

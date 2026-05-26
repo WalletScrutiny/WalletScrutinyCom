@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-05-14
 authors:
 - danny
+website: https://trastra.com/
 twitter: Trastra_ltd
 social:
 - https://www.linkedin.com/company/trastra
@@ -22,7 +23,6 @@ android:
   reviews: 14
   icon: com.trastra.mobile.png
   meta: removed
-  website: https://trastra.com/
   developerName: TRASTRA Limited
 iphone:
   appId: com.trastra.mobile
@@ -34,7 +34,6 @@ iphone:
   reviews: 2
   icon: com.trastra.mobile.jpg
   meta: stale
-  website: https://mobile-app.trastra.com/
   developerName: Trastra Limited
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-06
 authors:
 - danny
+website: https://deblock.com/
 twitter: DeblockApp
 social:
 - https://discord.com/invite/deblock
@@ -19,7 +20,6 @@ android:
   version: 5.13.0
   reviews: 10
   icon: com.deblock.deblockapp.png
-  website: https://deblock.com/
   developerName: Deblock SAS
 iphone:
   appId: com.deblock.deblockapp.production
@@ -30,7 +30,6 @@ iphone:
   version: 5.13.0
   reviews: 19489
   icon: com.deblock.deblockapp.production.jpg
-  website: https://deblock.com
   developerName: Deblock
 
 ---

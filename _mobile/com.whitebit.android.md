@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-10
 authors:
 - danny
+website: https://whitebit.com/
 twitter: whitebit
 social:
 - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
@@ -23,7 +24,6 @@ android:
   version: 3.74.2
   reviews: 1348
   icon: com.whitebit.android.png
-  website: https://whitebit.com/
   developerName: WhiteBit
 iphone:
   appId: com.whitebit.whitebitapp
@@ -33,7 +33,6 @@ iphone:
   version: 3.74.2
   reviews: 3898
   icon: com.whitebit.whitebitapp.jpg
-  website: https://whitebit.com
   developerName: UAB Clear White Technologies
 
 ---

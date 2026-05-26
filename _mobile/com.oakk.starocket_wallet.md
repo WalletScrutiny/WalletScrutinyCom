@@ -28,7 +28,6 @@ android:
   version: 3.1.7
   reviews: 9
   icon: com.oakk.starocket_wallet.png
-  website: https://trubit.com/
   developerName: TruBit Ltd.
 iphone:
   appId: com.oakk.starocket-wallet

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-09-15
 authors:
 - danny
+website: https://www.coinjar.com
 twitter: getcoinjar
 social:
 - https://www.linkedin.com/company/coinjar
@@ -22,7 +23,6 @@ android:
   version: 3.55.0
   reviews: 1170
   icon: com.coinjar.riemann.png
-  website: https://www.coinjar.com
   developerName: CoinJar
 iphone:
   appId: com.coinjar.mobius
@@ -32,7 +32,6 @@ iphone:
   version: 3.54.4
   reviews: 15185
   icon: com.coinjar.mobius.jpg
-  website: https://www.coinjar.com/au
   developerName: CoinJar Pty Ltd
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2021-08-09
 authors:
 - danny
+website: https://www.skrill.com
 twitter: skrill
 social:
 - https://www.facebook.com/Skrillpayments
@@ -21,7 +22,6 @@ android:
   version: 3.185.0-2026052009
   reviews: 3884
   icon: com.moneybookers.skrillpayments.png
-  website: https://www.skrill.com
   developerName: Paysafe Holdings UK Limited
 iphone:
   appId: com.skrill.ios.SkrillPayments
@@ -32,7 +32,6 @@ iphone:
   version: 3.184.0
   reviews: 8736
   icon: com.skrill.ios.SkrillPayments.jpg
-  website: https://www.skrill.com/
   developerName: Skrill Ltd.
 
 ---

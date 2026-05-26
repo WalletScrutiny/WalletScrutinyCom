@@ -19,7 +19,6 @@ android:
   reviews: 3
   icon: com.rapiexchange.png
   meta: ok
-  website: https://www.rapixchange.com/
   developerName: Rapixchange
 iphone:
   appId: com.rapixchangeapp

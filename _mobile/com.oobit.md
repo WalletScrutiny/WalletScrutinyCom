@@ -22,7 +22,6 @@ android:
   version: 2.6.1
   reviews: 39
   icon: com.oobit.png
-  website: https://www.oobit.com/
   developerName: Oobit Technologies
   twitter: oobit
 iphone:

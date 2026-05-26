@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-17
 authors:
 - danny
+website: http://www.xtrade.com
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade
@@ -21,7 +22,6 @@ android:
   version: 7.0.24
   reviews: 76
   icon: com.xfr.xtrade.png
-  website: http://www.xtrade.com
   developerName: XTRADE
 iphone:
   appId: com.triviologic.xtrader
@@ -32,7 +32,6 @@ iphone:
   version: 7.0.25
   reviews: 29
   icon: com.triviologic.xtrader.jpg
-  website: https://www.xtrade.com/
   developerName: XTRADE EUROPE LTD
 
 ---

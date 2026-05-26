@@ -6,6 +6,7 @@ meta: removed
 date: 2023-03-21
 authors:
 - leo
+website: https://www.litebit.eu/
 twitter: litebiteu
 social:
 - https://www.linkedin.com/company/litebit
@@ -22,7 +23,6 @@ android:
   version: 3.3.19
   reviews: 2
   icon: com.flutter.litebit.png
-  website: https://www.litebit.eu/
   developerName: 2525 Ventures BV
 iphone:
   appId: com.litebit.app
@@ -32,7 +32,6 @@ iphone:
   version: 3.1.17
   reviews: 10
   icon: com.litebit.app.jpg
-  website: https://www.litebit.eu/en/
 
 ---
 

@@ -7,6 +7,7 @@ date: 2022-10-21
 authors:
 - danny
 - leo
+website: https://www.mathwallet.org/
 twitter: Mathwallet
 redirect_from:
 - /com.medishares.android/
@@ -20,7 +21,6 @@ android:
   version: 4.5.4
   reviews: 184
   icon: com.medishares.android.png
-  website: https://www.mathwallet.org/
 iphone:
   appId: com.medishares.ios.pro
   idd: 1383637331
@@ -29,7 +29,6 @@ iphone:
   version: 3.1.0
   reviews: 64
   icon: com.medishares.ios.pro.jpg
-  website: https://www.mathwallet.org
 
 ---
 

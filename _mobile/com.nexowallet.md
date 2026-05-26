@@ -23,7 +23,6 @@ android:
   version: 7.1.1
   reviews: 1873
   icon: com.nexowallet.png
-  website: https://nexo.com
   developerName: Nexo Capital Incorporated
 iphone:
   appId: com.nexobank.wallet

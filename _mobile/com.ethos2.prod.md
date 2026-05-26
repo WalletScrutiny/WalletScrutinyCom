@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://www.ethos.io
 twitter: Ethos_io
 redirect_from:
 - /android/com.ethos2.prod/
@@ -18,7 +19,6 @@ android:
   version: 5.4.0
   reviews: 21
   icon: com.ethos2.prod.png
-  website: https://www.ethos.io
   developerName: Ethos.io
 iphone:
   appId: com.ethos2.app
@@ -29,7 +29,6 @@ iphone:
   version: 5.4.0
   reviews: 2
   icon: com.ethos2.app.jpg
-  website: https://www.ethosdefi.com
   developerName: Ethos Corporation
 
 ---

@@ -19,7 +19,6 @@ android:
   version: 9.70.0
   reviews: 377
   icon: com.excoino.excoino.png
-  website: https://www.excoino.com/
   developerName: Ernyka Co
 
 ---

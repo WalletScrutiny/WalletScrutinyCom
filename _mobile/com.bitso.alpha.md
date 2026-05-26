@@ -20,7 +20,6 @@ android:
   version: 1.50.2
   reviews: 594
   icon: com.bitso.alpha.png
-  website: https://bitso.com/alpha/landing
   developerName: Bitso
 
 ---

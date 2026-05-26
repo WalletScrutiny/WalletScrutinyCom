@@ -6,6 +6,7 @@ meta: stale
 date: 2026-02-02
 authors:
 - danny
+website: https://coinhubatm.com/
 twitter: Coinhubusa
 social:
 - https://www.linkedin.com/company/coinhubatm
@@ -25,7 +26,6 @@ android:
   reviews: 16
   icon: app.coinhubatm.wallet.png
   meta: ok
-  website: https://coinhubatm.com/
   developerName: Coinhub Bitcoin Wallet
 iphone:
   appId: app.coinhubatm.wallet

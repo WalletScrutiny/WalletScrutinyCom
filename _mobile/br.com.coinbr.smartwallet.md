@@ -6,6 +6,7 @@ meta: removed
 date: 2023-03-21
 authors:
 - danny
+website: https://stratum.hk
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
@@ -21,7 +22,6 @@ android:
   updated: 2021-10-29
   version: 2.0.28
   icon: br.com.coinbr.smartwallet.png
-  website: https://stratum.hk
 iphone:
   appId: br.com.coinbr.smartwallet
   idd: '1302270848'
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.28
   reviews: 2
   icon: br.com.coinbr.smartwallet.jpg
-  website: https://stratum.hk/press
 
 ---
 

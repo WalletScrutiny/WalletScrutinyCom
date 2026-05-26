@@ -6,6 +6,7 @@ meta: ok
 date: 2024-07-24
 authors:
 - danny
+website: https://fintoda.com
 social:
 - https://t.me/joinchat/0XnTfyBrU-tiOTNi
 - https://fintoda.com
@@ -19,7 +20,6 @@ android:
   updated: 2026-05-25
   version: 1.7.11
   icon: com.fintoda.app.png
-  website: https://fintoda.com
   developerName: FINTODA LLC
 iphone:
   appId: com.fintoda.app

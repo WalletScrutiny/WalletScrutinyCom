@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-13
 authors:
 - danny
+website: https://getzion.com#deadLink
 twitter: get_zion
 social:
 - https://www.instagram.com/get_zion
@@ -20,7 +21,6 @@ android:
   version: 2.0.5
   reviews: 27
   icon: com.getzion.zion.png
-  website: https://getzion.com#deadLink
   developerName: Zion - Create Openly
 iphone:
   appId: chat.n2n2.Chat

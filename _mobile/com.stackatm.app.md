@@ -14,7 +14,6 @@ android:
   version: 1.12.1
   reviews: 4
   icon: com.stackatm.app.png
-  website: https://stackatm.com/
   developerName: Kalbas, Inc.
 
 ---

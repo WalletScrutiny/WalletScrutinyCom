@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-18
 authors:
 - danny
+website: http://multi.ua
 redirect_from:
 - /android/net.treeum.multi.invest/
 - /iphone/net.treeum.multi.invest/
@@ -15,7 +16,6 @@ android:
   updated: 2022-09-01
   version: 1.0.31
   icon: net.treeum.multi.invest.png
-  website: http://multi.ua
   developerName: Treeum Holdings Limited
 iphone:
   appId: net.treeum.multi.invest
@@ -26,7 +26,6 @@ iphone:
   version: 1.0.31
   reviews: 0
   icon: net.treeum.multi.invest.jpg
-  website: https://multi.ua/
   developerName: Treeum Holdings LTD
 
 ---

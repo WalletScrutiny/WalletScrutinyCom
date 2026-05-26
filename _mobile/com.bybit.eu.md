@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-13
 authors:
 - danny
+website: https://www.bybit.eu/help-center
 twitter: BybitEU
 features:
 - buyWithCC
@@ -19,7 +20,6 @@ android:
   updated: 2026-04-29
   version: 5.17.0
   icon: com.bybit.eu.png
-  website: https://www.bybit.eu/help-center
   developerName: Bybit EU GmbH
 iphone:
   appId: com.bybit.eu

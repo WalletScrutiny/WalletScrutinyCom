@@ -24,7 +24,6 @@ android:
   version: 1.7.4
   icon: com.eqifi.eqifi.png
   meta: ok
-  website: https://www.eqifi.com/
   developerName: EQIFi
 iphone:
   appId: com.eqifi.management.Eqifi

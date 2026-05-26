@@ -6,6 +6,7 @@ meta: stale
 date: 2025-11-05
 authors:
 - danny
+website: http://roseon.world
 twitter: RoseonFinance
 social:
 - https://www.facebook.com/Roseon.Finance
@@ -22,7 +23,6 @@ android:
   reviews: 63
   icon: roseon.finance.png
   meta: stale
-  website: http://roseon.world
   developerName: Roseon Finance
 iphone:
   appId: com.roseon.finance.production
@@ -33,7 +33,6 @@ iphone:
   reviews: 40
   icon: com.roseon.finance.production.jpg
   meta: removed
-  website: https://roseon.finance/
   developerName: MYBITOK OU
 
 ---

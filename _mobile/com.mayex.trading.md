@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://www.mayex.com
 twitter: Mayex_Global
 social:
 - https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA
@@ -22,7 +23,6 @@ android:
   version: 1.9.80
   reviews: 9
   icon: com.mayex.trading.jpg
-  website: https://www.mayex.com
   developerName: Mayex
 iphone:
   appId: com.mayex.trading
@@ -33,7 +33,6 @@ iphone:
   version: 1.9.8
   reviews: 5
   icon: com.mayex.trading.jpg
-  website: https://www.mayex.com/referral
   developerName: MAYEX LIMITED
 
 ---

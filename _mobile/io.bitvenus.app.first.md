@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-27
 authors:
 - danny
+website: https://www.bvox.com
 twitter: bvox_global
 social:
 - https://t.me/bvox_official
@@ -25,7 +26,6 @@ android:
   version: 5.7.17
   reviews: 6
   icon: io.bitvenus.app.first.jpg
-  website: https://www.bvox.com
   developerName: Bitvenus Technology Ltd.
 iphone:
   appId: com.bitvenus.exchange

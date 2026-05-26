@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-30
 authors:
 - danny
+website: https://swiftcoin.io/
 twitter: SwiftCoin380
 social:
 - https://t.me/+bJywMqqVe940NjQ9
@@ -25,7 +26,6 @@ android:
   version: 3.1.10
   reviews: 1
   icon: io.swiftcoin.png
-  website: https://swiftcoin.io/
   developerName: Swift Coin
 iphone:
   appId: io.swiftcoin

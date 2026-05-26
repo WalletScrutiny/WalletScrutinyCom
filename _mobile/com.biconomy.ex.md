@@ -6,6 +6,7 @@ meta: ok
 date: 2023-02-15
 authors:
 - danny
+website: https://www.biconomy.com
 twitter: BiconomyCom
 social:
 - https://www.facebook.com/BiconomyCom
@@ -23,7 +24,6 @@ android:
   version: 2.3.25
   reviews: 158
   icon: com.biconomy.ex.png
-  website: https://www.biconomy.com
   developerName: Biconomy Global
 iphone:
   appId: com.biconomy.Innovation
@@ -34,7 +34,6 @@ iphone:
   version: 2.3.20
   reviews: 152
   icon: com.biconomy.Innovation.jpg
-  website: http://www.biconomy.com/
   developerName: Biconomy Ltd.
 
 ---

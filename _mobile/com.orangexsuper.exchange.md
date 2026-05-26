@@ -5,6 +5,7 @@ verdict: custodial
 date: 2026-01-23
 authors:
 - danny
+website: https://www.orangex.com/
 twitter: OrangeXExchange
 social:
 - https://www.linkedin.com/company/orangexexchange
@@ -23,7 +24,6 @@ android:
   reviews: 5
   icon: com.orangexsuper.exchange.png
   meta: removed
-  website: https://www.orangex.com/
   developerName: OrangeX Limited
 iphone:
   appId: com.orangex.exchange
@@ -35,7 +35,6 @@ iphone:
   reviews: 7
   icon: com.orangex.exchange.jpg
   meta: ok
-  website: https://www.orangex.com
   developerName: OrangeX Fintech s.r.o.
 
 ---

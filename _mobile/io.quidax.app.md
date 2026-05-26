@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-02
 authors:
 - danny
+website: https://www.quidax.io/
 twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal
@@ -25,7 +26,6 @@ android:
   version: 1.2.14
   reviews: 12
   icon: io.quidax.app.png
-  website: https://www.quidax.io/
   developerName: Quidax Technologies
 iphone:
   appId: io.quidax.pro

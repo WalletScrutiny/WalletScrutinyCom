@@ -23,7 +23,6 @@ android:
   version: 1.136.0
   reviews: 979
   icon: com.swissborg.android.png
-  website: https://swissborg.com
   developerName: SwissBorg
 iphone:
   appId: com.swissborg.ios

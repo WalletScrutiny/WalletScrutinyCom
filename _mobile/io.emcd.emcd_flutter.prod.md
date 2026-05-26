@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-07
 authors:
 - danny
+website: https://emcd.io/ru
 twitter: emcd_io
 social:
 - https://t.me/emcd_community
@@ -24,7 +25,6 @@ android:
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.png
   meta: ok
-  website: https://emcd.io/ru
   developerName: EMCD Tech Limited
 iphone:
   appId: io.emcd.app
@@ -36,7 +36,6 @@ iphone:
   reviews: 0
   icon: io.emcd.app.jpg
   meta: removed
-  website: https://emcd.io/about
   developerName: Emcd Tech Limited
 
 ---

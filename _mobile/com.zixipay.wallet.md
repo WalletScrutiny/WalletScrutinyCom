@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-17
 authors:
 - danny
+website: https://zixipay.com
 twitter: zixipay
 social:
 - https://www.facebook.com/ZixiPay
@@ -22,7 +23,6 @@ android:
   reviews: 11
   icon: com.zixipay.wallet.png
   meta: removed
-  website: https://zixipay.com
   developerName: ZixiPay LLC
 iphone:
   appId: com.zixipay.wallet
@@ -33,7 +33,6 @@ iphone:
   reviews: 28
   icon: com.zixipay.wallet.jpg
   meta: ok
-  website: https://zixipay.com/
   developerName: ZixiPay LLC
 
 ---

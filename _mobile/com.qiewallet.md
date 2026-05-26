@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-20
 authors:
 - danny
+website: https://qiewallet.qiblockchain.online/
 redirect_from:
 - /android/com.qiewallet/
 - /iphone/org.reactjs.native.QIEWallet/
@@ -16,7 +17,6 @@ android:
   updated: 2026-05-13
   version: 0.3.62
   icon: com.qiewallet.png
-  website: https://qiewallet.qiblockchain.online/
   developerName: VortX Capital Pty Ltd
 iphone:
   appId: org.reactjs.native.QIEWallet

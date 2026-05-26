@@ -13,7 +13,6 @@ android:
   updated: 2026-04-24
   version: 1.3.5
   icon: com.tnp.fortvax.png
-  website: https://stage-fortvax-landing.goldalles.com/
   developerName: 台灣銘板
 
 ---

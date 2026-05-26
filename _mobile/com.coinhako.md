@@ -7,6 +7,7 @@ date: 2021-04-23
 authors:
 - kiwilamb
 - leo
+website: https://coinhako.com
 twitter: coinhako
 social:
 - https://www.linkedin.com/company/coinhako
@@ -26,7 +27,6 @@ android:
   version: 5.25.0
   reviews: 22
   icon: com.coinhako.png
-  website: https://coinhako.com
   developerName: Coinhako
 iphone:
   appId: com.coinhako.app
@@ -36,7 +36,6 @@ iphone:
   version: 5.24.0
   reviews: 31
   icon: com.coinhako.app.jpg
-  website: https://www.coinhako.com
   developerName: CoinHako
 
 ---

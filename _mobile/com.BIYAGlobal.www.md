@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-01
 authors:
 - danny
+website: https://cn.biyapay.com/
 social:
 - https://www.biyagl.com
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 3.0.020
   reviews: 15
   icon: com.BIYAGlobal.www.png
-  website: https://cn.biyapay.com/
   developerName: Biya Global
 iphone:
   appId: com.BiyaGlobal.Biya

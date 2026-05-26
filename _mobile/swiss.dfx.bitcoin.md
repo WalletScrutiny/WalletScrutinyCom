@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-03
 authors:
 - danny
+website: https://dfx.swiss/
 repository: https://github.com/DFXswiss/btc-wallet
 twitter: DFX_Swiss
 social:
@@ -27,7 +28,6 @@ android:
   updated: 2025-07-23
   version: 2.0.3
   icon: swiss.dfx.bitcoin.png
-  website: https://dfx.swiss/
   developerName: DFX AG
 iphone:
   appId: swiss.dfx.bitcoin

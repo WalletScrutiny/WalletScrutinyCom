@@ -12,7 +12,6 @@ android:
   updated: 2026-05-05
   version: VARY
   icon: com.cashuwallet.android.png
-  website: https://cashu.cc/
   developerName: raugfer
 
 ---

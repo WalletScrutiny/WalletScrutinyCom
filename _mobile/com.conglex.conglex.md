@@ -6,6 +6,7 @@ meta: ok
 date: 2025-04-06
 authors:
 - danny
+website: http://conglex.com
 twitter: conglexglobal
 social:
 - https://www.linkedin.com/company/conglex-nigeria/
@@ -19,7 +20,6 @@ android:
   updated: 2025-08-14
   version: 2.0.4
   icon: com.conglex.conglex.png
-  website: http://conglex.com
   developerName: Conglex Developers
 iphone:
   appId: com.conglex.mobile
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.4
   reviews: 0
   icon: com.conglex.mobile.jpg
-  website: https://conglex.com#deadLink
   developerName: Conglex Limited
 
 ---

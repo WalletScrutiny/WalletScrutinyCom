@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-02
 authors:
 - danny
+website: https://www.bitsacard.com
 twitter: bitsa_oficial
 social:
 - https://www.linkedin.com/company/bitsacard
@@ -22,7 +23,6 @@ android:
   version: 3.0.24
   reviews: 10
   icon: com.bitsacard.BitsaApp.png
-  website: https://www.bitsacard.com
   developerName: bitsacard
 iphone:
   appId: com.bitsacard.BitsaApp
@@ -33,7 +33,6 @@ iphone:
   version: 3.0.24
   reviews: 82
   icon: com.bitsacard.BitsaApp.jpg
-  website: https://www.bitsacard.com/en/
   developerName: BITSA
 
 ---

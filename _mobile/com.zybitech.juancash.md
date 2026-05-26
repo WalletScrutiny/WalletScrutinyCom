@@ -6,6 +6,7 @@ meta: stale
 date: 2025-08-01
 authors:
 - danny
+website: https://www.juancash.com/
 social:
 - https://www.linkedin.com/company/juancash/
 - https://www.instagram.com/juancashofficial
@@ -23,7 +24,6 @@ android:
   reviews: 3
   icon: com.zybitech.juancash.png
   meta: stale
-  website: https://www.juancash.com/
   developerName: Zybi Tech Inc
   twitter: JuanCashPH
 iphone:
@@ -36,7 +36,6 @@ iphone:
   reviews: 57
   icon: com.zybitechinc.juanworld.jpg
   meta: ok
-  website: https://www.juancash.com
   developerName: ZYBI TECH, INC.
 
 ---

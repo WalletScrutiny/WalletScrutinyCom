@@ -15,7 +15,6 @@ android:
   updated: 2026-05-26
   version: 1.0.17
   icon: com.xoibit.holdingsapp.jpg
-  website: https://xoibit.com
   developerName: Xoibit
 
 ---

@@ -6,6 +6,7 @@ meta: stale
 date: 2023-08-18
 authors:
 - danny
+website: https://cryptoforce.in
 twitter: cryptoforce_in
 social:
 - https://www.facebook.com/cryptoforceindia
@@ -24,7 +25,6 @@ android:
   version: 2.0.0
   icon: in.cryptoforce.cfx.png
   meta: stale
-  website: https://cryptoforce.in
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 iphone:
   appId: in.cryptoforce.cfx

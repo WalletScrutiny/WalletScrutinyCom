@@ -6,6 +6,7 @@ meta: ok
 date: 2025-05-20
 authors:
 - danny
+website: https://proton.me
 twitter: ProtonPrivacy
 social:
 - https://www.reddit.com/r/ProtonMail
@@ -30,7 +31,6 @@ android:
   reviews: 28
   icon: me.proton.wallet.android.png
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
-  website: https://proton.me
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
 iphone:
@@ -42,7 +42,6 @@ iphone:
   version: 1.2.7
   reviews: 213
   icon: me.proton.wallet.ios.jpg
-  website: https://proton.me/wallet
   developerName: Proton AG
 
 ---

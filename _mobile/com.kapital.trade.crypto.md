@@ -21,7 +21,6 @@ android:
   version: 3.34.2
   reviews: 32
   icon: com.kapital.trade.crypto.png
-  website: https://capital.com/
   developerName: Capital.com BG
 iphone:
   appId: com.kapital.trade.crypto

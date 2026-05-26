@@ -31,7 +31,6 @@ android:
   updated: 2026-05-02
   version: 0.5.2
   icon: com.lnflash.png
-  website: https://getflash.io
   developerName: Island Bitcoin
 iphone:
   appId: com.lnflash

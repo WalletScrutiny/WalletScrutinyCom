@@ -24,7 +24,6 @@ android:
   version: 3.81.3
   reviews: 84
   icon: zebpay.Application.png
-  website: https://www.zebpay.com
   developerName: ZebPay
 
 ---

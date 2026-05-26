@@ -6,6 +6,7 @@ meta: stale
 date: 2025-04-01
 authors:
 - danny
+website: https://hollox.finance/
 twitter: Holloxintl
 social:
 - https://www.facebook.com/holloxintl
@@ -23,7 +24,6 @@ android:
   reviews: 8
   icon: finance.hollox.app.png
   meta: stale
-  website: https://hollox.finance/
   developerName: XOXO TECHNOLOGIES LIMITED
 iphone:
   appId: finance.hollox

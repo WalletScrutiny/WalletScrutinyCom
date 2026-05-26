@@ -23,7 +23,6 @@ android:
   updated: 2026-02-18
   version: VARY
   icon: com.blixtwallet.png
-  website: https://blixtwallet.github.io
   developerName: Hampus Sjöberg
 
 ---

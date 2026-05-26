@@ -24,7 +24,6 @@ android:
   version: 8.9.85
   reviews: 4140
   icon: com.btcc.hy.png
-  website: https://www.btcc.com/en-US
   developerName: BTCC.COM
 iphone:
   appId: com.btcc.hy

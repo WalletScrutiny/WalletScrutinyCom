@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://www.alvexo.com#deadLink
 twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
@@ -21,7 +22,6 @@ android:
   version: 3.0.188
   reviews: 21
   icon: com.alvexo.png
-  website: https://www.alvexo.com#deadLink
   developerName: Alvexo
 iphone:
   appId: com.alvexo.mobile.tt
@@ -32,7 +32,6 @@ iphone:
   version: 3.3.118
   reviews: 1
   icon: com.alvexo.mobile.tt.jpg
-  website: https://www.alvexo.eu
   developerName: Alvexo
 
 ---

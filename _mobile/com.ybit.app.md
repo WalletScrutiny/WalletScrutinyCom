@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://ybitwallet.com/
 twitter: YbitWallet
 social:
 - https://t.me/YbitWallet_Official
@@ -19,7 +20,6 @@ android:
   updated: 2026-05-02
   version: 1.0.10
   icon: com.ybit.app.png
-  website: https://ybitwallet.com/
   developerName: WEEKWISE INNOVATIONS
 iphone:
   appId: com.ybit.app

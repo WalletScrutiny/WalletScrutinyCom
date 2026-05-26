@@ -6,6 +6,7 @@ meta: removed
 date: 2022-03-24
 authors:
 - danny
+website: http://www.aofex.co#deadLink
 twitter: Aofex2
 social:
 - https://www.facebook.com/AofexDigitalCurrencyExchange
@@ -21,7 +22,6 @@ android:
   version: 3.0.3
   reviews: 333
   icon: co.aofex.exchange.jpg
-  website: http://www.aofex.co#deadLink
 iphone:
   appId: com.aofex.exchange1
   idd: '1477466894'
@@ -30,7 +30,6 @@ iphone:
   version: 3.0.9
   reviews: 129
   icon: com.aofex.exchange1.jpg
-  website: https://www.aofex.com/#/
 
 ---
 

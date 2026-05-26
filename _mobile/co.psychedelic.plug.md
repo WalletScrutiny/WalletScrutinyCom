@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-15
 authors:
 - danny
+website: https://plugwallet.ooo
 twitter: plug_wallet
 social:
 - https://discord.com/invite/mPpzf45qrt
@@ -24,7 +25,6 @@ android:
   version: 2.8.0
   reviews: 17
   icon: co.psychedelic.plug.png
-  website: https://plugwallet.ooo
   developerName: Funded Labs
 iphone:
   appId: co.psychedelic.plug
@@ -35,7 +35,6 @@ iphone:
   version: 2.8.0
   reviews: 37
   icon: co.psychedelic.plug.jpg
-  website: https://plugwallet.ooo/
   developerName: Crowd IC Ltd
 
 ---

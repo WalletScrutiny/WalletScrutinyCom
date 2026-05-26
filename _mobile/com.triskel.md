@@ -6,6 +6,7 @@ meta: ok
 date: 2026-04-21
 authors:
 - danny
+website: https://www.triskelwallet.io/
 twitter: TriskelWallet
 social:
 - https://www.linkedin.com/company/grupo-triskel
@@ -19,7 +20,6 @@ android:
   updated: 2026-01-03
   version: '6.1'
   icon: com.triskel.png
-  website: https://www.triskelwallet.io/
   developerName: Triskel Capital
 iphone:
   appId: com.triskelcapital

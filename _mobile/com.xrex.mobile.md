@@ -23,7 +23,6 @@ android:
   version: 2.1.934
   icon: com.xrex.mobile.png
   meta: ok
-  website: https://xrex.io/
   developerName: XREX, Inc.
 iphone:
   appId: com.xrex.mobile

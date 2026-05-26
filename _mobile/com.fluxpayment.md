@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://iflux.app
 twitter: ifluxdotapp
 social:
 - https://www.linkedin.com/company/iflux-pay
@@ -21,7 +22,6 @@ android:
   version: 3.0.391
   reviews: 17
   icon: com.fluxpayment.png
-  website: https://iflux.app
   developerName: Blueloop Inc.
 iphone:
   appId: com.blueloopflux.app
@@ -31,7 +31,6 @@ iphone:
   version: 3.0.391
   reviews: 93
   icon: com.blueloopflux.app.jpg
-  website: https://iflux.app/
   developerName: Blueloop
 
 ---

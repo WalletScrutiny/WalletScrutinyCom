@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-20
 authors:
 - danny
+website: https://tr.okx.com
 twitter: OKXTurkiye
 social:
 - https://t.me/OKXTR
@@ -23,7 +24,6 @@ android:
   updated: 2026-05-21
   version: 6.172.0
   icon: com.okx.tr.png
-  website: https://tr.okx.com
   developerName: OKX TR
 iphone:
   appId: com.okx.tr
@@ -34,7 +34,6 @@ iphone:
   version: 6.172.0
   reviews: 2198
   icon: com.okx.tr.jpg
-  website: https://tr.okx.com/download
   developerName: OKX TR KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

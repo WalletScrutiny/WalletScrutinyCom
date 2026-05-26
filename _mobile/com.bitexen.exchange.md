@@ -23,7 +23,6 @@ android:
   reviews: 44
   icon: com.bitexen.exchange.jpg
   meta: ok
-  website: https://www.bitexen.com
   developerName: Bitexen Teknoloji A.Ş.
 iphone:
   appId: com.Bitexen.ExchangeApp

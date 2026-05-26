@@ -13,7 +13,6 @@ android:
   updated: 2024-08-16
   version: 1.0.16
   icon: org.app.barteos.png
-  website: https://barteos.org
   developerName: BTE AUSTRALIA
 
 ---

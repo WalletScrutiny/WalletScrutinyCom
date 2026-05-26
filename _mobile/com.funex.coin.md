@@ -6,6 +6,7 @@ meta: ok
 date: 2024-10-23
 authors:
 - danny
+website: https://funexcoin.com/
 twitter: Funexclub
 social:
 - https://www.facebook.com/officialfunexcoin
@@ -23,7 +24,6 @@ android:
   version: 1.0.37
   icon: com.funex.coin.png
   meta: ok
-  website: https://funexcoin.com/
   developerName: Funex Coin
 iphone:
   appId: com.funex.coin

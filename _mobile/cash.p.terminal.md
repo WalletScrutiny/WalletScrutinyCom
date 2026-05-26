@@ -31,7 +31,6 @@ android:
   icon: cash.p.terminal.png
   alternativeStores:
   - fdroid
-  website: https://p.cash/
   developerName: PirateCash and Cosanta foundation
 
 ---

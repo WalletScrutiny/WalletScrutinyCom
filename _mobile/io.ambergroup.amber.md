@@ -24,7 +24,6 @@ android:
   reviews: 239
   icon: io.ambergroup.amber.png
   meta: ok
-  website: https://www.ambr.io/global
   developerName: Amber AI Limited
 iphone:
   appId: com.ambergroup.amberapp

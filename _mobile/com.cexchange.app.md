@@ -20,7 +20,6 @@ android:
   updated: 2024-11-19
   version: 13.0.2
   icon: com.cexchange.app.png
-  website: https://c-exchange.com/
   developerName: NetMart Inc
 
 ---

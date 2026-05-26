@@ -13,7 +13,6 @@ android:
   updated: 2024-07-16
   version: 1.0.0
   icon: com.gioexchange.app.png
-  website: https://www.gioexchange.com/
   developerName: ANGELS
 
 ---

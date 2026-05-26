@@ -5,6 +5,7 @@ verdict: nosource
 date: 2026-01-01
 authors:
 - danny
+website: https://bity.com
 twitter: bity
 social:
 - https://www.linkedin.com/company/bity
@@ -21,7 +22,6 @@ android:
   reviews: 2
   icon: com.bity.wallet.production.jpg
   meta: removed
-  website: https://bity.com
   developerName: Bity.com
 iphone:
   appId: com.bity.wallet.production
@@ -33,7 +33,6 @@ iphone:
   reviews: 34
   icon: com.bity.wallet.production.jpg
   meta: ok
-  website: https://bity.com/en/personal/wallet
   developerName: Bity SA
 
 ---

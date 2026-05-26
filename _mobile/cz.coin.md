@@ -13,7 +13,6 @@ android:
   updated: 2026-05-05
   version: 0.8.0
   icon: cz.coin.png
-  website: https://generalbytes.com
   developerName: GENERAL BYTES
 
 ---

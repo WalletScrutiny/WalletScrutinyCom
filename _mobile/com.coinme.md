@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://www.coinme.com
 twitter: Coinme
 social:
 - https://www.linkedin.com/company/coinme
@@ -24,7 +25,6 @@ android:
   version: 3.3.0
   reviews: 1135
   icon: com.coinme.png
-  website: https://www.coinme.com
   developerName: Coinme
 iphone:
   appId: com.coinme.CoinMe
@@ -35,7 +35,6 @@ iphone:
   version: 3.3.0
   reviews: 6214
   icon: com.coinme.CoinMe.jpg
-  website: https://coinme.com/
   developerName: Coinme Inc.
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2025-09-02
   version: 1.0.3
   icon: ch.digitaladmin.icynote.png
-  website: https://icynote.ch
   developerName: Digital Admin Sàrl
 
 ---

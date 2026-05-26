@@ -19,7 +19,6 @@ android:
   updated: 2025-01-15
   version: 3.3.3
   icon: com.pro.changelly.png
-  website: https://pro.changelly.com/
   developerName: PRO – Cryptocurrency Trading Platform
 
 ---

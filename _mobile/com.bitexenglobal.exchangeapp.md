@@ -6,6 +6,7 @@ meta: ok
 date: 2023-09-06
 authors:
 - danny
+website: https://global.bitexen.com/
 twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-15
   version: '2.19'
   icon: com.bitexenglobal.exchangeapp.png
-  website: https://global.bitexen.com/
   developerName: Bitexen Teknoloji A.Ş.
 iphone:
   appId: com.bitexenglobal.exchangeapp
@@ -31,7 +31,6 @@ iphone:
   version: '2.24'
   reviews: 1
   icon: com.bitexenglobal.exchangeapp.jpg
-  website: https://global.bitexen.com
   developerName: Bitexen Europe UAB
 
 ---

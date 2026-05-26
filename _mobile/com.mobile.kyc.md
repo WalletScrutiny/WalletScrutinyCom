@@ -5,6 +5,7 @@ verdict: nosource
 date: 2024-10-23
 authors:
 - danny
+website: https://kyccoin.io
 twitter: kyc_coin
 social:
 - https://www.linkedin.com/company/kyccoin
@@ -22,7 +23,6 @@ android:
   reviews: 1
   icon: com.mobile.kyc.png
   meta: removed
-  website: https://kyccoin.io
   developerName: KYC&AML Ltd
 iphone:
   appId: com.mobile.kyc

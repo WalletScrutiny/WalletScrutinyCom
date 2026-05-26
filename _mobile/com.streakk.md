@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-08
 authors:
 - danny
+website: https://odbdrwodqyzixyxti.earn.world/
 twitter: streakkofficial
 social:
 - https://www.facebook.com/profile.php?id=100082035586084
@@ -24,7 +25,6 @@ android:
   version: '3.7'
   reviews: 2
   icon: com.streakk.png
-  website: https://odbdrwodqyzixyxti.earn.world/
   developerName: Streakk Technologies
 iphone:
   appId: com.streakk.wallet

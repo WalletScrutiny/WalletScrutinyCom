@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-12
 authors:
 - danny
+website: http://bitcoinrd.do
 redirect_from:
 - /android/com.bitcoinrd.BitcoinRD/
 - /iphone/com.bitcoinrd.BitcoinRDexchange/
@@ -16,7 +17,6 @@ android:
   updated: 2026-02-04
   version: 0.18.4
   icon: com.bitcoinrd.BitcoinRD.png
-  website: http://bitcoinrd.do
   developerName: BitcoinRD
 iphone:
   appId: com.bitcoinrd.BitcoinRDexchange

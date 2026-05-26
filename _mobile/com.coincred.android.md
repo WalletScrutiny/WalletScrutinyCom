@@ -6,6 +6,7 @@ meta: stale
 date: 2025-05-30
 authors:
 - danny
+website: https://coincred.org/
 twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/
@@ -22,7 +23,6 @@ android:
   reviews: 26
   icon: com.coincred.android.png
   meta: stale
-  website: https://coincred.org/
   developerName: CoinCRED
 iphone:
   appId: com.coincred
@@ -34,7 +34,6 @@ iphone:
   reviews: 118
   icon: com.coincred.jpg
   meta: removed
-  website: https://coincred.org#deadLink
   developerName: CoinCRED
 
 ---

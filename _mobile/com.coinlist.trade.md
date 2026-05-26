@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - danny
+website: https://coinlist.co/
 twitter: coinlist
 social:
 - https://www.facebook.com/CoinListOfficial
@@ -21,7 +22,6 @@ android:
   version: 2.0.8
   reviews: 193
   icon: com.coinlist.trade.png
-  website: https://coinlist.co/
 iphone:
   appId: com.coinlist.trade
   idd: 1522706079
@@ -30,7 +30,6 @@ iphone:
   version: 2.0.4
   reviews: 144
   icon: com.coinlist.trade.jpg
-  website: https://coinlist.co
 
 ---
 

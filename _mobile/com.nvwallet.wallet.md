@@ -13,7 +13,6 @@ android:
   updated: 2026-04-18
   version: 0.1.1
   icon: com.nvwallet.wallet.png
-  website: https://www.nvxowallet.com/
   developerName: Aegea Holdings
 
 ---

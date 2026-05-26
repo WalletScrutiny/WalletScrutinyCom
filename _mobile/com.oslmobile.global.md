@@ -20,7 +20,6 @@ android:
   updated: 2026-05-15
   version: 1.10.14
   icon: com.oslmobile.global.png
-  website: https://osl.com
   developerName: BC Technology (HK) Limited
 
 ---

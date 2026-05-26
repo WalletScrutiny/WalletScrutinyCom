@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-19
 authors:
 - danny
+website: https://www.batonex.com
 twitter: wisebitcoin
 redirect_from:
 - /android/com.wisebitcoin.broker.android/
@@ -20,7 +21,6 @@ android:
   reviews: 129
   icon: com.wisebitcoin.broker.android.png
   meta: ok
-  website: https://www.batonex.com
   developerName: Batonex
 iphone:
   appId: com.wisebitcoin.broker.iostest
@@ -32,7 +32,6 @@ iphone:
   reviews: 0
   icon: com.wisebitcoin.broker.iostest.jpg
   meta: removed
-  website: https://web.archive.org/web/20231201135609/https://www.wisebitcoin.com:443/
   developerName: WISEBTC INC
 
 ---

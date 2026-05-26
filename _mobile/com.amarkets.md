@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-13
 authors:
 - danny
+website: https://www.amarkets.com
 social:
 - https://www.linkedin.com/company/amarkets
 - https://www.facebook.com/AMarketsFirm
@@ -22,7 +23,6 @@ android:
   reviews: 292
   icon: com.amarkets.png
   meta: ok
-  website: https://www.amarkets.com
   developerName: AMarkets LLC
 iphone:
   appId: amarkets.app
@@ -33,7 +33,6 @@ iphone:
   reviews: 3042
   icon: amarkets.app.jpg
   meta: defunct
-  website: https://www.amarkets.com/
   developerName: AMarkets Ltd.
 
 ---

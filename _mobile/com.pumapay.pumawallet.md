@@ -6,6 +6,7 @@ meta: removed
 date: 2024-05-18
 authors:
 - leo
+website: http://pumapay.io
 twitter: PumaPay
 social:
 - https://www.linkedin.com/company/decentralized-vision
@@ -23,7 +24,6 @@ android:
   version: 3.9.9
   reviews: 23
   icon: com.pumapay.pumawallet.png
-  website: http://pumapay.io
   developerName: Decentralized Vision Ltd
 iphone:
   appId: com.pumapay.pumawallet
@@ -33,7 +33,6 @@ iphone:
   version: '2.102'
   reviews: 17
   icon: com.pumapay.pumawallet.jpg
-  website: https://pumapay.io
   developerName: Decentralized Vision Limited
 
 ---

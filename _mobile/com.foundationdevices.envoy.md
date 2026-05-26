@@ -6,6 +6,7 @@ date: 2024-01-02
 authors:
 - danny
 - keraliss
+website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy
 twitter: FOUNDATIONdvcs
 social:
@@ -33,7 +34,6 @@ android:
   reviews: 6
   icon: com.foundationdevices.envoy.jpg
   verdict: sourceavailable
-  website: https://foundationdevices.com/
   developerName: Foundation Devices
 iphone:
   appId: com.foundationdevices.envoy

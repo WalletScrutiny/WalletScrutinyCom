@@ -6,6 +6,7 @@ meta: ok
 date: 2026-02-02
 authors:
 - danny
+website: https://excelon.money
 redirect_from:
 - /android/io.excelon.excelongo/
 - /iphone/com.excelon.excelon.go/
@@ -17,7 +18,6 @@ android:
   version: 1.0.101
   icon: io.excelon.excelongo.png
   meta: ok
-  website: https://excelon.money
   developerName: Excelon
 iphone:
   appId: com.excelon.excelon.go
@@ -29,7 +29,6 @@ iphone:
   reviews: 0
   icon: com.excelon.excelon.go.jpg
   meta: obsolete
-  website: https://excelon.io
   developerName: Excelon Financial Services Ltd
 
 ---

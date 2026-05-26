@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-13
 authors:
 - danny
+website: https://www.binance.th/en
 redirect_from:
 - /android/com.cloud.thailand/
 - /iphone/com.tiger.cloudbase.thailand/
@@ -27,7 +28,6 @@ iphone:
   version: 1.56.0
   reviews: 15605
   icon: com.tiger.cloudbase.thailand.jpg
-  website: https://www.binance.th/en
   developerName: Gulf Binance Company Limited
 
 ---

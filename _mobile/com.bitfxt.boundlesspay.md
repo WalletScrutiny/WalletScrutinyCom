@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-29
 authors:
 - danny
+website: https://boundlesspay.com
 twitter: boundlesspay
 social:
 - https://www.facebook.com/boundlesspayofficial/
@@ -21,7 +22,6 @@ android:
   version: 2.5.6
   reviews: 15
   icon: com.bitfxt.boundlesspay.png
-  website: https://boundlesspay.com
   developerName: Boundless Nexus
 iphone:
   appId: com.boundless.boundlesspay
@@ -32,7 +32,6 @@ iphone:
   version: 2.3.9
   reviews: 73
   icon: com.boundless.boundlesspay.jpg
-  website: https://www.boundlesspay.com
   developerName: BOUNDLESS NEXUS LIMITED
 
 ---

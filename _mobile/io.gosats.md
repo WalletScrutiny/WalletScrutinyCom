@@ -19,7 +19,6 @@ android:
   version: 3.0.6
   reviews: 4
   icon: io.gosats.png
-  website: https://gosats.io
   developerName: Saffron Technologies Pte Ltd
 iphone:
   appId: io.gosats

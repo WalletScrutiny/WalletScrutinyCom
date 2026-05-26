@@ -6,6 +6,7 @@ meta: removed
 date: 2023-11-02
 authors:
 - danny
+website: https://www.tradehall.co#deadLink
 social:
 - https://www.facebook.com/Tradehall.co
 - https://www.instagram.com/tradehall_ltd
@@ -20,7 +21,6 @@ android:
   updated: 2023-03-02
   version: 1.0.14
   icon: co.tradehall.app.tradehall.png
-  website: https://www.tradehall.co#deadLink
   developerName: Tradehall Pte Ltd
 iphone:
   appId: co.tradehall.app.tradehall

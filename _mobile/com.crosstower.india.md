@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://www.crosstower.com#deadLink
 twitter: CrossTowerIndia
 social:
 - https://www.linkedin.com/company/crosstower-india/
@@ -23,7 +24,6 @@ android:
   version: '3.27'
   reviews: 2
   icon: com.crosstower.india.png
-  website: https://www.crosstower.com#deadLink
   developerName: Crosstower
 iphone:
   appId: com.crosstower.trading
@@ -34,7 +34,6 @@ iphone:
   version: '3.26'
   reviews: 3
   icon: com.crosstower.trading.jpg
-  website: https://www.crosstower.in/
   developerName: Crosstower India
 
 ---

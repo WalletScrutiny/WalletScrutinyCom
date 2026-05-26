@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-19
 authors:
 - danny
+website: http://m2.com
 twitter: m2exchange
 social:
 - https://www.linkedin.com/company/m2-investment
@@ -19,7 +20,6 @@ android:
   updated: 2025-12-15
   version: 5.21.1
   icon: com.m2.exchange.png
-  website: http://m2.com
   developerName: M2 Investments Limited
 iphone:
   appId: com.m2.exchange
@@ -30,7 +30,6 @@ iphone:
   version: 5.21.0
   reviews: 71
   icon: com.m2.exchange.jpg
-  website: https://www.m2.com/
   developerName: M2 Investments Limited
 
 ---

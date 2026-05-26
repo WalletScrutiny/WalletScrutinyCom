@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-30
 authors:
 - danny
+website: https://www.coinzoom.com
 twitter: GetCoinZoom
 social:
 - https://www.facebook.com/CoinZoom
@@ -21,7 +22,6 @@ android:
   version: 1.2.1.6682
   reviews: 123
   icon: com.coinzoom.android.png
-  website: https://www.coinzoom.com
   developerName: CoinZoom
 iphone:
   appId: com.ios.coinzoomsimple
@@ -32,7 +32,6 @@ iphone:
   version: 3.3.4
   reviews: 716
   icon: com.ios.coinzoomsimple.jpg
-  website: http://www.coinzoom.com
   developerName: CoinZoom
 
 ---

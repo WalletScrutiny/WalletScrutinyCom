@@ -12,7 +12,6 @@ android:
   updated: 2023-09-14
   version: 1.0.0
   icon: com.strade.app.png
-  website: https://s-trade.com
   developerName: S-TRADE
 
 ---

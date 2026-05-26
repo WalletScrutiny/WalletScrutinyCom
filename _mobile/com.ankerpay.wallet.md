@@ -26,7 +26,6 @@ android:
   version: v1.0.14.12
   icon: com.ankerpay.wallet.png
   meta: stale
-  website: https://ankerpay.com/mobile-wallet/
   developerName: AnkerPay
 iphone:
   appId: com.ankerpay.ioswallet

@@ -26,7 +26,6 @@ android:
   version: 3.7.13
   reviews: 195
   icon: co.rockitcoinx.app.png
-  website: https://rockitcoin.com
   developerName: RockItCoin
 iphone:
   appId: rockitcoinexchange
@@ -37,7 +36,6 @@ iphone:
   version: 3.7.13
   reviews: 160
   icon: rockitcoinexchange.jpg
-  website: https://rockitcoin.com
   developerName: RockitCoin
 
 ---

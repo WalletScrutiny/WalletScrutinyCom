@@ -25,7 +25,6 @@ android:
   reviews: 173
   icon: com.newgo.coincola.png
   meta: ok
-  website: https://www.coincola.com
   developerName: CoinCola Limited
 iphone:
   appId: com.coincola.beta

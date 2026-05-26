@@ -6,6 +6,7 @@ meta: removed
 date: 2024-09-10
 authors:
 - danny
+website: https://tidex.com
 twitter: Tidex_Exchange
 social:
 - https://www.facebook.com/TidexExchange
@@ -24,7 +25,6 @@ android:
   version: 1.0.6
   reviews: 7
   icon: com.tidex.app.exchange.png
-  website: https://tidex.com
   developerName: Tidex
 iphone:
   appId: com.tidex.exchange.app
@@ -35,7 +35,6 @@ iphone:
   version: 1.0.5
   reviews: 15
   icon: com.tidex.exchange.app.jpg
-  website: https://tidex.com/
   developerName: Tidex
 
 ---

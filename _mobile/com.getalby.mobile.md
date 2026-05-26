@@ -27,7 +27,6 @@ android:
   version: 2.0.1
   reviews: 19
   icon: com.getalby.mobile.png
-  website: https://getalby.com/
   developerName: Alby Inc.
   repository: https://github.com/getAlby/go
 iphone:

@@ -6,6 +6,7 @@ meta: ok
 date: 2022-08-01
 authors:
 - danny
+website: https://obiex.finance/
 twitter: obiexfinance
 social:
 - https://www.facebook.com/obiexfinance
@@ -24,7 +25,6 @@ android:
   version: 4.1.6
   reviews: 31
   icon: africa.obiex.app.png
-  website: https://obiex.finance/
   developerName: Obiex Africa Ltd.
 iphone:
   appId: africa.obiex.app

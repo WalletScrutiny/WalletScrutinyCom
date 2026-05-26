@@ -4,6 +4,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: https://banexcoin.com
 social:
 - https://www.linkedin.com/company/banexcoin/
 - https://www.instagram.com/banexcoin/
@@ -19,7 +20,6 @@ android:
   version: 1.1.254
   icon: com.banexcoin.app.mobile.png
   verdict: custodial
-  website: https://banexcoin.com
   developerName: Banexcoin
   twitter: banexcoin
 iphone:
@@ -32,7 +32,6 @@ iphone:
   reviews: 5
   icon: com.banexcoin.app.mobile.jpg
   verdict: wip
-  website: https://www.banexcoin.com/
   developerName: Banexcoin SA
 
 ---

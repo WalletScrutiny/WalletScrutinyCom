@@ -24,7 +24,6 @@ android:
   version: '13.14'
   reviews: 4
   icon: com.mudrexmobile.png
-  website: https://mudrex.com/
   developerName: Mudrex Inc.
 iphone:
   appId: com.mudrex.ios

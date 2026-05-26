@@ -6,6 +6,7 @@ meta: removed
 date: 2025-11-05
 authors:
 - danny
+website: https://suniwallet.com
 twitter: Suni_wallet
 social:
 - https://www.instagram.com/suni_wallet
@@ -21,7 +22,6 @@ android:
   updated: 2025-08-27
   version: 2.5.3
   icon: com.suniwallet.app.png
-  website: https://suniwallet.com
   developerName: Suni Wallet Corp
 iphone:
   appId: com.suniwallet.app

@@ -13,7 +13,6 @@ android:
   updated: 2023-04-04
   version: 1.0.31
   icon: com.bitcoinupbit.exchange.png
-  website: https://bitcoinupbit.com/
   developerName: Prof-IT Blockchain Limited
 
 ---

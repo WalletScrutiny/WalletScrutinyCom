@@ -5,6 +5,7 @@ verdict: wip
 date: 2021-11-17
 authors:
 - danny
+website: https://plasmapay.com#deadLink
 twitter: 0xPlasma
 social:
 - https://www.linkedin.com/company/0xplasma
@@ -23,7 +24,6 @@ android:
   reviews: 17
   icon: com.plasmapay.androidapp.png
   meta: removed
-  website: https://plasmapay.com#deadLink
 iphone:
   appId: com.plasmaalliance.PlasmaPay
   idd: 1461735396
@@ -33,7 +33,6 @@ iphone:
   reviews: 2
   icon: com.plasmaalliance.PlasmaPay.jpg
   meta: defunct
-  website: https://plasma-wallet.com
   developerName: Plasma Alliance OÜ
 
 ---

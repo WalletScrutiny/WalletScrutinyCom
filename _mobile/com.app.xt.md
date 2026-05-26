@@ -6,6 +6,7 @@ meta: ok
 date: 2022-07-31
 authors:
 - danny
+website: http://www.xt.com
 twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/
@@ -24,7 +25,6 @@ android:
   version: 5.24.0
   reviews: 266
   icon: com.app.xt.jpg
-  website: http://www.xt.com
   developerName: XT.COM Inc.
 iphone:
   appId: com.xt.app
@@ -35,7 +35,6 @@ iphone:
   version: 5.23.1
   reviews: 1450
   icon: com.xt.app.jpg
-  website: https://www.xt.com
   developerName: XT LTD, LLC
 
 ---

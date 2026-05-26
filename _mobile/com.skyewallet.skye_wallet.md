@@ -6,6 +6,7 @@ meta: ok
 date: 2024-04-25
 authors:
 - danny
+website: https://skyewallet.com
 twitter: skyewallet
 appCountry: us
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 22
   icon: com.skyewallet.skye_wallet.png
   meta: ok
-  website: https://skyewallet.com
   developerName: Skye Innovation Technology
 iphone:
   appId: com.skyewallet.app
@@ -31,7 +31,6 @@ iphone:
   reviews: 39
   icon: com.skyewallet.app.jpg
   meta: removed
-  website: https://skyewallet.com/
   developerName: Skye Innovation Technology Limited
 
 ---

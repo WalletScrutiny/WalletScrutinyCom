@@ -19,7 +19,6 @@ android:
   version: 1.65.2
   reviews: 5
   icon: com.application.bitcoiva.png
-  website: https://bitcoiva.com
   developerName: Hyperux Developers
 
 ---

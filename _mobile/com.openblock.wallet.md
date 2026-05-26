@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-20
 authors:
 - danny
+website: https://openblock.com
 twitter: OpenBlockWallet
 redirect_from:
 - /android/com.openblock.wallet/
@@ -17,7 +18,6 @@ android:
   updated: 2026-03-10
   version: 2.2.6
   icon: com.openblock.wallet.png
-  website: https://openblock.com
   developerName: JXJL Inc.
 iphone:
   appId: com.dssq.obwallet

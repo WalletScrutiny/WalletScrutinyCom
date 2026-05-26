@@ -6,6 +6,7 @@ meta: removed
 date: 2025-03-29
 authors:
 - danny
+website: https://cobak.co.kr/
 twitter: CobakOfficial
 social:
 - https://www.linkedin.com/company/cobak
@@ -21,7 +22,6 @@ android:
   updated: 2024-08-28
   version: 1.43.48
   icon: com.cobak.android.png
-  website: https://cobak.co.kr/
   developerName: 코박
 iphone:
   appId: co.cobak.cobak
@@ -31,7 +31,6 @@ iphone:
   version: 1.8.36
   reviews: 17
   icon: co.cobak.cobak.jpg
-  website: https://cobak.co.kr
   developerName: COBAK CO., LTD.
 
 ---

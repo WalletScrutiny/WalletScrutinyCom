@@ -7,6 +7,7 @@ date: 2021-04-13
 authors:
 - kiwilamb
 - leo
+website: https://www.yellowcard.io/
 twitter: yellowcard_app
 social:
 - https://www.linkedin.com/company/yellowcardapp
@@ -24,7 +25,6 @@ android:
   reviews: 480
   icon: io.yellowcard.app.jpg
   meta: ok
-  website: https://www.yellowcard.io/
   developerName: Yellow Card Financial
 iphone:
   appId: io.yellowcard.app
@@ -35,7 +35,6 @@ iphone:
   reviews: 56
   icon: io.yellowcard.app.jpg
   meta: removed
-  website: https://yellowcard.io
   developerName: Yellow Card Financial, Inc
 
 ---

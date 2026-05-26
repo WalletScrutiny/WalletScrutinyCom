@@ -26,7 +26,6 @@ android:
   version: 5.19.0
   reviews: 7188
   icon: com.bybit.app.png
-  website: https://www.bybit.com
   developerName: Bybit
 iphone:
   appId: com.bybit.app

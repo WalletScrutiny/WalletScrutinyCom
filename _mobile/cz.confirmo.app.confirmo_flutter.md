@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-26
 authors:
 - danny
+website: http://confirmo.net
 twitter: CryptoConfirmo
 social:
 - https://www.linkedin.com/company/confirmoltd
@@ -20,7 +21,6 @@ android:
   updated: 2023-08-01
   version: 1.0.8
   icon: cz.confirmo.app.confirmo_flutter.png
-  website: http://confirmo.net
   developerName: CONFIRMO
 iphone:
   appId: confirmo.app.pos
@@ -31,7 +31,6 @@ iphone:
   version: 1.0.8
   reviews: 0
   icon: confirmo.app.pos.jpg
-  website: http://www.confirmo.net/
   developerName: Confirmo s.r.o.
 
 ---

@@ -21,7 +21,6 @@ android:
   reviews: 12
   icon: com.qcan.mobile.bitcoin.wallet.png
   meta: ok
-  website: https://qcan.com
   developerName: Qcan.com
 iphone:
   appId: com.qcan.qcan

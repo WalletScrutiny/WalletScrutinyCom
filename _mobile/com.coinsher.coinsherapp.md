@@ -14,7 +14,6 @@ android:
   version: 1.5.2
   reviews: 9
   icon: com.coinsher.coinsherapp.png
-  website: https://www.coinsher.com/
   developerName: Solidray
 
 ---

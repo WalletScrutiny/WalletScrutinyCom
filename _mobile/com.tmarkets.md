@@ -6,6 +6,7 @@ meta: removed
 date: 2021-12-22
 authors:
 - danny
+website: https://www.t1markets.com
 twitter: T1_Markets
 social:
 - https://www.facebook.com/t1markets
@@ -19,7 +20,6 @@ android:
   updated: 2021-12-01
   version: 1.5.78-tmarkets
   icon: com.tmarkets.png
-  website: https://www.t1markets.com
   developerName: GCB LTD
 iphone:
   appId: com.gcb.T1
@@ -30,7 +30,6 @@ iphone:
   version: 1.69.13
   reviews: 2
   icon: com.gcb.T1.jpg
-  website: https://www.t1markets.com/
 
 ---
 

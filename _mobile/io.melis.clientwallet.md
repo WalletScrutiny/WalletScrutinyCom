@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - leo
+website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
 features:
 - foss
@@ -25,7 +26,6 @@ android:
   updated: 2021-09-30
   version: 1.6.24
   icon: io.melis.clientwallet.png
-  website: https://www.melis.io
   developerName: Melis
 iphone:
   appId: io.melis.clientwallet
@@ -35,7 +35,6 @@ iphone:
   version: 1.6.21
   reviews: 0
   icon: io.melis.clientwallet.jpg
-  website: http://melis.io
   developerName: Melis s.r.l.
 
 ---

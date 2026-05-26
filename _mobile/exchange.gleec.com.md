@@ -6,6 +6,7 @@ meta: ok
 date: 2024-11-28
 authors:
 - danny
+website: https://gleecbtc.com/
 social:
 - https://www.facebook.com/gleecofficial
 - https://t.me/officialgleecoin
@@ -19,7 +20,6 @@ android:
   updated: 2026-02-17
   version: 1.41.0
   icon: exchange.gleec.com.png
-  website: https://gleecbtc.com/
   developerName: Gleec Pay OU
 iphone:
   appId: dev.com.gleecexchange.app
@@ -30,7 +30,6 @@ iphone:
   version: 1.43.0
   reviews: 0
   icon: dev.com.gleecexchange.app.jpg
-  website: https://gleecbtc.com
   developerName: Gleec-BTC OU
   twitter: GleecOfficial
 

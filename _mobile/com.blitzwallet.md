@@ -26,7 +26,6 @@ android:
   updated: 2026-05-23
   version: 0.7.10
   icon: com.blitzwallet.png
-  website: https://blitzwalletapp.com/
   developerName: Blitz Wallet
 
 ---

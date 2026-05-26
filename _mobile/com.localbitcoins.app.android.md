@@ -6,6 +6,7 @@ meta: removed
 date: 2023-04-16
 authors:
 - danny
+website: https://www.localbitcoins.com
 twitter: LocalBitcoins
 social:
 - https://www.linkedin.com/company/localbitcoins
@@ -22,7 +23,6 @@ android:
   version: 0.1.65
   reviews: 37
   icon: com.localbitcoins.app.android.png
-  website: https://www.localbitcoins.com
   developerName: LocalBitcoins Ltd.
 iphone:
   appId: com.localbitcoins.app.ios
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.65
   reviews: 53
   icon: com.localbitcoins.app.ios.jpg
-  website: https://localbitcoins.com/
   developerName: LocalBitcoins Ltd
 
 ---

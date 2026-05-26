@@ -6,6 +6,7 @@ meta: ok
 date: 2022-01-07
 authors:
 - leo
+website: https://buda.com
 twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom
@@ -25,7 +26,6 @@ android:
   version: 2025.11.4
   reviews: 18
   icon: com.buda.crypto.jpg
-  website: https://buda.com
   developerName: Buda.com
 iphone:
   appId: com.buda.crypto
@@ -36,7 +36,6 @@ iphone:
   version: 2026.4.2
   reviews: 1
   icon: com.buda.crypto.jpg
-  website: https://www.buda.com
   developerName: Buda.com
 
 ---

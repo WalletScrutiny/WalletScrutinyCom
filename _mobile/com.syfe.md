@@ -24,7 +24,6 @@ android:
   version: 16.1.0
   reviews: 4
   icon: com.syfe.jpg
-  website: https://www.syfe.com
   developerName: Syfe
 iphone:
   appId: com.syfe

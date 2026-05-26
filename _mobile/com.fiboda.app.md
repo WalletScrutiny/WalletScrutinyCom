@@ -6,6 +6,7 @@ meta: removed
 date: 2022-01-15
 authors:
 - danny
+website: http://www.fiboda.com
 appCountry: us
 redirect_from:
 - /android/com.fiboda.app/
@@ -18,7 +19,6 @@ android:
   version: 1.0.5
   reviews: 2
   icon: com.fiboda.app.png
-  website: http://www.fiboda.com
 iphone:
   appId: com.fiboda.Fiboda
   idd: 1540952335
@@ -27,7 +27,6 @@ iphone:
   version: 1.1.0
   reviews: 5
   icon: com.fiboda.Fiboda.jpg
-  website: http://fiboda.com
 
 ---
 

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-06-29
 authors:
 - danny
+website: http://www.eurocoinpay.io
 twitter: eurocoinpay
 social:
 - https://t.me/eurocoinpay_io
@@ -22,7 +23,6 @@ android:
   version: '40.0'
   icon: com.something.marcelo.eurocoinandroid5.png
   meta: ok
-  website: http://www.eurocoinpay.io
   developerName: EurocoinPay
 iphone:
   appId: EurocoinpayRN
@@ -34,7 +34,6 @@ iphone:
   reviews: 10
   icon: EurocoinpayRN.jpg
   meta: stale
-  website: https://eurocoinpay.io
   developerName: eurocoinpay
 
 ---

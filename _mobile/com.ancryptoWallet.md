@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-01
 authors:
 - danny
+website: https://gemspocket.com/
 twitter: AnCryptoWallet
 social:
 - https://www.linkedin.com/company/ancrypto
@@ -25,7 +26,6 @@ android:
   version: 1.53.0
   reviews: 30
   icon: com.ancryptoWallet.png
-  website: https://gemspocket.com/
   developerName: AWT Ltd
 iphone:
   appId: com.antiersolutions.Ancrypto
@@ -36,7 +36,6 @@ iphone:
   version: '50'
   reviews: 20
   icon: com.antiersolutions.Ancrypto.jpg
-  website: https://gemspocket.com
   developerName: Ancrypto
 
 ---

@@ -26,7 +26,6 @@ android:
   version: 2.0.13
   reviews: 2
   icon: com.mobee.io.png
-  website: https://mobee.com/
   developerName: Mobee - PT CTXG Indonesia Berkarya
 iphone:
   appId: io.mobee.finance

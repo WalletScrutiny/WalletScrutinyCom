@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-03-14
 authors:
 - danny
+website: https://xfun.io#deadLink
 twitter: FUNtoken_io
 social:
 - https://t.me/officialFUNToken
@@ -22,7 +23,6 @@ android:
   reviews: 12
   icon: com.xfun.wallet.png
   meta: removed
-  website: https://xfun.io#deadLink
   developerName: Funtech Ltd
 iphone:
   appId: com.xfun.wallet

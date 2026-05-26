@@ -6,6 +6,7 @@ meta: removed
 date: 2022-02-10
 authors:
 - danny
+website: https://www.bitmex.com/
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX
@@ -21,7 +22,6 @@ android:
   version: 1.1.13
   reviews: 1
   icon: com.bitmex.mobile.android.png
-  website: https://www.bitmex.com/
 iphone:
   appId: com.bitmex.mobile.ios
   idd: 1377855125
@@ -29,7 +29,6 @@ iphone:
   updated: 2022-01-10
   version: 1.1.13
   icon: com.bitmex.mobile.ios.jpg
-  website: https://BitMEX.com/mobile
 
 ---
 

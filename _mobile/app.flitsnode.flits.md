@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-13
 authors:
 - leo
+website: https://flitswallet.app/
 twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
@@ -20,7 +21,6 @@ android:
   version: '4.4'
   reviews: 71
   icon: app.flitsnode.flits.png
-  website: https://flitswallet.app/
   developerName: Decenomy
 iphone:
   appId: app.flitsnode.flits
@@ -30,7 +30,6 @@ iphone:
   version: '4.4'
   reviews: 73
   icon: app.flitsnode.flits.jpg
-  website: https://flitsnode.app
   developerName: Klimatas B.V.
 
 ---

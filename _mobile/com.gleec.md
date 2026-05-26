@@ -6,6 +6,7 @@ meta: ok
 date: 2023-05-04
 authors:
 - danny
+website: http://gleec.com/
 twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial
@@ -22,7 +23,6 @@ android:
   reviews: 16
   icon: com.gleec.png
   meta: defunct
-  website: http://gleec.com/
   developerName: Gleec Pay OU
 iphone:
   appId: com.gleecard.ios
@@ -34,7 +34,6 @@ iphone:
   reviews: 1
   icon: com.gleecard.ios.jpg
   meta: ok
-  website: https://gleec.com/
   developerName: Gleec-BTC OU
 
 ---

@@ -17,7 +17,6 @@ android:
   version: 2.0.79
   reviews: 44
   icon: com.dantown.Dantownapp.jpg
-  website: https://www.dantownms.com
   developerName: Dantown
 
 ---

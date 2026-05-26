@@ -6,6 +6,7 @@ meta: removed
 date: 2023-11-02
 authors:
 - leo
+website: http://pro.coinbase.com/
 twitter: CoinbasePro
 social:
 - https://www.facebook.com/coinbase
@@ -22,7 +23,6 @@ android:
   version: 1.0.103
   reviews: 4595
   icon: com.coinbase.pro.jpg
-  website: http://pro.coinbase.com/
   developerName: Coinbase Android
 iphone:
   appId: com.coinbase.pro
@@ -32,7 +32,6 @@ iphone:
   version: 1.0.104
   reviews: 173326
   icon: com.coinbase.pro.jpg
-  website: https://pro.coinbase.com
   developerName: Coinbase, Inc.
 
 ---

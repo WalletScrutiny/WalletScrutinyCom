@@ -6,6 +6,7 @@ meta: removed
 date: 2025-11-26
 authors:
 - danny
+website: https://wexopay.com
 twitter: WexoOfficial
 social:
 - https://www.facebook.com/wexopay
@@ -23,7 +24,6 @@ android:
   version: 3.4.10
   reviews: 13
   icon: cz.hundredspires.wexo.png
-  website: https://wexopay.com
   developerName: CRYPTON DIGITAL, SE
 iphone:
   appId: com.wexopay.app
@@ -34,7 +34,6 @@ iphone:
   version: 3.4.0
   reviews: 554
   icon: com.wexopay.app.jpg
-  website: https://wexopay.com/
   developerName: CRYPTON DIGITAL SE
 
 ---

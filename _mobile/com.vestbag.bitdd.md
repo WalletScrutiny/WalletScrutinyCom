@@ -13,7 +13,6 @@ android:
   updated: 2024-09-21
   version: 1.0.1
   icon: com.vestbag.bitdd.png
-  website: https://la-colinares.github.io/portfolio/
   developerName: LA Colinares
 
 ---

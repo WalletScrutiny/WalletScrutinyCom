@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-04
 authors:
 - danny
+website: https://nominex.io/defi-nmx
 twitter: NominexExchange
 social:
 - https://www.linkedin.com/company/nominex
@@ -22,7 +23,6 @@ android:
   version: 1.4.0
   reviews: 38
   icon: com.nominex.app.png
-  website: https://nominex.io/defi-nmx
   developerName: Nominex Ltd.
 iphone:
   appId: com.nominex.app
@@ -32,7 +32,6 @@ iphone:
   version: 1.4.1
   reviews: 32
   icon: com.nominex.app.jpg
-  website: https://nominex.io
   developerName: Nominex Limited
 
 ---

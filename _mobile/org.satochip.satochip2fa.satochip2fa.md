@@ -13,7 +13,6 @@ android:
   updated: 2023-03-02
   version: '0.24'
   icon: org.satochip.satochip2fa.satochip2fa.png
-  website: http://satochip.io
   developerName: Satochip
 
 ---

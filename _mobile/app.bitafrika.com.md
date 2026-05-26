@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-06
 authors:
 - danny
+website: https://bitafrika.com
 twitter: _bitafrika
 social:
 - https://www.facebook.com/bitafrika
@@ -23,7 +24,6 @@ android:
   reviews: 173
   icon: app.bitafrika.com.png
   meta: ok
-  website: https://bitafrika.com
   developerName: BITAFRIKA LTD
 iphone:
   appId: app.bitafrika.com
@@ -35,7 +35,6 @@ iphone:
   reviews: 635
   icon: app.bitafrika.com.jpg
   meta: removed
-  website: https://bitafrika.com/contact
 
 ---
 

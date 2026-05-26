@@ -6,6 +6,7 @@ date: 2025-03-21
 authors:
 - leo
 - danny
+website: https://tangem.com
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
@@ -28,7 +29,6 @@ android:
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   verdict: sourceavailable
-  website: https://tangem.com
   developerName: Tangem
   repository: https://github.com/tangem/tangem-app-android
 iphone:

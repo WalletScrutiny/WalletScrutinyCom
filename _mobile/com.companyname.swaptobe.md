@@ -21,7 +21,6 @@ android:
   version: '6.0'
   reviews: 20
   icon: com.companyname.swaptobe.png
-  website: https://pionechain.com
   developerName: PIONE CHAIN
 
 ---

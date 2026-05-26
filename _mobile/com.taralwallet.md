@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-05-30
 authors:
 - danny
+website: https://tarality.com
 twitter: TaralityCoin
 social:
 - https://www.facebook.com/TaralityCoin
@@ -22,7 +23,6 @@ android:
   reviews: 4
   icon: com.taralwallet.png
   meta: removed
-  website: https://tarality.com
   developerName: Tarality Ecosystems Private Limited
 iphone:
   appId: com.taralwallet

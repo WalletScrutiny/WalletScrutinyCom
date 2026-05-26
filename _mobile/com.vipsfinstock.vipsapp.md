@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-03
 authors:
 - danny
+website: https://www.vipsfinstock.com
 twitter: VIPS_Finstock
 social:
 - https://www.linkedin.com/company/vipsfinstock
@@ -24,7 +25,6 @@ android:
   version: 1.7.6
   reviews: 2
   icon: com.vipsfinstock.vipsapp.png
-  website: https://www.vipsfinstock.com
   developerName: VIPS Trade Finance Pvt. Ltd.
 iphone:
   appId: com.vips.vipsfinstock
@@ -35,7 +35,6 @@ iphone:
   version: 1.9.4
   reviews: 0
   icon: com.vips.vipsfinstock.jpg
-  website: https://vipsfinstock.com/
   developerName: VIPS Trade Finance Pvt. Ltd.
 
 ---

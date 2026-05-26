@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-26
 authors:
 - danny
+website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
 twitter: FUNCTIONX_IO
 social:
@@ -29,7 +30,6 @@ android:
   version: 5.10.1
   reviews: 42
   icon: com.pundix.functionx.png
-  website: https://functionx.io
   developerName: Pundi X Labs
 iphone:
   appId: com.pundix.fx.connect
@@ -39,7 +39,6 @@ iphone:
   version: 5.9.0
   reviews: 64
   icon: com.pundix.fx.connect.jpg
-  website: https://pundi.ai/
   developerName: PUNDI X LABS
 
 ---

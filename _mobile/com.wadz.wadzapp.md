@@ -6,6 +6,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: http://www.wadzpay.com
 twitter: wadzpay
 social:
 - https://www.linkedin.com/company/wadzpay
@@ -24,7 +25,6 @@ android:
   updated: 2022-06-26
   version: 2.1.1
   icon: com.wadz.wadzapp.png
-  website: http://www.wadzpay.com
   developerName: 2020 WadzPay Worldwide Pte Ltd
 iphone:
   appId: com.wadz.wadzapp
@@ -35,7 +35,6 @@ iphone:
   version: 2.0.1
   reviews: 1
   icon: com.wadz.wadzapp.jpg
-  website: https://www.wadzpay.com/
   developerName: WadzPay Worldwide Pte Ltd
 
 ---

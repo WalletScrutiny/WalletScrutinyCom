@@ -6,6 +6,7 @@ meta: removed
 date: 2023-05-10
 authors:
 - danny
+website: https://inlock.io/
 twitter: inlock_token
 social:
 - https://www.linkedin.com/company/income-locker
@@ -22,7 +23,6 @@ android:
   version: 2.1.1
   reviews: 6
   icon: io.inlock.mobileapp.png
-  website: https://inlock.io/
   developerName: Variance HODLING Kft.
 iphone:
   appId: io.inlock.mobileapp
@@ -32,7 +32,6 @@ iphone:
   version: 2.1.0
   reviews: 6
   icon: io.inlock.mobileapp.jpg
-  website: https://inlock.io
   developerName: Variance HODLING Ltd
 
 ---

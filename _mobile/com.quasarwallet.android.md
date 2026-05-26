@@ -21,7 +21,6 @@ android:
   version: '1.5'
   reviews: 10
   icon: com.quasarwallet.android.png
-  website: https://quasarwallet.com
   developerName: Blaqclouds
 
 ---

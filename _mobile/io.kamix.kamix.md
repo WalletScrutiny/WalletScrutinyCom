@@ -6,6 +6,7 @@ meta: stale
 date: 2025-08-18
 authors:
 - danny
+website: https://kamix.io
 twitter: KamixApp
 social:
 - https://www.linkedin.com/company/kamixapp
@@ -22,7 +23,6 @@ android:
   version: 3.0.336
   icon: io.kamix.kamix.png
   meta: stale
-  website: https://kamix.io
   developerName: Kamix R&D
 iphone:
   appId: io.kamix.app
@@ -34,7 +34,6 @@ iphone:
   reviews: 10
   icon: io.kamix.app.jpg
   meta: removed
-  website: http://kamix.fr
   developerName: Kamix
 
 ---

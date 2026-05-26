@@ -6,6 +6,7 @@ date: 2021-04-27
 authors:
 - kiwilamb
 - leo
+website: https://pointpay.io/
 twitter: PointPay1
 social:
 - https://www.linkedin.com/company/pointpay
@@ -26,7 +27,6 @@ android:
   reviews: 135
   icon: com.pointpay.bank.png
   meta: removed
-  website: https://pointpay.io/
   developerName: Point Pay OÜ
 iphone:
   appId: com.pointpayio.PointPayBank
@@ -37,7 +37,6 @@ iphone:
   reviews: 696
   icon: com.pointpayio.PointPayBank.jpg
   meta: ok
-  website: https://wallet.pointpay.io
   developerName: Point Pay LTD
 
 ---

@@ -20,7 +20,6 @@ android:
   version: 1.3.7
   reviews: 6
   icon: com.pocketbits.png
-  website: https://pocketbits.in/
   developerName: Defacto Technologies Pvt Ltd
 
 ---

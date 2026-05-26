@@ -5,6 +5,7 @@ verdict: nosource
 date: 2025-03-17
 authors:
 - danny
+website: https://glamster.me
 redirect_from:
 - /android/com.glamster/
 - /iphone/com.glamster/
@@ -17,7 +18,6 @@ android:
   reviews: 6
   icon: com.glamster.png
   meta: removed
-  website: https://glamster.me
   developerName: Glamster
 iphone:
   appId: com.glamster
@@ -29,7 +29,6 @@ iphone:
   reviews: 241
   icon: com.glamster.jpg
   meta: obsolete
-  website: https://glamster.io/
   developerName: Glamster
 
 ---

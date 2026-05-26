@@ -7,6 +7,7 @@ date: 2023-01-02
 authors:
 - leo
 - danny
+website: https://freewallet.org/
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org
@@ -24,7 +25,6 @@ android:
   version: 2.6.8
   reviews: 561
   icon: btc.org.freewallet.app.png
-  website: https://freewallet.org/
 iphone:
   appId: btc.org.freewallet.app
   idd: '1126844329'
@@ -34,7 +34,6 @@ iphone:
   version: 2.6.23
   reviews: 93
   icon: btc.org.freewallet.app.jpg
-  website: https://freewallet.org/btc-wallet
   developerName: Freewallet
 
 ---

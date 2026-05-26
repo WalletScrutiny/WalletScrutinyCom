@@ -6,6 +6,7 @@ meta: removed
 date: 2024-08-17
 authors:
 - danny
+website: https://web.archive.org/web/20231006065722/https://amon.tech/
 twitter: amonwallet
 social:
 - https://www.facebook.com/amonwallet
@@ -19,7 +20,6 @@ android:
   updated: 2023-07-04
   version: 3.7.31
   icon: tech.amon.png
-  website: https://web.archive.org/web/20231006065722/https://amon.tech/
   developerName: Amon OÜ
 iphone:
   appId: tech.amon

@@ -6,6 +6,7 @@ meta: stale
 date: 2025-09-03
 authors:
 - danny
+website: https://www.icewal.com/
 twitter: icewalofficial
 social:
 - https://www.facebook.com/icewalofficial
@@ -22,7 +23,6 @@ android:
   updated: 2025-01-15
   version: '2.8'
   icon: com.icecorp.wallet.png
-  website: https://www.icewal.com/
   developerName: Kentkart International LLP
 iphone:
   appId: com.icecorp.wallet

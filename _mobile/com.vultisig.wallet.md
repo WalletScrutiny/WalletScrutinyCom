@@ -27,7 +27,6 @@ android:
   version: 1.0.103
   reviews: 11
   icon: com.vultisig.wallet.png
-  website: https://vultisig.com
   developerName: Vulti Holdings Ltd.
 iphone:
   appId: com.vultisig.wallet

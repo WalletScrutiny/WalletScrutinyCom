@@ -6,6 +6,7 @@ meta: removed
 date: 2024-02-05
 authors:
 - danny
+website: https://coinpanion.com
 social:
 - https://www.linkedin.com/company/coinpanion
 - https://www.facebook.com/coinpanion
@@ -19,7 +20,6 @@ android:
   updated: 2023-07-27
   version: 4.4.7
   icon: com.coinpanion.mobileapp.jpg
-  website: https://coinpanion.com
   developerName: Coinpanion
 iphone:
   appId: com.coinpanion.mobileappios
@@ -30,7 +30,6 @@ iphone:
   version: 4.4.7
   reviews: 1
   icon: com.coinpanion.mobileappios.jpg
-  website: https://coinpanion.com/en#deadLink
   developerName: Revix UK Ltd
 
 ---

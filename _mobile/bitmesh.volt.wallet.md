@@ -6,6 +6,7 @@ meta: removed
 date: 2023-06-21
 authors:
 - danny
+website: http://www.volt.id
 twitter: Voltfinance
 appCountry: us
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 2.4.0
   reviews: 30
   icon: bitmesh.volt.wallet.png
-  website: http://www.volt.id
   developerName: Volt Wallet
 iphone:
   appId: com.laxoWallet
@@ -29,7 +29,6 @@ iphone:
   version: 2.3.9
   reviews: 55
   icon: com.laxoWallet.jpg
-  website: https://volt.id#deadLink
   developerName: Hangzhou YunSuanDuanDian Technology Co.,Ltd
 
 ---

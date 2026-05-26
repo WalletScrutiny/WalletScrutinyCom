@@ -13,7 +13,6 @@ android:
   updated: 2026-05-12
   version: 3.1.1
   icon: com.boldwallet.png
-  website: https://boldbitcoinwallet.com
   developerName: BoldBitcoinWallet
 
 ---

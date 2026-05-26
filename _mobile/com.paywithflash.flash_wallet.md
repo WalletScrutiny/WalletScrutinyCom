@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-20
 authors:
 - danny
+website: https://paywithflash.com
 redirect_from:
 - /android/com.paywithflash.flash_wallet/
 - /iphone/com.paywithflash.flashWallet/
@@ -16,7 +17,6 @@ android:
   updated: 2025-12-30
   version: 1.0.16
   icon: com.paywithflash.flash_wallet.png
-  website: https://paywithflash.com
   developerName: Flash Lightning Solutions
 iphone:
   appId: com.paywithflash.flashWallet
@@ -27,7 +27,6 @@ iphone:
   version: 1.0.12
   reviews: 1
   icon: com.paywithflash.flashWallet.jpg
-  website: https://paywithflash.com/
   developerName: Flash Lightning Solutions Inc.
 
 ---

@@ -21,7 +21,6 @@ android:
   version: 3.5.3
   reviews: 44
   icon: com.bitbarg.app.png
-  website: https://bitbarg.com
   developerName: Bitbarg
 
 ---

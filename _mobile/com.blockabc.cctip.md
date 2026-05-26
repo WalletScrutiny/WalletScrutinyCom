@@ -22,7 +22,6 @@ android:
   reviews: 510
   icon: com.blockabc.cctip.png
   meta: ok
-  website: https://cwallet.com
   developerName: Cwallet
 iphone:
   appId: com.wallet.cctip

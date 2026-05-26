@@ -5,6 +5,7 @@ verdict: custodial
 date: 2024-10-07
 authors:
 - danny
+website: http://paymium.com
 twitter: paymium
 social:
 - https://www.linkedin.com/company/paymium
@@ -21,7 +22,6 @@ android:
   version: 8.27.1
   icon: com.paymium.mobile2.png
   meta: removed
-  website: http://paymium.com
   developerName: Paymium SAS
 iphone:
   appId: com.paymium.mobile
@@ -33,7 +33,6 @@ iphone:
   reviews: 34
   icon: com.paymium.mobile.jpg
   meta: ok
-  website: https://www.paymium.com/
   developerName: Paymium SAS
 
 ---

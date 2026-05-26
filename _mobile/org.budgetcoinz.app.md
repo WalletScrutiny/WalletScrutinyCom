@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://budgetcoinz.com
 redirect_from:
 - /android/org.budgetcoinz.app/
 - /iphone/org.budgetcoinz.app/
@@ -16,7 +17,6 @@ android:
   updated: 2025-12-25
   version: 1.8.0
   icon: org.budgetcoinz.app.jpg
-  website: https://budgetcoinz.com
   developerName: BudgetCoinz
 iphone:
   appId: org.budgetcoinz.app

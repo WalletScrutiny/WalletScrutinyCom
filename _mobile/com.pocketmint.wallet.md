@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-20
 authors:
 - danny
+website: http://pocketmint.ai
 redirect_from:
 - /android/com.pocketmint.wallet/
 - /iphone/ai.pocketmint/
@@ -17,7 +18,6 @@ android:
   version: 1.9.0
   reviews: 8
   icon: com.pocketmint.wallet.png
-  website: http://pocketmint.ai
   developerName: Pocketmint Solutions LLC
 iphone:
   appId: ai.pocketmint
@@ -28,7 +28,6 @@ iphone:
   version: 1.9.0
   reviews: 5
   icon: ai.pocketmint.jpg
-  website: https://pocketmint.ai/
   developerName: Pocketmint Solutions
 
 ---

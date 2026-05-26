@@ -23,7 +23,6 @@ android:
   version: 9.3.2
   reviews: 147452
   icon: com.coinswitch.kuber.png
-  website: https://coinswitch.co
   developerName: Bitkuber Investments Private Limited
 iphone:
   appId: com.coinswitch.kuber

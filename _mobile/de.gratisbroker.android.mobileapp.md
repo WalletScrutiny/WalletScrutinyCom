@@ -6,6 +6,7 @@ meta: ok
 date: 2023-03-02
 authors:
 - danny
+website: https://www.finanzen.net/zero
 twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net
@@ -21,7 +22,6 @@ android:
   version: 5.13.1
   reviews: 8
   icon: de.gratisbroker.android.mobileapp.png
-  website: https://www.finanzen.net/zero
   developerName: finanzen.net zero GmbH
 iphone:
   appId: de.gratisbroker.ios.mobileapp
@@ -32,7 +32,6 @@ iphone:
   version: 5.13.2
   reviews: 24659
   icon: de.gratisbroker.ios.mobileapp.jpg
-  website: https://www.finanzen.net/zero/
   developerName: finanzen.net zero GmbH
 
 ---

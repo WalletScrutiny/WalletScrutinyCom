@@ -23,7 +23,6 @@ android:
   updated: 2025-05-09
   version: 1.4.0
   icon: paybusiness.elegro.eu.jpg
-  website: https://business.elegro.eu/elegro-business-wallet
   developerName: Niko Technologies
 iphone:
   appId: paybusiness.elegro.eu

@@ -17,7 +17,6 @@ android:
   updated: 2023-02-07
   version: 3.0.1
   icon: com.bitrah.pos.png
-  website: https://bitrah.com/
   developerName: Ernyka Co
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-16
 authors:
 - danny
+website: https://www.in1.io
 twitter: in1app
 social:
 - https://www.instagram.com/in1app
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-08
   version: 0.11.6
   icon: com.thein1.app.jpg
-  website: https://www.in1.io
   developerName: IN1 HOLDING LIMITED
 iphone:
   appId: com.thein1.app

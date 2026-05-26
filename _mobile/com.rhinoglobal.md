@@ -23,7 +23,6 @@ android:
   version: 2.12.17
   reviews: 13
   icon: com.rhinoglobal.png
-  website: https://www.rhinobitcoin.com/
   developerName: Rhino Bitcoin
 iphone:
   appId: com.Rhino.Global

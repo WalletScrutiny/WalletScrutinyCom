@@ -27,7 +27,6 @@ android:
   version: 3.9.5
   reviews: 430
   icon: com.bydfi.app.png
-  website: https://www.bydfi.com/
   developerName: BYDFi Fintech LTD
 iphone:
   appId: com.bydfi.app

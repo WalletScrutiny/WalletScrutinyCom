@@ -20,7 +20,6 @@ android:
   version: 4.28.0
   reviews: 8
   icon: vivid.money.png
-  website: https://vivid.money/
   developerName: Vivid Money GmbH
 
 ---

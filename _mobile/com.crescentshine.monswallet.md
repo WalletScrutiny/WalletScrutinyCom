@@ -14,7 +14,6 @@ android:
   version: 1.0.1
   reviews: 3
   icon: com.crescentshine.monswallet.png
-  website: https://support.monsterra.io/
   developerName: Crescent Shine - OLD
 
 ---

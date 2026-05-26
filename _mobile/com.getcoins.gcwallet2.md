@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-12
 authors:
 - danny
+website: https://www.getcoins.com
 redirect_from:
 - /android/com.getcoins.gcwallet2/
 - /iphone/com.getcoins.gcwallet/
@@ -17,7 +18,6 @@ android:
   version: 15.2.0
   reviews: 11
   icon: com.getcoins.gcwallet2.png
-  website: https://www.getcoins.com
   developerName: GetCoins
 iphone:
   appId: com.getcoins.gcwallet
@@ -28,7 +28,6 @@ iphone:
   version: 15.4.0
   reviews: 16
   icon: com.getcoins.gcwallet.jpg
-  website: https://getcoins.com/
   developerName: Evergreen ATM LLC
 
 ---

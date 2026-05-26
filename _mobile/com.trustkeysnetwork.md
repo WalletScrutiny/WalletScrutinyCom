@@ -6,6 +6,7 @@ meta: stale
 date: 2021-11-10
 authors:
 - danny
+website: https://trustkeys.network
 twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network
@@ -22,7 +23,6 @@ android:
   reviews: 25
   icon: com.trustkeysnetwork.png
   meta: stale
-  website: https://trustkeys.network
   developerName: TrustKeys Finance
 iphone:
   appId: org.openstars.tkblockchain
@@ -33,7 +33,6 @@ iphone:
   reviews: 4
   icon: org.openstars.tkblockchain.jpg
   meta: removed
-  website: https://tkblockchain.net
 
 ---
 

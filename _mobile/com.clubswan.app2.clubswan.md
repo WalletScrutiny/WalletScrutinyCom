@@ -6,6 +6,7 @@ meta: removed
 date: 2023-09-04
 authors:
 - danny
+website: https://clubswan.com
 twitter: clubswanapp
 social:
 - https://www.instagram.com/official_clubswan_app/
@@ -31,7 +32,6 @@ iphone:
   version: 2.4.0
   reviews: 1
   icon: com.clubswan.app2.Clubswan.jpg
-  website: https://clubswan.com
   developerName: AU CARD LIMITED
 
 ---

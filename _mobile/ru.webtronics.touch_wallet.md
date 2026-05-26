@@ -21,7 +21,6 @@ android:
   version: 2.1.14
   icon: ru.webtronics.touch_wallet.png
   meta: stale
-  website: https://touchwallet.com/
   developerName: CLOUD FARMER L.L.C-FZ
 iphone:
   appId: ru.webtronics.touchwallet2

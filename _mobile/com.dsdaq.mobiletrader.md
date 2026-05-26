@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-25
 authors:
 - danny
+website: https://dsdaq.com#deadLink
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
@@ -21,7 +22,6 @@ android:
   version: 3.0.4
   reviews: 11
   icon: com.dsdaq.mobiletrader.png
-  website: https://dsdaq.com#deadLink
   developerName: Dsdaq Market Ltd.
 iphone:
   appId: com.dsdaq.ios.new
@@ -31,7 +31,6 @@ iphone:
   version: 3.2.0
   reviews: 2
   icon: com.dsdaq.ios.new.jpg
-  website: http://dsdaq.com#deadLink
   developerName: Dsdaq Market Ltd.
 
 ---

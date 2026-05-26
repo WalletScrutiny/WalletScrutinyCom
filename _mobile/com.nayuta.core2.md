@@ -5,6 +5,7 @@ meta: removed
 date: 2024-07-05
 authors:
 - danny
+website: https://nayuta.co/nayuta-wallet-2022/
 repository: https://github.com/nayutaco/NayutaWalletApp
 features:
 - ln
@@ -18,7 +19,6 @@ android:
   version: VARY
   icon: com.nayuta.core2.png
   verdict: nosource
-  website: https://nayuta.co/nayuta-wallet-2022/
   developerName: Nayuta inc
 iphone:
   appId: com.nayuta.core2
@@ -30,7 +30,6 @@ iphone:
   reviews: 0
   icon: com.nayuta.core2.jpg
   verdict: sourceavailable
-  website: https://nayuta.co/nayuta-wallet-2022
   developerName: Nayuta
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2023-12-19
 authors:
 - danny
+website: https://bitvo.com#deadLink
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
@@ -22,7 +23,6 @@ android:
   version: 1.6.9
   reviews: 19
   icon: com.vog.bitvo.png
-  website: https://bitvo.com#deadLink
   developerName: Bitvo Inc
 iphone:
   appId: com.bitvoapp.bitvo
@@ -32,7 +32,6 @@ iphone:
   version: 3.6.4
   reviews: 26
   icon: com.bitvoapp.bitvo.jpg
-  website: http://www.bitvo.com
   developerName: Bitvo
 
 ---

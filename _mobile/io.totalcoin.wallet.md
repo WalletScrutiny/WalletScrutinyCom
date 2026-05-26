@@ -25,7 +25,6 @@ android:
   reviews: 68
   icon: io.totalcoin.wallet.png
   meta: ok
-  website: http://totalcoin.io
   developerName: TOTALCOIN TRADING LTD
 iphone:
   appId: io.totalcoin.wallet

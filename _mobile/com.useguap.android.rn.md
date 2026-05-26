@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://useguap.com
 twitter: guap_app
 redirect_from:
 - /android/com.useguap.android.rn/
@@ -17,7 +18,6 @@ android:
   updated: 2026-05-21
   version: 0.9.2
   icon: com.useguap.android.rn.png
-  website: https://useguap.com
   developerName: Future Money Labs
 iphone:
   appId: com.useguap.ios.rn
@@ -28,7 +28,6 @@ iphone:
   version: 0.9.0
   reviews: 1
   icon: com.useguap.ios.rn.jpg
-  website: https://useguap.com/
   developerName: Future Money Labs
 
 ---

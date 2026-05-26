@@ -16,7 +16,6 @@ android:
   version: 1.5.5
   reviews: 88
   icon: com.blockchain.btc.coinhub.png
-  website: https://coindex.money
   developerName: TwiX
 
 ---

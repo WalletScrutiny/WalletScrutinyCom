@@ -6,6 +6,7 @@ meta: removed
 date: 2024-10-28
 authors:
 - danny
+website: http://Saitamatoken.com
 twitter: WeAreSaitama
 social:
 - https://www.facebook.com/groups/1275234186328559
@@ -24,7 +25,6 @@ android:
   version: '1.54'
   reviews: 331
   icon: com.saitapro.png
-  website: http://Saitamatoken.com
   developerName: Saitama Technology LLC
 iphone:
   appId: com.saitapro

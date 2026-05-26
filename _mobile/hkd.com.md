@@ -23,7 +23,6 @@ android:
   version: 3.0.6
   reviews: 16
   icon: hkd.com.png
-  website: http://hkd.com
   developerName: HKD.com Limited
 iphone:
   appId: com.hkd.hkdex

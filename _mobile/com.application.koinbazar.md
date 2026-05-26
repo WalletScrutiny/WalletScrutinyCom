@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-04
 authors:
 - danny
+website: https://koinbx.com/
 twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
@@ -24,7 +25,6 @@ android:
   version: 3.1.5
   reviews: 3503
   icon: com.application.koinbazar.png
-  website: https://koinbx.com/
   developerName: KoinBX
 iphone:
   appId: com.app.koinbazar
@@ -34,7 +34,6 @@ iphone:
   version: 4.2.2
   reviews: 159
   icon: com.app.koinbazar.jpg
-  website: https://www.koinbx.com/
   developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED
 
 ---

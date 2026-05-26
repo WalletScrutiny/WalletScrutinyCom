@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-19
 authors:
 - danny
+website: https://breet.app
 twitter: breetapp
 social:
 - https://www.facebook.com/breetapp
@@ -23,7 +24,6 @@ android:
   version: 7.3.1
   reviews: 208
   icon: com.app.breet.jpg
-  website: https://breet.app
   developerName: Inbreetic Technologies Limited
 iphone:
   appId: com.app.breet
@@ -34,7 +34,6 @@ iphone:
   version: 7.2.6
   reviews: 1195
   icon: com.app.breet.jpg
-  website: https://breet.io
   developerName: BREET TECHNOLOGIES LIMITED
 
 ---

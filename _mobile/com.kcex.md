@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-11-19
 authors:
 - danny
+website: https://www.kcex.com/
 twitter: KCEX_official
 social:
 - https://discord.com/invite/2aJcUhTeJU
@@ -21,7 +22,6 @@ android:
   reviews: 350
   icon: com.kcex.png
   meta: removed
-  website: https://www.kcex.com/
   developerName: KCEX
 iphone:
   appId: com.kcexfintech.kcex

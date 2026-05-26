@@ -23,7 +23,6 @@ android:
   version: 3.8.5
   reviews: 301
   icon: com.tapngo.tap.png
-  website: https://www.withtap.com
   developerName: Tap Global Limited
 iphone:
   appId: com.TapGlobal.tap

@@ -7,6 +7,7 @@ date: 2021-05-20
 authors:
 - leo
 - danny
+website: https://www.bitcoin.com
 twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news
@@ -33,7 +34,6 @@ android:
   version: 9.22.1
   reviews: 4130
   icon: com.bitcoin.mwallet.png
-  website: https://www.bitcoin.com
   developerName: Bitcoin.com Developer
   repository: https://github.com/Bitcoin-com/Wallet
 iphone:
@@ -44,7 +44,6 @@ iphone:
   version: 9.21.0
   reviews: 43510
   icon: com.bitcoin.mwallet.jpg
-  website: https://wallet.bitcoin.com/
   developerName: Bitcoin.com
 
 ---

@@ -17,7 +17,6 @@ android:
   version: '2'
   reviews: 21
   icon: com.arzif.android.jpg
-  website: https://arzif.com/
   developerName: Arzifdev
 
 ---

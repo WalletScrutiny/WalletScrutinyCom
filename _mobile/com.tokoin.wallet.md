@@ -6,6 +6,7 @@ meta: obsolete
 date: 2025-01-15
 authors:
 - danny
+website: https://tokoin.io
 twitter: tokoinindonesia
 social:
 - https://www.facebook.com/tokoinindonesia
@@ -23,7 +24,6 @@ android:
   reviews: 6
   icon: com.tokoin.wallet.png
   meta: obsolete
-  website: https://tokoin.io
   developerName: Tokoin
 iphone:
   appId: com.tokoin.wallet
@@ -34,7 +34,6 @@ iphone:
   reviews: 5
   icon: com.tokoin.wallet.jpg
   meta: removed
-  website: https://www.tokoin.io/
   developerName: TOKOIN
 
 ---

@@ -13,7 +13,6 @@ android:
   updated: 2020-03-06
   version: 2.2.3.1
   icon: com.salvadorjesus.PagameConBitcoin.png
-  website: http://www.salvadorjesus.com/
   developerName: Salvador Jesús Romero
 
 ---

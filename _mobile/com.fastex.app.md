@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-14
 authors:
 - danny
+website: https://www.fastex.com/
 twitter: Fastex
 social:
 - https://www.facebook.com/fastexexchange
@@ -23,7 +24,6 @@ android:
   version: 1.42.2
   reviews: 12
   icon: com.fastex.app.png
-  website: https://www.fastex.com/
   developerName: Fastex Europe
 iphone:
   appId: com.fastex.fastexapp

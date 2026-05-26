@@ -13,7 +13,6 @@ android:
   updated: 2024-06-02
   version: 0.9.1
   icon: com.gleec.gleecdex.png
-  website: https://gleecbtc.com/
   developerName: Gleec Pay OU
 
 ---

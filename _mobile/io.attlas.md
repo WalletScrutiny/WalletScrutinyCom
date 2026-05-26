@@ -18,7 +18,6 @@ android:
   version: 3.6.1
   reviews: 5
   icon: io.attlas.png
-  website: https://atx.com.vn/
   developerName: ATX GLOBAL
 
 ---

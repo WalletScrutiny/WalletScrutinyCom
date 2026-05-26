@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-06
 authors:
 - danny
+website: https://bytehub.io
 twitter: EverspaceWallet
 social:
 - https://everspace.app
@@ -23,7 +24,6 @@ android:
   version: 2.18.1
   reviews: 27
   icon: com.oberton.app.png
-  website: https://bytehub.io
   developerName: Bytehub, LLC
 iphone:
   appId: io.oberton

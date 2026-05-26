@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-02
 authors:
 - danny
+website: https://credits.com/contacts.html
 twitter: creditscom
 social:
 - https://t.me/creditscom
@@ -25,7 +26,6 @@ android:
   reviews: 6
   icon: com.credits.Wallet.png
   meta: ok
-  website: https://credits.com/contacts.html
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 iphone:
   appId: com.credits.CryptoWallet
@@ -37,7 +37,6 @@ iphone:
   reviews: 0
   icon: com.credits.CryptoWallet.jpg
   meta: stale
-  website: http://credits.com
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 
 ---

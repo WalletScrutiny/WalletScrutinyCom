@@ -13,7 +13,6 @@ android:
   updated: 2026-05-21
   version: 1.0.25
   icon: com.app.degate.png
-  website: https://degate.com/
   developerName: DeGate Inc.
 
 ---

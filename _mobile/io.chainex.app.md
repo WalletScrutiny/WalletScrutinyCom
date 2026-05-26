@@ -18,7 +18,6 @@ android:
   updated: 2025-08-29
   version: 2.1.39
   icon: io.chainex.app.png
-  website: https://chainex.io/
   developerName: Lunatech (Pty) Ltd
 
 ---

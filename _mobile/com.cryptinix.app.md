@@ -19,7 +19,6 @@ android:
   version: 1.2.9
   icon: com.cryptinix.app.png
   meta: ok
-  website: https://cryptinix.com
   developerName: Cryptinix
 iphone:
   appId: com.cryptinix.app

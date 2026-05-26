@@ -13,7 +13,6 @@ android:
   updated: 2022-12-05
   version: '1.6'
   icon: coindroplet.com.png
-  website: https://www.coindroplet.com
   developerName: Value Sports Network, llc
 
 ---

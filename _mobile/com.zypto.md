@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-26
 authors:
 - danny
+website: https://zypto.com
 twitter: Zyptopay
 social:
 - https://www.reddit.com/r/ZyptoApp
@@ -28,7 +29,6 @@ android:
   version: 1.27.0
   reviews: 38
   icon: com.zypto.png
-  website: https://zypto.com
   developerName: Zypto
 iphone:
   appId: com.zypto.zypto
@@ -39,7 +39,6 @@ iphone:
   version: 1.27.0
   reviews: 52
   icon: com.zypto.zypto.jpg
-  website: https://zypto.com/
   developerName: Zypto SP Z O O
 
 ---

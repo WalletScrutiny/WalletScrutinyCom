@@ -7,6 +7,7 @@ date: 2023-12-19
 authors:
 - kiwilamb
 - leo
+website: https://www.coinzoom.com
 twitter: GetCoinZoom
 social:
 - https://www.linkedin.com/company/coinzoomhq
@@ -22,7 +23,6 @@ android:
   version: 1.5.69
   reviews: 418
   icon: com.czprime.png
-  website: https://www.coinzoom.com
   developerName: CoinZoom
 iphone:
   appId: com.ios.coinzoom
@@ -32,7 +32,6 @@ iphone:
   version: 1.2.0
   reviews: 163
   icon: com.ios.coinzoom.jpg
-  website: http://www.coinzoom.com
   developerName: CoinZoom
 
 ---

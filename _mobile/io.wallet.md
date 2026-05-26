@@ -6,6 +6,7 @@ meta: removed
 date: 2022-02-25
 authors:
 - danny
+website: https://wallet.io
 twitter: io_wallet
 social:
 - https://medium.com/@walletio
@@ -21,7 +22,6 @@ android:
   version: 1.14.0
   reviews: 12
   icon: io.wallet.png
-  website: https://wallet.io
 iphone:
   appId: io.wallet.ios
   idd: 1459857368
@@ -31,7 +31,6 @@ iphone:
   version: 1.14.1
   reviews: 21
   icon: io.wallet.ios.jpg
-  website: https://wallet.io/
   developerName: Taiyi Technology Beijing Co., Ltd.
 
 ---

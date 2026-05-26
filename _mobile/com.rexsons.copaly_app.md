@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-19
 authors:
 - danny
+website: https://copaly.com
 twitter: mycopaly
 social:
 - https://www.linkedin.com/company/mycopaly
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-07
   version: 5.2.10
   icon: com.rexsons.copaly_app.png
-  website: https://copaly.com
   developerName: Copaly
 iphone:
   appId: com.copalycompany.CopalyApp

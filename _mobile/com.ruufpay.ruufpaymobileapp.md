@@ -6,6 +6,7 @@ meta: ok
 date: 2024-10-23
 authors:
 - danny
+website: https://ruufpay.app
 twitter: ruufpay
 social:
 - https://www.linkedin.com/company/ruufpay
@@ -25,7 +26,6 @@ android:
   reviews: 11
   icon: com.ruufpay.ruufpaymobileapp.png
   meta: ok
-  website: https://ruufpay.app
   developerName: RuufPay
 iphone:
   appId: app.ruufpay.ruufpay

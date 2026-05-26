@@ -6,6 +6,7 @@ meta: removed
 date: 2024-08-31
 authors:
 - danny
+website: https://www.bitstamp.net
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp
@@ -22,7 +23,6 @@ android:
   version: '1.10'
   reviews: 26
   icon: net.bitstamp.appgo.png
-  website: https://www.bitstamp.net
   developerName: Bitstamp
 iphone:
   appId: net.bitstamp.simple
@@ -33,7 +33,6 @@ iphone:
   version: '1.9'
   reviews: 262
   icon: net.bitstamp.simple.jpg
-  website: https://www.bitstamp.net/
   developerName: Bitstamp Ltd.
 
 ---

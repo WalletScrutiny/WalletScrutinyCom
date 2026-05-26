@@ -7,6 +7,7 @@ date: 2023-01-11
 authors:
 - leo
 - danny
+website: https://www.tokenpocket.pro/
 twitter: TokenPocket_TP
 social:
 - https://www.facebook.com/TokenPocket
@@ -22,7 +23,6 @@ android:
   reviews: 633
   icon: vip.mytokenpocket.png
   meta: ok
-  website: https://www.tokenpocket.pro/
   developerName: TP Global Ltd
   repository: https://github.com/TP-Lab/tp-android
 iphone:
@@ -34,7 +34,6 @@ iphone:
   reviews: 322
   icon: com.tp.ios.jpg
   meta: removed
-  website: https://www.tokenpocket.pro
   repository: https://github.com/TP-Lab/tp-ios
 
 ---

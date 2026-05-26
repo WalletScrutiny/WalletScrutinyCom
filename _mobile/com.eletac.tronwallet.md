@@ -7,6 +7,7 @@ date: 2024-07-17
 authors:
 - kiwilamb
 - leo
+website: https://vision-crypto.com#deadLink
 twitter: VisionCryptoApp
 redirect_from:
 - /android/com.eletac.tronwallet/
@@ -19,7 +20,6 @@ android:
   version: 2.4.56
   reviews: 112
   icon: com.eletac.tronwallet.png
-  website: https://vision-crypto.com#deadLink
   developerName: Vision Dev - GO 428 LLC
 iphone:
   appId: com.visionsoftware.vision
@@ -29,7 +29,6 @@ iphone:
   version: 2.4.46
   reviews: 39
   icon: com.visionsoftware.vision.jpg
-  website: https://web.archive.org/web/20250916230349/http://vision-crypto.com/
   developerName: Go 428 llc
 
 ---

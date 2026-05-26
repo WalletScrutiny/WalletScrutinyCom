@@ -6,6 +6,7 @@ meta: ok
 date: 2022-02-21
 authors:
 - danny
+website: https://coinhub.mn/
 twitter: CoinhubMongolia
 social:
 - https://www.linkedin.com/company/coinhub-mongolia/
@@ -21,7 +22,6 @@ android:
   reviews: 9
   icon: com.coinhub.pro.png
   meta: ok
-  website: https://coinhub.mn/
   developerName: CoinHUB
 iphone:
   appId: mn.coinhub.coinhub
@@ -33,7 +33,6 @@ iphone:
   reviews: 11
   icon: mn.coinhub.coinhub.jpg
   meta: removed
-  website: https://about.coinhub.mn
   developerName: CoinHUB
 
 ---

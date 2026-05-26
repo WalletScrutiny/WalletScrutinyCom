@@ -13,7 +13,6 @@ android:
   updated: 2022-01-27
   version: 1.0.0
   icon: com.sonikchain.sonidex.png
-  website: https://sonidex.sonikchain.com
   developerName: Evegram Inc.
 
 ---

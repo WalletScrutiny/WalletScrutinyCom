@@ -4,6 +4,7 @@ title: Swap Wallet - BTC, Bitcoin wallet
 verdict: custodial
 meta: removed
 date: 2020-12-28
+website: http://swapwallet.com#deadLink
 redirect_from:
 - /com.swapwalletltd.swap/
 - /android/com.swapwalletltd.swap/
@@ -15,7 +16,6 @@ android:
   version: Varies with device
   reviews: 2065
   icon: com.swapwalletltd.swap.png
-  website: http://swapwallet.com#deadLink
 iphone:
   appId: com.swap.wallet
   idd: 1478737068
@@ -24,7 +24,6 @@ iphone:
   version: 2.9.0
   reviews: 30
   icon: com.swap.wallet.jpg
-  website: https://web.archive.org/web/20240910152549/https://www.swapwallet.com/
 
 ---
 

@@ -13,7 +13,6 @@ android:
   updated: 2026-01-31
   version: 1.1.4
   icon: xyz.notwallet.NotWallet.png
-  website: https://notwallet.eu/
   developerName: Splitfire AB
 
 ---

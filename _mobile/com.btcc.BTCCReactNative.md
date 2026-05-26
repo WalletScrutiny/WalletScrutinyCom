@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-23
 authors:
 - danny
+website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 twitter: YourBTCC
 social:
 - https://www.linkedin.com/company/yourbtcc
@@ -33,7 +34,6 @@ iphone:
   version: 3.5.40
   reviews: 188
   icon: com.btcc.BTCCReactNative.jpg
-  website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
   developerName: BTCC Limited
 
 ---

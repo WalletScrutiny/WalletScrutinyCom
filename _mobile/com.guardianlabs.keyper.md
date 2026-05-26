@@ -13,7 +13,6 @@ android:
   updated: 2024-11-05
   version: 2.3.0
   icon: com.guardianlabs.keyper.png
-  website: https://myguardian.network/
   developerName: Guardian Labs
 
 ---

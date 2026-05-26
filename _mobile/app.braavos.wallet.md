@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-03
 authors:
 - danny
+website: https://braavos.app/
 twitter: myBraavos
 features:
 - buyWithCC
@@ -23,7 +24,6 @@ android:
   version: 4.19.6
   reviews: 36
   icon: app.braavos.wallet.png
-  website: https://braavos.app/
   developerName: FreeBraavos
 iphone:
   appId: app.braavos.wallet
@@ -34,7 +34,6 @@ iphone:
   version: 4.19.6
   reviews: 121
   icon: app.braavos.wallet.jpg
-  website: https://braavos.app
   developerName: Braavos LTD.
 
 ---

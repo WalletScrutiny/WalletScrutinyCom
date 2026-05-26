@@ -22,7 +22,6 @@ android:
   version: 6.1.2
   reviews: 177
   icon: com.tabdeal.png
-  website: https://tabdeal.org
   developerName: Tabdeal Platform
 
 ---

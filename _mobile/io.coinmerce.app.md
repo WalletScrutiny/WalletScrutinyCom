@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-15
 authors:
 - danny
+website: https://coinmerce.io/
 twitter: coinmerce
 social:
 - https://www.facebook.com/CoinmerceNL
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-13
   version: 6.13.0
   icon: io.coinmerce.app.png
-  website: https://coinmerce.io/
   developerName: Coinmerce B.V. - Buy, sell & swap crypto
 iphone:
   appId: io.coinmerce.app
@@ -31,7 +31,6 @@ iphone:
   version: 7.0.0
   reviews: 509
   icon: io.coinmerce.app.jpg
-  website: https://coinmerce.io/en/
   developerName: Coinmerce BV
 
 ---

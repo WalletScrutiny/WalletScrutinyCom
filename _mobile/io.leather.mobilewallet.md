@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://leather.io
 repository: https://github.com/leather-io/mono
 twitter: leatherbtc
 social:
@@ -21,7 +22,6 @@ android:
   version: 2.105.0
   reviews: 2
   icon: io.leather.mobilewallet.png
-  website: https://leather.io
   developerName: Leather Wallet LLC
 iphone:
   appId: io.leather.mobilewallet
@@ -32,7 +32,6 @@ iphone:
   version: 2.107.0
   reviews: 7
   icon: io.leather.mobilewallet.jpg
-  website: https://www.leather.io
   developerName: Leather Wallet LLC
 
 ---

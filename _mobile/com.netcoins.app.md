@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-20
 authors:
 - danny
+website: https://www.netcoins.com
 twitter: Netcoins
 social:
 - https://www.linkedin.com/company/netcoins
@@ -21,7 +22,6 @@ android:
   version: 5.13.0
   reviews: 15
   icon: com.netcoins.app.png
-  website: https://www.netcoins.com
   developerName: Netcoins Inc
 iphone:
   appId: com.netcoins.app
@@ -32,7 +32,6 @@ iphone:
   version: 5.8.1
   reviews: 80
   icon: com.netcoins.app.jpg
-  website: https://netcoins.com
   developerName: Netcoins
 
 ---

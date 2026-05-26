@@ -6,6 +6,7 @@ date: 2023-07-03
 authors:
 - leo
 - danny
+website: https://personal.elegro.eu/exchange#deadLink
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
@@ -26,7 +27,6 @@ android:
   version: 1.0.4
   icon: cryptoex.elegro.io.png
   meta: removed
-  website: https://personal.elegro.eu/exchange#deadLink
   developerName: Niko Technologies
 iphone:
   appId: cryptoex.elegro.io
@@ -38,7 +38,6 @@ iphone:
   reviews: 2
   icon: cryptoex.elegro.io.jpg
   meta: obsolete
-  website: https://personal.elegro.eu/certified-coins
   developerName: Niko Technologies
 
 ---

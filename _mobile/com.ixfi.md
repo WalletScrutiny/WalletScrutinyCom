@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-08
 authors:
 - danny
+website: https://ixfi.com
 twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange
@@ -26,7 +27,6 @@ android:
   version: 1.10.20
   reviews: 62
   icon: com.ixfi.png
-  website: https://ixfi.com
   developerName: IXFI Crypto World
 iphone:
   appId: com.ixfi.app
@@ -37,7 +37,6 @@ iphone:
   version: 1.7.43
   reviews: 99
   icon: com.ixfi.app.jpg
-  website: https://www.ixfi.com/landing
   developerName: IXFI Crypto World UAB
 
 ---

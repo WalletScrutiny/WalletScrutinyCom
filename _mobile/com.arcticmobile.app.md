@@ -6,6 +6,7 @@ meta: stale
 date: 2025-07-14
 authors:
 - danny
+website: https://arcticwallet.io
 social:
 - https://t.me/arctic_official_chat
 - https://www.linkedin.com/company/arctic-wallet
@@ -24,7 +25,6 @@ android:
   reviews: 1
   icon: com.arcticmobile.app.png
   meta: stale
-  website: https://arcticwallet.io
   developerName: ARCTIC SOFTWARE OÜ
   twitter: arctic_wallet
 iphone:
@@ -37,7 +37,6 @@ iphone:
   reviews: 6
   icon: com.arcticmobile.app.jpg
   meta: removed
-  website: https://arcticwallet.io/
   developerName: Arctic Software OU
 
 ---

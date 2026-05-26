@@ -23,7 +23,6 @@ android:
   version: 1.1.52
   reviews: 16
   icon: net.bitbay.bitcoin.png
-  website: https://zondacrypto.com
   developerName: BB Trade Estonia
 iphone:
   appId: com.bitbay.BitBayTrading

@@ -25,7 +25,6 @@ android:
   version: 4.11.1
   reviews: 16
   icon: im.adamant.adamantmessengerpwa.png
-  website: https://adamant.im
   developerName: ADAMANT Foundation
   repository: https://github.com/Adamant-im/adamant-im
 iphone:

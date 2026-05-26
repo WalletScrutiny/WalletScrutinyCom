@@ -6,6 +6,7 @@ meta: ok
 date: 2022-01-10
 authors:
 - danny
+website: https://wirexapp.com/wirex-wallet#deadLink
 twitter: wirexapp
 social:
 - https://github.com/wirexapp
@@ -25,7 +26,6 @@ android:
   version: 3.2.0
   reviews: 16
   icon: com.wirex.wallet.png
-  website: https://wirexapp.com/wirex-wallet#deadLink
   developerName: CCA LABS
 iphone:
   appId: com.wirex.wallet
@@ -35,7 +35,6 @@ iphone:
   version: 3.1.1
   reviews: 10
   icon: com.wirex.wallet.jpg
-  website: https://www.coca.xyz/
   developerName: CCA LABS - FZCO
 
 ---

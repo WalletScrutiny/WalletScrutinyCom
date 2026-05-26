@@ -14,7 +14,6 @@ android:
   version: 1.1.4
   reviews: 10
   icon: com.milesblue.milesblue.jpg
-  website: https://cryptmi.com
   developerName: Miles.Blue Inc
 
 ---

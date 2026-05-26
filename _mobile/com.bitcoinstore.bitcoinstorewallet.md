@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-07
 authors:
 - danny
+website: https://bitstore.net
 twitter: storebitcoin
 social:
 - https://www.linkedin.com/company/bitstore-net
@@ -24,7 +25,6 @@ android:
   updated: 2025-10-31
   version: 1.0.54
   icon: com.bitcoinstore.bitcoinstorewallet.png
-  website: https://bitstore.net
   developerName: Digital Assets d.o.o
 iphone:
   appId: com.bitcoinstore.bitcoinstorewallet

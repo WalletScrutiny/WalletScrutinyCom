@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-02
 authors:
 - danny
+website: http://core.app
 twitter: coreapp
 social:
 - https://t.me/avalancheavax
@@ -25,7 +26,6 @@ android:
   version: 1.0.31
   reviews: 138
   icon: com.avaxwallet.png
-  website: http://core.app
   developerName: Ava Labs, Inc.
 iphone:
   appId: org.avalabs.corewallet
@@ -36,7 +36,6 @@ iphone:
   version: 1.0.30
   reviews: 137
   icon: org.avalabs.corewallet.jpg
-  website: https://www.core.app/
   developerName: Ava Labs, Incorporated
 
 ---

@@ -6,6 +6,7 @@ meta: removed
 date: 2025-12-15
 authors:
 - danny
+website: http://www.okcoin.com
 twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin
@@ -24,7 +25,6 @@ android:
   version: 5.3.120
   reviews: 629
   icon: com.okinc.okcoin.intl.png
-  website: http://www.okcoin.com
   developerName: OKCoin Inc.
 iphone:
   appId: com.okcoin.OKCoinAppstore
@@ -34,7 +34,6 @@ iphone:
   version: 5.3.110
   reviews: 3489
   icon: com.okcoin.OKCoinAppstore.jpg
-  website: https://www.okcoin.com/mobile
   developerName: OKCoin USA Inc
 
 ---

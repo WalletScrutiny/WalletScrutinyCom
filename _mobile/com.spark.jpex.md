@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-03
 authors:
 - danny
+website: http://jp-ex.io
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 appCountry: jp
@@ -19,7 +20,6 @@ android:
   updated: 2023-08-02
   version: 2.83.848
   icon: com.spark.jpex.jpg
-  website: http://jp-ex.io
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
   twitter: ExchangeJpex
 iphone:
@@ -30,7 +30,6 @@ iphone:
   version: 2.83.848
   reviews: 4
   icon: io.jp-ex.iosapp2.jpg
-  website: https://jp-ex.io/
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---

@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-08
 authors:
 - danny
+website: https://robinhood.com/eu/en/about/crypto/
 twitter: RobinhoodApp
 social:
 - https://www.instagram.com/robinhoodapp
@@ -21,7 +22,6 @@ android:
   updated: 2026-05-20
   version: 2026.20.0
   icon: com.robinhood.global.png
-  website: https://robinhood.com/eu/en/about/crypto/
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.RobinhoodGlobal
@@ -32,7 +32,6 @@ iphone:
   version: 2026.21.0
   reviews: 292
   icon: com.robinhood.release.RobinhoodGlobal.jpg
-  website: https://robinhood.com/eu/en/
   developerName: Robinhood Markets, Inc.
 
 ---

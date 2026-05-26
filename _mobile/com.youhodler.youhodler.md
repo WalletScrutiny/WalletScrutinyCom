@@ -6,6 +6,7 @@ meta: ok
 date: 2020-06-20
 authors:
 - leo
+website: https://youhodler.com
 twitter: youhodler
 social:
 - https://www.linkedin.com/company/youhodler
@@ -23,7 +24,6 @@ android:
   version: 8.6.3
   reviews: 117
   icon: com.youhodler.youhodler.png
-  website: https://youhodler.com
   developerName: YouHodler
 iphone:
   appId: com.youhodler.youhodler
@@ -34,7 +34,6 @@ iphone:
   version: 8.6.2
   reviews: 11
   icon: com.youhodler.youhodler.jpg
-  website: https://www.youhodler.com/
   developerName: YouHodler
 
 ---

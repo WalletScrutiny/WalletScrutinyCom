@@ -22,7 +22,6 @@ android:
   version: 26.9.0
   reviews: 353850
   icon: com.venmo.png
-  website: https://venmo.com/
   developerName: Venmo
 iphone:
   appId: net.kortina.labs.Venmo

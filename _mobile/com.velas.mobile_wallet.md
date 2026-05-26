@@ -26,7 +26,6 @@ android:
   reviews: 22
   icon: com.velas.mobile_wallet.png
   meta: obsolete
-  website: https://velas.com
   developerName: VELAS Network AG
 iphone:
   appId: com.velas.walletmobile

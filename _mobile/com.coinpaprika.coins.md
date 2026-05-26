@@ -6,6 +6,7 @@ meta: ok
 date: 2024-07-15
 authors:
 - danny
+website: https://coins.coinpaprika.com/
 twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp
@@ -28,7 +29,6 @@ android:
   reviews: 94
   icon: com.coinpaprika.coins.png
   meta: ok
-  website: https://coins.coinpaprika.com/
   developerName: Coinpaprika
 iphone:
   appId: com.coinpaprika.Coins
@@ -39,7 +39,6 @@ iphone:
   reviews: 978
   icon: com.coinpaprika.Coins.jpg
   meta: stale
-  website: http://coins.coinpaprika.com
   developerName: Coinpaprika Sp. z o.o.
 
 ---

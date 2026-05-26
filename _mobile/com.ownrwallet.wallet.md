@@ -24,7 +24,6 @@ android:
   version: 1.72.0
   reviews: 107
   icon: com.ownrwallet.wallet.png
-  website: https://ownrwallet.com
   developerName: OWNR WALLET OU
 iphone:
   appId: com.ownrwallet.wallet

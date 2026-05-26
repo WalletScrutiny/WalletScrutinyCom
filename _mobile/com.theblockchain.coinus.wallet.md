@@ -6,6 +6,7 @@ meta: removed
 date: 2022-05-31
 authors:
 - danny
+website: https://coinus.io/
 twitter: CoinUs_Official
 social:
 - https://www.facebook.com/CoinUsOfficial
@@ -21,7 +22,6 @@ android:
   version: 3.0.0
   reviews: 235
   icon: com.theblockchain.coinus.wallet.png
-  website: https://coinus.io/
 iphone:
   appId: com.theblockchain.coinus.wallet
   idd: 1367339746
@@ -30,7 +30,6 @@ iphone:
   version: 2.9.0
   reviews: 0
   icon: com.theblockchain.coinus.wallet.jpg
-  website: https://www.coinus.io/
 
 ---
 

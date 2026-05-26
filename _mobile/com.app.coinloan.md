@@ -6,6 +6,7 @@ meta: removed
 date: 2024-04-03
 authors:
 - danny
+website: https://coinloan.io/
 twitter: coin_loan
 social:
 - https://www.linkedin.com/company/coinloan
@@ -23,7 +24,6 @@ android:
   version: 1.7.7
   reviews: 79
   icon: com.app.coinloan.png
-  website: https://coinloan.io/
   developerName: CoinLoan
 iphone:
   appId: io.coinloan.coinloan
@@ -33,7 +33,6 @@ iphone:
   version: 1.7.7
   reviews: 394
   icon: io.coinloan.coinloan.jpg
-  website: https://coinloan.io
   developerName: CoinLoan OU
 
 ---

@@ -21,7 +21,6 @@ android:
   updated: 2023-11-07
   version: 1.7.3(59)
   icon: com.bitbay.pay.bitcoin.pos.terminal.png
-  website: https://zondaglobal.com/pay
   developerName: BB Trade Estonia
 
 ---

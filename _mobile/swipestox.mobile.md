@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-10
 authors:
 - danny
+website: http://www.naga.com
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting
@@ -22,7 +23,6 @@ android:
   version: 8.0.466
   reviews: 200
   icon: swipestox.mobile.png
-  website: http://www.naga.com
   developerName: NAGA Markets Ltd.
 iphone:
   appId: com.swipestox.app
@@ -33,7 +33,6 @@ iphone:
   version: 9.7.2
   reviews: 63
   icon: com.swipestox.app.jpg
-  website: https://www.naga.com
   developerName: NAGA Markets Ltd.
 
 ---

@@ -17,7 +17,6 @@ android:
   updated: 2026-04-17
   version: 1.2.2
   icon: com.exchange.allin.png
-  website: https://www.allinx.io
   developerName: Allin Exchange
 iphone:
   appId: com.allin.exchange.appStore

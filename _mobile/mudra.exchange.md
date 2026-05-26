@@ -5,6 +5,7 @@ verdict: custodial
 date: 2025-09-12
 authors:
 - danny
+website: http://mudra.exchange/
 twitter: mudraex
 social:
 - https://www.linkedin.com/company/mudraex
@@ -23,7 +24,6 @@ android:
   version: 1.4.21
   icon: mudra.exchange.png
   meta: removed
-  website: http://mudra.exchange/
   developerName: Mudra.Exchange
 iphone:
   appId: app.mudraexchange

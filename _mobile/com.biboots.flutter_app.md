@@ -6,6 +6,7 @@ meta: removed
 date: 2024-12-23
 authors:
 - danny
+website: https://www.fairdesk.com/
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official
@@ -21,7 +22,6 @@ android:
   version: 1.7.1
   reviews: 17
   icon: com.biboots.flutter_app.png
-  website: https://www.fairdesk.com/
   developerName: Fairdesk Technology Limited
 iphone:
   appId: com.Fairdesk.fairdesk
@@ -32,7 +32,6 @@ iphone:
   version: 1.7.0
   reviews: 14
   icon: com.Fairdesk.fairdesk.jpg
-  website: https://www.fairdesk.com
   developerName: FAIRDESK TECHNOLOGY LIMITED
 
 ---

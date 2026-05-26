@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - leo
+website: https://www.blockfolio.com#deadLink
 twitter: Blockfolio
 social:
 - https://www.facebook.com/Blockfolio
@@ -25,7 +26,6 @@ android:
   version: 4.12.5
   reviews: 11863
   icon: com.blockfolio.blockfolio.png
-  website: https://www.blockfolio.com#deadLink
 iphone:
   appId: com.blockfolio.blockfolio
   idd: 1095564685
@@ -34,7 +34,6 @@ iphone:
   version: 4.10.1
   reviews: 54939
   icon: com.blockfolio.blockfolio.jpg
-  website: https://ftx.com
 
 ---
 

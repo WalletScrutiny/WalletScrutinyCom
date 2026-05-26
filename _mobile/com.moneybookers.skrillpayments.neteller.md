@@ -6,6 +6,7 @@ meta: ok
 date: 2024-09-07
 authors:
 - danny
+website: https://www.neteller.com
 twitter: neteller
 social:
 - https://www.facebook.com/NETELLER
@@ -21,7 +22,6 @@ android:
   version: 3.185.0-2026052009
   reviews: 279
   icon: com.moneybookers.skrillpayments.neteller.png
-  website: https://www.neteller.com
   developerName: Paysafe Holdings UK Limited
 iphone:
   appId: com.skrill.NETELLER

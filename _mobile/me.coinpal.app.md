@@ -6,6 +6,7 @@ meta: removed
 date: 2022-02-10
 authors:
 - kiwilamb
+website: https://coinpal.me/
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
@@ -21,7 +22,6 @@ android:
   version: 4.1.4
   reviews: 53
   icon: me.coinpal.app.png
-  website: https://coinpal.me/
 iphone:
   appId: me.coinpal.xapp
   idd: 1351428916
@@ -30,7 +30,6 @@ iphone:
   version: '1.0'
   reviews: 11
   icon: me.coinpal.xapp.jpg
-  website: https://coinpal.me
   developerName: Coinpal Inc
 
 ---

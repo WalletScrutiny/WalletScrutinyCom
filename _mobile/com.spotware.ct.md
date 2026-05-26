@@ -23,7 +23,6 @@ android:
   version: 5.8.220
   reviews: 382
   icon: com.spotware.ct.png
-  website: https://ctrader.com/forum
   developerName: Spotware
 iphone:
   appId: com.spotware.ct

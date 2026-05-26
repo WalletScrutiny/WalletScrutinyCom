@@ -6,6 +6,7 @@ meta: ok
 date: 2025-12-27
 authors:
 - danny
+website: https://myabcwallet.io
 twitter: AhnLab_ABC
 social:
 - https://www.facebook.com/abcwallet2022
@@ -20,7 +21,6 @@ android:
   updated: 2026-03-27
   version: 2.10.5
   icon: io.myabcwallet.mpc.png
-  website: https://myabcwallet.io
   developerName: AhnLab Blockchain Company, INC.
 iphone:
   appId: io.myabcwallet.mpc

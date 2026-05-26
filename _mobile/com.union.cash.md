@@ -6,6 +6,7 @@ meta: ok
 date: 2023-11-17
 authors:
 - danny
+website: http://www.union.cash/
 redirect_from:
 - /android/com.union.cash/
 - /iphone/com.union.cash/
@@ -18,7 +19,6 @@ android:
   reviews: 5
   icon: com.union.cash.png
   meta: ok
-  website: http://www.union.cash/
   developerName: Union Cash
   twitter: unioncash_eu
 iphone:
@@ -31,7 +31,6 @@ iphone:
   reviews: 0
   icon: com.union.cash.jpg
   meta: obsolete
-  website: https://union.cash
   developerName: Unioncash EU UAB
 
 ---

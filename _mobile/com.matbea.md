@@ -6,6 +6,7 @@ meta: ok
 date: 2023-04-07
 authors:
 - danny
+website: https://matbea.com
 social:
 - https://t.me/matbea/
 redirect_from:
@@ -18,7 +19,6 @@ android:
   version: 1.7.9
   icon: com.matbea.png
   meta: ok
-  website: https://matbea.com
   developerName: Matbea
 iphone:
   appId: org.Matbea

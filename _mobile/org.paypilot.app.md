@@ -12,7 +12,6 @@ android:
   updated: 2026-04-28
   version: 1.5.0
   icon: org.paypilot.app.png
-  website: https://www.paypilot.org
   developerName: PayPilot
 
 ---

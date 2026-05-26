@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-21
 authors:
 - danny
+website: https://www.lbank.com
 twitter: LBank_Exchange
 social:
 - https://www.linkedin.com/company/lbank
@@ -22,7 +23,6 @@ android:
   version: 7.9.7
   reviews: 686
   icon: com.superchain.lbankgoogle.png
-  website: https://www.lbank.com
   developerName: LBank
 iphone:
   appId: com.LBank.LBankNavApp
@@ -32,7 +32,6 @@ iphone:
   version: 6.0.1
   reviews: 701
   icon: com.LBank.LBankNavApp.jpg
-  website: https://www.lbank.com/
   developerName: LBANK EXCHANGE UAB
 
 ---

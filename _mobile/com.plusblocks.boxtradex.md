@@ -6,6 +6,7 @@ meta: stale
 date: 2025-11-05
 authors:
 - danny
+website: https://www.boxtradex.io/
 twitter: box_trad
 social:
 - https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
@@ -20,7 +21,6 @@ android:
   version: 2.0.1
   reviews: 6
   icon: com.plusblocks.boxtradex.png
-  website: https://www.boxtradex.io/
   developerName: PlusBlocks Technology Ltd.
 iphone:
   appId: com.plusblocks.exchange

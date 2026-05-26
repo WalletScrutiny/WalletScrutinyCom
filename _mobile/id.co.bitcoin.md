@@ -6,6 +6,7 @@ meta: ok
 date: 2021-05-31
 authors:
 - leo
+website: http://indodax.com
 twitter: indodax
 redirect_from:
 - /android/id.co.bitcoin/
@@ -19,7 +20,6 @@ android:
   reviews: 493
   icon: id.co.bitcoin.png
   meta: ok
-  website: http://indodax.com
   developerName: Indodax
 iphone:
   appId: id.co.bitcoin.Bitcoin-Trading-Platform
@@ -30,7 +30,6 @@ iphone:
   reviews: 8
   icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
   meta: removed
-  website: https://indodax.com
 
 ---
 

@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-29
 authors:
 - danny
+website: https://www.bitpanda.com
 twitter: Bitpanda_global
 social:
 - https://www.facebook.com/BITPANDA
@@ -28,7 +29,6 @@ android:
   version: 3.23.0
   reviews: 18
   icon: com.bitpanda.bitpanda.png
-  website: https://www.bitpanda.com
   developerName: Bitpanda GmbH
 iphone:
   appId: com.bitpanda.bitpanda
@@ -39,7 +39,6 @@ iphone:
   version: 3.23.0
   reviews: 25515
   icon: com.bitpanda.bitpanda.jpg
-  website: https://www.bitpanda.com/app
   developerName: Bitpanda GmbH
 
 ---

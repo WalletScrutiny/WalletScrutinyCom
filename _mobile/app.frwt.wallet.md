@@ -26,7 +26,6 @@ android:
   version: 1.15.0
   reviews: 208
   icon: app.frwt.wallet.png
-  website: https://www.frwt.app/
   developerName: FRWLT LLC - Non-Custodial Wallet
 
 ---

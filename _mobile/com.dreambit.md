@@ -5,6 +5,7 @@ verdict: custodial
 date: 2023-09-04
 authors:
 - danny
+website: http://www.dreambit.com
 appCountry: lv
 redirect_from:
 - /android/com.dreambit/
@@ -18,7 +19,6 @@ android:
   reviews: 9
   icon: com.dreambit.png
   meta: removed
-  website: http://www.dreambit.com
   developerName: Crypterium AS
 iphone:
   appId: io.crypterium.minebest
@@ -29,7 +29,6 @@ iphone:
   reviews: 0
   icon: io.crypterium.minebest.jpg
   meta: obsolete
-  website: https://mydreambit.com/
   developerName: Crypterium AS
 
 ---

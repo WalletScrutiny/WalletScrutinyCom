@@ -13,7 +13,6 @@ android:
   updated: 2026-04-24
   version: 3.0.21
   icon: com.quantiamobile.png
-  website: https://quantia.io
   developerName: Quantia.io
 
 ---

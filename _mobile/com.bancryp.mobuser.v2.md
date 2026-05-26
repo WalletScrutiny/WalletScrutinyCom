@@ -6,6 +6,7 @@ meta: removed
 date: 2025-02-26
 authors:
 - danny
+website: http://bancryp.com
 redirect_from:
 - /android/com.bancryp.mobuser.v2/
 - /iphone/com.bancryp.bancrypApp/
@@ -16,7 +17,6 @@ android:
   updated: 2023-04-14
   version: 1.6.0
   icon: com.bancryp.mobuser.v2.png
-  website: http://bancryp.com
   developerName: Bancryp International
 iphone:
   appId: com.bancryp.bancrypApp
@@ -27,7 +27,6 @@ iphone:
   version: 1.6.0
   reviews: 2
   icon: com.bancryp.bancrypApp.jpg
-  website: https://bancryp.com/
   developerName: Bancryp
 
 ---

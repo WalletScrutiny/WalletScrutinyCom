@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-30
 authors:
 - danny
+website: https://noones.com/
 twitter: noonesapp
 social:
 - https://www.tiktok.com/@noonesapp
@@ -23,7 +24,6 @@ android:
   reviews: 156
   icon: team.noones.mobilemessenger.png
   meta: ok
-  website: https://noones.com/
   developerName: Eaton Consulting
 iphone:
   appId: com.noones.marketplace
@@ -35,7 +35,6 @@ iphone:
   reviews: 17
   icon: com.noones.marketplace.jpg
   meta: removed
-  website: https://noones.com
   developerName: Eaton Consulting FZE
 
 ---

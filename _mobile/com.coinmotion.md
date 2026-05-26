@@ -23,7 +23,6 @@ android:
   version: 1.13.5
   icon: com.coinmotion.png
   meta: ok
-  website: https://coinmotion.com/
   developerName: Coinmotion Oy
 iphone:
   appId: com.ios.coinmotion.app

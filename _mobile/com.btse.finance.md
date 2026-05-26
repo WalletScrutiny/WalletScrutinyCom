@@ -25,7 +25,6 @@ android:
   reviews: 75
   icon: com.btse.finance.png
   meta: ok
-  website: https://btse.com
   developerName: BTSE Holdings Limited
 iphone:
   appId: com.btse.BTSE

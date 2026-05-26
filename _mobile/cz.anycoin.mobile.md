@@ -25,7 +25,6 @@ android:
   version: 1.32.30
   reviews: 1
   icon: cz.anycoin.mobile.png
-  website: https://www.anycoin.cz
   developerName: MP Developers s.r.o.
 iphone:
   appId: cz.anycoin.mobile

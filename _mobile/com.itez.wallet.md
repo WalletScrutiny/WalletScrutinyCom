@@ -12,7 +12,6 @@ android:
   updated: 2024-11-19
   version: 1.1.6
   icon: com.itez.wallet.png
-  website: https://itez.com
   developerName: itez
 
 ---

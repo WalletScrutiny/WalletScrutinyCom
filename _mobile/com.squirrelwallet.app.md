@@ -6,6 +6,7 @@ meta: ok
 date: 2025-09-24
 authors:
 - danny
+website: https://squirrel-wallet.gitbook.io
 twitter: squirrel_wallet
 social:
 - https://t.me/SquirrelTech
@@ -19,7 +20,6 @@ android:
   updated: 2026-02-09
   version: 1.0.6
   icon: com.squirrelwallet.app.png
-  website: https://squirrel-wallet.gitbook.io
   developerName: Squirrel Wallet
 iphone:
   appId: com.squirrelwallet.onekey
@@ -30,7 +30,6 @@ iphone:
   version: 1.0.6
   reviews: 2
   icon: com.squirrelwallet.onekey.jpg
-  website: https://www.squirrelwallet.com/
   developerName: Squirrel Wallet Inc
 
 ---

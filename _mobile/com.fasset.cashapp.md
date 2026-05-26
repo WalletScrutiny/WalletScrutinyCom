@@ -6,6 +6,7 @@ meta: ok
 date: 2023-07-01
 authors:
 - danny
+website: https://www.fasset.io/
 twitter: fasset_official
 social:
 - https://www.linkedin.com/company/fassethq
@@ -23,7 +24,6 @@ android:
   version: '6.8'
   reviews: 16
   icon: com.fasset.cashapp.png
-  website: https://www.fasset.io/
   developerName: Fasset Labuan Limited
 iphone:
   appId: com.fasset.cashapp
@@ -34,7 +34,6 @@ iphone:
   version: '4.10'
   reviews: 37
   icon: com.fasset.cashapp.jpg
-  website: https://fasset.io/
   developerName: Fasset Ltd.
 
 ---

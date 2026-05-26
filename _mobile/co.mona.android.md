@@ -30,7 +30,6 @@ android:
   version: 3.233.10
   reviews: 56529
   icon: co.mona.android.jpg
-  website: https://crypto.com/
   developerName: Crypto Technology Holdings Limited
 iphone:
   appId: co.mona.Monaco
@@ -40,7 +39,6 @@ iphone:
   version: 3.233.10
   reviews: 329163
   icon: co.mona.Monaco.jpg
-  website: https://crypto.com/
   developerName: Crypto.com
 
 ---

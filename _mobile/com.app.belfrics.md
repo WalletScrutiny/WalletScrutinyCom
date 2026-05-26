@@ -6,6 +6,7 @@ meta: removed
 date: 2023-08-04
 authors:
 - danny
+website: http://www.belfrics.io
 twitter: Belfrics
 social:
 - https://www.facebook.com/Belfrics
@@ -21,7 +22,6 @@ android:
   version: 2.1.15
   reviews: 8
   icon: com.app.belfrics.png
-  website: http://www.belfrics.io
   developerName: Belfrics Holding Ltd
 iphone:
   appId: com.belfrics.app
@@ -31,7 +31,6 @@ iphone:
   version: 2.5.21
   reviews: 25
   icon: com.belfrics.app.jpg
-  website: https://www.belfrics.io/
   developerName: Belfrics Group
 
 ---

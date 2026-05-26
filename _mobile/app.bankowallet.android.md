@@ -6,6 +6,7 @@ meta: removed
 date: 2023-05-10
 authors:
 - danny
+website: http://www.bankowallet.com
 social:
 - mailto:support@bankowallet.com
 - mailto:bankosup@gmail.com
@@ -21,7 +22,6 @@ android:
   updated: 2020-06-29
   version: 1.3.17851
   icon: app.bankowallet.android.png
-  website: http://www.bankowallet.com
   developerName: BITROCK
   twitter: BankoWallet1
 iphone:

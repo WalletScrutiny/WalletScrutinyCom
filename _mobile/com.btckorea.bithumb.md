@@ -6,6 +6,7 @@ meta: ok
 date: 2021-02-19
 authors:
 - leo
+website: http://www.bithumb.com/
 twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
@@ -20,7 +21,6 @@ android:
   version: 3.8.2
   reviews: 73
   icon: com.btckorea.bithumb.png
-  website: http://www.bithumb.com/
   developerName: Bithumb
 iphone:
   appId: com.btckorea.bithumb
@@ -31,7 +31,6 @@ iphone:
   version: 3.1.7
   reviews: 4950
   icon: com.btckorea.bithumb.jpg
-  website: https://www.bithumb.com
   developerName: Bithumb Co., Ltd.
 
 ---

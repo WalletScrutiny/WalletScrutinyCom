@@ -6,6 +6,7 @@ meta: stale
 date: 2025-10-10
 authors:
 - danny
+website: https://gekkoin.com/index.html
 social:
 - https://www.facebook.com/gekkoin.official
 appCountry: mt
@@ -20,7 +21,6 @@ android:
   version: 1.1.1
   reviews: 75
   icon: com.papaya.gekkard.png
-  website: https://gekkoin.com/index.html
   developerName: PAPAYA LTD
 iphone:
   appId: com.papaya.gekkard

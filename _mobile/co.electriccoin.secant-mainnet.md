@@ -15,7 +15,6 @@ iphone:
   version: 3.4.1
   reviews: 106
   icon: co.electriccoin.secant-mainnet.jpg
-  website: http://zodl.com
   developerName: The Zerocoin Electric Coin Company
 
 ---

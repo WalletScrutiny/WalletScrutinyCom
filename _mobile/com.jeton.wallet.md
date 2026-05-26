@@ -6,6 +6,7 @@ meta: stale
 date: 2025-02-13
 authors:
 - danny
+website: https://jeton.com/
 twitter: jetonwallet
 appCountry: us
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 20
   icon: com.jeton.wallet.png
   meta: stale
-  website: https://jeton.com/
   developerName: Jeton Wallet
 iphone:
   appId: jetonwallet.JetonWallet
@@ -31,7 +31,6 @@ iphone:
   reviews: 44
   icon: jetonwallet.JetonWallet.jpg
   meta: removed
-  website: https://jeton.com
   developerName: LA ORANGE LIMITED
 
 ---

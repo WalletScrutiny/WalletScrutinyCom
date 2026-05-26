@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-15
 authors:
 - danny
+website: https://www.yubit.com
 twitter: YUBIT_Official
 social:
 - https://www.facebook.com/YUBITEXCHANGE
@@ -22,7 +23,6 @@ android:
   version: 5.7.0
   icon: app.safex.vip.png
   meta: removed
-  website: https://www.yubit.com
   developerName: SAFETRADING LTD
 iphone:
   appId: co.safex.org

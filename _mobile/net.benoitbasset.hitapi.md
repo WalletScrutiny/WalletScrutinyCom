@@ -14,7 +14,6 @@ android:
   version: 1.3.0
   reviews: 6
   icon: net.benoitbasset.hitapi.png
-  website: http://hitapi.oblade.net
   developerName: Oblade
 
 ---

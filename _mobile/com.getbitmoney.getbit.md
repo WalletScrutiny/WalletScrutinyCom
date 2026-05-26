@@ -13,7 +13,6 @@ android:
   updated: 2026-05-25
   version: 2.00.53
   icon: com.getbitmoney.getbit.png
-  website: https://www.getbit.money
   developerName: GetBit
 
 ---

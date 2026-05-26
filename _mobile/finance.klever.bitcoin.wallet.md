@@ -31,7 +31,6 @@ android:
   version: 5.48.6
   reviews: 203
   icon: finance.klever.bitcoin.wallet.png
-  website: https://klever.io
   developerName: 'Klever Wallet: BTC, ETH, TRX, KLV, SOL, and More'
 iphone:
   appId: finance.klever.bitcoin.wallet

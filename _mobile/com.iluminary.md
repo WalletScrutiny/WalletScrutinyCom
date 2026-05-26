@@ -16,7 +16,6 @@ android:
   updated: 2026-03-06
   version: 2.1.0
   icon: com.iluminary.png
-  website: https://iluminary.ai
   developerName: GESP IT SOLUTIONS
 
 ---

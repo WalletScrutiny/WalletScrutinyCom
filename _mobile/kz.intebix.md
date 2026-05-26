@@ -6,6 +6,7 @@ meta: ok
 date: 2026-05-02
 authors:
 - danny
+website: https://www.intebix.kz
 twitter: Intebix
 redirect_from:
 - /android/kz.intebix/
@@ -17,7 +18,6 @@ android:
   updated: 2026-04-26
   version: 2.2.0
   icon: kz.intebix.png
-  website: https://www.intebix.kz
   developerName: INTEBIX LTD
 iphone:
   appId: com.idea-soft.intebix

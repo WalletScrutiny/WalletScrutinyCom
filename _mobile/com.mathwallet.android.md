@@ -6,6 +6,7 @@ meta: ok
 date: 2024-01-05
 authors:
 - danny
+website: https://www.mathwallet.org/
 twitter: Mathwallet
 social:
 - https://discord.com/invite/gXSfnk5eP5
@@ -25,7 +26,6 @@ android:
   version: 5.7.8
   reviews: 62
   icon: com.mathwallet.android.png
-  website: https://www.mathwallet.org/
   developerName: Math Global
 iphone:
   appId: com.mathglobal.mathwallet5
@@ -36,7 +36,6 @@ iphone:
   version: 5.5.3
   reviews: 46
   icon: com.mathglobal.mathwallet5.jpg
-  website: https://www.mathwallet.org
   developerName: MATH GLOBAL FOUNDATION LTD.
 
 ---

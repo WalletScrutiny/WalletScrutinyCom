@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-26
 authors:
 - danny
+website: https://www.pockie.io/
 twitter: Pockie_io
 features:
 - fingerprint
@@ -23,7 +24,6 @@ android:
   version: 1.4.10
   reviews: 57
   icon: com.pilab.pockie.png
-  website: https://www.pockie.io/
   developerName: PiLab Technology
 iphone:
   appId: com.pilab.pockie
@@ -34,7 +34,6 @@ iphone:
   version: 1.4.10
   reviews: 10
   icon: com.pilab.pockie.jpg
-  website: http://pockie.io
   developerName: PiLab Co.,Ltd
 
 ---

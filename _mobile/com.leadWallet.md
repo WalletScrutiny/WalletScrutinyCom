@@ -6,6 +6,7 @@ meta: removed
 date: 2023-01-02
 authors:
 - danny
+website: https://leadwallet.io
 twitter: leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet
@@ -22,7 +23,6 @@ android:
   version: 1.0.39
   reviews: 54
   icon: com.leadWallet.png
-  website: https://leadwallet.io
 iphone:
   appId: com.leadWallet
   idd: 1578704913
@@ -31,7 +31,6 @@ iphone:
   version: 1.0.32
   reviews: 19
   icon: com.leadWallet.jpg
-  website: https://leadwallet.io/
   repository: https://github.com/leadwallet/leadwallet-core#deadLink
 
 ---

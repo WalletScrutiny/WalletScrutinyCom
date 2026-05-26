@@ -24,7 +24,6 @@ android:
   version: 1.0.168
   reviews: 10
   icon: com.digitra.digitraHB.png
-  website: https://www.digitra.com
   developerName: Digitra.com
 iphone:
   appId: com.digitra.digitraHB

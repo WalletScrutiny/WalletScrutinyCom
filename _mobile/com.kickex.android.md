@@ -6,6 +6,7 @@ meta: removed
 date: 2024-11-29
 authors:
 - danny
+website: https://kickex.com/en
 twitter: kickexcom
 social:
 - https://www.facebook.com/kickex.official
@@ -22,7 +23,6 @@ android:
   updated: 2024-12-26
   version: 1.24.0
   icon: com.kickex.android.png
-  website: https://kickex.com/en
   developerName: LLC KICK ECOSYSTEM GLOBAL
 iphone:
   appId: com.kickex

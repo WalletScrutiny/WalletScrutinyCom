@@ -18,7 +18,6 @@ android:
   updated: 2026-01-15
   version: 1.1.5
   icon: pro.ghostpoket.app.png
-  website: https://test.ghostpoket.pro
   developerName: GhostWallet Global
 
 ---

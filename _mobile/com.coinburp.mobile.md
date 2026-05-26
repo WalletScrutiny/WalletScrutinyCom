@@ -6,6 +6,7 @@ meta: removed
 date: 2022-04-07
 authors:
 - kiwilamb
+website: https://www.coinburp.com
 twitter: coinburp
 social:
 - https://www.linkedin.com/company/coinburp
@@ -20,7 +21,6 @@ android:
   updated: 2022-01-05
   version: 1.0.15
   icon: com.coinburp.mobile.png
-  website: https://www.coinburp.com
 iphone:
   appId: com.coinburp.mobile
   idd: 1486342307
@@ -29,7 +29,6 @@ iphone:
   version: 1.0.16
   reviews: 5
   icon: com.coinburp.mobile.jpg
-  website: https://www.coinburp.com/
 
 ---
 

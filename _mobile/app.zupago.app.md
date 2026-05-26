@@ -30,7 +30,6 @@ iphone:
   reviews: 52
   icon: app.zupago.zp.jpg
   meta: stale
-  website: https://vizo.app
   developerName: VIZO TECHNOLOGY LIMITED
 
 ---

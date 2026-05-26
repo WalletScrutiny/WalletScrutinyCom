@@ -20,7 +20,6 @@ android:
   version: 4.2.2
   reviews: 3555
   icon: com.bitwala.app.png
-  website: https://www.bitwala.com
   developerName: Bitwala
 iphone:
   appId: com.bitwala.app

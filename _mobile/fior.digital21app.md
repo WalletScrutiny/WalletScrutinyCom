@@ -6,6 +6,7 @@ meta: ok
 date: 2023-09-06
 authors:
 - danny
+website: https://21bitcoin.app/
 twitter: 21bitcoinApp
 social:
 - https://www.facebook.com/21bitcoinapp
@@ -20,7 +21,6 @@ android:
   updated: 2026-05-19
   version: 2.1.1
   icon: fior.digital21app.png
-  website: https://21bitcoin.app/
   developerName: FIOR Digital GmbH
 iphone:
   appId: digital.fior.21app
@@ -31,7 +31,6 @@ iphone:
   version: 2.2.1
   reviews: 1
   icon: digital.fior.21app.jpg
-  website: https://21bitcoin.app/en/home
   developerName: FIOR Digital GmbH
 
 ---

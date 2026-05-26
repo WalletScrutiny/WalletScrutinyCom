@@ -16,7 +16,6 @@ android:
   version: 1.49.3
   reviews: 7
   icon: com.exchanger101.app.png
-  website: https://exchanger101.com
   developerName: exchanger company
 
 ---

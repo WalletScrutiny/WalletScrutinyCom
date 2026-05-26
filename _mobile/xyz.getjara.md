@@ -14,7 +14,6 @@ android:
   version: 1.0.15
   reviews: 16
   icon: xyz.getjara.jpg
-  website: https://getjara.xyz
   developerName: Jara Team
 
 ---

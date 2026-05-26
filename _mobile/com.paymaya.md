@@ -23,7 +23,6 @@ android:
   version: 2.161.1
   reviews: 1212
   icon: com.paymaya.png
-  website: https://www.maya.ph/
   developerName: Maya Philippines, Inc.
 
 ---

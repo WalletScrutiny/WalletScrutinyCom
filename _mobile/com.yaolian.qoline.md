@@ -22,7 +22,6 @@ android:
   version: 1.9.26
   icon: com.yaolian.qoline.png
   meta: obsolete
-  website: https://www.salletone.com
   developerName: V-byte
 iphone:
   appId: com.sallet.walletBit

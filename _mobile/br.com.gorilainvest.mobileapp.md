@@ -6,6 +6,7 @@ meta: ok
 date: 2022-06-24
 authors:
 - danny
+website: https://gorila.com.br
 twitter: gorilainvest
 social:
 - https://www.facebook.com/GorilaInvest
@@ -23,7 +24,6 @@ android:
   version: 8.7.1
   reviews: 25
   icon: br.com.gorilainvest.mobileapp.jpg
-  website: https://gorila.com.br
   developerName: Gorila - gestão de carteira de investimentos
 iphone:
   appId: br.com.gorilainvest.mobileapp
@@ -34,7 +34,6 @@ iphone:
   version: 8.7.1
   reviews: 234
   icon: br.com.gorilainvest.mobileapp.jpg
-  website: https://gorila.com.br/
   developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA
 
 ---

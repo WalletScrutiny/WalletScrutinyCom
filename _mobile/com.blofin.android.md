@@ -19,7 +19,6 @@ android:
   version: 3.30.0
   reviews: 117
   icon: com.blofin.android.png
-  website: https://blofin.com
   developerName: Blofin Inc.
 iphone:
   appId: com.blofin.app

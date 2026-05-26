@@ -6,6 +6,7 @@ meta: ok
 date: 2021-10-01
 authors:
 - danny
+website: https://www.tryanchor.com
 twitter: anchorusd
 appCountry: us
 redirect_from:
@@ -20,7 +21,6 @@ android:
   reviews: 849
   icon: app.anchors.anchorusd.png
   meta: removed
-  website: https://www.tryanchor.com
   developerName: Anchor US LLC
 iphone:
   appId: app.anchors.anchorusd
@@ -31,7 +31,6 @@ iphone:
   reviews: 5317
   icon: app.anchors.anchorusd.jpg
   meta: ok
-  website: https://www.tryanchor.com/
   developerName: Anchor US LLC
 
 ---

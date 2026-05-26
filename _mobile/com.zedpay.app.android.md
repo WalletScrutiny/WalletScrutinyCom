@@ -6,6 +6,7 @@ meta: ok
 date: 2023-08-16
 authors:
 - danny
+website: https://zed-pay.com
 twitter: ZedPayCo
 social:
 - https://www.linkedin.com/company/zedpaycompany
@@ -25,7 +26,6 @@ android:
   updated: 2026-05-14
   version: 2.0.0
   icon: com.zedpay.app.android.png
-  website: https://zed-pay.com
   developerName: ZedPay Company
 iphone:
   appId: com.zed-pay.app.ios

@@ -21,7 +21,6 @@ android:
   version: 12.0.6.63
   reviews: 41491
   icon: org.dayup.stocks.png
-  website: https://www.webull.com
   developerName: Webull Technologies Pte. Ltd.
 iphone:
   appId: com.webull.trade

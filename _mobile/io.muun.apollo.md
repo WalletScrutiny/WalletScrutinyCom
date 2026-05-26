@@ -8,6 +8,7 @@ authors:
 - leo
 - mohammad
 - keraliss
+website: https://muun.com
 features:
 - ln
 - multiSig
@@ -31,7 +32,6 @@ android:
   builds:
   - arch: arm64-v8a
   - arch: armeabi-v7a
-  website: https://muun.com
   developerName: muun
   repository: https://github.com/muun/apollo
   twitter: MuunWallet
@@ -43,7 +43,6 @@ iphone:
   version: 2.14.0
   reviews: 327
   icon: com.muun.falcon.jpg
-  website: https://www.muun.com
   developerName: Muun Wallet, Inc
   repository: https://github.com/muun/falcon
   twitter: muunwallet

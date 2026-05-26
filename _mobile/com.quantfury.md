@@ -6,6 +6,7 @@ meta: ok
 date: 2021-11-01
 authors:
 - danny
+website: https://www.quantfury.com/
 twitter: quantfury
 redirect_from:
 - /android/com.quantfury/
@@ -19,7 +20,6 @@ android:
   version: v1.94.1.25713
   reviews: 23
   icon: com.quantfury.png
-  website: https://www.quantfury.com/
   developerName: Quantfury Trading Limited
 iphone:
   appId: com.quantfury
@@ -30,7 +30,6 @@ iphone:
   version: 1.94.2
   reviews: 76
   icon: com.quantfury.jpg
-  website: https://quantfury.com/
   developerName: Quantfury Ltd
 
 ---

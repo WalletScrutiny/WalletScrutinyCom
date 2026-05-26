@@ -5,6 +5,7 @@ verdict: nosource
 date: 2023-07-09
 authors:
 - danny
+website: https://wowearn.com/
 twitter: WOWEARNENG
 social:
 - https://t.me/wowearnen
@@ -22,7 +23,6 @@ android:
   reviews: 131
   icon: com.hxg.wallet.png
   meta: removed
-  website: https://wowearn.com/
   developerName: WOW EARN Wallet
 iphone:
   appId: com.ULLA.wallet.WalletForiOS

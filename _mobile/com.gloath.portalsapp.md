@@ -17,7 +17,6 @@ android:
   version: 0.0.4a
   reviews: 24
   icon: com.gloath.portalsapp.png
-  website: https://portals.nz
   developerName: Gloath
 
 ---

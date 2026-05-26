@@ -6,6 +6,7 @@ meta: ok
 date: 2026-01-16
 authors:
 - danny
+website: https://bitsave.club/
 twitter: BitSaveClub
 social:
 - https://www.linkedin.com/company/bitsaveclub
@@ -21,7 +22,6 @@ android:
   updated: 2026-05-21
   version: 1.29.1
   icon: com.casperwealth.bitsave.jpg
-  website: https://bitsave.club/
   developerName: Casper Wealth
 iphone:
   appId: com.casperwealth.bitsaveios
@@ -32,7 +32,6 @@ iphone:
   version: 1.28.0
   reviews: 0
   icon: com.casperwealth.bitsaveios.jpg
-  website: https://www.bitsave.club/
   developerName: Casper Wealth Holdings Limited
 
 ---

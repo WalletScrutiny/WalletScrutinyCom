@@ -6,6 +6,7 @@ meta: ok
 date: 2025-11-12
 authors:
 - danny
+website: https://coldwallet.com/
 twitter: coldwalletapp
 redirect_from:
 - /android/com.PlusWallet/
@@ -18,7 +19,6 @@ android:
   version: 5.7.9
   reviews: 72
   icon: com.PlusWallet.png
-  website: https://coldwallet.com/
   developerName: Seekjazz Ventures Limited
 iphone:
   appId: com.PlusWallet

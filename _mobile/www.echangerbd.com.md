@@ -15,7 +15,6 @@ android:
   updated: 2020-04-23
   version: '2.0'
   icon: www.echangerbd.com.png
-  website: http://www.echangerbd.com/
   developerName: exchangernet.com
 
 ---

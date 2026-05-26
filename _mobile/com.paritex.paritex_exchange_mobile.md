@@ -6,6 +6,7 @@ meta: removed
 date: 2023-04-16
 authors:
 - danny
+website: https://paritex.com/
 twitter: paritexexchange
 appCountry: tr
 redirect_from:
@@ -19,7 +20,6 @@ android:
   version: 3.1.17
   reviews: 106
   icon: com.paritex.paritex_exchange_mobile.png
-  website: https://paritex.com/
   developerName: Paritex
 iphone:
   appId: com.paritex.paritexapp
@@ -29,7 +29,6 @@ iphone:
   version: 3.1.17
   reviews: 83
   icon: com.paritex.paritexapp.jpg
-  website: https://www.paritex.com/
   developerName: Paritex Bilişim Teknolojileri Anonim Şirketi
 
 ---
