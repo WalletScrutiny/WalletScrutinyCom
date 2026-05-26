@@ -1,0 +1,19 @@
+---
+title: Coinzium
+verdict: wip
+meta: removed
+date: 2024-02-05
+developerName: Immutech Company
+redirect_from:
+- /android/com.coinzium.app/
+android:
+  appId: com.coinzium.app
+  users: 1
+  released: 2021-11-19
+  updated: 2021-11-19
+  version: '1.0'
+  icon: com.coinzium.app.png
+
+---
+
+

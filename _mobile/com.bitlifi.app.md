@@ -1,0 +1,57 @@
+---
+wsId: bitlifiApp
+title: Bitlifi
+verdict: custodial
+meta: ok
+authors:
+- danny
+website: https://www.bitlifi.com
+twitter: bitlifi
+social:
+- https://www.facebook.com/bitlifi
+features:
+- ln
+developerName: MP Developers s.r.o.
+redirect_from:
+- /android/com.bitlifi.app/
+- /iphone/com.bitlifi.app/
+android:
+  appId: com.bitlifi.app
+  users: 5000
+  released: 2023-05-04
+  updated: 2025-12-22
+  version: 1.11.5
+  icon: com.bitlifi.app.png
+  date: 2023-11-01
+iphone:
+  appId: com.bitlifi.app
+  idd: '6448746690'
+  appCountry: jp
+  released: 2023-05-16
+  updated: 2025-12-23
+  version: 1.11.5
+  reviews: 0
+  icon: com.bitlifi.app.jpg
+  date: 2024-10-07
+
+---
+
+## Android
+
+## App Description from Google Play
+
+> - Innovative Lightning Network wallet with intuitive controls for easy Bitcoin management
+> - You can send Bitcoin to phone number directly from the app or from another Lightning Network wallet to an LN address in the format phonenumber@bitlifi.com
+> - Recipients do not need to be registered - they will be notified of the incoming payment via SMS notification
+
+## Analysis
+
+In section 3.a.1 of the [terms](https://www.bitlifi.com/en/terms/), it is mentioned that the provider holds BTC on account of the user, this makes it a **custodial** platform.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Innovative Lightning Network wallet with intuitive controls for easy Bitcoin management" source="Store" %}

@@ -1,0 +1,29 @@
+---
+title: 'Pi42: Crypto Futures & Options'
+verdict: nosendreceive
+meta: ok
+date: 2025-11-26
+authors:
+- danny
+website: https://pi42.exchange/
+developerName: Lightningnodes Technologies Pvt Ltd
+redirect_from:
+- /android/com.pi42.app/
+android:
+  appId: com.pi42.app
+  users: 100000
+  updated: 2026-05-14
+  version: 2.2.01
+  icon: com.pi42.app.png
+
+---
+
+## App Description
+
+Pi42 is a cryptocurrency derivatives trading platform based in India, specializing in INR-margined perpetual futures contracts. The platform offers leverage up to 20x on cryptocurrency futures trading, allowing users to trade directly in Indian Rupees without converting to USDT. 
+
+The platform requires KYC verification and operates with a referral program offering up to 20% commission rewards. According to their disclaimer, crypto products are unregulated in India and carry high risk with no regulatory recourse for losses.
+
+## Analysis
+
+Pi42 is a derivatives trading platform where users can only deposit and withdraw Indian Rupees (INR) or USDT, which gets converted to INR ([source](https://pi42.com/fee-structure)). Users trade perpetual futures contracts based on Bitcoin's price movements, but **cannot send or receive actual Bitcoin** to external addresses ([source](https://support.pi42.exchange/support/solutions/articles/1070000039513-how-to-withdraw-funds-from-pi42-wallet)). This is a speculative trading platform, not a Bitcoin wallet.

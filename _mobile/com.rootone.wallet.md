@@ -1,0 +1,61 @@
+---
+wsId: bitberry
+title: Bitberry - Safe crypto Wallet
+verdict: custodial
+meta: removed
+authors:
+- danny
+appCountry: us
+redirect_from:
+- /android/com.rootone.wallet/
+- /iphone/com.rootone.bitberry/
+android:
+  appId: com.rootone.wallet
+  users: 100000
+  released: 2018-10-08
+  updated: 2024-01-19
+  version: 1.5.3
+  reviews: 9
+  icon: com.rootone.wallet.png
+  date: 2025-05-30
+  website: https://rootone.com#deadLink
+  developerName: (주)루트원소프트
+iphone:
+  appId: com.rootone.bitberry
+  idd: 1411817291
+  released: 2018-10-09
+  updated: 2023-02-01
+  version: 1.4.2
+  reviews: 7
+  icon: com.rootone.bitberry.jpg
+  date: 2025-02-26
+  website: http://bitberry.app
+  developerName: RootOne
+
+---
+
+## Android
+
+From its Google Play description, we have hints of its custodial nature:
+
+>  No need to keep private keys, or complicated mnemonic to yourself.
+
+Private keys are under the custody of a third-party. 
+
+We searched the website, but there's nothing about self-custody or private keys. We cannot read the User Agreement as it is only available during install and cannot be copy/pasted then translated. It is written in Korean. 
+
+Once you join up and sign in. The app allows you to create several different cryptocurrency wallets. The interface is pretty simple and its sign in integrates with Kakaotalk, a messaging and call app popular in South Korea. 
+
+Once you have created your BTC wallet, you can then send BTC to your phone contacts. 
+
+This was more specifically detailed in a [blog post on medium.](https://medium.com/@dsionchain/bitberrys-signing-of-mou-with-root-one-a-subsidiary-of-dunamu-64a0c51d52df)
+
+> BitBerry is a cryptic wallet developed by Root One Soft, a subsidiary of Dunamu that operates the largest cryptographic exchange in Korea, and Dsion has entered into business agreements with BitBerry. Root One is a wallet made by a subsidiary of Dunamo invested by Kakao. It is excellent in convenience. It is easy to use face ID and fingerprint instead of complicated use of public key and private key of existing password wallet. In less than a minute, you can quickly transfer money between your wallets without any fees.
+
+This app is custodial and therefore **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

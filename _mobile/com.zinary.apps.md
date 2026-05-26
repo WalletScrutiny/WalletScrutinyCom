@@ -1,0 +1,20 @@
+---
+title: Zinary
+verdict: wip
+meta: removed
+date: 2025-05-14
+website: https://zinary.com
+developerName: Zinary Analytica Limited
+redirect_from:
+- /android/com.zinary.apps/
+android:
+  appId: com.zinary.apps
+  users: 500
+  released: 2024-03-11
+  updated: 2024-03-11
+  version: 0.28.7
+  icon: com.zinary.apps.png
+
+---
+
+

@@ -1,0 +1,50 @@
+---
+wsId: bithumbko
+title: Bithumb
+verdict: custodial
+meta: ok
+authors:
+- leo
+twitter: BithumbOfficial
+social:
+- https://www.facebook.com/bithumb
+redirect_from:
+- /android/com.btckorea.bithumb/
+- /iphone/com.btckorea.bithumb/
+android:
+  appId: com.btckorea.bithumb
+  users: 5000000
+  released: 2017-09-26
+  updated: 2026-05-12
+  version: 3.8.2
+  reviews: 73
+  icon: com.btckorea.bithumb.png
+  date: 2021-02-19
+  website: http://www.bithumb.com/
+  developerName: Bithumb
+iphone:
+  appId: com.btckorea.bithumb
+  idd: 1299421592
+  appCountry: kr
+  released: 2017-12-05
+  updated: 2026-05-14
+  version: 3.1.7
+  reviews: 4950
+  icon: com.btckorea.bithumb.jpg
+  date: 2024-10-07
+  website: https://www.bithumb.com
+  developerName: Bithumb Co., Ltd.
+
+---
+
+## Android
+
+This app is an interface to an exchange and to our knowledge only features
+custodial accounts and therefore is **not verifiable**.
+
+---
+
+## iPhone
+
+This app is an interface to an exchange and to our knowledge only features
+custodial accounts and therefore is **not verifiable**.

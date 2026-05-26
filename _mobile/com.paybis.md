@@ -1,0 +1,22 @@
+---
+title: 'Paybis Wallet: Buy Bitcoin'
+verdict: wip
+meta: ok
+date: 2026-01-14
+website: https://paybis.com/
+developerName: Paybis LTD
+appCountry: us
+redirect_from:
+- /iphone/com.paybis/
+iphone:
+  appId: com.paybis
+  idd: '1584641245'
+  released: 2021-09-20
+  updated: 2026-05-13
+  version: 1.7.29
+  reviews: 2865
+  icon: com.paybis.jpg
+
+---
+
+

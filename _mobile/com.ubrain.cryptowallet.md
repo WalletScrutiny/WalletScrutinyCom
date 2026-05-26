@@ -1,0 +1,19 @@
+---
+title: Crypto Wallet
+verdict: wip
+meta: obsolete
+date: 2025-04-09
+developerName: Mitul Bhadeshiya
+redirect_from:
+- /android/com.ubrain.cryptowallet/
+android:
+  appId: com.ubrain.cryptowallet
+  users: 100
+  released: 2022-04-22
+  updated: 2023-04-18
+  version: '1.1'
+  icon: com.ubrain.cryptowallet.png
+
+---
+
+

@@ -1,0 +1,20 @@
+---
+title: MasterBitExpress BTC Wallet
+verdict: wip
+meta: fewusers
+date: 2024-08-19
+website: https://www.masterbitexpress.com
+developerName: FollowMe Developments
+redirect_from:
+- /android/com.masterbitexpress.wallet/
+android:
+  appId: com.masterbitexpress.wallet
+  users: 500
+  released: 2018-04-21
+  updated: 2025-10-31
+  version: 1.1.1.93
+  icon: com.masterbitexpress.wallet.png
+
+---
+
+

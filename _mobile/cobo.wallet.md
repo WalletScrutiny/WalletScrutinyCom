@@ -1,0 +1,89 @@
+---
+wsId: cobowallet
+title: Cobo Wallet
+verdict: nosource
+authors:
+- leo
+website: https://cobo.com
+twitter: Cobo_Wallet
+social:
+- https://www.linkedin.com/company/coboofficial
+- https://www.facebook.com/coboOfficial
+features:
+- hd
+- multiSig
+redirect_from:
+- /cobo/
+- /cobo.wallet/
+- /posts/2019/11/cobo/
+- /posts/cobo.wallet/
+- /android/cobo.wallet/
+- /iphone/cobo.wallet/
+android:
+  appId: cobo.wallet
+  users: 100000
+  released: 2018-07-01
+  updated: 2025-09-04
+  version: 5.19.17
+  reviews: 65
+  icon: cobo.wallet.png
+  meta: removed
+  date: 2026-04-13
+  developerName: Cobo Global Ltd - Crypto Wallet for BTC, ETH
+iphone:
+  appId: cobo.wallet
+  idd: '1406282615'
+  released: 2018-08-05
+  updated: 2025-09-05
+  version: 5.19.17
+  reviews: 6
+  icon: cobo.wallet.jpg
+  meta: ok
+  date: 2021-10-01
+  developerName: Cobo Global Limited
+
+---
+
+## Android
+
+**Update 2022-05-15**: This app is not available anymore.
+
+**Update:** This wallet was one of the first wallets that was analyzed and back
+then the custodial wallet was detrimental to call the full wallet custodial.
+As it apparently also has a non-custodial part, this verdict is not accurate
+anymore.
+
+This app is at least primarily a custodial wallet:
+
+> **Cloud Wallet**
+> 
+> Designed for user convenience and worry-free investing
+> 
+> Generate stable returns on your crypto assets
+> 
+> Free, instant transfers between Cobo Wallet users
+
+but also has a non-custodial
+
+> **HD Wallet**
+> 
+> Take full control of your assets and private keys for maximum safety
+> 
+> Easily import your mnemonic seeds from other wallets you may own
+> 
+> Support for DApps
+> 
+> EOS & Tron voting
+
+As there is no source code available, claims cannot be checked, which is why the
+verdict has to be: this wallet is **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallet Take full control of your digital assets and private keys for maximum safety Easily import your mnemonic seeds from other wallets you may own" source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="USDT multi-signature" source="Store description" %}

@@ -1,0 +1,19 @@
+---
+title: Walletrust
+verdict: wip
+meta: removed
+date: 2024-07-05
+developerName: Febitak
+redirect_from:
+- /android/com.waletrust.wallet/
+android:
+  appId: com.waletrust.wallet
+  users: 10
+  released: 2021-07-24
+  updated: 2021-07-24
+  version: 0.21.3
+  icon: com.waletrust.wallet.png
+
+---
+
+

@@ -1,0 +1,37 @@
+---
+title: CryptoPia
+verdict: nosource
+meta: removed
+date: 2023-08-04
+authors:
+- danny
+website: http://smilestory.io
+developerName: Smilestory Co., Ltd.
+redirect_from:
+- /android/cryptopia.mobile/
+android:
+  appId: cryptopia.mobile
+  users: 5000
+  released: 2019-09-05
+  updated: 2019-09-08
+  version: 1.0.2
+  reviews: 3
+  icon: cryptopia.mobile.png
+
+---
+
+Note: There are other cryptocurrency related companies with the same name of "Cryptopia". This particular app's provider is "SmileStory". 
+
+Two domains are associated with this project, smilestory.io and cryptopia.shop - which redirects to rollercoin.
+
+## App Description from Google Play 
+
+> buy and sell bitcoin in 36 countries
+
+> Only you have access to your private keys and your crypto.
+
+## Analysis 
+
+- We installed the app but failed to register. [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1653690303675785216). 
+- The last time this app was updated was in 2019. 
+- We will email the provider to ask about the status of the project, if the claims in its description are correct, then the app should be self-custodial. However, it **doesn't make any claims about whether the app provides its source code publicly.**

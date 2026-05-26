@@ -1,0 +1,71 @@
+---
+wsId: UmiFi
+title: UmiFi-Bitcoin, Crypto Trading
+verdict: custodial
+meta: removed
+authors:
+- danny
+twitter: officialumifi
+appCountry: us
+redirect_from:
+- /android/com.umifi.app/
+- /iphone/com.umifi.app/
+android:
+  appId: com.umifi.app
+  users: 10000
+  released: 2021-08-18
+  updated: 2021-12-23
+  version: 1.0.6
+  reviews: 4
+  icon: com.umifi.app.png
+  date: 2022-02-25
+  website: http://www.umifi.com
+iphone:
+  appId: com.umifi.app
+  idd: 1580892400
+  released: 2021-09-02
+  updated: 2021-12-24
+  version: 1.0.6
+  reviews: 1
+  icon: com.umifi.app.jpg
+  date: 2022-10-21
+  website: https://www.umifi.com/en-ww/
+
+---
+
+## Android
+
+**Update 2022-02-11**: This app is not on the Store anymore.
+
+## App Description
+
+The Google Play description was hard to read. At its most basic:
+> Support hundreds of trading currencies to run trading strategies at the same time, each currency has independent threads, automatically monitors the depth of quotation, strategy calculation, real-time monitoring of trading conditions, and real-time transaction execution.
+
+It's basically a cryptocurrency exchange.
+
+## The Service
+
+It is possible to [buy coins via OTC](https://umificom.zendesk.com/hc/en-us/articles/4405497267609--Introduction-to-Contracts-How-to-conduct-contract-transactions-APP-version-).
+
+UMIFI has a [Money Laundering Policy](https://umificom.zendesk.com/hc/en-us/articles/4405504009497) which states that users need to verify their identities before they are able to trade.
+
+## The App
+
+The app supports BTC deposit and withdrawals. There are options for "Spot", "Derivatives" and "Wealth".
+
+You need to transfer funds between each of them.
+
+We could not find options of backing up.
+
+## Verdict
+
+Cryptocurrency exchanges that have Anti Money Laundering policies are almost always **custodial** in nature. Apart from being able to suspend user accounts, they can also allow users to continue running their accounts while gathering evidence for authorities. This app is **not verifiable**.
+
+---
+
+## iPhone
+
+**Update 2022-10-21**: This app is not available anymore.
+
+{% include copyFromAndroid.html %}

@@ -1,0 +1,80 @@
+---
+wsId: wadzPay
+title: WadzPay
+verdict: custodial
+meta: removed
+authors:
+- danny
+twitter: wadzpay
+social:
+- https://www.linkedin.com/company/wadzpay
+- https://www.facebook.com/WadzPay
+- https://www.instagram.com/wadzpay
+- https://t.me/WadzPay_Official
+- https://www.youtube.com/channel/UCZsMD2r_6d676L8alwl5kEA
+- https://wadzpay.medium.com
+redirect_from:
+- /android/com.wadz.wadzapp/
+- /iphone/com.wadz.wadzapp/
+android:
+  appId: com.wadz.wadzapp
+  users: 1000
+  released: 2020-12-29
+  updated: 2022-06-26
+  version: 2.1.1
+  icon: com.wadz.wadzapp.png
+  date: 2024-07-05
+  website: http://www.wadzpay.com
+  developerName: 2020 WadzPay Worldwide Pte Ltd
+iphone:
+  appId: com.wadz.wadzapp
+  idd: '1488616174'
+  appCountry: in
+  released: 2020-12-28
+  updated: 2021-09-15
+  version: 2.0.1
+  reviews: 1
+  icon: com.wadz.wadzapp.jpg
+  date: 2025-02-13
+  website: https://www.wadzpay.com/
+  developerName: WadzPay Worldwide Pte Ltd
+
+---
+
+## Android
+
+## App Description from Google Play 
+
+> The WadzPay App is digital multi-currency wallet that has been designed to support Cryptocurrencies such as Bitcoin, Ethereum, Alt Coins, Stable Coins such as USDT and IDRP, and Sovereign currencies.
+
+> This version of the App allows you to send and receive digital currencies (Bitcoin and Ethereum) between friends, family and employees. Simply enter a username, or scan their QR code 
+
+## WadzPay [Whitepaper](https://wadzpay.com/demo/WadzPay-Whitepaper-2.0.pdf#deadLink)
+
+- Has its own token $WTK which saw its price fall from $0.32 USD to less than $0.01
+
+## Google Play Reviews 
+
+> [Addison Lewis](https://play.google.com/store/apps/details?id=com.wadz.wadzapp&gl=in)<br>
+  ★☆☆☆☆ October 3, 2021 <br>
+       Can't create an account, just shows a loading circle and no response. Wanted to get some wtk and hold in the wallet in this app but this makes me reconsider. I won't hold on an exchange so if this app doesn't work I won't buy...
+
+> [Frank Froggatt](https://play.google.com/store/apps/details?id=com.wadz.wadzapp&gl=in)<br>
+  ★☆☆☆☆ October 23, 2021 <br>
+       All the app does is spin it's wheels when trying to create an account. Loading forever with no server response. Absolutely worthless
+
+## Analysis 
+
+- This app is geo-restricted
+- We downloaded an APK with the same version from a third-party
+- We successfully installed but registration required KYC verification
+- We were not able to register 
+- Going by the description that the app can send/receive Bitcoin, we find no description stating that it is a self-custodial wallet. 
+- The numerous controls the app has on who gets access to the app, (geo-restriction), and the KYC controls (including biometric), also give a hint to its **custodial** nature. 
+- The whitepaper reads more like a business prospectus with general business information, and no mention of private keys or seed-phrases.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

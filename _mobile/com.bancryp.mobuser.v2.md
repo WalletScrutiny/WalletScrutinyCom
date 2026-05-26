@@ -1,0 +1,70 @@
+---
+wsId: bancrypV2
+title: Bancryp
+verdict: custodial
+meta: removed
+authors:
+- danny
+redirect_from:
+- /android/com.bancryp.mobuser.v2/
+- /iphone/com.bancryp.bancrypApp/
+android:
+  appId: com.bancryp.mobuser.v2
+  users: 10000
+  released: 2020-05-18
+  updated: 2023-04-14
+  version: 1.6.0
+  icon: com.bancryp.mobuser.v2.png
+  date: 2025-02-26
+  website: http://bancryp.com
+  developerName: Bancryp International
+iphone:
+  appId: com.bancryp.bancrypApp
+  idd: '1467221603'
+  appCountry: us
+  released: 2019-06-21
+  updated: 2023-04-14
+  version: 1.6.0
+  reviews: 2
+  icon: com.bancryp.bancrypApp.jpg
+  date: 2025-07-03
+  website: https://bancryp.com/
+  developerName: Bancryp
+
+---
+
+## Android
+
+## Updated Review 2023-05-04
+
+We were finally able to successfully register using a different email address. 
+
+- The app features a BTC wallet that can send and receive
+- However, the seed phrases were not provided. 
+- Documentation is still sparse as we believe the app is still in development. 
+
+Absent the private keys, this is highly likely to be a **custodial** provider.
+
+## Previous Review 
+
+### App Description from Google Play 
+
+> Bancryp is the 1st Brazilian cryptobank and our mission is to democratize access to buy and sell Bitcoin.
+>
+> With a free digital account, you can move Reais & Cryptocurrencies in a single application, have a card with cashback in cryptocurrencies and an innovative rewards program.
+
+## Analysis 
+
+We had some difficulty translating the functions of the app as well as in signing-in. 
+
+The old app is: 
+
+- {% include walletLink.html wallet='android/com.bancryp.dmbank.user' verdict='true' %}
+
+We'll update the information here as soon as we have the necessary information. Our support ticket number is #11852
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

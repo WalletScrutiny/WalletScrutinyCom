@@ -1,0 +1,98 @@
+---
+wsId: BitnovoWallet
+title: Bitnovo – Buy Bitcoin
+verdict: nosource
+authors:
+- danny
+website: https://www.bitnovo.com
+twitter: bitnovo
+social:
+- https://www.linkedin.com/company/Bitnovo
+- https://www.facebook.com/BitcoinBitnovo
+redirect_from:
+- /android/com.bitnovo.Wallet/
+- /iphone/com.bitnovo.Wallet/
+android:
+  appId: com.bitnovo.Wallet
+  users: 50000
+  appCountry: us
+  released: 2021-10-27
+  updated: 2026-05-07
+  version: 3.0.76
+  reviews: 12
+  icon: com.bitnovo.Wallet.png
+  meta: ok
+  date: 2024-07-17
+  developerName: BITNOVO
+iphone:
+  appId: com.bitnovo.Wallet
+  idd: 1553430666
+  appCountry: in
+  released: 2021-10-27
+  updated: 2026-01-28
+  version: 3.0.56
+  reviews: 0
+  icon: com.bitnovo.Wallet.jpg
+  meta: removed
+  date: 2026-03-11
+  developerName: Bitnovo
+
+---
+
+## Android
+
+## Update 2024-07-17:
+
+Still states it's self-custodial:
+
+> The key differentiator from any other app is that our wallet allows you to be the custodian and sole owner of your funds. As the popular saying goes: 'not your keys, not your coins.'
+
+There is a [GitHub profile](https://github.com/bitnovo). Source code remains to be found. 
+
+## Old Review 2021-11-30
+
+**Note:** There are two BitNovo apps on Google Play. Both are by the same developer: [Bitnovo](https://play.google.com/store/apps/developer?id=BITNOVO)
+
+Apparently, com.bitnovo.Wallet is the [updated version](https://twitter.com/BitcoinWalletz/status/1463081586539188225) of com.bitnovo.app which had this verdict:
+
+{% include walletLink.html wallet='android/com.bitnovo.app' verdict='true' %}
+
+## App Description
+
+The app allows users to buy, store, send, and trade cryptocurrencies. It also allows users to redeem vouchers.
+
+## Google Play Critical reviews
+
+Most of the 1-star reviews were about the redemption of the vouchers.
+
+> [roland amiebbereta](https://play.google.com/store/apps/details?id=com.bitnovo.Wallet&reviewId=gp%3AAOqpTOHRDSN9mnDBuFrmNgioxGr-pk6Q2eMO50e-AeJDBD2blAI-0D1BS5ugsxuCKsaanHOBP7Nu-lZ6mO2a4nI)<br>
+  ★☆☆☆☆ October 29, 2021 <br>
+       The app is not working I can't redeem voucher please work on your site
+       
+> [Temoso Phora](https://play.google.com/store/apps/details?id=com.bitnovo.Wallet&reviewId=gp%3AAOqpTOECAuA26TcpFrh2OWxrhvtmUI7syzAFE930Dfk-oWE5X9_vhlurqAHtyf-Cl8GFlRwuc_pzAC_85hr9FxU)<br>
+  ★☆☆☆☆ November 13, 2021 <br>
+       Useless. Cant redeem my voucher
+
+## The App
+
+The app starts out with the option allowing the user to recover a wallet. It asked for a 12-word seed phrase. 
+
+We used the seeds for the wallet we generated with:
+
+{% include walletLink.html wallet='android/org.artr.wallet' verdict='true' %}
+
+We were successful in importing the wallet. 
+
+### The Vouchers and Cards Feature
+
+Bitnovo also offers Vouchers and Cards, that require registering with the service.
+
+## Verdict
+
+This self-custodial app does not claim to be an open source project on its website. We were not able to locate a link to the source code on their webpage. Searching Github for the appID 'com.bitnovo.Wallet' also [did not yield any results](https://github.com/search?q=com.bitnovo.Wallet&type=code).
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

@@ -1,0 +1,60 @@
+---
+wsId: coin98
+title: 'Coin98: Trade Crypto & Stocks'
+verdict: nosource
+meta: ok
+authors:
+- kiwilamb
+- danny
+twitter: coin98_wallet
+social:
+- https://www.facebook.com/Coin98Wallet
+developerName: COIN98 WALLET LTD
+appCountry: us
+redirect_from:
+- /android/coin98.crypto.finance.media/
+- /iphone/coin98.crypto.finance.insights/
+android:
+  appId: coin98.crypto.finance.media
+  users: 1000000
+  released: 2019-12-19
+  updated: 2026-05-12
+  version: 16.12.0
+  reviews: 261
+  icon: coin98.crypto.finance.media.png
+  date: 2024-07-15
+  website: https://coin98.com/
+iphone:
+  appId: coin98.crypto.finance.insights
+  idd: '1561969966'
+  released: 2021-05-14
+  updated: 2026-05-11
+  version: 16.12.0
+  reviews: 654
+  icon: coin98.crypto.finance.insights.jpg
+  date: 2022-01-10
+  website: https://coin98.com
+
+---
+
+## Android
+
+The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...
+
+> Coin98 Wallet is the simplest and most secure crypto & bitcoin wallet to store, send, receive and manage your crypto assets, such as Bitcoin (BTC), Ethereum (ETH), TomoChain (TOMO), Ethereum-based ERC20 tokens. etc.
+
+so it claims to manage BTC, it also claims users are in control of their private keys, hence the wallet claim of being non-custodial
+
+> Taking full control of your assets with Biometric Authentication and Private Keys: managed by you, none of your personal data collected by the App.
+
+[Official](https://docs.coin98.com/coin98-links-and-communities/official-links) GitHub Profile: [coins98](https://github.com/coin98)
+
+No repository was listed or found for the app's source code.
+
+Our verdict: This 'wallet' claims to be non-custodial but does not provide public source and therefore is **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}
