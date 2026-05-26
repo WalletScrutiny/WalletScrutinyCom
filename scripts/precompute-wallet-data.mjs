@@ -29,7 +29,7 @@ for (const file of fs.readdirSync(verdictsDir)) {
 }
 
 // Platform folders to process
-const platforms = ['android', 'iphone', 'hardware', 'bearer', 'desktop', 'others'];
+const platforms = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 
 /**
  * Parse frontmatter from markdown file
@@ -119,21 +119,63 @@ function buildSeeAlsoIndex(allWallets) {
 function loadPlatformWallets(platform) {
   const dir = path.join(ROOT, `_${platform}`);
   if (!fs.existsSync(dir)) return [];
-  
+
   const wallets = [];
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith('.md')) continue;
-    
+
     const fileContent = fs.readFileSync(path.join(dir, file), 'utf8');
     const frontmatter = parseFrontmatter(fileContent);
     if (!frontmatter) continue;
-    
+
     wallets.push({
       ...frontmatter,
       _file: file
     });
   }
-  
+
+  return wallets;
+}
+
+/**
+ * Load unified mobile wallets from _mobile (one entry per wallet page).
+ */
+function loadMobileWallets() {
+  const dir = path.join(ROOT, '_mobile');
+  if (!fs.existsSync(dir)) return [];
+
+  const wallets = [];
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith('.md')) continue;
+
+    const fileContent = fs.readFileSync(path.join(dir, file), 'utf8');
+    const frontmatter = parseFrontmatter(fileContent);
+    if (!frontmatter) continue;
+
+    const slug = file.replace(/\.md$/, '');
+    const android = frontmatter.android || {};
+    const iphone = frontmatter.iphone || {};
+    const storePlatform = android.appId ? 'android' : (iphone.appId ? 'iphone' : 'android');
+    const storeAppId = android.appId || iphone.appId || slug;
+    const iconFolder = android.icon ? 'android' : (iphone.icon ? 'iphone' : storePlatform);
+
+    wallets.push({
+      ...frontmatter,
+      _file: file,
+      _slug: slug,
+      appId: slug,
+      storeAppId,
+      storePlatform,
+      iconFolder,
+      hasAndroid: Boolean(android.appId),
+      hasIphone: Boolean(iphone.appId),
+      icon: android.icon || iphone.icon || '',
+      altTitle: android.altTitle || iphone.altTitle || '',
+      users: Math.max(Number(android.users) || 0, Number(iphone.users) || 0),
+      reviews: Math.max(Number(android.reviews) || 0, Number(iphone.reviews) || 0)
+    });
+  }
+
   return wallets;
 }
 
@@ -152,7 +194,9 @@ const precomputed = {
 // Load all wallets
 for (const platform of platforms) {
   console.log(`  Loading ${platform}...`);
-  allWallets[platform] = loadPlatformWallets(platform);
+  allWallets[platform] = platform === 'mobile'
+    ? loadMobileWallets()
+    : loadPlatformWallets(platform);
 }
 
 // Build seeAlso index
@@ -200,7 +244,7 @@ console.log(`  SeeAlso links: ${Object.keys(precomputed.seeAlso).length} wallets
 
 // Generate wallets.json (replaces Liquid template generation)
 console.log('\nGenerating wallets.json...');
-const walletsJsonPlatforms = ['hardware', 'android', 'iphone', 'bearer', 'desktop', 'others'];
+const walletsJsonPlatforms = ['hardware', 'mobile', 'bearer', 'desktop', 'others'];
 const walletsJson = {};
 
 for (const platform of walletsJsonPlatforms) {
@@ -261,12 +305,11 @@ const allProductsJson = {
   )
 };
 
-const productPlatforms = ['iphone', 'hardware', 'bearer', 'android', 'desktop', 'others'];
+const productPlatforms = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 const platformCategories = {
-  iphone: 'App Store',
-  hardware: 'Hardware Wallet', 
+  mobile: 'Mobile',
+  hardware: 'Hardware Wallet',
   bearer: 'Bearer Token',
-  android: 'Play Store',
   desktop: 'Desktop',
   others: 'Others'
 };
@@ -284,17 +327,25 @@ for (const platform of productPlatforms) {
       icon: wallet.icon || '',
       meta: wallet.meta || '',
       verdict: wallet.verdict || '',
-      url: `/${platform}/${wallet.appId}/`,
+      url: platform === 'mobile'
+        ? `/mobile/${wallet._slug || wallet.appId}/`
+        : `/${platform}/${wallet.appId}/`,
       score: { numerator: score.count, denominator: score.total },
       features: walletFeatures,
       alertFeatures: walletFeatures.filter(f => alertFeatureKeys.has(f))
     };
-    // Add platform-specific fields
-    if (platform === 'iphone' || platform === 'android') {
+    if (platform === 'mobile') {
       app.wsId = wallet.wsId || '';
-    }
-    if (platform === 'android') {
       app.altTitle = wallet.altTitle || '';
+      app.storeAppId = wallet.storeAppId || '';
+      app.storePlatform = wallet.storePlatform || 'android';
+      app.iconFolder = wallet.iconFolder || 'android';
+      app.hasAndroid = wallet.hasAndroid || false;
+      app.hasIphone = wallet.hasIphone || false;
+      app.androidAppId = wallet.android?.appId || '';
+      app.iphoneAppId = wallet.iphone?.appId || '';
+      app.users = wallet.users || 0;
+      app.reviews = wallet.reviews || 0;
     }
     return app;
   });

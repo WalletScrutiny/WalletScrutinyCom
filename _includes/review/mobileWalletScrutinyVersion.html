@@ -1,0 +1,19 @@
+{% assign android_ver = page.android.version %}
+{% assign iphone_ver = page.iphone.version %}
+{% assign android_ver_norm = android_ver | remove: 'v' | remove: 'V' | strip %}
+{% assign iphone_ver_norm = iphone_ver | remove: 'v' | remove: 'V' | strip %}
+{% if android_ver and iphone_ver %}
+  <p style="margin-top: 0;">Latest release found by <b>WalletScrutiny</b>:
+  {% if android_ver_norm == iphone_ver_norm %}
+    <b>{{ android_ver }}</b>
+  {% else %}
+    <i class="fab fa-google-play" aria-hidden="true"></i> <b>{{ android_ver }}</b>
+    /
+    <i class="i-app-store" aria-hidden="true"></i> <b>{{ iphone_ver }}</b>
+  {% endif %}
+  </p>
+{% elsif android_ver %}
+  <p style="margin-top: 0;">Latest release found by <b>WalletScrutiny</b>: <b>{{ android_ver }}</b></p>
+{% elsif iphone_ver %}
+  <p style="margin-top: 0;">Latest release found by <b>WalletScrutiny</b>: <b>{{ iphone_ver }}</b></p>
+{% endif %}
