@@ -91,9 +91,23 @@ rm -rf $tmpFolder 2> /dev/null
 mkdir --parents $tmpFolder/
 mv images/wIcons $tmpFolder
 mkdir --parents images/wIcons/{android,iphone,hardware,bearer,desktop,others,web}/{small,tiny}/ 2> /dev/null
+# Icons for android/iphone live under nested blocks in _mobile/*.md (not _android/_iphone).
+collect_mobile_icons() {
+  local platform=$1
+  awk -v plat="$platform" '
+    $0 ~ "^" plat ":" { in_plat = 1; next }
+    /^[a-zA-Z]/ { in_plat = 0 }
+    in_plat && /^  icon: / { sub(/^  icon: /, ""); print }
+  ' _mobile/*.md 2>/dev/null | sort -u
+}
+
 folder='bearer'
 for folder in bearer android iphone hardware desktop others web; do
-  icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename | sed 's/^icon: //g')
+  if [ "$folder" = "android" ] || [ "$folder" = "iphone" ]; then
+    icons=$(collect_mobile_icons "$folder")
+  else
+    icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename 2>/dev/null | sed 's/^icon: //g')
+  fi
   for i in $icons; do
     mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
     for s in small tiny; do

@@ -25,7 +25,7 @@ const stats = {
 const category = 'android';
 const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'appCountry released updated version reviews website repository ' +
-                'icon bugbounty meta verdict date signer twitter social ' +
+                'icon bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -116,7 +116,9 @@ function updateFromApp (android, app, mobile) {
   if (app === undefined) {
     return;
   }
-  android.title = app.title || android.title;
+  if (app.title) {
+    mobile.title = app.title;
+  }
   android.version = (app.version || 'various').replace(/["\\]*/g, '');
   android.released = android.released || app.released || null;
 
@@ -135,10 +137,13 @@ function updateFromApp (android, app, mobile) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  android.website = app.developerWebsite || android.website || mobile.website || null;
-  android.date = android.date || new Date();
-  mobile.developerName = app.developer || mobile.developerName || 'Unknown Developer(s)';
-  helper.updateMeta(metaUpdateContext(mobile, 'android'));
+  if (app.developerWebsite) {
+    mobile.website = app.developerWebsite;
+  }
+  const metaCtx = metaUpdateContext(mobile, 'android');
+  metaCtx.date = metaCtx.date || new Date();
+  android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';
+  helper.updateMeta(metaCtx);
 }
 
 function add (appIds) {

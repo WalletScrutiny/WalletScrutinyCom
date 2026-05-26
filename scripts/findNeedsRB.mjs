@@ -3,7 +3,27 @@ import path from "path";
 import helper from "./helper.mjs";
 
 const { loadFromFile, dateOrEmpty } = helper;
-const foldersToAnalyze = ["_android", "_hardware"];
+const foldersToAnalyze = ["_mobile", "_hardware"];
+
+function getUsers (header) {
+  const users = [header.users, header.android?.users, header.iphone?.users]
+    .filter((u) => u != null && !Number.isNaN(Number(u)));
+  return users.length ? Math.max(...users.map(Number)) : null;
+}
+
+function getUpdated (header) {
+  const dates = [header.updated, header.android?.updated, header.iphone?.updated]
+    .filter(Boolean)
+    .map((d) => new Date(d))
+    .filter((d) => !Number.isNaN(d.getTime()));
+  if (dates.length === 0) return null;
+  return new Date(Math.max(...dates.map((d) => d.getTime())));
+}
+
+function getTitle (header) {
+  return header.altTitle || header.title ||
+    header.android?.altTitle || header.iphone?.altTitle;
+}
 const fNormal = '\x1b[0m';
 const fBold = '\x1b[37m\x1b[1m';
 const fHighlight = '\x1b[1m\x1b[36m';
@@ -27,7 +47,7 @@ const searchForVerificationText = () => {
 `);
   const needVerification = [];
   for (const folder of foldersToAnalyze) {
-    const files = fs.readdirSync(folder);
+    const files = fs.readdirSync(folder).filter((f) => f.endsWith('.md'));
     for (const file of files) {
       const filePath = path.join(folder, file);
       const { header, body } = loadFromFile(filePath);
@@ -39,8 +59,8 @@ const searchForVerificationText = () => {
         needVerification.push({
           date: header.date,
           file: filePath,
-          users: header.users,
-          title: header.altTitle || header.title
+          users: getUsers(header),
+          title: getTitle(header)
         });
       }
     }
@@ -65,7 +85,7 @@ const analyzeFiles = () => {
   const needOtherVerdicts = [];
 
   for (const folder of foldersToAnalyze) {
-    const files = fs.readdirSync(folder);
+    const files = fs.readdirSync(folder).filter((f) => f.endsWith('.md'));
     for (const file of files) {
       analyzeFile(path.join(folder, file), needVerification, needOtherVerdicts);
     }
@@ -109,7 +129,8 @@ const analyzeFiles = () => {
 
 const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
   const { header } = loadFromFile(filePath);
-  const { meta, date, verdict, updated } = header;
+  const { meta, date, verdict } = header;
+  const updated = getUpdated(header);
 
   if (meta !== "ok") {
     return;
@@ -125,7 +146,7 @@ const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
       file: filePath,
       verdict: verdict,
       dtDays: dtDays,
-      title: header.altTitle || header.title
+      title: getTitle(header)
     });
   } else if ((verdict === 'nosource' || verdict === 'obfuscated') && new Date(date) < sixMonthsAgo) {
     const dtDays = Math.round((new Date() - new Date(date)) / 1000 / 60 / 60 / 24);
@@ -134,7 +155,7 @@ const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
       file: filePath,
       verdict: verdict,
       dtDays: dtDays,
-      title: header.altTitle || header.title
+      title: getTitle(header)
     });
   }
 };

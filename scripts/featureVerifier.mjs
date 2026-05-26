@@ -248,12 +248,25 @@ async function scrapeAppStore(idd, country = 'us') {
 
 function flattenMobileFm(mobile, plat) {
   const block = mobile[plat] || {};
+  const {
+    date: _platformDate,
+    title: _platformTitle,
+    website: _platformWebsite,
+    meta: _meta,
+    verdict: _verdict,
+    ...blockFields
+  } = block;
   return {
     ...mobile,
-    ...block,
+    ...blockFields,
     appId: block.appId,
     idd: block.idd,
     appCountry: block.appCountry ?? mobile.appCountry,
+    title: mobile.title,
+    website: mobile.website,
+    date: mobile.date,
+    meta: mobile.meta,
+    verdict: mobile.verdict,
   };
 }
 

@@ -10,6 +10,7 @@
 import fs from 'fs';
 import path from 'path';
 import { createRequire } from 'module';
+import { summarizeMobileStoreFields, toStoreDateString } from './mobileWalletStore.mjs';
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
 
@@ -158,6 +159,7 @@ function loadMobileWallets() {
     const storePlatform = android.appId ? 'android' : (iphone.appId ? 'iphone' : 'android');
     const storeAppId = android.appId || iphone.appId || slug;
     const iconFolder = android.icon ? 'android' : (iphone.icon ? 'iphone' : storePlatform);
+    const storeFields = summarizeMobileStoreFields(android, iphone, { preferPlatform: storePlatform });
 
     wallets.push({
       ...frontmatter,
@@ -172,7 +174,13 @@ function loadMobileWallets() {
       icon: android.icon || iphone.icon || '',
       altTitle: android.altTitle || iphone.altTitle || '',
       users: Math.max(Number(android.users) || 0, Number(iphone.users) || 0),
-      reviews: Math.max(Number(android.reviews) || 0, Number(iphone.reviews) || 0)
+      reviews: Math.max(Number(android.reviews) || 0, Number(iphone.reviews) || 0),
+      released: storeFields.released,
+      updated: storeFields.updated,
+      version: storeFields.version,
+      date: toStoreDateString(frontmatter.date),
+      android,
+      iphone,
     });
   }
 
@@ -271,7 +279,7 @@ for (const platform of walletsJsonPlatforms) {
       released: wallet.released || '',
       updated: wallet.updated || '',
       icon: wallet.icon || '',
-      developerName: wallet.developerName || '',
+      developerName: wallet.android?.developerName || wallet.iphone?.developerName || '',
       users: wallet.users || '',
       score: { numerator: score.count, denominator: score.total },
       passedText,
@@ -346,6 +354,12 @@ for (const platform of productPlatforms) {
       app.iphoneAppId = wallet.iphone?.appId || '';
       app.users = wallet.users || 0;
       app.reviews = wallet.reviews || 0;
+      app.released = wallet.released || '';
+      app.updated = wallet.updated || '';
+      app.version = wallet.version || '';
+      app.date = wallet.date || '';
+      if (wallet.android?.version) app.androidVersion = wallet.android.version;
+      if (wallet.iphone?.version) app.iphoneVersion = wallet.iphone.version;
     }
     return app;
   });

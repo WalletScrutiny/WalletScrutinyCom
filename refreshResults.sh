@@ -45,21 +45,35 @@ echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
 echo "... than last month: $( moreSince 'one.months.ago' )"
 
-# List missing icons
+# List missing icons (android/iphone: nested icon: in _mobile/*.md)
+collect_mobile_icons() {
+  local platform=$1
+  awk -v plat="$platform" '
+    $0 ~ "^" plat ":" { in_plat = 1; next }
+    /^[a-zA-Z]/ { in_plat = 0 }
+    in_plat && /^  icon: / { sub(/^  icon: /, ""); print }
+  ' _mobile/*.md 2>/dev/null | sed 's/\.png$//;s/\.jpg$//;s/\.jpeg$//' | sort -u
+}
+
 for platform in hardware bearer desktop android iphone; do
   export platform=$platform
-  diff \
-    <(grep -l 'icon: .' _$platform/* \
+  if [ "$platform" = "android" ] || [ "$platform" = "iphone" ]; then
+    referenced=$(collect_mobile_icons "$platform")
+  else
+    referenced=$(grep -l 'icon: .' _$platform/* 2>/dev/null \
       | awk -F '/' '{print $2}' \
       | sed 's/.md$//g' \
-      | sort ) \
-    <(ls -1 images/wIcons/$platform/tiny/ \
+      | sort)
+  fi
+  diff \
+    <(echo "$referenced") \
+    <(ls -1 images/wIcons/$platform/tiny/ 2>/dev/null \
       | sed 's/.png$//g' \
       | sed 's/.jpg$//g' \
       | sort ) \
     | grep '<' \
     | awk '{print $2}' \
-    | xargs -n 1 bash -c 'echo -e "No icon found for $platform $0\n$( git log --summary | grep $0 )"' \
+    | xargs -r -n 1 bash -c 'echo -e "No icon found for $platform $0\n$( git log --summary | grep $0 )"' \
     | grep -v bash
 done
 

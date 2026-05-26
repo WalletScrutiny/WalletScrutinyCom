@@ -26,7 +26,7 @@ const stats = {
 const category = 'iphone';
 const headers = ('wsId title altTitle authors appId bitcoinOrgId appCountry idd released ' +
                 'updated version reviews website repository ' +
-                'icon bugbounty meta verdict date signer ' +
+                'icon bugbounty meta verdict signer ' +
                 'twitter social features developerName').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -112,7 +112,9 @@ function updateFromApp (iphone, app, mobile) {
   if (app === undefined) {
     return;
   }
-  iphone.title = app.title || iphone.title;
+  if (app.title && !mobile.android?.appId) {
+    mobile.title = app.title;
+  }
   iphone.version = (app.version || 'various').replace(/["\\]*/g, '');
   mobile.meta = mobile.meta || 'ok';
   iphone.updated = iphone.updated && new Date(iphone.updated) > new Date(app.updated)
@@ -120,10 +122,13 @@ function updateFromApp (iphone, app, mobile) {
     : new Date(app.updated);
   iphone.released = iphone.released || app.released || null;
   iphone.reviews = app.reviews;
-  iphone.website = app.developerWebsite || iphone.website || mobile.website || null;
-  iphone.date = iphone.date || new Date();
-  mobile.developerName = app.developer || mobile.developerName || 'Unknown Developer(s)';
-  helper.updateMeta(metaUpdateContext(mobile, 'iphone'));
+  if (app.developerWebsite && !mobile.android?.appId) {
+    mobile.website = app.developerWebsite;
+  }
+  const metaCtx = metaUpdateContext(mobile, 'iphone');
+  metaCtx.date = metaCtx.date || new Date();
+  iphone.developerName = app.developer || iphone.developerName || 'Unknown Developer(s)';
+  helper.updateMeta(metaCtx);
 }
 
 function add (newIdds) {
