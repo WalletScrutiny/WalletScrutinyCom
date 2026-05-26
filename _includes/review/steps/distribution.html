@@ -17,6 +17,10 @@
   {% endif %}
 {% endif %}
 
+{% assign dist_app_id = include.appId | default: page.appId %}
+{% assign dist_idd = include.idd | default: page.idd %}
+{% assign dist_app_country = include.appCountry | default: page.appCountry | default: 'us' %}
+{% assign dist_alt_stores = include.alternativeStores | default: page.alternativeStores %}
 {% if show_step %}
 <div class="step distribution">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
@@ -26,14 +30,14 @@
     <h3>Distribution</h3>
       {% if include.platform == 'iphone' %}
         <div class="distribution-store-links">
-          <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="i-app-store" aria-hidden="true"></i> App Store</a>
+          <a title="App Store" href="https://apps.apple.com/{{ dist_app_country }}/app/id{{ dist_idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="i-app-store" aria-hidden="true"></i> App Store</a>
           {% include /review/websiteDistributionLink.html %}
         </div>
       {% endif %}
       {% if include.platform == 'android' %}
         <div class="distribution-store-links">
-          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
-          {% include /review/alternativeStoreLinks.html %}
+          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+          {% include /review/alternativeStoreLinks.html appId=dist_app_id alternativeStores=dist_alt_stores %}
           {% include /review/websiteDistributionLink.html %}
         </div>
       {% endif %}

@@ -9,14 +9,14 @@
   "iphone": {
     "category": "App Store",
     "apps": [ 
-      {% assign iphone = site.iphone | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign iphone = site.mobile | where_exp: "post", "post.iphone" | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in iphone %}
       {% include wallet_score.html verdict=post.verdict platform='iphone' %}
       {
         "wsId": "{{ post.wsId }}",
-        "appId": "{{ post.appId }}",
+        "appId": "{{ post.iphone.appId }}",
         "title": "{{ post.title | escape }}",      
-        "icon": "{{ post.icon }}",
+        "icon": "{{ post.iphone.icon }}",
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
@@ -70,15 +70,15 @@
   "android": {
     "category": "Play Store",
     "apps": [ 
-      {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign android = site.mobile | where_exp: "post", "post.android" | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in android %}
       {% include wallet_score.html verdict=post.verdict platform='android' %}
       {
         "wsId": "{{ post.wsId }}",
-        "appId": "{{ post.appId }}",
+        "appId": "{{ post.android.appId }}",
         "title": "{{ post.title | escape }}",
-        "altTitle": "{{ post.altTitle }}",
-        "icon": "{{ post.icon }}",
+        "altTitle": "{{ post.android.altTitle }}",
+        "icon": "{{ post.android.icon }}",
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
