@@ -18,7 +18,7 @@
 {% if seo_title %}
   {% assign url_path_segments = page.url | split: "/" %}
   {% assign url_first_path_segment = url_path_segments[1] %}
-  {% elsif url_first_path_segment == "mobile" %}
+  {% if url_first_path_segment == "mobile" or url_first_path_segment == "android" or url_first_path_segment == "iphone" %}
     {% assign seo_title = seo_title | append: " for mobile" %}
   {% elsif url_first_path_segment == "desktop" %}
     {% assign seo_title = seo_title | append: " for desktop computers" %}

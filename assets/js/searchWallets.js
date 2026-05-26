@@ -67,9 +67,22 @@ function parseFeatureTokens(query) {
   return { featureKeys, remainingQuery: remaining.join(' ').trim() };
 }
 
+function walletMatchesPlatformFilter (wallet, platform) {
+  if (!platform || platform === 'allPlatforms') {
+    return true;
+  }
+  if (platform === 'android') {
+    return (wallet.folder === 'mobile' && wallet.hasAndroid) || wallet.folder === 'android';
+  }
+  if (platform === 'iphone') {
+    return (wallet.folder === 'mobile' && wallet.hasIphone) || wallet.folder === 'iphone';
+  }
+  return wallet.folder === platform;
+}
+
 function performSearch (wallets, query = false, platform = false) {
   const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'ecash', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
-  const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
+  const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'mobile', 'bearer', 'others'];
   const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct'];
 
   // Extract f:key tokens from query
@@ -78,9 +91,9 @@ function performSearch (wallets, query = false, platform = false) {
 
   const workingArray = [];
   let walletsTemp = false;
-  if (platform && platformOrder.includes(platform)) {
+  if (platform && platform !== 'allPlatforms') {
     walletsTemp = wallets.filter(function (w) {
-      return w.folder === platform;
+      return walletMatchesPlatformFilter(w, platform);
     });
   } else {
     walletsTemp = wallets;
@@ -127,11 +140,11 @@ function performSearch (wallets, query = false, platform = false) {
           return 0;
         }
 
-        const resultA = getWeightForAppFromAssetInformation(a.appId);
+        const resultA = getWeightForAppFromAssetInformation(a.storeAppId || a.appId);
         const aWeight = resultA.weight;
         const aLastVersionVerified = resultA.lastVersionVerified;
 
-        const resultB = getWeightForAppFromAssetInformation(b.appId);
+        const resultB = getWeightForAppFromAssetInformation(b.storeAppId || b.appId);
         const bWeight = resultB.weight;
         const bLastVersionVerified = resultB.lastVersionVerified;
 
@@ -269,10 +282,56 @@ async function doNavBarSearch (input) {
   searchScrollToTop();
 }
 
+function getWalletIconFolder (wallet) {
+  return wallet.iconFolder || wallet.folder;
+}
+
+function getWalletStoreAppId (wallet) {
+  return wallet.storeAppId || wallet.appId;
+}
+
+function getWalletStorePlatform (wallet) {
+  return wallet.storePlatform || wallet.folder;
+}
+
+function getVerificationTarget (wallet, platformFilter) {
+  if (platformFilter === 'iphone' && wallet.iphoneAppId) {
+    return { appId: wallet.iphoneAppId, platform: 'iphone' };
+  }
+  if (platformFilter === 'android' && wallet.androidAppId) {
+    return { appId: wallet.androidAppId, platform: 'android' };
+  }
+  return {
+    appId: getWalletStoreAppId(wallet),
+    platform: getWalletStorePlatform(wallet)
+  };
+}
+
+function getWalletListIcon (wallet, platformFilter) {
+  if (platformFilter === 'android' || platformFilter === 'iphone') {
+    return getIcon(platformFilter);
+  }
+  if (wallet.folder === 'mobile') {
+    return getIcon('mobile');
+  }
+  return getIcon(wallet.folder);
+}
+
+function getWalletListCategory (wallet, platformFilter) {
+  if (platformFilter === 'android') {
+    return 'Play Store';
+  }
+  if (platformFilter === 'iphone') {
+    return 'App Store';
+  }
+  return wallet.archived ? wallet.folder : wallet.category;
+}
+
 function getIcon (name) {
   let faCollection = ''
   switch (name) {
     case 'all': faCollection = 'i-all-devices'; break;
+    case 'mobile': faCollection = 'fas fa-mobile-screen'; break;
     case 'android': faCollection = 'fab fa-google-play'; break;
     case 'iphone': faCollection = 'i-app-store'; break;
     case 'hardware': faCollection = 'fas fa-toolbox'; break;
@@ -283,8 +342,8 @@ function getIcon (name) {
   return faCollection;
 }
 
-function makeCompactResultsHTML (wallet, lazyLoad) {
-  const faCollection = getIcon(wallet.folder);
+function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
+  const faCollection = getWalletListIcon(wallet, platformFilter);
   const basePath = wallet.base_path || '';
   const analysisUrl = `${basePath}${wallet.url}`;
   
@@ -308,7 +367,8 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
 
   let verificationHTML = '';
   if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
-    const lastVerificationStatus = getLastVerificationStatusForAppId(wallet.appId, wallet.folder);
+    const verificationTarget = getVerificationTarget(wallet, platformFilter);
+    const lastVerificationStatus = getLastVerificationStatusForAppId(verificationTarget.appId, verificationTarget.platform);
     if (lastVerificationStatus) {
       const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
       verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
@@ -320,11 +380,11 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return [
     `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
-      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
+      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
-          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>`,
+          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
         '</small>',
       '</span>',
       '<span class="stats">',

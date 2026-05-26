@@ -1,0 +1,34 @@
+<div class="step privacy">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-clock-rotate-left" style="z-index: 2; font-size: 22px;"></i>
+  </i>
+  <div class="title">
+    <h3>Released</h3>
+    <p>
+    {% if page.android.released and page.iphone.released and page.android.released != page.iphone.released %}
+      <span><b>Android</b>: {{ page.android.released | date_to_long_string: 'ordinal' }}</span><br>
+      <span><b>iPhone</b>: {{ page.iphone.released | date_to_long_string: 'ordinal' }}</span>
+    {% elsif page.android.released %}
+      <span>{{ page.android.released | date_to_long_string: 'ordinal' }}</span>
+    {% elsif page.iphone.released %}
+      <span>{{ page.iphone.released | date_to_long_string: 'ordinal' }}</span>
+    {% else %}
+      {{ 'We could not determine when this product was originally released.' }}
+    {% endif %}
+    </p>
+  </div>
+  {% if page.tooltip.releases %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.releases %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.releases | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

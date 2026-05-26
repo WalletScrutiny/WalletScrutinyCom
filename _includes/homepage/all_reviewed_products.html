@@ -1,0 +1,10 @@
+{%- comment -%}
+  All wallet review pages counted on the homepage (mobile replaces android + iphone).
+  Sets `products` for the including template.
+{%- endcomment -%}
+{%- assign empty_arr = '' | split: '' -%}
+{%- assign products = site.mobile | default: empty_arr -%}
+{%- if site.hardware -%}{%- assign products = products | concat: site.hardware -%}{%- endif -%}
+{%- if site.bearer -%}{%- assign products = products | concat: site.bearer -%}{%- endif -%}
+{%- if site.others -%}{%- assign products = products | concat: site.others -%}{%- endif -%}
+{%- if site.desktop -%}{%- assign products = products | concat: site.desktop -%}{%- endif -%}

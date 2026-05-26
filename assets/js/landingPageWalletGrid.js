@@ -48,7 +48,7 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
 
   workingArray = performSearch(window.wallets, query, platform);
 
-  generateAndAppendWalletTiles(workingArray, page);
+  generateAndAppendWalletTiles(workingArray, page, platform);
   generateAndAppendPagination(workingArray, page);
   generateDropdownAndInputCounts(workingArray, platform);
   generateFeedbackText(workingArray, platform, queryRaw);
@@ -58,7 +58,8 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   
 }
 
-function generateAndAppendWalletTiles(workingArray, pageNo) {
+function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
+  const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
   var container = document.createElement("div");
   container.classList.add("wallet-placeholder");
@@ -74,11 +75,15 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 
     let lastVerificationStatus = null;
     if (window.allAssetInformation) {
-      lastVerificationStatus = getLastVerificationStatusForAppId(wallet.appId, wallet.folder);
+      const verificationTarget = getVerificationTarget(wallet, listPlatform);
+      lastVerificationStatus = getLastVerificationStatusForAppId(
+        verificationTarget.appId,
+        verificationTarget.platform
+      );
     }
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
-    const icon = getIcon(wallet.folder);
+    const icon = getWalletListIcon(wallet, listPlatform);
     const delay = (i + 1) * 80;
     let passed = ``;
     let failed = ``;
@@ -90,9 +95,9 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
-        <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
+        <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>
+        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${getWalletListCategory(wallet, listPlatform)}</span></span>
       </div>
       <div class="wallet-details">
         <div class="stamps">
@@ -295,7 +300,7 @@ async function processStyle(wallet) {
   let target = await document.querySelector(`.${domClass}`);
   if (!target) { return; }
   let imgObj = new Image();
-  imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
+  imgObj.src = `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`;
   imgObj.onload = function () {
     if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware' && wallet.folder !== 'desktop') {
       let instanceCanvas = document.createElement("canvas");
