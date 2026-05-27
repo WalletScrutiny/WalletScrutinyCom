@@ -10,7 +10,13 @@
 import fs from 'fs';
 import path from 'path';
 import { createRequire } from 'module';
-import { summarizeMobileStoreFields, toStoreDateString } from './mobileWalletStore.mjs';
+import {
+  summarizeMobileStoreFields,
+  toStoreDateString,
+  listingMetaForMobile,
+  combineMobileMeta,
+  platformMeta as getPlatformBlockMeta,
+} from './mobileWalletStore.mjs';
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
 
@@ -161,6 +167,9 @@ function loadMobileWallets() {
     const iconFolder = android.icon ? 'android' : (iphone.icon ? 'iphone' : storePlatform);
     const storeFields = summarizeMobileStoreFields(android, iphone, { preferPlatform: storePlatform });
 
+    const listingMeta = listingMetaForMobile(frontmatter, storePlatform);
+    const combinedMeta = combineMobileMeta(android, iphone);
+
     wallets.push({
       ...frontmatter,
       _file: file,
@@ -179,6 +188,9 @@ function loadMobileWallets() {
       updated: storeFields.updated,
       version: storeFields.version,
       date: toStoreDateString(frontmatter.date),
+      meta: combinedMeta === 'obsolete' ? 'obsolete' : listingMeta,
+      metaAndroid: getPlatformBlockMeta(android),
+      metaIphone: getPlatformBlockMeta(iphone),
       android,
       iphone,
     });
@@ -360,6 +372,8 @@ for (const platform of productPlatforms) {
       app.date = wallet.date || '';
       if (wallet.android?.version) app.androidVersion = wallet.android.version;
       if (wallet.iphone?.version) app.iphoneVersion = wallet.iphone.version;
+      app.metaAndroid = wallet.metaAndroid || '';
+      app.metaIphone = wallet.metaIphone || '';
     }
     return app;
   });

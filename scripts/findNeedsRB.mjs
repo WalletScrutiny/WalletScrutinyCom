@@ -24,6 +24,18 @@ function getTitle (header) {
   return header.altTitle || header.title ||
     header.android?.altTitle || header.iphone?.altTitle;
 }
+
+function platformMetas (header) {
+  const metas = [];
+  if (header.android?.appId) metas.push(header.android.meta || 'ok');
+  if (header.iphone?.appId || header.iphone?.idd) metas.push(header.iphone.meta || 'ok');
+  if (metas.length === 0 && header.meta) metas.push(header.meta);
+  return metas;
+}
+
+function hasMetaOk (header) {
+  return platformMetas(header).some((m) => m === 'ok');
+}
 const fNormal = '\x1b[0m';
 const fBold = '\x1b[37m\x1b[1m';
 const fHighlight = '\x1b[1m\x1b[36m';
@@ -51,10 +63,10 @@ const searchForVerificationText = () => {
     for (const file of files) {
       const filePath = path.join(folder, file);
       const { header, body } = loadFromFile(filePath);
-      const { meta, verdict } = header;
+      const { verdict } = header;
 
       if (body.includes("for verification") &&
-          meta === 'ok' &&
+          hasMetaOk(header) &&
           verdict === 'wip') {
         needVerification.push({
           date: header.date,
@@ -129,10 +141,10 @@ const analyzeFiles = () => {
 
 const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
   const { header } = loadFromFile(filePath);
-  const { meta, date, verdict } = header;
+  const { date, verdict } = header;
   const updated = getUpdated(header);
 
-  if (meta !== "ok") {
+  if (!hasMetaOk(header)) {
     return;
   }
 

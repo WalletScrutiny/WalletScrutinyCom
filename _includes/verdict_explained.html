@@ -2,7 +2,18 @@
 
 {% include verdictMethodology.html verdict=page.verdict %}
 
-{% if page.meta != "ok" %}
+{% assign android_meta = page.android.meta | default: 'ok' %}
+{% assign iphone_meta = page.iphone.meta | default: 'ok' %}
+{% if page.android.appId or page.iphone.appId %}
+  {% if page.android.appId and android_meta != 'ok' %}
+    <p>But we also ask (Android):</p>
+    {% include verdictMethodology.html verdict=android_meta %}
+  {% endif %}
+  {% if page.iphone.appId and iphone_meta != 'ok' %}
+    <p>But we also ask (iPhone):</p>
+    {% include verdictMethodology.html verdict=iphone_meta %}
+  {% endif %}
+{% elsif page.meta != "ok" %}
   <p>But we also ask:</p>
   {% include verdictMethodology.html verdict=page.meta %}
 {% endif %}

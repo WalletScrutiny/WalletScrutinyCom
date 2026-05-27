@@ -28,9 +28,10 @@
     {% if page.website %}
       <a href="{{page.website}}" title="Website" target="_blank">Website</a>
     {% endif %}
-    {% if page.twitter %}
+    {% assign twitter_handle = page.twitter | default: page.android.twitter | default: page.iphone.twitter %}
+    {% if twitter_handle %}
 
-    <a href="https://x.com/{{page.twitter}}" title="X" target="_blank">X</a>
+    <a href="https://x.com/{{twitter_handle}}" title="X" target="_blank">X</a>
     {% endif %}
     {% if page.social %}
       {% for link in page.social %}

@@ -252,6 +252,7 @@ function flattenMobileFm(mobile, plat) {
     date: _platformDate,
     title: _platformTitle,
     website: _platformWebsite,
+    twitter: _platformTwitter,
     meta: _meta,
     verdict: _verdict,
     ...blockFields
@@ -264,8 +265,9 @@ function flattenMobileFm(mobile, plat) {
     appCountry: block.appCountry ?? mobile.appCountry,
     title: mobile.title,
     website: mobile.website,
+    twitter: mobile.twitter,
     date: mobile.date,
-    meta: mobile.meta,
+    meta: block.meta || 'ok',
     verdict: mobile.verdict,
   };
 }
