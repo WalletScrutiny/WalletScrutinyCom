@@ -1,20 +1,31 @@
 ---
-title: 'DeGate: Multichain wallet'
-date: 2026-01-14
-website: https://degate.com/
-redirect_from:
-- /android/com.app.degate/
-android:
-  appId: com.app.degate
-  users: 1000
-  appCountry: us
-  released: 2025-06-09
-  updated: 2026-05-21
-  version: 1.0.25
-  icon: com.app.degate.png
-  meta: ok
-  verdict: wip
-  developerName: DeGate Inc.
+wsId: deGate
+title: DeGate
+altTitle: 
+authors:
+- danny 
+appId: com.app.degate
+appCountry: us
+idd: '6742168343'
+released: '2025-06-17T07:00:00Z'
+updated: 2026-05-25
+version: 1.0.25
+reviews: 8
+website: https://degate.com
+repository: 
+icon: com.app.degate.jpg
+bugbounty: 
+meta: ok
+verdict: nosource
+date: 2026-05-27
+signer: 
+twitter: DeGateWallet
+social:
+  - https://t.me/degate_public
+  - https://discord.gg/degate
+features: 
+developerName: DeGate Inc.
 
 ---
 
+{% include copyFromAndroid.html %}

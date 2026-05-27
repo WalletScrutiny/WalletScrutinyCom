@@ -1,20 +1,31 @@
 ---
+wsId: cypherrockCySync
 title: Cypherock CySync Crypto Wallet
-date: 2026-01-14
-website: https://www.cypherock.com/
-redirect_from:
-- /android/com.cypherock.cysync/
-android:
-  appId: com.cypherock.cysync
-  users: 1000
-  appCountry: us
-  released: 2025-03-28
-  updated: 2026-05-18
-  version: 0.1.22
-  icon: com.cypherock.cysync.png
-  meta: ok
-  verdict: wip
-  developerName: Cypherock
+altTitle: 
+authors:
+- danny 
+appId: com.cypherock.cysync
+appCountry: us
+idd: '6743165054'
+released: '2025-04-08T07:00:00Z'
+updated: 2026-05-22
+version: 0.1.22
+reviews: 3
+website: https://www.cypherock.com/cysync
+repository: 
+icon: com.cypherock.cysync.jpg
+bugbounty: 
+meta: ok
+verdict: nowallet
+date: 2026-05-27
+signer: 
+twitter: CypherockWallet
+social:
+- https://www.facebook.com/cypherock
+- https://www.linkedin.com/company/cypherockwallet 
+features: 
+developerName: HODL Tech Private Limited
 
 ---
 
+{% include copyFromAndroid.html %}
