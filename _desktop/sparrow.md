@@ -29,6 +29,12 @@ builds:
     - '*_amd64.deb'
     rpm:
     - '*.x86_64.rpm'
+- arch: x86_64-windows
+  types:
+    zip:
+    - 'Sparrow-*.zip'
+    msi:
+    - 'Sparrow-*.msi'
 features:
 - airGapped
 - companion
