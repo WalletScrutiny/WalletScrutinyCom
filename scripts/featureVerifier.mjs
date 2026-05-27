@@ -268,7 +268,7 @@ function flattenMobileFm(mobile, plat) {
     twitter: mobile.twitter,
     date: mobile.date,
     meta: block.meta || 'ok',
-    verdict: mobile.verdict,
+    verdict: block.verdict || '',
   };
 }
 

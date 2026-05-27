@@ -128,13 +128,15 @@ function performSearch (wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
-    if (a.verdict !== b.verdict && a.verdict && b.verdict) {
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
+    const aVerdict = getPrimaryWalletVerdict(a);
+    const bVerdict = getPrimaryWalletVerdict(b);
+    if (aVerdict !== bVerdict && aVerdict && bVerdict) {
+      return verdictOrder.indexOf(aVerdict) - verdictOrder.indexOf(bVerdict);
     }
     if (a.meta !== b.meta && a.meta && b.meta) {
       return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
     }
-    if (a.verdict === 'sourceavailable' && b.verdict === 'sourceavailable') {
+    if (walletHasVerdict(a, 'sourceavailable') && walletHasVerdict(b, 'sourceavailable')) {
       try {
         if (!window.allAssetInformation) {
           return 0;
@@ -294,6 +296,100 @@ function getWalletStorePlatform (wallet) {
   return wallet.storePlatform || wallet.folder;
 }
 
+function getWalletVerdictList (wallet) {
+  const list = [];
+  if (wallet.verdictAndroid) list.push(wallet.verdictAndroid);
+  if (wallet.verdictIphone) list.push(wallet.verdictIphone);
+  if (!list.length && wallet.verdict) list.push(wallet.verdict);
+  return list;
+}
+
+function getPrimaryWalletVerdict (wallet) {
+  const list = getWalletVerdictList(wallet);
+  if (!list.length) return wallet.verdict || '';
+  return list.reduce((best, v) => {
+    const vi = verdictOrder.indexOf(v);
+    const bi = verdictOrder.indexOf(best);
+    if (vi >= 0 && (bi < 0 || vi < bi)) return v;
+    return best;
+  }, list[0]);
+}
+
+function walletHasVerdict (wallet, verdict) {
+  return getWalletVerdictList(wallet).includes(verdict);
+}
+
+function renderVerdictStamp (verdict, suffix) {
+  if (!verdict || !window.verdicts?.[verdict]) return '';
+  const text = suffix ? `${window.verdicts[verdict].short} (${suffix})` : window.verdicts[verdict].short;
+  return `<span data-text="${text}" class="stamp stamp-${verdict}" alt=""></span>`;
+}
+
+function getWalletVerdictStampsHtml (wallet) {
+  if (wallet.verdictAndroid || wallet.verdictIphone) {
+    const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+    const parts = [];
+    if (wallet.verdictAndroid) parts.push(renderVerdictStamp(wallet.verdictAndroid, dual ? 'Android' : null));
+    if (wallet.verdictIphone) parts.push(renderVerdictStamp(wallet.verdictIphone, dual ? 'iPhone' : null));
+    return parts.join('');
+  }
+  return wallet.verdict ? renderVerdictStamp(wallet.verdict) : '';
+}
+
+function getWalletScoreIconsHtml (score) {
+  if (!score) return { passed: '', failed: '', text: '' };
+  let passed = '';
+  let failed = '';
+  for (let i = 0; i < score.numerator; i++) passed += '<i class="pass"></i>';
+  for (let i = 0; i < (score.denominator - score.numerator); i++) failed += '<i class="fail"></i>';
+  const text = `Passed ${score.numerator !== score.denominator ? score.numerator : 'all'} ${score.numerator !== score.denominator ? 'of' : ''} ${score.denominator} tests`;
+  return { passed, failed, text };
+}
+
+function getWalletScoreBlockHtml (wallet) {
+  if (wallet.scoreAndroid || wallet.scoreIphone) {
+    const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+    const rows = [];
+    const addRow = (score, label) => {
+      if (!score) return;
+      const icons = getWalletScoreIconsHtml(score);
+      const prefix = dual && label ? `<small>${label}: </small>` : '';
+      rows.push(`${prefix}<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`);
+    };
+    addRow(wallet.scoreAndroid, 'Android');
+    addRow(wallet.scoreIphone, 'iPhone');
+    return rows.join('<br>');
+  }
+  if (!wallet.score) return '';
+  const icons = getWalletScoreIconsHtml(wallet.score);
+  return `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
+}
+
+function getWalletVerificationLinesHtml (wallet, platformFilter) {
+  if (!window.allAssetInformation) return '';
+  const lines = [];
+  const addLine = (verdict, appId, platform, label) => {
+    if (verdict !== 'sourceavailable' || !appId) return;
+    const status = getLastVerificationStatusForAppId(appId, platform);
+    const prefix = label ? `${label}: ` : '';
+    if (!status) {
+      lines.push(`<span>${prefix}❓ Not verified yet</span>`);
+      return;
+    }
+    lines.push(`<span>${prefix}${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`);
+  };
+  if (wallet.verdictAndroid || wallet.verdictIphone) {
+    addLine(wallet.verdictAndroid, wallet.androidAppId, 'android', wallet.verdictAndroid !== wallet.verdictIphone ? 'Android' : null);
+    addLine(wallet.verdictIphone, wallet.iphoneAppId, 'iphone', wallet.verdictAndroid !== wallet.verdictIphone ? 'iPhone' : null);
+    return lines.join('<br>');
+  }
+  if (walletHasVerdict(wallet, 'sourceavailable')) {
+    const target = getVerificationTarget(wallet, platformFilter);
+    addLine('sourceavailable', target.appId, target.platform, null);
+  }
+  return lines.join('<br>');
+}
+
 function getVerificationTarget (wallet, platformFilter) {
   if (platformFilter === 'iphone' && wallet.iphoneAppId) {
     return { appId: wallet.iphoneAppId, platform: 'iphone' };
@@ -348,34 +444,17 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
   const analysisUrl = `${basePath}${wallet.url}`;
   
   let scoreHTML = '';
-  if (wallet.score) {
-    const passCount = wallet.score.numerator;
-    const failCount = wallet.score.denominator - wallet.score.numerator;
-    
-    const passIcons = '<i class="pass"></i>'.repeat(passCount);
-    const failIcons = '<i class="fail"></i>'.repeat(failCount);
-    
-    const scoreText = passCount !== wallet.score.denominator 
-      ? `Passed ${passCount} of ${wallet.score.denominator} tests`
-      : `Passed all ${wallet.score.denominator} tests`;
-    
-    scoreHTML = `<div class="tests-passed" data-numerator="${passCount}" data-denominator="${wallet.score.denominator}">
-      <span>${scoreText}</span>
-      <div>${passIcons}${failIcons}</div>
+  const scoreBlock = getWalletScoreBlockHtml(wallet);
+  if (scoreBlock) {
+    const primaryScore = wallet.score || wallet.scoreAndroid || wallet.scoreIphone;
+    const num = primaryScore?.numerator ?? 0;
+    const den = primaryScore?.denominator ?? 0;
+    scoreHTML = `<div class="tests-passed" data-numerator="${num}" data-denominator="${den}">
+      ${scoreBlock}
     </div>`;
   }
 
-  let verificationHTML = '';
-  if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
-    const verificationTarget = getVerificationTarget(wallet, platformFilter);
-    const lastVerificationStatus = getLastVerificationStatusForAppId(verificationTarget.appId, verificationTarget.platform);
-    if (lastVerificationStatus) {
-      const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
-      verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
-    } else {
-      verificationHTML = '<span>❓ Not verified yet</span>';
-    }
-  }
+  const verificationHTML = getWalletVerificationLinesHtml(wallet, platformFilter);
 
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return [
@@ -389,7 +468,7 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
       '</span>',
       '<span class="stats">',
         wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '',
-        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
+        getWalletVerdictStampsHtml(wallet),
         wallet.archived ? '' : verificationHTML,
         wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`

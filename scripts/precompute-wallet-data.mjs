@@ -16,6 +16,7 @@ import {
   listingMetaForMobile,
   combineMobileMeta,
   platformMeta as getPlatformBlockMeta,
+  platformVerdict,
 } from './mobileWalletStore.mjs';
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
@@ -191,6 +192,8 @@ function loadMobileWallets() {
       meta: combinedMeta === 'obsolete' ? 'obsolete' : listingMeta,
       metaAndroid: getPlatformBlockMeta(android),
       metaIphone: getPlatformBlockMeta(iphone),
+      verdictAndroid: android.appId ? platformVerdict(android) : '',
+      verdictIphone: (iphone.appId || iphone.idd) ? platformVerdict(iphone) : '',
       android,
       iphone,
     });
@@ -272,20 +275,32 @@ for (const platform of walletsJsonPlatforms) {
   const wallets = allWallets[platform] || [];
   
   for (const wallet of wallets) {
-    const scoreKey = `${platform}-${wallet.verdict}`;
+    const isMobile = platform === 'mobile';
+    const verdictAndroid = isMobile ? (wallet.verdictAndroid || '') : '';
+    const verdictIphone = isMobile ? (wallet.verdictIphone || '') : '';
+    const primaryVerdict = isMobile
+      ? (verdictAndroid || verdictIphone || wallet.verdict || '')
+      : (wallet.verdict || '');
+    const scoreKey = `${platform}-${primaryVerdict}`;
     const score = precomputed.walletScores[scoreKey] || { count: 0, total: 0 };
-    const verdictData = verdicts[wallet.verdict] || {};
-    
-    const passedText = score.count === score.total 
+    const verdictData = verdicts[primaryVerdict] || {};
+    const scoreAndroid = verdictAndroid
+      ? (precomputed.walletScores[`mobile-${verdictAndroid}`] || { count: 0, total: 0 })
+      : null;
+    const scoreIphone = verdictIphone
+      ? (precomputed.walletScores[`mobile-${verdictIphone}`] || { count: 0, total: 0 })
+      : null;
+
+    const passedText = score.count === score.total
       ? `Passed all ${score.total} tests`
       : `Passed ${score.count} of ${score.total} tests`;
-    
-    walletsJson[platform][wallet.appId] = {
+
+    const entry = {
       wsId: wallet.wsId || '',
       title: wallet.title || '',
       appId: wallet.appId || '',
       date: wallet.date || '',
-      verdict: wallet.verdict || '',
+      verdict: primaryVerdict,
       meta: wallet.meta || '',
       version: wallet.version || '',
       released: wallet.released || '',
@@ -295,8 +310,15 @@ for (const platform of walletsJsonPlatforms) {
       users: wallet.users || '',
       score: { numerator: score.count, denominator: score.total },
       passedText,
-      verdictText: verdictData.title || ''
+      verdictText: verdictData.title || '',
     };
+    if (isMobile) {
+      entry.verdictAndroid = verdictAndroid;
+      entry.verdictIphone = verdictIphone;
+      if (scoreAndroid) entry.scoreAndroid = { numerator: scoreAndroid.count, denominator: scoreAndroid.total };
+      if (scoreIphone) entry.scoreIphone = { numerator: scoreIphone.count, denominator: scoreIphone.total };
+    }
+    walletsJson[platform][wallet.appId] = entry;
   }
 }
 
@@ -337,8 +359,20 @@ const platformCategories = {
 for (const platform of productPlatforms) {
   const wallets = allWallets[platform] || [];
   const apps = wallets.map(wallet => {
-    const scoreKey = `${platform}-${wallet.verdict}`;
+    const isMobile = platform === 'mobile';
+    const verdictAndroid = isMobile ? (wallet.verdictAndroid || '') : '';
+    const verdictIphone = isMobile ? (wallet.verdictIphone || '') : '';
+    const primaryVerdict = isMobile
+      ? (verdictAndroid || verdictIphone || wallet.verdict || '')
+      : (wallet.verdict || '');
+    const scoreKey = `${platform}-${primaryVerdict}`;
     const score = precomputed.walletScores[scoreKey] || { count: 0, total: 0 };
+    const scoreAndroid = verdictAndroid
+      ? (precomputed.walletScores[`mobile-${verdictAndroid}`] || { count: 0, total: 0 })
+      : null;
+    const scoreIphone = verdictIphone
+      ? (precomputed.walletScores[`mobile-${verdictIphone}`] || { count: 0, total: 0 })
+      : null;
     const walletFeatures = (Array.isArray(wallet.features) ? wallet.features : [])
       .filter(f => typeof f === 'string' && featuresData[f] !== undefined);
     const app = {
@@ -346,7 +380,7 @@ for (const platform of productPlatforms) {
       title: wallet.title || '',
       icon: wallet.icon || '',
       meta: wallet.meta || '',
-      verdict: wallet.verdict || '',
+      verdict: primaryVerdict,
       url: platform === 'mobile'
         ? `/mobile/${wallet._slug || wallet.appId}/`
         : `/${platform}/${wallet.appId}/`,
@@ -374,6 +408,10 @@ for (const platform of productPlatforms) {
       if (wallet.iphone?.version) app.iphoneVersion = wallet.iphone.version;
       app.metaAndroid = wallet.metaAndroid || '';
       app.metaIphone = wallet.metaIphone || '';
+      app.verdictAndroid = verdictAndroid;
+      app.verdictIphone = verdictIphone;
+      if (scoreAndroid) app.scoreAndroid = { numerator: scoreAndroid.count, denominator: scoreAndroid.total };
+      if (scoreIphone) app.scoreIphone = { numerator: scoreIphone.count, denominator: scoreIphone.total };
     }
     return app;
   });

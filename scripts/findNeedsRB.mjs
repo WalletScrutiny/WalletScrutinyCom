@@ -36,6 +36,18 @@ function platformMetas (header) {
 function hasMetaOk (header) {
   return platformMetas(header).some((m) => m === 'ok');
 }
+
+function platformVerdicts (header) {
+  const verdicts = [];
+  if (header.android?.appId) verdicts.push(header.android.verdict || '');
+  if (header.iphone?.appId || header.iphone?.idd) verdicts.push(header.iphone.verdict || '');
+  if (verdicts.length === 0 && header.verdict) verdicts.push(header.verdict);
+  return verdicts.filter(Boolean);
+}
+
+function hasVerdict (header, verdict) {
+  return platformVerdicts(header).includes(verdict);
+}
 const fNormal = '\x1b[0m';
 const fBold = '\x1b[37m\x1b[1m';
 const fHighlight = '\x1b[1m\x1b[36m';
@@ -63,11 +75,9 @@ const searchForVerificationText = () => {
     for (const file of files) {
       const filePath = path.join(folder, file);
       const { header, body } = loadFromFile(filePath);
-      const { verdict } = header;
-
       if (body.includes("for verification") &&
           hasMetaOk(header) &&
-          verdict === 'wip') {
+          hasVerdict(header, 'wip')) {
         needVerification.push({
           date: header.date,
           file: filePath,
@@ -141,7 +151,7 @@ const analyzeFiles = () => {
 
 const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
   const { header } = loadFromFile(filePath);
-  const { date, verdict } = header;
+  const { date } = header;
   const updated = getUpdated(header);
 
   if (!hasMetaOk(header)) {
@@ -151,17 +161,18 @@ const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
   const sixMonthsAgo = new Date();
   sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
-  if ((verdict === 'sourceavailable') && updated && date < updated) {
+  if (hasVerdict(header, 'sourceavailable') && updated && date < updated) {
     const dtDays = Math.round((new Date() - updated) / 1000 / 60 / 60 / 24);
     needVerification.push({
       updated: updated,
       file: filePath,
-      verdict: verdict,
+      verdict: 'sourceavailable',
       dtDays: dtDays,
       title: getTitle(header)
     });
-  } else if ((verdict === 'nosource' || verdict === 'obfuscated') && new Date(date) < sixMonthsAgo) {
+  } else if ((hasVerdict(header, 'nosource') || hasVerdict(header, 'obfuscated')) && new Date(date) < sixMonthsAgo) {
     const dtDays = Math.round((new Date() - new Date(date)) / 1000 / 60 / 60 / 24);
+    const verdict = hasVerdict(header, 'nosource') ? 'nosource' : 'obfuscated';
     needOtherVerdicts.push({
       updated: date,
       file: filePath,

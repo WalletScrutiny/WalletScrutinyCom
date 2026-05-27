@@ -41,6 +41,13 @@
   {% if og_app_id %}
     {% assign og_image = base_url | append: "/images/social/android/" | append: og_app_id | append: ".png" %}
   {% endif %}
+  {% assign seo_android_verdict = page.android.verdict %}
+  {% assign seo_iphone_verdict = page.iphone.verdict %}
+  {% if seo_android_verdict and seo_iphone_verdict and seo_android_verdict != seo_iphone_verdict %}
+    {% assign seo_description = "Review of " | append: page.title | append: " (Android verdict: " | append: seo_android_verdict | append: ", iPhone verdict: " | append: seo_iphone_verdict | append: ")" %}
+  {% elsif seo_android_verdict or seo_iphone_verdict %}
+    {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: seo_android_verdict | default: seo_iphone_verdict | append: ")" %}
+  {% endif %}
 {% elsif page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' or page.collection == 'desktop' %}
   {% assign og_image = base_url | append: "/images/social/" | append: page.collection | append: "/" | append: page.appId | append: ".png" %}
   {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: page.verdict | append: ")" %}

@@ -412,7 +412,7 @@ async function main() {
     const fm = parseFrontmatter(content);
     if (!fm) continue;
 
-    const isSourceAvailable = fm.verdict === 'sourceavailable';
+    const isSourceAvailable = fm.android?.verdict === 'sourceavailable' || fm.verdict === 'sourceavailable';
     const hadFdroid = fmHasFdroidInAlternativeStores(fm);
     if (!isSourceAvailable && !hadFdroid) continue;
 

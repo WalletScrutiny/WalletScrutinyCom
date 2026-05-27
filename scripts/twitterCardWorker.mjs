@@ -265,17 +265,26 @@ async function processCard(cardJob) {
     const data = platform === 'mobile'
       ? {
           title: fm.title,
-          verdict: fm.verdict,
-          meta: fm.meta,
+          verdict: fm.android?.verdict || fm.iphone?.verdict || fm.verdict,
+          verdictAndroid: fm.android?.verdict || '',
+          verdictIphone: fm.iphone?.verdict || '',
+          meta: fm.android?.meta || fm.iphone?.meta || fm.meta,
           platform: 'mobile',
           appId: fm.android?.appId || fm.iphone?.appId || slug,
           icon: fm.android?.icon || fm.iphone?.icon,
         }
       : { ...fm, platform };
 
-    if (data.verdict === 'sourceavailable') {
-      const reproAppId = platform === 'mobile' ? fm.android?.appId : data.appId;
-      const reproPlatform = platform === 'mobile' ? 'android' : platform;
+    const isSourceAvailable = platform === 'mobile'
+      ? (fm.android?.verdict === 'sourceavailable' || fm.iphone?.verdict === 'sourceavailable')
+      : data.verdict === 'sourceavailable';
+    if (isSourceAvailable) {
+      const reproAppId = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? fm.android?.appId : fm.iphone?.appId)
+        : data.appId;
+      const reproPlatform = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? 'android' : 'iphone')
+        : platform;
       if (reproAppId) {
         const history = getReproducibilityHistory(verificationIndex, reproAppId, reproPlatform);
         data.reproducibilityStatuses = history.slice(-MAX_REPRODUCIBILITY_SQUARES);

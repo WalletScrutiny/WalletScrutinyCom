@@ -154,7 +154,10 @@ async function processMobileFile(fileName) {
     const content = helper.loadFromFile(filePath);
     const { header, body } = content;
 
-    if (!TARGET_VERDICTS.includes(header.verdict)) {
+    const matchesTarget = TARGET_VERDICTS.includes(header.verdict) ||
+      TARGET_VERDICTS.includes(header.android?.verdict) ||
+      TARGET_VERDICTS.includes(header.iphone?.verdict);
+    if (!matchesTarget) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
