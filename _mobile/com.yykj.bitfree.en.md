@@ -2,7 +2,6 @@
 wsId: bitFree
 title: BitFree
 verdict: custodial
-meta: ok
 date: 2025-01-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 5.6.41
   reviews: 31
   icon: com.yykj.bitfree.en.png
+  meta: ok
   developerName: ifreepanda
 iphone:
   appId: com.yykj.bitfree.en
@@ -33,6 +33,7 @@ iphone:
   version: 5.6.2
   reviews: 0
   icon: com.yykj.bitfree.en.jpg
+  meta: ok
   developerName: Bitfree Limited
 
 ---

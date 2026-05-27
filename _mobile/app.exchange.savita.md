@@ -2,7 +2,6 @@
 wsId: savitaBuyBTC
 title: 'Savita: Buy BTC,ETH,USDT'
 verdict: custodial
-meta: ok
 date: 2024-08-02
 authors:
 - danny

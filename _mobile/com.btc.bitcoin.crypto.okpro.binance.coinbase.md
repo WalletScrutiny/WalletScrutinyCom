@@ -1,7 +1,6 @@
 ---
 title: OKpro-Bitcoin & Crypto currency information
 verdict: wip
-meta: removed
 date: 2021-11-10
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   updated: 2021-09-13
   version: '1.0'
   icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.png
+  meta: removed
 
 ---
 

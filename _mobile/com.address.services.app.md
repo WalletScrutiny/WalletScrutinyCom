@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Address Services
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://address.services
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2025-07-24
   version: VARY
   icon: com.address.services.app.png
+  meta: fewusers
   developerName: OnTab Inc.
 
 ---

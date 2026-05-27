@@ -2,7 +2,6 @@
 wsId: immuneMessenger
 title: IMMUNE Messenger
 verdict: nosource
-meta: stale
 date: 2023-04-15
 authors:
 - danny

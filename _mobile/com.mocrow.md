@@ -1,7 +1,6 @@
 ---
 title: Mocrow
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.mocrow/
@@ -11,6 +10,7 @@ android:
   updated: 2019-09-13
   version: VARY
   icon: com.mocrow.png
+  meta: removed
   developerName: Cynotrust Intelligent Systems
 
 ---

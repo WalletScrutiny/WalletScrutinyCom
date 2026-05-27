@@ -1,7 +1,6 @@
 ---
 title: 'Pi42: Crypto Futures & Options'
 verdict: nosendreceive
-meta: ok
 date: 2025-11-26
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2026-05-14
   version: 2.2.01
   icon: com.pi42.app.png
+  meta: ok
   developerName: Lightningnodes Technologies Pvt Ltd
 
 ---

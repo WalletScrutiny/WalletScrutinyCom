@@ -2,7 +2,6 @@
 wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.4.3
   reviews: 1
   icon: io.nexo.pro.png
+  meta: removed
   developerName: Nexo Capital Incorporated
 iphone:
   appId: com.nexo.pro
@@ -34,6 +34,7 @@ iphone:
   version: 1.2.0
   reviews: 0
   icon: com.nexo.pro.jpg
+  meta: removed
   developerName: Nexo Capital Inc.
 
 ---

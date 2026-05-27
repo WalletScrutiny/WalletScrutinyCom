@@ -2,7 +2,6 @@
 wsId: coinext
 title: 'Coinext: Comprar Bitcoin'
 verdict: custodial
-meta: ok
 date: 2024-09-07
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.36.0
   reviews: 7
   icon: br.com.coinext.png
+  meta: ok
   developerName: Coinext Serviços Digitais Ltda.
 iphone:
   appId: br.com.coinext.Coinext
@@ -34,6 +34,7 @@ iphone:
   version: 2.36.0
   reviews: 5007
   icon: br.com.coinext.Coinext.jpg
+  meta: ok
   developerName: Coinext
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Solidi- Buy BTC, ETH instantly
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://solidi.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-26
   version: '1.0'
   icon: com.solidimobileapp4.png
+  meta: removed
   developerName: Solidi Crypto Exchange
 
 ---

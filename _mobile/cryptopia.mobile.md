@@ -1,7 +1,6 @@
 ---
 title: CryptoPia
 verdict: nosource
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.2
   reviews: 3
   icon: cryptopia.mobile.png
+  meta: removed
   developerName: Smilestory Co., Ltd.
 
 ---

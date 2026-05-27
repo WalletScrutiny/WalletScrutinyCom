@@ -1,7 +1,6 @@
 ---
 title: ABStocks
 verdict: wip
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2022-02-07
   version: 1.6.106
   icon: com.abstocks.png
+  meta: removed
   developerName: ABStocks.com
 
 ---

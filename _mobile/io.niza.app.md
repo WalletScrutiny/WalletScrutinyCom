@@ -2,7 +2,6 @@
 wsId: nizaBuyBTC
 title: 'Niza: Buy BTC, ETH & +500'
 verdict: custodial
-meta: stale
 date: 2026-05-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2025-05-07
   version: 1.4.3
   icon: io.niza.app.png
+  meta: stale
   developerName: Niza Global
 iphone:
   appId: io.niza.app
@@ -31,6 +31,7 @@ iphone:
   version: 1.4.3
   reviews: 0
   icon: io.niza.app.jpg
+  meta: stale
   developerName: Niza Global UAB
 
 ---

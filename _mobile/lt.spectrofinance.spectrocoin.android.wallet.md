@@ -2,7 +2,6 @@
 wsId: SpectroCoin
 title: SpectroCoin - Buy Crypto
 verdict: custodial
-meta: ok
 date: 2020-10-12
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   version: 2.10.0
   reviews: 44
   icon: lt.spectrofinance.spectrocoin.android.wallet.png
+  meta: ok
   developerName: Spectro Finance
 iphone:
   appId: lt.spectrofinance.spectrocoin.ios.wallet
@@ -35,6 +35,7 @@ iphone:
   version: 2.10.0
   reviews: 11
   icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
+  meta: ok
   developerName: UAB Spectro Finance
 
 ---

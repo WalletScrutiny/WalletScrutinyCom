@@ -2,7 +2,6 @@
 wsId: holloxWallet
 title: Hollox:Bitcoin & Crypto Wallet
 verdict: custodial
-meta: stale
 date: 2025-04-01
 authors:
 - danny

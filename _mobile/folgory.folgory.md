@@ -1,7 +1,6 @@
 ---
 title: Folgory
 verdict: wip
-meta: removed
 date: 2021-11-30
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.0.1
   reviews: 14
   icon: folgory.folgory.png
+  meta: removed
 
 ---
 

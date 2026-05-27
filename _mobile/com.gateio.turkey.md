@@ -2,7 +2,6 @@
 wsId: gateTRBitcoin
 title: 'Gate.TR: Bitcoin ve Kripto'
 verdict: custodial
-meta: ok
 date: 2026-01-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2026-04-14
   version: 6.15.43
   icon: com.gateio.turkey.png
+  meta: ok
   developerName: Gate.com
 iphone:
   appId: com.gateio.GateTR
@@ -29,6 +29,7 @@ iphone:
   version: 6.15.28
   reviews: 630
   icon: com.gateio.GateTR.jpg
+  meta: ok
   developerName: Gate Teknoloji Anonim Sirketi
 
 ---

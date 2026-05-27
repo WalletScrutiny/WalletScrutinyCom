@@ -1,7 +1,6 @@
 ---
 title: Atomars
 verdict: custodial
-meta: removed
 date: 2024-09-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2019-07-01
   version: 1.1.1
   icon: com.atomars.android.png
+  meta: removed
   developerName: Atomars
 
 ---

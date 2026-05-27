@@ -1,7 +1,6 @@
 ---
 title: 'PayFrequent Wallet: PayFQ, PUSD, PEUR, PINR, TOMO'
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://web.payfrequent.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.1'
   reviews: 51
   icon: com.payfrequent.png
+  meta: removed
 
 ---
 

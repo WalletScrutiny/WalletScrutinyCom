@@ -1,7 +1,6 @@
 ---
 title: 7StarPay
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://7StarPay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-31
   version: 2.1.48
   icon: club.sevenstar.sevenstarapp.png
+  meta: removed
   developerName: Exchangily LLC
 
 ---

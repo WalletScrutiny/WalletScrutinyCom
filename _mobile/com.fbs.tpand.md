@@ -1,7 +1,6 @@
 ---
 title: FBS Trader — Trading Platform
 verdict: nosendreceive
-meta: removed
 date: 2024-05-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.58.6
   reviews: 78
   icon: com.fbs.tpand.png
+  meta: removed
   developerName: FBS.com
 
 ---

@@ -2,7 +2,6 @@
 wsId: protonWallet
 title: 'Proton Wallet: Secure Bitcoin'
 verdict: sourceavailable
-meta: ok
 date: 2025-05-20
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   reviews: 28
   icon: me.proton.wallet.android.png
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
+  meta: ok
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
 iphone:
@@ -42,6 +42,7 @@ iphone:
   version: 1.2.7
   reviews: 213
   icon: me.proton.wallet.ios.jpg
+  meta: ok
   developerName: Proton AG
 
 ---

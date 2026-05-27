@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Prime
 verdict: wip
-meta: removed
 date: 2023-04-16
 redirect_from:
 - /android/com.wBitcoinPrime_15557726/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-26
   version: '1.0'
   icon: com.wBitcoinPrime_15557726.jpg
+  meta: removed
   developerName: BTC Prime
 
 ---

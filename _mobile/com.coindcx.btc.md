@@ -2,7 +2,6 @@
 wsId: CoinDCXPro
 title: 'CoinDCX: Bitcoin Crypto App'
 verdict: custodial
-meta: ok
 date: 2021-08-27
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 7.51.0005
   reviews: 599
   icon: com.coindcx.btc.png
+  meta: ok
   developerName: CoinDCX Official
 iphone:
   appId: com.coindcx.btc
@@ -33,6 +33,7 @@ iphone:
   version: 7.51.0004
   reviews: 42748
   icon: com.coindcx.btc.jpg
+  meta: ok
   developerName: CoinDCX Official
 
 ---

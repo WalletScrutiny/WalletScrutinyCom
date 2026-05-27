@@ -2,7 +2,6 @@
 wsId: arcticCryptoWallet
 title: 'Arctic: Crypto Bitcoin Wallet'
 verdict: nosource
-meta: stale
 date: 2025-07-14
 authors:
 - danny

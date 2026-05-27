@@ -1,7 +1,6 @@
 ---
 title: Safepay - Buy Sell Crypto
 verdict: wip
-meta: removed
 date: 2024-12-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-03-30
   version: 3.0.0
   icon: com.safepay.live.png
+  meta: removed
   developerName: safepay
 
 ---

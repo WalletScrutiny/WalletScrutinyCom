@@ -1,7 +1,6 @@
 ---
 title: Max Crypto Trading
 verdict: wip
-meta: removed
 date: 2023-08-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-06-06
   version: 1.0.0
   icon: com.maxcryptotraders.maxcryptotradingapp.png
+  meta: removed
   developerName: Max Crypto Traders
 
 ---

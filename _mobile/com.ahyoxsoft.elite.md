@@ -1,7 +1,6 @@
 ---
 title: Elite Trade - Buy & Sell Bitco
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.ahyoxsoft.elite/
@@ -12,6 +11,7 @@ android:
   updated: 2020-08-06
   version: '1.0'
   icon: com.ahyoxsoft.elite.png
+  meta: removed
   developerName: Akanbi Peter
 
 ---

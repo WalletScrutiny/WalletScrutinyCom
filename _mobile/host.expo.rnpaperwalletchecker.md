@@ -1,7 +1,6 @@
 ---
 title: Paper Wallets Checker
 verdict: wip
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/host.expo.rnpaperwalletchecker/
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   reviews: 4
   icon: host.expo.rnpaperwalletchecker.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: TabaniX - P2P Crypto Exchange
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.tabanix.tade/
@@ -12,6 +11,7 @@ android:
   updated: 2022-10-12
   version: 1.0.0
   icon: com.tabanix.tade.png
+  meta: removed
   developerName: Tabani INC
 
 ---

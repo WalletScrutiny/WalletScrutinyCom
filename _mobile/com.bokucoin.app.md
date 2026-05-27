@@ -1,7 +1,6 @@
 ---
 title: Bokucoin - Buy, Sell & Store B
 verdict: wip
-meta: removed
 date: 2023-05-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-10-10
   version: '1.5'
   icon: com.bokucoin.app.png
+  meta: removed
   developerName: Bokucoin
 
 ---

@@ -2,7 +2,6 @@
 wsId: Ledn
 title: Ledn
 verdict: custodial
-meta: obsolete
 date: 2023-08-25
 authors:
 - danny

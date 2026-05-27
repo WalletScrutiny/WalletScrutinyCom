@@ -2,7 +2,6 @@
 wsId: crossTowerIn
 title: CrossTower
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: '3.27'
   reviews: 2
   icon: com.crosstower.india.png
+  meta: removed
   developerName: Crosstower
 iphone:
   appId: com.crosstower.trading
@@ -34,6 +34,7 @@ iphone:
   version: '3.26'
   reviews: 3
   icon: com.crosstower.trading.jpg
+  meta: removed
   developerName: Crosstower India
 
 ---

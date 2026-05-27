@@ -1,7 +1,6 @@
 ---
 title: NOBLE DEX
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://noblecoin.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-05
   version: '1.23'
   icon: digiiblip.com.nobelhold.png
+  meta: removed
 
 ---
 

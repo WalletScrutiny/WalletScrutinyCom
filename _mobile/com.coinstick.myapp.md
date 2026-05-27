@@ -1,7 +1,6 @@
 ---
 title: Coinstick
 verdict: nosendreceive
-meta: ok
 date: 2023-12-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.0
   reviews: 6
   icon: com.coinstick.myapp.png
+  meta: ok
   developerName: Coinstick
 
 ---

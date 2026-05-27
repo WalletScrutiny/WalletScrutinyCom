@@ -1,7 +1,6 @@
 ---
 title: Crypto.com - Buy Bitcoin Now
 verdict: fake
-meta: removed
 date: 2021-09-24
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 3
   icon: com.cryptojournal.crypto.com.buy.bitcoin.now.png
+  meta: removed
 
 ---
 

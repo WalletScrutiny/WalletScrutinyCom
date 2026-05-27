@@ -1,7 +1,6 @@
 ---
 title: DigiDinar
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.digidinar.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-03-02
   version: VARY
   icon: com.application.digidinar.png
+  meta: removed
   developerName: DigiDinar
 
 ---

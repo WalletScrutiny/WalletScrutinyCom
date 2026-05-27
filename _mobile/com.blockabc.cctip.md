@@ -2,7 +2,6 @@
 wsId: blockabcCCtip
 title: Cwallet - Secure Crypto Wallet
 verdict: custodial
-meta: ok
 date: 2022-06-28
 authors:
 - danny

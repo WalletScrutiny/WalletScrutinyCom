@@ -2,7 +2,6 @@
 wsId: brasilBitcoin
 title: Brasil Bitcoin
 verdict: custodial
-meta: ok
 date: 2021-09-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 4.1.02
   reviews: 5637
   icon: br.com.brasilbitcoin.png
+  meta: ok
   developerName: Brasil Bitcoin
 iphone:
   appId: br.com.brasilbitcoin.run
@@ -31,6 +31,7 @@ iphone:
   version: 4.1.03
   reviews: 2283
   icon: br.com.brasilbitcoin.run.jpg
+  meta: ok
   developerName: Brasil Bitcoin Servicos Digitais LTDA
 
 ---

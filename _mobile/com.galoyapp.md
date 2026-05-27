@@ -2,7 +2,6 @@
 wsId: bitcoinbeach
 title: Blink (Bitcoin Wallet)
 verdict: custodial
-meta: ok
 date: 2023-10-20
 authors:
 - leo
@@ -29,6 +28,7 @@ android:
   version: 2.4.15
   reviews: 47
   icon: com.galoyapp.png
+  meta: ok
   developerName: Blink El Salvador S.A. de C.V.
 iphone:
   appId: io.galoy.bitcoinbeach
@@ -39,6 +39,7 @@ iphone:
   version: 2.4.15
   reviews: 68
   icon: io.galoy.bitcoinbeach.jpg
+  meta: ok
   developerName: Blink SA de CV
 
 ---

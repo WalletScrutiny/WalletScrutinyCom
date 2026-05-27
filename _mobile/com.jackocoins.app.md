@@ -1,7 +1,6 @@
 ---
 title: Jackocoins -  Sell BTC, ETH, U
 verdict: nosendreceive
-meta: removed
 date: 2024-10-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.0.2
   reviews: 26
   icon: com.jackocoins.app.png
+  meta: removed
   developerName: Jackocoins
 
 ---

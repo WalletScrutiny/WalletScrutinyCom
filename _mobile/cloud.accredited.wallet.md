@@ -1,7 +1,6 @@
 ---
 title: Accredited Wallet
 verdict: wip
-meta: removed
 date: 2024-05-18
 redirect_from:
 - /android/cloud.accredited.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2023-06-29
   version: 3.2.54
   icon: cloud.accredited.wallet.jpg
+  meta: removed
   developerName: Brainsfield Advisory
 
 ---

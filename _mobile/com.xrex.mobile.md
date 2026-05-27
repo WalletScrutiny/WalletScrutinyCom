@@ -2,7 +2,6 @@
 wsId: XRex
 title: XREX:Buy Crypto,Bitcoin & USDT
 verdict: custodial
-meta: ok
 date: 2021-11-15
 authors:
 - danny

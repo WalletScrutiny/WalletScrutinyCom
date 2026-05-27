@@ -1,7 +1,6 @@
 ---
 title: Trustody Terminal
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://trustody.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-14
   version: 3.0.0
   icon: tech.ammer.pos.png
+  meta: removed
 
 ---
 

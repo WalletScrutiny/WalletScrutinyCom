@@ -1,7 +1,6 @@
 ---
 title: RBul Wallet
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.antier.rbul/
@@ -12,6 +11,7 @@ android:
   updated: 2022-02-17
   version: '1.3'
   icon: com.antier.rbul.jpg
+  meta: removed
   developerName: Redbul
 
 ---

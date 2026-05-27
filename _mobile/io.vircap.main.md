@@ -2,7 +2,6 @@
 wsId: vircapExchange
 title: Vircap
 verdict: custodial
-meta: removed
 date: 2024-11-04
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2024-06-03
   version: VARY
   icon: io.vircap.main.png
+  meta: removed
   developerName: Vircap LLC
 iphone:
   appId: io.vircap.main
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.47
   reviews: 9
   icon: io.vircap.main.jpg
+  meta: removed
   developerName: Vircap LLC
 
 ---

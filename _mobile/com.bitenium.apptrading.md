@@ -1,7 +1,6 @@
 ---
 title: Bitenium Crypto Exchange
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://bitenium.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-19
   version: 1.0.6
   icon: com.bitenium.apptrading.png
+  meta: removed
   developerName: Bitenium Exchange LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: NEO Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.myneogroup.neotrade/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-12
   version: '1.23'
   icon: com.myneogroup.neotrade.png
+  meta: removed
 
 ---
 

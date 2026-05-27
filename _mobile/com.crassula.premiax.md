@@ -1,7 +1,6 @@
 ---
 title: PremiaX
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: https://www.premiax.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-28
   version: '1.1'
   icon: com.crassula.premiax.png
+  meta: removed
   developerName: Fripro OÜ
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: VoltPay
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://voltpay.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-11-07
   version: 1.2.24
   icon: com.core.voltpay.png
+  meta: removed
   developerName: CoreWeb
 
 ---

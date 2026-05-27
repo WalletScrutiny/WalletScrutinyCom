@@ -1,7 +1,6 @@
 ---
 title: 코인아이비티 (CoinIBT)
 verdict: wip
-meta: removed
 date: 2021-11-10
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.13'
   reviews: 4
   icon: com.cybertronchain.coinibt.png
+  meta: removed
   developerName: CyberTronChain (CTC)
 
 ---

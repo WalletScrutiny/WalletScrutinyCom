@@ -2,7 +2,6 @@
 wsId: quidaxBuyBitcoin
 title: Quidax -  Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2026-01-02
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.2.14
   reviews: 12
   icon: io.quidax.app.png
+  meta: ok
   developerName: Quidax Technologies
 iphone:
   appId: io.quidax.pro
@@ -36,6 +36,7 @@ iphone:
   version: 1.1.15
   reviews: 580
   icon: io.quidax.pro.jpg
+  meta: ok
   developerName: Quidax Technologies
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Invest
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptolabllc.bitcoin.invest/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-18
   version: '1.0'
   icon: com.cryptolabllc.bitcoin.invest.jpg
+  meta: removed
 
 ---
 

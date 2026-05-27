@@ -1,7 +1,6 @@
 ---
 title: VivexPay
 verdict: wip
-meta: removed
 date: 2023-05-31
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.3.5
   reviews: 11
   icon: com.optherium.wallet.png
+  meta: removed
   developerName: Optherium Labs
 
 ---

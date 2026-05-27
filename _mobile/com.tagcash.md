@@ -1,7 +1,6 @@
 ---
 title: Tagcash Wallet
 verdict: custodial
-meta: removed
 date: 2023-05-10
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2022-10-30
   version: 8.0.4
   icon: com.tagcash.png
+  meta: removed
   developerName: Tagcash Ltd
 
 ---

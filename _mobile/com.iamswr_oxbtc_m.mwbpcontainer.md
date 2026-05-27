@@ -1,7 +1,6 @@
 ---
 title: OXBTC PRO
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.3.8
   reviews: 9
   icon: com.iamswr_oxbtc_m.mwbpcontainer.png
+  meta: removed
   developerName: HALLEY TECHNOLOGIES PTE. ltd.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Coinals:Wallet
 verdict: wip
-meta: removed
 date: 2021-11-22
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-23
   version: 1.0.0
   icon: com.Coinals.Wallet.png
+  meta: removed
   developerName: COINALS_INC
 
 ---

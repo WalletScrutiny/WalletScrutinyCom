@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Invest App
 verdict: wip
-meta: removed
 date: 2021-09-24
 redirect_from:
 - /android/net.cryptocurrencersltd.bitcoin.invest.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-18
   version: '1.0'
   icon: net.cryptocurrencersltd.bitcoin.invest.app.png
+  meta: removed
 
 ---
 

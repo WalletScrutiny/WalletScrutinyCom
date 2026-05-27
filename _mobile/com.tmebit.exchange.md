@@ -1,7 +1,6 @@
 ---
 title: TMEBIT EXCHANGE
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.tmebit.co.kr#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-04-05
   version: '3.0'
   icon: com.tmebit.exchange.png
+  meta: removed
   developerName: 김재규
 
 ---

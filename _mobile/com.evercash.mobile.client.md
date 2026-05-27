@@ -1,7 +1,6 @@
 ---
 title: Evercash
 verdict: wip
-meta: removed
 date: 2025-02-26
 redirect_from:
 - /android/com.evercash.mobile.client/
@@ -12,6 +11,7 @@ android:
   updated: 2023-12-04
   version: 3.0.0-a46a024b
   icon: com.evercash.mobile.client.jpg
+  meta: removed
   developerName: Parcent
 
 ---

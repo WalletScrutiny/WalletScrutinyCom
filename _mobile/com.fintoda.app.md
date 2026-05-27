@@ -2,7 +2,6 @@
 wsId: fintodaWallet
 title: Fintoda Wallet
 verdict: nosource
-meta: ok
 date: 2024-07-24
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-05-25
   version: 1.7.11
   icon: com.fintoda.app.png
+  meta: ok
   developerName: FINTODA LLC
 iphone:
   appId: com.fintoda.app
@@ -30,6 +30,7 @@ iphone:
   version: 1.7.10
   reviews: 0
   icon: com.fintoda.app.jpg
+  meta: ok
   developerName: FINTODA LLC
 
 ---

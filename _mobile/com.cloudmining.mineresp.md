@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Mining 2021 - Cloud Mining BTC Wallet
 verdict: wip
-meta: removed
 date: 2021-08-13
 redirect_from:
 - /android/com.cloudmining.mineresp/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 13
   icon: com.cloudmining.mineresp.jpg
+  meta: removed
 
 ---
 

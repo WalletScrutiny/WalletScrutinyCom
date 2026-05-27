@@ -2,7 +2,6 @@
 wsId: Airbitz
 title: Bitcoin Wallet - Airbitz
 verdict: sourceavailable
-meta: obsolete
 date: 2021-10-19
 authors:
 - leo

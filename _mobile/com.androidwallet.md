@@ -1,7 +1,6 @@
 ---
 title: dCipher Crypto Wallet
 verdict: nosource
-meta: removed
 date: 2024-04-26
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.1.20
   reviews: 12
   icon: com.androidwallet.png
+  meta: removed
   developerName: dCipher Alexandru Dirman
 
 ---

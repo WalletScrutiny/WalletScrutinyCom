@@ -2,7 +2,6 @@
 wsId: coinsph
 title: 'Coins: Buy Crypto & Pay Wallet'
 verdict: custodial
-meta: ok
 date: 2020-10-12
 authors:
 - leo

@@ -1,7 +1,6 @@
 ---
 title: PC Crypto Market
 verdict: wip
-meta: removed
 date: 2023-05-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-08-31
   version: '1.2'
   icon: com.pccryptomarket.png
+  meta: removed
   developerName: PC Crypto Market
 
 ---

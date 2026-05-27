@@ -2,7 +2,6 @@
 wsId: amlsafe
 title: Safe3 - Crypto Wallet
 verdict: custodial
-meta: ok
 date: 2021-04-11
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   version: '2.44'
   reviews: 2
   icon: com.silenca.amlsafe.png
+  meta: ok
   developerName: Avelot Limited
 iphone:
   appId: com.avelot.amlsafe
@@ -30,6 +30,7 @@ iphone:
   version: 2.44.814
   reviews: 51
   icon: com.avelot.amlsafe.jpg
+  meta: ok
   developerName: Avelot Limited
 
 ---

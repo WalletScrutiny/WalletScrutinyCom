@@ -1,7 +1,6 @@
 ---
 title: Block Cloud - Buy Bitcoin, ETH
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.blockcloud/
@@ -12,6 +11,7 @@ android:
   updated: 2021-02-16
   version: '1.4'
   icon: com.blockcloud.png
+  meta: removed
   developerName: Block Cloud
 
 ---

@@ -2,7 +2,6 @@
 wsId: verusMobile
 title: Verus Mobile
 verdict: sourceavailable
-meta: ok
 date: 2025-04-24
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   version: 1.0.34
   reviews: 36
   icon: org.autonomoussoftwarefoundation.verusmobile.android.png
+  meta: ok
   developerName: Autonomous Software Foundation
 iphone:
   appId: org.autonomoussoftwarefoundation.verusmobile.ios
@@ -37,6 +37,7 @@ iphone:
   version: 1.0.34
   reviews: 19
   icon: org.autonomoussoftwarefoundation.verusmobile.ios.jpg
+  meta: ok
   developerName: Autonomous Software Foundation
 
 ---

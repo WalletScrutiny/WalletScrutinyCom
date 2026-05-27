@@ -1,7 +1,6 @@
 ---
 title: Win Wallet Pro
 verdict: wip
-meta: removed
 date: 2024-04-26
 website: https://wise.win#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-14
   version: '1.46'
   icon: win.wise.wallet.pro.png
+  meta: removed
   developerName: wise.win
 
 ---

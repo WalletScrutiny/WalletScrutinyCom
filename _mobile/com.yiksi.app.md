@@ -1,7 +1,6 @@
 ---
 title: Yiksi
 verdict: wip
-meta: removed
 date: 2024-05-18
 website: https://yiksi.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-08
   version: 2.2.12
   icon: com.yiksi.app.png
+  meta: removed
   developerName: Yiksi
 
 ---

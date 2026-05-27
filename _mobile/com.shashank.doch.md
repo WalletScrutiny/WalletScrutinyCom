@@ -1,7 +1,6 @@
 ---
 title: DOCH
 verdict: wip
-meta: removed
 date: 2023-06-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-08-11
   version: 1.6.7
   icon: com.shashank.doch.png
+  meta: removed
   developerName: DOCH LLC
 
 ---

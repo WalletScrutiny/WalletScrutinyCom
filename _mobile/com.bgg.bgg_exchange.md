@@ -1,7 +1,6 @@
 ---
 title: Bgogo - Digital Asset Exchange
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://bgogo.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.6.7
   reviews: 4
   icon: com.bgg.bgg_exchange.png
+  meta: removed
 
 ---
 

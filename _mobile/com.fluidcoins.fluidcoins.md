@@ -1,7 +1,6 @@
 ---
 title: Fluidcoins
 verdict: wip
-meta: removed
 date: 2021-11-26
 redirect_from:
 - /android/com.fluidcoins.fluidcoins/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-16
   version: 0.7.8
   icon: com.fluidcoins.fluidcoins.png
+  meta: removed
 
 ---
 

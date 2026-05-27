@@ -1,7 +1,6 @@
 ---
 title: MX exchange - buying & sell Bitcoin
 verdict: fake
-meta: removed
 date: 2021-12-22
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 16
   icon: com.edss.pones.png
+  meta: removed
 
 ---
 

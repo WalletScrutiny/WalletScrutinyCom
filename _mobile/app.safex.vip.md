@@ -2,7 +2,6 @@
 wsId: yubitExchange
 title: 'YUBIT: Crypto Exchange'
 verdict: custodial
-meta: ok
 date: 2026-01-15
 authors:
 - danny

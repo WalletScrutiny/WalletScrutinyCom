@@ -2,7 +2,6 @@
 wsId: hagglex
 title: 'HaggleX: Buy/Sell BTC and ETH'
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.1.2
   reviews: 90
   icon: com.hagglex.hagglex.png
+  meta: removed
   developerName: Hagglex Limited
 iphone:
   appId: com.hagglex
@@ -32,6 +32,7 @@ iphone:
   version: 1.1.2
   reviews: 107
   icon: com.hagglex.jpg
+  meta: removed
 
 ---
 

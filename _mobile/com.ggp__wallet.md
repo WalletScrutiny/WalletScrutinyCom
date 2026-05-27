@@ -2,7 +2,6 @@
 wsId: ggpWallet
 title: GGP Wallet
 verdict: nosource
-meta: ok
 date: 2025-11-18
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.5.8
   reviews: 16
   icon: com.ggp__wallet.jpg
+  meta: ok
   developerName: Planet 9 Group Corporation
 iphone:
   appId: wallet.ggp
@@ -36,6 +36,7 @@ iphone:
   version: 1.5.5
   reviews: 9
   icon: wallet.ggp.jpg
+  meta: ok
   developerName: Planet 9 Corp.
 
 ---

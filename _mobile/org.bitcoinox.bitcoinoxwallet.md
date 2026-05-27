@@ -1,7 +1,6 @@
 ---
 title: Bitcoin OX Crypto Wallet
 verdict: nosource
-meta: stale
 date: 2025-12-18
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   version: 2.8.8
   reviews: 5
   icon: org.bitcoinox.bitcoinoxwallet.png
+  meta: stale
   developerName: GNUAPP UNIPESSOAL LDA
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: TradeNext
 verdict: wip
-meta: removed
 date: 2023-09-04
 website: https://tradenext.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2023-06-26
   version: 1.7.0
   icon: com.tradenext.android.png
+  meta: removed
   developerName: TradeNext
 
 ---

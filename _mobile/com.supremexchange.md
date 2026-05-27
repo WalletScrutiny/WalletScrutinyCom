@@ -1,7 +1,6 @@
 ---
 title: Supreme CrypX | Bitcoin Exchan
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.supremecrypx.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-23
   version: '2.1'
   icon: com.supremexchange.png
+  meta: removed
   developerName: Kripter Kommunications
 
 ---

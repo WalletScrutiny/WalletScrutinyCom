@@ -2,7 +2,6 @@
 wsId: sincereSWallet
 title: S-Wallet
 verdict: custodial
-meta: obsolete
 date: 2025-04-11
 authors:
 - danny

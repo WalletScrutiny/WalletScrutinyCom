@@ -1,7 +1,6 @@
 ---
 title: 'ECOTX: BTC, Crypto and P2P'
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://ecotx.io#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-10-04
   version: VARY
   icon: com.ecotx.platform.png
+  meta: removed
   developerName: ECOTX L.L.C
 
 ---

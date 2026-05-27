@@ -2,7 +2,6 @@
 wsId: youngPlatformSwapBitcoin
 title: 'Young Platform: Cash & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-12-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-19
   version: 3.27.0
   icon: com.youngplatform.exchange.png
+  meta: ok
   developerName: Young Platform S.p.a
 iphone:
   appId: com.youngplatform.exchange
@@ -31,6 +31,7 @@ iphone:
   version: 3.27.0
   reviews: 1094
   icon: com.youngplatform.exchange.jpg
+  meta: ok
   developerName: Young Agency S.R.L
 
 ---

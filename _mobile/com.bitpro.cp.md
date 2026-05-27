@@ -1,7 +1,6 @@
 ---
 title: BITPRO
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/com.bitpro.cp/
@@ -12,6 +11,7 @@ android:
   updated: 2023-04-09
   version: '1.0'
   icon: com.bitpro.cp.png
+  meta: removed
   developerName: reathasmyk6dgfdrerdhfg
 
 ---

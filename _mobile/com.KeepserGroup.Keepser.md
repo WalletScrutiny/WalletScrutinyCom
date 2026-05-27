@@ -1,7 +1,6 @@
 ---
 title: KEEPSER
 verdict: wip
-meta: removed
 date: 2025-11-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2024-12-17
   version: 2.0.0
   icon: com.KeepserGroup.Keepser.png
+  meta: removed
   developerName: Freemindtronic SL
 
 ---

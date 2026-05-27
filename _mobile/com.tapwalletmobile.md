@@ -2,7 +2,6 @@
 wsId: tapProtocolWallet
 title: TAP Protocol Wallet
 verdict: nosource
-meta: ok
 date: 2026-05-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-01-19
   version: 1.0.29
   icon: com.tapwalletmobile.png
+  meta: ok
   developerName: Trac Systems
 iphone:
   appId: com.tap-protocol.tapwallet
@@ -28,6 +28,7 @@ iphone:
   version: 1.0.7
   reviews: 7
   icon: com.tap-protocol.tapwallet.jpg
+  meta: ok
   developerName: Trac Systems UG (haftungsbeschrankt)
 
 ---

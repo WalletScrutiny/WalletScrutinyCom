@@ -1,7 +1,6 @@
 ---
 title: Eagle Robo
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://eaglerobo.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-22
   version: 1.0.2
   icon: com.eaglerobo.android.png
+  meta: removed
   developerName: eagle robo
 
 ---

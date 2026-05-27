@@ -2,7 +2,6 @@
 wsId: Bytesmix
 title: Bytesmix - Coin, Token Wallet
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.4.7
   reviews: 276
   icon: com.bytesmix.app.png
+  meta: removed
   developerName: Bytesmix
 iphone:
   appId: bytesmix.live.co.kr
@@ -32,6 +32,7 @@ iphone:
   version: 2.6.3
   reviews: 9
   icon: bytesmix.live.co.kr.jpg
+  meta: removed
   developerName: Bytesmix corp
 
 ---

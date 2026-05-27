@@ -1,7 +1,6 @@
 ---
 title: Chiliz Exchange
 verdict: custodial
-meta: removed
 date: 2022-04-25
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 5.12.1
   reviews: 5
   icon: net.chiliz.broker.android.png
+  meta: removed
   developerName: Mediarex Enterprises Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Cupcake by Cake Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://cakewallet.com
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 1.1.1
   reviews: 8
   icon: com.cakewallet.cupcake.jpg
+  meta: ok
   developerName: Cake Technologies, LLC
 
 ---

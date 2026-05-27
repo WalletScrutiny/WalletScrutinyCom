@@ -1,7 +1,6 @@
 ---
 title: MeeyWallet
 verdict: wip
-meta: removed
 date: 2024-05-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-07-13
   version: '7.0'
   icon: com.org.meeyinvest.png
+  meta: removed
   developerName: MEEY INVEST GLOBAL PTE. LTD
 
 ---

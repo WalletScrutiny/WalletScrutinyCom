@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Invest India
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptowallets.bitcoin.invest.india/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-28
   version: '1.0'
   icon: net.cryptowallets.bitcoin.invest.india.png
+  meta: removed
 
 ---
 

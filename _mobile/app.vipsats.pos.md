@@ -1,7 +1,6 @@
 ---
 title: Vipsats Lightning POS
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://vipsats.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-05
   version: '1.1'
   icon: app.vipsats.pos.png
+  meta: removed
   developerName: Vipsats
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Rebellion Pay
 verdict: wip
-meta: removed
 date: 2023-12-15
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   version: 1.11.21
   reviews: 5869
   icon: com.rebellionpay.app.jpg
+  meta: removed
   developerName: RBLDE Unconventional S.L.
 
 ---

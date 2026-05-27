@@ -2,7 +2,6 @@
 wsId: tatspace
 title: TATSPACE
 verdict: custodial
-meta: stale
 date: 2025-09-09
 authors:
 - danny

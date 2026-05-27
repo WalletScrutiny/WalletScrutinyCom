@@ -1,7 +1,6 @@
 ---
 title: 페이블(Payble)
 verdict: wip
-meta: removed
 date: 2024-04-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2021-03-01
   version: 2.1.5
   icon: com.app.payble.png
+  meta: removed
   developerName: Payble
 
 ---

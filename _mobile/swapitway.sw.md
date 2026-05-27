@@ -1,7 +1,6 @@
 ---
 title: 'Swapitway : Sell Trade or Swap Gift Card & Bitcoin'
 verdict: wip
-meta: removed
 date: 2021-09-06
 redirect_from:
 - /android/swapitway.sw/
@@ -13,6 +12,7 @@ android:
   version: '2.5'
   reviews: 10
   icon: swapitway.sw.jpg
+  meta: removed
 
 ---
 

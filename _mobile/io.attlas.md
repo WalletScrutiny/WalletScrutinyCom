@@ -1,7 +1,6 @@
 ---
 title: ATX - Buy Bitcoin Securely
 verdict: custodial
-meta: ok
 date: 2023-02-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.6.1
   reviews: 5
   icon: io.attlas.png
+  meta: ok
   developerName: ATX GLOBAL
 
 ---

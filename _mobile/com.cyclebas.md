@@ -1,7 +1,6 @@
 ---
 title: cyclebas
 verdict: wip
-meta: removed
 date: 2023-01-30
 website: https://www.cyclebas.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 3.0.16
   reviews: 93
   icon: com.cyclebas.png
+  meta: removed
 
 ---
 

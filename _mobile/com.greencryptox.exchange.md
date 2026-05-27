@@ -2,7 +2,6 @@
 wsId: greenCryptoX
 title: 'GreenCryptoX: Buy BTC & Crypto'
 verdict: custodial
-meta: stale
 date: 2025-11-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2024-08-23
   version: 3.0.12
   icon: com.greencryptox.exchange.png
+  meta: stale
   developerName: AOWS Business Services Pvt Ltd
 iphone:
   appId: com.greencryptox.exchange
@@ -29,6 +29,7 @@ iphone:
   version: 3.6.4
   reviews: 2
   icon: com.greencryptox.exchange.jpg
+  meta: stale
   developerName: AOWS BUSINESS SERVICES PRIVATE LIMITED
 
 ---

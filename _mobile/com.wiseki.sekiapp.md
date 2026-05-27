@@ -2,7 +2,6 @@
 wsId: sekiappCrypto
 title: 'SekiApp: Buy and Sell Giftcard'
 verdict: custodial
-meta: ok
 date: 2023-08-14
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 2.3.7
   reviews: 25
   icon: com.wiseki.sekiapp.png
+  meta: ok
   developerName: SekiApp
 iphone:
   appId: com.wiseki.sekiapp.new
@@ -35,6 +35,7 @@ iphone:
   version: 2.3.6
   reviews: 86
   icon: com.wiseki.sekiapp.new.jpg
+  meta: ok
   developerName: Wiseki Technologies Limited
 
 ---

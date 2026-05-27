@@ -1,7 +1,6 @@
 ---
 title: 'EarnBIT: Buy & Exchange Crypto'
 verdict: wip
-meta: ok
 date: 2023-06-03
 website: https://earnbit.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-25
   version: 1.0.27
   icon: com.earnbit.app.exchange.png
+  meta: ok
   developerName: EarnBit Corp.
 
 ---

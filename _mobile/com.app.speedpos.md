@@ -1,7 +1,6 @@
 ---
 title: Speed Bitcoin POS
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://www.tryspeed.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-13
   version: 1.2.0.0.0.1.fp.gps
   icon: com.app.speedpos.png
+  meta: removed
   developerName: Speed1 - FZCO
 
 ---

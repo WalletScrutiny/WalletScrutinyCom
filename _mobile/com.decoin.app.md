@@ -1,7 +1,6 @@
 ---
 title: Decoin
 verdict: wip
-meta: removed
 date: 2023-05-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2022-07-26
   version: '1.127'
   icon: com.decoin.app.png
+  meta: removed
   developerName: decoin.io
 
 ---

@@ -2,7 +2,6 @@
 wsId: finanzenZero
 title: finanzen.net zero Aktien & ETF
 verdict: nosendreceive
-meta: ok
 date: 2023-03-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.13.1
   reviews: 8
   icon: de.gratisbroker.android.mobileapp.png
+  meta: ok
   developerName: finanzen.net zero GmbH
 iphone:
   appId: de.gratisbroker.ios.mobileapp
@@ -32,6 +32,7 @@ iphone:
   version: 5.13.2
   reviews: 24659
   icon: de.gratisbroker.ios.mobileapp.jpg
+  meta: ok
   developerName: finanzen.net zero GmbH
 
 ---

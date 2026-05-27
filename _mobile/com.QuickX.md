@@ -1,7 +1,6 @@
 ---
 title: QuickX Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2020-07-31
   version: 1.16.0
   icon: com.QuickX.png
+  meta: removed
 
 ---
 

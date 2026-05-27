@@ -1,7 +1,6 @@
 ---
 title: Paygety
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://paygety.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-10-31
   version: 1.5.5
   icon: com.paygety.paygety.png
+  meta: removed
   developerName: Paygety OU
 
 ---

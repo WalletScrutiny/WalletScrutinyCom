@@ -1,7 +1,6 @@
 ---
 title: کیف پول من
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '1.7'
   reviews: 10
   icon: kifpool.me.png
+  meta: removed
   developerName: zipboomlak
 
 ---

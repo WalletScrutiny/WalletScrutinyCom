@@ -1,7 +1,6 @@
 ---
 title: Bibo Exchange
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://www.bibo.gold
 twitter: biboexchange
@@ -14,6 +13,7 @@ android:
   updated: 2020-02-20
   version: 2.4.1
   icon: com.bibo.exchange.jpg
+  meta: removed
   developerName: Bibo Market Inc
 
 ---

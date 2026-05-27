@@ -2,7 +2,6 @@
 wsId: ultorex
 title: Ultorex
 verdict: custodial
-meta: ok
 date: 2024-11-28
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-04-24
   version: 1.1.20
   icon: com.ultorexapp.io.png
+  meta: ok
   developerName: Ultorex
 iphone:
   appId: com.ultorex.io
@@ -31,6 +31,7 @@ iphone:
   version: 1.1.20
   reviews: 0
   icon: com.ultorex.io.jpg
+  meta: ok
   developerName: Ultorex LLC
 
 ---

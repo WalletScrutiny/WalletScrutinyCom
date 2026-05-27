@@ -2,7 +2,6 @@
 wsId: ThinkTrader
 title: ThinkTrader
 verdict: nosendreceive
-meta: ok
 date: 2021-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 7.0.6.0
   reviews: 350
   icon: com.riflexo.tradeinterceptormobile.png
+  meta: ok
   developerName: ThinkMarkets
 iphone:
   appId: com.riflexo.TradeInterceptor
@@ -32,6 +32,7 @@ iphone:
   version: 9.8.0
   reviews: 773
   icon: com.riflexo.TradeInterceptor.jpg
+  meta: ok
   developerName: TF GLOBAL MARKETS (UK) LIMITED
 
 ---

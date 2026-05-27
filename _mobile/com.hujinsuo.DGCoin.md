@@ -1,7 +1,6 @@
 ---
 title: DGCoin - Buy Bitcoin & Crypto
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.hujinsuo.DGCoin/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-13
   version: 1.4.1
   icon: com.hujinsuo.DGCoin.png
+  meta: removed
 
 ---
 

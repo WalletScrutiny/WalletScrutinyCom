@@ -2,7 +2,6 @@
 wsId: Cryptinix
 title: 'Cryptinix: Crypto Trading'
 verdict: custodial
-meta: ok
 date: 2025-08-21
 authors:
 - danny

@@ -2,7 +2,6 @@
 wsId: hotbit
 title: Hotbit
 verdict: custodial
-meta: removed
 date: 2023-04-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.4.33
   reviews: 1606
   icon: io.hotbit.shouyi.png
+  meta: removed
   developerName: Hotbit Technology Limited
 iphone:
   appId: io.chainbase.global
@@ -31,6 +31,7 @@ iphone:
   version: 1.4.13
   reviews: 718
   icon: io.chainbase.global.jpg
+  meta: removed
   developerName: Chainbase Co.,Ltd.
 
 ---

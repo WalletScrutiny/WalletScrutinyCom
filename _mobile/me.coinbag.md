@@ -1,7 +1,6 @@
 ---
 title: Coinbag Cryptocurrency Wallet
 verdict: wip
-meta: removed
 date: 2024-12-23
 website: https://coinbag.me/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-30
   version: '1.8'
   icon: me.coinbag.png
+  meta: removed
   developerName: TechPay
 
 ---

@@ -2,7 +2,6 @@
 wsId: m2BuyBitcoin
 title: 'M2: Buy Bitcoin & Trade Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2025-12-15
   version: 5.21.1
   icon: com.m2.exchange.png
+  meta: ok
   developerName: M2 Investments Limited
 iphone:
   appId: com.m2.exchange
@@ -30,6 +30,7 @@ iphone:
   version: 5.21.0
   reviews: 71
   icon: com.m2.exchange.jpg
+  meta: ok
   developerName: M2 Investments Limited
 
 ---

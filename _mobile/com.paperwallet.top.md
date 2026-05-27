@@ -1,7 +1,6 @@
 ---
 title: Paper Crypto Wallet Generator
 verdict: wip
-meta: removed
 date: 2025-02-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.0.22
   reviews: 4
   icon: com.paperwallet.top.png
+  meta: removed
   developerName: TechnoL0g
 
 ---

@@ -2,7 +2,6 @@
 wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 verdict: wip
-meta: stale
 date: 2023-12-02
 authors:
 - danny

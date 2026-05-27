@@ -1,7 +1,6 @@
 ---
 title: HRAI
 verdict: wip
-meta: removed
 date: 2023-04-22
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2022-05-26
   version: '1.2'
   icon: com.hrai.android.png
+  meta: removed
 
 ---
 

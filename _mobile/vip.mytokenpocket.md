@@ -2,7 +2,6 @@
 wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
 verdict: obfuscated
-meta: ok
 date: 2023-01-11
 authors:
 - leo

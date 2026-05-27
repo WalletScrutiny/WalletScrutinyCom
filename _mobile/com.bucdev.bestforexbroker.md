@@ -1,7 +1,6 @@
 ---
 title: Forex Broker
 verdict: wip
-meta: removed
 date: 2025-02-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-10-09
   version: 1.1.3
   icon: com.bucdev.bestforexbroker.png
+  meta: removed
   developerName: FinDev
 
 ---

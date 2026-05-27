@@ -1,7 +1,6 @@
 ---
 title: Bitcoinet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://bitcoinet.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-20
   version: '5.0'
   icon: com.bitcoinet.bitcoinet.png
+  meta: removed
 
 ---
 

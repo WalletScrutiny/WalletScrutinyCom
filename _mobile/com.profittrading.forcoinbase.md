@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for Coinbase
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: VARY
   reviews: 27
   icon: com.profittrading.forcoinbase.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

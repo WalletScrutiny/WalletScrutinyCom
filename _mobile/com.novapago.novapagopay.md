@@ -1,7 +1,6 @@
 ---
 title: Novapago Pay
 verdict: wip
-meta: removed
 date: 2024-09-06
 website: https://novapago.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-22
   version: '1.2'
   icon: com.novapago.novapagopay.png
+  meta: removed
   developerName: Novapago
 
 ---

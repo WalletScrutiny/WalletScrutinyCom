@@ -2,7 +2,6 @@
 wsId: netCoinsCrypto
 title: 'Netcoins: Buy Crypto Easily'
 verdict: custodial
-meta: ok
 date: 2025-11-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.13.0
   reviews: 15
   icon: com.netcoins.app.png
+  meta: ok
   developerName: Netcoins Inc
 iphone:
   appId: com.netcoins.app
@@ -32,6 +32,7 @@ iphone:
   version: 5.8.1
   reviews: 80
   icon: com.netcoins.app.jpg
+  meta: ok
   developerName: Netcoins
 
 ---

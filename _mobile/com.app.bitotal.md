@@ -1,7 +1,6 @@
 ---
 title: Bitotal
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://bitotal.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-27
   version: '1.0'
   icon: com.app.bitotal.png
+  meta: removed
   developerName: RAFVARONE LTD
 
 ---

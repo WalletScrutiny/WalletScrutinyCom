@@ -2,7 +2,6 @@
 wsId: stibits
 title: Stibits
 verdict: custodial
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 0.16BETA
   reviews: 3
   icon: com.stibits.png
+  meta: removed
   developerName: Stibits
 iphone:
   appId: com.stibits.wallet
@@ -29,6 +29,7 @@ iphone:
   version: 0.5.1.4
   reviews: 15
   icon: com.stibits.wallet.jpg
+  meta: removed
   developerName: Stibits
 
 ---

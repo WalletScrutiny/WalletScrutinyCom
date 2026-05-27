@@ -1,7 +1,6 @@
 ---
 title: Alamo Trading
 verdict: wip
-meta: removed
 date: 2023-09-28
 website: https://www.alamotrading.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-23
   version: 1.0.3
   icon: io.alamo.ex.jpg
+  meta: removed
   developerName: Alamo trading
 
 ---

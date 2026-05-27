@@ -1,7 +1,6 @@
 ---
 title: Poldot
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://poldotmining.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-04
   version: 1.0.6
   icon: com.poldot.png
+  meta: removed
   developerName: Poldot Technology
 
 ---

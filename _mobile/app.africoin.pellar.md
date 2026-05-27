@@ -1,7 +1,6 @@
 ---
 title: Africrypt Wallet
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: http://www.africrypt.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-16
   version: 1.8.1
   icon: app.africoin.pellar.png
+  meta: removed
   developerName: Brickion Technologies
 
 ---

@@ -2,7 +2,6 @@
 wsId: UpbitGlobal
 title: Upbit (Global)
 verdict: custodial
-meta: ok
 date: 2021-10-10
 authors:
 - danny

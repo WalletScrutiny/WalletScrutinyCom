@@ -2,7 +2,6 @@
 wsId: bousechanj
 title: Bous Echanj
 verdict: custodial
-meta: ok
 date: 2023-09-04
 authors:
 - danny

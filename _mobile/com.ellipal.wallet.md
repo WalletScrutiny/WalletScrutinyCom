@@ -2,7 +2,6 @@
 wsId: ELLIPAL
 title: 'ELLIPAL: Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2021-12-03
 authors:
 - leo
@@ -32,6 +31,7 @@ android:
   version: 4.13.0
   reviews: 548
   icon: com.ellipal.wallet.png
+  meta: ok
   developerName: ellipal
 iphone:
   appId: com.Ellipal.Ellipal
@@ -41,6 +41,7 @@ iphone:
   version: 4.12.0
   reviews: 2949
   icon: com.Ellipal.Ellipal.jpg
+  meta: ok
   developerName: Ellipal
 
 ---

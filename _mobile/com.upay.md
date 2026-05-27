@@ -1,7 +1,6 @@
 ---
 title: UPAY - Personal
 verdict: wip
-meta: removed
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-01-07
   version: '1.1'
   icon: com.upay.png
+  meta: removed
   developerName: The Value Group Inc.
 
 ---

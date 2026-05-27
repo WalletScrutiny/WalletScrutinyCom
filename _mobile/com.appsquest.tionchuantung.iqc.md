@@ -1,7 +1,6 @@
 ---
 title: IQ wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.mob1apps.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-01-04
   version: '1.1'
   icon: com.appsquest.tionchuantung.iqc.png
+  meta: removed
 
 ---
 

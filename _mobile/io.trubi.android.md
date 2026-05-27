@@ -1,7 +1,6 @@
 ---
 title: Trubi Wallet
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.trubi.io
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-01-25
   version: VARY
   icon: io.trubi.android.png
+  meta: removed
   developerName: trubi.io
 
 ---

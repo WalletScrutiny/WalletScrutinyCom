@@ -1,7 +1,6 @@
 ---
 title: Crypstone
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2018-07-03
   version: '2.0'
   icon: com.crypstone.android.crypstone.png
+  meta: removed
   developerName: Crypstone
 
 ---

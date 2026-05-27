@@ -1,7 +1,6 @@
 ---
 wsId: slaviWallet
 title: 'Slavi: DeFi Crypto Wallet'
-meta: obsolete
 date: 2025-05-30
 authors:
 - danny

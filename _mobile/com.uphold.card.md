@@ -1,7 +1,6 @@
 ---
 title: Uphold Card
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.uphold.card/
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   reviews: 192
   icon: com.uphold.card.png
+  meta: removed
 
 ---
 

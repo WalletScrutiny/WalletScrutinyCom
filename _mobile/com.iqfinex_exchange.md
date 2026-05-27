@@ -1,7 +1,6 @@
 ---
 title: IQFinex Exchange
 verdict: wip
-meta: removed
 date: 2021-10-22
 redirect_from:
 - /android/com.iqfinex_exchange/
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   reviews: 3
   icon: com.iqfinex_exchange.png
+  meta: removed
 
 ---
 

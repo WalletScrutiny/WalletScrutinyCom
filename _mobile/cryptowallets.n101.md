@@ -1,7 +1,6 @@
 ---
 title: Crypto Wallets
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://thecryptoyo.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-24
   version: '1.01'
   icon: cryptowallets.n101.png
+  meta: removed
 
 ---
 

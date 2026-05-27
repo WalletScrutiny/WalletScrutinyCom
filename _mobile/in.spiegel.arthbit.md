@@ -1,7 +1,6 @@
 ---
 title: ArthBit
 verdict: custodial
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2021-11-23
   version: 1.0.1
   icon: in.spiegel.arthbit.png
+  meta: removed
   developerName: ARTHBIT PRIVATE LIMITED
 
 ---

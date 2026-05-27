@@ -1,7 +1,6 @@
 ---
 title: Etherio
 verdict: fake
-meta: removed
 date: 2023-10-16
 website: https://etherio.org
 redirect_from:
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-28
   version: 3.30.1
   icon: etherio.wallet.com.png
+  meta: removed
   developerName: PayLink
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'MB | Mercado Bitcoin: criptos'
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.112.0
   reviews: 73
   icon: br.com.mercadobitcoin.android.png
+  meta: ok
   developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
 
 ---

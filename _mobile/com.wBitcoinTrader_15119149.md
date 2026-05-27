@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Trader
 verdict: wip
-meta: removed
 date: 2023-01-30
 redirect_from:
 - /android/com.wBitcoinTrader_15119149/
@@ -12,6 +11,7 @@ android:
   updated: 2022-02-02
   version: '1.0'
   icon: com.wBitcoinTrader_15119149.jpg
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: pandar
 title: 'Pandar: Coins, Giftcard & Bill'
 verdict: nosendreceive
-meta: ok
 date: 2024-09-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.1.7
   reviews: 274
   icon: i.brains.pandax.png
+  meta: ok
   developerName: Pandar Resources
 iphone:
   appId: ng.pandar.resource
@@ -29,6 +29,7 @@ iphone:
   version: 1.9.10
   reviews: 4668
   icon: ng.pandar.resource.jpg
+  meta: ok
   developerName: PANDAR RESOURCES LIMITED
 
 ---

@@ -2,7 +2,6 @@
 wsId: rapixchange
 title: RapiXchangE
 verdict: custodial
-meta: ok
 date: 2023-04-29
 authors:
 - danny

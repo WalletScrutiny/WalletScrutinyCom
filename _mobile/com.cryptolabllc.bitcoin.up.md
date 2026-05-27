@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Up
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptolabllc.bitcoin.up/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-18
   version: '1.0'
   icon: com.cryptolabllc.bitcoin.up.jpg
+  meta: removed
 
 ---
 

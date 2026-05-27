@@ -1,7 +1,6 @@
 ---
 title: 'Pulpal: Exchange'
 verdict: wip
-meta: removed
 date: 2024-12-23
 website: https://pulpal.ir
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-06
   version: 1.0.0
   icon: ir.pulpal.app.png
+  meta: removed
   developerName: Pulpal Inc
 
 ---

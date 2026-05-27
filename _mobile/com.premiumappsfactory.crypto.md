@@ -1,7 +1,6 @@
 ---
 title: Crypto  Change App
 verdict: wip
-meta: obsolete
 date: 2026-01-08
 website: http://drone.onlinestore.digital
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-01-01
   version: 6.0.0
   icon: com.premiumappsfactory.crypto.png
+  meta: obsolete
   developerName: Premium Apps Factory
 
 ---

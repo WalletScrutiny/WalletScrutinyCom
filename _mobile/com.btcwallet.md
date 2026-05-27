@@ -1,7 +1,6 @@
 ---
 title: LUNA - Blockchain Wallet
 verdict: wip
-meta: removed
 date: 2023-04-21
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-10-23
   version: 8.0.8
   icon: com.btcwallet.jpg
+  meta: removed
   developerName: Luna blockchain wallet
 
 ---

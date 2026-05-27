@@ -1,7 +1,6 @@
 ---
 title: Pungo App
 verdict: nosource
-meta: removed
 date: 2021-06-02
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: '1.33'
   reviews: 10
   icon: cloud.peer2.pungo_wallet.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Clet - Crypto Portal
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/io.uun.clet/
@@ -13,6 +12,7 @@ android:
   version: 1.17.1
   reviews: 360
   icon: io.uun.clet.png
+  meta: removed
 
 ---
 

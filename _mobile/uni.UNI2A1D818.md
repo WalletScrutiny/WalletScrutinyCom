@@ -1,7 +1,6 @@
 ---
 title: Muskbot 4.0
 verdict: wip
-meta: removed
 date: 2023-08-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-12-16
   version: 1.4.8
   icon: uni.UNI2A1D818.jpg
+  meta: removed
   developerName: MUSKBOT
 
 ---

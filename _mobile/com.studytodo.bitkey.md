@@ -1,7 +1,6 @@
 ---
 title: 'BitKey: Bitcoin Wallet'
 verdict: nosource
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -18,6 +17,7 @@ iphone:
   version: 3.0.5
   reviews: 27
   icon: com.studytodo.bitkey.jpg
+  meta: removed
   developerName: https://www.surroundingai.com/
 
 ---

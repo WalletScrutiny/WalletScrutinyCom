@@ -2,7 +2,6 @@
 wsId: kucoinExchange
 title: 'KuCoin: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2021-02-09
 authors:
 - leo

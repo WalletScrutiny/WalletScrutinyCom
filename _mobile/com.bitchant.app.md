@@ -1,7 +1,6 @@
 ---
 title: Bitchant
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://bitchant.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-07
   version: 1.3.1
   icon: com.bitchant.app.png
+  meta: removed
   developerName: BITCHANT
 
 ---

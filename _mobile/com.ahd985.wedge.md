@@ -2,7 +2,6 @@
 wsId: wedgePayWithCrypto
 title: 'Wedge: Pay with Stock & Crypto'
 verdict: custodial
-meta: removed
 date: 2023-09-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.4.3
   reviews: 19
   icon: com.ahd985.wedge.png
+  meta: removed
   developerName: Wedge Financial, Inc.
 iphone:
   appId: com.ahd985.wedge
@@ -33,6 +33,7 @@ iphone:
   version: 1.4.3
   reviews: 59
   icon: com.ahd985.wedge.jpg
+  meta: removed
   developerName: Wedge Financial, Inc
 
 ---

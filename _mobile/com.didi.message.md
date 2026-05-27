@@ -1,7 +1,6 @@
 ---
 title: DiDimessage-Make New Friends & Play Games
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.16.0
   reviews: 14
   icon: com.didi.message.png
+  meta: removed
 
 ---
 

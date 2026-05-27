@@ -1,7 +1,6 @@
 ---
 title: Bitcoin System App - Passive Crypto Trading
 verdict: wip
-meta: removed
 date: 2021-08-20
 redirect_from:
 - /android/com.nbl.bitcoinsystemapp/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   reviews: 23
   icon: com.nbl.bitcoinsystemapp.png
+  meta: removed
 
 ---
 

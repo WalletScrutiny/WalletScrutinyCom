@@ -1,7 +1,6 @@
 ---
 title: WorldPay
 verdict: wip
-meta: removed
 date: 2024-09-25
 website: https://wc-s.com/wallet#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.3
   reviews: 5
   icon: com.worldpay.wallet.png
+  meta: removed
   developerName: World Credit Savings Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Cryptostone Wallet
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://www.crypto-stone.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-23
   version: 1.0.0
   icon: com.cryptostone.ewallet.png
+  meta: removed
   developerName: Kashi developer
 
 ---

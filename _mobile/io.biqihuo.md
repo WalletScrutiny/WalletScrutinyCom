@@ -1,7 +1,6 @@
 ---
 title: HappyEX-数字货币杠杆交易平台
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/io.biqihuo/
@@ -12,6 +11,7 @@ android:
   updated: 2019-08-21
   version: '1.0'
   icon: io.biqihuo.png
+  meta: removed
   developerName: HappyEX
 
 ---

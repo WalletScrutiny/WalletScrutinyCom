@@ -1,7 +1,6 @@
 ---
 title: CoinStorey
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://www.coinstorey.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-01
   version: '9.0'
   icon: com.coinstorey.jpg
+  meta: removed
   developerName: HANSIS IT SUPERVISION PRIVATE LIMITED
 
 ---

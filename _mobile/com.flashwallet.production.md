@@ -2,7 +2,6 @@
 wsId: flashWallet
 title: Flash Wallet
 verdict: nosource
-meta: ok
 date: 2025-11-14
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-01-29
   version: '32.0'
   icon: com.flashwallet.production.jpg
+  meta: ok
   developerName: Flash Wallet
 iphone:
   appId: flashwallet.org.production
@@ -32,6 +32,7 @@ iphone:
   version: '29'
   reviews: 5
   icon: flashwallet.org.production.jpg
+  meta: ok
   developerName: Flash Technologies LLC FZ
 
 ---

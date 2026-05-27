@@ -2,7 +2,6 @@
 wsId: bitkubExchange
 title: 'Bitkub : Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-04-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 4.15.0
   reviews: 45
   icon: com.bitkub.png
+  meta: ok
   developerName: Bitkub Online Co., Ltd. (Head Office)
 iphone:
   appId: com.bitkub.app
@@ -32,6 +32,7 @@ iphone:
   version: 4.15.0
   reviews: 17546
   icon: com.bitkub.app.jpg
+  meta: ok
   developerName: Bitkub Online Co., Ltd
 
 ---

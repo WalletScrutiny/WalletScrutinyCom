@@ -1,7 +1,6 @@
 ---
 title: Crypto Exchange App
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.tradingforpros.crypto.exchange.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-16
   version: '1.0'
   icon: com.tradingforpros.crypto.exchange.app.jpg
+  meta: removed
 
 ---
 

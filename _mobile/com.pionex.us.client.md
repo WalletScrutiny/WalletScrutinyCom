@@ -1,7 +1,6 @@
 ---
 title: Pionex.US
 verdict: custodial
-meta: ok
 date: 2025-12-01
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.1.5
   reviews: 650
   icon: com.pionex.us.client.png
+  meta: ok
   developerName: Webot Global
 
 ---

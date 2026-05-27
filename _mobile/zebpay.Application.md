@@ -1,7 +1,6 @@
 ---
 title: 'ZebPay: Bitcoin & Crypto App'
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 3.81.3
   reviews: 84
   icon: zebpay.Application.png
+  meta: ok
   developerName: ZebPay
 
 ---

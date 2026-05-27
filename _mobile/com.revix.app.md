@@ -2,7 +2,6 @@
 wsId: revixBuyBitcoin
 title: Altify - Invest in Alts
 verdict: custodial
-meta: ok
 date: 2023-07-09
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   updated: 2026-05-13
   version: 3.0.0
   icon: com.revix.app.png
+  meta: ok
   developerName: ALTIFY GROUP LIMITED
 iphone:
   appId: com.revix.mobile
@@ -39,6 +39,7 @@ iphone:
   version: 2.9.10
   reviews: 65
   icon: com.revix.mobile.jpg
+  meta: ok
   developerName: ALTIFY GROUP LIMITED
 
 ---

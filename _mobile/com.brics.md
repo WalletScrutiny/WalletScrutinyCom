@@ -2,7 +2,6 @@
 wsId: bricsPay
 title: 'BRICS Pay Wallet: Crypto&DeFi'
 verdict: nosource
-meta: ok
 date: 2026-03-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2026-03-25
   version: 0.0.11
   icon: com.brics.png
+  meta: ok
   developerName: NB PAY FZCO
 iphone:
   appId: com.bricspay
@@ -26,6 +26,7 @@ iphone:
   version: 0.0.15
   reviews: 0
   icon: com.bricspay.jpg
+  meta: ok
   developerName: NB PAY FZCO Dubai Silicon Oasis, DDP, Building A1, Dubai, UAE.
 
 ---

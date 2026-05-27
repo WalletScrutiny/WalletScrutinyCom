@@ -1,7 +1,6 @@
 ---
 title: Bitbarg
 verdict: nosendreceive
-meta: ok
 date: 2023-07-07
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 3.5.3
   reviews: 44
   icon: com.bitbarg.app.png
+  meta: ok
   developerName: Bitbarg
 
 ---

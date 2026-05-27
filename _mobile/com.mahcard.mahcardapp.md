@@ -1,7 +1,6 @@
 ---
 title: mahcard
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: https://mahcard.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-06
   version: '2.6'
   icon: com.mahcard.mahcardapp.png
+  meta: removed
   developerName: Mahcard Enterprise
 
 ---

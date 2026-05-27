@@ -2,7 +2,6 @@
 wsId: blackcatcard
 title: Blackcatcard
 verdict: custodial
-meta: ok
 date: 2021-09-03
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.3.14
   reviews: 2266
   icon: com.papaya.blackcatcard.png
+  meta: ok
   developerName: PAPAYA LTD
 iphone:
   appId: com.papaya.blackcatcard
@@ -28,6 +28,7 @@ iphone:
   version: 1.3.7
   reviews: 33
   icon: com.papaya.blackcatcard.jpg
+  meta: ok
   developerName: Papaya Ltd
 
 ---

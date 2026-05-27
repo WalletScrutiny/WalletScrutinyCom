@@ -1,7 +1,6 @@
 ---
 title: Crypto Wallet by Shopperoo
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://shopperoo.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-08
   version: 1.0.0
   icon: com.shopperoo.wallet.png
+  meta: removed
   developerName: Shopperoo Technologies Pty Ltd
 
 ---

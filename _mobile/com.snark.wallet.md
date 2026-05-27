@@ -1,7 +1,6 @@
 ---
 title: Snark Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://snarkwallet.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-05
   version: 0.1.0
   icon: com.snark.wallet.jpg
+  meta: removed
   developerName: Sound Fintech Solutions
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Coincheck Bitcoin Wallet
 verdict: wip
-meta: ok
 date: 2024-10-07
 website: https://coincheck.com
 appCountry: jp
@@ -15,6 +14,7 @@ iphone:
   version: 4.20.0
   reviews: 109324
   icon: jp.coincheck.ios.jpg
+  meta: ok
   developerName: Coincheck, Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: MUST WALLET
 verdict: wip
-meta: removed
 date: 2021-12-05
 redirect_from:
 - /android/xyz.must.wallet/
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   reviews: 7
   icon: xyz.must.wallet.png
+  meta: removed
 
 ---
 

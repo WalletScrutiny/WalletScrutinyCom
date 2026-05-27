@@ -1,7 +1,6 @@
 ---
 title: Portis - Multi Blockchain Wallet
 verdict: wip
-meta: removed
 date: 2021-08-31
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   reviews: 3
   icon: com.shiftshape.app.png
+  meta: removed
 
 ---
 

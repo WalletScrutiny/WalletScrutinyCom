@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp For Binance
 verdict: custodial
-meta: ok
 date: 2021-09-20
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 18.1.3
   reviews: 123
   icon: com.profittrading.forbinance.png
+  meta: ok
   developerName: ProfitTradingApp
 
 ---

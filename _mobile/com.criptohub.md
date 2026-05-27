@@ -1,7 +1,6 @@
 ---
 title: CRIPTOHUB - CHBR
 verdict: wip
-meta: removed
 date: 2023-05-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-10-10
   version: 1.0.6
   icon: com.criptohub.png
+  meta: removed
   developerName: CriptoHub
 
 ---

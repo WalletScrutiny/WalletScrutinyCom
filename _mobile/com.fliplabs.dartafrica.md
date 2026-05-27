@@ -1,7 +1,6 @@
 ---
 title: DartAfrica | Sell Bitcoin Fast
 verdict: custodial
-meta: obsolete
 date: 2026-02-20
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2024-02-29
   version: 1.1.0
   icon: com.fliplabs.dartafrica.png
+  meta: obsolete
   developerName: FLIP Labs
 
 ---

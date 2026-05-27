@@ -2,7 +2,6 @@
 wsId: usenobi
 title: 'NOBI: Own Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-04-12
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.6.11
   reviews: 5
   icon: com.usenobi.png
+  meta: ok
   developerName: usenobi
 iphone:
   appId: com.usenobi.ios
@@ -35,6 +35,7 @@ iphone:
   version: 3.6.12
   reviews: 85
   icon: com.usenobi.ios.jpg
+  meta: ok
   developerName: Nobi
 
 ---

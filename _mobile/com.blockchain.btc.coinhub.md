@@ -1,7 +1,6 @@
 ---
 title: 'CoinDex:  Bitcoin Crypto'
 verdict: fake
-meta: ok
 date: 2021-07-26
 website: https://coindex.money
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
@@ -16,6 +15,7 @@ android:
   version: 1.5.5
   reviews: 88
   icon: com.blockchain.btc.coinhub.png
+  meta: ok
   developerName: TwiX
 
 ---

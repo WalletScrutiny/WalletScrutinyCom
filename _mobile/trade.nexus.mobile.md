@@ -1,7 +1,6 @@
 ---
 title: Nexus Markets
 verdict: wip
-meta: removed
 date: 2024-03-02
 redirect_from:
 - /android/trade.nexus.mobile/
@@ -12,6 +11,7 @@ android:
   updated: 2022-10-07
   version: 1.0.8
   icon: trade.nexus.mobile.png
+  meta: removed
   developerName: Nexus Markets LLC
 
 ---

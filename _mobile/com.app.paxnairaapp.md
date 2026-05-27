@@ -1,7 +1,6 @@
 ---
 title: Paxnaira - Buy & Sell Bitcoin
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.paxnaira.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-29
   version: '1.0'
   icon: com.app.paxnairaapp.png
+  meta: removed
 
 ---
 

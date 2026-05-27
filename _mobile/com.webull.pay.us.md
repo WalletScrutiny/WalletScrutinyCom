@@ -2,7 +2,6 @@
 wsId: webullPay
 title: 'Webull Pay: Crypto Buy & Sell'
 verdict: custodial
-meta: ok
 date: 2025-12-26
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.2.0.29
   reviews: 1166
   icon: com.webull.pay.us.png
+  meta: ok
   developerName: Webull Pay LLC
 iphone:
   appId: com.webull.pay.us
@@ -32,6 +32,7 @@ iphone:
   version: 2.2.2
   reviews: 25810
   icon: com.webull.pay.us.jpg
+  meta: ok
   developerName: WEBULL PAY PTE. LTD.
 
 ---

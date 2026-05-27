@@ -2,7 +2,6 @@
 wsId: bitberry
 title: Bitberry - Safe crypto Wallet
 verdict: custodial
-meta: removed
 date: 2025-02-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.5.3
   reviews: 9
   icon: com.rootone.wallet.png
+  meta: removed
   developerName: (주)루트원소프트
 iphone:
   appId: com.rootone.bitberry
@@ -28,6 +28,7 @@ iphone:
   version: 1.4.2
   reviews: 7
   icon: com.rootone.bitberry.jpg
+  meta: removed
   developerName: RootOne
 
 ---

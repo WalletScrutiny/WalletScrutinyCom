@@ -1,7 +1,6 @@
 ---
 title: BTCfx - Bitcoin Trading Client
 verdict: wip
-meta: removed
 date: 2022-01-31
 redirect_from:
 - /android/ch.btcfx/
@@ -13,6 +12,7 @@ android:
   version: 1.3.0.1
   reviews: 304
   icon: ch.btcfx.png
+  meta: removed
 
 ---
 

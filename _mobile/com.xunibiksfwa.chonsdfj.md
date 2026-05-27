@@ -1,7 +1,6 @@
 ---
 title: BFX-bitcoin crypto trading
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.xunibiksfwa.chonsdfj/
@@ -11,6 +10,7 @@ android:
   updated: 2021-12-28
   version: '1.0'
   icon: com.xunibiksfwa.chonsdfj.png
+  meta: removed
 
 ---
 

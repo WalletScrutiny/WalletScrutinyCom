@@ -2,7 +2,6 @@
 wsId: Koinstrap
 title: 'Koinstrap: Buy & Sell BTC, ETH'
 verdict: custodial
-meta: ok
 date: 2025-11-26
 authors:
 - danny

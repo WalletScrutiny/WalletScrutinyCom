@@ -1,7 +1,6 @@
 ---
 title: Tomya
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.hashcash.tomya/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-20
   version: 1.0.2
   icon: com.hashcash.tomya.png
+  meta: removed
   developerName: TOMYA TECHNOLOGY AS
 
 ---

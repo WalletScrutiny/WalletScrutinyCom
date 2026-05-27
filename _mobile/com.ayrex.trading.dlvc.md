@@ -1,7 +1,6 @@
 ---
 title: AyrexTrading
 verdict: wip
-meta: removed
 date: 2023-09-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-05-14
   version: 1.0.1
   icon: com.ayrex.trading.dlvc.png
+  meta: removed
   developerName: Charu Prakash
 
 ---

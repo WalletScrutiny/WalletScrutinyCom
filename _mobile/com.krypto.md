@@ -1,7 +1,6 @@
 ---
 title: 'Krypto: Bitcoin Investment App'
 verdict: custodial
-meta: removed
 date: 2024-07-14
 authors:
 - kiwilamb
@@ -17,6 +16,7 @@ android:
   version: '8.5'
   reviews: 19
   icon: com.krypto.png
+  meta: removed
   developerName: Connect Pvt Ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet
 verdict: wip
-meta: removed
 date: 2021-05-11
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 27
   icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.png
+  meta: removed
 
 ---
 

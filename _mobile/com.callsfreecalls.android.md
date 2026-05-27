@@ -1,7 +1,6 @@
 ---
 title: CFC Wallet - Earn Free,Hold or Buy BTC/ETH/CRAD
 verdict: wip
-meta: removed
 date: 2021-08-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 5.6.1
   reviews: 3745
   icon: com.callsfreecalls.android.png
+  meta: removed
 
 ---
 

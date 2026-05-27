@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet Market
 verdict: wip
-meta: removed
 date: 2024-11-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 0.3.7
   reviews: 15
   icon: com.bitcoin.bankwallet.png
+  meta: removed
   developerName: Oriental Thang Long
 
 ---

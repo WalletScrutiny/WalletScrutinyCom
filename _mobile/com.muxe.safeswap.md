@@ -1,7 +1,6 @@
 ---
 title: Safeswap Online
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://safeswap.online/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-31
   version: 2.1.1
   icon: com.muxe.safeswap.png
+  meta: removed
   developerName: Safeswap Online
 
 ---

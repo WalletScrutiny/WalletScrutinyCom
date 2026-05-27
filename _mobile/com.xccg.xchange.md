@@ -2,7 +2,6 @@
 wsId: xchangeCash
 title: Xchange - купить Биткоин
 verdict: custodial
-meta: removed
 date: 2024-12-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2024-08-15
   version: 4.1.1
   icon: com.xccg.xchange.jpg
+  meta: removed
   developerName: natamityaeva80
 iphone:
   appId: com.xchangecapital.xchange
@@ -32,6 +32,7 @@ iphone:
   version: 1.0.2
   reviews: 0
   icon: com.xchangecapital.xchange.jpg
+  meta: removed
   developerName: XChangeCapitalGroup
 
 ---

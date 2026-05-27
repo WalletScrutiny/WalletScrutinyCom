@@ -1,7 +1,6 @@
 ---
 title: Bynery
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.bynery.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-02
   version: 1.5.0
   icon: bynery.bce.png
+  meta: removed
   developerName: Bynery
 
 ---

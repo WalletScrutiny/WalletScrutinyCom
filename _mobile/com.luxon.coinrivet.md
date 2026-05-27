@@ -1,7 +1,6 @@
 ---
 title: Coin Rivet
 verdict: wip
-meta: removed
 date: 2024-03-02
 website: https://coinrivet.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-12
   version: 1.0.0.53
   icon: com.luxon.coinrivet.png
+  meta: removed
   developerName: Galias Services
 
 ---

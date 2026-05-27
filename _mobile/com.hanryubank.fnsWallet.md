@@ -1,7 +1,6 @@
 ---
 title: FANDOM Wallet
 verdict: wip
-meta: removed
 date: 2023-04-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.2
   reviews: 4
   icon: com.hanryubank.fnsWallet.png
+  meta: removed
   developerName: Ticket Land
 
 ---

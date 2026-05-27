@@ -2,7 +2,6 @@
 wsId: bitrequest
 title: Bitrequest
 verdict: nosendreceive
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny

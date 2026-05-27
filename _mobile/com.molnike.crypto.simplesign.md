@@ -1,7 +1,6 @@
 ---
 title: BTC secp256k1 sign offline
 verdict: wip
-meta: obsolete
 date: 2025-02-26
 website: https://github.com/openMolNike/Crypto-Apps
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-09
   version: '0.6'
   icon: com.molnike.crypto.simplesign.png
+  meta: obsolete
   developerName: Mol Nike
 
 ---

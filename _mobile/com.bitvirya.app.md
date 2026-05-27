@@ -1,7 +1,6 @@
 ---
 title: Bitvirya - cryptocurrency exch
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://bitvirya.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-20
   version: '1.0'
   icon: com.bitvirya.app.png
+  meta: removed
   developerName: Profit Oak
 
 ---

@@ -2,7 +2,6 @@
 wsId: litefinance
 title: LiteFinance mobile trading
 verdict: custodial
-meta: ok
 date: 2023-02-10
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: v2.1.2030-cabinet-release
   reviews: 83
   icon: com.litefinance.cabinet.png
+  meta: ok
   developerName: LITEFOREX (EUROPE) LTD
 iphone:
   appId: com.litefinance.cabinet
@@ -29,6 +29,7 @@ iphone:
   version: 3.1.11
   reviews: 72
   icon: com.litefinance.cabinet.jpg
+  meta: ok
   developerName: Liteforex (Europe) Limited
 
 ---

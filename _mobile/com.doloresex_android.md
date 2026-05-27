@@ -1,7 +1,6 @@
 ---
 title: IX
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://ix.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-19
   version: 2.5.5
   icon: com.doloresex_android.png
+  meta: removed
   developerName: IX Exchange
 
 ---

@@ -2,7 +2,6 @@
 wsId: easyCryptoWallet
 title: 'Easy Crypto Wallet: Buy BTC'
 verdict: custodial
-meta: deprecated
 date: 2025-11-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-03-19
   version: prod-1.18.11
   icon: com.octopass.app.png
+  meta: deprecated
   developerName: Dott Enterprises Limited
 iphone:
   appId: com.octopass.app
@@ -32,6 +32,7 @@ iphone:
   version: 1.18.11
   reviews: 1540
   icon: com.octopass.app.jpg
+  meta: deprecated
   developerName: Dott Enterprises Ltd.
 
 ---

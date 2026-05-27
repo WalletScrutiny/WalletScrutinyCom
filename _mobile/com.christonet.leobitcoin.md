@@ -1,7 +1,6 @@
 ---
 title: Leo Bitcoin
 verdict: wip
-meta: obsolete
 date: 2025-07-08
 website: https://leobitcoin.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-07-17
   version: '1.0'
   icon: com.christonet.leobitcoin.png
+  meta: obsolete
   developerName: Unex
 
 ---

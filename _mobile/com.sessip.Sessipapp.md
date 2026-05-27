@@ -2,7 +2,6 @@
 wsId: sessip
 title: Sessip
 verdict: custodial
-meta: obsolete
 date: 2024-11-30
 authors:
 - danny

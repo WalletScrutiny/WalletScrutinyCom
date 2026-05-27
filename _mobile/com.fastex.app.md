@@ -2,7 +2,6 @@
 wsId: fasteX
 title: 'Fastex: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-14
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.42.2
   reviews: 12
   icon: com.fastex.app.png
+  meta: ok
   developerName: Fastex Europe
 iphone:
   appId: com.fastex.fastexapp
@@ -34,6 +34,7 @@ iphone:
   version: 1.41.0
   reviews: 247
   icon: com.fastex.fastexapp.jpg
+  meta: ok
   developerName: FastEX Europe
 
 ---

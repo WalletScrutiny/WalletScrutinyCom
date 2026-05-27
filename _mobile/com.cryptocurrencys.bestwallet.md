@@ -1,7 +1,6 @@
 ---
 title: 'Best Wallet :: Crypto Currency Wallet'
 verdict: wip
-meta: removed
 date: 2020-12-04
 redirect_from:
 - /android/com.cryptocurrencys.bestwallet/
@@ -10,6 +9,7 @@ android:
   users: 0
   updated: 2021-12-30
   icon: com.cryptocurrencys.bestwallet.png
+  meta: removed
 
 ---
 

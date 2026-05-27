@@ -2,7 +2,6 @@
 wsId: tapbitCrypto
 title: Tapbit - Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2023-07-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 4.3.5
   reviews: 33
   icon: com.tapbit.android.png
+  meta: ok
   developerName: Tapbit LLC
 iphone:
   appId: com.billance.cn
@@ -34,6 +34,7 @@ iphone:
   version: 4.3.5
   reviews: 51
   icon: com.billance.cn.jpg
+  meta: ok
   developerName: Tapbit LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Rainball Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.rainball.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-16
   version: 1.0.0
   icon: com.rainball.app.png
+  meta: removed
   developerName: DEVFoXWallet
 
 ---

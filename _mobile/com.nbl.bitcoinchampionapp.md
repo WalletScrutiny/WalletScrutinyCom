@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Champion App - Win at Crypto Trading
 verdict: wip
-meta: removed
 date: 2021-08-20
 redirect_from:
 - /android/com.nbl.bitcoinchampionapp/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   reviews: 9
   icon: com.nbl.bitcoinchampionapp.png
+  meta: removed
 
 ---
 

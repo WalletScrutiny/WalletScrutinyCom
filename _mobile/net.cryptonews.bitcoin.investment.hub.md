@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Investment Hub
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptonews.bitcoin.investment.hub/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-19
   version: '1.0'
   icon: net.cryptonews.bitcoin.investment.hub.jpg
+  meta: removed
 
 ---
 

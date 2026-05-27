@@ -2,7 +2,6 @@
 wsId: rhinoBitcoin
 title: Rhino Bitcoin
 verdict: custodial
-meta: ok
 date: 2026-05-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.12.17
   reviews: 13
   icon: com.rhinoglobal.png
+  meta: ok
   developerName: Rhino Bitcoin
 iphone:
   appId: com.Rhino.Global
@@ -33,6 +33,7 @@ iphone:
   version: 2.12.17
   reviews: 27
   icon: com.Rhino.Global.jpg
+  meta: ok
   developerName: Rhino Global Inc
 
 ---

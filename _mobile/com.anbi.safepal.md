@@ -1,7 +1,6 @@
 ---
 title: SafePal - Crypto Wallet BTC
 verdict: wip
-meta: removed
 date: 2021-01-15
 website: https://www.safepal.io/
 twitter: iSafePal
@@ -16,6 +15,7 @@ iphone:
   version: 2.5.1
   reviews: 19
   icon: com.anbi.safepal.jpg
+  meta: removed
 
 ---
 

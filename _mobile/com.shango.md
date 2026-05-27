@@ -1,7 +1,6 @@
 ---
 title: Shango Lightning Wallet
 verdict: nosource
-meta: removed
 date: 2021-07-16
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   updated: 2019-06-01
   version: Varies with device
   icon: com.shango.png
+  meta: removed
 
 ---
 

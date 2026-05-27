@@ -1,7 +1,6 @@
 ---
 title: Bitango
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://bitango.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-04
   version: 1.1.0
   icon: com.bitango.android.png
+  meta: removed
   developerName: Bitango Technologies
 
 ---

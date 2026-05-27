@@ -1,7 +1,6 @@
 ---
 title: Neo Trade
 verdict: nosendreceive
-meta: removed
 date: 2023-06-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-02-29
   version: '1.0'
   icon: com.world.bestinfo.png
+  meta: removed
   developerName: Neo Trade
 
 ---

@@ -2,7 +2,6 @@
 wsId: lnFlash
 title: 'Flash: Rewards & Payments'
 verdict: sourceavailable
-meta: ok
 date: 2025-06-13
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   updated: 2026-05-02
   version: 0.5.2
   icon: com.lnflash.png
+  meta: ok
   developerName: Island Bitcoin
 iphone:
   appId: com.lnflash
@@ -41,6 +41,7 @@ iphone:
   version: 0.5.2
   reviews: 0
   icon: com.lnflash.jpg
+  meta: ok
   developerName: Island Bitcoin
 
 ---

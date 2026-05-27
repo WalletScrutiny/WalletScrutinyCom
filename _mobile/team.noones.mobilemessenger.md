@@ -2,7 +2,6 @@
 wsId: noonesMarketplace
 title: 'NoOnes: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-07-30
 authors:
 - danny

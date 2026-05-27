@@ -2,7 +2,6 @@
 wsId: maiarwallet
 title: 'xPortal: Crypto & DeFi Wallet'
 verdict: nosource
-meta: ok
 date: 2023-01-30
 authors:
 - danny

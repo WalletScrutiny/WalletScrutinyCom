@@ -2,7 +2,6 @@
 wsId: cryptoforceTrade
 title: Cryptoforce:Trade|Stake Crypto
 verdict: custodial
-meta: stale
 date: 2023-08-18
 authors:
 - danny

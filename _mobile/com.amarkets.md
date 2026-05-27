@@ -2,7 +2,6 @@
 wsId: AMarkets
 title: 'AMarkets: Finance & Trading'
 verdict: nosendreceive
-meta: ok
 date: 2021-10-13
 authors:
 - danny

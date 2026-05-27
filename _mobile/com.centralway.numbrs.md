@@ -1,7 +1,6 @@
 ---
 title: Numbrs - Bitcoin Account
 verdict: nosource
-meta: removed
 date: 2024-03-02
 website: https://www.numbrs.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 7.4.0
   reviews: 6
   icon: com.centralway.numbrs.png
+  meta: removed
   developerName: Numbrs Personal Finance AG
 
 ---

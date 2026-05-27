@@ -2,7 +2,6 @@
 wsId: B4UWallet
 title: 'B4U Wallet: Crypto Bitcoin Wal'
 verdict: custodial
-meta: removed
 date: 2022-04-25
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   updated: 2021-04-22
   version: 4.3.4
   icon: com.b4uwallet.android.png
+  meta: removed
   developerName: B4U soft
 iphone:
   appId: com.b4uwallet.ioswallet
@@ -29,6 +29,7 @@ iphone:
   version: 1.0.5
   reviews: 2
   icon: com.b4uwallet.ioswallet.jpg
+  meta: removed
 
 ---
 

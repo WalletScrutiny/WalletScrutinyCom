@@ -2,7 +2,6 @@
 wsId: bitpaytrading
 title: zondacrypto - crypto exchange
 verdict: custodial
-meta: ok
 date: 2021-05-25
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 1.1.52
   reviews: 16
   icon: net.bitbay.bitcoin.png
+  meta: ok
   developerName: BB Trade Estonia
 iphone:
   appId: com.bitbay.BitBayTrading
@@ -33,6 +33,7 @@ iphone:
   version: 1.4.16
   reviews: 3
   icon: com.bitbay.BitBayTrading.jpg
+  meta: ok
   developerName: BitBay Sp. z o.o.
 
 ---

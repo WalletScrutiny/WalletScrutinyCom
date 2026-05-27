@@ -1,7 +1,6 @@
 ---
 title: Swap Crypto Exchange
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://swapcrypto.ca#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-11
   version: '1.0'
   icon: com.crypto.exchange.trading.jpg
+  meta: removed
 
 ---
 

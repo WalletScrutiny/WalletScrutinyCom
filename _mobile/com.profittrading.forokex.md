@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for OKEx
 verdict: wip
-meta: removed
 date: 2023-04-16
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2020-07-23
   version: 1.2.0
   icon: com.profittrading.forokex.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

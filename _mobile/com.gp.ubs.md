@@ -1,7 +1,6 @@
 ---
 title: UBS - The easy and secure way buy Cryptocurrency
 verdict: wip
-meta: removed
 date: 2021-09-04
 redirect_from:
 - /android/com.gp.ubs/
@@ -12,6 +11,7 @@ android:
   version: 1.1.2
   reviews: 5
   icon: com.gp.ubs.png
+  meta: removed
 
 ---
 

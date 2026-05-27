@@ -2,7 +2,6 @@
 wsId: indodax
 title: Indodax Crypto Simple & Secure
 verdict: custodial
-meta: ok
 date: 2021-05-31
 authors:
 - leo

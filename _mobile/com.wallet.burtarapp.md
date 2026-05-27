@@ -1,7 +1,6 @@
 ---
 title: Burtar wallet - Trade crypto
 verdict: wip
-meta: removed
 date: 2023-09-28
 website: https://burtar.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '2.0'
   reviews: 7
   icon: com.wallet.burtarapp.png
+  meta: removed
   developerName: GGTC GLOBAL
 
 ---

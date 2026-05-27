@@ -1,7 +1,6 @@
 ---
 title: Omega:Bitcoin & crypto wallet
 verdict: wip
-meta: removed
 date: 2025-03-14
 website: https://findhereall.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-06
   version: 1.0.4
   icon: com.womegacryptowallet_16429089.png
+  meta: removed
   developerName: civilengineerstechnicals.world
 
 ---

@@ -2,7 +2,6 @@
 wsId: RocketByChiji
 title: Rocket by Chiji14xchange - buy
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.0.5
   reviews: 948
   icon: com.chiji14xchange.png
+  meta: removed
   developerName: Chiji14xchange
 iphone:
   appId: com.chiji14xchange-
@@ -31,6 +31,7 @@ iphone:
   version: 3.0.0
   reviews: 297
   icon: com.chiji14xchange-.jpg
+  meta: removed
   developerName: CHIJI14XCHANGE
 
 ---

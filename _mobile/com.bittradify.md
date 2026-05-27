@@ -1,7 +1,6 @@
 ---
 title: Bit Tradify
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://www.bittradify.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-06-17
   version: '1.0'
   icon: com.bittradify.png
+  meta: removed
   developerName: Shankar Bunkar
 
 ---

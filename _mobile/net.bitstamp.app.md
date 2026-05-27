@@ -2,7 +2,6 @@
 wsId: Bitstamp
 title: 'Bitstamp by Robinhood: Buy BTC'
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   version: '4.16'
   reviews: 676
   icon: net.bitstamp.app.png
+  meta: ok
   developerName: Bitstamp
 iphone:
   appId: net.bitstamp
@@ -35,6 +35,7 @@ iphone:
   version: 4.16.6
   reviews: 7440
   icon: net.bitstamp.jpg
+  meta: ok
   developerName: Bitstamp Ltd.
 
 ---

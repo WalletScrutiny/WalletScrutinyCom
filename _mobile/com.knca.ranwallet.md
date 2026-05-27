@@ -1,7 +1,6 @@
 ---
 title: RAN Wallet - Crypto & NFTs
 verdict: wip
-meta: obsolete
 date: 2026-01-14
 redirect_from:
 - /android/com.knca.ranwallet/
@@ -12,6 +11,7 @@ android:
   updated: 2023-05-03
   version: '1.0'
   icon: com.knca.ranwallet.png
+  meta: obsolete
   developerName: kncalab
 
 ---

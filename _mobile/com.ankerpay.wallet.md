@@ -2,7 +2,6 @@
 wsId: ankerPay
 title: 'AnkerPay: Blockchain Crypto Wa'
 verdict: nosource
-meta: stale
 date: 2025-06-09
 authors:
 - leo

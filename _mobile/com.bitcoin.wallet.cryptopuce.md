@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet
 verdict: nosource
-meta: removed
 date: 2022-02-16
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.2'
   reviews: 3
   icon: com.bitcoin.wallet.cryptopuce.png
+  meta: removed
 
 ---
 

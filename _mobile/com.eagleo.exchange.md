@@ -1,7 +1,6 @@
 ---
 title: Eagleoxchange
 verdict: wip
-meta: removed
 date: 2023-08-16
 website: https://eagleoxchange.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-10
   version: '1.0'
   icon: com.eagleo.exchange.png
+  meta: removed
   developerName: Eagleo
 
 ---

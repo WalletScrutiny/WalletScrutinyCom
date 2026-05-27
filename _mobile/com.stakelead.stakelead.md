@@ -1,7 +1,6 @@
 ---
 title: Stakelead
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://stakelead.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-04
   version: '1.0'
   icon: com.stakelead.stakelead.png
+  meta: removed
   developerName: PROYA INT.
 
 ---

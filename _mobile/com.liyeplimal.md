@@ -1,7 +1,6 @@
 ---
 title: Limo Official App
 verdict: wip
-meta: removed
 date: 2023-08-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.18'
   reviews: 7
   icon: com.liyeplimal.jpg
+  meta: removed
   developerName: GIT Dev
 
 ---

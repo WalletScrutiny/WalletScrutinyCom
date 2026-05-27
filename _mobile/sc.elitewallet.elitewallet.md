@@ -1,7 +1,6 @@
 ---
 wsId: eliteWallet
 title: Elite Wallet
-meta: removed
 date: 2024-05-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.3.1
   reviews: 3
   icon: sc.elitewallet.elitewallet.png
+  meta: removed
   verdict: sourceavailable
   developerName: Elite Lab
 iphone:
@@ -31,6 +31,7 @@ iphone:
   version: 1.1.7
   reviews: 1
   icon: sc.elitewallet.elite-wallet.jpg
+  meta: removed
   verdict: wip
   developerName: Elite Lab
 

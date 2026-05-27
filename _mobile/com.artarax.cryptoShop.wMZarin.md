@@ -1,7 +1,6 @@
 ---
 title: wmzarin exchange
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.026.148-GooglePlay
   reviews: 2
   icon: com.artarax.cryptoShop.wMZarin.png
+  meta: removed
   developerName: DAVID JONS
 
 ---

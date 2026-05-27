@@ -2,7 +2,6 @@
 wsId: aceEwallet
 title: ACE eWallet
 verdict: custodial
-meta: removed
 date: 2023-11-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2023-06-05
   version: 1.3.12
   icon: com.doubleace.wallet.png
+  meta: removed
   developerName: Maxi Anchor SDN BHD
 iphone:
   appId: com.finance.acewallet
@@ -29,6 +29,7 @@ iphone:
   version: 1.3.12
   reviews: 0
   icon: com.finance.acewallet.jpg
+  meta: removed
   developerName: Maxi Anchor Capital Limited
 
 ---

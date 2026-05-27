@@ -2,7 +2,6 @@
 wsId: FlareWallet
 title: Flare Wallet
 verdict: nosource
-meta: removed
 date: 2022-04-07
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 1.4.0
   reviews: 43
   icon: com.flare.png
+  meta: removed
   developerName: flarewallet.io
 iphone:
   appId: org.flarewallet.flare
@@ -32,6 +32,7 @@ iphone:
   version: 1.4.0
   reviews: 36
   icon: org.flarewallet.flare.jpg
+  meta: removed
 
 ---
 

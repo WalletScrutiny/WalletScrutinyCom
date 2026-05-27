@@ -1,7 +1,6 @@
 ---
 title: GCC
 verdict: wip
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-09-17
   version: 1.2.0
   icon: com.baanx.gcc.png
+  meta: removed
   developerName: GCC GLOBAL PAYMENTS LIMITED
 
 ---

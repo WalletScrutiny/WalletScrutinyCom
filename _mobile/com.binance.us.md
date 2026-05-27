@@ -2,7 +2,6 @@
 wsId: BinanceUS
 title: 'Binance.US: Buy BTC & Crypto'
 verdict: custodial
-meta: ok
 date: 2020-11-17
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   version: 3.38.1
   reviews: 6859
   icon: com.binance.us.png
+  meta: ok
   developerName: Binance.US
 iphone:
   appId: us.binance.fiat
@@ -37,6 +37,7 @@ iphone:
   version: 3.38.2
   reviews: 109780
   icon: us.binance.fiat.jpg
+  meta: ok
   developerName: BAM Trading Services, Inc.
 
 ---

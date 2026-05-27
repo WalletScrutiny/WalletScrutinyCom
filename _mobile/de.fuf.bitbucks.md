@@ -2,7 +2,6 @@
 wsId: BitcoinWalletBitBucks
 title: Bitcoin Wallet BitBucks
 verdict: custodial
-meta: ok
 date: 2025-09-03
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 1.5.14
   reviews: 2
   icon: de.fuf.bitbucks.png
+  meta: ok
   developerName: FUF // Frank und Freunde
 iphone:
   appId: de.fuf.bitbucks-io
@@ -32,6 +32,7 @@ iphone:
   version: 1.5.16
   reviews: 1
   icon: de.fuf.bitbucks-io.jpg
+  meta: ok
   developerName: FUF // Frank und Freunde
 
 ---

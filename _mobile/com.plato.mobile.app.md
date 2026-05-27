@@ -1,7 +1,6 @@
 ---
 title: Plato
 verdict: wip
-meta: removed
 date: 2024-07-05
 redirect_from:
 - /android/com.plato.mobile.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-18
   version: 1.0.3
   icon: com.plato.mobile.app.png
+  meta: removed
   developerName: Plato Technologies Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Folgory Merchant
 verdict: wip
-meta: removed
 date: 2023-05-11
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2019-08-14
   version: '1.5'
   icon: com.app.folgory.png
+  meta: removed
   developerName: Folgory
 
 ---

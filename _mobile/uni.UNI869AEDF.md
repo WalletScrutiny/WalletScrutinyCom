@@ -1,7 +1,6 @@
 ---
 title: coincryptowallets
 verdict: wip
-meta: removed
 date: 2023-08-25
 redirect_from:
 - /android/uni.UNI869AEDF/
@@ -12,6 +11,7 @@ android:
   updated: 2023-05-12
   version: 0.8.4
   icon: uni.UNI869AEDF.png
+  meta: removed
   developerName: coincryptowallet
 
 ---

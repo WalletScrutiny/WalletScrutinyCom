@@ -1,7 +1,6 @@
 ---
 title: First Kudi
 verdict: custodial
-meta: removed
 date: 2024-05-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.0.6
   reviews: 9
   icon: com.ferrum.kudi.png
+  meta: removed
   developerName: Ferrum Network
 
 ---

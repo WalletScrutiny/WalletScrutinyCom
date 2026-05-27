@@ -2,7 +2,6 @@
 wsId: SapienWallet
 title: Sapien Wallet
 verdict: nosource
-meta: removed
 date: 2025-02-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2024-06-20
   version: 1.88.0
   icon: org.sapien.wallet.png
+  meta: removed
   developerName: Sapien Wallet
 iphone:
   appId: com.sapien.sapienwallet
@@ -29,6 +29,7 @@ iphone:
   version: '1.27'
   reviews: 2
   icon: com.sapien.sapienwallet.jpg
+  meta: removed
   developerName: SEIPIEN TEKHNOLODZHIS, TOV
 
 ---

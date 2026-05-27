@@ -2,7 +2,6 @@
 wsId: bybitEU
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-04-29
   version: 5.17.0
   icon: com.bybit.eu.png
+  meta: ok
   developerName: Bybit EU GmbH
 iphone:
   appId: com.bybit.eu
@@ -30,6 +30,7 @@ iphone:
   version: 5.17.0
   reviews: 173
   icon: com.bybit.eu.jpg
+  meta: ok
   developerName: Bybit EU GmbH
 
 ---

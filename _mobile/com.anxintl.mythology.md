@@ -1,7 +1,6 @@
 ---
 title: DICE Wallet
 verdict: wip
-meta: removed
 date: 2023-08-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2016-10-29
   version: 1.3.3
   icon: com.anxintl.mythology.png
+  meta: removed
   developerName: HASHIYADA TAKUYA
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'BlockFi: Buy and trade crypto'
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 6.2.0
   reviews: 1544
   icon: com.blockfi.mobile.png
+  meta: removed
   verdict: custodial
   developerName: BlockFi
 iphone:
@@ -31,6 +31,7 @@ iphone:
   version: 5.12.15
   reviews: 1295
   icon: com.blockfi.mobile.jpg
+  meta: removed
   verdict: wip
   developerName: BlockFi
 

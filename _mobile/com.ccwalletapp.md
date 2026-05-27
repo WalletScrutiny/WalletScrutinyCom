@@ -2,7 +2,6 @@
 wsId: ccwallet
 title: 'CCWallet: Your Bitcoin Wallet.'
 verdict: sourceavailable
-meta: removed
 date: 2021-09-19
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 1.3.1
   reviews: 70
   icon: com.ccwalletapp.png
+  meta: removed
   developerName: CoinCasso OU
 iphone:
   appId: ccx.wallet
@@ -33,6 +33,7 @@ iphone:
   version: '1.1'
   reviews: 17
   icon: ccx.wallet.jpg
+  meta: removed
 
 ---
 

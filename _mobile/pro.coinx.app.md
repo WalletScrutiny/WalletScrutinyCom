@@ -1,7 +1,6 @@
 ---
 title: CoinX.pro
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: https://www.coinx.pro/index
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-01-15
   version: 1.0.23
   icon: pro.coinx.app.png
+  meta: removed
   developerName: CoinX Pro
 
 ---

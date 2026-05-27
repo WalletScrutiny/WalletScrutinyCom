@@ -1,7 +1,6 @@
 ---
 title: 'Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
 verdict: fake
-meta: removed
 date: 2021-07-30
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-05-25
   version: 1.0.12
   icon: com.apptrack.coinom.png
+  meta: removed
 
 ---
 

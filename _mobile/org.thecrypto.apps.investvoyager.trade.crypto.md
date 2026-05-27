@@ -1,7 +1,6 @@
 ---
 title: Investvoyager - Trade Crypto
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.thecrypto.apps.investvoyager.trade.crypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-22
   version: '1.0'
   icon: org.thecrypto.apps.investvoyager.trade.crypto.jpg
+  meta: removed
 
 ---
 

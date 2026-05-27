@@ -1,7 +1,6 @@
 ---
 wsId: ShapeShift
 title: 'ShapeShift: Crypto Platform'
-meta: ok
 date: 2025-07-28
 authors:
 - leo
@@ -31,6 +30,7 @@ android:
   version: 3.7.1
   reviews: 510
   icon: com.shapeshift.droid_shapeshift.png
+  meta: ok
   verdict: sourceavailable
   developerName: ShapeShift.com
   repository: https://github.com/shapeshift/mobile-app
@@ -42,6 +42,7 @@ iphone:
   version: 3.7.2
   reviews: 79
   icon: com.shapeShift.shapeShift.jpg
+  meta: ok
   verdict: nosource
   developerName: ShapeShift AG
 

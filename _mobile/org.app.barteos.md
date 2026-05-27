@@ -1,7 +1,6 @@
 ---
 title: Barteos
 verdict: wip
-meta: stale
 date: 2026-05-21
 website: https://barteos.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-08-16
   version: 1.0.16
   icon: org.app.barteos.png
+  meta: stale
   developerName: BTE AUSTRALIA
 
 ---

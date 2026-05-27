@@ -1,7 +1,6 @@
 ---
 title: 'LiveWallet: Crypto Wallet'
 verdict: wip
-meta: removed
 date: 2024-07-19
 website: https://livewallet.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-09
   version: 1.5.3
   icon: io.livewallet.android.png
+  meta: removed
   developerName: Ogaliya Limited
 
 ---

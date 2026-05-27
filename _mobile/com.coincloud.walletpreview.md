@@ -2,7 +2,6 @@
 wsId: coinCloudWallet
 title: 'Coin Cloud: Wallet'
 verdict: nosource
-meta: removed
 date: 2024-03-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 12.9.24
   reviews: 44
   icon: com.coincloud.walletpreview.png
+  meta: removed
   developerName: Coin Cloud
 iphone:
   appId: com.coincloud.walletpreview
@@ -33,6 +33,7 @@ iphone:
   version: 12.9.27
   reviews: 50
   icon: com.coincloud.walletpreview.jpg
+  meta: removed
   developerName: Coin Cloud
 
 ---

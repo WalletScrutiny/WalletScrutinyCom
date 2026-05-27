@@ -1,7 +1,6 @@
 ---
 title: Coins Wallet for bitcoin and l
 verdict: custodial
-meta: removed
 date: 2024-12-23
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: '1.12'
   reviews: 50
   icon: com.newcurrency.coinstrunk.v1.png
+  meta: removed
   developerName: First DAO Trust
 
 ---

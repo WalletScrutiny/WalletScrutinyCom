@@ -2,7 +2,6 @@
 wsId: Bitmama
 title: Bitmama-Buy, Sell, Earn Crypto
 verdict: custodial
-meta: stale
 date: 2025-12-15
 authors:
 - danny

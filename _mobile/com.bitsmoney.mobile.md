@@ -1,7 +1,6 @@
 ---
 title: Bits.Money
 verdict: wip
-meta: removed
 date: 2023-05-13
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.2
   reviews: 6
   icon: com.bitsmoney.mobile.png
+  meta: removed
   developerName: Bits Money Ltd.
 
 ---

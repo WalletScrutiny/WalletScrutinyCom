@@ -1,7 +1,6 @@
 ---
 title: Cryptonex (CNX)
 verdict: custodial
-meta: removed
 date: 2024-04-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.4.9
   reviews: 5
   icon: org.cryptonex.android.png
+  meta: removed
   developerName: Cryptonex LP
 
 ---

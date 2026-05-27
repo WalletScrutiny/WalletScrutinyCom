@@ -2,7 +2,6 @@
 wsId: eMoneyGe
 title: Emoney
 verdict: custodial
-meta: ok
 date: 2025-05-23
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 11.5.10
   reviews: 33
   icon: ge.mobility.emoney.png
+  meta: ok
   developerName: eMoney Georgia
 iphone:
   appId: ge.smatex.eMoney
@@ -31,6 +31,7 @@ iphone:
   version: 11.5.10
   reviews: 8
   icon: ge.smatex.eMoney.jpg
+  meta: ok
   developerName: eMoney
 
 ---

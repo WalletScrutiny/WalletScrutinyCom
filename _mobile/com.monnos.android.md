@@ -2,7 +2,6 @@
 wsId: monnos
 title: Monnos | Buy Bitcoin & Crypto
 verdict: custodial
-meta: stale
 date: 2025-10-15
 authors:
 - danny

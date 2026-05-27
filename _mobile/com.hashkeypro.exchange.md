@@ -2,7 +2,6 @@
 wsId: hashkeyExchange
 title: HashKey Exchange
 verdict: custodial
-meta: ok
 date: 2025-11-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.78.1
   reviews: 30
   icon: com.hashkeypro.exchange.png
+  meta: ok
   developerName: HashKey Digital Asset Group Limited
 iphone:
   appId: com.hashkey.global
@@ -29,6 +29,7 @@ iphone:
   version: 1.66.0
   reviews: 9
   icon: com.hashkey.global.jpg
+  meta: ok
   developerName: HashKey Bermuda Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Cashback Shopping onli
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://www.liquigate.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-01
   version: 1.1.9
   icon: com.liquigate.png
+  meta: removed
   developerName: Liquigate dev
 
 ---

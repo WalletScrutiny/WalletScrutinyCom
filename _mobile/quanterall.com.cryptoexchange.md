@@ -1,7 +1,6 @@
 ---
 title: Crypto Exchange
 verdict: wip
-meta: removed
 date: 2024-05-07
 redirect_from:
 - /android/quanterall.com.cryptoexchange/
@@ -11,6 +10,7 @@ android:
   updated: 2019-06-18
   version: VARY
   icon: quanterall.com.cryptoexchange.png
+  meta: removed
   developerName: Quanterall
 
 ---

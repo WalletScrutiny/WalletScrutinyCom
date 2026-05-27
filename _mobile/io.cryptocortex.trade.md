@@ -1,7 +1,6 @@
 ---
 title: CryptoCortex
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://cryptocortex.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-18
   version: '1.2'
   icon: io.cryptocortex.trade.png
+  meta: removed
   developerName: Deltix
 
 ---

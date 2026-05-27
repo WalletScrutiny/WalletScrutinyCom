@@ -2,7 +2,6 @@
 wsId: globianceApp
 title: Globiance
 verdict: custodial
-meta: removed
 date: 2025-02-13
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: '2.07'
   reviews: 45
   icon: com.globiance.android.png
+  meta: removed
   developerName: Globiance Group
 iphone:
   appId: com.globiance.iosapp
@@ -35,6 +35,7 @@ iphone:
   version: '2.07'
   reviews: 86
   icon: com.globiance.iosapp.jpg
+  meta: removed
   developerName: Globiance Holdings Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: excoino | اکسکوینو
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 9.70.0
   reviews: 377
   icon: com.excoino.excoino.png
+  meta: ok
   developerName: Ernyka Co
 
 ---

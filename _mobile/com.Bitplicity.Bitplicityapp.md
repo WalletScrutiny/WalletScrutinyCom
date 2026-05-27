@@ -1,7 +1,6 @@
 ---
 title: Bitplicity Bitcoin Wallet - Bu
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://Bitplicity.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-19
   version: '1.4'
   icon: com.Bitplicity.Bitplicityapp.png
+  meta: removed
   developerName: Bitplicity
 
 ---

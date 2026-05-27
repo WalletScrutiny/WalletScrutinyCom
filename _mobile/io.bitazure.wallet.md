@@ -1,7 +1,6 @@
 ---
 title: BitAzure Wallet Admin
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://bitazure.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-20
   version: 1.0.1
   icon: io.bitazure.wallet.png
+  meta: removed
   developerName: BitAzure Blockchain Technology
 
 ---

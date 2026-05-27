@@ -2,7 +2,6 @@
 wsId: dzengiComInvesting
 title: 'Dzengi.com: Stock Investing'
 verdict: custodial
-meta: ok
 date: 2025-07-18
 authors:
 - danny

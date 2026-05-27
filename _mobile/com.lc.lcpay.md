@@ -1,7 +1,6 @@
 ---
 title: LC Pay
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.lcpay.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-04-13
   version: 5.0.0
   icon: com.lc.lcpay.png
+  meta: removed
   developerName: Libra Ecosystem
 
 ---

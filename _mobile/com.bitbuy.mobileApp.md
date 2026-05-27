@@ -2,7 +2,6 @@
 wsId: bitbuy
 title: 'Bitbuy: Buy Bitcoin Canada'
 verdict: custodial
-meta: ok
 date: 2021-09-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 5.3.3
   reviews: 1383
   icon: com.bitbuy.mobileApp.jpg
+  meta: ok
   developerName: WF - Bitbuy
 iphone:
   appId: com.bitbuy.mobileApp
@@ -32,6 +32,7 @@ iphone:
   version: 5.3.3
   reviews: 7376
   icon: com.bitbuy.mobileApp.jpg
+  meta: ok
   developerName: Bitbuy Inc
 
 ---

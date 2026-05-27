@@ -1,7 +1,6 @@
 ---
 title: 'c-Exchange: Buy & Sell Crypto'
 verdict: custodial
-meta: stale
 date: 2025-11-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2024-11-19
   version: 13.0.2
   icon: com.cexchange.app.png
+  meta: stale
   developerName: NetMart Inc
 
 ---

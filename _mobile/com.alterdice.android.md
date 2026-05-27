@@ -1,7 +1,6 @@
 ---
 title: Alterdice
 verdict: custodial
-meta: removed
 date: 2024-09-10
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2018-11-22
   version: 1.3.7
   icon: com.alterdice.android.png
+  meta: removed
   developerName: Alterdice Developers
 
 ---

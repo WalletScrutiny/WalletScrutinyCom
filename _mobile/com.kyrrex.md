@@ -2,7 +2,6 @@
 wsId: kyrrexGlobal
 title: Kyrrex Global
 verdict: custodial
-meta: ok
 date: 2023-07-11
 authors:
 - danny

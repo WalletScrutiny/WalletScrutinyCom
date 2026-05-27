@@ -1,7 +1,6 @@
 ---
 title: WeiPay
 verdict: wip
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-02-18
   version: VARY
   icon: com.chainsafe.weipay.png
+  meta: removed
   developerName: ChainSafe Systems
 
 ---

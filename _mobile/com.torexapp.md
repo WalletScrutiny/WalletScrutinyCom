@@ -1,7 +1,6 @@
 ---
 title: Torex
 verdict: wip
-meta: removed
 date: 2023-06-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-09-29
   version: '1.1'
   icon: com.torexapp.png
+  meta: removed
   developerName: Torex.one
 
 ---

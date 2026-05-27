@@ -1,7 +1,6 @@
 ---
 title: Flixpay
 verdict: wip
-meta: removed
 date: 2023-04-29
 website: https://flixpay.io#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.3.3
   reviews: 140
   icon: com.redot.flixpay.png
+  meta: removed
 
 ---
 

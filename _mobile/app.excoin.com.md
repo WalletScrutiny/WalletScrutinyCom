@@ -1,7 +1,6 @@
 ---
 title: 'Rocket: Mobile Trade App'
 verdict: nosendreceive
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-09-16
   version: 1.1.2
   icon: app.excoin.com.png
+  meta: removed
   developerName: betcoin
 
 ---

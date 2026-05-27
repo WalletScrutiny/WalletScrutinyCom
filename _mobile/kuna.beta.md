@@ -2,7 +2,6 @@
 wsId: kunaio
 title: KUNA - buy & sell crypto, BTC
 verdict: custodial
-meta: removed
 date: 2025-04-22
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.1.1891
   reviews: 15
   icon: kuna.beta.png
+  meta: removed
   developerName: UAB Kuna Pro
 iphone:
   appId: icecream.group.kuna.fintech
@@ -32,6 +32,7 @@ iphone:
   version: 5.6.4
   reviews: 10
   icon: icecream.group.kuna.fintech.jpg
+  meta: removed
   developerName: Kuna.io - buy sell crypto
 
 ---

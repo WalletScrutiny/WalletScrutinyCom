@@ -1,7 +1,6 @@
 ---
 title: SPL Cards
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.spl.cards#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-22
   version: 1.3.1
   icon: spl.cards.app.jpg
+  meta: removed
   developerName: SPL Cards
 
 ---

@@ -2,7 +2,6 @@
 wsId: ecdWallet
 title: 'ECD Wallet: Buy BTC & ETH'
 verdict: custodial
-meta: ok
 date: 2026-01-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2026-05-25
   version: 1.4.92
   icon: rs.ecd.ecd.png
+  meta: ok
   developerName: ECD.RS
 iphone:
   appId: rs.ecd.ECD
@@ -33,6 +33,7 @@ iphone:
   version: 1.2.56
   reviews: 102
   icon: rs.ecd.ECD.jpg
+  meta: ok
   developerName: MCM 965
 
 ---

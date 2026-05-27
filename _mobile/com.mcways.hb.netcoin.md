@@ -1,7 +1,6 @@
 ---
 title: Vitarabrit
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: http://www.vitarabrit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-06-04
   version: 1.0.1
   icon: com.mcways.hb.netcoin.png
+  meta: removed
   developerName: Mcways Infotech
 
 ---

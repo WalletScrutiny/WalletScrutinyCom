@@ -1,7 +1,6 @@
 ---
 title: SendThe.Cash
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.sendthe.cash/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-11
   version: 2.0.0
   icon: com.sendthe.cash.png
+  meta: removed
   developerName: SendThe.Cash
 
 ---

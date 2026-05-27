@@ -1,7 +1,6 @@
 ---
 title: 'Flashift - Exchange crypto at '
 verdict: wip
-meta: removed
 date: 2024-03-02
 website: https://flashift.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-17
   version: 1.0.1
   icon: com.flashift.flashift.png
+  meta: removed
   developerName: Flashift
 
 ---

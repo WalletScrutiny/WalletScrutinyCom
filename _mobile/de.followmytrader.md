@@ -2,7 +2,6 @@
 wsId: followMyTrader
 title: Follow MyMoney
 verdict: custodial
-meta: ok
 date: 2023-04-13
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2025-08-27
   version: 3.6.0
   icon: de.followmytrader.png
+  meta: ok
   developerName: FELS Group GmbH
 iphone:
   appId: de.followmytrader
@@ -32,6 +32,7 @@ iphone:
   version: 3.6.0
   reviews: 0
   icon: de.followmytrader.jpg
+  meta: ok
   developerName: FELS Group GmbH
 
 ---

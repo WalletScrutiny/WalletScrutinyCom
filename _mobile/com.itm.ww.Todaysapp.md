@@ -1,7 +1,6 @@
 ---
 title: Wampum1st Anonymous Dapp
 verdict: wip
-meta: obsolete
 date: 2026-01-14
 website: http://wampum1st.com
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: '2'
   reviews: 1
   icon: com.itm.ww.Todaysapp.jpg
+  meta: obsolete
   developerName: INTERNATIONAL TELEMETRY MACHINES
 
 ---

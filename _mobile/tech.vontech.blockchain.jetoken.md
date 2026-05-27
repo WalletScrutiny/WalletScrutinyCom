@@ -1,7 +1,6 @@
 ---
 title: Beehives Wallet - Bitcoin Crypto Wallet
 verdict: wip
-meta: removed
 date: 2021-10-18
 redirect_from:
 - /android/tech.vontech.blockchain.jetoken/
@@ -13,6 +12,7 @@ android:
   version: 1.0.12
   reviews: 12
   icon: tech.vontech.blockchain.jetoken.png
+  meta: removed
 
 ---
 

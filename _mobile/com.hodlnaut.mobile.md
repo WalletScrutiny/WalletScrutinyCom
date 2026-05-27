@@ -1,7 +1,6 @@
 ---
 title: 'Hodlnaut: Earn Crypto Interest'
 verdict: custodial
-meta: removed
 date: 2023-04-07
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.4.15
   reviews: 76
   icon: com.hodlnaut.mobile.jpg
+  meta: removed
   developerName: Hodlnaut
 
 ---

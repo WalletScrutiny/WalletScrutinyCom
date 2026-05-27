@@ -1,7 +1,6 @@
 ---
 title: RahaExchange Trader
 verdict: custodial
-meta: removed
 date: 2023-05-17
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.007'
   reviews: 5
   icon: com.rahaexchange.app.png
+  meta: removed
   developerName: RahaPay
 
 ---

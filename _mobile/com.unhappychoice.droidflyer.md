@@ -1,7 +1,6 @@
 ---
 title: DroidFlyer
 verdict: wip
-meta: obsolete
 date: 2026-02-02
 website: https://github.com/unhappychoice/DroidFlyer
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-23
   version: 2.0.1
   icon: com.unhappychoice.droidflyer.png
+  meta: obsolete
   developerName: Yuji Ueki
 
 ---

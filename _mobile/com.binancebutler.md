@@ -1,7 +1,6 @@
 ---
 title: Butler for Binance
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://binance-butler.github.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-06-09
   version: 1.2.5
   icon: com.binancebutler.jpg
+  meta: removed
   developerName: Inno ideas
 
 ---

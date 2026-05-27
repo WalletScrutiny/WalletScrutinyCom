@@ -1,7 +1,6 @@
 ---
 title: Scarlett Global
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://scarlettglobal.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-07
   version: '1.20'
   icon: com.espsoft.ScarlettInvest.png
+  meta: removed
   developerName: Barry Moore
 
 ---

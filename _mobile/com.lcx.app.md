@@ -2,7 +2,6 @@
 wsId: lcxExchange
 title: Buy Bitcoin & Crypto - LCX
 verdict: custodial
-meta: ok
 date: 2022-06-22
 authors:
 - danny

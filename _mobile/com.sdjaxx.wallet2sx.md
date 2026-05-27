@@ -1,7 +1,6 @@
 ---
 title: Jaxx Liberty Wallet
 verdict: fake
-meta: removed
 date: 2021-12-05
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-11
   version: '1'
   icon: com.sdjaxx.wallet2sx.png
+  meta: removed
 
 ---
 

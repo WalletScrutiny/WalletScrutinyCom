@@ -1,7 +1,6 @@
 ---
 title: SecondFlyer
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://wininnovation.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-30
   version: 1.0.0
   icon: net.wininnovation.second_flyer.png
+  meta: removed
   developerName: Win Innovation株式会社
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Peer Trans
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://peertrans.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-02-11
   version: 1.0.0
   icon: com.peertrans.com.peer_trans.png
+  meta: removed
   developerName: Brain Bee Business Pvt Ltd
 
 ---

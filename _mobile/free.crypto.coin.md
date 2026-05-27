@@ -1,7 +1,6 @@
 ---
 title: Free Crypto Coin & Airdrops
 verdict: wip
-meta: removed
 date: 2023-04-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.8
   reviews: 2
   icon: free.crypto.coin.png
+  meta: removed
 
 ---
 

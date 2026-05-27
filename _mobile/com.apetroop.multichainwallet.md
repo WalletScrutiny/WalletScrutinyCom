@@ -1,7 +1,6 @@
 ---
 title: Global Token Wallet
 verdict: wip
-meta: removed
 date: 2023-06-21
 website: https://globaltoken.vip
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-09-04
   version: 1.0.3
   icon: com.apetroop.multichainwallet.png
+  meta: removed
   developerName: Global Token
 
 ---

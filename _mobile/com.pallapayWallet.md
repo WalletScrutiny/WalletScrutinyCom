@@ -2,7 +2,6 @@
 wsId: pallapay
 title: Pallapay Wallet
 verdict: nosource
-meta: removed
 date: 2022-05-31
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2022-03-02
   version: '1.3'
   icon: com.pallapayWallet.png
+  meta: removed
 iphone:
   appId: com.pallapayWallet
   idd: '1579865730'
@@ -32,6 +32,7 @@ iphone:
   version: '1.6'
   reviews: 9
   icon: com.pallapayWallet.jpg
+  meta: removed
 
 ---
 

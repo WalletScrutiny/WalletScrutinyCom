@@ -2,7 +2,6 @@
 wsId: Coinmotion
 title: 'Coinmotion: Buy Bitcoin Easily'
 verdict: custodial
-meta: ok
 date: 2021-10-19
 authors:
 - danny

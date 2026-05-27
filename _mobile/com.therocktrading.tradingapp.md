@@ -2,7 +2,6 @@
 wsId: theRockTrading
 title: TheRockTrading
 verdict: custodial
-meta: removed
 date: 2023-07-21
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2022-07-11
   version: 1.6.1
   icon: com.therocktrading.tradingapp.png
+  meta: removed
   developerName: The Rock Trading
 iphone:
   appId: com.therocktrading.tradingapp
@@ -28,6 +28,7 @@ iphone:
   version: 1.6.1
   reviews: 0
   icon: com.therocktrading.tradingapp.jpg
+  meta: removed
   developerName: The Rock Trading Srl
 
 ---

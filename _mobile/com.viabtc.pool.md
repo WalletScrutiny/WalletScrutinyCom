@@ -2,7 +2,6 @@
 wsId: viaBTC
 title: ViaBTC-Crypto Mining Pool
 verdict: custodial
-meta: ok
 date: 2022-06-24
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.14.0
   reviews: 312
   icon: com.viabtc.pool.png
+  meta: ok
   developerName: ViaBTC
 iphone:
   appId: com.viabtc.pool2
@@ -32,6 +32,7 @@ iphone:
   version: 3.12.0
   reviews: 16
   icon: com.viabtc.pool2.jpg
+  meta: ok
   developerName: Viabtc Technology Limited
 
 ---

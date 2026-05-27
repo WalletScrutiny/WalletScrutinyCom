@@ -2,7 +2,6 @@
 wsId: ZaifExchange
 title: Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif
 verdict: custodial
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2023-10-05
   version: 1.1.23
   icon: jp.fcce.zaifapps.png
+  meta: removed
   developerName: 株式会社Ｚａｉｆ
 iphone:
   appId: jp.fcce.zaifapps
@@ -30,6 +30,7 @@ iphone:
   version: 1.1.22
   reviews: 0
   icon: jp.fcce.zaifapps.jpg
+  meta: removed
   developerName: FCCE
 
 ---

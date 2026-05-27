@@ -1,7 +1,6 @@
 ---
 title: 'CBFI: Coins & Tokens Wallet'
 verdict: nosource
-meta: removed
 date: 2024-12-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-03-02
   version: 1.0.2.6
   icon: com.coinboxwallet.png
+  meta: removed
   developerName: CoinBox Finance Ecosystem
 
 ---

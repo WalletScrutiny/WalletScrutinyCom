@@ -2,7 +2,6 @@
 wsId: tooBitExchange
 title: 'Toobit: Buy BTC, ETH & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-12-01
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 2.2.6
   reviews: 336
   icon: com.planet.toobit.jpg
+  meta: ok
   developerName: TooBit Inc.
 iphone:
   appId: com.planet.toobit
@@ -36,6 +36,7 @@ iphone:
   version: 2.2.7
   reviews: 3758
   icon: com.planet.toobit.jpg
+  meta: ok
   developerName: Hopeful Technology Co., Ltd.
 
 ---

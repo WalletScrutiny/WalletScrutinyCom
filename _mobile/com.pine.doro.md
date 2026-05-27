@@ -1,7 +1,6 @@
 ---
 title: Pine App
 verdict: wip
-meta: removed
 date: 2021-09-16
 redirect_from:
 - /android/com.pine.doro/
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   reviews: 34
   icon: com.pine.doro.jpg
+  meta: removed
 
 ---
 

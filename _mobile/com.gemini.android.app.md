@@ -2,7 +2,6 @@
 wsId: geminiwallet
 title: Gemini Markets & Credit Card
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 26.522.0
   reviews: 8545
   icon: com.gemini.android.app.png
+  meta: ok
   developerName: Gemini Space Station, Inc.
 iphone:
   appId: com.gemini.ios
@@ -33,6 +33,7 @@ iphone:
   version: 26.518.1
   reviews: 108806
   icon: com.gemini.ios.jpg
+  meta: ok
   developerName: Gemini Trust Company, LLC
 
 ---

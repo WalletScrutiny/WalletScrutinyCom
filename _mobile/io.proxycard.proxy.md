@@ -1,7 +1,6 @@
 ---
 title: Proxy | Secure Cryptocurrency Storage & Chat
 verdict: wip
-meta: removed
 date: 2021-12-05
 redirect_from:
 - /android/io.proxycard.proxy/
@@ -13,6 +12,7 @@ android:
   version: 1.0.89
   reviews: 38
   icon: io.proxycard.proxy.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Final Security
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://final-security.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-16
   version: 1.0.2
   icon: com.finalSecurity.png
+  meta: removed
   developerName: Final Security
 
 ---

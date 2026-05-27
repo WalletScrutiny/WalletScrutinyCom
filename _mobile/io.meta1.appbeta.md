@@ -1,7 +1,6 @@
 ---
 wsId: meta1Wallet
 title: META 1 Wallet
-meta: removed
 date: 2025-01-09
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.0.3
   reviews: 2
   icon: io.meta1.appbeta.png
+  meta: removed
   verdict: nosource
   developerName: META 1 Coin
   repository: https://github.com/META-1-Official/litewallet-native#deadLink
@@ -34,6 +34,7 @@ iphone:
   version: 2.1.9
   reviews: 4
   icon: io.meta1.appbeta.jpg
+  meta: removed
   verdict: wip
   developerName: Meta Vault Association, LLC
 

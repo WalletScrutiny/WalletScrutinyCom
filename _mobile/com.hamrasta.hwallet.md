@@ -1,7 +1,6 @@
 ---
 title: Hamrasta Cryptocurrency Market
 verdict: wip
-meta: removed
 date: 2023-08-07
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '2.7'
   reviews: 7
   icon: com.hamrasta.hwallet.png
+  meta: removed
   developerName: Hamrasta
 
 ---

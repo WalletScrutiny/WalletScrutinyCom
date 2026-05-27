@@ -2,7 +2,6 @@
 wsId: CoinJar
 title: 'CoinJar: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2021-09-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.55.0
   reviews: 1170
   icon: com.coinjar.riemann.png
+  meta: ok
   developerName: CoinJar
 iphone:
   appId: com.coinjar.mobius
@@ -32,6 +32,7 @@ iphone:
   version: 3.54.4
   reviews: 15185
   icon: com.coinjar.mobius.jpg
+  meta: ok
   developerName: CoinJar Pty Ltd
 
 ---

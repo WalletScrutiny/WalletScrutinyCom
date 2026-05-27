@@ -2,7 +2,6 @@
 wsId: metamask
 title: 'MetaMask: Trade Crypto'
 verdict: sourceavailable
-meta: ok
 date: 2025-12-16
 authors:
 - leo
@@ -29,6 +28,7 @@ android:
   version: 7.77.0
   reviews: 6633
   icon: io.metamask.png
+  meta: ok
   developerName: MetaMask Web3 Wallet
   repository: https://github.com/MetaMask/metamask-mobile
 iphone:
@@ -39,6 +39,7 @@ iphone:
   version: 7.77.0
   reviews: 74967
   icon: io.metamask.MetaMask.jpg
+  meta: ok
   developerName: MetaMask
 
 ---

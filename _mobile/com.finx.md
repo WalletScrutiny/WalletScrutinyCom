@@ -1,7 +1,6 @@
 ---
 title: FINX UK WALLET
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://finx.global/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-29
   version: 1.0.0.5-finx
   icon: com.finx.png
+  meta: removed
 
 ---
 

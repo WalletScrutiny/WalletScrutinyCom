@@ -2,7 +2,6 @@
 wsId: ATAIX
 title: ATAIX – Bitcoin Crypto Exchang
 verdict: custodial
-meta: removed
 date: 2023-04-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.1.4
   reviews: 26
   icon: com.ataix.exchange.png
+  meta: removed
   developerName: EuroToken OÜ
 iphone:
   appId: com.eurotoken.ataix
@@ -33,6 +33,7 @@ iphone:
   version: 2.1.3
   reviews: 0
   icon: com.eurotoken.ataix.jpg
+  meta: removed
   developerName: EuroToken OÜ
 
 ---

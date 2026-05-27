@@ -2,7 +2,6 @@
 wsId: hotscoin
 title: HotsCoin - More Than 100× Gem
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.20.1
   reviews: 10
   icon: com.hots.quantity.png
+  meta: removed
   developerName: KX Network Co., Ltd.
 iphone:
   appId: com.hots.quantity
@@ -30,6 +30,7 @@ iphone:
   version: 1.2.0
   reviews: 8
   icon: com.hots.quantity.jpg
+  meta: removed
   developerName: 台湾凯旋网络科技
 
 ---

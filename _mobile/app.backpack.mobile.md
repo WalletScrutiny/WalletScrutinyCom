@@ -1,6 +1,5 @@
 ---
 title: 'Backpack: Buy SOL, BTC, Crypto'
-meta: ok
 date: 2025-11-09
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.74.0
   reviews: 66
   icon: app.backpack.mobile.png
+  meta: ok
   verdict: custodial
   developerName: Backpack App
 iphone:
@@ -27,6 +27,7 @@ iphone:
   version: 2.74.0
   reviews: 218
   icon: app.backpack.mobile.jpg
+  meta: ok
   verdict: wip
   developerName: Backpack Technologies Ltd.
 

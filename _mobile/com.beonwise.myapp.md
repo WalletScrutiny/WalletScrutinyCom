@@ -1,7 +1,6 @@
 ---
 title: Beonwise
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.beonwise.myapp/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-03
   version: '1.0'
   icon: com.beonwise.myapp.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 verdict: wip
-meta: fewusers
 date: 2025-09-17
 authors:
 - danny

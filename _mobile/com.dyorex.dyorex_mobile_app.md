@@ -2,7 +2,6 @@
 wsId: dyorEX
 title: DyorEX Exchange
 verdict: custodial
-meta: ok
 date: 2023-05-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   updated: 2026-04-10
   version: 2.0.5
   icon: com.dyorex.dyorex_mobile_app.png
+  meta: ok
   developerName: Dyorex Exchange
 iphone:
   appId: com.dyorex.dyorexMobileApp
@@ -34,6 +34,7 @@ iphone:
   version: 1.9.1
   reviews: 23
   icon: com.dyorex.dyorexMobileApp.jpg
+  meta: ok
   developerName: DyorEX Exchange
 
 ---

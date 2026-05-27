@@ -2,7 +2,6 @@
 wsId: unionEx
 title: 'UnionEx: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny

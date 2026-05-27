@@ -2,7 +2,6 @@
 wsId: bananatok
 title: Bananatok - Web 3 Messenger
 verdict: custodial
-meta: ok
 date: 2022-06-27
 authors:
 - danny

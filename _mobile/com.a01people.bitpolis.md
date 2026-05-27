@@ -1,7 +1,6 @@
 ---
 title: BitPolis
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://bitpolis.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-05-19
   version: 0.1.2
   icon: com.a01people.bitpolis.png
+  meta: removed
   developerName: Arca Investments, a.s.
 
 ---

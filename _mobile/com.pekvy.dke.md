@@ -1,7 +1,6 @@
 ---
 title: MyViTRX
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.pekvy.dke/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-26
   version: 1.0.0
   icon: com.pekvy.dke.png
+  meta: removed
 
 ---
 

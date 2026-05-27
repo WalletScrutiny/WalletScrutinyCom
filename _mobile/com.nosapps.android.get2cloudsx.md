@@ -1,7 +1,6 @@
 ---
 title: get2coin - Wallet - g2c
 verdict: custodial
-meta: removed
 date: 2023-09-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.1.603
   reviews: 3
   icon: com.nosapps.android.get2cloudsx.png
+  meta: removed
   developerName: NOS Microsystems Ltd
 
 ---

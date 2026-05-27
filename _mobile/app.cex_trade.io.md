@@ -1,7 +1,6 @@
 ---
 title: Cex-Trade
 verdict: fake
-meta: removed
 date: 2023-07-02
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.1'
   reviews: 7
   icon: app.cex_trade.io.png
+  meta: removed
   developerName: Cex-Trade
 
 ---

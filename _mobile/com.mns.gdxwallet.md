@@ -1,7 +1,6 @@
 ---
 title: GDX Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://gdxwallet.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-04
   version: '1.86'
   icon: com.mns.gdxwallet.png
+  meta: removed
   developerName: GDX
 
 ---

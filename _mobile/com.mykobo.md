@@ -1,7 +1,6 @@
 ---
 title: 'MYKOBO: Buy, Sell, Use EURC'
 verdict: wip
-meta: removed
 date: 2024-11-07
 website: https://www.mykobo.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-07-04
   version: 2.0.15
   icon: com.mykobo.png
+  meta: removed
   developerName: MyKobo
 
 ---

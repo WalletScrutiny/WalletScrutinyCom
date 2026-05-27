@@ -1,7 +1,6 @@
 ---
 title: FME Wallet
 verdict: wip
-meta: removed
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-06-22
   version: 1.0.0
   icon: com.fme.wallet.jpg
+  meta: removed
   developerName: fmetoken.io
 
 ---

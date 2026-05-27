@@ -1,7 +1,6 @@
 ---
 title: VAEX
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-02-02
   version: 5.6.5_push_v2
   icon: com.chainup.exchange.VAEX.png
+  meta: removed
   developerName: VAEX
 
 ---

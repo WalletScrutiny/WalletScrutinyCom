@@ -2,7 +2,6 @@
 wsId: cake
 title: 'Cake Wallet: Crypto, Made Easy'
 verdict: sourceavailable
-meta: ok
 date: 2022-11-02
 authors:
 - leo
@@ -37,6 +36,7 @@ android:
   version: 6.1.2
   reviews: 658
   icon: com.cakewallet.cake_wallet.png
+  meta: ok
   developerName: Cake Labs
 iphone:
   appId: com.fotolockr.cakewallet
@@ -46,6 +46,7 @@ iphone:
   version: 6.1.2
   reviews: 4206
   icon: com.fotolockr.cakewallet.jpg
+  meta: ok
   developerName: Cake Technologies, LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: EnigmaX
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.enigmax.app.enigma_x/
@@ -12,6 +11,7 @@ android:
   updated: 2022-11-03
   version: '1.4'
   icon: com.enigmax.app.enigma_x.png
+  meta: removed
   developerName: EnigmaX
 
 ---

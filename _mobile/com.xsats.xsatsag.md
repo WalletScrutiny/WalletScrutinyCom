@@ -1,7 +1,6 @@
 ---
 title: xsats - save bitcoin
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://xsats.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-10
   version: 2.0.23
   icon: com.xsats.xsatsag.png
+  meta: removed
   developerName: xsats AG
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Bit Metavest: Invest in Crypto'
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: https://bitmetavest.com/en#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-18
   version: 1.0.0
   icon: com.bitmetavest.crypto_investment.png
+  meta: removed
   developerName: ALB Mucia Tech
 
 ---

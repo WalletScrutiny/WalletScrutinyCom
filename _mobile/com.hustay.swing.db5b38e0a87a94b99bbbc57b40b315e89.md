@@ -1,7 +1,6 @@
 ---
 title: 스마일빗 Smile-Bit Buy&Sell Crypto
 verdict: custodial
-meta: removed
 date: 2025-03-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-08-07
   version: '1.2'
   icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
+  meta: removed
   developerName: SMI-HK.LLC
 
 ---

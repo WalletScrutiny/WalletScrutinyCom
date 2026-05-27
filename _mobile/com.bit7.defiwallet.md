@@ -1,7 +1,6 @@
 ---
 title: 'DeXoo: Crypto DeFi wallet'
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.dexoo.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-26
   version: 1.1.12
   icon: com.bit7.defiwallet.png
+  meta: removed
   developerName: DeXoo
 
 ---

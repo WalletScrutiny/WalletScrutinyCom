@@ -1,7 +1,6 @@
 ---
 title: Fynzon
 verdict: wip
-meta: removed
 date: 2024-03-02
 redirect_from:
 - /android/com.fynzon/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-03
   version: 1.0.0
   icon: com.fynzon.jpg
+  meta: removed
   developerName: Virtual Block Innovations Pvt. Ltd.
 
 ---

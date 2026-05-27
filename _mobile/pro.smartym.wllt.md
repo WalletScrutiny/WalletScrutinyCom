@@ -1,7 +1,6 @@
 ---
 title: WLLT
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://smartym.pro
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-03-21
   version: '1.1'
   icon: pro.smartym.wllt.png
+  meta: removed
   developerName: Smartym Pro
 
 ---

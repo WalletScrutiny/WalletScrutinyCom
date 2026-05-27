@@ -1,7 +1,6 @@
 ---
 wsId: aquaWallet
 title: AQUA Wallet
-meta: ok
 date: 2024-01-05
 authors:
 - danny
@@ -30,6 +29,7 @@ android:
   version: 0.4.2
   reviews: 22
   icon: io.aquawallet.android.png
+  meta: ok
   verdict: nosource
   developerName: JAN3
 iphone:
@@ -41,6 +41,7 @@ iphone:
   version: 0.4.2
   reviews: 71
   icon: io.aquawallet.ios.jpg
+  meta: ok
   verdict: wip
   developerName: Jan3 LLC
 

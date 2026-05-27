@@ -1,7 +1,6 @@
 ---
 title: HashX Cloud Mining -  Crypto Mining
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://hashx.online#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.15
   reviews: 7
   icon: app.hashx.online.png
+  meta: removed
 
 ---
 

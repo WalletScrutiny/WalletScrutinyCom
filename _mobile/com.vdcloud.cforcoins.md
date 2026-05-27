@@ -1,7 +1,6 @@
 ---
 title: CforCoins
 verdict: custodial
-meta: removed
 date: 2023-04-12
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2020-05-13
   version: 2.7.0
   icon: com.vdcloud.cforcoins.png
+  meta: removed
   developerName: CforCoins
 
 ---

@@ -2,7 +2,6 @@
 wsId: bikiexchange
 title: BiKi App
 verdict: custodial
-meta: removed
 date: 2022-03-07
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.9.1
   reviews: 17
   icon: com.biki.bikicoin.png
+  meta: removed
 iphone:
   appId: com.bikipro.exchange
   idd: '1470204749'
@@ -31,6 +31,7 @@ iphone:
   version: 4.9.2
   reviews: 16
   icon: com.bikipro.exchange.jpg
+  meta: removed
 
 ---
 

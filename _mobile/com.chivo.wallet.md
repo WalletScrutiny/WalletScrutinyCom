@@ -2,7 +2,6 @@
 wsId: ChivoWallet
 title: Chivo Wallet
 verdict: obfuscated
-meta: ok
 date: 2024-11-29
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.0.0
   reviews: 14230
   icon: com.chivo.wallet.png
+  meta: ok
   developerName: Gobierno de El Salvador
 iphone:
   appId: com.chivo.wallet
@@ -34,6 +34,7 @@ iphone:
   version: 3.1.0
   reviews: 4263
   icon: com.chivo.wallet.jpg
+  meta: ok
   developerName: Gobierno de El Salvador
 
 ---

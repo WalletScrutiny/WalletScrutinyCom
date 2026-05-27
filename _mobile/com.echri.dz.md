@@ -1,7 +1,6 @@
 ---
 title: اشري بيع و شراء العملات الالكت
 verdict: wip
-meta: removed
 date: 2023-05-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-01-18
   version: 4.0.1
   icon: com.echri.dz.png
+  meta: removed
   developerName: AlgeriaHost
 
 ---

@@ -2,7 +2,6 @@
 wsId: ciexExchange
 title: CIEx
 verdict: custodial
-meta: ok
 date: 2025-05-30
 authors:
 - danny

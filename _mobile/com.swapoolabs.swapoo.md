@@ -2,7 +2,6 @@
 wsId: Swapoo
 title: Swapoo
 verdict: wip
-meta: removed
 date: 2021-11-15
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.28.125
   reviews: 25
   icon: com.swapoolabs.swapoo.png
+  meta: removed
 iphone:
   appId: com.swapoolabs.swapoowallet
   idd: 1494247642
@@ -26,6 +26,7 @@ iphone:
   version: 1.45.30
   reviews: 1
   icon: com.swapoolabs.swapoowallet.jpg
+  meta: removed
 
 ---
 

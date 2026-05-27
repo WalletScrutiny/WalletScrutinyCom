@@ -1,7 +1,6 @@
 ---
 title: Bigbit:Buy BTC, NFTs & Meta
 verdict: wip
-meta: removed
 date: 2023-10-16
 redirect_from:
 - /android/life.bbx.bbxpro/
@@ -12,6 +11,7 @@ android:
   updated: 2022-01-13
   version: 1.3.2
   icon: life.bbx.bbxpro.png
+  meta: removed
   developerName: Bigbit tech
 
 ---

@@ -2,7 +2,6 @@
 wsId: VoltWallet
 title: 'Volt: Bitcoin & DeFi Wallet'
 verdict: custodial
-meta: removed
 date: 2023-06-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.4.0
   reviews: 30
   icon: bitmesh.volt.wallet.png
+  meta: removed
   developerName: Volt Wallet
 iphone:
   appId: com.laxoWallet
@@ -29,6 +29,7 @@ iphone:
   version: 2.3.9
   reviews: 55
   icon: com.laxoWallet.jpg
+  meta: removed
   developerName: Hangzhou YunSuanDuanDian Technology Co.,Ltd
 
 ---

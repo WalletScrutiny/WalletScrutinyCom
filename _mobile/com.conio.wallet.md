@@ -1,7 +1,6 @@
 ---
 title: 'Conio: Wallet Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2020-04-09
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   updated: 2026-04-27
   version: 10.4.0
   icon: com.conio.wallet.png
+  meta: ok
   developerName: Conio Srl
 
 ---

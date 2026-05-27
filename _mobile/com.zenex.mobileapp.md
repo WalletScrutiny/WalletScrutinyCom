@@ -1,7 +1,6 @@
 ---
 title: ZNX Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://zenextoken.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-28
   version: '1.0'
   icon: com.zenex.mobileapp.png
+  meta: removed
 
 ---
 

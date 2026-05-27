@@ -2,7 +2,6 @@
 wsId: bitcastleTradeCrypto
 title: 'bitcastle: Buy & Trade Crypto'
 verdict: custodial
-meta: ok
 date: 2023-07-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.13.10
   reviews: 16
   icon: com.llc.bitcastle.png
+  meta: ok
   developerName: bitcastle Limited
 iphone:
   appId: com.llc.bitcastle
@@ -32,6 +32,7 @@ iphone:
   version: 1.12.14
   reviews: 0
   icon: com.llc.bitcastle.jpg
+  meta: ok
   developerName: bitcastle LLC
 
 ---

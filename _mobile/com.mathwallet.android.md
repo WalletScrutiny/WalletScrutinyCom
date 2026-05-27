@@ -2,7 +2,6 @@
 wsId: mathWallet5
 title: MathWallet
 verdict: nosource
-meta: ok
 date: 2024-01-05
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 5.7.8
   reviews: 62
   icon: com.mathwallet.android.png
+  meta: ok
   developerName: Math Global
 iphone:
   appId: com.mathglobal.mathwallet5
@@ -36,6 +36,7 @@ iphone:
   version: 5.5.3
   reviews: 46
   icon: com.mathglobal.mathwallet5.jpg
+  meta: ok
   developerName: MATH GLOBAL FOUNDATION LTD.
 
 ---

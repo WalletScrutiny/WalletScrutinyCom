@@ -1,7 +1,6 @@
 ---
 title: TechPay Exchange - Cryptocurre
 verdict: custodial
-meta: removed
 date: 2024-04-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2022-03-29
   version: '5.2'
   icon: crypto.base.baseexchange.png
+  meta: removed
   developerName: TechPay
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Kala Wallet
 verdict: wip
-meta: removed
 date: 2023-09-28
 website: https://kala.finance#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-10-05
   version: VARY
   icon: finance.kala.app.png
+  meta: removed
   developerName: Kala Labs
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: CSPMINE
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.sac-mine.vip#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '3.0'
   reviews: 4
   icon: com.cspmine.jpg
+  meta: removed
 
 ---
 

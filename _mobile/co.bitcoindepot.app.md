@@ -2,7 +2,6 @@
 wsId: bitcoindepot
 title: Bitcoin Depot
 verdict: custodial
-meta: ok
 date: 2021-11-08
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 4.2.2
   reviews: 270
   icon: co.bitcoindepot.app.png
+  meta: ok
   developerName: Bitcoin Depot
 iphone:
   appId: com.cashtocrypto.wallet
@@ -33,6 +33,7 @@ iphone:
   version: 4.2.2
   reviews: 1354
   icon: com.cashtocrypto.wallet.jpg
+  meta: ok
   developerName: Bitcoin Depot
 
 ---

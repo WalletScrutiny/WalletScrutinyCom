@@ -1,7 +1,6 @@
 ---
 title: Invest In Cryptocurrency
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.fxbitcoinsoft.invest.in.cryptocurrency/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-18
   version: '1.0'
   icon: net.fxbitcoinsoft.invest.in.cryptocurrency.png
+  meta: removed
 
 ---
 

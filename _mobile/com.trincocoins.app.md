@@ -1,7 +1,6 @@
 ---
 title: Trinco Coins
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.trincocoins.uk#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-21
   version: '1.2'
   icon: com.trincocoins.app.png
+  meta: removed
 
 ---
 

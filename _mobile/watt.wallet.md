@@ -2,7 +2,6 @@
 wsId: wattMe
 title: WATT ME
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2022-06-11
   version: 1.28.0
   icon: watt.wallet.png
+  meta: removed
   developerName: wise.win
 iphone:
   appId: watt.wallet
@@ -30,6 +30,7 @@ iphone:
   version: '1.29'
   reviews: 56
   icon: watt.wallet.jpg
+  meta: removed
   developerName: Wise Win LTD
 
 ---

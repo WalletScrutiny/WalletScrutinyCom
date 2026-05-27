@@ -2,7 +2,6 @@
 wsId: coinchange
 title: Coinchange
 verdict: custodial
-meta: obsolete
 date: 2025-04-09
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.1.0
   reviews: 154
   icon: io.coinchange.png
+  meta: obsolete
   developerName: Coinchange  Financials Inc.
 iphone:
   appId: io.coinchange
@@ -33,6 +33,7 @@ iphone:
   version: 2.0.2
   reviews: 40
   icon: io.coinchange.jpg
+  meta: obsolete
   developerName: Coinchange Financials Inc
 
 ---

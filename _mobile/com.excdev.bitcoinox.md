@@ -1,7 +1,6 @@
 ---
 title: Bitcoin OX | Crypto Wallet
 verdict: wip
-meta: stale
 date: 2025-06-23
 authors:
 - leo
@@ -16,6 +15,7 @@ iphone:
   version: 2.8.8
   reviews: 5
   icon: com.excdev.bitcoinox.jpg
+  meta: stale
   developerName: Excdev
 
 ---

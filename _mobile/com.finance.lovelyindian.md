@@ -1,7 +1,6 @@
 ---
 title: Indian Lovely
 verdict: wip
-meta: removed
 date: 2025-10-15
 website: https://indialovely.finance#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-02
   version: '5.0'
   icon: com.finance.lovelyindian.png
+  meta: removed
   developerName: Lovely Wallet
 
 ---

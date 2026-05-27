@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Investment Guide
 verdict: wip
-meta: removed
 date: 2021-09-28
 redirect_from:
 - /android/org.cryptodebitcard.bitcoin.investment.guide/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-29
   version: '1.0'
   icon: org.cryptodebitcard.bitcoin.investment.guide.jpg
+  meta: removed
 
 ---
 

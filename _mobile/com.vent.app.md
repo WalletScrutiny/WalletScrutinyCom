@@ -2,7 +2,6 @@
 wsId: ventAfrica
 title: 'Vent: Sell BTC, USDT & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-06-10
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: Anyiwest
 verdict: wip
-meta: removed
 date: 2024-05-18
 website: https://anyiwest.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-06-20
   version: 1.0.2
   icon: com.rinnas.anyiwest.png
+  meta: removed
   developerName: Anyiwest
 
 ---

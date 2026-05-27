@@ -1,7 +1,6 @@
 ---
 title: FTX TR
 verdict: custodial
-meta: removed
 date: 2023-06-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-11-01
   version: 2.0.9
   icon: com.ftxmobile.ftxtr.png
+  meta: removed
   developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI
 
 ---

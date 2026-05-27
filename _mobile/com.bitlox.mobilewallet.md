@@ -1,7 +1,6 @@
 ---
 title: BITLOX Crypto Wallet
 verdict: wip
-meta: removed
 date: 2025-08-18
 website: https://bitlox.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-18
   version: 4.0.4
   icon: com.bitlox.mobilewallet.png
+  meta: removed
   developerName: BitLox Ltd.
 
 ---

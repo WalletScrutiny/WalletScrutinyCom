@@ -1,7 +1,6 @@
 ---
 title: Hikmah - ইসলামিক কুইজ MCQ গেম
 verdict: wip
-meta: removed
 date: 2024-07-30
 website: https://www.hikmahbd.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-01-21
   version: '1.0'
   icon: com.app.fxschool_ai.jpg
+  meta: removed
   developerName: Asir Intasir Shaiket - AsirFx
 
 ---

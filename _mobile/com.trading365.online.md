@@ -1,7 +1,6 @@
 ---
 title: Trading 365—Forex, Crypto, Gol
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.trading365.online/
@@ -12,6 +11,7 @@ android:
   updated: 2019-08-29
   version: 1.5.2
   icon: com.trading365.online.png
+  meta: removed
   developerName: trading365pro
 
 ---

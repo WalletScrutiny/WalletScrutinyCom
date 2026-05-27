@@ -1,7 +1,6 @@
 ---
 title: 'Breezcoins: Cryptocurrency & I'
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.plentahub.breezcoins_android/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-04
   version: 1.2.0
   icon: com.plentahub.breezcoins_android.png
+  meta: removed
   developerName: Plenta Studio
 
 ---

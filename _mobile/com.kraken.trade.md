@@ -2,7 +2,6 @@
 wsId: krakent
 title: 'Kraken Pro: Crypto & Stocks'
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   version: 5.56.0
   reviews: 4701
   icon: com.kraken.trade.png
+  meta: ok
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.trade.app
@@ -37,6 +37,7 @@ iphone:
   version: 5.55.1
   reviews: 24985
   icon: com.kraken.trade.app.jpg
+  meta: ok
   developerName: Kraken
 
 ---

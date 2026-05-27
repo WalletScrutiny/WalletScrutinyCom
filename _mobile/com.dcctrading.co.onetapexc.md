@@ -1,7 +1,6 @@
 ---
 title: Mood Journal
 verdict: wip
-meta: stale
 date: 2026-05-21
 website: https://onetapexc.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-05-12
   version: '3.1'
   icon: com.dcctrading.co.onetapexc.png
+  meta: stale
   developerName: Tradingly AI
 
 ---

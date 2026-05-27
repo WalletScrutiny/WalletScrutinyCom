@@ -2,7 +2,6 @@
 wsId: maxbitTH
 title: 'Maxbit: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-05-20
   version: 1.39.1
   icon: com.maxbit.app.png
+  meta: ok
   developerName: MAXBIT DIGITAL ASSET COMPANY LIMITED
 iphone:
   appId: com.maxbit.app
@@ -28,6 +28,7 @@ iphone:
   version: v1.39.1
   reviews: 326
   icon: com.maxbit.app.jpg
+  meta: ok
   developerName: Maxbit Digital Asset Company Limited
 
 ---

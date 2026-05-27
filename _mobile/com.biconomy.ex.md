@@ -2,7 +2,6 @@
 wsId: biconomy
 title: Biconomy-Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2023-02-15
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.3.25
   reviews: 158
   icon: com.biconomy.ex.png
+  meta: ok
   developerName: Biconomy Global
 iphone:
   appId: com.biconomy.Innovation
@@ -34,6 +34,7 @@ iphone:
   version: 2.3.20
   reviews: 152
   icon: com.biconomy.Innovation.jpg
+  meta: ok
   developerName: Biconomy Ltd.
 
 ---

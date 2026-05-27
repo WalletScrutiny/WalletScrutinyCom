@@ -1,7 +1,6 @@
 ---
 title: Coinbetter
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.coinbetter.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-24
   version: 1.1.1
   icon: com.cbetter.change.png
+  meta: removed
   developerName: Intech Systems Of Tallahassee, Inc
 
 ---

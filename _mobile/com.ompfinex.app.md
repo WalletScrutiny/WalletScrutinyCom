@@ -1,7 +1,6 @@
 ---
 title: ompfinex (او ام پی فینکس)
 verdict: custodial
-meta: removed
 date: 2024-10-03
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 3.7.0
   reviews: 58
   icon: com.ompfinex.app.png
+  meta: removed
   developerName: Mammute.co
 
 ---

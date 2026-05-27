@@ -1,7 +1,6 @@
 ---
 title: 'SpecterSolutions: Open Wallet'
 verdict: fake
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2023-03-18
   version: 2.19.3
   icon: com.decentralized.earth.png
+  meta: removed
   developerName: sресtrum, l.l.С.
 
 ---

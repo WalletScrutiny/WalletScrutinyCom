@@ -1,7 +1,6 @@
 ---
 title: Coinchat
 verdict: wip
-meta: removed
 date: 2023-06-01
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.0.2
   reviews: 29
   icon: com.coinchat.coinchat.png
+  meta: removed
   developerName: Biliao Foundation Ltd.
 
 ---

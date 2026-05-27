@@ -1,7 +1,6 @@
 ---
 title: hPass by Hacken
 verdict: wip
-meta: removed
 date: 2025-11-05
 website: https://hackenpass.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-15
   version: '1.2'
   icon: com.hackenai.hpass.png
+  meta: removed
   developerName: Hacken OÜ
 
 ---

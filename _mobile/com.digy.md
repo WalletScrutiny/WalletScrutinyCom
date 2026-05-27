@@ -1,7 +1,6 @@
 ---
 title: DIGY
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://zebitex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-25
   version: 1.2.8
   icon: com.digy.png
+  meta: removed
   developerName: DIGYCODE
 
 ---

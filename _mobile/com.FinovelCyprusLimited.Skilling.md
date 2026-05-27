@@ -2,7 +2,6 @@
 wsId: Skilling
 title: Skilling - Forex Trading App
 verdict: nosendreceive
-meta: ok
 date: 2025-10-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.0.5
   reviews: 7
   icon: com.FinovelCyprusLimited.Skilling.png
+  meta: ok
   developerName: Skilling
 iphone:
   appId: com.FinovelCyprusLimited.Skilling
@@ -33,6 +33,7 @@ iphone:
   version: 3.0.5
   reviews: 11
   icon: com.FinovelCyprusLimited.Skilling.jpg
+  meta: ok
   developerName: Skilling Limited
 
 ---

@@ -2,7 +2,6 @@
 wsId: btcboxJP
 title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
 verdict: custodial
-meta: ok
 date: 2023-04-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-04-28
   version: '1.287'
   icon: btctrade.BTCBOX.png
+  meta: ok
   developerName: BTCボックス株式会社
 iphone:
   appId: btctrade.btcbox
@@ -30,6 +30,7 @@ iphone:
   version: '1.250'
   reviews: 15
   icon: btctrade.btcbox.jpg
+  meta: ok
   developerName: BTCBOX CO.,LTD
 
 ---

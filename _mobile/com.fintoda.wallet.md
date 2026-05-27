@@ -1,7 +1,6 @@
 ---
 title: Fintoda Wallet
 verdict: wip
-meta: removed
 date: 2021-09-04
 redirect_from:
 - /android/com.fintoda.wallet/
@@ -11,6 +10,7 @@ android:
   updated: 2021-08-02
   version: Varies with device
   icon: com.fintoda.wallet.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: maxmaicoin
 title: MAX Exchange - Buy Bitcoin
 verdict: custodial
-meta: ok
 date: 2021-10-01
 authors:
 - danny

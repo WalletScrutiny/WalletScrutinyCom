@@ -2,7 +2,6 @@
 wsId: guapBitcoinWallet
 title: Guap - Bitcoin Wallet
 verdict: custodial
-meta: ok
 date: 2026-05-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-05-21
   version: 0.9.2
   icon: com.useguap.android.rn.png
+  meta: ok
   developerName: Future Money Labs
 iphone:
   appId: com.useguap.ios.rn
@@ -28,6 +28,7 @@ iphone:
   version: 0.9.0
   reviews: 1
   icon: com.useguap.ios.rn.jpg
+  meta: ok
   developerName: Future Money Labs
 
 ---

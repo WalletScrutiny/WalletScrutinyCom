@@ -1,7 +1,6 @@
 ---
 title: BitBank
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.wxfx.fairs/
@@ -13,6 +12,7 @@ android:
   version: 1.2.9
   reviews: 7
   icon: com.wxfx.fairs.jpg
+  meta: removed
 
 ---
 

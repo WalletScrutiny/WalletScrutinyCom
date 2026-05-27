@@ -2,7 +2,6 @@
 wsId: bunqApp
 title: bunq
 verdict: nosendreceive
-meta: ok
 date: 2025-08-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 31.4.1
   reviews: 230
   icon: com.bunq.android.png
+  meta: ok
   developerName: bunq
 iphone:
   appId: com.bunq.ios
@@ -34,6 +34,7 @@ iphone:
   version: 31.4.0
   reviews: 13778
   icon: com.bunq.ios.jpg
+  meta: ok
   developerName: bunq
 
 ---

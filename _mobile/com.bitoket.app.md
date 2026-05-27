@@ -1,7 +1,6 @@
 ---
 title: Bitoket
 verdict: wip
-meta: fewusers
 date: 2025-08-04
 website: https://bitoket.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-03-31
   version: 1.9.0
   icon: com.bitoket.app.png
+  meta: fewusers
   developerName: InfinityChain
 
 ---

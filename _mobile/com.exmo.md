@@ -2,7 +2,6 @@
 wsId: exmo
 title: 'EXMO.com: Trade & Hold Crypto'
 verdict: custodial
-meta: ok
 date: 2021-04-21
 authors:
 - kiwilamb
@@ -25,6 +24,7 @@ android:
   version: 3.86.4
   reviews: 96
   icon: com.exmo.png
+  meta: ok
   developerName: Exmo Poland Sp. z o.o.
 iphone:
   appId: com.exmo.enfins
@@ -34,6 +34,7 @@ iphone:
   version: 2.28.26
   reviews: 86
   icon: com.exmo.enfins.jpg
+  meta: ok
   developerName: EXMO EXCHANGE LTD
 
 ---

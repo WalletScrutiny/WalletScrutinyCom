@@ -1,7 +1,6 @@
 ---
 title: AFIN Touch
 verdict: wip
-meta: removed
 date: 2024-09-08
 website: https://www.afincoin.io/
 twitter: AfinCoin
@@ -16,6 +15,7 @@ android:
   updated: 2019-12-27
   version: 1.0.0.60
   icon: kr.co.keypair.afintouch.png
+  meta: removed
   developerName: Keypair Co., Ltd.
 
 ---

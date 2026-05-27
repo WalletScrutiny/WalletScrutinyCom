@@ -2,7 +2,6 @@
 wsId: maicoin
 title: MaiCoin - Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2021-10-01
 authors:
 - danny

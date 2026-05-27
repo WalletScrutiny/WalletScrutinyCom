@@ -2,7 +2,6 @@
 wsId: Bitexen
 title: Bitexen - Bitcoin and Altcoins
 verdict: custodial
-meta: ok
 date: 2023-02-01
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: OCMX - Buy Bitcoin & Crypto
 verdict: wip
-meta: removed
 date: 2024-05-18
 website: https://ocm.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-22
   version: '1.01'
   icon: com.ocm.exchange.png
+  meta: removed
   developerName: OCMX
 
 ---

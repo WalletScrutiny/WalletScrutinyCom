@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Profits real calculator
 verdict: wip
-meta: removed
 date: 2021-10-03
 redirect_from:
 - /android/btc.profits.calculator/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 24
   icon: btc.profits.calculator.png
+  meta: removed
 
 ---
 

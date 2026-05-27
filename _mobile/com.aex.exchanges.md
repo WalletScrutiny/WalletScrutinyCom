@@ -1,7 +1,6 @@
 ---
 title: 'OpenEx : Buy Btc & Crypto'
 verdict: custodial
-meta: removed
 date: 2024-07-22
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.1.5
   reviews: 3
   icon: com.aex.exchanges.png
+  meta: removed
   developerName: OPENEX TECHNOLOGY PTE.LTD.
 
 ---

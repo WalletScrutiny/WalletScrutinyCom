@@ -1,7 +1,6 @@
 ---
 title: Bit7Pay Bitcoin and Other Cryp
 verdict: wip
-meta: removed
 date: 2023-05-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2020-04-08
   version: '1.0'
   icon: bit7pay.com.bit7pay.png
+  meta: removed
   developerName: Saizala Services Private Limited.
 
 ---

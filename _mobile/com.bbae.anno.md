@@ -2,7 +2,6 @@
 wsId: BBAEPro
 title: BBAE
 verdict: wip
-meta: ok
 date: 2024-10-07
 authors:
 - danny
@@ -18,6 +17,7 @@ iphone:
   version: 7.2.1
   reviews: 844
   icon: com.bbae.anno.jpg
+  meta: ok
   developerName: BBAE Holdings LLC
 
 ---

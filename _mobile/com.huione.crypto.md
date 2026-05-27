@@ -1,7 +1,6 @@
 ---
 title: Huione Crypto
 verdict: custodial
-meta: removed
 date: 2024-08-13
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2024-05-16
   version: 2.3.0
   icon: com.huione.crypto.png
+  meta: removed
   developerName: Huione Group
 
 ---

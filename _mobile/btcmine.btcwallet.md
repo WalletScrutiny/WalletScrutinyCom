@@ -1,7 +1,6 @@
 ---
 title: BTC Wallet
 verdict: custodial
-meta: removed
 date: 2021-07-09
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: '1.1'
   reviews: 7
   icon: btcmine.btcwallet.png
+  meta: removed
 
 ---
 

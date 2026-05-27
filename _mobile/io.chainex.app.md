@@ -1,7 +1,6 @@
 ---
 title: ChainEX
 verdict: custodial
-meta: ok
 date: 2021-10-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2025-08-29
   version: 2.1.39
   icon: io.chainex.app.png
+  meta: ok
   developerName: Lunatech (Pty) Ltd
 
 ---

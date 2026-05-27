@@ -1,7 +1,6 @@
 ---
 title: 'Ampiy: Trade Bitcoin & Crypto'
 verdict: wip
-meta: fewusers
 date: 2022-07-31
 website: https://ampiy.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-09-30
   version: 5.0.1
   icon: com.ampiy.app.png
+  meta: fewusers
   developerName: Ampiy
 
 ---

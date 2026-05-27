@@ -1,7 +1,6 @@
 ---
 title: HitBTC cryptocurrency exchange
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 3.3.5
   reviews: 5
   icon: com.hittechsexpertlimited.hitbtc.jpg
+  meta: ok
   developerName: HitBTC Exchange
 
 ---

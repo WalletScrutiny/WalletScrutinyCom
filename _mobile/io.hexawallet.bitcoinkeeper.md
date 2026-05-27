@@ -1,7 +1,6 @@
 ---
 wsId: bitcoinkeeper
 title: Bitcoin Keeper
-meta: ok
 date: 2025-02-12
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 2.5.12
   icon: io.hexawallet.bitcoinkeeper.png
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
+  meta: ok
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
 iphone:
@@ -39,6 +39,7 @@ iphone:
   version: 2.5.12
   reviews: 22
   icon: io.hexawallet.keeper.jpg
+  meta: ok
   verdict: wip
   developerName: Bithyve
 

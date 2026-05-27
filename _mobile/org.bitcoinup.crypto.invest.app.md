@@ -1,7 +1,6 @@
 ---
 title: Crypto Invest App
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.bitcoinup.crypto.invest.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-17
   version: '1.0'
   icon: org.bitcoinup.crypto.invest.app.jpg
+  meta: removed
 
 ---
 

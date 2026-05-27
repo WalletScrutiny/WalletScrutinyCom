@@ -1,7 +1,6 @@
 ---
 title: fox.exchange Cryptocurrency Ex
 verdict: wip
-meta: removed
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-04-20
   version: 1.5.1
   icon: exchange.fox.android.png
+  meta: removed
   developerName: Fox Exchange
 
 ---

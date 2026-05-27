@@ -1,7 +1,6 @@
 ---
 title: FirstWallet-Crypto, DeFi & NFT
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://firstwallet.pro#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-30
   version: 1.1.4
   icon: com.firstWallet.png
+  meta: removed
   developerName: First Wallet Lab
 
 ---

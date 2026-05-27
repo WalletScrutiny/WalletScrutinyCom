@@ -2,7 +2,6 @@
 wsId: bitKipi
 title: Bitkipi
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2022-09-30
   version: 1.5.0
   icon: com.bitkipi.png
+  meta: removed
   developerName: Pocket Bitcoin
 iphone:
   appId: com.bitkipi.bitkipi
@@ -27,6 +27,7 @@ iphone:
   version: 1.5.0
   reviews: 0
   icon: com.bitkipi.bitkipi.jpg
+  meta: removed
   developerName: Pocket App AG
 
 ---

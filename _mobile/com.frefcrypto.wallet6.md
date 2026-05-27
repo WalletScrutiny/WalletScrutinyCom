@@ -1,7 +1,6 @@
 ---
 title: Crypto.com Wallet Bitcoin & Ethereum
 verdict: fake
-meta: removed
 date: 2021-11-10
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-10
   version: '1'
   icon: com.frefcrypto.wallet6.png
+  meta: removed
 
 ---
 

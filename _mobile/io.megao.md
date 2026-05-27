@@ -1,7 +1,6 @@
 ---
 title: MegaO
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://megao.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-07
   version: 1.0.4
   icon: io.megao.png
+  meta: removed
   developerName: MEGAO LTD
 
 ---

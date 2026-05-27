@@ -2,7 +2,6 @@
 wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
 verdict: custodial
-meta: ok
 date: 2023-09-07
 authors:
 - danny

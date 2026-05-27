@@ -2,7 +2,6 @@
 wsId: dIFXExchange
 title: 'DIFX Exchange : Buy Crypto'
 verdict: custodial
-meta: obsolete
 date: 2023-06-29
 authors:
 - danny

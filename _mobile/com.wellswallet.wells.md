@@ -1,7 +1,6 @@
 ---
 title: Wells Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://wellswallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-10
   version: 1.0.0
   icon: com.wellswallet.wells.jpg
+  meta: removed
 
 ---
 

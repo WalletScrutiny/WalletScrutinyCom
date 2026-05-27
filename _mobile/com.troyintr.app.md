@@ -1,7 +1,6 @@
 ---
 title: Troyin
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.troyin.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-05-23
   version: '1.0'
   icon: com.troyintr.app.jpg
+  meta: removed
   developerName: MegaCard
 
 ---

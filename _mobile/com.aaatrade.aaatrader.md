@@ -1,7 +1,6 @@
 ---
 title: AAATrader - Worldwide Trading
 verdict: nosendreceive
-meta: removed
 date: 2024-11-19
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2023-09-22
   version: 1.1.10
   icon: com.aaatrade.aaatrader.png
+  meta: removed
   developerName: AAATrade
 
 ---

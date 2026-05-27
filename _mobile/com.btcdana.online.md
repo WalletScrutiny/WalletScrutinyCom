@@ -1,7 +1,6 @@
 ---
 title: BtcDana - Investing & Income
 verdict: nosendreceive
-meta: ok
 date: 2025-11-17
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.9.1
   reviews: 172
   icon: com.btcdana.online.png
+  meta: ok
   developerName: DanaByte Trading
 
 ---

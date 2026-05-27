@@ -2,7 +2,6 @@
 wsId: coinOneKr
 title: 코인원 - 가상자산 거래소(비트코인, 이더리움, 테더)
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 5.30.0
   reviews: 15
   icon: coinone.co.kr.official.png
+  meta: ok
   developerName: Coinone
 iphone:
   appId: kr.co.coinone.officialapp
@@ -34,6 +34,7 @@ iphone:
   version: 5.30.0
   reviews: 1036
   icon: kr.co.coinone.officialapp.jpg
+  meta: ok
   developerName: Coinone
 
 ---

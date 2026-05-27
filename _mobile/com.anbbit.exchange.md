@@ -1,7 +1,6 @@
 ---
 title: Anbbit - Buy & Sell Bitcoin
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://anbbit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-31
   version: 1.1.2
   icon: com.anbbit.exchange.png
+  meta: removed
   developerName: Anbbit.com
 
 ---

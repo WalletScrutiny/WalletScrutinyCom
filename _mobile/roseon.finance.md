@@ -2,7 +2,6 @@
 wsId: roseon
 title: 'Roseon: Trade & Earn'
 verdict: custodial
-meta: stale
 date: 2025-11-05
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: B2Z Wallet
 verdict: custodial
-meta: ok
 date: 2026-02-20
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2026-02-10
   version: 1.11.0
   icon: com.interakt.b2z.png
+  meta: ok
   developerName: Interakt India
 
 ---

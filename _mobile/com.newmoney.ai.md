@@ -2,7 +2,6 @@
 wsId: newMoneyAIWallet
 title: Newmoney AI Wallet
 verdict: custodial
-meta: ok
 date: 2025-11-20
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.8.10
   reviews: 10
   icon: com.newmoney.ai.png
+  meta: ok
   developerName: NewmoneyAI
 iphone:
   appId: com.newmoney.ai
@@ -36,6 +36,7 @@ iphone:
   version: 1.9.14
   reviews: 8
   icon: com.newmoney.ai.jpg
+  meta: ok
   developerName: Newmoney AI Wallet
 
 ---

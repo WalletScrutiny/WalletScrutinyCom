@@ -1,7 +1,6 @@
 ---
 title: EasyFlip
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://easyflip.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-04
   version: 1.0.1
   icon: com.easyflip.io.png
+  meta: removed
   developerName: EasyFlip
 
 ---

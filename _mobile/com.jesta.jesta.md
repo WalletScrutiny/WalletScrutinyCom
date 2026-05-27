@@ -1,7 +1,6 @@
 ---
 title: 'Jesta wallet: Crypto trading'
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.jesta.jesta/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-15
   version: 1.0.0
   icon: com.jesta.jesta.png
+  meta: removed
 
 ---
 

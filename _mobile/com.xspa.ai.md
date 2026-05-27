@@ -2,7 +2,6 @@
 wsId: xspaCrypto
 title: 'XSPA: Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2025-12-26
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.0.15
   reviews: 8
   icon: com.xspa.ai.png
+  meta: ok
   developerName: XSPA
 iphone:
   appId: com.xspa.ai
@@ -34,6 +34,7 @@ iphone:
   version: 1.0.15
   reviews: 12
   icon: com.xspa.ai.jpg
+  meta: ok
   developerName: XSPA
 
 ---

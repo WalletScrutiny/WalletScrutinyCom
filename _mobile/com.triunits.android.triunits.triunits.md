@@ -1,7 +1,6 @@
 ---
 title: Triunits
 verdict: wip
-meta: removed
 date: 2024-11-19
 website: https://triunits.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-09-26
   version: 1.0.15
   icon: com.triunits.android.triunits.triunits.png
+  meta: removed
   developerName: Triunits Infotech Pvt. Ltd.
 
 ---

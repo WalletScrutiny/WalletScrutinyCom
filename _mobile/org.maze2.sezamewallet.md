@@ -2,7 +2,6 @@
 wsId: sezameWallet
 title: Sezame Wallet
 verdict: nosource
-meta: fewusers
 date: 2026-05-04
 authors:
 - danny

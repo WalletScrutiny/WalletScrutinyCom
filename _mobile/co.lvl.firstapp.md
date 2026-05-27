@@ -2,7 +2,6 @@
 wsId: LVLMoneyApp
 title: LVL - The Money App
 verdict: custodial
-meta: removed
 date: 2023-01-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.0.5
   reviews: 62
   icon: co.lvl.firstapp.png
+  meta: removed
   developerName: Samsa Technologies Inc.
 iphone:
   appId: co.lvl.firstapp
@@ -32,6 +32,7 @@ iphone:
   version: 1.0.5
   reviews: 369
   icon: co.lvl.firstapp.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: BeeEx
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.beeex.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 3.6.5
   reviews: 3
   icon: com.beeex.broker.android.png
+  meta: removed
 
 ---
 

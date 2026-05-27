@@ -1,7 +1,6 @@
 ---
 title: Magic Wallet
 verdict: wip
-meta: removed
 date: 2021-11-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   reviews: 170
   icon: app.magic_wallet.io.png
+  meta: removed
 
 ---
 

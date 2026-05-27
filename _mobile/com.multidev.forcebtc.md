@@ -1,7 +1,6 @@
 ---
 title: ForceBTC - Blockchain Wallet and Exchanger
 verdict: wip
-meta: removed
 date: 2022-01-31
 redirect_from:
 - /android/com.multidev.forcebtc/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 3
   icon: com.multidev.forcebtc.png
+  meta: removed
 
 ---
 

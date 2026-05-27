@@ -1,7 +1,6 @@
 ---
 title: AP First
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-02-17
   version: 3.8.4
   icon: com.keepercustomerapp.png
+  meta: removed
   developerName: TiOSPay
 
 ---

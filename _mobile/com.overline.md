@@ -2,7 +2,6 @@
 wsId: overlineNetwork
 title: Overline
 verdict: nosource
-meta: removed
 date: 2023-08-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '1.1'
   reviews: 4
   icon: com.overline.png
+  meta: removed
   developerName: American Centurion Group, Inc.
 iphone:
   appId: com.americancenturiongroup.borderless
@@ -33,6 +33,7 @@ iphone:
   version: '1.17'
   reviews: 10
   icon: com.americancenturiongroup.borderless.jpg
+  meta: removed
   developerName: American Centurion Group, Inc.
 
 ---

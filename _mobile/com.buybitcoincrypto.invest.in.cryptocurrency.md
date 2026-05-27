@@ -1,7 +1,6 @@
 ---
 title: Invest In Cryptocurrency
 verdict: wip
-meta: removed
 date: 2021-08-13
 redirect_from:
 - /android/com.buybitcoincrypto.invest.in.cryptocurrency/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-24
   version: '1.0'
   icon: com.buybitcoincrypto.invest.in.cryptocurrency.png
+  meta: removed
 
 ---
 

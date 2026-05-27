@@ -1,7 +1,6 @@
 ---
 title: GOI Wallet
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://connectgoi.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-19
   version: 1.16.0
   icon: mx.goi.goimwallet.png
+  meta: removed
   developerName: Connect GOI
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Exc Cripto - Exchange de Cript
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://exccripto.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-11-05
   version: '1.0'
   icon: com.exccripto.exccripto.exccripto.png
+  meta: removed
   developerName: Ronney Ribeiro
 
 ---

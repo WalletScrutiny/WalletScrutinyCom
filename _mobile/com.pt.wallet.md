@@ -1,7 +1,6 @@
 ---
 title: PT Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.pt.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2021-02-25
   version: '1.27'
   icon: com.pt.wallet.png
+  meta: removed
 
 ---
 

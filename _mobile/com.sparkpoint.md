@@ -2,7 +2,6 @@
 wsId: sparkPoint
 title: SparkPoint Crypto Wallet
 verdict: nosource
-meta: removed
 date: 2024-08-31
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   version: 12.1.1
   reviews: 67
   icon: com.sparkpoint.png
+  meta: removed
   developerName: SparkPoint Technologies Inc.
 iphone:
   appId: io.sparkpoint.ios.wallet
@@ -35,6 +35,7 @@ iphone:
   version: 12.1.0
   reviews: 16
   icon: io.sparkpoint.ios.wallet.jpg
+  meta: removed
   developerName: SparkPoint Technologies, Inc.
 
 ---

@@ -2,7 +2,6 @@
 wsId: bhexExchange
 title: BHEX
 verdict: wip
-meta: removed
 date: 2021-11-08
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 4.2.2
   reviews: 21
   icon: com.bh.android.png
+  meta: removed
 iphone:
   appId: io.bhex.app
   idd: 1441395245
@@ -27,6 +27,7 @@ iphone:
   version: 4.1.2
   reviews: 35
   icon: io.bhex.app.jpg
+  meta: removed
 
 ---
 

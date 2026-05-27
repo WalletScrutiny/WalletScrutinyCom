@@ -1,7 +1,6 @@
 ---
 title: DDT Wallet
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-03-24
   version: 1.1.2
   icon: com.ddt.ddtmobile.png
+  meta: removed
   developerName: DeepDive Digital Technologies International Inc.
 
 ---

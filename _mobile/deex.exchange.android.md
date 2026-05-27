@@ -1,7 +1,6 @@
 ---
 title: Deex Exchange
 verdict: wip
-meta: removed
 date: 2023-06-12
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2020-04-21
   version: 0.3.9
   icon: deex.exchange.android.png
+  meta: removed
   developerName: Deex Group
 
 ---

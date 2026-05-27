@@ -1,7 +1,6 @@
 ---
 title: تهران رمز ارز
 verdict: wip
-meta: removed
 date: 2023-05-09
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-11-11
   version: '1.1'
   icon: app.xpay.tehranramzarz.png
+  meta: removed
   developerName: charset
 
 ---

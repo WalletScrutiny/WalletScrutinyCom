@@ -1,7 +1,6 @@
 ---
 title: HigherProf crypto investment
 verdict: wip
-meta: removed
 date: 2024-11-30
 website: https://higherprof.pro#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-12
   version: '1.0'
   icon: com.higherprof.jpg
+  meta: removed
   developerName: R. MASHA SOLUTIONS
 
 ---

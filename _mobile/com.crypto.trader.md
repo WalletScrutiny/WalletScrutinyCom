@@ -1,7 +1,6 @@
 ---
 title: INX - Crypto Trading
 verdict: wip
-meta: removed
 date: 2021-11-16
 redirect_from:
 - /android/com.crypto.trader/
@@ -12,6 +11,7 @@ android:
   updated: 2021-09-29
   version: 1.0.3
   icon: com.crypto.trader.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Split Rewards
 verdict: nosource
-meta: ok
 date: 2026-01-06
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   version: 4.3.1
   reviews: 2
   icon: com.splitloyalty.app.Split-Rewards.jpg
+  meta: ok
   developerName: Feed Incorporated
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitdd.com - Buy BTC, ETH
 verdict: wip
-meta: removed
 date: 2023-05-10
 redirect_from:
 - /android/com.bitdd.appoo/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-19
   version: 1.0.2
   icon: com.bitdd.appoo.png
+  meta: removed
   developerName: bitddapp
 
 ---

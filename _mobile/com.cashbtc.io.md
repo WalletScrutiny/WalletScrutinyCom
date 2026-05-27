@@ -1,7 +1,6 @@
 ---
 title: CashBTC
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://cashbtc.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-12-22
   version: '1.0'
   icon: com.cashbtc.io.png
+  meta: removed
   developerName: Just ESCROW
 
 ---

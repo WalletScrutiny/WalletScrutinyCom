@@ -1,7 +1,6 @@
 ---
 title: AMAS Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.amaswallet/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-17
   version: 1.1.6
   icon: com.amaswallet.jpg
+  meta: removed
   developerName: AMAS COIN
 
 ---

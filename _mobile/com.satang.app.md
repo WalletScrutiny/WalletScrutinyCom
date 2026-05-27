@@ -1,7 +1,6 @@
 ---
 title: Satang App
 verdict: wip
-meta: removed
 date: 2023-05-10
 website: https://satang.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-18
   version: 1.5.3
   icon: com.satang.app.png
+  meta: removed
   developerName: Satang Corporation
 
 ---

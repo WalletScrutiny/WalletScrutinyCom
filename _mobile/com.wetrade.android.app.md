@@ -1,7 +1,6 @@
 ---
 title: weTrade
 verdict: wip
-meta: removed
 date: 2023-08-25
 website: https://www.wetrade.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-23
   version: '1.1'
   icon: com.wetrade.android.app.png
+  meta: removed
   developerName: weTrade
 
 ---

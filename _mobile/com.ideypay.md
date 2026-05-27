@@ -1,7 +1,6 @@
 ---
 title: 'iDeyPay: Buy and Sell Bitcoin '
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.69
   reviews: 7
   icon: com.ideypay.png
+  meta: removed
 
 ---
 

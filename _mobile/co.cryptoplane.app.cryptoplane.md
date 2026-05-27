@@ -1,7 +1,6 @@
 ---
 title: Crypto Plane
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://crypto-plane.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-07
   version: 1.0.5
   icon: co.cryptoplane.app.cryptoplane.jpg
+  meta: removed
   developerName: Crypto Plane Ltd
 
 ---

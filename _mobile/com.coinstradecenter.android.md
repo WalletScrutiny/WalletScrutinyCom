@@ -1,7 +1,6 @@
 ---
 title: CoinsTradeCenter
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: http://coinstradecenter.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2020-01-21
   version: VARY
   icon: com.coinstradecenter.android.jpg
+  meta: removed
   developerName: Kings Web App
 
 ---

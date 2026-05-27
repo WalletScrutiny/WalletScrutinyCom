@@ -2,7 +2,6 @@
 wsId: FreeWalletIO
 title: FreeWallet
 verdict: sourceavailable
-meta: obsolete
 date: 2021-10-01
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   version: 0.1.9
   reviews: 30
   icon: io.freewallet.mobile.jpg
+  meta: obsolete
   developerName: Jeremy Johnson
 iphone:
   appId: io.freewallet.mobile
@@ -37,6 +37,7 @@ iphone:
   version: 1.0.9
   reviews: 38
   icon: io.freewallet.mobile.jpg
+  meta: obsolete
   developerName: Jeremy Johnson
 
 ---

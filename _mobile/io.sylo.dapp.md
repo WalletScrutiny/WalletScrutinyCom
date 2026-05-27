@@ -2,7 +2,6 @@
 wsId: Sylo
 title: Sylo - Smart Wallet & Messenge
 verdict: nosource
-meta: removed
 date: 2025-02-04
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   version: 4.0.14
   reviews: 46
   icon: io.sylo.dapp.png
+  meta: removed
   developerName: Sylo Licensing Limited
 iphone:
   appId: io.sylo.dapp
@@ -34,6 +34,7 @@ iphone:
   version: 4.0.14
   reviews: 82
   icon: io.sylo.dapp.jpg
+  meta: removed
   developerName: Sylo Licensing Limited
 
 ---

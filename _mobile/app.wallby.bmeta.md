@@ -1,7 +1,6 @@
 ---
 title: 'Wallby: BTC, NFT & DeFi wallet'
 verdict: nosource
-meta: obsolete
 date: 2025-11-11
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2023-10-04
   version: VARY
   icon: app.wallby.bmeta.png
+  meta: obsolete
   developerName: Bcademy
 
 ---

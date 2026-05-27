@@ -2,7 +2,6 @@
 wsId: BitcoinIRA
 title: 'BitcoinIRA: Buy & Sell Crypto'
 verdict: custodial
-meta: ok
 date: 2021-10-18
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 2.0.10
   reviews: 551
   icon: com.bitcoinira.png
+  meta: ok
   developerName: BitcoinIRA
 iphone:
   appId: com.bitcoinira
@@ -35,6 +35,7 @@ iphone:
   version: 2.0.10
   reviews: 1182
   icon: com.bitcoinira.jpg
+  meta: ok
   developerName: BitcoinIRA
 
 ---

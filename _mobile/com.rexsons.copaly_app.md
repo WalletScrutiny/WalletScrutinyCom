@@ -2,7 +2,6 @@
 wsId: copalyBitcoin
 title: 'Copaly: P2P .Bitcoin & Utility'
 verdict: custodial
-meta: ok
 date: 2026-05-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-07
   version: 5.2.10
   icon: com.rexsons.copaly_app.png
+  meta: ok
   developerName: Copaly
 iphone:
   appId: com.copalycompany.CopalyApp
@@ -31,6 +31,7 @@ iphone:
   version: 5.2.10
   reviews: 3
   icon: com.copalycompany.CopalyApp.jpg
+  meta: ok
   developerName: Copaly Technologies Ltd
 
 ---

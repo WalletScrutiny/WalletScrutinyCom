@@ -1,7 +1,6 @@
 ---
 title: Eva Crypto Wallet
 verdict: wip
-meta: removed
 date: 2025-12-16
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2024-05-02
   version: VARY
   icon: com.tenet.eva.png
+  meta: removed
   developerName: NETTE TECHNOLOGIES
 
 ---

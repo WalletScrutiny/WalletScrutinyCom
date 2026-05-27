@@ -2,7 +2,6 @@
 wsId: squirrelWallet
 title: Squirrel Wallet
 verdict: nosource
-meta: ok
 date: 2025-09-24
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-02-09
   version: 1.0.6
   icon: com.squirrelwallet.app.png
+  meta: ok
   developerName: Squirrel Wallet
 iphone:
   appId: com.squirrelwallet.onekey
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.6
   reviews: 2
   icon: com.squirrelwallet.onekey.jpg
+  meta: ok
   developerName: Squirrel Wallet Inc
 
 ---

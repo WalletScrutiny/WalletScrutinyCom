@@ -1,7 +1,6 @@
 ---
 title: Copay Wallet Mobile
 verdict: fake
-meta: removed
 date: 2021-11-26
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: '1'
   reviews: 8
   icon: com.ddcday.wallex.png
+  meta: removed
 
 ---
 

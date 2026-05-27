@@ -2,7 +2,6 @@
 wsId: wizzWallet
 title: WizzWallet
 verdict: nosource
-meta: ok
 date: 2025-11-03
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   updated: 2025-10-13
   version: 1.9.11
   icon: com.astrox.wizz.png
+  meta: ok
   developerName: AstroX Network
 iphone:
   appId: com.astrox.wizz
@@ -34,6 +34,7 @@ iphone:
   version: 1.9.11
   reviews: 16
   icon: com.astrox.wizz.jpg
+  meta: ok
   developerName: AstroX Network
 
 ---

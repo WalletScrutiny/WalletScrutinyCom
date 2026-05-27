@@ -2,7 +2,6 @@
 wsId: mnCoinHub
 title: Coinhub
 verdict: custodial
-meta: ok
 date: 2022-02-21
 authors:
 - danny

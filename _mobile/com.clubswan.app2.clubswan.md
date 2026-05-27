@@ -2,7 +2,6 @@
 wsId: clubSwan
 title: 'Club Swan: Lifestyle & Finance'
 verdict: custodial
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2021-11-10
   version: 2.3.0
   icon: com.clubswan.app2.clubswan.jpg
+  meta: removed
   developerName: AU Card Ltd
 iphone:
   appId: com.clubswan.app2.Clubswan
@@ -32,6 +32,7 @@ iphone:
   version: 2.4.0
   reviews: 1
   icon: com.clubswan.app2.Clubswan.jpg
+  meta: removed
   developerName: AU CARD LIMITED
 
 ---

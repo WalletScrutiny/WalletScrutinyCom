@@ -1,7 +1,6 @@
 ---
 title: CryptonX
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/my.service.cryptonx/
@@ -12,6 +11,7 @@ android:
   updated: 2021-09-28
   version: '1.2'
   icon: my.service.cryptonx.png
+  meta: removed
   developerName: CryptonX - Wallet
 
 ---

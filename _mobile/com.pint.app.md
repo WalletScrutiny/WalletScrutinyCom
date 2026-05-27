@@ -1,7 +1,6 @@
 ---
 title: PINT Wallet & P2P Marketplace for Bitcoin Ethereum
 verdict: nosource
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.0.32
   reviews: 10
   icon: com.pint.app.png
+  meta: removed
 
 ---
 

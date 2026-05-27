@@ -1,7 +1,6 @@
 ---
 title: SwappID
 verdict: wip
-meta: removed
 date: 2023-07-31
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 7
   icon: ee.swapp.idapp.png
+  meta: removed
   developerName: Marble Harp Technologies Inc
 
 ---

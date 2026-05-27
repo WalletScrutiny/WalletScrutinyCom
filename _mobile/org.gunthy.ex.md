@@ -1,7 +1,6 @@
 ---
 title: GUNTHY
 verdict: wip
-meta: removed
 date: 2024-03-02
 website: https://gunthy.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-14
   version: 1.26.0
   icon: org.gunthy.ex.png
+  meta: removed
   developerName: Gunthy LTD
 
 ---

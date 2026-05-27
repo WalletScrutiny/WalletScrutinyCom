@@ -1,7 +1,6 @@
 ---
 title: Icynote
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://icynote.ch
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-09-02
   version: 1.0.3
   icon: ch.digitaladmin.icynote.png
+  meta: fewusers
   developerName: Digital Admin Sàrl
 
 ---

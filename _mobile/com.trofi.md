@@ -2,7 +2,6 @@
 wsId: trofiInvestment
 title: Trofi - Crypto Investment App
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.2.7
   reviews: 27
   icon: com.trofi.png
+  meta: removed
   developerName: Trofi Group
 iphone:
   appId: com.yield.demosp
@@ -34,6 +34,7 @@ iphone:
   version: 1.1.0
   reviews: 0
   icon: com.yield.demosp.jpg
+  meta: removed
   developerName: Yield App
 
 ---

@@ -2,7 +2,6 @@
 wsId: xfacia
 title: Xfacia Buy BTC & Crypto
 verdict: custodial
-meta: removed
 date: 2025-03-17
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2022-12-21
   version: '2.0'
   icon: com.web.XFacia.png
+  meta: removed
   developerName: Xfacia Labs Pvt Ltd
 iphone:
   appId: com.webcom.Xfacia
@@ -32,6 +32,7 @@ iphone:
   version: '4.1'
   reviews: 0
   icon: com.webcom.Xfacia.jpg
+  meta: removed
   developerName: Xfacia Labs Private Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'KittUp : Crypto Wallet'
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://kittup.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-23
   version: 1.0.7
   icon: com.kittup.png
+  meta: removed
   developerName: Schrodinger - KittyDinger
 
 ---

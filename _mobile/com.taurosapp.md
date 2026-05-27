@@ -2,7 +2,6 @@
 wsId: TaurosExchange
 title: 'Tauros: Bitcoin exchange'
 verdict: custodial
-meta: removed
 date: 2023-06-21
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 9.6.4
   reviews: 5
   icon: com.taurosapp.png
+  meta: removed
   developerName: Tauros Exchange S.A. de C.V.
 iphone:
   appId: com.taurosapp
@@ -35,6 +35,7 @@ iphone:
   version: 9.6.4
   reviews: 182
   icon: com.taurosapp.jpg
+  meta: removed
   developerName: Tauros Exchange SA de CV
 
 ---

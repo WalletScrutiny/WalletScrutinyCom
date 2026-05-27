@@ -1,7 +1,6 @@
 ---
 title: Free Wallet Bitcoin And Crypto
 verdict: wip
-meta: removed
 date: 2021-09-19
 redirect_from:
 - /android/org.cryptosignals.free.wallet.bitcoinand.crypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-19
   version: '1.0'
   icon: org.cryptosignals.free.wallet.bitcoinand.crypto.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: CoinFundIt.com
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://coinfundit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-12
   version: 1.0.4
   icon: com.coinfundit.wallet.png
+  meta: removed
   developerName: CoinFundIt.com
 
 ---

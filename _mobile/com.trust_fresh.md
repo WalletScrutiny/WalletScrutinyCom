@@ -2,7 +2,6 @@
 wsId: trustNE
 title: TrustNE Wallet
 verdict: nosource
-meta: ok
 date: 2026-05-02
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-02-12
   version: 1.0.13
   icon: com.trust_fresh.png
+  meta: ok
   developerName: NewEra Education Center
 iphone:
   appId: com.trustfresh
@@ -27,6 +27,7 @@ iphone:
   version: 1.0.4
   reviews: 0
   icon: com.trustfresh.jpg
+  meta: ok
   developerName: Metgen Solution LTD
 
 ---

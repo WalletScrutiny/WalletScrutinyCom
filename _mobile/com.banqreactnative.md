@@ -1,7 +1,6 @@
 ---
 title: banq
 verdict: wip
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 5.4.0
   reviews: 6
   icon: com.banqreactnative.png
+  meta: removed
   developerName: Banq, Inc.
 
 ---

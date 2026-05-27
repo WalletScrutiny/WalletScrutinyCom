@@ -2,7 +2,6 @@
 wsId: wxInvest
 title: WX Invest
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.10.10
   reviews: 5
   icon: exchange.waves.invest.png
+  meta: removed
   developerName: WX Development LTD.
 iphone:
   appId: exchange.waves.invest
@@ -31,6 +31,7 @@ iphone:
   version: 1.10.10
   reviews: 11
   icon: exchange.waves.invest.jpg
+  meta: removed
   developerName: WX DEVELOPMENT LTD.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: chiba - trade cryptocurrency
 verdict: wip
-meta: removed
 date: 2023-05-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2018-05-08
   version: 1.0.11
   icon: com.chiba.client.png
+  meta: removed
   developerName: Chiba Markets
 
 ---

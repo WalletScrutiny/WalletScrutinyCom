@@ -1,7 +1,6 @@
 ---
 title: Trade99
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.trade99.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-01
   version: 1.0.4
   icon: com.pandats.trade99.png
+  meta: removed
   developerName: Trade99
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Sugi Wallet
 verdict: wip
-meta: removed
 date: 2024-12-31
 website: https://sugi.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-12
   version: 1.8.2
   icon: com.sofitto.sugi.png
+  meta: removed
   developerName: Sofitto NV
 
 ---

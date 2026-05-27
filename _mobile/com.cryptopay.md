@@ -1,7 +1,6 @@
 ---
 title: Crypto Pay
 verdict: nosource
-meta: removed
 date: 2022-01-15
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   version: '1.5'
   reviews: 2
   icon: com.cryptopay.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: BullWallet
 title: BULL WALLET
 verdict: nosource
-meta: removed
 date: 2023-01-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.4.1-947
   reviews: 28
   icon: com.wallet.bull.png
+  meta: removed
   developerName: BULL FINANCE
 iphone:
   appId: com.Wallet.Bulls
@@ -32,6 +32,7 @@ iphone:
   version: '1.24'
   reviews: 16
   icon: com.Wallet.Bulls.jpg
+  meta: removed
 
 ---
 

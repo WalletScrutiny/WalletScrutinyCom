@@ -1,7 +1,6 @@
 ---
 title: DTS Wallet
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: http://dtsasset.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-05
   version: 1.0.0
   icon: com.dts.io.png
+  meta: removed
   developerName: DTS Co., Ltd.
 
 ---

@@ -2,7 +2,6 @@
 wsId: coinbest
 title: 暗号資産取引ならOSL Japan
 verdict: custodial
-meta: ok
 date: 2025-02-24
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-01-30
   version: 4.2.2
   icon: com.coinbest.coinbest.png
+  meta: ok
   developerName: 暗号資産取引ならOSL Japan
 iphone:
   appId: com.coinbest.bitcoinbestkk
@@ -27,6 +27,7 @@ iphone:
   version: 4.1.7
   reviews: 12
   icon: com.coinbest.bitcoinbestkk.jpg
+  meta: ok
   developerName: OSL Japan Limited
 
 ---

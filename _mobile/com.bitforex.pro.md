@@ -1,7 +1,6 @@
 ---
 title: BitForex Pro
 verdict: wip
-meta: removed
 date: 2022-04-07
 redirect_from:
 - /android/com.bitforex.pro/
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   reviews: 71
   icon: com.bitforex.pro.png
+  meta: removed
 
 ---
 

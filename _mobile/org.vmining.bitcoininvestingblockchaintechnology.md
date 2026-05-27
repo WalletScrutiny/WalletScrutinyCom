@@ -1,7 +1,6 @@
 ---
 title: Smart Investing Blockchain Technology
 verdict: wip
-meta: removed
 date: 2021-10-06
 redirect_from:
 - /android/org.vmining.bitcoininvestingblockchaintechnology/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-12
   version: '1.0'
   icon: org.vmining.bitcoininvestingblockchaintechnology.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: GoodX
 verdict: wip
-meta: removed
 date: 2023-05-25
 authors:
 - danny
@@ -13,6 +12,7 @@ android:
   updated: 2019-03-23
   version: VARY
   icon: com.goodx.png
+  meta: removed
   developerName: GoodX Technologies LP
 
 ---

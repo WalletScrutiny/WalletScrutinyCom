@@ -1,7 +1,6 @@
 ---
 title: Bkexchange:Buy BTC & Crypto
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 3.8.6
   reviews: 38
   icon: com.BKExchange.appstore.jpg
+  meta: ok
   developerName: JUU INC
 
 ---

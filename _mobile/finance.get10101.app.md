@@ -1,7 +1,6 @@
 ---
 title: '10101'
 verdict: wip
-meta: removed
 date: 2025-05-30
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2024-11-13
   version: VARY
   icon: finance.get10101.app.png
+  meta: removed
   developerName: '10101'
 
 ---

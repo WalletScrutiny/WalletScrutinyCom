@@ -2,7 +2,6 @@
 wsId: hoo
 title: Hoo Pro
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.7.79
   reviews: 84
   icon: com.hoo.qianbao.png
+  meta: removed
 iphone:
   appId: cn.maolian.hufu.app.standard
   idd: '1387872759'
@@ -31,6 +31,7 @@ iphone:
   version: 4.6.96
   reviews: 148
   icon: cn.maolian.hufu.app.standard.jpg
+  meta: removed
   developerName: Hoo Technology Limited
 
 ---

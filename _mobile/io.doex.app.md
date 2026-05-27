@@ -1,7 +1,6 @@
 ---
 title: DOEX
 verdict: custodial
-meta: removed
 date: 2024-09-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2024-08-15
   version: 2.2.2
   icon: io.doex.app.png
+  meta: removed
   developerName: ETERNA BEAUTY LLC
 
 ---

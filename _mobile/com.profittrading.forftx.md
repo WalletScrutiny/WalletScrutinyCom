@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for FTX
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.2.1
   reviews: 3
   icon: com.profittrading.forftx.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

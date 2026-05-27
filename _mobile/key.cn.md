@@ -1,7 +1,6 @@
 ---
 title: BMETA
 verdict: wip
-meta: removed
 date: 2023-11-02
 redirect_from:
 - /android/key.cn/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-23
   version: 1.1.0
   icon: key.cn.png
+  meta: removed
   developerName: zhizhi909
 
 ---

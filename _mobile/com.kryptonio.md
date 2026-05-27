@@ -1,7 +1,6 @@
 ---
 title: Kryptonio.com - Bitcoin & Cryp
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://kryptonio.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-03
   version: VARY
   icon: com.kryptonio.png
+  meta: removed
   developerName: Kryptonio
 
 ---

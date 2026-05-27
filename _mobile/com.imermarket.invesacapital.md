@@ -1,7 +1,6 @@
 ---
 title: 'InvesaCapital: CFD Trading App'
 verdict: nosendreceive
-meta: removed
 date: 2025-08-24
 website: https://www.invesacapital.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2025-07-04
   version: 2.8.5
   icon: com.imermarket.invesacapital.png
+  meta: removed
   developerName: Imermarket (PTY) Ltd (Proprietary) Limited
 
 ---

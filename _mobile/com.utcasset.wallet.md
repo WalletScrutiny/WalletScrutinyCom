@@ -1,7 +1,6 @@
 ---
 title: UTC Digital
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.utcasset.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2021-08-27
   version: 0.21.0
   icon: com.utcasset.wallet.jpg
+  meta: removed
   developerName: clambiz
 
 ---

@@ -2,7 +2,6 @@
 wsId: rainfinancial
 title: 'Rain: Buy & Sell Bitcoin'
 verdict: custodial
-meta: ok
 date: 2021-10-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.10.8
   reviews: 3337
   icon: com.rainmanagement.rain.png
+  meta: ok
   developerName: Rain Trading
 iphone:
   appId: com.rainmanagement.rain
@@ -32,6 +32,7 @@ iphone:
   version: 3.9.7
   reviews: 2898
   icon: com.rainmanagement.rain.jpg
+  meta: ok
   developerName: Rain Management
 
 ---

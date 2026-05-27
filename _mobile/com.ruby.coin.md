@@ -2,7 +2,6 @@
 wsId: rubycoinWallet
 title: Rubycoin wallet
 verdict: custodial
-meta: removed
 date: 2023-11-02
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   updated: 2022-11-09
   version: 1.0.5
   icon: com.ruby.coin.png
+  meta: removed
   developerName: rubycoin
 iphone:
   appId: com.rubycoin.app
@@ -35,6 +35,7 @@ iphone:
   version: '5.0'
   reviews: 0
   icon: com.rubycoin.app.jpg
+  meta: removed
   developerName: Ruby Coin
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: BEXFOR
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.bexfor.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-22
   version: 3.8.0
   icon: com.bexfor.broker.android.png
+  meta: removed
 
 ---
 

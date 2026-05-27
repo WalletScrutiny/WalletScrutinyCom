@@ -1,7 +1,6 @@
 ---
 title: Hashbon
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://pay4y.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-03
   version: '1.21'
   icon: com.gefarapay.png
+  meta: removed
 
 ---
 

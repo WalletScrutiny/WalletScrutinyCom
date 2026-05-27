@@ -1,7 +1,6 @@
 ---
 title: 'PocketBits: Buy BTC & Crypto'
 verdict: custodial
-meta: obsolete
 date: 2025-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.3.7
   reviews: 6
   icon: com.pocketbits.png
+  meta: obsolete
   developerName: Defacto Technologies Pvt Ltd
 
 ---

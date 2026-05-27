@@ -1,7 +1,6 @@
 ---
 title: Bang
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: https://dbxbang.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-01
   version: '18.1'
   icon: com.dbx_mobile_app.png
+  meta: removed
 
 ---
 

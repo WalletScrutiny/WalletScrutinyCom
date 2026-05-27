@@ -1,7 +1,6 @@
 ---
 title: AFC Trading Group
 verdict: wip
-meta: removed
 date: 2024-03-02
 redirect_from:
 - /android/com.avinash.afctrades/
@@ -12,6 +11,7 @@ android:
   updated: 2020-08-20
   version: '1.0'
   icon: com.avinash.afctrades.png
+  meta: removed
   developerName: AFC Trading Group
 
 ---

@@ -2,7 +2,6 @@
 wsId: bitstampCrypto
 title: 'Bitstamp: Buy Crypto & Bitcoin'
 verdict: custodial
-meta: removed
 date: 2024-08-31
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '1.10'
   reviews: 26
   icon: net.bitstamp.appgo.png
+  meta: removed
   developerName: Bitstamp
 iphone:
   appId: net.bitstamp.simple
@@ -33,6 +33,7 @@ iphone:
   version: '1.9'
   reviews: 262
   icon: net.bitstamp.simple.jpg
+  meta: removed
   developerName: Bitstamp Ltd.
 
 ---

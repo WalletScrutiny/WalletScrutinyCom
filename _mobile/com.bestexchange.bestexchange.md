@@ -1,7 +1,6 @@
 ---
 title: Best Exchange
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.bestexchange.bestexchange/
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-27
   version: 1.0.0
   icon: com.bestexchange.bestexchange.png
+  meta: removed
   developerName: Best Exchange
 
 ---

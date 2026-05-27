@@ -1,7 +1,6 @@
 ---
 title: Chaucha Trader Pro
 verdict: wip
-meta: removed
 date: 2023-01-30
 website: https://chauchatraderpro.cl#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-31
   version: 4.3.1
   icon: com.panterozo.chauchatraderpro.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 코러버 - 전 세계 최초 하이브리드 암호화폐 거래소
 verdict: wip
-meta: removed
 date: 2023-04-21
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2019-03-11
   version: 1.13.0
   icon: com.colover.coin.png
+  meta: removed
   developerName: (주)코러버
 
 ---

@@ -2,7 +2,6 @@
 wsId: libertex
 title: 'Libertex: Trade & Invest'
 verdict: nosendreceive
-meta: ok
 date: 2021-08-09
 authors:
 - danny

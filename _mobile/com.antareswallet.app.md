@@ -2,7 +2,6 @@
 wsId: AntaresWallet
 title: Antares Wallet
 verdict: wip
-meta: removed
 date: 2021-11-08
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2021-03-22
   version: 0.9.5+205
   icon: com.antareswallet.app.jpg
+  meta: removed
   developerName: Online Invest
 iphone:
   appId: com.antareswallet.app
@@ -26,6 +26,7 @@ iphone:
   updated: 2021-03-23
   version: '1.2'
   icon: com.antareswallet.app.jpg
+  meta: removed
 
 ---
 

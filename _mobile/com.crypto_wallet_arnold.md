@@ -1,7 +1,6 @@
 ---
 title: 'Pocket: Crypto Wallet'
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: http://www.otomation.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-07
   version: '3.8'
   icon: com.crypto_wallet_arnold.png
+  meta: removed
   developerName: Otomation Soft
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bcoiner - Free Bitcoin Wallet
 verdict: nosource
-meta: removed
 date: 2021-06-23
 website: https://bcoiner.com
 redirect_from:
@@ -17,6 +16,7 @@ android:
   version: 1.3.2
   reviews: 1251
   icon: com.bcoiner.webviewapp.png
+  meta: removed
 
 ---
 

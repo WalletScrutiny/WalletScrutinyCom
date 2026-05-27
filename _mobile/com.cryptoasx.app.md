@@ -1,7 +1,6 @@
 ---
 title: Cryptoasx
 verdict: wip
-meta: removed
 date: 2023-04-16
 website: https://www.cryptoasx.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-12-06
   version: 1.1.65
   icon: com.cryptoasx.app.png
+  meta: removed
   developerName: Cryptoasx Limited
 
 ---

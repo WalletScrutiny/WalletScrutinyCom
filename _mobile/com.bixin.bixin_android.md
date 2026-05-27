@@ -1,7 +1,6 @@
 ---
 title: Bixin - Virtual Assets Trading
 verdict: custodial
-meta: defunct
 date: 2022-04-25
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.8.2
   reviews: 11
   icon: com.bixin.bixin_android.png
+  meta: defunct
   developerName: Bixin.com
 
 ---

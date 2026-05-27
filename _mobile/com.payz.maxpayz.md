@@ -1,7 +1,6 @@
 ---
 title: Maxpayz
 verdict: wip
-meta: removed
 date: 2025-09-03
 redirect_from:
 - /android/com.payz.maxpayz/
@@ -12,6 +11,7 @@ android:
   updated: 2022-06-13
   version: '1.0'
   icon: com.payz.maxpayz.png
+  meta: removed
   developerName: K-IT Solutions
 
 ---

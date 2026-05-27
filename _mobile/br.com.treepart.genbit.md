@@ -1,7 +1,6 @@
 ---
 title: Genbit
 verdict: wip
-meta: removed
 date: 2023-04-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-11-16
   version: '1.2'
   icon: br.com.treepart.genbit.jpg
+  meta: removed
   developerName: TreePart HDN
 
 ---

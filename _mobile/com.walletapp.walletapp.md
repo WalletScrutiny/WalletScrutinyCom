@@ -1,7 +1,6 @@
 ---
 title: Tronz Wallet
 verdict: wip
-meta: removed
 date: 2021-06-18
 redirect_from:
 - /android/com.walletapp.walletapp/
@@ -13,6 +12,7 @@ android:
   version: 1.0.14
   reviews: 46
   icon: com.walletapp.walletapp.png
+  meta: removed
 
 ---
 

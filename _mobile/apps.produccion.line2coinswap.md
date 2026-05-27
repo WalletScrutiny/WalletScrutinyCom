@@ -1,7 +1,6 @@
 ---
 title: 'Line2coin Swap: BTC, ETH, & +'
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://line2coin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-24
   version: 1.0.0.4
   icon: apps.produccion.line2coinswap.jpg
+  meta: removed
   developerName: Backdoor Global, Inc.
 
 ---

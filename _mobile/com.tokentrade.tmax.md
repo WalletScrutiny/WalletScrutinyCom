@@ -1,7 +1,6 @@
 ---
 title: TMAX
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/com.tokentrade.tmax/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-04
   version: 3.5.6
   icon: com.tokentrade.tmax.png
+  meta: removed
   developerName: TMAX GLOBAL INC.
 
 ---

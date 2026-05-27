@@ -2,7 +2,6 @@
 wsId: orbitNetwork
 title: Orbit Network
 verdict: nosendreceive
-meta: removed
 date: 2025-03-14
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: '2.2'
   reviews: 18
   icon: com.orbitnetwork.png
+  meta: removed
   developerName: Orbit Network Limited
 iphone:
   appId: com.app.orbitnetwork
@@ -28,6 +28,7 @@ iphone:
   version: '2.0'
   reviews: 105
   icon: com.app.orbitnetwork.jpg
+  meta: removed
   developerName: Orbit Network Inc
 
 ---

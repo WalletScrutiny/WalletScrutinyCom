@@ -1,7 +1,6 @@
 ---
 title: Blockchains.My
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/blockchains.my/
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.18
   reviews: 268
   icon: blockchains.my.png
+  meta: removed
 
 ---
 

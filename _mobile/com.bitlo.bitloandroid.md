@@ -2,7 +2,6 @@
 wsId: bitlo
 title: 'Bitlo: Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-02-08
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.1.53
   reviews: 2574
   icon: com.bitlo.bitloandroid.png
+  meta: ok
   developerName: Bitlo Teknoloji A.Ş.
 iphone:
   appId: com.bitlo
@@ -32,6 +32,7 @@ iphone:
   version: 2.1.53
   reviews: 4083
   icon: com.bitlo.jpg
+  meta: ok
   developerName: Bitlo Kripto Varlik Alim Satim Platformu Anonim Sirketi
 
 ---

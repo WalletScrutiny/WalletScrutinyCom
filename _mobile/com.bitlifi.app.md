@@ -2,7 +2,6 @@
 wsId: bitlifiApp
 title: Bitlifi
 verdict: custodial
-meta: ok
 date: 2023-11-01
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2025-12-22
   version: 1.11.5
   icon: com.bitlifi.app.png
+  meta: ok
   developerName: MP Developers s.r.o.
 iphone:
   appId: com.bitlifi.app
@@ -32,6 +32,7 @@ iphone:
   version: 1.11.5
   reviews: 0
   icon: com.bitlifi.app.jpg
+  meta: ok
   developerName: MP Developers s.r.o.
 
 ---

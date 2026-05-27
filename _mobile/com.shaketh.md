@@ -1,7 +1,6 @@
 ---
 title: 'Shakepay: Buy Bitcoin Canada'
 verdict: custodial
-meta: ok
 date: 2020-05-29
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 4.6.35
   reviews: 21
   icon: com.shaketh.png
+  meta: ok
   developerName: Shakepay
 
 ---

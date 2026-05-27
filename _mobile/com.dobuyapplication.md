@@ -1,7 +1,6 @@
 ---
 title: dobuy
 verdict: custodial
-meta: removed
 date: 2024-05-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-11-30
   version: 1.0.1
   icon: com.dobuyapplication.png
+  meta: removed
   developerName: Dobuy
 
 ---

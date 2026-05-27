@@ -1,7 +1,6 @@
 ---
 title: Boin
 verdict: wip
-meta: removed
 date: 2023-03-21
 redirect_from:
 - /android/com.bitcoinmatak.tmki/
@@ -13,6 +12,7 @@ android:
   version: '4.8'
   reviews: 12
   icon: com.bitcoinmatak.tmki.jpg
+  meta: removed
   developerName: marc ferrell
 
 ---

@@ -2,7 +2,6 @@
 wsId: Mixin
 title: Mixin - Private Crypto Wallet
 verdict: sourceavailable
-meta: ok
 date: 2021-11-17
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 4.2.0
   reviews: 152
   icon: one.mixin.messenger.png
+  meta: ok
   developerName: Mixin Ltd
 iphone:
   appId: one.mixin.messenger
@@ -35,6 +35,7 @@ iphone:
   version: 4.2.0
   reviews: 1153
   icon: one.mixin.messenger.jpg
+  meta: ok
   developerName: Mixin Ltd
 
 ---

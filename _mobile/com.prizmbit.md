@@ -2,7 +2,6 @@
 wsId: prizmbit
 title: Prizmbit wallet, p2p cryptocurrency exchange
 verdict: custodial
-meta: removed
 date: 2021-12-22
 authors:
 - kiwilamb
@@ -21,6 +20,7 @@ android:
   version: '1.5'
   reviews: 270
   icon: com.prizmbit.png
+  meta: removed
 iphone:
   appId: prizmbit.com
   idd: 1459094607
@@ -29,6 +29,7 @@ iphone:
   version: 1.6.9
   reviews: 2
   icon: prizmbit.com.jpg
+  meta: removed
 
 ---
 

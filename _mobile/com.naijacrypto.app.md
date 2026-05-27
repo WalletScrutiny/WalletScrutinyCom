@@ -1,7 +1,6 @@
 ---
 title: Naijacrypto
 verdict: wip
-meta: removed
 date: 2023-08-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-10-22
   version: 5.1.2
   icon: com.naijacrypto.app.png
+  meta: removed
   developerName: CI Cryptosolutions
 
 ---

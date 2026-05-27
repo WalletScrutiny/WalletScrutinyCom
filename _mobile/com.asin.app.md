@@ -1,7 +1,6 @@
 ---
 title: Asin - Bitcoin asset & mining
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://asin.vip#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.3.0
   reviews: 12
   icon: com.asin.app.png
+  meta: removed
   developerName: Asin Mining
 
 ---

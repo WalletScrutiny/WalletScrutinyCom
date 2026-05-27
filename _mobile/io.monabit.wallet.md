@@ -2,7 +2,6 @@
 wsId: monabitWallet
 title: MonaBit Wallet
 verdict: nosource
-meta: ok
 date: 2025-02-26
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.5.3
   reviews: 3
   icon: io.monabit.wallet.png
+  meta: ok
   developerName: MonaBit
 iphone:
   appId: io.monabit.app
@@ -33,6 +33,7 @@ iphone:
   version: '4.5'
   reviews: 0
   icon: io.monabit.app.jpg
+  meta: ok
   developerName: Monabit S.A.S
 
 ---

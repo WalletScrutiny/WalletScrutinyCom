@@ -2,7 +2,6 @@
 wsId: ruufPayWallet
 title: RuufPay Crypto Pay Swap Wallet
 verdict: nosource
-meta: ok
 date: 2024-10-23
 authors:
 - danny

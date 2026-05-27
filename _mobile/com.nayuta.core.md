@@ -1,7 +1,6 @@
 ---
 title: Nayuta Core
 verdict: nosource
-meta: removed
 date: 2022-01-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2021-12-16
   version: Varies with device
   icon: com.nayuta.core.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Pluto - High Secure Crypto Wal
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.act-tech.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-04-19
   version: '1.1'
   icon: com.architech.act.plutowallet.png
+  meta: removed
   developerName: ARMADILLO CYBER TECH Co.Ltd
 
 ---

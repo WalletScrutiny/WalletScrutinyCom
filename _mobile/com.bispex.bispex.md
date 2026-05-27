@@ -1,7 +1,6 @@
 ---
 title: BISPEX(비스펙스)
 verdict: custodial
-meta: removed
 date: 2024-09-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-04-14
   version: 1.1.1
   icon: com.bispex.bispex.png
+  meta: removed
   developerName: bispex
 
 ---

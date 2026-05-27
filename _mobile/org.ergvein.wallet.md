@@ -1,7 +1,6 @@
 ---
 title: Cypra Bitcoin wallet
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://cypra.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-10
   version: Alpha
   icon: org.ergvein.wallet.png
+  meta: removed
   developerName: Anton Gushcha
 
 ---

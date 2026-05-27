@@ -1,7 +1,6 @@
 ---
 title: 'Mine Block Craft - Blockchain '
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.mineblockcraftapp/
@@ -12,6 +11,7 @@ android:
   updated: 2020-04-14
   version: '1.0'
   icon: com.mineblockcraftapp.png
+  meta: removed
   developerName: Master CuiMian
 
 ---

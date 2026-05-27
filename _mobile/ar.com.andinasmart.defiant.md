@@ -2,7 +2,6 @@
 wsId: Defiant
 title: Defiant
 verdict: nosource
-meta: removed
 date: 2024-07-16
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 5.4.3
   reviews: 41
   icon: ar.com.andinasmart.defiant.png
+  meta: removed
   developerName: Andina DeFi Ltd
 iphone:
   appId: com.andinadefi.defiant
@@ -29,6 +29,7 @@ iphone:
   version: 5.4.3+304
   reviews: 21
   icon: com.andinadefi.defiant.jpg
+  meta: removed
   developerName: Andina Defi Ltd
 
 ---

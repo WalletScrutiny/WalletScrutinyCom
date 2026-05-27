@@ -1,7 +1,6 @@
 ---
 wsId: nayutaCore2
 title: Nayuta Wallet
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2023-11-24
   version: VARY
   icon: com.nayuta.core2.png
+  meta: removed
   verdict: nosource
   developerName: Nayuta inc
 iphone:
@@ -29,6 +29,7 @@ iphone:
   version: 1.5.1
   reviews: 0
   icon: com.nayuta.core2.jpg
+  meta: removed
   verdict: sourceavailable
   developerName: Nayuta
 

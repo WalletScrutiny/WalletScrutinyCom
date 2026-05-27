@@ -2,7 +2,6 @@
 wsId: aliceBobWallet
 title: 'Crypto Wallet: Buy Bitcoin BTC'
 verdict: nosource
-meta: ok
 date: 2024-09-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.20.0
   reviews: 233
   icon: com.crypto.ab.wallet.app.png
+  meta: ok
   developerName: AliceBob – Secure Crypto Wallet
 iphone:
   appId: com.ab.crypto.wallet.app
@@ -33,6 +33,7 @@ iphone:
   version: 1.20.0
   reviews: 202
   icon: com.ab.crypto.wallet.app.jpg
+  meta: ok
   developerName: Alicebob LLC
 
 ---

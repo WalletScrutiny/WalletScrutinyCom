@@ -1,7 +1,6 @@
 ---
 title: 'ECOIN: Crypto & Bitcoin Wallet'
 verdict: nosource
-meta: ok
 date: 2026-01-03
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   version: 1.8.7
   reviews: 5
   icon: org.ecoinwallet.png
+  meta: ok
   developerName: Ecoin Ecosystem LTDA
 
 ---

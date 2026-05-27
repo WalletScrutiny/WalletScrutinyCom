@@ -2,7 +2,6 @@
 wsId: Bitget
 title: Bitget - Buy & Sell Crypto
 verdict: custodial
-meta: ok
 date: 2021-09-17
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.83.2
   reviews: 1683
   icon: com.bitget.exchange.png
+  meta: ok
   developerName: BG LIMITED
 iphone:
   appId: com.bitget.exchange.global
@@ -33,6 +33,7 @@ iphone:
   version: 2.83.0
   reviews: 2224
   icon: com.bitget.exchange.global.jpg
+  meta: ok
   developerName: BG LIMITED
 
 ---

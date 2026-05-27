@@ -2,7 +2,6 @@
 wsId: cobowallet
 title: Cobo Wallet
 verdict: nosource
-meta: ok
 date: 2021-10-01
 authors:
 - leo

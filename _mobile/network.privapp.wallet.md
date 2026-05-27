@@ -1,7 +1,6 @@
 ---
 title: My Wallpaper
 verdict: nosource
-meta: stale
 date: 2026-03-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: '2.0'
   reviews: 20
   icon: network.privapp.wallet.jpg
+  meta: stale
   developerName: Privapp Network
 
 ---

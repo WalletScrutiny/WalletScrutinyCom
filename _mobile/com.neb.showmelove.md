@@ -1,7 +1,6 @@
 ---
 title: Nebpay
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://nebpay.io#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2020-09-16
   version: VARY
   icon: com.neb.showmelove.jpg
+  meta: removed
   developerName: Nebs Inc
 
 ---

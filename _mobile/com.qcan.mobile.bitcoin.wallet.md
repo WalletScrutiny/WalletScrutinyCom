@@ -2,7 +2,6 @@
 wsId: Qcan
 title: Mobile Bitcoin Wallet
 verdict: nosource
-meta: ok
 date: 2025-04-09
 authors:
 - leo

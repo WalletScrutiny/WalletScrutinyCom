@@ -2,7 +2,6 @@
 wsId: DeltaTrading
 title: Delta Trading – FX&Shares CFDs
 verdict: nosendreceive
-meta: ok
 date: 2023-08-30
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 5.9.13
   reviews: 59
   icon: delta.pk.mobile.png
+  meta: ok
   developerName: Deltastock AD
 iphone:
   appId: com.dfmarkets.DTMobile
@@ -32,6 +32,7 @@ iphone:
   version: 5.9.8
   reviews: 16
   icon: com.dfmarkets.DTMobile.jpg
+  meta: ok
   developerName: DELTASTOCK AD
 
 ---

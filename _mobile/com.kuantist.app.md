@@ -2,7 +2,6 @@
 wsId: kuantist
 title: Kuantist | Bitcoin ve Kripto
 verdict: custodial
-meta: ok
 date: 2026-04-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-05-08
   version: 1.0.55
   icon: com.kuantist.app.jpg
+  meta: ok
   developerName: KUANTİST TEKNOLOJİ ANONİM ŞİRKETİ
 iphone:
   appId: com.kuantist
@@ -32,6 +32,7 @@ iphone:
   version: 1.0.55
   reviews: 36
   icon: com.kuantist.jpg
+  meta: ok
   developerName: Kuantist
 
 ---

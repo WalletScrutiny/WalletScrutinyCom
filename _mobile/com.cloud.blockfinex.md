@@ -1,7 +1,6 @@
 ---
 title: Blockfinex
 verdict: wip
-meta: removed
 date: 2024-12-08
 website: https://www.blockfinex.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-12-29
   version: 1.4.0
   icon: com.cloud.blockfinex.png
+  meta: removed
   developerName: Telechat Limited
 
 ---

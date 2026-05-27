@@ -1,7 +1,6 @@
 ---
 title: Virtual Coins
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/com.virtualcoins.bitcoin/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-29
   version: '1.3'
   icon: com.virtualcoins.bitcoin.png
+  meta: removed
   developerName: Ahana Technosoft pvt.ltd
 
 ---

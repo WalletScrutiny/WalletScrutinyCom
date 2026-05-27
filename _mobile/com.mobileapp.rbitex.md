@@ -1,7 +1,6 @@
 ---
 title: rBitex
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-06-12
   version: 3.0.2
   icon: com.mobileapp.rbitex.png
+  meta: removed
   developerName: Rbitex Ventures Private Limited
 
 ---

@@ -2,7 +2,6 @@
 wsId: zyptoCrypto
 title: Zypto Crypto & Bitcoin Wallet
 verdict: nosource
-meta: ok
 date: 2025-12-26
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   version: 1.27.0
   reviews: 38
   icon: com.zypto.png
+  meta: ok
   developerName: Zypto
 iphone:
   appId: com.zypto.zypto
@@ -39,6 +39,7 @@ iphone:
   version: 1.27.0
   reviews: 52
   icon: com.zypto.zypto.jpg
+  meta: ok
   developerName: Zypto SP Z O O
 
 ---

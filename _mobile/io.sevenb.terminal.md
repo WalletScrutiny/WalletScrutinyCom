@@ -1,7 +1,6 @@
 ---
 title: '7b: BTC Wallet. Buy Dogecoin'
 verdict: custodial
-meta: removed
 date: 2024-07-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 0.3.2
   reviews: 5
   icon: io.sevenb.terminal.png
+  meta: removed
   developerName: Stash Tech Solutions Limited
 
 ---

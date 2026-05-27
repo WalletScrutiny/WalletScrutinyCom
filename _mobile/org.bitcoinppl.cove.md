@@ -2,7 +2,6 @@
 wsId: coveBitcoinWallet
 title: Cove - Simple Bitcoin Wallet
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 authors:
 - danny

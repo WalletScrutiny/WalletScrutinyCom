@@ -1,7 +1,6 @@
 ---
 title: Bitcoin
 verdict: fake
-meta: removed
 date: 2022-04-25
 redirect_from:
 - /android/com.bitcointest.h5/
@@ -13,6 +12,7 @@ android:
   version: '5.5'
   reviews: 388
   icon: com.bitcointest.h5.png
+  meta: removed
 
 ---
 

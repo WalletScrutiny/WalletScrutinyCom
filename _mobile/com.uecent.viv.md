@@ -1,7 +1,6 @@
 ---
 title: VIV.com
 verdict: wip
-meta: removed
 date: 2025-02-13
 website: https://www.viv.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-23
   version: 1.2.2
   icon: com.uecent.viv.png
+  meta: removed
   developerName: VIV Tech
 
 ---

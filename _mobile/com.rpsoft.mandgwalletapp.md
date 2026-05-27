@@ -1,7 +1,6 @@
 ---
 title: MandgWallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.rpsoft.mandgwalletapp/
@@ -12,6 +11,7 @@ android:
   updated: 2021-03-29
   version: '1.0'
   icon: com.rpsoft.mandgwalletapp.png
+  meta: removed
   developerName: mandgwallet
 
 ---

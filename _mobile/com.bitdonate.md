@@ -1,7 +1,6 @@
 ---
 title: BitDonate
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://bitdonate.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-26
   version: '2.1'
   icon: com.bitdonate.jpg
+  meta: removed
   developerName: BitDonate LLC
 
 ---

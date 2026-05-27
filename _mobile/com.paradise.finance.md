@@ -1,7 +1,6 @@
 ---
 title: Paradise
 verdict: wip
-meta: removed
 date: 2025-03-14
 redirect_from:
 - /android/com.paradise.finance/
@@ -12,6 +11,7 @@ android:
   updated: 2024-08-30
   version: 1.5.0
   icon: com.paradise.finance.png
+  meta: removed
   developerName: Paradise.Exchange
 
 ---

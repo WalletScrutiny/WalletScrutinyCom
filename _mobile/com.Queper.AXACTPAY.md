@@ -1,7 +1,6 @@
 ---
 title: AXACTPAY
 verdict: wip
-meta: removed
 date: 2026-03-18
 website: https://www.axactpay.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-10
   version: 1.0.3
   icon: com.Queper.AXACTPAY.jpg
+  meta: removed
   developerName: Pinomz Technologies
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Huoancoin
 verdict: wip
-meta: removed
 date: 2023-08-07
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 18
   icon: com.app.huoancoin.png
+  meta: removed
   developerName: TRED Studio
 
 ---

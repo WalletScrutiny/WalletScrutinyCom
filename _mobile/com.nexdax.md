@@ -2,7 +2,6 @@
 wsId: nexdaxExchange
 title: NexDAX
 verdict: custodial
-meta: ok
 date: 2023-08-19
 authors:
 - danny

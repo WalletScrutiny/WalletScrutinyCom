@@ -2,7 +2,6 @@
 wsId: coinsavi
 title: 'CoinSavi: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 0.70.8
   reviews: 39
   icon: com.coinsavi.android.jpg
+  meta: ok
   developerName: Coin Savi
 iphone:
   appId: com.coinsavi.app
@@ -29,6 +29,7 @@ iphone:
   version: 0.70.8
   reviews: 544
   icon: com.coinsavi.app.jpg
+  meta: ok
   developerName: SAVILABS PTE. LTD.
 
 ---

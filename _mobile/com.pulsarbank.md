@@ -1,7 +1,6 @@
 ---
 title: Pulsar Platform LTD
 verdict: wip
-meta: removed
 date: 2023-06-02
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2021-04-28
   version: 1.0.2
   icon: com.pulsarbank.png
+  meta: removed
   developerName: Pulsar Platform LTD
 
 ---

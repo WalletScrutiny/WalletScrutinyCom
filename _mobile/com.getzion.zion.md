@@ -2,7 +2,6 @@
 wsId: zionApp
 title: Zion - Create Openly
 verdict: nosource
-meta: removed
 date: 2025-02-13
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.0.5
   reviews: 27
   icon: com.getzion.zion.png
+  meta: removed
   developerName: Zion - Create Openly
 iphone:
   appId: chat.n2n2.Chat
@@ -31,6 +31,7 @@ iphone:
   version: 2.0.6
   reviews: 17
   icon: chat.n2n2.Chat.jpg
+  meta: removed
   developerName: Modern Foundry, Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: SafeWallet - Buy Bitcoin/ETH/USDT, Crypto Wallet
 verdict: custodial
-meta: removed
 date: 2020-03-20
 website: https://safewallet.cmcmbc.com#deadLink
 redirect_from:
@@ -16,6 +15,7 @@ android:
   version: 3.2.5
   reviews: 1214
   icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
+  meta: removed
 
 ---
 

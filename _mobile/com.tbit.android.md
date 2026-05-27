@@ -2,7 +2,6 @@
 wsId: tBitGlobal
 title: Tbit
 verdict: custodial
-meta: removed
 date: 2024-09-10
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-05-09
   version: 2.2.9
   icon: com.tbit.android.png
+  meta: removed
   developerName: Tbit Global limited
 iphone:
   appId: TbitApp.com
@@ -30,6 +30,7 @@ iphone:
   version: 2.2.9
   reviews: 1
   icon: TbitApp.com.jpg
+  meta: removed
   developerName: Tbit Global Limited
 
 ---

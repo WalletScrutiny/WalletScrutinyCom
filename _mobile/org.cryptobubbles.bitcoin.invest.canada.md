@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Invest Canada
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptobubbles.bitcoin.invest.canada/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-18
   version: '1.0'
   icon: org.cryptobubbles.bitcoin.invest.canada.jpg
+  meta: removed
 
 ---
 

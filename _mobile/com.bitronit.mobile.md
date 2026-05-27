@@ -1,7 +1,6 @@
 ---
 title: Bitronit
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.bitronit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-18
   version: 1.18.0
   icon: com.bitronit.mobile.png
+  meta: removed
   developerName: Bitronit
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: PrestoPay Business
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: https://prestopayments.eu/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-15
   version: 1.0.5
   icon: prestopaybusiness.eu.jpg
+  meta: removed
 
 ---
 

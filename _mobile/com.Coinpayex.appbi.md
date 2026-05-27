@@ -1,7 +1,6 @@
 ---
 title: Coinpayex
 verdict: wip
-meta: removed
 date: 2023-08-16
 redirect_from:
 - /android/com.Coinpayex.appbi/
@@ -12,6 +11,7 @@ android:
   updated: 2022-08-16
   version: '1.0'
   icon: com.Coinpayex.appbi.jpg
+  meta: removed
   developerName: DELIA ENJAMBRE
 
 ---

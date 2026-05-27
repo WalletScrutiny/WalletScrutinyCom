@@ -1,7 +1,6 @@
 ---
 title: Bitload4u
 verdict: wip
-meta: removed
 date: 2024-04-26
 website: https://www.bitload4u.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-08-27
   version: 2.1.5
   icon: com.bitload4u.user.png
+  meta: removed
   developerName: Bitload4u
 
 ---

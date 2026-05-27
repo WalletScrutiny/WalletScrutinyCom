@@ -1,7 +1,6 @@
 ---
 title: C2CX Exchange
 verdict: wip
-meta: removed
 date: 2023-05-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2021-03-22
   version: '3.0'
   icon: com.hypertherm.app.png
+  meta: removed
   developerName: itkx
 
 ---

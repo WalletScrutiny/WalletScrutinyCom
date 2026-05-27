@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Bank
 verdict: wip
-meta: removed
 date: 2021-09-08
 redirect_from:
 - /android/online.brotherscoin.dev/
@@ -12,6 +11,7 @@ android:
   updated: 2020-09-24
   version: 1.0.0
   icon: online.brotherscoin.dev.png
+  meta: removed
 
 ---
 

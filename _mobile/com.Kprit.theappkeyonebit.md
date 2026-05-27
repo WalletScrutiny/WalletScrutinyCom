@@ -1,7 +1,6 @@
 ---
 title: Onekey&bit
 verdict: fake
-meta: removed
 date: 2023-06-21
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2021-11-12
   version: '4.0'
   icon: com.Kprit.theappkeyonebit.png
+  meta: removed
   developerName: Kprit
 
 ---

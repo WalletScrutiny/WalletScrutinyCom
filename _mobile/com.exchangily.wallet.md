@@ -1,7 +1,6 @@
 ---
 wsId: eXchangily
 title: 'eXchangily DEX Bitcoin Wallet '
-meta: obsolete
 date: 2023-08-16
 authors:
 - emanuel

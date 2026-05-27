@@ -2,7 +2,6 @@
 wsId: etorowallet
 title: eToro Money
 verdict: custodial
-meta: ok
 date: 2021-04-21
 authors:
 - kiwilamb
@@ -23,6 +22,7 @@ android:
   version: 104.0.0
   reviews: 152
   icon: com.etoro.wallet.png
+  meta: ok
   developerName: eToroX
 iphone:
   appId: com.etoro.wallet
@@ -32,6 +32,7 @@ iphone:
   version: 104.0.0
   reviews: 181
   icon: com.etoro.wallet.jpg
+  meta: ok
   developerName: eToro
 
 ---

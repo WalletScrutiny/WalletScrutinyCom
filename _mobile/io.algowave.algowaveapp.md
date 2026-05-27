@@ -1,7 +1,6 @@
 ---
 title: Algowave
 verdict: wip
-meta: removed
 date: 2023-05-05
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2021-04-29
   version: '3.0'
   icon: io.algowave.algowaveapp.png
+  meta: removed
   developerName: Algowave LTD
 
 ---

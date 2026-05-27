@@ -1,7 +1,6 @@
 ---
 title: Invest Crypto
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/net.advancedbitcoin.invest.crypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-24
   version: '1.0'
   icon: net.advancedbitcoin.invest.crypto.png
+  meta: removed
 
 ---
 

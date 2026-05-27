@@ -1,7 +1,6 @@
 ---
 title: ERC Wallet
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/com.ethercredit.wallet/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 3
   icon: com.ethercredit.wallet.png
+  meta: removed
 
 ---
 

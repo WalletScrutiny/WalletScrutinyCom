@@ -2,7 +2,6 @@
 wsId: GWalletApp
 title: GWallet
 verdict: nosource
-meta: obsolete
 date: 2025-02-26
 authors:
 - danny

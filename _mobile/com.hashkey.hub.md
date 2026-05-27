@@ -2,7 +2,6 @@
 wsId: hashkeyHub
 title: HashKey Hub - The Key to Infin
 verdict: wip
-meta: removed
 date: 2023-05-26
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 4.0.0
   reviews: 3
   icon: com.hashkey.hub.png
+  meta: removed
   developerName: HASHKEY HUB LIMITED
 iphone:
   appId: io.hashkey.hub
@@ -35,6 +35,7 @@ iphone:
   version: 4.0.0
   reviews: 8
   icon: io.hashkey.hub.jpg
+  meta: removed
 
 ---
 

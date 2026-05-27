@@ -1,7 +1,6 @@
 ---
 title: 'WootzApp: Bharat Web3 Browser'
 verdict: wip
-meta: removed
 date: 2024-07-25
 website: https://www.wootzapp.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-09
   version: 1.7.1
   icon: com.wootzapp.browser.png
+  meta: removed
   developerName: WootzApp
 
 ---

@@ -2,7 +2,6 @@
 wsId: crypto2cash
 title: Crypto2Cash
 verdict: nosendreceive
-meta: ok
 date: 2023-06-13
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.1.6
   reviews: 4
   icon: io.crypto2cash.exchange.jpg
+  meta: ok
   developerName: Crypto2Cash
 iphone:
   appId: com.c2c.B.V.Crypto2Cash
@@ -34,6 +34,7 @@ iphone:
   version: 3.2.3
   reviews: 0
   icon: com.c2c.B.V.Crypto2Cash.jpg
+  meta: ok
   developerName: CtoC UAB
 
 ---

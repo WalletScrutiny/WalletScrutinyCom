@@ -2,7 +2,6 @@
 wsId: cryptoNow
 title: Cryptonow
 verdict: nosource
-meta: ok
 date: 2025-11-11
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2026-04-07
   version: 2.3.0
   icon: ch.cryptonow.wallet.png
+  meta: ok
   developerName: Värdex Suisse AG
 iphone:
   appId: ch.cryptonow.wallet
@@ -26,6 +26,7 @@ iphone:
   version: 2.3.0
   reviews: 105
   icon: ch.cryptonow.wallet.jpg
+  meta: ok
   developerName: Värdex Suisse AG
 
 ---

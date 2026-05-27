@@ -2,7 +2,6 @@
 wsId: buyucoin
 title: 'BuyUcoin: Bitcoin & Crypto App'
 verdict: custodial
-meta: stale
 date: 2025-02-04
 authors:
 - leo

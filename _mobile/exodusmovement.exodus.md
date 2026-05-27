@@ -2,7 +2,6 @@
 wsId: ExodusCryptoBitcoinWallet
 title: 'Exodus: Crypto & Payments'
 verdict: nosource
-meta: ok
 date: 2021-01-23
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 26.5.13
   reviews: 8629
   icon: exodusmovement.exodus.png
+  meta: ok
   developerName: Exodus Movement, Inc.
 iphone:
   appId: exodus-movement.exodus
@@ -32,6 +32,7 @@ iphone:
   version: 26.5.13
   reviews: 35658
   icon: exodus-movement.exodus.jpg
+  meta: ok
   developerName: Exodus Movement, Inc.
 
 ---

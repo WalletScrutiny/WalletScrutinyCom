@@ -1,6 +1,5 @@
 ---
 title: Investing&Trading
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.5.2
   reviews: 16
   icon: com.ittrendex.liteforex.png
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.ittrendex.liteforex
@@ -30,6 +30,7 @@ iphone:
   version: '1.68'
   reviews: 21
   icon: com.ittrendex.liteforex.jpg
+  meta: removed
   verdict: wip
   developerName: Liteforex (Europe) Limited
 

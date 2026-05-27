@@ -2,7 +2,6 @@
 wsId: coldWalletSeekJazz
 title: 'Cold Wallet: Crypto Wallet App'
 verdict: nosource
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 5.7.9
   reviews: 72
   icon: com.PlusWallet.png
+  meta: ok
   developerName: Seekjazz Ventures Limited
 iphone:
   appId: com.PlusWallet
@@ -29,6 +29,7 @@ iphone:
   version: '3.13'
   reviews: 40
   icon: com.PlusWallet.jpg
+  meta: ok
   developerName: Seekjazz Ventures Limited
 
 ---

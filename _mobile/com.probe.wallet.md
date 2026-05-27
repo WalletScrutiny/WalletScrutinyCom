@@ -1,7 +1,6 @@
 ---
 title: HiDAO
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.probe.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2022-10-17
   version: 3.3.0
   icon: com.probe.wallet.png
+  meta: removed
   developerName: PROBE EXCHANGE PTE. LTD.
 
 ---

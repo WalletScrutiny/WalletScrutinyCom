@@ -1,7 +1,6 @@
 ---
 title: BitciPAY
 verdict: wip
-meta: removed
 date: 2023-03-21
 redirect_from:
 - /android/com.cryptopaymentapp/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-11
   version: 1.4.3
   icon: com.cryptopaymentapp.jpg
+  meta: removed
   developerName: Bitci Borsa Teknoloji Anonim Sirketi
 
 ---

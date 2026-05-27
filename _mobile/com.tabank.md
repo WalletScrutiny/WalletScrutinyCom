@@ -2,7 +2,6 @@
 wsId: tabank
 title: 'Tabank: Tabus Crypto Ecosystem'
 verdict: wip
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2022-02-14
   version: 1.3.7
   icon: com.tabank.png
+  meta: removed
   developerName: Tabank Holding Pte. Ltd.
 iphone:
   appId: com.tabank
@@ -31,6 +31,7 @@ iphone:
   version: 1.3.5
   reviews: 24
   icon: com.tabank.jpg
+  meta: removed
   developerName: TABANK HOLDING PTE. LTD.
 
 ---

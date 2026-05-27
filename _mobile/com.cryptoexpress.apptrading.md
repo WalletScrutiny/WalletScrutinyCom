@@ -1,7 +1,6 @@
 ---
 title: Crpyto Express Exchange
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://www.cryptoxpress.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-10
   version: 1.0.5
   icon: com.cryptoexpress.apptrading.png
+  meta: removed
   developerName: Bitenium Exchange LLC
 
 ---

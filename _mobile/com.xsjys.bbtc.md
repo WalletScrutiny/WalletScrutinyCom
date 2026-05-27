@@ -1,7 +1,6 @@
 ---
 title: CDEX - Crypto & Forex & CFDs
 verdict: nosendreceive
-meta: removed
 date: 2024-07-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2023-11-07
   version: 1.5.6
   icon: com.xsjys.bbtc.png
+  meta: removed
   developerName: CDEX
 
 ---

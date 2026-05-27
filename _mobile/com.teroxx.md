@@ -2,7 +2,6 @@
 wsId: TeroxxWallet
 title: Teroxx
 verdict: custodial
-meta: ok
 date: 2021-11-15
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-05-14
   version: 3.0.55
   icon: com.teroxx.png
+  meta: ok
   developerName: Teroxx
 iphone:
   appId: Teroxx
@@ -27,6 +27,7 @@ iphone:
   version: 3.0.49
   reviews: 1
   icon: Teroxx.jpg
+  meta: ok
   developerName: Teroxx Worldwide UAB
 
 ---

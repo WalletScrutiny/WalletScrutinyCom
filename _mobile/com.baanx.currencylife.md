@@ -1,7 +1,6 @@
 ---
 title: Currency Life
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.currencylifecard.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-26
   version: 1.4.0
   icon: com.baanx.currencylife.png
+  meta: removed
 
 ---
 

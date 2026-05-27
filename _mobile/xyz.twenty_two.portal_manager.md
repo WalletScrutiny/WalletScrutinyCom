@@ -1,7 +1,6 @@
 ---
 title: Portal Wallet Manager
 verdict: wip
-meta: stale
 date: 2026-05-21
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2025-05-14
   version: VARY
   icon: xyz.twenty_two.portal_manager.png
+  meta: stale
   developerName: Portal Technologies Inc
 
 ---

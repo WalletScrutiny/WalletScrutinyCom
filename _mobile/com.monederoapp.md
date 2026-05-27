@@ -1,7 +1,6 @@
 ---
 title: 'Monedero: Wallet Bitcoin, Ethe'
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   updated: 2021-06-25
   version: 4.1.0
   icon: com.monederoapp.png
+  meta: removed
   developerName: Digital Assets Corporation
 
 ---

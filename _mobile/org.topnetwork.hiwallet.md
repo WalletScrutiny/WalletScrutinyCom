@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet. A Secure Crypto Wallet - HiWallet
 verdict: wip
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/org.topnetwork.hiwallet/
@@ -13,6 +12,7 @@ android:
   version: V2.3.2
   reviews: 28
   icon: org.topnetwork.hiwallet.jpg
+  meta: removed
 
 ---
 

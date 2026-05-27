@@ -2,7 +2,6 @@
 wsId: ybitBitcoinCrypto
 title: 'Ybit: Bitcoin & Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2026-05-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-05-02
   version: 1.0.10
   icon: com.ybit.app.png
+  meta: ok
   developerName: WEEKWISE INNOVATIONS
 iphone:
   appId: com.ybit.app
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.11
   reviews: 24
   icon: com.ybit.app.jpg
+  meta: ok
   developerName: WEEKWISE INNOVATIONS LLC
 
 ---

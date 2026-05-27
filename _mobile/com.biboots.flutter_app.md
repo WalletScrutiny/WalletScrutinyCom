@@ -2,7 +2,6 @@
 wsId: fairdesk
 title: Fairdesk Go:Trade Bitcoin, ETH
 verdict: custodial
-meta: removed
 date: 2024-12-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.7.1
   reviews: 17
   icon: com.biboots.flutter_app.png
+  meta: removed
   developerName: Fairdesk Technology Limited
 iphone:
   appId: com.Fairdesk.fairdesk
@@ -32,6 +32,7 @@ iphone:
   version: 1.7.0
   reviews: 14
   icon: com.Fairdesk.fairdesk.jpg
+  meta: removed
   developerName: FAIRDESK TECHNOLOGY LIMITED
 
 ---

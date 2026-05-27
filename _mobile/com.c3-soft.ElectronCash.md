@@ -1,7 +1,6 @@
 ---
 title: Electron Cash
 verdict: wip
-meta: obsolete
 date: 2026-01-14
 website: https://www.electroncash.org
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 4.2.5
   reviews: 39
   icon: com.c3-soft.ElectronCash.jpg
+  meta: obsolete
   developerName: Electron Cash LLC
 
 ---

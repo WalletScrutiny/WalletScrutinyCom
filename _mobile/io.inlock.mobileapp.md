@@ -2,7 +2,6 @@
 wsId: inLock
 title: 'INLOCK: Crypto Savings Account'
 verdict: custodial
-meta: removed
 date: 2023-05-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.1.1
   reviews: 6
   icon: io.inlock.mobileapp.png
+  meta: removed
   developerName: Variance HODLING Kft.
 iphone:
   appId: io.inlock.mobileapp
@@ -32,6 +32,7 @@ iphone:
   version: 2.1.0
   reviews: 6
   icon: io.inlock.mobileapp.jpg
+  meta: removed
   developerName: Variance HODLING Ltd
 
 ---

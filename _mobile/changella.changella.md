@@ -1,7 +1,6 @@
 ---
 title: Changella - Buy & Sell Crypto
 verdict: wip
-meta: removed
 date: 2024-11-29
 website: https://changella.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-20
   version: 1.0.0
   icon: changella.changella.png
+  meta: removed
   developerName: Changella
 
 ---

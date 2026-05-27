@@ -2,7 +2,6 @@
 wsId: albosWallet
 title: ALBOS Wallet
 verdict: custodial
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny

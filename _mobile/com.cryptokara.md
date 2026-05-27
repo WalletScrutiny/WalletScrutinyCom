@@ -2,7 +2,6 @@
 wsId: cryptoKara
 title: CryptoKara
 verdict: nosource
-meta: removed
 date: 2025-05-30
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.7.5
   reviews: 144
   icon: com.cryptokara.jpg
+  meta: removed
   developerName: 'Eagle Network : Digital Currency For Phone'
 iphone:
   appId: com.cryptokara.app
@@ -28,6 +28,7 @@ iphone:
   version: 7.4.3
   reviews: 45
   icon: com.cryptokara.app.jpg
+  meta: removed
   developerName: AUTOMATED CHAIN LIMITED
 
 ---

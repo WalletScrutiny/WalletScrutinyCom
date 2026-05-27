@@ -1,7 +1,6 @@
 ---
 title: pt.BTC
 verdict: wip
-meta: removed
 date: 2025-04-22
 website: https://github.com/AdminPanteam/pt.BTC
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2023-02-22
   version: VARY
   icon: net.panteam.pt.BTC.png
+  meta: removed
   developerName: Panteam
 
 ---

@@ -2,7 +2,6 @@
 wsId: Bitfinex
 title: 'Bitfinex: Trade Digital Assets'
 verdict: custodial
-meta: ok
 date: 2021-05-31
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   version: 7.20.1
   reviews: 76
   icon: com.bitfinex.mobileapp.png
+  meta: ok
   developerName: Bitfinex
 iphone:
   appId: com.bitfinex.bfxprod
@@ -34,6 +34,7 @@ iphone:
   version: 7.20.1
   reviews: 173
   icon: com.bitfinex.bfxprod.jpg
+  meta: ok
   developerName: Bitfinex
 
 ---

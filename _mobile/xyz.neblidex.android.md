@@ -1,7 +1,6 @@
 ---
 title: NebliDex
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.neblidex.xyz
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-05-14
   version: 11.0.2
   icon: xyz.neblidex.android.png
+  meta: removed
   developerName: NebliDex Team
 
 ---

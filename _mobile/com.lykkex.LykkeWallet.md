@@ -2,7 +2,6 @@
 wsId: lykkex
 title: 'Lykke: Buy. Sell. Invest.'
 verdict: custodial
-meta: removed
 date: 2025-03-11
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 13.1.1
   reviews: 18
   icon: com.lykkex.LykkeWallet.png
+  meta: removed
   developerName: Lykke
 iphone:
   appId: com.lykkex.Lykke-Wallet
@@ -33,6 +33,7 @@ iphone:
   version: 7.45.0
   reviews: 32
   icon: com.lykkex.Lykke-Wallet.jpg
+  meta: removed
   developerName: Lykke Corp
 
 ---

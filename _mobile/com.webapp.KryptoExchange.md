@@ -1,7 +1,6 @@
 ---
 title: Krypto Exchange - Trade easily
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: http://xexxchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-02
   version: '1.0'
   icon: com.webapp.KryptoExchange.png
+  meta: removed
   developerName: AR Corp
 
 ---

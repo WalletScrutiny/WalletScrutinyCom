@@ -1,7 +1,6 @@
 ---
 title: Blocksmatic
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/com.blocksmatic/
@@ -12,6 +11,7 @@ android:
   updated: 2022-02-12
   version: 1.1.5
   icon: com.blocksmatic.png
+  meta: removed
   developerName: Blocksmatic
 
 ---

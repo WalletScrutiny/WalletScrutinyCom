@@ -1,7 +1,6 @@
 ---
 title: FlashX
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://flashxchanger.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-12
   version: 1.1.5
   icon: com.flashxchanger.app.png
+  meta: removed
   developerName: Sapian Group LTD
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: GBPay Safe Client
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.gbpay.cc/et#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-06-02
   version: 1.0.0
   icon: com.gbsystems.gbpayappsafe.png
+  meta: removed
   developerName: ООО "ДжиБиПэй"
 
 ---

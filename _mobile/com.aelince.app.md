@@ -1,7 +1,6 @@
 ---
 title: Aelince
 verdict: wip
-meta: removed
 date: 2023-08-28
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-11-21
   version: '1.1'
   icon: com.aelince.app.png
+  meta: removed
   developerName: Aelince Technologies
 
 ---

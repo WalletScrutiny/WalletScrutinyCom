@@ -2,7 +2,6 @@
 wsId: NetCentsCryptoWallet
 title: NetCents Cryptocurrency Wallet
 verdict: custodial
-meta: removed
 date: 2023-01-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.11.15
   reviews: 3
   icon: com.net_cents.netcents2.png
+  meta: removed
 iphone:
   appId: com.net-cents.app
   idd: 1105188361
@@ -31,6 +31,7 @@ iphone:
   version: 2.11.17
   reviews: 8
   icon: com.net-cents.app.jpg
+  meta: removed
   developerName: Net-Cents Technologies
 
 ---

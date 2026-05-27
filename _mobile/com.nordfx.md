@@ -2,7 +2,6 @@
 wsId: nordFX
 title: NordFX | Investing app
 verdict: nosendreceive
-meta: removed
 date: 2022-10-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '15'
   reviews: 43
   icon: com.nordfx.png
+  meta: removed
 iphone:
   appId: com.nordfx.mobiletrading
   idd: 1551642767
@@ -28,6 +28,7 @@ iphone:
   version: '15.0'
   reviews: 1
   icon: com.nordfx.mobiletrading.jpg
+  meta: removed
 
 ---
 

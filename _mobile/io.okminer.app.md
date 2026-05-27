@@ -1,7 +1,6 @@
 ---
 title: OK Miner
 verdict: wip
-meta: removed
 date: 2021-11-02
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.2.8
   reviews: 117
   icon: io.okminer.app.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: ascendex
 title: 'AscendEX: Buy & Sell Crypto'
 verdict: custodial
-meta: ok
 date: 2021-05-12
 authors:
 - leo

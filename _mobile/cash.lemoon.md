@@ -1,7 +1,6 @@
 ---
 title: Lemoon Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://web.archive.org/web/20241006170009/https://www.lemoon.cash/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-17
   version: 1.0.17
   icon: cash.lemoon.png
+  meta: removed
   developerName: Lemoon Wallet
 
 ---

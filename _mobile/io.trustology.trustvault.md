@@ -1,7 +1,6 @@
 ---
 title: TrustVault
 verdict: custodial
-meta: ok
 date: 2023-12-15
 authors:
 - danny
@@ -20,6 +19,7 @@ iphone:
   version: 2.24.7
   reviews: 0
   icon: io.trustology.trustvault.jpg
+  meta: ok
   developerName: Bitpanda Custody Ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Crypto Investing
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptoleaders.crypto.investing/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-15
   version: '1.0'
   icon: org.cryptoleaders.crypto.investing.jpg
+  meta: removed
 
 ---
 

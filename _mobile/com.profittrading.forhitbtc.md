@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for HitBTC
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: VARY
   reviews: 3
   icon: com.profittrading.forhitbtc.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

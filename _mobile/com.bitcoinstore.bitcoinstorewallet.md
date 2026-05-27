@@ -2,7 +2,6 @@
 wsId: bitcoinStoreWallet
 title: Bitcoin Store Wallet
 verdict: custodial
-meta: ok
 date: 2024-09-07
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   updated: 2025-10-31
   version: 1.0.54
   icon: com.bitcoinstore.bitcoinstorewallet.png
+  meta: ok
   developerName: Digital Assets d.o.o
 iphone:
   appId: com.bitcoinstore.bitcoinstorewallet
@@ -35,6 +35,7 @@ iphone:
   version: 1.0.26
   reviews: 13
   icon: com.bitcoinstore.bitcoinstorewallet.jpg
+  meta: ok
   developerName: Digital Assets d.o.o
 
 ---

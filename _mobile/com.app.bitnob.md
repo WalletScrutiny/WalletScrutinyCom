@@ -2,7 +2,6 @@
 wsId: Bitnob
 title: Bitnob
 verdict: custodial
-meta: ok
 date: 2021-10-07
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: bobmint
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://bobmint.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-14
   version: '3.0'
   icon: com.clic.bobmint.jpg
+  meta: removed
   developerName: Bobmint
 
 ---

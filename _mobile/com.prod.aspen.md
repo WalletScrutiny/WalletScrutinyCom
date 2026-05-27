@@ -1,7 +1,6 @@
 ---
 title: Aspen Digital
 verdict: custodial
-meta: ok
 date: 2025-08-29
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2025-09-22
   version: 2.1.20
   icon: com.prod.aspen.png
+  meta: ok
   developerName: Aspen Digital
 
 ---

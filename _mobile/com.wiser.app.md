@@ -1,7 +1,6 @@
 ---
 title: 'DeStreet: DeFi & Crypto'
 verdict: wip
-meta: removed
 date: 2024-08-15
 website: https://destreet.co#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2023-01-06
   version: VARY
   icon: com.wiser.app.png
+  meta: removed
   developerName: Factory Technologies Pvt Ltd.
 
 ---

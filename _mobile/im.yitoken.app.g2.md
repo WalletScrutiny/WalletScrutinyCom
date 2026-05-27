@@ -1,7 +1,6 @@
 ---
 title: yiToken Wallet - BTC, ETH, DOT
 verdict: wip
-meta: removed
 date: 2024-09-18
 website: https://yitoken.im#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-24
   version: 1.3.5
   icon: im.yitoken.app.g2.png
+  meta: removed
   developerName: YiToken Labs
 
 ---

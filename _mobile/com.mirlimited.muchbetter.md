@@ -2,7 +2,6 @@
 wsId: MuchBetter
 title: MuchBetter
 verdict: custodial
-meta: ok
 date: 2021-08-27
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.36.0
   reviews: 170
   icon: com.mirlimited.muchbetter.png
+  meta: ok
   developerName: Rtekk Holdings Limited
 iphone:
   appId: com.muchbetter
@@ -32,6 +32,7 @@ iphone:
   version: 4.36.0
   reviews: 457
   icon: com.muchbetter.jpg
+  meta: ok
   developerName: MIR LIMITED
 
 ---

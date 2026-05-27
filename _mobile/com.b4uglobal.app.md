@@ -1,7 +1,6 @@
 ---
 title: B4U Global
 verdict: wip
-meta: removed
 date: 2023-02-08
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-04-12
   version: 1.0.6
   icon: com.b4uglobal.app.png
+  meta: removed
   developerName: b4u global
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: FastBit (Fiat/Crypto black mar
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://fastbitng.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-24
   version: '2.4'
   icon: com.codepoint.fastbit.png
+  meta: removed
   developerName: Fintava
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: wallet.app
 verdict: wip
-meta: removed
 date: 2025-10-15
 website: https://wallet.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-01-12
   version: 2.0.1
   icon: app.wallet.crypto.png
+  meta: removed
   developerName: New Capital LT, UAB
 
 ---

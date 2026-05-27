@@ -1,7 +1,6 @@
 ---
 title: SecuX SPay
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.secuxtech.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-12
   version: 1.0.4
   icon: com.secuxtech.secuxspay.png
+  meta: removed
 
 ---
 

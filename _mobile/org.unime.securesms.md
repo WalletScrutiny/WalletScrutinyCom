@@ -1,7 +1,6 @@
 ---
 title: UniMe - Privacy Messaging
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: https://web.archive.org/web/20240807052643/http://about.unime.world/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 4.3.0
   reviews: 19
   icon: org.unime.securesms.png
+  meta: removed
 
 ---
 

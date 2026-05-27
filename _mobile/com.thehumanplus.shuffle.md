@@ -2,7 +2,6 @@
 wsId: ShuffleHPX
 title: 'Shuffle: Crypto Payment Wallet'
 verdict: custodial
-meta: ok
 date: 2023-01-30
 authors:
 - danny

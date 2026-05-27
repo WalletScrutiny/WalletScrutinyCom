@@ -1,7 +1,6 @@
 ---
 title: BTC6X Exchange
 verdict: custodial
-meta: removed
 date: 2024-09-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.1'
   reviews: 6
   icon: exchange.btc6x.com.jpg
+  meta: removed
   developerName: ZeroCash
 
 ---

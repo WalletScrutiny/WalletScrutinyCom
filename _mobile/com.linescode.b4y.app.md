@@ -1,7 +1,6 @@
 ---
 title: Bank4YOU
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.bank4you.life
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-04
   version: 1.0.22
   icon: com.linescode.b4y.app.png
+  meta: removed
 
 ---
 

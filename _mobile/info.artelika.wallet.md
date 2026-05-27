@@ -1,7 +1,6 @@
 ---
 title: Artelika crypto wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://artelika.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-07-10
   version: 1.0.7
   icon: info.artelika.wallet.png
+  meta: removed
   developerName: Artelika LLC
 
 ---

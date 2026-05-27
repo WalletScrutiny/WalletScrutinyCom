@@ -2,7 +2,6 @@
 wsId: simpleCrypto
 title: 'Simple:  Сrypto BTC, USDC'
 verdict: custodial
-meta: ok
 date: 2023-06-13
 authors:
 - danny

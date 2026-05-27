@@ -2,7 +2,6 @@
 wsId: primalNostr
 title: Primal
 verdict: custodial
-meta: ok
 date: 2024-03-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.5.9
   reviews: 30
   icon: net.primal.android.png
+  meta: ok
   developerName: PRIMAL SYSTEMS INC.
 iphone:
   appId: net.primal.iosapp.Primal
@@ -30,6 +30,7 @@ iphone:
   version: 3.0.61
   reviews: 899
   icon: net.primal.iosapp.Primal.jpg
+  meta: ok
   developerName: Primal Systems Incorporated.
 
 ---

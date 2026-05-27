@@ -1,7 +1,6 @@
 ---
 title: SureWallet
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://surecrypto.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 2.2.0
   reviews: 27
   icon: io.surecrypto.wallet.png
+  meta: removed
   developerName: SureCrypto
 
 ---

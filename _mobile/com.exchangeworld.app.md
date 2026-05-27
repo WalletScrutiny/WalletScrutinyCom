@@ -1,7 +1,6 @@
 ---
 title: World Exchange
 verdict: custodial
-meta: removed
 date: 2023-08-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-12-01
   version: 1.1.24
   icon: com.exchangeworld.app.png
+  meta: removed
   developerName: World exchange
 
 ---

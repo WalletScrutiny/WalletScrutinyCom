@@ -1,7 +1,6 @@
 ---
 title: Universe Coin
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://universecoin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-08-10
   version: '4.0'
   icon: com.universecoincellphone.png
+  meta: removed
   developerName: Lattitudemundi
 
 ---

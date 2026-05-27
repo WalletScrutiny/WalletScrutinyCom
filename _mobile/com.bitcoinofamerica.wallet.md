@@ -1,7 +1,6 @@
 ---
 title: Bitcoin of America Wallet
 verdict: nosource
-meta: removed
 date: 2022-02-16
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: 1.1.3
   reviews: 58
   icon: com.bitcoinofamerica.wallet.png
+  meta: removed
 
 ---
 

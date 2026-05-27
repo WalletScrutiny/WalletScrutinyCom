@@ -1,7 +1,6 @@
 ---
 title: Buy Crypto Uk
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/buy.crypto.uk1/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-17
   version: '1.0'
   icon: buy.crypto.uk1.jpg
+  meta: removed
 
 ---
 

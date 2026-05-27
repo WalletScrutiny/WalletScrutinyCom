@@ -1,7 +1,6 @@
 ---
 title: Witcash
 verdict: wip
-meta: removed
 date: 2023-06-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-07-14
   version: 2.0.9
   icon: com.waspbit.witcashpdn.jpg
+  meta: removed
   developerName: Witcash
 
 ---

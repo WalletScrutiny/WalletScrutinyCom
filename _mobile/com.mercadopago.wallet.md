@@ -2,7 +2,6 @@
 wsId: mercadopago
 title: 'Mercado Pago: banco digital'
 verdict: nosendreceive
-meta: ok
 date: 2021-12-26
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 2.437.2
   reviews: 1088074
   icon: com.mercadopago.wallet.png
+  meta: ok
   developerName: Mercado Libre
 iphone:
   appId: com.mercadopago.MercadoPago
@@ -31,6 +31,7 @@ iphone:
   version: 2.437.2
   reviews: 2499182
   icon: com.mercadopago.MercadoPago.jpg
+  meta: ok
   developerName: MercadoLibre
 
 ---

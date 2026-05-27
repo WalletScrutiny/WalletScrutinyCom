@@ -1,7 +1,6 @@
 ---
 title: Exodus Bitcoin Manage, and Exchange cryptocurrency
 verdict: fake
-meta: removed
 date: 2021-10-30
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-10-04
   version: '19.28'
   icon: crypto.walls.exoduks.comy.png
+  meta: removed
 
 ---
 

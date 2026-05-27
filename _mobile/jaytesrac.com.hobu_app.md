@@ -1,7 +1,6 @@
 ---
 title: HoBu
 verdict: wip
-meta: removed
 date: 2025-05-30
 website: http://hobutrading.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-02
   version: 1.0.0
   icon: jaytesrac.com.hobu_app.png
+  meta: removed
   developerName: Tesseract Trading Pty Ltd
 
 ---

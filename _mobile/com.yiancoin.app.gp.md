@@ -1,7 +1,6 @@
 ---
 title: yiancoin
 verdict: wip
-meta: removed
 date: 2022-04-25
 redirect_from:
 - /android/com.yiancoin.app.gp/
@@ -12,6 +11,7 @@ android:
   updated: 2021-08-03
   version: 1.0.0
   icon: com.yiancoin.app.gp.png
+  meta: removed
 
 ---
 

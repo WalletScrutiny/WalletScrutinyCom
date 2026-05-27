@@ -1,7 +1,6 @@
 ---
 title: 'VELO: Bitcoin & USDT Wallet'
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://velo.cash
 redirect_from:

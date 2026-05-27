@@ -1,7 +1,6 @@
 ---
 title: Payout
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: http://www.ddtotal.com.br
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-16
   version: '2.6'
   icon: com.payout.jpg
+  meta: removed
   developerName: Goey Tecnologia Ltda
 
 ---

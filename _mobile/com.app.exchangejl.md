@@ -1,7 +1,6 @@
 ---
 title: Krypterz
 verdict: wip
-meta: removed
 date: 2023-08-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-05-22
   version: 1.5.0
   icon: com.app.exchangejl.jpg
+  meta: removed
   developerName: Krypterz Exchange
 
 ---

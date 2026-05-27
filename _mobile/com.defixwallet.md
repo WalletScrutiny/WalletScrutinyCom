@@ -1,7 +1,6 @@
 ---
 title: Defix Wallet
 verdict: wip
-meta: removed
 date: 2023-01-11
 website: https://www.defixwallet.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-12
   version: '2.1'
   icon: com.defixwallet.jpg
+  meta: removed
 
 ---
 

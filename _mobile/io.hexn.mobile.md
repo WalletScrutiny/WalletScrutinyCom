@@ -1,7 +1,6 @@
 ---
 title: 'HEXN: Buy Bitcoin, Hodl Crypto'
 verdict: custodial
-meta: stale
 date: 2026-02-20
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.2.6
   reviews: 5
   icon: io.hexn.mobile.png
+  meta: stale
   developerName: NuzlTech Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: DeFi Wallet
 verdict: nosource
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.1.2
   reviews: 1
   icon: io.metaegg.wallet.png
+  meta: removed
   developerName: Metaegg
 
 ---

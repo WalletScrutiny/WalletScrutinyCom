@@ -2,7 +2,6 @@
 wsId: koinbazar
 title: 'KoinBX: Indian Crypto Exchange'
 verdict: custodial
-meta: ok
 date: 2021-10-04
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.1.5
   reviews: 3503
   icon: com.application.koinbazar.png
+  meta: ok
   developerName: KoinBX
 iphone:
   appId: com.app.koinbazar
@@ -34,6 +34,7 @@ iphone:
   version: 4.2.2
   reviews: 159
   icon: com.app.koinbazar.jpg
+  meta: ok
   developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Safesmart: Crypto & Bitcoin Wallet (Early Access)'
 verdict: wip
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/com.e.tswallet/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 3
   icon: com.e.tswallet.png
+  meta: removed
 
 ---
 

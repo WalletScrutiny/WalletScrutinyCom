@@ -1,7 +1,6 @@
 ---
 title: BTMex VCE
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: http://www.bitanmt.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-12-03
   version: 1.0.2
   icon: com.btmex.exchange.png
+  meta: removed
   developerName: BitanMT
 
 ---

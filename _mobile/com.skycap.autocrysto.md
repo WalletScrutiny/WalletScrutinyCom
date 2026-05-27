@@ -1,7 +1,6 @@
 ---
 title: AutoCrysto
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://autocrysto.trade#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-04-27
   version: 1.0.3
   icon: com.skycap.autocrysto.png
+  meta: removed
   developerName: Shibha Corporation
 
 ---

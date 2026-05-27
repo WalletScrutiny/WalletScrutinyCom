@@ -1,7 +1,6 @@
 ---
 title: M Wallet
 verdict: wip
-meta: removed
 date: 2023-05-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-03-09
   version: '1.0'
   icon: com.blockchainappfactory.mwallet.png
+  meta: removed
   developerName: Blockchain App Factory
 
 ---

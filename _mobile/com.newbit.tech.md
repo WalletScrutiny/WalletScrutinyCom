@@ -1,7 +1,6 @@
 ---
 title: 'Newbit : Buy & Trade Crypto'
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.newbit.tech/
@@ -12,6 +11,7 @@ android:
   updated: 2022-08-29
   version: 1.0.11
   icon: com.newbit.tech.png
+  meta: removed
   developerName: BLOCKTECH CAPITAL PTE LTD
 
 ---

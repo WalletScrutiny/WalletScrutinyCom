@@ -2,7 +2,6 @@
 wsId: TradeAries
 title: 'Aries: Trade. Invest.'
 verdict: nosendreceive
-meta: ok
 date: 2024-11-21
 authors:
 - danny

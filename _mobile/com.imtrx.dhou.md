@@ -1,7 +1,6 @@
 ---
 title: marmetal
 verdict: wip
-meta: removed
 date: 2023-06-21
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-13
   version: '1.2'
   icon: com.imtrx.dhou.png
+  meta: removed
   developerName: g83ohv
 
 ---

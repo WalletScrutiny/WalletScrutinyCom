@@ -2,7 +2,6 @@
 wsId: CoinEx
 title: 'CoinEx: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2020-04-15
 authors:
 - leo

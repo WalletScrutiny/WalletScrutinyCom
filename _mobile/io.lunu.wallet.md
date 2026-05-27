@@ -1,7 +1,6 @@
 ---
 title: Lunu Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://wallet.lunu.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-24
   version: 1.3.12
   icon: io.lunu.wallet.png
+  meta: removed
   developerName: Lunu Solutions GmbH
 
 ---

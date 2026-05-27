@@ -1,7 +1,6 @@
 ---
 title: SSOK WALLET (쏙 월렛)
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: http://ssok.info/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-23
   version: 1.0.3
   icon: io.ssok.png
+  meta: removed
   developerName: ANC Holdings
 
 ---

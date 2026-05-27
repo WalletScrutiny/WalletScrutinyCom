@@ -1,7 +1,6 @@
 ---
 title: Klepon Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://kleponswap.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-29
   version: '1.0'
   icon: com.klepon.wallet.png
+  meta: removed
   developerName: Klepon
 
 ---

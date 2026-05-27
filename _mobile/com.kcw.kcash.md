@@ -1,7 +1,6 @@
 ---
 title: Kcash-Crypto Wallet
 verdict: nosource
-meta: removed
 date: 2022-04-07
 authors:
 - danny
@@ -20,6 +19,7 @@ iphone:
   version: 2.9.3
   reviews: 10
   icon: com.kcw.kcash.jpg
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: bittime
 title: 'Bittime: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-05-15
   version: 2.0.13
   icon: com.bittime.currency.exchange.png
+  meta: ok
   developerName: Bittime Exchanges
 iphone:
   appId: com.bittime.currency.exchange
@@ -28,6 +28,7 @@ iphone:
   version: 2.0.13
   reviews: 406
   icon: com.bittime.currency.exchange.jpg
+  meta: ok
   developerName: PT. UTAMA ASET DIGITAL INDONESIA
 
 ---

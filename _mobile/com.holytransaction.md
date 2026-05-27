@@ -1,7 +1,6 @@
 ---
 title: HolyTransaction - Crypto Walle
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://holytransaction.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-25
   version: 1.0.0
   icon: com.holytransaction.png
+  meta: removed
   developerName: HolyTransaction Android
 
 ---

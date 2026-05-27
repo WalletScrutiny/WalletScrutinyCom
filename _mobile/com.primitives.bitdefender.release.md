@@ -1,7 +1,6 @@
 ---
 title: BitDefender - smart wallet
 verdict: wip
-meta: obsolete
 date: 2024-06-17
 redirect_from:
 - /android/com.primitives.bitdefender.release/
@@ -12,6 +11,7 @@ android:
   updated: 2022-06-20
   version: 1.0-RELEASE
   icon: com.primitives.bitdefender.release.png
+  meta: obsolete
   developerName: Primitives
 
 ---

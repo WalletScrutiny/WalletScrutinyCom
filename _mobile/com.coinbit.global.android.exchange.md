@@ -1,7 +1,6 @@
 ---
 title: 코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-05-11
   version: 2.4.03
   icon: com.coinbit.global.android.exchange.png
+  meta: removed
 
 ---
 

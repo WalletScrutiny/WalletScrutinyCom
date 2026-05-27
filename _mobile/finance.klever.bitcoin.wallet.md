@@ -2,7 +2,6 @@
 wsId: kleverK5FinanceCrypto
 title: 'Klever Wallet: Crypto,DeFi,BTC'
 verdict: nosource
-meta: ok
 date: 2023-07-11
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   version: 5.48.6
   reviews: 203
   icon: finance.klever.bitcoin.wallet.png
+  meta: ok
   developerName: 'Klever Wallet: BTC, ETH, TRX, KLV, SOL, and More'
 iphone:
   appId: finance.klever.bitcoin.wallet
@@ -41,6 +41,7 @@ iphone:
   version: 5.9.5
   reviews: 1101
   icon: finance.klever.bitcoin.wallet.jpg
+  meta: ok
   developerName: Klever Exchange
 
 ---

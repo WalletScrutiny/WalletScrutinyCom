@@ -1,7 +1,6 @@
 ---
 title: 'RuieBit: Bitcoin Wallet - BTC'
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 3.6.6
   reviews: 52
   icon: com.ruiebit.bitcoinapp.jpg
+  meta: ok
   developerName: DeBeque Youth
 
 ---

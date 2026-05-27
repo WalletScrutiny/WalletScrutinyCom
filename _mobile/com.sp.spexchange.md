@@ -1,7 +1,6 @@
 ---
 title: SPexchange
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://spexchange.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-03
   version: 1.0.9
   icon: com.sp.spexchange.png
+  meta: removed
   developerName: SPexchange
 
 ---

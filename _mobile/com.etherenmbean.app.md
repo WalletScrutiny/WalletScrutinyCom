@@ -1,7 +1,6 @@
 ---
 title: ATEX
 verdict: wip
-meta: removed
 date: 2023-01-30
 redirect_from:
 - /android/com.etherenmbean.app/
@@ -12,6 +11,7 @@ android:
   updated: 2022-08-30
   version: 11.6.6
   icon: com.etherenmbean.app.png
+  meta: removed
 
 ---
 

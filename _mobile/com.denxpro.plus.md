@@ -1,7 +1,6 @@
 ---
 title: GoldexPlus
 verdict: wip
-meta: removed
 date: 2024-07-25
 website: https://goldexplus.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-10
   version: 1.6.4
   icon: com.denxpro.plus.png
+  meta: removed
   developerName: Denxpro Software
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: FRWT Secure DeFi Crypto Wallet
 verdict: nosource
-meta: ok
 date: 2025-11-11
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.15.0
   reviews: 208
   icon: app.frwt.wallet.png
+  meta: ok
   developerName: FRWLT LLC - Non-Custodial Wallet
 
 ---

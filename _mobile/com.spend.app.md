@@ -2,7 +2,6 @@
 wsId: spend
 title: Spend App
 verdict: custodial
-meta: removed
 date: 2023-08-16
 authors:
 - kiwilamb
@@ -22,6 +21,7 @@ android:
   version: '3.09'
   reviews: 129
   icon: com.spend.app.png
+  meta: removed
   developerName: Spend CA Inc
 iphone:
   appId: com.DCS.SpendWallet
@@ -31,6 +31,7 @@ iphone:
   version: 3.2.6
   reviews: 326
   icon: com.DCS.SpendWallet.jpg
+  meta: removed
   developerName: Spend Inc
 
 ---

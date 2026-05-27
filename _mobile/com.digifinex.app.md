@@ -2,7 +2,6 @@
 wsId: digifinex
 title: DigiFinex- Crypto Exchange
 verdict: custodial
-meta: ok
 date: 2020-11-28
 authors:
 - leo

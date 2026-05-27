@@ -2,7 +2,6 @@
 wsId: getcoinsWallet
 title: GetCoins Wallet
 verdict: nosource
-meta: removed
 date: 2024-11-12
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 15.2.0
   reviews: 11
   icon: com.getcoins.gcwallet2.png
+  meta: removed
   developerName: GetCoins
 iphone:
   appId: com.getcoins.gcwallet
@@ -28,6 +28,7 @@ iphone:
   version: 15.4.0
   reviews: 16
   icon: com.getcoins.gcwallet.jpg
+  meta: removed
   developerName: Evergreen ATM LLC
 
 ---

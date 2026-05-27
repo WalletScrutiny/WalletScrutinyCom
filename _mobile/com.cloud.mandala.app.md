@@ -1,7 +1,6 @@
 ---
 title: Mandala Exchange
 verdict: wip
-meta: removed
 date: 2021-08-13
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: 1.0.2
   reviews: 9
   icon: com.cloud.mandala.app.png
+  meta: removed
 
 ---
 

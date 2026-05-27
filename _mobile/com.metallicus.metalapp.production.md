@@ -2,7 +2,6 @@
 wsId: MetalPay
 title: 'Metal Pay: Buy Bitcoin and ETH'
 verdict: custodial
-meta: ok
 date: 2021-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.1.205
   reviews: 395
   icon: com.metallicus.metalapp.production.png
+  meta: ok
   developerName: Metallicus Inc.
 iphone:
   appId: com.metallicus.metalpay
@@ -32,6 +32,7 @@ iphone:
   version: 3.1.205
   reviews: 4313
   icon: com.metallicus.metalpay.jpg
+  meta: ok
   developerName: Metallicus, Inc.
 
 ---

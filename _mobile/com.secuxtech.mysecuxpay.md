@@ -1,7 +1,6 @@
 ---
 title: SecuX EvPay
 verdict: wip
-meta: stale
 date: 2026-05-21
 website: https://www.secuxtech.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-03-19
   version: 2.2.3
   icon: com.secuxtech.mysecuxpay.png
+  meta: stale
   developerName: SecuX
 
 ---

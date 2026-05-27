@@ -2,7 +2,6 @@
 wsId: paytomat
 title: 'Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens'
 verdict: nosource
-meta: removed
 date: 2022-10-21
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 1.37.2
   reviews: 14
   icon: com.paytomat.png
+  meta: removed
 iphone:
   appId: com.app.paytomat.wallet
   idd: '1415300709'
@@ -32,6 +32,7 @@ iphone:
   version: 1.37.2
   reviews: 22
   icon: com.app.paytomat.wallet.jpg
+  meta: removed
 
 ---
 

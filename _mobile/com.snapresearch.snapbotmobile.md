@@ -1,7 +1,6 @@
 ---
 title: SnapBots Wallet
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://app.snapbots.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-15
   version: 1.0.1
   icon: com.snapresearch.snapbotmobile.png
+  meta: removed
   developerName: SnapBots Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Omni Web3 Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://omni.app/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 3.8.2
   reviews: 97
   icon: com.thesteakwallet.app.jpg
+  meta: ok
   developerName: Steakwallet
 
 ---

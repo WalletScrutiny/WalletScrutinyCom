@@ -1,7 +1,6 @@
 ---
 title: HUOBI MY
 verdict: wip
-meta: removed
 date: 2022-12-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-11-17
   version: 2.0.1
   icon: com.huobilbn.appstore.png
+  meta: removed
   developerName: Huobi Labuan Limited
 
 ---

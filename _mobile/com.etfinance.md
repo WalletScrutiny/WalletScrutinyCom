@@ -1,7 +1,6 @@
 ---
 title: 'ETFinance: Bitcoin, Stock, & F'
 verdict: wip
-meta: removed
 date: 2024-03-02
 website: https://www.etfinance.eu
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-29
   version: 1.5.78-etfinance
   icon: com.etfinance.png
+  meta: removed
   developerName: Magnum FX (Cyprus) LTD
 
 ---

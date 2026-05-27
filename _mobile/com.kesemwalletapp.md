@@ -1,7 +1,6 @@
 ---
 title: 'Kesem - Secured Crypto Wallet '
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.kesem.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-05-15
   version: '2.17'
   icon: com.kesemwalletapp.png
+  meta: removed
   developerName: Kesem
 
 ---

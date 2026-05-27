@@ -2,7 +2,6 @@
 wsId: timexApp
 title: TimeX
 verdict: custodial
-meta: removed
 date: 2024-11-29
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2023-09-25
   version: 1.4.3
   icon: io.timexapp.png
+  meta: removed
   developerName: Chrono.Tech
 iphone:
   appId: io.timexapp
@@ -33,6 +33,7 @@ iphone:
   version: 1.4.3
   reviews: 0
   icon: io.timexapp.jpg
+  meta: removed
   developerName: Chrono.tech
 
 ---

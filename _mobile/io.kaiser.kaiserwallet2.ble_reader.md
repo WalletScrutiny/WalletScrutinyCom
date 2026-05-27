@@ -1,7 +1,6 @@
 ---
 title: KaiserWallet2 BLE - Cold walle
 verdict: wip
-meta: removed
 date: 2024-09-10
 website: https://bizblocks.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-28
   version: 2.9.10
   icon: io.kaiser.kaiserwallet2.ble_reader.png
+  meta: removed
   developerName: Bizblocks
 
 ---

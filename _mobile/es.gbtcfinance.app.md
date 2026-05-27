@@ -2,7 +2,6 @@
 wsId: gbtcFinance
 title: GBTC Finance - Compra Bitcoin
 verdict: custodial
-meta: ok
 date: 2025-12-27
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-02-26
   version: '1.16'
   icon: es.gbtcfinance.app.png
+  meta: ok
   developerName: GBTC FINANCE
 iphone:
   appId: com.gbtc.finance
@@ -32,6 +32,7 @@ iphone:
   version: '1.03'
   reviews: 5
   icon: com.gbtc.finance.jpg
+  meta: ok
   developerName: GBTC FINANCE S.L.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'FX Crypto (FXC) - Forex Robot '
 verdict: wip
-meta: removed
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-11-04
   version: 1.0.2
   icon: com.fxcrypto.wallet.png
+  meta: removed
   developerName: Artificial intelligence technology
 
 ---

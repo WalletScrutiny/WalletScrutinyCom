@@ -1,7 +1,6 @@
 ---
 title: Coffee Wallet
 verdict: sourceavailable
-meta: obsolete
 date: 2024-07-03
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: '0.22'
   reviews: 7
   icon: coffee.software.coffeewallet.png
+  meta: obsolete
   developerName: Coffee  Software
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Deus Finance - Crypto & Stock Trading
 verdict: wip
-meta: removed
 date: 2022-03-07
 website: https://deus.finance
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-23
   version: 1.1.7
   icon: finance.deus.deus_mobile.png
+  meta: removed
 
 ---
 

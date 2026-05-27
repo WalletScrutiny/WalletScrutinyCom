@@ -1,7 +1,6 @@
 ---
 title: BigoMex-Trading for BEGINNERS
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.2.7
   reviews: 6
   icon: com.bigomex.blockchain.jpg
+  meta: removed
   developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
 
 ---

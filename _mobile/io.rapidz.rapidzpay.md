@@ -2,7 +2,6 @@
 wsId: rapidzPay
 title: 'Rapidz: Crypto Wallet & Hub'
 verdict: custodial
-meta: ok
 date: 2023-07-19
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 4.7.9
   reviews: 6
   icon: io.rapidz.rapidzpay.png
+  meta: ok
   developerName: Rapidz Pay Inc
 iphone:
   appId: io.rapidz.rapidzpayios
@@ -36,6 +36,7 @@ iphone:
   version: 4.4.3
   reviews: 2
   icon: io.rapidz.rapidzpayios.jpg
+  meta: ok
   developerName: UAB Rapidz Pay
 
 ---

@@ -2,7 +2,6 @@
 wsId: CoinFlex
 title: CoinFLEX
 verdict: wip
-meta: removed
 date: 2021-11-22
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.7.0
   reviews: 11
   icon: com.lxd.java_websocketclient.png
+  meta: removed
 iphone:
   appId: coinflex.com.appc
   idd: '1499932851'
@@ -31,6 +31,7 @@ iphone:
   version: 2.7.0
   reviews: 8
   icon: coinflex.com.appc.jpg
+  meta: removed
 
 ---
 

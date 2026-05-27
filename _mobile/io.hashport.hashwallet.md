@@ -1,7 +1,6 @@
 ---
 title: HashPort Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 3.13.1
   reviews: 6
   icon: io.hashport.hashwallet.jpg
+  meta: ok
   developerName: HashPort Inc
 
 ---

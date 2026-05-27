@@ -2,7 +2,6 @@
 wsId: swissQuoteAdvancedTrader
 title: 'Swissquote CFXD: Forex & CFDs'
 verdict: custodial
-meta: ok
 date: 2023-11-02
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   version: 3.13.0
   reviews: 4
   icon: com.swissquote.mobiletrader.android.wl.acm.png
+  meta: ok
   developerName: Swissquote Mobile
 iphone:
   appId: com.acm.Mobile-Trader
@@ -37,6 +37,7 @@ iphone:
   version: 3.45.0
   reviews: 687
   icon: com.acm.Mobile-Trader.jpg
+  meta: ok
   developerName: Swissquote
 
 ---

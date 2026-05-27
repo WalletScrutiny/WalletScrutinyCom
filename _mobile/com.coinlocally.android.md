@@ -2,7 +2,6 @@
 wsId: coinlocally
 title: Coinlocally
 verdict: custodial
-meta: ok
 date: 2023-02-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.1.1
   reviews: 91
   icon: com.coinlocally.android.png
+  meta: ok
   developerName: Coinlocally Official
 iphone:
   appId: com.coinlocally.app
@@ -32,6 +32,7 @@ iphone:
   version: 3.1.6
   reviews: 131
   icon: com.coinlocally.app.jpg
+  meta: ok
   developerName: Coinlocally
 
 ---

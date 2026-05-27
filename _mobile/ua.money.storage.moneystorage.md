@@ -1,7 +1,6 @@
 ---
 title: Money Storage
 verdict: custodial
-meta: removed
 date: 2025-05-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.0
   reviews: 3
   icon: ua.money.storage.moneystorage.png
+  meta: removed
   developerName: Bitsofta
 
 ---

@@ -2,7 +2,6 @@
 wsId: NitroEXexchangeapp
 title: NitroEx Exchange
 verdict: custodial
-meta: stale
 date: 2026-01-08
 authors:
 - danny

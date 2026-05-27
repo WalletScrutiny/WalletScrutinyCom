@@ -1,7 +1,6 @@
 ---
 title: METABITT
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-01-17
   version: 5.6.5
   icon: com.chainup.exchange.METABITT.png
+  meta: removed
   developerName: KKOrange
 
 ---

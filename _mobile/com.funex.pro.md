@@ -1,7 +1,6 @@
 ---
 title: 'FunexPro: Secure Crypto Wallet'
 verdict: wip
-meta: stale
 date: 2026-05-21
 website: https://funexpro.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-08-31
   version: 1.0.1
   icon: com.funex.pro.png
+  meta: stale
   developerName: Funex Coin
 
 ---

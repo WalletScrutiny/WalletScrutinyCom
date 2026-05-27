@@ -1,7 +1,6 @@
 ---
 title: Chipper Cash
 verdict: custodial
-meta: ok
 date: 2021-09-03
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   version: 1.151.0
   reviews: 3267
   icon: com.chippercash.png
+  meta: ok
   developerName: Critical Ideas, Inc.
 
 ---

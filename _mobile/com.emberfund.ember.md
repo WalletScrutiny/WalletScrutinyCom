@@ -2,7 +2,6 @@
 wsId: ember
 title: Ember - Play Games. Win Big.
 verdict: nosource
-meta: ok
 date: 2021-10-01
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '38.0'
   reviews: 2599
   icon: com.emberfund.ember.jpg
+  meta: ok
   developerName: Ember Fund Inc
 iphone:
   appId: com.emberfund.ember
@@ -31,6 +31,7 @@ iphone:
   version: '38.0'
   reviews: 15679
   icon: com.emberfund.ember.jpg
+  meta: ok
   developerName: Ember Fund LLC
 
 ---

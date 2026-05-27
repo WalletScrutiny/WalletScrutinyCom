@@ -2,7 +2,6 @@
 wsId: pionex
 title: Pionex - Crypto Trading Bot
 verdict: custodial
-meta: ok
 date: 2021-09-03
 authors:
 - danny

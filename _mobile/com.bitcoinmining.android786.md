@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Cloud - BTC Cloud Mining
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/com.bitcoinmining.android786/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 31
   icon: com.bitcoinmining.android786.png
+  meta: removed
 
 ---
 

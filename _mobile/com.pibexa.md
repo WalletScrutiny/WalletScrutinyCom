@@ -1,7 +1,6 @@
 ---
 title: Pibexa
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://pibexa.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2020-08-26
   version: 0.6.2
   icon: com.pibexa.png
+  meta: removed
   developerName: Pibexa
 
 ---

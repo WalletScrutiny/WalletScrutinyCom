@@ -1,7 +1,6 @@
 ---
 title: 'Flipster: Crypto Futures Trade'
 verdict: custodial
-meta: ok
 date: 2023-06-14
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.20.101
   reviews: 75
   icon: com.prestolabs.android.prex.png
+  meta: ok
   developerName: Flipster Exchange
 
 ---

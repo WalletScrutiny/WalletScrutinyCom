@@ -2,7 +2,6 @@
 wsId: magicEdenWallet
 title: Magic Eden Wallet
 verdict: nosource
-meta: ok
 date: 2025-12-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.3.1
   reviews: 124
   icon: com.magiceden.wallet.png
+  meta: ok
   developerName: MagicEden
 iphone:
   appId: com.magiceden.wallet
@@ -35,6 +35,7 @@ iphone:
   version: 3.3.1
   reviews: 1971
   icon: com.magiceden.wallet.jpg
+  meta: ok
   developerName: Magic Eden
 
 ---

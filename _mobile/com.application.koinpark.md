@@ -2,7 +2,6 @@
 wsId: koinParkCrypto
 title: 'Koinpark: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2023-07-29
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   version: '1.75'
   reviews: 14
   icon: com.application.koinpark.png
+  meta: ok
   developerName: Koinpark Private Limited
 iphone:
   appId: com.app.KoinParkios
@@ -37,6 +37,7 @@ iphone:
   version: '5.9'
   reviews: 82
   icon: com.app.KoinParkios.jpg
+  meta: ok
   developerName: KOIN PARK PRIVATE LIMITED
 
 ---

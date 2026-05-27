@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Crypto Trading Investment
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptodebitcard.bitcoin.crypto.trading.investment/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-29
   version: '1.0'
   icon: org.cryptodebitcard.bitcoin.crypto.trading.investment.jpg
+  meta: removed
 
 ---
 

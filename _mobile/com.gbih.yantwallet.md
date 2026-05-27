@@ -1,7 +1,6 @@
 ---
 title: 'YANT Wallet : Bitcoin Ethereum'
 verdict: wip
-meta: removed
 date: 2023-03-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-09-24
   version: 1.1.28
   icon: com.gbih.yantwallet.png
+  meta: removed
   developerName: GBIH  LIMITED
 
 ---

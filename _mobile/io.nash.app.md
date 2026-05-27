@@ -2,7 +2,6 @@
 wsId: nash
 title: 'Nash: Trade & Invest in Crypto'
 verdict: nosource
-meta: ok
 date: 2024-07-15
 authors:
 - kiwilamb
@@ -22,6 +21,7 @@ android:
   version: 17.0.24
   reviews: 25
   icon: io.nash.app.png
+  meta: ok
   developerName: nash.io
 iphone:
   appId: io.nash.app
@@ -32,6 +32,7 @@ iphone:
   version: 17.0.24
   reviews: 106
   icon: io.nash.app.jpg
+  meta: ok
   developerName: Neon Exchange AG
 
 ---

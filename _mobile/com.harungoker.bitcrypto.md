@@ -1,7 +1,6 @@
 ---
 title: BitCrypto
 verdict: wip
-meta: removed
 date: 2025-02-04
 website: https://harungoker.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-27
   version: 1.0.0
   icon: com.harungoker.bitcrypto.png
+  meta: removed
   developerName: Harun Göker
 
 ---

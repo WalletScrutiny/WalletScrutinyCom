@@ -2,7 +2,6 @@
 wsId: scallopExchange
 title: Scallop Exchange
 verdict: custodial
-meta: removed
 date: 2025-08-09
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 5.4.12
   reviews: 9
   icon: com.chainup.exchange.Exchange.png
+  meta: removed
   developerName: Scallop
 iphone:
   appId: com.scallop.exchange.SCLPExchange
@@ -31,6 +31,7 @@ iphone:
   version: 1.0.2
   reviews: 10
   icon: com.scallop.exchange.SCLPExchange.jpg
+  meta: removed
   developerName: Scallop Group
 
 ---

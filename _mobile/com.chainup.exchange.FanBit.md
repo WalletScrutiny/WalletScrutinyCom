@@ -1,7 +1,6 @@
 ---
 title: FanBit
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://www.fanbit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-24
   version: 5.4.0_push_v2
   icon: com.chainup.exchange.FanBit.png
+  meta: removed
   developerName: KaiCheung
 
 ---

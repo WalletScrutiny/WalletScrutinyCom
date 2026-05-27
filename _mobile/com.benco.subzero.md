@@ -1,7 +1,6 @@
 ---
 title: SubZero
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://subzeropay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-22
   version: 1.5.5
   icon: com.benco.subzero.png
+  meta: removed
   developerName: SubZero Pay
 
 ---

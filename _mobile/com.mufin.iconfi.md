@@ -1,7 +1,6 @@
 ---
 title: GROW - Make Crypto Simple
 verdict: custodial
-meta: ok
 date: 2025-11-05
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.2.9
   reviews: 27
   icon: com.mufin.iconfi.png
+  meta: ok
   developerName: GROW3
 
 ---

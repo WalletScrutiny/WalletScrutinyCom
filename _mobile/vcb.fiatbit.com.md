@@ -1,7 +1,6 @@
 ---
 title: 'FiatBit: Crypto & Global remit'
 verdict: wip
-meta: removed
 date: 2023-08-16
 website: https://www.fiatbit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-03-03
   version: 2.5.3
   icon: vcb.fiatbit.com.png
+  meta: removed
   developerName: fiatbit
 
 ---

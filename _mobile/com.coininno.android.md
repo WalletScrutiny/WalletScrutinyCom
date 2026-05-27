@@ -1,7 +1,6 @@
 ---
 title: Coininno | کوینینو
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.0.0
   reviews: 4
   icon: com.coininno.android.png
+  meta: removed
   developerName: Coininno
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 3Commas Wallet
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '1.7'
   reviews: 3
   icon: com.threecommas.wallet.png
+  meta: removed
   developerName: 3Сommas - Cryptocurrency trading terminal and bots
 
 ---

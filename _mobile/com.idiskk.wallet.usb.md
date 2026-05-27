@@ -1,7 +1,6 @@
 ---
 title: iColdWallet
 verdict: nosource
-meta: removed
 date: 2025-02-13
 authors:
 - danny
@@ -16,6 +15,7 @@ iphone:
   version: 1.0.4
   reviews: 19
   icon: com.idiskk.wallet.usb.jpg
+  meta: removed
   developerName: Shenzhen Feitianxia Technology Co, Ltd.
 
 ---

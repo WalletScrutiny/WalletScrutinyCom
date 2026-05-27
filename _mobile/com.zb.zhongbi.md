@@ -1,7 +1,6 @@
 ---
 title: PlantCoin - Earns bitcoin app
 verdict: wip
-meta: removed
 date: 2021-11-11
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.1.4
   reviews: 100
   icon: com.zb.zhongbi.jpg
+  meta: removed
 
 ---
 

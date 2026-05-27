@@ -1,7 +1,6 @@
 ---
 title: MCI Investments
 verdict: wip
-meta: removed
 date: 2023-04-16
 website: https://www.mciinvestments.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-06-06
   version: 1.1.77
   icon: com.finantick.app.png
+  meta: removed
   developerName: MCI TRADING SOLUTIONS LTD
 
 ---

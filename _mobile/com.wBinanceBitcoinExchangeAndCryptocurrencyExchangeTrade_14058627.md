@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Binance Exchange And Cryptocurrency Ex.
 verdict: wip
-meta: removed
 date: 2021-10-22
 redirect_from:
 - /android/com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-06
   version: '1.0'
   icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
+  meta: removed
 
 ---
 

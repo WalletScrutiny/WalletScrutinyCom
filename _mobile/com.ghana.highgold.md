@@ -1,7 +1,6 @@
 ---
 title: HighGold
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://highandgold.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-25
   version: 0.0.5
   icon: com.ghana.highgold.png
+  meta: removed
 
 ---
 

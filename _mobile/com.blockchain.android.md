@@ -1,7 +1,6 @@
 ---
 title: Blockchain
 verdict: obfuscated
-meta: removed
 date: 2021-01-15
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.7.5
   reviews: 532
   icon: com.blockchain.android.png
+  meta: removed
 
 ---
 

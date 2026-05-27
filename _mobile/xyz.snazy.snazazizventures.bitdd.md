@@ -1,7 +1,6 @@
 ---
 title: BITDD
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://bitdd.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-08
   version: '1.0'
   icon: xyz.snazy.snazazizventures.bitdd.png
+  meta: removed
   developerName: SNAZAZIZ VENTURES
 
 ---

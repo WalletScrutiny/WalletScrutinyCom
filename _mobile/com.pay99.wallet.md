@@ -2,7 +2,6 @@
 wsId: 99Pay
 title: 99Pay
 verdict: nosendreceive
-meta: ok
 date: 2021-12-26
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 8.4.56
   reviews: 9832
   icon: com.pay99.wallet.png
+  meta: ok
   developerName: 99 Tecnologia LTDA
 iphone:
   appId: com.pay99
@@ -31,6 +31,7 @@ iphone:
   version: 8.4.56
   reviews: 1972
   icon: com.pay99.jpg
+  meta: ok
   developerName: 99Pay S.A
 
 ---

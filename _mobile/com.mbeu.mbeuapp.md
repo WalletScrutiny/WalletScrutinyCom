@@ -2,7 +2,6 @@
 wsId: mercadoPortugal
 title: Mercado Bitcoin Portugal
 verdict: custodial
-meta: ok
 date: 2026-02-25
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-05-07
   version: 2.1.1
   icon: com.mbeu.mbeuapp.png
+  meta: ok
   developerName: Smart Token Lda
 iphone:
   appId: com.mbeu.mbeuapp
@@ -32,6 +32,7 @@ iphone:
   version: 2.1.1
   reviews: 38
   icon: com.mbeu.mbeuapp.jpg
+  meta: ok
   developerName: Smart Token, Lda
 
 ---

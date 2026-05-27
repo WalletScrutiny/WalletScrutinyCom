@@ -1,7 +1,6 @@
 ---
 title: CX Services
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.micoo.cryptoxchange/
@@ -12,6 +11,7 @@ android:
   updated: 2019-10-03
   version: '1.9'
   icon: com.micoo.cryptoxchange.png
+  meta: removed
   developerName: Micoo
 
 ---

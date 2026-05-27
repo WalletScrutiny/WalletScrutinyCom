@@ -1,7 +1,6 @@
 ---
 title: 'GeeFi Wallet: Crypto & Bitcoin'
 verdict: wip
-meta: ok
 date: 2025-11-09
 website: https://geefi.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.1.5
   reviews: 6
   icon: com.gee_fi.png
+  meta: ok
   developerName: GeeFi Tech
 
 ---

@@ -2,7 +2,6 @@
 wsId: openBlock
 title: OpenBlock
 verdict: custodial
-meta: ok
 date: 2026-05-20
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-03-10
   version: 2.2.6
   icon: com.openblock.wallet.png
+  meta: ok
   developerName: JXJL Inc.
 iphone:
   appId: com.dssq.obwallet
@@ -28,6 +28,7 @@ iphone:
   version: 2.2.6
   reviews: 2
   icon: com.dssq.obwallet.jpg
+  meta: ok
   developerName: JXJL Inc.
 
 ---

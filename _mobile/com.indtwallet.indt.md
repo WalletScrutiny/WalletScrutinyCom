@@ -1,7 +1,6 @@
 ---
 title: INDT Wallet
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://indtcoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-23
   version: 1.0.15
   icon: com.indtwallet.indt.png
+  meta: removed
   developerName: L V J MARKETING MANAGEMENT
 
 ---

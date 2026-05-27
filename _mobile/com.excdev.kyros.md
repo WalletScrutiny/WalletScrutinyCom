@@ -1,7 +1,6 @@
 ---
 title: The Kyros mobile app
 verdict: nosource
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-02-07
   version: 3.2.0
   icon: com.excdev.kyros.png
+  meta: removed
   developerName: Kyros Managment Ltd.
 
 ---

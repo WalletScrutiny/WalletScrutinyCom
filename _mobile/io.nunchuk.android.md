@@ -1,7 +1,6 @@
 ---
 wsId: nunchuk
 title: Nunchuk Bitcoin Wallet
-meta: ok
 date: 2023-01-06
 authors:
 - leo
@@ -32,6 +31,7 @@ android:
   reviews: 42
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
+  meta: ok
   verdict: sourceavailable
   developerName: Nunchuk Inc
   repository: https://github.com/nunchuk-io/nunchuk-android
@@ -44,6 +44,7 @@ iphone:
   version: 2.5.1
   reviews: 471
   icon: io.nunchuk.ios.jpg
+  meta: ok
   verdict: nosource
   developerName: Nunchuk
 

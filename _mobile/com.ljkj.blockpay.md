@@ -1,7 +1,6 @@
 ---
 title: CPay
 verdict: custodial
-meta: removed
 date: 2024-10-10
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.2.7
   reviews: 1
   icon: com.ljkj.blockpay.png
+  meta: removed
   developerName: Block Easy Tech Limited
 
 ---

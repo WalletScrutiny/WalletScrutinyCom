@@ -2,7 +2,6 @@
 wsId: hodl
 title: 'HODL Wallet : Bitcoin Wallet'
 verdict: sourceavailable
-meta: removed
 date: 2024-05-07
 authors:
 - leo
@@ -29,6 +28,7 @@ android:
   version: 3.3.5
   reviews: 51
   icon: co.hodlwallet.png
+  meta: removed
   developerName: Hodl Wallet INC
   repository: https://github.com/hodlwallet/hodl-wallet-android
 iphone:
@@ -39,6 +39,7 @@ iphone:
   version: '1.13'
   reviews: 138
   icon: co.hodlwallet.jpg
+  meta: removed
   developerName: Hodl Wallet Inc
   repository: https://github.com/hodlwallet/hodl-wallet-ios
 

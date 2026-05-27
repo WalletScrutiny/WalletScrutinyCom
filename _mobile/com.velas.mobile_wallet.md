@@ -2,7 +2,6 @@
 wsId: VelasWallet
 title: Velas Wallet
 verdict: nosource
-meta: obsolete
 date: 2025-06-09
 authors:
 - danny

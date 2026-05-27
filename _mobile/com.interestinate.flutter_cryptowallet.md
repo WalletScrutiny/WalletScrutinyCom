@@ -1,7 +1,6 @@
 ---
 title: Flutter Cryptowallet
 verdict: wip
-meta: removed
 date: 2024-09-08
 website: https://interestinate.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-01-06
   version: 1.0.0
   icon: com.interestinate.flutter_cryptowallet.png
+  meta: removed
   developerName: Interestinate AB
 
 ---

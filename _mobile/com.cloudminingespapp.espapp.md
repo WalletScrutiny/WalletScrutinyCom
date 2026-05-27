@@ -1,7 +1,6 @@
 ---
 title: Pro Bitcoin Mining 2021 - BTC WALLET
 verdict: wip
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/com.cloudminingespapp.espapp/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 13
   icon: com.cloudminingespapp.espapp.jpg
+  meta: removed
 
 ---
 

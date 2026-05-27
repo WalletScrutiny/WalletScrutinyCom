@@ -1,7 +1,6 @@
 ---
 title: Notch Wallet - Altcoins Wallet
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://notchtoken.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-21
   version: V1.0
   icon: com.notch.token.png
+  meta: removed
   developerName: Notch Networks
 
 ---
