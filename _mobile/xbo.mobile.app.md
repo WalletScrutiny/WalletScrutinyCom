@@ -7,6 +7,7 @@ date: 2023-08-25
 authors:
 - danny
 website: https://www.xbo.com/
+twitter: XboOfficial
 social:
 - https://www.facebook.com/xbocom
 - https://www.instagram.com/xbo.com_official
@@ -25,7 +26,6 @@ android:
   reviews: 16
   icon: xbo.mobile.app.png
   developerName: Metafortune LTD
-  twitter: XboOfficial
 iphone:
   appId: xbo.mobile.app
   idd: '1638748643'

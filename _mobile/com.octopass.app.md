@@ -7,6 +7,7 @@ date: 2025-11-20
 authors:
 - danny
 website: https://easycrypto.com/
+twitter: easycrypto
 social:
 - https://www.facebook.com/easycryptoau
 - https://www.instagram.com/easycrypto.global
@@ -22,7 +23,6 @@ android:
   version: prod-1.18.11
   icon: com.octopass.app.png
   developerName: Dott Enterprises Limited
-  twitter: easycrypto
 iphone:
   appId: com.octopass.app
   idd: '6466778991'

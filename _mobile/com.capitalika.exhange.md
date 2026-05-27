@@ -7,6 +7,7 @@ date: 2025-11-05
 authors:
 - danny
 website: https://capitalika.com/
+twitter: capitalikalatam
 social:
 - https://www.facebook.com/CapitalikaWalletExchange
 - https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
@@ -23,7 +24,6 @@ android:
   reviews: 4
   icon: com.capitalika.exhange.png
   developerName: CAPITALIKA®
-  twitter: capitalikalatam
 iphone:
   appId: com.capitalika.exchange
   idd: '1570799130'

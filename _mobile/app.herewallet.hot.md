@@ -7,6 +7,7 @@ date: 2025-11-11
 authors:
 - danny
 website: https://hot-labs.org/privacypolicy
+twitter: hotdao_
 social:
 - https://www.instagram.com/hot_labs
 - https://t.me/hotonnear
@@ -27,7 +28,6 @@ android:
   reviews: 64
   icon: app.herewallet.hot.png
   developerName: HERE Wallet
-  twitter: hotdao_
 iphone:
   appId: app.here.dev.wallet
   idd: '6740916148'

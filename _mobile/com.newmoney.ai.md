@@ -7,6 +7,7 @@ date: 2025-11-20
 authors:
 - danny
 website: https://newmoney.ai/
+twitter: NewmoneyAI
 social:
 - https://t.me/NewmoneyAi_Bot
 - https://discord.com/invite/newmoneyai
@@ -26,7 +27,6 @@ android:
   reviews: 10
   icon: com.newmoney.ai.png
   developerName: NewmoneyAI
-  twitter: NewmoneyAI
 iphone:
   appId: com.newmoney.ai
   idd: '6745225114'
@@ -37,7 +37,6 @@ iphone:
   reviews: 8
   icon: com.newmoney.ai.jpg
   developerName: Newmoney AI Wallet
-  twitter: easycrypto
 
 ---
 

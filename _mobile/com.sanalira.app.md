@@ -7,6 +7,7 @@ date: 2024-02-05
 authors:
 - danny
 website: https://www.sanalira.com
+twitter: sanaliracom
 social:
 - https://www.facebook.com/sanaliracom
 - https://www.instagram.com/sanaliracom
@@ -23,7 +24,6 @@ android:
   version: 1.0.32
   icon: com.sanalira.app.png
   developerName: SANALİRA
-  twitter: sanaliracom
 iphone:
   appId: com.sanalira.app
   idd: '1607853983'

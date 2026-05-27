@@ -7,6 +7,7 @@ date: 2023-12-15
 authors:
 - danny
 website: https://www.choiceapp.io/
+twitter: choicebyKT
 social:
 - https://www.instagram.com/choiceapp.io
 - https://www.facebook.com/choicebykt
@@ -23,7 +24,6 @@ android:
   reviews: 30
   icon: com.holdings.choice.png
   developerName: Choice IRA
-  twitter: choicebyKT
 iphone:
   appId: com.holdings.choice
   idd: '1563472237'

@@ -5,6 +5,7 @@ date: 2023-01-31
 authors:
 - danny
 website: https://www.superex.com
+twitter: SuperExet
 social:
 - https://www.facebook.com/superexdex
 - https://www.youtube.com/@superexdex
@@ -21,7 +22,6 @@ android:
   icon: com.superex.ex.png
   verdict: custodial
   developerName: SUPEREX
-  twitter: SuperExet
 iphone:
   appId: com.superex.ex
   idd: '1601589888'

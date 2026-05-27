@@ -8,6 +8,7 @@ authors:
 - leo
 - danny
 website: http://keywallet.co.kr/en/
+twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx
 - https://www.facebook.com/quickxprotocol
@@ -37,7 +38,6 @@ iphone:
   reviews: 0
   icon: kr.co.keypair.keywalletTouchiOS.jpg
   developerName: Keypair
-  twitter: quickxprotocol
 
 ---
 

@@ -7,6 +7,7 @@ date: 2024-04-19
 authors:
 - danny
 website: https://bitturk.com
+twitter: bitturkcom
 social:
 - https://www.facebook.com/bitturkcom
 - https://www.instagram.com/bitturkcom
@@ -22,7 +23,6 @@ android:
   version: '1.21'
   icon: com.bitturkmobile.android.png
   developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
-  twitter: bitturkcom
 iphone:
   appId: bitturkmobile.ios
   idd: '1455361684'

@@ -7,6 +7,7 @@ date: 2023-12-19
 authors:
 - danny
 website: https://waves.exchange/investments
+twitter: WXNetwork
 social:
 - https://www.facebook.com/WavesExchange-110844914984722
 redirect_from:
@@ -21,7 +22,6 @@ android:
   reviews: 5
   icon: exchange.waves.invest.png
   developerName: WX Development LTD.
-  twitter: WXNetwork
 iphone:
   appId: exchange.waves.invest
   idd: '1582794195'

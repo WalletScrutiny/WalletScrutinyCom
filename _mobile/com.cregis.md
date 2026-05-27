@@ -5,6 +5,7 @@ date: 2025-11-10
 authors:
 - danny
 website: https://www.cregis.com
+twitter: 0xCregis
 redirect_from:
 - /android/com.cregis/
 - /iphone/com.cregis/
@@ -30,7 +31,6 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Cregis Technology Limited
-  twitter: 0xCregis
   wsId: cregisApp
 
 ---

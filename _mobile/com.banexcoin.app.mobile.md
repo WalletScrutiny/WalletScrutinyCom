@@ -5,6 +5,7 @@ date: 2023-08-04
 authors:
 - danny
 website: https://banexcoin.com
+twitter: banexcoin
 social:
 - https://www.linkedin.com/company/banexcoin/
 - https://www.instagram.com/banexcoin/
@@ -21,7 +22,6 @@ android:
   icon: com.banexcoin.app.mobile.png
   verdict: custodial
   developerName: Banexcoin
-  twitter: banexcoin
 iphone:
   appId: com.banexcoin.app.mobile
   idd: '1583296115'

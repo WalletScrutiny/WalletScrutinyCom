@@ -7,6 +7,7 @@ date: 2023-04-15
 authors:
 - danny
 website: https://woox.io/
+twitter: WOOnetwork
 social:
 - https://www.facebook.com/WOOnetwork.official
 - https://www.linkedin.com/company/woonetwork/
@@ -22,7 +23,6 @@ android:
   reviews: 10
   icon: network.woo.mobile.png
   developerName: WOOTECH Limited
-  twitter: WOOnetwork
 iphone:
   appId: network.woo.mobile
   idd: '1576648404'

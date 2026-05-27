@@ -7,6 +7,7 @@ date: 2025-02-26
 authors:
 - danny
 website: http://www.biteeu.com
+twitter: BiteeuExchange
 social:
 - https://www.linkedin.com/company/biteeu
 - https://www.instagram.com/biteeu_exchange
@@ -23,7 +24,6 @@ android:
   icon: com.bit.eu.png
   meta: obsolete
   developerName: INTEBIX LTD
-  twitter: BiteeuExchange
 iphone:
   appId: com.idea-soft.biteeu
   idd: '1472991783'

@@ -7,6 +7,7 @@ date: 2023-06-14
 authors:
 - danny
 website: https://www.oobit.com/
+twitter: oobit
 social:
 - https://t.me/OObit
 - https://www.instagram.com/oobit_official
@@ -23,7 +24,6 @@ android:
   reviews: 39
   icon: com.oobit.png
   developerName: Oobit Technologies
-  twitter: oobit
 iphone:
   appId: com.oobit
   idd: '1598882898'

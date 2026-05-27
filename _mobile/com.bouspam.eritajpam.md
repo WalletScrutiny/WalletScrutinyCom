@@ -7,6 +7,7 @@ date: 2023-09-04
 authors:
 - danny
 website: https://bousechanj.com/
+twitter: eritajpam
 redirect_from:
 - /android/com.bouspam.eritajpam/
 - /iphone/com.bouspam.eritajpam/
@@ -20,7 +21,6 @@ android:
   icon: com.bouspam.eritajpam.png
   meta: ok
   developerName: Ezechias Caillot
-  twitter: eritajpam
 iphone:
   appId: com.bouspam.eritajpam
   idd: '1613922315'

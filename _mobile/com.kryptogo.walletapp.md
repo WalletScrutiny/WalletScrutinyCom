@@ -7,6 +7,7 @@ date: 2023-04-28
 authors:
 - danny
 website: https://kryptogo.com
+twitter: kryptogo_
 social:
 - https://www.facebook.com/kryptogo
 - https://www.linkedin.com/company/kryptogo/
@@ -25,7 +26,6 @@ android:
   reviews: 3
   icon: com.kryptogo.walletapp.png
   developerName: KryptoGO
-  twitter: kryptogo_
 iphone:
   appId: com.kryptogo.walletapp
   idd: '1593830910'

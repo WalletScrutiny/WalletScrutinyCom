@@ -5,6 +5,7 @@ date: 2024-10-07
 authors:
 - danny
 website: https://www.novadax.com
+twitter: Nova_DAXglobal
 social:
 - https://www.linkedin.com/company/novadax-do-brasil
 - https://www.facebook.com/novadaxglobal
@@ -21,7 +22,6 @@ android:
   icon: com.nova.dax.png
   verdict: custodial
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
-  twitter: Nova_DAXglobal
 iphone:
   appId: com.nova.dax
   idd: 1472203612
