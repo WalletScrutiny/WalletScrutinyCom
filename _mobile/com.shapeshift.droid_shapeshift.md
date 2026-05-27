@@ -7,6 +7,7 @@ authors:
 - leo
 - danny
 website: https://ShapeShift.com
+twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 - https://www.instagram.com/shapeshift_io
@@ -33,7 +34,6 @@ android:
   verdict: sourceavailable
   developerName: ShapeShift.com
   repository: https://github.com/shapeshift/mobile-app
-  twitter: ShapeShift
 iphone:
   appId: com.shapeShift.shapeShift
   idd: 996569075
@@ -44,7 +44,6 @@ iphone:
   icon: com.shapeShift.shapeShift.jpg
   verdict: nosource
   developerName: ShapeShift AG
-  twitter: ShapeShift_io
 
 ---
 

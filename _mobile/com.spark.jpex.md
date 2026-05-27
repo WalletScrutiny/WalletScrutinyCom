@@ -7,6 +7,7 @@ date: 2024-04-03
 authors:
 - danny
 website: http://jp-ex.io
+twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 appCountry: jp
@@ -21,7 +22,6 @@ android:
   version: 2.83.848
   icon: com.spark.jpex.jpg
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
-  twitter: ExchangeJpex
 iphone:
   appId: io.jp-ex.iosapp2
   idd: 1559708728

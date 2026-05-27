@@ -9,6 +9,7 @@ authors:
 - mohammad
 - keraliss
 website: https://muun.com
+twitter: MuunWallet
 features:
 - ln
 - multiSig
@@ -34,7 +35,6 @@ android:
   - arch: armeabi-v7a
   developerName: muun
   repository: https://github.com/muun/apollo
-  twitter: MuunWallet
 iphone:
   appId: com.muun.falcon
   idd: 1482037683
@@ -45,7 +45,6 @@ iphone:
   icon: com.muun.falcon.jpg
   developerName: Muun Wallet, Inc
   repository: https://github.com/muun/falcon
-  twitter: muunwallet
 
 ---
 

@@ -7,6 +7,7 @@ date: 2023-05-10
 authors:
 - danny
 website: http://www.bankowallet.com
+twitter: BankoWallet1
 social:
 - mailto:support@bankowallet.com
 - mailto:bankosup@gmail.com
@@ -23,7 +24,6 @@ android:
   version: 1.3.17851
   icon: app.bankowallet.android.png
   developerName: BITROCK
-  twitter: BankoWallet1
 iphone:
   appId: app.banko.ios
   idd: '1441243164'

@@ -5,6 +5,7 @@ date: 2021-08-21
 authors:
 - danny
 website: https://kripto.btcturk.com
+twitter: btcturkpro
 social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
@@ -23,7 +24,6 @@ android:
   verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
   bugbounty: https://pro.btcturk.com/en/bug-bounty
-  twitter: btcturkpro
 iphone:
   appId: com.btcturk.pro
   idd: 1471639720

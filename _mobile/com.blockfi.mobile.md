@@ -5,6 +5,7 @@ date: 2023-12-19
 authors:
 - danny
 website: https://blockfi.com/
+twitter: BlockFi
 social:
 - https://www.linkedin.com/company/blockfi
 - https://www.facebook.com/BlockFi
@@ -22,7 +23,6 @@ android:
   icon: com.blockfi.mobile.png
   verdict: custodial
   developerName: BlockFi
-  twitter: BlockFi
 iphone:
   appId: com.blockfi.mobile
   idd: 1506274532

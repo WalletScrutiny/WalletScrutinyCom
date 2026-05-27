@@ -7,6 +7,7 @@ date: 2022-04-07
 authors:
 - leo
 website: https://flarewallet.io
+twitter: flarewallet
 social:
 - https://www.facebook.com/FlareWallet
 redirect_from:
@@ -23,7 +24,6 @@ android:
   reviews: 43
   icon: com.flare.png
   developerName: flarewallet.io
-  twitter: flarewallet
 iphone:
   appId: org.flarewallet.flare
   idd: 1496651406

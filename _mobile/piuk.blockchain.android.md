@@ -8,6 +8,7 @@ authors:
 - leo
 - danny
 website: https://www.blockchain.com
+twitter: blockchain
 social:
 - https://www.linkedin.com/company/blockchain
 - https://www.facebook.com/blockchain
@@ -35,7 +36,6 @@ android:
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   developerName: Blockchain.com
   bugbounty: https://hackerone.com/blockchain
-  twitter: blockchain
 iphone:
   appId: com.rainydayapps.Blockchain
   idd: 493253309
@@ -46,7 +46,6 @@ iphone:
   icon: com.rainydayapps.Blockchain.jpg
   developerName: Blockchain
   repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
-  twitter: Blockchain
 
 ---
 

@@ -7,6 +7,7 @@ date: 2024-11-28
 authors:
 - danny
 website: https://gleecbtc.com/
+twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial
 - https://t.me/officialgleecoin
@@ -31,7 +32,6 @@ iphone:
   reviews: 0
   icon: dev.com.gleecexchange.app.jpg
   developerName: Gleec-BTC OU
-  twitter: GleecOfficial
 
 ---
 

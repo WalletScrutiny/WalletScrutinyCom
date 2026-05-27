@@ -6,6 +6,7 @@ meta: removed
 date: 2026-02-02
 authors:
 - danny
+twitter: qoinpay
 social:
 - https://qoinpay.id#deadLink
 - https://www.facebook.com/qoinpay.id
@@ -23,7 +24,6 @@ android:
   version: 1.4.31
   icon: id.qoin.crypto.png
   developerName: PT. Loyalty Program Indonesia
-  twitter: qoinpay
 iphone:
   appId: id.qoin.crypto
   idd: '1629785857'

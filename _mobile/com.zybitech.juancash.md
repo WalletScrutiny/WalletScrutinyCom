@@ -7,6 +7,7 @@ date: 2025-08-01
 authors:
 - danny
 website: https://www.juancash.com/
+twitter: JuanCashPH
 social:
 - https://www.linkedin.com/company/juancash/
 - https://www.instagram.com/juancashofficial
@@ -25,7 +26,6 @@ android:
   icon: com.zybitech.juancash.png
   meta: stale
   developerName: Zybi Tech Inc
-  twitter: JuanCashPH
 iphone:
   appId: com.zybitechinc.juanworld
   idd: '1458711891'

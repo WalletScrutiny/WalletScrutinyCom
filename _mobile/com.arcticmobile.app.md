@@ -7,6 +7,7 @@ date: 2025-07-14
 authors:
 - danny
 website: https://arcticwallet.io
+twitter: arctic_wallet
 social:
 - https://t.me/arctic_official_chat
 - https://www.linkedin.com/company/arctic-wallet
@@ -26,7 +27,6 @@ android:
   icon: com.arcticmobile.app.png
   meta: stale
   developerName: ARCTIC SOFTWARE OÜ
-  twitter: arctic_wallet
 iphone:
   appId: com.arcticmobile.app
   idd: '1658699963'

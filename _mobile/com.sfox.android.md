@@ -6,6 +6,7 @@ date: 2025-02-28
 authors:
 - danny
 website: https://www.sfox.com/
+twitter: SFox
 social:
 - https://www.facebook.com/sfoxtrading
 - https://www.linkedin.com/company/sfox
@@ -23,7 +24,6 @@ android:
   icon: com.sfox.android.png
   meta: removed
   developerName: SFOX Inc.
-  twitter: SFox
 iphone:
   appId: com.sfox.ios
   idd: '1583801613'

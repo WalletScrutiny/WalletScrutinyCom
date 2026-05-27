@@ -7,6 +7,7 @@ date: 2023-11-17
 authors:
 - danny
 website: http://www.union.cash/
+twitter: unioncash_eu
 redirect_from:
 - /android/com.union.cash/
 - /iphone/com.union.cash/
@@ -20,7 +21,6 @@ android:
   icon: com.union.cash.png
   meta: ok
   developerName: Union Cash
-  twitter: unioncash_eu
 iphone:
   appId: com.union.cash
   idd: '1576165600'

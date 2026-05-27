@@ -10,6 +10,7 @@ authors:
 - emanuel
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
+twitter: rsksmart
 social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock
@@ -34,7 +35,6 @@ iphone:
   reviews: 5
   icon: com.rsk.rwallet.reactnative.jpg
   developerName: IOV Labs S.A
-  twitter: rsksmart
 
 ---
 

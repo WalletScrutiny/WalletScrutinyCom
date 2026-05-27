@@ -6,6 +6,7 @@ date: 2024-06-12
 authors:
 - danny
 website: https://gemwallet.com
+twitter: gemwallet
 social:
 - https://github.com/gemwalletcom
 - https://www.reddit.com/r/gemwallet_official
@@ -34,7 +35,6 @@ android:
   verdict: sourceavailable
   developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/wallet
-  twitter: gemwallet
 iphone:
   appId: com.gemwallet.ios
   idd: '6448712670'
@@ -47,7 +47,6 @@ iphone:
   verdict: wip
   developerName: Gem Wallet LLC
   repository: https://github.com/gemwalletcom/gem-android
-  twitter: GemWalletApp
 
 ---
 

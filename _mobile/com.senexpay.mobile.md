@@ -7,6 +7,7 @@ date: 2023-09-07
 authors:
 - danny
 website: https://senexpay.com
+twitter: senexpay
 social:
 - https://www.linkedin.com/company/senexpay
 - https://www.facebook.com/senexpay
@@ -23,7 +24,6 @@ android:
   icon: com.senexpay.mobile.png
   meta: ok
   developerName: Senex Payment Services Limited
-  twitter: senexpay
 iphone:
   appId: com.senexpay.mobile
   idd: '1627864145'

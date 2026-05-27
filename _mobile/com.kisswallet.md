@@ -5,6 +5,7 @@ date: 2022-05-22
 authors:
 - leo
 website: https://www.moonshinewallet.com#deadLink
+twitter: coreylphillips
 redirect_from:
 - /com.kisswallet/
 - /moonshine/
@@ -21,7 +22,6 @@ android:
   meta: removed
   developerName: Ferryman Fin LLC
   repository: https://github.com/coreyphillips/moonshine
-  twitter: coreylphillips
 iphone:
   appId: com.kisswallet
   idd: 1449385577
