@@ -1,7 +1,6 @@
 ---
 wsId: TitanCoin
 title: TitanCoin (TTN)
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 6
   icon: com.titan.coin.png
   meta: removed
+  verdict: custodial
   developerName: TitanProjects
 iphone:
   appId: com.coin.titan
@@ -33,6 +33,7 @@ iphone:
   reviews: 3
   icon: com.coin.titan.jpg
   meta: removed
+  verdict: custodial
   developerName: Enfetter Technologies Services Private Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BTW
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/xbtt.bwpp/
@@ -12,6 +11,7 @@ android:
   version: '3'
   icon: xbtt.bwpp.jpg
   meta: removed
+  verdict: wip
 
 ---
 

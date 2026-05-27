@@ -1,6 +1,5 @@
 ---
 title: IFCL Business Cypto App
-verdict: wip
 date: 2024-08-13
 website: https://www.ifclbusinesscryptoapp.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.imanifamilycapitallimited.png
   meta: removed
+  verdict: wip
   developerName: Imani Family Capital Limited
 
 ---

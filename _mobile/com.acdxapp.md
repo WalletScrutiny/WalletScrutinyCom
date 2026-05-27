@@ -1,6 +1,5 @@
 ---
 title: ACDX App
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.acdxapp/
@@ -11,6 +10,7 @@ android:
   version: 1.0.5
   icon: com.acdxapp.png
   meta: removed
+  verdict: wip
   developerName: ACDX Team
 
 ---

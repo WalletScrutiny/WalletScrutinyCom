@@ -1,6 +1,5 @@
 ---
 title: Bitmove
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.bitmove/
@@ -12,6 +11,7 @@ android:
   version: '1'
   icon: com.bitmove.png
   meta: removed
+  verdict: wip
   developerName: Bitmove Team
 
 ---

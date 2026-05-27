@@ -1,6 +1,5 @@
 ---
 title: Investments - Capital·com
-verdict: nosendreceive
 date: 2024-02-22
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 7
   icon: com.capital.etf.trade.png
   meta: ok
+  verdict: nosendreceive
   developerName: Capital Com (UK) Limited
 
 ---

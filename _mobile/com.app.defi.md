@@ -1,6 +1,5 @@
 ---
 title: LATOKEN DeFi Crypto Wallet
-verdict: nosource
 date: 2024-09-16
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 29
   icon: com.app.defi.png
   meta: removed
+  verdict: nosource
   developerName: LATOKEN
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: ZelCore
 title: Zelcore - Crypto Wallet
-verdict: nosource
 date: 2021-10-01
 authors:
 - leo
@@ -29,6 +28,7 @@ android:
   reviews: 140
   icon: com.zelcash.zelcore.png
   meta: ok
+  verdict: nosource
   developerName: Influx Technologies Limited
 iphone:
   appId: com.zelcash.zelcore
@@ -39,6 +39,7 @@ iphone:
   reviews: 23
   icon: com.zelcash.zelcore.jpg
   meta: ok
+  verdict: nosource
   developerName: Influx Technologies Limited
 
 ---

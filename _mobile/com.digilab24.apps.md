@@ -1,7 +1,6 @@
 ---
 wsId: cpass
 title: CPASS
-verdict: custodial
 date: 2023-09-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.9.18
   icon: com.digilab24.apps.png
   meta: removed
+  verdict: custodial
   developerName: C PASS
 iphone:
   appId: com.digilab24.apps
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.digilab24.apps.jpg
   meta: removed
+  verdict: custodial
   developerName: C PASS Inc.
 
 ---

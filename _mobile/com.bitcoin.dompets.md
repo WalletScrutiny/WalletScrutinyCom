@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet Bahasa Malaysia
-verdict: wip
 date: 2021-12-05
 redirect_from:
 - /android/com.bitcoin.dompets/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: com.bitcoin.dompets.png
   meta: removed
+  verdict: wip
 
 ---
 

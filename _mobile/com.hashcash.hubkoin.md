@@ -1,6 +1,5 @@
 ---
 title: Hubkoin
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.hashcash.hubkoin/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.hashcash.hubkoin.png
   meta: removed
+  verdict: wip
   developerName: Hubkoin
 
 ---

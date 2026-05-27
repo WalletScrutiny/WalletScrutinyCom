@@ -1,6 +1,5 @@
 ---
 title: Omenda
-verdict: wip
 date: 2024-04-19
 website: https://omenda.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.0.2
   icon: com.omenda.binary.png
   meta: removed
+  verdict: wip
   developerName: Omenda
 
 ---

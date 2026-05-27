@@ -1,6 +1,5 @@
 ---
 title: Joinin.vip
-verdict: wip
 date: 2024-04-19
 website: https://joinin.vip#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4.2'
   icon: com.yyjonin.test_joinin.png
   meta: removed
+  verdict: wip
   developerName: Joinin.vip
 
 ---

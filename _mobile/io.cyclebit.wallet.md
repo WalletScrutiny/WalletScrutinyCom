@@ -1,6 +1,5 @@
 ---
 title: Cycle Wallet
-verdict: wip
 date: 2023-11-02
 website: http://cyclebit.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.0
   icon: io.cyclebit.wallet.png
   meta: removed
+  verdict: wip
   developerName: ISS Technologies
 
 ---

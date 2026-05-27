@@ -1,7 +1,6 @@
 ---
 wsId: coinWebApp
 title: Coinweb Wallet
-verdict: nosource
 date: 2024-04-10
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 4
   icon: com.coinwebapp.png
   meta: ok
+  verdict: nosource
   developerName: Coinweb
 iphone:
   appId: io.coinweb.wallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 4
   icon: io.coinweb.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Coinweb
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 24litecoin
-verdict: wip
 date: 2024-04-03
 website: https://24litecoin.co.ua#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.greepers.litecoin.jpg
   meta: removed
+  verdict: wip
   developerName: 24litecoin
 
 ---

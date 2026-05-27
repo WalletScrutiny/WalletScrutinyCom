@@ -1,6 +1,5 @@
 ---
 title: Emet Exchange
-verdict: wip
 date: 2023-09-28
 redirect_from:
 - /android/com.hashcash.emetexchange/
@@ -12,6 +11,7 @@ android:
   version: 1.0.8
   icon: com.hashcash.emetexchange.png
   meta: removed
+  verdict: wip
   developerName: GPOINT
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Kozjin
-verdict: wip
 date: 2023-12-19
 website: https://www.kozjin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.3.2
   icon: io.kozjin.wallet.png
   meta: removed
+  verdict: wip
   developerName: Kozjin International Pte. Ltd.
 
 ---

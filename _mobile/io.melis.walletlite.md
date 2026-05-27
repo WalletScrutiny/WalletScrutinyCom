@@ -1,6 +1,5 @@
 ---
 title: Melis Lite
-verdict: wip
 date: 2023-12-19
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 0.4.0
   icon: io.melis.walletlite.png
   meta: removed
+  verdict: wip
   developerName: Melis
 
 ---

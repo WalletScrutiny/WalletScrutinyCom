@@ -1,6 +1,5 @@
 ---
 title: Bitcoiner Asia
-verdict: wip
 date: 2026-03-18
 website: http://bitcoiner.asia
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.18
   icon: com.bitcoinerasia.png
   meta: removed
+  verdict: wip
   developerName: FIRD0US & FREED0M.1
 
 ---

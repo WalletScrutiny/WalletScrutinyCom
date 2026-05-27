@@ -1,6 +1,5 @@
 ---
 title: IXX-Buy & sell Bitcoin and other cryptocurrencies
-verdict: wip
 date: 2021-09-28
 redirect_from:
 - /android/com.ixx_android/
@@ -13,6 +12,7 @@ android:
   reviews: 83
   icon: com.ixx_android.png
   meta: removed
+  verdict: wip
 
 ---
 

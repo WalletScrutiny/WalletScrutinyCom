@@ -1,6 +1,5 @@
 ---
 title: AESDeposit
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.aes.aesexchange/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.aes.aesexchange.jpg
   meta: removed
+  verdict: wip
   developerName: AES Signatum
 
 ---

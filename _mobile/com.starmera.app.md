@@ -1,6 +1,5 @@
 ---
 title: Starmera - Naira & Bitcoin App
-verdict: wip
 date: 2023-08-04
 website: https://starmera.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: com.starmera.app.png
   meta: removed
+  verdict: wip
   developerName: Starmera
 
 ---

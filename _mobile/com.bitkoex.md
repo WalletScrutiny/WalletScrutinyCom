@@ -1,6 +1,5 @@
 ---
 title: Bitkoex
-verdict: wip
 date: 2024-11-12
 website: https://www.bitkoex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.19'
   icon: com.bitkoex.png
   meta: removed
+  verdict: wip
   developerName: GNDPLUS BITKOEX
 
 ---

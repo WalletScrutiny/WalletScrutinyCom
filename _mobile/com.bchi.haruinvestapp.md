@@ -1,7 +1,6 @@
 ---
 wsId: HaruInvest
 title: Earn Crypto with Haru Invest
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 51
   icon: com.bchi.haruinvestapp.png
   meta: removed
+  verdict: custodial
   developerName: Haru Invest
 iphone:
   appId: com.bchi.haruinvestapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 203
   icon: com.bchi.haruinvestapp.jpg
   meta: removed
+  verdict: custodial
   developerName: BCHI Limited
 
 ---

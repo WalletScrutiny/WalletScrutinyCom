@@ -1,6 +1,5 @@
 ---
 title: FlashX
-verdict: wip
 date: 2024-02-05
 website: https://flashxchanger.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.5
   icon: com.flashxchanger.app.png
   meta: removed
+  verdict: wip
   developerName: Sapian Group LTD
 
 ---

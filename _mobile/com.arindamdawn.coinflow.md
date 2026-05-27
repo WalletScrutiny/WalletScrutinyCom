@@ -1,6 +1,5 @@
 ---
 title: Coinflow - Exchange Bitcoin and Altcoins instantly
-verdict: wip
 date: 2021-10-30
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   version: 1.0.1
   icon: com.arindamdawn.coinflow.png
   meta: removed
+  verdict: wip
 
 ---
 

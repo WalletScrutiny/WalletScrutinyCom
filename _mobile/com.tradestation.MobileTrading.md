@@ -1,7 +1,6 @@
 ---
 wsId: TradeStation
 title: 'TradeStation: Trade & Invest'
-verdict: custodial
 date: 2021-10-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2061
   icon: com.tradestation.MobileTrading.png
   meta: ok
+  verdict: custodial
   developerName: TradeStation Technologies
 iphone:
   appId: com.tradestation.MobileTrading
@@ -32,6 +32,7 @@ iphone:
   reviews: 18355
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
+  verdict: custodial
   developerName: TradeStation Technologies
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BiHODL
-verdict: wip
 date: 2023-08-04
 website: https://bihodl.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.8.0
   icon: com.bihodl.png
   meta: removed
+  verdict: wip
   developerName: Ockchain, Inc.
 
 ---

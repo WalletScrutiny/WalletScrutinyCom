@@ -1,6 +1,5 @@
 ---
 title: Census Wallet
-verdict: wip
 date: 2024-04-19
 website: https://www.census.cx#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.10
   icon: com.census.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Census Card
 
 ---

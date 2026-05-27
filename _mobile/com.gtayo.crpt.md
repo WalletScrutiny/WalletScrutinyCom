@@ -1,6 +1,5 @@
 ---
 title: Gate io exchange crypto
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.gtayo.crpt/
@@ -11,6 +10,7 @@ android:
   version: '0.2'
   icon: com.gtayo.crpt.jpg
   meta: removed
+  verdict: wip
 
 ---
 

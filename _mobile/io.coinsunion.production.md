@@ -1,6 +1,5 @@
 ---
 title: Coins Union
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/io.coinsunion.production/
@@ -12,6 +11,7 @@ android:
   version: 1.4.4
   icon: io.coinsunion.production.png
   meta: removed
+  verdict: wip
   developerName: Coins Union
 
 ---

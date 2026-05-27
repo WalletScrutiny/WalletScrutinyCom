@@ -1,6 +1,5 @@
 ---
 title: Volum - Bitcoin Wallet
-verdict: wip
 date: 2023-05-17
 redirect_from:
 - /android/volum.aplihqm/
@@ -12,6 +11,7 @@ android:
   version: '9.8'
   icon: volum.aplihqm.png
   meta: removed
+  verdict: wip
   developerName: Eipol ST
 
 ---

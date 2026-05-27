@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet
-verdict: wip
 date: 2023-01-02
 website: https://bitcoin.flarfly.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1
   icon: app.bitcoin.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

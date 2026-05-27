@@ -1,6 +1,5 @@
 ---
 title: B4U Financial
-verdict: wip
 date: 2024-07-05
 website: https://b4ufinancial.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: com.b4ufinancial.app.png
   meta: removed
+  verdict: wip
   developerName: Bitload4u
 
 ---

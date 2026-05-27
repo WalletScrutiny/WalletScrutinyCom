@@ -33,7 +33,6 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: ShapeShift.com
-  repository: https://github.com/shapeshift/mobile-app
 iphone:
   appId: com.shapeShift.shapeShift
   idd: 996569075

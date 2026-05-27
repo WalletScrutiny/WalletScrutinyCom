@@ -1,6 +1,5 @@
 ---
 title: 'Kryto: Buy BTC, ETH & Crypto'
-verdict: wip
 date: 2025-11-10
 website: https://vkode-dev.github.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: tech.vkode.kryto.png
   meta: fewusers
+  verdict: wip
   developerName: VKode
 
 ---

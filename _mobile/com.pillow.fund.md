@@ -1,7 +1,6 @@
 ---
 wsId: pillowFund
 title: 'Pillow: Save. Invest. Earn.'
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 68
   icon: com.pillow.fund.png
   meta: removed
+  verdict: custodial
   developerName: Pillow Fund
 iphone:
   appId: com.pillow.fund
@@ -32,6 +32,7 @@ iphone:
   reviews: 61
   icon: com.pillow.fund.jpg
   meta: removed
+  verdict: custodial
   developerName: Pillow Digital Technologies Pte Ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: balletcrypto
 title: Ballet Crypto
-verdict: nosource
 date: 2021-03-11
 website: https://www.ballet.com/
 twitter: BalletCrypto
@@ -21,6 +20,7 @@ android:
   reviews: 168
   icon: com.balletcrypto.png
   meta: ok
+  verdict: nosource
   developerName: Ballet Global Inc.
 iphone:
   appId: com.balletcrypto
@@ -31,6 +31,7 @@ iphone:
   reviews: 1523
   icon: com.balletcrypto.jpg
   meta: ok
+  verdict: nosource
   developerName: BALLET GLOBAL INC.
 
 ---

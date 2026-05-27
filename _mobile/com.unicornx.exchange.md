@@ -1,6 +1,5 @@
 ---
 title: UnicornX Exchange - Digital Assets Trading
-verdict: wip
 date: 2023-01-02
 website: https://www.unicornx.exchange/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.2
   icon: com.unicornx.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

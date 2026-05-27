@@ -1,6 +1,5 @@
 ---
 title: Buy Crypto With Bank Account
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptojournal.buy.crypto.with.bank.account/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptojournal.buy.crypto.with.bank.account.png
   meta: removed
+  verdict: wip
 
 ---
 

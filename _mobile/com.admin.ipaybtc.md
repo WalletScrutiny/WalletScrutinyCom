@@ -1,6 +1,5 @@
 ---
 title: IpayBTC
-verdict: wip
 date: 2026-04-28
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   reviews: 8
   icon: com.admin.ipaybtc.jpg
   meta: removed
+  verdict: wip
   developerName: ipayBTC Technologies Inc
 
 ---

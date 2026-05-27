@@ -1,7 +1,6 @@
 ---
 wsId: coinspaidWallet
 title: Coinspaid Wallet
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 2
   icon: com.coinspaid.wallet.png
   meta: removed
+  verdict: custodial
   developerName: CoinsPaid
 iphone:
   appId: com.coinspaid.wallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.coinspaid.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinsPaid
 
 ---

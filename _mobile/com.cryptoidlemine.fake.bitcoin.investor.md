@@ -1,6 +1,5 @@
 ---
 title: Fake Bitcoin Investor
-verdict: wip
 date: 2021-09-18
 redirect_from:
 - /android/com.cryptoidlemine.fake.bitcoin.investor/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptoidlemine.fake.bitcoin.investor.png
   meta: removed
+  verdict: wip
 
 ---
 

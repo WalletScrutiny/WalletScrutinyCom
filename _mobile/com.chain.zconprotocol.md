@@ -1,6 +1,5 @@
 ---
 title: BISKIT Wallet
-verdict: custodial
 date: 2025-05-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 5
   icon: com.chain.zconprotocol.png
   meta: removed
+  verdict: custodial
   developerName: KCNET CO.,LTD
 
 ---

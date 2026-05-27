@@ -1,7 +1,6 @@
 ---
 wsId: bybitCashWallet
 title: Bitcash Сrypto Bitcoin Wallet
-verdict: custodial
 date: 2025-11-11
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.1.1
   icon: by.bitcash.wallet.png
   meta: ok
+  verdict: custodial
   developerName: LLC BITCASH
 iphone:
   appId: by.bitcash.cryptowallet
@@ -27,6 +27,7 @@ iphone:
   reviews: 19
   icon: by.bitcash.cryptowallet.jpg
   meta: ok
+  verdict: custodial
   developerName: BITCASH Inc.
 
 ---

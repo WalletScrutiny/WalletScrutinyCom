@@ -1,6 +1,5 @@
 ---
 title: DigieBot
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/androidapp.digiebot.vizzweb.android.digiebot/
@@ -12,6 +11,7 @@ android:
   version: '1.24'
   icon: androidapp.digiebot.vizzweb.android.digiebot.png
   meta: removed
+  verdict: wip
   developerName: Mudasser Abbas
 
 ---

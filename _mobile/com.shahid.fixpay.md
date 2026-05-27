@@ -1,6 +1,5 @@
 ---
 title: BCash Wallet
-verdict: wip
 date: 2023-09-15
 website: https://ringme.us/Privacy-Policy.html
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.shahid.fixpay.png
   meta: removed
+  verdict: wip
   developerName: RingMe Trading
 
 ---

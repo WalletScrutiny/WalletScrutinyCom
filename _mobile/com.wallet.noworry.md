@@ -1,6 +1,5 @@
 ---
 title: 'nowory: Buy Bitcoin With 0 Fee'
-verdict: custodial
 date: 2026-01-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 5.8.23
   icon: com.wallet.noworry.png
   meta: ok
+  verdict: custodial
   developerName: Nowory Labs
 
 ---

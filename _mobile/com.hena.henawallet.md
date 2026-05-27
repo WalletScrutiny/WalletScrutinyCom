@@ -1,6 +1,5 @@
 ---
 title: HENA WALLET
-verdict: wip
 date: 2024-09-03
 website: http://www.hena.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 14
   icon: com.hena.henawallet.png
   meta: removed
+  verdict: wip
   developerName: 해나플랫폼
 
 ---

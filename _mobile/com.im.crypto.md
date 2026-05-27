@@ -1,6 +1,5 @@
 ---
 title: IM - Crypto Exchange
-verdict: wip
 date: 2024-02-05
 website: https://aneep.tech/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.im.crypto.png
   meta: removed
+  verdict: wip
   developerName: IM - Crypto Trading
 
 ---

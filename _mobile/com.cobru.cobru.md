@@ -1,7 +1,6 @@
 ---
 wsId: cobru
 title: Cobru
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 4.0.99
   icon: com.cobru.cobru.png
   meta: removed
+  verdict: custodial
   developerName: Cobru SAS
 iphone:
   appId: com.cobru.cobru
@@ -32,6 +32,7 @@ iphone:
   reviews: 2
   icon: com.cobru.cobru.jpg
   meta: ok
+  verdict: custodial
   developerName: Cobru S.A.S.
 
 ---

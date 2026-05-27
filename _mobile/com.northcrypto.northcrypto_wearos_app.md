@@ -1,6 +1,5 @@
 ---
 title: Northcrypto WearOs
-verdict: wip
 date: 2023-01-02
 website: https://www.northcrypto.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.northcrypto.northcrypto_wearos_app.png
   meta: removed
+  verdict: wip
 
 ---
 

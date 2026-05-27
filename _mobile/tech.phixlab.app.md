@@ -1,6 +1,5 @@
 ---
 title: FargoMine
-verdict: wip
 date: 2024-04-19
 website: https://fargomine.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: tech.phixlab.app.png
   meta: removed
+  verdict: wip
   developerName: Ijezie Emmanuel
 
 ---

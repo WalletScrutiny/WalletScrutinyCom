@@ -1,6 +1,5 @@
 ---
 title: BitPay Checkout
-verdict: wip
 date: 2021-10-06
 redirect_from:
 - /android/com.bitpay.checkout/
@@ -13,6 +12,7 @@ android:
   reviews: 135
   icon: com.bitpay.checkout.png
   meta: removed
+  verdict: wip
 
 ---
 

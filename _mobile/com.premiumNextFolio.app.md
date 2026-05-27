@@ -1,6 +1,5 @@
 ---
 title: NexFolio
-verdict: wip
 date: 2023-04-16
 website: http://www.n2blockchain.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.premiumNextFolio.app.png
   meta: removed
+  verdict: wip
   developerName: Nextazy Solutions Pvt Ltd
 
 ---

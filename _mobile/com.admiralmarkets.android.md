@@ -1,7 +1,6 @@
 ---
 wsId: AdmiralMarkets
 title: Admirals・Stocks trading
-verdict: nosendreceive
 date: 2021-10-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.admiralmarkets.android.png
   meta: ok
+  verdict: nosendreceive
   developerName: Admiral Markets
 iphone:
   appId: com.admiralmarkets.tradersroom
@@ -34,6 +34,7 @@ iphone:
   reviews: 3
   icon: com.admiralmarkets.tradersroom.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Admiral Markets AS
 
 ---

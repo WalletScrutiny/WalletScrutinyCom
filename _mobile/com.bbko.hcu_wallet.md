@@ -1,6 +1,5 @@
 ---
 title: 'HCU Wallet : 헬스체이너스 지갑'
-verdict: wip
 date: 2023-01-02
 website: https://healthchainus.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.9'
   icon: com.bbko.hcu_wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

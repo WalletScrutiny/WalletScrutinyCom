@@ -1,6 +1,5 @@
 ---
 title: AT.Wallet
-verdict: wip
 date: 2025-09-17
 website: https://www.authentrend.com/contact
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v2.0.12
   icon: com.authentrend.atwallet.png
   meta: obsolete
+  verdict: wip
   developerName: AuthenTrend Technology Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Obolon9
-verdict: wip
 date: 2024-03-02
 website: http://obolon9.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.2
   icon: com.obolon9_mobile.jpg
   meta: removed
+  verdict: wip
   developerName: Obolon 9
 
 ---

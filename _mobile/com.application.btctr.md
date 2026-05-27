@@ -1,6 +1,5 @@
 ---
 title: BTC Bank
-verdict: wip
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.3
   icon: com.application.btctr.png
   meta: removed
+  verdict: wip
   developerName: Btchange Journal
 
 ---

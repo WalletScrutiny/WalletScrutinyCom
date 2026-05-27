@@ -1,6 +1,5 @@
 ---
 title: Now in Crypto
-verdict: wip
 date: 2024-04-26
 website: https://coinhub8899.web.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.blockchain.nft.explore.png
   meta: removed
+  verdict: wip
   developerName: InvoVN Solutions
 
 ---

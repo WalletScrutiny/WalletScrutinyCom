@@ -1,7 +1,6 @@
 ---
 wsId: eidooApp
 title: Eidoo
-verdict: nosource
 date: 2024-04-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 5
   icon: io.eidoo.android.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Eidoo Tech
 iphone:
   appId: io.eidoo.ios.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 22
   icon: io.eidoo.ios.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Eidoo Tech LTD
 
 ---

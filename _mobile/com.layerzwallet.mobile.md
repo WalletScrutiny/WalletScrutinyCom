@@ -1,6 +1,5 @@
 ---
 title: Layerz Wallet
-verdict: wip
 date: 2026-01-14
 website: https://layerzwallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.5.4
   icon: com.layerzwallet.mobile.jpg
   meta: fewusers
+  verdict: wip
   developerName: Layerz Tec Ltd
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bintin
-verdict: wip
 date: 2024-04-03
 website: https://bintin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: io.bintin.app.jpg
   meta: removed
+  verdict: wip
   developerName: Bitledger solutions Ltd
 
 ---

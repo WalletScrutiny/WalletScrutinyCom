@@ -1,7 +1,6 @@
 ---
 wsId: SkyeWallet
 title: 'Skye Wallet: Buy Bitcoin Fast'
-verdict: custodial
 date: 2024-04-25
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 22
   icon: com.skyewallet.skye_wallet.png
   meta: ok
+  verdict: custodial
   developerName: Skye Innovation Technology
 iphone:
   appId: com.skyewallet.app
@@ -30,6 +30,7 @@ iphone:
   reviews: 39
   icon: com.skyewallet.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Skye Innovation Technology Limited
 
 ---

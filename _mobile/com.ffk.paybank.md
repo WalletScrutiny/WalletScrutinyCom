@@ -1,6 +1,5 @@
 ---
 title: PayBank
-verdict: custodial
 date: 2023-11-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.6.6
   icon: com.ffk.paybank.png
   meta: removed
+  verdict: custodial
   developerName: UAB Livil Pay
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Erichsaigon
-verdict: wip
 date: 2023-11-02
 website: https://www.erichsaigon.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.erichsaigon.jpg
   meta: removed
+  verdict: wip
   developerName: Erich Saigon Trading LLc
 
 ---

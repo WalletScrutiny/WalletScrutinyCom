@@ -1,6 +1,5 @@
 ---
 title: ecxx.com - World's Leading Digital Asset Exchange
-verdict: wip
 date: 2023-01-02
 website: https://www.ecxx.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 4.3.1
   icon: com.ecxx.png
   meta: removed
+  verdict: wip
 
 ---
 

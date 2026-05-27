@@ -1,6 +1,5 @@
 ---
 title: BitcoinPOS - cash register
-verdict: wip
 date: 2026-01-14
 website: https://bitcoinpos.americanposllc.com/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 0
   icon: cz.americanPos.bitcoinPOSThree.jpg
   meta: ok
+  verdict: wip
   developerName: BitcoinPOS
 
 ---

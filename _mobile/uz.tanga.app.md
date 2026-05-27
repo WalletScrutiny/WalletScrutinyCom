@@ -1,6 +1,5 @@
 ---
 title: Tanga
-verdict: wip
 date: 2024-07-05
 website: https://tanga.uz/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: uz.tanga.app.png
   meta: removed
+  verdict: wip
   developerName: Kash App
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Excusd
-verdict: wip
 date: 2022-01-31
 redirect_from:
 - /android/excusd.com/
@@ -13,6 +12,7 @@ android:
   reviews: 4
   icon: excusd.com.png
   meta: removed
+  verdict: wip
 
 ---
 

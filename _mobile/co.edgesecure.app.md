@@ -2,7 +2,6 @@
 wsId: edge
 title: Edge - Bitcoin & Crypto Wallet
 bitcoinOrgId: edgewallet
-verdict: sourceavailable
 date: 2022-03-13
 authors:
 - leo
@@ -36,6 +35,7 @@ android:
   icon: co.edgesecure.app.png
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
   meta: ok
+  verdict: sourceavailable
   developerName: Edge (formerly Airbitz)
 iphone:
   appId: co.edgesecure.app
@@ -46,6 +46,7 @@ iphone:
   reviews: 2881
   icon: co.edgesecure.app.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Airbitz Inc
 
 ---

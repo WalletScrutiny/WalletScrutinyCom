@@ -1,7 +1,6 @@
 ---
 wsId: tidexExchange
 title: Tidex
-verdict: custodial
 date: 2024-09-10
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 7
   icon: com.tidex.app.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Tidex
 iphone:
   appId: com.tidex.exchange.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 15
   icon: com.tidex.exchange.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Tidex
 
 ---

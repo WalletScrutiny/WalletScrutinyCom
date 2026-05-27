@@ -1,6 +1,5 @@
 ---
 title: 'Bitdot: Indian Crypto Exchange'
-verdict: wip
 date: 2023-01-02
 website: https://bitdotglobal.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   icon: com.bitdot_project_a6.bitdot.png
   meta: removed
+  verdict: wip
 
 ---
 

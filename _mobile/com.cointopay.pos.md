@@ -1,6 +1,5 @@
 ---
 title: Cointopay POS
-verdict: wip
 date: 2025-02-26
 website: https://cointopay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.cointopay.pos.png
   meta: obsolete
+  verdict: wip
   developerName: Cointopay.com
 
 ---

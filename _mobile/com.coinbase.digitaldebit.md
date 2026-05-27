@@ -1,6 +1,5 @@
 ---
 title: Cashlis - Real-Time Bitcoin mP
-verdict: wip
 date: 2023-06-21
 website: https://digitaldebit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.3
   icon: com.coinbase.digitaldebit.png
   meta: removed
+  verdict: wip
   developerName: Digital Debit Group
 
 ---

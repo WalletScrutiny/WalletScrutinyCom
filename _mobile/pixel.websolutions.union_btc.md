@@ -1,6 +1,5 @@
 ---
 title: Union Btc
-verdict: wip
 date: 2024-03-02
 website: https://web.archive.org/web/20250713062216/https://unionbtc.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: pixel.websolutions.union_btc.png
   meta: removed
+  verdict: wip
   developerName: CryptoMaticAtm OÜ
 
 ---

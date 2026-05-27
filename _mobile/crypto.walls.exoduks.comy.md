@@ -1,6 +1,5 @@
 ---
 title: Exodus Bitcoin Manage, and Exchange cryptocurrency
-verdict: fake
 date: 2021-10-30
 authors:
 - leo
@@ -8,13 +7,13 @@ redirect_from:
 - /android/crypto.walls.exoduks.comy/
 android:
   appId: crypto.walls.exoduks.comy
-  altTitle: (Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency
   users: 10
   released: 2021-10-03
   updated: 2021-10-04
   version: '19.28'
   icon: crypto.walls.exoduks.comy.png
   meta: removed
+  verdict: fake
 
 ---
 

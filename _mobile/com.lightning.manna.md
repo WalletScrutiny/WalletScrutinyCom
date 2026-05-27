@@ -1,7 +1,6 @@
 ---
 wsId: mannaBitcoin
 title: Manna Bitcoin Wallet
-verdict: custodial
 date: 2026-05-09
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 7
   icon: com.lightning.manna.png
   meta: fewusers
+  verdict: custodial
   developerName: Manna Bitcoin
 iphone:
   appId: com.lightning.manna
@@ -32,6 +32,7 @@ iphone:
   reviews: 8
   icon: com.lightning.manna.jpg
   meta: ok
+  verdict: custodial
   developerName: Manna Open Economy LLC
 
 ---

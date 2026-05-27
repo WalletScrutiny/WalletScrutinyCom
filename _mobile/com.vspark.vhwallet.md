@@ -1,6 +1,5 @@
 ---
 title: VHWallet
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 6.4.13
   icon: com.vspark.vhwallet.png
   meta: removed
+  verdict: wip
   developerName: Vspark Group
 
 ---

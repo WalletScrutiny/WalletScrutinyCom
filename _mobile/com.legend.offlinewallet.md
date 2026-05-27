@@ -1,6 +1,5 @@
 ---
 title: HyperKey
-verdict: wip
 date: 2023-11-02
 website: https://hyperpay.tech
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.legend.offlinewallet.png
   meta: removed
+  verdict: wip
   developerName: LEGEND INTERNET SERVICES PTY LTD
 
 ---

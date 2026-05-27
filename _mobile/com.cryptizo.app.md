@@ -1,6 +1,5 @@
 ---
 title: Unblock - Crypto Investing App
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.cryptizo.app/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: com.cryptizo.app.png
   meta: removed
+  verdict: wip
   developerName: Unblock Money
 
 ---

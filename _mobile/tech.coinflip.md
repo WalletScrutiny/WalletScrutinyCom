@@ -1,7 +1,6 @@
 ---
 wsId: coinFlipCrypto
 title: CoinFlip Crypto Wallet
-verdict: custodial
 date: 2026-01-03
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 95
   icon: tech.coinflip.png
   meta: ok
+  verdict: custodial
   developerName: GPD Holdings LLC
 iphone:
   appId: tech.coinflip.CoinFlip
@@ -35,6 +35,7 @@ iphone:
   reviews: 851
   icon: tech.coinflip.CoinFlip.jpg
   meta: ok
+  verdict: custodial
   developerName: GPD Holdings, L.L.C.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & NFT'
-verdict: sourceavailable
 date: 2025-02-04
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   reviews: 120
   icon: com.kraken.superwallet.png
   meta: ok
+  verdict: sourceavailable
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.superwallet.app
@@ -40,6 +40,7 @@ iphone:
   reviews: 1183
   icon: com.kraken.superwallet.app.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Kraken
 
 ---

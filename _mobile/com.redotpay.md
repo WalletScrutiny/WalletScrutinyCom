@@ -1,7 +1,6 @@
 ---
 wsId: redotpayCrypto
 title: 'RedotPay: Crypto Card & Pay'
-verdict: custodial
 date: 2026-01-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 1119
   icon: com.redotpay.png
   meta: ok
+  verdict: custodial
   developerName: Red Dot Technology Limited
 iphone:
   appId: com.redotpay
@@ -35,6 +35,7 @@ iphone:
   reviews: 3380
   icon: com.redotpay.jpg
   meta: ok
+  verdict: custodial
   developerName: Red Dot Technology Limited.
 
 ---

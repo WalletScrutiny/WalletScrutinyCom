@@ -1,6 +1,5 @@
 ---
 title: Crypto Investment Simulation
-verdict: wip
 date: 2024-04-03
 website: https://www.kuffstudios.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.kuffgames.cryptoinvestinggame.png
   meta: removed
+  verdict: wip
   developerName: Paff Studios
 
 ---

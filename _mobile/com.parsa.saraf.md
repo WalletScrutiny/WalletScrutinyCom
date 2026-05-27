@@ -1,6 +1,5 @@
 ---
 title: Saraf - Investment Platfrom
-verdict: wip
 date: 2026-01-14
 website: https://saraf.app
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 405
   icon: com.parsa.saraf.png
   meta: stale
+  verdict: wip
   developerName: saraf company
 
 ---

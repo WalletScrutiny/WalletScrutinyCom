@@ -1,6 +1,5 @@
 ---
 title: KryptoBot
-verdict: wip
 date: 2024-04-19
 website: https://kryptobot.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.4
   icon: com.kryptobot.png
   meta: removed
+  verdict: wip
   developerName: KryptoBot Sp. z o.o.
 
 ---

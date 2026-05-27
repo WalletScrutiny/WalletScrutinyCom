@@ -1,6 +1,5 @@
 ---
 title: Quantia.io
-verdict: wip
 date: 2024-04-19
 website: https://quantia.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.21
   icon: com.quantiamobile.png
   meta: fewusers
+  verdict: wip
   developerName: Quantia.io
 
 ---

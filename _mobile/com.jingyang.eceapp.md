@@ -1,6 +1,5 @@
 ---
 title: ECE LIMITED
-verdict: wip
 date: 2025-02-13
 redirect_from:
 - /android/com.jingyang.eceapp/
@@ -11,6 +10,7 @@ android:
   version: '1.0'
   icon: com.jingyang.eceapp.png
   meta: removed
+  verdict: wip
   developerName: ECE LTD
 
 ---

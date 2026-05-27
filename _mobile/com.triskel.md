@@ -1,7 +1,6 @@
 ---
 wsId: triskelWallet
 title: Triskel Wallet
-verdict: custodial
 date: 2026-04-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '6.1'
   icon: com.triskel.png
   meta: ok
+  verdict: custodial
   developerName: Triskel Capital
 iphone:
   appId: com.triskelcapital
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.triskelcapital.jpg
   meta: ok
+  verdict: custodial
   developerName: Triskel Trading
 
 ---

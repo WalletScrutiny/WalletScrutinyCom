@@ -1,7 +1,6 @@
 ---
 wsId: mybitstore
 title: 'Mybitstore: Bitcoin & Crypto'
-verdict: custodial
 date: 2022-04-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 7
   icon: app.mybitstore.com.png
   meta: ok
+  verdict: custodial
   developerName: Mybitstore - Buy & Sell BTC
 iphone:
   appId: app.mybitstore.com
@@ -34,6 +34,7 @@ iphone:
   reviews: 497
   icon: app.mybitstore.com.jpg
   meta: stale
+  verdict: custodial
   developerName: MyBitStore Limited
 
 ---

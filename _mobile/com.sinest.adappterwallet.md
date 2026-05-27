@@ -1,6 +1,5 @@
 ---
 title: 'Adappter Wallet : BTC, ETH'
-verdict: wip
 date: 2026-02-20
 website: http://adappterwallet.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.sinest.adappterwallet.png
   meta: fewusers
+  verdict: wip
   developerName: SHINEST Corporation
 
 ---

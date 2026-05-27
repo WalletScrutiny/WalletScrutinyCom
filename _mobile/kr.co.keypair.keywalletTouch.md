@@ -1,7 +1,6 @@
 ---
 wsId: KeyWalletTouch
 title: KeyWallet Touch - CryptoWallet
-verdict: nosource
 date: 2024-07-17
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   reviews: 16
   icon: kr.co.keypair.keywalletTouch.png
   meta: ok
+  verdict: nosource
   developerName: Keypair Co., Ltd.
 iphone:
   appId: kr.co.keypair.keywalletTouchiOS
@@ -38,6 +38,7 @@ iphone:
   reviews: 0
   icon: kr.co.keypair.keywalletTouchiOS.jpg
   meta: ok
+  verdict: nosource
   developerName: Keypair
 
 ---

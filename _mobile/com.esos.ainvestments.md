@@ -1,6 +1,5 @@
 ---
 title: AInvestments - Online Trading
-verdict: wip
 date: 2023-09-28
 website: https://www.ainvestments.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 7.0.3(1)
   icon: com.esos.ainvestments.png
   meta: removed
+  verdict: wip
   developerName: ESOS INTERNATIONAL LTD
 
 ---

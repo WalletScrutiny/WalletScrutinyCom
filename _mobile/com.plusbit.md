@@ -1,6 +1,5 @@
 ---
 title: PlusBit Wallet
-verdict: wip
 date: 2024-07-05
 website: https://plusbit.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.plusbit.png
   meta: removed
+  verdict: wip
   developerName: PlusBit
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Tippin
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/co.tippin.android.wallet/
@@ -11,6 +10,7 @@ android:
   version: Varies with device
   icon: co.tippin.android.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

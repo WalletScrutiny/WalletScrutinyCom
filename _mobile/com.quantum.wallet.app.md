@@ -1,7 +1,6 @@
 ---
 wsId: quantumWallet
 title: Quantum Wallet
-verdict: nosource
 date: 2025-12-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 4
   icon: com.quantum.wallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Nexus Payments Limited
 iphone:
   appId: com.quantum.wallet.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.quantum.wallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Nexus Payments Limited
 
 ---

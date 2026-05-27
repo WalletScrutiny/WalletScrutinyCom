@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment South Africa
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptomining.bitcoin.investment.south.africa/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptomining.bitcoin.investment.south.africa.png
   meta: removed
+  verdict: wip
 
 ---
 

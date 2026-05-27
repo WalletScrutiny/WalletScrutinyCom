@@ -1,6 +1,5 @@
 ---
 title: EX5 Crypto Exchange | BTC
-verdict: wip
 date: 2025-11-10
 website: https://ex5.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.ex5.exchange.png
   meta: fewusers
+  verdict: wip
   developerName: EX5
 
 ---

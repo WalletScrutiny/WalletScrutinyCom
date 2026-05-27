@@ -1,7 +1,6 @@
 ---
 wsId: lavaXYZ
 title: 'Lava: Bitcoin Loans & Card'
-verdict: nosource
 date: 2025-05-22
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 9
   icon: com.lavamobile.png
   meta: ok
+  verdict: nosource
   developerName: Lava Global Inc.
 iphone:
   appId: xyz.lava.mobile
@@ -30,6 +30,7 @@ iphone:
   reviews: 141
   icon: xyz.lava.mobile.jpg
   meta: ok
+  verdict: nosource
   developerName: Lava Global Inc.
 
 ---

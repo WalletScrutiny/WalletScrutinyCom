@@ -1,6 +1,5 @@
 ---
 title: تضمین شو
-verdict: wip
 date: 2023-12-19
 website: https://tazminsho.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.tazminsho.app.png
   meta: removed
+  verdict: wip
   developerName: TazminSho Team
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'SpecterSolutions: Open Wallet'
-verdict: fake
 date: 2023-09-04
 authors:
 - danny
@@ -9,13 +8,13 @@ redirect_from:
 - /android/com.decentralized.earth/
 android:
   appId: com.decentralized.earth
-  altTitle: Fake Specter Wallet
   users: 1000
   released: 2022-12-15
   updated: 2023-03-18
   version: 2.19.3
   icon: com.decentralized.earth.png
   meta: removed
+  verdict: fake
   developerName: sресtrum, l.l.С.
 
 ---

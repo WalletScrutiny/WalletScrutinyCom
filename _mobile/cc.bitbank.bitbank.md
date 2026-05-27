@@ -1,6 +1,5 @@
 ---
 title: bitbank - Bitcoin Wallet
-verdict: custodial
 date: 2024-09-06
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 3
   icon: cc.bitbank.bitbank.png
   meta: ok
+  verdict: custodial
   developerName: Bitbank, Inc.
 
 ---

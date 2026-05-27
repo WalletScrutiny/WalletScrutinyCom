@@ -1,6 +1,5 @@
 ---
 title: CryptoBank
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.project.cryptobank/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.project.cryptobank.png
   meta: removed
+  verdict: wip
 
 ---
 

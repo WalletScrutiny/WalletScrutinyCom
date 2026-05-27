@@ -1,7 +1,6 @@
 ---
 wsId: mDAOWallet
 title: MDAO Wallet
-verdict: nosource
 date: 2026-04-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.3.10
   icon: com.ttmbank.wallet.app.png
   meta: obsolete
+  verdict: nosource
   developerName: MDAO Wallet
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: bitopro
 title: BitoPro Crypto Exchange
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: com.bitoex.bitoproapp.png
   meta: removed
+  verdict: custodial
   developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 iphone:
   appId: com.bitoex.bitopro
@@ -32,6 +32,7 @@ iphone:
   reviews: 5
   icon: com.bitoex.bitopro.jpg
   meta: removed
+  verdict: custodial
   developerName: BitoEX
 
 ---

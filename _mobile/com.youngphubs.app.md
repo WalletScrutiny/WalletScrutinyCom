@@ -1,6 +1,5 @@
 ---
 title: BitCion HuBs
-verdict: wip
 date: 2023-12-19
 website: http://bitcoin-hubs.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.youngphubs.app.png
   meta: removed
+  verdict: wip
   developerName: Coin Hub CryptoCurrency
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: CortBit Exchange
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/hr.apps.n114615/
@@ -12,6 +11,7 @@ android:
   version: 5.0.1
   icon: hr.apps.n114615.png
   meta: removed
+  verdict: wip
   developerName: Shoutem, Inc.
 
 ---

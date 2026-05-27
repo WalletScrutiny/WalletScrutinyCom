@@ -1,6 +1,5 @@
 ---
 title: ExtoWallet
-verdict: nosource
 date: 2022-10-21
 authors:
 - danny
@@ -20,6 +19,7 @@ iphone:
   reviews: 0
   icon: com.extolab.extowallet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

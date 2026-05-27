@@ -1,6 +1,5 @@
 ---
 title: FYB-SG Mobile
-verdict: wip
 date: 2024-04-03
 website: https://www.fybsg.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.5 BETA
   icon: com.fybsg.fybmobile.png
   meta: removed
+  verdict: wip
   developerName: FYB-SG
 
 ---

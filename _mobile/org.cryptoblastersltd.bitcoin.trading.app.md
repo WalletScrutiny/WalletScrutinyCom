@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Trading App
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptoblastersltd.bitcoin.trading.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptoblastersltd.bitcoin.trading.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

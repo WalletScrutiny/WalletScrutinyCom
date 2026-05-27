@@ -1,6 +1,5 @@
 ---
 title: 'Swapitway : Sell Trade Gift Card & Bitcoin to Cash'
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/swapitway.com/
@@ -12,6 +11,7 @@ android:
   version: '4.5'
   icon: swapitway.com.jpg
   meta: removed
+  verdict: wip
 
 ---
 

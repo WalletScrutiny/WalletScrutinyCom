@@ -1,6 +1,5 @@
 ---
 title: Exchanger101:Coins,Giftcard,Da
-verdict: custodial
 date: 2023-05-24
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 7
   icon: com.exchanger101.app.png
   meta: ok
+  verdict: custodial
   developerName: exchanger company
 
 ---

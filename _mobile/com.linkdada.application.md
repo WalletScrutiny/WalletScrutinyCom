@@ -1,6 +1,5 @@
 ---
 title: LinkDaDa
-verdict: wip
 date: 2023-01-02
 website: https://www.linkdada.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.2
   icon: com.linkdada.application.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: UnirealWallet
-verdict: wip
 date: 2023-06-21
 website: https://unirealchain.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.40.5
   icon: com.unirealchain.wallet.png
   meta: removed
+  verdict: wip
   developerName: Unirealchain
 
 ---

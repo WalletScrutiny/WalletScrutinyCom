@@ -1,7 +1,6 @@
 ---
 wsId: ChangeNOW
 title: 'Crypto exchange: USDT, Bitcoin'
-verdict: nosource
 date: 2024-07-13
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   reviews: 803
   icon: io.changenow.changenow.png
   meta: ok
+  verdict: nosource
   developerName: ChangeNOW
 iphone:
   appId: io.changenow
@@ -38,6 +38,7 @@ iphone:
   reviews: 2244
   icon: io.changenow.jpg
   meta: ok
+  verdict: nosource
   developerName: CHN Group Limited
 
 ---

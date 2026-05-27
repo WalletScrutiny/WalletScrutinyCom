@@ -1,6 +1,5 @@
 ---
 title: Nexus Trader
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.nexus.trader/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: com.nexus.trader.png
   meta: removed
+  verdict: wip
   developerName: Nexus Trader Team
 
 ---

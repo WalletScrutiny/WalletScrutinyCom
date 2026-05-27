@@ -1,6 +1,5 @@
 ---
 title: Bitsquad Traders
-verdict: wip
 date: 2023-12-19
 website: https://www.bitsquadtraders.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.bitsquad.traders.png
   meta: removed
+  verdict: wip
   developerName: bitsquadtraders
 
 ---

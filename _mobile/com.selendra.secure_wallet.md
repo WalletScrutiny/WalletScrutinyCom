@@ -1,6 +1,5 @@
 ---
 title: 'Bitriel: digital wallet'
-verdict: sourceavailable
 date: 2022-03-07
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: com.selendra.secure_wallet.png
   meta: defunct
+  verdict: sourceavailable
   developerName: KOOMPI
 
 ---

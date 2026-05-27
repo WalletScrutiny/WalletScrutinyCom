@@ -1,6 +1,5 @@
 ---
 title: SANUSWALLET 2.0
-verdict: nosource
 date: 2025-11-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 1
   icon: com.sanuslife.sanuswallet2.png
   meta: obsolete
+  verdict: nosource
   developerName: SANUSLIFE INTERNATIONAL
 
 ---

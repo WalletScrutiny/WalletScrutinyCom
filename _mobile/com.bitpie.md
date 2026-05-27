@@ -1,7 +1,6 @@
 ---
 wsId: bitpie
 title: Bitpie Wallet
-verdict: nosource
 date: 2021-10-01
 authors:
 - leo
@@ -30,6 +29,7 @@ android:
   reviews: 126
   icon: com.bitpie.png
   meta: removed
+  verdict: nosource
   developerName: getcai
 iphone:
   appId: com.bitpie.wallet
@@ -40,6 +40,7 @@ iphone:
   reviews: 362
   icon: com.bitpie.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: BITPIE HK LIMITED
 
 ---

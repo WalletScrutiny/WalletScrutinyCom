@@ -1,7 +1,6 @@
 ---
 wsId: FondexcTrader
 title: Fondex cTrader
-verdict: nosendreceive
 date: 2024-03-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 4.8.54452
   icon: com.fondexmobile.ct.png
   meta: removed
+  verdict: nosendreceive
   developerName: Fondex
 iphone:
   appId: com.fondexmobile.ct
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.fondexmobile.ct.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: TopFX
 
 ---

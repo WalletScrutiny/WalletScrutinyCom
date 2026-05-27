@@ -1,6 +1,5 @@
 ---
 title: 24 Wallet
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.iccbank.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.iccbank.wallet.png
   meta: removed
+  verdict: wip
   developerName: DSSJDEV
 
 ---

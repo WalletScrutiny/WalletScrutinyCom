@@ -1,6 +1,5 @@
 ---
 title: Rocket Trade EX
-verdict: nosendreceive
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.3
   icon: app.excointrades.com.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: rocket trade Limited
 
 ---

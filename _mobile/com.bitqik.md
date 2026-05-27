@@ -1,7 +1,6 @@
 ---
 wsId: bitqikExchange
 title: bitqik
-verdict: custodial
 date: 2024-10-07
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 3
   icon: com.bitqik.png
   meta: ok
+  verdict: custodial
   developerName: bitqik
 iphone:
   appId: com.bitqik
@@ -36,6 +36,7 @@ iphone:
   reviews: 1
   icon: com.bitqik.jpg
   meta: ok
+  verdict: custodial
   developerName: BITQIK SOLE CO.,LTD
 
 ---

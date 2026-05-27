@@ -1,7 +1,6 @@
 ---
 wsId: bison
 title: BISON - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2024-09-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: de.bisonapp.png
   meta: ok
+  verdict: custodial
   developerName: Boerse Stuttgart Digital Broker GmbH
 iphone:
   appId: com.bisonapp.bison
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: com.bisonapp.bison.jpg
   meta: ok
+  verdict: custodial
   developerName: Boerse Stuttgart Digital Broker GmbH
 
 ---

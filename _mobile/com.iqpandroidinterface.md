@@ -1,7 +1,6 @@
 ---
 wsId: IQWalletCryptoWallet
 title: IQ Wallet - Crypto Wallet
-verdict: obfuscated
 date: 2023-01-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 186
   icon: com.iqpandroidinterface.png
   meta: removed
+  verdict: obfuscated
 iphone:
   appId: com.xtmcapital.iqwallet
   idd: 1589400699
@@ -29,6 +29,7 @@ iphone:
   reviews: 3
   icon: com.xtmcapital.iqwallet.jpg
   meta: removed
+  verdict: obfuscated
   developerName: XTM Capital Ltd
 
 ---

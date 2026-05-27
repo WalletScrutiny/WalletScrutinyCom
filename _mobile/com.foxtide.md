@@ -1,6 +1,5 @@
 ---
 title: FOXTIDE
-verdict: wip
 date: 2024-07-05
 website: https://www.digitide.us/foxtide#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.foxtide.jpg
   meta: removed
+  verdict: wip
   developerName: DIGITIDE, LLC
 
 ---

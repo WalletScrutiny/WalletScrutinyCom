@@ -1,7 +1,6 @@
 ---
 wsId: coinpassMobile
 title: 'coinpass: Crypto for Business'
-verdict: custodial
 date: 2023-12-14
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.15.1-coinpass
   icon: com.coinpassmobile.png
   meta: ok
+  verdict: custodial
   developerName: Oanda Coinpass Limited
 iphone:
   appId: com.coinpasslimited.coinpassinstant
@@ -35,6 +35,7 @@ iphone:
   reviews: 18
   icon: com.coinpasslimited.coinpassinstant.jpg
   meta: ok
+  verdict: custodial
   developerName: Oanda Coinpass Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Tudirich
-verdict: wip
 date: 2023-08-04
 website: https://tudirich.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.tudirich.jpg
   meta: removed
+  verdict: wip
   developerName: Tudirich
 
 ---

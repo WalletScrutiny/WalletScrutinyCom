@@ -1,6 +1,5 @@
 ---
 title: 'Coin Droplet: BTC & ETH Wallet'
-verdict: wip
 date: 2024-11-25
 website: https://www.coindroplet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: coindroplet.com.png
   meta: obsolete
+  verdict: wip
   developerName: Value Sports Network, llc
 
 ---

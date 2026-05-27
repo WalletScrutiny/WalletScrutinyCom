@@ -1,6 +1,5 @@
 ---
 title: Maxpayz
-verdict: wip
 date: 2025-09-03
 redirect_from:
 - /android/com.payz.maxpayz/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.payz.maxpayz.png
   meta: removed
+  verdict: wip
   developerName: K-IT Solutions
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: albyGo
 title: Alby Go
-verdict: sourceavailable
 date: 2025-09-09
 authors:
 - danny
@@ -27,8 +26,8 @@ android:
   reviews: 19
   icon: com.getalby.mobile.png
   meta: ok
+  verdict: sourceavailable
   developerName: Alby Inc.
-  repository: https://github.com/getAlby/go
 iphone:
   appId: com.getalby.mobile
   idd: '6471335774'
@@ -39,6 +38,7 @@ iphone:
   reviews: 23
   icon: com.getalby.mobile.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Alby Inc.
 
 ---

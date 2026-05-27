@@ -1,6 +1,5 @@
 ---
 title: King Crypto
-verdict: wip
 date: 2024-02-05
 website: https://kingcrypto.exchange/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.kingcrypto.android.png
   meta: removed
+  verdict: wip
   developerName: King Crypto
 
 ---

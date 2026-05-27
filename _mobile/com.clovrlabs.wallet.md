@@ -1,6 +1,5 @@
 ---
 title: Clovr Labs Wallet
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/com.clovrlabs.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.clovrlabs.wallet.png
   meta: removed
+  verdict: wip
   developerName: Clovr Labs
 
 ---

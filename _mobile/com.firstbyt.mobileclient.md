@@ -1,6 +1,5 @@
 ---
 title: 'FBYT: Buy Bitcoin, ETH, Crypto'
-verdict: wip
 date: 2024-02-05
 website: https://fbyt.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.firstbyt.mobileclient.jpg
   meta: removed
+  verdict: wip
   developerName: FBYT
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Language Translator Pro
-verdict: wip
 date: 2026-02-02
 redirect_from:
 - /android/com.stss.bloxxwop/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.stss.bloxxwop.png
   meta: fewusers
+  verdict: wip
   developerName: STSS Apps
 
 ---

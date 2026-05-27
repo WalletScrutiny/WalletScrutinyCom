@@ -1,7 +1,6 @@
 ---
 wsId: talkPlus
 title: T+ Wallet-Essential Crypto Hub
-verdict: nosource
 date: 2023-06-01
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 3.2.0
   icon: org.talkapp.png
   meta: ok
+  verdict: nosource
   developerName: Bull.B Technology Limited
 iphone:
   appId: org.talkapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 169
   icon: org.talkapp.jpg
   meta: ok
+  verdict: nosource
   developerName: BULL.B TECHNOLOGY LIMITED
 
 ---

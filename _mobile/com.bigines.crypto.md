@@ -1,6 +1,5 @@
 ---
 title: Bigines
-verdict: wip
 date: 2024-09-01
 website: https://bigines.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.2
   icon: com.bigines.crypto.png
   meta: removed
+  verdict: wip
   developerName: Bigines Yazılım ve Ticaret A.Ş
 
 ---

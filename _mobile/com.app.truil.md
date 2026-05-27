@@ -1,6 +1,5 @@
 ---
 title: TRUEiL
-verdict: wip
 date: 2023-11-02
 website: https://trueil.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.app.truil.png
   meta: removed
+  verdict: wip
   developerName: TRUEUIL.COM
 
 ---

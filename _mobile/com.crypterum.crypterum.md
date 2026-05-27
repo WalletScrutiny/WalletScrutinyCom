@@ -1,6 +1,5 @@
 ---
 title: Crypterum
-verdict: wip
 date: 2023-05-22
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.1.13
   icon: com.crypterum.crypterum.png
   meta: removed
+  verdict: wip
   developerName: Crypterum Exchange Service
 
 ---

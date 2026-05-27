@@ -1,6 +1,5 @@
 ---
 title: VisionWallet — Crypto & Bitcoi
-verdict: custodial
 date: 2023-06-21
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: 1.3.2
   icon: com.visionwallet.app.png
   meta: removed
+  verdict: custodial
   developerName: VISION WALLET LTD
 
 ---

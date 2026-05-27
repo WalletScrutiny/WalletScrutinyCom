@@ -1,6 +1,5 @@
 ---
 title: Crypt8
-verdict: wip
 date: 2024-12-04
 website: https://crypt8.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.crypt8.crypt8.png
   meta: removed
+  verdict: wip
   developerName: Crypt8
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Investor
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.thecrypto.apps.crypto.investor/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.thecrypto.apps.crypto.investor.jpg
   meta: removed
+  verdict: wip
 
 ---
 

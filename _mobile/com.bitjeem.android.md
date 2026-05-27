@@ -1,6 +1,5 @@
 ---
 title: bitjeem - Dubai's Premier Digi
-verdict: wip
 date: 2024-04-19
 website: https://bitjeem.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.11.0
   icon: com.bitjeem.android.png
   meta: removed
+  verdict: wip
   developerName: bitjeem
 
 ---

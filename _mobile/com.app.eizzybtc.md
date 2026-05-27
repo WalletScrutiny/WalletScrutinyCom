@@ -1,6 +1,5 @@
 ---
 title: Eizzy BTC
-verdict: wip
 date: 2022-04-07
 website: https://eizzybtc.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.app.eizzybtc.png
   meta: removed
+  verdict: wip
 
 ---
 

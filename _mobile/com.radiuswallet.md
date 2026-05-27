@@ -1,6 +1,5 @@
 ---
 title: Radius Wallet
-verdict: wip
 date: 2025-04-22
 website: https://radiuswallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.1
   icon: com.radiuswallet.png
   meta: removed
+  verdict: wip
   developerName: Creative Labs Limited
 
 ---

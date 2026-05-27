@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Code Pro
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.wBitcoinCodePro_15763256/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wBitcoinCodePro_15763256.png
   meta: removed
+  verdict: wip
   developerName: ABHISHEK SINGH2
 
 ---

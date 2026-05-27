@@ -1,6 +1,5 @@
 ---
 title: Coinbase Airdrop - Free YFI, DOT & Aave
-verdict: wip
 date: 2021-08-31
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 6
   icon: com.coinbase.airdrop.png
   meta: removed
+  verdict: wip
 
 ---
 

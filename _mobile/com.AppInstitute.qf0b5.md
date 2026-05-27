@@ -1,6 +1,5 @@
 ---
 title: 'Blockscart: Wallet - Exchange '
-verdict: wip
 date: 2024-04-03
 website: https://blockscart.eu#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.AppInstitute.qf0b5.png
   meta: removed
+  verdict: wip
   developerName: BlockApps
 
 ---

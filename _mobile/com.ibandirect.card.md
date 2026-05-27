@@ -1,7 +1,6 @@
 ---
 wsId: Ibandirect
 title: Coincardi
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.9.2
   icon: com.ibandirect.card.png
   meta: removed
+  verdict: custodial
   developerName: Ibandirect
 iphone:
   appId: com.ibandirect.cards
@@ -29,6 +29,7 @@ iphone:
   reviews: 1
   icon: com.ibandirect.cards.jpg
   meta: removed
+  verdict: custodial
   developerName: Ibandirect
 
 ---

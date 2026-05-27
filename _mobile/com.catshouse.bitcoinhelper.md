@@ -1,6 +1,5 @@
 ---
 title: 'BitCoin Helper: Bitcoin Crypto'
-verdict: wip
 date: 2026-05-21
 website: https://y84060b34.app-ads-txt.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.catshouse.bitcoinhelper.png
   meta: stale
+  verdict: wip
   developerName: Cats' House Development
 
 ---

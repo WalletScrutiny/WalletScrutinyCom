@@ -1,6 +1,5 @@
 ---
 title: Bitaroo NZ - Buy Bitcoin
-verdict: wip
 date: 2024-07-05
 website: https://www.bitaroo.nz
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.17
   icon: nz.bitaroo.buy.png
   meta: removed
+  verdict: wip
   developerName: Bitaroo
 
 ---

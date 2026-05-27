@@ -1,6 +1,5 @@
 ---
 title: 'wallmine: Stock Market Investi'
-verdict: wip
 date: 2024-07-05
 website: https://wallmine.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 9
   icon: com.wallmine.android.png
   meta: removed
+  verdict: wip
   developerName: HODL s.r.o.
 
 ---

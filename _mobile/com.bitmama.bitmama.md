@@ -1,7 +1,6 @@
 ---
 wsId: Bitmama
 title: Bitmama-Buy, Sell, Earn Crypto
-verdict: custodial
 date: 2025-12-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 14
   icon: com.bitmama.bitmama.png
   meta: stale
+  verdict: custodial
   developerName: WIL Platform Grp.
 iphone:
   appId: com.bitmama.bitmama.ios
@@ -34,6 +34,7 @@ iphone:
   reviews: 2
   icon: com.bitmama.bitmama.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: Bitmama Inc
 
 ---

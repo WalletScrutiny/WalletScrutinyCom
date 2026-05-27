@@ -1,6 +1,5 @@
 ---
 title: Easy Bitcoin Wallet
-verdict: wip
 date: 2023-01-02
 website: https://easywallet.me
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.easywallet.android.png
   meta: removed
+  verdict: wip
 
 ---
 

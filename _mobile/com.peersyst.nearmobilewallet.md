@@ -1,7 +1,6 @@
 ---
 wsId: nearMobileCrypto
 title: NEAR Mobile - Crypto Wallet
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1370
   icon: com.peersyst.nearmobilewallet.png
   meta: ok
+  verdict: custodial
   developerName: Peersyst Technology
 iphone:
   appId: com.peersyst.nearmobilewallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 821
   icon: com.peersyst.nearmobilewallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Peersyst
 
 ---

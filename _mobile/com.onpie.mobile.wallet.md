@@ -1,6 +1,5 @@
 ---
 title: OnPie
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.onpie.mobile.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.1.11
   icon: com.onpie.mobile.wallet.png
   meta: removed
+  verdict: wip
   developerName: Metarium Global Limited
 
 ---

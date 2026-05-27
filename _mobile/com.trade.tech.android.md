@@ -1,6 +1,5 @@
 ---
 title: Finalto
-verdict: wip
 date: 2026-02-02
 website: https://www.finalto.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.15.0
   icon: com.trade.tech.android.png
   meta: obsolete
+  verdict: wip
   developerName: Finalto
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'S-Trade: Buy & Sell Crypto'
-verdict: wip
 date: 2026-01-14
 website: https://s-trade.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.strade.app.png
   meta: obsolete
+  verdict: wip
   developerName: S-TRADE
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: MEMEEX
-verdict: wip
 date: 2024-04-19
 website: http://mmex.cc
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.app.irxauj.cn.png
   meta: removed
+  verdict: wip
   developerName: MEME Lab
 
 ---

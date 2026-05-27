@@ -1,7 +1,6 @@
 ---
 wsId: Abit
 title: ABIT
-verdict: wip
 date: 2021-11-04
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.3.2
   icon: com.abit.bmtc.png
   meta: removed
+  verdict: wip
   developerName: Abit Technology
 iphone:
   appId: com.abit.abit
@@ -28,6 +28,7 @@ iphone:
   version: 2.3.2
   icon: com.abit.abit.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Krptic Wallet
-verdict: wip
 date: 2023-08-04
 website: https://www.krptic.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.2.2
   icon: com.krptic.png
   meta: defunct
+  verdict: wip
   developerName: Finnovant
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: bitop
 title: Bitop Exchange：Bitcoin Crypto
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.0.21
   icon: com.bitop.ex.png
   meta: stale
+  verdict: custodial
   developerName: Bitop Ltd
 iphone:
   appId: com.bitop.exchange.prod
@@ -29,6 +29,7 @@ iphone:
   reviews: 7
   icon: com.bitop.exchange.prod.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitop. Limited
 
 ---

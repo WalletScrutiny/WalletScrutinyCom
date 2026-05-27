@@ -1,7 +1,6 @@
 ---
 wsId: breetBitcoin
 title: Breet - Buy, Swap, Sell Crypto
-verdict: nosendreceive
 date: 2023-07-19
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 208
   icon: com.app.breet.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Inbreetic Technologies Limited
 iphone:
   appId: com.app.breet
@@ -35,6 +35,7 @@ iphone:
   reviews: 1195
   icon: com.app.breet.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: BREET TECHNOLOGIES LIMITED
 
 ---

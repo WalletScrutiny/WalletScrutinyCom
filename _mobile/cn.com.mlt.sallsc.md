@@ -1,6 +1,5 @@
 ---
 title: SALLSC
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/cn.com.mlt.sallsc/
@@ -12,6 +11,7 @@ android:
   version: 1.0.6
   icon: cn.com.mlt.sallsc.png
   meta: removed
+  verdict: wip
 
 ---
 

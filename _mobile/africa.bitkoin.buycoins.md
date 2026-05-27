@@ -1,7 +1,6 @@
 ---
 wsId: africa
 title: BuyCoins - Buy & Sell Bitcoin, Ethereum, Litecoin
-verdict: custodial
 date: 2021-04-22
 authors:
 - leo
@@ -20,6 +19,7 @@ android:
   reviews: 433
   icon: africa.bitkoin.buycoins.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: africa.bitkoin.buycoins
   idd: '1389966202'
@@ -29,6 +29,7 @@ iphone:
   reviews: 46
   icon: africa.bitkoin.buycoins.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

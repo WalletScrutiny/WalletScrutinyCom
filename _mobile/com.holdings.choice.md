@@ -1,7 +1,6 @@
 ---
 wsId: choiceBitcoinIRA
 title: 'Choice: Bitcoin in your IRA'
-verdict: custodial
 date: 2023-12-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 30
   icon: com.holdings.choice.png
   meta: ok
+  verdict: custodial
   developerName: Choice IRA
 iphone:
   appId: com.holdings.choice
@@ -34,6 +34,7 @@ iphone:
   reviews: 1499
   icon: com.holdings.choice.jpg
   meta: ok
+  verdict: custodial
   developerName: Choice Holdings Incorporated
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: oppiWallet
 title: 'Oppi: Crypto Wallet & Card'
-verdict: nosource
 date: 2025-11-20
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 9
   icon: com.oppi.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Encoin Limited
 iphone:
   appId: com.oppi.wallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 16
   icon: com.oppi.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Encoin Limited
 
 ---

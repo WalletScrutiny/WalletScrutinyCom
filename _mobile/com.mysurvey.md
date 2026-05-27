@@ -1,6 +1,5 @@
 ---
 title: Coinways
-verdict: wip
 date: 2023-01-02
 website: https://coinways.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.mysurvey.png
   meta: removed
+  verdict: wip
 
 ---
 

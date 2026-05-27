@@ -1,6 +1,5 @@
 ---
 title: xsats - buy and secure bitcoin
-verdict: wip
 date: 2023-01-02
 website: https://www.xsats.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.1.7
   icon: com.xsats.xsats.png
   meta: removed
+  verdict: wip
 
 ---
 

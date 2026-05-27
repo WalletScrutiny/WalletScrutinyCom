@@ -1,6 +1,5 @@
 ---
 title: ContaCripto
-verdict: wip
 date: 2024-10-31
 website: https://contacripto.com.br
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.contacripto.app.png
   meta: removed
+  verdict: wip
   developerName: RAS SERVICOS DIGITAIS
 
 ---

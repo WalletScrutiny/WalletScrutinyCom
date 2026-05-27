@@ -1,6 +1,5 @@
 ---
 title: 'GIGEX: Invest Tokenized Assets'
-verdict: wip
 date: 2024-07-22
 redirect_from:
 - /android/io.gigexchage.crypto/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: io.gigexchage.crypto.png
   meta: removed
+  verdict: wip
   developerName: GIG INTERNATIONAL INVESTMENT LTD
 
 ---

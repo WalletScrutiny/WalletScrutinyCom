@@ -1,7 +1,6 @@
 ---
 wsId: ellyCrypto
 title: Elly, crypto wallet app
-verdict: custodial
 date: 2025-07-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 8.0.1
   icon: com.eliminatum.app.png
   meta: removed
+  verdict: custodial
   developerName: NAKA GLOBAL d.o.o.
 iphone:
   appId: io.eligma.btcwallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 36
   icon: io.eligma.btcwallet.jpg
   meta: removed
+  verdict: custodial
   developerName: NAKA GLOBAL d.o.o
 
 ---

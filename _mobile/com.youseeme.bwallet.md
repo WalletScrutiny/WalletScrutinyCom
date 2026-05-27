@@ -1,6 +1,5 @@
 ---
 title: Bartwallet Exchange platform
-verdict: wip
 date: 2024-07-05
 website: https://www.bartwallet.pro
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.27'
   icon: com.youseeme.bwallet.jpg
   meta: removed
+  verdict: wip
   developerName: Youseeme
 
 ---

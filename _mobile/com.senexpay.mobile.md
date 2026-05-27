@@ -1,7 +1,6 @@
 ---
 wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
-verdict: custodial
 date: 2023-09-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.8.7
   icon: com.senexpay.mobile.png
   meta: ok
+  verdict: custodial
   developerName: Senex Payment Services Limited
 iphone:
   appId: com.senexpay.mobile
@@ -33,6 +33,7 @@ iphone:
   reviews: 9
   icon: com.senexpay.mobile.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Senex Payment Services Limited
 
 ---

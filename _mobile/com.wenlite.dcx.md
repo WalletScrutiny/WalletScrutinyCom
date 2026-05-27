@@ -1,6 +1,5 @@
 ---
 title: WenLite
-verdict: wip
 date: 2024-08-17
 website: http://www.wenlite.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.4
   icon: com.wenlite.dcx.png
   meta: removed
+  verdict: wip
   developerName: TokenWorld
 
 ---

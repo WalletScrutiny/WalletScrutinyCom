@@ -1,6 +1,5 @@
 ---
 title: ABiTraderApp
-verdict: wip
 date: 2023-01-02
 website: https://abitnetwork.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 15
   icon: com.abit.abitraderapp.png
   meta: removed
+  verdict: wip
 
 ---
 

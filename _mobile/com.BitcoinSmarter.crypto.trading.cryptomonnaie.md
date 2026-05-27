@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Smarter
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/com.BitcoinSmarter.crypto.trading.cryptomonnaie/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
   meta: removed
+  verdict: wip
   developerName: devloox
 
 ---

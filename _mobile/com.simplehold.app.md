@@ -1,7 +1,6 @@
 ---
 wsId: simpleholdCrypto
 title: SimpleHold - Crypto Wallet
-verdict: nosource
 date: 2023-09-28
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.23'
   icon: com.simplehold.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Simple Swap LTD
 iphone:
   appId: com.simplehold.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.simplehold.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Simple Swap LTD
 
 ---

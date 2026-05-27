@@ -1,6 +1,5 @@
 ---
 title: Just ESCROW
-verdict: wip
 date: 2024-07-05
 website: https://justescrow.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 2
   icon: m.justescrow.io.png
   meta: removed
+  verdict: wip
   developerName: Just ESCROW
 
 ---

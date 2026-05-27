@@ -1,7 +1,6 @@
 ---
 wsId: pockieWallet
 title: Pockie Wallet - Crypto Wallet
-verdict: nosource
 date: 2025-11-26
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 57
   icon: com.pilab.pockie.png
   meta: ok
+  verdict: nosource
   developerName: PiLab Technology
 iphone:
   appId: com.pilab.pockie
@@ -35,6 +35,7 @@ iphone:
   reviews: 10
   icon: com.pilab.pockie.jpg
   meta: ok
+  verdict: nosource
   developerName: PiLab Co.,Ltd
 
 ---

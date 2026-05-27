@@ -1,6 +1,5 @@
 ---
 title: SecurA Wallet
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/io.securAWallet.bankwallet/
@@ -12,6 +11,7 @@ android:
   version: 0.26.3
   icon: io.securAWallet.bankwallet.png
   meta: removed
+  verdict: wip
   developerName: Blocktech Brew
 
 ---

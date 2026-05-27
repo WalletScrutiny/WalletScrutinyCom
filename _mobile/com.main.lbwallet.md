@@ -1,6 +1,5 @@
 ---
 title: LocalBit - buy/sell/lend coin(
-verdict: wip
 date: 2024-04-26
 redirect_from:
 - /android/com.main.lbwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.main.lbwallet.png
   meta: removed
+  verdict: wip
   developerName: Giftcoin Developer
 
 ---

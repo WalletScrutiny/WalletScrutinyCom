@@ -1,7 +1,6 @@
 ---
 wsId: lifPay
 title: LifPay
-verdict: custodial
 date: 2024-09-07
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.4.8
   icon: flutter.android.LifePay.png
   meta: ok
+  verdict: custodial
   developerName: ProminentWise
 iphone:
   appId: com.prominentwiselimited.lifpay
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.prominentwiselimited.lifpay.jpg
   meta: ok
+  verdict: custodial
   developerName: PROMINENTWISE LIMITED
 
 ---

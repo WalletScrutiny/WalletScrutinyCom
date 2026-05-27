@@ -1,6 +1,5 @@
 ---
 title: BitPocket
-verdict: wip
 date: 2024-04-19
 authors:
 - kiwilamb
@@ -16,6 +15,7 @@ android:
   version: 1.1.8
   icon: at.bitpocket.pos.png
   meta: removed
+  verdict: wip
   developerName: Beyond IT OG
 
 ---

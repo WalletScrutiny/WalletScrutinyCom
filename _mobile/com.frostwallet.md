@@ -1,7 +1,6 @@
 ---
 wsId: trustPoolFrostWallet
 title: 'FROST Wallet: Buy BTC & Crypto'
-verdict: nosource
 date: 2025-06-20
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 1
   icon: com.frostwallet.png
   meta: removed
+  verdict: nosource
   developerName: Trustpool
 iphone:
   appId: ru.trustpool.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: ru.trustpool.wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: Trustpool DOO
 
 ---

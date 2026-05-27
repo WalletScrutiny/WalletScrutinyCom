@@ -1,6 +1,5 @@
 ---
 title: ZENIQ App
-verdict: nosource
 date: 2023-08-04
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: VARY
   icon: com.zeniq.wallet.png
   meta: removed
+  verdict: nosource
   developerName: ZENIQ Technologies FZ LLC
 
 ---

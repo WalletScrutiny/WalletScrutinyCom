@@ -1,7 +1,6 @@
 ---
 wsId: munawallet
 title: Muna App
-verdict: custodial
 date: 2023-05-17
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 14
   icon: com.munawallet.muna.png
   meta: removed
+  verdict: custodial
   developerName: Quru Lab
 iphone:
   appId: com.quru.muna
@@ -32,6 +32,7 @@ iphone:
   reviews: 3
   icon: com.quru.muna.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

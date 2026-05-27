@@ -1,7 +1,6 @@
 ---
 wsId: sezameWallet
 title: Sezame Wallet
-verdict: nosource
 date: 2026-05-04
 authors:
 - danny
@@ -21,8 +20,8 @@ android:
   version: 0.16.6
   icon: org.maze2.sezamewallet.png
   meta: fewusers
+  verdict: nosource
   developerName: Maze 2 Techs
-  repository: https://github.com/maze2-org/sezame-wallet
 iphone:
   appId: com.maze2.sezamewallet
   idd: '1618252953'
@@ -33,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.maze2.sezamewallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Maze 2 SA
 
 ---

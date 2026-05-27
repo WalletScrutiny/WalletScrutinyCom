@@ -1,6 +1,5 @@
 ---
 title: MarketBtc
-verdict: wip
 date: 2023-01-02
 website: https://marketbtc.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.cluzstudio.marketbtc.png
   meta: removed
+  verdict: wip
 
 ---
 

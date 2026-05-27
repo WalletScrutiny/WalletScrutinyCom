@@ -1,6 +1,5 @@
 ---
 title: RenrenBit
-verdict: wip
 date: 2021-03-04
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   reviews: 2
   icon: com.dcash.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: DaiosPay
-verdict: wip
 date: 2024-07-05
 website: https://daios.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.daiospay.png
   meta: removed
+  verdict: wip
   developerName: 다이브 주식회사
 
 ---

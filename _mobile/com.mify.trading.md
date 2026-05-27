@@ -1,6 +1,5 @@
 ---
 title: 192Trade
-verdict: wip
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   icon: com.mify.trading.jpg
   meta: removed
+  verdict: wip
   developerName: 192Trade
 
 ---

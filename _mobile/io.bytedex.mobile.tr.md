@@ -1,6 +1,5 @@
 ---
 title: 'Byte Exchange: Crypto Trading'
-verdict: custodial
 date: 2026-05-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 2.0.16
   icon: io.bytedex.mobile.tr.png
   meta: removed
+  verdict: custodial
   developerName: Bytedex Teknoloji A.ş.
 
 ---

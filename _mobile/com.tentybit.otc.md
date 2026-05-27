@@ -1,6 +1,5 @@
 ---
 title: TENTYBIT
-verdict: wip
 date: 2024-02-05
 website: https://www.tentybit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.tentybit.otc.png
   meta: removed
+  verdict: wip
   developerName: Tentybit.com
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: zapX
-verdict: wip
 date: 2024-07-05
 website: https://zap.exchange
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.conv5049zapx.jpg
   meta: removed
+  verdict: wip
   developerName: zapX
 
 ---

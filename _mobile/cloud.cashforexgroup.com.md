@@ -1,6 +1,5 @@
 ---
 title: CASH FX GROUP
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/cloud.cashforexgroup.com/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: cloud.cashforexgroup.com.png
   meta: removed
+  verdict: wip
 
 ---
 

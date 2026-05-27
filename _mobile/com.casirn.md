@@ -1,6 +1,5 @@
 ---
 title: Casi
-verdict: wip
 date: 2024-04-19
 website: https://theblockbox.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.1
   icon: com.casirn.png
   meta: removed
+  verdict: wip
   developerName: Nena Vuckovic
 
 ---

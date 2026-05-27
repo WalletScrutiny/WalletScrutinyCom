@@ -1,6 +1,5 @@
 ---
 title: Crypto Trader - CFD Bitcoin blockchain
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.agaegae.cryptotrader/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.agaegae.cryptotrader.png
   meta: removed
+  verdict: wip
 
 ---
 

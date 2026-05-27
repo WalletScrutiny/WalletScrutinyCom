@@ -1,6 +1,5 @@
 ---
 title: DXONE Buy your favorite crypto
-verdict: wip
 date: 2024-04-19
 website: https://www.dxone.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.9
   icon: com.mobile.dxone.png
   meta: removed
+  verdict: wip
   developerName: DXone Ltd.
 
 ---

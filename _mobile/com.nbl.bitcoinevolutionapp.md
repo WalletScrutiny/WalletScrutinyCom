@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Evolution App - Crypto Trading Made Simple
-verdict: wip
 date: 2021-08-20
 redirect_from:
 - /android/com.nbl.bitcoinevolutionapp/
@@ -12,6 +11,7 @@ android:
   reviews: 11
   icon: com.nbl.bitcoinevolutionapp.png
   meta: removed
+  verdict: wip
 
 ---
 

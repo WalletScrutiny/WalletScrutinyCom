@@ -1,6 +1,5 @@
 ---
 title: HNC Revolution
-verdict: wip
 date: 2024-02-05
 website: https://hnc-revolution.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.hncrevolution.app.png
   meta: removed
+  verdict: wip
   developerName: Greek Team
 
 ---

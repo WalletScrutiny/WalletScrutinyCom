@@ -1,6 +1,5 @@
 ---
 title: CryptoExchanger-CryptoExchange
-verdict: wip
 date: 2023-09-04
 website: https://www.aaatrade.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.5
   icon: com.aaatrade.CryptoExchange.png
   meta: removed
+  verdict: wip
   developerName: AAATrade
 
 ---

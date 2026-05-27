@@ -39,7 +39,6 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: RockWallet, LLC
-  repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 
 ---
 

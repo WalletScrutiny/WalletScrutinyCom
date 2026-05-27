@@ -1,6 +1,5 @@
 ---
 title: FMX Trade
-verdict: wip
 date: 2023-01-02
 website: https://fmx.trade
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.0
   icon: fmx.trade.cryptocurrency.exchange.finance.png
   meta: removed
+  verdict: wip
 
 ---
 

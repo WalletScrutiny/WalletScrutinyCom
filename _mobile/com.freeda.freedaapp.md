@@ -1,7 +1,6 @@
 ---
 wsId: freeda
 title: Freeda Wallet - Trade Crypto
-verdict: custodial
 date: 2023-01-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 51
   icon: com.freeda.freedaapp.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.freeda.freedawallet
   idd: 1545428547
@@ -29,6 +29,7 @@ iphone:
   reviews: 90
   icon: com.freeda.freedawallet.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

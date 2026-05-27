@@ -1,6 +1,5 @@
 ---
 title: HandCash - Bitcoin SV Wallet (BETA)
-verdict: wip
 date: 2019-12-25
 website: https://handcash.io
 twitter: handcashapp
@@ -17,6 +16,7 @@ android:
   reviews: 205
   icon: com.freaks.app.handcash.png
   meta: removed
+  verdict: wip
 
 ---
 

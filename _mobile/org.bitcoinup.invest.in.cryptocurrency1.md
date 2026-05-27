@@ -1,6 +1,5 @@
 ---
 title: Invest In Cryptocurrency
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.bitcoinup.invest.in.cryptocurrency1/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.bitcoinup.invest.in.cryptocurrency1.jpg
   meta: removed
+  verdict: wip
 
 ---
 

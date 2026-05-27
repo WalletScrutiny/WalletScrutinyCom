@@ -1,6 +1,5 @@
 ---
 title: SMART VALOR - Buy BTC & Crypto
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.31.111
   icon: com.smartvalor.smartvalor.png
   meta: stale
+  verdict: custodial
   developerName: Smart Valor
 
 ---

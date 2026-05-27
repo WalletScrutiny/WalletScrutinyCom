@@ -1,6 +1,5 @@
 ---
 title: 'Cxihub: Trade Bitcoin/Crypto'
-verdict: wip
 date: 2024-04-19
 website: https://cxihub.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.cxihub.cxihubapp.jpg
   meta: removed
+  verdict: wip
   developerName: Cxihub
 
 ---

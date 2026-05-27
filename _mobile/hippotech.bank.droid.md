@@ -1,7 +1,6 @@
 ---
 wsId: ziglu
 title: Ziglu. Money, done differently
-verdict: custodial
 date: 2023-12-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '3.75'
   icon: hippotech.bank.droid.png
   meta: ok
+  verdict: custodial
   developerName: Ziglu
 iphone:
   appId: hippotech.bank.ios
@@ -33,6 +33,7 @@ iphone:
   reviews: 1364
   icon: hippotech.bank.ios.jpg
   meta: stale
+  verdict: custodial
   developerName: Ziglu Limited
 
 ---

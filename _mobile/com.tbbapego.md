@@ -1,6 +1,5 @@
 ---
 title: Apego
-verdict: wip
 date: 2024-04-19
 website: https://www.theblockbox.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.tbbapego.png
   meta: removed
+  verdict: wip
   developerName: Nena Vuckovic
 
 ---

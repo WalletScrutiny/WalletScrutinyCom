@@ -1,7 +1,6 @@
 ---
 wsId: MathWallet
 title: MathWallet1
-verdict: nosource
 date: 2022-10-21
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 184
   icon: com.medishares.android.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.medishares.ios.pro
   idd: 1383637331
@@ -30,6 +30,7 @@ iphone:
   reviews: 64
   icon: com.medishares.ios.pro.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

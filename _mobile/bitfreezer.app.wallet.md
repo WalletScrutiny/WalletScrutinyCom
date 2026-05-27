@@ -1,6 +1,5 @@
 ---
 title: BitFreezer Cold Wallet  Bitcoin Ethereum ERC20
-verdict: nosource
 date: 2021-08-11
 authors:
 - kiwilamb
@@ -19,6 +18,7 @@ android:
   reviews: 22
   icon: bitfreezer.app.wallet.png
   meta: removed
+  verdict: nosource
 
 ---
 

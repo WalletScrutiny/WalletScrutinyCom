@@ -1,7 +1,6 @@
 ---
 wsId: pouchPh
 title: Isle
-verdict: custodial
 date: 2022-06-22
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 4
   icon: pouch.ph.png
   meta: ok
+  verdict: custodial
   developerName: Pouch PH Inc
 iphone:
   appId: pouch.ph
@@ -31,6 +31,7 @@ iphone:
   reviews: 5
   icon: pouch.ph.jpg
   meta: removed
+  verdict: custodial
   developerName: Pouch PH Inc
 
 ---

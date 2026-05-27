@@ -1,7 +1,6 @@
 ---
 wsId: coinspace
 title: Coin Wallet - Bitcoin & Crypto
-verdict: sourceavailable
 date: 2023-04-22
 authors:
 - leo
@@ -33,8 +32,8 @@ android:
   reviews: 110
   icon: com.coinspace.app.png
   meta: ok
+  verdict: sourceavailable
   developerName: CoinSpace
-  bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 iphone:
   appId: com.coinspace.wallet
   idd: 980719434
@@ -44,8 +43,8 @@ iphone:
   reviews: 484
   icon: com.coinspace.wallet.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: CoinSpace
-  bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 
 ---
 

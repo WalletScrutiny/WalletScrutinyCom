@@ -1,6 +1,5 @@
 ---
 title: Shifupay
-verdict: wip
 date: 2023-12-19
 website: https://shifupay.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.5
   icon: com.shifupay.shifupay.png
   meta: removed
+  verdict: wip
   developerName: Zaam Technologies
 
 ---

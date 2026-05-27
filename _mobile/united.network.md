@@ -1,6 +1,5 @@
 ---
 title: United Network Crypto Wallet
-verdict: wip
 date: 2025-11-10
 website: https://united.network
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: united.network.png
   meta: fewusers
+  verdict: wip
   developerName: Trend IT Services LLC
 
 ---

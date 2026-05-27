@@ -1,6 +1,5 @@
 ---
 title: xFolio - bitcoin, ethereum, altcoin crypto tracker
-verdict: wip
 date: 2022-01-31
 redirect_from:
 - /android/xfolio.android.app/
@@ -13,6 +12,7 @@ android:
   reviews: 10
   icon: xfolio.android.app.png
   meta: removed
+  verdict: wip
 
 ---
 

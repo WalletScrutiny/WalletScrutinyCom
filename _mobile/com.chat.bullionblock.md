@@ -1,6 +1,5 @@
 ---
 title: BullionBlock
-verdict: wip
 date: 2024-02-05
 website: https://bullionblock.ltd
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.chat.bullionblock.png
   meta: removed
+  verdict: wip
   developerName: BullionBlock
 
 ---

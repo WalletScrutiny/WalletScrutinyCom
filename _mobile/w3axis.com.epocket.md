@@ -1,7 +1,6 @@
 ---
 wsId: ePocketExchange
 title: e-Pocket
-verdict: custodial
 date: 2023-09-06
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: w3axis.com.epocket.png
   meta: ok
+  verdict: custodial
   developerName: e-Pocket Pty Ltd
 iphone:
   appId: com.live.epocket
@@ -33,6 +33,7 @@ iphone:
   reviews: 33
   icon: com.live.epocket.jpg
   meta: ok
+  verdict: custodial
   developerName: e-Pocket Pty Ltd
 
 ---

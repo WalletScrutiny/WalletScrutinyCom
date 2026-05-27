@@ -1,6 +1,5 @@
 ---
 title: Swiss Key
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/co.swisskey.app/
@@ -12,6 +11,7 @@ android:
   version: 0.0.1
   icon: co.swisskey.app.png
   meta: removed
+  verdict: wip
   developerName: Swiss Key Inc.
 
 ---

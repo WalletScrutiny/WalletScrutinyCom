@@ -1,6 +1,5 @@
 ---
 title: BITNOW Wallet
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.bitnow.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.bitnow.wallet.png
   meta: removed
+  verdict: wip
   developerName: bitnow.team
 
 ---

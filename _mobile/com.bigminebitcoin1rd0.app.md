@@ -1,6 +1,5 @@
 ---
 title: BigMine Bitcoin
-verdict: wip
 date: 2023-12-19
 website: https://riccardoodissea.wixsite.com/innapp
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.6.9
   icon: com.bigminebitcoin1rd0.app.png
   meta: removed
+  verdict: wip
   developerName: Hyperiapp
 
 ---

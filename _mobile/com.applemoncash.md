@@ -1,7 +1,6 @@
 ---
 wsId: lemonCash
 title: Lemon - Billetera Virtual
-verdict: custodial
 date: 2025-11-12
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 13
   icon: com.applemoncash.png
   meta: ok
+  verdict: custodial
   developerName: Lemon Cash Inc
 iphone:
   appId: org.reactjs.native.lemon.appLemonCash
@@ -29,6 +29,7 @@ iphone:
   reviews: 4069
   icon: org.reactjs.native.lemon.appLemonCash.jpg
   meta: ok
+  verdict: custodial
   developerName: Lemon Cash Inc
 
 ---

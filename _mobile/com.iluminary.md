@@ -1,6 +1,5 @@
 ---
 title: iLuminary - BTC, SOL, USDT
-verdict: nosource
 date: 2026-05-01
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.1.0
   icon: com.iluminary.png
   meta: ok
+  verdict: nosource
   developerName: GESP IT SOLUTIONS
 
 ---

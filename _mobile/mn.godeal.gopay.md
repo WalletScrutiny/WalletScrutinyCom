@@ -1,6 +1,5 @@
 ---
 title: GoPay Bitcoin HD Wallet
-verdict: wip
 date: 2024-07-05
 website: https://gopay.mn
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: mn.godeal.gopay.png
   meta: removed
+  verdict: wip
   developerName: Disrupt LLC
 
 ---

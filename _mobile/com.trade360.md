@@ -1,7 +1,6 @@
 ---
 wsId: Trade360
 title: Trade360
-verdict: nosendreceive
 date: 2023-08-25
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 60
   icon: com.trade360.png
   meta: removed
+  verdict: nosendreceive
   developerName: Trade360 Ltd.
 iphone:
   appId: com.toyga.trade360
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.toyga.trade360.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Trade360 LTD
 
 ---

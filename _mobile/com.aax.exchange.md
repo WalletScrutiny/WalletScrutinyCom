@@ -1,6 +1,5 @@
 ---
 title: AAX-Trade Crypto, Bitcoin, ETH
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 89
   icon: com.aax.exchange.png
   meta: removed
+  verdict: custodial
   developerName: AAX
 
 ---

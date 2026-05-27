@@ -1,7 +1,6 @@
 ---
 wsId: klever
 title: K4 Wallet
-verdict: nosource
 date: 2023-08-04
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 593
   icon: cash.klever.blockchain.wallet.png
   meta: removed
+  verdict: nosource
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 iphone:
   appId: cash.klever.blockchain.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 524
   icon: cash.klever.blockchain.wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: Klever Exchange
 
 ---

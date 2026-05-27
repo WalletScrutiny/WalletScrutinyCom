@@ -1,7 +1,6 @@
 ---
 wsId: OceanEX
 title: OceanEx
-verdict: custodial
 date: 2024-10-08
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 15
   icon: com.ocean.exchange.png
   meta: removed
+  verdict: custodial
   developerName: OceanEx Limited
 iphone:
   appId: pro.oceanex.exapp
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: pro.oceanex.exapp.jpg
   meta: obsolete
+  verdict: custodial
   developerName: OceanEx Limited
 
 ---

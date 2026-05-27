@@ -1,6 +1,5 @@
 ---
 title: Between Wallet
-verdict: nosource
 date: 2026-01-16
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.2.1
   icon: com.between.wallet.png
   meta: ok
+  verdict: nosource
   developerName: BetweenBits Inc.
 
 ---

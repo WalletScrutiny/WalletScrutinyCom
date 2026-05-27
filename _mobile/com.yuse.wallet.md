@@ -1,7 +1,6 @@
 ---
 wsId: yusetokenio
 title: 'Yuse: Bitcoin & Crypto Wallet'
-verdict: nosource
 date: 2024-09-04
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 80.0.0
   icon: com.yuse.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Web3 Innovations
 iphone:
   appId: io.yusewallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 6
   icon: io.yusewallet.jpg
   meta: removed
+  verdict: nosource
   developerName: YUSEWallet
 
 ---

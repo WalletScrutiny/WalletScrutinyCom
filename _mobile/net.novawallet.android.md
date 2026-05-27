@@ -1,7 +1,6 @@
 ---
 wsId: vsolidusnova
 title: Nova Wallet
-verdict: nosource
 date: 2025-03-14
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 704
   icon: net.novawallet.android.png
   meta: removed
+  verdict: nosource
   developerName: Nova Coin Ltd.
 iphone:
   appId: net.novawallet.ios
@@ -35,6 +35,7 @@ iphone:
   reviews: 82
   icon: net.novawallet.ios.jpg
   meta: removed
+  verdict: nosource
   developerName: NOVA COIN LIMITED
 
 ---

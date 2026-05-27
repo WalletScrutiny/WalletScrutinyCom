@@ -1,7 +1,6 @@
 ---
 wsId: theKingdomBank
 title: The Kingdom Bank | Crypto Fiat
-verdict: custodial
 date: 2023-08-08
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 8
   icon: com.thekingdombank.app.png
   meta: ok
+  verdict: custodial
   developerName: TheKingdomBank
 iphone:
   appId: com.kingdom.TheKingdomBank
@@ -36,6 +36,7 @@ iphone:
   reviews: 1
   icon: com.kingdom.TheKingdomBank.jpg
   meta: ok
+  verdict: custodial
   developerName: The Kingdom Bank Corporation
 
 ---

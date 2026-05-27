@@ -1,6 +1,5 @@
 ---
 title: GemPay POS
-verdict: wip
 date: 2023-08-04
 website: https://gempay.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.gempay.png
   meta: removed
+  verdict: wip
   developerName: GemVault Fintech (PVT) Ltd.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 지원체인 월렛 - gone chain wallet
-verdict: wip
 date: 2024-04-19
 website: http://www.gonechain.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.bonsystem.gone.appwallet.png
   meta: removed
+  verdict: wip
   developerName: GONE Chain
 
 ---

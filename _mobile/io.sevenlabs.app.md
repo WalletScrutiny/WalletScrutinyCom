@@ -1,7 +1,6 @@
 ---
 wsId: truedex
 title: TrueDEX - Trading Unleashed
-verdict: wip
 date: 2024-08-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.3.1
   icon: io.sevenlabs.app.png
   meta: removed
+  verdict: wip
   developerName: Seven Labs LTD
 iphone:
   appId: io.sevenlabs.app
@@ -30,6 +30,7 @@ iphone:
   reviews: 3
   icon: io.sevenlabs.app.jpg
   meta: obsolete
+  verdict: wip
   developerName: Seven Labs Limited
 
 ---

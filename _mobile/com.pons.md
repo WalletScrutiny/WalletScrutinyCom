@@ -1,6 +1,5 @@
 ---
 title: DAO BANK
-verdict: wip
 date: 2021-11-22
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 11
   icon: com.pons.jpg
   meta: removed
+  verdict: wip
 
 ---
 

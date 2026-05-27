@@ -1,7 +1,6 @@
 ---
 wsId: fireflywalletpro
 title: Firefly Wallet Pro
-verdict: nosource
 date: 2023-03-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: io.fchain.firefly.png
   meta: removed
+  verdict: nosource
   developerName: Firefly Services
 iphone:
   appId: io.fchain.Fireflyz
@@ -30,6 +30,7 @@ iphone:
   reviews: 7
   icon: io.fchain.Fireflyz.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

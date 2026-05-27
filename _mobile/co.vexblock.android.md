@@ -1,6 +1,5 @@
 ---
 title: Vex Block Wallet
-verdict: wip
 date: 2023-04-20
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 18
   icon: co.vexblock.android.png
   meta: removed
+  verdict: wip
   developerName: Vex Capital And Technology LTD
 
 ---

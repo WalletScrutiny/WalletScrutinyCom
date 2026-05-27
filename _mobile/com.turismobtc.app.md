@@ -1,6 +1,5 @@
 ---
 title: TurismoBTC
-verdict: wip
 date: 2024-04-19
 website: http://www.turismobtc.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.4
   icon: com.turismobtc.app.png
   meta: removed
+  verdict: wip
   developerName: TurismoBTC
 
 ---

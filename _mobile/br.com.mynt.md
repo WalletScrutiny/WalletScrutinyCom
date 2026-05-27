@@ -1,7 +1,6 @@
 ---
 wsId: myntBitcoin
 title: 'Mynt: Bitcoin, ETH, SOL e mais'
-verdict: custodial
 date: 2026-01-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 5
   icon: br.com.mynt.png
   meta: ok
+  verdict: custodial
   developerName: MYNT TECNOLOGIA LTDA
 iphone:
   appId: br.com.mynt
@@ -33,6 +33,7 @@ iphone:
   reviews: 1880
   icon: br.com.mynt.jpg
   meta: ok
+  verdict: custodial
   developerName: MYNT TECNOLOGIA LTDA
 
 ---

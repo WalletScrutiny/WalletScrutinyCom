@@ -1,7 +1,6 @@
 ---
 wsId: swtWallet
 title: SWT Wallet
-verdict: nosource
 date: 2026-05-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.17.0
   icon: com.wirelessenergy.smartwallet.png
   meta: fewusers
+  verdict: nosource
   developerName: Smart Wallet Token
 iphone:
   appId: com.wirelessenergy.smartwallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.wirelessenergy.smartwallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Smart Wallet Token
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto APIs Approver
-verdict: wip
 date: 2024-04-03
 website: https://cryptoapis.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.6
   icon: cryptoapis.mobile.png
   meta: removed
+  verdict: wip
   developerName: Crypto APIs
 
 ---

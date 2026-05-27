@@ -1,7 +1,6 @@
 ---
 wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
-verdict: nosendreceive
 date: 2024-09-24
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 117
   icon: com.whitehat.cashin_app.png
   meta: ok
+  verdict: nosendreceive
   developerName: Macroblocs Ltd
 iphone:
   appId: com.macroblocs.cashinApp
@@ -35,6 +35,7 @@ iphone:
   reviews: 1243
   icon: com.macroblocs.cashinApp.jpg
   meta: obsolete
+  verdict: nosendreceive
   developerName: Macroblocs Limited
 
 ---

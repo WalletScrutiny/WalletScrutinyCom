@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Invest India
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptonews.bitcoin.invest.india/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptonews.bitcoin.invest.india.jpg
   meta: removed
+  verdict: wip
 
 ---
 

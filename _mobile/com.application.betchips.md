@@ -1,6 +1,5 @@
 ---
 title: BETC Crypto Wallet App
-verdict: wip
 date: 2024-04-03
 website: http://thebetc.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.application.betchips.png
   meta: removed
+  verdict: wip
   developerName: Shri Rudra
 
 ---

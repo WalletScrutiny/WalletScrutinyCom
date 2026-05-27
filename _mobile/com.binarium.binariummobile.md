@@ -1,6 +1,5 @@
 ---
 title: Binarium
-verdict: custodial
 date: 2021-09-03
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 17
   icon: com.binarium.binariummobile.png
   meta: ok
+  verdict: custodial
   developerName: Binarium LTD
 
 ---

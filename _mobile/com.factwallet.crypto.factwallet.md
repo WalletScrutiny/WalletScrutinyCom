@@ -1,6 +1,5 @@
 ---
 title: Fact Wallet - Bitcoin and cryptocurrency Wallet
-verdict: wip
 date: 2022-04-07
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: '1.4'
   icon: com.factwallet.crypto.factwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

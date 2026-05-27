@@ -1,6 +1,5 @@
 ---
 title: Zuo
-verdict: wip
 date: 2023-04-16
 website: http://zuobox.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.brsoftech.Zuo.jpg
   meta: removed
+  verdict: wip
   developerName: ZuoBox
 
 ---

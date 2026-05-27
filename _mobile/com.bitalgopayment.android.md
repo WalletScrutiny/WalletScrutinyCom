@@ -1,6 +1,5 @@
 ---
 title: BitalGo Multi Wallet
-verdict: wip
 date: 2023-04-20
 website: https://www.bitalgopayment.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.bitalgopayment.android.png
   meta: removed
+  verdict: wip
   developerName: Mahakarya Infotech
 
 ---

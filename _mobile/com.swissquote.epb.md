@@ -1,6 +1,5 @@
 ---
 title: Swissquote Robo-Advisor
-verdict: wip
 date: 2024-03-02
 website: https://www.swissquote.com/robo-advisory#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.1
   icon: com.swissquote.epb.jpg
   meta: removed
+  verdict: wip
   developerName: Swissquote Mobile
 
 ---

@@ -30,7 +30,6 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack Team
-  repository: https://github.com/cypherstack/stack_wallet
 iphone:
   appId: com.cypherstack.stackwallet
   idd: '1634811534'

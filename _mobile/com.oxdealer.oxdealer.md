@@ -1,6 +1,5 @@
 ---
 title: 0xdealer
-verdict: wip
 date: 2023-12-19
 website: https://0xdealer.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.oxdealer.oxdealer.png
   meta: removed
+  verdict: wip
   developerName: 0xdealer
 
 ---

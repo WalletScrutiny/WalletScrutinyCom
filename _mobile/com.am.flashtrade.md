@@ -1,6 +1,5 @@
 ---
 title: FLASHTRADE
-verdict: wip
 date: 2023-01-02
 website: https://www.flashtrade.club#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.am.flashtrade.png
   meta: removed
+  verdict: wip
 
 ---
 

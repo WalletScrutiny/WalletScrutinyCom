@@ -1,6 +1,5 @@
 ---
 title: Finzo Markets
-verdict: custodial
 date: 2021-11-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 66
   icon: com.finzo.png
   meta: removed
+  verdict: custodial
 
 ---
 

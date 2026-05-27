@@ -1,6 +1,5 @@
 ---
 title: 'Elegro: multi-currency wallet'
-verdict: custodial
 date: 2020-12-14
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 1
   icon: paydeepp.elegro.io.jpg
   meta: ok
+  verdict: custodial
   developerName: Niko Technologies
 
 ---

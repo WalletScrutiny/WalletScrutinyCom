@@ -1,6 +1,5 @@
 ---
 title: NastokenWalet
-verdict: wip
 date: 2023-08-25
 website: https://nastokenwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.nastokenwalet.com.png
   meta: removed
+  verdict: wip
   developerName: Nasprofits Llc
 
 ---

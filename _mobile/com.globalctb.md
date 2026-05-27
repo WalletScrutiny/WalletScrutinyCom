@@ -1,6 +1,5 @@
 ---
 title: GLOBALCTB
-verdict: wip
 date: 2024-04-19
 website: http://globalctb.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 0.6.3
   icon: com.globalctb.png
   meta: removed
+  verdict: wip
   developerName: StarsDeveloper
 
 ---

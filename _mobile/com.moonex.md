@@ -1,6 +1,5 @@
 ---
 title: MoonEX
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.moonex/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.moonex.png
   meta: removed
+  verdict: wip
   developerName: MOONEX Corp.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Hedged Bitcoin
-verdict: custodial
 date: 2022-03-07
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 2
   icon: com.hedged_bitcoin.png
   meta: removed
+  verdict: custodial
 
 ---
 

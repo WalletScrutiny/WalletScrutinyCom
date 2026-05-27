@@ -1,6 +1,5 @@
 ---
 title: PAY2PAL
-verdict: wip
 date: 2023-09-28
 website: https://pay2pal.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.2
   icon: adyone.in.pay2pal.png
   meta: removed
+  verdict: wip
   developerName: PAY2PAL NETWORK LLP
 
 ---

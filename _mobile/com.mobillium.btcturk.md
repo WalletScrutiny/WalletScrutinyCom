@@ -1,7 +1,6 @@
 ---
 wsId: BtcTurk
 title: 'BtcTurk | Bitcoin: Birikim Yap'
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 5106
   icon: com.mobillium.btcturk.jpg
   meta: removed
+  verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU
 iphone:
   appId: com.mobillium.btcturk
@@ -33,6 +33,7 @@ iphone:
   reviews: 26309
   icon: com.mobillium.btcturk.jpg
   meta: removed
+  verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

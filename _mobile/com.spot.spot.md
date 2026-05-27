@@ -1,7 +1,6 @@
 ---
 wsId: SpotWalletapp
 title: 'Spot: bitcoin & crypto wallet'
-verdict: nosource
 date: 2025-05-30
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 514
   icon: com.spot.spot.png
   meta: removed
+  verdict: nosource
   developerName: Spot crypto wallet
 iphone:
   appId: tech.spotapp.spot
@@ -34,6 +34,7 @@ iphone:
   reviews: 6989
   icon: tech.spotapp.spot.jpg
   meta: removed
+  verdict: nosource
   developerName: Spot
 
 ---

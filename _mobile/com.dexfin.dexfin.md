@@ -1,6 +1,5 @@
 ---
 title: DEXFIN
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.1
   icon: com.dexfin.dexfin.png
   meta: removed
+  verdict: wip
   developerName: DEXFIN
 
 ---

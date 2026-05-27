@@ -1,6 +1,5 @@
 ---
 title: Eliux
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/co.eliex.andrapp/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: co.eliex.andrapp.png
   meta: removed
+  verdict: wip
 
 ---
 

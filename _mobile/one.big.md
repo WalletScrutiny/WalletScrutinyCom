@@ -1,7 +1,6 @@
 ---
 wsId: BigONE
 title: BigONE - Bitcoin Trading
-verdict: custodial
 date: 2021-09-17
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 56
   icon: one.big.png
   meta: ok
+  verdict: custodial
   developerName: BigONE
 iphone:
   appId: base.big.one
@@ -33,6 +33,7 @@ iphone:
   reviews: 112
   icon: base.big.one.jpg
   meta: ok
+  verdict: custodial
   developerName: BigONE Investment Corporation
 
 ---

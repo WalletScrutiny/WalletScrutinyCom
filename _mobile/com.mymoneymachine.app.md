@@ -1,6 +1,5 @@
 ---
 title: 'MyMoneyMachine: Crypto Robots'
-verdict: wip
 date: 2024-09-21
 redirect_from:
 - /android/com.mymoneymachine.app/
@@ -12,6 +11,7 @@ android:
   version: '1.4'
   icon: com.mymoneymachine.app.jpg
   meta: removed
+  verdict: wip
   developerName: MyMoneyMachine
 
 ---

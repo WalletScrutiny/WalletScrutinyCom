@@ -1,6 +1,5 @@
 ---
 title: ESCB Wallet
-verdict: wip
 date: 2024-04-03
 website: https://escrowblock.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.idmid9e01m0afjvnmq1wu.png
   meta: removed
+  verdict: wip
   developerName: Escb Foundation
 
 ---

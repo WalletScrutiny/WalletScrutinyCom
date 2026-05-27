@@ -1,6 +1,5 @@
 ---
 title: Blockfin
-verdict: wip
 date: 2023-01-02
 website: https://www.wallstbulls.ai#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.blockfin.crypto.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: zebedee
 title: 'ZBD: Earn Bitcoin Rewards'
-verdict: custodial
 date: 2021-04-12
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 10002
   icon: io.zebedee.wallet.png
   meta: ok
+  verdict: custodial
   developerName: ZEBEDEE
 iphone:
   appId: io.zebedee.wallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 11304
   icon: io.zebedee.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Zebedee Inc.
 
 ---

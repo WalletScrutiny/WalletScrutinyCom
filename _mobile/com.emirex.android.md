@@ -1,6 +1,5 @@
 ---
 title: Emirex - trading platform
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '1.1'
   icon: com.emirex.android.png
   meta: removed
+  verdict: custodial
   developerName: Emirex
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: LetKnow - encrypted messenger
-verdict: wip
 date: 2023-01-02
 website: http://letknow.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.7'
   icon: news.letknow.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Legatow
-verdict: wip
 date: 2023-06-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.3
   icon: com.tempow.legatow.png
   meta: removed
+  verdict: wip
   developerName: Tempow Project
 
 ---

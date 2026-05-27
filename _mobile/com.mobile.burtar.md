@@ -1,6 +1,5 @@
 ---
 title: 'Burtar wallet: Buy, Sell & Swap Bitcoin & Crypto'
-verdict: wip
 date: 2022-05-31
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   reviews: 8
   icon: com.mobile.burtar.png
   meta: removed
+  verdict: wip
 
 ---
 

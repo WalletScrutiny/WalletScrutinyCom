@@ -1,6 +1,5 @@
 ---
 title: ZuPago
-verdict: wip
 date: 2021-04-15
 authors:
 - kiwilamb
@@ -15,6 +14,7 @@ android:
   reviews: 2
   icon: org.zupago.pe.png
   meta: removed
+  verdict: wip
 
 ---
 

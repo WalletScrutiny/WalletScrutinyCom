@@ -1,6 +1,5 @@
 ---
 title: 'FXPortal - Crypto Forex Stock '
-verdict: wip
 date: 2024-04-19
 website: https://story3app.web.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: fx.compt.crypto.png
   meta: removed
+  verdict: wip
   developerName: TheStoryApp
 
 ---

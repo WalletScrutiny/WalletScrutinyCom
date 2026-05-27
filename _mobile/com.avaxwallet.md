@@ -1,7 +1,6 @@
 ---
 wsId: coreCryptoWallet
 title: Core Wallet | Crypto Made Easy
-verdict: nosource
 date: 2023-07-02
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 138
   icon: com.avaxwallet.png
   meta: ok
+  verdict: nosource
   developerName: Ava Labs, Inc.
 iphone:
   appId: org.avalabs.corewallet
@@ -37,6 +37,7 @@ iphone:
   reviews: 137
   icon: org.avalabs.corewallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Ava Labs, Incorporated
 
 ---

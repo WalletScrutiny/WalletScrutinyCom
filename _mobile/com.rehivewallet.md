@@ -1,7 +1,6 @@
 ---
 wsId: rehivePay
 title: Rehive Pay
-verdict: custodial
 date: 2026-05-20
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 7.11.36
   icon: com.rehivewallet.png
   meta: ok
+  verdict: custodial
   developerName: Rehive
 iphone:
   appId: com.rehive.wallet
@@ -28,6 +28,7 @@ iphone:
   reviews: 4
   icon: com.rehive.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Rehive
 
 ---

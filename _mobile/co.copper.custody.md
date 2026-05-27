@@ -1,6 +1,5 @@
 ---
 title: Copper Unlimited
-verdict: custodial
 date: 2023-12-14
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   reviews: 4
   icon: co.copper.custody.jpg
   meta: ok
+  verdict: custodial
   developerName: COPPER TECHNOLOGIES (UK)
 
 ---

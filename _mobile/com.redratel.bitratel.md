@@ -1,6 +1,5 @@
 ---
 title: 비트라텔 BitRatel
-verdict: wip
 date: 2024-07-05
 website: https://redratel.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.1
   icon: com.redratel.bitratel.png
   meta: removed
+  verdict: wip
   developerName: RedRatel
 
 ---

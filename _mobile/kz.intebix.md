@@ -1,7 +1,6 @@
 ---
 wsId: intebix
 title: Intebix
-verdict: custodial
 date: 2026-05-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 2.2.0
   icon: kz.intebix.png
   meta: ok
+  verdict: custodial
   developerName: INTEBIX LTD
 iphone:
   appId: com.idea-soft.intebix
@@ -29,6 +29,7 @@ iphone:
   reviews: 13
   icon: com.idea-soft.intebix.jpg
   meta: ok
+  verdict: custodial
   developerName: BITEEU LTD
 
 ---

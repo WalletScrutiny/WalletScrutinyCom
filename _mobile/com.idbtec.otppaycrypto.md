@@ -1,6 +1,5 @@
 ---
 title: OTPPAY - Crypto Exchange & Mer
-verdict: wip
 date: 2023-05-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: com.idbtec.otppaycrypto.png
   meta: removed
+  verdict: wip
   developerName: Otppay OU
 
 ---

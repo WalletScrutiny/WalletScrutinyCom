@@ -1,6 +1,5 @@
 ---
 title: ai crypto trade
-verdict: wip
 date: 2024-11-15
 redirect_from:
 - /android/com.pockan.aicryptotrade/
@@ -12,6 +11,7 @@ android:
   version: '11.0'
   icon: com.pockan.aicryptotrade.png
   meta: removed
+  verdict: wip
   developerName: Pockan
 
 ---

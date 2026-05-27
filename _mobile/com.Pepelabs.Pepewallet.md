@@ -1,6 +1,5 @@
 ---
 title: 'Pepe Wallet: DeFi Crypto'
-verdict: wip
 date: 2024-09-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 69
   icon: com.Pepelabs.Pepewallet.png
   meta: removed
+  verdict: wip
   developerName: LusoLabs
 
 ---

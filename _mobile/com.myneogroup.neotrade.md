@@ -1,6 +1,5 @@
 ---
 title: NEO Wallet
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.myneogroup.neotrade/
@@ -12,6 +11,7 @@ android:
   version: '1.23'
   icon: com.myneogroup.neotrade.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Hybrid Wallet - BisonArmy
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.hybridwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: com.hybridwallet.png
   meta: removed
+  verdict: wip
   developerName: Dehghan Muhammad
 
 ---

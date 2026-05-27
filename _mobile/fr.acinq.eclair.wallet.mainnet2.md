@@ -1,6 +1,5 @@
 ---
 title: Eclair Mobile (EOL)
-verdict: sourceavailable
 date: 2024-03-02
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   reviews: 42
   icon: fr.acinq.eclair.wallet.mainnet2.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: ACINQ
 
 ---

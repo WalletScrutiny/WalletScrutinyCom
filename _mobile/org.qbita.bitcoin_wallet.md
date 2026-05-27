@@ -1,6 +1,5 @@
 ---
 title: QBita - Mercado de Bitcoin
-verdict: nosource
 date: 2023-04-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 11
   icon: org.qbita.bitcoin_wallet.png
   meta: obsolete
+  verdict: nosource
   developerName: Valzu
 
 ---

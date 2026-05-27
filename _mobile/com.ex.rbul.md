@@ -1,6 +1,5 @@
 ---
 title: Rbul Crypto Exchange
-verdict: wip
 date: 2024-12-08
 website: https://www.rbul.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.ex.rbul.png
   meta: removed
+  verdict: wip
   developerName: Redbul
 
 ---

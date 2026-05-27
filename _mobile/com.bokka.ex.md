@@ -1,6 +1,5 @@
 ---
 title: Bokka Exchange
-verdict: wip
 date: 2021-09-28
 website: https://www.bokka.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.25.251
   icon: com.bokka.ex.png
   meta: removed
+  verdict: wip
   developerName: Bokka
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: coinsph
 title: 'Coins: Buy Crypto & Pay Wallet'
-verdict: custodial
 date: 2020-10-12
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 553
   icon: asia.coins.mobile.png
   meta: ok
+  verdict: custodial
   developerName: Coins Asia
 iphone:
   appId: gctp.Coins
@@ -36,6 +36,7 @@ iphone:
   reviews: 3330
   icon: gctp.Coins.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

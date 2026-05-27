@@ -1,6 +1,5 @@
 ---
 title: AEM+ | Multi Crypto Wallet
-verdict: wip
 date: 2024-12-04
 website: https://www.aemalgorithm.io/aem-plus/main
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.14
   icon: com.aem.aemplus.png
   meta: removed
+  verdict: wip
   developerName: AEM Technologies
 
 ---

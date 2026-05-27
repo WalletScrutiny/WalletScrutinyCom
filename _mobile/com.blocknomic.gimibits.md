@@ -1,6 +1,5 @@
 ---
 title: Gimibits
-verdict: wip
 date: 2023-08-04
 website: https://gimibits.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.0
   icon: com.blocknomic.gimibits.png
   meta: removed
+  verdict: wip
   developerName: Blocknomic technologies
 
 ---

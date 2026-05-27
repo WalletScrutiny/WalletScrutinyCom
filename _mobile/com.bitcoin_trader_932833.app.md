@@ -1,6 +1,5 @@
 ---
 title: The Bitcoin Trader App
-verdict: nosendreceive
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   icon: com.bitcoin_trader_932833.app.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: NISHANT MAHESH KHARE
 
 ---

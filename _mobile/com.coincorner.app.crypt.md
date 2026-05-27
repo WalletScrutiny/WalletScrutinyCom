@@ -1,7 +1,6 @@
 ---
 wsId: coincorner
 title: CoinCorner
-verdict: custodial
 date: 2024-10-07
 authors:
 - kiwilamb
@@ -25,6 +24,7 @@ android:
   reviews: 5
   icon: com.coincorner.app.crypt.png
   meta: removed
+  verdict: custodial
   developerName: CoinCorner Ltd
 iphone:
   appId: com.coincorner.app.crypt
@@ -36,6 +36,7 @@ iphone:
   reviews: 309
   icon: com.coincorner.app.crypt.jpg
   meta: ok
+  verdict: custodial
   developerName: CoinCorner Ltd
 
 ---

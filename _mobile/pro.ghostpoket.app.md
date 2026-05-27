@@ -1,6 +1,5 @@
 ---
 title: 'Ghost Wallet: Crypto Bitcoin'
-verdict: nosource
 date: 2026-04-23
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.1.5
   icon: pro.ghostpoket.app.png
   meta: ok
+  verdict: nosource
   developerName: GhostWallet Global
 
 ---

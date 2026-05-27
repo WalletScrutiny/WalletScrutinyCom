@@ -1,6 +1,5 @@
 ---
 title: IM Card
-verdict: wip
 date: 2025-09-29
 website: https://imtechng.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.7.2
   icon: com.im.tech.imcard.jpg
   meta: removed
+  verdict: wip
   developerName: IM Card
 
 ---

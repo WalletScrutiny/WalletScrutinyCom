@@ -1,6 +1,5 @@
 ---
 title: BULL
-verdict: sourceavailable
 date: 2025-01-13
 authors:
 - danny
@@ -33,6 +32,7 @@ android:
   reviews: 7
   icon: com.bullbitcoin.mobile.png
   meta: ok
+  verdict: sourceavailable
   developerName: Bull Bitcoin
 
 ---

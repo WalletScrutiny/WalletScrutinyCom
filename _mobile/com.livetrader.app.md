@@ -1,6 +1,5 @@
 ---
 title: LiveTrader
-verdict: wip
 date: 2023-09-15
 website: https://www.livetraderfx.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.1.93
   icon: com.livetrader.app.png
   meta: removed
+  verdict: wip
   developerName: LiveTrader LTD
 
 ---

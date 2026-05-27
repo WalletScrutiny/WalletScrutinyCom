@@ -1,6 +1,5 @@
 ---
 title: Sanctuary Wallet
-verdict: wip
 date: 2024-12-04
 redirect_from:
 - /android/com.sanctuaryex.wallet/
@@ -12,6 +11,7 @@ android:
   version: 2.0.16
   icon: com.sanctuaryex.wallet.png
   meta: removed
+  verdict: wip
   developerName: Sanctuary Dex Corp.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: XchangeOn
-verdict: wip
 date: 2023-07-29
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 12
   icon: com.xchangeonio.png
   meta: defunct
+  verdict: wip
   developerName: Xchangeon
 
 ---

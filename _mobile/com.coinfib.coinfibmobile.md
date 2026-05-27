@@ -1,6 +1,5 @@
 ---
 title: Coinfib
-verdict: wip
 date: 2024-04-03
 website: https://www.coinfib.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: com.coinfib.coinfibmobile.png
   meta: removed
+  verdict: wip
   developerName: Coinfib
 
 ---

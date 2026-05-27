@@ -1,6 +1,5 @@
 ---
 title: 프로비트 - 가상자산 거래소 (비트코인,이더리움,리플)
-verdict: custodial
 date: 2024-05-07
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 8
   icon: com.probit.app.android2.release.korea.png
   meta: removed
+  verdict: custodial
   developerName: Oceans Inc
 
 ---

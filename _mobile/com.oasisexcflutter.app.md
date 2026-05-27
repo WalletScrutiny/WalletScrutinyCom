@@ -1,6 +1,5 @@
 ---
 title: 오아시스 거래소
-verdict: wip
 date: 2024-08-07
 redirect_from:
 - /android/com.oasisexcflutter.app/
@@ -12,6 +11,7 @@ android:
   version: 2.3.21
   icon: com.oasisexcflutter.app.png
   meta: removed
+  verdict: wip
   developerName: Oasis Exchange
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: IE Option - Bitcoin Trading App&Crypto Trading
-verdict: wip
 date: 2023-01-02
 website: https://www.ieoption.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1329
   icon: com.ie.option.png
   meta: removed
+  verdict: wip
 
 ---
 

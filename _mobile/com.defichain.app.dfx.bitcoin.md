@@ -1,6 +1,5 @@
 ---
 title: DFX Bitcoin Wallet
-verdict: wip
 date: 2023-12-19
 website: https://dfx.swiss/bitcoin#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.1
   icon: com.defichain.app.dfx.bitcoin.png
   meta: removed
+  verdict: wip
   developerName: DFX AG
 
 ---

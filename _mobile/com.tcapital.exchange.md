@@ -1,6 +1,5 @@
 ---
 title: Tcapex
-verdict: wip
 date: 2024-07-05
 website: https://ex.tcapex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.5
   icon: com.tcapital.exchange.png
   meta: removed
+  verdict: wip
   developerName: TECHNOLOGY CAPITAL HOLDINGS, LLC
 
 ---

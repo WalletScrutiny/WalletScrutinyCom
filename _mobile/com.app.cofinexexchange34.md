@@ -1,7 +1,6 @@
 ---
 wsId: Cofinex
 title: Cofinex.io Buy BTC, ETH, LTC
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '3.0'
   icon: com.app.cofinexexchange34.png
   meta: removed
+  verdict: custodial
   developerName: Cofinex Inc Ltd.
 iphone:
   appId: com.cofinex.app
@@ -32,6 +32,7 @@ iphone:
   version: '1.0'
   icon: com.cofinex.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: rakutenCrypto
 title: 楽天ウォレットの暗号資産取引アプリ
-verdict: custodial
 date: 2023-07-29
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.6.5
   icon: jp.co.rakuten.wallet.crypto.png
   meta: ok
+  verdict: custodial
   developerName: Rakuten Wallet
 iphone:
   appId: jp.co.rakuten.wallet.crypto
@@ -28,6 +28,7 @@ iphone:
   reviews: 9789
   icon: jp.co.rakuten.wallet.crypto.jpg
   meta: ok
+  verdict: custodial
   developerName: Rakuten Wallet, Inc.
 
 ---

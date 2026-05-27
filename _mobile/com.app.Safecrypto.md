@@ -1,6 +1,5 @@
 ---
 title: Safecrypto wallet
-verdict: wip
 date: 2023-08-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 11
   icon: com.app.Safecrypto.png
   meta: removed
+  verdict: wip
   developerName: SAFE WALL
 
 ---

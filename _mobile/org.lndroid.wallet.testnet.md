@@ -1,6 +1,5 @@
 ---
 title: Lndroid.Wallet Testnet
-verdict: wip
 date: 2024-04-03
 website: https://lndroid.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.6-testnet
   icon: org.lndroid.wallet.testnet.png
   meta: removed
+  verdict: wip
   developerName: Artur Briugeman
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: cryptopay
 title: 'Cryptopay: Spend Crypto Daily'
-verdict: custodial
 date: 2026-01-28
 website: https://cryptopay.me
 twitter: cryptopay
@@ -21,6 +20,7 @@ android:
   reviews: 64
   icon: me.cryptopay.android.png
   meta: removed
+  verdict: custodial
   developerName: Cryptopay Ltd
 iphone:
   appId: me.cryptopay.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 340
   icon: me.cryptopay.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Cryptopay
 
 ---

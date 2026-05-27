@@ -1,7 +1,6 @@
 ---
 wsId: koinkoin
 title: KoinKoin Exchange
-verdict: custodial
 date: 2024-01-18
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 6.2.5
   icon: com.koinkoin.png
   meta: removed
+  verdict: custodial
   developerName: KoinKoin Development Enterprise
 iphone:
   appId: com.koinkoin.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 1
   icon: com.koinkoin.app.jpg
   meta: ok
+  verdict: custodial
   developerName: KoinKoin Ltd
 
 ---

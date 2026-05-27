@@ -1,7 +1,6 @@
 ---
 wsId: PionexLite
 title: Pionex - Buy Bitcoin & Ethereum
-verdict: custodial
 date: 2024-10-07
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 16
   icon: com.pionex.lite.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.pionex.lite.appstore
   idd: 1567213944
@@ -29,6 +29,7 @@ iphone:
   reviews: 1201
   icon: com.pionex.lite.appstore.jpg
   meta: ok
+  verdict: custodial
   developerName: PIONEX PTE. LTD.
 
 ---

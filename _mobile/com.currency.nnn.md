@@ -1,6 +1,5 @@
 ---
 title: NNN-Trade Crypto,BTC,ETH,Defi
-verdict: wip
 date: 2023-03-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.0
   icon: com.currency.nnn.png
   meta: removed
+  verdict: wip
   developerName: nanaya
 
 ---

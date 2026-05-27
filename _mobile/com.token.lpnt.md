@@ -1,6 +1,5 @@
 ---
 title: LPNT - Crypto Wallet
-verdict: nosource
 date: 2025-02-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 4
   icon: com.token.lpnt.png
   meta: removed
+  verdict: nosource
   developerName: LUXURIOUS PRO NETWORK GROUP
 
 ---

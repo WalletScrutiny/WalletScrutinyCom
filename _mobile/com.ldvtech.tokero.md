@@ -1,7 +1,6 @@
 ---
 wsId: tokero
 title: TOKERO
-verdict: custodial
 date: 2023-04-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 5
   icon: com.ldvtech.tokero.png
   meta: removed
+  verdict: custodial
   developerName: Globe Monnaie SRL
 iphone:
   appId: com.ldvtech.tokero
@@ -35,6 +35,7 @@ iphone:
   reviews: 25
   icon: com.ldvtech.tokero.jpg
   meta: ok
+  verdict: custodial
   developerName: Globe Monnaie SRL
 
 ---

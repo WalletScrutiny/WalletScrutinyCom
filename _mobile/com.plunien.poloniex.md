@@ -1,7 +1,6 @@
 ---
 wsId: Poloniex
 title: Poloniex Crypto Exchange
-verdict: custodial
 date: 2020-05-29
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 241
   icon: com.plunien.poloniex.png
   meta: ok
+  verdict: custodial
   developerName: poloniex
 iphone:
   appId: com.plunien.app.Poloniex
@@ -34,6 +34,7 @@ iphone:
   reviews: 2030
   icon: com.plunien.app.Poloniex.jpg
   meta: removed
+  verdict: custodial
   developerName: Polo Digital Assets, Ltd
 
 ---

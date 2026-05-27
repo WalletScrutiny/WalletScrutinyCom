@@ -1,6 +1,5 @@
 ---
 title: WhiteBIT U (Beta)
-verdict: wip
 date: 2023-08-04
 website: https://whitebit.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.9.65
   icon: com.whitebit.whitebitu.png
   meta: removed
+  verdict: wip
   developerName: WhiteBit
 
 ---

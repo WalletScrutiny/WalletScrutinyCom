@@ -1,6 +1,5 @@
 ---
 title: Mobilink Wallet
-verdict: wip
 date: 2023-05-30
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.4'
   icon: com.mobilink.token.png
   meta: removed
+  verdict: wip
   developerName: B2GO APPS
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Arzypto
-verdict: custodial
 date: 2025-03-11
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 6
   icon: com.arzypto.my.png
   meta: removed
+  verdict: custodial
   developerName: Arzypto
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: biscoint
 title: 'BityBank: Bitcoin e Crypto'
-verdict: nosendreceive
 date: 2023-03-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 6
   icon: io.biscoint.lite.png
   meta: ok
+  verdict: nosendreceive
   developerName: bity.com.br
 iphone:
   appId: io.biscoint.lite
@@ -32,6 +32,7 @@ iphone:
   reviews: 8786
   icon: io.biscoint.lite.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Biscoint
 
 ---

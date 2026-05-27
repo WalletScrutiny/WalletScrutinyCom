@@ -1,6 +1,5 @@
 ---
 title: InstaFx
-verdict: wip
 date: 2024-12-04
 website: https://instfx.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.web.instafx.png
   meta: removed
+  verdict: wip
   developerName: InstaFx
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: STAR BIT - 結合加密貨幣錢包的區塊鏈app
-verdict: wip
 date: 2024-07-05
 website: https://home.star-bit.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.6
   icon: io.starbit.portal.png
   meta: removed
+  verdict: wip
   developerName: STAR_BIT_Innovation
 
 ---

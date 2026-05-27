@@ -1,6 +1,5 @@
 ---
 title: BitcoinEX
-verdict: wip
 date: 2024-02-05
 website: https://btex.com.au/en#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: au.com.btex.app.png
   meta: removed
+  verdict: wip
   developerName: oziwebsite
 
 ---

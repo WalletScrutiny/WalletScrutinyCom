@@ -1,6 +1,5 @@
 ---
 title: Coin24 - Bitcoin, cryptocurren
-verdict: wip
 date: 2023-04-20
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   icon: coin24.mobile.png
   meta: removed
+  verdict: wip
   developerName: 주식회사 블록첸
 
 ---

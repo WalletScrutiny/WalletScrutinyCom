@@ -1,6 +1,5 @@
 ---
 title: Admiral Option
-verdict: wip
 date: 2023-02-03
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 121
   icon: com.admiral.png
   meta: removed
+  verdict: wip
   developerName: Admiral Option Limited
 
 ---

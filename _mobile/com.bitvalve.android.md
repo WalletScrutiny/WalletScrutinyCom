@@ -1,6 +1,5 @@
 ---
 title: BitValve - P2P Crypto Exchange
-verdict: custodial
 date: 2021-11-03
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 62
   icon: com.bitvalve.android.png
   meta: ok
+  verdict: custodial
   developerName: BitValve Developer
 
 ---

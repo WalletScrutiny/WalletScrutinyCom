@@ -1,6 +1,5 @@
 ---
 title: BOXTradEx
-verdict: wip
 date: 2023-03-21
 website: https://www.boxtradex.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.4
   icon: com.plusblocks.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

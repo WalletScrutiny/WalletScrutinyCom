@@ -1,6 +1,5 @@
 ---
 title: 'BoltX: NFT & Crypto Wallet'
-verdict: custodial
 date: 2024-10-31
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   reviews: 21
   icon: com.bolt.pegasus.png
   meta: removed
+  verdict: custodial
   developerName: Bolt Global
 
 ---

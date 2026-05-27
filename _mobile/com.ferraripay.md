@@ -1,6 +1,5 @@
 ---
 title: FERRARIPAY
-verdict: wip
 date: 2023-12-19
 website: https://ferrari-pay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.ferraripay.png
   meta: removed
+  verdict: wip
   developerName: FERRARI-PAY SOFTWARE SOLUTION
 
 ---

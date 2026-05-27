@@ -1,6 +1,5 @@
 ---
 title: CryptoMarket
-verdict: wip
 date: 2021-09-19
 redirect_from:
 - /android/com.cryptomkt.app/
@@ -13,6 +12,7 @@ android:
   reviews: 323
   icon: com.cryptomkt.app.png
   meta: removed
+  verdict: wip
 
 ---
 

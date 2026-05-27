@@ -1,6 +1,5 @@
 ---
 title: GB Pro
-verdict: wip
 date: 2023-01-02
 website: https://genesisblockhk.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.gbotc.png
   meta: removed
+  verdict: wip
 
 ---
 

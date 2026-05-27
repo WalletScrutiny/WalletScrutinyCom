@@ -1,6 +1,5 @@
 ---
 title: CoinsLiberty Crypto Wallet
-verdict: wip
 date: 2024-04-26
 website: https://coinsliberty.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.coinsliberty.wallet.png
   meta: removed
+  verdict: wip
   developerName: Captiva Cay Platforms
 
 ---

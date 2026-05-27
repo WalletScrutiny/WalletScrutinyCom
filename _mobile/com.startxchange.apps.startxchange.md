@@ -1,6 +1,5 @@
 ---
 title: StartXchange
-verdict: wip
 date: 2024-05-18
 website: https://startxchange.com.gh#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.startxchange.apps.startxchange.jpg
   meta: removed
+  verdict: wip
   developerName: STARTUS TECHNOLOGIES
 
 ---

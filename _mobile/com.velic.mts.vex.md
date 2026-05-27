@@ -1,6 +1,5 @@
 ---
 title: VELIC
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.2.0
   icon: com.velic.mts.vex.png
   meta: removed
+  verdict: wip
   developerName: VELIC Services
 
 ---

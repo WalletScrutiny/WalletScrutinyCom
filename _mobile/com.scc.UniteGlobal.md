@@ -1,6 +1,5 @@
 ---
 title: UniteGlobal
-verdict: wip
 date: 2025-05-14
 redirect_from:
 - /android/com.scc.UniteGlobal/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.scc.UniteGlobal.png
   meta: removed
+  verdict: wip
   developerName: SCC Co., Ltd.
 
 ---

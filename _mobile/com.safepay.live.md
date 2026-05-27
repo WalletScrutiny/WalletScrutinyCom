@@ -1,6 +1,5 @@
 ---
 title: Safepay - Buy Sell Crypto
-verdict: wip
 date: 2024-12-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 3.0.0
   icon: com.safepay.live.png
   meta: removed
+  verdict: wip
   developerName: safepay
 
 ---

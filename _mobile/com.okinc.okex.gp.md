@@ -1,7 +1,6 @@
 ---
 wsId: OKEx
 title: 'OKX: Buy Bitcoin BTC & Crypto'
-verdict: custodial
 date: 2020-05-29
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 3901
   icon: com.okinc.okex.gp.png
   meta: ok
+  verdict: custodial
   developerName: OKX INC.
 iphone:
   appId: com.okex.OKExAppstoreFull
@@ -34,6 +34,7 @@ iphone:
   reviews: 22263
   icon: com.okex.OKExAppstoreFull.jpg
   meta: ok
+  verdict: custodial
   developerName: OKX MALTA LTD
 
 ---

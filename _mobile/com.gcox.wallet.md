@@ -1,6 +1,5 @@
 ---
 title: ACM Blockchain Wallet
-verdict: wip
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.6
   icon: com.gcox.wallet.png
   meta: removed
+  verdict: wip
   developerName: GCOX
 
 ---

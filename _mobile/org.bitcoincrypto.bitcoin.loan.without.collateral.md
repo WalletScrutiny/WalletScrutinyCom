@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Loan Without Collateral
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.bitcoincrypto.bitcoin.loan.without.collateral/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.bitcoincrypto.bitcoin.loan.without.collateral.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: voltaXRPayNet
 title: Volta Wallet
-verdict: nosource
 date: 2023-07-07
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   reviews: 45
   icon: com.xrpaynet.app.png
   meta: ok
+  verdict: nosource
   developerName: XRPayNet
 iphone:
   appId: com.xrpaynet.app
@@ -40,6 +40,7 @@ iphone:
   reviews: 30
   icon: com.xrpaynet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: XRPAYNET GLOBAL LIMITED
 
 ---

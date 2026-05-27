@@ -1,6 +1,5 @@
 ---
 title: Monetium Exchange
-verdict: wip
 date: 2024-02-05
 website: https://mntex.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.mntex.monetiumexchange.png
   meta: removed
+  verdict: wip
   developerName: 모네티움
 
 ---

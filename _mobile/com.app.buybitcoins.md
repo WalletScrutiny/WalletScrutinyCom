@@ -1,6 +1,5 @@
 ---
 title: BuyBitcoins.App - Peer2Peer Bi
-verdict: wip
 date: 2023-12-19
 website: https://mobapibbc.buybitcoins.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.app.buybitcoins.png
   meta: removed
+  verdict: wip
   developerName: 'Fetch - Local Pet Marketplace by : Darryl McGee'
 
 ---

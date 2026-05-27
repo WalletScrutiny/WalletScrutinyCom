@@ -1,6 +1,5 @@
 ---
 title: Fixttoken - Fixt token Smart W
-verdict: wip
 date: 2023-12-19
 website: https://app.fixttoken.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.7
   icon: com.fixttoken.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Artificial intelligence technology
 
 ---

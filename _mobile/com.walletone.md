@@ -1,6 +1,5 @@
 ---
 title: WalletOne
-verdict: wip
 date: 2024-05-07
 website: https://walletone.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.walletone.png
   meta: removed
+  verdict: wip
   developerName: W30 Apps
 
 ---

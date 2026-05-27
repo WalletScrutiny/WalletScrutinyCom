@@ -1,6 +1,5 @@
 ---
 title: B.P.S SmartWallet
-verdict: wip
 date: 2023-12-19
 website: https://bps.money
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.44.1
   icon: com.bpstwalletnew.png
   meta: removed
+  verdict: wip
   developerName: AEQUO ANIMO AG
 
 ---

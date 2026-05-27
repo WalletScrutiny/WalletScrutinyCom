@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Invest Uk
-verdict: wip
 date: 2021-09-23
 redirect_from:
 - /android/com.balletcrypto.bitcoin.invest.uk/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.balletcrypto.bitcoin.invest.uk.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Banco Bitcoin
-verdict: wip
 date: 2024-04-03
 website: https://bancobitcoin.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: appinventor.ai_suporte.bancobitcoin.png
   meta: removed
+  verdict: wip
   developerName: Devtech Development Ltd
 
 ---

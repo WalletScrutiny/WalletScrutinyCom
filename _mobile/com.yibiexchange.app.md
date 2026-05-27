@@ -1,7 +1,6 @@
 ---
 wsId: yibiExchange
 title: YIBI - Buy Bitcoin Instantly
-verdict: custodial
 date: 2024-08-19
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.3.90
   icon: com.yibiexchange.app.png
   meta: removed
+  verdict: custodial
   developerName: YIBI
 iphone:
   appId: com.yibi
@@ -35,6 +35,7 @@ iphone:
   reviews: 3
   icon: com.yibi.jpg
   meta: removed
+  verdict: custodial
   developerName: YIBI LTD
 
 ---

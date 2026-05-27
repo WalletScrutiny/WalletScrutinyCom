@@ -1,6 +1,5 @@
 ---
 title: Lunes Wallet  - Lunes, Bitcoin, Litecoin,  Buy BTC
-verdict: nosource
 date: 2021-12-29
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   reviews: 184
   icon: com.luneswallet.png
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Jesta wallet - Trade crypto
-verdict: wip
 date: 2023-07-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 60
   icon: com.jestaapp.wallet.png
   meta: removed
+  verdict: wip
   developerName: GGTC GLOBAL
 
 ---

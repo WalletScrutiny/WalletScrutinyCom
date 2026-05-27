@@ -1,6 +1,5 @@
 ---
 title: CryptoTag Crypto Mobile
-verdict: wip
 date: 2024-04-03
 website: http://www.cryptotag.financial#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.14.40.00000
   icon: com.cryptotag.mobile.png
   meta: removed
+  verdict: wip
   developerName: Crypto Tag
 
 ---

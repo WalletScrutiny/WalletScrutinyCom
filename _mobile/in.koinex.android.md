@@ -1,6 +1,5 @@
 ---
 title: Koinex - India's largest digit
-verdict: wip
 date: 2024-05-07
 website: https://koinex.in#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 9
   icon: in.koinex.android.png
   meta: removed
+  verdict: wip
   developerName: Discidium Internet Labs Pvt. Ltd.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: GFB Trading Group
-verdict: wip
 date: 2024-04-19
 website: https://gfbtrading-group.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: gfb.trading.group.jpg
   meta: removed
+  verdict: wip
   developerName: GFB Trading Group
 
 ---

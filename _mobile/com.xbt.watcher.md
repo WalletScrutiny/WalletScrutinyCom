@@ -1,6 +1,5 @@
 ---
 title: Prime XBT Futures Pro
-verdict: fake
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 6
   icon: com.xbt.watcher.png
   meta: removed
+  verdict: fake
   developerName: XBT Crypto Media
 
 ---

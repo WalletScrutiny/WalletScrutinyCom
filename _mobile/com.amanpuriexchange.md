@@ -1,6 +1,5 @@
 ---
 title: Amanpuri
-verdict: wip
 date: 2024-02-05
 website: https://amanpuri.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.amanpuriexchange.png
   meta: removed
+  verdict: wip
   developerName: AMANPURI CO., LTD.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Toropal: Send Money'
-verdict: wip
 date: 2024-04-19
 website: https://www.toropal.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.app.toropal.jpg
   meta: removed
+  verdict: wip
   developerName: Toropal Inc
 
 ---

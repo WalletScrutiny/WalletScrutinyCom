@@ -1,6 +1,5 @@
 ---
 title: 'BITBLINX - Bitcoin Exchange & '
-verdict: wip
 date: 2024-07-05
 website: https://bitblinx.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 5
   icon: com.bitblinx.exchange.png
   meta: removed
+  verdict: wip
   developerName: BitBlinx
 
 ---

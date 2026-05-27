@@ -1,6 +1,5 @@
 ---
 title: NExTouch
-verdict: nosource
 date: 2024-10-19
 website: http://www.eunex.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.57
   icon: kr.co.keypair.nextouch.png
   meta: removed
+  verdict: nosource
   developerName: Keypair Co., Ltd.
 
 ---

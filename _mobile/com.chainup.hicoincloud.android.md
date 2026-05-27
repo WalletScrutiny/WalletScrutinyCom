@@ -1,7 +1,6 @@
 ---
 wsId: chainUpCustody
 title: ChainUp Custody
-verdict: custodial
 date: 2025-02-28
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 6.10.5
   icon: com.chainup.hicoincloud.android.png
   meta: ok
+  verdict: custodial
   developerName: KeySecure
 iphone:
   appId: com.joycoin.hicoin
@@ -36,6 +36,7 @@ iphone:
   reviews: 3
   icon: com.joycoin.hicoin.jpg
   meta: ok
+  verdict: custodial
   developerName: YALASO PTE. LTD.
 
 ---

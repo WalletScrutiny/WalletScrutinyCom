@@ -1,6 +1,5 @@
 ---
 title: NulPay - Merchant
-verdict: wip
 date: 2026-03-18
 website: https://nulpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4'
   icon: nulpay.merchant.jpg
   meta: obsolete
+  verdict: wip
   developerName: Nulpay
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: VCB
-verdict: wip
 date: 2023-08-04
 website: http://www.vcb.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.3.0
   icon: com.coldlar.vcb.png
   meta: removed
+  verdict: wip
   developerName: VCB Information Technology PTY Ltd
 
 ---

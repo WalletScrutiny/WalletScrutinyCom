@@ -1,6 +1,5 @@
 ---
 title: DAO Wallet Bitcoin-Crypto Fiat
-verdict: wip
 date: 2024-02-05
 website: https://fdao.vn#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2005311702'
   icon: com.fdao.dawallet.png
   meta: removed
+  verdict: wip
   developerName: DAO GROUP., JSC
 
 ---

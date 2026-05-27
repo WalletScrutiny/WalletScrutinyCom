@@ -1,6 +1,5 @@
 ---
 title: BitDa Cryptocurrency Wallet
-verdict: wip
 date: 2026-01-14
 redirect_from:
 - /android/com.bitda.wallet/
@@ -11,6 +10,7 @@ android:
   version: 1.1.0
   icon: com.bitda.wallet.png
   meta: fewusers
+  verdict: wip
   developerName: BitDaTech
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: ftxus
 title: 'FTX.US Pro: Trade Crypto'
-verdict: custodial
 date: 2023-01-11
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 639
   icon: com.ftxmobile.ftxus.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.ftx.FTXMobile.FTXUS
   idd: 1512655474
@@ -31,6 +31,7 @@ iphone:
   reviews: 260
   icon: com.ftx.FTXMobile.FTXUS.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

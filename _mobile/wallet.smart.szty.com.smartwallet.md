@@ -1,6 +1,5 @@
 ---
 title: FLX Wallet
-verdict: wip
 date: 2023-01-02
 website: https://flxwallet.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 2
   icon: wallet.smart.szty.com.smartwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

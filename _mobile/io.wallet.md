@@ -1,7 +1,6 @@
 ---
 wsId: WalletIO
 title: wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)
-verdict: nosource
 date: 2022-02-25
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 12
   icon: io.wallet.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: io.wallet.ios
   idd: 1459857368
@@ -32,6 +32,7 @@ iphone:
   reviews: 21
   icon: io.wallet.ios.jpg
   meta: removed
+  verdict: nosource
   developerName: Taiyi Technology Beijing Co., Ltd.
 
 ---

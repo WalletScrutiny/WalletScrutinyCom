@@ -1,6 +1,5 @@
 ---
 title: Coinsate
-verdict: wip
 date: 2024-04-03
 website: https://trade.coinsate.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.5
   icon: com.coinsate.droidapp.png
   meta: removed
+  verdict: wip
   developerName: Coinsate Dev Team
 
 ---

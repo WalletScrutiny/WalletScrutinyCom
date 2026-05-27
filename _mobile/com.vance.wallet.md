@@ -1,6 +1,5 @@
 ---
 title: VANCE Crypto Exchange
-verdict: wip
 date: 2024-04-03
 website: https://vancetoken.us#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.21.0
   icon: com.vance.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: EVANCE Tech Inc.
 
 ---

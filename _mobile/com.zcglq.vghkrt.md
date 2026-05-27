@@ -1,6 +1,5 @@
 ---
 title: Tron TRX-B
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.zcglq.vghkrt/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.zcglq.vghkrt.png
   meta: removed
+  verdict: wip
 
 ---
 

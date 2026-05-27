@@ -1,6 +1,5 @@
 ---
 title: CybexDex
-verdict: wip
 date: 2024-02-05
 website: http://www.cybex.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.10.3
   icon: com.cybexmobile.google.png
   meta: removed
+  verdict: wip
   developerName: Cybex
 
 ---

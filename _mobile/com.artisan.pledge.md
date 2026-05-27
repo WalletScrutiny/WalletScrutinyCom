@@ -1,6 +1,5 @@
 ---
 title: 'AScoin Wallet: Crypto & BTC'
-verdict: nosource
 date: 2025-11-12
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 7
   icon: com.artisan.pledge.png
   meta: ok
+  verdict: nosource
   developerName: CRYPASSURE PTE. LTD.
 
 ---

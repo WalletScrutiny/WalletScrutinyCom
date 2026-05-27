@@ -1,6 +1,5 @@
 ---
 title: Bit Index AI
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/org.investing.bit.index.ai.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.investing.bit.index.ai.app.png
   meta: removed
+  verdict: wip
   developerName: ImmediateEdge™ OfficialApp
 
 ---

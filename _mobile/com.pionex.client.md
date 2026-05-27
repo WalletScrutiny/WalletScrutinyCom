@@ -1,7 +1,6 @@
 ---
 wsId: pionex
 title: Pionex - Crypto Trading Bot
-verdict: custodial
 date: 2021-09-03
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 560
   icon: com.pionex.client.jpg
   meta: ok
+  verdict: custodial
   developerName: Pionex
 iphone:
   appId: org.pionex
@@ -30,6 +30,7 @@ iphone:
   reviews: 61
   icon: org.pionex.jpg
   meta: removed
+  verdict: custodial
   developerName: Bituniverse
 
 ---

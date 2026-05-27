@@ -1,6 +1,5 @@
 ---
 title: PAYEER
-verdict: custodial
 date: 2026-01-28
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 206
   icon: com.payeer.png
   meta: removed
+  verdict: custodial
   developerName: Payeer Official
 
 ---

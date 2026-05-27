@@ -1,7 +1,6 @@
 ---
 wsId: ZcomEx
 title: Z.com EX - Buy/Sell Bitcoin
-verdict: custodial
 date: 2021-11-08
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 34
   icon: com.gmo.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: GMO-Z.com Cryptonomics Ltd. Thailand
 iphone:
   appId: com.gmo.exchange
@@ -32,6 +32,7 @@ iphone:
   reviews: 31
   icon: com.gmo.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: GMO-Z.Com Cryptonomics (Thailand) Co.,Ltd
 
 ---

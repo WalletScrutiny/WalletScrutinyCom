@@ -1,6 +1,5 @@
 ---
 title: Falcon Wallet
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.wallet.falcon/
@@ -12,6 +11,7 @@ android:
   version: 3.0.0
   icon: com.wallet.falcon.png
   meta: removed
+  verdict: wip
   developerName: Tycoon69 Int
 
 ---

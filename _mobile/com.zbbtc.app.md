@@ -1,6 +1,5 @@
 ---
 title: 中币ZB-Buy Bitcoin, ETH, Crypto
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.zbbtc.app/
@@ -13,6 +12,7 @@ android:
   reviews: 8
   icon: com.zbbtc.app.png
   meta: removed
+  verdict: wip
 
 ---
 

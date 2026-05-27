@@ -1,6 +1,5 @@
 ---
 title: EXPO Mobile Wallet
-verdict: wip
 date: 2023-05-24
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.15
   icon: com.expo.wallet.png
   meta: removed
+  verdict: wip
   developerName: EXPO R&M
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: safelloBitcoin
 title: 'Safello: Buy Bitcoin & crypto'
-verdict: custodial
 date: 2025-12-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.62.1
   icon: com.safello.androidsapp.png
   meta: ok
+  verdict: custodial
   developerName: Safello
 iphone:
   appId: com.safello.iosapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 3300
   icon: com.safello.iosapp.jpg
   meta: ok
+  verdict: custodial
   developerName: Safello AB
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Cypher Box
-verdict: wip
 date: 2026-02-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 0.0.8
   icon: io.cypherbox.btc.png
   meta: fewusers
+  verdict: wip
   developerName: Cypher Box LLC
 
 ---

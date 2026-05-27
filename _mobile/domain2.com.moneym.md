@@ -1,6 +1,5 @@
 ---
 title: WebMoney Crypto
-verdict: wip
 date: 2022-03-24
 redirect_from:
 - /android/domain2.com.moneym/
@@ -12,6 +11,7 @@ android:
   version: '19.0'
   icon: domain2.com.moneym.png
   meta: removed
+  verdict: wip
 
 ---
 

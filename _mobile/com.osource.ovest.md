@@ -1,6 +1,5 @@
 ---
 title: OVest
-verdict: wip
 date: 2024-09-10
 website: https://myovest.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.osource.ovest.png
   meta: removed
+  verdict: wip
   developerName: OVest
 
 ---

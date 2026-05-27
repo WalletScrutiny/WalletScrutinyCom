@@ -1,6 +1,5 @@
 ---
 title: Eyewallet Crypto
-verdict: wip
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 4.5.7
   icon: com.eyewallet.io.jpg
   meta: removed
+  verdict: wip
   developerName: Eyeline Asociados S A
 
 ---

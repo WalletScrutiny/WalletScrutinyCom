@@ -1,6 +1,5 @@
 ---
 title: ديباي - DeBay
-verdict: wip
 date: 2023-08-04
 website: http://ar.debay.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.3
   icon: com.debayarab.platform.jpg
   meta: removed
+  verdict: wip
   developerName: Debay
 
 ---

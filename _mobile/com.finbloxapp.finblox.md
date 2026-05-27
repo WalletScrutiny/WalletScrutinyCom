@@ -1,6 +1,5 @@
 ---
 title: 'Finblox: Earn Bitcoin & Crypto'
-verdict: custodial
 date: 2024-10-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 19
   icon: com.finbloxapp.finblox.jpg
   meta: removed
+  verdict: custodial
   developerName: Finblox
 
 ---

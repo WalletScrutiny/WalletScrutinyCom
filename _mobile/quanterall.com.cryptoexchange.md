@@ -1,6 +1,5 @@
 ---
 title: Crypto Exchange
-verdict: wip
 date: 2024-05-07
 redirect_from:
 - /android/quanterall.com.cryptoexchange/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: quanterall.com.cryptoexchange.png
   meta: removed
+  verdict: wip
   developerName: Quanterall
 
 ---

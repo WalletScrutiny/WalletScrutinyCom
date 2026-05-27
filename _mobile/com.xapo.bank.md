@@ -1,7 +1,6 @@
 ---
 wsId: xapobankapp
 title: 'Xapo Bank: Save in BTC & USD'
-verdict: custodial
 date: 2021-08-06
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 42
   icon: com.xapo.bank.png
   meta: ok
+  verdict: custodial
   developerName: Xapo
 iphone:
   appId: com.xapo.bank
@@ -38,6 +38,7 @@ iphone:
   reviews: 4
   icon: com.xapo.bank.jpg
   meta: ok
+  verdict: custodial
   developerName: Xapo Holdings Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/kr.co.coin5.bf/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: kr.co.coin5.bf.png
   meta: removed
+  verdict: wip
   developerName: BISPEX
 
 ---

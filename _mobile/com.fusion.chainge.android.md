@@ -1,7 +1,6 @@
 ---
 wsId: ChaingeFinance
 title: Chainge Finance
-verdict: nosource
 date: 2025-06-20
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 63
   icon: com.fusion.chainge.android.png
   meta: removed
+  verdict: nosource
   developerName: Chainge
 iphone:
   appId: com.chainge.finance.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 89
   icon: com.chainge.finance.app.jpg
   meta: stale
+  verdict: nosource
   developerName: Chainge Tech Limited
 
 ---

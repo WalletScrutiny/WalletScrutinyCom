@@ -1,7 +1,6 @@
 ---
 wsId: vultisig
 title: 'Vultisig: Seedless Wallet'
-verdict: custodial
 date: 2025-12-26
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 11
   icon: com.vultisig.wallet.png
   meta: ok
+  verdict: custodial
   developerName: Vulti Holdings Ltd.
 iphone:
   appId: com.vultisig.wallet
@@ -38,6 +38,7 @@ iphone:
   reviews: 61
   icon: com.vultisig.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Vulti Holdings Limited
 
 ---

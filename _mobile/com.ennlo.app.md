@@ -1,6 +1,5 @@
 ---
 title: Ennlo
-verdict: wip
 date: 2024-02-05
 website: https://ennlo.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1'
   icon: com.ennlo.app.png
   meta: removed
+  verdict: wip
   developerName: Tencoins Ltd
 
 ---

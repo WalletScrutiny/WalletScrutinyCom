@@ -1,6 +1,5 @@
 ---
 title: Adara Bitcoin & Crypto Trading
-verdict: wip
 date: 2023-09-28
 website: https://adara.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: io.adara.client.png
   meta: removed
+  verdict: wip
   developerName: Adara
 
 ---

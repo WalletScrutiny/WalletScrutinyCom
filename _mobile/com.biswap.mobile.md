@@ -1,7 +1,6 @@
 ---
 wsId: biswapCryptoApp
 title: Biswap cryptocurrency swap app
-verdict: nosource
 date: 2025-07-03
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.0.13
   icon: com.biswap.mobile.png
   meta: obsolete
+  verdict: nosource
   developerName: Exchangily LLC
 iphone:
   appId: com.biswap.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 5
   icon: com.biswap.app.jpg
   meta: obsolete
+  verdict: nosource
   developerName: Exchangily LLC
 
 ---

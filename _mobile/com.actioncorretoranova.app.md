@@ -1,6 +1,5 @@
 ---
 title: Actioncorretora Nova
-verdict: wip
 date: 2023-04-16
 redirect_from:
 - /android/com.actioncorretoranova.app/
@@ -11,6 +10,7 @@ android:
   version: 1.1.77
   icon: com.actioncorretoranova.app.png
   meta: removed
+  verdict: wip
   developerName: BRIKANTA TECHNOLOGY LTD
 
 ---

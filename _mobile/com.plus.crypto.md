@@ -1,6 +1,5 @@
 ---
 title: Plus Crypto
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.plus.crypto/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.plus.crypto.jpg
   meta: removed
+  verdict: wip
   developerName: Plus365Crypto
 
 ---

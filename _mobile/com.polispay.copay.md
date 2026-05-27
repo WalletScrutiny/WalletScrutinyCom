@@ -1,7 +1,6 @@
 ---
 wsId: PolisPay
 title: PolisPay - Cryptocurrency wallet
-verdict: nosource
 date: 2022-02-10
 authors:
 - leo
@@ -20,6 +19,7 @@ android:
   reviews: 78
   icon: com.polispay.copay.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.polispay.polispay
   idd: 1351572060
@@ -29,6 +29,7 @@ iphone:
   reviews: 7
   icon: com.polispay.polispay.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

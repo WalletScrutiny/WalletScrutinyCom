@@ -1,6 +1,5 @@
 ---
 title: Good Pay Wallet
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.23
   icon: io.goodpayglobal.wallet.png
   meta: removed
+  verdict: custodial
   developerName: Vaisen
 
 ---

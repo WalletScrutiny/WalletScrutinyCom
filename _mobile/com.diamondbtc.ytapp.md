@@ -1,6 +1,5 @@
 ---
 title: Diamond BTC
-verdict: wip
 date: 2024-04-19
 website: https://diamondbtc.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.diamondbtc.ytapp.png
   meta: removed
+  verdict: wip
   developerName: Diamond Brokers
 
 ---

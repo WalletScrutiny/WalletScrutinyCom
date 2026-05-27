@@ -1,7 +1,6 @@
 ---
 wsId: coinmerce
 title: Coinmerce - Buy Bitcoin
-verdict: custodial
 date: 2023-04-15
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 6.13.0
   icon: io.coinmerce.app.png
   meta: ok
+  verdict: custodial
   developerName: Coinmerce B.V. - Buy, sell & swap crypto
 iphone:
   appId: io.coinmerce.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 509
   icon: io.coinmerce.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinmerce BV
 
 ---

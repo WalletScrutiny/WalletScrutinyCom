@@ -1,7 +1,6 @@
 ---
 wsId: Coinpal
 title: Coinpal
-verdict: nosource
 date: 2022-02-10
 authors:
 - kiwilamb
@@ -22,6 +21,7 @@ android:
   reviews: 53
   icon: me.coinpal.app.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: me.coinpal.xapp
   idd: 1351428916
@@ -31,6 +31,7 @@ iphone:
   reviews: 11
   icon: me.coinpal.xapp.jpg
   meta: removed
+  verdict: nosource
   developerName: Coinpal Inc
 
 ---

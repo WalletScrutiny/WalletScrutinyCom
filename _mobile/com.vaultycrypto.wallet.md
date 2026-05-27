@@ -1,6 +1,5 @@
 ---
 title: Vaulty Wallet for you
-verdict: wip
 date: 2024-09-16
 website: http://www.vaulty.pro
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.vaultycrypto.wallet.png
   meta: removed
+  verdict: wip
   developerName: CoinArmy
 
 ---

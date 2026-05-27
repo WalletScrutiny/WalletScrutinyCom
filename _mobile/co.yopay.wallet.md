@@ -1,6 +1,5 @@
 ---
 title: YoPay Wallet
-verdict: wip
 date: 2024-04-03
 website: https://yopay.co
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: co.yopay.wallet.png
   meta: removed
+  verdict: wip
   developerName: YoPay
 
 ---

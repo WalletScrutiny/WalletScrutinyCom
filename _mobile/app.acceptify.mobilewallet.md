@@ -1,6 +1,5 @@
 ---
 title: Acceptify
-verdict: wip
 date: 2024-04-03
 website: https://acceptify.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.4
   icon: app.acceptify.mobilewallet.png
   meta: removed
+  verdict: wip
   developerName: Acceptify Limited
 
 ---

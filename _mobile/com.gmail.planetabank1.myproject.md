@@ -1,6 +1,5 @@
 ---
 title: Planeta Bank
-verdict: wip
 date: 2023-12-19
 website: https://planetabank.com.br#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4'
   icon: com.gmail.planetabank1.myproject.jpg
   meta: removed
+  verdict: wip
   developerName: Planeta Bank
 
 ---

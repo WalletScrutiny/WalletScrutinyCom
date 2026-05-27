@@ -1,6 +1,5 @@
 ---
 title: CoinTrunk
-verdict: wip
 date: 2023-01-02
 website: http://cointrunk.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.3
   icon: com.poland.cointrunk.jpg
   meta: removed
+  verdict: wip
 
 ---
 

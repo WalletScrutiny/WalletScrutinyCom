@@ -1,6 +1,5 @@
 ---
 title: Mercado bitcoin crypto token
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/com.mrcadd.crpt/
@@ -11,6 +10,7 @@ android:
   version: '0.1'
   icon: com.mrcadd.crpt.png
   meta: removed
+  verdict: wip
 
 ---
 

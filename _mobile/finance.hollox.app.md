@@ -1,7 +1,6 @@
 ---
 wsId: holloxWallet
 title: Hollox:Bitcoin & Crypto Wallet
-verdict: custodial
 date: 2025-04-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 8
   icon: finance.hollox.app.png
   meta: stale
+  verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
 iphone:
   appId: finance.hollox
@@ -34,6 +34,7 @@ iphone:
   reviews: 30
   icon: finance.hollox.jpg
   meta: obsolete
+  verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
 
 ---

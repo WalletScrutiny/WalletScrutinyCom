@@ -1,6 +1,5 @@
 ---
 title: Binary Exchange
-verdict: wip
 date: 2022-02-16
 website: https://www.binary-exchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.0
   icon: com.binary.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

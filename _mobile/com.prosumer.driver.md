@@ -1,6 +1,5 @@
 ---
 title: Prosumer
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.prosumer.driver/
@@ -12,6 +11,7 @@ android:
   version: 1.0.15
   icon: com.prosumer.driver.png
   meta: removed
+  verdict: wip
   developerName: Elyfran Vaz
 
 ---

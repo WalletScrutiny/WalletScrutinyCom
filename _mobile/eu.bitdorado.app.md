@@ -1,6 +1,5 @@
 ---
 title: Bitdorado App
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/eu.bitdorado.app/
@@ -12,6 +11,7 @@ android:
   version: 1.0.15
   icon: eu.bitdorado.app.png
   meta: removed
+  verdict: wip
   developerName: Halal Solutions yazilim ve ticaret Anonim Sirketi
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: trade.io - Smarter crypto trad
-verdict: wip
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 6
   icon: io.trade.tradeio.eu.png
   meta: removed
+  verdict: wip
   developerName: Trade.io
 
 ---

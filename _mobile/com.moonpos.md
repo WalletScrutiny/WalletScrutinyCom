@@ -1,6 +1,5 @@
 ---
 title: 'MoonPos: Accept payments in cr'
-verdict: wip
 date: 2025-08-18
 website: http://moonposapp.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.8
   icon: com.moonpos.png
   meta: removed
+  verdict: wip
   developerName: MoonPos
 
 ---

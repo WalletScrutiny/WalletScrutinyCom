@@ -1,7 +1,6 @@
 ---
 wsId: babbApp
 title: BABB
-verdict: custodial
 date: 2026-03-03
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 49
   icon: com.babb.app.png
   meta: ok
+  verdict: custodial
   developerName: BABB
 iphone:
   appId: com.babbltd.babb-ios
@@ -37,6 +37,7 @@ iphone:
   reviews: 85
   icon: com.babbltd.babb-ios.jpg
   meta: ok
+  verdict: custodial
   developerName: BABB Ltd
 
 ---

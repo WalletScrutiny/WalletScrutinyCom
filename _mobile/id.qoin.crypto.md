@@ -1,7 +1,6 @@
 ---
 wsId: qoinPayID
 title: Qoinpay
-verdict: nosource
 date: 2026-02-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.4.31
   icon: id.qoin.crypto.png
   meta: removed
+  verdict: nosource
   developerName: PT. Loyalty Program Indonesia
 iphone:
   appId: id.qoin.crypto
@@ -34,6 +34,7 @@ iphone:
   reviews: 2
   icon: id.qoin.crypto.jpg
   meta: removed
+  verdict: nosource
   developerName: PT. Loyalty Program Indonesia
 
 ---

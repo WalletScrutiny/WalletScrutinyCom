@@ -1,6 +1,5 @@
 ---
 title: SicuraPay
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.31.0
   icon: com.sicuradata.wallet.png
   meta: removed
+  verdict: wip
   developerName: SICURADATA, INC
 
 ---

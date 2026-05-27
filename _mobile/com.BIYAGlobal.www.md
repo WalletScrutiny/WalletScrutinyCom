@@ -1,7 +1,6 @@
 ---
 wsId: biyaGlobal
 title: BiyaPay-Remit, Trade, NoFreeze
-verdict: custodial
 date: 2023-07-01
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 15
   icon: com.BIYAGlobal.www.png
   meta: ok
+  verdict: custodial
   developerName: Biya Global
 iphone:
   appId: com.BiyaGlobal.Biya
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.BiyaGlobal.Biya.jpg
   meta: ok
+  verdict: custodial
   developerName: BIYA GLOBAL LLC
 
 ---

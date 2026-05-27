@@ -1,6 +1,5 @@
 ---
 title: Smart Custody
-verdict: wip
 date: 2025-03-19
 website: https://wallet.wallex.global/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.7.00
   icon: com.wallex.app.png
   meta: removed
+  verdict: wip
   developerName: WallexCUSTODY
 
 ---

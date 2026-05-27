@@ -1,6 +1,5 @@
 ---
 title: Bit.Eu
-verdict: wip
 date: 2024-07-05
 website: https://bit.eu
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.Bit.Eu.png
   meta: removed
+  verdict: wip
   developerName: Snow Media
 
 ---

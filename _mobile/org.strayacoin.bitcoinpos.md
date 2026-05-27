@@ -1,6 +1,5 @@
 ---
 title: Bitcoin POS
-verdict: wip
 date: 2023-01-30
 website: https://web.archive.org/web/20210410140507/https://www.strayacoin.org/index.php/strayapos/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.0
   icon: org.strayacoin.bitcoinpos.png
   meta: removed
+  verdict: wip
 
 ---
 

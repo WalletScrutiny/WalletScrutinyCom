@@ -1,6 +1,5 @@
 ---
 title: Fenix Wallet
-verdict: wip
 date: 2021-07-18
 redirect_from:
 - /android/com.fenixcoin.wallet/
@@ -12,6 +11,7 @@ android:
   version: v1.0.1
   icon: com.fenixcoin.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

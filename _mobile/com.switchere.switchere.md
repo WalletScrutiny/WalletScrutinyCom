@@ -1,7 +1,6 @@
 ---
 wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
-verdict: custodial
 date: 2025-08-04
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 47
   icon: com.switchere.switchere.png
   meta: ok
+  verdict: custodial
   developerName: Switchere
 iphone:
   appId: com.switchere.switchere
@@ -37,6 +37,7 @@ iphone:
   reviews: 78
   icon: com.switchere.switchere.jpg
   meta: stale
+  verdict: custodial
   developerName: SH EUROPE UAB
 
 ---

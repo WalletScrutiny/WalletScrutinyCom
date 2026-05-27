@@ -1,7 +1,6 @@
 ---
 wsId: coinWBuyCrypto
 title: CoinW · Buy BTC, ETH & Crypto
-verdict: custodial
 date: 2023-07-07
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 62
   icon: com.coinw.win.png
   meta: removed
+  verdict: custodial
   developerName: CoinW.SGP
 iphone:
   appId: com.coinwapp.legend
@@ -36,6 +36,7 @@ iphone:
   reviews: 104
   icon: com.coinwapp.legend.jpg
   meta: ok
+  verdict: custodial
   developerName: COINW SP Z O O
 
 ---

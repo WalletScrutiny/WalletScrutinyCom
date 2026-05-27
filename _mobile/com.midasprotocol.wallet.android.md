@@ -1,7 +1,6 @@
 ---
 wsId: midas
 title: Midas Crypto Wallet
-verdict: custodial
 date: 2024-04-26
 authors:
 - kiwilamb
@@ -21,6 +20,7 @@ android:
   reviews: 25
   icon: com.midasprotocol.wallet.android.png
   meta: removed
+  verdict: custodial
   developerName: Midas Core Pte Ltd
 iphone:
   appId: com.midasprotocol.wallet.ios
@@ -31,6 +31,7 @@ iphone:
   reviews: 90
   icon: com.midasprotocol.wallet.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: Midas Core Pte Ltd
 
 ---

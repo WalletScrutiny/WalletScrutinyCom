@@ -1,6 +1,5 @@
 ---
 title: Bitcoin America - Decentralized Exchange
-verdict: wip
 date: 2022-03-07
 redirect_from:
 - /android/com.btcus.pro/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3.210330
   icon: com.btcus.pro.png
   meta: removed
+  verdict: wip
 
 ---
 

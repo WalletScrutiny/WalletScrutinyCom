@@ -1,6 +1,5 @@
 ---
 title: PoolBTC
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.bet.poolbtc/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.bet.poolbtc.png
   meta: removed
+  verdict: wip
   developerName: POOLBTC CRYPTO LLC
 
 ---

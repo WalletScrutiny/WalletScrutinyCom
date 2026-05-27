@@ -1,6 +1,5 @@
 ---
 title: amaano
-verdict: wip
 date: 2023-03-21
 website: https://amaano.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.6.2
   icon: com.creadigol.amaano.png
   meta: defunct
+  verdict: wip
   developerName: amaano
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: ESR INDEX EXCHANGE
-verdict: wip
 date: 2023-08-04
 website: https://www.indexex.biz#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.4.7
   icon: com.chainup.exchange.index.png
   meta: removed
+  verdict: wip
   developerName: G1store
 
 ---

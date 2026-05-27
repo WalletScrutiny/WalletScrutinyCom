@@ -1,7 +1,6 @@
 ---
 wsId: coinzix
 title: Coinzix
-verdict: custodial
 date: 2025-02-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.coinzix.android.png
   meta: removed
+  verdict: custodial
   developerName: COINZIX LABS
 iphone:
   appId: com.servotech.coinzix
@@ -34,6 +34,7 @@ iphone:
   reviews: 14
   icon: com.servotech.coinzix.jpg
   meta: removed
+  verdict: custodial
   developerName: COINZIX S.R.L.
 
 ---

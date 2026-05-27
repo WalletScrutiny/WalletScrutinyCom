@@ -1,7 +1,6 @@
 ---
 wsId: fexobitCrypto
 title: 'Fexobit: Kripto Para|BTC|ETH'
-verdict: custodial
 date: 2023-07-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.7.6
   icon: com.futurance.futurex.png
   meta: ok
+  verdict: custodial
   developerName: Futurance Kripto Varlık Alım Satım Platformu
 iphone:
   appId: com.futurance.futurex
@@ -35,6 +35,7 @@ iphone:
   reviews: 135
   icon: com.futurance.futurex.jpg
   meta: ok
+  verdict: custodial
   developerName: FUTURANCE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

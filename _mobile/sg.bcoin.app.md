@@ -1,6 +1,5 @@
 ---
 title: BCoin
-verdict: wip
 date: 2021-11-16
 redirect_from:
 - /android/sg.bcoin.app/
@@ -13,6 +12,7 @@ android:
   reviews: 26
   icon: sg.bcoin.app.png
   meta: removed
+  verdict: wip
 
 ---
 

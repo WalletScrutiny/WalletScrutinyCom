@@ -1,6 +1,5 @@
 ---
 title: Equinox Wallet
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.wwt.equinoxwallet/
@@ -12,6 +11,7 @@ android:
   version: 3.40.9
   icon: com.wwt.equinoxwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

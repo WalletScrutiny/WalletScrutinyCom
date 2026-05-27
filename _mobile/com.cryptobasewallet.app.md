@@ -1,6 +1,5 @@
 ---
 title: Cryptobase Wallet
-verdict: wip
 date: 2026-02-02
 website: https://cryptobaseatm.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.23.0
   icon: com.cryptobasewallet.app.png
   meta: removed
+  verdict: wip
   developerName: Cryptobase, LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Qive
-verdict: wip
 date: 2024-02-05
 website: https://qive.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: com.marathoncorporate.qive.png
   meta: removed
+  verdict: wip
   developerName: Marathon Corporate Services Ltd
 
 ---

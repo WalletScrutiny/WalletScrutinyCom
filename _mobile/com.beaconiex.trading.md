@@ -1,6 +1,5 @@
 ---
 title: Beaconiex
-verdict: wip
 date: 2024-02-05
 website: https://www.beaconiex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.12
   icon: com.beaconiex.trading.png
   meta: removed
+  verdict: wip
   developerName: Beaconiex, LLC
 
 ---

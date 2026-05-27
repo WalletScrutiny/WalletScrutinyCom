@@ -1,6 +1,5 @@
 ---
 title: Mathayo Funds
-verdict: wip
 date: 2023-11-02
 website: https://mathayofunds.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.exchange.mathayo.ng.png
   meta: removed
+  verdict: wip
   developerName: Volbri Softwares Intl
 
 ---

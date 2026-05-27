@@ -1,6 +1,5 @@
 ---
 title: Crypto Start
-verdict: wip
 date: 2021-11-16
 redirect_from:
 - /android/com.startfinish.crypto/
@@ -12,6 +11,7 @@ android:
   version: 5.3.10
   icon: com.startfinish.crypto.png
   meta: removed
+  verdict: wip
 
 ---
 

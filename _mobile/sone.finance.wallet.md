@@ -1,6 +1,5 @@
 ---
 title: S-ONE Wallet
-verdict: wip
 date: 2023-04-18
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 7
   icon: sone.finance.wallet.png
   meta: removed
+  verdict: wip
   developerName: S-ONE Finance
 
 ---

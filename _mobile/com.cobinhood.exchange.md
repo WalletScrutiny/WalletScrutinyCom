@@ -1,6 +1,5 @@
 ---
 title: 'COBINHOOD - Zero Fees Bitcoin '
-verdict: custodial
 date: 2024-02-05
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   reviews: 118
   icon: com.cobinhood.exchange.png
   meta: removed
+  verdict: custodial
   developerName: COBINHOOD, Ltd.
 
 ---

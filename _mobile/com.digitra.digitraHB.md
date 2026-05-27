@@ -1,7 +1,6 @@
 ---
 wsId: digitraTrading
 title: Digitra.com - BTC & Crypto
-verdict: custodial
 date: 2022-07-31
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 10
   icon: com.digitra.digitraHB.png
   meta: ok
+  verdict: custodial
   developerName: Digitra.com
 iphone:
   appId: com.digitra.digitraHB
@@ -35,6 +35,7 @@ iphone:
   reviews: 33
   icon: com.digitra.digitraHB.jpg
   meta: ok
+  verdict: custodial
   developerName: Digitra Ativos Digitais
 
 ---

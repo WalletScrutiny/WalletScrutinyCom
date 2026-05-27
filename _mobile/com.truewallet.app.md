@@ -1,6 +1,5 @@
 ---
 title: DSC Wallet
-verdict: wip
 date: 2026-01-14
 website: https://truewallet.dev/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.truewallet.app.png
   meta: fewusers
+  verdict: wip
   developerName: INRX CONSENSUS LLP
 
 ---

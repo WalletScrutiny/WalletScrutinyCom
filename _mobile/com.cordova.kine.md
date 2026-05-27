@@ -1,6 +1,5 @@
 ---
 title: Kine Exchange
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.cordova.kine/
@@ -11,6 +10,7 @@ android:
   version: 1.0.9
   icon: com.cordova.kine.png
   meta: removed
+  verdict: wip
 
 ---
 

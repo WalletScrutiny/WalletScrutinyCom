@@ -1,6 +1,5 @@
 ---
 title: Ariston
-verdict: wip
 date: 2023-01-02
 website: https://www.ariston-timepieces.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.7
   icon: com.ariston.Ariston.png
   meta: removed
+  verdict: wip
 
 ---
 

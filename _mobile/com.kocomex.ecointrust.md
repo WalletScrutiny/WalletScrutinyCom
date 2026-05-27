@@ -1,6 +1,5 @@
 ---
 title: ECOINTRUST
-verdict: wip
 date: 2022-06-23
 website: https://ecointrust.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.kocomex.ecointrust.png
   meta: obsolete
+  verdict: wip
   developerName: KOCOMEX
 
 ---

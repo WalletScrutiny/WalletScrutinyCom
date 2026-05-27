@@ -1,6 +1,5 @@
 ---
 title: 코인나라 (TDPay) - coinnara
-verdict: wip
 date: 2024-04-24
 website: http://swmakekr.com/html/index.html
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.2'
   icon: com.tomato.coinworld.png
   meta: obsolete
+  verdict: wip
   developerName: 소프트웨어메이크(주)
 
 ---

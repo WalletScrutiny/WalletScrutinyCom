@@ -1,6 +1,5 @@
 ---
 title: Joy DC
-verdict: wip
 date: 2024-07-05
 website: https://www.creativecodez.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.joydc.app.png
   meta: removed
+  verdict: wip
   developerName: Creativecodez
 
 ---

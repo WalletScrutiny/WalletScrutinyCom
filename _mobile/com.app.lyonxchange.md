@@ -1,6 +1,5 @@
 ---
 title: LyonXchange
-verdict: wip
 date: 2023-01-02
 website: https://lyonxchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.lyonxchange.jpg
   meta: removed
+  verdict: wip
 
 ---
 

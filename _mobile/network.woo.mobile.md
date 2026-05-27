@@ -1,7 +1,6 @@
 ---
 wsId: wooXTrading
 title: 'WOO X: Smart Crypto Trading'
-verdict: custodial
 date: 2023-04-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 10
   icon: network.woo.mobile.png
   meta: ok
+  verdict: custodial
   developerName: WOOTECH Limited
 iphone:
   appId: network.woo.mobile
@@ -33,6 +33,7 @@ iphone:
   reviews: 7
   icon: network.woo.mobile.jpg
   meta: ok
+  verdict: custodial
   developerName: Wootech Limited
 
 ---

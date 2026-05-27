@@ -1,6 +1,5 @@
 ---
 title: Mobile Wallet Manager By SatoshiLabs.
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/com.rter.zorc/
@@ -13,6 +12,7 @@ android:
   reviews: 14
   icon: com.rter.zorc.png
   meta: removed
+  verdict: wip
 
 ---
 

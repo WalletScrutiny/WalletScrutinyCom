@@ -1,6 +1,5 @@
 ---
 title: 부킹포인트 월렛  BOOKING POINT WALLET
-verdict: wip
 date: 2024-04-03
 website: http://www.bookingpoint.vip#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.6
   icon: com.bookingpoint.png
   meta: removed
+  verdict: wip
   developerName: booking point
 
 ---

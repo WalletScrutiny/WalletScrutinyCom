@@ -1,6 +1,5 @@
 ---
 title: Coinsmart Canada
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/com.coinsmartcanada.app/
@@ -11,6 +10,7 @@ android:
   version: 1.1.77
   icon: com.coinsmartcanada.app.png
   meta: removed
+  verdict: wip
 
 ---
 

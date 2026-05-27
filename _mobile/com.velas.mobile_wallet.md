@@ -1,7 +1,6 @@
 ---
 wsId: VelasWallet
 title: Velas Wallet
-verdict: nosource
 date: 2025-06-09
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 22
   icon: com.velas.mobile_wallet.png
   meta: obsolete
+  verdict: nosource
   developerName: VELAS Network AG
 iphone:
   appId: com.velas.walletmobile
@@ -35,6 +35,7 @@ iphone:
   reviews: 10
   icon: com.velas.walletmobile.jpg
   meta: stale
+  verdict: nosource
   developerName: Velas
 
 ---

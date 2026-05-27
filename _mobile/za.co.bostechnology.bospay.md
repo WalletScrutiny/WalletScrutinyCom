@@ -1,6 +1,5 @@
 ---
 title: BOS.Pay™️
-verdict: wip
 date: 2024-09-08
 website: https://bospay.co/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: za.co.bostechnology.bospay.png
   meta: removed
+  verdict: wip
   developerName: BOS Technology PTY Ltd
 
 ---

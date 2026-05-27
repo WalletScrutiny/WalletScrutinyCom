@@ -1,6 +1,5 @@
 ---
 title: AfrBTC:Sell Gift Cards& Redeem
-verdict: nosendreceive
 date: 2025-07-08
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 140
   icon: com.afrbtcapp.png
   meta: stale
+  verdict: nosendreceive
   developerName: GiftCards Team
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Trading
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptotrading/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.cryptotrading.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Krypti Wallet
-verdict: wip
 date: 2023-08-16
 website: https://krypti.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.18
   icon: io.krypti.wallet.png
   meta: removed
+  verdict: wip
   developerName: Krypti
 
 ---

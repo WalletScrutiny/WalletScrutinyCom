@@ -1,6 +1,5 @@
 ---
 title: el-trader
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.elbitcoin.trader/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.elbitcoin.trader.png
   meta: removed
+  verdict: wip
   developerName: Kilikya Teknoloji
 
 ---

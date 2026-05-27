@@ -1,6 +1,5 @@
 ---
 title: Forex Game - Trading 4 Beginne
-verdict: wip
 date: 2023-04-16
 website: http://app.forextoolsapp.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.forextech.forextools.png
   meta: removed
+  verdict: wip
   developerName: ForexTech
 
 ---

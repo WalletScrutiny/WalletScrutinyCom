@@ -1,6 +1,5 @@
 ---
 title: EMX
-verdict: wip
 date: 2023-08-04
 website: https://www.emx.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: com.evermarkets.emx.png
   meta: removed
+  verdict: wip
   developerName: EverMarkets
 
 ---

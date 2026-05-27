@@ -1,6 +1,5 @@
 ---
 title: SignKeys PRO - Portfolio, Bitc
-verdict: wip
 date: 2024-07-05
 website: http://www.signkeys.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.signkeys.wallet.portfolio.png
   meta: removed
+  verdict: wip
   developerName: 'SignKeys - Best All in #1 As featured in Forbes'
 
 ---

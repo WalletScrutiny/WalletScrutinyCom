@@ -1,7 +1,6 @@
 ---
 wsId: DuniaPay
 title: Dunia
-verdict: custodial
 date: 2023-01-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.0.9
   icon: com.duniapay.africa.png
   meta: removed
+  verdict: custodial
   developerName: Dunia
 iphone:
   appId: com.duniapay.africa
@@ -33,6 +33,7 @@ iphone:
   reviews: 11
   icon: com.duniapay.africa.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

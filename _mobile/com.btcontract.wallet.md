@@ -1,6 +1,5 @@
 ---
 title: 'SBW: Simple Bitcoin Wallet'
-verdict: sourceavailable
 date: 2024-11-22
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   alternativeStores:
   - fdroid
   meta: removed
+  verdict: sourceavailable
 
 ---
 

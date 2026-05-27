@@ -1,6 +1,5 @@
 ---
 title: Definitex
-verdict: wip
 date: 2023-12-19
 website: http://definitex.org/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 29
   icon: io.definitex.walllet.png
   meta: removed
+  verdict: wip
   developerName: Definitex
 
 ---

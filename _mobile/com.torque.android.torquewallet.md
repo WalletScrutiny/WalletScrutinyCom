@@ -1,6 +1,5 @@
 ---
 title: Torque Wallet
-verdict: wip
 date: 2023-04-12
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 13
   icon: com.torque.android.torquewallet.png
   meta: removed
+  verdict: wip
   developerName: Torque Group Holdings
 
 ---

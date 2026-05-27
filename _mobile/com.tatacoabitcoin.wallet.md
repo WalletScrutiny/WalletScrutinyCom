@@ -1,6 +1,5 @@
 ---
 title: Tatacoa Wallet
-verdict: wip
 date: 2023-12-19
 website: https://www.tatacoabitcoin.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.6.2
   icon: com.tatacoabitcoin.wallet.png
   meta: removed
+  verdict: wip
   developerName: CitizenFour
 
 ---

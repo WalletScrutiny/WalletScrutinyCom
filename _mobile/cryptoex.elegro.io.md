@@ -1,7 +1,6 @@
 ---
 wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
-verdict: wip
 date: 2023-07-03
 authors:
 - leo
@@ -27,6 +26,7 @@ android:
   version: 1.0.4
   icon: cryptoex.elegro.io.png
   meta: removed
+  verdict: wip
   developerName: Niko Technologies
 iphone:
   appId: cryptoex.elegro.io
@@ -38,6 +38,7 @@ iphone:
   reviews: 2
   icon: cryptoex.elegro.io.jpg
   meta: obsolete
+  verdict: wip
   developerName: Niko Technologies
 
 ---

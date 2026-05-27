@@ -1,7 +1,6 @@
 ---
 wsId: luluBit
 title: 'Lulubit: Compra Bitcoin Cripto'
-verdict: custodial
 date: 2025-11-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 17
   icon: com.lulubit.png
   meta: removed
+  verdict: custodial
   developerName: Lulubit
 iphone:
   appId: lulubitLLC.lulubit
@@ -33,6 +33,7 @@ iphone:
   reviews: 176
   icon: lulubitLLC.lulubit.jpg
   meta: ok
+  verdict: custodial
   developerName: Lulubit
 
 ---

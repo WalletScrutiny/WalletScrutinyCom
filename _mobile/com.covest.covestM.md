@@ -1,7 +1,6 @@
 ---
 wsId: covest
 title: 코베스트 - COVEST
-verdict: custodial
 date: 2023-05-17
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.1.0
   icon: com.covest.covestM.png
   meta: ok
+  verdict: custodial
   developerName: COVEST PRO
 iphone:
   appId: pro.covest.mapple
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: pro.covest.mapple.jpg
   meta: obsolete
+  verdict: custodial
   developerName: COVEST LLC
 
 ---

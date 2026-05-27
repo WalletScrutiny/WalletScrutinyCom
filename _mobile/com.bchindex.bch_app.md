@@ -1,6 +1,5 @@
 ---
 title: BCH INDEX
-verdict: wip
 date: 2023-08-04
 website: https://bchindex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 6.2.2
   icon: com.bchindex.bch_app.png
   meta: removed
+  verdict: wip
   developerName: BCH INDEX LIMITED
 
 ---

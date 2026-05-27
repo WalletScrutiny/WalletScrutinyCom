@@ -1,6 +1,5 @@
 ---
 title: 'BitBanana: Bitcoin & Lightning'
-verdict: sourceavailable
 date: 2025-03-19
 authors:
 - danny
@@ -35,6 +34,7 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
+  verdict: sourceavailable
   developerName: Michael Wünsch
 
 ---

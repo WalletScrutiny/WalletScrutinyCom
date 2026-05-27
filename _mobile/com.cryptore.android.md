@@ -1,7 +1,6 @@
 ---
 wsId: coinlord
 title: COINLORD
-verdict: custodial
 date: 2024-04-19
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 5
   icon: com.cryptore.android.jpg
   meta: removed
+  verdict: custodial
   developerName: Sanatan Technologies
 iphone:
   appId: com.cryptore.nine99
@@ -36,6 +36,7 @@ iphone:
   reviews: 17
   icon: com.cryptore.nine99.jpg
   meta: removed
+  verdict: custodial
   developerName: Nine 99 Technologies LLP
 
 ---

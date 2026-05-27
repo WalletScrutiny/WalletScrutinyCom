@@ -1,6 +1,5 @@
 ---
 title: GPC Wallet
-verdict: wip
 date: 2023-11-02
 website: https://gpcio.org/index_m.html#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.gpc.gpcwallet.png
   meta: removed
+  verdict: wip
   developerName: RedBo
 
 ---

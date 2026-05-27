@@ -1,6 +1,5 @@
 ---
 title: Safe Wallet
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.wallet.crypto.safeapp/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wallet.crypto.safeapp.png
   meta: removed
+  verdict: wip
   developerName: Toufiq Elahy
 
 ---

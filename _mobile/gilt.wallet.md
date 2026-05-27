@@ -1,6 +1,5 @@
 ---
 title: Gilt Wallet
-verdict: wip
 date: 2023-05-17
 website: https://giltwallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '9.8'
   icon: gilt.wallet.png
   meta: removed
+  verdict: wip
   developerName: Xmewe
 
 ---

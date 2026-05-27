@@ -1,7 +1,6 @@
 ---
 wsId: CoboVault
 title: Cobo Vault
-verdict: wip
 date: 2021-11-17
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 19
   icon: com.vaulthotpro.png
   meta: removed
+  verdict: wip
 iphone:
   appId: cobo.vault.hot.re
   idd: '1483305773'
@@ -33,6 +33,7 @@ iphone:
   reviews: 12
   icon: cobo.vault.hot.re.jpg
   meta: defunct
+  verdict: wip
   developerName: Cobo Global Limited
 
 ---

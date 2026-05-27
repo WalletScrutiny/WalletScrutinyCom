@@ -1,6 +1,5 @@
 ---
 title: Love Wallet
-verdict: wip
 date: 2023-01-30
 website: https://lovewallet.online
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.lovewallet.bfic.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: digitalShield
 title: 'Digital Shield: Crypto Wallet'
-verdict: nosource
 date: 2026-05-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.1.7
   icon: com.dswallet.app.png
   meta: ok
+  verdict: nosource
   developerName: Yoime Technologie
 iphone:
   appId: com.digitalshield.walletapp
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.digitalshield.walletapp.jpg
   meta: ok
+  verdict: nosource
   developerName: HONG KONG YUHENG NETWORK TECHNOLOGY CO., LIMITED
 
 ---

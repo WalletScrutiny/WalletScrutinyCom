@@ -1,7 +1,6 @@
 ---
 wsId: Cryptinix
 title: 'Cryptinix: Crypto Trading'
-verdict: custodial
 date: 2025-08-21
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.2.9
   icon: com.cryptinix.app.png
   meta: ok
+  verdict: custodial
   developerName: Cryptinix
 iphone:
   appId: com.cryptinix.app
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.cryptinix.app.jpg
   meta: obsolete
+  verdict: custodial
   developerName: CRYPTINIX TRADER LTD
 
 ---

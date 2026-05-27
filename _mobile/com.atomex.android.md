@@ -1,7 +1,6 @@
 ---
 wsId: atomex
 title: Atomex - Crypto Wallet & DEX
-verdict: sourceavailable
 date: 2022-02-25
 authors:
 - leo
@@ -20,6 +19,7 @@ android:
   reviews: 5
   icon: com.atomex.android.png
   meta: removed
+  verdict: sourceavailable
   developerName: Atomex
 iphone:
   appId: com.atomex.ios
@@ -30,6 +30,7 @@ iphone:
   reviews: 11
   icon: com.atomex.ios.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: Atomex OÜ
 
 ---

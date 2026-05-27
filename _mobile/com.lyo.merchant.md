@@ -1,6 +1,5 @@
 ---
 title: LYO MERCHANT PoS
-verdict: wip
 date: 2023-09-28
 website: https://lyomerchant.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.0
   icon: com.lyo.merchant.png
   meta: removed
+  verdict: wip
   developerName: DIGILYO APP LTD
 
 ---

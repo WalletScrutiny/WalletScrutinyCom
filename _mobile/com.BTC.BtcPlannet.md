@@ -1,6 +1,5 @@
 ---
 title: BTC Plannet
-verdict: wip
 date: 2023-12-19
 website: https://btcplannet.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '5.0'
   icon: com.BTC.BtcPlannet.png
   meta: removed
+  verdict: wip
   developerName: Qalab Abbas
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: kriptomat
 title: 'Kriptomat: Invest & Buy Crypto'
-verdict: custodial
 date: 2021-09-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 7.8.0
   icon: io.kriptomat.app.png
   meta: ok
+  verdict: custodial
   developerName: Kriptomat
 iphone:
   appId: io.kriptomat.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 94
   icon: io.kriptomat.app.jpg
   meta: ok
+  verdict: custodial
   developerName: FintechX OU
 
 ---

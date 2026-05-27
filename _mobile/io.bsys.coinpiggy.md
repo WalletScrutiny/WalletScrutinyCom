@@ -1,6 +1,5 @@
 ---
 title: COINPIGGY WALLET
-verdict: wip
 date: 2023-06-01
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.106'
   icon: io.bsys.coinpiggy.png
   meta: removed
+  verdict: wip
   developerName: THE FORCE LAB
 
 ---

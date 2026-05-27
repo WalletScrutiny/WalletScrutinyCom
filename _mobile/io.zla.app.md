@@ -1,6 +1,5 @@
 ---
 title: ZILLA - Events • Wallet
-verdict: wip
 date: 2024-04-19
 website: https://zla.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 45
   icon: io.zla.app.png
   meta: removed
+  verdict: wip
   developerName: ZLA PTE LTD
 
 ---

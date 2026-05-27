@@ -1,6 +1,5 @@
 ---
 title: Terrabit
-verdict: nosource
 date: 2023-09-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.4.210302
   icon: com.terracredit.pro.png
   meta: removed
+  verdict: nosource
   developerName: The Terra Foundation
 
 ---

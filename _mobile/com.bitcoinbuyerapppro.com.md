@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Buyer
-verdict: wip
 date: 2023-10-16
 redirect_from:
 - /android/com.bitcoinbuyerapppro.com/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.bitcoinbuyerapppro.com.png
   meta: removed
+  verdict: wip
   developerName: kendev pro
 
 ---

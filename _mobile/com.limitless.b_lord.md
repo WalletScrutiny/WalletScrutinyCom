@@ -1,6 +1,5 @@
 ---
 title: B-Lord Trading App
-verdict: wip
 date: 2023-03-21
 redirect_from:
 - /android/com.limitless.b_lord/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.limitless.b_lord.png
   meta: removed
+  verdict: wip
 
 ---
 

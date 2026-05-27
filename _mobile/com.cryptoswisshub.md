@@ -1,6 +1,5 @@
 ---
 title: Crypto Swiss Hub
-verdict: wip
 date: 2024-08-07
 website: https://www.cryptoswisshub.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptoswisshub.png
   meta: removed
+  verdict: wip
   developerName: Crypto Swiss Hub
 
 ---

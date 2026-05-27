@@ -1,6 +1,5 @@
 ---
 title: Optimizer Exchange
-verdict: wip
 date: 2026-04-13
 website: https://opermizer.zone
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.2
   icon: com.opi.optimizer.png
   meta: removed
+  verdict: wip
   developerName: AXTECH SDN. BHD.
 
 ---

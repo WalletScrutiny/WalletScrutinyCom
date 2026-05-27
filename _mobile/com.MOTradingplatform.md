@@ -1,6 +1,5 @@
 ---
 title: 1MO Trading platform
-verdict: wip
 date: 2023-12-19
 website: https://web.archive.org/web/20230607060147/http://1minuteoptions.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.MOTradingplatform.png
   meta: removed
+  verdict: wip
   developerName: 1minuteoptions
 
 ---

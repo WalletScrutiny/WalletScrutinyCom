@@ -1,7 +1,6 @@
 ---
 wsId: marSDigitalAssetWallet
 title: MarS
-verdict: nosource
 date: 2024-05-18
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.4.0G
   icon: io.trustverse.mars.jpg
   meta: removed
+  verdict: nosource
   developerName: TrustVerse(DigiFinance)
 iphone:
   appId: io.trustverse.mars
@@ -35,6 +35,7 @@ iphone:
   reviews: 3
   icon: io.trustverse.mars.jpg
   meta: removed
+  verdict: nosource
   developerName: trustverse
 
 ---

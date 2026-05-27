@@ -1,6 +1,5 @@
 ---
 title: Newton - Buy Bitcoin
-verdict: wip
 date: 2023-12-19
 website: https://www.newton.co/us/support
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.1
   icon: co.newton.newtonus.png
   meta: removed
+  verdict: wip
   developerName: Newton USA Inc.
 
 ---

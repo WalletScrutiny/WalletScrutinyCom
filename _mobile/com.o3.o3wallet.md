@@ -1,7 +1,6 @@
 ---
 wsId: O3Wallet
 title: O3 Wallet
-verdict: nosource
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 13
   icon: com.o3.o3wallet.png
   meta: removed
+  verdict: nosource
   developerName: O3 Labs Inc.
 iphone:
   appId: com.fengsheng.new.o3Wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 19
   icon: com.fengsheng.new.o3Wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: O3 Labs Inc
 
 ---

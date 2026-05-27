@@ -1,7 +1,6 @@
 ---
 wsId: unidoMultisigWallet
 title: Unido
-verdict: nosource
 date: 2025-07-24
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 4.5.1
   icon: com.worldwebms.multisigwallet.png
   meta: removed
+  verdict: nosource
   developerName: WorldWeb Group Pty Ltd
 iphone:
   appId: com.worldwebms.MultiPAC
@@ -37,6 +37,7 @@ iphone:
   reviews: 9
   icon: com.worldwebms.MultiPAC.jpg
   meta: removed
+  verdict: nosource
   developerName: WorldWeb Management Services Pty Ltd
 
 ---

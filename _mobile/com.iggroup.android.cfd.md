@@ -1,7 +1,6 @@
 ---
 wsId: igTradingPlatform
 title: IG Trading Platform
-verdict: nosendreceive
 date: 2022-06-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 14
   icon: com.iggroup.android.cfd.png
   meta: ok
+  verdict: nosendreceive
   developerName: IG Group
 iphone:
   appId: com.igmarkets.ideal
@@ -35,6 +35,7 @@ iphone:
   reviews: 2968
   icon: com.igmarkets.ideal.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: IG Group
 
 ---

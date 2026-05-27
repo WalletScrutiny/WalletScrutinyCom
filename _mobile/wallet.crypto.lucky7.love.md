@@ -1,6 +1,5 @@
 ---
 title: Lucky7
-verdict: wip
 date: 2024-04-19
 website: https://www.lucky7.love
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: wallet.crypto.lucky7.love.png
   meta: removed
+  verdict: wip
   developerName: CASIEO.PTE.LTD
 
 ---

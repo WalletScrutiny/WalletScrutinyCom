@@ -1,6 +1,5 @@
 ---
 title: Cokkies Wallet
-verdict: wip
 date: 2023-05-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.5'
   icon: com.cokkieswallet.mobileapp.png
   meta: removed
+  verdict: wip
   developerName: Cokkies Wallet
 
 ---

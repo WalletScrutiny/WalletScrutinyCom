@@ -1,6 +1,5 @@
 ---
 title: LocalTrade DeFi Wallet
-verdict: wip
 date: 2023-01-02
 website: https://lab.localtrade.cc#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.localtrade.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

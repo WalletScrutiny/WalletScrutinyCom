@@ -1,7 +1,6 @@
 ---
 wsId: cryptoforceTrade
 title: Cryptoforce:Trade|Stake Crypto
-verdict: custodial
 date: 2023-08-18
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.0.0
   icon: in.cryptoforce.cfx.png
   meta: stale
+  verdict: custodial
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 iphone:
   appId: in.cryptoforce.cfx
@@ -35,6 +35,7 @@ iphone:
   reviews: 17
   icon: in.cryptoforce.cfx.jpg
   meta: ok
+  verdict: custodial
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 
 ---

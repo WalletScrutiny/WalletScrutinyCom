@@ -1,6 +1,5 @@
 ---
 title: 'Amaze: Crypto Mining Wallet'
-verdict: nosource
 date: 2024-03-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 1
   icon: com.walletamaze.nftwallet.png
   meta: removed
+  verdict: nosource
   developerName: AmazeWallet
 
 ---

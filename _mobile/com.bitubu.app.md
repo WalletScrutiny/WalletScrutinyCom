@@ -1,6 +1,5 @@
 ---
 title: 'BitUBU: Buy-Sell Bitcoin'
-verdict: wip
 date: 2023-08-04
 website: https://bitubu.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.4
   icon: com.bitubu.app.png
   meta: removed
+  verdict: wip
   developerName: Bitubu
 
 ---

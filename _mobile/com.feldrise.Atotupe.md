@@ -1,6 +1,5 @@
 ---
 title: Atotupe Wallet Companion
-verdict: wip
 date: 2024-07-05
 website: https://www.feldrise.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.feldrise.Atotupe.png
   meta: removed
+  verdict: wip
   developerName: Feldrise
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: MSC Exchange
-verdict: wip
 date: 2023-12-19
 website: https://msc.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.3
   icon: io.metex.exchange.png
   meta: removed
+  verdict: wip
   developerName: Metex Corp
 
 ---

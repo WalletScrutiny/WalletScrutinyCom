@@ -1,7 +1,6 @@
 ---
 wsId: ZixiPay
 title: 'ZixiPay: Crypto Wallet'
-verdict: custodial
 date: 2021-11-17
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 11
   icon: com.zixipay.wallet.png
   meta: removed
+  verdict: custodial
   developerName: ZixiPay LLC
 iphone:
   appId: com.zixipay.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 28
   icon: com.zixipay.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: ZixiPay LLC
 
 ---

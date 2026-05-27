@@ -1,6 +1,5 @@
 ---
 title: Finex
-verdict: wip
 date: 2024-12-23
 website: https://finexchanges.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 11.5.0
   icon: com.app.finexexchange.png
   meta: removed
+  verdict: wip
   developerName: Finex Exchange
 
 ---

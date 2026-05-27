@@ -1,6 +1,5 @@
 ---
 title: BankBeg
-verdict: wip
 date: 2024-05-18
 website: https://www.bankbeg.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: com.bankbeg.png
   meta: removed
+  verdict: wip
   developerName: Opzop MarkPlace
 
 ---

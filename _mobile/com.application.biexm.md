@@ -1,6 +1,5 @@
 ---
 title: Biexm
-verdict: wip
 date: 2024-04-19
 website: https://biexm.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.application.biexm.png
   meta: removed
+  verdict: wip
   developerName: Neo Technology Hk limited
 
 ---

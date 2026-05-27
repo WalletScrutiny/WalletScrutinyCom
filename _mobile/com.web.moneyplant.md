@@ -1,6 +1,5 @@
 ---
 title: Money Plant
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.web.moneyplant/
@@ -12,6 +11,7 @@ android:
   version: '1.2'
   icon: com.web.moneyplant.png
   meta: removed
+  verdict: wip
   developerName: Anirudh1
 
 ---

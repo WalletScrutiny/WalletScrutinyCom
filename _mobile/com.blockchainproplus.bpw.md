@@ -1,6 +1,5 @@
 ---
 title: Blockchain Plus Wallet v2
-verdict: obfuscated
 date: 2021-07-02
 redirect_from:
 - /android/com.blockchainproplus.bpw/
@@ -13,6 +12,7 @@ android:
   reviews: 29
   icon: com.blockchainproplus.bpw.jpg
   meta: removed
+  verdict: obfuscated
 
 ---
 

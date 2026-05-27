@@ -1,6 +1,5 @@
 ---
 title: SmartCash Transact
-verdict: custodial
 date: 2023-06-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '200'
   icon: com.wongeta.smartcashtransact.png
   meta: ok
+  verdict: custodial
   developerName: Wongeta
 
 ---

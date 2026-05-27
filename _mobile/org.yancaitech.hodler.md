@@ -1,6 +1,5 @@
 ---
 title: Hodler
-verdict: wip
 date: 2023-01-02
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: V0.2.0
   icon: org.yancaitech.hodler.png
   meta: removed
+  verdict: wip
 
 ---
 

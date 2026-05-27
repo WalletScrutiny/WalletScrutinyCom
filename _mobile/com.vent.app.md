@@ -1,7 +1,6 @@
 ---
 wsId: ventAfrica
 title: 'Vent: Sell BTC, USDT & Crypto'
-verdict: custodial
 date: 2023-06-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 10
   icon: com.vent.app.png
   meta: ok
+  verdict: custodial
   developerName: Vent Comm & Tech LTD
 iphone:
   appId: com.ventafrica.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 58
   icon: com.ventafrica.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Vent Africa
 
 ---

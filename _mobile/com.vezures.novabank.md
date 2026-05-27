@@ -1,6 +1,5 @@
 ---
 title: Novabank
-verdict: wip
 date: 2024-05-18
 redirect_from:
 - /android/com.vezures.novabank/
@@ -12,6 +11,7 @@ android:
   version: 1.3.2
   icon: com.vezures.novabank.jpg
   meta: removed
+  verdict: wip
   developerName: Konzortia Capital
 
 ---

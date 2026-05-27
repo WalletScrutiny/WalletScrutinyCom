@@ -1,7 +1,6 @@
 ---
 wsId: starEx
 title: StarEx - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2023-11-14
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 3
   icon: vip.sing.exchange.png
   meta: ok
+  verdict: custodial
   developerName: StarEx
 iphone:
   appId: vip.sing.exchange
@@ -32,6 +32,7 @@ iphone:
   reviews: 12
   icon: vip.sing.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: STAR EXCHANGE INTERNATIONAL PTE. LTD.
 
 ---

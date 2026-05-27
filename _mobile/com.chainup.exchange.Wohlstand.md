@@ -1,6 +1,5 @@
 ---
 title: Wohlstand Crypto Exchange
-verdict: wip
 date: 2023-08-04
 website: https://wohlstandcex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.5.0_push_v2
   icon: com.chainup.exchange.Wohlstand.jpg
   meta: removed
+  verdict: wip
   developerName: Wohlstand Information Technology
 
 ---

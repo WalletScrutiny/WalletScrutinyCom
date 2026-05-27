@@ -1,6 +1,5 @@
 ---
 title: 'Base8: Stack SATs Trade Crypto'
-verdict: wip
 date: 2026-01-14
 website: https://base8.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.1
   icon: com.base8.png
   meta: fewusers
+  verdict: wip
   developerName: Base8 Inc.
 
 ---

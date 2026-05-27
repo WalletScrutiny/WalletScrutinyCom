@@ -1,6 +1,5 @@
 ---
 title: Elia Wallet
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.bonsystem.chain.eliac/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: com.bonsystem.chain.eliac.png
   meta: removed
+  verdict: wip
   developerName: c&hsoft
 
 ---

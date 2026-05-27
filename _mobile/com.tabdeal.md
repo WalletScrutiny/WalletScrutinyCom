@@ -1,6 +1,5 @@
 ---
 title: Tabdeal
-verdict: custodial
 date: 2023-07-08
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 177
   icon: com.tabdeal.png
   meta: ok
+  verdict: custodial
   developerName: Tabdeal Platform
 
 ---

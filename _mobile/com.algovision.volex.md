@@ -1,6 +1,5 @@
 ---
 title: Volex
-verdict: wip
 date: 2023-01-02
 website: https://volex.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.2
   icon: com.algovision.volex.png
   meta: removed
+  verdict: wip
 
 ---
 

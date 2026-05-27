@@ -1,6 +1,5 @@
 ---
 title: 'GulfTrader: استثمار الذهب النف'
-verdict: wip
 date: 2023-08-07
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 3.0.8
   icon: com.gulftrader.png
   meta: removed
+  verdict: wip
   developerName: Gulf Trader LTD
 
 ---

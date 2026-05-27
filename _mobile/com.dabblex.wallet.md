@@ -1,6 +1,5 @@
 ---
 title: DabbleX DeFi Wallet
-verdict: wip
 date: 2023-08-04
 website: http://dabblex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.21.3
   icon: com.dabblex.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Dabble X
 
 ---

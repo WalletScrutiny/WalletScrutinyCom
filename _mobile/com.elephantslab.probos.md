@@ -1,7 +1,6 @@
 ---
 wsId: probosWallet
 title: Probos Wallet
-verdict: nosource
 date: 2025-05-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.1.1
   icon: com.elephantslab.probos.png
   meta: removed
+  verdict: nosource
   developerName: ElephantsLab, LLC
 iphone:
   appId: io.probos.support
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: io.probos.support.jpg
   meta: obsolete
+  verdict: nosource
   developerName: ELEPHANTSLAB LP
 
 ---

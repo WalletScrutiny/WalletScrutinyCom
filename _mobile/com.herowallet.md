@@ -1,6 +1,5 @@
 ---
 title: Hero - Crypto & Bitcoin Wallet
-verdict: wip
 date: 2024-11-29
 website: https://purchasa.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.1
   icon: com.herowallet.png
   meta: removed
+  verdict: wip
   developerName: Purchasa Pty Ltd
 
 ---

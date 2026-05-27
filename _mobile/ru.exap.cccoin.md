@@ -1,6 +1,5 @@
 ---
 title: Cccoin - bitcoin ethereum
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/ru.exap.cccoin/
@@ -12,6 +11,7 @@ android:
   version: '1.20'
   icon: ru.exap.cccoin.png
   meta: removed
+  verdict: wip
   developerName: Hubus & Co.
 
 ---

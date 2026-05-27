@@ -1,7 +1,6 @@
 ---
 wsId: kiteFinancialWallet
 title: Kite Financial  Wallet
-verdict: custodial
 date: 2024-07-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: io.kitefinancial.wallet.png
   meta: removed
+  verdict: custodial
   developerName: Kite Financial (Kite Tech Ltd UK)
 iphone:
   appId: io.kitefinancial.bitcoin
@@ -34,6 +34,7 @@ iphone:
   reviews: 37
   icon: io.kitefinancial.bitcoin.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Kite Tech Limited
 
 ---

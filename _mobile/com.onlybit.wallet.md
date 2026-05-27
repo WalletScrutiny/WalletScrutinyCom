@@ -1,6 +1,5 @@
 ---
 title: Trade Bit
-verdict: wip
 date: 2023-05-31
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.4'
   icon: com.onlybit.wallet.png
   meta: removed
+  verdict: wip
   developerName: trade bit
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Chameleon Pay
-verdict: wip
 date: 2020-12-08
 website: https://www.chainzilla.io
 twitter: chainzillaio
@@ -19,6 +18,7 @@ android:
   reviews: 61
   icon: com.chameleon.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

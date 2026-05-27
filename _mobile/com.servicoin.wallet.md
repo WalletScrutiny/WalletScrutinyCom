@@ -1,6 +1,5 @@
 ---
 title: Servicoin - Crypto Wallet
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.21.0
   icon: com.servicoin.wallet.png
   meta: removed
+  verdict: custodial
   developerName: My Services Shop Inc.
 
 ---

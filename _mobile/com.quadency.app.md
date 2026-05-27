@@ -1,7 +1,6 @@
 ---
 wsId: quadency
 title: Quadency - Crypto Platform
-verdict: custodial
 date: 2024-08-07
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 5
   icon: com.quadency.app.png
   meta: removed
+  verdict: custodial
   developerName: Quadency
 iphone:
   appId: com.quadency.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 24
   icon: com.quadency.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Quadency Inc
 
 ---

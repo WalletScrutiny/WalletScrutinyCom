@@ -1,7 +1,6 @@
 ---
 wsId: boxTradexExchange
 title: BOXVERSE
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 6
   icon: com.plusblocks.boxtradex.png
   meta: stale
+  verdict: custodial
   developerName: PlusBlocks Technology Ltd.
 iphone:
   appId: com.plusblocks.exchange
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.plusblocks.exchange.jpg
   meta: stale
+  verdict: custodial
   developerName: PlusBlocks Technology Limited
 
 ---

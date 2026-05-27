@@ -1,7 +1,6 @@
 ---
 wsId: xGoWallet
 title: 'XGo: Buy, Swap & Store Crypto'
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.25.0
   icon: com.xgo.wallet.png
   meta: removed
+  verdict: custodial
   developerName: XGo
 iphone:
   appId: com.xgo.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.xgo.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Exechain OU
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Blockfort Wallet
-verdict: wip
 date: 2024-03-02
 website: https://blockfort.co.uk/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.5
   icon: uk.co.blockfort.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Blockfort
 
 ---

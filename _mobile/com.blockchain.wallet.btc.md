@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet - Blockchain
-verdict: fake
 date: 2024-02-05
 authors:
 - kiwilamb
@@ -11,7 +10,6 @@ redirect_from:
 - /android/com.blockchain.wallet.btc/
 android:
   appId: com.blockchain.wallet.btc
-  altTitle: (Fake) Bitcoin Wallet - Blockchain Explorer
   users: 50000
   released: 2021-04-03
   updated: 2022-11-23
@@ -19,6 +17,7 @@ android:
   reviews: 68
   icon: com.blockchain.wallet.btc.png
   meta: removed
+  verdict: fake
   developerName: InvoVN Solutions
 
 ---

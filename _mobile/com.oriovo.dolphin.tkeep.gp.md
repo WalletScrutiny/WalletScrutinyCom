@@ -1,6 +1,5 @@
 ---
 title: Tkeep
-verdict: wip
 date: 2023-08-16
 website: https://tkeep.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.3
   icon: com.oriovo.dolphin.tkeep.gp.png
   meta: removed
+  verdict: wip
   developerName: BQEX Inc.
 
 ---

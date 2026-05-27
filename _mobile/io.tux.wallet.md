@@ -1,7 +1,6 @@
 ---
 wsId: tuxWallet
 title: TUX Wallet
-verdict: nosource
 date: 2023-08-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 4.0.8
   icon: io.tux.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Coinyex Co., Ltd.
 iphone:
   appId: net.tuxglobal.wallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: net.tuxglobal.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Coinyex Co., Ltd.
 
 ---

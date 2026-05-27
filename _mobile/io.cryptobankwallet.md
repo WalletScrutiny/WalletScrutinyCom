@@ -1,6 +1,5 @@
 ---
 title: CryptoBank
-verdict: wip
 date: 2024-04-19
 website: http://www.gexpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.12.0
   icon: io.cryptobankwallet.jpg
   meta: removed
+  verdict: wip
   developerName: GexPay
 
 ---

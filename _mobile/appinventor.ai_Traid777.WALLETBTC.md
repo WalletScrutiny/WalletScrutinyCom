@@ -1,6 +1,5 @@
 ---
 title: Bitcoin wallet - Qantum
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/appinventor.ai_Traid777.WALLETBTC/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: appinventor.ai_Traid777.WALLETBTC.jpg
   meta: removed
+  verdict: wip
 
 ---
 

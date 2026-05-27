@@ -1,6 +1,5 @@
 ---
 title: MYA Wallet
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.developer.myafrique.mya/
@@ -12,6 +11,7 @@ android:
   version: '1.2'
   icon: com.developer.myafrique.mya.png
   meta: removed
+  verdict: wip
   developerName: MY AFRIQUE 2S2I SARL
 
 ---

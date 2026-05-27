@@ -1,6 +1,5 @@
 ---
 title: 'MCS (Web): Your Crypto Futures'
-verdict: wip
 date: 2024-03-02
 website: https://mycoinstory.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2'
   icon: com.mycoinstory.twa.png
   meta: removed
+  verdict: wip
   developerName: MKT Partners Ltd.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 24BITBANK EXCHANGE
-verdict: wip
 date: 2024-04-19
 website: https://24bitbank.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '456'
   icon: com.bitbankiosdnge.app.png
   meta: removed
+  verdict: wip
   developerName: 24BITBANK
 
 ---

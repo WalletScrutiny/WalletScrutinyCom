@@ -1,6 +1,5 @@
 ---
 title: Sylth Global
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.sylth.globals/
@@ -12,6 +11,7 @@ android:
   version: 1.1.13
   icon: com.sylth.globals.png
   meta: removed
+  verdict: wip
   developerName: Freda Smedley
 
 ---

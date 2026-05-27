@@ -1,6 +1,5 @@
 ---
 title: Monifiex
-verdict: wip
 date: 2024-02-05
 website: https://monifiex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.5
   icon: com.monifiex.png
   meta: removed
+  verdict: wip
   developerName: Project Phoenix International Limited
 
 ---

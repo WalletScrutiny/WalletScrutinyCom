@@ -1,7 +1,6 @@
 ---
 wsId: GenesisVision
 title: Genesis Vision
-verdict: custodial
 date: 2023-09-04
 authors:
 - danny
@@ -24,8 +23,8 @@ android:
   reviews: 25
   icon: vision.genesis.clientapp.investor.png
   meta: removed
+  verdict: custodial
   developerName: Genesis Vision
-  repository: https://github.com/GenesisVision/android-client
 iphone:
   appId: vision.genesis.ios.investor
   idd: 1369865290
@@ -35,6 +34,7 @@ iphone:
   reviews: 145
   icon: vision.genesis.ios.investor.jpg
   meta: removed
+  verdict: custodial
   developerName: Genesis Vision
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: swiftcoin
 title: Swiftcoin
-verdict: custodial
 date: 2023-08-30
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 1
   icon: io.swiftcoin.png
   meta: ok
+  verdict: custodial
   developerName: Swift Coin
 iphone:
   appId: io.swiftcoin
@@ -37,6 +37,7 @@ iphone:
   reviews: 9
   icon: io.swiftcoin.jpg
   meta: ok
+  verdict: custodial
   developerName: Swiftcoin Ltd
 
 ---

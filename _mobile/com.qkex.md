@@ -1,6 +1,5 @@
 ---
 title: 'QKEx: Crypto Asset Service'
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 3.0.34
   icon: com.qkex.png
   meta: removed
+  verdict: custodial
   developerName: QKEx Android
 
 ---

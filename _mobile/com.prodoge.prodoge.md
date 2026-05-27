@@ -1,7 +1,6 @@
 ---
 wsId: alxCryptoWallet
 title: ALX Wallet
-verdict: nosource
 date: 2025-11-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 5
   icon: com.prodoge.prodoge.png
   meta: stale
+  verdict: nosource
   developerName: ALXWallet.com
 iphone:
   appId: com.prodoge.prodoge
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.prodoge.prodoge.jpg
   meta: stale
+  verdict: nosource
   developerName: 1FX LLC
 
 ---

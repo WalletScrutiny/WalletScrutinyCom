@@ -1,6 +1,5 @@
 ---
 title: Wapx - Buy & Sell Giftcards
-verdict: wip
 date: 2024-04-19
 website: https://wapxnigeria.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.7
   icon: com.wapxnigeria.wapx.png
   meta: removed
+  verdict: wip
   developerName: Wapxnigeria Technologies
 
 ---

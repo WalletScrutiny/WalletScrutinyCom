@@ -1,6 +1,5 @@
 ---
 title: Fast Local Trade
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.fastlocaltrade.fastlocaltrade/
@@ -12,6 +11,7 @@ android:
   version: 1.1.1
   icon: com.fastlocaltrade.fastlocaltrade.png
   meta: removed
+  verdict: wip
   developerName: FLT
 
 ---

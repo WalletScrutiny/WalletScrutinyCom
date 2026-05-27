@@ -1,6 +1,5 @@
 ---
 title: Mat Coin
-verdict: wip
 date: 2023-01-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '5.0'
   icon: com.drbtb.btbmatcoinbuerqi.png
   meta: removed
+  verdict: wip
 
 ---
 

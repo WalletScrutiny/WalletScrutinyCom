@@ -1,6 +1,5 @@
 ---
 title: Walletrust
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.waletrust.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.21.3
   icon: com.waletrust.wallet.png
   meta: removed
+  verdict: wip
   developerName: Febitak
 
 ---

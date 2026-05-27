@@ -1,6 +1,5 @@
 ---
 title: Melis Lite Testnet
-verdict: wip
 date: 2024-02-05
 website: https://www.melis.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.4.0
   icon: io.melis.testlite.png
   meta: removed
+  verdict: wip
   developerName: Melis
 
 ---

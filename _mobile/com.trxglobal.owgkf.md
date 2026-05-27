@@ -1,6 +1,5 @@
 ---
 title: Transaction
-verdict: wip
 date: 2023-04-12
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.3'
   icon: com.trxglobal.owgkf.png
   meta: removed
+  verdict: wip
   developerName: hiu390hf
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: africa.bundle
 title: Bundle - Cash & Crypto Wallet
-verdict: custodial
 date: 2021-09-08
 authors:
 - kiwilamb
@@ -18,6 +17,7 @@ android:
   reviews: 371
   icon: africa.bundle.mobile.app.png
   meta: removed
+  verdict: custodial
   developerName: BundleAfrica
 iphone:
   appId: com.bundlewallet.mobileApp
@@ -28,6 +28,7 @@ iphone:
   reviews: 208
   icon: com.bundlewallet.mobileApp.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

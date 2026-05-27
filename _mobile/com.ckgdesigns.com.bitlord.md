@@ -1,6 +1,5 @@
 ---
 title: BitLord
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.ckgdesigns.com.bitlord/
@@ -12,6 +11,7 @@ android:
   version: 1.0.4
   icon: com.ckgdesigns.com.bitlord.png
   meta: removed
+  verdict: wip
   developerName: Store of Value
 
 ---

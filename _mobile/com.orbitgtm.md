@@ -1,6 +1,5 @@
 ---
 title: orbitgtm
-verdict: wip
 date: 2023-05-31
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.7.0
   icon: com.orbitgtm.png
   meta: removed
+  verdict: wip
   developerName: OrbitDevelopers
 
 ---

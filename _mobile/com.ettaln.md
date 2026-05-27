@@ -1,6 +1,5 @@
 ---
 title: EttaWallet
-verdict: wip
 date: 2024-11-07
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: VARY
   icon: com.ettaln.png
   meta: removed
+  verdict: wip
   developerName: Rukundo
 
 ---

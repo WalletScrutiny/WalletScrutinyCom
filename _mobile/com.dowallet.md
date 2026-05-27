@@ -1,7 +1,6 @@
 ---
 wsId: dowallet
 title: 'DoWallet: Bitcoin Wallet. A Se'
-verdict: nosource
 date: 2022-03-24
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   reviews: 88
   icon: com.dowallet.png
   meta: removed
+  verdict: nosource
   developerName: Wallex, Inc.
 iphone:
   appId: com.dowallet.dowallet
@@ -28,6 +28,7 @@ iphone:
   reviews: 225
   icon: com.dowallet.dowallet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: bitkeep
 title: 'Bitget Wallet: Crypto, Bitcoin'
-verdict: nosource
 date: 2021-10-01
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 3826
   icon: com.bitkeep.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Bitget Wallet
 iphone:
   appId: com.bitkeep.os
@@ -34,6 +34,7 @@ iphone:
   reviews: 5474
   icon: com.bitkeep.os.jpg
   meta: ok
+  verdict: nosource
   developerName: BitKeep Global Inc.
 
 ---

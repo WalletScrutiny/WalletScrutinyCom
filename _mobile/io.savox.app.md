@@ -1,6 +1,5 @@
 ---
 title: 'SAVOX: Buy & Sell Bitcoin, Eth'
-verdict: wip
 date: 2023-11-02
 website: https://savox.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: io.savox.app.png
   meta: removed
+  verdict: wip
   developerName: Savox Technologies Ltd
 
 ---

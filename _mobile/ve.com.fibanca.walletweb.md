@@ -1,6 +1,5 @@
 ---
 title: Billetera Fibanca
-verdict: wip
 date: 2024-02-05
 website: https://fibanca.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: ve.com.fibanca.walletweb.png
   meta: removed
+  verdict: wip
   developerName: Fibanca
 
 ---

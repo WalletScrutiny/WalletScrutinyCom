@@ -1,6 +1,5 @@
 ---
 title: AlphaBae
-verdict: wip
 date: 2024-05-07
 redirect_from:
 - /android/app.bitcoin.alphabae/
@@ -12,6 +11,7 @@ android:
   version: 1.1.34
   icon: app.bitcoin.alphabae.png
   meta: removed
+  verdict: wip
   developerName: developerYaanis
 
 ---

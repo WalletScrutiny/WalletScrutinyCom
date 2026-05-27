@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Testnet Wallet
-verdict: wip
 date: 2023-09-28
 website: https://bitcoin-wallet.flycricket.io/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1
   icon: com.bitcoin.wallet.btc.testnet.png
   meta: removed
+  verdict: wip
   developerName: InvoVN Solutions
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Trade Crypto
-verdict: wip
 date: 2024-04-19
 website: http://www.tradecrypto.asia#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.app.tradecrypto.png
   meta: removed
+  verdict: wip
   developerName: Trade Crypto
 
 ---

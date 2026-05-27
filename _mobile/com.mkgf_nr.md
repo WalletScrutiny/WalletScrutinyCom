@@ -1,6 +1,5 @@
 ---
 title: Crypto Cash Fast
-verdict: wip
 date: 2023-09-28
 website: https://www.cryptocashfast.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '40.0'
   icon: com.mkgf_nr.png
   meta: removed
+  verdict: wip
   developerName: The Cyber World
 
 ---

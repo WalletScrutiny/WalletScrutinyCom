@@ -1,7 +1,6 @@
 ---
 wsId: phemexTR
 title: 'Phemex TR: TL ile Bitcoin Al'
-verdict: custodial
 date: 2024-09-08
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1
   icon: com.phemex.turkey.png
   meta: removed
+  verdict: custodial
   developerName: Phemex TR
 iphone:
   appId: com.phemex.tr
@@ -34,6 +34,7 @@ iphone:
   reviews: 29
   icon: com.phemex.tr.jpg
   meta: ok
+  verdict: custodial
   developerName: PHEMEX TURKEY TEKNOLOJİ LİMİTED ŞİRKETİ
 
 ---

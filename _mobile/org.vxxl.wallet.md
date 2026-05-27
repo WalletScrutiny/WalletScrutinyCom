@@ -1,6 +1,5 @@
 ---
 title: 'VXW : VXXL wallet'
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/org.vxxl.wallet/
@@ -12,6 +11,7 @@ android:
   version: '1.4'
   icon: org.vxxl.wallet.png
   meta: removed
+  verdict: wip
   developerName: vxxl
 
 ---

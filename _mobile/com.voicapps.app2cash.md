@@ -1,7 +1,6 @@
 ---
 wsId: 2cash
 title: 2cash - Money for Everyone
-verdict: custodial
 date: 2024-11-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 2
   icon: com.voicapps.app2cash.png
   meta: removed
+  verdict: custodial
   developerName: VOIC
 iphone:
   appId: com.voicapps.app2cash-ios
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: com.voicapps.app2cash-ios.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

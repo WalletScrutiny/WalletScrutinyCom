@@ -1,7 +1,6 @@
 ---
 wsId: tetherWallet
 title: Tether Wallet
-verdict: nosource
 date: 2026-04-20
 authors:
 - danny
@@ -25,8 +24,8 @@ android:
   reviews: 8
   icon: io.tether.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Tether Data
-  repository: https://github.com/tetherto/tether-wallet-app-releases
 iphone:
   appId: io.tether.wallet.official
   idd: '6759002210'
@@ -37,6 +36,7 @@ iphone:
   reviews: 8
   icon: io.tether.wallet.official.jpg
   meta: ok
+  verdict: nosource
   developerName: Tether Data
 
 ---

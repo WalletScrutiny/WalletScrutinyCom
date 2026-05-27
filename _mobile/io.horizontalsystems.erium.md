@@ -1,7 +1,6 @@
 ---
 wsId: eriumWallet
 title: Erium - Crypto Exchange App
-verdict: nosource
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.21.17
   icon: io.horizontalsystems.erium.png
   meta: removed
+  verdict: nosource
   developerName: Devblockex
 iphone:
   appId: io.horizontalsystems.erium
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: io.horizontalsystems.erium.jpg
   meta: removed
+  verdict: nosource
   developerName: Erium LLC
 
 ---

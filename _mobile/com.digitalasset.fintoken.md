@@ -1,6 +1,5 @@
 ---
 title: FINTOKEN :Web3 & Crypto Wallet
-verdict: nosource
 date: 2026-05-01
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.0.1
   icon: com.digitalasset.fintoken.png
   meta: ok
+  verdict: nosource
   developerName: WEBX SDN BHD
 
 ---

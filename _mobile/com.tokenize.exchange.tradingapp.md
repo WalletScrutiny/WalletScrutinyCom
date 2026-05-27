@@ -1,7 +1,6 @@
 ---
 wsId: Tokenize
 title: Tokenize Xchange
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 17
   icon: com.tokenize.exchange.tradingapp.png
   meta: removed
+  verdict: custodial
   developerName: Tokenize Xchange
 iphone:
   appId: com.tokenize.exchange.trading
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: com.tokenize.exchange.trading.jpg
   meta: stale
+  verdict: custodial
   developerName: Tokenize Xchange Pte Ltd
 
 ---

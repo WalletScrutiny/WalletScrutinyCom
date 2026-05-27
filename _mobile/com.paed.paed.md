@@ -1,6 +1,5 @@
 ---
 title: Paed
-verdict: wip
 date: 2024-07-22
 redirect_from:
 - /android/com.paed.paed/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.paed.paed.png
   meta: removed
+  verdict: wip
   developerName: PAED Group
 
 ---

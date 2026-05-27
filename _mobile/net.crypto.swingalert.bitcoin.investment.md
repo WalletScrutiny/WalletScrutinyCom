@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.crypto.swingalert.bitcoin.investment/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.crypto.swingalert.bitcoin.investment.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Hordes Wallet - Ordinals
-verdict: wip
 date: 2025-02-13
 website: https://www.hordeswallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.sato.hordes.png
   meta: removed
+  verdict: wip
   developerName: SATO Technologies Corp.
 
 ---

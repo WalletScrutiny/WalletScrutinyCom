@@ -1,6 +1,5 @@
 ---
 title: Wplus Crypto Wallet
-verdict: wip
 date: 2023-01-02
 website: https://wplus.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.1
   icon: io.wplus.png
   meta: removed
+  verdict: wip
 
 ---
 

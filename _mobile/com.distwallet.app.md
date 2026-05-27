@@ -1,6 +1,5 @@
 ---
 title: 'Distwallet: DEX Wallet'
-verdict: wip
 date: 2023-12-19
 website: https://distwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.distwallet.app.png
   meta: removed
+  verdict: wip
   developerName: PROYA INT.
 
 ---

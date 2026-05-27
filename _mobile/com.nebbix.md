@@ -1,6 +1,5 @@
 ---
 title: Nebbix
-verdict: wip
 date: 2023-08-04
 website: https://nebbix.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.2
   icon: com.nebbix.jpg
   meta: removed
+  verdict: wip
   developerName: NebianTech
 
 ---

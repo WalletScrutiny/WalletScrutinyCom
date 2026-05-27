@@ -1,6 +1,5 @@
 ---
 title: QuickX Touch
-verdict: wip
 date: 2022-03-07
 authors:
 - leo
@@ -20,6 +19,7 @@ android:
   version: 1.0.0.57
   icon: kr.co.keypair.quickxtouch.jpg
   meta: removed
+  verdict: wip
 
 ---
 

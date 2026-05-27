@@ -1,6 +1,5 @@
 ---
 title: LocalCoinSwap
-verdict: nosource
 date: 2024-09-08
 website: https://localcoinswap.com
 twitter: Localcoinswap_
@@ -21,6 +20,7 @@ android:
   reviews: 8
   icon: com.localcoinswap.twa.png
   meta: removed
+  verdict: nosource
   developerName: LocalCoinSwap
 
 ---

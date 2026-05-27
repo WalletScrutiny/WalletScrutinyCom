@@ -1,6 +1,5 @@
 ---
 title: All Coin Wallet
-verdict: wip
 date: 2021-08-09
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 1
   icon: com.allcoinwallet.allcoinwallet.png
   meta: removed
+  verdict: wip
   developerName: All Coin Wallet
 
 ---

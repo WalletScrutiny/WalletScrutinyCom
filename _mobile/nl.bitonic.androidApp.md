@@ -1,7 +1,6 @@
 ---
 wsId: bitonic
 title: 'Bitonic: buy & store bitcoin'
-verdict: custodial
 date: 2026-01-03
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.25.0
   icon: nl.bitonic.androidApp.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitonic
 iphone:
   appId: nl.bitonic.Bitonic
@@ -31,6 +31,7 @@ iphone:
   reviews: 2573
   icon: nl.bitonic.Bitonic.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitonic B.V.
 
 ---

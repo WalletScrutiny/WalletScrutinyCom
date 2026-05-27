@@ -1,7 +1,6 @@
 ---
 title: Electrum Bitcoin Wallet
 bitcoinOrgId: electrum
-verdict: sourceavailable
 date: 2025-08-11
 authors:
 - leo
@@ -31,6 +30,7 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
+  verdict: sourceavailable
   developerName: Electrum Technologies GmbH
 
 ---

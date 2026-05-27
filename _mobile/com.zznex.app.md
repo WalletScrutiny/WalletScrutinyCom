@@ -1,6 +1,5 @@
 ---
 title: ZZNEX BOT
-verdict: wip
 date: 2024-05-18
 website: https://zznex.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.0
   icon: com.zznex.app.png
   meta: removed
+  verdict: wip
   developerName: zznex
 
 ---

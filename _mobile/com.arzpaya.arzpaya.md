@@ -1,6 +1,5 @@
 ---
 title: ArzPaya
-verdict: custodial
 date: 2025-11-12
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 5
   icon: com.arzpaya.arzpaya.png
   meta: ok
+  verdict: custodial
   developerName: ArzPaya
 
 ---

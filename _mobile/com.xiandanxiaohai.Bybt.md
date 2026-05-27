@@ -1,6 +1,5 @@
 ---
 title: CoinGlass - Bitcoin & Crypto
-verdict: fake
 date: 2021-11-02
 authors:
 - danny
@@ -18,6 +17,7 @@ iphone:
   reviews: 5559
   icon: com.xiandanxiaohai.Bybt.jpg
   meta: ok
+  verdict: fake
   developerName: Coinglass Technology Co., Limited
 
 ---

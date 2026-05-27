@@ -1,7 +1,6 @@
 ---
 wsId: liquidityX
 title: 'LiquidityX: CFD Online Trading'
-verdict: nosendreceive
 date: 2024-07-22
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.7.1
   icon: com.capitalsecurities.liqx.png
   meta: removed
+  verdict: nosendreceive
   developerName: Capital Securities S.A.
 iphone:
   appId: com.capitalsecurities.liqx
@@ -27,6 +27,7 @@ iphone:
   reviews: 0
   icon: com.capitalsecurities.liqx.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Capital Securities S.A.
 
 ---

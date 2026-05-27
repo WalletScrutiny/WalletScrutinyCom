@@ -1,6 +1,5 @@
 ---
 title: Swap Crypto Exchange Wallet
-verdict: wip
 date: 2025-02-13
 website: https://swapcrypto.ca#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.swapcrypto.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Bitcoin Trader Exchange
 
 ---

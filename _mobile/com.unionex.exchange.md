@@ -1,7 +1,6 @@
 ---
 wsId: unionEx
 title: 'UnionEx: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2026-05-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.2.5
   icon: com.unionex.exchange.png
   meta: fewusers
+  verdict: custodial
   developerName: UnionEx
 iphone:
   appId: com.unionex.coin
@@ -34,6 +34,7 @@ iphone:
   reviews: 1
   icon: com.unionex.coin.jpg
   meta: ok
+  verdict: custodial
   developerName: ALPHABYTE TECHNOLOGY LTD
 
 ---

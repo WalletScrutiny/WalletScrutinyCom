@@ -1,6 +1,5 @@
 ---
 title: FlowOS
-verdict: wip
 date: 2024-07-05
 website: https://www.lacero.io/flowos/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.32
   icon: gaikagroup.com.lacero.release.jpg
   meta: removed
+  verdict: wip
   developerName: Lacero Platform
 
 ---

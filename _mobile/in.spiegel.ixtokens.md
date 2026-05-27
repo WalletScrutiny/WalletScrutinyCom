@@ -1,6 +1,5 @@
 ---
 title: IXTokens
-verdict: wip
 date: 2024-11-22
 website: https://ixtokens.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: in.spiegel.ixtokens.png
   meta: removed
+  verdict: wip
   developerName: CapCan Limited
 
 ---

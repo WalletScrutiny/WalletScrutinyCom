@@ -1,6 +1,5 @@
 ---
 title: ZenaPay Merchant
-verdict: wip
 date: 2026-05-21
 website: http://www.zenapay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.zenapay.merchant.png
   meta: stale
+  verdict: wip
   developerName: Epazz
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Chivo Wallet
-verdict: fake
 date: 2021-08-21
 authors:
 - leo
@@ -8,7 +7,6 @@ redirect_from:
 - /android/com.chivowalletapp.co/
 android:
   appId: com.chivowalletapp.co
-  altTitle: (Fake) Chivo Wallet
   users: 500
   released: 2021-08-12
   updated: 2021-08-13
@@ -16,6 +14,7 @@ android:
   reviews: 46
   icon: com.chivowalletapp.co.png
   meta: removed
+  verdict: fake
 
 ---
 

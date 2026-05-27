@@ -1,6 +1,5 @@
 ---
 title: KDEX
-verdict: wip
 date: 2023-08-16
 website: http://demo.kdex.vip/#&deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.9.2
   icon: vip.kdex.app.png
   meta: removed
+  verdict: wip
   developerName: Kde
 
 ---

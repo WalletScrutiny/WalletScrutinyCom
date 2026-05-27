@@ -1,7 +1,6 @@
 ---
 wsId: Quppy
 title: 'Quppy: Bitcoin Сrypto wallet'
-verdict: custodial
 date: 2020-12-01
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 42
   icon: com.quppy.png
   meta: ok
+  verdict: custodial
   developerName: Quppy Europe OU
 iphone:
   appId: com.quppy.wallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 3
   icon: com.quppy.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Quppy Europe OU
 
 ---

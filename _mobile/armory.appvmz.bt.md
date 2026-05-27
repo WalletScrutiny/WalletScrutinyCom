@@ -1,6 +1,5 @@
 ---
 title: Ja­xx lib­erty
-verdict: wip
 date: 2023-01-11
 redirect_from:
 - /android/armory.appvmz.bt/
@@ -12,6 +11,7 @@ android:
   version: '1.8'
   icon: armory.appvmz.bt.png
   meta: removed
+  verdict: wip
 
 ---
 

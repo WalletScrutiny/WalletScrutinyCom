@@ -1,6 +1,5 @@
 ---
 title: 'Bemnex: BTC ETH crypto wallet'
-verdict: wip
 date: 2023-08-04
 website: https://Bemnex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.bemnex.png
   meta: removed
+  verdict: wip
   developerName: Bemnex technologies
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: doshiWallet
 title: Do* Wallet
-verdict: nosource
 date: 2024-09-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 3
   icon: doshi.app.png
   meta: removed
+  verdict: nosource
   developerName: Doshi
 iphone:
   appId: doshi.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 16
   icon: doshi.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Doshi App Limited
 
 ---

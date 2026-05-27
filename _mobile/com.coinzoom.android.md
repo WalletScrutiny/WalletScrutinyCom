@@ -1,7 +1,6 @@
 ---
 wsId: coinZoom
 title: CoinZoom Buy, Spend, Send BTC
-verdict: custodial
 date: 2023-03-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 123
   icon: com.coinzoom.android.png
   meta: ok
+  verdict: custodial
   developerName: CoinZoom
 iphone:
   appId: com.ios.coinzoomsimple
@@ -33,6 +33,7 @@ iphone:
   reviews: 716
   icon: com.ios.coinzoomsimple.jpg
   meta: ok
+  verdict: custodial
   developerName: CoinZoom
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: croptyWallet
 title: Crypto wallet – Bitcoin & USDT
-verdict: custodial
 date: 2023-07-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 59
   icon: com.cropty.droid.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinscatch
 iphone:
   appId: com.cropty.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 213
   icon: com.cropty.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinscatch
 
 ---

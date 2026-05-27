@@ -1,6 +1,5 @@
 ---
 title: GBBIT Bitcoin Wallet India
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '10.61'
   icon: gbbit.app.wallet.png
   meta: removed
+  verdict: wip
   developerName: GBBIT Technologies Private Limited
 
 ---

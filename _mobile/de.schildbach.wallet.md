@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet
 bitcoinOrgId: bitcoinwallet
-verdict: sourceavailable
 date: 2025-05-30
 authors:
 - leo
@@ -17,7 +16,6 @@ redirect_from:
 - /android/de.schildbach.wallet/
 android:
   appId: de.schildbach.wallet
-  altTitle: Bitcoin Wallet (Schildbach)
   users: 10000000
   released: 2011-03-01
   updated: 2025-03-06
@@ -28,6 +26,7 @@ android:
   alternativeStores:
   - fdroid
   meta: removed
+  verdict: sourceavailable
   developerName: Bitcoin Wallet developers
 
 ---

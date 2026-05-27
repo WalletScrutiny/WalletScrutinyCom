@@ -1,6 +1,5 @@
 ---
 title: Crypto Invest Simulator
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.advancedbitcoin.crypto.invest.simulator/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.advancedbitcoin.crypto.invest.simulator.png
   meta: removed
+  verdict: wip
 
 ---
 

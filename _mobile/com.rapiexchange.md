@@ -1,7 +1,6 @@
 ---
 wsId: rapixchange
 title: RapiXchangE
-verdict: custodial
 date: 2023-04-29
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 3
   icon: com.rapiexchange.png
   meta: ok
+  verdict: custodial
   developerName: Rapixchange
 iphone:
   appId: com.rapixchangeapp
@@ -29,6 +29,7 @@ iphone:
   reviews: 2
   icon: com.rapixchangeapp.jpg
   meta: removed
+  verdict: custodial
   developerName: Money&Crypto Exchange Corporation
 
 ---

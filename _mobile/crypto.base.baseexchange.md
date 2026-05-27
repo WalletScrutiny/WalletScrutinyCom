@@ -1,6 +1,5 @@
 ---
 title: TechPay Exchange - Cryptocurre
-verdict: custodial
 date: 2024-04-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '5.2'
   icon: crypto.base.baseexchange.png
   meta: removed
+  verdict: custodial
   developerName: TechPay
 
 ---

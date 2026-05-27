@@ -1,7 +1,6 @@
 ---
 wsId: uniwallet
 title: 'UniWallet: Buy Bitcoin, Crypto'
-verdict: nosource
 date: 2025-12-24
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 2
   icon: com.uniwallet.png
   meta: ok
+  verdict: nosource
   developerName: UniWallet Ltd.
 iphone:
   appId: org.uniwallet.UniWallet
@@ -37,6 +37,7 @@ iphone:
   reviews: 1
   icon: org.uniwallet.UniWallet.jpg
   meta: ok
+  verdict: nosource
   developerName: UniWallet Ltd.
 
 ---

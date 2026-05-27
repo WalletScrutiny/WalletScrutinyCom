@@ -1,6 +1,5 @@
 ---
 title: NexzoneX
-verdict: wip
 date: 2024-04-19
 website: https://nexzonex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.0
   icon: com.cmcodes.NexZone.png
   meta: removed
+  verdict: wip
   developerName: NexzoneX
 
 ---

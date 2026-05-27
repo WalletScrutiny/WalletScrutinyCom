@@ -1,6 +1,5 @@
 ---
 title: Bitrump
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.hashcash.bitrump/
@@ -12,6 +11,7 @@ android:
   version: 1.2.1
   icon: com.hashcash.bitrump.png
   meta: removed
+  verdict: wip
   developerName: Bitrump Inc.
 
 ---

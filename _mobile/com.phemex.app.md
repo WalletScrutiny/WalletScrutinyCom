@@ -1,7 +1,6 @@
 ---
 wsId: phemex
 title: 'Phemex: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2021-04-13
 authors:
 - kiwilamb
@@ -27,6 +26,7 @@ android:
   reviews: 1468
   icon: com.phemex.app.png
   meta: ok
+  verdict: custodial
   developerName: Leading Magic Limited
 iphone:
   appId: com.phemex.submit
@@ -37,6 +37,7 @@ iphone:
   reviews: 2736
   icon: com.phemex.submit.jpg
   meta: ok
+  verdict: custodial
   developerName: JOIN MAGICP PTE. LTD.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: CryptoChanger Exchange - Buy & Sell CryptoCurrency
-verdict: wip
 date: 2021-10-22
 redirect_from:
 - /android/cc.cryptochanger/
@@ -13,6 +12,7 @@ android:
   reviews: 20
   icon: cc.cryptochanger.png
   meta: removed
+  verdict: wip
 
 ---
 

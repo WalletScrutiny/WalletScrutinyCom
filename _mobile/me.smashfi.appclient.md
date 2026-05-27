@@ -1,6 +1,5 @@
 ---
 title: 'SmashFi: Bitcoin Self-Custody'
-verdict: wip
 date: 2025-11-10
 website: https://smashfi.me
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: me.smashfi.appclient.png
   meta: fewusers
+  verdict: wip
   developerName: SmashFi
 
 ---

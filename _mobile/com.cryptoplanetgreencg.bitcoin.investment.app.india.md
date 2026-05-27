@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment App India
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptoplanetgreencg.bitcoin.investment.app.india/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptoplanetgreencg.bitcoin.investment.app.india.png
   meta: removed
+  verdict: wip
 
 ---
 

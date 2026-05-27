@@ -1,7 +1,6 @@
 ---
 wsId: bitclover
 title: BITCLOVER
-verdict: custodial
 date: 2022-05-31
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 238
   icon: io.hotbit.shouyi.flavor.kr.jpg
   meta: removed
+  verdict: custodial
   developerName: TresLab
 iphone:
   appId: io.hotbit.shouyi.flavor.korea
@@ -31,6 +31,7 @@ iphone:
   reviews: 36
   icon: io.hotbit.shouyi.flavor.korea.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

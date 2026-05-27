@@ -1,6 +1,5 @@
 ---
 title: WM Pro Trade
-verdict: wip
 date: 2023-12-19
 website: https://wmprotrade.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.wmprotrade.droidapp.jpg
   meta: removed
+  verdict: wip
   developerName: Alt 5 Pro
 
 ---

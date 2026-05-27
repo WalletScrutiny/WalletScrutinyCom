@@ -1,7 +1,6 @@
 ---
 wsId: eidoo
 title: 'Eidoo: Bitcoin and Ethereum Wallet and Exchange'
-verdict: nosource
 date: 2023-01-02
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   reviews: 97
   icon: io.eidoo.wallet.prodnet.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: io.eidoo.wallet.prodnet
   idd: 1279896253
@@ -34,6 +34,7 @@ iphone:
   reviews: 78
   icon: io.eidoo.wallet.prodnet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

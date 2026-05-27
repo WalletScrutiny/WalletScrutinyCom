@@ -1,6 +1,5 @@
 ---
 title: Crypto Net
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.piece.father/
@@ -12,6 +11,7 @@ android:
   version: 1.11.8
   icon: com.piece.father.png
   meta: removed
+  verdict: wip
   developerName: pontv015
 
 ---

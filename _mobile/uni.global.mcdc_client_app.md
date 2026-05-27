@@ -1,6 +1,5 @@
 ---
 title: 'UNi.Global: Web3 APP & Card'
-verdict: wip
 date: 2025-04-22
 website: https://uni.global
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.1.8
   icon: uni.global.mcdc_client_app.png
   meta: fewusers
+  verdict: wip
   developerName: UNi.Global
 
 ---

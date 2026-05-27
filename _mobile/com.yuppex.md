@@ -1,6 +1,5 @@
 ---
 title: 'Yuppex: Buy Bitcoin Socially'
-verdict: wip
 date: 2024-03-02
 website: https://yuppex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.yuppex.png
   meta: removed
+  verdict: wip
   developerName: Avollo.com
 
 ---

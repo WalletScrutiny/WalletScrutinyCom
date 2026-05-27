@@ -1,7 +1,6 @@
 ---
 wsId: dfxBTCTaroWallet
 title: DFX BTC Taro Wallet
-verdict: sourceavailable
 date: 2026-01-03
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 2.0.3
   icon: swiss.dfx.bitcoin.png
   meta: ok
+  verdict: sourceavailable
   developerName: DFX AG
 iphone:
   appId: swiss.dfx.bitcoin
@@ -39,6 +39,7 @@ iphone:
   reviews: 0
   icon: swiss.dfx.bitcoin.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: DFX AG
 
 ---

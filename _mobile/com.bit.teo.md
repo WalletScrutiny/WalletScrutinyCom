@@ -1,6 +1,5 @@
 ---
 title: FAcoin
-verdict: wip
 date: 2024-04-03
 website: http://facoin.info#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.014'
   icon: com.bit.teo.png
   meta: removed
+  verdict: wip
   developerName: greatinternetprojekt
 
 ---

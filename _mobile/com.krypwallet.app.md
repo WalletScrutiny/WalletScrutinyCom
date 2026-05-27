@@ -1,6 +1,5 @@
 ---
 title: Kryp Wallet
-verdict: wip
 date: 2024-04-19
 website: http://159.65.248.120/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.krypwallet.app.png
   meta: removed
+  verdict: wip
   developerName: SHmining Tech
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: unionCash
 title: Union.cash
-verdict: custodial
 date: 2023-11-17
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 5
   icon: com.union.cash.png
   meta: ok
+  verdict: custodial
   developerName: Union Cash
 iphone:
   appId: com.union.cash
@@ -30,6 +30,7 @@ iphone:
   reviews: 0
   icon: com.union.cash.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Unioncash EU UAB
 
 ---

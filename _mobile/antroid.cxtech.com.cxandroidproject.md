@@ -1,6 +1,5 @@
 ---
 title: DX.Exchange - Buy&Sell Bitcoin
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.3.12
   icon: antroid.cxtech.com.cxandroidproject.png
   meta: removed
+  verdict: wip
   developerName: COINS MARKETPLACE TECHNOLOGIES OU
 
 ---

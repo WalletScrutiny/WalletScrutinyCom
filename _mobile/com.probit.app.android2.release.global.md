@@ -1,6 +1,5 @@
 ---
 title: 'ProBit Global: Buy BTC, Crypto'
-verdict: custodial
 date: 2026-01-28
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 361
   icon: com.probit.app.android2.release.global.png
   meta: removed
+  verdict: custodial
   developerName: Probit Global Services Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Online Cold Wallet
-verdict: wip
 date: 2024-04-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.2.0
   icon: com.ocw.onlinecoldwallet.png
   meta: removed
+  verdict: wip
   developerName: Online Cold Wallet
 
 ---

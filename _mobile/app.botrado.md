@@ -1,6 +1,5 @@
 ---
 title: Botrado P2P
-verdict: wip
 date: 2023-12-19
 website: https://botrado.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: app.botrado.png
   meta: removed
+  verdict: wip
   developerName: DevNin
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: XCOEX
 title: 'XCOEX: Cryptocurrency Wallet'
-verdict: custodial
 date: 2025-03-17
 authors:
 - kiwilamb
@@ -22,6 +21,7 @@ android:
   reviews: 6
   icon: com.xcoex.mobile.png
   meta: removed
+  verdict: custodial
   developerName: XCOEX
 iphone:
   appId: com.xcoex.mobile
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.xcoex.mobile.jpg
   meta: removed
+  verdict: custodial
   developerName: XCOEX LIMITED
 
 ---

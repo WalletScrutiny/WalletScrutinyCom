@@ -1,6 +1,5 @@
 ---
 title: CoinForBarter
-verdict: wip
 date: 2024-04-19
 website: https://coinforbarter.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.coinforbarter.png
   meta: removed
+  verdict: wip
   developerName: CoinForBarter
 
 ---

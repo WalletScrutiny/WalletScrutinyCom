@@ -1,7 +1,6 @@
 ---
 wsId: leatherBitcoin
 title: 'Leather: Bitcoin DeFi Wallet'
-verdict: sourceavailable
 date: 2026-05-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: io.leather.mobilewallet.png
   meta: ok
+  verdict: sourceavailable
   developerName: Leather Wallet LLC
 iphone:
   appId: io.leather.mobilewallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 7
   icon: io.leather.mobilewallet.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Leather Wallet LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: Blubitex
 title: Blubitex
-verdict: nosource
 date: 2023-08-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 37
   icon: com.blubitex.blubitexapp.png
   meta: removed
+  verdict: nosource
   developerName: BLUBITEX LIMITED
 iphone:
   appId: com.blubitex.blubitexapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 3
   icon: com.blubitex.blubitexapp.jpg
   meta: removed
+  verdict: nosource
   developerName: BLUBITEX LIMITED
 
 ---

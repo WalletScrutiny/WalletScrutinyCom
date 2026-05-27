@@ -1,7 +1,6 @@
 ---
 wsId: PayizaDlt
 title: Payiza
-verdict: custodial
 date: 2022-06-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '8.0'
   icon: com.payizadlt.pp.png
   meta: removed
+  verdict: custodial
   developerName: Payiza tech
 iphone:
   appId: com.payiza.dlt
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.payiza.dlt.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Ammer Pay
-verdict: wip
 date: 2023-06-03
 website: https://ammer.cards
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.5
   icon: ammer.pay.png
   meta: fewusers
+  verdict: wip
   developerName: Ammer Technologies AG
 
 ---

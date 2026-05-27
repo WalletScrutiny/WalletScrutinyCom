@@ -1,6 +1,5 @@
 ---
 title: Lucky Wallet
-verdict: wip
 date: 2023-01-02
 website: https://skb-coin.jp/en#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.25'
   icon: com.skb_app.png
   meta: removed
+  verdict: wip
 
 ---
 

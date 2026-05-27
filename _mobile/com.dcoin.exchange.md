@@ -1,7 +1,6 @@
 ---
 wsId: dcoin
 title: Dcoin - Bitcoin Exchange
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 43
   icon: com.dcoin.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Dcoin
 iphone:
   appId: com.dcoin.ios
@@ -32,6 +32,7 @@ iphone:
   reviews: 19
   icon: com.dcoin.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: DAVOX TECH PTE. LTD.
 
 ---

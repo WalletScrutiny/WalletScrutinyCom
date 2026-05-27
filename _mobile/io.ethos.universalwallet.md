@@ -1,7 +1,6 @@
 ---
 wsId: ethosUW
 title: Ethos Universal Wallet
-verdict: nosource
 date: 2022-10-21
 website: https://www.ethos.io/
 twitter: ethos_io
@@ -20,6 +19,7 @@ android:
   reviews: 193
   icon: io.ethos.universalwallet.png
   meta: removed
+  verdict: nosource
   developerName: Ethos.io PTE LTD
 iphone:
   appId: io.ethos.universalwallet
@@ -30,6 +30,7 @@ iphone:
   reviews: 302
   icon: io.ethos.universalwallet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

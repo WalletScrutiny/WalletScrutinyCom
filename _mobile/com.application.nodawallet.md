@@ -1,6 +1,5 @@
 ---
 title: NodaWallet
-verdict: nosource
 date: 2024-11-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 55
   icon: com.application.nodawallet.png
   meta: removed
+  verdict: nosource
   developerName: noda
 
 ---

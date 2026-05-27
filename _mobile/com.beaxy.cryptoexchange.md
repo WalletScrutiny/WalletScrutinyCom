@@ -1,7 +1,6 @@
 ---
 wsId: Beaxy
 title: Beaxy Exchange
-verdict: custodial
 date: 2023-05-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 26
   icon: com.beaxy.cryptoexchange.png
   meta: removed
+  verdict: custodial
   developerName: Beaxy
 iphone:
   appId: com.beaxy.cryptoexchange
@@ -33,6 +33,7 @@ iphone:
   reviews: 74
   icon: com.beaxy.cryptoexchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Beaxy
 
 ---

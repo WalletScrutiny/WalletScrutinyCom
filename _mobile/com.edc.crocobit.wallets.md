@@ -1,6 +1,5 @@
 ---
 title: Crocobit Wallet
-verdict: wip
 date: 2023-09-15
 website: http://crocobit.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.05
   icon: com.edc.crocobit.wallets.png
   meta: removed
+  verdict: wip
   developerName: RICH MAN HOUSE BUSINESS CENTER
 
 ---

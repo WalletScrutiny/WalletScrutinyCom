@@ -1,6 +1,5 @@
 ---
 title: Eko Wallet - Bitcoin Wallet
-verdict: wip
 date: 2024-08-02
 website: https://ekowallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.13
   icon: com.EkoWallet.png
   meta: removed
+  verdict: wip
   developerName: ekowallet.com
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Privafund
-verdict: wip
 date: 2024-04-19
 website: https://privafund.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: io.privafund.app.png
   meta: removed
+  verdict: wip
   developerName: privafund
 
 ---

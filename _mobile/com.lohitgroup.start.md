@@ -1,6 +1,5 @@
 ---
 title: Lohit Group
-verdict: wip
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.1.5
   icon: com.lohitgroup.start.png
   meta: removed
+  verdict: wip
   developerName: LOHIT ENTERPRISES PRIVATE LIMITED
 
 ---

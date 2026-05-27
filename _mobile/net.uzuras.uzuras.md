@@ -1,6 +1,5 @@
 ---
 title: UZURA WALLET
-verdict: wip
 date: 2024-04-03
 website: https://www.uzuras.net/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4.0'
   icon: net.uzuras.uzuras.png
   meta: removed
+  verdict: wip
   developerName: UZURAS
 
 ---

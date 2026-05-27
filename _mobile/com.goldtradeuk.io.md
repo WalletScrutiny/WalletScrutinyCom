@@ -1,6 +1,5 @@
 ---
 title: Goldtradeuk
-verdict: wip
 date: 2024-09-06
 website: https://goldtradeuk.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.goldtradeuk.io.jpg
   meta: removed
+  verdict: wip
   developerName: Gold Trade UK LTD
 
 ---

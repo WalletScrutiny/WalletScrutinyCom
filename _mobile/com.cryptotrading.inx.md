@@ -1,7 +1,6 @@
 ---
 wsId: iNXCrypto
 title: INX Buy & Trade Crypto
-verdict: custodial
 date: 2023-06-30
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 18
   icon: com.cryptotrading.inx.png
   meta: ok
+  verdict: custodial
   developerName: The INX Digital Company
 iphone:
   appId: inx.co
@@ -38,6 +38,7 @@ iphone:
   reviews: 16
   icon: inx.co.jpg
   meta: ok
+  verdict: custodial
   developerName: INX Limited
 
 ---

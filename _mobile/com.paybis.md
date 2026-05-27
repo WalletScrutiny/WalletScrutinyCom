@@ -1,6 +1,5 @@
 ---
 title: 'Paybis Wallet: Buy Bitcoin'
-verdict: wip
 date: 2026-01-14
 website: https://paybis.com/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 2865
   icon: com.paybis.jpg
   meta: ok
+  verdict: wip
   developerName: Paybis LTD
 
 ---

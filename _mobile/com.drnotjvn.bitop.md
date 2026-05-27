@@ -1,6 +1,5 @@
 ---
 title: Bitop
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.drnotjvn.bitop/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.drnotjvn.bitop.png
   meta: removed
+  verdict: wip
 
 ---
 

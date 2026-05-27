@@ -1,6 +1,5 @@
 ---
 title: Metisbay
-verdict: wip
 date: 2024-04-03
 website: https://metisbay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.techbros.metisbay.jpg
   meta: removed
+  verdict: wip
   developerName: MetisBay
 
 ---

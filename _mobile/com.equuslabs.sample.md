@@ -1,6 +1,5 @@
 ---
 title: ExxBank
-verdict: wip
 date: 2024-04-03
 website: https://exxbank.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.equuslabs.sample.png
   meta: removed
+  verdict: wip
   developerName: JDK Tecnologia
 
 ---

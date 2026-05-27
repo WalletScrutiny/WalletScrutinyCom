@@ -1,7 +1,6 @@
 ---
 wsId: tzerocrypto
 title: tZERO Crypto - Buy, Sell, Grow
-verdict: custodial
 date: 2023-04-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 137
   icon: com.tzero.png
   meta: removed
+  verdict: custodial
   developerName: tZERO Crypto
 iphone:
   appId: com.tzero.tzerocrypto
@@ -29,6 +29,7 @@ iphone:
   reviews: 724
   icon: com.tzero.tzerocrypto.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

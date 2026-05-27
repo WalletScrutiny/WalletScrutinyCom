@@ -1,6 +1,5 @@
 ---
 title: Blockkoin
-verdict: wip
 date: 2024-11-30
 website: https://blockkoin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.6.12
   icon: com.blockkoinmobile.png
   meta: removed
+  verdict: wip
   developerName: Blockkoin Exchange Ltd
 
 ---

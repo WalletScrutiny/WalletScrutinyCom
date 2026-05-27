@@ -1,6 +1,5 @@
 ---
 title: BitBinder- Your Crypto Manager
-verdict: wip
 date: 2023-01-30
 website: https://bitbinderglobal.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: www.bitbinderglobal.com.jpg
   meta: removed
+  verdict: wip
 
 ---
 

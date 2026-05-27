@@ -1,7 +1,6 @@
 ---
 wsId: uxuy
 title: 'UXUY: Memecoin for Trading'
-verdict: custodial
 date: 2025-06-18
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 26
   icon: com.uxuy.png
   meta: removed
+  verdict: custodial
   developerName: UXUY Limited
 iphone:
   appId: com.uxuy
@@ -34,6 +34,7 @@ iphone:
   reviews: 18
   icon: com.uxuy.jpg
   meta: removed
+  verdict: custodial
   developerName: UXUY Limited
 
 ---

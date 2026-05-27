@@ -1,6 +1,5 @@
 ---
 title: Kurepay Wallet
-verdict: wip
 date: 2021-07-15
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 66
   icon: com.kurewallet.jpg
   meta: removed
+  verdict: wip
 
 ---
 

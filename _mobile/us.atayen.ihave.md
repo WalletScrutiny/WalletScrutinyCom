@@ -1,6 +1,5 @@
 ---
 title: iHave
-verdict: wip
 date: 2024-12-08
 website: https://dapp.satt.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.5.4
   icon: us.atayen.ihave.png
   meta: removed
+  verdict: wip
   developerName: Atayen, Inc
 
 ---

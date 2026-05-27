@@ -1,6 +1,5 @@
 ---
 title: 'Oubita: Buy Bitcoin'
-verdict: wip
 date: 2024-04-19
 website: https://www.oubita.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 2.1.0
   icon: com.oubita.oubitapp.png
   meta: removed
+  verdict: wip
   developerName: Oubita
 
 ---

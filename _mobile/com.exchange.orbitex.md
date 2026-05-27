@@ -1,6 +1,5 @@
 ---
 title: OrbitEx
-verdict: wip
 date: 2023-08-04
 website: https://www.orbitex.space
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: com.exchange.orbitex.png
   meta: removed
+  verdict: wip
   developerName: Orbitex
 
 ---

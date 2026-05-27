@@ -1,6 +1,5 @@
 ---
 title: BitWell
-verdict: wip
 date: 2023-01-02
 website: http://www.bitwellex.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 3
   icon: com.bitwell.android.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Crypto Ocean:Invest in Crypto
-verdict: wip
 date: 2025-03-14
 website: https://cryptoocean.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.tech.cryptoocean.png
   meta: removed
+  verdict: wip
   developerName: Crypto Ocean
 
 ---

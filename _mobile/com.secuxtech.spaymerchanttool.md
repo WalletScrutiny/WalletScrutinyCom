@@ -1,6 +1,5 @@
 ---
 title: SPaymentMerchant
-verdict: wip
 date: 2024-04-26
 website: https://secuxtech.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.secuxtech.spaymerchanttool.png
   meta: removed
+  verdict: wip
   developerName: SecuX
 
 ---

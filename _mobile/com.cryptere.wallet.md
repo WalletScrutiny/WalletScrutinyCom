@@ -1,6 +1,5 @@
 ---
 title: Cryptere
-verdict: wip
 date: 2024-10-19
 website: https://cryptere.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.9.11
   icon: com.cryptere.wallet.png
   meta: removed
+  verdict: wip
   developerName: Cryptere
 
 ---

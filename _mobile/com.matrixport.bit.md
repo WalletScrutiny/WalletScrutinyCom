@@ -1,6 +1,5 @@
 ---
 title: 'BIT.com: Buy BTC & ETH 、Meme'
-verdict: custodial
 date: 2026-04-13
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 29
   icon: com.matrixport.bit.png
   meta: removed
+  verdict: custodial
   developerName: BIT Technologies Holding Company
 
 ---

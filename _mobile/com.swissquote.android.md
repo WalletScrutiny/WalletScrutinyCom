@@ -1,7 +1,6 @@
 ---
 wsId: swissQuoteTrading
 title: Swissquote
-verdict: custodial
 date: 2023-07-20
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 43
   icon: com.swissquote.android.png
   meta: ok
+  verdict: custodial
   developerName: Swissquote Mobile
 iphone:
   appId: com.swissquote.iphone
@@ -35,6 +35,7 @@ iphone:
   reviews: 20
   icon: com.swissquote.iphone.jpg
   meta: ok
+  verdict: custodial
   developerName: Swissquote
 
 ---

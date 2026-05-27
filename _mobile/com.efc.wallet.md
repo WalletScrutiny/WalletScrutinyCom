@@ -1,6 +1,5 @@
 ---
 title: EFC Wallet
-verdict: wip
 date: 2024-02-05
 website: https://minerglobal.org#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.efc.wallet.png
   meta: removed
+  verdict: wip
   developerName: Yamada Shinichi
 
 ---

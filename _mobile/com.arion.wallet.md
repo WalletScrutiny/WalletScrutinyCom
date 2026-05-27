@@ -1,6 +1,5 @@
 ---
 title: Arion Wallet
-verdict: wip
 date: 2023-01-02
 website: https://www.arioncoin.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v1.0.1
   icon: com.arion.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Name Generator
-verdict: wip
 date: 2026-03-11
 website: https://kswappay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.archgroup.kswappay.jpg
   meta: removed
+  verdict: wip
   developerName: Kswap Limited
 
 ---

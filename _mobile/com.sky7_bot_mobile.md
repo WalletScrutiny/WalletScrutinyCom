@@ -1,6 +1,5 @@
 ---
 title: Sky7
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.sky7_bot_mobile/
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: com.sky7_bot_mobile.png
   meta: removed
+  verdict: wip
   developerName: Sky07 Dev
 
 ---

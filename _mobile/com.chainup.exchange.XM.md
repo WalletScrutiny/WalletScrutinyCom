@@ -1,6 +1,5 @@
 ---
 title: 小米XM：BTC、ETH、USDT & 加密货币交易平台
-verdict: wip
 date: 2024-04-19
 website: https://xm.im#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.7.0_push_v2
   icon: com.chainup.exchange.XM.png
   meta: removed
+  verdict: wip
   developerName: 小米XM
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitcoin PoS
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/gr.cryptocurrencies.bitcoinpos/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: gr.cryptocurrencies.bitcoinpos.png
   meta: removed
+  verdict: wip
 
 ---
 

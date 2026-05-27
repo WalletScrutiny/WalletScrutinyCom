@@ -1,6 +1,5 @@
 ---
 title: CTIN - Crypto Trading in India
-verdict: wip
 date: 2024-11-12
 website: https://inindiatech.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.ctin.inidev.android.png
   meta: removed
+  verdict: wip
   developerName: Inindia Corporation
 
 ---

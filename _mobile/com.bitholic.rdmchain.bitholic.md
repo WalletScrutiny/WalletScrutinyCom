@@ -1,6 +1,5 @@
 ---
 title: Bitholic - Global Digital Asse
-verdict: custodial
 date: 2024-07-05
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 1.1.1
   icon: com.bitholic.rdmchain.bitholic.png
   meta: removed
+  verdict: custodial
   developerName: RDMCHAIN.pte.ltd.
 
 ---

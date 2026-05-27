@@ -1,6 +1,5 @@
 ---
 title: Coin Barter
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.coinbarter/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.coinbarter.png
   meta: removed
+  verdict: wip
   developerName: Coin Barter
 
 ---

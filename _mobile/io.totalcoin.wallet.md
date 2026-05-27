@@ -1,7 +1,6 @@
 ---
 wsId: Totalcoin
 title: Totalcoin - Buy & Sell Bitcoin
-verdict: custodial
 date: 2021-05-24
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 68
   icon: io.totalcoin.wallet.png
   meta: ok
+  verdict: custodial
   developerName: TOTALCOIN TRADING LTD
 iphone:
   appId: io.totalcoin.wallet
@@ -35,6 +35,7 @@ iphone:
   reviews: 4
   icon: io.totalcoin.wallet.jpg
   meta: obsolete
+  verdict: custodial
   developerName: TChain Trading doo
 
 ---

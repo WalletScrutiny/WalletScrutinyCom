@@ -1,6 +1,5 @@
 ---
 title: Bitlish - crypto wallet
-verdict: custodial
 date: 2020-03-20
 website: https://bitlish.com#deadLink
 twitter: bitlish_com
@@ -20,6 +19,7 @@ android:
   reviews: 177
   icon: com.bitlish.bitlish.png
   meta: removed
+  verdict: custodial
 
 ---
 

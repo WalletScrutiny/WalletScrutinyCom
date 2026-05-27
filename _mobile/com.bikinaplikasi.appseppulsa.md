@@ -1,6 +1,5 @@
 ---
 title: Seppulsa
-verdict: wip
 date: 2023-04-20
 website: https://seppulsa.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '21.0'
   icon: com.bikinaplikasi.appseppulsa.png
   meta: removed
+  verdict: wip
 
 ---
 

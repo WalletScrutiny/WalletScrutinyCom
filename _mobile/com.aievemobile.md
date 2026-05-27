@@ -1,6 +1,5 @@
 ---
 title: AIEVE
-verdict: wip
 date: 2024-02-05
 website: https://www.aieve.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.aievemobile.png
   meta: removed
+  verdict: wip
   developerName: AIEVE Ltd
 
 ---

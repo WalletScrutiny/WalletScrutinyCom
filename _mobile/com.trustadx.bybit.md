@@ -1,6 +1,5 @@
 ---
 title: 'B y b i t : Cryptocurrency'
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.trustadx.bybit/
@@ -12,6 +11,7 @@ android:
   version: '5.0'
   icon: com.trustadx.bybit.png
   meta: removed
+  verdict: wip
 
 ---
 

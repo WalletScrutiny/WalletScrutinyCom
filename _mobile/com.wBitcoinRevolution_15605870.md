@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Revolution
-verdict: wip
 date: 2023-08-16
 redirect_from:
 - /android/com.wBitcoinRevolution_15605870/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wBitcoinRevolution_15605870.jpg
   meta: removed
+  verdict: wip
   developerName: yahsny tark tankky
 
 ---

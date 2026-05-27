@@ -1,6 +1,5 @@
 ---
 title: AleAirPay
-verdict: wip
 date: 2024-08-04
 website: https://web.archive.org/web/20240430163439/https://trade.aleairpay.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: trade.aleairpay.com.png
   meta: removed
+  verdict: wip
   developerName: AleAirPay
 
 ---

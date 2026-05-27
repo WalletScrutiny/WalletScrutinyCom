@@ -1,7 +1,6 @@
 ---
 wsId: swanBitcoin
 title: 'Swan Bitcoin: Buy & Save'
-verdict: custodial
 date: 2023-07-17
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 265
   icon: com.swanbitcoin.android.png
   meta: ok
+  verdict: custodial
   developerName: Swan Bitcoin
 iphone:
   appId: com.swanbitcoin.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 3958
   icon: com.swanbitcoin.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Swan Bitcoin
 
 ---

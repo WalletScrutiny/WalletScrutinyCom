@@ -1,6 +1,5 @@
 ---
 title: XHXN
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/plus.Bit.Mart/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: plus.Bit.Mart.png
   meta: removed
+  verdict: wip
   developerName: Eckles, Maurice John
 
 ---

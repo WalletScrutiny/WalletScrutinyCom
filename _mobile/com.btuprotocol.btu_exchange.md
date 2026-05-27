@@ -1,6 +1,5 @@
 ---
 title: 'BTU Exchange : Achat de bitcoi'
-verdict: wip
 date: 2024-04-03
 website: https://btu-protocol.com/trading#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.8.2
   icon: com.btuprotocol.btu_exchange.png
   meta: removed
+  verdict: wip
   developerName: Get Verso
 
 ---

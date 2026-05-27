@@ -1,6 +1,5 @@
 ---
 title: Bitwyre
-verdict: wip
 date: 2023-09-04
 website: https://bitwyre.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.4
   icon: com.bitwyre.bitwyreapp.png
   meta: removed
+  verdict: wip
   developerName: Bitwyre
 
 ---

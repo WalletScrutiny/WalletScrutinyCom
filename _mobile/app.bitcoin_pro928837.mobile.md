@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Pro
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/app.bitcoin_pro928837.mobile/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: app.bitcoin_pro928837.mobile.jpg
   meta: removed
+  verdict: wip
   developerName: bold cool site
 
 ---

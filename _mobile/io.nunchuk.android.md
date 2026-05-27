@@ -34,7 +34,6 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Nunchuk Inc
-  repository: https://github.com/nunchuk-io/nunchuk-android
 iphone:
   appId: io.nunchuk.ios
   idd: 1563190073

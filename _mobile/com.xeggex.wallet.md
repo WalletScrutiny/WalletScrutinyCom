@@ -1,6 +1,5 @@
 ---
 title: XeggeX Mobile
-verdict: custodial
 date: 2023-09-28
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.0.0
   icon: com.xeggex.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Dokdo
 
 ---

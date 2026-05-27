@@ -1,7 +1,6 @@
 ---
 wsId: bullDeFi
 title: Bull App - Blockchain Wallet
-verdict: nosource
 date: 2023-12-19
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.0.0
   icon: crypto.wallet.chainapp.png
   meta: removed
+  verdict: nosource
   developerName: SUPERBRAIN LIMITED
 iphone:
   appId: crypto.wallet.chainapp
@@ -28,6 +28,7 @@ iphone:
   reviews: 3
   icon: crypto.wallet.chainapp.jpg
   meta: removed
+  verdict: nosource
   developerName: SUPERBRAIN LIMITED
 
 ---

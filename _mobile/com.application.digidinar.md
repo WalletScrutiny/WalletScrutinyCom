@@ -1,6 +1,5 @@
 ---
 title: DigiDinar
-verdict: wip
 date: 2024-04-19
 website: https://www.digidinar.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.application.digidinar.png
   meta: removed
+  verdict: wip
   developerName: DigiDinar
 
 ---

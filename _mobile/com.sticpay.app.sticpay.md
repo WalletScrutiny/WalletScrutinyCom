@@ -1,7 +1,6 @@
 ---
 wsId: STICPAY
 title: STICPAY
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 16
   icon: com.sticpay.app.sticpay.png
   meta: ok
+  verdict: custodial
   developerName: STICPAY
 iphone:
   appId: com.sticpay.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 27
   icon: com.sticpay.app.jpg
   meta: ok
+  verdict: custodial
   developerName: STIC FINANCIAL LTD.
 
 ---

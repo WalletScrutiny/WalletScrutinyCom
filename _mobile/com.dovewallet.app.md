@@ -1,6 +1,5 @@
 ---
 title: Dove Wallet
-verdict: custodial
 date: 2022-05-31
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 5
   icon: com.dovewallet.app.png
   meta: removed
+  verdict: custodial
 
 ---
 

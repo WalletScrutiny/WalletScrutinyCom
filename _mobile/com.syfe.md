@@ -1,7 +1,6 @@
 ---
 wsId: syfeInvest
 title: 'Syfe: Invest, Trade and Save'
-verdict: nosendreceive
 date: 2023-07-10
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 4
   icon: com.syfe.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Syfe
 iphone:
   appId: com.syfe
@@ -35,6 +35,7 @@ iphone:
   reviews: 581
   icon: com.syfe.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Syfe Pte. Ltd.
 
 ---

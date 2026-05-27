@@ -1,7 +1,6 @@
 ---
 wsId: bitoEXOld
 title: BitoEX幣託-虛擬通貨錢包
-verdict: wip
 date: 2023-09-15
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.0.0
   icon: com.bitoex.bitoexapp.png
   meta: removed
+  verdict: wip
   developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 iphone:
   appId: com.bitoex.bitoexapp
@@ -31,6 +31,7 @@ iphone:
   reviews: 86
   icon: com.bitoex.bitoexapp.jpg
   meta: removed
+  verdict: wip
   developerName: BitoEX
 
 ---

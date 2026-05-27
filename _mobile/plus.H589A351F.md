@@ -1,6 +1,5 @@
 ---
 title: XanTrade-dinero en línea
-verdict: wip
 date: 2023-08-25
 redirect_from:
 - /android/plus.H589A351F/
@@ -12,6 +11,7 @@ android:
   version: 2.0.1
   icon: plus.H589A351F.png
   meta: removed
+  verdict: wip
   developerName: KieleAvingt
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Dispurse - Get paid in crypto
-verdict: wip
 date: 2024-04-19
 website: https://dispurseapp.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.AppInstitute.d3952.png
   meta: removed
+  verdict: wip
   developerName: Dispurse
 
 ---

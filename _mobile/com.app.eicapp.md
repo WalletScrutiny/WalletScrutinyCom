@@ -1,6 +1,5 @@
 ---
 title: Expert Income
-verdict: wip
 date: 2023-03-21
 redirect_from:
 - /android/com.app.eicapp/
@@ -12,6 +11,7 @@ android:
   version: '1.3'
   icon: com.app.eicapp.jpg
   meta: removed
+  verdict: wip
 
 ---
 

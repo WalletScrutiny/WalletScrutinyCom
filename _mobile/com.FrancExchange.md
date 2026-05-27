@@ -1,7 +1,6 @@
 ---
 wsId: FrancExchange
 title: Franc Exchange
-verdict: wip
 date: 2021-10-24
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: '1.0'
   icon: com.FrancExchange.png
   meta: removed
+  verdict: wip
   developerName: Franc IT Solutions
 iphone:
   appId: com.FrancExchange
@@ -28,6 +28,7 @@ iphone:
   reviews: 1
   icon: com.FrancExchange.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Xenios Markets
-verdict: wip
 date: 2024-04-03
 website: https://www.xeniosmarkets.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.xeniosmarkets.png
   meta: removed
+  verdict: wip
   developerName: Xenios Project
 
 ---

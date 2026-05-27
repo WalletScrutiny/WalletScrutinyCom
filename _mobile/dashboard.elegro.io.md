@@ -1,6 +1,5 @@
 ---
 title: elegro Retail PoS App
-verdict: wip
 date: 2023-12-19
 website: https://business.elegro.eu/acceptance#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.3
   icon: dashboard.elegro.io.png
   meta: removed
+  verdict: wip
   developerName: Niko Technologies
 
 ---

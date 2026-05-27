@@ -1,6 +1,5 @@
 ---
 title: Buy Crypto with card
-verdict: wip
 date: 2023-08-04
 website: http://cryptogeek.info
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 22
   icon: app.vercel.buy_crypto.twa.jpg
   meta: removed
+  verdict: wip
   developerName: Geek Family
 
 ---

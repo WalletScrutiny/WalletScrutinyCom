@@ -1,6 +1,5 @@
 ---
 title: geewallet
-verdict: wip
 date: 2025-02-28
 website: http://github.com/knocte/geewallet
 repository: https://github.com/knocte/geewallet
@@ -14,6 +13,7 @@ android:
   version: 0.7.444.0
   icon: com.geewallet.android.png
   meta: removed
+  verdict: wip
   developerName: Andres G. Aragoneses
 
 ---

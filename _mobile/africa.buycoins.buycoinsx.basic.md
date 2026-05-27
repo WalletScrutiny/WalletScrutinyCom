@@ -1,6 +1,5 @@
 ---
 title: Buycoins - The easiest way to buy & sell crypto
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 18
   icon: africa.buycoins.buycoinsx.basic.png
   meta: removed
+  verdict: custodial
 
 ---
 

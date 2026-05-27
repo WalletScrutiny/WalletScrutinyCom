@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Invest App
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.hodlercrypto.bitcoin.invest/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.hodlercrypto.bitcoin.invest.jpg
   meta: removed
+  verdict: wip
 
 ---
 

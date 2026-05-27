@@ -1,7 +1,6 @@
 ---
 wsId: ZenaPay
 title: ZenaPay
-verdict: nosource
 date: 2025-07-03
 authors:
 - danny
@@ -22,6 +21,7 @@ iphone:
   reviews: 0
   icon: com.zenapay.jpg
   meta: stale
+  verdict: nosource
   developerName: Epazz
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Nayuta - Bitcoin Lightning Wallet
-verdict: wip
 date: 2019-12-29
 website: https://nayuta.co
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: Varies with device
   icon: co.nayuta.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

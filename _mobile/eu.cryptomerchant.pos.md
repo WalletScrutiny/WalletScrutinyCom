@@ -1,6 +1,5 @@
 ---
 title: CryptoMerchant POS
-verdict: wip
 date: 2024-12-23
 website: https://www.cryptomerchant.eu
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: eu.cryptomerchant.pos.png
   meta: removed
+  verdict: wip
   developerName: Wayne Service Ltd
 
 ---

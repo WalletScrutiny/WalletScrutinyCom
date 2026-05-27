@@ -2,7 +2,6 @@
 wsId: GreenBitcoinWallet
 title: Blockstream BTC Wallet (Green)
 bitcoinOrgId: green
-verdict: sourceavailable
 date: 2020-12-19
 authors:
 - leo
@@ -40,8 +39,8 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
+  verdict: sourceavailable
   developerName: Blockstream Inc
-  repository: https://github.com/Blockstream/green_android
 iphone:
   appId: io.blockstream.green
   idd: 1402243590
@@ -51,8 +50,8 @@ iphone:
   reviews: 1156
   icon: io.blockstream.green.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Blockstream
-  repository: https://github.com/Blockstream/green_ios
 
 ---
 

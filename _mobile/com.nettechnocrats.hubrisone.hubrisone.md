@@ -1,6 +1,5 @@
 ---
 title: HubrisOne
-verdict: wip
 date: 2024-05-07
 website: http://www.hubrisone.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 8
   icon: com.nettechnocrats.hubrisone.hubrisone.png
   meta: removed
+  verdict: wip
   developerName: HubrisOne Technologies
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Betadeal - Buy & Sell Bitcoin, Ethereum
-verdict: custodial
 date: 2022-02-16
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.1.0
   icon: com.mobile.BetaDeal.png
   meta: removed
+  verdict: custodial
 
 ---
 

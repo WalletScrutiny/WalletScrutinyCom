@@ -1,6 +1,5 @@
 ---
 title: 'OSL: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.10.14
   icon: com.oslmobile.global.png
   meta: ok
+  verdict: custodial
   developerName: BC Technology (HK) Limited
 
 ---

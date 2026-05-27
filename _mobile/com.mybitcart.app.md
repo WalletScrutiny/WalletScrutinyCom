@@ -1,6 +1,5 @@
 ---
 title: MyBitcart
-verdict: wip
 date: 2023-12-19
 website: https://mybitcart.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.mybitcart.app.png
   meta: removed
+  verdict: wip
   developerName: Sebastian Livingstone
 
 ---

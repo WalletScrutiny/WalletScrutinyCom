@@ -1,6 +1,5 @@
 ---
 title: 'WOW Exchange : Professional Cr'
-verdict: wip
 date: 2023-05-10
 website: http://www.gowowx.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.9
   icon: com.app.gowowx.png
   meta: removed
+  verdict: wip
   developerName: wowexchange oü
 
 ---

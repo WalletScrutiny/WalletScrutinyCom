@@ -1,7 +1,6 @@
 ---
 wsId: coinPlugNG
 title: CoinPlug - Swap Crypto to Cash
-verdict: nosendreceive
 date: 2025-08-29
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 5
   icon: app.coinplug.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: CoinPlug Digitals LTD
 iphone:
   appId: app.coinplug.ng
@@ -32,6 +32,7 @@ iphone:
   reviews: 10
   icon: app.coinplug.ng.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: COINPLUG LTD
 
 ---

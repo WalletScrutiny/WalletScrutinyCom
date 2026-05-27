@@ -1,6 +1,5 @@
 ---
 title: Dantown
-verdict: custodial
 date: 2023-04-21
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 44
   icon: com.dantown.Dantownapp.jpg
   meta: ok
+  verdict: custodial
   developerName: Dantown
 
 ---

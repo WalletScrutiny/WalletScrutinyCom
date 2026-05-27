@@ -1,6 +1,5 @@
 ---
 title: goodcryptoX trading terminal
-verdict: nosendreceive
 date: 2021-08-10
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 151
   icon: app.goodcrypto.png
   meta: ok
+  verdict: nosendreceive
   developerName: GoodCrypto.App
 
 ---

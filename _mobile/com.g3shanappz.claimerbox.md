@@ -1,6 +1,5 @@
 ---
 title: Claimer Box Multi Coins in One
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/com.g3shanappz.claimerbox/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.g3shanappz.claimerbox.jpg
   meta: removed
+  verdict: wip
 
 ---
 

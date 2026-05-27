@@ -1,6 +1,5 @@
 ---
 title: dpexbank
-verdict: wip
 date: 2023-12-19
 website: http://www.dpexbank.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.06'
   icon: cme.dpexbank.app.png
   meta: removed
+  verdict: wip
   developerName: nicolas moore
 
 ---

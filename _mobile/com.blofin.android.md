@@ -1,7 +1,6 @@
 ---
 wsId: blofin
 title: 'BloFin: Trade Crypto & Bitcoin'
-verdict: nosendreceive
 date: 2023-03-29
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 117
   icon: com.blofin.android.png
   meta: ok
+  verdict: nosendreceive
   developerName: Blofin Inc.
 iphone:
   appId: com.blofin.app
@@ -30,6 +30,7 @@ iphone:
   reviews: 1389
   icon: com.blofin.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Blofin Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: thisAppBudget
-verdict: wip
 date: 2025-02-26
 website: https://thisapp.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.0
   icon: io.thisapp.png
   meta: removed
+  verdict: wip
   developerName: '*thisApp Inc'
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: UnodaxExchange
 title: Unodax Exchange
-verdict: custodial
 date: 2022-04-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.5.8
   icon: com.unodax.exchange.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.unodax.exchange
   idd: 1355604579
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.unodax.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Unocoin Technologies Private Limited
 
 ---

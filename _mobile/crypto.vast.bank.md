@@ -1,7 +1,6 @@
 ---
 wsId: vastCryptoBank
 title: Vast Bank Mobile
-verdict: custodial
 date: 2024-03-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 69
   icon: crypto.vast.bank.jpg
   meta: removed
+  verdict: custodial
   developerName: Vast Bank
 iphone:
   appId: crypto.vast.bank
@@ -33,6 +33,7 @@ iphone:
   reviews: 83
   icon: crypto.vast.bank.jpg
   meta: removed
+  verdict: custodial
   developerName: Vast Bank N.A.
 
 ---

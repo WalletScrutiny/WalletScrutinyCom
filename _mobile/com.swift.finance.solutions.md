@@ -1,6 +1,5 @@
 ---
 title: Swift Finance Solutions
-verdict: wip
 date: 2023-01-02
 website: https://swiftfinancesolutions.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.swift.finance.solutions.png
   meta: removed
+  verdict: wip
 
 ---
 

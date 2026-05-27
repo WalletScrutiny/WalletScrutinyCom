@@ -1,6 +1,5 @@
 ---
 title: ixWallet 2.0
-verdict: wip
 date: 2024-12-08
 website: http://daemtech.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.108 (5683)
   icon: com.ixwallet.app.png
   meta: removed
+  verdict: wip
   developerName: IX Fintech Ltd
 
 ---

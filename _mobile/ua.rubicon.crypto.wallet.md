@@ -1,7 +1,6 @@
 ---
 wsId: rubicoinWallet
 title: Rubicon Wallet
-verdict: nosource
 date: 2026-05-01
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.5.4
   icon: ua.rubicon.crypto.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Rubicoin Software Company OU
 iphone:
   appId: money.rubicoin.wallet
@@ -28,6 +28,7 @@ iphone:
   reviews: 16
   icon: money.rubicoin.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Rubicoin Software Company OU
 
 ---

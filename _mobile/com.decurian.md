@@ -1,6 +1,5 @@
 ---
 title: Decurian Wallet
-verdict: wip
 date: 2024-04-19
 website: https://decurian.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 18
   icon: com.decurian.jpg
   meta: removed
+  verdict: wip
   developerName: Decurian Cryptocurrency
 
 ---

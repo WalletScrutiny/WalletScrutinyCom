@@ -1,7 +1,6 @@
 ---
 wsId: CAPITALIKA
 title: CAPITALIKA®
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.capitalika.exhange.png
   meta: stale
+  verdict: custodial
   developerName: CAPITALIKA®
 iphone:
   appId: com.capitalika.exchange
@@ -34,6 +34,7 @@ iphone:
   reviews: 7
   icon: com.capitalika.exchange.jpg
   meta: stale
+  verdict: custodial
   developerName: Capitalika
 
 ---

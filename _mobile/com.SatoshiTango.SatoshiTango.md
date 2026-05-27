@@ -1,7 +1,6 @@
 ---
 wsId: SatoshiTango
 title: 'Satoshi Tango: Buy Crypto'
-verdict: custodial
 date: 2021-09-03
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 45
   icon: com.SatoshiTango.SatoshiTango.png
   meta: ok
+  verdict: custodial
   developerName: Satoshi Tango
 iphone:
   appId: com.SatoshiTango.SatoshiTango
@@ -34,6 +34,7 @@ iphone:
   reviews: 2
   icon: com.SatoshiTango.SatoshiTango.jpg
   meta: ok
+  verdict: custodial
   developerName: Satoshi Tango
 
 ---

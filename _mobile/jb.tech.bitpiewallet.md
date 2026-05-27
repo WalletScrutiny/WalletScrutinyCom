@@ -1,6 +1,5 @@
 ---
 title: Bitcan Bitcoin Wallet - USDT ETH BCH TRON
-verdict: custodial
 date: 2021-04-30
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   reviews: 69
   icon: jb.tech.bitpiewallet.png
   meta: removed
+  verdict: custodial
 
 ---
 

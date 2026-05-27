@@ -1,6 +1,5 @@
 ---
 title: 'Byte Exchange: Bitcoin │Crypto'
-verdict: wip
 date: 2024-03-02
 website: https://bytedex.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: io.bytedex.mobile.png
   meta: removed
+  verdict: wip
   developerName: Byte Blockchain Technologies
 
 ---

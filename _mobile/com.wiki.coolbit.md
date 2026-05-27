@@ -1,6 +1,5 @@
 ---
 title: CoolBit
-verdict: wip
 date: 2023-01-02
 website: http://www.coolbit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: com.wiki.coolbit.png
   meta: removed
+  verdict: wip
 
 ---
 

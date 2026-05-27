@@ -1,7 +1,6 @@
 ---
 wsId: AxiaInvestments
 title: Axia Trade
-verdict: nosendreceive
 date: 2024-10-07
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 7
   icon: com.pandats.axia.png
   meta: removed
+  verdict: nosendreceive
   developerName: Deloce LTD
 iphone:
   appId: com.pandats.axia
@@ -30,6 +30,7 @@ iphone:
   reviews: 1
   icon: com.pandats.axia.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Deloce LTD
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: DES Wallet
-verdict: wip
 date: 2024-04-26
 website: https://dtechno.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.deswallet.png
   meta: removed
+  verdict: wip
   developerName: Delight Technology Inc
 
 ---

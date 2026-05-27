@@ -1,6 +1,5 @@
 ---
 title: Dawn Wallet
-verdict: wip
 date: 2024-04-19
 website: https://dawn.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.2
   icon: com.dawn.wallet.png
   meta: removed
+  verdict: wip
   developerName: Dawn Wallet Inc
 
 ---

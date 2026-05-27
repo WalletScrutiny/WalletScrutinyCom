@@ -1,6 +1,5 @@
 ---
 title: 'TENT: Bitcoin & Crypto Wallet'
-verdict: wip
 date: 2024-11-07
 website: https://tent.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.0
   icon: com.tent.app.png
   meta: removed
+  verdict: wip
   developerName: TENT.COM
 
 ---

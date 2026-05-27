@@ -1,7 +1,6 @@
 ---
 wsId: capitalTrading
 title: Trading app by Capital·com
-verdict: nosendreceive
 date: 2024-02-08
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 36
   icon: com.capital.trading.png
   meta: ok
+  verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
 iphone:
   appId: com.capital.trading
@@ -36,6 +36,7 @@ iphone:
   reviews: 324
   icon: com.capital.trading.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
 
 ---

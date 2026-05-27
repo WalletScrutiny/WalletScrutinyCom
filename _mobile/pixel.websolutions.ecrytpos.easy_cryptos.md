@@ -1,6 +1,5 @@
 ---
 title: EasyCryptos
-verdict: wip
 date: 2024-02-05
 website: https://easycryptos.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: pixel.websolutions.ecrytpos.easy_cryptos.png
   meta: removed
+  verdict: wip
   developerName: ntfs pokem ale
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Cold
-verdict: wip
 date: 2024-05-07
 redirect_from:
 - /android/org.bitcoincold.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.4.5
   icon: org.bitcoincold.wallet.png
   meta: removed
+  verdict: wip
   developerName: Michael Wittmann
 
 ---

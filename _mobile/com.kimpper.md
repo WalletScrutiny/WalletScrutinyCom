@@ -1,6 +1,5 @@
 ---
 title: 'Kimpper: Borrow&Invest Crypto'
-verdict: wip
 date: 2023-01-30
 website: https://www.kimpper.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.8
   icon: com.kimpper.png
   meta: removed
+  verdict: wip
 
 ---
 

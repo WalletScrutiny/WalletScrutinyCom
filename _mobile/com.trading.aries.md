@@ -1,7 +1,6 @@
 ---
 wsId: TradeAries
 title: 'Aries: Trade. Invest.'
-verdict: nosendreceive
 date: 2024-11-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.8.3
   icon: com.trading.aries.png
   meta: ok
+  verdict: nosendreceive
   developerName: Aries Financial, Inc.
 iphone:
   appId: com.tradearies.ariestrading
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.tradearies.ariestrading.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Aries Financial, Inc.
 
 ---

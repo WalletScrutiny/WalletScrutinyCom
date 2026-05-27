@@ -1,6 +1,5 @@
 ---
 title: Coinceeper - Crypto wallet
-verdict: wip
 date: 2025-11-10
 website: https://coinceeper.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.46
   icon: com.coinceeper.adl.png
   meta: fewusers
+  verdict: wip
   developerName: Taparam
 
 ---

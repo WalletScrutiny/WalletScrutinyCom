@@ -1,7 +1,6 @@
 ---
 wsId: bkexGlobal
 title: BKEX-Global
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 50
   icon: com.yayd.exchangglobal.png
   meta: removed
+  verdict: custodial
   developerName: DevYian
 iphone:
   appId: com.bkex.exchange
@@ -29,6 +29,7 @@ iphone:
   reviews: 286
   icon: com.bkex.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Intellefund Finance Limited
 
 ---

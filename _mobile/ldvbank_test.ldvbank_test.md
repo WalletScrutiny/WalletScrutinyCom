@@ -1,6 +1,5 @@
 ---
 title: LDV Exchange
-verdict: wip
 date: 2023-01-02
 website: https://ldvbank.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: ldvbank_test.ldvbank_test.png
   meta: removed
+  verdict: wip
 
 ---
 

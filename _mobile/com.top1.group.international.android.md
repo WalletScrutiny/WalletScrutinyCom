@@ -1,6 +1,5 @@
 ---
 title: I stock hunter-finance saham wallet&bursa anywhere
-verdict: wip
 date: 2023-01-02
 website: https://www.top1groups.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.9.0
   icon: com.top1.group.international.android.png
   meta: removed
+  verdict: wip
 
 ---
 

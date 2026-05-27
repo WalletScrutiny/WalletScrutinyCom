@@ -1,7 +1,6 @@
 ---
 wsId: xboCrypto
 title: XBO.com - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2023-08-25
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 16
   icon: xbo.mobile.app.png
   meta: ok
+  verdict: custodial
   developerName: Metafortune LTD
 iphone:
   appId: xbo.mobile.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 8
   icon: xbo.mobile.app.jpg
   meta: ok
+  verdict: custodial
   developerName: XBO
 
 ---

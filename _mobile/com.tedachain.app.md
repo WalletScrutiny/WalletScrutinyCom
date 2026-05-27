@@ -1,6 +1,5 @@
 ---
 title: Teda Chain
-verdict: wip
 date: 2023-04-16
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 5
   icon: com.tedachain.app.png
   meta: removed
+  verdict: wip
   developerName: ggreysonccherry
 
 ---

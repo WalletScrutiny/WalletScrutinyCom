@@ -1,6 +1,5 @@
 ---
 title: Wire Wallet
-verdict: wip
 date: 2021-12-29
 redirect_from:
 - /android/com.wire.wirewalletapp/
@@ -12,6 +11,7 @@ android:
   version: 6.5502.321
   icon: com.wire.wirewalletapp.jpg
   meta: removed
+  verdict: wip
 
 ---
 

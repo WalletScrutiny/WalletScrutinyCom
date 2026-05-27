@@ -1,7 +1,6 @@
 ---
 wsId: neutronLNBitcoinWallet
 title: 'Neutron: LN Bitcoin Wallet'
-verdict: custodial
 date: 2025-12-31
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.5.0
   icon: neutronpay.wallet.png
   meta: removed
+  verdict: custodial
   developerName: Neutronpay Inc.
 iphone:
   appId: neutronpay.wallet
@@ -35,6 +35,7 @@ iphone:
   reviews: 18
   icon: neutronpay.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Neutronpay Inc.
 
 ---

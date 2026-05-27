@@ -1,6 +1,5 @@
 ---
 title: Bincap — bitcoin exchange and wallet
-verdict: wip
 date: 2023-01-02
 website: https://bincap.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: io.bincap.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

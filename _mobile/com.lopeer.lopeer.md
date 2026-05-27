@@ -1,6 +1,5 @@
 ---
 title: Lopeer - Borderless Banking
-verdict: custodial
 date: 2024-09-25
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.2.7
   icon: com.lopeer.lopeer.png
   meta: removed
+  verdict: custodial
   developerName: Librium
 
 ---

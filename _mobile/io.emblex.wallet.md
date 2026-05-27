@@ -1,6 +1,5 @@
 ---
 title: Emblex Wallet
-verdict: wip
 date: 2023-12-19
 website: https://emblex.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.21.5
   icon: io.emblex.wallet.png
   meta: removed
+  verdict: wip
   developerName: Emblex
 
 ---

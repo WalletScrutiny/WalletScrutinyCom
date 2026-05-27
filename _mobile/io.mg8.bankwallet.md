@@ -1,6 +1,5 @@
 ---
 title: White Wallet
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/io.mg8.bankwallet/
@@ -12,6 +11,7 @@ android:
   version: '1'
   icon: io.mg8.bankwallet.png
   meta: removed
+  verdict: wip
   developerName: MG8 LTD
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: WowooWallet
-verdict: wip
 date: 2023-05-03
 redirect_from:
 - /android/com.wowoonet.wallet/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: com.wowoonet.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

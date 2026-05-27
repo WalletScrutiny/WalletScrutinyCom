@@ -1,6 +1,5 @@
 ---
 title: OnePago
-verdict: wip
 date: 2023-08-16
 website: https://www.onepago.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.onepago.app.png
   meta: removed
+  verdict: wip
   developerName: OnePago
 
 ---

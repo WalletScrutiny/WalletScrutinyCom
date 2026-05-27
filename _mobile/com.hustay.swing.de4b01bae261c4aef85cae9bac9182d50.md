@@ -1,6 +1,5 @@
 ---
 title: Earnfinex Trading
-verdict: wip
 date: 2023-08-04
 website: https://www.earnfinex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.6'
   icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.png
   meta: removed
+  verdict: wip
   developerName: Earnfinex Limited
 
 ---

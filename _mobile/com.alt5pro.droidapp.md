@@ -1,6 +1,5 @@
 ---
 title: Alt 5 Pro
-verdict: custodial
 date: 2024-11-15
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '1.9'
   icon: com.alt5pro.droidapp.png
   meta: removed
+  verdict: custodial
   developerName: Alt 5 Pro
 
 ---

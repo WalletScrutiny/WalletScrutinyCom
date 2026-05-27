@@ -1,7 +1,6 @@
 ---
 wsId: bitnovo
 title: Bitnovo - Crypto Wallet
-verdict: custodial
 date: 2022-02-10
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 245
   icon: com.bitnovo.app.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.bitnovo.app
   idd: 1220883632
@@ -31,6 +31,7 @@ iphone:
   reviews: 5
   icon: com.bitnovo.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

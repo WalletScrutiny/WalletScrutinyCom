@@ -1,6 +1,5 @@
 ---
 title: Favorpay
-verdict: wip
 date: 2024-04-19
 website: https://favorpay.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '20220120'
   icon: com.favorpay.favwallet.png
   meta: removed
+  verdict: wip
   developerName: FAVORPAY TEAM
 
 ---

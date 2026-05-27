@@ -1,7 +1,6 @@
 ---
 wsId: walletV
 title: Wallet V - AI Agent Trading
-verdict: nosource
 date: 2026-02-27
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 2
   icon: prod.walletv.virgo.jpg
   meta: ok
+  verdict: nosource
   developerName: Wallet V
 iphone:
   appId: prod.walletv.virgo
@@ -33,6 +33,7 @@ iphone:
   reviews: 5
   icon: prod.walletv.virgo.jpg
   meta: ok
+  verdict: nosource
   developerName: Virgo Web3 Labs
 
 ---

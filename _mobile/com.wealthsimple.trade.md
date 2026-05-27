@@ -1,7 +1,6 @@
 ---
 wsId: WealthsimpleTrade
 title: Wealthsimple - Grow your money
-verdict: nosendreceive
 date: 2021-09-03
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 12998
   icon: com.wealthsimple.trade.png
   meta: ok
+  verdict: nosendreceive
   developerName: Wealthsimple
 iphone:
   appId: com.wealthsimple.trade
@@ -32,6 +32,7 @@ iphone:
   reviews: 128585
   icon: com.wealthsimple.trade.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Wealthsimple
 
 ---

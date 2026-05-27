@@ -1,6 +1,5 @@
 ---
 title: Coinsvlaue
-verdict: wip
 date: 2023-06-21
 website: http://zezo.in
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.coinsvalue.png
   meta: removed
+  verdict: wip
   developerName: Zezo Softwares Pvt. Ltd.
 
 ---

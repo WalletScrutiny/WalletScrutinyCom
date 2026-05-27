@@ -1,6 +1,5 @@
 ---
 title: MilleniumOne
-verdict: wip
 date: 2023-12-19
 website: https://milleniumone.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.pandats.milleniumone.png
   meta: removed
+  verdict: wip
   developerName: AppBlet
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BitMeet Peer to Peer Crypto Trading
-verdict: wip
 date: 2021-10-30
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 4
   icon: com.goodbarber.bitmeat.png
   meta: removed
+  verdict: wip
 
 ---
 

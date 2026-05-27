@@ -1,6 +1,5 @@
 ---
 title: Bitfera – Buy Bitcoin, ETH, LTC, XRP and BCH
-verdict: wip
 date: 2023-01-02
 website: https://www.bitfera.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.coinsfera.png
   meta: removed
+  verdict: wip
 
 ---
 

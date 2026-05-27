@@ -1,7 +1,6 @@
 ---
 wsId: immuneMessenger
 title: IMMUNE Messenger
-verdict: nosource
 date: 2023-04-15
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.2.1
   icon: im.immune.app.png
   meta: stale
+  verdict: nosource
   developerName: IMM Money Messenger Limited
 iphone:
   appId: im.immune.app
@@ -28,6 +28,7 @@ iphone:
   reviews: 4
   icon: im.immune.app.jpg
   meta: ok
+  verdict: nosource
   developerName: IMM Money Messenger Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: publicStocksCrypto
 title: Public – Stocks and Options
-verdict: nosendreceive
 date: 2023-07-21
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 9499
   icon: com.public.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Public Holdings, Inc.
 iphone:
   appId: com.t3securities.matador
@@ -36,6 +36,7 @@ iphone:
   reviews: 82323
   icon: com.t3securities.matador.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Open to the Public Investing, Inc.
 
 ---

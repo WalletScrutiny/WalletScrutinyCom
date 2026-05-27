@@ -1,6 +1,5 @@
 ---
 title: SunX
-verdict: wip
 date: 2023-05-23
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.04'
   icon: com.digitalcrypto.xchange.png
   meta: removed
+  verdict: wip
   developerName: Sunway Trading Company
 
 ---

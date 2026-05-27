@@ -1,7 +1,6 @@
 ---
 wsId: coincola
 title: CoinCola - P2P Buy & Sell BTC
-verdict: custodial
 date: 2020-12-03
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 173
   icon: com.newgo.coincola.png
   meta: ok
+  verdict: custodial
   developerName: CoinCola Limited
 iphone:
   appId: com.coincola.beta
@@ -34,6 +34,7 @@ iphone:
   reviews: 245
   icon: com.coincola.beta.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

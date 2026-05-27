@@ -1,7 +1,6 @@
 ---
 wsId: weexTrade
 title: WEEX - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2023-08-17
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 351
   icon: com.wake.weexprd.png
   meta: ok
+  verdict: custodial
   developerName: WEEX PRO
 iphone:
   appId: com.wake.weexprd
@@ -37,6 +37,7 @@ iphone:
   reviews: 1833
   icon: com.wake.weexprd.jpg
   meta: ok
+  verdict: custodial
   developerName: Weex Virtual Currency Exchange LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: PLETOBNB
-verdict: wip
 date: 2025-02-13
 website: https://www.pletobnb.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.3.1
   icon: io.kodular.yogeshmaurya72.PletoBNB.png
   meta: removed
+  verdict: wip
   developerName: Pleto BNB  Io.
 
 ---

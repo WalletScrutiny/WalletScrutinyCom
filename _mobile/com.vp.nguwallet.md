@@ -1,6 +1,5 @@
 ---
 title: NguWallet
-verdict: wip
 date: 2024-08-31
 website: https://www.nguwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.vp.nguwallet.png
   meta: removed
+  verdict: wip
   developerName: UnchainedCoders
 
 ---

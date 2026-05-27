@@ -1,6 +1,5 @@
 ---
 title: Cryptopower Wallet
-verdict: wip
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.1.1
   icon: com.dreacotdigital.cryptopower.mainnet.png
   meta: fewusers
+  verdict: wip
   developerName: Dreacot Digital Limited
 
 ---

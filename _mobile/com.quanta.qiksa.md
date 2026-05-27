@@ -1,6 +1,5 @@
 ---
 title: Quanta Pay
-verdict: wip
 date: 2024-04-19
 website: https://www.quantapay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.0
   icon: com.quanta.qiksa.png
   meta: removed
+  verdict: wip
   developerName: Quanta PLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Localcoin - Bitcoin ATM Locato
-verdict: wip
 date: 2024-05-18
 website: https://www.localcoinatm.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 5
   icon: com.localcoinatm.Localcoin.png
   meta: removed
+  verdict: wip
   developerName: Localcoin
 
 ---

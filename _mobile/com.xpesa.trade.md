@@ -1,6 +1,5 @@
 ---
 title: Xpesa
-verdict: wip
 date: 2023-06-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.6
   icon: com.xpesa.trade.jpg
   meta: removed
+  verdict: wip
   developerName: Xpesa Limited
 
 ---

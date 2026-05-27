@@ -1,6 +1,5 @@
 ---
 title: CB Global
-verdict: wip
 date: 2023-01-02
 website: https://www.coinbene.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.2.2
   icon: com.mingyue.liuli.png
   meta: removed
+  verdict: wip
 
 ---
 

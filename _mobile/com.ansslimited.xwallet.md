@@ -1,6 +1,5 @@
 ---
 title: X-Wallet by ANSS Limited
-verdict: wip
 date: 2025-09-23
 website: https://x-wallet.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.16
   icon: com.ansslimited.xwallet.png
   meta: fewusers
+  verdict: wip
   developerName: AN-SystemStyle Limited
 
 ---

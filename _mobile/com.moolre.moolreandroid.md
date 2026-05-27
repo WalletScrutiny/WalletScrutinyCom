@@ -1,7 +1,6 @@
 ---
 wsId: moolreApp
 title: Moolre
-verdict: custodial
 date: 2024-07-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 14
   icon: com.moolre.moolreandroid.png
   meta: removed
+  verdict: custodial
   developerName: Moolre Inc
 iphone:
   appId: com.moolre.moolreios
@@ -33,6 +33,7 @@ iphone:
   reviews: 26
   icon: com.moolre.moolreios.jpg
   meta: removed
+  verdict: custodial
   developerName: Moolre Inc
 
 ---

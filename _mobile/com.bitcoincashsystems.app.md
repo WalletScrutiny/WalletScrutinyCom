@@ -1,6 +1,5 @@
 ---
 title: Bitcoincash Systems
-verdict: wip
 date: 2023-01-02
 website: https://bitcoincashsystems.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.bitcoincashsystems.app.png
   meta: removed
+  verdict: wip
 
 ---
 

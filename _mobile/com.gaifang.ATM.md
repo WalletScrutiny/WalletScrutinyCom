@@ -1,6 +1,5 @@
 ---
 title: Atm option Bitcoin trading
-verdict: nosendreceive
 date: 2021-11-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 26
   icon: com.gaifang.ATM.png
   meta: removed
+  verdict: nosendreceive
 
 ---
 

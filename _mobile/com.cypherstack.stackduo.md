@@ -1,7 +1,6 @@
 ---
 wsId: stackDuo
 title: Stack Duo
-verdict: wip
 date: 2024-05-31
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.4.2
   icon: com.cypherstack.stackduo.png
   meta: fewusers
+  verdict: wip
   developerName: Cypher Stack Team
 iphone:
   appId: com.cypherstack.stackduo
@@ -35,6 +35,7 @@ iphone:
   reviews: 7
   icon: com.cypherstack.stackduo.jpg
   meta: ok
+  verdict: wip
   developerName: Cypher Stack LLC
 
 ---

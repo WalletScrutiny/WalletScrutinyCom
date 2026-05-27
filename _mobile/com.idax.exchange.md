@@ -1,7 +1,6 @@
 ---
 wsId: idax
 title: iDAX Exchange
-verdict: custodial
 date: 2023-05-10
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 6
   icon: com.idax.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Ard Financial Group
 iphone:
   appId: com.idax.exchange
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.idax.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Ard Financial Group
 
 ---

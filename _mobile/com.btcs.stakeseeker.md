@@ -1,6 +1,5 @@
 ---
 title: StakeSeeker
-verdict: wip
 date: 2024-05-07
 website: https://stakeseeker.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.7'
   icon: com.btcs.stakeseeker.png
   meta: removed
+  verdict: wip
   developerName: StakeSeeker by BTCS
 
 ---

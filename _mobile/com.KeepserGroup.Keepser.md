@@ -1,6 +1,5 @@
 ---
 title: KEEPSER
-verdict: wip
 date: 2025-11-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.0.0
   icon: com.KeepserGroup.Keepser.png
   meta: removed
+  verdict: wip
   developerName: Freemindtronic SL
 
 ---

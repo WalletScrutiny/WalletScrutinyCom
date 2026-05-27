@@ -1,7 +1,6 @@
 ---
 wsId: enjin
 title: 'Enjin: Crypto & NFT Wallet'
-verdict: nosource
 date: 2023-01-17
 authors:
 - leo
@@ -31,6 +30,7 @@ android:
   reviews: 1090
   icon: com.enjin.mobile.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Enjin Pte. Ltd.
 iphone:
   appId: com.enjin.mobile.wallet
@@ -41,6 +41,7 @@ iphone:
   reviews: 1362
   icon: com.enjin.mobile.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Enjin PTE LTD
 
 ---

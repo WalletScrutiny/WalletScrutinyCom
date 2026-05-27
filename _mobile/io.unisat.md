@@ -1,7 +1,6 @@
 ---
 wsId: uniSat
 title: UniSat Wallet
-verdict: nosource
 date: 2025-10-23
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 19
   icon: io.unisat.png
   meta: ok
+  verdict: nosource
   developerName: UniSat
 iphone:
   appId: io.unisat.mobile
@@ -34,6 +34,7 @@ iphone:
   reviews: 30
   icon: io.unisat.mobile.jpg
   meta: ok
+  verdict: nosource
   developerName: UniPro Technology Limited
 
 ---

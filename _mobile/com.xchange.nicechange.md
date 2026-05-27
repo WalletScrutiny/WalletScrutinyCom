@@ -1,7 +1,6 @@
 ---
 wsId: nicechange
 title: Биткоин-обменник – NiceChange
-verdict: custodial
 date: 2025-01-15
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.1.1
   icon: com.xchange.nicechange.png
   meta: removed
+  verdict: custodial
   developerName: XchangeCapitalGroup OU
 iphone:
   appId: com.xchangecapital.nicechange
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: com.xchangecapital.nicechange.jpg
   meta: removed
+  verdict: custodial
   developerName: XChangeCapitalGroup
 
 ---

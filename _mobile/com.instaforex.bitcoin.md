@@ -1,6 +1,5 @@
 ---
 title: Bitcoin InstaForex
-verdict: wip
 date: 2023-05-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.12.3
   icon: com.instaforex.bitcoin.png
   meta: removed
+  verdict: wip
   developerName: Instaforex
 
 ---

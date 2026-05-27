@@ -1,6 +1,5 @@
 ---
 title: Invest Crypto
-verdict: wip
 date: 2021-09-23
 redirect_from:
 - /android/org.bitcoinup.invest.crypto/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.bitcoinup.invest.crypto.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 'MirisWallet: P2P & BTC Wallet'
-verdict: wip
 date: 2023-08-16
 website: https://p2p.miriswa.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.miriswa.p2p.png
   meta: removed
+  verdict: wip
   developerName: MirisWallet
 
 ---

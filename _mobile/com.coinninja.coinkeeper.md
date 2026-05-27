@@ -1,6 +1,5 @@
 ---
 title: 'DropBit: Bitcoin Wallet'
-verdict: sourceavailable
 date: 2021-07-21
 website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
@@ -26,6 +25,7 @@ android:
   reviews: 149
   icon: com.coinninja.coinkeeper.png
   meta: removed
+  verdict: sourceavailable
 
 ---
 

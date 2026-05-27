@@ -1,7 +1,6 @@
 ---
 wsId: bizaPayWallet
 title: BizaPAY Wallet - 암호화폐 지갑
-verdict: custodial
 date: 2026-01-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.1.1
   icon: com.amaxg.bizapaywallet.png
   meta: ok
+  verdict: custodial
   developerName: BIZA Project
 iphone:
   appId: com.amaxg.bizapaywallet
@@ -30,6 +30,7 @@ iphone:
   reviews: 1
   icon: com.amaxg.bizapaywallet.jpg
   meta: ok
+  verdict: custodial
   developerName: AMAXG
 
 ---

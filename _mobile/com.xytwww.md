@@ -1,6 +1,5 @@
 ---
 title: XYT
-verdict: wip
 date: 2023-06-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.3.1
   icon: com.xytwww.png
   meta: removed
+  verdict: wip
   developerName: XYT Pro
 
 ---

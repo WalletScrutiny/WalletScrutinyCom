@@ -1,6 +1,5 @@
 ---
 title: TRX Mining Guide
-verdict: wip
 date: 2023-01-02
 website: https://mfappsprivacypolicy.blogspot.com/ads.txt
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.minertronba.aaminingtrone.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Safcoin
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.0.5
   icon: com.fhm.safcoin.png
   meta: removed
+  verdict: custodial
   developerName: SAFCOIN
 
 ---

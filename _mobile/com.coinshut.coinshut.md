@@ -1,6 +1,5 @@
 ---
 title: CoinsHut (beta)
-verdict: wip
 date: 2023-11-02
 website: https://coinshut.africa#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.1
   icon: com.coinshut.coinshut.jpg
   meta: removed
+  verdict: wip
   developerName: Coinshut Africa
 
 ---

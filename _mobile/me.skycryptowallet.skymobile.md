@@ -1,6 +1,5 @@
 ---
 title: Sky Crypto Wallet
-verdict: custodial
 date: 2026-05-05
 authors:
 - danny
@@ -13,6 +12,7 @@ android:
   version: 1.54.0
   icon: me.skycryptowallet.skymobile.png
   meta: fewusers
+  verdict: custodial
   developerName: Revens
 
 ---

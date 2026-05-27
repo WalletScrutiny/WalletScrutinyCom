@@ -1,7 +1,6 @@
 ---
 wsId: noonesMarketplace
 title: 'NoOnes: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2023-07-30
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 156
   icon: team.noones.mobilemessenger.png
   meta: ok
+  verdict: custodial
   developerName: Eaton Consulting
 iphone:
   appId: com.noones.marketplace
@@ -34,6 +34,7 @@ iphone:
   reviews: 17
   icon: com.noones.marketplace.jpg
   meta: removed
+  verdict: custodial
   developerName: Eaton Consulting FZE
 
 ---

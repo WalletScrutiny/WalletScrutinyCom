@@ -1,6 +1,5 @@
 ---
 title: itToken
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.ittoken.appos/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.ittoken.appos.jpg
   meta: removed
+  verdict: wip
   developerName: it token
 
 ---

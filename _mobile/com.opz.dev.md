@@ -1,7 +1,6 @@
 ---
 wsId: opzCryptoBTC
 title: 'OPZ: Crypto & BTC Wallet'
-verdict: custodial
 date: 2026-05-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 31
   icon: com.opz.dev.png
   meta: stale
+  verdict: custodial
   developerName: OPZ
 iphone:
   appId: com.opz
@@ -35,6 +35,7 @@ iphone:
   reviews: 1
   icon: com.opz.jpg
   meta: stale
+  verdict: custodial
   developerName: OPZ, LLC
 
 ---

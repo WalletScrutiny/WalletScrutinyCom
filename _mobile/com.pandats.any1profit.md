@@ -1,6 +1,5 @@
 ---
 title: Any1Pro
-verdict: wip
 date: 2023-01-02
 website: https://www.any1pro.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.pandats.any1profit.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: btcFreeWallet
 title: Bitcoin Wallet - BTC Exchange
-verdict: custodial
 date: 2023-01-02
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   reviews: 561
   icon: btc.org.freewallet.app.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: btc.org.freewallet.app
   idd: '1126844329'
@@ -35,6 +35,7 @@ iphone:
   reviews: 93
   icon: btc.org.freewallet.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Freewallet
 
 ---

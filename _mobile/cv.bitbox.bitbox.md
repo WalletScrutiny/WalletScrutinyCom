@@ -1,6 +1,5 @@
 ---
 title: 'Bitbox: BTC NFTs Memes & Meta'
-verdict: wip
 date: 2024-02-05
 website: https://bitbox.vc/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.9
   icon: cv.bitbox.bitbox.png
   meta: removed
+  verdict: wip
   developerName: Bitbox Inc
 
 ---

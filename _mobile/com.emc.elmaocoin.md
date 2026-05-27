@@ -1,6 +1,5 @@
 ---
 title: Elmaocoin
-verdict: wip
 date: 2023-01-02
 website: https://elmaocoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.emc.elmaocoin.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: VR-BitcoinGoCard
-verdict: wip
 date: 2024-08-25
 redirect_from:
 - /android/com.digiwrecks.bitcoingocard/
@@ -12,6 +11,7 @@ android:
   version: 1.1.7
   icon: com.digiwrecks.bitcoingocard.png
   meta: fewusers
+  verdict: wip
   developerName: Die SW-Factory GmbH
 
 ---

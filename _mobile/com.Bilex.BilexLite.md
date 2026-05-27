@@ -1,6 +1,5 @@
 ---
 title: Bilex
-verdict: wip
 date: 2024-04-19
 website: http://bilex.org#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.5.5
   icon: com.Bilex.BilexLite.png
   meta: removed
+  verdict: wip
   developerName: Bilex
 
 ---

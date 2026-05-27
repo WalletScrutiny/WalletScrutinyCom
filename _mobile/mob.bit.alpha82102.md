@@ -1,6 +1,5 @@
 ---
 title: Bit Alpha
-verdict: nosendreceive
 date: 2024-02-05
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   icon: mob.bit.alpha82102.png
   meta: removed
+  verdict: nosendreceive
   developerName: NADIM BHUTTA
 
 ---

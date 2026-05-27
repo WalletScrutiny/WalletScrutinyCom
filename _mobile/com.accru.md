@@ -1,7 +1,6 @@
 ---
 wsId: aqruApp
 title: AQRU
-verdict: custodial
 date: 2024-11-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.0.201
   icon: com.accru.png
   meta: removed
+  verdict: custodial
   developerName: AQRU
 iphone:
   appId: org.reactjs.native.example.AccruApp
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: org.reactjs.native.example.AccruApp.jpg
   meta: removed
+  verdict: custodial
   developerName: Accru Finance
 
 ---

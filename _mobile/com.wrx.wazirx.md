@@ -1,7 +1,6 @@
 ---
 wsId: wazirx
 title: 'WazirX: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2021-08-09
 authors:
 - kiwilamb
@@ -24,6 +23,7 @@ android:
   reviews: 126118
   icon: com.wrx.wazirx.png
   meta: ok
+  verdict: custodial
   developerName: Zanmai Labs Private Limited
 iphone:
   appId: com.wrx.wazirx
@@ -34,6 +34,7 @@ iphone:
   reviews: 53936
   icon: com.wrx.wazirx.jpg
   meta: ok
+  verdict: custodial
   developerName: Zanmai Labs Private Limited
 
 ---

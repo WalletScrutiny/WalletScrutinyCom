@@ -1,6 +1,5 @@
 ---
 title: BitYard Crypto Trading
-verdict: custodial
 date: 2022-03-07
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 4
   icon: com.bityard.us2.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: softnoteCrypto
 title: 'SoftNote: Secure Crypto Wallet'
-verdict: custodial
 date: 2025-12-08
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 3
   icon: com.softnotewallet.png
   meta: ok
+  verdict: custodial
   developerName: Crispmind Ltd.
 iphone:
   appId: com.softnote.wallet
@@ -37,6 +37,7 @@ iphone:
   reviews: 15
   icon: com.softnote.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Crispmind, Inc.
 
 ---

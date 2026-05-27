@@ -1,6 +1,5 @@
 ---
 title: MxEx—bitcoin
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.lilliangreen.gdbeyhfy/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.lilliangreen.gdbeyhfy.png
   meta: removed
+  verdict: wip
 
 ---
 

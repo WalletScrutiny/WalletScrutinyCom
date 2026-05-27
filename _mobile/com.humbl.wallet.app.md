@@ -1,7 +1,6 @@
 ---
 wsId: tapWallet
 title: TAP Wallet
-verdict: nosource
 date: 2025-10-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 48
   icon: com.humbl.wallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: TAP, Inc.
 iphone:
   appId: com.humbl.wallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 491
   icon: com.humbl.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: HUMBL
 
 ---

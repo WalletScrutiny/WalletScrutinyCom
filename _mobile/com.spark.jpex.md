@@ -1,7 +1,6 @@
 ---
 wsId: JPEX
 title: JPEX Exchange
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.83.848
   icon: com.spark.jpex.jpg
   meta: removed
+  verdict: custodial
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 iphone:
   appId: io.jp-ex.iosapp2
@@ -31,6 +31,7 @@ iphone:
   reviews: 4
   icon: io.jp-ex.iosapp2.jpg
   meta: removed
+  verdict: custodial
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---

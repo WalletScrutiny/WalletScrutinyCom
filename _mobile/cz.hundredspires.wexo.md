@@ -1,7 +1,6 @@
 ---
 wsId: wexoCrypto
 title: 'WEXO: Bitcoin & Crypto Wallet'
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 13
   icon: cz.hundredspires.wexo.png
   meta: removed
+  verdict: custodial
   developerName: CRYPTON DIGITAL, SE
 iphone:
   appId: com.wexopay.app
@@ -35,6 +35,7 @@ iphone:
   reviews: 554
   icon: com.wexopay.app.jpg
   meta: removed
+  verdict: custodial
   developerName: CRYPTON DIGITAL SE
 
 ---

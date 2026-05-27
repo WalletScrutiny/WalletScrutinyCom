@@ -1,6 +1,5 @@
 ---
 title: Trupay wallet
-verdict: wip
 date: 2024-07-05
 website: http://trupay.finance#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: wallet.trupay.finance.png
   meta: removed
+  verdict: wip
   developerName: intrXn Technolabs Pvt Ltd
 
 ---

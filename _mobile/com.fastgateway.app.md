@@ -1,6 +1,5 @@
 ---
 title: 'FGS: Buy & Sell Crypto P2P'
-verdict: wip
 date: 2023-01-02
 website: https://fast-gateway.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2.0
   icon: com.fastgateway.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

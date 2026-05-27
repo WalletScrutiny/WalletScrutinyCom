@@ -1,7 +1,6 @@
 ---
 wsId: ezdefi
 title: ezDeFi - Crypto & Bitcoin Wall
-verdict: nosource
 date: 2023-09-04
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 13
   icon: com.ezdefi.png
   meta: removed
+  verdict: nosource
   developerName: LaunchZone
 iphone:
   appId: com.ezdefi.nexty
@@ -32,6 +32,7 @@ iphone:
   reviews: 19
   icon: com.ezdefi.nexty.jpg
   meta: removed
+  verdict: nosource
   developerName: EZDEFI DECENTRALIZED APPS
 
 ---

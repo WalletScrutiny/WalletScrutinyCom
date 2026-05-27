@@ -1,7 +1,6 @@
 ---
 wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 56
   icon: com.ourbit.client.png
   meta: ok
+  verdict: custodial
   developerName: Ourbit
 iphone:
   appId: com.ourbit.www
@@ -34,6 +34,7 @@ iphone:
   reviews: 142
   icon: com.ourbit.www.jpg
   meta: ok
+  verdict: custodial
   developerName: Ourbit Holdings Ltd
 
 ---

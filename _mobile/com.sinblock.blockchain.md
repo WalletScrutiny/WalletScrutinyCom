@@ -1,6 +1,5 @@
 ---
 title: 'AceBitx: Trade Anytime'
-verdict: custodial
 date: 2026-02-02
 twitter: aibitcom
 social:
@@ -22,6 +21,7 @@ android:
   reviews: 8
   icon: com.sinblock.blockchain.png
   meta: ok
+  verdict: custodial
   developerName: Acebitx PTE.LTD.
 
 ---

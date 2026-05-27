@@ -1,6 +1,5 @@
 ---
 title: BitShield Wallet - Btc Wallet
-verdict: nosource
 date: 2023-03-21
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   reviews: 1287
   icon: com.bitshield.bitshieldwallet.png
   meta: removed
+  verdict: nosource
 
 ---
 

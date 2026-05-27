@@ -1,7 +1,6 @@
 ---
 wsId: paribu
 title: Paribu | Bitcoin - Crypto
-verdict: custodial
 date: 2023-12-16
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 115
   icon: com.paribu.app.png
   meta: ok
+  verdict: custodial
   developerName: PARİBU
 iphone:
   appId: com.codevist.paribu
@@ -34,6 +34,7 @@ iphone:
   reviews: 287
   icon: com.codevist.paribu.jpg
   meta: ok
+  verdict: custodial
   developerName: Paribu
 
 ---

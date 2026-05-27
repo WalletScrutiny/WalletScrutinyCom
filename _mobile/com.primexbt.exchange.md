@@ -1,6 +1,5 @@
 ---
 title: PrimeXBT Trade
-verdict: wip
 date: 2022-02-16
 redirect_from:
 - /android/com.primexbt.exchange/
@@ -13,6 +12,7 @@ android:
   reviews: 471
   icon: com.primexbt.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

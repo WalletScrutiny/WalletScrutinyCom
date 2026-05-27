@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Era- A Trending Trading App
-verdict: wip
 date: 2021-08-26
 redirect_from:
 - /android/com.bitcoin.era.app3/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.bitcoin.era.app3.png
   meta: removed
+  verdict: wip
 
 ---
 

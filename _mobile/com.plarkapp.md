@@ -1,6 +1,5 @@
 ---
 title: Plark
-verdict: wip
 date: 2024-04-19
 website: https://plark.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.5.0
   icon: com.plarkapp.png
   meta: removed
+  verdict: wip
   developerName: PLARK LTD
 
 ---

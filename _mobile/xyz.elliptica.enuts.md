@@ -1,6 +1,5 @@
 ---
 title: eNuts
-verdict: custodial
 date: 2025-02-13
 authors:
 - danny
@@ -19,6 +18,7 @@ iphone:
   reviews: 1
   icon: xyz.elliptica.enuts.jpg
   meta: removed
+  verdict: custodial
   developerName: Elliptica
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: wowEarnBTCandCrypto
 title: 'WOW EARN: BTC & Crypto Wallet'
-verdict: nosource
 date: 2023-07-09
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 131
   icon: com.hxg.wallet.png
   meta: removed
+  verdict: nosource
   developerName: WOW EARN Wallet
 iphone:
   appId: com.ULLA.wallet.WalletForiOS
@@ -34,6 +34,7 @@ iphone:
   reviews: 85
   icon: com.ULLA.wallet.WalletForiOS.jpg
   meta: ok
+  verdict: nosource
   developerName: WOW EARN TECHNOLOGY DMCC
 
 ---

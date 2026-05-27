@@ -1,6 +1,5 @@
 ---
 title: MoreBit
-verdict: wip
 date: 2023-12-19
 website: http://morebit.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.application.morebit.png
   meta: removed
+  verdict: wip
   developerName: Shafir 89 Pvt. Ltd.
 
 ---

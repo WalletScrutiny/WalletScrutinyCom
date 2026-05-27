@@ -1,6 +1,5 @@
 ---
 title: 100coin
-verdict: wip
 date: 2024-04-19
 website: https://100coin.ru
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.toxaperm.a100coin.jpg
   meta: removed
+  verdict: wip
   developerName: Kriptolife@
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 비트코인 거래소&지갑 유빗(Youbit)
-verdict: wip
 date: 2021-08-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.9
   icon: com.ddengle.bts.png
   meta: removed
+  verdict: wip
   developerName: 유빗
 
 ---

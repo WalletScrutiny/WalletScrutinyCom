@@ -1,6 +1,5 @@
 ---
 title: DTrax - Crypto wallet, Payment
-verdict: wip
 date: 2023-01-02
 website: https://dtrax.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: com.sculptech.dtrax.png
   meta: removed
+  verdict: wip
 
 ---
 

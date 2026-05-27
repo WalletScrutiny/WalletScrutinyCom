@@ -1,6 +1,5 @@
 ---
 title: Klickl Wallet
-verdict: wip
 date: 2024-07-05
 website: https://www.proof.la/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.4.9
   icon: com.idcg.idcw.dz.png
   meta: removed
+  verdict: wip
   developerName: Klickl Global LLC
 
 ---

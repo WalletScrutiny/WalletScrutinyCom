@@ -1,6 +1,5 @@
 ---
 title: Timebitex - Crypto Trading
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.timebit.exchange/
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: com.timebit.exchange.png
   meta: removed
+  verdict: wip
   developerName: Timebit pte. Ltd.
 
 ---

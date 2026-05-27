@@ -1,6 +1,5 @@
 ---
 title: GIT MOBILE APP
-verdict: wip
 date: 2023-01-02
 website: https://www.liyeplimalcryptoinvestments.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.9
   icon: com.uticit.git.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 스포와이드
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.4
   icon: com.spowide.www.png
   meta: removed
+  verdict: wip
   developerName: spowide
 
 ---

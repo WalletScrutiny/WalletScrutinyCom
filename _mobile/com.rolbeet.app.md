@@ -1,6 +1,5 @@
 ---
 title: Rolbeet
-verdict: wip
 date: 2023-01-02
 website: http://rolbeetservices.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.0
   icon: com.rolbeet.app.png
   meta: removed
+  verdict: wip
 
 ---
 

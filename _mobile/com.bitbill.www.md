@@ -1,7 +1,6 @@
 ---
 wsId: ownbit
 title: 'Ownbit: MultiSig & Cold Wallet'
-verdict: nosource
 date: 2021-10-01
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 14
   icon: com.bitbill.www.png
   meta: ok
+  verdict: nosource
   developerName: ownbit
 iphone:
   appId: com.bitbill.wallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 148
   icon: com.bitbill.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: BITBILL PTY LTD
 
 ---

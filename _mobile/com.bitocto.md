@@ -1,6 +1,5 @@
 ---
 title: 'Bitocto: Buy & Sell Crypto'
-verdict: custodial
 date: 2025-02-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 6
   icon: com.bitocto.png
   meta: removed
+  verdict: custodial
   developerName: Bitocto
 
 ---

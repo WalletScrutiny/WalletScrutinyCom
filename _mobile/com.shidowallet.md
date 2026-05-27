@@ -1,7 +1,6 @@
 ---
 wsId: shidoWalletDefi
 title: Shido Wallet | DeFi Crypto
-verdict: nosource
 date: 2024-03-02
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 36
   icon: com.shidowallet.png
   meta: removed
+  verdict: nosource
   developerName: Shido Finance
 iphone:
   appId: com.shido.wallet
@@ -38,6 +38,7 @@ iphone:
   reviews: 55
   icon: com.shido.wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: Shido Finance
 
 ---

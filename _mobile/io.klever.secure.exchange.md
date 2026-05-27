@@ -1,7 +1,6 @@
 ---
 wsId: kleverexchange
 title: Bitcoin.me
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 46
   icon: io.klever.secure.exchange.png
   meta: removed
+  verdict: custodial
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 iphone:
   appId: io.klever.secure.exchange
@@ -33,6 +33,7 @@ iphone:
   reviews: 59
   icon: io.klever.secure.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Klever Exchange
 
 ---

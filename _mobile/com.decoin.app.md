@@ -1,6 +1,5 @@
 ---
 title: Decoin
-verdict: wip
 date: 2023-05-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: '1.127'
   icon: com.decoin.app.png
   meta: removed
+  verdict: wip
   developerName: decoin.io
 
 ---

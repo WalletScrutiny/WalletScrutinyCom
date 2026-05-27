@@ -1,6 +1,5 @@
 ---
 title: Coinplus
-verdict: wip
 date: 2024-02-05
 website: https://www.coinplus.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.coinplus.mobile.png
   meta: removed
+  verdict: wip
   developerName: Coinplus, Inc
 
 ---

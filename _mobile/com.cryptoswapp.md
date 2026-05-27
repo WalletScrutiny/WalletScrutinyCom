@@ -1,6 +1,5 @@
 ---
 title: CryptoSwapp
-verdict: wip
 date: 2023-03-21
 website: http://cryptoswapp.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.7
   icon: com.cryptoswapp.png
   meta: removed
+  verdict: wip
 
 ---
 

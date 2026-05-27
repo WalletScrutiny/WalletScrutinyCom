@@ -1,7 +1,6 @@
 ---
 wsId: fidelityInvestments
 title: Fidelity Investments
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 56984
   icon: com.fidelity.android.png
   meta: ok
+  verdict: custodial
   developerName: Fidelity Investments
 iphone:
   appId: com.fidelity.watchlist
@@ -30,6 +30,7 @@ iphone:
   reviews: 3117678
   icon: com.fidelity.watchlist.jpg
   meta: ok
+  verdict: custodial
   developerName: Fidelity Investments
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 비트프리 - 비트코인, 이더리움, 리플 프리미엄 정보
-verdict: wip
 date: 2021-10-22
 redirect_from:
 - /android/com.cmlatte.bitpre/
@@ -13,6 +12,7 @@ android:
   reviews: 9
   icon: com.cmlatte.bitpre.jpg
   meta: removed
+  verdict: wip
 
 ---
 

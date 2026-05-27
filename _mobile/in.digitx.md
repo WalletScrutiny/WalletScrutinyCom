@@ -1,6 +1,5 @@
 ---
 title: DigitX
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/in.digitx/
@@ -12,6 +11,7 @@ android:
   version: 34.0.0
   icon: in.digitx.png
   meta: removed
+  verdict: wip
   developerName: Digital Techlab pvt ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: scallopApp
 title: E Money Network
-verdict: custodial
 date: 2025-01-27
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 10
   icon: com.scallopxledger.png
   meta: ok
+  verdict: custodial
   developerName: Scallop
 iphone:
   appId: com.scallop.app
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.scallop.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Scallop Group
 
 ---

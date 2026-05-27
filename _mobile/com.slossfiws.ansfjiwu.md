@@ -1,6 +1,5 @@
 ---
 title: AGOOD-COIN
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.slossfiws.ansfjiwu/
@@ -12,6 +11,7 @@ android:
   version: '2.1'
   icon: com.slossfiws.ansfjiwu.jpg
   meta: removed
+  verdict: wip
 
 ---
 

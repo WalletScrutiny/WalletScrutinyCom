@@ -1,6 +1,5 @@
 ---
 title: APlus Wallet
-verdict: wip
 date: 2023-12-19
 website: https://apluswallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.sarnado.apluswallet.png
   meta: removed
+  verdict: wip
   developerName: Sarnado s.r.o.
 
 ---

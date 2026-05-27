@@ -1,6 +1,5 @@
 ---
 title: WasabiWallet
-verdict: fake
 date: 2021-04-09
 authors:
 - danny
@@ -9,13 +8,13 @@ redirect_from:
 - /android/com.wasabiwallet.dev/
 android:
   appId: com.wasabiwallet.dev
-  altTitle: (Fake) Wasabi Wallet
   users: 500
   updated: 2020-12-01
   version: '2.0'
   reviews: 14
   icon: com.wasabiwallet.dev.png
   meta: removed
+  verdict: fake
 
 ---
 

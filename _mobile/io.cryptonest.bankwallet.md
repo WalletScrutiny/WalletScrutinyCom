@@ -1,6 +1,5 @@
 ---
 title: CryptoNest Wallet
-verdict: wip
 date: 2024-11-22
 redirect_from:
 - /android/io.cryptonest.bankwallet/
@@ -12,6 +11,7 @@ android:
   version: 0.22.1
   icon: io.cryptonest.bankwallet.png
   meta: removed
+  verdict: wip
   developerName: Nesto CryptoBank
 
 ---

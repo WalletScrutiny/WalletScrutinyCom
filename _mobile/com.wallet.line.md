@@ -1,6 +1,5 @@
 ---
 title: LineChain
-verdict: wip
 date: 2023-08-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 12.0.0
   icon: com.wallet.line.png
   meta: removed
+  verdict: wip
   developerName: Linechain Crypto Technology
 
 ---

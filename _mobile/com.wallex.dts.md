@@ -1,7 +1,6 @@
 ---
 wsId: dtsWallet
 title: DTS wallet
-verdict: custodial
 date: 2024-03-02
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.3.34
   icon: com.wallex.dts.png
   meta: removed
+  verdict: custodial
   developerName: DTS Wallet
 iphone:
   appId: com.wallex.dts
@@ -28,6 +28,7 @@ iphone:
   reviews: 11
   icon: com.wallex.dts.jpg
   meta: removed
+  verdict: custodial
   developerName: Mio Payments Inc.
 
 ---

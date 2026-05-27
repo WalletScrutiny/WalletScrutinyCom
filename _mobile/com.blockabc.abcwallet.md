@@ -1,6 +1,5 @@
 ---
 title: ABC Wallet - Crypto, Bitcoin Wallet
-verdict: obfuscated
 date: 2021-04-13
 authors:
 - leo
@@ -13,6 +12,7 @@ android:
   version: 1.7.2
   icon: com.blockabc.abcwallet.png
   meta: removed
+  verdict: obfuscated
 
 ---
 

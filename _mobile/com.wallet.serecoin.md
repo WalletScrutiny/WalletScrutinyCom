@@ -1,6 +1,5 @@
 ---
 title: SereCoin
-verdict: wip
 date: 2024-07-25
 redirect_from:
 - /android/com.wallet.serecoin/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: com.wallet.serecoin.png
   meta: removed
+  verdict: wip
   developerName: SERE BLOCKCHAIN
 
 ---

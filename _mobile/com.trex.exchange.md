@@ -1,6 +1,5 @@
 ---
 title: T-REX
-verdict: wip
 date: 2024-05-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.2.9
   icon: com.trex.exchange.png
   meta: removed
+  verdict: wip
   developerName: T-Rex Global Enterprise
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: DAO Wallet
-verdict: wip
 date: 2021-11-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.0.20
   icon: com.pons.dao.jpg
   meta: removed
+  verdict: wip
   developerName: DAO Consensus
 
 ---

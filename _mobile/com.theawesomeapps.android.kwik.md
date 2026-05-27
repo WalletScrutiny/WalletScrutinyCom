@@ -1,6 +1,5 @@
 ---
 title: Kwikcoin
-verdict: wip
 date: 2024-02-05
 website: https://www.kwikcoin.info#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.theawesomeapps.android.kwik.png
   meta: removed
+  verdict: wip
   developerName: Kwik Coin
 
 ---

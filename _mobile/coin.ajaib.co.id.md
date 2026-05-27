@@ -1,7 +1,6 @@
 ---
 wsId: ajaibkripto
 title: 'Ajaib Kripto: Buy BTC & Crypto'
-verdict: custodial
 date: 2024-09-06
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 39
   icon: coin.ajaib.co.id.png
   meta: ok
+  verdict: custodial
   developerName: Ajaib Technologies
 iphone:
   appId: id.ajaib-coin.co
@@ -29,6 +29,7 @@ iphone:
   reviews: 3815
   icon: id.ajaib-coin.co.jpg
   meta: ok
+  verdict: custodial
   developerName: Ajaib Technologies Corporation
 
 ---

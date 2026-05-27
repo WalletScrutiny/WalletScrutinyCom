@@ -1,6 +1,5 @@
 ---
 title: 코인프라이스-가상화폐거래소 빗썸 코인원 폴로닉스 비트렉
-verdict: wip
 date: 2024-07-05
 website: http://coinprice.kr#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '5.0'
   icon: kr.coinprice.coinprice.png
   meta: removed
+  verdict: wip
   developerName: Edmund.J
 
 ---

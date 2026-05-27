@@ -1,7 +1,6 @@
 ---
 wsId: revolutX
 title: 'Revolut X: Buy Bitcoin, Crypto'
-verdict: custodial
 date: 2025-05-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1
   icon: com.revolut.revolutx.png
   meta: ok
+  verdict: custodial
   developerName: Revolut Ltd
 iphone:
   appId: com.revolut.revolutx
@@ -34,6 +34,7 @@ iphone:
   reviews: 2019
   icon: com.revolut.revolutx.jpg
   meta: ok
+  verdict: custodial
   developerName: Revolut Ltd
 
 ---

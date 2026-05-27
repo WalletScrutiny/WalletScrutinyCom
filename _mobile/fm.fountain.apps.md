@@ -1,7 +1,6 @@
 ---
 wsId: fountainPodcasts
 title: 'Fountain: Podcasts & Music'
-verdict: custodial
 date: 2023-06-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 261
   icon: fm.fountain.apps.png
   meta: ok
+  verdict: custodial
   developerName: Fountain Labs Ltd
 iphone:
   appId: fm.fountain.apps
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: fm.fountain.apps.jpg
   meta: ok
+  verdict: custodial
   developerName: Fountain Labs Ltd.
 
 ---

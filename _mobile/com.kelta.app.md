@@ -1,7 +1,6 @@
 ---
 wsId: kelta
 title: KELTA - Buy & Sell Bitcoin
-verdict: custodial
 date: 2022-10-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 1102
   icon: com.kelta.app.jpg
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.kelta
   idd: 1385038150
@@ -28,6 +28,7 @@ iphone:
   reviews: 182
   icon: com.kelta.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

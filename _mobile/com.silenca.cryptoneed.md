@@ -1,7 +1,6 @@
 ---
 wsId: Cryptoneed
 title: 'Cryptoneed: универсальный криптокошелек и обменник'
-verdict: nosource
 date: 2023-01-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.0.31
   icon: com.silenca.cryptoneed.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.cryptoneedpro
   idd: 1524688426
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.cryptoneedpro.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

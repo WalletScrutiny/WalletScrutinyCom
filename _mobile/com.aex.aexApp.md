@@ -1,6 +1,5 @@
 ---
 title: AEX Global:Buy Crypto &Bitcoin
-verdict: wip
 date: 2023-06-21
 website: https://www.aex.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 11
   icon: com.aex.aexApp.png
   meta: removed
+  verdict: wip
   developerName: AEX
 
 ---

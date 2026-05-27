@@ -1,7 +1,6 @@
 ---
 wsId: SovereignWallet
 title: SovereignWallet, Sovereign Wallet, MUI, MUI Token
-verdict: wip
 date: 2021-11-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 33
   icon: exchange.sovereignwallet.mui.png
   meta: removed
+  verdict: wip
 iphone:
   appId: exchange.sovereignwallet.mui
   idd: 1351625320
@@ -32,6 +32,7 @@ iphone:
   reviews: 7
   icon: exchange.sovereignwallet.mui.jpg
   meta: removed
+  verdict: wip
 
 ---
 

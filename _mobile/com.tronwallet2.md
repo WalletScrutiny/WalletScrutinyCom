@@ -1,6 +1,5 @@
 ---
 title: TronWallet
-verdict: nosource
 date: 2021-01-15
 website: https://www.tronwallet.me
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 4748
   icon: com.tronwallet2.png
   meta: removed
+  verdict: nosource
 
 ---
 

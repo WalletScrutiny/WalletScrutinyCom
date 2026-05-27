@@ -1,6 +1,5 @@
 ---
 title: GlobalBlock Digital Asset Exchange
-verdict: wip
 date: 2023-01-02
 website: https://globalblock.co.uk#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.7'
   icon: uk.co.globalblock.droidapp.jpg
   meta: removed
+  verdict: wip
 
 ---
 

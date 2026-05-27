@@ -1,6 +1,5 @@
 ---
 title: JOYBIT
-verdict: wip
 date: 2023-10-16
 website: https://www.joybit.io/#&deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: io.bilian.contract.joybit.png
   meta: removed
+  verdict: wip
   developerName: JOYBIT
 
 ---

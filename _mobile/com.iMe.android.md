@@ -1,7 +1,6 @@
 ---
 wsId: iMeMessenger
 title: 'iMe: Telegram AI Messenger'
-verdict: nosource
 date: 2024-09-07
 authors:
 - danny
@@ -24,8 +23,8 @@ android:
   reviews: 824
   icon: com.iMe.android.png
   meta: ok
+  verdict: nosource
   developerName: IME LAB - FZCO
-  repository: https://github.com/imemessenger/iMe-Android
 iphone:
   appId: com.olcorporation.olai
   idd: '1450480822'
@@ -36,6 +35,7 @@ iphone:
   reviews: 8384
   icon: com.olcorporation.olai.jpg
   meta: ok
+  verdict: nosource
   developerName: IME LAB - FZCO
 
 ---

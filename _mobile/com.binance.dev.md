@@ -1,7 +1,6 @@
 ---
 wsId: binance
 title: 'Binance: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2020-03-15
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   reviews: 16626
   icon: com.binance.dev.png
   meta: ok
+  verdict: custodial
   developerName: Binance Inc.
 iphone:
   appId: com.czzhao.binance
@@ -36,6 +36,7 @@ iphone:
   reviews: 51686
   icon: com.czzhao.binance.jpg
   meta: ok
+  verdict: custodial
   developerName: Binance Switzerland AG
 
 ---

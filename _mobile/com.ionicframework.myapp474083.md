@@ -1,6 +1,5 @@
 ---
 title: Trademonk Cryptocurrency Exchange
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/com.ionicframework.myapp474083/
@@ -13,6 +12,7 @@ android:
   reviews: 174
   icon: com.ionicframework.myapp474083.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Maxicoin Exchange
-verdict: wip
 date: 2023-01-02
 website: https://maxicoinexchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.exchanger12.png
   meta: removed
+  verdict: wip
 
 ---
 

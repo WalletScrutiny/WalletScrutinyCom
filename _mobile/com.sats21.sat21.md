@@ -1,6 +1,5 @@
 ---
 title: SATS.CC
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.sats21.sat21/
@@ -12,6 +11,7 @@ android:
   version: 0.8.5
   icon: com.sats21.sat21.png
   meta: removed
+  verdict: wip
   developerName: Matrix Network International B.V.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: InfiPay
 title: InfiPay
-verdict: custodial
 date: 2023-06-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 1
   icon: io.infipay.android.png
   meta: removed
+  verdict: custodial
   developerName: infipay
 iphone:
   appId: com.antier.infipay
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.antier.infipay.jpg
   meta: removed
+  verdict: custodial
   developerName: Antier Solutions Private Limited
 
 ---

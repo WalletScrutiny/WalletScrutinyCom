@@ -1,6 +1,5 @@
 ---
 title: Local Bitcoin Trader Wallet
-verdict: wip
 date: 2021-09-18
 redirect_from:
 - /android/org.cryptobrowser.local.bitcoin.trader.wallet/
@@ -13,6 +12,7 @@ android:
   reviews: 5
   icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
   meta: removed
+  verdict: wip
 
 ---
 

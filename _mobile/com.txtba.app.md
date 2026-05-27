@@ -1,6 +1,5 @@
 ---
 title: TXTBA
-verdict: wip
 date: 2023-06-07
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.2.10
   icon: com.txtba.app.png
   meta: removed
+  verdict: wip
   developerName: Txtba
 
 ---

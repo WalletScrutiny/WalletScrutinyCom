@@ -1,7 +1,6 @@
 ---
 wsId: fxoroCFDTrading
 title: FXORO Trading APP
-verdict: nosendreceive
 date: 2023-08-15
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.6.3
   icon: com.fxoro.app.png
   meta: removed
+  verdict: nosendreceive
   developerName: MCA Intelifunds LTD
 iphone:
   appId: com.compie.fxoro
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.compie.fxoro.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: MCA INTELIFUNDS LIMITED
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: polyxCrypto
 title: 'Polyx Crypto Wallet: BTC, ETH'
-verdict: wip
 date: 2023-11-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.5.1
   icon: net.polyx.wallet.png
   meta: removed
+  verdict: wip
   developerName: Polygant Ltd
 iphone:
   appId: net.polyx.wallet-app
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: net.polyx.wallet-app.jpg
   meta: removed
+  verdict: wip
   developerName: Polyx
 
 ---

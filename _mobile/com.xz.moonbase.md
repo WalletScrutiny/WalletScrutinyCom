@@ -1,6 +1,5 @@
 ---
 title: MoonBase
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.xz.moonbase/
@@ -12,6 +11,7 @@ android:
   version: 1.0.6
   icon: com.xz.moonbase.png
   meta: removed
+  verdict: wip
   developerName: 666科技有限公司
 
 ---

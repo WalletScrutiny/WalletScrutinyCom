@@ -1,6 +1,5 @@
 ---
 title: SimplyKeeper
-verdict: wip
 date: 2024-04-26
 website: https://webdevelopers.store/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.invest4you.png
   meta: removed
+  verdict: wip
   developerName: SimplyLab Inc.
 
 ---

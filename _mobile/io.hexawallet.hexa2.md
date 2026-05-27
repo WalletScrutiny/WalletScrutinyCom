@@ -1,7 +1,6 @@
 ---
 wsId: Hexa2
 title: Bitcoin Tribe
-verdict: sourceavailable
 date: 2025-03-11
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 6
   icon: io.hexawallet.hexa2.png
   meta: removed
+  verdict: sourceavailable
   developerName: BitHyve UK Ltd.
 iphone:
   appId: io.hexawallet.hexa2
@@ -36,6 +36,7 @@ iphone:
   reviews: 9
   icon: io.hexawallet.hexa2.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: Bithyve
 
 ---

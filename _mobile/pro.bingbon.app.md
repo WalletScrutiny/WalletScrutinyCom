@@ -1,7 +1,6 @@
 ---
 wsId: bingbon
 title: 'BingX: Buy Crypto & Stocks'
-verdict: custodial
 date: 2024-10-07
 authors:
 - kiwilamb
@@ -25,6 +24,7 @@ android:
   reviews: 1410
   icon: pro.bingbon.app.png
   meta: removed
+  verdict: custodial
   developerName: BINGX GROUP LIMITED
 iphone:
   appId: pro.bingbon.finance
@@ -35,6 +35,7 @@ iphone:
   reviews: 2963
   icon: pro.bingbon.finance.jpg
   meta: ok
+  verdict: custodial
   developerName: BingX Group Limited
 
 ---

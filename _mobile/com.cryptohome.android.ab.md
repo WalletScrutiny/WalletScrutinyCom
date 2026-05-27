@@ -1,6 +1,5 @@
 ---
 title: Cryptohome
-verdict: wip
 date: 2023-12-19
 website: https://cryptohome.ng#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.cryptohome.android.ab.jpg
   meta: removed
+  verdict: wip
   developerName: The cryptohome
 
 ---

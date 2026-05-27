@@ -1,6 +1,5 @@
 ---
 title: Open Bitcoin Wallet
-verdict: wip
 date: 2024-04-19
 website: https://nbd.wtf
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.2.1
   icon: wtf.nbd.obw.png
   meta: removed
+  verdict: wip
   developerName: No Big Deal (NBD)
 
 ---

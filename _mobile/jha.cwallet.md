@@ -1,6 +1,5 @@
 ---
 title: cWallet
-verdict: wip
 date: 2024-10-31
 redirect_from:
 - /android/jha.cwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: jha.cwallet.png
   meta: removed
+  verdict: wip
   developerName: JimHeApps
 
 ---

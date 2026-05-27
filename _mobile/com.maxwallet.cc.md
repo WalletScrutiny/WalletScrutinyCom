@@ -1,7 +1,6 @@
 ---
 wsId: maxwallet
 title: MaxWallet
-verdict: nosource
 date: 2026-01-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.2.0
   icon: com.maxwallet.cc.png
   meta: ok
+  verdict: nosource
   developerName: MaxWallet
 iphone:
   appId: com.maxwallet.cc
@@ -30,6 +30,7 @@ iphone:
   reviews: 92
   icon: com.maxwallet.cc.jpg
   meta: ok
+  verdict: nosource
   developerName: MS PROFIT LTD
 
 ---

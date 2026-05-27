@@ -1,6 +1,5 @@
 ---
 title: MADI
-verdict: wip
 date: 2024-04-19
 website: https://centerprime.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.centerprime.madi.png
   meta: removed
+  verdict: wip
   developerName: CenterPrime Ltd
 
 ---

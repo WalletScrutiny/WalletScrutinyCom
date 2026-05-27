@@ -1,6 +1,5 @@
 ---
 title: Q7Trades
-verdict: wip
 date: 2023-08-04
 website: https://q7trades.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.wQ7Trades_15018357.png
   meta: removed
+  verdict: wip
   developerName: Decentralized Finance
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: gosats
 title: 'GoSats: Gold and BTC Rewards'
-verdict: custodial
 date: 2023-02-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: io.gosats.png
   meta: ok
+  verdict: custodial
   developerName: Saffron Technologies Pte Ltd
 iphone:
   appId: io.gosats
@@ -30,6 +30,7 @@ iphone:
   reviews: 871
   icon: io.gosats.jpg
   meta: ok
+  verdict: custodial
   developerName: Saffron Technologies Pte Ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: imToken
 title: 'imToken: BTC & ETH Wallet'
-verdict: nosource
 date: 2021-05-02
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 243
   icon: im.token.app.png
   meta: ok
+  verdict: nosource
   developerName: IMTOKEN PTE.LTD.
 iphone:
   appId: im.token.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 1118
   icon: im.token.app.jpg
   meta: ok
+  verdict: nosource
   developerName: IMTOKEN PTE. LTD.
 
 ---

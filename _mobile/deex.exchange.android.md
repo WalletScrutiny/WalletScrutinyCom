@@ -1,6 +1,5 @@
 ---
 title: Deex Exchange
-verdict: wip
 date: 2023-06-12
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 0.3.9
   icon: deex.exchange.android.png
   meta: removed
+  verdict: wip
   developerName: Deex Group
 
 ---

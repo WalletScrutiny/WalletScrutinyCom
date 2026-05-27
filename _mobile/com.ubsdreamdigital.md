@@ -1,6 +1,5 @@
 ---
 title: Dream Digital
-verdict: wip
 date: 2024-04-03
 website: https://universalbordersolutions.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.01'
   icon: com.ubsdreamdigital.png
   meta: removed
+  verdict: wip
   developerName: Universal Border Solutions
 
 ---

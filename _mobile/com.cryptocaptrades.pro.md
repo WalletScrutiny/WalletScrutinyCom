@@ -1,6 +1,5 @@
 ---
 title: CryptoCapTrades
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/com.cryptocaptrades.pro/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2.210816
   icon: com.cryptocaptrades.pro.png
   meta: removed
+  verdict: wip
   developerName: Vuco World
 
 ---

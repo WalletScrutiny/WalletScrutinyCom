@@ -1,6 +1,5 @@
 ---
 title: Publet
-verdict: wip
 date: 2023-06-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.9'
   icon: com.publet.png
   meta: removed
+  verdict: wip
   developerName: Publet Pte. Ltd.
 
 ---

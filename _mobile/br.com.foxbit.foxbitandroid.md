@@ -1,7 +1,6 @@
 ---
 wsId: foxbitexchange
 title: Foxbit Exchange
-verdict: custodial
 date: 2021-08-27
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 6387
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
+  verdict: custodial
   developerName: Foxbit
 iphone:
   appId: br.com.foxbit
@@ -33,6 +33,7 @@ iphone:
   reviews: 5549
   icon: br.com.foxbit.jpg
   meta: ok
+  verdict: custodial
   developerName: Foxbit
 
 ---

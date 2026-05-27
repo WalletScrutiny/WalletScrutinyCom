@@ -1,6 +1,5 @@
 ---
 title: Обменник криптовалют 4ange
-verdict: custodial
 date: 2025-02-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 4.1.1
   icon: com.xchange.x4ange.png
   meta: removed
+  verdict: custodial
   developerName: XchangeCapitalGroup OU
 
 ---

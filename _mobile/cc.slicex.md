@@ -1,6 +1,5 @@
 ---
 title: Slicecoin wallet
-verdict: wip
 date: 2022-04-25
 website: https://slicex.cc/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 8
   icon: cc.slicex.png
   meta: removed
+  verdict: wip
 
 ---
 

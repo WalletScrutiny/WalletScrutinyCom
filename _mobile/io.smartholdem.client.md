@@ -1,6 +1,5 @@
 ---
 title: Smart Secure Wallet - SmartHol
-verdict: wip
 date: 2024-07-05
 website: https://smartholdem.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.16
   icon: io.smartholdem.client.png
   meta: removed
+  verdict: wip
   developerName: TechnoL0g
 
 ---

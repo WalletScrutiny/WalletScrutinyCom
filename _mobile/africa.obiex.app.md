@@ -1,7 +1,6 @@
 ---
 wsId: ObiexExchange
 title: Obiex - Swap, Buy & Sell BTC
-verdict: custodial
 date: 2022-08-01
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 31
   icon: africa.obiex.app.png
   meta: ok
+  verdict: custodial
   developerName: Obiex Africa Ltd.
 iphone:
   appId: africa.obiex.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 692
   icon: africa.obiex.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Paylot technologies Ltd
 
 ---

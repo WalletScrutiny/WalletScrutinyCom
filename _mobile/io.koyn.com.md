@@ -1,6 +1,5 @@
 ---
 title: KOYN
-verdict: wip
 date: 2023-01-02
 website: https://www.koyn.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.18.0
   icon: io.koyn.com.jpg
   meta: removed
+  verdict: wip
 
 ---
 

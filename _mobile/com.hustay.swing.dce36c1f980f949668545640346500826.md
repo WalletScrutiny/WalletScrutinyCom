@@ -1,6 +1,5 @@
 ---
 title: 골드클래스지갑 (goldcalss wallet)
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.hustay.swing.dce36c1f980f949668545640346500826/
@@ -12,6 +11,7 @@ android:
   version: '0.4'
   icon: com.hustay.swing.dce36c1f980f949668545640346500826.png
   meta: removed
+  verdict: wip
   developerName: jeongsu jeong
 
 ---

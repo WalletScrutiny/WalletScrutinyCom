@@ -1,7 +1,6 @@
 ---
 wsId: indieSquare
 title: IndieSquare Wallet
-verdict: nosource
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 31
   icon: inc.lireneosoft.counterparty.png
   meta: removed
+  verdict: nosource
   developerName: IndieSquare Inc.
 iphone:
   appId: inc.lireneosoft.counterparty
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: inc.lireneosoft.counterparty.jpg
   meta: removed
+  verdict: nosource
   developerName: IndieSquare Inc.
 
 ---

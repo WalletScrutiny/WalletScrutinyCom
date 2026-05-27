@@ -1,6 +1,5 @@
 ---
 title: 'BigWinner: Bitcoin, Crypto & Blockchain Wallet'
-verdict: wip
 date: 2022-01-15
 redirect_from:
 - /android/com.hubI/
@@ -12,6 +11,7 @@ android:
   version: 1.3.3
   icon: com.hubI.png
   meta: removed
+  verdict: wip
 
 ---
 

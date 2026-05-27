@@ -1,6 +1,5 @@
 ---
 title: CriptoActivo
-verdict: wip
 date: 2023-11-02
 redirect_from:
 - /android/com.cryptowallet/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: com.cryptowallet.png
   meta: removed
+  verdict: wip
   developerName: Crypto activos
 
 ---

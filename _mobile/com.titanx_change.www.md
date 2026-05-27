@@ -1,6 +1,5 @@
 ---
 title: TitanXchange
-verdict: wip
 date: 2024-02-05
 website: https://titan-xchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.3
   icon: com.titanx_change.www.png
   meta: removed
+  verdict: wip
   developerName: SRA Technologies Limited
 
 ---

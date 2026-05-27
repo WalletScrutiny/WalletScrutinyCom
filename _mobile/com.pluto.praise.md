@@ -1,6 +1,5 @@
 ---
 title: Praise
-verdict: wip
 date: 2024-04-19
 website: http://praise.pe.kr#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.pluto.praise.png
   meta: removed
+  verdict: wip
   developerName: PRAISE Company
 
 ---

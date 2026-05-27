@@ -1,6 +1,5 @@
 ---
 title: CrossTower Exchange. Bitcoin and Crypto Trading
-verdict: wip
 date: 2022-03-24
 website: https://crosstower.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.ctower.mobile.png
   meta: removed
+  verdict: wip
 
 ---
 

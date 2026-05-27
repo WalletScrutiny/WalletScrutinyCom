@@ -1,7 +1,6 @@
 ---
 wsId: CoinBaazar
 title: Coinbaazar- Crypto Marketplace
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.3.24
   icon: com.nobillio.coinbaazar.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Coinbaazar Exchange Team
 iphone:
   appId: com.coinbaazarDistribution
@@ -31,6 +31,7 @@ iphone:
   reviews: 9
   icon: com.coinbaazarDistribution.jpg
   meta: obsolete
+  verdict: custodial
   developerName: COINBAAZAR LLC
 
 ---

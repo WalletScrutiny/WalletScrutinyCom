@@ -1,7 +1,6 @@
 ---
 wsId: bit4you
 title: bit4you
-verdict: custodial
 date: 2023-09-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.9.1
   icon: com.bit4you.app.png
   meta: removed
+  verdict: custodial
   developerName: bit4you SA
 iphone:
   appId: app.bit4you.io
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: app.bit4you.io.jpg
   meta: removed
+  verdict: custodial
   developerName: bit4you
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: TMC Wallet
-verdict: wip
 date: 2024-08-02
 website: https://themembersclub.vip#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   icon: com.tmc.wallet.png
   meta: removed
+  verdict: wip
   developerName: TMC The Members Club
 
 ---

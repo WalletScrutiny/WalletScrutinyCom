@@ -1,6 +1,5 @@
 ---
 title: BinexHosting
-verdict: wip
 date: 2024-05-18
 website: http://binexhosting.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.cryptex.www.binexhosting.png
   meta: removed
+  verdict: wip
   developerName: Cryptex PTE. LTD.
 
 ---

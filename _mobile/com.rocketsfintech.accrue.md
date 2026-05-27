@@ -1,7 +1,6 @@
 ---
 wsId: accrue
 title: 'Accrue: The cross-border app'
-verdict: custodial
 date: 2023-04-29
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 68
   icon: com.rocketsfintech.accrue.png
   meta: ok
+  verdict: custodial
   developerName: Accrue Wealth Inc
 iphone:
   appId: com.rocketsfintech.accrue-dca
@@ -32,6 +32,7 @@ iphone:
   reviews: 3021
   icon: com.rocketsfintech.accrue-dca.jpg
   meta: ok
+  verdict: custodial
   developerName: Accrue DCA Limited
 
 ---

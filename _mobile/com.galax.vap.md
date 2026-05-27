@@ -1,6 +1,5 @@
 ---
 title: Galaxy ventures - Trade Crypto
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.galax.vap/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.galax.vap.png
   meta: removed
+  verdict: wip
   developerName: daniel oliver
 
 ---

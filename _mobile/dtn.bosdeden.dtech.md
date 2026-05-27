@@ -1,6 +1,5 @@
 ---
 title: BostDeden - Cryptocurrency BOT
-verdict: wip
 date: 2024-04-03
 website: http://bisnis188.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: dtn.bosdeden.dtech.png
   meta: removed
+  verdict: wip
   developerName: DGR
 
 ---

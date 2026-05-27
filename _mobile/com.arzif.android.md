@@ -1,6 +1,5 @@
 ---
 title: Arzif
-verdict: custodial
 date: 2025-09-03
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 21
   icon: com.arzif.android.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Arzifdev
 
 ---

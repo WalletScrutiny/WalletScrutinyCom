@@ -1,6 +1,5 @@
 ---
 title: Bitexly
-verdict: wip
 date: 2024-04-19
 website: https://bitexly.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.129.20
   icon: bitexly.com.png
   meta: removed
+  verdict: wip
   developerName: UCOM Technologies
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Eleven
-verdict: wip
 date: 2024-04-03
 website: https://e-leven.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.3
   icon: com.co.eost.elvwallet.png
   meta: removed
+  verdict: wip
   developerName: Eleven Team
 
 ---

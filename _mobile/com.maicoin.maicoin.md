@@ -1,7 +1,6 @@
 ---
 wsId: maicoin
 title: MaiCoin - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 10
   icon: com.maicoin.maicoin.png
   meta: ok
+  verdict: custodial
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.maicoin
@@ -32,6 +32,7 @@ iphone:
   reviews: 10
   icon: com.maicoin.maicoin.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

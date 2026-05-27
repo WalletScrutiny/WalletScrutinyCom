@@ -1,6 +1,5 @@
 ---
 title: Baba moni - Bitcoin & USDollar
-verdict: wip
 date: 2023-12-19
 website: https://baba-moni.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2'
   icon: com.babamoni.trust.bitcoin.png
   meta: removed
+  verdict: wip
   developerName: Baba moni
 
 ---

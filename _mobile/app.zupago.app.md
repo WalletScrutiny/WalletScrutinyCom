@@ -1,7 +1,6 @@
 ---
 wsId: ZuPago
 title: ViZO
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 22
   icon: app.zupago.app.png
   meta: removed
+  verdict: custodial
   developerName: ViZO
 iphone:
   appId: app.zupago.zp
@@ -29,6 +29,7 @@ iphone:
   reviews: 52
   icon: app.zupago.zp.jpg
   meta: stale
+  verdict: custodial
   developerName: VIZO TECHNOLOGY LIMITED
 
 ---

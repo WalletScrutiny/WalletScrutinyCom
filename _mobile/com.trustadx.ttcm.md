@@ -1,6 +1,5 @@
 ---
 title: 'Traders Trust: Forex and CFDs'
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.trustadx.ttcm/
@@ -12,6 +11,7 @@ android:
   version: '2.0'
   icon: com.trustadx.ttcm.png
   meta: removed
+  verdict: wip
 
 ---
 

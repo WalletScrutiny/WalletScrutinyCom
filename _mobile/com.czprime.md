@@ -1,7 +1,6 @@
 ---
 wsId: CoinZoom
 title: 'CoinZoom Pro: Buy, Sell Crypto'
-verdict: custodial
 date: 2023-12-19
 authors:
 - kiwilamb
@@ -23,6 +22,7 @@ android:
   reviews: 418
   icon: com.czprime.png
   meta: removed
+  verdict: custodial
   developerName: CoinZoom
 iphone:
   appId: com.ios.coinzoom
@@ -33,6 +33,7 @@ iphone:
   reviews: 163
   icon: com.ios.coinzoom.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinZoom
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Mond
-verdict: wip
 date: 2023-01-02
 website: http://mond.vision#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: mond.vision.png
   meta: removed
+  verdict: wip
 
 ---
 

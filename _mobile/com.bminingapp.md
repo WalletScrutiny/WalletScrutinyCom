@@ -1,6 +1,5 @@
 ---
 title: Bmining
-verdict: wip
 date: 2023-05-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.4.1
   icon: com.bminingapp.png
   meta: removed
+  verdict: wip
   developerName: Bmining
 
 ---

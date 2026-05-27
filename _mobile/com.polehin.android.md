@@ -1,6 +1,5 @@
 ---
 title: 'Bitcoin Wallet: BTC, ETH & BNB'
-verdict: obfuscated
 date: 2024-03-02
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 843
   icon: com.polehin.android.png
   meta: removed
+  verdict: obfuscated
   developerName: BW DEV
 
 ---

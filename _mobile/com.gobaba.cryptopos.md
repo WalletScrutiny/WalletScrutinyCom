@@ -1,6 +1,5 @@
 ---
 title: Crypto POS
-verdict: wip
 date: 2021-12-05
 redirect_from:
 - /android/com.gobaba.cryptopos/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.gobaba.cryptopos.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 'Wonder Wallet: Crypto & Web3'
-verdict: wip
 date: 2026-03-11
 website: https://labs.wonder.fi
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: fi.wonder.labs.wallet.png
   meta: stale
+  verdict: wip
   developerName: WF - Bitbuy
 
 ---

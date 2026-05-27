@@ -1,6 +1,5 @@
 ---
 title: CROSS exchange -secure exchange-
-verdict: wip
 date: 2023-04-21
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.3
   icon: com.cbasefintechlab.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

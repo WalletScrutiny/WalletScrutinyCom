@@ -1,7 +1,6 @@
 ---
 wsId: InstantCoins
 title: 'Instantcoins: sell bitcoin in '
-verdict: nosendreceive
 date: 2022-02-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 161
   icon: com.instantcoins.png
   meta: removed
+  verdict: nosendreceive
   developerName: instantcoins technologies
 iphone:
   appId: com.instantcoins
@@ -32,6 +32,7 @@ iphone:
   reviews: 26
   icon: com.instantcoins.jpg
   meta: removed
+  verdict: nosendreceive
 
 ---
 

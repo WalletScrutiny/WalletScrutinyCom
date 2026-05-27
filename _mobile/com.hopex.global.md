@@ -1,6 +1,5 @@
 ---
 title: Hopex Crypto Exchange
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.hopex.global/
@@ -12,6 +11,7 @@ android:
   version: 4.2.3
   icon: com.hopex.global.png
   meta: removed
+  verdict: wip
   developerName: RUNQI TECHNOLOGY CO., LIMITED
 
 ---

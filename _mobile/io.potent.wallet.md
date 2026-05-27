@@ -1,6 +1,5 @@
 ---
 title: Potent Wallet
-verdict: wip
 date: 2023-10-16
 website: http://potent.finance
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.20.0
   icon: io.potent.wallet.png
   meta: removed
+  verdict: wip
   developerName: Potent Team
 
 ---

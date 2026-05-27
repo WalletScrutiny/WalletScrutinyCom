@@ -1,6 +1,5 @@
 ---
 title: Bitdu
-verdict: wip
 date: 2023-12-19
 website: https://www.bitdu.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 6
   icon: com.bitdu.exapp.png
   meta: removed
+  verdict: wip
   developerName: Bitdu
 
 ---

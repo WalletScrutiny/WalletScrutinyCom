@@ -1,6 +1,5 @@
 ---
 title: WhatAShot
-verdict: wip
 date: 2023-12-19
 website: https://whatashot.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.7'
   icon: com.web.whatashot.png
   meta: removed
+  verdict: wip
   developerName: What a shot
 
 ---

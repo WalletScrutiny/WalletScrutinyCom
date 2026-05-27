@@ -1,6 +1,5 @@
 ---
 title: BTCBOX臺灣 - 買賣比特幣
-verdict: wip
 date: 2024-02-05
 website: https://www.btcboxtw.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   icon: com.bicheng.newtw.exchange.png
   meta: removed
+  verdict: wip
   developerName: BI CHENG TECHNOLOGY CO., LTD.
 
 ---

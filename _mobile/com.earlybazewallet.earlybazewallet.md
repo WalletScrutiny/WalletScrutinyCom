@@ -1,6 +1,5 @@
 ---
 title: EarlyBaze Wallet
-verdict: wip
 date: 2024-07-05
 website: http://eazyblaze.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.earlybazewallet.earlybazewallet.png
   meta: removed
+  verdict: wip
   developerName: Pejul Technologies
 
 ---

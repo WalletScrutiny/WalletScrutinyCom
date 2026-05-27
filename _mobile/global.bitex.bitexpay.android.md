@@ -1,6 +1,5 @@
 ---
 title: BitexPay
-verdict: wip
 date: 2024-11-22
 website: https://www.ezbitex.io/en_US#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.0
   icon: global.bitex.bitexpay.android.png
   meta: removed
+  verdict: wip
   developerName: BITEX GLOBAL OÜ
 
 ---

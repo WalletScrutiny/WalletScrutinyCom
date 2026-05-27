@@ -1,7 +1,6 @@
 ---
 wsId: neteller
 title: Neteller – Fast Payments
-verdict: custodial
 date: 2024-09-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 279
   icon: com.moneybookers.skrillpayments.neteller.png
   meta: ok
+  verdict: custodial
   developerName: Paysafe Holdings UK Limited
 iphone:
   appId: com.skrill.NETELLER
@@ -33,6 +33,7 @@ iphone:
   reviews: 1139
   icon: com.skrill.NETELLER.jpg
   meta: ok
+  verdict: custodial
   developerName: Skrill Ltd.
 
 ---

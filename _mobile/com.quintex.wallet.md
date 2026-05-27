@@ -1,6 +1,5 @@
 ---
 title: Quintex Network
-verdict: wip
 date: 2024-02-05
 website: https://quintex.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.quintex.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: QUINTEX AI
 
 ---

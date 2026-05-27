@@ -1,7 +1,6 @@
 ---
 wsId: DelioLending
 title: Delio - Global Crypto Finance
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 62
   icon: com.delio.deliohybrid.png
   meta: removed
+  verdict: custodial
   developerName: Delio Corporation
 iphone:
   appId: io.DelioHybrid
@@ -33,6 +33,7 @@ iphone:
   reviews: 37
   icon: io.DelioHybrid.jpg
   meta: removed
+  verdict: custodial
   developerName: Delio
 
 ---

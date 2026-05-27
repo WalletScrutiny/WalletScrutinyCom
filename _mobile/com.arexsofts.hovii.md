@@ -1,6 +1,5 @@
 ---
 title: Hovii Exchange (Lite)
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.arexsofts.hovii/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.arexsofts.hovii.png
   meta: removed
+  verdict: wip
 
 ---
 

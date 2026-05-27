@@ -1,6 +1,5 @@
 ---
 title: MFCoin wallet
-verdict: obfuscated
 date: 2024-04-26
 website: http://mfcoin.net
 twitter: MFC_tech
@@ -17,6 +16,7 @@ android:
   version: v4.0.0
   icon: com.mfcoin.wallet.dev.png
   meta: removed
+  verdict: obfuscated
   developerName: FREELAND AGREEMENT LTD.
 
 ---

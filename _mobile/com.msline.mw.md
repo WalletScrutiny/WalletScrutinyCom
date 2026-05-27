@@ -1,7 +1,6 @@
 ---
 wsId: masterWallet
 title: MasterWallet
-verdict: custodial
 date: 2023-08-16
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.3.3
   icon: com.msline.mw.png
   meta: removed
+  verdict: custodial
   developerName: x-widget
 iphone:
   appId: masterwallet.ai
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: masterwallet.ai.jpg
   meta: removed
+  verdict: custodial
   developerName: X-widget
 
 ---

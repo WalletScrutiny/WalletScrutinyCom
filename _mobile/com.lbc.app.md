@@ -1,6 +1,5 @@
 ---
 title: 'Coinsclone Ads Based Exchange '
-verdict: wip
 date: 2024-04-26
 website: https://www.coinsclone.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.lbc.app.png
   meta: removed
+  verdict: wip
   developerName: Coins Clone
 
 ---

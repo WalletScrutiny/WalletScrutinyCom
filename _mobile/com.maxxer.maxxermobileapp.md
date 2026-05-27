@@ -1,6 +1,5 @@
 ---
 title: maxxer
-verdict: wip
 date: 2024-04-19
 website: https://www.maxxer.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.28
   icon: com.maxxer.maxxermobileapp.jpg
   meta: removed
+  verdict: wip
   developerName: DXXR Holding BV
 
 ---

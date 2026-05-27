@@ -1,6 +1,5 @@
 ---
 title: CreateSafe
-verdict: wip
 date: 2024-04-03
 website: https://createsafe.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.0
   icon: xyz.createsafe.twa.png
   meta: removed
+  verdict: wip
   developerName: CreateSafe
 
 ---

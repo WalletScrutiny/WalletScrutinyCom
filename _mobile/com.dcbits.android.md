@@ -1,6 +1,5 @@
 ---
 title: 'DcBits: Buy Bitcoin & Crypto'
-verdict: wip
 date: 2024-04-03
 website: http://dcbits.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.dcbits.android.png
   meta: removed
+  verdict: wip
   developerName: DcBits Exchange
 
 ---

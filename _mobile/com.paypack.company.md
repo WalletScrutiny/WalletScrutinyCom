@@ -1,6 +1,5 @@
 ---
 title: Paypack Company
-verdict: wip
 date: 2024-05-07
 website: https://paypack.company#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.paypack.company.png
   meta: removed
+  verdict: wip
   developerName: Ajamba
 
 ---

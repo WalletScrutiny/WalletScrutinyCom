@@ -1,7 +1,6 @@
 ---
 wsId: nebeus
 title: 'Nebeus: Crypto Finance'
-verdict: custodial
 date: 2023-02-25
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.1.6
   icon: com.nebeus.android.png
   meta: ok
+  verdict: custodial
   developerName: Rintral Trading SL
 iphone:
   appId: com.nebeus.appmobile
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.nebeus.appmobile.jpg
   meta: ok
+  verdict: custodial
   developerName: Nebeus
 
 ---

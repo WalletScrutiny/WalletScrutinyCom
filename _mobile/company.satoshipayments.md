@@ -1,6 +1,5 @@
 ---
 title: Satoshi - Bitcoin Wallet
-verdict: custodial
 date: 2024-09-16
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 4
   icon: company.satoshipayments.png
   meta: removed
+  verdict: custodial
   developerName: Satoshi Payments
 
 ---

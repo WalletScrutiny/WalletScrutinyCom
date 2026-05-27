@@ -1,6 +1,5 @@
 ---
 title: Citioption Alpha
-verdict: wip
 date: 2024-04-03
 website: https://citioption.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.citioption.app.png
   meta: removed
+  verdict: wip
   developerName: GRUPO CT OPTION TRADING
 
 ---

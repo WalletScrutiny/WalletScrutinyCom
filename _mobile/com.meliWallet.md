@@ -1,6 +1,5 @@
 ---
 title: MeliWallet
-verdict: wip
 date: 2023-01-02
 website: https://meliora.finance/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 3
   icon: com.meliWallet.png
   meta: removed
+  verdict: wip
 
 ---
 

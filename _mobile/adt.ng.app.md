@@ -1,6 +1,5 @@
 ---
 title: ADT NG
-verdict: wip
 date: 2024-02-05
 website: https://codecraftng.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: adt.ng.app.png
   meta: removed
+  verdict: wip
   developerName: SAMORA BOT
 
 ---

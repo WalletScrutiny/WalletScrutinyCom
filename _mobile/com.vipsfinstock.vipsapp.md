@@ -1,7 +1,6 @@
 ---
 wsId: vipsFinstock
 title: 'VIPS Finstock: Buy/Sell Crypto'
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 2
   icon: com.vipsfinstock.vipsapp.png
   meta: removed
+  verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.
 iphone:
   appId: com.vips.vipsfinstock
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.vips.vipsfinstock.jpg
   meta: removed
+  verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.
 
 ---

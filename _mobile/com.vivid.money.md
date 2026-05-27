@@ -1,6 +1,5 @@
 ---
 title: Vivid Business and Personal
-verdict: wip
 date: 2024-10-07
 website: https://vivid.money/en-de
 appCountry: jp
@@ -15,6 +14,7 @@ iphone:
   reviews: 17
   icon: com.vivid.money.jpg
   meta: ok
+  verdict: wip
   developerName: Vivid Money GmbH
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Endurance Wallet
-verdict: wip
 date: 2024-02-05
 website: https://cbyte.network#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.01.0
   icon: com.cbytenetwork.endurancewallet.png
   meta: removed
+  verdict: wip
   developerName: CBYTE Network
 
 ---

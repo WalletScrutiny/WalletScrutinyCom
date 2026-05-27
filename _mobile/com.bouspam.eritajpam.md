@@ -1,7 +1,6 @@
 ---
 wsId: bousechanj
 title: Bous Echanj
-verdict: custodial
 date: 2023-09-04
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 24
   icon: com.bouspam.eritajpam.png
   meta: ok
+  verdict: custodial
   developerName: Ezechias Caillot
 iphone:
   appId: com.bouspam.eritajpam
@@ -30,6 +30,7 @@ iphone:
   reviews: 1
   icon: com.bouspam.eritajpam.jpg
   meta: defunct
+  verdict: custodial
   developerName: Eritajpam, LLC
 
 ---

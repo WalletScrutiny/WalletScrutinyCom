@@ -1,6 +1,5 @@
 ---
 title: MiniChange
-verdict: wip
 date: 2023-12-19
 website: https://minichange.me/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.8'
   icon: me.minichange.app.png
   meta: removed
+  verdict: wip
   developerName: MobtakerDev
 
 ---

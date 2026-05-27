@@ -1,6 +1,5 @@
 ---
 title: Kointo - Wallet Bitcoin, Ether
-verdict: wip
 date: 2023-01-02
 website: http://www.eccu.xyz#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.12'
   icon: com.eccu.png
   meta: removed
+  verdict: wip
 
 ---
 

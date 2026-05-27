@@ -1,6 +1,5 @@
 ---
 title: Glions
-verdict: wip
 date: 2023-08-04
 website: https://glions.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.8
   icon: app.glions.wallet.png
   meta: removed
+  verdict: wip
   developerName: Glions Technology OÜ
 
 ---

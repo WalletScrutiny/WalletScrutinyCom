@@ -1,6 +1,5 @@
 ---
 title: 페이블(Payble)
-verdict: wip
 date: 2024-04-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.1.5
   icon: com.app.payble.png
   meta: removed
+  verdict: wip
   developerName: Payble
 
 ---

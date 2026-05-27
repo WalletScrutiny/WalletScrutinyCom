@@ -1,6 +1,5 @@
 ---
 title: Smartrader
-verdict: wip
 date: 2024-05-07
 website: https://launch.smartrader.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.3.5
   icon: io.smartrader.smartapp.png
   meta: removed
+  verdict: wip
   developerName: Smartrader
 
 ---

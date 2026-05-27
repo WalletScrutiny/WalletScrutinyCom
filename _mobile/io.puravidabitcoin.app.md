@@ -1,7 +1,6 @@
 ---
 wsId: puraVidaBitcoin
 title: Pura Vida Bitcoin
-verdict: custodial
 date: 2026-05-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 1
   icon: io.puravidabitcoin.app.png
   meta: fewusers
+  verdict: custodial
   developerName: Pura Vida Technologies
 iphone:
   appId: io.puravidabitcoin.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 25
   icon: io.puravidabitcoin.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Pura Vida Technologies S.A.
 
 ---

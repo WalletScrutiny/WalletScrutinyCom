@@ -1,6 +1,5 @@
 ---
 title: Crypto Wallet & Atomic swap DEX
-verdict: fake
 date: 2021-07-30
 authors:
 - emanuel
@@ -9,7 +8,6 @@ redirect_from:
 - /android/com.atomicwallet.newapp.safe/
 android:
   appId: com.atomicwallet.newapp.safe
-  altTitle: (Fake) Crypto Wallet & Atomic swap DEX
   users: 500
   released: 2021-06-14
   updated: 2021-06-14
@@ -17,6 +15,7 @@ android:
   reviews: 6
   icon: com.atomicwallet.newapp.safe.png
   meta: removed
+  verdict: fake
 
 ---
 

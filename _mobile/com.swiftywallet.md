@@ -1,6 +1,5 @@
 ---
 title: Swifty Wallet
-verdict: wip
 date: 2024-10-03
 website: https://www.swifty.global/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.swiftywallet.png
   meta: removed
+  verdict: wip
   developerName: Swifty Global
 
 ---

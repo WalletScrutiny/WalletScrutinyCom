@@ -1,7 +1,6 @@
 ---
 wsId: COINiDwallet
 title: Bitcoin Wallet for COINiD
-verdict: sourceavailable
 date: 2024-07-05
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   reviews: 5
   icon: org.coinid.wallet.btc.png
   meta: removed
+  verdict: sourceavailable
   developerName: COINiD Group
 iphone:
   appId: org.coinid.wallet.btc
@@ -35,6 +35,7 @@ iphone:
   reviews: 24
   icon: org.coinid.wallet.btc.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: COINiD Group
 
 ---

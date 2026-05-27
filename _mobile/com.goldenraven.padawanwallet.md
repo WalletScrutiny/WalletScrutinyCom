@@ -1,6 +1,5 @@
 ---
 title: Padawan Wallet
-verdict: wip
 date: 2025-02-28
 website: https://github.com/thunderbiscuit/padawan-wallet
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.goldenraven.padawanwallet.png
   meta: removed
+  verdict: wip
   developerName: GoldenRaven
 
 ---

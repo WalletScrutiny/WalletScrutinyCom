@@ -1,7 +1,6 @@
 ---
 wsId: wethiox
 title: WethioX
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 4
   icon: com.exchange.wethio.io.png
   meta: obsolete
+  verdict: custodial
   developerName: Karim Ahmed BENABDELKADER
 iphone:
   appId: com.wethio.io.wethioX
@@ -35,6 +35,7 @@ iphone:
   reviews: 4
   icon: com.wethio.io.wethioX.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Applinum
 
 ---

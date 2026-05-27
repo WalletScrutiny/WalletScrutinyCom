@@ -1,6 +1,5 @@
 ---
 title: TigerWit – Forex Trading &More
-verdict: nosendreceive
 date: 2023-12-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 6.1.5
   icon: com.tigerwit.forex.png
   meta: removed
+  verdict: nosendreceive
   developerName: TigerWit Limited
 
 ---

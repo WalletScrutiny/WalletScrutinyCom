@@ -1,6 +1,5 @@
 ---
 title: iNcoin
-verdict: wip
 date: 2023-06-21
 redirect_from:
 - /android/com.aeio.incoin/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.aeio.incoin.png
   meta: removed
+  verdict: wip
   developerName: Fei2021
 
 ---

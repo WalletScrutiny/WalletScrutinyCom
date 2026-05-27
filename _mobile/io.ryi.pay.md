@@ -1,6 +1,5 @@
 ---
 title: 'RYIPAY: Bitcoin & Crypto'
-verdict: wip
 date: 2024-02-05
 website: https://ryipay.app#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: io.ryi.pay.png
   meta: removed
+  verdict: wip
   developerName: RYI Unity
 
 ---

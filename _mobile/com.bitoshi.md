@@ -1,7 +1,6 @@
 ---
 wsId: bitoshiAfrica
 title: 'Bitoshi: Buy & Sell Crypto'
-verdict: custodial
 date: 2023-11-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 36
   icon: com.bitoshi.png
   meta: ok
+  verdict: custodial
   developerName: Bitoshi Africa
 iphone:
   appId: com.bitoshi
@@ -35,6 +35,7 @@ iphone:
   reviews: 1839
   icon: com.bitoshi.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitoshi Digital Services Limited
 
 ---

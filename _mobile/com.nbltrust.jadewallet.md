@@ -1,6 +1,5 @@
 ---
 title: Jade Wallet - Bitcoin & DeFi
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ iphone:
   reviews: 3
   icon: com.nbltrust.jadewallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Tuolian (Shanghai) Co., Ltd.
 
 ---

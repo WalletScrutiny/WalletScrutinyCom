@@ -1,6 +1,5 @@
 ---
 title: Airsoft Demo
-verdict: wip
 date: 2024-04-03
 website: https://www.10fxpro.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.6.2
   icon: com.cfdv2.demo.png
   meta: removed
+  verdict: wip
   developerName: Airsoftltd
 
 ---

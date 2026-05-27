@@ -1,6 +1,5 @@
 ---
 title: 'POS기반 암호화폐 결제기 - Okong POS to '
-verdict: wip
 date: 2024-04-19
 website: http://www.okongpos.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: Version 2.2.1
   icon: com.okongpos.app.png
   meta: removed
+  verdict: wip
   developerName: 서유테크
 
 ---

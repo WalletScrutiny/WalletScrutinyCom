@@ -1,6 +1,5 @@
 ---
 title: POS by Crypto Cash Fast
-verdict: wip
 date: 2023-09-28
 website: https://www.cryptocashfast.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.crypto_business.png
   meta: removed
+  verdict: wip
   developerName: The Cyber World
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Crypment: Crypto Asset Manager'
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.crypment/
@@ -12,6 +11,7 @@ android:
   version: 1.2.0
   icon: com.crypment.jpg
   meta: removed
+  verdict: wip
   developerName: Saeid Saberi
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Naijapay
-verdict: wip
 date: 2024-04-03
 website: https://naijapay.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.naijapay.app.png
   meta: removed
+  verdict: wip
   developerName: CI Cryptosolutions
 
 ---

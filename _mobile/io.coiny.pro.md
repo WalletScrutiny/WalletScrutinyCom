@@ -1,6 +1,5 @@
 ---
 title: Coiny Pro
-verdict: wip
 date: 2024-02-05
 website: https://pro.coiny.io/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: io.coiny.pro.png
   meta: removed
+  verdict: wip
   developerName: Coiny
 
 ---

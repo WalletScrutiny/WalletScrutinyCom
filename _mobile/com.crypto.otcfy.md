@@ -1,6 +1,5 @@
 ---
 title: 'OtcFY: Buy Crypto & Bitcoin'
-verdict: wip
 date: 2023-01-02
 website: https://www.otcfy.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.crypto.otcfy.png
   meta: removed
+  verdict: wip
 
 ---
 

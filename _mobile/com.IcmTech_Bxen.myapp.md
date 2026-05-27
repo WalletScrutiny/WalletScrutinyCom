@@ -1,6 +1,5 @@
 ---
 title: Bxen.io - Bitcoin Arbitrage
-verdict: wip
 date: 2023-01-02
 website: https://www.bxen.io/tickets#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.IcmTech_Bxen.myapp.png
   meta: removed
+  verdict: wip
 
 ---
 

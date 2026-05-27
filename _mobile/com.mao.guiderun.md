@@ -1,6 +1,5 @@
 ---
 title: BitpitTR
-verdict: nosource
 date: 2023-08-07
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.4
   icon: com.mao.guiderun.png
   meta: removed
+  verdict: nosource
   developerName: Fabian Cooper
 
 ---

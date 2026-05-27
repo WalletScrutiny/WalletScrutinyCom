@@ -1,6 +1,5 @@
 ---
 title: Kvadro WL
-verdict: wip
 date: 2021-11-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 34
   icon: com.kvadrowallet.png
   meta: removed
+  verdict: wip
 
 ---
 

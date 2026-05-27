@@ -1,6 +1,5 @@
 ---
 title: PDFAE
-verdict: wip
 date: 2023-03-21
 website: http://www.pdfae.ph#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.7.3
   icon: com.gungen.chainup.png
   meta: removed
+  verdict: wip
 
 ---
 

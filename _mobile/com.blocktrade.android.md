@@ -1,7 +1,6 @@
 ---
 wsId: BlockTrade
 title: 'Blocktrade: Invest in Crypto'
-verdict: custodial
 date: 2025-07-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 9
   icon: com.blocktrade.android.png
   meta: removed
+  verdict: custodial
   developerName: Blocktrade
 iphone:
   appId: com.blocktrade.ios
@@ -34,6 +34,7 @@ iphone:
   reviews: 30
   icon: com.blocktrade.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: BlocktradeOperations OU
 
 ---

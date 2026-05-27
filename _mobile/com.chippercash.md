@@ -1,6 +1,5 @@
 ---
 title: Chipper Cash
-verdict: custodial
 date: 2021-09-03
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   reviews: 3267
   icon: com.chippercash.png
   meta: ok
+  verdict: custodial
   developerName: Critical Ideas, Inc.
 
 ---

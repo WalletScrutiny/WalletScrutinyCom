@@ -1,6 +1,5 @@
 ---
 title: Qume -  Crypto Derivatives Exc
-verdict: wip
 date: 2024-04-03
 website: http://www.qume.io
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.qume.app.png
   meta: removed
+  verdict: wip
   developerName: Karma Innovations PTE. LTD.
 
 ---

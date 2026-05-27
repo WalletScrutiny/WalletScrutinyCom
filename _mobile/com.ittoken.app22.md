@@ -1,6 +1,5 @@
 ---
 title: iiToken
-verdict: wip
 date: 2023-08-07
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   icon: com.ittoken.app22.jpg
   meta: removed
+  verdict: wip
   developerName: ii token
 
 ---

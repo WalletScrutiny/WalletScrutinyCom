@@ -1,6 +1,5 @@
 ---
 title: UGLYCASH
-verdict: custodial
 date: 2023-07-01
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 519
   icon: rsv.walletapp.reserve.png
   meta: ok
+  verdict: custodial
   developerName: Best Friend Finance, LLC
 
 ---

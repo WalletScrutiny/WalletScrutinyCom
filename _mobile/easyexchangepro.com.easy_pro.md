@@ -1,6 +1,5 @@
 ---
 title: Easy Pro (Exchange)
-verdict: wip
 date: 2025-01-09
 website: https://easyexchangepro.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: easyexchangepro.com.easy_pro.png
   meta: removed
+  verdict: wip
   developerName: EasyExchangePro
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: WalletIOPRO
 title: wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)
-verdict: nosource
 date: 2022-02-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.2.9
   icon: io.wallet.pro.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: io.wallet.pro
   idd: 1475607592
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: io.wallet.pro.jpg
   meta: removed
+  verdict: nosource
   developerName: Taiyi Technology Beijing Co., Ltd.
 
 ---

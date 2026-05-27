@@ -1,6 +1,5 @@
 ---
 title: Gooplex
-verdict: wip
 date: 2023-01-02
 website: http://info.gooplex.com.br#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: com.cloud.gooplex.png
   meta: removed
+  verdict: wip
 
 ---
 

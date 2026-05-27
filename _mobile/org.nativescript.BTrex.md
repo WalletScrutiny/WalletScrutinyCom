@@ -1,6 +1,5 @@
 ---
 title: Multi Exchange Crypto Trading Terminal
-verdict: wip
 date: 2021-10-30
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   version: 1.0.6.2
   icon: org.nativescript.BTrex.png
   meta: removed
+  verdict: wip
 
 ---
 

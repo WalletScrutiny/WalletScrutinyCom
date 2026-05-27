@@ -1,6 +1,5 @@
 ---
 title: PioneWallet | RWA Tokenization
-verdict: custodial
 date: 2024-11-29
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 20
   icon: com.companyname.swaptobe.png
   meta: ok
+  verdict: custodial
   developerName: PIONE CHAIN
 
 ---

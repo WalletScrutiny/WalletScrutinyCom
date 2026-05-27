@@ -1,6 +1,5 @@
 ---
 title: Best Bitcoin Investment App
-verdict: wip
 date: 2021-09-23
 redirect_from:
 - /android/org.cryptodebitcard.best.bitcoin.investment.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptodebitcard.best.bitcoin.investment.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

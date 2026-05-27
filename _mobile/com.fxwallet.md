@@ -1,6 +1,5 @@
 ---
 title: FX Wallet
-verdict: custodial
 date: 2022-02-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 17
   icon: com.fxwallet.png
   meta: removed
+  verdict: custodial
 
 ---
 

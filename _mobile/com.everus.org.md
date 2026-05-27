@@ -1,6 +1,5 @@
 ---
 title: Everus
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 229
   icon: com.everus.org.png
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: coinRepublic
 title: 'CoinRepublic: Buy BTC Crypto'
-verdict: custodial
 date: 2023-05-17
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.1.2
   icon: com.coinrepublic.app.png
   meta: ok
+  verdict: custodial
   developerName: Coin Republic Pty Ltd
 iphone:
   appId: com.coinrepublic.app
@@ -28,6 +28,7 @@ iphone:
   reviews: 6
   icon: com.coinrepublic.app.jpg
   meta: ok
+  verdict: custodial
   developerName: COIN REPUBLIC PTY LTD
 
 ---

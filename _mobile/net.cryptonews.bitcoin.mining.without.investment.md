@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Mining Without Investment
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptonews.bitcoin.mining.without.investment/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptonews.bitcoin.mining.without.investment.jpg
   meta: removed
+  verdict: wip
 
 ---
 

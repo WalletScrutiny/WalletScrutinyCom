@@ -1,6 +1,5 @@
 ---
 title: Fake Crypto Investor
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.xxxcoinnowfree.fake.crypto.investor/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.xxxcoinnowfree.fake.crypto.investor.jpg
   meta: removed
+  verdict: wip
 
 ---
 

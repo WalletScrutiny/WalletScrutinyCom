@@ -1,6 +1,5 @@
 ---
 title: 코인통
-verdict: wip
 date: 2021-08-01
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.52.52
   icon: semaphore.coinclient.png
   meta: defunct
+  verdict: wip
   developerName: Tomato Group
 
 ---

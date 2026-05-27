@@ -1,6 +1,5 @@
 ---
 title: Severus
-verdict: wip
 date: 2023-01-02
 website: https://web.archive.org/web/20250516203145/http://severus.finance/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.29'
   icon: app.foxwallet.my.png
   meta: removed
+  verdict: wip
 
 ---
 

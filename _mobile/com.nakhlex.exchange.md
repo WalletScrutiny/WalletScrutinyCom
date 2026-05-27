@@ -1,6 +1,5 @@
 ---
 title: Nakhlex
-verdict: wip
 date: 2024-04-03
 website: https://nakhlex.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.1.0
   icon: com.nakhlex.exchange.png
   meta: removed
+  verdict: wip
   developerName: Nakhlex
 
 ---

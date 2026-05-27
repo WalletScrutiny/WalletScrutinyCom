@@ -1,6 +1,5 @@
 ---
 title: InvestXE.com  - Live Bitcoin A
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.3
   icon: com.pandats.investxe.png
   meta: removed
+  verdict: custodial
   developerName: InvestXE
 
 ---

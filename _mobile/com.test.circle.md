@@ -1,6 +1,5 @@
 ---
 title: USDC Wallet - USD Coin
-verdict: wip
 date: 2023-07-01
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 5
   icon: com.test.circle.png
   meta: removed
+  verdict: wip
   developerName: Ореn Sресtrum, LLС.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Binance Auto Trade
-verdict: wip
 date: 2023-01-02
 website: http://binanceautotrade.myreport-live.be#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.32
   icon: be.myreportlive.binanceautotrade.png
   meta: removed
+  verdict: wip
 
 ---
 

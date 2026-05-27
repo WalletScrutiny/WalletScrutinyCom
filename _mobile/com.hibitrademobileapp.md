@@ -1,6 +1,5 @@
 ---
 title: HIBITrade Mobile
-verdict: wip
 date: 2024-04-19
 website: https://hibitrade.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.36
   icon: com.hibitrademobileapp.png
   meta: removed
+  verdict: wip
   developerName: Hibi Markets Limited
 
 ---

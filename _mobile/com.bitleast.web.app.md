@@ -1,6 +1,5 @@
 ---
 title: BitLeast - Trading Company
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.bitleast.web.app/
@@ -12,6 +11,7 @@ android:
   version: 1.2.1
   icon: com.bitleast.web.app.png
   meta: removed
+  verdict: wip
   developerName: RetrixDev
 
 ---

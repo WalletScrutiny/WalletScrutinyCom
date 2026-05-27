@@ -1,6 +1,5 @@
 ---
 title: 'Cryptobiz: BTC, Crypto Trading'
-verdict: custodial
 date: 2023-06-30
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 33
   icon: com.app.cryptobiz.png
   meta: removed
+  verdict: custodial
   developerName: Cryptobiz Exchange
 
 ---

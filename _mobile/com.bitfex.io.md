@@ -1,6 +1,5 @@
 ---
 title: BitFex - Exchange
-verdict: custodial
 date: 2023-09-04
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.1.3
   icon: com.bitfex.io.png
   meta: removed
+  verdict: custodial
   developerName: BitFex
 
 ---

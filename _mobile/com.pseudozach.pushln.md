@@ -1,6 +1,5 @@
 ---
 title: Push LN
-verdict: wip
 date: 2024-04-03
 website: https://kriptode.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.pseudozach.pushln.png
   meta: removed
+  verdict: wip
   developerName: Pseudozach
 
 ---

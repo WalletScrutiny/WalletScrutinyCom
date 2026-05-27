@@ -1,6 +1,5 @@
 ---
 title: 'Sun Crypto: Buy & Sell Crypto'
-verdict: custodial
 date: 2021-09-11
 website: https://suncrypto.in
 twitter: suncryptoin
@@ -15,6 +14,7 @@ android:
   reviews: 275
   icon: com.suncrypto.in.png
   meta: ok
+  verdict: custodial
   developerName: SunCrypto
 
 ---

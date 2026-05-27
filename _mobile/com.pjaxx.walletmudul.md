@@ -1,6 +1,5 @@
 ---
 title: Jaxx Liberty Bitcoin Wallet
-verdict: fake
 date: 2021-08-04
 authors:
 - emanuel
@@ -9,13 +8,13 @@ redirect_from:
 - /android/com.pjaxx.walletmudul/
 android:
   appId: com.pjaxx.walletmudul
-  altTitle: (Fake) Jaxx Liberty Bitcoin Wallet
   users: 100
   released: 2021-07-05
   updated: 2021-07-05
   version: '1'
   icon: com.pjaxx.walletmudul.png
   meta: removed
+  verdict: fake
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: BitcoinUpBit
-verdict: wip
 date: 2026-02-02
 website: https://bitcoinupbit.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.31
   icon: com.bitcoinupbit.exchange.png
   meta: obsolete
+  verdict: wip
   developerName: Prof-IT Blockchain Limited
 
 ---

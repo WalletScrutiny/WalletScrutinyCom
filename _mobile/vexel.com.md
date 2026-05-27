@@ -1,7 +1,6 @@
 ---
 wsId: vexelcom
 title: Vexel.com
-verdict: custodial
 date: 2025-02-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.51.2
   icon: vexel.com.jpg
   meta: removed
+  verdict: custodial
   developerName: VEXEL LP
 iphone:
   appId: com.vexel
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.vexel.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Vexel
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: TRADE HORN
-verdict: wip
 date: 2024-02-05
 website: https://tradehorn.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.tradehorn.app.png
   meta: removed
+  verdict: wip
   developerName: Team TradeHorn
 
 ---

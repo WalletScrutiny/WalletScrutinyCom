@@ -1,6 +1,5 @@
 ---
 title: JUWELIS App
-verdict: nosource
 date: 2024-04-03
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: VARY
   icon: digital.juwelis.app.png
   meta: removed
+  verdict: nosource
   developerName: JUWELIS Digital
 
 ---

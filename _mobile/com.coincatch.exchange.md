@@ -1,7 +1,6 @@
 ---
 wsId: coinCatchExchange
 title: CoinCatch-Buy Bitcoin & Crypto
-verdict: custodial
 date: 2026-03-11
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 74
   icon: com.coincatch.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Linkbase Technology Limited
 iphone:
   appId: com.coincatch.global
@@ -33,6 +33,7 @@ iphone:
   reviews: 172
   icon: com.coincatch.global.jpg
   meta: removed
+  verdict: custodial
   developerName: Linkbase Technology Limited
 
 ---

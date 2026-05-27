@@ -1,7 +1,6 @@
 ---
 wsId: mwallet
 title: 'Bitcoin.com Wallet: Buy, Sell'
-verdict: nosource
 date: 2021-05-20
 authors:
 - leo
@@ -26,7 +25,6 @@ redirect_from:
 - /iphone/com.bitcoin.mwallet/
 android:
   appId: com.bitcoin.mwallet
-  altTitle: Bitcoin Wallet by Bitcoin.com
   users: 10000000
   released: 2017-06-19
   updated: 2026-05-20
@@ -34,8 +32,8 @@ android:
   reviews: 4130
   icon: com.bitcoin.mwallet.png
   meta: ok
+  verdict: nosource
   developerName: Bitcoin.com Developer
-  repository: https://github.com/Bitcoin-com/Wallet
 iphone:
   appId: com.bitcoin.mwallet
   idd: '1252903728'
@@ -45,6 +43,7 @@ iphone:
   reviews: 43510
   icon: com.bitcoin.mwallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Bitcoin.com
 
 ---

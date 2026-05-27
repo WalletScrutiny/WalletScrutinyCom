@@ -1,7 +1,6 @@
 ---
 wsId: DigitalMoney
 title: Digital Money - Buy/Send/Recie
-verdict: nosource
 date: 2023-06-21
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.4.9
   icon: co.digitalmoney.dmapp.png
   meta: removed
+  verdict: nosource
   developerName: Digital Money Ltd
 iphone:
   appId: co.digitalmoney.dmapp
@@ -28,6 +28,7 @@ iphone:
   reviews: 2
   icon: co.digitalmoney.dmapp.jpg
   meta: removed
+  verdict: nosource
   developerName: Digital Money ltd
 
 ---

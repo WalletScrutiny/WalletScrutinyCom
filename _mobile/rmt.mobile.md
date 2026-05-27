@@ -1,6 +1,5 @@
 ---
 title: RMT
-verdict: wip
 date: 2024-11-07
 redirect_from:
 - /android/rmt.mobile/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: rmt.mobile.png
   meta: removed
+  verdict: wip
   developerName: RMTKOR
 
 ---

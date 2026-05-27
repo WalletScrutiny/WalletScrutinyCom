@@ -1,6 +1,5 @@
 ---
 title: Gol Signals USA
-verdict: wip
 date: 2024-02-05
 website: https://web.archive.org/web/20220208202705/https://tmginvesting.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '9.8'
   icon: tmg.investing2.jpg
   meta: removed
+  verdict: wip
   developerName: The Millionaires Group Limited
 
 ---

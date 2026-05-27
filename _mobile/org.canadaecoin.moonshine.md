@@ -1,6 +1,5 @@
 ---
 title: Canada eCoin
-verdict: wip
 date: 2024-11-30
 website: https://ecoincore.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.6.4
   icon: org.canadaecoin.moonshine.png
   meta: removed
+  verdict: wip
   developerName: Jason Zvaniga
 
 ---

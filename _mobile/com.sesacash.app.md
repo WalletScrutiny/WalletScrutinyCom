@@ -1,6 +1,5 @@
 ---
 title: Sesacash
-verdict: wip
 date: 2024-03-02
 website: http://www.sesacash.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.sesacash.app.png
   meta: removed
+  verdict: wip
   developerName: Sesacash
 
 ---

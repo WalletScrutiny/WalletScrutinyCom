@@ -1,7 +1,6 @@
 ---
 wsId: krakenInvest
 title: 'Kraken: Buy Crypto & Stocks'
-verdict: custodial
 date: 2021-08-21
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 8076
   icon: com.kraken.invest.app.png
   meta: ok
+  verdict: custodial
   developerName: Payward, Inc.
 iphone:
   appId: com.kraken.invest.app
@@ -38,6 +38,7 @@ iphone:
   reviews: 31190
   icon: com.kraken.invest.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Kraken
 
 ---

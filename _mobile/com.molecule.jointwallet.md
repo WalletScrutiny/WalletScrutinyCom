@@ -1,6 +1,5 @@
 ---
 title: H-Wallet
-verdict: wip
 date: 2023-08-16
 redirect_from:
 - /android/com.molecule.jointwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.molecule.jointwallet.png
   meta: removed
+  verdict: wip
   developerName: mohammad alansari
 
 ---

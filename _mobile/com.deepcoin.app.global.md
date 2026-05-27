@@ -1,7 +1,6 @@
 ---
 wsId: deepcoin
 title: 'Deepcoin: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2023-02-10
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 26
   icon: com.deepcoin.app.global.png
   meta: ok
+  verdict: custodial
   developerName: DEEPCOIN
 iphone:
   appId: com.dcglobal.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 20
   icon: com.dcglobal.app.jpg
   meta: ok
+  verdict: custodial
   developerName: DEEPCOIN PTE. LTD
 
 ---

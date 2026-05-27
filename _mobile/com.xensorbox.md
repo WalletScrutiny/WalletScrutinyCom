@@ -1,6 +1,5 @@
 ---
 title: Xensor Box:Easy-to-use, safe c
-verdict: wip
 date: 2023-06-10
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.3.6
   icon: com.xensorbox.png
   meta: removed
+  verdict: wip
   developerName: xenix studio
 
 ---

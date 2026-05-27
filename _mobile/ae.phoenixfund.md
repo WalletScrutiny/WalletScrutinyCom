@@ -1,6 +1,5 @@
 ---
 title: Phoenix Fund
-verdict: wip
 date: 2024-04-19
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.1.4
   icon: ae.phoenixfund.png
   meta: removed
+  verdict: wip
   developerName: PLAN A WEB DESIGN
 
 ---

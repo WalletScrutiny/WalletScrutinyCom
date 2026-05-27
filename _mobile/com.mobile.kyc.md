@@ -1,7 +1,6 @@
 ---
 wsId: kyccWallet
 title: KYCC Wallet
-verdict: nosource
 date: 2024-10-23
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1
   icon: com.mobile.kyc.png
   meta: removed
+  verdict: nosource
   developerName: KYC&AML Ltd
 iphone:
   appId: com.mobile.kyc
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.mobile.kyc.jpg
   meta: obsolete
+  verdict: nosource
   developerName: KYC&AML Ltd
 
 ---

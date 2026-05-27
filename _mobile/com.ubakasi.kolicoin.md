@@ -1,6 +1,5 @@
 ---
 title: kolicoin - Buy & Sell Bitcoin
-verdict: wip
 date: 2023-12-19
 website: https://kolicoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.1.7
   icon: com.ubakasi.kolicoin.png
   meta: removed
+  verdict: wip
   developerName: Kolicoin Limited
 
 ---

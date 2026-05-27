@@ -1,6 +1,5 @@
 ---
 title: 빗썸 트레이더
-verdict: custodial
 date: 2021-08-04
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   reviews: 311
   icon: com.btckorea.bithumba.png
   meta: removed
+  verdict: custodial
 
 ---
 

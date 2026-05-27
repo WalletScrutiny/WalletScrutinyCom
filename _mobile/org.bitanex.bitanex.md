@@ -1,6 +1,5 @@
 ---
 title: BitAnex Wallet
-verdict: wip
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 6
   icon: org.bitanex.bitanex.png
   meta: removed
+  verdict: wip
   developerName: BitAnex
 
 ---

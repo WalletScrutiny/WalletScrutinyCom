@@ -1,6 +1,5 @@
 ---
 title: Pay me with Bitcoin
-verdict: wip
 date: 2022-02-25
 website: http://www.salvadorjesus.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.2.3.1
   icon: com.salvadorjesus.PagameConBitcoin.png
   meta: obsolete
+  verdict: wip
   developerName: Salvador Jesús Romero
 
 ---

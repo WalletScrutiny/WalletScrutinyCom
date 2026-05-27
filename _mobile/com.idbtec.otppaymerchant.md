@@ -1,6 +1,5 @@
 ---
 title: OTPPAY - Merchant Payments
-verdict: wip
 date: 2023-08-04
 website: https://www.otppay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.idbtec.otppaymerchant.png
   meta: removed
+  verdict: wip
   developerName: Otppay OU
 
 ---

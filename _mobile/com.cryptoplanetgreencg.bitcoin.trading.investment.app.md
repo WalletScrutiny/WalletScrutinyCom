@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Crypto Trading Investment
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptoplanetgreencg.bitcoin.trading.investment.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptoplanetgreencg.bitcoin.trading.investment.app.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Thunderbolt Lightning Wallet
-verdict: fake
 date: 2024-02-05
 website: https://thunderboltwallet.us#deadLink
 features:
@@ -16,6 +15,7 @@ android:
   reviews: 33
   icon: com.thunderbolt.wallet.png
   meta: removed
+  verdict: fake
   developerName: EncryptDR
 
 ---

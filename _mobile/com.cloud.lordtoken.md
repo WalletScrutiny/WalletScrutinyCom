@@ -1,7 +1,6 @@
 ---
 wsId: lordtokenExchange
 title: LordToken Exchange
-verdict: custodial
 date: 2023-09-28
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 1.7.0
   icon: com.cloud.lordtoken.png
   meta: removed
+  verdict: custodial
   developerName: LORD SERVICES
 iphone:
   appId: com.cloud.lordtoken
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.cloud.lordtoken.jpg
   meta: removed
+  verdict: custodial
   developerName: LORD SERVICES
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: maraWallet
 title: Mara Wallet
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 146
   icon: xyz.mara.wallet.png
   meta: removed
+  verdict: custodial
   developerName: Jara Wallet
 iphone:
   appId: xyz.mara.wallet
@@ -37,6 +37,7 @@ iphone:
   reviews: 798
   icon: xyz.mara.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Coinmara Inc
 
 ---

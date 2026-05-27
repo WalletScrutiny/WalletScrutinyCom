@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Cold Wallet
-verdict: fake
 date: 2023-12-19
 authors:
 - leo
@@ -9,7 +8,6 @@ redirect_from:
 - /android/com.blockchain.bitcoin.wallet/
 android:
   appId: com.blockchain.bitcoin.wallet
-  altTitle: (Fake) Bitcoin Cold Wallet
   users: 10000
   released: 2021-01-19
   updated: 2023-08-26
@@ -17,6 +15,7 @@ android:
   reviews: 65
   icon: com.blockchain.bitcoin.wallet.png
   meta: removed
+  verdict: fake
   developerName: InvoVN Solutions
 
 ---

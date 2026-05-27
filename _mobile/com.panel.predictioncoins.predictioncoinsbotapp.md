@@ -1,6 +1,5 @@
 ---
 title: Bot Binance Auto | Altcoin, Bi
-verdict: wip
 date: 2023-01-02
 website: https://predictioncoins.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 3
   icon: com.panel.predictioncoins.predictioncoinsbotapp.png
   meta: removed
+  verdict: wip
 
 ---
 

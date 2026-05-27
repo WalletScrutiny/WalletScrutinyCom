@@ -1,6 +1,5 @@
 ---
 title: Qollect
-verdict: wip
 date: 2024-04-19
 website: https://coinforbarter.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.coinforbarter.qollect.png
   meta: removed
+  verdict: wip
   developerName: CoinForBarter
 
 ---

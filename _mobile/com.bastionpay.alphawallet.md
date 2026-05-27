@@ -1,6 +1,5 @@
 ---
 title: Alpha Wallet by Ard
-verdict: wip
 date: 2021-12-22
 redirect_from:
 - /android/com.bastionpay.alphawallet/
@@ -13,6 +12,7 @@ android:
   reviews: 14
   icon: com.bastionpay.alphawallet.png
   meta: removed
+  verdict: wip
 
 ---
 

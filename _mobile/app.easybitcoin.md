@@ -1,7 +1,6 @@
 ---
 wsId: easyBitcoin
 title: easyBitcoin
-verdict: custodial
 date: 2025-11-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 26
   icon: app.easybitcoin.png
   meta: ok
+  verdict: custodial
   developerName: Uphold HQ Inc.
 iphone:
   appId: app.easybitcoin
@@ -34,6 +34,7 @@ iphone:
   reviews: 11
   icon: app.easybitcoin.jpg
   meta: ok
+  verdict: custodial
   developerName: Uphold HQ Inc.
 
 ---

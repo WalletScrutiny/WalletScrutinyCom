@@ -1,6 +1,5 @@
 ---
 title: naijaexchange
-verdict: wip
 date: 2024-04-19
 website: https://naijaexchange.vip
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: vip.naijaexchange.app.android.png
   meta: removed
+  verdict: wip
   developerName: naijaexchange
 
 ---

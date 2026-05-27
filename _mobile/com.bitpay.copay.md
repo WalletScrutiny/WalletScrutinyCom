@@ -1,6 +1,5 @@
 ---
 title: Copay Bitcoin Wallet
-verdict: wip
 date: 2023-12-14
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   reviews: 181
   icon: com.bitpay.copay.jpg
   meta: obsolete
+  verdict: wip
   developerName: BitPay, Inc.
 
 ---

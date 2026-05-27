@@ -1,6 +1,5 @@
 ---
 title: BitsBlockchain
-verdict: wip
 date: 2024-04-19
 website: https://www.bitsblockchain.net/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: bitsblockchain.net.png
   meta: removed
+  verdict: wip
   developerName: BITSBLOCKCHAIN FINTECH CORP
 
 ---

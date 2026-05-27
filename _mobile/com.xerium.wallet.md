@@ -1,6 +1,5 @@
 ---
 title: Xerium
-verdict: nosendreceive
 date: 2024-02-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: '1.0'
   icon: com.xerium.wallet.png
   meta: removed
+  verdict: nosendreceive
   developerName: Xeriumtech
 
 ---

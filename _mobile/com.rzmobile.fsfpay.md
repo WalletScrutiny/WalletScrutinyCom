@@ -1,6 +1,5 @@
 ---
 title: Cryptocurrency Payment Gateway
-verdict: wip
 date: 2024-04-03
 website: https://www.fsfpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.rzmobile.fsfpay.png
   meta: removed
+  verdict: wip
   developerName: FSFPAY
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: ONTO
 title: ONTO Cross-chain Crypto Wallet
-verdict: nosource
 date: 2021-09-15
 authors:
 - danny
@@ -23,8 +22,8 @@ android:
   reviews: 128
   icon: com.github.ontio.onto.png
   meta: ok
+  verdict: nosource
   developerName: Ontology Foundation Ltd.
-  repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
 iphone:
   appId: com.ontology.foundation.onto
   idd: 1436009823
@@ -34,6 +33,7 @@ iphone:
   reviews: 88
   icon: com.ontology.foundation.onto.jpg
   meta: ok
+  verdict: nosource
   developerName: Ontology Foundation
 
 ---

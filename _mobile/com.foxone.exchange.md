@@ -1,6 +1,5 @@
 ---
 title: F1EX
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/com.foxone.exchange/
@@ -12,6 +11,7 @@ android:
   version: 1.6.2
   icon: com.foxone.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

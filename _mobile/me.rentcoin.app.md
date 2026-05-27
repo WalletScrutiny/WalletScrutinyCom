@@ -1,6 +1,5 @@
 ---
 title: RentCoin
-verdict: wip
 date: 2023-11-02
 website: https://www.rentcoin.me
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.1
   icon: me.rentcoin.app.png
   meta: removed
+  verdict: wip
   developerName: RS Sistemas Ltda
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: Bekonta
 title: 'Bekonta: Buy & Sell Crypto'
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.3
   icon: com.bitpezapro.app.png
   meta: obsolete
+  verdict: custodial
   developerName: Describe Innovations
 iphone:
   appId: com.bekonta.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.bekonta.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Bitpeza Technology Limited
 
 ---

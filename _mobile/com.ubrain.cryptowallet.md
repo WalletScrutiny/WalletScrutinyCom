@@ -1,6 +1,5 @@
 ---
 title: Crypto Wallet
-verdict: wip
 date: 2025-04-09
 redirect_from:
 - /android/com.ubrain.cryptowallet/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.ubrain.cryptowallet.png
   meta: obsolete
+  verdict: wip
   developerName: Mitul Bhadeshiya
 
 ---

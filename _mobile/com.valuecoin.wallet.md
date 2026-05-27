@@ -1,6 +1,5 @@
 ---
 title: VC Wallet
-verdict: wip
 date: 2023-12-19
 website: https://www.valuecoin.money/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.4'
   icon: com.valuecoin.wallet.png
   meta: removed
+  verdict: wip
   developerName: blockchainjapan
 
 ---

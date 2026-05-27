@@ -1,7 +1,6 @@
 ---
 wsId: DokWallet
 title: Dok Wallet
-verdict: nosource
 date: 2023-10-03
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 15
   icon: com.dok.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Dok wallet
 iphone:
   appId: com.dok.wallet
@@ -35,6 +35,7 @@ iphone:
   reviews: 2
   icon: com.dok.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Moreover4u2 Ltd
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: UNITEDBIT
-verdict: wip
 date: 2024-02-05
 website: https://unitedbit.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.7
   icon: com.unitedbit.app.png
   meta: removed
+  verdict: wip
   developerName: UNITEDBIT
 
 ---

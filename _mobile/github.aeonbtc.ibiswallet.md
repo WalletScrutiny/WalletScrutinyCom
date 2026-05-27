@@ -1,6 +1,5 @@
 ---
 title: Ibis Wallet
-verdict: wip
 date: 2026-04-13
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.2-beta
   reviews: 0
   meta: removed
+  verdict: wip
   developerName: aeonBTC
 
 ---

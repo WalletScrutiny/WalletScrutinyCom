@@ -1,6 +1,5 @@
 ---
 title: CRYONIK - Your Bitcoin Wallet
-verdict: wip
 date: 2023-01-02
 website: https://cryonik.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.cryonik.webview.png
   meta: removed
+  verdict: wip
 
 ---
 

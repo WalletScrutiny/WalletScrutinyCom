@@ -1,6 +1,5 @@
 ---
 title: Capixal Mobile Trading App
-verdict: nosendreceive
 date: 2024-03-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.5.78-capixal
   icon: com.capixal.png
   meta: removed
+  verdict: nosendreceive
   developerName: IFC Investments
 
 ---

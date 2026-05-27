@@ -1,7 +1,6 @@
 ---
 wsId: bitkapAfrica
 title: Bitkap
-verdict: custodial
 date: 2024-12-04
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 20
   icon: net.bitkap.frontEnd.jpg
   meta: stale
+  verdict: custodial
   developerName: bitkap group
 iphone:
   appId: net.bitkap.frondend
@@ -35,6 +35,7 @@ iphone:
   reviews: 20
   icon: net.bitkap.frondend.jpg
   meta: removed
+  verdict: custodial
   developerName: REAL TIME SARL
 
 ---

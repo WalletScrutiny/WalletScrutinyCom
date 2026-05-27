@@ -1,6 +1,5 @@
 ---
 title: ChainX Vault
-verdict: wip
 date: 2026-01-14
 website: https://chainxglobal.ltd
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.97
   icon: ltd.chainxglobal.wallet.png
   meta: fewusers
+  verdict: wip
   developerName: Chain X Global
 iphone:
   appId: ltd.chainxglobal.wallet
@@ -25,6 +25,7 @@ iphone:
   reviews: 8
   icon: ltd.chainxglobal.wallet.jpg
   meta: ok
+  verdict: wip
   developerName: ChainX Global
 
 ---

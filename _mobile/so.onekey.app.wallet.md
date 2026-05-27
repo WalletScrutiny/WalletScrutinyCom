@@ -1,7 +1,6 @@
 ---
 wsId: onekeySo.new
 title: 'OneKey Wallet: Bitcoin & Web3'
-verdict: sourceavailable
 date: 2025-07-21
 authors:
 - danny
@@ -32,6 +31,7 @@ android:
   reviews: 93
   icon: so.onekey.app.wallet.png
   meta: ok
+  verdict: sourceavailable
   developerName: ONEKEY LIMITED
 iphone:
   appId: so.onekey.wallet
@@ -43,6 +43,7 @@ iphone:
   reviews: 680
   icon: so.onekey.wallet.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: ONEKEY LIMITED
 
 ---

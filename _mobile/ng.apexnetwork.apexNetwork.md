@@ -1,6 +1,5 @@
 ---
 title: 'Apex: Buy, Sell & Trade Crypto'
-verdict: wip
 date: 2026-01-14
 website: https://apexnetwork.ng
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 2285
   icon: ng.apexnetwork.apexNetwork.jpg
   meta: ok
+  verdict: wip
   developerName: Apex Web Network Ltd.
 
 ---

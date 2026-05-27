@@ -1,6 +1,5 @@
 ---
 title: Trust Vault Crypto Web3 Wallet
-verdict: wip
 date: 2026-01-14
 website: http://trustvault-app.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.trustvault.wallet.png
   meta: fewusers
+  verdict: wip
   developerName: UNREAL VENTURES LLC
 
 ---

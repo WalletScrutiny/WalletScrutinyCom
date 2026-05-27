@@ -1,6 +1,5 @@
 ---
 title: Exonyx | اکس اونیکس
-verdict: custodial
 date: 2023-06-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 22
   icon: com.exonyxapp.trader.png
   meta: removed
+  verdict: custodial
   developerName: Exonyx
 
 ---

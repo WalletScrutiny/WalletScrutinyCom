@@ -1,6 +1,5 @@
 ---
 title: CryptoCash360
-verdict: wip
 date: 2023-12-19
 website: https://cryptocash-360.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.crypto.bank_360.jpg
   meta: removed
+  verdict: wip
   developerName: RYDEUM Technologies, Inc.
 
 ---

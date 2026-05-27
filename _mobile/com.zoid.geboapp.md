@@ -1,6 +1,5 @@
 ---
 title: Gebo KEI
-verdict: wip
 date: 2024-04-26
 website: https://gebo.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.zoid.geboapp.jpg
   meta: removed
+  verdict: wip
   developerName: ITBS LLC
 
 ---

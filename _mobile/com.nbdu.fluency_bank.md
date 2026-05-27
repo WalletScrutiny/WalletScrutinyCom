@@ -1,6 +1,5 @@
 ---
 title: Fluency - The Global Cryptoban
-verdict: custodial
 date: 2023-05-31
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 8
   icon: com.nbdu.fluency_bank.png
   meta: removed
+  verdict: custodial
   developerName: Fluency App Ltd.
 
 ---

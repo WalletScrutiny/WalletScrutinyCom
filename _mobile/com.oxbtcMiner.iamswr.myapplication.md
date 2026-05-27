@@ -1,6 +1,5 @@
 ---
 title: OXBTC-Mine Bitcoin ,Ethereum & more
-verdict: wip
 date: 2021-11-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 18
   icon: com.oxbtcMiner.iamswr.myapplication.jpg
   meta: removed
+  verdict: wip
 
 ---
 

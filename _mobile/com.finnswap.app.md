@@ -1,6 +1,5 @@
 ---
 title: Finn Wallet
-verdict: wip
 date: 2023-08-16
 website: https://finn.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.finnswap.app.png
   meta: removed
+  verdict: wip
   developerName: Limewheels.com
 
 ---

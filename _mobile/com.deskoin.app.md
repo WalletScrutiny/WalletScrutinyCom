@@ -1,7 +1,6 @@
 ---
 wsId: deskoin
 title: Deskoin - Investir en cryptos
-verdict: custodial
 date: 2026-04-20
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 7.7.2
   icon: com.deskoin.app.png
   meta: ok
+  verdict: custodial
   developerName: Deskoin
 iphone:
   appId: com.deskoin.app
@@ -30,6 +30,7 @@ iphone:
   reviews: 395
   icon: com.deskoin.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Deskoin
 
 ---

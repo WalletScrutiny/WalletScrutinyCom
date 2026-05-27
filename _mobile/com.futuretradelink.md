@@ -1,6 +1,5 @@
 ---
 title: Future Trade Link
-verdict: wip
 date: 2021-11-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.3'
   icon: com.futuretradelink.png
   meta: removed
+  verdict: wip
   developerName: Future Trade Link
 
 ---

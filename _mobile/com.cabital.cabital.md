@@ -1,6 +1,5 @@
 ---
 title: 'Cabital: Crypto for all'
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.8.0
   icon: com.cabital.cabital.png
   meta: removed
+  verdict: custodial
 
 ---
 

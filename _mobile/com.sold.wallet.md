@@ -1,6 +1,5 @@
 ---
 title: Sold wallet
-verdict: wip
 date: 2023-11-02
 website: https://solidus-vc.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.sold.wallet.png
   meta: removed
+  verdict: wip
   developerName: Sold wallet
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BitteryPro
-verdict: wip
 date: 2023-08-04
 website: https://github.com/bitteryapp/bitteryapp-android
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.github.bitteryapp.pro.png
   meta: removed
+  verdict: wip
   developerName: BitteryApp
 
 ---

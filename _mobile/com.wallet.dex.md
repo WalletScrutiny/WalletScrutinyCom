@@ -1,6 +1,5 @@
 ---
 title: Dex Crypto Wallet & Exchange
-verdict: wip
 date: 2024-07-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 12
   icon: com.wallet.dex.png
   meta: removed
+  verdict: wip
   developerName: DexWallet Pvt. Limited
 
 ---

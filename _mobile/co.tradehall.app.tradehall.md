@@ -1,7 +1,6 @@
 ---
 wsId: tradehallCFD
 title: Tradehall
-verdict: nosendreceive
 date: 2023-11-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.14
   icon: co.tradehall.app.tradehall.png
   meta: removed
+  verdict: nosendreceive
   developerName: Tradehall Pte Ltd
 iphone:
   appId: co.tradehall.app.tradehall
@@ -32,6 +32,7 @@ iphone:
   reviews: 4
   icon: co.tradehall.app.tradehall.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Tradehall Pty Ltd
 
 ---

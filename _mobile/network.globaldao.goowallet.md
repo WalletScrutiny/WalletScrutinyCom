@@ -1,6 +1,5 @@
 ---
 title: goo! Rewards - Recompensas, pu
-verdict: wip
 date: 2024-02-05
 website: https://web.archive.org/web/20230304212439/http://goorewards.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.0
   icon: network.globaldao.goowallet.png
   meta: removed
+  verdict: wip
   developerName: goo! Technology
 
 ---

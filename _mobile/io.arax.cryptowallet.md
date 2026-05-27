@@ -1,6 +1,5 @@
 ---
 title: 'COSS Wallet: Crypto One Stop Solution'
-verdict: wip
 date: 2023-04-15
 redirect_from:
 - /android/io.arax.cryptowallet/
@@ -13,6 +12,7 @@ android:
   reviews: 156
   icon: io.arax.cryptowallet.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Invest On Crypto
-verdict: wip
 date: 2021-08-13
 redirect_from:
 - /android/com.buybitcoincrypto.invest.on.crypto/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.buybitcoincrypto.invest.on.crypto.png
   meta: removed
+  verdict: wip
 
 ---
 

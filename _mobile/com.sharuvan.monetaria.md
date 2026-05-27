@@ -1,6 +1,5 @@
 ---
 title: 'Monetaria: P2P Crypto Exchange'
-verdict: wip
 date: 2023-08-16
 website: https://sharuvan.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.sharuvan.monetaria.png
   meta: removed
+  verdict: wip
   developerName: Ahmed Sharuvan
 
 ---

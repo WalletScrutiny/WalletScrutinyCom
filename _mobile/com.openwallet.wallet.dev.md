@@ -1,6 +1,5 @@
 ---
 title: Murex | Universal
-verdict: wip
 date: 2021-11-10
 redirect_from:
 - /android/com.openwallet.wallet.dev/
@@ -12,6 +11,7 @@ android:
   reviews: 11
   icon: com.openwallet.wallet.dev.png
   meta: removed
+  verdict: wip
 
 ---
 

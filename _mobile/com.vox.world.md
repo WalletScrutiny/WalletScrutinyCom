@@ -1,7 +1,6 @@
 ---
 wsId: vooxExchange
 title: 'VOOX Exchange: Buy BTC&Crypto'
-verdict: custodial
 date: 2026-01-26
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.5.4
   icon: com.vox.world.png
   meta: ok
+  verdict: custodial
   developerName: VOOX Limited
 iphone:
   appId: com.voox.www
@@ -28,6 +28,7 @@ iphone:
   reviews: 6
   icon: com.voox.www.jpg
   meta: ok
+  verdict: custodial
   developerName: VOOX TECHNOLOGY PTE. LTD.
 
 ---

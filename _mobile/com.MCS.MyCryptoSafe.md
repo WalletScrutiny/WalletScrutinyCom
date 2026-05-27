@@ -1,6 +1,5 @@
 ---
 title: MyCryptoSafe - PrivateKeys Saf
-verdict: wip
 date: 2024-04-26
 redirect_from:
 - /android/com.MCS.MyCryptoSafe/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.MCS.MyCryptoSafe.png
   meta: removed
+  verdict: wip
   developerName: Ali Ekrem Gençer
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'BBC Token : Big Blockchain Com'
-verdict: wip
 date: 2024-04-26
 website: http://bbctoken.app#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 9
   icon: com.bbctoken.png
   meta: removed
+  verdict: wip
   developerName: Okanetoma Lab
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: CBC WALLET
-verdict: wip
 date: 2023-11-02
 website: https://web.archive.org/web/20240524125438/https://cryptoboxcoin.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '9.8'
   icon: cbc.wallet.png
   meta: removed
+  verdict: wip
   developerName: CryptoBoxCoin
 
 ---

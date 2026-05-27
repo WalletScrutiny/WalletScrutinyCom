@@ -1,6 +1,5 @@
 ---
 title: Crypto Wallet UI - Flutter App
-verdict: wip
 date: 2026-01-08
 website: https://www.raininfotech.in
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.2
   icon: com.rain.cryptoui.png
   meta: removed
+  verdict: wip
   developerName: Rain Infotech Private Limited
 
 ---

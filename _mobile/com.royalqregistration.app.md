@@ -1,6 +1,5 @@
 ---
 title: Royal Q Automated Trading App
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.royalqregistration.app/
@@ -12,6 +11,7 @@ android:
   version: '2.0'
   icon: com.royalqregistration.app.png
   meta: removed
+  verdict: wip
   developerName: Infinit Tech
 
 ---

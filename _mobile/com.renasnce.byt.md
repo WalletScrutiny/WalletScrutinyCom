@@ -1,6 +1,5 @@
 ---
 title: Byt - A Simple Bitcoin Wallet
-verdict: wip
 date: 2024-07-14
 website: https://renasnce.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.30.29
   icon: com.renasnce.byt.png
   meta: removed
+  verdict: wip
   developerName: Renasnce Studios
 
 ---

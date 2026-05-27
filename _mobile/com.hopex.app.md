@@ -1,6 +1,5 @@
 ---
 title: Hopex Crypto Exchange  汇贝交易平台 - 加密货币交易应用程序
-verdict: wip
 date: 2023-01-02
 website: https://www.hopex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.17.27
   icon: com.hopex.app.png
   meta: removed
+  verdict: wip
 
 ---
 

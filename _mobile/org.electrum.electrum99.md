@@ -1,6 +1,5 @@
 ---
 title: 'Electrum Wallet : Bitcoin Blockchain Wallet'
-verdict: wip
 date: 2021-04-29
 redirect_from:
 - /android/org.electrum.electrum99/
@@ -11,6 +10,7 @@ android:
   version: 5.3.6
   icon: org.electrum.electrum99.png
   meta: removed
+  verdict: wip
 
 ---
 

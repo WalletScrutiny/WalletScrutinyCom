@@ -1,6 +1,5 @@
 ---
 title: Light Bitcoin Wallet
-verdict: wip
 date: 2023-01-02
 website: https://github.com/ilyapr/bitcoin-wallet-android
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.bitzhash.wallet.bitcoin.png
   meta: removed
+  verdict: wip
 
 ---
 

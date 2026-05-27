@@ -1,6 +1,5 @@
 ---
 title: Hovi P2P Exchange
-verdict: wip
 date: 2024-04-03
 website: https://p2p.hovii.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: app.hovii.p2p.png
   meta: removed
+  verdict: wip
   developerName: OxxLab
 
 ---

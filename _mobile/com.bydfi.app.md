@@ -1,7 +1,6 @@
 ---
 wsId: bydfiExchange
 title: 'BYDFi: Buy BTC, XRP & SOL'
-verdict: custodial
 date: 2023-07-21
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 430
   icon: com.bydfi.app.png
   meta: ok
+  verdict: custodial
   developerName: BYDFi Fintech LTD
 iphone:
   appId: com.bydfi.app
@@ -38,6 +38,7 @@ iphone:
   reviews: 1189
   icon: com.bydfi.app.jpg
   meta: ok
+  verdict: custodial
   developerName: BYDFi Fintech LTD
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Milly Crypto
-verdict: wip
 date: 2024-04-26
 website: https://www.millycrypto.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.ideal.studio.milly_crypto.png
   meta: removed
+  verdict: wip
   developerName: Cryptosurge Technology Co., Ltd.
 
 ---

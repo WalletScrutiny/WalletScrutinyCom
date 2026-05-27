@@ -1,6 +1,5 @@
 ---
 title: 'Bitay: Trade Bitcoin & Crypto'
-verdict: wip
 date: 2023-01-02
 website: https://www.bitay.co.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.app.bitayindia.png
   meta: removed
+  verdict: wip
 
 ---
 

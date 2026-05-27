@@ -1,6 +1,5 @@
 ---
 title: MoriX Wallet
-verdict: wip
 date: 2024-10-10
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: v2.0.11
   icon: com.morix.wallet.png
   meta: removed
+  verdict: wip
   developerName: MoriX Co., Ltd.
 
 ---
