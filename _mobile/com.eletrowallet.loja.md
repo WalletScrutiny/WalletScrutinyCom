@@ -1,6 +1,5 @@
 ---
 title: EletroWallet
-verdict: wip
 date: 2024-02-05
 website: https://eletrowallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.eletrowallet.loja.png
   meta: removed
+  verdict: wip
   developerName: EletroPay
 
 ---

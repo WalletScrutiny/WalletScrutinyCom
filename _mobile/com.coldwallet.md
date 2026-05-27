@@ -1,6 +1,5 @@
 ---
 title: BkWallet
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.coldwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.2.8.1
   icon: com.coldwallet.png
   meta: removed
+  verdict: wip
   developerName: BKC Group
 
 ---

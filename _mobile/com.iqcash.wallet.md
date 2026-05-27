@@ -1,6 +1,5 @@
 ---
 title: IQ.cash Wallet
-verdict: wip
 date: 2023-01-02
 website: https://iq.cash#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v1.0.6
   icon: com.iqcash.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: WMUWallet
-verdict: wip
 date: 2024-11-29
 redirect_from:
 - /android/com.ara.WMUWallet/
@@ -12,6 +11,7 @@ android:
   version: 1.00.6
   icon: com.ara.WMUWallet.png
   meta: removed
+  verdict: wip
   developerName: SCC Co., Ltd.
 
 ---

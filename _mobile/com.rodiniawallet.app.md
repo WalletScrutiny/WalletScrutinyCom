@@ -1,6 +1,5 @@
 ---
 title: Rodinia Wallet
-verdict: wip
 date: 2024-02-05
 website: https://rodiniawallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.rodiniawallet.app.jpg
   meta: removed
+  verdict: wip
   developerName: Denxa Corporation
 
 ---

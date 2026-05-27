@@ -1,6 +1,5 @@
 ---
 title: All Crypto Trading Bot
-verdict: wip
 date: 2023-03-21
 website: https://botcrypto.mygreat.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.botcrypto.finance.mygreatapp.png
   meta: removed
+  verdict: wip
 
 ---
 

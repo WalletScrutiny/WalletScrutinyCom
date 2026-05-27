@@ -1,6 +1,5 @@
 ---
 title: Biport Multichain CryptoWallet
-verdict: nosource
 date: 2026-03-11
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 8
   icon: com.pilab.biport.png
   meta: stale
+  verdict: nosource
   developerName: PiLab Technology
 
 ---

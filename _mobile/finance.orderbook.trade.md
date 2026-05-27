@@ -1,6 +1,5 @@
 ---
 title: OrderBook
-verdict: wip
 date: 2023-08-25
 redirect_from:
 - /android/finance.orderbook.trade/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: finance.orderbook.trade.png
   meta: removed
+  verdict: wip
   developerName: Plus65 Interactive
 
 ---

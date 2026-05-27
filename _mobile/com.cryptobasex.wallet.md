@@ -1,6 +1,5 @@
 ---
 title: CryptoBaseX
-verdict: wip
 date: 2023-05-17
 redirect_from:
 - /android/com.cryptobasex.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.0.3
   icon: com.cryptobasex.wallet.png
   meta: removed
+  verdict: wip
   developerName: Cryptoking
 
 ---

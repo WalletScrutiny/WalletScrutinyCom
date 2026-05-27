@@ -1,6 +1,5 @@
 ---
 title: BotTrade
-verdict: wip
 date: 2025-06-18
 website: https://bot.trade
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2025.04.10.23
   icon: trade.bot.app.png
   meta: removed
+  verdict: wip
   developerName: BotTrade
 
 ---

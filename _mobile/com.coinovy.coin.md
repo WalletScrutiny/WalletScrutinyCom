@@ -1,6 +1,5 @@
 ---
 title: 'Coinovy: Bitcoin Crypto Wallet'
-verdict: wip
 date: 2023-01-02
 website: https://coinovy.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: com.coinovy.coin.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Exnomy - Decentralized Finance
-verdict: wip
 date: 2024-03-02
 website: https://www.exnomy.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.18
   icon: com.exnomy.jpg
   meta: removed
+  verdict: wip
   developerName: jeonggonmun
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: CORE MultiChain Crypto Wallet
-verdict: wip
 date: 2023-08-16
 website: https://wallet.coremultichain.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1
   icon: com.corewallet.png
   meta: removed
+  verdict: wip
   developerName: CORE Technology
 
 ---

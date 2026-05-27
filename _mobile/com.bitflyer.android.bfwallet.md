@@ -1,7 +1,6 @@
 ---
 wsId: bitFlyer
 title: bitFlyer Crypto Exchange
-verdict: custodial
 date: 2021-08-27
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 1715
   icon: com.bitflyer.android.bfwallet.png
   meta: ok
+  verdict: custodial
   developerName: bitFlyer
 iphone:
   appId: jp.bitflyer.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 132821
   icon: jp.bitflyer.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: bitFlyer, Inc.
 
 ---

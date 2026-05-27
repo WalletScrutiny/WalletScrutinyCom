@@ -1,6 +1,5 @@
 ---
 title: Cobirto Lite
-verdict: wip
 date: 2023-03-21
 website: https://www.cobirtolite.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.corbito.app.png
   meta: removed
+  verdict: wip
   developerName: Cobirto Global Company Ltd.
 
 ---

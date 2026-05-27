@@ -1,7 +1,6 @@
 ---
 wsId: PumaPay
 title: PumaPay Blockchain wallet - Bu
-verdict: nosource
 date: 2024-05-18
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 23
   icon: com.pumapay.pumawallet.png
   meta: removed
+  verdict: nosource
   developerName: Decentralized Vision Ltd
 iphone:
   appId: com.pumapay.pumawallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 17
   icon: com.pumapay.pumawallet.jpg
   meta: removed
+  verdict: nosource
   developerName: Decentralized Vision Limited
 
 ---

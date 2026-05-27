@@ -1,6 +1,5 @@
 ---
 title: 'TrackonBTC is fast, easy, and '
-verdict: wip
 date: 2023-05-11
 website: https://www.trackonbtcguide.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.24'
   icon: com.application.bit900.png
   meta: removed
+  verdict: wip
   developerName: Trackon BTC
 
 ---

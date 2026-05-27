@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Secure Atm
-verdict: wip
 date: 2024-04-26
 redirect_from:
 - /android/com.btcatm.btcatm/
@@ -12,6 +11,7 @@ android:
   version: 1.0.9
   icon: com.btcatm.btcatm.png
   meta: removed
+  verdict: wip
   developerName: Bitcoin Secure Atm
 
 ---

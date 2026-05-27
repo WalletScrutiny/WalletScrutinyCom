@@ -1,7 +1,6 @@
 ---
 wsId: MOVOCash
 title: MOVO - Send to Spend
-verdict: nosendreceive
 date: 2023-08-16
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 143
   icon: com.movocash.movo.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: MovoCash, Inc.
 iphone:
   appId: com.movocash.movo
@@ -35,6 +35,7 @@ iphone:
   reviews: 400
   icon: com.movocash.movo.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: MovoCash, Inc.
 
 ---

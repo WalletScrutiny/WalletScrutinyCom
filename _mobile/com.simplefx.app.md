@@ -1,6 +1,5 @@
 ---
 title: 'SimpleFX: Crypto Trading App'
-verdict: custodial
 date: 2021-10-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 7
   icon: com.simplefx.app.png
   meta: ok
+  verdict: custodial
   developerName: SimpleFX Ltd.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitmelech Crypto Wallet
-verdict: wip
 date: 2023-12-19
 website: https://bitmelech.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.2.5
   icon: com.bitmelech.wallet.png
   meta: removed
+  verdict: wip
   developerName: Bitmelech
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: chainAppWeb3
 title: Chain App - Web3 Wallet
-verdict: nosource
 date: 2024-11-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 12
   icon: com.chainwallet.app.png
   meta: removed
+  verdict: nosource
   developerName: Chain.com
 iphone:
   appId: com.chainwallet.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 13
   icon: com.chainwallet.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Chain Global Ltd
 
 ---

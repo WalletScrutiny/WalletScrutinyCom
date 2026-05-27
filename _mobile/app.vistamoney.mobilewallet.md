@@ -1,6 +1,5 @@
 ---
 title: Vista Money
-verdict: wip
 date: 2024-04-03
 website: https://wallet.vistamoney.cc
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.4
   icon: app.vistamoney.mobilewallet.png
   meta: removed
+  verdict: wip
   developerName: VistaMoney
 
 ---

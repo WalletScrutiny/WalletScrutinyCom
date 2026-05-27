@@ -1,6 +1,5 @@
 ---
 title: JavaPool - Wallet
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/id.sagara.javapool/
@@ -12,6 +11,7 @@ android:
   version: 0.0.2
   icon: id.sagara.javapool.png
   meta: removed
+  verdict: wip
   developerName: JavaPool
 
 ---

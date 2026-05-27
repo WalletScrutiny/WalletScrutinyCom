@@ -1,6 +1,5 @@
 ---
 title: 'EukaPay: Accept crypto get CAD'
-verdict: wip
 date: 2025-07-30
 website: https://eukapay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.12
   icon: com.eukapay.pos_app.png
   meta: removed
+  verdict: wip
   developerName: EukaPay
 
 ---

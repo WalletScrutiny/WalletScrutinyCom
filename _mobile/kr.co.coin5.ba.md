@@ -1,6 +1,5 @@
 ---
 title: Bispex-일상을바꾸는 투자  소액재테크
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/kr.co.coin5.ba/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: kr.co.coin5.ba.png
   meta: removed
+  verdict: wip
   developerName: BISPEX
 
 ---

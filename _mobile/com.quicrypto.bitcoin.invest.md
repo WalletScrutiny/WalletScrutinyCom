@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Invest
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.quicrypto.bitcoin.invest/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.quicrypto.bitcoin.invest.jpg
   meta: removed
+  verdict: wip
 
 ---
 

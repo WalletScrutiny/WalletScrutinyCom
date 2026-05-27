@@ -1,6 +1,5 @@
 ---
 title: FdlityEX
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.tyuiwfjnev2rf3e.rtrtefewccvdg/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.tyuiwfjnev2rf3e.rtrtefewccvdg.png
   meta: removed
+  verdict: wip
 
 ---
 

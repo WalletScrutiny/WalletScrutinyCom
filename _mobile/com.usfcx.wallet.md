@@ -1,6 +1,5 @@
 ---
 title: USFCX_US Foundry Cryptocurrenc
-verdict: wip
 date: 2024-02-05
 website: https://usfcx.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.usfcx.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: omg blockchain factory
 
 ---

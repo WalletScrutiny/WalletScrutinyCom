@@ -1,6 +1,5 @@
 ---
 title: HRDG Wallet
-verdict: nosource
 date: 2025-06-03
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.8
   icon: com.hrdgcoin.hrdgwallet.png
   meta: removed
+  verdict: nosource
   developerName: TabiPay
 
 ---

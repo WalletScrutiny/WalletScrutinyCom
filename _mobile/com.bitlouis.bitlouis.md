@@ -1,6 +1,5 @@
 ---
 title: bitlouis
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.bitlouis.bitlouis/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.bitlouis.bitlouis.png
   meta: removed
+  verdict: wip
   developerName: Bitlouis
 
 ---

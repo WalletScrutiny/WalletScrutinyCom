@@ -1,6 +1,5 @@
 ---
 title: 'BitFin - Buy And Sell Digital '
-verdict: wip
 date: 2024-04-03
 website: https://bitfin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.bitfin.BitFin.png
   meta: removed
+  verdict: wip
   developerName: BitFin
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: H3x
-verdict: wip
 date: 2024-04-19
 website: http://h3plex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.h3blockchain.h3blockchain.png
   meta: removed
+  verdict: wip
   developerName: H3PLEX TECHNOLOGIES PVT LTD
 
 ---

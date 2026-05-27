@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet
-verdict: sourceavailable
 date: 2024-03-02
 authors:
 - leo
@@ -16,13 +15,13 @@ redirect_from:
 - /android/com.bitorzo.wallet/
 android:
   appId: com.bitorzo.wallet
-  altTitle: Bitcoin Wallet by Bitorzo.com
   users: 1000
   released: 2020-07-22
   updated: 2021-01-03
   version: 3.1.3
   icon: com.bitorzo.wallet.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: Hodlers Team
 
 ---

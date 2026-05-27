@@ -1,6 +1,5 @@
 ---
 title: NOBLE DEX
-verdict: wip
 date: 2023-01-02
 website: http://noblecoin.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.23'
   icon: digiiblip.com.nobelhold.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Arculus Wallet
-verdict: wip
 date: 2026-01-14
 website: https://www.arculus.co/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 1107
   icon: com.arculus.wallet.jpg
   meta: ok
+  verdict: wip
   developerName: Arculus Holdings
 
 ---

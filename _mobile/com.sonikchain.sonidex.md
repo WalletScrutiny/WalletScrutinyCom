@@ -1,6 +1,5 @@
 ---
 title: SoniDEX
-verdict: wip
 date: 2024-01-19
 website: https://sonidex.sonikchain.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.sonikchain.sonidex.png
   meta: obsolete
+  verdict: wip
   developerName: Evegram Inc.
 
 ---

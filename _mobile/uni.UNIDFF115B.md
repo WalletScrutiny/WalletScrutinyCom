@@ -1,6 +1,5 @@
 ---
 title: FETICK
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/uni.UNIDFF115B/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: uni.UNIDFF115B.png
   meta: removed
+  verdict: wip
   developerName: WPP Studio
 
 ---

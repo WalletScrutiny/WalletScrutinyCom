@@ -1,7 +1,6 @@
 ---
 wsId: LiteBit
 title: LiteBit – Buy Bitcoin & crypto
-verdict: custodial
 date: 2023-03-21
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 2
   icon: com.flutter.litebit.png
   meta: removed
+  verdict: custodial
   developerName: 2525 Ventures BV
 iphone:
   appId: com.litebit.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 10
   icon: com.litebit.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

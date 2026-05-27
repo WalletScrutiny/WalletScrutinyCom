@@ -1,6 +1,5 @@
 ---
 title: Mirror Wallet
-verdict: nosendreceive
 date: 2021-10-22
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 44
   icon: io.kysenpool.mirror.android.png
   meta: removed
+  verdict: nosendreceive
 
 ---
 

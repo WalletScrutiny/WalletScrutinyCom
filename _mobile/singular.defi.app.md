@@ -1,6 +1,5 @@
 ---
 title: Singular App–Invest in Crypto
-verdict: wip
 date: 2025-02-04
 redirect_from:
 - /android/singular.defi.app/
@@ -12,6 +11,7 @@ android:
   version: '2.6'
   icon: singular.defi.app.png
   meta: removed
+  verdict: wip
   developerName: Singular Capital
 
 ---

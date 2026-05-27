@@ -1,6 +1,5 @@
 ---
 title: Crypto Exchange - Trade Crypto
-verdict: wip
 date: 2024-12-31
 redirect_from:
 - /android/yadav.sachin.earn.free.crypto.cryptoexchange/
@@ -12,6 +11,7 @@ android:
   version: '3.0'
   icon: yadav.sachin.earn.free.crypto.cryptoexchange.jpg
   meta: obsolete
+  verdict: wip
   developerName: Trinity Dev
 
 ---

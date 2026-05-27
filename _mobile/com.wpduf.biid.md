@@ -1,6 +1,5 @@
 ---
 title: BaileysNpTRX
-verdict: wip
 date: 2023-03-21
 redirect_from:
 - /android/com.wpduf.biid/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: com.wpduf.biid.png
   meta: removed
+  verdict: wip
 
 ---
 

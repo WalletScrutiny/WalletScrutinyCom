@@ -1,6 +1,5 @@
 ---
 title: Enkrypt Wallet
-verdict: wip
 date: 2023-01-02
 website: https://enkryptwallet.us#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.enkrypt.blockchain.png
   meta: removed
+  verdict: wip
 
 ---
 

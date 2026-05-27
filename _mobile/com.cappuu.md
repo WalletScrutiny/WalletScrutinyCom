@@ -1,7 +1,6 @@
 ---
 wsId: coinomoCrypto
 title: Coinomo - Gateway to Crypto
-verdict: custodial
 date: 2024-04-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '3.57'
   icon: com.cappuu.png
   meta: removed
+  verdict: custodial
   developerName: PT Tujuhbelas Media Indonesia
 iphone:
   appId: com.cappuu.ios
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.cappuu.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: PT. TUJUHBELAS MEDIA INDONESIA
 
 ---

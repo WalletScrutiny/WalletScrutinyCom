@@ -1,6 +1,5 @@
 ---
 title: Orichalcum
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.orum.orichalcum/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.orum.orichalcum.png
   meta: removed
+  verdict: wip
   developerName: Orichalcum
 
 ---

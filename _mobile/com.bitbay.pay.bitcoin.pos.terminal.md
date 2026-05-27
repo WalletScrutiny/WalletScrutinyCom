@@ -1,7 +1,6 @@
 ---
 wsId: bitcointerminal.zondapay
 title: zondacrypto pay terminal
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.7.3(59)
   icon: com.bitbay.pay.bitcoin.pos.terminal.png
   meta: obsolete
+  verdict: custodial
   developerName: BB Trade Estonia
 
 ---

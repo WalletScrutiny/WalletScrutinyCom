@@ -2,7 +2,6 @@
 wsId: Unstoppable
 title: Unstoppable Crypto Wallet
 bitcoinOrgId: unstoppable
-verdict: sourceavailable
 date: 2020-12-19
 authors:
 - leo
@@ -37,8 +36,8 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
+  verdict: sourceavailable
   developerName: Horizontal Systems
-  repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 iphone:
   appId: io.horizontalsystems.bank-wallet
   idd: 1447619907
@@ -48,8 +47,8 @@ iphone:
   reviews: 1305
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Horizontal Systems
-  repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 
 ---
 

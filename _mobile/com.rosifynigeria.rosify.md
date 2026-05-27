@@ -1,6 +1,5 @@
 ---
 title: 'Rosify: Sell and Buy in Nigeri'
-verdict: wip
 date: 2023-03-21
 website: https://www.rosify.ng#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.3.9
   icon: com.rosifynigeria.rosify.png
   meta: removed
+  verdict: wip
 
 ---
 

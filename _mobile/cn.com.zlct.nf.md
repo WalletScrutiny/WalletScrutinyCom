@@ -1,6 +1,5 @@
 ---
 title: NF35 - Buy Crypto Securely
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.3
   icon: cn.com.zlct.nf.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

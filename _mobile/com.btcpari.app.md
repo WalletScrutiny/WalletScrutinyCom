@@ -1,6 +1,5 @@
 ---
 title: Btcpari
-verdict: wip
 date: 2023-01-02
 website: https://btcpari.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.13
   icon: com.btcpari.app.png
   meta: removed
+  verdict: wip
 
 ---
 

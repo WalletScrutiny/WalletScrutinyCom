@@ -1,6 +1,5 @@
 ---
 title: Lastbit Lite
-verdict: custodial
 date: 2022-04-25
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: Varies with device
   icon: com.lastbit.lite.png
   meta: removed
+  verdict: custodial
 
 ---
 

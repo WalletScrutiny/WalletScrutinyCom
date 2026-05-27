@@ -1,6 +1,5 @@
 ---
 title: Bitone Wallet
-verdict: wip
 date: 2023-09-04
 redirect_from:
 - /android/com.sg9e9.bitonewallet/
@@ -12,6 +11,7 @@ android:
   version: 1.1.2
   icon: com.sg9e9.bitonewallet.png
   meta: removed
+  verdict: wip
   developerName: 9E9 DIGITAL ASSETS EXCHANGE PTE.LTD.
 
 ---

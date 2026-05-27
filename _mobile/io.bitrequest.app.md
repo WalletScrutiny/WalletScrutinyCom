@@ -1,7 +1,6 @@
 ---
 wsId: bitrequest
 title: Bitrequest
-verdict: nosendreceive
 date: 2026-05-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.6.1
   icon: io.bitrequest.app.png
   meta: fewusers
+  verdict: nosendreceive
   developerName: XpressZo
 iphone:
   appId: io.bitrequest.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: io.bitrequest.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: XpressZo
 
 ---

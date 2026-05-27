@@ -1,6 +1,5 @@
 ---
 title: '#MetaWallet Beta'
-verdict: wip
 date: 2024-05-07
 website: http://metahash.org
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: org.metahash.metawallet.png
   meta: removed
+  verdict: wip
   developerName: MetaHash AG
 
 ---

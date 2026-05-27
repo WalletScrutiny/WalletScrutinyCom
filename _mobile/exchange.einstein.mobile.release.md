@@ -1,6 +1,5 @@
 ---
 title: Einstein Convert - Safe and Secure Bitcoin Wallet
-verdict: wip
 date: 2022-05-31
 website: http://einstein.exchange
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 23
   icon: exchange.einstein.mobile.release.png
   meta: removed
+  verdict: wip
 
 ---
 

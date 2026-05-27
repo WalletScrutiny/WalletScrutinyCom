@@ -1,6 +1,5 @@
 ---
 title: ABCC Wallet
-verdict: wip
 date: 2026-01-14
 website: https://abcc-plus.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.10.22
   icon: com.unicoin.dcx.limited.abcc.wallet.png
   meta: fewusers
+  verdict: wip
   developerName: ABCC Tech
 
 ---

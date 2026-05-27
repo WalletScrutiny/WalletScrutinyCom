@@ -1,6 +1,5 @@
 ---
 title: Cilia Coins Wallet
-verdict: wip
 date: 2024-04-19
 website: https://getcilia.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.cilia.wallet.png
   meta: removed
+  verdict: wip
   developerName: Links and Strings
 
 ---

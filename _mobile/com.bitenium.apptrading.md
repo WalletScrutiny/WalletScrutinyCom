@@ -1,6 +1,5 @@
 ---
 title: Bitenium Crypto Exchange
-verdict: wip
 date: 2024-04-03
 website: https://bitenium.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.bitenium.apptrading.png
   meta: removed
+  verdict: wip
   developerName: Bitenium Exchange LLC
 
 ---

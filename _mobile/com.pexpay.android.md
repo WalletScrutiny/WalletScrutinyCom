@@ -1,7 +1,6 @@
 ---
 wsId: pexpaypeaceful
 title: 'Pexpay: 0 Fee Buy and Sell BTC'
-verdict: custodial
 date: 2023-09-15
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 8
   icon: com.pexpay.android.png
   meta: removed
+  verdict: custodial
   developerName: Pexpay
 iphone:
   appId: com.peaceful.pexpay.app.ios
@@ -35,6 +35,7 @@ iphone:
   reviews: 16
   icon: com.peaceful.pexpay.app.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: PEACEFUL INTERNATIONAL LIMITED
 
 ---

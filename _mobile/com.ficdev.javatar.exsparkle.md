@@ -1,6 +1,5 @@
 ---
 title: 'EX Sparkle: Buy&Sell Bitcoin -'
-verdict: wip
 date: 2023-05-10
 redirect_from:
 - /android/com.ficdev.javatar.exsparkle/
@@ -12,6 +11,7 @@ android:
   version: 3.4.5
   icon: com.ficdev.javatar.exsparkle.png
   meta: removed
+  verdict: wip
   developerName: FICTION DEVELOPER
 
 ---

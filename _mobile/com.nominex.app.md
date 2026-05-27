@@ -1,7 +1,6 @@
 ---
 wsId: Nominex
 title: 'Nominex: Cryptocurrency tradin'
-verdict: custodial
 date: 2023-09-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 38
   icon: com.nominex.app.png
   meta: removed
+  verdict: custodial
   developerName: Nominex Ltd.
 iphone:
   appId: com.nominex.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 32
   icon: com.nominex.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Nominex Limited
 
 ---

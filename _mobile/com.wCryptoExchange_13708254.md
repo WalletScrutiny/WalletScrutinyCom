@@ -1,6 +1,5 @@
 ---
 title: Crypto Exchange
-verdict: wip
 date: 2022-02-25
 website: https://m2f5ac532.app-ads-txt.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.45
   icon: com.wCryptoExchange_13708254.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Crypto.com Buy Bitcoin
-verdict: fake
 date: 2021-10-01
 authors:
 - danny
@@ -8,13 +7,13 @@ redirect_from:
 - /android/com.cryptojournal.crypto.com.buy.bitcoin/
 android:
   appId: com.cryptojournal.crypto.com.buy.bitcoin
-  altTitle: (Fake) Crypto.com Buy Bitcoin
   users: 10
   released: 2021-07-07
   updated: 2021-07-07
   version: '1.0'
   icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
   meta: removed
+  verdict: fake
 
 ---
 

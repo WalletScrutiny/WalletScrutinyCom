@@ -1,7 +1,6 @@
 ---
 wsId: Bexplus
 title: Bitcoin Wallet for Margin Trading - Bexplus App
-verdict: custodial
 date: 2023-01-02
 authors:
 - kiwilamb
@@ -22,6 +21,7 @@ android:
   reviews: 1590
   icon: com.lingxi.bexplus.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.mhc.bexplus
   idd: 1442189260
@@ -31,6 +31,7 @@ iphone:
   reviews: 225
   icon: com.mhc.bexplus.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

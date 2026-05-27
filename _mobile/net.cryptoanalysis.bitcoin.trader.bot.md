@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Trader Bot
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptoanalysis.bitcoin.trader.bot/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptoanalysis.bitcoin.trader.bot.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: TurinWallet
-verdict: wip
 date: 2024-11-19
 website: https://www.turinlabs.com/turinwallet#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.8
   icon: com.turinlabs.wallet.png
   meta: removed
+  verdict: wip
   developerName: TurinLabs
 
 ---

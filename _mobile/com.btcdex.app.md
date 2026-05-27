@@ -1,6 +1,5 @@
 ---
 title: 'BTC DEX: Buy Crypto & Bitcoin'
-verdict: wip
 date: 2026-01-14
 website: https://www.btcdex.app/bitcoin/faq#contact
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.55
   icon: com.btcdex.app.png
   meta: fewusers
+  verdict: wip
   developerName: HITDEX
 
 ---

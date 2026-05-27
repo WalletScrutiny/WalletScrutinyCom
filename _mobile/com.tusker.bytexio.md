@@ -1,7 +1,6 @@
 ---
 wsId: byteXTrade
 title: ByteX - Trade, Borrow & Earn
-verdict: custodial
 date: 2024-03-02
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 1.0.9
   icon: com.tusker.bytexio.png
   meta: removed
+  verdict: custodial
   developerName: ByteX Financial LTD.
 iphone:
   appId: com.tusker.bytexio
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: com.tusker.bytexio.jpg
   meta: ok
+  verdict: custodial
   developerName: ByteX Financial LTD.
 
 ---

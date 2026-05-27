@@ -1,6 +1,5 @@
 ---
 title: UPAY - Business
-verdict: wip
 date: 2023-12-19
 website: http://upay.company#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.upaybusiness.png
   meta: removed
+  verdict: wip
   developerName: The Value Group Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: MOST Wallet
-verdict: nosource
 date: 2024-07-20
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.8.52
   icon: com.most.wallet.png
   meta: ok
+  verdict: nosource
   developerName: SCI Technology Inc DE
 
 ---

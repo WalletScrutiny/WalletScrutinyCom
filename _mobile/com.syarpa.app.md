@@ -1,6 +1,5 @@
 ---
 title: Syarpa
-verdict: wip
 date: 2025-02-13
 website: https://syarpa.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.syarpa.app.png
   meta: removed
+  verdict: wip
   developerName: SYARPA LIMITED
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'CoinEx Vault: Multi-Sig Wallet'
-verdict: wip
 date: 2026-01-14
 website: https://vault.coinex.com
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 3
   icon: com.coinex.vault.jpg
   meta: ok
+  verdict: wip
   developerName: Viabtc Technology Limited
 
 ---

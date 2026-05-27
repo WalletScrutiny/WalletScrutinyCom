@@ -1,6 +1,5 @@
 ---
 title: BitForex
-verdict: custodial
 date: 2025-02-28
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 44
   icon: com.bitforex.bitforex.png
   meta: removed
+  verdict: custodial
   developerName: BITFOREX LTD.
 
 ---

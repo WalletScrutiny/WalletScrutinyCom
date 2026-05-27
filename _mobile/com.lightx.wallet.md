@@ -1,6 +1,5 @@
 ---
 title: LightX - Bitcoin & Lightning
-verdict: wip
 date: 2024-05-18
 website: https://lightxwallet.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.lightx.wallet.png
   meta: removed
+  verdict: wip
   developerName: BTC Defi
 
 ---

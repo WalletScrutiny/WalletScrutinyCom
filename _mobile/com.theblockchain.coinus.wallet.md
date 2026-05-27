@@ -1,7 +1,6 @@
 ---
 wsId: coinus
 title: 'CoinUs 3.0 : BTC, ETH, ERC20'
-verdict: nosource
 date: 2022-05-31
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 235
   icon: com.theblockchain.coinus.wallet.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.theblockchain.coinus.wallet
   idd: 1367339746
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.theblockchain.coinus.wallet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

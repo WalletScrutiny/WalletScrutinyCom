@@ -1,7 +1,6 @@
 ---
 wsId: NakitCoins
 title: Nakitcoins
-verdict: custodial
 date: 2022-10-21
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.2.0
   icon: com.nakitcoins.wallet.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.nakitcoins.wallet
   idd: 1559751218
@@ -30,6 +30,7 @@ iphone:
   reviews: 2
   icon: com.nakitcoins.wallet.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

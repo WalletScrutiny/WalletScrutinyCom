@@ -1,6 +1,5 @@
 ---
 title: 코인애드(CoinAD)- 가상화폐 전환 돈버는앱 (비트
-verdict: wip
 date: 2023-01-02
 website: http://gmnc.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.26'
   icon: com.project.coinad.jpg
   meta: removed
+  verdict: wip
 
 ---
 

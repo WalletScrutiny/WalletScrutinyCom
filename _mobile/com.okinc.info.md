@@ -1,6 +1,5 @@
 ---
 title: OKEx Information
-verdict: wip
 date: 2022-04-25
 redirect_from:
 - /android/com.okinc.info/
@@ -12,6 +11,7 @@ android:
   version: 1.9.18
   icon: com.okinc.info.jpg
   meta: removed
+  verdict: wip
 
 ---
 

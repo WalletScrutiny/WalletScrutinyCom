@@ -1,6 +1,5 @@
 ---
 title: Firma (testnet)
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/it.casatta.testnet/
@@ -12,6 +11,7 @@ android:
   version: 1.20-testnet
   icon: it.casatta.testnet.png
   meta: removed
+  verdict: wip
   developerName: Riccardo Casatta
 
 ---

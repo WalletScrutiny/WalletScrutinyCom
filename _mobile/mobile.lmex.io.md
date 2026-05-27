@@ -1,6 +1,5 @@
 ---
 title: 'LMEX: Crypto & Bitcoin Trading'
-verdict: wip
 date: 2023-06-03
 website: https://www.lmex.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.18.0
   icon: mobile.lmex.io.png
   meta: fewusers
+  verdict: wip
   developerName: LMEX Limited
 
 ---

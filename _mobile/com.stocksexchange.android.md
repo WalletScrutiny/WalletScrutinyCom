@@ -1,7 +1,6 @@
 ---
 wsId: stex
 title: Stex.com - Crypto exchange
-verdict: custodial
 date: 2023-06-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 41
   icon: com.stocksexchange.android.png
   meta: removed
+  verdict: custodial
   developerName: Data Protection Corporation
 iphone:
   appId: com.app.Stocks-exchanges
@@ -29,6 +29,7 @@ iphone:
   reviews: 29
   icon: com.app.Stocks-exchanges.jpg
   meta: removed
+  verdict: custodial
   developerName: DATA PROTECTION CORPORATION
 
 ---

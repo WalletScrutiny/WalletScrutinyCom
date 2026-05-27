@@ -1,6 +1,5 @@
 ---
 title: FastBit (Fiat/Crypto black mar
-verdict: wip
 date: 2023-12-19
 website: https://fastbitng.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.4'
   icon: com.codepoint.fastbit.png
   meta: removed
+  verdict: wip
   developerName: Fintava
 
 ---

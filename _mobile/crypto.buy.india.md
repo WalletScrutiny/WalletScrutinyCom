@@ -1,6 +1,5 @@
 ---
 title: Crypto Buy India
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/crypto.buy.india/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: crypto.buy.india.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: haxWallet
 title: 'Hax: Crypto & Bitcoin Wallet'
-verdict: nosource
 date: 2025-11-18
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 6
   icon: com.haxwallet.app.png
   meta: ok
+  verdict: nosource
   developerName: HaxSolutions
 iphone:
   appId: com.haxwallet.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 427
   icon: com.haxwallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: HaxSolutions, LLC
 
 ---

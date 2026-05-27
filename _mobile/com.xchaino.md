@@ -1,6 +1,5 @@
 ---
 title: 'خرید بیت کوین و ارزدیجیتال: اک'
-verdict: custodial
 date: 2023-09-15
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.1.3
   icon: com.xchaino.png
   meta: removed
+  verdict: custodial
   developerName: Bit24
 
 ---

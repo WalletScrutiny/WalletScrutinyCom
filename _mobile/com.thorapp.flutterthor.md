@@ -1,6 +1,5 @@
 ---
 title: Thorbot
-verdict: wip
 date: 2024-02-05
 website: https://www.thorbot.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.9
   icon: com.thorapp.flutterthor.png
   meta: removed
+  verdict: wip
   developerName: Thorbot
 
 ---

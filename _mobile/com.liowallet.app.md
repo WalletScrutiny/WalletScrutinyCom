@@ -1,6 +1,5 @@
 ---
 title: Lio App
-verdict: nosource
 date: 2024-04-26
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '3.0'
   icon: com.liowallet.app.png
   meta: removed
+  verdict: nosource
   developerName: LIOCoin
 
 ---

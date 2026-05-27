@@ -1,7 +1,6 @@
 ---
 wsId: kassio
 title: Kassio
-verdict: custodial
 date: 2024-10-31
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.1.1
   icon: com.fintech.kassio.png
   meta: removed
+  verdict: custodial
   developerName: Digital Pung ApS
 iphone:
   appId: com.Kassio
@@ -34,6 +34,7 @@ iphone:
   reviews: 12
   icon: com.Kassio.jpg
   meta: removed
+  verdict: custodial
   developerName: Digital Pung ApS
 
 ---

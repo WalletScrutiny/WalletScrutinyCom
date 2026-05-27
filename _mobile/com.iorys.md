@@ -1,6 +1,5 @@
 ---
 title: iorys
-verdict: wip
 date: 2024-12-31
 redirect_from:
 - /android/com.iorys/
@@ -12,6 +11,7 @@ android:
   version: 1.7.14
   icon: com.iorys.png
   meta: removed
+  verdict: wip
   developerName: Iorys Ltd
 
 ---

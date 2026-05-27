@@ -1,6 +1,5 @@
 ---
 title: Quras Wallet＋
-verdict: wip
 date: 2024-05-18
 website: https://quraswallet.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.3
   icon: io.quras.plus.png
   meta: removed
+  verdict: wip
   developerName: Evo Tech Co., Ltd
 
 ---

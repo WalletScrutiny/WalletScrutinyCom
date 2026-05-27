@@ -1,6 +1,5 @@
 ---
 title: Futur
-verdict: wip
 date: 2025-05-30
 redirect_from:
 - /android/com.futur/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.futur.png
   meta: removed
+  verdict: wip
   developerName: Appcinking
 
 ---

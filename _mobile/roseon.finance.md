@@ -1,7 +1,6 @@
 ---
 wsId: roseon
 title: 'Roseon: Trade & Earn'
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 63
   icon: roseon.finance.png
   meta: stale
+  verdict: custodial
   developerName: Roseon Finance
 iphone:
   appId: com.roseon.finance.production
@@ -32,6 +32,7 @@ iphone:
   reviews: 40
   icon: com.roseon.finance.production.jpg
   meta: removed
+  verdict: custodial
   developerName: MYBITOK OU
 
 ---

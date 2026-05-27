@@ -1,6 +1,5 @@
 ---
 title: chby.ru
-verdict: wip
 date: 2021-10-18
 redirect_from:
 - /android/chby.ru/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: chby.ru.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: SHREELOX Crypto Exchange
-verdict: wip
 date: 2024-11-29
 website: https://www.shreelox.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.arhamtechnolabs.shreelox.png
   meta: removed
+  verdict: wip
   developerName: Arham Technolabs
 
 ---

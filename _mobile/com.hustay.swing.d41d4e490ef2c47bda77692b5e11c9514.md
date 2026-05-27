@@ -1,6 +1,5 @@
 ---
 title: 아이온지갑 (ione wallet)
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.hustay.swing.d41d4e490ef2c47bda77692b5e11c9514/
@@ -12,6 +11,7 @@ android:
   version: '0.3'
   icon: com.hustay.swing.d41d4e490ef2c47bda77692b5e11c9514.png
   meta: removed
+  verdict: wip
   developerName: jeongsu jeong
 
 ---

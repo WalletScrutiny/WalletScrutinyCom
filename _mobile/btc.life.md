@@ -1,6 +1,5 @@
 ---
 title: Btclife
-verdict: wip
 date: 2023-01-02
 website: https://btclife.cash#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: btc.life.png
   meta: removed
+  verdict: wip
 
 ---
 

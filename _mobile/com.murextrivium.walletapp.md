@@ -1,6 +1,5 @@
 ---
 title: Murex Trivium (Bitcoin Lightning wallet)
-verdict: wip
 date: 2021-08-09
 authors:
 - kiwilamb
@@ -15,6 +14,7 @@ android:
   version: '1.2'
   icon: com.murextrivium.walletapp.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: OSOM Finance
-verdict: wip
 date: 2023-04-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.24.74
   icon: io.polybius.osom.png
   meta: removed
+  verdict: wip
   developerName: Polybius Tech OÜ
 
 ---

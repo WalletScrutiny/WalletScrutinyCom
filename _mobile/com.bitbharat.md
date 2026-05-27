@@ -1,6 +1,5 @@
 ---
 title: BitBharat:Buy Crypto & Bitcoin
-verdict: wip
 date: 2024-04-19
 website: https://bitbharat.world#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.2
   icon: com.bitbharat.png
   meta: removed
+  verdict: wip
   developerName: Ursa Major Services Private Limited
 
 ---

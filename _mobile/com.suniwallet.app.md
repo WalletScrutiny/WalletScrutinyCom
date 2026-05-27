@@ -1,7 +1,6 @@
 ---
 wsId: suniwallet
 title: Suni Wallet
-verdict: custodial
 date: 2025-11-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.5.3
   icon: com.suniwallet.app.png
   meta: removed
+  verdict: custodial
   developerName: Suni Wallet Corp
 iphone:
   appId: com.suniwallet.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 21
   icon: com.suniwallet.app.jpg
   meta: removed
+  verdict: custodial
   developerName: SUNI WALLET LLC
 
 ---

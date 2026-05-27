@@ -1,7 +1,6 @@
 ---
 wsId: bit2me
 title: Bit2Me - Bitcoin and Cryptos
-verdict: custodial
 date: 2020-05-29
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 55
   icon: com.phonegap.bit2me.png
   meta: ok
+  verdict: custodial
   developerName: Bit2Me
 iphone:
   appId: com.bit2me.flutter-ios
@@ -35,6 +35,7 @@ iphone:
   reviews: 3777
   icon: com.bit2me.flutter-ios.jpg
   meta: ok
+  verdict: custodial
   developerName: Bit2Me
 
 ---

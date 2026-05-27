@@ -1,6 +1,5 @@
 ---
 title: Korvio Wallet - Multichain Blo
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.25
   icon: com.wallet.korvio.png
   meta: removed
+  verdict: custodial
   developerName: korvio
 
 ---

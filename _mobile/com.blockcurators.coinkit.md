@@ -1,7 +1,6 @@
 ---
 wsId: coinkit
 title: CoinKit
-verdict: custodial
 date: 2023-12-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 5
   icon: com.blockcurators.coinkit.png
   meta: removed
+  verdict: custodial
   developerName: Blockcurators GmbH
 iphone:
   appId: com.blockcurators.coinkit
@@ -30,6 +30,7 @@ iphone:
   reviews: 3
   icon: com.blockcurators.coinkit.jpg
   meta: obsolete
+  verdict: custodial
   developerName: BLOCKCURATORS GMBH
 
 ---

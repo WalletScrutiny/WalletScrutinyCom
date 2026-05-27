@@ -1,6 +1,5 @@
 ---
 title: IQPay
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.iqpay/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.iqpay.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: CoinLoan
 title: 'CoinLoan: Сrypto & Fiat Loans'
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 79
   icon: com.app.coinloan.png
   meta: removed
+  verdict: custodial
   developerName: CoinLoan
 iphone:
   appId: io.coinloan.coinloan
@@ -34,6 +34,7 @@ iphone:
   reviews: 394
   icon: io.coinloan.coinloan.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinLoan OU
 
 ---

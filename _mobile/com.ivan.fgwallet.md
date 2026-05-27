@@ -1,7 +1,6 @@
 ---
 wsId: ivanFGWallet
 title: FG Wallet
-verdict: nosource
 date: 2022-06-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 5.0.6
   icon: com.ivan.fgwallet.png
   meta: ok
+  verdict: nosource
   developerName: BIB Holdings (M) Sdn Bhd
 iphone:
   appId: com.sfc.fgwallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.sfc.fgwallet.jpg
   meta: ok
+  verdict: nosource
   developerName: SRS FINTECH COMMERCE LTD
 
 ---

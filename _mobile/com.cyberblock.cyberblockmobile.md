@@ -1,6 +1,5 @@
 ---
 title: Hawala—Blockchain Wallet (BTC, ETH, LTC, BCH...)
-verdict: wip
 date: 2021-10-15
 redirect_from:
 - /android/com.cyberblock.cyberblockmobile/
@@ -13,6 +12,7 @@ android:
   reviews: 2
   icon: com.cyberblock.cyberblockmobile.png
   meta: removed
+  verdict: wip
 
 ---
 

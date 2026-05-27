@@ -1,6 +1,5 @@
 ---
 title: 'Bitunix: Crypto & BTC Trading'
-verdict: custodial
 date: 2024-09-28
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 34
   icon: io.bitunix.android.png
   meta: removed
+  verdict: custodial
   developerName: Bitunix
 
 ---

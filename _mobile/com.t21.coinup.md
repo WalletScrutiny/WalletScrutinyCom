@@ -1,6 +1,5 @@
 ---
 title: CoinUp.io-Buy Crypto,Eth,DOGE
-verdict: wip
 date: 2026-01-14
 website: https://www.coinup.io/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 28
   icon: com.t21.coinup.jpg
   meta: ok
+  verdict: wip
   developerName: CoinUp Global Limited
 
 ---

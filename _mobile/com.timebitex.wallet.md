@@ -1,6 +1,5 @@
 ---
 title: Timebit DeFi
-verdict: wip
 date: 2023-12-19
 website: https://timebitex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.2.0
   icon: com.timebitex.wallet.png
   meta: removed
+  verdict: wip
   developerName: Timebit pte. Ltd.
 
 ---

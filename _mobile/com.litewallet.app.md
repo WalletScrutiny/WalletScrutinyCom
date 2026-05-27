@@ -1,6 +1,5 @@
 ---
 title: lite Wallet
-verdict: nosource
 date: 2024-07-19
 authors:
 - bit-aloo
@@ -14,6 +13,7 @@ android:
   version: 1.1.1
   icon: com.litewallet.app.png
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: HubitCoinics:Buy & Sell Crypto
-verdict: wip
 date: 2024-05-07
 website: https://web.archive.org/web/20240925161635/https://www.hubitcoinics.org/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: org.hubitcoinics.Hubitcoinics.png
   meta: removed
+  verdict: wip
   developerName: CodeCraftPro, Inc.
 
 ---

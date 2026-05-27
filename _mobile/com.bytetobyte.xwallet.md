@@ -1,6 +1,5 @@
 ---
 title: 'Bitcoin Wallet : Urchin (BETA)'
-verdict: wip
 date: 2023-01-02
 website: https://ehanoc.github.io/xwallet#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.3.1-beta
   icon: com.bytetobyte.xwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

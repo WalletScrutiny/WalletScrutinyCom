@@ -1,6 +1,5 @@
 ---
 title: Bittrade
-verdict: wip
 date: 2024-09-18
 website: https://www.bittrade.biz#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.bittrade.png
   meta: removed
+  verdict: wip
   developerName: AAROTA SOFT TECH
 
 ---

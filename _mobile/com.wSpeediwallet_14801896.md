@@ -1,6 +1,5 @@
 ---
 title: Speediwallet
-verdict: wip
 date: 2023-08-16
 website: https://speediwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.wSpeediwallet_14801896.png
   meta: removed
+  verdict: wip
   developerName: Invisible Designs
 
 ---

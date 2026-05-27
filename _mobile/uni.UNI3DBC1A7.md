@@ -1,6 +1,5 @@
 ---
 title: 3F Wallet
-verdict: wip
 date: 2024-04-03
 website: https://3fwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.9.4
   icon: uni.UNI3DBC1A7.png
   meta: removed
+  verdict: wip
   developerName: Finance Future Factory
 
 ---

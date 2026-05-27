@@ -1,6 +1,5 @@
 ---
 title: Tradn - Buy Bitcoins with Trus
-verdict: wip
 date: 2021-11-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.5.106
   icon: com.verico.tradn.png
   meta: removed
+  verdict: wip
   developerName: Verico International Co., Ltd.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: TrustKeys
 title: TrustKeys Web3 SocialFi
-verdict: nosource
 date: 2021-11-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 25
   icon: com.trustkeysnetwork.png
   meta: stale
+  verdict: nosource
   developerName: TrustKeys Finance
 iphone:
   appId: org.openstars.tkblockchain
@@ -32,6 +32,7 @@ iphone:
   reviews: 4
   icon: org.openstars.tkblockchain.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

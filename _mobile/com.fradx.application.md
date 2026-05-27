@@ -1,6 +1,5 @@
 ---
 title: FradX - Bitcoin, Crypto Mutual
-verdict: wip
 date: 2025-01-09
 redirect_from:
 - /android/com.fradx.application/
@@ -12,6 +11,7 @@ android:
   version: 1.4.0
   icon: com.fradx.application.png
   meta: removed
+  verdict: wip
   developerName: FradX Investments
 
 ---

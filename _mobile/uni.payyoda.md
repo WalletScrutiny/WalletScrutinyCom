@@ -1,6 +1,5 @@
 ---
 title: PayYoda
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/uni.payyoda/
@@ -12,6 +11,7 @@ android:
   version: 4.5.1
   icon: uni.payyoda.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: GIFA Exchange
-verdict: wip
 date: 2023-12-19
 website: http://www.gifatoken.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.5.2
   icon: com.gifa.app.png
   meta: removed
+  verdict: wip
   developerName: GIFA Holdings LTD
 
 ---

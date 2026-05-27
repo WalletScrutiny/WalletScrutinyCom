@@ -1,6 +1,5 @@
 ---
 title: DMBank
-verdict: wip
 date: 2023-04-20
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.4.5
   icon: com.bancryp.dmbank.user.png
   meta: removed
+  verdict: wip
   developerName: The Digital Money
 
 ---

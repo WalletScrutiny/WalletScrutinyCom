@@ -1,6 +1,5 @@
 ---
 title: BITTIDE
-verdict: wip
 date: 2024-05-07
 website: https://www.digitide.us/bittide#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.bittide.png
   meta: removed
+  verdict: wip
   developerName: DIGITIDE, LLC
 
 ---

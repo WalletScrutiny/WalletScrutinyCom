@@ -1,6 +1,5 @@
 ---
 title: 비스펙스바이너리-비트코인 마진거래 분석
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/kr.co.coin5.ai/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: kr.co.coin5.ai.png
   meta: removed
+  verdict: wip
   developerName: 비트코인 마진거래 소액재테크 플랫폼
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Billionaire
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.BtcBillionaireGroupGames.BitcoinBillionaire/
@@ -12,6 +11,7 @@ android:
   version: '0.1'
   icon: com.BtcBillionaireGroupGames.BitcoinBillionaire.jpg
   meta: removed
+  verdict: wip
 
 ---
 

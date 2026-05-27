@@ -1,6 +1,5 @@
 ---
 title: 365 Emoney ®
-verdict: wip
 date: 2023-12-19
 website: https://365emoney.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.emoney_365.png
   meta: removed
+  verdict: wip
   developerName: Servi Premium ®
 
 ---

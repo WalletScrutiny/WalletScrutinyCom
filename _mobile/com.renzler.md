@@ -1,6 +1,5 @@
 ---
 title: Renzler - Crypto App & Bot
-verdict: wip
 date: 2023-05-30
 website: https://renzler.one#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.renzler.png
   meta: removed
+  verdict: wip
   developerName: Peter Renz
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: echooDeFi
 title: 'Echooo : Crypto AA Wallet&DeFi'
-verdict: nosource
 date: 2026-01-28
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 77
   icon: com.smartwallet.app.png
   meta: removed
+  verdict: nosource
   developerName: Echooo Labs Pte Ltd
 iphone:
   appId: com.soundVelly.echoooLab
@@ -33,6 +33,7 @@ iphone:
   reviews: 45
   icon: com.soundVelly.echoooLab.jpg
   meta: removed
+  verdict: nosource
   developerName: Echooo Labs Pte Ltd
 
 ---

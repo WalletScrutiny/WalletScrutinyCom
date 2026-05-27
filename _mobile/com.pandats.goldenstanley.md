@@ -1,6 +1,5 @@
 ---
 title: Golden Stanley
-verdict: wip
 date: 2023-01-02
 website: https://goldenstanley.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: com.pandats.goldenstanley.png
   meta: removed
+  verdict: wip
 
 ---
 

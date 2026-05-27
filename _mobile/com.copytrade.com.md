@@ -1,6 +1,5 @@
 ---
 title: GS TRADER-Online Investing And Social Trading
-verdict: wip
 date: 2023-01-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.5.2
   icon: com.copytrade.com.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: ONE Exchange
-verdict: wip
 date: 2023-12-19
 website: http://client.onechange.com.br#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.onealliance.app.png
   meta: removed
+  verdict: wip
   developerName: GrupoWJ
 
 ---

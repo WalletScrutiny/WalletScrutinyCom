@@ -1,6 +1,5 @@
 ---
 title: Guardian Keyper
-verdict: wip
 date: 2026-05-21
 website: https://myguardian.network/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.3.0
   icon: com.guardianlabs.keyper.png
   meta: stale
+  verdict: wip
   developerName: Guardian Labs
 
 ---

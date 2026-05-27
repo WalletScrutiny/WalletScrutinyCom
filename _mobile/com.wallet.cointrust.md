@@ -1,6 +1,5 @@
 ---
 title: 'CoinTrust: BTC & Crypto Wallet'
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.wallet.cointrust/
@@ -13,6 +12,7 @@ android:
   reviews: 9
   icon: com.wallet.cointrust.jpg
   meta: removed
+  verdict: wip
   developerName: MintMyBitcoin | Cloud Services
 
 ---

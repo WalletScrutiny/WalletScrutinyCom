@@ -1,6 +1,5 @@
 ---
 title: Cielo
-verdict: wip
 date: 2024-05-18
 redirect_from:
 - /android/io.cieloex.app/
@@ -12,6 +11,7 @@ android:
   version: 5.0.1
   icon: io.cieloex.app.png
   meta: removed
+  verdict: wip
   developerName: CieloEX Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BIB
-verdict: custodial
 date: 2024-12-23
 twitter: bib_exchange
 social:
@@ -21,6 +20,7 @@ android:
   reviews: 8
   icon: com.dc.bib.lite.png
   meta: removed
+  verdict: custodial
   developerName: ebpay.net
 
 ---

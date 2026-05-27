@@ -1,6 +1,5 @@
 ---
 title: FINNEY Wallet
-verdict: wip
 date: 2024-04-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 5
   icon: com.sirinlabs.os.wallet.png
   meta: removed
+  verdict: wip
   developerName: SIRIN LABS
 
 ---

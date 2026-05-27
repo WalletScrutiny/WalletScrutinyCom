@@ -1,6 +1,5 @@
 ---
 title: Asimony - Safe Crypto Wallet
-verdict: nosource
 date: 2024-10-28
 authors:
 - danny
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: com.asymony.wallet.png
   meta: removed
+  verdict: nosource
   developerName: Ehijihu
 
 ---

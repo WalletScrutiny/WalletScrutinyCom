@@ -1,6 +1,5 @@
 ---
 title: 'FREE2EX Trade: Crypto & Stocks'
-verdict: wip
 date: 2026-01-14
 website: https://www.free2ex.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 26
   icon: free2ex.ticktrader.terminal.png
   meta: stale
+  verdict: wip
   developerName: FREE2EX Platform
 
 ---

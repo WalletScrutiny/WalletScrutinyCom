@@ -1,6 +1,5 @@
 ---
 title: 'DeviantX Wallet : Bitcoin Ethe'
-verdict: nosource
 date: 2024-07-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '2.6'
   icon: com.cryptowallet.deviantx.jpg
   meta: removed
+  verdict: nosource
   developerName: Deviant Coin
 
 ---

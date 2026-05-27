@@ -1,6 +1,5 @@
 ---
 title: Profit Share
-verdict: wip
 date: 2024-05-18
 website: https://profitshare.com.br#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: profitshare.com.br.png
   meta: removed
+  verdict: wip
   developerName: Fastcoin LTDA
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: FCoin
-verdict: wip
 date: 2022-03-24
 website: https://www.fcoin.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 8
   icon: com.fcoin.exchange.png
   meta: removed
+  verdict: wip
 
 ---
 

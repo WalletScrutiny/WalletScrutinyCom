@@ -1,7 +1,6 @@
 ---
 wsId: bitopronew
 title: BitoPro - Buy & Trade Bitcoin
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.52.9
   icon: com.bitoex.bitopronew.png
   meta: removed
+  verdict: custodial
   developerName: BitoPro Technology CO., LTD.
 iphone:
   appId: com.bitoex.bitopronew
@@ -29,6 +29,7 @@ iphone:
   reviews: 4751
   icon: com.bitoex.bitopronew.jpg
   meta: ok
+  verdict: custodial
   developerName: BitoPro Technology Co., Ltd.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: treeumMultiInvest
 title: Multi Invest - Investments
-verdict: wip
 date: 2025-02-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.31
   icon: net.treeum.multi.invest.png
   meta: removed
+  verdict: wip
   developerName: Treeum Holdings Limited
 iphone:
   appId: net.treeum.multi.invest
@@ -27,6 +27,7 @@ iphone:
   reviews: 0
   icon: net.treeum.multi.invest.jpg
   meta: removed
+  verdict: wip
   developerName: Treeum Holdings LTD
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: KOZ Wallet
-verdict: wip
 date: 2024-02-05
 website: https://www.kozjin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.3'
   icon: com.kozwallet.png
   meta: removed
+  verdict: wip
   developerName: Webist Pro Sdn Bhd
 
 ---

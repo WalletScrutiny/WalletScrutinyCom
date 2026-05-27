@@ -1,7 +1,6 @@
 ---
 wsId: CoinEx
 title: 'CoinEx: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2020-04-15
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 1192
   icon: com.coinex.trade.play.png
   meta: ok
+  verdict: custodial
   developerName: CoinEx
 iphone:
   appId: com.viabtc.trader
@@ -34,6 +34,7 @@ iphone:
   reviews: 2032
   icon: com.viabtc.trader.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

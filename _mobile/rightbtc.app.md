@@ -1,6 +1,5 @@
 ---
 title: RightBTC
-verdict: wip
 date: 2023-08-16
 website: https://www.rightbtc.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.0
   icon: rightbtc.app.png
   meta: removed
+  verdict: wip
   developerName: ViewFin
 
 ---

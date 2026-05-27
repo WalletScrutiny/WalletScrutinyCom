@@ -1,7 +1,6 @@
 ---
 wsId: dexfinWallet
 title: Dexfin Wallet
-verdict: nosource
 date: 2024-08-07
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 0.2.7
   icon: com.dexfin.mpcwallet.png
   meta: removed
+  verdict: nosource
   developerName: DEXFIN
 iphone:
   appId: com.dexfin.mpcwallet
@@ -35,6 +35,7 @@ iphone:
   reviews: 3
   icon: com.dexfin.mpcwallet.jpg
   meta: removed
+  verdict: nosource
   developerName: DEXFIN
 
 ---

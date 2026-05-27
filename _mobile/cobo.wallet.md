@@ -1,7 +1,6 @@
 ---
 wsId: cobowallet
 title: Cobo Wallet
-verdict: nosource
 date: 2021-10-01
 authors:
 - leo
@@ -29,6 +28,7 @@ android:
   reviews: 65
   icon: cobo.wallet.png
   meta: removed
+  verdict: nosource
   developerName: Cobo Global Ltd - Crypto Wallet for BTC, ETH
 iphone:
   appId: cobo.wallet
@@ -39,6 +39,7 @@ iphone:
   reviews: 6
   icon: cobo.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Cobo Global Limited
 
 ---

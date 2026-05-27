@@ -1,6 +1,5 @@
 ---
 title: PlutoPOS
-verdict: wip
 date: 2024-04-03
 website: https://www.spartanhill.com/pluto-crypto-pos/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: com.plutopos.png
   meta: removed
+  verdict: wip
   developerName: Spartan Hill
 
 ---

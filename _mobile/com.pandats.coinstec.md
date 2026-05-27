@@ -1,6 +1,5 @@
 ---
 title: Coinstec - Buy & sell Bitcoin,
-verdict: wip
 date: 2024-05-07
 website: http://www.coinstec.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 10.0.2
   icon: com.pandats.coinstec.png
   meta: removed
+  verdict: wip
   developerName: Coinstec
 
 ---

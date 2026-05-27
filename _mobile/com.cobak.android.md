@@ -1,7 +1,6 @@
 ---
 wsId: cobak
 title: Cobak - Crypto Community App
-verdict: custodial
 date: 2025-03-29
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.43.48
   icon: com.cobak.android.png
   meta: removed
+  verdict: custodial
   developerName: 코박
 iphone:
   appId: co.cobak.cobak
@@ -32,6 +32,7 @@ iphone:
   reviews: 17
   icon: co.cobak.cobak.jpg
   meta: removed
+  verdict: custodial
   developerName: COBAK CO., LTD.
 
 ---

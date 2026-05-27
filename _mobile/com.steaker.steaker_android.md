@@ -1,6 +1,5 @@
 ---
 title: Steaker
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.steaker.steaker_android/
@@ -12,6 +11,7 @@ android:
   version: 1.5.3
   icon: com.steaker.steaker_android.png
   meta: removed
+  verdict: wip
   developerName: Steaker Inc.
 
 ---

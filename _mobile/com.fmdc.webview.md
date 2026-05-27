@@ -1,6 +1,5 @@
 ---
 title: 'BITDD: Bitcoin Crypto Exchange'
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.fmdc.webview/
@@ -12,6 +11,7 @@ android:
   version: 1.0.build4
   icon: com.fmdc.webview.png
   meta: removed
+  verdict: wip
   developerName: FMDC App
 
 ---

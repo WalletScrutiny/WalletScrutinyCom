@@ -1,6 +1,5 @@
 ---
 title: Vision-X Crypto
-verdict: wip
 date: 2024-03-02
 website: https://test2.visionxcrypto.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.visionx_crpto.png
   meta: removed
+  verdict: wip
   developerName: VISION-X LIMITED
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: saitaPro
 title: SaitaPro
-verdict: nosource
 date: 2024-10-28
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 331
   icon: com.saitapro.png
   meta: removed
+  verdict: nosource
   developerName: Saitama Technology LLC
 iphone:
   appId: com.saitapro
@@ -36,6 +36,7 @@ iphone:
   reviews: 771
   icon: com.saitapro.jpg
   meta: removed
+  verdict: nosource
   developerName: SAITACHAIN LTD
 
 ---

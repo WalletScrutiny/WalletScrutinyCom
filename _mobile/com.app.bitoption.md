@@ -1,6 +1,5 @@
 ---
 title: BitOption
-verdict: wip
 date: 2023-01-02
 website: https://www.bitoption.app/client#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.8
   icon: com.app.bitoption.png
   meta: removed
+  verdict: wip
 
 ---
 

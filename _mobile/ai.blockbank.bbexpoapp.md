@@ -1,7 +1,6 @@
 ---
 wsId: blockbank.v2
 title: Pairs
-verdict: nosource
 date: 2025-04-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 13
   icon: ai.blockbank.bbexpoapp.png
   meta: removed
+  verdict: nosource
   developerName: UAB HODL SERVICES
 iphone:
   appId: ai.blockbank.blockbankv2
@@ -34,6 +34,7 @@ iphone:
   reviews: 13
   icon: ai.blockbank.blockbankv2.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

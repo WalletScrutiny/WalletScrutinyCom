@@ -1,6 +1,5 @@
 ---
 title: PalmPay - Crypto Point of Sale
-verdict: nosource
 date: 2024-11-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: VARY
   icon: cy.agorise.palmpay.png
   meta: removed
+  verdict: nosource
   developerName: Agorise, Ltd.
 
 ---

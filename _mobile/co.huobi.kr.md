@@ -1,7 +1,6 @@
 ---
 wsId: huobi_kr
 title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 752
   icon: co.huobi.kr.jpg
   meta: removed
+  verdict: custodial
   developerName: Hb-korea
 iphone:
   appId: com.huobi.kr
@@ -33,6 +33,7 @@ iphone:
   reviews: 273
   icon: com.huobi.kr.jpg
   meta: removed
+  verdict: custodial
   developerName: Huobi Korea
 
 ---

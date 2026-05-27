@@ -1,6 +1,5 @@
 ---
 title: CoinSecure Wallet - The Best Cryptocurrency Wallet
-verdict: wip
 date: 2021-12-22
 redirect_from:
 - /android/com.coinsecure.wallet/
@@ -13,6 +12,7 @@ android:
   reviews: 78
   icon: com.coinsecure.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

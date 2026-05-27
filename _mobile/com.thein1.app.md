@@ -1,7 +1,6 @@
 ---
 wsId: in1CryptoWallet
 title: 'IN1: Digital Crypto Wallet App'
-verdict: custodial
 date: 2025-12-16
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 0.11.6
   icon: com.thein1.app.jpg
   meta: ok
+  verdict: custodial
   developerName: IN1 HOLDING LIMITED
 iphone:
   appId: com.thein1.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 287
   icon: com.thein1.app.jpg
   meta: ok
+  verdict: custodial
   developerName: IN1 HOLDING LIMITED
 
 ---

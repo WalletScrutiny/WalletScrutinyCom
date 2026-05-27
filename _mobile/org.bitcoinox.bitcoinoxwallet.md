@@ -1,6 +1,5 @@
 ---
 title: Bitcoin OX Crypto Wallet
-verdict: nosource
 date: 2025-12-18
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 5
   icon: org.bitcoinox.bitcoinoxwallet.png
   meta: stale
+  verdict: nosource
   developerName: GNUAPP UNIPESSOAL LDA
 
 ---

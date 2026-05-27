@@ -1,6 +1,5 @@
 ---
 title: Jeritex
-verdict: custodial
 date: 2025-09-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.22
   icon: com.jeritex.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Jeritex Inc.
 
 ---

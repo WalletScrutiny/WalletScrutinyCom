@@ -1,6 +1,5 @@
 ---
 title: Panzer Wallet
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.panzertech.swipe/
@@ -12,6 +11,7 @@ android:
   version: '1.7'
   icon: com.panzertech.swipe.png
   meta: removed
+  verdict: wip
   developerName: PanzerTech
 
 ---

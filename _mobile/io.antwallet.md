@@ -1,6 +1,5 @@
 ---
 title: AntWallet
-verdict: wip
 date: 2024-09-03
 website: https://antwallet.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: io.antwallet.png
   meta: removed
+  verdict: wip
   developerName: Golden Horizon Technologies Pte Ltd
 
 ---

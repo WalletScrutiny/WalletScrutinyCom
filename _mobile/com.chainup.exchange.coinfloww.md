@@ -1,6 +1,5 @@
 ---
 title: CoinFloww
-verdict: wip
 date: 2023-10-16
 website: https://coinfloww.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.2.5_coinfloww
   icon: com.chainup.exchange.coinfloww.jpg
   meta: removed
+  verdict: wip
   developerName: CoinFloww Technologies
 
 ---

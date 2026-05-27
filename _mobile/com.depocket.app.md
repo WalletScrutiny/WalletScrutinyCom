@@ -1,6 +1,5 @@
 ---
 title: DePocket
-verdict: wip
 date: 2024-04-19
 website: https://depocket.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.6
   icon: com.depocket.app.png
   meta: removed
+  verdict: wip
   developerName: DePocket
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'CM Robot - Autotrader Bitcoin '
-verdict: wip
 date: 2023-05-22
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.2.1
   icon: com.cryptomaniac.cmrobot.png
   meta: removed
+  verdict: wip
   developerName: PT. Eunomia Internasional Grup
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Invest India
-verdict: wip
 date: 2021-08-13
 redirect_from:
 - /android/net.cryptomarketcap.crypto.invest.india/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptomarketcap.crypto.invest.india.jpg
   meta: removed
+  verdict: wip
 
 ---
 

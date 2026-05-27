@@ -1,6 +1,5 @@
 ---
 title: Pasaraset Exchange
-verdict: wip
 date: 2024-04-03
 website: https://pasaraset.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.pasaraset.dex.png
   meta: removed
+  verdict: wip
   developerName: Pasar Aset
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: touchWalletCrypto
 title: Touch Wallet — Crypto Wallet
-verdict: custodial
 date: 2024-10-03
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.1.14
   icon: ru.webtronics.touch_wallet.png
   meta: stale
+  verdict: custodial
   developerName: CLOUD FARMER L.L.C-FZ
 iphone:
   appId: ru.webtronics.touchwallet2
@@ -31,6 +31,7 @@ iphone:
   reviews: 3
   icon: ru.webtronics.touchwallet2.jpg
   meta: removed
+  verdict: custodial
   developerName: CLOUD FARMER L.L.C-FZ
 
 ---

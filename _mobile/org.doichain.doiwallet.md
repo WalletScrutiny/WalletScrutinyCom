@@ -1,6 +1,5 @@
 ---
 title: DoiWallet
-verdict: wip
 date: 2026-05-21
 redirect_from:
 - /android/org.doichain.doiwallet/
@@ -12,6 +11,7 @@ android:
   version: 7.0.4
   icon: org.doichain.doiwallet.png
   meta: stale
+  verdict: wip
   developerName: WEBanizerAG
 
 ---

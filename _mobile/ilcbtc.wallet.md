@@ -1,6 +1,5 @@
 ---
 title: ILC / BTC Wallet
-verdict: custodial
 date: 2025-09-03
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   version: '4.35'
   icon: ilcbtc.wallet.png
   meta: ok
+  verdict: custodial
   developerName: ILCOIN Dev Team
 
 ---

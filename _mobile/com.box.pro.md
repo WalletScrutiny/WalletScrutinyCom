@@ -1,7 +1,6 @@
 ---
 wsId: biboxPro
 title: Bibox Pro：Crypto，BTC，ETH
-verdict: custodial
 date: 2024-10-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 39
   icon: com.box.pro.png
   meta: removed
+  verdict: custodial
   developerName: Bibox
 iphone:
   appId: com.biboxpro.release
@@ -35,6 +35,7 @@ iphone:
   reviews: 55
   icon: com.biboxpro.release.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Bibox Group Holdings Limited
 
 ---

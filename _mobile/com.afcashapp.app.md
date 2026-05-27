@@ -1,6 +1,5 @@
 ---
 title: AFCASH WALLET
-verdict: wip
 date: 2023-08-04
 website: http://afcash.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.57.0
   icon: com.afcashapp.app.png
   meta: removed
+  verdict: wip
   developerName: AFRICUNIA
 
 ---

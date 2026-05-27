@@ -1,6 +1,5 @@
 ---
 title: NonaDirect
-verdict: wip
 date: 2024-05-10
 website: https://easybill.com.ng
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.nonadirect.png
   meta: obsolete
+  verdict: wip
   developerName: EasyBill Power Network
 
 ---

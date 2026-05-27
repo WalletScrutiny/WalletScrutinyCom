@@ -1,6 +1,5 @@
 ---
 title: BitFaucet
-verdict: wip
 date: 2024-02-05
 website: https://websiapps.blogspot.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: bitfaucet.com.png
   meta: removed
+  verdict: wip
   developerName: Websidea
 
 ---

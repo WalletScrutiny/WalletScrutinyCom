@@ -1,7 +1,6 @@
 ---
 wsId: RiseWallet
 title: Well Wallet
-verdict: nosource
 date: 2023-04-16
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 15
   icon: com.risewallet.riseapp.png
   meta: removed
+  verdict: nosource
   developerName: Bitcoin Well
 iphone:
   appId: com.risewallet.riseapp
@@ -30,6 +30,7 @@ iphone:
   reviews: 31
   icon: com.risewallet.riseapp.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: nanovestio
 title: Nanovest-Bitcoin US Stock Gold
-verdict: custodial
 date: 2024-09-03
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 30
   icon: com.nanovest.prod.png
   meta: ok
+  verdict: custodial
   developerName: Nanovest
 iphone:
   appId: io.nanovest
@@ -36,6 +36,7 @@ iphone:
   reviews: 16
   icon: io.nanovest.jpg
   meta: ok
+  verdict: custodial
   developerName: PT. TUMBUH BERSAMA NANO
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Bitcointry: Buy & Sell Crypto'
-verdict: custodial
 date: 2025-11-12
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 5.0.1
   icon: com.bitcointry.com.png
   meta: ok
+  verdict: custodial
   developerName: Devcode Technology Ltd
 
 ---

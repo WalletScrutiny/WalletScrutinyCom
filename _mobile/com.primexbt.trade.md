@@ -1,7 +1,6 @@
 ---
 wsId: primeXBTCryptoTrading
 title: PrimeXBT — Trading Platform
-verdict: custodial
 date: 2023-06-02
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 68
   icon: com.primexbt.trade.png
   meta: ok
+  verdict: custodial
   developerName: Prime Technology LTD
 iphone:
   appId: primexbtcom
@@ -37,6 +37,7 @@ iphone:
   reviews: 220
   icon: primexbtcom.jpg
   meta: removed
+  verdict: custodial
   developerName: Prime XBT Trading Services Ltd.
 
 ---

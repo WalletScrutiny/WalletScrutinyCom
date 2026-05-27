@@ -1,6 +1,5 @@
 ---
 title: DGC WALLET
-verdict: wip
 date: 2024-04-19
 website: https://www.dgcusa.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.21.3
   icon: com.dgc.wallet.png
   meta: removed
+  verdict: wip
   developerName: Digital Gold Coin
 
 ---

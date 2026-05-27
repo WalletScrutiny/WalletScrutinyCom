@@ -1,6 +1,5 @@
 ---
 title: Access
-verdict: wip
 date: 2024-03-02
 website: https://m.facebook.com/Access-100628795474693/?_rdr
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.1
   icon: com.appsystem.access.app.png
   meta: removed
+  verdict: wip
   developerName: ALL ROAD SYSTEM MANAGEMENT PRIVATE LIMITED
 
 ---

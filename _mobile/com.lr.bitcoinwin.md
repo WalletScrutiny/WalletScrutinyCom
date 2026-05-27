@@ -1,6 +1,5 @@
 ---
 title: Bitcoinwin
-verdict: wip
 date: 2024-04-03
 website: https://www.bitcoinwin.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.10.23
   icon: com.lr.bitcoinwin.png
   meta: removed
+  verdict: wip
   developerName: Bitcoinwin
 
 ---

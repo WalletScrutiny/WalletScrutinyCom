@@ -1,7 +1,6 @@
 ---
 wsId: gokuMarket
 title: GokuMarket
-verdict: custodial
 date: 2023-01-30
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 1228
   icon: com.gokumarket.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.united.gokumarket
   idd: '1489128011'
@@ -34,6 +34,7 @@ iphone:
   reviews: 8
   icon: com.united.gokumarket.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

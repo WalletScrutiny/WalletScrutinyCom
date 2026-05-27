@@ -1,6 +1,5 @@
 ---
 title: Cryppter
-verdict: nosource
 date: 2025-01-27
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 9
   icon: com.cryppter.app.release.png
   meta: obsolete
+  verdict: nosource
   developerName: Enex, LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: green-wallet -invest in profitable assets
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/com.app.investyKbill/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: com.app.investyKbill.png
   meta: removed
+  verdict: wip
 
 ---
 

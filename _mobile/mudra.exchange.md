@@ -1,7 +1,6 @@
 ---
 wsId: mudraExchange
 title: 'Mudra Exchange: Buy BTC, ETH'
-verdict: custodial
 date: 2025-09-12
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.4.21
   icon: mudra.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Mudra.Exchange
 iphone:
   appId: app.mudraexchange
@@ -35,6 +35,7 @@ iphone:
   reviews: 1
   icon: app.mudraexchange.jpg
   meta: obsolete
+  verdict: custodial
   developerName: OCTOPUS INDUSTRIES INDIA PRIVATE LIMITED
 
 ---

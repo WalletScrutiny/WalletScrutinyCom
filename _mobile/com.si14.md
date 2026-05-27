@@ -1,7 +1,6 @@
 ---
 wsId: sil4Crypto
 title: Si14 Crypto Wallet
-verdict: nosource
 date: 2025-12-08
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.2.5
   icon: com.si14.png
   meta: ok
+  verdict: nosource
   developerName: Si14 Bank
 iphone:
   appId: com.si14wallet
@@ -35,6 +35,7 @@ iphone:
   reviews: 3
   icon: com.si14wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Si14 AG
 
 ---

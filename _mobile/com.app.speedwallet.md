@@ -1,7 +1,6 @@
 ---
 wsId: speedBitcoinWallet
 title: Speed Wallet - Buy Bitcoin
-verdict: custodial
 date: 2024-03-02
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 1313
   icon: com.app.speedwallet.png
   meta: ok
+  verdict: custodial
   developerName: Speed1 Inc
 iphone:
   appId: com.app.speed1
@@ -37,6 +37,7 @@ iphone:
   reviews: 1116
   icon: com.app.speed1.jpg
   meta: ok
+  verdict: custodial
   developerName: Speed1 - FZCO
 
 ---

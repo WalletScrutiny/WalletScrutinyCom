@@ -1,7 +1,6 @@
 ---
 wsId: margex100X
 title: Margex – Up to 100x Leverage
-verdict: custodial
 date: 2023-07-08
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 100
   icon: com.margex.margex_mobile.png
   meta: removed
+  verdict: custodial
   developerName: Margex
 iphone:
   appId: com.margex.mobile
@@ -35,6 +35,7 @@ iphone:
   reviews: 580
   icon: com.margex.mobile.jpg
   meta: ok
+  verdict: custodial
   developerName: Margex Trading Solutions LTD
 
 ---

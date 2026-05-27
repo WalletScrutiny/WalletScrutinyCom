@@ -1,6 +1,5 @@
 ---
 title: KONG
-verdict: wip
 date: 2024-04-03
 website: https://kong.cash
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.2
   icon: ch.vrfy.png
   meta: removed
+  verdict: wip
   developerName: Airtime Network, Inc.
 
 ---

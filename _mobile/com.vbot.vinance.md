@@ -1,6 +1,5 @@
 ---
 title: VBot
-verdict: wip
 date: 2023-11-02
 website: https://www.vbotadvisor.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.vbot.vinance.png
   meta: removed
+  verdict: wip
   developerName: VBot Solutions Limited
 
 ---

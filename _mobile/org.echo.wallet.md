@@ -1,6 +1,5 @@
 ---
 title: Echo Wallet
-verdict: wip
 date: 2023-12-19
 website: https://echo-dev.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.13.2
   icon: org.echo.wallet.png
   meta: removed
+  verdict: wip
   developerName: PixelPlex Apps
 
 ---

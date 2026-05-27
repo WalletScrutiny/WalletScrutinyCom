@@ -1,6 +1,5 @@
 ---
 title: Crenzy
-verdict: wip
 date: 2024-02-05
 website: http://www.crenzy.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.crenzy.wallet.png
   meta: removed
+  verdict: wip
   developerName: Crenzy Company
 
 ---

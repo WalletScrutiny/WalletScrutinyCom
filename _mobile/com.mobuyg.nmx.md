@@ -1,6 +1,5 @@
 ---
 title: Nominex Crypto Exchange NMX
-verdict: wip
 date: 2023-01-02
 website: https://absurdapps.netlify.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: com.mobuyg.nmx.png
   meta: removed
+  verdict: wip
 
 ---
 

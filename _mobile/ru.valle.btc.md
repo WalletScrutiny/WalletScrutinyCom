@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Paper Wallet
-verdict: sourceavailable
 date: 2024-02-05
 authors:
 - leo
@@ -20,6 +19,7 @@ android:
   icon: ru.valle.btc.png
   signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
   meta: removed
+  verdict: sourceavailable
   developerName: FireEdge
 
 ---

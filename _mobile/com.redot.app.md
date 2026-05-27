@@ -1,6 +1,5 @@
 ---
 title: 'Redot: ETH&BTC Crypto Exchange'
-verdict: custodial
 date: 2026-03-03
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 4
   icon: com.redot.app.png
   meta: stale
+  verdict: custodial
   developerName: Redot.com
 
 ---

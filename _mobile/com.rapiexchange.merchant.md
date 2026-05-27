@@ -1,6 +1,5 @@
 ---
 title: RapiXchangE Pay Merchant
-verdict: wip
 date: 2024-08-15
 website: https://www.rapixchange.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.rapiexchange.merchant.png
   meta: obsolete
+  verdict: wip
   developerName: Rapixchange
 
 ---

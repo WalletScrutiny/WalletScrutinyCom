@@ -1,6 +1,5 @@
 ---
 title: Crypto Coin
-verdict: wip
 date: 2024-07-05
 website: https://a1in1.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.a1in1.crypto_coin.jpg
   meta: removed
+  verdict: wip
   developerName: Ceogrowser Ntem Kenyor
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Smart Bot
-verdict: wip
 date: 2023-06-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 0.0.1
   icon: com.vipsmartbot.vsb.png
   meta: removed
+  verdict: wip
   developerName: Smart Crypto Studio
 
 ---

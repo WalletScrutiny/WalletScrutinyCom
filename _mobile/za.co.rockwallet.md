@@ -1,6 +1,5 @@
 ---
 title: Rock Wallet - Buy, Send & Rece
-verdict: wip
 date: 2024-04-03
 website: https://web.archive.org/web/20240714160607/https://rockwallet.co.za/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: za.co.rockwallet.png
   meta: removed
+  verdict: wip
   developerName: Rock Wallet
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Payterminal
-verdict: wip
 date: 2024-07-05
 website: https://payterminal.ng#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.payterminal.payterminal.jpg
   meta: removed
+  verdict: wip
   developerName: Strongbox Tech
 
 ---

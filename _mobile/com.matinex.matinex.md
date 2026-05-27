@@ -1,6 +1,5 @@
 ---
 title: Matinex
-verdict: wip
 date: 2024-04-03
 website: https://web.archive.org/web/20221120043914/https://matinex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.matinex.matinex.png
   meta: removed
+  verdict: wip
   developerName: Sonny Asgari
 
 ---

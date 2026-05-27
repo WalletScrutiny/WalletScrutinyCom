@@ -1,6 +1,5 @@
 ---
 title: Aladiex
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.7.9
   icon: com.aladiex.global.png
   meta: removed
+  verdict: custodial
   developerName: AladiEx Global Holdings Limited
 
 ---

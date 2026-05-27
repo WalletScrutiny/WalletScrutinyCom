@@ -1,7 +1,6 @@
 ---
 wsId: breez
 title: 'Breez: Lightning Client & POS'
-verdict: sourceavailable
 date: 2026-01-14
 authors:
 - leo
@@ -37,6 +36,7 @@ android:
   version: VARY
   icon: com.breez.client.png
   meta: stale
+  verdict: sourceavailable
   developerName: Breez Development LTD
 iphone:
   appId: technology.breez.client
@@ -48,6 +48,7 @@ iphone:
   reviews: 42
   icon: technology.breez.client.jpg
   meta: stale
+  verdict: sourceavailable
   developerName: BREEZ DEVELOPMENT LTD
 
 ---

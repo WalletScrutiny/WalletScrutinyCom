@@ -1,6 +1,5 @@
 ---
 title: 8U EXCHANGE
-verdict: wip
 date: 2023-06-07
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   icon: com.u8ex.app22.png
   meta: removed
+  verdict: wip
   developerName: Georgette Roy
 
 ---

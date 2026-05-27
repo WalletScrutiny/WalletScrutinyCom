@@ -1,6 +1,5 @@
 ---
 title: Golden Hour
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.zstrx.owigv/
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: com.zstrx.owigv.png
   meta: removed
+  verdict: wip
 
 ---
 

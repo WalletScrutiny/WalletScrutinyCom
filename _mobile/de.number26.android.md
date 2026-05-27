@@ -1,7 +1,6 @@
 ---
 wsId: n26App
 title: N26 — Love your bank
-verdict: custodial
 date: 2025-10-17
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 2171
   icon: de.number26.android.png
   meta: ok
+  verdict: custodial
   developerName: N26 AG
 iphone:
   appId: de.no26.Number26
@@ -35,6 +35,7 @@ iphone:
   reviews: 11416
   icon: de.no26.Number26.jpg
   meta: ok
+  verdict: custodial
   developerName: N26 AG
 
 ---

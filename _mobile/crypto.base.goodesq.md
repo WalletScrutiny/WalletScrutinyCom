@@ -1,6 +1,5 @@
 ---
 title: GOODESQ
-verdict: wip
 date: 2024-02-05
 website: https://goodesq.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: crypto.base.goodesq.png
   meta: removed
+  verdict: wip
   developerName: GOODESQ
 
 ---

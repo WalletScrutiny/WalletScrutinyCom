@@ -1,6 +1,5 @@
 ---
 title: Fnk.com
-verdict: wip
 date: 2023-07-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 8
   icon: com.fnkcom.jpg
   meta: removed
+  verdict: wip
   developerName: FNK
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Center Wallet
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/at.frhlch.cdtm.bluewallet/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: at.frhlch.cdtm.bluewallet.png
   meta: removed
+  verdict: wip
   developerName: M. Froehlich
 
 ---

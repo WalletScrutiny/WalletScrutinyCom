@@ -1,6 +1,5 @@
 ---
 title: Amadis
-verdict: wip
 date: 2026-05-21
 redirect_from:
 - /android/micat.example.bergamo/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: micat.example.bergamo.png
   meta: stale
+  verdict: wip
   developerName: entropia
 
 ---

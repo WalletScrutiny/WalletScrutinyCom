@@ -1,6 +1,5 @@
 ---
 title: MyPaytril - Crypto Exchanger
-verdict: wip
 date: 2023-12-19
 website: https://mypaytril.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.mypaytrilversion2.mypaytrilversion2.jpg
   meta: removed
+  verdict: wip
   developerName: PROYA INT.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Exchanger
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.wCryptoExchanger_14131534/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wCryptoExchanger_14131534.jpg
   meta: removed
+  verdict: wip
   developerName: DEVILS
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Safecoin Wallet
-verdict: wip
 date: 2023-01-30
 website: https://safecoin.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.6
   icon: org.safecoin.safecoinwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

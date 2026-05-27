@@ -1,6 +1,5 @@
 ---
 title: Digivault Authenticator
-verdict: wip
 date: 2024-08-07
 website: https://www.digivault.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.digivault.authenticator.png
   meta: removed
+  verdict: wip
   developerName: Digivault Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: XcelPay
 title: 'XcelPay: Crypto Bitcoin Wallet'
-verdict: custodial
 date: 2026-04-20
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 83
   icon: com.XcelTrip.XcelPay.png
   meta: stale
+  verdict: custodial
   developerName: XcelTrip LLC
 iphone:
   appId: com.xcelpay.wallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 64
   icon: com.xcelpay.wallet.jpg
   meta: stale
+  verdict: custodial
   developerName: XcelPay Limited
 
 ---

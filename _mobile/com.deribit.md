@@ -1,7 +1,6 @@
 ---
 wsId: deribitOptions
 title: 'Deribit: BTC Options & Futures'
-verdict: custodial
 date: 2023-03-31
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 5
   icon: com.deribit.png
   meta: ok
+  verdict: custodial
   developerName: Deribit
 iphone:
   appId: com.deribit
@@ -37,6 +37,7 @@ iphone:
   reviews: 6
   icon: com.deribit.jpg
   meta: ok
+  verdict: custodial
   developerName: Sentillia B.V.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BitQt
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.wBitQt_15561503/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wBitQt_15561503.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: btcmarkets
 title: BTC Markets
-verdict: custodial
 date: 2023-04-20
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 2
   icon: com.btcmarket.btcm.png
   meta: ok
+  verdict: custodial
   developerName: BTC Markets Pty Ltd
 iphone:
   appId: com.btcmarkets.btcm
@@ -38,6 +38,7 @@ iphone:
   reviews: 248
   icon: com.btcmarkets.btcm.jpg
   meta: ok
+  verdict: custodial
   developerName: BTC Markets
 
 ---

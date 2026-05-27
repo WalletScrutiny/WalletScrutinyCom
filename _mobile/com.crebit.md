@@ -1,6 +1,5 @@
 ---
 title: Crebit
-verdict: wip
 date: 2024-07-05
 website: https://crebit.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.crebit.png
   meta: removed
+  verdict: wip
   developerName: TIDENET LIMITED
 
 ---

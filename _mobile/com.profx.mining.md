@@ -1,6 +1,5 @@
 ---
 title: Profxmining
-verdict: wip
 date: 2024-07-14
 website: https://profxmining.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2'
   icon: com.profx.mining.png
   meta: removed
+  verdict: wip
   developerName: classicdev
 
 ---

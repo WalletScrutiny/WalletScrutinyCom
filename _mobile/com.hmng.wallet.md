@@ -1,6 +1,5 @@
 ---
 title: 'HMNG: Bitcoin & Crypto Wallet'
-verdict: wip
 date: 2024-10-06
 website: https://www.hummingbirdbsc.org/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: com.hmng.wallet.png
   meta: removed
+  verdict: wip
   developerName: HMNG Development
 
 ---

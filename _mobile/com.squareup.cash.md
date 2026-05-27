@@ -1,7 +1,6 @@
 ---
 wsId: CashApp
 title: Cash App
-verdict: custodial
 date: 2020-08-06
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 465824
   icon: com.squareup.cash.png
   meta: ok
+  verdict: custodial
   developerName: Block, Inc.
 iphone:
   appId: com.squareup.cash
@@ -32,6 +32,7 @@ iphone:
   reviews: 8371834
   icon: com.squareup.cash.jpg
   meta: ok
+  verdict: custodial
   developerName: Block, Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: TENT Wallet
-verdict: wip
 date: 2021-11-01
 redirect_from:
 - /android/wallet.snowgem.bitfrost/
@@ -13,6 +12,7 @@ android:
   reviews: 56
   icon: wallet.snowgem.bitfrost.png
   meta: removed
+  verdict: wip
 
 ---
 

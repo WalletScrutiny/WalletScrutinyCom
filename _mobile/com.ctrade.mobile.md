@@ -1,7 +1,6 @@
 ---
 wsId: CTrade
 title: C-Trade
-verdict: custodial
 date: 2023-01-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.2.2
   icon: com.ctrade.mobile.png
   meta: removed
+  verdict: custodial
   developerName: C-Trade Global Limited
 iphone:
   appId: com.ctrade.mobile
@@ -31,6 +31,7 @@ iphone:
   reviews: 17
   icon: com.ctrade.mobile.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

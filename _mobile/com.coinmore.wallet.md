@@ -1,6 +1,5 @@
 ---
 title: Coinmore Wallet
-verdict: wip
 date: 2024-02-05
 website: https://www.coinmore.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.3
   icon: com.coinmore.wallet.png
   meta: removed
+  verdict: wip
   developerName: Coinmore Developer
 
 ---

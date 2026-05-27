@@ -1,6 +1,5 @@
 ---
 title: Beauty Crypto Wallet - Make QR Code Crypto Wallet
-verdict: wip
 date: 2023-01-02
 website: http://www.lynengine.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.lynengine.beautycryptowallet.png
   meta: removed
+  verdict: wip
 
 ---
 

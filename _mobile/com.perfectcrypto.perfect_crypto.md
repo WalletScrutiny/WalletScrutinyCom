@@ -1,6 +1,5 @@
 ---
 title: صرافی آنلاین پرفکت کریپتو
-verdict: custodial
 date: 2023-08-16
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 29
   icon: com.perfectcrypto.perfect_crypto.png
   meta: removed
+  verdict: custodial
   developerName: Perfect Crypto
 
 ---

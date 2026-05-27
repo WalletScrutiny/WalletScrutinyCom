@@ -1,6 +1,5 @@
 ---
 title: Relampago
-verdict: wip
 date: 2023-12-19
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: VARY
   icon: xyz.bigsun.relampago.png
   meta: removed
+  verdict: wip
   developerName: fiatjaf
 
 ---

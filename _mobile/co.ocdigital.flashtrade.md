@@ -1,6 +1,5 @@
 ---
 title: FlashTrade - Bitcoin, BCH, ETH, LTC on GDAX
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/co.ocdigital.flashtrade/
@@ -12,6 +11,7 @@ android:
   version: 1.2.2
   icon: co.ocdigital.flashtrade.png
   meta: removed
+  verdict: wip
 
 ---
 

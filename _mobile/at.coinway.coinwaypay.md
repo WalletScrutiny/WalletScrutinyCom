@@ -1,6 +1,5 @@
 ---
 title: CoinwayPAY
-verdict: wip
 date: 2024-04-19
 website: https://coinwaypay.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.4.0
   icon: at.coinway.coinwaypay.png
   meta: removed
+  verdict: wip
   developerName: Dos Coinway GmbH
 
 ---

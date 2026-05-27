@@ -1,6 +1,5 @@
 ---
 title: Oxis
-verdict: wip
 date: 2024-04-03
 website: https://www.oxis.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.1.0
   icon: com.oxisapp2.png
   meta: removed
+  verdict: wip
   developerName: Digital Assets Corporation
 
 ---

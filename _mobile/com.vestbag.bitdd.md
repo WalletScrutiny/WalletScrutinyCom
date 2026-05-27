@@ -1,6 +1,5 @@
 ---
 title: 'BITDD: Bitcoin Crypto Exchange'
-verdict: wip
 date: 2026-05-21
 website: https://la-colinares.github.io/portfolio/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.vestbag.bitdd.png
   meta: stale
+  verdict: wip
   developerName: LA Colinares
 
 ---

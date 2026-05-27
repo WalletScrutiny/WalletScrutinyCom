@@ -1,6 +1,5 @@
 ---
 title: Tokenize Crypto Trading App - Malaysia (Beta)
-verdict: custodial
 date: 2021-10-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 87
   icon: com.tokenize.malaysia.tradingapp.png
   meta: removed
+  verdict: custodial
 
 ---
 

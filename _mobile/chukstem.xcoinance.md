@@ -1,6 +1,5 @@
 ---
 title: Xcoinance
-verdict: wip
 date: 2024-12-31
 redirect_from:
 - /android/chukstem.xcoinance/
@@ -12,6 +11,7 @@ android:
   version: 1.1.3
   icon: chukstem.xcoinance.jpg
   meta: removed
+  verdict: wip
   developerName: xcoinance Capital
 
 ---

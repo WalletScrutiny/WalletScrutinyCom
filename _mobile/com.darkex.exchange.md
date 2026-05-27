@@ -1,7 +1,6 @@
 ---
 wsId: darkexExchange
 title: Darkex Crypto & Exchange
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 7.0.0
   icon: com.darkex.exchange.png
   meta: ok
+  verdict: custodial
   developerName: DarkEx
 iphone:
   appId: com.darkex.darkex
@@ -28,6 +28,7 @@ iphone:
   reviews: 13
   icon: com.darkex.darkex.jpg
   meta: ok
+  verdict: custodial
   developerName: Darkex Exchange LLC
 
 ---

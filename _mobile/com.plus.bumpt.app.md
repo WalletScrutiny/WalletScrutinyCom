@@ -1,6 +1,5 @@
 ---
 title: Bupmart
-verdict: wip
 date: 2023-08-25
 redirect_from:
 - /android/com.plus.bumpt.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.plus.bumpt.app.png
   meta: removed
+  verdict: wip
   developerName: BILAL  H BUTT
 
 ---

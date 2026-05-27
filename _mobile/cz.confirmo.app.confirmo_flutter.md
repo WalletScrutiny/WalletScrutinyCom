@@ -1,7 +1,6 @@
 ---
 wsId: confirmoLightning
 title: Bitcoin Lightning POS
-verdict: custodial
 date: 2024-04-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.8
   icon: cz.confirmo.app.confirmo_flutter.png
   meta: removed
+  verdict: custodial
   developerName: CONFIRMO
 iphone:
   appId: confirmo.app.pos
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: confirmo.app.pos.jpg
   meta: removed
+  verdict: custodial
   developerName: Confirmo s.r.o.
 
 ---

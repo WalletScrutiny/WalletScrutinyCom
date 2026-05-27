@@ -1,6 +1,5 @@
 ---
 title: Bitfury
-verdict: wip
 date: 2024-04-19
 website: https://bitfury.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.bit.fury.png
   meta: removed
+  verdict: wip
   developerName: Bitfury
 
 ---

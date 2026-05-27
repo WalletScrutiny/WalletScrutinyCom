@@ -1,6 +1,5 @@
 ---
 title: Hitek
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.hitek.wallet/
@@ -12,6 +11,7 @@ android:
   version: v5.0.0
   icon: com.hitek.wallet.png
   meta: removed
+  verdict: wip
   developerName: Nextgen IT Services
 
 ---

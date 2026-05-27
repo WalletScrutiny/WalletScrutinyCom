@@ -1,6 +1,5 @@
 ---
 title: Haladinar HDN wallet
-verdict: nosource
 date: 2024-04-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.haladinarwallet.png
   meta: removed
+  verdict: nosource
   developerName: Haladinar
 
 ---

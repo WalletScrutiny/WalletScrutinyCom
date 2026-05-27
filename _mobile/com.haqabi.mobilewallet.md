@@ -1,7 +1,6 @@
 ---
 wsId: haqabiCrypto
 title: 'Haqabi: Crypto Wallet'
-verdict: custodial
 date: 2025-11-18
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: '1.21'
   icon: com.haqabi.mobilewallet.png
   meta: ok
+  verdict: custodial
   developerName: Haqqex Ltd
 iphone:
   appId: com.haqabi.mobile-wallet
@@ -28,6 +28,7 @@ iphone:
   reviews: 4
   icon: com.haqabi.mobile-wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Haqqex Ltd
 
 ---

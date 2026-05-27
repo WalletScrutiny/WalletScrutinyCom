@@ -1,7 +1,6 @@
 ---
 wsId: kcex
 title: 'KCEX: The Lowest Crypto Fees'
-verdict: custodial
 date: 2025-11-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 350
   icon: com.kcex.png
   meta: removed
+  verdict: custodial
   developerName: KCEX
 iphone:
   appId: com.kcexfintech.kcex
@@ -33,6 +33,7 @@ iphone:
   reviews: 2686
   icon: com.kcexfintech.kcex.jpg
   meta: ok
+  verdict: custodial
   developerName: KCEX Fintech Limited
 
 ---

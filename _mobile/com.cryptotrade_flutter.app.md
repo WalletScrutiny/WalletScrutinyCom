@@ -1,6 +1,5 @@
 ---
 title: Crypto Trade - Flutter
-verdict: wip
 date: 2023-12-19
 website: https://mobterest.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.cryptotrade_flutter.app.png
   meta: removed
+  verdict: wip
   developerName: Mobterest
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: freedXCrypto
 title: 'Freedx: Buy & Sell Crypto'
-verdict: custodial
 date: 2026-01-16
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.7.0
   icon: com.app.freedx.prod.png
   meta: ok
+  verdict: custodial
   developerName: Freedx
 iphone:
   appId: com.freedx.app.prod
@@ -32,6 +32,7 @@ iphone:
   reviews: 2
   icon: com.freedx.app.prod.jpg
   meta: ok
+  verdict: custodial
   developerName: Freedx
 
 ---

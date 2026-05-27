@@ -1,6 +1,5 @@
 ---
 title: 'Itez E-wallet: trusted trades'
-verdict: wip
 date: 2026-01-14
 website: https://itez.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.1.6
   icon: com.itez.wallet.png
   meta: stale
+  verdict: wip
   developerName: itez
 
 ---

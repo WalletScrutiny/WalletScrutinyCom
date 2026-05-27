@@ -1,6 +1,5 @@
 ---
 title: TokenRobot
-verdict: wip
 date: 2023-04-20
 website: http://www.tokenrobot.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.1
   icon: com.australia.tokenRobot.png
   meta: removed
+  verdict: wip
 
 ---
 

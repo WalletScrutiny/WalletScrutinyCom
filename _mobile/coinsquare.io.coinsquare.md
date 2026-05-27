@@ -1,6 +1,5 @@
 ---
 title: Coinsquare
-verdict: custodial
 date: 2023-01-02
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 15
   icon: coinsquare.io.coinsquare.png
   meta: removed
+  verdict: custodial
 
 ---
 

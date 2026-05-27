@@ -1,7 +1,6 @@
 ---
 wsId: GCBuying
 title: GCBuying - Sell & exchange Gif
-verdict: custodial
 date: 2023-06-10
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 84
   icon: com.gcbuying.app.jpg
   meta: removed
+  verdict: custodial
   developerName: GCBUYING
 iphone:
   appId: com.GCBuying.GCBuying
@@ -30,6 +30,7 @@ iphone:
   reviews: 157
   icon: com.GCBuying.GCBuying.jpg
   meta: ok
+  verdict: custodial
   developerName: GCBuying Technology
 
 ---

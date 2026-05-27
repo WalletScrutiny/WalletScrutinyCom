@@ -1,6 +1,5 @@
 ---
 title: FXVC - Trade Stocks & Crypto
-verdict: wip
 date: 2021-11-01
 redirect_from:
 - /android/com.finovation.fxvc/
@@ -12,6 +11,7 @@ android:
   version: 2.0.3
   icon: com.finovation.fxvc.jpg
   meta: removed
+  verdict: wip
   developerName: FXVC
 
 ---

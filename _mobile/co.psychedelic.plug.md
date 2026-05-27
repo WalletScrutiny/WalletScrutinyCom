@@ -1,7 +1,6 @@
 ---
 wsId: plugCrypto
 title: Plug - Crypto Wallet
-verdict: custodial
 date: 2026-01-15
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 17
   icon: co.psychedelic.plug.png
   meta: ok
+  verdict: custodial
   developerName: Funded Labs
 iphone:
   appId: co.psychedelic.plug
@@ -36,6 +36,7 @@ iphone:
   reviews: 37
   icon: co.psychedelic.plug.jpg
   meta: ok
+  verdict: custodial
   developerName: Crowd IC Ltd
 
 ---

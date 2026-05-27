@@ -1,6 +1,5 @@
 ---
 title: ExpressWallet
-verdict: wip
 date: 2023-09-28
 redirect_from:
 - /android/com.silenca.expresswallet/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.silenca.expresswallet.png
   meta: removed
+  verdict: wip
   developerName: Learn & Solve
 
 ---

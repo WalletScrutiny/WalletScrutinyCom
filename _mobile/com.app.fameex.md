@@ -1,7 +1,6 @@
 ---
 wsId: FAMEEX
 title: 'FameEX: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2023-04-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 15
   icon: com.app.fameex.png
   meta: removed
+  verdict: custodial
   developerName: FAMEEX INTERNATIONAL PTY LTD
 iphone:
   appId: com.front.fameex
@@ -32,6 +32,7 @@ iphone:
   reviews: 112
   icon: com.front.fameex.jpg
   meta: removed
+  verdict: custodial
   developerName: FAMEEX FOUNDATION LTD.
 
 ---

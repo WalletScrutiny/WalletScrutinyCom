@@ -1,6 +1,5 @@
 ---
 title: Mini Vault - Local Password Ma
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/fortesp.minivault/
@@ -12,6 +11,7 @@ android:
   version: 1.3.1
   icon: fortesp.minivault.png
   meta: removed
+  verdict: wip
   developerName: Pedro Fortes
 
 ---

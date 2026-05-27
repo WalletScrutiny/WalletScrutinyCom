@@ -1,7 +1,6 @@
 ---
 wsId: coinfalcon
 title: CoinFalcon – Buy & sell Bitcoi
-verdict: custodial
 date: 2023-01-11
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 9
   icon: com.coinfalcon.mobile.png
   meta: removed
+  verdict: custodial
   developerName: CoinFalcon
 iphone:
   appId: com.coinfalcon.mobile
@@ -32,6 +32,7 @@ iphone:
   reviews: 16
   icon: com.coinfalcon.mobile.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

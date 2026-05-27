@@ -1,7 +1,6 @@
 ---
 wsId: Bidesk
 title: Bidesk App - Crypto Trading
-verdict: wip
 date: 2021-08-08
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 47
   icon: com.bideskcom.app.png
   meta: removed
+  verdict: wip
 iphone:
   appId: com.bideskexchange.app
   idd: '1495664797'
@@ -32,6 +32,7 @@ iphone:
   reviews: 12
   icon: com.bideskexchange.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

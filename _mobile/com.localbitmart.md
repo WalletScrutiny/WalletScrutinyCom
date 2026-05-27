@@ -1,6 +1,5 @@
 ---
 title: Local BitMart
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.localbitmart/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.localbitmart.png
   meta: removed
+  verdict: wip
   developerName: Og Software Solutions
 
 ---

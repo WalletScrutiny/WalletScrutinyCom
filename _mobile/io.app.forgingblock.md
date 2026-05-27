@@ -1,6 +1,5 @@
 ---
 title: ForgingBlock POS
-verdict: wip
 date: 2024-07-05
 website: https://forgingblock.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '8.0'
   icon: io.app.forgingblock.png
   meta: removed
+  verdict: wip
   developerName: ForgingBlock Team
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Lndroid.Messenger Testnet
-verdict: wip
 date: 2023-11-02
 website: https://lndroid.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.3
   icon: org.lndroid.messenger.testnet.png
   meta: removed
+  verdict: wip
   developerName: Artur Briugeman
 
 ---

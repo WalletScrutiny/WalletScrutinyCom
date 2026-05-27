@@ -1,6 +1,5 @@
 ---
 title: Denryu Wallet
-verdict: wip
 date: 2024-05-18
 authors:
 - kiwilamb
@@ -17,6 +16,7 @@ android:
   version: '0.1'
   icon: com.lightning.denryu.png
   meta: removed
+  verdict: wip
   developerName: HashHub
 
 ---

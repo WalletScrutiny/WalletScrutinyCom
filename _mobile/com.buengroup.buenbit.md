@@ -1,7 +1,6 @@
 ---
 wsId: buenbit
 title: 'Buenbit by Nexo: Invierte bien'
-verdict: custodial
 date: 2023-12-14
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 32
   icon: com.buengroup.buenbit.png
   meta: ok
+  verdict: custodial
   developerName: Fiat Flow Solutions
 iphone:
   appId: com.buengroup.buenbit
@@ -29,6 +29,7 @@ iphone:
   reviews: 19
   icon: com.buengroup.buenbit.jpg
   meta: ok
+  verdict: custodial
   developerName: Buenbit
 
 ---

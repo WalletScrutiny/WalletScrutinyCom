@@ -1,6 +1,5 @@
 ---
 title: XLiquidus
-verdict: wip
 date: 2025-04-09
 website: https://www.xliquidus.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.11
   icon: com.usscyber.xliquiduss.app.png
   meta: removed
+  verdict: wip
   developerName: UssCyber Inc.
 
 ---

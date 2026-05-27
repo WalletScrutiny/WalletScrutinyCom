@@ -1,7 +1,6 @@
 ---
 wsId: bancrypV2
 title: Bancryp
-verdict: custodial
 date: 2025-02-26
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.6.0
   icon: com.bancryp.mobuser.v2.png
   meta: removed
+  verdict: custodial
   developerName: Bancryp International
 iphone:
   appId: com.bancryp.bancrypApp
@@ -28,6 +28,7 @@ iphone:
   reviews: 2
   icon: com.bancryp.bancrypApp.jpg
   meta: removed
+  verdict: custodial
   developerName: Bancryp
 
 ---

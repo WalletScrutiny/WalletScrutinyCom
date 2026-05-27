@@ -1,6 +1,5 @@
 ---
 title: 업비트 - 국가대표 디지털 자산 거래소
-verdict: custodial
 date: 2021-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 21
   icon: com.dunamu.exchange.png
   meta: ok
+  verdict: custodial
   developerName: Dunamu
 
 ---

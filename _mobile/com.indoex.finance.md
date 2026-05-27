@@ -1,7 +1,6 @@
 ---
 wsId: indoEx
 title: IndoEx
-verdict: custodial
 date: 2025-05-30
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 4
   icon: com.indoex.finance.png
   meta: stale
+  verdict: custodial
   developerName: IndoEx
 iphone:
   appId: com.indoex.dev
@@ -35,6 +35,7 @@ iphone:
   reviews: 4
   icon: com.indoex.dev.jpg
   meta: removed
+  verdict: custodial
   developerName: IndoEx Solutions Ltd
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: FFFEX Exchange
-verdict: wip
 date: 2023-05-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.0.3
   icon: com.app.fffex.png
   meta: removed
+  verdict: wip
   developerName: FFFEX
 
 ---

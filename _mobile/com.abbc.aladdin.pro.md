@@ -1,7 +1,6 @@
 ---
 wsId: AladdinPro
 title: Aladdin Pro
-verdict: custodial
 date: 2024-09-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 162
   icon: com.abbc.aladdin.pro.png
   meta: removed
+  verdict: custodial
   developerName: ABBC PAYMENT SERVICES PROVIDER
 iphone:
   appId: com.aladdin.pro
@@ -33,6 +33,7 @@ iphone:
   reviews: 21
   icon: com.aladdin.pro.jpg
   meta: removed
+  verdict: custodial
   developerName: MC ABBC IT SOLUTION
 
 ---

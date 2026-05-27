@@ -1,6 +1,5 @@
 ---
 title: ODDS - Blockchain Wallet
-verdict: wip
 date: 2025-01-15
 redirect_from:
 - /android/com.project.odds/
@@ -12,6 +11,7 @@ android:
   version: 1.0.6
   icon: com.project.odds.png
   meta: removed
+  verdict: wip
   developerName: ODDS Technology Limited
 
 ---

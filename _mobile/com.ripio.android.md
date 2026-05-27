@@ -1,6 +1,5 @@
 ---
 title: Ripio App | Crypto Wallet
-verdict: custodial
 date: 2020-03-28
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 178
   icon: com.ripio.android.png
   meta: ok
+  verdict: custodial
   developerName: Ripio Holding
 
 ---

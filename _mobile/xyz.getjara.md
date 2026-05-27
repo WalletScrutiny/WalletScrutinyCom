@@ -1,6 +1,5 @@
 ---
 title: Jara Wallet
-verdict: wip
 date: 2026-01-14
 website: https://getjara.xyz
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 16
   icon: xyz.getjara.jpg
   meta: stale
+  verdict: wip
   developerName: Jara Team
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: e-Mal Digital Wallet
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: '3.2'
   icon: ae.efatoora.emal.png
   meta: removed
+  verdict: wip
   developerName: eFatoora
 
 ---

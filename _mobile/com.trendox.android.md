@@ -1,6 +1,5 @@
 ---
 title: 'Trendox: Crypto Trading App'
-verdict: custodial
 date: 2025-03-29
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 72
   icon: com.trendox.android.png
   meta: removed
+  verdict: custodial
   developerName: Trendo Forex
 
 ---

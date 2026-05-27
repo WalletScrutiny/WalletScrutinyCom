@@ -1,6 +1,5 @@
 ---
 title: Kryptrx Exchange
-verdict: wip
 date: 2024-11-29
 redirect_from:
 - /android/com.kryptrx.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.kryptrx.app.png
   meta: removed
+  verdict: wip
   developerName: ETHERLIN
 
 ---

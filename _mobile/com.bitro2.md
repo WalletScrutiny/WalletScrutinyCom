@@ -1,6 +1,5 @@
 ---
 title: Bitro
-verdict: wip
 date: 2024-04-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.0.80
   icon: com.bitro2.png
   meta: removed
+  verdict: wip
   developerName: Gameper
 
 ---

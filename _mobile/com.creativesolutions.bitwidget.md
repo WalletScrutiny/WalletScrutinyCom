@@ -1,6 +1,5 @@
 ---
 title: BIT TW
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.creativesolutions.bitwidget/
@@ -12,6 +11,7 @@ android:
   version: 1.2.7
   icon: com.creativesolutions.bitwidget.png
   meta: removed
+  verdict: wip
   developerName: LOCUS DEV
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: ABStocks
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.6.106
   icon: com.abstocks.png
   meta: removed
+  verdict: wip
   developerName: ABStocks.com
 
 ---

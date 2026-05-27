@@ -1,6 +1,5 @@
 ---
 title: Secure Wallet
-verdict: wip
 date: 2026-01-14
 redirect_from:
 - /android/com.cdcoding.securewallet/
@@ -12,6 +11,7 @@ android:
   version: 1.2.1
   icon: com.cdcoding.securewallet.png
   meta: fewusers
+  verdict: wip
   developerName: Christophe Da Costa
 
 ---

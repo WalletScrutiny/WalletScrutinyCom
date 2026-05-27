@@ -1,7 +1,6 @@
 ---
 wsId: zeusln
 title: ZEUS Wallet
-verdict: sourceavailable
 date: 2023-12-30
 authors:
 - leo
@@ -43,6 +42,7 @@ android:
   icon: app.zeusln.zeus.png
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
   meta: ok
+  verdict: sourceavailable
   developerName: Atlas 21 Inc.
 iphone:
   appId: com.zeusln.zeus
@@ -53,6 +53,7 @@ iphone:
   reviews: 75
   icon: com.zeusln.zeus.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Atlas 21 Inc.
 
 ---

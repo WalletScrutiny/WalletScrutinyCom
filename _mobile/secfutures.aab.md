@@ -1,6 +1,5 @@
 ---
 title: 3570 exchange/Secfutures
-verdict: wip
 date: 2023-01-02
 website: https://web.archive.org/web/20240503144208/https://secfutures.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: secfutures.aab.jpg
   meta: removed
+  verdict: wip
 
 ---
 

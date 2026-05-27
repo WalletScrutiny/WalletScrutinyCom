@@ -1,7 +1,6 @@
 ---
 wsId: rakutenLeverage
 title: 証拠金取引（レバレッジ）アプリ　楽天ウォレットPro
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.2.4
   icon: jp.co.rakuten.wallet.leverage.png
   meta: removed
+  verdict: custodial
   developerName: Rakuten Wallet
 iphone:
   appId: jp.co.rakuten.wallet.leverage
@@ -29,6 +29,7 @@ iphone:
   reviews: 61
   icon: jp.co.rakuten.wallet.leverage.jpg
   meta: removed
+  verdict: custodial
   developerName: Rakuten Wallet, Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: صرافی غیرمتمرکز تهران اکسچنج
-verdict: wip
 date: 2024-08-17
 website: http://tehran.exchange
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.55
   icon: com.tehranExchangeGroup.tehran_exchange.png
   meta: removed
+  verdict: wip
   developerName: Tehran Exchange Group
 
 ---

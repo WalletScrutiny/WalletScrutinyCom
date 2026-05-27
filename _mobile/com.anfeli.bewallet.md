@@ -1,6 +1,5 @@
 ---
 title: beWallet
-verdict: wip
 date: 2024-05-07
 website: http://www.anfeli.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.24
   icon: com.anfeli.bewallet.jpg
   meta: removed
+  verdict: wip
   developerName: Anfeli ES
 
 ---

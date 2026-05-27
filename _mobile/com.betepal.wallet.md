@@ -1,6 +1,5 @@
 ---
 title: Betepal Wallet - 币宝 钱包 安全加密 US
-verdict: wip
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 4.3.0
   icon: com.betepal.wallet.png
   meta: removed
+  verdict: wip
   developerName: Betepal
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: miningt
-verdict: wip
 date: 2023-06-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.4
   icon: com.project.wmc.png
   meta: removed
+  verdict: wip
   developerName: WorldMiningClub
 
 ---

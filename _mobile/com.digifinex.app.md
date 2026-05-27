@@ -1,7 +1,6 @@
 ---
 wsId: digifinex
 title: DigiFinex- Crypto Exchange
-verdict: custodial
 date: 2020-11-28
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 112
   icon: com.digifinex.app.png
   meta: ok
+  verdict: custodial
   developerName: DigiFinex
 iphone:
   appId: com.digifinex.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 60
   icon: com.digifinex.app.jpg
   meta: defunct
+  verdict: custodial
   developerName: DIGIFINEX PTE.LTD.
 
 ---

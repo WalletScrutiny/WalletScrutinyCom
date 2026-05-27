@@ -1,6 +1,5 @@
 ---
 title: 유니익스체인지, UNIEXCHANGE
-verdict: wip
 date: 2021-10-30
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 7
   icon: com.uni.uniexchange.png
   meta: removed
+  verdict: wip
 
 ---
 

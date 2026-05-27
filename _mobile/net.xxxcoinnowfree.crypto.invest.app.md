@@ -1,6 +1,5 @@
 ---
 title: Crypto Invest App
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.xxxcoinnowfree.crypto.invest.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.xxxcoinnowfree.crypto.invest.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

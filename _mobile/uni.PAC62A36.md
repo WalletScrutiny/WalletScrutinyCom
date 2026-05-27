@@ -1,6 +1,5 @@
 ---
 title: PACIFIC
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/uni.PAC62A36/
@@ -13,6 +12,7 @@ android:
   reviews: 5
   icon: uni.PAC62A36.png
   meta: removed
+  verdict: wip
   developerName: PacificKwallet
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: PAYWALA
-verdict: wip
 date: 2022-04-07
 website: https://walahala.com/payWala#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.walahala.paywala.png
   meta: removed
+  verdict: wip
 
 ---
 

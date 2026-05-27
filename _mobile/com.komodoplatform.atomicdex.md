@@ -1,6 +1,5 @@
 ---
 title: Komodo Mobile Crypto Wallet
-verdict: sourceavailable
 date: 2025-08-04
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   icon: com.komodoplatform.atomicdex.png
   signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
   meta: removed
+  verdict: sourceavailable
   developerName: Komodo Platform
 
 ---

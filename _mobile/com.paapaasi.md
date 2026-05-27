@@ -1,6 +1,5 @@
 ---
 title: Paapaasi
-verdict: wip
 date: 2024-03-02
 website: https://paapaasi.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.paapaasi.png
   meta: removed
+  verdict: wip
   developerName: Paapaasi Ltd
 
 ---

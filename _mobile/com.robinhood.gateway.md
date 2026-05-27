@@ -1,7 +1,6 @@
 ---
 wsId: robinhoodWalletSwapCrypto
 title: 'Robinhood Wallet: Swap Crypto'
-verdict: nosource
 date: 2025-12-08
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 196
   icon: com.robinhood.gateway.png
   meta: ok
+  verdict: nosource
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Gateway
@@ -38,6 +38,7 @@ iphone:
   reviews: 4927
   icon: com.robinhood.release.Gateway.jpg
   meta: ok
+  verdict: nosource
   developerName: Robinhood Markets, Inc.
 
 ---

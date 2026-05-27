@@ -1,6 +1,5 @@
 ---
 title: LinqCash
-verdict: wip
 date: 2024-04-19
 website: https://www.linqcash.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.2
   icon: com.Linqcash.png
   meta: removed
+  verdict: wip
   developerName: Linqcash
 
 ---

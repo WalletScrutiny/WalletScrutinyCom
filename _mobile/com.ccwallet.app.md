@@ -1,6 +1,5 @@
 ---
 title: Coinsclone Wallet - Demo
-verdict: wip
 date: 2024-05-07
 website: https://www.coinsclone.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.ccwallet.app.png
   meta: removed
+  verdict: wip
   developerName: Coins Clone
 
 ---

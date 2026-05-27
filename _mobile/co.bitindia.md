@@ -1,6 +1,5 @@
 ---
 title: Bitindia
-verdict: wip
 date: 2021-10-18
 redirect_from:
 - /android/co.bitindia/
@@ -11,6 +10,7 @@ android:
   version: Varies with device
   icon: co.bitindia.png
   meta: removed
+  verdict: wip
 
 ---
 

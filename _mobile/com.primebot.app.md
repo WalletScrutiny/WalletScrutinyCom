@@ -1,6 +1,5 @@
 ---
 title: GainBOT
-verdict: wip
 date: 2023-08-04
 website: https://ugainindia.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.0
   icon: com.primebot.app.png
   meta: removed
+  verdict: wip
   developerName: GainBOT
 
 ---

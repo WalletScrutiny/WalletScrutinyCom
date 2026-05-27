@@ -1,6 +1,5 @@
 ---
 title: ISUPEX- Buy and sell bitcoin
-verdict: wip
 date: 2023-01-02
 website: https://www.isupex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.superx.isupex.png
   meta: removed
+  verdict: wip
 
 ---
 

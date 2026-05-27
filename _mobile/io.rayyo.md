@@ -1,7 +1,6 @@
 ---
 wsId: rayyoWallet
 title: RAYYO Wallet
-verdict: nosource
 date: 2026-01-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.7.55
   icon: io.rayyo.png
   meta: ok
+  verdict: nosource
   developerName: Montebit
 iphone:
   appId: io.rayyo
@@ -34,6 +34,7 @@ iphone:
   reviews: 36
   icon: io.rayyo.jpg
   meta: ok
+  verdict: nosource
   developerName: Montebit
 
 ---

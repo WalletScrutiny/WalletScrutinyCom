@@ -1,6 +1,5 @@
 ---
 title: Coins App - Send, Request, Spe
-verdict: wip
 date: 2024-04-19
 website: https://coins.app/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 41
   icon: com.coinsapp.mobile.jpg
   meta: removed
+  verdict: wip
   developerName: Dan Holdings Limited
 
 ---

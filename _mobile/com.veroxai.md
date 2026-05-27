@@ -1,6 +1,5 @@
 ---
 title: VeroxAI
-verdict: wip
 date: 2023-01-02
 website: http://www.veroxai.io
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: com.veroxai.jpg
   meta: removed
+  verdict: wip
 
 ---
 

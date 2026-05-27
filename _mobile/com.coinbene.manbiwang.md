@@ -1,7 +1,6 @@
 ---
 wsId: CoinBene
 title: CoinBene
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 461
   icon: com.coinbene.manbiwang.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: br.com.coinbene
   idd: '1439224379'
@@ -33,6 +33,7 @@ iphone:
   reviews: 46
   icon: br.com.coinbene.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

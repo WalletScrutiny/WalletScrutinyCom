@@ -1,6 +1,5 @@
 ---
 title: AlaOption
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.boala/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.boala.png
   meta: removed
+  verdict: wip
   developerName: AladiEx Global Holdings Limited
 
 ---

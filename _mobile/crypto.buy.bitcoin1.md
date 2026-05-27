@@ -1,6 +1,5 @@
 ---
 title: Crypto Buy Bitcoin
-verdict: wip
 date: 2021-09-23
 redirect_from:
 - /android/crypto.buy.bitcoin1/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: crypto.buy.bitcoin1.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Tajir Wallet
-verdict: wip
 date: 2026-01-14
 website: https://tajirwallet.io/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 2
   icon: com.tajir.wallet.app.jpg
   meta: fewusers
+  verdict: wip
   developerName: Tajir Web3 LTD
 
 ---

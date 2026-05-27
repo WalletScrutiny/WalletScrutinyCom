@@ -1,7 +1,6 @@
 ---
 wsId: counos
 title: Counos Bitcoin Wallet
-verdict: custodial
 date: 2024-07-05
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 21
   icon: com.counos.png
   meta: removed
+  verdict: custodial
   developerName: ZeroCash
 iphone:
   appId: com.counos.wallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 22
   icon: com.counos.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: CSC Int GmbH
 
 ---

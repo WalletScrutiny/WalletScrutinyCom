@@ -1,6 +1,5 @@
 ---
 title: OTCXPERT - 專業級數位錢包及交易平台
-verdict: wip
 date: 2023-09-28
 website: https://otcxpert.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.28
   icon: hk.unisoft.otcxpert.png
   meta: removed
+  verdict: wip
   developerName: YBEX Ltd.
 
 ---

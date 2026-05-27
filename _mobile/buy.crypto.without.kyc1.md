@@ -1,6 +1,5 @@
 ---
 title: Buy Crypto Without Kyc
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/buy.crypto.without.kyc1/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: buy.crypto.without.kyc1.jpg
   meta: removed
+  verdict: wip
 
 ---
 

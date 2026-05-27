@@ -1,6 +1,5 @@
 ---
 title: Bitlisp
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.yourcompany.Bitlisp/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.yourcompany.Bitlisp.png
   meta: removed
+  verdict: wip
   developerName: Bitcoin Lisp
 
 ---

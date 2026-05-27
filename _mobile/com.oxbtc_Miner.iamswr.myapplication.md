@@ -1,6 +1,5 @@
 ---
 title: OXBTC-Mine Bitcoin, Ethereum & more
-verdict: custodial
 date: 2022-01-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 28
   icon: com.oxbtc_Miner.iamswr.myapplication.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

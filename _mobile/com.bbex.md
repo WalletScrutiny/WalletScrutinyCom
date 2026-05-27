@@ -1,6 +1,5 @@
 ---
 title: Bluebelt Instant Crypto Bank
-verdict: wip
 date: 2023-01-02
 website: https://www.bluebelt.asia/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.bbex.png
   meta: removed
+  verdict: wip
 
 ---
 

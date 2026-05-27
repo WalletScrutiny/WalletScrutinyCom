@@ -1,6 +1,5 @@
 ---
 title: OKOTC
-verdict: wip
 date: 2023-01-02
 website: https://okotc.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: com.anmav.okotcandroid.jpg
   meta: removed
+  verdict: wip
 
 ---
 

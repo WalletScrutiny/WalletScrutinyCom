@@ -1,6 +1,5 @@
 ---
 title: Globular
-verdict: wip
 date: 2023-01-02
 website: https://inbitcoin.it/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: it.inbitcoin.globular.png
   meta: removed
+  verdict: wip
 
 ---
 

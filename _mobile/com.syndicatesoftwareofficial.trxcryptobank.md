@@ -1,6 +1,5 @@
 ---
 title: Trxcryptobank
-verdict: wip
 date: 2024-02-05
 website: https://trxcryptobank.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1
   icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
   meta: removed
+  verdict: wip
   developerName: TrxcryptoBank
 
 ---

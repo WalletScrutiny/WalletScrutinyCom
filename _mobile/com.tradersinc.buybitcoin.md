@@ -1,6 +1,5 @@
 ---
 title: Buy Bitcoin & Other Cryptocurr
-verdict: wip
 date: 2023-06-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.0
   icon: com.tradersinc.buybitcoin.png
   meta: removed
+  verdict: wip
   developerName: Tradersinc
 
 ---

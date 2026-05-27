@@ -1,7 +1,6 @@
 ---
 wsId: sparkWallet
 title: 'Spark Wallet: Earn Rewards'
-verdict: custodial
 date: 2025-08-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 5
   icon: io.sparkwallet.png
   meta: removed
+  verdict: custodial
   developerName: LumaSoft, LLC
 iphone:
   appId: io.sparkwallet
@@ -30,6 +30,7 @@ iphone:
   reviews: 10
   icon: io.sparkwallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Lumasoft, LLC
 
 ---

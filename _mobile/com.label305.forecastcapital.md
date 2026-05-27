@@ -1,6 +1,5 @@
 ---
 title: FRCST | Automated Trading
-verdict: wip
 date: 2024-07-05
 website: https://www.frcst.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.2
   icon: com.label305.forecastcapital.png
   meta: removed
+  verdict: wip
   developerName: Forecast Capital BV
 
 ---

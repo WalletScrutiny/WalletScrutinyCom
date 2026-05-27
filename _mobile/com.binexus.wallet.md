@@ -1,6 +1,5 @@
 ---
 title: Binexus  Wallet
-verdict: wip
 date: 2024-05-07
 website: http://www.binexus.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v5.0.0
   icon: com.binexus.wallet.png
   meta: removed
+  verdict: wip
   developerName: Binexus
 
 ---

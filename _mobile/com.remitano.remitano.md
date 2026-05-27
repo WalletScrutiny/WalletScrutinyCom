@@ -1,7 +1,6 @@
 ---
 wsId: Remitano
 title: 'Remitano: BTC & Crypto Wallet'
-verdict: custodial
 date: 2020-05-29
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 514
   icon: com.remitano.remitano.jpg
   meta: ok
+  verdict: custodial
   developerName: Remitano
 iphone:
   appId: com.remitano.remitano
@@ -37,6 +37,7 @@ iphone:
   reviews: 378
   icon: com.remitano.remitano.jpg
   meta: ok
+  verdict: custodial
   developerName: REMITANO PTY. LTD.
 
 ---

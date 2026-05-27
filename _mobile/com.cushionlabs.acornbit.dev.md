@@ -1,6 +1,5 @@
 ---
 title: Acorn BIT
-verdict: nosendreceive
 date: 2025-03-17
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.2.10
   icon: com.cushionlabs.acornbit.dev.png
   meta: removed
+  verdict: nosendreceive
   developerName: Cushion Labs
 
 ---

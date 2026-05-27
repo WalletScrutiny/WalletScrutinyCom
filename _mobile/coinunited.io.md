@@ -1,7 +1,6 @@
 ---
 wsId: CoinUnited
 title: 'CoinUnited: Trade BTC & Stocks'
-verdict: custodial
 date: 2025-03-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 237
   icon: coinunited.io.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinU
 iphone:
   appId: coinunited.io
@@ -31,6 +31,7 @@ iphone:
   reviews: 282
   icon: coinunited.io.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinUnited Limited
 
 ---

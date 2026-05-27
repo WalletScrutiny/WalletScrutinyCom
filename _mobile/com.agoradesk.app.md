@@ -1,7 +1,6 @@
 ---
 wsId: agoraDeskAnonymous
 title: 'AgoraDesk: buy BTC anonymously'
-verdict: custodial
 date: 2025-03-14
 authors:
 - danny
@@ -22,9 +21,8 @@ android:
   reviews: 12
   icon: com.agoradesk.app.png
   meta: removed
+  verdict: custodial
   developerName: LocalMonero / AgoraDesk
-  repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
-  bugbounty: https://agoradesk.com/security-bounty-whitehat
 iphone:
   appId: com.agoradesk.app
   idd: '1617601678'
@@ -35,6 +33,7 @@ iphone:
   reviews: 20
   icon: com.agoradesk.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Blue Sunday Limited
 
 ---

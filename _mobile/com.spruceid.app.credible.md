@@ -1,6 +1,5 @@
 ---
 title: Credible
-verdict: wip
 date: 2024-04-03
 website: https://spruceid.dev/docs/credible
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.spruceid.app.credible.png
   meta: removed
+  verdict: wip
   developerName: Spruce Systems, Inc.
 
 ---

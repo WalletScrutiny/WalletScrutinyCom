@@ -1,6 +1,5 @@
 ---
 title: BitFrog
-verdict: wip
 date: 2023-08-04
 website: https://www.bitfrog.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.4.1
   icon: com.hyd.bitfrog.png
   meta: removed
+  verdict: wip
   developerName: Bitfrog
 
 ---

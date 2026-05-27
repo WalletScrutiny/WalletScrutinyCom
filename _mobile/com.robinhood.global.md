@@ -1,7 +1,6 @@
 ---
 wsId: robinhoodCryptoAndStocks
 title: 'Robinhood: Stock Token, Crypto'
-verdict: custodial
 date: 2025-12-08
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2026.20.0
   icon: com.robinhood.global.png
   meta: ok
+  verdict: custodial
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.RobinhoodGlobal
@@ -33,6 +33,7 @@ iphone:
   reviews: 292
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
+  verdict: custodial
   developerName: Robinhood Markets, Inc.
 
 ---

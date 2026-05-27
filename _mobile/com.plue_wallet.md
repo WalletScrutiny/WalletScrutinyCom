@@ -1,6 +1,5 @@
 ---
 title: Plue Wallet
-verdict: wip
 date: 2024-04-19
 website: http://www.plue.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.4.2
   icon: com.plue_wallet.png
   meta: removed
+  verdict: wip
   developerName: Plue Wallet
 
 ---

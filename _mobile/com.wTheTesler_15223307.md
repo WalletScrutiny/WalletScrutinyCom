@@ -1,6 +1,5 @@
 ---
 title: The Tesler
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.wTheTesler_15223307/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wTheTesler_15223307.jpg
   meta: removed
+  verdict: wip
 
 ---
 

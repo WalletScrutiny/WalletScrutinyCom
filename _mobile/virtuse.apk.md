@@ -1,6 +1,5 @@
 ---
 title: Virtuse
-verdict: wip
 date: 2023-04-16
 website: https://virtuse.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.5
   icon: virtuse.apk.png
   meta: removed
+  verdict: wip
   developerName: Virtuse
 
 ---

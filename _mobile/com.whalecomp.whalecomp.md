@@ -1,6 +1,5 @@
 ---
 title: Whalecomp 鑽石鯨
-verdict: wip
 date: 2024-12-31
 redirect_from:
 - /android/com.whalecomp.whalecomp/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0.2
   icon: com.whalecomp.whalecomp.png
   meta: removed
+  verdict: wip
   developerName: MetaEarth
 
 ---

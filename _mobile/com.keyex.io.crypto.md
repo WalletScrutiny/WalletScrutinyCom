@@ -1,6 +1,5 @@
 ---
 title: Keyex.io - Buy BTC, ETH
-verdict: wip
 date: 2023-06-03
 website: https://www.keyex.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.39
   icon: com.keyex.io.crypto.png
   meta: fewusers
+  verdict: wip
   developerName: Keyex Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'ZT: BTC Memes & Meta'
-verdict: custodial
 date: 2025-03-11
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 18
   icon: com.zhengtong.zcoin.png
   meta: removed
+  verdict: custodial
   developerName: Glory Global Technology Limited
 
 ---

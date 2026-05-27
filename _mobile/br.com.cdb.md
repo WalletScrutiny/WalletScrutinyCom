@@ -1,6 +1,5 @@
 ---
 title: Coin Digital Bank
-verdict: wip
 date: 2023-01-02
 website: http://www.coindigitalbank.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.13
   icon: br.com.cdb.png
   meta: removed
+  verdict: wip
 
 ---
 

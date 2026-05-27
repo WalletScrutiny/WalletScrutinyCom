@@ -1,6 +1,5 @@
 ---
 title: balns
-verdict: wip
 date: 2026-04-28
 website: https://blns.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: io.blns.png
   meta: removed
+  verdict: wip
   developerName: BLNS Ltd
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitrah
-verdict: custodial
 date: 2025-01-27
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 3.0.1
   icon: com.bitrah.pos.png
   meta: obsolete
+  verdict: custodial
   developerName: Ernyka Co
 
 ---

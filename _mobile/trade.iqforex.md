@@ -1,6 +1,5 @@
 ---
 title: IQ Forex - Trading Binary Option on FX & Crypto
-verdict: wip
 date: 2021-12-22
 redirect_from:
 - /android/trade.iqforex/
@@ -13,6 +12,7 @@ android:
   reviews: 121
   icon: trade.iqforex.png
   meta: removed
+  verdict: wip
 
 ---
 

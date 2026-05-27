@@ -1,7 +1,6 @@
 ---
 wsId: keyring
 title: DeFi Wallet – KEYRING PRO
-verdict: nosource
 date: 2021-11-17
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: co.bacoor.keyring.png
   meta: ok
+  verdict: nosource
   developerName: bacoor inc.
 iphone:
   appId: co.bacoor.keyring
@@ -29,6 +29,7 @@ iphone:
   reviews: 11
   icon: co.bacoor.keyring.jpg
   meta: ok
+  verdict: nosource
   developerName: bacoor Inc.
 
 ---

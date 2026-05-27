@@ -1,6 +1,5 @@
 ---
 title: 'Crypto Wallets: BTC, USDT, ETH'
-verdict: fake
 date: 2024-04-26
 authors:
 - danny
@@ -9,13 +8,13 @@ redirect_from:
 - /android/starlab.studios.cryptowallet/
 android:
   appId: starlab.studios.cryptowallet
-  altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
   users: 5000
   released: 2021-06-01
   updated: 2024-01-30
   version: '10.0'
   icon: starlab.studios.cryptowallet.png
   meta: removed
+  verdict: fake
   developerName: Seven Labs AI Apps
 
 ---

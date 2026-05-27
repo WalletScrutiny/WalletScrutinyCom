@@ -1,6 +1,5 @@
 ---
 title: BTC Cloud Miner - Easy Wallet Transfer
-verdict: wip
 date: 2021-11-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 202
   icon: com.btccloudminer.easy.png
   meta: removed
+  verdict: wip
 
 ---
 

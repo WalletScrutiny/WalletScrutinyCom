@@ -1,6 +1,5 @@
 ---
 title: خرید و فروش ارزدیجیتال اکسنوین
-verdict: custodial
 date: 2025-01-27
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 85
   icon: com.exnovin.png
   meta: ok
+  verdict: custodial
   developerName: EX NOVIN
 
 ---

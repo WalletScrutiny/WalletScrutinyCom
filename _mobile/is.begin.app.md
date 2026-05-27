@@ -1,7 +1,6 @@
 ---
 wsId: beginApp
 title: 'Begin: Bitcoin Cardano Solana'
-verdict: nosource
 date: 2025-04-22
 authors:
 - danny
@@ -25,8 +24,8 @@ android:
   reviews: 3
   icon: is.begin.app.png
   meta: ok
+  verdict: nosource
   developerName: Begin W
-  repository: https://github.com/BeginWallet/begin-core
 iphone:
   appId: is.begin.app
   idd: '1642488837'
@@ -37,6 +36,7 @@ iphone:
   reviews: 12
   icon: is.begin.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Begin W UG
 
 ---

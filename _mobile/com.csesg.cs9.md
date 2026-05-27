@@ -1,6 +1,5 @@
 ---
 title: CS9
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.9
   icon: com.csesg.cs9.png
   meta: removed
+  verdict: custodial
   developerName: CSE
 
 ---

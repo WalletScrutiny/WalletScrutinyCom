@@ -1,6 +1,5 @@
 ---
 title: HSL Wallet
-verdict: wip
 date: 2026-05-21
 website: http://www.hamilton-systems.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 7.7.2
   icon: com.hslwallet.png
   meta: stale
+  verdict: wip
   developerName: Hamilton Systems
 
 ---

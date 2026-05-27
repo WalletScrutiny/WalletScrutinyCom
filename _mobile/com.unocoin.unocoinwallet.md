@@ -1,7 +1,6 @@
 ---
 wsId: Unocoin
 title: 'Unocoin: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2020-05-29
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   reviews: 55
   icon: com.unocoin.unocoinwallet.png
   meta: ok
+  verdict: custodial
   developerName: Unocoin Technologies
 iphone:
   appId: com.unocoin.mainapp.production
@@ -39,6 +39,7 @@ iphone:
   reviews: 1628
   icon: com.unocoin.mainapp.production.jpg
   meta: ok
+  verdict: custodial
   developerName: Unocoin Technologies Private Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 다월렛
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.brickstream.gluwallet/
@@ -12,6 +11,7 @@ android:
   version: 2.0.1
   icon: com.brickstream.gluwallet.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Changeangel - Crypto Exchange
-verdict: wip
 date: 2025-05-30
 website: https://changeangel.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.2
   icon: io.changeangel.exchange.png
   meta: removed
+  verdict: wip
   developerName: Changeangel
 
 ---

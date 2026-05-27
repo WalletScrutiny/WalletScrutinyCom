@@ -1,7 +1,6 @@
 ---
 wsId: ethosCrypto
 title: 'Ethos: Crypto Trading Wallet'
-verdict: nosource
 date: 2025-11-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 21
   icon: com.ethos2.prod.png
   meta: ok
+  verdict: nosource
   developerName: Ethos.io
 iphone:
   appId: com.ethos2.app
@@ -30,6 +30,7 @@ iphone:
   reviews: 2
   icon: com.ethos2.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Ethos Corporation
 
 ---

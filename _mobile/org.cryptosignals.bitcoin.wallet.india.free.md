@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet India Free
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptosignals.bitcoin.wallet.india.free/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptosignals.bitcoin.wallet.india.free.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 'Koinwa: Buy, Sell, Loan Crypto'
-verdict: custodial
 date: 2024-07-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 3.2.3
   icon: com.koinwatech.koinwa.png
   meta: removed
+  verdict: custodial
   developerName: koinwa
 
 ---

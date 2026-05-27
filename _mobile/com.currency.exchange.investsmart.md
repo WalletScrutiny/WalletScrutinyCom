@@ -1,7 +1,6 @@
 ---
 wsId: dzengiComInvesting
 title: 'Dzengi.com: Stock Investing'
-verdict: custodial
 date: 2025-07-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 288
   icon: com.currency.exchange.investsmart.png
   meta: ok
+  verdict: custodial
   developerName: Dzengi.com PL
 iphone:
   appId: com.currency.exchange.investsmart
@@ -30,6 +30,7 @@ iphone:
   reviews: 23
   icon: com.currency.exchange.investsmart.jpg
   meta: removed
+  verdict: custodial
   developerName: DZ INVESTMENTS POLAND Sp.z.o.o
 
 ---

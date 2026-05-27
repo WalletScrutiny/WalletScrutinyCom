@@ -1,7 +1,6 @@
 ---
 wsId: bitsa
 title: Bitsa
-verdict: nosendreceive
 date: 2021-11-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 10
   icon: com.bitsacard.BitsaApp.png
   meta: ok
+  verdict: nosendreceive
   developerName: bitsacard
 iphone:
   appId: com.bitsacard.BitsaApp
@@ -34,6 +34,7 @@ iphone:
   reviews: 82
   icon: com.bitsacard.BitsaApp.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: BITSA
 
 ---

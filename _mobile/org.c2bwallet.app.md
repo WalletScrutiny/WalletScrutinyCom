@@ -1,7 +1,6 @@
 ---
 wsId: cash2bitcoinWallet
 title: Cash2Bitcoin Wallet
-verdict: nosource
 date: 2025-11-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.5.0
   icon: org.c2bwallet.app.png
   meta: ok
+  verdict: nosource
   developerName: Cash2Bitcoin
 iphone:
   appId: org.c2bwallet.app
@@ -29,6 +29,7 @@ iphone:
   reviews: 13
   icon: org.c2bwallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Cash2Bitcoin
 
 ---

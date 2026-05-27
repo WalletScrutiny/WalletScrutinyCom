@@ -1,6 +1,5 @@
 ---
 title: BitcoinPoint
-verdict: wip
 date: 2023-12-19
 website: https://www.bitcoinpoint.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 6.4.6
   icon: com.bitcoinpoint.uk.png
   meta: removed
+  verdict: wip
   developerName: BCP Technologies
 
 ---

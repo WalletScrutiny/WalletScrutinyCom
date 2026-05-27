@@ -1,6 +1,5 @@
 ---
 title: Cloud 2.0
-verdict: wip
 date: 2023-03-29
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 176
   icon: com.cloudwallet.android.png
   meta: removed
+  verdict: wip
   developerName: Cloud Technology & Investments
 
 ---

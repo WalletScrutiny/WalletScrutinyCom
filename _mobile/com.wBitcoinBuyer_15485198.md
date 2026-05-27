@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Buyer
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.wBitcoinBuyer_15485198/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wBitcoinBuyer_15485198.jpg
   meta: removed
+  verdict: wip
 
 ---
 

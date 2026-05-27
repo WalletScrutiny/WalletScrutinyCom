@@ -1,7 +1,6 @@
 ---
 wsId: BizzCoin
 title: BizzCoin Wallet
-verdict: nosource
 date: 2022-04-25
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 13
   icon: com.BizzCoin.png
   meta: removed
+  verdict: nosource
   developerName: BizzCoin
 iphone:
   appId: com.bizz.bizzcoinWallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 4
   icon: com.bizz.bizzcoinWallet.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

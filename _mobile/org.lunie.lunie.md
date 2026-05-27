@@ -1,6 +1,5 @@
 ---
 title: Lunie
-verdict: wip
 date: 2024-05-18
 website: https://lunie.io
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: org.lunie.lunie.png
   meta: removed
+  verdict: wip
   developerName: Lunie International Software Systems Inc.
 
 ---

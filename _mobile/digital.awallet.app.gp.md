@@ -1,6 +1,5 @@
 ---
 title: AWallet
-verdict: nosource
 date: 2024-12-31
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 15
   icon: digital.awallet.app.gp.png
   meta: removed
+  verdict: nosource
   developerName: Metaverse Network LLC
 
 ---

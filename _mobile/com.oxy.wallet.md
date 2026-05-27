@@ -1,6 +1,5 @@
 ---
 title: Oxy Wallet
-verdict: wip
 date: 2024-03-02
 website: https://oxystarter.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.21.3
   icon: com.oxy.wallet.png
   meta: removed
+  verdict: wip
   developerName: Oxystarter Team
 
 ---

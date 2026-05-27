@@ -1,7 +1,6 @@
 ---
 wsId: capitual
 title: Capitual - Multiple Currencies
-verdict: custodial
 date: 2025-02-04
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 6
   icon: com.capitual.png
   meta: removed
+  verdict: custodial
   developerName: Capitual
 iphone:
   appId: com.capitual
@@ -35,6 +35,7 @@ iphone:
   reviews: 8
   icon: com.capitual.jpg
   meta: removed
+  verdict: custodial
   developerName: Capitual
 
 ---

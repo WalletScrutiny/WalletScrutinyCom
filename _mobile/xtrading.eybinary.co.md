@@ -1,6 +1,5 @@
 ---
 title: EYbinary
-verdict: wip
 date: 2024-02-05
 website: https://eybinary.xtrading.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: xtrading.eybinary.co.png
   meta: removed
+  verdict: wip
   developerName: MAGNUM TECHNOLOGIES
 
 ---

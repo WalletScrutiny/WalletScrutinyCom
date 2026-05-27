@@ -1,6 +1,5 @@
 ---
 title: Exchief
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/com.xm.exchief/
@@ -12,6 +11,7 @@ android:
   version: 4.1.1_exchief
   icon: com.xm.exchief.png
   meta: removed
+  verdict: wip
 
 ---
 

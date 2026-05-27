@@ -1,6 +1,5 @@
 ---
 title: Crypto Direct
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/net.appdevs.cryptodirect/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: net.appdevs.cryptodirect.png
   meta: removed
+  verdict: wip
   developerName: Modiba Jones
 
 ---

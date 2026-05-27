@@ -1,6 +1,5 @@
 ---
 title: UVTrader
-verdict: wip
 date: 2023-11-02
 website: http://exmo.uvitto.ru#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 2.0.2
   icon: ru.uvitto.uvextrader.jpg
   meta: removed
+  verdict: wip
   developerName: Uvitto Mobile
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: WenPlus
-verdict: wip
 date: 2025-02-28
 redirect_from:
 - /android/com.wenplus/
@@ -12,6 +11,7 @@ android:
   version: 1.2.0
   icon: com.wenplus.jpg
   meta: removed
+  verdict: wip
   developerName: TokenWorld
 
 ---

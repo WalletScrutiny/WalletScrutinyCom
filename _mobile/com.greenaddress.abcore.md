@@ -1,6 +1,5 @@
 ---
 title: ABCore
-verdict: sourceavailable
 date: 2024-04-19
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   alternativeStores:
   - fdroid
   meta: removed
+  verdict: sourceavailable
   developerName: GreenAddress IT Ltd
 
 ---

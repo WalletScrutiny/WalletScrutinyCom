@@ -1,7 +1,6 @@
 ---
 wsId: BitKan
 title: 'BitKan: Trade Bitcoin & Crypto'
-verdict: custodial
 date: 2021-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 29
   icon: com.bitcan.app.png
   meta: removed
+  verdict: custodial
   developerName: bitkan.com
 iphone:
   appId: com.btckan.us
@@ -33,6 +33,7 @@ iphone:
   reviews: 51
   icon: com.btckan.us.jpg
   meta: ok
+  verdict: custodial
   developerName: LUMENRISE LIMITED
 
 ---

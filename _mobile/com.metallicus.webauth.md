@@ -1,7 +1,6 @@
 ---
 wsId: webAuthProton
 title: WebAuth
-verdict: nosource
 date: 2023-07-06
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 87
   icon: com.metallicus.webauth.png
   meta: ok
+  verdict: nosource
   developerName: Metallicus Inc.
 iphone:
   appId: com.metallicus.webauth
@@ -35,6 +35,7 @@ iphone:
   reviews: 216
   icon: com.metallicus.webauth.jpg
   meta: ok
+  verdict: nosource
   developerName: Metallicus, Inc.
 
 ---

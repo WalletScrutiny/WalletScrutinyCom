@@ -1,6 +1,5 @@
 ---
 title: Neo Trade
-verdict: nosendreceive
 date: 2023-06-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   icon: com.world.bestinfo.png
   meta: removed
+  verdict: nosendreceive
   developerName: Neo Trade
 
 ---

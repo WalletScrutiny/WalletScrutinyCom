@@ -1,6 +1,5 @@
 ---
 title: Altcoin Bitcoin Trade
-verdict: custodial
 date: 2024-07-05
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 1.0.51
   icon: com.mk.cryptofolio.png
   meta: removed
+  verdict: custodial
   developerName: The CryptoFolio App
 
 ---

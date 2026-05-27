@@ -1,6 +1,5 @@
 ---
 title: 'Keywa: Crypto for Institution'
-verdict: wip
 date: 2024-03-02
 website: https://keywa.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: io.tardi.tardigrade.png
   meta: removed
+  verdict: wip
   developerName: Mobius Excellent Group Ltd.
 
 ---

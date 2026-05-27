@@ -1,6 +1,5 @@
 ---
 title: AmGen Wallet
-verdict: wip
 date: 2023-12-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.15
   icon: safewallet.io.png
   meta: removed
+  verdict: wip
   developerName: AmgenWallet
 
 ---

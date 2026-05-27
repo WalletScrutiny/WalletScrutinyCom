@@ -1,7 +1,6 @@
 ---
 wsId: pointpay
 title: 'PointPay: Crypto Wallet App'
-verdict: custodial
 date: 2021-04-27
 authors:
 - kiwilamb
@@ -27,6 +26,7 @@ android:
   reviews: 135
   icon: com.pointpay.bank.png
   meta: removed
+  verdict: custodial
   developerName: Point Pay OÜ
 iphone:
   appId: com.pointpayio.PointPayBank
@@ -37,6 +37,7 @@ iphone:
   reviews: 696
   icon: com.pointpayio.PointPayBank.jpg
   meta: ok
+  verdict: custodial
   developerName: Point Pay LTD
 
 ---

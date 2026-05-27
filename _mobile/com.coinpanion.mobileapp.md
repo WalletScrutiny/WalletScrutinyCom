@@ -1,7 +1,6 @@
 ---
 wsId: coinpanion
 title: Coinpanion
-verdict: nosendreceive
 date: 2024-02-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 4.4.7
   icon: com.coinpanion.mobileapp.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Coinpanion
 iphone:
   appId: com.coinpanion.mobileappios
@@ -31,6 +31,7 @@ iphone:
   reviews: 1
   icon: com.coinpanion.mobileappios.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Revix UK Ltd
 
 ---

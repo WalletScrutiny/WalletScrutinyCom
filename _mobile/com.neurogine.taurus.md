@@ -1,6 +1,5 @@
 ---
 title: Neurogine nTrade Mobile
-verdict: wip
 date: 2023-08-04
 website: https://ntrade.com.my#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: com.neurogine.taurus.png
   meta: removed
+  verdict: wip
   developerName: Neurogine
 
 ---

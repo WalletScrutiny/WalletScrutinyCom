@@ -1,6 +1,5 @@
 ---
 title: CoinBuddy Wallet
-verdict: wip
 date: 2023-01-02
 website: http://coinbuddy.online#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.5.0
   icon: online.coinbuddy.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

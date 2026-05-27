@@ -1,6 +1,5 @@
 ---
 title: SWAPPY - BSC DEX
-verdict: wip
 date: 2024-02-05
 website: https://swappy.finance#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.3
   icon: finance.swappy.swappy.png
   meta: removed
+  verdict: wip
   developerName: Swappy Team
 
 ---

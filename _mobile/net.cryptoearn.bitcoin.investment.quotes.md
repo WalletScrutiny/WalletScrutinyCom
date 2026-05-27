@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment Quotes
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptoearn.bitcoin.investment.quotes/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptoearn.bitcoin.investment.quotes.png
   meta: removed
+  verdict: wip
 
 ---
 

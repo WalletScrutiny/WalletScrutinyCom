@@ -1,6 +1,5 @@
 ---
 title: MetachainX
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.metachainx.mobileapp/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.metachainx.mobileapp.png
   meta: removed
+  verdict: wip
   developerName: Meta Scaling
 
 ---

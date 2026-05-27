@@ -1,7 +1,6 @@
 ---
 wsId: WiseWinWallet
 title: Win Wallet
-verdict: nosource
 date: 2022-05-31
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 28
   icon: com.wise.llc.wallet.app.png
   meta: removed
+  verdict: nosource
   developerName: wise.win
 iphone:
   appId: com.wwise.llc.wallet.app
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.wwise.llc.wallet.app.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

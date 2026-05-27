@@ -1,6 +1,5 @@
 ---
 title: USBC Mobile Crypto Wallet
-verdict: wip
 date: 2026-02-02
 website: https://www.usbc.xyz
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.2025071502
   icon: xyz.usbc.app.png
   meta: removed
+  verdict: wip
   developerName: Omnumi
 
 ---

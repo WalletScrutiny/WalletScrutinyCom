@@ -1,6 +1,5 @@
 ---
 title: Cryptseifu
-verdict: wip
 date: 2023-08-04
 website: http://cryptseifu.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.3
   icon: com.app.cryptseifu.png
   meta: removed
+  verdict: wip
   developerName: Cryptseifu
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: ROInvesting
 title: 'ROInvesting: Trading Forex, St'
-verdict: nosendreceive
 date: 2021-12-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.5.69-roinvesting
   icon: com.roinvesting.png
   meta: removed
+  verdict: nosendreceive
   developerName: Royal Forex Limited
 iphone:
   appId: com.roinvesting
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.roinvesting.jpg
   meta: removed
+  verdict: nosendreceive
 
 ---
 

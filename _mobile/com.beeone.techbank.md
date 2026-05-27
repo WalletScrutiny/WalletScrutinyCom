@@ -1,7 +1,6 @@
 ---
 wsId: techbankBeeone
 title: TechBank
-verdict: custodial
 date: 2022-04-07
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   reviews: 43
   icon: com.beeone.techbank.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.Techbank.Beeone
   idd: '1473120022'
@@ -28,6 +28,7 @@ iphone:
   reviews: 25
   icon: com.Techbank.Beeone.jpg
   meta: removed
+  verdict: custodial
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---

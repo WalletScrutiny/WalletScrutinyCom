@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet & Crypto Market
-verdict: fake
 date: 2025-11-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 0.2.7
   icon: com.wallet.blockchain.bitcoin.png
   meta: stale
+  verdict: fake
   developerName: TwiX
 
 ---

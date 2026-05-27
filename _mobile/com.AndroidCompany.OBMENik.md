@@ -1,6 +1,5 @@
 ---
 title: Обменник Биткоин кошелёк
-verdict: wip
 date: 2021-10-26
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 446
   icon: com.AndroidCompany.OBMENik.png
   meta: removed
+  verdict: wip
 
 ---
 

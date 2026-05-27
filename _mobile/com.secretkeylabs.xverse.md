@@ -1,7 +1,6 @@
 ---
 wsId: xverse
 title: 'Xverse Wallet: Buy Bitcoin'
-verdict: nosource
 date: 2022-01-13
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   reviews: 1098
   icon: com.secretkeylabs.xverse.png
   meta: ok
+  verdict: nosource
   developerName: Secret Key Labs
 iphone:
   appId: com.secretkeylabs.xverse
@@ -39,6 +39,7 @@ iphone:
   reviews: 1
   icon: com.secretkeylabs.xverse.jpg
   meta: ok
+  verdict: nosource
   developerName: Secret Key Labs
 
 ---

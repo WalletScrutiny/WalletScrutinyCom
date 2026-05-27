@@ -1,7 +1,6 @@
 ---
 wsId: bitcointradingcapital
 title: Bitcoin trading - Capital·com
-verdict: nosendreceive
 date: 2024-02-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 32
   icon: com.kapital.trade.crypto.png
   meta: ok
+  verdict: nosendreceive
   developerName: Capital.com BG
 iphone:
   appId: com.kapital.trade.crypto
@@ -31,6 +31,7 @@ iphone:
   reviews: 822
   icon: com.kapital.trade.crypto.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: CAPITAL BULGARIA
 
 ---

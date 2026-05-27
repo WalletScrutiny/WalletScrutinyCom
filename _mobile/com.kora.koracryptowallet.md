@@ -1,6 +1,5 @@
 ---
 title: Kora
-verdict: wip
 date: 2024-02-05
 website: https://koracryptowallet.web.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.5
   icon: com.kora.koracryptowallet.png
   meta: removed
+  verdict: wip
   developerName: Kora Anicet
 
 ---

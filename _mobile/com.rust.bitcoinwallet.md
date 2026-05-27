@@ -1,6 +1,5 @@
 ---
 title: 'Rust: Bitcoin Wallet - BTC'
-verdict: obfuscated
 date: 2023-06-21
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: 3.04.30
   icon: com.rust.bitcoinwallet.png
   meta: removed
+  verdict: obfuscated
 
 ---
 

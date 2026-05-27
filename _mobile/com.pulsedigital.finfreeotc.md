@@ -1,6 +1,5 @@
 ---
 title: FinFreeOTC
-verdict: wip
 date: 2024-04-19
 website: https://finfreeotc.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.pulsedigital.finfreeotc.jpg
   meta: removed
+  verdict: wip
   developerName: FinFreeOTC Corp.
 
 ---

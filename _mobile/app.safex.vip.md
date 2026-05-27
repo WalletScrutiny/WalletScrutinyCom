@@ -1,7 +1,6 @@
 ---
 wsId: yubitExchange
 title: 'YUBIT: Crypto Exchange'
-verdict: custodial
 date: 2026-01-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.7.0
   icon: app.safex.vip.png
   meta: removed
+  verdict: custodial
   developerName: SAFETRADING LTD
 iphone:
   appId: co.safex.org
@@ -33,6 +33,7 @@ iphone:
   reviews: 203
   icon: co.safex.org.jpg
   meta: ok
+  verdict: custodial
   developerName: SAFETRADING LTD
 
 ---

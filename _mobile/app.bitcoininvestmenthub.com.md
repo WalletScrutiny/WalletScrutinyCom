@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment & Crypto Hu
-verdict: wip
 date: 2023-04-19
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 4
   icon: app.bitcoininvestmenthub.com.png
   meta: removed
+  verdict: wip
   developerName: Dhirrr
 
 ---

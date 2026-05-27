@@ -1,6 +1,5 @@
 ---
 title: tradebtccoin
-verdict: wip
 date: 2024-04-19
 website: https://www.tradebtccoin.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.tradebtccoin.png
   meta: removed
+  verdict: wip
   developerName: tradebtccoin
 
 ---

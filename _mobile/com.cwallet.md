@@ -1,7 +1,6 @@
 ---
 wsId: Xapa
 title: 'Xapa Wallet - BTC, ETH, DOGE, '
-verdict: custodial
 date: 2023-08-25
 authors:
 - kiwilamb
@@ -21,6 +20,7 @@ android:
   reviews: 6
   icon: com.cwallet.png
   meta: removed
+  verdict: custodial
   developerName: Cryptocurrency Wallet Development Team
 iphone:
   appId: com.cwallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 11
   icon: com.cwallet.jpg
   meta: removed
+  verdict: custodial
   developerName: BHS Solutions
 
 ---

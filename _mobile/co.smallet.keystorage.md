@@ -1,6 +1,5 @@
 ---
 title: Smallet Key Vault
-verdict: wip
 date: 2024-10-03
 website: http://smallet.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.9.1.45
   icon: co.smallet.keystorage.png
   meta: removed
+  verdict: wip
   developerName: Smallet Network Inc
 
 ---

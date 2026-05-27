@@ -1,7 +1,6 @@
 ---
 wsId: kikitrade
 title: KIKI
-verdict: custodial
 date: 2023-03-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 6.0.20
   icon: com.kikitrade.png
   meta: removed
+  verdict: custodial
   developerName: Kikitrade Technologies Limited
 iphone:
   appId: org.evg.kikitrade
@@ -32,6 +32,7 @@ iphone:
   reviews: 10
   icon: org.evg.kikitrade.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

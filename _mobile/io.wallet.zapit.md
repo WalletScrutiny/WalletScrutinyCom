@@ -1,7 +1,6 @@
 ---
 wsId: zapitWeb3Wallet
 title: 'Zapit: Web3 Wallet'
-verdict: custodial
 date: 2026-01-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 11
   icon: io.wallet.zapit.png
   meta: ok
+  verdict: custodial
   developerName: Zapit Web3 Platform
 iphone:
   appId: io.zapit.wallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 8
   icon: io.zapit.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Zapit Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: HyperW
-verdict: wip
 date: 2023-01-02
 website: http://hyperw.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 2.4.1
   icon: com.legend.hyperw.png
   meta: removed
+  verdict: wip
 
 ---
 

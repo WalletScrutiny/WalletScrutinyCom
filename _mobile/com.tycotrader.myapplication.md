@@ -1,6 +1,5 @@
 ---
 title: 'TycoTrader - Trade in Forex & '
-verdict: wip
 date: 2024-04-03
 website: http://tycotrader.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.9.2
   icon: com.tycotrader.myapplication.png
   meta: removed
+  verdict: wip
   developerName: Tyco Security Network
 
 ---

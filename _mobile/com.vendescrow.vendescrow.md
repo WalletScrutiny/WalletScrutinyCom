@@ -1,6 +1,5 @@
 ---
 title: Vendescrow
-verdict: wip
 date: 2024-02-05
 website: https://vendescrow.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.vendescrow.vendescrow.png
   meta: removed
+  verdict: wip
   developerName: mathemartins
 
 ---

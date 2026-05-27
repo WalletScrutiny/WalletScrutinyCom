@@ -1,6 +1,5 @@
 ---
 title: 'StipenX - Official Stipendium '
-verdict: wip
 date: 2024-04-03
 website: http://www.stipend.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.stipenx.wallet.png
   meta: removed
+  verdict: wip
   developerName: Fintek Labs Limited
 
 ---

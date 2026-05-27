@@ -1,6 +1,5 @@
 ---
 title: Crypto Invest Calculator
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.bitcoinup.crypto.invest.calculator/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.bitcoinup.crypto.invest.calculator.jpg
   meta: removed
+  verdict: wip
 
 ---
 

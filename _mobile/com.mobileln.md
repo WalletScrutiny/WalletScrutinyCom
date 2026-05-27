@@ -1,6 +1,5 @@
 ---
 title: Mobile LN
-verdict: wip
 date: 2021-04-30
 authors:
 - kiwilamb
@@ -14,6 +13,7 @@ android:
   version: pre-alpha v0.2b
   icon: com.mobileln.png
   meta: removed
+  verdict: wip
 
 ---
 

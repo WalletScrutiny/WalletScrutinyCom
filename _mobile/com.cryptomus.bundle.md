@@ -1,6 +1,5 @@
 ---
 title: 'Cryptomus: Wallet & Trading'
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 71
   icon: com.cryptomus.bundle.jpg
   meta: ok
+  verdict: custodial
   developerName: Padel West S.A.
 
 ---

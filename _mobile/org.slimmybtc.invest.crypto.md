@@ -1,6 +1,5 @@
 ---
 title: Invest Crypto
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.slimmybtc.invest.crypto/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.slimmybtc.invest.crypto.png
   meta: removed
+  verdict: wip
 
 ---
 

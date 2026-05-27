@@ -1,7 +1,6 @@
 ---
 wsId: ribbitCrypto
 title: 'Ribbit: Crypto Wallet'
-verdict: nosource
 date: 2026-05-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.9.3
   icon: com.ribbitnova.ribbit.png
   meta: ok
+  verdict: nosource
   developerName: Ribbit Nova
 iphone:
   appId: com.ribbitnova.ribbit
@@ -31,6 +31,7 @@ iphone:
   reviews: 1
   icon: com.ribbitnova.ribbit.jpg
   meta: ok
+  verdict: nosource
   developerName: Ribbitnova
 
 ---

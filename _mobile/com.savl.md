@@ -1,7 +1,6 @@
 ---
 wsId: Savl
 title: 'UnityWallet: Crypto & Bitcoin'
-verdict: nosource
 date: 2021-09-11
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 207
   icon: com.savl.png
   meta: ok
+  verdict: nosource
   developerName: Unity Software FZE
 iphone:
   appId: com.savl.savlapp
@@ -36,6 +36,7 @@ iphone:
   reviews: 278
   icon: com.savl.savlapp.jpg
   meta: ok
+  verdict: nosource
   developerName: Unity Software FZE
 
 ---

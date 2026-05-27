@@ -1,6 +1,5 @@
 ---
 title: Exnovin اکسنوین | بازار رمزارز
-verdict: custodial
 date: 2021-09-15
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 31
   icon: io.exnovin.app.png
   meta: ok
+  verdict: custodial
   developerName: EX NOVIN
 
 ---

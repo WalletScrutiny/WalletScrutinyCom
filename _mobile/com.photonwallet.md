@@ -1,6 +1,5 @@
 ---
 title: Photon-Wallet
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.photonwallet/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.photonwallet.png
   meta: removed
+  verdict: wip
   developerName: Transpire IT service PVT LTD
 
 ---

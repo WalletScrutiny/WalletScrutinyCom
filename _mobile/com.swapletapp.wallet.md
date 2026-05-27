@@ -1,6 +1,5 @@
 ---
 title: Swaplet
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.swapletapp.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.1.4
   icon: com.swapletapp.wallet.png
   meta: removed
+  verdict: wip
   developerName: Jevgenijs Pavlenko
 
 ---

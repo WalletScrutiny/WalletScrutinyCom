@@ -1,6 +1,5 @@
 ---
 title: Вitсоin Вilliоnаire
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.BitcoinsBillionaireApps.BitcoinBillionaire/
@@ -12,6 +11,7 @@ android:
   version: '0.1'
   icon: com.BitcoinsBillionaireApps.BitcoinBillionaire.png
   meta: removed
+  verdict: wip
   developerName: Вilliоnаirе Арр
 
 ---

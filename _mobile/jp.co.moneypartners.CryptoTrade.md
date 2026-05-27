@@ -1,6 +1,5 @@
 ---
 title: マネパの暗号資産取引・トレードアプリ
-verdict: nosendreceive
 date: 2025-08-28
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.6.0
   icon: jp.co.moneypartners.CryptoTrade.png
   meta: ok
+  verdict: nosendreceive
   developerName: MONEY PARTNERS CO.,LTD.
 
 ---

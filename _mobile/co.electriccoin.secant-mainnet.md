@@ -1,6 +1,5 @@
 ---
 title: 'Zodl: Zcash Wallet'
-verdict: wip
 date: 2026-01-14
 website: http://zodl.com
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 106
   icon: co.electriccoin.secant-mainnet.jpg
   meta: ok
+  verdict: wip
   developerName: The Zerocoin Electric Coin Company
 
 ---

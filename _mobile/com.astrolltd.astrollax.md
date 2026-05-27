@@ -1,6 +1,5 @@
 ---
 title: Astrollax
-verdict: wip
 date: 2023-06-21
 website: https://astrollax.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.astrolltd.astrollax.png
   meta: removed
+  verdict: wip
   developerName: Astrollax
 
 ---

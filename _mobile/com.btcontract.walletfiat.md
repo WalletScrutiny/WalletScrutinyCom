@@ -1,6 +1,5 @@
 ---
 title: Valet
-verdict: wip
 date: 2025-03-14
 website: https://standardsats.github.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.4.1
   icon: com.btcontract.walletfiat.png
   meta: removed
+  verdict: wip
   developerName: Anton Gushcha
 
 ---

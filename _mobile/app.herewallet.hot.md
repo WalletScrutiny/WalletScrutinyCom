@@ -1,7 +1,6 @@
 ---
 wsId: hotWallet
 title: HOT — Bitcoin & Crypto Wallet
-verdict: nosource
 date: 2025-11-11
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 64
   icon: app.herewallet.hot.png
   meta: ok
+  verdict: nosource
   developerName: HERE Wallet
 iphone:
   appId: app.here.dev.wallet
@@ -38,6 +38,7 @@ iphone:
   reviews: 44
   icon: app.here.dev.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: HERE Wallet, Inc
 
 ---

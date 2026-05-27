@@ -1,6 +1,5 @@
 ---
 title: BCP24
-verdict: wip
 date: 2024-05-07
 website: http://ex.bcp24.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: webApp.exchange.bcp24.png
   meta: removed
+  verdict: wip
   developerName: PHU DIANET
 
 ---

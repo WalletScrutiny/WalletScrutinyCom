@@ -1,6 +1,5 @@
 ---
 title: RemiBit Wallet
-verdict: wip
 date: 2024-04-03
 website: https://www.remibit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.0.0
   icon: com.remibit.wallet.twa.png
   meta: removed
+  verdict: wip
   developerName: RemiBit
 
 ---

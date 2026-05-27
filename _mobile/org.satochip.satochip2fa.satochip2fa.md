@@ -1,6 +1,5 @@
 ---
 title: Satochip 2FA
-verdict: wip
 date: 2025-02-26
 website: http://satochip.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.24'
   icon: org.satochip.satochip2fa.satochip2fa.png
   meta: obsolete
+  verdict: wip
   developerName: Satochip
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: KeepMySeed
-verdict: wip
 date: 2024-04-19
 website: https://keepmyseed.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.01'
   icon: com.KeepMySeed.nfc.png
   meta: removed
+  verdict: wip
   developerName: KosmoRanger
 
 ---

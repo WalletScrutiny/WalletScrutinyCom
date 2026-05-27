@@ -1,6 +1,5 @@
 ---
 title: Qonia
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.crypto.qonia/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.crypto.qonia.png
   meta: removed
+  verdict: wip
   developerName: Raskoz Helen
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: EurekaX
-verdict: wip
 date: 2024-07-05
 website: https://eurekax.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.1
   icon: io.eurekax.app.png
   meta: removed
+  verdict: wip
   developerName: Eureka Network
 
 ---

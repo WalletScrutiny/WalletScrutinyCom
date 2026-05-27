@@ -1,7 +1,6 @@
 ---
 wsId: HitBTCWallet
 title: HitBTC altcoin crypto wallet
-verdict: custodial
 date: 2021-11-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.43.0
   icon: com.hitbtc.wallet.jpg
   meta: ok
+  verdict: custodial
   developerName: HitBTC Exchange
 iphone:
   appId: com.hitbtc.wallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.hitbtc.wallet.jpg
   meta: obsolete
+  verdict: custodial
   developerName: HitBTC
 
 ---

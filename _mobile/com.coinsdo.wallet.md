@@ -1,7 +1,6 @@
 ---
 wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
-verdict: nosource
 date: 2024-03-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 119
   icon: com.coinsdo.wallet.png
   meta: ok
+  verdict: nosource
   developerName: COINSDO
 iphone:
   appId: com.coinsdo.wallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 16
   icon: com.coinsdo.wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: Tecstation Pte Ltd
 
 ---

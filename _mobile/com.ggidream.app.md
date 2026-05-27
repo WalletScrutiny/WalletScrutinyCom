@@ -1,6 +1,5 @@
 ---
 title: GOLDENGLORY
-verdict: wip
 date: 2024-04-19
 website: https://www.ggidream.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.ggidream.app.png
   meta: removed
+  verdict: wip
   developerName: 골덴글로리
 
 ---

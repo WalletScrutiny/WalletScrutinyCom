@@ -1,6 +1,5 @@
 ---
 title: TGCOIN-Trade Crypto,BTC,ETH
-verdict: wip
 date: 2023-08-04
 website: https://tgcoin4.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.2
   icon: com.currency.tgcoin.png
   meta: removed
+  verdict: wip
   developerName: TGCoin Capital Limited
 
 ---

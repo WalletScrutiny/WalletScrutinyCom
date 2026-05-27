@@ -1,7 +1,6 @@
 ---
 wsId: coindirect
 title: Coindirect - Buy & Sell Bitcoi
-verdict: custodial
 date: 2023-01-02
 authors:
 - kiwilamb
@@ -24,6 +23,7 @@ android:
   reviews: 31
   icon: com.node.coindirect.png
   meta: removed
+  verdict: custodial
   developerName: Coin  Limited
 iphone:
   appId: com.node.coindirect
@@ -34,6 +34,7 @@ iphone:
   reviews: 14
   icon: com.node.coindirect.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

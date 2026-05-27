@@ -1,6 +1,5 @@
 ---
 title: Bitbe
-verdict: wip
 date: 2023-09-28
 redirect_from:
 - /android/com.chainup.exchange.BITBE/
@@ -12,6 +11,7 @@ android:
   version: 5.3.0
   icon: com.chainup.exchange.BITBE.png
   meta: removed
+  verdict: wip
   developerName: KKOrange
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Peer2BTC
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '2.6'
   icon: com.mlm.application.png
   meta: removed
+  verdict: wip
   developerName: SR Corporation
 
 ---

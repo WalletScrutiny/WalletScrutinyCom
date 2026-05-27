@@ -1,6 +1,5 @@
 ---
 title: CMBCWALLET
-verdict: wip
 date: 2023-05-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.3
   icon: com.cmbcwallet.uk.png
   meta: removed
+  verdict: wip
   developerName: FFFEX
 
 ---

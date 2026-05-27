@@ -1,6 +1,5 @@
 ---
 title: Tyslin Exchange
-verdict: wip
 date: 2024-05-18
 website: https://tyslin.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 8
   icon: com.reactivespace.tyslinmulticoinwallet.png
   meta: removed
+  verdict: wip
   developerName: Tyslin Blockchain
 
 ---

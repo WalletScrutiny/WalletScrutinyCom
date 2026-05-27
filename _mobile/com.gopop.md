@@ -1,6 +1,5 @@
 ---
 title: Pop
-verdict: wip
 date: 2026-05-05
 website: https://www.gopop.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.2
   icon: com.gopop.png
   meta: removed
+  verdict: wip
   developerName: Darwin ID E.A.S
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Advantage Mobile
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.cryptoadvantagemobile/
@@ -12,6 +11,7 @@ android:
   version: 1.2.1
   icon: com.cryptoadvantagemobile.png
   meta: removed
+  verdict: wip
   developerName: DuplicationSoft
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: cryptocomexchange
 title: Crypto.com Exchange
-verdict: custodial
 date: 2021-10-24
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 16
   icon: com.crypto.exchange.png
   meta: ok
+  verdict: custodial
   developerName: Crypto.com Exchange
 iphone:
   appId: crypto.com.exchange
@@ -35,6 +35,7 @@ iphone:
   reviews: 111
   icon: crypto.com.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: Foris DAX Limited
 
 ---

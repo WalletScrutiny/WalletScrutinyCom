@@ -1,6 +1,5 @@
 ---
 title: Sarmayex (Arzjoo)
-verdict: custodial
 date: 2024-11-04
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   reviews: 78
   icon: com.arzjoo.png
   meta: ok
+  verdict: custodial
   developerName: A to Z Crypto
 
 ---

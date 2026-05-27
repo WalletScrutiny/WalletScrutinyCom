@@ -1,6 +1,5 @@
 ---
 title: Palo Traders
-verdict: wip
 date: 2023-05-10
 redirect_from:
 - /android/com.palotraders.app/
@@ -11,6 +10,7 @@ android:
   version: 1.1.93
   icon: com.palotraders.app.png
   meta: removed
+  verdict: wip
   developerName: PaloTraders
 
 ---

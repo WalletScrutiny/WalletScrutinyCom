@@ -1,6 +1,5 @@
 ---
 title: OWallet
-verdict: wip
 date: 2026-01-14
 website: https://owallet.io/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 46
   icon: io.orai.owallet.jpg
   meta: ok
+  verdict: wip
   developerName: Oraichain
 
 ---

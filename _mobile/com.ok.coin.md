@@ -1,6 +1,5 @@
 ---
 title: Coin2World - BTC OTC Exchanger - ETH USDT EOS LTC
-verdict: wip
 date: 2021-10-22
 redirect_from:
 - /android/com.ok.coin/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: com.ok.coin.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: iCrypex
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
-verdict: custodial
 date: 2022-06-24
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 10
   icon: app.mobile.android.icrypex.png
   meta: ok
+  verdict: custodial
   developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 iphone:
   appId: com.icrypex.mobile
@@ -35,6 +35,7 @@ iphone:
   reviews: 1
   icon: com.icrypex.mobile.jpg
   meta: removed
+  verdict: custodial
   developerName: ICRYPEX BILISIM ANONIM SIRKETI
 
 ---

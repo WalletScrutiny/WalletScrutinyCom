@@ -1,7 +1,6 @@
 ---
 wsId: bitay
 title: Bitay | Bitcoin & 200+ Altcoin
-verdict: custodial
 date: 2023-01-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 11
   icon: com.app.bitay.png
   meta: obsolete
+  verdict: custodial
   developerName: Bitay Technology
 iphone:
   appId: com.app.Bitay
@@ -32,6 +32,7 @@ iphone:
   reviews: 8
   icon: com.app.Bitay.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

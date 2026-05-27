@@ -1,6 +1,5 @@
 ---
 title: 'MCS: Crypto Futures Exchange'
-verdict: wip
 date: 2024-05-07
 website: https://mycoinstory.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: io.mcs.app.png
   meta: removed
+  verdict: wip
   developerName: MKT Partners Ltd.
 
 ---

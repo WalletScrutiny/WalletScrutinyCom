@@ -1,6 +1,5 @@
 ---
 title: Alcoin4naira
-verdict: wip
 date: 2023-05-30
 website: https://albit.live#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.alcoin4naira.png
   meta: removed
+  verdict: wip
   developerName: Webzoft Web solution
 
 ---

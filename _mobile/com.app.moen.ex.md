@@ -1,6 +1,5 @@
 ---
 title: Moen
-verdict: wip
 date: 2024-05-07
 redirect_from:
 - /android/com.app.moen.ex/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: com.app.moen.ex.png
   meta: removed
+  verdict: wip
   developerName: Future Blockchain
 
 ---

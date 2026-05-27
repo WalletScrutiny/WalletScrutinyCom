@@ -1,6 +1,5 @@
 ---
 title: BankInMind — BIM Wallet
-verdict: wip
 date: 2024-04-03
 website: https://bankinmind.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.71
   icon: com.bankinmind.png
   meta: removed
+  verdict: wip
   developerName: BIM GROUP L.L.C-FZ
 
 ---

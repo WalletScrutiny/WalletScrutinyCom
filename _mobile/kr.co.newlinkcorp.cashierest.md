@@ -1,7 +1,6 @@
 ---
 wsId: cashierestCrypto
 title: 캐셔레스트 공식앱(캐셔레스트,코인,디지털 자산,거래소)
-verdict: custodial
 date: 2025-05-14
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.24.6
   icon: kr.co.newlinkcorp.cashierest.png
   meta: removed
+  verdict: custodial
   developerName: Newlink
 iphone:
   appId: kr.co.newlinkcorp.cashierest
@@ -28,6 +28,7 @@ iphone:
   reviews: 35
   icon: kr.co.newlinkcorp.cashierest.jpg
   meta: removed
+  verdict: custodial
   developerName: Newlink
 
 ---

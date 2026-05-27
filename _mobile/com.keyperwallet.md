@@ -1,6 +1,5 @@
 ---
 title: 키퍼월렛 keyperWallet
-verdict: wip
 date: 2024-11-12
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.7'
   icon: com.keyperwallet.png
   meta: removed
+  verdict: wip
   developerName: keyper Inc.
 
 ---

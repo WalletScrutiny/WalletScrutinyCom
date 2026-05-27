@@ -1,6 +1,5 @@
 ---
 title: Crypto Wallets
-verdict: wip
 date: 2023-01-02
 website: https://thecryptoyo.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.01'
   icon: cryptowallets.n101.png
   meta: removed
+  verdict: wip
 
 ---
 

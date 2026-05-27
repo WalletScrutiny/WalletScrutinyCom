@@ -1,6 +1,5 @@
 ---
 title: MyCryptoCoin Wallet
-verdict: wip
 date: 2024-05-07
 website: https://www.imsofnet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.imsofnet.apps.mycryptocoinwallet.png
   meta: removed
+  verdict: wip
   developerName: Intrepid Multi-Cycle Softnet
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: DotWallet
 title: DotWallet - Manage Your Crypto and Dapp Assets
-verdict: nosource
 date: 2023-01-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.15.2
   icon: com.boquanhash.dotwallet.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.boquanhash.dotwallet
   idd: 1509685349
@@ -28,6 +28,7 @@ iphone:
   reviews: 3
   icon: com.boquanhash.dotwallet.jpg
   meta: obsolete
+  verdict: nosource
   developerName: Fuzhou Boquan Network Science & Technology Co., Ltd.
 
 ---

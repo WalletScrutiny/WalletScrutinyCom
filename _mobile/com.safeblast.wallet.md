@@ -1,6 +1,5 @@
 ---
 title: safeBLAST
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.safeblast.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.1.3
   icon: com.safeblast.wallet.png
   meta: removed
+  verdict: wip
   developerName: Febitak
 
 ---

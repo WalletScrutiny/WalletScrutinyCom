@@ -1,6 +1,5 @@
 ---
 title: Duende
-verdict: wip
 date: 2024-07-19
 website: https://duende.me
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.Duende.Duende.png
   meta: removed
+  verdict: wip
   developerName: Duende
 
 ---

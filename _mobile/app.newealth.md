@@ -1,7 +1,6 @@
 ---
 wsId: newealth
 title: newealth
-verdict: wip
 date: 2024-04-03
 website: https://newealth.app#deadLink
 redirect_from:
@@ -15,6 +14,7 @@ android:
   version: 1.2.1
   icon: app.newealth.png
   meta: removed
+  verdict: wip
   developerName: newealth
 iphone:
   appId: app.newealth
@@ -26,6 +26,7 @@ iphone:
   reviews: 0
   icon: app.newealth.jpg
   meta: removed
+  verdict: wip
   developerName: Newealth (Pty) Ltd
 
 ---

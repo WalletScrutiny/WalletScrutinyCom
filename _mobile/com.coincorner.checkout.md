@@ -1,7 +1,6 @@
 ---
 wsId: coinCornerCheckout
 title: CoinCorner - Checkout
-verdict: wip
 date: 2025-09-17
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.7.0
   icon: com.coincorner.checkout.png
   meta: fewusers
+  verdict: wip
   developerName: CoinCorner Ltd
 iphone:
   appId: com.coincorner.checkout
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: com.coincorner.checkout.jpg
   meta: ok
+  verdict: wip
   developerName: CoinCorner Ltd
 
 ---

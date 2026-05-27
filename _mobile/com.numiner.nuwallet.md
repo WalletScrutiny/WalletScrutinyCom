@@ -1,6 +1,5 @@
 ---
 title: NuWallet
-verdict: wip
 date: 2024-08-07
 redirect_from:
 - /android/com.numiner.nuwallet/
@@ -12,6 +11,7 @@ android:
   version: 7.0.0
   icon: com.numiner.nuwallet.png
   meta: removed
+  verdict: wip
   developerName: dadteach
 
 ---

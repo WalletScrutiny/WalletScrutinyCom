@@ -1,6 +1,5 @@
 ---
 title: Metau - multi currency wallet
-verdict: wip
 date: 2025-09-09
 redirect_from:
 - /android/metau.eu/
@@ -12,6 +11,7 @@ android:
   version: 0.0.3
   icon: metau.eu.png
   meta: removed
+  verdict: wip
   developerName: Niko Technologies
 
 ---

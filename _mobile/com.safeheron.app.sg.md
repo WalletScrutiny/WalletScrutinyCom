@@ -1,6 +1,5 @@
 ---
 title: 'Safeheron: Crypto MPC Wallet'
-verdict: custodial
 date: 2025-08-28
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.6.7
   icon: com.safeheron.app.sg.png
   meta: ok
+  verdict: custodial
   developerName: Safeheron
 
 ---

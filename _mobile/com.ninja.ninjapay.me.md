@@ -1,6 +1,5 @@
 ---
 title: 'Ninjapay: BTC Trade & Payments'
-verdict: wip
 date: 2026-02-02
 website: https://ninjapay.me/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.9
   icon: com.ninja.ninjapay.me.png
   meta: fewusers
+  verdict: wip
   developerName: Ninjapay
 
 ---

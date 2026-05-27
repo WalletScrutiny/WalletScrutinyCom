@@ -1,6 +1,5 @@
 ---
 title: اوکی اکسچنج، خرید ارز دیجیتال
-verdict: custodial
 date: 2021-10-01
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   reviews: 364
   icon: co.okex.app.png
   meta: ok
+  verdict: custodial
   developerName: Technical team
 
 ---

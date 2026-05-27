@@ -1,6 +1,5 @@
 ---
 title: CoinPaga - Spend Bitcoin & Sell Giftcard
-verdict: wip
 date: 2021-08-13
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 5
   icon: com.newapp.mycoinpaga.png
   meta: removed
+  verdict: wip
 
 ---
 

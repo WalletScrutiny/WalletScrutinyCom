@@ -1,6 +1,5 @@
 ---
 title: FX5
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '0.3'
   icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
   meta: removed
+  verdict: custodial
   developerName: GO-WOON
 
 ---

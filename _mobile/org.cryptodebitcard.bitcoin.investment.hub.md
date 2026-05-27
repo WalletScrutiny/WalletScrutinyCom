@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment Hub
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptodebitcard.bitcoin.investment.hub/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptodebitcard.bitcoin.investment.hub.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Samourai Bitcoin Wallet
-verdict: fake
 date: 2021-09-10
 authors:
 - emanuel
@@ -9,13 +8,13 @@ redirect_from:
 - /android/samurai.wallet.crypto/
 android:
   appId: samurai.wallet.crypto
-  altTitle: (Fake) Samourai Bitcoin Wallet
   users: 50
   released: 2021-07-31
   updated: 2021-08-01
   version: '9.8'
   icon: samurai.wallet.crypto.png
   meta: removed
+  verdict: fake
 
 ---
 

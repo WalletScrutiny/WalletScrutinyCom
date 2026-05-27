@@ -1,7 +1,6 @@
 ---
 wsId: CoinsField
 title: CoinField
-verdict: custodial
 date: 2023-09-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 118
   icon: com.coinfield.csapp.png
   meta: removed
+  verdict: custodial
   developerName: CoinField
 iphone:
   appId: com.coinfield.csapp
@@ -33,6 +33,7 @@ iphone:
   reviews: 555
   icon: com.coinfield.csapp.jpg
   meta: removed
+  verdict: custodial
   developerName: MANTICORE LABS OÜ
 
 ---

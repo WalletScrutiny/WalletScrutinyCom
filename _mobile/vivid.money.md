@@ -1,6 +1,5 @@
 ---
 title: Vivid Business and Personal
-verdict: nosendreceive
 date: 2021-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 8
   icon: vivid.money.png
   meta: ok
+  verdict: nosendreceive
   developerName: Vivid Money GmbH
 
 ---

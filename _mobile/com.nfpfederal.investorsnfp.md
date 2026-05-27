@@ -1,6 +1,5 @@
 ---
 title: NFP
-verdict: wip
 date: 2024-04-19
 website: https://nfpfederal.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.nfpfederal.investorsnfp.png
   meta: removed
+  verdict: wip
   developerName: NFP Developer Team
 
 ---

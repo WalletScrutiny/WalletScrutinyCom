@@ -1,7 +1,6 @@
 ---
 wsId: excelonGo
 title: 'Excelon : Payments unleashed'
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.0.101
   icon: io.excelon.excelongo.png
   meta: ok
+  verdict: custodial
   developerName: Excelon
 iphone:
   appId: com.excelon.excelon.go
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: com.excelon.excelon.go.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Excelon Financial Services Ltd
 
 ---

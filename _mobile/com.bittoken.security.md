@@ -1,6 +1,5 @@
 ---
 title: BitToken
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.bittoken.security/
@@ -12,6 +11,7 @@ android:
   version: 1.5.26
   icon: com.bittoken.security.png
   meta: removed
+  verdict: wip
   developerName: BitToken Co., Limited
 
 ---

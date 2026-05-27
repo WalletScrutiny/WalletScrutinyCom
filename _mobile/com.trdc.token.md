@@ -1,6 +1,5 @@
 ---
 title: TRDC WALLET-SWAP & COINS DATA
-verdict: wip
 date: 2025-08-04
 website: https://trdctoken.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: com.trdc.token.png
   meta: removed
+  verdict: wip
   developerName: TRDC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'VeraBit : Bitcoin Wallet'
-verdict: wip
 date: 2026-01-14
 website: https://bitx-bitcoinwallet.com/privacy
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 63
   icon: com.bitxwalet.production.jpg
   meta: ok
+  verdict: wip
   developerName: TATSEN PAZARLAMA GIDA SANAYI VE TICARET LIMITED SIRKETI
 
 ---

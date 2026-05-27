@@ -1,6 +1,5 @@
 ---
 title: '아워페이 월렛 : OurPay Wallet'
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.ourpaywallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.ourpaywallet.png
   meta: removed
+  verdict: wip
   developerName: SAW SZE VINCE
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Bitcoin Crypto Wallet: Amir'
-verdict: custodial
 date: 2024-12-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 3.23.3.01
   icon: capital.amir.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Amir Capital
 
 ---

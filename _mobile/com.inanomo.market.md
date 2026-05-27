@@ -1,6 +1,5 @@
 ---
 title: Inanomo
-verdict: custodial
 date: 2023-05-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.1.0
   icon: com.inanomo.market.png
   meta: removed
+  verdict: custodial
   developerName: Inanomo Technologies LLC
 
 ---

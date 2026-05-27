@@ -1,6 +1,5 @@
 ---
 title: Harcomia Crypto Wallet Multi Asset
-verdict: wip
 date: 2022-04-07
 website: https://wallet.harcomia.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: net.walletharcomia.android.png
   meta: removed
+  verdict: wip
 
 ---
 

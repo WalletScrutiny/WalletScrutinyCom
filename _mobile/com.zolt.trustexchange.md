@@ -1,6 +1,5 @@
 ---
 title: Trust Exchange by Zoltpe
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.zolt.trustexchange/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.zolt.trustexchange.png
   meta: removed
+  verdict: wip
   developerName: Zolt
 
 ---

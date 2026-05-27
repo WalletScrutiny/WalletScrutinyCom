@@ -1,7 +1,6 @@
 ---
 wsId: osmoWallet
 title: Osmo Money
-verdict: custodial
 date: 2023-08-24
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   reviews: 44
   icon: com.osmo.smt.jpg
   meta: ok
+  verdict: custodial
   developerName: osmo
 iphone:
   appId: com.osmowallet.app
@@ -40,6 +40,7 @@ iphone:
   reviews: 136
   icon: com.osmowallet.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Hodl Group Inc.
 
 ---

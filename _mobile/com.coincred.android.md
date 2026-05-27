@@ -1,7 +1,6 @@
 ---
 wsId: coinCRED
 title: CoinCRED IN
-verdict: custodial
 date: 2025-05-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 26
   icon: com.coincred.android.png
   meta: stale
+  verdict: custodial
   developerName: CoinCRED
 iphone:
   appId: com.coincred
@@ -33,6 +33,7 @@ iphone:
   reviews: 118
   icon: com.coincred.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinCRED
 
 ---

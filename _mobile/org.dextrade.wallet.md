@@ -1,7 +1,6 @@
 ---
 wsId: dexTradeWallet
 title: DexTrade
-verdict: nosource
 date: 2025-08-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.0.6
   icon: org.dextrade.wallet.png
   meta: ok
+  verdict: nosource
   developerName: Dextrade Technologies LTD
 iphone:
   appId: com.dextrade.swap
@@ -34,6 +34,7 @@ iphone:
   reviews: 1
   icon: com.dextrade.swap.jpg
   meta: ok
+  verdict: nosource
   developerName: DEXTRADE TECHNOLOGIES LTD
 
 ---

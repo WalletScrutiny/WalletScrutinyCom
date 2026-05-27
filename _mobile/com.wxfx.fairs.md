@@ -1,6 +1,5 @@
 ---
 title: BitBank
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.wxfx.fairs/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: com.wxfx.fairs.jpg
   meta: removed
+  verdict: wip
 
 ---
 

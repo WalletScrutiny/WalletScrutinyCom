@@ -1,7 +1,6 @@
 ---
 wsId: btccWallet
 title: 'BTCC Wallet: Crypto & Bitcoin'
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 15
   icon: com.btcc.wallets.png
   meta: ok
+  verdict: custodial
   developerName: BTCC WALLET
 iphone:
   appId: com.btcc.wallets
@@ -30,6 +30,7 @@ iphone:
   reviews: 30
   icon: com.btcc.wallets.jpg
   meta: ok
+  verdict: custodial
   developerName: BTCC UK Limited
 
 ---

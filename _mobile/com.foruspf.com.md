@@ -1,6 +1,5 @@
 ---
 title: Forus Platform
-verdict: wip
 date: 2024-02-05
 website: https://foruspf.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.2'
   icon: com.foruspf.com.png
   meta: removed
+  verdict: wip
   developerName: Forus Platform
 
 ---

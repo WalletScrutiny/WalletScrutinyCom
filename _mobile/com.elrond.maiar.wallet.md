@@ -1,7 +1,6 @@
 ---
 wsId: maiarwallet
 title: 'xPortal: Crypto & DeFi Wallet'
-verdict: nosource
 date: 2023-01-30
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 412
   icon: com.elrond.maiar.wallet.png
   meta: ok
+  verdict: nosource
   developerName: xPortal Labs
 iphone:
   appId: com.elrond.maiar.wallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 1811
   icon: com.elrond.maiar.wallet.jpg
   meta: defunct
+  verdict: nosource
   developerName: MultiversX Labs S.R.L.
 
 ---

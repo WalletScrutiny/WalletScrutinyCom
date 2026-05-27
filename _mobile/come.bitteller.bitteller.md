@@ -1,6 +1,5 @@
 ---
 title: Bit Teller
-verdict: wip
 date: 2024-04-03
 website: https://bit-teller.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: come.bitteller.bitteller.png
   meta: removed
+  verdict: wip
   developerName: Djokhar
 
 ---

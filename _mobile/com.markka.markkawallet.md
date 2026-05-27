@@ -1,6 +1,5 @@
 ---
 title: Markka.com Wallet
-verdict: wip
 date: 2026-05-21
 website: https://markka.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.5.1
   icon: com.markka.markkawallet.png
   meta: stale
+  verdict: wip
   developerName: Tulipfox-Tech
 
 ---

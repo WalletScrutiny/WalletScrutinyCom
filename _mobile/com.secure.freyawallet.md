@@ -1,6 +1,5 @@
 ---
 title: 'Freya Wallet: Crypto Wallet'
-verdict: wip
 date: 2024-02-05
 website: https://freyawallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.17.1
   icon: com.secure.freyawallet.png
   meta: removed
+  verdict: wip
   developerName: FreyaVPN Android Team
 
 ---

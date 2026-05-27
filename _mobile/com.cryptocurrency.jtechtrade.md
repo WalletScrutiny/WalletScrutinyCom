@@ -1,6 +1,5 @@
 ---
 title: 'Jtech Trade: Bitcoin Marketplace & Crypto Wallet'
-verdict: wip
 date: 2021-11-01
 redirect_from:
 - /android/com.cryptocurrency.jtechtrade/
@@ -13,6 +12,7 @@ android:
   reviews: 26
   icon: com.cryptocurrency.jtechtrade.png
   meta: removed
+  verdict: wip
 
 ---
 

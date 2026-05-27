@@ -1,6 +1,5 @@
 ---
 title: Matrix Exchange
-verdict: wip
 date: 2023-08-25
 website: https://matrix2020.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.6.0
   icon: com.matrix2020.app.jpg
   meta: removed
+  verdict: wip
   developerName: Matrix Inc
 
 ---

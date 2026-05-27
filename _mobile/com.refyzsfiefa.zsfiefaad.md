@@ -1,6 +1,5 @@
 ---
 title: Defi Master-BTC Cryptocurrency
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.refyzsfiefa.zsfiefaad/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.refyzsfiefa.zsfiefaad.png
   meta: removed
+  verdict: wip
   developerName: RefyzsFiefa
 
 ---

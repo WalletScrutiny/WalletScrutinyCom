@@ -1,6 +1,5 @@
 ---
 title: MWC Mobile Wallet
-verdict: wip
 date: 2021-11-01
 website: https://www.mwc.mw/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: mw.mwc.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: MWC Developers
 
 ---

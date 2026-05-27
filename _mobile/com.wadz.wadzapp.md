@@ -1,7 +1,6 @@
 ---
 wsId: wadzPay
 title: WadzPay
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 2.1.1
   icon: com.wadz.wadzapp.png
   meta: removed
+  verdict: custodial
   developerName: 2020 WadzPay Worldwide Pte Ltd
 iphone:
   appId: com.wadz.wadzapp
@@ -36,6 +36,7 @@ iphone:
   reviews: 1
   icon: com.wadz.wadzapp.jpg
   meta: removed
+  verdict: custodial
   developerName: WadzPay Worldwide Pte Ltd
 
 ---

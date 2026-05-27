@@ -1,6 +1,5 @@
 ---
 title: Cryptoit - Mock Trade Crypto
-verdict: wip
 date: 2025-04-01
 redirect_from:
 - /android/com.udmitz.cryptoit/
@@ -12,6 +11,7 @@ android:
   version: 1.1.1
   icon: com.udmitz.cryptoit.png
   meta: obsolete
+  verdict: wip
   developerName: UDm developers
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: B4U Global Official
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.3
   icon: com.OnlineBusness.b4uglobal.png
   meta: removed
+  verdict: wip
   developerName: Intelli Logics
 
 ---

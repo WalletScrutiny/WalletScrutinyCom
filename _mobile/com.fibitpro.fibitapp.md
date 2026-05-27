@@ -1,7 +1,6 @@
 ---
 wsId: fibitPro
 title: Fibit Pro
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 61
   icon: com.fibitpro.fibitapp.png
   meta: removed
+  verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.
 iphone:
   appId: com.fibit.ios
@@ -35,6 +35,7 @@ iphone:
   reviews: 10
   icon: com.fibit.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.
 
 ---

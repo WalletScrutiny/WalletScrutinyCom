@@ -1,6 +1,5 @@
 ---
 title: eFXGO! by EuropeFX
-verdict: nosendreceive
 date: 2023-08-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '9.65'
   icon: com.europefx.app.png
   meta: removed
+  verdict: nosendreceive
   developerName: Technologies maxiflex
 
 ---

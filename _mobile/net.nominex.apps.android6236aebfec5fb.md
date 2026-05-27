@@ -1,6 +1,5 @@
 ---
 title: Nominex NMx Coin
-verdict: wip
 date: 2023-01-02
 website: https://nominex.io/?r=90687
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: net.nominex.apps.android6236aebfec5fb.png
   meta: removed
+  verdict: wip
 
 ---
 

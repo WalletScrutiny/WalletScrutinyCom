@@ -1,6 +1,5 @@
 ---
 title: Mushino
-verdict: wip
 date: 2023-08-04
 website: https://web.archive.org/web/20220819191059/https://mushino.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.83
   icon: org.mushino.png
   meta: removed
+  verdict: wip
   developerName: Everstrike
 
 ---

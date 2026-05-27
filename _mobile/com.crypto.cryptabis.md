@@ -1,6 +1,5 @@
 ---
 title: Cryptabis
-verdict: wip
 date: 2023-03-21
 redirect_from:
 - /android/com.crypto.cryptabis/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.crypto.cryptabis.png
   meta: removed
+  verdict: wip
   developerName: Seagater Zond
 
 ---

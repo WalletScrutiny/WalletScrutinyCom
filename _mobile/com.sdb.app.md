@@ -1,6 +1,5 @@
 ---
 title: SDB-Buy Bitcoin,BTC,ETH&Crypto
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 2023.03.27
   icon: com.sdb.app.png
   meta: obsolete
+  verdict: custodial
   developerName: Milepost Power Holdings, LLC
 
 ---

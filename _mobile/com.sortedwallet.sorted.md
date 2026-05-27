@@ -1,6 +1,5 @@
 ---
 title: 'Sorted: Send Money & Pay Bills'
-verdict: nosource
 date: 2026-05-20
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.22
   icon: com.sortedwallet.sorted.png
   meta: ok
+  verdict: nosource
   developerName: Sors Technology Limited
 
 ---

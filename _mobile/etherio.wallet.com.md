@@ -1,19 +1,18 @@
 ---
 title: Etherio
-verdict: fake
 date: 2023-10-16
 website: https://etherio.org
 redirect_from:
 - /android/etherio.wallet.com/
 android:
   appId: etherio.wallet.com
-  altTitle: '(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade'
   users: 10
   released: 2021-04-28
   updated: 2021-04-28
   version: 3.30.1
   icon: etherio.wallet.com.png
   meta: removed
+  verdict: fake
   developerName: PayLink
 
 ---

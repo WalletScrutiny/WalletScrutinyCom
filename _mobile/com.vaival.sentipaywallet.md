@@ -1,6 +1,5 @@
 ---
 title: SENTI PAY
-verdict: wip
 date: 2023-01-02
 website: http://www.sentipaywallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.vaival.sentipaywallet.png
   meta: removed
+  verdict: wip
   developerName: Abdullah Choonara LLC
 
 ---

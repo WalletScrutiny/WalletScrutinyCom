@@ -1,6 +1,5 @@
 ---
 title: RABIT - AI Crypto Investment
-verdict: wip
 date: 2024-03-02
 website: https://quantfolio.io
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.2.4
   icon: quantit.saiv.rabit.png
   meta: removed
+  verdict: wip
   developerName: Quantfolio Pte. Ltd.
 
 ---

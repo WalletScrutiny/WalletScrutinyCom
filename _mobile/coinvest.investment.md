@@ -1,6 +1,5 @@
 ---
 title: COINVEST INVESTMENTS
-verdict: wip
 date: 2023-05-09
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '9.8'
   icon: coinvest.investment.png
   meta: removed
+  verdict: wip
   developerName: MTB SMARTNET
 
 ---

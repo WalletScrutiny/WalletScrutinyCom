@@ -1,6 +1,5 @@
 ---
 title: 스케치월렛 (SKETCH WALLET)
-verdict: nosource
 date: 2024-07-22
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.2.8
   icon: com.sketch.wallet.png
   meta: ok
+  verdict: nosource
   developerName: 앱관리자
 
 ---

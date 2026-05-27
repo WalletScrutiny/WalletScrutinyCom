@@ -1,6 +1,5 @@
 ---
 title: BIP-39 Crypto seed backup
-verdict: wip
 date: 2024-12-23
 website: https://github.com/openMolNike/Crypto-Apps
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.4'
   icon: com.molnike.crypto.backup.png
   meta: removed
+  verdict: wip
   developerName: Mol Nike
 
 ---

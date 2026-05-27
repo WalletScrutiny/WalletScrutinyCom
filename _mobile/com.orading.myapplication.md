@@ -1,6 +1,5 @@
 ---
 title: Orading - Trading crypto fast
-verdict: wip
 date: 2024-07-05
 website: https://orading.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.7
   icon: com.orading.myapplication.png
   meta: removed
+  verdict: wip
   developerName: Orading
 
 ---

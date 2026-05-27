@@ -1,7 +1,6 @@
 ---
 wsId: vestoApp
 title: Vesto
-verdict: nosource
 date: 2024-04-17
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.0'
   icon: io.vesto.app.png
   meta: removed
+  verdict: nosource
   developerName: Vesto Apps
 iphone:
   appId: io.vesto.app
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: io.vesto.app.jpg
   meta: obsolete
+  verdict: nosource
   developerName: Vesto LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Investment
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptosignals.bitcoin.investment/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptosignals.bitcoin.investment.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: AHEX
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/io.ahex.app/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: io.ahex.app.png
   meta: removed
+  verdict: wip
   developerName: Alen Jiang
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BCM Holdings
-verdict: wip
 date: 2024-04-03
 website: https://www.bcmholdings.io#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.bcm.bcm_alpha_app.png
   meta: removed
+  verdict: wip
   developerName: Bestway Capital Management
 
 ---

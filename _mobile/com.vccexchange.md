@@ -1,7 +1,6 @@
 ---
 wsId: vccExchange
 title: VCC Exchange
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 37
   icon: com.vccexchange.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: exchange.vcce
   idd: '1449103217'
@@ -31,6 +31,7 @@ iphone:
   reviews: 4
   icon: exchange.vcce.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

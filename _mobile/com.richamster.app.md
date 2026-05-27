@@ -1,6 +1,5 @@
 ---
 title: 'Richamster: Crypto Exchange'
-verdict: custodial
 date: 2024-07-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.2.2
   icon: com.richamster.app.png
   meta: removed
+  verdict: custodial
   developerName: Richamster
 
 ---

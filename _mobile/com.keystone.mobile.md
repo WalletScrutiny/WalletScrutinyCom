@@ -1,7 +1,6 @@
 ---
 wsId: Keystone
 title: Keystone Hardware Wallet
-verdict: nosource
 date: 2025-03-29
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 12
   icon: com.keystone.mobile.png
   meta: removed
+  verdict: nosource
   developerName: Yanssie HK Limited
 iphone:
   appId: keystone.mobile
@@ -31,6 +31,7 @@ iphone:
   reviews: 35
   icon: keystone.mobile.jpg
   meta: stale
+  verdict: nosource
   developerName: YANSSIE HK LIMITED
 
 ---

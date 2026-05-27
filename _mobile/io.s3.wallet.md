@@ -1,6 +1,5 @@
 ---
 title: S3 Wallet
-verdict: wip
 date: 2021-11-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.1.2
   icon: io.s3.wallet.png
   meta: removed
+  verdict: wip
   developerName: S3 Global Technology Ltd
 
 ---

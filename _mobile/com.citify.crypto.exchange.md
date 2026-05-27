@@ -1,6 +1,5 @@
 ---
 title: Citify Instant Exchange
-verdict: wip
 date: 2023-09-28
 website: https://exchange.citifymarketplace.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.citify.crypto.exchange.png
   meta: removed
+  verdict: wip
   developerName: Citify
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'P2Exchange: Buy RON & MATIC'
-verdict: wip
 date: 2024-09-21
 redirect_from:
 - /android/com.p2exchange.ph/
@@ -12,6 +11,7 @@ android:
   version: 1.0.6
   icon: com.p2exchange.ph.png
   meta: removed
+  verdict: wip
   developerName: KCommerce Online
 
 ---

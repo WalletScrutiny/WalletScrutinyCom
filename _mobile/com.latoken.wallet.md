@@ -1,6 +1,5 @@
 ---
 title: 'LATOKEN: Trade Any Crypto'
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 110
   icon: com.latoken.wallet.png
   meta: ok
+  verdict: custodial
   developerName: LATRADE
 
 ---

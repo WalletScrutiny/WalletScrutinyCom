@@ -1,7 +1,6 @@
 ---
 wsId: bitkeyBlock
 title: Bitkey - Bitcoin Wallet
-verdict: sourceavailable
 date: 2024-03-14
 authors:
 - danny
@@ -34,6 +33,7 @@ android:
   builds:
   - arch: arm64-v8a
   meta: ok
+  verdict: sourceavailable
   developerName: Block, Inc.
 iphone:
   appId: world.bitkey.app
@@ -45,6 +45,7 @@ iphone:
   reviews: 117
   icon: world.bitkey.app.jpg
   meta: ok
+  verdict: sourceavailable
   developerName: Block, Inc.
 
 ---

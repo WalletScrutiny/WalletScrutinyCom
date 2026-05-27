@@ -1,6 +1,5 @@
 ---
 title: 808 Exchange
-verdict: custodial
 date: 2023-01-11
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 11
   icon: com.ex.exchange808.png
   meta: removed
+  verdict: custodial
 
 ---
 

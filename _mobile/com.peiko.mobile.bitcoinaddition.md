@@ -1,6 +1,5 @@
 ---
 title: BitcoinAddition
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.peiko.mobile.bitcoinaddition/
@@ -12,6 +11,7 @@ android:
   version: 1.2.0
   icon: com.peiko.mobile.bitcoinaddition.jpg
   meta: removed
+  verdict: wip
   developerName: QUAN2UM
 
 ---

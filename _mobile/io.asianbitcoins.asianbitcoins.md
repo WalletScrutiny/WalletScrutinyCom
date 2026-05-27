@@ -1,6 +1,5 @@
 ---
 title: AsianBitcoins - Making Bitcoin
-verdict: wip
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 113
   icon: io.asianbitcoins.asianbitcoins.png
   meta: removed
+  verdict: wip
   developerName: MAK International Inc, USA
 
 ---

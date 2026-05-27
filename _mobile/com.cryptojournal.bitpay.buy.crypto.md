@@ -1,6 +1,5 @@
 ---
 title: Bitpay Buy Crypto
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptojournal.bitpay.buy.crypto/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptojournal.bitpay.buy.crypto.png
   meta: removed
+  verdict: wip
 
 ---
 

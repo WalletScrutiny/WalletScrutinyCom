@@ -1,7 +1,6 @@
 ---
 wsId: okxWeb3Wallet
 title: 'OKX Wallet: Portal to Web3'
-verdict: nosource
 date: 2025-11-20
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 45
   icon: com.okx.wallet.png
   meta: ok
+  verdict: nosource
   developerName: OKX Technology Inc.
 iphone:
   appId: com.okx.wallet
@@ -29,6 +29,7 @@ iphone:
   reviews: 91
   icon: com.okx.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: OKX Technology Inc
 
 ---

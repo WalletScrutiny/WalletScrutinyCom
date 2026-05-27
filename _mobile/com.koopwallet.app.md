@@ -1,7 +1,6 @@
 ---
 wsId: koopWallet
 title: KOOP Wallet
-verdict: nosource
 date: 2025-01-27
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 5
   icon: com.koopwallet.app.png
   meta: removed
+  verdict: nosource
   developerName: KOOP LABS LLC
 iphone:
   appId: com.koopwallet.app
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.koopwallet.app.jpg
   meta: removed
+  verdict: nosource
   developerName: KOOP Wallet
 
 ---

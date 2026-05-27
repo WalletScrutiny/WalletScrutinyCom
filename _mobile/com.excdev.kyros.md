@@ -1,6 +1,5 @@
 ---
 title: The Kyros mobile app
-verdict: nosource
 date: 2024-04-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 3.2.0
   icon: com.excdev.kyros.png
   meta: removed
+  verdict: nosource
   developerName: Kyros Managment Ltd.
 
 ---

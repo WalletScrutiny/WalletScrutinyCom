@@ -1,6 +1,5 @@
 ---
 title: Coinizie
-verdict: wip
 date: 2023-08-25
 website: https://www.coinizie.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '9.0'
   icon: com.coinizie.com.co.png
   meta: removed
+  verdict: wip
   developerName: Coinizie
 
 ---

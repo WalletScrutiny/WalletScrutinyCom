@@ -1,6 +1,5 @@
 ---
 title: Extons
-verdict: wip
 date: 2024-05-18
 website: https://extons.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.thisoption.extons.png
   meta: removed
+  verdict: wip
   developerName: Thisoption LTD
 
 ---

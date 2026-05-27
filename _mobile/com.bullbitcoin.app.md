@@ -1,6 +1,5 @@
 ---
 title: BULL BITCOIN
-verdict: wip
 date: 2026-01-14
 website: https://bullbitcoin.com
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 14
   icon: com.bullbitcoin.app.jpg
   meta: ok
+  verdict: wip
   developerName: Satoshi Portal Inc
 
 ---

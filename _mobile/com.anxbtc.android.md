@@ -1,6 +1,5 @@
 ---
 title: 'ANX Vault: Your Bitcoin Wallet'
-verdict: wip
 date: 2021-05-08
 authors:
 - kiwilamb
@@ -16,6 +15,7 @@ android:
   reviews: 10
   icon: com.anxbtc.android.png
   meta: removed
+  verdict: wip
   developerName: ANX
 
 ---

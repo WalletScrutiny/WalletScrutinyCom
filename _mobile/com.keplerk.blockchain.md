@@ -1,6 +1,5 @@
 ---
 title: BYKEP - Bitcoin for everyone
-verdict: custodial
 date: 2023-04-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.5.4
   icon: com.keplerk.blockchain.jpg
   meta: removed
+  verdict: custodial
   developerName: BYKEP
 
 ---

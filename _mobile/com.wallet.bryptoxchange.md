@@ -1,6 +1,5 @@
 ---
 title: Brypto Exchange
-verdict: wip
 date: 2024-02-05
 website: https://bryptoxchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.wallet.bryptoxchange.png
   meta: removed
+  verdict: wip
   developerName: Brypto Holdings
 
 ---

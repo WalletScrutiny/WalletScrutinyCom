@@ -1,6 +1,5 @@
 ---
 title: BitcoinDeFi
-verdict: wip
 date: 2024-04-19
 website: https://exchange.bitcoindefi.eu
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.exchange.bitcoindefi.png
   meta: removed
+  verdict: wip
   developerName: Stacey Herrin
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Cryptomindex
-verdict: wip
 date: 2023-03-21
 website: https://cryptomindex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.cryptomindex.png
   meta: removed
+  verdict: wip
 
 ---
 

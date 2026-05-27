@@ -1,6 +1,5 @@
 ---
 title: P2P Options - Peer to Peer Tra
-verdict: wip
 date: 2021-11-22
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.8
   icon: com.p2pchallenger.jpg
   meta: removed
+  verdict: wip
   developerName: P2P Options
 
 ---

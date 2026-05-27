@@ -1,6 +1,5 @@
 ---
 title: BlockByte
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/com.blockbyte.mobile/
@@ -12,6 +11,7 @@ android:
   version: 2.0.0
   icon: com.blockbyte.mobile.png
   meta: removed
+  verdict: wip
   developerName: slmaicon
 
 ---

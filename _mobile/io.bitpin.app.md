@@ -1,6 +1,5 @@
 ---
 title: بیت پین - Bitpin
-verdict: custodial
 date: 2023-07-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 124
   icon: io.bitpin.app.png
   meta: ok
+  verdict: custodial
   developerName: Bitpin App Developer
 
 ---

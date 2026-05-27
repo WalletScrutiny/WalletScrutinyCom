@@ -1,7 +1,6 @@
 ---
 wsId: Gekkard
 title: 'Gekkard: Banking Alternative'
-verdict: custodial
 date: 2025-10-10
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 75
   icon: com.papaya.gekkard.png
   meta: stale
+  verdict: custodial
   developerName: PAPAYA LTD
 iphone:
   appId: com.papaya.gekkard
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.papaya.gekkard.jpg
   meta: stale
+  verdict: custodial
   developerName: Papaya Ltd
 
 ---

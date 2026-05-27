@@ -1,6 +1,5 @@
 ---
 title: 'ZB Pro: Buy BTC, ETH, Luna&GMT'
-verdict: wip
 date: 2023-04-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.3.2.1478
   icon: com.zb.global.png
   meta: removed
+  verdict: wip
 
 ---
 

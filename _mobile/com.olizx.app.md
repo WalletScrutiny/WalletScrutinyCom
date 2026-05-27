@@ -1,6 +1,5 @@
 ---
 title: 'olizx india''s crypto currency '
-verdict: wip
 date: 2023-11-02
 redirect_from:
 - /android/com.olizx.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.olizx.app.png
   meta: removed
+  verdict: wip
   developerName: Olizx
 
 ---

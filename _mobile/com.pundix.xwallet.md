@@ -1,7 +1,6 @@
 ---
 wsId: xwallet
 title: XWallet
-verdict: custodial
 date: 2022-12-28
 authors:
 - kiwilamb
@@ -24,6 +23,7 @@ android:
   reviews: 207
   icon: com.pundix.xwallet.png
   meta: obsolete
+  verdict: custodial
   developerName: Pundi X Labs
 iphone:
   appId: com.pundix.wallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 86
   icon: com.pundix.wallet.jpg
   meta: obsolete
+  verdict: custodial
   developerName: PUNDI X LABS
 
 ---

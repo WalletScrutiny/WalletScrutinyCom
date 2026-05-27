@@ -1,6 +1,5 @@
 ---
 title: Bintex Wallet
-verdict: wip
 date: 2023-01-02
 website: https://bintexfutures.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.19.0
   icon: com.bintex.futures.png
   meta: removed
+  verdict: wip
 
 ---
 

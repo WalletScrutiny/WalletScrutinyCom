@@ -1,6 +1,5 @@
 ---
 title: Cursdaq
-verdict: wip
 date: 2024-07-05
 website: https://www.cursdaq.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: fcm.cursdaq.com.jpg
   meta: removed
+  verdict: wip
   developerName: 나정식
 
 ---

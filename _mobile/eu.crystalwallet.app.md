@@ -1,7 +1,6 @@
 ---
 wsId: CrystalWallet
 title: Crystal Wallet
-verdict: nosource
 date: 2022-03-09
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 9
   icon: eu.crystalwallet.app.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: eu.crystalwallet.app
   idd: 1501729731
@@ -29,6 +29,7 @@ iphone:
   reviews: 6
   icon: eu.crystalwallet.app.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

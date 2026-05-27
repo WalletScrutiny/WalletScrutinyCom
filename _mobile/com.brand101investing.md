@@ -1,7 +1,6 @@
 ---
 wsId: 101Investing
 title: 101Investing Online Trading | Forex and Stocks
-verdict: nosendreceive
 date: 2022-04-07
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 209
   icon: com.brand101investing.png
   meta: removed
+  verdict: nosendreceive
 iphone:
   appId: com.101investing
   idd: '1533974302'
@@ -31,6 +31,7 @@ iphone:
   version: 1.68.10
   icon: com.101investing.jpg
   meta: removed
+  verdict: nosendreceive
 
 ---
 

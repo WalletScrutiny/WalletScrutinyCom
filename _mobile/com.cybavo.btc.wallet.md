@@ -1,6 +1,5 @@
 ---
 title: CYBAVO Wallet
-verdict: wip
 date: 2024-04-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.3200
   icon: com.cybavo.btc.wallet.png
   meta: removed
+  verdict: wip
   developerName: CYBAVO Inc.
 
 ---

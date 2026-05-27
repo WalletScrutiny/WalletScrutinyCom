@@ -1,6 +1,5 @@
 ---
 title: XZEN — Bitcoin Wallet and Exchange
-verdict: custodial
 date: 2021-05-15
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 31
   icon: com.xzen.wallet.png
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Bank
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.wTheBitcoinBankApp_16672065/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.wTheBitcoinBankApp_16672065.png
   meta: removed
+  verdict: wip
   developerName: PRAMOD KUMAR JENA
 
 ---

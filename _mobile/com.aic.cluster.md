@@ -1,6 +1,5 @@
 ---
 title: 'Cluster - Send, Save, Receive '
-verdict: wip
 date: 2024-04-03
 website: https://clusterwallet.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.aic.cluster.png
   meta: removed
+  verdict: wip
   developerName: AIC LIMITED
 
 ---

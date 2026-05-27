@@ -1,6 +1,5 @@
 ---
 title: Bitstore.tech - crypto shopping platform
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/com.app.bitstore/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: com.app.bitstore.png
   meta: removed
+  verdict: wip
 
 ---
 

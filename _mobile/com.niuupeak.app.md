@@ -1,6 +1,5 @@
 ---
 title: Niuupeak
-verdict: wip
 date: 2023-05-31
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   icon: com.niuupeak.app.png
   meta: removed
+  verdict: wip
   developerName: Coins Deal
 
 ---

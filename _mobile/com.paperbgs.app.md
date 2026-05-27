@@ -1,6 +1,5 @@
 ---
 title: PaperBGS
-verdict: wip
 date: 2024-04-03
 website: https://paperbgs.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.9'
   icon: com.paperbgs.app.jpg
   meta: removed
+  verdict: wip
   developerName: PaperBGS
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: Cointral
 title: Cointral | Buy Bitcoin
-verdict: custodial
 date: 2023-01-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 77
   icon: com.cointral.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Blockchain Lab Yazılım
 iphone:
   appId: com.cointral.exchange
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.cointral.exchange.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: abcwalletSafeWeb3Wallet
 title: ABC Wallet - Safe Web3 wallet
-verdict: custodial
 date: 2025-12-27
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.10.5
   icon: io.myabcwallet.mpc.png
   meta: ok
+  verdict: custodial
   developerName: AhnLab Blockchain Company, INC.
 iphone:
   appId: io.myabcwallet.mpc
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: io.myabcwallet.mpc.jpg
   meta: ok
+  verdict: custodial
   developerName: AhnLab Blockchain Company, INC.
 
 ---

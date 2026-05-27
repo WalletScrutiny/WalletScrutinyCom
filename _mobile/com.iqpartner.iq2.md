@@ -1,6 +1,5 @@
 ---
 title: All About IQ Option
-verdict: wip
 date: 2023-12-19
 redirect_from:
 - /android/com.iqpartner.iq2/
@@ -11,6 +10,7 @@ android:
   version: '5.2'
   icon: com.iqpartner.iq2.jpg
   meta: removed
+  verdict: wip
   developerName: F1Developers
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'NearPay: crypto wallet & card'
-verdict: wip
 date: 2024-03-02
 website: https://nearpay.co#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.44.1
   icon: co.nearpay.android.png
   meta: removed
+  verdict: wip
   developerName: Cryptopay Ltd
 
 ---

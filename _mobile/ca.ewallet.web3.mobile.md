@@ -1,6 +1,5 @@
 ---
 title: Exir Wallet
-verdict: wip
 date: 2024-04-03
 redirect_from:
 - /android/ca.ewallet.web3.mobile/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: ca.ewallet.web3.mobile.png
   meta: removed
+  verdict: wip
   developerName: exir developers
 
 ---

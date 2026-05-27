@@ -1,6 +1,5 @@
 ---
 title: UnicornTrading
-verdict: wip
 date: 2024-04-19
 website: https://first-union.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.5
   icon: com.firstunion.uncwallet.png
   meta: removed
+  verdict: wip
   developerName: FIRST UNION CAPITAL LTD.
 
 ---

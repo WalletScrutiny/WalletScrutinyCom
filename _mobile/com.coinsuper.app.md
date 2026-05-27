@@ -1,7 +1,6 @@
 ---
 wsId: Coinsuper
 title: Coinsuper
-verdict: custodial
 date: 2022-01-31
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 98
   icon: com.coinsuper.app.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.coinsuper.app
   idd: 1346980481
@@ -31,6 +31,7 @@ iphone:
   reviews: 13
   icon: com.coinsuper.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

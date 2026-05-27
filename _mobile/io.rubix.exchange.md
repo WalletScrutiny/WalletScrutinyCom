@@ -1,6 +1,5 @@
 ---
 title: Rubix Wallet
-verdict: wip
 date: 2024-12-08
 website: https://rubix.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: io.rubix.exchange.jpg
   meta: removed
+  verdict: wip
   developerName: 'Rubix: Buy, Sell, and Trade Crypto'
 
 ---

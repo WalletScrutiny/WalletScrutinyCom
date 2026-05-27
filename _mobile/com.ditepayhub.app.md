@@ -1,6 +1,5 @@
 ---
 title: Ditepayhub
-verdict: wip
 date: 2023-08-04
 website: https://ditepayhub.com.ng#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.ditepayhub.app.png
   meta: removed
+  verdict: wip
   developerName: Abolly Web Solutions.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Ondawa Bot
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/com.botlnw.bot/
@@ -12,6 +11,7 @@ android:
   version: 2.1.7
   icon: com.botlnw.bot.png
   meta: removed
+  verdict: wip
 
 ---
 

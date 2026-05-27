@@ -1,7 +1,6 @@
 ---
 wsId: bybit
 title: 'Bybit: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2021-02-09
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 7188
   icon: com.bybit.app.png
   meta: ok
+  verdict: custodial
   developerName: Bybit
 iphone:
   appId: com.bybit.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 46714
   icon: com.bybit.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Bybit Fintech Limited
 
 ---

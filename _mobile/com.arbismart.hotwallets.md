@@ -1,7 +1,6 @@
 ---
 wsId: arbismartWallet
 title: ArbiSmart
-verdict: custodial
 date: 2024-11-29
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.0028
   icon: com.arbismart.hotwallets.jpg
   meta: removed
+  verdict: custodial
   developerName: Arbismart
 iphone:
   appId: com.arbismart.hotwallets
@@ -27,6 +27,7 @@ iphone:
   reviews: 0
   icon: com.arbismart.hotwallets.jpg
   meta: removed
+  verdict: custodial
   developerName: Arbismart OU
 
 ---

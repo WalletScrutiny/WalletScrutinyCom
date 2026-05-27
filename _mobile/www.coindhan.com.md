@@ -1,7 +1,6 @@
 ---
 wsId: coindhan
 title: 'Coindhan: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2024-10-03
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: '1.0'
   icon: www.coindhan.com.png
   meta: removed
+  verdict: custodial
   developerName: Wollfish Labs Private Limited
 iphone:
   appId: www.coindhan.com
@@ -36,6 +36,7 @@ iphone:
   reviews: 20
   icon: www.coindhan.com.jpg
   meta: removed
+  verdict: custodial
   developerName: Wollfish Labs Private Limited
 
 ---

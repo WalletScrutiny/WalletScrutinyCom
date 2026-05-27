@@ -1,6 +1,5 @@
 ---
 title: 증권통 가상화폐(코인원)
-verdict: wip
 date: 2024-11-12
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 4.1.1.15
   icon: semaphore.stocktrade.tradeweb.png
   meta: removed
+  verdict: wip
   developerName: Tomato Group
 
 ---

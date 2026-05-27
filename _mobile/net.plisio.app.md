@@ -1,6 +1,5 @@
 ---
 title: Plisio
-verdict: wip
 date: 2024-12-15
 website: https://plisio.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.9
   icon: net.plisio.app.png
   meta: removed
+  verdict: wip
   developerName: Plisio
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Valobit
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.valobit/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.valobit.png
   meta: removed
+  verdict: wip
   developerName: Valobit Technology
 
 ---

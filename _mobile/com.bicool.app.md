@@ -1,6 +1,5 @@
 ---
 title: 'BICOOL: Buy Crypto & Bitcoin'
-verdict: wip
 date: 2023-01-02
 website: https://bicool.in#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 125
   icon: com.bicool.app.png
   meta: removed
+  verdict: wip
 
 ---
 

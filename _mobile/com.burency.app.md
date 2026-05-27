@@ -1,7 +1,6 @@
 ---
 wsId: Burency
 title: Burency Global – Insured Crypto Exchange & Wallet
-verdict: custodial
 date: 2021-12-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 139
   icon: com.burency.app.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.burency.app
   idd: 1548673602
@@ -33,6 +33,7 @@ iphone:
   reviews: 25
   icon: com.burency.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

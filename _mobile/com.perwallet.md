@@ -1,6 +1,5 @@
 ---
 title: PER Wallet
-verdict: wip
 date: 2024-02-05
 website: https://www.perproject.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.perwallet.png
   meta: removed
+  verdict: wip
   developerName: cic community
 
 ---

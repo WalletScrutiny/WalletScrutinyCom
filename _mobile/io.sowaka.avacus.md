@@ -1,6 +1,5 @@
 ---
 title: Avacus Web3
-verdict: wip
 date: 2026-02-20
 website: https://avacus.cc
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 7.11.0
   icon: io.sowaka.avacus.png
   meta: removed
+  verdict: wip
   developerName: SOWAKA PTE.LTD.
 
 ---

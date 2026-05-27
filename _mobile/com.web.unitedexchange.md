@@ -1,7 +1,6 @@
 ---
 wsId: unitedExchange
 title: UnitedExchange
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 2
   icon: com.web.unitedexchange.png
   meta: removed
+  verdict: custodial
   developerName: United Exchange
 iphone:
   appId: com.vsmart.UnitedExchange
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.vsmart.UnitedExchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Avner Brokers
 
 ---

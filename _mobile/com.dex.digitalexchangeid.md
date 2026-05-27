@@ -1,7 +1,6 @@
 ---
 wsId: digitalexchangeid
 title: digitalexchange.id Crypto Aset
-verdict: custodial
 date: 2021-09-17
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.3.36
   icon: com.dex.digitalexchangeid.png
   meta: ok
+  verdict: custodial
   developerName: PT Indonesia Digital Exchange
 iphone:
   appId: com.dex.digitalexchangeid
@@ -31,6 +31,7 @@ iphone:
   reviews: 1
   icon: com.dex.digitalexchangeid.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

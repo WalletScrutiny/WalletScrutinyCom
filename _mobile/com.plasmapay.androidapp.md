@@ -1,7 +1,6 @@
 ---
 wsId: PlasmaPay
 title: PlasmaPay - cryptocurrency wallet and DeFi app
-verdict: wip
 date: 2021-11-17
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 17
   icon: com.plasmapay.androidapp.png
   meta: removed
+  verdict: wip
 iphone:
   appId: com.plasmaalliance.PlasmaPay
   idd: 1461735396
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: com.plasmaalliance.PlasmaPay.jpg
   meta: defunct
+  verdict: wip
   developerName: Plasma Alliance OÜ
 
 ---

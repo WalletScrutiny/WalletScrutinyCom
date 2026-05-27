@@ -1,6 +1,5 @@
 ---
 title: RPM Market
-verdict: wip
 date: 2024-04-19
 website: http://rpm.market#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.6
   icon: com.rpm.market.png
   meta: removed
+  verdict: wip
   developerName: RPM. Market
 
 ---

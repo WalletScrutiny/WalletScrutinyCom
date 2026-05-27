@@ -1,6 +1,5 @@
 ---
 title: Particl Copay
-verdict: wip
 date: 2024-04-03
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 17
   icon: io.particl.copay.png
   meta: removed
+  verdict: wip
   developerName: Particl Foundation
 
 ---

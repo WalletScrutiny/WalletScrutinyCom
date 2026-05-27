@@ -1,6 +1,5 @@
 ---
 title: KeyEx - Kripto Al-Sat BTC,ETH
-verdict: wip
 date: 2025-09-03
 website: https://www.keyex.com.tr#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.64
   icon: com.keyex.crypto.png
   meta: removed
+  verdict: wip
   developerName: DIGIFACTOR TEKNOLOJI ANONIM SIRKETI
 
 ---

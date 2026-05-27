@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet Dark
-verdict: wip
 date: 2023-01-30
 redirect_from:
 - /android/bit.consortium.wallet/
@@ -12,6 +11,7 @@ android:
   version: '9.02'
   icon: bit.consortium.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

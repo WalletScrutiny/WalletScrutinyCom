@@ -1,6 +1,5 @@
 ---
 title: Anwonder Crypto Wallet
-verdict: wip
 date: 2024-04-03
 website: https://www.anwonder.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.anwonder.wallet.png
   meta: removed
+  verdict: wip
   developerName: Anwonder
 
 ---

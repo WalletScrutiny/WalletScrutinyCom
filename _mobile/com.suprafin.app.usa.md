@@ -1,7 +1,6 @@
 ---
 wsId: supraFinCrypto
 title: 'SupraFin: Crypto ETH Investing'
-verdict: custodial
 date: 2024-07-25
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 7
   icon: com.suprafin.app.usa.png
   meta: removed
+  verdict: custodial
   developerName: SupraFin LTD
 iphone:
   appId: com.suprafin.usa.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 24
   icon: com.suprafin.usa.app.jpg
   meta: removed
+  verdict: custodial
   developerName: SupraFin
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Trade6ix - Buy & Trade Crypto
-verdict: wip
 date: 2024-05-24
 website: https://trade6ix.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.devoioapps.trade6ix.png
   meta: obsolete
+  verdict: wip
   developerName: DEVOIO GmbH
 
 ---

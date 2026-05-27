@@ -1,6 +1,5 @@
 ---
 title: Coin4sales Wallet - Buy Bitcoi
-verdict: wip
 date: 2024-05-18
 website: https://www.coin4sales.com/tos#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.4
   icon: com.coin4sales.coin4sales.png
   meta: removed
+  verdict: wip
   developerName: Kite Financial (Kite Tech Ltd UK)
 
 ---

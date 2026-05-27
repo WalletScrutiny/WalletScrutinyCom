@@ -1,6 +1,5 @@
 ---
 title: MASEx Wallet-多鏈錢包 ✕ 跨鏈平台 ✕ 移動經
-verdict: wip
 date: 2023-09-28
 redirect_from:
 - /android/com.ttchain.masex.beta/
@@ -12,6 +11,7 @@ android:
   version: 1.0.102
   icon: com.ttchain.masex.beta.png
   meta: removed
+  verdict: wip
   developerName: Sting Lin
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BCCL
-verdict: wip
 date: 2024-04-19
 website: https://www.botcoinloan.blissinfosys.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.info.bccl.png
   meta: removed
+  verdict: wip
   developerName: BOT CRYPTO LOAN
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitkingdom
-verdict: wip
 date: 2023-05-12
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.7
   icon: com.bitkingdomex.app.android.png
   meta: removed
+  verdict: wip
   developerName: 키스톤랩
 
 ---

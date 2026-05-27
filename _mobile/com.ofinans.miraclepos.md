@@ -1,6 +1,5 @@
 ---
 title: Miracle Pos
-verdict: wip
 date: 2025-12-15
 website: https://miraclecash.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.8
   icon: com.ofinans.miraclepos.jpg
   meta: removed
+  verdict: wip
   developerName: Ofinans App
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: BinanceTR
 title: 'Binance TR: Bitcoin and Crypto'
-verdict: custodial
 date: 2021-10-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 21504
   icon: com.cloud.tr.png
   meta: ok
+  verdict: custodial
   developerName: Binance TR
 iphone:
   appId: com.binanceCloudTR.binance
@@ -32,6 +32,7 @@ iphone:
   reviews: 174116
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
+  verdict: custodial
   developerName: BN TEKNOLOJİ ANONİM ŞİRKETİ
 
 ---

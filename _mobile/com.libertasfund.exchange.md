@@ -1,6 +1,5 @@
 ---
 title: Libex
-verdict: wip
 date: 2024-02-05
 website: https://www.libertas-fund.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.4'
   icon: com.libertasfund.exchange.png
   meta: removed
+  verdict: wip
   developerName: Libex Exchange
 
 ---

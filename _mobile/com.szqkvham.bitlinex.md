@@ -1,6 +1,5 @@
 ---
 title: BitLinex - BTC ETH Exchange
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.szqkvham.bitlinex/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.szqkvham.bitlinex.png
   meta: removed
+  verdict: wip
 
 ---
 

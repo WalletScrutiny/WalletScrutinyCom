@@ -1,6 +1,5 @@
 ---
 title: iONE WALLET
-verdict: wip
 date: 2024-10-08
 redirect_from:
 - /android/infii.app.ionewallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: infii.app.ionewallet.png
   meta: removed
+  verdict: wip
   developerName: INFII
 
 ---

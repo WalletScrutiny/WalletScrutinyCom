@@ -1,7 +1,6 @@
 ---
 wsId: jubiter
 title: JuBiter Wallet 2.0 - Secure Ha
-verdict: nosource
 date: 2023-01-02
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 2.7.0
   icon: com.jubiter.app.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: com.feitian.jubiterwallet
   idd: 1518743276
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.feitian.jubiterwallet.jpg
   meta: obsolete
+  verdict: nosource
   developerName: FEITIAN Technologies Co.,Ltd.
 
 ---

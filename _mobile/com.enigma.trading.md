@@ -1,6 +1,5 @@
 ---
 title: 'BFX Standard: Crypto & Forex'
-verdict: wip
 date: 2023-01-02
 website: https://bfxstandard.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.8
   icon: com.enigma.trading.jpg
   meta: removed
+  verdict: wip
 
 ---
 

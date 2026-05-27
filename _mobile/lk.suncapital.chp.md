@@ -1,6 +1,5 @@
 ---
 title: CHP Wallet
-verdict: wip
 date: 2023-01-02
 website: https://www.suncapital.lk
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.10
   icon: lk.suncapital.chp.png
   meta: removed
+  verdict: wip
   developerName: Sun Capital International
 
 ---

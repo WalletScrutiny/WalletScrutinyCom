@@ -1,6 +1,5 @@
 ---
 title: TCFX Wallet
-verdict: wip
 date: 2024-04-03
 website: http://topcoinfx.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.5'
   icon: com.topcoinfx.png
   meta: removed
+  verdict: wip
   developerName: TopcoinGlobal
 
 ---

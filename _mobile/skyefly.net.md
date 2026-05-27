@@ -1,6 +1,5 @@
 ---
 title: Skyefly
-verdict: wip
 date: 2024-05-07
 website: https://skyefly.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: skyefly.net.png
   meta: removed
+  verdict: wip
   developerName: Omojowo Technologies
 
 ---

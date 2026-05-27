@@ -1,6 +1,5 @@
 ---
 title: DataTech Analysis Empire- DAE
-verdict: wip
 date: 2024-04-03
 website: https://dae.africa#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '12.0'
   icon: com.daeapp.jpg
   meta: removed
+  verdict: wip
   developerName: Data Analysis Empire
 
 ---

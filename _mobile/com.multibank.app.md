@@ -1,7 +1,6 @@
 ---
 wsId: multibankBTC
 title: 'mb.io: Crypto Trading & Wallet'
-verdict: custodial
 date: 2025-11-20
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 7
   icon: com.multibank.app.png
   meta: ok
+  verdict: custodial
   developerName: MB.IO
 iphone:
   appId: com.mexdigital.app
@@ -37,6 +37,7 @@ iphone:
   reviews: 29
   icon: com.mexdigital.app.jpg
   meta: ok
+  verdict: custodial
   developerName: MEXBIT PTY
 
 ---

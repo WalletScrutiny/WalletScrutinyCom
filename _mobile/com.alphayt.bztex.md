@@ -1,6 +1,5 @@
 ---
 title: BZTex
-verdict: wip
 date: 2023-08-04
 website: https://www.bztex.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.9
   icon: com.alphayt.bztex.png
   meta: removed
+  verdict: wip
   developerName: BZTEX
 
 ---

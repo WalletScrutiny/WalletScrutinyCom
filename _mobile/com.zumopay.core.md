@@ -1,7 +1,6 @@
 ---
 wsId: zumoPay
 title: 'Zumo: Bitcoin & Crypto Wallet'
-verdict: nosource
 date: 2025-09-09
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 5.13.1
   icon: com.zumopay.core.png
   meta: removed
+  verdict: nosource
   developerName: Zumopay
 iphone:
   appId: com.zumopay.core
@@ -35,6 +35,7 @@ iphone:
   reviews: 307
   icon: com.zumopay.core.jpg
   meta: removed
+  verdict: nosource
   developerName: Zumo Financial Services Limited
 
 ---

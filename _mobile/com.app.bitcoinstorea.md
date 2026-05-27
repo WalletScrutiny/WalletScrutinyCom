@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Win - Scratch Bitcoin
-verdict: wip
 date: 2023-01-02
 website: https://t91a3kzq.app-adstxt.dev/app-ads.txt#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.bitcoinstorea.jpg
   meta: removed
+  verdict: wip
 
 ---
 

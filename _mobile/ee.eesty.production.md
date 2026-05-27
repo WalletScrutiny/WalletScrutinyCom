@@ -1,6 +1,5 @@
 ---
 title: eesty -Smart Wallet
-verdict: nosource
 date: 2023-08-16
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   reviews: 8
   icon: ee.eesty.production.jpg
   meta: removed
+  verdict: nosource
   developerName: blockhive
 
 ---

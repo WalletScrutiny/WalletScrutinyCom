@@ -1,7 +1,6 @@
 ---
 wsId: mudrex
 title: 'Mudrex : Bitcoin & Crypto App'
-verdict: custodial
 date: 2024-09-07
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 4
   icon: com.mudrexmobile.png
   meta: ok
+  verdict: custodial
   developerName: Mudrex Inc.
 iphone:
   appId: com.mudrex.ios
@@ -35,6 +35,7 @@ iphone:
   reviews: 5351
   icon: com.mudrex.ios.jpg
   meta: ok
+  verdict: custodial
   developerName: Mudrex
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Epixel Wallet
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.epixelwallet/
@@ -12,6 +11,7 @@ android:
   version: 1.3.1
   icon: com.epixelwallet.png
   meta: removed
+  verdict: wip
   developerName: Epixel Solutions Pvt Ltd
 
 ---

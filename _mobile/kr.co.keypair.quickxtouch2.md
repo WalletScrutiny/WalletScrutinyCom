@@ -1,6 +1,5 @@
 ---
 title: QuickX Touch (New)
-verdict: wip
 date: 2022-03-07
 website: http://keywalletpro.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.60
   icon: kr.co.keypair.quickxtouch2.png
   meta: removed
+  verdict: wip
 
 ---
 

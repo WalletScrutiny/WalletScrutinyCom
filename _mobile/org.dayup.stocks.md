@@ -1,7 +1,6 @@
 ---
 wsId: webull
 title: 'Webull: Investing & Trading'
-verdict: nosendreceive
 date: 2021-08-10
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 41491
   icon: org.dayup.stocks.png
   meta: ok
+  verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.
 iphone:
   appId: com.webull.trade
@@ -31,6 +31,7 @@ iphone:
   reviews: 334609
   icon: com.webull.trade.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.
 
 ---

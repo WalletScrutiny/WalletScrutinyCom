@@ -1,6 +1,5 @@
 ---
 title: 7/24 Borsa
-verdict: wip
 date: 2024-05-07
 website: https://724borsa.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.yyborsa.png
   meta: removed
+  verdict: wip
   developerName: Aksoyhlc
 
 ---

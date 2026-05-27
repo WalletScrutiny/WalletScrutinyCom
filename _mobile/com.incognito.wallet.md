@@ -1,7 +1,6 @@
 ---
 wsId: incognito
 title: Incognito Bitcoin Wallet
-verdict: sourceavailable
 date: 2024-05-18
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 64
   icon: com.incognito.wallet.png
   meta: removed
+  verdict: sourceavailable
   developerName: Incognito Core Development Team
 iphone:
   appId: com.incognito.wallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 115
   icon: com.incognito.wallet.jpg
   meta: removed
+  verdict: sourceavailable
   developerName: Incognito Core Team LLC
 
 ---

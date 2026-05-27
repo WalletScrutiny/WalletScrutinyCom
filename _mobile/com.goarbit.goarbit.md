@@ -1,6 +1,5 @@
 ---
 title: GoArbit
-verdict: wip
 date: 2023-02-01
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 3080
   icon: com.goarbit.goarbit.png
   meta: removed
+  verdict: wip
   developerName: GoArbit Inc
 
 ---

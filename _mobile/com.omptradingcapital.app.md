@@ -1,6 +1,5 @@
 ---
 title: OMP Trading Capital
-verdict: wip
 date: 2024-04-03
 website: https://omptrading.capital#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.omptradingcapital.app.png
   meta: removed
+  verdict: wip
   developerName: OMP Trading Capital
 
 ---

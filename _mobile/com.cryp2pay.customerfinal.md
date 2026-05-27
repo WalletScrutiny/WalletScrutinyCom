@@ -1,6 +1,5 @@
 ---
 title: Cryp2Pay
-verdict: wip
 date: 2023-01-02
 website: https://cryp2.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.cryp2pay.customerfinal.png
   meta: removed
+  verdict: wip
 
 ---
 

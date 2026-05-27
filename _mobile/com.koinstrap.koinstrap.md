@@ -1,7 +1,6 @@
 ---
 wsId: Koinstrap
 title: 'Koinstrap: Buy & Sell BTC, ETH'
-verdict: custodial
 date: 2025-11-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 4.1.7
   icon: com.koinstrap.koinstrap.png
   meta: ok
+  verdict: custodial
   developerName: Koinstrap, Inc
 iphone:
   appId: com.koinstrap.koinstrap
@@ -31,6 +31,7 @@ iphone:
   reviews: 34
   icon: com.koinstrap.koinstrap.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Koinstrap, Inc.
 
 ---

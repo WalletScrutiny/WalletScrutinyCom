@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Buy And Sell App
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.bitcoinrevolution.bitcoin.buyand.sell.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.bitcoinrevolution.bitcoin.buyand.sell.app.jpg
   meta: removed
+  verdict: wip
 
 ---
 

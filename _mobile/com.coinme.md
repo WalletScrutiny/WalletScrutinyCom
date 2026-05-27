@@ -1,7 +1,6 @@
 ---
 wsId: coinme
 title: 'Coinme: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 1135
   icon: com.coinme.png
   meta: ok
+  verdict: custodial
   developerName: Coinme
 iphone:
   appId: com.coinme.CoinMe
@@ -36,6 +36,7 @@ iphone:
   reviews: 6214
   icon: com.coinme.CoinMe.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinme Inc.
 
 ---

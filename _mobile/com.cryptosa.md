@@ -1,6 +1,5 @@
 ---
 title: Cryptosa - Kripto Para Borsası
-verdict: wip
 date: 2024-04-03
 website: https://cryptosa.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.cryptosa.png
   meta: removed
+  verdict: wip
   developerName: Fintech Bilgi Teknolojileri Yazilim Ve Ticaret A.Ş
 
 ---

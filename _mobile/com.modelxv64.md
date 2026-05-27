@@ -1,7 +1,6 @@
 ---
 wsId: StratumWallet
 title: Stratum Advanced Wallet
-verdict: custodial
 date: 2023-03-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.6.9
   icon: com.modelxv64.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: saw.stratumadvancedwallet
   idd: 1514513162
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: saw.stratumadvancedwallet.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

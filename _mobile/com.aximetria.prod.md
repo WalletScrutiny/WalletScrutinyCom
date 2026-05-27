@@ -1,7 +1,6 @@
 ---
 wsId: aximetriaCrypto
 title: 'Aximetria: Buy Bitcoin, Crypto'
-verdict: custodial
 date: 2023-09-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.30.0
   icon: com.aximetria.prod.png
   meta: removed
+  verdict: custodial
   developerName: Aximetria GmbH
 iphone:
   appId: com.aximetria.prod
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.aximetria.prod.jpg
   meta: removed
+  verdict: custodial
   developerName: Aximetria
 
 ---

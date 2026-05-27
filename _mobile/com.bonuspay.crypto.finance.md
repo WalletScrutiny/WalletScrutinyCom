@@ -1,6 +1,5 @@
 ---
 title: 'BonusPay: Trade & Swap BTC'
-verdict: wip
 date: 2024-07-05
 website: https://bonuspay.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.bonuspay.crypto.finance.png
   meta: removed
+  verdict: wip
   developerName: Bonus Technology
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: STB Classic
-verdict: wip
 date: 2026-02-02
 website: https://spendthebits.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.2.0
   icon: com.bitcon.png
   meta: fewusers
+  verdict: wip
   developerName: Spend The Bits Inc.
 
 ---

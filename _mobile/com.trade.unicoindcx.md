@@ -1,7 +1,6 @@
 ---
 wsId: unicoinDCXTrader
 title: Unicoin DCX Trader
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.0.0.1
   icon: com.trade.unicoindcx.png
   meta: removed
+  verdict: custodial
   developerName: Captain Infotech LLC
 iphone:
   appId: com.unicoindcx.iphoneunicoindcx
@@ -34,6 +34,7 @@ iphone:
   reviews: 4
   icon: com.unicoindcx.iphoneunicoindcx.jpg
   meta: stale
+  verdict: custodial
   developerName: UNICOIN DCX SDN. BHD.
 
 ---

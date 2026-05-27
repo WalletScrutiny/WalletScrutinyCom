@@ -1,6 +1,5 @@
 ---
 title: DigiCOX
-verdict: wip
 date: 2023-04-22
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 4
   icon: com.digicox.mobile.png
   meta: removed
+  verdict: wip
   developerName: DigiCOX Limited
 
 ---

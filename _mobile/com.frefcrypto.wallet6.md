@@ -1,6 +1,5 @@
 ---
 title: Crypto.com Wallet Bitcoin & Ethereum
-verdict: fake
 date: 2021-11-10
 authors:
 - leo
@@ -8,13 +7,13 @@ redirect_from:
 - /android/com.frefcrypto.wallet6/
 android:
   appId: com.frefcrypto.wallet6
-  altTitle: (Fake) Crypto.com Wallet Bitcoin & Ethereum
   users: 100
   released: 2021-09-10
   updated: 2021-09-10
   version: '1'
   icon: com.frefcrypto.wallet6.png
   meta: removed
+  verdict: fake
 
 ---
 

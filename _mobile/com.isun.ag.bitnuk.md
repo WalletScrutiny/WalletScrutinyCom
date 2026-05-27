@@ -1,6 +1,5 @@
 ---
 title: Bitnuk
-verdict: wip
 date: 2024-04-03
 website: https://bitnuk.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.isun.ag.bitnuk.png
   meta: removed
+  verdict: wip
   developerName: Bitnuk AG
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: bipaBR
 title: Bipa - Bitcoin, Pix e Cartão
-verdict: custodial
 date: 2023-06-14
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 13
   icon: bipa.app.bipa.png
   meta: ok
+  verdict: custodial
   developerName: Bipa
 iphone:
   appId: bipa.app.Bipa
@@ -34,6 +34,7 @@ iphone:
   reviews: 9104
   icon: bipa.app.Bipa.jpg
   meta: ok
+  verdict: custodial
   developerName: Bipa Ltda
 
 ---

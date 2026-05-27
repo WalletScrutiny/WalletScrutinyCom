@@ -1,6 +1,5 @@
 ---
 title: 보고코인지갑 (bogo wallet )
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.hustay.swing.d0650e12218a242e795ba79342da8f84b/
@@ -12,6 +11,7 @@ android:
   version: '0.3'
   icon: com.hustay.swing.d0650e12218a242e795ba79342da8f84b.png
   meta: removed
+  verdict: wip
   developerName: 김률
 
 ---

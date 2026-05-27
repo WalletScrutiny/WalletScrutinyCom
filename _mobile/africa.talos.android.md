@@ -1,6 +1,5 @@
 ---
 title: Talos
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.2.5
   icon: africa.talos.android.png
   meta: removed
+  verdict: custodial
   developerName: Talos Africa
 
 ---

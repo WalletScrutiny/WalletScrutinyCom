@@ -1,7 +1,6 @@
 ---
 wsId: BRDBitcoin
 title: BRD Bitcoin Wallet Bitcoin BTC
-verdict: nosource
 date: 2025-04-01
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 1433
   icon: com.breadwallet.jpg
   meta: removed
+  verdict: nosource
   developerName: breadwallet
 iphone:
   appId: org.voisine.breadwallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 12182
   icon: org.voisine.breadwallet.jpg
   meta: obsolete
+  verdict: nosource
   developerName: breadwallet LLC
 
 ---

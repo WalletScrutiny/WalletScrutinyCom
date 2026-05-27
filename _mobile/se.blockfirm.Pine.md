@@ -1,6 +1,5 @@
 ---
 title: Pine – Bitcoin Wallet
-verdict: wip
 date: 2024-07-10
 website: https://pine.pm
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   reviews: 3
   icon: se.blockfirm.Pine.jpg
   meta: obsolete
+  verdict: wip
   developerName: Pine Enterprises AB
 
 ---

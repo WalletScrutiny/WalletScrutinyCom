@@ -1,6 +1,5 @@
 ---
 title: Definance Wallet
-verdict: wip
 date: 2023-08-04
 website: https://definance.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.1
   icon: com.definance.app.png
   meta: removed
+  verdict: wip
   developerName: Blockchain Software House
 
 ---

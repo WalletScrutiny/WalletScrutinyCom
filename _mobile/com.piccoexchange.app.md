@@ -1,6 +1,5 @@
 ---
 title: Picco Exchange
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.piccoexchange.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.piccoexchange.app.png
   meta: removed
+  verdict: wip
   developerName: Greenback Tech
 
 ---

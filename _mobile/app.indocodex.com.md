@@ -1,6 +1,5 @@
 ---
 title: IndocoDex - The Advanced Decen
-verdict: wip
 date: 2024-04-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.1.7
   icon: app.indocodex.com.png
   meta: removed
+  verdict: wip
   developerName: Indocodex - Rajacoin
 
 ---

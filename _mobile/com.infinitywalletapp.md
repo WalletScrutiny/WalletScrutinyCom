@@ -1,6 +1,5 @@
 ---
 title: IFWallet
-verdict: wip
 date: 2024-07-30
 website: https://ifwallet.com.br#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.infinitywalletapp.png
   meta: removed
+  verdict: wip
   developerName: Portal Infinity
 
 ---

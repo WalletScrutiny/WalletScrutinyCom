@@ -1,6 +1,5 @@
 ---
 title: Crypto Universe
-verdict: wip
 date: 2024-04-03
 website: http://cryptouniversep2p.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.cryptouniverse.app.png
   meta: removed
+  verdict: wip
   developerName: CRYPTO UNIVERSE
 
 ---

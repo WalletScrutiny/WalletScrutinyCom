@@ -1,6 +1,5 @@
 ---
 title: BCD Pay
-verdict: nosource
 date: 2024-05-07
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 13
   icon: com.chimpion.bcdpay.png
   meta: removed
+  verdict: nosource
   developerName: Chimpion
 
 ---

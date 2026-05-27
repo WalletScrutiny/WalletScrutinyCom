@@ -1,6 +1,5 @@
 ---
 title: CTSKOLA EXCHANGE
-verdict: custodial
 date: 2023-09-04
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.0'
   icon: com.ctskola.exchange.png
   meta: removed
+  verdict: custodial
   developerName: CTSKOLA
 
 ---

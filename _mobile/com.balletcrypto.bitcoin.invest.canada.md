@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Invest Canada
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.balletcrypto.bitcoin.invest.canada/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.balletcrypto.bitcoin.invest.canada.jpg
   meta: removed
+  verdict: wip
 
 ---
 

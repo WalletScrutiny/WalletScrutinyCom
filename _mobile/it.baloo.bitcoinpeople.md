@@ -1,6 +1,5 @@
 ---
 title: Baloo - Bitcoin Wallet
-verdict: wip
 date: 2023-09-28
 website: http://www.bitcoinpeople.it
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.4.8
   icon: it.baloo.bitcoinpeople.png
   meta: removed
+  verdict: wip
   developerName: BTCP S.r.l.
 
 ---

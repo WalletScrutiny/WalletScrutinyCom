@@ -1,7 +1,6 @@
 ---
 wsId: guarda
 title: 'Guarda: Crypto Bitcoin Wallet'
-verdict: nosource
 date: 2021-05-20
 authors:
 - leo
@@ -27,6 +26,7 @@ android:
   reviews: 561
   icon: com.crypto.multiwallet.jpg
   meta: ok
+  verdict: nosource
   developerName: GUARDA
 iphone:
   appId: com.crypto.multiwallet
@@ -37,6 +37,7 @@ iphone:
   reviews: 941
   icon: com.crypto.multiwallet.jpg
   meta: ok
+  verdict: nosource
   developerName: GUARDACO LDA
 
 ---

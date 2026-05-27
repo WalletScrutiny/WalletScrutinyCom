@@ -1,6 +1,5 @@
 ---
 title: Bitcoin
-verdict: wip
 date: 2021-09-04
 redirect_from:
 - /android/com.bitcoin.firstdigitalhub/
@@ -13,6 +12,7 @@ android:
   reviews: 148
   icon: com.bitcoin.firstdigitalhub.jpg
   meta: removed
+  verdict: wip
 
 ---
 

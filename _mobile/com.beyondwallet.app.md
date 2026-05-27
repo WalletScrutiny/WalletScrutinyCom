@@ -1,6 +1,5 @@
 ---
 title: beyond wallet
-verdict: wip
 date: 2024-07-05
 website: https://www.mybeyondwallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: VARY
   icon: com.beyondwallet.app.png
   meta: removed
+  verdict: wip
   developerName: Frictionless Money LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Egiby Bank
-verdict: wip
 date: 2024-02-05
 website: https://egiby.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.0
   icon: ir.egiby.bank.png
   meta: removed
+  verdict: wip
   developerName: Egiby Company
 
 ---

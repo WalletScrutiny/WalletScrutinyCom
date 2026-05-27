@@ -1,6 +1,5 @@
 ---
 title: Bitflash Exchange
-verdict: wip
 date: 2023-03-29
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '4.0'
   icon: com.bitflash.exchange.png
   meta: removed
+  verdict: wip
   developerName: Bitflash Cryptocurrency Exchange
 
 ---

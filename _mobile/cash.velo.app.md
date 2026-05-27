@@ -1,6 +1,5 @@
 ---
 title: 'VELO: Bitcoin & USDT Wallet'
-verdict: wip
 date: 2026-01-14
 website: https://velo.cash
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.8
   icon: cash.velo.app.png
   meta: fewusers
+  verdict: wip
   developerName: Monica.cash
 iphone:
   appId: cash.velo.app
@@ -25,6 +25,7 @@ iphone:
   reviews: 2
   icon: cash.velo.app.jpg
   meta: ok
+  verdict: wip
   developerName: Monica technologies limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Coinorbis Trade - Cryptocurrency Trading Platform
-verdict: wip
 date: 2022-01-15
 redirect_from:
 - /android/com.coinorbis.trade/
@@ -13,6 +12,7 @@ android:
   reviews: 1
   icon: com.coinorbis.trade.png
   meta: removed
+  verdict: wip
 
 ---
 

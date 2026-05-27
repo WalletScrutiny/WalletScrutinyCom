@@ -1,7 +1,6 @@
 ---
 wsId: zeux
 title: Zeux - Payments & Investing
-verdict: custodial
 date: 2022-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1233
   icon: com.zeux.finapp.png
   meta: removed
+  verdict: custodial
   developerName: Zeux Ltd
 iphone:
   appId: com.zeux.finapp
@@ -33,6 +33,7 @@ iphone:
   reviews: 324
   icon: com.zeux.finapp.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

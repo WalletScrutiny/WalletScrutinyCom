@@ -1,6 +1,5 @@
 ---
 title: 'BAF: Multicurrency Wallet & Ex'
-verdict: wip
 date: 2024-04-19
 website: https://www.blockchainappfactory.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.blockchainappfactory.cryptoexchange.png
   meta: removed
+  verdict: wip
   developerName: Blockchain App Factory
 
 ---

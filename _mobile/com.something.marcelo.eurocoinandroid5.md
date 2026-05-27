@@ -1,7 +1,6 @@
 ---
 wsId: eurocoinPay
 title: EurocoinPay
-verdict: custodial
 date: 2023-06-29
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '40.0'
   icon: com.something.marcelo.eurocoinandroid5.png
   meta: ok
+  verdict: custodial
   developerName: EurocoinPay
 iphone:
   appId: EurocoinpayRN
@@ -33,6 +33,7 @@ iphone:
   reviews: 10
   icon: EurocoinpayRN.jpg
   meta: stale
+  verdict: custodial
   developerName: eurocoinpay
 
 ---

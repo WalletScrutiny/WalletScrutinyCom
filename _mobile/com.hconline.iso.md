@@ -1,7 +1,6 @@
 ---
 wsId: StartEOSWallet
 title: Start Wallet(EOS, BTC, ETH, TR
-verdict: nosource
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.hconline.iso.png
   meta: removed
+  verdict: nosource
   developerName: Start.io
 iphone:
   appId: com.HCLT.Starteos.store
@@ -33,6 +33,7 @@ iphone:
   reviews: 9
   icon: com.HCLT.Starteos.store.jpg
   meta: removed
+  verdict: nosource
   developerName: Starteos Limited
 
 ---

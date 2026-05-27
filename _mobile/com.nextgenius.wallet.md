@@ -1,6 +1,5 @@
 ---
 title: NG Wallet
-verdict: wip
 date: 2024-04-03
 website: http://nextgenius.com.au
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.7
   icon: com.nextgenius.wallet.png
   meta: removed
+  verdict: wip
   developerName: NextGenius
 
 ---

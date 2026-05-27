@@ -1,6 +1,5 @@
 ---
 title: CBANX - Cryptocurrency Exchang
-verdict: wip
 date: 2024-07-05
 website: https://www.cbanx.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.1.20
   icon: com.cbanx.androidapp.png
   meta: removed
+  verdict: wip
   developerName: CBANX LTD
 
 ---

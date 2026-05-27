@@ -1,7 +1,6 @@
 ---
 wsId: bitginApp
 title: BITGIN
-verdict: custodial
 date: 2024-10-28
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.2.2
   icon: com.bitgin.app.png
   meta: removed
+  verdict: custodial
   developerName: BITGIN.NET
 iphone:
   appId: net.bitgin
@@ -27,6 +27,7 @@ iphone:
   reviews: 19
   icon: net.bitgin.jpg
   meta: removed
+  verdict: custodial
   developerName: 畢竟科技股份有限公司
 
 ---

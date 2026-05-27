@@ -1,6 +1,5 @@
 ---
 title: Fabriik
-verdict: wip
 date: 2023-01-02
 website: https://fabriik.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.15.0
   icon: com.fabriik.app.png
   meta: removed
+  verdict: wip
 
 ---
 

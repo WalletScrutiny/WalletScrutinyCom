@@ -1,7 +1,6 @@
 ---
 wsId: WiseBitcoin
 title: Batonex
-verdict: custodial
 date: 2021-10-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 129
   icon: com.wisebitcoin.broker.android.png
   meta: ok
+  verdict: custodial
   developerName: Batonex
 iphone:
   appId: com.wisebitcoin.broker.iostest
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.wisebitcoin.broker.iostest.jpg
   meta: removed
+  verdict: custodial
   developerName: WISEBTC INC
 
 ---

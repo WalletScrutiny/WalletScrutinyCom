@@ -1,6 +1,5 @@
 ---
 title: HiFast - Cash & Crypto Wallet
-verdict: wip
 date: 2024-10-03
 website: https://hifast.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.hifasthq.hifast.png
   meta: removed
+  verdict: wip
   developerName: HiFast
 
 ---

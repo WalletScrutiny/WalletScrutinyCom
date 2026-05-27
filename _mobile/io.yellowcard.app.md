@@ -1,7 +1,6 @@
 ---
 wsId: yellowcard
 title: 'Yellow Card: Buy & Sell Crypto'
-verdict: custodial
 date: 2021-04-13
 authors:
 - kiwilamb
@@ -24,6 +23,7 @@ android:
   reviews: 480
   icon: io.yellowcard.app.jpg
   meta: ok
+  verdict: custodial
   developerName: Yellow Card Financial
 iphone:
   appId: io.yellowcard.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 56
   icon: io.yellowcard.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Yellow Card Financial, Inc
 
 ---

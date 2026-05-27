@@ -1,6 +1,5 @@
 ---
 title: SONICEX
-verdict: wip
 date: 2024-04-19
 website: https://www.sonicex.com/welcome
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.sonicex.png
   meta: removed
+  verdict: wip
   developerName: SONICX FOUNDATION
 
 ---

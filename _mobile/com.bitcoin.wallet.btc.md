@@ -1,6 +1,5 @@
 ---
 title: 'Bitcoin Wallet: Blockchain NFT'
-verdict: fake
 date: 2024-02-05
 authors:
 - leo
@@ -10,7 +9,6 @@ redirect_from:
 - /android/com.bitcoin.wallet.btc/
 android:
   appId: com.bitcoin.wallet.btc
-  altTitle: (Fake) Bitcoin Wallet Blockchain
   users: 100000
   released: 2019-05-01
   updated: 2023-06-29
@@ -18,6 +16,7 @@ android:
   reviews: 304
   icon: com.bitcoin.wallet.btc.png
   meta: removed
+  verdict: fake
   developerName: InvoVN Solutions
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: OK钱包—比特币钱包OKCoin bitcoin walle
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/io.ok.wallet/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: io.ok.wallet.png
   meta: removed
+  verdict: wip
   developerName: laowang
 
 ---

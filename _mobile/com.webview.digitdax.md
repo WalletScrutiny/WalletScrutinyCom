@@ -1,6 +1,5 @@
 ---
 title: FlashLexiconn
-verdict: wip
 date: 2026-04-13
 redirect_from:
 - /android/com.webview.digitdax/
@@ -12,6 +11,7 @@ android:
   version: '15.1'
   icon: com.webview.digitdax.png
   meta: fewusers
+  verdict: wip
   developerName: Digitnesia
 
 ---

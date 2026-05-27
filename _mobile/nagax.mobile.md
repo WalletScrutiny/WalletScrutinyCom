@@ -1,6 +1,5 @@
 ---
 title: NAGAX
-verdict: wip
 date: 2024-02-05
 website: https://nagax.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.18
   icon: nagax.mobile.png
   meta: removed
+  verdict: wip
   developerName: NAGAX
 
 ---

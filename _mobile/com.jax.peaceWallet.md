@@ -1,6 +1,5 @@
 ---
 title: Peace Wallet
-verdict: wip
 date: 2024-08-07
 website: https://peacewallet.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: com.jax.peaceWallet.png
   meta: removed
+  verdict: wip
   developerName: PeaceWallet
 
 ---

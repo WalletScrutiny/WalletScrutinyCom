@@ -1,6 +1,5 @@
 ---
 title: Virgo Trade
-verdict: wip
 date: 2024-04-19
 website: https://www.p95g.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.5.0
   icon: com.p95g.trade.png
   meta: removed
+  verdict: wip
   developerName: Point95 Global
 
 ---

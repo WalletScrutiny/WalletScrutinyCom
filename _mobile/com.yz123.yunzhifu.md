@@ -1,6 +1,5 @@
 ---
 title: 云智付
-verdict: wip
 date: 2023-04-16
 redirect_from:
 - /android/com.yz123.yunzhifu/
@@ -12,6 +11,7 @@ android:
   version: 1.0.8
   icon: com.yz123.yunzhifu.png
   meta: removed
+  verdict: wip
   developerName: 云智付
 
 ---

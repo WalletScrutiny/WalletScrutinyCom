@@ -1,6 +1,5 @@
 ---
 title: Bexpress pro
-verdict: wip
 date: 2023-05-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.8
   icon: com.candelachain.bexpro.png
   meta: removed
+  verdict: wip
   developerName: bexpress
 
 ---

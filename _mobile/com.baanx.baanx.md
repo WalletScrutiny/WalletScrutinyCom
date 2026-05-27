@@ -1,7 +1,6 @@
 ---
 wsId: Baanx
 title: Baanx
-verdict: custodial
 date: 2023-05-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 3.1.1
   icon: com.baanx.baanx.png
   meta: removed
+  verdict: custodial
   developerName: Baanx.com Ltd
 iphone:
   appId: com.baanx.baanxapp
@@ -31,6 +31,7 @@ iphone:
   reviews: 7
   icon: com.baanx.baanxapp.jpg
   meta: removed
+  verdict: custodial
   developerName: Baanx.com Ltd
 
 ---

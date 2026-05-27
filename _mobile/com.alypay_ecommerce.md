@@ -1,6 +1,5 @@
 ---
 title: AlyPay Ecommerce
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.alypay_ecommerce/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.alypay_ecommerce.png
   meta: removed
+  verdict: wip
   developerName: AlySystem
 
 ---

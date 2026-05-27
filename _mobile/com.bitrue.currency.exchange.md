@@ -1,7 +1,6 @@
 ---
 wsId: bitrue
 title: Bitrue - Buy XRP, BTC & Crypto
-verdict: custodial
 date: 2020-11-17
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 722
   icon: com.bitrue.currency.exchange.png
   meta: ok
+  verdict: custodial
   developerName: Bitrue Support
 iphone:
   appId: com.cmcm.currency.exchange
@@ -32,6 +32,7 @@ iphone:
   reviews: 1120
   icon: com.cmcm.currency.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: BITRUE SINGAPORE PTE. LTD.
 
 ---

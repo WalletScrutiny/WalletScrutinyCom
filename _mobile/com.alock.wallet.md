@@ -1,6 +1,5 @@
 ---
 title: 에이락 월렛
-verdict: wip
 date: 2023-01-02
 website: https://a-fun.co.kr#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.3.11
   icon: com.alock.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

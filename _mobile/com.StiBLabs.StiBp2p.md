@@ -1,6 +1,5 @@
 ---
 title: StiB P2P - Bitcoin Ethereum De
-verdict: wip
 date: 2023-04-20
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 13
   icon: com.StiBLabs.StiBp2p.png
   meta: removed
+  verdict: wip
   developerName: StiBLabs
 
 ---

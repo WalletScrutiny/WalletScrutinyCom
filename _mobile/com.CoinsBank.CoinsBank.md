@@ -1,6 +1,5 @@
 ---
 title: CoinsBank Mobile Wallet
-verdict: custodial
 date: 2024-04-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 9
   icon: com.CoinsBank.CoinsBank.png
   meta: removed
+  verdict: custodial
   developerName: CoinsBank
 
 ---

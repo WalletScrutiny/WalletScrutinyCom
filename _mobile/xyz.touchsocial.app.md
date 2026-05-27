@@ -1,6 +1,5 @@
 ---
 title: Touch Social
-verdict: wip
 date: 2024-07-05
 website: https://touchsocial.xyz
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   icon: xyz.touchsocial.app.jpg
   meta: removed
+  verdict: wip
   developerName: Data Revolution
 
 ---

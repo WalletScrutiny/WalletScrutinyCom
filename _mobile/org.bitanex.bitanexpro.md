@@ -1,6 +1,5 @@
 ---
 title: BitAnex Pro
-verdict: wip
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 2
   icon: org.bitanex.bitanexpro.jpg
   meta: removed
+  verdict: wip
   developerName: BitAnex
 
 ---

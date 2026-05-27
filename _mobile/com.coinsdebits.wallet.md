@@ -1,6 +1,5 @@
 ---
 title: CoinDebits
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.coinsdebits.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.0.6
   icon: com.coinsdebits.wallet.png
   meta: removed
+  verdict: wip
   developerName: coin debits
 
 ---

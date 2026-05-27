@@ -22,7 +22,6 @@ android:
   meta: ok
   verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
-  bugbounty: https://pro.btcturk.com/en/bug-bounty
 iphone:
   appId: com.btcturk.pro
   idd: 1471639720

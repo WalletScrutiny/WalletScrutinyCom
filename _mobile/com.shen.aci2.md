@@ -1,6 +1,5 @@
 ---
 title: ACI機器人
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.shen.aci2/
@@ -12,6 +11,7 @@ android:
   version: '1.1'
   icon: com.shen.aci2.jpg
   meta: removed
+  verdict: wip
   developerName: acmtan
 
 ---

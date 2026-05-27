@@ -1,7 +1,6 @@
 ---
 wsId: mpcvaultMultisig
 title: MPCVault - Multisig Wallet
-verdict: custodial
 date: 2025-11-20
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 3
   icon: com.mpcvault.mobileapp.android.png
   meta: ok
+  verdict: custodial
   developerName: MetaLoop Inc
 iphone:
   appId: com.mpcvault.mobileapp.ios
@@ -36,6 +36,7 @@ iphone:
   reviews: 135
   icon: com.mpcvault.mobileapp.ios.jpg
   meta: ok
+  verdict: custodial
   developerName: MetaLoop Inc
 
 ---

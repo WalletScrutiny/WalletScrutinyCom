@@ -1,6 +1,5 @@
 ---
 title: P.CASH
-verdict: sourceavailable
 date: 2024-09-12
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
+  verdict: sourceavailable
   developerName: PirateCash and Cosanta foundation
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: Quidax
 title: Quidax Classic
-verdict: custodial
 date: 2022-02-10
 authors:
 - kiwilamb
@@ -24,6 +23,7 @@ android:
   reviews: 1584
   icon: com.quidax.app.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.quidax.app
   idd: 1473314875
@@ -33,6 +33,7 @@ iphone:
   reviews: 103
   icon: com.quidax.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

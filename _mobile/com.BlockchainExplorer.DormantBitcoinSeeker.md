@@ -1,6 +1,5 @@
 ---
 title: Dormant Bitcoin Seeker
-verdict: wip
 date: 2023-05-09
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 2
   icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
   meta: removed
+  verdict: wip
   developerName: Blockchain Explorer
 
 ---

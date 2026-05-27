@@ -1,6 +1,5 @@
 ---
 title: HedgerX-Buy Bitcoin & Crypto
-verdict: wip
 date: 2026-01-14
 website: https://www.hedgerx.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.14
   icon: com.hedgerx.exchange.png
   meta: fewusers
+  verdict: wip
   developerName: HedgerX
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: GetBit
-verdict: wip
 date: 2026-01-14
 website: https://www.getbit.money
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.00.53
   icon: com.getbitmoney.getbit.png
   meta: ok
+  verdict: wip
   developerName: GetBit
 
 ---

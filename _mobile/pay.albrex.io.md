@@ -1,6 +1,5 @@
 ---
 title: Albrex Wallet
-verdict: wip
 date: 2023-01-02
 website: https://web.archive.org/web/20211206092528/https://albrex.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.7.10
   icon: pay.albrex.io.png
   meta: removed
+  verdict: wip
 
 ---
 

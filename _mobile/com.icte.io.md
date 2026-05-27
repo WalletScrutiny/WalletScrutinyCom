@@ -1,6 +1,5 @@
 ---
 title: ICTE Wallet
-verdict: wip
 date: 2024-04-19
 website: https://icte.io#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.icte.io.jpg
   meta: removed
+  verdict: wip
   developerName: ICTE
 
 ---

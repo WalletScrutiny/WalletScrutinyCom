@@ -1,6 +1,5 @@
 ---
 title: Javvy
-verdict: wip
 date: 2023-05-26
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 6
   icon: com.javvy.png
   meta: removed
+  verdict: wip
   developerName: Javvy Technologies Ltd
 
 ---

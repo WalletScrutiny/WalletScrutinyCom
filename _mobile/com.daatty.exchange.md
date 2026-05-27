@@ -1,6 +1,5 @@
 ---
 title: DAATTY EXCHANGE
-verdict: wip
 date: 2024-07-05
 website: https://daattyexchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.daatty.exchange.jpg
   meta: removed
+  verdict: wip
   developerName: Daatty
 
 ---

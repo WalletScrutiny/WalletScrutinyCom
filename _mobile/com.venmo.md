@@ -1,7 +1,6 @@
 ---
 wsId: venmo
 title: Venmo
-verdict: nosendreceive
 date: 2022-04-12
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 353850
   icon: com.venmo.png
   meta: ok
+  verdict: nosendreceive
   developerName: Venmo
 iphone:
   appId: net.kortina.labs.Venmo
@@ -33,6 +33,7 @@ iphone:
   reviews: 15465515
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Venmo
 
 ---

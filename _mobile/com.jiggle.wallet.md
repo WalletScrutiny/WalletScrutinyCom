@@ -1,7 +1,6 @@
 ---
 wsId: jiggleCrypto
 title: 'Jiggle: Crypto Wallet'
-verdict: wip
 date: 2026-04-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 37
   icon: com.jiggle.wallet.jpg
   meta: stale
+  verdict: wip
   developerName: Appia Solutions DMCC
 iphone:
   appId: com.jiggle.cryptowallet
@@ -30,6 +30,7 @@ iphone:
   reviews: 291
   icon: com.jiggle.cryptowallet.jpg
   meta: stale
+  verdict: wip
   developerName: Appia Solutions DMCC
 
 ---

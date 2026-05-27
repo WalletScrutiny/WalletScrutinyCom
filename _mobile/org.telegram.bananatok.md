@@ -1,7 +1,6 @@
 ---
 wsId: bananatok
 title: Bananatok - Web 3 Messenger
-verdict: custodial
 date: 2022-06-27
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 1354
   icon: org.telegram.bananatok.png
   meta: ok
+  verdict: custodial
   developerName: Bananatok
 iphone:
   appId: com.xiangjiao.tg
@@ -35,6 +35,7 @@ iphone:
   reviews: 265
   icon: com.xiangjiao.tg.jpg
   meta: defunct
+  verdict: custodial
   developerName: Zoo Holdings Limited
 
 ---

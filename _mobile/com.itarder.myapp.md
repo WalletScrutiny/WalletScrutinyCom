@@ -1,6 +1,5 @@
 ---
 title: iTrader-Earn more with traders
-verdict: wip
 date: 2023-08-04
 website: https://itrader.cc#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.26
   icon: com.itarder.myapp.png
   meta: removed
+  verdict: wip
   developerName: "Social\_Trading\_International\_INC"
 
 ---

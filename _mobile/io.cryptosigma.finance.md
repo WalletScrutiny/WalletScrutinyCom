@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Wallet - Crypto Wallet
-verdict: nosource
 date: 2024-02-05
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.5
   icon: io.cryptosigma.finance.png
   meta: removed
+  verdict: nosource
   developerName: MeeMob
 
 ---

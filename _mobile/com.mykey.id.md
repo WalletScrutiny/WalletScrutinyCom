@@ -1,6 +1,5 @@
 ---
 title: MYKEY
-verdict: wip
 date: 2021-04-13
 redirect_from:
 - /android/com.mykey.id/
@@ -12,6 +11,7 @@ android:
   reviews: 82
   icon: com.mykey.id.png
   meta: removed
+  verdict: wip
 
 ---
 

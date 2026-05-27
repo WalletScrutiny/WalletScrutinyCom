@@ -1,6 +1,5 @@
 ---
 title: Hilux Multiwallet
-verdict: wip
 date: 2024-03-02
 website: http://www.hiluxcoin.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 4
   icon: com.hilux.wallet.png
   meta: removed
+  verdict: wip
   developerName: Hilux Infrastructures
 
 ---

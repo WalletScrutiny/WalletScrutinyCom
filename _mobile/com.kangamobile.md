@@ -1,7 +1,6 @@
 ---
 wsId: KangaWallet
 title: Kanga Wallet
-verdict: custodial
 date: 2022-07-20
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 6
   icon: com.kangamobile.png
   meta: ok
+  verdict: custodial
   developerName: Kanga Technologies
 iphone:
   appId: kanga.mobile
@@ -35,6 +35,7 @@ iphone:
   reviews: 7
   icon: kanga.mobile.jpg
   meta: ok
+  verdict: custodial
   developerName: Kanga Global
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Mahfazah | محفظة بيتكوين
-verdict: wip
 date: 2023-06-21
 website: http://www.cryptocurrencysolutions.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.6
   icon: io.mahfazah.png
   meta: removed
+  verdict: wip
   developerName: Cryptocurrency Solutions OU
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Miracle Cash&More
-verdict: custodial
 date: 2025-12-15
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 3
   icon: com.ofinans.ofinansapp.png
   meta: removed
+  verdict: custodial
   developerName: Ofinans App
 
 ---

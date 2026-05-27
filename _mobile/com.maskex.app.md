@@ -1,7 +1,6 @@
 ---
 wsId: maskEX
 title: MaskEX Crypto & Privacy Wallet
-verdict: custodial
 date: 2025-06-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 2
   icon: com.maskex.app.png
   meta: stale
+  verdict: custodial
   developerName: Maskunion Investments L.L.C.
 iphone:
   appId: com.maskexnnew.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 8
   icon: com.maskexnnew.app.jpg
   meta: stale
+  verdict: custodial
   developerName: Mask Global Market Co., Ltd
 
 ---

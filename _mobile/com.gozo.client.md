@@ -1,6 +1,5 @@
 ---
 title: iHodl Pro
-verdict: wip
 date: 2024-04-19
 website: https://ihodl.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.39.8
   icon: com.gozo.client.png
   meta: removed
+  verdict: wip
   developerName: GOZO Ltd
 
 ---

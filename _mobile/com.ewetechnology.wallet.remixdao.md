@@ -1,6 +1,5 @@
 ---
 title: 'Benty: Crypto & Web3 Wallet'
-verdict: wip
 date: 2026-01-14
 website: https://benty.ewetechnology.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.2.0
   icon: com.ewetechnology.wallet.remixdao.png
   meta: fewusers
+  verdict: wip
   developerName: ewe technology
 
 ---

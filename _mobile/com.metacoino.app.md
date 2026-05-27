@@ -1,6 +1,5 @@
 ---
 title: 'Coinoverse: Buy Bitcoin & ETH'
-verdict: wip
 date: 2026-04-28
 website: https://coinoverse.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.5.9
   icon: com.metacoino.app.png
   meta: removed
+  verdict: wip
   developerName: Coinoverse Team
 
 ---

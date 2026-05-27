@@ -1,6 +1,5 @@
 ---
 title: Invest Bitcoin Mining
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptocurrencersltd.invest.bitcoin.mining/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptocurrencersltd.invest.bitcoin.mining.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: wmzarin exchange
-verdict: custodial
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 2
   icon: com.artarax.cryptoShop.wMZarin.png
   meta: removed
+  verdict: custodial
   developerName: DAVID JONS
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Swipe Surfer
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.undertheactmedia.swipesurfer/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: com.undertheactmedia.swipesurfer.png
   meta: removed
+  verdict: wip
   developerName: Under The Act Media
 
 ---

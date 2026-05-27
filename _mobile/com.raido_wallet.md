@@ -1,7 +1,6 @@
 ---
 wsId: Raido
 title: Crypto wallet - Raido
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.9.0
   icon: com.raido_wallet.png
   meta: removed
+  verdict: custodial
   developerName: Raido Exchange
 iphone:
   appId: com.raido.wallet
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.raido.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Raidofinance OU
 
 ---

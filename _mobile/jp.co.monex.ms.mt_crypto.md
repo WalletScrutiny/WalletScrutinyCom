@@ -1,6 +1,5 @@
 ---
 title: MONEX TRADER CRYPTO　暗号資産CFD取引
-verdict: nosendreceive
 date: 2025-11-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.12
   icon: jp.co.monex.ms.mt_crypto.png
   meta: ok
+  verdict: nosendreceive
   developerName: マネックス証券株式会社
 
 ---

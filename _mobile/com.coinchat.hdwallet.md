@@ -1,6 +1,5 @@
 ---
 title: Coinchat 冷钱包
-verdict: nosource
 date: 2024-04-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '0.9'
   icon: com.coinchat.hdwallet.png
   meta: removed
+  verdict: nosource
   developerName: Biliao Foundation Ltd.
 
 ---

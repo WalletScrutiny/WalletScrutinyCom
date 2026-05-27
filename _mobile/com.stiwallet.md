@@ -1,6 +1,5 @@
 ---
 title: STIWallet
-verdict: wip
 date: 2024-11-12
 website: http://stiwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.stiwallet.png
   meta: removed
+  verdict: wip
   developerName: 아토유니버스
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Torex
-verdict: wip
 date: 2023-06-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.1'
   icon: com.torexapp.png
   meta: removed
+  verdict: wip
   developerName: Torex.one
 
 ---

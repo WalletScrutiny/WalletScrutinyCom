@@ -1,7 +1,6 @@
 ---
 wsId: ejara
 title: Ejara Crypto
-verdict: nosource
 date: 2023-02-21
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 26
   icon: com.ejara.ejarav2.png
   meta: ok
+  verdict: nosource
   developerName: Ejara
 iphone:
   appId: com.ejara.ejarav2
@@ -32,6 +32,7 @@ iphone:
   reviews: 68
   icon: com.ejara.ejarav2.jpg
   meta: ok
+  verdict: nosource
   developerName: Ejara
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Hodlfinance
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.levelup.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.20.0
   icon: com.levelup.wallet.jpg
   meta: removed
+  verdict: wip
 
 ---
 

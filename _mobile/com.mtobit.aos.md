@@ -1,6 +1,5 @@
 ---
 title: Mtobit
-verdict: wip
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.6
   icon: com.mtobit.aos.png
   meta: removed
+  verdict: wip
   developerName: mtobit
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Thodex – Global Kripto Para Al
-verdict: wip
 date: 2023-09-10
 website: https://www.thodex.com/tr
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 56
   icon: com.uho.thodex.png
   meta: removed
+  verdict: wip
   developerName: Thodex Inc
 
 ---

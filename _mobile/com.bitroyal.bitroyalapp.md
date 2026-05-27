@@ -1,6 +1,5 @@
 ---
 title: BitRoyal Exchange
-verdict: wip
 date: 2024-04-03
 website: https://bitroyalexchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.1'
   icon: com.bitroyal.bitroyalapp.png
   meta: removed
+  verdict: wip
   developerName: BitRoyal
 
 ---

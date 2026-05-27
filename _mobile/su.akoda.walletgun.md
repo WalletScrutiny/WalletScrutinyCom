@@ -1,6 +1,5 @@
 ---
 title: 'Wallet Gun: Farm Beauty Crypto'
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/su.akoda.walletgun/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: su.akoda.walletgun.png
   meta: removed
+  verdict: wip
   developerName: AkodA
 
 ---

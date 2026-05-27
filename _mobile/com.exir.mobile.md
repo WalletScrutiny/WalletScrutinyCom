@@ -1,6 +1,5 @@
 ---
 title: EXIR | اکسیر
-verdict: custodial
 date: 2023-05-10
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 14
   icon: com.exir.mobile.jpg
   meta: removed
+  verdict: custodial
   developerName: EXIR
 
 ---

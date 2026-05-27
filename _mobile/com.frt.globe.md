@@ -1,6 +1,5 @@
 ---
 title: 'Globe: Crypto Exchange'
-verdict: wip
 date: 2025-08-09
 website: https://globe.exchange/support
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.3.0
   icon: com.frt.globe.png
   meta: ok
+  verdict: wip
   developerName: Globe Exchange
 
 ---

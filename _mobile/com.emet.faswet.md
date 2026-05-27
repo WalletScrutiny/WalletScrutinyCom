@@ -1,7 +1,6 @@
 ---
 wsId: faswet
 title: Faswet
-verdict: wip
 date: 2024-10-28
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.9.2
   icon: com.emet.faswet.png
   meta: removed
+  verdict: wip
   developerName: EBG Malta Business Group
 iphone:
   appId: com.emet.faswet
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: com.emet.faswet.jpg
   meta: removed
+  verdict: wip
   developerName: EBG MALTA BUSINESS GROUP LIMITED
 
 ---

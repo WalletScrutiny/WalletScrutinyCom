@@ -1,7 +1,6 @@
 ---
 wsId: ACEexchange
 title: ACE Exchange - TWD, BTC&Crypto
-verdict: custodial
 date: 2023-05-10
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 5.2.0_5210
   icon: com.asiainnovations.ace.taiwan.png
   meta: removed
+  verdict: custodial
   developerName: ACE Exchange
 iphone:
   appId: com.asiainnovations.ace
@@ -31,6 +31,7 @@ iphone:
   reviews: 2
   icon: com.asiainnovations.ace.jpg
   meta: removed
+  verdict: custodial
   developerName: 王牌數位創新股份有限公司
 
 ---

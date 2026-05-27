@@ -1,6 +1,5 @@
 ---
 title: LocalBitcoin
-verdict: wip
 date: 2021-09-16
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   reviews: 30
   icon: com.wLocalCrytoBTC_13166476.png
   meta: removed
+  verdict: wip
 
 ---
 

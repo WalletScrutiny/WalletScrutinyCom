@@ -1,6 +1,5 @@
 ---
 title: PayUs
-verdict: wip
 date: 2024-07-05
 website: https://www.payus.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.sonicx.payus.png
   meta: removed
+  verdict: wip
   developerName: SONICX FOUNDATION
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: dsdaqGlobal
 title: DsdaqGlobal
-verdict: custodial
 date: 2023-08-25
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 5.4.1_push_v2
   icon: com.chainup.exchange.DsdaqGlobal.png
   meta: removed
+  verdict: custodial
   developerName: Dsdaq Market Ltd.
 iphone:
   appId: com.new.dsdaq.global
@@ -29,6 +29,7 @@ iphone:
   reviews: 0
   icon: com.new.dsdaq.global.jpg
   meta: removed
+  verdict: custodial
   developerName: Dsdaq Market Ltd.
 
 ---

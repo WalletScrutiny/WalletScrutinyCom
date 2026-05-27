@@ -1,6 +1,5 @@
 ---
 title: PayPilot Crypto Wallet & Card
-verdict: wip
 date: 2026-01-14
 website: https://www.paypilot.org
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.5.0
   icon: org.paypilot.app.png
   meta: fewusers
+  verdict: wip
   developerName: PayPilot
 
 ---

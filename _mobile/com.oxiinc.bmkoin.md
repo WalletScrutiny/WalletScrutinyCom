@@ -1,6 +1,5 @@
 ---
 title: BmKoin Wallet
-verdict: wip
 date: 2023-05-31
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: '1.1'
   icon: com.oxiinc.bmkoin.png
   meta: removed
+  verdict: wip
   developerName: Bmkoin Digital Technology LLP
 
 ---

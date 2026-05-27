@@ -1,6 +1,5 @@
 ---
 title: 'Cryptopocket - Multi Currency '
-verdict: wip
 date: 2023-05-06
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.8
   icon: app.org.cryptopocket.jpg
   meta: removed
+  verdict: wip
   developerName: Cryptopocket Solutions
 
 ---

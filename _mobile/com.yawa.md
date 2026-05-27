@@ -1,6 +1,5 @@
 ---
 title: YaWa
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.yawa/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0.4
   icon: com.yawa.png
   meta: removed
+  verdict: wip
   developerName: Viktor Yandolin
 
 ---

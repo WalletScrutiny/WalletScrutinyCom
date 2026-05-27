@@ -1,6 +1,5 @@
 ---
 title: SendThe.Cash
-verdict: wip
 date: 2024-04-19
 website: https://www.sendthe.cash/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.sendthe.cash.png
   meta: removed
+  verdict: wip
   developerName: SendThe.Cash
 
 ---

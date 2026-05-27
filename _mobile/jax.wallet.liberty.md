@@ -1,6 +1,5 @@
 ---
 title: 'Ja­xx Lib­erty: Crypto Wallet'
-verdict: fake
 date: 2021-10-22
 authors:
 - leo
@@ -8,13 +7,13 @@ redirect_from:
 - /android/jax.wallet.liberty/
 android:
   appId: jax.wallet.liberty
-  altTitle: '(Fake) Jaxx Lib­erty: Crypto Wallet'
   users: 500
   released: 2021-08-30
   updated: 2021-08-31
   version: '12.003'
   icon: jax.wallet.liberty.png
   meta: removed
+  verdict: fake
 
 ---
 

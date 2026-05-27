@@ -1,6 +1,5 @@
 ---
 title: Patricia
-verdict: custodial
 date: 2023-08-29
 authors:
 - danny
@@ -20,6 +19,7 @@ iphone:
   reviews: 619
   icon: com.patricia.build.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

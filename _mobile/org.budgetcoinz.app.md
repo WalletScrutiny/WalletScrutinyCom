@@ -1,7 +1,6 @@
 ---
 wsId: budgetCoinz
 title: BudgetCoinz Bitcoin Wallet
-verdict: nosource
 date: 2026-05-02
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.8.0
   icon: org.budgetcoinz.app.jpg
   meta: ok
+  verdict: nosource
   developerName: BudgetCoinz
 iphone:
   appId: org.budgetcoinz.app
@@ -28,6 +28,7 @@ iphone:
   reviews: 3
   icon: org.budgetcoinz.app.jpg
   meta: ok
+  verdict: nosource
   developerName: BudgetCoinz LLC
 
 ---

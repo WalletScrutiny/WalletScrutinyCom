@@ -1,7 +1,6 @@
 ---
 wsId: coinfinity
 title: Coinfinity - Buy Bitcoin
-verdict: nosource
 date: 2025-11-11
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.0.13
   icon: co.coinfinity.coinfinity.mobile.png
   meta: ok
+  verdict: nosource
   developerName: Coinfinity
 iphone:
   appId: co.coinfinity.coinfinity.mobile
@@ -36,6 +36,7 @@ iphone:
   reviews: 0
   icon: co.coinfinity.coinfinity.mobile.jpg
   meta: ok
+  verdict: nosource
   developerName: Coinfinity GmbH
 
 ---

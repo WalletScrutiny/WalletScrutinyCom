@@ -1,6 +1,5 @@
 ---
 title: BetaFunds - The Smart Beta Ind
-verdict: wip
 date: 2024-04-19
 website: https://betafunds.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 2.1.2
   icon: com.BetaFunds.png
   meta: removed
+  verdict: wip
   developerName: BetaFunds
 
 ---

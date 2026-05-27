@@ -1,6 +1,5 @@
 ---
 title: Five Star Exchange
-verdict: custodial
 date: 2024-05-18
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   icon: skill.techespo.fivestarexchange.png
   meta: removed
+  verdict: custodial
   developerName: Pingulkars Technology Solutions Private Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'UBLEX : Cryptocurrency Exchang'
-verdict: wip
 date: 2024-04-03
 website: https://www.ublex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.8
   icon: com.ublex.png
   meta: removed
+  verdict: wip
   developerName: UBX Global Trading Limited
 
 ---

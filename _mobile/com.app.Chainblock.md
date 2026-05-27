@@ -1,6 +1,5 @@
 ---
 title: Chainblock
-verdict: wip
 date: 2024-08-31
 website: https://chainblock.it/flash/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.app.Chainblock.png
   meta: removed
+  verdict: wip
   developerName: Chainblock
 
 ---

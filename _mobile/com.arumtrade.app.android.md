@@ -1,6 +1,5 @@
 ---
 title: Arum Trade — Investing  & Trad
-verdict: wip
 date: 2024-04-03
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.4
   icon: com.arumtrade.app.android.png
   meta: removed
+  verdict: wip
   developerName: Arum Trade Ltd
 
 ---

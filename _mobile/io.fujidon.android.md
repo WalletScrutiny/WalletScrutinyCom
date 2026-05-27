@@ -1,6 +1,5 @@
 ---
 title: FujiDon
-verdict: wip
 date: 2024-07-05
 website: https://www.fujidon.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.1
   icon: io.fujidon.android.png
   meta: removed
+  verdict: wip
   developerName: FujiDon
 
 ---

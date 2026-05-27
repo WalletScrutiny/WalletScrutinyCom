@@ -1,7 +1,6 @@
 ---
 wsId: vynksafeCryptoExchange
 title: VYNKSAFE
-verdict: custodial
 date: 2024-05-07
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '2.6'
   icon: com.vynksafe.app.png
   meta: removed
+  verdict: custodial
   developerName: VYNK GROUP AE
 iphone:
   appId: com.pixels.vynksafe
@@ -32,6 +32,7 @@ iphone:
   reviews: 3
   icon: com.pixels.vynksafe.jpg
   meta: removed
+  verdict: custodial
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED
 
 ---

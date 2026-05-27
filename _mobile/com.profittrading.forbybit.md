@@ -1,6 +1,5 @@
 ---
 title: ProfitTradingApp For Bybit
-verdict: custodial
 date: 2023-04-29
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: com.profittrading.forbybit.png
   meta: ok
+  verdict: custodial
   developerName: ProfitTradingApp
 
 ---

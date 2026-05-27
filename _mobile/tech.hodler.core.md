@@ -1,6 +1,5 @@
 ---
 title: HODLER Open Source Multi-Asset
-verdict: sourceavailable
 date: 2024-04-26
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 0.4.6
   icon: tech.hodler.core.png
   meta: removed
+  verdict: sourceavailable
   developerName: HODLER.TECH LTD
 
 ---

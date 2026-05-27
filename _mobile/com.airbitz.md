@@ -1,7 +1,6 @@
 ---
 wsId: Airbitz
 title: Bitcoin Wallet - Airbitz
-verdict: sourceavailable
 date: 2021-10-19
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 490
   icon: com.airbitz.png
   meta: removed
+  verdict: sourceavailable
 iphone:
   appId: co.airbitz.airbitz
   idd: '843536046'
@@ -33,6 +33,7 @@ iphone:
   reviews: 82
   icon: co.airbitz.airbitz.jpg
   meta: obsolete
+  verdict: sourceavailable
   developerName: Airbitz Inc
 
 ---

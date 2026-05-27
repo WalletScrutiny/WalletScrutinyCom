@@ -1,6 +1,5 @@
 ---
 title: BITFLEX
-verdict: wip
 date: 2024-05-07
 website: https://bit-flex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0-beta
   icon: com.bitflex.png
   meta: removed
+  verdict: wip
   developerName: BITFLEX LLC
 
 ---

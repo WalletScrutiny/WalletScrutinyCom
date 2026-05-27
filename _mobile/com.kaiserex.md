@@ -1,6 +1,5 @@
 ---
 title: Kaiserex - Bitcoin Altcoin Cryptocurrency Exchange
-verdict: wip
 date: 2023-01-02
 website: https://www.kaiserex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.kaiserex.png
   meta: removed
+  verdict: wip
 
 ---
 

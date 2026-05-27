@@ -1,7 +1,6 @@
 ---
 wsId: btciapp
 title: Bitcoin India Wallet & Exchange
-verdict: custodial
 date: 2021-09-19
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 963
   icon: com.bitcoinindia.Btciapp.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.bitcoinindia.Btciapp
   idd: '1230917514'
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.bitcoinindia.Btciapp.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

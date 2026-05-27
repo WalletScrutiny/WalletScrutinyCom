@@ -1,6 +1,5 @@
 ---
 title: Theya – Bitcoin Wallet
-verdict: wip
 date: 2026-05-05
 authors:
 - danny
@@ -21,6 +20,7 @@ iphone:
   reviews: 33
   icon: com.theya.customerapp.jpg
   meta: stale
+  verdict: wip
   developerName: Theya Inc.
 
 ---

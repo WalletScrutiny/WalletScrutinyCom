@@ -1,6 +1,5 @@
 ---
 title: CoinBaxa
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.xuni.coinbax/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.xuni.coinbax.jpg
   meta: removed
+  verdict: wip
 
 ---
 

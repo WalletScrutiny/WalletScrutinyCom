@@ -1,6 +1,5 @@
 ---
 title: Assure-BTC&ETH Wallet
-verdict: wip
 date: 2023-03-21
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 20
   icon: com.neuxs.assure.png
   meta: removed
+  verdict: wip
 
 ---
 

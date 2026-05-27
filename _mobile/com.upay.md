@@ -1,6 +1,5 @@
 ---
 title: UPAY - Personal
-verdict: wip
 date: 2023-05-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.1'
   icon: com.upay.png
   meta: removed
+  verdict: wip
   developerName: The Value Group Inc.
 
 ---

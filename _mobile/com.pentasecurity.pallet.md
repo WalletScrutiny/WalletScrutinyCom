@@ -1,6 +1,5 @@
 ---
 title: AMO WALLET
-verdict: wip
 date: 2022-03-24
 website: http://www.pentasecurity.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7.1
   icon: com.pentasecurity.pallet.png
   meta: removed
+  verdict: wip
 
 ---
 

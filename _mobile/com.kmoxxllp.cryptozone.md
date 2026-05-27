@@ -1,6 +1,5 @@
 ---
 title: Cryptozone
-verdict: wip
 date: 2023-01-30
 website: https://kmoxx.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.kmoxxllp.cryptozone.png
   meta: removed
+  verdict: wip
 
 ---
 

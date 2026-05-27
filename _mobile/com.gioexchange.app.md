@@ -1,6 +1,5 @@
 ---
 title: Gio Exchange
-verdict: wip
 date: 2026-05-21
 website: https://www.gioexchange.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.gioexchange.app.png
   meta: stale
+  verdict: wip
   developerName: ANGELS
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Koinzaar Crypto Wallet
-verdict: wip
 date: 2023-01-30
 website: https://www.koinzaar.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.5'
   icon: com.koinzaar.app.png
   meta: removed
+  verdict: wip
 
 ---
 

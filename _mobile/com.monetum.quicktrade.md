@@ -1,6 +1,5 @@
 ---
 title: Monetum Quick Trade
-verdict: wip
 date: 2025-03-14
 website: https://monetum.com/quick-trade
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.7.0
   icon: com.monetum.quicktrade.png
   meta: obsolete
+  verdict: wip
   developerName: Monetum Mobile
 
 ---

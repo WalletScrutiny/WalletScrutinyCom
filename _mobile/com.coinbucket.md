@@ -1,6 +1,5 @@
 ---
 title: CoinBucket - Independent Reserve
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.coinbucket/
@@ -12,6 +11,7 @@ android:
   version: PRODUCTION (v1580502023)
   icon: com.coinbucket.png
   meta: removed
+  verdict: wip
 
 ---
 

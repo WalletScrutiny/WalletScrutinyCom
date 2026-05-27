@@ -1,6 +1,5 @@
 ---
 title: BTCBOX Trading
-verdict: wip
 date: 2023-10-16
 website: https://www.btcbox.com.br
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: br.btcbox.platform.png
   meta: removed
+  verdict: wip
   developerName: M&C Inovação
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: MyPw App
-verdict: wip
 date: 2024-04-19
 website: https://blockchaindev.my/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.mypw.app.png
   meta: removed
+  verdict: wip
   developerName: Blockchain Dev
 
 ---

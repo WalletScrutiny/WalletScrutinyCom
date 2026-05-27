@@ -1,7 +1,6 @@
 ---
 wsId: bitMEXNew
 title: 'BitMEX: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2023-03-29
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.2.10
   icon: com.bitmex.app.android.png
   meta: ok
+  verdict: custodial
   developerName: BitMEX
 iphone:
   appId: com.bitmex.app.ios
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.bitmex.app.ios.jpg
   meta: ok
+  verdict: custodial
   developerName: BitMEX
 
 ---

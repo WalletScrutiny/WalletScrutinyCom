@@ -1,7 +1,6 @@
 ---
 wsId: Monarch
 title: Monarch Wallet
-verdict: nosource
 date: 2024-07-13
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 132
   icon: com.sf.monarch.png
   meta: removed
+  verdict: nosource
   developerName: Splash Factory
 iphone:
   appId: com.sf.monarch
@@ -36,6 +36,7 @@ iphone:
   reviews: 394
   icon: com.sf.monarch.jpg
   meta: obsolete
+  verdict: nosource
   developerName: Splash Factory
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Bitso Alpha Pro
-verdict: custodial
 date: 2023-02-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 594
   icon: com.bitso.alpha.png
   meta: ok
+  verdict: custodial
   developerName: Bitso
 
 ---

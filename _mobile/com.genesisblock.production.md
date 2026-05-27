@@ -1,7 +1,6 @@
 ---
 wsId: GenesisBlock
 title: Hightop
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 17
   icon: com.genesisblock.production.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.genesisblock.GenesisBlock
   idd: 1495538730
@@ -33,6 +33,7 @@ iphone:
   reviews: 56
   icon: com.genesisblock.GenesisBlock.jpg
   meta: ok
+  verdict: custodial
   developerName: Genesis Block
 
 ---

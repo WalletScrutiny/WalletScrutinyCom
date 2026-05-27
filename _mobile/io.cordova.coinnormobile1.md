@@ -1,6 +1,5 @@
 ---
 title: Coinnor
-verdict: wip
 date: 2024-04-03
 website: https://bluedrive.ro
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: io.cordova.coinnormobile1.png
   meta: removed
+  verdict: wip
   developerName: Bluedrive Solutions International SRL
 
 ---

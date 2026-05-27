@@ -1,6 +1,5 @@
 ---
 title: SprintBank
-verdict: wip
 date: 2024-04-19
 website: https://web.archive.org/web/20250325054816/http://sprint-bank.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.4
   icon: quasar.sprint.bank.app.jpg
   meta: removed
+  verdict: wip
   developerName: Джон Альварес
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BIP-39 Coin-flip for crypto
-verdict: wip
 date: 2025-02-18
 website: https://github.com/openMolNike/Crypto-Apps
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.6'
   icon: com.molnike.crypto.seed.png
   meta: obsolete
+  verdict: wip
   developerName: Mol Nike
 
 ---

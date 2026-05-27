@@ -1,6 +1,5 @@
 ---
 title: Bachex
-verdict: wip
 date: 2024-02-05
 website: https://bachex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.8
   icon: com.bachex_android.png
   meta: removed
+  verdict: wip
   developerName: IXX Pro
 
 ---

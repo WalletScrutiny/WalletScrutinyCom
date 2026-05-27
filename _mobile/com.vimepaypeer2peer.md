@@ -1,6 +1,5 @@
 ---
 title: Vimepay
-verdict: wip
 date: 2023-01-02
 website: http://vimepay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.2
   icon: com.vimepaypeer2peer.png
   meta: removed
+  verdict: wip
 
 ---
 

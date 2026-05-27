@@ -1,7 +1,6 @@
 ---
 wsId: nexdaxExchange
 title: NexDAX
-verdict: custodial
 date: 2023-08-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '3.0'
   icon: com.nexdax.png
   meta: ok
+  verdict: custodial
   developerName: NexDAX Technology Company Limited
 iphone:
   appId: com.nexdax.Nexdax
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: com.nexdax.Nexdax.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Nexdax Technology Company Limited
 
 ---

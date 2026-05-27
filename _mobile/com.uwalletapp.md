@@ -1,6 +1,5 @@
 ---
 title: Utrust Wallet
-verdict: custodial
 date: 2021-01-23
 website: https://utrust.com
 twitter: utrust
@@ -19,6 +18,7 @@ android:
   reviews: 58
   icon: com.uwalletapp.png
   meta: removed
+  verdict: custodial
 
 ---
 

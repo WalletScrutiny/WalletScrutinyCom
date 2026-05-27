@@ -1,6 +1,5 @@
 ---
 title: MoonX - Crypto Trading Platfor
-verdict: wip
 date: 2024-04-03
 website: https://web.archive.org/web/20241111010507/http://moonx.pro/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.0'
   icon: moonx.exchange.moonx.png
   meta: removed
+  verdict: wip
   developerName: MoonX Technologies Ltd
 
 ---

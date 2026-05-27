@@ -1,6 +1,5 @@
 ---
 title: CryptoEngine
-verdict: wip
 date: 2023-12-19
 website: https://web.archive.org/web/20220102193531/https://cryptotradeengine.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: tech.qoden.mythology.png
   meta: removed
+  verdict: wip
   developerName: CryptoEngine
 
 ---

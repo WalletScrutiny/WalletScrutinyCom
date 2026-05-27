@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Trader - Buy & Sell
-verdict: wip
 date: 2023-09-15
 website: https://bitcointrader.icu#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '3.0'
   icon: com.bitcoin.trader2022.png
   meta: removed
+  verdict: wip
   developerName: Bitcoin Trader Exchange
 
 ---

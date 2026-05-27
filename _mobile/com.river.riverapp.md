@@ -1,7 +1,6 @@
 ---
 wsId: river
 title: 'River: Buy Bitcoin'
-verdict: custodial
 date: 2023-12-15
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 304
   icon: com.river.riverapp.png
   meta: ok
+  verdict: custodial
   developerName: River Financial
 iphone:
   appId: com.river.riverapp
@@ -35,6 +35,7 @@ iphone:
   reviews: 7940
   icon: com.river.riverapp.jpg
   meta: ok
+  verdict: custodial
   developerName: River Financial Inc.
 
 ---

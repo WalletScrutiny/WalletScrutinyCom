@@ -1,7 +1,6 @@
 ---
 wsId: cextorExchange
 title: Cextor - Buy Bitcoin & Crypto
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   reviews: 5
   icon: com.cextor.pro.png
   meta: ok
+  verdict: custodial
   developerName: CEXTOR
 
 ---

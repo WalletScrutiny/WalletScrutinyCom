@@ -1,6 +1,5 @@
 ---
 title: Brastoken
-verdict: wip
 date: 2024-04-26
 website: https://brastoken.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: wallet.brastoken.com.png
   meta: removed
+  verdict: wip
   developerName: MKT Vendas
 
 ---

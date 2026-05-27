@@ -1,6 +1,5 @@
 ---
 title: Galaxy Wallet
-verdict: wip
 date: 2023-01-02
 website: http://www.bluekeymarket.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.2'
   icon: com.application.galaxywallet.png
   meta: removed
+  verdict: wip
 
 ---
 

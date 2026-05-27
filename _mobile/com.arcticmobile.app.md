@@ -1,7 +1,6 @@
 ---
 wsId: arcticCryptoWallet
 title: 'Arctic: Crypto Bitcoin Wallet'
-verdict: nosource
 date: 2025-07-14
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 1
   icon: com.arcticmobile.app.png
   meta: stale
+  verdict: nosource
   developerName: ARCTIC SOFTWARE OÜ
 iphone:
   appId: com.arcticmobile.app
@@ -36,6 +36,7 @@ iphone:
   reviews: 6
   icon: com.arcticmobile.app.jpg
   meta: removed
+  verdict: nosource
   developerName: Arctic Software OU
 
 ---

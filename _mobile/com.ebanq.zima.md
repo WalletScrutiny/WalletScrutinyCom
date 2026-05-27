@@ -1,6 +1,5 @@
 ---
 title: Zima Bank
-verdict: wip
 date: 2024-05-18
 redirect_from:
 - /android/com.ebanq.zima/
@@ -12,6 +11,7 @@ android:
   version: 1.4.0
   icon: com.ebanq.zima.png
   meta: removed
+  verdict: wip
   developerName: Destafinance Ltd
 
 ---

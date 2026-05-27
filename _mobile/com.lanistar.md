@@ -1,7 +1,6 @@
 ---
 wsId: lanistar
 title: Lanistar
-verdict: custodial
 date: 2025-03-11
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 58
   icon: com.lanistar.png
   meta: removed
+  verdict: custodial
   developerName: Lanistar
 iphone:
   appId: com.lanistar.lanistarprod
@@ -32,6 +32,7 @@ iphone:
   reviews: 107
   icon: com.lanistar.lanistarprod.jpg
   meta: removed
+  verdict: custodial
   developerName: Lanistar Limited
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Square
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/com.CryptoSquare.CryptoSquare/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.CryptoSquare.CryptoSquare.png
   meta: removed
+  verdict: wip
   developerName: Warn Wilson Jr.
 
 ---

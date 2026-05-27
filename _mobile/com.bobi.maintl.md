@@ -1,6 +1,5 @@
 ---
 title: BobiEX
-verdict: wip
 date: 2024-02-05
 website: https://tw.yahoo.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.2.3
   icon: com.bobi.maintl.png
   meta: removed
+  verdict: wip
   developerName: BobiEX
 
 ---

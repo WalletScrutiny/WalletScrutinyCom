@@ -1,7 +1,6 @@
 ---
 wsId: pallapayApp
 title: PallaPay
-verdict: custodial
 date: 2025-07-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.0.3
   icon: com.pallapay.application.jpg
   meta: removed
+  verdict: custodial
   developerName: Palladium Payment Services LLC
 iphone:
   appId: com.pallapay.application
@@ -35,6 +35,7 @@ iphone:
   reviews: 2
   icon: com.pallapay.application.jpg
   meta: ok
+  verdict: custodial
   developerName: Palladium Payment Services LLC
 
 ---

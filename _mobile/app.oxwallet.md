@@ -1,6 +1,5 @@
 ---
 title: OX Wallet Secure
-verdict: wip
 date: 2026-01-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.2.3
   icon: app.oxwallet.png
   meta: defunct
+  verdict: wip
   developerName: Oxlabs group
 
 ---

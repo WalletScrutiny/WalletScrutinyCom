@@ -1,7 +1,6 @@
 ---
 wsId: Belfrics
 title: Belfrics – CryptoCurrency
-verdict: custodial
 date: 2023-08-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 8
   icon: com.app.belfrics.png
   meta: removed
+  verdict: custodial
   developerName: Belfrics Holding Ltd
 iphone:
   appId: com.belfrics.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 25
   icon: com.belfrics.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Belfrics Group
 
 ---

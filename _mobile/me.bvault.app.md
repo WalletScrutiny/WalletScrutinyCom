@@ -1,6 +1,5 @@
 ---
 title: Bvault
-verdict: wip
 date: 2024-08-07
 redirect_from:
 - /android/me.bvault.app/
@@ -12,6 +11,7 @@ android:
   version: 2.2.7
   icon: me.bvault.app.png
   meta: removed
+  verdict: wip
   developerName: Wonder Information Tech.
 
 ---

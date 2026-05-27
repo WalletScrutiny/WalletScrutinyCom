@@ -1,6 +1,5 @@
 ---
 title: BluePips Capital
-verdict: wip
 date: 2023-11-02
 website: https://www.bluepips.co#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 2.6.0
   icon: com.bluepipscapital.webviewapp.png
   meta: removed
+  verdict: wip
   developerName: BluePips Capital
 
 ---

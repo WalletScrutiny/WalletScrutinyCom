@@ -1,6 +1,5 @@
 ---
 title: Peach Wallet
-verdict: wip
 date: 2024-04-03
 website: https://peachwallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.5
   icon: wallet.peach.com.png
   meta: removed
+  verdict: wip
   developerName: décript
 
 ---

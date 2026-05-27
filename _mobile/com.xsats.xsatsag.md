@@ -1,6 +1,5 @@
 ---
 title: xsats - save bitcoin
-verdict: wip
 date: 2024-04-19
 website: https://xsats.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.23
   icon: com.xsats.xsatsag.png
   meta: removed
+  verdict: wip
   developerName: xsats AG
 
 ---

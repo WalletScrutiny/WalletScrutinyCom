@@ -1,7 +1,6 @@
 ---
 wsId: emcdPoolWallet
 title: EMCD Coinhold — Crypto Wallet
-verdict: custodial
 date: 2023-07-07
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.png
   meta: ok
+  verdict: custodial
   developerName: EMCD Tech Limited
 iphone:
   appId: io.emcd.app
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: io.emcd.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Emcd Tech Limited
 
 ---

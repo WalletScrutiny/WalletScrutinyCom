@@ -1,6 +1,5 @@
 ---
 title: FxWallet
-verdict: wip
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   reviews: 29
   icon: com.fxfi.fxwallet.jpg
   meta: ok
+  verdict: wip
   developerName: DXP COMPUTING POWER FOUNDATION PTE. LTD.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: tomiPay
 title: TOMI Web3 SuperApp
-verdict: nosource
 date: 2023-07-19
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 4
   icon: com.tomiapp.production.png
   meta: ok
+  verdict: nosource
   developerName: tomi.com
 iphone:
   appId: com.tomiapps.production
@@ -36,6 +36,7 @@ iphone:
   reviews: 14
   icon: com.tomiapps.production.jpg
   meta: ok
+  verdict: nosource
   developerName: Tomi technology LLC
 
 ---

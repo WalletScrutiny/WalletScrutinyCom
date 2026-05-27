@@ -1,6 +1,5 @@
 ---
 title: BBLC Inc
-verdict: wip
 date: 2024-11-21
 redirect_from:
 - /android/com.blcGb.mobile/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: com.blcGb.mobile.png
   meta: removed
+  verdict: wip
   developerName: Bilimoria Nickesh G
 
 ---

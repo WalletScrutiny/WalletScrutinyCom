@@ -1,7 +1,6 @@
 ---
 wsId: newtonCryptoCanada
 title: Newton - Trade Crypto Canada
-verdict: custodial
 date: 2026-01-05
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 4
   icon: web.tradenewton.com.png
   meta: ok
+  verdict: custodial
   developerName: Newton Crypto Ltd
 iphone:
   appId: co.newton.newtonios
@@ -35,6 +35,7 @@ iphone:
   reviews: 24480
   icon: co.newton.newtonios.jpg
   meta: ok
+  verdict: custodial
   developerName: Newton Crypto Ltd.
 
 ---

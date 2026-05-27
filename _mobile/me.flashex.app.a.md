@@ -1,6 +1,5 @@
 ---
 title: 'FlashEx: Trade Bitcoin Securely'
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/me.flashex.app.a/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: me.flashex.app.a.png
   meta: removed
+  verdict: wip
 
 ---
 

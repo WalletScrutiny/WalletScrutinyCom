@@ -1,6 +1,5 @@
 ---
 title: Chankura
-verdict: wip
 date: 2024-05-07
 website: https://chankura.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.barong.chankura.png
   meta: removed
+  verdict: wip
   developerName: Omniverse
 
 ---

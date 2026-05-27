@@ -1,7 +1,6 @@
 ---
 wsId: mojitoWallet
 title: Mojito wallet
-verdict: sourceavailable
 date: 2025-12-15
 authors:
 - danny
@@ -27,8 +26,8 @@ android:
   version: 0.4.1
   icon: com.mojitowallet.png
   meta: stale
+  verdict: sourceavailable
   developerName: RBB SRL
-  repository: https://github.com/mintlayer/mojito_mobile_wallet
 iphone:
   appId: com.mojitowallet
   idd: '1620691992'
@@ -39,6 +38,7 @@ iphone:
   reviews: 9
   icon: com.mojitowallet.jpg
   meta: stale
+  verdict: sourceavailable
   developerName: RBB SRL
 
 ---

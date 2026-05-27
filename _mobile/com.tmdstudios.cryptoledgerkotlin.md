@@ -1,6 +1,5 @@
 ---
 title: Crypto Ledger
-verdict: wip
 date: 2025-02-13
 website: https://tmdstudios.wordpress.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: VARY
   icon: com.tmdstudios.cryptoledgerkotlin.png
   meta: removed
+  verdict: wip
   developerName: TMD Studios
 
 ---

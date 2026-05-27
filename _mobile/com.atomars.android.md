@@ -1,6 +1,5 @@
 ---
 title: Atomars
-verdict: custodial
 date: 2024-09-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.1.1
   icon: com.atomars.android.png
   meta: removed
+  verdict: custodial
   developerName: Atomars
 
 ---

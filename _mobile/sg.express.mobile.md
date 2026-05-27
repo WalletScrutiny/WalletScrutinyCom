@@ -1,6 +1,5 @@
 ---
 title: 'StormGain Express: Digital Currency Marketplace'
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 14
   icon: sg.express.mobile.png
   meta: removed
+  verdict: custodial
 
 ---
 

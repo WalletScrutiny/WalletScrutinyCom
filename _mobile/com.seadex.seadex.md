@@ -1,6 +1,5 @@
 ---
 title: SEADEX
-verdict: wip
 date: 2026-06-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.0
   icon: com.seadex.seadex.png
   meta: removed
+  verdict: wip
   developerName: Southeast Asia Digital Exchange
 
 ---

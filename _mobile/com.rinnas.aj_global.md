@@ -1,7 +1,6 @@
 ---
 wsId: AjGlobalV
 title: 'AjGlobalV: Crypto And Giftcard'
-verdict: custodial
 date: 2025-10-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 13
   icon: com.rinnas.aj_global.png
   meta: removed
+  verdict: custodial
   developerName: AJ Trust Merchants Global Limited
 iphone:
   appId: com.rinnas.ajGlobal
@@ -32,6 +32,7 @@ iphone:
   reviews: 36
   icon: com.rinnas.ajGlobal.jpg
   meta: stale
+  verdict: custodial
   developerName: AJ TRUST MERCHANTS GLOBAL LIMITED
 
 ---

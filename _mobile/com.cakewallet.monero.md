@@ -1,6 +1,5 @@
 ---
 title: Monero.com by Cake Wallet
-verdict: wip
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   reviews: 371
   icon: com.cakewallet.monero.jpg
   meta: ok
+  verdict: wip
   developerName: Cake Technologies, LLC
 
 ---

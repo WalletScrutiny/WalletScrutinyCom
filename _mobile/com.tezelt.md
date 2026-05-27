@@ -1,6 +1,5 @@
 ---
 title: Tezelt
-verdict: wip
 date: 2024-02-05
 website: https://tezelt.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.5.2
   icon: com.tezelt.png
   meta: removed
+  verdict: wip
   developerName: TEZELT
 
 ---

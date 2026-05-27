@@ -1,6 +1,5 @@
 ---
 title: Noblecoins
-verdict: wip
 date: 2024-02-05
 website: https://www.noblecoins.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   icon: com.noblecoins.noble_coins.png
   meta: removed
+  verdict: wip
   developerName: Devglobals Technology
 
 ---

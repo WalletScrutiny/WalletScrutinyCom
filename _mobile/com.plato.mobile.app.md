@@ -1,6 +1,5 @@
 ---
 title: Plato
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/com.plato.mobile.app/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: com.plato.mobile.app.png
   meta: removed
+  verdict: wip
   developerName: Plato Technologies Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Crypto Exchange
-verdict: wip
 date: 2024-05-07
 website: http://www.tradetoolsfx.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: com.tradetoolsfx.cryptoexchange.png
   meta: removed
+  verdict: wip
   developerName: TradeTools FX
 
 ---

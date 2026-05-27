@@ -1,7 +1,6 @@
 ---
 wsId: deltaExchange
 title: 'Delta Exchange: Crypto Options'
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 1
   icon: com.deltaexchangeindia.png
   meta: ok
+  verdict: custodial
   developerName: Delta Exchange India
 iphone:
   appId: app.deltaexchange.india
@@ -29,6 +29,7 @@ iphone:
   reviews: 19997
   icon: app.deltaexchange.india.jpg
   meta: ok
+  verdict: custodial
   developerName: Delta Exchange India
 
 ---

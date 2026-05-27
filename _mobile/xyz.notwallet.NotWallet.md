@@ -1,6 +1,5 @@
 ---
 title: NotWallet Crypto Self-Custody
-verdict: wip
 date: 2025-11-10
 website: https://notwallet.eu/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.4
   icon: xyz.notwallet.NotWallet.png
   meta: fewusers
+  verdict: wip
   developerName: Splitfire AB
 
 ---

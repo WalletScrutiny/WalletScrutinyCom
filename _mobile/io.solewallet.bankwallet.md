@@ -1,6 +1,5 @@
 ---
 title: Sole Wallet
-verdict: nosource
 date: 2023-12-19
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 0.26.3
   icon: io.solewallet.bankwallet.png
   meta: removed
+  verdict: nosource
   developerName: Blocktech Brew
 
 ---

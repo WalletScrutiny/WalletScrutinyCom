@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Up
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptomining.bitcoin.up/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptomining.bitcoin.up.jpg
   meta: removed
+  verdict: wip
 
 ---
 

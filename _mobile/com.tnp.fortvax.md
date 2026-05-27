@@ -1,6 +1,5 @@
 ---
 title: Fortvax cold wallet
-verdict: wip
 date: 2022-07-31
 website: https://stage-fortvax-landing.goldalles.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.5
   icon: com.tnp.fortvax.png
   meta: fewusers
+  verdict: wip
   developerName: 台灣銘板
 
 ---

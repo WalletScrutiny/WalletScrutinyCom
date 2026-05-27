@@ -1,7 +1,6 @@
 ---
 wsId: balanceWalletApp
 title: BalanceWallet
-verdict: nosource
 date: 2024-10-31
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 8
   icon: io.balancenetwork.wallet.png
   meta: removed
+  verdict: nosource
   developerName: Balance Network Ltd
 iphone:
   appId: com.reacnative.js.balancenetwork.wallet
@@ -38,6 +38,7 @@ iphone:
   reviews: 10
   icon: com.reacnative.js.balancenetwork.wallet.jpg
   meta: removed
+  verdict: nosource
   developerName: BALANCE NETWORK SP ZOO
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Newbit Wallet
-verdict: wip
 date: 2023-08-04
 website: https://newbitwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.newbit.wallet.png
   meta: removed
+  verdict: wip
   developerName: Newbit Limited
 
 ---

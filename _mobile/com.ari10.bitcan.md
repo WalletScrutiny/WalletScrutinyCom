@@ -1,7 +1,6 @@
 ---
 wsId: ari10Exchange
 title: Ari10 Crypto Exchange
-verdict: custodial
 date: 2023-09-07
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 2.10.3
   icon: com.ari10.bitcan.png
   meta: ok
+  verdict: custodial
   developerName: ARI10
 iphone:
   appId: com.ari10.bitcan
@@ -36,6 +36,7 @@ iphone:
   reviews: 164
   icon: com.ari10.bitcan.jpg
   meta: ok
+  verdict: custodial
   developerName: BITCAN sp. z o.o.
 
 ---

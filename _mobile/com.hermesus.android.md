@@ -1,6 +1,5 @@
 ---
 title: Hermesus Exchange
-verdict: custodial
 date: 2024-11-07
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.1'
   icon: com.hermesus.android.png
   meta: removed
+  verdict: custodial
   developerName: Hermesus Development
 
 ---

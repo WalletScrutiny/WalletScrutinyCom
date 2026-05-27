@@ -1,6 +1,5 @@
 ---
 title: BTCTrade
-verdict: wip
 date: 2023-04-16
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.5'
   icon: multico.in.btctrade.png
   meta: removed
+  verdict: wip
   developerName: Smmarat
 
 ---

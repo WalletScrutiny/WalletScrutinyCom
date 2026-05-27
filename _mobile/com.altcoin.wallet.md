@@ -1,6 +1,5 @@
 ---
 title: Altcoin Wallet. Your coins pro
-verdict: wip
 date: 2024-07-05
 website: https://altcoin-wallet.online/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 11
   icon: com.altcoin.wallet.png
   meta: removed
+  verdict: wip
   developerName: Altcoin Wallet
 
 ---

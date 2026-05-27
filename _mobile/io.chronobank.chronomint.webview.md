@@ -1,6 +1,5 @@
 ---
 title: ChronoMint
-verdict: wip
 date: 2024-05-07
 website: http://chronobank.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.2.1
   icon: io.chronobank.chronomint.webview.png
   meta: removed
+  verdict: wip
   developerName: LaborX
 
 ---

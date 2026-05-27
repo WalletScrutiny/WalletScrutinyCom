@@ -1,6 +1,5 @@
 ---
 title: Pionex.US
-verdict: custodial
 date: 2025-12-01
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 650
   icon: com.pionex.us.client.png
   meta: ok
+  verdict: custodial
   developerName: Webot Global
 
 ---

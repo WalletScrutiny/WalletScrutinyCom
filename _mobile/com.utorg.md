@@ -1,6 +1,5 @@
 ---
 title: 'Utorg: Crypto Wallet App'
-verdict: nosource
 date: 2025-12-24
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.92.1
   icon: com.utorg.png
   meta: ok
+  verdict: nosource
   developerName: UTORG LABS HOLDING LTD
 
 ---

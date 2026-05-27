@@ -1,6 +1,5 @@
 ---
 title: Bitandpay
-verdict: wip
 date: 2023-08-16
 website: https://www.bitandpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '35.0'
   icon: com.easyex.easyex.png
   meta: removed
+  verdict: wip
   developerName: Bitandpay
 
 ---

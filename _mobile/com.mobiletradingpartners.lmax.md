@@ -1,7 +1,6 @@
 ---
 wsId: LMAXGlobal
 title: LMAX Global Trading
-verdict: nosendreceive
 date: 2021-11-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 4
   icon: com.mobiletradingpartners.lmax.png
   meta: ok
+  verdict: nosendreceive
   developerName: LMAX BROKER LIMITED
 iphone:
   appId: mobiletradingpartners.lmax.exchange.iphone
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: mobiletradingpartners.lmax.exchange.iphone.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: LMAX BROKER LIMITED
 
 ---

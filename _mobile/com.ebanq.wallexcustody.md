@@ -1,6 +1,5 @@
 ---
 title: Wallex Custody
-verdict: wip
 date: 2023-01-02
 website: https://www.wallexcustody.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.0
   icon: com.ebanq.wallexcustody.png
   meta: removed
+  verdict: wip
 
 ---
 

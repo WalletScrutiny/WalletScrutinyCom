@@ -1,7 +1,6 @@
 ---
 wsId: busha
 title: 'Busha: Make your money better!'
-verdict: custodial
 date: 2024-03-02
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 212
   icon: co.busha.android.png
   meta: ok
+  verdict: custodial
   developerName: Busha, Inc.
 iphone:
   appId: co.busha.apple
@@ -33,6 +33,7 @@ iphone:
   reviews: 2469
   icon: co.busha.apple.jpg
   meta: removed
+  verdict: custodial
   developerName: Busha Digital
 
 ---

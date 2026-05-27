@@ -1,6 +1,5 @@
 ---
 title: Upistic
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/comp.kippoiiiuyy.kuipf/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: comp.kippoiiiuyy.kuipf.jpg
   meta: removed
+  verdict: wip
   developerName: Botrel Apps
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BitStone
-verdict: wip
 date: 2024-04-03
 website: https://bitstone.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: info.androidhive.btn.png
   meta: removed
+  verdict: wip
   developerName: Crypto Science Team
 
 ---

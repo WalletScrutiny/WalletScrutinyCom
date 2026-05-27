@@ -1,6 +1,5 @@
 ---
 title: bitda
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.bitda.app/
@@ -12,6 +11,7 @@ android:
   version: 4.0.1
   icon: com.bitda.app.png
   meta: removed
+  verdict: wip
   developerName: BitdaMobileApp
 
 ---

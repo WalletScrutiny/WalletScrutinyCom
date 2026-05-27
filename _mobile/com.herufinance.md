@@ -1,6 +1,5 @@
 ---
 title: Heru Finance
-verdict: wip
 date: 2024-07-30
 website: https://heru.finance#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.7
   icon: com.herufinance.png
   meta: removed
+  verdict: wip
   developerName: Tykhe Block Ventures LLC
 
 ---

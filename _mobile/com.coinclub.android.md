@@ -1,6 +1,5 @@
 ---
 title: Coin Club - Bitcoin,BTC,ETH,EO
-verdict: wip
 date: 2023-03-21
 website: https://coinclub.global/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 57
   icon: com.coinclub.android.png
   meta: removed
+  verdict: wip
 
 ---
 

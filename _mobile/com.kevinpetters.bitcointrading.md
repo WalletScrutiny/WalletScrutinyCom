@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Trading
-verdict: wip
 date: 2022-03-24
 website: https://bitcoin-trading.global#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.kevinpetters.bitcointrading.png
   meta: removed
+  verdict: wip
 
 ---
 

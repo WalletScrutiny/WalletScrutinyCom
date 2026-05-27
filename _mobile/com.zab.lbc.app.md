@@ -1,6 +1,5 @@
 ---
 title: ZabTech Ads Based Exchange - D
-verdict: wip
 date: 2024-04-19
 website: https://www.zabtechnologies.net/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.zab.lbc.app.png
   meta: removed
+  verdict: wip
   developerName: Zab Technologies
 
 ---

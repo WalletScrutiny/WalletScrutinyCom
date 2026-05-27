@@ -1,6 +1,5 @@
 ---
 title: CryptoDiggers PoS
-verdict: wip
 date: 2024-04-19
 website: https://www.cdpay.eu/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.1.16
   icon: cryptodiggers.eu.pos4.png
   meta: removed
+  verdict: wip
   developerName: CryptoDiggers s.r.o.
 
 ---

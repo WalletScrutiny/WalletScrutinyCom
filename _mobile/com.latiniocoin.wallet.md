@@ -1,6 +1,5 @@
 ---
 title: Wallet Latinio LTN Android v1.
-verdict: wip
 date: 2024-02-05
 website: https://latinio.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v1.0.0
   icon: com.latiniocoin.wallet.png
   meta: removed
+  verdict: wip
   developerName: Blockchain Technology SAS
 
 ---

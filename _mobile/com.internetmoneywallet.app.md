@@ -1,7 +1,6 @@
 ---
 wsId: internetMoneyWallet
 title: Internet Money - Crypto Wallet
-verdict: nosource
 date: 2025-11-18
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 88
   icon: com.internetmoneywallet.app.png
   meta: ok
+  verdict: nosource
   developerName: Internet Money
 iphone:
   appId: com.internetmoneywallet.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 186
   icon: com.internetmoneywallet.app.jpg
   meta: ok
+  verdict: nosource
   developerName: Decentralized Innovations, LLC
 
 ---

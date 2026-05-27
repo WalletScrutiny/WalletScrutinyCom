@@ -1,7 +1,6 @@
 ---
 wsId: ixfiExchange
 title: IXFI
-verdict: custodial
 date: 2023-07-08
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   reviews: 62
   icon: com.ixfi.png
   meta: ok
+  verdict: custodial
   developerName: IXFI Crypto World
 iphone:
   appId: com.ixfi.app
@@ -38,6 +38,7 @@ iphone:
   reviews: 99
   icon: com.ixfi.app.jpg
   meta: ok
+  verdict: custodial
   developerName: IXFI Crypto World UAB
 
 ---

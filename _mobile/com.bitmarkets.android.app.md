@@ -1,6 +1,5 @@
 ---
 title: 'BITmarkets: Crypto made simple'
-verdict: custodial
 date: 2023-08-09
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.8.13
   icon: com.bitmarkets.android.app.png
   meta: ok
+  verdict: custodial
   developerName: Unicorn Technologies Limited
 
 ---

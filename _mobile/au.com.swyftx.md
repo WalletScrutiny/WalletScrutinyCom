@@ -1,7 +1,6 @@
 ---
 wsId: swyftx
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
-verdict: custodial
 date: 2025-11-11
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 2.8.48
   icon: au.com.swyftx.png
   meta: ok
+  verdict: custodial
   developerName: Swyftx Pty Ltd
 iphone:
   appId: au.com.swyftx.ios
@@ -37,6 +37,7 @@ iphone:
   reviews: 6035
   icon: au.com.swyftx.ios.jpg
   meta: ok
+  verdict: custodial
   developerName: Swyftx Pty Ltd
 
 ---

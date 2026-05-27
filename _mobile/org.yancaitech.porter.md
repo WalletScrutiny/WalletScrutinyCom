@@ -1,6 +1,5 @@
 ---
 title: Porter
-verdict: wip
 date: 2024-04-03
 website: https://github.com/yancaitech
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: V0.2.1
   icon: org.yancaitech.porter.png
   meta: removed
+  verdict: wip
   developerName: yancaitech
 
 ---

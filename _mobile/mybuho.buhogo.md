@@ -1,6 +1,5 @@
 ---
 title: BuhoGo
-verdict: wip
 date: 2026-01-14
 redirect_from:
 - /android/mybuho.buhogo/
@@ -12,6 +11,7 @@ android:
   version: 1.8.1
   icon: mybuho.buhogo.png
   meta: fewusers
+  verdict: wip
   developerName: Dr.Shift
 
 ---

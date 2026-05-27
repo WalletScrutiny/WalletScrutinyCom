@@ -1,6 +1,5 @@
 ---
 title: Bitcoin wallet
-verdict: custodial
 date: 2022-01-15
 authors:
 - leo
@@ -9,7 +8,6 @@ redirect_from:
 - /android/info.mysecurewallet.wallet/
 android:
   appId: info.mysecurewallet.wallet
-  altTitle: Bitcoin wallet by mysecurewallet.info
   users: 5000
   released: 2019-11-01
   updated: 2019-11-02
@@ -17,6 +15,7 @@ android:
   reviews: 42
   icon: info.mysecurewallet.wallet.png
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Invest In Bitcoin
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptoheroes.invest.in.bitcoin/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.cryptoheroes.invest.in.bitcoin.jpg
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: xINVESTOR
-verdict: wip
 date: 2024-04-03
 website: http://xinvestor.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 5.4.0_push_v2
   icon: com.chainup.exchange.xinvestor.png
   meta: removed
+  verdict: wip
   developerName: xINVESTOR
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: SwapWallet
 title: Swap Wallet - BTC, Bitcoin wallet
-verdict: custodial
 date: 2020-12-28
 website: http://swapwallet.com#deadLink
 redirect_from:
@@ -16,6 +15,7 @@ android:
   reviews: 2065
   icon: com.swapwalletltd.swap.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.swap.wallet
   idd: 1478737068
@@ -25,6 +25,7 @@ iphone:
   reviews: 30
   icon: com.swap.wallet.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 'Alibit: First B2B Bitcoin Mark'
-verdict: wip
 date: 2024-04-19
 website: https://alibit.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.6
   icon: com.alibitmobile.alibit.jpg
   meta: removed
+  verdict: wip
   developerName: Alibit Mobile
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: SafePal - Crypto Wallet BTC
-verdict: wip
 date: 2021-01-15
 website: https://www.safepal.io/
 twitter: iSafePal
@@ -8,7 +7,6 @@ redirect_from:
 - /iphone/com.anbi.safepal/
 iphone:
   appId: com.anbi.safepal
-  altTitle: leo
   idd: '1449232593'
   released: 2019-03-01
   updated: 2020-12-30
@@ -16,6 +14,7 @@ iphone:
   reviews: 19
   icon: com.anbi.safepal.jpg
   meta: removed
+  verdict: wip
 
 ---
 

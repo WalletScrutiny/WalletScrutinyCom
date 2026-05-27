@@ -1,6 +1,5 @@
 ---
 title: Galaxy Exchange
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.galaxy.exchange/
@@ -12,6 +11,7 @@ android:
   version: 1.1.4
   icon: com.galaxy.exchange.jpg
   meta: removed
+  verdict: wip
 
 ---
 

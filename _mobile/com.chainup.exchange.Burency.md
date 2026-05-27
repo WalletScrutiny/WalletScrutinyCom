@@ -1,6 +1,5 @@
 ---
 title: Burency - BTC, Crypto
-verdict: custodial
 date: 2023-06-29
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 10
   icon: com.chainup.exchange.Burency.png
   meta: removed
+  verdict: custodial
   developerName: Burency Global
 
 ---

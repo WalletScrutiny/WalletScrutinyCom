@@ -1,7 +1,6 @@
 ---
 wsId: MoonXBT
 title: MoonXBT - Social Trading
-verdict: custodial
 date: 2025-02-26
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 23
   icon: com.nano.moonxbt.png
   meta: removed
+  verdict: custodial
   developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
 iphone:
   appId: com.nano.moonxbt
@@ -33,6 +33,7 @@ iphone:
   reviews: 20
   icon: com.nano.moonxbt.jpg
   meta: ok
+  verdict: custodial
   developerName: NANO TRADE GLOBAL
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Universal – Crypto Wallet
-verdict: wip
 date: 2026-05-21
 website: https://unitechcapital.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.koub.wallet.png
   meta: stale
+  verdict: wip
   developerName: BFour Production
 
 ---

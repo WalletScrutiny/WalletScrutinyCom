@@ -1,7 +1,6 @@
 ---
 wsId: bottlepay
 title: 'Bottlepay: Buy & Send Bitcoin'
-verdict: custodial
 date: 2023-08-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.2.16
   icon: com.bottlepay.png
   meta: removed
+  verdict: custodial
   developerName: Bottlepay Ltd.
 iphone:
   appId: com.bottlepay
@@ -30,6 +30,7 @@ iphone:
   reviews: 305
   icon: com.bottlepay.jpg
   meta: removed
+  verdict: custodial
   developerName: Bottlepay Limited
 
 ---

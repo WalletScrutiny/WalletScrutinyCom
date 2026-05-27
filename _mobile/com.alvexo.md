@@ -1,7 +1,6 @@
 ---
 wsId: alvexo
 title: Alvexo Online Trading Platform
-verdict: nosendreceive
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 21
   icon: com.alvexo.png
   meta: removed
+  verdict: nosendreceive
   developerName: Alvexo
 iphone:
   appId: com.alvexo.mobile.tt
@@ -33,6 +33,7 @@ iphone:
   reviews: 1
   icon: com.alvexo.mobile.tt.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Alvexo
 
 ---

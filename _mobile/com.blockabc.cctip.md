@@ -1,7 +1,6 @@
 ---
 wsId: blockabcCCtip
 title: Cwallet - Secure Crypto Wallet
-verdict: custodial
 date: 2022-06-28
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 510
   icon: com.blockabc.cctip.png
   meta: ok
+  verdict: custodial
   developerName: Cwallet
 iphone:
   appId: com.wallet.cctip
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: com.wallet.cctip.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

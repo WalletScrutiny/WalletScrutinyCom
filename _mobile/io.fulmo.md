@@ -1,6 +1,5 @@
 ---
 title: 'Fulmo: Bitcoin & Altcoins Wallet'
-verdict: wip
 date: 2021-11-10
 redirect_from:
 - /android/io.fulmo/
@@ -13,6 +12,7 @@ android:
   reviews: 7
   icon: io.fulmo.png
   meta: removed
+  verdict: wip
 
 ---
 

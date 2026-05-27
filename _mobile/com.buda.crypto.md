@@ -1,7 +1,6 @@
 ---
 wsId: buda
 title: Buda.com
-verdict: custodial
 date: 2022-01-07
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   reviews: 18
   icon: com.buda.crypto.jpg
   meta: ok
+  verdict: custodial
   developerName: Buda.com
 iphone:
   appId: com.buda.crypto
@@ -37,6 +37,7 @@ iphone:
   reviews: 1
   icon: com.buda.crypto.jpg
   meta: ok
+  verdict: custodial
   developerName: Buda.com
 
 ---

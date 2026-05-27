@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Era Platform
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.BitcoinEraPlatform.net/
@@ -12,6 +11,7 @@ android:
   version: '1.721'
   icon: com.BitcoinEraPlatform.net.png
   meta: removed
+  verdict: wip
   developerName: Galy Shaburova
 
 ---

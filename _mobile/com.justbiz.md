@@ -1,6 +1,5 @@
 ---
 title: JustBiz
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.justbiz/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.justbiz.png
   meta: removed
+  verdict: wip
   developerName: JustBiz
 
 ---

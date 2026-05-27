@@ -1,6 +1,5 @@
 ---
 title: Medooza wallet- Best Crypto wa
-verdict: wip
 date: 2024-07-05
 website: https://medooza.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
   meta: removed
+  verdict: wip
   developerName: Medooza Ecosystem Apps
 
 ---

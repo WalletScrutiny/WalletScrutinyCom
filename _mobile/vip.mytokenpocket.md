@@ -1,7 +1,6 @@
 ---
 wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
-verdict: obfuscated
 date: 2023-01-11
 authors:
 - leo
@@ -22,8 +21,8 @@ android:
   reviews: 633
   icon: vip.mytokenpocket.png
   meta: ok
+  verdict: obfuscated
   developerName: TP Global Ltd
-  repository: https://github.com/TP-Lab/tp-android
 iphone:
   appId: com.tp.ios
   idd: 1436028697
@@ -33,7 +32,7 @@ iphone:
   reviews: 322
   icon: com.tp.ios.jpg
   meta: removed
-  repository: https://github.com/TP-Lab/tp-ios
+  verdict: obfuscated
 
 ---
 

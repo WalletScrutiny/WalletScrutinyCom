@@ -1,6 +1,5 @@
 ---
 title: InstaSpot
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.instaspot.mobiletrader/
@@ -12,6 +11,7 @@ android:
   version: 1.0.3
   icon: com.instaspot.mobiletrader.png
   meta: removed
+  verdict: wip
   developerName: InstaSpot
 
 ---

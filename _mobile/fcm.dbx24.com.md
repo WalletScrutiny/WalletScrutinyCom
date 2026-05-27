@@ -1,6 +1,5 @@
 ---
 title: DBX 거래소
-verdict: wip
 date: 2024-04-26
 website: https://dbx24.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4.0'
   icon: fcm.dbx24.com.png
   meta: removed
+  verdict: wip
   developerName: 나정식
 
 ---

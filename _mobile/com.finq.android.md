@@ -1,7 +1,6 @@
 ---
 wsId: finq
 title: Finq
-verdict: nosendreceive
 date: 2025-02-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 5
   icon: com.finq.android.png
   meta: removed
+  verdict: nosendreceive
   developerName: Leadcapital Corp LTD
 iphone:
   appId: com.trader.finq
@@ -30,6 +30,7 @@ iphone:
   reviews: 40
   icon: com.trader.finq.jpg
   meta: removed
+  verdict: nosendreceive
   developerName: Leadcapital Corp LTD
 
 ---

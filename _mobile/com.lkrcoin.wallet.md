@@ -1,6 +1,5 @@
 ---
 title: Wallet LKRcoin - Bitcoin - Lit
-verdict: wip
 date: 2024-07-05
 website: http://lkrcoin.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v1.0.0
   icon: com.lkrcoin.wallet.png
   meta: removed
+  verdict: wip
   developerName: Ziwanda Tech, C.A.
 
 ---

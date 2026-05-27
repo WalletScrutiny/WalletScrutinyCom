@@ -1,6 +1,5 @@
 ---
 title: Immediate Edge
-verdict: wip
 date: 2023-03-21
 redirect_from:
 - /android/group.immediate.edge/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: group.immediate.edge.png
   meta: removed
+  verdict: wip
 
 ---
 

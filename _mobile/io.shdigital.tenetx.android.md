@@ -1,6 +1,5 @@
 ---
 title: TenetX
-verdict: wip
 date: 2024-04-19
 website: https://tenetx.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.19
   icon: io.shdigital.tenetx.android.png
   meta: removed
+  verdict: wip
   developerName: SHDigital
 
 ---

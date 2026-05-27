@@ -1,6 +1,5 @@
 ---
 title: DentroPay
-verdict: wip
 date: 2024-02-05
 website: https://dentrocoin.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1'
   icon: xyz.appmaker.mevpis.png
   meta: removed
+  verdict: wip
   developerName: TINUDA Inc.
 
 ---

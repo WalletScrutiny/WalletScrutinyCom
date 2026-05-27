@@ -1,6 +1,5 @@
 ---
 title: Ligex Exchange
-verdict: wip
 date: 2024-04-03
 website: https://ligex.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.ligex.png
   meta: removed
+  verdict: wip
   developerName: LIGEX EXCHANGE
 
 ---

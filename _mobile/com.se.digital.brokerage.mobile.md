@@ -1,7 +1,6 @@
 ---
 wsId: xSpringDigital
 title: XSpring Digital
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.17.0
   icon: com.se.digital.brokerage.mobile.png
   meta: removed
+  verdict: custodial
   developerName: XSpring Digital Co., Ltd.
 iphone:
   appId: com.se.digital.brokerage.mobile
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.se.digital.brokerage.mobile.jpg
   meta: removed
+  verdict: custodial
   developerName: XSPRING DIGITAL COMPANY LIMITED
 
 ---

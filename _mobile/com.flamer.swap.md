@@ -1,6 +1,5 @@
 ---
 title: Flamer Swap
-verdict: wip
 date: 2024-04-03
 website: https://swap.flamer.life#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4'
   icon: com.flamer.swap.png
   meta: removed
+  verdict: wip
   developerName: Dev Crypto Holdings
 
 ---

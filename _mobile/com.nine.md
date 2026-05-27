@@ -1,6 +1,5 @@
 ---
 title: Nine
-verdict: wip
 date: 2023-08-16
 redirect_from:
 - /android/com.nine/
@@ -12,6 +11,7 @@ android:
   version: 1.0.7
   icon: com.nine.png
   meta: removed
+  verdict: wip
   developerName: Nine Develpoer Team
 
 ---

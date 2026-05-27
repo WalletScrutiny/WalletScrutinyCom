@@ -1,6 +1,5 @@
 ---
 title: Venus Wallet
-verdict: wip
 date: 2023-03-21
 website: https://www.cryptolive.ge#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.15
   icon: ge.cryptolive.venuswallet.png
   meta: removed
+  verdict: wip
   developerName: CryptoLive OÜ
 
 ---

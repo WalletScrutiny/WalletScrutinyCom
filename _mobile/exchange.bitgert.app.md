@@ -1,6 +1,5 @@
 ---
 title: Bitgert Exchange
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 31
   icon: exchange.bitgert.app.png
   meta: stale
+  verdict: custodial
   developerName: Bitgert Technologies Ltd
 
 ---

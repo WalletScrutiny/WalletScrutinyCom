@@ -1,7 +1,6 @@
 ---
 wsId: bitpandaBitcoin
 title: 'Bitpanda: Buy Crypto & Stocks'
-verdict: custodial
 date: 2023-07-29
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   reviews: 18
   icon: com.bitpanda.bitpanda.png
   meta: ok
+  verdict: custodial
   developerName: Bitpanda GmbH
 iphone:
   appId: com.bitpanda.bitpanda
@@ -40,6 +40,7 @@ iphone:
   reviews: 25515
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitpanda GmbH
 
 ---

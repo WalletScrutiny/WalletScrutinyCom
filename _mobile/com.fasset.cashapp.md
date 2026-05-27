@@ -1,7 +1,6 @@
 ---
 wsId: fassetCrypto
 title: 'Fasset: Global Digital Bank'
-verdict: custodial
 date: 2023-07-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 16
   icon: com.fasset.cashapp.png
   meta: ok
+  verdict: custodial
   developerName: Fasset Labuan Limited
 iphone:
   appId: com.fasset.cashapp
@@ -35,6 +35,7 @@ iphone:
   reviews: 37
   icon: com.fasset.cashapp.jpg
   meta: ok
+  verdict: custodial
   developerName: Fasset Ltd.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: knakenCrypto
 title: 'Knaken: Buy crypto safely'
-verdict: custodial
 date: 2023-08-24
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 3.0.1
   icon: org.nativescript.knakenhybridapp.png
   meta: removed
+  verdict: custodial
   developerName: Knaken
 iphone:
   appId: nl.knaken.ios
@@ -32,6 +32,7 @@ iphone:
   reviews: 242
   icon: nl.knaken.ios.jpg
   meta: ok
+  verdict: custodial
   developerName: Knaken Cryptohandel B.V.
 
 ---

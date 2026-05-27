@@ -1,7 +1,6 @@
 ---
 wsId: walletVerse
 title: 'Wallet Verse: DeFi, Buy Crypto'
-verdict: nosource
 date: 2025-12-31
 authors:
 - danny
@@ -30,6 +29,7 @@ android:
   reviews: 13
   icon: com.walletverse.png
   meta: ok
+  verdict: nosource
   developerName: ilink Ltd.
 iphone:
   appId: ilink.walletverse
@@ -41,6 +41,7 @@ iphone:
   reviews: 41
   icon: ilink.walletverse.jpg
   meta: ok
+  verdict: nosource
   developerName: ilink Ltd.
 
 ---

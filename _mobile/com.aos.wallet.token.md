@@ -1,6 +1,5 @@
 ---
 title: ATS Wallet
-verdict: nosource
 date: 2022-01-15
 authors:
 - kiwilamb
@@ -16,6 +15,7 @@ android:
   reviews: 154
   icon: com.aos.wallet.token.png
   meta: removed
+  verdict: nosource
 
 ---
 

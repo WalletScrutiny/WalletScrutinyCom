@@ -1,6 +1,5 @@
 ---
 title: Waynance
-verdict: wip
 date: 2024-02-05
 website: https://waynance.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.waynance.pay.png
   meta: removed
+  verdict: wip
   developerName: Waynance One Click
 
 ---

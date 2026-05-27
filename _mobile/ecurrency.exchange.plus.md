@@ -1,6 +1,5 @@
 ---
 title: E-currency Exchange Plus
-verdict: wip
 date: 2023-06-21
 redirect_from:
 - /android/ecurrency.exchange.plus/
@@ -13,6 +12,7 @@ android:
   reviews: 2
   icon: ecurrency.exchange.plus.png
   meta: removed
+  verdict: wip
   developerName: Moghadam
 
 ---

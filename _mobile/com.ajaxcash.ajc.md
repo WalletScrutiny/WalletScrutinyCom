@@ -1,6 +1,5 @@
 ---
 title: AJC Wallet
-verdict: wip
 date: 2023-12-19
 website: https://ajaxcash.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '10.03'
   icon: com.ajaxcash.ajc.png
   meta: removed
+  verdict: wip
   developerName: Ajax Fintech Limited
 
 ---

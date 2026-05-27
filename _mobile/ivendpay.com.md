@@ -1,7 +1,6 @@
 ---
 wsId: ivendPayPOS
 title: ivendPay POS
-verdict: custodial
 date: 2024-08-31
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.0.4
   icon: ivendpay.com.png
   meta: removed
+  verdict: custodial
   developerName: IVENDPAY
 iphone:
   appId: ivendpay.com
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: ivendpay.com.jpg
   meta: stale
+  verdict: custodial
   developerName: ivendPay
 
 ---

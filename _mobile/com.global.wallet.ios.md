@@ -1,6 +1,5 @@
 ---
 title: 'TokenPocket: Crypto & Bitcoin'
-verdict: wip
 date: 2026-01-14
 website: https://www.tpglobalwallet.net/#/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 705
   icon: com.global.wallet.ios.jpg
   meta: ok
+  verdict: wip
   developerName: TP Global Ltd
 
 ---

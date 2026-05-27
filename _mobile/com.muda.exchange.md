@@ -1,7 +1,6 @@
 ---
 wsId: mudaExchange
 title: MUDA
-verdict: custodial
 date: 2024-04-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '1.0'
   icon: com.muda.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Muda Exchange
 iphone:
   appId: com.muda.exchange
@@ -31,6 +31,7 @@ iphone:
   reviews: 0
   icon: com.muda.exchange.jpg
   meta: removed
+  verdict: custodial
   developerName: Muda ventures limited
 
 ---

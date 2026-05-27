@@ -1,6 +1,5 @@
 ---
 title: Huobi  Indonesia
-verdict: custodial
 date: 2023-10-16
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.0.2
   icon: id.huobi.indonesia.png
   meta: removed
+  verdict: custodial
   developerName: huobi indonesia info
 
 ---

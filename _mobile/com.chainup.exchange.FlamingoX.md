@@ -1,6 +1,5 @@
 ---
 title: FlamingoX Crypto Exchange
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.chainup.exchange.FlamingoX/
@@ -12,6 +11,7 @@ android:
   version: 5.3.6
   icon: com.chainup.exchange.FlamingoX.png
   meta: removed
+  verdict: wip
 
 ---
 

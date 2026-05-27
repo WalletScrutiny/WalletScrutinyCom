@@ -1,6 +1,5 @@
 ---
 title: PLUTX Enterprise Wallet
-verdict: wip
 date: 2024-02-05
 website: https://plutx.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.plutxwallet.png
   meta: removed
+  verdict: wip
   developerName: Infinity Blockchain Labs
 
 ---

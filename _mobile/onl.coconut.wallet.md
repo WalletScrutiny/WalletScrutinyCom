@@ -1,6 +1,5 @@
 ---
 title: 'Coconut Wallet: Bitcoin Wallet'
-verdict: wip
 date: 2026-01-14
 website: https://www.coconut.onl/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 1
   icon: onl.coconut.wallet.jpg
   meta: ok
+  verdict: wip
   developerName: Nonce Lab Inc.
 
 ---

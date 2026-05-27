@@ -1,6 +1,5 @@
 ---
 title: 유성 P2P 거래소
-verdict: wip
 date: 2023-11-02
 website: https://useongcoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.usc.uscwallet.png
   meta: removed
+  verdict: wip
   developerName: 유성코인
 
 ---

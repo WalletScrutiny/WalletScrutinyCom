@@ -1,7 +1,6 @@
 ---
 wsId: rekeningku
 title: Reku - Trade Crypto & US Stock
-verdict: custodial
 date: 2021-08-27
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 50
   icon: com.rekeningku.jpg
   meta: ok
+  verdict: custodial
   developerName: PT Rekeningku Dotcom Indonesia
 iphone:
   appId: com.rekeningku.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 30
   icon: com.rekeningku.app.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

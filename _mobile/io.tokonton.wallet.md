@@ -1,6 +1,5 @@
 ---
 title: Tokonton Wallet
-verdict: wip
 date: 2024-03-02
 redirect_from:
 - /android/io.tokonton.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.16.2
   icon: io.tokonton.wallet.png
   meta: removed
+  verdict: wip
   developerName: tokonton ltd
 
 ---

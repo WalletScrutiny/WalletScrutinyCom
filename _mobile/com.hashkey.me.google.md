@@ -1,7 +1,6 @@
 ---
 wsId: hashKeyMe
 title: HashKey Me - Your Web3 Wallet
-verdict: custodial
 date: 2024-04-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 1
   icon: com.hashkey.me.google.png
   meta: removed
+  verdict: custodial
   developerName: HASHKEY HUB LIMITED
 iphone:
   appId: com.hashkey.me
@@ -34,6 +34,7 @@ iphone:
   reviews: 9
   icon: com.hashkey.me.jpg
   meta: removed
+  verdict: custodial
   developerName: HASHKEY HUB LIMITED
 
 ---

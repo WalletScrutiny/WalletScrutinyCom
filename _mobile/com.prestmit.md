@@ -1,7 +1,6 @@
 ---
 wsId: prestmit
 title: 'Prestmit: Gift Cards & Crypto'
-verdict: nosendreceive
 date: 2021-11-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 861
   icon: com.prestmit.png
   meta: ok
+  verdict: nosendreceive
   developerName: Prestmit
 iphone:
   appId: com.prestmit.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 7045
   icon: com.prestmit.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Prestmit Technologies LTD.
 
 ---

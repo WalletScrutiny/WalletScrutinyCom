@@ -1,6 +1,5 @@
 ---
 title: 'WOOTR: Trade Bitcoin, Altcoins'
-verdict: wip
 date: 2023-08-04
 website: https://wootr.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.4.0
   icon: network.woo.tr.mobile.png
   meta: removed
+  verdict: wip
   developerName: Wootech Limited
 
 ---

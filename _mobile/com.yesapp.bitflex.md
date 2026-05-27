@@ -1,6 +1,5 @@
 ---
 title: Bitflex
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.yesapp.bitflex/
@@ -12,6 +11,7 @@ android:
   version: 3.1.12
   icon: com.yesapp.bitflex.png
   meta: removed
+  verdict: wip
   developerName: Bitflex app
 
 ---

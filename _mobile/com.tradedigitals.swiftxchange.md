@@ -1,6 +1,5 @@
 ---
 title: Swiftxchange
-verdict: wip
 date: 2024-04-03
 website: https://www.swiftxchange.com.ng#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.tradedigitals.swiftxchange.png
   meta: removed
+  verdict: wip
   developerName: Awootech
 
 ---

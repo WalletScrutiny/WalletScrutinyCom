@@ -1,6 +1,5 @@
 ---
 title: 싱싱코인
-verdict: wip
 date: 2023-05-10
 redirect_from:
 - /android/com.hustay.swing.d7082e65d207f4cab92b14fd308cd9afd/
@@ -12,6 +11,7 @@ android:
   version: '0.6'
   icon: com.hustay.swing.d7082e65d207f4cab92b14fd308cd9afd.png
   meta: removed
+  verdict: wip
   developerName: SMI-HK.LLC
 
 ---

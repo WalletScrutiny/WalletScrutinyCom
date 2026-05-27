@@ -1,6 +1,5 @@
 ---
 title: Wafa
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/com.wafacoin.pro/
@@ -11,6 +10,7 @@ android:
   version: 1.0.6.210910
   icon: com.wafacoin.pro.png
   meta: removed
+  verdict: wip
   developerName: wafacoin
 
 ---

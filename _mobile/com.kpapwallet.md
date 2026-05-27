@@ -1,6 +1,5 @@
 ---
 title: 'K-PAP Wallet : 케이팝 월렛'
-verdict: wip
 date: 2023-12-19
 website: http://k-pap.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.kpapwallet.png
   meta: removed
+  verdict: wip
   developerName: BLUERIVER BANK
 
 ---

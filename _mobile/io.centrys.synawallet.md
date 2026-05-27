@@ -1,6 +1,5 @@
 ---
 title: Syna
-verdict: wip
 date: 2023-12-19
 website: http://www.theoproject.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: io.centrys.synawallet.png
   meta: removed
+  verdict: wip
   developerName: Centrys Inc.
 
 ---

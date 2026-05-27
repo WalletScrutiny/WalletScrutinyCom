@@ -1,6 +1,5 @@
 ---
 title: CRYPTO-TRADER
-verdict: wip
 date: 2024-07-05
 website: https://web.archive.org/web/20240415210021/https://www.pipxplosion.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '0.17'
   icon: org.nativescript.cryptotrader.jpg
   meta: removed
+  verdict: wip
   developerName: Christian Arnold
 
 ---

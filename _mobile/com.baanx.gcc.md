@@ -1,6 +1,5 @@
 ---
 title: GCC
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.0
   icon: com.baanx.gcc.png
   meta: removed
+  verdict: wip
   developerName: GCC GLOBAL PAYMENTS LIMITED
 
 ---

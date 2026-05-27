@@ -1,6 +1,5 @@
 ---
 title: 'Polynance: Crypto Trading Tool'
-verdict: wip
 date: 2023-01-02
 website: https://www.polynance.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.polynance.jpg
   meta: removed
+  verdict: wip
 
 ---
 

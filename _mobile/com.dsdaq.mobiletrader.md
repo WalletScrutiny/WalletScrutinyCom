@@ -1,7 +1,6 @@
 ---
 wsId: Dsdaq
 title: Dsdaq - Trade stock, gold, oil
-verdict: custodial
 date: 2023-08-25
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 11
   icon: com.dsdaq.mobiletrader.png
   meta: removed
+  verdict: custodial
   developerName: Dsdaq Market Ltd.
 iphone:
   appId: com.dsdaq.ios.new
@@ -32,6 +32,7 @@ iphone:
   reviews: 2
   icon: com.dsdaq.ios.new.jpg
   meta: removed
+  verdict: custodial
   developerName: Dsdaq Market Ltd.
 
 ---

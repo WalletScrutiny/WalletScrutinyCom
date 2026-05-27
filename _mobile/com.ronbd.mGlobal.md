@@ -1,6 +1,5 @@
 ---
 title: M Global
-verdict: wip
 date: 2024-02-05
 website: https://www.mineglobed.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: com.ronbd.mGlobal.png
   meta: removed
+  verdict: wip
   developerName: Mine Globed Inc.
 
 ---

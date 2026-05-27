@@ -1,7 +1,6 @@
 ---
 wsId: bitpocketBTC
 title: BitPocket - BTC/LN Wallet
-verdict: nosource
 date: 2025-11-12
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.3.27
   icon: com.bitdance.bitpocket.google.png
   meta: ok
+  verdict: nosource
   developerName: Bitdance
 iphone:
   appId: com.bitdance.bitpocket
@@ -32,6 +32,7 @@ iphone:
   reviews: 1
   icon: com.bitdance.bitpocket.jpg
   meta: ok
+  verdict: nosource
   developerName: BITDANCE LIMITED
 
 ---

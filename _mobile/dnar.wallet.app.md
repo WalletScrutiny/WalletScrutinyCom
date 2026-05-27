@@ -1,6 +1,5 @@
 ---
 title: Dnar
-verdict: wip
 date: 2023-07-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 11
   icon: dnar.wallet.app.jpg
   meta: defunct
+  verdict: wip
   developerName: Dnar
 
 ---

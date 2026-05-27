@@ -1,7 +1,6 @@
 ---
 wsId: tatspace
 title: TATSPACE
-verdict: custodial
 date: 2025-09-09
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 10
   icon: com.tatspace.jpg
   meta: stale
+  verdict: custodial
   developerName: Own the Earth LLC
 iphone:
   appId: com.tatspaceapp
@@ -34,6 +34,7 @@ iphone:
   reviews: 65
   icon: com.tatspaceapp.jpg
   meta: obsolete
+  verdict: custodial
   developerName: TATSPACE
 
 ---

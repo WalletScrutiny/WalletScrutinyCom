@@ -1,6 +1,5 @@
 ---
 title: 'KryptoX: Buy and Sell Crypto'
-verdict: wip
 date: 2024-04-19
 website: https://www.kryptox.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.8'
   icon: com.kryptox.app.png
   meta: removed
+  verdict: wip
   developerName: KryptoX
 
 ---

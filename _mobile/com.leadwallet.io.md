@@ -1,6 +1,5 @@
 ---
 title: Lead Wallet (BETA) - Store & Swap Cryptocurrencies
-verdict: nosource
 date: 2021-10-30
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: Varies with device
   icon: com.leadwallet.io.png
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: flybit
 title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
-verdict: custodial
 date: 2021-09-30
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.34.04
   icon: com.flybit.app.png
   meta: ok
+  verdict: custodial
   developerName: 한국디지털거래소
 iphone:
   appId: com.koreadigit.flybit
@@ -31,6 +31,7 @@ iphone:
   reviews: 18
   icon: com.koreadigit.flybit.jpg
   meta: ok
+  verdict: custodial
   developerName: Korea Digital Exchange Co., Ltd.
 
 ---

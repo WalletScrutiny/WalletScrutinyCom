@@ -1,6 +1,5 @@
 ---
 title: Mona-bey – Р2Р Обменник ВTС, к
-verdict: wip
 date: 2023-08-16
 website: https://monabey.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.2'
   icon: com.monabey.monachanger.png
   meta: removed
+  verdict: wip
   developerName: Monabey
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Cycle POS
-verdict: wip
 date: 2024-04-03
 website: https://www.cyclebit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.13
   icon: com.my2can.cyclebit.png
   meta: removed
+  verdict: wip
   developerName: Digital Alliance Holding AB
 
 ---

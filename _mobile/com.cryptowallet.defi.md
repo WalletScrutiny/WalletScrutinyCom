@@ -1,6 +1,5 @@
 ---
 title: DeFi Bitcoin Wallets
-verdict: wip
 date: 2022-03-24
 redirect_from:
 - /android/com.cryptowallet.defi/
@@ -12,6 +11,7 @@ android:
   version: 0.21.4
   icon: com.cryptowallet.defi.png
   meta: removed
+  verdict: wip
 
 ---
 

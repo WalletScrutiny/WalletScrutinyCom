@@ -1,6 +1,5 @@
 ---
 title: Cryptanite
-verdict: wip
 date: 2024-04-26
 website: http://cryptanite.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 8
   icon: com.cryptanite.customer.png
   meta: removed
+  verdict: wip
   developerName: cryptanite.com
 
 ---

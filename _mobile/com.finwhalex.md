@@ -1,6 +1,5 @@
 ---
 title: FinWhaleX
-verdict: wip
 date: 2023-05-25
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: VARY
   icon: com.finwhalex.png
   meta: removed
+  verdict: wip
   developerName: FinWhaleX PTE. LTD.
 
 ---

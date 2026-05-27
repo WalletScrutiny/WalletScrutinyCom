@@ -1,6 +1,5 @@
 ---
 title: Crypto Tracking, Wallet & Glob
-verdict: wip
 date: 2024-03-02
 website: https://kryptokafe.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.8
   icon: com.parabolus.kryptokafe.jpg
   meta: removed
+  verdict: wip
   developerName: Parabolus Inc
 
 ---

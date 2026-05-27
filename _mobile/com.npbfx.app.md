@@ -1,7 +1,6 @@
 ---
 wsId: npbfxCFD
 title: NPBFX
-verdict: nosendreceive
 date: 2024-10-28
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.15.0
   icon: com.npbfx.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: NMarkets Limited
 iphone:
   appId: com.npbfx.app
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: com.npbfx.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: NMarkets Limited
 
 ---

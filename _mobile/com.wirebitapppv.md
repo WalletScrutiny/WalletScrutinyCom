@@ -1,6 +1,5 @@
 ---
 title: That's it by Wirebit
-verdict: wip
 date: 2024-11-30
 website: https://wirebit.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.6
   icon: com.wirebitapppv.jpg
   meta: removed
+  verdict: wip
   developerName: Wirebit S.A. de C.V.
 
 ---

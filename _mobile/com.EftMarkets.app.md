@@ -1,6 +1,5 @@
 ---
 title: EFTMarkets Trading App
-verdict: wip
 date: 2023-03-21
 website: https://eftmarkets.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.0.15
   icon: com.EftMarkets.app.png
   meta: removed
+  verdict: wip
 
 ---
 

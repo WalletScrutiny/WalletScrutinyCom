@@ -1,6 +1,5 @@
 ---
 title: Get Extra BTC
-verdict: wip
 date: 2024-05-07
 redirect_from:
 - /android/com.modules.tradingbots.getextrabtc/
@@ -11,6 +10,7 @@ android:
   version: VARY
   icon: com.modules.tradingbots.getextrabtc.png
   meta: removed
+  verdict: wip
   developerName: GetExtraBTC LLC
 
 ---

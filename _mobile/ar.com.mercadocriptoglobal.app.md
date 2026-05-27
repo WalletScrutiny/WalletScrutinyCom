@@ -1,6 +1,5 @@
 ---
 title: MercadoCriptoGlobal
-verdict: wip
 date: 2024-04-19
 website: https://www.mercadocriptoglobal.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.4.1
   icon: ar.com.mercadocriptoglobal.app.png
   meta: removed
+  verdict: wip
   developerName: Pablo Martin San Cristobal
 
 ---

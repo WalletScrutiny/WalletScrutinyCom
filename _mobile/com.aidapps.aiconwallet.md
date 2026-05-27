@@ -1,6 +1,5 @@
 ---
 title: 에이콘 월렛
-verdict: wip
 date: 2023-06-21
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.1
   icon: com.aidapps.aiconwallet.png
   meta: removed
+  verdict: wip
   developerName: AI-dapps
 
 ---

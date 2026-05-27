@@ -1,6 +1,5 @@
 ---
 title: Lps Wallet
-verdict: wip
 date: 2023-01-02
 website: https://www.lpschain.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.2
   icon: com.lpswallet.png
   meta: removed
+  verdict: wip
 
 ---
 

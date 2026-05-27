@@ -1,6 +1,5 @@
 ---
 title: Purple Touch
-verdict: wip
 date: 2024-09-21
 website: http://www.banco.id
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.45
   icon: kr.co.keypair.purplecardtouch.png
   meta: removed
+  verdict: wip
   developerName: Keypair Co., Ltd.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: JustBit - Crypto Exchange
-verdict: wip
 date: 2023-09-06
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.0
   icon: com.app.justbit.jpg
   meta: removed
+  verdict: wip
   developerName: IMSelf Community
 
 ---

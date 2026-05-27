@@ -1,6 +1,5 @@
 ---
 title: ArgoTrade
-verdict: nosendreceive
 date: 2025-02-26
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.16.1
   icon: com.argotrade.android.png
   meta: removed
+  verdict: nosendreceive
   developerName: Leadcapital Corp LTD
 
 ---

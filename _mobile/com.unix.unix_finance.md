@@ -1,6 +1,5 @@
 ---
 title: Unix finance
-verdict: wip
 date: 2024-04-19
 website: https://unix.finance
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.7
   icon: com.unix.unix_finance.png
   meta: removed
+  verdict: wip
   developerName: Unix finance
 
 ---

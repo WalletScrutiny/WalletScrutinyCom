@@ -1,7 +1,6 @@
 ---
 wsId: rumbleWallet
 title: 'Rumble Wallet: Buy Crypto, BTC'
-verdict: nosource
 date: 2026-01-12
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 12
   icon: com.rumble.rumblewallet.png
   meta: ok
+  verdict: nosource
   developerName: Rumble Inc
 iphone:
   appId: com.rumble.wallet
@@ -36,6 +36,7 @@ iphone:
   reviews: 47
   icon: com.rumble.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Rumble Inc.
 
 ---

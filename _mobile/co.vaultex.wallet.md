@@ -1,7 +1,6 @@
 ---
 wsId: vaultexWeb3
 title: Vaultex | Web3 wallet
-verdict: custodial
 date: 2026-04-13
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   icon: co.vaultex.wallet.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Vaultex Ltd
 iphone:
   appId: co.vaultex.wallet
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: co.vaultex.wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: Vaultex Ltd
 
 ---

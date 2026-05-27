@@ -1,6 +1,5 @@
 ---
 title: Citowise - Blockchain multi-currency wallet
-verdict: nosource
 date: 2021-06-02
 authors:
 - kiwilamb
@@ -16,6 +15,7 @@ android:
   reviews: 525
   icon: com.citowise.wallet.png
   meta: removed
+  verdict: nosource
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: CryptoPeddle
-verdict: wip
 date: 2024-02-05
 redirect_from:
 - /android/com.app.cpeddle/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.app.cpeddle.png
   meta: removed
+  verdict: wip
   developerName: Multi_official
 
 ---

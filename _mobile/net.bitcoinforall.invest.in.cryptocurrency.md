@@ -1,6 +1,5 @@
 ---
 title: Invest In Cryptocurrency
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/net.bitcoinforall.invest.in.cryptocurrency/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.bitcoinforall.invest.in.cryptocurrency.jpg
   meta: removed
+  verdict: wip
 
 ---
 

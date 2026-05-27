@@ -1,6 +1,5 @@
 ---
 title: GOW - Bitcoin & Crypto
-verdict: wip
 date: 2023-01-02
 website: https://gow.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.12'
   icon: com.gow.jpg
   meta: removed
+  verdict: wip
 
 ---
 

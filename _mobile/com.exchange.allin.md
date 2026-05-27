@@ -1,7 +1,6 @@
 ---
 wsId: allInXCrypto
 title: AllinX：Exchange& Crypto BTC
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.2.2
   icon: com.exchange.allin.png
   meta: ok
+  verdict: custodial
   developerName: Allin Exchange
 iphone:
   appId: com.allin.exchange.appStore
@@ -28,6 +28,7 @@ iphone:
   reviews: 3
   icon: com.allin.exchange.appStore.jpg
   meta: ok
+  verdict: custodial
   developerName: TOP LINE DIGITAL MARKETING (PVT) LTD
 
 ---

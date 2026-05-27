@@ -1,6 +1,5 @@
 ---
 title: Globex Wallet
-verdict: wip
 date: 2024-02-05
 website: https://wallet.gex.exchange
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.0
   icon: site.globex.bankwallet.png
   meta: removed
+  verdict: wip
   developerName: Globex Ltd.
 
 ---

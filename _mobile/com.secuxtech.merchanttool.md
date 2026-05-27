@@ -1,6 +1,5 @@
 ---
 title: StreamMerchant
-verdict: wip
 date: 2025-12-15
 website: https://www.secuxtech.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.2.1
   icon: com.secuxtech.merchanttool.png
   meta: obsolete
+  verdict: wip
   developerName: SecuX
 
 ---

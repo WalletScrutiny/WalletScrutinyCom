@@ -1,6 +1,5 @@
 ---
 title: BitTrade 빗썸 코인원 코빗 api 거래 비트코인 이더리움 리플 대시 모네로
-verdict: wip
 date: 2021-12-22
 redirect_from:
 - /android/com.bllang.bithumb/
@@ -13,6 +12,7 @@ android:
   reviews: 15
   icon: com.bllang.bithumb.png
   meta: removed
+  verdict: wip
 
 ---
 

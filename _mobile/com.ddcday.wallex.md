@@ -1,6 +1,5 @@
 ---
 title: Copay Wallet Mobile
-verdict: fake
 date: 2021-11-26
 authors:
 - leo
@@ -8,7 +7,6 @@ redirect_from:
 - /android/com.ddcday.wallex/
 android:
   appId: com.ddcday.wallex
-  altTitle: (Fake) Copay Wallet Mobile
   users: 500
   released: 2021-09-09
   updated: 2021-09-09
@@ -16,6 +14,7 @@ android:
   reviews: 8
   icon: com.ddcday.wallex.png
   meta: removed
+  verdict: fake
 
 ---
 

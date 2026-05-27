@@ -1,6 +1,5 @@
 ---
 title: CryptoWallet - Bittrex and Bin
-verdict: wip
 date: 2024-07-05
 redirect_from:
 - /android/io.crypto.wallet/
@@ -12,6 +11,7 @@ android:
   version: 0.0.1
   icon: io.crypto.wallet.png
   meta: removed
+  verdict: wip
   developerName: Online Custom
 
 ---

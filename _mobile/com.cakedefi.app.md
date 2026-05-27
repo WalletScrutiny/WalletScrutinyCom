@@ -1,7 +1,6 @@
 ---
 wsId: CakeDeFi
 title: Bake
-verdict: custodial
 date: 2026-04-13
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 196
   icon: com.cakedefi.app.png
   meta: stale
+  verdict: custodial
   developerName: Bake
 iphone:
   appId: com.cakedefi.app
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.cakedefi.app.jpg
   meta: stale
+  verdict: custodial
   developerName: GS Fintech UAB
 
 ---

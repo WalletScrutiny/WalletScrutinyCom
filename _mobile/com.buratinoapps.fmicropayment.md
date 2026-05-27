@@ -1,6 +1,5 @@
 ---
 title: FaucetPay Micro Wallet
-verdict: wip
 date: 2023-04-21
 website: https://xmonitoring.ru#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.buratinoapps.fmicropayment.png
   meta: removed
+  verdict: wip
 
 ---
 

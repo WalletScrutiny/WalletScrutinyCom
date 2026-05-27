@@ -1,6 +1,5 @@
 ---
 title: AFCASH WALLET
-verdict: wip
 date: 2022-01-31
 redirect_from:
 - /android/com.bxcoins.AFCASH/
@@ -12,6 +11,7 @@ android:
   version: 1.0.0
   icon: com.bxcoins.AFCASH.png
   meta: removed
+  verdict: wip
 
 ---
 

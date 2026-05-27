@@ -1,7 +1,6 @@
 ---
 wsId: gopax
 title: GOPAX (Crypto exchange)
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 1537
   icon: kr.co.gopax.png
   meta: ok
+  verdict: custodial
   developerName: Streami Inc.
 iphone:
   appId: kr.co.gopax
@@ -30,6 +30,7 @@ iphone:
   reviews: 530
   icon: kr.co.gopax.jpg
   meta: ok
+  verdict: custodial
   developerName: Streami Inc.
 
 ---

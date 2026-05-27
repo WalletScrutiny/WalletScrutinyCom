@@ -1,6 +1,5 @@
 ---
 title: Exbito
-verdict: custodial
 date: 2025-02-28
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 30
   icon: com.exbito.app.png
   meta: removed
+  verdict: custodial
   developerName: Exbito
 
 ---

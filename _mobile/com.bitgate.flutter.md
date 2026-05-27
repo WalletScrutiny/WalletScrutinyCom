@@ -1,6 +1,5 @@
 ---
 title: BitGate
-verdict: wip
 date: 2024-07-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 0.9.4
   icon: com.bitgate.flutter.png
   meta: removed
+  verdict: wip
   developerName: BitSpace
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: IXX
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.ixxgoogle_android/
@@ -12,6 +11,7 @@ android:
   version: 2.3.1
   icon: com.ixxgoogle_android.png
   meta: removed
+  verdict: wip
   developerName: IXX
 
 ---

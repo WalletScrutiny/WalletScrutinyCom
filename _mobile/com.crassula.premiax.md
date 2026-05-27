@@ -1,6 +1,5 @@
 ---
 title: PremiaX
-verdict: wip
 date: 2023-11-02
 website: https://www.premiax.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.crassula.premiax.png
   meta: removed
+  verdict: wip
   developerName: Fripro OÜ
 
 ---

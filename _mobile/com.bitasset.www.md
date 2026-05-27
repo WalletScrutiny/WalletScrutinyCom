@@ -1,6 +1,5 @@
 ---
 title: 'BitAsset: Exchange Bitcoin & Cryptocurrency Now'
-verdict: wip
 date: 2021-11-10
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 29
   icon: com.bitasset.www.png
   meta: removed
+  verdict: wip
 
 ---
 

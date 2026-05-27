@@ -1,6 +1,5 @@
 ---
 title: SNEX
-verdict: wip
 date: 2023-08-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.1
   icon: com.sinance.exchange.jpg
   meta: removed
+  verdict: wip
   developerName: Sinance Developer
 
 ---

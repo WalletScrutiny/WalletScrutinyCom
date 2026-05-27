@@ -1,6 +1,5 @@
 ---
 title: NTC Wallet
-verdict: wip
 date: 2024-04-03
 website: https://wallet.ntcrypto.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.wallet.ntc.png
   meta: removed
+  verdict: wip
   developerName: National Digital Treasure
 
 ---

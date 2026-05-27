@@ -1,7 +1,6 @@
 ---
 wsId: Fiahub
 title: Fiahub - Mua bán Bitcoin, USDT
-verdict: custodial
 date: 2022-07-13
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.20.5
   icon: vn.fiahub.app.png
   meta: ok
+  verdict: custodial
   developerName: DIGITEX PTE LTD
 iphone:
   appId: bit.coin.Coindess
@@ -33,6 +33,7 @@ iphone:
   reviews: 2
   icon: bit.coin.Coindess.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

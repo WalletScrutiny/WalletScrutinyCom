@@ -1,6 +1,5 @@
 ---
 title: Quasar Wallet
-verdict: custodial
 date: 2025-08-26
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 10
   icon: com.quasarwallet.android.png
   meta: stale
+  verdict: custodial
   developerName: Blaqclouds
 
 ---

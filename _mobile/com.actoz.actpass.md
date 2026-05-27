@@ -1,7 +1,6 @@
 ---
 wsId: actpass
 title: ActPass Wallet
-verdict: custodial
 date: 2023-11-01
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 1
   icon: com.actoz.actpass.png
   meta: ok
+  verdict: custodial
   developerName: ArtalGamesCasual
 iphone:
   appId: com.actoz.actpass
@@ -31,6 +31,7 @@ iphone:
   reviews: 1
   icon: com.actoz.actpass.jpg
   meta: removed
+  verdict: custodial
   developerName: Davox Technology AG
 
 ---

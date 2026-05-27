@@ -1,6 +1,5 @@
 ---
 title: CrickeTrade
-verdict: wip
 date: 2024-04-19
 website: https://cricketrade.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: app.cricketrade.com.png
   meta: removed
+  verdict: wip
   developerName: Software Development 4 the Future Inc.
 
 ---

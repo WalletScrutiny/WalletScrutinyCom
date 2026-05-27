@@ -1,6 +1,5 @@
 ---
 title: رابکس ، خرید ارز دیجیتال
-verdict: custodial
 date: 2023-08-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 10
   icon: com.rabin.rabex.png
   meta: ok
+  verdict: custodial
   developerName: Rabex Team
 
 ---

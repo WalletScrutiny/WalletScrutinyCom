@@ -1,6 +1,5 @@
 ---
 title: Ciclex
-verdict: wip
 date: 2024-04-03
 website: https://ciclex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: v1.0.4
   icon: com.ciclex.app.png
   meta: removed
+  verdict: wip
   developerName: Ciclex development
 
 ---

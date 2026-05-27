@@ -1,7 +1,6 @@
 ---
 wsId: icewalWallet
 title: icewal
-verdict: nosource
 date: 2025-09-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '2.8'
   icon: com.icecorp.wallet.png
   meta: stale
+  verdict: nosource
   developerName: Kentkart International LLP
 iphone:
   appId: com.icecorp.wallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 1
   icon: com.icecorp.wallet.jpg
   meta: stale
+  verdict: nosource
   developerName: Ice Corporation
 
 ---

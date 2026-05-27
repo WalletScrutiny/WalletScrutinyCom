@@ -1,7 +1,6 @@
 ---
 wsId: Zipmex
 title: 'Zipmex: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2024-03-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 11575
   icon: com.zipmex.png
   meta: removed
+  verdict: custodial
   developerName: Zipmex
 iphone:
   appId: com.zipmex.app
@@ -33,6 +33,7 @@ iphone:
   reviews: 127
   icon: com.zipmex.app.jpg
   meta: removed
+  verdict: custodial
   developerName: Zipmex
 
 ---

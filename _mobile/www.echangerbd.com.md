@@ -1,6 +1,5 @@
 ---
 title: Dollar Buy Sell
-verdict: wip
 date: 2026-02-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '2.0'
   icon: www.echangerbd.com.png
   meta: obsolete
+  verdict: wip
   developerName: exchangernet.com
 
 ---

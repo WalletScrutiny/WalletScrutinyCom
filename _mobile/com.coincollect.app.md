@@ -1,7 +1,6 @@
 ---
 wsId: CoinCollect
 title: 'CoinCollect wallet: We Make Crypto Easy'
-verdict: nosource
 date: 2022-01-15
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.11.0
   icon: com.coincollect.app.png
   meta: removed
+  verdict: nosource
 iphone:
   appId: cc.coincollect.app
   idd: '1473471322'
@@ -28,6 +28,7 @@ iphone:
   reviews: 1
   icon: cc.coincollect.app.jpg
   meta: obsolete
+  verdict: nosource
   developerName: Autonomous Software Foundation
 
 ---

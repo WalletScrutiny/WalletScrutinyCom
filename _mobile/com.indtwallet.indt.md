@@ -1,6 +1,5 @@
 ---
 title: INDT Wallet
-verdict: wip
 date: 2023-12-19
 website: https://indtcoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.15
   icon: com.indtwallet.indt.png
   meta: removed
+  verdict: wip
   developerName: L V J MARKETING MANAGEMENT
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Casa Tookan wallet
-verdict: nosource
 date: 2024-12-15
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 6
   icon: com.everdreamsoft.casatookan.png
   meta: ok
+  verdict: nosource
   developerName: EverdreamSoft
 
 ---

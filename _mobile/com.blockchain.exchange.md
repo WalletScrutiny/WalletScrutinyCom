@@ -1,7 +1,6 @@
 ---
 wsId: blockchainExchange
 title: Blockchain.com Exchange
-verdict: custodial
 date: 2023-12-19
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 44
   icon: com.blockchain.exchange.png
   meta: removed
+  verdict: custodial
   developerName: Blockchain Luxembourg S.A.
 iphone:
   appId: com.blockchain.exchangeapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 167
   icon: com.blockchain.exchangeapp.jpg
   meta: removed
+  verdict: custodial
   developerName: Blockchain
 
 ---

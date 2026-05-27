@@ -1,6 +1,5 @@
 ---
 title: Bizonbit
-verdict: wip
 date: 2024-02-05
 website: https://www.bizonbit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.3
   icon: com.bizonbit.png
   meta: removed
+  verdict: wip
   developerName: ‌BizOnBit
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: TCWS WALLET
-verdict: wip
 date: 2023-01-02
 website: http://www.tcws.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '2.1'
   icon: com.tcws.wallet.png
   meta: removed
+  verdict: wip
 
 ---
 

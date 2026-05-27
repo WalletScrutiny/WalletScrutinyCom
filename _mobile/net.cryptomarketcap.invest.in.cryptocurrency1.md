@@ -1,6 +1,5 @@
 ---
 title: Invest In Cryptocurrency
-verdict: wip
 date: 2021-08-13
 redirect_from:
 - /android/net.cryptomarketcap.invest.in.cryptocurrency1/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: net.cryptomarketcap.invest.in.cryptocurrency1.jpg
   meta: removed
+  verdict: wip
 
 ---
 

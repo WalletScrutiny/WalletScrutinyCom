@@ -1,7 +1,6 @@
 ---
 wsId: mnCoinHub
 title: Coinhub
-verdict: custodial
 date: 2022-02-21
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 9
   icon: com.coinhub.pro.png
   meta: ok
+  verdict: custodial
   developerName: CoinHUB
 iphone:
   appId: mn.coinhub.coinhub
@@ -32,6 +32,7 @@ iphone:
   reviews: 11
   icon: mn.coinhub.coinhub.jpg
   meta: removed
+  verdict: custodial
   developerName: CoinHUB
 
 ---

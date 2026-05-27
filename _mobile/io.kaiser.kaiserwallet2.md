@@ -1,6 +1,5 @@
 ---
 title: KaiserWallet2 - Cold wallet, H
-verdict: wip
 date: 2023-08-08
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.9.11
   icon: io.kaiser.kaiserwallet2.png
   meta: removed
+  verdict: wip
   developerName: Bizblocks
 
 ---

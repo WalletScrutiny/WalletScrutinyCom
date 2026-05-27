@@ -1,7 +1,6 @@
 ---
 wsId: SALT
 title: SALT Crypto Loans
-verdict: custodial
 date: 2021-10-07
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 44
   icon: com.saltlending.mobile.png
   meta: ok
+  verdict: custodial
   developerName: SALT Blockchain, Inc.
 iphone:
   appId: com.saltlending.mobile
@@ -33,6 +33,7 @@ iphone:
   reviews: 26
   icon: com.saltlending.mobile.jpg
   meta: ok
+  verdict: custodial
   developerName: Salt Blockchain Inc.
 
 ---

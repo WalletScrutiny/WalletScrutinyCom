@@ -1,7 +1,6 @@
 ---
 wsId: FoxOne
 title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
-verdict: wip
 date: 2021-11-11
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 90
   icon: com.fox.one.png
   meta: removed
+  verdict: wip
 iphone:
   appId: one.fox.foxapp
   idd: 1384089079
@@ -28,6 +28,7 @@ iphone:
   reviews: 198
   icon: one.fox.foxapp.jpg
   meta: removed
+  verdict: wip
 
 ---
 

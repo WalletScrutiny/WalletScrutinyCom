@@ -1,7 +1,6 @@
 ---
 wsId: openWallet
 title: 'Open Wallet: BTC & ETH Wallet'
-verdict: custodial
 date: 2025-11-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 8
   icon: com.finverselabs.openwallet.png
   meta: ok
+  verdict: custodial
   developerName: FinVerse Labs FZ-LLC
 iphone:
   appId: com.finverse-labs.openwallet-mainnet
@@ -30,6 +30,7 @@ iphone:
   reviews: 38
   icon: com.finverse-labs.openwallet-mainnet.jpg
   meta: ok
+  verdict: custodial
   developerName: Finverse Labs
 
 ---

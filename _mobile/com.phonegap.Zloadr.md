@@ -1,6 +1,5 @@
 ---
 title: Zloadr -  NFT Staking Wallet
-verdict: wip
 date: 2023-01-02
 website: https://www.zloadr.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 77
   icon: com.phonegap.Zloadr.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Blixt Wallet
-verdict: sourceavailable
 date: 2022-02-07
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: VARY
   icon: com.blixtwallet.png
   meta: ok
+  verdict: sourceavailable
   developerName: Hampus Sjöberg
 
 ---

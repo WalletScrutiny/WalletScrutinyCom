@@ -1,6 +1,5 @@
 ---
 title: 新币交易平台 - 加密货币交易应用程序
-verdict: wip
 date: 2023-08-04
 website: https://www.xinbipro.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 4.0.8
   icon: com.exchange.XinBi.png
   meta: removed
+  verdict: wip
   developerName: XinBiPro
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Crypto Wallet: Store and Trade'
-verdict: wip
 date: 2024-04-26
 redirect_from:
 - /android/com.xufagroup.cryptowallet/
@@ -12,6 +11,7 @@ android:
   version: '1.2'
   icon: com.xufagroup.cryptowallet.png
   meta: removed
+  verdict: wip
   developerName: Martin SangDo
 
 ---

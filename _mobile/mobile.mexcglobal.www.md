@@ -1,6 +1,5 @@
 ---
 title: 'MEXC: Buy Bitcoin BTC & Crypto'
-verdict: wip
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   reviews: 7806
   icon: mobile.mexcglobal.www.jpg
   meta: ok
+  verdict: wip
   developerName: Onechain Technology Ltd
 
 ---

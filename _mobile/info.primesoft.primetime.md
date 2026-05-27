@@ -1,6 +1,5 @@
 ---
 title: CryptoBuy - Bitcoin & Many
-verdict: wip
 date: 2026-01-14
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 6
   icon: info.primesoft.primetime.jpg
   meta: defunct
+  verdict: wip
   developerName: Globals Bank
 
 ---

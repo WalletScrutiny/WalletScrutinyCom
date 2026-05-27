@@ -1,7 +1,6 @@
 ---
 wsId: CoinList
 title: CoinList
-verdict: custodial
 date: 2023-01-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 193
   icon: com.coinlist.trade.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.coinlist.trade
   idd: 1522706079
@@ -31,6 +31,7 @@ iphone:
   reviews: 144
   icon: com.coinlist.trade.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

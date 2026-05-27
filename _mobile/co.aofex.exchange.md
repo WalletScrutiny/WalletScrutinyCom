@@ -1,7 +1,6 @@
 ---
 wsId: AOFEX
 title: AOFEX
-verdict: custodial
 date: 2022-03-24
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 333
   icon: co.aofex.exchange.jpg
   meta: removed
+  verdict: custodial
 iphone:
   appId: com.aofex.exchange1
   idd: '1477466894'
@@ -31,6 +31,7 @@ iphone:
   reviews: 129
   icon: com.aofex.exchange1.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

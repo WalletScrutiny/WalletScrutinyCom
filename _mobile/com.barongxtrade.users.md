@@ -1,6 +1,5 @@
 ---
 title: Barong Xtrade
-verdict: wip
 date: 2026-03-18
 website: http://Barongxtrade.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 9.6.4
   icon: com.barongxtrade.users.png
   meta: removed
+  verdict: wip
   developerName: BarongXtrade
 
 ---

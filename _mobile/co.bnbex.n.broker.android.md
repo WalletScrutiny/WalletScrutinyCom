@@ -1,6 +1,5 @@
 ---
 title: BnBex Exchange
-verdict: wip
 date: 2023-01-02
 website: https://www.bnbex.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.9.3
   icon: co.bnbex.n.broker.android.png
   meta: removed
+  verdict: wip
 
 ---
 

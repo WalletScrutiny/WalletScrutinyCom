@@ -1,6 +1,5 @@
 ---
 title: Bitfinix Cryptocurrency Wallet
-verdict: wip
 date: 2024-04-03
 website: http://bitfinix.tech#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.bit.finx.jpg
   meta: removed
+  verdict: wip
   developerName: Bitfinix
 
 ---

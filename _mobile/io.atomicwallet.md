@@ -1,7 +1,6 @@
 ---
 wsId: atomic
 title: Bitcoin Wallet Crypto Ethereum
-verdict: obfuscated
 date: 2023-11-22
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   reviews: 5834
   icon: io.atomicwallet.png
   meta: ok
+  verdict: obfuscated
   developerName: Atomic Wallet
 iphone:
   appId: atomicwallet
@@ -32,6 +32,7 @@ iphone:
   reviews: 18835
   icon: atomicwallet.jpg
   meta: ok
+  verdict: obfuscated
   developerName: ATOMIC PROTOCOL SYSTEMS OÜ
 
 ---

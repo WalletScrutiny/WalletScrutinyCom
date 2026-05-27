@@ -1,6 +1,5 @@
 ---
 title: iCashwallet
-verdict: wip
 date: 2024-02-05
 website: https://icashweb.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.wiCashwallet_12832409.jpg
   meta: removed
+  verdict: wip
   developerName: iCashweb Dev
 
 ---

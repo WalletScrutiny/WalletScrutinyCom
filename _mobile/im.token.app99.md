@@ -1,6 +1,5 @@
 ---
 title: 'AllToken : Bitcoin,Ethereum,Blockchain Wallet'
-verdict: fake
 date: 2022-02-10
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   reviews: 4
   icon: im.token.app99.png
   meta: removed
+  verdict: fake
 
 ---
 

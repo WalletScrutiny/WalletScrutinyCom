@@ -1,6 +1,5 @@
 ---
 title: Ardu Crypto
-verdict: wip
 date: 2024-07-05
 website: https://arducrypto.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '16'
   icon: com.arduprime.arducrypto.png
   meta: removed
+  verdict: wip
   developerName: Ardu Prime Investment Services SA
 
 ---

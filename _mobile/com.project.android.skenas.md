@@ -1,6 +1,5 @@
 ---
 title: نیکات | پلتفرم سرمایه‌گذاری در
-verdict: wip
 date: 2023-08-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 6
   icon: com.project.android.skenas.png
   meta: removed
+  verdict: wip
   developerName: Nikaat Corp
 
 ---

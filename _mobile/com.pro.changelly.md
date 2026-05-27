@@ -1,6 +1,5 @@
 ---
 title: 'PRO exchange: trade Bitcoin'
-verdict: custodial
 date: 2026-01-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.3.3
   icon: com.pro.changelly.png
   meta: stale
+  verdict: custodial
   developerName: PRO – Cryptocurrency Trading Platform
 
 ---

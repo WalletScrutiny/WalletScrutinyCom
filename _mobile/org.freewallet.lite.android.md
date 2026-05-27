@@ -1,6 +1,5 @@
 ---
 title: Lite HD Wallet – Your Coin Base
-verdict: wip
 date: 2021-05-25
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   version: Varies with device
   icon: org.freewallet.lite.android.png
   meta: removed
+  verdict: wip
 
 ---
 

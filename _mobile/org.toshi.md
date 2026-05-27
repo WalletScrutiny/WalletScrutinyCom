@@ -1,7 +1,6 @@
 ---
 wsId: CoinbaseWallet
 title: 'Base: Built to Trade & Earn'
-verdict: nosource
 date: 2021-01-04
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   reviews: 14087
   icon: org.toshi.png
   meta: ok
+  verdict: nosource
   developerName: Coinbase Wallet
 iphone:
   appId: org.toshi.distribution
@@ -34,6 +34,7 @@ iphone:
   reviews: 161397
   icon: org.toshi.distribution.jpg
   meta: ok
+  verdict: nosource
   developerName: Coinbase Wallet
 
 ---

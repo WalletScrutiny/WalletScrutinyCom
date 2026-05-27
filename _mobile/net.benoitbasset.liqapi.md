@@ -1,6 +1,5 @@
 ---
 title: LiqAPI
-verdict: wip
 date: 2021-11-26
 redirect_from:
 - /android/net.benoitbasset.liqapi/
@@ -13,6 +12,7 @@ android:
   reviews: 3
   icon: net.benoitbasset.liqapi.png
   meta: removed
+  verdict: wip
 
 ---
 

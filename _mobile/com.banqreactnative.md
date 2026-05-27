@@ -1,6 +1,5 @@
 ---
 title: banq
-verdict: wip
 date: 2023-08-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 6
   icon: com.banqreactnative.png
   meta: removed
+  verdict: wip
   developerName: Banq, Inc.
 
 ---

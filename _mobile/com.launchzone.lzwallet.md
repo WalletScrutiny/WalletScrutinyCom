@@ -1,6 +1,5 @@
 ---
 title: LZ Wallet - Crypto & Bitcoin W
-verdict: wip
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.4
   icon: com.launchzone.lzwallet.png
   meta: removed
+  verdict: wip
   developerName: LaunchZone
 
 ---

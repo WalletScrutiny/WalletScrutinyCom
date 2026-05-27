@@ -1,6 +1,5 @@
 ---
 title: TTNEX
-verdict: wip
 date: 2023-12-19
 website: https://ttnex.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.11
   icon: com.ttnex.exchange.png
   meta: removed
+  verdict: wip
   developerName: TitanProjects
 
 ---

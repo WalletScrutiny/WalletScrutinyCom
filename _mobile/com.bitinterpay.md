@@ -1,6 +1,5 @@
 ---
 title: BitInterPay
-verdict: wip
 date: 2024-05-18
 website: https://bitinterpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.bitinterpay.png
   meta: removed
+  verdict: wip
   developerName: Bitinterpay OÜ
 
 ---

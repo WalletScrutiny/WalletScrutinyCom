@@ -1,6 +1,5 @@
 ---
 title: Nature
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/uni.UNICB29B91/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: uni.UNICB29B91.png
   meta: removed
+  verdict: wip
 
 ---
 

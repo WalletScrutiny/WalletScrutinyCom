@@ -1,7 +1,6 @@
 ---
 wsId: pantherWallet
 title: 'Panther: Crypto Wallet'
-verdict: custodial
 date: 2026-05-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 5
   icon: com.inexlatam.panther.png
   meta: ok
+  verdict: custodial
   developerName: Veltrix Technologies OÜ
 iphone:
   appId: com.inexlatam.panther
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.inexlatam.panther.jpg
   meta: ok
+  verdict: custodial
   developerName: Veltrix Technologies OU
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Ariomex
-verdict: wip
 date: 2024-11-07
 website: https://ariomex.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 6
   icon: com.ariomex.app.png
   meta: removed
+  verdict: wip
   developerName: Ariomex
 
 ---

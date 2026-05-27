@@ -1,7 +1,6 @@
 ---
 wsId: maxmaicoin
 title: MAX Exchange - Buy Bitcoin
-verdict: custodial
 date: 2021-10-01
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 12
   icon: com.maicoin.max.png
   meta: ok
+  verdict: custodial
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.max
@@ -32,6 +32,7 @@ iphone:
   reviews: 25
   icon: com.maicoin.max.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

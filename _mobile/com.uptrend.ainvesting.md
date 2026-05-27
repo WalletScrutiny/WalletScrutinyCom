@@ -1,6 +1,5 @@
 ---
 title: AInvesting - CFD trading
-verdict: nosendreceive
 date: 2025-12-18
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 7.0.32
   icon: com.uptrend.ainvesting.png
   meta: stale
+  verdict: nosendreceive
   developerName: Up Trend LTD
 
 ---

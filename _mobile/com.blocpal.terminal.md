@@ -1,6 +1,5 @@
 ---
 title: BlocPal Terminal
-verdict: wip
 date: 2024-05-07
 website: http://www.blocpal.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.1
   icon: com.blocpal.terminal.png
   meta: removed
+  verdict: wip
   developerName: BlocPal International Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: WallBTC кошелек и обменник кри
-verdict: wip
 date: 2024-07-05
 website: http://wallbtc.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.1
   icon: com.bohdanuhryn.wallbtc.png
   meta: removed
+  verdict: wip
   developerName: WallBTC
 
 ---

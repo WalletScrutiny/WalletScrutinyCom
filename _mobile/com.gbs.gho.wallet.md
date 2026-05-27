@@ -1,6 +1,5 @@
 ---
 title: Gho Wallet
-verdict: wip
 date: 2024-04-03
 website: https://gho.group#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.gbs.gho.wallet.png
   meta: removed
+  verdict: wip
   developerName: Sofdia Systems
 
 ---

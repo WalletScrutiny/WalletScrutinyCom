@@ -1,6 +1,5 @@
 ---
 title: TTGen
-verdict: wip
 date: 2024-04-03
 website: http://support.train-technical.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.3'
   icon: com.traintechnical.ttgen.png
   meta: removed
+  verdict: wip
   developerName: Train Technical
 
 ---

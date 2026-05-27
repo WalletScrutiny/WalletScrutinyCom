@@ -1,6 +1,5 @@
 ---
 title: NPAS Wallet 엔파스월렛
-verdict: wip
 date: 2026-02-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.0.2
   icon: io.npaswallet.viichainteam.png
   meta: removed
+  verdict: wip
   developerName: NPAS Wallet
 
 ---

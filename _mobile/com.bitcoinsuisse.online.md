@@ -1,7 +1,6 @@
 ---
 wsId: BitcoinSuisse
 title: 'Bitcoin Suisse: Crypto Natives'
-verdict: custodial
 date: 2021-11-22
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 3.0.3
   icon: com.bitcoinsuisse.online.png
   meta: ok
+  verdict: custodial
   developerName: Bitcoin Suisse AG
 iphone:
   appId: com.bitcoinsuisse.online
@@ -35,6 +35,7 @@ iphone:
   reviews: 0
   icon: com.bitcoinsuisse.online.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitcoin Suisse
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Swappy
-verdict: wip
 date: 2024-04-19
 website: https://www.swappy.ws
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.20
   icon: com.swappy.forint.png
   meta: removed
+  verdict: wip
   developerName: Forint Finance ltd
 
 ---

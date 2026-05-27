@@ -1,6 +1,5 @@
 ---
 title: 'W3 Wallet: Manage Crypto'
-verdict: wip
 date: 2026-04-28
 website: https://w3wallet.app
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 3
   icon: app.w3wallet.wallet.jpg
   meta: removed
+  verdict: wip
   developerName: Laptev - FZCO
 
 ---

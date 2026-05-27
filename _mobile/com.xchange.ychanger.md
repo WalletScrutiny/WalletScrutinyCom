@@ -1,7 +1,6 @@
 ---
 wsId: yChanger
 title: Ychanger – обмен криптовалют
-verdict: custodial
 date: 2025-01-15
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.2.1
   icon: com.xchange.ychanger.png
   meta: removed
+  verdict: custodial
   developerName: XchangeCapitalGroup OU
 iphone:
   appId: com.xchange.ychanger
@@ -28,6 +28,7 @@ iphone:
   reviews: 0
   icon: com.xchange.ychanger.jpg
   meta: removed
+  verdict: custodial
   developerName: XChangeCapitalGroup
 
 ---

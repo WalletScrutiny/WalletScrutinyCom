@@ -1,6 +1,5 @@
 ---
 title: KOPEX
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.kope.xa.app/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: com.kope.xa.app.png
   meta: removed
+  verdict: wip
   developerName: Venners   Vernon Shaw
 
 ---

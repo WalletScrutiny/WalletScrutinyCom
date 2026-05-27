@@ -1,7 +1,6 @@
 ---
 wsId: UpbitGlobal
 title: Upbit (Global)
-verdict: custodial
 date: 2021-10-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 34
   icon: com.dunamu.exchange.global.png
   meta: ok
+  verdict: custodial
   developerName: Dunamu
 iphone:
   appId: com.dunamu.upbit.global
@@ -33,6 +33,7 @@ iphone:
   reviews: 24
   icon: com.dunamu.upbit.global.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

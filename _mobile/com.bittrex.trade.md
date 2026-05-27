@@ -1,7 +1,6 @@
 ---
 wsId: bittrex
 title: Bittrex | Buy Bitcoin & Crypto
-verdict: custodial
 date: 2023-12-19
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 653
   icon: com.bittrex.trade.png
   meta: removed
+  verdict: custodial
   developerName: Bittrex, Inc.
 iphone:
   appId: com.bittrex.trade
@@ -31,6 +31,7 @@ iphone:
   reviews: 4357
   icon: com.bittrex.trade.jpg
   meta: removed
+  verdict: custodial
   developerName: Bittrex, Inc.
 
 ---

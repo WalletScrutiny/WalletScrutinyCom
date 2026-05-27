@@ -1,6 +1,5 @@
 ---
 title: Rapidz Checkout
-verdict: wip
 date: 2026-03-18
 website: https://www.rapidz.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.3.0
   icon: io.rapidz.rapidzcheckout.png
   meta: removed
+  verdict: wip
   developerName: UAB Rapidz Pay
 
 ---

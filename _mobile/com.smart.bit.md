@@ -1,6 +1,5 @@
 ---
 title: Smart Bit
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.smart.bit/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   icon: com.smart.bit.png
   meta: removed
+  verdict: wip
   developerName: Mountanium inc
 
 ---

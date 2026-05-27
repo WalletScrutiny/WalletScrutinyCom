@@ -1,7 +1,6 @@
 ---
 wsId: kinesismoney
 title: Kinesis - Buy gold and silver
-verdict: nosource
 date: 2024-10-07
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 110
   icon: com.kinesis.kinesisapp.png
   meta: removed
+  verdict: nosource
   developerName: Kinesis AG
 iphone:
   appId: com.kinesis.kinesis-app
@@ -36,6 +36,7 @@ iphone:
   reviews: 10
   icon: com.kinesis.kinesis-app.jpg
   meta: ok
+  verdict: nosource
   developerName: Kinesis AG
 
 ---

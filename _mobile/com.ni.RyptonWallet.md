@@ -1,6 +1,5 @@
 ---
 title: Rhypton Wallet
-verdict: wip
 date: 2024-04-26
 website: https://rhypton.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.ni.RyptonWallet.jpg
   meta: removed
+  verdict: wip
   developerName: DIGITAL INFO WORLD
 
 ---

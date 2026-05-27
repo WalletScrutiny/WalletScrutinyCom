@@ -1,6 +1,5 @@
 ---
 title: BitHappy - The Bitcoin Browser
-verdict: wip
 date: 2024-04-19
 website: http://bithappy.co.uk#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.7
   icon: com.bithappy.browser.v1.png
   meta: removed
+  verdict: wip
   developerName: S Lee
 
 ---

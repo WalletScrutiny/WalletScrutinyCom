@@ -1,6 +1,5 @@
 ---
 title: Gimbutis X
-verdict: wip
 date: 2026-01-14
 website: https://gimbutiscoin.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.6.4
   icon: com.gimbutis.x.png
   meta: fewusers
+  verdict: wip
   developerName: unus nullus
 
 ---

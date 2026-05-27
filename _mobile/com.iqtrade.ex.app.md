@@ -1,6 +1,5 @@
 ---
 title: IQTrade - Trade Bitcoin & Gold
-verdict: custodial
 date: 2025-04-22
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 20
   icon: com.iqtrade.ex.app.png
   meta: removed
+  verdict: custodial
   developerName: I&Q Financial LLC
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BlueBiz
-verdict: wip
 date: 2024-02-05
 website: https://bluebiz.opensecu.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 6.3.12
   icon: com.wallet.bluebiz.png
   meta: removed
+  verdict: wip
   developerName: OpenSecu
 
 ---

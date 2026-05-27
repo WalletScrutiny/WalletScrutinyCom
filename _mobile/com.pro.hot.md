@@ -1,6 +1,5 @@
 ---
 title: 'Hotcoin: Buy BTC, ETH & Crypto'
-verdict: wip
 date: 2021-09-16
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   reviews: 32
   icon: com.pro.hot.png
   meta: defunct
+  verdict: wip
   developerName: Hotcoin
 
 ---

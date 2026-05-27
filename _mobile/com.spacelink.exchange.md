@@ -1,6 +1,5 @@
 ---
 title: SpaceLink - Crypto Exchange
-verdict: wip
 date: 2026-02-20
 website: https://spacelink.exchange
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '4'
   icon: com.spacelink.exchange.png
   meta: obsolete
+  verdict: wip
   developerName: Space-link
 
 ---

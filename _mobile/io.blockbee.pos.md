@@ -1,6 +1,5 @@
 ---
 title: BlockBee POS
-verdict: wip
 date: 2025-04-09
 website: https://blockbee.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2.3
   icon: io.blockbee.pos.png
   meta: removed
+  verdict: wip
   developerName: BlockBee
 
 ---

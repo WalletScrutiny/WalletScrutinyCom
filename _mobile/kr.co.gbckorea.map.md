@@ -1,6 +1,5 @@
 ---
 title: GMAP
-verdict: wip
 date: 2023-01-02
 website: https://mapgbc.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: kr.co.gbckorea.map.png
   meta: removed
+  verdict: wip
 
 ---
 

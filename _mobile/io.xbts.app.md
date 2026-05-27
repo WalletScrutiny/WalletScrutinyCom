@@ -1,6 +1,5 @@
 ---
 title: 'XBTS: Crypto wallet and DeFi'
-verdict: wip
 date: 2025-02-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 4
   icon: io.xbts.app.png
   meta: removed
+  verdict: wip
   developerName: TechnoL0g
 
 ---

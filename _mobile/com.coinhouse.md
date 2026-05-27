@@ -1,6 +1,5 @@
 ---
 title: Coinhouse - Bitcoin et Cryptos
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 5.5.0
   icon: com.coinhouse.png
   meta: ok
+  verdict: custodial
   developerName: Coinhouse
 
 ---

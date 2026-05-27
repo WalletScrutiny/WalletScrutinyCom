@@ -1,6 +1,5 @@
 ---
 title: Crypto.com - Buy Bitcoin Now
-verdict: fake
 date: 2021-10-01
 authors:
 - danny
@@ -8,13 +7,13 @@ redirect_from:
 - /android/com.cryptooptions.crypto.com.buy.bitcoin.now/
 android:
   appId: com.cryptooptions.crypto.com.buy.bitcoin.now
-  altTitle: (Fake) Crypto.com - Buy Bitcoin Now
   users: 100
   released: 2021-07-24
   updated: 2021-07-24
   version: '1.0'
   icon: com.cryptooptions.crypto.com.buy.bitcoin.now.png
   meta: removed
+  verdict: fake
 
 ---
 

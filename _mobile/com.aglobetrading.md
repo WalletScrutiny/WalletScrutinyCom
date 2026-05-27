@@ -1,6 +1,5 @@
 ---
 title: GtWallet
-verdict: wip
 date: 2021-11-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   reviews: 27
   icon: com.aglobetrading.png
   meta: removed
+  verdict: wip
 
 ---
 

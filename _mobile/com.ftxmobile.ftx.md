@@ -1,7 +1,6 @@
 ---
 wsId: FTXPro
 title: 'FTX Pro: Trade Crypto'
-verdict: custodial
 date: 2023-01-02
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   reviews: 525
   icon: com.ftxmobile.ftx.png
   meta: removed
+  verdict: custodial
 iphone:
   appId: org.reactjs.native.example.FTXMobile.FTX
   idd: 1512374471
@@ -30,6 +30,7 @@ iphone:
   reviews: 330
   icon: org.reactjs.native.example.FTXMobile.FTX.jpg
   meta: removed
+  verdict: custodial
 
 ---
 

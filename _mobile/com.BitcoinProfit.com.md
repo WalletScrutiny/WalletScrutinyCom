@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Profit
-verdict: wip
 date: 2023-08-17
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   icon: com.BitcoinProfit.com.png
   meta: removed
+  verdict: wip
   developerName: devswipe
 
 ---

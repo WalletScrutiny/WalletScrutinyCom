@@ -1,7 +1,6 @@
 ---
 wsId: coinTR
 title: "CoinTR |\_Bitcoin & Crypto"
-verdict: custodial
 date: 2023-08-19
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 9
   icon: com.cointr.jpg
   meta: ok
+  verdict: custodial
   developerName: CoinTR
 iphone:
   appId: com.cointr
@@ -35,6 +35,7 @@ iphone:
   reviews: 4
   icon: com.cointr.jpg
   meta: removed
+  verdict: custodial
   developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
 
 ---

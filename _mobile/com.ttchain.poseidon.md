@@ -1,6 +1,5 @@
 ---
 title: Poseidon Wallet
-verdict: wip
 date: 2023-09-15
 redirect_from:
 - /android/com.ttchain.poseidon/
@@ -12,6 +11,7 @@ android:
   version: 1.0.9
   icon: com.ttchain.poseidon.png
   meta: removed
+  verdict: wip
   developerName: Poseidon202066
 
 ---

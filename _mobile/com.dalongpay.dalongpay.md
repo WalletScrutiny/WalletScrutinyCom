@@ -1,6 +1,5 @@
 ---
 title: Dalongpay
-verdict: wip
 date: 2023-01-02
 website: http://www.dalongpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.26
   icon: com.dalongpay.dalongpay.png
   meta: removed
+  verdict: wip
 
 ---
 

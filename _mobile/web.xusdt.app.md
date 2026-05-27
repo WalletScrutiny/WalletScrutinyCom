@@ -1,6 +1,5 @@
 ---
 title: XDTP
-verdict: wip
 date: 2023-08-05
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   version: 1.0.3
   icon: web.xusdt.app.png
   meta: removed
+  verdict: wip
   developerName: XUSDT
 
 ---

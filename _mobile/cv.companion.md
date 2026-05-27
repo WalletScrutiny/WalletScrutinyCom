@@ -1,6 +1,5 @@
 ---
 title: QR Watch-Only Wallet
-verdict: wip
 date: 2024-05-18
 website: https://keyst.one/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: cv.companion.png
   meta: removed
+  verdict: wip
   developerName: Yanssie HK Limited
 
 ---

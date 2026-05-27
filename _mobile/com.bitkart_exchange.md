@@ -1,6 +1,5 @@
 ---
 title: BITKART EXCHANGE – FIAT CURREN
-verdict: wip
 date: 2024-02-05
 website: http://bitkart.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.4'
   icon: com.bitkart_exchange.png
   meta: removed
+  verdict: wip
   developerName: Blockchain Community India
 
 ---

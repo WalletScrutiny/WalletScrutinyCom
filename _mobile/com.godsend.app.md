@@ -1,6 +1,5 @@
 ---
 title: GodSend
-verdict: wip
 date: 2023-08-04
 redirect_from:
 - /android/com.godsend.app/
@@ -12,6 +11,7 @@ android:
   version: 1.0.8
   icon: com.godsend.app.png
   meta: removed
+  verdict: wip
   developerName: Godsend Vip
 
 ---

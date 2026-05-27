@@ -1,6 +1,5 @@
 ---
 title: Flitz
-verdict: wip
 date: 2024-02-05
 website: https://flitz.be#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 0.15.4
   icon: be.flitz.flitz_mobile_production.png
   meta: removed
+  verdict: wip
   developerName: Flitz Technologies
 
 ---

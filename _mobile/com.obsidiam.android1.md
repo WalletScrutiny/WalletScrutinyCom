@@ -1,7 +1,6 @@
 ---
 wsId: obsidiam
 title: Obsidiam
-verdict: custodial
 date: 2025-05-30
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.6.6
   icon: com.obsidiam.android1.png
   meta: removed
+  verdict: custodial
   developerName: Obsidiam
 iphone:
   appId: com.obsidiam.appstore
@@ -34,6 +34,7 @@ iphone:
   reviews: 14
   icon: com.obsidiam.appstore.jpg
   meta: removed
+  verdict: custodial
   developerName: Obsidiam
 
 ---

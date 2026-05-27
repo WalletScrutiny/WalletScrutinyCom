@@ -1,6 +1,5 @@
 ---
 title: HitAPI
-verdict: wip
 date: 2021-08-17
 website: http://hitapi.oblade.net
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 6
   icon: net.benoitbasset.hitapi.png
   meta: obsolete
+  verdict: wip
   developerName: Oblade
 
 ---

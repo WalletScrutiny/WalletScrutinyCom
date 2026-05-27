@@ -1,7 +1,6 @@
 ---
 wsId: bitVenusBVOX
 title: 'BVOX: Trade BTC, ETH & Crypto'
-verdict: custodial
 date: 2025-12-27
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   reviews: 6
   icon: io.bitvenus.app.first.jpg
   meta: ok
+  verdict: custodial
   developerName: Bitvenus Technology Ltd.
 iphone:
   appId: com.bitvenus.exchange
@@ -37,6 +37,7 @@ iphone:
   reviews: 13
   icon: com.bitvenus.exchange.jpg
   meta: ok
+  verdict: custodial
   developerName: BV Global Technology Ltd.
 
 ---

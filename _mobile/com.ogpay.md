@@ -1,7 +1,6 @@
 ---
 wsId: OGPay
 title: OGPay Business
-verdict: custodial
 date: 2021-11-15
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 34
   icon: com.ogpay.png
   meta: ok
+  verdict: custodial
   developerName: Original Digital Corporation
 iphone:
   appId: com.unifiedsignal.ogpaywallet
@@ -29,6 +29,7 @@ iphone:
   reviews: 263
   icon: com.unifiedsignal.ogpaywallet.jpg
   meta: ok
+  verdict: custodial
   developerName: Original Digital Corporation
 
 ---

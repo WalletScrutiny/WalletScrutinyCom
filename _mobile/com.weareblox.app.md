@@ -1,7 +1,6 @@
 ---
 wsId: bloxCrypto
 title: BLOX Crypto & Bitcoin Trading
-verdict: nosendreceive
 date: 2023-07-20
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 6.8.2
   icon: com.weareblox.app.png
   meta: ok
+  verdict: nosendreceive
   developerName: BLOX (Weareblox) - bitcoin & other crypto currency
 iphone:
   appId: com.weareblox.app
@@ -34,6 +34,7 @@ iphone:
   reviews: 5624
   icon: com.weareblox.app.jpg
   meta: ok
+  verdict: nosendreceive
   developerName: Blox B.V.
 
 ---

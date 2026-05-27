@@ -1,6 +1,5 @@
 ---
 title: Bank4YOU
-verdict: wip
 date: 2023-01-02
 website: https://www.bank4you.life
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.22
   icon: com.linescode.b4y.app.png
   meta: removed
+  verdict: wip
 
 ---
 

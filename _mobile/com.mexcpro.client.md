@@ -1,6 +1,5 @@
 ---
 title: 'MEXC: Buy Bitcoin BTC & Crypto'
-verdict: custodial
 date: 2021-08-21
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   reviews: 3033
   icon: com.mexcpro.client.png
   meta: ok
+  verdict: custodial
   developerName: MEXC Ltd
 
 ---

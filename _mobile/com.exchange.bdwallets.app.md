@@ -1,6 +1,5 @@
 ---
 title: BD Wallets - Money Exchanger
-verdict: wip
 date: 2023-01-02
 website: https://www.bdwallets.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.2
   icon: com.exchange.bdwallets.app.png
   meta: removed
+  verdict: wip
   developerName: BD Wallets
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Jus Pay
-verdict: wip
 date: 2023-05-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 3.0.0
   icon: com.pkg.JusPay.png
   meta: removed
+  verdict: wip
   developerName: Abdurahman Unia
 
 ---

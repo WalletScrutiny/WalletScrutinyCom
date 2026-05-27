@@ -1,7 +1,6 @@
 ---
 wsId: liqiDigitalAssets
 title: Liqi
-verdict: custodial
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.2.6
   icon: com.liqidigitalassets.liqi.png
   meta: removed
+  verdict: custodial
   developerName: LIQI DIGITAL ASSETS
 iphone:
   appId: com.liqidigitalassets.liqi
@@ -34,6 +34,7 @@ iphone:
   reviews: 5
   icon: com.liqidigitalassets.liqi.jpg
   meta: removed
+  verdict: custodial
   developerName: LIQI DIGITAL ASSETS LTDA
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: bitdataExchange
 title: BitDATA Exchange (BitEx)
-verdict: custodial
 date: 2026-02-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.8.6
   icon: com.qm.bitdata.bitexotc.png
   meta: removed
+  verdict: custodial
   developerName: BitDATA Exchange
 iphone:
   appId: com.bitex.otc
@@ -32,6 +32,7 @@ iphone:
   reviews: 8
   icon: com.bitex.otc.jpg
   meta: stale
+  verdict: custodial
   developerName: BITDATA DIGITAL TECH PTE. LTD.
 
 ---

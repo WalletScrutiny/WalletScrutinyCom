@@ -1,7 +1,6 @@
 ---
 wsId: LocalBitcoins
 title: LocalBitcoins
-verdict: custodial
 date: 2023-04-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 37
   icon: com.localbitcoins.app.android.png
   meta: removed
+  verdict: custodial
   developerName: LocalBitcoins Ltd.
 iphone:
   appId: com.localbitcoins.app.ios
@@ -33,6 +33,7 @@ iphone:
   reviews: 53
   icon: com.localbitcoins.app.ios.jpg
   meta: removed
+  verdict: custodial
   developerName: LocalBitcoins Ltd
 
 ---

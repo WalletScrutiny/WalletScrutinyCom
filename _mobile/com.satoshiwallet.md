@@ -1,6 +1,5 @@
 ---
 title: Satoshi Wallet
-verdict: wip
 date: 2026-02-02
 website: https://satoshiwalletapp.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 3
   icon: com.satoshiwallet.png
   meta: removed
+  verdict: wip
   developerName: Bitcoin Developer
 
 ---

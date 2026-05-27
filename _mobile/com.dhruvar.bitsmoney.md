@@ -1,6 +1,5 @@
 ---
 title: Bitsmoney
-verdict: wip
 date: 2024-02-05
 website: http://bitsmoney.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 3.0.0
   icon: com.dhruvar.bitsmoney.png
   meta: removed
+  verdict: wip
   developerName: fd
 
 ---

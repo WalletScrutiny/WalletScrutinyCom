@@ -1,6 +1,5 @@
 ---
 title: Defii
-verdict: wip
 date: 2024-02-05
 website: https://defii.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 2.0.3
   icon: io.defii.png
   meta: removed
+  verdict: wip
   developerName: CHT Innovative Technology PTE.  LTD
 
 ---

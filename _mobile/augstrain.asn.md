@@ -1,6 +1,5 @@
 ---
 title: 'Augstrain Crypto Wallet : Buy & Sell Crypto Assets'
-verdict: wip
 date: 2021-08-31
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   version: '8.0'
   icon: augstrain.asn.png
   meta: removed
+  verdict: wip
 
 ---
 

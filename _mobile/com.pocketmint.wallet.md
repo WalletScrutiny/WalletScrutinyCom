@@ -1,7 +1,6 @@
 ---
 wsId: pocketmintWallet
 title: PocketMint Wallet
-verdict: custodial
 date: 2026-05-20
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 8
   icon: com.pocketmint.wallet.png
   meta: ok
+  verdict: custodial
   developerName: Pocketmint Solutions LLC
 iphone:
   appId: ai.pocketmint
@@ -29,6 +29,7 @@ iphone:
   reviews: 5
   icon: ai.pocketmint.jpg
   meta: ok
+  verdict: custodial
   developerName: Pocketmint Solutions
 
 ---

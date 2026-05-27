@@ -1,6 +1,5 @@
 ---
 title: Safe Wallet
-verdict: wip
 date: 2024-02-05
 website: https://worldshare.network#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: network.worldshare.safewallet.png
   meta: removed
+  verdict: wip
   developerName: may Ryan
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: smartWallet
 title: Smart Wallet
-verdict: nosource
 date: 2025-12-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 33
   icon: com.smartblockchain.wallet.png
   meta: ok
+  verdict: nosource
   developerName: YamaD LLC
 iphone:
   appId: com.smartblockchain.wallet
@@ -31,6 +31,7 @@ iphone:
   reviews: 21
   icon: com.smartblockchain.wallet.jpg
   meta: ok
+  verdict: nosource
   developerName: Yamad LLC
 
 ---

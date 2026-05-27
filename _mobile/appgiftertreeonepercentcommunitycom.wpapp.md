@@ -1,6 +1,5 @@
 ---
 title: The OPC
-verdict: wip
 date: 2024-04-19
 website: http://www.theonepercentcommunity.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 7
   icon: appgiftertreeonepercentcommunitycom.wpapp.png
   meta: removed
+  verdict: wip
   developerName: OPCGifter
 
 ---

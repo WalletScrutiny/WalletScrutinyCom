@@ -1,6 +1,5 @@
 ---
 title: Make Money
-verdict: wip
 date: 2023-01-02
 website: https://combaijialesfvbwe.xyz#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.1'
   icon: com.international.fhow.png
   meta: removed
+  verdict: wip
 
 ---
 

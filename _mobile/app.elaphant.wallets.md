@@ -1,6 +1,5 @@
 ---
 title: Elaphant - BTC ETH ELA Wallet
-verdict: wip
 date: 2023-01-02
 website: https://elaphant.app
 redirect_from:
@@ -14,6 +13,7 @@ android:
   reviews: 1
   icon: app.elaphant.wallets.png
   meta: removed
+  verdict: wip
 
 ---
 

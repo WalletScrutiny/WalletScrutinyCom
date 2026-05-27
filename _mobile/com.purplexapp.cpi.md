@@ -1,6 +1,5 @@
 ---
 title: 'PurpleX: Crypto Payment App'
-verdict: wip
 date: 2026-01-14
 website: https://purplex.io
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   reviews: 0
   icon: com.purplexapp.cpi.jpg
   meta: ok
+  verdict: wip
   developerName: PURPLEX FINTECH PRIVATE LIMITED
 
 ---

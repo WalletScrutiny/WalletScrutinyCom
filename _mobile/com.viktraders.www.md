@@ -1,6 +1,5 @@
 ---
 title: Viktraders
-verdict: wip
 date: 2023-05-03
 website: http://www.viktraders.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: com.viktraders.www.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Aviva Wallet
-verdict: wip
 date: 2024-11-12
 website: https://avivawallets.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.avivawallets.png
   meta: removed
+  verdict: wip
   developerName: Ryan Davidd
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: BTC TRADE ONLINE
-verdict: wip
 date: 2023-01-02
 website: http://www.btctradeonline.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   icon: com.trade.btctradelink.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Bitoket
-verdict: wip
 date: 2025-08-04
 website: https://bitoket.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.9.0
   icon: com.bitoket.app.png
   meta: fewusers
+  verdict: wip
   developerName: InfinityChain
 
 ---

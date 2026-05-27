@@ -1,7 +1,6 @@
 ---
 wsId: binanceTh
 title: 'Binance TH: Bitcoin and Crypto'
-verdict: custodial
 date: 2025-11-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   reviews: 4
   icon: com.cloud.thailand.jpg
   meta: ok
+  verdict: custodial
   developerName: Gulf Binance
 iphone:
   appId: com.tiger.cloudbase.thailand
@@ -29,6 +29,7 @@ iphone:
   reviews: 15605
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
+  verdict: custodial
   developerName: Gulf Binance Company Limited
 
 ---

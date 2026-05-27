@@ -1,6 +1,5 @@
 ---
 title: 'Pera: Crypto & Gift Cards'
-verdict: custodial
 date: 2023-08-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.0.0
   icon: com.ewebmeta.ewebmeta.png
   meta: removed
+  verdict: custodial
   developerName: Pera Digital Services
 
 ---

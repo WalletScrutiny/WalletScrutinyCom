@@ -1,7 +1,6 @@
 ---
 wsId: bitsaveBitcoin
 title: 'BitSave: Bitcoin & Crypto SIP'
-verdict: custodial
 date: 2026-01-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.29.1
   icon: com.casperwealth.bitsave.jpg
   meta: ok
+  verdict: custodial
   developerName: Casper Wealth
 iphone:
   appId: com.casperwealth.bitsaveios
@@ -33,6 +33,7 @@ iphone:
   reviews: 0
   icon: com.casperwealth.bitsaveios.jpg
   meta: ok
+  verdict: custodial
   developerName: Casper Wealth Holdings Limited
 
 ---

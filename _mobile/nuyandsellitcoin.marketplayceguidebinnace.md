@@ -1,6 +1,5 @@
 ---
 title: Tips Binance Bitcoin Market
-verdict: fake
 date: 2023-09-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.1
   icon: nuyandsellitcoin.marketplayceguidebinnace.png
   meta: removed
+  verdict: fake
   developerName: Lil99Campbell
 
 ---

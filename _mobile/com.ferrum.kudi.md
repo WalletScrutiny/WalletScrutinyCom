@@ -1,6 +1,5 @@
 ---
 title: First Kudi
-verdict: custodial
 date: 2024-05-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   reviews: 9
   icon: com.ferrum.kudi.png
   meta: removed
+  verdict: custodial
   developerName: Ferrum Network
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: BitWallet
 title: BitWallet - Buy & Sell Bitcoin
-verdict: custodial
 date: 2025-06-18
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 262
   icon: com.Android.Inc.bitwallet.png
   meta: removed
+  verdict: custodial
   developerName: BitWallet, Incorporated
 iphone:
   appId: Tissatech.Bit-Wallet
@@ -33,6 +33,7 @@ iphone:
   reviews: 565
   icon: Tissatech.Bit-Wallet.jpg
   meta: removed
+  verdict: custodial
   developerName: BitWallet, Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: wirebitDigital
 title: Wirebit Digital
-verdict: custodial
 date: 2024-11-30
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.12.4
   icon: com.wirebitdigitalapp.png
   meta: removed
+  verdict: custodial
   developerName: Wirebit S.A. de C.V.
 iphone:
   appId: wirebit.digital.app
@@ -32,6 +32,7 @@ iphone:
   reviews: 0
   icon: wirebit.digital.app.jpg
   meta: obsolete
+  verdict: custodial
   developerName: Wirebit S.A. de C.V.
 
 ---

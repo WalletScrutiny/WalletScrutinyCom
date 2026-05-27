@@ -1,6 +1,5 @@
 ---
 title: 'pmgc: Bitcoin and crypto curre'
-verdict: wip
 date: 2024-02-05
 website: https://picomediacoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   icon: com.zeligz.picomedia.png
   meta: removed
+  verdict: wip
   developerName: PicoMediaGroup
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'Swapitway: Sell Gift Cards'
-verdict: custodial
 date: 2023-09-10
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 49
   icon: swapitway.trade.jpg
   meta: ok
+  verdict: custodial
   developerName: Nairance Limited
 
 ---

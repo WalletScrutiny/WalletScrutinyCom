@@ -1,6 +1,5 @@
 ---
 title: Bitcoin Faucet
-verdict: wip
 date: 2023-04-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 366
   icon: ps.bitcoinfaucet.app.png
   meta: removed
+  verdict: wip
 
 ---
 

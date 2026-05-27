@@ -1,6 +1,5 @@
 ---
 title: Capricoin Copay
-verdict: wip
 date: 2025-08-04
 website: https://www.capricoin.org/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 5.5.5
   icon: org.capricoin.copay.png
   meta: removed
+  verdict: wip
   developerName: Programio DMCC LLC
 
 ---

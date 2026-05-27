@@ -1,6 +1,5 @@
 ---
 title: Bulltrade
-verdict: wip
 date: 2024-04-19
 website: https://bull-trade.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.2.2
   icon: com.bullcoin.app.png
   meta: removed
+  verdict: wip
   developerName: Lotus Bro
 
 ---

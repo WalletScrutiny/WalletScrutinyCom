@@ -1,6 +1,5 @@
 ---
 title: Bitlus
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.bitlus/
@@ -12,6 +11,7 @@ android:
   version: '1.9'
   icon: com.bitlus.png
   meta: removed
+  verdict: wip
 
 ---
 

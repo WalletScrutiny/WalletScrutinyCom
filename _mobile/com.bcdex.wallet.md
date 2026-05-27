@@ -1,6 +1,5 @@
 ---
 title: BCD Exchange
-verdict: wip
 date: 2023-12-19
 website: http://bcdxchange.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0.93
   icon: com.bcdex.wallet.png
   meta: removed
+  verdict: wip
   developerName: BCD EX Developer
 
 ---

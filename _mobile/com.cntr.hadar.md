@@ -1,6 +1,5 @@
 ---
 title: Hadar
-verdict: wip
 date: 2024-04-19
 redirect_from:
 - /android/com.cntr.hadar/
@@ -12,6 +11,7 @@ android:
   version: 1.0.2
   icon: com.cntr.hadar.png
   meta: removed
+  verdict: wip
   developerName: Centaur
 
 ---

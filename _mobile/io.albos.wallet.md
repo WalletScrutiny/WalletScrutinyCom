@@ -1,7 +1,6 @@
 ---
 wsId: albosWallet
 title: ALBOS Wallet
-verdict: custodial
 date: 2026-05-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 2.5.1
   icon: io.albos.wallet.png
   meta: fewusers
+  verdict: custodial
   developerName: ALBOS AND MARE PARTNERS OÜ
 iphone:
   appId: com.albos.wallet
@@ -29,6 +29,7 @@ iphone:
   reviews: 1
   icon: com.albos.wallet.jpg
   meta: stale
+  verdict: custodial
   developerName: ALBOS & MARE PARTNERS
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: My Сrypto Wallet USDT/BTC/ETH
-verdict: wip
 date: 2023-07-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.1'
   icon: com.qwertynetworks.png
   meta: removed
+  verdict: wip
   developerName: Qwerty Networks
 
 ---

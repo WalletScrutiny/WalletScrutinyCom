@@ -1,6 +1,5 @@
 ---
 title: Invest Bitcoin
-verdict: wip
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptotreasures.invest.bitcoin/
@@ -12,6 +11,7 @@ android:
   version: '1.0'
   icon: org.cryptotreasures.invest.bitcoin.png
   meta: removed
+  verdict: wip
 
 ---
 

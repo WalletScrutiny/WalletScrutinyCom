@@ -1,7 +1,6 @@
 ---
 wsId: vowCurrency
 title: Vow
-verdict: nosource
 date: 2024-07-30
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   reviews: 4
   icon: com.vowcurrency.vow.png
   meta: removed
+  verdict: nosource
   developerName: Vow
 iphone:
   appId: com.vowcurrency.vow
@@ -36,6 +36,7 @@ iphone:
   reviews: 6
   icon: com.vowcurrency.vow.jpg
   meta: removed
+  verdict: nosource
   developerName: Vow Limited
 
 ---

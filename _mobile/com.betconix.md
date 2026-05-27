@@ -1,6 +1,5 @@
 ---
 title: 'Betconix: Buy Bitcoin & Crypto'
-verdict: custodial
 date: 2024-04-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   reviews: 2
   icon: com.betconix.png
   meta: removed
+  verdict: custodial
   developerName: GN Betconix ST s.r.o.
 
 ---

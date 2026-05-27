@@ -1,6 +1,5 @@
 ---
 title: ProfitTradingApp for Huobi
-verdict: custodial
 date: 2024-04-19
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.0.2
   icon: com.profittrading.forhuobi.png
   meta: removed
+  verdict: custodial
   developerName: ProfitTradingApp
 
 ---

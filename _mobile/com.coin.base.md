@@ -1,6 +1,5 @@
 ---
 title: TRON TRX Mining
-verdict: wip
 date: 2023-01-02
 redirect_from:
 - /android/com.coin.base/
@@ -13,6 +12,7 @@ android:
   reviews: 300
   icon: com.coin.base.png
   meta: removed
+  verdict: wip
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: ارز هشت | صرافی ارز دیجیتال
-verdict: custodial
 date: 2024-10-23
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 80
   icon: com.arz8x.app.arz8x.png
   meta: removed
+  verdict: custodial
   developerName: Arz8x
 
 ---

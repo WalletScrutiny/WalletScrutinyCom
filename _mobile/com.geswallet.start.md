@@ -1,6 +1,5 @@
 ---
 title: GES Wallets
-verdict: wip
 date: 2024-04-19
 website: https://portaltest.gesgame.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.0.2
   icon: com.geswallet.start.png
   meta: removed
+  verdict: wip
   developerName: Ges Ecosystem
 
 ---

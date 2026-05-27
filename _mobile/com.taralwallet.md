@@ -1,7 +1,6 @@
 ---
 wsId: taralityWallet
 title: 'Tarality: Crypto Trading App'
-verdict: nosource
 date: 2025-05-30
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 4
   icon: com.taralwallet.png
   meta: removed
+  verdict: nosource
   developerName: Tarality Ecosystems Private Limited
 iphone:
   appId: com.taralwallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 1
   icon: com.taralwallet.jpg
   meta: obsolete
+  verdict: nosource
   developerName: TARALITY ECOSYSTEMS PRIVATE LIMITED
 
 ---

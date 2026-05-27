@@ -1,7 +1,6 @@
 ---
 wsId: LumiWallet
 title: Lumi Crypto Bitcoin Wallet
-verdict: nosource
 date: 2021-06-16
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   reviews: 247
   icon: com.lumiwallet.android.png
   meta: removed
+  verdict: nosource
   developerName: Raias Llc
 iphone:
   appId: com.lumiwallet.HD
@@ -33,6 +33,7 @@ iphone:
   reviews: 3449
   icon: com.lumiwallet.HD.jpg
   meta: removed
+  verdict: nosource
 
 ---
 

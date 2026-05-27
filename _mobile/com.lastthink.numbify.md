@@ -1,6 +1,5 @@
 ---
 title: Bit Stock - Trading Bitcoin on
-verdict: wip
 date: 2023-06-21
 website: http://inout.fm#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.12'
   icon: com.lastthink.numbify.png
   meta: removed
+  verdict: wip
   developerName: Addevice
 
 ---

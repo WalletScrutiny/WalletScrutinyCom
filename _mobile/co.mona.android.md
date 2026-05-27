@@ -1,7 +1,6 @@
 ---
 wsId: mona
 title: 'Crypto.com: Buy BTC, ETH & CRO'
-verdict: custodial
 date: 2021-10-24
 authors:
 - leo
@@ -30,6 +29,7 @@ android:
   reviews: 56529
   icon: co.mona.android.jpg
   meta: ok
+  verdict: custodial
   developerName: Crypto Technology Holdings Limited
 iphone:
   appId: co.mona.Monaco
@@ -40,6 +40,7 @@ iphone:
   reviews: 329163
   icon: co.mona.Monaco.jpg
   meta: ok
+  verdict: custodial
   developerName: Crypto.com
 
 ---

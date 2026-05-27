@@ -1,6 +1,5 @@
 ---
 title: OX Mining
-verdict: fake
 date: 2025-04-09
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   reviews: 4
   icon: com.oxmiing.mw.jpg
   meta: removed
+  verdict: fake
   developerName: haleiyun
 
 ---

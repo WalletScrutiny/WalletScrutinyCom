@@ -1,7 +1,6 @@
 ---
 wsId: juanCashZybiTech
 title: JuanCash - Buy Load, Pay Bills
-verdict: custodial
 date: 2025-08-01
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   reviews: 3
   icon: com.zybitech.juancash.png
   meta: stale
+  verdict: custodial
   developerName: Zybi Tech Inc
 iphone:
   appId: com.zybitechinc.juanworld
@@ -35,6 +35,7 @@ iphone:
   reviews: 57
   icon: com.zybitechinc.juanworld.jpg
   meta: ok
+  verdict: custodial
   developerName: ZYBI TECH, INC.
 
 ---

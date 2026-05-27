@@ -1,6 +1,5 @@
 ---
 title: FXVC – CFDs Trading
-verdict: wip
 date: 2024-04-26
 website: https://fxvc.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: 1.8.0
   icon: com.fxvc.trading.png
   meta: removed
+  verdict: wip
   developerName: FXVC
 
 ---

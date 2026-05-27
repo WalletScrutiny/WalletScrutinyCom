@@ -1,6 +1,5 @@
 ---
 title: SPEZA - Regulated Digital Asse
-verdict: wip
 date: 2024-07-05
 website: https://www.speza.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 0.1.2
   icon: com.exchange.speza.png
   meta: removed
+  verdict: wip
   developerName: SPEZA Inc
 
 ---

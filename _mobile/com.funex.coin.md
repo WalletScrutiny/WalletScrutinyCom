@@ -1,7 +1,6 @@
 ---
 wsId: funexCrypto
 title: 'Funex: Crypto & Bitcoin Wallet'
-verdict: custodial
 date: 2024-10-23
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.0.37
   icon: com.funex.coin.png
   meta: ok
+  verdict: custodial
   developerName: Funex Coin
 iphone:
   appId: com.funex.coin
@@ -34,6 +34,7 @@ iphone:
   reviews: 0
   icon: com.funex.coin.jpg
   meta: removed
+  verdict: custodial
   developerName: FUNEX BLOCKCHAIN SERVICES PRIVATE LIMITED
 
 ---

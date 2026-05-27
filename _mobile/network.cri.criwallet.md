@@ -1,7 +1,6 @@
 ---
 wsId: criWallet
 title: CRI Wallet
-verdict: custodial
 date: 2024-12-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   reviews: 14
   icon: network.cri.criwallet.jpg
   meta: removed
+  verdict: custodial
   developerName: COSMETA, INC.
 iphone:
   appId: network.cri.criwallet
@@ -34,6 +34,7 @@ iphone:
   reviews: 14
   icon: network.cri.criwallet.jpg
   meta: removed
+  verdict: custodial
   developerName: COSMETA Inc.
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: SolidusX Trading
-verdict: wip
 date: 2024-03-02
 website: https://solidusx.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   version: '188.5'
   icon: com.solidus.x.png
   meta: removed
+  verdict: wip
   developerName: DG LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 wsId: bitzlatoApp
 title: Bitzlato
-verdict: wip
 date: 2023-07-20
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 5.5.2
   icon: com.bitzlato.mobile.png
   meta: removed
+  verdict: wip
   developerName: Bitzlato ltd.
 iphone:
   appId: com.bitzlato.mobile
@@ -27,6 +27,7 @@ iphone:
   reviews: 0
   icon: com.bitzlato.mobile.jpg
   meta: removed
+  verdict: wip
   developerName: BITZLATO LIMITED
 
 ---

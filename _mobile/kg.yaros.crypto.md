@@ -1,6 +1,5 @@
 ---
 title: Crypto Invoice
-verdict: wip
 date: 2026-05-13
 redirect_from:
 - /android/kg.yaros.crypto/
@@ -12,6 +11,7 @@ android:
   version: '1.017'
   icon: kg.yaros.crypto.png
   meta: removed
+  verdict: wip
   developerName: Yaros-Ярославцев Александр Васильевич
 
 ---

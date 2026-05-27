@@ -1,6 +1,5 @@
 ---
 title: BitcoinBlink
-verdict: wip
 date: 2023-12-19
 website: https://bitcoinblink.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.9'
   icon: com.bitcoinblink.wallet.png
   meta: removed
+  verdict: wip
   developerName: BitcoinBlink
 
 ---

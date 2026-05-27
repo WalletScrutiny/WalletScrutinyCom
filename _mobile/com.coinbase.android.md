@@ -1,7 +1,6 @@
 ---
 wsId: coinbaseBSB
 title: 'Coinbase: Buy Crypto & Stocks'
-verdict: custodial
 date: 2021-10-12
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   reviews: 117514
   icon: com.coinbase.android.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinbase Inc
 iphone:
   appId: com.vilcsak.bitcoin2
@@ -38,6 +38,7 @@ iphone:
   reviews: 1793354
   icon: com.vilcsak.bitcoin2.jpg
   meta: ok
+  verdict: custodial
   developerName: Coinbase, Inc.
 
 ---

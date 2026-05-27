@@ -1,6 +1,5 @@
 ---
 title: BXB-Virtual contract BTC&NFT
-verdict: wip
 date: 2023-08-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.2.19
   icon: com.bxb.io.png
   meta: removed
+  verdict: wip
   developerName: Teko Ecommerce Sdn Bhd
 
 ---

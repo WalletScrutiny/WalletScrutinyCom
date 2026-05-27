@@ -1,7 +1,6 @@
 ---
 wsId: SIGEN.pro
 title: SIGEN.pro
-verdict: custodial
 date: 2025-05-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   reviews: 6263
   icon: com.sigen.sigen.png
   meta: removed
+  verdict: custodial
   developerName: Lergen Style LLP
 iphone:
   appId: com.sigen.sigenapp
@@ -32,6 +32,7 @@ iphone:
   reviews: 3663
   icon: com.sigen.sigenapp.jpg
   meta: removed
+  verdict: custodial
   developerName: Lergen Style LP
 
 ---

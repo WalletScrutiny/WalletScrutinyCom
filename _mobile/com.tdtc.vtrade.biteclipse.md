@@ -1,6 +1,5 @@
 ---
 title: BitEclipse Mobile
-verdict: wip
 date: 2024-04-19
 website: https://biteclipse.com/query
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.6
   icon: com.tdtc.vtrade.biteclipse.png
   meta: removed
+  verdict: wip
   developerName: BitEclipse
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: Assero Wallet
-verdict: wip
 date: 2024-02-05
 website: https://www.asserosapphiremoney.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: '1.9'
   icon: com.assero.asserowallet.png
   meta: removed
+  verdict: wip
   developerName: Assero Group
 
 ---

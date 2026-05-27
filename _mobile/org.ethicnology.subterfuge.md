@@ -1,6 +1,5 @@
 ---
 title: subterfuge
-verdict: wip
 date: 2024-03-02
 website: https://github.com/ethicnology/subterfuge
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.0
   icon: org.ethicnology.subterfuge.png
   meta: removed
+  verdict: wip
   developerName: ethicnology
 
 ---

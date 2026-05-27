@@ -1,6 +1,5 @@
 ---
 title: OmniC+
-verdict: wip
 date: 2023-05-17
 website: http://omnic.website/innovation#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   version: 1.0.81
   icon: com.omnic.png
   meta: removed
+  verdict: wip
   developerName: AIO Synergy Holdings Bhd
 
 ---
