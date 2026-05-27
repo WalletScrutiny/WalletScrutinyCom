@@ -1,7 +1,6 @@
 ---
 title: Crypto Exchanges
 verdict: wip
-meta: obsolete
 date: 2023-12-31
 website: https://cryptooriented.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-01-10
   version: 1.0.0
   icon: com.cryptooriented.exchanges.png
+  meta: obsolete
   developerName: Transporter Lab GmbH
 
 ---

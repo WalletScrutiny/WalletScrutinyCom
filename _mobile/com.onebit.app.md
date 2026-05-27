@@ -1,7 +1,6 @@
 ---
 title: TenX - Buy Bitcoin & Crypto Card
 verdict: custodial
-meta: removed
 date: 2021-09-03
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: 3.25.1
   reviews: 575
   icon: com.onebit.app.png
+  meta: removed
 
 ---
 

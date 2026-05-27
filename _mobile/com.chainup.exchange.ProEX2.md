@@ -1,7 +1,6 @@
 ---
 title: Pro Exchange
 verdict: custodial
-meta: removed
 date: 2025-03-14
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-11-28
   version: 5.9.1_push_v2
   icon: com.chainup.exchange.ProEX2.png
+  meta: removed
   developerName: ProEX
 
 ---

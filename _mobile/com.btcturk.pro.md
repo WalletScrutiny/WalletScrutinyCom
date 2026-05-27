@@ -1,6 +1,5 @@
 ---
 title: 'BtcTurk | Kripto: BTC|USDT|XRP'
-meta: ok
 date: 2021-08-21
 authors:
 - danny

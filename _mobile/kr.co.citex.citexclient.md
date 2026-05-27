@@ -1,7 +1,6 @@
 ---
 title: CITEX- Crypto trading & PoW
 verdict: custodial
-meta: removed
 date: 2022-05-31
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.1.0
   reviews: 6
   icon: kr.co.citex.citexclient.png
+  meta: removed
 
 ---
 

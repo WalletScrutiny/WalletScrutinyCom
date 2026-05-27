@@ -1,7 +1,6 @@
 ---
 title: Crypto.com Buy Bitcoin
 verdict: fake
-meta: removed
 date: 2021-10-01
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-07-07
   version: '1.0'
   icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
+  meta: removed
 
 ---
 

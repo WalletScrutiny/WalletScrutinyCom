@@ -1,7 +1,6 @@
 ---
 title: Altana - Bitcoin Wallet
 verdict: nosource
-meta: removed
 date: 2024-11-04
 authors:
 - emanuel
@@ -17,6 +16,7 @@ android:
   updated: 2024-09-15
   version: VARY
   icon: it.inbitcoin.altana.png
+  meta: removed
   developerName: inbitcoin
 
 ---

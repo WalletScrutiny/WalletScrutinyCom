@@ -1,7 +1,6 @@
 ---
 title: OMC Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://omc-group.co/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-15
   version: 1.1.38
   icon: com.omc.wallet.png
+  meta: removed
 
 ---
 

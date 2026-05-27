@@ -1,7 +1,6 @@
 ---
 title: Spark Lightning Wallet
 verdict: sourceavailable
-meta: removed
 date: 2023-08-04
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 0.3.1
   reviews: 1
   icon: com.spark.wallet.png
+  meta: removed
   developerName: Nadav Ivgi
 
 ---

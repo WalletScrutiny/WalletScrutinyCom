@@ -1,7 +1,6 @@
 ---
 title: Global Crypto Trading
 verdict: wip
-meta: removed
 date: 2021-11-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-03-26
   version: '1.12'
   icon: com.global.trading.company.png
+  meta: removed
   developerName: Global Crypto Team
 
 ---

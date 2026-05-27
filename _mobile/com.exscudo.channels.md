@@ -2,7 +2,6 @@
 wsId: exscudo
 title: 'Fintap: BTC, ETH Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2021-04-24
 authors:
 - kiwilamb
@@ -27,6 +26,7 @@ android:
   version: 3.30.2738
   reviews: 49
   icon: com.exscudo.channels.png
+  meta: ok
   developerName: NIMERA LTD
 iphone:
   appId: com.exscudo.channels
@@ -36,6 +36,7 @@ iphone:
   version: 3.24.0
   reviews: 55
   icon: com.exscudo.channels.jpg
+  meta: ok
   developerName: Exscudo OU
 
 ---

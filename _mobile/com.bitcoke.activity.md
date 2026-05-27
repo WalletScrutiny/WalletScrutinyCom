@@ -1,7 +1,6 @@
 ---
 title: BitCoke
 verdict: custodial
-meta: removed
 date: 2023-03-09
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2022-10-07
   version: 7.0.0.3
   icon: com.bitcoke.activity.png
+  meta: removed
   developerName: Bitcoke
 
 ---

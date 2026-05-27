@@ -1,7 +1,6 @@
 ---
 title: Xchange Monster
 verdict: wip
-meta: removed
 date: 2023-08-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-08-24
   version: '1.7'
   icon: com.xchangemonster.png
+  meta: removed
   developerName: XchangeMonsterMobile
 
 ---

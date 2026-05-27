@@ -2,7 +2,6 @@
 wsId: bitunix
 title: 'Bitunix Pro: Buy BTC & Crypto'
 verdict: custodial
-meta: ok
 date: 2024-09-06
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 3.36.0
   reviews: 94
   icon: bu.app.android.png
+  meta: ok
   developerName: Bitunix Pro
 iphone:
   appId: com.bitunix.ios-
@@ -38,6 +38,7 @@ iphone:
   version: 3.28.0
   reviews: 611
   icon: com.bitunix.ios-.jpg
+  meta: ok
   developerName: Bitunix Global Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: ZMEX- Crypto & Bitcoin Trading
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 3.11.13
   reviews: 48
   icon: com.zmexglobal.app.jpg
+  meta: ok
   developerName: zmex fintech limited
 
 ---

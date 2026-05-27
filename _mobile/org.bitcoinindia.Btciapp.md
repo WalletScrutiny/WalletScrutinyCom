@@ -1,7 +1,6 @@
 ---
 title: BITCOIN INDIA
 verdict: nosendreceive
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2025-08-25
   version: 3.2.54
   icon: org.bitcoinindia.Btciapp.jpg
+  meta: fewusers
   developerName: BITCOIN INDIA
 
 ---

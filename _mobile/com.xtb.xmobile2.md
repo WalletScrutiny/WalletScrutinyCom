@@ -1,7 +1,6 @@
 ---
 title: XTB Online Investing
 verdict: nosendreceive
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.170.1
   reviews: 216
   icon: com.xtb.xmobile2.png
+  meta: ok
   developerName: XTB S.A.
 
 ---

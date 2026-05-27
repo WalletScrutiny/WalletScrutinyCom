@@ -1,7 +1,6 @@
 ---
 title: Crypto Earn
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.bitcoinheroes.crypto.earn/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-15
   version: '1.0'
   icon: net.bitcoinheroes.crypto.earn.jpg
+  meta: removed
 
 ---
 

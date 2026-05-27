@@ -1,7 +1,6 @@
 ---
 title: UnifiedPurse - Receive,Exchang
 verdict: wip
-meta: removed
 date: 2024-04-26
 website: https://unifiedpurse.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-08-30
   version: 1.0.9
   icon: com.unifiedpurse.app.png
+  meta: removed
   developerName: Tormuto
 
 ---

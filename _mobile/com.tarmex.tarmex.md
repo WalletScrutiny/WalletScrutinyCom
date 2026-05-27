@@ -1,7 +1,6 @@
 ---
 title: Tarmex
 verdict: custodial
-meta: removed
 date: 2025-03-14
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2023-11-09
   version: '1.1'
   icon: com.tarmex.tarmex.png
+  meta: removed
   developerName: Tarmex Exchange
 
 ---

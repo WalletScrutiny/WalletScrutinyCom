@@ -1,7 +1,6 @@
 ---
 title: Acceptidemo
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://acceptify.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-28
   version: 0.0.3
   icon: demoapp.acceptify.mobilewallet.jpg
+  meta: removed
   developerName: Acceptify Limited
 
 ---

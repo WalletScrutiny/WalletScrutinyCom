@@ -1,7 +1,6 @@
 ---
 title: Bitop加密货币比特币交易平台
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.bitopapps.fanhukj/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 25
   icon: com.bitopapps.fanhukj.jpg
+  meta: removed
 
 ---
 

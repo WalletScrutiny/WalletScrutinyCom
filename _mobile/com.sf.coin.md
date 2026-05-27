@@ -1,7 +1,6 @@
 ---
 title: Electus
 verdict: wip
-meta: removed
 date: 2024-07-05
 redirect_from:
 - /android/com.sf.coin/
@@ -12,6 +11,7 @@ android:
   updated: 2019-09-09
   version: 1.0.0
   icon: com.sf.coin.png
+  meta: removed
   developerName: Free dev
 
 ---

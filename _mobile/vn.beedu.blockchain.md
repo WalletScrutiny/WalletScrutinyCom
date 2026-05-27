@@ -2,7 +2,6 @@
 wsId: LynKeyWallet
 title: LynKey
 verdict: custodial
-meta: removed
 date: 2025-02-28
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.4.20
   reviews: 31
   icon: vn.beedu.blockchain.png
+  meta: removed
   developerName: Lynkey International
 iphone:
   appId: vn.beedu.blockchain
@@ -36,6 +36,7 @@ iphone:
   version: 1.4.20
   reviews: 3
   icon: vn.beedu.blockchain.jpg
+  meta: removed
   developerName: Lynkey
 
 ---

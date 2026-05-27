@@ -1,7 +1,6 @@
 ---
 title: UZNEX - Crypto Exchange
 verdict: custodial
-meta: removed
 date: 2024-12-15
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2024-02-19
   version: 2.0.0
   icon: com.uznex.app.png
+  meta: removed
   developerName: UZNEX
 
 ---

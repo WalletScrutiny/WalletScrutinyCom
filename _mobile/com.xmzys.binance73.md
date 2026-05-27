@@ -1,7 +1,6 @@
 ---
 title: Bian：Bitcoin Wallet-Virtual currency
 verdict: fake
-meta: removed
 date: 2021-10-22
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-03
   version: '2.0'
   icon: com.xmzys.binance73.png
+  meta: removed
 
 ---
 

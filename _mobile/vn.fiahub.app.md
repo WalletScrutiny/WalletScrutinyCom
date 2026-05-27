@@ -2,7 +2,6 @@
 wsId: Fiahub
 title: Fiahub - Mua bán Bitcoin, USDT
 verdict: custodial
-meta: ok
 date: 2022-07-13
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: BCheck Wallet
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: http://www.bitchk.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2017-11-29
   version: 3.8.8
   icon: com.bitchk.bitchk.png
+  meta: removed
   developerName: ETRA Co., Ltd.
 
 ---

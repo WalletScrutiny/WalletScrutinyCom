@@ -2,7 +2,6 @@
 wsId: tapngo
 title: "Tap - Mobile Finance\_"
 verdict: custodial
-meta: ok
 date: 2021-09-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.8.5
   reviews: 301
   icon: com.tapngo.tap.png
+  meta: ok
   developerName: Tap Global Limited
 iphone:
   appId: com.TapGlobal.tap
@@ -32,6 +32,7 @@ iphone:
   version: 3.8.5
   reviews: 1906
   icon: com.TapGlobal.tap.jpg
+  meta: ok
   developerName: Tap Global Limited
 
 ---

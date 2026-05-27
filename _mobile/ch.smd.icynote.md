@@ -1,7 +1,6 @@
 ---
 title: Icynote
 verdict: wip
-meta: removed
 date: 2024-07-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-09-22
   version: 1.0.2
   icon: ch.smd.icynote.png
+  meta: removed
   developerName: Martin Demierre
 
 ---

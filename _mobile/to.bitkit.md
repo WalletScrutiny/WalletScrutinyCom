@@ -2,7 +2,6 @@
 wsId: bitkit
 title: 'Bitkit: Bitcoin Wallet'
 verdict: sourceavailable
-meta: ok
 date: 2024-12-25
 authors:
 - danny
@@ -32,6 +31,7 @@ android:
   reviews: 3
   icon: to.bitkit.png
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
+  meta: ok
   developerName: Synonym
   repository: https://github.com/synonymdev/bitkit
 iphone:
@@ -43,6 +43,7 @@ iphone:
   version: 2.2.1
   reviews: 10
   icon: to.bitkit.jpg
+  meta: ok
   developerName: Synonym Software Ltd
   repository: https://github.com/synonymdev/bitkit-ios
 

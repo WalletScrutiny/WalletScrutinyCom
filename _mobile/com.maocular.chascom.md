@@ -1,7 +1,6 @@
 ---
 title: Chascom
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://chascom.tech
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-05
   version: 1.0.0
   icon: com.maocular.chascom.jpg
+  meta: removed
   developerName: Chascom
 
 ---

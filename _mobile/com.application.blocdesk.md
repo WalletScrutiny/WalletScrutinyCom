@@ -1,7 +1,6 @@
 ---
 title: VelcomEx - The Leading P2P Cry
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://www.velcomex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-03
   version: 1.1.5
   icon: com.application.blocdesk.png
+  meta: removed
   developerName: VelcomEx
 
 ---

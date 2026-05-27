@@ -1,7 +1,6 @@
 ---
 title: PQI Crypto Wallet
 verdict: wip
-meta: removed
 date: 2025-02-26
 website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-17
   version: v2.0.11
   icon: com.pqi.wallet.png
+  meta: removed
   developerName: Power Quotient International Co., Ltd.
 
 ---

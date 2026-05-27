@@ -1,7 +1,6 @@
 ---
 title: BitBuddy –Buy & Sell Bitcoin
 verdict: wip
-meta: removed
 date: 2023-05-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-09-28
   version: 2.0.1
   icon: co.asachs.bitbuddy.png
+  meta: removed
   developerName: BitBuddy
 
 ---

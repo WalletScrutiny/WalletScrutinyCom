@@ -1,7 +1,6 @@
 ---
 title: Cryptopay.ng | Buy, Sell & Exc
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://cryptopay.ng/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-22
   version: '3.0'
   icon: ng.crytopay.pwa.png
+  meta: removed
   developerName: Cryptopay.ng
 
 ---

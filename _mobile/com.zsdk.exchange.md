@@ -1,7 +1,6 @@
 ---
 title: ZBG
 verdict: custodial
-meta: removed
 date: 2025-03-14
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.2.0
   reviews: 46
   icon: com.zsdk.exchange.png
+  meta: removed
   developerName: ZBG_exchange
 
 ---

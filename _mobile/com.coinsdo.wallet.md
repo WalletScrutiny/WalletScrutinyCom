@@ -2,7 +2,6 @@
 wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
 verdict: nosource
-meta: ok
 date: 2024-03-02
 authors:
 - danny

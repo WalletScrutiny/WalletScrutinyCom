@@ -2,7 +2,6 @@
 wsId: sanaLiraExchangeTurkey
 title: Sanalira
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2022-06-14
   version: 1.0.32
   icon: com.sanalira.app.png
+  meta: removed
   developerName: SANALİRA
 iphone:
   appId: com.sanalira.app
@@ -33,6 +33,7 @@ iphone:
   version: 1.0.32
   reviews: 37
   icon: com.sanalira.app.jpg
+  meta: removed
   developerName: Sanalira
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Yb mobile client
 verdict: fake
-meta: removed
 date: 2025-05-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.34'
   reviews: 3
   icon: com.merseyside.cripto.png
+  meta: removed
   developerName: Mersey Software
 
 ---

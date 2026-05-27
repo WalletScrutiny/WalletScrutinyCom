@@ -1,7 +1,6 @@
 ---
 title: Buy Crypto Without Kyc
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptovisacard.buy.crypto.without.kyc/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-26
   version: '1.0'
   icon: com.cryptovisacard.buy.crypto.without.kyc.png
+  meta: removed
 
 ---
 

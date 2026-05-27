@@ -2,7 +2,6 @@
 wsId: qmallExchange
 title: Qmall APP
 verdict: custodial
-meta: stale
 date: 2025-07-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.1.59
   reviews: 3
   icon: com.qmall.exchange.png
+  meta: stale
   developerName: Prof-IT Blockchain Limited
 iphone:
   appId: com.profit.qmall.exchange
@@ -33,6 +33,7 @@ iphone:
   version: 1.1.59
   reviews: 9
   icon: com.profit.qmall.exchange.jpg
+  meta: stale
   developerName: QMALL Exchange
 
 ---

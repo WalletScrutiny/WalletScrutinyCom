@@ -2,7 +2,6 @@
 wsId: stackDuo
 title: Stack Duo
 verdict: wip
-meta: fewusers
 date: 2024-05-31
 authors:
 - danny

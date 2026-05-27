@@ -1,7 +1,6 @@
 ---
 title: Crypto TAE
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://cryptotae.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-09-08
   version: 2.2.1
   icon: com.bicasoft_labs.crypto_tae.jpg
+  meta: removed
   developerName: Bicasoft Labs
 
 ---

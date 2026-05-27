@@ -1,7 +1,6 @@
 ---
 title: JetFinex
 verdict: wip
-meta: removed
 date: 2023-05-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-07-01
   version: 1.0.19
   icon: com.btcckorea.png
+  meta: removed
   developerName: BTCC KOREA
 
 ---

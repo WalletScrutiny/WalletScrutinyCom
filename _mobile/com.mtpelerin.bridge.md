@@ -2,7 +2,6 @@
 wsId: bridgeWallet
 title: 'Bridge Wallet: Bitcoin, crypto'
 verdict: nosource
-meta: ok
 date: 2022-01-10
 authors:
 - leo
@@ -31,6 +30,7 @@ android:
   version: '1.67'
   reviews: 34
   icon: com.mtpelerin.bridge.png
+  meta: ok
   developerName: Mt Pelerin Group SA
 iphone:
   appId: com.mtpelerin.bridge
@@ -40,6 +40,7 @@ iphone:
   version: '1.67'
   reviews: 87
   icon: com.mtpelerin.bridge.jpg
+  meta: ok
   developerName: Mt Pelerin
 
 ---

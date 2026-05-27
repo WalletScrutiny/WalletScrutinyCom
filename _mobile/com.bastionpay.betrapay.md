@@ -1,7 +1,6 @@
 ---
 title: BetraPay
 verdict: wip
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2019-11-20
   version: v1.0.1
   icon: com.bastionpay.betrapay.png
+  meta: removed
   developerName: BETRA Blockchain Trading Academy
 
 ---

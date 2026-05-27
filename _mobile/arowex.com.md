@@ -1,7 +1,6 @@
 ---
 title: ArowEx - Crypto/Bitcoin Tradin
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.arowex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-17
   version: 0.0.0.1
   icon: arowex.com.png
+  meta: removed
   developerName: ArowEx
 
 ---

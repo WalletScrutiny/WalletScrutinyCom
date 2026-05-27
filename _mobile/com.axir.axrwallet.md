@@ -1,7 +1,6 @@
 ---
 title: Axir Wallet
 verdict: wip
-meta: stale
 date: 2026-01-14
 website: https://axirwallet.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-01-15
   version: 0.2.37
   icon: com.axir.axrwallet.png
+  meta: stale
   developerName: Axir Wallet
 
 ---

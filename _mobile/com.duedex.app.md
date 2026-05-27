@@ -1,7 +1,6 @@
 ---
 title: DueDEX
 verdict: wip
-meta: removed
 date: 2021-11-08
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.2.18
   reviews: 38
   icon: com.duedex.app.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 wsId: bitpaywallet
 title: 'BitPay: Buy BTC ETH & Solana'
-meta: ok
 date: 2023-03-13
 authors:
 - leo
@@ -32,6 +31,7 @@ android:
   version: 14.42.1
   reviews: 2301
   icon: com.bitpay.wallet.png
+  meta: ok
   verdict: sourceavailable
   developerName: BitPay, Inc.
   bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
@@ -43,6 +43,7 @@ iphone:
   version: 14.42.1
   reviews: 3520
   icon: com.bitpay.wallet.jpg
+  meta: ok
   verdict: wip
   developerName: BitPay, Inc.
 

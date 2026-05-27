@@ -2,7 +2,6 @@
 wsId: Pintu
 title: Pintu Trading Crypto & Futures
 verdict: custodial
-meta: ok
 date: 2021-08-27
 authors:
 - danny

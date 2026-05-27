@@ -1,7 +1,6 @@
 ---
 title: PayUs
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.payus.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-10
   version: '1.1'
   icon: com.sonicx.payus.png
+  meta: removed
   developerName: SONICX FOUNDATION
 
 ---

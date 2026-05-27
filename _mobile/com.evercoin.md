@@ -2,7 +2,6 @@
 wsId: evercoin
 title: 'Evercoin: Bitcoin, Ripple, ETH'
 verdict: nosource
-meta: removed
 date: 2023-01-02
 authors:
 - leo
@@ -21,6 +20,7 @@ android:
   version: 2.8.8
   reviews: 59
   icon: com.evercoin.png
+  meta: removed
 iphone:
   appId: com.evercoinInc.evercoin
   idd: 1277924158
@@ -29,6 +29,7 @@ iphone:
   version: 1.9.5
   reviews: 2742
   icon: com.evercoinInc.evercoin.jpg
+  meta: removed
 
 ---
 

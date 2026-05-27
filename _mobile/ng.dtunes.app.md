@@ -2,7 +2,6 @@
 wsId: dtunesCrypto
 title: Dtunes – Sell Crypto to Naira
 verdict: nosendreceive
-meta: ok
 date: 2026-01-23
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.0.1
   reviews: 36
   icon: ng.dtunes.app.png
+  meta: ok
   developerName: Dtunes NG
 iphone:
   appId: ng.dtunes.app
@@ -30,6 +30,7 @@ iphone:
   version: 3.0.1
   reviews: 505
   icon: ng.dtunes.app.jpg
+  meta: ok
   developerName: Crand Technologies LLC
 
 ---

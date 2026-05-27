@@ -1,7 +1,6 @@
 ---
 title: Exchange Valet
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://exchangevalet.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2019-01-24
   version: VARY
   icon: com.dopamineapps.exchangevalet.png
+  meta: removed
   developerName: Dopamine Apps
 
 ---

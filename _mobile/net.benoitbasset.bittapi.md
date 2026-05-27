@@ -1,7 +1,6 @@
 ---
 title: BittAPI
 verdict: wip
-meta: obsolete
 date: 2021-08-17
 website: http://bittapi.oblade.net
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.2.1
   reviews: 6
   icon: net.benoitbasset.bittapi.png
+  meta: obsolete
   developerName: Oblade
 
 ---

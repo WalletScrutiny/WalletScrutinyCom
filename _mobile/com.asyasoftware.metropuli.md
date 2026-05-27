@@ -1,7 +1,6 @@
 ---
 title: Metropuli
 verdict: wip
-meta: obsolete
 date: 2025-08-18
 website: https://asyasoftware.ge
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-22
   version: 1.0.3
   icon: com.asyasoftware.metropuli.png
+  meta: obsolete
   developerName: Asya Software JSC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: VTN Wallet
 verdict: wip
-meta: removed
 date: 2023-05-06
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-11-29
   version: '1.0'
   icon: org.vrontonode.wallet.png
+  meta: removed
   developerName: VRONTO NODE & VRONTO TECH
 
 ---

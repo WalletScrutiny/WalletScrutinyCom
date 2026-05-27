@@ -2,7 +2,6 @@
 wsId: paycool
 title: Pay.cool
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.5.163
   reviews: 3
   icon: cool.pay.paycool.png
+  meta: removed
   developerName: Exchangily LLC
 iphone:
   appId: cool.pay.paycool
@@ -29,6 +29,7 @@ iphone:
   version: 2.5.163
   reviews: 16
   icon: cool.pay.paycool.jpg
+  meta: removed
   developerName: Exchangily LLC
 
 ---

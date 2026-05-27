@@ -2,7 +2,6 @@
 wsId: kochureCrypto
 title: 'Kochure: Buy & Sell Crypto'
 verdict: custodial
-meta: ok
 date: 2025-07-24
 authors:
 - danny

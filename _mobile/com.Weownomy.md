@@ -1,7 +1,6 @@
 ---
 title: Weownomy Pay
 verdict: wip
-meta: removed
 date: 2023-07-28
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.0.4
   reviews: 67
   icon: com.Weownomy.png
+  meta: removed
   developerName: Weownomy Platform
 
 ---

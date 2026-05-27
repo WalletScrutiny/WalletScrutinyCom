@@ -1,7 +1,6 @@
 ---
 title: Chainblock
 verdict: wip
-meta: removed
 date: 2024-08-31
 website: https://chainblock.it/flash/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-12-04
   version: '1.0'
   icon: com.app.Chainblock.png
+  meta: removed
   developerName: Chainblock
 
 ---

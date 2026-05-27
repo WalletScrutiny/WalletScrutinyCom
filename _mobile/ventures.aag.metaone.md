@@ -2,7 +2,6 @@
 wsId: metaOneNFT
 title: Saakuru  App
 verdict: custodial
-meta: ok
 date: 2025-09-23
 authors:
 - danny

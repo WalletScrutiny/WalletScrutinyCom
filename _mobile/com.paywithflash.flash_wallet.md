@@ -2,7 +2,6 @@
 wsId: flashBitcoinWallet
 title: 'Flash: Bitcoin Wallet'
 verdict: nosource
-meta: ok
 date: 2026-05-20
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2025-12-30
   version: 1.0.16
   icon: com.paywithflash.flash_wallet.png
+  meta: ok
   developerName: Flash Lightning Solutions
 iphone:
   appId: com.paywithflash.flashWallet
@@ -27,6 +27,7 @@ iphone:
   version: 1.0.12
   reviews: 1
   icon: com.paywithflash.flashWallet.jpg
+  meta: ok
   developerName: Flash Lightning Solutions Inc.
 
 ---

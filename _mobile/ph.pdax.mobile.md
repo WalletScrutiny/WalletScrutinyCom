@@ -2,7 +2,6 @@
 wsId: pdax
 title: PDAX - Make your money move
 verdict: custodial
-meta: ok
 date: 2021-09-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 14.10.0
   reviews: 3645
   icon: ph.pdax.mobile.png
+  meta: ok
   developerName: PDAX (Philippine Digital Asset Exchange)
 iphone:
   appId: ph.pdax.mobile
@@ -32,6 +32,7 @@ iphone:
   version: 14.10.0
   reviews: 940
   icon: ph.pdax.mobile.jpg
+  meta: ok
   developerName: Philippine Digital Asset Exchange (PDAX), Inc.
 
 ---

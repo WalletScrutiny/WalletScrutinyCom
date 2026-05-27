@@ -1,7 +1,6 @@
 ---
 title: Bitzdeal
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.application.bitzdeal/
@@ -12,6 +11,7 @@ android:
   updated: 2020-08-12
   version: '1.1'
   icon: com.application.bitzdeal.jpg
+  meta: removed
   developerName: Blu & MNB Technologies
 
 ---

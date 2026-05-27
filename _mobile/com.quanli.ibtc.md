@@ -2,7 +2,6 @@
 wsId: ibtcex
 title: iBTCex
 verdict: custodial
-meta: removed
 date: 2023-08-16
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2023-09-07
   version: 1.6.0
   icon: com.quanli.ibtc.png
+  meta: removed
   developerName: iBTC Technology
 iphone:
   appId: com.iBTC.trade.hk
@@ -31,6 +31,7 @@ iphone:
   version: 1.6.0
   reviews: 0
   icon: com.iBTC.trade.hk.jpg
+  meta: removed
   developerName: iBTC Technology
 
 ---

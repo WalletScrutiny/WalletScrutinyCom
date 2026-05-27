@@ -2,7 +2,6 @@
 wsId: coholdmobile
 title: HOLD — Buy Bitcoin & Crypto
 verdict: custodial
-meta: removed
 date: 2023-05-10
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 3.15.1
   reviews: 9
   icon: co.hold.mobile.png
+  meta: removed
   developerName: HOLD Platform Limited
 iphone:
   appId: co.hold.mobile
@@ -32,6 +32,7 @@ iphone:
   version: 3.15.1
   reviews: 21
   icon: co.hold.mobile.jpg
+  meta: removed
   developerName: Hold
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: UKCOIN
 verdict: wip
-meta: removed
 date: 2023-06-07
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-07-16
   version: 1.0.0
   icon: com.ukcoin.wallet.png
+  meta: removed
   developerName: UKCOIN
 
 ---

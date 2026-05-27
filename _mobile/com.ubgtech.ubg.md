@@ -1,7 +1,6 @@
 ---
 title: UBG Trade
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://ubgtech.my#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-01
   version: 1.0.1
   icon: com.ubgtech.ubg.png
+  meta: removed
   developerName: UBG Technology
 
 ---

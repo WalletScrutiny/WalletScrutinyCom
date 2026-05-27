@@ -2,7 +2,6 @@
 wsId: everspace
 title: Oberton Wallet
 verdict: nosource
-meta: ok
 date: 2024-09-06
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.18.1
   reviews: 27
   icon: com.oberton.app.png
+  meta: ok
   developerName: Bytehub, LLC
 iphone:
   appId: io.oberton
@@ -34,6 +34,7 @@ iphone:
   version: 3.2.0
   reviews: 8
   icon: io.oberton.jpg
+  meta: ok
   developerName: BYTEHUB, LLC
 
 ---

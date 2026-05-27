@@ -2,7 +2,6 @@
 wsId: okxTR
 title: 'OKX TR: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-20
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   updated: 2026-05-21
   version: 6.172.0
   icon: com.okx.tr.png
+  meta: ok
   developerName: OKX TR
 iphone:
   appId: com.okx.tr
@@ -34,6 +34,7 @@ iphone:
   version: 6.172.0
   reviews: 2198
   icon: com.okx.tr.jpg
+  meta: ok
   developerName: OKX TR KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

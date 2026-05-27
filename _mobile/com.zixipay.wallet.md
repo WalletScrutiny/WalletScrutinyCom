@@ -2,7 +2,6 @@
 wsId: ZixiPay
 title: 'ZixiPay: Crypto Wallet'
 verdict: custodial
-meta: ok
 date: 2021-11-17
 authors:
 - danny

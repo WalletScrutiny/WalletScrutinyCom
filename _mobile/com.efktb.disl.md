@@ -1,7 +1,6 @@
 ---
 title: My Kim Trx
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.efktb.disl/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-28
   version: 1.0.0
   icon: com.efktb.disl.png
+  meta: removed
   developerName: chunboscaskolsk
 
 ---

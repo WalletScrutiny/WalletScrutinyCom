@@ -1,7 +1,6 @@
 ---
 title: 'FarhadMarket - Cryptocurrency '
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.9.124
   reviews: 14
   icon: com.farhadmarket.app.png
+  meta: removed
   developerName: Exbito
 
 ---

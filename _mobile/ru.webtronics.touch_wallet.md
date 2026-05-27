@@ -2,7 +2,6 @@
 wsId: touchWalletCrypto
 title: Touch Wallet — Crypto Wallet
 verdict: custodial
-meta: stale
 date: 2024-10-03
 authors:
 - danny

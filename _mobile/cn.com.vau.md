@@ -2,7 +2,6 @@
 wsId: vantageFX
 title: Vantage:All-In-One Trading App
 verdict: nosendreceive
-meta: ok
 date: 2021-11-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.02.1
   reviews: 7044
   icon: cn.com.vau.png
+  meta: ok
   developerName: Vantage Global Prime PTY LTD
 iphone:
   appId: com.vttech.VantageFX
@@ -33,6 +33,7 @@ iphone:
   version: 4.02.0
   reviews: 75
   icon: com.vttech.VantageFX.jpg
+  meta: ok
   developerName: Vantage Global Prime PTY LTD
 
 ---

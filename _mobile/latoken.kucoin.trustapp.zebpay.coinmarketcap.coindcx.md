@@ -1,7 +1,6 @@
 ---
 title: 'Coin-DC: Bitcoin, cryptocurrency investment app'
 verdict: wip
-meta: removed
 date: 2021-09-02
 redirect_from:
 - /android/latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-02
   version: '1.1'
   icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.png
+  meta: removed
 
 ---
 

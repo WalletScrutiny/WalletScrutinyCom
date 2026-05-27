@@ -1,7 +1,6 @@
 ---
 title: Get Real Bitcoin Free
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptodragons.get.real.bitcoin.free/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-19
   version: '1.0'
   icon: com.cryptodragons.get.real.bitcoin.free.jpg
+  meta: removed
 
 ---
 

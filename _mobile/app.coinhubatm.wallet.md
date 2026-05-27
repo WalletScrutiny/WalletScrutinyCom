@@ -2,7 +2,6 @@
 wsId: coinhubWallet
 title: Coinhub Bitcoin Wallet
 verdict: nosource
-meta: stale
 date: 2026-02-02
 authors:
 - danny

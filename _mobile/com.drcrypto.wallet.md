@@ -1,7 +1,6 @@
 ---
 title: 'BitSmart: Bitcoin, Ethereum, Blockchain Wallet'
 verdict: wip
-meta: removed
 date: 2021-11-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 2.0.5
   reviews: 64
   icon: com.drcrypto.wallet.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: puraVidaBitcoin
 title: Pura Vida Bitcoin
 verdict: custodial
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny

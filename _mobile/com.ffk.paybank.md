@@ -1,7 +1,6 @@
 ---
 title: PayBank
 verdict: custodial
-meta: removed
 date: 2023-11-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-06-21
   version: 2.6.6
   icon: com.ffk.paybank.png
+  meta: removed
   developerName: UAB Livil Pay
 
 ---

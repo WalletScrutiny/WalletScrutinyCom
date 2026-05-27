@@ -1,7 +1,6 @@
 ---
 title: Crypto Wallet Free Coins
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.bitcoinera.crypto.wallet.free.coins/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-17
   version: '1.0'
   icon: com.bitcoinera.crypto.wallet.free.coins.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Virtuse
 verdict: wip
-meta: removed
 date: 2023-04-16
 website: https://virtuse.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-12-01
   version: 1.0.5
   icon: virtuse.apk.png
+  meta: removed
   developerName: Virtuse
 
 ---

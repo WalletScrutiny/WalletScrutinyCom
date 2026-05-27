@@ -2,7 +2,6 @@
 wsId: xapo
 title: Xapo
 verdict: custodial
-meta: removed
 date: 2021-08-06
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   version: '5.34'
   reviews: 21922
   icon: com.xapo.png
+  meta: removed
 iphone:
   appId: com.iphone.XapoApp
   idd: 917692892
@@ -33,6 +33,7 @@ iphone:
   version: 6.12.0
   reviews: 149
   icon: com.iphone.XapoApp.jpg
+  meta: removed
 
 ---
 

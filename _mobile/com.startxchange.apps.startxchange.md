@@ -1,7 +1,6 @@
 ---
 title: StartXchange
 verdict: wip
-meta: removed
 date: 2024-05-18
 website: https://startxchange.com.gh#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-11
   version: '1.0'
   icon: com.startxchange.apps.startxchange.jpg
+  meta: removed
   developerName: STARTUS TECHNOLOGIES
 
 ---

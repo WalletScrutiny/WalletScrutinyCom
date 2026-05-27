@@ -1,7 +1,6 @@
 ---
 title: ShowGO Wallet
 verdict: wip
-meta: removed
 date: 2025-05-30
 redirect_from:
 - /android/com.bonsystem.chain.showgo/
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-24
   version: 1.0.2
   icon: com.bonsystem.chain.showgo.png
+  meta: removed
   developerName: SEEDREAM
 
 ---

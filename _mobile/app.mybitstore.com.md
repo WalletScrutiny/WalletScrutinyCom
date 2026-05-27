@@ -2,7 +2,6 @@
 wsId: mybitstore
 title: 'Mybitstore: Bitcoin & Crypto'
 verdict: custodial
-meta: stale
 date: 2022-04-11
 authors:
 - danny

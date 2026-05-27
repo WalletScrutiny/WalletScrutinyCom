@@ -2,7 +2,6 @@
 wsId: Totalcoin
 title: Totalcoin - Buy & Sell Bitcoin
 verdict: custodial
-meta: ok
 date: 2021-05-24
 authors:
 - leo

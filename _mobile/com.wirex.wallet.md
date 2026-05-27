@@ -2,7 +2,6 @@
 wsId: wirexwalletdefi
 title: 'COCA: Crypto Card & Wallet'
 verdict: nosource
-meta: ok
 date: 2022-01-10
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 3.2.0
   reviews: 16
   icon: com.wirex.wallet.png
+  meta: ok
   developerName: CCA LABS
 iphone:
   appId: com.wirex.wallet
@@ -35,6 +35,7 @@ iphone:
   version: 3.1.1
   reviews: 10
   icon: com.wirex.wallet.jpg
+  meta: ok
   developerName: CCA LABS - FZCO
 
 ---

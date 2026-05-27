@@ -1,7 +1,6 @@
 ---
 title: TradePal - Wallet & Swap
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: http://app.tradepal.finance#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-02
   version: 1.0.0
   icon: finance.tradepal.app.png
+  meta: removed
   developerName: Zemin
 
 ---

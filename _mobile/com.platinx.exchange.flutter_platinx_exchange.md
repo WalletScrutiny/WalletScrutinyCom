@@ -1,7 +1,6 @@
 ---
 title: PlatinX Indian Crypto Exchange
 verdict: wip
-meta: removed
 date: 2025-02-04
 website: https://platinx.exchange/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-02-14
   version: 2.0.16
   icon: com.platinx.exchange.flutter_platinx_exchange.png
+  meta: removed
   developerName: PlatinX
 
 ---

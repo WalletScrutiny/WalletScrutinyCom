@@ -2,7 +2,6 @@
 wsId: gateIOLite
 title: 'Gate Lite: Buy Bitcoin, Crypto'
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 2.0.1
   reviews: 9
   icon: com.gateio.lite.png
+  meta: removed
   developerName: Gate Global, Corp.
 iphone:
   appId: com.gateio.GateLite
@@ -35,6 +35,7 @@ iphone:
   version: 3.10.2
   reviews: 29
   icon: com.gateio.GateLite.jpg
+  meta: removed
   developerName: Gate Technology Incorporated
 
 ---

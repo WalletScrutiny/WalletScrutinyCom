@@ -1,7 +1,6 @@
 ---
 title: NiXPAY
 verdict: wip
-meta: removed
 date: 2024-09-16
 website: https://www.nixblock.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-12-27
   version: 1.0.0.65
   icon: kr.co.keypair.nixtouch.png
+  meta: removed
   developerName: Keypair Co., Ltd.
 
 ---

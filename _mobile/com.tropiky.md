@@ -1,7 +1,6 @@
 ---
 title: Tropiky
 verdict: wip
-meta: removed
 date: 2023-01-30
 redirect_from:
 - /android/com.tropiky/
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-05
   version: 2.0.0
   icon: com.tropiky.png
+  meta: removed
 
 ---
 

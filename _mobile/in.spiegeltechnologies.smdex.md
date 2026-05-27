@@ -1,7 +1,6 @@
 ---
 title: 'SMDEX : Buy BTC & Other Crypto'
 verdict: custodial
-meta: removed
 date: 2023-08-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2022-04-01
   version: 1.0.5
   icon: in.spiegeltechnologies.smdex.png
+  meta: removed
   developerName: Devsmdex
 
 ---

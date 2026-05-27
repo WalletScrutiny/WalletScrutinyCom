@@ -1,7 +1,6 @@
 ---
 title: 'PAI : Bitcoin, Tron, LTC y más'
 verdict: custodial
-meta: ok
 date: 2021-09-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.08.1122
   reviews: 41
   icon: app.pagosalinstante.com.png
+  meta: ok
   developerName: PAI Exchange
 
 ---

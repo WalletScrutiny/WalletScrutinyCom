@@ -1,7 +1,6 @@
 ---
 title: Etor Exchange
 verdict: wip
-meta: removed
 date: 2023-01-30
 website: https://www.etorexchange.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-06
   version: '1.2'
   icon: com.etorexchange.png
+  meta: removed
 
 ---
 

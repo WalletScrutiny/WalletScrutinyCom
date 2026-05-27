@@ -1,7 +1,6 @@
 ---
 title: Magnum Wallet – Bitcoin, Ether
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: 1.0.12
   reviews: 16
   icon: com.magnum.wallet.png
+  meta: removed
   developerName: Magnum Wallet
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Paper Wallet Checker
 verdict: wip
-meta: removed
 date: 2021-06-10
 redirect_from:
 - /android/com.nhgames.pwc.barcodereader/
@@ -12,6 +11,7 @@ android:
   version: '2.0'
   reviews: 51
   icon: com.nhgames.pwc.barcodereader.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Invictus Capital Beta
 verdict: wip
-meta: removed
 date: 2024-03-02
 website: https://invictuscapital.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-28
   version: 1.0.9
   icon: com.invictuscapital.app.jpg
+  meta: removed
   developerName: InvictusCapital
 
 ---

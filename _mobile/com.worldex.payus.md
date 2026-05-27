@@ -1,7 +1,6 @@
 ---
 title: PayUs POS
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://payus.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-02-05
   version: '1.1'
   icon: com.worldex.payus.png
+  meta: removed
   developerName: Worldex Inc USA
 
 ---

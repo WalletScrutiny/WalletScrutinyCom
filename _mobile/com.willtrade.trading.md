@@ -1,7 +1,6 @@
 ---
 title: WillTrade - Trading For All
 verdict: custodial
-meta: ok
 date: 2021-11-10
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.3.48
   reviews: 21
   icon: com.willtrade.trading.png
+  meta: ok
   developerName: TradeWill Global
 
 ---

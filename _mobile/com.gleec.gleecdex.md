@@ -1,7 +1,6 @@
 ---
 title: GleecDEX
 verdict: wip
-meta: obsolete
 date: 2026-05-21
 website: https://gleecbtc.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-06-02
   version: 0.9.1
   icon: com.gleec.gleecdex.png
+  meta: obsolete
   developerName: Gleec Pay OU
 
 ---

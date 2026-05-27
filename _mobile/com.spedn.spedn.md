@@ -2,7 +2,6 @@
 wsId: spednByFlexa
 title: SPEDN by Flexa
 verdict: nosendreceive
-meta: ok
 date: 2025-11-26
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: 'Portals : Crypto Wallet Genera'
 verdict: nosource
-meta: obsolete
 date: 2026-02-02
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 0.0.4a
   reviews: 24
   icon: com.gloath.portalsapp.png
+  meta: obsolete
   developerName: Gloath
 
 ---

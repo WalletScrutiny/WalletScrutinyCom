@@ -1,7 +1,6 @@
 ---
 title: satoshiBot
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/bitcoin.bot.finaladstest/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 6
   icon: bitcoin.bot.finaladstest.png
+  meta: removed
 
 ---
 

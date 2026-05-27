@@ -1,7 +1,6 @@
 ---
 title: DAS Wallet
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://stamining.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-30
   version: '1.6'
   icon: com.dashwallet.png
+  meta: removed
   developerName: rknakamura
 
 ---

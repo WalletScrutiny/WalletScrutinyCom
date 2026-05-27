@@ -1,7 +1,6 @@
 ---
 title: DitoBanx Wallet Personas
 verdict: custodial
-meta: ok
 date: 2026-02-25
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.0.18
   reviews: 38
   icon: com.dito.ditowallet.png
+  meta: ok
   developerName: DitoBanx
 
 ---

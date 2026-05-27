@@ -1,7 +1,6 @@
 ---
 title: Jaxx Liberty Bitcoin & Ethereum
 verdict: fake
-meta: removed
 date: 2022-01-15
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-01
   version: '1'
   icon: ja.xx.exch.ange.png
+  meta: removed
 
 ---
 

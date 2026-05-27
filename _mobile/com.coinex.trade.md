@@ -1,7 +1,6 @@
 ---
 title: 'CoinEx: Buy Bitcoin & Crypto'
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://www.coinex.com/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 4.13.0
   reviews: 5709
   icon: com.coinex.trade.jpg
+  meta: ok
   developerName: Coinex Global Limited
 
 ---

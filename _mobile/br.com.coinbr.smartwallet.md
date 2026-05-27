@@ -2,7 +2,6 @@
 wsId: SmartWallet
 title: SmartWallet
 verdict: custodial
-meta: removed
 date: 2023-03-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2021-10-29
   version: 2.0.28
   icon: br.com.coinbr.smartwallet.png
+  meta: removed
 iphone:
   appId: br.com.coinbr.smartwallet
   idd: '1302270848'
@@ -30,6 +30,7 @@ iphone:
   version: 2.0.28
   reviews: 2
   icon: br.com.coinbr.smartwallet.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: BTC Bank
 verdict: wip
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-04-30
   version: 1.0.3
   icon: com.application.btctr.png
+  meta: removed
   developerName: Btchange Journal
 
 ---

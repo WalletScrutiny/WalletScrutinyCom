@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Chivo -  Chivo Bitcoin
 verdict: fake
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/com.rvinc.bitminner/
@@ -13,6 +12,7 @@ android:
   updated: 2021-09-28
   version: '1.0'
   icon: com.rvinc.bitminner.jpg
+  meta: removed
 
 ---
 

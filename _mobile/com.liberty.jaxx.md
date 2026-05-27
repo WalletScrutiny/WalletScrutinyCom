@@ -2,7 +2,6 @@
 wsId: jaxxliberty
 title: Jaxx Liberty - Trade Crypto
 verdict: nosource
-meta: removed
 date: 2023-04-16
 authors:
 - leo
@@ -25,6 +24,7 @@ android:
   version: 3.0.0
   reviews: 428
   icon: com.liberty.jaxx.png
+  meta: removed
   developerName: Decentral Inc.
 iphone:
   appId: com.liberty.jaxx
@@ -34,6 +34,7 @@ iphone:
   version: 3.0.0
   reviews: 1566
   icon: com.liberty.jaxx.jpg
+  meta: removed
   developerName: Decentral Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Blockchain.com Wallet Pro-buy bitcoin Eth & crypto
 verdict: wip
-meta: removed
 date: 2021-04-30
 authors:
 - leo
@@ -14,6 +13,7 @@ android:
   version: '2.5'
   reviews: 194
   icon: jb.tech.blockchainpro.png
+  meta: removed
 
 ---
 

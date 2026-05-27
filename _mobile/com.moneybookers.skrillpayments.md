@@ -2,7 +2,6 @@
 wsId: skrill
 title: Skrill - Fast, secure payments
 verdict: nosendreceive
-meta: ok
 date: 2021-08-09
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.185.0-2026052009
   reviews: 3884
   icon: com.moneybookers.skrillpayments.png
+  meta: ok
   developerName: Paysafe Holdings UK Limited
 iphone:
   appId: com.skrill.ios.SkrillPayments
@@ -32,6 +32,7 @@ iphone:
   version: 3.184.0
   reviews: 8736
   icon: com.skrill.ios.SkrillPayments.jpg
+  meta: ok
   developerName: Skrill Ltd.
 
 ---

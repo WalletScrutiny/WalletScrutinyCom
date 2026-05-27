@@ -2,7 +2,6 @@
 wsId: coinTR
 title: "CoinTR |\_Bitcoin & Crypto"
 verdict: custodial
-meta: ok
 date: 2023-08-19
 authors:
 - danny

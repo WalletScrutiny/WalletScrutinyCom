@@ -1,7 +1,6 @@
 ---
 title: Hipcibot
 verdict: wip
-meta: removed
 date: 2023-05-10
 website: https://www.hipcibot.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-01
   version: 0.0.1
   icon: com.hipcibot.hip.png
+  meta: removed
   developerName: Smart Crypto Studio
 
 ---

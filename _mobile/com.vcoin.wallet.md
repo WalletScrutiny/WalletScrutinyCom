@@ -1,7 +1,6 @@
 ---
 title: VCoin - Crypto Wallet
 verdict: wip
-meta: removed
 date: 2025-07-03
 website: https://vcoin.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-25
   version: '1.3'
   icon: com.vcoin.wallet.png
+  meta: removed
   developerName: LMCorp
 
 ---

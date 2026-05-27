@@ -2,7 +2,6 @@
 wsId: ixfiExchange
 title: IXFI
 verdict: custodial
-meta: ok
 date: 2023-07-08
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   version: 1.10.20
   reviews: 62
   icon: com.ixfi.png
+  meta: ok
   developerName: IXFI Crypto World
 iphone:
   appId: com.ixfi.app
@@ -37,6 +37,7 @@ iphone:
   version: 1.7.43
   reviews: 99
   icon: com.ixfi.app.jpg
+  meta: ok
   developerName: IXFI Crypto World UAB
 
 ---

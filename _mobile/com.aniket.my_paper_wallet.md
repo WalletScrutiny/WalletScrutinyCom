@@ -1,7 +1,6 @@
 ---
 title: 'My Paper Wallet: Bitcoin Paper'
 verdict: sourceavailable
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-12-24
   version: 1.0.0
   icon: com.aniket.my_paper_wallet.png
+  meta: removed
   developerName: Aniket sindhu
 
 ---

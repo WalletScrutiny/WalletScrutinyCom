@@ -2,7 +2,6 @@
 wsId: B21Crypto
 title: 'B21 Crypto: Invest | Earn | Sp'
 verdict: custodial
-meta: removed
 date: 2023-01-30
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 0.8.0
   reviews: 290
   icon: io.b21.invest.png
+  meta: removed
 iphone:
   appId: io.b21.invest
   idd: 1499042083
@@ -32,6 +32,7 @@ iphone:
   version: 0.8.0
   reviews: 66
   icon: io.b21.invest.jpg
+  meta: removed
 
 ---
 

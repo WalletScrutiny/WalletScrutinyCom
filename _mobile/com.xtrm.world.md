@@ -1,7 +1,6 @@
 ---
 title: XTRM
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.xtrm.world/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-09
   version: 1.2.6
   icon: com.xtrm.world.png
+  meta: removed
   developerName: XTRM World
 
 ---

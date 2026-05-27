@@ -1,7 +1,6 @@
 ---
 title: Bibox:Bitcoin, Crypto Exchange
 verdict: custodial
-meta: removed
 date: 2022-02-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 4.8.5
   reviews: 579
   icon: com.bibox.www.bibox.png
+  meta: removed
 
 ---
 

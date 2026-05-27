@@ -1,7 +1,6 @@
 ---
 title: Jaxx Liberty:New Wallet BTC ETH
 verdict: fake
-meta: removed
 date: 2021-08-23
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-14
   version: '1.0'
   icon: wallet.jax.bnc.com.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Xoibit: Trade BTC & Crypto'
 verdict: custodial
-meta: ok
 date: 2026-01-26
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2026-05-26
   version: 1.0.17
   icon: com.xoibit.holdingsapp.jpg
+  meta: ok
   developerName: Xoibit
 
 ---

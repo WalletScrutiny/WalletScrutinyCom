@@ -1,7 +1,6 @@
 ---
 title: Elevation Markets - Investment
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://elevation-markets.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-22
   version: 1.0.1
   icon: em.elevationmarkets.png
+  meta: removed
   developerName: GWD Tech
 
 ---

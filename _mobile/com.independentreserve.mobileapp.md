@@ -2,7 +2,6 @@
 wsId: independentReserveExchange
 title: Independent Reserve Buy Crypto
 verdict: custodial
-meta: ok
 date: 2023-07-01
 authors:
 - danny
@@ -29,6 +28,7 @@ android:
   version: 14.4.0
   reviews: 3
   icon: com.independentreserve.mobileapp.png
+  meta: ok
   developerName: Independent Reserve
 iphone:
   appId: com.independentreserve.mobileapp
@@ -39,6 +39,7 @@ iphone:
   version: 14.4.0
   reviews: 2283
   icon: com.independentreserve.mobileapp.jpg
+  meta: ok
   developerName: Independent Reserve
 
 ---

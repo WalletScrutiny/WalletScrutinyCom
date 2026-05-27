@@ -2,7 +2,6 @@
 wsId: deffioWallet
 title: 'Deffio: Secure Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2025-11-14
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-03-09
   version: 1.7.0
   icon: com.deffio.app.png
+  meta: ok
   developerName: Deffio
 iphone:
   appId: com.deffio.app
@@ -28,6 +28,7 @@ iphone:
   version: 1.7.0
   reviews: 23
   icon: com.deffio.app.jpg
+  meta: ok
   developerName: BETELGEUSE CORPORATION LTD
 
 ---

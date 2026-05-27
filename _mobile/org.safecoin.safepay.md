@@ -1,7 +1,6 @@
 ---
 title: SafePay
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 7.2.8
   reviews: 5
   icon: org.safecoin.safepay.png
+  meta: removed
   developerName: SafeCoin
 
 ---

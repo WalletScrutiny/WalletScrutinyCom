@@ -2,7 +2,6 @@
 wsId: Moneybrain
 title: Moneybrain Financial SuperApp
 verdict: custodial
-meta: ok
 date: 2021-11-22
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2026-05-23
   version: 3.16.2-retail
   icon: com.moneybrain.moneybrain.png
+  meta: ok
   developerName: Moneybrain LTD
 iphone:
   appId: com.moneybrain.moneybrain
@@ -32,6 +32,7 @@ iphone:
   version: 3.15.2
   reviews: 10
   icon: com.moneybrain.moneybrain.jpg
+  meta: ok
   developerName: Moneybrain LTD
 
 ---

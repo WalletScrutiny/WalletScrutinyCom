@@ -1,7 +1,6 @@
 ---
 title: BoastCoast
 verdict: wip
-meta: obsolete
 date: 2026-02-02
 website: https://boastcoast.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   reviews: 2
   icon: com.app.boastcoast12.png
+  meta: obsolete
   developerName: BoastCoast.com
 
 ---

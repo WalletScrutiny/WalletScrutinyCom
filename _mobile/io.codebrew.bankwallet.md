@@ -1,7 +1,6 @@
 ---
 title: CoinBox
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/io.codebrew.bankwallet/
@@ -12,6 +11,7 @@ android:
   updated: 2022-08-30
   version: 0.26.1
   icon: io.codebrew.bankwallet.png
+  meta: removed
   developerName: Code Brew Innovations
 
 ---

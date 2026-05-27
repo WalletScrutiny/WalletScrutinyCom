@@ -2,7 +2,6 @@
 wsId: cTrader
 title: 'cTrader: CFD Trading & Charts'
 verdict: nosendreceive
-meta: ok
 date: 2023-07-01
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 5.8.220
   reviews: 382
   icon: com.spotware.ct.png
+  meta: ok
   developerName: Spotware
 iphone:
   appId: com.spotware.ct
@@ -33,6 +33,7 @@ iphone:
   version: 5.8.220
   reviews: 787
   icon: com.spotware.ct.jpg
+  meta: ok
   developerName: Spotware
 
 ---

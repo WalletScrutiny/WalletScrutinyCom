@@ -1,7 +1,6 @@
 ---
 title: Dantown
 verdict: custodial
-meta: ok
 date: 2023-04-21
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 2.0.79
   reviews: 44
   icon: com.dantown.Dantownapp.jpg
+  meta: ok
   developerName: Dantown
 
 ---

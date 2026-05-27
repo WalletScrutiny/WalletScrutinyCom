@@ -1,7 +1,6 @@
 ---
 title: (Fake) Crypto.com - Buy Bitcoin Now
 verdict: fake
-meta: removed
 date: 2021-08-26
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-07-28
   version: '1.0'
   icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
+  meta: removed
 
 ---
 

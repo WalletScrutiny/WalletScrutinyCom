@@ -1,7 +1,6 @@
 ---
 title: Hibana Wallet
 verdict: wip
-meta: removed
 date: 2021-11-26
 authors:
 - kiwilamb
@@ -14,6 +13,7 @@ android:
   updated: 2018-12-11
   version: '0.1'
   icon: app.hibana.hibana.png
+  meta: removed
 
 ---
 

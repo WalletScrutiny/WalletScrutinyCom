@@ -1,7 +1,6 @@
 ---
 title: G-wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.g-wallet.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-22
   version: '1.06'
   icon: com.gwallet.main.png
+  meta: removed
   developerName: TH Jun
 
 ---

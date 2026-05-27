@@ -1,7 +1,6 @@
 ---
 title: GEMXX Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://ammolitetoken.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-11
   version: 1.0.1260
   icon: com.gemxx.png
+  meta: removed
 
 ---
 

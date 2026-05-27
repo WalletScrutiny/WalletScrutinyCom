@@ -1,7 +1,6 @@
 ---
 title: 'Stack: Buy & Sell Bitcoin'
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://stackatm.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.12.1
   reviews: 4
   icon: com.stackatm.app.png
+  meta: fewusers
   developerName: Kalbas, Inc.
 
 ---

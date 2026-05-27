@@ -1,7 +1,6 @@
 ---
 title: Traderz Space -Crypto Exchange
 verdict: wip
-meta: removed
 date: 2023-09-28
 redirect_from:
 - /android/com.app.traderzspace_cryptoexchange/
@@ -12,6 +11,7 @@ android:
   updated: 2022-07-08
   version: '1.0'
   icon: com.app.traderzspace_cryptoexchange.png
+  meta: removed
   developerName: Linx GC Dev
 
 ---

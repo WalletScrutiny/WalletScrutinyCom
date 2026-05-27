@@ -1,7 +1,6 @@
 ---
 title: Logistic Pro Trade
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://logisticprotrade.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-16
   version: '1.5'
   icon: com.logisticprotrade.droidapp.jpg
+  meta: removed
   developerName: Alt 5 Pro
 
 ---

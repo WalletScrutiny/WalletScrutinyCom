@@ -1,7 +1,6 @@
 ---
 title: MetaU Crypto
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.metauco.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-10
   version: '1.0'
   icon: com.metau.droidapp.png
+  meta: removed
   developerName: MetaU Corp.
 
 ---

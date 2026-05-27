@@ -1,7 +1,6 @@
 ---
 title: NVXO Wallet Crypto, BTC Wallet
 verdict: wip
-meta: fewusers
 date: 2025-11-09
 website: https://www.nvxowallet.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-04-18
   version: 0.1.1
   icon: com.nvwallet.wallet.png
+  meta: fewusers
   developerName: Aegea Holdings
 
 ---

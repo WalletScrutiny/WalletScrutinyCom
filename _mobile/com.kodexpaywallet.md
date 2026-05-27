@@ -1,7 +1,6 @@
 ---
 title: KodexWallet
 verdict: wip
-meta: removed
 date: 2025-02-04
 website: https://kodexpay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-30
   version: 2.0.0
   icon: com.kodexpaywallet.png
+  meta: removed
   developerName: EOST
 
 ---

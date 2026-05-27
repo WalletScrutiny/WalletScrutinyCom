@@ -1,7 +1,6 @@
 ---
 title: Bixter
 verdict: wip
-meta: removed
 date: 2025-01-09
 website: https://bixter.org/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-07
   version: '1'
   icon: org.bixter.twa.png
+  meta: removed
   developerName: BIXTER.ORG
 
 ---

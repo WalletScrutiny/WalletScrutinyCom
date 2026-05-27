@@ -1,7 +1,6 @@
 ---
 title: Emercoin Secure Wallet
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2018-12-25
   version: 1.2.1
   icon: com.aspanta.emcsec.png
+  meta: removed
   developerName: olegarch
 
 ---

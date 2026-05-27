@@ -1,7 +1,6 @@
 ---
 title: DoshFX Buy Bitcoin and Crypto
 verdict: wip
-meta: removed
 date: 2024-10-31
 website: https://doshfx.io/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2024-03-29
   version: '4.5'
   icon: app.doshfx.liteapp.png
+  meta: removed
   developerName: DoshFx
 
 ---

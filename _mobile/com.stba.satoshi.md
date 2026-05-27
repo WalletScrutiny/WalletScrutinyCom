@@ -1,7 +1,6 @@
 ---
 title: Satoshi | The Bitcoin App
 verdict: wip
-meta: ok
 date: 2024-12-17
 website: https://satoshi.money/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 1.0.16
   reviews: 38
   icon: com.stba.satoshi.jpg
+  meta: ok
   developerName: Satoshi
 
 ---

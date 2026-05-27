@@ -2,7 +2,6 @@
 wsId: changecoins
 title: Changecoins
 verdict: custodial
-meta: removed
 date: 2024-10-03
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2022-02-10
   version: 1.2.6
   icon: com.application.changecoin.png
+  meta: removed
   developerName: Changecoins
 iphone:
   appId: pay.changecoins
@@ -27,6 +27,7 @@ iphone:
   version: 1.2.6
   reviews: 2
   icon: pay.changecoins.jpg
+  meta: removed
   developerName: Changecoins
 
 ---

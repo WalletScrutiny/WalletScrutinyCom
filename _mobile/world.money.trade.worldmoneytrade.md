@@ -1,7 +1,6 @@
 ---
 title: World Money Trade
 verdict: wip
-meta: removed
 date: 2023-04-18
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-08-04
   version: '2.0'
   icon: world.money.trade.worldmoneytrade.png
+  meta: removed
   developerName: WorldMoneyTrade Inc.
 
 ---

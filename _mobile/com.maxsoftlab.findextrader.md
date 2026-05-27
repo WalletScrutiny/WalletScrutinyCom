@@ -1,7 +1,6 @@
 ---
 title: Finderex Trader
 verdict: nosendreceive
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2023-12-25
   version: 1.3.14GMS
   icon: com.maxsoftlab.findextrader.png
+  meta: removed
   developerName: MAXSOFTLAB
 
 ---

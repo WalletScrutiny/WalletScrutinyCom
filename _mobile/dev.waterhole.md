@@ -1,7 +1,6 @@
 ---
 title: Waterhole Marketplace
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.waterhole.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-08
   version: 3.0.0
   icon: dev.waterhole.png
+  meta: removed
 
 ---
 

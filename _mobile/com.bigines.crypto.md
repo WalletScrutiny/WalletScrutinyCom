@@ -1,7 +1,6 @@
 ---
 title: Bigines
 verdict: wip
-meta: removed
 date: 2024-09-01
 website: https://bigines.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-12
   version: 2.1.2
   icon: com.bigines.crypto.png
+  meta: removed
   developerName: Bigines Yazılım ve Ticaret A.Ş
 
 ---

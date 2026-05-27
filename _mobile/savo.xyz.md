@@ -1,7 +1,6 @@
 ---
 title: 'SAVO: All-In-One Wallet'
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 1.4.22
   reviews: 171
   icon: savo.xyz.jpg
+  meta: ok
   developerName: SAVO, Inc.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Secrypto-Bitcoin, ETH, EOS
 verdict: nosource
-meta: removed
 date: 2023-01-02
 authors:
 - kiwilamb
@@ -16,6 +15,7 @@ android:
   version: '1.28'
   reviews: 21
   icon: com.secrypto.png
+  meta: removed
 
 ---
 

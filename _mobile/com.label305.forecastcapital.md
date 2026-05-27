@@ -1,7 +1,6 @@
 ---
 title: FRCST | Automated Trading
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.frcst.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-29
   version: 1.2.2
   icon: com.label305.forecastcapital.png
+  meta: removed
   developerName: Forecast Capital BV
 
 ---

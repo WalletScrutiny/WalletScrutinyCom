@@ -2,7 +2,6 @@
 wsId: ironwallet
 title: 'IronWallet: Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2024-09-02
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.10.5
   reviews: 71
   icon: com.wallet.crypto.btc.eth.png
+  meta: ok
   developerName: INWAY AKTIENGESELLSCHAFT
   repository: https://github.com/Ironwallet/IronWallet
 iphone:
@@ -35,6 +35,7 @@ iphone:
   version: 1.10.5
   reviews: 39
   icon: com.wallet.crypto.btc.eth.jpg
+  meta: ok
   developerName: INWAY AKTIENGESELLSCHAFT
 
 ---

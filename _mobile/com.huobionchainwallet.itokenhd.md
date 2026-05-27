@@ -2,7 +2,6 @@
 wsId: HuobiWallet
 title: 'iToken HD: DeFi Crypto Wallet'
 verdict: nosource
-meta: removed
 date: 2023-09-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 4.00.05.003
   reviews: 2
   icon: com.huobionchainwallet.itokenhd.png
+  meta: removed
   developerName: BlazekTech Internet Technology Service Limited
 iphone:
   appId: com.walletdev.onchainwallet
@@ -33,6 +33,7 @@ iphone:
   version: 3.3.6
   reviews: 136
   icon: com.walletdev.onchainwallet.jpg
+  meta: removed
   developerName: BlazekTech Internet Technology Service Limited
 
 ---

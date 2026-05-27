@@ -2,7 +2,6 @@
 wsId: juanCashZybiTech
 title: JuanCash - Buy Load, Pay Bills
 verdict: custodial
-meta: stale
 date: 2025-08-01
 authors:
 - danny

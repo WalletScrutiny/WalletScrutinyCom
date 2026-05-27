@@ -1,7 +1,6 @@
 ---
 title: Volt Messenger
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.voltmessenger.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-18
   version: 3.6.0
   icon: com.volt.messenger.png
+  meta: removed
 
 ---
 

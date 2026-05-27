@@ -1,7 +1,6 @@
 ---
 title: Kanga - multi-chain crypt wall
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: http://www.tyco.link/#/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-27
   version: 3.6.0
   icon: com.cuckoo.wallet.png
+  meta: removed
   developerName: TYCO FINTECH TECHNOLOGY
 
 ---

@@ -2,7 +2,6 @@
 wsId: ziglu
 title: Ziglu. Money, done differently
 verdict: custodial
-meta: ok
 date: 2023-12-15
 authors:
 - danny

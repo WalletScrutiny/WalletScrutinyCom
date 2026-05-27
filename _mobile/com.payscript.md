@@ -1,7 +1,6 @@
 ---
 title: 'Payscript Wallet - Buy / Sell '
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://payscript.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-15
   version: 0.3.6
   icon: com.payscript.png
+  meta: removed
   developerName: payscript
 
 ---

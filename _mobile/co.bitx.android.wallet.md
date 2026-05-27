@@ -2,7 +2,6 @@
 wsId: Luno
 title: 'Luno: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2020-10-12
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   version: 8.108.1
   reviews: 1407
   icon: co.bitx.android.wallet.jpg
+  meta: ok
   developerName: Luno Group Holdings Ltd
 iphone:
   appId: za.co.Bitx
@@ -35,6 +35,7 @@ iphone:
   version: 8.108.2
   reviews: 3633
   icon: za.co.Bitx.jpg
+  meta: ok
   developerName: Luno Pte Ltd
 
 ---

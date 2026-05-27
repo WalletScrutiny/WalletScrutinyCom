@@ -2,7 +2,6 @@
 wsId: bitbnsPay
 title: Bitbns Pay - Crypto trading, 0
 verdict: custodial
-meta: obsolete
 date: 2026-01-16
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-11-23
   version: 1.9.1
   icon: com.bitbnspay.png
+  meta: obsolete
   developerName: Bitbns Cryptocurrency Trading Exchange India
 iphone:
   appId: com.bitbns.bnspay
@@ -30,6 +30,7 @@ iphone:
   version: 1.8.7
   reviews: 154
   icon: com.bitbns.bnspay.jpg
+  meta: obsolete
   developerName: Buyhatke Internet Private Limited
 
 ---

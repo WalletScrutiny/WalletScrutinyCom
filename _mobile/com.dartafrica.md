@@ -1,7 +1,6 @@
 ---
 title: Dart Africa
 verdict: wip
-meta: removed
 date: 2023-06-21
 website: https://dartafrica.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-01
   version: 1.1.1
   icon: com.dartafrica.png
+  meta: removed
   developerName: FLIP DIGITAL TECHNOLOGIES
 
 ---

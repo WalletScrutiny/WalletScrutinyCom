@@ -1,7 +1,6 @@
 ---
 title: CB Global
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.coinbene.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-20
   version: 4.2.2
   icon: com.mingyue.liuli.png
+  meta: removed
 
 ---
 

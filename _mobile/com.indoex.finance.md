@@ -2,7 +2,6 @@
 wsId: indoEx
 title: IndoEx
 verdict: custodial
-meta: stale
 date: 2025-05-30
 authors:
 - danny

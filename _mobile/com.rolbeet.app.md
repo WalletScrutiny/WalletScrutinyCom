@@ -1,7 +1,6 @@
 ---
 title: Rolbeet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://rolbeetservices.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-28
   version: 1.4.0
   icon: com.rolbeet.app.png
+  meta: removed
 
 ---
 

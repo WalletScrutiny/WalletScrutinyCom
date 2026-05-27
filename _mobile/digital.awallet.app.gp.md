@@ -1,7 +1,6 @@
 ---
 title: AWallet
 verdict: nosource
-meta: removed
 date: 2024-12-31
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.3.5
   reviews: 15
   icon: digital.awallet.app.gp.png
+  meta: removed
   developerName: Metaverse Network LLC
 
 ---

@@ -2,7 +2,6 @@
 wsId: guapcoinWallet
 title: Official Guap & Bitcoin Wallet
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.1.0
   reviews: 23
   icon: org.guapcoin.multiwallet.png
+  meta: removed
   developerName: She Interactive, LLC
 iphone:
   appId: org.guapcoin.multiwallet
@@ -33,6 +33,7 @@ iphone:
   version: 1.1.3
   reviews: 48
   icon: org.guapcoin.multiwallet.jpg
+  meta: removed
   developerName: Guap Coin, LLC
 
 ---

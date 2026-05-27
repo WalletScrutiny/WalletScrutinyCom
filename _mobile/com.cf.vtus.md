@@ -1,7 +1,6 @@
 ---
 title: CoinFLEX.US - Home of flexUSD
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/com.cf.vtus/
@@ -12,6 +11,7 @@ android:
   updated: 2023-03-08
   version: 1.0.13
   icon: com.cf.vtus.png
+  meta: removed
   developerName: CoinFLEX
 
 ---

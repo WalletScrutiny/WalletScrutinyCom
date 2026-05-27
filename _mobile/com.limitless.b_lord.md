@@ -1,7 +1,6 @@
 ---
 title: B-Lord Trading App
 verdict: wip
-meta: removed
 date: 2023-03-21
 redirect_from:
 - /android/com.limitless.b_lord/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-04
   version: 1.0.4
   icon: com.limitless.b_lord.png
+  meta: removed
 
 ---
 

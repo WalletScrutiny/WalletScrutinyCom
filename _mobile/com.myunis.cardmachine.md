@@ -1,7 +1,6 @@
 ---
 title: MyUnis - Payments
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://universecoin.io
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-03-11
   version: v1.0
   icon: com.myunis.cardmachine.png
+  meta: removed
   developerName: Lattitudemundi
 
 ---

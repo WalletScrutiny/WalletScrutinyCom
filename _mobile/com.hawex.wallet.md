@@ -2,7 +2,6 @@
 wsId: hawexCrypto
 title: 'Hawex: Crypto Wallet & Cards'
 verdict: nosource
-meta: removed
 date: 2024-10-23
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2024-05-06
   version: '2.1'
   icon: com.hawex.wallet.png
+  meta: removed
   developerName: Hawex Investment LLC
 iphone:
   appId: com.hawex.cryptowallet
@@ -31,6 +31,7 @@ iphone:
   version: 2.1 (18)
   reviews: 0
   icon: com.hawex.cryptowallet.jpg
+  meta: removed
   developerName: HAWEX INVESTMENT L.L.C
 
 ---

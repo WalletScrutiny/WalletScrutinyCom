@@ -1,7 +1,6 @@
 ---
 title: Fake Bitcoin Investor
 verdict: wip
-meta: removed
 date: 2021-09-16
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: '1.0'
   reviews: 3
   icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: elDoradoWalletExchange
 title: 'El Dorado: Cuenta en Dólares'
 verdict: custodial
-meta: ok
 date: 2023-07-18
 authors:
 - danny

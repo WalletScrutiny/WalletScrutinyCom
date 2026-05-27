@@ -1,7 +1,6 @@
 ---
 title: Blockchain India
 verdict: fake
-meta: removed
 date: 2021-10-15
 authors:
 - emanuel
@@ -17,6 +16,7 @@ android:
   version: 1.1.0
   reviews: 13
   icon: com.crypto.blockchain.jpg
+  meta: removed
 
 ---
 

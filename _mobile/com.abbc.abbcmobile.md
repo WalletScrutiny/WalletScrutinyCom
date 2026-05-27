@@ -2,7 +2,6 @@
 wsId: AladdinWallet
 title: Aladdin Wallet
 verdict: nosource
-meta: removed
 date: 2024-09-10
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.3.4
   reviews: 7
   icon: com.abbc.abbcmobile.png
+  meta: removed
   developerName: ABBC PAYMENT SERVICES PROVIDER
 iphone:
   appId: com.abbc.wallet
@@ -36,6 +36,7 @@ iphone:
   version: 1.3.3
   reviews: 1
   icon: com.abbc.wallet.jpg
+  meta: removed
   developerName: MC ABBC IT SOLUTION
 
 ---

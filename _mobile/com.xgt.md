@@ -1,7 +1,6 @@
 ---
 title: GXT
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://gxt.global#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-01-17
   version: '1.0'
   icon: com.xgt.png
+  meta: removed
   developerName: gxt.global
 
 ---

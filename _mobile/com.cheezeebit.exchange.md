@@ -1,7 +1,6 @@
 ---
 title: 'zBit.com: Buy Bitcoin & ETH'
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2026-05-14
   version: 1.3.5
   icon: com.cheezeebit.exchange.png
+  meta: ok
   developerName: Cheezeebit Global Limited
 
 ---

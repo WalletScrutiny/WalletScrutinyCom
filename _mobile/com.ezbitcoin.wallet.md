@@ -1,7 +1,6 @@
 ---
 title: EZ Bitcoin
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: http://cc-communications.net/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-18
   version: 1.2.1
   icon: com.ezbitcoin.wallet.png
+  meta: removed
   developerName: CryptoCurrencyCommunications
 
 ---

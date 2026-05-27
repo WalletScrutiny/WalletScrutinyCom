@@ -1,7 +1,6 @@
 ---
 title: Crypto Scan
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://foxmedia.ag#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.2'
   reviews: 3
   icon: mobile.cryptoscanner.com.cryptoscanner.png
+  meta: removed
 
 ---
 

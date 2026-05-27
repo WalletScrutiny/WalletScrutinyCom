@@ -1,7 +1,6 @@
 ---
 title: ICNCDE Pro—Trading & Investing
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: http://www.icncde.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.4.1
   reviews: 7
   icon: com.dssj.currencytradinggoogle.png
+  meta: removed
   developerName: DSSJDEV
 
 ---

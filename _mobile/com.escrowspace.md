@@ -1,7 +1,6 @@
 ---
 title: EscrowSpace. Bitcoin wallet & Deals. ICO Tracker.
 verdict: wip
-meta: removed
 date: 2021-12-05
 redirect_from:
 - /android/com.escrowspace/
@@ -12,6 +11,7 @@ android:
   updated: 2018-07-26
   version: '1.08'
   icon: com.escrowspace.png
+  meta: removed
 
 ---
 

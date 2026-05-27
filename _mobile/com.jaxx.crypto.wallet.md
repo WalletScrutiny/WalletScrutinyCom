@@ -1,7 +1,6 @@
 ---
 title: 'Ja­xx Lib­erty: Crypto Wallet'
 verdict: fake
-meta: removed
 date: 2021-10-30
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-10-12
   version: '1.0'
   icon: com.jaxx.crypto.wallet.png
+  meta: removed
 
 ---
 

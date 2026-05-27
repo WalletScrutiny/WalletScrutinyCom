@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp For KuCoin
 verdict: custodial
-meta: ok
 date: 2021-09-20
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 8.1.1
   reviews: 19
   icon: com.profittrading.forkucoin.png
+  meta: ok
   developerName: ProfitTradingApp
 
 ---

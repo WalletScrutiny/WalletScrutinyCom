@@ -1,7 +1,6 @@
 ---
 title: Coindenex
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://coindenex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-02
   version: '2.0'
   icon: com.coindenex.png
+  meta: removed
 
 ---
 

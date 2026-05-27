@@ -2,7 +2,6 @@
 wsId: bitop
 title: Bitop Exchange：Bitcoin Crypto
 verdict: custodial
-meta: stale
 date: 2025-11-13
 authors:
 - danny

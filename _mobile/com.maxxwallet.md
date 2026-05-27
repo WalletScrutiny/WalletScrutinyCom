@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet - MaxWallet
 verdict: nosource
-meta: removed
 date: 2024-02-05
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   updated: 2019-06-12
   version: 3.7.3
   icon: com.maxxwallet.png
+  meta: removed
   developerName: MAX Wallet , Tov
 
 ---

@@ -2,7 +2,6 @@
 wsId: UmiFi
 title: UmiFi-Bitcoin, Crypto Trading
 verdict: custodial
-meta: removed
 date: 2022-02-25
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.0.6
   reviews: 4
   icon: com.umifi.app.png
+  meta: removed
 iphone:
   appId: com.umifi.app
   idd: 1580892400
@@ -28,6 +28,7 @@ iphone:
   version: 1.0.6
   reviews: 1
   icon: com.umifi.app.jpg
+  meta: removed
 
 ---
 

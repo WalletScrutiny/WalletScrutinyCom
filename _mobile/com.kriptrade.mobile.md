@@ -2,7 +2,6 @@
 wsId: kriptradeExchange
 title: Kriptrade
 verdict: custodial
-meta: ok
 date: 2023-09-06
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-04-08
   version: 3.2.7
   icon: com.kriptrade.mobile.png
+  meta: ok
   developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
 iphone:
   appId: com.kriptrade.mobile
@@ -32,6 +32,7 @@ iphone:
   version: 3.2.7
   reviews: 43
   icon: com.kriptrade.mobile.jpg
+  meta: ok
   developerName: KRIPTRADE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---

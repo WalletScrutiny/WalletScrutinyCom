@@ -1,7 +1,6 @@
 ---
 title: CREX
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/com.crex.trade/
@@ -12,6 +11,7 @@ android:
   updated: 2020-05-26
   version: 1.0.1
   icon: com.crex.trade.png
+  meta: removed
   developerName: Mugenesys Infotech Private Limited
 
 ---

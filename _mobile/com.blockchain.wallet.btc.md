@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet - Blockchain
 verdict: fake
-meta: removed
 date: 2024-02-05
 authors:
 - kiwilamb
@@ -19,6 +18,7 @@ android:
   version: 1.0.3.3
   reviews: 68
   icon: com.blockchain.wallet.btc.png
+  meta: removed
   developerName: InvoVN Solutions
 
 ---

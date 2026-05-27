@@ -2,7 +2,6 @@
 wsId: braavosWallet
 title: 'Braavos: BTC & Starknet Wallet'
 verdict: nosource
-meta: ok
 date: 2025-11-03
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 4.19.6
   reviews: 36
   icon: app.braavos.wallet.png
+  meta: ok
   developerName: FreeBraavos
 iphone:
   appId: app.braavos.wallet
@@ -34,6 +34,7 @@ iphone:
   version: 4.19.6
   reviews: 121
   icon: app.braavos.wallet.jpg
+  meta: ok
   developerName: Braavos LTD.
 
 ---

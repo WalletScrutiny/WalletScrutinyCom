@@ -1,7 +1,6 @@
 ---
 title: Inigma BTC/ETH Smart Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.inigmasys.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-22
   version: 0.0.18
   icon: com.inigma.wallet.jpg
+  meta: removed
   developerName: Inigma Co., Ltd.
 
 ---

@@ -2,7 +2,6 @@
 wsId: lyopay
 title: LYOPAY
 verdict: custodial
-meta: removed
 date: 2023-11-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2023-08-10
   version: '1.1'
   icon: com.lyopay.png
+  meta: removed
   developerName: DIGILYO APP LTD
 iphone:
   appId: com.LYOPAY.LYOPAY
@@ -32,6 +32,7 @@ iphone:
   version: '8.17'
   reviews: 0
   icon: com.LYOPAY.LYOPAY.jpg
+  meta: removed
   developerName: DIGILYO APP LTD
 
 ---

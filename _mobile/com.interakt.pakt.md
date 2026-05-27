@@ -1,7 +1,6 @@
 ---
 title: Pakt Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.interakt.pakt/
@@ -12,6 +11,7 @@ android:
   updated: 2020-01-22
   version: 0.0.2
   icon: com.interakt.pakt.png
+  meta: removed
   developerName: Interakt India
 
 ---

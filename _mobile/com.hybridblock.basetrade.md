@@ -1,7 +1,6 @@
 ---
 title: BaseTrade
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://basetrade.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-13
   version: '5.8'
   icon: com.hybridblock.basetrade.jpg
+  meta: removed
   developerName: AdaxTech Limited
 
 ---

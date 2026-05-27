@@ -1,7 +1,6 @@
 ---
 title: Hash Financiero
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: http://www.hashfinanciero.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-08
   version: '1.0'
   icon: com.hashfinanciero.prod.jpg
+  meta: removed
   developerName: DevPala
 
 ---

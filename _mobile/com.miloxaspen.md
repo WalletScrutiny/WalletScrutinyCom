@@ -1,7 +1,6 @@
 ---
 title: Aspen
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: https://milox.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-03-16
   version: '1.0'
   icon: com.miloxaspen.jpg
+  meta: removed
 
 ---
 

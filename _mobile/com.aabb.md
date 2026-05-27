@@ -2,7 +2,6 @@
 wsId: AABBWallet
 title: AABB Wallet
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.0.1271
   reviews: 32
   icon: com.aabb.png
+  meta: removed
   developerName: AABB Gold Token
 iphone:
   appId: com.aabb.wallet
@@ -29,6 +29,7 @@ iphone:
   version: 1.0.265
   reviews: 99
   icon: com.aabb.wallet.jpg
+  meta: removed
   developerName: Asia Broadband, Inc.
 
 ---

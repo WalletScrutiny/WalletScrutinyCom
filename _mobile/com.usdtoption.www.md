@@ -1,7 +1,6 @@
 ---
 title: USDT Option
 verdict: wip
-meta: removed
 date: 2023-06-21
 website: https://www.usdtoption.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.1.1
   reviews: 14
   icon: com.usdtoption.www.png
+  meta: removed
   developerName: USDT OPTION
 
 ---

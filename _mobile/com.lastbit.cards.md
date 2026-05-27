@@ -1,7 +1,6 @@
 ---
 title: Lastbit Cards
 verdict: wip
-meta: removed
 date: 2021-09-18
 redirect_from:
 - /android/com.lastbit.cards/
@@ -11,6 +10,7 @@ android:
   updated: 2021-08-28
   version: Varies with device
   icon: com.lastbit.cards.png
+  meta: removed
 
 ---
 

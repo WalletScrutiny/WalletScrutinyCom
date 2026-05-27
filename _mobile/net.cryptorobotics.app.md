@@ -1,7 +1,6 @@
 ---
 title: 'Cryptorobotics: Crypto Trading'
 verdict: wip
-meta: removed
 date: 2024-04-26
 website: https://cryptorobotics.co
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-07
   version: '1.0'
   icon: net.cryptorobotics.app.png
+  meta: removed
   developerName: CryptoRobotics Limited
 
 ---

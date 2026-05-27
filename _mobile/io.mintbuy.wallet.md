@@ -1,7 +1,6 @@
 ---
 title: Mint Wallet
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://mintmoney.org
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-07-07
   version: 0.21.1
   icon: io.mintbuy.wallet.png
+  meta: removed
   developerName: Mint Community
 
 ---

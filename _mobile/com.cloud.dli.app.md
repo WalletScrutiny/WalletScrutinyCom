@@ -1,7 +1,6 @@
 ---
 title: BolsaDX
 verdict: wip
-meta: removed
 date: 2024-10-28
 website: https://bolsadx.lat#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-12
   version: 1.4.0
   icon: com.cloud.dli.app.png
+  meta: removed
   developerName: BolsaDX
 
 ---

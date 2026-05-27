@@ -2,7 +2,6 @@
 wsId: BitMEXOld
 title: BitMEX
 verdict: custodial
-meta: removed
 date: 2022-02-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.1.13
   reviews: 1
   icon: com.bitmex.mobile.android.png
+  meta: removed
 iphone:
   appId: com.bitmex.mobile.ios
   idd: 1377855125
@@ -29,6 +29,7 @@ iphone:
   updated: 2022-01-10
   version: 1.1.13
   icon: com.bitmex.mobile.ios.jpg
+  meta: removed
 
 ---
 

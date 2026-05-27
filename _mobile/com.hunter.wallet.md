@@ -1,7 +1,6 @@
 ---
 title: Hunter Wallet
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: http://www.hunter-wallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-12
   version: 1.4.2
   icon: com.hunter.wallet.png
+  meta: removed
   developerName: Hunter Solutions Limited
 
 ---

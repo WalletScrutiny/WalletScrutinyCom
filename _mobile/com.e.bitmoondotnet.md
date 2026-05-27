@@ -1,7 +1,6 @@
 ---
 title: 'Sàn giao dịch Bitcoin và tiền '
 verdict: wip
-meta: removed
 date: 2023-04-22
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-02-03
   version: '1.0'
   icon: com.e.bitmoondotnet.png
+  meta: removed
   developerName: Nguyen Van Tuyen
 
 ---

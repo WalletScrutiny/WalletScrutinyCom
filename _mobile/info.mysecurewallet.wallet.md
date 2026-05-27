@@ -1,7 +1,6 @@
 ---
 title: Bitcoin wallet
 verdict: custodial
-meta: removed
 date: 2022-01-15
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: '1.1'
   reviews: 42
   icon: info.mysecurewallet.wallet.png
+  meta: removed
 
 ---
 

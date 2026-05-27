@@ -1,7 +1,6 @@
 ---
 title: Coinsbit - Crypto Exchange
 verdict: custodial
-meta: removed
 date: 2025-02-26
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.2
   reviews: 48
   icon: com.coinsbit.coinsbit.png
+  meta: removed
   developerName: Coinsbit
 
 ---

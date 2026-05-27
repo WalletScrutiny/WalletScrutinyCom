@@ -1,7 +1,6 @@
 ---
 title: CryptoEngine
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://web.archive.org/web/20220102193531/https://cryptotradeengine.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-01-31
   version: '1.0'
   icon: tech.qoden.mythology.png
+  meta: removed
   developerName: CryptoEngine
 
 ---

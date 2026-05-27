@@ -1,7 +1,6 @@
 ---
 title: Virtual Coin Market
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.okanuysal.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-02-20
   version: '1.4'
   icon: cointrade.uysal.development.cointradesimulation.png
+  meta: removed
   developerName: uysalokan
 
 ---

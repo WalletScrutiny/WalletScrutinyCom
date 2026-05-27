@@ -1,7 +1,6 @@
 ---
 title: NEWCHANGE.IO
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://newchange.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-07
   version: '5.0'
   icon: web2application.a651021638715596.com.myapplication.png
+  meta: removed
   developerName: newchange.io
 
 ---

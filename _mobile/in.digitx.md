@@ -1,7 +1,6 @@
 ---
 title: DigitX
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/in.digitx/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-29
   version: 34.0.0
   icon: in.digitx.png
+  meta: removed
   developerName: Digital Techlab pvt ltd
 
 ---

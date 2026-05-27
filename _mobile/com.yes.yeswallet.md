@@ -1,7 +1,6 @@
 ---
 title: Yes Wallet
 verdict: custodial
-meta: removed
 date: 2021-06-18
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: '1.0'
   reviews: 31
   icon: com.yes.yeswallet.png
+  meta: removed
 
 ---
 

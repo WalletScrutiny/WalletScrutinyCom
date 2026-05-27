@@ -1,7 +1,6 @@
 ---
 title: 'Bitfairex: Digital Assets Mark'
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://bitfairex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-25
   version: 1.2.3 Release
   icon: com.bitfairex.png
+  meta: removed
   developerName: Bitfairex
 
 ---

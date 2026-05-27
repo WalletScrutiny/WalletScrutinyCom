@@ -2,7 +2,6 @@
 wsId: iMX
 title: iMX
 verdict: nosource
-meta: ok
 date: 2026-02-02
 authors:
 - danny

@@ -2,7 +2,6 @@
 wsId: eqifi
 title: EQIFi | Hold & Transfer Crypto
 verdict: custodial
-meta: stale
 date: 2025-07-01
 authors:
 - danny

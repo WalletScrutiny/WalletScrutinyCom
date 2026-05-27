@@ -1,7 +1,6 @@
 ---
 title: WalletAllIn
 verdict: wip
-meta: removed
 date: 2024-05-07
 redirect_from:
 - /android/com.tallin.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-22
   version: 1.0.7
   icon: com.tallin.wallet.png
+  meta: removed
   developerName: Paytechno OU
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Bitnova : ETH, SOL, BTC Wallet'
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: '1.5'
   reviews: 42
   icon: com.production.bitnovawallets.jpg
+  meta: ok
   developerName: AKTUEL OFIS MALZEMELERI PAZARLAMA TICARET ANONIM SIRKETI
 
 ---

@@ -2,7 +2,6 @@
 wsId: rockitCoin
 title: 'RockItCoin: Buy Bitcoin & More'
 verdict: nosource
-meta: ok
 date: 2023-07-07
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 3.7.13
   reviews: 195
   icon: co.rockitcoinx.app.png
+  meta: ok
   developerName: RockItCoin
 iphone:
   appId: rockitcoinexchange
@@ -36,6 +36,7 @@ iphone:
   version: 3.7.13
   reviews: 160
   icon: rockitcoinexchange.jpg
+  meta: ok
   developerName: RockitCoin
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Easy Exchange Pro
 verdict: wip
-meta: removed
 date: 2023-05-10
 website: https://easyexchangepro.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-22
   version: 2.4.6
   icon: com.application.easyexchangrpro.png
+  meta: removed
   developerName: EasyExchangePro
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Between Wallet
 verdict: nosource
-meta: ok
 date: 2026-01-16
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-04-24
   version: 1.2.1
   icon: com.between.wallet.png
+  meta: ok
   developerName: BetweenBits Inc.
 
 ---

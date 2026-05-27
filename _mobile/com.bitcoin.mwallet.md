@@ -2,7 +2,6 @@
 wsId: mwallet
 title: 'Bitcoin.com Wallet: Buy, Sell'
 verdict: nosource
-meta: ok
 date: 2021-05-20
 authors:
 - leo
@@ -34,6 +33,7 @@ android:
   version: 9.22.1
   reviews: 4130
   icon: com.bitcoin.mwallet.png
+  meta: ok
   developerName: Bitcoin.com Developer
   repository: https://github.com/Bitcoin-com/Wallet
 iphone:
@@ -44,6 +44,7 @@ iphone:
   version: 9.21.0
   reviews: 43510
   icon: com.bitcoin.mwallet.jpg
+  meta: ok
   developerName: Bitcoin.com
 
 ---

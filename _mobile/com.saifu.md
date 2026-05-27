@@ -1,7 +1,6 @@
 ---
 title: Saifu - for your money and crypto
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://saifu.ai/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-02-15
   version: '1.0'
   icon: com.saifu.png
+  meta: removed
 
 ---
 

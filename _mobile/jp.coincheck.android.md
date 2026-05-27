@@ -1,7 +1,6 @@
 ---
 title: Coincheck
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 4.20.0
   reviews: 13
   icon: jp.coincheck.android.png
+  meta: ok
   developerName: Coincheck
 
 ---

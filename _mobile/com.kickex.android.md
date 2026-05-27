@@ -2,7 +2,6 @@
 wsId: kickexExchange
 title: KICKEX SECURELY CRYPTOCURRENCY
 verdict: custodial
-meta: removed
 date: 2024-11-29
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2024-12-26
   version: 1.24.0
   icon: com.kickex.android.png
+  meta: removed
   developerName: LLC KICK ECOSYSTEM GLOBAL
 iphone:
   appId: com.kickex
@@ -33,6 +33,7 @@ iphone:
   version: 1.9.7
   reviews: 5
   icon: com.kickex.jpg
+  meta: removed
   developerName: KICK ECOSYSTEM GLOBAL
 
 ---

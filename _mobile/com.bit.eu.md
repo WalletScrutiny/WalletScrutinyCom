@@ -2,7 +2,6 @@
 wsId: biteEU
 title: Biteeu
 verdict: custodial
-meta: obsolete
 date: 2025-02-26
 authors:
 - danny

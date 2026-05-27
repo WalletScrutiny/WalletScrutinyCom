@@ -1,7 +1,6 @@
 ---
 title: Trustchain - creating trust
 verdict: wip
-meta: removed
 date: 2025-04-22
 redirect_from:
 - /android/nl.tudelft.trustchain/
@@ -11,6 +10,7 @@ android:
   updated: 2024-02-28
   version: VARY
   icon: nl.tudelft.trustchain.png
+  meta: removed
   developerName: 'TUDelft: Delft University of Technology'
 
 ---

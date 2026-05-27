@@ -1,7 +1,6 @@
 ---
 title: Покупка и продажа биткоинов
 verdict: wip
-meta: removed
 date: 2024-11-12
 redirect_from:
 - /android/ru.mosapp.mobile.android5c9f540a7a6d7/
@@ -12,6 +11,7 @@ android:
   updated: 2019-03-30
   version: '1.0'
   icon: ru.mosapp.mobile.android5c9f540a7a6d7.png
+  meta: removed
   developerName: mobilapp
 
 ---

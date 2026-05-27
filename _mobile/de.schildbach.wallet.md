@@ -2,7 +2,6 @@
 title: Bitcoin Wallet
 bitcoinOrgId: bitcoinwallet
 verdict: sourceavailable
-meta: removed
 date: 2025-05-30
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
   alternativeStores:
   - fdroid
+  meta: removed
   developerName: Bitcoin Wallet developers
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: ZodeakX - Crypto Trading App
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://www.cryptocurrencyscript.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-18
   version: 1.0.0
   icon: com.zodeak.exchange.png
+  meta: removed
   developerName: Trioangle Technologies
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'QL Exchange: Demo'
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://qilinlab.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-03
   version: VARY
   icon: com.qlexchange.png
+  meta: removed
   developerName: Qilin Lab
 
 ---

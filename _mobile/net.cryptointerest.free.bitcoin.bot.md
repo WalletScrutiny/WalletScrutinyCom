@@ -1,7 +1,6 @@
 ---
 title: Free Bitcoin Bot
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptointerest.free.bitcoin.bot/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-06
   version: '1.0'
   icon: net.cryptointerest.free.bitcoin.bot.png
+  meta: removed
 
 ---
 

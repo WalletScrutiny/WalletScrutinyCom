@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Cold Wallet
 verdict: fake
-meta: removed
 date: 2023-12-19
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 2.0.2
   reviews: 65
   icon: com.blockchain.bitcoin.wallet.png
+  meta: removed
   developerName: InvoVN Solutions
 
 ---

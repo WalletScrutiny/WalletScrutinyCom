@@ -1,6 +1,5 @@
 ---
 title: Banexcoin
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2024-09-26
   version: 1.1.254
   icon: com.banexcoin.app.mobile.png
+  meta: removed
   verdict: custodial
   developerName: Banexcoin
 iphone:
@@ -31,6 +31,7 @@ iphone:
   version: 1.1.103
   reviews: 5
   icon: com.banexcoin.app.mobile.jpg
+  meta: removed
   verdict: wip
   developerName: Banexcoin SA
 

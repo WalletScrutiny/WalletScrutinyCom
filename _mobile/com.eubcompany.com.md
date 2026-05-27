@@ -1,7 +1,6 @@
 ---
 title: EUBI Exchange
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://eubcompany.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-04
   version: '1.1'
   icon: com.eubcompany.com.jpg
+  meta: removed
   developerName: NetBusinessForum
 
 ---

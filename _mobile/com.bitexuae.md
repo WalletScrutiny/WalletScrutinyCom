@@ -2,7 +2,6 @@
 wsId: Bitex
 title: Bitex - Crypto Exchange
 verdict: custodial
-meta: removed
 date: 2022-04-25
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '3.1'
   reviews: 13
   icon: com.bitexuae.jpg
+  meta: removed
 iphone:
   appId: org.bitex.exchange
   idd: 1492803003
@@ -31,6 +31,7 @@ iphone:
   version: '2.8'
   reviews: 15
   icon: org.bitex.exchange.jpg
+  meta: removed
   developerName: Trade Bit Commercial Brokers LLC
 
 ---

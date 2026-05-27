@@ -1,7 +1,6 @@
 ---
 title: PryvateX Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://pryvate-technologies.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-12-30
   version: VARY
   icon: net.pryvate.wallet.png
+  meta: removed
   developerName: Pryvate Technologies
 
 ---

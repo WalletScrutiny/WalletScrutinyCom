@@ -1,7 +1,6 @@
 ---
 title: InBit
 verdict: wip
-meta: removed
 date: 2023-03-21
 website: https://inbitwetrust.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-26
   version: 18.2.15
   icon: com.InBit.app.png
+  meta: removed
 
 ---
 

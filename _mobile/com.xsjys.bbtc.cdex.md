@@ -1,7 +1,6 @@
 ---
 title: CDEX
 verdict: wip
-meta: removed
 date: 2024-07-19
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2023-06-07
   version: 1.5.0
   icon: com.xsjys.bbtc.cdex.png
+  meta: removed
   developerName: CD-Exgroup
 
 ---

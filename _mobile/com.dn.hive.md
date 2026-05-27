@@ -1,7 +1,6 @@
 ---
 title: Hive - Send, Spend & Invest in
 verdict: wip
-meta: removed
 date: 2023-08-25
 redirect_from:
 - /android/com.dn.hive/
@@ -12,6 +11,7 @@ android:
   updated: 2023-02-21
   version: 10.0.5
   icon: com.dn.hive.png
+  meta: removed
   developerName: HoneyCoin
 
 ---

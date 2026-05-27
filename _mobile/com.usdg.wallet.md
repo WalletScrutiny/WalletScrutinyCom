@@ -1,7 +1,6 @@
 ---
 title: BESTLA
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.bestla.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-23
   version: '3.8'
   icon: com.usdg.wallet.png
+  meta: removed
   developerName: Lead Capital
 
 ---

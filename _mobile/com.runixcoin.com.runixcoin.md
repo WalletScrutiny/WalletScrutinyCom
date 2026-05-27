@@ -1,7 +1,6 @@
 ---
 title: Runixcoin - Buy Cryptocurrency
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.runixcoin.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-19
   version: '3.0'
   icon: com.runixcoin.com.runixcoin.png
+  meta: removed
   developerName: Runixcoin
 
 ---

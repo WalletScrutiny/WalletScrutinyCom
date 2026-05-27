@@ -1,7 +1,6 @@
 ---
 title: 'Treasure: Crypto & BTC Wallet'
 verdict: nosource
-meta: obsolete
 date: 2025-01-29
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.5
   reviews: 5
   icon: com.crypto.treasure.png
+  meta: obsolete
   developerName: IT Work
 
 ---

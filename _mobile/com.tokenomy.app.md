@@ -2,7 +2,6 @@
 wsId: tokenomy
 title: Tokenomy
 verdict: custodial
-meta: removed
 date: 2024-05-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2023-09-27
   version: 2.15.1
   icon: com.tokenomy.app.png
+  meta: removed
   developerName: Tokenomy
 iphone:
   appId: com.tokenomy.app
@@ -32,6 +32,7 @@ iphone:
   version: 2.16.0
   reviews: 0
   icon: com.tokenomy.app.jpg
+  meta: removed
   developerName: Tennet technologies Inc.
 
 ---

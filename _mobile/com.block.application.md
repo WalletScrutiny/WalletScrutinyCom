@@ -2,7 +2,6 @@
 wsId: uollarCrypto
 title: 'Uollar: Earn Bitcoin & Crypto'
 verdict: custodial
-meta: obsolete
 date: 2025-01-06
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 2.4.40
   reviews: 5
   icon: com.block.application.png
+  meta: obsolete
   developerName: UOLLAR PTY LTD
 iphone:
   appId: com.lh2424.uollar
@@ -31,6 +31,7 @@ iphone:
   version: 2.4.40
   reviews: 1
   icon: com.lh2424.uollar.jpg
+  meta: obsolete
   developerName: UOLLAR PTY LTD
 
 ---

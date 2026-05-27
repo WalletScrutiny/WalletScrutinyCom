@@ -1,7 +1,6 @@
 ---
 title: Fuzionx
 verdict: wip
-meta: removed
 date: 2023-04-21
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-11-19
   version: 5.5.2_push_v2
   icon: com.chainup.exchange.Zenith.jpg
+  meta: removed
 
 ---
 

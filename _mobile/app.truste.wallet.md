@@ -1,7 +1,6 @@
 ---
 title: Truste Wallet Buy & Exchange D
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/app.truste.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-01
   version: 1.2.0
   icon: app.truste.wallet.png
+  meta: removed
 
 ---
 

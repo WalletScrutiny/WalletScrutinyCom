@@ -2,7 +2,6 @@
 wsId: etomato
 title: Tomato Wallet(구 통통지갑)
 verdict: nosource
-meta: ok
 date: 2023-04-12
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-20
   version: 2.1.15
   icon: com.tongtong.wallet.png
+  meta: ok
   developerName: Tomato Group
 iphone:
   appId: com.etomato.wallet
@@ -31,6 +31,7 @@ iphone:
   version: 2.0.5
   reviews: 26
   icon: com.etomato.wallet.jpg
+  meta: ok
   developerName: eTomato
 
 ---

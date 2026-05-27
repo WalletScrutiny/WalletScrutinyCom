@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Cash Wallet
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/com.cryptominingapp.bitcoin.cash.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-19
   version: '1.0'
   icon: com.cryptominingapp.bitcoin.cash.wallet.jpg
+  meta: removed
 
 ---
 

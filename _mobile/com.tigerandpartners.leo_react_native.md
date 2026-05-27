@@ -2,7 +2,6 @@
 wsId: leoExchange
 title: LEO12 Exchange
 verdict: custodial
-meta: removed
 date: 2024-11-30
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2024-09-02
   version: 2.1.6
   icon: com.tigerandpartners.leo_react_native.png
+  meta: removed
   developerName: Tiger and Partners Pty
 iphone:
   appId: com.tigerandpartners.Leo
@@ -29,6 +29,7 @@ iphone:
   version: 2.0.7
   reviews: 0
   icon: com.tigerandpartners.Leo.jpg
+  meta: removed
   developerName: TIGER AND PARTNERS
 
 ---

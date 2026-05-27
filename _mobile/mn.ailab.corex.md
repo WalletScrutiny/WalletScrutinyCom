@@ -2,7 +2,6 @@
 wsId: corexAILab
 title: Corex
 verdict: custodial
-meta: ok
 date: 2023-08-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-01-20
   version: 2.0.59
   icon: mn.ailab.corex.png
+  meta: ok
   developerName: Corex LLC
 iphone:
   appId: mn.ailab.corex
@@ -32,6 +32,7 @@ iphone:
   version: 2.0.70
   reviews: 9
   icon: mn.ailab.corex.jpg
+  meta: ok
   developerName: Corex LLC
 
 ---

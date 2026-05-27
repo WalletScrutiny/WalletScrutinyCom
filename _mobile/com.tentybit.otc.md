@@ -1,7 +1,6 @@
 ---
 title: TENTYBIT
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.tentybit.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-06-21
   version: '1.2'
   icon: com.tentybit.otc.png
+  meta: removed
   developerName: Tentybit.com
 
 ---

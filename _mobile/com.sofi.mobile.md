@@ -2,7 +2,6 @@
 wsId: sofiBank
 title: 'SoFi: Bank, Investing & Crypto'
 verdict: nosendreceive
-meta: ok
 date: 2026-01-23
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.96.0
   reviews: 20955
   icon: com.sofi.mobile.png
+  meta: ok
   developerName: Social Finance, LLC
 iphone:
   appId: com.sofi.mobile
@@ -29,6 +29,7 @@ iphone:
   version: 3.96.0
   reviews: 385560
   icon: com.sofi.mobile.jpg
+  meta: ok
   developerName: Social Finance, LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Hyper Bot
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://hyperbot.solutions#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-22
   version: 2.0.0
   icon: com.hyperbot.qwcodes.png
+  meta: removed
   developerName: JOHN MOXLEY
 
 ---

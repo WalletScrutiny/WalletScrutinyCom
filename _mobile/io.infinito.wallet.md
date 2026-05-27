@@ -2,7 +2,6 @@
 wsId: InfinitoWallet
 title: Infinito Wallet - Crypto Walle
 verdict: nosource
-meta: removed
 date: 2023-08-25
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 2.36.16
   reviews: 111
   icon: io.infinito.wallet.png
+  meta: removed
   developerName: INFINITO SOLUTIONS PTE. LTD.
 iphone:
   appId: io.infinito.wallet
@@ -33,6 +33,7 @@ iphone:
   version: 2.36.15
   reviews: 179
   icon: io.infinito.wallet.jpg
+  meta: removed
   developerName: Infinito Solution PTE
 
 ---

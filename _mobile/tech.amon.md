@@ -2,7 +2,6 @@
 wsId: techAmon
 title: Amon
 verdict: custodial
-meta: removed
 date: 2024-08-17
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-07-04
   version: 3.7.31
   icon: tech.amon.png
+  meta: removed
   developerName: Amon OÜ
 iphone:
   appId: tech.amon
@@ -30,6 +30,7 @@ iphone:
   version: 3.7.31
   reviews: 8
   icon: tech.amon.jpg
+  meta: removed
   developerName: Amon OÜ
 
 ---

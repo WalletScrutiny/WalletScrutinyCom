@@ -1,7 +1,6 @@
 ---
 title: 5ROI Global
 verdict: custodial
-meta: removed
 date: 2023-02-22
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 4.3.4
   reviews: 24
   icon: com.fiveroi.png
+  meta: removed
   developerName: 5ROI Global
 
 ---

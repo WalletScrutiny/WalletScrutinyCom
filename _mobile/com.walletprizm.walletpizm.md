@@ -1,7 +1,6 @@
 ---
 title: Walletprizm
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://walletprizm.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-14
   version: '1.0'
   icon: com.walletprizm.walletpizm.jpg
+  meta: removed
   developerName: Walletprizm
 
 ---

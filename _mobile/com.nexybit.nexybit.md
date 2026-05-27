@@ -1,7 +1,6 @@
 ---
 title: Nexybit - Mining and Futures E
 verdict: wip
-meta: removed
 date: 2023-04-08
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-02-18
   version: 1.0.4
   icon: com.nexybit.nexybit.png
+  meta: removed
   developerName: Nexybit
 
 ---

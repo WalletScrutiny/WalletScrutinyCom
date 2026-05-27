@@ -1,7 +1,6 @@
 ---
 title: Global btc trader
 verdict: wip
-meta: removed
 date: 2021-11-10
 redirect_from:
 - /android/com.tech.crypto.globalbtc/
@@ -13,6 +12,7 @@ android:
   version: '1.9'
   reviews: 8
   icon: com.tech.crypto.globalbtc.png
+  meta: removed
 
 ---
 

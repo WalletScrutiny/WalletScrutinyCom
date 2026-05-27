@@ -1,7 +1,6 @@
 ---
 title: Digital Money Exchange
 verdict: custodial
-meta: removed
 date: 2024-12-15
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2022-08-22
   version: 1.1.0
   icon: com.exchangedm.png
+  meta: removed
   developerName: Digital Money Ltd
 
 ---

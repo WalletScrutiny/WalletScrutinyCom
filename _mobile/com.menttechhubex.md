@@ -1,7 +1,6 @@
 ---
 title: HubEx Exchange
 verdict: wip
-meta: removed
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-06-04
   version: '3.0'
   icon: com.menttechhubex.png
+  meta: removed
   developerName: Edomian
 
 ---

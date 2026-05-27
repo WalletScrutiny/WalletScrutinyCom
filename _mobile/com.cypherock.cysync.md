@@ -1,7 +1,6 @@
 ---
 title: Cypherock CySync Crypto Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://www.cypherock.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-18
   version: 0.1.22
   icon: com.cypherock.cysync.png
+  meta: ok
   developerName: Cypherock
 
 ---

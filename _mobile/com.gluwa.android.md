@@ -2,7 +2,6 @@
 wsId: gluwaWallet
 title: Gluwa
 verdict: nosource
-meta: removed
 date: 2024-12-31
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 8.7.0
   reviews: 3
   icon: com.gluwa.android.png
+  meta: removed
   developerName: Gluwa
 iphone:
   appId: com.gluwa.app
@@ -34,6 +34,7 @@ iphone:
   version: 8.7.0
   reviews: 6
   icon: com.gluwa.app.jpg
+  meta: removed
   developerName: Gluwa Inc.
 
 ---

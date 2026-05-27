@@ -2,7 +2,6 @@
 wsId: creditsCrypto
 title: Credits.com. Buy and Sell BTC.
 verdict: custodial
-meta: ok
 date: 2023-07-02
 authors:
 - danny

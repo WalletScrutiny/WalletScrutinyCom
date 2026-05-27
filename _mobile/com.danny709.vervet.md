@@ -1,7 +1,6 @@
 ---
 title: Vervet - Social Value
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.vervetsystems.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-04
   version: 1.0.2
   icon: com.danny709.vervet.png
+  meta: removed
   developerName: Hilm Holdings Inc.
 
 ---

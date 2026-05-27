@@ -1,7 +1,6 @@
 ---
 title: HOYA BIT 加密貨幣交易所 ｜一鍵台幣買賣比特幣
 verdict: custodial
-meta: ok
 date: 2023-12-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2026-05-15
   version: 1.56.3
   icon: com.hoyabit.cex.png
+  meta: ok
   developerName: HOYA BIT Digital Technology Co., Ltd.
 
 ---

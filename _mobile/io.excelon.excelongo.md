@@ -2,7 +2,6 @@
 wsId: excelonGo
 title: 'Excelon : Payments unleashed'
 verdict: custodial
-meta: ok
 date: 2026-02-02
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: BitWay Bitcoin Crypto Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.bit.btcwallet/
@@ -12,6 +11,7 @@ android:
   updated: 2019-11-25
   version: '0.2'
   icon: com.bit.btcwallet.png
+  meta: removed
   developerName: Gerald H
 
 ---

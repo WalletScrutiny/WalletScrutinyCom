@@ -1,7 +1,6 @@
 ---
 title: Berry Wallet - Store Crypto
 verdict: nosource
-meta: removed
 date: 2024-03-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: '1.8'
   reviews: 8
   icon: com.berrywallet.wallet.png
+  meta: removed
   developerName: Ahmad soft
 
 ---

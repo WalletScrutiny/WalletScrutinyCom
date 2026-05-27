@@ -1,7 +1,6 @@
 ---
 title: Dex Wallet
 verdict: nosource
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2022-08-15
   version: 1.0.8
   icon: com.dex.appwallet.png
+  meta: removed
   developerName: appstoreafrica
 
 ---

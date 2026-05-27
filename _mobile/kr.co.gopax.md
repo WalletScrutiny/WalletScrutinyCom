@@ -2,7 +2,6 @@
 wsId: gopax
 title: GOPAX (Crypto exchange)
 verdict: custodial
-meta: ok
 date: 2021-10-01
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.9.46.1c4b
   reviews: 1537
   icon: kr.co.gopax.png
+  meta: ok
   developerName: Streami Inc.
 iphone:
   appId: kr.co.gopax
@@ -29,6 +29,7 @@ iphone:
   version: 3.2.1
   reviews: 530
   icon: kr.co.gopax.jpg
+  meta: ok
   developerName: Streami Inc.
 
 ---

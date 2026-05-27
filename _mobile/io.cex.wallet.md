@@ -2,7 +2,6 @@
 wsId: cexCryptoWallet
 title: CEX.IO App - Crypto Wallet
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 2.7.8
   reviews: 61
   icon: io.cex.wallet.png
+  meta: removed
   developerName: CEX.IO
 iphone:
   appId: io.cex.cexwallet
@@ -34,6 +34,7 @@ iphone:
   version: 3.0.0
   reviews: 28
   icon: io.cex.cexwallet.jpg
+  meta: removed
   developerName: CEX.IO LTD
 
 ---

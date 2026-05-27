@@ -1,7 +1,6 @@
 ---
 title: Zend Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.centralcoin.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2017-11-15
   version: '1.0'
   icon: com.zendwallet.png
+  meta: removed
   developerName: ZendCreative
 
 ---

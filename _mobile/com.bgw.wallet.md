@@ -2,7 +2,6 @@
 wsId: bgWallet
 title: WalletGo - Licensed Crypto App
 verdict: custodial
-meta: stale
 date: 2025-08-18
 authors:
 - danny

@@ -2,7 +2,6 @@
 wsId: qieWallet
 title: QIE Wallet
 verdict: nosource
-meta: ok
 date: 2026-05-20
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-05-13
   version: 0.3.62
   icon: com.qiewallet.png
+  meta: ok
   developerName: VortX Capital Pty Ltd
 iphone:
   appId: org.reactjs.native.QIEWallet
@@ -27,6 +27,7 @@ iphone:
   version: 2.7.1
   reviews: 1
   icon: org.reactjs.native.QIEWallet.jpg
+  meta: ok
   developerName: VORTEX PAY (PTY) LTD
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Kratos
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.kratosapp.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-01
   version: 1.0.0
   icon: com.kratosapp.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet Exchange - exch
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - kiwilamb
@@ -15,6 +14,7 @@ android:
   version: '1.01'
   reviews: 18
   icon: com.BitcoinWalletExchange.org.png
+  meta: removed
   developerName: ATMwallet
 
 ---

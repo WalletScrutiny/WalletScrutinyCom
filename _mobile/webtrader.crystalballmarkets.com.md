@@ -2,7 +2,6 @@
 wsId: crystalBallMarkets
 title: Crystal Ball Markets MT7
 verdict: nosendreceive
-meta: ok
 date: 2024-08-28
 authors:
 - danny

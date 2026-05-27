@@ -1,7 +1,6 @@
 ---
 title: Cryptocurrency Wallet App 2022
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://mikodes.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-06
   version: 1.5.2
   icon: com.mikodesx.cryptowallet.png
+  meta: removed
   developerName: Mikodes Team
 
 ---

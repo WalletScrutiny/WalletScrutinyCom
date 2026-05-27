@@ -1,7 +1,6 @@
 ---
 title: Blip! Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.w2.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2023-03-10
   version: '1.0'
   icon: com.w2.wallet.png
+  meta: removed
   developerName: High Voltage S.A.
 
 ---

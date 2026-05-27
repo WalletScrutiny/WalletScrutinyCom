@@ -2,7 +2,6 @@
 wsId: intebix
 title: Intebix
 verdict: custodial
-meta: ok
 date: 2026-05-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-04-26
   version: 2.2.0
   icon: kz.intebix.png
+  meta: ok
   developerName: INTEBIX LTD
 iphone:
   appId: com.idea-soft.intebix
@@ -28,6 +28,7 @@ iphone:
   version: 0.8.1
   reviews: 13
   icon: com.idea-soft.intebix.jpg
+  meta: ok
   developerName: BITEEU LTD
 
 ---

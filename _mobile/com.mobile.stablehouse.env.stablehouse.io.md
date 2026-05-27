@@ -1,7 +1,6 @@
 ---
 title: 'Stablehouse: Bitcoin & Crypto'
 verdict: wip
-meta: removed
 date: 2025-07-03
 website: https://www.stablehouse.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-10-06
   version: 1.1.5
   icon: com.mobile.stablehouse.env.stablehouse.io.png
+  meta: removed
   developerName: Stablehouse
 
 ---

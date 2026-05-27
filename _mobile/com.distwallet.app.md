@@ -1,7 +1,6 @@
 ---
 title: 'Distwallet: DEX Wallet'
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://distwallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-02-01
   version: '1.0'
   icon: com.distwallet.app.png
+  meta: removed
   developerName: PROYA INT.
 
 ---

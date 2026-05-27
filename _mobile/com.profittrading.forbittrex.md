@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for Bittrex
 verdict: custodial
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 12.0.13
   reviews: 22
   icon: com.profittrading.forbittrex.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

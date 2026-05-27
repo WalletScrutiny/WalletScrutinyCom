@@ -1,7 +1,6 @@
 ---
 title: BitOne
 verdict: custodial
-meta: removed
 date: 2023-08-16
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-05-14
   version: 1.3.9
   icon: com.habi.bitone.in.png
+  meta: removed
   developerName: BitOne
 
 ---

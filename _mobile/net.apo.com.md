@@ -1,7 +1,6 @@
 ---
 title: APO Multi-cryptocurrency Walle
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/net.apo.com/
@@ -12,6 +11,7 @@ android:
   updated: 2021-01-05
   version: '1.4'
   icon: net.apo.com.png
+  meta: removed
   developerName: Ifastbit Foreign Exchange
 
 ---

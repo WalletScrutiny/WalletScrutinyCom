@@ -1,7 +1,6 @@
 ---
 title: eXchange1:Crypto Trading App
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://www.exchange1.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2026-05-05
   version: 1.1.4
   icon: com.exchange1.ex1.jpg
+  meta: ok
   developerName: Web 3 Utility Platform UAB
 
 ---

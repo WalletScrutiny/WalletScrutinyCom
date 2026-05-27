@@ -2,7 +2,6 @@
 wsId: zapwallet
 title: 'Zap: Bitcoin Lightning Wallet'
 verdict: sourceavailable
-meta: removed
 date: 2022-04-25
 authors:
 - leo
@@ -31,6 +30,7 @@ android:
   updated: 2023-04-16
   version: VARY
   icon: zapsolutions.zap.png
+  meta: removed
   developerName: LN OSS
   repository: https://github.com/LN-Zap/zap-android
 iphone:
@@ -41,6 +41,7 @@ iphone:
   version: 0.5.2
   reviews: 63
   icon: com.jackmallers.zap.jpg
+  meta: removed
   repository: https://github.com/LN-Zap/zap-iOS
 
 ---

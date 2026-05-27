@@ -1,7 +1,6 @@
 ---
 title: Stone-M Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://www.raistone.kr
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-01
   version: 1.1.6
   icon: kr.raistone.stonewallet.png
+  meta: removed
   developerName: raistone co., ltd
 
 ---

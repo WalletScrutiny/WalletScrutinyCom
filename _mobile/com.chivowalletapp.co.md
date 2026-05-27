@@ -1,7 +1,6 @@
 ---
 title: Chivo Wallet
 verdict: fake
-meta: removed
 date: 2021-08-21
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 46
   icon: com.chivowalletapp.co.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: honestoTrading
 title: Honesto - Trading App
 verdict: custodial
-meta: ok
 date: 2023-07-21
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2025-10-23
   version: 2.0.79
   icon: io.honesto.honesto.png
+  meta: ok
   developerName: Honesto AG Schweiz
 iphone:
   appId: io.honesto.honesto
@@ -26,6 +26,7 @@ iphone:
   version: 2.3.8
   reviews: 37
   icon: io.honesto.honesto.jpg
+  meta: ok
   developerName: Honesto AG
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Vault Digital Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.Vault.DigitalWallet/
@@ -12,6 +11,7 @@ android:
   updated: 2023-04-28
   version: 1.3.4
   icon: com.Vault.DigitalWallet.png
+  meta: removed
   developerName: Vault Group Development
 
 ---

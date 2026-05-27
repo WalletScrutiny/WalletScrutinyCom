@@ -1,7 +1,6 @@
 ---
 title: Abono Cripto
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://abonocripto.com.ar#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-13
   version: 1.0.19
   icon: com.mundocripto.app.png
+  meta: removed
   developerName: Abono cripto
 
 ---

@@ -2,7 +2,6 @@
 wsId: alfredWallet
 title: AlfredWallet
 verdict: nosource
-meta: removed
 date: 2024-10-28
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2023-08-23
   version: '1.18'
   icon: com.alfredwallet.wallet.png
+  meta: removed
   developerName: PRO DIGITAL
 iphone:
   appId: com.AlfredWallet
@@ -29,6 +29,7 @@ iphone:
   version: '1.15'
   reviews: 0
   icon: com.AlfredWallet.jpg
+  meta: removed
   developerName: PRO DIGITAL INNOVATIONS INC
 
 ---

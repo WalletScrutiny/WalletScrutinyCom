@@ -2,7 +2,6 @@
 wsId: blockbank.v1
 title: BlockBank V1
 verdict: custodial
-meta: removed
 date: 2021-11-10
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.3.15
   reviews: 254
   icon: com.aibb.wallet.jpg
+  meta: removed
 iphone:
   appId: com.aibb.wallet1
   idd: '1460965460'
@@ -30,6 +30,7 @@ iphone:
   version: 2.3.15
   reviews: 21
   icon: com.aibb.wallet1.jpg
+  meta: removed
 
 ---
 

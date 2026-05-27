@@ -1,7 +1,6 @@
 ---
 title: Sunshine Wallet Bitcoin
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.sunshine-wallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2017-08-18
   version: 3.7.3
   icon: com.bitpay.sunshine.png
+  meta: removed
 
 ---
 

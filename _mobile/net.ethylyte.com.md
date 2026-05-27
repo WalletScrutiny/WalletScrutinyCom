@@ -1,7 +1,6 @@
 ---
 title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
 verdict: wip
-meta: removed
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '2.8'
   reviews: 6
   icon: net.ethylyte.com.png
+  meta: removed
   developerName: Ethlyte Crypto
 
 ---

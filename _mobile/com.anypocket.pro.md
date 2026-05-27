@@ -1,7 +1,6 @@
 ---
 title: AnyPocket
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://anypocket.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-27
   version: Beta1.0.7
   icon: com.anypocket.pro.png
+  meta: removed
 
 ---
 

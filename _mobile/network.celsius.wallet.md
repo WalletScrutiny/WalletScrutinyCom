@@ -2,7 +2,6 @@
 wsId: Celsius
 title: 'Celsius: Buy and Earn Crypto'
 verdict: custodial
-meta: removed
 date: 2024-04-03
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 5.2.0
   reviews: 1750
   icon: network.celsius.wallet.png
+  meta: removed
   developerName: Celsius Network Crypto Wallet
 iphone:
   appId: network.celsius.wallet
@@ -32,6 +32,7 @@ iphone:
   version: v5.2.0
   reviews: 2518
   icon: network.celsius.wallet.jpg
+  meta: removed
   developerName: Celsius Network
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Impily
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://impily.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-26
   version: '1.0'
   icon: impily.app.png
+  meta: removed
   developerName: Impily.com
 
 ---

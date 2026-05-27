@@ -1,7 +1,6 @@
 ---
 title: MINING SCRIPT Penambang Koin Digital
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://z31aec014.app-ads-txt.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-18
   version: 3.0.0
   icon: com.mrsebong21.miningscriptpenambangkoindigital.png
+  meta: removed
 
 ---
 

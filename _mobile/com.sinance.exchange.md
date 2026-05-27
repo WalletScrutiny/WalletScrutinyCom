@@ -1,7 +1,6 @@
 ---
 title: SNEX
 verdict: wip
-meta: removed
 date: 2023-08-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-07-06
   version: 1.2.1
   icon: com.sinance.exchange.jpg
+  meta: removed
   developerName: Sinance Developer
 
 ---

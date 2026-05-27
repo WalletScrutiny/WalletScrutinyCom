@@ -1,7 +1,6 @@
 ---
 title: SureMiningTradeOptions
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://sureminingtradeoptions.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-24
   version: '1.0'
   icon: com.suremining.app.png
+  meta: removed
   developerName: Kryptiva
 
 ---

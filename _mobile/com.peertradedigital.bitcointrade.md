@@ -2,7 +2,6 @@
 wsId: bitcointrade
 title: Ripio Trade
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.20.4
   reviews: 4822
   icon: com.peertradedigital.bitcointrade.png
+  meta: removed
   developerName: PeerTrade Digital Ltda
 iphone:
   appId: com.root.BitcoinTrade
@@ -31,6 +31,7 @@ iphone:
   version: 4.7.10
   reviews: 978
   icon: com.root.BitcoinTrade.jpg
+  meta: removed
   developerName: PeerTrade Digital
 
 ---

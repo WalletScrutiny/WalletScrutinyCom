@@ -2,7 +2,6 @@
 wsId: ATokenWallet
 title: ATokenWallet
 verdict: nosource
-meta: removed
 date: 2022-01-15
 authors:
 - kiwilamb
@@ -21,6 +20,7 @@ android:
   version: 4.2.1
   reviews: 2460
   icon: wallet.gem.com.atoken.png
+  meta: removed
 iphone:
   appId: com.jzbt.atoken
   idd: 1395835245
@@ -29,6 +29,7 @@ iphone:
   version: 4.2.0
   reviews: 263
   icon: com.jzbt.atoken.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Online Wallet
 verdict: custodial
-meta: removed
 date: 2023-03-21
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2021-04-22
   version: 1.1.3
   icon: com.wallet.online.jpg
+  meta: removed
 
 ---
 

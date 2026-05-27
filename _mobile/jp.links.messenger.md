@@ -1,7 +1,6 @@
 ---
 title: Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ
 verdict: wip
-meta: removed
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2022-05-19
   version: 1.35.9
   icon: jp.links.messenger.jpg
+  meta: removed
   developerName: Links K.K.
 
 ---

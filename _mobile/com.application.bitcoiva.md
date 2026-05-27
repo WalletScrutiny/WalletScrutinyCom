@@ -1,7 +1,6 @@
 ---
 title: 'Bitcoiva : Buy Bitcoin &Crypto'
 verdict: custodial
-meta: ok
 date: 2021-07-29
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: 1.65.2
   reviews: 5
   icon: com.application.bitcoiva.png
+  meta: ok
   developerName: Hyperux Developers
 
 ---

@@ -2,7 +2,6 @@
 wsId: juCom
 title: 'Ju.com : Buy BTC, DeFi & Web3'
 verdict: custodial
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.3.15
   reviews: 12
   icon: com.app.jc.png
+  meta: ok
   developerName: RONKB
 iphone:
   appId: io.jubit.pro
@@ -28,6 +28,7 @@ iphone:
   version: 3.3.15
   reviews: 25
   icon: io.jubit.pro.jpg
+  meta: ok
   developerName: JuCoin Pro INC
 
 ---

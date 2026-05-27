@@ -1,7 +1,6 @@
 ---
 title: Vega - Lightning Wallet
 verdict: wip
-meta: removed
 date: 2021-08-09
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   updated: 2019-05-22
   version: Varies with device
   icon: app.getvega.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'BNS: Crypto Trading Exchange'
 verdict: custodial
-meta: ok
 date: 2026-04-13
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 6.21.0
   reviews: 44
   icon: com.bitbns.png
+  meta: ok
   developerName: Bitbns Cryptocurrency Trading Exchange India
 
 ---

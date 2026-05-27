@@ -2,7 +2,6 @@
 wsId: salletone
 title: SalletOne Live
 verdict: wip
-meta: obsolete
 date: 2023-04-16
 authors:
 - danny

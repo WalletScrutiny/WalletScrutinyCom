@@ -2,7 +2,6 @@
 wsId: bitexenGlobal
 title: Bitexen Global
 verdict: custodial
-meta: ok
 date: 2023-09-06
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-15
   version: '2.19'
   icon: com.bitexenglobal.exchangeapp.png
+  meta: ok
   developerName: Bitexen Teknoloji A.Ş.
 iphone:
   appId: com.bitexenglobal.exchangeapp
@@ -31,6 +31,7 @@ iphone:
   version: '2.24'
   reviews: 1
   icon: com.bitexenglobal.exchangeapp.jpg
+  meta: ok
   developerName: Bitexen Europe UAB
 
 ---

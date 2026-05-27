@@ -1,7 +1,6 @@
 ---
 title: Firstprofit
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.firstprofit.firstprofit/
@@ -12,6 +11,7 @@ android:
   updated: 2020-09-25
   version: '2.1'
   icon: com.firstprofit.firstprofit.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: BOP - Bitcoin On Paper
 verdict: wip
-meta: stale
 date: 2026-05-21
 website: https://github.com/ejfhp
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-01-11
   version: 2.1.2
   icon: com.ejfhp.bitonpaper.png
+  meta: stale
   developerName: Rabbit Hole Lab
 
 ---

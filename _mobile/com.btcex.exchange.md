@@ -2,7 +2,6 @@
 wsId: BTCEX
 title: 'BTCEX: Trade Bitcoin & Crypto'
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 1.4.50
   reviews: 9
   icon: com.btcex.exchange.png
+  meta: removed
   developerName: BTCEX
 iphone:
   appId: com.btcex.appstore
@@ -35,6 +35,7 @@ iphone:
   version: 1.4.4
   reviews: 0
   icon: com.btcex.appstore.jpg
+  meta: removed
   developerName: BTCEX EXCHANGE LIMITED
 
 ---

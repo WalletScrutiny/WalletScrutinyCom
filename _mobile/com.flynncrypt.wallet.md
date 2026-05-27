@@ -1,7 +1,6 @@
 ---
 title: FlynnCrypt wallet
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: http://flynncrypt.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-16
   version: 1.0.9
   icon: com.flynncrypt.wallet.png
+  meta: removed
   developerName: FlynnCrypt Ltd
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Sparrow Wallet : BTC Whirlpool'
 verdict: fake
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   version: 1.0.7
   reviews: 9
   icon: com.bitcoin.wirlpool.jpg
+  meta: removed
   developerName: CONTRACTOR-ADVERTISING INC
 
 ---

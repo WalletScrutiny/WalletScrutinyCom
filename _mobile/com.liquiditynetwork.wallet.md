@@ -1,7 +1,6 @@
 ---
 title: Liquidity Wallet - A Significantly Better Account
 verdict: wip
-meta: removed
 date: 2022-03-09
 website: https://liquidity.network#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-16
   version: 1.27.2
   icon: com.liquiditynetwork.wallet.png
+  meta: removed
 
 ---
 

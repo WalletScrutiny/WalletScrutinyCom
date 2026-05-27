@@ -1,7 +1,6 @@
 ---
 wsId: giottus
 title: 'Giottus: Crypto Investing App'
-meta: ok
 date: 2024-07-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.0.44
   reviews: 26
   icon: com.giottus.giottus_mobile.png
+  meta: ok
   verdict: custodial
   developerName: Giottus Technologies Private Limited
 iphone:
@@ -33,6 +33,7 @@ iphone:
   version: 3.0.43
   reviews: 1114
   icon: com.giottus.app.jpg
+  meta: ok
   verdict: nosource
   developerName: giottus
 

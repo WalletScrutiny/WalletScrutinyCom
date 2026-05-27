@@ -2,7 +2,6 @@
 wsId: goabra
 title: 'Abra: Buy & Trade BTC & Crypto'
 verdict: custodial
-meta: obsolete
 date: 2026-01-08
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: '146.0'
   reviews: 2894
   icon: com.plutus.wallet.png
+  meta: obsolete
   developerName: Plutus Financial Inc
 iphone:
   appId: com.goabra.abra
@@ -34,6 +34,7 @@ iphone:
   version: 145.0.0
   reviews: 161
   icon: com.goabra.abra.jpg
+  meta: obsolete
   developerName: Plutus Financial
 
 ---

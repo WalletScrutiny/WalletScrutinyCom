@@ -1,7 +1,6 @@
 ---
 title: GEX.IO
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.hujinsuo.gexio/
@@ -13,6 +12,7 @@ android:
   version: 1.4.2
   reviews: 5
   icon: com.hujinsuo.gexio.png
+  meta: removed
 
 ---
 

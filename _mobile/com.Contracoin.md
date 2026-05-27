@@ -1,7 +1,6 @@
 ---
 title: Contracoin Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-11-19
   version: '1.00'
   icon: com.Contracoin.png
+  meta: removed
   developerName: Contracoin
 
 ---

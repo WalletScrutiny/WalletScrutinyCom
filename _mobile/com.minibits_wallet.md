@@ -1,7 +1,6 @@
 ---
 title: Minibits Wallet
 verdict: custodial
-meta: ok
 date: 2024-11-29
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-03-31
   version: VARY
   icon: com.minibits_wallet.png
+  meta: ok
   developerName: Bitango Technologies
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Cryptorize - Buy and Sell Bitcoin in Nigeria
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/com.panthelope.cryptorize.mobile.cryptorize/
@@ -13,6 +12,7 @@ android:
   version: 2.0.0
   reviews: 22
   icon: com.panthelope.cryptorize.mobile.cryptorize.png
+  meta: removed
 
 ---
 

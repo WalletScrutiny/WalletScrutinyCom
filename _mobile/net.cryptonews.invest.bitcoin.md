@@ -1,7 +1,6 @@
 ---
 title: Invest Bitcoin
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptonews.invest.bitcoin/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-23
   version: '1.0'
   icon: net.cryptonews.invest.bitcoin.jpg
+  meta: removed
 
 ---
 

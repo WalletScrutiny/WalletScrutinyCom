@@ -1,7 +1,6 @@
 ---
 title: NetLink
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://netlink.exchange#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-08-27
   version: 1.0.0
   icon: com.netlink.exchange.png
+  meta: removed
 
 ---
 

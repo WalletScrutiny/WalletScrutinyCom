@@ -2,7 +2,6 @@
 wsId: lyoTrade
 title: LYO TRADE Crypto BTC Exchange
 verdict: custodial
-meta: removed
 date: 2023-10-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2023-12-17
   version: 3.0.2
   icon: com.lyotrade.png
+  meta: removed
   developerName: DIGILYO APP LTD
 iphone:
   appId: com.lyo.trade
@@ -32,6 +32,7 @@ iphone:
   version: 1.8.0
   reviews: 0
   icon: com.lyo.trade.jpg
+  meta: removed
   developerName: DIGILYO APP LTD
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Ruyi Wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.ruyiwallet.com#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 2.3.82
   reviews: 4
   icon: com.ruyiwallet.app.png
+  meta: removed
 
 ---
 

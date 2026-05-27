@@ -1,7 +1,6 @@
 ---
 title: Coinsafe - Never Lose Your Cry
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://getcoinsafe.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-05-16
   version: 0.1.6
   icon: app.getcoinsafe.android.png
+  meta: removed
   developerName: Vevsa
 
 ---

@@ -2,7 +2,6 @@
 wsId: MandalaExchange
 title: Mandala Exchange
 verdict: custodial
-meta: removed
 date: 2023-05-17
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.2.0
   reviews: 25
   icon: com.cloud.app.mandala.png
+  meta: removed
   developerName: MandalaEx
 iphone:
   appId: com.cloud.mandala
@@ -32,6 +32,7 @@ iphone:
   version: 1.0.1
   reviews: 56
   icon: com.cloud.mandala.jpg
+  meta: removed
   developerName: Mandala Acquisition
 
 ---

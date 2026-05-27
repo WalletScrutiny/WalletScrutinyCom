@@ -1,7 +1,6 @@
 ---
 title: EPTA
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://myeazywallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-10-10
   version: 1.0.3
   icon: com.application.myeazywallet.jpg
+  meta: removed
   developerName: Eazy Technology Solutions Sdn Bhd
 
 ---

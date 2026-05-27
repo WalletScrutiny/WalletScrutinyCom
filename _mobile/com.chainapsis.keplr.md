@@ -2,7 +2,6 @@
 wsId: keplrWallet
 title: Keplr - Crypto Wallet
 verdict: nosource
-meta: ok
 date: 2025-07-21
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.1.198
   reviews: 203
   icon: com.chainapsis.keplr.png
+  meta: ok
   developerName: Team Keplr
   repository: https://github.com/chainapsis/keplr-wallet
 iphone:
@@ -30,6 +30,7 @@ iphone:
   version: 2.1.195
   reviews: 269
   icon: com.chainapsis.keplrwallet.jpg
+  meta: ok
   developerName: chainapsis
 
 ---

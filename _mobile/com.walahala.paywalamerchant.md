@@ -1,7 +1,6 @@
 ---
 title: PAYWALA MERCHANT
 verdict: wip
-meta: removed
 date: 2022-04-07
 website: https://walahala.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-23
   version: '1.5'
   icon: com.walahala.paywalamerchant.png
+  meta: removed
 
 ---
 

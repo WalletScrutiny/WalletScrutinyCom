@@ -2,7 +2,6 @@
 wsId: yieldApp
 title: 'Yield App : Bitcoin Wallet'
 verdict: custodial
-meta: removed
 date: 2024-07-22
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: '24.0527'
   reviews: 14
   icon: com.yieldapp_mobile.jpg
+  meta: removed
   developerName: Yield App
 iphone:
   appId: app.yield
@@ -33,6 +33,7 @@ iphone:
   version: '24.0527'
   reviews: 39
   icon: app.yield.jpg
+  meta: removed
   developerName: Yield App
 
 ---

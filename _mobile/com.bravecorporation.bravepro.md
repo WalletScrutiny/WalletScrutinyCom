@@ -1,7 +1,6 @@
 ---
 title: 'BravePro: cryptocurrency store'
 verdict: wip
-meta: obsolete
 date: 2025-10-15
 website: https://www.bravepay.net/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-10-22
   version: 1.0.17
   icon: com.bravecorporation.bravepro.png
+  meta: obsolete
   developerName: BravePay
 
 ---

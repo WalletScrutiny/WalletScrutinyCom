@@ -1,7 +1,6 @@
 ---
 title: Cointify Exchange
 verdict: wip
-meta: removed
 date: 2023-05-30
 website: https://ex.cointify.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-06-24
   version: 1.0.2
   icon: com.cointify.exchange.png
+  meta: removed
   developerName: Cointify Team
 
 ---

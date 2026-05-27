@@ -2,7 +2,6 @@
 wsId: xBankPocket
 title: xBank
 verdict: custodial
-meta: removed
 date: 2024-09-25
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.0.1
   reviews: 7
   icon: com.xbank_rn.png
+  meta: removed
   developerName: xbank.plus
 iphone:
   appId: com.tratao.xpocket
@@ -33,6 +33,7 @@ iphone:
   version: 4.7.0
   reviews: 167
   icon: com.tratao.xpocket.jpg
+  meta: removed
   developerName: INITIAL BLOCKCHAIN TECH PTE. LTD.
 
 ---

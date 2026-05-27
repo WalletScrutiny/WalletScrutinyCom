@@ -1,7 +1,6 @@
 ---
 title: PlayWallet
 verdict: wip
-meta: removed
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-04-08
   version: 2.0.6
   icon: com.gamehub.playwallet2.png
+  meta: removed
   developerName: GAMEHUB
 
 ---

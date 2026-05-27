@@ -1,7 +1,6 @@
 ---
 title: QUINTEX NETWORK
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://quintex.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-12
   version: 3.5.8
   icon: com.app.quintex.png
+  meta: removed
   developerName: Quintex Network
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Investment
 verdict: wip
-meta: removed
 date: 2021-11-30
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '9.0'
   reviews: 46
   icon: bitcoin.investmentlimited.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: Coinsuper
 title: Coinsuper
 verdict: custodial
-meta: removed
 date: 2022-01-31
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.5.8
   reviews: 98
   icon: com.coinsuper.app.png
+  meta: removed
 iphone:
   appId: com.coinsuper.app
   idd: 1346980481
@@ -30,6 +30,7 @@ iphone:
   version: 2.4.14
   reviews: 13
   icon: com.coinsuper.app.jpg
+  meta: removed
 
 ---
 

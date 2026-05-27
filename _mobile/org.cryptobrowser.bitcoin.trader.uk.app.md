@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Trader  Uk App
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptobrowser.bitcoin.trader.uk.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-29
   version: '1.0'
   icon: org.cryptobrowser.bitcoin.trader.uk.app.jpg
+  meta: removed
 
 ---
 

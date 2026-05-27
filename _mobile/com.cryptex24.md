@@ -2,7 +2,6 @@
 wsId: cryptex24
 title: Cryptex24
 verdict: custodial
-meta: removed
 date: 2025-03-19
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2023-01-05
   version: 2.16.0
   icon: com.cryptex24.png
+  meta: removed
   developerName: C24 WORLD  LTD
 iphone:
   appId: io.cryptex24.mobile
@@ -26,6 +26,7 @@ iphone:
   version: '1.6'
   reviews: 1
   icon: io.cryptex24.mobile.jpg
+  meta: removed
   developerName: C24 WORLD LTD
 
 ---

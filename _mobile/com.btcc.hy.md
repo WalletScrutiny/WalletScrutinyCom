@@ -2,7 +2,6 @@
 wsId: btcc
 title: BTCC - Trade Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2021-09-17
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 8.9.85
   reviews: 4140
   icon: com.btcc.hy.png
+  meta: ok
   developerName: BTCC.COM
 iphone:
   appId: com.btcc.hy
@@ -33,6 +33,7 @@ iphone:
   version: 8.9.84
   reviews: 5008
   icon: com.btcc.hy.jpg
+  meta: ok
   developerName: BTCC Global Limited
 
 ---

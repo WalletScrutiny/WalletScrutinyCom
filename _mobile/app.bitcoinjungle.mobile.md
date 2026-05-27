@@ -2,7 +2,6 @@
 wsId: bitcoinjungle
 title: Bitcoin Jungle
 verdict: custodial
-meta: ok
 date: 2023-10-20
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   version: 1.4.5
   reviews: 1
   icon: app.bitcoinjungle.mobile.png
+  meta: ok
   developerName: Bitcoin Jungle
 iphone:
   appId: app.bitcoinjungle.ios
@@ -37,6 +37,7 @@ iphone:
   version: 1.4.5
   reviews: 18
   icon: app.bitcoinjungle.ios.jpg
+  meta: ok
   developerName: Bitcoin Jungle LLC
 
 ---

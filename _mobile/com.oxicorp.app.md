@@ -1,7 +1,6 @@
 ---
 title: OXI Corp
 verdict: wip
-meta: removed
 date: 2023-05-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-01-26
   version: 6.0.1
   icon: com.oxicorp.app.png
+  meta: removed
   developerName: OXI Corporation
 
 ---

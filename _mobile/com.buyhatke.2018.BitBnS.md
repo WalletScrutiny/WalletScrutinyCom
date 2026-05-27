@@ -1,7 +1,6 @@
 ---
 title: BNS-Crypto Trading Exchange
 verdict: custodial
-meta: defunct
 date: 2023-08-25
 authors:
 - danny
@@ -22,6 +21,7 @@ iphone:
   version: 6.1.5
   reviews: 965
   icon: com.buyhatke.2018.BitBnS.jpg
+  meta: defunct
   developerName: Buyhatke Internet Private Limited
 
 ---

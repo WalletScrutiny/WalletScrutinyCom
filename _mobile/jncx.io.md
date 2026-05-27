@@ -1,7 +1,6 @@
 ---
 title: JNCX:Zero-Fee Bitcoin Exchange
 verdict: wip
-meta: removed
 date: 2023-07-28
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2022-09-01
   version: 1.0.4
   icon: jncx.io.png
+  meta: removed
   developerName: JNC FINTECH
 
 ---

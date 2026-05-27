@@ -1,7 +1,6 @@
 ---
 title: '2gether: Buying Bitcoin'
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-06-14
   version: 1.9.3
   icon: com.twogetherbank.app.png
+  meta: removed
   developerName: 2gether global
 
 ---

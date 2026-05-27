@@ -2,7 +2,6 @@
 wsId: bitarooexpress
 title: Bitaroo Express - Buy Bitcoin
 verdict: custodial
-meta: ok
 date: 2024-09-05
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   updated: 2026-04-14
   version: 3.4.1
   icon: au.com.bitaroo.express.png
+  meta: ok
   developerName: Bitaroo
 iphone:
   appId: au.com.bitaroo.express
@@ -35,6 +35,7 @@ iphone:
   version: 3.4.1
   reviews: 24
   icon: au.com.bitaroo.express.jpg
+  meta: ok
   developerName: Bitaroo
 
 ---

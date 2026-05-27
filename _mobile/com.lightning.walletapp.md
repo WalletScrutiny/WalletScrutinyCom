@@ -1,7 +1,6 @@
 ---
 title: 'BLW: Bitcoin and Lightning Wal'
 verdict: nosource
-meta: removed
 date: 2024-04-19
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   version: 0.4.8
   reviews: 61
   icon: com.lightning.walletapp.png
+  meta: removed
   developerName: anton kumaigorodski
 
 ---

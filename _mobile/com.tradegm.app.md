@@ -1,7 +1,6 @@
 ---
 title: TradeGM
 verdict: wip
-meta: removed
 date: 2023-08-16
 website: https://tradegm.eu/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2020-12-18
   version: '1.5'
   icon: com.tradegm.app.png
+  meta: removed
   developerName: eBrókerház Zrt.
 
 ---

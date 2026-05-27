@@ -1,7 +1,6 @@
 ---
 title: WasabiWallet
 verdict: fake
-meta: removed
 date: 2021-04-09
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '2.0'
   reviews: 14
   icon: com.wasabiwallet.dev.png
+  meta: removed
 
 ---
 

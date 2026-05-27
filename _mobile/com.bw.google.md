@@ -1,7 +1,6 @@
 ---
 title: BW Exchange
 verdict: wip
-meta: removed
 date: 2023-04-21
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.1.4
   reviews: 4
   icon: com.bw.google.jpg
+  meta: removed
   developerName: bwexchange
 
 ---

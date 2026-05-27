@@ -1,7 +1,6 @@
 ---
 title: XCHANGE-COINS Cryptocurrency Exchange
 verdict: wip
-meta: removed
 date: 2022-04-07
 website: https://www.xchange-coins.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-26
   version: 5.84.10
   icon: xchange_coins.com.png
+  meta: removed
 
 ---
 

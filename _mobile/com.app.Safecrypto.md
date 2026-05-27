@@ -1,7 +1,6 @@
 ---
 title: Safecrypto wallet
 verdict: wip
-meta: removed
 date: 2023-08-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.1.1
   reviews: 11
   icon: com.app.Safecrypto.png
+  meta: removed
   developerName: SAFE WALL
 
 ---

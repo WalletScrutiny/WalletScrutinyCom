@@ -1,7 +1,6 @@
 ---
 title: BMG INT
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2023-03-05
   version: 11.3.10
   icon: com.yesapp.mw.jpg
+  meta: removed
   developerName: MW KOP
 
 ---

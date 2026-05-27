@@ -2,7 +2,6 @@
 wsId: tradefada
 title: 'Tradefada: Bitcoin Exchange'
 verdict: custodial
-meta: removed
 date: 2024-10-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2023-10-26
   version: 3.3.0
   icon: tradefada.com.exchange.app.png
+  meta: removed
   developerName: Tradefada Global
 iphone:
   appId: dev.com.tradefada.app
@@ -32,6 +32,7 @@ iphone:
   version: 1.3.13
   reviews: 2
   icon: dev.com.tradefada.app.jpg
+  meta: removed
   developerName: Tradefada LLC
 
 ---

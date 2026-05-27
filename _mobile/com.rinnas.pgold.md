@@ -1,7 +1,6 @@
 ---
 title: 'Pgold App: Gift Card & Crypto'
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://pgoldapp.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-07
   version: 1.0.12
   icon: com.rinnas.pgold.jpg
+  meta: removed
 
 ---
 

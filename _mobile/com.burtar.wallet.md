@@ -1,7 +1,6 @@
 ---
 title: 'Burtar wallet: Buy, sell & swap bitcoin & crypto'
 verdict: custodial
-meta: removed
 date: 2022-02-25
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 63
   icon: com.burtar.wallet.png
+  meta: removed
 
 ---
 

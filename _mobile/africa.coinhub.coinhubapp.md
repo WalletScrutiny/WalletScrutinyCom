@@ -1,7 +1,6 @@
 ---
 title: Coinhub
 verdict: wip
-meta: removed
 date: 2026-02-02
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-01-25
   version: '1.3'
   icon: africa.coinhub.coinhubapp.png
+  meta: removed
   developerName: Coinhub Africa Developer
 
 ---

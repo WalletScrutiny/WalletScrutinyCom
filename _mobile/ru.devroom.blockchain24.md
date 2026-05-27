@@ -1,7 +1,6 @@
 ---
 title: Blockchain24.pro
 verdict: wip
-meta: obsolete
 date: 2025-06-18
 website: https://blockchain24.pro
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-29
   version: 1.1.2
   icon: ru.devroom.blockchain24.png
+  meta: obsolete
   developerName: Promedia Apps
 
 ---

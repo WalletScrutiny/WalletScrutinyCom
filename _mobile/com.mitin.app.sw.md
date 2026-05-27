@@ -1,7 +1,6 @@
 ---
 title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
 verdict: custodial
-meta: removed
 date: 2022-02-16
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2021-05-13
   version: '3.0'
   icon: com.mitin.app.sw.png
+  meta: removed
 
 ---
 

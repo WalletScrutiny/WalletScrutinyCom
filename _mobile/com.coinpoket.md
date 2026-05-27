@@ -1,7 +1,6 @@
 ---
 title: 'Coinpoket – Crypto Exchange & '
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://www.coinpoket.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-02-26
   version: 1.0.3
   icon: com.coinpoket.png
+  meta: removed
   developerName: Lakeba Corporation Apps
 
 ---

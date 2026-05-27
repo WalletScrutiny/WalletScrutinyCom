@@ -2,7 +2,6 @@
 wsId: emcdPoolWallet
 title: EMCD Coinhold — Crypto Wallet
 verdict: custodial
-meta: ok
 date: 2023-07-07
 authors:
 - danny

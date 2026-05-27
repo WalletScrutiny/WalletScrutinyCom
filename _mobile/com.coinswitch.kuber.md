@@ -2,7 +2,6 @@
 wsId: CoinSwitch
 title: 'CoinSwitch: Bitcoin Crypto App'
 verdict: nosendreceive
-meta: ok
 date: 2021-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 9.3.2
   reviews: 147452
   icon: com.coinswitch.kuber.png
+  meta: ok
   developerName: Bitkuber Investments Private Limited
 iphone:
   appId: com.coinswitch.kuber
@@ -32,6 +32,7 @@ iphone:
   version: 9.2.7
   reviews: 60694
   icon: com.coinswitch.kuber.jpg
+  meta: ok
   developerName: BITKUBER INVESTMENTS PRIVATE LIMITED
 
 ---

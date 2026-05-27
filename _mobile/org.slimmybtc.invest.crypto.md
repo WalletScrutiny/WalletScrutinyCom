@@ -1,7 +1,6 @@
 ---
 title: Invest Crypto
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.slimmybtc.invest.crypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-18
   version: '1.0'
   icon: org.slimmybtc.invest.crypto.png
+  meta: removed
 
 ---
 

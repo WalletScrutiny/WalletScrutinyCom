@@ -1,7 +1,6 @@
 ---
 title: SMART SYSTEMS
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: http://goforsage.com/app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-08-10
   version: '2.5'
   icon: com.ebfourapp.android5e8639832c006.png
+  meta: removed
   developerName: LIV8 LLC
 
 ---

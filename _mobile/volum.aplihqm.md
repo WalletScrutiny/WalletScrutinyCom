@@ -1,7 +1,6 @@
 ---
 title: Volum - Bitcoin Wallet
 verdict: wip
-meta: removed
 date: 2023-05-17
 redirect_from:
 - /android/volum.aplihqm/
@@ -12,6 +11,7 @@ android:
   updated: 2021-11-21
   version: '9.8'
   icon: volum.aplihqm.png
+  meta: removed
   developerName: Eipol ST
 
 ---

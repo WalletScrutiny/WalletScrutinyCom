@@ -1,7 +1,6 @@
 ---
 title: Wallet
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://wp.k8s.df.org.ua
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-09-06
   version: 1.0.1
   icon: qooorsou.lts.wallet.png
+  meta: removed
   developerName: Yfix group
 
 ---

@@ -2,7 +2,6 @@
 wsId: palwallet
 title: 'PalWallet: Self-Custody Wallet'
 verdict: custodial
-meta: ok
 date: 2025-11-26
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2025-10-09
   version: 1.0.29
   icon: com.palwalletapp.png
+  meta: ok
   developerName: PalWallet LTD
 iphone:
   appId: com.app.palwalletprod
@@ -28,6 +28,7 @@ iphone:
   version: 1.0.10
   reviews: 4
   icon: com.app.palwalletprod.jpg
+  meta: ok
   developerName: PalWallet Limited
 
 ---

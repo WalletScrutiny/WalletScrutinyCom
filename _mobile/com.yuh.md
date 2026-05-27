@@ -2,7 +2,6 @@
 wsId: yuh
 title: Yuh - Your app. Your money.
 verdict: nosendreceive
-meta: ok
 date: 2023-03-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.44.6
   reviews: 4
   icon: com.yuh.png
+  meta: ok
   developerName: Swissquote Mobile
 iphone:
   appId: com.swissquote.Yuh
@@ -31,6 +31,7 @@ iphone:
   version: 1.43.3
   reviews: 21270
   icon: com.swissquote.Yuh.jpg
+  meta: ok
   developerName: Swissquote
 
 ---

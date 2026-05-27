@@ -1,7 +1,6 @@
 ---
 title: 'Inflowchange: Sell Bitcoin'
 verdict: nosendreceive
-meta: removed
 date: 2024-03-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2023-06-25
   version: '1.8'
   icon: com.inflowchange.inflowchange.png
+  meta: removed
   developerName: Paychatik Ltd.
 
 ---

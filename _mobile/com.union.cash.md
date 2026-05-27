@@ -2,7 +2,6 @@
 wsId: unionCash
 title: Union.cash
 verdict: custodial
-meta: ok
 date: 2023-11-17
 authors:
 - danny

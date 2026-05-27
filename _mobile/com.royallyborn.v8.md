@@ -1,7 +1,6 @@
 ---
 title: 8V - Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2025-09-09
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.2.5
   reviews: 17
   icon: com.royallyborn.v8.jpg
+  meta: ok
   developerName: 8v.com
 
 ---

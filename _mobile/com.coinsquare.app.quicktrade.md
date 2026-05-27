@@ -2,7 +2,6 @@
 wsId: coinsquare
 title: 'Coinsquare: Buy Bitcoin Canada'
 verdict: custodial
-meta: ok
 date: 2024-09-07
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 5.3.3
   reviews: 5
   icon: com.coinsquare.app.quicktrade.png
+  meta: ok
   developerName: WF - Bitbuy
 iphone:
   appId: com.coinsquare.quicktrade
@@ -38,6 +38,7 @@ iphone:
   version: 5.3.3
   reviews: 5380
   icon: com.coinsquare.quicktrade.jpg
+  meta: ok
   developerName: Coinsquare Ltd.
 
 ---

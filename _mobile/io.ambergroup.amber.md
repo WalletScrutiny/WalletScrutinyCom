@@ -2,7 +2,6 @@
 wsId: ambercrypto
 title: Amber Premium Global
 verdict: custodial
-meta: ok
 date: 2021-09-11
 authors:
 - danny

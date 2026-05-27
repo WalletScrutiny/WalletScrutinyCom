@@ -2,7 +2,6 @@
 wsId: bytehub
 title: ByteHub
 verdict: nosource
-meta: removed
 date: 2023-09-15
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.4.3.210909
   reviews: 1302
   icon: com.bytetrade.bytehub.png
+  meta: removed
   developerName: Bytetrade
 iphone:
   appId: com.bytetrade.bytehub
@@ -31,6 +31,7 @@ iphone:
   version: 1.1.210116
   reviews: 4
   icon: com.bytetrade.bytehub.jpg
+  meta: removed
   developerName: BYTETRADE(HK) LIMITED
 
 ---

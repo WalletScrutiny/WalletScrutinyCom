@@ -1,7 +1,6 @@
 ---
 title: BINANCE CRYPTO WALLET APP
 verdict: wip
-meta: removed
 date: 2021-05-05
 redirect_from:
 - /android/binance.cryptowalletapp/
@@ -12,6 +11,7 @@ android:
   version: '9.8'
   reviews: 11
   icon: binance.cryptowalletapp.png
+  meta: removed
 
 ---
 

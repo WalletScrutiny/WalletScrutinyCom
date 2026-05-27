@@ -1,7 +1,6 @@
 ---
 title: FShares Wallet
 verdict: wip
-meta: removed
 date: 2023-05-25
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-06-18
   version: 4.0.2
   icon: com.fscwallet.png
+  meta: removed
   developerName: FShares Wallet
 
 ---

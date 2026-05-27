@@ -1,7 +1,6 @@
 ---
 title: BTCBOX Pro
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.btcboxpro.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-21
   version: 1.0.7
   icon: com.btcboxpro.exchange.png
+  meta: removed
 
 ---
 

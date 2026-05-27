@@ -1,7 +1,6 @@
 ---
 title: GoLiquid
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: http://goliquid.app
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   reviews: 4
   icon: com.bitmex_trading.png
+  meta: removed
   developerName: cNepho.com
 
 ---

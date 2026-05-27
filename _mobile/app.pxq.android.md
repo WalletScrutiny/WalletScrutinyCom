@@ -2,7 +2,6 @@
 wsId: pxqWallet
 title: 'PXQ Wallet: Custom Seed Wallet'
 verdict: nosource
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.1.2
   reviews: 4
   icon: app.pxq.android.png
+  meta: removed
   developerName: PXQ Group
 iphone:
   appId: app.pxq.ios
@@ -28,6 +28,7 @@ iphone:
   version: 1.0.3
   reviews: 0
   icon: app.pxq.ios.jpg
+  meta: removed
   developerName: PXQ
 
 ---

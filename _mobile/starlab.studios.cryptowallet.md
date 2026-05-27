@@ -1,7 +1,6 @@
 ---
 title: 'Crypto Wallets: BTC, USDT, ETH'
 verdict: fake
-meta: removed
 date: 2024-04-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2024-01-30
   version: '10.0'
   icon: starlab.studios.cryptowallet.png
+  meta: removed
   developerName: Seven Labs AI Apps
 
 ---

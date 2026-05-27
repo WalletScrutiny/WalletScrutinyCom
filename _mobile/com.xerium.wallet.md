@@ -1,7 +1,6 @@
 ---
 title: Xerium
 verdict: nosendreceive
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2021-03-04
   version: '1.0'
   icon: com.xerium.wallet.png
+  meta: removed
   developerName: Xeriumtech
 
 ---

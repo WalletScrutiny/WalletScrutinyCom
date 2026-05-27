@@ -2,7 +2,6 @@
 wsId: iqoption
 title: IQ Option – Trading Platform
 verdict: nosendreceive
-meta: ok
 date: 2024-09-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 8.66.1
   reviews: 542
   icon: com.iqoption.jpg
+  meta: ok
   developerName: IQ Option
 iphone:
   appId: com.trading.iqoption
@@ -31,6 +31,7 @@ iphone:
   version: '4.95'
   reviews: 1278
   icon: com.trading.iqoption.jpg
+  meta: ok
   developerName: IQOPTION EUROPE LTD
 
 ---

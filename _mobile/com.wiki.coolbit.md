@@ -1,7 +1,6 @@
 ---
 title: CoolBit
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.coolbit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-10
   version: 1.2.0
   icon: com.wiki.coolbit.png
+  meta: removed
 
 ---
 

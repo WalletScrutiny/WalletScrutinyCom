@@ -2,7 +2,6 @@
 wsId: ancryptoWallet
 title: Gems Pocket
 verdict: nosource
-meta: ok
 date: 2023-07-01
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 1.53.0
   reviews: 30
   icon: com.ancryptoWallet.png
+  meta: ok
   developerName: AWT Ltd
 iphone:
   appId: com.antiersolutions.Ancrypto
@@ -36,6 +36,7 @@ iphone:
   version: '50'
   reviews: 20
   icon: com.antiersolutions.Ancrypto.jpg
+  meta: ok
   developerName: Ancrypto
 
 ---

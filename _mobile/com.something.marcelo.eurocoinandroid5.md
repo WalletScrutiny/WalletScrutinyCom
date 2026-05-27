@@ -2,7 +2,6 @@
 wsId: eurocoinPay
 title: EurocoinPay
 verdict: custodial
-meta: ok
 date: 2023-06-29
 authors:
 - danny

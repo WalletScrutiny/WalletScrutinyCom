@@ -1,7 +1,6 @@
 ---
 title: Yet Another Bitcoin Wallet
 verdict: wip
-meta: removed
 date: 2021-10-18
 redirect_from:
 - /android/pt.ipleiria.estg.dei.yabw/
@@ -13,6 +12,7 @@ android:
   version: 1.2.4
   reviews: 2
   icon: pt.ipleiria.estg.dei.yabw.png
+  meta: removed
 
 ---
 

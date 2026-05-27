@@ -2,7 +2,6 @@
 wsId: Robinhood
 title: 'Robinhood: Trading & Investing'
 verdict: nosendreceive
-meta: ok
 date: 2021-09-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2026.20.3
   reviews: 265927
   icon: com.robinhood.android.png
+  meta: ok
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Robinhood
@@ -32,6 +32,7 @@ iphone:
   version: 2026.20.0
   reviews: 4744656
   icon: com.robinhood.release.Robinhood.jpg
+  meta: ok
   developerName: Robinhood Markets, Inc.
 
 ---

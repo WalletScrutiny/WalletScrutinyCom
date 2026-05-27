@@ -1,7 +1,6 @@
 ---
 title: BTC WAY
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.swldeveloper.btcway/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-15
   version: '1.0'
   icon: com.swldeveloper.btcway.png
+  meta: removed
 
 ---
 

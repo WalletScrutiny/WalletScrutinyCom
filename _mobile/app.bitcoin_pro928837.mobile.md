@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Pro
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/app.bitcoin_pro928837.mobile/
@@ -12,6 +11,7 @@ android:
   updated: 2022-11-11
   version: '1.0'
   icon: app.bitcoin_pro928837.mobile.jpg
+  meta: removed
   developerName: bold cool site
 
 ---

@@ -2,7 +2,6 @@
 wsId: ammerWallet
 title: Ammer Wallet
 verdict: nosource
-meta: ok
 date: 2023-07-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.8.1
   reviews: 1
   icon: ammer.wallet.png
+  meta: ok
   developerName: Ammer Technologies AG
 iphone:
   appId: io.trustody.wallet
@@ -32,6 +32,7 @@ iphone:
   version: '9.0'
   reviews: 0
   icon: io.trustody.wallet.jpg
+  meta: ok
   developerName: Ammer Technologies AG
 
 ---

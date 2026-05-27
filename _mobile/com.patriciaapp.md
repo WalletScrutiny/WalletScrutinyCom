@@ -2,7 +2,6 @@
 wsId: patriciaApp
 title: Patricia
 verdict: custodial
-meta: removed
 date: 2023-09-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 1.5.2
   reviews: 442
   icon: com.patriciaapp.png
+  meta: removed
   developerName: Patricia Technologies
 iphone:
   appId: app.patricia
@@ -34,6 +34,7 @@ iphone:
   version: '1.3'
   reviews: 0
   icon: app.patricia.jpg
+  meta: removed
   developerName: Patricia Technologies UAB
 
 ---

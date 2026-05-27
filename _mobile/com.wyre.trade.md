@@ -1,7 +1,6 @@
 ---
 title: 'Wyretrade: Invest in Stocks, E'
 verdict: custodial
-meta: removed
 date: 2024-03-02
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.1.7
   reviews: 4
   icon: com.wyre.trade.png
+  meta: removed
   developerName: REMITTY LLC
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Panthira
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2022-12-21
   version: 1.1.0
   icon: com.cloud.panthira.png
+  meta: removed
   developerName: Panthira Exchange
 
 ---

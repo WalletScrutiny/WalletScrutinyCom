@@ -1,7 +1,6 @@
 ---
 title: 'DeGate: Multichain wallet'
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://degate.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-21
   version: 1.0.25
   icon: com.app.degate.png
+  meta: ok
   developerName: DeGate Inc.
 
 ---

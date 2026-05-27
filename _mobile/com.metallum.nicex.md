@@ -2,7 +2,6 @@
 wsId: niceX
 title: NiceX
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2024-08-27
   version: 2.3.5
   icon: com.metallum.nicex.png
+  meta: removed
   developerName: H-BIT d.o.o.
 iphone:
   appId: com.nicehash.NiceX
@@ -31,6 +31,7 @@ iphone:
   version: 1.5.2
   reviews: 1
   icon: com.nicehash.NiceX.jpg
+  meta: removed
   developerName: H-BIT, d.o.o.
 
 ---

@@ -2,7 +2,6 @@
 wsId: coincola
 title: CoinCola - P2P Buy & Sell BTC
 verdict: custodial
-meta: ok
 date: 2020-12-03
 authors:
 - leo

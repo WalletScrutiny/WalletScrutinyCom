@@ -1,7 +1,6 @@
 ---
 title: Bitcoin BX Thailand PRO
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/com.hqdevteam.bitcoinbxthailandpro/
@@ -13,6 +12,7 @@ android:
   version: '5.0'
   reviews: 13
   icon: com.hqdevteam.bitcoinbxthailandpro.png
+  meta: removed
 
 ---
 

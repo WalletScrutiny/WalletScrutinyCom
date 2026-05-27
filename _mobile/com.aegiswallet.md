@@ -1,7 +1,6 @@
 ---
 title: Aegis Bitcoin Wallet
 verdict: wip
-meta: removed
 date: 2020-04-07
 website: http://aegisbtc.com#deadLink
 repository: https://github.com/bsimic0001/AegisWallet
@@ -17,6 +16,7 @@ android:
   version: '1.2'
   reviews: 60
   icon: com.aegiswallet.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Ducatus Wallet
 verdict: custodial
-meta: ok
 date: 2021-04-11
 authors:
 - leo
@@ -16,6 +15,7 @@ android:
   version: 3.13.5
   reviews: 8
   icon: io.ducatus.walnew.png
+  meta: ok
   developerName: Ducatus Commerce
 
 ---

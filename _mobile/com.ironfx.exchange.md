@@ -1,7 +1,6 @@
 ---
 title: IRONX SMART
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.ironfx.exchange/
@@ -12,6 +11,7 @@ android:
   updated: 2021-05-31
   version: 1.0.0
   icon: com.ironfx.exchange.png
+  meta: removed
   developerName: Notesco Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Monya - Monacoin & Altcoins Wa
 verdict: sourceavailable
-meta: removed
 date: 2024-05-07
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2021-12-14
   version: 3.10.5
   icon: org.missmonacoin.monya.png
+  meta: removed
   developerName: 藤原出帆
 
 ---

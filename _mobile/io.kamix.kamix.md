@@ -2,7 +2,6 @@
 wsId: kamixApp
 title: Kamix
 verdict: custodial
-meta: stale
 date: 2025-08-18
 authors:
 - danny

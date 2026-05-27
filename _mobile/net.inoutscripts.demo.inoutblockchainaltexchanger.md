@@ -1,7 +1,6 @@
 ---
 title: Inout Blockchain AltExchanger
 verdict: wip
-meta: removed
 date: 2025-02-13
 website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-02
   version: '1.1'
   icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
+  meta: removed
   developerName: Nesote Technologies Private Limited
 
 ---

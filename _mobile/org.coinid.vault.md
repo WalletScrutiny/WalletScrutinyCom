@@ -2,7 +2,6 @@
 wsId: COINiDVault
 title: COINiD Vault
 verdict: sourceavailable
-meta: removed
 date: 2024-04-19
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 1.5.5
   reviews: 3
   icon: org.coinid.vault.png
+  meta: removed
   developerName: COINiD Group
 iphone:
   appId: org.coinid
@@ -33,6 +33,7 @@ iphone:
   version: 1.5.6
   reviews: 22
   icon: org.coinid.jpg
+  meta: removed
   developerName: COINiD Group
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Fake Crypto Investor
 verdict: wip
-meta: removed
 date: 2021-08-13
 redirect_from:
 - /android/com.buybitcoincrypto.fake.crypto.investor/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-24
   version: '1.0'
   icon: com.buybitcoincrypto.fake.crypto.investor.png
+  meta: removed
 
 ---
 

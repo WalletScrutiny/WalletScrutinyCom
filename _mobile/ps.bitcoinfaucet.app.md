@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Faucet
 verdict: wip
-meta: removed
 date: 2023-04-18
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.29b
   reviews: 366
   icon: ps.bitcoinfaucet.app.png
+  meta: removed
 
 ---
 

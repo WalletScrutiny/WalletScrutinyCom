@@ -1,7 +1,6 @@
 ---
 title: Shamirs Wallet 💎
 verdict: wip
-meta: removed
 date: 2022-04-25
 website: https://shamirswallet.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-04
   version: 1.3.1
   icon: ms.shamirswallet.app.png
+  meta: removed
 
 ---
 

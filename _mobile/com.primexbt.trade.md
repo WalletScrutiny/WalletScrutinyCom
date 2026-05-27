@@ -2,7 +2,6 @@
 wsId: primeXBTCryptoTrading
 title: PrimeXBT — Trading Platform
 verdict: custodial
-meta: ok
 date: 2023-06-02
 authors:
 - danny

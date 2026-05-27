@@ -1,7 +1,6 @@
 ---
 title: Alpha Wallet. Bitcoin, Ethereum, Litecoin
 verdict: wip
-meta: removed
 date: 2021-10-15
 redirect_from:
 - /android/com.alpha.wallet/
@@ -11,6 +10,7 @@ android:
   updated: 2018-05-31
   version: Varies with device
   icon: com.alpha.wallet.png
+  meta: removed
 
 ---
 

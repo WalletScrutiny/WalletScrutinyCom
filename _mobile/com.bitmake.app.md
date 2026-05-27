@@ -1,7 +1,6 @@
 ---
 title: BitMake:trade Crypto,Bitcoin
 verdict: custodial
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2024-01-26
   version: 1.4.3
   icon: com.bitmake.app.png
+  meta: removed
   developerName: BITMAKE TECHNOLOGY LLC
 
 ---

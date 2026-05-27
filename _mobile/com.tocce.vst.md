@@ -2,7 +2,6 @@
 wsId: vstmex
 title: VSTMEX - Buy Bitcoin & Crypto
 verdict: custodial
-meta: removed
 date: 2023-04-12
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2023-01-04
   version: 1.3.1
   icon: com.tocce.vst.png
+  meta: removed
   developerName: VSTMEX Technology PTE.LTD.
 iphone:
   appId: com.vstmexvstmex1.vstmexvstmex
@@ -29,6 +29,7 @@ iphone:
   version: 1.3.1
   reviews: 1
   icon: com.vstmexvstmex1.vstmexvstmex.jpg
+  meta: removed
 
 ---
 

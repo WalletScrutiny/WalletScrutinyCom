@@ -1,7 +1,6 @@
 ---
 title: 'Deltra : Your Crypto Bot'
 verdict: wip
-meta: removed
 date: 2024-08-15
 website: https://www.xrstudio.in#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-05-03
   version: 1.1.4
   icon: com.deltra.crypto.bot.png
+  meta: removed
   developerName: xR Studio LLP
 
 ---

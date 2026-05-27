@@ -2,7 +2,6 @@
 wsId: btcCom
 title: BTC.com - Bitcoin Wallet
 verdict: sourceavailable
-meta: removed
 date: 2021-12-29
 website: https://btc.com
 repository: https://github.com/blocktrail/blocktrail-wallet
@@ -25,6 +24,7 @@ android:
   version: 4.4.7
   reviews: 3928
   icon: com.blocktrail.mywallet.png
+  meta: removed
 iphone:
   appId: com.blocktrail.mywallet
   idd: 1019614423
@@ -33,6 +33,7 @@ iphone:
   version: 4.4.9
   reviews: 424
   icon: com.blocktrail.mywallet.jpg
+  meta: removed
 
 ---
 

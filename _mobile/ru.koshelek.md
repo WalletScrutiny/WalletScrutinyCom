@@ -2,7 +2,6 @@
 wsId: Koshelek
 title: Koshelek. Crypto wallet & p2p
 verdict: custodial
-meta: ok
 date: 2023-10-14
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.3.2
   reviews: 149
   icon: ru.koshelek.png
+  meta: ok
   developerName: Кошелёк.ру
 iphone:
   appId: dev.spedn.ru
@@ -31,6 +31,7 @@ iphone:
   version: 2.3.3
   reviews: 117
   icon: dev.spedn.ru.jpg
+  meta: ok
   developerName: Кошелёк.ру
 
 ---

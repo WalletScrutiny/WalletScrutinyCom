@@ -2,7 +2,6 @@
 wsId: btccLite
 title: 'BTCC Lite: Trade BTC & ETH'
 verdict: custodial
-meta: ok
 date: 2023-08-23
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.5.41
   reviews: 85
   icon: com.btcc.BTCCReactNative.jpg
+  meta: ok
   developerName: BTCC international
 iphone:
   appId: com.btcc.BTCCReactNative
@@ -34,6 +34,7 @@ iphone:
   version: 3.5.40
   reviews: 188
   icon: com.btcc.BTCCReactNative.jpg
+  meta: ok
   developerName: BTCC Limited
 
 ---

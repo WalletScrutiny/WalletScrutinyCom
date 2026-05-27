@@ -1,7 +1,6 @@
 ---
 title: Trade4FastPay
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://trade4fastpay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-15
   version: 1.0.0
   icon: com.trade4fastpay.trade4fastpay.png
+  meta: removed
   developerName: LucrativeTECH
 
 ---

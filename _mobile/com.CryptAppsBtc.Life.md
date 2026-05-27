@@ -1,7 +1,6 @@
 ---
 title: Вitсоin Lifеstуlе
 verdict: wip
-meta: removed
 date: 2023-08-07
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2022-03-28
   version: '0.1'
   icon: com.CryptAppsBtc.Life.png
+  meta: removed
   developerName: Lifestyle Aррs
 
 ---

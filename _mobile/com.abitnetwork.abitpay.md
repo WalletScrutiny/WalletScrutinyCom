@@ -1,7 +1,6 @@
 ---
 title: ABiTPay
 verdict: wip
-meta: removed
 date: 2023-04-20
 redirect_from:
 - /android/com.abitnetwork.abitpay/
@@ -13,6 +12,7 @@ android:
   version: 1.2.6
   reviews: 3
   icon: com.abitnetwork.abitpay.png
+  meta: removed
 
 ---
 

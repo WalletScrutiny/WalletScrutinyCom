@@ -1,7 +1,6 @@
 ---
 title: Gin Wallet
 verdict: wip
-meta: removed
 date: 2021-08-04
 website: https://gincoin.co#deadLink
 twitter: GinBlockchain
@@ -18,6 +17,7 @@ android:
   version: 1.1.6
   reviews: 488
   icon: com.ginprox.png
+  meta: removed
 
 ---
 

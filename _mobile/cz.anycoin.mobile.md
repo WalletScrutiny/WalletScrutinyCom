@@ -2,7 +2,6 @@
 wsId: anycoinCZ
 title: 'Anycoin: crypto exchange'
 verdict: custodial
-meta: ok
 date: 2023-05-03
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 1.32.30
   reviews: 1
   icon: cz.anycoin.mobile.png
+  meta: ok
   developerName: MP Developers s.r.o.
 iphone:
   appId: cz.anycoin.mobile
@@ -35,6 +35,7 @@ iphone:
   version: 1.32.32
   reviews: 90
   icon: cz.anycoin.mobile.jpg
+  meta: ok
   developerName: MP Developers s.r.o.
 
 ---

@@ -2,7 +2,6 @@
 wsId: ZuPago
 title: ViZO
 verdict: custodial
-meta: stale
 date: 2024-07-05
 authors:
 - danny

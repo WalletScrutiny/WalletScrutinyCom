@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Invest Mining
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptowallets.bitcoin.invest.mining/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-28
   version: '1.0'
   icon: net.cryptowallets.bitcoin.invest.mining.png
+  meta: removed
 
 ---
 

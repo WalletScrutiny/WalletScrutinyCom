@@ -2,7 +2,6 @@
 wsId: paypal
 title: PayPal - Pay, Send, Save
 verdict: nosendreceive
-meta: ok
 date: 2021-08-22
 authors:
 - emanuel
@@ -24,6 +23,7 @@ android:
   version: 8.105.1
   reviews: 437549
   icon: com.paypal.android.p2pmobile.png
+  meta: ok
   developerName: PayPal Mobile
 iphone:
   appId: com.yourcompany.PPClient
@@ -33,6 +33,7 @@ iphone:
   version: 8.107.0
   reviews: 6299404
   icon: com.yourcompany.PPClient.jpg
+  meta: ok
   developerName: PayPal, Inc.
 
 ---

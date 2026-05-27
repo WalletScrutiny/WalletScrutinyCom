@@ -1,7 +1,6 @@
 ---
 title: Excoinge
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.excoinge.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-05-13
   version: '1.020180512'
   icon: excoinge.excoinge.png
+  meta: removed
   developerName: Excoinge Ecommerce
 
 ---

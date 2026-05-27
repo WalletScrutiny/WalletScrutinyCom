@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet Uk Free
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.cryptee.bitcoin.wallet.uk.free/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-19
   version: '1.0'
   icon: net.cryptee.bitcoin.wallet.uk.free.jpg
+  meta: removed
 
 ---
 

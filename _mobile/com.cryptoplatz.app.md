@@ -1,7 +1,6 @@
 ---
 title: CryptoPlatz Vault
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.cryptoplatz.ch#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2022-10-05
   version: 1.0.0
   icon: com.cryptoplatz.app.png
+  meta: removed
   developerName: Crypto Platz
 
 ---

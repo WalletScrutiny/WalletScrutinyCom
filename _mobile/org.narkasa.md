@@ -2,7 +2,6 @@
 wsId: narkasaExchange
 title: 'Bybit TR: Bitcoin ve Kripto'
 verdict: custodial
-meta: ok
 date: 2024-04-03
 authors:
 - danny

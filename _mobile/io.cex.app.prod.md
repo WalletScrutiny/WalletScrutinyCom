@@ -2,7 +2,6 @@
 wsId: cex
 title: 'CEX.IO: Trade & Buy Crypto'
 verdict: custodial
-meta: ok
 date: 2021-04-16
 authors:
 - kiwilamb
@@ -27,6 +26,7 @@ android:
   version: 12.43.0
   reviews: 10975
   icon: io.cex.app.prod.png
+  meta: ok
   developerName: CEX.IO
 iphone:
   appId: io.cex.app
@@ -36,6 +36,7 @@ iphone:
   version: 12.44.0
   reviews: 12925
   icon: io.cex.app.jpg
+  meta: ok
   developerName: CEX.IO LTD
 
 ---

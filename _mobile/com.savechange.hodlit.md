@@ -2,7 +2,6 @@
 wsId: hodlit
 title: Hodlit
 verdict: custodial
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.12
   reviews: 36
   icon: com.savechange.hodlit.png
+  meta: removed
   developerName: Hodlit
 iphone:
   appId: com.savechange.hodlit
@@ -29,6 +29,7 @@ iphone:
   version: 1.0.12
   reviews: 37
   icon: com.savechange.hodlit.jpg
+  meta: removed
   developerName: Hodlit
 
 ---

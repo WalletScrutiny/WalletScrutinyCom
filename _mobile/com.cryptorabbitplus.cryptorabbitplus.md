@@ -1,7 +1,6 @@
 ---
 title: CryptoRabbt! New Free Cryptocu
 verdict: wip
-meta: removed
 date: 2024-07-05
 redirect_from:
 - /android/com.cryptorabbitplus.cryptorabbitplus/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-26
   version: 1.0.9
   icon: com.cryptorabbitplus.cryptorabbitplus.png
+  meta: removed
   developerName: sat.ldt12.12
 
 ---

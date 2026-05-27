@@ -2,7 +2,6 @@
 wsId: niceHash
 title: NiceHash
 verdict: custodial
-meta: ok
 date: 2022-06-24
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 5.2.8
   reviews: 679
   icon: com.nicehash.metallum.png
+  meta: ok
   developerName: NiceHash AG
 iphone:
   appId: com.nicehash.mobile
@@ -36,6 +36,7 @@ iphone:
   version: 7.1.9
   reviews: 4567
   icon: com.nicehash.mobile.jpg
+  meta: ok
   developerName: NiceHash AG
 
 ---

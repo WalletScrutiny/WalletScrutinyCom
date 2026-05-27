@@ -1,7 +1,6 @@
 ---
 title: Leveraged for BitMEX
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: http://leveragedapp.io#deadLink
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.6
   reviews: 8
   icon: io.leveragedapp.leveraged.png
+  meta: removed
   developerName: Leverage Apps
 
 ---

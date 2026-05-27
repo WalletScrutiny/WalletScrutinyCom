@@ -1,7 +1,6 @@
 ---
 title: 'InvestLite: Forex & Stocks for Online Trading'
 verdict: nosendreceive
-meta: removed
 date: 2022-01-31
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.5.78-investlite
   reviews: 100
   icon: com.investlite.png
+  meta: removed
 
 ---
 

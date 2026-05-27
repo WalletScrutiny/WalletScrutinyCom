@@ -1,7 +1,6 @@
 ---
 title: BitStash Wallet - Multi Crypto
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://payments.bitstash.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-24
   version: 0.0.3
   icon: app.odapplications.bitstashwallet.png
+  meta: removed
   developerName: ODApplications
 
 ---

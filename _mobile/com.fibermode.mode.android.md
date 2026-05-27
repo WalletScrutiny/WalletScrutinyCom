@@ -2,7 +2,6 @@
 wsId: fibermode
 title: 'Mode: Buy, Earn & Grow Crypto'
 verdict: custodial
-meta: removed
 date: 2023-04-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 3.0.9
   reviews: 187
   icon: com.fibermode.mode.android.png
+  meta: removed
   developerName: Fibermode Limited
 iphone:
   appId: com.fibermode.Mode-Wallet
@@ -32,6 +32,7 @@ iphone:
   version: 5.7.3
   reviews: 1018
   icon: com.fibermode.Mode-Wallet.jpg
+  meta: removed
   developerName: Fibermode Limited
 
 ---

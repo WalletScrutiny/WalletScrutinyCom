@@ -1,7 +1,6 @@
 ---
 title: Binance JEX - Bitcoin Futures&Options Exchange
 verdict: custodial
-meta: removed
 date: 2022-01-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 2.8.4
   reviews: 713
   icon: com.jex.trade.png
+  meta: removed
 
 ---
 

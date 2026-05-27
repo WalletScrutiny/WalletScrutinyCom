@@ -1,7 +1,6 @@
 ---
 title: Scalpex - digital assets tradi
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://scalpex.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2021-08-09
   version: 1.3.0
   icon: com.scalpex.mobile.png
+  meta: removed
   developerName: Scalpex Ltd
 
 ---

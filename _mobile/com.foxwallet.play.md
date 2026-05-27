@@ -2,7 +2,6 @@
 wsId: foxWalletApp
 title: FoxWallet- Secure Crypto Asset
 verdict: nosource
-meta: ok
 date: 2025-07-21
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.5.23
   reviews: 451
   icon: com.foxwallet.play.png
+  meta: ok
   developerName: FoxWallet
 iphone:
   appId: com.foxwallet.app
@@ -32,6 +32,7 @@ iphone:
   version: 5.5.22
   reviews: 86
   icon: com.foxwallet.app.jpg
+  meta: ok
   developerName: BlockHill Tech Limited
 
 ---

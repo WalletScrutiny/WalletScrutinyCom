@@ -1,7 +1,6 @@
 ---
 title: EBC Wallet
 verdict: custodial
-meta: removed
 date: 2021-11-10
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   version: 0.0.7
   reviews: 61
   icon: com.ebcecosystem.wallets.png
+  meta: removed
 
 ---
 

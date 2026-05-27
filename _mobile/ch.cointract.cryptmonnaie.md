@@ -1,7 +1,6 @@
 ---
 title: Cryptmonnaie
 verdict: wip
-meta: removed
 date: 2023-04-16
 website: https://cointract.ch
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-14
   version: 2.0.28
   icon: ch.cointract.cryptmonnaie.png
+  meta: removed
   developerName: Cointract AG
 
 ---

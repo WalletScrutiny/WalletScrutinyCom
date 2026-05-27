@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Era Official
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/com.bitcoin.m.bitcoinera.official/
@@ -12,6 +11,7 @@ android:
   updated: 2022-09-15
   version: '1.0'
   icon: com.bitcoin.m.bitcoinera.official.png
+  meta: removed
   developerName: mobiidev
 
 ---

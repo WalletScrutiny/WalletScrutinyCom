@@ -2,7 +2,6 @@
 wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
 verdict: custodial
-meta: ok
 date: 2025-08-04
 authors:
 - danny

@@ -1,7 +1,6 @@
 ---
 title: Infinity Wallet - Mobile
 verdict: fake
-meta: removed
 date: 2021-11-10
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   updated: 2021-10-17
   version: '2.0'
   icon: com.infinitywallet.main.v8.png
+  meta: removed
 
 ---
 

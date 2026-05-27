@@ -1,7 +1,6 @@
 ---
 title: 1502 Freelancer Market Place
 verdict: wip
-meta: fewusers
 date: 2023-06-03
 website: https://1502.app/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-23
   version: 1.2.618
   icon: com.nosapps.android.i5o2.png
+  meta: fewusers
   developerName: 1502.app LLC
 
 ---

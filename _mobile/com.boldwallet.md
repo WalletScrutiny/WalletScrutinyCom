@@ -1,7 +1,6 @@
 ---
 title: Bold Bitcoin Wallet
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://boldbitcoinwallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-05-12
   version: 3.1.1
   icon: com.boldwallet.png
+  meta: fewusers
   developerName: BoldBitcoinWallet
 
 ---

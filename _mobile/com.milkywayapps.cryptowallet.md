@@ -1,7 +1,6 @@
 ---
 title: QuasarK - Crypto Wallet
 verdict: wip
-meta: obsolete
 date: 2026-03-11
 website: https://quasark.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-19
   version: 1.2.1
   icon: com.milkywayapps.cryptowallet.png
+  meta: obsolete
   developerName: Milky Way Entertainment LLC
 
 ---

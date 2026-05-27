@@ -1,7 +1,6 @@
 ---
 title: ForumPay
 verdict: wip
-meta: removed
 date: 2025-11-26
 website: https://forumpay.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-11-27
   version: 1.0.3
   icon: com.forumpay.png
+  meta: removed
   developerName: ForumPay
 
 ---

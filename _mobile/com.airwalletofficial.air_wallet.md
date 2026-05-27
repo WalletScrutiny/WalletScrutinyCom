@@ -1,7 +1,6 @@
 ---
 title: AIRWALLET - Secure Cryptocurre
 verdict: wip
-meta: removed
 date: 2023-05-10
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2019-10-29
   version: 1.9.2
   icon: com.airwalletofficial.air_wallet.png
+  meta: removed
   developerName: AWTech Blockchain Solutions
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: KOINTRACK - Buy BTC, ETH, TRX
 verdict: custodial
-meta: obsolete
 date: 2024-12-27
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-01-04
   version: 2.2.6
   icon: org.tronspace.android.png
+  meta: obsolete
   developerName: Kointrack Techsystems Private Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'CetoEX : Buy & Sell Crypto'
 verdict: nosendreceive
-meta: ok
 date: 2024-09-08
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 4.0.2
   reviews: 6
   icon: com.cetoex.cetoex.jpg
+  meta: ok
   developerName: CetoEx Labs
 
 ---

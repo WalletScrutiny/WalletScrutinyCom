@@ -1,7 +1,6 @@
 ---
 title: Arcmarket
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://arcmarket.capital
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-09-24
   version: '1.0'
   icon: com.arc.capital.arcmarket.png
+  meta: removed
   developerName: ARC Market Capital
 
 ---

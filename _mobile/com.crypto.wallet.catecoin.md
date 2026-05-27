@@ -2,7 +2,6 @@
 wsId: catecoin
 title: Bitcoin Defi Crypto Wallet
 verdict: nosource
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.1.0
   reviews: 45
   icon: com.crypto.wallet.catecoin.png
+  meta: removed
   developerName: Catecoin
 iphone:
   appId: com.catecoin.crypto.wallet
@@ -32,6 +32,7 @@ iphone:
   version: '8.7'
   reviews: 20
   icon: com.catecoin.crypto.wallet.jpg
+  meta: removed
   developerName: CateCoin
 
 ---

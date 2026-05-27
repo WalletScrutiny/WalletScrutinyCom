@@ -1,7 +1,6 @@
 ---
 title: Crenzy Admin
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: http://www.crenzy.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-05-16
   version: 1.0.1
   icon: com.crenzy.walletowner.png
+  meta: removed
   developerName: Crenzy Company
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: OTEX
 verdict: wip
-meta: removed
 date: 2023-08-17
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-10-23
   version: 0.30.27
   icon: io.bizblocks.kaiserbank.png
+  meta: removed
   developerName: Bizblocks
 
 ---

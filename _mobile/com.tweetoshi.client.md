@@ -1,7 +1,6 @@
 ---
 title: Tweetoshi - Twitter & Bitcoin
 verdict: wip
-meta: obsolete
 date: 2026-01-14
 website: https://tweetoshi.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 0.8.5
   reviews: 9
   icon: com.tweetoshi.client.png
+  meta: obsolete
   developerName: Tweetoshi
 
 ---

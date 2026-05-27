@@ -2,7 +2,6 @@
 wsId: vaultexWeb3
 title: Vaultex | Web3 wallet
 verdict: custodial
-meta: obsolete
 date: 2026-04-13
 authors:
 - danny

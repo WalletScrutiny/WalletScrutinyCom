@@ -1,7 +1,6 @@
 ---
 title: Bastionpay
 verdict: wip
-meta: removed
 date: 2023-04-20
 website: http://www.bastionpay.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: v3.0.3
   reviews: 101
   icon: com.bastionpay.bastionpay.png
+  meta: removed
 
 ---
 

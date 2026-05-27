@@ -1,7 +1,6 @@
 ---
 title: X7 Exchange
 verdict: custodial
-meta: removed
 date: 2024-12-31
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-01-12
   version: '2.3'
   icon: com.books.x7exchange.png
+  meta: removed
   developerName: X7 Exchange
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitbox Bitcoin Wallet & Exchan
 verdict: wip
-meta: removed
 date: 2023-05-09
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2019-07-30
   version: 1.0.4
   icon: bitbox.io.png
+  meta: removed
   developerName: Cryptex PTE. LTD.
 
 ---

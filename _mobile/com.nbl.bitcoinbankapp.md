@@ -1,7 +1,6 @@
 ---
 title: 'Bitcoin Bank App: Profit from Crypto'
 verdict: wip
-meta: removed
 date: 2021-08-20
 redirect_from:
 - /android/com.nbl.bitcoinbankapp/
@@ -12,6 +11,7 @@ android:
   version: 1.0.1
   reviews: 14
   icon: com.nbl.bitcoinbankapp.png
+  meta: removed
 
 ---
 

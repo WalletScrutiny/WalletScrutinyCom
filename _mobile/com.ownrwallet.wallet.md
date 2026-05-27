@@ -2,7 +2,6 @@
 wsId: ownrDigitalWallet
 title: OWNR Digital Wallet
 verdict: nosource
-meta: obsolete
 date: 2025-09-03
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 1.72.0
   reviews: 107
   icon: com.ownrwallet.wallet.png
+  meta: obsolete
   developerName: OWNR WALLET OU
 iphone:
   appId: com.ownrwallet.wallet
@@ -34,6 +34,7 @@ iphone:
   version: 1.71.1
   reviews: 115
   icon: com.ownrwallet.wallet.jpg
+  meta: obsolete
   developerName: OWNR WALLET OU
 
 ---

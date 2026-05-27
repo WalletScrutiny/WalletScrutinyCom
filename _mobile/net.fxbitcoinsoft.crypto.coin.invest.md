@@ -1,7 +1,6 @@
 ---
 title: Crypto Coin Invest
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/net.fxbitcoinsoft.crypto.coin.invest/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-18
   version: '1.0'
   icon: net.fxbitcoinsoft.crypto.coin.invest.png
+  meta: removed
 
 ---
 

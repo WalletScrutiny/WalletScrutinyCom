@@ -2,7 +2,6 @@
 wsId: bitso
 title: 'Bitso: Save and invest easily'
 verdict: custodial
-meta: ok
 date: 2021-05-25
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 4.16.0
   reviews: 309
   icon: com.bitso.wallet.png
+  meta: ok
   developerName: Bitso
 iphone:
   appId: com.bitso.wallet
@@ -31,6 +31,7 @@ iphone:
   version: 4.16.0
   reviews: 1036
   icon: com.bitso.wallet.jpg
+  meta: ok
   developerName: Bitso SAPI de CV
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'iToken: Secure Crypto Wallet'
 verdict: nosource
-meta: removed
 date: 2021-04-20
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   version: 3.03.06.003
   reviews: 185
   icon: com.huobionchainwallet.gp.png
+  meta: removed
   developerName: BlazekTech Internet Technology Service Limited
 
 ---

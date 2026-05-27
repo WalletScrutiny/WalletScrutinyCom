@@ -1,7 +1,6 @@
 ---
 title: Buy BTC with a card
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/app.vercel.buy_btc_kohl.twa/
@@ -12,6 +11,7 @@ android:
   updated: 2023-03-20
   version: '1'
   icon: app.vercel.buy_btc_kohl.twa.jpg
+  meta: removed
   developerName: Geek Family
 
 ---

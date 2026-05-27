@@ -2,7 +2,6 @@
 wsId: iCMarkets
 title: IC
 verdict: nosendreceive
-meta: obsolete
 date: 2024-05-30
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '2.0'
   reviews: 11
   icon: com.icmarkets.mobileapp.png
+  meta: obsolete
   developerName: Raw Trading Ltd
 iphone:
   appId: com.ICMarkets.ICMarkets-app
@@ -32,6 +32,7 @@ iphone:
   version: 1.1.2
   reviews: 33
   icon: com.ICMarkets.ICMarkets-app.jpg
+  meta: obsolete
   developerName: Raw Trading Ltd
 
 ---

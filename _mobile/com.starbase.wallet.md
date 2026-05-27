@@ -1,7 +1,6 @@
 ---
 title: 'StarBase Crypto Wallet - Buy, '
 verdict: wip
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.22.1
   reviews: 9
   icon: com.starbase.wallet.jpg
+  meta: removed
   developerName: Starship Holdings, Inc
 
 ---

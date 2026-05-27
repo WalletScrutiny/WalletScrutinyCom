@@ -1,7 +1,6 @@
 ---
 title: Bitsonic (Crypto Corrency, Exc
 verdict: wip
-meta: removed
 date: 2021-10-13
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.9.6
   reviews: 3
   icon: kr.co.bitsonic.png
+  meta: removed
   developerName: bitsonic
 
 ---

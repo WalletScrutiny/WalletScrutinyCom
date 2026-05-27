@@ -1,7 +1,6 @@
 ---
 title: Scurdex Wallet
 verdict: wip
-meta: removed
 date: 2025-01-09
 website: https://scurdexcapital.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-31
   version: 5.02.0
   icon: com.nichie.curdex.png
+  meta: removed
   developerName: Nichie Systems
 
 ---

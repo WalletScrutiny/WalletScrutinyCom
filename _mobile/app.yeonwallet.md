@@ -1,7 +1,6 @@
 ---
 title: YEON WALLET
 verdict: wip
-meta: removed
 date: 2024-10-28
 redirect_from:
 - /android/app.yeonwallet/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-05
   version: 1.0.2
   icon: app.yeonwallet.png
+  meta: removed
   developerName: team story
 
 ---

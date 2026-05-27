@@ -2,7 +2,6 @@
 wsId: defiatoExchange
 title: DeFiato
 verdict: custodial
-meta: removed
 date: 2025-11-05
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.2.9
   reviews: 5
   icon: com.defiato.png
+  meta: removed
   developerName: Beowulf Network Inc
 iphone:
   appId: com.defiato
@@ -30,6 +30,7 @@ iphone:
   version: 1.2.8
   reviews: 2
   icon: com.defiato.jpg
+  meta: removed
   developerName: Beowulf Network Inc
 
 ---

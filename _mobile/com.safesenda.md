@@ -1,7 +1,6 @@
 ---
 title: 'SafeSenda: Crypto to Naira'
 verdict: wip
-meta: removed
 date: 2023-06-21
 website: https://safesenda.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-08-16
   version: 1.1.10
   icon: com.safesenda.png
+  meta: removed
   developerName: Safesenda App
 
 ---

@@ -2,7 +2,6 @@
 wsId: whitebit
 title: WhiteBIT – buy & sell bitcoin
 verdict: custodial
-meta: ok
 date: 2021-09-10
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.74.2
   reviews: 1348
   icon: com.whitebit.android.png
+  meta: ok
   developerName: WhiteBit
 iphone:
   appId: com.whitebit.whitebitapp
@@ -33,6 +33,7 @@ iphone:
   version: 3.74.2
   reviews: 3898
   icon: com.whitebit.whitebitapp.jpg
+  meta: ok
   developerName: UAB Clear White Technologies
 
 ---

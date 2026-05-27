@@ -1,7 +1,6 @@
 ---
 title: Crypshark Fincity Wallet - Buy
 verdict: custodial
-meta: removed
 date: 2023-08-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-07-19
   version: 1.0.0.39-cryptoshark
   icon: com.crypshark.png
+  meta: removed
   developerName: FINCITY
 
 ---

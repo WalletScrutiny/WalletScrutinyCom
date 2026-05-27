@@ -1,7 +1,6 @@
 ---
 title: SENCOINEX - Bitcoin & Crypto E
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://sencoinex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-12-03
   version: 1.0.7
   icon: com.sencoinex.android.png
+  meta: removed
 
 ---
 

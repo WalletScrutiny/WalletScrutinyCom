@@ -2,7 +2,6 @@
 wsId: elementWallet
 title: 'Element Wallet: Chat & Pay'
 verdict: nosource
-meta: stale
 date: 2026-04-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 1.13.0
   reviews: 316
   icon: com.corewallet.element.app.jpg
+  meta: stale
   developerName: Element Wallet Inc
 iphone:
   appId: Element-com.elementwallet.app
@@ -28,6 +28,7 @@ iphone:
   version: 1.13.0
   reviews: 166
   icon: Element-com.elementwallet.app.jpg
+  meta: stale
   developerName: Core Wallet Inc
 
 ---

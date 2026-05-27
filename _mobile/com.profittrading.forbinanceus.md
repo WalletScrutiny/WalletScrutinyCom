@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for BinanceUS
 verdict: custodial
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.0.2
   reviews: 9
   icon: com.profittrading.forbinanceus.png
+  meta: removed
   developerName: ProfitTradingApp
 
 ---

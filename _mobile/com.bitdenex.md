@@ -2,7 +2,6 @@
 wsId: bitdenex
 title: 'Bitdenex: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-02-12
   version: 3.2.23
   icon: com.bitdenex.png
+  meta: ok
   developerName: Bitdenex
 iphone:
   appId: com.bitdenex.app
@@ -27,6 +27,7 @@ iphone:
   version: 3.2.21
   reviews: 2
   icon: com.bitdenex.app.jpg
+  meta: ok
   developerName: Bitdenex B.V.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Sats App by Casa
 verdict: wip
-meta: removed
 date: 2020-07-31
 website: https://keys.casa
 redirect_from:
@@ -15,6 +14,7 @@ android:
   version: 1.3.1
   reviews: 8
   icon: com.satsapp.png
+  meta: removed
 
 ---
 

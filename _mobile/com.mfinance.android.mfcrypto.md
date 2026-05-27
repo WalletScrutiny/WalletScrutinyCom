@@ -1,7 +1,6 @@
 ---
 title: mF Crypto
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.mfinance.android.mfcrypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-10-08
   version: '1.0'
   icon: com.mfinance.android.mfcrypto.png
+  meta: removed
   developerName: m-FINANCE Limited
 
 ---

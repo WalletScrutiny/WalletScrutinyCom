@@ -1,7 +1,6 @@
 ---
 title: HolaCapital
 verdict: wip
-meta: removed
 date: 2024-12-15
 website: https://www.holacapital.ae
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-04-04
   version: 2.3.40
   icon: holaacapital.trader.png
+  meta: removed
   developerName: HolaFort LLC
 
 ---

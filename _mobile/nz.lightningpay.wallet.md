@@ -1,7 +1,6 @@
 ---
 title: Stacked Wallet
 verdict: wip
-meta: fewusers
 date: 2025-11-10
 website: https://stackedbitcoin.com
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2026-05-15
   version: 3.3.3
   icon: nz.lightningpay.wallet.png
+  meta: fewusers
   developerName: Ones and Zeros Technology
 
 ---

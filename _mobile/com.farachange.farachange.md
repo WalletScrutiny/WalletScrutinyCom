@@ -1,7 +1,6 @@
 ---
 title: 'فراچنج: صرافی ارز دیجیتال'
 verdict: custodial
-meta: removed
 date: 2025-03-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.1.20
   reviews: 26
   icon: com.farachange.farachange.png
+  meta: removed
   developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Forus Platform
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://foruspf.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-19
   version: '2.2'
   icon: com.foruspf.com.png
+  meta: removed
   developerName: Forus Platform
 
 ---

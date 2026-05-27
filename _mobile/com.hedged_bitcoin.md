@@ -1,7 +1,6 @@
 ---
 title: Hedged Bitcoin
 verdict: custodial
-meta: removed
 date: 2022-03-07
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 0.7.0
   reviews: 2
   icon: com.hedged_bitcoin.png
+  meta: removed
 
 ---
 

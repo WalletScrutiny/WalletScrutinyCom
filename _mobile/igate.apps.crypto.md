@@ -1,7 +1,6 @@
 ---
 title: CryptoTrading
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/igate.apps.crypto/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-12
   version: 1.0.0
   icon: igate.apps.crypto.png
+  meta: removed
   developerName: iGATE YAZILIM TiC. LTD.
 
 ---

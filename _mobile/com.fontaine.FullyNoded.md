@@ -1,7 +1,6 @@
 ---
 title: Fully Noded
 verdict: sourceavailable
-meta: ok
 date: 2023-11-17
 authors:
 - danny
@@ -28,6 +27,7 @@ iphone:
   version: 2.3.1
   reviews: 48
   icon: com.fontaine.FullyNoded.jpg
+  meta: ok
   developerName: Denton LLC
 
 ---

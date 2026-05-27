@@ -1,7 +1,6 @@
 ---
 title: Sovran
 verdict: ecash
-meta: ok
 date: 2025-11-03
 authors:
 - danny
@@ -28,6 +27,7 @@ iphone:
   version: 0.0.62
   reviews: 0
   icon: com.sovranbitcoin.jpg
+  meta: ok
   developerName: Sovran LTD
 
 ---

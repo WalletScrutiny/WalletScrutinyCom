@@ -1,7 +1,6 @@
 ---
 title: BackPacker
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://wallet.backpackercoin.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-11-20
   version: 1.0.1
   icon: com.backpacker.wallet.png
+  meta: removed
   developerName: BPC coin
 
 ---

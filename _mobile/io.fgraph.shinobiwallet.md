@@ -2,7 +2,6 @@
 wsId: shinobiWalletWeb3
 title: Shinobi Wallet · DeFi & Web3
 verdict: nosource
-meta: obsolete
 date: 2026-02-20
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2024-03-02
   version: 1.8.9
   icon: io.fgraph.shinobiwallet.png
+  meta: obsolete
   developerName: Mirai Finance
 iphone:
   appId: io.fgraph.wallet
@@ -32,6 +32,7 @@ iphone:
   version: 1.8.9
   reviews: 0
   icon: io.fgraph.wallet.jpg
+  meta: obsolete
   developerName: RISE LLC.
 
 ---

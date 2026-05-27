@@ -1,7 +1,6 @@
 ---
 title: Centralex Exchange
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://centralex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-07
   version: '1.02'
   icon: com.centralex.app.png
+  meta: removed
   developerName: Centralex
 
 ---

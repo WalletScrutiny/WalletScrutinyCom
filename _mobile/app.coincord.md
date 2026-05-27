@@ -1,7 +1,6 @@
 ---
 title: Coincord
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/app.coincord/
@@ -12,6 +11,7 @@ android:
   updated: 2022-12-08
   version: 1.0.4
   icon: app.coincord.png
+  meta: removed
   developerName: Kryptiva
 
 ---

@@ -2,7 +2,6 @@
 wsId: Tizer
 title: Tizer Wallet
 verdict: nosource
-meta: removed
 date: 2023-04-16
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.08.9
   reviews: 20
   icon: com.transcrypt.armadillo.png
+  meta: removed
   developerName: TizerWallet OÜ
 iphone:
   appId: com.tsrpay.transcrypt
@@ -32,6 +32,7 @@ iphone:
   version: 2.09.3
   reviews: 23
   icon: com.tsrpay.transcrypt.jpg
+  meta: removed
   developerName: TizerWallet OU
 
 ---

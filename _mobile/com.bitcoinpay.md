@@ -1,7 +1,6 @@
 ---
 title: BitCoinPay Trade
 verdict: wip
-meta: fewusers
 date: 2025-07-01
 website: https://bitcoinpay.trade
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-09-12
   version: 2.1.5
   icon: com.bitcoinpay.png
+  meta: fewusers
   developerName: BitCoinPay Trade
 
 ---

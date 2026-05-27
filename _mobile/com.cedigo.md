@@ -1,7 +1,6 @@
 ---
 title: Cedigo
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.cedigo/
@@ -12,6 +11,7 @@ android:
   updated: 2020-10-29
   version: '1.3'
   icon: com.cedigo.png
+  meta: removed
 
 ---
 

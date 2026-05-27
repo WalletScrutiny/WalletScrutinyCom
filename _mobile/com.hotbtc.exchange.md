@@ -1,7 +1,6 @@
 ---
 title: HOTBTC - Buy Sell & Trade Cryptos. BTC ETH Wallet
 verdict: wip
-meta: removed
 date: 2022-01-31
 redirect_from:
 - /android/com.hotbtc.exchange/
@@ -13,6 +12,7 @@ android:
   version: 1.1.0
   reviews: 19
   icon: com.hotbtc.exchange.png
+  meta: removed
 
 ---
 

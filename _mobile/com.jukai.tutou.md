@@ -1,7 +1,6 @@
 ---
 title: Ok DeFi
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.jukai.tutou/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-21
   version: '1.0'
   icon: com.jukai.tutou.png
+  meta: removed
 
 ---
 

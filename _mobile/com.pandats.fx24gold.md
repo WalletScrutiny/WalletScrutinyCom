@@ -1,7 +1,6 @@
 ---
 title: FX24Gold
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.fx24gold.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-12-23
   version: 1.0.2
   icon: com.pandats.fx24gold.png
+  meta: removed
   developerName: F24Pro
 
 ---

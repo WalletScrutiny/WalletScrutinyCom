@@ -1,7 +1,6 @@
 ---
 title: Rocket Trade EX
 verdict: nosendreceive
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2023-02-13
   version: 1.1.3
   icon: app.excointrades.com.jpg
+  meta: removed
   developerName: rocket trade Limited
 
 ---

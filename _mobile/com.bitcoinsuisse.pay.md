@@ -1,7 +1,6 @@
 ---
 title: WL Crypto Payments
 verdict: wip
-meta: obsolete
 date: 2025-05-26
 website: https://www.bitcoinsuisse.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-06-05
   version: 1.3.1
   icon: com.bitcoinsuisse.pay.png
+  meta: obsolete
   developerName: Bitcoin Suisse AG
 
 ---

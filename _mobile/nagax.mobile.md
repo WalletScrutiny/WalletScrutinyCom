@@ -1,7 +1,6 @@
 ---
 title: NAGAX
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://nagax.com/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2023-04-07
   version: 1.0.18
   icon: nagax.mobile.png
+  meta: removed
   developerName: NAGAX
 
 ---

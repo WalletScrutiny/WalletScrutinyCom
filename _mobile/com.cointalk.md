@@ -1,7 +1,6 @@
 ---
 title: CoinTalk
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.cointalk/
@@ -12,6 +11,7 @@ android:
   updated: 2022-05-31
   version: '1.0'
   icon: com.cointalk.png
+  meta: removed
 
 ---
 

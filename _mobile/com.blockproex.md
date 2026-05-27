@@ -1,7 +1,6 @@
 ---
 title: BlockProEx - Buy BTC, ETH, TRX
 verdict: wip
-meta: removed
 date: 2024-10-31
 redirect_from:
 - /android/com.blockproex/
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-25
   version: 1.0.2
   icon: com.blockproex.jpg
+  meta: removed
   developerName: BlockProEx Infotech
 
 ---

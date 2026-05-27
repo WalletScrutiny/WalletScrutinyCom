@@ -1,7 +1,6 @@
 ---
 title: AscendEX(BitMax)
 verdict: custodial
-meta: removed
 date: 2021-05-11
 authors:
 - kiwilamb
@@ -20,6 +19,7 @@ android:
   version: 2.4.7
   reviews: 947
   icon: io.bitmax.exchange.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: WalletOne
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://walletone.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-01
   version: '1.1'
   icon: com.walletone.png
+  meta: removed
   developerName: W30 Apps
 
 ---

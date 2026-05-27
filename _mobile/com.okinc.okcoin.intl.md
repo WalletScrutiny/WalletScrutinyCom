@@ -2,7 +2,6 @@
 wsId: Okcoin
 title: Okcoin - Buy Bitcoin & Crypto
 verdict: custodial
-meta: removed
 date: 2025-12-15
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 5.3.120
   reviews: 629
   icon: com.okinc.okcoin.intl.png
+  meta: removed
   developerName: OKCoin Inc.
 iphone:
   appId: com.okcoin.OKCoinAppstore
@@ -34,6 +34,7 @@ iphone:
   version: 5.3.110
   reviews: 3489
   icon: com.okcoin.OKCoinAppstore.jpg
+  meta: removed
   developerName: OKCoin USA Inc
 
 ---

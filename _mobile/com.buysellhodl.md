@@ -1,7 +1,6 @@
 ---
 title: '🔥🔥BuySellHodl: Crypto Predictions, Ratings, News'
 verdict: wip
-meta: removed
 date: 2020-05-29
 website: http://www.buysellhodlapp.com
 twitter: BuySellHodlApp
@@ -18,6 +17,7 @@ android:
   version: 1.12.7
   reviews: 71
   icon: com.buysellhodl.png
+  meta: removed
 
 ---
 

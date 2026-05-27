@@ -1,7 +1,6 @@
 ---
 title: 'Multi Crypto Wallet: for Bitco'
 verdict: nosource
-meta: removed
 date: 2024-02-05
 authors:
 - leo
@@ -15,6 +14,7 @@ android:
   version: '3.0'
   reviews: 4
   icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
+  meta: removed
   developerName: FinSec
 
 ---

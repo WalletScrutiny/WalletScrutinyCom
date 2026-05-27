@@ -1,7 +1,6 @@
 ---
 title: Sky Crypto Wallet
 verdict: custodial
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny
@@ -13,6 +12,7 @@ android:
   updated: 2026-01-27
   version: 1.54.0
   icon: me.skycryptowallet.skymobile.png
+  meta: fewusers
   developerName: Revens
 
 ---

@@ -2,7 +2,6 @@
 wsId: nowWallet
 title: 'NOW Wallet: Buy & Store Crypto'
 verdict: nosource
-meta: ok
 date: 2023-04-08
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 3.18.6
   reviews: 200
   icon: com.nowwallet.png
+  meta: ok
   developerName: ChangeNOW
 iphone:
   appId: io.changenow.wallet-now
@@ -38,6 +38,7 @@ iphone:
   version: 3.18.6
   reviews: 812
   icon: io.changenow.wallet-now.jpg
+  meta: ok
   developerName: CHN Group Limited
 
 ---

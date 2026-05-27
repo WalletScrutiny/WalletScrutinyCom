@@ -2,7 +2,6 @@
 wsId: phantomlabs
 title: Phantom
 verdict: nosource
-meta: ok
 date: 2023-12-21
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 26.13.4
   reviews: 2245
   icon: app.phantom.png
+  meta: ok
   developerName: Phantom Technologies, Inc.
 iphone:
   appId: app.phantom
@@ -38,6 +38,7 @@ iphone:
   version: 26.13.4
   reviews: 60977
   icon: app.phantom.jpg
+  meta: ok
   developerName: Phantom Technologies Incorporated
 
 ---

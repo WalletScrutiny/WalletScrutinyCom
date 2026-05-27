@@ -1,6 +1,5 @@
 ---
 title: NovaDAX - Buy & Sell Bitcoin
-meta: ok
 date: 2024-10-07
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.6.3
   reviews: 42
   icon: com.nova.dax.png
+  meta: ok
   verdict: custodial
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 iphone:
@@ -31,6 +31,7 @@ iphone:
   version: 3.6.4
   reviews: 2703
   icon: com.nova.dax.jpg
+  meta: ok
   verdict: wip
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 

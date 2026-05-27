@@ -1,7 +1,6 @@
 ---
 title: CoinRabbit BTC & Crypto Wallet
 verdict: wip
-meta: ok
 date: 2025-11-10
 website: https://coinrabbit.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-01-23
   version: 1.0.15
   icon: com.coinrabbit.png
+  meta: ok
   developerName: CoinRabbit
 
 ---

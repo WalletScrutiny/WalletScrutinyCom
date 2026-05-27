@@ -1,7 +1,6 @@
 ---
 title: AutoCrypto Buyer
 verdict: wip
-meta: removed
 date: 2024-12-15
 website: https://forintfinance.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-06-02
   version: 0.0.10
   icon: com.swappy.autocrypto.png
+  meta: removed
   developerName: Forint Finance ltd
 
 ---

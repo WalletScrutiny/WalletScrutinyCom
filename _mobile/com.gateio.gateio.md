@@ -2,7 +2,6 @@
 wsId: gate.io
 title: 'Gate: Trade BTC & ETH'
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 8.20.1
   reviews: 7148
   icon: com.gateio.gateio.png
+  meta: ok
   developerName: Gate.com
 iphone:
   appId: com.gateio.app.gateio-app
@@ -32,6 +32,7 @@ iphone:
   version: 8.18.5
   reviews: 1424
   icon: com.gateio.app.gateio-app.jpg
+  meta: ok
   developerName: GATE GLOBAL UAB
 
 ---

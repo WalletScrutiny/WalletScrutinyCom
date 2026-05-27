@@ -1,7 +1,6 @@
 ---
 title: Lohit Group
 verdict: wip
-meta: removed
 date: 2023-05-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-10-05
   version: 0.1.5
   icon: com.lohitgroup.start.png
+  meta: removed
   developerName: LOHIT ENTERPRISES PRIVATE LIMITED
 
 ---

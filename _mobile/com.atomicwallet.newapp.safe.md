@@ -1,7 +1,6 @@
 ---
 title: Crypto Wallet & Atomic swap DEX
 verdict: fake
-meta: removed
 date: 2021-07-30
 authors:
 - emanuel
@@ -17,6 +16,7 @@ android:
   version: 1.5.2
   reviews: 6
   icon: com.atomicwallet.newapp.safe.png
+  meta: removed
 
 ---
 

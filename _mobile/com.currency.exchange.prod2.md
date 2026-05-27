@@ -2,7 +2,6 @@
 wsId: dzengi
 title: 'Dzengi.com: Buy BTC & Crypto'
 verdict: custodial
-meta: ok
 date: 2024-01-23
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   version: 2.20.2
   reviews: 1
   icon: com.currency.exchange.prod2.jpg
+  meta: ok
   developerName: DI INVESTMENTS LLC
 iphone:
   appId: com.currency.exchange.prod2
@@ -36,6 +36,7 @@ iphone:
   version: 2.20.2
   reviews: 4483
   icon: com.currency.exchange.prod2.jpg
+  meta: ok
   developerName: DI INVESTMENTS LLC
 
 ---

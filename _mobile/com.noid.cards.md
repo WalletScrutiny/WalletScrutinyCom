@@ -1,7 +1,6 @@
 ---
 title: noID.cards
 verdict: wip
-meta: removed
 date: 2024-04-19
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2023-03-26
   version: VARY
   icon: com.noid.cards.png
+  meta: removed
   developerName: noID.cards
 
 ---

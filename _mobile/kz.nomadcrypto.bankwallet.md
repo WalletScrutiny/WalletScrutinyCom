@@ -1,7 +1,6 @@
 ---
 title: Nomad Wallet - Bitcoin, DeFi & Crypto Wallet
 verdict: wip
-meta: removed
 date: 2022-01-31
 redirect_from:
 - /android/kz.nomadcrypto.bankwallet/
@@ -13,6 +12,7 @@ android:
   version: 0.2.1
   reviews: 6
   icon: kz.nomadcrypto.bankwallet.png
+  meta: removed
 
 ---
 

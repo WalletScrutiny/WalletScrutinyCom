@@ -1,7 +1,6 @@
 ---
 title: LAQIRA Exchange
 verdict: wip
-meta: obsolete
 date: 2025-02-26
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-03-03
   version: 3.2.2
   icon: com.laqira.exchange.png
+  meta: obsolete
   developerName: Laqira Protocol
 
 ---

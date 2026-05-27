@@ -1,7 +1,6 @@
 ---
 title: PayBito Custody - Secure Crypto Storage
 verdict: wip
-meta: removed
 date: 2022-02-16
 redirect_from:
 - /android/com.hashcash.paybitocustody/
@@ -12,6 +11,7 @@ android:
   updated: 2021-05-10
   version: '1.0'
   icon: com.hashcash.paybitocustody.png
+  meta: removed
 
 ---
 

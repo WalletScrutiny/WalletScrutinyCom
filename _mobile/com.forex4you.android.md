@@ -2,7 +2,6 @@
 wsId: forex4you
 title: Markets4you - Online Trading
 verdict: nosendreceive
-meta: ok
 date: 2021-11-01
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 6.22.0
   reviews: 266
   icon: com.forex4you.android.png
+  meta: ok
   developerName: E-Global Trade & Finance Group Inc.
 iphone:
   appId: com.forex4you.ios
@@ -30,6 +30,7 @@ iphone:
   version: 6.22.0
   reviews: 989
   icon: com.forex4you.ios.jpg
+  meta: ok
   developerName: E-Global Trade & Finance Group, Inc.
 
 ---

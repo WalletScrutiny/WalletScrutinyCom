@@ -1,7 +1,6 @@
 ---
 title: DRYP Wallet
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://drypwallet.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-18
   version: 0.0.1
   icon: com.dryp.wallet.png
+  meta: removed
   developerName: DONNIE NELSON
 
 ---

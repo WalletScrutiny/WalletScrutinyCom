@@ -1,7 +1,6 @@
 ---
 title: Stash Wallet
 verdict: wip
-meta: removed
 date: 2021-11-26
 redirect_from:
 - /android/com.stash.wallet/
@@ -11,6 +10,7 @@ android:
   updated: 2018-12-03
   version: Varies with device
   icon: com.stash.wallet.png
+  meta: removed
 
 ---
 

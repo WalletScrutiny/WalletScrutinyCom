@@ -2,7 +2,6 @@
 wsId: bitmart
 title: 'BitMart: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2021-05-20
 authors:
 - leo
@@ -28,6 +27,7 @@ android:
   version: 4.4.1
   reviews: 3750
   icon: com.bitmart.bitmarket.png
+  meta: ok
   developerName: GBM Foundation Company
 iphone:
   appId: com.bitmart.exchange
@@ -37,6 +37,7 @@ iphone:
   version: 4.4.1
   reviews: 3345
   icon: com.bitmart.exchange.jpg
+  meta: ok
   developerName: GBM Foundation Company Ltd
 
 ---

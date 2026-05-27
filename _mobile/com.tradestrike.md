@@ -2,7 +2,6 @@
 wsId: StrikeXDefi
 title: StrikeX | DeFi Crypto Wallet
 verdict: nosource
-meta: ok
 date: 2023-06-30
 authors:
 - danny
@@ -34,6 +33,7 @@ android:
   version: 4.2.8
   reviews: 26
   icon: com.tradestrike.png
+  meta: ok
   developerName: TradestrikeBVI
 iphone:
   appId: com.strikeXWallet
@@ -44,6 +44,7 @@ iphone:
   version: '20.04'
   reviews: 234
   icon: com.strikeXWallet.jpg
+  meta: ok
   developerName: StrikeXWallet
 
 ---

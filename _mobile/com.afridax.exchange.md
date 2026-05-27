@@ -2,7 +2,6 @@
 wsId: afridax
 title: 'AFRIDAX: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-05-04
   version: 1.0.4
   icon: com.afridax.exchange.png
+  meta: ok
   developerName: ExoGroup
 iphone:
   appId: com.afridax.exchange
@@ -27,6 +27,7 @@ iphone:
   version: 1.0.4
   reviews: 8
   icon: com.afridax.exchange.jpg
+  meta: ok
   developerName: AFRIDAX
 
 ---

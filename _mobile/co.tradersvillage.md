@@ -1,7 +1,6 @@
 ---
 title: Traders Village - Trade Crypto
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://tradersvillage.co#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-08
   version: 0.0.21
   icon: co.tradersvillage.png
+  meta: removed
   developerName: tradersvillage.co
 
 ---

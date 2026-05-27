@@ -2,7 +2,6 @@
 wsId: ncWallet
 title: 'NC Wallet: Crypto Without Fees'
 verdict: custodial
-meta: ok
 date: 2023-06-14
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 1.0.1012
   reviews: 820
   icon: com.ncwallet.png
+  meta: ok
   developerName: NCW Team
 iphone:
   appId: com.ncwallet
@@ -31,6 +31,7 @@ iphone:
   version: 3.4.70
   reviews: 198
   icon: com.ncwallet.jpg
+  meta: ok
   developerName: Zafiro International Limited
 
 ---

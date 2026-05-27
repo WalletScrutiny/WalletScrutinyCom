@@ -2,7 +2,6 @@
 wsId: ECOS
 title: 'ECOS: Bitcoin & Crypto Mining'
 verdict: custodial
-meta: ok
 date: 2021-10-07
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 3.1.19
   reviews: 233
   icon: am.ecos.android.png
+  meta: ok
   developerName: ECOS CJSC
 iphone:
   appId: am.ecos.ios.production
@@ -31,6 +31,7 @@ iphone:
   version: 3.1.19
   reviews: 231
   icon: am.ecos.ios.production.jpg
+  meta: ok
   developerName: Ecos am
 
 ---

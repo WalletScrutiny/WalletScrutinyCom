@@ -1,7 +1,6 @@
 ---
 title: Crypto Global Bank (CGB)
 verdict: wip
-meta: removed
 date: 2021-11-22
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '16'
   reviews: 15
   icon: com.user.cglobank.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet Account
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/org.cryptoblastersltd.bitcoin.wallet.account/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-18
   version: '1.0'
   icon: org.cryptoblastersltd.bitcoin.wallet.account.jpg
+  meta: removed
 
 ---
 

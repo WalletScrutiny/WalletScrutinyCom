@@ -1,7 +1,6 @@
 ---
 title: ZedXe Wallet
 verdict: nosource
-meta: removed
 date: 2023-06-12
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2020-06-11
   version: '1.8'
   icon: com.zedXeWallet.png
+  meta: removed
   developerName: Zuf Info Tech, LDA
 
 ---

@@ -2,7 +2,6 @@
 wsId: garantiBBVAKripto
 title: Garanti BBVA Kripto
 verdict: custodial
-meta: ok
 date: 2026-01-23
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.15.0
   reviews: 3
   icon: com.garantibbvadigitalassets.crypto.png
+  meta: ok
   developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
 iphone:
   appId: com.garanti.cepsube
@@ -30,6 +30,7 @@ iphone:
   version: '18.8'
   reviews: 13840
   icon: com.garanti.cepsube.jpg
+  meta: ok
   developerName: T. Garanti Bankasi A.S.
 
 ---

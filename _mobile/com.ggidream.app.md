@@ -1,7 +1,6 @@
 ---
 title: GOLDENGLORY
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://www.ggidream.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-08-07
   version: 1.0.0
   icon: com.ggidream.app.png
+  meta: removed
   developerName: 골덴글로리
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: XYT
 verdict: wip
-meta: removed
 date: 2023-06-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-04-14
   version: 1.3.1
   icon: com.xytwww.png
+  meta: removed
   developerName: XYT Pro
 
 ---

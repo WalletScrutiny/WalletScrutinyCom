@@ -1,7 +1,6 @@
 ---
 title: Flyp.me - Crypto Exchange
 verdict: wip
-meta: removed
 date: 2024-09-08
 website: https://flyp.me
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-09
   version: 1.0.4
   icon: me.flyp.mobile.png
+  meta: removed
   developerName: HolyTransaction Android
 
 ---

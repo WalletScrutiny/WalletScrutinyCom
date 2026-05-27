@@ -1,7 +1,6 @@
 ---
 title: Exodus Bitcoin & Ethereum- Crypto Exchange
 verdict: fake
-meta: removed
 date: 2021-08-08
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-21
   version: '0.92'
   icon: com.edhnbus.wxcgr.png
+  meta: removed
 
 ---
 

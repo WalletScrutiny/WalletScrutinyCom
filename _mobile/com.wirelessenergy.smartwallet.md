@@ -2,7 +2,6 @@
 wsId: swtWallet
 title: SWT Wallet
 verdict: nosource
-meta: fewusers
 date: 2026-05-05
 authors:
 - danny

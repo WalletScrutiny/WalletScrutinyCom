@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Trading
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/net.cryptonews.bitcoin.trading/
@@ -12,6 +11,7 @@ android:
   updated: 2021-07-19
   version: '1.0'
   icon: net.cryptonews.bitcoin.trading.jpg
+  meta: removed
 
 ---
 

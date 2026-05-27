@@ -2,7 +2,6 @@
 wsId: bifrostWallet
 title: Bifrost Wallet - XRP, FLR, ETH
 verdict: nosource
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 0.7.45
   reviews: 108
   icon: com.bifrostwallet.app.png
+  meta: ok
   developerName: Bifrost Software Ltd
 iphone:
   appId: com.bifrostwallet.app
@@ -33,6 +33,7 @@ iphone:
   version: 0.7.45
   reviews: 210
   icon: com.bifrostwallet.app.jpg
+  meta: ok
   developerName: Bifrost Software Ltd
 
 ---

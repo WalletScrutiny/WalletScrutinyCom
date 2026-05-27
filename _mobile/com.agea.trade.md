@@ -1,7 +1,6 @@
 ---
 title: AGEA Online Trading App
 verdict: wip
-meta: removed
 date: 2023-04-16
 website: https://www.agea.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.3'
   reviews: 3
   icon: com.agea.trade.png
+  meta: removed
   developerName: AGEA International AD
 
 ---

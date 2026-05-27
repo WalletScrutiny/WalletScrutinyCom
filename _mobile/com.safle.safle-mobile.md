@@ -1,7 +1,6 @@
 ---
 title: Safle - Web3 Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://safle.com/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 1.7.4
   reviews: 4
   icon: com.safle.safle-mobile.jpg
+  meta: ok
   developerName: JUPITER INNOVATIONS LIMITED
 
 ---

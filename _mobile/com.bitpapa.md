@@ -1,7 +1,6 @@
 ---
 title: Bitpapa - Bitcoin, USDT wallet
 verdict: custodial
-meta: removed
 date: 2024-04-26
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: 1.12.3
   reviews: 40
   icon: com.bitpapa.png
+  meta: removed
   developerName: Bitpapa
 
 ---

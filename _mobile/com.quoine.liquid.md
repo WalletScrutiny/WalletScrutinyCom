@@ -2,7 +2,6 @@
 wsId: LiquidPro
 title: Liquid - Buy Bitcoin & Crypto
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.18.3.1
   reviews: 36
   icon: com.quoine.liquid.png
+  meta: removed
 iphone:
   appId: com.quoine.liquid.production
   idd: 1443975079
@@ -31,6 +31,7 @@ iphone:
   version: 1.18.4
   reviews: 29
   icon: com.quoine.liquid.production.jpg
+  meta: removed
 
 ---
 

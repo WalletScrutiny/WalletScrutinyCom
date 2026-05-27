@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Heave
 verdict: wip
-meta: removed
 date: 2021-12-22
 redirect_from:
 - /android/com.bitcoin.heaven/
@@ -12,6 +11,7 @@ android:
   updated: 2020-07-14
   version: 1.0.0
   icon: com.bitcoin.heaven.png
+  meta: removed
 
 ---
 

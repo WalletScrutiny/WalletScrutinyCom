@@ -1,7 +1,6 @@
 ---
 title: Quan2um
 verdict: custodial
-meta: ok
 date: 2023-05-30
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.8
   reviews: 1
   icon: com.mobile.quantum.png
+  meta: ok
   developerName: Quan2um
 
 ---

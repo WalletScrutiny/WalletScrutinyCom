@@ -1,7 +1,6 @@
 ---
 title: Bithesap - Bitcoin & Altcoin A
 verdict: wip
-meta: removed
 date: 2023-04-20
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-05-08
   version: '1.3'
   icon: com.bithesap.app.png
+  meta: removed
   developerName: Online People
 
 ---

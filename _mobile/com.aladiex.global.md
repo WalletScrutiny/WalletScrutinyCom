@@ -1,7 +1,6 @@
 ---
 title: Aladiex
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2021-04-27
   version: 1.7.9
   icon: com.aladiex.global.png
+  meta: removed
   developerName: AladiEx Global Holdings Limited
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: CashuWallet
 verdict: wip
-meta: fewusers
 date: 2024-09-28
 website: https://cashu.cc/
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2026-05-05
   version: VARY
   icon: com.cashuwallet.android.png
+  meta: fewusers
   developerName: raugfer
 
 ---

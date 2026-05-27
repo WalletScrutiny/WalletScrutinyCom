@@ -1,7 +1,6 @@
 ---
 title: ETHEGRAM P2P Wallet - 이더그램
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: http://www.ethegram.net#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-19
   version: '6771'
   icon: com.ethegram.app.png
+  meta: removed
   developerName: 이더그램
 
 ---

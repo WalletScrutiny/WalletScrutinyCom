@@ -1,7 +1,6 @@
 ---
 title: FinanceX - Crypto Trading with
 verdict: custodial
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-01-13
   version: 1.3.12
   icon: com.financex.png
+  meta: removed
   developerName: FinanceX
 
 ---

@@ -2,7 +2,6 @@
 wsId: criptanWallet
 title: Criptan - Complement your bank
 verdict: custodial
-meta: ok
 date: 2023-12-14
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-07
   version: 3.4.3
   icon: com.criptan.app.png
+  meta: ok
   developerName: CRIPTAN
 iphone:
   appId: com.criptan.app
@@ -31,6 +31,7 @@ iphone:
   version: 3.4.3
   reviews: 500
   icon: com.criptan.app.jpg
+  meta: ok
   developerName: Criptan Trade SL
 
 ---

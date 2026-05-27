@@ -1,7 +1,6 @@
 ---
 title: mSamex Exchange
 verdict: wip
-meta: removed
 date: 2024-11-29
 website: https://www.msamex.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-08
   version: 2.0.92
   icon: com.mesh.msamexexchange.jpg
+  meta: removed
   developerName: mSamex
 
 ---

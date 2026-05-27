@@ -2,7 +2,6 @@
 wsId: LMAXDigital
 title: LMAX Digital Trading
 verdict: custodial
-meta: ok
 date: 2023-04-04
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.1.80
   reviews: 2
   icon: com.mobiletradingpartners.lmaxdigital.png
+  meta: ok
   developerName: LMAX Digital Broker Limited
 iphone:
   appId: com.mobiletradingpartners.lmaxdigital
@@ -32,6 +32,7 @@ iphone:
   version: 5.1.80
   reviews: 0
   icon: com.mobiletradingpartners.lmaxdigital.jpg
+  meta: ok
   developerName: LMAX DIGITAL EXCHANGE LIMITED
 
 ---

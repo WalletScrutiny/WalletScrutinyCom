@@ -1,7 +1,6 @@
 ---
 title: EPO Cash
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.epocash.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-21
   version: '1.1'
   icon: com.epocash.epocash.jpg
+  meta: removed
   developerName: EPO Cash
 
 ---

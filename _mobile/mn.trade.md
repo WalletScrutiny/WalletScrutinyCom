@@ -2,7 +2,6 @@
 wsId: TradeMN
 title: Trade.mn
 verdict: custodial
-meta: ok
 date: 2022-05-31
 authors:
 - danny

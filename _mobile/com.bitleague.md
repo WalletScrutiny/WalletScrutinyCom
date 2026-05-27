@@ -2,7 +2,6 @@
 wsId: BitLeague
 title: BitLeague
 verdict: custodial
-meta: removed
 date: 2024-05-07
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 2.15.2
   reviews: 132
   icon: com.bitleague.png
+  meta: removed
   developerName: BITLEAGUE LLC
 iphone:
   appId: com.bit.leagues
@@ -32,6 +32,7 @@ iphone:
   version: '2.15'
   reviews: 23
   icon: com.bit.leagues.jpg
+  meta: removed
   developerName: BITLEAGUE LLC
 
 ---

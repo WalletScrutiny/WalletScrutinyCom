@@ -1,7 +1,6 @@
 ---
 title: Spotex Wallet
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/com.spot.wallet/
@@ -12,6 +11,7 @@ android:
   updated: 2022-01-16
   version: 0.21.0
   icon: com.spot.wallet.png
+  meta: removed
   developerName: The Crypto Spot
 
 ---

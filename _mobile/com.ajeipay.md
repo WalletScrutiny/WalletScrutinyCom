@@ -1,7 +1,6 @@
 ---
 title: AjeiPay
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://ajeipay.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-09
   version: '2.2'
   icon: com.ajeipay.png
+  meta: removed
   developerName: AjeiPay
 
 ---

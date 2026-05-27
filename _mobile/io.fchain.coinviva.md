@@ -1,7 +1,6 @@
 ---
 title: Coinviva Exchange -Bitcoin & F
 verdict: wip
-meta: removed
 date: 2023-10-16
 website: http://www.coinviva.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-08-17
   version: 1.1.0
   icon: io.fchain.coinviva.png
+  meta: removed
   developerName: Point95 Global
 
 ---

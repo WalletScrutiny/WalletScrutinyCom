@@ -2,7 +2,6 @@
 wsId: beloCrypto
 title: 'belo: your financial passport'
 verdict: custodial
-meta: ok
 date: 2023-06-30
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 7.19.0
   reviews: 68
   icon: com.belo.android.png
+  meta: ok
   developerName: belo
 iphone:
   appId: com.belo.ios
@@ -36,6 +36,7 @@ iphone:
   version: 7.19.0
   reviews: 42
   icon: com.belo.ios.jpg
+  meta: ok
   developerName: belo
 
 ---

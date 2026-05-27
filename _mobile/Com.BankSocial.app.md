@@ -1,7 +1,6 @@
 ---
 title: BankSocial
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: http://www.banksocial.io
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 2.31.0
   reviews: 142
   icon: Com.BankSocial.app.jpg
+  meta: ok
   developerName: Fivancial, Inc d/b/a BankSocial
 
 ---

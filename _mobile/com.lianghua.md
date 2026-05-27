@@ -1,7 +1,6 @@
 ---
 title: UniQuant
 verdict: wip
-meta: removed
 date: 2024-02-05
 redirect_from:
 - /android/com.lianghua/
@@ -12,6 +11,7 @@ android:
   updated: 2022-11-26
   version: 1.2.8
   icon: com.lianghua.png
+  meta: removed
   developerName: UNIQUANT TECHNOLOGY INC.
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Quantic Mobile – Forex, CFDs o
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: http://quan-tic.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-08
   version: 2.0.37
   icon: com.quanticmobileapp.png
+  meta: removed
   developerName: Quantic Venture Limited
 
 ---

@@ -2,7 +2,6 @@
 wsId: voyager
 title: Voyager
 verdict: custodial
-meta: removed
 date: 2023-09-04
 authors:
 - leo
@@ -24,6 +23,7 @@ android:
   version: 4.0.0
   reviews: 8249
   icon: com.investvoyager.png
+  meta: removed
   developerName: Voyager Digital, LLC
 iphone:
   appId: com.investvoyager.voyager-ios
@@ -33,6 +33,7 @@ iphone:
   version: 3.2.33
   reviews: 102802
   icon: com.investvoyager.voyager-ios.jpg
+  meta: removed
   developerName: Voyager Digital, LLC
 
 ---

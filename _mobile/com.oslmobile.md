@@ -2,7 +2,6 @@
 wsId: oslMobile
 title: 'OSL HK: Buy Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-02-28
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 3.6.20
   reviews: 34
   icon: com.oslmobile.png
+  meta: ok
   developerName: BC Technology (HK) Limited
 iphone:
   appId: com.osl.mobile.OslMobile
@@ -34,6 +34,7 @@ iphone:
   version: 3.6.20
   reviews: 529
   icon: com.osl.mobile.OslMobile.jpg
+  meta: ok
   developerName: BC Marketplace (HK) Limited
 
 ---

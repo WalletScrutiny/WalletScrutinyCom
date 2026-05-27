@@ -1,7 +1,6 @@
 ---
 title: Secure Paymentz
 verdict: wip
-meta: removed
 date: 2024-05-07
 redirect_from:
 - /android/com.secure.pay/
@@ -12,6 +11,7 @@ android:
   updated: 2020-06-21
   version: '2.6'
   icon: com.secure.pay.png
+  meta: removed
   developerName: Secure Paymentz
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Coinsher - Buy BTC & Crypto
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: https://www.coinsher.com/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.5.2
   reviews: 9
   icon: com.coinsher.coinsherapp.png
+  meta: ok
   developerName: Solidray
 
 ---

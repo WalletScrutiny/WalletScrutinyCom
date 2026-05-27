@@ -2,7 +2,6 @@
 wsId: neverlessBuyBitcoin
 title: 'Neverless: Stocks & Crypto'
 verdict: nosendreceive
-meta: ok
 date: 2026-01-02
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.3.209
   reviews: 15
   icon: money.boku.android.jpg
+  meta: ok
   developerName: neverless
 iphone:
   appId: money.boku.ios
@@ -33,6 +33,7 @@ iphone:
   version: 1.11.35
   reviews: 86
   icon: money.boku.ios.jpg
+  meta: ok
   developerName: Boku Labs Ltd
 
 ---

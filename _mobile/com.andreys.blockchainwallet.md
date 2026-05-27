@@ -1,7 +1,6 @@
 ---
 title: Blockchain Wallet
 verdict: wip
-meta: removed
 date: 2021-02-17
 redirect_from:
 - /com.andreys.blockchainwallet/
@@ -13,6 +12,7 @@ android:
   version: '21'
   reviews: 362
   icon: com.andreys.blockchainwallet.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Bitcaps - Digital Assets Excha
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://www.ini.bitcaps.club#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-04-06
   version: 1.5.2
   icon: com.bitcaps.png
+  meta: removed
   developerName: Bitcaps
 
 ---

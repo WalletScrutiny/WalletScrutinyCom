@@ -1,7 +1,6 @@
 ---
 wsId: theBitcoinCompany
 title: The Bitcoin Company Rewards
-meta: ok
 date: 2024-07-17
 authors:
 - danny

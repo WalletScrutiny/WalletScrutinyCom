@@ -1,7 +1,6 @@
 ---
 title: meta farm
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://metafarmcrypto.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-24
   version: 1.0.1
   icon: com.app.metafarm.png
+  meta: removed
   developerName: Meta Farm
 
 ---

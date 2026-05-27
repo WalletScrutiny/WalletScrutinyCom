@@ -2,7 +2,6 @@
 wsId: börseFinanzen
 title: Börse & Aktien - finanzen.net
 verdict: nosendreceive
-meta: ok
 date: 2022-06-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 5.9.1
   reviews: 64
   icon: de.finanzen.net.png
+  meta: ok
   developerName: finanzen.net GmbH
 iphone:
   appId: de.smarthouse.finanzen
@@ -32,6 +32,7 @@ iphone:
   version: 8.2.8
   reviews: 286
   icon: de.smarthouse.finanzen.jpg
+  meta: ok
   developerName: finanzen.net GmbH
 
 ---

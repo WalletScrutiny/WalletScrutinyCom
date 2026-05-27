@@ -2,7 +2,6 @@
 wsId: coinTRPro
 title: 'CoinTR Pro: Buy Bitcoin Crypto'
 verdict: custodial
-meta: removed
 date: 2024-09-16
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 2.4.13
   reviews: 56
   icon: pro.cointr.jpg
+  meta: removed
   developerName: CoinTR pro
 iphone:
   appId: vip.trcoin.global
@@ -36,6 +36,7 @@ iphone:
   version: 2.4.14
   reviews: 14
   icon: vip.trcoin.global.jpg
+  meta: removed
   developerName: CoinTR
 
 ---

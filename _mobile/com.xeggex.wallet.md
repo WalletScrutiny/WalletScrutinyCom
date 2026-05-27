@@ -1,7 +1,6 @@
 ---
 title: XeggeX Mobile
 verdict: custodial
-meta: removed
 date: 2023-09-28
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2022-07-12
   version: 1.0.0
   icon: com.xeggex.wallet.jpg
+  meta: removed
   developerName: Dokdo
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Pluang:Trading Stocks & Crypto
 verdict: nosendreceive
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 7.2.4
   reviews: 123
   icon: com.EmasDigi.png
+  meta: ok
   developerName: pluang
 
 ---

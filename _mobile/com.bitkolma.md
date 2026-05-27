@@ -1,7 +1,6 @@
 ---
 title: BitKolma
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: https://bitkolma.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-21
   version: '1.0'
   icon: com.bitkolma.png
+  meta: removed
   developerName: Og Software Solutions
 
 ---

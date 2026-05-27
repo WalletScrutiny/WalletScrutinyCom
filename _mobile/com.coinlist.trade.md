@@ -2,7 +2,6 @@
 wsId: CoinList
 title: CoinList
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 2.0.8
   reviews: 193
   icon: com.coinlist.trade.png
+  meta: removed
 iphone:
   appId: com.coinlist.trade
   idd: 1522706079
@@ -30,6 +30,7 @@ iphone:
   version: 2.0.4
   reviews: 144
   icon: com.coinlist.trade.jpg
+  meta: removed
 
 ---
 

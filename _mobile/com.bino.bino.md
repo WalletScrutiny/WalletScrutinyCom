@@ -1,7 +1,6 @@
 ---
 title: BinO Trading
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://adastimes.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-08-21
   version: '1.0'
   icon: com.bino.bino.png
+  meta: removed
   developerName: BinoAI
 
 ---

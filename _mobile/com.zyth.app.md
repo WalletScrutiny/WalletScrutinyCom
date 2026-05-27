@@ -2,7 +2,6 @@
 wsId: zythWallet
 title: ZYTH Wallet
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2021-12-17
   version: '4.3'
   icon: com.zyth.app.png
+  meta: removed
   developerName: Zyth Technology
 iphone:
   appId: com.zyth.app
@@ -32,6 +32,7 @@ iphone:
   version: '4.0'
   reviews: 1
   icon: com.zyth.app.jpg
+  meta: removed
   developerName: Zyth Technologies
 
 ---

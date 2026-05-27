@@ -2,7 +2,6 @@
 wsId: gorilaInvest
 title: 'Gorila: gestão de investimento'
 verdict: nosendreceive
-meta: ok
 date: 2022-06-24
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   version: 8.7.1
   reviews: 25
   icon: br.com.gorilainvest.mobileapp.jpg
+  meta: ok
   developerName: Gorila - gestão de carteira de investimentos
 iphone:
   appId: br.com.gorilainvest.mobileapp
@@ -34,6 +34,7 @@ iphone:
   version: 8.7.1
   reviews: 234
   icon: br.com.gorilainvest.mobileapp.jpg
+  meta: ok
   developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA
 
 ---

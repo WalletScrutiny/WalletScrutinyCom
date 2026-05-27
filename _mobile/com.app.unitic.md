@@ -1,7 +1,6 @@
 ---
 title: Unitic:Trade Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2026-01-16
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2026-03-30
   version: 0.2.0
   icon: com.app.unitic.png
+  meta: ok
   developerName: UNITIC PRIVATE LIMITED
 
 ---

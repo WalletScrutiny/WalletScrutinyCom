@@ -1,7 +1,6 @@
 ---
 title: 크립토 뱅크
 verdict: wip
-meta: removed
 date: 2024-07-05
 redirect_from:
 - /android/com.cbank2.android/
@@ -12,6 +11,7 @@ android:
   updated: 2021-10-07
   version: '2.9'
   icon: com.cbank2.android.png
+  meta: removed
   developerName: CBNK
 
 ---

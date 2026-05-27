@@ -2,7 +2,6 @@
 wsId: Hexa
 title: Legacy Hexa (do not download)
 verdict: sourceavailable
-meta: removed
 date: 2021-12-29
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: 1.7.4
   reviews: 14
   icon: io.hexawallet.hexa.png
+  meta: removed
   repository: https://github.com/bithyve/bitcointribe-classic
 iphone:
   appId: io.hexawallet.hexa
@@ -31,6 +31,7 @@ iphone:
   version: 1.7.7
   reviews: 5
   icon: io.hexawallet.hexa.jpg
+  meta: removed
 
 ---
 

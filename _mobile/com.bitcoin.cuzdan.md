@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet & Vault
 verdict: wip
-meta: removed
 date: 2021-07-15
 authors:
 - leo
@@ -15,6 +14,7 @@ iphone:
   version: '1.1'
   reviews: 1
   icon: com.bitcoin.cuzdan.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Air Token Wallet - Social Weal
 verdict: wip
-meta: removed
 date: 2023-06-03
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2019-07-11
   version: 1.0.18
   icon: com.token.airtoken.png
+  meta: removed
   developerName: Air Token
 
 ---

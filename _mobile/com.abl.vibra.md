@@ -2,7 +2,6 @@
 wsId: vibra
 title: 'VIBRA Wallet: Buy BTC and ETH'
 verdict: custodial
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.6.90
   reviews: 5
   icon: com.abl.vibra.png
+  meta: removed
   developerName: Vibra Africa
 iphone:
   appId: com.abl.vibra
@@ -33,6 +33,7 @@ iphone:
   version: 1.6.82
   reviews: 31
   icon: com.abl.vibra.jpg
+  meta: removed
   developerName: ABL Management Limited
 
 ---

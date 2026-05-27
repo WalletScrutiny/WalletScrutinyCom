@@ -1,7 +1,6 @@
 ---
 title: Moon Faucet - BTC, LTC, XDG, BCH
 verdict: wip
-meta: removed
 date: 2021-09-16
 redirect_from:
 - /android/g3shanappz.moonfaucet/
@@ -13,6 +12,7 @@ android:
   version: '9.8'
   reviews: 295
   icon: g3shanappz.moonfaucet.jpg
+  meta: removed
 
 ---
 

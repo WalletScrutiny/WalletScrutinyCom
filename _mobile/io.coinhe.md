@@ -1,7 +1,6 @@
 ---
 title: CoinHe
 verdict: wip
-meta: removed
 date: 2023-05-05
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 1.0.6.7
   reviews: 5
   icon: io.coinhe.png
+  meta: removed
   developerName: CHT Innovative Technology PTE.  LTD
 
 ---

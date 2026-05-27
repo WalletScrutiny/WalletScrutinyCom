@@ -1,7 +1,6 @@
 ---
 title: NSTAREX
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.gdywgydggwf.wtewsd/
@@ -12,6 +11,7 @@ android:
   updated: 2022-03-27
   version: '1.0'
   icon: com.gdywgydggwf.wtewsd.jpg
+  meta: removed
 
 ---
 

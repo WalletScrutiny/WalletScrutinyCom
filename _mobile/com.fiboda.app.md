@@ -2,7 +2,6 @@
 wsId: Fiboda
 title: Fiboda - Copy trading Platform
 verdict: nosendreceive
-meta: removed
 date: 2022-01-15
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.0.5
   reviews: 2
   icon: com.fiboda.app.png
+  meta: removed
 iphone:
   appId: com.fiboda.Fiboda
   idd: 1540952335
@@ -27,6 +27,7 @@ iphone:
   version: 1.1.0
   reviews: 5
   icon: com.fiboda.Fiboda.jpg
+  meta: removed
 
 ---
 

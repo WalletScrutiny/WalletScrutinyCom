@@ -1,7 +1,6 @@
 ---
 title: StarExchange
 verdict: wip
-meta: removed
 date: 2024-05-07
 redirect_from:
 - /android/se.example.starboyexchange/
@@ -12,6 +11,7 @@ android:
   updated: 2022-01-31
   version: 7.0.0
   icon: se.example.starboyexchange.png
+  meta: removed
   developerName: PlayLoom Studios
 
 ---

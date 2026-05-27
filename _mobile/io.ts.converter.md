@@ -1,7 +1,6 @@
 ---
 title: 'TapSwap: Your Crypto, Your Way'
 verdict: nosendreceive
-meta: ok
 date: 2024-01-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 3.12.13
   reviews: 10
   icon: io.ts.converter.png
+  meta: ok
   developerName: TapSwap
 
 ---

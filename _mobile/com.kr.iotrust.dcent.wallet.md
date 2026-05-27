@@ -2,7 +2,6 @@
 wsId: dCent
 title: D’CENT Wallet - Secure Crypto
 verdict: nosource
-meta: ok
 date: 2022-01-10
 authors:
 - kiwilamb
@@ -29,6 +28,7 @@ android:
   version: 9.1.0
   reviews: 1001
   icon: com.kr.iotrust.dcent.wallet.png
+  meta: ok
   developerName: IoTrust Co., Ltd
 iphone:
   appId: kr.iotrust.dcent
@@ -39,6 +39,7 @@ iphone:
   version: 9.1.0
   reviews: 85
   icon: kr.iotrust.dcent.jpg
+  meta: ok
   developerName: IoTrust Co., Ltd
 
 ---

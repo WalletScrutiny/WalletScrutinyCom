@@ -2,7 +2,6 @@
 wsId: mwfreewallet
 title: Freewallet MultiWallet Classic
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - kiwilamb
@@ -23,6 +22,7 @@ android:
   version: 1.0.69
   reviews: 148
   icon: multi.org.freewallet.app.png
+  meta: removed
 iphone:
   appId: mw.org.freewallet.app
   idd: 1274003898
@@ -31,6 +31,7 @@ iphone:
   version: 1.18.6
   reviews: 1304
   icon: mw.org.freewallet.app.jpg
+  meta: removed
   developerName: Freewallet
 
 ---

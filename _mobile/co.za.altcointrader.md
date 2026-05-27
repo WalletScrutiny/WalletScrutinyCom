@@ -2,7 +2,6 @@
 wsId: altcoinTrader
 title: 'AltCoinTrader: Bitcoin, Crypto'
 verdict: custodial
-meta: obsolete
 date: 2023-02-03
 authors:
 - danny

@@ -2,7 +2,6 @@
 wsId: deblock
 title: Deblock - Banking app
 verdict: custodial
-meta: ok
 date: 2024-09-06
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 5.13.0
   reviews: 10
   icon: com.deblock.deblockapp.png
+  meta: ok
   developerName: Deblock SAS
 iphone:
   appId: com.deblock.deblockapp.production
@@ -30,6 +30,7 @@ iphone:
   version: 5.13.0
   reviews: 19489
   icon: com.deblock.deblockapp.production.jpg
+  meta: ok
   developerName: Deblock
 
 ---

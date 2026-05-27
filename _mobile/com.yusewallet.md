@@ -1,7 +1,6 @@
 ---
 title: YUSE Wallet
 verdict: wip
-meta: removed
 date: 2023-05-10
 website: https://yusetoken.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-02-18
   version: 1.0.15
   icon: com.yusewallet.png
+  meta: removed
   developerName: Yuse Technologies
 
 ---

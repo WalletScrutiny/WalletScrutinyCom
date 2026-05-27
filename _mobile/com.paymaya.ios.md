@@ -1,7 +1,6 @@
 ---
 title: Maya – savings, loans, cards
 verdict: custodial
-meta: ok
 date: 2024-09-02
 authors:
 - danny
@@ -24,6 +23,7 @@ iphone:
   version: 2.133.0
   reviews: 229011
   icon: com.paymaya.ios.jpg
+  meta: ok
   developerName: Maya Philippines, Inc.
 
 ---

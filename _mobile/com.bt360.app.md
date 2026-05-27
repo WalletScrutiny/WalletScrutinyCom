@@ -1,7 +1,6 @@
 ---
 title: BT360 - Your Digital Wallet
 verdict: wip
-meta: removed
 date: 2023-11-02
 website: https://bt360pro.com#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2019-10-02
   version: 1.1.2
   icon: com.bt360.app.png
+  meta: removed
   developerName: BT360 Ltd.
 
 ---

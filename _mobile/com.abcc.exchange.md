@@ -2,7 +2,6 @@
 wsId: abccExchange
 title: ABCC Exchange
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.9.30
   reviews: 46
   icon: com.abcc.exchange.png
+  meta: removed
   developerName: ABCC.com
 iphone:
   appId: com.abcc.exchange.ios
@@ -31,6 +31,7 @@ iphone:
   version: 1.10.4
   reviews: 9
   icon: com.abcc.exchange.ios.jpg
+  meta: removed
   developerName: ABCC
 
 ---

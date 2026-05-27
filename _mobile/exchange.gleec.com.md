@@ -2,7 +2,6 @@
 wsId: gleecExchange
 title: Gleec BTC
 verdict: custodial
-meta: ok
 date: 2024-11-28
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-02-17
   version: 1.41.0
   icon: exchange.gleec.com.png
+  meta: ok
   developerName: Gleec Pay OU
 iphone:
   appId: dev.com.gleecexchange.app
@@ -31,6 +31,7 @@ iphone:
   version: 1.43.0
   reviews: 0
   icon: dev.com.gleecexchange.app.jpg
+  meta: ok
   developerName: Gleec-BTC OU
 
 ---

@@ -2,7 +2,6 @@
 wsId: melisclientwallet
 title: Melis Bitcoin, Bitcoin Cash, L
 verdict: sourceavailable
-meta: removed
 date: 2023-12-19
 authors:
 - leo
@@ -26,6 +25,7 @@ android:
   updated: 2021-09-30
   version: 1.6.24
   icon: io.melis.clientwallet.png
+  meta: removed
   developerName: Melis
 iphone:
   appId: io.melis.clientwallet
@@ -35,6 +35,7 @@ iphone:
   version: 1.6.21
   reviews: 0
   icon: io.melis.clientwallet.jpg
+  meta: removed
   developerName: Melis s.r.l.
 
 ---

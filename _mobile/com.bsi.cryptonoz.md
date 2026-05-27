@@ -1,7 +1,6 @@
 ---
 title: Cryptonoz
 verdict: wip
-meta: removed
 date: 2023-12-19
 redirect_from:
 - /android/com.bsi.cryptonoz/
@@ -12,6 +11,7 @@ android:
   updated: 2020-03-17
   version: '1.0'
   icon: com.bsi.cryptonoz.png
+  meta: removed
   developerName: Cryptonoz Inc.
 
 ---

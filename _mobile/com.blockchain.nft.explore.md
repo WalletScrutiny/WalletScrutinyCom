@@ -1,7 +1,6 @@
 ---
 title: Now in Crypto
 verdict: wip
-meta: removed
 date: 2024-04-26
 website: https://coinhub8899.web.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-12-18
   version: 1.0.7
   icon: com.blockchain.nft.explore.png
+  meta: removed
   developerName: InvoVN Solutions
 
 ---

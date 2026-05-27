@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Trading Global
 verdict: wip
-meta: removed
 date: 2023-05-30
 website: https://bitcoin-trading.global#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-12
   version: 2.0.0
   icon: com.stefanschneider.bitcointrading.png
+  meta: removed
   developerName: Bitcoin Trading Global
 
 ---

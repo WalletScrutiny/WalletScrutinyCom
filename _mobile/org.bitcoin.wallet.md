@@ -1,7 +1,6 @@
 ---
 title: 'Bitcoin Wallet: by Bitcoin.org'
 verdict: sourceavailable
-meta: removed
 date: 2021-06-16
 authors:
 - emanuel
@@ -19,6 +18,7 @@ android:
   version: '1.0'
   reviews: 4
   icon: org.bitcoin.wallet.png
+  meta: removed
 
 ---
 

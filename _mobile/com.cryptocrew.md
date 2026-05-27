@@ -1,7 +1,6 @@
 ---
 title: CRYPTO CREW
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: http://goforsage.com/app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-06-23
   version: '1.0'
   icon: com.cryptocrew.png
+  meta: removed
   developerName: LIV8 LLC
 
 ---

@@ -2,7 +2,6 @@
 wsId: CoinBurp
 title: CoinBurp - Buy and Sell Bitcoin. Crypto Wallet.
 verdict: custodial
-meta: removed
 date: 2022-04-07
 authors:
 - kiwilamb
@@ -21,6 +20,7 @@ android:
   updated: 2022-01-05
   version: 1.0.15
   icon: com.coinburp.mobile.png
+  meta: removed
 iphone:
   appId: com.coinburp.mobile
   idd: 1486342307
@@ -29,6 +29,7 @@ iphone:
   version: 1.0.16
   reviews: 5
   icon: com.coinburp.mobile.jpg
+  meta: removed
 
 ---
 

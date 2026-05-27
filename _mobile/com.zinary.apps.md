@@ -1,7 +1,6 @@
 ---
 title: Zinary
 verdict: wip
-meta: removed
 date: 2025-05-14
 website: https://zinary.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2024-03-11
   version: 0.28.7
   icon: com.zinary.apps.png
+  meta: removed
   developerName: Zinary Analytica Limited
 
 ---

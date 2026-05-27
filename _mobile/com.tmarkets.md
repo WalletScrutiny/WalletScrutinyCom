@@ -2,7 +2,6 @@
 wsId: T1Markets
 title: 'T1Markets: Online Trading on F'
 verdict: nosendreceive
-meta: removed
 date: 2021-12-22
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2021-12-01
   version: 1.5.78-tmarkets
   icon: com.tmarkets.png
+  meta: removed
   developerName: GCB LTD
 iphone:
   appId: com.gcb.T1
@@ -30,6 +30,7 @@ iphone:
   version: 1.69.13
   reviews: 2
   icon: com.gcb.T1.jpg
+  meta: removed
 
 ---
 

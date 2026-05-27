@@ -2,7 +2,6 @@
 wsId: hippoCrypto
 title: 'Hippo Wallet: Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2024-07-24
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   version: 1.23.3
   reviews: 17
   icon: com.blockchaincommodities.hippo_wallet.png
+  meta: ok
   developerName: Blockchain Commodities
 iphone:
   appId: com.blockchaincommodities.hippoWallet
@@ -41,6 +41,7 @@ iphone:
   version: 1.23.2
   reviews: 10
   icon: com.blockchaincommodities.hippoWallet.jpg
+  meta: ok
   developerName: Blockchain Commodities
 
 ---

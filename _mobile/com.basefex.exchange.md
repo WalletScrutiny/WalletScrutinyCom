@@ -1,7 +1,6 @@
 ---
 title: 'BaseFEX: Bitcoin & Crypto Futures Trading'
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/com.basefex.exchange/
@@ -13,6 +12,7 @@ android:
   version: 2.5.67
   reviews: 5
   icon: com.basefex.exchange.png
+  meta: removed
 
 ---
 

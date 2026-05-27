@@ -1,7 +1,6 @@
 ---
 title: Coins.Black — Buy & Sell Crypt
 verdict: wip
-meta: ok
 date: 2025-09-03
 website: https://coins.black
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-08-29
   version: '1.5'
   icon: com.coins.black.exchanger.png
+  meta: ok
   developerName: Coins.Black
 
 ---

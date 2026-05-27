@@ -2,7 +2,6 @@
 wsId: dhanuX
 title: DhanuX
 verdict: custodial
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2023-01-12
   version: '4.2'
   icon: com.cryptoex.dhanux.png
+  meta: removed
   developerName: dhanux
 iphone:
   appId: com.dhanuX
@@ -27,6 +27,7 @@ iphone:
   version: 1.6.1
   reviews: 0
   icon: com.dhanuX.jpg
+  meta: removed
   developerName: DHANU INNOVATIVE INFORMATION TECHNOLOGY NETWORK SERVICES CO.
 
 ---

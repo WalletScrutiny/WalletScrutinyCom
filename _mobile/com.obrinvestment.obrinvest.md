@@ -2,7 +2,6 @@
 wsId: obrinvest
 title: 'OBRinvest:  Online Trading'
 verdict: nosendreceive
-meta: removed
 date: 2024-08-15
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2024-07-02
   version: 2.7.1
   icon: com.obrinvestment.obrinvest.png
+  meta: removed
   developerName: OBRinvest
 iphone:
   appId: com.obrinvestment.obrinvest
@@ -26,6 +26,7 @@ iphone:
   version: 2.6.8
   reviews: 0
   icon: com.obrinvestment.obrinvest.jpg
+  meta: removed
   developerName: OBR Investment Ltd
 
 ---

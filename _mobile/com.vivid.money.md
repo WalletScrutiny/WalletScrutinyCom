@@ -1,7 +1,6 @@
 ---
 title: Vivid Business and Personal
 verdict: wip
-meta: ok
 date: 2024-10-07
 website: https://vivid.money/en-de
 appCountry: jp
@@ -15,6 +14,7 @@ iphone:
   version: 4.28.0
   reviews: 17
   icon: com.vivid.money.jpg
+  meta: ok
   developerName: Vivid Money GmbH
 
 ---

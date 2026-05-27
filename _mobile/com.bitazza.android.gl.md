@@ -2,7 +2,6 @@
 wsId: bitazzaGL
 title: 'Bitazza: Buy & Trade Crypto'
 verdict: custodial
-meta: removed
 date: 2026-04-13
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   updated: 2026-03-17
   version: 4.7.8
   icon: com.bitazza.android.gl.png
+  meta: removed
   developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.global.ios
@@ -32,6 +32,7 @@ iphone:
   version: 3.9.26
   reviews: 188
   icon: com.bitazza.global.ios.jpg
+  meta: removed
   developerName: Bitazza Company Limited
 
 ---

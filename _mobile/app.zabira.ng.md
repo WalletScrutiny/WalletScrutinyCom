@@ -2,7 +2,6 @@
 wsId: zabiraBuyBTC
 title: 'Zabira: Buy BTC, ETH & Crypto'
 verdict: custodial
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.0.28
   reviews: 15
   icon: app.zabira.ng.png
+  meta: removed
   developerName: Zabira
 iphone:
   appId: app.zabira.ng
@@ -33,6 +33,7 @@ iphone:
   version: 1.0.28.1
   reviews: 43
   icon: app.zabira.ng.jpg
+  meta: removed
   developerName: Zabira Technologies
 
 ---

@@ -2,7 +2,6 @@
 wsId: DexTrade
 title: Dex-Trade
 verdict: custodial
-meta: obsolete
 date: 2025-05-14
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.3.0
   reviews: 28
   icon: com.dextrade.android.png
+  meta: obsolete
   developerName: Dex-Trade
 iphone:
   appId: com.dex-trade.ios
@@ -32,6 +32,7 @@ iphone:
   version: 2.1.9
   reviews: 19
   icon: com.dex-trade.ios.jpg
+  meta: obsolete
   developerName: Dex-trade
 
 ---

@@ -2,7 +2,6 @@
 wsId: cryptoXpress
 title: 'CryptoXpress: Crypto Super App'
 verdict: custodial
-meta: ok
 date: 2023-04-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-02-04
   version: 1.40.37
   icon: com.cryptoxpressmobile.png
+  meta: ok
   developerName: CryptoXpress
 iphone:
   appId: com.cryptoxpress.mobile
@@ -30,6 +30,7 @@ iphone:
   version: 1.0.43
   reviews: 22
   icon: com.cryptoxpress.mobile.jpg
+  meta: ok
   developerName: cryptoxpress
 
 ---

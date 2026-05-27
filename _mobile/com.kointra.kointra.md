@@ -2,7 +2,6 @@
 wsId: kointra
 title: Kointra - Crypto Exchange
 verdict: custodial
-meta: ok
 date: 2023-10-06
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2026-04-09
   version: 3.5.8
   icon: com.kointra.kointra.png
+  meta: ok
   developerName: Kointra Bilişim ve Teknoloji A.Ş.
 iphone:
   appId: com.kointra.Kointra.V1.0
@@ -30,6 +30,7 @@ iphone:
   version: 3.5.7(2)
   reviews: 32
   icon: com.kointra.Kointra.V1.0.jpg
+  meta: ok
   developerName: Kointra A.S
 
 ---

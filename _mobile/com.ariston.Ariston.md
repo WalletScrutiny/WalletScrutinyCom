@@ -1,7 +1,6 @@
 ---
 title: Ariston
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://www.ariston-timepieces.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-09
   version: 0.1.7
   icon: com.ariston.Ariston.png
+  meta: removed
 
 ---
 

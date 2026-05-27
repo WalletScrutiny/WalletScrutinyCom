@@ -1,7 +1,6 @@
 ---
 title: Tron Trader Expert
 verdict: wip
-meta: removed
 date: 2024-09-01
 redirect_from:
 - /android/com.tron.tradingfleet/
@@ -12,6 +11,7 @@ android:
   updated: 2022-08-05
   version: '1.2'
   icon: com.tron.tradingfleet.jpg
+  meta: removed
   developerName: Developer Sonia
 
 ---

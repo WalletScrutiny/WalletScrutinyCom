@@ -1,7 +1,6 @@
 ---
 title: Peach Bitcoin
 verdict: sourceavailable
-meta: ok
 date: 2025-11-26
 authors:
 - danny
@@ -27,6 +26,7 @@ android:
   updated: 2026-05-19
   version: 0.69.0
   icon: com.peachbitcoin.peach.mainnet.png
+  meta: ok
   developerName: Peach Bitcoin
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: ParamountDax
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://www.paramountdax.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-11-09
   version: 1.0.9
   icon: com.paramountdax.exchange.png
+  meta: removed
   developerName: ParamountDax OU
 
 ---

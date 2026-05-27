@@ -1,7 +1,6 @@
 ---
 title: Smart Contract Arbitrage Bot
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.mahdi.app/
@@ -12,6 +11,7 @@ android:
   updated: 2022-11-06
   version: '1.1'
   icon: com.mahdi.app.png
+  meta: removed
   developerName: CSCAB
 
 ---

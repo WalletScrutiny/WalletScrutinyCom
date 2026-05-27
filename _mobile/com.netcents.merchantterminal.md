@@ -1,7 +1,6 @@
 ---
 title: NetCents Merchant Gateway
 verdict: wip
-meta: fewusers
 date: 2025-07-21
 website: http://www.net-cents.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-07-18
   version: 3.1.21
   icon: com.netcents.merchantterminal.png
+  meta: fewusers
   developerName: NetCents Technology
 
 ---

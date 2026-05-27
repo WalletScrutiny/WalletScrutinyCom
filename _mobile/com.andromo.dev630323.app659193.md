@@ -1,7 +1,6 @@
 ---
 title: FudMart Cryptocurrency App
 verdict: wip
-meta: removed
 date: 2023-09-15
 website: https://chukwukaobeleagu.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-11
   version: 1.0.3
   icon: com.andromo.dev630323.app659193.jpg
+  meta: removed
   developerName: FudMart Tech. Resources
 
 ---

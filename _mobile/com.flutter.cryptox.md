@@ -1,7 +1,6 @@
 ---
 title: Cryptox Flutter Template
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://opuslab.works/apps/crypto-nft
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-29
   version: 1.0.1
   icon: com.flutter.cryptox.png
+  meta: removed
   developerName: Opus LabWorks
 
 ---

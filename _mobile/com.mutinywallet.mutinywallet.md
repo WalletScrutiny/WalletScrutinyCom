@@ -2,7 +2,6 @@
 wsId: mutiny
 title: Mutiny Wallet
 verdict: wip
-meta: removed
 date: 2025-01-27
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 1.8.0
   reviews: 5
   icon: com.mutinywallet.mutinywallet.png
+  meta: removed
   developerName: Mutiny Wallet
 iphone:
   appId: com.mutinywallet.mutiny
@@ -30,6 +30,7 @@ iphone:
   version: 1.8.0
   reviews: 18
   icon: com.mutinywallet.mutiny.jpg
+  meta: removed
   developerName: Mutiny Wallet, Inc.
 
 ---

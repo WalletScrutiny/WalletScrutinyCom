@@ -1,7 +1,6 @@
 ---
 title: Bybt
 verdict: fake
-meta: removed
 date: 2021-11-16
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.0.1.7
   reviews: 49
   icon: com.bybt.bybtapp.jpg
+  meta: removed
 
 ---
 

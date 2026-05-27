@@ -1,7 +1,6 @@
 ---
 title: PAYEER
 verdict: custodial
-meta: removed
 date: 2026-01-28
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: VARY
   reviews: 206
   icon: com.payeer.png
+  meta: removed
   developerName: Payeer Official
 
 ---

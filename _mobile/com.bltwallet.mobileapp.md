@@ -1,7 +1,6 @@
 ---
 title: BLT Wallet
 verdict: wip
-meta: removed
 date: 2023-01-30
 website: https://bitlivenow.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-01
   version: '2.5'
   icon: com.bltwallet.mobileapp.png
+  meta: removed
 
 ---
 

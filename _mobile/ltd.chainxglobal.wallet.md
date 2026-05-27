@@ -1,7 +1,6 @@
 ---
 title: ChainX Vault
 verdict: wip
-meta: fewusers
 date: 2026-01-14
 website: https://chainxglobal.ltd
 redirect_from:

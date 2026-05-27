@@ -2,7 +2,6 @@
 wsId: quidaxLite
 title: Quidax - Buy Bitcoin & Crypto
 verdict: custodial
-meta: removed
 date: 2025-08-09
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.22.0
   reviews: 105
   icon: com.quidax.lite.png
+  meta: removed
   developerName: Quidax Technologies
 iphone:
   appId: com.quidax.lite
@@ -32,6 +32,7 @@ iphone:
   version: 1.22.0
   reviews: 1829
   icon: com.quidax.lite.jpg
+  meta: removed
   developerName: Quidax Technologies
 
 ---

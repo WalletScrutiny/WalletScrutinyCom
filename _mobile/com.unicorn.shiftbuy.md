@@ -1,7 +1,6 @@
 ---
 title: ShiftBuy. Cryptocurrency excha
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.unicorn.shiftbuy/
@@ -12,6 +11,7 @@ android:
   updated: 2020-04-21
   version: 0.2.7.2
   icon: com.unicorn.shiftbuy.png
+  meta: removed
   developerName: Deex Group
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitfirst
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://bitfirst.app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-11-01
   version: 1.0.0
   icon: com.cloud.bitfirst.png
+  meta: removed
 
 ---
 

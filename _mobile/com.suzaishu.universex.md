@@ -1,7 +1,6 @@
 ---
 title: UniversEX
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.suzaishu.universex/
@@ -12,6 +11,7 @@ android:
   updated: 2021-10-22
   version: 1.0.0
   icon: com.suzaishu.universex.png
+  meta: removed
 
 ---
 

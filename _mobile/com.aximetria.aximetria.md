@@ -2,7 +2,6 @@
 wsId: Aximetria
 title: Aximetria - your Swiss crypto account
 verdict: custodial
-meta: removed
 date: 2023-09-28
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.5.51
   reviews: 215
   icon: com.aximetria.aximetria.png
+  meta: removed
 iphone:
   appId: com.aximetria.aximetria
   idd: '1361781578'
@@ -31,6 +31,7 @@ iphone:
   version: 2.1.3
   reviews: 13
   icon: com.aximetria.aximetria.jpg
+  meta: removed
 
 ---
 

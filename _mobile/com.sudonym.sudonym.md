@@ -1,7 +1,6 @@
 ---
 title: sudonym
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://sudonym.app#deadLink
 redirect_from:
@@ -12,6 +11,7 @@ android:
   updated: 2023-01-23
   version: 1.0.2
   icon: com.sudonym.sudonym.png
+  meta: removed
   developerName: sudonym
 
 ---

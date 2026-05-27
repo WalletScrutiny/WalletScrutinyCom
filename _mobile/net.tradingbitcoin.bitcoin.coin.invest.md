@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Coin Invest
 verdict: wip
-meta: removed
 date: 2021-10-01
 redirect_from:
 - /android/net.tradingbitcoin.bitcoin.coin.invest/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-21
   version: '1.0'
   icon: net.tradingbitcoin.bitcoin.coin.invest.jpg
+  meta: removed
 
 ---
 

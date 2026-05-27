@@ -1,7 +1,6 @@
 ---
 title: Enifex
 verdict: wip
-meta: fewusers
 date: 2025-06-03
 website: https://enifex.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-08-11
   version: 1.4.1
   icon: com.blockchaincommodities.enifex.png
+  meta: fewusers
   developerName: Blockchain Commodities
 
 ---

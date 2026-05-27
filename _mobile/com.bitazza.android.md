@@ -2,7 +2,6 @@
 wsId: bitazza
 title: 'Bitazza TH: Buy & Trade Crypto'
 verdict: custodial
-meta: ok
 date: 2021-09-03
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 4.8.1
   reviews: 2511
   icon: com.bitazza.android.png
+  meta: ok
   developerName: Bitazza Company Limited
 iphone:
   appId: com.bitazza.ios
@@ -32,6 +32,7 @@ iphone:
   version: 4.4.1
   reviews: 2388
   icon: com.bitazza.ios.jpg
+  meta: ok
   developerName: Bitazza Company Limited
 
 ---

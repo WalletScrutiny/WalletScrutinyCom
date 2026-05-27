@@ -2,7 +2,6 @@
 wsId: SwipeWallet
 title: Swipe Wallet
 verdict: custodial
-meta: removed
 date: 2021-07-06
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   version: '1.901'
   reviews: 1110
   icon: com.swipe.wallet.png
+  meta: removed
 iphone:
   appId: com.swipe.wallet
   idd: 1476726454
@@ -30,6 +30,7 @@ iphone:
   version: '1.900'
   reviews: 939
   icon: com.swipe.wallet.jpg
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: junoFinance
 title: Juno - Buy Bitcoin & Litecoin
 verdict: custodial
-meta: removed
 date: 2024-12-23
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: 4.0.45
   reviews: 465
   icon: com.capitalJ.onJuno.jpg
+  meta: removed
   developerName: OnJuno Mobile Banking
 iphone:
   appId: com.capitalJ.onJuno
@@ -31,6 +31,7 @@ iphone:
   version: 4.3.0
   reviews: 1010
   icon: com.capitalJ.onJuno.jpg
+  meta: removed
   developerName: CapitalJ Inc
 
 ---

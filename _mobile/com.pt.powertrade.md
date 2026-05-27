@@ -2,7 +2,6 @@
 wsId: powerTrade
 title: PowerTrade
 verdict: custodial
-meta: ok
 date: 2026-01-14
 authors:
 - danny

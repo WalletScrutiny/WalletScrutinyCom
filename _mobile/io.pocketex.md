@@ -1,7 +1,6 @@
 ---
 title: Pocket Exchange
 verdict: wip
-meta: removed
 date: 2025-01-15
 website: https://pocketexchange.io
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-08-25
   version: 1.0.1
   icon: io.pocketex.png
+  meta: removed
   developerName: Hilotech
 
 ---

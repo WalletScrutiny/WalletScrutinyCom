@@ -2,7 +2,6 @@
 wsId: trubit
 title: 'TruBit: Crypto Wallet'
 verdict: custodial
-meta: ok
 date: 2023-04-29
 authors:
 - danny
@@ -28,6 +27,7 @@ android:
   version: 3.1.7
   reviews: 9
   icon: com.oakk.starocket_wallet.png
+  meta: ok
   developerName: TruBit Ltd.
 iphone:
   appId: com.oakk.starocket-wallet
@@ -38,6 +38,7 @@ iphone:
   version: 3.1.6
   reviews: 8
   icon: com.oakk.starocket-wallet.jpg
+  meta: ok
   developerName: TruBit Ltd.
 
 ---

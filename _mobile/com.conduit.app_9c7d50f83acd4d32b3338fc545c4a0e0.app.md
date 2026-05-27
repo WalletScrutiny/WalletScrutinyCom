@@ -1,7 +1,6 @@
 ---
 title: MoolaBit
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://moolabit.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-03-31
   version: 1.4.6.17
   icon: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app.png
+  meta: removed
   developerName: Courtesy Logistics
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Testnet Wallet
 verdict: wip
-meta: removed
 date: 2023-09-28
 website: https://bitcoin-wallet.flycricket.io/
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: '1.0'
   reviews: 1
   icon: com.bitcoin.wallet.btc.testnet.png
+  meta: removed
   developerName: InvoVN Solutions
 
 ---

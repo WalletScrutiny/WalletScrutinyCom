@@ -1,7 +1,6 @@
 ---
 title: Skywallet
 verdict: wip
-meta: removed
 date: 2022-05-31
 website: https://skywallet.net
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-05-11
   version: 1.0.3
   icon: skywallet.net.jpg
+  meta: removed
 
 ---
 

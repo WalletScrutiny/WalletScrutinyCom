@@ -1,7 +1,6 @@
 ---
 title: 'Coinhub: Multi-Chain Wallet'
 verdict: nosource
-meta: removed
 date: 2025-03-14
 authors:
 - leo
@@ -17,6 +16,7 @@ android:
   version: 2.7.9
   reviews: 31
   icon: com.coinhub.wallet.png
+  meta: removed
   developerName: Coinhub
 
 ---

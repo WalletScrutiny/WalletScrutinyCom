@@ -1,7 +1,6 @@
 ---
 title: Suponic
 verdict: wip
-meta: removed
 date: 2023-06-03
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '1.0'
   reviews: 2
   icon: com.suponicexchange.app.png
+  meta: removed
   developerName: Suponic
 
 ---

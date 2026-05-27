@@ -2,7 +2,6 @@
 wsId: azasendBitcoin
 title: 'Azasend: Buy, Sell Bitcoin'
 verdict: custodial
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 3.9.1
   reviews: 77
   icon: com.azasend.app.jpg
+  meta: ok
   developerName: Azasend Sp
 iphone:
   appId: com.azasend.app
@@ -29,6 +29,7 @@ iphone:
   version: 3.9.1
   reviews: 9
   icon: com.azasend.app.jpg
+  meta: ok
   developerName: Azasend Ltd
 
 ---

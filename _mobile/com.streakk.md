@@ -2,7 +2,6 @@
 wsId: streakkWallet
 title: Earn World
 verdict: nosource
-meta: removed
 date: 2024-10-08
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: '3.7'
   reviews: 2
   icon: com.streakk.png
+  meta: removed
   developerName: Streakk Technologies
 iphone:
   appId: com.streakk.wallet
@@ -35,6 +35,7 @@ iphone:
   version: '2.6'
   reviews: 9
   icon: com.streakk.wallet.jpg
+  meta: removed
   developerName: Streakk Technologies Trading
 
 ---

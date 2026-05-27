@@ -2,7 +2,6 @@
 wsId: LBank
 title: LBank - Buy Bitcoin & Crypto
 verdict: custodial
-meta: ok
 date: 2021-10-21
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 7.9.7
   reviews: 686
   icon: com.superchain.lbankgoogle.png
+  meta: ok
   developerName: LBank
 iphone:
   appId: com.LBank.LBankNavApp
@@ -32,6 +32,7 @@ iphone:
   version: 6.0.1
   reviews: 701
   icon: com.LBank.LBankNavApp.jpg
+  meta: ok
   developerName: LBANK EXCHANGE UAB
 
 ---

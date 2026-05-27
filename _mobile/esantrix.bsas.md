@@ -1,7 +1,6 @@
 ---
 title: ESXCoin Criptomoneda
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://santiagocelentano.wixsite.com/esantrix#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-04-11
   version: '9.8'
   icon: esantrix.bsas.png
+  meta: removed
   developerName: Santiago Celentano
 
 ---

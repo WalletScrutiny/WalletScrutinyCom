@@ -2,7 +2,6 @@
 wsId: 21Bitcoin
 title: '21bitcoin: Buy Bitcoin 24/7'
 verdict: custodial
-meta: ok
 date: 2023-09-06
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-19
   version: 2.1.1
   icon: fior.digital21app.png
+  meta: ok
   developerName: FIOR Digital GmbH
 iphone:
   appId: digital.fior.21app
@@ -31,6 +31,7 @@ iphone:
   version: 2.2.1
   reviews: 1
   icon: digital.fior.21app.jpg
+  meta: ok
   developerName: FIOR Digital GmbH
 
 ---

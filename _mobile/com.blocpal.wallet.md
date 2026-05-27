@@ -2,7 +2,6 @@
 wsId: BlocPal
 title: BlocPal Wallet
 verdict: nosource
-meta: obsolete
 date: 2023-01-02
 authors:
 - danny

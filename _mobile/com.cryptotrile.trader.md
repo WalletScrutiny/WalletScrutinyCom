@@ -1,7 +1,6 @@
 ---
 title: Cryptotrile
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://cryptotrile.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-09-02
   version: 1.0.2
   icon: com.cryptotrile.trader.png
+  meta: removed
   developerName: Kryptsam
 
 ---

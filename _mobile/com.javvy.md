@@ -1,7 +1,6 @@
 ---
 title: Javvy
 verdict: wip
-meta: removed
 date: 2023-05-26
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.0.4
   reviews: 6
   icon: com.javvy.png
+  meta: removed
   developerName: Javvy Technologies Ltd
 
 ---

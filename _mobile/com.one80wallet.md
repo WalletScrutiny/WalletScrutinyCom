@@ -1,7 +1,6 @@
 ---
 title: 'One80: Crypto DeFi Wallet'
 verdict: wip
-meta: fewusers
 date: 2025-11-10
 website: https://one80wallet.io/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2025-12-15
   version: 1.0.12
   icon: com.one80wallet.png
+  meta: fewusers
   developerName: One80
 
 ---

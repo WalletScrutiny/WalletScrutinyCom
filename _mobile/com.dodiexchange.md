@@ -1,7 +1,6 @@
 ---
 title: Dodi Exchange
 verdict: wip
-meta: removed
 date: 2024-07-05
 redirect_from:
 - /android/com.dodiexchange/
@@ -12,6 +11,7 @@ android:
   updated: 2022-01-21
   version: '1.0'
   icon: com.dodiexchange.png
+  meta: removed
   developerName: isaac andrews
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Coldlar - Crypto & Web3 Wallet
 verdict: wip
-meta: ok
 date: 2024-12-11
 authors:
 - danny
@@ -17,6 +16,7 @@ iphone:
   version: 1.20.2
   reviews: 5
   icon: com.coinlinksec.jpg
+  meta: ok
   developerName: CoinLink SecureTech Limited
 
 ---

@@ -2,7 +2,6 @@
 wsId: conglex
 title: Conglex
 verdict: custodial
-meta: ok
 date: 2025-04-06
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2025-08-14
   version: 2.0.4
   icon: com.conglex.conglex.png
+  meta: ok
   developerName: Conglex Developers
 iphone:
   appId: com.conglex.mobile
@@ -30,6 +30,7 @@ iphone:
   version: 2.0.4
   reviews: 0
   icon: com.conglex.mobile.jpg
+  meta: ok
   developerName: Conglex Limited
 
 ---

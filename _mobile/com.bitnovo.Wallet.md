@@ -2,7 +2,6 @@
 wsId: BitnovoWallet
 title: Bitnovo – Buy Bitcoin
 verdict: nosource
-meta: ok
 date: 2024-07-17
 authors:
 - danny

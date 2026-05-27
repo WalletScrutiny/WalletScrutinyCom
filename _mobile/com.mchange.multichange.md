@@ -1,7 +1,6 @@
 ---
 title: Multichange – купить Bitcoin и продать за рубли
 verdict: wip
-meta: removed
 date: 2022-01-15
 redirect_from:
 - /android/com.mchange.multichange/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 5
   icon: com.mchange.multichange.png
+  meta: removed
 
 ---
 

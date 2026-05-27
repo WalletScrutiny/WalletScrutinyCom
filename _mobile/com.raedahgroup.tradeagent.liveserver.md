@@ -1,7 +1,6 @@
 ---
 title: TradeAgent
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.raedahgroup.tradeagent.liveserver/
@@ -11,6 +10,7 @@ android:
   updated: 2021-12-01
   version: VARY
   icon: com.raedahgroup.tradeagent.liveserver.png
+  meta: removed
 
 ---
 

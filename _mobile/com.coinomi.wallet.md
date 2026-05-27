@@ -2,7 +2,6 @@
 wsId: coinomi
 title: 'Coinomi: Crypto Bitcoin Wallet'
 verdict: nosource
-meta: ok
 date: 2024-09-14
 authors:
 - leo
@@ -35,6 +34,7 @@ android:
   version: 1.67.1
   reviews: 2330
   icon: com.coinomi.wallet.png
+  meta: ok
   developerName: Coinomi
 iphone:
   appId: com.coinomi.wallet
@@ -44,6 +44,7 @@ iphone:
   version: 1.67.1
   reviews: 2090
   icon: com.coinomi.wallet.jpg
+  meta: ok
   developerName: Loksias SA
 
 ---

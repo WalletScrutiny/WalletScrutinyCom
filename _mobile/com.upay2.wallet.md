@@ -2,7 +2,6 @@
 wsId: upayWallet
 title: UPay Wallet
 verdict: custodial
-meta: ok
 date: 2026-01-23
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.0.6
   reviews: 5
   icon: com.upay2.wallet.png
+  meta: ok
   developerName: UPay
 iphone:
   appId: com.upay2.wallet
@@ -32,6 +32,7 @@ iphone:
   version: 1.0.6
   reviews: 6
   icon: com.upay2.wallet.jpg
+  meta: ok
   developerName: UPay Technology LTD.
 
 ---

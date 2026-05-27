@@ -1,7 +1,6 @@
 ---
 title: Wowoo Portal
 verdict: wip
-meta: removed
 date: 2023-12-19
 website: http://wowoonet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-10-13
   version: 2.1.0
   icon: com.beta.obc.WOWOO.jpg
+  meta: removed
   developerName: WOWOO PTE. LTD.
 
 ---

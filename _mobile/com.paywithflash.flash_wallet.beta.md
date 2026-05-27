@@ -1,7 +1,6 @@
 ---
 title: 'Flash: Bitcoin Wallet (Beta)'
 verdict: nosource
-meta: ok
 date: 2026-05-20
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2025-12-30
   version: VARY
   icon: com.paywithflash.flash_wallet.beta.png
+  meta: ok
   developerName: Flash Lightning Solutions
 
 ---

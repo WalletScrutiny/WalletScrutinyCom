@@ -2,7 +2,6 @@
 wsId: gcmasiapro
 title: GCMAsia Pro
 verdict: nosendreceive
-meta: removed
 date: 2025-06-11
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2024-08-18
   version: 90.4.010
   icon: com.gcmasia.pro.png
+  meta: removed
   developerName: GCM Europe Ltd
 
 ---

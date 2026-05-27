@@ -2,7 +2,6 @@
 wsId: midasKripto
 title: 'Midas Kripto: Bitcoin Al Sat'
 verdict: custodial
-meta: ok
 date: 2025-11-18
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.98.1
   reviews: 3
   icon: com.getmidas.crypto.png
+  meta: ok
   developerName: Midas Finansal Teknolojiler
 iphone:
   appId: com.midas.crypto
@@ -29,6 +29,7 @@ iphone:
   version: 2.97.0
   reviews: 2947
   icon: com.midas.crypto.jpg
+  meta: ok
   developerName: MIDAS FINANSAL TEKNOLOJILER AS
 
 ---

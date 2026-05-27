@@ -1,7 +1,6 @@
 ---
 title: CCUSD
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/us.dt777.com/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-20
   version: 1.0.9
   icon: us.dt777.com.png
+  meta: removed
   developerName: CCUSD
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: BIT.EU Trade Futures Crypto
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2026-04-28
   version: 200.5.5
   icon: com.combiteu.png
+  meta: ok
   developerName: Bit.Eu
 
 ---

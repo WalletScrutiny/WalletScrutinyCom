@@ -2,7 +2,6 @@
 wsId: covest
 title: 코베스트 - COVEST
 verdict: custodial
-meta: ok
 date: 2023-05-17
 authors:
 - danny

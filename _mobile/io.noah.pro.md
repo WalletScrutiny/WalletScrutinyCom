@@ -1,7 +1,6 @@
 ---
 title: BitradeX-AI Crypto Trading
 verdict: custodial
-meta: ok
 date: 2026-01-26
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: 1.2.8
   reviews: 17
   icon: io.noah.pro.png
+  meta: ok
   developerName: bitradex
 
 ---

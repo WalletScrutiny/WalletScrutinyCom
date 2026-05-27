@@ -1,7 +1,6 @@
 ---
 title: WISEWALLET
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: http://www.wisekey.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-10-28
   version: 1.1.1
   icon: com.wisekey.wisewallet.png
+  meta: removed
   developerName: WISeKey
 
 ---

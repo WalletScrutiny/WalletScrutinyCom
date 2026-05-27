@@ -1,7 +1,6 @@
 ---
 title: MonaWallet
 verdict: wip
-meta: obsolete
 date: 2021-08-17
 website: https://monawallet.net
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 2.0.0
   reviews: 1
   icon: jp.pronama.monawallet.jpg
+  meta: obsolete
   developerName: Pronama LLC
 
 ---

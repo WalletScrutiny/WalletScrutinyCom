@@ -1,7 +1,6 @@
 ---
 title: 'Bitcoin Wallet: Blockchain NFT'
 verdict: fake
-meta: removed
 date: 2024-02-05
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   version: 3.0.7
   reviews: 304
   icon: com.bitcoin.wallet.btc.png
+  meta: removed
   developerName: InvoVN Solutions
 
 ---

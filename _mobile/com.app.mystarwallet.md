@@ -1,7 +1,6 @@
 ---
 title: MyStarWallet- Ethereum & Btc & Erc-20 Mutil Wallet
 verdict: wip
-meta: removed
 date: 2021-09-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.47'
   reviews: 200
   icon: com.app.mystarwallet.png
+  meta: removed
 
 ---
 

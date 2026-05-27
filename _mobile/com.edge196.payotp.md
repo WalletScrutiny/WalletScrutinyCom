@@ -1,7 +1,6 @@
 ---
 title: PAYOTP - Crypto Exchange & Mer
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: http://payotp.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-07-18
   version: '1.0'
   icon: com.edge196.payotp.png
+  meta: removed
   developerName: PAYOTP
 
 ---

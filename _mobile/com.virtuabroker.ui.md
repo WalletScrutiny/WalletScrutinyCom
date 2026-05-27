@@ -1,7 +1,6 @@
 ---
 title: VirtuaBroker
 verdict: wip
-meta: obsolete
 date: 2024-02-14
 website: https://virtuabroker.com
 redirect_from:
@@ -14,6 +13,7 @@ android:
   version: 1.0.3
   reviews: 24
   icon: com.virtuabroker.ui.png
+  meta: obsolete
   developerName: VirtuaBroker Ltd
 
 ---

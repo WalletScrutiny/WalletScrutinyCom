@@ -1,7 +1,6 @@
 ---
 title: SecSycript Card
 verdict: wip
-meta: obsolete
 date: 2025-04-01
 website: http://www.kingmax.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-07-01
   version: '12.08'
   icon: com.kingmax.wallet.png
+  meta: obsolete
   developerName: KINGMAX 勝創科技
 
 ---

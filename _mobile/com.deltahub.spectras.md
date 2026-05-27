@@ -1,7 +1,6 @@
 ---
 title: CozyWallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 3.3.9
   reviews: 2364
   icon: com.deltahub.spectras.jpg
+  meta: ok
   developerName: Delta Hub Ltd.
 
 ---

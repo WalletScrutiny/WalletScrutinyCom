@@ -1,7 +1,6 @@
 ---
 title: Pipezi Wallet
 verdict: wip
-meta: removed
 date: 2024-04-03
 redirect_from:
 - /android/com.pipezi/
@@ -12,6 +11,7 @@ android:
   updated: 2021-09-17
   version: 2.5.3
   icon: com.pipezi.jpg
+  meta: removed
   developerName: Piptle Wealth Management Pty Ltd
 
 ---

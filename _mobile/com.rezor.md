@@ -2,7 +2,6 @@
 wsId: rezorWallet
 title: 'Rezor : Crypto Wallet'
 verdict: nosource
-meta: ok
 date: 2025-12-08
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   version: '1'
   reviews: 10
   icon: com.rezor.png
+  meta: ok
   developerName: saitaresilia
 iphone:
   appId: com.rezor
@@ -31,6 +31,7 @@ iphone:
   version: 1.0.5
   reviews: 21
   icon: com.rezor.jpg
+  meta: ok
   developerName: rezor foundation
 
 ---

@@ -1,6 +1,5 @@
 ---
 title: 'SuperEx: Trade Crypto & BTC'
-meta: ok
 date: 2023-01-31
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 2.9.62
   reviews: 258
   icon: com.superex.ex.png
+  meta: ok
   verdict: custodial
   developerName: SUPEREX
 iphone:
@@ -31,6 +31,7 @@ iphone:
   version: 2.9.33
   reviews: 185
   icon: com.superex.ex.jpg
+  meta: ok
   verdict: wip
   developerName: SUPERDAO INC
 

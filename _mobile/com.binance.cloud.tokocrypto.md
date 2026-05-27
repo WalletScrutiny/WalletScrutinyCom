@@ -2,7 +2,6 @@
 wsId: tokocrypto
 title: 'Tokocrypto: Buy Bitcoin Crypto'
 verdict: custodial
-meta: ok
 date: 2021-08-21
 authors:
 - danny

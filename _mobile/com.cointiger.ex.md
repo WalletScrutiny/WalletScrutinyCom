@@ -2,7 +2,6 @@
 wsId: cointiger
 title: CoinTiger-Crypto Exchange
 verdict: custodial
-meta: removed
 date: 2022-01-15
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 5.13.2
   reviews: 156
   icon: com.cointiger.ex.png
+  meta: removed
   developerName: CoinTiger Inc.
 iphone:
   appId: com.cointiger.ex
@@ -32,6 +32,7 @@ iphone:
   version: 5.0.6
   reviews: 96
   icon: com.cointiger.ex.jpg
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Digibot99
 verdict: wip
-meta: removed
 date: 2023-05-23
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-11-07
   version: 0.0.1
   icon: com.digibot99.dgb.png
+  meta: removed
   developerName: Smart Crypto Studio
 
 ---

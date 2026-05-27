@@ -1,7 +1,6 @@
 ---
 title: CMC Insight
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/com.logik.cmcinsight/
@@ -12,6 +11,7 @@ android:
   updated: 2020-11-02
   version: 1.0.1
   icon: com.logik.cmcinsight.png
+  meta: removed
   developerName: Babatunde Dallas
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'ByBIS : Global Crypto Exchange'
 verdict: custodial
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   updated: 2023-07-12
   version: '1.13'
   icon: com.bybis.exchange.png
+  meta: removed
   developerName: ByBIS Limited
 
 ---

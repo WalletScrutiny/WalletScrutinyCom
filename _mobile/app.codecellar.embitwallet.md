@@ -1,7 +1,6 @@
 ---
 title: 'Embit: Bitcoin Wallet, Testnet'
 verdict: wip
-meta: removed
 date: 2025-03-11
 redirect_from:
 - /android/app.codecellar.embitwallet/
@@ -12,6 +11,7 @@ android:
   updated: 2025-01-27
   version: '6.11'
   icon: app.codecellar.embitwallet.png
+  meta: removed
   developerName: Code Cellar
 
 ---

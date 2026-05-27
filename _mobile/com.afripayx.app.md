@@ -1,7 +1,6 @@
 ---
 title: AfripayX
 verdict: wip
-meta: removed
 date: 2025-02-04
 redirect_from:
 - /android/com.afripayx.app/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-21
   version: 1.0.0
   icon: com.afripayx.app.png
+  meta: removed
   developerName: CodeBS
 
 ---

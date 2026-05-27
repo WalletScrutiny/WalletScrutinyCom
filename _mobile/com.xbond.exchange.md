@@ -1,7 +1,6 @@
 ---
 title: XBOND Crypto Exchange
 verdict: wip
-meta: removed
 date: 2021-08-26
 redirect_from:
 - /android/com.xbond.exchange/
@@ -13,6 +12,7 @@ android:
   version: '2.4'
   reviews: 4
   icon: com.xbond.exchange.png
+  meta: removed
 
 ---
 

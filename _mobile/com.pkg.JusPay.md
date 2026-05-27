@@ -1,7 +1,6 @@
 ---
 title: Jus Pay
 verdict: wip
-meta: removed
 date: 2023-05-31
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-11-10
   version: 3.0.0
   icon: com.pkg.JusPay.png
+  meta: removed
   developerName: Abdurahman Unia
 
 ---

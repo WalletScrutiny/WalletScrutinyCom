@@ -1,7 +1,6 @@
 ---
 title: MTCtrader
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://mtctraders.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-02-07
   version: '1.1'
   icon: com.mtctrader.png
+  meta: removed
   developerName: TechXSpace
 
 ---

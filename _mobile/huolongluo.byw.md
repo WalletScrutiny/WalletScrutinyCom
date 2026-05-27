@@ -1,7 +1,6 @@
 ---
 title: CoinW
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/huolongluo.byw/
@@ -13,6 +12,7 @@ android:
   version: 9.5.21
   reviews: 108
   icon: huolongluo.byw.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: bitStack
 title: Bitstack - Buy & Sell Bitcoin
 verdict: custodial
-meta: ok
 date: 2025-11-13
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-05-02
   version: 3.8.5
   icon: com.bitstack.app.png
+  meta: ok
   developerName: Bitstack
 iphone:
   appId: com.bitstack.app
@@ -27,6 +27,7 @@ iphone:
   version: 3.8.6
   reviews: 149
   icon: com.bitstack.app.jpg
+  meta: ok
   developerName: Bitstack Digital Assets SAS
 
 ---

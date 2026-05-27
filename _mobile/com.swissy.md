@@ -1,7 +1,6 @@
 ---
 title: Swissy
 verdict: wip
-meta: removed
 date: 2021-10-26
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: '3.3'
   reviews: 9
   icon: com.swissy.jpg
+  meta: removed
 
 ---
 

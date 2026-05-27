@@ -1,7 +1,6 @@
 ---
 title: Samourai Bitcoin Wallet
 verdict: fake
-meta: removed
 date: 2021-09-10
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-08-01
   version: '9.8'
   icon: samurai.wallet.crypto.png
+  meta: removed
 
 ---
 

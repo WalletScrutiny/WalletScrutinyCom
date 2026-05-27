@@ -2,7 +2,6 @@
 wsId: ForexTB
 title: 'ForexTB: Online Trading'
 verdict: nosendreceive
-meta: removed
 date: 2024-02-05
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 2.7.1
   reviews: 146
   icon: com.forextb.forextb.png
+  meta: removed
   developerName: Forex TB Limited
 iphone:
   appId: com.forextb.forextb
@@ -28,6 +28,7 @@ iphone:
   version: 2.5.2
   reviews: 0
   icon: com.forextb.forextb.jpg
+  meta: removed
   developerName: Forex TB Limited
 
 ---

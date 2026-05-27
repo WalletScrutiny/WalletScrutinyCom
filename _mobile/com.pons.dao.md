@@ -1,7 +1,6 @@
 ---
 title: DAO Wallet
 verdict: wip
-meta: removed
 date: 2021-11-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-09-18
   version: 1.0.0.20
   icon: com.pons.dao.jpg
+  meta: removed
   developerName: DAO Consensus
 
 ---

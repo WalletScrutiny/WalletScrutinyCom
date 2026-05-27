@@ -1,7 +1,6 @@
 ---
 title: Mithila Wallet
 verdict: wip
-meta: removed
 date: 2023-08-04
 redirect_from:
 - /android/com.mithilawallet.app/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-03
   version: 3.0.1
   icon: com.mithilawallet.app.jpg
+  meta: removed
   developerName: HyperCompute
 
 ---

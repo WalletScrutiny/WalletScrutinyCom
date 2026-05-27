@@ -1,7 +1,6 @@
 ---
 title: Bitindi Wallet
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://bitindi.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-09-29
   version: 0.1.0
   icon: com.bitindi.wallet.png
+  meta: removed
   developerName: Bitindi Blockchain
 
 ---

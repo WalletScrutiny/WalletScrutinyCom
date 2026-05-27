@@ -2,7 +2,6 @@
 wsId: bitcoinRDExchange
 title: BitcoinRD Exchange
 verdict: custodial
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   updated: 2026-02-04
   version: 0.18.4
   icon: com.bitcoinrd.BitcoinRD.png
+  meta: ok
   developerName: BitcoinRD
 iphone:
   appId: com.bitcoinrd.BitcoinRDexchange
@@ -27,6 +27,7 @@ iphone:
   version: 0.18.4
   reviews: 1
   icon: com.bitcoinrd.BitcoinRDexchange.jpg
+  meta: ok
   developerName: BitcoinRD
 
 ---

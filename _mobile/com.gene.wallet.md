@@ -1,7 +1,6 @@
 ---
 title: GENE Wallet (Bitcoin, Ether, G
 verdict: custodial
-meta: removed
 date: 2024-04-03
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   updated: 2019-02-08
   version: 1.4.1
   icon: com.gene.wallet.png
+  meta: removed
   developerName: PARKGENE
 
 ---

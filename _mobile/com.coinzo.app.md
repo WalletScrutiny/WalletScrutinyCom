@@ -1,7 +1,6 @@
 ---
 title: Coinzo
 verdict: wip
-meta: removed
 date: 2023-03-30
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2021-05-11
   version: 1.0.1
   icon: com.coinzo.app.png
+  meta: removed
   developerName: Coinzo
 
 ---

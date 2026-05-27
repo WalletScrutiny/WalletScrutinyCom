@@ -2,7 +2,6 @@
 wsId: azara
 title: 'Azara Crypto & Bitcoin Wallet:'
 verdict: custodial
-meta: removed
 date: 2023-01-11
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   updated: 2021-04-14
   version: 0.01.18
   icon: ai.azara.wallet.png
+  meta: removed
   developerName: Azara Processing LP
 iphone:
   appId: ai.azara.wallet
@@ -27,6 +27,7 @@ iphone:
   version: 0.01.18
   reviews: 0
   icon: ai.azara.wallet.jpg
+  meta: removed
 
 ---
 

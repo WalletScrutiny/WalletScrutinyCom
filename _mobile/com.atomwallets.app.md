@@ -2,7 +2,6 @@
 wsId: atomCryptoBitcoinWallet
 title: 'Atom: Crypto & USDT Wallet'
 verdict: nosource
-meta: ok
 date: 2026-03-05
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2026-04-22
   version: 2.2.9
   icon: com.atomwallets.app.png
+  meta: ok
   developerName: PayAtom
 iphone:
   appId: ios.atomwallets.com
@@ -28,6 +28,7 @@ iphone:
   version: 2.2.7
   reviews: 1
   icon: ios.atomwallets.com.jpg
+  meta: ok
   developerName: Atom Wallets
 
 ---

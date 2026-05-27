@@ -2,7 +2,6 @@
 wsId: capeCryptoExchange
 title: Cape Crypto Exchange
 verdict: custodial
-meta: ok
 date: 2023-09-06
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   updated: 2026-05-19
   version: 4.1.6
   icon: com.capecrypto.png
+  meta: ok
   developerName: Cape Crypto
 iphone:
   appId: com.capecrypto.ios
@@ -35,6 +35,7 @@ iphone:
   version: 4.1.6
   reviews: 9
   icon: com.capecrypto.ios.jpg
+  meta: ok
   developerName: Cape Crypto Pty Ltd
 
 ---

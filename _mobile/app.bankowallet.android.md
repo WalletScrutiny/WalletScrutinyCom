@@ -2,7 +2,6 @@
 wsId: bankoWallet
 title: Banko Wallet - Bitcoin, ETH, T
 verdict: wip
-meta: removed
 date: 2023-05-10
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2020-06-29
   version: 1.3.17851
   icon: app.bankowallet.android.png
+  meta: removed
   developerName: BITROCK
 iphone:
   appId: app.banko.ios
@@ -33,6 +33,7 @@ iphone:
   version: 1.5.6
   reviews: 5
   icon: app.banko.ios.jpg
+  meta: removed
   developerName: BITROCK PTE. LTD.
 
 ---

@@ -2,7 +2,6 @@
 wsId: copterExchange
 title: Copter
 verdict: custodial
-meta: removed
 date: 2024-03-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2022-09-16
   version: 1.5.7
   icon: com.exchangecopter.Copter.png
+  meta: removed
   developerName: Copter S.A
 iphone:
   appId: com.exchangecopter.Copter
@@ -31,6 +31,7 @@ iphone:
   version: 1.5.7
   reviews: 1
   icon: com.exchangecopter.Copter.jpg
+  meta: removed
   developerName: Copter SA
 
 ---

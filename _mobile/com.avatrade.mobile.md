@@ -1,7 +1,6 @@
 ---
 title: 'AvaTrade: Trading & Investing'
 verdict: nosendreceive
-meta: ok
 date: 2021-08-21
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: '168.7'
   reviews: 11
   icon: com.avatrade.mobile.png
+  meta: ok
   developerName: Ava Financial Ltd
 
 ---

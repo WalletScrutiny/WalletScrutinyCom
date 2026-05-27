@@ -1,7 +1,6 @@
 ---
 title: Dompet Bitcoin Indonesia
 verdict: custodial
-meta: removed
 date: 2023-01-02
 authors:
 - leo
@@ -18,6 +17,7 @@ android:
   version: 2.4.9
   reviews: 31
   icon: co.id.dompet.btc.indonesia.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: spatium
 title: Spatium MPC Crypto Wallet
 verdict: nosource
-meta: removed
 date: 2025-01-27
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   updated: 2024-02-22
   version: 3.2.5
   icon: capital.spatium.wallet.png
+  meta: removed
   developerName: CaspianTechnologies
 iphone:
   appId: capital.spatium.wallet
@@ -33,6 +33,7 @@ iphone:
   version: 3.2.5
   reviews: 26
   icon: capital.spatium.wallet.jpg
+  meta: removed
   developerName: CaspianTechnologies
 
 ---

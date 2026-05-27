@@ -1,7 +1,6 @@
 ---
 title: AIS-X Exchange
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://ais-ex.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-29
   version: 1.0.6
   icon: com.aisx.png
+  meta: removed
   developerName: Vnext
 
 ---

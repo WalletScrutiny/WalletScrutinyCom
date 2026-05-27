@@ -1,7 +1,6 @@
 ---
 title: ABCore
 verdict: sourceavailable
-meta: removed
 date: 2024-04-19
 authors:
 - leo
@@ -22,6 +21,7 @@ android:
   icon: com.greenaddress.abcore.png
   alternativeStores:
   - fdroid
+  meta: removed
   developerName: GreenAddress IT Ltd
 
 ---

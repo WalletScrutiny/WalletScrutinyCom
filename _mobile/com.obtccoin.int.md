@@ -1,7 +1,6 @@
 ---
 title: Obtccoin：Trade BTC & Crypto
 verdict: wip
-meta: removed
 date: 2023-07-11
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2022-12-30
   version: 1.3.5
   icon: com.obtccoin.int.jpg
+  meta: removed
   developerName: OBTCCOIN
 
 ---

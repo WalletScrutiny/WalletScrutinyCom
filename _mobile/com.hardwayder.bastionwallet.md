@@ -1,7 +1,6 @@
 ---
 title: Bastion Wallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -14,6 +13,7 @@ iphone:
   version: 1.0.170
   reviews: 1
   icon: com.hardwayder.bastionwallet.jpg
+  meta: ok
   developerName: Bastion Research Ltd.
 
 ---

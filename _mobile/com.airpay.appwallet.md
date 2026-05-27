@@ -1,7 +1,6 @@
 ---
 title: AirPay wallet
 verdict: nosource
-meta: removed
 date: 2024-10-28
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2022-04-15
   version: 1.0.8
   icon: com.airpay.appwallet.png
+  meta: removed
   developerName: AIRPAY.FINANCE
 
 ---

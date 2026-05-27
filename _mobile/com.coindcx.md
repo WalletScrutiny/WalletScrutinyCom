@@ -1,7 +1,6 @@
 ---
 title: CoinDCX Pro:Trade BTC & Crypto
 verdict: custodial
-meta: removed
 date: 2026-03-18
 authors:
 - danny
@@ -20,6 +19,7 @@ android:
   version: 6.34.0003
   reviews: 111
   icon: com.coindcx.png
+  meta: removed
   developerName: CoinDCX Official
 
 ---

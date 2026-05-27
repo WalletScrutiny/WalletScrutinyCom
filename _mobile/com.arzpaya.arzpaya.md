@@ -1,7 +1,6 @@
 ---
 title: ArzPaya
 verdict: custodial
-meta: ok
 date: 2025-11-12
 authors:
 - danny
@@ -16,6 +15,7 @@ android:
   version: 4.08.17.02
   reviews: 5
   icon: com.arzpaya.arzpaya.png
+  meta: ok
   developerName: ArzPaya
 
 ---

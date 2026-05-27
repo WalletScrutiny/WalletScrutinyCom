@@ -2,7 +2,6 @@
 wsId: coinRivet
 title: Coin Rivet
 verdict: custodial
-meta: ok
 date: 2024-04-02
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-05-18
   version: 1.5.2.1248
   icon: com.galias.coinrivet.png
+  meta: ok
   developerName: Galias Services
 iphone:
   appId: com.luxontech.coinrivet
@@ -31,6 +31,7 @@ iphone:
   version: 1.3.23
   reviews: 0
   icon: com.luxontech.coinrivet.jpg
+  meta: ok
   developerName: GALIAS SERVICES UAB
 
 ---

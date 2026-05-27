@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Trader Expert
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/com.buybitcoin.traidercrypto/
@@ -12,6 +11,7 @@ android:
   updated: 2022-04-15
   version: '1'
   icon: com.buybitcoin.traidercrypto.jpg
+  meta: removed
 
 ---
 

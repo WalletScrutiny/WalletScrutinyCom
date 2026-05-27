@@ -1,7 +1,6 @@
 ---
 title: Tower Wallet
 verdict: nosource
-meta: removed
 date: 2023-09-04
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   updated: 2020-07-16
   version: 3.3.35
   icon: jp.goldex.towerwallet.png
+  meta: removed
   developerName: GOLDEX.,Inc.
 
 ---

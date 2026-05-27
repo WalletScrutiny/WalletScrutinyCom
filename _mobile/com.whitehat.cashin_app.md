@@ -2,7 +2,6 @@
 wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
 verdict: nosendreceive
-meta: ok
 date: 2024-09-24
 authors:
 - danny

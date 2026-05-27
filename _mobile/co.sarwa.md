@@ -2,7 +2,6 @@
 wsId: sarwaApp
 title: 'Sarwa: Invest, Trade & Save'
 verdict: nosendreceive
-meta: ok
 date: 2023-07-28
 authors:
 - danny

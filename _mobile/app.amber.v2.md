@@ -1,7 +1,6 @@
 ---
 title: AmberWallet
 verdict: wip
-meta: ok
 date: 2026-01-14
 website: http://amber.app/
 appCountry: us
@@ -15,6 +14,7 @@ iphone:
   version: 2.12.0
   reviews: 1
   icon: app.amber.v2.jpg
+  meta: ok
   developerName: Amber Labs
 
 ---

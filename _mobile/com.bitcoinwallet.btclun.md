@@ -1,7 +1,6 @@
 ---
 title: 'Bite: Bitcoin Wallet - BTC'
 verdict: nosource
-meta: removed
 date: 2023-08-25
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.04.28
   reviews: 33
   icon: com.bitcoinwallet.btclun.png
+  meta: removed
   developerName: Bit Crypto Services
 
 ---

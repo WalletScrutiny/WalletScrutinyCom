@@ -1,7 +1,6 @@
 ---
 title: GCOINTRADINGAPP
 verdict: wip
-meta: removed
 date: 2024-05-07
 website: https://www.gtradingapp.com#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2018-08-20
   version: '1.0'
   icon: com.gcointrading.app.png
+  meta: removed
   developerName: GcointradingApp
 
 ---

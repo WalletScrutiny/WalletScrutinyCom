@@ -1,7 +1,6 @@
 ---
 title: BitDATA Pro - Buy & Sell BTC
 verdict: wip
-meta: fewusers
 date: 2021-08-08
 website: https://www.bitdata.site
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2026-03-03
   version: 5.0.3
   icon: com.qm.bitdata.pro.png
+  meta: fewusers
   developerName: BitDATA FINTECH Co., Limited
 
 ---

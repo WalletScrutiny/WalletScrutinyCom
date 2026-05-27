@@ -2,7 +2,6 @@
 wsId: bitcoinComAu
 title: Bitcoin.com.au Buy Bitcoin BTC
 verdict: custodial
-meta: ok
 date: 2025-11-11
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2026-03-31
   version: 14.4.0
   icon: au.com.bitcoin.mobileapp.png
+  meta: ok
   developerName: bitcoin.com.au
 iphone:
   appId: au.com.bitcoin.mobileapp
@@ -31,6 +31,7 @@ iphone:
   version: 14.4.0
   reviews: 1428
   icon: au.com.bitcoin.mobileapp.jpg
+  meta: ok
   developerName: Bitcoin.com.au
 
 ---

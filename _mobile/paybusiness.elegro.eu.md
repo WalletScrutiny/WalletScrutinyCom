@@ -2,7 +2,6 @@
 wsId: payBusinessElegro
 title: elegro Business online banking
 verdict: custodial
-meta: stale
 date: 2026-05-05
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   updated: 2025-05-09
   version: 1.4.0
   icon: paybusiness.elegro.eu.jpg
+  meta: stale
   developerName: Niko Technologies
 iphone:
   appId: paybusiness.elegro.eu
@@ -33,6 +33,7 @@ iphone:
   version: '4.1'
   reviews: 0
   icon: paybusiness.elegro.eu.jpg
+  meta: stale
   developerName: Niko Technologies
 
 ---

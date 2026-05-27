@@ -2,7 +2,6 @@
 wsId: LogosDVWallet
 title: Dives Wallet (DABI)
 verdict: custodial
-meta: ok
 date: 2024-10-24
 authors:
 - danny

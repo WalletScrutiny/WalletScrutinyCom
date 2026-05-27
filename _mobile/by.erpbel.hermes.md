@@ -2,7 +2,6 @@
 wsId: bynexExchange
 title: 'BYNEX: Buy&Trade Сrypto, Fiat'
 verdict: custodial
-meta: ok
 date: 2023-08-09
 authors:
 - danny
@@ -24,6 +23,7 @@ android:
   updated: 2026-05-18
   version: 2.13.0
   icon: by.erpbel.hermes.png
+  meta: ok
   developerName: Bynex
 iphone:
   appId: by.erpbel.hermes
@@ -34,6 +34,7 @@ iphone:
   version: 2.13.0
   reviews: 89
   icon: by.erpbel.hermes.jpg
+  meta: ok
   developerName: LLC ERPBEL
 
 ---

@@ -2,7 +2,6 @@
 wsId: mobeeBitcoinID
 title: 'Mobee: Trade Bitcoin & Crypto'
 verdict: custodial
-meta: ok
 date: 2025-11-19
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   version: 2.0.13
   reviews: 2
   icon: com.mobee.io.png
+  meta: ok
   developerName: Mobee - PT CTXG Indonesia Berkarya
 iphone:
   appId: io.mobee.finance
@@ -36,6 +36,7 @@ iphone:
   version: 2.0.13
   reviews: 896
   icon: io.mobee.finance.jpg
+  meta: ok
   developerName: PT CTXG Indonesia Berkarya
 
 ---

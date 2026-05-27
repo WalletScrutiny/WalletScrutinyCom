@@ -1,7 +1,6 @@
 ---
 title: ByteWallet - Buy Bitcoin
 verdict: nosource
-meta: ok
 date: 2026-01-14
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: 1.13.0
   reviews: 17
   icon: com.bytefederal.bytemobile.png
+  meta: ok
   developerName: Byte Federal, Inc
 
 ---

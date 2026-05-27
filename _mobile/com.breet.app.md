@@ -1,7 +1,6 @@
 ---
 title: 'Breet: Sell Bitcoins in Nigeria'
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/com.breet.app/
@@ -13,6 +12,7 @@ android:
   version: '1.0'
   reviews: 71
   icon: com.breet.app.png
+  meta: removed
 
 ---
 

@@ -2,7 +2,6 @@
 wsId: Forexcom
 title: FOREX.com Forex & CFD Trading
 verdict: nosendreceive
-meta: ok
 date: 2021-10-16
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: '1.253'
   reviews: 38
   icon: com.gaincapital.forex.png
+  meta: ok
   developerName: GAIN Capital Group, LLC
 iphone:
   appId: com.gaincapital.forex
@@ -31,6 +31,7 @@ iphone:
   version: 1.253.7924
   reviews: 238
   icon: com.gaincapital.forex.jpg
+  meta: ok
   developerName: GAIN Capital Group LLC
 
 ---

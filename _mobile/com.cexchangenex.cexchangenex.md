@@ -2,7 +2,6 @@
 wsId: Cexchangenex
 title: Cexchangenex
 verdict: custodial
-meta: removed
 date: 2023-01-11
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 1.1.1075
   reviews: 38
   icon: com.cexchangenex.cexchangenex.png
+  meta: removed
   developerName: Cexchangenex
 iphone:
   appId: com.cexchangenex.cexchangenex
@@ -28,6 +28,7 @@ iphone:
   version: 1.1.1075
   reviews: 5
   icon: com.cexchangenex.cexchangenex.jpg
+  meta: removed
 
 ---
 

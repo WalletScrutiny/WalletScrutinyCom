@@ -2,7 +2,6 @@
 wsId: amberAppWallet
 title: AmberApp
 verdict: custodial
-meta: ok
 date: 2023-07-17
 authors:
 - danny
@@ -25,6 +24,7 @@ android:
   version: 7.0.4
   reviews: 26
   icon: io.getamber.app.png
+  meta: ok
   developerName: AmberLabs
 iphone:
   appId: io.getamber.app
@@ -35,6 +35,7 @@ iphone:
   version: 7.0.4
   reviews: 286
   icon: io.getamber.app.jpg
+  meta: ok
   developerName: Amber Labs
 
 ---

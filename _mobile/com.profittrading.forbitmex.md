@@ -1,7 +1,6 @@
 ---
 title: ProfitTradingApp for BitMEX
 verdict: custodial
-meta: ok
 date: 2024-09-13
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   version: 8.1.1
   reviews: 8
   icon: com.profittrading.forbitmex.png
+  meta: ok
   developerName: ProfitTradingApp
 
 ---

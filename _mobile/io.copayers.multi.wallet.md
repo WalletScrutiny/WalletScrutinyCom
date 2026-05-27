@@ -1,7 +1,6 @@
 ---
 title: Copay Wallet
 verdict: fake
-meta: removed
 date: 2022-01-31
 redirect_from:
 - /android/io.copayers.multi.wallet/
@@ -13,6 +12,7 @@ android:
   updated: 2021-12-16
   version: '0.21838'
   icon: io.copayers.multi.wallet.png
+  meta: removed
 
 ---
 

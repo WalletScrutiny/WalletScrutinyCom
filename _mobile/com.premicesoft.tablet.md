@@ -1,7 +1,6 @@
 ---
 title: Dello Crypto
 verdict: wip
-meta: removed
 date: 2025-08-21
 website: http://www.premicesoft.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2023-01-04
   version: 1.2.0
   icon: com.premicesoft.tablet.png
+  meta: removed
   developerName: Premicesoft
 
 ---

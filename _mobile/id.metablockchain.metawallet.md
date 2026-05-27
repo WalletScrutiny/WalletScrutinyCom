@@ -1,7 +1,6 @@
 ---
 title: MetaMUI Wallet
 verdict: wip
-meta: ok
 date: 2024-02-20
 authors:
 - danny
@@ -21,6 +20,7 @@ iphone:
   version: 3.2.5
   reviews: 0
   icon: id.metablockchain.metawallet.jpg
+  meta: ok
   developerName: Sovereign Wallet Network Pte. Ltd.
 
 ---

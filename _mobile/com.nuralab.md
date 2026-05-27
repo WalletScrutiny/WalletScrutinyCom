@@ -1,7 +1,6 @@
 ---
 title: Nura Wallet
 verdict: wip
-meta: removed
 date: 2026-02-20
 redirect_from:
 - /android/com.nuralab/
@@ -13,6 +12,7 @@ android:
   version: 2.1.0
   reviews: 8
   icon: com.nuralab.png
+  meta: removed
   developerName: Nura labs
 
 ---

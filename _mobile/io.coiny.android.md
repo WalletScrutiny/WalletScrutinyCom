@@ -1,7 +1,6 @@
 ---
 title: Coiny
 verdict: wip
-meta: removed
 date: 2022-01-13
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   updated: 2019-01-17
   version: 1.6.1
   icon: io.coiny.android.png
+  meta: removed
 
 ---
 

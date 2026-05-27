@@ -1,7 +1,6 @@
 ---
 title: TokenBacon digital tokens wall
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://tokenbacon.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-07-29
   version: 0.8.6.3
   icon: com.tokenbacon.TokenBaconApp.jpg
+  meta: removed
   developerName: TokenBacon
 
 ---

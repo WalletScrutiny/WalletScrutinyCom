@@ -2,7 +2,6 @@
 wsId: Bitvo
 title: Bitvo
 verdict: custodial
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.6.9
   reviews: 19
   icon: com.vog.bitvo.png
+  meta: removed
   developerName: Bitvo Inc
 iphone:
   appId: com.bitvoapp.bitvo
@@ -32,6 +32,7 @@ iphone:
   version: 3.6.4
   reviews: 26
   icon: com.bitvoapp.bitvo.jpg
+  meta: removed
   developerName: Bitvo
 
 ---

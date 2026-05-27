@@ -1,7 +1,6 @@
 ---
 title: 'Lightning: Testnet Wallet'
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: https://lightning.engineering
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-02-07
   version: 0.2.6
   icon: engineering.lightning.LightningApp.png
+  meta: removed
 
 ---
 

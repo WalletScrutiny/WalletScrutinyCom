@@ -1,7 +1,6 @@
 ---
 title: TCWS WALLET
 verdict: wip
-meta: removed
 date: 2023-01-02
 website: http://www.tcws.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2019-10-15
   version: '2.1'
   icon: com.tcws.wallet.png
+  meta: removed
 
 ---
 

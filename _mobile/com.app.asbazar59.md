@@ -1,7 +1,6 @@
 ---
 title: 'ASBAZAR Bitcoin Marketplace & '
 verdict: custodial
-meta: removed
 date: 2024-07-05
 authors:
 - danny
@@ -17,6 +16,7 @@ android:
   version: '4'
   reviews: 5
   icon: com.app.asbazar59.png
+  meta: removed
   developerName: ASBAZAR Group
 
 ---

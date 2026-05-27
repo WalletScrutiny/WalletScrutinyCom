@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Investment Apps
 verdict: wip
-meta: removed
 date: 2021-09-23
 redirect_from:
 - /android/org.bitcoincrypto.bitcoin.investment.apps/
@@ -12,6 +11,7 @@ android:
   updated: 2021-06-24
   version: '1.0'
   icon: org.bitcoincrypto.bitcoin.investment.apps.png
+  meta: removed
 
 ---
 

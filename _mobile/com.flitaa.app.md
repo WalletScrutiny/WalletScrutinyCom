@@ -2,7 +2,6 @@
 wsId: flitaa
 title: 'Flitaa: your crypto wallet'
 verdict: custodial
-meta: ok
 date: 2021-11-03
 authors:
 - danny
@@ -22,6 +21,7 @@ android:
   version: 1.51.8
   reviews: 570
   icon: com.flitaa.app.png
+  meta: ok
   developerName: FLITBASE Apps
 iphone:
   appId: com.flitaa
@@ -31,6 +31,7 @@ iphone:
   version: 1.51.8
   reviews: 73
   icon: com.flitaa.jpg
+  meta: ok
   developerName: FLITBASE
 
 ---

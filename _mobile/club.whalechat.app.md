@@ -1,7 +1,6 @@
 ---
 title: WhaleChat Messenger
 verdict: wip
-meta: removed
 date: 2024-04-03
 website: https://www.whalechat.app
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-07
   version: 0.4.19
   icon: club.whalechat.app.png
+  meta: removed
   developerName: Entropy Systems SL
 
 ---

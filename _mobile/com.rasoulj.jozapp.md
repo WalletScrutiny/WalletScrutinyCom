@@ -1,7 +1,6 @@
 ---
 title: BahBahan Wallet
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://nonamewallet.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2022-05-20
   version: 1.0.7
   icon: com.rasoulj.jozapp.png
+  meta: removed
   developerName: NNW
 
 ---

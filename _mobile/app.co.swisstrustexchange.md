@@ -1,7 +1,6 @@
 ---
 title: Swiss Trust Exchange
 verdict: wip
-meta: removed
 date: 2024-04-19
 redirect_from:
 - /android/app.co.swisstrustexchange/
@@ -12,6 +11,7 @@ android:
   updated: 2021-04-17
   version: '1.0'
   icon: app.co.swisstrustexchange.png
+  meta: removed
   developerName: Lawrence Granville
 
 ---

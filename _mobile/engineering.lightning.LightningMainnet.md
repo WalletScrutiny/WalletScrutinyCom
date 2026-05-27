@@ -1,7 +1,6 @@
 ---
 title: Lightning (Remove Funds by Dec 31st)
 verdict: wip
-meta: removed
 date: 2021-02-04
 website: https://lightning.engineering
 repository: https://github.com/lightninglabs/lightning-app
@@ -16,6 +15,7 @@ android:
   updated: 2020-10-02
   version: Varies with device
   icon: engineering.lightning.LightningMainnet.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: EBCoin Wallet (BitCoin, Ethereum, CryptoCurrency)
 verdict: wip
-meta: removed
 date: 2021-10-18
 redirect_from:
 - /android/com.eximbay.ebcoinwallet.gcm/
@@ -13,6 +12,7 @@ android:
   version: '1.6'
   reviews: 1
   icon: com.eximbay.ebcoinwallet.gcm.png
+  meta: removed
 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Paybis Crypto wallet
 verdict: wip
-meta: removed
 date: 2023-01-02
 redirect_from:
 - /android/lv.aloaes.paybis_crypto_game/
@@ -12,6 +11,7 @@ android:
   updated: 2022-06-01
   version: 1.0.0
   icon: lv.aloaes.paybis_crypto_game.png
+  meta: removed
 
 ---
 

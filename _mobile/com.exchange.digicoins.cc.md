@@ -1,7 +1,6 @@
 ---
 title: Digicoins
 verdict: wip
-meta: removed
 date: 2023-10-16
 redirect_from:
 - /android/com.exchange.digicoins.cc/
@@ -12,6 +11,7 @@ android:
   updated: 2023-03-27
   version: 3.5.43
   icon: com.exchange.digicoins.cc.jpg
+  meta: removed
   developerName: DIGICOINS TECHNOLOGY AND MANAGEMENT LIMITED
 
 ---

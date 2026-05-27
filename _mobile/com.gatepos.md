@@ -1,7 +1,6 @@
 ---
 title: Mercury Gate POS
 verdict: wip
-meta: removed
 date: 2025-02-28
 website: https://www.mercury.cash
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-05-21
   version: '1.1'
   icon: com.gatepos.png
+  meta: removed
   developerName: IT Mercury Cash
 
 ---

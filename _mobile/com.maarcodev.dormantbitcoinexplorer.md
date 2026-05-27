@@ -1,7 +1,6 @@
 ---
 title: Dormant Bitcoin Explorer
 verdict: wip
-meta: removed
 date: 2023-05-09
 authors:
 - danny
@@ -15,6 +14,7 @@ android:
   version: '1.5'
   reviews: 3
   icon: com.maarcodev.dormantbitcoinexplorer.png
+  meta: removed
   developerName: MaarcoDev
 
 ---

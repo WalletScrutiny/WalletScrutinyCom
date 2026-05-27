@@ -1,7 +1,6 @@
 ---
 title: 'LunesPay: Pagamentos Via QR Co'
 verdict: nosource
-meta: removed
 date: 2023-12-19
 authors:
 - danny
@@ -19,6 +18,7 @@ android:
   updated: 2021-08-10
   version: 1.0.7
   icon: com.lunespay.png
+  meta: removed
   developerName: Lunes Platform
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: BERRY
 verdict: wip
-meta: removed
 date: 2023-06-30
 authors:
 - danny
@@ -14,6 +13,7 @@ android:
   updated: 2023-03-21
   version: '1.0001'
   icon: com.ohj.berry.png
+  meta: removed
   developerName: AMANPREET KAURt
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: TraderBit - Crypto coin trader
 verdict: wip
-meta: removed
 date: 2024-07-05
 website: https://julienfer.github.io/app#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2021-01-15
   version: '1.10'
   icon: julfer.com.multitrader.png
+  meta: removed
   developerName: Ferjy Games
 
 ---

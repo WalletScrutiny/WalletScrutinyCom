@@ -1,7 +1,6 @@
 ---
 title: 'Kraken Futures: Bitcoin & Cryp'
 verdict: custodial
-meta: removed
 date: 2024-03-02
 authors:
 - leo
@@ -19,6 +18,7 @@ android:
   version: 5.24.0
   reviews: 5
   icon: com.krakenfutures.png
+  meta: removed
   developerName: Payward, Inc.
 
 ---

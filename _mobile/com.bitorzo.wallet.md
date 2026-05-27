@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Wallet
 verdict: sourceavailable
-meta: removed
 date: 2024-03-02
 authors:
 - leo
@@ -23,6 +22,7 @@ android:
   updated: 2021-01-03
   version: 3.1.3
   icon: com.bitorzo.wallet.jpg
+  meta: removed
   developerName: Hodlers Team
 
 ---

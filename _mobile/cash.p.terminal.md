@@ -1,7 +1,6 @@
 ---
 title: P.CASH
 verdict: sourceavailable
-meta: ok
 date: 2024-09-12
 authors:
 - danny
@@ -31,6 +30,7 @@ android:
   icon: cash.p.terminal.png
   alternativeStores:
   - fdroid
+  meta: ok
   developerName: PirateCash and Cosanta foundation
 
 ---

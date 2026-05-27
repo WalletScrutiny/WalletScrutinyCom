@@ -2,7 +2,6 @@
 wsId: TrustKeys
 title: TrustKeys Web3 SocialFi
 verdict: nosource
-meta: stale
 date: 2021-11-10
 authors:
 - danny

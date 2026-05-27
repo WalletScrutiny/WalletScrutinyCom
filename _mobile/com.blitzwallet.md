@@ -1,7 +1,6 @@
 ---
 title: 'Blitz: Bitcoin Payments Wallet'
 verdict: sourceavailable
-meta: ok
 date: 2025-11-03
 authors:
 - danny
@@ -26,6 +25,7 @@ android:
   updated: 2026-05-23
   version: 0.7.10
   icon: com.blitzwallet.png
+  meta: ok
   developerName: Blitz Wallet
 
 ---

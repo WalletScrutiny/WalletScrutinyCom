@@ -2,7 +2,6 @@
 wsId: malFinance
 title: 'Mal.io: Bitcoin,Trade Crypto'
 verdict: custodial
-meta: ok
 date: 2023-07-11
 authors:
 - danny
@@ -23,6 +22,7 @@ android:
   version: 1.0.57
   reviews: 34
   icon: com.mal.exchange.jpg
+  meta: ok
   developerName: MAL finance مال
 iphone:
   appId: io.mal.exchange
@@ -33,6 +33,7 @@ iphone:
   version: 1.8.0
   reviews: 4
   icon: io.mal.exchange.jpg
+  meta: ok
   developerName: Mal Network Limited
 
 ---

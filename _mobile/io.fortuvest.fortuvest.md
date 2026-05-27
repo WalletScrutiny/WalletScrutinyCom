@@ -1,7 +1,6 @@
 ---
 title: Fortuvest
 verdict: wip
-meta: removed
 date: 2024-02-05
 website: https://www.fortuvest.io#deadLink
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-03-27
   version: 1.0.0
   icon: io.fortuvest.fortuvest.png
+  meta: removed
   developerName: Fortuvest Developer
 
 ---

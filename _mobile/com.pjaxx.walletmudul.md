@@ -1,7 +1,6 @@
 ---
 title: Jaxx Liberty Bitcoin Wallet
 verdict: fake
-meta: removed
 date: 2021-08-04
 authors:
 - emanuel
@@ -16,6 +15,7 @@ android:
   updated: 2021-07-05
   version: '1'
   icon: com.pjaxx.walletmudul.png
+  meta: removed
 
 ---
 

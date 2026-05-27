@@ -1,7 +1,6 @@
 ---
 title: ROVI - Simplest Safest Trading
 verdict: wip
-meta: removed
 date: 2026-02-02
 authors:
 - danny
@@ -18,6 +17,7 @@ android:
   version: 3.2.20-Rovi Trading-rovi-genesis-month-
   reviews: 136
   icon: com.money91.png
+  meta: removed
   developerName: Roviri International Pte Ltd
 
 ---

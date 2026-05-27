@@ -2,7 +2,6 @@
 wsId: bitfy
 title: Bitfy SuperApp de Criptomoedas
 verdict: nosource
-meta: removed
 date: 2025-02-04
 authors:
 - danny
@@ -21,6 +20,7 @@ android:
   updated: 2024-03-05
   version: 3.12.48
   icon: com.bitfyapp.png
+  meta: removed
   developerName: Bitfy
 iphone:
   appId: app.bitfy
@@ -31,6 +31,7 @@ iphone:
   version: 3.12.45
   reviews: 117
   icon: app.bitfy.jpg
+  meta: removed
   developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA
 
 ---

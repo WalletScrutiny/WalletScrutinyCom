@@ -1,7 +1,6 @@
 ---
 title: Endopay
 verdict: wip
-meta: removed
 date: 2024-04-19
 website: https://endopay.com
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2020-04-26
   version: 4.3.0
   icon: com.endopay.app.png
+  meta: removed
   developerName: EMBLEM INVESTMENT LTD
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: BitSecure
 verdict: wip
-meta: removed
 date: 2023-08-04
 website: https://web.archive.org/web/20190703222321/http://fincryptglobal.com/
 redirect_from:
@@ -13,6 +12,7 @@ android:
   updated: 2017-11-28
   version: '1.7'
   icon: bitsafe.bitsafe_app.png
+  meta: removed
   developerName: FINCRYPT GLOBAL LIMITED
 
 ---
