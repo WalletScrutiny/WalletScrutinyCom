@@ -79,6 +79,7 @@
 
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/searchWallets.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
 
@@ -93,7 +94,7 @@
     document.body.appendChild(script);
   });
 </script>
-<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>
+{% unless page.url == "/" %}<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>{% endunless %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
 <script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
