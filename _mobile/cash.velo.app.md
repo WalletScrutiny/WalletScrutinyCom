@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: cash.velo.app
   users: 500
+  appCountry: us
   released: 2025-12-16
   updated: 2026-01-02
   version: 1.0.8

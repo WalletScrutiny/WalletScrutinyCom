@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.boldwallet
   users: 100
+  appCountry: us
   released: 2025-07-15
   updated: 2026-05-12
   version: 3.1.1

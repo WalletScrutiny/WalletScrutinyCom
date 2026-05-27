@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.litefinance.cabinet
   users: 500000
+  appCountry: us
   released: 2022-02-09
   updated: 2026-03-16
   version: v2.1.2030-cabinet-release
@@ -27,7 +28,7 @@ iphone:
   released: 2023-01-11
   updated: 2026-03-27
   version: 3.1.11
-  reviews: 72
+  reviews: 73
   icon: com.litefinance.cabinet.jpg
   meta: ok
   verdict: custodial

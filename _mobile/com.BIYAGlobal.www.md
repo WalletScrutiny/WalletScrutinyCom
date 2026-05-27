@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.BIYAGlobal.www
   users: 100000
+  appCountry: us
   released: 2021-04-13
   updated: 2026-05-14
   version: 3.0.020

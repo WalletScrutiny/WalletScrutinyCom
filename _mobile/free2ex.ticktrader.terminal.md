@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: free2ex.ticktrader.terminal
   users: 10000
+  appCountry: us
   released: 2020-04-13
   updated: 2024-10-07
   version: 4.10.4.7877 (2024.09.20)

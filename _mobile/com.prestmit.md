@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.prestmit
   users: 500000
+  appCountry: us
   released: 2021-04-13
   updated: 2026-04-30
   version: 7.2.491
-  reviews: 861
+  reviews: 863
   icon: com.prestmit.png
   meta: ok
   verdict: nosendreceive
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.prestmit.app
   idd: 1581960714
+  appCountry: us
   released: 2021-08-20
   updated: 2026-04-28
   version: 7.2.489
-  reviews: 7045
+  reviews: 7079
   icon: com.prestmit.app.jpg
   meta: ok
   verdict: nosendreceive

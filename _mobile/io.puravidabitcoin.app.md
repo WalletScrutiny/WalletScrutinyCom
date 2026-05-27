@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: io.puravidabitcoin.app
   users: 500
+  appCountry: us
   released: 2023-04-10
   updated: 2026-02-25
   version: 2.3.0

@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: io.tether.wallet
   users: 10000
+  appCountry: us
   released: 2026-03-19
   updated: 2026-05-20
   version: 1.2.0
@@ -31,8 +32,8 @@ iphone:
   idd: '6759002210'
   appCountry: us
   released: 2026-04-14
-  updated: 2026-05-11
-  version: 1.1.1
+  updated: 2026-05-25
+  version: 1.2.0
   reviews: 8
   icon: io.tether.wallet.official.jpg
   meta: ok

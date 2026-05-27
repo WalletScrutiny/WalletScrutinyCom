@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.defexa.wallet
   users: 10000
+  appCountry: us
   released: 2023-04-28
   updated: 2025-12-10
   version: 2.3.0

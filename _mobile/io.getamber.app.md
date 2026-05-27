@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: io.getamber.app
   users: 10000
+  appCountry: us
   released: 2021-06-21
   updated: 2026-05-13
   version: 7.0.4

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.ampiy.app
   users: 500
+  appCountry: us
   released: 2022-04-06
   updated: 2025-09-30
   version: 5.0.1

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.newgo.coincola
   users: 100000
+  appCountry: us
   released: 2017-07-07
   updated: 2026-05-13
   version: 6.8.2

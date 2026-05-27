@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: vn.fiahub.app
   users: 10000
+  appCountry: us
   released: 2019-10-11
   updated: 2025-08-25
   version: 2.20.5

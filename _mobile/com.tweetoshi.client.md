@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.tweetoshi.client
   users: 10000
+  appCountry: us
   released: 2022-02-15
   updated: 2023-02-06
   version: 0.8.5

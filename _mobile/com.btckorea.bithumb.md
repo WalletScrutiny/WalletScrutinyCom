@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.btckorea.bithumb
   users: 5000000
+  appCountry: us
   released: 2017-09-26
   updated: 2026-05-12
   version: 3.8.2
@@ -29,7 +30,7 @@ iphone:
   released: 2017-12-05
   updated: 2026-05-14
   version: 3.1.7
-  reviews: 4950
+  reviews: 4953
   icon: com.btckorea.bithumb.jpg
   meta: ok
   verdict: custodial

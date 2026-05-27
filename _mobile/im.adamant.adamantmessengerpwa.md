@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: im.adamant.adamantmessengerpwa
   users: 10000
+  appCountry: us
   released: 2020-06-13
   updated: 2026-03-23
   version: 4.11.1

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.ari10.bitcan
   users: 10000
+  appCountry: us
   released: 2022-06-14
   updated: 2026-02-11
   version: 2.10.3

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.earnbit.app.exchange
   users: 1000
+  appCountry: us
   released: 2022-10-30
   updated: 2026-05-25
   version: 1.0.27

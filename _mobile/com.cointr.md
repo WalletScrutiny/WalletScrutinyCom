@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.cointr
   users: 100000
+  appCountry: us
   released: 2022-08-17
   updated: 2026-05-20
   version: 3.29.0

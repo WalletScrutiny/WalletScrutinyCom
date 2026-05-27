@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.sortedwallet.sorted
   users: 10000
+  appCountry: us
   released: 2025-12-11
   updated: 2026-05-15
   version: 1.0.22

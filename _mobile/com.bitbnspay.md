@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitbnspay
   users: 1000000
+  appCountry: us
   updated: 2023-11-23
   version: 1.9.1
   icon: com.bitbnspay.png

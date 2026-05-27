@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.bitmarkets.android.app
   users: 10000
+  appCountry: us
   released: 2022-10-04
   updated: 2026-05-22
   version: 3.8.13

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.openblock.wallet
   users: 1000
+  appCountry: us
   released: 2023-02-06
   updated: 2026-03-10
   version: 2.2.6

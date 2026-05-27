@@ -30,6 +30,7 @@ redirect_from:
 android:
   appId: com.greenaddress.greenbits_android_wallet
   users: 100000
+  appCountry: us
   released: 2015-01-01
   updated: 2026-05-08
   version: 5.4.0
@@ -44,10 +45,11 @@ android:
 iphone:
   appId: io.blockstream.green
   idd: 1402243590
+  appCountry: us
   released: 2019-03-22
   updated: 2026-05-18
   version: 5.4.1
-  reviews: 1156
+  reviews: 1159
   icon: io.blockstream.green.jpg
   meta: ok
   verdict: sourceavailable

@@ -13,10 +13,11 @@ redirect_from:
 android:
   appId: io.safepal.wallet
   users: 5000000
+  appCountry: us
   released: 2019-05-26
   updated: 2026-04-21
   version: 4.11.2
-  reviews: 1093
+  reviews: 1094
   icon: io.safepal.wallet.png
   meta: ok
   verdict: nosource
@@ -24,10 +25,11 @@ android:
 iphone:
   appId: walletapp.safepal.io
   idd: 1548297139
+  appCountry: us
   released: 2021-01-11
   updated: 2026-04-22
   version: 4.11.2
-  reviews: 15951
+  reviews: 16014
   icon: walletapp.safepal.io.jpg
   meta: ok
   verdict: nosource

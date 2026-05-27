@@ -32,7 +32,7 @@ iphone:
   released: 2022-12-07
   updated: 2026-05-12
   version: 2.21.0
-  reviews: 420
+  reviews: 421
   icon: com.letsbit.app.jpg
   meta: ok
   verdict: custodial

@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.gloath.portalsapp
   users: 10000
+  appCountry: us
   released: 2018-03-20
   updated: 2020-12-20
   version: 0.0.4a

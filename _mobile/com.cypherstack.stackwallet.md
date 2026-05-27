@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.cypherstack.stackwallet
   users: 10000
+  appCountry: us
   released: 2024-05-13
   updated: 2026-02-05
   version: 2.4.4
@@ -33,6 +34,7 @@ android:
 iphone:
   appId: com.cypherstack.stackwallet
   idd: '1634811534'
+  appCountry: us
   released: 2022-08-26
   updated: 2026-02-07
   version: 2.4.4

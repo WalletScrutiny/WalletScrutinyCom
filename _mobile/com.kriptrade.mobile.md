@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.kriptrade.mobile
   users: 10000
+  appCountry: us
   released: 2021-10-20
   updated: 2026-04-08
   version: 3.2.7

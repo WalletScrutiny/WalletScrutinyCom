@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.metallicus.webauth
   users: 50000
+  appCountry: us
   released: 2021-12-11
   updated: 2026-05-19
   version: 2.1.61

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.truewallet.app
   users: 100
+  appCountry: us
   updated: 2025-12-20
   version: VARY
   icon: com.truewallet.app.png

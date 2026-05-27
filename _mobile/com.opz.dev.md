@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.opz.dev
   users: 1000
+  appCountry: us
   released: 2023-08-16
   updated: 2025-05-16
   version: 2.12.1

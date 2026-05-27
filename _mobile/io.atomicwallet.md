@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.atomicwallet
   users: 1000000
+  appCountry: us
   released: 2019-01-30
   updated: 2026-04-23
   version: 1.41.5
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: atomicwallet
   idd: '1478257827'
+  appCountry: us
   released: 2019-11-05
   updated: 2026-04-24
   version: 1.41.5
-  reviews: 18835
+  reviews: 18842
   icon: atomicwallet.jpg
   meta: ok
   verdict: obfuscated

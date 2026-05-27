@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.mercadopago.wallet
   users: 100000000
+  appCountry: br
   released: 2014-12-09
-  updated: 2026-05-25
+  updated: 2026-05-26
   version: 2.437.2
-  reviews: 1088074
+  reviews: 1088243
   icon: com.mercadopago.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.mercadopago.MercadoPago
   idd: 925436649
+  appCountry: br
   released: 2014-12-17
-  updated: 2026-05-19
-  version: 2.437.2
-  reviews: 2499182
+  updated: 2026-05-26
+  version: 2.438.0
+  reviews: 2499875
   icon: com.mercadopago.MercadoPago.jpg
   meta: ok
   verdict: nosendreceive

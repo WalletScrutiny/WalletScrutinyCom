@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: cc.bitbank.bitbank
   users: 500000
+  appCountry: us
   updated: 2026-05-13
   version: 3.7.1
   reviews: 3

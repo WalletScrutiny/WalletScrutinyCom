@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.saltlending.mobile
   users: 100000
+  appCountry: us
   released: 2019-01-07
   updated: 2026-03-18
   version: 2.20.5
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.saltlending.mobile
   idd: 1383851676
+  appCountry: us
   released: 2019-01-07
   updated: 2026-03-23
   version: 2.20.5

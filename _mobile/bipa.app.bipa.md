@@ -16,9 +16,10 @@ redirect_from:
 android:
   appId: bipa.app.bipa
   users: 500000
+  appCountry: us
   released: 2021-01-18
   updated: 2026-05-25
-  version: 4.2.34
+  version: 4.2.36
   reviews: 13
   icon: bipa.app.bipa.png
   meta: ok
@@ -29,9 +30,9 @@ iphone:
   idd: '1516842324'
   appCountry: br
   released: 2020-06-30
-  updated: 2026-05-18
-  version: 4.2.13
-  reviews: 9104
+  updated: 2026-05-26
+  version: 4.2.15
+  reviews: 9107
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial

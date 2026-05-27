@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: me.proton.wallet.android
   users: 100000
+  appCountry: us
   released: 2025-02-04
   updated: 2026-05-18
   version: 1.2.7

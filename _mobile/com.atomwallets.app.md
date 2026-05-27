@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.atomwallets.app
   users: 10000
+  appCountry: us
   released: 2025-10-10
   updated: 2026-04-22
   version: 2.2.9

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.between.wallet
   users: 1000
+  appCountry: us
   released: 2025-04-22
   updated: 2026-04-24
   version: 1.2.1

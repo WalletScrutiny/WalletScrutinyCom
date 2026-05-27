@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.pay99.wallet
   users: 1000000
+  appCountry: br
   released: 2021-09-23
   updated: 2026-05-25
   version: 8.4.56
-  reviews: 9832
+  reviews: 9836
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.pay99
   idd: 1588184260
+  appCountry: br
   released: 2021-10-02
-  updated: 2026-05-06
-  version: 8.4.56
-  reviews: 1972
+  updated: 2026-05-25
+  version: 8.4.60
+  reviews: 1974
   icon: com.pay99.jpg
   meta: ok
   verdict: nosendreceive

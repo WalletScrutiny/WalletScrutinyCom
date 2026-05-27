@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.capecrypto
   users: 10000
+  appCountry: us
   released: 2022-04-25
   updated: 2026-05-19
   version: 4.1.6

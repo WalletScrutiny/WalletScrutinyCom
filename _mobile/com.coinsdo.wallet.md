@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.coinsdo.wallet
   users: 500000
+  appCountry: us
   released: 2022-06-26
   updated: 2026-05-21
   version: 2.0.28
-  reviews: 119
+  reviews: 118
   icon: com.coinsdo.wallet.png
   meta: ok
   verdict: nosource

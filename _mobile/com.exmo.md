@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.exmo
   users: 100000
+  appCountry: us
   released: 2019-11-12
   updated: 2026-05-21
   version: 3.86.4
@@ -29,9 +30,10 @@ android:
 iphone:
   appId: com.exmo.enfins
   idd: 1505496232
+  appCountry: us
   released: 2020-04-07
-  updated: 2026-05-06
-  version: 2.28.26
+  updated: 2026-05-25
+  version: 2.28.27
   reviews: 86
   icon: com.exmo.enfins.jpg
   meta: ok

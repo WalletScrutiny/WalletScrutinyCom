@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.redotpay
   users: 1000000
+  appCountry: us
   released: 2023-06-09
-  updated: 2026-05-08
+  updated: 2026-05-26
   version: 3.6.0
-  reviews: 1119
+  reviews: 1121
   icon: com.redotpay.png
   meta: ok
   verdict: custodial
@@ -32,7 +33,7 @@ iphone:
   released: 2023-06-13
   updated: 2026-05-15
   version: 3.6.1
-  reviews: 3380
+  reviews: 3444
   icon: com.redotpay.jpg
   meta: ok
   verdict: custodial

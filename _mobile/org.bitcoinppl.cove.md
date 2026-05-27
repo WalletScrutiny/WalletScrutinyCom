@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: org.bitcoinppl.cove
   users: 100
+  appCountry: us
   released: 2026-02-12
   updated: 2026-03-19
   version: 1.2.2

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: io.bitvenus.app.first
   users: 100000
+  appCountry: us
   released: 2023-07-28
   updated: 2026-05-15
   version: 5.7.17

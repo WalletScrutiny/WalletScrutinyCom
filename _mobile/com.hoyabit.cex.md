@@ -13,9 +13,10 @@ redirect_from:
 android:
   appId: com.hoyabit.cex
   users: 10000
+  appCountry: us
   released: 2023-03-10
-  updated: 2026-05-15
-  version: 1.56.3
+  updated: 2026-05-22
+  version: 1.57.0
   icon: com.hoyabit.cex.png
   meta: ok
   verdict: custodial

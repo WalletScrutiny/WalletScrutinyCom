@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: com.pundix.functionx
   users: 10000
+  appCountry: us
   released: 2021-03-25
   updated: 2026-03-26
   version: 5.10.1
@@ -34,6 +35,7 @@ android:
 iphone:
   appId: com.pundix.fx.connect
   idd: 1504798360
+  appCountry: us
   released: 2021-03-25
   updated: 2026-01-23
   version: 5.9.0

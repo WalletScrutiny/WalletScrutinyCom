@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: io.emcd.emcd_flutter.prod
   users: 100000
+  appCountry: us
   released: 2022-01-03
   updated: 2026-05-17
   version: 2.29.1

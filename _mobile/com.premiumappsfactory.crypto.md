@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.premiumappsfactory.crypto
   users: 100
+  appCountry: us
   released: 2021-09-05
   updated: 2024-01-01
   version: 6.0.0

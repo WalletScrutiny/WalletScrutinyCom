@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: in.cryptoforce.cfx
   users: 5000
+  appCountry: us
   released: 2022-09-27
   updated: 2025-04-01
   version: 2.0.0
@@ -34,7 +35,7 @@ iphone:
   version: v2.0.0
   reviews: 17
   icon: in.cryptoforce.cfx.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 

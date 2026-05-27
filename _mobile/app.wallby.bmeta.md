@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: app.wallby.bmeta
   users: 1000
+  appCountry: us
   updated: 2023-10-04
   version: VARY
   icon: app.wallby.bmeta.png

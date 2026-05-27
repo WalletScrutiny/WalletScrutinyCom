@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: app.frwt.wallet
   users: 10000
+  appCountry: us
   released: 2024-01-03
   updated: 2026-02-12
   version: 1.15.0

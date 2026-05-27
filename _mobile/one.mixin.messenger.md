@@ -19,9 +19,10 @@ redirect_from:
 android:
   appId: one.mixin.messenger
   users: 100000
+  appCountry: us
   released: 2018-05-24
-  updated: 2026-05-18
-  version: 4.2.0
+  updated: 2026-05-26
+  version: 4.3.0
   reviews: 152
   icon: one.mixin.messenger.png
   meta: ok
@@ -30,10 +31,11 @@ android:
 iphone:
   appId: one.mixin.messenger
   idd: 1322324266
+  appCountry: us
   released: 2018-01-20
-  updated: 2026-05-17
-  version: 4.2.0
-  reviews: 1153
+  updated: 2026-05-25
+  version: 4.3.0
+  reviews: 1156
   icon: one.mixin.messenger.jpg
   meta: ok
   verdict: sourceavailable

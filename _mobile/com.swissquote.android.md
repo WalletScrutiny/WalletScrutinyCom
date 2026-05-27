@@ -17,8 +17,9 @@ redirect_from:
 android:
   appId: com.swissquote.android
   users: 100000
+  appCountry: us
   released: 2010-06-17
-  updated: 2026-05-15
+  updated: 2026-05-26
   version: 9.1.0
   reviews: 43
   icon: com.swissquote.android.png
@@ -30,8 +31,8 @@ iphone:
   idd: '285691076'
   appCountry: ph
   released: 2019-02-12
-  updated: 2026-05-12
-  version: 11.29.0
+  updated: 2026-05-26
+  version: 11.29.1
   reviews: 20
   icon: com.swissquote.iphone.jpg
   meta: ok

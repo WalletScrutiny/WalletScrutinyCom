@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.yykj.bitfree.en
   users: 50000
+  appCountry: us
   released: 2019-01-26
   updated: 2026-03-20
   version: 5.6.41

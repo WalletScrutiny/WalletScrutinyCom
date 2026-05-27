@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.pilab.pockie
   users: 10000
+  appCountry: us
   released: 2023-07-24
   updated: 2025-08-06
   version: 1.4.10

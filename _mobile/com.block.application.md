@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.block.application
   users: 10000
+  appCountry: us
   released: 2022-02-07
   updated: 2023-01-13
   version: 2.4.40
@@ -31,7 +32,7 @@ iphone:
   version: 2.4.40
   reviews: 1
   icon: com.lh2424.uollar.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: UOLLAR PTY LTD
 

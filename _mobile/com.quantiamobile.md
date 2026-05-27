@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.quantiamobile
   users: 500
+  appCountry: us
   released: 2022-07-19
   updated: 2026-04-24
   version: 3.0.21

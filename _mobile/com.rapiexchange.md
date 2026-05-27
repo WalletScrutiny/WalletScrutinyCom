@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.rapiexchange
   users: 10000
+  appCountry: us
   released: 2022-04-19
   updated: 2026-05-20
   version: '3.41'

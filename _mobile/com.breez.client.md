@@ -32,6 +32,7 @@ redirect_from:
 android:
   appId: com.breez.client
   users: 50000
+  appCountry: us
   updated: 2025-01-14
   version: VARY
   icon: com.breez.client.png

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.gimbutis.x
   users: 500
+  appCountry: us
   updated: 2026-05-11
   version: 1.6.4
   icon: com.gimbutis.x.png

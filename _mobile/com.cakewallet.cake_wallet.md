@@ -30,6 +30,7 @@ redirect_from:
 android:
   appId: com.cakewallet.cake_wallet
   users: 100000
+  appCountry: us
   released: 2020-01-01
   updated: 2026-04-23
   version: 6.1.2
@@ -41,10 +42,11 @@ android:
 iphone:
   appId: com.fotolockr.cakewallet
   idd: 1334702542
+  appCountry: us
   released: 2018-01-19
   updated: 2026-04-23
   version: 6.1.2
-  reviews: 4206
+  reviews: 4209
   icon: com.fotolockr.cakewallet.jpg
   meta: ok
   verdict: sourceavailable

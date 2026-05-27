@@ -16,8 +16,9 @@ redirect_from:
 android:
   appId: com.dunamu.exchange.global
   users: 500000
+  appCountry: us
   released: 2018-11-06
-  updated: 2026-05-22
+  updated: 2026-05-26
   version: 1.22.36
   reviews: 34
   icon: com.dunamu.exchange.global.png

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitdance.bitpocket.google
   users: 1000
+  appCountry: us
   released: 2025-08-22
   updated: 2026-03-18
   version: 1.3.27

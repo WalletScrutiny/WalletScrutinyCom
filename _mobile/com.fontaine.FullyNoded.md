@@ -21,6 +21,7 @@ redirect_from:
 iphone:
   appId: com.fontaine.FullyNoded
   idd: 1436425586
+  appCountry: us
   released: 2018-10-03
   updated: 2026-01-06
   version: 2.3.1

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.finverselabs.openwallet
   users: 100000
+  appCountry: us
   released: 2024-07-01
   updated: 2026-05-14
   version: 2026.5.30
@@ -27,7 +28,7 @@ iphone:
   released: 2024-06-18
   updated: 2026-05-08
   version: '1.49'
-  reviews: 38
+  reviews: 39
   icon: com.finverse-labs.openwallet-mainnet.jpg
   meta: ok
   verdict: custodial

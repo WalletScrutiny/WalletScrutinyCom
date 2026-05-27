@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.moneybookers.skrillpayments.neteller
   users: 1000000
+  appCountry: us
   released: 2016-03-30
   updated: 2026-05-20
   version: 3.185.0-2026052009
-  reviews: 279
+  reviews: 280
   icon: com.moneybookers.skrillpayments.neteller.png
   meta: ok
   verdict: custodial
@@ -28,9 +29,9 @@ iphone:
   idd: '1095647938'
   appCountry: gb
   released: 2016-05-02
-  updated: 2026-05-05
-  version: 3.184.0
-  reviews: 1139
+  updated: 2026-05-21
+  version: 3.185.0
+  reviews: 1142
   icon: com.skrill.NETELLER.jpg
   meta: ok
   verdict: custodial

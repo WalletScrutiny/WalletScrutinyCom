@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.coins.black.exchanger
   users: 1000
+  appCountry: us
   released: 2021-04-11
   updated: 2025-08-29
   version: '1.5'

@@ -8,10 +8,11 @@ redirect_from:
 iphone:
   appId: ng.apexnetwork.apexNetwork
   idd: '1549187308'
+  appCountry: us
   released: 2022-01-11
-  updated: 2026-05-03
-  version: 3.2.16
-  reviews: 2285
+  updated: 2026-05-25
+  version: 3.2.17
+  reviews: 2284
   icon: ng.apexnetwork.apexNetwork.jpg
   meta: ok
   verdict: wip

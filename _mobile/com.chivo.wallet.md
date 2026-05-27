@@ -18,10 +18,11 @@ redirect_from:
 android:
   appId: com.chivo.wallet
   users: 1000000
+  appCountry: sv
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14230
+  reviews: 14232
   icon: com.chivo.wallet.png
   meta: ok
   verdict: obfuscated
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.chivo.wallet
   idd: 1581515981
+  appCountry: sv
   released: 2021-09-07
   updated: 2025-08-28
   version: 3.1.0

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: ru.devroom.blockchain24
   users: 500
+  appCountry: us
   released: 2021-03-16
   updated: 2023-06-29
   version: 1.1.2

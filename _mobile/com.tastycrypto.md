@@ -39,7 +39,7 @@ iphone:
   version: 0.4.26
   reviews: 20
   icon: com.tastycrypto.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Tasty
 

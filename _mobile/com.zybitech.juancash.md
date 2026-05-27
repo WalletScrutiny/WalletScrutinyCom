@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.zybitech.juancash
   users: 100000
+  appCountry: us
   released: 2019-07-22
   updated: 2024-08-05
   version: V2.0.3

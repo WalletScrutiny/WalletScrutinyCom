@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: xbo.mobile.app
   users: 50000
+  appCountry: us
   released: 2022-09-24
   updated: 2026-03-03
   version: 3.7.1

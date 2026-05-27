@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.bitpanda.bitpanda
   users: 1000000
+  appCountry: us
   released: 2018-11-07
   updated: 2026-05-07
   version: 3.23.0
@@ -35,9 +36,9 @@ iphone:
   idd: '1449018960'
   appCountry: at
   released: 2019-11-29
-  updated: 2026-05-11
-  version: 3.23.0
-  reviews: 25515
+  updated: 2026-05-21
+  version: 3.24.0
+  reviews: 25551
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
   verdict: custodial

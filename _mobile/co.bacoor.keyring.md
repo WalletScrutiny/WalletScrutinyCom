@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: co.bacoor.keyring
   users: 10000
+  appCountry: us
   released: 2021-01-21
   updated: 2026-03-16
   version: 5.5.0
@@ -23,6 +24,7 @@ android:
 iphone:
   appId: co.bacoor.keyring
   idd: '1546824976'
+  appCountry: us
   released: 2021-01-25
   updated: 2026-03-17
   version: 5.5.0

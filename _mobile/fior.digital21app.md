@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: fior.digital21app
   users: 10000
+  appCountry: us
   updated: 2026-05-19
   version: 2.1.1
   icon: fior.digital21app.png

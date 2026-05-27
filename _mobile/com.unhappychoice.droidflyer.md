@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.unhappychoice.droidflyer
   users: 100
+  appCountry: us
   released: 2017-11-12
   updated: 2022-01-23
   version: 2.0.1

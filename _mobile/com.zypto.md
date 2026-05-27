@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.zypto
   users: 100000
+  appCountry: us
   released: 2024-04-26
   updated: 2026-04-08
   version: 1.27.0

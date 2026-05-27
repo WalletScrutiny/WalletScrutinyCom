@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: io.changenow.changenow
   users: 100000
+  appCountry: us
   released: 2018-09-07
   updated: 2026-05-22
   version: 2.0.2
@@ -32,10 +33,11 @@ android:
 iphone:
   appId: io.changenow
   idd: 1518003605
+  appCountry: us
   released: 2020-06-29
   updated: 2026-02-03
   version: 2.10.0
-  reviews: 2244
+  reviews: 2242
   icon: io.changenow.jpg
   meta: ok
   verdict: nosource

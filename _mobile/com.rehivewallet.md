@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.rehivewallet
   users: 1000
+  appCountry: us
   released: 2018-10-01
   updated: 2026-01-07
   version: 7.11.36

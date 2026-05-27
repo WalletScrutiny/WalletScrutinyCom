@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.btcc.hy
   users: 1000000
+  appCountry: us
   released: 2020-08-04
   updated: 2026-05-22
   version: 8.9.85
-  reviews: 4140
+  reviews: 4142
   icon: com.btcc.hy.png
   meta: ok
   verdict: custodial
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.btcc.hy
   idd: 1462880009
+  appCountry: us
   released: 2019-05-11
-  updated: 2026-05-18
-  version: 8.9.84
-  reviews: 5008
+  updated: 2026-05-25
+  version: 8.9.85
+  reviews: 5025
   icon: com.btcc.hy.jpg
   meta: ok
   verdict: custodial

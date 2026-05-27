@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: io.swiftcoin
   users: 5000
+  appCountry: us
   released: 2022-09-12
   updated: 2025-09-30
   version: 3.1.10

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.tapbit.android
   users: 100000
+  appCountry: us
   released: 2022-09-20
   updated: 2026-05-22
   version: 4.3.5
@@ -30,8 +31,8 @@ iphone:
   idd: '1610497530'
   appCountry: us
   released: 2022-03-01
-  updated: 2026-05-11
-  version: 4.3.5
+  updated: 2026-05-23
+  version: 4.3.6
   reviews: 51
   icon: com.billance.cn.jpg
   meta: ok

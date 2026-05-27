@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: com.enjin.mobile.wallet
   users: 1000000
+  appCountry: us
   released: 2018-01-01
   updated: 2026-05-14
   version: 3.5.20
@@ -35,6 +36,7 @@ android:
 iphone:
   appId: com.enjin.mobile.wallet
   idd: 1349078375
+  appCountry: us
   released: 2018-03-12
   updated: 2026-05-15
   version: 3.5.5

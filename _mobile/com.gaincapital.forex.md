@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.gaincapital.forex
   users: 500000
+  appCountry: gb
   released: 2021-01-11
   updated: 2026-04-21
   version: '1.253'
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.gaincapital.forex
   idd: 1506581586
+  appCountry: gb
   released: 2020-10-14
-  updated: 2026-04-23
-  version: 1.253.7924
-  reviews: 238
+  updated: 2026-05-25
+  version: 1.254.7929
+  reviews: 240
   icon: com.gaincapital.forex.jpg
   meta: ok
   verdict: nosendreceive

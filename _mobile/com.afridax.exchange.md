@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.afridax.exchange
   users: 10000
+  appCountry: us
   updated: 2026-05-04
   version: 1.0.4
   icon: com.afridax.exchange.png

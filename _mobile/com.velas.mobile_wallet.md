@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.velas.mobile_wallet
   users: 10000
+  appCountry: us
   released: 2020-11-17
   updated: 2024-01-31
   version: 2.3.19
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.velas.walletmobile
   idd: 1541032748
+  appCountry: us
   released: 2020-12-12
   updated: 2024-06-12
   version: 2.3.18

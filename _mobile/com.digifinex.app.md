@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.digifinex.app
   users: 500000
+  appCountry: us
   released: 2018-06-26
   updated: 2026-05-22
   version: 2026.05.13

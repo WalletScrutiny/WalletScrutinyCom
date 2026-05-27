@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.amaxg.bizapaywallet
   users: 1000
+  appCountry: us
   released: 2025-01-13
   updated: 2026-02-06
   version: 1.1.1

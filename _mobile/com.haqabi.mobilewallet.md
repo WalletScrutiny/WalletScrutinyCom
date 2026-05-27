@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.haqabi.mobilewallet
   users: 10000
+  appCountry: us
   updated: 2025-07-16
   version: '1.21'
   icon: com.haqabi.mobilewallet.png
@@ -27,7 +28,7 @@ iphone:
   version: '1.21'
   reviews: 4
   icon: com.haqabi.mobile-wallet.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Haqqex Ltd
 

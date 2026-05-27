@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: com.fxfi.fxwallet
   idd: '1560943983'
+  appCountry: us
   released: 2021-05-05
   updated: 2026-05-09
   version: 2.30.1

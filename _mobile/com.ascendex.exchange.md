@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: com.ascendex.exchange
   users: 1000000
+  appCountry: us
   released: 2021-04-28
-  updated: 2026-04-24
-  version: 3.7.4
-  reviews: 76
+  updated: 2026-05-26
+  version: 3.7.5
+  reviews: 77
   icon: com.ascendex.exchange.png
   meta: ok
   verdict: custodial

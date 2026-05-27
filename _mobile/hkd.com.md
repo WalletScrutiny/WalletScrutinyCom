@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: hkd.com
   users: 100000
+  appCountry: us
   released: 2020-09-11
   updated: 2026-05-25
   version: 3.0.6
@@ -29,9 +30,9 @@ iphone:
   idd: '1522416988'
   appCountry: us
   released: 2020-07-13
-  updated: 2026-05-19
-  version: 3.2.6
-  reviews: 52
+  updated: 2026-05-26
+  version: 3.2.7
+  reviews: 53
   icon: com.hkd.hkdex.jpg
   meta: ok
   verdict: custodial

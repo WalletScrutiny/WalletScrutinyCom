@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: cz.coin
   users: 10
+  appCountry: us
   released: 2025-10-01
   updated: 2026-05-05
   version: 0.8.0

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: uni.global.mcdc_client_app
   users: 100
+  appCountry: us
   released: 2022-01-24
   updated: 2025-08-31
   version: 4.1.8

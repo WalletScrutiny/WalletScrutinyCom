@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: co.coinfinity.coinfinity.mobile
   users: 10000
+  appCountry: us
   updated: 2026-04-02
   version: 3.0.13
   icon: co.coinfinity.coinfinity.mobile.png

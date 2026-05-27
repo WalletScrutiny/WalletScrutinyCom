@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.cetoex.cetoex
   users: 50000
+  appCountry: us
   released: 2022-08-13
   updated: 2025-09-04
   version: 4.0.2

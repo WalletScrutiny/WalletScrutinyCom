@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: rs.ecd.ecd
   users: 10000
+  appCountry: us
   released: 2024-10-22
   updated: 2026-05-25
   version: 1.4.92

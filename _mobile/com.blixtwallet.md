@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.blixtwallet
   users: 5000
+  appCountry: us
   updated: 2026-02-18
   version: VARY
   icon: com.blixtwallet.png

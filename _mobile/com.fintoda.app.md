@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.fintoda.app
   users: 5000
+  appCountry: us
   released: 2021-08-26
   updated: 2026-05-25
   version: 1.7.11

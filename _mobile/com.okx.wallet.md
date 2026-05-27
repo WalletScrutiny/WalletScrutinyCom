@@ -11,9 +11,10 @@ redirect_from:
 android:
   appId: com.okx.wallet
   users: 500000
+  appCountry: us
   released: 2025-03-21
   updated: 2026-05-18
-  version: 6.171.0
+  version: 6.172.0
   reviews: 45
   icon: com.okx.wallet.png
   meta: ok

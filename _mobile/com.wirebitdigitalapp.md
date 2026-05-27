@@ -31,7 +31,7 @@ iphone:
   version: 1.12.3
   reviews: 0
   icon: wirebit.digital.app.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Wirebit S.A. de C.V.
 

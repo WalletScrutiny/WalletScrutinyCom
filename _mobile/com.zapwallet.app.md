@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.zapwallet.app
   users: 1000
+  appCountry: us
   released: 2025-03-11
   updated: 2025-04-18
   version: 1.0.9

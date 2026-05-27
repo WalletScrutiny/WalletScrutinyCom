@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.getalby.mobile
   users: 5000
+  appCountry: us
   released: 2024-09-16
   updated: 2026-01-22
   version: 2.0.1

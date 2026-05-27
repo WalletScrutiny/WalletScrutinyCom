@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.gemini.android.app
   users: 1000000
+  appCountry: us
   released: 2018-12-10
   updated: 2026-05-22
   version: 26.522.0
-  reviews: 8545
+  reviews: 8546
   icon: com.gemini.android.app.png
   meta: ok
   verdict: custodial
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.gemini.ios
   idd: 1408914447
+  appCountry: us
   released: 2018-12-11
-  updated: 2026-05-20
-  version: 26.518.1
-  reviews: 108806
+  updated: 2026-05-24
+  version: 26.522.0
+  reviews: 108858
   icon: com.gemini.ios.jpg
   meta: ok
   verdict: custodial

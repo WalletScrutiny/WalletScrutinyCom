@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.btcdex.app
   users: 100
+  appCountry: us
   released: 2025-11-15
   updated: 2026-01-07
   version: 1.0.55

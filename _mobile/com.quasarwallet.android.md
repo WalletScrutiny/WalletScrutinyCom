@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.quasarwallet.android
   users: 10000
+  appCountry: us
   released: 2022-04-05
   updated: 2024-08-29
   version: '1.5'

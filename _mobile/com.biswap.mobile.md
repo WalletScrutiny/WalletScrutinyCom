@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.biswap.mobile
   users: 1000
+  appCountry: us
   released: 2022-07-22
   updated: 2023-07-18
   version: 1.0.13

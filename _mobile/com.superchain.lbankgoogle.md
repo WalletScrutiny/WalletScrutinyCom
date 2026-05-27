@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.superchain.lbankgoogle
   users: 1000000
+  appCountry: us
   released: 2020-05-08
   updated: 2026-05-17
   version: 7.9.7
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.LBank.LBankNavApp
   idd: '1437346368'
+  appCountry: us
   released: 2019-02-22
-  updated: 2026-05-17
-  version: 6.0.1
-  reviews: 701
+  updated: 2026-05-24
+  version: 6.0.2
+  reviews: 704
   icon: com.LBank.LBankNavApp.jpg
   meta: ok
   verdict: custodial

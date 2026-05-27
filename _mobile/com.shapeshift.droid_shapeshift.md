@@ -25,6 +25,7 @@ redirect_from:
 android:
   appId: com.shapeshift.droid_shapeshift
   users: 500000
+  appCountry: us
   released: 2015-10-26
   updated: 2026-02-16
   version: 3.7.1
@@ -36,6 +37,7 @@ android:
 iphone:
   appId: com.shapeShift.shapeShift
   idd: 996569075
+  appCountry: us
   released: 2015-06-09
   updated: 2026-02-20
   version: 3.7.2

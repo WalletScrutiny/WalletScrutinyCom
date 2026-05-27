@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.chainapsis.keplr
   users: 500000
+  appCountry: us
   released: 2021-10-01
   updated: 2026-05-22
   version: 2.1.198
@@ -25,9 +26,9 @@ iphone:
   idd: '1567851089'
   appCountry: us
   released: 2021-10-14
-  updated: 2026-05-20
-  version: 2.1.195
-  reviews: 269
+  updated: 2026-05-26
+  version: 2.1.198
+  reviews: 270
   icon: com.chainapsis.keplrwallet.jpg
   meta: ok
   verdict: nosource

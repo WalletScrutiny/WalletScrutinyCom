@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.cropty.droid
   users: 100000
+  appCountry: us
   released: 2022-07-04
   updated: 2026-03-03
   version: 2.11.1

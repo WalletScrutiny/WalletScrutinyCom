@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.exscudo.channels
   users: 100000
+  appCountry: ru
   released: 2018-05-17
   updated: 2026-04-08
   version: 3.30.2738
@@ -31,6 +32,7 @@ android:
 iphone:
   appId: com.exscudo.channels
   idd: 1367425342
+  appCountry: ru
   released: 2018-05-16
   updated: 2026-04-01
   version: 3.24.0

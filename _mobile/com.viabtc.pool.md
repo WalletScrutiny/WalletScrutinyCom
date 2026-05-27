@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.viabtc.pool
   users: 1000000
+  appCountry: us
   released: 2017-12-16
   updated: 2026-04-14
   version: 3.14.0

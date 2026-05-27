@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.icmarkets.mobileapp
   users: 500000
+  appCountry: us
   released: 2022-01-19
   updated: 2022-06-22
   version: '2.0'

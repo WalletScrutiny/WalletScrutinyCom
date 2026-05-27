@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.app.xt
   users: 1000000
+  appCountry: us
   released: 2021-04-14
   updated: 2026-05-19
   version: 5.24.0
@@ -31,8 +32,8 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-05-15
-  version: 5.23.1
+  updated: 2026-05-22
+  version: 5.24.0
   reviews: 1450
   icon: com.xt.app.jpg
   meta: ok

@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: com.shaketh
   users: 500000
+  appCountry: us
   released: 2018-02-20
-  updated: 2026-05-22
-  version: 4.6.35
+  updated: 2026-05-26
+  version: 4.6.36
   reviews: 21
   icon: com.shaketh.png
   meta: ok

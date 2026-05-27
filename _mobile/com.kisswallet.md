@@ -24,6 +24,7 @@ android:
 iphone:
   appId: com.kisswallet
   idd: 1449385577
+  appCountry: us
   released: 2020-02-16
   updated: 2020-05-30
   version: 0.3.6

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.profittrading.forbybit
   users: 100000
+  appCountry: us
   released: 2020-03-22
   updated: 2026-03-25
   version: 7.1.1

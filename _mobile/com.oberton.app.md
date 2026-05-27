@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.oberton.app
   users: 5000
+  appCountry: us
   released: 2021-09-15
   updated: 2026-05-23
   version: 2.18.1
@@ -30,8 +31,8 @@ iphone:
   idd: '1585434994'
   appCountry: ua
   released: 2021-09-15
-  updated: 2026-05-16
-  version: 3.2.0
+  updated: 2026-05-26
+  version: 3.2.2
   reviews: 8
   icon: io.oberton.jpg
   meta: ok

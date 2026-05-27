@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.conglex.conglex
   users: 10000
+  appCountry: us
   released: 2022-05-12
   updated: 2025-08-14
   version: 2.0.4

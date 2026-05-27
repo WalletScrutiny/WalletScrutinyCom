@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.coinsher.coinsherapp
   users: 1000
+  appCountry: us
   released: 2024-05-25
   updated: 2025-12-27
   version: 1.5.2

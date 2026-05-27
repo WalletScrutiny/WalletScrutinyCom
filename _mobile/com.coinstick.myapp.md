@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.coinstick.myapp
   users: 5000
+  appCountry: us
   released: 2023-01-23
   updated: 2026-05-21
   version: 1.0.0

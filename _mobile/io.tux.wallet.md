@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: io.tux.wallet
   users: 10000
+  appCountry: us
   released: 2020-01-28
   updated: 2026-04-17
   version: 4.0.8

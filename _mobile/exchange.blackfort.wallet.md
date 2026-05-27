@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: exchange.blackfort.wallet
   users: 10000
+  appCountry: ee
   released: 2020-08-31
   updated: 2021-10-27
   version: 1.3.18

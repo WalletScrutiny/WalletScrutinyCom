@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.monnos.android
   users: 50000
+  appCountry: br
   released: 2019-09-17
   updated: 2024-11-29
   version: 6.3.14

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.btse.finance
   users: 100000
+  appCountry: ng
   released: 2020-11-30
   updated: 2026-05-08
   version: 1.126.0

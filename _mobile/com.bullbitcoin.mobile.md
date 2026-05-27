@@ -26,6 +26,7 @@ redirect_from:
 android:
   appId: com.bullbitcoin.mobile
   users: 10000
+  appCountry: us
   released: 2023-10-31
   updated: 2026-05-17
   version: 6.10.1

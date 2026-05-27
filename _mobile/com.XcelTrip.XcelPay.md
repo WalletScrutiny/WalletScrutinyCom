@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.XcelTrip.XcelPay
   users: 100000
+  appCountry: us
   released: 2019-05-30
   updated: 2025-04-22
   version: 2.91.0
@@ -30,6 +31,7 @@ android:
 iphone:
   appId: com.xcelpay.wallet
   idd: 1461215417
+  appCountry: us
   released: 2019-05-26
   updated: 2025-04-23
   version: 2.91.0

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.dextrade.android
   users: 100000
+  appCountry: us
   released: 2019-07-03
   updated: 2023-05-10
   version: 1.3.0
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.dex-trade.ios
   idd: 1496672790
+  appCountry: us
   released: 2020-01-28
   updated: 2023-05-11
   version: 2.1.9

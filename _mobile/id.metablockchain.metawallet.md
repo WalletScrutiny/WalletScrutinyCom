@@ -14,6 +14,7 @@ redirect_from:
 iphone:
   appId: id.metablockchain.metawallet
   idd: 1546698261
+  appCountry: us
   released: 2021-01-05
   updated: 2026-05-14
   version: 3.2.5

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.profittrading.forbinance
   users: 500000
+  appCountry: us
   released: 2018-01-09
   updated: 2026-04-26
   version: 18.1.3

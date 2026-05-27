@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.internetmoneywallet.app
   users: 10000
+  appCountry: us
   released: 2022-11-12
   updated: 2026-05-04
   version: '2.7'

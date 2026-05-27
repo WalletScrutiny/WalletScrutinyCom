@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.royallyborn.v8
   users: 50000
+  appCountry: us
   released: 2022-02-07
   updated: 2025-12-22
   version: 1.2.5

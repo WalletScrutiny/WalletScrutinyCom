@@ -34,7 +34,7 @@ iphone:
   version: 1.2.14
   reviews: 25
   icon: co.Minty.Coincast.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: Minty Networks, LLC.
 

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.mobiletradingpartners.lmax
   users: 50000
+  appCountry: us
   released: 2014-09-22
   updated: 2026-05-05
   version: 5.1.80

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.deepcoin.app.global
   users: 100000
+  appCountry: us
   released: 2020-12-08
   updated: 2026-04-21
   version: 7.6.49

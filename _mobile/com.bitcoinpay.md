@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bitcoinpay
   users: 500
+  appCountry: us
   released: 2021-01-24
   updated: 2025-09-12
   version: 2.1.5

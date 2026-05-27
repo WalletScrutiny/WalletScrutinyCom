@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.llc.bitcastle
   users: 100000
+  appCountry: us
   released: 2022-07-29
   updated: 2026-04-20
   version: 1.13.10

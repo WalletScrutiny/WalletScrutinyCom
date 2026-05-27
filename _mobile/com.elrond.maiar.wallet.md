@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.elrond.maiar.wallet
   users: 1000000
+  appCountry: us
   released: 2021-01-15
   updated: 2026-05-12
   version: 2.99.3 (3067)

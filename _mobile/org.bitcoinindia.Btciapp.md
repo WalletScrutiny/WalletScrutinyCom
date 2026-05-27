@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: org.bitcoinindia.Btciapp
   users: 500
+  appCountry: us
   updated: 2025-08-25
   version: 3.2.54
   icon: org.bitcoinindia.Btciapp.jpg

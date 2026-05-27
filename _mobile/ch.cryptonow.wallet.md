@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: ch.cryptonow.wallet
   users: 10000
+  appCountry: us
   updated: 2026-04-07
   version: 2.3.0
   icon: ch.cryptonow.wallet.png

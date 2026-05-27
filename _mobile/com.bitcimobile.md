@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bitcimobile
   users: 100000
+  appCountry: us
   released: 2020-03-30
   updated: 2026-05-21
   version: 23.0.2
@@ -30,8 +31,8 @@ iphone:
   idd: '1459044769'
   appCountry: tr
   released: 2019-04-17
-  updated: 2026-05-18
-  version: 23.0.0
+  updated: 2026-05-21
+  version: 23.0.2
   reviews: 1382
   icon: com.bitcimobil.com.jpg
   meta: ok

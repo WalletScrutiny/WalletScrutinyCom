@@ -36,7 +36,7 @@ iphone:
   version: '50'
   reviews: 20
   icon: com.antiersolutions.Ancrypto.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Ancrypto
 

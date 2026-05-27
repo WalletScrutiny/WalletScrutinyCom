@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.trusteewallet
   users: 500000
+  appCountry: us
   released: 2019-05-01
   updated: 2026-03-18
   version: 1.52.3

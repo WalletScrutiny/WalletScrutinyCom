@@ -25,6 +25,7 @@ android:
 iphone:
   appId: com.cashin.store
   idd: 1363753409
+  appCountry: gb
   released: 2018-08-15
   updated: 2025-07-21
   version: '8.4'

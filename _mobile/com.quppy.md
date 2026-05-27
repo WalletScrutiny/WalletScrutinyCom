@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.quppy
   users: 100000
+  appCountry: us
   released: 2018-09-17
   updated: 2026-02-07
   version: 2.0.149

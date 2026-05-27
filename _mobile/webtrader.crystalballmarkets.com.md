@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: webtrader.crystalballmarkets.com
   users: 10000
+  appCountry: us
   released: 2022-05-25
   updated: 2026-03-04
   version: 8.0.0

@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: com.zengo.wallet
   users: 1000000
+  appCountry: us
   released: 2020-01-19
   updated: 2026-04-26
   version: 9.6.3
-  reviews: 600
+  reviews: 601
   icon: com.zengo.wallet.png
   meta: ok
   verdict: nosource
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: kzencorp.mobile.ios
   idd: 1440147115
+  appCountry: us
   released: 2019-06-07
   updated: 2026-04-27
   version: 9.6.3
-  reviews: 4376
+  reviews: 4377
   icon: kzencorp.mobile.ios.jpg
   meta: ok
   verdict: nosource

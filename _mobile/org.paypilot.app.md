@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: org.paypilot.app
   users: 500
+  appCountry: us
   updated: 2026-04-28
   version: 1.5.0
   icon: org.paypilot.app.png

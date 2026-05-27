@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.smartblockchain.wallet
   users: 500000
+  appCountry: us
   released: 2023-07-20
   updated: 2026-04-27
   version: 2.6.1

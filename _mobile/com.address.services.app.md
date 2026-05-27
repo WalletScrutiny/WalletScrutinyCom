@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.address.services.app
   users: 50
+  appCountry: us
   updated: 2025-07-24
   version: VARY
   icon: com.address.services.app.png

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.digitra.digitraHB
   users: 100000
+  appCountry: us
   released: 2022-03-05
   updated: 2026-03-19
   version: 1.0.168

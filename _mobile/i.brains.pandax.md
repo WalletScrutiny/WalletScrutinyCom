@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: i.brains.pandax
   users: 100000
+  appCountry: us
   released: 2020-06-14
   updated: 2026-04-27
   version: 3.1.7
@@ -27,7 +28,7 @@ iphone:
   released: 2021-04-20
   updated: 2026-04-29
   version: 1.9.10
-  reviews: 4668
+  reviews: 4687
   icon: ng.pandar.resource.jpg
   meta: ok
   verdict: nosendreceive

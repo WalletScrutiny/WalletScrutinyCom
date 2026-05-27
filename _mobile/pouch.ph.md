@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: pouch.ph
   users: 10000
+  appCountry: us
   released: 2021-09-08
   updated: 2026-04-24
   version: 1.4.10

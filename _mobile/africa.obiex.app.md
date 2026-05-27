@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: africa.obiex.app
   users: 50000
+  appCountry: us
   released: 2021-06-09
   updated: 2026-05-23
   version: 4.1.6
@@ -33,7 +34,7 @@ iphone:
   released: 2021-06-18
   updated: 2026-05-21
   version: 4.1.5
-  reviews: 692
+  reviews: 693
   icon: africa.obiex.app.jpg
   meta: ok
   verdict: custodial

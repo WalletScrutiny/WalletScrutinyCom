@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bgw.wallet
   users: 1000
+  appCountry: us
   released: 2022-07-14
   updated: 2025-01-09
   version: 0.3.8

@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.kryptogo.walletapp
   users: 10000
+  appCountry: us
   released: 2021-12-28
   updated: 2026-05-26
   version: 3.94.0
@@ -31,8 +32,8 @@ iphone:
   idd: '1593830910'
   appCountry: us
   released: 2021-12-28
-  updated: 2026-04-17
-  version: 3.93.0
+  updated: 2026-05-26
+  version: 3.94.0
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
   meta: ok

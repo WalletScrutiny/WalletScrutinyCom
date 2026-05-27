@@ -18,10 +18,11 @@ redirect_from:
 android:
   appId: com.everestti.kinvo
   users: 1000000
+  appCountry: BR
   released: 2017-12-22
   updated: 2026-05-04
   version: 3.62.0
-  reviews: 7556
+  reviews: 7557
   icon: com.everestti.kinvo.png
   meta: ok
   verdict: nosendreceive
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.everest.kinvo
   idd: '1327335329'
+  appCountry: BR
   released: 2018-01-03
   updated: 2026-05-05
   version: 3.62.0

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.rapiexchange.merchant
   users: 100
+  appCountry: us
   released: 2022-08-25
   updated: 2022-08-25
   version: '1.0'

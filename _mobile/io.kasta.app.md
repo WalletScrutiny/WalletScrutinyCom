@@ -30,7 +30,7 @@ iphone:
   version: 2.0.5
   reviews: 2
   icon: io.kasta.app.ios.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Kasta CCHS LTD EOOD
 

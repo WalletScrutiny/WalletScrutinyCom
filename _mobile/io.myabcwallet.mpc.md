@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.myabcwallet.mpc
   users: 10000
+  appCountry: us
   released: 2022-12-22
   updated: 2026-03-27
   version: 2.10.5

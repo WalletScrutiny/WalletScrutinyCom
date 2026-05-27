@@ -27,6 +27,7 @@ redirect_from:
 android:
   appId: com.tradestrike
   users: 10000
+  appCountry: us
   released: 2022-09-26
   updated: 2025-11-13
   version: 4.2.8

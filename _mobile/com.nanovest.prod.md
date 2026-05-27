@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.nanovest.prod
   users: 1000000
+  appCountry: us
   released: 2023-06-08
   updated: 2026-05-19
   version: 5.8.0

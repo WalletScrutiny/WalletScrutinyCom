@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: mobile.lmex.io
   users: 100
+  appCountry: us
   released: 2022-11-14
   updated: 2026-04-28
   version: 1.18.0

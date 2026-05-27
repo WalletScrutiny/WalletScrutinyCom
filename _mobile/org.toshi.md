@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: org.toshi
   users: 10000000
+  appCountry: us
   released: 2017-09-20
   updated: 2026-05-22
-  version: 29.95.0
-  reviews: 14087
+  version: 29.96.0
+  reviews: 14085
   icon: org.toshi.png
   meta: ok
   verdict: nosource
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: org.toshi.distribution
   idd: 1278383455
+  appCountry: us
   released: 2017-09-27
-  updated: 2026-05-18
-  version: '29.95'
-  reviews: 161397
+  updated: 2026-05-25
+  version: '29.96'
+  reviews: 161416
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

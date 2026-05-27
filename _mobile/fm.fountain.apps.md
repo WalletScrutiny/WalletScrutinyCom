@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: fm.fountain.apps
   users: 100000
+  appCountry: us
   released: 2021-08-02
   updated: 2026-05-14
   version: 1.5.3
@@ -28,8 +29,8 @@ iphone:
   idd: '1576394424'
   appCountry: ph
   released: 2021-07-28
-  updated: 2026-05-15
-  version: 1.5.3
+  updated: 2026-05-21
+  version: 1.5.4
   reviews: 2
   icon: fm.fountain.apps.jpg
   meta: ok

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.darkex.exchange
   users: 100000
+  appCountry: us
   updated: 2026-02-06
   version: 7.0.0
   icon: com.darkex.exchange.png

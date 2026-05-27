@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.application.inocyx
   users: 50000
+  appCountry: us
   released: 2022-11-16
   updated: 2026-05-14
   version: 1.80.58

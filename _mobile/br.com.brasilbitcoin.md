@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: br.com.brasilbitcoin
   users: 100000
+  appCountry: br
   released: 2021-02-17
   updated: 2026-03-02
   version: 4.1.02
-  reviews: 5637
+  reviews: 5638
   icon: br.com.brasilbitcoin.png
   meta: ok
   verdict: custodial
@@ -26,6 +27,7 @@ android:
 iphone:
   appId: br.com.brasilbitcoin.run
   idd: '1519300849'
+  appCountry: br
   released: 2020-07-27
   updated: 2026-03-04
   version: 4.1.03

@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.cakewallet.cupcake
   idd: '6737430272'
+  appCountry: us
   released: 2024-11-16
   updated: 2025-12-03
   version: 1.1.1

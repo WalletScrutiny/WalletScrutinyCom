@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: app.pagosalinstante.com
   users: 10000
+  appCountry: us
   released: 2019-02-03
   updated: 2026-05-18
   version: 1.08.1122

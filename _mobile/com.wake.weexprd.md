@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.wake.weexprd
   users: 1000000
+  appCountry: us
   released: 2022-02-23
   updated: 2026-05-14
   version: 4.5.21
@@ -32,9 +33,9 @@ iphone:
   idd: '1609350789'
   appCountry: us
   released: 2022-03-04
-  updated: 2026-05-09
-  version: 4.5.20
-  reviews: 1833
+  updated: 2026-05-23
+  version: 4.5.22
+  reviews: 1850
   icon: com.wake.weexprd.jpg
   meta: ok
   verdict: custodial

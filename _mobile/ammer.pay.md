@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: ammer.pay
   users: 500
+  appCountry: us
   released: 2022-08-22
   updated: 2025-12-03
   version: 2.0.5

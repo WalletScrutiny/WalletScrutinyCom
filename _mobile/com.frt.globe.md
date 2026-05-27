@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.frt.globe
   users: 1000
+  appCountry: us
   updated: 2025-08-06
   version: 1.3.0
   icon: com.frt.globe.png

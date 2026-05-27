@@ -21,10 +21,11 @@ redirect_from:
 android:
   appId: com.kraken.trade
   users: 1000000
+  appCountry: us
   released: 2019-10-24
   updated: 2026-05-22
   version: 5.56.0
-  reviews: 4701
+  reviews: 4704
   icon: com.kraken.trade.png
   meta: ok
   verdict: custodial
@@ -32,10 +33,11 @@ android:
 iphone:
   appId: com.kraken.trade.app
   idd: 1473024338
+  appCountry: us
   released: 2019-11-12
-  updated: 2026-05-18
-  version: 5.55.1
-  reviews: 24985
+  updated: 2026-05-25
+  version: 5.56.0
+  reviews: 25048
   icon: com.kraken.trade.app.jpg
   meta: ok
   verdict: custodial

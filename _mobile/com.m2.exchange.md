@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.m2.exchange
   users: 100000
+  appCountry: us
   updated: 2025-12-15
   version: 5.21.1
   icon: com.m2.exchange.png
@@ -30,7 +31,7 @@ iphone:
   version: 5.21.0
   reviews: 71
   icon: com.m2.exchange.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: M2 Investments Limited
 

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.belo.android
   users: 1000000
+  appCountry: us
   released: 2021-08-23
   updated: 2026-05-14
   version: 7.19.0

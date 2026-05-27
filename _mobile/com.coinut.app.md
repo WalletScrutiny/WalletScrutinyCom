@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.coinut.app
   users: 100000
+  appCountry: us
   released: 2018-02-04
   updated: 2026-05-20
   version: 0.8.7
@@ -32,7 +33,7 @@ iphone:
   version: 3.0.0
   reviews: 5
   icon: com.coinut.app.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Coinut Pte. Ltd.
 

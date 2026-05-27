@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bitbill.www
   users: 10000
+  appCountry: us
   released: 2018-03-22
   updated: 2026-05-22
   version: 4.65.0
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.bitbill.wallet
   idd: '1321798216'
+  appCountry: us
   released: 2018-02-07
-  updated: 2026-05-18
-  version: 4.64.4
-  reviews: 148
+  updated: 2026-05-23
+  version: 4.65.0
+  reviews: 149
   icon: com.bitbill.wallet.jpg
   meta: ok
   verdict: nosource

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: co.rockitcoinx.app
   users: 100000
+  appCountry: us
   released: 2019-09-20
   updated: 2026-05-18
   version: 3.7.13

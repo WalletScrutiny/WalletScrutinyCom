@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.xfr.xtrade
   users: 5000000
+  appCountry: us
   released: 2014-10-02
   updated: 2026-03-25
   version: 7.0.24

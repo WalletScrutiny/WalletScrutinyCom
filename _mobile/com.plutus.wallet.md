@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.plutus.wallet
   users: 1000000
+  appCountry: us
   released: 2015-03-04
   updated: 2024-01-12
   version: '146.0'

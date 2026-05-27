@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.cryptotrading.inx
   users: 10000
+  appCountry: us
   released: 2022-06-11
   updated: 2025-09-10
   version: 2.0.12

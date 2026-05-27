@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.npbfx.app
   users: 10000
+  appCountry: us
   released: 2022-05-04
   updated: 2025-08-27
   version: 1.15.0

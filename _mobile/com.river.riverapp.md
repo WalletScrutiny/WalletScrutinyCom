@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.river.riverapp
   users: 50000
+  appCountry: us
   released: 2023-10-20
   updated: 2026-05-21
   version: 7.62.2
@@ -30,9 +31,9 @@ iphone:
   idd: '1536176542'
   appCountry: us
   released: 2021-01-19
-  updated: 2026-05-19
-  version: 7.54.7
-  reviews: 7940
+  updated: 2026-05-21
+  version: 7.62.2
+  reviews: 7989
   icon: com.river.riverapp.jpg
   meta: ok
   verdict: custodial

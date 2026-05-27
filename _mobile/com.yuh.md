@@ -14,8 +14,9 @@ redirect_from:
 android:
   appId: com.yuh
   users: 100000
+  appCountry: us
   released: 2021-04-06
-  updated: 2026-05-13
+  updated: 2026-05-21
   version: 1.44.6
   reviews: 4
   icon: com.yuh.png
@@ -27,9 +28,9 @@ iphone:
   idd: '1493935010'
   appCountry: ch
   released: 2021-05-10
-  updated: 2026-05-18
-  version: 1.43.3
-  reviews: 21270
+  updated: 2026-05-26
+  version: 1.43.4
+  reviews: 21318
   icon: com.swissquote.Yuh.jpg
   meta: ok
   verdict: nosendreceive

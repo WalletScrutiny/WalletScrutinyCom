@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.spacelink.exchange
   users: 50
+  appCountry: us
   released: 2021-05-21
   updated: 2021-05-21
   version: '4'

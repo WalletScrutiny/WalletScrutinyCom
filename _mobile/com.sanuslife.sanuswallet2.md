@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.sanuslife.sanuswallet2
   users: 10000
+  appCountry: us
   released: 2020-09-04
   updated: 2023-11-07
   version: 2.1.17

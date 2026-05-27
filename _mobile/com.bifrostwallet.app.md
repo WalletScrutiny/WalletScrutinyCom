@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bifrostwallet.app
   users: 100000
+  appCountry: us
   released: 2021-09-09
   updated: 2026-04-16
   version: 0.7.45

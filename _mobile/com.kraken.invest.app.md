@@ -20,10 +20,11 @@ redirect_from:
 android:
   appId: com.kraken.invest.app
   users: 5000000
+  appCountry: us
   released: 2020-12-30
   updated: 2026-05-22
   version: 3.65.0
-  reviews: 8076
+  reviews: 8078
   icon: com.kraken.invest.app.png
   meta: ok
   verdict: custodial
@@ -33,9 +34,9 @@ iphone:
   idd: '1481947260'
   appCountry: us
   released: 2021-06-01
-  updated: 2026-05-18
-  version: 3.64.0
-  reviews: 31190
+  updated: 2026-05-25
+  version: 3.65.0
+  reviews: 31403
   icon: com.kraken.invest.app.jpg
   meta: ok
   verdict: custodial

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: ng.dtunes.app
   users: 50000
+  appCountry: us
   released: 2021-12-29
   updated: 2026-04-28
   version: 3.0.1

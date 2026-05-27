@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.kapital.trade.crypto
   users: 1000000
+  appCountry: cz
   released: 2021-01-20
   updated: 2026-05-25
   version: 3.34.2
@@ -25,9 +26,10 @@ android:
 iphone:
   appId: com.kapital.trade.crypto
   idd: 1487443266
+  appCountry: cz
   released: 2019-11-26
-  updated: 2026-05-18
-  version: 3.34.0
+  updated: 2026-05-25
+  version: 3.34.2
   reviews: 822
   icon: com.kapital.trade.crypto.jpg
   meta: ok

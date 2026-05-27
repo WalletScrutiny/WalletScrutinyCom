@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: net.bitbay.bitcoin
   users: 100000
+  appCountry: us
   released: 2018-11-19
   updated: 2025-11-03
   version: 1.1.52

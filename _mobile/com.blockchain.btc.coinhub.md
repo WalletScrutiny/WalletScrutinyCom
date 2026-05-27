@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: com.blockchain.btc.coinhub
   users: 50000
+  appCountry: us
   released: 2021-05-13
   updated: 2025-10-27
   version: 1.5.5

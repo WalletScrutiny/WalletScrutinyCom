@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.mpcvault.mobileapp.android
   users: 5000
+  appCountry: us
   released: 2022-09-13
   updated: 2026-05-26
   version: 3.18.0
@@ -31,8 +32,8 @@ iphone:
   idd: '1622756458'
   appCountry: us
   released: 2022-09-13
-  updated: 2026-04-30
-  version: 1.138.0
+  updated: 2026-05-26
+  version: 1.139.1
   reviews: 135
   icon: com.mpcvault.mobileapp.ios.jpg
   meta: ok

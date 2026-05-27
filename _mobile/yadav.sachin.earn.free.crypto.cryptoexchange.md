@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: yadav.sachin.earn.free.crypto.cryptoexchange
   users: 500
+  appCountry: us
   released: 2022-08-25
   updated: 2023-01-07
   version: '3.0'

@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: io.aquawallet.android
   users: 50000
+  appCountry: us
   released: 2024-01-02
   updated: 2026-04-08
   version: 0.4.2

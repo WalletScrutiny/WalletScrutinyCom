@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.kyrrex
   users: 5000
+  appCountry: us
   updated: 2026-04-24
   version: production/v4.2.62
   icon: com.kyrrex.jpg

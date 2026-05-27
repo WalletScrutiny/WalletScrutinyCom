@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.wongeta.smartcashtransact
   users: 10000
+  appCountry: us
   released: 2018-12-31
   updated: 2025-07-12
   version: '200'

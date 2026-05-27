@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.fliplabs.dartafrica
   users: 1000
+  appCountry: us
   released: 2023-05-24
   updated: 2024-02-29
   version: 1.1.0

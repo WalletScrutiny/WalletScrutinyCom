@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.trust_fresh
   users: 1000
+  appCountry: us
   released: 2025-07-02
   updated: 2026-02-12
   version: 1.0.13

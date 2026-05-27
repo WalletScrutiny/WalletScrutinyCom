@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.most.wallet
   users: 10000
+  appCountry: us
   released: 2022-02-04
   updated: 2025-10-28
   version: 1.8.52

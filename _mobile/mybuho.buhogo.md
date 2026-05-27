@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: mybuho.buhogo
   users: 10
+  appCountry: us
   released: 2025-09-26
   updated: 2026-05-01
   version: 1.8.1

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.vndc
   users: 1000000
+  appCountry: us
   released: 2020-03-07
   updated: 2026-03-08
   version: 6.4.7

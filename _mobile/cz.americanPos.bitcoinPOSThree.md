@@ -8,9 +8,10 @@ redirect_from:
 iphone:
   appId: cz.americanPos.bitcoinPOSThree
   idd: '6575382133'
+  appCountry: us
   released: 2025-12-22
-  updated: 2026-03-02
-  version: 1.0.3
+  updated: 2026-05-25
+  version: 1.0.4
   reviews: 0
   icon: cz.americanPos.bitcoinPOSThree.jpg
   meta: ok

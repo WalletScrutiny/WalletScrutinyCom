@@ -25,6 +25,7 @@ android:
 iphone:
   appId: com.quarkchain.qpocket
   idd: 1442761980
+  appCountry: us
   released: 2019-08-22
   updated: 2020-12-02
   version: 5.4.0

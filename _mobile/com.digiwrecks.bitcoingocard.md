@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.digiwrecks.bitcoingocard
   users: 100
+  appCountry: us
   released: 2022-02-01
   updated: 2025-07-29
   version: 1.1.7

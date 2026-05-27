@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: app.coinhubatm.wallet
   users: 10000
+  appCountry: us
   released: 2022-12-11
   updated: 2026-03-19
   version: 4.46.0

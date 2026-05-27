@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.mobee.io
   users: 500000
+  appCountry: us
   released: 2022-11-14
   updated: 2026-05-19
   version: 2.0.13
@@ -32,9 +33,9 @@ iphone:
   idd: '1643474845'
   appCountry: id
   released: 2023-07-19
-  updated: 2026-05-21
-  version: 2.0.13
-  reviews: 896
+  updated: 2026-05-27
+  version: 2.0.15
+  reviews: 902
   icon: io.mobee.finance.jpg
   meta: ok
   verdict: custodial

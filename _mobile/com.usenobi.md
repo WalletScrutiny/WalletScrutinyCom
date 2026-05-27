@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.usenobi
   users: 50000
+  appCountry: us
   released: 2020-07-15
   updated: 2025-09-24
   version: 3.6.11

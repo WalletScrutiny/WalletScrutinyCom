@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bitcoinupbit.exchange
   users: 1000
+  appCountry: us
   released: 2021-12-13
   updated: 2023-04-04
   version: 1.0.31

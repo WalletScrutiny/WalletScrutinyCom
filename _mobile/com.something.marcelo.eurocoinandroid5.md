@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.something.marcelo.eurocoinandroid5
   users: 10000
+  appCountry: us
   released: 2018-11-17
   updated: 2025-10-03
   version: '40.0'

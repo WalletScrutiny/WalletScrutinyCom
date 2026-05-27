@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: br.com.mynt
   users: 500000
+  appCountry: us
   released: 2022-06-21
   updated: 2026-05-15
   version: 1.108.0
@@ -30,7 +31,7 @@ iphone:
   released: 2022-06-19
   updated: 2026-05-16
   version: 1.108.0
-  reviews: 1880
+  reviews: 1882
   icon: br.com.mynt.jpg
   meta: ok
   verdict: custodial

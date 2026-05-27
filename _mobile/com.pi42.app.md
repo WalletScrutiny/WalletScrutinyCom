@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.pi42.app
   users: 100000
+  appCountry: us
   updated: 2026-05-14
   version: 2.2.01
   icon: com.pi42.app.png

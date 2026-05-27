@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.kingmax.wallet
   users: 50
+  appCountry: us
   released: 2022-01-26
   updated: 2022-07-01
   version: '12.08'

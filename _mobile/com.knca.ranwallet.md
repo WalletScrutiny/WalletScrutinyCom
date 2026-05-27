@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.knca.ranwallet
   users: 100
+  appCountry: us
   released: 2023-05-03
   updated: 2023-05-03
   version: '1.0'

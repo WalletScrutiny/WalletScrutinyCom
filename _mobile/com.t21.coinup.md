@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.t21.coinup
   idd: '1645045725'
+  appCountry: us
   released: 2022-10-13
   updated: 2026-05-15
   version: '100031'

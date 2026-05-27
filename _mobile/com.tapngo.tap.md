@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.tapngo.tap
   users: 100000
+  appCountry: gb
   released: 2019-12-19
   updated: 2026-05-14
   version: 3.8.5
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.TapGlobal.tap
   idd: '1492263993'
+  appCountry: gb
   released: 2019-12-20
   updated: 2026-05-15
   version: 3.8.5

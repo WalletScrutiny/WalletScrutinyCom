@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.coinwebapp
   users: 1000
+  appCountry: us
   released: 2023-04-28
   updated: 2026-02-25
   version: 1.2.6

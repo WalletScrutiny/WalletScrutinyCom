@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.squirrelwallet.app
   users: 1000
+  appCountry: us
   released: 2025-06-26
   updated: 2026-02-09
   version: 1.0.6

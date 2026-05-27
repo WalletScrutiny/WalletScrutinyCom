@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: io.crypto2cash.exchange
   users: 10000
+  appCountry: us
   released: 2018-12-06
   updated: 2026-01-14
   version: 2.1.6

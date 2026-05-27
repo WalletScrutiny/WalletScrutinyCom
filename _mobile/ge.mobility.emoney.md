@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: ge.mobility.emoney
   users: 100000
+  appCountry: us
   released: 2015-08-22
   updated: 2026-03-04
   version: 11.5.10

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.quantum.wallet.app
   users: 50000
+  appCountry: us
   released: 2024-07-29
   updated: 2025-07-03
   version: 1.3.1

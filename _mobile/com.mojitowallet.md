@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.mojitowallet
   users: 5000
+  appCountry: us
   updated: 2024-12-15
   version: 0.4.1
   icon: com.mojitowallet.png

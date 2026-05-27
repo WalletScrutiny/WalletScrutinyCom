@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.corewallet.element.app
   users: 100000
+  appCountry: us
   released: 2024-06-05
   updated: 2025-04-02
   version: 1.13.0
@@ -26,7 +27,7 @@ iphone:
   released: 2024-03-22
   updated: 2025-04-03
   version: 1.13.0
-  reviews: 166
+  reviews: 169
   icon: Element-com.elementwallet.app.jpg
   meta: stale
   verdict: nosource

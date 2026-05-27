@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: africa.buycoins.buycoinsx.pro
   users: 10000
+  appCountry: us
   released: 2021-04-16
   updated: 2023-09-19
   version: 1.1.96

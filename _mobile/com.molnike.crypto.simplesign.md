@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.molnike.crypto.simplesign
   users: 500
+  appCountry: us
   released: 2023-01-11
   updated: 2023-03-09
   version: '0.6'

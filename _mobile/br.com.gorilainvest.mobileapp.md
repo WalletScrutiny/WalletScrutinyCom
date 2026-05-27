@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: br.com.gorilainvest.mobileapp
   users: 100000
+  appCountry: us
   released: 2019-05-13
   updated: 2026-04-28
   version: 8.7.1

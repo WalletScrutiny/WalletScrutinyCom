@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.swanbitcoin.android
   users: 100000
+  appCountry: us
   released: 2022-03-25
   updated: 2026-05-19
   version: 3.19.0
@@ -33,7 +34,7 @@ iphone:
   released: 2022-08-25
   updated: 2026-05-20
   version: 3.19.0
-  reviews: 3958
+  reviews: 3959
   icon: com.swanbitcoin.app.jpg
   meta: ok
   verdict: custodial

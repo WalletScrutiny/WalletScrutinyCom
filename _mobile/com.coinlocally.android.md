@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.coinlocally.android
   users: 100000
+  appCountry: us
   released: 2022-04-21
   updated: 2026-05-21
   version: 5.1.1
-  reviews: 91
+  reviews: 90
   icon: com.coinlocally.android.png
   meta: ok
   verdict: custodial

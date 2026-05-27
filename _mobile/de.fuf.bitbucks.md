@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: de.fuf.bitbucks
   users: 10000
+  appCountry: us
   released: 2019-09-03
   updated: 2025-10-06
   version: 1.5.14
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: de.fuf.bitbucks-io
   idd: 1453167599
+  appCountry: us
   released: 2019-06-15
   updated: 2025-10-31
   version: 1.5.16

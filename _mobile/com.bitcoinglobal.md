@@ -32,7 +32,7 @@ iphone:
   version: 2.12.0
   reviews: 60
   icon: com.global.bitcoin.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Bitcoin Global
 

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.buda.crypto
   users: 100000
+  appCountry: us
   released: 2018-01-04
   updated: 2026-04-08
   version: 2025.11.4

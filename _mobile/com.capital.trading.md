@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.capital.trading
   users: 10000000
+  appCountry: us
   released: 2017-10-18
   updated: 2026-05-25
   version: 3.34.2
@@ -31,8 +32,8 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-05-19
-  version: 3.34.1
+  updated: 2026-05-25
+  version: 3.34.2
   reviews: 324
   icon: com.capital.trading.jpg
   meta: ok

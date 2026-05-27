@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.itm.ww.Todaysapp
   idd: '1415559276'
+  appCountry: us
   released: 2018-09-20
   updated: 2023-05-22
   version: '2'

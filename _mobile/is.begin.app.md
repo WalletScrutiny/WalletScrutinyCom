@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: is.begin.app
   users: 5000
+  appCountry: us
   released: 2022-10-30
   updated: 2026-05-07
   version: 2.6.1

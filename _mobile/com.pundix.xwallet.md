@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.pundix.xwallet
   users: 100000
+  appCountry: us
   released: 2018-10-22
   updated: 2023-07-07
   version: 2.8.7
@@ -28,6 +29,7 @@ android:
 iphone:
   appId: com.pundix.wallet
   idd: 1321754661
+  appCountry: us
   released: 2019-01-26
   updated: 2020-12-29
   version: 2.9.4

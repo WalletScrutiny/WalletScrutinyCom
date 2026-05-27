@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: ph.pdax.mobile
   users: 1000000
+  appCountry: ph
   released: 2021-01-18
   updated: 2026-05-12
   version: 14.10.0
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: ph.pdax.mobile
   idd: 1531246346
+  appCountry: ph
   released: 2020-12-18
   updated: 2026-05-20
   version: 14.10.0
-  reviews: 940
+  reviews: 943
   icon: ph.pdax.mobile.jpg
   meta: ok
   verdict: custodial

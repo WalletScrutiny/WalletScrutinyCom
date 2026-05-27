@@ -17,11 +17,12 @@ redirect_from:
 android:
   appId: com.eqifi.eqifi
   users: 1000
+  appCountry: us
   released: 2022-04-03
   updated: 2025-05-28
   version: 1.7.4
   icon: com.eqifi.eqifi.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: EQIFi
 iphone:

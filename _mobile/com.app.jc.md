@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.app.jc
   users: 100000
+  appCountry: us
   released: 2025-01-13
   updated: 2026-05-13
   version: 3.3.15

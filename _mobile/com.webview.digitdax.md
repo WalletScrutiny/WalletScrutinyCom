@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.webview.digitdax
   users: 50
+  appCountry: us
   released: 2020-08-13
   updated: 2026-04-09
   version: '15.1'

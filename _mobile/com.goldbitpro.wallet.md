@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.goldbitpro.wallet
   users: 100
+  appCountry: us
   released: 2021-03-14
   updated: 2024-03-06
   version: 3.5.15

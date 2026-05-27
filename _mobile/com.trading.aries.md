@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.trading.aries
   users: 5000
+  appCountry: ng
   released: 2021-06-23
   updated: 2026-05-13
   version: 3.8.3

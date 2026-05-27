@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.criptan.app
   users: 50000
+  appCountry: us
   released: 2020-08-23
   updated: 2026-05-07
   version: 3.4.3

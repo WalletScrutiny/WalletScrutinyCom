@@ -20,9 +20,10 @@ redirect_from:
 android:
   appId: com.robinhood.gateway
   users: 100000
+  appCountry: us
   released: 2024-03-12
-  updated: 2026-05-18
-  version: 2026.20.0
+  updated: 2026-05-26
+  version: 2026.21.0
   reviews: 196
   icon: com.robinhood.gateway.png
   meta: ok
@@ -35,7 +36,7 @@ iphone:
   released: 2023-01-18
   updated: 2026-05-19
   version: 2026.20.0
-  reviews: 4927
+  reviews: 4971
   icon: com.robinhood.release.Gateway.jpg
   meta: ok
   verdict: nosource

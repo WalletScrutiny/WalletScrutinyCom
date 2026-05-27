@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.bitbarg.app
   users: 50000
+  appCountry: us
   released: 2022-03-12
   updated: 2026-04-26
   version: 3.5.3

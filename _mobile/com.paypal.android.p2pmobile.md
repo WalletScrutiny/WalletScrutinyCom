@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.paypal.android.p2pmobile
   users: 100000000
+  appCountry: us
   released: 2016-02-19
   updated: 2026-05-20
   version: 8.105.1
-  reviews: 437549
+  reviews: 437592
   icon: com.paypal.android.p2pmobile.png
   meta: ok
   verdict: nosendreceive
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.yourcompany.PPClient
   idd: 283646709
+  appCountry: us
   released: 2019-02-03
-  updated: 2026-05-18
-  version: 8.107.0
-  reviews: 6299404
+  updated: 2026-05-23
+  version: 8.107.1
+  reviews: 6299346
   icon: com.yourcompany.PPClient.jpg
   meta: ok
   verdict: nosendreceive

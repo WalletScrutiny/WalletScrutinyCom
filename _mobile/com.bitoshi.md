@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bitoshi
   users: 10000
+  appCountry: us
   released: 2022-10-13
   updated: 2026-04-16
   version: 1.5.0
@@ -32,7 +33,7 @@ iphone:
   released: 2022-10-17
   updated: 2026-04-16
   version: 1.5.0
-  reviews: 1839
+  reviews: 1843
   icon: com.bitoshi.jpg
   meta: ok
   verdict: custodial

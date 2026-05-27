@@ -19,21 +19,23 @@ redirect_from:
 android:
   appId: com.bybit.app
   users: 10000000
+  appCountry: us
   released: 2019-10-31
   updated: 2026-05-19
   version: 5.19.0
   reviews: 7188
-  icon: com.bybit.app.png
+  icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial
   developerName: Bybit
 iphone:
   appId: com.bybit.app
   idd: 1488296980
+  appCountry: us
   released: 2020-01-06
   updated: 2026-05-21
   version: 5.19.0
-  reviews: 46714
+  reviews: 46741
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

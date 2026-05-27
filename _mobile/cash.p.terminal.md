@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: cash.p.terminal
   users: 10000
+  appCountry: us
   released: 2023-02-10
   updated: 2026-05-14
   version: 0.55.0

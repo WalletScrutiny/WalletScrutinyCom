@@ -24,6 +24,7 @@ android:
 iphone:
   appId: com.GCBuying.GCBuying
   idd: '1574175142'
+  appCountry: ng
   released: 2021-06-30
   updated: 2026-01-04
   version: 1.4.3

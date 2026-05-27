@@ -19,8 +19,9 @@ redirect_from:
 android:
   appId: com.conio.wallet
   users: 100000
-  updated: 2026-04-27
-  version: 10.4.0
+  appCountry: us
+  updated: 2026-05-27
+  version: 10.4.2
   icon: com.conio.wallet.png
   meta: ok
   verdict: custodial

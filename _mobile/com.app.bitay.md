@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.app.bitay
   users: 100000
+  appCountry: us
   released: 2019-04-15
   updated: 2023-11-21
   version: 3.1.29

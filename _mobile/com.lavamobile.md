@@ -12,10 +12,11 @@ redirect_from:
 android:
   appId: com.lavamobile
   users: 1000
+  appCountry: us
   released: 2024-05-25
-  updated: 2026-05-20
-  version: 3.6.0
-  reviews: 9
+  updated: 2026-05-23
+  version: 3.7.0
+  reviews: 10
   icon: com.lavamobile.png
   meta: ok
   verdict: nosource
@@ -25,9 +26,9 @@ iphone:
   idd: '1661751123'
   appCountry: us
   released: 2024-04-29
-  updated: 2026-05-12
-  version: 3.5.0
-  reviews: 141
+  updated: 2026-05-26
+  version: 3.7.0
+  reviews: 142
   icon: xyz.lava.mobile.jpg
   meta: ok
   verdict: nosource

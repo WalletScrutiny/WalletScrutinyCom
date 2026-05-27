@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.netcoins.app
   users: 100000
+  appCountry: us
   released: 2022-12-10
   updated: 2026-05-05
   version: 5.13.0
@@ -32,7 +33,7 @@ iphone:
   version: 5.8.1
   reviews: 80
   icon: com.netcoins.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Netcoins
 

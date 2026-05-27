@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.ourbit.client
   users: 100000
+  appCountry: us
   released: 2024-04-05
   updated: 2026-05-03
   version: 1.20.1
@@ -31,7 +32,7 @@ iphone:
   released: 2024-07-28
   updated: 2026-05-05
   version: 1.20.1
-  reviews: 142
+  reviews: 144
   icon: com.ourbit.www.jpg
   meta: ok
   verdict: custodial

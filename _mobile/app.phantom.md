@@ -21,10 +21,11 @@ redirect_from:
 android:
   appId: app.phantom
   users: 10000000
+  appCountry: us
   released: 2022-04-12
-  updated: 2026-05-20
+  updated: 2026-05-22
   version: 26.13.4
-  reviews: 2245
+  reviews: 2250
   icon: app.phantom.png
   meta: ok
   verdict: nosource
@@ -36,7 +37,7 @@ iphone:
   released: 2022-01-30
   updated: 2026-05-21
   version: 26.13.4
-  reviews: 60977
+  reviews: 61032
   icon: app.phantom.jpg
   meta: ok
   verdict: nosource

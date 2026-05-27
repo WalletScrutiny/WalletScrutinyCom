@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.app.breet
   users: 100000
+  appCountry: us
   released: 2022-02-21
   updated: 2026-04-28
   version: 7.3.1
@@ -32,7 +33,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-04-27
   version: 7.2.6
-  reviews: 1195
+  reviews: 1194
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive

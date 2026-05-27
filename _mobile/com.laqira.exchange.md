@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.laqira.exchange
   users: 5000
+  appCountry: us
   released: 2023-02-09
   updated: 2023-03-03
   version: 3.2.2

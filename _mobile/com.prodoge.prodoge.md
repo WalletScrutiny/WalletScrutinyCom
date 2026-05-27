@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.prodoge.prodoge
   users: 10000
+  appCountry: us
   released: 2019-09-17
   updated: 2025-05-05
   version: '3.36'

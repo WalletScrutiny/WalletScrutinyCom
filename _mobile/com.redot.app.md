@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.redot.app
   users: 5000
+  appCountry: us
   released: 2020-03-03
   updated: 2025-03-06
   version: 1.0.64

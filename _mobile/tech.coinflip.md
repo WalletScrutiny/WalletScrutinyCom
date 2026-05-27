@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: tech.coinflip
   users: 50000
+  appCountry: us
   released: 2024-08-19
   updated: 2026-05-18
   version: 4.3.0
@@ -30,9 +31,9 @@ iphone:
   idd: '6502452721'
   appCountry: us
   released: 2024-06-05
-  updated: 2026-03-17
-  version: '4.3'
-  reviews: 851
+  updated: 2026-05-21
+  version: '4.4'
+  reviews: 854
   icon: tech.coinflip.CoinFlip.jpg
   meta: ok
   verdict: custodial

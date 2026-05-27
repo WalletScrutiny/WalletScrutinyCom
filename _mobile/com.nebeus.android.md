@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.nebeus.android
   users: 100000
+  appCountry: gt
   released: 2021-05-24
   updated: 2026-02-11
   version: 2.1.6
@@ -25,6 +26,7 @@ android:
 iphone:
   appId: com.nebeus.appmobile
   idd: '1568251064'
+  appCountry: gt
   released: 2021-05-26
   updated: 2026-02-11
   version: 2.1.4

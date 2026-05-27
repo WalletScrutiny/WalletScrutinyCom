@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.cryptomus.bundle
   users: 50000
+  appCountry: us
   released: 2024-12-19
   updated: 2026-05-15
   version: 2.9.1(188)

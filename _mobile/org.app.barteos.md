@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: org.app.barteos
   users: 100
+  appCountry: us
   released: 2021-04-30
   updated: 2024-08-16
   version: 1.0.16

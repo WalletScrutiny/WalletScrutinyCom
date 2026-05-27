@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: pro.ghostpoket.app
   users: 1000
+  appCountry: us
   released: 2025-06-21
   updated: 2026-01-15
   version: 1.1.5

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.humbl.wallet.app
   users: 5000
+  appCountry: us
   released: 2022-07-04
   updated: 2026-05-09
   version: 1.0.94

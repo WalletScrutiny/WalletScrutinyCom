@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: one.citadel.mobile
   users: 10000
+  appCountry: us
   released: 2020-12-29
   updated: 2026-01-24
   version: 2.13.2
@@ -39,7 +40,7 @@ iphone:
   version: 2.12.2
   reviews: 17
   icon: one.citadel.mobile.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Citadel.one LTD
 

@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: com.livingroomofsatoshi.wallet
   users: 1000000
+  appCountry: us
   released: 2019-05-19
   updated: 2026-05-14
   version: 3.3.4
@@ -38,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-05-18
   version: 3.3.4
-  reviews: 22
+  reviews: 24
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok
   verdict: custodial

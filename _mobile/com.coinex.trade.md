@@ -8,10 +8,11 @@ redirect_from:
 iphone:
   appId: com.coinex.trade
   idd: '1626447428'
+  appCountry: us
   released: 2022-10-25
   updated: 2026-05-15
   version: 4.13.0
-  reviews: 5709
+  reviews: 5715
   icon: com.coinex.trade.jpg
   meta: ok
   verdict: wip

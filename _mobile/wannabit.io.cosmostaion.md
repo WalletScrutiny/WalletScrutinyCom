@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: wannabit.io.cosmostaion
   users: 100000
+  appCountry: us
   released: 2019-03-17
   updated: 2026-04-16
   version: 1.10.48

@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: com.blockchaincommodities.hippo_wallet
   users: 100000
+  appCountry: us
   released: 2022-02-05
   updated: 2026-02-23
   version: 1.23.3

@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.futurance.futurex
   users: 10000
+  appCountry: us
   released: 2022-07-07
   updated: 2026-05-11
   version: 2.7.6

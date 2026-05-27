@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.independentreserve.mobileapp
   users: 50000
+  appCountry: us
   released: 2021-10-18
   updated: 2026-03-31
   version: 14.4.0

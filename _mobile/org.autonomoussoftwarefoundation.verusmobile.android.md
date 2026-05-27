@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: org.autonomoussoftwarefoundation.verusmobile.android
   users: 100000
+  appCountry: us
   released: 2023-04-23
   updated: 2025-10-06
   version: 1.0.34

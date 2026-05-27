@@ -30,6 +30,7 @@ android:
 iphone:
   appId: com.sf.monarch
   idd: 1386397997
+  appCountry: us
   released: 2018-06-12
   updated: 2024-05-22
   version: 2.0.6

@@ -19,10 +19,11 @@ redirect_from:
 android:
   appId: com.app.speedwallet
   users: 500000
+  appCountry: us
   released: 2023-06-18
-  updated: 2026-05-15
-  version: 2.5.0.0.0.1.fp.gps
-  reviews: 1313
+  updated: 2026-05-26
+  version: 2.5.1.0.0.0.fp.gps
+  reviews: 1318
   icon: com.app.speedwallet.png
   meta: ok
   verdict: custodial
@@ -34,7 +35,7 @@ iphone:
   released: 2023-08-24
   updated: 2026-05-18
   version: 1.13.16
-  reviews: 1116
+  reviews: 1122
   icon: com.app.speed1.jpg
   meta: ok
   verdict: custodial

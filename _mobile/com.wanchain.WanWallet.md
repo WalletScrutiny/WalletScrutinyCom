@@ -27,6 +27,7 @@ android:
 iphone:
   appId: org.wanchain.WanWallet
   idd: 1477039507
+  appCountry: us
   released: 2019-08-22
   updated: 2022-07-27
   version: '6.0'

@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: io.orai.owallet
   idd: '1626035069'
+  appCountry: us
   released: 2022-06-06
   updated: 2026-05-20
   version: 3.8.3

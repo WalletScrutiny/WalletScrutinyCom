@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: ammer.wallet
   users: 10000
+  appCountry: us
   released: 2022-12-05
   updated: 2025-12-18
   version: 1.8.1

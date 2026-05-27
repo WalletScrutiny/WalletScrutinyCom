@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.pocketbits
   users: 50000
+  appCountry: us
   released: 2021-08-03
   updated: 2023-08-31
   version: 1.3.7

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.nosapps.android.i5o2
   users: 100
+  appCountry: us
   released: 2022-06-03
   updated: 2026-05-23
   version: 1.2.618

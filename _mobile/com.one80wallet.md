@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.one80wallet
   users: 50
+  appCountry: us
   released: 2025-06-20
   updated: 2025-12-15
   version: 1.0.12

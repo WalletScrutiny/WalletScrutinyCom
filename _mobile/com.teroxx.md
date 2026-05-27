@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.teroxx
   users: 1000
+  appCountry: us
   released: 2019-08-26
   updated: 2026-05-14
   version: 3.0.55
@@ -22,6 +23,7 @@ android:
 iphone:
   appId: Teroxx
   idd: '1476828111'
+  appCountry: us
   released: 2019-09-06
   updated: 2026-05-15
   version: 3.0.49

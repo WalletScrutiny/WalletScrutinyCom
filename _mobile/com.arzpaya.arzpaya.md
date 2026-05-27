@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.arzpaya.arzpaya
   users: 5000
+  appCountry: us
   released: 2022-02-06
   updated: 2025-11-10
   version: 4.08.17.02

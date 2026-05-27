@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: coindroplet.com
   users: 1000
+  appCountry: us
   released: 2022-09-29
   updated: 2022-12-05
   version: '1.6'

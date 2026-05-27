@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.latoken.wallet
   users: 1000000
+  appCountry: us
   released: 2020-03-17
   updated: 2025-10-27
   version: 1.206.00

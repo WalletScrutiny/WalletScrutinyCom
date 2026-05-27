@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: flutter.android.LifePay
   users: 1000
+  appCountry: us
   released: 2022-09-21
   updated: 2025-08-25
   version: 2.4.8

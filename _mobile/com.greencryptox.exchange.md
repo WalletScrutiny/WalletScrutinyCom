@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.greencryptox.exchange
   users: 1000
+  appCountry: us
   released: 2023-07-16
   updated: 2024-08-23
   version: 3.0.12

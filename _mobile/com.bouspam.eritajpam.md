@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.bouspam.eritajpam
   users: 10000
+  appCountry: us
   released: 2022-03-28
   updated: 2026-05-03
   version: 3.2.0

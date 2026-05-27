@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.union.cash
   users: 10000
+  appCountry: us
   released: 2021-06-25
   updated: 2025-12-25
   version: 1.4.8

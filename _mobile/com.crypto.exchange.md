@@ -18,9 +18,10 @@ redirect_from:
 android:
   appId: com.crypto.exchange
   users: 1000000
+  appCountry: nz
   released: 2021-05-26
-  updated: 2026-05-12
-  version: 3.5.0
+  updated: 2026-05-26
+  version: 3.6.0
   reviews: 16
   icon: com.crypto.exchange.png
   meta: ok
@@ -29,9 +30,10 @@ android:
 iphone:
   appId: crypto.com.exchange
   idd: 1569309855
+  appCountry: nz
   released: 2021-06-15
-  updated: 2026-05-14
-  version: 3.5.1
+  updated: 2026-05-27
+  version: 3.6.0
   reviews: 111
   icon: crypto.com.exchange.jpg
   meta: ok

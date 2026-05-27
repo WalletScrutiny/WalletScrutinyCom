@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: de.bisonapp
   users: 500000
+  appCountry: us
   updated: 2026-05-12
   version: 4.32.1
   reviews: 2

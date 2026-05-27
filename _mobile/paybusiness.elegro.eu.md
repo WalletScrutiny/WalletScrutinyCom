@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: paybusiness.elegro.eu
   users: 1000
+  appCountry: us
   released: 2020-07-15
   updated: 2025-05-09
   version: 1.4.0

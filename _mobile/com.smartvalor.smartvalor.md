@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.smartvalor.smartvalor
   users: 1000
+  appCountry: us
   released: 2024-10-02
   updated: 2024-11-15
   version: 1.0.31.111

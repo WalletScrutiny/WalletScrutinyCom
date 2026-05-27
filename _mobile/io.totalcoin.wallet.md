@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: io.totalcoin.wallet
   users: 500000
+  appCountry: us
   released: 2018-04-01
   updated: 2025-12-19
   version: 5.8.2.3277

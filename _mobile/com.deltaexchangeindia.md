@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.deltaexchangeindia
   users: 5000000
+  appCountry: us
   updated: 2026-05-18
   version: 2.16.0
   reviews: 1
@@ -24,9 +25,9 @@ iphone:
   idd: '6478332344'
   appCountry: in
   released: 2024-08-16
-  updated: 2026-05-11
-  version: 2.17.0
-  reviews: 19997
+  updated: 2026-05-24
+  version: 2.23.0
+  reviews: 20133
   icon: app.deltaexchange.india.jpg
   meta: ok
   verdict: custodial

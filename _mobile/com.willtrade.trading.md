@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: com.willtrade.trading
   users: 1000000
+  appCountry: us
   released: 2021-08-19
   updated: 2026-05-11
   version: 1.3.48

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.cryptooriented.exchanges
   users: 50
+  appCountry: us
   released: 2018-01-10
   updated: 2022-01-10
   version: 1.0.0

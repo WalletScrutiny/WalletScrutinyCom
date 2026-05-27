@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: net.bitkap.frontEnd
   users: 50000
+  appCountry: us
   released: 2021-11-21
   updated: 2025-04-21
   version: 2.0.4

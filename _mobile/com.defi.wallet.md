@@ -25,10 +25,11 @@ redirect_from:
 android:
   appId: com.defi.wallet
   users: 5000000
+  appCountry: us
   released: 2020-05-11
   updated: 2026-02-11
   version: 2.50.0
-  reviews: 3751
+  reviews: 3752
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource
@@ -36,10 +37,11 @@ android:
 iphone:
   appId: com.defi.wallet
   idd: 1512048310
+  appCountry: us
   released: 2020-05-20
   updated: 2026-03-16
   version: 2.50.3
-  reviews: 20937
+  reviews: 20997
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

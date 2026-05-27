@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.paywithflash.flash_wallet.beta
   users: 1000
+  appCountry: us
   updated: 2025-12-30
   version: VARY
   icon: com.paywithflash.flash_wallet.beta.png

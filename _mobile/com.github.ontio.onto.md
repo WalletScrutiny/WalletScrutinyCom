@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.github.ontio.onto
   users: 100000
+  appCountry: us
   released: 2018-06-27
   updated: 2026-05-18
   version: 4.10.1
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.ontology.foundation.onto
   idd: 1436009823
+  appCountry: us
   released: 2018-09-21
   updated: 2026-05-20
   version: 4.10.1

@@ -19,9 +19,10 @@ redirect_from:
 android:
   appId: com.nicehash.metallum
   users: 1000000
+  appCountry: us
   released: 2020-04-17
-  updated: 2026-05-19
-  version: 5.2.8
+  updated: 2026-05-26
+  version: 5.2.9
   reviews: 679
   icon: com.nicehash.metallum.png
   meta: ok
@@ -32,9 +33,9 @@ iphone:
   idd: '1372054956'
   appCountry: us
   released: 2020-04-29
-  updated: 2026-05-19
-  version: 7.1.9
-  reviews: 4567
+  updated: 2026-05-26
+  version: 7.1.10
+  reviews: 4570
   icon: com.nicehash.mobile.jpg
   meta: ok
   verdict: custodial

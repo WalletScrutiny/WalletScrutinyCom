@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.coinhako
   users: 100000
+  appCountry: us
   released: 2018-05-06
   updated: 2026-05-20
   version: 5.25.0
@@ -31,9 +32,10 @@ android:
 iphone:
   appId: com.coinhako.app
   idd: 1137855704
+  appCountry: us
   released: 2016-09-04
-  updated: 2026-05-11
-  version: 5.24.0
+  updated: 2026-05-25
+  version: 5.25.0
   reviews: 31
   icon: com.coinhako.app.jpg
   meta: ok

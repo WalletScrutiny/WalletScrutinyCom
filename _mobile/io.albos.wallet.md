@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: io.albos.wallet
   users: 500
+  appCountry: us
   released: 2019-07-01
   updated: 2026-03-04
   version: 2.5.1

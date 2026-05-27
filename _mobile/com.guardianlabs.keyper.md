@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.guardianlabs.keyper
   users: 100
+  appCountry: us
   released: 2022-08-06
   updated: 2024-11-05
   version: 2.3.0

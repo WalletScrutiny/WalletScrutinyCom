@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.softnotewallet
   users: 5000
+  appCountry: us
   released: 2024-08-18
   updated: 2025-10-17
   version: 1.8.4

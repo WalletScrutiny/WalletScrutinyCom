@@ -25,6 +25,7 @@ android:
 iphone:
   appId: net.bither
   idd: 899478936
+  appCountry: us
   released: 2014-07-25
   updated: 2024-06-13
   version: 2.1.4

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.sincere.swallet
   users: 100000
+  appCountry: us
   released: 2022-04-11
   updated: 2023-04-21
   version: 2.6.0

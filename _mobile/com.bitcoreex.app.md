@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.bitcoreex.app
   users: 100
+  appCountry: us
   released: 2022-09-27
   updated: 2024-07-05
   version: 1.1.2

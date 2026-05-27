@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.wealthsimple.trade
   users: 1000000
+  appCountry: ca
   released: 2019-03-12
-  updated: 2026-05-15
+  updated: 2026-05-26
   version: 2.226.1
-  reviews: 12998
+  reviews: 12999
   icon: com.wealthsimple.trade.png
   meta: ok
   verdict: nosendreceive
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.wealthsimple.trade
   idd: 1403491709
+  appCountry: ca
   released: 2019-02-26
-  updated: 2026-05-15
-  version: 2.226.1
-  reviews: 128585
+  updated: 2026-05-26
+  version: 2.227.0
+  reviews: 128671
   icon: com.wealthsimple.trade.jpg
   meta: ok
   verdict: nosendreceive

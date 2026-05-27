@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: org.c2bwallet.app
   users: 1000
+  appCountry: us
   released: 2024-07-25
   updated: 2025-12-25
   version: 1.5.0
@@ -26,7 +27,7 @@ iphone:
   released: 2024-06-26
   updated: 2026-01-14
   version: 1.6.0
-  reviews: 13
+  reviews: 14
   icon: org.c2bwallet.app.jpg
   meta: ok
   verdict: nosource

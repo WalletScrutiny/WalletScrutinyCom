@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.dyorex.dyorex_mobile_app
   users: 10000
+  appCountry: us
   released: 2022-02-24
   updated: 2026-04-10
   version: 2.0.5

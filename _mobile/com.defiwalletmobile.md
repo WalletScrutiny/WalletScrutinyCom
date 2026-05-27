@@ -20,12 +20,13 @@ redirect_from:
 android:
   appId: com.defiwalletmobile
   users: 100000
+  appCountry: us
   released: 2021-12-13
   updated: 2024-06-01
   version: 1.26.2
   reviews: 133
   icon: com.defiwalletmobile.png
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: Slavi Development
 iphone:
@@ -37,7 +38,7 @@ iphone:
   version: '1.26'
   reviews: 19
   icon: io.slavi.wallet.jpg
-  meta: obsolete
+  meta: removed
   verdict: sourceavailable
   developerName: SLAVI DEVELOPMENT CORP UAB
 

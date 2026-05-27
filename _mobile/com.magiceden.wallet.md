@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.magiceden.wallet
   users: 100000
+  appCountry: us
   released: 2024-05-17
   updated: 2026-04-01
   version: 3.3.1

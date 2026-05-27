@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.eldorado.app
   users: 1000000
+  appCountry: us
   released: 2022-04-19
   updated: 2026-05-22
   version: 1.3.2047

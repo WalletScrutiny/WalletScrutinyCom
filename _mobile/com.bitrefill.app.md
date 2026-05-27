@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bitrefill.app
   users: 500000
+  appCountry: us
   released: 2018-04-10
   updated: 2026-05-11
   version: 7.5.0
@@ -28,6 +29,7 @@ android:
 iphone:
   appId: com.bitrefill.bitrefill
   idd: 1378102623
+  appCountry: us
   released: 2018-06-05
   updated: 2026-05-12
   version: 7.5.0

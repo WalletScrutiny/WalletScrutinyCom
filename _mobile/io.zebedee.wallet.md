@@ -14,10 +14,11 @@ redirect_from:
 android:
   appId: io.zebedee.wallet
   users: 1000000
+  appCountry: us
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10002
+  reviews: 10006
   icon: io.zebedee.wallet.png
   meta: ok
   verdict: custodial
@@ -25,10 +26,11 @@ android:
 iphone:
   appId: io.zebedee.wallet
   idd: 1484394401
+  appCountry: us
   released: 2020-11-28
-  updated: 2026-03-19
-  version: 4.29.12
-  reviews: 11304
+  updated: 2026-05-22
+  version: 4.30.5
+  reviews: 11341
   icon: io.zebedee.wallet.jpg
   meta: ok
   verdict: custodial

@@ -26,10 +26,11 @@ android:
 iphone:
   appId: com.rinnas.ajGlobal
   idd: 1519859460
+  appCountry: us
   released: 2020-09-08
   updated: 2025-02-01
   version: 2.2.0
-  reviews: 36
+  reviews: 37
   icon: com.rinnas.ajGlobal.jpg
   meta: stale
   verdict: custodial

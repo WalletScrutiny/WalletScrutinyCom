@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: co.vaultex.wallet
   users: 1000
+  appCountry: us
   released: 2024-05-20
   updated: 2024-05-20
   version: '1.0'

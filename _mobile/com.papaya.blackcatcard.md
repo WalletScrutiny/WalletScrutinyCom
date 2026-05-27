@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.papaya.blackcatcard
   users: 100000
+  appCountry: lv
   released: 2019-06-03
   updated: 2026-03-02
   version: 1.3.14
@@ -23,6 +24,7 @@ android:
 iphone:
   appId: com.papaya.blackcatcard
   idd: 1449352913
+  appCountry: lv
   released: 2019-03-07
   updated: 2025-11-27
   version: 1.3.7

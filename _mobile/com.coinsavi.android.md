@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.coinsavi.android
   users: 500000
+  appCountry: us
   released: 2023-07-10
   updated: 2025-11-17
   version: 0.70.8

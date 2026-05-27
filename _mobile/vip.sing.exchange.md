@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: vip.sing.exchange
   users: 5000
+  appCountry: us
   released: 2021-05-11
   updated: 2026-04-28
   version: 4.3.3.28

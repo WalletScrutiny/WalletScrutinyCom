@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.wallet.blockchain.bitcoin
   users: 1000
+  appCountry: us
   released: 2023-12-21
   updated: 2024-11-22
   version: 0.2.7

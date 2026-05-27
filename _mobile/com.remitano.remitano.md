@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.remitano.remitano
   users: 1000000
+  appCountry: us
   released: 2016-07-24
   updated: 2026-01-17
   version: 8.8.6

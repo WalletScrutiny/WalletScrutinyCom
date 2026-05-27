@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: com.BKExchange.appstore
   idd: '6466607380'
+  appCountry: us
   released: 2023-10-17
   updated: 2026-05-16
   version: 3.8.6

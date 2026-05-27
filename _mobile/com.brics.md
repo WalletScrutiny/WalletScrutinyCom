@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.brics
   users: 1000
+  appCountry: us
   updated: 2026-03-25
   version: 0.0.11
   icon: com.brics.png

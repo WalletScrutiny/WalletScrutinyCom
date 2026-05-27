@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.qfx.trillionerwallet
   users: 10000
+  appCountry: us
   released: 2023-03-26
   updated: 2023-10-27
   version: '22.0'

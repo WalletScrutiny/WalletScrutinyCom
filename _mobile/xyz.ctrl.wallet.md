@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: xyz.ctrl.wallet
   users: 10000
+  appCountry: us
   released: 2024-11-29
   updated: 2026-03-02
   version: 3.3.1

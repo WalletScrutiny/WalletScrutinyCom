@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.mirlimited.muchbetter
   users: 1000000
+  appCountry: gb
   released: 2017-05-30
   updated: 2026-05-14
   version: 4.36.0
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.muchbetter
   idd: 1179978268
+  appCountry: gb
   released: 2017-06-26
   updated: 2026-05-14
   version: 4.36.0

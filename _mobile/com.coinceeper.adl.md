@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.coinceeper.adl
   users: 100
+  appCountry: us
   released: 2025-08-19
   updated: 2026-05-11
   version: 1.0.46

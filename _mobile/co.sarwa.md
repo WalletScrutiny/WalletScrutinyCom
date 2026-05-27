@@ -33,7 +33,7 @@ iphone:
   version: 7.4.0
   reviews: 110
   icon: co.sarwa.ios.jpg
-  meta: ok
+  meta: removed
   verdict: nosendreceive
   developerName: Sarwa Digital Wealth Limited
 

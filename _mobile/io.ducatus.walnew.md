@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: io.ducatus.walnew
   users: 10000
+  appCountry: us
   released: 2019-12-05
   updated: 2026-04-23
   version: 3.13.5

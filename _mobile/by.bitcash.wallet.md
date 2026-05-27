@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: by.bitcash.wallet
   users: 10000
+  appCountry: us
   updated: 2026-05-21
   version: 1.1.1
   icon: by.bitcash.wallet.png

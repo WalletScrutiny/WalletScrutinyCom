@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.noone.androidwallet
   users: 100000
+  appCountry: us
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
@@ -31,7 +32,7 @@ iphone:
   released: 2023-03-29
   updated: 2026-02-06
   version: 1.32.0
-  reviews: 169
+  reviews: 170
   icon: io.noone.ioswallet.jpg
   meta: ok
   verdict: nosource

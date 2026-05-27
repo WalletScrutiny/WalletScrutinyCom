@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.maxwallet.cc
   users: 5000
+  appCountry: us
   updated: 2026-03-26
   version: 1.2.0
   icon: com.maxwallet.cc.png
@@ -25,9 +26,9 @@ iphone:
   idd: '6670610349'
   appCountry: ru
   released: 2025-01-06
-  updated: 2026-03-23
-  version: 1.2.0
-  reviews: 92
+  updated: 2026-05-25
+  version: 1.2.4(3)
+  reviews: 93
   icon: com.maxwallet.cc.jpg
   meta: ok
   verdict: nosource

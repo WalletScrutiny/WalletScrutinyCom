@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.deribit
   users: 50000
+  appCountry: us
   released: 2018-01-10
   updated: 2025-12-19
   version: 3.18.0

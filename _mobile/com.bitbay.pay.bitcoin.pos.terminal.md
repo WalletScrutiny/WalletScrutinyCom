@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitbay.pay.bitcoin.pos.terminal
   users: 1000
+  appCountry: us
   released: 2019-03-18
   updated: 2023-11-07
   version: 1.7.3(59)

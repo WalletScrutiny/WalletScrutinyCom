@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.rabin.rabex
   users: 10000
+  appCountry: us
   released: 2023-02-19
   updated: 2026-01-05
   version: 2.7.0-Rabex

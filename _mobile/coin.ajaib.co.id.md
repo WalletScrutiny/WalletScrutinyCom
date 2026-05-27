@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: coin.ajaib.co.id
   users: 1000000
+  appCountry: us
   released: 2022-07-15
   updated: 2026-05-21
   version: 2.98.0
@@ -26,7 +27,7 @@ iphone:
   released: 2022-08-16
   updated: 2026-05-21
   version: 2.98.0
-  reviews: 3815
+  reviews: 3818
   icon: id.ajaib-coin.co.jpg
   meta: ok
   verdict: custodial

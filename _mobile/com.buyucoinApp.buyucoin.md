@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.buyucoinApp.buyucoin
   users: 100000
+  appCountry: us
   released: 2019-02-15
   updated: 2025-03-19
   version: '3.45'

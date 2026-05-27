@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.kraken.superwallet
   users: 100000
+  appCountry: us
   released: 2024-04-11
   updated: 2026-04-10
   version: 1.28.0 (5)
@@ -35,9 +36,9 @@ iphone:
   idd: '1626327149'
   appCountry: us
   released: 2024-04-17
-  updated: 2026-04-15
-  version: 1.28.1
-  reviews: 1183
+  updated: 2026-05-25
+  version: 1.28.2
+  reviews: 1193
   icon: com.kraken.superwallet.app.jpg
   meta: ok
   verdict: sourceavailable

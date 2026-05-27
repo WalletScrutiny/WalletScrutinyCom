@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.azasend.app
   users: 100000
+  appCountry: us
   released: 2023-10-04
   updated: 2025-11-03
   version: 3.9.1

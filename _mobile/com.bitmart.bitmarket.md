@@ -21,10 +21,11 @@ redirect_from:
 android:
   appId: com.bitmart.bitmarket
   users: 1000000
+  appCountry: us
   released: 2018-05-09
   updated: 2026-05-25
   version: 4.4.1
-  reviews: 3750
+  reviews: 3749
   icon: com.bitmart.bitmarket.png
   meta: ok
   verdict: custodial
@@ -32,10 +33,11 @@ android:
 iphone:
   appId: com.bitmart.exchange
   idd: 1396382871
+  appCountry: us
   released: 2018-08-02
-  updated: 2026-05-15
-  version: 4.4.1
-  reviews: 3345
+  updated: 2026-05-26
+  version: 4.5.0
+  reviews: 3356
   icon: com.bitmart.exchange.jpg
   meta: ok
   verdict: custodial

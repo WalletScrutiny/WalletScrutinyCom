@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: to.bitkit
   users: 5000
+  appCountry: us
   released: 2024-06-07
   updated: 2026-04-08
   version: 2.2.0

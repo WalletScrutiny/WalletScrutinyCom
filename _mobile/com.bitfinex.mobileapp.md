@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.bitfinex.mobileapp
   users: 500000
+  appCountry: us
   released: 2019-02-11
   updated: 2026-02-04
   version: 7.20.1
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.bitfinex.bfxprod
   idd: 1436383182
+  appCountry: us
   released: 2019-01-25
   updated: 2026-02-06
   version: 7.20.1

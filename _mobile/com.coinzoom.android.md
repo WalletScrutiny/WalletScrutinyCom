@@ -14,7 +14,8 @@ redirect_from:
 - /iphone/com.ios.coinzoomsimple/
 android:
   appId: com.coinzoom.android
-  users: 50000
+  users: 100000
+  appCountry: us
   released: 2022-03-25
   updated: 2026-05-20
   version: 1.2.1.6682
@@ -30,7 +31,7 @@ iphone:
   released: 2022-01-21
   updated: 2026-05-20
   version: 3.3.4
-  reviews: 716
+  reviews: 721
   icon: com.ios.coinzoomsimple.jpg
   meta: ok
   verdict: custodial

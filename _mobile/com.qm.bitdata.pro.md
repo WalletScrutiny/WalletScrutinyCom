@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.qm.bitdata.pro
   users: 500
+  appCountry: us
   released: 2019-05-21
   updated: 2026-03-03
   version: 5.0.3

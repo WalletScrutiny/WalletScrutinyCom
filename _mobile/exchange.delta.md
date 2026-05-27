@@ -26,6 +26,7 @@ android:
 iphone:
   appId: exchange.delta.app
   idd: 1567218518
+  appCountry: nz
   released: 2021-06-05
   updated: 2023-07-18
   version: 1.8.1

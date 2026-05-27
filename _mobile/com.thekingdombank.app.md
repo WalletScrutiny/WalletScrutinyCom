@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.thekingdombank.app
   users: 10000
+  appCountry: us
   released: 2021-12-17
   updated: 2026-05-13
   version: 10.8.0

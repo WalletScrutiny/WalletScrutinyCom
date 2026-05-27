@@ -35,6 +35,7 @@ redirect_from:
 android:
   appId: io.bluewallet.bluewallet
   users: 1000000
+  appCountry: us
   released: 2018-11-01
   updated: 2026-03-03
   version: 7.2.7
@@ -47,10 +48,11 @@ android:
 iphone:
   appId: io.bluewallet.bluewallet
   idd: 1376878040
+  appCountry: us
   released: 2018-05-27
   updated: 2026-02-23
   version: 7.2.6
-  reviews: 834
+  reviews: 837
   icon: io.bluewallet.bluewallet.jpg
   meta: ok
   verdict: sourceavailable

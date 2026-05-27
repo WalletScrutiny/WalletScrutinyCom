@@ -26,10 +26,11 @@ redirect_from:
 android:
   appId: piuk.blockchain.android
   users: 10000000
+  appCountry: us
   released: 2013-02-01
   updated: 2026-05-25
   version: 202605.2.5
-  reviews: 6350
+  reviews: 6351
   icon: piuk.blockchain.android.png
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   meta: ok
@@ -38,10 +39,11 @@ android:
 iphone:
   appId: com.rainydayapps.Blockchain
   idd: 493253309
+  appCountry: us
   released: 2012-04-13
-  updated: 2026-05-14
-  version: 202605.2.1
-  reviews: 183917
+  updated: 2026-05-24
+  version: 202605.3.0
+  reviews: 183972
   icon: com.rainydayapps.Blockchain.jpg
   meta: ok
   verdict: nosource

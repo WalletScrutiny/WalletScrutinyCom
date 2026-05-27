@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.primexbt.trade
   users: 1000000
+  appCountry: us
   released: 2022-02-10
   updated: 2026-05-19
   version: '4.41'

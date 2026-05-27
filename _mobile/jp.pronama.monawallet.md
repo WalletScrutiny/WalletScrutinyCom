@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: jp.pronama.monawallet
   idd: 1343235820
+  appCountry: us
   released: 2018-02-22
   updated: 2019-04-10
   version: 2.0.0

@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.EmasDigi
   users: 5000000
+  appCountry: us
   released: 2018-01-21
   updated: 2026-05-24
   version: 7.2.4

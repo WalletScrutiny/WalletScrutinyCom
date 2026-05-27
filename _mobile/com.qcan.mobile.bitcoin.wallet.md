@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.qcan.mobile.bitcoin.wallet
   users: 10000
+  appCountry: us
   released: 2017-08-06
   updated: 2025-08-20
   version: 0.9.007

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.wallet.zapit
   users: 10000
+  appCountry: us
   released: 2021-03-23
   updated: 2025-08-29
   version: 0.9.67
@@ -32,7 +33,7 @@ iphone:
   version: v0.9.64
   reviews: 8
   icon: io.zapit.wallet.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Zapit Limited
 

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bitbuy.mobileApp
   users: 100000
+  appCountry: ca
   released: 2019-10-15
   updated: 2025-12-05
   version: 5.3.3
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.bitbuy.mobileApp
   idd: '1476837869'
+  appCountry: ca
   released: 2019-10-21
   updated: 2025-12-08
   version: 5.3.3

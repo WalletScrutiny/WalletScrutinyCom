@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.youhodler.youhodler
   users: 1000000
+  appCountry: us
   released: 2019-07-11
   updated: 2026-05-07
   version: 8.6.3

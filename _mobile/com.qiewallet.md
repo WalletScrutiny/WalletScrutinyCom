@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.qiewallet
   users: 1000
+  appCountry: us
   released: 2023-06-20
   updated: 2026-05-13
   version: 0.3.62

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: coffee.software.coffeewallet
   users: 5000
+  appCountry: us
   released: 2018-06-04
   updated: 2022-07-13
   version: '0.22'

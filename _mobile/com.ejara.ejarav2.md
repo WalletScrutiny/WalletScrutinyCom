@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.ejara.ejarav2
   users: 100000
+  appCountry: us
   released: 2021-03-08
   updated: 2026-03-10
   version: 3.9.9

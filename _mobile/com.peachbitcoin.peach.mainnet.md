@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.peachbitcoin.peach.mainnet
   users: 10000
+  appCountry: us
   updated: 2026-05-19
   version: 0.69.0
   icon: com.peachbitcoin.peach.mainnet.png

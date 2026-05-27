@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.ruufpay.ruufpaymobileapp
   users: 1000
+  appCountry: us
   released: 2022-05-31
   updated: 2025-08-26
   version: 2.3.0

@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: io.attlas
   users: 500000
+  appCountry: us
   released: 2021-05-16
   updated: 2026-05-14
   version: 3.6.1

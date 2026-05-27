@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: ventures.aag.metaone
   users: 100000
+  appCountry: us
   released: 2022-12-22
   updated: 2025-08-18
   version: 6.2.0

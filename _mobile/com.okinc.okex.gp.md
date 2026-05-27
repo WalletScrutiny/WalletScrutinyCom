@@ -17,9 +17,10 @@ redirect_from:
 android:
   appId: com.okinc.okex.gp
   users: 10000000
+  appCountry: us
   released: 2019-10-29
   updated: 2026-05-21
-  version: 6.172.0
+  version: 6.172.1
   reviews: 3901
   icon: com.okinc.okex.gp.png
   meta: ok
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.okex.OKExAppstoreFull
   idd: 1327268470
+  appCountry: us
   released: 2018-01-04
   updated: 2026-05-18
   version: 6.172.0
-  reviews: 22263
+  reviews: 22269
   icon: com.okex.OKExAppstoreFull.jpg
   meta: ok
   verdict: custodial

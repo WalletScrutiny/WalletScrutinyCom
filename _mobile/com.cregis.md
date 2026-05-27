@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.cregis
   users: 500
+  appCountry: us
   released: 2023-04-05
   updated: 2026-04-27
   version: 3.7.2

@@ -14,10 +14,11 @@ redirect_from:
 android:
   appId: com.mexcpro.client
   users: 10000000
+  appCountry: us
   released: 2020-07-23
-  updated: 2026-05-21
-  version: 6.57.1
-  reviews: 3033
+  updated: 2026-05-26
+  version: 6.58.0
+  reviews: 3039
   icon: com.mexcpro.client.png
   meta: ok
   verdict: custodial

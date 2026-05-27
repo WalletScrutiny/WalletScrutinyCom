@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: br.com.coinext
   users: 100000
+  appCountry: us
   released: 2019-11-19
   updated: 2026-05-18
   version: 2.36.0
@@ -32,7 +33,7 @@ iphone:
   released: 2019-01-27
   updated: 2026-05-15
   version: 2.36.0
-  reviews: 5007
+  reviews: 5006
   icon: br.com.coinext.Coinext.jpg
   meta: ok
   verdict: custodial

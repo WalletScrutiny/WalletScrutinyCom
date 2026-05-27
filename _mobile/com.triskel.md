@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.triskel
   users: 5000
+  appCountry: us
   released: 2023-06-27
   updated: 2026-01-03
   version: '6.1'

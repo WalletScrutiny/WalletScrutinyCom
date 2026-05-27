@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.koub.wallet
   users: 100
+  appCountry: us
   released: 2025-01-09
   updated: 2025-01-09
   version: 1.0.0

@@ -22,10 +22,11 @@ redirect_from:
 android:
   appId: io.muun.apollo
   users: 500000
+  appCountry: us
   released: 2017-04-25
   updated: 2026-04-22
   version: '55.8'
-  reviews: 230
+  reviews: 231
   icon: io.muun.apollo.png
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:
@@ -37,10 +38,11 @@ android:
 iphone:
   appId: com.muun.falcon
   idd: 1482037683
+  appCountry: us
   released: 2019-10-11
-  updated: 2026-04-20
-  version: 2.14.0
-  reviews: 327
+  updated: 2026-05-22
+  version: 2.14.1
+  reviews: 332
   icon: com.muun.falcon.jpg
   meta: ok
   verdict: sourceavailable

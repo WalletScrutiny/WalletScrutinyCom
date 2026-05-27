@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.coinjar.riemann
   users: 100000
+  appCountry: au
   released: 2019-11-21
   updated: 2026-05-21
   version: 3.55.0
@@ -27,9 +28,10 @@ android:
 iphone:
   appId: com.coinjar.mobius
   idd: 958797429
+  appCountry: au
   released: 2015-02-04
-  updated: 2026-05-07
-  version: 3.54.4
+  updated: 2026-05-22
+  version: 3.55.0
   reviews: 15185
   icon: com.coinjar.mobius.jpg
   meta: ok

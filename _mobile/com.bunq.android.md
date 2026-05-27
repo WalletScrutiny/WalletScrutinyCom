@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bunq.android
   users: 5000000
+  appCountry: us
   released: 2015-11-25
   updated: 2026-05-20
   version: 31.4.1
@@ -32,7 +33,7 @@ iphone:
   released: 2016-02-12
   updated: 2026-05-21
   version: 31.4.0
-  reviews: 13778
+  reviews: 13813
   icon: com.bunq.ios.jpg
   meta: ok
   verdict: nosendreceive

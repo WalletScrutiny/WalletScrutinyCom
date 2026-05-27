@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: app.exchange.savita
   users: 10000
+  appCountry: us
   released: 2023-01-05
   updated: 2026-05-08
   version: 1.0.0

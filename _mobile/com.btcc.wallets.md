@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.btcc.wallets
   users: 100000
+  appCountry: us
   released: 2023-11-16
   updated: 2026-03-24
   version: 3.5.42

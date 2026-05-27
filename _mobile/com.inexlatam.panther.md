@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.inexlatam.panther
   users: 1000
+  appCountry: us
   released: 2025-06-05
   updated: 2026-05-14
   version: 0.8.4

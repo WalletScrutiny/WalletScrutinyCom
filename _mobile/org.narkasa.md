@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: org.narkasa
   users: 50000
+  appCountry: us
   released: 2020-10-30
   updated: 2026-05-13
   version: 5.14.2

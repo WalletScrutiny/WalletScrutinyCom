@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.vent.app
   users: 10000
+  appCountry: us
   released: 2022-01-26
   updated: 2026-05-20
   version: 2.0.8

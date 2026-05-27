@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: ru.koshelek
   users: 10000
+  appCountry: ru
   released: 2020-07-28
   updated: 2026-05-08
   version: 2.3.2
@@ -26,6 +27,7 @@ android:
 iphone:
   appId: dev.spedn.ru
   idd: 1524167720
+  appCountry: ru
   released: 2020-08-05
   updated: 2026-05-15
   version: 2.3.3

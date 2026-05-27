@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.wallet.noworry
   users: 10000
+  appCountry: us
   updated: 2026-05-02
   version: 5.8.23
   icon: com.wallet.noworry.png

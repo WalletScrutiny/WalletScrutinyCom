@@ -32,7 +32,7 @@ iphone:
   released: 2011-01-24
   updated: 2026-05-07
   version: 10.3241.0
-  reviews: 2968
+  reviews: 2971
   icon: com.igmarkets.ideal.jpg
   meta: ok
   verdict: nosendreceive

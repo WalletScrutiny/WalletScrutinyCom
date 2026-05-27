@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: united.network
   users: 100
+  appCountry: us
   released: 2025-04-14
   updated: 2025-07-06
   version: 1.0.4

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: roseon.finance
   users: 100000
+  appCountry: vn
   released: 2021-03-16
   updated: 2024-10-31
   version: 2.4.41

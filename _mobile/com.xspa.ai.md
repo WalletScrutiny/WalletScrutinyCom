@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.xspa.ai
   users: 5000
+  appCountry: us
   released: 2025-08-23
   updated: 2026-04-10
   version: 1.0.15
-  reviews: 8
+  reviews: 7
   icon: com.xspa.ai.png
   meta: ok
   verdict: nosource

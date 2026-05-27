@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: com.walletverse
   users: 10000
+  appCountry: us
   released: 2023-06-29
   updated: 2026-05-05
   version: 1.17.0
@@ -38,7 +39,7 @@ iphone:
   released: 2023-10-15
   updated: 2026-05-07
   version: 1.17.1
-  reviews: 41
+  reviews: 40
   icon: ilink.walletverse.jpg
   meta: ok
   verdict: nosource

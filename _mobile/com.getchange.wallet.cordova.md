@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.getchange.wallet.cordova
   users: 100000
+  appCountry: nl
   released: 2018-06-07
   updated: 2026-03-26
   version: 30.66.1

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: co.bitx.android.wallet
   users: 10000000
+  appCountry: us
   released: 2014-11-01
   updated: 2026-05-18
   version: 8.108.1
@@ -30,6 +31,7 @@ android:
 iphone:
   appId: za.co.Bitx
   idd: 927362479
+  appCountry: us
   released: 2014-11-03
   updated: 2026-05-22
   version: 8.108.2

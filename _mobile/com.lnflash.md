@@ -25,6 +25,7 @@ redirect_from:
 android:
   appId: com.lnflash
   users: 1000
+  appCountry: us
   released: 2024-01-07
   updated: 2026-05-02
   version: 0.5.2

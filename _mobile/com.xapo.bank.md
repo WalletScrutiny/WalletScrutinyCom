@@ -20,8 +20,9 @@ redirect_from:
 android:
   appId: com.xapo.bank
   users: 100000
+  appCountry: us
   released: 2021-05-27
-  updated: 2026-02-25
+  updated: 2026-05-27
   version: 11.1.0
   reviews: 42
   icon: com.xapo.bank.png

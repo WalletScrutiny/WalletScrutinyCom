@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bitexenglobal.exchangeapp
   users: 100000
+  appCountry: us
   updated: 2026-05-15
   version: '2.19'
   icon: com.bitexenglobal.exchangeapp.png

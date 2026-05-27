@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: lt.spectrofinance.spectrocoin.android.wallet
   users: 500000
+  appCountry: us
   released: 2014-12-05
   updated: 2025-10-06
   version: 2.10.0

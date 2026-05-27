@@ -14,8 +14,9 @@ redirect_from:
 android:
   appId: com.balletcrypto
   users: 10000
+  appCountry: us
   released: 2019-08-08
-  updated: 2026-05-18
+  updated: 2026-05-26
   version: 2.27.4
   reviews: 168
   icon: com.balletcrypto.png
@@ -25,10 +26,11 @@ android:
 iphone:
   appId: com.balletcrypto
   idd: '1474912942'
+  appCountry: us
   released: 2019-09-11
-  updated: 2026-05-06
-  version: 2.27.3
-  reviews: 1523
+  updated: 2026-05-25
+  version: 2.27.5
+  reviews: 1524
   icon: com.balletcrypto.jpg
   meta: ok
   verdict: nosource

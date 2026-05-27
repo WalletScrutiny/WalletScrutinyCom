@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.btckan.us
   idd: 1004852205
+  appCountry: us
   released: 2015-06-24
   updated: 2026-03-30
   version: 8.39.1

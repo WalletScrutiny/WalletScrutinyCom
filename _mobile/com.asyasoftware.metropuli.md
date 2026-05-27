@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.asyasoftware.metropuli
   users: 10
+  appCountry: us
   released: 2022-03-09
   updated: 2023-08-22
   version: 1.0.3

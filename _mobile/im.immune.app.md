@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: im.immune.app
   users: 10000
+  appCountry: us
   released: 2019-11-29
   updated: 2025-02-28
   version: 2.2.1

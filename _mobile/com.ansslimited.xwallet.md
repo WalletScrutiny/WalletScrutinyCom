@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.ansslimited.xwallet
   users: 500
+  appCountry: us
   released: 2021-06-28
   updated: 2025-10-01
   version: 1.1.16

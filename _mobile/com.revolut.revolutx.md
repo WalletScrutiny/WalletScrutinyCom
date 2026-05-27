@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.revolut.revolutx
   users: 500000
+  appCountry: us
   updated: 2026-05-26
   version: '1.60'
   reviews: 1
@@ -29,9 +30,9 @@ iphone:
   idd: '6502614478'
   appCountry: gb
   released: 2025-03-18
-  updated: 2026-05-13
-  version: '1.59'
-  reviews: 2019
+  updated: 2026-05-22
+  version: '1.60'
+  reviews: 2057
   icon: com.revolut.revolutx.jpg
   meta: ok
   verdict: custodial

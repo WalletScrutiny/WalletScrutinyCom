@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.kyriakosalexandrou.coinmarketcap
   users: 1000000
+  appCountry: us
   released: 2015-05-16
   updated: 2026-04-25
   version: 16.3.1
-  reviews: 1388
+  reviews: 1387
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
   meta: ok
   verdict: nosource
@@ -26,9 +27,10 @@ android:
 iphone:
   appId: com.programonks.CoinMarketApp
   idd: 1350234503
+  appCountry: us
   released: 2018-03-02
-  updated: 2026-04-29
-  version: 16.3.1
+  updated: 2026-05-22
+  version: 16.3.2
   reviews: 618
   icon: com.programonks.CoinMarketApp.jpg
   meta: ok

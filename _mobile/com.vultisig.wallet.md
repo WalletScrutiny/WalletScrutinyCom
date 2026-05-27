@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.vultisig.wallet
   users: 10000
+  appCountry: us
   released: 2024-07-01
   updated: 2026-05-22
   version: 1.0.103
@@ -33,9 +34,9 @@ iphone:
   idd: '6503023896'
   appCountry: us
   released: 2024-09-16
-  updated: 2026-05-07
-  version: '1.36'
-  reviews: 61
+  updated: 2026-05-25
+  version: '1.37'
+  reviews: 62
   icon: com.vultisig.wallet.jpg
   meta: ok
   verdict: custodial

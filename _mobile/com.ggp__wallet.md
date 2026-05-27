@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.ggp__wallet
   users: 5000
+  appCountry: us
   released: 2024-06-05
   updated: 2026-05-19
   version: 1.5.8

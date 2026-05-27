@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.fgraph.shinobiwallet
   users: 1000
+  appCountry: us
   released: 2021-06-02
   updated: 2024-03-02
   version: 1.8.9

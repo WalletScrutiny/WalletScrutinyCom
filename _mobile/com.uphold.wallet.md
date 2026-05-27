@@ -20,10 +20,11 @@ redirect_from:
 android:
   appId: com.uphold.wallet
   users: 5000000
+  appCountry: us
   released: 2015-12-29
   updated: 2026-05-26
   version: 6.89.0
-  reviews: 8210
+  reviews: 8211
   icon: com.uphold.wallet.png
   meta: ok
   verdict: custodial
@@ -31,10 +32,11 @@ android:
 iphone:
   appId: com.uphold.wallet.ios
   idd: 1101145849
+  appCountry: us
   released: 2016-04-19
-  updated: 2026-05-16
-  version: 6.89.0
-  reviews: 88599
+  updated: 2026-05-25
+  version: 6.90.2
+  reviews: 88711
   icon: com.uphold.wallet.ios.jpg
   meta: ok
   verdict: custodial

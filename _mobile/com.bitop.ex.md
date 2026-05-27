@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.bitop.ex
   users: 10000
+  appCountry: us
   released: 2023-12-04
   updated: 2024-09-09
   version: 1.0.21

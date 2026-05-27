@@ -13,8 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-07-22
-  updated: 2026-05-18
-  version: 11.14.1
+  updated: 2026-05-27
+  version: 11.15.0
   reviews: 9
   icon: com.korbit.exchange.png
   meta: ok
@@ -27,7 +27,7 @@ iphone:
   released: 2018-10-18
   updated: 2026-05-20
   version: 11.14.1
-  reviews: 629
+  reviews: 630
   icon: com.korbit.exchange.jpg
   meta: ok
   verdict: custodial

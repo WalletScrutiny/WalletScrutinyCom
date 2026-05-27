@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: com.bitso.wallet
   users: 10000000
+  appCountry: us
   released: 2018-02-19
   updated: 2026-05-25
-  version: 4.16.0
+  version: 4.16.1
   reviews: 309
   icon: com.bitso.wallet.png
   meta: ok
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.bitso.wallet
   idd: 1292836438
+  appCountry: us
   released: 2018-02-19
-  updated: 2026-05-14
-  version: 4.16.0
-  reviews: 1036
+  updated: 2026-05-25
+  version: 4.16.1
+  reviews: 1037
   icon: com.bitso.wallet.jpg
   meta: ok
   verdict: custodial

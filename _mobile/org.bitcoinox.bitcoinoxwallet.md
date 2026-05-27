@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: org.bitcoinox.bitcoinoxwallet
   users: 5000
+  appCountry: us
   released: 2019-02-04
   updated: 2024-12-22
   version: 2.8.8

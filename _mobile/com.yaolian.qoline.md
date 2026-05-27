@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.yaolian.qoline
   users: 100
+  appCountry: us
   released: 2021-07-14
   updated: 2024-02-19
   version: 1.9.26

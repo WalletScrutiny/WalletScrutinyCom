@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.nobillio.coinbaazar
   users: 1000
+  appCountry: us
   released: 2020-08-31
   updated: 2023-12-06
   version: 1.3.24
@@ -25,6 +26,7 @@ android:
 iphone:
   appId: com.coinbaazarDistribution
   idd: 1548921926
+  appCountry: us
   released: 2021-01-25
   updated: 2023-12-19
   version: 1.2.5.1

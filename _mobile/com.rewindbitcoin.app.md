@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.rewindbitcoin.app
   users: 100
+  appCountry: us
   released: 2025-05-30
   updated: 2025-09-25
   version: 1.2.4

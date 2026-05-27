@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.secuxtech.mysecuxpay
   users: 100
+  appCountry: us
   released: 2020-03-22
   updated: 2025-03-19
   version: 2.2.3

@@ -22,6 +22,7 @@ android:
 iphone:
   appId: com.boquanhash.dotwallet
   idd: 1509685349
+  appCountry: us
   released: 2021-01-05
   updated: 2023-05-23
   version: 2.1.6.42

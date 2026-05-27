@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.nvwallet.wallet
   users: 500
+  appCountry: us
   released: 2024-12-27
   updated: 2026-04-18
   version: 0.1.1

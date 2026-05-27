@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: io.rapidz.rapidzpay
   users: 10000
+  appCountry: us
   released: 2021-06-21
   updated: 2026-05-22
   version: 4.7.9
@@ -36,7 +37,7 @@ iphone:
   version: 4.4.3
   reviews: 2
   icon: io.rapidz.rapidzpayios.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: UAB Rapidz Pay
 

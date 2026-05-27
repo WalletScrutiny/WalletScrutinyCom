@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: io.cypherbox.btc
   users: 100
+  appCountry: us
   released: 2025-01-17
   updated: 2026-03-29
   version: 0.0.8

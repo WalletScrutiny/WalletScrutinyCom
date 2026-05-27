@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.ncwallet
   users: 1000000
+  appCountry: us
   released: 2022-10-18
   updated: 2026-02-27
   version: 1.0.1012
@@ -29,7 +30,7 @@ iphone:
   released: 2022-09-27
   updated: 2026-05-12
   version: 3.4.70
-  reviews: 198
+  reviews: 195
   icon: com.ncwallet.jpg
   meta: ok
   verdict: custodial

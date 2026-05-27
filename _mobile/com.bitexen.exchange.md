@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitexen.exchange
   users: 1000000
+  appCountry: us
   released: 2018-05-27
   updated: 2026-04-02
   version: '1.38'

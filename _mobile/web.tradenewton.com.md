@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: web.tradenewton.com
   users: 100000
+  appCountry: us
   released: 2019-11-18
   updated: 2026-05-11
   version: 2.20.24
@@ -32,7 +33,7 @@ iphone:
   released: 2018-10-03
   updated: 2026-05-12
   version: 2.20.24
-  reviews: 24480
+  reviews: 24479
   icon: co.newton.newtonios.jpg
   meta: ok
   verdict: custodial

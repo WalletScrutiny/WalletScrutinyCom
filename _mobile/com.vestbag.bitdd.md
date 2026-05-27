@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.vestbag.bitdd
   users: 100
+  appCountry: us
   released: 2022-11-02
   updated: 2024-09-21
   version: 1.0.1

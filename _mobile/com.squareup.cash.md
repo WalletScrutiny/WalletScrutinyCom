@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.squareup.cash
   users: 100000000
+  appCountry: us
   released: 2013-10-15
   updated: 2026-05-22
   version: 5.52.0
-  reviews: 465824
+  reviews: 465931
   icon: com.squareup.cash.png
   meta: ok
   verdict: custodial
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.squareup.cash
   idd: 711923939
+  appCountry: us
   released: 2013-10-16
-  updated: 2026-05-18
-  version: 5.52.0
-  reviews: 8371834
+  updated: 2026-05-26
+  version: 5.53.0
+  reviews: 8388049
   icon: com.squareup.cash.jpg
   meta: ok
   verdict: custodial

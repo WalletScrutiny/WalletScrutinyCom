@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.coindcx.btc
   users: 10000000
+  appCountry: us
   released: 2020-12-09
   updated: 2026-05-21
   version: 7.51.0005
@@ -29,9 +30,9 @@ iphone:
   idd: 1517787269
   appCountry: in
   released: 2020-12-09
-  updated: 2026-05-14
-  version: 7.51.0004
-  reviews: 42748
+  updated: 2026-05-26
+  version: 7.52.0002
+  reviews: 42759
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

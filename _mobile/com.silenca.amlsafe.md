@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.silenca.amlsafe
   users: 100000
+  appCountry: us
   released: 2020-10-26
   updated: 2026-03-24
   version: '2.44'
@@ -25,6 +26,7 @@ android:
 iphone:
   appId: com.avelot.amlsafe
   idd: '1519145333'
+  appCountry: us
   released: 2020-07-28
   updated: 2026-03-26
   version: 2.44.814

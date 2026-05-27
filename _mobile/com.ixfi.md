@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.ixfi
   users: 100000
+  appCountry: us
   released: 2022-01-19
   updated: 2025-11-21
   version: 1.10.20
@@ -37,7 +38,7 @@ iphone:
   version: 1.7.43
   reviews: 99
   icon: com.ixfi.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: IXFI Crypto World UAB
 

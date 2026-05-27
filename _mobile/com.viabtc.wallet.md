@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.viabtc.wallet
   users: 100000
+  appCountry: us
   released: 2019-05-15
   updated: 2026-04-20
   version: 4.23.1
@@ -32,6 +33,7 @@ android:
 iphone:
   appId: com.viabtc.ViaWallet
   idd: 1462031389
+  appCountry: us
   released: 2019-05-21
   updated: 2026-04-20
   version: 4.23.1

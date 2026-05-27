@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.interakt.b2z
   users: 5000
+  appCountry: us
   released: 2022-04-12
   updated: 2026-02-10
   version: 1.11.0

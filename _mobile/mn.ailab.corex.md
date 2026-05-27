@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: mn.ailab.corex
   users: 5000
+  appCountry: us
   released: 2021-11-24
   updated: 2026-01-20
   version: 2.0.59

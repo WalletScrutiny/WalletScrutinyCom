@@ -16,8 +16,9 @@ redirect_from:
 android:
   appId: com.galias.coinrivet
   users: 1000
-  updated: 2026-05-18
-  version: 1.5.2.1248
+  appCountry: us
+  updated: 2026-05-26
+  version: 1.5.3.1250
   icon: com.galias.coinrivet.png
   meta: ok
   verdict: custodial

@@ -18,10 +18,11 @@ redirect_from:
 android:
   appId: com.public.app
   users: 1000000
+  appCountry: us
   released: 2019-09-06
-  updated: 2026-05-18
+  updated: 2026-05-26
   version: 3.245.0
-  reviews: 9499
+  reviews: 9504
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive
@@ -33,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-05-20
   version: 5.1.2
-  reviews: 82323
+  reviews: 82501
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

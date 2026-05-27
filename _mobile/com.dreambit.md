@@ -28,7 +28,7 @@ iphone:
   version: 1.0.5
   reviews: 0
   icon: io.crypterium.minebest.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Crypterium AS
 

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: app.braavos.wallet
   users: 100000
+  appCountry: us
   released: 2022-07-12
   updated: 2026-02-04
   version: 4.19.6

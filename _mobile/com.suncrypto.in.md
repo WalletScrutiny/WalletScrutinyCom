@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: com.suncrypto.in
   users: 1000000
+  appCountry: us
   released: 2021-06-28
   updated: 2026-03-18
   version: '5.24'

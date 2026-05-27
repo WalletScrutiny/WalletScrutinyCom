@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitpezapro.app
   users: 10000
+  appCountry: us
   released: 2020-02-09
   updated: 2022-09-26
   version: 1.0.3

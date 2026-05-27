@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: br.com.foxbit.foxbitandroid
   users: 500000
+  appCountry: br
   released: 2019-01-28
   updated: 2026-05-19
   version: 3.43.1
-  reviews: 6387
+  reviews: 6386
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
   verdict: custodial
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: br.com.foxbit
   idd: '1435319194'
+  appCountry: br
   released: 2019-03-24
   updated: 2026-05-19
   version: 3.43.1

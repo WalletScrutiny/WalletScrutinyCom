@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.buengroup.buenbit
   users: 1000000
+  appCountry: us
   released: 2021-12-30
   updated: 2026-04-06
   version: 3.55.0

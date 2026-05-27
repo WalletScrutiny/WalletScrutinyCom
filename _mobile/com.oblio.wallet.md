@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.oblio.wallet
   users: 100
+  appCountry: us
   released: 2025-01-12
   updated: 2026-02-16
   version: 1.0.13

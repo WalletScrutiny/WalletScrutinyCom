@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: co.psychedelic.plug
   users: 100000
+  appCountry: us
   released: 2022-07-01
   updated: 2026-05-06
   version: 2.8.0

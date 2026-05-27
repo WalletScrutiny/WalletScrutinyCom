@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.cextor.pro
   users: 10000
+  appCountry: us
   released: 2024-07-10
   updated: 2025-09-05
   version: 1.0.0

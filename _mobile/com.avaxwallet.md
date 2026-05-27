@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.avaxwallet
   users: 500000
+  appCountry: us
   released: 2022-08-30
   updated: 2026-05-20
   version: 1.0.31
@@ -32,9 +33,9 @@ iphone:
   idd: '6443685999'
   appCountry: us
   released: 2022-11-28
-  updated: 2026-05-14
-  version: 1.0.30
-  reviews: 137
+  updated: 2026-05-21
+  version: 1.0.31
+  reviews: 140
   icon: org.avalabs.corewallet.jpg
   meta: ok
   verdict: nosource

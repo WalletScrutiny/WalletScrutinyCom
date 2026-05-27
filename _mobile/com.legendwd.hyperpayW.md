@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.legendwd.hyperpayW
   users: 100000
+  appCountry: us
   released: 2018-10-25
   updated: 2026-05-21
   version: 5.6.230900

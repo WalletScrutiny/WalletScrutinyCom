@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.unisat
   users: 100000
+  appCountry: us
   released: 2024-03-16
   updated: 2026-03-07
   version: 1.7.11

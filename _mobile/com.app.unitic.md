@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.app.unitic
   users: 1000
+  appCountry: us
   released: 2024-06-19
   updated: 2026-03-30
   version: 0.2.0

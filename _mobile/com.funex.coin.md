@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.funex.coin
   users: 5000
+  appCountry: us
   released: 2022-02-18
   updated: 2025-10-30
   version: 1.0.37

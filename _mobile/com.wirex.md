@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.wirex
   users: 1000000
+  appCountry: us
   released: 2016-03-31
   updated: 2026-04-08
   version: 4.12.70
-  reviews: 1112
+  reviews: 1111
   icon: com.wirex.png
   meta: ok
   verdict: custodial
@@ -30,7 +31,7 @@ iphone:
   released: 2016-03-22
   updated: 2026-01-23
   version: 4.11.75
-  reviews: 848
+  reviews: 847
   icon: com.wirex.jpg
   meta: ok
   verdict: custodial

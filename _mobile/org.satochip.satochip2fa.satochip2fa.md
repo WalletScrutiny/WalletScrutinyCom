@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: org.satochip.satochip2fa.satochip2fa
   users: 100
+  appCountry: us
   released: 2021-03-17
   updated: 2023-03-02
   version: '0.24'

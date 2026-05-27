@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: io.exnovin.app
   users: 100000
+  appCountry: us
   released: 2020-12-12
   updated: 2025-10-20
   version: 3.5.9

@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.multibank.app
   users: 100000
+  appCountry: us
   released: 2023-04-04
   updated: 2026-05-22
   version: 26.0.25
@@ -32,9 +33,9 @@ iphone:
   idd: '1592119946'
   appCountry: ae
   released: 2022-01-18
-  updated: 2026-05-18
-  version: 26.0.12
-  reviews: 29
+  updated: 2026-05-23
+  version: 26.0.13
+  reviews: 30
   icon: com.mexdigital.app.jpg
   meta: ok
   verdict: custodial

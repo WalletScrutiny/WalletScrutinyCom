@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: bu.app.android
   users: 500000
+  appCountry: us
   released: 2025-04-29
   updated: 2026-05-23
   version: 3.36.0
@@ -36,7 +37,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-03-26
   version: 3.28.0
-  reviews: 611
+  reviews: 614
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: io.gosats
   users: 1000000
+  appCountry: us
   released: 2021-01-06
   updated: 2026-05-20
   version: 3.0.6
@@ -27,7 +28,7 @@ iphone:
   released: 2021-01-05
   updated: 2026-05-20
   version: 3.0.5
-  reviews: 871
+  reviews: 886
   icon: io.gosats.jpg
   meta: ok
   verdict: custodial
