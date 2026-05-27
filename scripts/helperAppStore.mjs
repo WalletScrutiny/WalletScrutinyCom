@@ -57,7 +57,7 @@ function refreshFile (fileName, content, markRemoved) {
     helper.checkHeaderKeys(iphone, headers);
 
     const metaCtx = metaUpdateContext(mobile, 'iphone');
-    const isDefunctOrRemoved = 'defunct,removed'.includes(mobile.meta);
+    const isDefunctOrRemoved = 'defunct,removed'.includes(iphone.meta);
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
     const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
 
@@ -67,9 +67,9 @@ function refreshFile (fileName, content, markRemoved) {
         lang: 'en',
         country: appCountry
       }).then((appData) => {
-        updateFromApp(iphone, appData, mobile);
-        if (mobile.meta === 'removed') {
-          mobile.meta = 'ok';
+        updateFromApp(iphone, appData, mobile, appCountry);
+        if (iphone.meta === 'removed') {
+          iphone.meta = 'ok';
           metaCtx.date = new Date();
         }
         const iconKey = appId || slug;
@@ -86,11 +86,11 @@ function refreshFile (fileName, content, markRemoved) {
       }, (err) => {
         const errText = `${err}`;
         if (errText.search(/404/) > -1 || errText.includes('App not found')) {
-          if (mobile.meta === 'defunct' || markRemoved) {
-            mobile.meta = 'removed';
+          if (iphone.meta === 'defunct' || markRemoved) {
+            iphone.meta = 'removed';
             metaCtx.date = new Date();
             writeMobileFile(filePath, mobile, body);
-          } else if (mobile.meta !== 'removed') {
+          } else if (iphone.meta !== 'removed') {
             helper.addRemovedIfNew(defunctKey);
           }
         } else {
@@ -108,15 +108,18 @@ function refreshFile (fileName, content, markRemoved) {
   });
 }
 
-function updateFromApp (iphone, app, mobile) {
+function updateFromApp (iphone, app, mobile, storeCountry) {
   if (app === undefined) {
     return;
+  }
+  if (storeCountry) {
+    iphone.appCountry = storeCountry;
   }
   if (app.title && !mobile.android?.appId) {
     mobile.title = app.title;
   }
   iphone.version = (app.version || 'various').replace(/["\\]*/g, '');
-  mobile.meta = mobile.meta || 'ok';
+  iphone.meta = iphone.meta || 'ok';
   iphone.updated = iphone.updated && new Date(iphone.updated) > new Date(app.updated)
     ? iphone.updated
     : new Date(app.updated);
@@ -156,8 +159,7 @@ function add (newIdds) {
             const mobile = {
               title: null,
               verdict: 'wip',
-              meta: 'ok',
-              iphone: { appId, appCountry: country },
+              iphone: { appId, appCountry: country, meta: 'ok' },
             };
             refreshFile(fileName, { mobile, body: '', slug: appId });
           }
@@ -177,11 +179,11 @@ function add (newIdds) {
               const mobile = {
                 title: null,
                 verdict: 'wip',
-                meta: 'ok',
                 iphone: {
                   appId: storeApp.appId,
                   idd,
                   appCountry: country,
+                  meta: 'ok',
                 },
               };
               refreshFile(fileName, { mobile, body: '', slug: storeApp.appId });

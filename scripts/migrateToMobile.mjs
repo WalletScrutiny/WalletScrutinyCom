@@ -30,6 +30,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
 import helper from './helper.mjs';
+import { hoistMobileDate } from './mobileWalletStore.mjs';
 
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
@@ -40,25 +41,21 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const COMBINED_ROOT_FIELDS = ['authors', 'social', 'features'];
 
 /** Always at root; prefer Android value when both differ. */
-const ROOT_SCALAR_PREFER_ANDROID = ['title'];
+const ROOT_SCALAR_PREFER_ANDROID = ['title', 'website', 'twitter'];
 
 /** Semantic fields merged at root when values match. */
 const MERGEABLE_COMMON_FIELDS = [
   'wsId',
   'bitcoinOrgId',
-  'website',
   'repository',
   'bugbounty',
-  'meta',
   'verdict',
-  'date',
-  'twitter',
-  'developerName',
   'appCountry',
 ];
 
 /** Always stored under android: / iphone: (never at root when both exist). */
 const PLATFORM_METADATA_FIELDS = [
+  'meta',
   'altTitle',
   'released',
   'updated',
@@ -66,6 +63,7 @@ const PLATFORM_METADATA_FIELDS = [
   'reviews',
   'icon',
   'signer',
+  'developerName',
 ];
 
 const ANDROID_EXCLUSIVE_FIELDS = [
@@ -82,7 +80,6 @@ const ROOT_FIELD_ORDER = [
   'altTitle',
   'bitcoinOrgId',
   'verdict',
-  'meta',
   'date',
   'authors',
   'website',
@@ -91,7 +88,6 @@ const ROOT_FIELD_ORDER = [
   'twitter',
   'social',
   'features',
-  'developerName',
   'appCountry',
   'redirect_from',
   'android',
@@ -114,12 +110,9 @@ const PLATFORM_FIELD_ORDER = [
   'builds',
   'meta',
   'verdict',
-  'date',
-  'website',
+  'developerName',
   'repository',
   'bugbounty',
-  'twitter',
-  'developerName',
   'bitcoinOrgId',
   'wsId',
 ];
@@ -263,6 +256,11 @@ function stripRootFieldsFromPlatform (platformBlock) {
     ...COMBINED_ROOT_FIELDS,
     ...ROOT_SCALAR_PREFER_ANDROID,
     'redirect_from',
+    'date',
+    'developerName',
+    'title',
+    'website',
+    'twitter',
   ]) {
     delete platformBlock[key];
   }
@@ -303,6 +301,7 @@ function finalizeMobileHeader (mobile, {
   stripRootFieldsFromPlatform(mobile.android);
   stripRootFieldsFromPlatform(mobile.iphone);
   delete mobile.appId;
+  hoistMobileDate(mobile);
 
   const ordered = pickOrdered(pruneEmpty(mobile), ROOT_FIELD_ORDER);
   if (mobile.android && Object.keys(mobile.android).length > 0) {
@@ -376,6 +375,16 @@ function mergeDualPlatformHeaders (androidHeader, iphoneHeader) {
       continue;
     }
     if (key === 'redirect_from') {
+      continue;
+    }
+    if (key === 'date') {
+      const dates = [aVal, iVal]
+        .filter((v) => !isEmpty(v))
+        .map((v) => new Date(v))
+        .filter((d) => !isNaN(d.getTime()));
+      if (dates.length > 0) {
+        root.date = new Date(Math.min(...dates.map((d) => d.getTime())));
+      }
       continue;
     }
     if (ROOT_SCALAR_PREFER_ANDROID.includes(key)) {

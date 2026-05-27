@@ -1,5 +1,4 @@
 {
-  "iphone/com.sixdays.trust":{"neutral":1,"negative":1},
   "android/casa.keymaster":{"negative":1},
   "android/com.Android.Inc.bitwallet":{"negative":1},
   "android/com.bchi.haruinvestapp":{"negative":1},
@@ -15,6 +14,7 @@
   "android/com.plusblocks.boxtradex":{"neutral":1},
   "android/com.samourai.wallet":{"neutral":1,"negative":1},
   "android/com.tangem.wallet":{"neutral":1},
+  "iphone/com.sixdays.trust":{"neutral":1,"negative":1},
   "android/de.schildbach.wallet":{"neutral":1},
   "android/fr.acinq.phoenix.mainnet":{"positive":1,"neutral":1},
   "android/io.aquawallet.android":{"negative":1},

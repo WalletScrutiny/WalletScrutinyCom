@@ -6,15 +6,43 @@ import helperBearer from './helperBearer.mjs';
 import helperDesktop from './helperDesktop.mjs';
 import helperOthers from './helperOthers.mjs';
 import fs from 'fs';
+import path from 'path';
 import yaml from 'js-yaml';
+import {
+  MOBILE_DIR,
+  loadMobileFromFile,
+  writeMobileFile,
+} from './mobileWalletStore.mjs';
+
 var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'));
 const df = /^\d{4}-\d{2}-\d{2}$/; // the only date format we use
 
-const migration = function (header, body, fileName, categoryHelper) {
+/** Fields that must not appear under android:/iphone: (root-only). */
+const MOBILE_ROOT_STRIP_FROM_PLATFORM = new Set([
+  'wsId', 'title', 'altTitle', 'bitcoinOrgId', 'verdict', 'date',
+  'authors', 'website', 'repository', 'bugbounty', 'twitter', 'social',
+  'features', 'redirect_from', 'android', 'iphone',
+]);
+
+const MOBILE_ROOT_HEADERS = [
+  ...MOBILE_ROOT_STRIP_FROM_PLATFORM,
+  'appCountry',
+];
+
+function allowedPlatformKeys (categoryHelper) {
+  return categoryHelper.headers.filter((k) => !MOBILE_ROOT_STRIP_FROM_PLATFORM.has(k));
+}
+
+const migration = function (header, body, fileName, categoryHelper, options = {}) {
   const category = categoryHelper.category;
-  const folder = `_${category}/`;
-  // make sure, appId matches file name
-  header.appId = fileName.slice(0, -3);
+  const folder = options.folder || `_${category}/`;
+  const label = options.label || header.appId || fileName.slice(0, -3);
+  const allowedHeaders = options.allowedHeaders || categoryHelper.headers;
+  const metaCategory = options.metaCategory || category;
+
+  if (options.setAppIdFromFile !== false && category !== 'mobile') {
+    header.appId = fileName.slice(0, -3);
+  }
 
   // Convert date fields from strings to dates
   const dateFields = ['date', 'updated', 'released'];
@@ -39,7 +67,7 @@ const migration = function (header, body, fileName, categoryHelper) {
   // Check for missing 'updated' field when 'version' is defined
   if (header.version && !header.updated) {
     console.error(
-        `\x1b[36mWarning: 'updated' field is missing for ${folder}${header.appId}.md with version ${header.version}\x1b[0m`
+        `\x1b[36mWarning: 'updated' field is missing for ${folder}${label}.md with version ${header.version}\x1b[0m`
     );
   }
 
@@ -49,7 +77,7 @@ const migration = function (header, body, fileName, categoryHelper) {
         typeof l !== 'string' ||
         (!l.startsWith('http') && !l.startsWith('mailto:') && !l.startsWith('nostr:')) ||
         l.includes(' ')) {
-      console.error(`# ${folder}${header.appId}.md: Unrecognized "social" entry ${l}.`);
+      console.error(`# ${folder}${label}.md: Unrecognized "social" entry ${l}.`);
     }
   }
   if (header.social.length < 1) header.social = null;
@@ -61,12 +89,13 @@ const migration = function (header, body, fileName, categoryHelper) {
   if (header.website != null && !header.website.startsWith('http')) {
     header.website = null;
   }
-  if (header.icon && header.icon.slice(0, -4) !== header.appId) {
+  const iconCategory = options.iconCategory || category;
+  if (header.icon && header.appId && header.icon.slice(0, -4) !== header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`;
-    console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!
-mv images/wIcons/${category}/tiny/{${header.icon},${newIcon}}
-mv images/wIcons/${category}/small/{${header.icon},${newIcon}}
-mv images/wIcons/${category}/{${header.icon},${newIcon}}`);
+    console.error(`# ${label}: unexpected icon ${header.icon}. Action required!
+mv images/wIcons/${iconCategory}/tiny/{${header.icon},${newIcon}}
+mv images/wIcons/${iconCategory}/small/{${header.icon},${newIcon}}
+mv images/wIcons/${iconCategory}/{${header.icon},${newIcon}}`);
     header.icon = newIcon;
   }
   if (header.dimensions) {
@@ -76,32 +105,75 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`);
       }
       header.dimensions = header.dimensions.map(it => Number(it.toPrecision(2)));
     } catch (e) {
-      console.error(`# ${folder}${header.appId}.md: ${e}.`);
+      console.error(`# ${folder}${label}.md: ${e}.`);
     }
   }
-  if (category !== 'others' && !meta[category].verdicts.includes(header.verdict)) {
-    console.error(`# ${folder}${header.appId}.md uses wrong verdict "${header.verdict}".`);
+  if (metaCategory !== 'others' && header.verdict && !meta[metaCategory].verdicts.includes(header.verdict)) {
+    console.error(`# ${folder}${label}.md uses wrong verdict "${header.verdict}".`);
   }
-  if (category !== 'others' && !meta[category].metas.includes(header.meta) && header.meta !== 'ok') {
-    console.error(`# ${folder}${header.appId}.md uses wrong meta "${header.meta}".`);
+  if (metaCategory !== 'others' && header.meta && !meta[metaCategory].metas.includes(header.meta) && header.meta !== 'ok') {
+    console.error(`# ${folder}${label}.md uses wrong meta "${header.meta}".`);
   }
   if (header.released && !df.test(header.released)) {
     header.released = new Date(Date.parse(header.released));
   }
 
   for (const key in header) {
-    const isKeyInHeaders = categoryHelper.headers.includes(key);
-    const shouldKeepKey = category === 'others' 
+    const isKeyInHeaders = allowedHeaders.includes(key);
+    const shouldKeepKey = metaCategory === 'others'
       ? (header[key] != null || isKeyInHeaders)
       : isKeyInHeaders;
-      
+
     if (!shouldKeepKey) {
-      console.log(`dropping key ${key} in _${category}/${fileName}`);
+      console.log(`dropping key ${key} in ${folder}${fileName}`);
       delete header[key];
     }
   }
 }; // crucial semicolon!
 
-[helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop, helperOthers].forEach(h => {
+function migrateMobileWallets () {
+  const folder = `${MOBILE_DIR}/`;
+  for (const fileName of fs.readdirSync(MOBILE_DIR)) {
+    if (!fileName.endsWith('.md')) continue;
+    const filePath = path.join(MOBILE_DIR, fileName);
+    const { mobile, body } = loadMobileFromFile(filePath);
+    if (mobile.title == null) continue;
+
+    migration(mobile, body, fileName, helperPlayStore, {
+      folder,
+      label: fileName.replace(/\.md$/, ''),
+      allowedHeaders: MOBILE_ROOT_HEADERS,
+      metaCategory: 'mobile',
+      setAppIdFromFile: false,
+    });
+
+    if (mobile.android) {
+      migration(mobile.android, body, fileName, helperPlayStore, {
+        folder,
+        label: mobile.android.appId || fileName.replace(/\.md$/, ''),
+        allowedHeaders: allowedPlatformKeys(helperPlayStore),
+        metaCategory: 'android',
+        setAppIdFromFile: false,
+        iconCategory: 'android',
+      });
+    }
+    if (mobile.iphone) {
+      migration(mobile.iphone, body, fileName, helperAppStore, {
+        folder,
+        label: mobile.iphone.appId || fileName.replace(/\.md$/, ''),
+        allowedHeaders: allowedPlatformKeys(helperAppStore),
+        metaCategory: 'iphone',
+        setAppIdFromFile: false,
+        iconCategory: 'iphone',
+      });
+    }
+
+    writeMobileFile(filePath, mobile, body);
+  }
+}
+
+migrateMobileWallets();
+
+[helperHardware, helperBearer, helperDesktop, helperOthers].forEach(h => {
   helper.migrateAll(h, migration);
 });

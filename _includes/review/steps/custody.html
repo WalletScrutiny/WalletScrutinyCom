@@ -54,9 +54,10 @@
             {% capture answer %}<p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
         {% endif %}
     {% endif %}
-    {% if page.meta != "ok" %}
+    {% assign step_meta = include.meta | default: page.meta %}
+    {% if step_meta and step_meta != "ok" %}
       <p class="warn">{{ conjunctionText }} 
-        <span class="lower">{{ site.data.verdicts[page.meta].message }}</span>
+        <span class="lower">{{ site.data.verdicts[step_meta].message }}</span>
       </p>
     {% endif %}
     </p>

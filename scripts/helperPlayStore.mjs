@@ -55,7 +55,7 @@ function refreshFile (fileName, content, markRemoved) {
     helper.checkHeaderKeys(android, headers);
 
     const metaCtx = metaUpdateContext(mobile, 'android');
-    const isDefunctOrRemoved = 'defunct,removed'.includes(mobile.meta);
+    const isDefunctOrRemoved = 'defunct,removed'.includes(android.meta);
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
     const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
 
@@ -66,9 +66,9 @@ function refreshFile (fileName, content, markRemoved) {
           lang: 'en',
           country: appCountry
         }).then(app => {
-          updateFromApp(android, app, mobile);
-          if (mobile.meta === 'removed') {
-            mobile.meta = 'ok';
+          updateFromApp(android, app, mobile, appCountry);
+          if (android.meta === 'removed') {
+            android.meta = 'ok';
             metaCtx.date = new Date();
           }
           const iconPath = `images/wIcons/android/${appId}`;
@@ -83,11 +83,11 @@ function refreshFile (fileName, content, markRemoved) {
           });
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            if (mobile.meta === 'defunct' || markRemoved) {
-              mobile.meta = 'removed';
+            if (android.meta === 'defunct' || markRemoved) {
+              android.meta = 'removed';
               metaCtx.date = new Date();
               writeMobileFile(filePath, mobile, body);
-            } else if (mobile.meta !== 'removed') {
+            } else if (android.meta !== 'removed') {
               helper.addRemovedIfNew(defunctKey);
             }
           } else {
@@ -112,9 +112,12 @@ function refreshFile (fileName, content, markRemoved) {
   });
 }
 
-function updateFromApp (android, app, mobile) {
+function updateFromApp (android, app, mobile, storeCountry) {
   if (app === undefined) {
     return;
+  }
+  if (storeCountry) {
+    android.appCountry = storeCountry;
   }
   if (app.title) {
     mobile.title = app.title;
@@ -122,13 +125,13 @@ function updateFromApp (android, app, mobile) {
   android.version = (app.version || 'various').replace(/["\\]*/g, '');
   android.released = android.released || app.released || null;
 
-  if (mobile.meta !== 'obsolete' && mobile.meta !== 'defunct' && mobile.meta !== 'removed' && app.minInstalls < 1000) {
-    mobile.meta = 'fewusers';
-  } else if (mobile.meta === 'fewusers' && app.minInstalls >= 1000) {
-    mobile.meta = 'ok';
+  if (android.meta !== 'obsolete' && android.meta !== 'defunct' && android.meta !== 'removed' && app.minInstalls < 1000) {
+    android.meta = 'fewusers';
+  } else if (android.meta === 'fewusers' && app.minInstalls >= 1000) {
+    android.meta = 'ok';
   }
 
-  mobile.meta = mobile.meta || 'ok';
+  android.meta = android.meta || 'ok';
 
   if (app.updated && !isNaN(new Date(app.updated))) {
     android.updated = android.updated && new Date(android.updated) > new Date(app.updated)
@@ -164,8 +167,7 @@ function add (appIds) {
             const mobile = {
               title: null,
               verdict: 'wip',
-              meta: 'ok',
-              android: { appId },
+              android: { appId, meta: 'ok' },
             };
             refreshFile(fileName, { mobile, body: '', slug: appId });
           });
