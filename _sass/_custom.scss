@@ -908,6 +908,65 @@
         padding: 10px 0 0 0;
         font-weight: $title-font-weight;
       }
+      &--by-platform {
+        gap: 10px;
+        width: 100%;
+      }
+      .stamps--shared {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+      }
+    }
+    .wallet-platform-row {
+      display: grid;
+      gap: 6px;
+      width: 100%;
+      padding-top: 10px;
+      border-top: 1px solid var(--shadow-3);
+      &:first-of-type {
+        border-top: none;
+        padding-top: 0;
+      }
+      &__head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        font-size: 12px;
+        font-weight: $title-font-weight;
+        opacity: 0.9;
+        i {
+          font-size: 14px;
+        }
+      }
+      .stamps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+      }
+      .score {
+        display: grid;
+        gap: 4px;
+      }
+      &--compact {
+        text-align: left;
+        .wallet-platform-row__head {
+          justify-content: flex-start;
+        }
+      }
+    }
+    .stats--by-platform {
+      display: grid;
+      gap: 8px;
+      width: 100%;
+      .stats-shared {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
     }
   }
 }

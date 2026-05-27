@@ -73,18 +73,13 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
 
     if (!wallet) { break }
 
-    const verificationHtml = typeof getWalletVerificationLinesHtml === 'function'
-      ? getWalletVerificationLinesHtml(wallet, listPlatform)
-      : '';
-    const verdictStampsHtml = typeof getWalletVerdictStampsHtml === 'function'
-      ? getWalletVerdictStampsHtml(wallet)
-      : (wallet.verdict ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : '');
-    const scoreBlockHtml = typeof getWalletScoreBlockHtml === 'function'
-      ? getWalletScoreBlockHtml(wallet)
+    const walletDetailsHtml = typeof getWalletCardDetailsHtml === 'function'
+      ? getWalletCardDetailsHtml(wallet, listPlatform)
       : '';
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
-    const icon = getWalletListIcon(wallet, listPlatform);
+    const tileHeadPlatform = wallet.folder === 'mobile' ? false : listPlatform;
+    const icon = getWalletListIcon(wallet, tileHeadPlatform);
     const delay = (i + 1) * 80;
     const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
@@ -92,27 +87,9 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${getWalletListCategory(wallet, listPlatform)}</span></span>
+        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
       </div>
-      <div class="wallet-details">
-        <div class="stamps">
-          ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-          ${verdictStampsHtml}
-        ${wallet.meta && wallet.meta !== "ok"
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : ""}
-        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
-          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
-          : ""}
-        </div>
-        ${scoreBlockHtml || wallet.score
-          ? `<div class="score" data-numerator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).numerator || 0}" data-denominator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).denominator || 0}">
-            ${verificationHtml}
-            ${scoreBlockHtml || `<span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>`}
-          </div>`
-          : (verificationHtml ? `<div class="score">${verificationHtml}</div>` : '')
-        }
-      </div>
+      ${walletDetailsHtml}
     </a>`;
   }
   flexListEle.innerHTML = `${badgesHtml}`;
@@ -365,13 +342,6 @@ window.addEventListener('allAssetInformationLoaded', () => {
 
 window.addEventListener("allWalletsLoaded", () => {
   isInitializing = false;
-  const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms";
-  const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1;
-  const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : "";
-  const query = queryRaw.toUpperCase();
-  const workingArray = performSearch(window.wallets, query, platform) || false;
-
   window.blockScrollingFocus = true;
-
-  generateAndAppendPagination(workingArray, page);
+  updateWalletGridInputOriginatingFromURL();
 });
