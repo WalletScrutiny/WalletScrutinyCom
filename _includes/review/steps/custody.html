@@ -4,10 +4,11 @@
     <h3>Custody</h3>
     <p>
     {% assign conjunctionText = 'But' %}
+    {% assign step_verdict = include.verdict | default: page.verdict %}
     {% if include.platform == 'hardware' or include.platform == 'bearer' %}
       {% capture methodology %}<p>As part of <a href="/methodology/?tests-we-run/{{include.platform}}/prefilled">our Methodology</a>, we ask: <b>{{ site.data.verdicts['prefilled'].question }}</b></p>{% endcapture %}
-      {% if page.verdict == 'prefilled' %}
-        {{ site.data.verdicts[page.verdict].short }}
+      {% if step_verdict == 'prefilled' %}
+        {{ site.data.verdicts[step_verdict].short }}
         {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts['prefilled'].title }}</strong>".<br><a href="#prefilled">Read more</a></p>{% endcapture %}
       {% else %}
         {{"Private keys generated and held by user"}}
@@ -22,7 +23,7 @@
         {% for verdict in site.data.platformMeta[include.platform].verdicts %}
           {% assign iterationCount = iterationCount | plus: 1 %}
           {% case verdict %}
-            {% when page.verdict %}
+            {% when step_verdict %}
               {% assign verdictIndex = iterationCount %}
             {% when 'custodial' %}
               {% assign custodyIndex = iterationCount %}
@@ -36,16 +37,16 @@
         {% endif %}
 
         {% if custodyIndex > verdictIndex %}
-          {{ site.data.verdicts[page.verdict].short }}
+          {{ site.data.verdicts[step_verdict].short }}
           {% if verdictIndex > 1 %}
-            {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+            {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{step_verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
           {% else %}
             {% capture answer %}<p>However, we didn't yet have the time or resources to run the tests for this wallet.<br><a href="#custodial">Read more</a></p>{% endcapture %}
           {% endif %}
           {% assign conjunctionText = 'Also' %}
-        {% elsif page.verdict == 'custodial' %}
-          {{ site.data.verdicts[page.verdict].short }}
-          {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts[page.verdict].title }}</strong>".<br><a href="#{{page.verdict}}">Read more</a></p>{% endcapture %}
+        {% elsif step_verdict == 'custodial' %}
+          {{ site.data.verdicts[step_verdict].short }}
+          {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts[step_verdict].title }}</strong>".<br><a href="#{{step_verdict}}">Read more</a></p>{% endcapture %}
         {% elsif hasCustodyAlert %}
             {{"⚠️ Mixed custody model"}}
             {% capture answer %}<p>This product has features that involve <strong>third-party custody</strong>. While you may hold keys for on-chain funds, some functionality depends on trusting external parties. <strong>See warnings below.</strong><br><a href="#custodial">Read more</a></p>{% endcapture %}

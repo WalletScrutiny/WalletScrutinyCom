@@ -49,13 +49,13 @@ const MERGEABLE_COMMON_FIELDS = [
   'bitcoinOrgId',
   'repository',
   'bugbounty',
-  'verdict',
   'appCountry',
 ];
 
 /** Always stored under android: / iphone: (never at root when both exist). */
 const PLATFORM_METADATA_FIELDS = [
   'meta',
+  'verdict',
   'altTitle',
   'released',
   'updated',
@@ -79,7 +79,6 @@ const ROOT_FIELD_ORDER = [
   'title',
   'altTitle',
   'bitcoinOrgId',
-  'verdict',
   'date',
   'authors',
   'website',

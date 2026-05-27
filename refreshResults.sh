@@ -1,6 +1,6 @@
 echo "Source available wallets with version changes (need analysis):"
 for f in $( git diff -G'version' --name-only --diff-filter=d ); do
-  if grep -q "^verdict: sourceavailable" $f; then
+  if grep -qE "^verdict: sourceavailable|^  verdict: sourceavailable" $f; then
     echo $f changed to $( grep '^version' $f )
   fi
 done

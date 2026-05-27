@@ -158,8 +158,7 @@ function add (newIdds) {
             const fileName = `${appId}.md`;
             const mobile = {
               title: null,
-              verdict: 'wip',
-              iphone: { appId, appCountry: country, meta: 'ok' },
+              iphone: { appId, appCountry: country, meta: 'ok', verdict: 'wip' },
             };
             refreshFile(fileName, { mobile, body: '', slug: appId });
           }
@@ -178,12 +177,12 @@ function add (newIdds) {
               const fileName = `${storeApp.appId}.md`;
               const mobile = {
                 title: null,
-                verdict: 'wip',
                 iphone: {
                   appId: storeApp.appId,
                   idd,
                   appCountry: country,
                   meta: 'ok',
+                  verdict: 'wip',
                 },
               };
               refreshFile(fileName, { mobile, body: '', slug: storeApp.appId });

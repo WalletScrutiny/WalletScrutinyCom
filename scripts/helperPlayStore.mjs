@@ -166,8 +166,7 @@ function add (appIds) {
           .catch(() => {
             const mobile = {
               title: null,
-              verdict: 'wip',
-              android: { appId, meta: 'ok' },
+              android: { appId, meta: 'ok', verdict: 'wip' },
             };
             refreshFile(fileName, { mobile, body: '', slug: appId });
           });

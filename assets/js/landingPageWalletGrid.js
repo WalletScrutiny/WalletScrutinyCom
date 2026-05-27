@@ -73,24 +73,19 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
 
     if (!wallet) { break }
 
-    let lastVerificationStatus = null;
-    if (window.allAssetInformation) {
-      const verificationTarget = getVerificationTarget(wallet, listPlatform);
-      lastVerificationStatus = getLastVerificationStatusForAppId(
-        verificationTarget.appId,
-        verificationTarget.platform
-      );
-    }
+    const verificationHtml = typeof getWalletVerificationLinesHtml === 'function'
+      ? getWalletVerificationLinesHtml(wallet, listPlatform)
+      : '';
+    const verdictStampsHtml = typeof getWalletVerdictStampsHtml === 'function'
+      ? getWalletVerdictStampsHtml(wallet)
+      : (wallet.verdict ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : '');
+    const scoreBlockHtml = typeof getWalletScoreBlockHtml === 'function'
+      ? getWalletScoreBlockHtml(wallet)
+      : '';
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
     const icon = getWalletListIcon(wallet, listPlatform);
     const delay = (i + 1) * 80;
-    let passed = ``;
-    let failed = ``;
-    if (wallet.score) {
-      for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>`; }
-      for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>`; }
-    }
     const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
@@ -102,7 +97,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
       <div class="wallet-details">
         <div class="stamps">
           ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-          <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
+          ${verdictStampsHtml}
         ${wallet.meta && wallet.meta !== "ok"
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : ""}
@@ -110,13 +105,12 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
           ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
           : ""}
         </div>
-        ${wallet.score
-          ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-            ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<span>❓ Not verified yet</span>') : ''}
-            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-            <div>${passed}${failed}</div>
+        ${scoreBlockHtml || wallet.score
+          ? `<div class="score" data-numerator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).numerator || 0}" data-denominator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).denominator || 0}">
+            ${verificationHtml}
+            ${scoreBlockHtml || `<span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>`}
           </div>`
-          : ''
+          : (verificationHtml ? `<div class="score">${verificationHtml}</div>` : '')
         }
       </div>
     </a>`;

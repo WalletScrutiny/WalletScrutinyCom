@@ -1,5 +1,6 @@
 <div class="step application-build">
-    {% if page.verdict == 'sourceavailable' %}
+    {% assign build_verdict = include.verdict | default: page.verdict %}
+    {% if build_verdict == 'sourceavailable' %}
     <i class="i-sourceavailable circle"></i>
     {% else %}
     <i class="i-sourceavailable circle disabled"></i>
@@ -13,7 +14,7 @@
         {% assign version_element_id = include.versionElementId | default: 'version-number' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
         {% assign skip_ws_version = include.skipWsVersion %}
-        <script>const pageVerdict = '{{page.verdict}}'</script>
+        <script>const pageVerdict = '{{ build_verdict }}'</script>
 
         <div id="{{ apps_table_id }}" style="margin-top: 1em;"></div>
 
@@ -93,7 +94,7 @@
         </script>
         {% else %}
         {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
-        {% if sourceCheckedVerdicts contains page.verdict %}
+        {% if sourceCheckedVerdicts contains build_verdict %}
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>
