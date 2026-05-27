@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.bitso.alpha
   users: 100000
+  appCountry: GI
   released: 2021-09-28
   updated: 2026-05-20
   version: 1.50.2

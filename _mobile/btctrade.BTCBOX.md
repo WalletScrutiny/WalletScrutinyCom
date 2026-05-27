@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: btctrade.BTCBOX
   users: 5000
+  appCountry: us
   released: 2016-04-18
   updated: 2026-04-28
   version: '1.287'

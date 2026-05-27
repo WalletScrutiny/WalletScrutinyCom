@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.rexsons.copaly_app
   users: 1000
+  appCountry: us
   released: 2022-07-25
   updated: 2026-05-07
   version: 5.2.10

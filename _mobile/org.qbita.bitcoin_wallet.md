@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: org.qbita.bitcoin_wallet
   users: 10000
+  appCountry: us
   released: 2019-08-28
   updated: 2019-08-28
   version: '1.0'

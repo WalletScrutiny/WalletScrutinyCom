@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.mobile.quantum
   users: 10000
+  appCountry: us
   released: 2022-04-18
   updated: 2025-10-02
   version: 1.0.8

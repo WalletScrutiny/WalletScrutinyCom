@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: io.quidax.app
   users: 50000
+  appCountry: us
   released: 2025-04-21
   updated: 2026-05-22
   version: 1.2.14
@@ -32,8 +33,8 @@ iphone:
   idd: '6742988930'
   appCountry: ng
   released: 2025-07-07
-  updated: 2026-05-13
-  version: 1.1.15
+  updated: 2026-05-25
+  version: 1.1.16
   reviews: 580
   icon: io.quidax.pro.jpg
   meta: ok

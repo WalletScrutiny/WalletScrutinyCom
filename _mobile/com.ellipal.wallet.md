@@ -25,6 +25,7 @@ redirect_from:
 android:
   appId: com.ellipal.wallet
   users: 100000
+  appCountry: us
   released: 2018-07-02
   updated: 2026-05-26
   version: 4.13.0
@@ -36,10 +37,11 @@ android:
 iphone:
   appId: com.Ellipal.Ellipal
   idd: '1426179665'
+  appCountry: us
   released: 2018-08-25
   updated: 2026-04-16
   version: 4.12.0
-  reviews: 2949
+  reviews: 2951
   icon: com.Ellipal.Ellipal.jpg
   meta: ok
   verdict: nosource

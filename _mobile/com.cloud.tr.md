@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.cloud.tr
   users: 5000000
+  appCountry: tr
   released: 2021-07-16
   updated: 2026-05-20
   version: 4.3.2
-  reviews: 21504
+  reviews: 21506
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.binanceCloudTR.binance
   idd: '1548636153'
+  appCountry: tr
   released: 2021-02-18
   updated: 2026-05-12
   version: 4.3.0
-  reviews: 174116
+  reviews: 174521
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
   verdict: custodial

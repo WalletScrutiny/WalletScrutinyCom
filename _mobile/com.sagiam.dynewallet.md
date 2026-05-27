@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.sagiam.dynewallet
   users: 50
+  appCountry: us
   released: 2021-01-12
   updated: 2025-11-13
   version: '2.0'

@@ -25,6 +25,7 @@ redirect_from:
 android:
   appId: app.michaelwuensch.bitbanana
   users: 5000
+  appCountry: us
   released: 2023-03-26
   updated: 2026-04-11
   version: 1.0.1

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: de.gratisbroker.android.mobileapp
   users: 500000
+  appCountry: us
   released: 2021-06-02
   updated: 2026-04-17
   version: 5.13.1
@@ -30,7 +31,7 @@ iphone:
   released: 2021-06-07
   updated: 2026-05-08
   version: 5.13.2
-  reviews: 24659
+  reviews: 24743
   icon: de.gratisbroker.ios.mobileapp.jpg
   meta: ok
   verdict: nosendreceive

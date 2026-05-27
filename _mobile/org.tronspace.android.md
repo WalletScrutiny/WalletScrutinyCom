@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: org.tronspace.android
   users: 10000
+  appCountry: us
   released: 2021-07-03
   updated: 2023-01-04
   version: 2.2.6

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bitlifi.app
   users: 5000
+  appCountry: us
   released: 2023-05-04
   updated: 2025-12-22
   version: 1.11.5

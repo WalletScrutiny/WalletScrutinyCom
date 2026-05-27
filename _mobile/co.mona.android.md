@@ -23,10 +23,11 @@ redirect_from:
 android:
   appId: co.mona.android
   users: 50000000
+  appCountry: us
   released: 2017-08-30
   updated: 2026-05-18
   version: 3.233.10
-  reviews: 56529
+  reviews: 56532
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial
@@ -34,10 +35,11 @@ android:
 iphone:
   appId: co.mona.Monaco
   idd: '1262148500'
+  appCountry: us
   released: 2017-08-31
   updated: 2026-05-19
   version: 3.233.10
-  reviews: 329163
+  reviews: 329202
   icon: co.mona.Monaco.jpg
   meta: ok
   verdict: custodial

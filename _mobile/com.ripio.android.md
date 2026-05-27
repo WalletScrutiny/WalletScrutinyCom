@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.ripio.android
   users: 1000000
+  appCountry: us
   released: 2015-06-01
   updated: 2026-05-20
   version: 6.6.3

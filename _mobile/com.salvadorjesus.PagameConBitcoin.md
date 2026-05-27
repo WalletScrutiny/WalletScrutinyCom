@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.salvadorjesus.PagameConBitcoin
   users: 500
+  appCountry: us
   released: 2018-01-24
   updated: 2020-03-06
   version: 2.2.3.1

@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.gateio.turkey
   users: 100000
+  appCountry: us
   updated: 2026-04-14
   version: 6.15.43
   icon: com.gateio.turkey.png

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.tajir.wallet.app
   users: 500
+  appCountry: us
   released: 2025-08-13
   updated: 2026-04-22
   version: 2.0.3

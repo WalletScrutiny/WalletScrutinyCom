@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.ninja.ninjapay.me
   users: 100
+  appCountry: us
   released: 2023-01-10
   updated: 2025-10-16
   version: 2.1.9

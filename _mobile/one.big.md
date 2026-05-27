@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: one.big
   users: 100000
+  appCountry: us
   released: 2019-10-30
   updated: 2026-05-01
   version: 2.6.5
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: base.big.one
   idd: '1485385044'
+  appCountry: us
   released: 2019-11-06
   updated: 2026-05-17
   version: 2.6.502

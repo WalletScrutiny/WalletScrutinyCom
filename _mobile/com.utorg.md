@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.utorg
   users: 10000
+  appCountry: us
   released: 2023-06-02
   updated: 2026-05-22
   version: 2.92.1

@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.nova.dax
   users: 1000000
+  appCountry: us
   released: 2019-09-20
   updated: 2026-04-03
   version: 3.6.3
@@ -29,7 +30,7 @@ iphone:
   released: 2019-10-02
   updated: 2026-04-10
   version: 3.6.4
-  reviews: 2703
+  reviews: 2704
   icon: com.nova.dax.jpg
   meta: ok
   verdict: wip

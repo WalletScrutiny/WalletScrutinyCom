@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.profittrading.forbitmex
   users: 50000
+  appCountry: us
   released: 2019-06-11
   updated: 2026-03-25
   version: 8.1.1

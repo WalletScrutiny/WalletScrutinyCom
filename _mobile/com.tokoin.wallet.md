@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.tokoin.wallet
   users: 10000
+  appCountry: us
   released: 2019-12-11
   updated: 2023-08-15
   version: 3.6.1

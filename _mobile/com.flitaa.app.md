@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.flitaa.app
   users: 50000
+  appCountry: ng
   released: 2021-05-15
   updated: 2025-06-13
   version: 1.51.8
@@ -26,6 +27,7 @@ android:
 iphone:
   appId: com.flitaa
   idd: 1566777501
+  appCountry: ng
   released: 2021-05-25
   updated: 2025-06-13
   version: 1.51.8

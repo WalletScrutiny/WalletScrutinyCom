@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: io.excelon.excelongo
   users: 50000
+  appCountry: us
   released: 2021-08-09
   updated: 2025-11-23
   version: 1.0.101

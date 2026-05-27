@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.ethos2.prod
   users: 10000
+  appCountry: us
   released: 2023-06-26
   updated: 2026-05-01
   version: 5.4.0

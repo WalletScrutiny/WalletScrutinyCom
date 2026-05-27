@@ -33,6 +33,7 @@ android:
 iphone:
   appId: cobo.wallet
   idd: '1406282615'
+  appCountry: us
   released: 2018-08-05
   updated: 2025-09-05
   version: 5.19.17

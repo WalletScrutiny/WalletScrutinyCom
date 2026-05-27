@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: com.tongtong.wallet
   users: 10000
+  appCountry: us
   released: 2022-04-21
-  updated: 2026-05-20
-  version: 2.1.15
+  updated: 2026-05-27
+  version: 2.1.16
   icon: com.tongtong.wallet.png
   meta: ok
   verdict: nosource
@@ -27,8 +28,8 @@ iphone:
   idd: '1618695778'
   appCountry: kr
   released: 2022-04-24
-  updated: 2026-05-18
-  version: 2.0.5
+  updated: 2026-05-27
+  version: 2.0.7
   reviews: 26
   icon: com.etomato.wallet.jpg
   meta: ok

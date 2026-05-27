@@ -30,7 +30,7 @@ iphone:
   released: 2021-08-19
   updated: 2022-04-20
   version: '5.8'
-  reviews: 23
+  reviews: 24
   icon: com.fimarketbt.jpg
   meta: obsolete
   verdict: custodial

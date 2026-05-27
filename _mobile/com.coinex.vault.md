@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.coinex.vault
   idd: '6529535723'
+  appCountry: us
   released: 2024-07-23
   updated: 2026-03-02
   version: 2.21.0

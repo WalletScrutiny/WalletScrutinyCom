@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.netcents.merchantterminal
   users: 500
+  appCountry: us
   released: 2018-02-11
   updated: 2025-07-18
   version: 3.1.21

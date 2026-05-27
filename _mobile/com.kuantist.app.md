@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.kuantist.app
   users: 10000
+  appCountry: us
   released: 2024-07-18
   updated: 2026-05-08
   version: 1.0.55

@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.moneybookers.skrillpayments
   users: 10000000
+  appCountry: us
   released: 2013-10-29
   updated: 2026-05-20
   version: 3.185.0-2026052009
-  reviews: 3884
+  reviews: 3885
   icon: com.moneybookers.skrillpayments.png
   meta: ok
   verdict: nosendreceive
@@ -28,9 +29,9 @@ iphone:
   idd: '718248239'
   appCountry: gb
   released: 2013-10-29
-  updated: 2026-05-05
-  version: 3.184.0
-  reviews: 8736
+  updated: 2026-05-21
+  version: 3.185.0
+  reviews: 8744
   icon: com.skrill.ios.SkrillPayments.jpg
   meta: ok
   verdict: nosendreceive

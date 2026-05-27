@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: org.budgetcoinz.app
   users: 1000
+  appCountry: us
   released: 2024-02-29
   updated: 2025-12-25
   version: 1.8.0

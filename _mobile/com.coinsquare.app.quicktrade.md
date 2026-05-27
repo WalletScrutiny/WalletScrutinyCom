@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.coinsquare.app.quicktrade
   users: 100000
+  appCountry: us
   released: 2022-11-02
   updated: 2025-12-05
   version: 5.3.3

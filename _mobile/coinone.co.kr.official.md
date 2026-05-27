@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: coinone.co.kr.official
   users: 1000000
+  appCountry: us
   released: 2018-01-28
   updated: 2026-05-18
   version: 5.30.0

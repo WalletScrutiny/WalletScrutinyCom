@@ -18,10 +18,11 @@ redirect_from:
 android:
   appId: com.binance.dev
   users: 100000000
+  appCountry: us
   released: 2017-10-25
   updated: 2026-05-25
   version: 3.14.7
-  reviews: 16626
+  reviews: 16634
   icon: com.binance.dev.png
   meta: ok
   verdict: custodial
@@ -33,7 +34,7 @@ iphone:
   released: 2018-10-06
   updated: 2026-05-15
   version: 3.15.0
-  reviews: 51686
+  reviews: 51775
   icon: com.czzhao.binance.jpg
   meta: ok
   verdict: custodial

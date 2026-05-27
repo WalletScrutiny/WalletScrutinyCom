@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.koinstrap.koinstrap
   users: 1000
+  appCountry: us
   released: 2020-08-28
   updated: 2026-03-26
   version: 4.1.7
@@ -30,7 +31,7 @@ iphone:
   version: 3.3.7
   reviews: 34
   icon: com.koinstrap.koinstrap.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Koinstrap, Inc.
 

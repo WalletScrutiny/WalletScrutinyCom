@@ -26,6 +26,7 @@ redirect_from:
 android:
   appId: com.coinspace.app
   users: 500000
+  appCountry: us
   released: 2015-05-01
   updated: 2026-05-21
   version: 6.27.0
@@ -37,10 +38,11 @@ android:
 iphone:
   appId: com.coinspace.wallet
   idd: 980719434
+  appCountry: us
   released: 2015-12-14
-  updated: 2026-05-01
-  version: 6.26.1
-  reviews: 484
+  updated: 2026-05-22
+  version: 6.27.0
+  reviews: 485
   icon: com.coinspace.wallet.jpg
   meta: ok
   verdict: sourceavailable

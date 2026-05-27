@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.deskoin.app
   users: 10000
+  appCountry: us
   updated: 2026-05-23
   version: 7.7.2
   icon: com.deskoin.app.png
@@ -25,8 +26,8 @@ iphone:
   idd: '6451258830'
   appCountry: fr
   released: 2023-12-02
-  updated: 2026-05-04
-  version: 7.6.10
+  updated: 2026-05-25
+  version: 7.7.2
   reviews: 395
   icon: com.deskoin.app.jpg
   meta: ok

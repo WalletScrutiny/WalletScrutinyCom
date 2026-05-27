@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.dantown.Dantownapp
   users: 50000
+  appCountry: us
   released: 2021-03-27
   updated: 2026-05-08
   version: 2.0.79

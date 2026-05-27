@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.cryptoxpressmobile
   users: 10000
+  appCountry: us
   released: 2021-09-20
   updated: 2026-02-04
   version: 1.40.37

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.molnike.crypto.seed
   users: 1000
+  appCountry: us
   released: 2022-12-23
   updated: 2023-02-28
   version: '0.6'

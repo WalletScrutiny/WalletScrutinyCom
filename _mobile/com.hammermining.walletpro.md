@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.hammermining.walletpro
   users: 100
+  appCountry: us
   released: 2022-05-10
   updated: 2026-02-11
   version: 1.3.8

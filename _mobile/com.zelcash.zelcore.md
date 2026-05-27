@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.zelcash.zelcore
   users: 100000
+  appCountry: us
   released: 2018-09-21
   updated: 2026-04-30
   version: 8.31.1
@@ -33,6 +34,7 @@ android:
 iphone:
   appId: com.zelcash.zelcore
   idd: 1436296839
+  appCountry: us
   released: 2018-09-23
   updated: 2026-04-22
   version: v8.31.0

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.authentrend.atwallet
   users: 1000
+  appCountry: us
   released: 2020-07-13
   updated: 2023-09-28
   version: v2.0.12

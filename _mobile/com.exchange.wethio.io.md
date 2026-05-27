@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.exchange.wethio.io
   users: 1000
+  appCountry: us
   released: 2021-10-21
   updated: 2022-11-24
   version: 2.3.3

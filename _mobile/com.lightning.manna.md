@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.lightning.manna
   users: 500
+  appCountry: us
   released: 2025-05-14
   updated: 2026-04-28
   version: 1.1.9

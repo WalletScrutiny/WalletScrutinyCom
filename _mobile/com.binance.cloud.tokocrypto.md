@@ -20,7 +20,7 @@ android:
   released: 2020-10-19
   updated: 2026-05-13
   version: 2.33.0
-  reviews: 56306
+  reviews: 56361
   icon: com.binance.cloud.tokocrypto.png
   meta: ok
   verdict: custodial

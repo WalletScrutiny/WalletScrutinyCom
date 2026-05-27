@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.hedgerx.exchange
   users: 500
+  appCountry: us
   released: 2025-12-13
   updated: 2025-12-20
   version: 1.1.14

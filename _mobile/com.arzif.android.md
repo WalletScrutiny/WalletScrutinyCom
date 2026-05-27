@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.arzif.android
   users: 50000
+  appCountry: us
   released: 2020-10-09
   updated: 2023-09-09
   version: '2'

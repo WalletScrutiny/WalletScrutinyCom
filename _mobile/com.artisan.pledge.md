@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.artisan.pledge
   users: 10000
+  appCountry: us
   released: 2023-04-03
   updated: 2026-05-20
   version: 1.0.64

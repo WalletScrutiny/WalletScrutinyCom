@@ -12,8 +12,9 @@ redirect_from:
 android:
   appId: jp.co.rakuten.wallet.crypto
   users: 100000
-  updated: 2026-04-13
-  version: 1.6.5
+  appCountry: us
+  updated: 2026-05-22
+  version: 1.6.6
   icon: jp.co.rakuten.wallet.crypto.png
   meta: ok
   verdict: custodial
@@ -25,7 +26,7 @@ iphone:
   released: 2019-08-31
   updated: 2026-05-07
   version: 1.6.5
-  reviews: 9789
+  reviews: 9800
   icon: jp.co.rakuten.wallet.crypto.jpg
   meta: ok
   verdict: custodial

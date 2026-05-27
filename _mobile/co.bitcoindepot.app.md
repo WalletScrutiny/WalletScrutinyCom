@@ -33,7 +33,7 @@ iphone:
   version: 4.2.2
   reviews: 1354
   icon: com.cashtocrypto.wallet.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Bitcoin Depot
 

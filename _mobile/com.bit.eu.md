@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bit.eu
   users: 1000
+  appCountry: us
   released: 2019-07-03
   updated: 2023-10-03
   version: 1.12.3

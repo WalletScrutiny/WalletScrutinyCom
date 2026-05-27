@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.mufin.iconfi
   users: 10000
+  appCountry: us
   released: 2021-01-27
   updated: 2026-03-26
   version: 1.2.9

@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.rocketsfintech.accrue
   users: 100000
+  appCountry: us
   released: 2021-10-09
   updated: 2026-05-24
   version: 4.9.52
@@ -27,9 +28,9 @@ iphone:
   idd: '1604973055'
   appCountry: gh
   released: 2022-01-18
-  updated: 2026-05-14
-  version: 4.9.36
-  reviews: 3021
+  updated: 2026-05-23
+  version: 4.9.50
+  reviews: 3028
   icon: com.rocketsfintech.accrue-dca.jpg
   meta: ok
   verdict: custodial

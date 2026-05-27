@@ -21,8 +21,9 @@ redirect_from:
 android:
   appId: com.binance.us
   users: 1000000
+  appCountry: us
   released: 2019-12-23
-  updated: 2026-05-19
+  updated: 2026-05-22
   version: 3.38.1
   reviews: 6859
   icon: com.binance.us.png
@@ -32,10 +33,11 @@ android:
 iphone:
   appId: us.binance.fiat
   idd: 1492670702
+  appCountry: us
   released: 2020-01-05
   updated: 2026-05-21
   version: 3.38.2
-  reviews: 109780
+  reviews: 110247
   icon: us.binance.fiat.jpg
   meta: ok
   verdict: custodial

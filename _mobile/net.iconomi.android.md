@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: net.iconomi.android
   users: 10000
+  appCountry: si
   released: 2017-10-17
   updated: 2026-02-25
   version: 4.1.3
@@ -28,6 +29,7 @@ android:
 iphone:
   appId: net.iconomi.iconomi
   idd: 1238213050
+  appCountry: si
   released: 2017-05-25
   updated: 2023-10-31
   version: 3.2.1

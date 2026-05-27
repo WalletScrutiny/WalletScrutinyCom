@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.PlusWallet
   users: 500000
+  appCountry: us
   released: 2023-10-06
   updated: 2026-04-08
   version: 5.7.9

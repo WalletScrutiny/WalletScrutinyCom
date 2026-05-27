@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: ch.digitaladmin.icynote
   users: 50
+  appCountry: us
   released: 2025-03-14
   updated: 2025-09-02
   version: 1.0.3

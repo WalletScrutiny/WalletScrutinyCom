@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: app.coinmetro
   users: 100000
+  appCountry: us
   released: 2017-12-10
   updated: 2026-05-19
   version: 5.55.9
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: app.coinmetro
   idd: '1397585225'
+  appCountry: us
   released: 2018-07-25
   updated: 2026-05-20
   version: 5.55.9

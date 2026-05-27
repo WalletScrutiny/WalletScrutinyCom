@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.savl
   users: 100000
+  appCountry: ru
   released: 2018-07-24
   updated: 2026-03-31
   version: 9.2.0
@@ -30,6 +31,7 @@ android:
 iphone:
   appId: com.savl.savlapp
   idd: 1369912925
+  appCountry: ru
   released: 2018-04-22
   updated: 2026-04-06
   version: '9.2'

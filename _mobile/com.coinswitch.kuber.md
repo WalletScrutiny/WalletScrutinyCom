@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: com.coinswitch.kuber
   users: 10000000
+  appCountry: in
   released: 2020-05-31
   updated: 2026-05-21
   version: 9.3.2
-  reviews: 147452
+  reviews: 147493
   icon: com.coinswitch.kuber.png
   meta: ok
   verdict: nosendreceive
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.coinswitch.kuber
   idd: 1540214951
+  appCountry: in
   released: 2020-12-01
-  updated: 2026-04-23
-  version: 9.2.7
-  reviews: 60694
+  updated: 2026-05-21
+  version: 9.3.5
+  reviews: 60737
   icon: com.coinswitch.kuber.jpg
   meta: ok
   verdict: nosendreceive

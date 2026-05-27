@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bitcoinsuisse.pay
   users: 1000
+  appCountry: us
   released: 2021-06-06
   updated: 2023-06-05
   version: 1.3.1

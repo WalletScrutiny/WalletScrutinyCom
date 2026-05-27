@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.app.degate
   users: 1000
+  appCountry: us
   released: 2025-06-09
   updated: 2026-05-21
   version: 1.0.25

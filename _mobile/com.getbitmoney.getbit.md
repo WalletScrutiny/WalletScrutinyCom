@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.getbitmoney.getbit
   users: 1000
+  appCountry: us
   released: 2023-01-16
   updated: 2026-05-25
   version: 2.00.53

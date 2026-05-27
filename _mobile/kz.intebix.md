@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: kz.intebix
   users: 1000
+  appCountry: us
   released: 2023-01-09
   updated: 2026-04-26
   version: 2.2.0
@@ -24,8 +25,8 @@ iphone:
   idd: '6443622769'
   appCountry: kz
   released: 2023-01-11
-  updated: 2026-05-14
-  version: 0.8.1
+  updated: 2026-05-23
+  version: 0.8.2
   reviews: 13
   icon: com.idea-soft.intebix.jpg
   meta: ok

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.stackatm.app
   users: 500
+  appCountry: us
   released: 2024-08-12
   updated: 2026-04-24
   version: 1.12.1

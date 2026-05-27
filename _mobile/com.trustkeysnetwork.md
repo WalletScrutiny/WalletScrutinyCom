@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.trustkeysnetwork
   users: 10000
+  appCountry: us
   released: 2019-03-02
   updated: 2024-10-22
   version: 2.4.3

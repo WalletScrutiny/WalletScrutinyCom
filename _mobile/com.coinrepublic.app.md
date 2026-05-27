@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.coinrepublic.app
   users: 10000
+  appCountry: us
   released: 2020-12-02
   updated: 2026-03-10
   version: 4.1.2
@@ -27,7 +28,7 @@ iphone:
   version: 4.1.2
   reviews: 6
   icon: com.coinrepublic.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: COIN REPUBLIC PTY LTD
 

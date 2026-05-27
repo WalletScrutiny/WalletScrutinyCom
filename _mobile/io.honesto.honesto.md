@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: io.honesto.honesto
   users: 10000
+  appCountry: us
   updated: 2025-10-23
   version: 2.0.79
   icon: io.honesto.honesto.png

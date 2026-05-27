@@ -31,6 +31,7 @@ android:
 iphone:
   appId: com.pointpayio.PointPayBank
   idd: 1512836089
+  appCountry: us
   released: 2020-07-30
   updated: 2026-05-19
   version: 8.8.84

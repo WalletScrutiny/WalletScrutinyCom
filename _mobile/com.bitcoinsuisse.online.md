@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.bitcoinsuisse.online
   users: 5000
+  appCountry: pl
   released: 2021-09-21
   updated: 2026-02-02
   version: 3.0.3
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.bitcoinsuisse.online
   idd: '1555493299'
+  appCountry: pl
   released: 2021-09-21
   updated: 2026-05-18
   version: 3.2.0

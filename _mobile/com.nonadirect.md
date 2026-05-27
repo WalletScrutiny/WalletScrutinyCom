@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.nonadirect
   users: 10
+  appCountry: us
   released: 2022-05-12
   updated: 2022-05-20
   version: '2.0'

@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.bitdenex
   users: 1000
+  appCountry: us
   updated: 2026-02-12
   version: 3.2.23
   icon: com.bitdenex.png
@@ -23,8 +24,8 @@ iphone:
   idd: '1640819532'
   appCountry: in
   released: 2022-09-21
-  updated: 2026-02-16
-  version: 3.2.21
+  updated: 2026-05-27
+  version: 3.2.22
   reviews: 2
   icon: com.bitdenex.app.jpg
   meta: ok

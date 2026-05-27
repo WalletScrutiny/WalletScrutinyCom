@@ -28,10 +28,11 @@ android:
 iphone:
   appId: org.voisine.breadwallet
   idd: 885251393
+  appCountry: us
   released: 2014-06-22
   updated: 2022-03-23
   version: 4.18.0
-  reviews: 12182
+  reviews: 12181
   icon: org.voisine.breadwallet.jpg
   meta: obsolete
   verdict: nosource

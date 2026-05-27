@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.tradestation.MobileTrading
   users: 500000
+  appCountry: us
   released: 2013-09-09
   updated: 2026-05-12
   version: 9.5.0
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.tradestation.MobileTrading
   idd: 581548081
+  appCountry: us
   released: 2012-12-10
   updated: 2026-05-20
   version: 9.5.1
-  reviews: 18355
+  reviews: 18354
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

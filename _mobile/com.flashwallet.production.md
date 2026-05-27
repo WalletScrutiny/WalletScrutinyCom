@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.flashwallet.production
   users: 50000
+  appCountry: us
   released: 2023-10-23
   updated: 2026-01-29
   version: '32.0'
@@ -32,7 +33,7 @@ iphone:
   version: '29'
   reviews: 5
   icon: flashwallet.org.production.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Flash Technologies LLC FZ
 

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: io.ts.converter
   users: 500000
+  appCountry: us
   released: 2023-02-26
   updated: 2025-12-16
   version: 3.12.13

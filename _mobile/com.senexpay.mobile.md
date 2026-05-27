@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.senexpay.mobile
   users: 1000
+  appCountry: us
   released: 2022-08-16
   updated: 2026-05-13
   version: 1.8.7

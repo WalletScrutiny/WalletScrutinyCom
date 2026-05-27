@@ -28,8 +28,8 @@ iphone:
   idd: 1055288395
   appCountry: fr
   released: 2016-01-18
-  updated: 2026-04-16
-  version: 8.27.1
+  updated: 2026-05-26
+  version: 8.28.0
   reviews: 34
   icon: com.paymium.mobile.jpg
   meta: ok

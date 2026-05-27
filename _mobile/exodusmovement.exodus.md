@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: exodusmovement.exodus
   users: 5000000
+  appCountry: us
   released: 2019-06-06
   updated: 2026-05-25
   version: 26.5.13
-  reviews: 8629
+  reviews: 8630
   icon: exodusmovement.exodus.png
   meta: ok
   verdict: nosource
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: exodus-movement.exodus
   idd: 1414384820
+  appCountry: us
   released: 2019-03-23
   updated: 2026-05-13
   version: 26.5.13
-  reviews: 35658
+  reviews: 35754
   icon: exodus-movement.exodus.jpg
   meta: ok
   verdict: nosource

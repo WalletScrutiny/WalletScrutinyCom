@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.flx.cryptokeeper
   users: 10000
+  appCountry: us
   released: 2025-06-02
   updated: 2025-08-30
   version: 3.0.0
@@ -27,7 +28,7 @@ iphone:
   released: 2025-07-22
   updated: 2026-02-21
   version: 6.0.0
-  reviews: 29
+  reviews: 31
   icon: com.flx.cryptokeeper.jpg
   meta: ok
   verdict: wip

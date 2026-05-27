@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.leather.mobilewallet
   users: 1000
+  appCountry: us
   released: 2025-03-25
   updated: 2026-05-05
   version: 2.105.0

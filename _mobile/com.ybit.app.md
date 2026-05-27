@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.ybit.app
   users: 1000
+  appCountry: us
   released: 2025-06-16
   updated: 2026-05-02
   version: 1.0.10

@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.bitcoinrd.BitcoinRD
   users: 5000
+  appCountry: us
   released: 2023-03-13
   updated: 2026-02-04
   version: 0.18.4

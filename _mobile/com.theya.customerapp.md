@@ -14,10 +14,11 @@ redirect_from:
 iphone:
   appId: com.theya.customerapp
   idd: '1669665032'
+  appCountry: us
   released: 2023-10-02
   updated: 2025-03-16
   version: '1.46'
-  reviews: 33
+  reviews: 34
   icon: com.theya.customerapp.jpg
   meta: stale
   verdict: wip

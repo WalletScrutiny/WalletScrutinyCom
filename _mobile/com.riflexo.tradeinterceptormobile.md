@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.riflexo.tradeinterceptormobile
   users: 1000000
+  appCountry: us
   released: 2010-08-02
   updated: 2026-05-17
   version: 7.0.6.0
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.riflexo.TradeInterceptor
   idd: 329476057
+  appCountry: us
   released: 2009-09-23
-  updated: 2026-05-18
-  version: 9.8.0
-  reviews: 773
+  updated: 2026-05-22
+  version: 9.8.1
+  reviews: 774
   icon: com.riflexo.TradeInterceptor.jpg
   meta: ok
   verdict: nosendreceive

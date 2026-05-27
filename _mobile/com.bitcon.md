@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bitcon
   users: 100
+  appCountry: us
   released: 2026-01-22
   updated: 2026-04-06
   version: 3.2.0

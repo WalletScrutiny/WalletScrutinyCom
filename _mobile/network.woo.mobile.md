@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: network.woo.mobile
   users: 100000
+  appCountry: us
   released: 2021-12-17
   updated: 2025-12-08
   version: 3.65.1
@@ -28,8 +29,8 @@ iphone:
   idd: '1576648404'
   appCountry: ph
   released: 2021-09-17
-  updated: 2026-03-31
-  version: 3.66.0
+  updated: 2026-05-22
+  version: 3.66.1
   reviews: 7
   icon: network.woo.mobile.jpg
   meta: ok

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.moonstake.wallet
   users: 10000
+  appCountry: us
   released: 2020-03-24
   updated: 2026-02-26
   version: 2.36.9
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: io.moonstake.wallet
   idd: 1502532651
+  appCountry: us
   released: 2020-03-25
   updated: 2026-02-27
   version: 2.36.9

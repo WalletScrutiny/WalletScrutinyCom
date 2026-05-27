@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.pro.changelly
   users: 10000
+  appCountry: us
   released: 2020-07-03
   updated: 2025-01-15
   version: 3.3.3

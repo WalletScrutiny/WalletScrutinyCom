@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.prod.aspen
   users: 1000
+  appCountry: us
   released: 2022-06-28
   updated: 2025-09-22
   version: 2.1.20

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.ultorexapp.io
   users: 1000
+  appCountry: us
   released: 2022-07-01
   updated: 2026-04-24
   version: 1.1.20

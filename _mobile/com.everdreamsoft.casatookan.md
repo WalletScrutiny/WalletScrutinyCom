@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.everdreamsoft.casatookan
   users: 10000
+  appCountry: us
   released: 2018-09-19
   updated: 2025-08-26
   version: 1.2.4

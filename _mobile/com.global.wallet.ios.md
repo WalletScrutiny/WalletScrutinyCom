@@ -8,10 +8,11 @@ redirect_from:
 iphone:
   appId: com.global.wallet.ios
   idd: '6444625622'
+  appCountry: us
   released: 2023-01-04
   updated: 2026-05-12
   version: 2.23.1
-  reviews: 705
+  reviews: 707
   icon: com.global.wallet.ios.jpg
   meta: ok
   verdict: wip

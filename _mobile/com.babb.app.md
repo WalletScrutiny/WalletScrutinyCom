@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.babb.app
   users: 50000
+  appCountry: us
   released: 2020-02-27
   updated: 2026-04-09
   version: 2.6.2

@@ -26,6 +26,7 @@ redirect_from:
 android:
   appId: com.bitpay.wallet
   users: 1000000
+  appCountry: us
   released: 2016-10-01
   updated: 2026-05-12
   version: 14.42.1
@@ -37,10 +38,11 @@ android:
 iphone:
   appId: com.bitpay.wallet
   idd: 1149581638
+  appCountry: us
   released: 2016-10-24
   updated: 2026-05-12
   version: 14.42.1
-  reviews: 3520
+  reviews: 3534
   icon: com.bitpay.wallet.jpg
   meta: ok
   verdict: wip

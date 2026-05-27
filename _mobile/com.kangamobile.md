@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.kangamobile
   users: 50000
+  appCountry: us
   released: 2020-01-03
   updated: 2026-05-06
   version: 1.29.2

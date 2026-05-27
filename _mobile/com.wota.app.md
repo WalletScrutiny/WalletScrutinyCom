@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.wota.app
   users: 500
+  appCountry: us
   released: 2021-01-11
   updated: 2025-08-31
   version: 1.5.0

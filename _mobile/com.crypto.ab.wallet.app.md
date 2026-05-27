@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.crypto.ab.wallet.app
   users: 100000
+  appCountry: us
   released: 2023-09-27
   updated: 2026-02-17
   version: 1.20.0
@@ -31,7 +32,7 @@ iphone:
   released: 2023-12-05
   updated: 2026-03-22
   version: 1.20.0
-  reviews: 202
+  reviews: 204
   icon: com.ab.crypto.wallet.app.jpg
   meta: ok
   verdict: nosource

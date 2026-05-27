@@ -27,6 +27,7 @@ redirect_from:
 android:
   appId: io.horizontalsystems.bankwallet
   users: 100000
+  appCountry: us
   released: 2018-12-18
   updated: 2026-04-21
   version: 0.48.2
@@ -41,10 +42,11 @@ android:
 iphone:
   appId: io.horizontalsystems.bank-wallet
   idd: 1447619907
+  appCountry: us
   released: 2019-01-10
   updated: 2026-04-20
   version: 0.48.1
-  reviews: 1305
+  reviews: 1308
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
   verdict: sourceavailable

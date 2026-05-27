@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.webull.pay.us
   users: 100000
+  appCountry: us
   released: 2023-05-26
   updated: 2026-05-06
   version: 2.2.0.29
@@ -30,7 +31,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-04-29
   version: 2.2.2
-  reviews: 25810
+  reviews: 25827
   icon: com.webull.pay.us.jpg
   meta: ok
   verdict: custodial

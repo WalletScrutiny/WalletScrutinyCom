@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: team.noones.mobilemessenger
   users: 100000
+  appCountry: us
   released: 2023-05-04
   updated: 2026-04-08
   version: 1.26.0
-  reviews: 156
+  reviews: 158
   icon: team.noones.mobilemessenger.png
   meta: ok
   verdict: custodial

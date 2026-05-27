@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.forex4you.android
   users: 100000
+  appCountry: th
   released: 2015-10-06
   updated: 2026-04-10
   version: 6.22.0
@@ -25,10 +26,11 @@ android:
 iphone:
   appId: com.forex4you.ios
   idd: 1008039704
+  appCountry: th
   released: 2015-10-11
   updated: 2026-03-27
   version: 6.22.0
-  reviews: 989
+  reviews: 990
   icon: com.forex4you.ios.jpg
   meta: ok
   verdict: nosendreceive

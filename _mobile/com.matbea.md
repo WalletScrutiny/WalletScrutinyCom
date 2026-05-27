@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.matbea
   users: 10000
+  appCountry: us
   updated: 2026-02-16
   version: 1.7.9
   icon: com.matbea.png

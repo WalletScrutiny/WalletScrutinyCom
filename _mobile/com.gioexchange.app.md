@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.gioexchange.app
   users: 500
+  appCountry: us
   released: 2020-05-07
   updated: 2024-07-16
   version: 1.0.0

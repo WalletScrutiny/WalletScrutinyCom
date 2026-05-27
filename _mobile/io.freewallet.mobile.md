@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: io.freewallet.mobile
   users: 10000
+  appCountry: us
   released: 2016-09-01
   updated: 2019-03-17
   version: 0.1.9
@@ -32,6 +33,7 @@ android:
 iphone:
   appId: io.freewallet.mobile
   idd: 1151168579
+  appCountry: us
   released: 2016-11-05
   updated: 2019-03-18
   version: 1.0.9

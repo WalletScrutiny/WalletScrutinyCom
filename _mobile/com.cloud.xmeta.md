@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.cloud.xmeta
   users: 10000
+  appCountry: us
   released: 2022-02-14
   updated: 2022-12-19
   version: 2.1.0

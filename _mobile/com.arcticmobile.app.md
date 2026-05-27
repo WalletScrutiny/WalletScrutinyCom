@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.arcticmobile.app
   users: 10000
+  appCountry: us
   released: 2022-12-15
   updated: 2024-07-17
   version: '1.35'

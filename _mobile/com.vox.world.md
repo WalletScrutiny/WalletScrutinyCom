@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.vox.world
   users: 10000
+  appCountry: us
   released: 2025-07-09
   updated: 2026-05-15
   version: 1.5.4

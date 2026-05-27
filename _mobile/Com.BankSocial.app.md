@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: Com.BankSocial.app
   idd: '1586052784'
+  appCountry: us
   released: 2021-10-26
   updated: 2026-02-09
   version: 2.31.0

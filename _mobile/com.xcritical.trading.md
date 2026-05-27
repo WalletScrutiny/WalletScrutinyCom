@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.xcritical.trading
   users: 100000
+  appCountry: us
   updated: 2023-02-02
   version: 2.23.7
   icon: com.xcritical.trading.png

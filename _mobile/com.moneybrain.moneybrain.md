@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.moneybrain.moneybrain
   users: 1000
+  appCountry: gb
   released: 2019-10-17
   updated: 2026-05-23
   version: 3.16.2-retail
@@ -27,9 +28,10 @@ android:
 iphone:
   appId: com.moneybrain.moneybrain
   idd: 1476827262
+  appCountry: gb
   released: 2019-10-15
-  updated: 2026-04-18
-  version: 3.15.2
+  updated: 2026-05-25
+  version: 3.16.2
   reviews: 10
   icon: com.moneybrain.moneybrain.jpg
   meta: ok

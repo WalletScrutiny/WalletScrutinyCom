@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.mexo.app
   users: 50000
+  appCountry: us
   released: 2020-08-30
   updated: 2026-04-06
   version: 3.7.15
@@ -32,7 +33,7 @@ iphone:
   version: 3.7.13
   reviews: 135
   icon: com.kmoh.mexo.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: TruBit Ltd.
 

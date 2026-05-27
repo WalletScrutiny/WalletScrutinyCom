@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.dex.digitalexchangeid
   users: 100000
+  appCountry: us
   released: 2024-09-04
   updated: 2026-05-08
   version: 1.3.36

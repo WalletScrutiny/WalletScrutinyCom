@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: co.za.altcointrader
   users: 100000
+  appCountry: us
   released: 2020-05-06
   updated: 2025-05-13
   version: 1.3.0

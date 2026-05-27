@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: org.electrum.electrum
   users: 1000000
+  appCountry: us
   released: 2016-03-02
   updated: 2026-04-09
   version: 4.7.2

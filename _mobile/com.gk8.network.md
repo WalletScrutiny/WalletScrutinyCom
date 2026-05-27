@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.gk8.network
   users: 500
+  appCountry: us
   released: 2021-09-01
   updated: 2026-05-10
   version: 19.0.0

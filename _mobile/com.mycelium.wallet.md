@@ -1,6 +1,7 @@
 ---
 wsId: mycelium
 title: Mycelium Bitcoin Wallet
+bitcoinOrgId: mycelium
 date: 2025-03-07
 authors:
 - leo
@@ -31,6 +32,7 @@ redirect_from:
 android:
   appId: com.mycelium.wallet
   users: 1000000
+  appCountry: us
   released: 2013-07-01
   updated: 2026-05-15
   version: 3.21.0.0
@@ -43,6 +45,7 @@ android:
 iphone:
   appId: com.mycelium.wallet-ios
   idd: 943912290
+  appCountry: us
   released: 2014-12-17
   updated: 2026-03-27
   version: '2.7'

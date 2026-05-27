@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.tomato.coinworld
   users: 100
+  appCountry: us
   released: 2019-09-19
   updated: 2022-05-04
   version: '3.2'

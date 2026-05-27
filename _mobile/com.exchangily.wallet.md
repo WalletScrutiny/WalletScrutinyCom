@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.exchangily.wallet
   users: 1000
+  appCountry: us
   released: 2020-02-05
   updated: 2023-07-20
   version: 2.2.106

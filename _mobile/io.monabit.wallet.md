@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.monabit.wallet
   users: 50000
+  appCountry: us
   released: 2021-12-17
   updated: 2026-05-13
   version: 4.5.3

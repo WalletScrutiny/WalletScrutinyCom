@@ -8,10 +8,11 @@ redirect_from:
 iphone:
   appId: com.bitxwalet.production
   idd: '6752948564'
+  appCountry: us
   released: 2025-09-29
   updated: 2026-01-15
   version: '1.1'
-  reviews: 63
+  reviews: 64
   icon: com.bitxwalet.production.jpg
   meta: ok
   verdict: wip

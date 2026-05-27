@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.strade.app
   users: 10000
+  appCountry: us
   updated: 2023-09-14
   version: 1.0.0
   icon: com.strade.app.png

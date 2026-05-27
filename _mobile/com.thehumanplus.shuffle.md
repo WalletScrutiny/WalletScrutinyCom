@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.thehumanplus.shuffle
   users: 10000
+  appCountry: us
   released: 2020-04-06
   updated: 2025-11-06
   version: 2.0.3

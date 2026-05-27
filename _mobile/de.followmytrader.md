@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: de.followmytrader
   users: 10000
+  appCountry: us
   released: 2020-03-09
   updated: 2025-08-27
   version: 3.6.0

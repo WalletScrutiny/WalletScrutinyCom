@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: app.simple.com
   users: 1000000
+  appCountry: us
   released: 2023-04-24
   updated: 2026-05-22
   version: 3.27.2

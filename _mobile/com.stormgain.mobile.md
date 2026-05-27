@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.stormgain.mobile
   users: 5000000
+  appCountry: de
   released: 2019-07-08
   updated: 2024-08-07
   version: 1.52.1

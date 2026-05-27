@@ -7,10 +7,11 @@ redirect_from:
 iphone:
   appId: mobile.mexcglobal.www
   idd: '1605393003'
+  appCountry: us
   released: 2022-02-09
-  updated: 2026-05-20
-  version: 6.57.1
-  reviews: 7806
+  updated: 2026-05-26
+  version: 6.58.0
+  reviews: 7840
   icon: mobile.mexcglobal.www.jpg
   meta: ok
   verdict: wip

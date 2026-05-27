@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.coinmena.coinmenaapp
   users: 500000
+  appCountry: us
   released: 2021-08-07
   updated: 2026-05-19
   version: 3.6.0
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.coinmena.coinmenaapp
   idd: 1573112964
+  appCountry: us
   released: 2021-09-26
-  updated: 2026-03-08
-  version: 3.5.0
-  reviews: 14
+  updated: 2026-05-24
+  version: 3.6.0
+  reviews: 16
   icon: com.coinmena.coinmenaapp.jpg
   meta: ok
   verdict: custodial

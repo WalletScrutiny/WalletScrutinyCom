@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.payperless.wallet
   users: 50000
+  appCountry: us
   released: 2021-06-03
   updated: 2026-05-22
   version: 1.34.2

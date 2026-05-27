@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.crypto.croytowallet
   users: 1000
+  appCountry: us
   released: 2021-02-16
   updated: 2025-10-10
   version: 13.2.10

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.garantibbvadigitalassets.crypto
   users: 500000
+  appCountry: us
   released: 2023-12-11
   updated: 2026-04-22
   version: 1.15.0
@@ -28,7 +29,7 @@ iphone:
   released: 2012-04-28
   updated: 2026-05-12
   version: '18.8'
-  reviews: 13840
+  reviews: 13910
   icon: com.garanti.cepsube.jpg
   meta: ok
   verdict: custodial

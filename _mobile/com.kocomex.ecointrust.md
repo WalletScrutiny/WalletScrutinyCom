@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.kocomex.ecointrust
   users: 10
+  appCountry: us
   released: 2019-06-10
   updated: 2020-06-19
   version: '2.0'

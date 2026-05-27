@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.ewetechnology.wallet.remixdao
   users: 500
+  appCountry: us
   updated: 2025-11-26
   version: 1.2.0
   icon: com.ewetechnology.wallet.remixdao.png

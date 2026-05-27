@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: net.primal.android
   users: 50000
+  appCountry: us
   released: 2024-07-09
   updated: 2026-05-07
   version: 3.5.9
@@ -28,7 +29,7 @@ iphone:
   released: 2023-12-01
   updated: 2026-05-09
   version: 3.0.61
-  reviews: 899
+  reviews: 902
   icon: net.primal.iosapp.Primal.jpg
   meta: ok
   verdict: custodial

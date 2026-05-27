@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: jp.co.monex.ms.mt_crypto
   users: 10000
+  appCountry: us
   released: 2020-07-07
   updated: 2025-11-27
   version: 1.0.12

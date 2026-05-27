@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.cloud.thailand
   users: 1000000
+  appCountry: us
   released: 2023-10-31
   updated: 2026-05-25
   version: 1.55.0
@@ -26,7 +27,7 @@ iphone:
   released: 2023-11-21
   updated: 2026-05-21
   version: 1.56.0
-  reviews: 15605
+  reviews: 15706
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
   verdict: custodial

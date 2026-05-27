@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.bankofhodlers.mobile
   users: 1000000
+  appCountry: us
   released: 2020-04-30
   updated: 2026-04-17
   version: 3.0.5

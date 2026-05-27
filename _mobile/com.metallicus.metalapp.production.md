@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.metallicus.metalapp.production
   users: 100000
+  appCountry: us
   released: 2020-01-14
   updated: 2026-05-13
   version: 3.1.205
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.metallicus.metalpay
   idd: 1345101178
+  appCountry: us
   released: 2018-09-14
   updated: 2026-05-13
   version: 3.1.205
-  reviews: 4313
+  reviews: 4314
   icon: com.metallicus.metalpay.jpg
   meta: ok
   verdict: custodial

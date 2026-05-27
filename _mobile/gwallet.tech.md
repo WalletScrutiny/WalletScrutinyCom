@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: gwallet.tech
   users: 10000
+  appCountry: be
   released: 2021-02-16
   updated: 2023-03-07
   version: 1.2.6

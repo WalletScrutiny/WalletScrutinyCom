@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: app.coinplug
   users: 1000
+  appCountry: us
   released: 2021-10-19
   updated: 2025-07-07
   version: 2.1.1

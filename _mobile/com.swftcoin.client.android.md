@@ -30,8 +30,8 @@ iphone:
   idd: '1435569339'
   appCountry: jp
   released: 2018-09-28
-  updated: 2026-01-14
-  version: 6.9.2
+  updated: 2026-05-26
+  version: 6.10.2
   reviews: 23
   icon: com.SwftBlockChain.client.jpg
   meta: ok

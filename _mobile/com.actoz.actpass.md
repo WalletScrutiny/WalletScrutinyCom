@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.actoz.actpass
   users: 10000
+  appCountry: us
   released: 2022-11-29
   updated: 2025-10-15
   version: 2.2.2

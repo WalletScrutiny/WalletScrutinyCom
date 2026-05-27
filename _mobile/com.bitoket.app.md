@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bitoket.app
   users: 100
+  appCountry: us
   released: 2021-10-10
   updated: 2026-03-31
   version: 1.9.0

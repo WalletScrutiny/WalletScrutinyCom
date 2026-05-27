@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.namicorp.exchange
   users: 100000
+  appCountry: us
   released: 2019-11-06
   updated: 2026-03-17
   version: 3.0.3

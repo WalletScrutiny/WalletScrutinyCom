@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.mudrexmobile
   users: 1000000
+  appCountry: us
   updated: 2026-05-23
   version: '13.14'
   reviews: 4
@@ -30,9 +31,9 @@ iphone:
   idd: '1609440707'
   appCountry: in
   released: 2022-03-12
-  updated: 2026-05-20
-  version: '8.95'
-  reviews: 5351
+  updated: 2026-05-26
+  version: '8.96'
+  reviews: 5366
   icon: com.mudrex.ios.jpg
   meta: ok
   verdict: custodial

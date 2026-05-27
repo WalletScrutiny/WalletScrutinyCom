@@ -33,7 +33,7 @@ iphone:
   version: 5.0.9
   reviews: 2
   icon: com.trastra.mobile.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Trastra Limited
 

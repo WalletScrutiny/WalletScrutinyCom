@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.coinhouse
   users: 100000
+  appCountry: us
   released: 2025-01-13
   updated: 2026-05-21
   version: 5.5.0

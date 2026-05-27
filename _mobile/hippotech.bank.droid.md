@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: hippotech.bank.droid
   users: 50000
+  appCountry: us
   updated: 2025-11-01
   version: '3.75'
   icon: hippotech.bank.droid.png

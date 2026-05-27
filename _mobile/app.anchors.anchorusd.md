@@ -24,6 +24,7 @@ android:
 iphone:
   appId: app.anchors.anchorusd
   idd: '1495986023'
+  appCountry: us
   released: 2020-01-30
   updated: 2026-04-19
   version: 1.23.0

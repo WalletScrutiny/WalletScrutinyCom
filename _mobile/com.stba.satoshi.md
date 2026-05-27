@@ -13,7 +13,7 @@ iphone:
   version: 1.0.16
   reviews: 38
   icon: com.stba.satoshi.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: Satoshi
 

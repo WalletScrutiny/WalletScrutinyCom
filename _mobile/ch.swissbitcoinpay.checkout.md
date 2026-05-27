@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: ch.swissbitcoinpay.checkout
   users: 1000
+  appCountry: us
   released: 2022-11-15
   updated: 2025-10-29
   version: 2.6.5

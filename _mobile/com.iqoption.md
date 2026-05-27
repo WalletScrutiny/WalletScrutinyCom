@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.iqoption
   users: 100000000
+  appCountry: us
   updated: 2026-04-14
   version: 8.66.1
   reviews: 542

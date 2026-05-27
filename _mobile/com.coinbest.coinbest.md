@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.coinbest.coinbest
   users: 1000
+  appCountry: us
   released: 2021-05-17
   updated: 2026-01-30
   version: 4.2.2

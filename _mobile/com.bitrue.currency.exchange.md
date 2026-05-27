@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitrue.currency.exchange
   users: 1000000
+  appCountry: us
   released: 2018-07-18
   updated: 2026-01-17
   version: 6.1.22
@@ -26,6 +27,7 @@ android:
 iphone:
   appId: com.cmcm.currency.exchange
   idd: 1435877386
+  appCountry: us
   released: 2018-09-16
   updated: 2026-05-19
   version: 6.1.29

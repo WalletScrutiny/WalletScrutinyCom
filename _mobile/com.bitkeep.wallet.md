@@ -17,9 +17,10 @@ redirect_from:
 android:
   appId: com.bitkeep.wallet
   users: 10000000
+  appCountry: us
   released: 2020-02-11
   updated: 2026-05-20
-  version: 9.45.0
+  version: 9.47.0
   reviews: 3826
   icon: com.bitkeep.wallet.png
   meta: ok
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.bitkeep.os
   idd: 1395301115
+  appCountry: us
   released: 2018-09-26
-  updated: 2026-05-14
-  version: 9.46.0
-  reviews: 5474
+  updated: 2026-05-21
+  version: 9.47.0
+  reviews: 5485
   icon: com.bitkeep.os.jpg
   meta: ok
   verdict: nosource

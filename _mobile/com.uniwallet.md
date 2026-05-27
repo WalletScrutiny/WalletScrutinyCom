@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.uniwallet
   users: 10000
+  appCountry: us
   released: 2025-01-05
   updated: 2025-09-18
   version: 1.1.0

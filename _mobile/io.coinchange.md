@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.coinchange
   users: 50000
+  appCountry: us
   released: 2021-10-31
   updated: 2023-11-29
   version: 2.1.0

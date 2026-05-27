@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: ua.rubicon.crypto.wallet
   users: 1000
+  appCountry: us
   released: 2023-05-11
   updated: 2025-12-29
   version: 1.5.4

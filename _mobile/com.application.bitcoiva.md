@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.application.bitcoiva
   users: 100000
+  appCountry: us
   released: 2020-11-02
   updated: 2026-05-15
   version: 1.65.2

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.btcc.BTCCReactNative
   users: 500000
+  appCountry: us
   released: 2022-11-17
   updated: 2026-04-14
   version: 3.5.41

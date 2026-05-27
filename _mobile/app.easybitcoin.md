@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: app.easybitcoin
   users: 10000
+  appCountry: us
   released: 2025-09-01
   updated: 2026-04-10
   version: 1.2.2

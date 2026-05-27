@@ -26,6 +26,7 @@ android:
 iphone:
   appId: zamzam.wallet.app
   idd: 1436344249
+  appCountry: ru
   released: 2018-10-17
   updated: 2024-12-10
   version: 3.3.8

@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.companyname.swaptobe
   users: 100000
+  appCountry: us
   released: 2021-10-14
   updated: 2026-03-18
   version: '6.0'

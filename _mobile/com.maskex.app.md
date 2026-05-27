@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.maskex.app
   users: 10000
+  appCountry: us
   released: 2021-10-20
   updated: 2025-02-15
   version: 4.1.8
@@ -35,7 +36,7 @@ iphone:
   version: 2.0.8
   reviews: 8
   icon: com.maskexnnew.app.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Mask Global Market Co., Ltd
 

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.funex.pro
   users: 500
+  appCountry: us
   released: 2022-10-13
   updated: 2024-08-31
   version: 1.0.1

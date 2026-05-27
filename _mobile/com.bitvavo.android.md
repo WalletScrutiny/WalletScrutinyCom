@@ -25,9 +25,9 @@ iphone:
   idd: 1483903423
   appCountry: be
   released: 2020-05-28
-  updated: 2026-05-18
-  version: 2.108.0
-  reviews: 8500
+  updated: 2026-05-26
+  version: 2.109.0
+  reviews: 8502
   icon: com.bitvavo.jpg
   meta: ok
   verdict: custodial

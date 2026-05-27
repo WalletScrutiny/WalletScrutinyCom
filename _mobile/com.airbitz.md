@@ -27,6 +27,7 @@ android:
 iphone:
   appId: co.airbitz.airbitz
   idd: '843536046'
+  appCountry: us
   released: 2014-03-28
   updated: 2018-09-21
   version: 2.4.12

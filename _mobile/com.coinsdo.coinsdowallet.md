@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: com.coinsdo.coinsdowallet
   idd: '6479635869'
+  appCountry: us
   released: 2024-04-16
   updated: 2026-05-11
   version: 2.0.27

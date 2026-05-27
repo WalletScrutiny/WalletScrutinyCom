@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.coinpaprika.coins
   users: 100000
+  appCountry: us
   released: 2020-06-15
   updated: 2025-08-19
   version: 1.17.18
@@ -32,6 +33,7 @@ android:
 iphone:
   appId: com.coinpaprika.Coins
   idd: 1475233621
+  appCountry: us
   released: 2019-12-03
   updated: 2025-04-10
   version: 2.8.19

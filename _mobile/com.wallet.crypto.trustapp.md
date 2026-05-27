@@ -20,10 +20,11 @@ redirect_from:
 android:
   appId: com.wallet.crypto.trustapp
   users: 50000000
+  appCountry: us
   released: 2017-10-01
   updated: 2026-05-24
-  version: 26.21.5
-  reviews: 21148
+  version: 26.21.6
+  reviews: 21154
   icon: com.wallet.crypto.trustapp.png
   meta: ok
   verdict: nosource
@@ -31,10 +32,11 @@ android:
 iphone:
   appId: com.sixdays.trust
   idd: 1288339409
+  appCountry: us
   released: 2017-09-27
-  updated: 2026-05-20
-  version: 26.21.1
-  reviews: 197132
+  updated: 2026-05-24
+  version: 26.21.6
+  reviews: 197277
   icon: com.sixdays.trust.jpg
   meta: ok
   verdict: nosource

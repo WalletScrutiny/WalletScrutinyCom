@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: io.hexn.mobile
   users: 100000
+  appCountry: us
   released: 2022-12-12
   updated: 2025-02-20
   version: 1.2.6

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.avatrade.mobile
   users: 1000000
+  appCountry: us
   released: 2017-05-23
   updated: 2026-04-29
   version: '168.7'

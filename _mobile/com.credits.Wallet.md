@@ -18,9 +18,10 @@ redirect_from:
 android:
   appId: com.credits.Wallet
   users: 10000
+  appCountry: us
   released: 2020-10-26
-  updated: 2026-05-05
-  version: 10.5.0
+  updated: 2026-05-20
+  version: 10.6.0
   reviews: 6
   icon: com.credits.Wallet.png
   meta: ok
@@ -31,11 +32,11 @@ iphone:
   idd: '1502902555'
   appCountry: ch
   released: 2020-07-21
-  updated: 2025-04-18
-  version: 3.4.1
+  updated: 2026-05-27
+  version: 3.4.3
   reviews: 0
   icon: com.credits.CryptoWallet.jpg
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 

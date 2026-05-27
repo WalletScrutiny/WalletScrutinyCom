@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.sticpay.app.sticpay
   users: 100000
+  appCountry: us
   released: 2017-08-31
   updated: 2026-03-23
   version: '4.47'
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.sticpay.app
   idd: 1274956968
+  appCountry: us
   released: 2017-09-05
   updated: 2026-03-31
   version: '4.02'

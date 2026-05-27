@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.deblock.deblockapp
   users: 500000
+  appCountry: us
   updated: 2026-05-21
   version: 5.13.0
   reviews: 10
@@ -26,9 +27,9 @@ iphone:
   idd: '6479202981'
   appCountry: fr
   released: 2024-04-02
-  updated: 2026-05-15
-  version: 5.13.0
-  reviews: 19489
+  updated: 2026-05-27
+  version: 5.14.0
+  reviews: 19789
   icon: com.deblock.deblockapp.production.jpg
   meta: ok
   verdict: custodial

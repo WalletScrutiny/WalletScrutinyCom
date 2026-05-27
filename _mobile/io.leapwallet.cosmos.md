@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: io.leapwallet.cosmos
   users: 100000
+  appCountry: us
   released: 2023-02-14
   updated: 2026-03-27
   version: 0.77.0
@@ -29,7 +30,7 @@ iphone:
   released: 2022-11-02
   updated: 2026-04-01
   version: 0.77.0
-  reviews: 1133
+  reviews: 1136
   icon: com.LeapCosmosWallet.jpg
   meta: ok
   verdict: nosource

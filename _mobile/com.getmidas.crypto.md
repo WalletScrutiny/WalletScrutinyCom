@@ -12,8 +12,9 @@ redirect_from:
 android:
   appId: com.getmidas.crypto
   users: 500000
+  appCountry: us
   released: 2024-12-01
-  updated: 2026-05-23
+  updated: 2026-05-25
   version: 2.98.1
   reviews: 3
   icon: com.getmidas.crypto.png
@@ -25,9 +26,9 @@ iphone:
   idd: '6505027440'
   appCountry: tr
   released: 2024-08-13
-  updated: 2026-05-14
-  version: 2.97.0
-  reviews: 2947
+  updated: 2026-05-23
+  version: 2.98.0
+  reviews: 2946
   icon: com.midas.crypto.jpg
   meta: ok
   verdict: custodial

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.phonegap.bit2me
   users: 500000
+  appCountry: us
   released: 2015-01-08
   updated: 2026-05-18
   version: 3.66.0
@@ -32,7 +33,7 @@ iphone:
   released: 2019-06-04
   updated: 2026-05-18
   version: 3.66.0
-  reviews: 3777
+  reviews: 3779
   icon: com.bit2me.flutter-ios.jpg
   meta: ok
   verdict: custodial

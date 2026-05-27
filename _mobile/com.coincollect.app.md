@@ -22,6 +22,7 @@ android:
 iphone:
   appId: cc.coincollect.app
   idd: '1473471322'
+  appCountry: us
   released: 2019-11-05
   updated: 2020-01-13
   version: 1.7.6

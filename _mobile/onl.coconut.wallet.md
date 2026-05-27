@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: onl.coconut.wallet
   idd: '6745778545'
+  appCountry: us
   released: 2025-07-22
   updated: 2026-05-03
   version: 0.12.1

@@ -8,10 +8,11 @@ redirect_from:
 iphone:
   appId: jp.coincheck.ios
   idd: 957130004
+  appCountry: jp
   released: 2015-01-21
-  updated: 2026-04-22
-  version: 4.20.0
-  reviews: 109324
+  updated: 2026-05-27
+  version: 4.20.1
+  reviews: 109353
   icon: jp.coincheck.ios.jpg
   meta: ok
   verdict: wip

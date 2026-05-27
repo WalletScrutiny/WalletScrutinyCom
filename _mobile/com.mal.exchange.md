@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.mal.exchange
   users: 100000
+  appCountry: us
   released: 2021-11-11
   updated: 2025-12-22
   version: 1.0.57

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.casperwealth.bitsave
   users: 10000
+  appCountry: us
   released: 2024-04-01
   updated: 2026-05-21
   version: 1.29.1

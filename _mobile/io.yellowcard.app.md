@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: io.yellowcard.app
   users: 1000000
+  appCountry: za
   released: 2019-05-14
   updated: 2025-11-06
   version: 6.5.19

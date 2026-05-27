@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.bitda.wallet
   users: 50
+  appCountry: us
   updated: 2026-03-25
   version: 1.1.0
   icon: com.bitda.wallet.png

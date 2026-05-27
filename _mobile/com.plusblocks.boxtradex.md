@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.plusblocks.boxtradex
   users: 50000
+  appCountry: us
   released: 2021-05-04
   updated: 2024-10-30
   version: 2.0.1

@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.ownrwallet.wallet
   users: 100000
+  appCountry: us
   released: 2019-05-20
   updated: 2023-09-20
   version: 1.72.0

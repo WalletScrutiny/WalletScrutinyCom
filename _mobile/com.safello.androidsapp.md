@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.safello.androidsapp
   users: 50000
+  appCountry: us
   updated: 2026-04-22
   version: 1.62.1
   icon: com.safello.androidsapp.png

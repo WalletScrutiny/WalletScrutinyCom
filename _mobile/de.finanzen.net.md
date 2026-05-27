@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: de.finanzen.net
   users: 1000000
+  appCountry: us
   released: 2012-03-26
   updated: 2026-05-07
   version: 5.9.1

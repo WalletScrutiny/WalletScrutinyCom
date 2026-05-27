@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.cheezeebit.exchange
   users: 100000
+  appCountry: us
   updated: 2026-05-14
   version: 1.3.5
   icon: com.cheezeebit.exchange.png

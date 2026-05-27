@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.application.koinpark
   users: 100000
+  appCountry: us
   released: 2023-02-04
   updated: 2026-05-14
   version: '1.75'

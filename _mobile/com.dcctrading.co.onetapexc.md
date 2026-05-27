@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.dcctrading.co.onetapexc
   users: 50
+  appCountry: us
   released: 2023-04-10
   updated: 2025-05-12
   version: '3.1'

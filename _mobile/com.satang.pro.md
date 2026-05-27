@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.satang.pro
   users: 500000
+  appCountry: us
   released: 2020-04-12
   updated: 2026-04-30
   version: 2.19.2

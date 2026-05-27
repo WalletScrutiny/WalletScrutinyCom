@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.ivan.fgwallet
   users: 10000
+  appCountry: us
   released: 2017-12-28
   updated: 2026-05-06
   version: 5.0.6

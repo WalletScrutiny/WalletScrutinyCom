@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.dok.wallet
   users: 5000
+  appCountry: il
   released: 2020-09-28
   updated: 2026-05-25
   version: '3.17'
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.dok.wallet
   idd: 1533065700
+  appCountry: il
   released: 2020-10-08
   updated: 2026-04-30
   version: '2.36'

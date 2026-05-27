@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.holdings.choice
   users: 5000
+  appCountry: us
   released: 2022-04-04
   updated: 2025-09-22
   version: 2.25.0

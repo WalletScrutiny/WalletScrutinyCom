@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.crypto.multiwallet
   users: 500000
+  appCountry: us
   released: 2018-11-01
   updated: 2026-05-13
   version: 3.1.11
@@ -31,9 +32,10 @@ android:
 iphone:
   appId: com.crypto.multiwallet
   idd: 1442083982
+  appCountry: us
   released: 2018-12-01
-  updated: 2026-04-29
-  version: 3.1.9
+  updated: 2026-05-21
+  version: 3.1.11
   reviews: 941
   icon: com.crypto.multiwallet.jpg
   meta: ok

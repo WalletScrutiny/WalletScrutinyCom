@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.relai
   users: 100000
+  appCountry: us
   updated: 2026-05-18
   version: 3.14.1
   icon: com.relai.png
@@ -30,7 +31,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-05-18
   version: 3.14.1
-  reviews: 3309
+  reviews: 3325
   icon: ch.relai.relai.jpg
   meta: ok
   verdict: nosource

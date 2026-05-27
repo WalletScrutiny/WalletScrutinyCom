@@ -9,6 +9,7 @@ redirect_from:
 iphone:
   appId: com.excdev.bitcoinox
   idd: 1453542836
+  appCountry: us
   released: 2019-02-27
   updated: 2024-06-26
   version: 2.8.8

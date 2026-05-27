@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.application.koinbazar
   users: 500000
+  appCountry: in
   released: 2021-05-17
   updated: 2026-04-10
   version: 3.1.5
@@ -29,6 +30,7 @@ android:
 iphone:
   appId: com.app.koinbazar
   idd: '1567360326'
+  appCountry: in
   released: 2021-06-02
   updated: 2026-04-29
   version: 4.2.2

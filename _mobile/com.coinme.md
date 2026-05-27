@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.coinme
   users: 100000
+  appCountry: us
   released: 2021-05-06
   updated: 2026-05-11
   version: 3.3.0
@@ -33,7 +34,7 @@ iphone:
   released: 2021-05-11
   updated: 2026-05-13
   version: 3.3.0
-  reviews: 6214
+  reviews: 6236
   icon: com.coinme.CoinMe.jpg
   meta: ok
   verdict: custodial

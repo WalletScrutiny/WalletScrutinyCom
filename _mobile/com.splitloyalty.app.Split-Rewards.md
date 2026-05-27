@@ -10,9 +10,10 @@ redirect_from:
 iphone:
   appId: com.splitloyalty.app.Split-Rewards
   idd: '6740720801'
+  appCountry: us
   released: 2025-01-22
-  updated: 2026-05-18
-  version: 4.3.1
+  updated: 2026-05-27
+  version: 4.4.0
   reviews: 2
   icon: com.splitloyalty.app.Split-Rewards.jpg
   meta: ok

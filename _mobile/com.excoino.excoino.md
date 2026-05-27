@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.excoino.excoino
   users: 1000000
+  appCountry: us
   released: 2018-09-27
   updated: 2026-01-05
   version: 9.70.0

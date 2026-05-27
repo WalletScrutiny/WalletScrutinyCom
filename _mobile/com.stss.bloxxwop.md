@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.stss.bloxxwop
   users: 10
+  appCountry: us
   released: 2021-05-10
   updated: 2025-07-07
   version: '1.1'

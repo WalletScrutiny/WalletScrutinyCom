@@ -17,9 +17,10 @@ redirect_from:
 android:
   appId: com.syfe
   users: 100000
+  appCountry: us
   released: 2020-02-13
   updated: 2026-05-22
-  version: 16.1.0
+  version: 16.2.0
   reviews: 4
   icon: com.syfe.jpg
   meta: ok
@@ -30,9 +31,9 @@ iphone:
   idd: '1497156434'
   appCountry: sg
   released: 2020-02-24
-  updated: 2026-05-11
-  version: 16.1.0
-  reviews: 581
+  updated: 2026-05-25
+  version: 16.2.0
+  reviews: 585
   icon: com.syfe.jpg
   meta: ok
   verdict: nosendreceive

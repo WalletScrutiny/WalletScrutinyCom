@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: com.gateio.gateio
   users: 10000000
+  appCountry: id
   released: 2017-11-03
   updated: 2026-05-21
   version: 8.20.1
-  reviews: 7148
+  reviews: 7151
   icon: com.gateio.gateio.png
   meta: ok
   verdict: custodial
@@ -32,7 +33,7 @@ iphone:
   version: 8.18.5
   reviews: 1424
   icon: com.gateio.app.gateio-app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: GATE GLOBAL UAB
 

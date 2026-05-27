@@ -30,6 +30,7 @@ redirect_from:
 android:
   appId: it.airgap.vault
   users: 10000
+  appCountry: us
   released: 2018-08-06
   updated: 2026-03-24
   version: 3.34.4
@@ -42,6 +43,7 @@ android:
 iphone:
   appId: it.airgap.vault
   idd: 1417126841
+  appCountry: us
   released: 2018-08-24
   updated: 2026-03-26
   version: 3.34.4

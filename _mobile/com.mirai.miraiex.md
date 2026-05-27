@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.mirai.miraiex
   users: 100000
+  appCountry: us
   updated: 2026-05-05
   version: 3.7.1
   icon: com.mirai.miraiex.png
@@ -29,7 +30,7 @@ iphone:
   released: 2021-01-09
   updated: 2026-05-05
   version: 3.7.1
-  reviews: 10249
+  reviews: 10250
   icon: com.mirai.miraiex.jpg
   meta: ok
   verdict: custodial

@@ -34,7 +34,7 @@ iphone:
   version: 3.3.0
   reviews: 18
   icon: neutronpay.wallet.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Neutronpay Inc.
 

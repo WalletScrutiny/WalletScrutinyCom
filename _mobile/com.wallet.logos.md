@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.wallet.logos
   users: 10000
+  appCountry: us
   released: 2020-09-16
   updated: 2026-05-15
   version: 0.4.4

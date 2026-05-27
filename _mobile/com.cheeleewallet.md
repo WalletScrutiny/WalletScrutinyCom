@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.cheeleewallet
   users: 100000
+  appCountry: us
   released: 2023-11-02
   updated: 2023-11-02
   version: 1.2.1

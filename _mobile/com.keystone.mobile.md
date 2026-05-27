@@ -25,6 +25,7 @@ android:
 iphone:
   appId: keystone.mobile
   idd: 1567857965
+  appCountry: us
   released: 2021-06-03
   updated: 2024-07-22
   version: 1.4.0

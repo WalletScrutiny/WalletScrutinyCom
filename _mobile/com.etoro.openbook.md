@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.etoro.openbook
   users: 10000000
+  appCountry: us
   released: 2013-11-05
   updated: 2026-05-24
   version: 651.1272.1
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: com.etoro.openbook
   idd: 674984916
+  appCountry: us
   released: 2017-06-26
-  updated: 2026-05-20
-  version: v651.1273.1
-  reviews: 9616
+  updated: 2026-05-25
+  version: v651.1274.0
+  reviews: 9637
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

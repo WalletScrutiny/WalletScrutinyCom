@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.tnp.fortvax
   users: 100
+  appCountry: us
   released: 2022-04-19
   updated: 2026-04-24
   version: 1.3.5

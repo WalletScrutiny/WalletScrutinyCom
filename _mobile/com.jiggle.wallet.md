@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.jiggle.wallet
   users: 50000
+  appCountry: us
   released: 2023-05-19
   updated: 2025-04-11
   version: 0.2.44

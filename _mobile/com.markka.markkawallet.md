@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.markka.markkawallet
   users: 10
+  appCountry: us
   released: 2022-02-06
   updated: 2025-02-07
   version: 2.5.1

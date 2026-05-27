@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.fasset.cashapp
   users: 1000000
+  appCountry: us
   released: 2021-12-14
   updated: 2026-05-26
   version: '6.8'
@@ -30,9 +31,9 @@ iphone:
   idd: '1599893605'
   appCountry: us
   released: 2021-12-14
-  updated: 2026-05-19
-  version: '4.10'
-  reviews: 37
+  updated: 2026-05-26
+  version: '4.11'
+  reviews: 39
   icon: com.fasset.cashapp.jpg
   meta: ok
   verdict: custodial

@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.c3-soft.ElectronCash
   idd: '1359700089'
+  appCountry: us
   released: 2018-07-30
   updated: 2021-11-25
   version: 4.2.5

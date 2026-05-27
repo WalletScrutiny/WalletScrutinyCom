@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: app.mybitstore.com
   users: 10000
+  appCountry: us
   released: 2021-08-12
   updated: 2025-06-05
   version: 7.0.9

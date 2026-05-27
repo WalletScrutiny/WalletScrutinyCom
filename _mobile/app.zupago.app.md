@@ -23,6 +23,7 @@ android:
 iphone:
   appId: app.zupago.zp
   idd: '1565673730'
+  appCountry: us
   released: 2021-05-10
   updated: 2024-11-26
   version: 1.0.70

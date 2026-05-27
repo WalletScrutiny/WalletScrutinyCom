@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.trustvault.wallet
   users: 100
+  appCountry: us
   released: 2025-12-08
   updated: 2026-02-02
   version: 1.0.0

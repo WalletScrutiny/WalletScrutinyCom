@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: nl.bitonic.androidApp
   users: 50000
+  appCountry: us
   updated: 2026-05-21
   version: 3.25.0
   icon: nl.bitonic.androidApp.jpg
@@ -26,9 +27,9 @@ iphone:
   idd: '1503179166'
   appCountry: nl
   released: 2020-05-17
-  updated: 2026-04-28
-  version: 3.23.1
-  reviews: 2573
+  updated: 2026-05-22
+  version: 3.25.0
+  reviews: 2574
   icon: nl.bitonic.Bitonic.jpg
   meta: ok
   verdict: custodial

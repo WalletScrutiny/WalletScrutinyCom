@@ -19,10 +19,11 @@ redirect_from:
 android:
   appId: pro.huobi
   users: 10000000
+  appCountry: us
   released: 2017-11-01
   updated: 2026-05-22
   version: 11.20.1
-  reviews: 553
+  reviews: 545
   icon: pro.huobi.png
   meta: ok
   verdict: custodial
@@ -32,8 +33,8 @@ iphone:
   idd: 1023263342
   appCountry: us
   released: 2015-08-19
-  updated: 2026-05-14
-  version: 11.20.0
+  updated: 2026-05-25
+  version: 11.20.1
   reviews: 1427
   icon: com.huobi.appStoreHuobiSystem.jpg
   meta: ok

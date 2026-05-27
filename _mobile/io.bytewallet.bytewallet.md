@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: io.bytewallet.bytewallet
   users: 10000
+  appCountry: us
   released: 2021-07-20
   updated: 2025-10-02
   version: VARY

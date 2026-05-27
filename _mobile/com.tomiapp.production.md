@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.tomiapp.production
   users: 50000
+  appCountry: us
   released: 2022-09-08
   updated: 2026-02-06
   version: '267.0'

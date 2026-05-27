@@ -34,7 +34,7 @@ iphone:
   version: '4.5'
   reviews: 25
   icon: com.ldvtech.tokero.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Globe Monnaie SRL
 

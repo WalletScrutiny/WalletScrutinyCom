@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.bitbns
   users: 500000
+  appCountry: us
   released: 2019-09-21
   updated: 2026-04-06
   version: 6.21.0

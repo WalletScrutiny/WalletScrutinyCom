@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.foxwallet.play
   users: 100000
+  appCountry: us
   released: 2021-12-05
   updated: 2026-05-26
   version: 5.5.23
-  reviews: 451
+  reviews: 450
   icon: com.foxwallet.play.png
   meta: ok
   verdict: nosource

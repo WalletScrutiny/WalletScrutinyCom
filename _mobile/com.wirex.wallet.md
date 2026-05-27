@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.wirex.wallet
   users: 500000
+  appCountry: nz
   released: 2021-12-03
   updated: 2026-05-21
   version: 3.2.0
@@ -30,9 +31,10 @@ android:
 iphone:
   appId: com.wirex.wallet
   idd: 1594165139
+  appCountry: nz
   released: 2021-12-07
-  updated: 2026-04-30
-  version: 3.1.1
+  updated: 2026-05-22
+  version: 3.2.0
   reviews: 10
   icon: com.wirex.wallet.jpg
   meta: ok

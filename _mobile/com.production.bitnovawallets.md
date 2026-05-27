@@ -7,10 +7,11 @@ redirect_from:
 iphone:
   appId: com.production.bitnovawallets
   idd: '6752937887'
+  appCountry: us
   released: 2025-09-26
   updated: 2026-02-04
   version: '1.5'
-  reviews: 42
+  reviews: 43
   icon: com.production.bitnovawallets.jpg
   meta: ok
   verdict: wip

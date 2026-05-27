@@ -30,7 +30,7 @@ iphone:
   version: 4.0.0
   reviews: 602
   icon: com.taotao-ex.TaotaoTrade.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: SBI VC TRADE CO., LTD.
 

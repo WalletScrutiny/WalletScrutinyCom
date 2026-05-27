@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.yuse.wallet
   users: 10000
+  appCountry: us
   released: 2023-05-19
   updated: 2025-07-02
   version: 80.0.0

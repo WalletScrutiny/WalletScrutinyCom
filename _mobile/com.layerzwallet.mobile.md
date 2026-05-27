@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.layerzwallet.mobile
   users: 100
+  appCountry: us
   released: 2025-12-19
   updated: 2026-04-20
   version: 1.5.4

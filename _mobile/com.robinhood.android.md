@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: com.robinhood.android
   users: 10000000
+  appCountry: us
   released: 2015-08-12
   updated: 2026-05-24
-  version: 2026.20.3
-  reviews: 265927
+  version: 2026.21.3
+  reviews: 265994
   icon: com.robinhood.android.png
   meta: ok
   verdict: nosendreceive
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.robinhood.release.Robinhood
   idd: 938003185
+  appCountry: us
   released: 2014-12-11
-  updated: 2026-05-18
-  version: 2026.20.0
-  reviews: 4744656
+  updated: 2026-05-26
+  version: 2026.21.0
+  reviews: 4747979
   icon: com.robinhood.release.Robinhood.jpg
   meta: ok
   verdict: nosendreceive

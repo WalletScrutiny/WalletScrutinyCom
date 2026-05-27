@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.xtb.xmobile2
   users: 10000000
+  appCountry: us
   released: 2014-12-17
   updated: 2026-05-25
   version: 2.170.1

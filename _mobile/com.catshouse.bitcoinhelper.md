@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.catshouse.bitcoinhelper
   users: 100
+  appCountry: us
   released: 2024-06-14
   updated: 2024-06-22
   version: '1.0'

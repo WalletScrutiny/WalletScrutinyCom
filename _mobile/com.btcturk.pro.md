@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.btcturk.pro
   users: 5000000
+  appCountry: us
   released: 2020-09-10
   updated: 2026-05-15
   version: 2.43.0

@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.cexchange.app
   users: 1000
+  appCountry: us
   released: 2021-02-21
   updated: 2024-11-19
   version: 13.0.2

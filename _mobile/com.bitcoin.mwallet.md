@@ -26,10 +26,11 @@ redirect_from:
 android:
   appId: com.bitcoin.mwallet
   users: 10000000
+  appCountry: us
   released: 2017-06-19
   updated: 2026-05-20
   version: 9.22.1
-  reviews: 4130
+  reviews: 4132
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource
@@ -37,10 +38,11 @@ android:
 iphone:
   appId: com.bitcoin.mwallet
   idd: '1252903728'
+  appCountry: us
   released: 2017-07-11
-  updated: 2026-05-13
-  version: 9.21.0
-  reviews: 43510
+  updated: 2026-05-21
+  version: 9.22.0
+  reviews: 43602
   icon: com.bitcoin.mwallet.jpg
   meta: ok
   verdict: nosource

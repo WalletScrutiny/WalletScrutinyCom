@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.secuxtech.merchanttool
   users: 100
+  appCountry: us
   released: 2020-05-22
   updated: 2023-12-19
   version: 2.2.1

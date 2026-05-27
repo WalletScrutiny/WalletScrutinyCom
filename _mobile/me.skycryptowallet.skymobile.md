@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: me.skycryptowallet.skymobile
   users: 500
+  appCountry: us
   updated: 2026-01-27
   version: 1.54.0
   icon: me.skycryptowallet.skymobile.png

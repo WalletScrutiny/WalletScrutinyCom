@@ -16,8 +16,9 @@ redirect_from:
 android:
   appId: com.kubi.kucoin
   users: 10000000
+  appCountry: us
   released: 2018-05-03
-  updated: 2026-05-21
+  updated: 2026-05-26
   version: 4.27.0
   reviews: 5032
   icon: com.kubi.kucoin.jpg

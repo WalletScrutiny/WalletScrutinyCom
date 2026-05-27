@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: cz.anycoin.mobile
   users: 10000
+  appCountry: us
   released: 2022-05-07
   updated: 2026-03-18
   version: 1.32.30

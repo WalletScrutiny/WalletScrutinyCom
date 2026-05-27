@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.tatspace
   users: 10000
+  appCountry: us
   released: 2022-02-13
   updated: 2024-09-09
   version: 1.4.9

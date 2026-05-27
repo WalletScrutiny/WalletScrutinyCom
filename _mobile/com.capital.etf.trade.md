@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.capital.etf.trade
   users: 5000000
+  appCountry: us
   updated: 2026-05-25
   version: 3.34.2
   reviews: 7

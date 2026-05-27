@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.udmitz.cryptoit
   users: 100
+  appCountry: us
   released: 2021-06-13
   updated: 2021-06-13
   version: 1.1.1

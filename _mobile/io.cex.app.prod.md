@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: io.cex.app.prod
   users: 5000000
+  appCountry: us
   released: 2015-12-22
   updated: 2026-05-21
   version: 12.43.0
@@ -31,10 +32,11 @@ android:
 iphone:
   appId: io.cex.app
   idd: 1047225016
+  appCountry: us
   released: 2015-12-22
   updated: 2026-05-14
   version: 12.44.0
-  reviews: 12925
+  reviews: 12926
   icon: io.cex.app.jpg
   meta: ok
   verdict: custodial

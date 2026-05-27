@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: cloud.antalpha.app
   users: 100
+  appCountry: us
   released: 2023-02-21
   updated: 2026-02-04
   version: 3.14.0

@@ -27,9 +27,10 @@ android:
 iphone:
   appId: com.genesisblock.GenesisBlock
   idd: 1495538730
+  appCountry: us
   released: 2020-05-09
-  updated: 2026-04-14
-  version: 0.5.1
+  updated: 2026-05-23
+  version: 0.5.3
   reviews: 56
   icon: com.genesisblock.GenesisBlock.jpg
   meta: ok

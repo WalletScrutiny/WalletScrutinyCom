@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.exchange.Ciexv2
   users: 10000
+  appCountry: us
   released: 2022-07-20
   updated: 2025-09-09
   version: 6.5.4

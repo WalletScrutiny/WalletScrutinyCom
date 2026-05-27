@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.ogpay
   users: 10000
+  appCountry: us
   released: 2019-07-31
   updated: 2026-05-25
   version: VARY
@@ -23,6 +24,7 @@ android:
 iphone:
   appId: com.unifiedsignal.ogpaywallet
   idd: 1471960731
+  appCountry: us
   released: 2019-08-03
   updated: 2026-05-15
   version: '15.5'

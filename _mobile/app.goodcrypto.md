@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: app.goodcrypto
   users: 100000
+  appCountry: us
   released: 2019-05-20
   updated: 2026-05-14
   version: 2.5.0

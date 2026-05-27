@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.profittrading.forkucoin
   users: 50000
+  appCountry: us
   released: 2020-12-27
   updated: 2026-03-25
   version: 8.1.1

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.zbx.app
   users: 10000
+  appCountry: us
   released: 2019-10-18
   updated: 2026-03-27
   version: 2.5.28

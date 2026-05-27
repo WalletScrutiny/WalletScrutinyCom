@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: io.bitpin.app
   users: 500000
+  appCountry: us
   released: 2021-09-01
   updated: 2025-06-09
   version: 1.3.0

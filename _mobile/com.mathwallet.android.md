@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.mathwallet.android
   users: 100000
+  appCountry: us
   released: 2021-10-26
   updated: 2026-04-17
   version: 5.7.8

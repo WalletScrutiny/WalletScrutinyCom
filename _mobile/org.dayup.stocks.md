@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: org.dayup.stocks
   users: 10000000
+  appCountry: us
   updated: 2026-05-09
-  version: 12.0.6.63
-  reviews: 41491
+  version: 12.1.0.67
+  reviews: 41493
   icon: org.dayup.stocks.png
   meta: ok
   verdict: nosendreceive
@@ -25,10 +26,11 @@ android:
 iphone:
   appId: com.webull.trade
   idd: 1179213067
+  appCountry: us
   released: 2017-01-18
   updated: 2026-05-17
   version: 12.1.1
-  reviews: 334609
+  reviews: 334891
   icon: com.webull.trade.jpg
   meta: ok
   verdict: nosendreceive

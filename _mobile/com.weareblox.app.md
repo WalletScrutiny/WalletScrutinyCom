@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.weareblox.app
   users: 100000
+  appCountry: us
   updated: 2026-05-22
   version: 6.8.2
   icon: com.weareblox.app.png
@@ -31,7 +32,7 @@ iphone:
   released: 2019-01-16
   updated: 2026-04-21
   version: 6.8.2
-  reviews: 5624
+  reviews: 5625
   icon: com.weareblox.app.jpg
   meta: ok
   verdict: nosendreceive

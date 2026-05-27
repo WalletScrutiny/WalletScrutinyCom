@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.oslmobile.global
   users: 10000
+  appCountry: us
   released: 2025-05-08
   updated: 2026-05-15
   version: 1.10.14

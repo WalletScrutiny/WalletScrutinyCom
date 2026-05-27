@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: net.benoitbasset.hitapi
   users: 10000
+  appCountry: us
   released: 2018-02-07
   updated: 2019-05-07
   version: 1.3.0

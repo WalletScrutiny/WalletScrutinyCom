@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.scallopxledger
   users: 10000
+  appCountry: us
   released: 2021-11-28
   updated: 2026-02-06
   version: 1.9.8

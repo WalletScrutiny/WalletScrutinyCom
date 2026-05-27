@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.cointopay.pos
   users: 100
+  appCountry: us
   released: 2018-10-10
   updated: 2023-03-09
   version: 1.3.0

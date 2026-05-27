@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: exchange.gleec.com
   users: 1000
+  appCountry: us
   released: 2021-02-17
   updated: 2026-02-17
   version: 1.41.0

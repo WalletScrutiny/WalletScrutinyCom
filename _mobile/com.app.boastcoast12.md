@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.app.boastcoast12
   users: 1000
+  appCountry: us
   released: 2022-05-31
   updated: 2022-05-31
   version: '1.0'

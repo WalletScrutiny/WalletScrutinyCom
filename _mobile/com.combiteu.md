@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.combiteu
   users: 50000
+  appCountry: us
   released: 2024-07-10
   updated: 2026-04-28
   version: 200.5.5

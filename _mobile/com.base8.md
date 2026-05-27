@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.base8
   users: 100
+  appCountry: us
   released: 2023-12-29
   updated: 2026-03-22
   version: 2.1.1

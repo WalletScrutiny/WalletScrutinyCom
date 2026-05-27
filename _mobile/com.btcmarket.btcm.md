@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.btcmarket.btcm
   users: 10000
+  appCountry: us
   released: 2022-03-17
   updated: 2026-04-28
   version: 1.13.0
@@ -35,7 +36,7 @@ iphone:
   released: 2022-03-19
   updated: 2026-05-06
   version: 1.13.1
-  reviews: 248
+  reviews: 251
   icon: com.btcmarkets.btcm.jpg
   meta: ok
   verdict: custodial

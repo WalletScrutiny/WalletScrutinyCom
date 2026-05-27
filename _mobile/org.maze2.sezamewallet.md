@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: org.maze2.sezamewallet
   users: 500
+  appCountry: us
   released: 2022-03-31
   updated: 2026-02-12
   version: 0.16.6

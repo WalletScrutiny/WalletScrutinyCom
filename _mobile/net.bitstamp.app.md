@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: net.bitstamp.app
   users: 500000
+  appCountry: us
   released: 2019-01-29
   updated: 2026-04-21
   version: '4.16'
@@ -30,10 +31,11 @@ android:
 iphone:
   appId: net.bitstamp
   idd: 1406825640
+  appCountry: us
   released: 2019-01-30
   updated: 2026-05-20
   version: 4.16.6
-  reviews: 7440
+  reviews: 7441
   icon: net.bitstamp.jpg
   meta: ok
   verdict: custodial

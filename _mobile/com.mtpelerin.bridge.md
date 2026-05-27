@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: com.mtpelerin.bridge
   users: 100000
+  appCountry: us
   released: 2020-04-07
   updated: 2026-05-17
   version: '1.67'
@@ -35,6 +36,7 @@ android:
 iphone:
   appId: com.mtpelerin.bridge
   idd: 1481859680
+  appCountry: us
   released: 2020-04-08
   updated: 2026-05-18
   version: '1.67'

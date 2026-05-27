@@ -12,9 +12,10 @@ redirect_from:
 android:
   appId: jp.coincheck.android
   users: 1000000
+  appCountry: us
   released: 2015-04-23
-  updated: 2026-04-20
-  version: 4.20.0
+  updated: 2026-05-22
+  version: 4.20.1
   reviews: 13
   icon: jp.coincheck.android.png
   meta: ok

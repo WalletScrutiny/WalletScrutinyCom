@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.coincorner.checkout
   users: 500
+  appCountry: us
   released: 2022-09-29
   updated: 2025-09-15
   version: 2.7.0

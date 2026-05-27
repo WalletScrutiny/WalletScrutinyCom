@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: rsv.walletapp.reserve
   users: 1000000
+  appCountry: us
   released: 2019-07-30
   updated: 2026-04-22
   version: 3.1.9

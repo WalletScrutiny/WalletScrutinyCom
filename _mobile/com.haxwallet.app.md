@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.haxwallet.app
   users: 5000
+  appCountry: us
   released: 2023-05-23
   updated: 2025-12-14
   version: 3.5.2

@@ -14,8 +14,9 @@ redirect_from:
 android:
   appId: io.biscoint.lite
   users: 100000
+  appCountry: us
   released: 2022-04-05
-  updated: 2026-05-20
+  updated: 2026-05-26
   version: 2.9.13
   reviews: 6
   icon: io.biscoint.lite.png
@@ -27,9 +28,9 @@ iphone:
   idd: '1588152503'
   appCountry: br
   released: 2022-02-09
-  updated: 2026-05-11
-  version: 2.9.13
-  reviews: 8786
+  updated: 2026-05-26
+  version: 2.9.15
+  reviews: 8799
   icon: io.biscoint.lite.jpg
   meta: ok
   verdict: nosendreceive

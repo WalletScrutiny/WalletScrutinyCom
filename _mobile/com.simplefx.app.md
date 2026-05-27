@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.simplefx.app
   users: 100000
+  appCountry: us
   released: 2017-12-18
   updated: 2026-05-26
   version: 3.0.92

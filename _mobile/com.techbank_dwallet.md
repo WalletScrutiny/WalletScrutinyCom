@@ -23,6 +23,7 @@ android:
 iphone:
   appId: com.techbank.dwallettb
   idd: 1535437806
+  appCountry: in
   released: 2020-10-15
   updated: 2025-12-14
   version: 1.0.87

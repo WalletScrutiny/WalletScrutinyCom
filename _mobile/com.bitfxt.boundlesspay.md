@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitfxt.boundlesspay
   users: 10000
+  appCountry: us
   released: 2021-09-19
   updated: 2026-03-02
   version: 2.5.6

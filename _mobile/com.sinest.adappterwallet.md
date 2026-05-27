@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.sinest.adappterwallet
   users: 500
+  appCountry: us
   released: 2022-06-21
   updated: 2026-02-19
   version: 1.0.5

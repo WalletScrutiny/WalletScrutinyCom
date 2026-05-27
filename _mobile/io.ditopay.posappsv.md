@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.ditopay.posappsv
   users: 1000
+  appCountry: us
   released: 2021-10-03
   updated: 2024-03-07
   version: '1.31'

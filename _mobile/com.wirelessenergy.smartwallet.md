@@ -15,13 +15,14 @@ redirect_from:
 android:
   appId: com.wirelessenergy.smartwallet
   users: 500
+  appCountry: us
   released: 2021-09-24
   updated: 2026-05-16
   version: 2.17.0
   icon: com.wirelessenergy.smartwallet.png
   meta: fewusers
   verdict: nosource
-  developerName: Smart Wallet Token
+  developerName: Smart Wallet Token Ltd
 iphone:
   appId: com.wirelessenergy.smartwallet
   idd: '6751100799'

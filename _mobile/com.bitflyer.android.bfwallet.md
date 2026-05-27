@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.bitflyer.android.bfwallet
   users: 1000000
+  appCountry: jp
   released: 2019-10-19
   updated: 2026-04-08
   version: 8.66.0
@@ -26,10 +27,11 @@ android:
 iphone:
   appId: jp.bitflyer.wallet
   idd: 1164758997
+  appCountry: jp
   released: 2016-11-18
   updated: 2026-05-11
   version: 7.66.0
-  reviews: 132821
+  reviews: 132868
   icon: jp.bitflyer.wallet.jpg
   meta: ok
   verdict: custodial

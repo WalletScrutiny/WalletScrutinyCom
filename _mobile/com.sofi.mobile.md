@@ -12,10 +12,11 @@ redirect_from:
 android:
   appId: com.sofi.mobile
   users: 5000000
+  appCountry: us
   released: 2017-04-10
   updated: 2026-05-22
   version: 3.96.0
-  reviews: 20955
+  reviews: 20960
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive
@@ -25,9 +26,9 @@ iphone:
   idd: '1191985736'
   appCountry: us
   released: 2017-04-10
-  updated: 2026-05-18
-  version: 3.96.0
-  reviews: 385560
+  updated: 2026-05-22
+  version: 3.97.0
+  reviews: 385562
   icon: com.sofi.mobile.jpg
   meta: ok
   verdict: nosendreceive

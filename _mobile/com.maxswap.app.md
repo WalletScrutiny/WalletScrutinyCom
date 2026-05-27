@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.maxswap.app
   users: 1000
+  appCountry: us
   released: 2024-06-19
   updated: 2025-07-22
   version: 1.0.0

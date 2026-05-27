@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.plunien.poloniex
   users: 1000000
+  appCountry: us
   released: 2017-06-19
   updated: 2026-05-20
   version: 2.37.0

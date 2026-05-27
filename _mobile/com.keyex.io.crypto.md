@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.keyex.io.crypto
   users: 100
+  appCountry: us
   released: 2023-02-15
   updated: 2025-08-13
   version: 1.1.39

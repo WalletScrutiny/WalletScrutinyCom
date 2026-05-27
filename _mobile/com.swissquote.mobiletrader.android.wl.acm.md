@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.swissquote.mobiletrader.android.wl.acm
   users: 10000
+  appCountry: us
   released: 2012-11-01
   updated: 2026-02-06
   version: 3.13.0

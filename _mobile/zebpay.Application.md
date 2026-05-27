@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: zebpay.Application
   users: 5000000
+  appCountry: us
   released: 2014-12-23
   updated: 2026-05-07
   version: 3.81.3

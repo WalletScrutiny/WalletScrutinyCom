@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.btc.trustless
   idd: 6756965117
+  appCountry: it
   released: 2026-02-03
   updated: 2026-05-20
   version: 2.0.1

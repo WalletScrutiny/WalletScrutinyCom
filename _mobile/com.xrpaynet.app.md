@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.xrpaynet.app
   users: 10000
+  appCountry: us
   released: 2022-07-05
   updated: 2025-12-16
   version: 5.0.5.prod

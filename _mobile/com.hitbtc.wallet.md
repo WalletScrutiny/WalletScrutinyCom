@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.hitbtc.wallet
   users: 10000
+  appCountry: au
   released: 2021-08-31
   updated: 2026-05-09
   version: 1.43.0
@@ -26,6 +27,7 @@ android:
 iphone:
   appId: com.hitbtc.wallet
   idd: 1580572986
+  appCountry: au
   released: 2021-09-01
   updated: 2022-12-20
   version: 1.3.8

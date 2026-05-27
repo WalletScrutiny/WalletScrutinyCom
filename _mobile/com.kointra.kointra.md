@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.kointra.kointra
   users: 5000
+  appCountry: us
   released: 2019-01-25
   updated: 2026-04-09
   version: 3.5.8

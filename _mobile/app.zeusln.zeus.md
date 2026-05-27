@@ -35,6 +35,7 @@ redirect_from:
 android:
   appId: app.zeusln.zeus
   users: 10000
+  appCountry: us
   released: 2020-07-07
   updated: 2026-05-19
   version: 13.0.2
@@ -47,6 +48,7 @@ android:
 iphone:
   appId: com.zeusln.zeus
   idd: 1456038895
+  appCountry: us
   released: 2021-04-22
   updated: 2026-05-21
   version: v13.0.2

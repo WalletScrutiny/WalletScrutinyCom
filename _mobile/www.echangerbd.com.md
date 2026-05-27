@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: www.echangerbd.com
   users: 10000
+  appCountry: us
   released: 2020-03-21
   updated: 2020-04-23
   version: '2.0'

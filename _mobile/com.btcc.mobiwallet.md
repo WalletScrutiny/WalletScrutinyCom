@@ -25,6 +25,7 @@ android:
 iphone:
   appId: me.mobi.app
   idd: 1180017272
+  appCountry: au
   released: 2016-12-31
   updated: 2023-05-02
   version: 2.36.3

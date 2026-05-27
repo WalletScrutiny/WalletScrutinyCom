@@ -22,6 +22,7 @@ android:
 iphone:
   appId: com.thecirclewalletapp
   idd: 1545999230
+  appCountry: us
   released: 2021-01-05
   updated: 2021-12-11
   version: '2.1'

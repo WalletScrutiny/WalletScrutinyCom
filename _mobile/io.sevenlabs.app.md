@@ -29,7 +29,7 @@ iphone:
   version: 2.0.0
   reviews: 3
   icon: io.sevenlabs.app.jpg
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Seven Labs Limited
 

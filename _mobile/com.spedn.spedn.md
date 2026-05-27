@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.spedn.spedn
   users: 10000
+  appCountry: us
   released: 2021-05-26
   updated: 2026-02-26
   version: 25.0.0
@@ -31,7 +32,7 @@ iphone:
   version: 23.11.1
   reviews: 108
   icon: com.spedn.spedn.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosendreceive
   developerName: Flexa Inc.
 

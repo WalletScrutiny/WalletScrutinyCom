@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: co.electriccoin.secant-mainnet
   idd: '1672392439'
+  appCountry: us
   released: 2024-03-28
   updated: 2026-05-21
   version: 3.4.1

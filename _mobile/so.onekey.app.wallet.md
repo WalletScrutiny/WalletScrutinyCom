@@ -25,6 +25,7 @@ redirect_from:
 android:
   appId: so.onekey.app.wallet
   users: 100000
+  appCountry: us
   released: 2022-04-27
   updated: 2026-05-19
   version: 6.3.0
@@ -40,7 +41,7 @@ iphone:
   released: 2022-04-27
   updated: 2026-05-20
   version: 6.3.0
-  reviews: 680
+  reviews: 682
   icon: so.onekey.wallet.jpg
   meta: ok
   verdict: sourceavailable

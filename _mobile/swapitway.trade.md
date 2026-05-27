@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: swapitway.trade
   users: 10000
+  appCountry: us
   released: 2021-11-01
   updated: 2025-06-17
   version: '5'

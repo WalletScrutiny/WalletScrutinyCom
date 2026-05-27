@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.SatoshiTango.SatoshiTango
   users: 100000
+  appCountry: us
   released: 2015-06-24
   updated: 2026-01-28
   version: 5.11.0

@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: ltd.chainxglobal.wallet
   users: 100
+  appCountry: us
   released: 2025-09-10
   updated: 2026-05-11
   version: 1.0.97

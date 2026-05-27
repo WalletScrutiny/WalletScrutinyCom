@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.virtuabroker.ui
   users: 1000
+  appCountry: us
   released: 2021-09-14
   updated: 2022-02-24
   version: 1.0.3

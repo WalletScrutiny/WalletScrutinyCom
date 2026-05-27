@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: net.benoitbasset.bittapi
   users: 1000
+  appCountry: us
   released: 2017-12-09
   updated: 2018-11-13
   version: 1.2.1

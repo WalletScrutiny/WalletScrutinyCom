@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.getfexr.core
   users: 100
+  appCountry: us
   released: 2022-06-08
   updated: 2026-05-22
   version: 3.5.2

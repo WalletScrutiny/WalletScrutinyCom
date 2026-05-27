@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: com.hardwayder.bastionwallet
   idd: '6475605182'
+  appCountry: us
   released: 2024-03-06
   updated: 2026-01-29
   version: 1.0.170

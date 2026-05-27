@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: fi.wonder.labs.wallet
   users: 1000
+  appCountry: us
   released: 2024-12-20
   updated: 2025-03-11
   version: 1.0.3

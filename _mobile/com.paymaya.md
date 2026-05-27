@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.paymaya
   users: 50000000
+  appCountry: us
   released: 2016-06-05
   updated: 2026-05-25
   version: 2.161.1

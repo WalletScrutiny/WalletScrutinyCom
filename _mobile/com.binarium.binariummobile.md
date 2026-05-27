@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.binarium.binariummobile
   users: 1000000
+  appCountry: us
   released: 2019-09-16
   updated: 2026-01-28
   version: 1.2.0.1

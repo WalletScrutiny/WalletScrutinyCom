@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.valr.app
   users: 1000000
+  appCountry: us
   released: 2019-09-13
   updated: 2026-05-06
   version: 1.1.42

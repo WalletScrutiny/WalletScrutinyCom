@@ -24,6 +24,7 @@ redirect_from:
 android:
   appId: finance.klever.bitcoin.wallet
   users: 100000
+  appCountry: us
   released: 2023-01-16
   updated: 2026-05-19
   version: 5.48.6
@@ -39,7 +40,7 @@ iphone:
   released: 2023-01-25
   updated: 2026-05-20
   version: 5.9.5
-  reviews: 1101
+  reviews: 1103
   icon: finance.klever.bitcoin.wallet.jpg
   meta: ok
   verdict: nosource

@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: io.hashport.hashwallet
   idd: '6450660947'
+  appCountry: us
   released: 2024-11-05
   updated: 2026-05-12
   version: 3.13.1

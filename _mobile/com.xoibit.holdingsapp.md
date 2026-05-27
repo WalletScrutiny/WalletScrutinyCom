@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.xoibit.holdingsapp
   users: 10000
+  appCountry: us
   released: 2025-07-05
   updated: 2026-05-26
   version: 1.0.17

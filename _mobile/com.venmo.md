@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.venmo
   users: 50000000
+  appCountry: us
   released: 2010-05-17
   updated: 2026-05-12
   version: 26.9.0
-  reviews: 353850
+  reviews: 353924
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive
@@ -30,7 +31,7 @@ iphone:
   released: 2010-04-03
   updated: 2026-05-18
   version: 26.9.2
-  reviews: 15465515
+  reviews: 15465764
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
   verdict: nosendreceive

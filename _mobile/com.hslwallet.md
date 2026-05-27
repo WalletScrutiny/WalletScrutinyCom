@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.hslwallet
   users: 50
+  appCountry: us
   released: 2021-08-04
   updated: 2024-07-29
   version: 7.7.2

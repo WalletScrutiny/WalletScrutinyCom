@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: swiss.dfx.bitcoin
   users: 1000
+  appCountry: us
   released: 2023-09-25
   updated: 2025-07-23
   version: 2.0.3

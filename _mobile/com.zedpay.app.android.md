@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.zedpay.app.android
   users: 10000
+  appCountry: us
   released: 2022-10-25
   updated: 2026-05-14
   version: 2.0.0

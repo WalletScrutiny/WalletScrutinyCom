@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: io.noah.pro
   users: 50000
+  appCountry: us
   released: 2025-09-23
   updated: 2026-04-24
   version: 1.2.8

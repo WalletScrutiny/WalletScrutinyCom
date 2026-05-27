@@ -13,8 +13,9 @@ redirect_from:
 android:
   appId: com.pionex.us.client
   users: 100000
+  appCountry: us
   released: 2022-02-25
-  updated: 2026-05-19
+  updated: 2026-05-26
   version: 2.1.5
   reviews: 650
   icon: com.pionex.us.client.png

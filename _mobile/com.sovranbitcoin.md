@@ -26,7 +26,7 @@ iphone:
   version: 0.0.62
   reviews: 0
   icon: com.sovranbitcoin.jpg
-  meta: ok
+  meta: removed
   verdict: ecash
   developerName: Sovran LTD
 

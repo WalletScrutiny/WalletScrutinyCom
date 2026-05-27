@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.rainmanagement.rain
   users: 500000
+  appCountry: bh
   released: 2018-11-02
   updated: 2026-04-30
   version: 3.10.8
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.rainmanagement.rain
   idd: 1414619890
+  appCountry: bh
   released: 2018-09-02
   updated: 2026-04-30
   version: 3.9.7
-  reviews: 2898
+  reviews: 2899
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

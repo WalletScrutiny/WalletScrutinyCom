@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: org.talkapp
   users: 5000
+  appCountry: us
   released: 2021-01-05
   updated: 2026-02-05
   version: 3.2.0

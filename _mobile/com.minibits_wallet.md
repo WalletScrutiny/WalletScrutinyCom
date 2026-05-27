@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.minibits_wallet
   users: 1000
+  appCountry: us
   updated: 2026-03-31
   version: VARY
   icon: com.minibits_wallet.png

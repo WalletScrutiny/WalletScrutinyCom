@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.palwalletapp
   users: 10000
+  appCountry: us
   released: 2023-03-20
   updated: 2025-10-09
   version: 1.0.29

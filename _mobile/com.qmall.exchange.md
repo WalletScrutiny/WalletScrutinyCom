@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.qmall.exchange
   users: 50000
+  appCountry: us
   released: 2021-12-14
   updated: 2024-07-31
   version: 1.1.59
@@ -33,7 +34,7 @@ iphone:
   version: 1.1.59
   reviews: 9
   icon: com.profit.qmall.exchange.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: QMALL Exchange
 

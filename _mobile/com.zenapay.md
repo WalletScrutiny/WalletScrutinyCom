@@ -15,6 +15,7 @@ redirect_from:
 iphone:
   appId: com.zenapay
   idd: '1292806306'
+  appCountry: jp
   released: 2017-10-26
   updated: 2024-07-02
   version: '5.2'

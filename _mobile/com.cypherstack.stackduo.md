@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.cypherstack.stackduo
   users: 500
+  appCountry: us
   released: 2024-06-29
   updated: 2025-11-26
   version: 2.4.2

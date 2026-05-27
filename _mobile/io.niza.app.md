@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.niza.app
   users: 10000
+  appCountry: us
   updated: 2025-05-07
   version: 1.4.3
   icon: io.niza.app.png

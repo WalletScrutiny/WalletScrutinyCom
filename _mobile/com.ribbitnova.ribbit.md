@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.ribbitnova.ribbit
   users: 1000
+  appCountry: us
   released: 2025-08-20
   updated: 2026-05-22
   version: 1.9.3

@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.btcdana.online
   users: 10000000
+  appCountry: us
   released: 2019-07-23
   updated: 2026-05-14
   version: 2.9.1

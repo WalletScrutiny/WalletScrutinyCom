@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.newmoney.ai
   users: 10000
+  appCountry: us
   released: 2025-04-28
   updated: 2025-08-15
   version: 1.8.10
@@ -36,7 +37,7 @@ iphone:
   version: 1.9.14
   reviews: 8
   icon: com.newmoney.ai.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Newmoney AI Wallet
 

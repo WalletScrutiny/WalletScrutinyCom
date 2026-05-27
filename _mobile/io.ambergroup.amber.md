@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.ambergroup.amber
   users: 1000000
+  appCountry: us
   released: 2020-09-21
   updated: 2026-03-24
   version: 3.7.0

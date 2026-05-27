@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.bitrah.pos
   users: 1000
+  appCountry: us
   released: 2020-07-21
   updated: 2023-02-07
   version: 3.0.1

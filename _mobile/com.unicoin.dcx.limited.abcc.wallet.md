@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.unicoin.dcx.limited.abcc.wallet
   users: 50
+  appCountry: us
   updated: 2026-04-17
   version: 1.10.22
   icon: com.unicoin.dcx.limited.abcc.wallet.png

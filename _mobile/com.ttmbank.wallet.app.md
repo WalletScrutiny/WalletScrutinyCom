@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.ttmbank.wallet.app
   users: 5000
+  appCountry: us
   released: 2021-08-05
   updated: 2024-04-25
   version: 2.3.10

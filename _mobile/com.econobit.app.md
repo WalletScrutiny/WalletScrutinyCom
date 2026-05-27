@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.econobit.app
   users: 10
+  appCountry: us
   released: 2020-01-29
   updated: 2023-11-06
   version: 0.1.8

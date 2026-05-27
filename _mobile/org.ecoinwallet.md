@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: org.ecoinwallet
   users: 10000
+  appCountry: us
   released: 2024-01-21
   updated: 2026-05-15
   version: 1.8.7

@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.heatwallet.heat_app
   users: 50
+  appCountry: us
   released: 2024-10-24
   updated: 2025-02-07
   version: 2.5.2

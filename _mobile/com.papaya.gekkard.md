@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.papaya.gekkard
   users: 10000
+  appCountry: mt
   released: 2020-01-30
   updated: 2024-10-14
   version: 1.1.1
@@ -25,6 +26,7 @@ android:
 iphone:
   appId: com.papaya.gekkard
   idd: 1493274973
+  appCountry: mt
   released: 2020-01-30
   updated: 2025-04-08
   version: 1.0.9

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.lcx.app
   users: 10000
+  appCountry: us
   released: 2021-10-26
   updated: 2026-05-26
   version: 2.4.8

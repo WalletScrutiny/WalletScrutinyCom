@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: au.com.bitaroo.express
   users: 1000
+  appCountry: us
   updated: 2026-04-14
   version: 3.4.1
   icon: au.com.bitaroo.express.png
@@ -33,7 +34,7 @@ iphone:
   released: 2022-12-20
   updated: 2026-04-14
   version: 3.4.1
-  reviews: 24
+  reviews: 25
   icon: au.com.bitaroo.express.jpg
   meta: ok
   verdict: custodial

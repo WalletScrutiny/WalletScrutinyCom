@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.coincircle
   users: 50000
+  appCountry: us
   released: 2021-04-26
   updated: 2024-02-29
   version: 1.3.3.10300
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.coincircle.app
   idd: 1470350344
+  appCountry: us
   released: 2021-04-02
   updated: 2022-01-21
   version: 1.1.1

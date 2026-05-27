@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: app.difx.exchange
   users: 100000
+  appCountry: us
   updated: 2025-07-16
   version: 5.1.11
   icon: app.difx.exchange.png

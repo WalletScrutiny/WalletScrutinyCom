@@ -23,6 +23,7 @@ redirect_from:
 android:
   appId: com.revix.app
   users: 10000
+  appCountry: us
   released: 2022-08-08
   updated: 2026-05-13
   version: 3.0.0
@@ -35,8 +36,8 @@ iphone:
   idd: '1590491829'
   appCountry: za
   released: 2022-08-01
-  updated: 2026-04-20
-  version: 2.9.10
+  updated: 2026-05-22
+  version: 3.0.0
   reviews: 65
   icon: com.revix.mobile.jpg
   meta: ok

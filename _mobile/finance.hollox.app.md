@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: finance.hollox.app
   users: 5000
+  appCountry: us
   released: 2022-11-13
   updated: 2024-10-04
   version: 6.0.4

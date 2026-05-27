@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.rekeningku
   users: 1000000
+  appCountry: us
   released: 2018-02-21
   updated: 2026-05-13
   version: 4.5.10

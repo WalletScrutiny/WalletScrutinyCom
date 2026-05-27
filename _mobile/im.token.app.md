@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: im.token.app
   users: 1000000
+  appCountry: us
   released: 2018-05-31
   updated: 2026-04-30
   version: 2.20.0
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: im.token.app
   idd: 1384798940
+  appCountry: us
   released: 2018-06-07
   updated: 2026-05-06
   version: 2.20.0
-  reviews: 1118
+  reviews: 1121
   icon: im.token.app.jpg
   meta: ok
   verdict: nosource

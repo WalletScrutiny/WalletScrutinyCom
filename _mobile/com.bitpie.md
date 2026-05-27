@@ -34,9 +34,10 @@ android:
 iphone:
   appId: com.bitpie.wallet
   idd: 1481314229
+  appCountry: us
   released: 2019-10-01
-  updated: 2026-05-20
-  version: 5.0.231
+  updated: 2026-05-25
+  version: 5.0.232
   reviews: 362
   icon: com.bitpie.wallet.jpg
   meta: ok

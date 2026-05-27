@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.coinmerce.app
   users: 100000
+  appCountry: us
   released: 2018-07-09
   updated: 2026-05-13
   version: 6.13.0
@@ -29,7 +30,7 @@ iphone:
   released: 2018-07-29
   updated: 2026-05-18
   version: 7.0.0
-  reviews: 509
+  reviews: 513
   icon: io.coinmerce.app.jpg
   meta: ok
   verdict: custodial

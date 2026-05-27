@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.si14
   users: 1000
+  appCountry: us
   released: 2025-05-05
   updated: 2025-10-09
   version: 1.2.5

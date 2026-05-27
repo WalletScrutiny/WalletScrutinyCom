@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.app.bitnob
   users: 100000
+  appCountry: us
   released: 2020-05-25
   updated: 2026-03-23
   version: 1.190.2

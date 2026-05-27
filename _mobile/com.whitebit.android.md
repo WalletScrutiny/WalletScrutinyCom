@@ -17,10 +17,11 @@ redirect_from:
 android:
   appId: com.whitebit.android
   users: 1000000
+  appCountry: ua
   released: 2019-06-07
   updated: 2026-05-22
   version: 3.74.2
-  reviews: 1348
+  reviews: 1349
   icon: com.whitebit.android.png
   meta: ok
   verdict: custodial
@@ -28,10 +29,11 @@ android:
 iphone:
   appId: com.whitebit.whitebitapp
   idd: 1463405025
+  appCountry: ua
   released: 2019-05-21
-  updated: 2026-05-21
-  version: 3.74.2
-  reviews: 3898
+  updated: 2026-05-26
+  version: 3.75.0
+  reviews: 3909
   icon: com.whitebit.whitebitapp.jpg
   meta: ok
   verdict: custodial

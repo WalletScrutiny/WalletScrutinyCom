@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.trade.tech.android
   users: 500
+  appCountry: us
   released: 2019-01-02
   updated: 2022-07-29
   version: 1.15.0

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: br.com.mercadobitcoin.android
   users: 1000000
+  appCountry: us
   released: 2019-07-25
   updated: 2026-05-22
   version: 2.112.0

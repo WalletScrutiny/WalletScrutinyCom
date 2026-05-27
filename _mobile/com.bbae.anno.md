@@ -11,10 +11,11 @@ redirect_from:
 iphone:
   appId: com.bbae.anno
   idd: '1123918627'
+  appCountry: cn
   released: 2016-06-25
   updated: 2026-05-01
   version: 7.2.1
-  reviews: 844
+  reviews: 853
   icon: com.bbae.anno.jpg
   meta: ok
   verdict: wip

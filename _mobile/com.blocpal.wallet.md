@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.blocpal.wallet
   users: 1000
+  appCountry: us
   released: 2018-10-30
   updated: 2024-05-07
   version: 2.0.39

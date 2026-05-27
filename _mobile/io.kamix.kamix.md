@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.kamix.kamix
   users: 5000
+  appCountry: us
   released: 2019-03-14
   updated: 2025-04-25
   version: 3.0.336

@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.oppi.wallet
   users: 10000
+  appCountry: us
   released: 2024-05-13
   updated: 2026-05-25
   version: 1.0.112

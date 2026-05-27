@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.bitcoinstore.bitcoinstorewallet
   users: 10000
+  appCountry: us
   released: 2023-01-03
   updated: 2025-10-31
   version: 1.0.54

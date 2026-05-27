@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.rockwallet.app
   users: 100000
+  appCountry: us
   released: 2022-11-14
   updated: 2025-09-08
   version: 5.17.8
@@ -34,7 +35,7 @@ iphone:
   released: 2022-11-16
   updated: 2025-09-15
   version: 5.17.8
-  reviews: 764
+  reviews: 765
   icon: com.rockwallet.app.jpg
   meta: ok
   verdict: sourceavailable

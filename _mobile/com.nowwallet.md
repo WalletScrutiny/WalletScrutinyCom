@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.nowwallet
   users: 100000
+  appCountry: us
   released: 2021-10-20
   updated: 2026-05-08
   version: 3.18.6
@@ -36,7 +37,7 @@ iphone:
   released: 2021-10-23
   updated: 2026-05-12
   version: 3.18.6
-  reviews: 812
+  reviews: 813
   icon: io.changenow.wallet-now.jpg
   meta: ok
   verdict: nosource

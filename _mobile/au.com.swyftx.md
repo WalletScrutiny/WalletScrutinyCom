@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: au.com.swyftx
   users: 100000
+  appCountry: us
   updated: 2026-05-20
   version: 2.8.48
   icon: au.com.swyftx.png
@@ -34,7 +35,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-05-20
   version: 2.8.48
-  reviews: 6035
+  reviews: 6036
   icon: au.com.swyftx.ios.jpg
   meta: ok
   verdict: custodial

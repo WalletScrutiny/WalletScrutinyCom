@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.nano.moonxbt
   idd: 1566536854
+  appCountry: us
   released: 2021-06-08
   updated: 2026-05-19
   version: 6.14.0

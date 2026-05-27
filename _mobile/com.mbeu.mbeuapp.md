@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.mbeu.mbeuapp
   users: 10000
+  appCountry: us
   updated: 2026-05-07
   version: 2.1.1
   icon: com.mbeu.mbeuapp.png
@@ -30,7 +31,7 @@ iphone:
   released: 2024-03-05
   updated: 2026-05-07
   version: 2.1.1
-  reviews: 38
+  reviews: 39
   icon: com.mbeu.mbeuapp.jpg
   meta: ok
   verdict: custodial

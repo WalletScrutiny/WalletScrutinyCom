@@ -7,6 +7,7 @@ redirect_from:
 iphone:
   appId: se.blockfirm.Pine
   idd: 1445357961
+  appCountry: us
   released: 2019-12-29
   updated: 2022-07-21
   version: 1.3.6

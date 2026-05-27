@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.oobit
   users: 100000
+  appCountry: us
   released: 2022-02-07
   updated: 2026-05-20
   version: 2.6.1
@@ -31,7 +32,7 @@ iphone:
   released: 2022-02-05
   updated: 2026-02-22
   version: 2.0.7
-  reviews: 947
+  reviews: 955
   icon: com.oobit.jpg
   meta: ok
   verdict: custodial

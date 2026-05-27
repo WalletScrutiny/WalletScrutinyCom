@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: coin98.crypto.finance.media
   users: 1000000
+  appCountry: us
   released: 2019-12-19
   updated: 2026-05-25
   version: 16.12.1
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: coin98.crypto.finance.insights
   idd: '1561969966'
+  appCountry: us
   released: 2021-05-14
   updated: 2026-05-25
   version: 16.12.1
-  reviews: 654
+  reviews: 655
   icon: coin98.crypto.finance.insights.jpg
   meta: ok
   verdict: nosource

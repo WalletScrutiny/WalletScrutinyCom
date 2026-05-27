@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: jp.co.moneypartners.CryptoTrade
   users: 1000
+  appCountry: us
   released: 2021-11-23
   updated: 2025-06-26
   version: 1.6.0

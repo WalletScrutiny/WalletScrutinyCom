@@ -13,6 +13,7 @@ redirect_from:
 iphone:
   appId: io.trustology.trustvault
   idd: '1455959680'
+  appCountry: ee
   released: 2019-08-23
   updated: 2026-04-20
   version: 2.24.7

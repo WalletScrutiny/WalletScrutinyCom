@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.app.freedx.prod
   users: 1000
+  appCountry: us
   updated: 2026-05-06
   version: 1.7.0
   icon: com.app.freedx.prod.png

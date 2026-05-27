@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.hittechsexpertlimited.hitbtc
   users: 100000
+  appCountry: us
   released: 2020-03-04
   updated: 2025-10-10
   version: 3.3.5

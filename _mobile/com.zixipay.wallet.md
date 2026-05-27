@@ -26,6 +26,7 @@ android:
 iphone:
   appId: com.zixipay.wallet
   idd: 1492139262
+  appCountry: us
   released: 2019-12-22
   updated: 2026-04-28
   version: '2.00'

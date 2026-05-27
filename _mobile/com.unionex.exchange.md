@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.unionex.exchange
   users: 500
+  appCountry: us
   released: 2025-08-27
   updated: 2026-02-27
   version: 1.2.5

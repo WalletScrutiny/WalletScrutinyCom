@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.useguap.android.rn
   users: 1000
+  appCountry: us
   released: 2025-12-05
   updated: 2026-05-21
   version: 0.9.2
@@ -24,8 +25,8 @@ iphone:
   idd: '6744361725'
   appCountry: us
   released: 2025-12-08
-  updated: 2026-05-14
-  version: 0.9.0
+  updated: 2026-05-21
+  version: 0.9.2
   reviews: 1
   icon: com.useguap.ios.rn.jpg
   meta: ok

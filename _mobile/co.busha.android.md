@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: co.busha.android
   users: 500000
+  appCountry: us
   released: 2019-01-21
   updated: 2026-05-10
   version: 10.1.9

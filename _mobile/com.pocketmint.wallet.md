@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.pocketmint.wallet
   users: 1000
+  appCountry: us
   released: 2025-05-03
   updated: 2025-12-24
   version: 1.9.0

@@ -17,8 +17,9 @@ redirect_from:
 android:
   appId: com.robinhood.global
   users: 100000
+  appCountry: us
   updated: 2026-05-20
-  version: 2026.20.0
+  version: 2026.21.1
   icon: com.robinhood.global.png
   meta: ok
   verdict: custodial
@@ -28,9 +29,9 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-05-19
-  version: 2026.21.0
-  reviews: 292
+  updated: 2026-05-26
+  version: 2026.22.0
+  reviews: 294
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
   verdict: custodial

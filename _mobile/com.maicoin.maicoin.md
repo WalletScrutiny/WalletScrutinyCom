@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.maicoin.maicoin
   users: 100000
+  appCountry: us
   released: 2018-12-19
   updated: 2026-04-13
   version: 15.0.0

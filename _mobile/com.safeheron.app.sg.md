@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.safeheron.app.sg
   users: 1000
+  appCountry: us
   released: 2022-07-17
   updated: 2026-05-22
   version: 1.6.7

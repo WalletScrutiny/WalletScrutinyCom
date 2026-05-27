@@ -8,6 +8,7 @@ redirect_from:
 android:
   appId: com.bytefederal.bytemobile
   users: 10000
+  appCountry: us
   released: 2025-08-03
   updated: 2026-01-25
   version: 1.13.0

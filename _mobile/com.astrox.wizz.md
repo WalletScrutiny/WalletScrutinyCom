@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.astrox.wizz
   users: 1000
+  appCountry: us
   released: 2023-07-10
   updated: 2025-10-13
   version: 1.9.11

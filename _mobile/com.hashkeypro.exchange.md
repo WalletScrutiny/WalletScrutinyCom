@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.hashkeypro.exchange
   users: 100000
+  appCountry: us
   released: 2023-11-01
   updated: 2026-05-19
   version: 1.78.1
@@ -27,7 +28,7 @@ iphone:
   released: 2024-04-19
   updated: 2026-05-18
   version: 1.66.0
-  reviews: 9
+  reviews: 10
   icon: com.hashkey.global.jpg
   meta: ok
   verdict: custodial

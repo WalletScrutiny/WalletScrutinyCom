@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: io.rayyo
   users: 50000
+  appCountry: us
   released: 2025-10-03
   updated: 2026-04-20
   version: 0.7.55

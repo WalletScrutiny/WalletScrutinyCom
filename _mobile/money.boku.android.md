@@ -16,10 +16,11 @@ redirect_from:
 android:
   appId: money.boku.android
   users: 50000
+  appCountry: us
   released: 2023-10-17
-  updated: 2026-05-25
-  version: 1.3.209
-  reviews: 15
+  updated: 2026-05-26
+  version: 1.3.210
+  reviews: 14
   icon: money.boku.android.jpg
   meta: ok
   verdict: nosendreceive
@@ -29,9 +30,9 @@ iphone:
   idd: '1659648196'
   appCountry: us
   released: 2025-04-03
-  updated: 2026-05-14
-  version: 1.11.35
-  reviews: 86
+  updated: 2026-05-23
+  version: 1.11.36
+  reviews: 96
   icon: money.boku.ios.jpg
   meta: ok
   verdict: nosendreceive

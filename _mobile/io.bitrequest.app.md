@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: io.bitrequest.app
   users: 500
+  appCountry: us
   released: 2019-11-01
   updated: 2026-02-24
   version: 1.6.1

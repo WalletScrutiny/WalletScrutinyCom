@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.octopass.app
   users: 10000
+  appCountry: us
   updated: 2026-03-19
   version: prod-1.18.11
   icon: com.octopass.app.png

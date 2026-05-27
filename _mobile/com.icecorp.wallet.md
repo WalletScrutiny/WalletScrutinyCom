@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.icecorp.wallet
   users: 100000
+  appCountry: us
   released: 2022-08-24
   updated: 2025-01-15
   version: '2.8'

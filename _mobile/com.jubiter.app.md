@@ -25,6 +25,7 @@ android:
 iphone:
   appId: com.feitian.jubiterwallet
   idd: 1518743276
+  appCountry: us
   released: 2020-06-27
   updated: 2022-04-26
   version: 2.7.0

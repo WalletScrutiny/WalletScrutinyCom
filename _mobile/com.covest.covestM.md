@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.covest.covestM
   users: 5000
+  appCountry: us
   released: 2022-11-03
   updated: 2025-10-16
   version: 2.1.0

@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.kochure.kochureApp
   users: 5000
+  appCountry: us
   released: 2021-11-13
   updated: 2026-02-17
   version: 1.2.3

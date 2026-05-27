@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.coinspot.app
   users: 500000
+  appCountry: au
   released: 2020-10-07
   updated: 2026-04-13
   version: 3.10.2
@@ -29,10 +30,11 @@ android:
 iphone:
   appId: com.coinspot.app
   idd: 1541949985
+  appCountry: au
   released: 2020-12-13
   updated: 2026-04-15
   version: 3.10.2
-  reviews: 44778
+  reviews: 44812
   icon: com.coinspot.app.jpg
   meta: ok
   verdict: custodial

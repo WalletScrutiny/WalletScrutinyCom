@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: ru.webtronics.touch_wallet
   users: 10000
+  appCountry: us
   released: 2022-10-29
   updated: 2025-04-30
   version: 2.1.14

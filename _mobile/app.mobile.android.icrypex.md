@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: app.mobile.android.icrypex
   users: 100000
+  appCountry: us
   released: 2021-09-02
   updated: 2025-07-03
   version: '21.2'

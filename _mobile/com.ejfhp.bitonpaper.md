@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.ejfhp.bitonpaper
   users: 100
+  appCountry: us
   released: 2021-02-13
   updated: 2025-01-11
   version: 2.1.2

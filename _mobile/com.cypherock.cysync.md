@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.cypherock.cysync
   users: 1000
+  appCountry: us
   released: 2025-03-28
   updated: 2026-05-18
   version: 0.1.22

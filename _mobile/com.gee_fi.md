@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.gee_fi
   users: 1000
+  appCountry: us
   released: 2025-03-18
   updated: 2026-01-14
   version: 1.1.5

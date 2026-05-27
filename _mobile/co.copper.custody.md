@@ -10,6 +10,7 @@ redirect_from:
 iphone:
   appId: co.copper.custody
   idd: '1521814069'
+  appCountry: us
   released: 2020-07-21
   updated: 2026-05-06
   version: 2.6.597

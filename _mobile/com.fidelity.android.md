@@ -12,10 +12,11 @@ redirect_from:
 android:
   appId: com.fidelity.android
   users: 5000000
+  appCountry: us
   released: 2010-12-15
   updated: 2026-05-21
   version: '4.32'
-  reviews: 56984
+  reviews: 56987
   icon: com.fidelity.android.png
   meta: ok
   verdict: custodial
@@ -25,9 +26,9 @@ iphone:
   idd: '348177453'
   appCountry: us
   released: 2010-02-22
-  updated: 2026-05-08
-  version: '4.32'
-  reviews: 3117678
+  updated: 2026-05-22
+  version: '4.33'
+  reviews: 3127488
   icon: com.fidelity.watchlist.jpg
   meta: ok
   verdict: custodial

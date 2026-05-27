@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.exchange1.ex1
   users: 1000
+  appCountry: us
   updated: 2026-05-05
   version: 1.1.4
   icon: com.exchange1.ex1.jpg

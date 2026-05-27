@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.dswallet.app
   users: 5000
+  appCountry: us
   released: 2025-03-19
   updated: 2026-05-01
   version: 2.1.7

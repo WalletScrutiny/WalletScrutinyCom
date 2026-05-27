@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.rezor
   users: 1000
+  appCountry: us
   released: 2025-04-05
   updated: 2026-03-30
   version: '1'

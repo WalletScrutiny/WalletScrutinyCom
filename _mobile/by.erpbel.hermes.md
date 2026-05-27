@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: by.erpbel.hermes
   users: 10000
+  appCountry: us
   released: 2022-10-06
   updated: 2026-05-18
   version: 2.13.0

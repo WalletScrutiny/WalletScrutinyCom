@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: vip.mytokenpocket
   users: 5000000
+  appCountry: us
   released: 2018-06-29
   updated: 2026-05-25
   version: 2.20.0

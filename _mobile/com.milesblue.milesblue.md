@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.milesblue.milesblue
   users: 500
+  appCountry: us
   released: 2021-10-10
   updated: 2023-10-26
   version: 1.1.4

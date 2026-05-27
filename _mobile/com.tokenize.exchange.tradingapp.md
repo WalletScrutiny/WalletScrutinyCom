@@ -32,7 +32,7 @@ iphone:
   version: 2.0.21
   reviews: 2
   icon: com.tokenize.exchange.trading.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Tokenize Xchange Pte Ltd
 

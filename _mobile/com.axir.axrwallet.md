@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.axir.axrwallet
   users: 1000
+  appCountry: us
   released: 2024-05-22
   updated: 2025-01-15
   version: 0.2.37

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: vivid.money
   users: 1000000
+  appCountry: us
   released: 2020-10-09
   updated: 2026-05-19
   version: 4.28.0

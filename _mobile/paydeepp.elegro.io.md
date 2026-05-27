@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: paydeepp.elegro.io
   users: 10000
+  appCountry: us
   released: 2018-11-09
   updated: 2026-05-21
   version: 5.5.1

@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: app.amber.v2
   idd: '6480584472'
+  appCountry: us
   released: 2024-04-04
   updated: 2026-03-20
   version: 2.12.0

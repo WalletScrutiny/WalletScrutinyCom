@@ -6,6 +6,7 @@ redirect_from:
 android:
   appId: com.ubrain.cryptowallet
   users: 100
+  appCountry: us
   released: 2022-04-22
   updated: 2023-04-18
   version: '1.1'

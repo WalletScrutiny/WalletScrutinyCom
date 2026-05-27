@@ -15,10 +15,11 @@ redirect_from:
 android:
   appId: com.amarkets
   users: 1000000
+  appCountry: us
   released: 2019-05-31
   updated: 2026-05-25
   version: 2.1.136
-  reviews: 292
+  reviews: 291
   icon: com.amarkets.png
   meta: ok
   verdict: nosendreceive

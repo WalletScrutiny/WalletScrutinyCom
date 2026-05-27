@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.biconomy.ex
   users: 100000
+  appCountry: us
   released: 2020-01-14
   updated: 2026-04-10
   version: 2.3.25

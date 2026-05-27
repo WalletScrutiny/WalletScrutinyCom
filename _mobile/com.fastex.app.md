@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.fastex.app
   users: 100000
+  appCountry: us
   released: 2023-10-07
   updated: 2025-10-07
   version: 1.42.2
@@ -32,7 +33,7 @@ iphone:
   released: 2023-04-13
   updated: 2025-09-08
   version: 1.41.0
-  reviews: 247
+  reviews: 248
   icon: com.fastex.fastexapp.jpg
   meta: ok
   verdict: custodial

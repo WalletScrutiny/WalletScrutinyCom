@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.nexowallet
   users: 5000000
+  appCountry: us
   released: 2019-06-28
   updated: 2026-05-19
   version: 7.1.1
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.nexobank.wallet
   idd: 1455341917
+  appCountry: us
   released: 2019-06-30
   updated: 2026-05-21
   version: 7.1.1
-  reviews: 1720
+  reviews: 1726
   icon: com.nexobank.wallet.jpg
   meta: ok
   verdict: custodial

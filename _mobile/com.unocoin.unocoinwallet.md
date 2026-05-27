@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.unocoin.unocoinwallet
   users: 1000000
+  appCountry: us
   released: 2016-11-30
   updated: 2026-05-25
   version: 5.3.42

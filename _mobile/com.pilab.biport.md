@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.pilab.biport
   users: 10000
+  appCountry: us
   released: 2023-02-09
   updated: 2025-03-10
   version: '0.45'

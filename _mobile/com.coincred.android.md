@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: com.coincred.android
   users: 100000
+  appCountry: us
   released: 2021-09-01
   updated: 2025-04-16
   version: 2.5.5

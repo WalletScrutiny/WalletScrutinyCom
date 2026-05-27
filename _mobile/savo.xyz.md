@@ -7,10 +7,11 @@ redirect_from:
 iphone:
   appId: savo.xyz
   idd: '6742020669'
+  appCountry: us
   released: 2025-02-18
   updated: 2026-05-19
   version: 1.4.22
-  reviews: 171
+  reviews: 175
   icon: savo.xyz.jpg
   meta: ok
   verdict: wip

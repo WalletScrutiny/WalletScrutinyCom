@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.afrbtcapp
   users: 100000
+  appCountry: us
   released: 2019-05-05
   updated: 2024-07-12
   version: 4.2.2

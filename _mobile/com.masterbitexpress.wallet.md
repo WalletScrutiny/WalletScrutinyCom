@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.masterbitexpress.wallet
   users: 500
+  appCountry: us
   released: 2018-04-21
   updated: 2025-10-31
   version: 1.1.1.93

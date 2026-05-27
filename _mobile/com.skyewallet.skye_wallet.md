@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.skyewallet.skye_wallet
   users: 10000
+  appCountry: us
   released: 2021-05-01
   updated: 2025-11-23
   version: 2.15.3

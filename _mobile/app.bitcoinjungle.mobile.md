@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: app.bitcoinjungle.mobile
   users: 5000
+  appCountry: us
   released: 2021-12-05
   updated: 2025-10-07
   version: 1.4.5

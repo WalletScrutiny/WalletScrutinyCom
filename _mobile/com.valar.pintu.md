@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.valar.pintu
   users: 5000000
+  appCountry: us
   released: 2020-01-25
   updated: 2026-05-18
   version: 3.96.0

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.spotware.ct
   users: 1000000
+  appCountry: us
   released: 2014-02-10
   updated: 2026-05-07
   version: 5.8.220
@@ -29,9 +30,9 @@ iphone:
   idd: '767428811'
   appCountry: my
   released: 2013-12-05
-  updated: 2026-05-08
-  version: 5.8.220
-  reviews: 787
+  updated: 2026-05-25
+  version: 5.9.100
+  reviews: 788
   icon: com.spotware.ct.jpg
   meta: ok
   verdict: nosendreceive

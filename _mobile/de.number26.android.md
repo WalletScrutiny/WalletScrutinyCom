@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: de.number26.android
   users: 10000000
+  appCountry: us
   released: 2015-01-23
   updated: 2026-05-15
   version: '4.51'
@@ -32,7 +33,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-05-21
   version: 4.51.1
-  reviews: 11416
+  reviews: 11447
   icon: de.no26.Number26.jpg
   meta: ok
   verdict: custodial

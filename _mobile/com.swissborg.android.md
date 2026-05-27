@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.swissborg.android
   users: 500000
+  appCountry: gb
   released: 2020-06-16
   updated: 2026-05-22
   version: 1.136.0
@@ -27,10 +28,11 @@ android:
 iphone:
   appId: com.swissborg.ios
   idd: 1442483481
+  appCountry: gb
   released: 2020-03-31
-  updated: 2026-05-18
-  version: 1.135.1
-  reviews: 2568
+  updated: 2026-05-25
+  version: 1.136.0
+  reviews: 2581
   icon: com.swissborg.ios.jpg
   meta: ok
   verdict: custodial

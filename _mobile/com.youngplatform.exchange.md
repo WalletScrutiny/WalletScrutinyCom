@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.youngplatform.exchange
   users: 500000
+  appCountry: us
   updated: 2026-05-19
   version: 3.27.0
   icon: com.youngplatform.exchange.png

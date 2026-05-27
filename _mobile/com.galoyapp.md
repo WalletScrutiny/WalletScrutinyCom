@@ -22,6 +22,7 @@ redirect_from:
 android:
   appId: com.galoyapp
   users: 100000
+  appCountry: us
   released: 2020-11-24
   updated: 2025-12-17
   version: 2.4.15

@@ -19,7 +19,7 @@ android:
   released: 2019-07-06
   updated: 2026-05-19
   version: 4.02.1
-  reviews: 7044
+  reviews: 7055
   icon: cn.com.vau.png
   meta: ok
   verdict: nosendreceive

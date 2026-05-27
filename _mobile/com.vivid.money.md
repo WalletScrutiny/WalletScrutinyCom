@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.vivid.money
   idd: 1504417378
+  appCountry: jp
   released: 2020-10-09
   updated: 2026-05-20
   version: 4.28.0

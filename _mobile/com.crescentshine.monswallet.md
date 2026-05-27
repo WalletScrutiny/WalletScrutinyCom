@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.crescentshine.monswallet
   users: 5000
+  appCountry: us
   released: 2023-02-22
   updated: 2023-08-29
   version: 1.0.1

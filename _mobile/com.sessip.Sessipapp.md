@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.sessip.Sessipapp
   users: 100000
+  appCountry: us
   released: 2021-08-18
   updated: 2022-12-10
   version: VARY

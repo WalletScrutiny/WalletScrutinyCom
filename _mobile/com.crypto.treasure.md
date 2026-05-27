@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.crypto.treasure
   users: 10000
+  appCountry: us
   released: 2022-12-01
   updated: 2023-02-08
   version: 1.0.5

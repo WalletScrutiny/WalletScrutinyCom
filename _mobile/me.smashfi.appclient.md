@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: me.smashfi.appclient
   users: 100
+  appCountry: us
   released: 2025-04-02
   updated: 2025-11-12
   version: 1.0.4

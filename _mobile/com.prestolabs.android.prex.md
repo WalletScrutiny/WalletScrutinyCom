@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.prestolabs.android.prex
   users: 500000
+  appCountry: us
   released: 2022-11-18
   updated: 2026-05-21
   version: 3.20.101

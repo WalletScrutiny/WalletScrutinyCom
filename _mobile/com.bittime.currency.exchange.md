@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: com.bittime.currency.exchange
   users: 500000
+  appCountry: us
   released: 2022-09-23
   updated: 2026-05-15
   version: 2.0.13
@@ -26,7 +27,7 @@ iphone:
   released: 2022-11-15
   updated: 2026-05-18
   version: 2.0.13
-  reviews: 406
+  reviews: 407
   icon: com.bittime.currency.exchange.jpg
   meta: ok
   verdict: custodial

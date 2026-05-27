@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.superex.ex
   users: 1000000
+  appCountry: us
   released: 2022-03-23
   updated: 2026-05-26
   version: 2.9.62

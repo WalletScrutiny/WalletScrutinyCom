@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.xetaai.xiwallet
   users: 500
+  appCountry: us
   released: 2025-09-18
   updated: 2026-04-30
   version: 2.1.0

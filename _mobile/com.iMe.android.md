@@ -16,11 +16,12 @@ redirect_from:
 - /iphone/com.olcorporation.olai/
 android:
   appId: com.iMe.android
-  users: 5000000
+  users: 10000000
+  appCountry: us
   released: 2019-07-22
   updated: 2026-05-15
   version: 12.3.8
-  reviews: 824
+  reviews: 823
   icon: com.iMe.android.png
   meta: ok
   verdict: nosource
@@ -30,9 +31,9 @@ iphone:
   idd: '1450480822'
   appCountry: us
   released: 2019-07-31
-  updated: 2026-04-22
-  version: 12.2.6
-  reviews: 8384
+  updated: 2026-05-23
+  version: 12.2.7
+  reviews: 8415
   icon: com.olcorporation.olai.jpg
   meta: ok
   verdict: nosource

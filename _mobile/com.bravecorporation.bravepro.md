@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.bravecorporation.bravepro
   users: 50
+  appCountry: us
   released: 2022-05-15
   updated: 2023-10-22
   version: 1.0.17

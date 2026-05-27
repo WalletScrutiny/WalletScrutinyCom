@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: io.nash.app
   users: 10000
+  appCountry: us
   released: 2019-08-31
   updated: 2025-10-29
   version: 17.0.24

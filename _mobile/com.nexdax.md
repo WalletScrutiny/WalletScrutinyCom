@@ -17,6 +17,7 @@ redirect_from:
 android:
   appId: com.nexdax
   users: 10000
+  appCountry: us
   updated: 2025-09-08
   version: '3.0'
   icon: com.nexdax.png

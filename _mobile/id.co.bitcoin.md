@@ -12,6 +12,7 @@ redirect_from:
 android:
   appId: id.co.bitcoin
   users: 10000000
+  appCountry: us
   released: 2014-12-15
   updated: 2026-05-20
   version: 5.8.7

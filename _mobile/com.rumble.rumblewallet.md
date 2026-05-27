@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.rumble.rumblewallet
   users: 10000
+  appCountry: us
   released: 2026-01-19
   updated: 2026-05-08
   version: 2.1.0
@@ -33,7 +34,7 @@ iphone:
   released: 2025-12-15
   updated: 2026-05-12
   version: 2.1.0
-  reviews: 47
+  reviews: 48
   icon: com.rumble.wallet.jpg
   meta: ok
   verdict: nosource

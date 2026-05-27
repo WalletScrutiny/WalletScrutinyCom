@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.currency.exchange.prod2
   users: 1000000
+  appCountry: us
   released: 2019-04-15
   updated: 2026-05-13
   version: 2.20.2
@@ -34,7 +35,7 @@ iphone:
   released: 2019-04-23
   updated: 2026-05-14
   version: 2.20.2
-  reviews: 4483
+  reviews: 4486
   icon: com.currency.exchange.prod2.jpg
   meta: ok
   verdict: custodial

@@ -10,6 +10,7 @@ redirect_from:
 android:
   appId: com.bitvalve.android
   users: 100000
+  appCountry: us
   released: 2019-10-29
   updated: 2026-05-22
   version: 1.41.0

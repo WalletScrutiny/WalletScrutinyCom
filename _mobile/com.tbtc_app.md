@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.tbtc_app
   users: 10000
+  appCountry: us
   released: 2022-03-17
   updated: 2025-08-26
   version: 0.1.37

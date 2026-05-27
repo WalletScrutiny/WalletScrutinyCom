@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.etoro.wallet
   users: 1000000
+  appCountry: us
   released: 2018-11-27
   updated: 2026-02-09
   version: 104.0.0
@@ -32,7 +33,7 @@ iphone:
   version: 104.0.0
   reviews: 181
   icon: com.etoro.wallet.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: eToro
 

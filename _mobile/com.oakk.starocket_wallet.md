@@ -21,6 +21,7 @@ redirect_from:
 android:
   appId: com.oakk.starocket_wallet
   users: 50000
+  appCountry: us
   released: 2022-05-29
   updated: 2026-02-05
   version: 3.1.7

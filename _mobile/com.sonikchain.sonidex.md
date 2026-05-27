@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.sonikchain.sonidex
   users: 10
+  appCountry: us
   released: 2022-01-27
   updated: 2022-01-27
   version: 1.0.0

@@ -7,6 +7,7 @@ redirect_from:
 android:
   appId: com.milkywayapps.cryptowallet
   users: 10000
+  appCountry: us
   released: 2023-07-25
   updated: 2024-03-19
   version: 1.2.1

@@ -9,6 +9,7 @@ redirect_from:
 android:
   appId: com.sketch.wallet
   users: 5000
+  appCountry: us
   released: 2021-07-28
   updated: 2026-01-16
   version: 2.2.8

@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: exchange.bitgert.app
   users: 100000
+  appCountry: us
   released: 2023-01-13
   updated: 2025-02-06
   version: '1.0'

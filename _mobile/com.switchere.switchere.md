@@ -19,6 +19,7 @@ redirect_from:
 android:
   appId: com.switchere.switchere
   users: 100000
+  appCountry: us
   released: 2021-11-15
   updated: 2025-10-13
   version: 1.1.26

@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.capitalika.exhange
   users: 10000
+  appCountry: us
   released: 2019-03-18
   updated: 2025-01-28
   version: 2.0.20

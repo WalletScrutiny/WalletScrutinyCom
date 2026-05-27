@@ -10,6 +10,7 @@ redirect_from:
 iphone:
   appId: com.coinlinksec
   idd: '6479732222'
+  appCountry: us
   released: 2024-03-26
   updated: 2026-05-18
   version: 1.20.2

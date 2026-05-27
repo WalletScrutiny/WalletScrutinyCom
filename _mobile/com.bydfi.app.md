@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.bydfi.app
   users: 100000
+  appCountry: us
   released: 2023-01-20
   updated: 2026-04-28
   version: 3.9.5
@@ -35,7 +36,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-05-11
   version: 3.9.5
-  reviews: 1189
+  reviews: 1191
   icon: com.bydfi.app.jpg
   meta: ok
   verdict: custodial

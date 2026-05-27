@@ -17,10 +17,11 @@ redirect_from:
 iphone:
   appId: com.paymaya.ios
   idd: '991673877'
+  appCountry: ph
   released: 2015-09-29
   updated: 2026-05-17
   version: 2.133.0
-  reviews: 229011
+  reviews: 229199
   icon: com.paymaya.ios.jpg
   meta: ok
   verdict: custodial

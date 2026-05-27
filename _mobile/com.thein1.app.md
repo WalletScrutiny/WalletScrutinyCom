@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.thein1.app
   users: 50000
+  appCountry: us
   updated: 2026-05-08
   version: 0.11.6
   icon: com.thein1.app.jpg

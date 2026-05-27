@@ -31,7 +31,7 @@ iphone:
   version: '13.0'
   reviews: 933
   icon: com.Crypterium.Crypterium.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Crypterium AS
 

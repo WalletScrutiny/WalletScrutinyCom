@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: com.gmo.exchange
   users: 10000
+  appCountry: th
   released: 2020-08-07
-  updated: 2026-04-10
-  version: 3.2.6
+  updated: 2026-05-25
+  version: 3.2.7
   reviews: 34
   icon: com.gmo.exchange.jpg
   meta: ok
@@ -26,9 +27,10 @@ android:
 iphone:
   appId: com.gmo.exchange
   idd: 1525862502
+  appCountry: th
   released: 2020-08-09
-  updated: 2026-04-22
-  version: 3.2.6
+  updated: 2026-05-27
+  version: 3.2.7
   reviews: 31
   icon: com.gmo.exchange.jpg
   meta: ok

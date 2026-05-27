@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: com.rhinoglobal
   users: 1000
+  appCountry: us
   released: 2024-08-30
   updated: 2026-05-15
   version: 2.12.17

@@ -20,6 +20,7 @@ redirect_from:
 android:
   appId: com.phemex.app
   users: 1000000
+  appCountry: us
   released: 2020-02-19
   updated: 2026-05-22
   version: 5.19.0
@@ -31,10 +32,11 @@ android:
 iphone:
   appId: com.phemex.submit
   idd: 1499601684
+  appCountry: us
   released: 2020-02-20
   updated: 2026-05-15
   version: 5.19.0
-  reviews: 2736
+  reviews: 2739
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

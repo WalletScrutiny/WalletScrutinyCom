@@ -8,6 +8,7 @@ redirect_from:
 iphone:
   appId: com.purplexapp.cpi
   idd: '6740024218'
+  appCountry: us
   released: 2025-01-09
   updated: 2026-02-05
   version: 1.2.8

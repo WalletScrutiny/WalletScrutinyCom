@@ -16,6 +16,7 @@ redirect_from:
 android:
   appId: delta.pk.mobile
   users: 100000
+  appCountry: bg
   released: 2013-03-29
   updated: 2025-10-21
   version: 5.9.13
@@ -27,6 +28,7 @@ android:
 iphone:
   appId: com.dfmarkets.DTMobile
   idd: 649221938
+  appCountry: bg
   released: 2013-05-22
   updated: 2026-01-24
   version: 5.9.8

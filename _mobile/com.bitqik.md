@@ -18,6 +18,7 @@ redirect_from:
 android:
   appId: com.bitqik
   users: 10000
+  appCountry: us
   released: 2022-09-23
   updated: 2026-05-06
   version: 3.7.0
@@ -35,7 +36,7 @@ iphone:
   version: 3.7.0
   reviews: 1
   icon: com.bitqik.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BITQIK SOLE CO.,LTD
 
