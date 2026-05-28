@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-03-28
-  updated: 2026-05-03
-  version: 3.2.0
+  updated: 2026-05-27
+  version: 3.2.1
   reviews: 24
   icon: com.bouspam.eritajpam.png
   meta: ok

@@ -18,8 +18,8 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-17
-  updated: 2026-05-26
-  version: 1.3.210
+  updated: 2026-05-27
+  version: 1.3.211
   reviews: 14
   icon: money.boku.android.jpg
   meta: ok

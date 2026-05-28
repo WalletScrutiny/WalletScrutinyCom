@@ -19,7 +19,7 @@ android:
   released: 2013-11-05
   updated: 2026-05-24
   version: 651.1272.1
-  reviews: 3793
+  reviews: 3794
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

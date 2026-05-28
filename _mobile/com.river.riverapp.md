@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2023-10-20
   updated: 2026-05-21
-  version: 7.62.2
+  version: 7.62.5
   reviews: 304
   icon: com.river.riverapp.png
   meta: ok

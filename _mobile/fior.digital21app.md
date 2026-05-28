@@ -18,7 +18,7 @@ android:
   users: 10000
   appCountry: us
   updated: 2026-05-19
-  version: 2.1.1
+  version: 2.2.2
   icon: fior.digital21app.png
   meta: ok
   verdict: custodial

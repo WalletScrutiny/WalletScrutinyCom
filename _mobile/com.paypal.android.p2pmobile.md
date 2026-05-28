@@ -21,7 +21,7 @@ android:
   released: 2016-02-19
   updated: 2026-05-20
   version: 8.105.1
-  reviews: 437592
+  reviews: 437631
   icon: com.paypal.android.p2pmobile.png
   meta: ok
   verdict: nosendreceive

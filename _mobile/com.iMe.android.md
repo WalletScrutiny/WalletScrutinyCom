@@ -21,7 +21,7 @@ android:
   released: 2019-07-22
   updated: 2026-05-15
   version: 12.3.8
-  reviews: 823
+  reviews: 824
   icon: com.iMe.android.png
   meta: ok
   verdict: nosource

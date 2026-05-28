@@ -16,7 +16,7 @@ android:
   released: 2022-05-13
   updated: 2026-05-15
   version: 3.30.0
-  reviews: 118
+  reviews: 119
   icon: com.blofin.android.png
   meta: ok
   verdict: nosendreceive

@@ -22,7 +22,7 @@ android:
   released: 2019-09-06
   updated: 2026-05-26
   version: 3.245.0
-  reviews: 9504
+  reviews: 9505
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive

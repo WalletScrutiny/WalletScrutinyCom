@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2019-06-06
   updated: 2026-05-25
-  version: 26.5.13
-  reviews: 8630
+  version: 26.5.27
+  reviews: 8632
   icon: exodusmovement.exodus.png
   meta: ok
   verdict: nosource

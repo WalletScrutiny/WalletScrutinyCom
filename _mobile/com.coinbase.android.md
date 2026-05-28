@@ -25,7 +25,7 @@ android:
   released: 2013-03-01
   updated: 2026-05-20
   version: 14.19.22
-  reviews: 117527
+  reviews: 117535
   icon: com.coinbase.android.jpg
   meta: ok
   verdict: custodial
