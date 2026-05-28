@@ -1,0 +1,44 @@
+{%- comment -%}
+  Sets `product_matches_verdict_group` (boolean) for include.product vs include.verdict_group.
+  Mobile pages use platform blocks; other folders use root meta/verdict.
+{%- endcomment -%}
+{%- assign product_matches_verdict_group = false -%}
+{%- assign p = include.product -%}
+{%- assign verdicts = include.verdict_group.verdicts -%}
+{%- assign metas = include.verdict_group.metas -%}
+
+{%- assign eff_meta = p.meta | default: 'ok' -%}
+{%- assign eff_verdict = p.verdict | default: '' -%}
+{%- if p.android.appId or p.iphone.appId or p.iphone.idd -%}
+  {%- assign am = p.android.meta | default: 'ok' -%}
+  {%- assign im = p.iphone.meta | default: 'ok' -%}
+  {%- if p.android.appId and p.iphone.appId -%}
+    {%- if am == 'obsolete' and im == 'obsolete' -%}
+      {%- assign eff_meta = 'obsolete' -%}
+    {%- else -%}
+      {%- assign eff_meta = am -%}
+    {%- endif -%}
+  {%- elsif p.android.appId -%}
+    {%- assign eff_meta = am -%}
+  {%- else -%}
+    {%- assign eff_meta = im -%}
+  {%- endif -%}
+  {%- if p.android.appId -%}
+    {%- assign eff_verdict = p.android.verdict | default: eff_verdict -%}
+  {%- elsif p.iphone.appId or p.iphone.idd -%}
+    {%- assign eff_verdict = p.iphone.verdict | default: eff_verdict -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if metas and metas.size > 0 -%}
+  {%- if metas contains eff_meta -%}
+    {%- assign product_matches_verdict_group = true -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if verdicts and eff_verdict != '' -%}
+  {%- if verdicts contains eff_verdict -%}
+    {%- assign product_matches_verdict_group = true -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign product_listing_meta = eff_meta -%}
+{%- assign product_listing_verdict = eff_verdict -%}
