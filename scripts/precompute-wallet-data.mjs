@@ -225,9 +225,9 @@ for (const platform of platforms) {
 // Build seeAlso index
 const wsIdIndex = buildSeeAlsoIndex(allWallets);
 
-// Pre-compute scores keyed by platform-verdict (not per-wallet)
-// Only compute for verdicts that actually exist in the platform's verdict list
-for (const platform of platforms) {
+// Pre-compute scores keyed by platform-verdict (not per-wallet).
+// Use every platform in platformMeta (android, iphone, mobile, …), not only wallet folders.
+for (const platform of Object.keys(platformMeta)) {
   const platformVerdicts = platformMeta[platform]?.verdicts || [];
   for (const verdict of platformVerdicts) {
     const key = `${platform}-${verdict}`;
