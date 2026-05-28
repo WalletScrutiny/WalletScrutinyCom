@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2010-06-17
   updated: 2026-05-26
-  version: 9.1.0
+  version: 9.1.1
   reviews: 43
   icon: com.swissquote.android.png
   meta: ok

@@ -42,7 +42,7 @@ iphone:
   released: 2017-07-11
   updated: 2026-05-21
   version: 9.22.0
-  reviews: 43602
+  reviews: 43605
   icon: com.bitcoin.mwallet.jpg
   meta: ok
   verdict: nosource

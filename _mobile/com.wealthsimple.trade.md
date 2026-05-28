@@ -19,7 +19,7 @@ android:
   released: 2019-03-12
   updated: 2026-05-26
   version: 2.226.1
-  reviews: 12999
+  reviews: 13000
   icon: com.wealthsimple.trade.png
   meta: ok
   verdict: nosendreceive

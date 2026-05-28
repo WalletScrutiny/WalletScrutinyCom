@@ -24,7 +24,7 @@ android:
   released: 2020-12-30
   updated: 2026-05-22
   version: 3.65.0
-  reviews: 8078
+  reviews: 8080
   icon: com.kraken.invest.app.png
   meta: ok
   verdict: custodial

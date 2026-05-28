@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: ph
   released: 2021-01-18
-  updated: 2026-05-12
-  version: 14.10.0
+  updated: 2026-05-24
+  version: 14.10.1
   reviews: 3645
   icon: ph.pdax.mobile.png
   meta: ok

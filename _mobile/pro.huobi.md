@@ -23,7 +23,7 @@ android:
   released: 2017-11-01
   updated: 2026-05-22
   version: 11.20.1
-  reviews: 545
+  reviews: 544
   icon: pro.huobi.png
   meta: ok
   verdict: custodial

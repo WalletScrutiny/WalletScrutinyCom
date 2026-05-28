@@ -20,7 +20,7 @@ android:
   released: 2015-08-12
   updated: 2026-05-24
   version: 2026.21.3
-  reviews: 265994
+  reviews: 266022
   icon: com.robinhood.android.png
   meta: ok
   verdict: nosendreceive

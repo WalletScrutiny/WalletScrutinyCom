@@ -19,7 +19,7 @@ android:
   released: 2014-12-09
   updated: 2026-05-26
   version: 2.437.2
-  reviews: 1088243
+  reviews: 1088370
   icon: com.mercadopago.wallet.png
   meta: ok
   verdict: nosendreceive

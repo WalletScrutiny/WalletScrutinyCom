@@ -19,7 +19,7 @@ android:
   released: 2019-01-24
   updated: 2026-01-21
   version: '38.0'
-  reviews: 2599
+  reviews: 2600
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource

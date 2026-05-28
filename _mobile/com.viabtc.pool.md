@@ -19,7 +19,7 @@ android:
   released: 2017-12-16
   updated: 2026-04-14
   version: 3.14.0
-  reviews: 312
+  reviews: 313
   icon: com.viabtc.pool.png
   meta: ok
   verdict: custodial

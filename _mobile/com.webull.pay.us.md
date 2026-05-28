@@ -31,7 +31,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-04-29
   version: 2.2.2
-  reviews: 25827
+  reviews: 25829
   icon: com.webull.pay.us.jpg
   meta: ok
   verdict: custodial

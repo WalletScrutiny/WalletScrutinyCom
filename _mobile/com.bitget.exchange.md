@@ -19,7 +19,7 @@ android:
   released: 2020-04-03
   updated: 2026-05-25
   version: 2.83.3
-  reviews: 1683
+  reviews: 1685
   icon: com.bitget.exchange.png
   meta: ok
   verdict: custodial

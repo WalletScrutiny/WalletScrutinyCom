@@ -24,7 +24,7 @@ android:
   released: 2017-10-01
   updated: 2026-05-24
   version: 26.21.6
-  reviews: 21154
+  reviews: 21155
   icon: com.wallet.crypto.trustapp.png
   meta: ok
   verdict: nosource

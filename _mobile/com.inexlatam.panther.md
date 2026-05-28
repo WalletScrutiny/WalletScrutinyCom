@@ -17,9 +17,9 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-05
-  updated: 2026-05-14
-  version: 0.8.4
-  reviews: 5
+  updated: 2026-05-25
+  version: 0.8.5
+  reviews: 4
   icon: com.inexlatam.panther.png
   meta: ok
   verdict: custodial

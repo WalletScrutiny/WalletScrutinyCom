@@ -31,7 +31,7 @@ android:
   released: 2018-12-18
   updated: 2026-04-21
   version: 0.48.2
-  reviews: 132
+  reviews: 134
   icon: io.horizontalsystems.bankwallet.png
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:

@@ -15,7 +15,7 @@ android:
   released: 2025-03-21
   updated: 2026-05-18
   version: 6.172.0
-  reviews: 45
+  reviews: 46
   icon: com.okx.wallet.png
   meta: ok
   verdict: nosource
