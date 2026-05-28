@@ -71,16 +71,18 @@ const migration = function (header, body, fileName, categoryHelper, options = {}
     );
   }
 
-  header.social = header.social || [];
-  for (const l of header.social) {
-    if (l == null ||
-        typeof l !== 'string' ||
-        (!l.startsWith('http') && !l.startsWith('mailto:') && !l.startsWith('nostr:')) ||
-        l.includes(' ')) {
-      console.error(`# ${folder}${label}.md: Unrecognized "social" entry ${l}.`);
+  if (allowedHeaders.includes('social')) {
+    header.social = header.social || [];
+    for (const l of header.social) {
+      if (l == null ||
+          typeof l !== 'string' ||
+          (!l.startsWith('http') && !l.startsWith('mailto:') && !l.startsWith('nostr:')) ||
+          l.includes(' ')) {
+        console.error(`# ${folder}${label}.md: Unrecognized "social" entry ${l}.`);
+      }
     }
+    if (header.social.length < 1) header.social = null;
   }
-  if (header.social.length < 1) header.social = null;
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries
   if (category === 'hardware') {
     header.provider = header.provider || header.company || null;
