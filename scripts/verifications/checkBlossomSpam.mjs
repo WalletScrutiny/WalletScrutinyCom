@@ -6,6 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import {
   assetRegistrationKind,
+  assetBundleRegistrationKind,
   verificationDraftKind,
   verificationKind,
 } from "../../src/nostr-constants.mjs";
@@ -21,6 +22,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BACKUP_ROOT = path.resolve(__dirname, "../../backup/nostr-verification-events");
 const BACKUP_KIND_DIRS = [
   assetRegistrationKind,
+  assetBundleRegistrationKind,
   verificationKind,
   verificationDraftKind,
 ].map((kind) => path.join(BACKUP_ROOT, String(kind)));

@@ -1,6 +1,12 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationKind, verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
+import { assetBundleRegistrationKind, verificationKind, verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
+import {
+  assetRegistrationKinds,
+  getAssetFileEntries,
+  pickScriptBinaryEntry,
+  getAssetBundleDedupKey,
+} from "./asset-utils.mjs";
 import { formatDate, formatZapAmount, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { renderCommentsSection } from './assets-table-comments.js';
@@ -13,9 +19,73 @@ let attachments = [];
 let endorsements = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible (from the global table and from each verification)
 
-const getHashTags = event => (event.tags?.filter(tag => tag[0] === 'x') || []);
-const getDownloadHash = event => getHashTags(event)[0]?.[1] || null;
-const getVerificationLookupHash = event => getHashTags(event)[1]?.[1] || getHashTags(event)[0]?.[1] || null;
+const getHashTags = event => {
+  const entries = getAssetFileEntries(event);
+  return entries.map(entry => ['x', entry.hash, entry.fileName]);
+};
+const getVerificationLookupHash = event => {
+  if (event.kind === assetBundleRegistrationKind) {
+    return null;
+  }
+  const legacyX = event.tags?.filter(tag => tag[0] === 'x') || [];
+  return legacyX[1]?.[1] || legacyX[0]?.[1] || null;
+};
+const isAssetRegistrationEvent = event => assetRegistrationKinds.includes(event.kind);
+const findBundleAssetInGroup = group =>
+  group.items.find(item => item.kind === assetBundleRegistrationKind);
+
+function mergeGroupItems(target, source) {
+  const seen = new Set(target.items.map(item => item.id));
+  for (const item of source.items) {
+    if (!seen.has(item.id)) {
+      target.items.push(item);
+      seen.add(item.id);
+    }
+  }
+  target.items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+}
+
+function pickCanonicalRowSha256(group, bundleAsset, requestedSha256) {
+  const bundleHashes = getAssetFileEntries(bundleAsset).map(entry => entry.hash);
+  if (requestedSha256 && bundleHashes.includes(requestedSha256)) {
+    return requestedSha256;
+  }
+  return group.sha256;
+}
+
+/** One table row per multi-file asset (kind 9401), not one per indexed hash. */
+function mergeBundleAssetRows(groups, requestedSha256) {
+  const mergedBundles = new Map();
+  const legacyGroups = [];
+
+  for (const group of groups) {
+    const bundleAsset = findBundleAssetInGroup(group);
+    if (!bundleAsset) {
+      legacyGroups.push(group);
+      continue;
+    }
+
+    const bundleKey = getAssetBundleDedupKey(bundleAsset);
+    if (!bundleKey) {
+      legacyGroups.push(group);
+      continue;
+    }
+
+    const existing = mergedBundles.get(bundleKey);
+    if (existing) {
+      mergeGroupItems(existing, group);
+      existing.sha256 = pickCanonicalRowSha256(existing, bundleAsset, requestedSha256);
+    } else {
+      mergedBundles.set(bundleKey, {
+        sha256: pickCanonicalRowSha256(group, bundleAsset, requestedSha256),
+        items: [...group.items],
+      });
+    }
+  }
+
+  return [...mergedBundles.values(), ...legacyGroups];
+}
+
 const getPrimaryFileName = event => {
   const primaryFileTag = event.tags?.find(tag => tag[0] === 'file');
   if (primaryFileTag?.[1]) {
@@ -197,6 +267,63 @@ window.renderAssetsTable = async function({
     document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
   }
 
+  const blossomBundleModalHTML = `
+    <div id="blossomBundleModal" style="display: none; position: fixed; z-index: 1002; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+      <div style="background-color: #fefefe; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 90%; max-width: 520px; border-radius: 8px; color: black;">
+        <span id="blossomBundleCloseButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        <h3 style="margin-top: 0;">Download asset files</h3>
+        <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; text-align: left;">
+          <i class="fas fa-exclamation-triangle" style="color: #856404; font-size: 1.5em; flex-shrink: 0; margin-top: 2px;" aria-hidden="true"></i>
+          <p style="margin: 0; font-size: 0.95em;">These files were uploaded by third parties. Review before running.</p>
+        </div>
+        <ul id="blossomBundleFileList" style="list-style: none; padding: 0; text-align: left;"></ul>
+      </div>
+    </div>`;
+
+  if (!document.getElementById('blossomBundleModal')) {
+    document.body.insertAdjacentHTML('beforeend', blossomBundleModalHTML);
+  }
+
+  const openBlossomBundleDownloadModal = (files, context) => {
+    const modal = document.getElementById('blossomBundleModal');
+    const list = document.getElementById('blossomBundleFileList');
+    const closeButton = document.getElementById('blossomBundleCloseButton');
+    list.innerHTML = '';
+
+    for (const file of files) {
+      const li = document.createElement('li');
+      li.style.marginBottom = '10px';
+      const label = file.fileName || file.hash;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn btn-success btn-small';
+      btn.textContent = `Download ${label}`;
+      btn.addEventListener('click', () => {
+        let filename = file.fileName;
+        if (!filename && context) {
+          filename = `${context.appid}-${context.version}-${file.hash}`;
+          if (context.platform === 'android') {
+            filename += '.apk';
+          }
+        }
+        downloadFileWithFilename(file.hash, filename);
+      });
+      li.appendChild(btn);
+      list.appendChild(li);
+    }
+
+    const closeModal = () => {
+      modal.style.display = 'none';
+    };
+    closeButton.onclick = closeModal;
+    modal.onclick = (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+    modal.style.display = 'block';
+  };
+
   // Add attachment preview modal structure
   const attachmentPreviewModalHTML = `
     <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
@@ -327,9 +454,38 @@ window.renderAssetsTable = async function({
             observedHashes.add(hash);
 
             try {
-              if (await checkFileExistsInBlossom(hash)) {
+              const bundleFilesJson = downloadIcon.getAttribute('data-bundle-files');
+              const bundleFiles = bundleFilesJson
+                ? JSON.parse(decodeURIComponent(bundleFilesJson))
+                : null;
+              const hashesToCheck = bundleFiles
+                ? bundleFiles.map(f => f.hash)
+                : [hash];
+              const availableHashes = [];
+              for (const h of hashesToCheck) {
+                if (await checkFileExistsInBlossom(h)) {
+                  availableHashes.push(h);
+                }
+              }
+
+              if (availableHashes.length > 0) {
                 downloadIcon.style.display = 'inline';
                 downloadIcon.onclick = async () => {
+                  const context = {
+                    appid: downloadIcon.getAttribute('data-appid'),
+                    platform: downloadIcon.getAttribute('data-platform'),
+                    version: downloadIcon.getAttribute('data-version'),
+                  };
+
+                  const filesForDownload = bundleFiles
+                    ? bundleFiles.filter(f => availableHashes.includes(f.hash))
+                    : [{ hash, fileName: downloadIcon.getAttribute('data-filename') || null }];
+
+                  if (filesForDownload.length > 1) {
+                    openBlossomBundleDownloadModal(filesForDownload, context);
+                    return;
+                  }
+
                   const modal = document.getElementById('blossomWarningModal');
                   const confirmButton = document.getElementById('blossomConfirmDownloadButton');
                   const closeButton = document.getElementById('blossomCloseModalButton');
@@ -443,14 +599,15 @@ window.renderAssetsTable = async function({
 
   // It's items because they can be verifications or assets (no status or content)
   // Convert to array and sort by most recent item in each group
-  const sortedItems = Array.from(combinedItems).map(([sha256, items]) => {
-    // Sort assets within each SHA256 group by date and take the most recent one
-    const sortedItems = items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  let sortedItems = Array.from(combinedItems).map(([sha256Key, items]) => {
+    const sortedGroupItems = items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
     return {
-      sha256,
-      items: sortedItems
+      sha256: sha256Key,
+      items: sortedGroupItems,
     };
   });
+
+  sortedItems = mergeBundleAssetRows(sortedItems, sha256);
 
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
@@ -557,10 +714,9 @@ window.renderAssetsTable = async function({
 
       const eventId = binary.id;
       const sha256Hashes = getHashTags(binary).slice(0, 6);
-      const downloadHash = getDownloadHash(binary);
-      const verificationLookupHash = item.sha256 || getVerificationLookupHash(binary);
-
       const sha256HashKey = item.sha256;
+      const downloadHash = sha256HashKey;
+      const verificationLookupHash = item.sha256 || getVerificationLookupHash(binary);
       const version = getFirstTagValue(binary, 'version');
       const identifier = getFirstTagValue(binary, 'i');
       const platform = getFirstTagValue(binary, 'platform');
@@ -568,7 +724,7 @@ window.renderAssetsTable = async function({
       let thisHashHasAssets = false;
 
       item.items.forEach(item => {
-        if (item.kind === assetRegistrationKind) {
+        if (isAssetRegistrationEvent(item)) {
           thisHashHasAssets = true;
         }
       });
@@ -582,11 +738,32 @@ window.renderAssetsTable = async function({
       }
       
       // Get description, guess if it's an asset or a verification
-      const itemDescription = binary.kind === assetRegistrationKind ? binary.content : JSON.parse(binary.content).description;
+      const itemDescription = isAssetRegistrationEvent(binary)
+        ? binary.content
+        : JSON.parse(binary.content).description;
 
-      const standardAttestations = response.verifications.get(verificationLookupHash) || [];
-      const draftAttestations = response.draftVerifications.get(verificationLookupHash) || [];
-      const attestations = [...standardAttestations, ...draftAttestations];
+      const collectAttestationsForHashes = (hashes) => {
+        const seen = new Set();
+        const collected = [];
+        for (const hash of hashes) {
+          for (const attestation of [
+            ...(response.verifications.get(hash) || []),
+            ...(response.draftVerifications.get(hash) || []),
+          ]) {
+            if (!seen.has(attestation.id)) {
+              seen.add(attestation.id);
+              collected.push(attestation);
+            }
+          }
+        }
+        return collected;
+      };
+
+      const bundleHashes = getAssetFileEntries(binary).map(entry => entry.hash);
+      const lookupHashes = bundleHashes.length > 1
+        ? bundleHashes
+        : [verificationLookupHash || bundleHashes[0]].filter(Boolean);
+      const attestations = collectAttestationsForHashes(lookupHashes);
 
       let verificationsList;
       if (attestations.length > 0) {
@@ -649,17 +826,35 @@ window.renderAssetsTable = async function({
       const wallet = window.wallets.find(w => w.appId === identifier);
       const walletTitle = wallet ? wallet.title : identifier;
 
-      // Get the file name from the asset registration events
       let fileName = '';
-      item.items.forEach(item => {
-        if (item.kind === assetRegistrationKind) {
-          const fileNameFromAssetRegistration = getPrimaryFileName(item);
-          if (fileNameFromAssetRegistration) {
-            fileName = fileNameFromAssetRegistration.replace(/\s+/g, '-');
+      let bundleFilesForDownload = [];
+      item.items.forEach(assetEvent => {
+        if (isAssetRegistrationEvent(assetEvent)) {
+          const entries = getAssetFileEntries(assetEvent);
+          if (entries.length > 0) {
+            bundleFilesForDownload = entries.map(e => ({
+              hash: e.hash,
+              fileName: e.fileName,
+            }));
+            const scriptBinary = pickScriptBinaryEntry(assetEvent);
+            if (scriptBinary?.fileName) {
+              fileName = scriptBinary.fileName.replace(/\s+/g, '-');
+            }
+          } else {
+            const fileNameFromAssetRegistration = getPrimaryFileName(assetEvent);
+            if (fileNameFromAssetRegistration) {
+              fileName = fileNameFromAssetRegistration.replace(/\s+/g, '-');
+            }
           }
         }
       });
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
+      const bundleFilesAttr = bundleFilesForDownload.length > 0
+        ? ` data-bundle-files="${encodeURIComponent(JSON.stringify(bundleFilesForDownload))}"`
+        : '';
+      const downloadTitle = bundleFilesForDownload.length > 1
+        ? `Download ${bundleFilesForDownload.length} files from Blossom`
+        : 'Download from Blossom';
 
       const row = document.createElement('tr');
       // Use a class to track initially hidden rows instead of inline style
@@ -671,28 +866,28 @@ window.renderAssetsTable = async function({
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
           </div>`).join('') : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
           </div>`).join('') : '-'}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
             <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button>
           </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
           ${downloadHash ? `
-            <span id="blossom-${downloadHash}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+            <span id="blossom-${downloadHash}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}"${bundleFilesAttr} class="blossom-download" style="display: none; cursor: pointer;" title="${downloadTitle}">💾</span>
           ` : '-'}
         </td>
         <td>${verificationsList}</td>

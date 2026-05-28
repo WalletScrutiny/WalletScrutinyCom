@@ -2,12 +2,12 @@ import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
 
 global.WebSocket = WebSocket;
 
-const KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
+const KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
 const VERIFICATION_KINDS = KINDS.filter(kind => kind !== opinionKind);
 const BASE_DIR = path.join(process.cwd(), "backup");
 

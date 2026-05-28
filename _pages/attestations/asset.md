@@ -50,7 +50,7 @@ permalink: /asset/
       binariesTable.style.display = 'block';
       registerAssetButton.style.display = 'none';
       if (result.hasVerifications) {
-        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. You can click on available verifications to view their details.';
+        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided (including multi-file bundles indexed by any file hash). You can click on available verifications to view their details.';
       } else {
         explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. No verifications have been made yet. If you\'ve verified this binary by building it from source yourself, you can contribute by creating a new verification to help others verify its authenticity.';
       }
