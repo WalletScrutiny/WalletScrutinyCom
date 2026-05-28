@@ -3,6 +3,7 @@ import DOMPurify from 'isomorphic-dompurify';
 import {
   verificationKind,
   assetRegistrationKind,
+  assetBundleRegistrationKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
   wsBotPublicKey,
@@ -228,7 +229,7 @@ export async function getAllAssetsForTheseAppIds(appIds) {
   appLog.info(`Getting assets for ${appIds.length} app ids...`);
 
   const events = await ndk.fetchEvents({
-    kinds: [assetRegistrationKind],
+    kinds: [assetRegistrationKind, assetBundleRegistrationKind],
     since: verificationEventsSinceTS,
     '#i': appIds,
   });

@@ -27,6 +27,11 @@ import { appLog, verificationsLog } from './logger.mjs';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR_PREFIX } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
+import {
+  getAssetFileEntries,
+  pickScriptBinaryEntry,
+  isAssetBundleRegistrationKind,
+} from './asset-utils.mjs';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -130,6 +135,39 @@ if (process.env.BUILD_SERVER_TEST !== '1') {
  * @param {string} destinationPath - The local path where the file should be saved
  * @returns {Promise<{success: boolean, error?: string}>} - Result of the download operation
  */
+export async function downloadAssetFilesToDir(asset, buildDir) {
+  const entries = getAssetFileEntries(asset);
+  if (entries.length === 0) {
+    return { success: false, error: 'No file hashes in asset event' };
+  }
+
+  for (const { hash, fileName } of entries) {
+    const baseName = fileName
+      ? sanitizeFilesystemSegment(path.basename(fileName))
+      : `${hash}.bin`;
+    const destinationPath = path.join(buildDir, baseName);
+    const result = await downloadFileFromBlossom(hash, destinationPath);
+    if (!result.success) {
+      return { success: false, error: result.error, hash };
+    }
+  }
+
+  const scriptBinary = pickScriptBinaryEntry(asset);
+  if (!scriptBinary) {
+    return { success: false, error: 'No files in asset event' };
+  }
+  const scriptBinaryBaseName = scriptBinary.fileName
+    ? sanitizeFilesystemSegment(path.basename(scriptBinary.fileName))
+    : `${scriptBinary.hash}.bin`;
+
+  return {
+    success: true,
+    primaryPath: path.join(buildDir, scriptBinaryBaseName),
+    primaryHash: scriptBinary.hash,
+    allHashes: entries.map(entry => entry.hash),
+  };
+}
+
 export async function downloadFileFromBlossom(fileHash, destinationPath) {
   const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
   let response;
@@ -225,7 +263,11 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     const appId = getFirstTagValue(asset, 'i');
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
-    const fileName = getFirstTagValue(asset, 'file-name') ?? null;
+    const assetFileEntries = getAssetFileEntries(asset);
+    const fileName = pickScriptBinaryEntry(asset)?.fileName
+      ?? assetFileEntries[0]?.fileName
+      ?? getFirstTagValue(asset, 'file-name')
+      ?? null;
     if (!fileName && platform !== 'android') {
       appLog.debug(`   no file name found for appId=${appId}, version=${version}, and platform=${platform}. Skipping...`);
       continue;
@@ -263,17 +305,22 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       return null;
     };
 
-    const fileHash = getFirstTagValue(asset, 'x');
-    appLog.debug(`     - file hash found: ${fileHash}`);
+    const assetHashes = assetFileEntries.map(entry => entry.hash);
+    const fileHash = pickScriptBinaryEntry(asset)?.hash ?? getFirstTagValue(asset, 'x');
+    appLog.debug(`     - asset file hashes: ${assetHashes.join(', ')}`);
 
-    // For split APK assets (Android zip uploads), x[0] is the zip transport hash
-    // and x[1] is the base APK hash. Verifications are indexed by the APK hash
-    // (matching the site-side MR !1405 asset lookup key), so use x[1] when present.
-    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
-    const verificationHash = (platform === 'android' && allHashes.length > 1)
-      ? allHashes[1]
-      : fileHash;
-    appLog.debug(`     - verification hash: ${verificationHash}`);
+    const verificationHash = isAssetBundleRegistrationKind(asset.kind)
+      ? null
+      : (() => {
+        const legacyHashes = asset.tags
+          .filter(tag => tag[0] === 'x')
+          .map(tag => tag[1])
+          .filter(id => id?.length === 64);
+        return (platform === 'android' && legacyHashes.length > 1)
+          ? legacyHashes[1]
+          : fileHash;
+      })();
+    appLog.debug(`     - verification lookup hash: ${verificationHash ?? assetHashes.join(',')}`);
 
     let archAndType = null;
     if (legacyPlatform === 'android') {
@@ -312,8 +359,10 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
         type,
         fileEventIdsForSHFiles: [candidate.buildShFileEvent.id],
         fileHash,
+        assetHashes,
         verificationHash,
         jobType: 'asset',
+        asset,
         buildShFileEvent: candidate.buildShFileEvent,
         downloadedFileName,
         githubToken,
@@ -444,8 +493,10 @@ export async function addJobToQueue({
   type,
   fileEventIdsForSHFiles,
   fileHash,
+  assetHashes,
   verificationHash,
   jobType,
+  asset,
   buildShFileEvent,
   downloadedFileName,
   outputFileName,
@@ -465,8 +516,10 @@ export async function addJobToQueue({
     type,
     fileEventIdsForSHFiles,
     fileHash,
+    assetHashes,
     verificationHash,
     jobType,
+    asset,
     buildShFileEvent,
     downloadedFileName,
     outputFileName,
@@ -539,7 +592,7 @@ export async function addJobToQueue({
       architecture,
       type,
       fileEventIdsForSHFiles,
-      verificationHash ?? fileHash,
+      assetHashes?.length ? assetHashes : [verificationHash ?? fileHash].filter(Boolean),
       binaryFilePath,
       dbVerificationRowId
     );
@@ -558,8 +611,10 @@ async function runJobWithPreparation({
   type,
   fileEventIdsForSHFiles,
   fileHash,
+  assetHashes,
   verificationHash,
   jobType,
+  asset,
   buildShFileEvent,
   downloadedFileName,
   outputFileName,
@@ -574,28 +629,26 @@ async function runJobWithPreparation({
 
   let binaryFilePath = null;
   if (jobType === 'asset') {
-    const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
-    appLog.debug(`     - downloading from Blossom... ${fileHash}`);
-    const downloadResult = await downloadFileFromBlossom(fileHash, downloadedFileNamePath);
+    appLog.debug(`     - downloading asset file(s) from Blossom into ${buildDirForThisVerification}`);
+    const downloadResult = await downloadAssetFilesToDir(asset, buildDirForThisVerification);
     if (!downloadResult.success) {
       throw new Error(`File not found in Blossom (${downloadResult.error})`);
     }
-    appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+    binaryFilePath = downloadResult.primaryPath;
+    appLog.debug(`     - saved ${getAssetFileEntries(asset).length} file(s); --binary path ${binaryFilePath}`);
 
     if (
       platform === 'android' &&
-      downloadedFileNamePath.toLowerCase().endsWith('.zip')
+      binaryFilePath.toLowerCase().endsWith('.zip')
     ) {
-      const hasBaseApk = await zipContainsBaseApk(downloadedFileNamePath);
+      const hasBaseApk = await zipContainsBaseApk(binaryFilePath);
       if (!hasBaseApk) {
         appLog.warn(
-          `     - base.apk not found inside ${downloadedFileNamePath}. Cannot run Android verification from this asset; skipping job.`
+          `     - base.apk not found inside ${binaryFilePath}. Cannot run Android verification from this asset; skipping job.`
         );
         return null;
       }
     }
-
-    binaryFilePath = downloadedFileNamePath;
   }
 
   const scriptWithPath = jobType === 'asset'
@@ -778,7 +831,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, fileHash, binaryFilePath = null, dbVerificationRowId = null) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, binaryFilePath = null, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   const ndkInstance = getNdk();
@@ -838,7 +891,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
     status: verdict,
-    hashes: [fileHash],
+    hashes: Array.isArray(hashes) && hashes.length > 0 ? hashes : [],
     description: description,
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
@@ -857,7 +910,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId.id}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId.id}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification) && verdict === 'reproducible') {
       removeDirectoryRecursive(buildDirForThisVerification);

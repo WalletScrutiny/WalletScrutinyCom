@@ -6,7 +6,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom } from '../verifications.mjs';
+import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir } from '../verifications.mjs';
+import { assetBundleRegistrationKind } from '../nostr-constants.mjs';
 
 const debugBuildDir = fileURLToPath(new URL('../build_server_build_dir', import.meta.url));
 const tempDirs = [];
@@ -77,6 +78,43 @@ describe('readComparisonResults', () => {
         notes: null
       }
     );
+  });
+});
+
+describe('downloadAssetFilesToDir', () => {
+  test('downloads each file in a bundle asset to the build directory', async () => {
+    const dir = makeTempDir('bundle-download');
+    const hashA = 'a'.repeat(64);
+    const hashB = 'b'.repeat(64);
+    const asset = {
+      kind: assetBundleRegistrationKind,
+      tags: [
+        ['i', 'com.example.app'],
+        ['version', '1.0.0'],
+        ['platform', 'android'],
+        ['x', hashA, 'extra.dat'],
+        ['x', hashB, 'primary.apk'],
+      ],
+    };
+
+    const fetchCalls = [];
+    globalThis.fetch = async (url) => {
+      fetchCalls.push(url);
+      const hash = url.endsWith(hashA) ? hashA : hashB;
+      return {
+        ok: true,
+        status: 200,
+        body: Readable.toWeb(Readable.from([`payload-${hash.slice(0, 8)}`])),
+      };
+    };
+
+    const result = await downloadAssetFilesToDir(asset, dir);
+
+    assert.equal(result.success, true);
+    assert.equal(result.primaryHash, hashB);
+    assert.equal(fs.readFileSync(path.join(dir, 'primary.apk'), 'utf8'), `payload-${hashB.slice(0, 8)}`);
+    assert.equal(fs.readFileSync(path.join(dir, 'extra.dat'), 'utf8'), `payload-${hashA.slice(0, 8)}`);
+    assert.equal(fetchCalls.length, 2);
   });
 });
 
