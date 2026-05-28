@@ -40,7 +40,7 @@ Trust in verifications is built through:
 
 #### Asset Bundle Registration (WalletScrutiny / kind 9401)
 
-All **new** asset registrations use this kind (including a single file). Each file is a tag `["x", "<sha256>", "<filename>"]`. The first `x` tag is the primary hash (lookup URL, verification target). Debug sites use kind **9605**.
+All **new** asset registrations use this kind (including if there is only a single file). Each file is a tag `["x", "<sha256>", "<filename>"]`. Verifications that cover the whole bundle should list every hash in their own `x` tags. Debug sites use kind **9605**.
 
 ```json
 {
