@@ -38,7 +38,29 @@ Trust in verifications is built through:
 
 ### Event Types
 
-#### Asset Registration ([nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) / kind 1063)
+#### Asset Bundle Registration (WalletScrutiny / kind 9401)
+
+All **new** asset registrations use this kind (including if there is only a single file). Each file is a tag `["x", "<sha256>", "<filename>"]`. Verifications that cover the whole bundle should list every hash in their own `x` tags. Debug sites use kind **9605**.
+
+```json
+{
+  "id":      "<asset-event-id>",
+  "kind":    9401,
+  "tags":    [
+    ["i",        "<product-id>"],         // app.zeusln.zeus
+    ["version",  "<version>"],            // 1.2.3
+    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["x",        "<asset-hash-1>", "<file-name-1>"],
+    ["x",        "<asset-hash-2>", "<file-name-2>"]
+  ],
+  "content": "Asset description"
+}
+```
+
+#### Asset Registration — legacy ([nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) / kind 1063)
+
+Existing events only; do not use for new registrations.
+
 ```json
 {
   "id":      "<asset-event-id>",

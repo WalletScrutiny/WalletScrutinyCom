@@ -5,7 +5,8 @@ import json
 
 ALLOWED_KINDS = {
     5,              # event deletion (NIP-09); required for clients to delete events we store
-    1267, 1063,     # asset registration
+    1267, 1063,     # asset registration (NIP-94)
+    9605, 9401,     # asset bundle registration (WalletScrutiny)
     32304, 30301,   # verification
     30901, 30801,   # verification draft
     30902, 30802,   # verification comment
