@@ -6,6 +6,13 @@ import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
+import {
+  getAssetFileEntries,
+  getLegacyAssetLookupHash,
+  isAssetBundleRegistrationKind,
+  bundleHasFullVerification,
+  getAssetBundleDedupKey,
+} from './asset-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
@@ -266,19 +273,18 @@ export function filterAssetsWithoutVerification(assets, verifications) {
     const platform = getFirstTagValue(asset, 'platform');
     const isInDebugList = debugPairs.has(`${appId}\0${version}`);
 
-    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
-    const isSplitAndroid = platform === 'android' && allHashes.length > 1;
+    const fileEntries = getAssetFileEntries(asset);
+    const allHashes = fileEntries.map(entry => entry.hash);
+    const isBundle = isAssetBundleRegistrationKind(asset.kind);
+    const isSplitAndroid = !isBundle && platform === 'android' && allHashes.length > 1;
 
-    // Primary lookup hash: x[1] (inner APK hash) for split Android assets going
-    // forward; x[0] for everything else (single APK, desktop, hardware).
-    const sha256 = isSplitAndroid ? allHashes[1] : (allHashes[0] ?? null);
+    const sha256 = isBundle ? getAssetBundleDedupKey(asset) : getLegacyAssetLookupHash(asset);
 
-    // For split Android assets, also accept old verifications keyed on x[0]
-    // (zip hash) so assets verified before the hash-model change are not
-    // re-queued and do not produce duplicate verifications.
-    const isVerified = isSplitAndroid
-      ? (verifications.has(allHashes[0]) || verifications.has(allHashes[1]))
-      : (sha256 && verifications.has(sha256));
+    const isVerified = isBundle
+      ? bundleHasFullVerification(asset, verifications)
+      : isSplitAndroid
+        ? (verifications.has(allHashes[0]) || verifications.has(allHashes[1]))
+        : (sha256 && verifications.has(sha256));
 
     const hasNoVerification = sha256 && !isVerified;
     const shouldInclude = (hasNoVerification || isInDebugList) && sha256 && !seenSha256.has(sha256);

@@ -25,6 +25,13 @@ import {
   createCompilationDirectory
 } from '../utils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
+import { assetBundleRegistrationKind } from '../nostr-constants.mjs';
+import {
+  getAssetFileEntries,
+  pickScriptBinaryEntry,
+  bundleHasFullVerification,
+  getAssetBundleDedupKey,
+} from '../asset-utils.mjs';
 
 const debugBuildDir = fileURLToPath(new URL('../build_server_build_dir', import.meta.url));
 const tempDirs = [];
@@ -52,10 +59,11 @@ const HASH_B = 'b'.repeat(64);
 const HASH_C = 'c'.repeat(64);
 const TOO_SHORT = 'd'.repeat(32);
 
-function makeEvent({ id = 'evt', pubkey = 'pk', tags = [], created_at = 0, content = '' } = {}) {
+function makeEvent({ id = 'evt', pubkey = 'pk', kind, tags = [], created_at = 0, content = '' } = {}) {
   return {
     id,
     pubkey,
+    kind,
     tags,
     created_at,
     content,
@@ -66,12 +74,17 @@ function makeEvent({ id = 'evt', pubkey = 'pk', tags = [], created_at = 0, conte
   };
 }
 
-function makeAsset({ appId, platform, version = '1.0.0', hashes = [], fileName }) {
+function makeAsset({ appId, platform, version = '1.0.0', hashes = [], fileName, kind }) {
   const tags = [
     ['i', appId],
     ['platform', platform],
     ['version', version],
   ];
+  if (kind === assetBundleRegistrationKind) {
+    const names = Array.isArray(fileName) ? fileName : hashes.map((_, i) => `file-${i}.bin`);
+    hashes.forEach((hash, i) => tags.push(['x', hash, names[i] ?? `file-${i}.bin`]));
+    return makeEvent({ kind, tags });
+  }
   for (const hash of hashes) tags.push(['x', hash]);
   if (fileName) tags.push(['file-name', fileName]);
   return makeEvent({ tags });
@@ -295,6 +308,86 @@ describe('filterAssetsWithoutVerification', () => {
   test('skips assets that have no usable 64-char hash', () => {
     const asset = makeAsset({ appId: 'a', platform: 'linux', hashes: [TOO_SHORT] });
     assert.deepEqual(filterAssetsWithoutVerification([asset], new Map()), []);
+  });
+
+  test('bundle is verified only when a verification lists every file hash', () => {
+    const bundle = makeEvent({
+      kind: assetBundleRegistrationKind,
+      tags: [
+        ['i', 'a'],
+        ['platform', 'linux'],
+        ['version', '1.0.0'],
+        ['x', HASH_A, 'extra.bin'],
+        ['x', HASH_B, 'main.bin'],
+      ],
+    });
+    const partial = new Map([[HASH_B, [makeVerification({
+      appId: 'a',
+      platform: 'linux',
+      version: '1',
+      extraTags: [['x', HASH_B]],
+    })]]]);
+    const full = new Map([[HASH_A, [makeVerification({
+      appId: 'a',
+      platform: 'linux',
+      version: '1',
+      extraTags: [['x', HASH_A], ['x', HASH_B]],
+    })]]]);
+
+    assert.deepEqual(filterAssetsWithoutVerification([bundle], partial), [bundle]);
+    assert.deepEqual(filterAssetsWithoutVerification([bundle], full), []);
+  });
+});
+
+describe('getAssetFileEntries', () => {
+  test('parses bundle x tags with filenames', () => {
+    const bundle = makeAsset({
+      kind: assetBundleRegistrationKind,
+      appId: 'a',
+      platform: 'linux',
+      hashes: [HASH_A, HASH_B],
+      fileName: ['a.apk', 'b.dat'],
+    });
+    assert.deepEqual(getAssetFileEntries(bundle), [
+      { hash: HASH_A, fileName: 'a.apk' },
+      { hash: HASH_B, fileName: 'b.dat' },
+    ]);
+  });
+});
+
+describe('pickScriptBinaryEntry', () => {
+  test('picks apk by filename regardless of x tag order', () => {
+    const bundle = makeEvent({
+      kind: assetBundleRegistrationKind,
+      tags: [
+        ['i', 'a'],
+        ['platform', 'android'],
+        ['version', '1.0.0'],
+        ['x', HASH_A, 'readme.txt'],
+        ['x', HASH_B, 'app.apk'],
+      ],
+    });
+    assert.equal(pickScriptBinaryEntry(bundle).hash, HASH_B);
+  });
+});
+
+describe('getAssetBundleDedupKey', () => {
+  test('is stable regardless of x tag order', () => {
+    const forward = makeEvent({
+      kind: assetBundleRegistrationKind,
+      tags: [
+        ['x', HASH_A, 'a.bin'],
+        ['x', HASH_B, 'b.bin'],
+      ],
+    });
+    const reverse = makeEvent({
+      kind: assetBundleRegistrationKind,
+      tags: [
+        ['x', HASH_B, 'b.bin'],
+        ['x', HASH_A, 'a.bin'],
+      ],
+    });
+    assert.equal(getAssetBundleDedupKey(forward), getAssetBundleDedupKey(reverse));
   });
 });
 

@@ -2,7 +2,7 @@
  * publishToRelay.mjs - Re-publish backed-up Nostr events to a target relay
  *
  * Publishes all kinds from the local backup in dependency order:
- *   1063 → 30301 → 1337 → 30802 → 31871 → 30801
+ *   1063 → 9401 → 30301 → 1337 → 30802 → 31871 → 30801
  *
  * Events are already signed — no private key needed.
  * The relay receives ["EVENT", signedEvent] and responds with ["OK", ...].
@@ -12,10 +12,11 @@ import WebSocket from "ws";
 import fs from "fs";
 import path from "path";
 
-const KIND_ORDER = [1063, 30301, 1337, 30802, 31871, 30801];
+const KIND_ORDER = [1063, 9401, 30301, 1337, 30802, 31871, 30801];
 
 export const KIND_NAMES = {
   1063:  "Asset Registration",
+  9401:  "Asset Bundle Registration",
   1337:  "Code Snippet",
   30301: "Verification",
   30801: "Draft",

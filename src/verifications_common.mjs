@@ -61,7 +61,7 @@ const userHasBrowserExtension = function() {
 export {
   isDebugEnv,
   getFirstTagValue,
-  userHasBrowserExtension
+  userHasBrowserExtension,
 };
 
 if (typeof window !== 'undefined') {
