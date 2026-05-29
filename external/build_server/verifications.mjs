@@ -135,36 +135,56 @@ if (process.env.BUILD_SERVER_TEST !== '1') {
  * @param {string} destinationPath - The local path where the file should be saved
  * @returns {Promise<{success: boolean, error?: string}>} - Result of the download operation
  */
+const MULTI_FILE_BINARY_DIR = 'binary';
+
+function entryDestinationBaseName({ hash, fileName }) {
+  return fileName
+    ? sanitizeFilesystemSegment(path.basename(fileName))
+    : `${hash}.bin`;
+}
+
+/**
+ * Downloads asset file(s) from Blossom into buildDir.
+ * Single-file assets: files land in buildDir and primaryPath is that file path (--binary).
+ * Multi-file assets: files land in buildDir/binary and primaryPath is that directory (--binary).
+ */
 export async function downloadAssetFilesToDir(asset, buildDir) {
   const entries = getAssetFileEntries(asset);
   if (entries.length === 0) {
     return { success: false, error: 'No file hashes in asset event' };
   }
 
-  for (const { hash, fileName } of entries) {
-    const baseName = fileName
-      ? sanitizeFilesystemSegment(path.basename(fileName))
-      : `${hash}.bin`;
-    const destinationPath = path.join(buildDir, baseName);
-    const result = await downloadFileFromBlossom(hash, destinationPath);
+  const isMultiFile = entries.length > 1;
+  const downloadDir = isMultiFile
+    ? path.join(buildDir, MULTI_FILE_BINARY_DIR)
+    : buildDir;
+
+  if (isMultiFile) {
+    fs.mkdirSync(downloadDir, { recursive: true });
+  }
+
+  for (const entry of entries) {
+    const destinationPath = path.join(downloadDir, entryDestinationBaseName(entry));
+    const result = await downloadFileFromBlossom(entry.hash, destinationPath);
     if (!result.success) {
-      return { success: false, error: result.error, hash };
+      return { success: false, error: result.error, hash: entry.hash };
     }
   }
 
-  const scriptBinary = pickScriptBinaryEntry(asset);
-  if (!scriptBinary) {
-    return { success: false, error: 'No files in asset event' };
+  if (isMultiFile) {
+    return {
+      success: true,
+      primaryPath: downloadDir,
+      allHashes: entries.map(entry => entry.hash),
+    };
   }
-  const scriptBinaryBaseName = scriptBinary.fileName
-    ? sanitizeFilesystemSegment(path.basename(scriptBinary.fileName))
-    : `${scriptBinary.hash}.bin`;
 
+  const entry = entries[0];
   return {
     success: true,
-    primaryPath: path.join(buildDir, scriptBinaryBaseName),
-    primaryHash: scriptBinary.hash,
-    allHashes: entries.map(entry => entry.hash),
+    primaryPath: path.join(downloadDir, entryDestinationBaseName(entry)),
+    primaryHash: entry.hash,
+    allHashes: [entry.hash],
   };
 }
 
@@ -635,7 +655,9 @@ async function runJobWithPreparation({
       throw new Error(`File not found in Blossom (${downloadResult.error})`);
     }
     binaryFilePath = downloadResult.primaryPath;
-    appLog.debug(`     - saved ${getAssetFileEntries(asset).length} file(s); --binary path ${binaryFilePath}`);
+    const assetFileCount = getAssetFileEntries(asset).length;
+    const binaryArgKind = assetFileCount > 1 ? 'directory' : 'file';
+    appLog.debug(`     - saved ${assetFileCount} file(s); --binary ${binaryArgKind} path ${binaryFilePath}`);
 
     if (
       platform === 'android' &&
