@@ -162,8 +162,11 @@ function add (appIds) {
         const fileName = `${appId}.md`;
         const filePath = path.join(MOBILE_DIR, fileName);
         return fs.access(filePath)
-          .then(() => refreshFile(fileName))
-          .catch(() => {
+          .then(() => {
+            const loaded = loadMobileFromFile(filePath);
+            loaded.mobile.android = { appId, meta: 'ok', verdict: 'wip' };
+            refreshFile(fileName, loaded);
+          }, () => {
             const mobile = {
               title: null,
               android: { appId, meta: 'ok', verdict: 'wip' },
