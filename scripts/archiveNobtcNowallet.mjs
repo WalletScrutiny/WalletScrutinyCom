@@ -4,6 +4,7 @@
 
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath, pathToFileURL } from 'url';
 import helper from './helper.mjs';
 
 const PLATFORMS = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
@@ -56,11 +57,42 @@ async function deleteImagesForFile(platform, icon) {
 function removeFields(header) {
   const updatedHeader = {};
   FIELDS_TO_KEEP.forEach(field => {
-    if (header.hasOwnProperty(field)) {
+    if (Object.prototype.hasOwnProperty.call(header, field)) {
       updatedHeader[field] = header[field];
     }
   });
   return updatedHeader;
+}
+
+function pickStoreField(mobile, field) {
+  const androidVal = mobile.android?.[field];
+  if (androidVal != null && androidVal !== '') {
+    return androidVal;
+  }
+  const iphoneVal = mobile.iphone?.[field];
+  if (iphoneVal != null && iphoneVal !== '') {
+    return iphoneVal;
+  }
+  const rootVal = mobile[field];
+  if (rootVal != null && rootVal !== '') {
+    return rootVal;
+  }
+  return undefined;
+}
+
+/** Flat archived frontmatter (title, appId, meta, verdict) from unified _mobile layout. */
+function buildArchivedMobileHeader(mobile) {
+  const archived = {};
+  if (mobile.title != null && mobile.title !== '') {
+    archived.title = mobile.title;
+  }
+  for (const field of ['appId', 'meta', 'verdict']) {
+    const value = pickStoreField(mobile, field);
+    if (value != null && value !== '') {
+      archived[field] = value;
+    }
+  }
+  return archived;
 }
 
 async function ensureArchiveDirectory(platform) {
@@ -161,9 +193,7 @@ async function processMobileFile(fileName) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
-    const updatedHeader = removeFields(header);
-    delete updatedHeader.android;
-    delete updatedHeader.iphone;
+    const updatedHeader = buildArchivedMobileHeader(header);
 
     let imagesDeleted = 0;
     const imageErrors = [];
@@ -331,8 +361,16 @@ async function main() {
   console.log('\nArchive process completed.');
 }
 
-main().catch(error => {
-  console.error('Fatal error:', error);
-  process.exit(1);
-});
+export { buildArchivedMobileHeader, pickStoreField };
+
+const isArchiveNobtcCli =
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isArchiveNobtcCli) {
+  main().catch(error => {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  });
+}
 
