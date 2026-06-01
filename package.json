@@ -29,7 +29,7 @@
     "github-graphql-api": "^1.0.6",
     "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "html-webpack-plugin": "^5.6.7",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.2.0",
     "minimist": "^1.2.8",
     "p-limit": "^4.0.0",
     "postcss": "^8.5.15",
