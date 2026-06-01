@@ -26,10 +26,12 @@ async function refresh (markRemoved, apps) {
   fs.writeFileSync(defunctsFile, yamlStr, 'utf8');
   if (apps) {
     const ids = apps.split(',');
-    const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1]);
-    const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1]);
-    appStore.refreshAll(appStoreIds, markRemoved);
-    playStore.refreshAll(playStoreIds, markRemoved);
+    const mobileSlugs = ids.filter(it => it.startsWith('mobile/')).map(it => it.split('/')[1]);
+    const appStoreIds = ids.filter(it => it.startsWith('iphone/')).map(it => it.split('/')[1]);
+    const playStoreIds = ids.filter(it => it.startsWith('android/')).map(it => it.split('/')[1]);
+    const sharedSlugs = mobileSlugs.length > 0 ? mobileSlugs : [];
+    appStore.refreshAll([...appStoreIds, ...sharedSlugs], markRemoved);
+    playStore.refreshAll([...playStoreIds, ...sharedSlugs], markRemoved);
   } else {
     appStore.refreshAll();
     playStore.refreshAll();

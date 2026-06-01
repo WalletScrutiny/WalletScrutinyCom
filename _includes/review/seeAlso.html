@@ -1,12 +1,24 @@
 {%- comment -%}
 SeeAlso: Show links to same wallet on other platforms.
 Uses precomputed.json for O(1) lookup instead of O(n) collection search.
+On mobile pages, omit android/iphone entries merged into the current page.
 {%- endcomment -%}
-{%- assign key = include.platform | append: "/" | append: page.appId -%}
+{%- assign see_also_app_id = include.appId | default: page.appId -%}
+{%- assign key = include.platform | append: "/" | append: see_also_app_id -%}
 {%- assign seeAlsoData = site.data.precomputed.seeAlso[key] -%}
 {%- if seeAlsoData -%}
-<div class="see-also-container">
+{%- capture see_also_items -%}
 {%- for item in seeAlsoData -%}
+  {%- assign skip_merged_sibling = false -%}
+  {%- if page.collection == 'mobile' -%}
+    {%- if item.platform == 'android' and page.android.appId and item.appId == page.android.appId -%}
+      {%- assign skip_merged_sibling = true -%}
+    {%- endif -%}
+    {%- if item.platform == 'iphone' and page.iphone.appId and item.appId == page.iphone.appId -%}
+      {%- assign skip_merged_sibling = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- unless skip_merged_sibling -%}
   <div class="also-for">
     <a href="/{{ item.platform }}/{{ item.appId }}">
       <img class="app_logo {{ item.platform }}"
@@ -18,6 +30,13 @@ Uses precomputed.json for O(1) lookup instead of O(n) collection search.
       <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
     </a>
   </div>
+  {%- endunless -%}
 {%- endfor -%}
+{%- endcapture -%}
+{%- assign see_also_items = see_also_items | strip -%}
+{%- if see_also_items != '' -%}
+<div class="see-also-container">
+{{ see_also_items }}
 </div>
+{%- endif -%}
 {%- endif -%}

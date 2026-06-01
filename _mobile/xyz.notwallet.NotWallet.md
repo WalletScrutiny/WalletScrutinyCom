@@ -1,0 +1,20 @@
+---
+title: NotWallet Crypto Self-Custody
+date: 2025-11-10
+website: https://notwallet.eu/
+redirect_from:
+- /android/xyz.notwallet.NotWallet/
+android:
+  appId: xyz.notwallet.NotWallet
+  users: 100
+  appCountry: us
+  released: 2025-06-14
+  updated: 2026-01-31
+  version: 1.1.4
+  icon: xyz.notwallet.NotWallet.png
+  meta: fewusers
+  verdict: wip
+  developerName: Splitfire AB
+
+---
+

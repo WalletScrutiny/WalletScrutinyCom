@@ -1,0 +1,23 @@
+{% assign app_country = include.appCountry | default: page.appCountry | default: 'us' %}
+<div class="distribution-store-links">
+  {% if include.androidAppId %}
+    <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
+    </a>
+    {% if include.alternativeStores %}
+      {% for store in include.alternativeStores %}
+        {% assign alt = store | strip | downcase %}
+        {% case alt %}
+          {% when 'fdroid' %}
+            <a title="F-Droid" href="https://f-droid.org/packages/{{ include.androidAppId }}/" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fac fa-f-droid" aria-hidden="true"></i> F-Droid</a>
+        {% endcase %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+  {% if include.iphoneAppId and include.idd %}
+    <a title="App Store" href="https://apps.apple.com/{{ app_country }}/app/id{{ include.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+      <i class="i-app-store" aria-hidden="true"></i> App Store
+    </a>
+  {% endif %}
+  {% include /review/websiteDistributionLink.html %}
+</div>

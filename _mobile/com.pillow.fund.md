@@ -1,0 +1,62 @@
+---
+wsId: pillowFund
+title: 'Pillow: Save. Invest. Earn.'
+date: 2023-12-19
+authors:
+- danny
+website: https://www.pillow.fund#deadLink
+twitter: PillowFund
+social:
+- https://www.linkedin.com/company/pillowfund
+redirect_from:
+- /android/com.pillow.fund/
+- /iphone/com.pillow.fund/
+android:
+  appId: com.pillow.fund
+  users: 100000
+  released: 2022-02-03
+  updated: 2023-07-31
+  version: '4.0'
+  reviews: 68
+  icon: com.pillow.fund.png
+  meta: removed
+  verdict: custodial
+  developerName: Pillow Fund
+iphone:
+  appId: com.pillow.fund
+  idd: '1593227237'
+  appCountry: in
+  released: 2022-03-02
+  updated: 2023-08-01
+  version: '5.0'
+  reviews: 61
+  icon: com.pillow.fund.jpg
+  meta: removed
+  verdict: custodial
+  developerName: Pillow Digital Technologies Pte Ltd
+
+---
+
+## Android
+
+## App Description from Google Play 
+
+> Pillow has a dedicated research team that actively looks at 500+ platforms to find the safest platform to invest the users’ savings. All assets deposited to Pillow are securely stored with our custody partner.
+
+### Security Details from Apple App Store 
+
+> Pillow has a dedicated research team that actively looks at 500+ protocols across 10+ chains to find the safest protocols to invest the users’ savings in. These protocols are spread across various business models such as lending & borrowing, single-sided staking, insurance, etc. All **assets deposited to Pillow are securely stored with our custody partner, BitGo. Additionally, all deposits in custody are protected against any incidents with a $250 million insurance policy,** ensuring the safety of user funds at all times.
+
+## Analysis 
+
+- Upon opening the app, we are presented with options to withdraw, deposit or invest crypto. 
+- We found a BTC wallet that has options to invest, withdraw, deposit. 
+- KYC approval is needed to unlock more features. 
+- We did not find any option to backup the mnemonic phrase.
+- As the description states, this is a **custodial** provider.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

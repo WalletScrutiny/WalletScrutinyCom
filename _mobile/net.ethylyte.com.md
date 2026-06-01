@@ -1,0 +1,32 @@
+---
+title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
+date: 2023-05-05
+authors:
+- danny
+website: https://web.archive.org/web/20250618122124/http://ethlyte.tech/
+redirect_from:
+- /android/net.ethylyte.com/
+android:
+  appId: net.ethylyte.com
+  users: 5000
+  released: 2019-05-18
+  updated: 2020-03-07
+  version: '2.8'
+  reviews: 6
+  icon: net.ethylyte.com.png
+  meta: removed
+  verdict: wip
+  developerName: Ethlyte Crypto
+
+---
+
+## App Description from Google Play 
+
+> Ethlyte Cypto is a secure wallet with top security features and industry leading low fees. Importantly, your Ethlyte Crypto wallet is distinctive because only YOU hold the private keys that control access to your crypto and Fiat. And you can store, exchange, send and receive without ever leaving the security of your Wallet.
+
+## Analysis 
+
+- The website associated with this app is no longer online. 
+- We were not able to register since the app does not do anything when we click on the 'Register' button. We believe this is due to the website which is offline.
+- The app was last updated in 2020
+- This leads us to believe that this app is already **defunct**

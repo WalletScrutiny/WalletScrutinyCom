@@ -1,0 +1,6 @@
+{% assign platform_meta = include.meta | default: 'ok' %}
+{% if platform_meta != 'ok' %}
+  <p class="warn platform-meta-warn">
+    <span class="lower">{{ site.data.verdicts[platform_meta].message }}</span>
+  </p>
+{% endif %}

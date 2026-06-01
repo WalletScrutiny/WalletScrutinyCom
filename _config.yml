@@ -197,10 +197,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   press:
-  android:
-    output: true
-    permalink: /:collection/:path/
-  iphone:
+  mobile:
     output: true
     permalink: /:collection/:path/
   hardware:
@@ -237,23 +234,12 @@ defaults:
       type: "authors"
     values:
       layout: author
-  # _android
+  # _mobile
   - scope:
       path: ""
-      type: "android"
+      type: "mobile"
     values:
-      layout: reviewAndroid
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-  # iphone
-  - scope:
-      path: ""
-      type: "iphone"
-    values:
-      layout: reviewIPhone
+      layout: reviewMobile
       author_profile: true
       read_time: false
       comments: false

@@ -1,0 +1,43 @@
+---
+title: CDEX - Crypto & Forex & CFDs
+date: 2024-07-19
+authors:
+- danny
+website: https://www.cd-ex.com/index#deadLink
+social:
+- https://www.instagram.com/cd_exglobal
+- https://www.facebook.com/CDEX-109585638344013
+redirect_from:
+- /android/com.xsjys.bbtc/
+android:
+  appId: com.xsjys.bbtc
+  users: 100000
+  released: 2022-03-01
+  updated: 2023-11-07
+  version: 1.5.6
+  icon: com.xsjys.bbtc.png
+  meta: removed
+  verdict: nosendreceive
+  developerName: CDEX
+
+---
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.xsjys.bbtc) 
+
+> CDEX has Bitcoin (BTC), Ether (ETH), Cardano (ADA), Bitcoin Cash (BCH), FIL (Filecoin), Polkadot (DOT), Solana (SOL), Uniswap (UNI) ), DOGE (Dogecoin) and hundreds of other cryptocurrencies.
+
+## [Terms](https://t.cd-ex.com/terms/?lang=en#deadLink)
+
+> 2.1. The Services allow all Users to conducting trading activities in relation to the Cryptocurrency Contracts on the Platform. 
+
+To further clarify: 
+
+> 10.1. The Platform allows the User to submit the Orders to buy or sell Cryptocurrency Contracts. 
+
+## Analysis 
+
+Users can only deposit and withdraw USDT [(Screenshot Proof on Twitter)](https://twitter.com/BitcoinWalletz/status/1646403887610617856/photo/2). 
+
+There are no options to deposit or withdraw actual cryptocurrencies apart from USDT.
+
+This qualifies it as an app that can **neither send or receive BTC**.

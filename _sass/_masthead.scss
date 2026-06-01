@@ -313,6 +313,30 @@
             grid-row: 2/3;
             grid-column: 2/3;
           }
+          &.stats--by-platform {
+            display: grid;
+            gap: 0;
+            .wallet-platform-row--compact {
+              padding-top: 6px;
+              margin-top: 6px;
+              border-top: 1px solid var(--shadow-3);
+              &:first-of-type {
+                padding-top: 0;
+                margin-top: 0;
+                border-top: none;
+              }
+              .wallet-platform-row__head {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 12px;
+                margin-bottom: 2px;
+                i {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
           .stamp {
             &::after {
               content: attr(data-text);

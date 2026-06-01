@@ -1,0 +1,62 @@
+---
+wsId: covest
+title: 코베스트 - COVEST
+date: 2023-05-17
+authors:
+- danny
+website: https://covest.pro
+twitter: COVEST_Official
+social:
+- https://t.me/covestpro
+redirect_from:
+- /android/com.covest.covestM/
+- /iphone/pro.covest.mapple/
+android:
+  appId: com.covest.covestM
+  users: 5000
+  appCountry: us
+  released: 2022-11-03
+  updated: 2025-10-16
+  version: 2.1.0
+  icon: com.covest.covestM.png
+  meta: ok
+  verdict: custodial
+  developerName: COVEST PRO
+iphone:
+  appId: pro.covest.mapple
+  idd: '1627431920'
+  appCountry: vn
+  released: 2022-07-15
+  updated: 2022-07-15
+  version: '1.8'
+  reviews: 0
+  icon: pro.covest.mapple.jpg
+  meta: obsolete
+  verdict: custodial
+  developerName: COVEST LLC
+
+---
+
+## Android
+
+## App Description from Google Play 
+
+> - Binance's official broker trading platform
+- Providing safe trade through Binance's orderbook, liquidity, and wallet.
+- Providing fast and powerful trading system.
+
+## Analysis 
+
+- The terms state that: 
+
+> 4. Remaining Funds After COVEST Account Termination Due to Fraud, Violation of Law, or Violation of These Terms COVEST maintains full custody of the Digital Assets, funds and User data/information which may be turned over to governmental authorities in the event of COVEST Accounts’ suspension/closure arising from fraud investigations, investigations of violation of law or violation of these Terms.
+
+As a broker trading platform with functionalities akin to cryptocurrency exchanges, and terms that state that Covest will retain full custody of the account, and therefore, the assets, means that it has prior custody. 
+
+This is a **custodial** platform.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

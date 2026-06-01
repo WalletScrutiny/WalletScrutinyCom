@@ -26,7 +26,7 @@ const NOT_REPRODUCIBLE_RED = '#ef4444';
 const MAX_REPRODUCIBILITY_SQUARES = 12;
 const fallbackIcon = 'images/smallNoicon.png';
 const platformNames = {
-  android: 'Android', iphone: 'iOS', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
+  android: 'Android', iphone: 'iOS', mobile: 'Mobile', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
 };
 
 // Worker-specific resources (loaded once per worker)
@@ -260,17 +260,43 @@ async function processCard(cardJob) {
     }
     
     const content = await fsp.readFile(path.join(mdFilesPath, file), 'utf-8');
-    const data = yaml.load(content.split('---')[1]);
-    data.platform = platform;
+    const fm = yaml.load(content.split('---')[1]);
+    const slug = file.replace(/\.md$/i, '');
+    const data = platform === 'mobile'
+      ? {
+          title: fm.title,
+          verdict: fm.android?.verdict || fm.iphone?.verdict || fm.verdict,
+          verdictAndroid: fm.android?.verdict || '',
+          verdictIphone: fm.iphone?.verdict || '',
+          meta: fm.android?.meta || fm.iphone?.meta || fm.meta,
+          platform: 'mobile',
+          appId: fm.android?.appId || fm.iphone?.appId || slug,
+          icon: fm.android?.icon || fm.iphone?.icon,
+        }
+      : { ...fm, platform };
 
-    if (data.verdict === 'sourceavailable' && data.appId) {
-      const history = getReproducibilityHistory(verificationIndex, data.appId, platform);
-      data.reproducibilityStatuses = history.slice(-MAX_REPRODUCIBILITY_SQUARES);
+    const isSourceAvailable = platform === 'mobile'
+      ? (fm.android?.verdict === 'sourceavailable' || fm.iphone?.verdict === 'sourceavailable')
+      : data.verdict === 'sourceavailable';
+    if (isSourceAvailable) {
+      const reproAppId = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? fm.android?.appId : fm.iphone?.appId)
+        : data.appId;
+      const reproPlatform = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? 'android' : 'iphone')
+        : platform;
+      if (reproAppId) {
+        const history = getReproducibilityHistory(verificationIndex, reproAppId, reproPlatform);
+        data.reproducibilityStatuses = history.slice(-MAX_REPRODUCIBILITY_SQUARES);
+      }
     }
 
     let iconImagePath = fallbackIcon;
     if (data.icon) {
-      const proposedPath = path.join('images', 'wIcons', platform, data.icon);
+      const iconPlatform = platform === 'mobile'
+        ? (fm.android?.icon ? 'android' : 'iphone')
+        : platform;
+      const proposedPath = path.join('images', 'wIcons', iconPlatform, data.icon);
       if (fs.existsSync(proposedPath)) iconImagePath = proposedPath;
     }
     const iconImage = await loadImage(iconImagePath);

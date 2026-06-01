@@ -37,7 +37,8 @@ const CACHE_PROPOSALS_DIR = path.join(ROOT, 'scripts', 'cache', 'feature-proposa
 const FEATURES_YML = path.join(ROOT, '_data', 'features.yml');
 const CACHE_MAX_AGE_DAYS = 30;
 
-const PLATFORMS = { android: '_android', iphone: '_iphone', desktop: '_desktop', hardware: '_hardware' };
+const PLATFORMS = { desktop: '_desktop', hardware: '_hardware' };
+const MOBILE_DIR = '_mobile';
 const TARGET_VERDICTS = new Set(['sourceavailable', 'obfuscated', 'nosource', 'custodial',
   'noita', 'sealed-noita', 'ecash', 'diy']);
 
@@ -245,8 +246,59 @@ async function scrapeAppStore(idd, country = 'us') {
   try { return (await app({ id: String(idd), country })).description || ''; } catch { return ''; }
 }
 
-function getAllProducts() {
+function flattenMobileFm(mobile, plat) {
+  const block = mobile[plat] || {};
+  const {
+    date: _platformDate,
+    title: _platformTitle,
+    website: _platformWebsite,
+    twitter: _platformTwitter,
+    meta: _meta,
+    verdict: _verdict,
+    ...blockFields
+  } = block;
+  return {
+    ...mobile,
+    ...blockFields,
+    appId: block.appId,
+    idd: block.idd,
+    appCountry: block.appCountry ?? mobile.appCountry,
+    title: mobile.title,
+    website: mobile.website,
+    twitter: mobile.twitter,
+    date: mobile.date,
+    meta: block.meta || 'ok',
+    verdict: block.verdict || '',
+  };
+}
+
+function getMobileProducts() {
   const products = [];
+  const dir = path.join(ROOT, MOBILE_DIR);
+  if (!fs.existsSync(dir)) return products;
+  for (const fn of fs.readdirSync(dir).sort()) {
+    if (!fn.endsWith('.md')) continue;
+    const filepath = path.join(dir, fn);
+    const content = fs.readFileSync(filepath, 'utf8');
+    const mobile = parseFrontmatter(content);
+    if (!mobile) continue;
+    for (const plat of ['android', 'iphone']) {
+      if (FILTER_PLATFORM && FILTER_PLATFORM !== plat) continue;
+      const block = mobile[plat];
+      if (!block?.appId && !(plat === 'iphone' && block?.idd)) continue;
+      const appId = block.appId || fn.slice(0, -3);
+      if (SINGLE_ID && SINGLE_ID !== `${plat}/${appId}`) continue;
+      const fm = flattenMobileFm(mobile, plat);
+      if (fm.meta !== 'ok' || !TARGET_VERDICTS.has(fm.verdict)) continue;
+      if (FILTER_VERDICT && fm.verdict !== FILTER_VERDICT) continue;
+      products.push({ plat, appId, filepath, fm, content });
+    }
+  }
+  return products;
+}
+
+function getAllProducts() {
+  const products = getMobileProducts();
   for (const [plat, folder] of Object.entries(PLATFORMS)) {
     if (FILTER_PLATFORM && FILTER_PLATFORM !== plat) continue;
     const dir = path.join(ROOT, folder);
@@ -710,13 +762,63 @@ function saveFreeform(data) {
 async function phaseSanitize() {
   const official = new Set(Object.keys(loadFeaturesYml()));
   const freeform = loadFreeform();
-  const ALL_PLATFORMS = { android: '_android', iphone: '_iphone', desktop: '_desktop', hardware: '_hardware' };
-
   let totalStripped = 0;
   let totalFiles = 0;
   const filesToCommit = [];
+  const sanitizedPaths = new Set();
 
-  for (const [plat, folder] of Object.entries(ALL_PLATFORMS)) {
+  function sanitizeFeaturesFile({ filepath, content, appKey, rawFeatures }) {
+    if (!Array.isArray(rawFeatures) || rawFeatures.length === 0) return;
+
+    const valid = [];
+    const invalid = [];
+    for (const f of rawFeatures) {
+      if (typeof f === 'string' && official.has(f)) {
+        valid.push(f);
+      } else {
+        const str = typeof f === 'string' ? f : JSON.stringify(f);
+        invalid.push(str);
+      }
+    }
+
+    if (invalid.length === 0) return;
+
+    console.log(`  ${appKey}: stripping ${invalid.length} invalid → freeform`);
+    for (const s of invalid) console.log(`    - ${s}`);
+
+    if (!DRY_RUN) {
+      const newContent = setFeaturesInFrontmatter(content, valid);
+      fs.writeFileSync(filepath, newContent, 'utf8');
+      filesToCommit.push(filepath);
+      sanitizedPaths.add(filepath);
+
+      const existing = new Set(freeform[appKey] || []);
+      for (const s of invalid) existing.add(s);
+      freeform[appKey] = [...existing];
+    }
+
+    totalStripped += invalid.length;
+    totalFiles++;
+  }
+
+  const mobileDir = path.join(ROOT, MOBILE_DIR);
+  if (fs.existsSync(mobileDir)) {
+    for (const fn of fs.readdirSync(mobileDir).sort()) {
+      if (!fn.endsWith('.md')) continue;
+      const filepath = path.join(mobileDir, fn);
+      const content = fs.readFileSync(filepath, 'utf8');
+      const fm = parseFrontmatter(content);
+      if (!fm) continue;
+      sanitizeFeaturesFile({
+        filepath,
+        content,
+        appKey: `mobile/${fn.slice(0, -3)}`,
+        rawFeatures: fm.features || [],
+      });
+    }
+  }
+
+  for (const [plat, folder] of Object.entries(PLATFORMS)) {
     const dir = path.join(ROOT, folder);
     if (!fs.existsSync(dir)) continue;
     for (const fn of fs.readdirSync(dir).sort()) {
@@ -725,43 +827,12 @@ async function phaseSanitize() {
       const content = fs.readFileSync(filepath, 'utf8');
       const fm = parseFrontmatter(content);
       if (!fm) continue;
-
-      const rawFeatures = fm.features || [];
-      if (!Array.isArray(rawFeatures) || rawFeatures.length === 0) continue;
-
-      // Separate valid keys from invalid
-      const valid = [];
-      const invalid = [];
-      for (const f of rawFeatures) {
-        if (typeof f === 'string' && official.has(f)) {
-          valid.push(f);
-        } else {
-          // Convert to string for freeform storage
-          const str = typeof f === 'string' ? f : JSON.stringify(f);
-          invalid.push(str);
-        }
-      }
-
-      if (invalid.length === 0) continue;
-
-      const appKey = `${plat}/${fn.slice(0, -3)}`;
-      console.log(`  ${appKey}: stripping ${invalid.length} invalid → freeform`);
-      for (const s of invalid) console.log(`    - ${s}`);
-
-      if (!DRY_RUN) {
-        // Update frontmatter — rewrite features block with only valid keys
-        const newContent = setFeaturesInFrontmatter(content, valid);
-        fs.writeFileSync(filepath, newContent, 'utf8');
-        filesToCommit.push(filepath);
-
-        // Merge into freeform_features.yaml (no duplicates)
-        const existing = new Set(freeform[appKey] || []);
-        for (const s of invalid) existing.add(s);
-        freeform[appKey] = [...existing];
-      }
-
-      totalStripped += invalid.length;
-      totalFiles++;
+      sanitizeFeaturesFile({
+        filepath,
+        content,
+        appKey: `${plat}/${fn.slice(0, -3)}`,
+        rawFeatures: fm.features || [],
+      });
     }
   }
 

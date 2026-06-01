@@ -1,0 +1,79 @@
+---
+wsId: bitstampCrypto
+title: 'Bitstamp: Buy Crypto & Bitcoin'
+date: 2024-08-31
+authors:
+- danny
+website: https://www.bitstamp.net
+twitter: Bitstamp
+social:
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
+- https://www.instagram.com/bitstampexchange
+redirect_from:
+- /android/net.bitstamp.appgo/
+- /iphone/net.bitstamp.simple/
+android:
+  appId: net.bitstamp.appgo
+  users: 10000
+  released: 2023-07-20
+  updated: 2024-05-22
+  version: '1.10'
+  reviews: 26
+  icon: net.bitstamp.appgo.png
+  meta: removed
+  verdict: custodial
+  developerName: Bitstamp
+iphone:
+  appId: net.bitstamp.simple
+  idd: '1494703801'
+  appCountry: us
+  released: 2023-07-20
+  updated: 2024-06-26
+  version: '1.9'
+  reviews: 262
+  icon: net.bitstamp.simple.jpg
+  meta: removed
+  verdict: custodial
+  developerName: Bitstamp Ltd.
+
+---
+
+## Android
+
+This app is an [official app](https://www.bitstamp.net/mobile/) of BitStamp related to these:
+
+- {% include walletLink.html wallet='android/net.bitstamp.app' verdict='true' %}
+- {% include walletLink.html wallet='iphone/net.bitstamp.simple' verdict='true' %}
+
+## App Description from Google Play
+
+  > EASILY BUY AND SELL UP TO 40 CRYPTOCURRENCIES
+  >
+  > - Buy and sell crypto instantly
+  > - Earn crypto rewards with Bitstamp Earn Staking.
+  > - Explore assets by category from DeFi, Gaming, NFT, Metaverse, Layer 1 /Layer 2, and more
+  > - Buy BTC and other crypto with credit/debit card or bank transfer, GooglePay, PayPal and ACH
+  > - Track your favourite cryptocurrency trends and prices with our crypto watchlist
+
+## App Description from Site
+
+  > - Quick buy and sell functionality across all cryptocurrencies
+  > - Easily purchase with your debit/credit card, PayPal or use bank transfers
+  > - Simple and intuitive interface
+  > - Learn center - Your no-nonsense crypto education on the go
+  > - Utilize and earn additional crypto with Bitstamp Earn
+
+## Analysis
+
+  > - Use an exchange that holds 100% of user assets in reserve and under 1:1 custody
+  > - Secure your funds with strong data encryption and MultiSig technology
+  > - Feel confident that Bitstamp stores 95% of all crypto assets in cold (offline) wallets
+
+The description explicitly states that this app is **custodial** and therefore **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

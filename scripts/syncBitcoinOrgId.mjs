@@ -30,12 +30,11 @@ const BITCOIN_ORG_API =
   'https://api.github.com/repos/bitcoin-dot-org/Bitcoin.org/contents/_wallets?ref=master';
 const USER_AGENT = 'walletscrutiny-bitcoinorg-sync/1.0 (+https://walletscrutiny.com)';
 
-const WALLET_DIRS = ['_android', '_iphone', '_desktop', '_hardware', '_bearer', '_others'];
+const WALLET_DIRS = ['_mobile', '_desktop', '_hardware', '_bearer', '_others'];
 
 /** WalletScrutiny collection folder -> platform key used for matching. */
 const COLLECTION_PLATFORM = {
-  _android: 'android',
-  _iphone: 'ios',
+  _mobile: 'mobile',
   _desktop: 'desktop',
   _hardware: 'hardware',
   _bearer: 'hardware',
@@ -59,7 +58,7 @@ const GENERIC_TITLES = new Set([
  * Not Bitcoin Core (_desktop/bitcoincore.md uses bitcoinOrgId: bitcoincore).
  */
 const HARDCODED_ASSIGNMENTS = {
-  bitcoinwallet: ['_android/de.schildbach.wallet.md']
+  bitcoinwallet: ['_mobile/de.schildbach.wallet.md']
 };
 
 const HARDCODED_ONLY_IDS = new Set(Object.keys(HARDCODED_ASSIGNMENTS));
@@ -325,12 +324,57 @@ async function collectLocalWallets() {
       if (!fm) continue;
 
       const stem = path.basename(filePath, '.md');
-      const appId = readFmField(fm, 'appId') || stem;
-      const idd = readFmField(fm, 'idd');
       const repository = tryExtractRepo(readFmField(fm, 'repository'));
       const website = normWebsite(readFmField(fm, 'website'));
       const title = readFmField(fm, 'title');
       const existingBitcoinOrgId = readFmField(fm, 'bitcoinOrgId');
+
+      if (dirName === '_mobile') {
+        const android = fm.android || {};
+        const iphone = fm.iphone || {};
+        const base = {
+          filePath,
+          relPath: rel(filePath),
+          collection: dirName,
+          repository,
+          website,
+          title: normTitle(title),
+          titleRaw: title,
+          existingBitcoinOrgId,
+          content
+        };
+        if (android.appId) {
+          locals.push({
+            ...base,
+            platform: 'android',
+            appId: String(android.appId).trim(),
+            idd: null,
+            slugNorm: slugNorm(android.appId)
+          });
+        }
+        if (iphone.idd || iphone.appId) {
+          locals.push({
+            ...base,
+            platform: 'ios',
+            appId: String(iphone.appId || stem).trim(),
+            idd: iphone.idd != null ? String(iphone.idd).trim() : null,
+            slugNorm: slugNorm(iphone.appId || stem)
+          });
+        }
+        if (!android.appId && !iphone.idd && !iphone.appId) {
+          locals.push({
+            ...base,
+            platform: 'android',
+            appId: stem,
+            idd: null,
+            slugNorm: slugNorm(stem)
+          });
+        }
+        continue;
+      }
+
+      const appId = readFmField(fm, 'appId') || stem;
+      const idd = readFmField(fm, 'idd');
 
       locals.push({
         filePath,

@@ -1,0 +1,32 @@
+---
+title: Coiny
+date: 2022-01-13
+authors:
+- danny
+website: https://coiny.io#deadLink
+twitter: Coiny_io
+social:
+- https://www.facebook.com/coiny.io
+redirect_from:
+- /android/io.coiny.android/
+android:
+  appId: io.coiny.android
+  users: 1000
+  released: 2018-04-11
+  updated: 2019-01-17
+  version: 1.6.1
+  icon: io.coiny.android.png
+  meta: removed
+  verdict: wip
+
+---
+
+## App Description
+
+> 7/24 You can trade BTC, ETH, XRP and LTC on-the-spot.
+
+## Verdict
+
+We tried signing up to the service but we kept getting errors. The last tweet was made on [September 2020](https://twitter.com/Coiny_io/status/1323594487667564544). The Facebook page is [now unavailable](https://www.facebook.com/coiny.io/). The iOS app store page is not loading anymore. 
+
+It is safe to say that this app is **no longer working.**

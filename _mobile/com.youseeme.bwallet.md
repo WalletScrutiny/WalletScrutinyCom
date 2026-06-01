@@ -1,0 +1,19 @@
+---
+title: Bartwallet Exchange platform
+date: 2024-07-05
+website: https://www.bartwallet.pro
+redirect_from:
+- /android/com.youseeme.bwallet/
+android:
+  appId: com.youseeme.bwallet
+  users: 500
+  released: 2018-11-22
+  updated: 2019-05-22
+  version: '1.27'
+  icon: com.youseeme.bwallet.jpg
+  meta: removed
+  verdict: wip
+  developerName: Youseeme
+
+---
+

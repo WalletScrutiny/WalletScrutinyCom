@@ -2,6 +2,16 @@ import gplay from 'google-play-scraper';
 import fs from 'fs/promises';
 import path from 'path';
 import helper from './helper.mjs';
+import {
+  MOBILE_DIR,
+  loadMobileFromFile,
+  writeMobileFile,
+  mobileDefunctKey,
+  ensurePlatformBlock,
+  metaUpdateContext,
+  resolveAndroidFilenames,
+  findMobileFileByAndroidAppId,
+} from './mobileWalletStore.mjs';
 import { Semaphore } from 'async-mutex';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -13,19 +23,13 @@ const stats = {
 };
 
 const category = 'android';
-const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'appCountry released updated version reviews website repository ' +
-                'icon bugbounty meta verdict date signer twitter social ' +
+                'icon bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
 
 async function refreshAll (ids, markRemoved) {
-  var files;
-  if (ids) {
-    files = ids.map(it => `${it}.md`);
-  } else {
-    files = await fs.readdir(folder);
-  }
+  const files = await resolveAndroidFilenames(ids);
   console.log(`Updating ${files.length} 🤖 files ...`);
   stats.remaining = files.length;
   files.forEach(file => { refreshFile(file, undefined, markRemoved); });
@@ -34,49 +38,57 @@ async function refreshAll (ids, markRemoved) {
 
 function refreshFile (fileName, content, markRemoved) {
   sem.acquire().then(function ([, release]) {
+    const filePath = path.join(MOBILE_DIR, fileName);
     if (content === undefined) {
-      content = { header: helper.getEmptyHeader(headers), body: undefined };
-      helper.loadFromFile(path.join(folder, fileName), content);
+      const loaded = loadMobileFromFile(filePath);
+      content = { mobile: loaded.mobile, body: loaded.body, slug: loaded.slug };
     }
-    const header = content.header;
-    const body = content.body;
-    const appId = header.appId;
-    const appCountry = header.appCountry || 'us';
-    helper.checkHeaderKeys(header, headers);
-    
-    const isDefunctOrRemoved = 'defunct,removed'.includes(header.meta);
+    const { mobile, body, slug } = content;
+    const android = ensurePlatformBlock(mobile, 'android');
+    const appId = android.appId;
+    if (!appId) {
+      stats.remaining--;
+      release();
+      return;
+    }
+    const appCountry = android.appCountry || mobile.appCountry || 'us';
+    helper.checkHeaderKeys(android, headers);
+
+    const metaCtx = metaUpdateContext(mobile, 'android');
+    const isDefunctOrRemoved = 'defunct,removed'.includes(android.meta);
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
-    
-    if (!helper.was404(`${folder}${appId}`) && (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved)) {
+    const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
+
+    if (!helper.was404(defunctKey) && (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved)) {
       try {
         gplay.app({
           appId: appId,
           lang: 'en',
           country: appCountry
         }).then(app => {
-          const iconPath = `images/wIcons/android/${appId}`;
-          updateFromApp(header, app);
-          if (header.meta === 'removed') {
-            header.meta = 'ok';
-            header.date = new Date();
+          updateFromApp(android, app, mobile, appCountry);
+          if (android.meta === 'removed') {
+            android.meta = 'ok';
+            metaCtx.date = new Date();
           }
+          const iconPath = `images/wIcons/android/${appId}`;
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             if (iconExtension) {
-              header.icon = `${appId}.${iconExtension}`;
+              android.icon = `${appId}.${iconExtension}`;
             }
             stats.updated++;
-            helper.writeResult(folder, header, body);
+            writeMobileFile(filePath, mobile, body);
             stats.remaining--;
             release();
           });
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            if (header.meta === 'defunct' || markRemoved) {
-              header.meta = "removed";
-              header.date = new Date();
-              helper.writeResult(folder, header, body);
-            } else if (header.meta !== "removed") {
-              helper.addRemovedIfNew(`_${category}/${appId}`);
+            if (android.meta === 'defunct' || markRemoved) {
+              android.meta = 'removed';
+              metaCtx.date = new Date();
+              writeMobileFile(filePath, mobile, body);
+            } else if (android.meta !== 'removed') {
+              helper.addRemovedIfNew(defunctKey);
             }
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`);
@@ -91,7 +103,7 @@ function refreshFile (fileName, content, markRemoved) {
       }
     } else {
       stats.removed++;
-      helper.writeResult(folder, header, body);
+      writeMobileFile(filePath, mobile, body);
       stats.remaining--;
       release();
     }
@@ -100,52 +112,64 @@ function refreshFile (fileName, content, markRemoved) {
   });
 }
 
-/**
- * Update the header from app
- **/
-function updateFromApp (header, app) {
+function updateFromApp (android, app, mobile, storeCountry) {
   if (app === undefined) {
     return;
   }
-  header.title = app.title || header.title;
-  header.version = (app.version || 'various').replace(/["\\]*/g, ''); // strip " and \ that won't be missed in the version string
-  header.released = header.released || app.released || null;
+  if (storeCountry) {
+    android.appCountry = storeCountry;
+  }
+  if (app.title) {
+    mobile.title = app.title;
+  }
+  android.version = (app.version || 'various').replace(/["\\]*/g, '');
+  android.released = android.released || app.released || null;
 
-  if (header.meta !== 'obsolete' && header.meta !== 'defunct' && header.meta !== 'removed' && app.minInstalls < 1000) {
-    header.meta = 'fewusers';
-  } else if (header.meta === 'fewusers' && app.minInstalls >= 1000) {
-    header.meta = 'ok';
+  if (android.meta !== 'obsolete' && android.meta !== 'defunct' && android.meta !== 'removed' && app.minInstalls < 1000) {
+    android.meta = 'fewusers';
+  } else if (android.meta === 'fewusers' && app.minInstalls >= 1000) {
+    android.meta = 'ok';
   }
 
-  header.meta = header.meta || 'ok';
+  android.meta = android.meta || 'ok';
 
-  // if api reports an older updated date than what we determined, keep our data
   if (app.updated && !isNaN(new Date(app.updated))) {
-  header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
-      ? header.updated
-    : new Date(app.updated);
-  } else {
-    header.updated = header.updated;
+    android.updated = android.updated && new Date(android.updated) > new Date(app.updated)
+      ? android.updated
+      : new Date(app.updated);
   }
-  header.users = app.minInstalls;
-  header.reviews = app.reviews || null;
-  header.website = app.developerWebsite || header.website || null;
-  header.date = header.date || new Date();
-  header.developerName = app.developer || header.developerName || 'Unknown Developer(s)';
-  helper.updateMeta(header);
+  android.users = app.minInstalls;
+  android.reviews = app.reviews || null;
+  if (app.developerWebsite) {
+    mobile.website = app.developerWebsite;
+  }
+  const metaCtx = metaUpdateContext(mobile, 'android');
+  metaCtx.date = metaCtx.date || new Date();
+  android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';
+  helper.updateMeta(metaCtx);
 }
 
 function add (appIds) {
   console.log(`Adding ${appIds.length} apps ...`);
 
   appIds.forEach(appId => {
-    const path = `_android/${appId}.md`;
-    fs.access(path)
-      .catch(() => {
-        const header = helper.getEmptyHeader(headers);
-        header.appId = appId;
-        header.verdict = 'wip';
-        refreshFile(`${appId}.md`, { header: header, body: '' });
+    findMobileFileByAndroidAppId(appId)
+      .then((existing) => {
+        if (existing) {
+          refreshFile(existing);
+          return;
+        }
+        const fileName = `${appId}.md`;
+        const filePath = path.join(MOBILE_DIR, fileName);
+        return fs.access(filePath)
+          .then(() => refreshFile(fileName))
+          .catch(() => {
+            const mobile = {
+              title: null,
+              android: { appId, meta: 'ok', verdict: 'wip' },
+            };
+            refreshFile(fileName, { mobile, body: '', slug: appId });
+          });
       });
   });
 }
@@ -154,10 +178,16 @@ function update (appIds) {
   console.log(`Updating ${appIds.length} apps ...`);
 
   appIds.forEach(appId => {
-    const path = `_android/${appId}.md`;
-    fs.access(path)
-      .then(() => {
-        refreshFile(`${appId}.md`);
+    findMobileFileByAndroidAppId(appId)
+      .then((file) => {
+        if (file) {
+          refreshFile(file);
+        } else {
+          const fileName = `${appId}.md`;
+          fs.access(path.join(MOBILE_DIR, fileName))
+            .then(() => refreshFile(fileName))
+            .catch(() => console.error(`No mobile wallet found for android appId ${appId}`));
+        }
       });
   });
 }

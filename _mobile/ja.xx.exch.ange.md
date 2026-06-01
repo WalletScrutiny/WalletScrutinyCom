@@ -1,0 +1,23 @@
+---
+title: Jaxx Liberty Bitcoin & Ethereum
+date: 2022-01-15
+authors:
+- leo
+redirect_from:
+- /android/ja.xx.exch.ange/
+android:
+  appId: ja.xx.exch.ange
+  users: 100
+  released: 2021-09-01
+  updated: 2021-09-01
+  version: '1'
+  icon: ja.xx.exch.ange.png
+  meta: removed
+  verdict: fake
+
+---
+
+**Update 2021-12-27**: This app is no more.
+
+This app tries to imitate
+{% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.

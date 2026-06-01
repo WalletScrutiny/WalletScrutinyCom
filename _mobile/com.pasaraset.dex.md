@@ -1,0 +1,19 @@
+---
+title: Pasaraset Exchange
+date: 2024-04-03
+website: https://pasaraset.com
+redirect_from:
+- /android/com.pasaraset.dex/
+android:
+  appId: com.pasaraset.dex
+  users: 10
+  released: 2021-04-18
+  updated: 2021-04-21
+  version: '2.0'
+  icon: com.pasaraset.dex.png
+  meta: removed
+  verdict: wip
+  developerName: Pasar Aset
+
+---
+
