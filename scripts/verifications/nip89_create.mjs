@@ -1,6 +1,6 @@
 import NDK, { NDKEvent, NDKPublishError, NDKPrivateKeySigner } from "@nostr-dev-kit/ndk";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls, wsBotPublicKey } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls, wsBotPublicKey } from "../../src/nostr-constants.mjs";
 
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket;
@@ -32,6 +32,7 @@ const createNip89Events = async function () {
     capabilityEvent.tags = [
       ["d", `${dIdentifier}`],
       ["k", `${assetRegistrationKind}`],
+      ["k", `${assetBundleRegistrationKind}`],
       ["k", `${verificationKind}`],
       ["k", `${endorsementKind}`],
       ["web", "https://walletscrutiny.com/verifier/?pubkey=<bech-32>", "npub"],
@@ -45,6 +46,14 @@ const createNip89Events = async function () {
   recommendationEvent_assetRegistration.content = "";
   recommendationEvent_assetRegistration.tags = [
     ["d", `${assetRegistrationKind}`],
+    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
+  ];
+
+  const recommendationEvent_assetBundleRegistration = new NDKEvent(ndk);
+  recommendationEvent_assetBundleRegistration.kind = 31989;
+  recommendationEvent_assetBundleRegistration.content = "";
+  recommendationEvent_assetBundleRegistration.tags = [
+    ["d", `${assetBundleRegistrationKind}`],
     ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
@@ -68,6 +77,7 @@ const createNip89Events = async function () {
     // Publish events
     console.log('\n--------------------------------------------------------------------------- capabilityEvent:\n', capabilityEvent);
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_assetRegistration:\n', recommendationEvent_assetRegistration);
+    console.log('\n--------------------------------------------------------------------------- recommendationEvent_assetBundleRegistration:\n', recommendationEvent_assetBundleRegistration);
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_verification:\n', recommendationEvent_verification);
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_endorsement:\n', recommendationEvent_endorsement);
     const publishedCapability = await capabilityEvent.publish();
@@ -76,6 +86,10 @@ const createNip89Events = async function () {
 
     const publishedRecommendation_assetRegistration = await recommendationEvent_assetRegistration.publish();
     console.debug(`Published recommendation event for assetRegistration to ${publishedRecommendation_assetRegistration.size} relays`);
+    await new Promise(resolve => setTimeout(resolve, 6000));
+
+    const publishedRecommendation_assetBundleRegistration = await recommendationEvent_assetBundleRegistration.publish();
+    console.debug(`Published recommendation event for assetBundleRegistration to ${publishedRecommendation_assetBundleRegistration.size} relays`);
     await new Promise(resolve => setTimeout(resolve, 6000));
 
     const publishedRecommendation_verification = await recommendationEvent_verification.publish();

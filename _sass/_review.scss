@@ -172,6 +172,128 @@
   text-decoration: none;
 }
 
+.version-number-ws {
+  i.fab,
+  i.i-app-store {
+    margin: 0 0.2em 0 0.45em;
+    font-size: 0.95em;
+  }
+}
+
+.mobile-platform-scope {
+  grid-column: 1 / -1;
+  margin: 24px 0;
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  background: var(--neutral-6);
+  overflow: hidden;
+
+  &__header {
+    padding: 14px 18px;
+    background: var(--neutral-5);
+    border-bottom: 1px solid var(--shadow-3);
+  }
+
+  &__body {
+    padding: 8px 18px 20px;
+    border-top: 3px solid var(--accent);
+  }
+
+  &[data-active-platform="android"] .mobile-platform-scope__body {
+    border-top-color: #3ddc84;
+  }
+
+  &[data-active-platform="iphone"] .mobile-platform-scope__body {
+    border-top-color: var(--text);
+  }
+}
+
+.mobile-content-panels {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px dashed var(--shadow-3);
+}
+
+.mobile-content-panel {
+  display: none;
+
+  &.is-active {
+    display: block;
+  }
+}
+
+.mobile-platform-tabs {
+  margin: 0;
+  grid-column: 1 / -1;
+
+  &__nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--shadow-3);
+    background: var(--body);
+  }
+
+  &__tab {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: $title-font-weight;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+
+    i {
+      font-size: 1.1em;
+      opacity: 0.85;
+    }
+
+    &.is-active {
+      background: var(--accent);
+      color: var(--body);
+      box-shadow: 0 1px 4px var(--shadow-3);
+
+      i {
+        opacity: 1;
+        color: inherit;
+      }
+    }
+
+    &:not(.is-active):hover {
+      background: var(--neutral-5);
+    }
+  }
+
+  &__panels {
+    display: block;
+  }
+
+  &__panel {
+    display: none;
+
+    &.is-active {
+      display: block;
+    }
+  }
+
+  .step {
+    margin-top: 20px;
+  }
+}
+
+.app-review--dual-platform .page__content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .article-after {
   margin-bottom: 80px;
 }

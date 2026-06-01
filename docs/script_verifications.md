@@ -16,7 +16,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 6. The call parameters for the script must be the following:
 
 * For `android`, `desktop` or `hardware` wallets when a binary file is provided by the user:
-  - `--binary`: path to the binary file of the app to test
+  - `--binary`: path to the binary file of the app to test (or directory containing the binary files)
 
 * For `desktop` or `hardware` wallets, when a new version of the app is released (no binary file is provided by the user):
   - `--version`: version of the app (without the v prefix)
@@ -76,4 +76,4 @@ builds:
 
 If the Automated Build Server is trying to reproduce a new version of the app, it will pass the `--version` parameter to the build script, and it will iterate through all the combinations of architectures and types defined in the `builds` array, passing the appropriate `--arch` and `--type` parameters to the build script.
 
-If it's reproducing a binary file, it will pass the `--version` and `--binary` parameters to the build script. `binary` will be the path to the binary file provided by the user. It will also pass the `--arch` and `--type` parameters corresponding to the binary file to the build script. For that to work correctly, you have to correctly add the file patterns to the `builds` array.
+If it's reproducing a binary file, it will pass the `--version` and `--binary` parameters to the build script. `binary` will be the path to the binary file provided by the user. If there are more than one binary, the directory containing the binary files will be passed. It will also pass the `--arch` and `--type` parameters corresponding to the binary file to the build script. For that to work correctly, you have to correctly add the file patterns to the `builds` array.

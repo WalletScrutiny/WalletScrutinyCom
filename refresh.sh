@@ -13,9 +13,9 @@
 #
 # Parameters:
 # -k <btcPayKey>   BTCPay API key used by refreshDonations.mjs.
-# -a <apps>        Comma-separated app IDs to refresh explicitly
-#                  (example: android/xx.yy.zz,iphone/aa.bb.cc).
-#                  If omitted, all apps are refreshed.
+# -a <apps>        Comma-separated store IDs or mobile slugs to refresh explicitly
+#                  (example: android/xx.yy.zz,iphone/aa.bb.cc,mobile/app.slug).
+#                  If omitted, all mobile wallets are refreshed.
 # -g <githubToken> GitHub token required for desktop/hardware refresh tasks.
 #                  If omitted, desktop/hardware refresh is skipped.
 #
@@ -32,7 +32,7 @@ do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;   # the api key for the BtcPayServer
-    a) apps=${OPTARG};;        # comma separated list of appIDs:  android/xx.yy.zz, iphone/aa.bb.cc
+    a) apps=${OPTARG};;        # android/xx.yy.zz, iphone/aa.bb.cc, mobile/slug
     g) githubToken=${OPTARG};; # GitHub token for Desktop and Hardware refresh
 
   esac

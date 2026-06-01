@@ -1,0 +1,80 @@
+---
+wsId: CoinUnited
+title: 'CoinUnited: Trade BTC & Stocks'
+date: 2025-03-19
+authors:
+- danny
+website: https://coinunited.io/
+twitter: realcoinunited
+redirect_from:
+- /android/coinunited.io/
+- /iphone/coinunited.io/
+android:
+  appId: coinunited.io
+  users: 10000
+  appCountry: cn
+  released: 2021-04-30
+  updated: 2025-08-27
+  version: 5.1.0
+  reviews: 237
+  icon: coinunited.io.jpg
+  meta: removed
+  verdict: custodial
+  developerName: CoinU
+iphone:
+  appId: coinunited.io
+  idd: '1565764339'
+  appCountry: hk
+  released: 2021-05-14
+  updated: 2024-11-15
+  version: 4.0.2
+  reviews: 282
+  icon: coinunited.io.jpg
+  meta: removed
+  verdict: custodial
+  developerName: CoinUnited Limited
+
+---
+
+## Android
+
+## App Description
+
+> Users can purchase, use, and receive multiple cryptocurrencies
+
+There are references to DeFi and NFTs.
+
+## The Site
+
+From their [website](https://www.coinunited.io/)
+
+> CoinUnited.io operates the largest Bitcoin ATM network in Asia
+
+In their [FAQ](https://www.coinunited.io/help), the first item is about ID verification. They require the following:
+
+> 1. Both sides of ID card <br>
+> 2. Address proof within the latest 3 months (bank statement or utility statement)
+> 3. Selfie with a paper that handwriting “ CoinUnited.io” and today’s date  
+> 4. Your name card (Optional)
+
+KYC verification takes 2 business days to conclude.
+
+On the same page, you'll also find how-to's regarding the deposit and withdrawal of various cryptocurrencies.
+
+### [Terms and Conditions - Termination](https://www.coinunited.io/terms)
+
+> Section 20. If the customer has abused, attempted to abuse, or used other methods to abuse the campaign / bonus / reward plan etc, Company has the right to freeze or close account without any prior notice.
+
+## The App
+
+We were not able to receive the SMS verification.
+
+## Verdict
+
+We were not able to find any references to the private key when we searched on their site. Moreover, they refer to the beginning of the relationship between the user and the service as "Account Opening". Since KYC is required prior to account opening, we assume that the service is **custodial**. This means that the service acts as a gatekeeper for users prior to being able to use the basic functions of a Bitcoin wallet. This means the app **cannot be verified.**
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

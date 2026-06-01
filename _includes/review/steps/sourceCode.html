@@ -17,7 +17,8 @@
       <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
     {% else %}
       {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
-      {% unless sourceCheckedVerdicts contains page.verdict %}
+      {% assign step_verdict = include.verdict | default: page.verdict %}
+      {% unless sourceCheckedVerdicts contains step_verdict %}
         <small>Not evaluated — our review stopped at an earlier step.</small>
       {% endunless %}
     {% endif %}

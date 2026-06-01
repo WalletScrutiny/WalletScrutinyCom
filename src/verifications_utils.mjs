@@ -3,6 +3,7 @@ import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
+  assetBundleRegistrationKind,
   verificationKind,
   endorsementKind,
   verificationDraftKind,
@@ -17,6 +18,11 @@ import {
   maxFileAttachmentContentLength
 } from "./nostr-constants.mjs";
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
+import {
+  assetRegistrationKinds,
+  getAssetFileEntries,
+  getAssetIndexHashes,
+} from './asset-utils.mjs';
 import { formatDate } from "./assets-table-utils.js";
 import {decode} from "light-bolt11-decoder"
 
@@ -422,6 +428,56 @@ const createAssetRegistration = async function ({
   eventSanitize(ndkEvent);
 
   await publishNdkEvent(ndkEvent, 'asset registration');
+  return ndkEvent;
+}
+
+const createAssetBundleRegistration = async function ({
+  files,
+  appId,
+  version,
+  platform,
+  description,
+  createdAt = null
+}) {
+  await ensureNdkConnected();
+
+  if (!Array.isArray(files) || files.length === 0) {
+    throw new Error('At least one file is required');
+  }
+
+  const hashes = files.map(f => f.sha256);
+  validateSHA256(hashes);
+
+  if (!appId || !version || !description) {
+    throw new Error('Missing required parameters');
+  }
+
+  validateParameterLengths({ appId, version, platform, description });
+
+  for (const file of files) {
+    if (file.fileName) {
+      validateParameterLengths({ fileName: file.fileName });
+    }
+  }
+
+  const tags = [
+    ['i', appId],
+    ['version', version],
+  ];
+  if (platform) {
+    tags.push(['platform', platform]);
+  }
+  for (const file of files) {
+    if (!file.fileName) {
+      throw new Error('Each file must have a fileName');
+    }
+    tags.push(['x', file.sha256, file.fileName]);
+  }
+
+  const ndkEvent = createNdkEvent(assetBundleRegistrationKind, description, tags, createdAt);
+  eventSanitize(ndkEvent);
+
+  await publishNdkEvent(ndkEvent, 'asset bundle registration');
   return ndkEvent;
 }
 
@@ -1148,7 +1204,7 @@ const backgroundSyncEvents = async function() {
     console.log('🔄 Background sync starting...');
 
     const SYNC_LIMIT = 500; // Max events per query (relay limit)
-    const ALL_KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind,
+    const ALL_KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind,
       endorsementKind, verificationCommentKind, codeSnippetKind];
 
     // 1. Sync verifications and drafts (newer events)
@@ -1213,10 +1269,10 @@ const backgroundSyncEvents = async function() {
 
     // 4. Sync asset registrations for these appIds only
     if (appIds.size > 0) {
-      const { newest: newestAsset } = await getIDBEventRange([assetRegistrationKind]);
+      const { newest: newestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
       const newAssets = await fetchEventsWithPagination(ndk, {
-        kinds: [assetRegistrationKind],
+        kinds: assetRegistrationKinds,
         '#i': Array.from(appIds),
         since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
         limit: SYNC_LIMIT
@@ -1228,11 +1284,11 @@ const backgroundSyncEvents = async function() {
       }
 
       // 5. Fill gaps for asset registrations
-      const { oldest: oldestAsset } = await getIDBEventRange([assetRegistrationKind]);
+      const { oldest: oldestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
       if (oldestAsset && oldestAsset > verificationEventsSinceTS) {
         const olderAssets = await fetchEventsWithPagination(ndk, {
-          kinds: [assetRegistrationKind],
+          kinds: assetRegistrationKinds,
           '#i': Array.from(appIds),
           since: verificationEventsSinceTS,
           until: oldestAsset - 1,
@@ -1345,7 +1401,7 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
   });
 
   // Relaxed filtering: Accept verifications from any client to prevent data loss
-  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
+  const assets = Array.from(events).filter(event => assetRegistrationKinds.includes(event.kind));
 
   const verifications = Array.from(events).filter(event =>
     event.kind === verificationKind && (!reported || !reported.has(event.id))
@@ -1361,17 +1417,9 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
   const verificationsMap = new Map();
   const draftVerificationsMap = new Map();
 
-  const getAssetLookupHash = asset => {
-    const hashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
-    if (hashes.length === 0) {
-      return null;
-    }
-    return hashes.length > 1 ? hashes[1] : hashes[0];
-  };
-
   assets.forEach(asset => {
-    const sha256FromEventTag = getAssetLookupHash(asset);
-    if (sha256FromEventTag) {
+    const indexHashes = getAssetIndexHashes(asset);
+    for (const sha256FromEventTag of indexHashes) {
       if (!assetsMap.has(sha256FromEventTag)) {
         assetsMap.set(sha256FromEventTag, []);
       }
@@ -1383,8 +1431,13 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
   const verificationDeduplicationMap = new Map(); // key: "hash:pubkey" -> newest event
 
   verifications.forEach(verification => {
-    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
-    if (sha256FromEventTag) {
+    const hashes = verification.tags
+      ?.filter(tag => tag[0] === 'x')
+      .map(tag => tag[1])
+      .filter(id => id?.length === 64) ?? [];
+    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(verification, 'x', null)].filter(Boolean);
+
+    for (const sha256FromEventTag of hashList) {
       const dedupKey = `${sha256FromEventTag}:${verification.pubkey}`;
       const existing = verificationDeduplicationMap.get(dedupKey);
 
@@ -1394,10 +1447,14 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
     }
   });
 
-  // Now group deduplicated verifications by hash
   verificationDeduplicationMap.forEach(verification => {
-    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
-    if (sha256FromEventTag) {
+    const hashes = verification.tags
+      ?.filter(tag => tag[0] === 'x')
+      .map(tag => tag[1])
+      .filter(id => id?.length === 64) ?? [];
+    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(verification, 'x', null)].filter(Boolean);
+
+    for (const sha256FromEventTag of hashList) {
       if (!verificationsMap.has(sha256FromEventTag)) {
         verificationsMap.set(sha256FromEventTag, []);
       }
@@ -1408,8 +1465,13 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
   console.debug(`Deduplicated ${verifications.length} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
 
   draftVerifications.forEach(draftVerification => {
-    const sha256FromEventTag = getFirstTagValue(draftVerification, 'x', null);
-    if (sha256FromEventTag) {
+    const hashes = draftVerification.tags
+      ?.filter(tag => tag[0] === 'x')
+      .map(tag => tag[1])
+      .filter(id => id?.length === 64) ?? [];
+    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(draftVerification, 'x', null)].filter(Boolean);
+
+    for (const sha256FromEventTag of hashList) {
       if (!draftVerificationsMap.has(sha256FromEventTag)) {
         draftVerificationsMap.set(sha256FromEventTag, []);
       }
@@ -1455,7 +1517,9 @@ const getAllAssetInformation = async function({ months,
   let oldestEventTimestamp = null;
   let newestEventTimestamp = 0;
 
-  const targetKinds = kinds || (getDrafts ? [assetRegistrationKind, verificationKind, verificationDraftKind] : [assetRegistrationKind, verificationKind]);
+  const targetKinds = kinds || (getDrafts
+    ? [...assetRegistrationKinds, verificationKind, verificationDraftKind]
+    : [...assetRegistrationKinds, verificationKind]);
   let baseSince = verificationEventsSinceTS;
   if (months) {
     console.debug(`Getting events from last ${months} months`);
@@ -1597,7 +1661,7 @@ const getAllAssetInformation = async function({ months,
       // Now fetch assets only for these appIds
       if (verificationAppIds.size > 0) {
         const assetFilter = {
-          kinds: [assetRegistrationKind],
+          kinds: assetRegistrationKinds,
           '#i': Array.from(verificationAppIds),
           since: filter.since
         };
@@ -1686,7 +1750,7 @@ const getAllAssetInformation = async function({ months,
 }
 
 function getAppInfoFromEventInfo(eventInfo) {
-  const isAsset = eventInfo.kind === assetRegistrationKind;
+  const isAsset = assetRegistrationKinds.includes(eventInfo.kind);
 
   const createdAt = eventInfo.created_at;
   const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
@@ -1697,7 +1761,8 @@ function getAppInfoFromEventInfo(eventInfo) {
   const status = getFirstTagValue(eventInfo, 'status');
   const url = getFirstTagValue(eventInfo, 'url');
   const gitRevision = getFirstTagValue(eventInfo, 'git_revision');
-  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
+  const appHashes = getAssetFileEntries(eventInfo).map(entry => entry.hash);
+  const assetFiles = getAssetFileEntries(eventInfo);
 
   return {
     isAsset,
@@ -1711,6 +1776,7 @@ function getAppInfoFromEventInfo(eventInfo) {
     url,
     gitRevision,
     appHashes,
+    assetFiles,
   };
 }
 
@@ -2430,6 +2496,7 @@ if (typeof window !== 'undefined') {
   window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
+  window.createAssetBundleRegistration = createAssetBundleRegistration;
   window.createVerification = createVerification;
   window.createEndorsement = createEndorsement;
   window.createVerificationReport = createVerificationReport;
@@ -2481,6 +2548,7 @@ if (typeof window !== 'undefined') {
 export {
   nostrConnect,
   createAssetRegistration,
+  createAssetBundleRegistration,
   createVerification,
   createEndorsement,
   createVerificationReport,

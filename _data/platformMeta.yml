@@ -1,3 +1,26 @@
+mobile:
+  hidden_from_search: true
+  description: >
+    Mobile wallet reviews on WalletScrutiny cover Android and iPhone apps in a
+    single page per product. Select the platform on each review to see
+    store-specific distribution, build verification, and app description.
+  verdicts:
+    - wip
+    - fake
+    - nowallet
+    - nobtc
+    - nosendreceive
+    - custodial
+    - nosource
+    - obfuscated
+    - sourceavailable
+  metas:
+    - defunct
+    - obsolete
+    - stale
+    - removed
+    - deprecated
+
 android:
   description: >
     On the Google Play Store, there are many apps that have Bitcoin in their

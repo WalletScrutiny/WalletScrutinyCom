@@ -1,0 +1,18 @@
+---
+title: Trubi Wallet
+date: 2024-02-05
+website: https://www.trubi.io
+redirect_from:
+- /android/io.trubi.android/
+android:
+  appId: io.trubi.android
+  users: 500
+  updated: 2021-01-25
+  version: VARY
+  icon: io.trubi.android.png
+  meta: removed
+  verdict: wip
+  developerName: trubi.io
+
+---
+

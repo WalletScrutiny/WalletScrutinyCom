@@ -1,0 +1,66 @@
+---
+wsId: LVLMoneyApp
+title: LVL - The Money App
+date: 2023-01-11
+authors:
+- danny
+website: https://web.archive.org/web/20250910205356/http://lvl.co/
+twitter: BankWithLVL
+social:
+- https://www.linkedin.com/company/bankwithlvl
+- https://www.facebook.com/BankWithLVL
+appCountry: us
+redirect_from:
+- /android/co.lvl.firstapp/
+- /iphone/co.lvl.firstapp/
+android:
+  appId: co.lvl.firstapp
+  users: 10000
+  released: 2020-06-30
+  updated: 2021-09-09
+  version: 1.0.5
+  reviews: 62
+  icon: co.lvl.firstapp.png
+  meta: removed
+  verdict: custodial
+  developerName: Samsa Technologies Inc.
+iphone:
+  appId: co.lvl.firstapp
+  idd: '1494647317'
+  released: 2020-07-08
+  updated: 2021-09-13
+  version: 1.0.5
+  reviews: 369
+  icon: co.lvl.firstapp.jpg
+  meta: removed
+  verdict: custodial
+
+---
+
+## Android
+
+{% include review/bitgo.md %}
+
+## App Description
+LVL describes itself as a "premium all-in-one finance app that lets you buy and sell crypto for free." It claims to be a community exchange:
+
+> Buy and sell Bitcoin, Ethereum, and Litecoin with no trading fees and no hidden spreads. With LVL’s revolutionary community exchange, the only price you pay is the price other LVL members are charging.
+
+## The Site
+At LVL's [page on cryptocurrencies:](https://web.archive.org/web/20220808014620/https://www.lvl.co/service/how-to-buy-crypto-without-fees)
+
+> At LVL, you get your own fixed-address wallet **using multi-signature security technology provided by BitGo**. Multi-signature technology creates multiple layers of security with no single point of failure.
+
+BitGo offers custodial services, meaning that LVL probably does not provide users with the mnemonics.
+
+## The App
+We tried the app and registered an account. Unfortunately, our region was not supported, so we could not view the app's features.
+
+## Verdict
+This app is **custodial** and thus **not verifiable.**
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

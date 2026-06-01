@@ -14,7 +14,7 @@
     <div class="dropdown-options dropdown-platform">
       <div class="option allPlatforms selected" data="allPlatforms" data-name="All Platforms"><span>All Platforms</span></div>
       {% for p in site.data.platformMeta %}
-        {% if p[1].verifications_only == true %}
+        {% if p[1].verifications_only == true or p[1].hidden_from_search == true %}
           {% continue %}
         {% endif %}
         {% assign folder = p[0] %}

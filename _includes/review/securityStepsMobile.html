@@ -1,0 +1,209 @@
+{% assign meta_android = page.android.meta | default: 'ok' %}
+{% assign meta_iphone = page.iphone.meta | default: 'ok' %}
+{% assign verdict_android = page.android.verdict %}
+{% assign verdict_iphone = page.iphone.verdict %}
+{% assign custody_platform = 'android' %}
+{% if page.android.appId == nil and page.iphone.appId %}
+  {% assign custody_platform = 'iphone' %}
+{% endif %}
+{% if custody_platform == 'iphone' %}
+  {% assign meta = meta_iphone %}
+  {% assign verdict = verdict_iphone %}
+{% else %}
+  {% assign meta = meta_android %}
+  {% assign verdict = verdict_android %}
+{% endif %}
+{% assign has_android = page.android.appId %}
+{% assign has_iphone = page.iphone.appId %}
+{% assign has_both = false %}
+{% if has_android and has_iphone %}
+  {% assign has_both = true %}
+{% endif %}
+
+<div class="steps linked">
+  {% include /review/steps/developerMobile.html %}
+  {% include /review/steps/releasesMobile.html %}
+  {% if verdict and meta %}
+    {% include /review/steps/custody.html platform=custody_platform meta=meta verdict=verdict %}
+  {% endif %}
+  {% include /review/steps/sourceCode.html verdict=verdict %}
+  {% if verdict and meta %}
+    {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
+  {% endif %}
+
+  {% if has_both %}
+  <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
+    <div class="mobile-platform-scope__header">
+      <div class="mobile-platform-tabs__nav" role="tablist" aria-label="Platform-specific review">
+        <button type="button" class="mobile-platform-tabs__tab is-active" role="tab" aria-selected="true" aria-controls="mobile-tab-android mobile-content-android" id="mobile-tab-btn-android" data-mobile-tab="android">
+          <i class="fab fa-google-play" aria-hidden="true"></i> Android
+        </button>
+        <button type="button" class="mobile-platform-tabs__tab" role="tab" aria-selected="false" aria-controls="mobile-tab-iphone mobile-content-iphone" id="mobile-tab-btn-iphone" data-mobile-tab="iphone">
+          <i class="i-app-store" aria-hidden="true"></i> iPhone
+        </button>
+      </div>
+    </div>
+    <div class="mobile-platform-scope__body">
+      <div class="mobile-platform-tabs" data-mobile-platform-tabs>
+        <div class="mobile-platform-tabs__panels">
+          <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
+            {% include /review/steps/platformMeta.html meta=meta_android %}
+            {% include /review/steps/distribution.html platform='android' appId=page.android.appId idd=page.iphone.idd appCountry=page.appCountry alternativeStores=page.android.alternativeStores %}
+            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true verificationMessageId='verificationMessage-android' %}
+            {% include /review/steps/platformNotes.html platform='android' %}
+          </div>
+          <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
+            {% include /review/steps/platformMeta.html meta=meta_iphone %}
+            {% include /review/steps/distribution.html platform='iphone' appId=page.iphone.appId idd=page.iphone.idd appCountry=page.appCountry %}
+            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true verificationMessageId='verificationMessage-iphone' %}
+            {% include /review/steps/platformNotes.html platform='iphone' %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% elsif has_android %}
+    {% include /review/steps/platformMeta.html meta=meta_android %}
+    {% include /review/steps/distribution.html platform='android' appId=page.android.appId idd=page.iphone.idd appCountry=page.appCountry alternativeStores=page.android.alternativeStores %}
+    {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true verificationMessageId='verificationMessage-android' %}
+    {% include /review/steps/platformNotes.html platform='android' %}
+  {% elsif has_iphone %}
+    {% include /review/steps/platformMeta.html meta=meta_iphone %}
+    {% include /review/steps/distribution.html platform='iphone' appId=page.iphone.appId idd=page.iphone.idd appCountry=page.appCountry %}
+    {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true verificationMessageId='verificationMessage-iphone' %}
+    {% include /review/steps/platformNotes.html platform='iphone' %}
+  {% endif %}
+
+  {% include /review/bitcoinOrgFeatured.html %}
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href*="#deadLink"], a[href*="&deadLink"]').forEach(function(a) {
+    a.classList.add('dead-link');
+    a.title = (a.title ? a.title + ' ' : '') + '(Dead link)';
+    if (!a.textContent.includes('💀')) a.textContent += ' 💀';
+  });
+  document.querySelectorAll('a[href*="web.archive.org/web/"]').forEach(function(a) {
+    if (!a.classList.contains('dead-link')) {
+      a.classList.add('archived-link');
+      a.title = (a.title ? a.title + ' ' : '') + '(Archived)';
+      if (!a.textContent.includes('📦')) a.textContent += ' 📦';
+    }
+  });
+  function isByAuthorBlock(node) {
+    return node && node.tagName === 'P' && node.textContent.includes('Product page updated by');
+  }
+
+  function initMobilePlatformContentPanels() {
+    const content = document.querySelector('.app-review .page__content');
+    if (!content) return false;
+
+    const androidHeading = content.querySelector('h2#android');
+    const iphoneHeading = content.querySelector('h2#iphone');
+    if (!androidHeading || !iphoneHeading) return false;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'mobile-content-panels';
+
+    const androidPanel = document.createElement('div');
+    androidPanel.className = 'mobile-content-panel is-active';
+    androidPanel.id = 'mobile-content-android';
+    androidPanel.setAttribute('data-mobile-content-panel', 'android');
+
+    const iphonePanel = document.createElement('div');
+    iphonePanel.className = 'mobile-content-panel';
+    iphonePanel.id = 'mobile-content-iphone';
+    iphonePanel.setAttribute('data-mobile-content-panel', 'iphone');
+    iphonePanel.setAttribute('hidden', '');
+
+    let node = androidHeading.nextElementSibling;
+    while (node && node !== iphoneHeading) {
+      const next = node.nextElementSibling;
+      androidPanel.appendChild(node);
+      node = next;
+    }
+
+    node = iphoneHeading.nextElementSibling;
+    while (node && !isByAuthorBlock(node)) {
+      const next = node.nextElementSibling;
+      iphonePanel.appendChild(node);
+      node = next;
+    }
+
+    wrapper.appendChild(androidPanel);
+    wrapper.appendChild(iphonePanel);
+    androidHeading.replaceWith(wrapper);
+    iphoneHeading.remove();
+
+    return true;
+  }
+
+  function wrapMobilePlatformScopeBody() {
+    const scope = document.querySelector('[data-mobile-platform-scope]');
+    const contentPanels = document.querySelector('.mobile-content-panels');
+    if (!scope || !contentPanels) return;
+
+    const body = scope.querySelector('.mobile-platform-scope__body');
+    if (body && !body.contains(contentPanels)) {
+      body.appendChild(contentPanels);
+    }
+  }
+
+  function showMobilePlatform(platform) {
+    document.querySelectorAll('[data-mobile-panel]').forEach(function(panel) {
+      const show = panel.getAttribute('data-mobile-panel') === platform;
+      panel.classList.toggle('is-active', show);
+      if (show) {
+        panel.removeAttribute('hidden');
+      } else {
+        panel.setAttribute('hidden', '');
+      }
+    });
+
+    document.querySelectorAll('[data-mobile-content-panel]').forEach(function(panel) {
+      const show = panel.getAttribute('data-mobile-content-panel') === platform;
+      panel.classList.toggle('is-active', show);
+      if (show) {
+        panel.removeAttribute('hidden');
+      } else {
+        panel.setAttribute('hidden', '');
+      }
+    });
+
+    const androidVersions = document.getElementById('version-number-android');
+    const iphoneVersions = document.getElementById('version-number-iphone');
+    if (androidVersions) {
+      androidVersions.hidden = platform !== 'android';
+    }
+    if (iphoneVersions) {
+      iphoneVersions.hidden = platform !== 'iphone';
+    }
+
+    const scope = document.querySelector('[data-mobile-platform-scope]');
+    if (scope) {
+      scope.setAttribute('data-active-platform', platform);
+    }
+  }
+
+  const hasMobileContentPanels = initMobilePlatformContentPanels();
+  wrapMobilePlatformScopeBody();
+
+  document.querySelectorAll('[data-mobile-platform-scope]').forEach(function(scope) {
+    const tabs = scope.querySelectorAll('[data-mobile-tab]');
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        showMobilePlatform(tab.getAttribute('data-mobile-tab'));
+        tabs.forEach(function(t) {
+          const active = t === tab;
+          t.classList.toggle('is-active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+      });
+    });
+  });
+
+  if (hasMobileContentPanels) {
+    showMobilePlatform('android');
+  }
+});
+</script>

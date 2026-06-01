@@ -1,0 +1,20 @@
+---
+title: 'Coin Droplet: BTC & ETH Wallet'
+date: 2024-11-25
+website: https://www.coindroplet.com
+redirect_from:
+- /android/coindroplet.com/
+android:
+  appId: coindroplet.com
+  users: 1000
+  appCountry: us
+  released: 2022-09-29
+  updated: 2022-12-05
+  version: '1.6'
+  icon: coindroplet.com.png
+  meta: obsolete
+  verdict: wip
+  developerName: Value Sports Network, llc
+
+---
+

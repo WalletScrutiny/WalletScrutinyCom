@@ -1,0 +1,60 @@
+---
+wsId: vegaWallet
+title: VegaWallet
+date: 2023-06-21
+authors:
+- danny
+website: http://www.VegaWallet.com
+twitter: vegawallet
+social:
+- https://www.facebook.com/VegaWallet
+appCountry: us
+redirect_from:
+- /android/com.vegawallet.in/
+- /iphone/com.vegawallet.in/
+android:
+  appId: com.vegawallet.in
+  users: 1000
+  released: 2018-12-19
+  updated: 2020-07-02
+  version: 3.2.3
+  reviews: 5
+  icon: com.vegawallet.in.png
+  meta: removed
+  verdict: nosource
+  developerName: Vegawallet
+iphone:
+  appId: com.vegawallet.in
+  idd: 1449594992
+  released: 2019-01-16
+  updated: 2020-11-06
+  version: '3.3'
+  reviews: 9
+  icon: com.vegawallet.in.jpg
+  meta: removed
+  verdict: nosource
+  developerName: VegaWallet
+
+---
+
+## Android
+
+{% include review/bitgo.md %}
+
+## Private Keys
+
+From the [FAQ](https://www.vegawallet.com/pages/faq.html)
+
+> Our wallet uses BitGo Multi-Signature Implementation to keep user funds safe. Users create an account which generates wallet addresses for currencies such as BTC, LTC, ETH, DASH, VGW, ZEC, XLM, & XRP. VegaWallet believes in user privacy and delivers the users private keys upon account verification. It is your responsibility to keep these keys safe in case of account recovery. We do not keep these keys on file.
+
+> [Q: Is VegaWallet For Business Open Source?](https://www.vegawallet.com/pages/help.html)
+>
+> The API's and all point of sale and payment capabilitites will be made public to hopefully increase the mass adoption of cryptocurrency. All endpoints and integrations will however need to be linked to VegaWallet's backend in order to provide the correct wallet creations and security integrations that we promise our users.
+
+So they state intent to publish the wallet's source code but as far as we can see, they haven't done so yet. Without public source code, the product is **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

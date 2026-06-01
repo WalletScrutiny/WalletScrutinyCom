@@ -1,0 +1,61 @@
+---
+wsId: DotWallet
+title: DotWallet - Manage Your Crypto and Dapp Assets
+date: 2023-01-02
+authors:
+- danny
+website: https://www.dotwallet.com/
+twitter: wallet_dot
+appCountry: us
+redirect_from:
+- /android/com.boquanhash.dotwallet/
+- /iphone/com.boquanhash.dotwallet/
+android:
+  appId: com.boquanhash.dotwallet
+  users: 10000
+  released: 2020-08-26
+  updated: 2022-04-21
+  version: 2.15.2
+  icon: com.boquanhash.dotwallet.png
+  meta: removed
+  verdict: nosource
+iphone:
+  appId: com.boquanhash.dotwallet
+  idd: 1509685349
+  appCountry: us
+  released: 2021-01-05
+  updated: 2023-05-23
+  version: 2.1.6.42
+  reviews: 3
+  icon: com.boquanhash.dotwallet.jpg
+  meta: obsolete
+  verdict: nosource
+  developerName: Fuzhou Boquan Network Science & Technology Co., Ltd.
+
+---
+
+## Android
+
+## App Description
+
+> DotWallet is a lightweight non-custodial wallet built on the Bitcoin SV protocol. It provides quick registration and login using mobile phone numbers, email, and third party providers like Google, Facebook and WeChat.
+>
+> It supports the sending, receiving, and storage of multiple digital currencies including BSV, BTC, and ETH. Powered by BSV's tokenization technology, users can send BTC, BSV and ETH instantly using 0 confirmation transactions.
+
+## The App
+
+We downloaded the app and found support for BTC with send and receive functions. The mnemonics are only generated for BSV wallets. This is indicated on this [article:](https://www.dotwallet.com/en/article/208)
+
+> The BSV wallet supports backup mnemonics, while the BTC and ETH wallets are generated powered by BSV tokenized techniques, which has the core advantages of instant payment, lower handling fees, and 100% chain auditability (Check details);
+>
+> The mnemonics of the DotWallet can be restored in the BSV wallet that supports BIP44. The key derivation path is: m/44’/0’/0’. Currently, the function of importing mnemonics is under development.
+
+## Verdict
+
+As it describes itself, it is a self-custodial bitcoin wallet that supports BSV, BTC and ETH. We searched for the Google Play appID on github but have [yielded 0 results.](https://github.com/search?q=com.boquanhash.dotwallet). We were not able to locate the source code for this app.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

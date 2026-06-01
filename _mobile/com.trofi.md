@@ -1,0 +1,62 @@
+---
+wsId: trofiInvestment
+title: Trofi - Crypto Investment App
+date: 2024-02-05
+authors:
+- danny
+website: https://www.trofi.group#deadLink
+twitter: yieldapp
+social:
+- https://www.linkedin.com/company/yieldapp
+- https://t.me/yieldapp
+- https://discord.com/invite/crwD3JgMgn#deadLink
+- https://www.trofi.group#deadLink
+redirect_from:
+- /android/com.trofi/
+- /iphone/com.yield.demosp/
+android:
+  appId: com.trofi
+  users: 1000
+  released: 2022-04-12
+  updated: 2023-03-16
+  version: 3.2.7
+  reviews: 27
+  icon: com.trofi.png
+  meta: removed
+  verdict: custodial
+  developerName: Trofi Group
+iphone:
+  appId: com.yield.demosp
+  idd: '6445887027'
+  appCountry: us
+  released: 2023-04-19
+  updated: 2023-05-29
+  version: 1.1.0
+  reviews: 0
+  icon: com.yield.demosp.jpg
+  meta: removed
+  verdict: custodial
+  developerName: Yield App
+
+---
+
+## Android
+
+## App Description from Google Play
+
+> With this cryptocurrency app, invest your digital assets into a wide selection of crypto structured products with the potential to earn a yield on your investment. 
+
+## Analysis 
+
+- Section 2 of the [Terms](https://yield.app/terms-and-conditions) specify that digital assets which are transferred by the user to the app and designated for interest bearing, which follow the Terms, are considered as loans made by the user to the platform. Because the digital assets are lent, all rights and title to the digital assets are granted to the provider. The provider can then use these funds for whatever purpose it may seek. 
+
+Further down Section 2, it says (paraphrased) assets which are not designated as "Earn", are held by the provider on behalf of the user on a custodial basis. 
+
+- We found a BTC wallet that can only send/receive when the user finishes KYC. 
+- As the terms itself state, this is a **custodial** app.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

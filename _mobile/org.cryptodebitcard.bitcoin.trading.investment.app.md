@@ -1,0 +1,18 @@
+---
+title: Bitcoin Trading Investment App
+date: 2021-10-01
+redirect_from:
+- /android/org.cryptodebitcard.bitcoin.trading.investment.app/
+android:
+  appId: org.cryptodebitcard.bitcoin.trading.investment.app
+  users: 10
+  released: 2021-06-29
+  updated: 2021-06-29
+  version: '1.0'
+  icon: org.cryptodebitcard.bitcoin.trading.investment.app.jpg
+  meta: removed
+  verdict: wip
+
+---
+
+**Update 2021-09-22**: This app is not on the Play Store anymore.

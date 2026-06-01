@@ -1,0 +1,19 @@
+---
+title: Bitfury
+date: 2024-04-19
+website: https://bitfury.com
+redirect_from:
+- /android/com.bit.fury/
+android:
+  appId: com.bit.fury
+  users: 500
+  released: 2022-10-17
+  updated: 2023-02-26
+  version: '1.4'
+  icon: com.bit.fury.png
+  meta: removed
+  verdict: wip
+  developerName: Bitfury
+
+---
+

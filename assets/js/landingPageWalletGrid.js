@@ -48,7 +48,7 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
 
   workingArray = performSearch(window.wallets, query, platform);
 
-  generateAndAppendWalletTiles(workingArray, page);
+  generateAndAppendWalletTiles(workingArray, page, platform);
   generateAndAppendPagination(workingArray, page);
   generateDropdownAndInputCounts(workingArray, platform);
   generateFeedbackText(workingArray, platform, queryRaw);
@@ -58,7 +58,8 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   
 }
 
-function generateAndAppendWalletTiles(workingArray, pageNo) {
+function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
+  const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
   var container = document.createElement("div");
   container.classList.add("wallet-placeholder");
@@ -72,48 +73,23 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 
     if (!wallet) { break }
 
-    let lastVerificationStatus = null;
-    if (window.allAssetInformation) {
-      lastVerificationStatus = getLastVerificationStatusForAppId(wallet.appId, wallet.folder);
-    }
+    const walletDetailsHtml = typeof getWalletCardDetailsHtml === 'function'
+      ? getWalletCardDetailsHtml(wallet, listPlatform)
+      : '';
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
-    const icon = getIcon(wallet.folder);
+    const tileHeadPlatform = wallet.folder === 'mobile' ? false : listPlatform;
+    const icon = getWalletListIcon(wallet, tileHeadPlatform);
     const delay = (i + 1) * 80;
-    let passed = ``;
-    let failed = ``;
-    if (wallet.score) {
-      for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>`; }
-      for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>`; }
-    }
     const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
-        <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
+        <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>
+        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
       </div>
-      <div class="wallet-details">
-        <div class="stamps">
-          ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-          <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-        ${wallet.meta && wallet.meta !== "ok"
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : ""}
-        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
-          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
-          : ""}
-        </div>
-        ${wallet.score
-          ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-            ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<span>❓ Not verified yet</span>') : ''}
-            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-            <div>${passed}${failed}</div>
-          </div>`
-          : ''
-        }
-      </div>
+      ${walletDetailsHtml}
     </a>`;
   }
   flexListEle.innerHTML = `${badgesHtml}`;
@@ -295,7 +271,7 @@ async function processStyle(wallet) {
   let target = await document.querySelector(`.${domClass}`);
   if (!target) { return; }
   let imgObj = new Image();
-  imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
+  imgObj.src = `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`;
   imgObj.onload = function () {
     if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware' && wallet.folder !== 'desktop') {
       let instanceCanvas = document.createElement("canvas");
@@ -366,13 +342,6 @@ window.addEventListener('allAssetInformationLoaded', () => {
 
 window.addEventListener("allWalletsLoaded", () => {
   isInitializing = false;
-  const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms";
-  const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1;
-  const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : "";
-  const query = queryRaw.toUpperCase();
-  const workingArray = performSearch(window.wallets, query, platform) || false;
-
   window.blockScrollingFocus = true;
-
-  generateAndAppendPagination(workingArray, page);
+  updateWalletGridInputOriginatingFromURL();
 });

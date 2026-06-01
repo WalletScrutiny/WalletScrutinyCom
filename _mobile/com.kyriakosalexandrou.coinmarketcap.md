@@ -1,0 +1,90 @@
+---
+wsId: DopamineBitcoin
+title: DOPAMINE - Bitcoin & Crypto
+date: 2021-10-10
+authors:
+- danny
+website: https://www.dopamineapp.com
+twitter: mydopamineapp
+social:
+- https://www.facebook.com/myDopamineApp
+appCountry: us
+redirect_from:
+- /android/com.kyriakosalexandrou.coinmarketcap/
+- /iphone/com.programonks.CoinMarketApp/
+android:
+  appId: com.kyriakosalexandrou.coinmarketcap
+  users: 1000000
+  appCountry: us
+  released: 2015-05-16
+  updated: 2026-04-25
+  version: 16.3.1
+  reviews: 1387
+  icon: com.kyriakosalexandrou.coinmarketcap.jpg
+  meta: ok
+  verdict: nosource
+  developerName: Newtechincubator.com
+iphone:
+  appId: com.programonks.CoinMarketApp
+  idd: 1350234503
+  appCountry: us
+  released: 2018-03-02
+  updated: 2026-05-22
+  version: 16.3.2
+  reviews: 618
+  icon: com.programonks.CoinMarketApp.jpg
+  meta: ok
+  verdict: nosource
+  developerName: CORTEX AG
+
+---
+
+## Android
+
+## Update 2024-07-16
+
+No changes have been observed regarding the public availability of this app's source code.
+
+## App Description 2021-10-10
+
+From its Google Play Description:
+
+- Portfolio
+- Crypto YouTubers
+- Exchange Markets
+- Cryptocurrency Converter
+- Crypto Education
+- Alerts
+- Charts
+- ICO Initial Coin Offering
+- Recently Added
+- Crypto News
+- Favorite coins
+- Heroes/Zeroes
+- Global Data and Chart & Global Data Widget
+- Percentage Change Period (1h, 24h, 7d)
+
+
+## The Site
+
+The site [FAQ](https://www.dopamineapp.com/faq.html) details that it is the successor to the CMA app. It is also possible to [buy Bitcoin from the platform](https://www.dopamineapp.com/faq.html). 
+
+The FAQ, also mentions that it is possible to send/receive cryptocurrencies using its self-custodial app. 
+
+We were not able to find the source code on the site. We queried their [twitter account](https://twitter.com/BitcoinWalletz/status/1446021588881530882) for feedback.
+
+## The App
+
+We downloaded the app and no registration was needed. All they asked for was a password. They then provided a 12-word seed.
+
+After that, we found the 'Add Wallet - Bitcoin' option. Two options were then available: Create a wallet and Import a Wallet. It then possible to copy the WIF (Wallet Import Format). It is composed of 52 characters.
+
+## Verdict
+
+They service claims to offer a self-custodial app, but we were **not able to find a verifiable and public source code**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}
