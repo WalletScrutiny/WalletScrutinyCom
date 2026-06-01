@@ -1,0 +1,20 @@
+---
+title: DroidFlyer
+date: 2026-02-02
+website: https://github.com/unhappychoice/DroidFlyer
+redirect_from:
+- /android/com.unhappychoice.droidflyer/
+android:
+  appId: com.unhappychoice.droidflyer
+  users: 100
+  appCountry: us
+  released: 2017-11-12
+  updated: 2022-01-23
+  version: 2.0.1
+  icon: com.unhappychoice.droidflyer.png
+  meta: obsolete
+  verdict: wip
+  developerName: Yuji Ueki
+
+---
+

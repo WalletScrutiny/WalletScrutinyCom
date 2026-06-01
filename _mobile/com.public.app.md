@@ -1,0 +1,70 @@
+---
+wsId: publicStocksCrypto
+title: Public – Stocks and Options
+date: 2023-07-21
+authors:
+- danny
+website: https://public.com
+twitter: public
+social:
+- https://www.instagram.com/publicapp
+- https://www.facebook.com/PublicHello
+- https://www.linkedin.com/company/publichello
+- https://medium.com/the-public-blog
+- https://www.tiktok.com/@public
+redirect_from:
+- /android/com.public.app/
+- /iphone/com.t3securities.matador/
+android:
+  appId: com.public.app
+  users: 1000000
+  appCountry: us
+  released: 2019-09-06
+  updated: 2026-05-26
+  version: 3.245.0
+  reviews: 9505
+  icon: com.public.app.jpg
+  meta: ok
+  verdict: nosendreceive
+  developerName: Public Holdings, Inc.
+iphone:
+  appId: com.t3securities.matador
+  idd: '1204112719'
+  appCountry: us
+  released: 2017-03-13
+  updated: 2026-05-20
+  version: 5.1.2
+  reviews: 82501
+  icon: com.t3securities.matador.jpg
+  meta: ok
+  verdict: nosendreceive
+  developerName: Open to the Public Investing, Inc.
+
+---
+
+## Android
+
+## App Description from Google Play
+
+> Public is an investing platform where you can invest in stocks, treasuries, ETFs, crypto, and alternative assets—like fine art and collectibles—all in one place.
+>
+> Invest in stocks, treasuries, ETFs, crypto, and alternative assets.
+> Pay zero commission fees when you invest in stocks, ETFs, and alternative assets.
+>
+> Explore our collection of 25+ crypto—including Bitcoin and Ethereum.
+
+## Analysis
+
+- We were not able to install because the app was geo-restricted.
+- Deposits can only be in [fiat currency](https://help.public.com/en/articles/5222146-how-can-i-fund-my-account)
+- In order to [withdraw](https://help.public.com/en/articles/5789982-when-can-i-withdraw-my-crypto), users have to sell their holdings. They can only withdraw fiat money.
+- It is possible to [buy/sell cryptocurrencies](https://help.public.com/en/articles/5569421-how-to-buy-crypto?q=bitcoin), including Bitcoin.
+- [List of coins](https://help.public.com/en/articles/8018155-bakkt-crypto-is-removing-support-for-certain-coins-in-june-2023#deadLink) available to buy/sell.
+- This is similar to CFD platforms that allow users to buy or sell cryptocurrencies, but does not allow users to send/receive. 
+- This type of custodial provider **does not allow users to send or receive** coins.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

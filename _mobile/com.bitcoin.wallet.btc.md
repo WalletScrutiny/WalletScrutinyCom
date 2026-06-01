@@ -1,0 +1,65 @@
+---
+title: 'Bitcoin Wallet: Blockchain NFT'
+date: 2024-02-05
+authors:
+- leo
+website: https://coinhub8899.web.app
+repository: https://github.com/hoanghiephui/Bitcoin-Wallet
+redirect_from:
+- /android/com.bitcoin.wallet.btc/
+android:
+  appId: com.bitcoin.wallet.btc
+  users: 100000
+  released: 2019-05-01
+  updated: 2023-06-29
+  version: 3.0.7
+  reviews: 304
+  icon: com.bitcoin.wallet.btc.png
+  meta: removed
+  verdict: fake
+  developerName: InvoVN Solutions
+
+---
+
+**Update 2021-07-26**: The provider features several apps that either through
+their logo or the name try to resemble trusted wallets like
+{% include walletLink.html wallet='android/de.schildbach.wallet' %}
+or
+{% include walletLink.html wallet='android/piuk.blockchain.android' %}.
+Given other issues with the products, we assume they are fakes.
+
+**Update 2021-06-04**: The provider
+[promised to "check soon" back in 2019](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15#issuecomment-557786905)
+but several later attempts to get an update failed.
+
+We list the following apps of this provider:
+
+* {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.wallet.btc' verdict=true %}
+* {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict=true %}
+* {% include walletLinkArchived.html wallet='android/com.blockchain.explorer' %}
+* {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' verdict=true %}
+
+Something shady is going on here. This wallet looked like a wallet when we
+tried to reproduce it from the provided source in 2019 and we failed to
+do that. Check "Older reviews" above for details. Now (ok, a while ago:
+2020-09-16), user "alex Kijvanit" commented on the wallet:
+
+> What a crazy app! I install then open the app. First thing came up was "we no
+  longer support this app. Please backup". What the hell!!
+
+We tried to start the app as it is installed on our device (after all it might
+contain funds) and do not even get this message. Just an instant close or crash.
+
+Other users report the same.
+
+After deleting the app's data (or re-installing it), the app starts without any
+such symptoms but for example the backup appears to not get written to the
+sdcard.
+
+Upon further investigation of their app, we find it is obfuscated. This is a big
+red flag for a wallet that claims to be open source. We put those wallets in
+their own category as they clearly are worse than closed source. **Do not trust
+this wallet!**
+
+An issue has been opened at [https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15)

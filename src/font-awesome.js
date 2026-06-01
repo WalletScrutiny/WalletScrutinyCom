@@ -52,7 +52,8 @@ import {
   faMinus,
   faTimesCircle,
   faSlidersH,
-  faTrashAlt
+  faTrashAlt,
+  faMobileScreen
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -96,6 +97,7 @@ library.add(
   faTimesCircle,
   faSlidersH,
   faTrashAlt,
+  faMobileScreen,
   // Brands
   faSquareXTwitter,
   faXTwitter,

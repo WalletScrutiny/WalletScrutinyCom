@@ -1,0 +1,20 @@
+---
+title: Guardian Keyper
+date: 2026-05-21
+website: https://myguardian.network/
+redirect_from:
+- /android/com.guardianlabs.keyper/
+android:
+  appId: com.guardianlabs.keyper
+  users: 100
+  appCountry: us
+  released: 2022-08-06
+  updated: 2024-11-05
+  version: 2.3.0
+  icon: com.guardianlabs.keyper.png
+  meta: stale
+  verdict: wip
+  developerName: Guardian Labs
+
+---
+

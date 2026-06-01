@@ -1,0 +1,61 @@
+---
+wsId: iForexCrypto
+title: iFOREX Crypto online trading
+date: 2024-11-12
+authors:
+- danny
+website: https://www.iforexcrypto.com
+twitter: iforexcrypto_o
+social:
+- https://www.facebook.com/iFOREXCrypto
+- https://www.instagram.com/iforexcrypto
+redirect_from:
+- /android/iforexcrypto.clients.android/
+- /iphone/com.bootleg.iforexCryptoWrapper/
+android:
+  appId: iforexcrypto.clients.android
+  users: 1000
+  updated: 2024-06-18
+  version: 2.1.50
+  icon: iforexcrypto.clients.android.png
+  meta: removed
+  verdict: nosendreceive
+  developerName: Formula Investments House LTD
+iphone:
+  appId: com.bootleg.iforexCryptoWrapper
+  idd: '1619049710'
+  appCountry: cl
+  released: 2022-07-03
+  updated: 2023-11-22
+  version: 3.1.23
+  reviews: 0
+  icon: com.bootleg.iforexCryptoWrapper.jpg
+  meta: removed
+  verdict: nosendreceive
+  developerName: Formula Investment House Ltd.
+
+---
+
+## Android
+
+## App Description from Google Play
+
+  > Get a simple, elegant, and secure way to trade bitcoin and other cryptocurrencies without blockchain fees.
+  >
+  > We allow you to trade cryptocurrencies such as Bitcoin, (BTC), Ether (ETH), Dogecoin (DOGE), Shiba Inu (SHIB), Bitcoin Cash (BCH), Litecoin, Dash, Solana, Chainlink (LINK) and others.
+  > 
+  > CONTRACTS-IN, WALLETS- OUT
+  >
+  > Crypto wallets are problematic; long access codes, unique protocols and malicious hackers can seriously damage your actions and investments.
+  >
+  > Crypto contracts remove these difficulties and give you rapid access to what’s important- the price changes and volatility of the crypto market.
+
+## Analysis 
+
+- This app facilitates the buying and selling of Bitcoin and other cryptocurrencies, without actually using wallets as it explicitly describes. This is a CFD cryptocurrency trading platform which means that it **does not allow users to send or receive bitcoin.**
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

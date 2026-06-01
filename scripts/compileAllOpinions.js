@@ -1,22 +1,45 @@
 const Summariser = require('./nostr-opinion-summariser').default;
 const fs = require('fs/promises');
+const path = require('path');
+const yaml = require('js-yaml');
+
+async function mobileWalletNames () {
+  const names = [];
+  const dir = '_mobile';
+  for (const file of await fs.readdir(dir)) {
+    if (!file.endsWith('.md')) continue;
+    const raw = await fs.readFile(path.join(dir, file), 'utf8');
+    const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+    if (!m) continue;
+    let doc;
+    try {
+      doc = yaml.load(m[1]);
+    } catch {
+      continue;
+    }
+    if (doc?.android?.appId) {
+      names.push(`android/${doc.android.appId}`);
+    }
+    if (doc?.iphone?.appId) {
+      names.push(`iphone/${doc.iphone.appId}`);
+    }
+  }
+  return names;
+}
+
+async function categoryNames (category) {
+  const dir = `_${category}`;
+  return (await fs.readdir(dir))
+    .filter((n) => n.endsWith('.md'))
+    .map((n) => `${category}/${n.replace(/\.md$/, '')}`);
+}
 
 const getNames = async () => {
-  const folders = ['iphone', 'android', 'hardware', 'bearer', 'desktop'];
-  const names = (
-    await Promise.all(
-      folders.map(async (category) =>
-        (
-          await fs.readdir(`_${category}/`)
-        ).map((n) => {
-          n = n.replace('.md', '');
-          return `${category}/${n}`;
-        })
-      )
-    )
-  ).flat();
-
-  return names;
+  const mobile = await mobileWalletNames();
+  const other = await Promise.all(
+    ['hardware', 'bearer', 'desktop'].map(categoryNames)
+  );
+  return [...mobile, ...other.flat()];
 };
 
 function isEmpty (obj) {

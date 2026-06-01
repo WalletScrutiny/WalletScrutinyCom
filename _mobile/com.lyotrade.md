@@ -1,0 +1,69 @@
+---
+wsId: lyoTrade
+title: LYO TRADE Crypto BTC Exchange
+date: 2023-10-16
+authors:
+- danny
+website: https://www.lyotrade.com
+twitter: lyopayofficial
+social:
+- https://www.facebook.com/lyopayofficial
+- https://www.instagram.com/lyopayofficial
+- https://www.youtube.com/channel/UCKgAeaCl3YJ6sk_tTxyfq-Q
+redirect_from:
+- /android/com.lyotrade/
+- /iphone/com.lyo.trade/
+android:
+  appId: com.lyotrade
+  users: 50000
+  released: 2022-06-30
+  updated: 2023-12-17
+  version: 3.0.2
+  icon: com.lyotrade.png
+  meta: removed
+  verdict: custodial
+  developerName: DIGILYO APP LTD
+iphone:
+  appId: com.lyo.trade
+  idd: '1624895730'
+  appCountry: gb
+  released: 2022-07-05
+  updated: 2023-03-14
+  version: 1.8.0
+  reviews: 0
+  icon: com.lyo.trade.jpg
+  meta: removed
+  verdict: custodial
+  developerName: DIGILYO APP LTD
+
+---
+
+## Android
+
+This app is from the same provider as the following products:
+
+- {% include walletLink.html wallet='android/com.lyofi.wallet' verdict='true' %}
+- {% include walletLink.html wallet='android/com.lyopay' verdict='true' %}
+
+## App Description from Google Play
+
+> Buy, Sell and Store Cryptocurrencies and Tokens
+>
+> - Bitcoin (BTC),
+>
+> Buy and Sell Cryptocurrencies with multiple payment methods:
+- +250 Crypto to trade directly with 53 fiat currencies
+- Card, SEPA, SWIFT and upcoming regional payment modes
+
+## Analysis
+
+- It is possible to deposit/withdraw [BTC](https://docs.lyotrade.com/help-center/deposit-and-withdrawals/how-do-i-deposit)
+- The user account is centralized with KYC and ID-verification standards.
+- According to the [Terms and Conditions](https://docs.lyotrade.com/terms/terms-of-use), LYOTrade is defined as a VASP or a Virtual Asset Service Provider. The VASP is tasked with the **safekeeping** and **administration** of virtual assets. Section 3 of the same Terms give LyoTrade the power to suspend or terminate the user's access to the platform.
+- This is a **custodial** platform.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

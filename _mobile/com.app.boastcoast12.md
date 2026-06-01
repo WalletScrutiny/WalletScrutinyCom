@@ -1,0 +1,21 @@
+---
+title: BoastCoast
+date: 2026-02-02
+website: https://boastcoast.com
+redirect_from:
+- /android/com.app.boastcoast12/
+android:
+  appId: com.app.boastcoast12
+  users: 1000
+  appCountry: us
+  released: 2022-05-31
+  updated: 2022-05-31
+  version: '1.0'
+  reviews: 2
+  icon: com.app.boastcoast12.png
+  meta: obsolete
+  verdict: wip
+  developerName: BoastCoast.com
+
+---
+

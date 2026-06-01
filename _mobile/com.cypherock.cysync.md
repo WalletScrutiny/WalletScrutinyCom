@@ -1,0 +1,20 @@
+---
+title: Cypherock CySync Crypto Wallet
+date: 2026-01-14
+website: https://www.cypherock.com/
+redirect_from:
+- /android/com.cypherock.cysync/
+android:
+  appId: com.cypherock.cysync
+  users: 1000
+  appCountry: us
+  released: 2025-03-28
+  updated: 2026-05-18
+  version: 0.1.22
+  icon: com.cypherock.cysync.png
+  meta: ok
+  verdict: wip
+  developerName: Cypherock
+
+---
+

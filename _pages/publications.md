@@ -9,6 +9,6 @@ author_profile: true
 
 {% include press.html full="true" %}
 
-{% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | concat: site.bearer | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
+{% assign recent_posts = site.mobile | concat: site.hardware | concat: site.bearer | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
 
 

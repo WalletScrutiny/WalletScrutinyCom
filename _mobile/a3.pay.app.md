@@ -1,0 +1,19 @@
+---
+title: Crypto Payment Gateway - a3pay
+date: 2023-05-30
+website: https://a3pay.co#deadLink
+redirect_from:
+- /android/a3.pay.app/
+android:
+  appId: a3.pay.app
+  users: 50
+  released: 2022-04-14
+  updated: 2022-06-09
+  version: 5.0.9
+  icon: a3.pay.app.png
+  meta: removed
+  verdict: wip
+  developerName: a3 Solutions
+
+---
+

@@ -1,11 +1,13 @@
-{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.others | concat: site.bearer | concat: site.desktop | %}
+{% include homepage/all_reviewed_products.html %}
 {%- assign vgKeyCount = 0 -%}
 {% assign vgKey = include.vgKey %}
 {% for group in site.data.verdictGroups %}
-    {%- assign verdicts = group.verdicts -%}
-    {%- assign metas = group.metas -%}
   {% if group.key == vgKey %}
-
-    {%- assign vgKeyCount = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
+    {%- for p in products -%}
+      {%- include homepage/product_matches_verdict_group.html product=p verdict_group=group -%}
+      {%- if product_matches_verdict_group and product_listing_meta == 'ok' -%}
+        {%- assign vgKeyCount = vgKeyCount | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
   {% endif %}
 {% endfor %}

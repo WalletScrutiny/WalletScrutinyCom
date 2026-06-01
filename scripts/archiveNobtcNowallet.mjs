@@ -1,4 +1,4 @@
-// This script scans markdown files in _android, _iphone, _hardware, bearer, _desktop and _others
+// This script scans markdown files in _mobile, _hardware, bearer, _desktop and _others
 // directories, identifies files with verdict "nobtc" or "nowallet", then archives them
 // by deleting their images, removing specified fields, and moving to _archived.
 
@@ -6,7 +6,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import helper from './helper.mjs';
 
-const PLATFORMS = ['android', 'iphone', 'hardware', 'bearer', 'desktop', 'others'];
+const PLATFORMS = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 const TARGET_VERDICTS = ['nobtc', 'nowallet'];
 const FIELDS_TO_KEEP = ['title', 'appId', 'meta', 'verdict'];
 
@@ -146,7 +146,68 @@ function getWalletIdentifier(platform, fileName) {
   return `${platform}/${fileNameWithoutExt}`;
 }
 
+async function processMobileFile(fileName) {
+  const folder = '_mobile';
+  const filePath = path.join(folder, fileName);
+
+  try {
+    const content = helper.loadFromFile(filePath);
+    const { header, body } = content;
+
+    const matchesTarget = TARGET_VERDICTS.includes(header.verdict) ||
+      TARGET_VERDICTS.includes(header.android?.verdict) ||
+      TARGET_VERDICTS.includes(header.iphone?.verdict);
+    if (!matchesTarget) {
+      return { processed: false, reason: 'verdict does not match' };
+    }
+
+    const updatedHeader = removeFields(header);
+    delete updatedHeader.android;
+    delete updatedHeader.iphone;
+
+    let imagesDeleted = 0;
+    const imageErrors = [];
+    for (const storePlatform of ['android', 'iphone']) {
+      const icon = header[storePlatform]?.icon;
+      if (!icon?.trim()) continue;
+      const result = await deleteImagesForFile(storePlatform, icon);
+      imagesDeleted += result.deleted;
+      imageErrors.push(...result.errors);
+    }
+
+    const archiveDir = await ensureArchiveDirectory('mobile');
+    const archiveFilePath = path.join(archiveDir, fileName);
+    const updatedContent = helper.getResult(updatedHeader, '');
+    await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
+
+    const slug = fileName.replace(/\.md$/, '');
+    const walletIdentifier = `mobile/${slug}`;
+    const referenceUpdate = await updateWalletLinkReferences(walletIdentifier);
+
+    await fs.unlink(filePath);
+
+    return {
+      processed: true,
+      fileName,
+      imagesDeleted,
+      imageErrors,
+      referencesUpdated: referenceUpdate.totalUpdated,
+      referenceFiles: referenceUpdate.updatedFiles
+    };
+  } catch (error) {
+    return {
+      processed: false,
+      fileName,
+      error: error.message
+    };
+  }
+}
+
 async function processFile(platform, fileName) {
+  if (platform === 'mobile') {
+    return processMobileFile(fileName);
+  }
+
   const folder = `_${platform}`;
   const filePath = path.join(folder, fileName);
   

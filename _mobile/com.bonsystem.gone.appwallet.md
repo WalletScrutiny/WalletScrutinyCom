@@ -1,0 +1,19 @@
+---
+title: 지원체인 월렛 - gone chain wallet
+date: 2024-04-19
+website: http://www.gonechain.io#deadLink
+redirect_from:
+- /android/com.bonsystem.gone.appwallet/
+android:
+  appId: com.bonsystem.gone.appwallet
+  users: 100
+  released: 2020-01-07
+  updated: 2020-01-08
+  version: 1.0.3
+  icon: com.bonsystem.gone.appwallet.png
+  meta: removed
+  verdict: wip
+  developerName: GONE Chain
+
+---
+

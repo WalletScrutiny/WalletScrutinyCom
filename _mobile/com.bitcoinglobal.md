@@ -1,0 +1,74 @@
+---
+wsId: bitcoinglobal
+title: 'Bitcoin Global: P2P platform'
+date: 2025-04-14
+authors:
+- danny
+website: https://bitcoin.global/
+twitter: BitcoinGlobalEx
+social:
+- https://www.facebook.com/BitcoinGlobalEx
+- https://www.reddit.com/r/BITCOIN_GLOBAL
+appCountry: us
+redirect_from:
+- /android/com.bitcoinglobal/
+- /iphone/com.global.bitcoin/
+android:
+  appId: com.bitcoinglobal
+  users: 10000
+  released: 2020-09-25
+  updated: 2025-08-05
+  version: 2.13.0
+  reviews: 5
+  icon: com.bitcoinglobal.png
+  meta: removed
+  verdict: custodial
+  developerName: Bitcoin Global Ex
+iphone:
+  appId: com.global.bitcoin
+  idd: 1536910503
+  released: 2020-10-26
+  updated: 2023-04-24
+  version: 2.12.0
+  reviews: 60
+  icon: com.global.bitcoin.jpg
+  meta: removed
+  verdict: custodial
+  developerName: Bitcoin Global
+
+---
+
+## Android
+
+## App Description
+
+Bitcoin Global is a P2P platform from the [same providers](https://whitebit.com/bitcoin-global) as {% include walletLink.html wallet='android/com.whitebit.android' verdict='true' %}
+
+The app claims that users don't have to register with KYC. 
+
+> To register, you don’t need to go through KYC, just enter your email and create the password. After registration, you immediately receive a crypto wallet and you can buy and sell cryptocurrency in a convenient way.
+
+## The Site
+
+The site claims that users may exchange directly with no middlemen.
+
+> The buyer pays the seller directly, without Bitcoin Global or any other third-parties involved. Once the payment is confirmed, the cryptocurrency is released from escrow to the buyer. Then both traders leave feedback on how the trade went.
+
+From the [Privacy Policy:](https://bitcoin.global/privacy-policy)
+
+> Bitcoin Global reserves the right to terminate the provision of the service to any user found engaging in activities that violate our Terms of Service and the Privacy Policy.
+
+It's usually only custodial services that have the ability to freeze funds.
+
+## The App
+
+We tried the app and registered. The app had the interface of an exchange. We were provided with a btc address but no mnemonics. 
+
+## Verdict
+We conclude that this app is **custodial,** and thus **not verifiable.**
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

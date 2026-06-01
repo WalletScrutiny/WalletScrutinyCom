@@ -1,5 +1,6 @@
 <div class="step application-build">
-    {% if page.verdict == 'sourceavailable' %}
+    {% assign build_verdict = include.verdict | default: page.verdict %}
+    {% if build_verdict == 'sourceavailable' %}
     <i class="i-sourceavailable circle"></i>
     {% else %}
     <i class="i-sourceavailable circle disabled"></i>
@@ -8,24 +9,29 @@
         <h3>Application build</h3>
 
         {% if page.repository %}
-        <script>const pageVerdict = '{{page.verdict}}'</script>
+        {% assign build_app_id = include.appId | default: page.appId %}
+        {% assign apps_table_id = include.appsTableId | default: 'appsTable' %}
+        {% assign version_element_id = include.versionElementId | default: 'version-number' %}
+        {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
+        {% assign skip_ws_version = include.skipWsVersion %}
+        <script>const pageVerdict = '{{ build_verdict }}'</script>
 
-        <div id="appsTable" style="margin-top: 1em;"></div>
+        <div id="{{ apps_table_id }}" style="margin-top: 1em;"></div>
 
         <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
         <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
             {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
         </div>
 
-        <p id="verificationMessage"></p>
+        <p id="{{ verification_message_id }}"></p>
 
-        <div style="margin-top: 4px; display: none;" id="createVerificationButton"></div>
+        <div style="margin-top: 4px; display: none;" id="createVerificationButton-{{ include.platform | default: 'app' }}"></div>
 
         <script>
           window.addEventListener('verificationsUILoaded', async () => {
             const attestationsInfo = await renderAssetsTable({
-              htmlElementId: 'appsTable',
-              appId: '{{ page.appId }}',
+              htmlElementId: '{{ apps_table_id }}',
+              appId: '{{ build_app_id }}',
               appPlatform: '{{ include.platform }}',
               hideConfig: { wallet: true },
               showOnlyRows: 5,
@@ -35,14 +41,22 @@
               showIssueTracker: true
             });
 
-            const versionNumberElement = document.getElementById('version-number');
+            const versionNumberElement = document.getElementById('{{ version_element_id }}');
             if (versionNumberElement) {
               const versionInfo = getMaxAssetVersion(attestationsInfo.info);
 
               let versionInfoText = '<p style="margin-top: 0;">';
 
-              if (typeof wsVersion !== 'undefined' && wsVersion) {
-                versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVersion + '</b><br>';
+              const skipWsVersion = {{ skip_ws_version | default: false | jsonify }};
+              if (!skipWsVersion) {
+                var wsVer = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
+                  ? wsVersionAndroid
+                  : ((typeof wsVersionIphone !== 'undefined' && '{{ include.platform }}' === 'iphone' && wsVersionIphone)
+                    ? wsVersionIphone
+                    : (typeof wsVersion !== 'undefined' ? wsVersion : ''));
+                if (wsVer) {
+                  versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVer + '</b><br>';
+                }
               }
 
               if (versionInfo.lastVersion) {
@@ -54,27 +68,33 @@
               }
 
               versionInfoText += '</p>';
-              versionNumberElement.innerHTML = versionInfoText;
+              const hasVerificationInfo = versionInfo.lastVersion
+                || (versionInfo.lastVerifiedVersion && versionInfo.lastVerifiedVersion !== versionInfo.lastVersion);
+              if (!skipWsVersion || hasVerificationInfo) {
+                versionNumberElement.innerHTML = versionInfoText;
+              }
             }
 
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {
-                document.getElementById('appsTable').style.display = 'none';
+                document.getElementById('{{ apps_table_id }}').style.display = 'none';
               }
 
-              if (pageVerdict === 'sourceavailable') {
-                document.getElementById('verificationMessage').innerHTML = "This application has its source code available. You can register an asset for a newer version so somebody can verify its reproducibility by dropping the binary file there.";
-              } else if (pageVerdict === 'wip') {
-                document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+              const verificationMessageEl = document.getElementById('{{ verification_message_id }}');
+              if (verificationMessageEl) {
+                if (pageVerdict === 'sourceavailable') {
+                  verificationMessageEl.innerHTML = "This application has its source code available. You can register an asset for a newer version so somebody can verify its reproducibility by dropping the binary file there.";
+                } else if (pageVerdict === 'wip') {
+                  verificationMessageEl.innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+                }
+                verificationMessageEl.innerHTML += '<br><a href="/new_verification/?appId={{ build_app_id }}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
               }
             }
-
-            document.getElementById('verificationMessage').innerHTML += '<br><a href="/new_verification/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
           });
         </script>
         {% else %}
         {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
-        {% if sourceCheckedVerdicts contains page.verdict %}
+        {% if sourceCheckedVerdicts contains build_verdict %}
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>

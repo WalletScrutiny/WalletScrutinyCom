@@ -1,0 +1,22 @@
+---
+title: Icynote
+date: 2024-07-14
+authors:
+- danny
+website: https://icynote.ch
+redirect_from:
+- /android/ch.smd.icynote/
+android:
+  appId: ch.smd.icynote
+  users: 100
+  released: 2021-07-11
+  updated: 2023-09-22
+  version: 1.0.2
+  icon: ch.smd.icynote.png
+  meta: removed
+  verdict: wip
+  developerName: Martin Demierre
+
+---
+
+This is the companion app to the bearer token: {% include walletLink.html wallet='bearer/icynote' verdict='true' %}

@@ -1,0 +1,63 @@
+---
+wsId: oduwaTrustWallet
+title: Oduwa Trust Wallet
+date: 2024-08-26
+authors:
+- danny
+website: https://www.oduwacoin.io/
+twitter: Oduwacoin
+social:
+- https://www.facebook.com/Oduwacoin
+- https://www.instagram.com/oduwacoin
+- https://telegram.im/@oduwacoinexchange
+- https://www.oduwacoin.io
+redirect_from:
+- /android/com.oduwamultiwallet/
+- /iphone/com.oduwatrustwallet.ios/
+android:
+  appId: com.oduwamultiwallet
+  users: 1000
+  released: 2021-07-24
+  updated: 2022-10-07
+  version: 1.1.5
+  icon: com.oduwamultiwallet.png
+  meta: removed
+  verdict: nosource
+  developerName: ODUWA BLOCKCHAIN SOLUTION
+iphone:
+  appId: com.oduwatrustwallet.ios
+  idd: '1580339930'
+  appCountry: tr
+  released: 2021-08-18
+  updated: 2022-09-06
+  version: 1.1.0
+  reviews: 0
+  icon: com.oduwatrustwallet.ios.jpg
+  meta: obsolete
+  verdict: nosource
+  developerName: ODUWA BLOCKCHAIN SOLUTIONS LLC
+
+---
+
+## Android
+
+## App Description from Google Play
+
+> Oduwa Trust Wallet is a decentralised wallet, where users can send & receive OWC, WOWC, OWDT, BTC, BNB.
+>
+> It allows you to interact with many blockchains without ever giving up your private keys or the passcode to your funds.
+
+## Analysis 
+
+- The app provided an 18-word mnemonic phrase during wallet creation.
+- It supports a Bech32 BTC wallet. 
+- They claim to be Open Source and have a GitHub link on their homepage. 
+- We checked out the Oduwa [repository](https://github.com/ODUWAX/Android) for their Android app, but the last time this was updated was five years ago. 
+
+Even though this app is **source-available**, the repository has not been updated for a long time that it no longer matches the app on Google Play. We would have labeled it for verification, but this has to be fixed first. We created an [issue](https://github.com/ODUWAX/Android/issues) in their repository to suggest this.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

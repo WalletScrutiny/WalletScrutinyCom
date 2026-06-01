@@ -9,9 +9,9 @@
   {% endif %}
   {% include /review/steps/sourceCode.html %}
     <!-- {% include /review/steps/privacy.html %} -->
-  {% include /review/steps/applicationBuild.html platform=platform %}
+  {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId versionElementId=include.versionElementId %}
   {% if include.filterPlatform=='true' or include.platform == 'hardware' %}
-    {% include /review/steps/distribution.html platform=platform %}
+    {% include /review/steps/distribution.html platform=platform appId=include.appId idd=include.idd appCountry=include.appCountry alternativeStores=include.alternativeStores %}
   {% endif %}
   {% include /review/bitcoinOrgFeatured.html %}
   {% include /review/steps/platformNotes.html platform=platform %}

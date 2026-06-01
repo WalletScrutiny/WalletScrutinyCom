@@ -1,0 +1,19 @@
+---
+title: thisAppBudget
+date: 2025-02-26
+website: https://thisapp.io
+redirect_from:
+- /android/io.thisapp/
+android:
+  appId: io.thisapp
+  users: 1000
+  released: 2018-09-27
+  updated: 2024-10-19
+  version: 1.4.0
+  icon: io.thisapp.png
+  meta: removed
+  verdict: wip
+  developerName: '*thisApp Inc'
+
+---
+

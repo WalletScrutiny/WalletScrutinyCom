@@ -1,0 +1,72 @@
+---
+wsId: changecoins
+title: Changecoins
+date: 2024-10-03
+authors:
+- danny
+website: https://changecoins.io/
+appCountry: us
+redirect_from:
+- /android/com.application.changecoin/
+- /iphone/pay.changecoins/
+android:
+  appId: com.application.changecoin
+  users: 1000
+  released: 2020-05-12
+  updated: 2022-02-10
+  version: 1.2.6
+  icon: com.application.changecoin.png
+  meta: removed
+  verdict: custodial
+  developerName: Changecoins
+iphone:
+  appId: pay.changecoins
+  idd: 1515720987
+  released: 2020-06-01
+  updated: 2022-02-18
+  version: 1.2.6
+  reviews: 2
+  icon: pay.changecoins.jpg
+  meta: removed
+  verdict: custodial
+  developerName: Changecoins
+
+---
+
+## Android
+
+## App Description
+
+> We offer a wide spectrum of currencies to trade: Bitcoin, Ethereum, Litecoin, Dash, Tether, Dogecoin and others. When conducting any operations, you can pay with your credit/debit card or use such payment methods as Perfect Money, ADVcash and Privat 24.
+
+It also claims to be a multicurrency wallet.
+
+## Custodianship and Termination Clauses in its [Terms](https://changecoins.io/en/site/terms)
+
+Changecoins is odd since it claims in Section 4.4, that it does not have custody services
+
+>  The company does not have custody services, that is, we do not store crypto assets of Users on balances and deposits. In exceptional circumstances, for example, when it is necessary to carry out the AML / KYC procedure, we can delay the exchange.
+
+They have the power to delete the user account:
+
+In 12.1. 
+
+> We have the right to cancel all the listed Terms and delete the User's account, restrict access to the account until the completion of the application and fulfilment of all obligations under the application, as well as registration, including password and login in several situations:
+
+> If for certain reasons the Company ceases to provide the Services and notifies the Users at least 3 calendar days by e-mail.
+
+> If we believe that the User has violated any of the described Terms without notice. In this case, the account is deleted immediately.
+
+## App 
+
+We tried the app but when we inputted our email address, it gave an error "An internal server error occurred". 
+
+## Verdict
+
+Changecoins may claim that it is not a custodial service. However, it doesn't provide the private keys and does not mention this anywhere on the site. Absent a way to backup your wallet, the service is more likely to be **custodial** and the app **not verifiable**.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}
