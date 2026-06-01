@@ -1,31 +1,20 @@
 ---
-wsId: 
 title: Noah (Signet)
-altTitle: 
+date: 2026-05-28
 authors:
 - danny
-users: 50
-appId: com.noahwallet.signet
-alternativeStores: 
-appCountry: 
-released: 
-updated: 2026-05-27
-version: 0.0.15
-reviews: 
-website: 
 repository: https://github.com/smolcars/noah
-icon: com.noahwallet.signet.png
-bugbounty: 
-meta: fewusers
-verdict: sourceavailable
-date: 2026-05-28
-signer: 
-twitter: 
-social: 
-redirect_from: 
-developerName: Hampus Sjöberg
-builds: 
-features: 
+redirect_from:
+- /android/com.noahwallet.signet/
+android:
+  appId: com.noahwallet.signet
+  users: 50
+  updated: 2026-05-27
+  version: 0.0.15
+  icon: com.noahwallet.signet.png
+  meta: fewusers
+  verdict: sourceavailable
+  developerName: Hampus Sjöberg
 
 ---
 
