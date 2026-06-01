@@ -27,7 +27,7 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { createRequire } from 'module';
 import helper from './helper.mjs';
 import { hoistMobileDate } from './mobileWalletStore.mjs';
@@ -644,7 +644,21 @@ async function main () {
   console.log('\nOriginal _android/ and _iphone/ were not modified.');
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+export {
+  splitFrontmatter,
+  parseYamlFrontmatter,
+  buildMobileHeader,
+  buildBody,
+  isEmpty,
+};
+
+const isMigrateToMobileCli =
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isMigrateToMobileCli) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
