@@ -9,8 +9,8 @@ iphone:
   idd: '6479635869'
   appCountry: us
   released: 2024-04-16
-  updated: 2026-05-11
-  version: 2.0.27
+  updated: 2026-05-28
+  version: 2.0.28
   reviews: 91
   icon: com.coinsdo.coinsdowallet.jpg
   meta: ok

@@ -20,7 +20,7 @@ android:
   released: 2019-06-06
   updated: 2026-05-25
   version: 26.5.27
-  reviews: 8632
+  reviews: 8631
   icon: exodusmovement.exodus.png
   meta: ok
   verdict: nosource
@@ -30,9 +30,9 @@ iphone:
   idd: 1414384820
   appCountry: us
   released: 2019-03-23
-  updated: 2026-05-13
-  version: 26.5.13
-  reviews: 35754
+  updated: 2026-05-27
+  version: 26.5.27
+  reviews: 35827
   icon: exodus-movement.exodus.jpg
   meta: ok
   verdict: nosource

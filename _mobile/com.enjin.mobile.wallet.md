@@ -40,7 +40,7 @@ iphone:
   released: 2018-03-12
   updated: 2026-05-15
   version: 3.5.5
-  reviews: 1362
+  reviews: 1361
   icon: com.enjin.mobile.wallet.jpg
   meta: ok
   verdict: nosource

@@ -19,7 +19,7 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-11
-  updated: 2026-05-19
+  updated: 2026-05-29
   version: 2.1.61
   reviews: 87
   icon: com.metallicus.webauth.png

@@ -29,8 +29,8 @@ iphone:
   idd: '1587847973'
   appCountry: us
   released: 2021-10-10
-  updated: 2026-04-17
-  version: 5.17.0
+  updated: 2026-05-28
+  version: 5.19.0
   reviews: 29
   icon: com.phemex.tr.jpg
   meta: ok

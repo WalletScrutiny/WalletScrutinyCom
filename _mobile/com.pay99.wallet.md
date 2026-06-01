@@ -18,8 +18,8 @@ android:
   appCountry: br
   released: 2021-09-23
   updated: 2026-05-25
-  version: 8.4.56
-  reviews: 9837
+  version: 8.4.60
+  reviews: 9846
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-02
   updated: 2026-05-25
   version: 8.4.60
-  reviews: 1974
+  reviews: 1976
   icon: com.pay99.jpg
   meta: ok
   verdict: nosendreceive

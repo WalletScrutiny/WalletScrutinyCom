@@ -37,7 +37,7 @@ iphone:
   released: 2021-10-23
   updated: 2026-05-12
   version: 3.18.6
-  reviews: 813
+  reviews: 814
   icon: io.changenow.wallet-now.jpg
   meta: ok
   verdict: nosource

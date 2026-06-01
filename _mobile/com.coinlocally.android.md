@@ -19,7 +19,7 @@ android:
   released: 2022-04-21
   updated: 2026-05-21
   version: 5.1.1
-  reviews: 90
+  reviews: 96
   icon: com.coinlocally.android.png
   meta: ok
   verdict: custodial

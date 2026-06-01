@@ -30,7 +30,7 @@ iphone:
   released: 2015-10-11
   updated: 2026-03-27
   version: 6.22.0
-  reviews: 990
+  reviews: 991
   icon: com.forex4you.ios.jpg
   meta: ok
   verdict: nosendreceive

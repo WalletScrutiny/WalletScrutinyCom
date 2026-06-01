@@ -29,8 +29,8 @@ iphone:
   idd: '1590983231'
   appCountry: us
   released: 2021-11-10
-  updated: 2026-05-13
-  version: 5.5.22
+  updated: 2026-05-28
+  version: 5.5.23
   reviews: 86
   icon: com.foxwallet.app.jpg
   meta: ok

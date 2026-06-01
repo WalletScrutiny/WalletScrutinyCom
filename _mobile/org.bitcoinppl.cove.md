@@ -13,8 +13,8 @@ android:
   users: 100
   appCountry: us
   released: 2026-02-12
-  updated: 2026-05-18
-  version: 1.2.2
+  updated: 2026-05-28
+  version: 1.2.5
   icon: org.bitcoinppl.cove.png
   meta: fewusers
   verdict: wip

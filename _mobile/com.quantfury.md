@@ -28,7 +28,7 @@ iphone:
   released: 2018-12-15
   updated: 2026-05-12
   version: 1.94.2
-  reviews: 76
+  reviews: 77
   icon: com.quantfury.jpg
   meta: ok
   verdict: custodial

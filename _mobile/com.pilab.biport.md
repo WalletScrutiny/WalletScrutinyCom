@@ -17,7 +17,7 @@ android:
   released: 2023-02-09
   updated: 2025-03-10
   version: '0.45'
-  reviews: 8
+  reviews: 7
   icon: com.pilab.biport.png
   meta: stale
   verdict: nosource

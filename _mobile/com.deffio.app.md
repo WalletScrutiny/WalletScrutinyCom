@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-03-14
-  updated: 2026-03-09
-  version: 1.7.0
+  updated: 2026-05-28
+  version: 1.8.9
   icon: com.deffio.app.png
   meta: ok
   verdict: nosource

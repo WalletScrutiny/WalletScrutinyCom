@@ -14,9 +14,10 @@ redirect_from:
 android:
   appId: com.getbitmoney.getbit
   users: 1000
+  appCountry: us
   released: 2023-01-16
-  updated: 2026-05-18
-  version: 2.00.52
+  updated: 2026-05-31
+  version: 2.00.57
   icon: com.getbitmoney.getbit.png
   meta: ok
   verdict: custodial
@@ -25,7 +26,7 @@ iphone:
   appId: in.getbitmoney.getbit
   idd: '6748333458'
   appCountry: in
-  released: '2025-09-08T07:00:00Z'
+  released: 2025-09-08
   updated: 2026-05-25
   version: 2.0.53
   reviews: 12

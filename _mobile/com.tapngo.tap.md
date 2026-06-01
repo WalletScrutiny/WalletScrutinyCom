@@ -32,7 +32,7 @@ iphone:
   released: 2019-12-20
   updated: 2026-05-15
   version: 3.8.5
-  reviews: 1906
+  reviews: 1907
   icon: com.TapGlobal.tap.jpg
   meta: ok
   verdict: custodial

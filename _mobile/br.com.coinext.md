@@ -33,7 +33,7 @@ iphone:
   released: 2019-01-27
   updated: 2026-05-15
   version: 2.36.0
-  reviews: 5006
+  reviews: 5013
   icon: br.com.coinext.Coinext.jpg
   meta: ok
   verdict: custodial

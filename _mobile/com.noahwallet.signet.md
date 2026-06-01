@@ -9,8 +9,9 @@ redirect_from:
 android:
   appId: com.noahwallet.signet
   users: 50
+  appCountry: us
   updated: 2026-05-27
-  version: 0.0.15
+  version: VARY
   icon: com.noahwallet.signet.png
   meta: fewusers
   verdict: sourceavailable

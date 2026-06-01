@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: us
   released: 2020-10-07
-  updated: 2026-05-21
-  version: 1.13.6
+  updated: 2026-05-28
+  version: 1.13.7
   reviews: 4
   icon: com.admiralmarkets.android.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1222861799'
   appCountry: in
   released: 2017-06-28
-  updated: 2026-05-21
-  version: 5.59.0
+  updated: 2026-05-29
+  version: 5.60.0
   reviews: 3
   icon: com.admiralmarkets.tradersroom.jpg
   meta: ok

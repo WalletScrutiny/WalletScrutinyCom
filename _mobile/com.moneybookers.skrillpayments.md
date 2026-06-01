@@ -19,7 +19,7 @@ android:
   released: 2013-10-29
   updated: 2026-05-20
   version: 3.185.0-2026052009
-  reviews: 3886
+  reviews: 3890
   icon: com.moneybookers.skrillpayments.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2013-10-29
   updated: 2026-05-21
   version: 3.185.0
-  reviews: 8744
+  reviews: 8753
   icon: com.skrill.ios.SkrillPayments.jpg
   meta: ok
   verdict: nosendreceive

@@ -8,8 +8,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-11-02
-  updated: 2026-05-13
-  version: 2.3.2
+  updated: 2026-05-29
+  version: 2.4.0
   icon: com.sinohope.pro.png
   meta: fewusers
   verdict: wip

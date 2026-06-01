@@ -15,8 +15,8 @@ android:
   appCountry: us
   released: 2010-12-15
   updated: 2026-05-21
-  version: '4.32'
-  reviews: 56992
+  version: '4.33'
+  reviews: 57013
   icon: com.fidelity.android.png
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2010-02-22
   updated: 2026-05-22
   version: '4.33'
-  reviews: 3127488
+  reviews: 3139726
   icon: com.fidelity.watchlist.jpg
   meta: ok
   verdict: custodial

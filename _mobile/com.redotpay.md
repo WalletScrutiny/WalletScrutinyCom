@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2023-06-09
   updated: 2026-05-26
-  version: 3.6.0
-  reviews: 1122
+  version: 3.7.0
+  reviews: 1128
   icon: com.redotpay.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: '6449689356'
   appCountry: us
   released: 2023-06-13
-  updated: 2026-05-15
-  version: 3.6.1
-  reviews: 3444
+  updated: 2026-05-29
+  version: 3.7.0
+  reviews: 3468
   icon: com.redotpay.jpg
   meta: ok
   verdict: custodial

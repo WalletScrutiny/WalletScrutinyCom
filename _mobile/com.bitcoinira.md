@@ -23,7 +23,7 @@ android:
   released: 2021-06-15
   updated: 2026-05-12
   version: 2.0.10
-  reviews: 551
+  reviews: 553
   icon: com.bitcoinira.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2021-06-20
   updated: 2026-05-13
   version: 2.0.10
-  reviews: 1186
+  reviews: 1188
   icon: com.bitcoinira.jpg
   meta: ok
   verdict: custodial

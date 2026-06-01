@@ -30,7 +30,7 @@ iphone:
   released: 2025-05-16
   updated: 2026-05-06
   version: 1.1.9
-  reviews: 8
+  reviews: 10
   icon: com.lightning.manna.jpg
   meta: ok
   verdict: custodial

@@ -20,7 +20,7 @@ android:
   released: 2019-09-17
   updated: 2024-11-29
   version: 6.3.14
-  reviews: 482
+  reviews: 481
   icon: com.monnos.android.png
   meta: stale
   verdict: custodial

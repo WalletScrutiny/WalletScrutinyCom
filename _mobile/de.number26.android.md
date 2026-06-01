@@ -21,7 +21,7 @@ android:
   released: 2015-01-23
   updated: 2026-05-15
   version: '4.51'
-  reviews: 2171
+  reviews: 2170
   icon: de.number26.android.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-05-21
   version: 4.51.1
-  reviews: 11447
+  reviews: 11474
   icon: de.no26.Number26.jpg
   meta: ok
   verdict: custodial

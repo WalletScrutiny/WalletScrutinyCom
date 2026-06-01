@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: ru
   released: 2020-07-28
-  updated: 2026-05-08
-  version: 2.3.2
+  updated: 2026-05-29
+  version: 2.3.7
   reviews: 149
   icon: ru.koshelek.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1524167720
   appCountry: ru
   released: 2020-08-05
-  updated: 2026-05-15
-  version: 2.3.3
+  updated: 2026-05-30
+  version: 2.3.7
   reviews: 117
   icon: dev.spedn.ru.jpg
   meta: ok

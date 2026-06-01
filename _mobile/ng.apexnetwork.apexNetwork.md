@@ -12,7 +12,7 @@ iphone:
   released: 2022-01-11
   updated: 2026-05-25
   version: 3.2.17
-  reviews: 2284
+  reviews: 2280
   icon: ng.apexnetwork.apexNetwork.jpg
   meta: ok
   verdict: wip

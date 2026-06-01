@@ -20,7 +20,7 @@ android:
   released: 2019-10-16
   updated: 2026-05-26
   version: 7.3.16
-  reviews: 882
+  reviews: 885
   icon: com.vita_wallet.png
   meta: ok
   verdict: custodial

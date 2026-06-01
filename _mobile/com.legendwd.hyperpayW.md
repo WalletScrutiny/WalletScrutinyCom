@@ -21,7 +21,7 @@ android:
   released: 2018-10-25
   updated: 2026-05-21
   version: 5.6.230900
-  reviews: 194
+  reviews: 195
   icon: com.legendwd.hyperpayW.png
   meta: ok
   verdict: nosource

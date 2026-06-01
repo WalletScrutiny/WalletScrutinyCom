@@ -28,9 +28,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-06-19
-  updated: 2026-05-20
-  version: 9.22.1
-  reviews: 4132
+  updated: 2026-05-31
+  version: 9.23.5
+  reviews: 4135
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource
@@ -40,9 +40,9 @@ iphone:
   idd: '1252903728'
   appCountry: us
   released: 2017-07-11
-  updated: 2026-05-21
-  version: 9.22.0
-  reviews: 43605
+  updated: 2026-05-28
+  version: 9.23.1
+  reviews: 43687
   icon: com.bitcoin.mwallet.jpg
   meta: ok
   verdict: nosource

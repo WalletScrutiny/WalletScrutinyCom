@@ -19,7 +19,7 @@ android:
   released: 2019-01-24
   updated: 2026-01-21
   version: '38.0'
-  reviews: 2600
+  reviews: 2601
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource
@@ -29,9 +29,9 @@ iphone:
   idd: 1406211993
   appCountry: us
   released: 2018-08-04
-  updated: 2026-01-13
-  version: '38.0'
-  reviews: 15712
+  updated: 2026-05-27
+  version: '38.2'
+  reviews: 15805
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource

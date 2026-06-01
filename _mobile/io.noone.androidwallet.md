@@ -20,7 +20,7 @@ android:
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
-  reviews: 317
+  reviews: 319
   icon: io.noone.androidwallet.png
   meta: ok
   verdict: nosource

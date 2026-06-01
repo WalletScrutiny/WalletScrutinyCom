@@ -22,7 +22,7 @@ android:
   released: 2026-01-19
   updated: 2026-05-08
   version: 2.1.0
-  reviews: 12
+  reviews: 14
   icon: com.rumble.rumblewallet.png
   meta: ok
   verdict: nosource

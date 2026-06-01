@@ -38,7 +38,7 @@ iphone:
   released: 2019-10-01
   updated: 2026-05-25
   version: 5.0.232
-  reviews: 362
+  reviews: 363
   icon: com.bitpie.wallet.jpg
   meta: ok
   verdict: nosource

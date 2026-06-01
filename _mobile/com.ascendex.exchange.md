@@ -20,7 +20,7 @@ android:
   released: 2021-04-28
   updated: 2026-05-26
   version: 3.7.5
-  reviews: 77
+  reviews: 76
   icon: com.ascendex.exchange.png
   meta: ok
   verdict: custodial

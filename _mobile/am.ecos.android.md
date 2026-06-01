@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-22
-  updated: 2026-05-21
-  version: 3.1.19
+  updated: 2026-05-26
+  version: 3.1.20
   reviews: 234
   icon: am.ecos.android.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: '1528964374'
   appCountry: us
   released: 2020-11-25
-  updated: 2026-05-23
-  version: 3.1.19
-  reviews: 231
+  updated: 2026-06-01
+  version: 3.1.20
+  reviews: 232
   icon: am.ecos.ios.production.jpg
   meta: ok
   verdict: custodial

@@ -34,8 +34,8 @@ iphone:
   idd: 1367425342
   appCountry: ru
   released: 2018-05-16
-  updated: 2026-04-01
-  version: 3.24.0
+  updated: 2026-05-28
+  version: '3.25'
   reviews: 55
   icon: com.exscudo.channels.jpg
   meta: ok

@@ -17,8 +17,8 @@ android:
   appId: fior.digital21app
   users: 10000
   appCountry: us
-  updated: 2026-05-19
-  version: 2.2.2
+  updated: 2026-05-27
+  version: 2.2.3
   icon: fior.digital21app.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: '1579302952'
   appCountry: lu
   released: 2022-03-29
-  updated: 2026-05-18
-  version: 2.2.1
+  updated: 2026-05-28
+  version: 2.2.3
   reviews: 1
   icon: digital.fior.21app.jpg
   meta: ok

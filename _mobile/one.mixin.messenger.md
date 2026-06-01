@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-05-24
-  updated: 2026-05-26
-  version: 4.3.0
+  updated: 2026-05-29
+  version: 4.3.1
   reviews: 152
   icon: one.mixin.messenger.png
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: 1322324266
   appCountry: us
   released: 2018-01-20
-  updated: 2026-05-25
-  version: 4.3.0
-  reviews: 1156
+  updated: 2026-05-31
+  version: 4.3.1
+  reviews: 1157
   icon: one.mixin.messenger.jpg
   meta: ok
   verdict: sourceavailable

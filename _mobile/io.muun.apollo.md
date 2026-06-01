@@ -26,7 +26,7 @@ android:
   released: 2017-04-25
   updated: 2026-04-22
   version: '55.8'
-  reviews: 231
+  reviews: 234
   icon: io.muun.apollo.png
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:

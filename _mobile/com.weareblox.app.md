@@ -20,7 +20,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-05-22
-  version: 6.8.2
+  version: 6.8.3
   icon: com.weareblox.app.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2019-01-16
   updated: 2026-04-21
   version: 6.8.2
-  reviews: 5625
+  reviews: 5626
   icon: com.weareblox.app.jpg
   meta: ok
   verdict: nosendreceive

@@ -33,7 +33,7 @@ iphone:
   released: 2022-08-02
   updated: 2026-02-07
   version: 4.19.6
-  reviews: 121
+  reviews: 120
   icon: app.braavos.wallet.jpg
   meta: ok
   verdict: nosource

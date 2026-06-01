@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-01-19
-  updated: 2026-04-26
-  version: 9.6.3
+  updated: 2026-05-28
+  version: 9.6.4
   reviews: 601
   icon: com.zengo.wallet.png
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: 1440147115
   appCountry: us
   released: 2019-06-07
-  updated: 2026-04-27
-  version: 9.6.3
-  reviews: 4377
+  updated: 2026-05-31
+  version: 9.6.4
+  reviews: 4376
   icon: kzencorp.mobile.ios.jpg
   meta: ok
   verdict: nosource

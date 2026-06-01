@@ -30,7 +30,7 @@ iphone:
   released: 2022-11-28
   updated: 2026-03-31
   version: 14.4.0
-  reviews: 1427
+  reviews: 1428
   icon: au.com.bitcoin.mobileapp.jpg
   meta: ok
   verdict: custodial

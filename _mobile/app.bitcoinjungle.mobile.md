@@ -22,8 +22,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-12-05
-  updated: 2025-10-07
-  version: 1.4.5
+  updated: 2026-05-24
+  version: 1.4.8
   reviews: 1
   icon: app.bitcoinjungle.mobile.png
   meta: ok
@@ -34,8 +34,8 @@ iphone:
   idd: '1600313979'
   appCountry: cr
   released: 2021-12-16
-  updated: 2025-10-09
-  version: 1.4.5
+  updated: 2026-05-28
+  version: 1.4.8
   reviews: 18
   icon: app.bitcoinjungle.ios.jpg
   meta: ok

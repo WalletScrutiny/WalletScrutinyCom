@@ -29,8 +29,8 @@ iphone:
   idd: '6744923576'
   appCountry: pa
   released: 2025-06-29
-  updated: 2026-05-19
-  version: 0.8.4 (1693)
+  updated: 2026-05-27
+  version: 0.8.5 (1735)
   reviews: 0
   icon: com.inexlatam.panther.jpg
   meta: ok

@@ -26,7 +26,7 @@ iphone:
   released: 2021-05-22
   updated: 2026-05-26
   version: 2.1.6
-  reviews: 1203
+  reviews: 1204
   icon: com.pionex.lite.appstore.jpg
   meta: ok
   verdict: custodial

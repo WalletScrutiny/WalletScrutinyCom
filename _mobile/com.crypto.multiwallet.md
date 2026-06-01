@@ -36,7 +36,7 @@ iphone:
   released: 2018-12-01
   updated: 2026-05-21
   version: 3.1.11
-  reviews: 941
+  reviews: 942
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource

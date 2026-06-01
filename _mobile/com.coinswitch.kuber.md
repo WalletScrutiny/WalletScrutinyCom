@@ -18,9 +18,9 @@ android:
   users: 10000000
   appCountry: in
   released: 2020-05-31
-  updated: 2026-05-21
-  version: 9.3.2
-  reviews: 147503
+  updated: 2026-05-31
+  version: 9.3.4
+  reviews: 147056
   icon: com.coinswitch.kuber.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2020-12-01
   updated: 2026-05-21
   version: 9.3.5
-  reviews: 60737
+  reviews: 60757
   icon: com.coinswitch.kuber.jpg
   meta: ok
   verdict: nosendreceive

@@ -20,7 +20,7 @@ android:
   appId: com.okx.tr
   users: 500000
   appCountry: us
-  updated: 2026-05-21
+  updated: 2026-05-27
   version: 6.172.1
   icon: com.okx.tr.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2024-02-07
   updated: 2026-05-19
   version: 6.172.0
-  reviews: 2202
+  reviews: 2203
   icon: com.okx.tr.jpg
   meta: ok
   verdict: custodial

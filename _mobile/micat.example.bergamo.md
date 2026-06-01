@@ -5,7 +5,7 @@ redirect_from:
 - /android/micat.example.bergamo/
 android:
   appId: micat.example.bergamo
-  users: 5
+  users: 10
   appCountry: us
   released: 2022-09-16
   updated: 2024-08-14

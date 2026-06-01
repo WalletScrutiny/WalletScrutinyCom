@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-09-23
-  updated: 2026-05-15
-  version: 2.0.13
+  updated: 2026-06-01
+  version: 2.0.14
   icon: com.bittime.currency.exchange.png
   meta: ok
   verdict: custodial

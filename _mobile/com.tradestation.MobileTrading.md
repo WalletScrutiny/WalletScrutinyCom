@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2013-09-09
   updated: 2026-05-26
-  version: 9.5.0
-  reviews: 2061
+  version: 9.5.1
+  reviews: 2060
   icon: com.tradestation.MobileTrading.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2012-12-10
   updated: 2026-05-20
   version: 9.5.1
-  reviews: 18354
+  reviews: 18357
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

@@ -4,7 +4,7 @@ title: 'Globe: Crypto Exchange'
 date: 2026-05-27
 authors:
 - danny
-website: https://globe.exchange
+website: https://globe.exchange/support
 twitter: globedx
 social:
 - https://t.me/GlobeOfficial
@@ -14,6 +14,7 @@ redirect_from:
 android:
   appId: com.frt.globe
   users: 1000
+  appCountry: us
   updated: 2025-08-06
   version: 1.3.0
   icon: com.frt.globe.png
@@ -24,7 +25,7 @@ iphone:
   appId: com.globeDerivativeTrading.globe.prod
   idd: '1644509474'
   appCountry: ch
-  released: '2022-10-19T07:00:00Z'
+  released: 2022-10-19
   updated: 2023-03-14
   version: 1.0.14
   reviews: 0

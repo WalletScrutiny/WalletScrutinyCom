@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-10-10
-  updated: 2026-04-22
-  version: 2.2.9
+  updated: 2026-05-28
+  version: 2.3.0
   icon: com.atomwallets.app.png
   meta: ok
   verdict: nosource
@@ -25,8 +25,8 @@ iphone:
   idd: '6754027418'
   appCountry: us
   released: 2025-11-07
-  updated: 2026-04-24
-  version: 2.2.7
+  updated: 2026-05-28
+  version: 2.2.8
   reviews: 1
   icon: ios.atomwallets.com.jpg
   meta: ok

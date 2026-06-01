@@ -15,9 +15,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2018-07-07
-  updated: 2026-05-13
-  version: 1.151.0
-  reviews: 3267
+  updated: 2026-05-28
+  version: 1.152.0
+  reviews: 3266
   icon: com.chippercash.png
   meta: ok
   verdict: custodial

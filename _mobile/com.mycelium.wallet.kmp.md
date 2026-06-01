@@ -8,9 +8,10 @@ redirect_from:
 android:
   appId: com.mycelium.wallet.kmp
   users: 100
-  released: '2026-02-06'
-  updated: '2026-05-10'
-  version: 1.1.13
+  appCountry: us
+  released: 2026-02-06
+  updated: 2026-05-30
+  version: 1.1.15
   icon: com.mycelium.wallet.kmp.png
   meta: fewusers
   verdict: wip

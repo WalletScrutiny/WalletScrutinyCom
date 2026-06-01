@@ -27,7 +27,7 @@ iphone:
   released: 2024-03-05
   updated: 2024-03-05
   version: 1.2.2
-  reviews: 5
+  reviews: 6
   icon: io.cheeleewallet.app.jpg
   meta: obsolete
   verdict: custodial

@@ -22,7 +22,7 @@ android:
   released: 2026-03-19
   updated: 2026-05-20
   version: 1.2.0
-  reviews: 8
+  reviews: 9
   icon: io.tether.wallet.png
   meta: ok
   verdict: nosource

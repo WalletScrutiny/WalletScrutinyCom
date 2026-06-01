@@ -28,7 +28,7 @@ iphone:
   released: 2025-01-06
   updated: 2026-05-25
   version: 1.2.4(3)
-  reviews: 93
+  reviews: 94
   icon: com.maxwallet.cc.jpg
   meta: ok
   verdict: nosource

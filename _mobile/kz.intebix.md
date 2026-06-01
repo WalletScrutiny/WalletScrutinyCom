@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-01-09
-  updated: 2026-04-26
-  version: 2.2.0
+  updated: 2026-05-29
+  version: 2.1.0
   icon: kz.intebix.png
   meta: ok
   verdict: custodial
@@ -25,8 +25,8 @@ iphone:
   idd: '6443622769'
   appCountry: kz
   released: 2023-01-11
-  updated: 2026-05-23
-  version: 0.8.2
+  updated: 2026-06-01
+  version: 0.8.3
   reviews: 13
   icon: com.idea-soft.intebix.jpg
   meta: ok

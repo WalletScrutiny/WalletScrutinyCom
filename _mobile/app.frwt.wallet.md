@@ -23,7 +23,7 @@ android:
   released: 2024-01-03
   updated: 2026-02-12
   version: 1.15.0
-  reviews: 210
+  reviews: 215
   icon: app.frwt.wallet.png
   meta: ok
   verdict: nosource

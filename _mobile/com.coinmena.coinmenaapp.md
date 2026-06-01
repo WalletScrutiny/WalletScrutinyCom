@@ -20,7 +20,7 @@ android:
   released: 2021-08-07
   updated: 2026-05-19
   version: 3.6.0
-  reviews: 55
+  reviews: 54
   icon: com.coinmena.coinmenaapp.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2021-09-26
   updated: 2026-05-24
   version: 3.6.0
-  reviews: 16
+  reviews: 17
   icon: com.coinmena.coinmenaapp.jpg
   meta: ok
   verdict: custodial

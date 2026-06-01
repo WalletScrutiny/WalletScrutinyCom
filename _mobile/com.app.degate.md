@@ -15,9 +15,10 @@ redirect_from:
 android:
   appId: com.app.degate
   users: 1000
+  appCountry: us
   released: 2025-06-09
-  updated: 2026-04-24
-  version: 1.0.24
+  updated: 2026-05-29
+  version: 1.0.26
   icon: com.app.degate.png
   meta: ok
   verdict: nosource
@@ -26,7 +27,7 @@ iphone:
   appId: com.app.degate
   idd: '6742168343'
   appCountry: us
-  released: '2025-06-17T07:00:00Z'
+  released: 2025-06-17
   updated: 2026-05-25
   version: 1.0.25
   reviews: 8

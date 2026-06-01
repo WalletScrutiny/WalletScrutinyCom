@@ -29,9 +29,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-12-18
-  updated: 2026-04-21
+  updated: 2026-05-28
   version: 0.48.2
-  reviews: 134
+  reviews: 133
   icon: io.horizontalsystems.bankwallet.png
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
@@ -44,9 +44,9 @@ iphone:
   idd: 1447619907
   appCountry: us
   released: 2019-01-10
-  updated: 2026-04-20
-  version: 0.48.1
-  reviews: 1308
+  updated: 2026-06-01
+  version: 0.48.2
+  reviews: 1310
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
   verdict: sourceavailable

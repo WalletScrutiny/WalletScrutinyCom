@@ -16,7 +16,7 @@ android:
   released: 2019-07-11
   updated: 2026-02-17
   version: 4.2.2
-  reviews: 3555
+  reviews: 3554
   icon: com.bitwala.app.png
   meta: ok
   verdict: nosource

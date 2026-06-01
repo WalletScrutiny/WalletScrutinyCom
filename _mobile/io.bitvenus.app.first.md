@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-07-28
-  updated: 2026-05-15
-  version: 5.7.17
+  updated: 2026-05-29
+  version: 5.7.18
   reviews: 6
   icon: io.bitvenus.app.first.jpg
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '6453759917'
   appCountry: us
   released: 2023-08-14
-  updated: 2026-05-16
-  version: 5.7.12
+  updated: 2026-06-01
+  version: 5.7.13
   reviews: 13
   icon: com.bitvenus.exchange.jpg
   meta: ok

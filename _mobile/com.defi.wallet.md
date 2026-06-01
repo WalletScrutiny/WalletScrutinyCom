@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-03-16
   version: 2.50.3
-  reviews: 20997
+  reviews: 21062
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-01-15
-  updated: 2026-05-12
-  version: 2.99.3 (3067)
+  updated: 2026-05-27
+  version: 2.100.0 (3078)
   reviews: 412
   icon: com.elrond.maiar.wallet.png
   meta: ok

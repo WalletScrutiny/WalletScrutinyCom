@@ -33,8 +33,8 @@ iphone:
   idd: 1512836089
   appCountry: us
   released: 2020-07-30
-  updated: 2026-05-19
-  version: 8.8.84
+  updated: 2026-05-29
+  version: 8.8.85
   reviews: 696
   icon: com.pointpayio.PointPayBank.jpg
   meta: ok

@@ -27,8 +27,8 @@ iphone:
   idd: '1582196311'
   appCountry: us
   released: 2021-09-02
-  updated: 2026-04-30
-  version: 1.7.10
+  updated: 2026-05-28
+  version: 1.7.11
   reviews: 0
   icon: com.fintoda.app.jpg
   meta: ok

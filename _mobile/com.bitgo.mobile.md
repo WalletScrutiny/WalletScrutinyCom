@@ -28,8 +28,8 @@ iphone:
   idd: '1608937235'
   appCountry: us
   released: 2022-05-09
-  updated: 2026-03-26
-  version: 2.0.66
+  updated: 2026-05-29
+  version: 2.2.6
   reviews: 15
   icon: com.bitgo.mobile.jpg
   meta: ok

@@ -31,7 +31,7 @@ iphone:
   released: 2021-06-07
   updated: 2026-05-08
   version: 5.13.2
-  reviews: 24743
+  reviews: 24864
   icon: de.gratisbroker.ios.mobileapp.jpg
   meta: ok
   verdict: nosendreceive

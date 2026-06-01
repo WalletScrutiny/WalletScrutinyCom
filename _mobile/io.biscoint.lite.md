@@ -30,7 +30,7 @@ iphone:
   released: 2022-02-09
   updated: 2026-05-26
   version: 2.9.15
-  reviews: 8799
+  reviews: 8806
   icon: io.biscoint.lite.jpg
   meta: ok
   verdict: nosendreceive

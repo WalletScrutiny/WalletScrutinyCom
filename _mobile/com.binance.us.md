@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-12-23
-  updated: 2026-05-22
+  updated: 2026-05-28
   version: 3.38.1
-  reviews: 6859
+  reviews: 6862
   icon: com.binance.us.png
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2020-01-05
   updated: 2026-05-21
   version: 3.38.2
-  reviews: 110247
+  reviews: 110339
   icon: us.binance.fiat.jpg
   meta: ok
   verdict: custodial

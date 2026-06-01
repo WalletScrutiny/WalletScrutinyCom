@@ -37,8 +37,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-11-01
-  updated: 2026-03-03
-  version: 7.2.7
+  updated: 2026-05-31
+  version: 8.0.0
   reviews: 380
   icon: io.bluewallet.bluewallet.png
   signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f

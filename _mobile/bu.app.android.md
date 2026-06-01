@@ -25,7 +25,7 @@ android:
   released: 2025-04-29
   updated: 2026-05-23
   version: 3.36.0
-  reviews: 94
+  reviews: 100
   icon: bu.app.android.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: '6446243957'
   appCountry: us
   released: 2023-04-11
-  updated: 2026-03-26
-  version: 3.28.0
-  reviews: 614
+  updated: 2026-05-27
+  version: 3.36.0
+  reviews: 624
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

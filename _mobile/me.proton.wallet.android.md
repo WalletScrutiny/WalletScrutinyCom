@@ -40,7 +40,7 @@ iphone:
   released: 2025-02-10
   updated: 2026-05-20
   version: 1.2.7
-  reviews: 213
+  reviews: 216
   icon: me.proton.wallet.ios.jpg
   meta: ok
   verdict: sourceavailable

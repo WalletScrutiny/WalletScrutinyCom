@@ -15,9 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-04-13
-  updated: 2026-05-14
-  version: 3.0.020
-  reviews: 15
+  updated: 2026-05-28
+  version: 3.0.030
+  reviews: 16
   icon: com.BIYAGlobal.www.png
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '1546702297'
   appCountry: sn
   released: 2021-02-09
-  updated: 2026-05-15
-  version: 3.0.020
+  updated: 2026-05-31
+  version: 3.0.030
   reviews: 0
   icon: com.BiyaGlobal.Biya.jpg
   meta: ok

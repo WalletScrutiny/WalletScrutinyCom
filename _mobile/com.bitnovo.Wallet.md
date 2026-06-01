@@ -17,8 +17,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-10-27
-  updated: 2026-05-25
-  version: 3.0.78
+  updated: 2026-05-29
+  version: 3.0.79
   reviews: 12
   icon: com.bitnovo.Wallet.png
   meta: ok

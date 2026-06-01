@@ -10,9 +10,10 @@ redirect_from:
 android:
   appId: com.coinrabbit
   users: 1000
+  appCountry: us
   released: 2025-07-21
-  updated: 2026-01-23
-  version: 1.0.15
+  updated: 2026-05-26
+  version: 1.1.0
   icon: com.coinrabbit.png
   meta: ok
   verdict: custodial

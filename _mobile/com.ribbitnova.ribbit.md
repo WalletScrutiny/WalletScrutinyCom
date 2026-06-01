@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-20
-  updated: 2026-05-22
-  version: 1.9.3
+  updated: 2026-05-29
+  version: 1.10.1
   icon: com.ribbitnova.ribbit.png
   meta: ok
   verdict: nosource

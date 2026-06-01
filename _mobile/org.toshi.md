@@ -21,7 +21,7 @@ android:
   released: 2017-09-20
   updated: 2026-05-22
   version: 29.96.0
-  reviews: 14085
+  reviews: 14087
   icon: org.toshi.png
   meta: ok
   verdict: nosource
@@ -33,7 +33,7 @@ iphone:
   released: 2017-09-27
   updated: 2026-05-25
   version: '29.96'
-  reviews: 161416
+  reviews: 161420
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

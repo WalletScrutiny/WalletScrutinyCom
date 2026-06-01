@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2019-11-12
   updated: 2026-05-21
-  version: 3.86.4
+  version: 3.87.0
   reviews: 96
   icon: com.exmo.png
   meta: ok

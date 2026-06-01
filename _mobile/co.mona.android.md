@@ -27,7 +27,7 @@ android:
   released: 2017-08-30
   updated: 2026-05-18
   version: 3.233.10
-  reviews: 56536
+  reviews: 56551
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial
@@ -39,7 +39,7 @@ iphone:
   released: 2017-08-31
   updated: 2026-05-19
   version: 3.233.10
-  reviews: 329212
+  reviews: 329476
   icon: co.mona.Monaco.jpg
   meta: ok
   verdict: custodial

@@ -15,7 +15,7 @@ android:
   released: 2024-06-05
   updated: 2025-04-02
   version: 1.13.0
-  reviews: 316
+  reviews: 317
   icon: com.corewallet.element.app.jpg
   meta: stale
   verdict: nosource

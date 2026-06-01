@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2020-09-02
 discontinued: 
-updated: 2026-05-22
-version: 2.5.1
+updated: 2026-05-31
+version: 2.5.2
 binaries: 
 provider: Craig Raw
 providerWebsite: 
@@ -32,9 +32,9 @@ builds:
 - arch: x86_64-windows
   types:
     zip:
-    - 'Sparrow-*.zip'
+    - Sparrow-*.zip
     msi:
-    - 'Sparrow-*.msi'
+    - Sparrow-*.msi
 features:
 - airGapped
 - companion

@@ -14,9 +14,10 @@ redirect_from:
 android:
   appId: com.earnbit.app.exchange
   users: 1000
+  appCountry: us
   released: 2022-10-30
-  updated: 2026-02-25
-  version: 1.0.26
+  updated: 2026-05-25
+  version: 1.0.27
   icon: com.earnbit.app.exchange.png
   meta: ok
   verdict: custodial
@@ -25,7 +26,7 @@ iphone:
   appId: com.earnBit.exchange.app
   idd: '6444002806'
   appCountry: us
-  released: '2022-11-08T08:00:00Z'
+  released: 2022-11-08
   updated: 2026-05-22
   version: 1.0.27
   reviews: 0

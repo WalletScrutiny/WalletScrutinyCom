@@ -12,7 +12,7 @@ iphone:
   released: 2021-10-26
   updated: 2026-02-09
   version: 2.31.0
-  reviews: 142
+  reviews: 143
   icon: Com.BankSocial.app.jpg
   meta: ok
   verdict: wip

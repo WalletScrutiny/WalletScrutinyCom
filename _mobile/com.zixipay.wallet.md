@@ -30,7 +30,7 @@ iphone:
   released: 2019-12-22
   updated: 2026-04-28
   version: '2.00'
-  reviews: 28
+  reviews: 29
   icon: com.zixipay.wallet.jpg
   meta: ok
   verdict: custodial

@@ -11,8 +11,8 @@ android:
   users: 1000
   appCountry: us
   released: 2021-11-23
-  updated: 2025-06-26
-  version: 1.6.0
+  updated: 2026-05-12
+  version: 1.8.0
   icon: jp.co.moneypartners.CryptoTrade.png
   meta: ok
   verdict: nosendreceive

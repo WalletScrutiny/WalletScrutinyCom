@@ -22,7 +22,7 @@ android:
   version: 7.0.9
   reviews: 7
   icon: app.mybitstore.com.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Mybitstore - Buy & Sell BTC
 iphone:

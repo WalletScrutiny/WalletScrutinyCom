@@ -13,6 +13,7 @@ redirect_from:
 android:
   appId: com.exchange1.ex1
   users: 1000
+  appCountry: us
   updated: 2026-05-05
   version: 1.1.4
   icon: com.exchange1.ex1.jpg
@@ -23,7 +24,7 @@ iphone:
   appId: com.exchange1.exapp
   idd: '6744722632'
   appCountry: in
-  released: '2025-08-11T07:00:00Z'
+  released: 2025-08-11
   updated: 2026-05-05
   version: 1.1.3
   reviews: 3

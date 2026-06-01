@@ -32,8 +32,8 @@ iphone:
   idd: '1410639317'
   appCountry: au
   released: 2021-06-21
-  updated: 2026-05-13
-  version: 7.0.4
+  updated: 2026-05-27
+  version: 7.1.0
   reviews: 286
   icon: io.getamber.app.jpg
   meta: ok

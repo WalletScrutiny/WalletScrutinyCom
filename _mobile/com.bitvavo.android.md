@@ -13,9 +13,9 @@ android:
   users: 1000000
   appCountry: nl
   released: 2020-08-19
-  updated: 2026-05-21
+  updated: 2026-05-29
   version: 2.109.0
-  reviews: 3656
+  reviews: 3657
   icon: com.bitvavo.android.png
   meta: ok
   verdict: custodial
@@ -27,7 +27,7 @@ iphone:
   released: 2020-05-28
   updated: 2026-05-26
   version: 2.109.0
-  reviews: 8502
+  reviews: 8503
   icon: com.bitvavo.jpg
   meta: ok
   verdict: custodial

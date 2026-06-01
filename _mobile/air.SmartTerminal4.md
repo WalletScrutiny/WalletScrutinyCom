@@ -8,7 +8,7 @@ android:
   users: 500
   released: 2019-07-28
   updated: 2019-09-08
-  version: '0_43'
+  version: 0_43
   icon: air.SmartTerminal4.png
   meta: removed
   verdict: wip
