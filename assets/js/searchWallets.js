@@ -76,10 +76,12 @@ function walletMatchesPlatformFilter (wallet, platform) {
     return true;
   }
   if (platform === 'android') {
-    return (wallet.folder === 'mobile' && wallet.hasAndroid) || wallet.folder === 'android';
+    return (wallet.folder === 'mobile' && wallet.hasAndroid) || wallet.folder === 'android' ||
+      (wallet.archived && wallet.folder === 'mobile');
   }
   if (platform === 'iphone') {
-    return (wallet.folder === 'mobile' && wallet.hasIphone) || wallet.folder === 'iphone';
+    return (wallet.folder === 'mobile' && wallet.hasIphone) || wallet.folder === 'iphone' ||
+      (wallet.archived && wallet.folder === 'mobile');
   }
   return wallet.folder === platform;
 }

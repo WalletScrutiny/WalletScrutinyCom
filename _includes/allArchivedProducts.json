@@ -1,4 +1,17 @@
 {
+  "mobile": {
+    "apps": [
+      {% assign mobile_posts = site.archived | where_exp: "post", "post.path contains '/mobile/'" %}
+      {% for post in mobile_posts %}
+      {% include wallet_score.html verdict=post.verdict platform='mobile' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title | escape }}",
+        "verdict": "{{ post.verdict }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
   "iphone": {
     "apps": [ 
       {% assign iphone_posts = site.archived | where_exp: "post", "post.path contains '/iphone/'" %}

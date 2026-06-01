@@ -13,6 +13,15 @@ permalink: /allWallets.js
   window.featureAlertMessages = data.featureAlertMessages || {};
   window.featureShorts = data.featureShorts || {};
   const folders = ["hardware", "mobile", "bearer", "desktop", "others"];
+  // Active listings use `mobile`; archived store listings still live under
+  // _archived/android, _archived/iphone, and (new) _archived/mobile.
+  const archivedKeysByFolder = {
+    mobile: ["mobile", "android", "iphone"],
+    hardware: ["hardware"],
+    bearer: ["bearer"],
+    desktop: ["desktop"],
+    others: ["others"],
+  };
   folders.forEach(folder => {
     const folderData = data[folder];
     const category = folderData.category;
@@ -25,11 +34,14 @@ permalink: /allWallets.js
     });
   });
   folders.forEach(folder => {
-    const archivedFolderData = archivedData[folder];
-    if (archivedFolderData && archivedFolderData.apps) {
-      const apps = archivedFolderData.apps;
-      apps.forEach(w => {
-        w.folder = folder;
+    const archivedKeys = archivedKeysByFolder[folder] || [folder];
+    for (const archivedKey of archivedKeys) {
+      const archivedFolderData = archivedData[archivedKey];
+      if (!archivedFolderData || !archivedFolderData.apps) {
+        continue;
+      }
+      archivedFolderData.apps.forEach(w => {
+        w.folder = archivedKey;
         w.archived = true;
         wallets.push(w);
       });
