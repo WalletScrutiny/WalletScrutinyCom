@@ -42,6 +42,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Mycelium Developers
+  repository: https://github.com/mycelium-com/wallet-android
 iphone:
   appId: com.mycelium.wallet-ios
   idd: 943912290
@@ -54,6 +55,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: MRD X-Change GmbH
+  repository: https://github.com/mycelium-com/wallet-ios
 
 ---
 

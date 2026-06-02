@@ -22,6 +22,7 @@ android:
   icon: io.hexawallet.hexa.png
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/bithyve/bitcointribe-classic
 iphone:
   appId: io.hexawallet.hexa
   idd: 1490205837
@@ -32,6 +33,7 @@ iphone:
   icon: io.hexawallet.hexa.jpg
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/bithyve/bitcointribe-classic
 
 ---
 

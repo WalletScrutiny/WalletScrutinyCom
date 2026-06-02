@@ -5,7 +5,6 @@ date: 2021-11-17
 authors:
 - danny
 website: https://cobo.com/
-repository: https://github.com/CoboVault/cobo-vault-cold
 twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/cobo-official
@@ -24,6 +23,7 @@ android:
   icon: com.vaulthotpro.png
   meta: removed
   verdict: wip
+  repository: https://github.com/CoboVault/cobo-vault-cold
 iphone:
   appId: cobo.vault.hot.re
   idd: '1483305773'
@@ -35,6 +35,7 @@ iphone:
   meta: defunct
   verdict: wip
   developerName: Cobo Global Limited
+  repository: https://github.com/CoboVault/cobo-vault-cold
 
 ---
 

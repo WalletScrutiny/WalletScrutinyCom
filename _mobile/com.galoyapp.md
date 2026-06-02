@@ -6,7 +6,6 @@ authors:
 - leo
 - danny
 website: https://blink.sv/
-repository: https://github.com/GaloyMoney/galoy-mobile
 twitter: blinkbtc
 social:
 - https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
@@ -31,6 +30,7 @@ android:
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador S.A. de C.V.
+  repository: https://github.com/GaloyMoney/galoy-mobile
 iphone:
   appId: io.galoy.bitcoinbeach
   idd: '1531383905'
@@ -43,6 +43,7 @@ iphone:
   meta: ok
   verdict: custodial
   developerName: Blink SA de CV
+  repository: https://github.com/GaloyMoney/galoy-mobile
 
 ---
 

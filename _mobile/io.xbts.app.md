@@ -4,7 +4,6 @@ date: 2025-02-26
 authors:
 - danny
 website: https://app.xbts.io
-repository: https://github.com/XBTS/app
 social:
 - https://t.me/xbtsio
 redirect_from:
@@ -20,6 +19,7 @@ android:
   meta: removed
   verdict: wip
   developerName: TechnoL0g
+  repository: https://github.com/XBTS/app
 
 ---
 

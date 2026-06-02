@@ -6,7 +6,6 @@ authors:
 - emanuel
 - leo
 website: https://wallet.coffee/
-repository: https://github.com/coffee-software/coffee.wallet
 twitter: CoffeeWallet
 social:
 - https://www.reddit.com/r/CoffeeWallet/
@@ -28,6 +27,7 @@ android:
   meta: obsolete
   verdict: sourceavailable
   developerName: Coffee  Software
+  repository: https://github.com/coffee-software/coffee.wallet
 
 ---
 

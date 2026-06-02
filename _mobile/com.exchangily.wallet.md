@@ -7,7 +7,6 @@ authors:
 - leo
 - danny
 website: https://exchangily.com
-repository: https://github.com/blockchaingate/exchangily-mobile-app
 twitter: ExchangilyC
 social:
 - https://www.facebook.com/Exchangily-439040053240813
@@ -26,6 +25,7 @@ android:
   meta: obsolete
   verdict: wip
   developerName: Exchangily LLC
+  repository: https://github.com/blockchaingate/exchangily-mobile-app
 iphone:
   appId: com.exchangily.app
   idd: 1503068552
@@ -37,6 +37,7 @@ iphone:
   meta: defunct
   verdict: sourceavailable
   developerName: Exchangily LLC
+  repository: https://github.com/blockchaingate/exchangily-mobile-app
 
 ---
 

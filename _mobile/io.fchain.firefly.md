@@ -5,7 +5,6 @@ date: 2023-03-21
 authors:
 - danny
 website: https://wallet.fchain.io
-repository: https://github.com/fchainio/firefly#readme
 redirect_from:
 - /android/io.fchain.firefly/
 - /iphone/io.fchain.Fireflyz/
@@ -20,6 +19,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: Firefly Services
+  repository: https://github.com/fchainio/firefly#readme
 iphone:
   appId: io.fchain.Fireflyz
   idd: '1440455650'
@@ -31,6 +31,7 @@ iphone:
   icon: io.fchain.Fireflyz.jpg
   meta: removed
   verdict: nosource
+  repository: https://github.com/fchainio/firefly#readme
 
 ---
 

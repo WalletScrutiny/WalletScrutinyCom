@@ -5,7 +5,6 @@ authors:
 - danny
 - keraliss
 website: https://10101.finance
-repository: https://github.com/get10101/10101
 twitter: get10101
 redirect_from:
 - /android/finance.get10101.app/
@@ -18,6 +17,7 @@ android:
   meta: removed
   verdict: wip
   developerName: '10101'
+  repository: https://github.com/get10101/10101
 
 ---
 

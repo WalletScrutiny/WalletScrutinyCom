@@ -16,6 +16,7 @@ android:
   meta: fewusers
   verdict: wip
   developerName: Mycelium Developers
+  repository: https://github.com/mycelium-com/wallet-android
 
 ---
 

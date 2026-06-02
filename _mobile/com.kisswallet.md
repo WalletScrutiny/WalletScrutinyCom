@@ -21,6 +21,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Ferryman Fin LLC
+  repository: https://github.com/coreyphillips/moonshine
 iphone:
   appId: com.kisswallet
   idd: 1449385577
@@ -33,6 +34,7 @@ iphone:
   meta: obsolete
   verdict: wip
   developerName: Ferryman Fin LLC
+  repository: https://github.com/coreyphillips/moonshine
 
 ---
 

@@ -5,7 +5,6 @@ date: 2025-04-24
 authors:
 - danny
 website: https://verus.io/
-repository: https://github.com/VerusCoin/Verus-Mobile
 twitter: veruscoin
 social:
 - https://www.youtube.com/channel/UC_-KCHBxaDwSgNMdE3LMThg
@@ -29,6 +28,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
+  repository: https://github.com/VerusCoin/Verus-Mobile
 iphone:
   appId: org.autonomoussoftwarefoundation.verusmobile.ios
   idd: '6447361908'
@@ -41,6 +41,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
+  repository: https://github.com/VerusCoin/Verus-Mobile
 
 ---
 

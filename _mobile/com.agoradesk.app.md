@@ -23,6 +23,7 @@ android:
   meta: removed
   verdict: custodial
   developerName: LocalMonero / AgoraDesk
+  repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
 iphone:
   appId: com.agoradesk.app
   idd: '1617601678'
@@ -35,6 +36,7 @@ iphone:
   meta: removed
   verdict: custodial
   developerName: Blue Sunday Limited
+  repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
 
 ---
 

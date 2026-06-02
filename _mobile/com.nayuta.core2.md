@@ -5,7 +5,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://nayuta.co/nayuta-wallet-2022/
-repository: https://github.com/nayutaco/NayutaWalletApp
 features:
 - ln
 redirect_from:
@@ -20,6 +19,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: Nayuta inc
+  repository: https://github.com/nayutaco/NayutaWalletApp
 iphone:
   appId: com.nayuta.core2
   idd: '6449242331'
@@ -32,6 +32,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Nayuta
+  repository: https://github.com/nayutaco/NayutaWalletApp
 
 ---
 

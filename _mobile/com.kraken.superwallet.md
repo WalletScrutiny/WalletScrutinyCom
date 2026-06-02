@@ -5,7 +5,6 @@ date: 2025-02-04
 authors:
 - danny
 website: https://kraken.com/wallet
-repository: https://github.com/krakenfx/wallet
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx
@@ -31,6 +30,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Payward, Inc.
+  repository: https://github.com/krakenfx/wallet
 iphone:
   appId: com.kraken.superwallet.app
   idd: '1626327149'
@@ -43,6 +43,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Kraken
+  repository: https://github.com/krakenfx/wallet
 
 ---
 

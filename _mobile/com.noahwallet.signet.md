@@ -3,7 +3,6 @@ title: Noah (Signet)
 date: 2026-05-28
 authors:
 - danny
-repository: https://github.com/smolcars/noah
 redirect_from:
 - /android/com.noahwallet.signet/
 android:
@@ -16,6 +15,7 @@ android:
   meta: fewusers
   verdict: sourceavailable
   developerName: Hampus Sjöberg
+  repository: https://github.com/smolcars/noah
 
 ---
 

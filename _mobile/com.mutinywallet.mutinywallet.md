@@ -5,7 +5,6 @@ date: 2025-01-27
 authors:
 - danny
 website: https://mutinywallet.com#deadLink
-repository: https://github.com/MutinyWallet/mutiny-web
 twitter: MutinyWallet
 redirect_from:
 - /android/com.mutinywallet.mutinywallet/
@@ -21,6 +20,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Mutiny Wallet
+  repository: https://github.com/MutinyWallet/mutiny-web
 iphone:
   appId: com.mutinywallet.mutiny
   idd: '6471030760'
@@ -33,6 +33,7 @@ iphone:
   meta: removed
   verdict: wip
   developerName: Mutiny Wallet, Inc.
+  repository: https://github.com/MutinyWallet/mutiny-web
 
 ---
 

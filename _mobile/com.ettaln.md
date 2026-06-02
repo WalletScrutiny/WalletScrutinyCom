@@ -4,7 +4,6 @@ date: 2024-11-07
 authors:
 - danny
 website: https://ettawallet.app#deadLink
-repository: https://github.com/EttaWallet/EttaWallet
 twitter: ettawallet
 features:
 - ln
@@ -19,6 +18,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Rukundo
+  repository: https://github.com/EttaWallet/EttaWallet
 
 ---
 

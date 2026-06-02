@@ -6,7 +6,6 @@ authors:
 - leo
 - emanuel
 website: https://ccwalletapp.com/
-repository: https://github.com/coincasso/ccwallet
 twitter: CoinCasso
 social:
 - https://www.linkedin.com/company/coincasso
@@ -25,6 +24,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: CoinCasso OU
+  repository: https://github.com/coincasso/ccwallet
 iphone:
   appId: ccx.wallet
   idd: '1463774169'
@@ -35,6 +35,7 @@ iphone:
   icon: ccx.wallet.jpg
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/coincasso/ccwallet
 
 ---
 

@@ -31,6 +31,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask Web3 Wallet
+  repository: https://github.com/MetaMask/metamask-mobile
 iphone:
   appId: io.metamask.MetaMask
   idd: 1438144202
@@ -43,6 +44,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask
+  repository: https://github.com/MetaMask/metamask-mobile
 
 ---
 

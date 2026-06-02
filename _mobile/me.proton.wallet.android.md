@@ -33,6 +33,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Proton AG
+  repository: https://github.com/ProtonWallet/flutter-app
 iphone:
   appId: me.proton.wallet.ios
   idd: '6479609548'
@@ -45,6 +46,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Proton AG
+  repository: https://github.com/ProtonWallet/flutter-app
 
 ---
 

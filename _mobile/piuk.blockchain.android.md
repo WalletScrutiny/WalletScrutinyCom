@@ -36,6 +36,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Blockchain.com
+  repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
 iphone:
   appId: com.rainydayapps.Blockchain
   idd: 493253309
@@ -48,6 +49,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Blockchain
+  repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
 
 ---
 

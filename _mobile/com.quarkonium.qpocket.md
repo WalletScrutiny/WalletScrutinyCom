@@ -5,7 +5,6 @@ date: 2022-12-26
 authors:
 - danny
 website: https://www.qpocket.io/
-repository: https://github.com/QuarkChain/QPocket-Android
 twitter: qPocket_wallet
 appCountry: us
 redirect_from:
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: QUARKONIUM PTE. LTD.
+  repository: https://github.com/QuarkChain/QPocket-Android
 iphone:
   appId: com.quarkchain.qpocket
   idd: 1442761980
@@ -34,6 +34,7 @@ iphone:
   meta: obsolete
   verdict: nosource
   developerName: QuarkChain Inc
+  repository: https://github.com/QuarkChain/QPocket-Android
 
 ---
 

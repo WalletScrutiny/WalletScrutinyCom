@@ -35,6 +35,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com Developer
+  repository: https://github.com/Bitcoin-com/Wallet
 iphone:
   appId: com.bitcoin.mwallet
   idd: '1252903728'
@@ -47,6 +48,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com
+  repository: https://github.com/Bitcoin-com/Wallet
 
 ---
 

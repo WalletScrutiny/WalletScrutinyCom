@@ -4,7 +4,6 @@ date: 2025-11-03
 authors:
 - danny
 website: https://sovran.money
-repository: https://github.com/SovranBitcoin/Sovran
 twitter: SovranBitcoin
 features:
 - cashu
@@ -29,6 +28,7 @@ iphone:
   meta: removed
   verdict: ecash
   developerName: Sovran LTD
+  repository: https://github.com/SovranBitcoin/Sovran
 
 ---
 

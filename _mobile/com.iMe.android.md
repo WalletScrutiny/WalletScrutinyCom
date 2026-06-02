@@ -26,6 +26,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO
+  repository: https://github.com/imemessenger/iMe-Android
 iphone:
   appId: com.olcorporation.olai
   idd: '1450480822'
@@ -38,6 +39,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO
+  repository: https://github.com/imemessenger/iMe-Android
 
 ---
 

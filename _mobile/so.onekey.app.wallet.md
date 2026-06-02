@@ -5,7 +5,6 @@ date: 2025-07-21
 authors:
 - danny
 website: https://onekey.so
-repository: https://github.com/OneKeyHQ/app-monorepo
 twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv#deadLink
@@ -34,6 +33,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
+  repository: https://github.com/OneKeyHQ/app-monorepo
 iphone:
   appId: so.onekey.wallet
   idd: '1609559473'
@@ -46,6 +46,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
+  repository: https://github.com/OneKeyHQ/app-monorepo
 
 ---
 

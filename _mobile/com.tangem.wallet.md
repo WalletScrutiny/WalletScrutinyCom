@@ -31,6 +31,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Tangem
+  repository: https://github.com/tangem/tangem-app-android
 iphone:
   appId: com.tangem.Tangem
   idd: 1354868448
@@ -43,6 +44,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Tangem AG
+  repository: https://github.com/tangem/tangem-app-android
 
 ---
 

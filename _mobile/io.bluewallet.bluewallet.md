@@ -9,7 +9,6 @@ authors:
 - danny
 - keraliss
 website: https://bluewallet.io
-repository: https://github.com/bluewallet/bluewallet
 twitter: bluewalletio
 social:
 - https://www.reddit.com/r/bluewallet
@@ -45,6 +44,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: BlueWallet Services S. R. L.
+  repository: https://github.com/bluewallet/bluewallet
 iphone:
   appId: io.bluewallet.bluewallet
   idd: 1376878040
@@ -57,6 +57,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Bluewallet Services, S. R. L.
+  repository: https://github.com/bluewallet/bluewallet
 
 ---
 

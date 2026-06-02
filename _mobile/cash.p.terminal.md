@@ -4,7 +4,6 @@ date: 2024-09-12
 authors:
 - danny
 website: https://p.cash/
-repository: https://github.com/piratecash/pcash-wallet-android
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash
@@ -33,6 +32,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: PirateCash and Cosanta foundation
+  repository: https://github.com/piratecash/pcash-wallet-android
 
 ---
 

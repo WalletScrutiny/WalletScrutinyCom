@@ -4,7 +4,6 @@ date: 2025-01-13
 authors:
 - danny
 website: http://bullbitcoin.com
-repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 twitter: bullbitcoin_
 social:
 - https://www.facebook.com/bullbitcoindotcom
@@ -35,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Bull Bitcoin
+  repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 
 ---
 

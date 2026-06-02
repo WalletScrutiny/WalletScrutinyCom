@@ -3,7 +3,6 @@ title: Ibis Wallet
 date: 2026-04-13
 authors:
 - danny
-repository: https://github.com/aeonBTC/IbisWallet
 features:
 - coinCtrl
 - companion
@@ -24,6 +23,7 @@ android:
   meta: removed
   verdict: wip
   developerName: aeonBTC
+  repository: https://github.com/aeonBTC/IbisWallet
 
 ---
 

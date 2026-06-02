@@ -31,6 +31,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ
+  repository: https://github.com/ACINQ/phoenix
 iphone:
   appId: co.acinq.phoenix
   idd: '1544097028'
@@ -43,6 +44,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ
+  repository: https://github.com/ACINQ/phoenix-kmm
 
 ---
 

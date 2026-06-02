@@ -5,7 +5,6 @@ date: 2024-10-07
 authors:
 - danny
 website: https://kinesis.money/
-repository: https://github.com/KinesisNetwork/wallet-mobile
 twitter: KinesisMonetary
 social:
 - https://www.linkedin.com/company/kinesismoney
@@ -26,6 +25,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: Kinesis AG
+  repository: https://github.com/KinesisNetwork/wallet-mobile
 iphone:
   appId: com.kinesis.kinesis-app
   idd: 1490483608
@@ -38,6 +38,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Kinesis AG
+  repository: https://github.com/KinesisNetwork/wallet-mobile
 
 ---
 

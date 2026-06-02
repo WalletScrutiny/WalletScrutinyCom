@@ -5,7 +5,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://wallet.indiesquare.me
-repository: https://github.com/IndieSquare/indiesquare-wallet
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
@@ -24,6 +23,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.
+  repository: https://github.com/IndieSquare/indiesquare-wallet
 iphone:
   appId: inc.lireneosoft.counterparty
   idd: 977972108
@@ -35,6 +35,7 @@ iphone:
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.
+  repository: https://github.com/IndieSquare/indiesquare-wallet
 
 ---
 

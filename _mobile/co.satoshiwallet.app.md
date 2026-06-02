@@ -2,7 +2,6 @@
 title: SatoshiWallet for Bitcoin, Ethereum, Monero & more
 date: 2022-03-07
 website: https://satoshipoint.io
-repository: https://github.com/SatoshiWallet/ui
 redirect_from:
 - /android/co.satoshiwallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   icon: co.satoshiwallet.app.png
   meta: removed
   verdict: wip
+  repository: https://github.com/SatoshiWallet/ui
 
 ---
 

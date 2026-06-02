@@ -6,7 +6,6 @@ authors:
 - leo
 - danny
 website: https://airbitz.co
-repository: https://github.com/EdgeApp/airbitz-android-gui
 redirect_from:
 - /airbitz/
 - /com.airbitz/
@@ -24,6 +23,7 @@ android:
   icon: com.airbitz.png
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/EdgeApp/airbitz-android-gui
 iphone:
   appId: co.airbitz.airbitz
   idd: '843536046'
@@ -36,6 +36,7 @@ iphone:
   meta: obsolete
   verdict: sourceavailable
   developerName: Airbitz Inc
+  repository: https://github.com/EdgeApp/airbitz-android-gui
 
 ---
 

@@ -4,7 +4,6 @@ date: 2026-01-03
 authors:
 - danny
 website: https://ecoinwallet.org
-repository: https://github.com/ecoin-finance/ecoinwallet
 twitter: ecoin_wallet
 social:
 - https://www.instagram.com/ecoin_wallet
@@ -31,6 +30,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Ecoin Ecosystem LTDA
+  repository: https://github.com/ecoin-finance/ecoinwallet
 
 ---
 

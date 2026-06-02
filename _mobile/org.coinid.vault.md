@@ -5,7 +5,6 @@ date: 2024-04-19
 authors:
 - leo
 website: https://coinid.org
-repository: https://github.com/COINiD/COINiDVault
 twitter: COINiDGroup
 features:
 - airGapped
@@ -25,6 +24,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
+  repository: https://github.com/COINiD/COINiDVault
 iphone:
   appId: org.coinid
   idd: 1362831898
@@ -36,6 +36,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
+  repository: https://github.com/COINiD/COINiDVault
 
 ---
 

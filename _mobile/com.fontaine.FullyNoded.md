@@ -4,7 +4,6 @@ date: 2023-11-17
 authors:
 - danny
 website: https://fullynoded.app
-repository: https://github.com/Fonta1n3/FullyNoded
 twitter: FullyNoded
 features:
 - hd
@@ -30,6 +29,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Denton LLC
+  repository: https://github.com/Fonta1n3/FullyNoded
 
 ---
 

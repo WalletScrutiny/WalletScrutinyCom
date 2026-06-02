@@ -8,7 +8,6 @@ authors:
 - danny
 - keraliss
 website: https://zeusln.com
-repository: https://github.com/ZeusLN/zeus
 twitter: ZeusLN
 social:
 - https://iris.to/zeus@zeusln.app
@@ -45,6 +44,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Atlas 21 Inc.
+  repository: https://github.com/ZeusLN/zeus
 iphone:
   appId: com.zeusln.zeus
   idd: 1456038895
@@ -57,6 +57,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Atlas 21 Inc.
+  repository: https://github.com/ZeusLN/zeus
 
 ---
 

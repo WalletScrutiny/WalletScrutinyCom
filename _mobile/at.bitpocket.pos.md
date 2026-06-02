@@ -4,7 +4,6 @@ date: 2024-04-19
 authors:
 - kiwilamb
 website: http://bitpocket.at
-repository: https://github.com/getbitpocket/bitpocket-mobile-app
 redirect_from:
 - /android/at.bitpocket.pos/
 android:
@@ -17,6 +16,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Beyond IT OG
+  repository: https://github.com/getbitpocket/bitpocket-mobile-app
 
 ---
 

@@ -4,7 +4,6 @@ date: 2022-03-07
 authors:
 - danny
 website: https://bitriel.com/
-repository: https://github.com/bitriel/bitriel-wallet
 social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from:
@@ -20,6 +19,7 @@ android:
   meta: defunct
   verdict: sourceavailable
   developerName: KOOMPI
+  repository: https://github.com/bitriel/bitriel-wallet
 
 ---
 

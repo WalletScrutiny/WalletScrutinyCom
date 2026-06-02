@@ -4,7 +4,6 @@ date: 2025-02-26
 authors:
 - danny
 website: https://github.com/technologiespro/paper-wallet-generator
-repository: https://github.com/technologiespro/paper-wallet-generator
 twitter: paperwallettop
 redirect_from:
 - /android/com.paperwallet.top/
@@ -19,6 +18,7 @@ android:
   meta: removed
   verdict: wip
   developerName: TechnoL0g
+  repository: https://github.com/technologiespro/paper-wallet-generator
 
 ---
 

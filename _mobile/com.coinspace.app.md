@@ -5,7 +5,6 @@ date: 2023-04-22
 authors:
 - leo
 website: https://coin.space
-repository: https://github.com/CoinSpace/CoinSpace
 twitter: coinappwallet
 social:
 - https://www.linkedin.com/company/coin-space
@@ -35,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
+  repository: https://github.com/CoinSpace/CoinSpace
 iphone:
   appId: com.coinspace.wallet
   idd: 980719434
@@ -47,6 +47,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
+  repository: https://github.com/CoinSpace/CoinSpace
 
 ---
 

@@ -26,6 +26,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC
+  repository: https://github.com/vidulum/vidulum.app
 iphone:
   appId: com.vidulum.app
   idd: 1505859171
@@ -37,6 +38,7 @@ iphone:
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC
+  repository: https://github.com/vidulum/vidulum.app
 
 ---
 

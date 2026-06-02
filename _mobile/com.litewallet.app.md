@@ -3,7 +3,6 @@ title: lite Wallet
 date: 2024-07-19
 authors:
 - bit-aloo
-repository: https://github.com/META-1-Official/litewallet-native#deadLink
 redirect_from:
 - /android/com.litewallet.app/
 android:
@@ -14,6 +13,7 @@ android:
   icon: com.litewallet.app.png
   meta: removed
   verdict: nosource
+  repository: https://github.com/META-1-Official/litewallet-native#deadLink
 
 ---
 

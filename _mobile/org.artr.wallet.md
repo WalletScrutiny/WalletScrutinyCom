@@ -5,7 +5,6 @@ date: 2021-11-16
 authors:
 - danny
 website: https://artery.network/
-repository: https://github.com/arterynetwork/artr
 appCountry: ru
 redirect_from:
 - /android/org.artr.wallet/
@@ -21,6 +20,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: Artery Network Corporation
+  repository: https://github.com/arterynetwork/artr
 iphone:
   appId: network.artery.network
   idd: 1532702666
@@ -31,6 +31,7 @@ iphone:
   icon: network.artery.network.jpg
   meta: removed
   verdict: nosource
+  repository: https://github.com/arterynetwork/artr
 
 ---
 

@@ -7,7 +7,6 @@ authors:
 - danny
 - keraliss
 website: https://www.airgap.it
-repository: https://github.com/airgap-it/airgap-vault
 twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap
@@ -40,6 +39,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Papers AG
+  repository: https://github.com/airgap-it/airgap-vault
 iphone:
   appId: it.airgap.vault
   idd: 1417126841
@@ -52,6 +52,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Papers GmbH
+  repository: https://github.com/airgap-it/airgap-vault
 
 ---
 

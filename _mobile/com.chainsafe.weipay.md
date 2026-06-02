@@ -4,7 +4,6 @@ date: 2024-04-19
 authors:
 - danny
 website: http://chainsafe.io
-repository: https://github.com/ChainSafe/WeiPay
 redirect_from:
 - /android/com.chainsafe.weipay/
 android:
@@ -16,6 +15,7 @@ android:
   meta: removed
   verdict: wip
   developerName: ChainSafe Systems
+  repository: https://github.com/ChainSafe/WeiPay
 
 ---
 

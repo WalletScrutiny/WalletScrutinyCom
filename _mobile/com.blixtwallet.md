@@ -5,7 +5,6 @@ authors:
 - leo
 - danny
 website: https://blixtwallet.github.io
-repository: https://github.com/BlixtWallet/blixt-wallet
 twitter: BlixtWallet
 features:
 - TOR
@@ -25,6 +24,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Hampus Sjöberg
+  repository: https://github.com/BlixtWallet/blixt-wallet
 
 ---
 

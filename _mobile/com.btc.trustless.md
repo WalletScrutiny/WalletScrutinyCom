@@ -5,7 +5,6 @@ date: 2026-02-03
 authors:
 - Pechen987 https://github.com/Pechen987
 website: https://trustlesswallet.github.io/Trustless/
-repository: https://github.com/TrustlessWallet/Trustless
 twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
@@ -24,6 +23,7 @@ android:
   meta: removed
   verdict: wip
   developerName: pechen987
+  repository: https://github.com/TrustlessWallet/Trustless
 iphone:
   appId: com.btc.trustless
   idd: 6756965117
@@ -36,6 +36,7 @@ iphone:
   meta: fewusers
   verdict: wip
   developerName: Igor Kruglov
+  repository: https://github.com/TrustlessWallet/Trustless
 
 ---
 

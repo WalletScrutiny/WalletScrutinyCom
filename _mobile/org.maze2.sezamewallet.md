@@ -23,6 +23,7 @@ android:
   meta: fewusers
   verdict: nosource
   developerName: Maze 2 Techs
+  repository: https://github.com/maze2-org/sezame-wallet
 iphone:
   appId: com.maze2.sezamewallet
   idd: '1618252953'
@@ -35,6 +36,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Maze 2 SA
+  repository: https://github.com/maze2-org/sezame-wallet
 
 ---
 

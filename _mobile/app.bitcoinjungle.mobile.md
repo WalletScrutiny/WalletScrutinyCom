@@ -5,7 +5,6 @@ date: 2023-10-20
 authors:
 - danny
 website: https://bitcoinjungle.app
-repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
 twitter: bitcoinjunglecr
 social:
 - https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
@@ -29,6 +28,7 @@ android:
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle
+  repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
 iphone:
   appId: app.bitcoinjungle.ios
   idd: '1600313979'
@@ -41,6 +41,7 @@ iphone:
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle LLC
+  repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
 
 ---
 

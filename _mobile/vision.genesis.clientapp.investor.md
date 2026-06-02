@@ -25,6 +25,7 @@ android:
   meta: removed
   verdict: custodial
   developerName: Genesis Vision
+  repository: https://github.com/GenesisVision/android-client
 iphone:
   appId: vision.genesis.ios.investor
   idd: 1369865290
@@ -36,6 +37,7 @@ iphone:
   meta: removed
   verdict: custodial
   developerName: Genesis Vision
+  repository: https://github.com/GenesisVision/android-client
 
 ---
 

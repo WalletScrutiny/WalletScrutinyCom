@@ -5,7 +5,6 @@ authors:
 - kiwilamb
 - leo
 website: https://coinhub8899.web.app
-repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 redirect_from:
 - /android/com.blockchain.wallet.btc/
 android:
@@ -19,6 +18,7 @@ android:
   meta: removed
   verdict: fake
   developerName: InvoVN Solutions
+  repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 
 ---
 

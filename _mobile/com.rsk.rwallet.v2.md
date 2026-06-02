@@ -7,7 +7,6 @@ authors:
 - leo
 - emanuel
 website: https://iovlabs.org/
-repository: https://github.com/rsksmart/rwallet
 twitter: rsksmart
 social:
 - https://www.facebook.com/RSKsmart
@@ -26,6 +25,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: IoV Labs
+  repository: https://github.com/rsksmart/rwallet
 iphone:
   appId: com.rsk.rwallet.reactnative
   idd: 1489241342
@@ -37,6 +37,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: IOV Labs S.A
+  repository: https://github.com/rsksmart/rwallet
 
 ---
 

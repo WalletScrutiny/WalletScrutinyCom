@@ -5,7 +5,6 @@ date: 2022-02-25
 authors:
 - leo
 website: https://atomex.me#deadLink
-repository: https://github.com/atomex-me/atomex.mobile#deadLink
 twitter: atomex_official
 redirect_from:
 - /android/com.atomex.android/
@@ -21,6 +20,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Atomex
+  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 iphone:
   appId: com.atomex.ios
   idd: '1534717828'
@@ -32,6 +32,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Atomex OÜ
+  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 
 ---
 

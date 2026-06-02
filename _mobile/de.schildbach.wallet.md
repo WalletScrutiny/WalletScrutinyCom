@@ -7,7 +7,6 @@ authors:
 - danny
 - keraliss
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
-repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 redirect_from:
 - /schildbach/
 - /de.schildbach.wallet/
@@ -28,6 +27,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Bitcoin Wallet developers
+  repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 
 ---
 

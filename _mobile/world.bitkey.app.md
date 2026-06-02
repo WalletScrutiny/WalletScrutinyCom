@@ -5,7 +5,6 @@ date: 2024-03-14
 authors:
 - danny
 website: https://bitkey.world
-repository: https://github.com/proto-at-block/bitkey
 twitter: bitkey
 social:
 - https://www.linkedin.com/company/bitkey-official
@@ -35,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Block, Inc.
+  repository: https://github.com/proto-at-block/bitkey
 iphone:
   appId: world.bitkey.app
   idd: '6476990471'
@@ -47,6 +47,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Block, Inc.
+  repository: https://github.com/proto-at-block/bitkey
 
 ---
 

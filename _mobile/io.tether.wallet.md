@@ -27,6 +27,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Tether Data
+  repository: https://github.com/tetherto/tether-wallet-app-releases
 iphone:
   appId: io.tether.wallet.official
   idd: '6759002210'
@@ -39,6 +40,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Tether Data
+  repository: https://github.com/tetherto/tether-wallet-app-releases
 
 ---
 

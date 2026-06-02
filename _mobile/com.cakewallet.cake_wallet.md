@@ -6,7 +6,6 @@ authors:
 - leo
 - keraliss
 website: https://cakewallet.com
-repository: https://github.com/cake-tech/cake_wallet
 twitter: cakewallet
 social:
 - https://www.facebook.com/cakewallet
@@ -39,6 +38,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Cake Labs
+  repository: https://github.com/cake-tech/cake_wallet
 iphone:
   appId: com.fotolockr.cakewallet
   idd: 1334702542
@@ -51,6 +51,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Cake Technologies, LLC
+  repository: https://github.com/cake-tech/cake_wallet
 
 ---
 

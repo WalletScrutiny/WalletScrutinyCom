@@ -5,7 +5,6 @@ date: 2026-05-02
 authors:
 - danny
 website: https://leather.io
-repository: https://github.com/leather-io/mono
 twitter: leatherbtc
 social:
 - https://www.youtube.com/@Leather-io
@@ -24,6 +23,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Leather Wallet LLC
+  repository: https://github.com/leather-io/mono
 iphone:
   appId: io.leather.mobilewallet
   idd: '6499127775'
@@ -36,6 +36,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Leather Wallet LLC
+  repository: https://github.com/leather-io/mono
 
 ---
 

@@ -24,6 +24,7 @@ android:
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd
+  repository: https://github.com/TP-Lab/tp-android
 iphone:
   appId: com.tp.ios
   idd: 1436028697
@@ -34,6 +35,7 @@ iphone:
   icon: com.tp.ios.jpg
   meta: removed
   verdict: obfuscated
+  repository: https://github.com/TP-Lab/tp-ios
 
 ---
 

@@ -4,7 +4,6 @@ date: 2026-02-02
 authors:
 - danny
 website: https://cypherbox.io
-repository: https://github.com/Bamskki/Cypher-Box
 twitter: Cypher_Box
 social:
 - https://t.me/cypher_box
@@ -21,6 +20,7 @@ android:
   meta: fewusers
   verdict: wip
   developerName: Cypher Box LLC
+  repository: https://github.com/Bamskki/Cypher-Box
 
 ---
 

@@ -5,7 +5,6 @@ authors:
 - leo
 - danny
 website: https://github.com/shesek/spark-wallet
-repository: https://github.com/shesek/spark-wallet
 features:
 - TOR
 - foss
@@ -25,6 +24,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Nadav Ivgi
+  repository: https://github.com/shesek/spark-wallet
 
 ---
 

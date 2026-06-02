@@ -26,6 +26,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
+  repository: https://github.com/Ironwallet/IronWallet
 iphone:
   appId: com.wallet.crypto.btc.eth
   idd: '6451146325'
@@ -38,6 +39,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
+  repository: https://github.com/Ironwallet/IronWallet
 
 ---
 

@@ -5,7 +5,6 @@ date: 2026-01-03
 authors:
 - danny
 website: https://dfx.swiss/
-repository: https://github.com/DFXswiss/btc-wallet
 twitter: DFX_Swiss
 social:
 - https://www.linkedin.com/company/dfxswiss
@@ -30,6 +29,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: DFX AG
+  repository: https://github.com/DFXswiss/btc-wallet
 iphone:
   appId: swiss.dfx.bitcoin
   idd: '6466037617'
@@ -42,6 +42,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: DFX AG
+  repository: https://github.com/DFXswiss/btc-wallet
 
 ---
 

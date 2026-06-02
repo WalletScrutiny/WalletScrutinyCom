@@ -5,7 +5,6 @@ authors:
 - leo
 - danny
 website: https://acinq.co
-repository: https://github.com/ACINQ/eclair-mobile
 twitter: acinq_co
 features:
 - ln
@@ -26,6 +25,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: ACINQ
+  repository: https://github.com/ACINQ/eclair-mobile
 
 ---
 

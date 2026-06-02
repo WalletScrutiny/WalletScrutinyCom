@@ -2,7 +2,6 @@
 title: Lightning (Remove Funds by Dec 31st)
 date: 2021-02-04
 website: https://lightning.engineering
-repository: https://github.com/lightninglabs/lightning-app
 twitter: lightning
 redirect_from:
 - /engineering.lightning.LightningMainnet/
@@ -16,6 +15,7 @@ android:
   icon: engineering.lightning.LightningMainnet.png
   meta: removed
   verdict: wip
+  repository: https://github.com/lightninglabs/lightning-app
 
 ---
 

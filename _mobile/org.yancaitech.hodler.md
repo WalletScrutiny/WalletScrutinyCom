@@ -4,7 +4,6 @@ date: 2023-01-02
 authors:
 - danny
 website: https://github.com/yancaitech
-repository: https://github.com/yancaitech/hodler-wallet
 redirect_from:
 - /android/org.yancaitech.hodler/
 android:
@@ -16,6 +15,7 @@ android:
   icon: org.yancaitech.hodler.png
   meta: removed
   verdict: wip
+  repository: https://github.com/yancaitech/hodler-wallet
 
 ---
 

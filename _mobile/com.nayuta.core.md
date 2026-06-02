@@ -4,7 +4,6 @@ date: 2022-01-15
 authors:
 - danny
 website: https://nayuta.co/core#deadLink
-repository: https://github.com/nayutaco/NayutaCore
 twitter: nayuta_en
 redirect_from:
 - /android/com.nayuta.core/
@@ -16,6 +15,7 @@ android:
   icon: com.nayuta.core.png
   meta: removed
   verdict: nosource
+  repository: https://github.com/nayutaco/NayutaCore
 
 ---
 

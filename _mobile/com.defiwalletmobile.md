@@ -6,7 +6,6 @@ authors:
 - danny
 - keraliss
 website: https://slavi.io/
-repository: https://github.com/SlvLabs/slavi-wallet
 twitter: slavi_io
 social:
 - https://t.me/SlaviDappGroup
@@ -29,6 +28,7 @@ android:
   meta: obsolete
   verdict: nosource
   developerName: Slavi Development
+  repository: https://github.com/SlvLabs/slavi-wallet
 iphone:
   appId: io.slavi.wallet
   idd: '1610125496'
@@ -41,6 +41,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: SLAVI DEVELOPMENT CORP UAB
+  repository: https://github.com/SlvLabs/slavi-wallet
 
 ---
 

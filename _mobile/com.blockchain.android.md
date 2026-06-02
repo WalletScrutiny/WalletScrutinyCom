@@ -1,7 +1,6 @@
 ---
 title: Blockchain
 date: 2021-01-15
-repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 redirect_from:
 - /android/com.blockchain.android/
 android:
@@ -14,6 +13,7 @@ android:
   icon: com.blockchain.android.png
   meta: removed
   verdict: obfuscated
+  repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 
 ---
 

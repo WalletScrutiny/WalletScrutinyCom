@@ -4,7 +4,6 @@ date: 2024-04-26
 authors:
 - leo
 website: https://web.archive.org/web/20250822122845/https://hodler.tech/
-repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 twitter: HODLER_TECH
 redirect_from:
 - /android/tech.hodler.core/
@@ -18,6 +17,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: HODLER.TECH LTD
+  repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 
 ---
 

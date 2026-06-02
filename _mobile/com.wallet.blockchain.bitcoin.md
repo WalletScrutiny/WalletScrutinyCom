@@ -4,7 +4,6 @@ date: 2025-11-26
 authors:
 - danny
 website: https://coinhub8899.web.app
-repository: https://github.com/hoanghiephui/coindex-wallet-android
 redirect_from:
 - /android/com.wallet.blockchain.bitcoin/
 android:
@@ -18,6 +17,7 @@ android:
   meta: stale
   verdict: fake
   developerName: TwiX
+  repository: https://github.com/hoanghiephui/coindex-wallet-android
 
 ---
 

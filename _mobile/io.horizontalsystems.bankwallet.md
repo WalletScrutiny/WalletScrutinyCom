@@ -39,6 +39,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Horizontal Systems
+  repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 iphone:
   appId: io.horizontalsystems.bank-wallet
   idd: 1447619907
@@ -51,6 +52,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Horizontal Systems
+  repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 
 ---
 

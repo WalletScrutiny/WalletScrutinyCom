@@ -4,7 +4,6 @@ date: 2024-02-05
 authors:
 - leo
 website: http://www.linkedin.com/in/vkonovalov
-repository: https://github.com/ValleZ/Paper-Wallet
 redirect_from:
 - /ru.valle.btc/
 - /posts/ru.valle.btc/
@@ -21,6 +20,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: FireEdge
+  repository: https://github.com/ValleZ/Paper-Wallet
 
 ---
 

@@ -2,7 +2,6 @@
 title: geewallet
 date: 2025-02-28
 website: http://github.com/knocte/geewallet
-repository: https://github.com/knocte/geewallet
 redirect_from:
 - /android/com.geewallet.android/
 android:
@@ -15,6 +14,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Andres G. Aragoneses
+  repository: https://github.com/knocte/geewallet
 
 ---
 

@@ -30,6 +30,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Hodl Wallet INC
+  repository: https://github.com/hodlwallet/hodl-wallet-android
 iphone:
   appId: co.hodlwallet
   idd: '1382342568'
@@ -41,6 +42,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Hodl Wallet Inc
+  repository: https://github.com/hodlwallet/hodl-wallet-ios
 
 ---
 

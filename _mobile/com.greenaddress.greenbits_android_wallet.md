@@ -42,6 +42,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Blockstream Inc
+  repository: https://github.com/Blockstream/green_android
 iphone:
   appId: io.blockstream.green
   idd: 1402243590
@@ -54,6 +55,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Blockstream
+  repository: https://github.com/Blockstream/green_ios
 
 ---
 

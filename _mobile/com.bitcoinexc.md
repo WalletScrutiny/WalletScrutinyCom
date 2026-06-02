@@ -5,7 +5,6 @@ date: 2024-04-10
 authors:
 - danny
 website: https://fmcpay.com/
-repository: https://github.com/fimark-coin/Smartcontract
 twitter: fmcpay
 social:
 - https://www.facebook.com/fmcpay/
@@ -23,6 +22,7 @@ android:
   meta: removed
   verdict: custodial
   developerName: FUINRE INC
+  repository: https://github.com/fimark-coin/Smartcontract
 iphone:
   appId: com.fimarketbt
   idd: '1573381060'
@@ -35,6 +35,7 @@ iphone:
   meta: obsolete
   verdict: custodial
   developerName: FUINRE, INC
+  repository: https://github.com/fimark-coin/Smartcontract
 
 ---
 

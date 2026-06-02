@@ -4,7 +4,6 @@ date: 2024-02-05
 authors:
 - leo
 website: https://coinhub8899.web.app
-repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 redirect_from:
 - /android/com.bitcoin.wallet.btc/
 android:
@@ -18,6 +17,7 @@ android:
   meta: removed
   verdict: fake
   developerName: InvoVN Solutions
+  repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 
 ---
 

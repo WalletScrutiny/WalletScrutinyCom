@@ -9,7 +9,6 @@ authors:
 - keraliss
 - danny
 website: http://breez.technology
-repository: https://github.com/breez/breezmobile
 twitter: breez_tech
 social:
 - http://breez.technology
@@ -39,6 +38,7 @@ android:
   meta: stale
   verdict: sourceavailable
   developerName: Breez Development LTD
+  repository: https://github.com/breez/breezmobile
 iphone:
   appId: technology.breez.client
   idd: '1463604142'
@@ -51,6 +51,7 @@ iphone:
   meta: stale
   verdict: sourceavailable
   developerName: BREEZ DEVELOPMENT LTD
+  repository: https://github.com/breez/breezmobile
 
 ---
 

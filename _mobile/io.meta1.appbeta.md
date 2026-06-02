@@ -24,6 +24,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: META 1 Coin
+  repository: https://github.com/META-1-Official/litewallet-native#deadLink
 iphone:
   appId: io.meta1.appbeta
   idd: '1626884236'
@@ -36,6 +37,7 @@ iphone:
   meta: removed
   verdict: wip
   developerName: Meta Vault Association, LLC
+  repository: https://github.com/META-1-Official/litewallet-native#deadLink
 
 ---
 

@@ -4,7 +4,6 @@ date: 2024-11-30
 authors:
 - danny
 website: https://nodawallet.com
-repository: https://github.com/nodawallet/NodaWallet-Android
 twitter: DexNodaWallett
 social:
 - https://www.linkedin.com/company/noda-project-8b4a251b3
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: noda
+  repository: https://github.com/nodawallet/NodaWallet-Android
 
 ---
 

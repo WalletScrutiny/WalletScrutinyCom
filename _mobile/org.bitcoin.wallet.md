@@ -5,7 +5,6 @@ authors:
 - emanuel
 - leo
 website: https://bitcoin.org
-repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
 features:
 - hd
 redirect_from:
@@ -19,6 +18,7 @@ android:
   icon: org.bitcoin.wallet.png
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
 
 ---
 

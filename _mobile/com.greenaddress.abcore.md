@@ -5,7 +5,6 @@ authors:
 - leo
 - emanuel
 website: http://abco.re
-repository: https://github.com/greenaddress/abcore
 features:
 - foss
 redirect_from:
@@ -23,6 +22,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: GreenAddress IT Ltd
+  repository: https://github.com/greenaddress/abcore
 
 ---
 

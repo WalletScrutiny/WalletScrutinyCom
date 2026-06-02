@@ -4,7 +4,6 @@ date: 2025-11-26
 authors:
 - danny
 website: https://peachbitcoin.com
-repository: https://github.com/Peach2Peach/peach-app
 twitter: peachbitcoin
 social:
 - https://t.me/peachtopeach
@@ -29,6 +28,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Peach Bitcoin
+  repository: https://github.com/Peach2Peach/peach-app
 
 ---
 

@@ -8,7 +8,6 @@ authors:
 - emanuel
 - keraliss
 website: https://bitpay.com
-repository: https://github.com/bitpay/bitpay-app
 twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-
@@ -35,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: BitPay, Inc.
+  repository: https://github.com/bitpay/bitpay-app
 iphone:
   appId: com.bitpay.wallet
   idd: 1149581638
@@ -47,6 +47,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: BitPay, Inc.
+  repository: https://github.com/bitpay/bitpay-app
 
 ---
 

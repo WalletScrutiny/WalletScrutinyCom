@@ -6,7 +6,6 @@ authors:
 - leo
 - keraliss
 website: https://atomicdex.io
-repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
 twitter: KomodoPlatform
 social:
 - https://discord.com/invite/3rzDPAr#deadLink
@@ -28,6 +27,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Komodo Platform
+  repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
 
 ---
 

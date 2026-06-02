@@ -4,7 +4,6 @@ date: 2021-12-29
 authors:
 - leo
 website: https://luneswallet.app#deadLink
-repository: https://github.com/Lunes-platform/Wallet-mobile
 redirect_from:
 - /com.luneswallet/
 - /posts/com.luneswallet/
@@ -19,6 +18,7 @@ android:
   icon: com.luneswallet.png
   meta: removed
   verdict: nosource
+  repository: https://github.com/Lunes-platform/Wallet-mobile
 
 ---
 

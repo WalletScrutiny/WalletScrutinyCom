@@ -28,6 +28,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: RockWallet
+  repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 iphone:
   appId: com.rockwallet.app
   idd: '6444194230'
@@ -40,6 +41,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: RockWallet, LLC
+  repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 
 ---
 

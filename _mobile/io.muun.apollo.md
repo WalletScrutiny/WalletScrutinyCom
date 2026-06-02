@@ -35,6 +35,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: muun
+  repository: https://github.com/muun/apollo
 iphone:
   appId: com.muun.falcon
   idd: 1482037683
@@ -47,6 +48,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Muun Wallet, Inc
+  repository: https://github.com/muun/falcon
 
 ---
 

@@ -4,7 +4,6 @@ date: 2024-04-19
 authors:
 - leo
 website: http://lightning-wallet.com
-repository: https://github.com/btcontract/lnwallet#deadLink
 features:
 - ln
 redirect_from:
@@ -24,6 +23,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: anton kumaigorodski
+  repository: https://github.com/btcontract/lnwallet#deadLink
 
 ---
 

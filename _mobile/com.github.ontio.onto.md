@@ -25,6 +25,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Ontology Foundation Ltd.
+  repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
 iphone:
   appId: com.ontology.foundation.onto
   idd: 1436009823
@@ -37,6 +38,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Ontology Foundation
+  repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
 
 ---
 

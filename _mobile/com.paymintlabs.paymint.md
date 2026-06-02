@@ -3,7 +3,6 @@ title: Paymint - Secure Bitcoin Walle
 date: 2024-04-03
 authors:
 - leo
-repository: https://github.com/Paymint-Labs/Paymint
 twitter: paymint_wallet
 redirect_from:
 - /com.paymintlabs.paymint/
@@ -18,6 +17,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Paymint Labs
+  repository: https://github.com/Paymint-Labs/Paymint
 
 ---
 

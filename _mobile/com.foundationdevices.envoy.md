@@ -6,7 +6,6 @@ authors:
 - danny
 - keraliss
 website: https://foundationdevices.com/
-repository: https://github.com/Foundation-Devices/envoy
 twitter: FOUNDATIONdvcs
 social:
 - https://www.linkedin.com/company/foundationdevices
@@ -35,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices
+  repository: https://github.com/Foundation-Devices/envoy
 iphone:
   appId: com.foundationdevices.envoy
   idd: '1584811818'
@@ -47,6 +47,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Foundation Devices, Inc.
+  repository: https://github.com/Foundation-Devices/envoy
 
 ---
 

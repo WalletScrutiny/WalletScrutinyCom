@@ -24,6 +24,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTION
+  repository: https://github.com/ODUWAX/Android
 iphone:
   appId: com.oduwatrustwallet.ios
   idd: '1580339930'
@@ -36,6 +37,7 @@ iphone:
   meta: obsolete
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTIONS LLC
+  repository: https://github.com/ODUWAX/Android
 
 ---
 

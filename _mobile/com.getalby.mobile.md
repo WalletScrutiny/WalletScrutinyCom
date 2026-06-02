@@ -29,6 +29,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.
+  repository: https://github.com/getAlby/go
 iphone:
   appId: com.getalby.mobile
   idd: '6471335774'
@@ -41,6 +42,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.
+  repository: https://github.com/getAlby/go
 
 ---
 

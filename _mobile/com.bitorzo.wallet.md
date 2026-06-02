@@ -5,7 +5,6 @@ authors:
 - leo
 - emanuel
 website: https://www.bitorzo.io#deadLink
-repository: https://github.com/Bitorzo/Bitorzo
 features:
 - hd
 - fingerprint
@@ -23,6 +22,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Hodlers Team
+  repository: https://github.com/Bitorzo/Bitorzo
 
 ---
 

@@ -4,7 +4,6 @@ date: 2024-02-05
 authors:
 - danny
 website: https://cryptopower.dev/
-repository: https://github.com/crypto-power/cryptopower
 redirect_from:
 - /android/com.dreacotdigital.cryptopower.mainnet/
 android:
@@ -18,6 +17,7 @@ android:
   meta: fewusers
   verdict: wip
   developerName: Dreacot Digital Limited
+  repository: https://github.com/crypto-power/cryptopower
 
 ---
 

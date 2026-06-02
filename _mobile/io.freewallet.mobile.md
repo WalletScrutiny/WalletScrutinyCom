@@ -6,7 +6,6 @@ authors:
 - leo
 - danny
 website: https://freewallet.io
-repository: https://github.com/jdogresorg/freewallet-mobile
 twitter: freewallet
 social:
 - https://www.facebook.com/freewallet.io
@@ -30,6 +29,7 @@ android:
   meta: obsolete
   verdict: sourceavailable
   developerName: Jeremy Johnson
+  repository: https://github.com/jdogresorg/freewallet-mobile
 iphone:
   appId: io.freewallet.mobile
   idd: 1151168579
@@ -42,6 +42,7 @@ iphone:
   meta: obsolete
   verdict: sourceavailable
   developerName: Jeremy Johnson
+  repository: https://github.com/jdogresorg/freewallet-mobile
 
 ---
 

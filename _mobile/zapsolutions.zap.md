@@ -32,6 +32,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: LN OSS
+  repository: https://github.com/LN-Zap/zap-android
 iphone:
   appId: com.jackmallers.zap
   idd: 1406311960
@@ -42,6 +43,7 @@ iphone:
   icon: com.jackmallers.zap.jpg
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/LN-Zap/zap-iOS
 
 ---
 

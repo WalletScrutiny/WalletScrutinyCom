@@ -6,7 +6,6 @@ authors:
 - danny
 - keraliss
 website: https://aquawallet.io
-repository: https://github.com/AquaWallet/aqua-wallet
 twitter: AquaBitcoin
 social:
 - https://www.instagram.com/aquabitcoin
@@ -33,6 +32,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: JAN3
+  repository: https://github.com/AquaWallet/aqua-wallet
 iphone:
   appId: io.aquawallet.ios
   idd: '6468594241'
@@ -45,6 +45,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Jan3 LLC
+  repository: https://github.com/AquaWallet/aqua-wallet
 
 ---
 

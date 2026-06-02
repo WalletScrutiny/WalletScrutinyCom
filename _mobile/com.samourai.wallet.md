@@ -6,7 +6,6 @@ authors:
 - Mohammad Rafigh
 - leo
 website: https://samouraiwallet.com
-repository: https://github.com/Samourai-Wallet/samourai-wallet-android
 twitter: SamouraiWallet
 redirect_from:
 - /samourai/
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Samourai
+  repository: https://github.com/Samourai-Wallet/samourai-wallet-android
 
 ---
 

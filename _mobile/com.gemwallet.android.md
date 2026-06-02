@@ -34,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Gem Wallet LLC
+  repository: https://github.com/gemwalletcom/wallet
 iphone:
   appId: com.gemwallet.ios
   idd: '6448712670'
@@ -46,6 +47,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Gem Wallet LLC
+  repository: https://github.com/gemwalletcom/gem-android
 
 ---
 

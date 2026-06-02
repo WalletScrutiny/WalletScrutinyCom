@@ -4,7 +4,6 @@ date: 2024-05-07
 authors:
 - danny
 website: https://monya-wallet.github.io
-repository: https://github.com/monya-wallet/monya
 features:
 - hd
 - multiSig
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: 藤原出帆
+  repository: https://github.com/monya-wallet/monya
 
 ---
 

@@ -8,7 +8,6 @@ authors:
 - danny
 - keraliss
 website: https://electrum.org
-repository: https://github.com/spesmilo/electrum
 twitter: ElectrumWallet
 features:
 - customNode
@@ -33,6 +32,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Electrum Technologies GmbH
+  repository: https://github.com/spesmilo/electrum
 
 ---
 

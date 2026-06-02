@@ -6,7 +6,6 @@ authors:
 - danny
 - keraliss
 website: https://swiss-bitcoin-pay.ch
-repository: https://github.com/SwissBitcoinPay/app
 twitter: SwissBitcoinPay
 social:
 - https://www.linkedin.com/company/swiss-bitcoin-pay
@@ -33,6 +32,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Swiss Bitcoin Pay
+  repository: https://github.com/SwissBitcoinPay/app
 iphone:
   appId: ch.swissbitcoinpay.checkout
   idd: '6444370155'
@@ -45,6 +45,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Swiss Bitcoin Pay Sarl
+  repository: https://github.com/SwissBitcoinPay/app
 
 ---
 

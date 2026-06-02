@@ -22,6 +22,7 @@ android:
   meta: removed
   verdict: obfuscated
   developerName: getcai
+  repository: https://github.com/bither/bither-android
 iphone:
   appId: net.bither
   idd: 899478936
@@ -34,6 +35,7 @@ iphone:
   meta: stale
   verdict: obfuscated
   developerName: BITHER Limited
+  repository: https://github.com/bither/bither-ios
 
 ---
 

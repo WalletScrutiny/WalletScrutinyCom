@@ -5,7 +5,6 @@ authors:
 - danny
 - keraliss
 website: https://bitbanana.app/
-repository: https://github.com/michaelWuensch/BitBanana
 twitter: BitBananaApp
 social:
 - https://discord.gg/Xg85BuTc9A
@@ -37,6 +36,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Michael Wünsch
+  repository: https://github.com/michaelWuensch/BitBanana
 
 ---
 

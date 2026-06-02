@@ -4,7 +4,6 @@ date: 2024-04-03
 authors:
 - danny
 website: https://particl.io
-repository: https://github.com/particl/copay
 twitter: ParticlProject
 redirect_from:
 - /android/io.particl.copay/
@@ -19,6 +18,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Particl Foundation
+  repository: https://github.com/particl/copay
 
 ---
 

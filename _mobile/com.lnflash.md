@@ -5,7 +5,6 @@ date: 2025-06-13
 authors:
 - danny
 website: https://getflash.io
-repository: https://github.com/lnflash/flash-mobile
 twitter: LNFlash
 social:
 - https://njump.me/npub1l080awn9wsw87ywm3flmpmccf5rmlvhd7vfgspj2pnavxupnlfesmflash
@@ -33,6 +32,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Island Bitcoin
+  repository: https://github.com/lnflash/flash-mobile
 iphone:
   appId: com.lnflash
   idd: '6451129095'
@@ -45,6 +45,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Island Bitcoin
+  repository: https://github.com/lnflash/flash-mobile
 
 ---
 

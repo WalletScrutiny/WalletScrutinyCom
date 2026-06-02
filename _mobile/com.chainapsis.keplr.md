@@ -21,6 +21,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Team Keplr
+  repository: https://github.com/chainapsis/keplr-wallet
 iphone:
   appId: com.chainapsis.keplrwallet
   idd: '1567851089'
@@ -33,6 +34,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: chainapsis
+  repository: https://github.com/chainapsis/keplr-wallet
 
 ---
 

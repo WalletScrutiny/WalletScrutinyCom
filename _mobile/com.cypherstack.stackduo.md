@@ -5,7 +5,6 @@ date: 2024-05-31
 authors:
 - danny
 website: https://stackwallet.com
-repository: https://github.com/cypherstack/stack_duo
 twitter: stack_wallet
 social:
 - https://discord.com/invite/mRPZuXx3At
@@ -26,6 +25,7 @@ android:
   meta: fewusers
   verdict: wip
   developerName: Cypher Stack Team
+  repository: https://github.com/cypherstack/stack_duo
 iphone:
   appId: com.cypherstack.stackduo
   idd: '6446602017'
@@ -38,6 +38,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Cypher Stack LLC
+  repository: https://github.com/cypherstack/stack_duo
 
 ---
 

@@ -5,7 +5,6 @@ authors:
 - emanuel
 - leo
 website: https://inbitcoin.it
-repository: https://github.com/inbitcoin/altana-android
 redirect_from:
 - /android/it.inbitcoin.altana/
 android:
@@ -18,6 +17,7 @@ android:
   meta: removed
   verdict: nosource
   developerName: inbitcoin
+  repository: https://github.com/inbitcoin/altana-android
 
 ---
 

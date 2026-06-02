@@ -3,7 +3,6 @@ wsId: Haven
 title: Haven - Private Shopping
 date: 2021-01-15
 website: https://gethaven.app
-repository: https://github.com/OpenBazaar/haven
 twitter: HavenPrivacy
 social:
 - https://www.reddit.com/r/havenapp
@@ -22,6 +21,7 @@ android:
   icon: io.ob1.nativeandroid.png
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/OpenBazaar/haven
 iphone:
   appId: io.ob1.native-ios
   idd: 1318395690
@@ -32,6 +32,7 @@ iphone:
   icon: io.ob1.native-ios.jpg
   meta: removed
   verdict: sourceavailable
+  repository: https://github.com/OpenBazaar/haven
 
 ---
 

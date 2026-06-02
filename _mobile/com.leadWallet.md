@@ -23,6 +23,7 @@ android:
   icon: com.leadWallet.png
   meta: removed
   verdict: nosource
+  repository: https://github.com/leadwallet/leadwallet-core#deadLink
 iphone:
   appId: com.leadWallet
   idd: 1578704913
@@ -33,6 +34,7 @@ iphone:
   icon: com.leadWallet.jpg
   meta: removed
   verdict: nosource
+  repository: https://github.com/leadwallet/leadwallet-core#deadLink
 
 ---
 

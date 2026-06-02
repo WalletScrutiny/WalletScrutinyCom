@@ -7,7 +7,6 @@ authors:
 - emanuel
 - leo
 website: https://mixin.one/messenger
-repository: https://github.com/MixinNetwork/android-app
 twitter: MixinMessenger
 social:
 - https://www.facebook.com/MixinNetwork
@@ -28,6 +27,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd
+  repository: https://github.com/MixinNetwork/android-app
 iphone:
   appId: one.mixin.messenger
   idd: 1322324266
@@ -40,6 +40,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd
+  repository: https://github.com/MixinNetwork/android-app
 
 ---
 

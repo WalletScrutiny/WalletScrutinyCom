@@ -34,6 +34,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Synonym
+  repository: https://github.com/synonymdev/bitkit
 iphone:
   appId: to.bitkit
   idd: '6502440655'
@@ -46,6 +47,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Synonym Software Ltd
+  repository: https://github.com/synonymdev/bitkit-ios
 
 ---
 

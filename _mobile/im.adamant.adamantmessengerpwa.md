@@ -27,6 +27,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: ADAMANT Foundation
+  repository: https://github.com/Adamant-im/adamant-im
 iphone:
   appId: im.adamant.adamant-messenger
   idd: '1341473829'
@@ -39,6 +40,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: ADAMANT TECH LABS LP
+  repository: https://github.com/Adamant-im/adamant-iOS
 
 ---
 

@@ -3,7 +3,6 @@ title: Mobile LN
 date: 2021-04-30
 authors:
 - kiwilamb
-repository: https://github.com/hihidev/MobileLN
 redirect_from:
 - /android/com.mobileln/
 android:
@@ -14,6 +13,7 @@ android:
   icon: com.mobileln.png
   meta: removed
   verdict: wip
+  repository: https://github.com/hihidev/MobileLN
 
 ---
 

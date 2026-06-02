@@ -5,7 +5,6 @@ date: 2025-02-12
 authors:
 - danny
 website: https://www.bitcoinkeeper.app/
-repository: https://github.com/bithyve/bitcoin-keeper
 twitter: bitcoinKeeper_
 social:
 - https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ
@@ -30,6 +29,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
+  repository: https://github.com/bithyve/bitcoin-keeper
 iphone:
   appId: io.hexawallet.keeper
   idd: '1545535925'
@@ -42,6 +42,7 @@ iphone:
   meta: ok
   verdict: wip
   developerName: Bithyve
+  repository: https://github.com/bithyve/bitcoin-keeper
 
 ---
 

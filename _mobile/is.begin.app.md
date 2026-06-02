@@ -27,6 +27,7 @@ android:
   meta: ok
   verdict: nosource
   developerName: Begin W
+  repository: https://github.com/BeginWallet/begin-core
 iphone:
   appId: is.begin.app
   idd: '1642488837'
@@ -39,6 +40,7 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Begin W UG
+  repository: https://github.com/BeginWallet/begin-core
 
 ---
 

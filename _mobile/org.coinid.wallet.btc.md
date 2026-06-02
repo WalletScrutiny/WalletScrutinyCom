@@ -6,7 +6,6 @@ authors:
 - leo
 - danny
 website: https://coinid.org
-repository: https://github.com/COINiD/COINiDWallet
 twitter: COINiDGroup
 features:
 - companion
@@ -26,6 +25,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
+  repository: https://github.com/COINiD/COINiDWallet
 iphone:
   appId: org.coinid.wallet.btc
   idd: 1370200585
@@ -37,6 +37,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
+  repository: https://github.com/COINiD/COINiDWallet
 
 ---
 

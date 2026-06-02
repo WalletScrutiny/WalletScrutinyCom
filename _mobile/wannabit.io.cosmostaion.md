@@ -29,6 +29,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Stamper
+  repository: https://github.com/cosmostation/cosmostation-android
 iphone:
   appId: io.wannabit.cosmostation
   idd: '1459830339'
@@ -41,6 +42,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Stamper Co., Ltd.
+  repository: https://github.com/cosmostation/cosmostation-ios
 
 ---
 

@@ -5,7 +5,6 @@ date: 2024-05-18
 authors:
 - leo
 website: https://incognito.org#deadLink
-repository: https://github.com/incognitochain/incognito-wallet#deadLink
 twitter: incognitochain
 redirect_from:
 - /com.incognito.wallet/
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Incognito Core Development Team
+  repository: https://github.com/incognitochain/incognito-wallet#deadLink
 iphone:
   appId: com.incognito.wallet
   idd: 1475631606
@@ -33,6 +33,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Incognito Core Team LLC
+  repository: https://github.com/incognitochain/incognito-wallet#deadLink
 
 ---
 

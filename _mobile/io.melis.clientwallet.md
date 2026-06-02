@@ -5,7 +5,6 @@ date: 2023-12-19
 authors:
 - leo
 website: https://www.melis.io
-repository: https://github.com/melis-wallet/melis-cm-client
 features:
 - foss
 - multiSig
@@ -27,6 +26,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Melis
+  repository: https://github.com/melis-wallet/melis-cm-client
 iphone:
   appId: io.melis.clientwallet
   idd: 1176840794
@@ -38,6 +38,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Melis s.r.l.
+  repository: https://github.com/melis-wallet/melis-cm-client
 
 ---
 

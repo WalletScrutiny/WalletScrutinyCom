@@ -9,7 +9,6 @@ authors:
 - danny
 - keraliss
 website: https://edge.app
-repository: https://github.com/EdgeApp/edge-react-gui
 twitter: edgewallet
 social:
 - https://www.linkedin.com/company/edgeapp
@@ -38,6 +37,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Edge (formerly Airbitz)
+  repository: https://github.com/EdgeApp/edge-react-gui
 iphone:
   appId: co.edgesecure.app
   idd: '1344400091'
@@ -50,6 +50,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: Airbitz Inc
+  repository: https://github.com/EdgeApp/edge-react-gui
 
 ---
 

@@ -29,6 +29,7 @@ android:
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL
+  repository: https://github.com/mintlayer/mojito_mobile_wallet
 iphone:
   appId: com.mojitowallet
   idd: '1620691992'
@@ -41,6 +42,7 @@ iphone:
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL
+  repository: https://github.com/mintlayer/mojito_mobile_wallet
 
 ---
 

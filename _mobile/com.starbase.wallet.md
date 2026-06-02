@@ -4,7 +4,6 @@ date: 2024-07-05
 authors:
 - danny
 website: https://deploystarship.com
-repository: https://github.com/deploystarship/StarBase_android
 twitter: deploystarship
 social:
 - https://www.youtube.com/c/DeployStarShipNFT
@@ -24,6 +23,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Starship Holdings, Inc
+  repository: https://github.com/deploystarship/StarBase_android
 
 ---
 

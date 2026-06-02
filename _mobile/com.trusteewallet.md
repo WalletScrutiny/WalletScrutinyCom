@@ -30,6 +30,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: BlockSoft Lab
+  repository: https://github.com/trustee-wallet/trusteeWallet
 iphone:
   appId: com.trusteewallet
   idd: 1462924276
@@ -42,6 +43,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: BLOCKSOFTLAB INC
+  repository: https://github.com/trustee-wallet/trusteeWallet
 
 ---
 

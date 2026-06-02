@@ -4,7 +4,6 @@ date: 2025-11-03
 authors:
 - danny
 website: https://blitzwalletapp.com/
-repository: https://github.com/BlitzWallet/BlitzWallet
 twitter: blitzwalletapp
 social:
 - https://www.youtube.com/@BlitzWalletApp
@@ -28,6 +27,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Blitz Wallet
+  repository: https://github.com/BlitzWallet/BlitzWallet
 
 ---
 

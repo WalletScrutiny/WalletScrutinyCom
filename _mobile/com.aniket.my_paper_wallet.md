@@ -3,7 +3,6 @@ title: 'My Paper Wallet: Bitcoin Paper'
 date: 2024-04-03
 authors:
 - danny
-repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet
 redirect_from:
 - /android/com.aniket.my_paper_wallet/
 android:
@@ -16,6 +15,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: Aniket sindhu
+  repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet
 
 ---
 

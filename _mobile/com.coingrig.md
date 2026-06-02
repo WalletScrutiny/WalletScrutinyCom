@@ -5,7 +5,6 @@ date: 2023-08-04
 authors:
 - danny
 website: https://coingrig.com
-repository: https://github.com/coingrig/coingrig-wallet
 twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/
@@ -22,6 +21,7 @@ android:
   meta: removed
   verdict: wip
   developerName: Qubevo
+  repository: https://github.com/coingrig/coingrig-wallet
 iphone:
   appId: com.coingrig.app
   idd: '1583464451'
@@ -34,6 +34,7 @@ iphone:
   meta: removed
   verdict: wip
   developerName: Qubevo
+  repository: https://github.com/coingrig/coingrig-wallet
 
 ---
 

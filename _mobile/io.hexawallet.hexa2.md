@@ -6,7 +6,6 @@ authors:
 - danny
 - keraliss
 website: https://bitcointribe.app/
-repository: https://github.com/bithyve/bitcointribe-classic
 twitter: HexaWallet
 social:
 - https://www.linkedin.com/company/bithyve
@@ -27,6 +26,7 @@ android:
   meta: removed
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
+  repository: https://github.com/bithyve/bitcointribe-classic
 iphone:
   appId: io.hexawallet.hexa2
   idd: 1586334138
@@ -38,6 +38,7 @@ iphone:
   meta: removed
   verdict: sourceavailable
   developerName: Bithyve
+  repository: https://github.com/bithyve/bitcointribe-classic
 
 ---
 
