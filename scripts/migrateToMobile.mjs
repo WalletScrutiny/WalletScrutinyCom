@@ -47,7 +47,6 @@ const ROOT_SCALAR_PREFER_ANDROID = ['title', 'website', 'twitter'];
 const MERGEABLE_COMMON_FIELDS = [
   'wsId',
   'bitcoinOrgId',
-  'repository',
   'bugbounty',
   'appCountry',
 ];
@@ -82,7 +81,6 @@ const ROOT_FIELD_ORDER = [
   'date',
   'authors',
   'website',
-  'repository',
   'bugbounty',
   'twitter',
   'social',
@@ -320,6 +318,7 @@ function splitSinglePlatformHeader (header, platform) {
     if (isEmpty(value)) continue;
     if (
       key === 'appId' ||
+      key === 'repository' ||
       PLATFORM_METADATA_FIELDS.includes(key) ||
       ANDROID_EXCLUSIVE_FIELDS.includes(key) ||
       IPHONE_EXCLUSIVE_FIELDS.includes(key)
@@ -365,6 +364,11 @@ function mergeDualPlatformHeaders (androidHeader, iphoneHeader) {
       continue;
     }
     if (IPHONE_EXCLUSIVE_FIELDS.includes(key)) {
+      assignPlatformField(iphone, key, iVal);
+      continue;
+    }
+    if (key === 'repository') {
+      assignPlatformField(android, key, aVal);
       assignPlatformField(iphone, key, iVal);
       continue;
     }

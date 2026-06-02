@@ -8,7 +8,15 @@
     <div class="title">
         <h3>Application build</h3>
 
-        {% if page.repository %}
+        {% assign review_repository = '' %}
+        {% if include.platform == 'android' and page.android.repository and page.android.repository != '' %}
+          {% assign review_repository = page.android.repository %}
+        {% elsif include.platform == 'iphone' and page.iphone.repository and page.iphone.repository != '' %}
+          {% assign review_repository = page.iphone.repository %}
+        {% elsif page.repository and page.repository != '' %}
+          {% assign review_repository = page.repository %}
+        {% endif %}
+        {% if review_repository != '' %}
         {% assign build_app_id = include.appId | default: page.appId %}
         {% assign apps_table_id = include.appsTableId | default: 'appsTable' %}
         {% assign version_element_id = include.versionElementId | default: 'version-number' %}
@@ -94,7 +102,9 @@
         </script>
         {% else %}
         {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
-        {% if sourceCheckedVerdicts contains build_verdict %}
+        {% if build_verdict == 'sourceavailable' or build_verdict == 'diy' %}
+        <small>Source repository URL is missing from this wallet page metadata.</small>
+        {% elsif sourceCheckedVerdicts contains build_verdict %}
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>

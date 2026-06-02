@@ -13,7 +13,6 @@ const ROOT_FIELD_ORDER = [
   'date',
   'authors',
   'website',
-  'repository',
   'bugbounty',
   'twitter',
   'social',
@@ -135,6 +134,10 @@ export function platformVerdict (block) {
 }
 
 /** Move root `verdict` into platform blocks; keep verdict only under android:/iphone:. */
+export function stripRootRepository (mobile) {
+  delete mobile.repository;
+}
+
 export function stripRootVerdict (mobile) {
   const rootVerdict = mobile.verdict;
   if (!isEmpty(rootVerdict)) {
@@ -277,6 +280,7 @@ export function orderMobileHeader (mobile) {
   stripPlatformTwitter(mobile);
   stripRootMeta(mobile);
   stripRootVerdict(mobile);
+  stripRootRepository(mobile);
   demoteRootDeveloperName(mobile);
   hoistMobileDate(mobile);
   const pruned = pruneEmpty(mobile);

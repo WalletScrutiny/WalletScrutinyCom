@@ -1,5 +1,11 @@
 <div class="step source-code">
-  {% if page.repository %}
+  {% assign has_source_repo = false %}
+  {% if page.android.repository and page.android.repository != '' %}
+    {% assign has_source_repo = true %}
+  {% elsif page.iphone.repository and page.iphone.repository != '' %}
+    {% assign has_source_repo = true %}
+  {% endif %}
+  {% if has_source_repo %}
   <i class="i-code circle"></i>
   {% else %}
   <i class="i-code circle disabled"></i>
@@ -8,13 +14,38 @@
   <div class="title">
     <h3>Source code</h3>
     <p>
-    {% if page.repository %}
+    {% if page.android.repository and page.android.repository != '' and page.iphone.repository and page.iphone.repository != '' and page.android.repository == page.iphone.repository %}
       {{'Public on '}}
-      {% assign string = page.repository | replace: "https://", "" %}
+      {% assign string = page.android.repository | replace: "https://", "" %}
       {% assign split = string | split:"/" %}
       {% assign name = split[0] | split:"." %}
       {% assign name = name[0] %}
-      <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.android.repository and page.android.repository != '' and page.iphone.repository and page.iphone.repository != '' %}
+      Android: {% assign string = page.android.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>.
+      iPhone: {% assign string = page.iphone.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.iphone.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.android.repository and page.android.repository != '' %}
+      {{'Public on '}}
+      {% assign string = page.android.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.iphone.repository and page.iphone.repository != '' %}
+      {{'Public on '}}
+      {% assign string = page.iphone.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.iphone.repository }}" target="_blank" class="capitalise">{{name}}</a>
     {% else %}
       {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
       {% assign step_verdict = include.verdict | default: page.verdict %}

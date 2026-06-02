@@ -20,7 +20,7 @@ const df = /^\d{4}-\d{2}-\d{2}$/; // the only date format we use
 /** Fields that must not appear under android:/iphone: (root-only). */
 const MOBILE_ROOT_STRIP_FROM_PLATFORM = new Set([
   'wsId', 'title', 'altTitle', 'bitcoinOrgId', 'date',
-  'authors', 'website', 'repository', 'bugbounty', 'twitter', 'social',
+  'authors', 'website', 'bugbounty', 'twitter', 'social',
   'features', 'redirect_from', 'android', 'iphone',
 ]);
 

@@ -1,5 +1,13 @@
+{% assign review_repository = '' %}
+{% if include.platform == 'android' and page.android.repository and page.android.repository != '' %}
+  {% assign review_repository = page.android.repository %}
+{% elsif include.platform == 'iphone' and page.iphone.repository and page.iphone.repository != '' %}
+  {% assign review_repository = page.iphone.repository %}
+{% elsif page.repository and page.repository != '' %}
+  {% assign review_repository = page.repository %}
+{% endif %}
 {% assign has_github_repo = false %}
-{% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
+{% if review_repository != '' and review_repository contains 'github.com' %}
   {% assign has_github_repo = true %}
 {% endif %}
 
