@@ -137,6 +137,26 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
 function add (newIdds) {
   console.log(`Adding skeletons for ${newIdds.length} apps ...`);
 
+  function refreshOrAdd (appId, iphone) {
+    findMobileFileByIphoneAppId(appId)
+      .then((file) => {
+        if (file) {
+          refreshFile(file);
+          return;
+        }
+        const fileName = `${appId}.md`;
+        const filePath = path.join(MOBILE_DIR, fileName);
+        return fs.access(filePath)
+          .then(() => {
+            const loaded = loadMobileFromFile(filePath);
+            loaded.mobile.iphone = iphone;
+            refreshFile(fileName, loaded);
+          }, () => {
+            refreshFile(fileName, { mobile: { title: null, iphone }, body: '', slug: appId });
+          });
+      });
+  }
+
   newIdds.forEach(param => {
     var idd, appId, country;
     if (param.includes('/')) {
@@ -150,44 +170,20 @@ function add (newIdds) {
       idd = param;
     }
     if (appId) {
-      findMobileFileByIphoneAppId(appId)
-        .then((file) => {
-          if (file) {
-            refreshFile(file);
-          } else {
-            const fileName = `${appId}.md`;
-            const mobile = {
-              title: null,
-              iphone: { appId, appCountry: country, meta: 'ok', verdict: 'wip' },
-            };
-            refreshFile(fileName, { mobile, body: '', slug: appId });
-          }
-        });
+      refreshOrAdd(appId, { appId, appCountry: country, meta: 'ok', verdict: 'wip' });
     } else {
       app({
         id: idd,
         lang: 'en',
         country: country || 'cl'
       }).then(storeApp => {
-        findMobileFileByIphoneAppId(storeApp.appId)
-          .then((file) => {
-            if (file) {
-              refreshFile(file);
-            } else {
-              const fileName = `${storeApp.appId}.md`;
-              const mobile = {
-                title: null,
-                iphone: {
-                  appId: storeApp.appId,
-                  idd,
-                  appCountry: country,
-                  meta: 'ok',
-                  verdict: 'wip',
-                },
-              };
-              refreshFile(fileName, { mobile, body: '', slug: storeApp.appId });
-            }
-          });
+        refreshOrAdd(storeApp.appId, {
+          appId: storeApp.appId,
+          idd,
+          appCountry: country,
+          meta: 'ok',
+          verdict: 'wip',
+        });
       }, err => {
         console.error(`Error with id ${idd}: ${JSON.stringify(err)}`);
       });
