@@ -24,6 +24,7 @@ android:
   meta: removed
   verdict: custodial
   developerName: Cointree
+  bugbounty: https://www.cointree.com/company/bug-bounty
 iphone:
   appId: com.cointree.mobileapp
   idd: '1636243621'

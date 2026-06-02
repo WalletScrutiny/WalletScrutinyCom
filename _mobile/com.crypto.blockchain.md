@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.crypto.blockchain/
 android:
   appId: com.crypto.blockchain
+  altTitle: (Fake) Blockchain India
   users: 5000
   released: 2021-06-22
   updated: 2021-08-17

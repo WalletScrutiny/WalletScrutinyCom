@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.wasabiwallet.dev/
 android:
   appId: com.wasabiwallet.dev
+  altTitle: (Fake) Wasabi Wallet
   users: 500
   updated: 2020-12-01
   version: '2.0'

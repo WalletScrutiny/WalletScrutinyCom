@@ -14,6 +14,7 @@ redirect_from:
 - /android/com.bitorzo.wallet/
 android:
   appId: com.bitorzo.wallet
+  altTitle: Bitcoin Wallet by Bitorzo.com
   users: 1000
   released: 2020-07-22
   updated: 2021-01-03

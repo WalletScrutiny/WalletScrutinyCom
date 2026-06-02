@@ -6,6 +6,7 @@ redirect_from:
 - /android/etherio.wallet.com/
 android:
   appId: etherio.wallet.com
+  altTitle: '(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade'
   users: 10
   released: 2021-04-28
   updated: 2021-04-28

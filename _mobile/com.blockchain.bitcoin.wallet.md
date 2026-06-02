@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.blockchain.bitcoin.wallet/
 android:
   appId: com.blockchain.bitcoin.wallet
+  altTitle: (Fake) Bitcoin Cold Wallet
   users: 10000
   released: 2021-01-19
   updated: 2023-08-26

@@ -7,6 +7,7 @@ redirect_from:
 - /iphone/com.anbi.safepal/
 iphone:
   appId: com.anbi.safepal
+  altTitle: leo
   idd: '1449232593'
   released: 2019-03-01
   updated: 2020-12-30

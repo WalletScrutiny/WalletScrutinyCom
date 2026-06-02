@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.ddcday.wallex/
 android:
   appId: com.ddcday.wallex
+  altTitle: (Fake) Copay Wallet Mobile
   users: 500
   released: 2021-09-09
   updated: 2021-09-09

@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.atomicwallet.newapp.safe/
 android:
   appId: com.atomicwallet.newapp.safe
+  altTitle: (Fake) Crypto Wallet & Atomic swap DEX
   users: 500
   released: 2021-06-14
   updated: 2021-06-14

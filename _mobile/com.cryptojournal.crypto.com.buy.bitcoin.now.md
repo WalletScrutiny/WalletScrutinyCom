@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.cryptojournal.crypto.com.buy.bitcoin.now/
 android:
   appId: com.cryptojournal.crypto.com.buy.bitcoin.now
+  altTitle: (Fake) Crypto.com - Buy Bitcoin Now
   users: 500
   released: 2021-07-07
   updated: 2021-07-07

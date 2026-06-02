@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.jaxx.crypto.wallet/
 android:
   appId: com.jaxx.crypto.wallet
+  altTitle: '(Fake) Ja­xx Lib­erty: Crypto Wallet'
   users: 50
   released: 2021-10-11
   updated: 2021-10-12

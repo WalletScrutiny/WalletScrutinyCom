@@ -8,6 +8,7 @@ redirect_from:
 - /android/samurai.wallet.crypto/
 android:
   appId: samurai.wallet.crypto
+  altTitle: (Fake) Samourai Bitcoin Wallet
   users: 50
   released: 2021-07-31
   updated: 2021-08-01

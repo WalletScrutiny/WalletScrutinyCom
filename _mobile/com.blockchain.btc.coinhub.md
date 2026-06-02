@@ -6,6 +6,7 @@ redirect_from:
 - /android/com.blockchain.btc.coinhub/
 android:
   appId: com.blockchain.btc.coinhub
+  altTitle: (Fake) CoinHub - Blockchain Wallet
   users: 50000
   appCountry: us
   released: 2021-05-13

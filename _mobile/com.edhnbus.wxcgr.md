@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.edhnbus.wxcgr/
 android:
   appId: com.edhnbus.wxcgr
+  altTitle: (Fake) Exodus Bitcoin & Ethereum- Crypto Exchange
   users: 100
   released: 2021-07-21
   updated: 2021-07-21

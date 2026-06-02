@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.chivowalletapp.co/
 android:
   appId: com.chivowalletapp.co
+  altTitle: (Fake) Chivo Wallet
   users: 500
   released: 2021-08-12
   updated: 2021-08-13

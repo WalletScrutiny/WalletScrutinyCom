@@ -7,6 +7,7 @@ redirect_from:
 - /android/jax.wallet.liberty/
 android:
   appId: jax.wallet.liberty
+  altTitle: '(Fake) Jaxx Lib­erty: Crypto Wallet'
   users: 500
   released: 2021-08-30
   updated: 2021-08-31

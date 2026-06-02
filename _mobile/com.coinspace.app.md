@@ -35,6 +35,7 @@ android:
   verdict: sourceavailable
   developerName: CoinSpace
   repository: https://github.com/CoinSpace/CoinSpace
+  bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 iphone:
   appId: com.coinspace.wallet
   idd: 980719434
@@ -48,6 +49,7 @@ iphone:
   verdict: sourceavailable
   developerName: CoinSpace
   repository: https://github.com/CoinSpace/CoinSpace
+  bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 
 ---
 
