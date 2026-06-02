@@ -34,6 +34,16 @@ const isAssetRegistrationEvent = event => assetRegistrationKinds.includes(event.
 const findBundleAssetInGroup = group =>
   group.items.find(item => item.kind === assetBundleRegistrationKind);
 
+/** Item that defines bundle hash set for row merging (kind 9401 asset or multi-hash event). */
+const findMultiFileItemInGroup = group =>
+  findBundleAssetInGroup(group) ||
+  group.items.find(item => getAssetFileEntries(item).length > 1);
+
+function getRowMergeKey(group) {
+  const multiFileItem = findMultiFileItemInGroup(group);
+  return multiFileItem ? getAssetBundleDedupKey(multiFileItem) : null;
+}
+
 function mergeGroupItems(target, source) {
   const seen = new Set(target.items.map(item => item.id));
   for (const item of source.items) {
@@ -45,39 +55,34 @@ function mergeGroupItems(target, source) {
   target.items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
 }
 
-function pickCanonicalRowSha256(group, bundleAsset, requestedSha256) {
-  const bundleHashes = getAssetFileEntries(bundleAsset).map(entry => entry.hash);
+function pickCanonicalRowSha256(group, multiFileItem, requestedSha256) {
+  const bundleHashes = getAssetFileEntries(multiFileItem).map(entry => entry.hash);
   if (requestedSha256 && bundleHashes.includes(requestedSha256)) {
     return requestedSha256;
   }
   return group.sha256;
 }
 
-/** One table row per multi-file asset (kind 9401), not one per indexed hash. */
+/** One table row per multi-file asset or multi-hash verification, not one per indexed hash. */
 function mergeBundleAssetRows(groups, requestedSha256) {
   const mergedBundles = new Map();
   const legacyGroups = [];
 
   for (const group of groups) {
-    const bundleAsset = findBundleAssetInGroup(group);
-    if (!bundleAsset) {
+    const mergeKey = getRowMergeKey(group);
+    if (!mergeKey) {
       legacyGroups.push(group);
       continue;
     }
 
-    const bundleKey = getAssetBundleDedupKey(bundleAsset);
-    if (!bundleKey) {
-      legacyGroups.push(group);
-      continue;
-    }
-
-    const existing = mergedBundles.get(bundleKey);
+    const multiFileItem = findMultiFileItemInGroup(group);
+    const existing = mergedBundles.get(mergeKey);
     if (existing) {
       mergeGroupItems(existing, group);
-      existing.sha256 = pickCanonicalRowSha256(existing, bundleAsset, requestedSha256);
+      existing.sha256 = pickCanonicalRowSha256(existing, multiFileItem, requestedSha256);
     } else {
-      mergedBundles.set(bundleKey, {
-        sha256: pickCanonicalRowSha256(group, bundleAsset, requestedSha256),
+      mergedBundles.set(mergeKey, {
+        sha256: pickCanonicalRowSha256(group, multiFileItem, requestedSha256),
         items: [...group.items],
       });
     }
