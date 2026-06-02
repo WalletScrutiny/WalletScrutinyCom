@@ -5,6 +5,7 @@ redirect_from:
 - /android/com.trustdx.cryptogt/
 android:
   appId: com.trustdx.cryptogt
+  altTitle: '*Fake app!* C r y p t o G T : Trade cryptocurrency (cryptogt)'
   users: 10
   released: 2021-07-02
   updated: 2021-08-13

@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.xmzys.binance73/
 android:
   appId: com.xmzys.binance73
+  altTitle: (Fake) Bian：Bitcoin Wallet-Virtual currency
   users: 50
   released: 2021-07-03
   updated: 2021-07-03

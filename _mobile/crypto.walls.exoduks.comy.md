@@ -7,6 +7,7 @@ redirect_from:
 - /android/crypto.walls.exoduks.comy/
 android:
   appId: crypto.walls.exoduks.comy
+  altTitle: (Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency
   users: 10
   released: 2021-10-03
   updated: 2021-10-04

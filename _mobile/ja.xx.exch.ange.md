@@ -7,6 +7,7 @@ redirect_from:
 - /android/ja.xx.exch.ange/
 android:
   appId: ja.xx.exch.ange
+  altTitle: (Fake) Jaxx Liberty Bitcoin & Ethereum
   users: 100
   released: 2021-09-01
   updated: 2021-09-01

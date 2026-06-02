@@ -8,6 +8,7 @@ redirect_from:
 - /android/starlab.studios.cryptowallet/
 android:
   appId: starlab.studios.cryptowallet
+  altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
   users: 5000
   released: 2021-06-01
   updated: 2024-01-30

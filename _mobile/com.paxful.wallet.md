@@ -29,6 +29,7 @@ android:
   meta: removed
   verdict: custodial
   developerName: PaxfulDev
+  bugbounty: https://paxful.com/bug-bounty-policy
 iphone:
   appId: com.paxful.wallet
   idd: 1443813253

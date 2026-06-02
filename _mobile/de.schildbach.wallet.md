@@ -15,6 +15,7 @@ redirect_from:
 - /android/de.schildbach.wallet/
 android:
   appId: de.schildbach.wallet
+  altTitle: Bitcoin Wallet (Schildbach)
   users: 10000000
   released: 2011-03-01
   updated: 2025-03-06

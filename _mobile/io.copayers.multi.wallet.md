@@ -5,6 +5,7 @@ redirect_from:
 - /android/io.copayers.multi.wallet/
 android:
   appId: io.copayers.multi.wallet
+  altTitle: (Fake) Copay Wallet
   users: 100
   released: 2021-12-16
   updated: 2021-12-16

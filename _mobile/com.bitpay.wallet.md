@@ -35,6 +35,7 @@ android:
   verdict: sourceavailable
   developerName: BitPay, Inc.
   repository: https://github.com/bitpay/bitpay-app
+  bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 iphone:
   appId: com.bitpay.wallet
   idd: 1149581638

@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.sdjaxx.wallet2sx/
 android:
   appId: com.sdjaxx.wallet2sx
+  altTitle: (Fake) Jaxx Liberty Wallet
   users: 1000
   released: 2021-09-10
   updated: 2021-09-11

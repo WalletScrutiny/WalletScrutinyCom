@@ -37,6 +37,7 @@ android:
   verdict: nosource
   developerName: Blockchain.com
   repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
+  bugbounty: https://hackerone.com/blockchain
 iphone:
   appId: com.rainydayapps.Blockchain
   idd: 493253309

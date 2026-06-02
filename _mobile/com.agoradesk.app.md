@@ -24,6 +24,7 @@ android:
   verdict: custodial
   developerName: LocalMonero / AgoraDesk
   repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
+  bugbounty: https://agoradesk.com/security-bounty-whitehat
 iphone:
   appId: com.agoradesk.app
   idd: '1617601678'

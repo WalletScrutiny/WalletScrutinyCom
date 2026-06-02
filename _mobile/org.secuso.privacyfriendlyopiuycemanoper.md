@@ -7,6 +7,7 @@ redirect_from:
 - /android/org.secuso.privacyfriendlyopiuycemanoper/
 android:
   appId: org.secuso.privacyfriendlyopiuycemanoper
+  altTitle: Bitcoin wallet by Mr. Bald
   users: 10
   updated: 2021-02-22
   version: 2.0.3

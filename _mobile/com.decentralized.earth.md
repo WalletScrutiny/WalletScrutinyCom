@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.decentralized.earth/
 android:
   appId: com.decentralized.earth
+  altTitle: Fake Specter Wallet
   users: 1000
   released: 2022-12-15
   updated: 2023-03-18

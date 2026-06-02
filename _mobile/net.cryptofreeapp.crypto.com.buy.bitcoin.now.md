@@ -7,6 +7,7 @@ redirect_from:
 - /android/net.cryptofreeapp.crypto.com.buy.bitcoin.now/
 android:
   appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
+  altTitle: (Fake) Crypto.com - Buy Bitcoin Now
   users: 100
   released: 2021-07-28
   updated: 2021-07-28

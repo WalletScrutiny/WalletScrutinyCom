@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.bitcoin.wallet.btc/
 android:
   appId: com.bitcoin.wallet.btc
+  altTitle: (Fake) Bitcoin Wallet Blockchain
   users: 100000
   released: 2019-05-01
   updated: 2023-06-29

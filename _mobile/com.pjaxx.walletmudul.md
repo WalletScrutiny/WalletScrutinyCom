@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.pjaxx.walletmudul/
 android:
   appId: com.pjaxx.walletmudul
+  altTitle: (Fake) Jaxx Liberty Bitcoin Wallet
   users: 100
   released: 2021-07-05
   updated: 2021-07-05

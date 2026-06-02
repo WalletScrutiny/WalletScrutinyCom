@@ -8,6 +8,7 @@ redirect_from:
 - /android/com.apptrack.coinom/
 android:
   appId: com.apptrack.coinom
+  altTitle: '(Fake) Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
   users: 10
   released: 2021-05-25
   updated: 2021-05-25

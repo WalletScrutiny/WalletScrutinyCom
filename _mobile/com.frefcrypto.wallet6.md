@@ -7,6 +7,7 @@ redirect_from:
 - /android/com.frefcrypto.wallet6/
 android:
   appId: com.frefcrypto.wallet6
+  altTitle: (Fake) Crypto.com Wallet Bitcoin & Ethereum
   users: 100
   released: 2021-09-10
   updated: 2021-09-10

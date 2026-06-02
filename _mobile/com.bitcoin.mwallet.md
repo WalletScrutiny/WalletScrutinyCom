@@ -25,6 +25,7 @@ redirect_from:
 - /iphone/com.bitcoin.mwallet/
 android:
   appId: com.bitcoin.mwallet
+  altTitle: Bitcoin Wallet by Bitcoin.com
   users: 10000000
   appCountry: us
   released: 2017-06-19

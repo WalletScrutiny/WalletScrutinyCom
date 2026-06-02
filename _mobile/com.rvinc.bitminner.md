@@ -5,6 +5,7 @@ redirect_from:
 - /android/com.rvinc.bitminner/
 android:
   appId: com.rvinc.bitminner
+  altTitle: (Fake) Bitcoin Chivo -  Chivo Bitcoin
   users: 100
   released: 2021-09-28
   updated: 2021-09-28

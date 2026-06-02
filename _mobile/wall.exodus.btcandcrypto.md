@@ -8,6 +8,7 @@ redirect_from:
 - /android/wall.exodus.btcandcrypto/
 android:
   appId: wall.exodus.btcandcrypto
+  altTitle: (Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT
   users: 100
   released: 2021-07-16
   updated: 2021-07-16
