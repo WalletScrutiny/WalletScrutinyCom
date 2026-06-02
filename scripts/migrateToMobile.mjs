@@ -254,7 +254,6 @@ function stripRootFieldsFromPlatform (platformBlock) {
     ...ROOT_SCALAR_PREFER_ANDROID,
     'redirect_from',
     'date',
-    'developerName',
     'title',
     'website',
     'twitter',
