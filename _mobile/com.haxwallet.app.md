@@ -34,7 +34,7 @@ iphone:
   released: 2023-08-23
   updated: 2025-12-15
   version: 3.5.2
-  reviews: 427
+  reviews: 428
   icon: com.haxwallet.app.jpg
   meta: ok
   verdict: nosource

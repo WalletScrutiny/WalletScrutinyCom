@@ -39,7 +39,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-05-26
   version: 7.78.0
-  reviews: 75122
+  reviews: 75136
   icon: io.metamask.MetaMask.jpg
   meta: ok
   verdict: sourceavailable

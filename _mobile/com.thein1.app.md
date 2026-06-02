@@ -32,7 +32,7 @@ iphone:
   version: 0.11.6
   reviews: 287
   icon: com.thein1.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: IN1 HOLDING LIMITED
 

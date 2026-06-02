@@ -15,7 +15,7 @@ iphone:
   released: 2016-06-25
   updated: 2026-05-01
   version: 7.2.1
-  reviews: 862
+  reviews: 863
   icon: com.bbae.anno.jpg
   meta: ok
   verdict: wip

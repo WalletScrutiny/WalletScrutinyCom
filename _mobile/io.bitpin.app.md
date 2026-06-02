@@ -17,7 +17,7 @@ android:
   released: 2021-09-01
   updated: 2025-06-09
   version: 1.3.0
-  reviews: 124
+  reviews: 119
   icon: io.bitpin.app.png
   meta: ok
   verdict: custodial

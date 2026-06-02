@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   released: 2010-06-17
-  updated: 2026-05-26
+  updated: 2026-06-01
   version: 9.1.1
   reviews: 43
   icon: com.swissquote.android.png

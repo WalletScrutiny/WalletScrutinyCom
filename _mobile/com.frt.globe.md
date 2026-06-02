@@ -30,7 +30,7 @@ iphone:
   version: 1.0.14
   reviews: 0
   icon: com.globeDerivativeTrading.globe.prod.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Globe Derivative Trading Limited
 

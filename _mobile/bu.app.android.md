@@ -37,7 +37,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-05-27
   version: 3.36.0
-  reviews: 624
+  reviews: 625
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

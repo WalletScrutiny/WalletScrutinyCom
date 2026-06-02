@@ -4,7 +4,6 @@ date: 2026-02-02
 authors:
 - danny
 website: http://latoken.com
-bugbounty: https://hackenproof.com/latoken/latoken-exchange
 twitter: latokens
 social:
 - https://www.linkedin.com/company/latoken

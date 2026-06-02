@@ -29,7 +29,7 @@ iphone:
   released: 2021-06-03
   updated: 2024-07-22
   version: 1.4.0
-  reviews: 35
+  reviews: 36
   icon: keystone.mobile.jpg
   meta: stale
   verdict: nosource

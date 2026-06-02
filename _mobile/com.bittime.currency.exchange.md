@@ -25,8 +25,8 @@ iphone:
   idd: '1641059360'
   appCountry: id
   released: 2022-11-15
-  updated: 2026-05-18
-  version: 2.0.13
+  updated: 2026-06-01
+  version: 2.0.14
   reviews: 407
   icon: com.bittime.currency.exchange.jpg
   meta: ok

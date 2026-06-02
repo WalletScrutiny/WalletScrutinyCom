@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-05-08
-  updated: 2026-05-15
-  version: 1.10.14
+  updated: 2026-05-29
+  version: 1.10.15
   icon: com.oslmobile.global.png
   meta: ok
   verdict: custodial

@@ -31,8 +31,8 @@ iphone:
   idd: '1486151349'
   appCountry: us
   released: 2019-11-06
-  updated: 2026-04-14
-  version: 2.3.20
+  updated: 2026-06-01
+  version: 2.4.10
   reviews: 152
   icon: com.biconomy.Innovation.jpg
   meta: ok

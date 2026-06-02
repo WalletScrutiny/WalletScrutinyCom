@@ -33,7 +33,7 @@ android:
   released: 2020-01-01
   updated: 2026-04-23
   version: 6.1.2
-  reviews: 658
+  reviews: 659
   icon: com.cakewallet.cake_wallet.png
   meta: ok
   verdict: sourceavailable

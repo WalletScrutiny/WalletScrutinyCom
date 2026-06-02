@@ -16,7 +16,7 @@ android:
   appId: com.minibits_wallet
   users: 1000
   appCountry: us
-  updated: 2026-03-31
+  updated: 2026-06-02
   version: VARY
   icon: com.minibits_wallet.png
   meta: ok

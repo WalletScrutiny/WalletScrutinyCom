@@ -17,7 +17,7 @@ redirect_from:
 - /iphone/com.wiseki.sekiapp.new/
 android:
   appId: com.wiseki.sekiapp
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2022-05-31
   updated: 2026-03-16

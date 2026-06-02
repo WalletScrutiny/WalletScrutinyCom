@@ -5,7 +5,6 @@ date: 2021-08-27
 authors:
 - danny
 website: https://coindcx.com/
-bugbounty: https://coindcx.com/bug-bounty
 twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
@@ -32,7 +31,7 @@ iphone:
   released: 2020-12-09
   updated: 2026-05-26
   version: 7.52.0002
-  reviews: 42770
+  reviews: 42769
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

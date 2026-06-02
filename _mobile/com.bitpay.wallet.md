@@ -43,7 +43,7 @@ iphone:
   released: 2016-10-24
   updated: 2026-05-12
   version: 14.42.1
-  reviews: 3543
+  reviews: 3548
   icon: com.bitpay.wallet.jpg
   meta: ok
   verdict: wip

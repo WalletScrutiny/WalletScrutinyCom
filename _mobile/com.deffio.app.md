@@ -25,8 +25,8 @@ iphone:
   idd: '6743933039'
   appCountry: ua
   released: 2025-07-14
-  updated: 2026-03-10
-  version: 1.7.0
+  updated: 2026-06-01
+  version: 1.8.9
   reviews: 23
   icon: com.deffio.app.jpg
   meta: ok

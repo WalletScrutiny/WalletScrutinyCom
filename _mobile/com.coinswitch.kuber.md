@@ -32,7 +32,7 @@ iphone:
   released: 2020-12-01
   updated: 2026-05-21
   version: 9.3.5
-  reviews: 60757
+  reviews: 60767
   icon: com.coinswitch.kuber.jpg
   meta: ok
   verdict: nosendreceive

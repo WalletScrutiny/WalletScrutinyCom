@@ -19,7 +19,7 @@ android:
   released: 2019-07-08
   updated: 2024-08-07
   version: 1.52.1
-  reviews: 969
+  reviews: 968
   icon: com.stormgain.mobile.png
   meta: stale
   verdict: custodial

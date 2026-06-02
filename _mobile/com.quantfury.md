@@ -14,8 +14,8 @@ android:
   users: 1000000
   appCountry: gb
   released: 2018-11-26
-  updated: 2026-04-30
-  version: v1.94.1.25713
+  updated: 2026-06-01
+  version: v1.95.0.25888
   reviews: 23
   icon: com.quantfury.png
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: 1445564443
   appCountry: br
   released: 2018-12-15
-  updated: 2026-05-12
-  version: 1.94.2
+  updated: 2026-06-01
+  version: 1.95.0
   reviews: 77
   icon: com.quantfury.jpg
   meta: ok

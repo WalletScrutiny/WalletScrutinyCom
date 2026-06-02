@@ -19,7 +19,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-29
-  updated: 2026-05-21
+  updated: 2026-06-02
   version: 6.172.1
   reviews: 3910
   icon: com.okinc.okex.gp.png
@@ -33,11 +33,11 @@ iphone:
   released: 2018-01-04
   updated: 2026-05-18
   version: 6.172.0
-  reviews: 22287
+  reviews: 22290
   icon: com.okex.OKExAppstoreFull.jpg
   meta: ok
   verdict: custodial
-  developerName: OKX MALTA LTD
+  developerName: OKX Inc.
 
 ---
 

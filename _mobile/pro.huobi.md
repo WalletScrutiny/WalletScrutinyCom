@@ -37,7 +37,7 @@ iphone:
   version: 11.20.1
   reviews: 1427
   icon: com.huobi.appStoreHuobiSystem.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: SAFE GLORY UAB
 

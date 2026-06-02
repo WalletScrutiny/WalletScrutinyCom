@@ -50,9 +50,9 @@ iphone:
   idd: 1376878040
   appCountry: us
   released: 2018-05-27
-  updated: 2026-02-23
-  version: 7.2.6
-  reviews: 837
+  updated: 2026-06-01
+  version: 8.0.0
+  reviews: 836
   icon: io.bluewallet.bluewallet.jpg
   meta: ok
   verdict: sourceavailable

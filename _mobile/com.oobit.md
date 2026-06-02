@@ -32,7 +32,7 @@ iphone:
   released: 2022-02-05
   updated: 2026-02-22
   version: 2.0.7
-  reviews: 957
+  reviews: 958
   icon: com.oobit.jpg
   meta: ok
   verdict: custodial

@@ -30,9 +30,9 @@ iphone:
   idd: '1516842324'
   appCountry: br
   released: 2020-06-30
-  updated: 2026-05-26
-  version: 4.2.15
-  reviews: 9130
+  updated: 2026-06-01
+  version: 4.2.16
+  reviews: 9133
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial

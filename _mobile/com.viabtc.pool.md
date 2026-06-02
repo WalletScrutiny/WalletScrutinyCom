@@ -19,7 +19,7 @@ android:
   released: 2017-12-16
   updated: 2026-05-31
   version: 3.14.1
-  reviews: 304
+  reviews: 295
   icon: com.viabtc.pool.png
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '1334584229'
   appCountry: hk
   released: 2018-01-18
-  updated: 2026-04-14
-  version: 3.12.0
+  updated: 2026-06-01
+  version: 3.12.1
   reviews: 16
   icon: com.viabtc.pool2.jpg
   meta: ok

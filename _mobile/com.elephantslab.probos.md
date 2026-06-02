@@ -32,7 +32,7 @@ iphone:
   version: '1.1'
   reviews: 1
   icon: io.probos.support.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: ELEPHANTSLAB LP
 

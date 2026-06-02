@@ -31,7 +31,7 @@ android:
   released: 2017-06-19
   updated: 2026-05-31
   version: 9.23.5
-  reviews: 4135
+  reviews: 4137
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource
@@ -44,7 +44,7 @@ iphone:
   released: 2017-07-11
   updated: 2026-05-28
   version: 9.23.1
-  reviews: 43687
+  reviews: 43702
   icon: com.bitcoin.mwallet.jpg
   meta: ok
   verdict: nosource

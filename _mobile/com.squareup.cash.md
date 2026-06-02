@@ -19,7 +19,7 @@ android:
   released: 2013-10-15
   updated: 2026-05-29
   version: 5.53.0
-  reviews: 466348
+  reviews: 466472
   icon: com.squareup.cash.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 711923939
   appCountry: us
   released: 2013-10-16
-  updated: 2026-05-26
-  version: 5.53.0
-  reviews: 8402067
+  updated: 2026-06-01
+  version: 5.54.0
+  reviews: 8404544
   icon: com.squareup.cash.jpg
   meta: ok
   verdict: custodial

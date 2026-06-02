@@ -36,7 +36,7 @@ iphone:
   version: '6'
   reviews: 0
   icon: com.centurion.exchange.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Centurioninvest OU
 

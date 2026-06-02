@@ -30,7 +30,7 @@ iphone:
   released: 2017-12-05
   updated: 2026-05-28
   version: 3.1.8
-  reviews: 4971
+  reviews: 4973
   icon: com.btckorea.bithumb.jpg
   meta: ok
   verdict: custodial

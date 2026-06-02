@@ -19,7 +19,7 @@ android:
   users: 1000000
   appCountry: ua
   released: 2019-06-07
-  updated: 2026-05-28
+  updated: 2026-05-31
   version: 3.75.1
   reviews: 1350
   icon: com.whitebit.android.png
@@ -31,9 +31,9 @@ iphone:
   idd: 1463405025
   appCountry: ua
   released: 2019-05-21
-  updated: 2026-05-29
-  version: 3.75.1
-  reviews: 3919
+  updated: 2026-06-02
+  version: 3.75.2
+  reviews: 3920
   icon: com.whitebit.whitebitapp.jpg
   meta: ok
   verdict: custodial

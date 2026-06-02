@@ -25,9 +25,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-08-30
-  updated: 2026-05-18
-  version: 3.233.10
-  reviews: 56551
+  updated: 2026-05-26
+  version: 3.234.0
+  reviews: 56552
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial
@@ -37,9 +37,9 @@ iphone:
   idd: '1262148500'
   appCountry: us
   released: 2017-08-31
-  updated: 2026-05-19
-  version: 3.233.10
-  reviews: 329476
+  updated: 2026-06-02
+  version: '3.234'
+  reviews: 329513
   icon: co.mona.Monaco.jpg
   meta: ok
   verdict: custodial

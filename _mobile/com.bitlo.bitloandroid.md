@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: TR
   released: 2020-12-18
-  updated: 2026-04-17
-  version: 2.1.53
+  updated: 2026-05-22
+  version: 2.1.54
   reviews: 2573
   icon: com.bitlo.bitloandroid.png
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '1544492069'
   appCountry: tr
   released: 2020-12-28
-  updated: 2026-04-17
-  version: 2.1.53
-  reviews: 4084
+  updated: 2026-06-01
+  version: 2.1.54
+  reviews: 4085
   icon: com.bitlo.jpg
   meta: ok
   verdict: custodial

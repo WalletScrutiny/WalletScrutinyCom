@@ -19,7 +19,7 @@ android:
   released: 2021-12-05
   updated: 2026-05-26
   version: 5.5.23
-  reviews: 450
+  reviews: 448
   icon: com.foxwallet.play.png
   meta: ok
   verdict: nosource

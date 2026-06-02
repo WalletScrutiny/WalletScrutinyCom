@@ -31,7 +31,7 @@ iphone:
   released: 2020-11-25
   updated: 2026-06-01
   version: 3.1.20
-  reviews: 232
+  reviews: 231
   icon: am.ecos.ios.production.jpg
   meta: ok
   verdict: custodial

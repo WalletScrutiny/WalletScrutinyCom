@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2014-02-10
   updated: 2026-05-27
-  version: 5.8.220
+  version: 5.9.110
   reviews: 383
   icon: com.spotware.ct.png
   meta: ok

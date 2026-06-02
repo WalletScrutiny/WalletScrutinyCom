@@ -25,7 +25,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-05-19
-  updated: 2026-05-14
+  updated: 2026-06-02
   version: 3.3.4
   reviews: 226
   icon: com.livingroomofsatoshi.wallet.png
@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-05-18
   version: 3.3.4
-  reviews: 24
+  reviews: 26
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok
   verdict: custodial

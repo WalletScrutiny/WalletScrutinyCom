@@ -36,7 +36,7 @@ iphone:
   version: 2.28.27
   reviews: 86
   icon: com.exmo.enfins.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: EXMO EXCHANGE LTD
 

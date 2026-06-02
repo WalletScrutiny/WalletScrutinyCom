@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2019-12-23
   updated: 2026-05-28
-  version: 3.38.1
-  reviews: 6862
+  version: 3.39.1
+  reviews: 6863
   icon: com.binance.us.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: 1492670702
   appCountry: us
   released: 2020-01-05
-  updated: 2026-05-21
-  version: 3.38.2
-  reviews: 110339
+  updated: 2026-06-02
+  version: 3.39.0
+  reviews: 110349
   icon: us.binance.fiat.jpg
   meta: ok
   verdict: custodial

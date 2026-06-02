@@ -31,7 +31,7 @@ iphone:
   released: 2022-06-19
   updated: 2026-05-16
   version: 1.108.0
-  reviews: 1886
+  reviews: 1888
   icon: br.com.mynt.jpg
   meta: ok
   verdict: custodial

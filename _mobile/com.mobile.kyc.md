@@ -33,7 +33,7 @@ iphone:
   version: 1.1.0
   reviews: 0
   icon: com.mobile.kyc.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: KYC&AML Ltd
 

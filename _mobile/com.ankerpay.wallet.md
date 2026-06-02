@@ -23,7 +23,7 @@ android:
   updated: 2024-06-11
   version: v1.0.14.12
   icon: com.ankerpay.wallet.png
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: AnkerPay
 iphone:

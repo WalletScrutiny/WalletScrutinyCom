@@ -27,7 +27,7 @@ iphone:
   released: 2025-04-15
   updated: 2026-04-29
   version: 6.169.0
-  reviews: 91
+  reviews: 92
   icon: com.okx.wallet.jpg
   meta: ok
   verdict: nosource

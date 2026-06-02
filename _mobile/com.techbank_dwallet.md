@@ -25,8 +25,8 @@ iphone:
   idd: 1535437806
   appCountry: in
   released: 2020-10-15
-  updated: 2025-12-14
-  version: 1.0.87
+  updated: 2026-06-02
+  version: 1.0.88
   reviews: 3
   icon: com.techbank.dwallettb.jpg
   meta: ok

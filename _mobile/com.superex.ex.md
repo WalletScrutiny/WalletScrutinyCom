@@ -18,7 +18,7 @@ android:
   released: 2022-03-23
   updated: 2026-05-26
   version: 2.9.62
-  reviews: 258
+  reviews: 254
   icon: com.superex.ex.png
   meta: ok
   verdict: custodial

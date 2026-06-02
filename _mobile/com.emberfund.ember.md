@@ -31,7 +31,7 @@ iphone:
   released: 2018-08-04
   updated: 2026-05-27
   version: '38.2'
-  reviews: 15805
+  reviews: 15829
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource

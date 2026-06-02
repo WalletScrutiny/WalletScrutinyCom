@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2023-09-06
   updated: 2026-05-29
-  version: 1.10.5
-  reviews: 69
+  version: 1.10.6
+  reviews: 70
   icon: com.wallet.crypto.btc.eth.png
   meta: ok
   verdict: nosource
@@ -32,9 +32,9 @@ iphone:
   idd: '6451146325'
   appCountry: us
   released: 2023-10-02
-  updated: 2026-05-05
-  version: 1.10.5
-  reviews: 42
+  updated: 2026-06-01
+  version: 1.10.6
+  reviews: 43
   icon: com.wallet.crypto.btc.eth.jpg
   meta: ok
   verdict: nosource

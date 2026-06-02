@@ -13,7 +13,7 @@ iphone:
   version: '1.5'
   reviews: 43
   icon: com.production.bitnovawallets.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: AKTUEL OFIS MALZEMELERI PAZARLAMA TICARET ANONIM SIRKETI
 

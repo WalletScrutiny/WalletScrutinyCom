@@ -21,7 +21,7 @@ android:
   released: 2018-12-10
   updated: 2026-05-30
   version: 26.529.0
-  reviews: 8551
+  reviews: 8553
   icon: com.gemini.android.app.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2018-12-11
   updated: 2026-05-30
   version: 26.527.0
-  reviews: 108902
+  reviews: 108916
   icon: com.gemini.ios.jpg
   meta: ok
   verdict: custodial

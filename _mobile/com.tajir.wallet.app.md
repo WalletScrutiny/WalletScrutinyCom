@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2025-08-13
-  updated: 2026-04-22
-  version: 2.0.3
+  updated: 2026-06-01
+  version: 2.0.4
   reviews: 2
   icon: com.tajir.wallet.app.jpg
   meta: fewusers

@@ -31,7 +31,6 @@ iphone:
   meta: ok
   verdict: nosource
   developerName: Cregis Technology Limited
-  wsId: cregisApp
 
 ---
 

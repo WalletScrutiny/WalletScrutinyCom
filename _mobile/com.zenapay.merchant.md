@@ -12,7 +12,7 @@ android:
   updated: 2024-06-12
   version: 1.3.0
   icon: com.zenapay.merchant.png
-  meta: stale
+  meta: obsolete
   verdict: wip
   developerName: Epazz
 

@@ -32,7 +32,7 @@ iphone:
   version: 0.77.0
   reviews: 1136
   icon: com.LeapCosmosWallet.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Hyphen Labs Ltd.
 

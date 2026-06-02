@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2012-03-26
   updated: 2026-06-01
-  version: 5.9.1
+  version: 5.9.2
   reviews: 64
   icon: de.finanzen.net.png
   meta: ok

@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-06
-  updated: 2026-05-26
+  updated: 2026-06-01
   version: 3.247.0
-  reviews: 9507
+  reviews: 9508
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive
@@ -34,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-05-29
   version: 5.1.3
-  reviews: 82689
+  reviews: 82705
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive
