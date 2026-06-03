@@ -23,6 +23,7 @@ import https from 'https';
 import http from 'http';
 import { execSync } from 'child_process';
 import { createRequire } from 'module';
+import { printRefreshSubsection } from './refresh-ui.mjs';
 
 const require = createRequire(import.meta.url);
 const yaml = require('js-yaml');
@@ -373,7 +374,7 @@ async function runPool(items, concurrency, worker) {
 }
 
 async function phaseFetch(products, concurrency = 10) {
-  console.log(`\n── FETCH (${products.length} products, ${concurrency} parallel) ──`);
+  printRefreshSubsection(`Fetch (${products.length} products, ${concurrency} parallel)`);
   let fetched = 0, skipped = 0, errors = 0;
   await runPool(products, concurrency, async (product) => {
     const { plat, appId } = product;
@@ -626,7 +627,7 @@ async function verifyOne({ plat, appId, fm }, featuresData, official) {
 }
 
 async function phaseVerify(products, concurrency = 10) {
-  console.log(`\n── VERIFY (${products.length} products, ${concurrency} parallel) ──`);
+  printRefreshSubsection(`Verify (${products.length} products, ${concurrency} parallel)`);
   const featuresData = loadFeaturesYml();
   const official = new Set(Object.keys(featuresData));
   let done = 0, skipped = 0, errors = 0, totalInvalid = 0;
@@ -709,7 +710,7 @@ function appendEvidenceToBody(content, evidenceList) {
 }
 
 async function phaseApply(products) {
-  console.log(`\n── APPLY${DRY_RUN ? ' (dry-run)' : ''} ──`);
+  printRefreshSubsection(`Apply${DRY_RUN ? ' (dry-run)' : ''}`);
   const official = new Set(Object.keys(loadFeaturesYml()));
   let applied = 0, skipped = 0;
 

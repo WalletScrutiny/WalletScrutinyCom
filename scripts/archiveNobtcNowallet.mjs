@@ -6,6 +6,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import helper from './helper.mjs';
+import { printRefreshSubsection } from './refresh-ui.mjs';
 
 const PLATFORMS = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 const TARGET_VERDICTS = ['nobtc', 'nowallet'];
@@ -320,8 +321,7 @@ async function scanPlatform(platform) {
 }
 
 function printSummary(totalScanned, totalProcessed, allErrors) {
-  console.log('\n' + '='.repeat(50));
-  console.log('Summary:');
+  printRefreshSubsection('Summary');
   console.log(`  Total files scanned: ${totalScanned}`);
   console.log(`  Total files processed: ${totalProcessed}`);
   
@@ -342,9 +342,8 @@ async function main() {
   const allErrors = [];
 
   for (const platform of PLATFORMS) {
-    console.log(`\nProcessing platform: ${platform}`);
-    console.log('─'.repeat(50));
-    
+    printRefreshSubsection(`Processing platform: ${platform}`);
+
     const result = await scanPlatform(platform);
     totalScanned += result.scanned;
     totalProcessed += result.processed;

@@ -26,6 +26,7 @@ import {
   opinionKind,
 } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
+import { printRefreshSubsection } from "../refresh-ui.mjs";
 
 global.WebSocket = WebSocket;
 
@@ -211,9 +212,7 @@ function printMissingReport(backupEvents, foundIds) {
     ? allMissing.filter(hasAndroidUploadContent)
     : [];
 
-  console.log("\n" + "=".repeat(72));
-  console.log("BACKUP EVENTS ABSENT FROM ALL RELAYS");
-  console.log("=".repeat(72));
+  printRefreshSubsection("Backup events absent from all relays");
   console.log(`  created_at filter         : > ${MIN_CREATED_AT_EXCLUSIVE}`);
   console.log(`  Backup events checked     : ${backupEvents.length}`);
   console.log(
@@ -279,9 +278,7 @@ function printAndroidUploadSummary(excludedAndroidUploads) {
     return;
   }
 
-  console.log("\n" + "=".repeat(72));
-  console.log(`Events with content containing "${ANDROID_UPLOAD_CONTENT_MARKER}"`);
-  console.log("=".repeat(72));
+  printRefreshSubsection(`Events with content containing "${ANDROID_UPLOAD_CONTENT_MARKER}"`);
   console.log(`  Total (absent from all relays, excluded from report): ${excludedAndroidUploads.length}`);
 }
 
@@ -290,9 +287,7 @@ function printKind1337LargeSummary(excludedKind1337Large) {
     return;
   }
 
-  console.log("\n" + "=".repeat(72));
-  console.log(`Events with kind=${codeSnippetKind} and size > 42 kb`);
-  console.log("=".repeat(72));
+  printRefreshSubsection(`Events with kind=${codeSnippetKind} and size > 42 kb`);
   console.log(
     `  Count (absent from all relays, excluded from report above): ${excludedKind1337Large.length}`
   );
