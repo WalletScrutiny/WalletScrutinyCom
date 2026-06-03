@@ -21,7 +21,7 @@
     "@perttu/app-store-scraper": "github:ktecho/app-store-scraper#main",
     "async-mutex": "^0.3.2",
     "autoprefixer": "^10.5.0",
-    "axios": "^1.16.1",
+    "axios": "^1.17.0",
     "babel-loader": "^10.1.1",
     "cssnano": "^8.0.1",
     "dateformat": "^3.0.3",
