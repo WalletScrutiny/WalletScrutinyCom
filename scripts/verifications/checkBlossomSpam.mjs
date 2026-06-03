@@ -90,8 +90,6 @@ function getReferencedBlobHashesFromBackup() {
 }
 
 function main() {
-  console.log("=== Blossom Spam / Orphaned Files Checker ===\n");
-
   console.log(`[1/3] Checking SSH access to ${BLOSSOM_SSH_HOST}...`);
   if (!checkSshAccess()) {
     console.error(
@@ -132,7 +130,6 @@ function main() {
       `\nThese files can be safely deleted by an administrator from ${BLOSSOM_BLOBS_PATH}/`
     );
   }
-  console.log("=".repeat(70));
 }
 
 main();

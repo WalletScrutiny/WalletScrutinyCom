@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import helper from "./helper.mjs";
+import { printRefreshSubsection } from "./refresh-ui.mjs";
 
 const { loadFromFile, dateOrEmpty } = helper;
 const foldersToAnalyze = ["_mobile", "_hardware"];
@@ -64,11 +65,7 @@ const toLength = (string, length) => {
 };
 
 const searchForVerificationText = () => {
-  console.log(`
-----------------------------
-🚀 ${fBold}Processing files with "for verification" text${fNormal}
-----------------------------
-`);
+  printRefreshSubsection('Processing files with "for verification" text');
   const needVerification = [];
   for (const folder of foldersToAnalyze) {
     const files = fs.readdirSync(folder).filter((f) => f.endsWith('.md'));
@@ -98,11 +95,7 @@ const searchForVerificationText = () => {
 };
 
 const analyzeFiles = () => {
-  console.log(`
-----------------------------
-🚀 ${fBold}Analyzing files which may need updating${fNormal}
-----------------------------
-`);
+  printRefreshSubsection("Analyzing files which may need updating");
   const needVerification = [];
   const needOtherVerdicts = [];
 
@@ -117,11 +110,7 @@ const analyzeFiles = () => {
   needOtherVerdicts.sort((a, b) => a.dtDays - b.dtDays);
 
   if (needVerification.length > 0) {
-    console.log(`
-----------------------------
-🚀 ${fBold}May need updating verdict: reproducible or nonverifiable${fNormal}
-----------------------------
-`);
+    printRefreshSubsection("May need updating verdict: reproducible or nonverifiable");
     for (const n of needVerification) {
       console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
         toLength(dateOrEmpty(n.updated), 10),
@@ -133,11 +122,7 @@ const analyzeFiles = () => {
   }
 
   if (needOtherVerdicts.length > 0) {
-    console.log(`
-----------------------------
-🚀 ${fBold}May need updating former verdict: nosource or obfuscated${fNormal}
-----------------------------
-`);
+    printRefreshSubsection("May need updating former verdict: nosource or obfuscated");
     for (const n of needOtherVerdicts) {
       console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
         toLength(dateOrEmpty(n.updated), 10),
