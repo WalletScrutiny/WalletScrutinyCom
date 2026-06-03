@@ -20,7 +20,7 @@ android:
   released: 2014-02-10
   updated: 2026-05-27
   version: 5.9.110
-  reviews: 383
+  reviews: 385
   icon: com.spotware.ct.png
   meta: ok
   verdict: nosendreceive

@@ -33,7 +33,7 @@ iphone:
   released: 2018-09-26
   updated: 2026-05-30
   version: 9.48.1
-  reviews: 5501
+  reviews: 5504
   icon: com.bitkeep.os.jpg
   meta: ok
   verdict: nosource

@@ -36,7 +36,7 @@ iphone:
   version: 2.3.18
   reviews: 10
   icon: com.velas.walletmobile.jpg
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: Velas
 

@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-05-11
-  updated: 2026-04-28
-  version: 4.3.3.28
+  updated: 2026-06-02
+  version: 4.3.3.30
   reviews: 3
   icon: vip.sing.exchange.png
   meta: ok

@@ -30,8 +30,8 @@ iphone:
   idd: '1522416988'
   appCountry: us
   released: 2020-07-13
-  updated: 2026-05-26
-  version: 3.2.7
+  updated: 2026-06-02
+  version: 3.2.8
   reviews: 53
   icon: com.hkd.hkdex.jpg
   meta: ok

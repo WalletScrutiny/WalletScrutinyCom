@@ -23,7 +23,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-09
-  updated: 2026-05-29
+  updated: 2026-06-02
   version: 4.4.1
   reviews: 3756
   icon: com.bitmart.bitmarket.png

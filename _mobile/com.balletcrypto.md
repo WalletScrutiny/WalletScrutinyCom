@@ -18,7 +18,7 @@ android:
   released: 2019-08-08
   updated: 2026-05-26
   version: 2.27.5
-  reviews: 168
+  reviews: 169
   icon: com.balletcrypto.png
   meta: ok
   verdict: nosource

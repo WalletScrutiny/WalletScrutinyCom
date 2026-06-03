@@ -36,7 +36,7 @@ iphone:
   version: 5.8.0
   reviews: 16
   icon: io.nanovest.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: PT. TUMBUH BERSAMA NANO
 

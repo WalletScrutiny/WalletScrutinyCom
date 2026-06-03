@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-03-10
-  updated: 2026-05-27
-  version: 1.57.1
+  updated: 2026-06-03
+  version: 1.57.2
   icon: com.hoyabit.cex.png
   meta: ok
   verdict: custodial

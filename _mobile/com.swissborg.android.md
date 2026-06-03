@@ -18,9 +18,9 @@ android:
   users: 500000
   appCountry: gb
   released: 2020-06-16
-  updated: 2026-05-29
-  version: 1.137.0
-  reviews: 978
+  updated: 2026-06-02
+  version: 1.137.1
+  reviews: 979
   icon: com.swissborg.android.png
   meta: ok
   verdict: custodial

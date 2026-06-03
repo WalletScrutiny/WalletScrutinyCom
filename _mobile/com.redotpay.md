@@ -21,7 +21,7 @@ android:
   released: 2023-06-09
   updated: 2026-05-26
   version: 3.7.0
-  reviews: 1131
+  reviews: 1133
   icon: com.redotpay.png
   meta: ok
   verdict: custodial

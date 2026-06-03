@@ -18,7 +18,7 @@ android:
   appId: com.revolut.revolutx
   users: 500000
   appCountry: us
-  updated: 2026-05-27
+  updated: 2026-06-02
   version: '1.60'
   reviews: 1
   icon: com.revolut.revolutx.png

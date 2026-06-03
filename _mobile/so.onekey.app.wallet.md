@@ -41,7 +41,7 @@ iphone:
   released: 2022-04-27
   updated: 2026-05-20
   version: 6.3.0
-  reviews: 682
+  reviews: 683
   icon: so.onekey.wallet.jpg
   meta: ok
   verdict: sourceavailable

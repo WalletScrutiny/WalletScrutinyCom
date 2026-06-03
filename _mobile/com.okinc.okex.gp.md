@@ -21,7 +21,7 @@ android:
   released: 2019-10-29
   updated: 2026-06-02
   version: 6.172.1
-  reviews: 3910
+  reviews: 3914
   icon: com.okinc.okex.gp.png
   meta: ok
   verdict: custodial

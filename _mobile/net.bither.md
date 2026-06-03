@@ -31,7 +31,7 @@ iphone:
   version: 2.1.4
   reviews: 61
   icon: net.bither.jpg
-  meta: stale
+  meta: obsolete
   verdict: obfuscated
   developerName: BITHER Limited
   repository: https://github.com/bither/bither-ios

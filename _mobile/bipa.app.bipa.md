@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-01-18
-  updated: 2026-05-28
-  version: 4.2.37
+  updated: 2026-06-02
+  version: 4.2.39
   reviews: 13
   icon: bipa.app.bipa.png
   meta: ok

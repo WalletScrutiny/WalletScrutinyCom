@@ -17,7 +17,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-02-19
-  updated: 2026-05-29
+  updated: 2026-06-03
   version: 4.16.2
   reviews: 309
   icon: com.bitso.wallet.png

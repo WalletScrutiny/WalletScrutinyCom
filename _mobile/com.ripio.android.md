@@ -19,7 +19,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-06-01
-  updated: 2026-05-20
+  updated: 2026-05-26
   version: 6.6.3
   reviews: 178
   icon: com.ripio.android.png

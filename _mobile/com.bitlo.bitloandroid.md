@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: TR
   released: 2020-12-18
-  updated: 2026-05-22
-  version: 2.1.54
+  updated: 2026-06-02
+  version: 2.1.55
   reviews: 2573
   icon: com.bitlo.bitloandroid.png
   meta: ok

@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   released: 2023-05-04
-  updated: 2026-04-08
+  updated: 2026-05-29
   version: 1.26.0
   reviews: 158
   icon: team.noones.mobilemessenger.png

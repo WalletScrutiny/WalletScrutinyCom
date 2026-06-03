@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-06-01
   version: 12.1.0.67
-  reviews: 41515
+  reviews: 41521
   icon: org.dayup.stocks.png
   meta: ok
   verdict: nosendreceive

@@ -20,7 +20,7 @@ android:
   released: 2019-01-28
   updated: 2026-05-19
   version: 3.43.1
-  reviews: 6389
+  reviews: 6390
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
   verdict: custodial

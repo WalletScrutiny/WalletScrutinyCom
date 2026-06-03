@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-04-27
   version: 7.2.6
-  reviews: 1193
+  reviews: 1195
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive

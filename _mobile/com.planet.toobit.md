@@ -23,7 +23,7 @@ android:
   released: 2023-02-14
   updated: 2026-05-20
   version: 2.2.7
-  reviews: 335
+  reviews: 334
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial

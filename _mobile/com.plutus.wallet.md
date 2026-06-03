@@ -35,7 +35,7 @@ iphone:
   version: 145.0.0
   reviews: 161
   icon: com.goabra.abra.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Plutus Financial
 

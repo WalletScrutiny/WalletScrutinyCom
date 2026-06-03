@@ -26,7 +26,7 @@ android:
   released: 2020-09-01
   updated: 2026-05-29
   version: 7.78.0
-  reviews: 6635
+  reviews: 6641
   icon: io.metamask.png
   meta: ok
   verdict: sourceavailable

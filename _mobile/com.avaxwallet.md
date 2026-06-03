@@ -23,7 +23,7 @@ android:
   released: 2022-08-30
   updated: 2026-05-20
   version: 1.0.31
-  reviews: 138
+  reviews: 137
   icon: com.avaxwallet.png
   meta: ok
   verdict: nosource

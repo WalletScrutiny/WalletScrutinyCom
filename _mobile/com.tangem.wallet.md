@@ -25,7 +25,7 @@ android:
   released: 2018-10-24
   updated: 2026-06-02
   version: 5.38.2
-  reviews: 1761
+  reviews: 1763
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
@@ -39,7 +39,7 @@ iphone:
   released: 2018-04-28
   updated: 2026-05-29
   version: 5.38.1
-  reviews: 22701
+  reviews: 22709
   icon: com.tangem.Tangem.jpg
   meta: ok
   verdict: nosource

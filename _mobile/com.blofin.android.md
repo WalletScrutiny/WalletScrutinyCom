@@ -16,7 +16,7 @@ android:
   released: 2022-05-13
   updated: 2026-05-29
   version: 3.31.0
-  reviews: 118
+  reviews: 119
   icon: com.blofin.android.png
   meta: ok
   verdict: nosendreceive
@@ -28,7 +28,7 @@ iphone:
   released: 2022-04-15
   updated: 2026-05-31
   version: 3.31.0
-  reviews: 1396
+  reviews: 1395
   icon: com.blofin.app.jpg
   meta: ok
   verdict: nosendreceive

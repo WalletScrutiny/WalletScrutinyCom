@@ -27,7 +27,7 @@ iphone:
   released: 2024-08-16
   updated: 2026-05-24
   version: 2.23.0
-  reviews: 20274
+  reviews: 20292
   icon: app.deltaexchange.india.jpg
   meta: ok
   verdict: custodial

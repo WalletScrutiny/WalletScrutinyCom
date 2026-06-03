@@ -20,7 +20,7 @@ android:
   users: 1000000
   appCountry: us
   updated: 2026-06-02
-  version: '13.15'
+  version: '13.17'
   reviews: 4
   icon: com.mudrexmobile.png
   meta: ok

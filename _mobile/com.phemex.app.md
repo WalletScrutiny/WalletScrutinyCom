@@ -36,7 +36,7 @@ iphone:
   released: 2020-02-20
   updated: 2026-05-15
   version: 5.19.0
-  reviews: 2742
+  reviews: 2741
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

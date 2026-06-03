@@ -14,7 +14,7 @@ iphone:
   version: 3.2.17
   reviews: 2280
   icon: ng.apexnetwork.apexNetwork.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: Apex Web Network Ltd.
 

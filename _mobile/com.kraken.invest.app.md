@@ -22,8 +22,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-12-30
-  updated: 2026-05-29
-  version: 3.66.0
+  updated: 2026-06-01
+  version: 3.66.2
   reviews: 8110
   icon: com.kraken.invest.app.png
   meta: ok

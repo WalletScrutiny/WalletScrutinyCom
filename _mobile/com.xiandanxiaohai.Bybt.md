@@ -15,7 +15,7 @@ iphone:
   released: 2020-07-08
   updated: 2026-05-27
   version: 2.7.2
-  reviews: 5588
+  reviews: 5589
   icon: com.xiandanxiaohai.Bybt.jpg
   meta: ok
   verdict: fake

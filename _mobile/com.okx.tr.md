@@ -21,7 +21,7 @@ android:
   users: 500000
   appCountry: us
   updated: 2026-05-27
-  version: 6.172.1
+  version: 6.173.1
   icon: com.okx.tr.png
   meta: ok
   verdict: custodial

@@ -15,8 +15,8 @@ android:
   appId: com.deskoin.app
   users: 10000
   appCountry: us
-  updated: 2026-05-23
-  version: 7.7.2
+  updated: 2026-06-03
+  version: 7.7.3
   icon: com.deskoin.app.png
   meta: ok
   verdict: custodial

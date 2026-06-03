@@ -19,7 +19,7 @@ android:
   released: 2023-05-26
   updated: 2026-05-06
   version: 2.2.0.29
-  reviews: 1167
+  reviews: 1168
   icon: com.webull.pay.us.png
   meta: ok
   verdict: custodial

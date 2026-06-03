@@ -19,7 +19,7 @@ android:
   released: 2013-10-29
   updated: 2026-06-02
   version: 3.185.0-2026052009
-  reviews: 3892
+  reviews: 3894
   icon: com.moneybookers.skrillpayments.png
   meta: ok
   verdict: nosendreceive

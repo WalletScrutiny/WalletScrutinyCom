@@ -23,7 +23,7 @@ android:
   released: 2022-02-23
   updated: 2026-05-14
   version: 4.5.21
-  reviews: 354
+  reviews: 355
   icon: com.wake.weexprd.png
   meta: ok
   verdict: custodial
