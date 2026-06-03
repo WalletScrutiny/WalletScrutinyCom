@@ -6,12 +6,9 @@ global.WebSocket = WebSocket;
 
 const RELAYS = [
   "wss://relay.nostr.info/",
-  "wss://relay.nostr.band/",
-  "wss://vidono.apps.slidestr.net/",
   "wss://nostr.mom/",
   "wss://relay.primal.net/",
   "wss://relay.damus.io/",
-  "wss://strfry.iris.to/",
 ];
 
 // Private key for signing (hex format, without 'nsec' prefix)
