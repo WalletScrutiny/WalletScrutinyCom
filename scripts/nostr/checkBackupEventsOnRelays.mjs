@@ -1,6 +1,13 @@
 /**
  * Lists backup Nostr events that are not stored on any configured relay.
  * Read-only check for refresh.sh (re-publish is a separate future step).
+ *
+ * By default, missing events whose content includes
+ * "uploaded by WalletScrutiny Android" are excluded from the detailed report.
+ * Set WS_NOSTR_CHECK_INCLUDE_ANDROID_UPLOADS=1 to include them.
+ *
+ * Only events with created_at > MIN_CREATED_AT_EXCLUSIVE are queried and reported
+ * (WalletScrutiny relay go-live; see constant comment below).
  */
 
 import NDK from "@nostr-dev-kit/ndk";
@@ -50,9 +57,26 @@ const ID_BATCH_SIZE = 100;
 const RELAY_SETTLE_MS = 2000;
 /** Kind 1337 backup files above this size are omitted from the missing-events report. */
 const CODE_SNIPPET_MAX_REPORT_BYTES = 42 * 1024;
+const ANDROID_UPLOAD_CONTENT_MARKER = "uploaded by WalletScrutiny Android";
+const FILTER_ANDROID_UPLOAD_CONTENT = !["1", "true"].includes(
+  (process.env.WS_NOSTR_CHECK_INCLUDE_ANDROID_UPLOADS ?? "").toLowerCase()
+);
+/**
+ * Unix timestamp cutoff for backup events checked and reported.
+ * This is when the WalletScrutiny relay (relay.nostr.info) went into operation.
+ */
+const MIN_CREATED_AT_EXCLUSIVE = 1771538683;
 
 function kindLabel(kind) {
   return KIND_LABELS[kind] ?? `Kind ${kind}`;
+}
+
+function isWithinCreatedAtWindow(event) {
+  return (event.created_at ?? 0) > MIN_CREATED_AT_EXCLUSIVE;
+}
+
+function filterByCreatedAt(events) {
+  return events.filter(isWithinCreatedAtWindow);
 }
 
 function loadEventsFromDir(kindDir) {
@@ -122,17 +146,31 @@ async function fetchIdsOnRelays(ndk, eventIds) {
   return foundIds;
 }
 
+const CONTENT_COLUMN_MAX_CHARS = 300;
+
+function formatEventContent(content) {
+  if (content == null || content === "") {
+    return "(no content)";
+  }
+  const oneLine = String(content).replace(/\s+/g, " ").trim();
+  if (oneLine.length <= CONTENT_COLUMN_MAX_CHARS) {
+    return oneLine;
+  }
+  return `${oneLine.slice(0, CONTENT_COLUMN_MAX_CHARS)}...`;
+}
+
 function describeEvent(event) {
   const date = event.created_at
     ? new Date(event.created_at * 1000).toISOString().split("T")[0]
     : "unknown-date";
   const pubkey = event.pubkey ? `${event.pubkey.slice(0, 16)}...` : "unknown-pubkey";
+  const content = formatEventContent(event.content);
   const appId = getFirstTagValue(event, "i");
   const version = getFirstTagValue(event, "version");
   const platform = getFirstTagValue(event, "platform");
   const status = getFirstTagValue(event, "status");
 
-  const parts = [`${event.id}`, `kind ${event.kind}`, date, pubkey];
+  const parts = [`${event.id}`, `kind ${event.kind}`, date, pubkey, content];
   if (appId) parts.push(`app=${appId}`);
   if (version) parts.push(`version=${version}`);
   if (platform) parts.push(`platform=${platform}`);
@@ -140,7 +178,14 @@ function describeEvent(event) {
   return parts.join("  ");
 }
 
+function hasAndroidUploadContent(event) {
+  return String(event.content ?? "").includes(ANDROID_UPLOAD_CONTENT_MARKER);
+}
+
 function isReportableMissing(event) {
+  if (FILTER_ANDROID_UPLOAD_CONTENT && hasAndroidUploadContent(event)) {
+    return false;
+  }
   if (event.kind !== codeSnippetKind) {
     return true;
   }
@@ -162,19 +207,33 @@ function printMissingReport(backupEvents, foundIds) {
       event.kind === codeSnippetKind &&
       event.backupFileSizeBytes >= CODE_SNIPPET_MAX_REPORT_BYTES
   );
+  const excludedAndroidUploads = FILTER_ANDROID_UPLOAD_CONTENT
+    ? allMissing.filter(hasAndroidUploadContent)
+    : [];
 
   console.log("\n" + "=".repeat(72));
   console.log("BACKUP EVENTS ABSENT FROM ALL RELAYS");
   console.log("=".repeat(72));
+  console.log(`  created_at filter         : > ${MIN_CREATED_AT_EXCLUSIVE}`);
   console.log(`  Backup events checked     : ${backupEvents.length}`);
   console.log(
     `  Present on at least one   : ${backupEvents.length - allMissing.length}`
   );
   console.log(`  Absent from every relay   : ${allMissing.length}`);
+  const exclusionNotes = [];
   if (excludedKind1337Large.length > 0) {
+    exclusionNotes.push(
+      `${excludedKind1337Large.length} kind ${codeSnippetKind} > 42 KiB`
+    );
+  }
+  if (excludedAndroidUploads.length > 0) {
+    exclusionNotes.push(
+      `${excludedAndroidUploads.length} WalletScrutiny Android uploads`
+    );
+  }
+  if (exclusionNotes.length > 0) {
     console.log(
-      `  Reported as missing       : ${missing.length} ` +
-        `(${excludedKind1337Large.length} kind ${codeSnippetKind} > 42 KiB excluded)`
+      `  Reported as missing       : ${missing.length} (${exclusionNotes.join(", ")} excluded)`
     );
   }
 
@@ -182,11 +241,10 @@ function printMissingReport(backupEvents, foundIds) {
     if (allMissing.length === 0) {
       console.log("\nAll backup events are available on at least one configured relay.");
     } else {
-      console.log(
-        "\nNo missing events to report (remaining absences are kind 1337 files over 42 KiB)."
-      );
+      console.log("\nNo missing events to report (remaining absences match exclusion filters).");
     }
     printKind1337LargeSummary(excludedKind1337Large);
+    printAndroidUploadSummary(excludedAndroidUploads);
     return;
   }
 
@@ -213,6 +271,18 @@ function printMissingReport(backupEvents, foundIds) {
   );
 
   printKind1337LargeSummary(excludedKind1337Large);
+  printAndroidUploadSummary(excludedAndroidUploads);
+}
+
+function printAndroidUploadSummary(excludedAndroidUploads) {
+  if (!FILTER_ANDROID_UPLOAD_CONTENT) {
+    return;
+  }
+
+  console.log("\n" + "=".repeat(72));
+  console.log(`Events with content containing "${ANDROID_UPLOAD_CONTENT_MARKER}"`);
+  console.log("=".repeat(72));
+  console.log(`  Total (absent from all relays, excluded from report): ${excludedAndroidUploads.length}`);
 }
 
 function printKind1337LargeSummary(excludedKind1337Large) {
@@ -239,11 +309,28 @@ function printKind1337LargeSummary(excludedKind1337Large) {
 
 async function main() {
   console.log("Checking backup Nostr events against configured relays...\n");
+  if (FILTER_ANDROID_UPLOAD_CONTENT) {
+    console.log(
+      `Excluding missing events whose content contains "${ANDROID_UPLOAD_CONTENT_MARKER}".`
+    );
+    console.log(
+      "Set WS_NOSTR_CHECK_INCLUDE_ANDROID_UPLOADS=1 to include them in the report.\n"
+    );
+  }
 
-  const backupEvents = loadAllBackupEvents();
+  const allLoadedEvents = loadAllBackupEvents();
+  const backupEvents = filterByCreatedAt(allLoadedEvents);
+  const skippedByCreatedAt = allLoadedEvents.length - backupEvents.length;
+
   if (backupEvents.length === 0) {
-    console.warn(`No backup events found under ${BASE_DIR}. Run backup first or check paths.`);
+    console.warn(`No backup events found under ${BASE_DIR} with created_at > ${MIN_CREATED_AT_EXCLUSIVE}.`);
     process.exit(0);
+  }
+
+  const minCreatedAtIso = new Date(MIN_CREATED_AT_EXCLUSIVE * 1000).toISOString();
+  console.log(`Only events with created_at > ${MIN_CREATED_AT_EXCLUSIVE} (${minCreatedAtIso}).`);
+  if (skippedByCreatedAt > 0) {
+    console.log(`Skipped ${skippedByCreatedAt} older backup event(s).`);
   }
 
   const uniqueIds = [...new Set(backupEvents.map(event => event.id))];
