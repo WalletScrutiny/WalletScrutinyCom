@@ -140,6 +140,12 @@ if ! node ./scripts/nostr/backupNostrVerificationEvents.mjs; then
   exit 1
 fi
 
+echo " * Checking backup Nostr events missing from all relays..."
+if ! node ./scripts/nostr/checkBackupEventsOnRelays.mjs; then
+  echo "❌ ERROR: Failed to check backup Nostr events on relays"
+  exit 1
+fi
+
 echo " * Doing Blossom Spam / Orphaned Files Check..."
 if ! node ./scripts/verifications/checkBlossomSpam.mjs; then
   echo "❌ ERROR: Failed to check for Blossom Spam / Orphaned Files"
