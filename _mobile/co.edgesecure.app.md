@@ -28,7 +28,7 @@ android:
   users: 500000
   appCountry: us
   released: 2018-03-01
-  updated: 2026-04-29
+  updated: 2026-06-04
   version: 4.48.1
   reviews: 749
   icon: co.edgesecure.app.png

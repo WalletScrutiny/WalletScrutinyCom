@@ -52,7 +52,7 @@ iphone:
   released: 2018-05-27
   updated: 2026-06-01
   version: 8.0.0
-  reviews: 836
+  reviews: 837
   icon: io.bluewallet.bluewallet.jpg
   meta: ok
   verdict: sourceavailable

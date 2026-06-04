@@ -31,9 +31,9 @@ iphone:
   idd: 1408914447
   appCountry: us
   released: 2018-12-11
-  updated: 2026-05-30
-  version: 26.527.0
-  reviews: 108916
+  updated: 2026-06-02
+  version: 26.529.0
+  reviews: 108925
   icon: com.gemini.ios.jpg
   meta: ok
   verdict: custodial

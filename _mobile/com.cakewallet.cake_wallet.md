@@ -46,7 +46,7 @@ iphone:
   released: 2018-01-19
   updated: 2026-04-23
   version: 6.1.2
-  reviews: 4210
+  reviews: 4211
   icon: com.fotolockr.cakewallet.jpg
   meta: ok
   verdict: sourceavailable

@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2022-03-25
   updated: 2026-06-02
-  version: 3.19.0
+  version: 3.20.0
   reviews: 266
   icon: com.swanbitcoin.android.png
   meta: ok

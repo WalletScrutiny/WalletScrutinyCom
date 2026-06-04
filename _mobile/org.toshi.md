@@ -33,7 +33,7 @@ iphone:
   released: 2017-09-27
   updated: 2026-06-01
   version: '29.97'
-  reviews: 161422
+  reviews: 161417
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

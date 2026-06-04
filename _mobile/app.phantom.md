@@ -25,7 +25,7 @@ android:
   released: 2022-04-12
   updated: 2026-05-29
   version: 26.14.1
-  reviews: 2268
+  reviews: 2271
   icon: app.phantom.png
   meta: ok
   verdict: nosource

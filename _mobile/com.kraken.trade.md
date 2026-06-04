@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2019-10-24
   updated: 2026-06-01
-  version: 5.56.0
-  reviews: 4711
+  version: 5.57.2
+  reviews: 4714
   icon: com.kraken.trade.png
   meta: ok
   verdict: custodial

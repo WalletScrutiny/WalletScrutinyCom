@@ -19,7 +19,7 @@ android:
   released: 2021-09-23
   updated: 2026-05-25
   version: 8.4.60
-  reviews: 9853
+  reviews: 9855
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive

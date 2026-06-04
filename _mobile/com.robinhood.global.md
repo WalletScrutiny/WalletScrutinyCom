@@ -31,7 +31,7 @@ iphone:
   released: 2023-12-06
   updated: 2026-06-01
   version: 2026.22.2
-  reviews: 296
+  reviews: 297
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
   verdict: custodial

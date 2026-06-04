@@ -20,7 +20,7 @@ android:
   appId: com.okx.tr
   users: 500000
   appCountry: us
-  updated: 2026-05-27
+  updated: 2026-06-03
   version: 6.173.1
   icon: com.okx.tr.png
   meta: ok

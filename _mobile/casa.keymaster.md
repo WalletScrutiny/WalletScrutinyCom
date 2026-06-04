@@ -32,8 +32,8 @@ iphone:
   idd: 1314586706
   appCountry: us
   released: 2018-08-02
-  updated: 2026-05-26
-  version: 5.16.1
+  updated: 2026-06-02
+  version: 5.16.2
   reviews: 1211
   icon: com.casa.vault.jpg
   meta: ok

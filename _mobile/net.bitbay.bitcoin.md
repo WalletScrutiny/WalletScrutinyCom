@@ -20,7 +20,7 @@ android:
   released: 2018-11-19
   updated: 2025-11-03
   version: 1.1.52
-  reviews: 16
+  reviews: 17
   icon: net.bitbay.bitcoin.png
   meta: ok
   verdict: custodial

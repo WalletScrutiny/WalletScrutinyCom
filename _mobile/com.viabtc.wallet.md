@@ -29,7 +29,7 @@ android:
   icon: com.viabtc.wallet.png
   meta: ok
   verdict: nosource
-  developerName: CoinEx
+  developerName: ViaBTC
 iphone:
   appId: com.viabtc.ViaWallet
   idd: 1462031389

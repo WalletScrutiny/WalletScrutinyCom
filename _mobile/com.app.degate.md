@@ -28,8 +28,8 @@ iphone:
   idd: '6742168343'
   appCountry: us
   released: 2025-06-17
-  updated: 2026-05-25
-  version: 1.0.25
+  updated: 2026-06-03
+  version: 1.0.26
   reviews: 8
   icon: com.app.degate.jpg
   meta: ok

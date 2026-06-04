@@ -29,7 +29,7 @@ android:
   released: 2020-05-11
   updated: 2026-02-11
   version: 2.50.0
-  reviews: 3756
+  reviews: 3757
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource

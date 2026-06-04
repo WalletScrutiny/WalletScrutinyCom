@@ -35,7 +35,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-06-01
   version: 2.9.0
-  reviews: 6034
+  reviews: 6033
   icon: au.com.swyftx.ios.jpg
   meta: ok
   verdict: custodial

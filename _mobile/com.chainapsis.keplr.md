@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-10-01
-  updated: 2026-05-22
-  version: 2.1.198
+  updated: 2026-06-02
+  version: 2.1.200
   reviews: 203
   icon: com.chainapsis.keplr.png
   meta: ok

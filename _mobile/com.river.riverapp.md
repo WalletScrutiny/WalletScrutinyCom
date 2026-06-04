@@ -21,7 +21,7 @@ android:
   released: 2023-10-20
   updated: 2026-06-02
   version: 7.67.0
-  reviews: 307
+  reviews: 309
   icon: com.river.riverapp.png
   meta: ok
   verdict: custodial

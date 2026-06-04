@@ -18,7 +18,7 @@ android:
   released: 2020-07-23
   updated: 2026-06-02
   version: 6.59.1
-  reviews: 3047
+  reviews: 3045
   icon: com.mexcpro.client.png
   meta: ok
   verdict: custodial

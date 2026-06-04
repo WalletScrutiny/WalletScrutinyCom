@@ -31,7 +31,7 @@ iphone:
   released: 2012-12-10
   updated: 2026-05-20
   version: 9.5.1
-  reviews: 18357
+  reviews: 18355
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

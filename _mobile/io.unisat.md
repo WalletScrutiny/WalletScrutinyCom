@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-03-16
-  updated: 2026-03-07
-  version: 1.7.11
+  updated: 2026-06-02
+  version: 1.7.16
   reviews: 19
   icon: io.unisat.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2024-08-30
   updated: 2026-03-08
   version: 1.7.11
-  reviews: 30
+  reviews: 31
   icon: io.unisat.mobile.jpg
   meta: ok
   verdict: nosource

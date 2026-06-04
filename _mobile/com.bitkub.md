@@ -17,8 +17,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-04-20
-  updated: 2026-05-22
-  version: 4.15.1
+  updated: 2026-05-30
+  version: 4.16.0
   reviews: 45
   icon: com.bitkub.png
   meta: ok

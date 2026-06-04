@@ -32,7 +32,7 @@ iphone:
   released: 2019-01-16
   updated: 2026-04-21
   version: 6.8.2
-  reviews: 5627
+  reviews: 5629
   icon: com.weareblox.app.jpg
   meta: ok
   verdict: nosendreceive

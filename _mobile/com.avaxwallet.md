@@ -21,8 +21,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-08-30
-  updated: 2026-05-20
-  version: 1.0.31
+  updated: 2026-06-01
+  version: 1.0.32
   reviews: 137
   icon: com.avaxwallet.png
   meta: ok

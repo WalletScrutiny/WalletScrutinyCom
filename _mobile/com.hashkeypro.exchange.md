@@ -26,8 +26,8 @@ iphone:
   idd: '6479636139'
   appCountry: ph
   released: 2024-04-19
-  updated: 2026-05-18
-  version: 1.66.0
+  updated: 2026-06-03
+  version: 1.67.0
   reviews: 10
   icon: com.hashkey.global.jpg
   meta: ok

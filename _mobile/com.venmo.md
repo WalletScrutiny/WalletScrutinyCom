@@ -19,7 +19,7 @@ android:
   released: 2010-05-17
   updated: 2026-05-28
   version: 26.10.0
-  reviews: 354451
+  reviews: 354525
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive

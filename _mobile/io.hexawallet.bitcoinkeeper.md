@@ -35,8 +35,8 @@ iphone:
   idd: '1545535925'
   appCountry: us
   released: 2022-10-19
-  updated: 2026-05-14
-  version: 2.5.12
+  updated: 2026-06-03
+  version: 2.5.13
   reviews: 22
   icon: io.hexawallet.keeper.jpg
   meta: ok

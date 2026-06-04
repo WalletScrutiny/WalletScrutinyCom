@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-10-25
-  updated: 2026-05-21
-  version: 5.6.230900
+  updated: 2026-06-03
+  version: 5.6.240600
   reviews: 195
   icon: com.legendwd.hyperpayW.png
   meta: ok

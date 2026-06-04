@@ -37,8 +37,8 @@ iphone:
   idd: 1438599608
   appCountry: jp
   released: 2019-05-20
-  updated: 2026-05-18
-  version: 3.3.4
+  updated: 2026-06-02
+  version: 3.3.6
   reviews: 26
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok

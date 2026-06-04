@@ -22,9 +22,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-10-01
-  updated: 2026-05-30
+  updated: 2026-06-03
   version: 26.22.6
-  reviews: 21171
+  reviews: 21172
   icon: com.wallet.crypto.trustapp.png
   meta: ok
   verdict: nosource
@@ -34,9 +34,9 @@ iphone:
   idd: 1288339409
   appCountry: us
   released: 2017-09-27
-  updated: 2026-05-28
-  version: 25.22.6
-  reviews: 197399
+  updated: 2026-06-03
+  version: 26.23.1
+  reviews: 197409
   icon: com.sixdays.trust.jpg
   meta: ok
   verdict: nosource

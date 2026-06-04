@@ -19,7 +19,7 @@ android:
   users: 500000
   appCountry: us
   released: 2015-01-08
-  updated: 2026-05-18
+  updated: 2026-06-04
   version: 3.66.0
   reviews: 55
   icon: com.phonegap.bit2me.png

@@ -19,7 +19,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-09-06
-  updated: 2026-05-29
+  updated: 2026-06-01
   version: 1.10.6
   reviews: 70
   icon: com.wallet.crypto.btc.eth.png
@@ -34,7 +34,7 @@ iphone:
   released: 2023-10-02
   updated: 2026-06-01
   version: 1.10.6
-  reviews: 43
+  reviews: 42
   icon: com.wallet.crypto.btc.eth.jpg
   meta: ok
   verdict: nosource

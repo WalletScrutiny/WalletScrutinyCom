@@ -20,7 +20,7 @@ android:
   released: 2020-05-08
   updated: 2026-05-29
   version: 8.0.0
-  reviews: 689
+  reviews: 690
   icon: com.superchain.lbankgoogle.png
   meta: ok
   verdict: custodial

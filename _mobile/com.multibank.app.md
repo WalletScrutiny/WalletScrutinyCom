@@ -35,7 +35,7 @@ iphone:
   released: 2022-01-18
   updated: 2026-05-23
   version: 26.0.13
-  reviews: 30
+  reviews: 31
   icon: com.mexdigital.app.jpg
   meta: ok
   verdict: custodial

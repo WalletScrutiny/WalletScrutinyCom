@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2024-10-22
   updated: 2026-06-02
-  version: 1.4.94
+  version: 1.4.95
   icon: rs.ecd.ecd.png
   meta: ok
   verdict: custodial

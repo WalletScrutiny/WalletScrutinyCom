@@ -20,7 +20,7 @@ android:
   released: 2024-04-05
   updated: 2026-05-03
   version: 1.20.1
-  reviews: 59
+  reviews: 60
   icon: com.ourbit.client.png
   meta: ok
   verdict: custodial

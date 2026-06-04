@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-14
-  updated: 2026-05-24
-  version: 6.0.23
+  updated: 2026-06-03
+  version: 6.0.25
   reviews: 115
   icon: com.paribu.app.png
   meta: ok

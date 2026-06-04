@@ -31,7 +31,7 @@ iphone:
   released: 2016-11-18
   updated: 2026-05-28
   version: 7.67.0
-  reviews: 132899
+  reviews: 132903
   icon: jp.bitflyer.wallet.jpg
   meta: ok
   verdict: custodial

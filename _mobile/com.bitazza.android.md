@@ -20,7 +20,7 @@ android:
   released: 2020-09-29
   updated: 2026-05-25
   version: 4.8.2
-  reviews: 2512
+  reviews: 2513
   icon: com.bitazza.android.png
   meta: ok
   verdict: custodial

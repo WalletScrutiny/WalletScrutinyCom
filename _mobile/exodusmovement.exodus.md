@@ -32,7 +32,7 @@ iphone:
   released: 2019-03-23
   updated: 2026-05-27
   version: 26.5.27
-  reviews: 35847
+  reviews: 35865
   icon: exodus-movement.exodus.jpg
   meta: ok
   verdict: nosource

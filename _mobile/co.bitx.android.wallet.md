@@ -21,7 +21,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-11-01
-  updated: 2026-06-02
+  updated: 2026-06-03
   version: 8.108.1
   reviews: 1407
   icon: co.bitx.android.wallet.jpg

@@ -28,8 +28,8 @@ iphone:
   idd: '1544492069'
   appCountry: tr
   released: 2020-12-28
-  updated: 2026-06-01
-  version: 2.1.54
+  updated: 2026-06-02
+  version: 2.1.55
   reviews: 4085
   icon: com.bitlo.jpg
   meta: ok

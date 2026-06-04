@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: cn
   released: 2019-10-23
-  updated: 2026-05-29
-  version: 3.8.7
+  updated: 2026-06-03
+  version: 3.8.8
   reviews: 870
   icon: com.matrixport.mark.png
   meta: ok

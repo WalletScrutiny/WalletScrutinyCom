@@ -12,7 +12,7 @@ iphone:
   released: 2022-10-25
   updated: 2026-06-02
   version: 4.14.0
-  reviews: 5719
+  reviews: 5721
   icon: com.coinex.trade.jpg
   meta: ok
   verdict: wip

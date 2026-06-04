@@ -32,7 +32,7 @@ iphone:
   released: 2020-06-30
   updated: 2026-06-01
   version: 4.2.16
-  reviews: 9133
+  reviews: 9135
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial

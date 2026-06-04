@@ -16,7 +16,7 @@ android:
   released: 2017-04-10
   updated: 2026-05-29
   version: 3.97.0
-  reviews: 20985
+  reviews: 20988
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive
@@ -28,7 +28,7 @@ iphone:
   released: 2017-04-10
   updated: 2026-05-31
   version: 3.98.0
-  reviews: 385592
+  reviews: 385590
   icon: com.sofi.mobile.jpg
   meta: ok
   verdict: nosendreceive

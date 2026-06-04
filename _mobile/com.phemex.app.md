@@ -22,8 +22,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-02-19
-  updated: 2026-05-28
-  version: 5.19.0
+  updated: 2026-06-03
+  version: 5.19.1
   reviews: 1470
   icon: com.phemex.app.png
   meta: ok

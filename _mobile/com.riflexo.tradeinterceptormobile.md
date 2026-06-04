@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2010-08-02
   updated: 2026-06-01
-  version: 7.0.6.0
+  version: 7.0.6.1
   reviews: 350
   icon: com.riflexo.tradeinterceptormobile.png
   meta: ok

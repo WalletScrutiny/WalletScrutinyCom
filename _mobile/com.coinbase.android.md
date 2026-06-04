@@ -23,9 +23,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2013-03-01
-  updated: 2026-05-20
+  updated: 2026-05-28
   version: 14.19.22
-  reviews: 117583
+  reviews: 117590
   icon: com.coinbase.android.jpg
   meta: ok
   verdict: custodial

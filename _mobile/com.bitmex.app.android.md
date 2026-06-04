@@ -16,7 +16,7 @@ android:
   appId: com.bitmex.app.android
   users: 100000
   appCountry: us
-  updated: 2026-05-21
+  updated: 2026-06-03
   version: 3.2.10
   icon: com.bitmex.app.android.png
   meta: ok

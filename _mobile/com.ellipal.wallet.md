@@ -41,7 +41,7 @@ iphone:
   released: 2018-08-25
   updated: 2026-05-28
   version: 4.13.0
-  reviews: 2954
+  reviews: 2955
   icon: com.Ellipal.Ellipal.jpg
   meta: ok
   verdict: nosource

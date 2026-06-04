@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: br
   released: 2015-05-11
-  updated: 2026-05-28
+  updated: 2026-06-03
   version: 26.5.10
   reviews: 14
   icon: com.iggroup.android.cfd.png
