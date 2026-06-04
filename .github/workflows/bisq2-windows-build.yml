@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       jdk_version:
-        description: 'Zulu JDK version, e.g. 21.0.11'
+        description: 'Pinned Zulu JDK version; workflow installs the matching non-CRaC 21.0.11 build'
         required: false
         type: string
         default: '21.0.11'
@@ -16,6 +16,10 @@ on:
 jobs:
   build:
     runs-on: windows-2022
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      ZULU_JDK_URL: https://cdn.azul.com/zulu/bin/zulu21.50.19-ca-jdk21.0.11-win_x64.zip
+      ZULU_JDK_SHA256: 84c73a4dcf8400ac01c1fe2d622cc319199e93c1856c200cb50c1bc16dc7dc97
     steps:
       - name: Checkout Bisq2
         uses: actions/checkout@v4
@@ -28,11 +32,34 @@ jobs:
         shell: bash
         run: git config core.abbrev 10
 
-      - name: Set up Zulu JDK
-        uses: actions/setup-java@v5
-        with:
-          distribution: zulu
-          java-version: ${{ inputs.jdk_version }}
+      - name: Set up pinned Zulu JDK
+        shell: pwsh
+        run: |
+          if ("${{ inputs.jdk_version }}" -ne "21.0.11") {
+            throw "This workflow currently pins Zulu JDK 21.0.11 only."
+          }
+
+          $zip = Join-Path $env:RUNNER_TEMP "zulu-jdk.zip"
+          $dest = Join-Path $env:RUNNER_TEMP "zulu-jdk"
+
+          Invoke-WebRequest -Uri $env:ZULU_JDK_URL -OutFile $zip
+          $actualHash = (Get-FileHash -Algorithm SHA256 $zip).Hash.ToLowerInvariant()
+          Write-Host "Zulu JDK SHA256: $actualHash"
+          if ($actualHash -ne $env:ZULU_JDK_SHA256) {
+            throw "Zulu JDK SHA256 mismatch."
+          }
+          Expand-Archive -LiteralPath $zip -DestinationPath $dest -Force
+
+          $jdkHome = (Get-ChildItem -Path $dest -Directory | Select-Object -First 1).FullName
+          Add-Content -Path $env:GITHUB_ENV -Value "JAVA_HOME=$jdkHome"
+          Add-Content -Path $env:GITHUB_ENV -Value "JAVA_HOME_21_X64=$jdkHome"
+          Add-Content -Path $env:GITHUB_PATH -Value "$jdkHome\bin"
+
+          $version = & "$jdkHome\bin\java.exe" -version 2>&1 | Out-String
+          $version
+          if ($version -match "CRaC") {
+            throw "Pinned Zulu JDK resolved to a CRaC variant."
+          }
 
       - name: Show Java and Gradle versions
         shell: bash
