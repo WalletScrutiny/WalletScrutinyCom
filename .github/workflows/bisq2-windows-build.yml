@@ -1,0 +1,89 @@
+name: Bisq2 Reproducible Build (Windows)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Bisq2 version without leading v, e.g. 2.1.11'
+        required: true
+        type: string
+      jdk_version:
+        description: 'Pinned Zulu JDK version; workflow installs the matching non-CRaC 21.0.11 build'
+        required: false
+        type: string
+        default: '21.0.11'
+
+jobs:
+  build:
+    runs-on: windows-2022
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      ZULU_JDK_URL: https://cdn.azul.com/zulu/bin/zulu21.50.19-ca-jdk21.0.11-win_x64.zip
+      ZULU_JDK_SHA256: 84c73a4dcf8400ac01c1fe2d622cc319199e93c1856c200cb50c1bc16dc7dc97
+    steps:
+      - name: Checkout Bisq2
+        uses: actions/checkout@v4
+        with:
+          repository: bisq-network/bisq2
+          ref: v${{ inputs.version }}
+          fetch-depth: 0
+
+      - name: Set deterministic git abbreviation
+        shell: bash
+        run: git config core.abbrev 10
+
+      - name: Set up pinned Zulu JDK
+        shell: pwsh
+        run: |
+          if ("${{ inputs.jdk_version }}" -ne "21.0.11") {
+            throw "This workflow currently pins Zulu JDK 21.0.11 only."
+          }
+
+          $zip = Join-Path $env:RUNNER_TEMP "zulu-jdk.zip"
+          $dest = Join-Path $env:RUNNER_TEMP "zulu-jdk"
+
+          Invoke-WebRequest -Uri $env:ZULU_JDK_URL -OutFile $zip
+          $actualHash = (Get-FileHash -Algorithm SHA256 $zip).Hash.ToLowerInvariant()
+          Write-Host "Zulu JDK SHA256: $actualHash"
+          if ($actualHash -ne $env:ZULU_JDK_SHA256) {
+            throw "Zulu JDK SHA256 mismatch."
+          }
+          Expand-Archive -LiteralPath $zip -DestinationPath $dest -Force
+
+          $jdkHome = (Get-ChildItem -Path $dest -Directory | Select-Object -First 1).FullName
+          Add-Content -Path $env:GITHUB_ENV -Value "JAVA_HOME=$jdkHome"
+          Add-Content -Path $env:GITHUB_ENV -Value "JAVA_HOME_21_X64=$jdkHome"
+          Add-Content -Path $env:GITHUB_PATH -Value "$jdkHome\bin"
+
+          $version = & "$jdkHome\bin\java.exe" -version 2>&1 | Out-String
+          $version
+          if ($version -match "CRaC") {
+            throw "Pinned Zulu JDK resolved to a CRaC variant."
+          }
+
+      - name: Show Java and Gradle versions
+        shell: bash
+        run: |
+          java -version
+          ./gradlew -v
+
+      - name: Build modules
+        shell: bash
+        run: ./gradlew clean build -x test
+
+      - name: Generate Windows installer
+        shell: bash
+        run: |
+          ./gradlew :apps:desktop:desktop-app-launcher:clean
+          ./gradlew :apps:desktop:desktop-app-launcher:generateInstallers
+
+      - name: List generated packages
+        shell: bash
+        run: ls -lah apps/desktop/desktop-app-launcher/build/packaging/jpackage/packages
+
+      - name: Upload EXE artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bisq2-${{ inputs.version }}-win-exe
+          path: apps/desktop/desktop-app-launcher/build/packaging/jpackage/packages/*.exe
+          if-no-files-found: error
