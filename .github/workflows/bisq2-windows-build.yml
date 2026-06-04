@@ -8,10 +8,13 @@ on:
         required: true
         type: string
       jdk_version:
-        description: 'Zulu JDK version, e.g. 21.0.11'
+        description: 'Unused — JDK is pinned to zulu21.50.19-ca-jdk21.0.11 (non-CRaC). Kept for caller compatibility.'
         required: false
         type: string
         default: '21.0.11'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   build:
@@ -28,11 +31,25 @@ jobs:
         shell: bash
         run: git config core.abbrev 10
 
-      - name: Set up Zulu JDK
-        uses: actions/setup-java@v5
-        with:
-          distribution: zulu
-          java-version: ${{ inputs.jdk_version }}
+      - name: Download Zulu JDK 21.0.11 (non-CRaC, pinned)
+        shell: bash
+        run: |
+          curl -fL -o zulu-jdk.zip "https://cdn.azul.com/zulu/bin/zulu21.50.19-ca-jdk21.0.11-win_x64.zip"
+          echo "84c73a4dcf8400ac01c1fe2d622cc319199e93c1856c200cb50c1bc16dc7dc97  zulu-jdk.zip" | sha256sum -c -
+          mkdir -p "$HOME/zulu-jdk"
+          unzip -q zulu-jdk.zip -d "$HOME/zulu-jdk"
+          JDK_DIR=$(find "$HOME/zulu-jdk" -maxdepth 1 -type d -name "zulu*" | head -1)
+          echo "JAVA_HOME=$JDK_DIR" >> "$GITHUB_ENV"
+          echo "$JDK_DIR/bin" >> "$GITHUB_PATH"
+
+      - name: Verify JDK is non-CRaC
+        shell: bash
+        run: |
+          java -version
+          if java -version 2>&1 | grep -qi crac; then
+            echo "ERROR: CRaC JDK detected; expected standard non-CRaC Zulu"
+            exit 1
+          fi
 
       - name: Show Java and Gradle versions
         shell: bash
