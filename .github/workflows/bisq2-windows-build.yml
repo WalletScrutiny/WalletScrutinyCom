@@ -1,0 +1,62 @@
+name: Bisq2 Reproducible Build (Windows)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Bisq2 version without leading v, e.g. 2.1.11'
+        required: true
+        type: string
+      jdk_version:
+        description: 'Zulu JDK version, e.g. 21.0.11'
+        required: false
+        type: string
+        default: '21.0.11'
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout Bisq2
+        uses: actions/checkout@v4
+        with:
+          repository: bisq-network/bisq2
+          ref: v${{ inputs.version }}
+          fetch-depth: 0
+
+      - name: Set deterministic git abbreviation
+        shell: bash
+        run: git config core.abbrev 10
+
+      - name: Set up Zulu JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: zulu
+          java-version: ${{ inputs.jdk_version }}
+
+      - name: Show Java and Gradle versions
+        shell: bash
+        run: |
+          java -version
+          ./gradlew -v
+
+      - name: Build modules
+        shell: bash
+        run: ./gradlew clean build -x test
+
+      - name: Generate Windows installer
+        shell: bash
+        run: |
+          ./gradlew :apps:desktop:desktop-app-launcher:clean
+          ./gradlew :apps:desktop:desktop-app-launcher:generateInstallers
+
+      - name: List generated packages
+        shell: bash
+        run: ls -lah apps/desktop/desktop-app-launcher/build/packaging/jpackage/packages
+
+      - name: Upload EXE artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bisq2-${{ inputs.version }}-win-exe
+          path: apps/desktop/desktop-app-launcher/build/packaging/jpackage/packages/*.exe
+          if-no-files-found: error
