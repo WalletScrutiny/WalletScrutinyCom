@@ -114,7 +114,6 @@ function main() {
 
   const orphanedFiles = blobFiles.filter((f) => !referencedBlobHashes.has(f));
 
-  console.log("=".repeat(70));
   if (orphanedFiles.length === 0) {
     console.log(
       "No orphaned files found. All blobs are referenced by Asset Registry, Verification, or VerificationDraft events."

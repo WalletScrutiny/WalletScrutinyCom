@@ -25,6 +25,10 @@
  *   --concurrency N   Parallel HTTP checks (default: 12)
  *   --dry-run         Do not write .md files; only report
  *
+ * Environment:
+ *   DEBUG_FDROID_CHECK   When set, print per-wallet rows with outcome not_listed
+ *                        (hidden by default to reduce noise)
+ *
  * TSV columns (stdout): outcome, file, appId, httpStatus, fdroidUrl, srcAvail?,
  *   hadFdroid?, fileWriteAdd, fileWriteRemove, detail
  */
@@ -44,6 +48,8 @@ const F_DROID_ORIGIN = 'https://f-droid.org';
 const USER_AGENT = 'walletscrutiny-fdroid-check/1.0 (+https://walletscrutiny.com)';
 
 const MOBILE_DIR = '_mobile';
+
+const DEBUG_FDROID_CHECK = process.env.DEBUG_FDROID_CHECK !== undefined;
 
 const YAML_OPTS = { schema: yaml.FAILSAFE_SCHEMA };
 
@@ -547,6 +553,7 @@ async function main() {
 
   for (const r of rows) {
     if (r.outcome === 'pending') continue;
+    if (r.outcome === 'not_listed' && !DEBUG_FDROID_CHECK) continue;
     const parts = [
       r.outcome,
       r.file,

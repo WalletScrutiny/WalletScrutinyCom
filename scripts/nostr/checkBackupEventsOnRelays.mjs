@@ -291,15 +291,6 @@ function printKind1337LargeSummary(excludedKind1337Large) {
   console.log(
     `  Count (absent from all relays, excluded from report above): ${excludedKind1337Large.length}`
   );
-
-  for (const event of excludedKind1337Large) {
-    const date = event.created_at
-      ? new Date(event.created_at * 1000).toISOString().split("T")[0]
-      : "unknown-date";
-    console.log(
-      `  - ${event.id}  ${formatKiB(event.backupFileSizeBytes)}  ${date}`
-    );
-  }
 }
 
 async function main() {
@@ -330,10 +321,6 @@ async function main() {
 
   const uniqueIds = [...new Set(backupEvents.map(event => event.id))];
   console.log(`Loaded ${backupEvents.length} backup event file(s) (${uniqueIds.length} unique ids).`);
-  console.log(`Relays (${explicitRelayUrls.length}):`);
-  for (const relayUrl of explicitRelayUrls) {
-    console.log(`  - ${relayUrl}`);
-  }
 
   const ndk = new NDK({ explicitRelayUrls });
 
@@ -342,13 +329,19 @@ async function main() {
   await new Promise(resolve => setTimeout(resolve, RELAY_SETTLE_MS));
 
   const connectedRelays = [...ndk.pool.relays.values()].filter(relay => relay.connected);
+  const connectedUrls = new Set(connectedRelays.map(relay => relay.url));
+  const failedRelays = explicitRelayUrls.filter(url => !connectedUrls.has(url));
+
   if (connectedRelays.length === 0) {
+    console.error("Could not connect to any configured relay:");
+    for (const relayUrl of failedRelays) {
+      console.error(`  unreachable: ${relayUrl}`);
+    }
     throw new Error("Could not connect to any configured relay");
   }
+
   console.log(`Connected to ${connectedRelays.length}/${explicitRelayUrls.length} relay(s).`);
-  if (connectedRelays.length < explicitRelayUrls.length) {
-    const connectedUrls = new Set(connectedRelays.map(relay => relay.url));
-    const failedRelays = explicitRelayUrls.filter(url => !connectedUrls.has(url));
+  if (failedRelays.length > 0) {
     console.warn(
       "WARNING: Not all relays connected. Events only on unreachable relays may be " +
         "reported as missing."
