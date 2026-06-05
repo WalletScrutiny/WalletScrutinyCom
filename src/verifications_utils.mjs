@@ -1,5 +1,5 @@
-import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, generateZapRequest, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
-import { nip19 } from 'nostr-tools';
+import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
+import { nip19, nip57 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
@@ -2340,8 +2340,67 @@ const cleanupNdkConnections = function() {
  * @param {string} [params.comment] - Optional comment
  * @returns {Promise<void>} - Promise that resolves when the zap is sent
  */
+
+/**
+ * Build and sign a NIP-57 zap request. NDK's generateZapRequest passes `profile`
+ * to nostr-tools makeZapRequest, but current nostr-tools expects `pubkey` when
+ * event is omitted, which causes "Cannot read properties of null (reading 'pubkey')".
+ */
+async function buildZapRequestEvent(ndk, lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags, signer) {
+  const zapEndpoint = lnurlSpec.callback;
+
+  // Do not pass the verification event to makeZapRequest: published verifications
+  // (kind 30301) are addressable but often lack a "d" tag, and NDK's referenceTags
+  // path is incompatible with current nostr-tools. e/p tags come from zapper.tags
+  // and createZap post-processing below.
+  const zapRequest = nip57.makeZapRequest({
+    pubkey: recipientPubkey,
+    amount: amountMsat,
+    comment: comment || '',
+    relays: (relays || []).slice(0, 4),
+  });
+
+  zapRequest.tags.push(['lnurl', zapEndpoint]);
+  const zapRequestEvent = new NDKEvent(ndk, zapRequest);
+  if (extraTags) {
+    zapRequestEvent.tags = zapRequestEvent.tags.concat(extraTags);
+  }
+
+  const eTaggedEvents = new Set();
+  const aTaggedEvents = new Set();
+  for (const tag of zapRequestEvent.tags) {
+    if (tag[0] === 'e') {
+      eTaggedEvents.add(tag[1]);
+    } else if (tag[0] === 'a') {
+      aTaggedEvents.add(tag[1]);
+    }
+  }
+  if (eTaggedEvents.size > 1) {
+    throw new Error('Only one e-tag is allowed');
+  }
+  if (aTaggedEvents.size > 1) {
+    throw new Error('Only one a-tag is allowed');
+  }
+
+  zapRequestEvent.tags = zapRequestEvent.tags.filter((tag) => tag[0] !== 'p');
+  zapRequestEvent.tags.push(['p', recipientPubkey]);
+  await zapRequestEvent.sign(signer ?? ndk.signer);
+  return zapRequestEvent;
+}
+
 const createZap = async function ({ event, amount, comment = '' }) {
-  const profile = await getNostrProfile(event.pubkey);
+  await ensureNdkConnected();
+  if (!ndk.signer) {
+    throw new Error('You must connect a Nostr extension to send a zap');
+  }
+
+  const rawEvent = event instanceof NDKEvent ? event.rawEvent() : event;
+  const zapTarget = new NDKEvent(ndk, rawEvent);
+  if (!zapTarget?.pubkey || !zapTarget?.id) {
+    throw new Error('Invalid verification event for zap');
+  }
+
+  const profile = await getNostrProfile(zapTarget.pubkey);
   if (!profile || (!profile.lud16 && !profile.lud06)) {
     throw new Error('The user doesn\'t have a nostr profile or a LN address to receive sats');
   }
@@ -2352,27 +2411,27 @@ const createZap = async function ({ event, amount, comment = '' }) {
     throw new Error('The user doesn\'t have a LN address to receive sats');
   }
 
-  const zapper = new NDKZapper(event, amount * 1000, "msat", {
+  const zapper = new NDKZapper(zapTarget, amount * 1000, "msat", {
     comment,
     ndk,
     signer: ndk.signer,
     tags: [
-      ["p", event.pubkey],
-      ["e", event.id]
+      ["p", zapTarget.pubkey],
+      ["e", zapTarget.id]
     ],
   });
 
-  const relays = await zapper.relays(event.pubkey);
+  const relays = await zapper.relays(zapTarget.pubkey);
 
-  const zapRequestEvent = await generateZapRequest(
-    event,
+  const zapRequestEvent = await buildZapRequestEvent(
     ndk,
     lnurlSpec,
-    event.pubkey,
+    zapTarget.pubkey,
     amount * 1000,
     relays,
     comment,
-    zapper.tags
+    zapper.tags,
+    ndk.signer
   ).catch((err) => {
     console.log('Error: An error occurred in generating zap request!', err);
     return null;
@@ -2387,7 +2446,7 @@ const createZap = async function ({ event, amount, comment = '' }) {
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'lnurl');
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'a');
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'e');
-  zapRequestEvent.tags.push(['e', event.id]);
+  zapRequestEvent.tags.push(['e', zapTarget.id]);
 
   const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
     console.log('Error: An error occurred in getting LnInvoice!', err);
