@@ -60,6 +60,9 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
       closeModalAction();
       return;
     }
+    if (event.target.closest('.zap-modal')) {
+      return;
+    }
     if (!content.contains(event.target) && event.target !== content && !event.target.closest('.attestation-link')) {
       const modalRect = modal.getBoundingClientRect();
       if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
@@ -395,7 +398,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
   content.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
-    <button class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <button type="button" class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton">
       <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
     </button>
     <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
@@ -604,12 +607,22 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   const profile = await getNostrProfile(verification.pubkey);
+  const zapBtn = document.getElementById('zapButton');
   if (profile && (profile.lud16 || profile.lud06)) {
-    document.getElementById('zapButton').style.display = 'inline-block';
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = false;
+    zapBtn.onclick = (e) => {
+      e.stopPropagation();
+      window.showZapModal({
+        onClose: () => {},
+        setZapped: () => {},
+        zapEvent: verification,
+      });
+    };
   } else {
-    const zapBtn = document.getElementById('zapButton');
     zapBtn.style.display = 'inline-block';
     zapBtn.disabled = true;
+    zapBtn.onclick = null;
     zapBtn.style.backgroundColor = '#ccc';
     zapBtn.style.color = '#888';
     zapBtn.style.cursor = 'not-allowed';
