@@ -1,4 +1,5 @@
 function isDebugEnv() {
+  return false;
   if (typeof window === 'undefined') {
     return false;
   }

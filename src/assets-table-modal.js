@@ -1,0 +1,804 @@
+import { verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
+import { formatDate, formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
+import { getFirstTagValue } from "./verifications_common.mjs";
+import { renderCommentsSection } from './assets-table-comments.js';
+import {
+  getAssetTableResponse,
+  setOriginalUrlBeforeModal,
+  getOriginalUrlBeforeModal,
+  findVerificationByIdInMaps,
+} from "./assets-table-state.js";
+import {
+  waitForAttachmentsReady,
+  loadEndorsementsForTable,
+  getAttachmentInfoFromStore,
+} from "./assets-table-attachments.js";
+import './zapModal.js';
+
+let pendingVerificationReport = null;
+let verificationModalClickHandler = null;
+let verificationModalKeyHandler = null;
+
+function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
+  if (verificationModalClickHandler) {
+    window.removeEventListener('click', verificationModalClickHandler);
+    verificationModalClickHandler = null;
+  }
+  if (verificationModalKeyHandler) {
+    window.removeEventListener('keydown', verificationModalKeyHandler);
+    verificationModalKeyHandler = null;
+  }
+
+  const closeModalAction = () => {
+    modal.style.display = 'none';
+    if (modalBackdrop) {
+      modalBackdrop.style.display = 'none';
+    }
+    window.currentVerification = null;
+    if (verificationModalClickHandler) {
+      window.removeEventListener('click', verificationModalClickHandler);
+      verificationModalClickHandler = null;
+    }
+    if (verificationModalKeyHandler) {
+      window.removeEventListener('keydown', verificationModalKeyHandler);
+      verificationModalKeyHandler = null;
+    }
+    document.body.classList.remove("modal-open");
+    history.pushState("", document.title, getOriginalUrlBeforeModal());
+  };
+
+  const closeButton = document.getElementById('closeModal');
+  if (closeButton) {
+    closeButton.onclick = (event) => {
+      event.stopPropagation();
+      closeModalAction();
+    };
+  }
+
+  verificationModalClickHandler = function(event) {
+    if (event.target.closest('#closeModal')) {
+      closeModalAction();
+      return;
+    }
+    if (!content.contains(event.target) && event.target !== content && !event.target.closest('.attestation-link')) {
+      const modalRect = modal.getBoundingClientRect();
+      if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
+        closeModalAction();
+      }
+    }
+  };
+
+  verificationModalKeyHandler = function(event) {
+    if (event.key === 'Escape') {
+      closeModalAction();
+    }
+  };
+
+  window.addEventListener('click', verificationModalClickHandler);
+  window.addEventListener('keydown', verificationModalKeyHandler);
+}
+
+function closeVerificationReportConfirmModal() {
+  const modal = document.getElementById('verificationReportConfirmModal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
+  pendingVerificationReport = null;
+}
+
+function ensureVerificationReportConfirmModal() {
+  if (document.getElementById('verificationReportConfirmModal')) {
+    return;
+  }
+  const wrap = document.createElement('div');
+  wrap.id = 'verificationReportConfirmModal';
+  wrap.style.display = 'none';
+  wrap.style.position = 'fixed';
+  wrap.style.left = '0';
+  wrap.style.top = '0';
+  wrap.style.width = '100%';
+  wrap.style.height = '100%';
+  wrap.style.background = 'rgba(0,0,0,0.6)';
+  wrap.style.zIndex = '10004';
+  wrap.innerHTML = `
+    <div id="verificationReportConfirmInner" style="background-color: #fefefe; margin: 12% auto; padding: 20px; border: 1px solid #888; width: 90%; max-width: 520px; border-radius: 8px; color: #000; position: relative;">
+      <span id="closeVerificationReportConfirmModal" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; line-height: 1;">&times;</span>
+      <h3 style="margin-top: 0;">Confirm report</h3>
+      <div id="verificationReportConfirmText" style="margin-bottom: 16px; font-size: 14px;"></div>
+      <p style="margin-bottom: 12px; font-weight: 600;">Are you sure?</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <button type="button" id="verificationReportConfirmYes" class="btn btn-danger">Yes</button>
+        <button type="button" id="verificationReportConfirmNo" class="btn btn-secondary">No</button>
+      </div>
+    </div>`;
+  document.body.appendChild(wrap);
+
+  document.getElementById('closeVerificationReportConfirmModal').onclick = () => {
+    closeVerificationReportConfirmModal();
+  };
+  document.getElementById('verificationReportConfirmNo').onclick = () => {
+    closeVerificationReportConfirmModal();
+  };
+  wrap.onclick = (event) => {
+    if (event.target === wrap) {
+      closeVerificationReportConfirmModal();
+    }
+  };
+  document.getElementById('verificationReportConfirmYes').onclick = async () => {
+    const pending = pendingVerificationReport;
+    if (!pending) {
+      return;
+    }
+    try {
+      await window.createVerificationReport({
+        verificationEventId: pending.verification.id,
+        reportedPubkey: pending.verification.pubkey,
+        reason: pending.reason
+      });
+      closeVerificationReportConfirmModal();
+      await showToast('Report published.', 'success');
+      window.location.reload();
+    } catch (e) {
+      closeVerificationReportConfirmModal();
+      showToast('Failed to publish report: ' + (e.message || e), 'error');
+    }
+  };
+}
+
+function openVerificationReportConfirmModal(verification, reason) {
+  ensureVerificationReportConfirmModal();
+  pendingVerificationReport = { verification, reason };
+  const inner = document.getElementById('verificationReportConfirmInner');
+  if (inner) {
+    inner.style.backgroundColor = window.theme === 'dark' ? '#2d2d2d' : '#fefefe';
+    inner.style.color = window.theme === 'dark' ? '#fff' : '#000';
+  }
+  const text = document.getElementById('verificationReportConfirmText');
+  text.innerHTML = [
+    '<p>The following <strong>Nostr kind 1984</strong> report will be sent to the configured relays:</p>',
+    `<p><strong>Verification event id (e):</strong> ${verification.id}</p>`,
+    `<p><strong>Reported pubkey (p):</strong> ${verification.pubkey}</p>`,
+    `<p><strong>Reason (r):</strong> ${reason}</p>`
+  ].join('');
+  document.getElementById('verificationReportConfirmModal').style.display = 'block';
+}
+
+function initVerificationAdminReportControls(verification) {
+  const wrap = document.getElementById('adminReportVerificationWrap');
+  const menu = document.getElementById('adminReportVerificationMenu');
+  const reportBtn = document.getElementById('adminReportVerificationBtn');
+  if (!wrap || !menu || !reportBtn) {
+    return;
+  }
+  menu.style.display = 'none';
+  if (!isWalletScrutinySiteAdmin(window.userPubkey)) {
+    wrap.style.display = 'none';
+    return;
+  }
+  wrap.style.display = 'inline-block';
+
+  const applyAdminReportMenuTheme = () => {
+    const isDark = window.theme === 'dark';
+    menu.style.background = isDark ? '#2d2d2d' : '#fff';
+    menu.style.color = isDark ? '#fff' : '#000';
+    menu.style.borderColor = isDark ? '#555' : '#ccc';
+    const hoverBg = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
+    menu.querySelectorAll('.admin-report-reason').forEach((el) => {
+      el.style.setProperty('color', isDark ? '#ffffff' : '#000000', 'important');
+      el.style.setProperty('background', 'transparent', 'important');
+      el.onmouseenter = () => {
+        el.style.setProperty('background', hoverBg, 'important');
+      };
+      el.onmouseleave = () => {
+        el.style.setProperty('background', 'transparent', 'important');
+      };
+      el.onclick = (e) => {
+        e.stopPropagation();
+        menu.style.display = 'none';
+        openVerificationReportConfirmModal(verification, el.getAttribute('data-reason'));
+      };
+    });
+  };
+  applyAdminReportMenuTheme();
+
+  reportBtn.onclick = (e) => {
+    e.stopPropagation();
+    const opening = menu.style.display === 'none' || menu.style.display === '';
+    if (opening) {
+      applyAdminReportMenuTheme();
+    }
+    menu.style.display = opening ? 'block' : 'none';
+  };
+}
+
+export async function showVerificationModal(sha256Hash, verificationId, appId, platform) {
+  document.body.classList.add("modal-open");
+
+  const response = getAssetTableResponse();
+  if (!response) {
+    console.error('showVerificationModal: asset data not loaded yet');
+    document.body.classList.remove("modal-open");
+    return;
+  }
+
+  const lookup = findVerificationByIdInMaps(response, verificationId);
+  if (!lookup) {
+    console.warn('showVerificationModal: verification not found:', verificationId);
+    document.body.classList.remove("modal-open");
+    return;
+  }
+
+  const verification = lookup.verification;
+  sha256Hash = lookup.sha256Hash || sha256Hash;
+
+  const verifications = response.verifications.get(sha256Hash) || [];
+  const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
+  const allTheVerifications = [...verifications, ...draftVerifications];
+  const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
+
+  window.currentVerification = verification;
+
+  const status = getFirstTagValue(verification, 'status');
+
+  const modal = document.getElementById('verificationModal');
+  const modalBackdrop = document.getElementById('verificationModalBackdrop');
+
+  if (!document.getElementById('diffoscopeModal')) {
+    modal.insertAdjacentHTML('beforebegin', `
+    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
+      <div class="diffoscope-modal-content">
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
+        <iframe id="diffoscopeFrame"></iframe>
+      </div>
+    </div>`);
+  }
+
+  if (!document.getElementById('endorsementModal')) {
+    const endorsementModalDiv = document.createElement('div');
+    endorsementModalDiv.id = 'endorsementModal';
+    endorsementModalDiv.style.display = 'none';
+    endorsementModalDiv.innerHTML = `
+      <div id="endorsementModalContent">
+        <span id="closeEndorsementModal">&times;</span>
+        <h3 style="margin-top: 0;">Endorse this verification</h3>
+        <p style="margin-bottom: 20px;">Endorsing a verification means you are publicly signaling your agreement or disagreement with the result of this verification, and/or a trust in the verifier.</p>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <button id="endorseValidBtn" class="btn btn-success">Label as Valid</button>
+          <button id="endorseInvalidBtn" class="btn btn-danger" style="background-color: #d9534f; color: white; border-color: #d43f3a;">Label as Invalid</button>
+          <button id="endorseCancelBtn" class="btn btn-secondary">Cancel</button>
+        </div>
+      </div>
+    `;
+    endorsementModalDiv.style.position = 'fixed';
+    endorsementModalDiv.style.left = '0';
+    endorsementModalDiv.style.top = '0';
+    endorsementModalDiv.style.width = '100%';
+    endorsementModalDiv.style.height = '100%';
+    endorsementModalDiv.style.background = 'rgba(0,0,0,0.6)';
+    endorsementModalDiv.style.zIndex = '10002';
+    document.body.appendChild(endorsementModalDiv);
+  }
+
+  window.openEndorsementModal = function(verificationEventId, sha256Hash) {
+    const modal = document.getElementById('endorsementModal');
+    modal.style.display = 'block';
+    document.body.classList.add('modal-open');
+
+    // Remove previous listeners to avoid duplicates
+    const validBtn = document.getElementById('endorseValidBtn');
+    const invalidBtn = document.getElementById('endorseInvalidBtn');
+    const cancelBtn = document.getElementById('endorseCancelBtn');
+    const closeBtn = document.getElementById('closeEndorsementModal');
+
+    // Remove all listeners by cloning
+    validBtn.replaceWith(validBtn.cloneNode(true));
+    invalidBtn.replaceWith(invalidBtn.cloneNode(true));
+    cancelBtn.replaceWith(cancelBtn.cloneNode(true));
+    closeBtn.replaceWith(closeBtn.cloneNode(true));
+
+    const newValidBtn = document.getElementById('endorseValidBtn');
+    const newInvalidBtn = document.getElementById('endorseInvalidBtn');
+    const newCancelBtn = document.getElementById('endorseCancelBtn');
+    const newCloseBtn = document.getElementById('closeEndorsementModal');
+
+    const closeModal = () => {
+      modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
+    };
+
+    newCancelBtn.onclick = closeModal;
+    newCloseBtn.onclick = closeModal;
+    modal.onclick = (event) => {
+      if (event.target === modal) closeModal();
+    };
+
+    // ESC key closes modal
+    const handleKeyDown = function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+
+    async function handleEndorsement(isValid) {
+      try {
+        if (!window.userPubkey) {
+          showToast('You must have a Nostr extension to endorse a verification.', 'error');
+          return;
+        }
+        const npub = getNpubFromPubkey(window.userPubkey);
+        await createEndorsement({ validity: isValid, verificationEventId, sha256Hash, endorserNpubkey: npub });
+        closeModal();
+        await showToast(`Successfully marked as ${isValid ? 'Valid' : 'Invalid'}.`, 'success');
+        window.location.reload();
+      } catch (e) {
+        closeModal();
+        showToast('Failed to endorse: ' + (e.message || e), 'error');
+      }
+    }
+
+    newValidBtn.onclick = () => handleEndorsement(true, verificationId);
+    newInvalidBtn.onclick = () => handleEndorsement(false, verificationId);
+  };
+
+  const content = document.getElementById('verificationContent');
+
+  // Reset scroll positions before showing the modal again
+  setTimeout(() => {
+    content.scrollTop = 0;
+    content.scrollLeft = 0;
+  }, 0);
+
+  modal.style.background = window.theme === 'dark' ? '#111' : '#fff';
+  modal.style.color = window.theme === 'dark' ? 'white' : 'black';
+
+  let otherVerificationsHTML = '';
+  if (otherVerificationsBySamePubkey.length > 0) {
+    for (const otherVerification of otherVerificationsBySamePubkey) {
+      const status = getFirstTagValue(otherVerification, 'status');
+
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + getStatusIcon(status) + '</span>';
+
+      otherVerificationsHTML += `<li>
+        ${formatDate(otherVerification.created_at)} ${statusIcon}
+      </li>`;
+    }
+    otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
+  }
+
+  const isMine = verification.pubkey === window.userPubkey;
+  const isDraft = verification.kind === verificationDraftKind;
+  const isMyDraft = isDraft && isMine;
+
+  let title = '';
+  let icon = '';
+  let basedOnParams = '';
+  if (isMine) {
+    title = isDraft ? 'Edit your draft' : 'Edit your verification';
+    icon = '✏️';
+  } else {
+    title = isDraft ? 'Copy this draft' : 'Copy this verification';
+    icon = '📋';
+    basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
+  }
+
+  content.innerHTML = '<p>';
+  content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`;
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  if (!isDraft && !isMine) {
+    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+  }
+  content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
+  content.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <button class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+      <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
+    </button>
+    <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
+      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect</button>
+      <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
+        <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
+        <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
+      </div>
+    </span>
+  </span>`;
+  content.innerHTML += isMine
+    ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
+    : '';
+  content.innerHTML += '</p>';
+
+  const version = getFirstTagValue(verification, 'version');
+  const identifier = getFirstTagValue(verification, 'i');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
+
+  const verificationHashes = verification.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
+  if (verificationHashes.length === 1) {
+    content.innerHTML += `<p><strong>Hash of the binary reproduced:</strong> ${verificationHashes[0]}</p>`;
+  } else {
+    content.innerHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${verificationHashes.join('<br>')}</p>`;
+  }
+
+  content.innerHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
+
+  const basedOn = getFirstTagValue(verification, 'based-on');
+  if (basedOn) {
+    content.innerHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
+  }
+
+  content.innerHTML += `
+    <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
+    <p><strong>Build status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
+    <p style="display: none;" id="zaps"></p>
+    <p style="display: none;" id="endorsements"></p>`;
+
+  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
+  if (issueTrackerUrl) {
+    content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
+  }
+
+  content.innerHTML += '<div id="comments-container"></div>';
+
+  const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+  const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
+
+  // Show attachments (scripts used to reproduce)
+  const numberVerificationAttachments = verificationAttachments.length;
+  if (numberVerificationAttachments > 0) {
+    let attachmentsHTML = '';
+
+    if (!window.location.pathname.includes('/verifier/') && !window.location.pathname.includes('/assets/')) {
+      await waitForAttachmentsReady();
+
+      for (const attachment of verificationAttachments) {
+        const attachmentId = attachment[1];
+        const attachmentInfo = getAttachmentInfoFromStore(attachmentId);
+  
+        if (attachmentInfo) {
+          attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
+            <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+            <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+        }
+      }
+    } else {
+      const wallet = window.wallets.find(w => w.appId === appId);
+      attachmentsHTML += `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
+    }
+
+    content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
+  }
+
+  let firstAsciicastFileSHA256 = null;
+  let diffoscopeFiles = [];
+
+  // Show output files
+  if (verificationOutputFiles.length > 0) {
+    let outputFilesHTML = '';
+    for (const outputFile of verificationOutputFiles) {
+      if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
+        firstAsciicastFileSHA256 = outputFile[2];
+      }
+      if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
+        diffoscopeFiles.push(outputFile);
+      }
+      outputFilesHTML += `<li>${outputFile[1]}
+        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+    }
+
+    content.innerHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+  }
+
+  if (otherVerificationsHTML !== '') {
+    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+  }
+
+  let itemContent = JSON.parse(verification.content).content;
+  const { marked } = await import('marked');
+  const parsedMarkdown = marked.parse(itemContent);
+
+  // Diffoscope special treatment
+  let diffoscopeHTML = '';
+  if (diffoscopeFiles.length > 0) {
+    diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+                         <p>Diffoscope files attached (click to see report):</p>`;
+    for (const file of diffoscopeFiles) {
+      diffoscopeHTML += `<button class="btn btn-small btn-info" style="width: auto;" onclick="openDiffoscopeModal('${getBlossomFileURL(file[2])}')">${file[1]}</button>`;
+    }
+    diffoscopeHTML += '</div>';
+  }
+
+  // Adding AsciiCast html
+  let asciicastHTML = '';
+  if (firstAsciicastFileSHA256) {
+    asciicastHTML = `<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>`;
+  }
+
+  content.innerHTML += `
+  <p><strong>Information:</strong></p>
+  <div class="markdown-content">
+      ${diffoscopeHTML}
+      ${asciicastHTML}
+      <div>${parsedMarkdown}</div>
+  </div>`;
+
+  if (firstAsciicastFileSHA256) {
+    const castURL = getBlossomFileURL(firstAsciicastFileSHA256);
+
+    // Check if asciinema player assets are already loaded
+    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+    // Only add JS if not already present
+    let asciinemaPlayerJS;
+    if (!asciinemaJSExists) {
+      asciinemaPlayerJS = document.createElement('script');
+      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+      document.head.appendChild(asciinemaPlayerJS);
+    }
+
+    // Only add CSS if not already present
+    if (!ascinemaCSSExists) {
+      const asciinemaPlayerCSS = document.createElement('link');
+      asciinemaPlayerCSS.rel = 'stylesheet';
+      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+      document.head.appendChild(asciinemaPlayerCSS);
+    }
+
+    const initPlayer = () => {
+      AsciinemaPlayer.create(
+        castURL,
+        document.getElementById('ascii_cast_player'),
+        {
+          idleTimeLimit: 1,
+          autoPlay: true,
+          rows: 25
+        }
+      );
+    };
+
+    if (!asciinemaJSExists && asciinemaPlayerJS) {
+      asciinemaPlayerJS.onload = initPlayer;  // If we just added the script, wait for it to load
+    } else {
+      initPlayer();   // Script was already loaded, initialize player directly
+    }
+  }
+
+  const appIdForTheKey = getFirstTagValue(verification, 'i');
+  const versionForTheKey = getFirstTagValue(verification, 'version');
+  const platformForTheKey = getFirstTagValue(verification, 'platform');
+  const authorPubkeyForTheKey = verification.pubkey;
+  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}:${verification.id}`;
+
+  renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
+
+  initVerificationAdminReportControls(verification);
+
+  if (diffoscopeFiles.length > 0) {
+    insertDiffoscopeAssets();
+  }
+
+  if (modalBackdrop) {
+    const isMobileModal = window.matchMedia('(max-width: 480px)').matches;
+    modalBackdrop.style.background = isMobileModal
+      ? (window.theme === 'dark' ? '#111' : '#fff')
+      : (window.theme === 'dark' ? 'rgba(0,0,0,0.65)' : 'rgba(0,0,0,0.45)');
+    modalBackdrop.style.display = 'block';
+  }
+  modal.style.display = 'block';
+  setupVerificationModalCloseHandlers(modal, modalBackdrop, content);
+
+  // Store original URL before changing hash
+  setOriginalUrlBeforeModal(window.location.pathname + window.location.search);
+
+  // Update hash only if not already set by initial load check
+  const currentHash = `#verificationId=${verificationId}`;
+  if (window.location.hash !== currentHash) {
+    location.hash = currentHash;
+  }
+
+  const profile = await getNostrProfile(verification.pubkey);
+  if (profile && (profile.lud16 || profile.lud06)) {
+    document.getElementById('zapButton').style.display = 'inline-block';
+  } else {
+    const zapBtn = document.getElementById('zapButton');
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = true;
+    zapBtn.style.backgroundColor = '#ccc';
+    zapBtn.style.color = '#888';
+    zapBtn.style.cursor = 'not-allowed';
+    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+  }
+
+  document.getElementById('attempt-by').innerHTML = profile ? `
+    <div class="profile-card">
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'">
+        <div>${getProfileDisplayName(profile, verification.pubkey)}</div>
+        ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+      </div>
+    </div>
+  ` : getProfileDisplayName(null, verification.pubkey);
+
+  /* -------------------- Based on -------------------- */
+  if (basedOn) {
+    const basedOnProfile = await getNostrProfile(basedOn.split(':')[1]);
+    document.getElementById('based-on-attempt-by').innerHTML = basedOnProfile ? `
+      <div class="profile-card">
+        ${basedOnProfile.image ? `<img src="${basedOnProfile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'" onerror="this.style.display='none'"/>` : ''}
+        <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'">
+          <div>${getProfileDisplayName(basedOnProfile, basedOn.split(':')[1])}</div>
+          ${basedOnProfile.nip05 ? `<div class="profile-nip05">${basedOnProfile.nip05}</div>` : ''}
+        </div>
+      </div>
+    ` : getProfileDisplayName(null, basedOn.split(':')[1]);
+  }
+
+  /* -------------------- Zap -------------------- */
+  let zapsHTML = '';
+  const zapReceipts = [];
+
+  subscribeToZapReceipts(verification, null, async (zapReceiptEvent) => {
+    if (zapReceiptEvent) {
+      const zapReceiptInvoice = zapReceiptEvent.tagValue("bolt11");
+      const descriptionJSON = zapReceiptEvent.tagValue("description");
+      const description = JSON.parse(descriptionJSON);
+      const content = description.content;
+      const zapRequest = zapReceiptEvent.zapRequest;
+      const zapAmount = zapRequest.amount / 1000;
+      const zapperProfile = await getNostrProfile(description.pubkey);
+
+      zapReceipts.push({
+        zapAmount,
+        zapReceiptInvoice,
+        content,
+        zapperProfile,
+        zapperPubkey: description.pubkey,
+        created_at: zapReceiptEvent.created_at
+      });
+
+      let zapTotalAmount = 0;
+
+      zapReceipts.sort((a, b) => b.zapAmount - a.zapAmount).forEach((zap) => {
+        zapTotalAmount += zap.zapAmount;
+        const npub = getNpubFromPubkey(zap.zapperPubkey);
+        zapsHTML += `
+          <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
+            ${zap.zapperProfile ? `${zap.zapperProfile.image ? `
+              <img src="${zap.zapperProfile.image}" class="profile-image"
+                  title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
+                  onclick="window.open('https://njump.me/${npub}', '_blank')"
+                  onerror="this.style.display='none'"
+              />` : ''}` :
+              `<span onclick="window.open('https://njump.me/${npub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${zap.zapperPubkey} - Click to open in Njump.me">${zap.zapperPubkey.slice(0, 3)}...${zap.zapperPubkey.slice(-2)}</span>`}
+            <div>
+              ${formatZapAmount(zap.zapAmount)} sats
+              <br>
+              Zapped by ${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} on ${formatDate(zap.created_at, true)}
+              ${zap.content ? `<br>Message: ${zap.content}` : ''}
+            </div>
+          </div>`;
+      });
+
+      const zapsElement = document.getElementById('zaps');
+      zapsElement.style.display = 'block';
+      zapsElement.innerHTML = `<p><strong>Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):</strong> ${zapsHTML}</p>`;
+      zapsHTML = '';
+    }
+  });
+
+  /* -------------------- Endorsements -------------------- */
+  let endorsements = {};
+  try {
+    endorsements = await loadEndorsementsForTable();
+  } catch (error) {
+    console.error('Error loading endorsements for verification modal:', error);
+  }
+  const endorsementsForThisVerification = endorsements[verification.id];
+
+  if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
+    let endorsementsHTML = '';
+
+    endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
+
+    for (const endorsement of endorsementsForThisVerification) {
+      const validity = getFirstTagValue(endorsement, 'validity');
+      const endorserProfile = await getNostrProfile(endorsement.pubkey);
+      const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
+      endorsementsHTML += `
+        <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
+          ${endorserProfile ? `${endorserProfile.image ? `
+            <img src="${endorserProfile.image}" class="profile-image"
+                title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
+                onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
+                onerror="this.style.display='none'"
+            />` : ''}` :
+            `<span onclick="window.open('https://njump.me/${endorserNpub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${endorserNpub} - Click to open in Njump.me">${endorsement.pubkey.slice(0, 3)}...${endorsement.pubkey.slice(-2)}</span>`}
+            ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})
+        </div>`;
+    }
+    const endorsementsElement = document.getElementById('endorsements');
+    endorsementsElement.style.display = 'block';
+    endorsementsElement.innerHTML = `<p><strong>Endorsements:</strong> ${endorsementsHTML}</p>`;
+  }
+
+  renderNostrButton({
+    container: "#verificationActionButtons",
+    verificationId: verification.id
+  });
+
+  const deleteVerificationLink = content.querySelector('#deleteVerificationLink');
+  if (deleteVerificationLink) {
+    deleteVerificationLink.addEventListener('click', async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      try {
+        if (isDraft) {
+          await window.deleteDraftVerification(verification.id);
+        } else {
+          await window.deletePublishedVerification(verification.id);
+        }
+      } catch (err) {
+        showToast((err && err.message) || String(err), 'error');
+      }
+    });
+  }
+
+  let shareMessage = "Check out this verification!";
+  if (verification.content.includes('i')) {
+    const appId = getFirstTagValue(verification, 'i');
+    const version = getFirstTagValue(verification, 'version');
+    const platform = getFirstTagValue(verification, 'platform');
+
+    const wallet = window.wallets.find(w => w.appId === appId);
+    const walletTitle = wallet ? wallet.title : appId;
+
+    const walletDescriptionToken = `${walletTitle} v${version} (${platform})`;
+
+    if (isMine) {
+      if (status === 'reproducible') {
+        shareMessage = `🚀 Successfully reproduced and verified ${walletDescriptionToken} from source!`;
+      } else {
+        shareMessage = `🚨 Failed to reproduce and verify ${walletDescriptionToken} from source!`;
+      }
+    } else {
+      shareMessage = `👀 Check out this ${walletDescriptionToken} verification!`;
+    }
+    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The binary tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
+    shareMessage += `\n🔍 See the full verification here:`;
+  }
+
+  renderShareButton({
+    container: "#shareButtonContainer",
+    defaultMessage: shareMessage,
+    showRawButtons: false
+  });
+}
+
+function insertDiffoscopeAssets() {
+  const diffoscopeCSSExists = document.querySelector('link[href="/assets/css/diffoscope-modal.css"]');
+  const diffoscopeJSExists = document.querySelector('script[src="/assets/js/diffoscope-modal.js"]');
+
+  if (!diffoscopeCSSExists) {
+    const diffoscopeCSS = document.createElement('link');
+    diffoscopeCSS.rel = 'stylesheet';
+    diffoscopeCSS.href = '/assets/css/diffoscope-modal.css';
+    document.head.appendChild(diffoscopeCSS);
+  }
+
+  if (!diffoscopeJSExists) {
+    const diffoscopeJS = document.createElement('script');
+    diffoscopeJS.src = '/assets/js/diffoscope-modal.js';
+    document.head.appendChild(diffoscopeJS);
+  }
+}
+
+export function registerShowVerificationModal() {
+  window.showVerificationModal = showVerificationModal;
+}
