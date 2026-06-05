@@ -1,6 +1,7 @@
 import QRCode from 'qrcode';
 
-function showZapModal({ onClose, setZapped }) {
+function showZapModal({ onClose, setZapped, zapEvent } = {}) {
+  const resolveZapEvent = () => zapEvent || window.currentVerification || window.profileEvent;
   const style = document.createElement('style');
   style.textContent = `
     .zap-amount-selected {
@@ -122,9 +123,9 @@ function showZapModal({ onClose, setZapped }) {
     }`;
   document.head.appendChild(style);
 
-  const event = window.currentVerification || window.profileEvent;
+  const event = resolveZapEvent();
   if (!event) {
-    console.error('No event found');
+    console.error('No event found for zap');
     return;
   }
 
@@ -202,16 +203,23 @@ function showZapModal({ onClose, setZapped }) {
     }
 
     try {
+      const zapTarget = resolveZapEvent();
+      if (!zapTarget) {
+        errorDiv.textContent = 'Verification context was lost. Close and reopen the verification modal.';
+        document.getElementById('loadingSpinner').style.display = 'none';
+        return;
+      }
+
       const lnPay = async ({ pr }) => {
         showZapQR(pr, modal);
         return undefined;
       };
 
-      const currentInvoice = await createZap({ event, amount, comment: zapMessage });
+      const currentInvoice = await createZap({ event: zapTarget, amount, comment: zapMessage });
 
       await lnPay({ pr: currentInvoice });
 
-      await subscribeToZapReceipts(event, currentInvoice, async (event) => {
+      await subscribeToZapReceipts(zapTarget, currentInvoice, async (event) => {
         if (event) {
           modal.querySelector('#zap-modal-content-inner').style.display = 'none';
           modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap sent!</p>';

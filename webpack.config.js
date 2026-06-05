@@ -30,10 +30,16 @@ module.exports = (env, argv) => {
           './src/drag-and-drop.js',
           './src/assets-table-utils.js',
           './src/assets-table-comments.js',
+          './src/assets-table-state.js',
+          './src/assets-table-filters.js',
+          './src/assets-table-paint.js',
+          './src/assets-table-attachments.js',
+          './src/assets-table-modal.js',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',
-          './src/renderNostrButton.js'
+          './src/renderNostrButton.js',
+          './src/zapModal.js'
         ],
         dependOn: ['dom_sanitization', 'verifications_data'],
       },
