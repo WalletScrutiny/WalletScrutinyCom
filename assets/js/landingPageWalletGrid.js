@@ -80,10 +80,9 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
     const tileHeadPlatform = wallet.folder === 'mobile' ? false : listPlatform;
     const icon = getWalletListIcon(wallet, tileHeadPlatform);
-    const delay = (i + 1) * 80;
     const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
-    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
+    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}">
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
