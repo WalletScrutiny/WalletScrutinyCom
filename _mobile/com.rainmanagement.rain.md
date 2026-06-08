@@ -20,7 +20,7 @@ android:
   released: 2018-11-02
   updated: 2026-04-30
   version: 3.10.8
-  reviews: 3338
+  reviews: 3340
   icon: com.rainmanagement.rain.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-02
   updated: 2026-04-30
   version: 3.9.7
-  reviews: 2900
+  reviews: 2903
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

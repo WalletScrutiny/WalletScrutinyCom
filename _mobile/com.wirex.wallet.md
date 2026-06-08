@@ -33,8 +33,8 @@ iphone:
   idd: 1594165139
   appCountry: nz
   released: 2021-12-07
-  updated: 2026-05-22
-  version: 3.2.0
+  updated: 2026-06-03
+  version: 3.2.1
   reviews: 10
   icon: com.wirex.wallet.jpg
   meta: ok

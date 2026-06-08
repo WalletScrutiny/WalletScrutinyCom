@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2022-11-14
   updated: 2026-06-03
-  version: 2.0.13
+  version: 2.0.16
   reviews: 2
   icon: com.mobee.io.png
   meta: ok
@@ -35,7 +35,7 @@ iphone:
   released: 2023-07-19
   updated: 2026-06-03
   version: 2.0.16
-  reviews: 914
+  reviews: 928
   icon: io.mobee.finance.jpg
   meta: ok
   verdict: custodial

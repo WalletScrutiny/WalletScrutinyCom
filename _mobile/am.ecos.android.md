@@ -19,7 +19,7 @@ android:
   released: 2020-09-22
   updated: 2026-05-26
   version: 3.1.20
-  reviews: 235
+  reviews: 238
   icon: am.ecos.android.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2020-11-25
   updated: 2026-06-01
   version: 3.1.20
-  reviews: 233
+  reviews: 236
   icon: am.ecos.ios.production.jpg
   meta: ok
   verdict: custodial

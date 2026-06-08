@@ -16,7 +16,7 @@ android:
   released: 2020-06-14
   updated: 2026-04-27
   version: 3.1.7
-  reviews: 274
+  reviews: 275
   icon: i.brains.pandax.png
   meta: ok
   verdict: nosendreceive
@@ -28,7 +28,7 @@ iphone:
   released: 2021-04-20
   updated: 2026-04-29
   version: 1.9.10
-  reviews: 4705
+  reviews: 4712
   icon: ng.pandar.resource.jpg
   meta: ok
   verdict: nosendreceive

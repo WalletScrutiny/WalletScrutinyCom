@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2022-08-17
   updated: 2026-06-03
-  version: 3.29.0
+  version: 3.30.0
   reviews: 9
   icon: com.cointr.jpg
   meta: ok

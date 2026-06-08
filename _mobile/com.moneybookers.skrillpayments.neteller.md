@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2016-03-30
   updated: 2026-06-02
-  version: 3.185.0-2026052009
+  version: 3.186.0-2026060115
   reviews: 280
   icon: com.moneybookers.skrillpayments.neteller.png
   meta: ok

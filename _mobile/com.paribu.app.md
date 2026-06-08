@@ -21,7 +21,7 @@ android:
   released: 2019-06-14
   updated: 2026-06-03
   version: 6.0.25
-  reviews: 115
+  reviews: 116
   icon: com.paribu.app.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1448200352
   appCountry: us
   released: 2019-05-29
-  updated: 2026-05-26
-  version: 6.0.23
-  reviews: 296
+  updated: 2026-06-04
+  version: 6.0.25
+  reviews: 298
   icon: com.codevist.paribu.jpg
   meta: ok
   verdict: custodial

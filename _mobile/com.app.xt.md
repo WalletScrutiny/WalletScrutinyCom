@@ -34,7 +34,7 @@ iphone:
   released: 2021-03-08
   updated: 2026-06-02
   version: 5.25.1
-  reviews: 1450
+  reviews: 1451
   icon: com.xt.app.jpg
   meta: ok
   verdict: custodial

@@ -28,7 +28,7 @@ android:
   released: 2022-04-27
   updated: 2026-05-19
   version: 6.3.0
-  reviews: 94
+  reviews: 95
   icon: so.onekey.app.wallet.png
   meta: ok
   verdict: sourceavailable
@@ -41,7 +41,7 @@ iphone:
   released: 2022-04-27
   updated: 2026-05-20
   version: 6.3.0
-  reviews: 683
+  reviews: 684
   icon: so.onekey.wallet.jpg
   meta: ok
   verdict: sourceavailable

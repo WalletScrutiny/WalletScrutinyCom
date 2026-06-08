@@ -19,7 +19,7 @@ android:
   appCountry: br
   released: 2015-05-11
   updated: 2026-06-03
-  version: 26.5.10
+  version: 26.6.2
   reviews: 14
   icon: com.iggroup.android.cfd.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2011-01-24
   updated: 2026-05-29
   version: 10.3292.2
-  reviews: 2971
+  reviews: 2973
   icon: com.igmarkets.ideal.jpg
   meta: ok
   verdict: nosendreceive

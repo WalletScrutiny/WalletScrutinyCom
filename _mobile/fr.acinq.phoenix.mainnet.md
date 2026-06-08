@@ -39,7 +39,7 @@ iphone:
   released: 2021-07-13
   updated: 2026-05-22
   version: 2.8.0
-  reviews: 20
+  reviews: 19
   icon: co.acinq.phoenix.jpg
   meta: ok
   verdict: sourceavailable

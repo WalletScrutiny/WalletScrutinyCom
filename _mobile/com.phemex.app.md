@@ -23,8 +23,8 @@ android:
   appCountry: us
   released: 2020-02-19
   updated: 2026-06-03
-  version: 5.19.1
-  reviews: 1470
+  version: 5.19.3
+  reviews: 1472
   icon: com.phemex.app.png
   meta: ok
   verdict: custodial
@@ -34,8 +34,8 @@ iphone:
   idd: 1499601684
   appCountry: us
   released: 2020-02-20
-  updated: 2026-05-15
-  version: 5.19.0
+  updated: 2026-06-05
+  version: 5.20.0
   reviews: 2741
   icon: com.phemex.submit.jpg
   meta: ok

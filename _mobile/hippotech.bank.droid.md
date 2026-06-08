@@ -31,7 +31,7 @@ iphone:
   released: 2020-06-08
   updated: 2025-05-06
   version: '3.74'
-  reviews: 1364
+  reviews: 1363
   icon: hippotech.bank.ios.jpg
   meta: stale
   verdict: custodial

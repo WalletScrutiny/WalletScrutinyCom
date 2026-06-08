@@ -9,8 +9,8 @@ iphone:
   idd: '6466607380'
   appCountry: us
   released: 2023-10-17
-  updated: 2026-05-16
-  version: 3.8.6
+  updated: 2026-06-06
+  version: 3.8.7
   reviews: 38
   icon: com.BKExchange.appstore.jpg
   meta: ok

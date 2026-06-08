@@ -19,7 +19,7 @@ android:
   version: 1.3.0
   reviews: 118
   icon: io.bitpin.app.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Bitpin App Developer
 

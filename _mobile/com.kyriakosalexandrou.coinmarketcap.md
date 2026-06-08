@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-05-16
-  updated: 2026-04-25
-  version: 16.3.1
+  updated: 2026-06-01
+  version: 16.3.3
   reviews: 1387
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
   meta: ok

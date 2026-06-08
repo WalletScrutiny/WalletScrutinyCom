@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-11-12
-  updated: 2026-05-04
-  version: '2.7'
+  updated: 2026-06-06
+  version: '3.0'
   reviews: 88
   icon: com.internetmoneywallet.app.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1641771042'
   appCountry: us
   released: 2023-04-17
-  updated: 2026-05-04
-  version: '2.7'
+  updated: 2026-06-07
+  version: '3.0'
   reviews: 186
   icon: com.internetmoneywallet.app.jpg
   meta: ok

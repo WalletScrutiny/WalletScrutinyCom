@@ -16,7 +16,7 @@ android:
   users: 500000
   appCountry: us
   updated: 2026-06-04
-  version: 5.13.0
+  version: 5.15.1
   reviews: 10
   icon: com.deblock.deblockapp.png
   meta: ok
@@ -29,7 +29,7 @@ iphone:
   released: 2024-04-02
   updated: 2026-05-27
   version: 5.14.0
-  reviews: 20151
+  reviews: 20520
   icon: com.deblock.deblockapp.production.jpg
   meta: ok
   verdict: custodial

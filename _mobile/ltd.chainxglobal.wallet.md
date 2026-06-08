@@ -10,8 +10,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-09-10
-  updated: 2026-05-11
-  version: 1.0.97
+  updated: 2026-06-07
+  version: 1.0.98
   icon: ltd.chainxglobal.wallet.png
   meta: fewusers
   verdict: wip
@@ -21,8 +21,8 @@ iphone:
   idd: '6751765673'
   appCountry: us
   released: 2025-09-28
-  updated: 2026-05-11
-  version: 1.0.97
+  updated: 2026-06-03
+  version: 1.0.98
   reviews: 8
   icon: ltd.chainxglobal.wallet.jpg
   meta: ok

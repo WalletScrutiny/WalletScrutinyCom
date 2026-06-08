@@ -27,8 +27,8 @@ iphone:
   idd: '1589023233'
   appCountry: bh
   released: 2022-04-11
-  updated: 2026-05-22
-  version: 3.2.10
+  updated: 2026-06-04
+  version: 3.2.11
   reviews: 0
   icon: com.bitmex.app.ios.jpg
   meta: ok

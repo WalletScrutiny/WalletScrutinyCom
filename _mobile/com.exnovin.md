@@ -17,7 +17,7 @@ android:
   released: 2018-07-06
   updated: 2025-12-15
   version: 2.6.9
-  reviews: 82
+  reviews: 80
   icon: com.exnovin.png
   meta: ok
   verdict: custodial

@@ -32,7 +32,7 @@ iphone:
   released: 2019-06-30
   updated: 2026-06-02
   version: 7.3.0
-  reviews: 1740
+  reviews: 1751
   icon: com.nexobank.wallet.jpg
   meta: ok
   verdict: custodial

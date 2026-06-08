@@ -31,8 +31,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-01
-  updated: 2026-04-23
-  version: 6.1.2
+  updated: 2026-06-05
+  version: 6.2.0
   reviews: 659
   icon: com.cakewallet.cake_wallet.png
   meta: ok
@@ -44,8 +44,8 @@ iphone:
   idd: 1334702542
   appCountry: us
   released: 2018-01-19
-  updated: 2026-04-23
-  version: 6.1.2
+  updated: 2026-06-05
+  version: 6.2.0
   reviews: 4211
   icon: com.fotolockr.cakewallet.jpg
   meta: ok

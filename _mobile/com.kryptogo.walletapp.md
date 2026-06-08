@@ -32,8 +32,8 @@ iphone:
   idd: '1593830910'
   appCountry: us
   released: 2021-12-28
-  updated: 2026-05-26
-  version: 3.94.0
+  updated: 2026-06-03
+  version: 3.95.0
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
   meta: ok

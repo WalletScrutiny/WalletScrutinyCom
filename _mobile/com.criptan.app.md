@@ -17,8 +17,8 @@ android:
   users: 50000
   appCountry: us
   released: 2020-08-23
-  updated: 2026-05-07
-  version: 3.4.3
+  updated: 2026-06-03
+  version: 3.5.4
   icon: com.criptan.app.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: '1497960991'
   appCountry: es
   released: 2020-06-18
-  updated: 2026-05-18
-  version: 3.4.3
+  updated: 2026-06-08
+  version: 3.5.4
   reviews: 500
   icon: com.criptan.app.jpg
   meta: ok

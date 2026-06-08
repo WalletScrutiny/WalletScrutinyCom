@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: bg
   released: 2013-03-29
-  updated: 2025-10-21
-  version: 5.9.13
+  updated: 2026-06-05
+  version: 5.9.14
   reviews: 59
   icon: delta.pk.mobile.png
   meta: ok

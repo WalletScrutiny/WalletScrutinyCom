@@ -23,8 +23,8 @@ android:
   appCountry: us
   released: 2018-11-01
   updated: 2026-06-02
-  version: 3.1.11
-  reviews: 561
+  version: 3.1.12
+  reviews: 560
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource
@@ -34,9 +34,9 @@ iphone:
   idd: 1442083982
   appCountry: us
   released: 2018-12-01
-  updated: 2026-05-21
-  version: 3.1.11
-  reviews: 942
+  updated: 2026-06-08
+  version: 3.1.12
+  reviews: 944
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource

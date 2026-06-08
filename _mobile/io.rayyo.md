@@ -30,8 +30,8 @@ iphone:
   idd: '6448856707'
   appCountry: mx
   released: 2024-04-22
-  updated: 2026-04-21
-  version: 0.7.55
+  updated: 2026-06-03
+  version: 0.7.60
   reviews: 36
   icon: io.rayyo.jpg
   meta: ok

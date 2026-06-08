@@ -32,7 +32,7 @@ iphone:
   released: 2019-02-08
   updated: 2026-05-07
   version: 2.4.2
-  reviews: 1137
+  reviews: 1138
   icon: com.mercuryo.app.jpg
   meta: ok
   verdict: custodial

@@ -29,9 +29,9 @@ iphone:
   idd: 1437814700
   appCountry: th
   released: 2019-04-24
-  updated: 2026-05-27
-  version: 4.15.1
-  reviews: 17988
+  updated: 2026-06-04
+  version: 4.16.0
+  reviews: 18342
   icon: com.bitkub.app.jpg
   meta: ok
   verdict: custodial

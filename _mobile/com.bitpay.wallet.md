@@ -27,9 +27,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-10-01
-  updated: 2026-05-12
+  updated: 2026-06-04
   version: 14.42.1
-  reviews: 2304
+  reviews: 2306
   icon: com.bitpay.wallet.png
   meta: ok
   verdict: sourceavailable
@@ -41,9 +41,9 @@ iphone:
   idd: 1149581638
   appCountry: us
   released: 2016-10-24
-  updated: 2026-05-12
-  version: 14.42.1
-  reviews: 3549
+  updated: 2026-06-05
+  version: 14.43.2
+  reviews: 3553
   icon: com.bitpay.wallet.jpg
   meta: ok
   verdict: wip

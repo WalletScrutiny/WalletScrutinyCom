@@ -41,8 +41,8 @@ iphone:
   idd: 980719434
   appCountry: us
   released: 2015-12-14
-  updated: 2026-05-22
-  version: 6.27.0
+  updated: 2026-06-04
+  version: 6.28.0
   reviews: 485
   icon: com.coinspace.wallet.jpg
   meta: ok

@@ -17,7 +17,7 @@ android:
   users: 100000
   appCountry: us
   released: 2018-07-09
-  updated: 2026-05-13
+  updated: 2026-06-04
   version: 6.13.0
   icon: io.coinmerce.app.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1409599830'
   appCountry: nl
   released: 2018-07-29
-  updated: 2026-05-18
-  version: 7.0.0
+  updated: 2026-06-05
+  version: 7.0.2
   reviews: 514
   icon: io.coinmerce.app.jpg
   meta: ok

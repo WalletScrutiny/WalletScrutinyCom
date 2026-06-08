@@ -29,9 +29,9 @@ iphone:
   idd: 674984916
   appCountry: us
   released: 2017-06-26
-  updated: 2026-05-25
-  version: v651.1274.0
-  reviews: 9655
+  updated: 2026-06-04
+  version: v651.1282.0
+  reviews: 9676
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

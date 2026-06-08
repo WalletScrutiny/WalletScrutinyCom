@@ -21,7 +21,7 @@ android:
   released: 2022-02-21
   updated: 2026-04-28
   version: 7.3.1
-  reviews: 209
+  reviews: 208
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-04-27
   version: 7.2.6
-  reviews: 1195
+  reviews: 1197
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive

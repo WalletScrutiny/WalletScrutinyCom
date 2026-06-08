@@ -20,7 +20,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-06-08
-  updated: 2026-05-19
+  updated: 2026-06-07
   version: 5.8.0
   reviews: 30
   icon: com.nanovest.prod.png

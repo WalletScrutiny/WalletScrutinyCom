@@ -20,7 +20,7 @@ android:
   released: 2019-09-30
   updated: 2026-05-02
   version: 2.5.90
-  reviews: 907
+  reviews: 908
   icon: com.roqqu.app.png
   meta: ok
   verdict: custodial

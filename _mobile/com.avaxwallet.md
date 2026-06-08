@@ -33,9 +33,9 @@ iphone:
   idd: '6443685999'
   appCountry: us
   released: 2022-11-28
-  updated: 2026-05-21
-  version: 1.0.31
-  reviews: 146
+  updated: 2026-06-03
+  version: 1.0.32
+  reviews: 147
   icon: org.avalabs.corewallet.jpg
   meta: ok
   verdict: nosource

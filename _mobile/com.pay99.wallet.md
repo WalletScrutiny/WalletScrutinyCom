@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: br
   released: 2021-09-23
-  updated: 2026-05-25
+  updated: 2026-06-04
   version: 8.4.60
-  reviews: 9855
+  reviews: 9867
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 1588184260
   appCountry: br
   released: 2021-10-02
-  updated: 2026-05-25
-  version: 8.4.60
-  reviews: 1976
+  updated: 2026-06-05
+  version: 8.4.64
+  reviews: 1978
   icon: com.pay99.jpg
   meta: ok
   verdict: nosendreceive

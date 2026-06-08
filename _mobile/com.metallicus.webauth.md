@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2021-12-11
   updated: 2026-05-29
-  version: 2.1.61
-  reviews: 87
+  version: 2.1.62
+  reviews: 88
   icon: com.metallicus.webauth.png
   meta: ok
   verdict: nosource
@@ -31,8 +31,8 @@ iphone:
   idd: '1594500069'
   appCountry: us
   released: 2021-12-15
-  updated: 2026-05-20
-  version: 2.1.61
+  updated: 2026-06-07
+  version: 2.1.62
   reviews: 216
   icon: com.metallicus.webauth.jpg
   meta: ok

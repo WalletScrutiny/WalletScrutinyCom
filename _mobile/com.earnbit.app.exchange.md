@@ -27,8 +27,8 @@ iphone:
   idd: '6444002806'
   appCountry: us
   released: 2022-11-08
-  updated: 2026-05-22
-  version: 1.0.27
+  updated: 2026-06-05
+  version: 1.0.28
   reviews: 0
   icon: com.earnBit.exchange.app.jpg
   meta: ok

@@ -15,7 +15,7 @@ android:
   released: 2020-08-19
   updated: 2026-06-03
   version: 2.110.0
-  reviews: 3660
+  reviews: 3659
   icon: com.bitvavo.android.png
   meta: ok
   verdict: custodial
@@ -25,9 +25,9 @@ iphone:
   idd: 1483903423
   appCountry: be
   released: 2020-05-28
-  updated: 2026-06-01
-  version: 2.110.0
-  reviews: 8504
+  updated: 2026-06-08
+  version: 2.111.0
+  reviews: 8505
   icon: com.bitvavo.jpg
   meta: ok
   verdict: custodial

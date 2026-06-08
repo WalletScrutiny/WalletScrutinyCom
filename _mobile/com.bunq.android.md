@@ -21,7 +21,7 @@ android:
   released: 2015-11-25
   updated: 2026-06-03
   version: 31.6.1
-  reviews: 231
+  reviews: 232
   icon: com.bunq.android.png
   meta: ok
   verdict: nosendreceive
@@ -31,9 +31,9 @@ iphone:
   idd: '1021178150'
   appCountry: de
   released: 2016-02-12
-  updated: 2026-05-28
-  version: 31.5.0
-  reviews: 13871
+  updated: 2026-06-04
+  version: 31.6.0
+  reviews: 13916
   icon: com.bunq.ios.jpg
   meta: ok
   verdict: nosendreceive

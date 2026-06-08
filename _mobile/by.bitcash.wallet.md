@@ -25,7 +25,7 @@ iphone:
   released: 2022-01-12
   updated: 2026-05-22
   version: 1.1.1
-  reviews: 20
+  reviews: 21
   icon: by.bitcash.cryptowallet.jpg
   meta: ok
   verdict: custodial

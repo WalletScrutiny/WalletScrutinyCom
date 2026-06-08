@@ -19,7 +19,7 @@ android:
   released: 2020-04-03
   updated: 2026-06-01
   version: 2.84.0
-  reviews: 1692
+  reviews: 1694
   icon: com.bitget.exchange.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2018-11-29
   updated: 2026-06-01
   version: 2.84.0
-  reviews: 2238
+  reviews: 2243
   icon: com.bitget.exchange.global.jpg
   meta: ok
   verdict: custodial

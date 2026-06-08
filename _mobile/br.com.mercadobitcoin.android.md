@@ -16,7 +16,7 @@ android:
   appCountry: us
   released: 2019-07-25
   updated: 2026-05-29
-  version: 2.113.0
+  version: 2.114.0
   reviews: 73
   icon: br.com.mercadobitcoin.android.png
   meta: ok

@@ -23,7 +23,7 @@ android:
   released: 2023-02-14
   updated: 2026-06-03
   version: 2.2.8
-  reviews: 335
+  reviews: 336
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial
@@ -33,9 +33,9 @@ iphone:
   idd: '1660882885'
   appCountry: us
   released: 2023-02-13
-  updated: 2026-05-20
-  version: 2.2.7
-  reviews: 3765
+  updated: 2026-06-04
+  version: 2.2.8
+  reviews: 3773
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial

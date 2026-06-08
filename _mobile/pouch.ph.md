@@ -1,6 +1,6 @@
 ---
 wsId: pouchPh
-title: Isle
+title: POUCH - Buy & Sell Bitcoin
 date: 2022-06-22
 authors:
 - danny
@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-08
-  updated: 2026-04-24
-  version: 1.4.10
+  updated: 2026-06-03
+  version: 1.4.14
   reviews: 4
   icon: pouch.ph.png
   meta: ok

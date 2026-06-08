@@ -26,8 +26,8 @@ iphone:
   idd: '6451258830'
   appCountry: fr
   released: 2023-12-02
-  updated: 2026-05-25
-  version: 7.7.2
+  updated: 2026-06-03
+  version: 7.7.3
   reviews: 395
   icon: com.deskoin.app.jpg
   meta: ok

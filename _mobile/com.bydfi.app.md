@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-01-20
-  updated: 2026-04-28
-  version: 3.9.5
+  updated: 2026-06-04
+  version: 3.9.6
   reviews: 432
   icon: com.bydfi.app.png
   meta: ok
@@ -34,9 +34,9 @@ iphone:
   idd: '6444251506'
   appCountry: us
   released: 2023-02-09
-  updated: 2026-05-11
-  version: 3.9.5
-  reviews: 1194
+  updated: 2026-06-06
+  version: 3.9.6
+  reviews: 1195
   icon: com.bydfi.app.jpg
   meta: ok
   verdict: custodial

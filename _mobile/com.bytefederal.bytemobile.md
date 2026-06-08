@@ -12,7 +12,7 @@ android:
   released: 2025-08-03
   updated: 2026-01-25
   version: 1.13.0
-  reviews: 17
+  reviews: 18
   icon: com.bytefederal.bytemobile.png
   meta: ok
   verdict: nosource

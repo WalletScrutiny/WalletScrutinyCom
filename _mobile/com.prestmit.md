@@ -29,9 +29,9 @@ iphone:
   idd: 1581960714
   appCountry: us
   released: 2021-08-20
-  updated: 2026-04-28
-  version: 7.2.489
-  reviews: 7113
+  updated: 2026-06-04
+  version: 7.2.492
+  reviews: 7146
   icon: com.prestmit.app.jpg
   meta: ok
   verdict: nosendreceive

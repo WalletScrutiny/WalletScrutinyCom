@@ -24,8 +24,8 @@ iphone:
   idd: '6648790101'
   appCountry: al
   released: 2025-01-09
-  updated: 2026-03-31
-  version: 7.0.1
+  updated: 2026-06-06
+  version: 7.1.0
   reviews: 13
   icon: com.darkex.darkex.jpg
   meta: ok

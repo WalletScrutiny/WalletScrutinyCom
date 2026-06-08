@@ -26,7 +26,7 @@ iphone:
   released: 2024-03-20
   updated: 2026-01-14
   version: 1.6.0
-  reviews: 3
+  reviews: 4
   icon: org.budgetcoinz.app.jpg
   meta: ok
   verdict: nosource

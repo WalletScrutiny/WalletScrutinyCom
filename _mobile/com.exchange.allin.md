@@ -24,8 +24,8 @@ iphone:
   idd: '6736860332'
   appCountry: us
   released: 2025-02-10
-  updated: 2026-04-23
-  version: 1.2.4
+  updated: 2026-06-07
+  version: 1.2.5
   reviews: 3
   icon: com.allin.exchange.appStore.jpg
   meta: ok

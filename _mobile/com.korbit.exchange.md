@@ -25,9 +25,9 @@ iphone:
   idd: 1434511619
   appCountry: kr
   released: 2018-10-18
-  updated: 2026-06-02
-  version: 11.15.1
-  reviews: 631
+  updated: 2026-06-04
+  version: 11.15.2
+  reviews: 632
   icon: com.korbit.exchange.jpg
   meta: ok
   verdict: custodial

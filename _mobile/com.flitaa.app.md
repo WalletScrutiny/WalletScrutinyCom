@@ -21,7 +21,7 @@ android:
   version: 1.51.8
   reviews: 570
   icon: com.flitaa.app.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: FLITBASE Apps
 iphone:
@@ -33,7 +33,7 @@ iphone:
   version: 1.51.8
   reviews: 73
   icon: com.flitaa.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: FLITBASE
 

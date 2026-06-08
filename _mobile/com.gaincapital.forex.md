@@ -31,7 +31,7 @@ iphone:
   released: 2020-10-14
   updated: 2026-05-25
   version: 1.254.7929
-  reviews: 241
+  reviews: 242
   icon: com.gaincapital.forex.jpg
   meta: ok
   verdict: nosendreceive

@@ -30,8 +30,8 @@ iphone:
   idd: '6498628503'
   appCountry: us
   released: 2024-08-30
-  updated: 2026-03-08
-  version: 1.7.11
+  updated: 2026-06-04
+  version: 1.7.16
   reviews: 31
   icon: io.unisat.mobile.jpg
   meta: ok

@@ -10,8 +10,8 @@ iphone:
   idd: 1504417378
   appCountry: jp
   released: 2020-10-09
-  updated: 2026-05-30
-  version: 4.29.0
+  updated: 2026-06-04
+  version: 4.30.0
   reviews: 17
   icon: com.vivid.money.jpg
   meta: ok

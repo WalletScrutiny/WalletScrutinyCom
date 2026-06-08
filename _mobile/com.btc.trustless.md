@@ -31,7 +31,7 @@ iphone:
   released: 2026-02-03
   updated: 2026-06-01
   version: 2.0.2
-  reviews: 0
+  reviews: 1
   icon: com.btc.trustless.jpg
   meta: fewusers
   verdict: wip

@@ -34,8 +34,8 @@ iphone:
   idd: '1560681080'
   appCountry: fi
   released: 2021-06-03
-  updated: 2026-05-30
-  version: 11.14.0
+  updated: 2026-06-05
+  version: 11.15.0
   reviews: 4
   icon: com.xapo.bank.jpg
   meta: ok

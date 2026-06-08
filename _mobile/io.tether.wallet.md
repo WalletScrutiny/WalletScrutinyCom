@@ -22,7 +22,7 @@ android:
   released: 2026-03-19
   updated: 2026-05-30
   version: 1.3.0
-  reviews: 9
+  reviews: 8
   icon: io.tether.wallet.png
   meta: ok
   verdict: nosource
@@ -35,7 +35,7 @@ iphone:
   released: 2026-04-14
   updated: 2026-06-02
   version: 1.3.0
-  reviews: 8
+  reviews: 9
   icon: io.tether.wallet.official.jpg
   meta: ok
   verdict: nosource

@@ -32,8 +32,8 @@ iphone:
   idd: '1622756458'
   appCountry: us
   released: 2022-09-13
-  updated: 2026-05-26
-  version: 1.139.1
+  updated: 2026-06-08
+  version: 1.139.2
   reviews: 135
   icon: com.mpcvault.mobileapp.ios.jpg
   meta: ok

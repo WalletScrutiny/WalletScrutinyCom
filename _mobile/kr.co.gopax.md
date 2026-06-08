@@ -15,7 +15,7 @@ android:
   released: 2018-11-05
   updated: 2026-06-02
   version: 1.9.51.7763
-  reviews: 1537
+  reviews: 1536
   icon: kr.co.gopax.png
   meta: ok
   verdict: custodial

@@ -16,7 +16,7 @@ android:
   appCountry: us
   released: 2014-12-17
   updated: 2026-06-01
-  version: 2.171.0
+  version: 2.172.0
   reviews: 216
   icon: com.xtb.xmobile2.png
   meta: ok

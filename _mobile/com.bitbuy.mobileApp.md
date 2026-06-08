@@ -32,7 +32,7 @@ iphone:
   released: 2019-10-21
   updated: 2025-12-08
   version: 5.3.3
-  reviews: 7374
+  reviews: 7375
   icon: com.bitbuy.mobileApp.jpg
   meta: ok
   verdict: custodial

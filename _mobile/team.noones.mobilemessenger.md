@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2023-05-04
   updated: 2026-05-29
-  version: 1.26.0
+  version: 1.27.0
   reviews: 158
   icon: team.noones.mobilemessenger.png
   meta: ok

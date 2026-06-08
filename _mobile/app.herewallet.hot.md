@@ -24,7 +24,7 @@ android:
   released: 2025-03-26
   updated: 2025-06-15
   version: '1.0'
-  reviews: 64
+  reviews: 65
   icon: app.herewallet.hot.png
   meta: ok
   verdict: nosource

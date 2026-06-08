@@ -10,9 +10,9 @@ iphone:
   idd: '1672392439'
   appCountry: us
   released: 2024-03-28
-  updated: 2026-06-03
-  version: 3.5.1
-  reviews: 106
+  updated: 2026-06-08
+  version: 3.5.2
+  reviews: 107
   icon: co.electriccoin.secant-mainnet.jpg
   meta: ok
   verdict: wip

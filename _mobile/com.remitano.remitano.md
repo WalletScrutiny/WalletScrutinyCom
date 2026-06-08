@@ -33,8 +33,8 @@ iphone:
   idd: 1116327021
   appCountry: za
   released: 2016-05-28
-  updated: 2026-05-18
-  version: 8.17.0
+  updated: 2026-06-06
+  version: 8.18.0
   reviews: 378
   icon: com.remitano.remitano.jpg
   meta: ok

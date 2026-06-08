@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: 'BitMart: Buy Bitcoin & Crypto'
+title: 'BitMart: Buy Crypto & Stocks'
 date: 2021-05-20
 authors:
 - leo
@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-09
-  updated: 2026-06-02
-  version: 4.4.1
-  reviews: 3755
+  updated: 2026-06-05
+  version: 4.5.2
+  reviews: 3776
   icon: com.bitmart.bitmarket.png
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2018-08-02
   updated: 2026-05-26
   version: 4.5.0
-  reviews: 3362
+  reviews: 3364
   icon: com.bitmart.exchange.jpg
   meta: ok
   verdict: custodial

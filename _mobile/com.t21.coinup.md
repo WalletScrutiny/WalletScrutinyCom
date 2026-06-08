@@ -10,8 +10,8 @@ iphone:
   idd: '1645045725'
   appCountry: us
   released: 2022-10-13
-  updated: 2026-05-15
-  version: '100031'
+  updated: 2026-06-08
+  version: '100034'
   reviews: 28
   icon: com.t21.coinup.jpg
   meta: ok

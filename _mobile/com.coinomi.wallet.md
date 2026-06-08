@@ -31,8 +31,8 @@ android:
   appCountry: us
   released: 2014-01-31
   updated: 2026-05-28
-  version: 1.67.1
-  reviews: 2325
+  version: 1.67.2
+  reviews: 2319
   icon: com.coinomi.wallet.png
   meta: ok
   verdict: nosource
@@ -44,7 +44,7 @@ iphone:
   released: 2018-03-22
   updated: 2026-06-01
   version: 1.67.2
-  reviews: 2099
+  reviews: 2101
   icon: com.coinomi.wallet.jpg
   meta: ok
   verdict: nosource
