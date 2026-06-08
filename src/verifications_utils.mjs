@@ -762,7 +762,13 @@ function sanitizeDangerousHTML(content) {
   return sanitizedContent;
 }
 
+const sanitizedEvents = new WeakSet();
+
 function eventSanitize(event) {
+  if (sanitizedEvents.has(event)) {
+    return;
+  }
+
   const isBrowser = typeof window !== 'undefined';
 
   // Sanitize content
@@ -816,6 +822,8 @@ function eventSanitize(event) {
 
     tag[1] = sanitizedTag;
   });
+
+  sanitizedEvents.add(event);
 }
 
 const getFileAttachmentIDsForVerificationEvent = function(event) {
