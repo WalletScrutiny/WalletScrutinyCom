@@ -985,14 +985,24 @@ const dbVersion = 3;
 const eventsStoreName = 'events';
 const profilesStoreName = 'profiles';
 
+let dbOpenPromise = null;
+
 const initDB = () => {
-  return new Promise((resolve, reject) => {
+  if (dbOpenPromise) {
+    return dbOpenPromise;
+  }
+
+  dbOpenPromise = new Promise((resolve, reject) => {
     if (typeof window === 'undefined' || !window.indexedDB) {
+      dbOpenPromise = null;
       reject(new Error("IndexedDB is not available"));
       return;
     }
     const request = window.indexedDB.open(dbName, dbVersion);
-    request.onerror = (event) => reject("IndexedDB error: " + event.target.errorCode);
+    request.onerror = (event) => {
+      dbOpenPromise = null;
+      reject("IndexedDB error: " + event.target.errorCode);
+    };
     request.onsuccess = (event) => resolve(event.target.result);
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
@@ -1015,6 +1025,8 @@ const initDB = () => {
       }
     };
   });
+
+  return dbOpenPromise;
 };
 
 /**
