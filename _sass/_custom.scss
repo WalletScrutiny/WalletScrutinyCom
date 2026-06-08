@@ -809,6 +809,7 @@
     }
   }
   .item {
+    position: relative;
     text-decoration: none;
     color: var(--text);
     &:hover {
