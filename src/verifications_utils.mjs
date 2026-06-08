@@ -1227,8 +1227,6 @@ const backgroundSyncEvents = async function() {
     console.log('🔄 Background sync starting...');
 
     const SYNC_LIMIT = 500; // Max events per query (relay limit)
-    const ALL_KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind,
-      endorsementKind, verificationCommentKind, codeSnippetKind];
 
     // 1. Sync verifications and drafts (newer events)
     const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
