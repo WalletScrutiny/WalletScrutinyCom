@@ -819,7 +819,10 @@ function eventSanitize(event) {
 }
 
 const getFileAttachmentIDsForVerificationEvent = function(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]).filter(id => id.length === 64) || [];
+  const tags = event.getMatchingTags
+    ? event.getMatchingTags('file-attachment')
+    : (event.tags?.filter(t => t[0] === 'file-attachment') ?? []);
+  return tags.map(tag => tag[1]).filter(id => id?.length === 64);
 }
 
 const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
@@ -879,8 +882,8 @@ const getEndorsementsFromVerificationEventIds = async function(verificationEvent
   // Group endorsements by the value of the 'e' tag (verification event id)
   const grouped = {};
   for (const endorsement of endorsements) {
-    const eTag = endorsement.tags.find(tag => tag[0] === 'e').filter(id => id.length === 64);
-    if (eTag && eTag[1]) {
+    const eTag = endorsement.tags?.find(tag => tag[0] === 'e' && tag[1]?.length === 64);
+    if (eTag?.[1]) {
       if (!grouped[eTag[1]]) {
         grouped[eTag[1]] = [];
       }
@@ -1531,9 +1534,9 @@ const getAllAssetInformation = async function({ months,
 
   // 1. Load from IDB
   try {
-    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds });
+    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds, since: baseSince });
     if (cachedEvents && cachedEvents.length > 0) {
-      console.debug(`Loaded ${cachedEvents.length} events from IDB`);
+      console.debug(`Loaded ${cachedEvents.length} events from IDB (since ${baseSince})`);
 
       cachedEvents.forEach(eventData => {
         // Filter relevant events based on request parameters
@@ -1561,13 +1564,8 @@ const getAllAssetInformation = async function({ months,
           includeEvent = false;
         }
 
-        if (includeEvent && months && eventData.created_at != null && eventData.created_at < baseSince) {
-          includeEvent = false;
-        }
-
         if (includeEvent) {
-          const ndkEvent = new NDKEvent(ndk, eventData);
-          events.add(ndkEvent);
+          events.add(eventData);
 
           if (eventData.created_at) {
             if (newestEventTimestamp < eventData.created_at) {
