@@ -762,7 +762,13 @@ function sanitizeDangerousHTML(content) {
   return sanitizedContent;
 }
 
+const sanitizedEvents = new WeakSet();
+
 function eventSanitize(event) {
+  if (sanitizedEvents.has(event)) {
+    return;
+  }
+
   const isBrowser = typeof window !== 'undefined';
 
   // Sanitize content
@@ -816,10 +822,15 @@ function eventSanitize(event) {
 
     tag[1] = sanitizedTag;
   });
+
+  sanitizedEvents.add(event);
 }
 
 const getFileAttachmentIDsForVerificationEvent = function(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]).filter(id => id.length === 64) || [];
+  const tags = event.getMatchingTags
+    ? event.getMatchingTags('file-attachment')
+    : (event.tags?.filter(t => t[0] === 'file-attachment') ?? []);
+  return tags.map(tag => tag[1]).filter(id => id?.length === 64);
 }
 
 const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
@@ -879,8 +890,8 @@ const getEndorsementsFromVerificationEventIds = async function(verificationEvent
   // Group endorsements by the value of the 'e' tag (verification event id)
   const grouped = {};
   for (const endorsement of endorsements) {
-    const eTag = endorsement.tags.find(tag => tag[0] === 'e').filter(id => id.length === 64);
-    if (eTag && eTag[1]) {
+    const eTag = endorsement.tags?.find(tag => tag[0] === 'e' && tag[1]?.length === 64);
+    if (eTag?.[1]) {
       if (!grouped[eTag[1]]) {
         grouped[eTag[1]] = [];
       }
@@ -974,14 +985,24 @@ const dbVersion = 3;
 const eventsStoreName = 'events';
 const profilesStoreName = 'profiles';
 
+let dbOpenPromise = null;
+
 const initDB = () => {
-  return new Promise((resolve, reject) => {
+  if (dbOpenPromise) {
+    return dbOpenPromise;
+  }
+
+  dbOpenPromise = new Promise((resolve, reject) => {
     if (typeof window === 'undefined' || !window.indexedDB) {
+      dbOpenPromise = null;
       reject(new Error("IndexedDB is not available"));
       return;
     }
     const request = window.indexedDB.open(dbName, dbVersion);
-    request.onerror = (event) => reject("IndexedDB error: " + event.target.errorCode);
+    request.onerror = (event) => {
+      dbOpenPromise = null;
+      reject("IndexedDB error: " + event.target.errorCode);
+    };
     request.onsuccess = (event) => resolve(event.target.result);
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
@@ -1004,6 +1025,8 @@ const initDB = () => {
       }
     };
   });
+
+  return dbOpenPromise;
 };
 
 /**
@@ -1204,8 +1227,6 @@ const backgroundSyncEvents = async function() {
     console.log('🔄 Background sync starting...');
 
     const SYNC_LIMIT = 500; // Max events per query (relay limit)
-    const ALL_KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind,
-      endorsementKind, verificationCommentKind, codeSnippetKind];
 
     // 1. Sync verifications and drafts (newer events)
     const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
@@ -1391,70 +1412,63 @@ const backgroundSyncEvents = async function() {
  * Helper function to process raw NDK events into our application structure
  * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
+function getVerificationHashList(event) {
+  const hashes = event.tags
+    ?.filter(tag => tag[0] === 'x')
+    .map(tag => tag[1])
+    .filter(id => id?.length === 64) ?? [];
+  return hashes.length > 0 ? hashes : [getFirstTagValue(event, 'x', null)].filter(Boolean);
+}
+
 function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
-  const reported = reportedVerificationIds && reportedVerificationIds.size
-    ? reportedVerificationIds
-    : null;
-
-  events.forEach(event => {
-    eventSanitize(event);
-  });
-
-  // Relaxed filtering: Accept verifications from any client to prevent data loss
-  const assets = Array.from(events).filter(event => assetRegistrationKinds.includes(event.kind));
-
-  const verifications = Array.from(events).filter(event =>
-    event.kind === verificationKind && (!reported || !reported.has(event.id))
-  );
-
-  const draftVerifications = Array.from(events).filter(event =>
-    event.kind === verificationDraftKind &&
-    getFirstTagValue(event, 'client') === 'WalletScrutiny.com' &&
-    (!reported || !reported.has(event.id))
-  );
+  const reported = reportedVerificationIds?.size ? reportedVerificationIds : null;
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
   const draftVerificationsMap = new Map();
+  const verificationDeduplicationMap = new Map();
+  let verificationCount = 0;
 
-  assets.forEach(asset => {
-    const indexHashes = getAssetIndexHashes(asset);
-    for (const sha256FromEventTag of indexHashes) {
-      if (!assetsMap.has(sha256FromEventTag)) {
-        assetsMap.set(sha256FromEventTag, []);
+  for (const event of events) {
+    eventSanitize(event);
+    const kind = event.kind;
+
+    if (assetRegistrationKinds.includes(kind)) {
+      for (const sha256FromEventTag of getAssetIndexHashes(event)) {
+        if (!assetsMap.has(sha256FromEventTag)) {
+          assetsMap.set(sha256FromEventTag, []);
+        }
+        assetsMap.get(sha256FromEventTag).push(event);
       }
-      assetsMap.get(sha256FromEventTag).push(asset);
+      continue;
     }
-  });
 
-  // Deduplicate verifications by (hash, pubkey) - keep only newest per user per hash
-  const verificationDeduplicationMap = new Map(); // key: "hash:pubkey" -> newest event
+    if (kind === verificationKind && (!reported || !reported.has(event.id))) {
+      verificationCount++;
+      for (const sha256FromEventTag of getVerificationHashList(event)) {
+        const dedupKey = `${sha256FromEventTag}:${event.pubkey}`;
+        const existing = verificationDeduplicationMap.get(dedupKey);
+        if (!existing || event.created_at > existing.created_at) {
+          verificationDeduplicationMap.set(dedupKey, event);
+        }
+      }
+      continue;
+    }
 
-  verifications.forEach(verification => {
-    const hashes = verification.tags
-      ?.filter(tag => tag[0] === 'x')
-      .map(tag => tag[1])
-      .filter(id => id?.length === 64) ?? [];
-    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(verification, 'x', null)].filter(Boolean);
-
-    for (const sha256FromEventTag of hashList) {
-      const dedupKey = `${sha256FromEventTag}:${verification.pubkey}`;
-      const existing = verificationDeduplicationMap.get(dedupKey);
-
-      if (!existing || verification.created_at > existing.created_at) {
-        verificationDeduplicationMap.set(dedupKey, verification);
+    if (kind === verificationDraftKind &&
+        getFirstTagValue(event, 'client') === 'WalletScrutiny.com' &&
+        (!reported || !reported.has(event.id))) {
+      for (const sha256FromEventTag of getVerificationHashList(event)) {
+        if (!draftVerificationsMap.has(sha256FromEventTag)) {
+          draftVerificationsMap.set(sha256FromEventTag, []);
+        }
+        draftVerificationsMap.get(sha256FromEventTag).push(event);
       }
     }
-  });
+  }
 
   verificationDeduplicationMap.forEach(verification => {
-    const hashes = verification.tags
-      ?.filter(tag => tag[0] === 'x')
-      .map(tag => tag[1])
-      .filter(id => id?.length === 64) ?? [];
-    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(verification, 'x', null)].filter(Boolean);
-
-    for (const sha256FromEventTag of hashList) {
+    for (const sha256FromEventTag of getVerificationHashList(verification)) {
       if (!verificationsMap.has(sha256FromEventTag)) {
         verificationsMap.set(sha256FromEventTag, []);
       }
@@ -1462,22 +1476,7 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
     }
   });
 
-  console.debug(`Deduplicated ${verifications.length} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
-
-  draftVerifications.forEach(draftVerification => {
-    const hashes = draftVerification.tags
-      ?.filter(tag => tag[0] === 'x')
-      .map(tag => tag[1])
-      .filter(id => id?.length === 64) ?? [];
-    const hashList = hashes.length > 0 ? hashes : [getFirstTagValue(draftVerification, 'x', null)].filter(Boolean);
-
-    for (const sha256FromEventTag of hashList) {
-      if (!draftVerificationsMap.has(sha256FromEventTag)) {
-        draftVerificationsMap.set(sha256FromEventTag, []);
-      }
-      draftVerificationsMap.get(sha256FromEventTag).push(draftVerification);
-    }
-  });
+  console.debug(`Deduplicated ${verificationCount} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
 
   return {
     assets: assetsMap,
@@ -1531,9 +1530,9 @@ const getAllAssetInformation = async function({ months,
 
   // 1. Load from IDB
   try {
-    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds });
+    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds, since: baseSince });
     if (cachedEvents && cachedEvents.length > 0) {
-      console.debug(`Loaded ${cachedEvents.length} events from IDB`);
+      console.debug(`Loaded ${cachedEvents.length} events from IDB (since ${baseSince})`);
 
       cachedEvents.forEach(eventData => {
         // Filter relevant events based on request parameters
@@ -1561,13 +1560,8 @@ const getAllAssetInformation = async function({ months,
           includeEvent = false;
         }
 
-        if (includeEvent && months && eventData.created_at != null && eventData.created_at < baseSince) {
-          includeEvent = false;
-        }
-
         if (includeEvent) {
-          const ndkEvent = new NDKEvent(ndk, eventData);
-          events.add(ndkEvent);
+          events.add(eventData);
 
           if (eventData.created_at) {
             if (newestEventTimestamp < eventData.created_at) {

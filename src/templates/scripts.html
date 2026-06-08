@@ -22,13 +22,8 @@
     window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
 
     (async function() {
-      await nostrConnect();
-
-      // If not on the home page, wait 1 second to let verifications load first
-      // If it's the home page, we want it as fast as possible
-      {% if page.url != "/" %}
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      {% endif %}
+      // Start NDK in parallel; getAllAssetInformation reads IDB first without waiting.
+      const ndkConnectPromise = nostrConnect();
 
       // Load with cache - this will fire the event IMMEDIATELY with cached data
       // then update in background when fresh data arrives
@@ -42,7 +37,9 @@
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
         }
       });
-      
+
+      await ndkConnectPromise.catch(() => {});
+
       // Now fire the event with fresh data if it wasn't fired before, or if it's the verifiers page
       if (!loadedFromCache || {% if page.url == "/verifiers/" %}true{% else %}false{% endif %}) {
         window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
