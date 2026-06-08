@@ -63,6 +63,8 @@ pre {
         <li>Making binary build verification results publicly accessible</li>
         <li>Building trust through community participation</li>
     </ul>
+
+    <p>Some verifications are created automatically by the <a href="/automated-build-server/">WalletScrutiny Automated Build Server</a>, which re-runs community-published <code>build.sh</code> scripts when new binaries are registered. If you want your script to be eligible for automatic runs, see the <a href="/automated-build-server/">ABS documentation</a> and the <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/docs/script_verifications.md" target="_blank" rel="noopener noreferrer">script rules on GitLab</a>.</p>
 </div>
 
 <div class="getting-started">
