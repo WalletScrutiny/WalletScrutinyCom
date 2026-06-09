@@ -134,10 +134,35 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
   helper.updateMeta(metaCtx);
 }
 
-function add (newIdds) {
+function add (newIdds, options = {}) {
+  const { mergeInto } = options;
   console.log(`Adding skeletons for ${newIdds.length} apps ...`);
 
   function refreshOrAdd (appId, iphone) {
+    if (mergeInto) {
+      const targetFile = `${mergeInto}.md`;
+      const targetPath = path.join(MOBILE_DIR, targetFile);
+      let loaded;
+      try {
+        loaded = loadMobileFromFile(targetPath);
+      } catch {
+        console.error(`Error: _mobile/${targetFile} not found.`);
+        return;
+      }
+      if (loaded.mobile.iphone) {
+        console.error(`Error: ${targetFile} already has an iphone block. Aborting --merge-into.`);
+        return;
+      }
+      if (!loaded.mobile.redirect_from) loaded.mobile.redirect_from = [];
+      const redirectEntry = `/iphone/${appId}/`;
+      if (!loaded.mobile.redirect_from.includes(redirectEntry)) {
+        loaded.mobile.redirect_from.push(redirectEntry);
+      }
+      loaded.mobile.iphone = iphone;
+      refreshFile(targetFile, loaded);
+      return;
+    }
+
     findMobileFileByIphoneAppId(appId)
       .then((file) => {
         if (file) {
