@@ -2,8 +2,6 @@
 title: Debifi
 date: 2026-06-09
 website: https://debifi.com
-redirect_from:
-  - /iphone/com.debifi.ios/
 android:
   appId: com.wagmi.debifi.android.mainnet
   users: 1000
