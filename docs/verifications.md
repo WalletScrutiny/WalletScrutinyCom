@@ -41,7 +41,7 @@ Trust in verifications is built through:
 - If a product ships multiple artifacts, such as `.deb`, `.rpm`, `.exe`, `.dmg`, firmware variants, or Android split APKs, each artifact or required artifact set can have its own result
 - Product pages and social share images should summarize coverage, for example: "We verified N artifacts for this version; M were reproducible"
 - They should not imply that one artifact result is the final verdict for every file shipped under the same product version
-- For Android split APK sets, the verification should cover the full set of files described by the asset registration; if any required split fails, that split set is not reproducible, while per-split results should still be shown
+- For Android split APK sets, the verification should cover the full set of files described by the asset registration; if any required split fails, that split set is not reproducible
 - Artifacts not yet verified should be treated as `unverified`, not `not_reproducible`; never mark an artifact as failed because a different artifact in the same release failed
 - For Nostr verification events covering a multi-artifact set (such as Android split APKs), include one `x` tag per artifact hash; set `status` to the set-level verdict; document per-artifact results in the event `content`
 
