@@ -109,9 +109,9 @@ for folder in bearer android iphone hardware desktop others web; do
     icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename 2>/dev/null | sed 's/^icon: //g')
   fi
   for i in $icons; do
-    mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
+    [ -f "$tmpFolder/wIcons/${folder}/$i" ] && mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
     for s in small tiny; do
-      mv $tmpFolder/wIcons/${folder}/${s}/$i images/wIcons/${folder}/${s}/$i
+      [ -f "$tmpFolder/wIcons/${folder}/${s}/$i" ] && mv $tmpFolder/wIcons/${folder}/${s}/$i images/wIcons/${folder}/${s}/$i
     done
   done
 done
