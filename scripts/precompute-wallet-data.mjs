@@ -39,6 +39,16 @@ for (const file of fs.readdirSync(verdictsDir)) {
 // Platform folders to process
 const platforms = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 
+// Load verdict groups for homepage stats
+const verdictGroups = yaml.load(
+  fs.readFileSync(path.join(ROOT, '_data/verdictGroups.yml'), 'utf8')
+) || [];
+
+// Load features for walletLink alert badges
+const featuresData = yaml.load(
+  fs.readFileSync(path.join(ROOT, '_data/features.yml'), 'utf8')
+) || {};
+
 /**
  * Parse frontmatter from markdown file
  */
@@ -119,6 +129,199 @@ function buildSeeAlsoIndex(allWallets) {
   }
   
   return wsIdIndex;
+}
+
+/**
+ * Resolve icon/title for walletLink.html (matches Liquid logic in _includes/walletLink.html).
+ */
+function resolveMobileWalletLinkDisplay(wallet, linkPlatform) {
+  const android = wallet.android || {};
+  const iphone = wallet.iphone || {};
+  let icon_platform = linkPlatform;
+  let icon_name = null;
+  let link_title = null;
+
+  if (linkPlatform === 'iphone' && iphone.icon) {
+    icon_platform = 'iphone';
+    icon_name = iphone.icon;
+    link_title = iphone.altTitle || wallet.title;
+  } else if (linkPlatform === 'android' && android.icon) {
+    icon_platform = 'android';
+    icon_name = android.icon;
+    link_title = android.altTitle || wallet.title;
+  } else if (android.icon) {
+    icon_platform = 'android';
+    icon_name = android.icon;
+    link_title = android.altTitle || wallet.title;
+  } else if (iphone.icon) {
+    icon_platform = 'iphone';
+    icon_name = iphone.icon;
+    link_title = iphone.altTitle || wallet.title;
+  } else {
+    link_title = wallet.title;
+  }
+
+  return { icon_platform, icon_name, link_title };
+}
+
+function buildWalletLinkEntry(wallet, linkPlatform, icon_platform, icon_name, link_title, url) {
+  const walletFeatures = (Array.isArray(wallet.features) ? wallet.features : [])
+    .filter(f => typeof f === 'string');
+  const alertFeatures = walletFeatures
+    .filter(f => featuresData[f]?.alert)
+    .map(f => ({
+      key: f,
+      short: featuresData[f].short || f,
+      message: (featuresData[f].alert || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+    }));
+
+  return {
+    url,
+    title: link_title || wallet.altTitle || wallet.title || '',
+    icon_platform,
+    icon_name: icon_name || '',
+    verdict: wallet.verdict || '',
+    meta: wallet.meta || '',
+    alertFeatures,
+  };
+}
+
+/**
+ * Build O(1) walletLink lookup index (replaces where_exp on site.mobile in Liquid).
+ */
+function buildWalletLinksIndex(allWallets) {
+  const walletLinks = {};
+
+  const setEntry = (key, entry) => {
+    if (key && !walletLinks[key]) {
+      walletLinks[key] = entry;
+    }
+  };
+
+  for (const wallet of allWallets.mobile || []) {
+    const slug = wallet._slug || wallet.appId;
+    const url = `/mobile/${slug}/`;
+    const android = wallet.android || {};
+    const iphone = wallet.iphone || {};
+
+    for (const linkPlatform of ['android', 'iphone', 'mobile']) {
+      const { icon_platform, icon_name, link_title } = resolveMobileWalletLinkDisplay(wallet, linkPlatform);
+      const entry = buildWalletLinkEntry(wallet, linkPlatform, icon_platform, icon_name, link_title, url);
+      if (linkPlatform === 'android' && android.appId) {
+        setEntry(`android/${android.appId}`, entry);
+      }
+      if (linkPlatform === 'iphone' && iphone.appId) {
+        setEntry(`iphone/${iphone.appId}`, entry);
+      }
+      if (linkPlatform === 'mobile') {
+        setEntry(`mobile/${slug}`, entry);
+      }
+    }
+  }
+
+  for (const platform of ['hardware', 'bearer', 'desktop', 'others']) {
+    for (const wallet of allWallets[platform] || []) {
+      const appId = wallet.appId;
+      if (!appId) continue;
+      const url = `/${platform}/${appId}/`;
+      const entry = buildWalletLinkEntry(
+        wallet,
+        platform,
+        platform,
+        wallet.icon || '',
+        wallet.altTitle || wallet.title,
+        url
+      );
+      setEntry(`${platform}/${appId}`, entry);
+    }
+  }
+
+  return walletLinks;
+}
+
+/**
+ * Effective meta/verdict for homepage verdict groups (matches product_matches_verdict_group.html).
+ */
+function computeEffectiveMetaVerdict(product, isMobile) {
+  let eff_meta = product.meta || 'ok';
+  let eff_verdict = product.verdict || '';
+
+  if (isMobile && (product.android?.appId || product.iphone?.appId || product.iphone?.idd)) {
+    const am = product.android?.meta || 'ok';
+    const im = product.iphone?.meta || 'ok';
+    if (product.android?.appId && product.iphone?.appId) {
+      eff_meta = (am === 'obsolete' && im === 'obsolete') ? 'obsolete' : am;
+    } else if (product.android?.appId) {
+      eff_meta = am;
+    } else {
+      eff_meta = im;
+    }
+    if (product.android?.appId) {
+      eff_verdict = product.android?.verdict || eff_verdict;
+    } else if (product.iphone?.appId || product.iphone?.idd) {
+      eff_verdict = product.iphone?.verdict || eff_verdict;
+    }
+  }
+
+  return { eff_meta, eff_verdict };
+}
+
+function productMatchesVerdictGroup(eff_meta, eff_verdict, verdictGroup) {
+  if (verdictGroup.metas?.length > 0 && verdictGroup.metas.includes(eff_meta)) {
+    return true;
+  }
+  if (verdictGroup.verdicts?.length > 0 && eff_verdict !== '' && verdictGroup.verdicts.includes(eff_verdict)) {
+    return true;
+  }
+  return false;
+}
+
+function buildVerdictGroupCounts(allWallets) {
+  const counts = Object.fromEntries(verdictGroups.map(g => [g.key, 0]));
+  let totalReviewedProducts = 0;
+
+  for (const platform of platforms) {
+    const wallets = allWallets[platform] || [];
+    const isMobile = platform === 'mobile';
+    for (const wallet of wallets) {
+      totalReviewedProducts++;
+      const { eff_meta, eff_verdict } = computeEffectiveMetaVerdict(wallet, isMobile);
+      for (const group of verdictGroups) {
+        if (productMatchesVerdictGroup(eff_meta, eff_verdict, group)) {
+          counts[group.key]++;
+        }
+      }
+    }
+  }
+
+  return { verdictGroupCounts: counts, totalReviewedProducts };
+}
+
+/**
+ * Custody step verdict indices (matches loop in _includes/review/steps/custody.html).
+ */
+function computeVerdictIndices(platform, stepVerdict) {
+  const verdictsList = platformMeta[platform]?.verdicts || [];
+  let custodyIndex = 0;
+  let verdictIndex = 0;
+  let iterationCount = 0;
+  for (const verdict of verdictsList) {
+    iterationCount++;
+    if (verdict === stepVerdict) verdictIndex = iterationCount;
+    if (verdict === 'custodial') custodyIndex = iterationCount;
+  }
+  return { custodyIndex, verdictIndex };
+}
+
+function buildVerdictIndicesMap() {
+  const verdictIndices = {};
+  for (const platform of Object.keys(platformMeta)) {
+    const platformVerdicts = platformMeta[platform]?.verdicts || [];
+    for (const verdict of platformVerdicts) {
+      verdictIndices[`${platform}-${verdict}`] = computeVerdictIndices(platform, verdict);
+    }
+  }
+  return verdictIndices;
 }
 
 /**
@@ -211,6 +414,13 @@ const precomputed = {
   walletScores: {},
   // Key: "platform/appId" (seeAlso is per-wallet)
   seeAlso: {},
+  // Key: "platform/appId" (walletLink O(1) lookup)
+  walletLinks: {},
+  // Key: verdict group key -> product count
+  verdictGroupCounts: {},
+  totalReviewedProducts: 0,
+  // Key: "platform-verdict" -> custody step indices
+  verdictIndices: {},
   generated: new Date().toISOString()
 };
 
@@ -257,6 +467,17 @@ for (const platform of platforms) {
   }
 }
 
+console.log('  Building walletLinks index...');
+precomputed.walletLinks = buildWalletLinksIndex(allWallets);
+
+console.log('  Building verdict group counts...');
+const groupCounts = buildVerdictGroupCounts(allWallets);
+precomputed.verdictGroupCounts = groupCounts.verdictGroupCounts;
+precomputed.totalReviewedProducts = groupCounts.totalReviewedProducts;
+
+console.log('  Building verdict indices for custody step...');
+precomputed.verdictIndices = buildVerdictIndicesMap();
+
 // Write precomputed.json
 const outputPath = path.join(ROOT, '_data/precomputed.json');
 fs.writeFileSync(outputPath, JSON.stringify(precomputed, null, 2));
@@ -264,6 +485,8 @@ fs.writeFileSync(outputPath, JSON.stringify(precomputed, null, 2));
 console.log(`\nGenerated ${outputPath}`);
 console.log(`  Wallet scores: ${Object.keys(precomputed.walletScores).length} unique platform-verdict combinations`);
 console.log(`  SeeAlso links: ${Object.keys(precomputed.seeAlso).length} wallets with cross-platform links`);
+console.log(`  Wallet links: ${Object.keys(precomputed.walletLinks).length} lookup keys`);
+console.log(`  Verdict group counts: ${precomputed.totalReviewedProducts} products across ${verdictGroups.length} groups`);
 
 // Generate wallets.json (replaces Liquid template generation)
 console.log('\nGenerating wallets.json...');
@@ -329,9 +552,6 @@ console.log(`  Generated ${walletsJsonPath}`);
 // Generate allProducts.json (used by allWallets.js)
 console.log('\nGenerating allProducts.json...');
 
-// Load features.yml to compute alertFeatures
-const featuresYml = fs.readFileSync(path.join(ROOT, '_data/features.yml'), 'utf8');
-const featuresData = yaml.load(featuresYml) || {};
 const alertFeatureKeys = new Set(Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k]) => k));
 
 const allProductsJson = {

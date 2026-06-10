@@ -1,53 +1,19 @@
+{%- comment -%}
+  O(1) wallet lookup via precomputed.json (see scripts/precompute-wallet-data.mjs).
+{%- endcomment -%}
 {% assign parts = include.wallet | split: "/" %}
 {% assign link_platform = parts[0] %}
 {% assign link_app_id = parts[1] %}
-{% assign w = nil %}
-{% assign icon_platform = link_platform %}
-{% assign icon_name = nil %}
-{% assign link_title = nil %}
-
-{% if link_platform == 'android' or link_platform == 'iphone' or link_platform == 'mobile' %}
-  {% assign w = site.mobile | where_exp: "item", "item.android.appId == link_app_id or item.iphone.appId == link_app_id" | first %}
-  {% unless w %}
-    {% assign w = site.mobile | where: "slug", link_app_id | first %}
-  {% endunless %}
-  {% if w %}
-    {% if link_platform == 'iphone' and w.iphone.icon %}
-      {% assign icon_platform = 'iphone' %}
-      {% assign icon_name = w.iphone.icon %}
-      {% assign link_title = w.iphone.altTitle | default: w.title %}
-    {% elsif link_platform == 'android' and w.android.icon %}
-      {% assign icon_platform = 'android' %}
-      {% assign icon_name = w.android.icon %}
-      {% assign link_title = w.android.altTitle | default: w.title %}
-    {% elsif w.android.icon %}
-      {% assign icon_platform = 'android' %}
-      {% assign icon_name = w.android.icon %}
-      {% assign link_title = w.android.altTitle | default: w.title %}
-    {% elsif w.iphone.icon %}
-      {% assign icon_platform = 'iphone' %}
-      {% assign icon_name = w.iphone.icon %}
-      {% assign link_title = w.iphone.altTitle | default: w.title %}
-    {% else %}
-      {% assign link_title = w.title %}
-    {% endif %}
-  {% endif %}
-{% else %}
-  {% assign collection = site.collections | find: "label", link_platform %}
-  {% assign w = collection.docs | find: "appId", link_app_id %}
-  {% if w %}
-    {% assign icon_name = w.icon %}
-    {% assign link_title = w.altTitle | default: w.title %}
-  {% endif %}
-{% endif %}
+{% assign lookup_key = link_platform | append: "/" | append: link_app_id %}
+{% assign w = site.data.precomputed.walletLinks[lookup_key] %}
 
 {% unless w %}
 {{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}
 {% endunless %}
 
-{% if icon_name %}
-{% assign icon = base_path | append: '/images/wIcons/' | append: icon_platform | append: '/tiny/' | append: icon_name %}
+{% if w.icon_name != "" %}
+{% assign icon = base_path | append: '/images/wIcons/' | append: w.icon_platform | append: '/tiny/' | append: w.icon_name %}
 {% else %}
 {% assign icon = base_path | append: '/images/tinyNoicon.png' %}
 {% endif %}
-<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{ w.url }}">{{ link_title | default: w.altTitle | default: w.title | escape }}</a>{% if include.verdict %}&nbsp;{% include verdictBadge.html verdict=w.verdict type="short" %}{% if w.meta != "ok" %}{% include verdictBadge.html verdict=w.meta type="short" %}{% endif %}{% endif %}{% for feat in w.features %}{% assign f = site.data.features[feat] %}{% if f.alert %}<span class="alert-feature-badge" title="⚠️ {{ f.short }}: {{ f.alert | strip_html | strip_newlines | strip }}">{{ f.short }}</span>{% endif %}{% endfor %}</span>
+<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{ w.url }}">{{ w.title | escape }}</a>{% if include.verdict %}&nbsp;{% include verdictBadge.html verdict=w.verdict type="short" %}{% if w.meta != "ok" %}{% include verdictBadge.html verdict=w.meta type="short" %}{% endif %}{% endif %}{% for feat in w.alertFeatures %}<span class="alert-feature-badge" title="⚠️ {{ feat.short }}: {{ feat.message }}">{{ feat.short }}</span>{% endfor %}</span>
