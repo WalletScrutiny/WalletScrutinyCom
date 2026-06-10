@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2015-04-23
   updated: 2026-06-01
-  version: 4.20.1
+  version: 4.20.2
   reviews: 13
   icon: jp.coincheck.android.png
   meta: ok

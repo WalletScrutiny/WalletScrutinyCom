@@ -21,8 +21,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-06-05
-  updated: 2026-05-19
-  version: 1.5.8
+  updated: 2026-06-09
+  version: 1.5.9
   reviews: 16
   icon: com.ggp__wallet.jpg
   meta: ok

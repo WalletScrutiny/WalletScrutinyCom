@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: cn
   released: 2021-01-04
-  updated: 2025-12-26
-  version: 5.7.1
+  updated: 2026-06-09
+  version: 5.8.2
   reviews: 129
   icon: com.wisebitcoin.broker.android.png
   meta: ok

@@ -29,7 +29,7 @@ iphone:
   released: 2020-05-17
   updated: 2026-06-08
   version: 3.25.2
-  reviews: 2576
+  reviews: 2577
   icon: nl.bitonic.Bitonic.jpg
   meta: ok
   verdict: custodial

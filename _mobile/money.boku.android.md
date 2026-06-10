@@ -20,7 +20,7 @@ android:
   released: 2023-10-17
   updated: 2026-06-03
   version: 1.3.213
-  reviews: 17
+  reviews: 18
   icon: money.boku.android.jpg
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2025-04-03
   updated: 2026-06-04
   version: 1.11.38
-  reviews: 109
+  reviews: 110
   icon: money.boku.ios.jpg
   meta: ok
   verdict: nosendreceive

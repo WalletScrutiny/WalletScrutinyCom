@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-08
-  updated: 2026-06-03
-  version: 1.4.14
+  updated: 2026-06-05
+  version: 1.4.15
   reviews: 4
   icon: pouch.ph.png
   meta: ok

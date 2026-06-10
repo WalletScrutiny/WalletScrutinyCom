@@ -24,9 +24,9 @@ android:
   users: 100000
   appCountry: us
   released: 2024-04-26
-  updated: 2026-04-08
-  version: 1.27.0
-  reviews: 38
+  updated: 2026-06-10
+  version: 1.27.1
+  reviews: 39
   icon: com.zypto.png
   meta: ok
   verdict: nosource

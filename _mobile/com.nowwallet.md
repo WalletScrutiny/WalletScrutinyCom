@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-20
-  updated: 2026-05-08
-  version: 3.18.6
+  updated: 2026-06-09
+  version: 3.18.7
   reviews: 200
   icon: com.nowwallet.png
   meta: ok
@@ -35,9 +35,9 @@ iphone:
   idd: '1591216386'
   appCountry: us
   released: 2021-10-23
-  updated: 2026-05-12
-  version: 3.18.6
-  reviews: 814
+  updated: 2026-06-09
+  version: 3.18.7
+  reviews: 815
   icon: io.changenow.wallet-now.jpg
   meta: ok
   verdict: nosource

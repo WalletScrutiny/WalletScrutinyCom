@@ -32,7 +32,7 @@ iphone:
   released: 2023-08-30
   updated: 2026-05-23
   version: 1.0.3
-  reviews: 7
+  reviews: 19
   icon: com.orangex.exchange.jpg
   meta: ok
   verdict: custodial

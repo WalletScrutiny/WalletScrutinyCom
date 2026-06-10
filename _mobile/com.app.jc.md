@@ -25,8 +25,8 @@ iphone:
   idd: '6748295209'
   appCountry: us
   released: 2025-08-06
-  updated: 2026-06-01
-  version: 3.3.16
+  updated: 2026-06-10
+  version: 3.3.17
   reviews: 27
   icon: io.jubit.pro.jpg
   meta: ok

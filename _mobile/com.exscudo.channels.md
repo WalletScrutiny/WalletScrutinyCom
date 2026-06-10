@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: ru
   released: 2018-05-17
-  updated: 2026-04-08
-  version: 3.30.2738
+  updated: 2026-06-09
+  version: 3.33.2770
   reviews: 49
   icon: com.exscudo.channels.png
   meta: ok

@@ -31,7 +31,7 @@ iphone:
   released: 2018-11-29
   updated: 2026-06-01
   version: 2.84.0
-  reviews: 2243
+  reviews: 2248
   icon: com.bitget.exchange.global.jpg
   meta: ok
   verdict: custodial

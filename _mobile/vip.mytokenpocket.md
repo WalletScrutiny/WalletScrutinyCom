@@ -19,7 +19,7 @@ android:
   released: 2018-06-29
   updated: 2026-05-25
   version: 2.20.0
-  reviews: 633
+  reviews: 631
   icon: vip.mytokenpocket.png
   meta: ok
   verdict: obfuscated

@@ -1,6 +1,6 @@
 ---
 wsId: bipaBR
-title: Bipa - Bitcoin, Pix e Cartão
+title: Bipa | Bitcoin, Pix e Cashback
 date: 2023-06-14
 authors:
 - danny
@@ -32,7 +32,7 @@ iphone:
   released: 2020-06-30
   updated: 2026-06-03
   version: 4.2.17
-  reviews: 9167
+  reviews: 9176
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial

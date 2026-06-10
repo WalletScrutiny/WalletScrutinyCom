@@ -29,9 +29,9 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-06-01
-  version: 2026.22.2
-  reviews: 298
+  updated: 2026-06-08
+  version: 2026.23.0
+  reviews: 299
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
   verdict: custodial

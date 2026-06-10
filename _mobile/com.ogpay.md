@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-07-31
-  updated: 2026-06-05
-  version: '57.8'
+  updated: 2026-06-09
+  version: VARY
   reviews: 34
   icon: com.ogpay.png
   meta: ok

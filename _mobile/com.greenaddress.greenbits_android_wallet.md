@@ -47,8 +47,8 @@ iphone:
   idd: 1402243590
   appCountry: us
   released: 2019-03-22
-  updated: 2026-05-18
-  version: 5.4.1
+  updated: 2026-06-08
+  version: 5.5.0
   reviews: 1168
   icon: io.blockstream.green.jpg
   meta: ok

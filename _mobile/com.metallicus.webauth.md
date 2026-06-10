@@ -21,7 +21,7 @@ android:
   released: 2021-12-11
   updated: 2026-05-29
   version: 2.1.62
-  reviews: 88
+  reviews: 89
   icon: com.metallicus.webauth.png
   meta: ok
   verdict: nosource
@@ -33,7 +33,7 @@ iphone:
   released: 2021-12-15
   updated: 2026-06-07
   version: 2.1.62
-  reviews: 216
+  reviews: 219
   icon: com.metallicus.webauth.jpg
   meta: ok
   verdict: nosource

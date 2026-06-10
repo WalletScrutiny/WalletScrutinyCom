@@ -32,7 +32,7 @@ iphone:
   released: 2023-04-18
   updated: 2026-05-28
   version: 1.2.57
-  reviews: 104
+  reviews: 106
   icon: rs.ecd.ECD.jpg
   meta: ok
   verdict: custodial

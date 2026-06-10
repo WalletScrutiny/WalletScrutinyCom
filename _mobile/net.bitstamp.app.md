@@ -21,7 +21,7 @@ android:
   users: 500000
   appCountry: us
   released: 2019-01-29
-  updated: 2026-05-28
+  updated: 2026-06-08
   version: '4.17'
   reviews: 677
   icon: net.bitstamp.app.png
@@ -33,9 +33,9 @@ iphone:
   idd: 1406825640
   appCountry: us
   released: 2019-01-30
-  updated: 2026-05-20
-  version: 4.16.6
-  reviews: 7446
+  updated: 2026-06-09
+  version: '4.17'
+  reviews: 7447
   icon: net.bitstamp.jpg
   meta: ok
   verdict: custodial

@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-07-07
-  updated: 2025-11-27
-  version: 1.0.12
+  updated: 2026-06-08
+  version: 1.0.13
   icon: jp.co.monex.ms.mt_crypto.png
   meta: ok
   verdict: nosendreceive

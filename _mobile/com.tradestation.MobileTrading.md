@@ -29,9 +29,9 @@ iphone:
   idd: 581548081
   appCountry: us
   released: 2012-12-10
-  updated: 2026-05-20
-  version: 9.5.1
-  reviews: 18354
+  updated: 2026-06-08
+  version: 9.6.0
+  reviews: 18353
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

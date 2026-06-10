@@ -20,7 +20,7 @@ android:
   released: 2019-12-19
   updated: 2026-05-25
   version: 16.12.1
-  reviews: 262
+  reviews: 261
   icon: coin98.crypto.finance.media.png
   meta: ok
   verdict: nosource

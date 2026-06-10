@@ -26,7 +26,7 @@ android:
   version: '1.0'
   reviews: 65
   icon: app.herewallet.hot.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: HERE Wallet
 iphone:

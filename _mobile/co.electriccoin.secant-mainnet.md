@@ -11,7 +11,7 @@ iphone:
   appCountry: us
   released: 2024-03-28
   updated: 2026-06-08
-  version: 3.5.2
+  version: 3.5.3
   reviews: 107
   icon: co.electriccoin.secant-mainnet.jpg
   meta: ok

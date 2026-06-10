@@ -6,7 +6,7 @@ android:
   appId: com.wagmi.debifi.android.mainnet
   users: 1000
   appCountry: us
-  released: Mar 21, 2024
+  released: 2024-03-21
   updated: 2026-05-07
   version: 0.15.0-prod-mainnet
   icon: com.wagmi.debifi.android.mainnet.png
@@ -15,9 +15,9 @@ android:
   developerName: Debifi
 iphone:
   appId: com.debifi.ios
-  idd: "6738124778"
+  idd: '6738124778'
   appCountry: us
-  released: "2024-11-18T08:00:00Z"
+  released: 2024-11-18
   updated: 2026-05-08
   version: 0.16.0
   reviews: 3
@@ -25,6 +25,7 @@ iphone:
   meta: ok
   verdict: custodial
   developerName: GMI SOFT LIMITED
+
 ---
 
 ## App Description

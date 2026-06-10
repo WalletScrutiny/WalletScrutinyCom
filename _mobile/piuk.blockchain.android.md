@@ -45,7 +45,7 @@ iphone:
   released: 2012-04-13
   updated: 2026-06-07
   version: 202606.1.0
-  reviews: 184068
+  reviews: 184073
   icon: com.rainydayapps.Blockchain.jpg
   meta: ok
   verdict: nosource

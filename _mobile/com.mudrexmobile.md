@@ -31,9 +31,9 @@ iphone:
   idd: '1609440707'
   appCountry: in
   released: 2022-03-12
-  updated: 2026-05-28
-  version: '8.97'
-  reviews: 5402
+  updated: 2026-06-09
+  version: '8.98'
+  reviews: 5405
   icon: com.mudrex.ios.jpg
   meta: ok
   verdict: custodial

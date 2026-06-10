@@ -20,7 +20,7 @@ android:
   released: 2020-05-08
   updated: 2026-06-06
   version: 8.0.0
-  reviews: 691
+  reviews: 690
   icon: com.superchain.lbankgoogle.png
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: '1437346368'
   appCountry: us
   released: 2019-02-22
-  updated: 2026-06-01
-  version: 6.0.3
+  updated: 2026-06-09
+  version: 6.0.4
   reviews: 707
   icon: com.LBank.LBankNavApp.jpg
   meta: ok

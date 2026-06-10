@@ -19,7 +19,7 @@ android:
   released: 2019-07-06
   updated: 2026-05-29
   version: 4.03.0
-  reviews: 7342
+  reviews: 7333
   icon: cn.com.vau.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2019-07-20
   updated: 2026-06-04
   version: 4.03.1
-  reviews: 75
+  reviews: 76
   icon: com.vttech.VantageFX.jpg
   meta: ok
   verdict: nosendreceive

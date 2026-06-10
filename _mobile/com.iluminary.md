@@ -12,8 +12,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-03-27
-  updated: 2026-03-06
-  version: 2.1.0
+  updated: 2026-06-08
+  version: 2.3.0
   icon: com.iluminary.png
   meta: ok
   verdict: nosource

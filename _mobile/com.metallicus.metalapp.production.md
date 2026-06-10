@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2020-01-14
   updated: 2026-05-29
-  version: 3.1.205
+  version: 3.1.207
   reviews: 396
   icon: com.metallicus.metalapp.production.png
   meta: ok

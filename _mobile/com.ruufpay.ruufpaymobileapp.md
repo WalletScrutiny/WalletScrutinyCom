@@ -20,8 +20,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-05-31
-  updated: 2025-08-26
-  version: 2.3.0
+  updated: 2026-06-04
+  version: 3.2.0
   reviews: 11
   icon: com.ruufpay.ruufpaymobileapp.png
   meta: ok

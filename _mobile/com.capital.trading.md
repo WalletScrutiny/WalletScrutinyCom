@@ -32,8 +32,8 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-06-01
-  version: 3.35.0
+  updated: 2026-06-08
+  version: 3.36.0
   reviews: 324
   icon: com.capital.trading.jpg
   meta: ok

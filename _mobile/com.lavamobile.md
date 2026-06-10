@@ -11,12 +11,12 @@ redirect_from:
 - /iphone/xyz.lava.mobile/
 android:
   appId: com.lavamobile
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2024-05-25
   updated: 2026-06-05
   version: 3.11.0
-  reviews: 11
+  reviews: 12
   icon: com.lavamobile.png
   meta: ok
   verdict: nosource

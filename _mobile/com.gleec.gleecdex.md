@@ -12,7 +12,7 @@ android:
   updated: 2026-06-07
   version: 0.9.5
   icon: com.gleec.gleecdex.png
-  meta: ok
+  meta: fewusers
   verdict: wip
   developerName: Gleec Pay OU
 

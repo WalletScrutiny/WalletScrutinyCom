@@ -32,7 +32,7 @@ iphone:
   released: 2022-07-27
   updated: 2024-03-19
   version: 1.2.6
-  reviews: 24
+  reviews: 23
   icon: com.cointree.mobileapp.jpg
   meta: obsolete
   verdict: custodial

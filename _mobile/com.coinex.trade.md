@@ -10,9 +10,9 @@ iphone:
   idd: '1626447428'
   appCountry: us
   released: 2022-10-25
-  updated: 2026-06-02
-  version: 4.14.0
-  reviews: 5732
+  updated: 2026-06-09
+  version: 4.14.2
+  reviews: 5736
   icon: com.coinex.trade.jpg
   meta: ok
   verdict: wip

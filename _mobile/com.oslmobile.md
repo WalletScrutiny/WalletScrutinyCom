@@ -20,7 +20,7 @@ android:
   appCountry: CN
   updated: 2026-05-29
   version: 3.6.22
-  reviews: 36
+  reviews: 37
   icon: com.oslmobile.png
   meta: ok
   verdict: custodial

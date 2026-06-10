@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-11-29
-  updated: 2026-03-02
-  version: 3.3.1
+  updated: 2026-06-05
+  version: 3.3.2
   reviews: 4
   icon: xyz.ctrl.wallet.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '6630386336'
   appCountry: us
   released: 2024-12-10
-  updated: 2026-03-05
-  version: 3.3.1
+  updated: 2026-06-08
+  version: 3.3.2
   reviews: 9
   icon: xyz.ctrl.wallet.jpg
   meta: ok

@@ -36,7 +36,7 @@ iphone:
   released: 2016-09-04
   updated: 2026-05-31
   version: 5.25.1
-  reviews: 31
+  reviews: 30
   icon: com.coinhako.app.jpg
   meta: ok
   verdict: custodial

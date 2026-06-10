@@ -29,8 +29,8 @@ iphone:
   idd: '291973577'
   appCountry: us
   released: 2008-11-21
-  updated: 2026-03-06
-  version: 8.2.8
+  updated: 2026-06-09
+  version: 8.2.9
   reviews: 287
   icon: de.smarthouse.finanzen.jpg
   meta: ok

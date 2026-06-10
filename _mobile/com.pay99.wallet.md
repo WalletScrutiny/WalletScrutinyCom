@@ -19,7 +19,7 @@ android:
   released: 2021-09-23
   updated: 2026-06-04
   version: 8.4.60
-  reviews: 9867
+  reviews: 9876
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-02
   updated: 2026-06-05
   version: 8.4.64
-  reviews: 1978
+  reviews: 1980
   icon: com.pay99.jpg
   meta: ok
   verdict: nosendreceive

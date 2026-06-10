@@ -1,5 +1,5 @@
 ---
-title: 'MEXC: Buy Bitcoin BTC & Crypto'
+title: 'MEXC: Buy Bitcoin & Crypto'
 date: 2026-01-14
 appCountry: us
 redirect_from:
@@ -9,9 +9,9 @@ iphone:
   idd: '1605393003'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-06-01
-  version: 6.59.0
-  reviews: 7883
+  updated: 2026-06-10
+  version: 6.61.0
+  reviews: 7888
   icon: mobile.mexcglobal.www.jpg
   meta: ok
   verdict: wip

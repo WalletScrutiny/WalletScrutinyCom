@@ -28,7 +28,7 @@ iphone:
   released: 2024-08-13
   updated: 2026-06-05
   version: 3.0.2
-  reviews: 2949
+  reviews: 2951
   icon: com.midas.crypto.jpg
   meta: ok
   verdict: custodial

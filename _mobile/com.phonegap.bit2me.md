@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2015-01-08
   updated: 2026-06-04
-  version: 3.66.0
+  version: 3.67.0
   reviews: 55
   icon: com.phonegap.bit2me.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2019-06-04
   updated: 2026-06-04
   version: 3.67.0
-  reviews: 3778
+  reviews: 3779
   icon: com.bit2me.flutter-ios.jpg
   meta: ok
   verdict: custodial

@@ -25,7 +25,7 @@ android:
   appCountry: US
   released: 2024-02-28
   updated: 2026-05-28
-  version: 2026.9.1 (1)
+  version: 2026.10.0 (4)
   reviews: 34
   icon: world.bitkey.app.png
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a

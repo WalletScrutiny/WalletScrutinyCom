@@ -20,7 +20,7 @@ android:
   released: 2019-10-23
   updated: 2026-06-05
   version: 3.8.9
-  reviews: 871
+  reviews: 872
   icon: com.matrixport.mark.png
   meta: ok
   verdict: custodial

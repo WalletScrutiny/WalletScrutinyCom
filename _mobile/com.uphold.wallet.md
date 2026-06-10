@@ -24,7 +24,7 @@ android:
   released: 2015-12-29
   updated: 2026-06-05
   version: 6.91.1
-  reviews: 8238
+  reviews: 8241
   icon: com.uphold.wallet.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2016-04-19
   updated: 2026-06-05
   version: 6.92.1
-  reviews: 89005
+  reviews: 89035
   icon: com.uphold.wallet.ios.jpg
   meta: ok
   verdict: custodial

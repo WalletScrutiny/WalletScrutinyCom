@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: in
   released: 2018-07-16
-  updated: 2026-05-08
+  updated: 2026-06-08
   version: 4.5.2
-  reviews: 126125
+  reviews: 126129
   icon: com.wrx.wazirx.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1349082789
   appCountry: in
   released: 2018-03-07
-  updated: 2026-05-06
-  version: 3.6.1
-  reviews: 53977
+  updated: 2026-06-08
+  version: '3.7'
+  reviews: 53980
   icon: com.wrx.wazirx.jpg
   meta: ok
   verdict: custodial

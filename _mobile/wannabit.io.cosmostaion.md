@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-03-17
-  updated: 2026-04-16
-  version: 1.10.48
+  updated: 2026-06-10
+  version: 1.10.49
   reviews: 136
   icon: wannabit.io.cosmostaion.png
   meta: ok

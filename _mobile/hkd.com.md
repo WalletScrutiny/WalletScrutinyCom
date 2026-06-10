@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-11
-  updated: 2026-06-05
-  version: 3.0.9
+  updated: 2026-06-08
+  version: 3.1.0
   reviews: 16
   icon: hkd.com.png
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: '1522416988'
   appCountry: us
   released: 2020-07-13
-  updated: 2026-06-06
-  version: 3.2.9
-  reviews: 53
+  updated: 2026-06-08
+  version: 3.3.0
+  reviews: 54
   icon: com.hkd.hkdex.jpg
   meta: ok
   verdict: custodial

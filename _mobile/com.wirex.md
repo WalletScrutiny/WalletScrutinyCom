@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-03-31
-  updated: 2026-04-08
-  version: 4.12.70
+  updated: 2026-06-08
+  version: 4.12.80
   reviews: 1112
   icon: com.wirex.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2016-03-22
   updated: 2026-01-23
   version: 4.11.75
-  reviews: 848
+  reviews: 849
   icon: com.wirex.jpg
   meta: ok
   verdict: custodial
