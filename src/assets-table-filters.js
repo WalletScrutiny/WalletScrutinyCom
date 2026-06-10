@@ -85,6 +85,34 @@ export function fingerprintAllAssetInformation(info) {
 let assetsTableBlossomFilterHook = null;
 let assetsTableBlossomObserver = null;
 
+const BLOSSOM_CHECK_CONCURRENCY = 6;
+let blossomChecksInFlight = 0;
+const blossomCheckWaitQueue = [];
+
+function runBlossomCheckWithConcurrencyLimit(checkFn) {
+  return new Promise((resolve, reject) => {
+    const run = () => {
+      blossomChecksInFlight++;
+      Promise.resolve()
+        .then(checkFn)
+        .then(resolve, reject)
+        .finally(() => {
+          blossomChecksInFlight--;
+          const next = blossomCheckWaitQueue.shift();
+          if (next) {
+            next();
+          }
+        });
+    };
+
+    if (blossomChecksInFlight < BLOSSOM_CHECK_CONCURRENCY) {
+      run();
+    } else {
+      blossomCheckWaitQueue.push(run);
+    }
+  });
+}
+
 export function disconnectBlossomObserver() {
   if (assetsTableBlossomObserver) {
     assetsTableBlossomObserver.disconnect();
@@ -219,7 +247,9 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
               : [hash];
 
             const checkResults = await Promise.all(
-              hashesToCheck.map(h => checkFileExistsInBlossom(h))
+              hashesToCheck.map(h =>
+                runBlossomCheckWithConcurrencyLimit(() => checkFileExistsInBlossom(h))
+              )
             );
             const availableHashes = hashesToCheck.filter((_, i) => checkResults[i]);
 
@@ -268,6 +298,7 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
               };
             }
           } catch (error) {
+            observedHashes.delete(hash);
             console.error(`Error checking hash ${hash} in Blossom:`, error);
           }
         }
@@ -287,6 +318,7 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
   function updateObserverForVisibleRows() {
     const visibleRows = Array.from(tableForObserver.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
     visibleRows.forEach(row => {
+      assetsTableBlossomObserver.unobserve(row);
       assetsTableBlossomObserver.observe(row);
     });
   }
