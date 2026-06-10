@@ -1,4 +1,7 @@
 import AppInfoParser from 'app-info-parser/src/apk';
+import { unzip } from 'fflate';
+
+export const PENDING_ASSET_FILES_KEY = 'wsPendingAssetFiles';
 
 export function formatFileSize(bytes) {
   if (bytes === 0) return '0 Bytes';
@@ -49,6 +52,98 @@ export async function getApkInfo(file) {
   } catch (error) {
     return null;
   }
+}
+
+export function resolveApkInfoFromProcessedFiles(processedFiles) {
+  const withPackageAndVersion = processedFiles.find(
+    entry => entry.apkInfo?.package && entry.apkInfo?.versionName
+  );
+  if (withPackageAndVersion) {
+    return withPackageAndVersion.apkInfo;
+  }
+
+  const withPackage = processedFiles.find(entry => entry.apkInfo?.package);
+  if (withPackage) {
+    return withPackage.apkInfo;
+  }
+
+  const withAnyInfo = processedFiles.find(entry => entry.apkInfo);
+  return withAnyInfo?.apkInfo ?? null;
+}
+
+function isZipEntryApk(path) {
+  if (path.endsWith('/')) {
+    return false;
+  }
+  if (path.includes('__MACOSX/')) {
+    return false;
+  }
+  const baseName = path.split('/').pop();
+  if (!baseName || baseName.startsWith('.')) {
+    return false;
+  }
+  return baseName.toLowerCase().endsWith('.apk');
+}
+
+function sortApkEntries(a, b) {
+  if (a.fileName === 'base.apk') {
+    return -1;
+  }
+  if (b.fileName === 'base.apk') {
+    return 1;
+  }
+  return a.fileName.localeCompare(b.fileName);
+}
+
+export async function extractApkFilesFromZip(zipFile) {
+  const buffer = await zipFile.arrayBuffer();
+  const entries = await new Promise((resolve, reject) => {
+    unzip(new Uint8Array(buffer), (err, data) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+      resolve(data);
+    });
+  });
+
+  const apkFiles = [];
+  for (const [path, content] of Object.entries(entries)) {
+    if (!isZipEntryApk(path)) {
+      continue;
+    }
+    const fileName = path.split('/').pop();
+    apkFiles.push({
+      fileName,
+      file: new File([content], fileName, { type: 'application/vnd.android.package-archive' })
+    });
+  }
+
+  apkFiles.sort(sortApkEntries);
+  return apkFiles;
+}
+
+export async function expandDroppedFile(file) {
+  const extension = file.name.split('.').pop().toLowerCase();
+  if (extension !== 'zip') {
+    return {
+      entries: [{ file, fileName: file.name }],
+      sourceZip: null
+    };
+  }
+
+  const apkFiles = await extractApkFilesFromZip(file);
+  if (apkFiles.length === 0) {
+    return {
+      entries: [{ file, fileName: file.name }],
+      sourceZip: null
+    };
+  }
+
+  return {
+    entries: apkFiles.map(({ file: apkFile, fileName }) => ({ file: apkFile, fileName })),
+    sourceZip: file
+  };
 }
 
 export function getPlatformFromFilename(filename, apkInfo = null) {

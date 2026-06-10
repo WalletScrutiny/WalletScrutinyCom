@@ -514,6 +514,37 @@ permalink: /new_verification/
 
   document.getElementById('loadingSpinner').style.display = 'block';
 
+  function getUniqueVerificationHashes(sha256, hashes = otherHashes) {
+    return [...new Set([sha256, ...hashes].filter(Boolean))];
+  }
+
+  function loadHashesFromUrlParams(urlParams) {
+    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
+    const extraHashes = urlParams.getAll('hash')
+      .map(hash => DOMPurify.sanitize(hash, purifyConfig))
+      .filter(hash => hash && /^[a-fA-F0-9]{64}$/.test(hash) && hash !== sha256);
+
+    const allUrlHashes = getUniqueVerificationHashes(sha256, extraHashes);
+    const hashesLabel = document.getElementById('hashesLabel');
+    const hashesHelpText = document.getElementById('hashesHelpText');
+
+    if (allUrlHashes.length > 1) {
+      hashesLabel.textContent = 'Asset hashes:';
+      hashesHelpText.textContent = 'These are the SHA-256 hashes of all binaries in this asset bundle.';
+      allUrlHashes.forEach(hash => addHash(hash));
+    } else if (sha256) {
+      hashesLabel.textContent = 'Additional related hashes:';
+      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
+      extraHashes.forEach(hash => addHash(hash));
+    } else {
+      hashesLabel.textContent = 'Asset hashes*:';
+      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying and press the (+) button to add it. Each hash must be 64 hexadecimal characters.';
+      extraHashes.forEach(hash => addHash(hash));
+    }
+
+    return sha256;
+  }
+
   function addHash(hash) {
     if (!hash) return;
     if (otherHashes.includes(hash)) {
@@ -824,18 +855,7 @@ permalink: /new_verification/
       }
     });
 
-    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
-
-    // Update the hashes label based on whether sha256 is present
-    const hashesLabel = document.getElementById('hashesLabel');
-    const hashesHelpText = document.getElementById('hashesHelpText');
-    if (sha256) {
-      hashesLabel.textContent = 'Additional related hashes:';
-      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
-    } else {
-      hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying and press the (+) button to add it. Each hash must be 64 hexadecimal characters.';
-    }
+    const sha256 = loadHashesFromUrlParams(urlParams);
 
     let message = '';
 
@@ -1067,11 +1087,7 @@ permalink: /new_verification/
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
     const basedOn = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('basedOn'), purifyConfig);
 
-    // Combine sha256 and otherHashes into a single parameter
-    let hashes = sha256 ? [sha256] : [];
-    if (otherHashes.length > 0) {
-      hashes = hashes.concat(otherHashes);
-    }
+    const hashes = getUniqueVerificationHashes(sha256, otherHashes);
 
     const formData = {
       hashes: hashes,

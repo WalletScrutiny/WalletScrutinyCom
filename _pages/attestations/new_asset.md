@@ -143,6 +143,7 @@ permalink: /new_asset/
 </div>
 
 <script>
+  const PENDING_ASSET_FILES_KEY = 'wsPendingAssetFiles';
   let assetFiles = [];
 
   function displayAssetFiles() {
@@ -161,12 +162,14 @@ permalink: /new_asset/
     }
 
     assetFiles.forEach((file, index) => {
-      const sizeMb = (file.data.size / 1024 / 1024).toFixed(2);
+      const sizeLabel = file.data
+        ? `(${(file.data.size / 1024 / 1024).toFixed(2)} MB)`
+        : '(already uploaded)';
       const fileItem = document.createElement('div');
       fileItem.className = 'file-item';
       fileItem.innerHTML = `
         <div class="file-item-details">
-          <div class="file-item-name">${file.fileName} <span class="file-item-size">(${sizeMb} MB)</span></div>
+          <div class="file-item-name">${file.fileName} <span class="file-item-size">${sizeLabel}</span></div>
           <div class="file-item-hash">${file.sha256}</div>
         </div>
         <button type="button" class="remove-file" title="Remove this file" data-index="${index}">×</button>`;
@@ -180,11 +183,97 @@ permalink: /new_asset/
     });
   }
 
+  async function expandIncomingFiles(files) {
+    const expandedFiles = [];
+
+    for (const file of files) {
+      try {
+        const expanded = await window.expandDroppedFile(file);
+        if (expanded.sourceZip && expanded.entries.length > 1) {
+          expanded.entries.forEach(entry => expandedFiles.push(entry.file));
+        } else {
+          expandedFiles.push(file);
+        }
+      } catch (error) {
+        throw new Error(`Could not read ZIP "${file.name}": ${error.message}`);
+      }
+    }
+
+    return expandedFiles;
+  }
+
+  function addAssetFileEntry({ sha256, fileName, uploaded = false, data = null }) {
+    if (!sha256 || assetFiles.some(f => f.sha256 === sha256)) {
+      return;
+    }
+    assetFiles.push({
+      data,
+      fileName,
+      sha256,
+      uploaded
+    });
+  }
+
+  function loadPendingAssetFiles() {
+    const raw = sessionStorage.getItem(PENDING_ASSET_FILES_KEY);
+    if (!raw) {
+      return false;
+    }
+
+    sessionStorage.removeItem(PENDING_ASSET_FILES_KEY);
+    const pendingFiles = JSON.parse(raw);
+    for (const pending of pendingFiles) {
+      addAssetFileEntry({
+        sha256: pending.sha256,
+        fileName: pending.fileName,
+        uploaded: pending.uploaded === true
+      });
+    }
+    return pendingFiles.length > 0;
+  }
+
+  function loadAssetFilesFromUrlParams(urlParams) {
+    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
+    if (!sha256 || !/^[a-fA-F0-9]{64}$/.test(sha256)) {
+      return false;
+    }
+
+    const extraHashes = urlParams.getAll('hash')
+      .map(hash => DOMPurify.sanitize(hash, purifyConfig))
+      .filter(hash => hash && /^[a-fA-F0-9]{64}$/.test(hash) && hash !== sha256);
+
+    const hashes = [sha256, ...extraHashes];
+    const apkFileNames = urlParams.getAll('apkFileName')
+      .map(name => DOMPurify.sanitize(name, purifyConfig))
+      .filter(Boolean);
+    const fallbackFileName = DOMPurify.sanitize(urlParams.get('fileName'), purifyConfig);
+
+    hashes.forEach((hash, index) => {
+      let fileName = apkFileNames[index];
+      if (!fileName) {
+        fileName = hashes.length === 1 && fallbackFileName
+          ? fallbackFileName
+          : `apk-${index + 1}.apk`;
+      }
+      addAssetFileEntry({ sha256: hash, fileName });
+    });
+
+    return assetFiles.length > 0;
+  }
+
   async function handleAssetFiles(files) {
     const newFiles = Array.from(files);
     const errors = [];
+    let expandedFiles = [];
 
-    for (const file of newFiles) {
+    try {
+      expandedFiles = await expandIncomingFiles(newFiles);
+    } catch (error) {
+      showToast(error.message, 'error');
+      return;
+    }
+
+    for (const file of expandedFiles) {
       if (assetFiles.some(f => f.fileName === file.name && f.sha256)) {
         continue;
       }
@@ -261,6 +350,9 @@ permalink: /new_asset/
 
     try {
       for (const file of assetFiles) {
+        if (!file.data || file.uploaded) {
+          continue;
+        }
         if ((file.data.size / 1024 / 1024) <= maxFileSize) {
           await uploadToBlossom(file.data, file.sha256);
         }
@@ -277,8 +369,22 @@ permalink: /new_asset/
     }
   }
 
-  window.addEventListener('verificationsDataLoaded', async () => {
+  let newAssetPageInitialized = false;
+
+  function initializeNewAssetPage() {
+    if (newAssetPageInitialized) {
+      return;
+    }
+    newAssetPageInitialized = true;
+
     setupAssetFilesDropZone();
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const loadedFromSession = loadPendingAssetFiles();
+    if (!loadedFromSession) {
+      loadAssetFilesFromUrlParams(urlParams);
+    }
+    displayAssetFiles();
 
     const showError = (message) => {
       document.querySelector('.form-container').style.display = 'none';
@@ -297,8 +403,6 @@ permalink: /new_asset/
       setupAppIdAutocomplete();
     }
 
-    const urlParams = new URLSearchParams(window.location.search);
-
     const fields = ['description', 'version', 'appId', 'platform'];
     fields.forEach(field => {
       const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
@@ -306,7 +410,9 @@ permalink: /new_asset/
         document.getElementById(field).value = value;
       }
     });
-  });
+  }
+
+  window.addEventListener('verificationsUILoaded', initializeNewAssetPage);
 
   window.addEventListener('allWalletsLoaded', async () => {
     setupAppIdAutocomplete(false);
