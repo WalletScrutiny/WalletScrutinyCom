@@ -5,11 +5,16 @@ import {
   getVersionFromFilename,
   calculateFileHash,
   isPageForAppId,
-  getApkInfo,
   getPlatformFromFilename,
   expandDroppedFile,
   resolveApkInfoFromProcessedFiles,
-  PENDING_ASSET_FILES_KEY
+  resolveCompleteApkInfoFromProcessedFiles,
+  PENDING_ASSET_FILES_KEY,
+  isAndroidApkUpload,
+  isAndroidApkFileName,
+  canRegisterOrVerifyAndroidUpload,
+  getAndroidUploadBlockingMessage,
+  populateApkInfoForAndroidUpload
 } from './drag-and-drop-utils.js';
 import { isDebugEnv, userHasBrowserExtension } from './verifications_common.mjs';
 
@@ -221,14 +226,17 @@ async function processFiles(files, dropAreaElement) {
       });
     }
 
-    if (processedFiles.length > 0) {
-      processedFiles[0].apkInfo = await getApkInfo(processedFiles[0].data);
+    const isApkBundle = expanded.sourceZip != null && processedFiles.length > 1;
+
+    if (isAndroidApkUpload(processedFiles, isApkBundle)) {
+      await populateApkInfoForAndroidUpload(processedFiles);
     }
 
     const primaryFile = processedFiles[0];
     const primaryHash = primaryFile.sha256;
-    const resolvedApkInfo = resolveApkInfoFromProcessedFiles(processedFiles);
-    const isApkBundle = expanded.sourceZip != null && processedFiles.length > 1;
+    const resolvedApkInfo = isAndroidApkUpload(processedFiles, isApkBundle)
+      ? resolveCompleteApkInfoFromProcessedFiles(processedFiles)
+      : resolveApkInfoFromProcessedFiles(processedFiles);
 
     const blossomChecks = await Promise.all(
       processedFiles.map(entry => checkFileExistsInBlossom(entry.sha256, true))
@@ -265,9 +273,15 @@ async function processFiles(files, dropAreaElement) {
     }
 
     if (uploadsActivated) {
-      window.currentExtractedFiles = processedFiles;
-      window.currentFile = primaryFile.data;
-      window.currentHash = primaryHash;
+      if (canRegisterOrVerifyAndroidUpload(processedFiles, isApkBundle)) {
+        window.currentExtractedFiles = processedFiles;
+        window.currentFile = primaryFile.data;
+        window.currentHash = primaryHash;
+      } else {
+        window.currentExtractedFiles = [];
+        window.currentFile = null;
+        window.currentHash = null;
+      }
     }
   } catch (error) {
     console.error('Error processing dropped file', error);
@@ -289,6 +303,13 @@ async function handleUploadAsset(urlParams) {
   const filesToUpload = getCurrentExtractedFiles();
   if (filesToUpload.length === 0) {
     showToast('No file is available to upload. Please drop the file again.', 'error');
+    return;
+  }
+
+  const isApkBundle = filesToUpload.length > 1;
+  const blockingMessage = getAndroidUploadBlockingMessage(filesToUpload, isApkBundle);
+  if (blockingMessage) {
+    showToast(blockingMessage, 'error');
     return;
   }
 
@@ -338,7 +359,10 @@ async function displayAllInfo(dropAreaElement, {
 }) {
   const primaryFile = processedFiles[0];
   const hash = primaryFile.sha256;
-  const apkInfo = resolveApkInfoFromProcessedFiles(processedFiles);
+  const isAndroidUpload = isAndroidApkUpload(processedFiles, isApkBundle);
+  const blockingMessage = getAndroidUploadBlockingMessage(processedFiles, isApkBundle);
+  const completeApkInfo = resolveCompleteApkInfoFromProcessedFiles(processedFiles);
+  const apkInfo = isAndroidUpload ? completeApkInfo : resolveApkInfoFromProcessedFiles(processedFiles);
   const file = droppedFile;
   const fileExistsInBlossomServer = blossomChecks.every(exists => exists);
   let appTitle = null;
@@ -361,11 +385,16 @@ async function displayAllInfo(dropAreaElement, {
     scrollToVersion(appInfoFromNostr.version);
   }
 
-  appId       = appInfoFromNostr?.appId ?? apkInfo?.package ?? null;
+  if (appInfoFromNostr) {
+    appId = appInfoFromNostr.appId ?? null;
+    version = appInfoFromNostr.version ?? null;
+  } else if (apkInfo) {
+    appId = apkInfo.package ?? null;
+    version = apkInfo.versionName ?? null;
+  }
 
   const app = window.wallets.find(it => it.appId === appId) ?? null;  // Get internal info
 
-  version     = appInfoFromNostr?.version ?? apkInfo?.versionName ?? null;
   verdict     = appInfoFromNostr?.verdict ?? null;
   date        = appInfoFromNostr?.createdAt ?? null;
   platform    = appInfoFromNostr?.platform ?? app?.folder ?? null;
@@ -407,7 +436,11 @@ async function displayAllInfo(dropAreaElement, {
     fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'All files exist in Blossom' : 'Some or all files are missing from Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
   }
 
-  if (!appInfoFromNostr && apkInfo) {
+  const missingAndroidMetadata = blockingMessage != null;
+
+  if (missingAndroidMetadata) {
+    fileInfoHtml += `<br><p style="color: red;">${blockingMessage}</p>`;
+  } else if (!appInfoFromNostr && apkInfo) {
     const bundleSuffix = isApkBundle ? ` The ZIP contains <b>${processedFiles.length}</b> APK files whose hashes will be included if you register or verify this asset.` : '';
     fileInfoHtml += '<br>' + (
       app ?
@@ -433,7 +466,13 @@ async function displayAllInfo(dropAreaElement, {
     fileName: isApkBundle ? sourceZip.name : file.name
   });
 
-  if (!hasAssets && !hasVerifications ) {
+  if (missingAndroidMetadata) {
+    if (hasVerifications) {
+      fileInfoHtml += `<li>This file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>.</li>`;
+    } else if (hasAssets) {
+      fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>.</li>`;
+    }
+  } else if (!hasAssets && !hasVerifications) {
     if (window.location.pathname !== '/new_asset/') {
       fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
     }
@@ -462,3 +501,7 @@ window.maxFileSize = maxFileSize;
 window.calculateFileHash = calculateFileHash;
 window.expandDroppedFile = expandDroppedFile;
 window.PENDING_ASSET_FILES_KEY = PENDING_ASSET_FILES_KEY;
+window.isAndroidApkFileName = isAndroidApkFileName;
+window.populateApkInfoForAndroidUpload = populateApkInfoForAndroidUpload;
+window.getAndroidUploadBlockingMessage = getAndroidUploadBlockingMessage;
+window.canRegisterOrVerifyAndroidUpload = canRegisterOrVerifyAndroidUpload;
