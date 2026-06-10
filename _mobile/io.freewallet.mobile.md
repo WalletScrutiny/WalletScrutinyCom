@@ -57,7 +57,7 @@ was not the same as freewallet.org which is spamming Google Play with many
 wallets and we have reviewed three of those here, too:
 
 * {% include walletLink.html wallet='android/btc.org.freewallet.app' verdict='true' %}
-* {% include walletLink.html wallet='android/mw.org.freewallet.app' verdict='true' %}
+* {% include walletLink.html wallet='android/multi.org.freewallet.app' verdict='true' %}
 * {% include walletLink.html wallet='android/org.freewallet.lite.android' verdict='true' %}
 
 He says that his wallet is non-custodial and open source and indeed we see those

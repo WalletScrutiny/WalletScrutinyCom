@@ -48,7 +48,7 @@ iphone:
 As described in
 [this issue](https://github.com/rsksmart/rwallet/issues/662#issuecomment-827867539),
 this app replaces
-{% include walletLink.html wallet='android/com.rsk.rwallet.reactnative' verdict='true' %}
+{% include walletLink.html wallet='iphone/com.rsk.rwallet.reactnative' verdict='true' %}
 and as such had to start from zero with reviews, ratings and downloads.
 
 RWallet is a multi-currency non-custodial wallet that supports Bitcoin. It
