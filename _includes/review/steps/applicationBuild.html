@@ -22,7 +22,6 @@
         {% assign version_element_id = include.versionElementId | default: 'version-number' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
         {% assign skip_ws_version = include.skipWsVersion %}
-        <script>const pageVerdict = '{{ build_verdict }}'</script>
 
         <div id="{{ apps_table_id }}" style="margin-top: 1em;"></div>
 
@@ -37,6 +36,7 @@
 
         <script>
           window.addEventListener('verificationsUILoaded', async () => {
+            const pageVerdict = '{{ build_verdict }}';
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: '{{ apps_table_id }}',
               appId: '{{ build_app_id }}',
