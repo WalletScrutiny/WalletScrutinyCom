@@ -436,19 +436,17 @@ window.renderAssetsTable = async function({
     showProfilePictures,
   });
 
-  if (!skipRepaint) {
-    setupBlossomDownloadObserverForTable(table, {
-      checkFileExistsInBlossom,
-      openBlossomBundleDownloadModal: blossomHelpers.openBlossomBundleDownloadModal,
-      downloadBlossomFileWithDownloadIcon: blossomHelpers.downloadBlossomFileWithDownloadIcon,
-    });
-  }
-
   if (showProfilePictures) {
     renderProfilePictures([...profilePubkeySet]);
   }
 
   updateTableVisibility();
+
+  setupBlossomDownloadObserverForTable(table, {
+    checkFileExistsInBlossom,
+    openBlossomBundleDownloadModal: blossomHelpers.openBlossomBundleDownloadModal,
+    downloadBlossomFileWithDownloadIcon: blossomHelpers.downloadBlossomFileWithDownloadIcon,
+  });
 
   return {
     hasAssets,
