@@ -1,17 +1,10 @@
-{% include homepage/all_reviewed_products.html %}
 {%- include /homepage/full_wallet_count.html raw='true' -%}
-  
+{%- assign denomValue = site.data.precomputed.totalReviewedProducts -%}
+
   {%- for verdict_group in site.data.verdictGroups -%}
-  {%- assign total = 0 -%}
+  {%- assign total = site.data.precomputed.verdictGroupCounts[verdict_group.key] -%}
   <div class="statistic-tile">
     <div class="data">
-      {%- for p in products -%}
-        {%- include homepage/product_matches_verdict_group.html product=p verdict_group=verdict_group -%}
-        {%- if product_matches_verdict_group -%}
-          {%- assign total = total | plus: 1 -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- assign denomValue = products.size -%}
       <h2>
         <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
         <small>of {{denomValue | thousands_separated}} wallets</small>

@@ -72,7 +72,9 @@
   document.body.appendChild(verificationsScript);
 </script>
 
-<script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
+{% include_cached scripts-base.html %}
+<script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
+<script type="text/javascript" defer src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[4] %>"></script>
 
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
@@ -80,22 +82,7 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
 
-<script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
-<script>
-  window.addEventListener('load', function() {
-    const script = document.createElement('script');
-    script.onload = () => {
-      window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
-    };
-    script.src = '{{ base_path }}/allWallets.js';
-    document.body.appendChild(script);
-  });
-</script>
 {% unless page.url == "/" %}<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>{% endunless %}
-<script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
-<script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
-<script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
-<script type="text/javascript" defer src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[4] %>"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
 {% endif %}
