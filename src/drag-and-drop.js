@@ -197,76 +197,88 @@ async function processFiles(files, dropAreaElement) {
 
   disableHoverMode(dropAreaElement);
 
-  let expanded;
   try {
-    expanded = await expandDroppedFile(droppedFile);
+    let expanded;
+    try {
+      expanded = await expandDroppedFile(droppedFile);
+    } catch (error) {
+      updateDomElementInClass(
+        'drop-area-textbox',
+        `<p style="color: red;">Could not read the ZIP file: ${error.message}</p>`,
+        dropAreaElement
+      );
+      return;
+    }
+
+    const processedFiles = [];
+    for (const entry of expanded.entries) {
+      const sha256 = await calculateFileHash(entry.file);
+      processedFiles.push({
+        data: entry.file,
+        fileName: entry.fileName,
+        sha256,
+        apkInfo: null
+      });
+    }
+
+    if (processedFiles.length > 0) {
+      processedFiles[0].apkInfo = await getApkInfo(processedFiles[0].data);
+    }
+
+    const primaryFile = processedFiles[0];
+    const primaryHash = primaryFile.sha256;
+    const resolvedApkInfo = resolveApkInfoFromProcessedFiles(processedFiles);
+    const isApkBundle = expanded.sourceZip != null && processedFiles.length > 1;
+
+    const blossomChecks = await Promise.all(
+      processedFiles.map(entry => checkFileExistsInBlossom(entry.sha256, true))
+    );
+    const allAssetsInformation = await getAllAssetInformation({
+      sha256: primaryHash,
+      singleBatch: true
+    });
+
+    setFormFields(primaryHash, primaryFile.fileName, resolvedApkInfo);
+
+    displayAllInfo(dropAreaElement, {
+      droppedFile,
+      sourceZip: expanded.sourceZip,
+      processedFiles,
+      isApkBundle,
+      allAssetsInformation,
+      blossomChecks
+    });
+
+    if (allAssetsInformation.assets?.size > 0) {
+      try {
+        for (const [index, entry] of processedFiles.entries()) {
+          if (
+            !blossomChecks[index] &&
+            (entry.data.size / 1024 / 1024) <= maxFileSize
+          ) {
+            await uploadToBlossom(entry.data, entry.sha256);
+          }
+        }
+      } catch (error) {
+        console.error('Error uploading file to Blossom', error);
+      }
+    }
+
+    if (uploadsActivated) {
+      window.currentExtractedFiles = processedFiles;
+      window.currentFile = primaryFile.data;
+      window.currentHash = primaryHash;
+    }
   } catch (error) {
-    document.getElementById('loadingSpinner').style.display = 'none';
+    console.error('Error processing dropped file', error);
     updateDomElementInClass(
       'drop-area-textbox',
-      `<p style="color: red;">Could not read the ZIP file: ${error.message}</p>`,
+      `<p style="color: red;">Could not process the file: ${error.message}</p>`,
       dropAreaElement
     );
-    return;
+  } finally {
+    document.getElementById('loadingSpinner').style.display = 'none';
   }
-
-  const processedFiles = await Promise.all(expanded.entries.map(async (entry) => {
-    const [apkInfo, sha256] = await Promise.all([
-      getApkInfo(entry.file),
-      calculateFileHash(entry.file)
-    ]);
-    return {
-      data: entry.file,
-      fileName: entry.fileName,
-      sha256,
-      apkInfo
-    };
-  }));
-
-  const primaryFile = processedFiles[0];
-  const primaryHash = primaryFile.sha256;
-  const resolvedApkInfo = resolveApkInfoFromProcessedFiles(processedFiles);
-  const isApkBundle = expanded.sourceZip != null && processedFiles.length > 1;
-
-  const blossomChecks = await Promise.all(
-    processedFiles.map(entry => checkFileExistsInBlossom(entry.sha256, true))
-  );
-  const allAssetsInformation = await getAllAssetInformation({ sha256: primaryHash });
-
-  setFormFields(primaryHash, primaryFile.fileName, resolvedApkInfo);
-
-  displayAllInfo(dropAreaElement, {
-    droppedFile,
-    sourceZip: expanded.sourceZip,
-    processedFiles,
-    isApkBundle,
-    allAssetsInformation,
-    blossomChecks
-  });
-
-  if (allAssetsInformation.assets?.size > 0) {
-    try {
-      document.getElementById('loadingSpinner').style.display = 'none';
-      for (const [index, entry] of processedFiles.entries()) {
-        if (
-          !blossomChecks[index] &&
-          (entry.data.size / 1024 / 1024) <= maxFileSize
-        ) {
-          await uploadToBlossom(entry.data, entry.sha256);
-        }
-      }
-    } catch (error) {
-      console.error('Error uploading file to Blossom', error);
-    }
-  }
-
-  if (uploadsActivated) {
-    window.currentExtractedFiles = processedFiles;
-    window.currentFile = primaryFile.data;
-    window.currentHash = primaryHash;
-  }
-
-  document.getElementById('loadingSpinner').style.display = 'none';
 }
 
 async function handleUploadAsset(urlParams) {
@@ -357,7 +369,7 @@ async function displayAllInfo(dropAreaElement, {
   verdict     = appInfoFromNostr?.verdict ?? null;
   date        = appInfoFromNostr?.createdAt ?? null;
   platform    = appInfoFromNostr?.platform ?? app?.folder ?? null;
-  appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
+  appTitle    = apkInfo?.application?.label?.[0] ?? app?.title ?? appId;
 
   const platformLegacy = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 

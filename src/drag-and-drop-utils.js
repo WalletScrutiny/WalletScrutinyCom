@@ -85,12 +85,22 @@ function isZipEntryApk(path) {
   return baseName.toLowerCase().endsWith('.apk');
 }
 
+function isSplitApkFileName(fileName) {
+  const lower = fileName.toLowerCase();
+  return lower.startsWith('split_') || lower.includes('split_config.');
+}
+
 function sortApkEntries(a, b) {
   if (a.fileName === 'base.apk') {
     return -1;
   }
   if (b.fileName === 'base.apk') {
     return 1;
+  }
+  const aIsSplit = isSplitApkFileName(a.fileName);
+  const bIsSplit = isSplitApkFileName(b.fileName);
+  if (aIsSplit !== bIsSplit) {
+    return aIsSplit ? 1 : -1;
   }
   return a.fileName.localeCompare(b.fileName);
 }
