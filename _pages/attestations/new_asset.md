@@ -261,6 +261,23 @@ permalink: /new_asset/
     return assetFiles.length > 0;
   }
 
+  async function validateAndroidAssetFiles(files) {
+    const androidFiles = files.filter(file => file.data && window.isAndroidApkFileName(file.fileName));
+    if (androidFiles.length === 0) {
+      return null;
+    }
+
+    const processedFiles = androidFiles.map(file => ({
+      data: file.data,
+      fileName: file.fileName,
+      sha256: file.sha256,
+      apkInfo: null
+    }));
+
+    await window.populateApkInfoForAndroidUpload(processedFiles);
+    return window.getAndroidUploadBlockingMessage(processedFiles, processedFiles.length > 1);
+  }
+
   async function handleAssetFiles(files) {
     const newFiles = Array.from(files);
     const errors = [];
@@ -272,6 +289,8 @@ permalink: /new_asset/
       showToast(error.message, 'error');
       return;
     }
+
+    const addedHashes = [];
 
     for (const file of expandedFiles) {
       if (assetFiles.some(f => f.fileName === file.name && f.sha256)) {
@@ -288,6 +307,7 @@ permalink: /new_asset/
           fileName: file.name,
           sha256: hash
         });
+        addedHashes.push(hash);
       } catch (error) {
         errors.push(`Could not calculate hash for "${file.name}": ${error.message}`);
       }
@@ -295,6 +315,13 @@ permalink: /new_asset/
 
     if (errors.length > 0) {
       showToast(errors.join('\n'), 'error', 6000 + (errors.length * 2000));
+    }
+
+    const androidBlockingMessage = await validateAndroidAssetFiles(assetFiles);
+    if (androidBlockingMessage) {
+      const hashesToRemove = new Set(addedHashes);
+      assetFiles = assetFiles.filter(file => !hashesToRemove.has(file.sha256));
+      showToast(androidBlockingMessage, 'error');
     }
     displayAssetFiles();
   }
@@ -329,6 +356,12 @@ permalink: /new_asset/
 
     if (assetFiles.length === 0) {
       showToast('Add at least one file to register', 'error');
+      return;
+    }
+
+    const androidBlockingMessage = await validateAndroidAssetFiles(assetFiles);
+    if (androidBlockingMessage) {
+      showToast(androidBlockingMessage, 'error');
       return;
     }
 

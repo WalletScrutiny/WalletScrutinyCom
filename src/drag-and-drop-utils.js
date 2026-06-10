@@ -54,17 +54,86 @@ export async function getApkInfo(file) {
   }
 }
 
-export function resolveApkInfoFromProcessedFiles(processedFiles) {
-  const withPackageAndVersion = processedFiles.find(
-    entry => entry.apkInfo?.package && entry.apkInfo?.versionName
-  );
-  if (withPackageAndVersion) {
-    return withPackageAndVersion.apkInfo;
-  }
+export const ANDROID_APK_METADATA_MISSING_MESSAGE =
+  'This does not appear to be an Android application. We could not read an app ID and version from the APK metadata.';
 
-  const withPackage = processedFiles.find(entry => entry.apkInfo?.package);
-  if (withPackage) {
-    return withPackage.apkInfo;
+export const ANDROID_APK_VERSION_MISSING_MESSAGE =
+  'We could not read the app version from the APK metadata. Include the base APK (not only split APKs) to register or verify this asset.';
+
+function normalizeApkString(value) {
+  if (value == null) {
+    return null;
+  }
+  const text = String(value).trim();
+  return text || null;
+}
+
+export function isAndroidApkFileName(fileName) {
+  const extension = fileName.split('.').pop().toLowerCase();
+  return extension === 'apk' || extension === 'aab';
+}
+
+export function isAndroidApkUpload(processedFiles, isApkBundle) {
+  if (isApkBundle) {
+    return true;
+  }
+  if (processedFiles.length !== 1) {
+    return false;
+  }
+  return isAndroidApkFileName(processedFiles[0].fileName);
+}
+
+export function hasCompleteAndroidApkMetadata(apkInfo) {
+  if (!apkInfo) {
+    return false;
+  }
+  return Boolean(
+    normalizeApkString(apkInfo.package) && normalizeApkString(apkInfo.versionName)
+  );
+}
+
+export function processedFilesHaveCompleteAndroidMetadata(processedFiles) {
+  return processedFiles.some(entry => hasCompleteAndroidApkMetadata(entry.apkInfo));
+}
+
+export function processedFilesHaveAndroidPackage(processedFiles) {
+  return processedFiles.some(entry => normalizeApkString(entry.apkInfo?.package));
+}
+
+export async function populateApkInfoForAndroidUpload(processedFiles) {
+  for (const entry of processedFiles) {
+    if (!entry.apkInfo) {
+      entry.apkInfo = await getApkInfo(entry.data);
+    }
+  }
+}
+
+export function canRegisterOrVerifyAndroidUpload(processedFiles, isApkBundle) {
+  if (!isAndroidApkUpload(processedFiles, isApkBundle)) {
+    return true;
+  }
+  return processedFilesHaveCompleteAndroidMetadata(processedFiles);
+}
+
+export function getAndroidUploadBlockingMessage(processedFiles, isApkBundle) {
+  if (canRegisterOrVerifyAndroidUpload(processedFiles, isApkBundle)) {
+    return null;
+  }
+  if (processedFilesHaveAndroidPackage(processedFiles)) {
+    return ANDROID_APK_VERSION_MISSING_MESSAGE;
+  }
+  return ANDROID_APK_METADATA_MISSING_MESSAGE;
+}
+
+export function resolveCompleteApkInfoFromProcessedFiles(processedFiles) {
+  const withCompleteMetadata = processedFiles.find(entry => hasCompleteAndroidApkMetadata(entry.apkInfo));
+  return withCompleteMetadata?.apkInfo ?? null;
+}
+
+export function resolveApkInfoFromProcessedFiles(processedFiles) {
+  const completeApkInfo = resolveCompleteApkInfoFromProcessedFiles(processedFiles);
+  if (completeApkInfo) {
+    return completeApkInfo;
   }
 
   const withAnyInfo = processedFiles.find(entry => entry.apkInfo);
@@ -85,12 +154,22 @@ function isZipEntryApk(path) {
   return baseName.toLowerCase().endsWith('.apk');
 }
 
+function isSplitApkFileName(fileName) {
+  const lower = fileName.toLowerCase();
+  return lower.startsWith('split_') || lower.includes('split_config.');
+}
+
 function sortApkEntries(a, b) {
   if (a.fileName === 'base.apk') {
     return -1;
   }
   if (b.fileName === 'base.apk') {
     return 1;
+  }
+  const aIsSplit = isSplitApkFileName(a.fileName);
+  const bIsSplit = isSplitApkFileName(b.fileName);
+  if (aIsSplit !== bIsSplit) {
+    return aIsSplit ? 1 : -1;
   }
   return a.fileName.localeCompare(b.fileName);
 }
