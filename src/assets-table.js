@@ -33,8 +33,15 @@ function ensureVerificationModal() {
     verificationModalDiv.id = 'verificationModal';
     verificationModalDiv.innerHTML = `
       <span id="closeModal">&times;</span>
+      <div id="verificationModalToolbar"></div>
       <div id="verificationContent"></div>`;
     document.body.appendChild(verificationModalDiv);
+  } else if (!document.getElementById('verificationModalToolbar')) {
+    const modal = document.getElementById('verificationModal');
+    const content = document.getElementById('verificationContent');
+    const toolbar = document.createElement('div');
+    toolbar.id = 'verificationModalToolbar';
+    modal.insertBefore(toolbar, content);
   }
   if (!document.getElementById('verificationModalBackdrop')) {
     const verificationModalBackdropDiv = document.createElement('div');
