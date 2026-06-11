@@ -172,8 +172,30 @@ body.dark #verificationModalBackdrop {
 }
 
 #verificationModalToolbar .verification-modal-toolbar-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
   margin: 0;
   overflow: visible;
+}
+
+#verificationModalToolbar .verification-modal-toolbar-row > .btn,
+#verificationModalToolbar .verification-modal-share,
+#verificationModalToolbar #verificationZapReportGroup,
+#verificationModalToolbar .verification-modal-delete-link {
+  margin-left: 0 !important;
+}
+
+#verificationModalToolbar .verification-modal-toolbar-row .btn {
+  margin-bottom: 0;
+}
+
+#verificationModalToolbar .verification-modal-share,
+#verificationModalToolbar .verification-modal-share.shareButtonContainer,
+#verificationModalToolbar .verification-modal-share .dropdown {
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 480px) {
   #verificationModal {

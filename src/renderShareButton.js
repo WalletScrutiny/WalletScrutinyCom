@@ -106,9 +106,12 @@
           border-color: #007bff;
         }
       }
-      .shareButtonContainer a.btn-info.share-dropdown-trigger--pulse,
-      .shareButtonContainer a.btn-info.share-dropdown-trigger--pulse:hover {
+      .shareButtonContainer .btn-info.share-dropdown-trigger--pulse,
+      .shareButtonContainer .btn-info.share-dropdown-trigger--pulse:hover {
         animation: share-button-pulse 2s ease-in-out infinite;
+      }
+      .shareButtonContainer .share-dropdown-trigger {
+        font-family: inherit;
       }
       @media (prefers-reduced-motion: reduce) {
         .shareButtonContainer .share-dropdown-trigger--pulse {
@@ -145,7 +148,7 @@
       const pulseClass = pulseAttention ? ' share-dropdown-trigger--pulse' : '';
       html += `
         <div class="dropdown">
-          <a href="#" class="btn btn-info share-dropdown-trigger${pulseClass}"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share</a>
+          <button type="button" class="btn btn-info share-dropdown-trigger${pulseClass}"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share</button>
           <div class="share-dropdown-menu">
             ${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}
           </div>

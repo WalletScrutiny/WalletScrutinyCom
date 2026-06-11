@@ -406,15 +406,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
   }
 
-  toolbar.innerHTML = '<p class="verification-modal-toolbar-row">';
-  toolbar.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  toolbar.innerHTML += `<span class="verification-modal-share" style="display: inline-block; vertical-align: middle; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="verificationShareButtonContainer"></span>`;
-  toolbar.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
+  toolbarRowHtml += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
+  toolbarRowHtml += `<button class="btn btn-info" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
-    toolbar.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+    toolbarRowHtml += `<button class="btn btn-info" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
-  toolbar.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
-  toolbar.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+  toolbarRowHtml += `<div id="verificationActionButtons"></div>`;
+  toolbarRowHtml += `<div id="verificationZapReportGroup" style="display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
     <button type="button" class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton">
       <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
     </button>
@@ -425,11 +425,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
       </div>
     </span>
-  </span>`;
-  toolbar.innerHTML += isMine
+  </div>`;
+  toolbarRowHtml += isMine
     ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
     : '';
-  toolbar.innerHTML += '</p>';
+  toolbarRowHtml += '</div>';
+  toolbar.innerHTML = toolbarRowHtml;
 
   const shareButtonContainer = toolbar.querySelector('#verificationShareButtonContainer');
   let shareMessage = 'Check out this verification!';
