@@ -50,6 +50,7 @@ export async function getApkInfo(file) {
     const parser = new AppInfoParser(file);
     return await parser.parse();
   } catch (error) {
+    console.error('Failed to parse APK metadata:', error);
     return null;
   }
 }
