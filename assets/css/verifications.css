@@ -150,6 +150,7 @@ body.dark #verificationModalBackdrop {
 
 #verificationModal {
   display: none;
+  flex-direction: column;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -159,6 +160,20 @@ body.dark #verificationModalBackdrop {
   border-radius: 12px;
   height: 80vh;
   background: var(--body);
+}
+
+#verificationModalToolbar {
+  flex: 0 0 auto;
+  position: relative;
+  z-index: 3;
+  overflow: visible;
+  padding: 20px 20px 10px;
+  padding-top: 5px;
+}
+
+#verificationModalToolbar .verification-modal-toolbar-row {
+  margin: 0;
+  overflow: visible;
 }
 @media screen and (max-width: 480px) {
   #verificationModal {
@@ -199,9 +214,10 @@ body.dark #verificationModalBackdrop {
 }
 
 #verificationContent {
+  flex: 1 1 auto;
+  min-height: 0;
   padding: 20px;
   padding-top: 5px;
-  height: 100%;
   overflow-y: auto;
   overflow-x: auto;
   max-width: 100%;

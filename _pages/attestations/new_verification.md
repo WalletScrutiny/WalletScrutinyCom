@@ -1107,14 +1107,14 @@ permalink: /new_verification/
     };
 
     try {
-      await createVerification(formData);
+      const verificationEvent = await createVerification(formData);
       document.getElementById('loadingSpinner').style.display = 'none';
       await showToast(isDraft ? 'Draft published successfully!' : 'Verification published successfully!');
 
-      const url = `/${document.getElementById("platform").value}/${document.getElementById("appId").value}/`;
-      const response = await fetch(url, { method: 'HEAD' });
+      const walletBaseUrl = `/${document.getElementById("platform").value}/${document.getElementById("appId").value}/`;
+      const response = await fetch(walletBaseUrl, { method: 'HEAD' });
       if (response.ok) {
-        window.location.href = url;
+        window.location.href = `${walletBaseUrl}#verificationId=${verificationEvent.id}`;
       } else {
         const userPubkey = await getUserPubkey();
         if (userPubkey) {

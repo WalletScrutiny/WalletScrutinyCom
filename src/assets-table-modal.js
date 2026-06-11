@@ -31,6 +31,7 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
 
   const closeModalAction = () => {
     modal.style.display = 'none';
+    modal.style.flexDirection = '';
     if (modalBackdrop) {
       modalBackdrop.style.display = 'none';
     }
@@ -55,6 +56,8 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
     };
   }
 
+  const toolbar = document.getElementById('verificationModalToolbar');
+
   verificationModalClickHandler = function(event) {
     if (event.target.closest('#closeModal')) {
       closeModalAction();
@@ -63,7 +66,13 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
     if (event.target.closest('.zap-modal')) {
       return;
     }
-    if (!content.contains(event.target) && event.target !== content && !event.target.closest('.attestation-link')) {
+    if (event.target.closest('.share-nostr-modal')) {
+      return;
+    }
+    const clickedInsideModalPanel = content.contains(event.target)
+      || event.target === content
+      || toolbar?.contains(event.target);
+    if (!clickedInsideModalPanel && !event.target.closest('.attestation-link')) {
       const modalRect = modal.getBoundingClientRect();
       if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
         closeModalAction();
@@ -349,6 +358,14 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   };
 
   const content = document.getElementById('verificationContent');
+  let toolbar = document.getElementById('verificationModalToolbar');
+  if (!toolbar) {
+    toolbar = document.createElement('div');
+    toolbar.id = 'verificationModalToolbar';
+    modal.insertBefore(toolbar, content);
+  }
+  toolbar.innerHTML = '';
+  content.innerHTML = '';
 
   // Reset scroll positions before showing the modal again
   setTimeout(() => {
@@ -389,15 +406,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
   }
 
-  content.innerHTML = '<p>';
-  content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`;
-  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  toolbar.innerHTML = '<p class="verification-modal-toolbar-row">';
+  toolbar.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  toolbar.innerHTML += `<span class="verification-modal-share" style="display: inline-block; vertical-align: middle; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="verificationShareButtonContainer"></span>`;
+  toolbar.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
-    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+    toolbar.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
-  content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
-  content.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+  toolbar.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
+  toolbar.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
     <button type="button" class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton">
       <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
     </button>
@@ -409,10 +426,42 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       </div>
     </span>
   </span>`;
-  content.innerHTML += isMine
+  toolbar.innerHTML += isMine
     ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
     : '';
-  content.innerHTML += '</p>';
+  toolbar.innerHTML += '</p>';
+
+  const shareButtonContainer = toolbar.querySelector('#verificationShareButtonContainer');
+  let shareMessage = 'Check out this verification!';
+  const shareAppId = getFirstTagValue(verification, 'i');
+  if (shareAppId) {
+    const shareVersion = getFirstTagValue(verification, 'version');
+    const sharePlatform = getFirstTagValue(verification, 'platform');
+    const shareWallet = window.wallets.find(w => w.appId === shareAppId);
+    const shareWalletTitle = shareWallet ? shareWallet.title : shareAppId;
+    const walletDescriptionToken = `${shareWalletTitle} v${shareVersion} (${sharePlatform})`;
+
+    if (isMine) {
+      if (status === 'reproducible') {
+        shareMessage = `🚀 Successfully reproduced and verified ${walletDescriptionToken} from source!`;
+      } else {
+        shareMessage = `🚨 Failed to reproduce and verify ${walletDescriptionToken} from source!`;
+      }
+    } else {
+      shareMessage = `👀 Check out this ${walletDescriptionToken} verification!`;
+    }
+    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The binary tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
+    shareMessage += '\n🔍 See the full verification here:';
+  }
+
+  if (shareButtonContainer && typeof window.renderShareButton === 'function') {
+    window.renderShareButton({
+      container: shareButtonContainer,
+      defaultMessage: shareMessage,
+      showRawButtons: false,
+      pulseAttention: isMine
+    });
+  }
 
   const version = getFirstTagValue(verification, 'version');
   const identifier = getFirstTagValue(verification, 'i');
@@ -594,7 +643,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       : (window.theme === 'dark' ? 'rgba(0,0,0,0.65)' : 'rgba(0,0,0,0.45)');
     modalBackdrop.style.display = 'block';
   }
-  modal.style.display = 'block';
+  modal.style.display = 'flex';
+  modal.style.flexDirection = 'column';
   setupVerificationModalCloseHandlers(modal, modalBackdrop, content);
 
   // Store original URL before changing hash
@@ -746,7 +796,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     verificationId: verification.id
   });
 
-  const deleteVerificationLink = content.querySelector('#deleteVerificationLink');
+  const deleteVerificationLink = toolbar.querySelector('#deleteVerificationLink');
   if (deleteVerificationLink) {
     deleteVerificationLink.addEventListener('click', async (e) => {
       e.preventDefault();
@@ -763,35 +813,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     });
   }
 
-  let shareMessage = "Check out this verification!";
-  if (verification.content.includes('i')) {
-    const appId = getFirstTagValue(verification, 'i');
-    const version = getFirstTagValue(verification, 'version');
-    const platform = getFirstTagValue(verification, 'platform');
-
-    const wallet = window.wallets.find(w => w.appId === appId);
-    const walletTitle = wallet ? wallet.title : appId;
-
-    const walletDescriptionToken = `${walletTitle} v${version} (${platform})`;
-
-    if (isMine) {
-      if (status === 'reproducible') {
-        shareMessage = `🚀 Successfully reproduced and verified ${walletDescriptionToken} from source!`;
-      } else {
-        shareMessage = `🚨 Failed to reproduce and verify ${walletDescriptionToken} from source!`;
-      }
-    } else {
-      shareMessage = `👀 Check out this ${walletDescriptionToken} verification!`;
-    }
-    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The binary tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
-    shareMessage += `\n🔍 See the full verification here:`;
-  }
-
-  renderShareButton({
-    container: "#shareButtonContainer",
-    defaultMessage: shareMessage,
-    showRawButtons: false
-  });
 }
 
 function insertDiffoscopeAssets() {
