@@ -13,6 +13,7 @@ import { appLog, verificationsLog } from './logger.mjs';
 import {
   compareVersions,
   fetchAppInfo,
+  findHighestVerificationInMajor,
   getFirstTagValue,
   groupVerificationsByAppIdAndSortByVersion,
   getFileAttachmentIDsForVerificationEvent,
@@ -89,10 +90,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(verificationsWithAttachments);
 
     for (const [appId, verifications] of verificationsByAppId) {
-      // Take only the first (highest) verification for the appId
-      const highestVersionVerification = verifications[0];
-
-      let platform = getFirstTagValue(highestVersionVerification.verification, 'platform');
+      const fallbackVerification = verifications[0];
+      let platform = getFirstTagValue(fallbackVerification.verification, 'platform');
       let legacyPlatform = toLegacyPlatform(platform);
 
       let walletInfo = null;
@@ -102,15 +101,35 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         walletInfo = refreshResults.hardware[appId];
       } else {
         appLog.error(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
-        verificationsLog.info(`--- ${appId} ${highestVersionVerification.version} | Wallet not found in refreshResults for platform ${legacyPlatform}`);
+        verificationsLog.info(`--- ${appId} ${fallbackVerification.version} | Wallet not found in refreshResults for platform ${legacyPlatform}`);
         continue;
       }
 
-      if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
-        appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        await processNewReleaseVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications, githubToken);
+      const latestWalletVersion = walletInfo.latestVersion;
+      const highestInMajor = findHighestVerificationInMajor(verifications, latestWalletVersion);
+      const verificationForScript = highestInMajor ?? fallbackVerification;
+      const verifiedVersionInMajor = highestInMajor?.version ?? null;
+
+      const hasNewerVersion = verifiedVersionInMajor === null
+        ? true
+        : compareVersions(verifiedVersionInMajor, latestWalletVersion) > 0;
+
+      if (hasNewerVersion) {
+        const verifiedLabel = verifiedVersionInMajor ?? 'none in this major line';
+        appLog.info(
+          `Wallet ${appId} has a newer version: ${verifiedLabel} (latest verification in major line) ==> ${latestWalletVersion} (latest version in wallet repo)`
+        );
+        await processNewReleaseVerification(
+          verificationForScript.verification,
+          latestWalletVersion,
+          appInfo,
+          wsBotVerifications,
+          githubToken
+        );
       } else {
-        appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
+        appLog.info(
+          `There is no newer version of ${appId}: ${verifiedVersionInMajor} (latest verification in major line) ==> ${latestWalletVersion} (latest version in wallet repo). Skipping...`
+        );
         continue;
       }
     }
