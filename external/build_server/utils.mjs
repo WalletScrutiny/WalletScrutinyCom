@@ -38,57 +38,85 @@ export function sanitizeFilesystemSegment(value) {
   return String(value).replace(/[^a-zA-Z0-9.-]/g, '_');
 }
 
-// Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
-// "a" is the last version found in a verification
-// "b" is the latest version found in the update scripts
-// If b > a, there is a new version
+function parseVersionPart(part) {
+  const match = part.match(/^(\d+)(.*)$/);
+  if (match) {
+    return { numeric: parseInt(match[1], 10), suffix: match[2] };
+  }
+  return { numeric: 0, suffix: part };
+}
+
+/**
+ * Normalize a version string into comparable numeric/suffix parts.
+ * Handles prefixes like "v", "refs/tags/", and leading X.Y.Z blocks.
+ */
+export function parseVersionComponents(version) {
+  let normalized = String(version).split('/').pop();
+  normalized = normalized.replace(/^v/i, '');
+
+  const semverMatch = normalized.match(/^(\d+\.\d+\.\d+)/);
+  if (semverMatch) {
+    normalized = semverMatch[1];
+  }
+
+  if (!normalized) {
+    return [];
+  }
+
+  return normalized.split('.').map(parseVersionPart);
+}
+
+/** First numeric component of a version (the major release line). */
+export function getVersionMajor(version) {
+  const parts = parseVersionComponents(version);
+  return parts.length > 0 ? parts[0].numeric : null;
+}
+
+// Helper to compare semantic versions like "1.2.3" or "1.3.5Q".
+// Returns 1 when b is newer than a, -1 when a is newer, 0 when equal.
 export function compareVersions(a, b) {
-  a = a.split('/').pop();
-  b = b.split('/').pop();
+  const pa = parseVersionComponents(a);
+  const pb = parseVersionComponents(b);
 
-  a = a.replace(/^v/i, '');
-  b = b.replace(/^v/i, '');
-
-  const aMatch = a.match(/^(\d+\.\d+\.\d+)/);
-  const bMatch = b.match(/^(\d+\.\d+\.\d+)/);
-  
-  if (aMatch) {
-    a = aMatch[1];
-  }
-  if (bMatch) {
-    b = bMatch[1];
-  }
-
-  if (!a || !b) {
+  if (pa.length === 0 || pb.length === 0) {
     return 0;
   }
-  
-  // Split by '.' and extract numeric parts and suffixes
-  const parsePart = (part) => {
-    const match = part.match(/^(\d+)(.*)$/);
-    if (match) {
-      return { numeric: parseInt(match[1], 10), suffix: match[2] };
-    }
-    return { numeric: 0, suffix: part };
-  };
-  
-  const pa = a.split('.').map(parsePart);
-  const pb = b.split('.').map(parsePart);
 
   for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
     const aPart = pa[i] || { numeric: 0, suffix: '' };
     const bPart = pb[i] || { numeric: 0, suffix: '' };
-    
-    // Compare numeric parts first
+
     if (aPart.numeric < bPart.numeric) return 1;
     if (aPart.numeric > bPart.numeric) return -1;
-    
-    // If numeric parts are equal, compare suffixes lexicographically
+
     if (aPart.suffix !== bPart.suffix) {
       return aPart.suffix.localeCompare(bPart.suffix);
     }
   }
   return 0;
+}
+
+/**
+ * Among verifications already sorted by version (any order), return the highest
+ * one that belongs to the same major release line as targetVersion.
+ */
+export function findHighestVerificationInMajor(verifications, targetVersion) {
+  const targetMajor = getVersionMajor(targetVersion);
+  if (targetMajor === null) {
+    return null;
+  }
+
+  const inMajor = verifications.filter(
+    (entry) => getVersionMajor(entry.version) === targetMajor
+  );
+
+  if (inMajor.length === 0) {
+    return null;
+  }
+
+  return inMajor.reduce((best, current) => (
+    compareVersions(best.version, current.version) > 0 ? current : best
+  ));
 }
 
 export function groupVerificationsByAppIdAndSortByVersion(verifications) {

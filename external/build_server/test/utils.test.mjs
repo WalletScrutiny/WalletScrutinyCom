@@ -8,6 +8,8 @@ import { fileURLToPath } from 'url';
 import {
   toLegacyPlatform,
   compareVersions,
+  getVersionMajor,
+  findHighestVerificationInMajor,
   groupVerificationsByAppIdAndSortByVersion,
   getFirstTagValue,
   getAppIdsFromVerifications,
@@ -168,6 +170,52 @@ describe('compareVersions', () => {
   test('compares partial versions component-by-component, missing parts default to 0', () => {
     assert.equal(compareVersions('1.2', '1.2.0'), 0);
     assert.equal(compareVersions('1.2', '1.2.1'), 1);
+  });
+});
+
+// ---- getVersionMajor ---------------------------------------------------
+
+describe('getVersionMajor', () => {
+  test('returns the first numeric component', () => {
+    assert.equal(getVersionMajor('29.0'), 29);
+    assert.equal(getVersionMajor('30.1.2'), 30);
+    assert.equal(getVersionMajor('v12.3'), 12);
+    assert.equal(getVersionMajor('refs/tags/v29.1'), 29);
+  });
+});
+
+// ---- findHighestVerificationInMajor ------------------------------------
+
+describe('findHighestVerificationInMajor', () => {
+  function makeEntry(version) {
+    return { version, verification: { id: version } };
+  }
+
+  test('picks the highest verification within the same major line', () => {
+    const verifications = [
+      makeEntry('30.0'),
+      makeEntry('29.0'),
+      makeEntry('29.1'),
+    ];
+
+    const highest = findHighestVerificationInMajor(verifications, '29.2');
+    assert.equal(highest.version, '29.1');
+  });
+
+  test('returns null when no verification exists for the target major line', () => {
+    const verifications = [makeEntry('29.0'), makeEntry('29.1')];
+    assert.equal(findHighestVerificationInMajor(verifications, '30.0'), null);
+  });
+
+  test('treats 29.1 as newer than 29.0 within the same major line', () => {
+    const verifications = [makeEntry('29.0'), makeEntry('30.0')];
+    assert.equal(
+      compareVersions(
+        findHighestVerificationInMajor(verifications, '29.1').version,
+        '29.1'
+      ),
+      1
+    );
   });
 });
 
