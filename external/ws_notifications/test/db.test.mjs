@@ -16,6 +16,7 @@ import {
   buildVerificationUrl,
   formatNotificationMessage,
   parseVerificationEvent,
+  parsePublishDelayMs,
   startOfTodayUtc,
   webappPlatformPath,
 } from '../utils.mjs';
@@ -145,6 +146,19 @@ describe('utils', () => {
     assert.doesNotMatch(message, /Version:/);
     assert.doesNotMatch(message, /Platform:/);
     assert.match(message, /#verificationId=evt1/);
+  });
+
+  test('parsePublishDelayMs defaults to 3000ms', () => {
+    const previous = process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS;
+    delete process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS;
+    assert.equal(parsePublishDelayMs(), 3000);
+    process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS = '0';
+    assert.equal(parsePublishDelayMs(), 0);
+    if (previous === undefined) {
+      delete process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS;
+    } else {
+      process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS = previous;
+    }
   });
 
   test('buildNotificationForVerification builds kind=1 payload', () => {

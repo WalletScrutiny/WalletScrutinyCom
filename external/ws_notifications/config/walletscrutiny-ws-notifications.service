@@ -1,6 +1,6 @@
 [Unit]
 Description=WalletScrutiny verification Nostr notifications (oneshot)
-Documentation=file:/opt/build-server/walletScrutinyCom/external/ws_notifications/README.md
+Documentation=file:/opt/ws-notifications/README.md
 After=network-online.target
 Wants=network-online.target
 
@@ -8,7 +8,7 @@ Wants=network-online.target
 Type=oneshot
 User=build-server
 Group=build-server
-WorkingDirectory=/opt/build-server/walletScrutinyCom/external/ws_notifications
+WorkingDirectory=/opt/ws-notifications
 StateDirectory=walletscrutiny-ws-notifications
 LogsDirectory=ws-notifications
 
@@ -17,6 +17,7 @@ LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-se
 Environment=WS_BOT_PK_FILE=%d/build-server-ws-bot-pk
 Environment=WS_NOTIFICATIONS_DB_PATH=/var/lib/walletscrutiny-ws-notifications/notifications.db
 Environment=WS_NOTIFICATIONS_LOG_DIR=/var/log/ws-notifications
+Environment=WS_NOTIFICATIONS_PUBLISH_DELAY_MS=3000
 
 ExecStart=/usr/bin/node index.mjs
 

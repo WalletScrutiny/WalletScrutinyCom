@@ -44,6 +44,24 @@ export function startOfTodayUtc() {
   return Math.floor(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 1000);
 }
 
+/**
+ * Delay between kind=1 publishes (ms). Set WS_NOTIFICATIONS_PUBLISH_DELAY_MS=0 to disable.
+ */
+export function parsePublishDelayMs() {
+  const raw = process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS ?? '3000';
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed) || parsed < 0) {
+    throw new Error(`Invalid WS_NOTIFICATIONS_PUBLISH_DELAY_MS: ${raw}`);
+  }
+  return Math.floor(parsed);
+}
+
+export function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
 const MOBILE_WEBAPP_PLATFORMS = new Set(['android', 'iphone']);
 
 /**

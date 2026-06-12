@@ -1,7 +1,7 @@
 import WebSocket from 'ws';
 import { DEBUG, DRY_RUN } from './config/env.mjs';
 import { appLog } from './logger.mjs';
-import { loadSecret, tryLoadSecret } from './utils.mjs';
+import { loadSecret, parsePublishDelayMs, sleep, tryLoadSecret } from './utils.mjs';
 import { closeDb, getSince, isNotified, markNotified, updateSince } from './db.mjs';
 import {
   buildNotificationForVerification,
@@ -54,6 +54,10 @@ async function main() {
     await connectToNostr(wsBotNostrPrivateKey);
 
     const events = await fetchNewVerifications(since);
+    const publishDelayMs = DRY_RUN ? 0 : parsePublishDelayMs();
+    if (publishDelayMs > 0) {
+      appLog.info(`Publish delay between notes: ${publishDelayMs}ms`);
+    }
 
     const summary = {
       fetched: events.length,
@@ -101,6 +105,10 @@ async function main() {
             status: metadata.status,
           });
           summary.notified++;
+          if (publishDelayMs > 0) {
+            appLog.debug(`Waiting ${publishDelayMs}ms before next publish`);
+            await sleep(publishDelayMs);
+          }
         }
       } catch (error) {
         appLog.error(`Failed to notify for verification ${event.id}:`, error);
