@@ -67,6 +67,20 @@ pre {
     <p>Some verifications are created automatically by the <a href="/automated-build-server/">WalletScrutiny Automated Build Server</a>, which re-runs community-published <code>build.sh</code> scripts when new binaries are registered. If you want your script to be eligible for automatic runs, see the <a href="/automated-build-server/">ABS documentation</a> and the <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/docs/script_verifications.md" target="_blank" rel="noopener noreferrer">script rules on GitLab</a>.</p>
 </div>
 
+<div class="nostr-updates">
+    <h2>Subscribe to verification updates on Nostr</h2>
+
+    <p>When a new wallet build verification is published, <strong>WalletScrutiny Bot</strong> posts a short Nostr note with the app, version, platform, result, and a link back to this site. To receive these updates in your Nostr client, follow the bot:</p>
+
+    <ul>
+        <li><strong>Hex pubkey:</strong> <code>168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335</code></li>
+        <li><strong>npub:</strong> <code>npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf</code></li>
+        <li><a href="https://primal.net/p/npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf" target="_blank" rel="noopener noreferrer">WalletScrutiny Bot on Primal</a></li>
+    </ul>
+
+    <p class="note">You only need a Nostr account and a client that supports following other users. If you are new to Nostr, see <a href="/nostr/">getting started with Nostr</a>.</p>
+</div>
+
 <div class="getting-started">
     <h2>Where to Start?</h2>
     <p>There are four main ways to explore build verifications in our system:</p>
