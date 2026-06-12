@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 
 import {
   closeDb,
+  getFetchSince,
   getSince,
   initDb,
   isNotified,
@@ -14,6 +15,7 @@ import {
 } from '../db.mjs';
 import {
   buildVerificationUrl,
+  checkVerificationPageExists,
   formatNotificationMessage,
   parseVerificationEvent,
   parsePublishDelayMs,
@@ -41,6 +43,12 @@ describe('db cursor and dedup', () => {
     initDb();
     updateSince(1_700_000_000);
     assert.equal(getSince(), 1_700_000_000);
+  });
+
+  test('getFetchSince is one second after stored since', () => {
+    initDb();
+    updateSince(1_700_000_000);
+    assert.equal(getFetchSince(), 1_700_000_001);
   });
 
   test('markNotified and isNotified round-trip', () => {
@@ -146,6 +154,30 @@ describe('utils', () => {
     } else {
       process.env.WS_NOTIFICATIONS_PUBLISH_DELAY_MS = previous;
     }
+  });
+
+  test('checkVerificationPageExists accepts ok HEAD responses', async () => {
+    const result = await checkVerificationPageExists(
+      { platform: 'linux', appId: 'blockstreamgreen' },
+      {
+        fetchFn: async () => ({ ok: true, status: 200 }),
+        timeoutMs: 1000,
+      }
+    );
+    assert.equal(result.exists, true);
+    assert.equal(result.url, 'https://walletscrutiny.com/desktop/blockstreamgreen/');
+  });
+
+  test('checkVerificationPageExists rejects missing pages', async () => {
+    const result = await checkVerificationPageExists(
+      { platform: 'linux', appId: 'missing.wallet' },
+      {
+        fetchFn: async () => ({ ok: false, status: 404 }),
+        timeoutMs: 1000,
+      }
+    );
+    assert.equal(result.exists, false);
+    assert.equal(result.status, 404);
   });
 
   test('buildNotificationForVerification builds kind=1 payload', () => {

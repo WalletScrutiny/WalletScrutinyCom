@@ -1,8 +1,15 @@
 import WebSocket from 'ws';
 import { DEBUG, DRY_RUN } from './config/env.mjs';
 import { appLog } from './logger.mjs';
-import { loadSecret, parsePublishDelayMs, sleep, tryLoadSecret } from './utils.mjs';
-import { closeDb, getSince, isNotified, markNotified, updateSince } from './db.mjs';
+import {
+  checkVerificationPageExists,
+  loadSecret,
+  parsePublishDelayMs,
+  parseVerificationEvent,
+  sleep,
+  tryLoadSecret,
+} from './utils.mjs';
+import { closeDb, getFetchSince, getSince, isNotified, markNotified, updateSince } from './db.mjs';
 import {
   buildNotificationForVerification,
   connectToNostr,
@@ -10,7 +17,6 @@ import {
   fetchNewVerifications,
   publishNotification,
 } from './nostr.mjs';
-import { parseVerificationEvent } from './utils.mjs';
 
 global.WebSocket = WebSocket;
 
@@ -49,11 +55,15 @@ async function main() {
     appLog.info('======= Starting WS Notifications =======');
 
     const since = getSince();
-    appLog.info(`Using since cursor: ${since} (${new Date(since * 1000).toISOString()})`);
+    const fetchSince = getFetchSince();
+    appLog.info(
+      `Using since cursor: ${since} (${new Date(since * 1000).toISOString()}), ` +
+      `fetching from ${fetchSince}`
+    );
 
     await connectToNostr(wsBotNostrPrivateKey);
 
-    const events = await fetchNewVerifications(since);
+    const events = await fetchNewVerifications(fetchSince);
     const publishDelayMs = DRY_RUN ? 0 : parsePublishDelayMs();
     if (publishDelayMs > 0) {
       appLog.info(`Publish delay between notes: ${publishDelayMs}ms`);
@@ -64,6 +74,7 @@ async function main() {
       notified: 0,
       skippedAlreadyNotified: 0,
       skippedInvalid: 0,
+      skippedMissingPage: 0,
       errors: 0,
     };
 
@@ -87,6 +98,16 @@ async function main() {
       }
 
       try {
+        const pageCheck = await checkVerificationPageExists(metadata);
+        if (!pageCheck.exists) {
+          const detail = pageCheck.error ?? `HTTP ${pageCheck.status}`;
+          appLog.error(
+            `Skipping verification ${event.id}: wallet page not found at ${pageCheck.url} (${detail})`
+          );
+          summary.skippedMissingPage++;
+          continue;
+        }
+
         if (DRY_RUN) {
           const { content, tags } = buildNotificationForVerification(event);
           appLog.info(
@@ -123,7 +144,8 @@ async function main() {
     appLog.info(
       `Done. fetched=${summary.fetched} ${notifiedLabel}=${summary.notified} ` +
       `skippedAlreadyNotified=${summary.skippedAlreadyNotified} ` +
-      `skippedInvalid=${summary.skippedInvalid} errors=${summary.errors}` +
+      `skippedInvalid=${summary.skippedInvalid} ` +
+      `skippedMissingPage=${summary.skippedMissingPage} errors=${summary.errors}` +
       (DRY_RUN ? ' dryRun=true' : '')
     );
 

@@ -6,7 +6,7 @@ Publishes Nostr **kind=1** notes when new WalletScrutiny **verification** events
 
 1. Reads the `since` cursor from a local SQLite database (initialized to the start of the current UTC day on first run).
 2. Fetches published verification events from Nostr relays (kind 30301, filtered to `client=WalletScrutiny.com` in code).
-3. For each new event not yet recorded in the database, publishes a kind=1 note with app, version, platform, status, and a link to the verification on walletscrutiny.com.
+3. For each new event not yet recorded in the database, checks that the wallet page exists on walletscrutiny.com (HTTP HEAD), then publishes a kind=1 note with app, version, platform, status, and a link to the verification. Events whose wallet page is missing are skipped and logged as errors.
 4. Records notified event IDs in SQLite and advances the `since` cursor to the latest `created_at` seen.
 
 Draft verifications (kind 30801) are not notified.
@@ -39,6 +39,7 @@ Optional flags and environment variables:
 | `WS_NOTIFICATIONS_LOG_DIR` | Log file directory (default: `./logs`; production systemd uses `/var/log/ws-notifications`) |
 | `WS_NOTIFICATIONS_FETCH_TIMEOUT_MS` | Max wait per Nostr fetch page (default: `120000`) |
 | `WS_NOTIFICATIONS_PUBLISH_DELAY_MS` | Pause between kind=1 publishes in ms (default: `3000`; set `0` to disable) |
+| `WS_NOTIFICATIONS_URL_CHECK_TIMEOUT_MS` | Timeout for HTTP HEAD wallet page checks (default: `15000`) |
 | `WS_NOTIFICATIONS_INITIAL_SINCE` | Override initial `since` cursor (unix seconds) |
 | `WEBAPP_BASE_URL` | Base URL for verification links (default: `https://walletscrutiny.com`) |
 
@@ -149,7 +150,7 @@ No need to restart a long-running process: the timer launches a fresh oneshot ea
 
 | key | value |
 |-----|-------|
-| `since` | Unix timestamp cursor for Nostr fetches |
+| `since` | Unix timestamp of the last processed verification (`created_at`); Nostr fetches use `since + 1` |
 
 **`notified_events`** — deduplication (verification event ids already notified)
 

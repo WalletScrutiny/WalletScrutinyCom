@@ -98,6 +98,15 @@ export function getSince() {
 }
 
 /**
+ * Lower bound for the next Nostr fetch. Nostr `since` is inclusive, so add 1
+ * to avoid re-fetching the event at the stored cursor on every run.
+ * @returns {number}
+ */
+export function getFetchSince() {
+  return getSince() + 1;
+}
+
+/**
  * Update the since cursor to the given unix timestamp.
  * @param {number} since
  */

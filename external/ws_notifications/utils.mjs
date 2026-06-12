@@ -56,6 +56,15 @@ export function parsePublishDelayMs() {
   return Math.floor(parsed);
 }
 
+export function parseUrlCheckTimeoutMs() {
+  const raw = process.env.WS_NOTIFICATIONS_URL_CHECK_TIMEOUT_MS ?? '15000';
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed) || parsed < 1) {
+    throw new Error(`Invalid WS_NOTIFICATIONS_URL_CHECK_TIMEOUT_MS: ${raw}`);
+  }
+  return Math.floor(parsed);
+}
+
 export function sleep(ms) {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
@@ -82,12 +91,54 @@ export function webappPlatformPath(platform) {
 }
 
 /**
+ * Build the wallet page URL (without verification hash) for a verification event.
+ */
+export function buildVerificationPageUrl({ platform, appId }) {
+  const base = WEBAPP_BASE_URL.replace(/\/$/, '');
+  const pathPlatform = webappPlatformPath(platform);
+  return `${base}/${pathPlatform}/${appId}/`;
+}
+
+/**
  * Build the webapp URL for a verification event.
  */
 export function buildVerificationUrl({ platform, appId, eventId }) {
-  const base = WEBAPP_BASE_URL.replace(/\/$/, '');
-  const pathPlatform = webappPlatformPath(platform);
-  return `${base}/${pathPlatform}/${appId}/#verificationId=${eventId}`;
+  return `${buildVerificationPageUrl({ platform, appId })}#verificationId=${eventId}`;
+}
+
+/**
+ * Check whether the wallet page exists on the webapp (HTTP HEAD).
+ * @returns {Promise<{ exists: boolean, url: string, status?: number, error?: string }>}
+ */
+export async function checkVerificationPageExists(
+  { platform, appId },
+  { fetchFn = fetch, timeoutMs = parseUrlCheckTimeoutMs() } = {}
+) {
+  const url = buildVerificationPageUrl({ platform, appId });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetchFn(url, {
+      method: 'HEAD',
+      signal: controller.signal,
+      redirect: 'follow',
+    });
+    if (response.ok) {
+      return { exists: true, url, status: response.status };
+    }
+    return {
+      exists: false,
+      url,
+      status: response.status,
+      error: `HTTP ${response.status}`,
+    };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return { exists: false, url, error: message };
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 /**
