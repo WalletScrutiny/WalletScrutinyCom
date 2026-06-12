@@ -162,7 +162,7 @@ No need to restart a long-running process: the timer launches a fresh oneshot ea
 ```
 New "Not Reproducible" verification for blockstreamgreen 3.4.0 (linux):
 
-https://walletscrutiny.com/linux/blockstreamgreen/#verificationId=<event-id>
+https://walletscrutiny.com/desktop/blockstreamgreen/#verificationId=<event-id>
 ```
 
 ## Tests

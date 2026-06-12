@@ -63,13 +63,22 @@ export function sleep(ms) {
 }
 
 const MOBILE_WEBAPP_PLATFORMS = new Set(['android', 'iphone']);
+const DESKTOP_PLATFORMS = new Set(['linux', 'windows', 'macos']);
 
 /**
- * Map Nostr platform tags to the canonical webapp path segment.
- * Mobile wallets live under /mobile/ to avoid redirect_from hops.
+ * Map a raw Nostr platform tag to the legacy path segment used on walletscrutiny.com.
+ * Desktop OSes collapse to "desktop"; android/iphone map to "mobile".
+ */
+export function toLegacyPlatform(platform) {
+  return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
+}
+
+/**
+ * Map a Nostr platform tag to the canonical webapp URL path segment.
  */
 export function webappPlatformPath(platform) {
-  return MOBILE_WEBAPP_PLATFORMS.has(platform) ? 'mobile' : platform;
+  const legacyPlatform = toLegacyPlatform(platform);
+  return MOBILE_WEBAPP_PLATFORMS.has(legacyPlatform) ? 'mobile' : legacyPlatform;
 }
 
 /**

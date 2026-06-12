@@ -81,16 +81,18 @@ describe('utils', () => {
     });
   });
 
-  test('buildVerificationUrl matches webapp pattern', () => {
+  test('buildVerificationUrl maps desktop platforms to /desktop/', () => {
     const url = buildVerificationUrl({
       platform: 'linux',
-      appId: 'app.zeusln.zeus',
+      appId: 'blockstreamgreen',
       eventId: 'deadbeef',
     });
     assert.equal(
       url,
-      'https://walletscrutiny.com/linux/app.zeusln.zeus/#verificationId=deadbeef'
+      'https://walletscrutiny.com/desktop/blockstreamgreen/#verificationId=deadbeef'
     );
+    assert.equal(webappPlatformPath('windows'), 'desktop');
+    assert.equal(webappPlatformPath('macos'), 'desktop');
   });
 
   test('buildVerificationUrl uses /mobile/ for android and iphone', () => {
@@ -112,7 +114,7 @@ describe('utils', () => {
     );
     assert.equal(webappPlatformPath('android'), 'mobile');
     assert.equal(webappPlatformPath('iphone'), 'mobile');
-    assert.equal(webappPlatformPath('linux'), 'linux');
+    assert.equal(webappPlatformPath('hardware'), 'hardware');
   });
 
   test('formatNotificationMessage puts status and app info in headline', () => {
@@ -121,7 +123,7 @@ describe('utils', () => {
       version: '3.4.0',
       platform: 'linux',
       status: 'not_reproducible',
-      url: 'https://walletscrutiny.com/linux/blockstreamgreen/#verificationId=evt1',
+      url: 'https://walletscrutiny.com/desktop/blockstreamgreen/#verificationId=evt1',
     });
     assert.match(
       message,
