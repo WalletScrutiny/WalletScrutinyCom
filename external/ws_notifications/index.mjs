@@ -96,14 +96,7 @@ async function main() {
           summary.notified++;
         } else {
           await publishNotification(event);
-          markNotified({
-            eventId: event.id,
-            createdAt: event.created_at,
-            appId: metadata.appId,
-            version: metadata.version,
-            platform: metadata.platform,
-            status: metadata.status,
-          });
+          markNotified(event.id);
           summary.notified++;
           if (publishDelayMs > 0) {
             appLog.debug(`Waiting ${publishDelayMs}ms before next publish`);

@@ -23,6 +23,25 @@ function parseInitialSince() {
   return startOfTodayUtc();
 }
 
+function migrateNotifiedEventsTableIfNeeded(database) {
+  const columns = database.prepare('PRAGMA table_info(notified_events)').all();
+  if (columns.length === 0) {
+    return;
+  }
+  if (columns.length === 1 && columns[0].name === 'event_id') {
+    return;
+  }
+  database.exec(`
+    CREATE TABLE notified_events_migrated (
+      event_id TEXT PRIMARY KEY
+    );
+    INSERT OR IGNORE INTO notified_events_migrated (event_id)
+    SELECT event_id FROM notified_events;
+    DROP TABLE notified_events;
+    ALTER TABLE notified_events_migrated RENAME TO notified_events;
+  `);
+}
+
 /**
  * Initialize the database and create tables if they do not exist.
  * Seeds the since cursor on first run.
@@ -37,17 +56,11 @@ export function initDb() {
       value TEXT NOT NULL
     );
     CREATE TABLE IF NOT EXISTS notified_events (
-      event_id TEXT PRIMARY KEY,
-      created_at INTEGER NOT NULL,
-      app_id TEXT,
-      version TEXT,
-      platform TEXT,
-      status TEXT,
-      notified_at TEXT DEFAULT (datetime('now'))
+      event_id TEXT PRIMARY KEY
     );
-    CREATE INDEX IF NOT EXISTS idx_notified_events_created_at
-      ON notified_events(created_at);
   `);
+
+  migrateNotifiedEventsTableIfNeeded(db);
 
   const row = db.prepare('SELECT value FROM meta WHERE key = ?').get(META_SINCE_KEY);
   if (!row) {
@@ -105,14 +118,14 @@ export function isNotified(eventId) {
 
 /**
  * Record that a verification event was notified.
- * @param {{ eventId: string, createdAt: number, appId: string, version: string, platform: string, status: string }} row
+ * @param {string} eventId
  */
-export function markNotified({ eventId, createdAt, appId, version, platform, status }) {
+export function markNotified(eventId) {
   const database = initDb();
   database.prepare(`
-    INSERT OR IGNORE INTO notified_events (event_id, created_at, app_id, version, platform, status)
-    VALUES (@eventId, @createdAt, @appId, @version, @platform, @status)
-  `).run({ eventId, createdAt, appId, version, platform, status });
+    INSERT OR IGNORE INTO notified_events (event_id)
+    VALUES (?)
+  `).run(eventId);
 }
 
 /**

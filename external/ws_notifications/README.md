@@ -151,14 +151,11 @@ No need to restart a long-running process: the timer launches a fresh oneshot ea
 |-----|-------|
 | `since` | Unix timestamp cursor for Nostr fetches |
 
-**`notified_events`** — deduplication and audit log
+**`notified_events`** — deduplication (verification event ids already notified)
 
 | column | description |
 |--------|-------------|
 | `event_id` | Verification event id (primary key) |
-| `created_at` | Verification `created_at` |
-| `app_id`, `version`, `platform`, `status` | Verification metadata |
-| `notified_at` | When the kind=1 note was published |
 
 ## Notification format
 

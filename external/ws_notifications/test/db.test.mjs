@@ -46,30 +46,15 @@ describe('db cursor and dedup', () => {
   test('markNotified and isNotified round-trip', () => {
     initDb();
     assert.equal(isNotified('abc123'), false);
-    markNotified({
-      eventId: 'abc123',
-      createdAt: 1_700_000_001,
-      appId: 'com.example',
-      version: '1.0.0',
-      platform: 'android',
-      status: 'reproducible',
-    });
+    markNotified('abc123');
     assert.equal(isNotified('abc123'), true);
     assert.equal(isNotified('other'), false);
   });
 
   test('markNotified is idempotent for the same event_id', () => {
     initDb();
-    const row = {
-      eventId: 'dup-id',
-      createdAt: 1_700_000_002,
-      appId: 'com.example',
-      version: '2.0.0',
-      platform: 'linux',
-      status: 'ftbfs',
-    };
-    markNotified(row);
-    markNotified(row);
+    markNotified('dup-id');
+    markNotified('dup-id');
     assert.equal(isNotified('dup-id'), true);
   });
 });
