@@ -13,9 +13,18 @@
 <script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
 
 <script>
-  // Load verifications_data.bundle.min.js asynchronously and then
-  // trigger the verificationsDataLoaded event and load verifications_ui.bundle.min.js,
-  // which will trigger the verificationsUILoaded event.
+  // verifications_data must load and run before verifications_ui (webpack dependOn is not
+  // enforced by the browser when both script tags are appended at once). Preload the UI
+  // bundle so it can download in parallel while data executes.
+  const verificationsDataSrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
+  const verificationsUISrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+
+  const verificationsUiPreload = document.createElement('link');
+  verificationsUiPreload.rel = 'preload';
+  verificationsUiPreload.as = 'script';
+  verificationsUiPreload.href = verificationsUISrc;
+  document.head.appendChild(verificationsUiPreload);
+
   const verificationsScript = document.createElement('script');
 
   verificationsScript.onload = () => {
@@ -57,18 +66,15 @@
       {% endif %}
     })();
 
-    // Load verifications_ui.bundle.min.js asynchronously and then trigger the verificationsUILoaded event
     const verificationsUIScript = document.createElement('script');
-
     verificationsUIScript.onload = () => {
       window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
     };
-
-    verificationsUIScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+    verificationsUIScript.src = verificationsUISrc;
     document.body.appendChild(verificationsUIScript);
   };
 
-  verificationsScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
+  verificationsScript.src = verificationsDataSrc;
   document.body.appendChild(verificationsScript);
 </script>
 

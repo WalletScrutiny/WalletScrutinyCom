@@ -118,6 +118,63 @@ export async function loadAndStoreAttachments(attachmentEventIDs) {
   return attachments;
 }
 
+function getFileAttachmentIdsFromVerification(verification) {
+  return verification.tags
+    .filter(tag => tag[0] === 'file-attachment' && tag[1])
+    .map(tag => tag[1]);
+}
+
+export async function prefetchVerificationAttachments(verification) {
+  const attachmentIds = getFileAttachmentIdsFromVerification(verification);
+  if (attachmentIds.length === 0) {
+    return;
+  }
+
+  const missingIds = attachmentIds.filter(id => !getAttachmentEntry(id));
+  if (missingIds.length === 0) {
+    return;
+  }
+
+  const attachments = await getEventsFromEventIds(missingIds);
+  attachments.forEach(attachment => {
+    storeAttachmentMetadata(attachment);
+  });
+}
+
+function buildAttachmentListItemsHTML(verificationAttachments) {
+  let attachmentsHTML = '';
+  for (const attachment of verificationAttachments) {
+    const attachmentId = attachment[1];
+    const attachmentInfo = getAttachmentEntry(attachmentId);
+    if (attachmentInfo) {
+      attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>
+        <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+        <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+    }
+  }
+  return attachmentsHTML;
+}
+
+export async function populateVerificationAttachmentsList(listEl, verificationAttachments) {
+  if (!listEl) {
+    return;
+  }
+
+  const missingIds = verificationAttachments
+    .map(attachment => attachment[1])
+    .filter(id => id && !getAttachmentEntry(id));
+
+  if (missingIds.length > 0) {
+    const attachments = await getEventsFromEventIds(missingIds);
+    attachments.forEach(attachment => {
+      storeAttachmentMetadata(attachment);
+    });
+  }
+
+  const attachmentsHTML = buildAttachmentListItemsHTML(verificationAttachments);
+  listEl.innerHTML = attachmentsHTML || '<li>Scripts not available</li>';
+}
+
 export function renderAttachmentsTable({
   attachments,
   sortedItems,
@@ -128,6 +185,10 @@ export function renderAttachmentsTable({
   profilePubkeySet,
   showProfilePictures,
 }) {
+  if (!showAttachmentsTable) {
+    return null;
+  }
+
   if (!attachments || attachments.size === 0) {
     return null;
   }
@@ -137,10 +198,6 @@ export function renderAttachmentsTable({
       profilePubkeySet.add(attachment.pubkey);
     }
   });
-
-  if (!showAttachmentsTable) {
-    return null;
-  }
 
   const wrap = document.createElement('div');
   wrap.className = 'assets-table-attachments-wrap';
@@ -198,154 +255,6 @@ export function renderAttachmentsTable({
   });
 
   return attachmentsTable;
-}
-
-export function ensureProfileStyles() {
-  if (document.getElementById('assets-table-profile-styles')) {
-    return;
-  }
-  const profileStyles = document.createElement('style');
-  profileStyles.id = 'assets-table-profile-styles';
-  profileStyles.textContent = `
-    .profile-circle-container {
-      position: relative;
-      display: inline-block;
-    }
-
-    .profile-circle {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      object-fit: cover;
-      cursor: pointer;
-      margin-right: 5px;
-    }
-
-    .profile-hover-modal {
-      display: none;
-      position: absolute;
-      z-index: 1000;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-      padding: 15px;
-      min-width: 200px;
-      left: 50%;
-      transform: translateX(-50%);
-      top: 30px;
-      text-align: center;
-      color: #333;
-      pointer-events: auto;
-      cursor: default;
-    }
-
-    .profile-modal-content {
-      pointer-events: none;
-      cursor: default;
-    }
-
-    .profile-modal-content .profile-page-btn {
-      pointer-events: auto;
-      cursor: pointer;
-    }
-
-    .profile-modal-image {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 10px;
-    }
-
-    .profile-page-btn {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      padding: 8px 16px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 14px;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .profile-hover-modal:before {
-      content: '';
-      position: absolute;
-      top: -10px;
-      left: 0;
-      width: 100%;
-      height: 10px;
-    }
-
-    body.dark-theme .profile-hover-modal {
-      background-color: #2d2d2d;
-      color: white;
-    }
-  `;
-  document.head.appendChild(profileStyles);
-}
-
-export function renderProfilePictures(profilePubkeys) {
-  ensureProfileStyles();
-  profilePubkeys.forEach(async pubkey => {
-    try {
-      const profile = await getNostrProfile(pubkey);
-      if (!profile) {
-        return;
-      }
-      const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
-
-      profileElementsForThisPubkey.forEach(profileElement => {
-        profileElement.innerHTML = `
-          <div class="profile-circle-container" data-name="${getProfileDisplayName(profile, pubkey)}">
-            ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
-            <div class="profile-hover-modal">
-              <div class="profile-modal-content">
-                ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
-                <br>
-                <span>${getProfileDisplayName(profile, pubkey)}</span>
-                <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
-              </div>
-            </div>
-          </div>
-        `;
-
-        const container = profileElement.querySelector('.profile-circle-container');
-        const modal = container.querySelector('.profile-hover-modal');
-        let timeout;
-
-        container.addEventListener('mouseenter', () => {
-          clearTimeout(timeout);
-          modal.style.display = 'block';
-        });
-
-        container.addEventListener('mouseleave', (e) => {
-          const rect = modal.getBoundingClientRect();
-          if (e.clientY >= rect.bottom || e.clientY <= rect.top ||
-              e.clientX >= rect.right || e.clientX <= rect.left) {
-            timeout = setTimeout(() => {
-              if (!modal.matches(':hover')) {
-                modal.style.display = 'none';
-              }
-            }, 300);
-          }
-        });
-
-        modal.addEventListener('mouseenter', () => {
-          clearTimeout(timeout);
-        });
-
-        modal.addEventListener('click', (e) => {
-          e.stopPropagation();
-        });
-      });
-    } catch (error) {
-      console.error(`Error loading profile for ${pubkey}:`, error);
-    }
-  });
 }
 
 export function getAttachmentInfoFromStore(attachmentId) {
