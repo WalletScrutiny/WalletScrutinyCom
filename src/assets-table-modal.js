@@ -223,6 +223,46 @@ function initVerificationAdminReportControls(verification) {
   };
 }
 
+function buildVerifierProfileCardHtml(profile, pubkey) {
+  if (profile) {
+    return `
+    <div class="profile-card">
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
+        <div>${getProfileDisplayName(profile, pubkey)}</div>
+        ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+      </div>
+    </div>`;
+  }
+  return getProfileDisplayName(null, pubkey);
+}
+
+function setupZapButton(zapBtn, profile, verification) {
+  if (!zapBtn) {
+    return;
+  }
+  if (profile && (profile.lud16 || profile.lud06)) {
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = false;
+    zapBtn.onclick = (e) => {
+      e.stopPropagation();
+      window.showZapModal({
+        onClose: () => {},
+        setZapped: () => {},
+        zapEvent: verification,
+      });
+    };
+  } else {
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = true;
+    zapBtn.onclick = null;
+    zapBtn.style.backgroundColor = '#ccc';
+    zapBtn.style.color = '#888';
+    zapBtn.style.cursor = 'not-allowed';
+    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+  }
+}
+
 export async function showVerificationModal(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
 
@@ -242,6 +282,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   const verification = lookup.verification;
   sha256Hash = lookup.sha256Hash || sha256Hash;
+
+  const basedOn = getFirstTagValue(verification, 'based-on');
 
   const verifications = response.verifications.get(sha256Hash) || [];
   const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
@@ -470,81 +512,39 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const walletTitle = wallet ? wallet.title : identifier;
 
   const verificationHashes = verification.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
-  if (verificationHashes.length === 1) {
-    content.innerHTML += `<p><strong>Hash of the binary reproduced:</strong> ${verificationHashes[0]}</p>`;
-  } else {
-    content.innerHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${verificationHashes.join('<br>')}</p>`;
-  }
-
-  content.innerHTML += `
-    <p><strong>Application:</strong> ${walletTitle}</p>
-    <p><strong>Version:</strong> ${version}</p>
-    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
-
-  const basedOn = getFirstTagValue(verification, 'based-on');
-  if (basedOn) {
-    content.innerHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
-  }
-
-  content.innerHTML += `
-    <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
-    <p><strong>Build status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
-    <p style="display: none;" id="zaps"></p>
-    <p style="display: none;" id="endorsements"></p>`;
-
-  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
-  if (issueTrackerUrl) {
-    content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
-  }
-
-  content.innerHTML += '<div id="comments-container"></div>';
-
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
-
   const isVerifierOrAssetsPage = window.location.pathname.includes('/verifier/')
     || window.location.pathname.includes('/assets/');
-
-  // Show attachments placeholder; populate after modal is visible
   const numberVerificationAttachments = verificationAttachments.length;
-  if (numberVerificationAttachments > 0) {
-    if (isVerifierOrAssetsPage) {
-      const walletForLink = window.wallets.find(w => w.appId === appId);
-      const attachmentsHTML = `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
-      content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
-    } else {
-      content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul id="verification-attachments-list" class="attestation-other-attempts"><li>Loading scripts...</li></ul>`;
-    }
-  }
 
   let firstAsciicastFileSHA256 = null;
   let diffoscopeFiles = [];
-
-  // Show output files
-  if (verificationOutputFiles.length > 0) {
-    let outputFilesHTML = '';
-    for (const outputFile of verificationOutputFiles) {
-      if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
-        firstAsciicastFileSHA256 = outputFile[2];
-      }
-      if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
-        diffoscopeFiles.push(outputFile);
-      }
-      outputFilesHTML += `<li>${outputFile[1]}
-        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+  let outputFilesHTML = '';
+  for (const outputFile of verificationOutputFiles) {
+    if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
+      firstAsciicastFileSHA256 = outputFile[2];
     }
-
-    content.innerHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+    if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
+      diffoscopeFiles.push(outputFile);
+    }
+    outputFilesHTML += `<li>${outputFile[1]}
+      <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
   }
 
-  if (otherVerificationsHTML !== '') {
-    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+  let attachmentsSectionHTML = '';
+  if (numberVerificationAttachments > 0) {
+    if (isVerifierOrAssetsPage) {
+      const walletForLink = window.wallets.find(w => w.appId === appId);
+      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts"><li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li></ul>`;
+    } else {
+      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul id="verification-attachments-list" class="attestation-other-attempts"><li>Loading scripts...</li></ul>`;
+    }
   }
 
-  let itemContent = JSON.parse(verification.content).content;
+  const itemContent = JSON.parse(verification.content).content;
   const parsedMarkdown = marked.parse(itemContent);
 
-  // Diffoscope special treatment
   let diffoscopeHTML = '';
   if (diffoscopeFiles.length > 0) {
     diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
@@ -555,19 +555,50 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     diffoscopeHTML += '</div>';
   }
 
-  // Adding AsciiCast html
-  let asciicastHTML = '';
-  if (firstAsciicastFileSHA256) {
-    asciicastHTML = `<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>`;
-  }
+  const asciicastHTML = firstAsciicastFileSHA256
+    ? '<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>'
+    : '';
 
-  content.innerHTML += `
+  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
+
+  let contentHTML = '';
+  if (verificationHashes.length === 1) {
+    contentHTML += `<p><strong>Hash of the binary reproduced:</strong> ${verificationHashes[0]}</p>`;
+  } else if (verificationHashes.length > 1) {
+    contentHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${verificationHashes.join('<br>')}</p>`;
+  }
+  contentHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
+  if (basedOn) {
+    contentHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
+  }
+  contentHTML += `
+    <p><strong>Created At:</strong> ${formatDate(verification.created_at)}</p>
+    <p><strong>Build status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
+    <p style="display: none;" id="zaps"></p>
+    <p style="display: none;" id="endorsements"></p>`;
+  if (issueTrackerUrl) {
+    contentHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
+  }
+  contentHTML += '<div id="comments-container"></div>';
+  contentHTML += attachmentsSectionHTML;
+  if (outputFilesHTML) {
+    contentHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+  }
+  if (otherVerificationsHTML !== '') {
+    contentHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+  }
+  contentHTML += `
   <p><strong>Information:</strong></p>
   <div class="markdown-content">
       ${diffoscopeHTML}
       ${asciicastHTML}
       <div>${parsedMarkdown}</div>
   </div>`;
+
+  content.innerHTML = contentHTML;
 
   if (firstAsciicastFileSHA256) {
     const castURL = getBlossomFileURL(firstAsciicastFileSHA256);
@@ -650,52 +681,23 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     void populateVerificationAttachmentsList(attachmentsListEl, verificationAttachments);
   }
 
-  const profile = await getNostrProfile(verification.pubkey);
-  const zapBtn = document.getElementById('zapButton');
-  if (profile && (profile.lud16 || profile.lud06)) {
-    zapBtn.style.display = 'inline-block';
-    zapBtn.disabled = false;
-    zapBtn.onclick = (e) => {
-      e.stopPropagation();
-      window.showZapModal({
-        onClose: () => {},
-        setZapped: () => {},
-        zapEvent: verification,
-      });
-    };
-  } else {
-    zapBtn.style.display = 'inline-block';
-    zapBtn.disabled = true;
-    zapBtn.onclick = null;
-    zapBtn.style.backgroundColor = '#ccc';
-    zapBtn.style.color = '#888';
-    zapBtn.style.cursor = 'not-allowed';
-    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
-  }
-
-  document.getElementById('attempt-by').innerHTML = profile ? `
-    <div class="profile-card">
-      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'" onerror="this.style.display='none'"/>` : ''}
-      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'">
-        <div>${getProfileDisplayName(profile, verification.pubkey)}</div>
-        ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-      </div>
-    </div>
-  ` : getProfileDisplayName(null, verification.pubkey);
-
-  /* -------------------- Based on -------------------- */
-  if (basedOn) {
-    const basedOnProfile = await getNostrProfile(basedOn.split(':')[1]);
-    document.getElementById('based-on-attempt-by').innerHTML = basedOnProfile ? `
-      <div class="profile-card">
-        ${basedOnProfile.image ? `<img src="${basedOnProfile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'" onerror="this.style.display='none'"/>` : ''}
-        <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'">
-          <div>${getProfileDisplayName(basedOnProfile, basedOn.split(':')[1])}</div>
-          ${basedOnProfile.nip05 ? `<div class="profile-nip05">${basedOnProfile.nip05}</div>` : ''}
-        </div>
-      </div>
-    ` : getProfileDisplayName(null, basedOn.split(':')[1]);
-  }
+  void (async () => {
+    const [profile, basedOnProfile] = await Promise.all([
+      getNostrProfile(verification.pubkey),
+      basedOn ? getNostrProfile(basedOn.split(':')[1]) : Promise.resolve(null),
+    ]);
+    const attemptByEl = document.getElementById('attempt-by');
+    if (attemptByEl) {
+      attemptByEl.innerHTML = buildVerifierProfileCardHtml(profile, verification.pubkey);
+    }
+    if (basedOn) {
+      const basedOnEl = document.getElementById('based-on-attempt-by');
+      if (basedOnEl) {
+        basedOnEl.innerHTML = buildVerifierProfileCardHtml(basedOnProfile, basedOn.split(':')[1]);
+      }
+    }
+    setupZapButton(document.getElementById('zapButton'), profile, verification);
+  })();
 
   /* -------------------- Zap -------------------- */
   let zapsHTML = '';
@@ -760,13 +762,16 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const endorsementsForThisVerification = endorsements[verification.id];
 
   if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
-    let endorsementsHTML = '';
-
     endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
+    const endorserProfiles = await Promise.all(
+      endorsementsForThisVerification.map(endorsement => getNostrProfile(endorsement.pubkey))
+    );
 
-    for (const endorsement of endorsementsForThisVerification) {
+    let endorsementsHTML = '';
+    for (let i = 0; i < endorsementsForThisVerification.length; i++) {
+      const endorsement = endorsementsForThisVerification[i];
+      const endorserProfile = endorserProfiles[i];
       const validity = getFirstTagValue(endorsement, 'validity');
-      const endorserProfile = await getNostrProfile(endorsement.pubkey);
       const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
       endorsementsHTML += `
         <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
