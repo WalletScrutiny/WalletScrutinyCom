@@ -235,6 +235,17 @@ function createBlossomDownloadHelpers() {
   return { downloadBlossomFileWithDownloadIcon, openBlossomBundleDownloadModal };
 }
 
+function scheduleIssueTrackerWidget(verifications, htmlElementId) {
+  void showIssueTrackerHtmlWidget(verifications, htmlElementId).then(() => {
+    const host = document.getElementById(htmlElementId);
+    const issueEl = host?.querySelector('.issue-tracker-container');
+    const searchEl = host?.querySelector('.assets-search-container');
+    if (issueEl && searchEl) {
+      host.insertBefore(issueEl, searchEl);
+    }
+  });
+}
+
 function removeAssetsTableDynamicContent(htmlElementId) {
   disconnectBlossomObserver();
   const host = document.getElementById(htmlElementId);
@@ -392,16 +403,6 @@ window.renderAssetsTable = async function({
 
   tryOpenHashVerification(response, false, effectiveAppId, verificationIdFromHash);
 
-  if (showIssueTracker) {
-    await showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
-    const host = document.getElementById(htmlElementId);
-    const issueEl = host?.querySelector('.issue-tracker-container');
-    const searchEl = host?.querySelector('.assets-search-container');
-    if (issueEl && searchEl) {
-      host.insertBefore(issueEl, searchEl);
-    }
-  }
-
   let paintResult;
   let table;
 
@@ -422,6 +423,10 @@ window.renderAssetsTable = async function({
 
   if (!skipRepaint && typeof tableLoadedCallback === 'function') {
     tableLoadedCallback();
+  }
+
+  if (showIssueTracker) {
+    scheduleIssueTrackerWidget(response.verifications, htmlElementId);
   }
 
   setPendingEndorsementIds(paintResult.endorsementEventIDs);

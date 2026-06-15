@@ -184,7 +184,19 @@ function getIssueTrackerInfoFromVerificationsInformation(verificationsInformatio
 }
 
 export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
-  let issueTrackerInfo = getIssueTrackerInfoFromVerificationsInformation(verificationsInformation);
+  const issueTrackerInfo = getIssueTrackerInfoFromVerificationsInformation(verificationsInformation);
+
+  const githubStatusByUrl = new Map();
+  await Promise.all(
+    issueTrackerInfo
+      .filter((info) => isGitHubUrl(info.issueTrackerUrl))
+      .map(async (info) => {
+        const issueInfo = extractGitHubIssueInfo(info.issueTrackerUrl);
+        if (issueInfo) {
+          githubStatusByUrl.set(info.issueTrackerUrl, await getGitHubIssueStatus(issueInfo));
+        }
+      }),
+  );
 
   const openIssues = [];
   const nonGitHubIssues = [];
@@ -192,12 +204,8 @@ export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlE
   for (const info of issueTrackerInfo) {
     if (isGitHubUrl(info.issueTrackerUrl)) {
       const issueInfo = extractGitHubIssueInfo(info.issueTrackerUrl);
-      let status = null;
-      if (issueInfo) {
-        status = await getGitHubIssueStatus(issueInfo);
-      }
-
-      if (!issueInfo || (issueInfo && (!status || (status && status.state === 'open')))) {
+      const status = githubStatusByUrl.get(info.issueTrackerUrl) ?? null;
+      if (!issueInfo || !status || status.state === 'open') {
         openIssues.push({ ...info, status });
       }
     } else {
