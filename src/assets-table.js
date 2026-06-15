@@ -13,10 +13,10 @@ import {
   loadAndStoreAttachments,
   buildAttachmentVerificationIndex,
   renderAttachmentsTable,
-  renderProfilePictures,
   registerAttachmentHandlers,
   setPendingEndorsementIds,
 } from "./assets-table-attachments.js";
+import { renderProfilePictures } from "./assets-table-profiles.js";
 import { registerShowVerificationModal } from "./assets-table-modal.js";
 import {
   setAssetTableResponse,
@@ -320,9 +320,23 @@ window.renderAssetsTable = async function({
     return paintMainAssetsTable({ assetInfo, ...paintOptions });
   }
 
+  const profilePicturesStarted = new Set();
+
+  function maybeRenderProfilePictures(pubkeys) {
+    if (!showProfilePictures || !pubkeys?.length) {
+      return;
+    }
+    const newPubkeys = pubkeys.filter(pubkey => !profilePicturesStarted.has(pubkey));
+    newPubkeys.forEach(pubkey => profilePicturesStarted.add(pubkey));
+    if (newPubkeys.length > 0) {
+      renderProfilePictures(newPubkeys);
+    }
+  }
+
   function afterTablePaint(pr) {
     setPendingEndorsementIds(pr.endorsementEventIDs);
     applyDraftRowMetadataToTable(pr.table);
+    maybeRenderProfilePictures(pr.profilePubkeys);
     void updateTableVisibility();
     setupBlossomDownloadObserverForTable(pr.table, {
       checkFileExistsInBlossom,
@@ -410,6 +424,7 @@ window.renderAssetsTable = async function({
   }
 
   setPendingEndorsementIds(paintResult.endorsementEventIDs);
+  maybeRenderProfilePictures(profilePubkeys);
 
   let attachments = new Map();
   if (sortedItems.length > 0 && attachmentEventIDs.length > 0) {
@@ -432,9 +447,7 @@ window.renderAssetsTable = async function({
     showProfilePictures,
   });
 
-  if (showProfilePictures) {
-    renderProfilePictures([...profilePubkeySet]);
-  }
+  maybeRenderProfilePictures([...profilePubkeySet]);
 
   updateTableVisibility();
 
