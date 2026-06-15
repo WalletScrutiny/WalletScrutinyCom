@@ -16,7 +16,7 @@ import {
   getAndroidUploadBlockingMessage,
   populateApkInfoForAndroidUpload
 } from './drag-and-drop-utils.js';
-import { isDebugEnv, userHasBrowserExtension } from './verifications_common.mjs';
+import { isDebugEnv } from './verifications_common.mjs';
 
 const uploadsActivated = true;
 const maxFileSize = 500;  // MB
