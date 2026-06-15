@@ -17,7 +17,7 @@ android:
   released: 2022-02-25
   updated: 2026-05-26
   version: 2.1.6
-  reviews: 650
+  reviews: 651
   icon: com.pionex.us.client.png
   meta: ok
   verdict: custodial

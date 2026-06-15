@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2010-08-02
-  updated: 2026-06-09
+  updated: 2026-06-12
   version: 7.0.6.2
   reviews: 350
   icon: com.riflexo.tradeinterceptormobile.png
@@ -31,8 +31,8 @@ iphone:
   appCountry: us
   released: 2009-09-23
   updated: 2026-06-10
-  version: 10.1.1
-  reviews: 775
+  version: 10.1.2
+  reviews: 776
   icon: com.riflexo.TradeInterceptor.jpg
   meta: ok
   verdict: nosendreceive

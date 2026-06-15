@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-02-04
-  updated: 2026-03-18
-  version: 1.34.04
+  updated: 2026-06-10
+  version: 1.34.05
   icon: com.flybit.app.png
   meta: ok
   verdict: custodial

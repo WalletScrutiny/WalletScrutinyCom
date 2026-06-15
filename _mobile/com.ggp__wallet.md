@@ -33,8 +33,8 @@ iphone:
   idd: '6692627990'
   appCountry: us
   released: 2024-11-10
-  updated: 2026-03-10
-  version: 1.5.5
+  updated: 2026-06-11
+  version: 1.5.6
   reviews: 9
   icon: wallet.ggp.jpg
   meta: ok

@@ -1,6 +1,6 @@
 ---
 wsId: CoinutExchange
-title: 'Coinut: Crypto&Bitcoin Trading'
+title: COINUT Digital Assets Wallet
 date: 2025-05-26
 authors:
 - danny

@@ -30,11 +30,11 @@ iphone:
   idd: '1636243621'
   appCountry: au
   released: 2022-07-27
-  updated: 2024-03-19
-  version: 1.2.6
-  reviews: 23
+  updated: 2026-06-12
+  version: 2026.0609.4
+  reviews: 24
   icon: com.cointree.mobileapp.jpg
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: Cointree
 

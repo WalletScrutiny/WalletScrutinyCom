@@ -14,7 +14,7 @@ android:
   released: 2025-09-23
   updated: 2026-05-29
   version: 1.2.9
-  reviews: 17
+  reviews: 18
   icon: io.noah.pro.png
   meta: ok
   verdict: custodial

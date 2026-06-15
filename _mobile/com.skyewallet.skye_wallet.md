@@ -17,7 +17,7 @@ android:
   released: 2021-05-01
   updated: 2025-11-23
   version: 2.15.3
-  reviews: 23
+  reviews: 22
   icon: com.skyewallet.skye_wallet.png
   meta: ok
   verdict: custodial

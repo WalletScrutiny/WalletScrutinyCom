@@ -35,7 +35,7 @@ iphone:
   released: 2021-09-08
   updated: 2026-06-08
   version: 7.20.0
-  reviews: 45
+  reviews: 46
   icon: com.belo.ios.jpg
   meta: ok
   verdict: custodial

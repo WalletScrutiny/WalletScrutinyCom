@@ -30,7 +30,7 @@ iphone:
   released: 2022-01-18
   updated: 2026-06-08
   version: 4.9.53
-  reviews: 3040
+  reviews: 3044
   icon: com.rocketsfintech.accrue-dca.jpg
   meta: ok
   verdict: custodial

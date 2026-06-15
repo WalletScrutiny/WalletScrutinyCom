@@ -34,7 +34,7 @@ iphone:
   released: 2019-01-25
   updated: 2026-02-06
   version: 7.20.1
-  reviews: 173
+  reviews: 174
   icon: com.bitfinex.bfxprod.jpg
   meta: ok
   verdict: custodial

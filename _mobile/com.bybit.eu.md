@@ -16,7 +16,7 @@ android:
   appId: com.bybit.eu
   users: 100000
   appCountry: us
-  updated: 2026-04-29
+  updated: 2026-06-12
   version: 5.17.0
   icon: com.bybit.eu.png
   meta: ok
@@ -27,8 +27,8 @@ iphone:
   idd: '6745866031'
   appCountry: gr
   released: 2025-07-14
-  updated: 2026-04-29
-  version: 5.17.0
+  updated: 2026-06-12
+  version: 5.19.0
   reviews: 175
   icon: com.bybit.eu.jpg
   meta: ok

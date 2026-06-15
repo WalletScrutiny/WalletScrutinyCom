@@ -29,7 +29,7 @@ android:
   released: 2018-07-02
   updated: 2026-06-09
   version: 4.13.2
-  reviews: 550
+  reviews: 552
   icon: com.ellipal.wallet.png
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   released: 2018-08-25
   updated: 2026-06-10
   version: 4.13.2
-  reviews: 2955
+  reviews: 2954
   icon: com.Ellipal.Ellipal.jpg
   meta: ok
   verdict: nosource

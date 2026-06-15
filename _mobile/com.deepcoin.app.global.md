@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-12-08
-  updated: 2026-06-09
-  version: 7.6.63
+  updated: 2026-06-15
+  version: 7.6.67
   reviews: 26
   icon: com.deepcoin.app.global.png
   meta: ok
@@ -27,8 +27,8 @@ iphone:
   idd: '1610058833'
   appCountry: us
   released: 2022-02-26
-  updated: 2026-05-28
-  version: 7.6.59
+  updated: 2026-06-11
+  version: 7.6.63
   reviews: 20
   icon: com.dcglobal.app.jpg
   meta: ok

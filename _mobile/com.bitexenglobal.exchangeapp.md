@@ -17,7 +17,7 @@ android:
   appId: com.bitexenglobal.exchangeapp
   users: 100000
   appCountry: us
-  updated: 2026-06-04
+  updated: 2026-06-13
   version: '2.21'
   icon: com.bitexenglobal.exchangeapp.png
   meta: ok

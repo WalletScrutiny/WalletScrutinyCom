@@ -28,9 +28,9 @@ iphone:
   idd: '1601589888'
   appCountry: us
   released: 2022-01-04
-  updated: 2026-05-27
-  version: 2.9.34
-  reviews: 185
+  updated: 2026-06-11
+  version: 2.9.35
+  reviews: 184
   icon: com.superex.ex.jpg
   meta: ok
   verdict: wip

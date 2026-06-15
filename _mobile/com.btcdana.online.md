@@ -12,8 +12,8 @@ android:
   appCountry: us
   released: 2019-07-23
   updated: 2026-06-09
-  version: 2.9.1
-  reviews: 173
+  version: 2.9.2
+  reviews: 172
   icon: com.btcdana.online.png
   meta: ok
   verdict: nosendreceive

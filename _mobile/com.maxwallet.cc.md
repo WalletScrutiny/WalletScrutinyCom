@@ -13,7 +13,7 @@ redirect_from:
 - /iphone/com.maxwallet.cc/
 android:
   appId: com.maxwallet.cc
-  users: 5000
+  users: 10000
   appCountry: us
   updated: 2026-06-03
   version: 1.2.4

@@ -19,9 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-07-16
-  updated: 2026-06-09
+  updated: 2026-06-14
   version: 2.0.0
-  reviews: 118
+  reviews: 119
   icon: com.whitehat.cashin_app.png
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2022-10-04
   updated: 2022-10-04
   version: '1.0'
-  reviews: 1258
+  reviews: 1259
   icon: com.macroblocs.cashinApp.jpg
   meta: obsolete
   verdict: nosendreceive

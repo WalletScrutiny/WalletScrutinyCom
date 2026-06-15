@@ -24,7 +24,7 @@ android:
   released: 2022-01-19
   updated: 2025-11-21
   version: 1.10.20
-  reviews: 62
+  reviews: 61
   icon: com.ixfi.png
   meta: ok
   verdict: custodial

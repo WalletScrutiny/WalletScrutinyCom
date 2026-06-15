@@ -22,7 +22,7 @@ android:
   released: 2021-04-14
   updated: 2026-06-01
   version: 5.25.1
-  reviews: 266
+  reviews: 267
   icon: com.app.xt.jpg
   meta: ok
   verdict: custodial

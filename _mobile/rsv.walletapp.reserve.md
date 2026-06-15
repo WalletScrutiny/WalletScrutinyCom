@@ -15,9 +15,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-07-30
-  updated: 2026-05-26
-  version: 3.2.0
-  reviews: 519
+  updated: 2026-06-02
+  version: 3.2.1
+  reviews: 520
   icon: rsv.walletapp.reserve.png
   meta: ok
   verdict: custodial

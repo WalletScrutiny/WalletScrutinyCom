@@ -24,8 +24,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-11-07
-  updated: 2026-06-09
-  version: 3.24.0
+  updated: 2026-06-12
+  version: 3.25.1
   reviews: 18
   icon: com.bitpanda.bitpanda.png
   meta: ok
@@ -38,7 +38,7 @@ iphone:
   released: 2019-11-29
   updated: 2026-06-03
   version: 3.25.0
-  reviews: 25651
+  reviews: 25696
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
   verdict: custodial

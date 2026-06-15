@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-11-09
-  updated: 2026-05-21
-  version: 5.5.1
+  updated: 2026-06-11
+  version: 5.5.2
   reviews: 1
   icon: paydeepp.elegro.io.jpg
   meta: ok

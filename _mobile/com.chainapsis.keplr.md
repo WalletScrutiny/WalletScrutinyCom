@@ -16,7 +16,7 @@ android:
   released: 2021-10-01
   updated: 2026-06-08
   version: 2.1.204
-  reviews: 204
+  reviews: 205
   icon: com.chainapsis.keplr.png
   meta: ok
   verdict: nosource

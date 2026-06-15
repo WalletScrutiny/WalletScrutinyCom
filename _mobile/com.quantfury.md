@@ -14,8 +14,8 @@ android:
   users: 1000000
   appCountry: gb
   released: 2018-11-26
-  updated: 2026-06-01
-  version: v1.95.0.25888
+  updated: 2026-06-09
+  version: v1.95.1.25916
   reviews: 23
   icon: com.quantfury.png
   meta: ok

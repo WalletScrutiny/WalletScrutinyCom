@@ -21,7 +21,7 @@ android:
   version: 5.13.0
   reviews: 15
   icon: com.netcoins.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Netcoins Inc
 iphone:

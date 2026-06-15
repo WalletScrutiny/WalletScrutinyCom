@@ -25,7 +25,7 @@ android:
   version: 4.7.9
   reviews: 6
   icon: io.rapidz.rapidzpay.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Rapidz Pay Inc
 iphone:

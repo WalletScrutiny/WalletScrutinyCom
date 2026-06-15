@@ -18,8 +18,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-05-03
-  updated: 2026-06-04
-  version: 4.30.0
+  updated: 2026-06-12
+  version: 4.31.1
   reviews: 5033
   icon: com.kubi.kucoin.jpg
   meta: ok

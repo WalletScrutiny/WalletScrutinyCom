@@ -29,8 +29,8 @@ iphone:
   idd: 1350234503
   appCountry: us
   released: 2018-03-02
-  updated: 2026-05-22
-  version: 16.3.2
+  updated: 2026-06-11
+  version: 16.3.3
   reviews: 618
   icon: com.programonks.CoinMarketApp.jpg
   meta: ok

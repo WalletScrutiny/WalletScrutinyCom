@@ -31,7 +31,7 @@ iphone:
   released: 2019-04-12
   updated: 2026-06-01
   version: 3.0.25
-  reviews: 89
+  reviews: 90
   icon: com.bitsacard.BitsaApp.jpg
   meta: ok
   verdict: nosendreceive

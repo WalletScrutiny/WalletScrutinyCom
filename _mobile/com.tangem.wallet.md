@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-10-24
-  updated: 2026-06-09
-  version: 5.38.4
-  reviews: 1777
+  updated: 2026-06-10
+  version: 5.38.5
+  reviews: 1783
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
@@ -37,9 +37,9 @@ iphone:
   idd: 1354868448
   appCountry: us
   released: 2018-04-28
-  updated: 2026-06-05
-  version: 5.38.3
-  reviews: 22833
+  updated: 2026-06-10
+  version: 5.38.4
+  reviews: 22896
   icon: com.tangem.Tangem.jpg
   meta: ok
   verdict: nosource

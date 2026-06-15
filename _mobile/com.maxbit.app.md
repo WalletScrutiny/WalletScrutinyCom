@@ -25,9 +25,9 @@ iphone:
   idd: '1609576357'
   appCountry: th
   released: 2023-12-13
-  updated: 2026-05-21
-  version: v1.39.1
-  reviews: 343
+  updated: 2026-06-11
+  version: v1.40.0
+  reviews: 346
   icon: com.maxbit.app.jpg
   meta: ok
   verdict: custodial

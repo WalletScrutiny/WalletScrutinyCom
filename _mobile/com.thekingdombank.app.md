@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-12-17
-  updated: 2026-05-13
-  version: 10.8.0
+  updated: 2026-06-12
+  version: 10.9.0
   reviews: 8
   icon: com.thekingdombank.app.png
   meta: ok

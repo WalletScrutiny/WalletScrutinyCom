@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2022-02-07
   updated: 2026-06-08
-  version: 2.6.1
+  version: 3.1.2
   reviews: 41
   icon: com.oobit.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2022-02-05
   updated: 2026-06-09
   version: 3.1.2
-  reviews: 967
+  reviews: 970
   icon: com.oobit.jpg
   meta: ok
   verdict: custodial

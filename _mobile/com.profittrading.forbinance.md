@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-01-09
-  updated: 2026-04-26
-  version: 18.1.3
+  updated: 2026-06-14
+  version: 18.1.5
   reviews: 123
   icon: com.profittrading.forbinance.png
   meta: ok

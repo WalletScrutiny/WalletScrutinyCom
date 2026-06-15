@@ -38,9 +38,9 @@ iphone:
   idd: '1615064243'
   appCountry: us
   released: 2023-01-25
-  updated: 2026-06-03
-  version: 5.9.6
-  reviews: 1106
+  updated: 2026-06-15
+  version: 5.9.7
+  reviews: 1107
   icon: finance.klever.bitcoin.wallet.jpg
   meta: ok
   verdict: nosource

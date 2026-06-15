@@ -32,7 +32,7 @@ iphone:
   released: 2020-01-28
   updated: 2023-05-11
   version: 2.1.9
-  reviews: 19
+  reviews: 20
   icon: com.dex-trade.ios.jpg
   meta: obsolete
   verdict: custodial

@@ -32,7 +32,7 @@ android:
   released: 2014-01-31
   updated: 2026-05-28
   version: 1.67.2
-  reviews: 2314
+  reviews: 2309
   icon: com.coinomi.wallet.png
   meta: ok
   verdict: nosource
@@ -44,7 +44,7 @@ iphone:
   released: 2018-03-22
   updated: 2026-06-01
   version: 1.67.2
-  reviews: 2102
+  reviews: 2105
   icon: com.coinomi.wallet.jpg
   meta: ok
   verdict: nosource

@@ -26,7 +26,7 @@ android:
   released: 2024-04-26
   updated: 2026-06-10
   version: 1.27.1
-  reviews: 39
+  reviews: 40
   icon: com.zypto.png
   meta: ok
   verdict: nosource

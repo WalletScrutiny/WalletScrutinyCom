@@ -25,7 +25,7 @@ android:
   released: 2025-04-29
   updated: 2026-06-07
   version: 3.38.0
-  reviews: 102
+  reviews: 104
   icon: bu.app.android.png
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-05-27
   version: 3.36.0
-  reviews: 639
+  reviews: 645
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

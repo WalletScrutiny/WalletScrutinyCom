@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2019-01-21
   updated: 2026-06-03
-  version: 10.1.9
+  version: 10.1.10
   reviews: 212
   icon: co.busha.android.png
   meta: ok

@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-27
-  updated: 2026-05-19
-  version: 6.3.0
+  updated: 2026-06-14
+  version: 6.4.0
   reviews: 95
   icon: so.onekey.app.wallet.png
   meta: ok

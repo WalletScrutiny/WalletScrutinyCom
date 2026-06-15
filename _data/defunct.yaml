@@ -1,50 +1,3 @@
-2026-05-27:
-- _mobile/co.zoomex.app
-- _mobile/co.bitcoindepot.app
-- _mobile/com.ancryptoWallet
-- _mobile/com.bitstack.app
-- _mobile/com.sinblock.blockchain
-- _mobile/exchange.delta
-- _mobile/co.minty.coincast
-- _mobile/co.sarwa
-- _mobile/com.bitcoinglobal
-- _mobile/com.bitqik
-- _mobile/com.block.application
-- _mobile/com.coinrepublic.app
-- _mobile/com.coinut.app
-- _mobile/com.crypterium
-- _mobile/com.defiwalletmobile
-- _mobile/com.dreambit
-- _mobile/com.etoro.wallet
-- _mobile/com.flashwallet.production
-- _mobile/com.gateio.gateio
-- _mobile/com.haqabi.mobilewallet
-- _mobile/com.ixfi
-- _mobile/com.koinstrap.koinstrap
-- _mobile/com.ldvtech.tokero
-- _mobile/com.m2.exchange
-- _mobile/com.netcoins.app
-- _mobile/com.newmoney.ai
-- _mobile/com.pt.powertrade
-- _mobile/com.qmall.exchange
-- _mobile/com.sovranbitcoin
-- _mobile/com.spedn.spedn
-- _mobile/com.stba.satoshi
-- _mobile/com.taotao_ex.android
-- _mobile/com.tastycrypto
-- _mobile/com.tokenize.exchange.tradingapp
-- _mobile/com.trastra.mobile
-- _mobile/com.wirebitdigitalapp
-- _mobile/in.cryptoforce.cfx
-- _mobile/io.kasta.app
-- _mobile/io.mexo.app
-- _mobile/io.rapidz.rapidzpay
-- _mobile/io.sevenlabs.app
-- _mobile/io.wallet.zapit
-- _mobile/neutronpay.wallet
-- _mobile/one.citadel.mobile
-2026-05-28:
-- _mobile/com.inexlatam.panther
 2026-06-01:
 - _mobile/ch.digitaladmin.icynote
 - _mobile/com.primitives.bitdefender.release
@@ -74,3 +27,11 @@
 2026-06-10:
 - _mobile/net.benoitbasset.hitapi
 - _mobile/net.benoitbasset.bittapi
+2026-06-15:
+- _mobile/com.newgo.coincola
+- _mobile/com.app.breet
+- _mobile/com.coinmena.coinmenaapp
+- _mobile/com.glamster
+- _mobile/com.koinkoin
+- _mobile/com.ogpay
+- _mobile/finance.hollox.app

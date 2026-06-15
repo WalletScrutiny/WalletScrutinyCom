@@ -21,9 +21,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-07-28
-  updated: 2026-05-29
-  version: 5.7.18
-  reviews: 6
+  updated: 2026-06-12
+  version: 5.7.19
+  reviews: 7
   icon: io.bitvenus.app.first.jpg
   meta: ok
   verdict: custodial

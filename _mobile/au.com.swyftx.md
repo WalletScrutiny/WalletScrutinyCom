@@ -23,7 +23,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-06-05
-  version: 2.8.48
+  version: 2.9.1
   icon: au.com.swyftx.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-06-08
   version: 2.9.1
-  reviews: 6034
+  reviews: 6035
   icon: au.com.swyftx.ios.jpg
   meta: ok
   verdict: custodial

@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-09-23
-  updated: 2026-05-06
-  version: 3.7.0
+  updated: 2026-06-11
+  version: 3.9.0
   reviews: 3
   icon: com.bitqik.png
   meta: ok

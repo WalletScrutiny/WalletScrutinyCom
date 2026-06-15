@@ -34,7 +34,7 @@ android:
   appCountry: us
   released: 2013-07-01
   updated: 2026-05-15
-  version: 3.21.0.0
+  version: 3.22.0.2
   reviews: 1153
   icon: com.mycelium.wallet.jpg
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e

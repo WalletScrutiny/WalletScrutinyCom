@@ -20,7 +20,7 @@ android:
   version: 1.0.5
   reviews: 8
   icon: com.sinblock.blockchain.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Acebitx PTE.LTD.
 

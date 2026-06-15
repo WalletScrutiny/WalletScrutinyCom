@@ -34,7 +34,7 @@ iphone:
   released: 2020-07-15
   updated: 2025-11-06
   version: 3.6.12
-  reviews: 85
+  reviews: 86
   icon: com.usenobi.ios.jpg
   meta: ok
   verdict: custodial

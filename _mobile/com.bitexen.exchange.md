@@ -19,7 +19,7 @@ android:
   released: 2018-05-27
   updated: 2026-04-02
   version: '1.38'
-  reviews: 44
+  reviews: 45
   icon: com.bitexen.exchange.jpg
   meta: ok
   verdict: custodial

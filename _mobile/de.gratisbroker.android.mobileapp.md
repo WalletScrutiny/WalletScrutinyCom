@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2021-06-02
   updated: 2026-06-09
-  version: 5.14.0
+  version: 5.14.1
   reviews: 8
   icon: de.gratisbroker.android.mobileapp.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2021-06-07
   updated: 2026-06-10
   version: 5.14.1
-  reviews: 25055
+  reviews: 25164
   icon: de.gratisbroker.ios.mobileapp.jpg
   meta: ok
   verdict: nosendreceive

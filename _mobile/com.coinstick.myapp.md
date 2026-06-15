@@ -14,7 +14,7 @@ android:
   users: 5000
   appCountry: us
   released: 2023-01-23
-  updated: 2026-06-08
+  updated: 2026-06-15
   version: 1.0.0
   reviews: 6
   icon: com.coinstick.myapp.png

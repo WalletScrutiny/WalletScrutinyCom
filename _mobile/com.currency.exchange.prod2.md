@@ -35,7 +35,7 @@ iphone:
   released: 2019-04-23
   updated: 2026-05-14
   version: 2.20.2
-  reviews: 4492
+  reviews: 4496
   icon: com.currency.exchange.prod2.jpg
   meta: ok
   verdict: custodial

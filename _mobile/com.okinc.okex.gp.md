@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2019-10-29
   updated: 2026-06-09
-  version: 6.174.0
-  reviews: 3919
+  version: 6.175.0
+  reviews: 3926
   icon: com.okinc.okex.gp.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2018-01-04
   updated: 2026-06-10
   version: 6.175.0
-  reviews: 22319
+  reviews: 22336
   icon: com.okex.OKExAppstoreFull.jpg
   meta: ok
   verdict: custodial

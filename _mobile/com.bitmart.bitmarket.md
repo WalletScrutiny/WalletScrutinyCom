@@ -25,7 +25,7 @@ android:
   released: 2018-05-09
   updated: 2026-06-05
   version: 4.5.2
-  reviews: 3759
+  reviews: 3775
   icon: com.bitmart.bitmarket.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: 1396382871
   appCountry: us
   released: 2018-08-02
-  updated: 2026-06-09
-  version: 4.6.0
-  reviews: 3365
+  updated: 2026-06-14
+  version: 4.6.1
+  reviews: 3375
   icon: com.bitmart.exchange.jpg
   meta: ok
   verdict: custodial

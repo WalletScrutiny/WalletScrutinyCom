@@ -21,7 +21,7 @@ android:
   released: 2023-09-06
   updated: 2026-06-04
   version: 1.10.7
-  reviews: 69
+  reviews: 73
   icon: com.wallet.crypto.btc.eth.png
   meta: ok
   verdict: nosource

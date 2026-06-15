@@ -33,7 +33,7 @@ iphone:
   version: 2.8.0
   reviews: 180
   icon: com.sincere.swallet.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Swallet OU
 

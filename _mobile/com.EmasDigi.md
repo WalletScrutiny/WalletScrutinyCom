@@ -12,7 +12,7 @@ android:
   appCountry: us
   released: 2018-01-21
   updated: 2026-05-28
-  version: 7.2.4
+  version: 7.5.0
   reviews: 123
   icon: com.EmasDigi.png
   meta: ok

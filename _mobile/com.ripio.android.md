@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2015-06-01
   updated: 2026-06-04
-  version: 6.6.4
+  version: 6.6.5
   reviews: 178
   icon: com.ripio.android.png
   meta: ok

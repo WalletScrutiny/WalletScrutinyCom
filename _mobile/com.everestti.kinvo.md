@@ -22,7 +22,7 @@ android:
   released: 2017-12-22
   updated: 2026-06-08
   version: 3.63.0
-  reviews: 7559
+  reviews: 7560
   icon: com.everestti.kinvo.png
   meta: ok
   verdict: nosendreceive
@@ -32,9 +32,9 @@ iphone:
   idd: '1327335329'
   appCountry: BR
   released: 2018-01-03
-  updated: 2026-05-05
-  version: 3.62.0
-  reviews: 19099
+  updated: 2026-06-10
+  version: 3.63.0
+  reviews: 19105
   icon: com.everest.kinvo.jpg
   meta: ok
   verdict: nosendreceive

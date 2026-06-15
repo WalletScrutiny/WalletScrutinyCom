@@ -21,8 +21,8 @@ android:
   appCountry: us
   released: 2019-09-06
   updated: 2026-06-09
-  version: 3.248.2
-  reviews: 9518
+  version: 3.249.0
+  reviews: 9521
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive
@@ -34,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-06-09
   version: 5.1.4
-  reviews: 82994
+  reviews: 83342
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

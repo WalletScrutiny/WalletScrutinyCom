@@ -6,14 +6,14 @@ redirect_from:
 - /android/com.tajir.wallet.app/
 android:
   appId: com.tajir.wallet.app
-  users: 500
+  users: 1000
   appCountry: us
   released: 2025-08-13
-  updated: 2026-06-10
-  version: 2.1.6
+  updated: 2026-06-15
+  version: 2.1.7
   reviews: 2
   icon: com.tajir.wallet.app.jpg
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: Tajir Web3 LTD
 

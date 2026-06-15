@@ -6,13 +6,13 @@ redirect_from:
 - /android/com.trustvault.wallet/
 android:
   appId: com.trustvault.wallet
-  users: 500
+  users: 1000
   appCountry: us
   released: 2025-12-08
   updated: 2026-02-02
   version: 1.0.0
   icon: com.trustvault.wallet.png
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: UNREAL VENTURES LLC
 

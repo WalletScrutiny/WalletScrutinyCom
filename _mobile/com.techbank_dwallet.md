@@ -27,7 +27,7 @@ iphone:
   released: 2020-10-15
   updated: 2026-06-02
   version: 1.0.88
-  reviews: 3
+  reviews: 4
   icon: com.techbank.dwallettb.jpg
   meta: ok
   verdict: custodial

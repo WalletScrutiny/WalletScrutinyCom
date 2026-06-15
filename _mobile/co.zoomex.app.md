@@ -19,7 +19,7 @@ android:
   version: 3.11.12
   reviews: 49
   icon: co.zoomex.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Zoomex
 iphone:

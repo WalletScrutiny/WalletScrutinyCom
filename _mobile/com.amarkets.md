@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-05-31
-  updated: 2026-05-29
-  version: 2.1.137
-  reviews: 252
+  updated: 2026-06-10
+  version: 2.1.138
+  reviews: 246
   icon: com.amarkets.png
   meta: ok
   verdict: nosendreceive

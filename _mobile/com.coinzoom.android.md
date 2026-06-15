@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-25
-  updated: 2026-05-20
-  version: 1.2.1.6682
+  updated: 2026-06-14
+  version: 1.2.1.6733
   reviews: 123
   icon: com.coinzoom.android.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: '1575983875'
   appCountry: us
   released: 2022-01-21
-  updated: 2026-05-28
-  version: 3.3.5
-  reviews: 747
+  updated: 2026-06-13
+  version: 3.3.7
+  reviews: 749
   icon: com.ios.coinzoomsimple.jpg
   meta: ok
   verdict: custodial

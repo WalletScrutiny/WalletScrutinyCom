@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-12-02
-  updated: 2026-03-10
-  version: 4.1.2
+  updated: 2026-06-11
+  version: 4.1.4
   icon: com.coinrepublic.app.png
   meta: ok
   verdict: custodial

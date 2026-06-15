@@ -20,7 +20,7 @@ android:
   updated: 2026-04-21
   version: 1.13.0
   icon: exchange.delta.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Delta Exchange
 iphone:

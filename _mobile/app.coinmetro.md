@@ -20,7 +20,7 @@ android:
   released: 2017-12-10
   updated: 2026-05-19
   version: 5.55.9
-  reviews: 89
+  reviews: 90
   icon: app.coinmetro.png
   meta: ok
   verdict: custodial

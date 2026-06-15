@@ -23,7 +23,7 @@ android:
   appCountry: us
   released: 2018-11-01
   updated: 2026-06-08
-  version: 3.1.12
+  version: 3.1.13
   reviews: 561
   icon: com.crypto.multiwallet.jpg
   meta: ok

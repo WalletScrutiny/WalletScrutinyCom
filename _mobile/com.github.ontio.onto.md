@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-06-27
-  updated: 2026-06-03
-  version: 4.10.3
+  updated: 2026-06-10
+  version: 4.10.4
   reviews: 128
   icon: com.github.ontio.onto.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: 1436009823
   appCountry: us
   released: 2018-09-21
-  updated: 2026-06-09
-  version: 4.10.3
+  updated: 2026-06-12
+  version: 4.10.4
   reviews: 88
   icon: com.ontology.foundation.onto.jpg
   meta: ok

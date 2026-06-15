@@ -9,8 +9,8 @@ iphone:
   idd: '1601990386'
   appCountry: us
   released: 2022-01-07
-  updated: 2026-04-23
-  version: 6.1.2
+  updated: 2026-06-11
+  version: 6.2.1
   reviews: 374
   icon: com.cakewallet.monero.jpg
   meta: ok

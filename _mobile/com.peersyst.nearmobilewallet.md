@@ -20,7 +20,7 @@ android:
   released: 2023-02-21
   updated: 2026-06-02
   version: 3.9.5
-  reviews: 1371
+  reviews: 1369
   icon: com.peersyst.nearmobilewallet.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2023-03-20
   updated: 2026-06-05
   version: 3.9.5
-  reviews: 827
+  reviews: 831
   icon: com.peersyst.nearmobilewallet.jpg
   meta: ok
   verdict: custodial

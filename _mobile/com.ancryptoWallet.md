@@ -24,7 +24,7 @@ android:
   version: 1.53.0
   reviews: 30
   icon: com.ancryptoWallet.png
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: AWT Ltd
 iphone:

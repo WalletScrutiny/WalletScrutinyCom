@@ -22,9 +22,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-12-30
-  updated: 2026-06-09
-  version: 3.67.2
-  reviews: 8158
+  updated: 2026-06-10
+  version: 3.67.7
+  reviews: 8182
   icon: com.kraken.invest.app.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2021-06-01
   updated: 2026-06-09
   version: 3.67.2
-  reviews: 32021
+  reviews: 32191
   icon: com.kraken.invest.app.jpg
   meta: ok
   verdict: custodial

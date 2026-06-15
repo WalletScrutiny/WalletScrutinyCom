@@ -36,7 +36,7 @@ iphone:
   released: 2022-11-16
   updated: 2025-09-15
   version: 5.17.8
-  reviews: 773
+  reviews: 774
   icon: com.rockwallet.app.jpg
   meta: ok
   verdict: sourceavailable

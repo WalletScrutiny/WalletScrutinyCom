@@ -19,7 +19,7 @@ android:
   released: 2019-01-24
   updated: 2026-01-21
   version: '38.0'
-  reviews: 2608
+  reviews: 2610
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2018-08-04
   updated: 2026-05-27
   version: '38.2'
-  reviews: 16001
+  reviews: 16122
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource

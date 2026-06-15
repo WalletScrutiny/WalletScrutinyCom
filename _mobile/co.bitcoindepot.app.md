@@ -22,7 +22,7 @@ android:
   version: 4.2.2
   reviews: 270
   icon: co.bitcoindepot.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Bitcoin Depot
 iphone:

@@ -30,7 +30,7 @@ iphone:
   released: 2019-10-02
   updated: 2026-04-10
   version: 3.6.4
-  reviews: 2711
+  reviews: 2714
   icon: com.nova.dax.jpg
   meta: ok
   verdict: wip

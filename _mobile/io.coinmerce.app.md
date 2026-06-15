@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-07-09
   updated: 2026-06-04
-  version: 6.13.0
+  version: 7.0.2
   icon: io.coinmerce.app.png
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2018-07-29
   updated: 2026-06-05
   version: 7.0.2
-  reviews: 514
+  reviews: 515
   icon: io.coinmerce.app.jpg
   meta: ok
   verdict: custodial

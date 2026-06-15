@@ -15,12 +15,12 @@ redirect_from:
 - /iphone/com.Rhino.Global/
 android:
   appId: com.rhinoglobal
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2024-08-30
   updated: 2026-05-15
   version: 2.12.17
-  reviews: 16
+  reviews: 17
   icon: com.rhinoglobal.png
   meta: ok
   verdict: custodial

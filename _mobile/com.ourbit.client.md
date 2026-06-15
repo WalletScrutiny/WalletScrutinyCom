@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2024-04-05
   updated: 2026-06-10
-  version: 1.20.1
-  reviews: 62
+  version: 1.21.1
+  reviews: 61
   icon: com.ourbit.client.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '6483944320'
   appCountry: us
   released: 2024-07-28
-  updated: 2026-06-09
-  version: 1.21.0
-  reviews: 156
+  updated: 2026-06-13
+  version: 1.21.1
+  reviews: 160
   icon: com.ourbit.www.jpg
   meta: ok
   verdict: custodial
