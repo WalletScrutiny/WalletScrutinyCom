@@ -35,6 +35,7 @@ module.exports = (env, argv) => {
           './src/assets-table-paint.js',
           './src/assets-table-attachments.js',
           './src/assets-table-modal.js',
+          './src/assets-table-hash.js',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',

@@ -1,5 +1,4 @@
 import { showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
-import { getFirstTagValue } from "./verifications_common.mjs";
 import { paintMainAssetsTable } from "./assets-table-paint.js";
 import {
   fingerprintAllAssetInformation,
@@ -21,8 +20,14 @@ import {
 import { registerShowVerificationModal } from "./assets-table-modal.js";
 import {
   setAssetTableResponse,
-  findVerificationByIdInMaps,
 } from "./assets-table-state.js";
+import {
+  getVerificationIdFromHash,
+  tryOpenHashVerification,
+  setupEarlyHashVerificationOpen,
+  findCachedGlobalAssetInfo,
+  scheduleFinalHashVerificationOpen,
+} from "./assets-table-hash.js";
 
 registerAttachmentHandlers();
 registerShowVerificationModal();
@@ -241,40 +246,6 @@ function removeAssetsTableDynamicContent(htmlElementId) {
   host.querySelectorAll('.assets-table-attachments-wrap').forEach(el => el.remove());
 }
 
-function tryOpenVerificationFromHash(assetInfo, { isFinalAttempt = false } = {}) {
-  if (!location.hash.startsWith('#verificationId=')) {
-    return false;
-  }
-
-  const params = new URLSearchParams(location.hash.substring(1));
-  const verificationId = params.get('verificationId');
-  if (!verificationId) {
-    if (isFinalAttempt) {
-      history.pushState("", document.title, window.location.pathname + window.location.search);
-    }
-    return false;
-  }
-
-  const result = findVerificationByIdInMaps(assetInfo, verificationId);
-  if (!result) {
-    if (isFinalAttempt) {
-      console.warn('Verification ID from URL hash not found:', verificationId);
-      history.pushState("", document.title, window.location.pathname + window.location.search);
-    }
-    return false;
-  }
-
-  setAssetTableResponse(assetInfo);
-  const { verification, sha256Hash } = result;
-  const appIdFromVerification = getFirstTagValue(verification, 'i');
-  const platformFromVerification = getFirstTagValue(verification, 'platform');
-
-  queueMicrotask(() => {
-    void window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
-  });
-  return true;
-}
-
 window.renderAssetsTable = async function({
   htmlElementId,
   pubkey,
@@ -299,15 +270,26 @@ window.renderAssetsTable = async function({
   let hasAssets = false;
   let cachePaintFingerprint = null;
   let cachePaintResult = null;
-  let verificationFromHashOpened = false;
+
+  const verificationIdFromHash = getVerificationIdFromHash();
 
   resetAttachmentState();
 
-  try {
-    window.userPubkey = await getUserPubkey();
-  } catch (e) {
-    console.error("Error getting user pubkey:", e);
-    window.userPubkey = null;
+  const userPubkeyPromise = getUserPubkey()
+    .then((pubkey) => {
+      window.userPubkey = pubkey;
+      return pubkey;
+    })
+    .catch((e) => {
+      console.error("Error getting user pubkey:", e);
+      window.userPubkey = null;
+      return null;
+    });
+
+  if (!verificationIdFromHash) {
+    await userPubkeyPromise;
+  } else {
+    void userPubkeyPromise;
   }
 
   ensureVerificationModal();
@@ -317,6 +299,10 @@ window.renderAssetsTable = async function({
   const blossomHelpers = createBlossomDownloadHelpers();
 
   const effectiveAppId = filterAppIds || appId;
+
+  if (verificationIdFromHash) {
+    setupEarlyHashVerificationOpen(effectiveAppId, verificationIdFromHash, ensureVerificationModal);
+  }
 
   const paintOptions = {
     htmlElementId,
@@ -345,13 +331,22 @@ window.renderAssetsTable = async function({
     });
   }
 
-  function tryOpenHashVerification(assetInfo, isFinalAttempt) {
-    if (verificationFromHashOpened) {
-      return;
+  function handleCachedAssetData(cachedData) {
+    removeAssetsTableDynamicContent(htmlElementId);
+    tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
+    const pr = runPaint(cachedData);
+    hasAssets = pr.hasAssets;
+    cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
+    cachePaintResult = pr;
+    afterTablePaint(pr);
+    if (typeof tableLoadedCallback === 'function') {
+      tableLoadedCallback();
     }
-    if (tryOpenVerificationFromHash(assetInfo, { isFinalAttempt })) {
-      verificationFromHashOpened = true;
-    }
+  }
+
+  const globalCachedAssetInfo = findCachedGlobalAssetInfo(effectiveAppId, verificationIdFromHash);
+  if (globalCachedAssetInfo) {
+    handleCachedAssetData(globalCachedAssetInfo);
   }
 
   const response = await getAllAssetInformation({
@@ -361,16 +356,10 @@ window.renderAssetsTable = async function({
     getDrafts,
     months,
     onCachedDataLoaded: (cachedData) => {
-      removeAssetsTableDynamicContent(htmlElementId);
-      const pr = runPaint(cachedData);
-      hasAssets = pr.hasAssets;
-      cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
-      cachePaintResult = pr;
-      afterTablePaint(pr);
-      tryOpenHashVerification(cachedData, false);
-      if (typeof tableLoadedCallback === 'function') {
-        tableLoadedCallback();
+      if (globalCachedAssetInfo && fingerprintAllAssetInformation(cachedData) === cachePaintFingerprint) {
+        return;
       }
+      handleCachedAssetData(cachedData);
     }
   });
 
@@ -385,6 +374,8 @@ window.renderAssetsTable = async function({
   if (!skipRepaint) {
     removeAssetsTableDynamicContent(htmlElementId);
   }
+
+  tryOpenHashVerification(response, false, effectiveAppId, verificationIdFromHash);
 
   if (showIssueTracker) {
     await showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
@@ -411,8 +402,6 @@ window.renderAssetsTable = async function({
 
   const { sortedItems, attachmentEventIDs, profilePubkeys, walletByAppId } = paintResult;
   const hasVerifications = paintResult.hasVerifications;
-
-  tryOpenHashVerification(response, true);
 
   applyDraftRowMetadataToTable(table);
 
@@ -454,6 +443,8 @@ window.renderAssetsTable = async function({
     openBlossomBundleDownloadModal: blossomHelpers.openBlossomBundleDownloadModal,
     downloadBlossomFileWithDownloadIcon: blossomHelpers.downloadBlossomFileWithDownloadIcon,
   });
+
+  scheduleFinalHashVerificationOpen(response, effectiveAppId, verificationIdFromHash);
 
   return {
     hasAssets,

@@ -118,6 +118,63 @@ export async function loadAndStoreAttachments(attachmentEventIDs) {
   return attachments;
 }
 
+function getFileAttachmentIdsFromVerification(verification) {
+  return verification.tags
+    .filter(tag => tag[0] === 'file-attachment' && tag[1])
+    .map(tag => tag[1]);
+}
+
+export async function prefetchVerificationAttachments(verification) {
+  const attachmentIds = getFileAttachmentIdsFromVerification(verification);
+  if (attachmentIds.length === 0) {
+    return;
+  }
+
+  const missingIds = attachmentIds.filter(id => !getAttachmentEntry(id));
+  if (missingIds.length === 0) {
+    return;
+  }
+
+  const attachments = await getEventsFromEventIds(missingIds);
+  attachments.forEach(attachment => {
+    storeAttachmentMetadata(attachment);
+  });
+}
+
+function buildAttachmentListItemsHTML(verificationAttachments) {
+  let attachmentsHTML = '';
+  for (const attachment of verificationAttachments) {
+    const attachmentId = attachment[1];
+    const attachmentInfo = getAttachmentEntry(attachmentId);
+    if (attachmentInfo) {
+      attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>
+        <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+        <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+    }
+  }
+  return attachmentsHTML;
+}
+
+export async function populateVerificationAttachmentsList(listEl, verificationAttachments) {
+  if (!listEl) {
+    return;
+  }
+
+  const missingIds = verificationAttachments
+    .map(attachment => attachment[1])
+    .filter(id => id && !getAttachmentEntry(id));
+
+  if (missingIds.length > 0) {
+    const attachments = await getEventsFromEventIds(missingIds);
+    attachments.forEach(attachment => {
+      storeAttachmentMetadata(attachment);
+    });
+  }
+
+  const attachmentsHTML = buildAttachmentListItemsHTML(verificationAttachments);
+  listEl.innerHTML = attachmentsHTML || '<li>Scripts not available</li>';
+}
+
 export function renderAttachmentsTable({
   attachments,
   sortedItems,

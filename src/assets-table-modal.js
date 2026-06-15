@@ -10,9 +10,8 @@ import {
   findVerificationByIdInMaps,
 } from "./assets-table-state.js";
 import {
-  waitForAttachmentsReady,
   loadEndorsementsForTable,
-  getAttachmentInfoFromStore,
+  populateVerificationAttachmentsList,
 } from "./assets-table-attachments.js";
 import './zapModal.js';
 
@@ -503,30 +502,19 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
-  // Show attachments (scripts used to reproduce)
+  const isVerifierOrAssetsPage = window.location.pathname.includes('/verifier/')
+    || window.location.pathname.includes('/assets/');
+
+  // Show attachments placeholder; populate after modal is visible
   const numberVerificationAttachments = verificationAttachments.length;
   if (numberVerificationAttachments > 0) {
-    let attachmentsHTML = '';
-
-    if (!window.location.pathname.includes('/verifier/') && !window.location.pathname.includes('/assets/')) {
-      await waitForAttachmentsReady();
-
-      for (const attachment of verificationAttachments) {
-        const attachmentId = attachment[1];
-        const attachmentInfo = getAttachmentInfoFromStore(attachmentId);
-  
-        if (attachmentInfo) {
-          attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
-            <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
-            <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
-        }
-      }
+    if (isVerifierOrAssetsPage) {
+      const walletForLink = window.wallets.find(w => w.appId === appId);
+      const attachmentsHTML = `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
+      content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
     } else {
-      const wallet = window.wallets.find(w => w.appId === appId);
-      attachmentsHTML += `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
+      content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul id="verification-attachments-list" class="attestation-other-attempts"><li>Loading scripts...</li></ul>`;
     }
-
-    content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
   }
 
   let firstAsciicastFileSHA256 = null;
@@ -655,6 +643,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const currentHash = `#verificationId=${verificationId}`;
   if (window.location.hash !== currentHash) {
     location.hash = currentHash;
+  }
+
+  if (numberVerificationAttachments > 0 && !isVerifierOrAssetsPage) {
+    const attachmentsListEl = content.querySelector('#verification-attachments-list');
+    void populateVerificationAttachmentsList(attachmentsListEl, verificationAttachments);
   }
 
   const profile = await getNostrProfile(verification.pubkey);
