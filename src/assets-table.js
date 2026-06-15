@@ -14,8 +14,11 @@ import {
   buildAttachmentVerificationIndex,
   renderAttachmentsTable,
   registerAttachmentHandlers,
-  setPendingEndorsementIds,
 } from "./assets-table-attachments.js";
+import {
+  resetEndorsementsState,
+  setPendingEndorsementIds,
+} from "./assets-table-endorsements.js";
 import { renderProfilePictures } from "./assets-table-profiles.js";
 import { registerShowVerificationModal } from "./assets-table-modal.js";
 import {
@@ -285,6 +288,7 @@ window.renderAssetsTable = async function({
   const verificationIdFromHash = getVerificationIdFromHash();
 
   resetAttachmentState();
+  resetEndorsementsState();
 
   const userPubkeyPromise = getUserPubkey()
     .then((pubkey) => {
@@ -359,12 +363,12 @@ window.renderAssetsTable = async function({
 
   function handleCachedAssetData(cachedData) {
     removeAssetsTableDynamicContent(htmlElementId);
-    tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
     const pr = runPaint(cachedData);
     hasAssets = pr.hasAssets;
     cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
     cachePaintResult = pr;
     afterTablePaint(pr);
+    tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
     if (typeof tableLoadedCallback === 'function') {
       tableLoadedCallback();
     }
@@ -401,8 +405,6 @@ window.renderAssetsTable = async function({
     removeAssetsTableDynamicContent(htmlElementId);
   }
 
-  tryOpenHashVerification(response, false, effectiveAppId, verificationIdFromHash);
-
   let paintResult;
   let table;
 
@@ -431,6 +433,7 @@ window.renderAssetsTable = async function({
 
   setPendingEndorsementIds(paintResult.endorsementEventIDs);
   maybeRenderProfilePictures(profilePubkeys);
+  tryOpenHashVerification(response, false, effectiveAppId, verificationIdFromHash);
 
   if (showAttachmentsTable) {
     const { sortedItems, attachmentEventIDs, walletByAppId } = paintResult;

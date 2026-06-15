@@ -34,6 +34,7 @@ module.exports = (env, argv) => {
           './src/assets-table-filters.js',
           './src/assets-table-paint.js',
           './src/assets-table-profiles.js',
+          './src/assets-table-endorsements.js',
           './src/assets-table-attachments.js',
           './src/assets-table-modal.js',
           './src/assets-table-hash.js',

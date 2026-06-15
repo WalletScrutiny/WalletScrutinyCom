@@ -10,7 +10,9 @@ import {
   findVerificationByIdInMaps,
 } from "./assets-table-state.js";
 import {
-  loadEndorsementsForTable,
+  loadEndorsementsForVerification,
+} from "./assets-table-endorsements.js";
+import {
   populateVerificationAttachmentsList,
 } from "./assets-table-attachments.js";
 import './zapModal.js';
@@ -753,13 +755,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   });
 
   /* -------------------- Endorsements -------------------- */
-  let endorsements = {};
+  let endorsementsForThisVerification = [];
   try {
-    endorsements = await loadEndorsementsForTable();
+    endorsementsForThisVerification = await loadEndorsementsForVerification(verification.id);
   } catch (error) {
     console.error('Error loading endorsements for verification modal:', error);
   }
-  const endorsementsForThisVerification = endorsements[verification.id];
 
   if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
     endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
