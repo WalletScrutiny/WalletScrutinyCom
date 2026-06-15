@@ -22,6 +22,8 @@
         {% assign version_element_id = include.versionElementId | default: 'version-number' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
         {% assign skip_ws_version = include.skipWsVersion %}
+        {% assign skip_version_info = include.skipVersionInfo %}
+        {% assign merge_verification_into = include.mergeVerificationInto | default: '' %}
 
         <div id="{{ apps_table_id }}" style="margin-top: 1em;"></div>
 
@@ -50,8 +52,13 @@
             });
 
             const versionNumberElement = document.getElementById('{{ version_element_id }}');
-            if (versionNumberElement) {
-              const versionInfo = getMaxAssetVersion(attestationsInfo.info);
+            const skipVersionInfo = {{ skip_version_info | default: false | jsonify }};
+            const versionInfo = getMaxAssetVersion(attestationsInfo.info);
+            const mergeInto = '{{ merge_verification_into }}';
+
+            if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
+              window.updateDualMobileVerification('{{ include.platform }}', versionInfo);
+            } else if (versionNumberElement && !skipVersionInfo) {
 
               let versionInfoText = '<p style="margin-top: 0;">';
 

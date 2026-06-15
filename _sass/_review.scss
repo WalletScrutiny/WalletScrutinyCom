@@ -173,6 +173,16 @@
 }
 
 .version-number-ws {
+  line-height: 1.35;
+
+  p {
+    margin: 0;
+  }
+
+  & + & {
+    margin-top: 0.1em;
+  }
+
   i.fab,
   i.i-app-store {
     margin: 0 0.2em 0 0.45em;

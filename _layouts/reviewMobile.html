@@ -61,16 +61,29 @@ layout: default
             alternativeStores=page.android.alternativeStores
           %}
 
-          {% if page.android.version or page.iphone.version %}
+          {% if dual_platform %}
+            {% if page.android.version or page.iphone.version or page.android.appId or page.iphone.appId %}
+            <div class="secondary-text version-number-ws">
+              {% if page.android.version or page.iphone.version %}
+                {% include /review/mobileWalletScrutinyVersion.html %}
+              {% endif %}
+              {% if page.android.appId or page.iphone.appId %}
+              <div id="version-number-verification"></div>
+              {% endif %}
+            </div>
+            {% endif %}
+          {% else %}
+            {% if page.android.version or page.iphone.version %}
             <div class="secondary-text version-number-ws" id="version-number-ws">
               {% include /review/mobileWalletScrutinyVersion.html %}
             </div>
-          {% endif %}
-          {% if page.android.appId %}
+            {% endif %}
+            {% if page.android.appId %}
             <div class="secondary-text" id="version-number-android"></div>
-          {% endif %}
-          {% if page.iphone.appId %}
+            {% endif %}
+            {% if page.iphone.appId %}
             <div class="secondary-text" id="version-number-iphone"></div>
+            {% endif %}
           {% endif %}
         </div>
       </div>

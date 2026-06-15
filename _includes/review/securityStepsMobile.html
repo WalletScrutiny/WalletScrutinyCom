@@ -32,6 +32,29 @@
   {% endif %}
 
   {% if has_both %}
+  <script>
+  window.updateDualMobileVerification = function(platform, info) {
+    window._mobileVerParts = window._mobileVerParts || {};
+    window._mobileVerParts[platform] = info;
+    if (!('android' in window._mobileVerParts) || !('iphone' in window._mobileVerParts)) return;
+    const el = document.getElementById('version-number-verification');
+    if (!el) return;
+    const fmt = (ver, date) => ver ? '<b>' + ver + '</b> <small>(' + date + ')</small>' : '';
+    const fmtDual = (aV, aD, iV, iD) => aV && iV
+      ? '<i class="fab fa-google-play" aria-hidden="true"></i> ' + fmt(aV, aD) + ' / <i class="i-app-store" aria-hidden="true"></i> ' + fmt(iV, iD)
+      : fmt(aV || iV, aD || iD);
+    const a = window._mobileVerParts.android;
+    const i = window._mobileVerParts.iphone;
+    let html = '';
+    const last = fmtDual(a.lastVersion, a.lastVersionDate, i.lastVersion, i.lastVersionDate);
+    if (last) html += 'Latest release found in a <b>Verification</b>: ' + last + '<br>';
+    const aR = a.lastVerifiedVersion !== a.lastVersion ? a.lastVerifiedVersion : null;
+    const iR = i.lastVerifiedVersion !== i.lastVersion ? i.lastVerifiedVersion : null;
+    const repro = fmtDual(aR, aR ? a.lastVerifiedVersionDate : null, iR, iR ? i.lastVerifiedVersionDate : null);
+    if (repro) html += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: ' + repro;
+    if (html) el.innerHTML = '<p>' + html + '</p>';
+  };
+  </script>
   <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
     <div class="mobile-platform-scope__header">
       <div class="mobile-platform-tabs__nav" role="tablist" aria-label="Platform-specific review">
@@ -49,13 +72,13 @@
           <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
             {% include_cached /review/steps/platformMeta.html meta=meta_android %}
             {% include /review/steps/distribution.html platform='android' appId=page.android.appId idd=page.iphone.idd appCountry=page.appCountry alternativeStores=page.android.alternativeStores %}
-            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true verificationMessageId='verificationMessage-android' %}
+            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true skipVersionInfo=true mergeVerificationInto='version-number-verification' verificationMessageId='verificationMessage-android' %}
             {% include /review/steps/platformNotes.html platform='android' %}
           </div>
           <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
             {% include_cached /review/steps/platformMeta.html meta=meta_iphone %}
             {% include /review/steps/distribution.html platform='iphone' appId=page.iphone.appId idd=page.iphone.idd appCountry=page.appCountry %}
-            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true verificationMessageId='verificationMessage-iphone' %}
+            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true skipVersionInfo=true mergeVerificationInto='version-number-verification' verificationMessageId='verificationMessage-iphone' %}
             {% include /review/steps/platformNotes.html platform='iphone' %}
           </div>
         </div>
@@ -169,15 +192,6 @@ document.addEventListener('DOMContentLoaded', function() {
         panel.setAttribute('hidden', '');
       }
     });
-
-    const androidVersions = document.getElementById('version-number-android');
-    const iphoneVersions = document.getElementById('version-number-iphone');
-    if (androidVersions) {
-      androidVersions.hidden = platform !== 'android';
-    }
-    if (iphoneVersions) {
-      iphoneVersions.hidden = platform !== 'iphone';
-    }
 
     const scope = document.querySelector('[data-mobile-platform-scope]');
     if (scope) {
