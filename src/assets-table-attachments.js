@@ -10,10 +10,6 @@ let attachmentsReadyPromise = new Promise(resolve => {
   attachmentsReadyResolve = resolve;
 });
 
-let endorsementsData = {};
-let endorsementsLoadPromise = null;
-let pendingEndorsementIds = [];
-
 export function resetAttachmentState() {
   for (const key of Object.keys(attachmentDataStore)) {
     delete attachmentDataStore[key];
@@ -21,36 +17,10 @@ export function resetAttachmentState() {
   attachmentsReadyPromise = new Promise(resolve => {
     attachmentsReadyResolve = resolve;
   });
-  endorsementsData = {};
-  endorsementsLoadPromise = null;
-  pendingEndorsementIds = [];
 }
 
 export function waitForAttachmentsReady() {
   return attachmentsReadyPromise;
-}
-
-export function setPendingEndorsementIds(ids) {
-  pendingEndorsementIds = ids;
-}
-
-export function loadEndorsementsForTable() {
-  if (!endorsementsLoadPromise) {
-    if (pendingEndorsementIds.length === 0) {
-      endorsementsLoadPromise = Promise.resolve(endorsementsData);
-    } else {
-      endorsementsLoadPromise = getEndorsementsFromVerificationEventIds(pendingEndorsementIds)
-        .then(data => {
-          endorsementsData = data;
-          return data;
-        });
-    }
-  }
-  return endorsementsLoadPromise;
-}
-
-export function getEndorsementsData() {
-  return endorsementsData;
 }
 
 function decodeAttachmentContent(rawContent) {
