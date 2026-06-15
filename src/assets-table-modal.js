@@ -1,6 +1,7 @@
 import { verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
 import { formatDate, formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
+import { marked } from 'marked';
 import { renderCommentsSection } from './assets-table-comments.js';
 import {
   getAssetTableResponse,
@@ -553,7 +554,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   let itemContent = JSON.parse(verification.content).content;
-  const { marked } = await import('marked');
   const parsedMarkdown = marked.parse(itemContent);
 
   // Diffoscope special treatment
