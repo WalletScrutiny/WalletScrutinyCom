@@ -13,10 +13,19 @@
 <script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
 
 <script>
-  // Load verifications_data and verifications_ui in parallel (webpack dependOn keeps execution order).
-  // verificationsDataLoaded fires when data bundle is ready; verificationsUILoaded when UI bundle is ready.
+  // verifications_data must load and run before verifications_ui (webpack dependOn is not
+  // enforced by the browser when both script tags are appended at once). Preload the UI
+  // bundle so it can download in parallel while data executes.
+  const verificationsDataSrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
+  const verificationsUISrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+
+  const verificationsUiPreload = document.createElement('link');
+  verificationsUiPreload.rel = 'preload';
+  verificationsUiPreload.as = 'script';
+  verificationsUiPreload.href = verificationsUISrc;
+  document.head.appendChild(verificationsUiPreload);
+
   const verificationsScript = document.createElement('script');
-  const verificationsUIScript = document.createElement('script');
 
   verificationsScript.onload = () => {
     window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
@@ -56,16 +65,17 @@
         }, 10000);
       {% endif %}
     })();
+
+    const verificationsUIScript = document.createElement('script');
+    verificationsUIScript.onload = () => {
+      window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    };
+    verificationsUIScript.src = verificationsUISrc;
+    document.body.appendChild(verificationsUIScript);
   };
 
-  verificationsUIScript.onload = () => {
-    window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
-  };
-
-  verificationsScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
-  verificationsUIScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+  verificationsScript.src = verificationsDataSrc;
   document.body.appendChild(verificationsScript);
-  document.body.appendChild(verificationsUIScript);
 </script>
 
 {% include_cached scripts-base.html %}
