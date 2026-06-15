@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPublishError, NDKZapper, zapInvoiceFromEvent, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
 import { nip19, nip57 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -17,7 +17,8 @@ import {
   wsBotPublicKey,
   maxFileAttachmentContentLength
 } from "./nostr-constants.mjs";
-import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
+import { waitNostr } from 'nip07-awaiter';
+import { getFirstTagValue } from './verifications_common.mjs';
 import {
   assetRegistrationKinds,
   getAssetFileEntries,
@@ -39,47 +40,42 @@ const purifyConfig = {
 
 let ndk;
 let ndkConnectionPromise = null; // Promise to track NDK connection status
+let signerReadyPromise = null;
 let resolveNostrConnectInitiated;
 const nostrConnectInitiatedPromise = new Promise(resolve => {
   resolveNostrConnectInitiated = resolve;
 });
 
 const connectTimeout = 3;
+// Same upper bound as the previous 125 x 25ms polling loop.
+const nip07WaitTimeoutMs = 3125;
 
 export const getNdk = async () => {
   await ensureNdkConnected();
   return ndk;
 };
 
-const nostrConnect = function (nostrPrivateKey) {
+const assignSigner = async function() {
+  const nip07 = await waitNostr(nip07WaitTimeoutMs);
+  if (nip07) {
+    console.debug("Signer: Using browser extension");
+    ndk.signer = new NDKNip07Signer();
+    return;
+  }
+
+  console.debug("Signer: No browser extension available");
+};
+
+const nostrConnect = function () {
+  let resolveSignerReady;
+  signerReadyPromise = new Promise((resolve) => {
+    resolveSignerReady = resolve;
+  });
+
   // Assign the connection logic to the promise immediately
   ndkConnectionPromise = (async () => {
-    let signer;
-    const hasBrowserExtension = await userHasBrowserExtension();
-
-    if (hasBrowserExtension) {
-      console.debug("Signer: Using browser extension");
-      signer = new NDKNip07Signer();
-    } else if (nostrPrivateKey) {
-      console.debug("Signer: Using private key");
-      signer = new NDKPrivateKeySigner(nostrPrivateKey);
-    } else {
-      const temporaryPrivateKey = localStorage.getItem('nostrTemporaryPrivateKey');
-      if (temporaryPrivateKey) {
-        console.debug("Signer: Using temporary private key");
-        signer = new NDKPrivateKeySigner(temporaryPrivateKey);
-      } else {
-        console.debug("Signer: No temporary private key available. Creating a new identity...");
-        const keyPair = await NDKPrivateKeySigner.generate();
-        const privateKey = keyPair.nsec;
-        signer = new NDKPrivateKeySigner(privateKey);
-        localStorage.setItem('nostrTemporaryPrivateKey', privateKey);
-      }
-    }
-
     ndk = new NDK({
       explicitRelayUrls: explicitRelayUrls,
-      signer: signer
     });
 
     // Add event listeners for connection monitoring
@@ -98,21 +94,15 @@ const nostrConnect = function (nostrPrivateKey) {
     try {
       await ndk.connect(connectTimeout);
       console.log("NDK connected successfully.");
+      void assignSigner().finally(() => resolveSignerReady());
     } catch (e) {
       console.error("ndk connect failed", e);
-      // Try reconnecting without signer only if browser extension was detected and signer was initially set
-      if (hasBrowserExtension && ndk.signer) {
-        console.log("Trying to connect again without using a signer");
-        ndk.signer = null; // Modify the existing NDK instance's signer
-        await ndk.connect(connectTimeout); // Re-attempt connection, will throw if fails again
-        console.log("NDK connected successfully (without signer).");
-      } else {
-        // If no extension or connection failed even without signer, re-throw
+      if (typeof window !== 'undefined') {
         showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-        throw e;
       }
+      resolveSignerReady();
+      throw e;
     }
-    // The promise resolves implicitly if connect succeeds, or throws/rejects if it fails
   })(); // Immediately invoke the async function
 
   // Signal that nostrConnect has been initiated and the promise is set
@@ -133,8 +123,15 @@ const ensureNdkConnected = async () => {
   }
 };
 
-const getUserPubkey = async function() {
+const ensureSignerReady = async () => {
   await ensureNdkConnected();
+  if (signerReadyPromise) {
+    await signerReadyPromise;
+  }
+};
+
+const getUserPubkey = async function() {
+  await ensureSignerReady();
   if (!ndk.signer) {
     throw new Error("No signer available");
   }
@@ -2055,7 +2052,7 @@ const deletePublishedVerification = async function(verificationEventId, reason =
     try {
       myPubkey = await getUserPubkey();
     } catch {
-      showToast('You need a Nostr signer (browser extension or site identity) to delete a verification.', 'error');
+      showToast('You need a Nostr browser extension to delete a verification.', 'error');
       return;
     }
 
@@ -2100,7 +2097,7 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
     try {
       myPubkey = await getUserPubkey();
     } catch {
-      showToast('You need a Nostr signer (browser extension or site identity) to delete a comment.', 'error');
+      showToast('You need a Nostr browser extension to delete a comment.', 'error');
       return false;
     }
 
@@ -2322,6 +2319,7 @@ const cleanupNdkConnections = function() {
     }
     ndk = null;
     ndkConnectionPromise = null;
+    signerReadyPromise = null;
     console.warn("✅ NDK cleanup completed");
   }
 };
@@ -2383,7 +2381,7 @@ async function buildZapRequestEvent(ndk, lnurlSpec, recipientPubkey, amountMsat,
 }
 
 const createZap = async function ({ event, amount, comment = '' }) {
-  await ensureNdkConnected();
+  await ensureSignerReady();
   if (!ndk.signer) {
     throw new Error('You must connect a Nostr extension to send a zap');
   }
@@ -2534,14 +2532,9 @@ const createAuthorizationEvent = async function(verb, content, xTags = [], serve
     eventObject.tags.push(['server', serverUrl]);
   }
 
-  // Sign with extension if available
-  if (typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function') {
-    return await window.nostr.signEvent(eventObject)
-  }
-
-  // Sign with internal identity if no extension is available
+  await ensureSignerReady();
   const event = new NDKEvent(ndk, eventObject);
-  event.sig = await event.sign();
+  await event.sign();
   return event;
 }
 
