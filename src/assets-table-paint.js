@@ -74,6 +74,7 @@ export function paintMainAssetsTable({
   showOnlyRows,
   showOnlyRegisteredAssets,
   showProfilePictures,
+  showAttachmentsTable = false,
   pubkey,
 }) {
   setAssetTableResponse(assetInfo);
@@ -156,7 +157,7 @@ export function paintMainAssetsTable({
 
     sortedItems.forEach((itemsForThisSha256) => {
       itemsForThisSha256.items.forEach(item => {
-        if (item.kind === verificationKind || item.kind === verificationDraftKind) {
+        if (showAttachmentsTable && (item.kind === verificationKind || item.kind === verificationDraftKind)) {
           for (const id of getFileAttachmentIDsForVerificationEvent(item)) {
             attachmentEventIdSet.add(id);
           }
