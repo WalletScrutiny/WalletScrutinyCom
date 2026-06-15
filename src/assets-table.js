@@ -313,6 +313,7 @@ window.renderAssetsTable = async function({
     showOnlyRows,
     showOnlyRegisteredAssets,
     showProfilePictures,
+    showAttachmentsTable,
     pubkey,
   };
 
@@ -414,7 +415,7 @@ window.renderAssetsTable = async function({
     table = paintResult.table;
   }
 
-  const { sortedItems, attachmentEventIDs, profilePubkeys, walletByAppId } = paintResult;
+  const { profilePubkeys } = paintResult;
   const hasVerifications = paintResult.hasVerifications;
 
   applyDraftRowMetadataToTable(table);
@@ -426,28 +427,32 @@ window.renderAssetsTable = async function({
   setPendingEndorsementIds(paintResult.endorsementEventIDs);
   maybeRenderProfilePictures(profilePubkeys);
 
-  let attachments = new Map();
-  if (sortedItems.length > 0 && attachmentEventIDs.length > 0) {
-    attachments = await loadAndStoreAttachments(attachmentEventIDs);
-  } else {
-    await loadAndStoreAttachments([]);
+  if (showAttachmentsTable) {
+    const { sortedItems, attachmentEventIDs, walletByAppId } = paintResult;
+
+    let attachments = new Map();
+    if (sortedItems.length > 0 && attachmentEventIDs.length > 0) {
+      attachments = await loadAndStoreAttachments(attachmentEventIDs);
+    } else {
+      await loadAndStoreAttachments([]);
+    }
+
+    const profilePubkeySet = new Set(profilePubkeys);
+    const attachmentVerificationIndex = buildAttachmentVerificationIndex(sortedItems);
+
+    renderAttachmentsTable({
+      attachments,
+      sortedItems,
+      attachmentVerificationIndex,
+      walletByAppId,
+      htmlElementId,
+      showAttachmentsTable,
+      profilePubkeySet,
+      showProfilePictures,
+    });
+
+    maybeRenderProfilePictures([...profilePubkeySet]);
   }
-
-  const profilePubkeySet = new Set(profilePubkeys);
-  const attachmentVerificationIndex = buildAttachmentVerificationIndex(sortedItems);
-
-  renderAttachmentsTable({
-    attachments,
-    sortedItems,
-    attachmentVerificationIndex,
-    walletByAppId,
-    htmlElementId,
-    showAttachmentsTable,
-    profilePubkeySet,
-    showProfilePictures,
-  });
-
-  maybeRenderProfilePictures([...profilePubkeySet]);
 
   updateTableVisibility();
 
