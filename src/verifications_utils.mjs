@@ -2237,9 +2237,7 @@ function getLastVerificationStatusForAppId(appId, platform) {
   let verification = null;
   let maxVersion = null;
 
-  const allAssetArrays = [...window.allAssetInformation.verifications.values(), ...window.allAssetInformation.assets.values()];
-
-  for (const assetArray of allAssetArrays) {
+  for (const assetArray of window.allAssetInformation.verifications.values()) {
     for (const asset of assetArray) {
       const version = getFirstTagValue(asset, 'version', null);
       const appIdFromTag = getFirstTagValue(asset, 'i');
