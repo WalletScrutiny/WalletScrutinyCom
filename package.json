@@ -71,7 +71,7 @@
     "lodash": "^4.18.1",
     "marked": "^15.0.12",
     "nip07-awaiter": "^1.1.0",
-    "nostr-tools": "^2.23.3",
+    "nostr-tools": "^2.23.5",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
     "qrcode": "^1.5.4",
