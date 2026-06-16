@@ -297,6 +297,20 @@ export async function processFileCommon(fileName, config) {
       // Get version using the provided fetcher function
       const release = await versionFetcher(fileName, repoUrl, token);
 
+      // Guard: never overwrite a good version with a failed/empty fetch result.
+      // A fetcher returning 'unknown' or no version means the upstream lookup
+      // failed (API rate-limit, expired token, transient error). Skip the file
+      // and leave the existing version untouched rather than corrupting it.
+      if (!release || !release.version || release.version === 'unknown') {
+        const got = release && release.version ? release.version : 'none';
+        stats.skipped.errors.push({
+          file: fileName,
+          error: `version lookup failed (got '${got}') — left existing version untouched`
+        });
+        console.log(`  ${colors.red}✗ Skipping: version lookup failed (got '${got}') — leaving existing version untouched${colors.reset}`);
+        return;
+      }
+
       console.log(` appId: ${frontmatter.appId}  Current: ${frontmatter.version || 'unknown'}  Latest: ${release.version}`);
 
       // Check for version/date downgrade (anti-regression protection)

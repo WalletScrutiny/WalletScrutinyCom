@@ -456,6 +456,17 @@ async function main() {
                 }));
                 return;
             }
+            if (options.modelCode) {
+                // Requested a specific model but the lookup produced no result —
+                // emit an error and exit non-zero so callers don't treat an
+                // upstream failure as a valid 'unknown' version.
+                console.log(JSON.stringify({
+                    version: "unknown",
+                    date: new Date().toISOString().split('T')[0],
+                    error: `Failed to fetch version for model ${options.modelCode} (upstream lookup failed)`
+                }));
+                process.exit(1);
+            }
             // Output all models in JSON format
             const jsonOutput = {};
             for (const [modelCode, info] of Object.entries(firmwareResults)) {
