@@ -32,17 +32,30 @@ const getPrimaryFileName = event => {
   return getFirstTagValue(event, 'file-name');
 };
 
-function renderMobileHashCells(sha256Hashes) {
+function renderCopyAllHashesButton(allHashes) {
+  if (allHashes.length <= 6) {
+    return '';
+  }
+  const allHashesText = allHashes.map(hash => hash[1]).join('\n');
+  const count = allHashes.length;
+  return `
+    <div class="hash-list-more">...</div>
+    <div style="margin-top: 6px;">
+      <button onclick='navigator.clipboard.writeText(${JSON.stringify(allHashesText)}).then(() => showToast("Hashes copied to clipboard"))' class="copy-button" title="Copy all ${count} hashes to clipboard">📋 Copy all (${count})</button>
+    </div>`;
+}
+
+function renderMobileHashCells(sha256Hashes, allHashes = sha256Hashes) {
   if (sha256Hashes.length === 0) {
     return '-';
   }
   return sha256Hashes.map(hash => `
     <div style="margin-bottom: 4px;">
       <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
-    </div>`).join('');
+    </div>`).join('') + renderCopyAllHashesButton(allHashes);
 }
 
-function renderDesktopHashCells(sha256Hashes) {
+function renderDesktopHashCells(sha256Hashes, allHashes = sha256Hashes) {
   if (sha256Hashes.length === 0) {
     return '-';
   }
@@ -50,7 +63,7 @@ function renderDesktopHashCells(sha256Hashes) {
     <div style="margin-bottom: 4px;">
       <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
       <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button>
-    </div>`).join('');
+    </div>`).join('') + renderCopyAllHashesButton(allHashes);
 }
 
 function parseItemDescription(binary) {
@@ -214,7 +227,8 @@ export function paintMainAssetsTable({
 
       const binary = item.items ? item.items[0] : item;
       const date = formatDate(binary.created_at);
-      const sha256Hashes = getHashTags(binary).slice(0, 6);
+      const allSha256Hashes = getHashTags(binary);
+      const sha256Hashes = allSha256Hashes.slice(0, 5);
       const sha256HashKey = item.sha256;
       const downloadHash = sha256HashKey;
       const verificationLookupHash = item.sha256 || getVerificationLookupHash(binary);
@@ -342,8 +356,8 @@ export function paintMainAssetsTable({
       row.dataset.hasVerifications = hasVerifications ? 'true' : 'false';
       row.dataset.searchText = `${walletTitle} ${version} ${itemDescription}`.toLowerCase();
 
-      const mobileHashes = renderMobileHashCells(sha256Hashes);
-      const desktopHashes = renderDesktopHashCells(sha256Hashes);
+      const mobileHashes = renderMobileHashCells(sha256Hashes, allSha256Hashes);
+      const desktopHashes = renderDesktopHashCells(sha256Hashes, allSha256Hashes);
 
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
