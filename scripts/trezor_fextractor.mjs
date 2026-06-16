@@ -8,7 +8,7 @@
  * Options:
  *   -g TOKEN    GitHub Personal Access Token to avoid rate limiting
  *   --json      Output results in simple JSON format for easier parsing
- *   --model     Specify a single model code to get info for (LEGACY, T2T1, T2B1, T3T1)
+ *   --model     Specify a single model code to get info for (T1B1, T2T1, T2B1, T3T1, T3W1; LEGACY = tag-based Trezor One)
  *   --debug     Print status/progress info to stderr (in JSON mode)
  */
 
@@ -25,17 +25,21 @@ class TrezorFirmwareExtractor {
         this.debug = options.debug || false;
 
         this.models = {
+            'T1B1': 'Trezor Model One',
             'T2B1': 'Trezor Safe 3',
             'T2T1': 'Trezor Model T',
             'LEGACY': 'Trezor Model One',
-            'T3T1': 'Trezor Safe 5'
+            'T3T1': 'Trezor Safe 5',
+            'T3W1': 'Trezor Safe 7'
         };
 
         this.firmwareDirs = {
+            'T1B1': 'https://api.github.com/repos/trezor/data/contents/firmware/t1b1?ref=master',
             'T2B1': 'https://api.github.com/repos/trezor/data/contents/firmware/t2b1?ref=master',
             'T2T1': 'https://api.github.com/repos/trezor/data/contents/firmware/t2t1?ref=master',
             'LEGACY': 'https://github.com/trezor/trezor-firmware/tags',
-            'T3T1': 'https://api.github.com/repos/trezor/data/contents/firmware/t3t1?ref=master'
+            'T3T1': 'https://api.github.com/repos/trezor/data/contents/firmware/t3t1?ref=master',
+            'T3W1': 'https://api.github.com/repos/trezor/data/contents/firmware/t3w1?ref=master'
         };
 
         this.rateLimitRemaining = 60;
@@ -233,7 +237,7 @@ class TrezorFirmwareExtractor {
 
     async extractAllVersionsFirmwareDirs() {
         const results = {};
-        for (const modelCode of ['T2B1', 'T2T1', 'T3T1']) {
+        for (const modelCode of ['T1B1', 'T2B1', 'T2T1', 'T3T1', 'T3W1']) {
             const info = await this.getLatestFromFirmwareDir(modelCode);
             if (info) {
                 results[modelCode] = info;
@@ -436,14 +440,20 @@ async function main() {
             if (model === 'LEGACY') {
                 const legacyInfo = await extractor.getLegacyVersion();
                 if (legacyInfo) firmwareResults[model] = legacyInfo;
+            } else if (model === 'T1B1') {
+                // Trezor One: prefer the t1b1 firmware directory (robust), and
+                // fall back to the legacy tag method if the directory lookup fails.
+                let info = await extractor.getLatestFromFirmwareDir('T1B1');
+                if (!info) info = await extractor.getLegacyVersion();
+                if (info) firmwareResults[model] = info;
             } else {
                 const info = await extractor.getLatestFromFirmwareDir(model);
                 if (info) firmwareResults[model] = info;
             }
         } else {
+            // All-models: T1B1 (Trezor One) now comes from the firmware directory
+            // via extractAllVersionsFirmwareDirs, so no separate LEGACY tag call.
             firmwareResults = await extractor.extractAllVersionsFirmwareDirs();
-            const legacyInfo = await extractor.getLegacyVersion();
-            if (legacyInfo) firmwareResults['LEGACY'] = legacyInfo;
         }
 
         if (options.jsonOutput) {
@@ -455,6 +465,17 @@ async function main() {
                     date: modelInfo.upload_date || modelInfo.date || ""
                 }));
                 return;
+            }
+            if (options.modelCode) {
+                // Requested a specific model but the lookup produced no result —
+                // emit an error and exit non-zero so callers don't treat an
+                // upstream failure as a valid 'unknown' version.
+                console.log(JSON.stringify({
+                    version: "unknown",
+                    date: new Date().toISOString().split('T')[0],
+                    error: `Failed to fetch version for model ${options.modelCode} (upstream lookup failed)`
+                }));
+                process.exit(1);
             }
             // Output all models in JSON format
             const jsonOutput = {};
