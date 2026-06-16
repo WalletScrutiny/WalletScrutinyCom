@@ -100,6 +100,7 @@ table .copy-button {
   background: none;
   cursor: pointer;
   padding: 0;
+  color: var(--text);
 }
 
 #show-more-link {
@@ -121,6 +122,11 @@ table .copy-button {
   overflow: hidden;
   text-overflow: ellipsis;
   vertical-align: middle;
+}
+
+.hash-list-more {
+  margin-top: 4px;
+  color: var(--text);
 }
 
 .attestation-status {
