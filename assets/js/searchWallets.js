@@ -690,18 +690,20 @@ window.addEventListener('resize', () => {
 const versionTaggedWallets = [];
 
 window.versionTag = () => {
-  var readerRec = [];
   versionTaggedWallets.length = 0;
+  const wsIdIndex = new Map();
+  const seenAppIds = new Set();
   window.wallets.forEach(e => {
     if (e.wsId) {
       const wsId = e.wsId;
-      var i = readerRec.indexOf(wsId);
-      if (wsId.length > 0 && i < 0) {
+      if (wsId.length === 0) return;
+      if (!wsIdIndex.has(wsId)) {
+        wsIdIndex.set(wsId, versionTaggedWallets.length);
         versionTaggedWallets.push(e);
-        readerRec.push(wsId);
       } else {
         // If we already added a product with this wsId, we add the new one as a
         // 'version' of the prior one.
+        const i = wsIdIndex.get(wsId);
         const versionsI = versionTaggedWallets[i].versions || [];
         versionsI.push(e);
         versionTaggedWallets[i].versions = versionsI;
@@ -709,9 +711,9 @@ window.versionTag = () => {
     } else if (e.appId && e.appId.length > 0) {
       // making sure the appId doesn't match any wsId:
       const appId = `__${e.appId}__`;
-      if (!readerRec.includes(appId)) {
+      if (!seenAppIds.has(appId)) {
+        seenAppIds.add(appId);
         versionTaggedWallets.push(e);
-        readerRec.push(appId);
       }
     }
   });
