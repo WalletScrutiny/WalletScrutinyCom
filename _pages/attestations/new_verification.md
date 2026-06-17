@@ -441,7 +441,7 @@ permalink: /new_verification/
         <div class="form-group">
             <label id="hashesLabel"></label>
             <div class="hash-input-container">
-                <input type="text" id="newHash" class="form-control" placeholder="Enter hash">
+                <input type="text" id="newHash" class="form-control" placeholder="Official download SHA-256 hash">
                 <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
                     <i class="fas fa-plus"></i>
                 </button>
@@ -518,6 +518,8 @@ permalink: /new_verification/
     return [...new Set([sha256, ...hashes].filter(Boolean))];
   }
 
+  const HASHES_HELP_BASE = 'Enter the original hash(es) of the asset you want to reproduce. Do not use the hash of your locally built artifact. For multi-file assets, add every hash. ';
+
   function loadHashesFromUrlParams(urlParams) {
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     const extraHashes = urlParams.getAll('hash')
@@ -530,15 +532,16 @@ permalink: /new_verification/
 
     if (allUrlHashes.length > 1) {
       hashesLabel.textContent = 'Asset hashes:';
-      hashesHelpText.textContent = 'These are the SHA-256 hashes of all binaries in this asset bundle.';
+      hashesHelpText.textContent = HASHES_HELP_BASE;
       allUrlHashes.forEach(hash => addHash(hash));
     } else if (sha256) {
-      hashesLabel.textContent = 'Additional related hashes:';
-      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
+      hashesLabel.textContent = 'Asset hash:';
+      hashesHelpText.textContent = HASHES_HELP_BASE;
+      addHash(sha256);
       extraHashes.forEach(hash => addHash(hash));
     } else {
       hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying and press the (+) button to add it. Each hash must be 64 hexadecimal characters.';
+      hashesHelpText.textContent = `${HASHES_HELP_BASE} Press the (+) button to add each hash. Each hash must be 64 hexadecimal characters.`;
       extraHashes.forEach(hash => addHash(hash));
     }
 
