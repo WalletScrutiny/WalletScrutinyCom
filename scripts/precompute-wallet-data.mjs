@@ -49,6 +49,31 @@ const featuresData = yaml.load(
   fs.readFileSync(path.join(ROOT, '_data/features.yml'), 'utf8')
 ) || {};
 
+/** Compact [numerator, denominator] score tuple for allWallets.js (expanded client-side). */
+function compactScore(score) {
+  return [score.count, score.total];
+}
+
+/** Drop empty defaults from serialized wallet apps to shrink allWallets.js. */
+function omitEmptyAppFields(app) {
+  const out = {};
+  for (const [key, value] of Object.entries(app)) {
+    if (value === '' || value === false || value == null) continue;
+    if (Array.isArray(value) && value.length === 0) continue;
+    if (value === 0 && (key === 'users' || key === 'reviews')) continue;
+    if (value === 'ok' && (key === 'meta' || key === 'metaAndroid' || key === 'metaIphone')) continue;
+    if (value === 'android' && (key === 'storePlatform' || key === 'iconFolder')) continue;
+    out[key] = value;
+  }
+  return out;
+}
+
+function slimVerdictsForClient(allVerdicts) {
+  return Object.fromEntries(
+    Object.entries(allVerdicts).map(([key, value]) => [key, { short: value.short }])
+  );
+}
+
 /**
  * Parse frontmatter from markdown file
  */
@@ -552,19 +577,14 @@ console.log(`  Generated ${walletsJsonPath}`);
 // Generate allProducts.json (used by allWallets.js)
 console.log('\nGenerating allProducts.json...');
 
-const alertFeatureKeys = new Set(Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k]) => k));
-
 const allProductsJson = {
-  verdicts: verdicts,
+  verdicts: slimVerdictsForClient(verdicts),
   featureAlerts: Object.fromEntries(
     Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k,v]) => [k, v.short || k])
   ),
   featureAlertMessages: Object.fromEntries(
     Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k,v]) => [k, (v.alert || '').replace(/<[^>]+>/g, '').trim()])
   ),
-  featureShorts: Object.fromEntries(
-    Object.entries(featuresData).filter(([,v]) => v && v.short).map(([k,v]) => [k, v.short])
-  )
 };
 
 const productPlatforms = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
@@ -601,39 +621,28 @@ for (const platform of productPlatforms) {
       icon: wallet.icon || '',
       meta: wallet.meta || '',
       verdict: primaryVerdict,
-      url: platform === 'mobile'
-        ? `/mobile/${wallet._slug || wallet.appId}/`
-        : `/${platform}/${wallet.appId}/`,
-      score: { numerator: score.count, denominator: score.total },
+      score: compactScore(score),
       features: walletFeatures,
-      alertFeatures: walletFeatures.filter(f => alertFeatureKeys.has(f))
     };
     if (platform === 'mobile') {
-      app.wsId = wallet.wsId || '';
-      app.altTitle = wallet.altTitle || '';
-      app.storeAppId = wallet.storeAppId || '';
-      app.storePlatform = wallet.storePlatform || 'android';
-      app.iconFolder = wallet.iconFolder || 'android';
-      app.hasAndroid = wallet.hasAndroid || false;
-      app.hasIphone = wallet.hasIphone || false;
-      app.androidAppId = wallet.android?.appId || '';
-      app.iphoneAppId = wallet.iphone?.appId || '';
-      app.users = wallet.users || 0;
-      app.reviews = wallet.reviews || 0;
-      app.released = wallet.released || '';
-      app.updated = wallet.updated || '';
-      app.version = wallet.version || '';
-      app.date = wallet.date || '';
-      if (wallet.android?.version) app.androidVersion = wallet.android.version;
-      if (wallet.iphone?.version) app.iphoneVersion = wallet.iphone.version;
-      app.metaAndroid = wallet.metaAndroid || '';
-      app.metaIphone = wallet.metaIphone || '';
-      app.verdictAndroid = verdictAndroid;
-      app.verdictIphone = verdictIphone;
-      if (scoreAndroid) app.scoreAndroid = { numerator: scoreAndroid.count, denominator: scoreAndroid.total };
-      if (scoreIphone) app.scoreIphone = { numerator: scoreIphone.count, denominator: scoreIphone.total };
+      if (wallet.wsId) app.wsId = wallet.wsId;
+      if (wallet.altTitle) app.altTitle = wallet.altTitle;
+      if (wallet.storeAppId) app.storeAppId = wallet.storeAppId;
+      if (wallet.storePlatform && wallet.storePlatform !== 'android') app.storePlatform = wallet.storePlatform;
+      if (wallet.iconFolder && wallet.iconFolder !== 'android') app.iconFolder = wallet.iconFolder;
+      if (wallet.android?.appId) app.androidAppId = wallet.android.appId;
+      const iphoneStoreId = wallet.iphone?.appId || wallet.iphone?.idd;
+      if (iphoneStoreId) app.iphoneAppId = iphoneStoreId;
+      if (wallet.users) app.users = wallet.users;
+      if (wallet.reviews) app.reviews = wallet.reviews;
+      if (wallet.metaAndroid && wallet.metaAndroid !== 'ok') app.metaAndroid = wallet.metaAndroid;
+      if (wallet.metaIphone && wallet.metaIphone !== 'ok') app.metaIphone = wallet.metaIphone;
+      if (verdictAndroid) app.verdictAndroid = verdictAndroid;
+      if (verdictIphone) app.verdictIphone = verdictIphone;
+      if (scoreAndroid) app.scoreAndroid = compactScore(scoreAndroid);
+      if (scoreIphone) app.scoreIphone = compactScore(scoreIphone);
     }
-    return app;
+    return omitEmptyAppFields(app);
   });
   
   allProductsJson[platform] = {
