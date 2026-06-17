@@ -538,7 +538,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   if (numberVerificationAttachments > 0) {
     if (isVerifierOrAssetsPage) {
       const walletForLink = window.wallets.find(w => w.appId === appId);
-      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts"><li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li></ul>`;
+      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts"><li>${numberVerificationAttachments} script(s) used to reproduce this binary.${walletForLink?.url ? ` See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.` : ''}</li></ul>`;
     } else {
       attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul id="verification-attachments-list" class="attestation-other-attempts"><li>Loading scripts...</li></ul>`;
     }
