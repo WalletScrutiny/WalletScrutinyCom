@@ -7,7 +7,7 @@ const { spawn } = require("child_process");
 
 module.exports = (env, argv) => {
   return {
-    devtool: 'source-map',
+    devtool: argv.mode === 'production' ? false : 'source-map',
     entry: {
       // Do not change the order of the entries
       jquery: [
