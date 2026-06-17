@@ -113,6 +113,8 @@ Existing events only; do not use for new registrations.
 }
 ```
 
+The `x` tags are a **join key** to the registered asset, not a reproducibility measurement: list the official **download** hash(es) the asset was registered under (the same values shown on the asset registration). Do not use the hash of your locally built artifact. For multi-file assets (kind 9401), include every file hash. Per-file comparison results and content digests belong in the event `content` and `output-file` tags, not here.
+
 * file-attachment - event_id of the event containing the file used to reproduce the binary (see below)
 * output-file - hash of the output logs of the reproduction process, or asciicast file, or diffoscope file, etc.
 
