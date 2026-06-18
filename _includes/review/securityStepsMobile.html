@@ -15,10 +15,6 @@
 {% endif %}
 {% assign has_android = page.android.appId %}
 {% assign has_iphone = page.iphone.appId %}
-{% assign has_both = false %}
-{% if has_android and has_iphone %}
-  {% assign has_both = true %}
-{% endif %}
 
 <div class="steps linked">
   {% include /review/steps/developerMobile.html %}
@@ -31,7 +27,7 @@
     {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
   {% endif %}
 
-  {% if has_both %}
+  {% if has_android and has_iphone %}
   <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
     <div class="mobile-platform-scope__header">
       <div class="mobile-platform-tabs__nav" role="tablist" aria-label="Platform-specific review">
