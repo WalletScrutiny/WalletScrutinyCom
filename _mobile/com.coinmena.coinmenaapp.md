@@ -30,9 +30,9 @@ iphone:
   idd: 1573112964
   appCountry: us
   released: 2021-09-26
-  updated: 2026-05-24
-  version: 3.6.0
-  reviews: 19
+  updated: 2026-06-17
+  version: 3.7.0
+  reviews: 20
   icon: com.coinmena.coinmenaapp.jpg
   meta: ok
   verdict: custodial

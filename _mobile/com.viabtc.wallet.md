@@ -41,7 +41,7 @@ iphone:
   icon: com.viabtc.ViaWallet.jpg
   meta: ok
   verdict: nosource
-  developerName: Coinex Global Limited
+  developerName: Viabtc Technology Limited
 
 ---
 

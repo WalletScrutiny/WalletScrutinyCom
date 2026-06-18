@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-04-14
   version: 8.66.1
-  reviews: 542
+  reviews: 545
   icon: com.iqoption.jpg
   meta: ok
   verdict: nosendreceive

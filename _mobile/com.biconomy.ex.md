@@ -21,7 +21,7 @@ android:
   released: 2020-01-14
   updated: 2026-06-06
   version: 2.4.12
-  reviews: 159
+  reviews: 158
   icon: com.biconomy.ex.png
   meta: ok
   verdict: custodial

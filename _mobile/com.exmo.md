@@ -20,8 +20,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-11-12
-  updated: 2026-05-21
-  version: 3.87.0
+  updated: 2026-06-17
+  version: 3.87.2
   reviews: 96
   icon: com.exmo.png
   meta: ok

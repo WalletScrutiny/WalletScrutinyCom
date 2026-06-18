@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-13
-  updated: 2026-04-28
-  version: 8.7.1
+  updated: 2026-06-17
+  version: 8.7.3
   reviews: 25
   icon: br.com.gorilainvest.mobileapp.jpg
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1447950043'
   appCountry: us
   released: 2019-01-27
-  updated: 2026-05-01
-  version: 8.7.1
+  updated: 2026-06-17
+  version: 8.7.3
   reviews: 234
   icon: br.com.gorilainvest.mobileapp.jpg
   meta: ok

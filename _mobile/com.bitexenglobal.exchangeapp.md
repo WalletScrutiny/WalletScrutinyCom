@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-06-13
-  version: '2.21'
+  version: '2.22'
   icon: com.bitexenglobal.exchangeapp.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: '1634643482'
   appCountry: az
   released: 2022-09-30
-  updated: 2026-06-04
-  version: '2.26'
+  updated: 2026-06-16
+  version: '2.27'
   reviews: 1
   icon: com.bitexenglobal.exchangeapp.jpg
   meta: ok

@@ -19,9 +19,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-06-26
-  updated: 2026-05-22
-  version: 2026.05.13
-  reviews: 112
+  updated: 2026-06-16
+  version: 2026.06.11
+  reviews: 111
   icon: com.digifinex.app.png
   meta: ok
   verdict: custodial

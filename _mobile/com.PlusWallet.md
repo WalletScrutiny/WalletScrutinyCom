@@ -16,7 +16,7 @@ android:
   released: 2023-10-06
   updated: 2026-04-08
   version: 5.7.9
-  reviews: 72
+  reviews: 73
   icon: com.PlusWallet.png
   meta: ok
   verdict: nosource

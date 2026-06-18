@@ -6,7 +6,7 @@ redirect_from:
 - /iphone/credit.surge.app/
 android:
   appId: credit.surge.app
-  users: 100
+  users: 500
   appCountry: us
   released: 2026-04-08
   updated: 2026-06-12

@@ -31,11 +31,11 @@ iphone:
   idd: '1459364947'
   appCountry: us
   released: 2019-05-21
-  updated: 2023-08-31
-  version: 1.71.1
+  updated: 2026-06-17
+  version: 2.1.5
   reviews: 115
   icon: com.ownrwallet.wallet.jpg
-  meta: obsolete
+  meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU
 

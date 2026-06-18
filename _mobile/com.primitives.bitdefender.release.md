@@ -11,7 +11,7 @@ android:
   updated: 2022-06-20
   version: 1.0-RELEASE
   icon: com.primitives.bitdefender.release.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Primitives
 

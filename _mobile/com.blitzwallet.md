@@ -21,8 +21,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-09-29
-  updated: 2026-05-23
-  version: 0.7.10
+  updated: 2026-06-14
+  version: 0.7.11
   icon: com.blitzwallet.png
   meta: ok
   verdict: sourceavailable

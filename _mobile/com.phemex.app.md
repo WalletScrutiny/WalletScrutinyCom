@@ -22,9 +22,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-02-19
-  updated: 2026-06-03
-  version: 5.19.3
-  reviews: 1472
+  updated: 2026-06-04
+  version: 5.20.0
+  reviews: 1471
   icon: com.phemex.app.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2020-02-20
   updated: 2026-06-05
   version: 5.20.0
-  reviews: 2741
+  reviews: 2745
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

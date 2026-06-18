@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2019-08-26
-  updated: 2026-05-14
-  version: 3.0.55
+  updated: 2026-06-17
+  version: 3.0.56
   icon: com.teroxx.png
   meta: ok
   verdict: custodial
@@ -25,8 +25,8 @@ iphone:
   idd: '1476828111'
   appCountry: us
   released: 2019-09-06
-  updated: 2026-05-15
-  version: 3.0.49
+  updated: 2026-06-18
+  version: 3.0.50
   reviews: 1
   icon: Teroxx.jpg
   meta: ok

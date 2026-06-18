@@ -11,7 +11,7 @@ iphone:
   released: 2024-10-28
   updated: 2026-06-15
   version: 3.11.16
-  reviews: 55
+  reviews: 56
   icon: com.zmexglobal.app.jpg
   meta: ok
   verdict: wip

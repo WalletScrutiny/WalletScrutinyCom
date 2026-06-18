@@ -29,7 +29,7 @@ iphone:
   released: 2021-06-10
   updated: 2026-05-15
   version: 5.11.1
-  reviews: 243
+  reviews: 244
   icon: nl.knaken.ios.jpg
   meta: ok
   verdict: custodial

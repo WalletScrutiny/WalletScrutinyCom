@@ -19,7 +19,7 @@ android:
   released: 2019-07-06
   updated: 2026-06-11
   version: 4.04.0
-  reviews: 7438
+  reviews: 7557
   icon: cn.com.vau.png
   meta: ok
   verdict: nosendreceive
@@ -29,8 +29,8 @@ iphone:
   idd: 1457929724
   appCountry: ph
   released: 2019-07-20
-  updated: 2026-06-15
-  version: 4.04.0
+  updated: 2026-06-17
+  version: 4.04.1
   reviews: 77
   icon: com.vttech.VantageFX.jpg
   meta: ok

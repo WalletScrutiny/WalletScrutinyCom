@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-06-05
   version: 4.33.1
-  reviews: 2
+  reviews: 3
   icon: de.bisonapp.png
   meta: ok
   verdict: custodial

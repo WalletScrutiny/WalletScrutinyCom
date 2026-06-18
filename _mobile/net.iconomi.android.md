@@ -21,7 +21,7 @@ android:
   released: 2017-10-17
   updated: 2026-02-25
   version: 4.1.3
-  reviews: 171
+  reviews: 172
   icon: net.iconomi.android.png
   meta: ok
   verdict: custodial

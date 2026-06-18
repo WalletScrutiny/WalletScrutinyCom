@@ -19,7 +19,7 @@ android:
   released: 2016-03-31
   updated: 2026-06-08
   version: 4.12.80
-  reviews: 1112
+  reviews: 1111
   icon: com.wirex.png
   meta: ok
   verdict: custodial

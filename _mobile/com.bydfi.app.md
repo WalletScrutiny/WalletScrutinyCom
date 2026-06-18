@@ -24,7 +24,7 @@ android:
   released: 2023-01-20
   updated: 2026-06-09
   version: 3.9.7
-  reviews: 433
+  reviews: 432
   icon: com.bydfi.app.png
   meta: ok
   verdict: custodial

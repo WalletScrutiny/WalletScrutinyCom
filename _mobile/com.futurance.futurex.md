@@ -31,8 +31,8 @@ iphone:
   idd: '1583183728'
   appCountry: tr
   released: 2021-10-27
-  updated: 2026-06-12
-  version: 5.9.2
+  updated: 2026-06-17
+  version: 5.9.3
   reviews: 135
   icon: com.futurance.futurex.jpg
   meta: ok

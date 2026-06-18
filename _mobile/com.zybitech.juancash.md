@@ -35,7 +35,7 @@ iphone:
   version: 2.0.4
   reviews: 57
   icon: com.zybitechinc.juanworld.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ZYBI TECH, INC.
 

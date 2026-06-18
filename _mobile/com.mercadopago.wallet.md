@@ -1,6 +1,6 @@
 ---
 wsId: mercadopago
-title: 'Mercado Pago: banco digital'
+title: 'Mercado Pago: Banco Digital'
 date: 2021-12-26
 authors:
 - leo
@@ -17,9 +17,9 @@ android:
   users: 100000000
   appCountry: br
   released: 2014-12-09
-  updated: 2026-06-12
-  version: 2.439.5
-  reviews: 1091079
+  updated: 2026-06-17
+  version: 2.440.5
+  reviews: 1091457
   icon: com.mercadopago.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 925436649
   appCountry: br
   released: 2014-12-17
-  updated: 2026-06-10
-  version: 2.440.1
-  reviews: 2501342
+  updated: 2026-06-17
+  version: 2.441.0
+  reviews: 2501613
   icon: com.mercadopago.MercadoPago.jpg
   meta: ok
   verdict: nosendreceive

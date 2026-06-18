@@ -18,9 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-07
-  updated: 2026-06-08
-  version: 3.1.2
-  reviews: 41
+  updated: 2026-06-16
+  version: 3.2.0
+  reviews: 42
   icon: com.oobit.png
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: '1598882898'
   appCountry: br
   released: 2022-02-05
-  updated: 2026-06-09
-  version: 3.1.2
+  updated: 2026-06-18
+  version: 3.2.0
   reviews: 970
   icon: com.oobit.jpg
   meta: ok

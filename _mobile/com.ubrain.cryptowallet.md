@@ -11,7 +11,7 @@ android:
   updated: 2023-04-18
   version: '1.1'
   icon: com.ubrain.cryptowallet.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Mitul Bhadeshiya
 

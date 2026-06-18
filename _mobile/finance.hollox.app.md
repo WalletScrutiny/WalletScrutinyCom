@@ -30,11 +30,11 @@ iphone:
   idd: '6444396340'
   appCountry: us
   released: 2022-11-21
-  updated: 2022-11-22
-  version: '1.0'
+  updated: 2026-06-18
+  version: 9.5.0
   reviews: 30
   icon: finance.hollox.jpg
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
 

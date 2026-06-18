@@ -19,8 +19,8 @@ android:
   users: 50000
   appCountry: us
   released: 2025-10-03
-  updated: 2026-06-03
-  version: 0.7.60
+  updated: 2026-06-15
+  version: 0.7.61
   icon: io.rayyo.png
   meta: ok
   verdict: nosource
@@ -30,8 +30,8 @@ iphone:
   idd: '6448856707'
   appCountry: mx
   released: 2024-04-22
-  updated: 2026-06-03
-  version: 0.7.60
+  updated: 2026-06-16
+  version: 0.7.61
   reviews: 36
   icon: io.rayyo.jpg
   meta: ok

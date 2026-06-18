@@ -43,7 +43,7 @@ iphone:
   released: 2015-12-14
   updated: 2026-06-04
   version: 6.28.0
-  reviews: 488
+  reviews: 490
   icon: com.coinspace.wallet.jpg
   meta: ok
   verdict: sourceavailable

@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2022-09-20
   updated: 2026-06-08
-  version: 4.3.7
+  version: 4.3.8
   reviews: 33
   icon: com.tapbit.android.png
   meta: ok

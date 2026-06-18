@@ -33,7 +33,7 @@ iphone:
   released: 2018-06-05
   updated: 2026-06-05
   version: 7.6.0
-  reviews: 476
+  reviews: 478
   icon: com.bitrefill.bitrefill.jpg
   meta: ok
   verdict: custodial

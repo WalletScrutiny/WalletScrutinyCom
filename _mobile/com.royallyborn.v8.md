@@ -23,7 +23,7 @@ android:
   version: 1.2.5
   reviews: 17
   icon: com.royallyborn.v8.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: 8v.com
 

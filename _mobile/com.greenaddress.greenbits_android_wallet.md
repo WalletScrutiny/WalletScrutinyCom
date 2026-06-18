@@ -32,7 +32,7 @@ android:
   appCountry: us
   released: 2015-01-01
   updated: 2026-06-04
-  version: 5.4.0
+  version: 5.5.0
   reviews: 150
   icon: com.greenaddress.greenbits_android_wallet.jpg
   signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
@@ -47,9 +47,9 @@ iphone:
   idd: 1402243590
   appCountry: us
   released: 2019-03-22
-  updated: 2026-06-08
-  version: 5.5.0
-  reviews: 1171
+  updated: 2026-06-17
+  version: 5.5.1
+  reviews: 1173
   icon: io.blockstream.green.jpg
   meta: ok
   verdict: sourceavailable

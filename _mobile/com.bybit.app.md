@@ -23,7 +23,7 @@ android:
   released: 2019-10-31
   updated: 2026-06-02
   version: 5.19.0
-  reviews: 7202
+  reviews: 7200
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2020-01-06
   updated: 2026-06-12
   version: 5.19.10
-  reviews: 46825
+  reviews: 46852
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

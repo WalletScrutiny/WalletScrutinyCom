@@ -12,7 +12,7 @@ android:
   released: 2021-06-28
   updated: 2026-06-09
   version: '5.24'
-  reviews: 275
+  reviews: 274
   icon: com.suncrypto.in.png
   meta: ok
   verdict: custodial

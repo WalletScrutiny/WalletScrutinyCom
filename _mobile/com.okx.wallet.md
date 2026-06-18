@@ -13,7 +13,7 @@ android:
   users: 500000
   appCountry: us
   released: 2025-03-21
-  updated: 2026-06-09
+  updated: 2026-06-15
   version: 6.175.0
   reviews: 48
   icon: com.okx.wallet.png

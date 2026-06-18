@@ -30,9 +30,9 @@ iphone:
   idd: '1659648196'
   appCountry: us
   released: 2025-04-03
-  updated: 2026-06-04
-  version: 1.11.38
-  reviews: 113
+  updated: 2026-06-15
+  version: 1.11.39
+  reviews: 116
   icon: money.boku.ios.jpg
   meta: ok
   verdict: nosendreceive

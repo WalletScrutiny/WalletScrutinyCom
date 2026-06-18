@@ -1,5 +1,5 @@
 ---
-title: 'MEXC: Buy Bitcoin BTC & Crypto'
+title: 'MEXC: Buy Bitcoin & Crypto'
 date: 2021-08-21
 authors:
 - danny
@@ -16,9 +16,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-07-23
-  updated: 2026-06-11
-  version: 6.61.1
-  reviews: 3054
+  updated: 2026-06-17
+  version: 6.62.1
+  reviews: 3057
   icon: com.mexcpro.client.png
   meta: ok
   verdict: custodial

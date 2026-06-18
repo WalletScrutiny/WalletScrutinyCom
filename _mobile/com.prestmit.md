@@ -19,7 +19,7 @@ android:
   released: 2021-04-13
   updated: 2026-06-11
   version: 7.2.493
-  reviews: 869
+  reviews: 870
   icon: com.prestmit.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-08-20
   updated: 2026-06-04
   version: 7.2.492
-  reviews: 7162
+  reviews: 7176
   icon: com.prestmit.app.jpg
   meta: ok
   verdict: nosendreceive

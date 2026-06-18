@@ -40,8 +40,8 @@ iphone:
   idd: '6448712670'
   appCountry: us
   released: 2023-07-17
-  updated: 2026-06-05
-  version: '2.79'
+  updated: 2026-06-15
+  version: '2.89'
   reviews: 357
   icon: com.gemwallet.ios.jpg
   meta: ok

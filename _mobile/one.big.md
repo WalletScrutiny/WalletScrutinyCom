@@ -20,7 +20,7 @@ android:
   released: 2019-10-30
   updated: 2026-05-29
   version: 2.6.510
-  reviews: 56
+  reviews: 55
   icon: one.big.png
   meta: ok
   verdict: custodial

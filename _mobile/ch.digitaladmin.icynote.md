@@ -12,7 +12,7 @@ android:
   updated: 2025-09-02
   version: 1.0.3
   icon: ch.digitaladmin.icynote.png
-  meta: fewusers
+  meta: removed
   verdict: wip
   developerName: Digital Admin Sàrl
 

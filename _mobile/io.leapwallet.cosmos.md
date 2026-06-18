@@ -20,7 +20,7 @@ android:
   version: 0.77.0
   reviews: 99
   icon: io.leapwallet.cosmos.png
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Leap Wallet
 iphone:

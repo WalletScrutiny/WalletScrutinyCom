@@ -1,20 +1,3 @@
-2026-06-01:
-- _mobile/ch.digitaladmin.icynote
-- _mobile/com.primitives.bitdefender.release
-- _mobile/com.prod.aspen
-- _mobile/com.royallyborn.v8
-- _mobile/com.thein1.app
-- _mobile/com.ubrain.cryptowallet
-- _mobile/io.leapwallet.cosmos
-- _mobile/com.elephantslab.probos
-- _mobile/com.exmo
-- _mobile/com.frt.globe
-- _mobile/com.mobile.kyc
-- _mobile/com.production.bitnovawallets
-- _mobile/com.ruiebit.bitcoinapp
-- _mobile/pro.huobi
-2026-06-02:
-- _mobile/com.earnbit.app.exchange
 2026-06-04:
 - _mobile/com.t21.coinup
 - _mobile/mudra.exchange
@@ -35,3 +18,8 @@
 - _mobile/com.koinkoin
 - _mobile/com.ogpay
 - _mobile/finance.hollox.app
+2026-06-18:
+- _mobile/app.backpack.mobile
+- _mobile/com.bitstack.app
+- _mobile/com.cryptotrading.inx
+- _mobile/com.itm.ww.Todaysapp

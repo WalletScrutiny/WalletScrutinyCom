@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-01
-  updated: 2026-06-02
-  version: 1.79.1
+  updated: 2026-06-10
+  version: 1.80.0
   reviews: 30
   icon: com.hashkeypro.exchange.png
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: '6479636139'
   appCountry: ph
   released: 2024-04-19
-  updated: 2026-06-03
-  version: 1.67.0
+  updated: 2026-06-16
+  version: 1.68.0
   reviews: 10
   icon: com.hashkey.global.jpg
   meta: ok

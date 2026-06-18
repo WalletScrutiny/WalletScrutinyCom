@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-03-17
-  updated: 2026-06-10
-  version: 1.10.49
+  updated: 2026-06-17
+  version: 1.10.51
   reviews: 136
   icon: wannabit.io.cosmostaion.png
   meta: ok
@@ -35,8 +35,8 @@ iphone:
   idd: '1459830339'
   appCountry: us
   released: 2019-04-17
-  updated: 2026-06-10
-  version: v1.10.47
+  updated: 2026-06-17
+  version: v1.10.48
   reviews: 223
   icon: io.wannabit.cosmostation.jpg
   meta: ok

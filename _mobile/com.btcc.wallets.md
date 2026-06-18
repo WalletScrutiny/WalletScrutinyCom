@@ -28,7 +28,7 @@ iphone:
   released: 2023-11-20
   updated: 2026-01-29
   version: 3.5.40
-  reviews: 31
+  reviews: 32
   icon: com.btcc.wallets.jpg
   meta: ok
   verdict: custodial

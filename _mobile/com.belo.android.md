@@ -23,7 +23,7 @@ android:
   released: 2021-08-23
   updated: 2026-06-10
   version: 7.20.2
-  reviews: 68
+  reviews: 67
   icon: com.belo.android.png
   meta: ok
   verdict: custodial

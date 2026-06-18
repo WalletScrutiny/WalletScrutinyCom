@@ -19,8 +19,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-09-15
-  updated: 2026-05-28
-  version: 2.19.0
+  updated: 2026-06-16
+  version: 2.20.0
   reviews: 27
   icon: com.oberton.app.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1585434994'
   appCountry: ua
   released: 2021-09-15
-  updated: 2026-05-26
-  version: 3.2.2
+  updated: 2026-06-17
+  version: 3.4.0
   reviews: 8
   icon: io.oberton.jpg
   meta: ok

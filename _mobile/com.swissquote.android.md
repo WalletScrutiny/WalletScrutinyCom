@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   released: 2010-06-17
-  updated: 2026-06-01
+  updated: 2026-06-16
   version: 9.2.0
   reviews: 43
   icon: com.swissquote.android.png
@@ -31,8 +31,8 @@ iphone:
   idd: '285691076'
   appCountry: ph
   released: 2019-02-12
-  updated: 2026-06-05
-  version: 11.30.0
+  updated: 2026-06-15
+  version: 11.31.0
   reviews: 20
   icon: com.swissquote.iphone.jpg
   meta: ok

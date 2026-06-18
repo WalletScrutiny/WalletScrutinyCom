@@ -25,8 +25,8 @@ android:
   appCountry: us
   released: 2020-09-01
   updated: 2026-06-12
-  version: 7.80.0
-  reviews: 6648
+  version: 7.81.0
+  reviews: 6649
   icon: io.metamask.png
   meta: ok
   verdict: sourceavailable
@@ -39,7 +39,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-06-15
   version: 7.81.0
-  reviews: 75275
+  reviews: 75312
   icon: io.metamask.MetaMask.jpg
   meta: ok
   verdict: sourceavailable

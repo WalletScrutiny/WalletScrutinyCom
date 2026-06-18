@@ -33,8 +33,8 @@ iphone:
   idd: '6453759917'
   appCountry: us
   released: 2023-08-14
-  updated: 2026-06-01
-  version: 5.7.13
+  updated: 2026-06-16
+  version: 5.7.14
   reviews: 13
   icon: com.bitvenus.exchange.jpg
   meta: ok

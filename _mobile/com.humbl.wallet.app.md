@@ -32,7 +32,7 @@ iphone:
   released: 2022-07-21
   updated: 2026-04-23
   version: 2.0.5
-  reviews: 490
+  reviews: 489
   icon: com.humbl.wallet.jpg
   meta: ok
   verdict: nosource

@@ -23,7 +23,7 @@ android:
   released: 2022-02-23
   updated: 2026-06-09
   version: 4.5.26
-  reviews: 353
+  reviews: 354
   icon: com.wake.weexprd.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-06-11
   version: 4.5.27
-  reviews: 1917
+  reviews: 1928
   icon: com.wake.weexprd.jpg
   meta: ok
   verdict: custodial

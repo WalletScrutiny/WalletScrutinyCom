@@ -26,7 +26,7 @@ android:
   released: 2023-04-28
   updated: 2025-12-10
   version: 2.3.0
-  reviews: 5
+  reviews: 4
   icon: com.defexa.wallet.png
   meta: ok
   verdict: nosource
