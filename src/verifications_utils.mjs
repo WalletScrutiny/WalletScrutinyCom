@@ -24,7 +24,7 @@ import {
   getAssetFileEntries,
   getAssetIndexHashes,
 } from './asset-utils.mjs';
-import { formatDate } from "./assets-table-utils.js";
+import { formatDate } from './format-utils.mjs';
 import {decode} from "light-bolt11-decoder"
 
 // Configure DOMPurify to be more restrictive

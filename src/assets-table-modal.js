@@ -1,5 +1,6 @@
 import { verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
-import { formatDate, formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
+import { formatDate } from "./format-utils.mjs";
+import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { marked } from 'marked';
 import { renderCommentsSection } from './assets-table-comments.js';
