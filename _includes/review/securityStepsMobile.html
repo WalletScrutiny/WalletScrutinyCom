@@ -23,11 +23,11 @@
 <div class="steps linked">
   {% include /review/steps/developerMobile.html %}
   {% include /review/steps/releasesMobile.html %}
-  {% if verdict and meta %}
+  {% if verdict %}
     {% include /review/steps/custody.html platform=custody_platform meta=meta verdict=verdict %}
   {% endif %}
   {% include /review/steps/sourceCode.html verdict=verdict %}
-  {% if verdict and meta %}
+  {% if verdict %}
     {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
   {% endif %}
 

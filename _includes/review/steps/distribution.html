@@ -7,7 +7,7 @@
   {% assign review_repository = page.repository %}
 {% endif %}
 {% assign has_github_repo = false %}
-{% if review_repository != '' and review_repository contains 'github.com' %}
+{% if review_repository contains 'github.com' %}
   {% assign has_github_repo = true %}
 {% endif %}
 
@@ -55,10 +55,7 @@
         </div>
       {% endif %}
   </div>
-  {% if page.tooltip.distribution %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
+  <div class="tooltip-element{% if page.tooltip.distribution %} exists{% endif %}">
     <i class="info-circle">
       <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
     </i>

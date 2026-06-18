@@ -17,10 +17,7 @@
     {% endif %}
     </p>
   </div>
-  {% if page.tooltip.releases %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
+  <div class="tooltip-element{% if page.tooltip.releases %} exists{% endif %}">
     <i class="info-circle">
       <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
     </i>

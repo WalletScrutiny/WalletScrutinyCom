@@ -11,10 +11,7 @@
   </div>
   <div class="data">
   </div>
-  {% if page.tooltip.os %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
+  <div class="tooltip-element{% if page.tooltip.os %} exists{% endif %}">
     <i class="info-circle">
       <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
     </i>

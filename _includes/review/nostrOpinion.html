@@ -4,7 +4,7 @@
 
 {% assign nostr_collection = include.opinionSubject | default: page.collection %}
 {% assign nostr_app_id = include.opinionAppId | default: page.appId %}
-{% if page.url and nostr_app_id %}
+{% if nostr_app_id %}
 <nostr-opinion
   subject="{{ nostr_collection }}/{{ nostr_app_id }}"
   opinionHeader="******** Opinion about {{ page.title }} ({{ nostr_collection }})"

@@ -10,9 +10,6 @@
 
 {% if seo_title %}
   {% assign seo_title = seo_title | strip_newlines | escape_once %}
-{% endif %}
-
-{% if seo_title %}
   {% assign url_path_segments = page.url | split: "/" %}
   {% assign url_first_path_segment = url_path_segments[1] %}
   {% if url_first_path_segment == "mobile" or url_first_path_segment == "android" or url_first_path_segment == "iphone" %}
