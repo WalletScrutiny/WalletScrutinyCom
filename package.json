@@ -43,6 +43,7 @@
   "scripts": {
     "dev": "npm run clean_assets && npm run precompute && webpack --mode development --watch",
     "build": "npm run clean_assets && npm run precompute && webpack --mode production --no-watch && npm run compress",
+    "analyze": "webpack --mode production --no-watch --env analyze --output-path dist",
     "precompute": "node scripts/precompute-wallet-data.mjs",
     "clean_assets": "jekyll clean && rm -rf dist/*",
     "compress": "npm run minifyJs && npm run minifyCss && npm run brotlifyHtml && npm run brotlifyOthers",
