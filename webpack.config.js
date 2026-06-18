@@ -9,6 +9,12 @@ module.exports = (env, argv) => {
   const analyze = Boolean(env && env.analyze);
 
   return {
+    cache: {
+      type: 'filesystem',
+      buildDependencies: {
+        config: [__filename],
+      },
+    },
     devtool: argv.mode === 'production' ? false : 'source-map',
     entry: {
       // Do not change the order of the entries
@@ -138,10 +144,9 @@ module.exports = (env, argv) => {
             }
 
             if (argv.mode === 'development') {
-              // Development build: just launch jekyll server
-              console.log("🚀 Launching Jekyll server...");
-    
-              const jekyll = spawn("bundle", [
+              console.log("Launching Jekyll server...");
+
+              spawn("bundle", [
                 "exec",
                 "jekyll",
                 "serve",
@@ -151,16 +156,6 @@ module.exports = (env, argv) => {
                 "--config",
                 "_config.yml,_config.dev.yml",
                 "--incremental",
-              ], {
-                stdio: "inherit",
-                shell: true
-              });
-            } else {
-              // Production build: build jekyll and then compress
-              spawn("bundle", [
-                "exec",
-                "jekyll",
-                "build",
               ], {
                 stdio: "inherit",
                 shell: true
