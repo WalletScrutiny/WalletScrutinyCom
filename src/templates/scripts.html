@@ -10,37 +10,73 @@
     instead.
 -->
 
-<script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
+<%
+const bundlePath = (prefix) => {
+  const file = htmlWebpackPlugin.files.js.find((entry) => {
+    const name = entry.replace(/^\//, '').split('/').pop();
+    return name.startsWith(prefix + '.');
+  });
+  return file ? file.replace(/^\//, '') : '';
+};
+
+const domSanitizationBundle = bundlePath('dom_sanitization');
+const verificationsDataBundle = bundlePath('verifications_data');
+const verificationsUiBundle = bundlePath('verifications_ui');
+const shareUiBundle = bundlePath('share_ui');
+const jqueryBundle = bundlePath('jquery');
+const fontAwesomeBundle = bundlePath('font_awesome');
+%>
+
+<script type="text/javascript" src="{{ base_path }}/dist/<%= domSanitizationBundle %>"></script>
+
+{% assign load_verifications_ui = false %}
+{% assign load_share_ui = false %}
+{% if page.layout contains "review" %}
+  {% assign load_verifications_ui = true %}
+{% elsif page.path contains "attestations" %}
+  {% unless page.path contains "attestations/info" %}
+    {% assign load_verifications_ui = true %}
+  {% endunless %}
+{% elsif page.share %}
+  {% assign load_share_ui = true %}
+{% endif %}
 
 <script>
-  // verifications_data must load and run before verifications_ui (webpack dependOn is not
-  // enforced by the browser when both script tags are appended at once). Preload the UI
-  // bundle so it can download in parallel while data executes.
-  const verificationsDataSrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
-  const verificationsUISrc = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+  const verificationsDataSrc = '{{ base_path }}/dist/<%= verificationsDataBundle %>';
+  const verificationsUiSrc = '{{ base_path }}/dist/<%= verificationsUiBundle %>';
+  const shareUiSrc = '{{ base_path }}/dist/<%= shareUiBundle %>';
+  const loadVerificationsUi = {% if load_verifications_ui %}true{% else %}false{% endif %};
+  const loadShareUi = {% if load_share_ui %}true{% else %}false{% endif %};
 
-  const verificationsUiPreload = document.createElement('link');
-  verificationsUiPreload.rel = 'preload';
-  verificationsUiPreload.as = 'script';
-  verificationsUiPreload.href = verificationsUISrc;
-  document.head.appendChild(verificationsUiPreload);
+  function appendScript(src, onload) {
+    const script = document.createElement('script');
+    if (onload) {
+      script.onload = onload;
+    }
+    script.src = src;
+    document.body.appendChild(script);
+    return script;
+  }
 
-  const verificationsScript = document.createElement('script');
+  if (loadVerificationsUi) {
+    const verificationsUiPreload = document.createElement('link');
+    verificationsUiPreload.rel = 'preload';
+    verificationsUiPreload.as = 'script';
+    verificationsUiPreload.href = verificationsUiSrc;
+    document.head.appendChild(verificationsUiPreload);
+  }
 
-  verificationsScript.onload = () => {
+  const startVerificationsData = () => {
     window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
 
     (async function() {
-      // Start NDK in parallel; getAllAssetInformation reads IDB first without waiting.
       const ndkConnectPromise = nostrConnect();
 
-      // Load with cache - this will fire the event IMMEDIATELY with cached data
-      // then update in background when fresh data arrives
       let loadedFromCache = false;
       window.allAssetInformation = await getAllAssetInformation({
         months: 6,
         onCachedDataLoaded: (cachedData) => {
-          console.log('🚀 Cached data loaded immediately!', cachedData);
+          console.log('Cached data loaded immediately!', cachedData);
           loadedFromCache = true;
           window.allAssetInformation = cachedData;
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
@@ -49,14 +85,11 @@
 
       await ndkConnectPromise.catch(() => {});
 
-      // Now fire the event with fresh data if it wasn't fired before, or if it's the verifiers page
       if (!loadedFromCache || {% if page.url == "/verifiers/" %}true{% else %}false{% endif %}) {
         window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
       }
       loadDraftVerificationsNotifications();
 
-      // Start background sync after page is idle
-      // Wait 10s on most pages, immediately on verification pages
       {% if page.url contains "/mobile/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
         backgroundSyncEvents();
       {% else %}
@@ -66,21 +99,23 @@
       {% endif %}
     })();
 
-    const verificationsUIScript = document.createElement('script');
-    verificationsUIScript.onload = () => {
+    const onUiLoaded = () => {
       window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
     };
-    verificationsUIScript.src = verificationsUISrc;
-    document.body.appendChild(verificationsUIScript);
+
+    if (loadVerificationsUi) {
+      appendScript(verificationsUiSrc, onUiLoaded);
+    } else if (loadShareUi) {
+      appendScript(shareUiSrc, onUiLoaded);
+    }
   };
 
-  verificationsScript.src = verificationsDataSrc;
-  document.body.appendChild(verificationsScript);
+  appendScript(verificationsDataSrc, startVerificationsData);
 </script>
 
 {% include_cached scripts-base.html %}
-<script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
-<script type="text/javascript" defer src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[4] %>"></script>
+<script type="text/javascript" src="{{ base_path }}/dist/<%= jqueryBundle %>"></script>
+<script type="text/javascript" defer src="{{ base_path }}/dist/<%= fontAwesomeBundle %>"></script>
 
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>

@@ -24,6 +24,12 @@ module.exports = (env, argv) => {
         ],
         dependOn: ['dom_sanitization'],
       },
+      share_ui: {
+        import: [
+          './src/renderShareButton.js',
+          './src/renderNostrButton.js',
+        ],
+      },
       verifications_ui: {
         import: [
           './src/drag-and-drop-utils.js',
