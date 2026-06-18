@@ -5,9 +5,6 @@ summary: "WalletScrutiny helps everyday bitcoin users verify whether or not thei
 excerpt: "Not everyone is a developer. Not everyone has to be."
 author_profile: true
 ---
-
-{% include base_path %}
-
 <div class="title-wrapper">
 
 {% include homepage/wallet-filters.html %}

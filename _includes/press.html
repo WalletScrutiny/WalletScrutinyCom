@@ -1,4 +1,3 @@
-{% include base_path %}
 {% if include.full %}
 {% assign truncatedStyle = '' %}
 {% assign truncatedClass = '' %}
@@ -55,7 +54,7 @@ format: {{ p.format }}
 {{ p.content | strip_html }}">
   <div>
     <span class="press-img"
-      style="background-image:url({{ base_path }}/images/press/{{ p.image }});"
+      style="background-image:url({{ site.baseurl }}/images/press/{{ p.image }});"
       alt="{{ p.platform }} {{ p.publicationName }}"
       ></span>
     <span class="press-summary">

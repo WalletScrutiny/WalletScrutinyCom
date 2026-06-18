@@ -2,9 +2,6 @@
 permalink: /publications/
 author_profile: true
 ---
-
-{% include base_path %}
-
 <h2 class="section-label">As featured on:</h2>
 
 {% include press.html full="true" %}

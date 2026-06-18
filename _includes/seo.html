@@ -1,6 +1,3 @@
-{% include base_path %}
-{% include base_url %}
-
 <!-- begin SEO -->
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
@@ -34,12 +31,12 @@
 <title>{{ seo_title | default: site.title | escape }}</title>
 
 {% if site.og_image %}
-  {% assign og_image = site.og_image | prepend: "/images/" | prepend: base_url %}
+  {% assign og_image = site.og_image | prepend: "/images/" | prepend: site.url %}
 {% endif %}
 {% if page.collection == 'mobile' %}
   {% assign og_app_id = page.android.appId | default: page.iphone.appId | default: page.appId %}
   {% if og_app_id %}
-    {% assign og_image = base_url | append: "/images/social/android/" | append: og_app_id | append: ".png" %}
+    {% assign og_image = site.url | append: "/images/social/android/" | append: og_app_id | append: ".png" %}
   {% endif %}
   {% assign seo_android_verdict = page.android.verdict %}
   {% assign seo_iphone_verdict = page.iphone.verdict %}
@@ -49,7 +46,7 @@
     {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: seo_android_verdict | default: seo_iphone_verdict | append: ")" %}
   {% endif %}
 {% elsif page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' or page.collection == 'desktop' %}
-  {% assign og_image = base_url | append: "/images/social/" | append: page.collection | append: "/" | append: page.appId | append: ".png" %}
+  {% assign og_image = site.url | append: "/images/social/" | append: page.collection | append: "/" | append: page.appId | append: ".png" %}
   {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: page.verdict | append: ")" %}
 {% else %}
   {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
@@ -94,7 +91,7 @@
   {% else %}
     <meta name="twitter:card" content="summary">
     {% if page.header.image %}
-    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_url }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: site.url }}{% endif %}">
     {% endif %}
   {% endif %}
 

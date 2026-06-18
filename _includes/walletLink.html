@@ -12,8 +12,8 @@
 {% endunless %}
 
 {% if w.icon_name != "" %}
-{% assign icon = base_path | append: '/images/wIcons/' | append: w.icon_platform | append: '/tiny/' | append: w.icon_name %}
+{% assign icon = site.baseurl | append: '/images/wIcons/' | append: w.icon_platform | append: '/tiny/' | append: w.icon_name %}
 {% else %}
-{% assign icon = base_path | append: '/images/tinyNoicon.png' %}
+{% assign icon = site.baseurl | append: '/images/tinyNoicon.png' %}
 {% endif %}
 <span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{ w.url }}">{{ w.title | escape }}</a>{% if include.verdict %}&nbsp;{% include verdictBadge.html verdict=w.verdict type="short" %}{% if w.meta != "ok" %}{% include verdictBadge.html verdict=w.meta type="short" %}{% endif %}{% endif %}{% for feat in w.alertFeatures %}<span class="alert-feature-badge" title="⚠️ {{ feat.short }}: {{ feat.message }}">{{ feat.short }}</span>{% endfor %}</span>

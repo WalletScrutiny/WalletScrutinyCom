@@ -1,8 +1,6 @@
-{% include base_path %}
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/color-thief.umd.js"></script>
 
-<script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
-
-<script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/fewWallets.js"></script>
 <script>
   (function() {
     const script = document.createElement('script');
@@ -10,9 +8,9 @@
       window.allWalletsLoaded = true;
       window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
     };
-    script.src = '{{ base_path }}/allWallets.js';
+    script.src = '{{ site.baseurl }}/allWallets.js';
     (document.body || document.documentElement).appendChild(script);
   })();
 </script>
-<script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
-<script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/walletsJSON.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/walletlist.js"></script>

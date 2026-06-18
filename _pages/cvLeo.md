@@ -4,10 +4,8 @@ title: "CV Leo Wandersleb"
 permalink: /cv/leo/
 author_profile: true
 ---
-
-{% include base_path %}
 <div class="author__avatar">
-<img src="{{ base_path }}/images/leo.jpg" class="author__avatar" alt="photo of Leo Wandersleb">
+<img src="{{ site.baseurl }}/images/leo.jpg" class="author__avatar" alt="photo of Leo Wandersleb">
 </div>
 
 Education
