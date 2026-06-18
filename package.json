@@ -50,7 +50,7 @@
     "clean:full": "bundle exec jekyll clean && npm run clean_dist",
     "clean_assets": "npm run clean_dist",
     "compress": "npm run minifyJs && npm run minifyCss && npm run brotlifyHtml && npm run brotlifyOthers",
-    "minifyJs": "npx foreach-cli -g \"_site/assets/**/*.js\" -g \"_site/*.js\" -i \"_site/**/*.min.js\" -i \"_site/dist/**\" -x \"terser #{path} -o #{path}\"",
+    "minifyJs": "npx foreach-cli -g \"_site/**/*.js\" -i \"_site/**/*.min.js\" -x \"terser #{path} -o #{path}\"",
     "minifyCss": "npx foreach-cli -g \"_site/**/*.css\" -i \"_site/**/*.min.css\" -x \"postcss #{path} --replace\"",
     "brotlifyHtml": "npx brotli-cli compress -q 6 --glob \"_site/**/*.html\"",
     "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\"",
