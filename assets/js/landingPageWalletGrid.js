@@ -24,7 +24,6 @@ function updateWalletGridInputOriginatingFromUI() {
 }
 
 function updateWalletGridInputOriginatingFromURL() {
-  console.log('111111111111');
   const param = (new URL(window.location)).searchParams;
   for (const [key, value] of Object.entries(wfInputTargets)) {
     const urlParam = param.get(key);
