@@ -1,4 +1,9 @@
-import QRCode from 'qrcode';
+let qrcodePromise;
+
+function getQRCode() {
+  qrcodePromise ??= import('qrcode').then((module) => module.default);
+  return qrcodePromise;
+}
 
 function showZapModal({ onClose, setZapped, zapEvent } = {}) {
   const resolveZapEvent = () => zapEvent || window.currentVerification || window.profileEvent;
@@ -246,7 +251,7 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
         <button id="bolt11-copy-btn" title="Copy full invoice">📋</button>
       </p>
     `;
-    if (QRCode) {
+    getQRCode().then((QRCode) => {
       QRCode.toCanvas(
         document.getElementById('zapQRCode'),
         `lightning:${bolt11}`,
@@ -261,9 +266,9 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
       qrCanvas.onclick = () => {
         window.open(`lightning:${bolt11}`, '_blank');
       };
-    } else {
+    }).catch(() => {
       qrDiv.innerHTML += '<p>QRCode lib not loaded</p>';
-    }
+    });
 
     document.getElementById('bolt11-copy-btn').onclick = (e) => {
       e.stopPropagation();

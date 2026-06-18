@@ -3,11 +3,13 @@ const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { spawn } = require("child_process");
-// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = (env, argv) => {
+  const analyze = Boolean(env && env.analyze);
+
   return {
-    devtool: 'source-map',
+    devtool: argv.mode === 'production' ? false : 'source-map',
     entry: {
       // Do not change the order of the entries
       jquery: [
@@ -21,6 +23,12 @@ module.exports = (env, argv) => {
           './src/verifications_utils.mjs',
         ],
         dependOn: ['dom_sanitization'],
+      },
+      share_ui: {
+        import: [
+          './src/renderShareButton.js',
+          './src/renderNostrButton.js',
+        ],
       },
       verifications_ui: {
         import: [
@@ -125,6 +133,10 @@ module.exports = (env, argv) => {
             if (!firstRun) return;
             firstRun = false;
 
+            if (analyze) {
+              return;
+            }
+
             if (argv.mode === 'development') {
               // Development build: just launch jekyll server
               console.log("🚀 Launching Jekyll server...");
@@ -157,7 +169,11 @@ module.exports = (env, argv) => {
           });
         },
       },
-      // new BundleAnalyzerPlugin()
+      ...(analyze ? [new BundleAnalyzerPlugin({
+        analyzerMode: 'static',
+        openAnalyzer: false,
+        reportFilename: 'bundle-report.html',
+      })] : []),
     ]
   }
 };

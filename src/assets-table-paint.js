@@ -4,7 +4,8 @@ import {
   pickScriptBinaryEntry,
 } from "./asset-utils.mjs";
 import { assetBundleRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
-import { formatDate, getStatusText } from "./assets-table-utils.js";
+import { formatDate } from "./format-utils.mjs";
+import { getStatusText } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { mergeBundleAssetRows } from "./assets-table-filters.js";
 import { setAssetTableResponse } from "./assets-table-state.js";

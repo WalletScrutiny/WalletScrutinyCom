@@ -1,6 +1,7 @@
 import DOMPurify from 'dompurify';
 import { verificationDraftKind } from "./nostr-constants.mjs";
-import { formatDate, getAttachmentInfo } from "./assets-table-utils.js";
+import { formatDate } from "./format-utils.mjs";
+import { getAttachmentInfo } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 
 const attachmentDataStore = {};
