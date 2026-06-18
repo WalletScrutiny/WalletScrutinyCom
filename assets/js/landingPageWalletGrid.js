@@ -24,6 +24,7 @@ function updateWalletGridInputOriginatingFromUI() {
 }
 
 function updateWalletGridInputOriginatingFromURL() {
+  console.log('111111111111');
   const param = (new URL(window.location)).searchParams;
   for (const [key, value] of Object.entries(wfInputTargets)) {
     const urlParam = param.get(key);
@@ -310,8 +311,16 @@ window.addEventListener("popstate", () => {
   updateWalletGridInputOriginatingFromURL();
 });
 
-window.addEventListener("load", () => {
+function onAllWalletsLoaded() {
+  isInitializing = false;
+  window.blockScrollingFocus = true;
   updateWalletGridInputOriginatingFromURL();
+}
+
+window.addEventListener("load", () => {
+  if (!window.allWalletsLoaded) {
+    updateWalletGridInputOriginatingFromURL();
+  }
   isInitializing = false;
 });
 
@@ -339,8 +348,8 @@ window.addEventListener('allAssetInformationLoaded', () => {
   updateWalletGridInputOriginatingFromURL();
 });
 
-window.addEventListener("allWalletsLoaded", () => {
-  isInitializing = false;
-  window.blockScrollingFocus = true;
-  updateWalletGridInputOriginatingFromURL();
-});
+window.addEventListener("allWalletsLoaded", onAllWalletsLoaded);
+
+if (window.allWalletsLoaded) {
+  onAllWalletsLoaded();
+}
