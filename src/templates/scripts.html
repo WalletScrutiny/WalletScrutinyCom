@@ -124,6 +124,9 @@ const fontAwesomeBundle = bundlePath('font_awesome');
 {% endif %}
 
 {% unless page.url == "/" %}<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>{% endunless %}
+{% if page.layout == "reviewMobile" %}
+<script type="text/javascript" src="{{ base_path }}/assets/js/mobilePlatformTabs.js"></script>
+{% endif %}
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
 {% endif %}
