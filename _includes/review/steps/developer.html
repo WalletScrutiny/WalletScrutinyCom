@@ -51,15 +51,4 @@
       {% endfor %}
     {% endif %}
   </div>
-  <div class="tooltip-element{% if page.tooltip.developer %} exists{% endif %}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.developer %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.developer | markdownify }}
-    </div>
-  {% endif %}
-  </div>
 </div>

@@ -33,17 +33,6 @@
       </div>
     </div>
   </div>
-  <div class="tooltip-element{% if page.tooltip.appliedMethodology %} exists{% endif %}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-    {% if page.tooltip.appliedMethodology %}
-      <div class="tooltip-payload">
-        <h3></h3>
-        {{ page.tooltip.appliedMethodology | markdownify }}
-      </div>
-    {% endif %}
-  </div>
   <div class="methodology-tests-list">
   {% if include.verdict == 'wip' %}
     {% assign failPoint = failPoint | plus: 1 %}

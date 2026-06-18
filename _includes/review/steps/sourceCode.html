@@ -57,15 +57,4 @@
   </div>
   <div class="data">
   </div>
-  <div class="tooltip-element{% if page.tooltip.source %} exists{% endif %}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.source %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.source | markdownify }}
-    </div>
-  {% endif %}
-  </div>
 </div>

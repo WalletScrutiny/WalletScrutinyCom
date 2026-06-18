@@ -54,13 +54,6 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
-twitter:
-  username               : WalletScrutiny # twitter handle without @
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : logo.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

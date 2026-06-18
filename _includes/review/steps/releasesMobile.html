@@ -17,15 +17,4 @@
     {% endif %}
     </p>
   </div>
-  <div class="tooltip-element{% if page.tooltip.releases %} exists{% endif %}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.releases %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.releases | markdownify }}
-    </div>
-  {% endif %}
-  </div>
 </div>
