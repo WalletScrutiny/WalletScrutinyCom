@@ -1,3 +1,6 @@
 # Develop override settings
 
 environment: development
+
+# Skip legacy redirect_from stubs (~25k extra pages) during local development.
+dev_skip_redirects: true
