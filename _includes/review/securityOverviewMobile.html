@@ -1,4 +1,3 @@
-{% assign wsId = include.wsId %}
 {% assign see_also_app_id = page.android.appId | default: page.iphone.appId %}
 {% assign see_also_platform = 'android' %}
 {% if see_also_app_id == page.iphone.appId and page.android.appId == nil %}
@@ -9,6 +8,6 @@
   <p>We examine wallets starting at the code level and continue all the way up to the finished app that lives on your device. Provided below is an outline of each of these steps along with security tips for you and general test results.</p>
   <div class="spacer"></div>
   {% include /review/securityStepsMobile.html %}
-  {% include /review/seeAlso.html wsId=wsId platform=see_also_platform appId=see_also_app_id %}
+  {% include /review/seeAlso.html wsId=include.wsId platform=see_also_platform appId=see_also_app_id %}
   <div class="spacer x2"></div>
 </div>

@@ -19,13 +19,9 @@
 <div class="steps linked">
   {% include /review/steps/developerMobile.html %}
   {% include /review/steps/releasesMobile.html %}
-  {% if verdict %}
-    {% include /review/steps/custody.html platform=custody_platform meta=meta verdict=verdict %}
-  {% endif %}
+  {% include /review/steps/custody.html platform=custody_platform meta=meta verdict=verdict %}
   {% include /review/steps/sourceCode.html verdict=verdict %}
-  {% if verdict %}
-    {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
-  {% endif %}
+  {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
 
   {% if has_android and has_iphone %}
   <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
