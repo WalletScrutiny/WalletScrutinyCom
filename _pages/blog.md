@@ -30,7 +30,7 @@ permalink: /blog/
     <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
     {% if post.subtitle %}<div class="subtitle">{{ post.subtitle }}</div>{% endif %}
     <div class="excerpt">{{ post.excerpt | strip_html }}</div>
-    {% include /review/byAuthor.html authors=post.authors %}
+    {% include_cached /review/byAuthor.html authors=post.authors %}
     <div><a href="{{ post.url }}">Read more …</a></div>
   </div>
 {% endfor %}
