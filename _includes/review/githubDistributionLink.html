@@ -1,4 +1,6 @@
-{% include /review/assignGithubReleasesUrl.html %}
-{% if github_releases_url != '' %}
-<a title="GitHub Releases" href="{{ github_releases_url }}" class="{% if include.link_class %}{{ include.link_class }}{% else %}link-web subtle{% endif %} distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+{% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
+  {% assign repo_parts = page.repository | split: '?' | first | split: '#' | first | split: '/' %}
+  {% if repo_parts[2] == 'github.com' and repo_parts[3] != '' and repo_parts[4] != '' %}
+<a title="GitHub Releases" href="https://github.com/{{ repo_parts[3] }}/{{ repo_parts[4] }}/releases" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+  {% endif %}
 {% endif %}

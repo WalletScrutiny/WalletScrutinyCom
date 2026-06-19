@@ -1,5 +1,3 @@
-{% include base_path %}
-
 <!-- This file "src/templates/scripts.html" is used to generate the "_includes/scripts.html" file with the
     correct names for the webpack bundles. In the case of the development environment, the bundle names
     are '[name].bundle.min.js', whereas in the production environment, the bundle names are
@@ -18,16 +16,9 @@ const bundlePath = (prefix) => {
   });
   return file ? file.replace(/^\//, '') : '';
 };
-
-const domSanitizationBundle = bundlePath('dom_sanitization');
-const verificationsDataBundle = bundlePath('verifications_data');
-const verificationsUiBundle = bundlePath('verifications_ui');
-const shareUiBundle = bundlePath('share_ui');
-const jqueryBundle = bundlePath('jquery');
-const fontAwesomeBundle = bundlePath('font_awesome');
 %>
 
-<script type="text/javascript" src="{{ base_path }}/dist/<%= domSanitizationBundle %>"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('dom_sanitization') %>"></script>
 
 {% assign load_verifications_ui = false %}
 {% assign load_share_ui = false %}
@@ -42,9 +33,9 @@ const fontAwesomeBundle = bundlePath('font_awesome');
 {% endif %}
 
 <script>
-  const verificationsDataSrc = '{{ base_path }}/dist/<%= verificationsDataBundle %>';
-  const verificationsUiSrc = '{{ base_path }}/dist/<%= verificationsUiBundle %>';
-  const shareUiSrc = '{{ base_path }}/dist/<%= shareUiBundle %>';
+  const verificationsDataSrc = '{{ site.baseurl }}/dist/<%= bundlePath('verifications_data') %>';
+  const verificationsUiSrc = '{{ site.baseurl }}/dist/<%= bundlePath('verifications_ui') %>';
+  const shareUiSrc = '{{ site.baseurl }}/dist/<%= bundlePath('share_ui') %>';
   const loadVerificationsUi = {% if load_verifications_ui %}true{% else %}false{% endif %};
   const loadShareUi = {% if load_share_ui %}true{% else %}false{% endif %};
 
@@ -90,13 +81,9 @@ const fontAwesomeBundle = bundlePath('font_awesome');
       }
       loadDraftVerificationsNotifications();
 
-      {% if page.url contains "/mobile/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
+      setTimeout(() => {
         backgroundSyncEvents();
-      {% else %}
-        setTimeout(() => {
-          backgroundSyncEvents();
-        }, 10000);
-      {% endif %}
+      }, 7000);
     })();
 
     const onUiLoaded = () => {
@@ -114,16 +101,19 @@ const fontAwesomeBundle = bundlePath('font_awesome');
 </script>
 
 {% include_cached scripts-base.html %}
-<script type="text/javascript" src="{{ base_path }}/dist/<%= jqueryBundle %>"></script>
-<script type="text/javascript" defer src="{{ base_path }}/dist/<%= fontAwesomeBundle %>"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('jquery') %>"></script>
+<script type="text/javascript" defer src="{{ site.baseurl }}/dist/<%= bundlePath('font_awesome') %>"></script>
 
 {% if page.url == "/" %}
-<script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
-<script type="text/javascript" src="{{ base_path }}/assets/js/searchWallets.js"></script>
-<script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/ui-components.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
 
-{% unless page.url == "/" %}<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>{% endunless %}
+{% unless page.url == "/" %}<script type="text/javascript" defer src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>{% endunless %}
+{% if page.layout == "reviewMobile" %}
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/mobilePlatformTabs.js"></script>
+{% endif %}
 {% if page.layout contains "review" %}
-<script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/review.js"></script>
 {% endif %}

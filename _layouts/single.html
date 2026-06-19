@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-{% include base_path %}
-
 <div id="main" role="main">
 
   {% if page.url == "/" %}
@@ -54,7 +51,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% include /review/byAuthor.html %}
+        {% include_cached /review/byAuthor.html authors=page.authors %}
         {% if page.link %}<div><a href="{{ page.link }}"
             class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
@@ -67,9 +64,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}
         <div class="social-share active" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 10px;" id="shareButtonContainer"></div>
-      {% endif %}
     </div>
   </article>
 </div>

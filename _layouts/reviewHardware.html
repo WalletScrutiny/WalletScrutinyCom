@@ -21,11 +21,11 @@ layout: default
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
         {%- if page.icon -%}
-          {%- assign icon = base_path | append: '/images/wIcons/'
+          {%- assign icon = site.baseurl | append: '/images/wIcons/'
             | append: page.collection | append:  '/'
             | append: page.icon -%}
         {%- else -%}
-          {%- assign icon = base_path  | append: '/images/noimg.svg' -%}
+          {%- assign icon = site.baseurl  | append: '/images/noimg.svg' -%}
         {%- endif -%}
         <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">
@@ -38,17 +38,10 @@ layout: default
             {% endif %}
           </h1>
 
-          {% assign has_github_repo = false %}
-          {% if page.repository and page.repository != '' and page.repository contains 'github.com' %}
-            {% assign has_github_repo = true %}
-          {% endif %}
-          {% assign has_website = false %}
-          {% if page.website and page.website != '' %}
-            {% assign has_website = true %}
-          {% endif %}
-          {% if has_github_repo or has_website %}
+          {% if page.repository contains 'github.com' or page.website and page.website != '' %}
           <div class="distribution-store-links">
-            {% include /review/desktopHardwareDistributionLinks.html %}
+            {% include /review/githubDistributionLink.html %}
+            {% include /review/websiteDistributionLink.html %}
           </div>
           {% endif %}
 
@@ -58,21 +51,18 @@ layout: default
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='hardware' filterPlatform='false' %}
       
-      {% include feature_alerts.html %}
+      {%- if page.features -%}
+        {% include feature_alerts.html %}
+      {%- endif -%}
       
       {% include /review/nostrOpinion.html %}
 
-      <div class="article-after disclaimer">
-        {% include /review/ownResearch.html %}
-      </div>
+      {% include_cached /review/ownResearch.html %}
 
-      {% if page.share %}
       <div class="spacer x2"></div>
 
       <h2>Share on Social Media</h2>
       <div style="margin-bottom: 20px; display: flex; align-items: center;" id="shareButtonContainer"></div>
-      {% endif %}
-
     </div>
   </article>
 </div>

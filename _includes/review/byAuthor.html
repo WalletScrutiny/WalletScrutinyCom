@@ -1,4 +1,4 @@
-{% assign authors = include.authors | default: page.authors %}
+{% assign authors = include.authors %}
 {% if authors %}
   <p>
   Product page updated by {% for a in authors %}{%

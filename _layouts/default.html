@@ -1,17 +1,15 @@
 ---
-layout: compress
 ---
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include_cached head-static.html %}
-    {% include head-page.html %}
+    {% include seo.html %}
     {% include_cached head/custom.html %}
   </head>
 
   <body class="vibrant">
-    {% include_cached browser-upgrade.html %}
     {% if page.url == "/" %}{% assign is_home = true %}{% else %}{% assign is_home = false %}{% endif %}
     {% include_cached masthead.html is_home=is_home %}
 
