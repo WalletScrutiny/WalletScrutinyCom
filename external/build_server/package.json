@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.18.1",
-    "better-sqlite3": "^12.10.0",
-    "isomorphic-dompurify": "^3.16.0",
+    "better-sqlite3": "^12.11.1",
+    "isomorphic-dompurify": "^3.18.0",
     "js-yaml": "^4.2.0",
     "minimist": "^1.2.8",
     "p-queue": "^9.3.0",
