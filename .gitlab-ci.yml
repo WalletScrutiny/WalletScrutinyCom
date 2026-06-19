@@ -1,5 +1,5 @@
  refresh-apps:
-  image: node:20
+  image: node:22
   variables:
     LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
   script:
