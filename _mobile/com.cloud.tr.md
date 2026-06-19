@@ -19,7 +19,7 @@ android:
   released: 2021-07-16
   updated: 2026-05-20
   version: 4.3.2
-  reviews: 21570
+  reviews: 21571
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial

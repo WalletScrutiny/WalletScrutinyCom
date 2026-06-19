@@ -22,7 +22,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-12-29
-  updated: 2026-06-12
+  updated: 2026-06-18
   version: 6.93.0
   reviews: 8247
   icon: com.uphold.wallet.png

@@ -21,9 +21,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-31
-  updated: 2026-06-02
+  updated: 2026-06-18
   version: 5.19.0
-  reviews: 7200
+  reviews: 7201
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

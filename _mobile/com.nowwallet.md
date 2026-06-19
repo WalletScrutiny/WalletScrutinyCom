@@ -23,7 +23,7 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-20
-  updated: 2026-06-10
+  updated: 2026-06-18
   version: 3.18.8
   reviews: 201
   icon: com.nowwallet.png

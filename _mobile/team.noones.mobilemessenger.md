@@ -20,7 +20,7 @@ android:
   released: 2023-05-04
   updated: 2026-05-29
   version: 1.27.0
-  reviews: 158
+  reviews: 159
   icon: team.noones.mobilemessenger.png
   meta: ok
   verdict: custodial

@@ -20,8 +20,8 @@ android:
   appCountry: in
   released: 2018-07-16
   updated: 2026-06-16
-  version: 4.5.2
-  reviews: 126219
+  version: 4.6.2
+  reviews: 126231
   icon: com.wrx.wazirx.png
   meta: ok
   verdict: custodial

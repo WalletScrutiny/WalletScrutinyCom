@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: 'ZBD: Earn Bitcoin Rewards'
+title: 'ZBD: Play. Earn. Cash Out.'
 date: 2021-04-12
 authors:
 - leo
@@ -18,7 +18,7 @@ android:
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10071
+  reviews: 10075
   icon: io.zebedee.wallet.png
   meta: ok
   verdict: custodial

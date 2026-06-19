@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-01-30
-  updated: 2026-06-11
-  version: 1.41.7
+  updated: 2026-06-17
+  version: 1.42.6
   reviews: 5736
   icon: io.atomicwallet.png
   meta: ok

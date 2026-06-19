@@ -25,7 +25,7 @@ android:
   released: 2019-12-23
   updated: 2026-06-11
   version: 3.40.0
-  reviews: 6883
+  reviews: 6884
   icon: com.binance.us.png
   meta: ok
   verdict: custodial

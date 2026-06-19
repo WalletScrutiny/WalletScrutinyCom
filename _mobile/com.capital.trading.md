@@ -20,7 +20,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-06-12
+  updated: 2026-06-18
   version: 3.37.0
   reviews: 37
   icon: com.capital.trading.png

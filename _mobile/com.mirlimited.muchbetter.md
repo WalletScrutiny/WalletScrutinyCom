@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: gb
   released: 2017-05-30
-  updated: 2026-05-14
+  updated: 2026-06-15
   version: 4.36.0
   reviews: 170
   icon: com.mirlimited.muchbetter.png

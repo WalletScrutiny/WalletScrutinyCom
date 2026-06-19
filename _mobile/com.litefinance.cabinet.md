@@ -16,7 +16,7 @@ android:
   released: 2022-02-09
   updated: 2026-06-03
   version: v2.1.2032-cabinet-release
-  reviews: 83
+  reviews: 84
   icon: com.litefinance.cabinet.png
   meta: ok
   verdict: custodial

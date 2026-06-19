@@ -21,7 +21,7 @@ android:
   released: 2017-09-20
   updated: 2026-06-12
   version: 29.99.1
-  reviews: 14090
+  reviews: 14091
   icon: org.toshi.png
   meta: ok
   verdict: nosource

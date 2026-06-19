@@ -15,8 +15,8 @@ android:
   appCountry: us
   released: 2017-04-10
   updated: 2026-06-12
-  version: 3.99.0
-  reviews: 21043
+  version: 3.100.0
+  reviews: 21047
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive

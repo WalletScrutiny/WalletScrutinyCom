@@ -25,7 +25,7 @@ android:
   released: 2025-04-29
   updated: 2026-06-16
   version: 3.38.0
-  reviews: 104
+  reviews: 105
   icon: bu.app.android.png
   meta: ok
   verdict: custodial

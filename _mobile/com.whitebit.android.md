@@ -20,8 +20,8 @@ android:
   appCountry: ua
   released: 2019-06-07
   updated: 2026-06-12
-  version: 3.76.0
-  reviews: 1356
+  version: 3.76.2
+  reviews: 1357
   icon: com.whitebit.android.png
   meta: ok
   verdict: custodial

@@ -22,7 +22,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-12-22
-  updated: 2026-06-09
+  updated: 2026-06-18
   version: 12.44.2
   reviews: 10971
   icon: io.cex.app.prod.png

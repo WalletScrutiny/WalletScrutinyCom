@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2023-06-08
   updated: 2026-06-17
-  version: 5.9.1
+  version: 5.10.0
   reviews: 30
   icon: com.nanovest.prod.png
   meta: ok

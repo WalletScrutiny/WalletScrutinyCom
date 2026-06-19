@@ -13,7 +13,7 @@ android:
   users: 1000000
   appCountry: nl
   released: 2020-08-19
-  updated: 2026-06-12
+  updated: 2026-06-18
   version: 2.112.0
   reviews: 3664
   icon: com.bitvavo.android.png

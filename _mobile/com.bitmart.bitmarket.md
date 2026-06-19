@@ -25,7 +25,7 @@ android:
   released: 2018-05-09
   updated: 2026-06-05
   version: 4.6.0
-  reviews: 3771
+  reviews: 3768
   icon: com.bitmart.bitmarket.png
   meta: ok
   verdict: custodial

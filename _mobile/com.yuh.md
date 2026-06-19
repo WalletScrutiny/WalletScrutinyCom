@@ -17,7 +17,7 @@ android:
   appCountry: us
   released: 2021-04-06
   updated: 2026-06-10
-  version: 1.44.11
+  version: 1.44.12
   reviews: 4
   icon: com.yuh.png
   meta: ok

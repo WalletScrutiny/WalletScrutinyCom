@@ -20,7 +20,7 @@ android:
   released: 2021-01-18
   updated: 2026-05-29
   version: 14.10.2
-  reviews: 3657
+  reviews: 3659
   icon: ph.pdax.mobile.png
   meta: ok
   verdict: custodial

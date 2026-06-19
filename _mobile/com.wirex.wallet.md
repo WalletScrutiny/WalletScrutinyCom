@@ -21,8 +21,8 @@ android:
   users: 500000
   appCountry: nz
   released: 2021-12-03
-  updated: 2026-06-03
-  version: 3.2.1
+  updated: 2026-06-18
+  version: 3.4.0
   reviews: 16
   icon: com.wirex.wallet.png
   meta: ok

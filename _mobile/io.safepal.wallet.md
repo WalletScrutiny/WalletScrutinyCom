@@ -17,7 +17,7 @@ android:
   released: 2019-05-26
   updated: 2026-05-22
   version: 4.11.3
-  reviews: 1100
+  reviews: 1101
   icon: io.safepal.wallet.png
   meta: ok
   verdict: nosource

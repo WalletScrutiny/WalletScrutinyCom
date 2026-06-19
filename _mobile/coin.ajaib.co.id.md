@@ -13,7 +13,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-07-15
-  updated: 2026-06-08
+  updated: 2026-06-18
   version: 2.99.1
   reviews: 40
   icon: coin.ajaib.co.id.png

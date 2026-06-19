@@ -15,7 +15,7 @@ android:
   users: 500000
   appCountry: us
   released: 2023-12-11
-  updated: 2026-04-22
+  updated: 2026-06-17
   version: 1.15.0
   reviews: 3
   icon: com.garantibbvadigitalassets.crypto.png

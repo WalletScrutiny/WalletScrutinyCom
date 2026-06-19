@@ -16,7 +16,7 @@ android:
   users: 1000000
   appCountry: cz
   released: 2021-01-20
-  updated: 2026-06-12
+  updated: 2026-06-18
   version: 3.37.0
   reviews: 32
   icon: com.kapital.trade.crypto.png

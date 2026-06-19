@@ -20,7 +20,7 @@ android:
   released: 2019-06-06
   updated: 2026-06-11
   version: 26.6.13
-  reviews: 8644
+  reviews: 8645
   icon: exodusmovement.exodus.png
   meta: ok
   verdict: nosource

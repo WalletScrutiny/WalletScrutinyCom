@@ -23,7 +23,7 @@ android:
   released: 2023-06-18
   updated: 2026-06-15
   version: 2.5.3.0.0.0.fp.gps
-  reviews: 1382
+  reviews: 1383
   icon: com.app.speedwallet.png
   meta: ok
   verdict: custodial

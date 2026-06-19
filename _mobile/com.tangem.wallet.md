@@ -25,7 +25,7 @@ android:
   released: 2018-10-24
   updated: 2026-06-17
   version: 5.39.1
-  reviews: 1790
+  reviews: 1792
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok

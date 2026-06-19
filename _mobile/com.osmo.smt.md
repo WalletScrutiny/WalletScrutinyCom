@@ -24,8 +24,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-07-01
-  updated: 2026-06-12
-  version: 4.9.17
+  updated: 2026-06-18
+  version: 4.9.18
   reviews: 44
   icon: com.osmo.smt.jpg
   meta: ok

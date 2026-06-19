@@ -21,7 +21,7 @@ android:
   released: 2020-11-30
   updated: 2026-06-11
   version: 1.128.1
-  reviews: 76
+  reviews: 77
   icon: com.btse.finance.png
   meta: ok
   verdict: custodial

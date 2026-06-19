@@ -21,7 +21,7 @@ android:
   released: 2018-12-10
   updated: 2026-06-16
   version: 26.612.0
-  reviews: 8569
+  reviews: 8571
   icon: com.gemini.android.app.png
   meta: ok
   verdict: custodial

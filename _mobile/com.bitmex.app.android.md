@@ -17,7 +17,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-06-03
-  version: 3.2.10
+  version: 3.2.11
   icon: com.bitmex.app.android.png
   meta: ok
   verdict: custodial

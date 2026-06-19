@@ -34,7 +34,7 @@ iphone:
   version: '1.6'
   reviews: 1
   icon: app.mudraexchange.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: OCTOPUS INDUSTRIES INDIA PRIVATE LIMITED
 

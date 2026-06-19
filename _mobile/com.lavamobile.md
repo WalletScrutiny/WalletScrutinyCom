@@ -16,7 +16,7 @@ android:
   released: 2024-05-25
   updated: 2026-06-15
   version: 3.13.0
-  reviews: 13
+  reviews: 14
   icon: com.lavamobile.png
   meta: ok
   verdict: nosource

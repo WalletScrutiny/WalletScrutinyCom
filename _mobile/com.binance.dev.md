@@ -20,9 +20,9 @@ android:
   users: 100000000
   appCountry: us
   released: 2017-10-25
-  updated: 2026-06-16
-  version: 3.15.7
-  reviews: 16730
+  updated: 2026-06-18
+  version: 3.16.4
+  reviews: 16734
   icon: com.binance.dev.png
   meta: ok
   verdict: custodial

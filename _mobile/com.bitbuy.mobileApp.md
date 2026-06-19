@@ -20,7 +20,7 @@ android:
   released: 2019-10-15
   updated: 2025-12-05
   version: 5.3.3
-  reviews: 1383
+  reviews: 1384
   icon: com.bitbuy.mobileApp.jpg
   meta: ok
   verdict: custodial

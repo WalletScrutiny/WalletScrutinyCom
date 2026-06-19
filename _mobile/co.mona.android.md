@@ -27,7 +27,7 @@ android:
   released: 2017-08-30
   updated: 2026-06-13
   version: 3.235.10
-  reviews: 56615
+  reviews: 56619
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial

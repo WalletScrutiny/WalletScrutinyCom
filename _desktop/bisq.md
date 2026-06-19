@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2016-04-09
 discontinued: 
-updated: 2026-05-29
-version: 1.10.1
+updated: 2026-06-19
+version: 1.10.2
 binaries: 
 provider: 
 providerWebsite: 

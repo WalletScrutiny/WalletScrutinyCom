@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: fr
   released: 2019-12-10
-  updated: 2026-05-21
-  version: 2.8.0
+  updated: 2026-06-17
+  version: 2.8.1
   reviews: 10
   icon: fr.acinq.phoenix.mainnet.png
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629

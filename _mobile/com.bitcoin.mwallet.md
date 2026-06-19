@@ -30,8 +30,8 @@ android:
   appCountry: us
   released: 2017-06-19
   updated: 2026-06-17
-  version: 9.25.6
-  reviews: 4164
+  version: 9.26.2
+  reviews: 4167
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource

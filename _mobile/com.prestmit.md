@@ -19,7 +19,7 @@ android:
   released: 2021-04-13
   updated: 2026-06-11
   version: 7.2.493
-  reviews: 870
+  reviews: 869
   icon: com.prestmit.png
   meta: ok
   verdict: nosendreceive

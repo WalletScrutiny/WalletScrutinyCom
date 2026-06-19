@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-08-23
-  updated: 2026-06-10
-  version: 7.20.2
+  updated: 2026-06-16
+  version: 7.20.3
   reviews: 67
   icon: com.belo.android.png
   meta: ok
