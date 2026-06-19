@@ -16,16 +16,9 @@ const bundlePath = (prefix) => {
   });
   return file ? file.replace(/^\//, '') : '';
 };
-
-const domSanitizationBundle = bundlePath('dom_sanitization');
-const verificationsDataBundle = bundlePath('verifications_data');
-const verificationsUiBundle = bundlePath('verifications_ui');
-const shareUiBundle = bundlePath('share_ui');
-const jqueryBundle = bundlePath('jquery');
-const fontAwesomeBundle = bundlePath('font_awesome');
 %>
 
-<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= domSanitizationBundle %>"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('dom_sanitization') %>"></script>
 
 {% assign load_verifications_ui = false %}
 {% assign load_share_ui = false %}
@@ -40,9 +33,9 @@ const fontAwesomeBundle = bundlePath('font_awesome');
 {% endif %}
 
 <script>
-  const verificationsDataSrc = '{{ site.baseurl }}/dist/<%= verificationsDataBundle %>';
-  const verificationsUiSrc = '{{ site.baseurl }}/dist/<%= verificationsUiBundle %>';
-  const shareUiSrc = '{{ site.baseurl }}/dist/<%= shareUiBundle %>';
+  const verificationsDataSrc = '{{ site.baseurl }}/dist/<%= bundlePath('verifications_data') %>';
+  const verificationsUiSrc = '{{ site.baseurl }}/dist/<%= bundlePath('verifications_ui') %>';
+  const shareUiSrc = '{{ site.baseurl }}/dist/<%= bundlePath('share_ui') %>';
   const loadVerificationsUi = {% if load_verifications_ui %}true{% else %}false{% endif %};
   const loadShareUi = {% if load_share_ui %}true{% else %}false{% endif %};
 
@@ -88,13 +81,9 @@ const fontAwesomeBundle = bundlePath('font_awesome');
       }
       loadDraftVerificationsNotifications();
 
-      {% if page.url contains "/mobile/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
+      setTimeout(() => {
         backgroundSyncEvents();
-      {% else %}
-        setTimeout(() => {
-          backgroundSyncEvents();
-        }, 10000);
-      {% endif %}
+      }, 7000);
     })();
 
     const onUiLoaded = () => {
@@ -112,8 +101,8 @@ const fontAwesomeBundle = bundlePath('font_awesome');
 </script>
 
 {% include_cached scripts-base.html %}
-<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= jqueryBundle %>"></script>
-<script type="text/javascript" defer src="{{ site.baseurl }}/dist/<%= fontAwesomeBundle %>"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('jquery') %>"></script>
+<script type="text/javascript" defer src="{{ site.baseurl }}/dist/<%= bundlePath('font_awesome') %>"></script>
 
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/ui-components.js"></script>
