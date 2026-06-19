@@ -1,5 +1,6 @@
 mobile:
   hidden_from_search: true
+  exclude_from_verification: true
   description: >
     Mobile wallet reviews on WalletScrutiny cover Android and iPhone apps in a
     single page per product. Select the platform on each review to see

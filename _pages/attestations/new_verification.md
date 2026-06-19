@@ -362,6 +362,9 @@ permalink: /new_verification/
             <select id="platform" name="platform" class="form-control" required>
                 <option value="">Select a platform</option>
                 {% for p in site.data.platformMeta %}
+                    {% if p[1].exclude_from_verification == true %}
+                        {% continue %}
+                    {% endif %}
                     {% assign folder = p[0] %}
                     {% include folderToName.html folder=folder %}
                     <option value="{{p[0]}}">{{name}}{% if folder == 'desktop' %} (deprecated){% endif %}</option>
