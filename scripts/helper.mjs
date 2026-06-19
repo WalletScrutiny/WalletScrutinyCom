@@ -1,6 +1,6 @@
 import fs from 'fs';
 import https from 'https';
-import FileType from 'file-type';
+import { fileTypeFromFile } from 'file-type';
 import path from 'path';
 import yaml from 'js-yaml';
 import dateFormat from 'dateformat';
@@ -35,7 +35,7 @@ function downloadImageFile (url, iconPath, callback) {
     response.on('end', () => {
       (async () => {
         try {
-          const mimetype = ((await FileType.fromFile(iconPath)) || { mime: 'undefined' }).mime;
+          const mimetype = ((await fileTypeFromFile(iconPath)) || { mime: 'undefined' }).mime;
           let iconExtension = null;
           if (mimetype === 'image/png') {
             iconExtension = 'png';

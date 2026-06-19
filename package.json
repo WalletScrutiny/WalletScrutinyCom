@@ -13,7 +13,7 @@
   },
   "homepage": "https://walletscrutiny.com",
   "engines": {
-    "node": ">= 18.6.0"
+    "node": ">= 22"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
@@ -25,7 +25,7 @@
     "babel-loader": "^10.1.1",
     "cssnano": "^8.0.2",
     "dateformat": "^3.0.3",
-    "file-type": "^16.5.4",
+    "file-type": "^22.0.1",
     "github-graphql-api": "^1.0.6",
     "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "html-webpack-plugin": "^5.6.7",
