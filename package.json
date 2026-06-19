@@ -72,7 +72,7 @@
     "fflate": "^0.8.3",
     "jquery": "^3.7.1",
     "light-bolt11-decoder": "^3.2.0",
-    "marked": "^15.0.12",
+    "marked": "^18.0.5",
     "nip07-awaiter": "^1.1.0",
     "nostr-tools": "^2.23.5",
     "path-browserify": "^1.0.1",
