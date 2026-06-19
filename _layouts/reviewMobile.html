@@ -79,20 +79,20 @@ layout: default
       <div class="security-overview">
         <div class="section page__content" itemprop="text">
           {{ content }}
-          {% include /review/byAuthor.html %}
+          {% include_cached /review/byAuthor.html authors=page.authors %}
         </div>
       </div>
 
-      {% include feature_alerts.html %}
+      {%- if page.features -%}
+        {% include feature_alerts.html %}
+      {%- endif -%}
 
       {% include /review/nostrOpinion.html
         opinionSubject=page.collection
         opinionAppId=page.slug
       %}
 
-      <div class="article-after disclaimer">
-        {% include_cached /review/ownResearch.html %}
-      </div>
+      {% include_cached /review/ownResearch.html %}
 
       <div class="spacer x2"></div>
       <h2>Share on Social Media</h2>

@@ -40,13 +40,13 @@ layout: default
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='bearer' filterPlatform='false' %}
       
-      {% include feature_alerts.html %}
+      {%- if page.features -%}
+        {% include feature_alerts.html %}
+      {%- endif -%}
       
       {% include /review/nostrOpinion.html %}
 
-      <div class="article-after disclaimer">
-        {% include_cached /review/ownResearch.html %}
-      </div>
+      {% include_cached /review/ownResearch.html %}
 
       <div class="spacer x2"></div>
 

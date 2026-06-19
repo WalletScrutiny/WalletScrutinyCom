@@ -41,16 +41,14 @@ layout: default
         <div class="spacer x2"></div>
         <div class="section">
           {{ content }}
-          {% include /review/byAuthor.html %}
+          {% include_cached /review/byAuthor.html authors=page.authors %}
         </div>
         <div class="spacer x2"></div>
       </div>
 
       {% include /review/nostrOpinion.html %}
 
-      <div class="article-after disclaimer">
-        {% include_cached /review/ownResearch.html %}
-      </div>
+      {% include_cached /review/ownResearch.html %}
     </div>
   </article>
 </div>
