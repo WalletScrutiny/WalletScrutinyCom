@@ -19,7 +19,7 @@
     "@babel/core": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
     "@perttu/app-store-scraper": "github:ktecho/app-store-scraper#main",
-    "async-mutex": "^0.3.2",
+    "async-mutex": "^0.5.0",
     "autoprefixer": "^10.5.0",
     "axios": "^1.18.0",
     "babel-loader": "^10.1.1",
