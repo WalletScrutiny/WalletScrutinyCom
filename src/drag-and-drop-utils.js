@@ -1,5 +1,15 @@
-import AppInfoParser from 'app-info-parser/src/apk';
-import { unzip } from 'fflate';
+let apkParserPromise;
+let fflateUnzipPromise;
+
+function getApkParser() {
+  apkParserPromise ??= import('app-info-parser/src/apk').then((module) => module.default);
+  return apkParserPromise;
+}
+
+function getFflateUnzip() {
+  fflateUnzipPromise ??= import('fflate').then((module) => module.unzip);
+  return fflateUnzipPromise;
+}
 
 export const PENDING_ASSET_FILES_KEY = 'wsPendingAssetFiles';
 
@@ -47,6 +57,7 @@ export const isPageForAppId = (appId) => window.pageAppId === appId;
 
 export async function getApkInfo(file) {
   try {
+    const AppInfoParser = await getApkParser();
     const parser = new AppInfoParser(file);
     return await parser.parse();
   } catch (error) {
@@ -176,6 +187,7 @@ function sortApkEntries(a, b) {
 }
 
 export async function extractApkFilesFromZip(zipFile) {
+  const unzip = await getFflateUnzip();
   const buffer = await zipFile.arrayBuffer();
   const entries = await new Promise((resolve, reject) => {
     unzip(new Uint8Array(buffer), (err, data) => {
