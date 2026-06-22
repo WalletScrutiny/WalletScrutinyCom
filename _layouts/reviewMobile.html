@@ -3,10 +3,9 @@ layout: default
 ---
 
 {%- assign alt_title = page.android.altTitle | default: page.iphone.altTitle -%}
-{%- assign primary_app_id = page.android.appId | default: page.iphone.appId -%}
 
 <script>
-  window.pageAppId = "{{ primary_app_id }}";
+  window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
   {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
   {% if page.android.version %}window.wsVersionAndroid = "{{ page.android.version }}";{% endif %}
   {% if page.iphone.version %}window.wsVersionIphone = "{{ page.iphone.version }}";{% endif %}
