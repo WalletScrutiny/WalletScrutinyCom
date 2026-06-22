@@ -22,12 +22,8 @@ const bundlePath = (prefix) => {
 
 {% assign load_verifications_ui = false %}
 {% assign load_share_ui = false %}
-{% if page.layout contains "review" %}
+{% if page.layout contains "review" or page.url == "/" or page.url == "/verifications/" or page.path contains "attestations" and page.path contains "attestations/info" == false %}
   {% assign load_verifications_ui = true %}
-{% elsif page.path contains "attestations" %}
-  {% unless page.path contains "attestations/info" %}
-    {% assign load_verifications_ui = true %}
-  {% endunless %}
 {% elsif page.share %}
   {% assign load_share_ui = true %}
 {% endif %}
