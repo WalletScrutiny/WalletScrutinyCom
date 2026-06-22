@@ -68,6 +68,9 @@ module.exports = (env, argv) => {
       filename: argv.mode === 'production' ? '[name].[contenthash].bundle.min.js' : '[name].bundle.min.js',
     },
     resolve: {
+      alias: {
+        jquery: require.resolve('jquery/slim'),
+      },
       fallback: {
         path: require.resolve('path-browserify'),
         fs: false, // 'fs' is not supported in browsers, disable it
