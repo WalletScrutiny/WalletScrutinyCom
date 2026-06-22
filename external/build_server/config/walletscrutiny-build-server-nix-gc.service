@@ -1,0 +1,9 @@
+[Unit]
+Description=Garbage-collect the Nix store on the build server
+Documentation=file:/opt/build-server/walletScrutinyCom/external/build_server/README.md
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/opt/build-server/walletScrutinyCom/external/build_server/scripts/nix-store-gc.sh

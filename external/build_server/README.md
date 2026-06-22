@@ -14,6 +14,8 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 ## Requirements
 - Node.js >= 18.6.0
 - asciinema
+- docker.io and podman (for container-based verification scripts)
+- Nix with flakes enabled (for Nix-native verification scripts; optional but required when a script uses `nix develop` or `nix build`)
 - GitHub token (to refresh the desktop and hardware apps, and to download other assets and dependencies from GitHub)
 - Nostr private key from the `WalletScrutiny Bot` account
 
@@ -69,6 +71,38 @@ sudo apt install asciinema docker.io podman nodejs npm -y
 ```
 
 Note: if the version of nodejs is not greater than or equal to 18.6.0, you can use `nodesource` distribution to install a newer version with `curl -fsSL https://deb.nodesource.com/setup_20.x | bash -` and then `sudo apt install -y nodejs` or install it globally: `bash -c "sudo npm install --global npm@latest"`
+
+### Install Nix (for Nix-native verification scripts)
+
+Some verification scripts follow a vendor-documented Nix recipe instead of wrapping the build in a container. Install Nix on the host so those scripts can run `nix develop` or `nix build` directly:
+
+```bash
+sudo bash external/build_server/scripts/install-nix.sh
+```
+
+Verify that the `build-server` user can use Nix:
+
+```bash
+sudo -u build-server nix --version
+sudo -u build-server nix flake metadata nixpkgs
+```
+
+The installer links Nix into `/usr/local/bin` because `sudo -u build-server` does not load `/etc/profile.d/nix.sh` (non-login shell). Without those symlinks, `nix: command not found` is expected even when Nix is installed.
+
+If verification still fails, check that Nix exists at `/nix/var/nix/profiles/default/bin/nix` and re-run `sudo bash external/build_server/scripts/install-nix.sh`.
+
+**Disk usage:** the `/nix/store` grows with each distinct build closure. Monitor free space; the first cold run of a Nix-based wallet can download several gigabytes. Parallel ABS jobs share the store safely (Nix handles locking).
+
+**Garbage collection:** the install script above also enables a weekly GC timer. To install it manually (from the deployed repo on the server):
+
+```bash
+sudo cp /opt/build-server/walletScrutinyCom/external/build_server/config/walletscrutiny-build-server-nix-gc.service /etc/systemd/system/
+sudo cp /opt/build-server/walletScrutinyCom/external/build_server/config/walletscrutiny-build-server-nix-gc.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now walletscrutiny-build-server-nix-gc.timer
+```
+
+To run GC manually: `sudo /opt/build-server/walletScrutinyCom/external/build_server/scripts/nix-store-gc.sh`
 
 - Install npm modules:
 ```bash

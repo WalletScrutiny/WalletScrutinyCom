@@ -8,7 +8,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 
 # Rules
 
-1. Scripts must use `podman` or `docker` to run the build process, so it is self-contained, repeatable, and reproducible. Thus, having podman or docker installed must be the only requirement. "sudo" is not allowed.
+1. Scripts must use `podman`, `docker`, or `nix` (with flakes enabled) to run the build process, so it is self-contained, repeatable, and reproducible. Thus, having podman, docker, or nix installed must be the only requirement. "sudo" is not allowed.
 2. The script name must end with `build.sh`.
 3. Build scripts must never need a smartphone connected to the computer.
 4. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated with the result of the verification. See the `Results File` section below for details.

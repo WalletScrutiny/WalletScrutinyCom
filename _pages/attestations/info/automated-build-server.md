@@ -15,7 +15,7 @@ The ABS runs continuously on a dedicated Linux server:
 1. **Collect context** — It loads wallet metadata from WalletScrutiny inventory files and fetches existing [build verifications](/verifications/) from Nostr.
 2. **Find work** — It looks for assets in the Asset Registry that do not yet have a matching verification, and (when enabled) for new desktop or hardware releases.
 3. **Select a script** — For each candidate, it searches prior verifications marked **reproducible** that include a file attachment whose name ends with `build.sh`.
-4. **Run the build** — The script is downloaded, made executable, and run inside a dedicated build directory. Execution is recorded with [asciinema](https://asciinema.org/) so anyone can review what happened.
+4. **Run the build** — The script is downloaded, made executable, and run inside a dedicated build directory. Scripts typically wrap the build in `podman`, `docker`, or (for vendor Nix-based recipes) `nix develop` / `nix build`. Execution is recorded with [asciinema](https://asciinema.org/) so anyone can review what happened.
 5. **Read the result** — The script must write a `COMPARISON_RESULTS.yaml` file with the verdict (`reproducible`, `not_reproducible`, or `ftbfs`).
 6. **Publish to Nostr** — The ABS creates a new verification on Nostr as WalletScrutiny Bot, referencing the original script author, attaching the terminal recording, and stating the outcome.
 
