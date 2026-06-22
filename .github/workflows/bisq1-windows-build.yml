@@ -1,0 +1,179 @@
+name: Bisq1 Reproducible Build (Windows)
+
+# Builds the Bisq 1 Windows installer (.exe) twice in two isolated worktrees (A and B) on a
+# Windows runner, so WalletScrutiny can check determinism (A == B) and reproducibility (A == official).
+#
+# WHY A WINDOWS RUNNER: Bisq 1 v1.10.0 produces the Windows installer via jpackage + the WiX Toolset
+# (build-logic/.../WindowsPackage.kt = PackageFormat.EXE). jpackage cannot cross-build a Windows .exe
+# from Linux, and upstream provides no docker/release-builder/windows/. Task graph (verified):
+# verifyInstallerEvidenceBundle -> generateInstallerEvidenceBundle -> ... -> :desktop:generateInstallers
+# (jpackage), so this single task does build the EXE at desktop/build/packaging/jpackage/packages/.
+#
+# Findings: ws-notes/build-notes/desktop/bisq/bisq1_v1.10.0-exe-findings-2026-06-22.md
+#
+# PINS (hard-coded, NOT inputs, to avoid free-form injection and lock the environment):
+#   JDK  = Zulu 21.0.6  (gradle.properties enforces 21.0.6; build fails on mismatch)
+#   WiX  = 3.14.1       (WiX v3 required by jpackage; installer layout depends on this version)
+#
+# EXPECTED DIFFERENCE: the OFFICIAL v1.10.0 EXE bundles Azul OpenJDK **21.0.11**, but the repo pins
+# **21.0.6**, so the rebuilt EXE bundles a 21.0.6 JRE -> a genuine payload difference vs official
+# (same root cause as the deb/rpm not_reproducible verdict). KNOWN LIMITATION: the installer embeds
+# "Copyright 2013-${Year.now()}" (build year); official embeds 2013-2026, so a rebuild outside 2026
+# adds a copyright-year difference too. Both are diagnostic; the WS verdict is mechanical (outer sha256).
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Bisq 1 version without leading v, e.g. 1.10.0'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  # Inputs are referenced ONLY through env vars in run: blocks (never inlined as ${{ }}) to avoid
+  # shell/script injection. VERSION is strictly validated before any use.
+  VERSION: ${{ inputs.version }}
+  JDK_VERSION: '21.0.6'
+  WIX_VERSION: '3.14.1'
+
+jobs:
+  build:
+    runs-on: windows-2025
+    timeout-minutes: 120
+    steps:
+      - name: Validate version input (defense against injection)
+        shell: bash
+        run: |
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Invalid version '$VERSION' (expected N.N.N, e.g. 1.10.0)." >&2
+            exit 1
+          fi
+
+      - name: Set up pinned Zulu JDK 21.0.6
+        uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
+        with:
+          java-version: '21.0.6'
+          distribution: 'zulu'
+          check-latest: false
+
+      - name: Install pinned WiX Toolset v3 (3.14.1)
+        shell: pwsh
+        run: |
+          choco install wixtoolset --version=3.14.1 --no-progress -y
+          $wixDirectory = Get-ChildItem "${env:ProgramFiles(x86)}" -Directory -Filter "WiX Toolset v3*" |
+            Sort-Object Name -Descending | Select-Object -First 1
+          if ($null -eq $wixDirectory) { throw "WiX Toolset installation directory was not found." }
+          "$($wixDirectory.FullName)\bin" | Out-File -Append -FilePath $env:GITHUB_PATH -Encoding utf8
+
+      - name: Checkout Bisq 1 (worktree A)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: bisq-network/bisq
+          ref: v${{ inputs.version }}
+          submodules: 'true'
+          persist-credentials: false
+          fetch-depth: 0
+          path: bisq-a
+
+      - name: Checkout Bisq 1 (worktree B)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: bisq-network/bisq
+          ref: v${{ inputs.version }}
+          submodules: 'true'
+          persist-credentials: false
+          fetch-depth: 0
+          path: bisq-b
+
+      - name: Enforce A and B resolved to the same commit
+        shell: bash
+        run: |
+          a=$(git -C bisq-a rev-parse HEAD)
+          b=$(git -C bisq-b rev-parse HEAD)
+          echo "A=$a B=$b"
+          [ "$a" = "$b" ] || { echo "A and B resolved to different commits" >&2; exit 1; }
+
+      - name: Verify Gradle wrapper checksums (A and B)
+        shell: bash
+        run: |
+          set -e
+          for d in bisq-a bisq-b; do ( cd "$d" && sha256sum -c gradle/wrapper/gradle-wrapper.sha256 ); done
+
+      - name: Build installer evidence — worktree A
+        shell: bash
+        working-directory: bisq-a
+        env:
+          GRADLE_USER_HOME: ${{ runner.temp }}/gradle-home-a
+        run: ./gradlew --no-daemon clean verifyInstallerEvidenceBundle
+
+      - name: Build installer evidence — worktree B
+        shell: bash
+        working-directory: bisq-b
+        env:
+          GRADLE_USER_HOME: ${{ runner.temp }}/gradle-home-b
+        run: ./gradlew --no-daemon clean verifyInstallerEvidenceBundle
+
+      - name: Collect + rename EXEs to official name (Bisq-64bit-<ver>.exe)
+        shell: bash
+        run: |
+          set -e
+          mkdir -p out-a out-b
+          # finalize.sh copies raw "Bisq-<ver>.exe" -> "Bisq-64bit-<ver>.exe"; do the same mapping.
+          exeA=$(find bisq-a/desktop/build/packaging/jpackage/packages -name "Bisq-${VERSION}.exe" | head -1)
+          exeB=$(find bisq-b/desktop/build/packaging/jpackage/packages -name "Bisq-${VERSION}.exe" | head -1)
+          [ -n "$exeA" ] && [ -n "$exeB" ] || { echo "EXE Bisq-${VERSION}.exe not found in one/both worktrees" >&2; exit 1; }
+          cp "$exeA" "out-a/Bisq-64bit-${VERSION}.exe"
+          cp "$exeB" "out-b/Bisq-64bit-${VERSION}.exe"
+
+      - name: Record provenance
+        shell: bash
+        run: |
+          set -e
+          wix_ver=$(candle.exe -? 2>&1 | grep -oiE 'version [0-9.]+' | head -1 || echo 'unknown')
+          {
+            echo "workflow: bisq1-windows-build.yml"
+            echo "workflow_repo: ${GITHUB_REPOSITORY}"
+            echo "workflow_commit_sha: ${GITHUB_SHA}"
+            echo "workflow_ref: ${GITHUB_REF}"
+            echo "run_id: ${GITHUB_RUN_ID}"
+            echo "built_at_utc: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "version: ${VERSION}"
+            echo "upstream_repo: bisq-network/bisq"
+            echo "upstream_tag: v${VERSION}"
+            echo "upstream_commit: $(git -C bisq-a rev-parse HEAD)"
+            echo "runner_image_os: ${ImageOS:-unknown}"
+            echo "runner_image_version: ${ImageVersion:-unknown}"
+            echo "jdk_pinned: ${JDK_VERSION}"
+            echo "jdk_actual: $(java -version 2>&1 | head -1)"
+            echo "wix_pinned: ${WIX_VERSION}"
+            echo "wix_actual: ${wix_ver}"
+            echo "action_pins: checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02"
+            echo "exe_a_sha256: $(sha256sum out-a/Bisq-64bit-${VERSION}.exe | cut -d' ' -f1)"
+            echo "exe_b_sha256: $(sha256sum out-b/Bisq-64bit-${VERSION}.exe | cut -d' ' -f1)"
+            echo "gradle: $(cd bisq-a && ./gradlew --no-daemon -q -v 2>/dev/null | tr '\n' ' ')"
+          } > provenance.txt
+          cat provenance.txt
+
+      - name: Upload EXE — build A
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: bisq1-${{ inputs.version }}-win-exe-A
+          path: out-a/Bisq-64bit-${{ inputs.version }}.exe
+          if-no-files-found: error
+
+      - name: Upload EXE — build B
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: bisq1-${{ inputs.version }}-win-exe-B
+          path: out-b/Bisq-64bit-${{ inputs.version }}.exe
+          if-no-files-found: error
+
+      - name: Upload provenance
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: bisq1-${{ inputs.version }}-win-provenance
+          path: provenance.txt
+          if-no-files-found: error
