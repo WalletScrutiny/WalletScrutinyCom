@@ -10,7 +10,6 @@ import {
   faGooglePlay,
   faGithub,
   faWindows,
-  faApple,
   faBitcoin
 } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -21,7 +20,6 @@ import {
   faMoon,
   faSun,
   faBell,
-  faHistory,
   faClockRotateLeft,
   faHandsHelping,
   faDonate,
@@ -38,11 +36,11 @@ import {
   faTimes,
   faCircleNotch,
   faSquare,
-  faUsers,
   faUserSecret,
   faExclamationTriangle,
   faChevronLeft,
   faChevronDown,
+  faChevronUp,
   faFilter,
   faInfoCircle,
   faAnglesRight,
@@ -53,7 +51,13 @@ import {
   faTimesCircle,
   faSlidersH,
   faTrashAlt,
-  faMobileScreen
+  faMobileScreen,
+  faSearch,
+  faArrowRight,
+  faClipboardCheck,
+  faTags,
+  faFolderOpen,
+  faCalendar
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -62,12 +66,10 @@ library.add(
   faMoon,
   faSun,
   faBell,
-  faHistory,
   faClockRotateLeft,
   faHandsHelping,
   faDonate,
   faEnvelope,
-  faClockRotateLeft,
   faCheckCircle,
   faCaretRight,
   faCaretDown,
@@ -80,11 +82,11 @@ library.add(
   faTimes,
   faCircleNotch,
   faSquare,
-  faUsers,
   faUserSecret,
   faExclamationTriangle,
   faChevronLeft,
   faChevronDown,
+  faChevronUp,
   faFilter,
   faGlobe,
   faDownload,
@@ -98,6 +100,12 @@ library.add(
   faSlidersH,
   faTrashAlt,
   faMobileScreen,
+  faSearch,
+  faArrowRight,
+  faClipboardCheck,
+  faTags,
+  faFolderOpen,
+  faCalendar,
   // Brands
   faSquareXTwitter,
   faXTwitter,
@@ -109,7 +117,6 @@ library.add(
   faGooglePlay,
   faGithub,
   faWindows,
-  faApple,
   faBitcoin
 );
 
