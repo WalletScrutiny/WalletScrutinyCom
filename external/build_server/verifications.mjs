@@ -32,6 +32,7 @@ import {
   pickScriptBinaryEntry,
   isAssetBundleRegistrationKind,
 } from './asset-utils.mjs';
+import { buildScriptExecutionEnv } from './script-env.mjs';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -785,13 +786,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         cwd: buildDirForThisVerification,
         signal: controller.signal,
         stdio: ['ignore', 'pipe', 'pipe'],
-        env: {
-          PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-          HOME: process.env.HOME || '/tmp',
-          XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-          ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config',
-          GITHUB_TOKEN: githubToken || process.env.GITHUB_TOKEN || null
-        }
+        env: buildScriptExecutionEnv({ githubToken })
       }
     );
 
