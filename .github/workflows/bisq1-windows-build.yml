@@ -44,7 +44,11 @@ env:
   # shell/script injection. VERSION is strictly validated before any use.
   VERSION: ${{ inputs.version }}
   JDK_VERSION: '21.0.6'
-  WIX_VERSION: '3.14.1'
+  # WiX pin is the CHOCOLATEY PACKAGE version (3.14.1.20250415), which differs from the WiX product
+  # version (3.14.1). windows-2025 pre-ships this build; --allow-downgrade keeps the pin deterministic
+  # even if a future runner image ships a newer one. Both the choco version and the actual candle.exe
+  # version are recorded in provenance.
+  WIX_CHOCO_VERSION: '3.14.1.20250415'
 
 jobs:
   build:
@@ -66,10 +70,12 @@ jobs:
           distribution: 'zulu'
           check-latest: false
 
-      - name: Install pinned WiX Toolset v3 (3.14.1)
+      - name: Install pinned WiX Toolset v3 (choco ${{ env.WIX_CHOCO_VERSION }})
         shell: pwsh
         run: |
-          choco install wixtoolset --version=3.14.1 --no-progress -y
+          # Pin the chocolatey PACKAGE version; --allow-downgrade so we get exactly this build even if
+          # the runner image pre-installs a newer WiX (choco otherwise fails with "newer already installed").
+          choco install wixtoolset --version=$env:WIX_CHOCO_VERSION --allow-downgrade --no-progress -y
           $wixDirectory = Get-ChildItem "${env:ProgramFiles(x86)}" -Directory -Filter "WiX Toolset v3*" |
             Sort-Object Name -Descending | Select-Object -First 1
           if ($null -eq $wixDirectory) { throw "WiX Toolset installation directory was not found." }
@@ -155,8 +161,9 @@ jobs:
             echo "runner_image_version: ${ImageVersion:-unknown}"
             echo "jdk_pinned: ${JDK_VERSION}"
             echo "jdk_actual: $(java -version 2>&1 | head -1)"
-            echo "wix_pinned: ${WIX_VERSION}"
-            echo "wix_actual: ${wix_ver}"
+            echo "wix_choco_version_pinned: ${WIX_CHOCO_VERSION}"
+            echo "wix_choco_version_actual: $(choco list wixtoolset --exact -r 2>/dev/null | head -1)"
+            echo "wix_candle_actual: ${wix_ver}"
             echo "action_pins: checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02"
             echo "exe_a_sha256: $(sha256sum out-a/Bisq-64bit-${VERSION}.exe | cut -d' ' -f1)"
             echo "exe_b_sha256: $(sha256sum out-b/Bisq-64bit-${VERSION}.exe | cut -d' ' -f1)"
