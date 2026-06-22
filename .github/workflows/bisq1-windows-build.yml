@@ -21,6 +21,8 @@ name: Bisq1 Reproducible Build (Windows)
 # "Copyright 2013-${Year.now()}" (build year); official embeds 2013-2026, so a rebuild outside 2026
 # adds a copyright-year difference too. Both are diagnostic; the WS verdict is mechanical (outer sha256).
 
+run-name: Bisq1 ${{ inputs.version }} Windows EXE [${{ inputs.request_id }}]
+
 on:
   workflow_dispatch:
     inputs:
@@ -28,6 +30,11 @@ on:
         description: 'Bisq 1 version without leading v, e.g. 1.10.0'
         required: true
         type: string
+      request_id:
+        description: 'Caller correlation ID echoed into run-name for race-free run lookup (not a secret)'
+        required: false
+        type: string
+        default: ''
 
 permissions:
   contents: read
