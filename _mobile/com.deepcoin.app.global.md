@@ -27,8 +27,8 @@ iphone:
   idd: '1610058833'
   appCountry: us
   released: 2022-02-26
-  updated: 2026-06-11
-  version: 7.6.63
+  updated: 2026-06-18
+  version: 7.6.69
   reviews: 20
   icon: com.dcglobal.app.jpg
   meta: ok

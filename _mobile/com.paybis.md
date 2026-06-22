@@ -10,8 +10,8 @@ iphone:
   idd: '1584641245'
   appCountry: us
   released: 2021-09-20
-  updated: 2026-05-13
-  version: 1.7.29
+  updated: 2026-06-19
+  version: 1.7.30
   reviews: 2864
   icon: com.paybis.jpg
   meta: ok

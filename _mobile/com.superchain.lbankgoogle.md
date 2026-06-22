@@ -30,9 +30,9 @@ iphone:
   idd: '1437346368'
   appCountry: us
   released: 2019-02-22
-  updated: 2026-06-14
-  version: 6.0.5
-  reviews: 713
+  updated: 2026-06-21
+  version: 6.0.6
+  reviews: 714
   icon: com.LBank.LBankNavApp.jpg
   meta: ok
   verdict: custodial

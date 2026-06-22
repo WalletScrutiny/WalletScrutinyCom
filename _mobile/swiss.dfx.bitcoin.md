@@ -1,6 +1,6 @@
 ---
 wsId: dfxBTCTaroWallet
-title: DFX BTC Taro Wallet
+title: DFX Bitcoin
 date: 2026-01-03
 authors:
 - danny

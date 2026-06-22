@@ -19,7 +19,7 @@ android:
   released: 2021-09-23
   updated: 2026-06-04
   version: 8.4.64
-  reviews: 9885
+  reviews: 9889
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -29,8 +29,8 @@ iphone:
   idd: 1588184260
   appCountry: br
   released: 2021-10-02
-  updated: 2026-06-05
-  version: 8.4.64
+  updated: 2026-06-22
+  version: 8.4.68
   reviews: 1983
   icon: com.pay99.jpg
   meta: ok

@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2017-10-18
   updated: 2026-06-18
-  version: 3.37.0
+  version: 3.38.0
   reviews: 37
   icon: com.capital.trading.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-06-15
-  version: 3.37.0
+  updated: 2026-06-19
+  version: 3.38.0
   reviews: 324
   icon: com.capital.trading.jpg
   meta: ok

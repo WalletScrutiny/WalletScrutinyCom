@@ -32,7 +32,7 @@ iphone:
   released: 2022-11-21
   updated: 2026-06-18
   version: 9.5.0
-  reviews: 30
+  reviews: 32
   icon: finance.hollox.jpg
   meta: ok
   verdict: custodial

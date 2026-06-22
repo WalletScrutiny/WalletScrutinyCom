@@ -26,9 +26,9 @@ iphone:
   idd: '1563046132'
   appCountry: us
   released: 2021-04-20
-  updated: 2026-04-29
-  version: 1.9.10
-  reviews: 4729
+  updated: 2026-06-18
+  version: 1.9.11
+  reviews: 4736
   icon: ng.pandar.resource.jpg
   meta: ok
   verdict: nosendreceive

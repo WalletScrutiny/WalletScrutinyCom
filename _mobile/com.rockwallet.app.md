@@ -23,7 +23,7 @@ android:
   released: 2022-11-14
   updated: 2025-09-08
   version: 5.17.8
-  reviews: 284
+  reviews: 285
   icon: com.rockwallet.app.jpg
   meta: ok
   verdict: nosource

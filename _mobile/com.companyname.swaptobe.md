@@ -18,7 +18,7 @@ android:
   released: 2021-10-14
   updated: 2026-03-18
   version: '6.0'
-  reviews: 18
+  reviews: 17
   icon: com.companyname.swaptobe.png
   meta: ok
   verdict: custodial

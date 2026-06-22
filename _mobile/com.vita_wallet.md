@@ -20,7 +20,7 @@ android:
   released: 2019-10-16
   updated: 2026-05-26
   version: 7.3.16
-  reviews: 891
+  reviews: 892
   icon: com.vita_wallet.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-11-15
   updated: 2026-05-25
   version: 7.3.15
-  reviews: 278
+  reviews: 279
   icon: io.vitawallet.vitawallet.jpg
   meta: ok
   verdict: custodial

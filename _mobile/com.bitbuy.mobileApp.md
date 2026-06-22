@@ -20,7 +20,7 @@ android:
   released: 2019-10-15
   updated: 2025-12-05
   version: 5.3.3
-  reviews: 1384
+  reviews: 1383
   icon: com.bitbuy.mobileApp.jpg
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-10-21
   updated: 2025-12-08
   version: 5.3.3
-  reviews: 7376
+  reviews: 7377
   icon: com.bitbuy.mobileApp.jpg
   meta: ok
   verdict: custodial

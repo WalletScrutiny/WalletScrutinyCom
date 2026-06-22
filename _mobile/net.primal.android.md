@@ -17,7 +17,7 @@ android:
   released: 2024-07-09
   updated: 2026-06-04
   version: 3.5.10
-  reviews: 31
+  reviews: 32
   icon: net.primal.android.png
   meta: ok
   verdict: custodial

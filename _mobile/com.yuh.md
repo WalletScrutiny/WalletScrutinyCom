@@ -28,9 +28,9 @@ iphone:
   idd: '1493935010'
   appCountry: ch
   released: 2021-05-10
-  updated: 2026-06-15
-  version: 1.43.7
-  reviews: 21622
+  updated: 2026-06-22
+  version: 1.43.8
+  reviews: 21652
   icon: com.swissquote.Yuh.jpg
   meta: ok
   verdict: nosendreceive

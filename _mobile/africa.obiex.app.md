@@ -34,7 +34,7 @@ iphone:
   released: 2021-06-18
   updated: 2026-06-03
   version: 4.1.8
-  reviews: 696
+  reviews: 697
   icon: africa.obiex.app.jpg
   meta: ok
   verdict: custodial

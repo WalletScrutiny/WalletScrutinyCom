@@ -29,8 +29,8 @@ iphone:
   idd: 6756965117
   appCountry: it
   released: 2026-02-03
-  updated: 2026-06-17
-  version: 3.0.0
+  updated: 2026-06-19
+  version: 3.0.1
   reviews: 1
   icon: com.btc.trustless.jpg
   meta: fewusers

@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-04-14
-  updated: 2026-06-11
+  updated: 2026-06-18
   version: 5.26.0
-  reviews: 267
+  reviews: 268
   icon: com.app.xt.jpg
   meta: ok
   verdict: custodial

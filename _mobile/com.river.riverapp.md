@@ -21,7 +21,7 @@ android:
   released: 2023-10-20
   updated: 2026-06-12
   version: 7.101.1
-  reviews: 311
+  reviews: 312
   icon: com.river.riverapp.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2021-01-19
   updated: 2026-06-15
   version: 7.101.1
-  reviews: 8197
+  reviews: 8223
   icon: com.river.riverapp.jpg
   meta: ok
   verdict: custodial

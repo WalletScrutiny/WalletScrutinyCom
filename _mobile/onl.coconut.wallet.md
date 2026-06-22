@@ -10,8 +10,8 @@ iphone:
   idd: '6745778545'
   appCountry: us
   released: 2025-07-22
-  updated: 2026-06-17
-  version: 0.12.3
+  updated: 2026-06-20
+  version: 0.13.1
   reviews: 1
   icon: onl.coconut.wallet.jpg
   meta: ok

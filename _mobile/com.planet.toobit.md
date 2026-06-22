@@ -23,7 +23,7 @@ android:
   released: 2023-02-14
   updated: 2026-06-17
   version: 2.2.9
-  reviews: 332
+  reviews: 334
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2023-02-13
   updated: 2026-06-17
   version: 2.2.9
-  reviews: 3781
+  reviews: 3792
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial

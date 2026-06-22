@@ -43,7 +43,7 @@ iphone:
   released: 2021-12-16
   updated: 2026-06-16
   version: 2.6.0
-  reviews: 481
+  reviews: 480
   icon: io.nunchuk.ios.jpg
   meta: ok
   verdict: nosource

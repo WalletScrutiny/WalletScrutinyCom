@@ -33,8 +33,8 @@ iphone:
   idd: '1575614708'
   appCountry: co
   released: 2021-09-08
-  updated: 2026-06-08
-  version: 7.20.0
+  updated: 2026-06-18
+  version: 7.20.3
   reviews: 46
   icon: com.belo.ios.jpg
   meta: ok

@@ -36,7 +36,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-06-06
   version: 3.9.6
-  reviews: 1193
+  reviews: 1192
   icon: com.bydfi.app.jpg
   meta: ok
   verdict: custodial

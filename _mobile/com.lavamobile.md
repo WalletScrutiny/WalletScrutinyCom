@@ -28,7 +28,7 @@ iphone:
   released: 2024-04-29
   updated: 2026-06-16
   version: 3.13.0
-  reviews: 143
+  reviews: 144
   icon: xyz.lava.mobile.jpg
   meta: ok
   verdict: nosource

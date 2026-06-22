@@ -20,7 +20,7 @@ android:
   released: 2021-01-15
   updated: 2026-06-17
   version: 2.101.5 (3118)
-  reviews: 412
+  reviews: 413
   icon: com.elrond.maiar.wallet.png
   meta: ok
   verdict: nosource

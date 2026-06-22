@@ -32,7 +32,7 @@ iphone:
   released: 2023-03-20
   updated: 2026-06-05
   version: 3.9.5
-  reviews: 832
+  reviews: 831
   icon: com.peersyst.nearmobilewallet.jpg
   meta: ok
   verdict: custodial

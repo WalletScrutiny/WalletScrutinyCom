@@ -30,9 +30,9 @@ iphone:
   idd: '1444159776'
   appCountry: nl
   released: 2019-01-16
-  updated: 2026-04-21
-  version: 6.8.2
-  reviews: 5639
+  updated: 2026-06-19
+  version: 6.8.3
+  reviews: 5641
   icon: com.weareblox.app.jpg
   meta: ok
   verdict: nosendreceive

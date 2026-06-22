@@ -34,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-06-16
   version: 5.1.5
-  reviews: 83480
+  reviews: 83602
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

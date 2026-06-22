@@ -24,7 +24,7 @@ android:
   released: 2021-10-12
   updated: 2026-06-05
   version: 2.4.3
-  reviews: 1099
+  reviews: 1100
   icon: com.secretkeylabs.xverse.png
   meta: ok
   verdict: nosource

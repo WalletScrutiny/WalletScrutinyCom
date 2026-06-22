@@ -16,8 +16,8 @@ android:
   appId: nl.bitonic.androidApp
   users: 50000
   appCountry: us
-  updated: 2026-06-11
-  version: 3.25.3
+  updated: 2026-06-19
+  version: 3.25.5
   icon: nl.bitonic.androidApp.jpg
   meta: ok
   verdict: custodial

@@ -25,9 +25,9 @@ iphone:
   idd: '6478332344'
   appCountry: in
   released: 2024-08-16
-  updated: 2026-06-06
-  version: 2.24.0
-  reviews: 20622
+  updated: 2026-06-19
+  version: 2.25.0
+  reviews: 20705
   icon: app.deltaexchange.india.jpg
   meta: ok
   verdict: custodial

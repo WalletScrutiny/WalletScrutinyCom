@@ -28,8 +28,8 @@ iphone:
   idd: 1008039704
   appCountry: th
   released: 2015-10-11
-  updated: 2026-03-27
-  version: 6.22.0
+  updated: 2026-06-19
+  version: 6.23.0
   reviews: 993
   icon: com.forex4you.ios.jpg
   meta: ok

@@ -17,7 +17,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2012-03-26
-  updated: 2026-06-01
+  updated: 2026-06-19
   version: 5.9.2
   reviews: 64
   icon: de.finanzen.net.png

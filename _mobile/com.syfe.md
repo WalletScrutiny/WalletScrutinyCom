@@ -33,7 +33,7 @@ iphone:
   released: 2020-02-24
   updated: 2026-06-18
   version: 16.3.2
-  reviews: 607
+  reviews: 608
   icon: com.syfe.jpg
   meta: ok
   verdict: nosendreceive

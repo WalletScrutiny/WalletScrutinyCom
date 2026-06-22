@@ -11,7 +11,7 @@ iphone:
   released: 2022-02-09
   updated: 2026-06-18
   version: 6.62.1
-  reviews: 7944
+  reviews: 7959
   icon: mobile.mexcglobal.www.jpg
   meta: ok
   verdict: wip

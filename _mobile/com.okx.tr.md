@@ -33,7 +33,7 @@ iphone:
   released: 2024-02-07
   updated: 2026-06-18
   version: 6.176.0
-  reviews: 2211
+  reviews: 2214
   icon: com.okx.tr.jpg
   meta: ok
   verdict: custodial

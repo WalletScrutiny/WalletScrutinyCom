@@ -30,8 +30,8 @@ iphone:
   idd: 1453499428
   appCountry: jp
   released: 2019-09-27
-  updated: 2026-06-12
-  version: 1.1.44
+  updated: 2026-06-22
+  version: 1.1.45
   reviews: 1
   icon: com.valr.mobile.jpg
   meta: ok

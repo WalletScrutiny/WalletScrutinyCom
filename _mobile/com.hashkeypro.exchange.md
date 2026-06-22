@@ -28,7 +28,7 @@ iphone:
   released: 2024-04-19
   updated: 2026-06-16
   version: 1.68.0
-  reviews: 10
+  reviews: 11
   icon: com.hashkey.global.jpg
   meta: ok
   verdict: custodial

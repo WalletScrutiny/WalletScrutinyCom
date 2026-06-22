@@ -35,7 +35,7 @@ iphone:
   released: 2022-03-17
   updated: 2025-02-04
   version: '1.36'
-  reviews: 29
+  reviews: 30
   icon: com.thebitcoincompany.app.ios.jpg
   meta: stale
   verdict: nosendreceive

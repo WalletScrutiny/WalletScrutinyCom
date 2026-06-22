@@ -37,8 +37,8 @@ iphone:
   idd: '1544097028'
   appCountry: gb
   released: 2021-07-13
-  updated: 2026-05-22
-  version: 2.8.0
+  updated: 2026-06-18
+  version: 2.8.1
   reviews: 20
   icon: co.acinq.phoenix.jpg
   meta: ok

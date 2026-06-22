@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2020-04-03
   updated: 2026-06-17
-  version: 2.85.0
+  version: 2.86.0
   reviews: 1691
   icon: com.bitget.exchange.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1442778704
   appCountry: ua
   released: 2018-11-29
-  updated: 2026-06-01
-  version: 2.84.0
-  reviews: 2248
+  updated: 2026-06-19
+  version: 2.86.0
+  reviews: 2251
   icon: com.bitget.exchange.global.jpg
   meta: ok
   verdict: custodial

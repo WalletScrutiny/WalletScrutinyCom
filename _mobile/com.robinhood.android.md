@@ -1,6 +1,6 @@
 ---
 wsId: Robinhood
-title: 'Robinhood: Trading & Investing'
+title: 'Robinhood: Trade Anything'
 date: 2021-09-15
 authors:
 - danny
@@ -20,7 +20,7 @@ android:
   released: 2015-08-12
   updated: 2026-06-16
   version: 2026.24.2
-  reviews: 266870
+  reviews: 266914
   icon: com.robinhood.android.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2014-12-11
   updated: 2026-06-17
   version: 2026.24.1
-  reviews: 4773529
+  reviews: 4775799
   icon: com.robinhood.release.Robinhood.jpg
   meta: ok
   verdict: nosendreceive

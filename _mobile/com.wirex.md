@@ -31,7 +31,7 @@ iphone:
   released: 2016-03-22
   updated: 2026-01-23
   version: 4.11.75
-  reviews: 849
+  reviews: 848
   icon: com.wirex.jpg
   meta: ok
   verdict: custodial

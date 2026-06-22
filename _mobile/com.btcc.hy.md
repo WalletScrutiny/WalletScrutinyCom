@@ -21,7 +21,7 @@ android:
   released: 2020-08-04
   updated: 2026-06-15
   version: 8.9.86
-  reviews: 4291
+  reviews: 4284
   icon: com.btcc.hy.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-11
   updated: 2026-06-18
   version: 8.9.86
-  reviews: 5089
+  reviews: 5105
   icon: com.btcc.hy.jpg
   meta: ok
   verdict: custodial

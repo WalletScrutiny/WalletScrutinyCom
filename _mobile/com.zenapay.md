@@ -21,7 +21,7 @@ iphone:
   version: '5.2'
   reviews: 0
   icon: com.zenapay.jpg
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: Epazz
 

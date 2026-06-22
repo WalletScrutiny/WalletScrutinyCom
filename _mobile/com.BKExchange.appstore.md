@@ -11,7 +11,7 @@ iphone:
   released: 2023-10-17
   updated: 2026-06-06
   version: 3.8.7
-  reviews: 39
+  reviews: 38
   icon: com.BKExchange.appstore.jpg
   meta: ok
   verdict: wip

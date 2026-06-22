@@ -29,8 +29,8 @@ iphone:
   idd: 1435877386
   appCountry: us
   released: 2018-09-16
-  updated: 2026-06-01
-  version: 6.1.30
+  updated: 2026-06-22
+  version: 6.1.31
   reviews: 1121
   icon: com.cmcm.currency.exchange.jpg
   meta: ok

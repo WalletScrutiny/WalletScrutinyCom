@@ -28,8 +28,8 @@ iphone:
   idd: '6746639763'
   appCountry: au
   released: 2025-06-14
-  updated: 2026-04-19
-  version: 1.3.23
+  updated: 2026-06-22
+  version: 1.4.0
   reviews: 1
   icon: com.bitdance.bitpocket.jpg
   meta: ok

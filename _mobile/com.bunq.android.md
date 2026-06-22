@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-11-25
-  updated: 2026-06-16
-  version: 31.8.1
+  updated: 2026-06-20
+  version: 31.8.3
   reviews: 232
   icon: com.bunq.android.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2016-02-12
   updated: 2026-06-18
   version: 31.8.0
-  reviews: 13995
+  reviews: 14022
   icon: com.bunq.ios.jpg
   meta: ok
   verdict: nosendreceive

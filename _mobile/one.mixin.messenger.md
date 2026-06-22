@@ -35,7 +35,7 @@ iphone:
   released: 2018-01-20
   updated: 2026-06-17
   version: 5.0.0
-  reviews: 1158
+  reviews: 1160
   icon: one.mixin.messenger.jpg
   meta: ok
   verdict: sourceavailable

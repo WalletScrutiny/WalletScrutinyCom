@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2026-06-16
   version: 1.63.1
-  reviews: 1
+  reviews: 2
   icon: com.revolut.revolutx.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '6502614478'
   appCountry: gb
   released: 2025-03-18
-  updated: 2026-06-10
-  version: '1.63'
-  reviews: 2227
+  updated: 2026-06-19
+  version: '1.64'
+  reviews: 2257
   icon: com.revolut.revolutx.jpg
   meta: ok
   verdict: custodial

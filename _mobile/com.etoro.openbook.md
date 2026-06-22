@@ -19,7 +19,7 @@ android:
   released: 2013-11-05
   updated: 2026-06-15
   version: 651.1284.2
-  reviews: 3796
+  reviews: 3797
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 674984916
   appCountry: us
   released: 2017-06-26
-  updated: 2026-06-18
-  version: v651.1288.1
-  reviews: 9715
+  updated: 2026-06-19
+  version: v651.1296.2
+  reviews: 9727
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

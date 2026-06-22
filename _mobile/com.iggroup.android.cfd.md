@@ -19,8 +19,8 @@ android:
   appCountry: br
   released: 2015-05-11
   updated: 2026-06-18
-  version: 26.6.4
-  reviews: 14
+  version: 26.6.7
+  reviews: 13
   icon: com.iggroup.android.cfd.png
   meta: ok
   verdict: nosendreceive

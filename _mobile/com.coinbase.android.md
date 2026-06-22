@@ -25,7 +25,7 @@ android:
   released: 2013-03-01
   updated: 2026-06-11
   version: 14.23.16
-  reviews: 117720
+  reviews: 117736
   icon: com.coinbase.android.jpg
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2014-06-22
   updated: 2026-06-15
   version: 14.23.16
-  reviews: 1794475
+  reviews: 1794631
   icon: com.vilcsak.bitcoin2.jpg
   meta: ok
   verdict: custodial

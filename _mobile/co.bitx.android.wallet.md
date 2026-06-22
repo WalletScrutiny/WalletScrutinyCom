@@ -23,7 +23,7 @@ android:
   released: 2014-11-01
   updated: 2026-06-03
   version: 8.109.2
-  reviews: 1407
+  reviews: 1406
   icon: co.bitx.android.wallet.jpg
   meta: ok
   verdict: custodial

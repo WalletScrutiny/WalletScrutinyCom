@@ -30,8 +30,8 @@ iphone:
   idd: '1561969966'
   appCountry: us
   released: 2021-05-14
-  updated: 2026-06-16
-  version: 16.13.0
+  updated: 2026-06-19
+  version: 16.13.1
   reviews: 656
   icon: coin98.crypto.finance.insights.jpg
   meta: ok

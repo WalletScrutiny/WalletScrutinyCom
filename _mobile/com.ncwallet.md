@@ -18,7 +18,7 @@ android:
   released: 2022-10-18
   updated: 2026-06-05
   version: 3.3861.0
-  reviews: 833
+  reviews: 836
   icon: com.ncwallet.png
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2022-09-27
   updated: 2026-06-11
   version: 3.3862.0
-  reviews: 202
+  reviews: 205
   icon: com.ncwallet.jpg
   meta: ok
   verdict: custodial

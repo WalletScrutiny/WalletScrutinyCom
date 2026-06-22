@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: ca
   released: 2019-03-12
-  updated: 2026-06-15
-  version: 2.229.0
+  updated: 2026-06-19
+  version: 2.230.0
   reviews: 13046
   icon: com.wealthsimple.trade.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2019-02-26
   updated: 2026-06-15
   version: 2.230.0
-  reviews: 129029
+  reviews: 129083
   icon: com.wealthsimple.trade.jpg
   meta: ok
   verdict: nosendreceive

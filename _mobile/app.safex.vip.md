@@ -28,8 +28,8 @@ iphone:
   idd: '6476754762'
   appCountry: us
   released: 2024-03-04
-  updated: 2026-06-10
-  version: 5.16.1
+  updated: 2026-06-19
+  version: 5.16.2
   reviews: 204
   icon: co.safex.org.jpg
   meta: ok

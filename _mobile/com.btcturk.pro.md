@@ -16,7 +16,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-09-10
-  updated: 2026-06-11
+  updated: 2026-06-21
   version: 2.44.0
   reviews: 232
   icon: com.btcturk.pro.png

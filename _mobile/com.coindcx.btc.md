@@ -31,7 +31,7 @@ iphone:
   released: 2020-12-09
   updated: 2026-06-15
   version: 7.55.0002
-  reviews: 42815
+  reviews: 42827
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

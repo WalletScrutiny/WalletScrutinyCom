@@ -21,7 +21,7 @@ android:
   released: 2023-06-09
   updated: 2026-06-10
   version: 3.9.0
-  reviews: 1162
+  reviews: 1166
   icon: com.redotpay.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2023-06-13
   updated: 2026-06-12
   version: 3.9.0
-  reviews: 3558
+  reviews: 3570
   icon: com.redotpay.jpg
   meta: ok
   verdict: custodial

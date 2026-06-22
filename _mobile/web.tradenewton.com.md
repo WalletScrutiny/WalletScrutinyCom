@@ -31,8 +31,8 @@ iphone:
   idd: '1370504122'
   appCountry: ca
   released: 2018-10-03
-  updated: 2026-06-08
-  version: 2.21.1
+  updated: 2026-06-18
+  version: 2.21.2
   reviews: 24482
   icon: co.newton.newtonios.jpg
   meta: ok

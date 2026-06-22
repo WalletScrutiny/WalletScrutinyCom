@@ -19,7 +19,7 @@ android:
   released: 2019-01-30
   updated: 2026-06-17
   version: 1.42.6
-  reviews: 5736
+  reviews: 5723
   icon: io.atomicwallet.png
   meta: ok
   verdict: obfuscated
@@ -31,7 +31,7 @@ iphone:
   released: 2019-11-05
   updated: 2026-06-12
   version: 1.41.7
-  reviews: 18864
+  reviews: 18867
   icon: atomicwallet.jpg
   meta: ok
   verdict: obfuscated

@@ -31,7 +31,7 @@ iphone:
   released: 2010-01-05
   updated: 2026-05-23
   version: 6.4.2
-  reviews: 224
+  reviews: 225
   icon: com.easyforex.trading.jpg
   meta: ok
   verdict: custodial

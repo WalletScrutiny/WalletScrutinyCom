@@ -37,7 +37,7 @@ iphone:
   released: 2024-09-18
   updated: 2026-01-22
   version: 2.0.1
-  reviews: 23
+  reviews: 24
   icon: com.getalby.mobile.jpg
   meta: ok
   verdict: sourceavailable

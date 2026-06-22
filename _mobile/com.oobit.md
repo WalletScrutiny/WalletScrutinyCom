@@ -18,9 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-07
-  updated: 2026-06-16
-  version: 3.2.0
-  reviews: 42
+  updated: 2026-06-21
+  version: 3.2.1
+  reviews: 43
   icon: com.oobit.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2022-02-05
   updated: 2026-06-18
   version: 3.2.0
-  reviews: 970
+  reviews: 971
   icon: com.oobit.jpg
   meta: ok
   verdict: custodial

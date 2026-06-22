@@ -37,7 +37,7 @@ iphone:
   released: 2022-07-15
   updated: 2024-12-24
   version: 0.4.2
-  reviews: 9
+  reviews: 10
   icon: com.mojitowallet.jpg
   meta: stale
   verdict: sourceavailable
