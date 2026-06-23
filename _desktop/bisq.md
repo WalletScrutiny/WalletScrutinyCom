@@ -26,6 +26,10 @@ builds:
     - Bisq-64bit-*.deb
     rpm:
     - Bisq-64bit-*.rpm
+- arch: x86_64-windows
+  types:
+    exe:
+    - Bisq-64bit-*.exe
 features:
 - TOR
 - foss
