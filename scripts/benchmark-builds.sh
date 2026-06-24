@@ -72,7 +72,7 @@ run_prod_build() {
     # Create scripts.html stub (webpack normally does this)
     mkdir -p _includes
     cat > _includes/scripts.html << 'EOF'
-<script src="/dist/jquery.bundle.min.js"></script>
+<script src="/dist/site_main.bundle.min.js"></script>
 <script src="/dist/verifications_data.bundle.min.js"></script>
 <script src="/dist/verifications_ui.bundle.min.js"></script>
 <script src="/dist/font_awesome.bundle.min.js"></script>

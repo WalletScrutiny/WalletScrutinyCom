@@ -101,7 +101,7 @@ const bundlePath = (prefix) => {
 </script>
 
 {% include_cached scripts-base.html %}
-<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('jquery') %>"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/dist/<%= bundlePath('site_main') %>"></script>
 <script type="text/javascript" defer src="{{ site.baseurl }}/dist/<%= bundlePath('font_awesome') %>"></script>
 
 {% if page.url == "/" %}
