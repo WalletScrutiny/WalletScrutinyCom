@@ -145,8 +145,15 @@ table .copy-button {
   background: rgba(0, 0, 0, 0.45);
 }
 body.dark #verificationModalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.75);
 }
+body.dark #verificationModal {
+  background: #424242;
+  border-color: var(--neutral-5);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--neutral-5);
+  color: var(--neutral-0);
+}
+
 @media screen and (max-width: 480px) {
   #verificationModalBackdrop {
     z-index: 1000;
@@ -308,6 +315,9 @@ body.dark #verificationModalBackdrop {
   border-radius: 12px;
   clear: both;
   z-index: 1000;
+}
+body.dark #closeModal {
+  background: #424242;
 }
 @media screen and (max-width: 480px) {
   #closeModal {

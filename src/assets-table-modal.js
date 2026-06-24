@@ -418,9 +418,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     content.scrollLeft = 0;
   }, 0);
 
-  modal.style.background = window.theme === 'dark' ? '#111' : '#fff';
-  modal.style.color = window.theme === 'dark' ? 'white' : 'black';
-
   let otherVerificationsHTML = '';
   if (otherVerificationsBySamePubkey.length > 0) {
     for (const otherVerification of otherVerificationsBySamePubkey) {
@@ -661,9 +658,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   if (modalBackdrop) {
     const isMobileModal = window.matchMedia('(max-width: 480px)').matches;
-    modalBackdrop.style.background = isMobileModal
-      ? (window.theme === 'dark' ? '#111' : '#fff')
-      : (window.theme === 'dark' ? 'rgba(0,0,0,0.65)' : 'rgba(0,0,0,0.45)');
+    if (isMobileModal) {
+      modalBackdrop.style.background = window.theme === 'dark' ? '#111' : '#fff';
+    } else {
+      modalBackdrop.style.background = '';
+    }
     modalBackdrop.style.display = 'block';
   }
   modal.style.display = 'flex';
