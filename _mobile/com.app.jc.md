@@ -13,8 +13,8 @@ android:
   users: 100000
   appCountry: us
   released: 2025-01-13
-  updated: 2026-06-04
-  version: 3.3.17
+  updated: 2026-06-22
+  version: 3.3.18
   reviews: 12
   icon: com.app.jc.png
   meta: ok

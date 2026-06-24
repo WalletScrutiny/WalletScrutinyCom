@@ -26,7 +26,7 @@ iphone:
   released: 2023-10-26
   updated: 2026-06-19
   version: 2.77.0
-  reviews: 222
+  reviews: 223
   icon: app.backpack.mobile.jpg
   meta: ok
   verdict: wip

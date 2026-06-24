@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2017-12-10
-  updated: 2026-05-19
-  version: 5.55.9
+  updated: 2026-06-22
+  version: 5.55.15
   reviews: 90
   icon: app.coinmetro.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1397585225'
   appCountry: us
   released: 2018-07-25
-  updated: 2026-05-20
-  version: 5.55.9
+  updated: 2026-06-23
+  version: 5.55.15
   reviews: 367
   icon: app.coinmetro.jpg
   meta: ok

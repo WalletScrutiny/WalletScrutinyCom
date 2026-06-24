@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2022-01-03
   updated: 2026-06-05
-  version: 2.29.1
+  version: 2.30.0
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.png
   meta: ok

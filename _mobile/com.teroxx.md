@@ -25,8 +25,8 @@ iphone:
   idd: '1476828111'
   appCountry: us
   released: 2019-09-06
-  updated: 2026-06-18
-  version: 3.0.50
+  updated: 2026-06-23
+  version: 3.0.51
   reviews: 1
   icon: Teroxx.jpg
   meta: ok

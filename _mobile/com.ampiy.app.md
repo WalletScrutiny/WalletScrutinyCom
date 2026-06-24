@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2022-04-06
-  updated: 2026-06-17
-  version: 5.0.2
+  updated: 2026-06-22
+  version: 6.0.0
   icon: com.ampiy.app.png
   meta: fewusers
   verdict: wip

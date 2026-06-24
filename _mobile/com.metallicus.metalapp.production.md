@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-14
-  updated: 2026-06-17
+  updated: 2026-06-22
   version: 3.1.213
   reviews: 399
   icon: com.metallicus.metalapp.production.png
@@ -30,8 +30,8 @@ iphone:
   idd: 1345101178
   appCountry: us
   released: 2018-09-14
-  updated: 2026-06-17
-  version: 3.1.213
+  updated: 2026-06-23
+  version: 3.1.214
   reviews: 4313
   icon: com.metallicus.metalpay.jpg
   meta: ok

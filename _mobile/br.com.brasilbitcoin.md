@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: br
   released: 2021-02-17
-  updated: 2026-03-02
+  updated: 2026-06-22
   version: 4.1.02
-  reviews: 5646
+  reviews: 5647
   icon: br.com.brasilbitcoin.png
   meta: ok
   verdict: custodial

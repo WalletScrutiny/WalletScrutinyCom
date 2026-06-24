@@ -20,7 +20,7 @@ android:
   released: 2014-02-10
   updated: 2026-06-19
   version: 5.9.150
-  reviews: 387
+  reviews: 388
   icon: com.spotware.ct.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2013-12-05
   updated: 2026-06-16
   version: 5.9.140
-  reviews: 798
+  reviews: 799
   icon: com.spotware.ct.jpg
   meta: ok
   verdict: nosendreceive

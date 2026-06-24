@@ -27,8 +27,8 @@ iphone:
   idd: '1567851089'
   appCountry: us
   released: 2021-10-14
-  updated: 2026-06-10
-  version: 2.1.204
+  updated: 2026-06-23
+  version: 2.1.205
   reviews: 271
   icon: com.chainapsis.keplrwallet.jpg
   meta: ok

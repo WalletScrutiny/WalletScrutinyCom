@@ -35,8 +35,8 @@ iphone:
   idd: '6471335774'
   appCountry: us
   released: 2024-09-18
-  updated: 2026-01-22
-  version: 2.0.1
+  updated: 2026-06-23
+  version: 2.0.2
   reviews: 24
   icon: com.getalby.mobile.jpg
   meta: ok

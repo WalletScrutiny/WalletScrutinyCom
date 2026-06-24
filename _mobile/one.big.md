@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-10-30
-  updated: 2026-05-29
-  version: 2.6.510
+  updated: 2026-06-23
+  version: 2.6.520
   reviews: 55
   icon: one.big.png
   meta: ok

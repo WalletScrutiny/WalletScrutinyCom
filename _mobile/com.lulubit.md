@@ -28,8 +28,8 @@ iphone:
   idd: '6444370380'
   appCountry: pa
   released: 2023-04-17
-  updated: 2026-06-10
-  version: 1.56.0
+  updated: 2026-06-23
+  version: 1.57.0
   reviews: 177
   icon: lulubitLLC.lulubit.jpg
   meta: ok

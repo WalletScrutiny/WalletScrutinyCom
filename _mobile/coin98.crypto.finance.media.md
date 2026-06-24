@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-12-19
-  updated: 2026-06-17
-  version: 16.13.1
+  updated: 2026-06-23
+  version: 16.13.2
   reviews: 261
   icon: coin98.crypto.finance.media.png
   meta: ok

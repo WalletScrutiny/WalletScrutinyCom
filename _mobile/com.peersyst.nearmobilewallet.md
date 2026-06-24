@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2023-02-21
-  updated: 2026-06-02
-  version: 3.9.5
+  updated: 2026-06-22
+  version: 3.10.0
   reviews: 1369
   icon: com.peersyst.nearmobilewallet.png
   meta: ok

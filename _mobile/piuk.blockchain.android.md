@@ -28,9 +28,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-02-01
-  updated: 2026-06-20
+  updated: 2026-06-23
   version: 202606.2.7
-  reviews: 6358
+  reviews: 6357
   icon: piuk.blockchain.android.png
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   meta: ok
@@ -43,9 +43,9 @@ iphone:
   idd: 493253309
   appCountry: us
   released: 2012-04-13
-  updated: 2026-06-17
-  version: 202606.3.0
-  reviews: 184122
+  updated: 2026-06-23
+  version: 202606.3.1
+  reviews: 184114
   icon: com.rainydayapps.Blockchain.jpg
   meta: ok
   verdict: nosource

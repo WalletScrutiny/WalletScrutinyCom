@@ -24,8 +24,8 @@ iphone:
   idd: '6445826746'
   appCountry: us
   released: 2024-05-31
-  updated: 2026-05-13
-  version: 2.7.1
+  updated: 2026-06-23
+  version: 2.7.2
   reviews: 1
   icon: org.reactjs.native.QIEWallet.jpg
   meta: ok

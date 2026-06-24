@@ -26,7 +26,7 @@ android:
   released: 2022-07-01
   updated: 2026-06-18
   version: 4.9.18
-  reviews: 44
+  reviews: 45
   icon: com.osmo.smt.jpg
   meta: ok
   verdict: custodial
@@ -38,7 +38,7 @@ iphone:
   released: 2022-06-14
   updated: 2026-06-18
   version: 4.9.18
-  reviews: 144
+  reviews: 145
   icon: com.osmowallet.app.jpg
   meta: ok
   verdict: custodial

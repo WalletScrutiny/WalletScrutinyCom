@@ -32,7 +32,7 @@ iphone:
   released: 2021-09-21
   updated: 2026-06-02
   version: 0.7.48
-  reviews: 210
+  reviews: 211
   icon: com.bifrostwallet.app.jpg
   meta: ok
   verdict: nosource

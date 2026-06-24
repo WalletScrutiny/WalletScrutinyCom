@@ -32,7 +32,7 @@ iphone:
   released: 2022-06-29
   updated: 2026-05-18
   version: 2.12.17
-  reviews: 31
+  reviews: 32
   icon: com.Rhino.Global.jpg
   meta: ok
   verdict: custodial

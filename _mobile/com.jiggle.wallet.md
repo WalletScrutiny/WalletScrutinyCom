@@ -26,11 +26,11 @@ iphone:
   idd: '6446089702'
   appCountry: us
   released: 2023-06-28
-  updated: 2025-04-14
-  version: 1.4.8
-  reviews: 290
+  updated: 2026-06-24
+  version: 3.1.0
+  reviews: 289
   icon: com.jiggle.cryptowallet.jpg
-  meta: stale
+  meta: ok
   verdict: wip
   developerName: Appia Solutions DMCC
 

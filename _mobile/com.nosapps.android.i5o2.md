@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2022-06-03
-  updated: 2026-06-10
-  version: 1.2.624
+  updated: 2026-06-23
+  version: 1.2.628
   icon: com.nosapps.android.i5o2.png
   meta: fewusers
   verdict: wip

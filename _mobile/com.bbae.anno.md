@@ -17,7 +17,7 @@ iphone:
   version: 7.2.2
   reviews: 865
   icon: com.bbae.anno.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: BBAE Holdings LLC
 

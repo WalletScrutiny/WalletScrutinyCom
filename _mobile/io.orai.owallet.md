@@ -12,7 +12,7 @@ iphone:
   released: 2022-06-06
   updated: 2026-05-20
   version: 3.8.3
-  reviews: 46
+  reviews: 47
   icon: io.orai.owallet.jpg
   meta: ok
   verdict: wip

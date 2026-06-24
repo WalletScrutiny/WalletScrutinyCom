@@ -31,9 +31,9 @@ iphone:
   idd: '1021178150'
   appCountry: de
   released: 2016-02-12
-  updated: 2026-06-18
-  version: 31.8.0
-  reviews: 14022
+  updated: 2026-06-22
+  version: 31.8.1
+  reviews: 14035
   icon: com.bunq.ios.jpg
   meta: ok
   verdict: nosendreceive

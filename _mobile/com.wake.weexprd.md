@@ -21,7 +21,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-02-23
-  updated: 2026-06-09
+  updated: 2026-06-23
   version: 4.5.26
   reviews: 355
   icon: com.wake.weexprd.png
@@ -35,7 +35,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-06-11
   version: 4.5.27
-  reviews: 1938
+  reviews: 1940
   icon: com.wake.weexprd.jpg
   meta: ok
   verdict: custodial

@@ -22,7 +22,7 @@ android:
   icon: com.companyname.swaptobe.png
   meta: ok
   verdict: custodial
-  developerName: PIONE CHAIN
+  developerName: PIONE GLOBAL
 
 ---
 

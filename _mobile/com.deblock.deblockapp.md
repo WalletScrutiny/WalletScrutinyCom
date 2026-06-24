@@ -27,9 +27,9 @@ iphone:
   idd: '6479202981'
   appCountry: fr
   released: 2024-04-02
-  updated: 2026-06-09
-  version: 5.15.0
-  reviews: 21298
+  updated: 2026-06-23
+  version: 5.16.0
+  reviews: 21397
   icon: com.deblock.deblockapp.production.jpg
   meta: ok
   verdict: custodial

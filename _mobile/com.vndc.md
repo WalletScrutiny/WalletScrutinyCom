@@ -19,7 +19,7 @@ android:
   version: 6.4.7
   reviews: 1467
   icon: com.vndc.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: ONUS FINANCE UAB
 iphone:

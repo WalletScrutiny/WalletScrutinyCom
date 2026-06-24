@@ -30,8 +30,8 @@ iphone:
   idd: '406492428'
   appCountry: sg
   released: 2011-01-24
-  updated: 2026-06-12
-  version: 10.3351.0
+  updated: 2026-06-23
+  version: 10.3381.0
   reviews: 2978
   icon: com.igmarkets.ideal.jpg
   meta: ok

@@ -17,7 +17,7 @@ android:
   released: 2014-12-17
   updated: 2026-06-22
   version: 2.173.1
-  reviews: 216
+  reviews: 217
   icon: com.xtb.xmobile2.png
   meta: ok
   verdict: nosendreceive

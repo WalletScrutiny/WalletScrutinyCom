@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-04-03
-  updated: 2026-06-17
-  version: 2.86.0
-  reviews: 1691
+  updated: 2026-06-23
+  version: 2.86.1
+  reviews: 1693
   icon: com.bitget.exchange.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2018-11-29
   updated: 2026-06-19
   version: 2.86.0
-  reviews: 2251
+  reviews: 2253
   icon: com.bitget.exchange.global.jpg
   meta: ok
   verdict: custodial

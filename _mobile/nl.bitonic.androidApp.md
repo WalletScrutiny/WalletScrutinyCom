@@ -27,8 +27,8 @@ iphone:
   idd: '1503179166'
   appCountry: nl
   released: 2020-05-17
-  updated: 2026-06-12
-  version: 3.25.3
+  updated: 2026-06-22
+  version: 3.25.5
   reviews: 2578
   icon: nl.bitonic.Bitonic.jpg
   meta: ok

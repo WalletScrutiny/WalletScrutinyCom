@@ -22,7 +22,7 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-01
-  updated: 2026-06-17
+  updated: 2026-06-23
   version: 3.1.14
   reviews: 560
   icon: com.crypto.multiwallet.jpg
@@ -36,7 +36,7 @@ iphone:
   released: 2018-12-01
   updated: 2026-06-08
   version: 3.1.12
-  reviews: 945
+  reviews: 946
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource

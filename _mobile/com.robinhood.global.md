@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-06-19
-  version: 2026.24.0
+  version: 2026.25.0
   icon: com.robinhood.global.png
   meta: ok
   verdict: custodial

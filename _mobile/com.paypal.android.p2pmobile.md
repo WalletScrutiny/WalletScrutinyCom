@@ -21,7 +21,7 @@ android:
   released: 2016-02-19
   updated: 2026-06-16
   version: 8.107.0
-  reviews: 438565
+  reviews: 438643
   icon: com.paypal.android.p2pmobile.png
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2019-02-03
   updated: 2026-06-11
   version: 8.107.2
-  reviews: 6299097
+  reviews: 6299029
   icon: com.yourcompany.PPClient.jpg
   meta: ok
   verdict: nosendreceive

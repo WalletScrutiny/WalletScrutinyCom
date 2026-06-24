@@ -36,7 +36,7 @@ iphone:
   released: 2025-01-31
   updated: 2026-01-15
   version: 1.0.3
-  reviews: 44
+  reviews: 45
   icon: app.here.dev.wallet.jpg
   meta: ok
   verdict: nosource

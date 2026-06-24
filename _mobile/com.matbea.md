@@ -14,8 +14,8 @@ android:
   appId: com.matbea
   users: 10000
   appCountry: us
-  updated: 2026-02-16
-  version: 1.7.9
+  updated: 2026-06-23
+  version: 1.8.0
   icon: com.matbea.png
   meta: ok
   verdict: custodial

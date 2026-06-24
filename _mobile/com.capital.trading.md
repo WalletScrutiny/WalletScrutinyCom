@@ -34,7 +34,7 @@ iphone:
   released: 2019-12-10
   updated: 2026-06-19
   version: 3.38.0
-  reviews: 324
+  reviews: 325
   icon: com.capital.trading.jpg
   meta: ok
   verdict: nosendreceive

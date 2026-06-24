@@ -16,9 +16,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-07-23
-  updated: 2026-06-18
-  version: 6.62.2
-  reviews: 3059
+  updated: 2026-06-23
+  version: 6.63.0
+  reviews: 3063
   icon: com.mexcpro.client.png
   meta: ok
   verdict: custodial

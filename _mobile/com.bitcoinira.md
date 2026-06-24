@@ -35,7 +35,7 @@ iphone:
   released: 2021-06-20
   updated: 2026-06-16
   version: 2.0.13
-  reviews: 1199
+  reviews: 1200
   icon: com.bitcoinira.jpg
   meta: ok
   verdict: custodial

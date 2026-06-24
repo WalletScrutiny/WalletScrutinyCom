@@ -19,7 +19,7 @@ android:
   released: 2019-03-12
   updated: 2026-06-19
   version: 2.230.0
-  reviews: 13046
+  reviews: 13047
   icon: com.wealthsimple.trade.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 1403491709
   appCountry: ca
   released: 2019-02-26
-  updated: 2026-06-15
-  version: 2.230.0
-  reviews: 129083
+  updated: 2026-06-23
+  version: 2.231.0
+  reviews: 129096
   icon: com.wealthsimple.trade.jpg
   meta: ok
   verdict: nosendreceive

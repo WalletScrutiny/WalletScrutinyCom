@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2015-06-24
-  updated: 2026-01-28
-  version: 5.11.0
+  updated: 2026-06-22
+  version: 5.12.0
   reviews: 45
   icon: com.SatoshiTango.SatoshiTango.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1002555958'
   appCountry: jp
   released: 2015-07-08
-  updated: 2026-01-29
-  version: 5.11.0
+  updated: 2026-06-23
+  version: 5.12.0
   reviews: 2
   icon: com.SatoshiTango.SatoshiTango.jpg
   meta: ok

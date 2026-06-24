@@ -11,7 +11,7 @@ android:
   updated: 2023-11-06
   version: 0.1.8
   icon: com.econobit.app.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Econobit
 

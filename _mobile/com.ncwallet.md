@@ -18,7 +18,7 @@ android:
   released: 2022-10-18
   updated: 2026-06-05
   version: 3.3861.0
-  reviews: 836
+  reviews: 837
   icon: com.ncwallet.png
   meta: ok
   verdict: custodial

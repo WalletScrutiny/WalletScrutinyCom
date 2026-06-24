@@ -21,7 +21,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-10-01
-  updated: 2026-06-13
+  updated: 2026-06-23
   version: 7.9.32.1
   reviews: 554
   icon: asia.coins.mobile.png

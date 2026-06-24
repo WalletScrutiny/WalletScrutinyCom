@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-06-27
-  updated: 2026-06-10
-  version: 4.10.4
+  updated: 2026-06-24
+  version: 4.10.5
   reviews: 128
   icon: com.github.ontio.onto.png
   meta: ok
