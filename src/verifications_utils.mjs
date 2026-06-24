@@ -25,7 +25,6 @@ import {
   getAssetIndexHashes,
 } from './asset-utils.mjs';
 import { formatDate } from './format-utils.mjs';
-import {decode} from "light-bolt11-decoder"
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -2469,20 +2468,11 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
       const zapReceiptInvoice = event.tagValue("bolt11")
       console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
       if (zapReceiptInvoice) {
-        const decodedInvoice = decode(zapReceiptInvoice)
-        console.debug('    - subscribeToZapReceipts - decodedInvoice', decodedInvoice);
+        const amountPaid = nip57.getSatoshisAmountFromBolt11(zapReceiptInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
         event.zapRequest = zapRequest;
         console.debug('    - zapRequest (zapInvoiceFromEvent)', zapRequest);
 
-        const amountSection = decodedInvoice.sections.find(
-          (section) => section.name === "amount"
-        )
-
-        const amountPaid =
-          amountSection && "value" in amountSection
-            ? Math.floor(parseInt(amountSection.value) / 1000)
-            : 0
         const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
 
         if (amountPaid === amountRequested) {

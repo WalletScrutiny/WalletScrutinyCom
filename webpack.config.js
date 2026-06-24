@@ -1,3 +1,4 @@
+const path = require("path");
 const webpack = require("webpack");
 const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
@@ -70,14 +71,12 @@ module.exports = (env, argv) => {
     resolve: {
       alias: {
         jquery: require.resolve('jquery/slim'),
+        debug: path.resolve(__dirname, 'src/debug-stub.js'),
       },
       fallback: {
         path: require.resolve('path-browserify'),
         fs: false, // 'fs' is not supported in browsers, disable it
         zlib: false,
-        util: require.resolve('util/'),
-        stream: require.resolve('stream-browserify'),
-        assert: require.resolve('assert'),
         process: require.resolve('process/browser'),
       },
     },
