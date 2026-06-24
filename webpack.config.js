@@ -75,9 +75,6 @@ module.exports = (env, argv) => {
         path: require.resolve('path-browserify'),
         fs: false, // 'fs' is not supported in browsers, disable it
         zlib: false,
-        util: require.resolve('util/'),
-        stream: require.resolve('stream-browserify'),
-        assert: require.resolve('assert'),
         process: require.resolve('process/browser'),
       },
     },
