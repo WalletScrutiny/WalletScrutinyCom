@@ -19,10 +19,8 @@ module.exports = (env, argv) => {
     devtool: argv.mode === 'production' ? false : 'source-map',
     entry: {
       // Do not change the order of the entries
-      jquery: [
+      site_main: [
         './assets/js/_main.js',
-        './assets/js/plugins/jquery.fitvids.js',
-        './assets/js/plugins/jquery.greedy-navigation.js'
       ],
       dom_sanitization: ['dompurify'],
       verifications_data: {
@@ -70,7 +68,6 @@ module.exports = (env, argv) => {
     },
     resolve: {
       alias: {
-        jquery: require.resolve('jquery/slim'),
         debug: path.resolve(__dirname, 'src/debug-stub.js'),
       },
       fallback: {
@@ -103,10 +100,6 @@ module.exports = (env, argv) => {
     },
     plugins: [
       new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery',
-        'window.$': 'jquery',
         process: 'process/browser',
       }),
       new HtmlWebpackPlugin(

@@ -1,26 +1,14 @@
 /* ==========================================================================
-   jQuery plugin settings and other scripts
+   Site-wide UI scripts
    ========================================================================== */
 
-$(document).ready(function(){
-   // Sticky footer
-  var bumpIt = function() {
-      $("body").attr("_margin-bottom", $(".page__footer").outerHeight(true));
-    },
-    didResize = false;
+import { fitVids } from './fit-vids.js';
+import { initGreedyNavigation } from './greedy-navigation.js';
 
-  bumpIt();
-
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
-
-  // FitVids init
-  $("#main").fitVids();
+document.addEventListener('DOMContentLoaded', () => {
+  const main = document.getElementById('main');
+  if (main) {
+    fitVids(main);
+  }
+  initGreedyNavigation();
 });
