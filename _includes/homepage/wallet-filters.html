@@ -1,4 +1,16 @@
 <script>window.isHomepage=true;</script>
+<script>
+const platformNotes = {
+{%- assign platform_notes_first = true -%}
+{%- for p in site.data.platformMeta -%}
+{%- if p[1].notes -%}
+{%- unless platform_notes_first -%},{%- endunless -%}
+  {{ p[0] | jsonify }}: {{ p[1].notes | jsonify }}
+{%- assign platform_notes_first = false -%}
+{%- endif -%}
+{%- endfor -%}
+};
+</script>
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count={% include /homepage/full_wallet_count.html %};</script>
