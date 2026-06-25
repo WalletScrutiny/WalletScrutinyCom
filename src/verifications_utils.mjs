@@ -8,7 +8,6 @@ import {
   fetchEvents as nostrFetchEvents,
   fetchEvent as nostrFetchEvent,
   fetchEventsWithPagination as nostrFetchEventsWithPagination,
-  fetchProfile as nostrFetchProfile,
   signEvent,
   publishEvent,
   publishToRelays,
@@ -49,6 +48,7 @@ import {
   getAssetIndexHashes,
 } from './asset-utils.mjs';
 import { formatDate } from './format-utils.mjs';
+import { getNostrProfile } from './nostr-profile.mjs';
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -166,167 +166,6 @@ const validateSHA256 = function(hashes) {
   }
 }
 
-/**
- * Save profile to IDB
- * @param {string} pubkey - User's public key
- * @param {Object} profile - Profile data
- */
-const saveProfileToIDB = async (pubkey, profile) => {
-  const db = await initDB().catch(() => null);
-  if (!db) return;
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([profilesStoreName], "readwrite");
-    const objectStore = transaction.objectStore(profilesStoreName);
-
-    const profileData = {
-      pubkey,
-      profile,
-      cached_at: Math.floor(Date.now() / 1000),
-      cache_version: PROFILE_CACHE_VERSION,
-    };
-
-    const request = objectStore.put(profileData);
-    request.onsuccess = () => resolve();
-    request.onerror = () => reject("Error saving profile to IDB");
-  });
-};
-
-// Profile cache TTL. Only successful profiles with metadata are stored in IDB.
-const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
-/** Bump when profile normalization/sanitization changes to invalidate stale IDB entries. */
-const PROFILE_CACHE_VERSION = 4;
-
-const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
-
-function sanitizeProfileMediaUrl(url) {
-  return String(url ?? '').trim();
-}
-
-function sanitizeProfileValue(key, value) {
-  const str = String(value ?? '');
-  if (PROFILE_URL_KEYS.has(key)) {
-    return sanitizeProfileMediaUrl(str);
-  }
-  return DOMPurify.sanitize(str, purifyConfig);
-}
-
-/**
- * Get profile from IDB
- * @param {string} pubkey - User's public key
- * @returns {Promise<Object|null>} Cached profile object, or null if stale/missing.
- */
-const getProfileFromIDB = async (pubkey) => {
-  const db = await initDB().catch(() => null);
-  if (!db) return null;
-
-  return new Promise((resolve) => {
-    const transaction = db.transaction([profilesStoreName], "readonly");
-    const objectStore = transaction.objectStore(profilesStoreName);
-
-    const request = objectStore.get(pubkey);
-    request.onsuccess = () => {
-      const result = request.result;
-      if (!result) {
-        resolve(null);
-        return;
-      }
-
-      const now = Math.floor(Date.now() / 1000);
-      const age = now - result.cached_at;
-      const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
-
-      if (isEmpty || age > PROFILE_HIT_MAX_AGE || result.cache_version !== PROFILE_CACHE_VERSION) {
-        resolve(null);
-        return;
-      }
-
-      resolve(result.profile);
-    };
-    request.onerror = () => resolve(null);
-  });
-};
-
-// Dedupe in-flight network fetches so concurrent callers asking for the same
-// pubkey (e.g. the current-month and prior-month tables on /verifiers/) share
-// one round-trip instead of racing.
-const inFlightProfileFetches = new Map();
-
-/** Map NIP-01 field names to the shape expected by UI code (NDK did this internally). */
-function normalizeNostrProfile(profile) {
-  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
-    return null;
-  }
-  const normalized = { ...profile };
-  if (!normalized.image && normalized.picture) {
-    normalized.image = normalized.picture;
-  }
-  if (!normalized.displayName && normalized.display_name) {
-    normalized.displayName = normalized.display_name;
-  }
-  return normalized;
-}
-
-const getNostrProfile = async function (pubkey) {
-  if (!pubkey || pubkey.length !== 64) {
-    console.info("getNostrProfile: Invalid pubkey", pubkey);
-    return null;
-  }
-
-  const cached = await getProfileFromIDB(pubkey).catch(() => null);
-  if (cached) {
-    const normalizedCached = normalizeNostrProfile(cached);
-    if (normalizedCached?.image || normalizedCached?.picture) {
-      return normalizedCached;
-    }
-  }
-
-  if (inFlightProfileFetches.has(pubkey)) {
-    return inFlightProfileFetches.get(pubkey);
-  }
-
-  const fetchPromise = (async () => {
-    let profile;
-    try {
-      await ensureNdkConnected();
-    } catch (e) {
-      console.debug(`Nostr not connected for profile fetch (${pubkey.substring(0, 8)}...)`, e);
-      return null;
-    }
-
-    try {
-      profile = await nostrFetchProfile(pubkey);
-    } catch (e) {
-      // NDK can throw if the remote profile content is not valid JSON.
-      // Treat this as "profile not available" rather than a hard failure.
-      console.debug(
-        `Nostr profile fetch failed for ${pubkey.substring(0, 8)}...`,
-        e && e.message ? e.message : e
-      );
-      profile = null;
-    }
-
-    if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
-      return null;
-    }
-
-    const sanitizedProfile = {};
-    Object.keys(profile).forEach(key => {
-      sanitizedProfile[key] = sanitizeProfileValue(key, profile[key]);
-    });
-
-    const normalizedProfile = normalizeNostrProfile(sanitizedProfile);
-    saveProfileToIDB(pubkey, normalizedProfile ?? sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
-
-    return normalizedProfile;
-  })().finally(() => {
-    inFlightProfileFetches.delete(pubkey);
-  });
-
-  inFlightProfileFetches.set(pubkey, fetchPromise);
-  return fetchPromise;
-}
-
 const getNpubFromPubkey = function (pubkey) {
   return nip19.npubEncode(pubkey);
 }
@@ -335,91 +174,6 @@ const shortenNpub = function (npub) {
   if (!npub || npub.length < 16) return npub;
   return `${npub.substring(0, 10)}…${npub.substring(npub.length - 6)}`;
 }
-
-const getProfileDisplayName = function (profile, pubkey) {
-  const candidate = profile && (profile.name || profile.displayName || profile.display_name);
-  if (candidate && String(candidate).trim()) return String(candidate).trim();
-  try {
-    return shortenNpub(getNpubFromPubkey(pubkey));
-  } catch (e) {
-    return pubkey ? `${pubkey.substring(0, 8)}…` : '';
-  }
-}
-
-// Served as a real file rather than a data: URL so it works under the
-// production CSP (img-src *; — wildcards exclude data:/blob:/filesystem:).
-const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
-
-function normalizeProfileImageUrl(url) {
-  const trimmed = String(url ?? '').trim();
-  if (!trimmed) {
-    return '';
-  }
-  if (
-    typeof window !== 'undefined' &&
-    window.location?.protocol === 'https:' &&
-    trimmed.startsWith('http://')
-  ) {
-    return `https://${trimmed.slice('http://'.length)}`;
-  }
-  return trimmed;
-}
-
-const getProfileImageUrl = function (profile) {
-  const url = normalizeProfileImageUrl(profile?.image || profile?.picture);
-  return url || PROFILE_PLACEHOLDER_IMAGE;
-};
-
-function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl) {
-  const displayName = getProfileDisplayName(profile, pubkey);
-  return `
-    <div class="profile-circle-container" data-name="${displayName}">
-      <img src="${imageUrl}" class="profile-circle" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
-      <div class="profile-hover-modal">
-        <div class="profile-modal-content">
-          <img src="${imageUrl}" class="profile-modal-image" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
-          <br>
-          <span>${displayName}</span>
-          <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-function profileImageFallback(img) {
-  const placeholder = img.dataset.placeholder || PROFILE_PLACEHOLDER_IMAGE;
-  if (img.src !== placeholder) {
-    img.onerror = null;
-    img.src = placeholder;
-  }
-}
-
-const renderProfileCardHtml = function (pubkey, profile) {
-  const displayName = getProfileDisplayName(profile, pubkey);
-  const imageUrl = getProfileImageUrl(profile);
-  return `
-    <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
-      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
-      <div class="profile-info">
-        <div>${displayName}</div>
-        ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-      </div>
-    </div>
-  `;
-};
-
-const renderBigProfileCardHtml = function (pubkey, profile) {
-  const displayName = getProfileDisplayName(profile, pubkey);
-  const imageUrl = getProfileImageUrl(profile);
-  return `
-    <div class="big-profile-card">
-      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
-      <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
-      ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-    </div>
-  `;
-};
 
 const getWSClientTags = function() {
   return [
@@ -2457,10 +2211,6 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
   }
 };
 
-const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
-  return JSON.parse(profileInfo.profileEvent);
-};
-
 const createAuthorizationEvent = async function(verb, content, xTags = [], serverUrl = '', tags = []) {
   await ensureNdkConnected();
   const eventObject = {
@@ -2499,7 +2249,6 @@ if (typeof window !== 'undefined') {
   window.createEndorsement = createEndorsement;
   window.createVerificationReport = createVerificationReport;
   window.createNostrNote = createNostrNote;
-  window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
   window.backgroundSyncEvents = backgroundSyncEvents;
   window.verificationKind = verificationKind;
@@ -2507,13 +2256,6 @@ if (typeof window !== 'undefined') {
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
   window.shortenNpub = shortenNpub;
-  window.getProfileDisplayName = getProfileDisplayName;
-  window.getProfileImageUrl = getProfileImageUrl;
-  window.PROFILE_PLACEHOLDER_IMAGE = PROFILE_PLACEHOLDER_IMAGE;
-  window.profileImageFallback = profileImageFallback;
-  window.buildProfileCircleHtml = buildProfileCircleHtml;
-  window.renderProfileCardHtml = renderProfileCardHtml;
-  window.renderBigProfileCardHtml = renderBigProfileCardHtml;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
@@ -2538,7 +2280,6 @@ if (typeof window !== 'undefined') {
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
   window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
   window.createZap = createZap;
-  window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
   window.subscribeToZapReceipts = subscribeToZapReceipts;
   window.createAuthorizationEvent = createAuthorizationEvent;
   window.getTagValue = getTagValue;
@@ -2561,10 +2302,6 @@ export {
   showToast,
   getNpubFromPubkey,
   shortenNpub,
-  getProfileDisplayName,
-  getProfileImageUrl,
-  renderProfileCardHtml,
-  renderBigProfileCardHtml,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,

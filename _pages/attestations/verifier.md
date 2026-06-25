@@ -94,14 +94,9 @@ permalink: /verifier/
 
       const profile = await getNostrProfile(pubkey);
 
-      if (profile && (profile.lud16 || profile.lud06)) {
-        try {
-          const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
-          window.profileEvent = profileEvent;
-          document.getElementById('zapButtonVerifier').style.display = 'inline-block';
-        } catch (error) {
-          console.error('Error parsing profile event:', error);
-        }
+      if (profile && (profile.lud16 || profile.lud06) && profile.profileEvent) {
+        window.profileEvent = profile.profileEvent;
+        document.getElementById('zapButtonVerifier').style.display = 'inline-block';
       } else if (profile) {
         const zapBtn = document.getElementById('zapButtonVerifier');
         zapBtn.style.display = 'inline-block';

@@ -5,7 +5,6 @@ import { bech32 } from '@scure/base';
 import * as nip04 from 'nostr-tools/nip04';
 import * as nip19 from 'nostr-tools/nip19';
 import * as nip57 from 'nostr-tools/nip57';
-import { eventRelayUrls } from './nostr-constants.mjs';
 
 let pool = null;
 let relayUrls = [];
@@ -276,42 +275,6 @@ export function subscribeEvents(filter, { onevent, onclose, maxWait } = {}) {
     onclose,
     maxWait: maxWait ?? 3000,
   });
-}
-
-export async function fetchProfile(pubkey, options = {}) {
-  await ensureConnected();
-  const urls = options.relayUrls ?? eventRelayUrls;
-  const maxWait = options.maxWait ?? 4000;
-
-  const results = await Promise.allSettled(
-    urls.map(async (url) => {
-      const event = await pool.get([url], { kinds: [0], authors: [pubkey], limit: 1 }, { maxWait });
-      if (!event?.content) {
-        return null;
-      }
-      try {
-        return JSON.parse(event.content);
-      } catch {
-        return null;
-      }
-    })
-  );
-
-  let fallback = null;
-  for (const result of results) {
-    if (result.status !== 'fulfilled' || !result.value || typeof result.value !== 'object') {
-      continue;
-    }
-    const profile = result.value;
-    if (profile.picture || profile.image) {
-      return profile;
-    }
-    if (!fallback) {
-      fallback = profile;
-    }
-  }
-
-  return fallback;
 }
 
 export async function createEncryptedDm(recipientPubkey, plaintext, authorPubkey) {
