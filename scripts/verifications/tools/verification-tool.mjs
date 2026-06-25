@@ -4,7 +4,13 @@ import { UIRenderer } from './ui-renderer.mjs';
 import { AnalysisEngine } from './analysis-engine.mjs';
 import { generateMissingEventsReport } from './report-generator.mjs';
 import { publishToRelay, countBackupEvents, KIND_NAMES } from './publishToRelay.mjs';
-import NDK from "@nostr-dev-kit/ndk";
+import WebSocket from "ws";
+import {
+  setupWebSocketForNode,
+  withEphemeralPool,
+} from "../../../src/nostr-client.mjs";
+
+setupWebSocketForNode(WebSocket);
 import WebSocket from "ws";
 import fs from "fs";
 import path from "path";
@@ -245,19 +251,15 @@ class VerificationTool {
     console.log(`\nEvent ID: ${eventId}`);
     console.log(`Connecting to ${relayUrl}...\n`);
     
-    const ndk = new NDK({
-      explicitRelayUrls: [relayUrl],
-    });
-
     try {
-      await ndk.connect(3000);
-      console.log(`✅ Connected to ${relayName} relay`);
-      console.log("🔍 Fetching event...\n");
-      
-      const event = await ndk.fetchEvent(eventId);
-      
+      await withEphemeralPool([relayUrl], async (pool, urls) => {
+      console.log(`Connected to ${relayName} relay`);
+      console.log("Fetching event...\n");
+
+      const event = await pool.get(urls, { ids: [eventId] });
+
       if (event) {
-        console.log("📄 RAW EVENT DATA:");
+        console.log("RAW EVENT DATA:");
         console.log("-".repeat(60));
         console.log(JSON.stringify({
           id: event.id,
@@ -269,19 +271,11 @@ class VerificationTool {
           sig: event.sig
         }, null, 2));
       } else {
-        console.log(`❌ Event not found on ${relayName} relay`);
+        console.log(`Event not found on ${relayName} relay`);
       }
-      
+      }, { connectTimeoutMs: 3000 });
     } catch (error) {
-      console.log(`❌ Failed to fetch from ${relayName}: ${error.message}`);
-    } finally {
-      // Disconnect from relay
-      await Promise.all(Array.from(ndk.pool.relays.values()).map(relay => {
-        return new Promise(resolve => {
-          relay.disconnect();
-          setTimeout(resolve, 100);
-        });
-      }));
+      console.log(`Failed to fetch from ${relayName}: ${error.message}`);
     }
     
     console.log("\n" + "=".repeat(60));
@@ -339,32 +333,27 @@ class VerificationTool {
     console.log("=".repeat(60));
     console.log(`Connecting to ${RELAY_URL}...\n`);
 
-    const ndk = new NDK({ explicitRelayUrls: [RELAY_URL] });
+    await withEphemeralPool([RELAY_URL], async (pool, urls) => {
+      console.log("Connected\nFetching kind 30301 events...\n");
 
-    try {
-      await ndk.connect(5000);
-      console.log("✅ Connected\n🔍 Fetching kind 30301 events...\n");
-
-      const events = await Promise.race([
-        ndk.fetchEvents({ kinds: [30301] }),
+      const allEvents = await Promise.race([
+        pool.querySync(urls, { kinds: [30301] }),
         new Promise((_, reject) =>
           setTimeout(() => reject(new Error("Fetch timeout after 15s")), 15000)
-        )
+        ),
       ]);
 
-      const allEvents = Array.from(events);
       const wsEvents = allEvents.filter(e =>
         e.tags.some(t => Array.isArray(t) && t[0] === "client" && t[1] === "WalletScrutiny.com")
       );
 
       const backupEvents = await this.analysisEngine.getBackupData();
 
-      // Find which backup events are missing from relay
       const relayIds = new Set(wsEvents.map(e => e.id));
       const missingFromRelay = backupEvents.filter(e => !relayIds.has(e.id));
 
       console.log("=".repeat(60));
-      console.log("📊 RESULTS");
+      console.log("RESULTS");
       console.log("=".repeat(60));
       console.log(`  Total kind 30301 events on relay : ${allEvents.length}`);
       console.log(`  WalletScrutiny.com events on relay: ${wsEvents.length}`);
@@ -380,19 +369,12 @@ class VerificationTool {
       }
 
       if (missingFromRelay.length > 0) {
-        console.log(`\n⚠️  ${missingFromRelay.length} backup events are NOT on relay.nostr.info`);
+        console.log(`\n${missingFromRelay.length} backup events are NOT on relay.nostr.info`);
         console.log("   (These would be candidates for inverse backup / re-publishing)");
       } else {
-        console.log("\n✅ relay.nostr.info has all backup events!");
+        console.log("\nrelay.nostr.info has all backup events!");
       }
-
-    } catch (error) {
-      console.log(`\n❌ Failed: ${error.message}`);
-    } finally {
-      await Promise.all(Array.from(ndk.pool.relays.values()).map(relay =>
-        new Promise(resolve => { relay.disconnect(); setTimeout(resolve, 100); })
-      ));
-    }
+    }, { connectTimeoutMs: 5000 });
 
     console.log("\n" + "=".repeat(60));
     console.log("Press any key to return to menu...");

@@ -3,7 +3,7 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import WebSocket from 'ws';
-global.WebSocket = WebSocket; // For NDK
+import { setupWebSocketForNode } from '../../src/nostr-client.mjs';
 import {
   connectToNostr,
   getAllVerifications
@@ -29,6 +29,8 @@ import {
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
 import { DEBUG } from './config/env.mjs';
+
+setupWebSocketForNode(WebSocket);
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');

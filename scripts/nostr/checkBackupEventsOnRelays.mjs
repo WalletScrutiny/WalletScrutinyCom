@@ -10,7 +10,13 @@
  * (WalletScrutiny relay go-live; see constant comment below).
  */
 
-import NDK from "@nostr-dev-kit/ndk";
+import {
+  setupWebSocketForNode,
+  connectNostr,
+  fetchEvents,
+  getPool,
+  disconnectNostr,
+} from "../../src/nostr-client.mjs";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
@@ -54,7 +60,7 @@ const KIND_LABELS = {
 
 const CONNECT_TIMEOUT_MS = 5000;
 const FETCH_TIMEOUT_MS = 30000;
-const ID_BATCH_SIZE = 100;
+const ID_BATCH_SIZE = 250;
 const RELAY_SETTLE_MS = 2000;
 /** Kind 1337 backup files above this size are omitted from the missing-events report. */
 const CODE_SNIPPET_MAX_REPORT_BYTES = 42 * 1024;
@@ -114,7 +120,7 @@ function loadAllBackupEvents() {
   return events;
 }
 
-async function fetchIdsOnRelays(ndk, eventIds) {
+async function fetchIdsOnRelays(eventIds, { relayUrls, maxWait }) {
   const foundIds = new Set();
 
   for (let i = 0; i < eventIds.length; i += ID_BATCH_SIZE) {
@@ -125,7 +131,7 @@ async function fetchIdsOnRelays(ndk, eventIds) {
     let events;
     try {
       events = await Promise.race([
-        ndk.fetchEvents({ ids: batch }),
+        fetchEvents({ ids: batch }, { relayUrls, maxWait }),
         new Promise((_, reject) =>
           setTimeout(() => reject(new Error("fetch timeout")), FETCH_TIMEOUT_MS)
         ),
@@ -322,17 +328,20 @@ async function main() {
   const uniqueIds = [...new Set(backupEvents.map(event => event.id))];
   console.log(`Loaded ${backupEvents.length} backup event file(s) (${uniqueIds.length} unique ids).`);
 
-  const ndk = new NDK({ explicitRelayUrls });
+  setupWebSocketForNode(WebSocket);
 
   console.log("\nConnecting to relays...");
-  await ndk.connect(CONNECT_TIMEOUT_MS);
+  await connectNostr({ relayUrls: explicitRelayUrls, connectTimeoutMs: CONNECT_TIMEOUT_MS });
   await new Promise(resolve => setTimeout(resolve, RELAY_SETTLE_MS));
 
-  const connectedRelays = [...ndk.pool.relays.values()].filter(relay => relay.connected);
-  const connectedUrls = new Set(connectedRelays.map(relay => relay.url));
+  const pool = getPool();
+  const connectionStatus = pool.listConnectionStatus();
+  const connectedUrls = new Set(
+    [...connectionStatus.entries()].filter(([, connected]) => connected).map(([url]) => url)
+  );
   const failedRelays = explicitRelayUrls.filter(url => !connectedUrls.has(url));
 
-  if (connectedRelays.length === 0) {
+  if (connectedUrls.size === 0) {
     console.error("Could not connect to any configured relay:");
     for (const relayUrl of failedRelays) {
       console.error(`  unreachable: ${relayUrl}`);
@@ -340,7 +349,7 @@ async function main() {
     throw new Error("Could not connect to any configured relay");
   }
 
-  console.log(`Connected to ${connectedRelays.length}/${explicitRelayUrls.length} relay(s).`);
+  console.log(`Connected to ${connectedUrls.size}/${explicitRelayUrls.length} relay(s).`);
   if (failedRelays.length > 0) {
     console.warn(
       "WARNING: Not all relays connected. Events only on unreachable relays may be " +
@@ -352,7 +361,11 @@ async function main() {
   }
 
   console.log("Querying relays for backup event ids...");
-  const foundIds = await fetchIdsOnRelays(ndk, uniqueIds);
+  const connectedRelayUrls = [...connectedUrls];
+  const foundIds = await fetchIdsOnRelays(uniqueIds, {
+    relayUrls: connectedRelayUrls,
+    maxWait: FETCH_TIMEOUT_MS,
+  });
 
   printMissingReport(backupEvents, foundIds);
 }

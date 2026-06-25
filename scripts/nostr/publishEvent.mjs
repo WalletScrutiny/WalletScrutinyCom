@@ -1,8 +1,14 @@
-import NDK, { NDKEvent, NDKPrivateKeySigner } from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import WebSocket from "ws";
+import {
+  setupWebSocketForNode,
+  connectNostr,
+  signEvent,
+  publishEvent,
+  setPrivateKey,
+} from "../../src/nostr-client.mjs";
 
-global.WebSocket = WebSocket;
+setupWebSocketForNode(WebSocket);
 
 const RELAYS = [
   "wss://relay.nostr.info/",
@@ -11,7 +17,6 @@ const RELAYS = [
   "wss://relay.damus.io/",
 ];
 
-// Private key for signing (hex format, without 'nsec' prefix)
 const PRIVATE_KEY = "";
 
 const filePath = process.argv[2];
@@ -23,7 +28,6 @@ if (!filePath) {
 
 async function main() {
   try {
-    // Read event from file
     let eventJson;
     try {
       const content = fs.readFileSync(filePath, "utf-8");
@@ -38,28 +42,25 @@ async function main() {
     console.log(`Kind: ${eventJson.kind}`);
     console.log(`Relays: ${RELAYS.join(", ")}`);
 
-    const signer = PRIVATE_KEY ? new NDKPrivateKeySigner(PRIVATE_KEY) : undefined;
-    const ndk = new NDK({ explicitRelayUrls: RELAYS, signer });
-    
+    if (PRIVATE_KEY) {
+      setPrivateKey(PRIVATE_KEY);
+    }
+
     console.log("\nConnecting to relays...");
-    await ndk.connect(5000);
+    await connectNostr({ relayUrls: RELAYS, connectTimeoutMs: 5000 });
     await new Promise(resolve => setTimeout(resolve, 5000));
 
-    const ndkEvent = new NDKEvent(ndk, eventJson);
-
-    // Sign with private key if provided
+    let eventToPublish = eventJson;
     if (PRIVATE_KEY) {
-      await ndkEvent.sign();
+      eventToPublish = await signEvent(eventJson);
       console.log("Event signed with provided private key");
     }
 
     console.log("\nPublishing...");
-    const publishedTo = await ndkEvent.publish();
-    
-    const relaySet = Array.from(publishedTo || []);
-    if (relaySet.length > 0) {
-      console.log(`\nPublished successfully to ${relaySet.length} relay(s):`);
-      relaySet.forEach(r => console.log(`  - ${r.url}`));
+    const { successful } = await publishEvent(eventToPublish, RELAYS);
+
+    if (successful > 0) {
+      console.log(`\nPublished successfully to ${successful} relay(s)`);
     } else {
       console.log("\nEvent published (no confirmation from relays)");
     }
