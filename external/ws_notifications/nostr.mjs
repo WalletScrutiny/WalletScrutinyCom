@@ -8,7 +8,7 @@ import {
   setPrivateKey,
   disconnectNostr,
 } from '../../src/nostr-client.mjs';
-import { explicitRelayUrls, verificationKind } from './nostr-constants.mjs';
+import { eventRelayUrls, verificationKind } from './nostr-constants.mjs';
 import { appLog } from './logger.mjs';
 import {
   buildVerificationUrl,
@@ -48,7 +48,7 @@ export async function connectToNostr(nostrPrivateKey) {
   }
 
   await connectNostr({
-    relayUrls: explicitRelayUrls,
+    relayUrls: eventRelayUrls,
     connectTimeoutMs: 2000,
     privateKey: nostrPrivateKey ?? undefined,
     onRelayConnect: (relay) => {

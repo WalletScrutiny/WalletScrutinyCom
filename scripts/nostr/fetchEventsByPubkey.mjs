@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { explicitRelayUrls, wsBotPublicKey, verificationKind } from "../../src/nostr-constants.mjs";
+import { eventRelayUrls, wsBotPublicKey, verificationKind } from "../../src/nostr-constants.mjs";
 import {
   setupWebSocketForNode,
   connectNostr,
@@ -18,10 +18,10 @@ const OUTPUT_DIR = path.join(BASE_DIR, PUBKEY);
 async function main() {
   try {
     console.log(`Fetching all events for pubkey: ${PUBKEY}`);
-    console.log(`Relays: ${explicitRelayUrls.join(", ")}`);
+    console.log(`Relays: ${eventRelayUrls.join(", ")}`);
 
     console.log("\nConnecting to relays...");
-    await connectNostr({ relayUrls: explicitRelayUrls, connectTimeoutMs: 2000 });
+    await connectNostr({ relayUrls: eventRelayUrls, connectTimeoutMs: 2000 });
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     console.log("Fetching events (this may take a while)...");

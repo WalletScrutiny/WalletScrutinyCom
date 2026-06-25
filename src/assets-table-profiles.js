@@ -99,10 +99,10 @@ export function renderProfilePictures(profilePubkeys) {
       profileElementsForThisPubkey.forEach(profileElement => {
         profileElement.innerHTML = `
           <div class="profile-circle-container" data-name="${getProfileDisplayName(profile, pubkey)}">
-            ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
+            ${profile.image || profile.picture ? `<img src="${profile.image || profile.picture}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
             <div class="profile-hover-modal">
               <div class="profile-modal-content">
-                ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
+                ${profile.image || profile.picture ? `<img src="${profile.image || profile.picture}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
                 <br>
                 <span>${getProfileDisplayName(profile, pubkey)}</span>
                 <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>

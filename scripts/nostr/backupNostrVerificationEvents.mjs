@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, eventRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
 import {
   setupWebSocketForNode,
@@ -50,7 +50,7 @@ function getEventPath(event) {
 async function main() {
   try {
     console.log("Connecting to relays...");
-    await connectNostr({ relayUrls: explicitRelayUrls, connectTimeoutMs: 2000 });
+    await connectNostr({ relayUrls: eventRelayUrls, connectTimeoutMs: 2000 });
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     const since = getTimestamp();

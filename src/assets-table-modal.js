@@ -230,7 +230,7 @@ function buildVerifierProfileCardHtml(profile, pubkey) {
   if (profile) {
     return `
     <div class="profile-card">
-      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      ${profile.image || profile.picture ? `<img src="${profile.image || profile.picture}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="this.style.display='none'"/>` : ''}
       <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
         <div>${getProfileDisplayName(profile, pubkey)}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
@@ -731,8 +731,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         const npub = getNpubFromPubkey(zap.zapperPubkey);
         zapsHTML += `
           <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
-            ${zap.zapperProfile ? `${zap.zapperProfile.image ? `
-              <img src="${zap.zapperProfile.image}" class="profile-image"
+            ${zap.zapperProfile ? `${(zap.zapperProfile.image || zap.zapperProfile.picture) ? `
+              <img src="${zap.zapperProfile.image || zap.zapperProfile.picture}" class="profile-image"
                   title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
                   onclick="window.open('https://njump.me/${npub}', '_blank')"
                   onerror="this.style.display='none'"
@@ -776,8 +776,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
       endorsementsHTML += `
         <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
-          ${endorserProfile ? `${endorserProfile.image ? `
-            <img src="${endorserProfile.image}" class="profile-image"
+          ${endorserProfile ? `${(endorserProfile.image || endorserProfile.picture) ? `
+            <img src="${endorserProfile.image || endorserProfile.picture}" class="profile-image"
                 title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
                 onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
                 onerror="this.style.display='none'"

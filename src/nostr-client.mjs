@@ -5,6 +5,7 @@ import { bech32 } from '@scure/base';
 import * as nip04 from 'nostr-tools/nip04';
 import * as nip19 from 'nostr-tools/nip19';
 import * as nip57 from 'nostr-tools/nip57';
+import { profileRelayUrl } from './nostr-constants.mjs';
 
 let pool = null;
 let relayUrls = [];
@@ -277,9 +278,12 @@ export function subscribeEvents(filter, { onevent, onclose, maxWait } = {}) {
   });
 }
 
-export async function fetchProfile(pubkey) {
+export async function fetchProfile(pubkey, options = {}) {
   await ensureConnected();
-  const event = await pool.get(relayUrls, { kinds: [0], authors: [pubkey], limit: 1 });
+  const urls = options.relayUrls ?? [...new Set([profileRelayUrl, ...relayUrls])];
+  const event = await pool.get(urls, { kinds: [0], authors: [pubkey], limit: 1 }, {
+    maxWait: options.maxWait ?? 5000,
+  });
   if (!event?.content) {
     return null;
   }

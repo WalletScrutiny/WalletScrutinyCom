@@ -12,7 +12,7 @@ import {
   verificationKind,
   assetRegistrationKind,
   assetBundleRegistrationKind,
-  explicitRelayUrls,
+  eventRelayUrls,
   verificationEventsSinceTS,
   wsBotPublicKey,
   nip89ClientTagD,
@@ -90,7 +90,7 @@ export async function connectToNostr(nostrPrivateKey) {
   setPrivateKey(nostrPrivateKey);
 
   await connectNostr({
-    relayUrls: explicitRelayUrls,
+    relayUrls: eventRelayUrls,
     connectTimeoutMs: 2000,
     privateKey: nostrPrivateKey,
     onRelayConnect: (relay) => {

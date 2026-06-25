@@ -21,7 +21,7 @@ import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
 import {
-  explicitRelayUrls,
+  eventRelayUrls,
   assetRegistrationKind,
   assetBundleRegistrationKind,
   verificationKind,
@@ -59,7 +59,9 @@ const KIND_LABELS = {
 };
 
 const CONNECT_TIMEOUT_MS = 5000;
-const FETCH_TIMEOUT_MS = 30000;
+/** Per-relay EOSE wait for id batches (querySync); not the outer batch ceiling. */
+const QUERY_EOSE_MS = 8000;
+const FETCH_TIMEOUT_MS = 15000;
 const ID_BATCH_SIZE = 250;
 const RELAY_SETTLE_MS = 2000;
 /** Kind 1337 backup files above this size are omitted from the missing-events report. */
@@ -331,7 +333,7 @@ async function main() {
   setupWebSocketForNode(WebSocket);
 
   console.log("\nConnecting to relays...");
-  await connectNostr({ relayUrls: explicitRelayUrls, connectTimeoutMs: CONNECT_TIMEOUT_MS });
+  await connectNostr({ relayUrls: eventRelayUrls, connectTimeoutMs: CONNECT_TIMEOUT_MS });
   await new Promise(resolve => setTimeout(resolve, RELAY_SETTLE_MS));
 
   const pool = getPool();
@@ -339,7 +341,7 @@ async function main() {
   const connectedUrls = new Set(
     [...connectionStatus.entries()].filter(([, connected]) => connected).map(([url]) => url)
   );
-  const failedRelays = explicitRelayUrls.filter(url => !connectedUrls.has(url));
+  const failedRelays = eventRelayUrls.filter(url => !connectedUrls.has(url));
 
   if (connectedUrls.size === 0) {
     console.error("Could not connect to any configured relay:");
@@ -349,7 +351,7 @@ async function main() {
     throw new Error("Could not connect to any configured relay");
   }
 
-  console.log(`Connected to ${connectedUrls.size}/${explicitRelayUrls.length} relay(s).`);
+  console.log(`Connected to ${connectedUrls.size}/${eventRelayUrls.length} relay(s).`);
   if (failedRelays.length > 0) {
     console.warn(
       "WARNING: Not all relays connected. Events only on unreachable relays may be " +
@@ -364,7 +366,7 @@ async function main() {
   const connectedRelayUrls = [...connectedUrls];
   const foundIds = await fetchIdsOnRelays(uniqueIds, {
     relayUrls: connectedRelayUrls,
-    maxWait: FETCH_TIMEOUT_MS,
+    maxWait: QUERY_EOSE_MS,
   });
 
   printMissingReport(backupEvents, foundIds);

@@ -34,6 +34,7 @@ import {
   codeSnippetKind,
   verificationReportKind,
   explicitRelayUrls,
+  eventRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
   nip89ClientTagD,
@@ -99,7 +100,7 @@ const nostrConnect = function () {
   ndkConnectionPromise = (async () => {
     try {
       await connectNostr({
-        relayUrls: explicitRelayUrls,
+        relayUrls: eventRelayUrls,
         connectTimeoutMs: connectTimeout * 1000,
         onRelayConnect: (relay) => {
           console.debug(`Connected to relay: ${relay.url}`);
@@ -242,6 +243,21 @@ const getProfileFromIDB = async (pubkey) => {
 // one round-trip instead of racing.
 const inFlightProfileFetches = new Map();
 
+/** Map NIP-01 field names to the shape expected by UI code (NDK did this internally). */
+function normalizeNostrProfile(profile) {
+  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
+    return null;
+  }
+  const normalized = { ...profile };
+  if (!normalized.image && normalized.picture) {
+    normalized.image = normalized.picture;
+  }
+  if (!normalized.displayName && normalized.display_name) {
+    normalized.displayName = normalized.display_name;
+  }
+  return normalized;
+}
+
 const getNostrProfile = async function (pubkey) {
   if (!pubkey || pubkey.length !== 64) {
     console.info("getNostrProfile: Invalid pubkey", pubkey);
@@ -250,7 +266,7 @@ const getNostrProfile = async function (pubkey) {
 
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
-    return cached.profile;
+    return normalizeNostrProfile(cached.profile);
   }
 
   if (inFlightProfileFetches.has(pubkey)) {
@@ -286,7 +302,7 @@ const getNostrProfile = async function (pubkey) {
 
     saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
-    return sanitizedProfile;
+    return normalizeNostrProfile(sanitizedProfile);
   })().finally(() => {
     inFlightProfileFetches.delete(pubkey);
   });
@@ -319,7 +335,7 @@ const getProfileDisplayName = function (profile, pubkey) {
 const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
 const getProfileImageUrl = function (profile) {
-  const url = profile?.image;
+  const url = profile?.image || profile?.picture;
   return url && String(url).trim() ? String(url).trim() : PROFILE_PLACEHOLDER_IMAGE;
 };
 
