@@ -9,9 +9,9 @@
     "test": "BUILD_SERVER_TEST=1 BUILD_SERVER_DB_PATH=:memory: node --test --test-reporter=spec \"test/**/*.test.mjs\""
   },
   "dependencies": {
-    "@nostr-dev-kit/ndk": "^2.18.1",
     "better-sqlite3": "^12.11.1",
     "isomorphic-dompurify": "^3.18.0",
+    "nostr-tools": "2.23.8",
     "js-yaml": "^4.2.0",
     "minimist": "^1.2.8",
     "p-queue": "^9.3.0",

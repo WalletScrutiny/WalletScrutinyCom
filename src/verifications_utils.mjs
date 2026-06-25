@@ -1,5 +1,28 @@
-import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPublishError, NDKZapper, zapInvoiceFromEvent, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
-import { nip19, nip57 } from 'nostr-tools';
+import * as nip19 from 'nostr-tools/nip19';
+import {
+  connectNostr,
+  ensureConnected,
+  disconnectNostr,
+  getPool as getNostrPoolSync,
+  getRelayUrls,
+  fetchEvents as nostrFetchEvents,
+  fetchEvent as nostrFetchEvent,
+  fetchEventsWithPagination as nostrFetchEventsWithPagination,
+  fetchProfile as nostrFetchProfile,
+  signEvent,
+  publishEvent,
+  publishToRelays,
+  subscribeEvents,
+  createDeletionRequest,
+  createEncryptedDm,
+  createEventDraft,
+  getNip57ZapSpecFromLud,
+  fetchLnInvoice,
+  parseZapInvoiceFromReceipt,
+  getTagValue,
+  getMatchingTags,
+  getUserPubkeyFromSigner,
+} from './nostr-client.mjs';
 import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
@@ -11,6 +34,7 @@ import {
   codeSnippetKind,
   verificationReportKind,
   explicitRelayUrls,
+  eventRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
   nip89ClientTagD,
@@ -18,7 +42,7 @@ import {
   maxFileAttachmentContentLength
 } from "./nostr-constants.mjs";
 import { waitNostr } from 'nip07-awaiter';
-import { getFirstTagValue } from './verifications_common.mjs';
+import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
 import {
   assetRegistrationKinds,
   getAssetFileEntries,
@@ -37,31 +61,33 @@ const purifyConfig = {
   RETURN_TRUSTED_TYPE: false
 };
 
-let ndk;
-let ndkConnectionPromise = null; // Promise to track NDK connection status
+let ndkConnectionPromise = null;
 let signerReadyPromise = null;
+let hasNip07Signer = false;
 let resolveNostrConnectInitiated;
 const nostrConnectInitiatedPromise = new Promise(resolve => {
   resolveNostrConnectInitiated = resolve;
 });
 
 const connectTimeout = 3;
-// Same upper bound as the previous 125 x 25ms polling loop.
 const nip07WaitTimeoutMs = 3125;
 
 export const getNdk = async () => {
   await ensureNdkConnected();
-  return ndk;
+  return getNostrPoolSync();
 };
+
+export const getNostrPool = getNdk;
 
 const assignSigner = async function() {
   const nip07 = await waitNostr(nip07WaitTimeoutMs);
   if (nip07) {
     console.debug("Signer: Using browser extension");
-    ndk.signer = new NDKNip07Signer();
+    hasNip07Signer = true;
     return;
   }
 
+  hasNip07Signer = false;
   console.debug("Signer: No browser extension available");
 };
 
@@ -71,54 +97,46 @@ const nostrConnect = function () {
     resolveSignerReady = resolve;
   });
 
-  // Assign the connection logic to the promise immediately
   ndkConnectionPromise = (async () => {
-    ndk = new NDK({
-      explicitRelayUrls: explicitRelayUrls,
-    });
-
-    // Add event listeners for connection monitoring
-    ndk.pool.on('relay:connect', (relay) => {
-      console.debug(`✅ Connected to relay: ${relay.url}`);
-    });
-
-    ndk.pool.on('relay:disconnect', (relay) => {
-      console.debug(`❌ Disconnected from relay: ${relay.url}`);
-    });
-
-    ndk.pool.on('relay:error', (relay, error) => {
-      console.error(`🔥 Relay error (${relay.url}):`, error);
-    });
-
     try {
-      await ndk.connect(connectTimeout);
-      console.log("NDK connected successfully.");
+      await connectNostr({
+        relayUrls: eventRelayUrls,
+        connectTimeoutMs: connectTimeout * 1000,
+        onRelayConnect: (relay) => {
+          console.debug(`Connected to relay: ${relay.url}`);
+        },
+        onRelayDisconnect: (relay) => {
+          console.debug(`Disconnected from relay: ${relay.url}`);
+        },
+        onRelayError: (relay, error) => {
+          console.error(`Relay error (${relay.url}):`, error);
+        },
+      });
+      console.log("Nostr connected successfully.");
       void assignSigner().finally(() => resolveSignerReady());
     } catch (e) {
-      console.error("ndk connect failed", e);
+      console.error("nostr connect failed", e);
       if (typeof window !== 'undefined') {
         showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
       }
       resolveSignerReady();
       throw e;
     }
-  })(); // Immediately invoke the async function
+  })();
 
-  // Signal that nostrConnect has been initiated and the promise is set
   resolveNostrConnectInitiated();
   console.debug("nostrConnect initiated, ndkConnectionPromise is set.");
 
-  return ndkConnectionPromise; // Return the promise
+  return ndkConnectionPromise;
 };
 
-// Helper function to ensure NDK is connected before proceeding
 const ensureNdkConnected = async () => {
   if (!ndkConnectionPromise) {
     await nostrConnectInitiatedPromise;
   }
   await ndkConnectionPromise;
-  if (!ndk) {
-    throw new Error("NDK object not initialized after connection.");
+  if (!getNostrPoolSync()) {
+    throw new Error("Nostr pool not initialized after connection.");
   }
 };
 
@@ -131,11 +149,10 @@ const ensureSignerReady = async () => {
 
 const getUserPubkey = async function() {
   await ensureSignerReady();
-  if (!ndk.signer) {
+  if (!hasNip07Signer) {
     throw new Error("No signer available");
   }
-  const user = await ndk.signer.user();
-  return user.pubkey;
+  return getUserPubkeyFromSigner();
 }
 
 const validateSHA256 = function(hashes) {
@@ -165,7 +182,8 @@ const saveProfileToIDB = async (pubkey, profile) => {
     const profileData = {
       pubkey,
       profile,
-      cached_at: Math.floor(Date.now() / 1000)
+      cached_at: Math.floor(Date.now() / 1000),
+      cache_version: PROFILE_CACHE_VERSION,
     };
 
     const request = objectStore.put(profileData);
@@ -174,19 +192,29 @@ const saveProfileToIDB = async (pubkey, profile) => {
   });
 };
 
-// Profile cache TTLs. Negative results expire faster so a verifier who later
-// publishes a kind-0 gets picked up within a few hours instead of a day, but
-// we still avoid re-hitting relays for every missing profile on every page load.
+// Profile cache TTL. Only successful profiles with metadata are stored in IDB.
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
-const PROFILE_MISS_MAX_AGE = 4 * 60 * 60;
+/** Bump when profile normalization/sanitization changes to invalidate stale IDB entries. */
+const PROFILE_CACHE_VERSION = 4;
+
+const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
+
+function sanitizeProfileMediaUrl(url) {
+  return String(url ?? '').trim();
+}
+
+function sanitizeProfileValue(key, value) {
+  const str = String(value ?? '');
+  if (PROFILE_URL_KEYS.has(key)) {
+    return sanitizeProfileMediaUrl(str);
+  }
+  return DOMPurify.sanitize(str, purifyConfig);
+}
 
 /**
  * Get profile from IDB
  * @param {string} pubkey - User's public key
- * @returns {Promise<{found: boolean, profile: Object|null}|null>}
- *   - { found: true, profile } if we have a fresh non-empty cached profile
- *   - { found: false, profile: null } if we have a fresh negative cache entry
- *   - null if there is no fresh cache entry (caller should hit the network)
+ * @returns {Promise<Object|null>} Cached profile object, or null if stale/missing.
  */
 const getProfileFromIDB = async (pubkey) => {
   const db = await initDB().catch(() => null);
@@ -207,15 +235,13 @@ const getProfileFromIDB = async (pubkey) => {
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
       const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
-      const maxAge = isEmpty ? PROFILE_MISS_MAX_AGE : PROFILE_HIT_MAX_AGE;
 
-      if (age > maxAge) {
+      if (isEmpty || age > PROFILE_HIT_MAX_AGE || result.cache_version !== PROFILE_CACHE_VERSION) {
         resolve(null);
-      } else if (isEmpty) {
-        resolve({ found: false, profile: null });
-      } else {
-        resolve({ found: true, profile: result.profile });
+        return;
       }
+
+      resolve(result.profile);
     };
     request.onerror = () => resolve(null);
   });
@@ -226,6 +252,21 @@ const getProfileFromIDB = async (pubkey) => {
 // one round-trip instead of racing.
 const inFlightProfileFetches = new Map();
 
+/** Map NIP-01 field names to the shape expected by UI code (NDK did this internally). */
+function normalizeNostrProfile(profile) {
+  if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
+    return null;
+  }
+  const normalized = { ...profile };
+  if (!normalized.image && normalized.picture) {
+    normalized.image = normalized.picture;
+  }
+  if (!normalized.displayName && normalized.display_name) {
+    normalized.displayName = normalized.display_name;
+  }
+  return normalized;
+}
+
 const getNostrProfile = async function (pubkey) {
   if (!pubkey || pubkey.length !== 64) {
     console.info("getNostrProfile: Invalid pubkey", pubkey);
@@ -234,7 +275,10 @@ const getNostrProfile = async function (pubkey) {
 
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
-    return cached.profile;
+    const normalizedCached = normalizeNostrProfile(cached);
+    if (normalizedCached?.image || normalizedCached?.picture) {
+      return normalizedCached;
+    }
   }
 
   if (inFlightProfileFetches.has(pubkey)) {
@@ -245,8 +289,13 @@ const getNostrProfile = async function (pubkey) {
     let profile;
     try {
       await ensureNdkConnected();
-      const user = ndk.getUser({ pubkey });
-      profile = await user.fetchProfile();
+    } catch (e) {
+      console.debug(`Nostr not connected for profile fetch (${pubkey.substring(0, 8)}...)`, e);
+      return null;
+    }
+
+    try {
+      profile = await nostrFetchProfile(pubkey);
     } catch (e) {
       // NDK can throw if the remote profile content is not valid JSON.
       // Treat this as "profile not available" rather than a hard failure.
@@ -258,20 +307,18 @@ const getNostrProfile = async function (pubkey) {
     }
 
     if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
-      // Cache the miss with a short TTL so we don't re-hit relays for every
-      // missing profile on every page load. See PROFILE_MISS_MAX_AGE.
-      saveProfileToIDB(pubkey, {}).catch(e => console.warn("Failed to save profile miss to IDB", e));
       return null;
     }
 
     const sanitizedProfile = {};
     Object.keys(profile).forEach(key => {
-      sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
+      sanitizedProfile[key] = sanitizeProfileValue(key, profile[key]);
     });
 
-    saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
+    const normalizedProfile = normalizeNostrProfile(sanitizedProfile);
+    saveProfileToIDB(pubkey, normalizedProfile ?? sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
-    return sanitizedProfile;
+    return normalizedProfile;
   })().finally(() => {
     inFlightProfileFetches.delete(pubkey);
   });
@@ -303,17 +350,57 @@ const getProfileDisplayName = function (profile, pubkey) {
 // production CSP (img-src *; — wildcards exclude data:/blob:/filesystem:).
 const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
+function normalizeProfileImageUrl(url) {
+  const trimmed = String(url ?? '').trim();
+  if (!trimmed) {
+    return '';
+  }
+  if (
+    typeof window !== 'undefined' &&
+    window.location?.protocol === 'https:' &&
+    trimmed.startsWith('http://')
+  ) {
+    return `https://${trimmed.slice('http://'.length)}`;
+  }
+  return trimmed;
+}
+
 const getProfileImageUrl = function (profile) {
-  const url = profile?.image;
-  return url && String(url).trim() ? String(url).trim() : PROFILE_PLACEHOLDER_IMAGE;
+  const url = normalizeProfileImageUrl(profile?.image || profile?.picture);
+  return url || PROFILE_PLACEHOLDER_IMAGE;
 };
+
+function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  return `
+    <div class="profile-circle-container" data-name="${displayName}">
+      <img src="${imageUrl}" class="profile-circle" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
+      <div class="profile-hover-modal">
+        <div class="profile-modal-content">
+          <img src="${imageUrl}" class="profile-modal-image" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
+          <br>
+          <span>${displayName}</span>
+          <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function profileImageFallback(img) {
+  const placeholder = img.dataset.placeholder || PROFILE_PLACEHOLDER_IMAGE;
+  if (img.src !== placeholder) {
+    img.onerror = null;
+    img.src = placeholder;
+  }
+}
 
 const renderProfileCardHtml = function (pubkey, profile) {
   const displayName = getProfileDisplayName(profile, pubkey);
   const imageUrl = getProfileImageUrl(profile);
   return `
     <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
-      <img src="${imageUrl}" class="profile-image" alt="" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
       <div class="profile-info">
         <div>${displayName}</div>
         ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
@@ -327,7 +414,7 @@ const renderBigProfileCardHtml = function (pubkey, profile) {
   const imageUrl = getProfileImageUrl(profile);
   return `
     <div class="big-profile-card">
-      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
       <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
       ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
     </div>
@@ -341,31 +428,26 @@ const getWSClientTags = function() {
   ];
 }
 
-async function publishNdkEvent(ndkEvent, eventType = 'event') {
+async function publishNdkEvent(eventDraft, eventType = 'event') {
   try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.debug(`Published ${eventType} (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
-    return ndkEvent;
+    await ensureSignerReady();
+    const signed = await signEvent(eventDraft);
+    const { successful } = await publishEvent(signed);
+    console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
+    return signed;
   } catch (error) {
     console.error(`Error publishing ${eventType} to relays`, error);
-
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`Error publishing ${eventType} to relay ${relay.url}`, err);
-      }
-    }
-
     return null;
   }
 }
 
 function createNdkEvent(kind, content, tags = [], createdAt = null) {
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = kind;
-  ndkEvent.content = content;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [...tags, ...getWSClientTags()];
-  return ndkEvent;
+  return createEventDraft({
+    kind,
+    content,
+    tags: [...tags, ...getWSClientTags()],
+    created_at: getCreatedAt(createdAt),
+  });
 }
 
 function validateParameterLengths(params) {
@@ -423,8 +505,8 @@ const createAssetRegistration = async function ({
   const ndkEvent = createNdkEvent(assetRegistrationKind, description, tags, createdAt);
   eventSanitize(ndkEvent);
 
-  await publishNdkEvent(ndkEvent, 'asset registration');
-  return ndkEvent;
+  const published = await publishNdkEvent(ndkEvent, 'asset registration');
+  return published ?? ndkEvent;
 }
 
 const createAssetBundleRegistration = async function ({
@@ -473,8 +555,8 @@ const createAssetBundleRegistration = async function ({
   const ndkEvent = createNdkEvent(assetBundleRegistrationKind, description, tags, createdAt);
   eventSanitize(ndkEvent);
 
-  await publishNdkEvent(ndkEvent, 'asset bundle registration');
-  return ndkEvent;
+  const published = await publishNdkEvent(ndkEvent, 'asset bundle registration');
+  return published ?? ndkEvent;
 }
 
 const createVerification = async function ({
@@ -601,17 +683,17 @@ const createVerification = async function ({
   );
   eventSanitize(ndkEvent);
 
-  await publishNdkEvent(ndkEvent, 'verification');
+  const published = await publishNdkEvent(ndkEvent, 'verification');
 
   if (!isDraft && draftVerificationEventId) {
     const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
     if (draftVerificationEvent) {
-      await draftVerificationEvent.delete('deleting draft, as verification was published', true);
+      await createDeletionRequest(draftVerificationEvent, 'deleting draft, as verification was published', true);
     }
     await deleteCachedEventById(draftVerificationEventId);
   }
 
-  return ndkEvent;
+  return published ?? ndkEvent;
 }
 
 const REPORT_REASONS = new Set(['spam', 'incorrect']);
@@ -632,7 +714,7 @@ async function fetchReportsForVerificationIds(verificationEventIds) {
   for (let i = 0; i < verificationEventIds.length; i += CHUNK) {
     const chunk = verificationEventIds.slice(i, i + CHUNK);
     try {
-      const batch = await ndk.fetchEvents({
+      const batch = await nostrFetchEvents({
         kinds: [verificationReportKind],
         '#e': chunk,
         since: verificationEventsSinceTS
@@ -677,8 +759,8 @@ const createVerificationReport = async function ({
   const body = `WalletScrutiny.com admin report: verification ${verificationEventId} as ${reason}.`;
   const ndkEvent = createNdkEvent(verificationReportKind, body, tags);
   eventSanitize(ndkEvent);
-  await publishNdkEvent(ndkEvent, 'verification report');
-  return ndkEvent;
+  const published = await publishNdkEvent(ndkEvent, 'verification report');
+  return published ?? ndkEvent;
 };
 
 const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
@@ -823,9 +905,7 @@ function eventSanitize(event) {
 }
 
 const getFileAttachmentIDsForVerificationEvent = function(event) {
-  const tags = event.getMatchingTags
-    ? event.getMatchingTags('file-attachment')
-    : (event.tags?.filter(t => t[0] === 'file-attachment') ?? []);
+  const tags = getMatchingTags(event, 'file-attachment');
   return tags.map(tag => tag[1]).filter(id => id?.length === 64);
 }
 
@@ -853,8 +933,8 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
   const ndkEvent = createNdkEvent(codeSnippetKind, base64Data, tags);
 
   try {
-    await publishNdkEvent(ndkEvent, `file ${fileName}`);
-    return { success: true, eventId: ndkEvent.id, fileName: fileName };
+    const published = await publishNdkEvent(ndkEvent, `file ${fileName}`);
+    return { success: true, eventId: published?.id, fileName: fileName };
   } catch (error) {
     console.error(`Error uploading file ${fileName}`, error);
     return { success: false, error: error, fileName: fileName };
@@ -871,14 +951,14 @@ const getEventsFromEventIds = async function(eventIds) {
 
   console.debug(`Fetching ${eventIds.length} events: ${eventIds.join(', ')}`);
 
-  return await ndk.fetchEvents({
+  return await nostrFetchEvents({
     ids: eventIds
   });
 }
 
 const getEndorsementsFromVerificationEventIds = async function(verificationEventIds) {
   await ensureNdkConnected();
-  const endorsements = await ndk.fetchEvents({
+  const endorsements = await nostrFetchEvents({
     kinds: [endorsementKind],
     '#e': verificationEventIds
   });
@@ -932,47 +1012,12 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
 }
 
 /**
- * Fetches events with pagination support for multiple filters
- * @param {Object} ndkInstance - NDK instance to use for fetching events
- * @param {Array<Object>} filters - Array of filter objects to fetch events for
+ * Fetches events with pagination support for a filter
+ * @param {Object} filter - Filter object to fetch events for
  * @returns {Promise<Set>} - Set of events
  */
-const fetchEventsWithPagination = async function(ndkInstance, filter) {
-  const allEvents = new Set();
-  let hasMoreEvents = true;
-  let pageCount = 0;
-
-  while (hasMoreEvents) {
-    pageCount++;
-    try {
-      const pageEvents = await ndkInstance.fetchEvents(filter);
-
-      if (pageEvents.size === 0) {
-        hasMoreEvents = false;
-        console.debug('No more events found.');
-        break;
-      }
-
-      // Add events to the set and find the oldest created_at in the same loop
-      let oldestCreatedAt = Infinity;
-      pageEvents.forEach(event => {
-        allEvents.add(event);
-        if (event.created_at < oldestCreatedAt) {
-          oldestCreatedAt = event.created_at;
-        }
-      });
-
-      filter.until = oldestCreatedAt - 1;
-
-      console.debug(`Fetched page ${pageCount}: ${pageEvents.size} events, oldest created_at: ${oldestCreatedAt}`);
-    } catch (error) {
-      console.error(`Error fetching page ${pageCount}:`, error);
-      break;
-    }
-  }
-
-  console.debug(`Total pages fetched: ${pageCount}, total events: ${allEvents.size}`);
-  return allEvents;
+const fetchEventsWithPagination = async function(filter) {
+  return nostrFetchEventsWithPagination(filter);
 };
 
 // IndexedDB Helper Functions
@@ -1228,7 +1273,7 @@ const backgroundSyncEvents = async function() {
     const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
 
     if (newestVerification) {
-      const newVerifications = await fetchEventsWithPagination(ndk, {
+      const newVerifications = await fetchEventsWithPagination( {
         kinds: [verificationKind, verificationDraftKind],
         since: newestVerification + 1,
         limit: SYNC_LIMIT
@@ -1240,7 +1285,7 @@ const backgroundSyncEvents = async function() {
       }
     } else {
       // First time sync - fetch all verifications
-      const allVerifications = await fetchEventsWithPagination(ndk, {
+      const allVerifications = await fetchEventsWithPagination( {
         kinds: [verificationKind, verificationDraftKind],
         since: verificationEventsSinceTS,
         limit: SYNC_LIMIT
@@ -1256,7 +1301,7 @@ const backgroundSyncEvents = async function() {
     const { oldest: oldestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
 
     if (oldestVerification && oldestVerification > verificationEventsSinceTS) {
-      const olderVerifications = await fetchEventsWithPagination(ndk, {
+      const olderVerifications = await fetchEventsWithPagination( {
         kinds: [verificationKind, verificationDraftKind],
         since: verificationEventsSinceTS,
         until: oldestVerification - 1,
@@ -1288,7 +1333,7 @@ const backgroundSyncEvents = async function() {
     if (appIds.size > 0) {
       const { newest: newestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
-      const newAssets = await fetchEventsWithPagination(ndk, {
+      const newAssets = await fetchEventsWithPagination( {
         kinds: assetRegistrationKinds,
         '#i': Array.from(appIds),
         since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
@@ -1304,7 +1349,7 @@ const backgroundSyncEvents = async function() {
       const { oldest: oldestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
       if (oldestAsset && oldestAsset > verificationEventsSinceTS) {
-        const olderAssets = await fetchEventsWithPagination(ndk, {
+        const olderAssets = await fetchEventsWithPagination( {
           kinds: assetRegistrationKinds,
           '#i': Array.from(appIds),
           since: verificationEventsSinceTS,
@@ -1346,7 +1391,7 @@ const backgroundSyncEvents = async function() {
       for (let i = 0; i < verificationEventIds.length; i += batchSize) {
         const batch = verificationEventIds.slice(i, i + batchSize);
 
-        const newEndorsements = await ndk.fetchEvents({
+        const newEndorsements = await nostrFetchEvents({
           kinds: [endorsementKind],
           '#e': batch,
           since: newestEndorsement ? newestEndorsement + 1 : verificationEventsSinceTS,
@@ -1369,7 +1414,7 @@ const backgroundSyncEvents = async function() {
       for (let i = 0; i < verificationEventIds.length; i += batchSize) {
         const batch = verificationEventIds.slice(i, i + batchSize);
 
-        const newComments = await ndk.fetchEvents({
+        const newComments = await nostrFetchEvents({
           kinds: [verificationCommentKind],
           '#v': batch,
           since: newestComment ? newestComment + 1 : verificationEventsSinceTS,
@@ -1387,7 +1432,7 @@ const backgroundSyncEvents = async function() {
     // We'll fetch them on-demand when verifications are loaded, but cache what we find
     const { newest: newestSnippet } = await getIDBEventRange([codeSnippetKind]);
 
-    const newSnippets = await ndk.fetchEvents({
+    const newSnippets = await nostrFetchEvents({
       kinds: [codeSnippetKind],
       since: newestSnippet ? newestSnippet + 1 : verificationEventsSinceTS,
       limit: SYNC_LIMIT
@@ -1635,8 +1680,8 @@ const getAllAssetInformation = async function({ months,
 
     try {
       const newVerifications = singleBatch
-        ? await ndk.fetchEvents(verificationFilter)
-        : await fetchEventsWithPagination(ndk, verificationFilter);
+        ? await nostrFetchEvents(verificationFilter)
+        : await fetchEventsWithPagination( verificationFilter);
 
       newVerifications.forEach(e => newEvents.add(e));
       console.log(`Fetched ${newVerifications.size} verifications from network`);
@@ -1658,8 +1703,8 @@ const getAllAssetInformation = async function({ months,
         if (filter.until) assetFilter.until = filter.until;
 
         const newAssets = singleBatch
-          ? await ndk.fetchEvents(assetFilter)
-          : await fetchEventsWithPagination(ndk, assetFilter);
+          ? await nostrFetchEvents(assetFilter)
+          : await fetchEventsWithPagination( assetFilter);
 
         newAssets.forEach(e => newEvents.add(e));
         console.log(`Fetched ${newAssets.size} assets for ${verificationAppIds.size} appIds from network`);
@@ -1673,9 +1718,9 @@ const getAllAssetInformation = async function({ months,
     try {
       if (singleBatch) {
         console.debug(`Fetching single batch with filter:`, filter);
-        newEvents = await ndk.fetchEvents(filter);
+        newEvents = await nostrFetchEvents(filter);
       } else {
-        newEvents = await fetchEventsWithPagination(ndk, filter);
+        newEvents = await fetchEventsWithPagination( filter);
       }
 
       console.log(`Fetched ${newEvents.size} new events from network`);
@@ -1698,7 +1743,7 @@ const getAllAssetInformation = async function({ months,
       };
 
       try {
-        const gapEvents = await fetchEventsWithPagination(ndk, gapFilter);
+        const gapEvents = await fetchEventsWithPagination( gapFilter);
         console.log(`Gap fill: fetched ${gapEvents.size} older events`);
         gapEvents.forEach(e => newEvents.add(e));
       } catch(e) {
@@ -1816,8 +1861,8 @@ const createNostrNote = async function (message) {
   }
 
   const ndkEvent = createNdkEvent(1, message);
-  await publishNdkEvent(ndkEvent, 'note');
-  return ndkEvent.id;
+  const published = await publishNdkEvent(ndkEvent, 'note');
+  return published?.id;
 }
 
 const createNostrCommentToVerification = async function(verificationKey, comment, commentAuthorPubkeys, messageCounter) {
@@ -1830,9 +1875,8 @@ const createNostrCommentToVerification = async function(verificationKey, comment
   });
   ndkEvent.tags.push(['d', verificationKey + '-' + messageCounter.toString()]);
 
-  await publishNdkEvent(ndkEvent, 'comment to verification');
-
-  return ndkEvent.id;
+  const published = await publishNdkEvent(ndkEvent, 'comment to verification');
+  return published?.id;
 }
 
 const getCommentsForVerification = async function(verificationKey) {
@@ -1847,7 +1891,7 @@ const getCommentsForVerification = async function(verificationKey) {
   const verificationKeyWithoutEventId = verificationKey.split(':').slice(0, -1).join(':');
 
   await ensureNdkConnected();
-  const comments = await ndk.fetchEvents([
+  const comments = await nostrFetchEvents([
     {
       kinds: [verificationCommentKind],
       '#v': [verificationKey]
@@ -1869,30 +1913,21 @@ const getCommentsForVerification = async function(verificationKey) {
 }
 
 const sendPrivateMessageToVerifier = async function(verifierPubkey, commentText) {
-  await ensureNdkConnected();
+  await ensureSignerReady();
 
   if (!verifierPubkey || !commentText) {
     throw new Error("Missing required parameters: verifierPubkey and commentText are required");
   }
 
-  // Validate pubkey format
   if (!/^[0-9a-f]{64}$/i.test(verifierPubkey)) {
     throw new Error("Invalid verifier pubkey format");
   }
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = 4;
-  ndkEvent.pubkey = await getUserPubkey();
-  ndkEvent.created_at = getCreatedAt();
-  ndkEvent.tags = [['p', verifierPubkey]];
-  ndkEvent.content = commentText;
-
   try {
-    const recipient = ndk.getUser({ pubkey: verifierPubkey });
-    await ndkEvent.encrypt(recipient, null, "nip04");
-    await ndkEvent.sign();
-    await publishNdkEvent(ndkEvent, 'private message to verifier');
-    return ndkEvent.id;
+    const authorPubkey = await getUserPubkey();
+    const signed = await createEncryptedDm(verifierPubkey, commentText, authorPubkey);
+    await publishEvent(signed);
+    return signed.id;
   } catch (error) {
     console.error('Error encrypting or publishing private message:', error);
     throw new Error(`Failed to send private message: ${error.message}`);
@@ -1966,34 +2001,13 @@ function setupAppIdAutocomplete(firstTime = true) {
   }
 }
 
-function getStatusText(status, short = false) {
-  switch (status) {
-    case 'reproducible':
-      return 'Reproducible when tested';
-    case 'not_reproducible':
-      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
-    case 'ftbfs':
-      return short ? 'Failed to build from source' : 'Failed to build from source provided';
-    case 'notag':
-      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
-    case 'nosource':
-      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
-    case 'obfuscated':
-      return short ? 'Source obfuscated' : 'Source code is obfuscated';
-    case 'warning':
-      return 'Warning';
-    default:
-      return status;
-  }
-}
-
 const getVerificationEvent = async function(verificationEventId) {
   if (!verificationEventId) {
     throw new Error('No verification event ID provided');
   }
 
   await ensureNdkConnected();
-  return await ndk.fetchEvent(verificationEventId);
+  return await nostrFetchEvent(verificationEventId);
 }
 
 const deleteDraftVerification = async function(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
@@ -2006,7 +2020,7 @@ const deleteDraftVerification = async function(draftVerificationEventId, moveToU
     try {
       const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
-        await draftVerificationEvent.delete(reason, true);
+        await createDeletionRequest(draftVerificationEvent, reason, true);
       }
 
       await deleteCachedEventById(draftVerificationEventId);
@@ -2060,7 +2074,7 @@ const deletePublishedVerification = async function(verificationEventId, reason =
       return;
     }
 
-    await verificationEvent.delete(reason, true);
+    await createDeletionRequest(verificationEvent, reason, true);
     await deleteCachedEventById(verificationEventId);
     showToast('Verification deleted successfully');
     window.location.reload();
@@ -2081,7 +2095,7 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
 
   try {
     await ensureNdkConnected();
-    const commentEvent = await ndk.fetchEvent(commentEventId);
+    const commentEvent = await nostrFetchEvent(commentEventId);
     if (!commentEvent) {
       showToast('Comment not found on relays', 'error');
       return false;
@@ -2105,10 +2119,9 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
       return false;
     }
 
-    const deletionRequestEvent = await commentEvent.delete(reason, false);
-    const relaySet = NDKRelaySet.fromRelayUrls(explicitRelayUrls, ndk);
+    const deletionRequestEvent = await createDeletionRequest(commentEvent, reason, false);
     void showToast('Deleting comment, please wait...', 'info', 5000);
-    await deletionRequestEvent.publish(relaySet, 5000, 1);
+    await publishToRelays(deletionRequestEvent, explicitRelayUrls, 5000, 1);
     showToast('Comment deleted successfully');
     await deleteCachedEventById(commentEventId);
 
@@ -2294,70 +2307,38 @@ function getWeightForAppFromAssetInformation(appId) {
 }
 
 const cleanupNdkConnections = function() {
-  if (ndk) {
-    try {
-      // Close all relay connections
-      let closedConnections = 0;
-      for (const relay of ndk.pool.relays.values()) {
-        if (relay.connectivity.status === 5) { // Connected
-          console.warn(`🔌 Closing relay connection: ${relay.url}`);
-          relay.disconnect();
-          closedConnections++;
-        }
-      }
-
-      console.warn(`🔌 Closed ${closedConnections} relay connections`);
-
-      // Clear the pool
-      ndk.pool.relays.clear();
-      console.warn("🧹 NDK pool cleared");
-    } catch (error) {
-      console.error("❌ Error during NDK cleanup:", error);
-    }
-    ndk = null;
+  try {
+    disconnectNostr();
     ndkConnectionPromise = null;
     signerReadyPromise = null;
-    console.warn("✅ NDK cleanup completed");
+    hasNip07Signer = false;
+    console.warn("Nostr cleanup completed");
+  } catch (error) {
+    console.error("Error during Nostr cleanup:", error);
   }
 };
 
 /**
- * Creates and sends a zap using NDKZapper
- * @param {Object} params
- * @param {Object} params.event - Nostr event object
- * @param {number} params.amount - Amount in sats
- * @param {string} [params.comment] - Optional comment
- * @returns {Promise<void>} - Promise that resolves when the zap is sent
+ * Build and sign a NIP-57 zap request.
  */
+async function buildZapRequestEvent(lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags) {
+  const nip57Module = await import('nostr-tools/nip57');
 
-/**
- * Build and sign a NIP-57 zap request. NDK's generateZapRequest passes `profile`
- * to nostr-tools makeZapRequest, but current nostr-tools expects `pubkey` when
- * event is omitted, which causes "Cannot read properties of null (reading 'pubkey')".
- */
-async function buildZapRequestEvent(ndk, lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags, signer) {
-  const zapEndpoint = lnurlSpec.callback;
-
-  // Do not pass the verification event to makeZapRequest: published verifications
-  // (kind 30301) are addressable but often lack a "d" tag, and NDK's referenceTags
-  // path is incompatible with current nostr-tools. e/p tags come from zapper.tags
-  // and createZap post-processing below.
-  const zapRequest = nip57.makeZapRequest({
+  const zapRequest = nip57Module.makeZapRequest({
     pubkey: recipientPubkey,
     amount: amountMsat,
     comment: comment || '',
     relays: (relays || []).slice(0, 4),
   });
 
-  zapRequest.tags.push(['lnurl', zapEndpoint]);
-  const zapRequestEvent = new NDKEvent(ndk, zapRequest);
+  zapRequest.tags.push(['lnurl', lnurlSpec.callback]);
   if (extraTags) {
-    zapRequestEvent.tags = zapRequestEvent.tags.concat(extraTags);
+    zapRequest.tags = zapRequest.tags.concat(extraTags);
   }
 
   const eTaggedEvents = new Set();
   const aTaggedEvents = new Set();
-  for (const tag of zapRequestEvent.tags) {
+  for (const tag of zapRequest.tags) {
     if (tag[0] === 'e') {
       eTaggedEvents.add(tag[1]);
     } else if (tag[0] === 'a') {
@@ -2371,20 +2352,18 @@ async function buildZapRequestEvent(ndk, lnurlSpec, recipientPubkey, amountMsat,
     throw new Error('Only one a-tag is allowed');
   }
 
-  zapRequestEvent.tags = zapRequestEvent.tags.filter((tag) => tag[0] !== 'p');
-  zapRequestEvent.tags.push(['p', recipientPubkey]);
-  await zapRequestEvent.sign(signer ?? ndk.signer);
-  return zapRequestEvent;
+  zapRequest.tags = zapRequest.tags.filter((tag) => tag[0] !== 'p');
+  zapRequest.tags.push(['p', recipientPubkey]);
+  return signEvent(zapRequest);
 }
 
 const createZap = async function ({ event, amount, comment = '' }) {
   await ensureSignerReady();
-  if (!ndk.signer) {
+  if (!hasNip07Signer) {
     throw new Error('You must connect a Nostr extension to send a zap');
   }
 
-  const rawEvent = event instanceof NDKEvent ? event.rawEvent() : event;
-  const zapTarget = new NDKEvent(ndk, rawEvent);
+  const zapTarget = event?.id ? event : null;
   if (!zapTarget?.pubkey || !zapTarget?.id) {
     throw new Error('Invalid verification event for zap');
   }
@@ -2394,33 +2373,25 @@ const createZap = async function ({ event, amount, comment = '' }) {
     throw new Error('The user doesn\'t have a nostr profile or a LN address to receive sats');
   }
 
-  const lnurlSpec = await getNip57ZapSpecFromLud({lud06: profile.lud06, lud16: profile.lud16}, ndk);
+  const lnurlSpec = await getNip57ZapSpecFromLud({ lud06: profile.lud06, lud16: profile.lud16 });
 
   if (!lnurlSpec) {
     throw new Error('The user doesn\'t have a LN address to receive sats');
   }
 
-  const zapper = new NDKZapper(zapTarget, amount * 1000, "msat", {
-    comment,
-    ndk,
-    signer: ndk.signer,
-    tags: [
-      ["p", zapTarget.pubkey],
-      ["e", zapTarget.id]
-    ],
-  });
-
-  const relays = await zapper.relays(zapTarget.pubkey);
+  const relays = getRelayUrls().slice(0, 4);
+  const extraTags = [
+    ['p', zapTarget.pubkey],
+    ['e', zapTarget.id],
+  ];
 
   const zapRequestEvent = await buildZapRequestEvent(
-    ndk,
     lnurlSpec,
     zapTarget.pubkey,
     amount * 1000,
     relays,
     comment,
-    zapper.tags,
-    ndk.signer
+    extraTags,
   ).catch((err) => {
     console.log('Error: An error occurred in generating zap request!', err);
     return null;
@@ -2429,15 +2400,12 @@ const createZap = async function ({ event, amount, comment = '' }) {
   zapRequestEvent.content = comment;
   console.debug('createZap - zapRequestEvent', zapRequestEvent);
 
-  // Removing these tags to be more like Primal, as that makes the Zaps
-  // work correctly for WalletOfSatoshi, where they were failing previously.
-  // Then, we re-add the tag e with value event.id.
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'lnurl');
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'a');
   zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'e');
   zapRequestEvent.tags.push(['e', zapTarget.id]);
 
-  const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
+  const invoice = await fetchLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
     console.log('Error: An error occurred in getting LnInvoice!', err);
     return null;
   });
@@ -2449,60 +2417,58 @@ const createZap = async function ({ event, amount, comment = '' }) {
 
 const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback) {
   try {
-    let filter = {
+    const filter = {
       kinds: [9735],
-      ["#e"]: [zapEvent.id]
-    }
-    const sub = ndk.subscribe(filter);
-
-    sub?.on("event", async (event) => {
-      console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
-      if (currentZapInvoice) {
-        if (event.tagValue("bolt11") === currentZapInvoice) {
-          sub.stop()  // Only one zap receipt is expected, so close the subscription after receiving it
-        } else {
-          console.debug('    - subscribeToZapReceipts - a zap invoice was received that is not the current zap invoice we are waiting for, so skipping it');
-          return;
+      '#e': [zapEvent.id],
+    };
+    const sub = subscribeEvents(filter, {
+      onevent: async (event) => {
+        console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
+        if (currentZapInvoice) {
+          if (getTagValue(event, 'bolt11') === currentZapInvoice) {
+            sub.close();
+          } else {
+            console.debug('    - subscribeToZapReceipts - a zap invoice was received that is not the current zap invoice we are waiting for, so skipping it');
+            return;
+          }
         }
-      }
-      const zapReceiptInvoice = event.tagValue("bolt11")
-      console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
-      if (zapReceiptInvoice) {
-        const amountPaid = nip57.getSatoshisAmountFromBolt11(zapReceiptInvoice);
-        const zapRequest = zapInvoiceFromEvent(event)
-        event.zapRequest = zapRequest;
-        console.debug('    - zapRequest (zapInvoiceFromEvent)', zapRequest);
+        const zapReceiptInvoice = getTagValue(event, 'bolt11');
+        console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
+        if (zapReceiptInvoice) {
+          const nip57Module = await import('nostr-tools/nip57');
+          const amountPaid = nip57Module.getSatoshisAmountFromBolt11(zapReceiptInvoice);
+          const zapRequest = parseZapInvoiceFromReceipt(event);
+          event.zapRequest = zapRequest;
+          console.debug('    - zapRequest (parseZapInvoiceFromReceipt)', zapRequest);
 
-        const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
+          const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1;
 
-        if (amountPaid === amountRequested) {
-          receiptReceivedCallback(event);
-          return;
+          if (amountPaid === amountRequested) {
+            receiptReceivedCallback(event);
+            return;
+          }
+
+          receiptReceivedCallback(null);
         }
-
-        receiptReceivedCallback(null);
-      }
-    })
+      },
+    });
   } catch (error) {
-    console.warn("Unable to fetch zap receipt", error)
+    console.warn("Unable to fetch zap receipt", error);
   }
-}
+};
 
 const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
-  const profileEvent = JSON.parse(profileInfo.profileEvent);
-  const ndkEvent = new NDKEvent(ndk, profileEvent);
-  return ndkEvent;
-}
+  return JSON.parse(profileInfo.profileEvent);
+};
 
-// Create and sign an authorization event
 const createAuthorizationEvent = async function(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const ndk = await getNdk();
+  await ensureNdkConnected();
   const eventObject = {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
     tags: [
       ['t', verb],
-      ['expiration', (Math.floor(Date.now() / 1000) + 3600).toString()], // Expires in 1 hour
+      ['expiration', (Math.floor(Date.now() / 1000) + 3600).toString()],
     ],
     content: content,
   };
@@ -2521,10 +2487,8 @@ const createAuthorizationEvent = async function(verb, content, xTags = [], serve
   }
 
   await ensureSignerReady();
-  const event = new NDKEvent(ndk, eventObject);
-  await event.sign();
-  return event;
-}
+  return signEvent(eventObject);
+};
 
 if (typeof window !== 'undefined') {
   window.DOMPurify = DOMPurify;
@@ -2545,6 +2509,9 @@ if (typeof window !== 'undefined') {
   window.shortenNpub = shortenNpub;
   window.getProfileDisplayName = getProfileDisplayName;
   window.getProfileImageUrl = getProfileImageUrl;
+  window.PROFILE_PLACEHOLDER_IMAGE = PROFILE_PLACEHOLDER_IMAGE;
+  window.profileImageFallback = profileImageFallback;
+  window.buildProfileCircleHtml = buildProfileCircleHtml;
   window.renderProfileCardHtml = renderProfileCardHtml;
   window.renderBigProfileCardHtml = renderBigProfileCardHtml;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
@@ -2574,6 +2541,7 @@ if (typeof window !== 'undefined') {
   window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
   window.subscribeToZapReceipts = subscribeToZapReceipts;
   window.createAuthorizationEvent = createAuthorizationEvent;
+  window.getTagValue = getTagValue;
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
   });

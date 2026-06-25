@@ -1,4 +1,5 @@
 import WebSocket from 'ws';
+import { setupWebSocketForNode } from '../../src/nostr-client.mjs';
 import { DEBUG, DRY_RUN } from './config/env.mjs';
 import { appLog } from './logger.mjs';
 import {
@@ -18,7 +19,7 @@ import {
   publishNotification,
 } from './nostr.mjs';
 
-global.WebSocket = WebSocket;
+setupWebSocketForNode(WebSocket);
 
 let wsBotNostrPrivateKey;
 

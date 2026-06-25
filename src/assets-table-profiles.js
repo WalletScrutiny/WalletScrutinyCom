@@ -86,59 +86,61 @@ export function ensureProfileStyles() {
   document.head.appendChild(profileStyles);
 }
 
+function attachProfileHoverHandlers(container) {
+  const modal = container.querySelector('.profile-hover-modal');
+  let timeout;
+
+  container.addEventListener('mouseenter', () => {
+    clearTimeout(timeout);
+    modal.style.display = 'block';
+  });
+
+  container.addEventListener('mouseleave', (e) => {
+    const rect = modal.getBoundingClientRect();
+    if (e.clientY >= rect.bottom || e.clientY <= rect.top ||
+        e.clientX >= rect.right || e.clientX <= rect.left) {
+      timeout = setTimeout(() => {
+        if (!modal.matches(':hover')) {
+          modal.style.display = 'none';
+        }
+      }, 300);
+    }
+  });
+
+  modal.addEventListener('mouseenter', () => {
+    clearTimeout(timeout);
+  });
+
+  modal.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+}
+
 export function renderProfilePictures(profilePubkeys) {
   ensureProfileStyles();
+  const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
+
   profilePubkeys.forEach(async pubkey => {
+    const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
+
+    profileElementsForThisPubkey.forEach(profileElement => {
+      profileElement.innerHTML = buildProfileCircleHtml(pubkey, null, placeholderUrl, placeholderUrl);
+      const container = profileElement.querySelector('.profile-circle-container');
+      if (container) {
+        attachProfileHoverHandlers(container);
+      }
+    });
+
     try {
       const profile = await getNostrProfile(pubkey);
-      if (!profile) {
-        return;
-      }
-      const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
+      const imageUrl = getProfileImageUrl(profile);
 
       profileElementsForThisPubkey.forEach(profileElement => {
-        profileElement.innerHTML = `
-          <div class="profile-circle-container" data-name="${getProfileDisplayName(profile, pubkey)}">
-            ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
-            <div class="profile-hover-modal">
-              <div class="profile-modal-content">
-                ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
-                <br>
-                <span>${getProfileDisplayName(profile, pubkey)}</span>
-                <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
-              </div>
-            </div>
-          </div>
-        `;
-
+        profileElement.innerHTML = buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl);
         const container = profileElement.querySelector('.profile-circle-container');
-        const modal = container.querySelector('.profile-hover-modal');
-        let timeout;
-
-        container.addEventListener('mouseenter', () => {
-          clearTimeout(timeout);
-          modal.style.display = 'block';
-        });
-
-        container.addEventListener('mouseleave', (e) => {
-          const rect = modal.getBoundingClientRect();
-          if (e.clientY >= rect.bottom || e.clientY <= rect.top ||
-              e.clientX >= rect.right || e.clientX <= rect.left) {
-            timeout = setTimeout(() => {
-              if (!modal.matches(':hover')) {
-                modal.style.display = 'none';
-              }
-            }, 300);
-          }
-        });
-
-        modal.addEventListener('mouseenter', () => {
-          clearTimeout(timeout);
-        });
-
-        modal.addEventListener('click', (e) => {
-          e.stopPropagation();
-        });
+        if (container) {
+          attachProfileHoverHandlers(container);
+        }
       });
     } catch (error) {
       console.error(`Error loading profile for ${pubkey}:`, error);

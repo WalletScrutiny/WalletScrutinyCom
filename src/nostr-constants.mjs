@@ -10,6 +10,15 @@ export const explicitRelayUrls = [
   "wss://nos.lol/",
 ];
 
+/** NIP-77 relay; do not use for kind-0 fetches (stalls ~5–8s without returning data). */
+export const profileRelayUrl = "wss://purplepag.es/";
+
+/**
+ * Relays for reads (events and kind-0 profiles). Excludes profileRelayUrl, which
+ * often never sends EOSE on id/kind filters and would block querySync until maxWait.
+ */
+export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileRelayUrl);
+
 export const wsBotPublicKey = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
 export const nip89ClientTagD = '7703371760017';

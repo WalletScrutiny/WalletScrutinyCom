@@ -1,10 +1,18 @@
-import NDK, { NDKPrivateKeySigner, NDKEvent, NDKPublishError } from '@nostr-dev-kit/ndk';
 import DOMPurify from 'isomorphic-dompurify';
+import {
+  connectNostr,
+  getPool,
+  fetchEvents,
+  createEventDraft,
+  signEvent,
+  publishEvent,
+  setPrivateKey,
+} from '../../src/nostr-client.mjs';
 import {
   verificationKind,
   assetRegistrationKind,
   assetBundleRegistrationKind,
-  explicitRelayUrls,
+  eventRelayUrls,
   verificationEventsSinceTS,
   wsBotPublicKey,
   nip89ClientTagD,
@@ -15,7 +23,6 @@ import { calculateFileHash, getFirstTagValue } from './utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
 
-// Restrictive DOMPurify config to prevent XSS/injection from Nostr event data
 const purifyConfig = {
   ALLOWED_TAGS: [],
   ALLOWED_ATTR: [],
@@ -36,10 +43,6 @@ function isValidJSONObject(str) {
   }
 }
 
-/**
- * Sanitizes a Nostr event to prevent XSS and injection attacks.
- * Modifies the event in place - sanitizes content and all tag values.
- */
 function sanitizeNostrEvent(event) {
   if (!event) return;
 
@@ -73,52 +76,45 @@ function sanitizeNostrEvent(event) {
   }
 }
 
-let ndk;
-
 export function getNdk() {
-  return ndk;
+  return getPool();
+}
+
+export function getPoolInstance() {
+  return getPool();
 }
 
 export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Connecting to Nostr relays...');
 
-  ndk = new NDK({
-    initialValidationRatio: 1.0,
-    lowestValidationRatio: 1.0, // Validate signatures for all events
-    explicitRelayUrls: explicitRelayUrls,
-    signer: new NDKPrivateKeySigner(nostrPrivateKey)
+  setPrivateKey(nostrPrivateKey);
+
+  await connectNostr({
+    relayUrls: eventRelayUrls,
+    connectTimeoutMs: 2000,
+    privateKey: nostrPrivateKey,
+    onRelayConnect: (relay) => {
+      appLog.info(`Connected to relay: ${relay.url}`);
+    },
+    onRelayDisconnect: (relay) => {
+      appLog.info(`Disconnected from relay: ${relay.url}`);
+    },
+    onRelayError: (relay, error) => {
+      appLog.error(`Relay error (${relay.url}):`, error);
+    },
   });
 
-    // Add event listeners for connection monitoring
-    ndk.pool.on('relay:connect', (relay) => {
-      appLog.info(`Connected to relay: ${relay.url}`);
-    });
-
-    ndk.pool.on('relay:disconnect', (relay) => {
-      appLog.info(`Disconnected from relay: ${relay.url}`);
-    });
-
-    ndk.pool.on('relay:error', (relay, error) => {
-      appLog.error(`Relay error (${relay.url}):`, error);
-    });
-
-  await ndk.connect(2000);
   appLog.info('Successfully connected to Nostr');
 }
 
-export async function createAuthorizationEvent(ndkInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
-  if (!ndkInstance) {
-    throw new Error('NDK instance is required for createAuthorizationEvent');
-  }
-
-  const event = new NDKEvent(ndkInstance, {
+export async function createAuthorizationEvent(_poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+  const event = createEventDraft({
     kind: 24242,
-    created_at: Math.floor(Date.now() / 1000),
+    content,
     tags: [
       ['t', verb],
       ['expiration', (Math.floor(Date.now() / 1000) + 3600).toString()],
     ],
-    content: content,
   });
 
   tags.forEach(tag => {
@@ -134,23 +130,21 @@ export async function createAuthorizationEvent(ndkInstance, verb, content, xTags
     event.tags.push(['server', serverUrl]);
   }
 
-  event.sig = await event.sign();
-
-  return event;
+  return signEvent(event);
 }
 
-export async function createAuthorizationHeader(ndkInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
-  const signedEvent = await createAuthorizationEvent(ndkInstance, verb, content, xTags, serverUrl, tags);
+export async function createAuthorizationHeader(poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+  const signedEvent = await createAuthorizationEvent(poolInstance, verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
   return 'Nostr ' + eventBase64;
 }
 
-export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
-  const ndkToUse = ndkInstance || ndk;
-  if (!ndkToUse) {
-    throw new Error('NDK instance is not initialized. Call connectToNostr() first or pass ndkInstance parameter.');
+export async function uploadBlobToBlossomServer(file, poolInstance = null) {
+  if (!getPool() && !poolInstance) {
+    throw new Error('Nostr pool is not initialized. Call connectToNostr() first or pass poolInstance parameter.');
   }
+
   const hash = await calculateFileHash(file);
   appLog.info(`Uploading cast file to Blossom: ${hash}`);
 
@@ -159,7 +153,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
     ['size', file.size.toString()],
   ];
 
-  const authHeader = await createAuthorizationHeader(ndkToUse, 'upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
+  const authHeader = await createAuthorizationHeader(poolInstance, 'upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
 
   const headers = {
     'Content-Type': file.type || 'application/octet-stream',
@@ -193,7 +187,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
 export async function getAllVerifications(authorPubkeys = []) {
   appLog.info('Getting wallet information from Nostr...');
 
-  const events = await ndk.fetchEvents({
+  const events = await fetchEvents({
     kinds: [verificationKind],
     since: verificationEventsSinceTS,
     authors: authorPubkeys,
@@ -228,7 +222,7 @@ export async function getAllAssetsForTheseAppIds(appIds) {
   }
   appLog.info(`Getting assets for ${appIds.length} app ids...`);
 
-  const events = await ndk.fetchEvents({
+  const events = await fetchEvents({
     kinds: [assetRegistrationKind, assetBundleRegistrationKind],
     since: verificationEventsSinceTS,
     '#i': appIds,
@@ -252,7 +246,7 @@ export async function getEventsFromEventIds(eventIds) {
   const events = [];
   for (let i = 0; i < eventIds.length; i += MAX_BATCH_SIZE) {
     const batch = eventIds.slice(i, i + MAX_BATCH_SIZE);
-    const batchEvents = await ndk.fetchEvents({ ids: batch });
+    const batchEvents = await fetchEvents({ ids: batch });
     const batchArray = Array.from(batchEvents);
     batchArray.forEach(event => sanitizeNostrEvent(event));
     events.push(...batchArray);
@@ -260,8 +254,7 @@ export async function getEventsFromEventIds(eventIds) {
   return events;
 }
 
-// Simplified version of the createVerification function from verifications_utils.mjs
-export async function createVerification(ndkInstance, {
+export async function createVerification(_poolInstance, {
   hashes,
   description,
   content,
@@ -274,8 +267,6 @@ export async function createVerification(ndkInstance, {
   outputFiles = [],
   basedOn = null
 }) {
-  await ndkInstance.connect(2000);
-
   const fullContent = JSON.stringify({
     description: description || '',
     content: content,
@@ -294,7 +285,6 @@ export async function createVerification(ndkInstance, {
     tags.push(["x", hash]);
   });
 
-  // Add file event IDs as tags
   if (reusedFileIds.length > 0) {
     reusedFileIds.forEach(fileEventId => {
       tags.push(["file-attachment", fileEventId]);
@@ -311,30 +301,25 @@ export async function createVerification(ndkInstance, {
     tags.push(["based-on", basedOn]);
   }
 
-  const ndkEvent = new NDKEvent(ndkInstance);
-  ndkEvent.kind = verificationKind;
-  ndkEvent.content = fullContent;
-  ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
-  ndkEvent.tags = tags;
+  const draft = createEventDraft({
+    kind: verificationKind,
+    content: fullContent,
+    created_at: Math.floor(new Date(createdAt).getTime() / 1000),
+    tags,
+  });
 
-  appLog.info(`Sending verification to Nostr... ${JSON.stringify(ndkEvent.rawEvent())}`);
-  return await publishNdkEvent(ndkEvent);
+  appLog.info(`Sending verification to Nostr... ${JSON.stringify(draft)}`);
+  return await publishSignedEvent(draft);
 }
 
-async function publishNdkEvent(ndkEvent) {
+async function publishSignedEvent(draft) {
   try {
-    const publishedToRelays = await ndkEvent.publish();
-    appLog.info(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
-    return ndkEvent.id;
+    const signed = await signEvent(draft);
+    const { successful } = await publishEvent(signed);
+    appLog.info(`Published verification (id: ${signed.id}) to ${successful} relays`);
+    return signed.id;
   } catch (error) {
     appLog.error(`Error publishing verification to relays`, error);
-    
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        appLog.error(`Error publishing verification to relay ${relay.url}`, err);
-      }
-    }
-
     throw error;
   }
 }

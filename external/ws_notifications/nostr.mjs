@@ -1,5 +1,14 @@
-import NDK, { NDKPrivateKeySigner, NDKEvent } from '@nostr-dev-kit/ndk';
-import { explicitRelayUrls, verificationKind } from './nostr-constants.mjs';
+import {
+  connectNostr,
+  getPool,
+  fetchEvents,
+  createEventDraft,
+  signEvent,
+  publishEvent,
+  setPrivateKey,
+  disconnectNostr,
+} from '../../src/nostr-client.mjs';
+import { eventRelayUrls, verificationKind } from './nostr-constants.mjs';
 import { appLog } from './logger.mjs';
 import {
   buildVerificationUrl,
@@ -12,10 +21,8 @@ const FETCH_LIMIT = 500;
 const FETCH_TIMEOUT_MS = Number(process.env.WS_NOTIFICATIONS_FETCH_TIMEOUT_MS ?? 120_000);
 const WS_CLIENT_TAG = 'WalletScrutiny.com';
 
-let ndk;
-
-async function fetchEventsWithTimeout(filter, opts) {
-  const fetchPromise = ndk.fetchEvents(filter, opts);
+async function fetchEventsWithTimeout(filter) {
+  const fetchPromise = fetchEvents(filter);
   if (!Number.isFinite(FETCH_TIMEOUT_MS) || FETCH_TIMEOUT_MS <= 0) {
     return fetchPromise;
   }
@@ -28,67 +35,47 @@ async function fetchEventsWithTimeout(filter, opts) {
 }
 
 export function getNdk() {
-  return ndk;
+  return getPool();
 }
 
 export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Connecting to Nostr relays...');
 
-  const ndkOptions = {
-    initialValidationRatio: 1.0,
-    lowestValidationRatio: 1.0,
-    explicitRelayUrls,
-  };
-
   if (nostrPrivateKey) {
-    ndkOptions.signer = new NDKPrivateKeySigner(nostrPrivateKey);
+    setPrivateKey(nostrPrivateKey);
   } else {
     appLog.info('No Nostr private key provided; connected in read-only mode');
   }
 
-  ndk = new NDK(ndkOptions);
-
-  ndk.pool.on('relay:connect', (relay) => {
-    appLog.info(`Connected to relay: ${relay.url}`);
+  await connectNostr({
+    relayUrls: eventRelayUrls,
+    connectTimeoutMs: 2000,
+    privateKey: nostrPrivateKey ?? undefined,
+    onRelayConnect: (relay) => {
+      appLog.info(`Connected to relay: ${relay.url}`);
+    },
+    onRelayDisconnect: (relay) => {
+      appLog.info(`Disconnected from relay: ${relay.url}`);
+    },
+    onRelayError: (relay, error) => {
+      appLog.error(`Relay error (${relay.url}):`, error);
+    },
   });
 
-  ndk.pool.on('relay:disconnect', (relay) => {
-    appLog.info(`Disconnected from relay: ${relay.url}`);
-  });
-
-  ndk.pool.on('relay:error', (relay, error) => {
-    appLog.error(`Relay error (${relay.url}):`, error);
-  });
-
-  await ndk.connect(2000);
   appLog.info('Successfully connected to Nostr');
 }
 
 export async function disconnectFromNostr() {
-  if (!ndk) return;
-  await Promise.all(
-    Array.from(ndk.pool.relays.values()).map((relay) =>
-      new Promise((resolve) => {
-        relay.disconnect();
-        setTimeout(resolve, 100);
-      })
-    )
-  );
-  ndk = undefined;
+  await disconnectNostr();
 }
 
 function isWalletScrutinyVerification(event) {
   return getFirstTagValue(event, 'client') === WS_CLIENT_TAG;
 }
 
-/**
- * Fetch published verification events since the given cursor, with pagination.
- * @param {number} since Unix timestamp (seconds)
- * @returns {Promise<Array<import('@nostr-dev-kit/ndk').NDKEvent>>}
- */
 export async function fetchNewVerifications(since) {
-  if (!ndk) {
-    throw new Error('NDK is not initialized. Call connectToNostr() first.');
+  if (!getPool()) {
+    throw new Error('Nostr pool is not initialized. Call connectToNostr() first.');
   }
 
   const filter = {
@@ -105,7 +92,7 @@ export async function fetchNewVerifications(since) {
 
   while (hasMoreEvents) {
     pageCount++;
-    const pageEvents = await fetchEventsWithTimeout(filter, { closeOnEose: true });
+    const pageEvents = await fetchEventsWithTimeout(filter);
 
     if (pageEvents.size === 0) {
       hasMoreEvents = false;
@@ -131,10 +118,6 @@ export async function fetchNewVerifications(since) {
   return sorted;
 }
 
-/**
- * Build the kind=1 notification payload for a verification event.
- * @param {import('@nostr-dev-kit/ndk').NDKEvent} verificationEvent
- */
 export function buildNotificationForVerification(verificationEvent) {
   const metadata = parseVerificationEvent(verificationEvent);
   if (!metadata) {
@@ -158,25 +141,21 @@ export function buildNotificationForVerification(verificationEvent) {
   };
 }
 
-/**
- * Publish a kind=1 notification for a verification event.
- * @param {import('@nostr-dev-kit/ndk').NDKEvent} verificationEvent
- * @returns {Promise<string>} Published note event id
- */
 export async function publishNotification(verificationEvent) {
-  if (!ndk) {
-    throw new Error('NDK is not initialized. Call connectToNostr() first.');
+  if (!getPool()) {
+    throw new Error('Nostr pool is not initialized. Call connectToNostr() first.');
   }
 
   const { content, tags } = buildNotificationForVerification(verificationEvent);
 
-  const note = new NDKEvent(ndk, {
+  const draft = createEventDraft({
     kind: 1,
     content,
     tags,
   });
 
-  await note.publish();
+  const signed = await signEvent(draft);
+  await publishEvent(signed);
   appLog.info(`Published kind=1 notification for verification ${verificationEvent.id}`);
-  return note.id;
+  return signed.id;
 }

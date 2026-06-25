@@ -1,7 +1,9 @@
 import { codeSnippetKind } from "./nostr-constants.mjs";
-import { getFirstTagValue } from "./verifications_common.mjs";
+import { getFirstTagValue, getStatusText } from "./verifications_common.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { updateTableVisibility } from "./assets-table-filters.js";
+
+export { getStatusText };
 
 export function formatZapAmount(amount) {
   if (amount >= 1000000) {
@@ -82,29 +84,6 @@ export function getAttachmentInfo(attachment) {
 
 export function getStatusIcon(status) {
   return status === 'reproducible' ? '✅' : '❌';
-}
-
-export function getStatusText(status, short = false) {
-  switch (status) {
-    case 'reproducible':
-      return short ? 'Reproducible' : 'The application was successfully reproduced';
-    case 'not_reproducible':
-      return short ? 'Not Reproducible' : 'The application could not be reproduced';
-    case 'ftbfs':
-      return short ? 'Failed to Build from Source' : 'The application failed to build from source';
-    case 'spam':
-      return short ? 'Spam' : 'The application is spam';
-    case 'notag':
-      return short ? 'No git revision' : 'The application has no git revision';
-    case 'nosource':
-      return short ? 'No source' : 'The application has no sources available';
-    case 'obfuscated':
-      return short ? 'Obfuscated' : 'The application\'s source code is obfuscated';
-    case 'warning':
-      return short ? 'Warning' : 'The application\'s source code is a warning';
-    default:
-      return 'Unknown';
-  }
 }
 
 function isGitHubUrl(url) {

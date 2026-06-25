@@ -21,7 +21,7 @@
     "@napi-rs/canvas": "^1.0.1",
     "@perttu/app-store-scraper": "github:ktecho/app-store-scraper#main",
     "async-mutex": "^0.5.0",
-    "autoprefixer": "^10.5.1",
+    "autoprefixer": "^10.5.2",
     "axios": "^1.18.1",
     "babel-loader": "^10.1.1",
     "cssnano": "^8.0.2",
@@ -63,19 +63,16 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@nostr-dev-kit/ndk": "^2.14.38",
+    "@noble/hashes": "2.0.1",
+    "@scure/base": "2.0.0",
     "app-info-parser": "^1.1.6",
     "dompurify": "^3.4.11",
     "fflate": "^0.8.3",
     "marked": "^18.0.5",
     "nip07-awaiter": "^1.1.0",
-    "nostr-tools": "2.20.0",
+    "nostr-tools": "2.23.8",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
     "qrcode": "^1.5.4"
-  },
-  "overrides": {
-    "@noble/hashes": "1.8.0",
-    "@noble/curves": "1.9.7"
   }
 }
