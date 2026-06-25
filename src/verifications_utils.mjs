@@ -1,5 +1,5 @@
 import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPublishError, NDKZapper, zapInvoiceFromEvent, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
-import { nip19, nip57 } from 'nostr-tools';
+import * as nip19 from 'nostr-tools/nip19';
 import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
@@ -2316,6 +2316,7 @@ const cleanupNdkConnections = function() {
  */
 async function buildZapRequestEvent(ndk, lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags, signer) {
   const zapEndpoint = lnurlSpec.callback;
+  const nip57 = await import('nostr-tools/nip57');
 
   // Do not pass the verification event to makeZapRequest: published verifications
   // (kind 30301) are addressable but often lack a "d" tag, and NDK's referenceTags
@@ -2447,6 +2448,7 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
       const zapReceiptInvoice = event.tagValue("bolt11")
       console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
       if (zapReceiptInvoice) {
+        const nip57 = await import('nostr-tools/nip57');
         const amountPaid = nip57.getSatoshisAmountFromBolt11(zapReceiptInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
         event.zapRequest = zapRequest;
