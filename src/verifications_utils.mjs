@@ -182,7 +182,8 @@ const saveProfileToIDB = async (pubkey, profile) => {
     const profileData = {
       pubkey,
       profile,
-      cached_at: Math.floor(Date.now() / 1000)
+      cached_at: Math.floor(Date.now() / 1000),
+      cache_version: PROFILE_CACHE_VERSION,
     };
 
     const request = objectStore.put(profileData);
@@ -191,19 +192,29 @@ const saveProfileToIDB = async (pubkey, profile) => {
   });
 };
 
-// Profile cache TTLs. Negative results expire faster so a verifier who later
-// publishes a kind-0 gets picked up within a few hours instead of a day, but
-// we still avoid re-hitting relays for every missing profile on every page load.
+// Profile cache TTL. Only successful profiles with metadata are stored in IDB.
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
-const PROFILE_MISS_MAX_AGE = 4 * 60 * 60;
+/** Bump when profile normalization/sanitization changes to invalidate stale IDB entries. */
+const PROFILE_CACHE_VERSION = 4;
+
+const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
+
+function sanitizeProfileMediaUrl(url) {
+  return String(url ?? '').trim();
+}
+
+function sanitizeProfileValue(key, value) {
+  const str = String(value ?? '');
+  if (PROFILE_URL_KEYS.has(key)) {
+    return sanitizeProfileMediaUrl(str);
+  }
+  return DOMPurify.sanitize(str, purifyConfig);
+}
 
 /**
  * Get profile from IDB
  * @param {string} pubkey - User's public key
- * @returns {Promise<{found: boolean, profile: Object|null}|null>}
- *   - { found: true, profile } if we have a fresh non-empty cached profile
- *   - { found: false, profile: null } if we have a fresh negative cache entry
- *   - null if there is no fresh cache entry (caller should hit the network)
+ * @returns {Promise<Object|null>} Cached profile object, or null if stale/missing.
  */
 const getProfileFromIDB = async (pubkey) => {
   const db = await initDB().catch(() => null);
@@ -224,15 +235,13 @@ const getProfileFromIDB = async (pubkey) => {
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
       const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
-      const maxAge = isEmpty ? PROFILE_MISS_MAX_AGE : PROFILE_HIT_MAX_AGE;
 
-      if (age > maxAge) {
+      if (isEmpty || age > PROFILE_HIT_MAX_AGE || result.cache_version !== PROFILE_CACHE_VERSION) {
         resolve(null);
-      } else if (isEmpty) {
-        resolve({ found: false, profile: null });
-      } else {
-        resolve({ found: true, profile: result.profile });
+        return;
       }
+
+      resolve(result.profile);
     };
     request.onerror = () => resolve(null);
   });
@@ -266,7 +275,10 @@ const getNostrProfile = async function (pubkey) {
 
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
-    return normalizeNostrProfile(cached.profile);
+    const normalizedCached = normalizeNostrProfile(cached);
+    if (normalizedCached?.image || normalizedCached?.picture) {
+      return normalizedCached;
+    }
   }
 
   if (inFlightProfileFetches.has(pubkey)) {
@@ -277,6 +289,12 @@ const getNostrProfile = async function (pubkey) {
     let profile;
     try {
       await ensureNdkConnected();
+    } catch (e) {
+      console.debug(`Nostr not connected for profile fetch (${pubkey.substring(0, 8)}...)`, e);
+      return null;
+    }
+
+    try {
       profile = await nostrFetchProfile(pubkey);
     } catch (e) {
       // NDK can throw if the remote profile content is not valid JSON.
@@ -289,20 +307,18 @@ const getNostrProfile = async function (pubkey) {
     }
 
     if (!profile || typeof profile !== 'object' || Object.keys(profile).length === 0) {
-      // Cache the miss with a short TTL so we don't re-hit relays for every
-      // missing profile on every page load. See PROFILE_MISS_MAX_AGE.
-      saveProfileToIDB(pubkey, {}).catch(e => console.warn("Failed to save profile miss to IDB", e));
       return null;
     }
 
     const sanitizedProfile = {};
     Object.keys(profile).forEach(key => {
-      sanitizedProfile[key] = DOMPurify.sanitize(String(profile[key] ?? ""));
+      sanitizedProfile[key] = sanitizeProfileValue(key, profile[key]);
     });
 
-    saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
+    const normalizedProfile = normalizeNostrProfile(sanitizedProfile);
+    saveProfileToIDB(pubkey, normalizedProfile ?? sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
-    return normalizeNostrProfile(sanitizedProfile);
+    return normalizedProfile;
   })().finally(() => {
     inFlightProfileFetches.delete(pubkey);
   });
@@ -334,17 +350,57 @@ const getProfileDisplayName = function (profile, pubkey) {
 // production CSP (img-src *; — wildcards exclude data:/blob:/filesystem:).
 const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
+function normalizeProfileImageUrl(url) {
+  const trimmed = String(url ?? '').trim();
+  if (!trimmed) {
+    return '';
+  }
+  if (
+    typeof window !== 'undefined' &&
+    window.location?.protocol === 'https:' &&
+    trimmed.startsWith('http://')
+  ) {
+    return `https://${trimmed.slice('http://'.length)}`;
+  }
+  return trimmed;
+}
+
 const getProfileImageUrl = function (profile) {
-  const url = profile?.image || profile?.picture;
-  return url && String(url).trim() ? String(url).trim() : PROFILE_PLACEHOLDER_IMAGE;
+  const url = normalizeProfileImageUrl(profile?.image || profile?.picture);
+  return url || PROFILE_PLACEHOLDER_IMAGE;
 };
+
+function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl) {
+  const displayName = getProfileDisplayName(profile, pubkey);
+  return `
+    <div class="profile-circle-container" data-name="${displayName}">
+      <img src="${imageUrl}" class="profile-circle" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
+      <div class="profile-hover-modal">
+        <div class="profile-modal-content">
+          <img src="${imageUrl}" class="profile-modal-image" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
+          <br>
+          <span>${displayName}</span>
+          <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function profileImageFallback(img) {
+  const placeholder = img.dataset.placeholder || PROFILE_PLACEHOLDER_IMAGE;
+  if (img.src !== placeholder) {
+    img.onerror = null;
+    img.src = placeholder;
+  }
+}
 
 const renderProfileCardHtml = function (pubkey, profile) {
   const displayName = getProfileDisplayName(profile, pubkey);
   const imageUrl = getProfileImageUrl(profile);
   return `
     <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
-      <img src="${imageUrl}" class="profile-image" alt="" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
       <div class="profile-info">
         <div>${displayName}</div>
         ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
@@ -358,7 +414,7 @@ const renderBigProfileCardHtml = function (pubkey, profile) {
   const imageUrl = getProfileImageUrl(profile);
   return `
     <div class="big-profile-card">
-      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" onerror="this.onerror=null;this.src='${PROFILE_PLACEHOLDER_IMAGE}'"/>
+      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
       <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
       ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
     </div>
@@ -2453,6 +2509,9 @@ if (typeof window !== 'undefined') {
   window.shortenNpub = shortenNpub;
   window.getProfileDisplayName = getProfileDisplayName;
   window.getProfileImageUrl = getProfileImageUrl;
+  window.PROFILE_PLACEHOLDER_IMAGE = PROFILE_PLACEHOLDER_IMAGE;
+  window.profileImageFallback = profileImageFallback;
+  window.buildProfileCircleHtml = buildProfileCircleHtml;
   window.renderProfileCardHtml = renderProfileCardHtml;
   window.renderBigProfileCardHtml = renderBigProfileCardHtml;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;

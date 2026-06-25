@@ -10,12 +10,12 @@ export const explicitRelayUrls = [
   "wss://nos.lol/",
 ];
 
-/** Profile-only relay (NIP-77); use for kind-0 lookups, not for event/id filters. */
+/** NIP-77 relay; do not use for kind-0 fetches (stalls ~5–8s without returning data). */
 export const profileRelayUrl = "wss://purplepag.es/";
 
 /**
- * Relays for verification/event queries. Excludes profileRelayUrl, which often
- * never sends EOSE on id/kind filters and would block querySync until maxWait.
+ * Relays for reads (events and kind-0 profiles). Excludes profileRelayUrl, which
+ * often never sends EOSE on id/kind filters and would block querySync until maxWait.
  */
 export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileRelayUrl);
 

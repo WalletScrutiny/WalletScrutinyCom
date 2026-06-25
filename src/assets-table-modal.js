@@ -227,10 +227,12 @@ function initVerificationAdminReportControls(verification) {
 }
 
 function buildVerifierProfileCardHtml(profile, pubkey) {
+  const imageUrl = getProfileImageUrl(profile);
+  const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
   if (profile) {
     return `
     <div class="profile-card">
-      ${profile.image || profile.picture ? `<img src="${profile.image || profile.picture}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="profileImageFallback(this)"/>
       <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
         <div>${getProfileDisplayName(profile, pubkey)}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
@@ -729,15 +731,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       zapReceipts.sort((a, b) => b.zapAmount - a.zapAmount).forEach((zap) => {
         zapTotalAmount += zap.zapAmount;
         const npub = getNpubFromPubkey(zap.zapperPubkey);
+        const zapperImageUrl = getProfileImageUrl(zap.zapperProfile);
+        const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
         zapsHTML += `
           <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
-            ${zap.zapperProfile ? `${(zap.zapperProfile.image || zap.zapperProfile.picture) ? `
-              <img src="${zap.zapperProfile.image || zap.zapperProfile.picture}" class="profile-image"
-                  title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
-                  onclick="window.open('https://njump.me/${npub}', '_blank')"
-                  onerror="this.style.display='none'"
-              />` : ''}` :
-              `<span onclick="window.open('https://njump.me/${npub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${zap.zapperPubkey} - Click to open in Njump.me">${zap.zapperPubkey.slice(0, 3)}...${zap.zapperPubkey.slice(-2)}</span>`}
+            <img src="${zapperImageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}"
+                title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)}${zap.zapperProfile?.nip05 ? ` - ${zap.zapperProfile.nip05}` : ''} - Click to open in Njump.me"
+                onclick="window.open('https://njump.me/${npub}', '_blank')"
+                onerror="profileImageFallback(this)"
+            />
             <div>
               ${formatZapAmount(zap.zapAmount)} sats
               <br>
@@ -769,20 +771,20 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     );
 
     let endorsementsHTML = '';
+    const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
     for (let i = 0; i < endorsementsForThisVerification.length; i++) {
       const endorsement = endorsementsForThisVerification[i];
       const endorserProfile = endorserProfiles[i];
       const validity = getFirstTagValue(endorsement, 'validity');
       const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
+      const endorserImageUrl = getProfileImageUrl(endorserProfile);
       endorsementsHTML += `
         <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
-          ${endorserProfile ? `${(endorserProfile.image || endorserProfile.picture) ? `
-            <img src="${endorserProfile.image || endorserProfile.picture}" class="profile-image"
-                title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
-                onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
-                onerror="this.style.display='none'"
-            />` : ''}` :
-            `<span onclick="window.open('https://njump.me/${endorserNpub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${endorserNpub} - Click to open in Njump.me">${endorsement.pubkey.slice(0, 3)}...${endorsement.pubkey.slice(-2)}</span>`}
+          <img src="${endorserImageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}"
+              title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)}${endorserProfile?.nip05 ? ` - ${endorserProfile.nip05}` : ''} - Click to open in Njump.me"
+              onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
+              onerror="profileImageFallback(this)"
+          />
             ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})
         </div>`;
     }
