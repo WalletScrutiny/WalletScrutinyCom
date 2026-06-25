@@ -574,17 +574,6 @@
       background: var(--permanent-white);
     }
   }
-  &.opened {
-    .score {
-      span {
-        text-align: left;
-      }
-      div,
-      .tests-passed div {
-        margin-left: 0;
-      }
-    }
-  }
 }
 .score,
 .tests-passed {

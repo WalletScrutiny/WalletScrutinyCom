@@ -262,19 +262,3 @@
 .app_info_box {
   display: inline-block;
 }
-
-#sidebarWalletListShowButton {
-  margin: 1em 1em 1em 0em;
-  display: block;
-  @include breakpoint($medium-wide) {
-    display: none;
-  }
-}
-
-#sidebarWalletList {
-  overflow-y: hidden;
-  @include breakpoint($medium-wide) {
-    overflow-y: auto;
-    height: auto;
-  }
-}

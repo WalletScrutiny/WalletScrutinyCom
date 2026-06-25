@@ -109,11 +109,6 @@
       background-image: linear-gradient(var(--body-50),var(--body-50));
     }
   }
-  .opened.AppDisplayCard {
-    background-image: linear-gradient(transparent, var(--white) 50%),
-      radial-gradient(ellipse at top, var(--wallet-gradient-2), var(--white));
-    background-color: var(--white);
-  }
   .app-review {
     &::after {
       content: "";
