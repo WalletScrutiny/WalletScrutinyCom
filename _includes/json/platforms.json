@@ -1,3 +1,0 @@
-const sitePlatforms = [
-  {% for platform in site.data.platformMeta %}"{{platform[0]}}"{% unless forloop.last %},{% endunless %}{% endfor %}
-]
