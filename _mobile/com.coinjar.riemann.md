@@ -30,9 +30,9 @@ iphone:
   idd: 958797429
   appCountry: au
   released: 2015-02-04
-  updated: 2026-06-15
-  version: 3.56.0
-  reviews: 15198
+  updated: 2026-06-24
+  version: 3.57.0
+  reviews: 15200
   icon: com.coinjar.mobius.jpg
   meta: ok
   verdict: custodial

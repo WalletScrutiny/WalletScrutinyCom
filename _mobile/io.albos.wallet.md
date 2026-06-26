@@ -29,7 +29,7 @@ iphone:
   version: 2.1.17
   reviews: 1
   icon: com.albos.wallet.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: ALBOS & MARE PARTNERS
 

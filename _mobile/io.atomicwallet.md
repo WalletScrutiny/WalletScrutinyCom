@@ -31,7 +31,7 @@ iphone:
   released: 2019-11-05
   updated: 2026-06-23
   version: 1.42.9
-  reviews: 18867
+  reviews: 18871
   icon: atomicwallet.jpg
   meta: ok
   verdict: obfuscated

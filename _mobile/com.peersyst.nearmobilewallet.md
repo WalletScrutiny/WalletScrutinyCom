@@ -30,8 +30,8 @@ iphone:
   idd: '6443501225'
   appCountry: us
   released: 2023-03-20
-  updated: 2026-06-05
-  version: 3.9.5
+  updated: 2026-06-24
+  version: 3.10.0
   reviews: 831
   icon: com.peersyst.nearmobilewallet.jpg
   meta: ok

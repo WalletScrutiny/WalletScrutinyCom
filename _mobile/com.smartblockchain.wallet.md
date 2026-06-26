@@ -29,7 +29,7 @@ iphone:
   released: 2023-09-20
   updated: 2026-04-28
   version: 2.6.1
-  reviews: 20
+  reviews: 21
   icon: com.smartblockchain.wallet.jpg
   meta: ok
   verdict: nosource

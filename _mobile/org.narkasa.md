@@ -18,7 +18,7 @@ android:
   users: 50000
   appCountry: us
   released: 2020-10-30
-  updated: 2026-05-13
+  updated: 2026-06-25
   version: 5.14.2
   icon: org.narkasa.png
   meta: ok

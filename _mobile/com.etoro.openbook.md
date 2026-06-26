@@ -31,7 +31,7 @@ iphone:
   released: 2017-06-26
   updated: 2026-06-24
   version: v651.1296.4
-  reviews: 9731
+  reviews: 9733
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

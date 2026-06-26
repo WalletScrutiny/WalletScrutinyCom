@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: gb
   released: 2017-05-30
-  updated: 2026-06-15
-  version: 4.36.0
+  updated: 2026-06-24
+  version: 4.37.0
   reviews: 170
   icon: com.mirlimited.muchbetter.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1179978268
   appCountry: gb
   released: 2017-06-26
-  updated: 2026-05-14
-  version: 4.36.0
+  updated: 2026-06-25
+  version: 4.37.0
   reviews: 458
   icon: com.muchbetter.jpg
   meta: ok

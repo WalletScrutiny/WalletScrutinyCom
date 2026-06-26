@@ -41,9 +41,9 @@ iphone:
   idd: 1482037683
   appCountry: us
   released: 2019-10-11
-  updated: 2026-05-22
-  version: 2.14.1
-  reviews: 332
+  updated: 2026-06-24
+  version: 2.15.0
+  reviews: 331
   icon: com.muun.falcon.jpg
   meta: ok
   verdict: sourceavailable

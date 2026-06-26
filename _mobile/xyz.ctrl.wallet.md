@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-11-29
-  updated: 2026-06-05
-  version: 3.3.2
+  updated: 2026-06-25
+  version: 3.3.3
   reviews: 4
   icon: xyz.ctrl.wallet.png
   meta: ok

@@ -35,7 +35,7 @@ iphone:
   released: 2023-08-14
   updated: 2026-06-16
   version: 5.7.14
-  reviews: 12
+  reviews: 13
   icon: com.bitvenus.exchange.jpg
   meta: ok
   verdict: custodial

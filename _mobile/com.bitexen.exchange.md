@@ -17,7 +17,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-27
-  updated: 2026-04-02
+  updated: 2026-06-24
   version: '1.38'
   reviews: 45
   icon: com.bitexen.exchange.jpg

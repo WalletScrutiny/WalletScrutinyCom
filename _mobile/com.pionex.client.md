@@ -13,8 +13,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-11-18
-  updated: 2026-06-23
-  version: 3.2.4.3
+  updated: 2026-06-26
+  version: 3.2.4.4
   reviews: 559
   icon: com.pionex.client.jpg
   meta: ok

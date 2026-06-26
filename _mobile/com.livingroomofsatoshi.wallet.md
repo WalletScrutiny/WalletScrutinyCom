@@ -27,7 +27,7 @@ android:
   released: 2019-05-19
   updated: 2026-06-02
   version: 3.3.6
-  reviews: 232
+  reviews: 233
   icon: com.livingroomofsatoshi.wallet.png
   meta: ok
   verdict: custodial

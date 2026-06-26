@@ -40,7 +40,7 @@ iphone:
   released: 2023-01-25
   updated: 2026-06-15
   version: 5.9.7
-  reviews: 1111
+  reviews: 1112
   icon: finance.klever.bitcoin.wallet.jpg
   meta: ok
   verdict: nosource

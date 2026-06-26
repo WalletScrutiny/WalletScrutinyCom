@@ -19,7 +19,7 @@ android:
   released: 2022-03-25
   updated: 2026-06-14
   version: 1.2.1.6733
-  reviews: 123
+  reviews: 124
   icon: com.coinzoom.android.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2022-01-21
   updated: 2026-06-13
   version: 3.3.7
-  reviews: 753
+  reviews: 754
   icon: com.ios.coinzoomsimple.jpg
   meta: ok
   verdict: custodial

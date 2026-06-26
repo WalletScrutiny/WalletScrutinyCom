@@ -21,7 +21,7 @@ android:
   released: 2018-06-26
   updated: 2026-06-16
   version: 2026.06.11
-  reviews: 112
+  reviews: 111
   icon: com.digifinex.app.png
   meta: ok
   verdict: custodial

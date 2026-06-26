@@ -18,7 +18,7 @@ android:
   released: 2020-01-30
   updated: 2024-10-14
   version: 1.1.1
-  reviews: 75
+  reviews: 76
   icon: com.papaya.gekkard.png
   meta: stale
   verdict: custodial

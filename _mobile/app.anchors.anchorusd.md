@@ -28,7 +28,7 @@ iphone:
   released: 2020-01-30
   updated: 2026-06-13
   version: 1.23.1
-  reviews: 5319
+  reviews: 5318
   icon: app.anchors.anchorusd.jpg
   meta: ok
   verdict: custodial

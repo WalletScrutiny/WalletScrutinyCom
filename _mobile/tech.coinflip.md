@@ -33,7 +33,7 @@ iphone:
   released: 2024-06-05
   updated: 2026-05-21
   version: '4.4'
-  reviews: 869
+  reviews: 871
   icon: tech.coinflip.CoinFlip.jpg
   meta: ok
   verdict: custodial

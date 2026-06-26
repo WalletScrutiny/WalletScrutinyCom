@@ -19,7 +19,7 @@ android:
   released: 2019-03-12
   updated: 2026-06-19
   version: 2.230.0
-  reviews: 13047
+  reviews: 13054
   icon: com.wealthsimple.trade.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2019-02-26
   updated: 2026-06-23
   version: 2.231.0
-  reviews: 129096
+  reviews: 129105
   icon: com.wealthsimple.trade.jpg
   meta: ok
   verdict: nosendreceive

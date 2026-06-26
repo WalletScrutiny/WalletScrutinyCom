@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-05-31
-  updated: 2026-03-16
-  version: 2.3.7
+  updated: 2026-06-25
+  version: 2.3.12
   reviews: 25
   icon: com.wiseki.sekiapp.png
   meta: ok

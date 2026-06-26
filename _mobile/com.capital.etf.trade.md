@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2026-06-18
   version: 3.38.0
-  reviews: 7
+  reviews: 6
   icon: com.capital.etf.trade.png
   meta: ok
   verdict: nosendreceive

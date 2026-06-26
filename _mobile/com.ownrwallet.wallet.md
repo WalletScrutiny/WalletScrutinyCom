@@ -31,8 +31,8 @@ iphone:
   idd: '1459364947'
   appCountry: us
   released: 2019-05-21
-  updated: 2026-06-17
-  version: 2.1.5
+  updated: 2026-06-25
+  version: 2.2.0
   reviews: 115
   icon: com.ownrwallet.wallet.jpg
   meta: ok

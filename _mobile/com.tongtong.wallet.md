@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-21
-  updated: 2026-06-09
-  version: 2.1.20
+  updated: 2026-06-24
+  version: 2.1.21
   icon: com.tongtong.wallet.png
   meta: ok
   verdict: nosource
@@ -28,8 +28,8 @@ iphone:
   idd: '1618695778'
   appCountry: kr
   released: 2022-04-24
-  updated: 2026-06-09
-  version: 2.0.8
+  updated: 2026-06-24
+  version: 2.0.9
   reviews: 26
   icon: com.etomato.wallet.jpg
   meta: ok

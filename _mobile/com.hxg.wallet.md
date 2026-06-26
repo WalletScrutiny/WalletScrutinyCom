@@ -29,8 +29,8 @@ iphone:
   idd: '6443434220'
   appCountry: us
   released: 2022-10-19
-  updated: 2026-06-15
-  version: 3.6.7
+  updated: 2026-06-25
+  version: 3.6.8
   reviews: 85
   icon: com.ULLA.wallet.WalletForiOS.jpg
   meta: ok

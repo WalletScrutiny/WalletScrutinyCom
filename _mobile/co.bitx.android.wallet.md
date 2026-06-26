@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2014-11-01
   updated: 2026-06-23
-  version: 8.109.3
+  version: 8.110.1
   reviews: 1407
   icon: co.bitx.android.wallet.jpg
   meta: ok
@@ -35,7 +35,7 @@ iphone:
   released: 2014-11-03
   updated: 2026-06-15
   version: 8.110.2
-  reviews: 3641
+  reviews: 3644
   icon: za.co.Bitx.jpg
   meta: ok
   verdict: custodial

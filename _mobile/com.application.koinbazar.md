@@ -32,8 +32,8 @@ iphone:
   idd: '1567360326'
   appCountry: in
   released: 2021-06-02
-  updated: 2026-04-29
-  version: 4.2.2
+  updated: 2026-06-24
+  version: 4.2.3
   reviews: 159
   icon: com.app.koinbazar.jpg
   meta: ok

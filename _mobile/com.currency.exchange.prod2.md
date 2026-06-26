@@ -21,7 +21,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-04-15
-  updated: 2026-05-13
+  updated: 2026-06-25
   version: 2.20.2
   reviews: 1
   icon: com.currency.exchange.prod2.jpg

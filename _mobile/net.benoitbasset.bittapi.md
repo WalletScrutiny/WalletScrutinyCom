@@ -13,7 +13,7 @@ android:
   version: 1.2.1
   reviews: 6
   icon: net.benoitbasset.bittapi.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Oblade
 

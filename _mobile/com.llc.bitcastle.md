@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-07-29
-  updated: 2026-06-10
-  version: 1.13.11
+  updated: 2026-06-25
+  version: 1.13.12
   reviews: 16
   icon: com.llc.bitcastle.png
   meta: ok

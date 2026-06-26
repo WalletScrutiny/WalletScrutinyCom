@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: bh
   released: 2018-11-02
-  updated: 2026-06-18
-  version: 3.14.1
+  updated: 2026-06-25
+  version: 3.14.2
   reviews: 3341
   icon: com.rainmanagement.rain.png
   meta: ok

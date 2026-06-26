@@ -17,7 +17,7 @@ android:
   users: 500000
   appCountry: gb
   released: 2021-01-11
-  updated: 2026-05-29
+  updated: 2026-06-25
   version: '1.253'
   reviews: 38
   icon: com.gaincapital.forex.png
@@ -29,8 +29,8 @@ iphone:
   idd: 1506581586
   appCountry: gb
   released: 2020-10-14
-  updated: 2026-05-25
-  version: 1.254.7929
+  updated: 2026-06-25
+  version: 1.260.8005
   reviews: 242
   icon: com.gaincapital.forex.jpg
   meta: ok

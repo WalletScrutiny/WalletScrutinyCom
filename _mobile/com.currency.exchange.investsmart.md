@@ -13,7 +13,7 @@ android:
   users: 100000
   appCountry: tm
   released: 2020-12-10
-  updated: 2026-05-13
+  updated: 2026-06-25
   version: 2.20.2
   reviews: 291
   icon: com.currency.exchange.investsmart.png

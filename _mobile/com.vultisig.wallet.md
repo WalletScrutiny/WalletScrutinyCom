@@ -34,8 +34,8 @@ iphone:
   idd: '6503023896'
   appCountry: us
   released: 2024-09-16
-  updated: 2026-06-17
-  version: '1.39'
+  updated: 2026-06-24
+  version: '1.40'
   reviews: 62
   icon: com.vultisig.wallet.jpg
   meta: ok

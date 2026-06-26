@@ -33,11 +33,11 @@ iphone:
   idd: '1550289857'
   appCountry: us
   released: 2021-11-15
-  updated: 2024-08-08
-  version: 1.1.24
+  updated: 2026-06-25
+  version: 1.1.26
   reviews: 78
   icon: com.switchere.switchere.jpg
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: SH EUROPE UAB
 

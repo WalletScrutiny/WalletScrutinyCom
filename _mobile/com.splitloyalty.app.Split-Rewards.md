@@ -12,8 +12,8 @@ iphone:
   idd: '6740720801'
   appCountry: us
   released: 2025-01-22
-  updated: 2026-06-10
-  version: 4.4.3
+  updated: 2026-06-24
+  version: 4.4.4
   reviews: 3
   icon: com.splitloyalty.app.Split-Rewards.jpg
   meta: ok

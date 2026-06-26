@@ -19,9 +19,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-12-14
-  updated: 2026-05-26
-  version: '6.9'
-  reviews: 18
+  updated: 2026-06-25
+  version: '6.10'
+  reviews: 19
   icon: com.fasset.cashapp.png
   meta: ok
   verdict: custodial

@@ -22,8 +22,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-03-17
-  updated: 2026-04-28
-  version: 1.13.0
+  updated: 2026-06-24
+  version: 1.14.0
   reviews: 2
   icon: com.btcmarket.btcm.png
   meta: ok

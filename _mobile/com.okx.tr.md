@@ -31,9 +31,9 @@ iphone:
   idd: '6475769800'
   appCountry: tr
   released: 2024-02-07
-  updated: 2026-06-18
-  version: 6.176.0
-  reviews: 2214
+  updated: 2026-06-25
+  version: 6.177.1
+  reviews: 2215
   icon: com.okx.tr.jpg
   meta: ok
   verdict: custodial

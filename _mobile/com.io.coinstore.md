@@ -32,7 +32,7 @@ iphone:
   released: 2021-05-12
   updated: 2026-06-17
   version: 4.6.1
-  reviews: 100
+  reviews: 99
   icon: com.coinstore.sg.jpg
   meta: ok
   verdict: custodial
