@@ -5,6 +5,12 @@
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include_cached head-static.html %}
+    {% if page.url == "/" %}
+      <link rel="preload" href="{{ site.baseurl }}/fewWallets.js" as="script">
+      <link rel="preload" href="{{ site.baseurl }}/assets/js/searchWallets.js" as="script">
+      <link rel="preload" href="{{ site.baseurl }}/assets/js/landingPageWalletGrid.js" as="script">
+      {% include_cached homepage-preloads.html %}
+    {% endif %}
     {% include seo.html %}
     {% include_cached head/custom.html %}
   </head>
