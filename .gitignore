@@ -16,6 +16,7 @@ _data/precomputed.json
 dist/
 backup/
 _includes/scripts.html
+_includes/homepage-preloads.html
 _includes/allProducts-precomputed.json
 assets/js/json/wallets-precomputed.json
 external/build_server/.env

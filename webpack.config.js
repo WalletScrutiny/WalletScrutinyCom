@@ -110,6 +110,13 @@ module.exports = (env, argv) => {
           inject: false
         }
       ),
+      new HtmlWebpackPlugin(
+        {
+          template: 'src/templates/homepage-preloads.html',
+          filename: 'homepage-preloads.html',
+          inject: false
+        }
+      ),
       new WebpackShellPluginNext({
         onBuildStart: {
           scripts: [
@@ -122,6 +129,7 @@ module.exports = (env, argv) => {
         onAfterDone:  {
           scripts: [
             'mv dist/scripts.html _includes/scripts.html 2>/dev/null || true',
+            'mv dist/homepage-preloads.html _includes/homepage-preloads.html 2>/dev/null || true',
           ],
           blocking: false,
           parallel: false

@@ -1,0 +1,10 @@
+<%
+const bundlePath = (prefix) => {
+  const file = htmlWebpackPlugin.files.js.find((entry) => {
+    const name = entry.replace(/^\//, '').split('/').pop();
+    return name.startsWith(prefix + '.');
+  });
+  return file ? file.replace(/^\//, '') : '';
+};
+%>
+<link rel="preload" href="{{ site.baseurl }}/dist/<%= bundlePath('verifications_data') %>" as="script">
