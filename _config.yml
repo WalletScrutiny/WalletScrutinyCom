@@ -107,6 +107,7 @@ exclude:
   - CONTRIBUTING.md
   - Rakefile
   - assets/js/_main.js
+  - assets/js/ui-components.js
   - assets/js/plugins
   - assets/js/vendor
   - assets/css/barlow.css
@@ -267,6 +268,7 @@ defaults:
 # Sass/SCSS
 sass:
   quiet_deps: true
+  sourcemap: development
 
 # Outputting
 permalink: /:categories/:title/

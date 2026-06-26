@@ -18,6 +18,7 @@ import {
   getNip57ZapSpecFromLud,
   fetchLnInvoice,
   parseZapInvoiceFromReceipt,
+  getNip57,
   getTagValue,
   getMatchingTags,
   getUserPubkeyFromSigner,
@@ -2076,7 +2077,7 @@ const cleanupNdkConnections = function() {
  * Build and sign a NIP-57 zap request.
  */
 async function buildZapRequestEvent(lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags) {
-  const nip57Module = await import('nostr-tools/nip57');
+  const nip57Module = await getNip57();
 
   const zapRequest = nip57Module.makeZapRequest({
     pubkey: recipientPubkey,
@@ -2189,9 +2190,9 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
         const zapReceiptInvoice = getTagValue(event, 'bolt11');
         console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
         if (zapReceiptInvoice) {
-          const nip57Module = await import('nostr-tools/nip57');
+          const nip57Module = await getNip57();
           const amountPaid = nip57Module.getSatoshisAmountFromBolt11(zapReceiptInvoice);
-          const zapRequest = parseZapInvoiceFromReceipt(event);
+          const zapRequest = await parseZapInvoiceFromReceipt(event);
           event.zapRequest = zapRequest;
           console.debug('    - zapRequest (parseZapInvoiceFromReceipt)', zapRequest);
 
