@@ -2,7 +2,7 @@ import { verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-consta
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { marked } from 'marked';
+import { getMarked } from './marked-loader.js';
 import { renderCommentsSection } from './assets-table-comments.js';
 import {
   getAssetTableResponse,
@@ -270,6 +270,7 @@ function setupZapButton(zapBtn, profile, verification) {
 
 export async function showVerificationModal(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
+  const markedLoadPromise = getMarked();
 
   const response = getAssetTableResponse();
   if (!response) {
@@ -545,6 +546,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   const itemContent = JSON.parse(verification.content).content;
+  const marked = await markedLoadPromise;
   const parsedMarkdown = marked.parse(itemContent);
 
   let diffoscopeHTML = '';
