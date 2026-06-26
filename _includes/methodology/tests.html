@@ -76,6 +76,7 @@
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
   for (const accordion of document.querySelectorAll(".verdictMethodology")) {
     accordion.setAttribute("data-dropdown-open", "false");
     accordion.addEventListener("click", (event) => { event.target.setAttribute("data-dropdown-open", "true") });
@@ -136,4 +137,5 @@
     document.querySelector(".methodology-item.active").classList.remove('active');
     document.querySelector(".methodology-item.allPlatforms").classList.add('active');
   }
+});
 </script>

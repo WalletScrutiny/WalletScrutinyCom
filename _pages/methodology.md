@@ -27,6 +27,7 @@ author_profile: true
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
   let lastQuery = false;
   function url(){
     let urlPlatformCategory = false;
@@ -72,4 +73,5 @@ author_profile: true
       url();
     }
   });
+});
 </script>
