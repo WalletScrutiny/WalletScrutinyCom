@@ -289,6 +289,7 @@ export function paintMainAssetsTable({
 
           listItems += `<span
                             onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
+                            onmouseenter="prefetchMarked()"
                             class="attestation-link ${isMyDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">

@@ -1,9 +1,8 @@
 /**
- * This module handles the preview button functionality for markdown content
- * It properly imports the marked library from node modules instead of using a CDN
+ * Preview tab for markdown content on the new verification form.
  */
 
-import {marked} from 'marked';
+import { getMarked, prefetchMarked } from './marked-loader.js';
 
 /**
  * Initialize the preview button functionality
@@ -45,9 +44,11 @@ function setupPreviewButtons() {
       contentArea.style.display = 'block';
       previewArea.style.display = 'none';
     });
+
+    previewTab.addEventListener('mouseenter', prefetchMarked);
   
     // Set up Preview tab click handler
-    previewTab.addEventListener('click', (e) => {
+    previewTab.addEventListener('click', async (e) => {
       e.preventDefault();
       previewTab.classList.add('active');
       writeTab.classList.remove('active');
@@ -57,9 +58,8 @@ function setupPreviewButtons() {
       previewArea.style.overflowY = 'auto';
 
       try {
-        // Parse markdown content using the imported marked library
-        const markdownText = contentArea.value;
-        previewArea.innerHTML = marked.parse(markdownText);
+        const marked = await getMarked();
+        previewArea.innerHTML = marked.parse(contentArea.value);
       } catch (error) {
         console.error('Error parsing markdown:', error);
         previewArea.innerHTML = '<p style="color: red;">Error parsing markdown content</p>';
