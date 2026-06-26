@@ -21,6 +21,7 @@ module.exports = (env, argv) => {
       // Do not change the order of the entries
       site_main: [
         './assets/js/_main.js',
+        './assets/js/ui-components.js',
       ],
       dom_sanitization: ['dompurify'],
       verifications_data: {

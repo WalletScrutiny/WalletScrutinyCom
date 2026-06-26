@@ -5,8 +5,6 @@ permalink: /methodology/
 author_profile: true
 ---
 
-<script src="{{ site.baseurl }}/assets/js/ui-components.js"></script>
-
 <div class="tabulation-scroll-container">
 <div class="tabulation">
   <div class="tab">Introduction</div>
