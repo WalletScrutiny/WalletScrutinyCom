@@ -2,9 +2,20 @@ import { SimplePool, useWebSocketImplementation } from 'nostr-tools/pool';
 import { finalizeEvent, getPublicKey } from 'nostr-tools/pure';
 import { hexToBytes } from '@noble/hashes/utils.js';
 import { bech32 } from '@scure/base';
-import * as nip04 from 'nostr-tools/nip04';
 import * as nip19 from 'nostr-tools/nip19';
-import * as nip57 from 'nostr-tools/nip57';
+
+let nip04Promise;
+let nip57Promise;
+
+function getNip04() {
+  nip04Promise ??= import('nostr-tools/nip04');
+  return nip04Promise;
+}
+
+export function getNip57() {
+  nip57Promise ??= import('nostr-tools/nip57');
+  return nip57Promise;
+}
 
 let pool = null;
 let relayUrls = [];
@@ -286,6 +297,7 @@ export async function createEncryptedDm(recipientPubkey, plaintext, authorPubkey
     if (!secretKey) {
       throw new Error('No signer for NIP-04 encryption');
     }
+    const nip04 = await getNip04();
     content = nip04.encrypt(secretKey, recipientPubkey, plaintext);
   }
 
@@ -359,7 +371,7 @@ export async function fetchLnInvoice(zapRequestEvent, amountMsat, lnurlSpec) {
   return body.pr ?? null;
 }
 
-export function parseZapInvoiceFromReceipt(event) {
+export async function parseZapInvoiceFromReceipt(event) {
   const description = getMatchingTags(event, 'description')[0];
   const bolt11 = getMatchingTags(event, 'bolt11')[0];
 
@@ -378,6 +390,7 @@ export function parseZapInvoiceFromReceipt(event) {
 
     const zapRequest = JSON.parse(zapRequestPayload);
     const amountTag = zapRequest.tags?.find(tag => tag[0] === 'amount');
+    const nip57 = await getNip57();
     const amount = amountTag ? Number.parseInt(amountTag[1], 10) : nip57.getSatoshisAmountFromBolt11(bolt11[1]) * 1000;
     const recipientTag = getMatchingTags(event, 'p')[0];
     let zappedEvent = getMatchingTags(event, 'e')[0];
@@ -426,4 +439,4 @@ export async function signAndPublishEvent(template, eventType = 'event', urlsOve
   }
 }
 
-export { nip04, nip19, nip57 };
+export { nip19 };
