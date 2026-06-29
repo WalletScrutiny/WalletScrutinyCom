@@ -14,14 +14,12 @@ import {
   assetBundleRegistrationKind,
   eventRelayUrls,
   verificationEventsSinceTS,
-  wsBotPublicKey,
   nip89ClientTagD,
   mainRelayUrl
 } from './nostr-constants.mjs';
+import { BLOSSOM_SERVER_URL, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { appLog } from './logger.mjs';
 import { calculateFileHash, getFirstTagValue } from './utils.mjs';
-
-const blossomServerUrl = 'https://files.nostr.info';
 
 const purifyConfig = {
   ALLOWED_TAGS: [],
@@ -153,7 +151,7 @@ export async function uploadBlobToBlossomServer(file) {
     ['size', file.size.toString()],
   ];
 
-  const authHeader = await createAuthorizationHeader('upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
+  const authHeader = await createAuthorizationHeader('upload', `Upload blob ${hash}`, [hash], BLOSSOM_SERVER_URL, tags);
 
   const headers = {
     'Content-Type': file.type || 'application/octet-stream',
@@ -161,7 +159,7 @@ export async function uploadBlobToBlossomServer(file) {
   };
 
   try {
-    const response = await fetch(`${blossomServerUrl}/upload`, {
+    const response = await fetch(`${BLOSSOM_SERVER_URL}/upload`, {
       method: 'PUT',
       headers: headers,
       body: file
@@ -277,7 +275,7 @@ export async function createVerification({
     ["i", appId],
     ["version", version],
     ["platform", platform],
-    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
+    ["client", "WalletScrutiny.com", `31990:${WS_BOT_NOSTR_PUBKEY_HEX}:${nip89ClientTagD}`, mainRelayUrl],
     ["c", "walletscrutiny"]
   ];
 

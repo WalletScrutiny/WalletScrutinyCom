@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
-import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
 import { args, DEBUG, isDebugEnv } from './config/argv.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
@@ -362,17 +362,15 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
  * Remove a directory recursively.
  *
  * First tries a normal (non-sudo) deletion via fs.rmSync with retries.
- * If that fails and the directory is under /opt/build-server-builds,
+ * If that fails and the directory is under BUILD_DIR,
  * it falls back to a privileged removal via a hardened script (sudo).
  */
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
 
   // Safety check: never delete arbitrary paths.
-  // In production, the build artifacts live under /opt/build-server-builds.
-  // In debug mode, they live under external/build_server/build_server_build_dir.
-  const allowedProdBase = '/opt/build-server-builds';
-  const allowedDebugBase = fileURLToPath(new URL('./build_server_build_dir', import.meta.url));
+  const allowedProdBase = path.resolve(BUILD_DIR);
+  const allowedDebugBase = path.resolve(BUILD_DIR_DEBUG);
 
   const dirResolved = path.resolve(dir);
   const isUnderProdBase = dirResolved === allowedProdBase || dirResolved.startsWith(allowedProdBase + '/');

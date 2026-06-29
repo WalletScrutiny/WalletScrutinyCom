@@ -54,8 +54,7 @@ export const BUILD_DIR = '/opt/build-server-builds';
 // and to BUILD_DIR in production. Kept here (rather than in index.mjs) so it can be
 // imported by verifications.mjs and utils.mjs without creating a circular dependency.
 const BUILD_SERVER_ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-export const BUILD_DIR_PREFIX = isDebugEnv()
-  ? path.join(BUILD_SERVER_ROOT, 'build_server_build_dir')
-  : BUILD_DIR;
+export const BUILD_DIR_DEBUG = path.join(BUILD_SERVER_ROOT, 'build_server_build_dir');
+export const BUILD_DIR_PREFIX = isDebugEnv() ? BUILD_DIR_DEBUG : BUILD_DIR;
 
 export const BLOSSOM_SERVER_URL = 'https://files.nostr.info';
