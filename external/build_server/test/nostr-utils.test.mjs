@@ -100,7 +100,7 @@ describe('createVerification', () => {
   test('builds a verification event with a valid created_at when createdAt is omitted', async () => {
     const capture = captureEventAndSign();
 
-    await createVerification(null, baseVerificationParams, {
+    await createVerification(baseVerificationParams, {
       signEventFn: capture.signEventFn,
       publishEventFn: mockPublishSuccess(),
     });
@@ -118,7 +118,7 @@ describe('createVerification', () => {
 
     const capture = captureEventAndSign();
 
-    await createVerification(null, baseVerificationParams, {
+    await createVerification(baseVerificationParams, {
       signEventFn: capture.signEventFn,
       publishEventFn: mockPublishSuccess(),
     });
@@ -131,7 +131,7 @@ describe('createVerification', () => {
     const createdAt = '2024-06-01T12:00:00.000Z';
     const capture = captureEventAndSign();
 
-    await createVerification(null, { ...baseVerificationParams, createdAt }, {
+    await createVerification({ ...baseVerificationParams, createdAt }, {
       signEventFn: capture.signEventFn,
       publishEventFn: mockPublishSuccess(),
     });
@@ -140,7 +140,7 @@ describe('createVerification', () => {
   });
 
   test('returns a string event id, not an object with an id property', async () => {
-    const eventId = await createVerification(null, baseVerificationParams, {
+    const eventId = await createVerification(baseVerificationParams, {
       signEventFn: async (event) => ({
         ...event,
         id: '2'.repeat(64),
@@ -157,7 +157,7 @@ describe('createVerification', () => {
 
   test('throws when no relay accepts the event', async () => {
     await assert.rejects(
-      () => createVerification(null, baseVerificationParams, {
+      () => createVerification(baseVerificationParams, {
         signEventFn: async (event) => ({
           ...event,
           id: 'f'.repeat(64),
@@ -181,7 +181,7 @@ describe('createVerification', () => {
     setPrivateKey(generateSecretKey());
 
     let signedEvent;
-    await createVerification(null, baseVerificationParams, {
+    await createVerification(baseVerificationParams, {
       signEventFn: async (event) => {
         signedEvent = await signEvent(event);
         return signedEvent;

@@ -69,7 +69,7 @@ function makeEvent({ id = 'evt', pubkey = 'pk', kind, tags = [], created_at = 0,
     tags,
     created_at,
     content,
-    // Mirror NDKEvent's helper used by the production code.
+    // Mirror the tag helper shape used by production code.
     getMatchingTags(name) {
       return this.tags.filter(tag => tag[0] === name);
     }
