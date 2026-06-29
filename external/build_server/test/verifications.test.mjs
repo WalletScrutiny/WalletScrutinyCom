@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
 import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue } from '../verifications.mjs';
-import { initDb, closeDb, insert, findAll } from '../ddbbUtils.mjs';
+import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptByBuildScriptEventId } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
 
@@ -188,11 +188,12 @@ describe('addJobToQueue forceRebuild', () => {
     closeDb();
     initDb();
     queue.pause();
-    insert(baseAttemptRow());
+    const existingId = insert(baseAttemptRow());
 
     await addJobToQueue(baseJobArgs());
 
-    assert.equal(findAll().length, 1);
+    const hit = findQueuedOrErroredSimilarAttempt(baseAttemptRow());
+    assert.equal(hit.id, existingId);
     queue.clear();
     queue.start();
   });
@@ -206,7 +207,10 @@ describe('addJobToQueue forceRebuild', () => {
 
     try {
       await addJobToQueue(baseJobArgs());
-      assert.equal(findAll().length, 2);
+      const queued = findQueuedOrErroredSimilarAttempt(baseAttemptRow({ endResult: 'queued' }));
+      assert.ok(queued);
+      assert.equal(queued.endResult, 'queued');
+      assert.ok(findErroredAttemptByBuildScriptEventId('script-1'));
     } finally {
       DEBUG_APP_IDS.forceRebuild = [];
       queue.clear();

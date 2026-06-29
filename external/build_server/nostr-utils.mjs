@@ -80,10 +80,6 @@ export function getNdk() {
   return getPool();
 }
 
-export function getPoolInstance() {
-  return getPool();
-}
-
 export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Connecting to Nostr relays...');
 
@@ -107,7 +103,7 @@ export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Successfully connected to Nostr');
 }
 
-export async function createAuthorizationEvent(_poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+async function createAuthorizationEvent(_poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
   const event = createEventDraft({
     kind: 24242,
     content,
@@ -133,7 +129,7 @@ export async function createAuthorizationEvent(_poolInstance, verb, content, xTa
   return signEvent(event);
 }
 
-export async function createAuthorizationHeader(poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+async function createAuthorizationHeader(poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
   const signedEvent = await createAuthorizationEvent(poolInstance, verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
