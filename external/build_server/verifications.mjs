@@ -499,8 +499,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     }
 
     if (!anyFileTried) {
-      appLog.info(`   ** There are no files ending in .build.sh in the latest verification. Skipping... **`);
-      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in .build.sh in the latest verification. Skipping...`);
+      appLog.info(`   ** There are no files ending in build.sh in the latest verification. Skipping... **`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in build.sh in the latest verification. Skipping...`);
       return;
     }
 
