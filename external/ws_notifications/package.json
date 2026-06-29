@@ -9,9 +9,9 @@
     "test": "WS_NOTIFICATIONS_TEST=1 WS_NOTIFICATIONS_DB_PATH=:memory: node --test --test-reporter=spec \"test/**/*.test.mjs\""
   },
   "dependencies": {
-    "nostr-tools": "2.23.8",
-    "better-sqlite3": "^12.10.0",
+    "better-sqlite3": "^12.11.1",
     "minimist": "^1.2.8",
+    "nostr-tools": "2.23.8",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
     "ws": "^8.21.0"
