@@ -245,6 +245,12 @@ export function getFileAttachmentIDsForVerificationEvent(event) {
     .filter(id => id?.length === 64);
 }
 
+export function isBuildScriptFileEvent(fileEvent) {
+  const fileName = getFirstTagValue(fileEvent, 'name');
+  const extension = getFirstTagValue(fileEvent, 'extension');
+  return (fileName + '.' + extension).endsWith('build.sh');
+}
+
 export async function filterVerificationsWithBuildScripts(verifications) {
   const fileAttachmentIds = [];
 
@@ -281,10 +287,7 @@ export async function filterVerificationsWithBuildScripts(verifications) {
   // of events that are build.sh files for verificationsCandidates
   const buildShFileEvents = new Map();
   for (const fileEvent of fileEvents) {
-    const fileName = getFirstTagValue(fileEvent, 'name');
-    const extension = getFirstTagValue(fileEvent, 'extension');
-    const scriptName = fileName + '.' + extension;
-    if (scriptName.endsWith('build.sh')) {
+    if (isBuildScriptFileEvent(fileEvent)) {
       buildShFileEvents.set(fileEvent.id, fileEvent);
     }
   }

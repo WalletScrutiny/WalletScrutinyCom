@@ -20,7 +20,8 @@ import {
   getScriptsToReproduce,
   findArchAndTypeForFile,
   toLegacyPlatform,
-  sanitizeFilesystemSegment
+  sanitizeFilesystemSegment,
+  isBuildScriptFileEvent
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
@@ -436,16 +437,13 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     let anyFileTried = false;
 
     for (const fileEvent of fileEvents) {
-      const fileName = getFirstTagValue(fileEvent, 'name');
-      const extension = getFirstTagValue(fileEvent, 'extension');
-
-      const scriptName = fileName + '.' + extension;
-      if (!scriptName.endsWith('build.sh')) {
+      if (!isBuildScriptFileEvent(fileEvent)) {
         continue;
       }
 
       anyFileTried = true;
 
+      const fileName = getFirstTagValue(fileEvent, 'name');
       const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
       if (!buildCombinations) {
         continue;
