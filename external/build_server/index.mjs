@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import minimist from 'minimist';
 import WebSocket from 'ws';
 import { setupWebSocketForNode } from '../../src/nostr-client.mjs';
 import {
@@ -17,6 +16,8 @@ import {
   getFirstTagValue,
   groupVerificationsByAppIdAndSortByVersion,
   getFileAttachmentIDsForVerificationEvent,
+  loadSecret,
+  DEBUG,
   toLegacyPlatform
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
@@ -28,7 +29,6 @@ import {
   BUILD_DIR_PREFIX,
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
-import { DEBUG } from './config/env.mjs';
 
 setupWebSocketForNode(WebSocket);
 
@@ -140,25 +140,6 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     appLog.error('Error during process:', error);
     throw error;
   }
-}
-
-const args = minimist(process.argv.slice(2));
-
-/**
- * Load a secret from a file referenced by an env var, falling back to a CLI
- * argument for local development. Throws if neither source is provided.
- */
-function loadSecret({ name, fileEnv, argName }) {
-  const filePath = process.env[fileEnv];
-  if (filePath) {
-    return fs.readFileSync(filePath, 'utf8').trim();
-  }
-  const argValue = args[argName];
-  if (argValue) {
-    console.warn(`Warning: Using ${name} from argv (dev only)`);
-    return argValue;
-  }
-  throw new Error(`${name} not provided`);
 }
 
 let githubToken;

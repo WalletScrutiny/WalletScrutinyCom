@@ -1,4 +1,4 @@
-import { isDebugEnv } from './config/env.mjs';
+import { isDebugEnv } from './config/argv.mjs';
 
 export const mainRelayUrl = "wss://relay.nostr.info/";
 export const explicitRelayUrls = [

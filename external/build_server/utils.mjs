@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { args, DEBUG, isDebugEnv } from './config/argv.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
   getAssetFileEntries,
@@ -16,6 +17,25 @@ import {
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
+
+export { args, DEBUG, isDebugEnv };
+
+/**
+ * Load a secret from a file referenced by an env var, falling back to a CLI
+ * argument for local development. Throws if neither source is provided.
+ */
+export function loadSecret({ name, fileEnv, argName }) {
+  const filePath = process.env[fileEnv];
+  if (filePath) {
+    return fs.readFileSync(filePath, 'utf8').trim();
+  }
+  const argValue = args[argName];
+  if (argValue) {
+    console.warn(`Warning: Using ${name} from argv (dev only)`);
+    return argValue;
+  }
+  throw new Error(`${name} not provided`);
+}
 
 // Platforms whose verifications are bucketed under the legacy "desktop" label
 // used by Asset Registry consumers and the wallet config files.

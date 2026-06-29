@@ -1,6 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { isDebugEnv } from './env.mjs';
+import { isDebugEnv } from './argv.mjs';
 
 // Approved verifiers public keys (hex format)
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
