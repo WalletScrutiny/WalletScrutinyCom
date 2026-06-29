@@ -622,7 +622,6 @@ export async function addJobToQueue({
       type,
       fileEventIdsForSHFiles,
       assetHashes?.length ? assetHashes : [verificationHash ?? fileHash].filter(Boolean),
-      binaryFilePath,
       dbVerificationRowId
     );
   }).catch(error => {
@@ -856,7 +855,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, binaryFilePath = null, dbVerificationRowId = null) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   requireNostrPool();
