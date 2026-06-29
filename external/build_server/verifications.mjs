@@ -860,14 +860,14 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
   requireNostrPool();
 
-  const comparisionResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
-  if (!comparisionResults || !comparisionResults.verdict) {
+  const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!comparisonResults || !comparisonResults.verdict) {
     appLog.error(`COMPARISON_RESULTS.yaml not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml not found in ${buildDirForThisVerification}`);
     return;
   }
 
-  const { verdict, scriptVersion, notes } = comparisionResults;
+  const { verdict, scriptVersion, notes } = comparisonResults;
 
   if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(verdict)) {
     appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
