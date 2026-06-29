@@ -74,8 +74,6 @@ function sanitizeNostrEvent(event) {
   }
 }
 
-export { getPool } from '../../src/nostr-client.mjs';
-
 export function requireNostrPool() {
   const pool = getPool();
   if (!pool) {
