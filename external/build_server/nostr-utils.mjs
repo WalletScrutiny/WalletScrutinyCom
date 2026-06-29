@@ -266,7 +266,7 @@ export async function createVerification(_poolInstance, {
   reusedFileIds = [],
   outputFiles = [],
   basedOn = null
-}) {
+}, { signEventFn, publishEventFn } = {}) {
   const fullContent = JSON.stringify({
     description: description || '',
     content: content,
@@ -301,22 +301,33 @@ export async function createVerification(_poolInstance, {
     tags.push(["based-on", basedOn]);
   }
 
-  const draft = createEventDraft({
+  const draftOptions = {
     kind: verificationKind,
     content: fullContent,
-    created_at: Math.floor(new Date(createdAt).getTime() / 1000),
     tags,
-  });
+  };
+  if (createdAt) {
+    draftOptions.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
+  }
+  const event = createEventDraft(draftOptions);
 
-  appLog.info(`Sending verification to Nostr... ${JSON.stringify(draft)}`);
-  return await publishSignedEvent(draft);
+  appLog.info(`Sending verification to Nostr... ${JSON.stringify(event)}`);
+  return await publishSignedEvent(event, signEventFn, publishEventFn);
 }
 
-async function publishSignedEvent(draft) {
+async function publishSignedEvent(event, signEventFn, publishEventFn) {
+  const sign = signEventFn ?? signEvent;
+  const publish = publishEventFn ?? publishEvent;
   try {
-    const signed = await signEvent(draft);
-    const { successful } = await publishEvent(signed);
-    appLog.info(`Published verification (id: ${signed.id}) to ${successful} relays`);
+    const signed = await sign(event);
+    const { successful, total, results } = await publish(signed);
+    appLog.info(`Published verification (id: ${signed.id}) to ${successful}/${total} relays`);
+    if (successful === 0) {
+      const errors = results
+        .filter(result => result.status === 'rejected')
+        .map(result => result.reason?.message ?? String(result.reason));
+      throw new Error(`Failed to publish to any relay. Errors: ${errors.join('; ') || 'no relays connected'}`);
+    }
     return signed.id;
   } catch (error) {
     appLog.error(`Error publishing verification to relays`, error);

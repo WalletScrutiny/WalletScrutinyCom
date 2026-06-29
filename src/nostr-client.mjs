@@ -417,7 +417,7 @@ export function createEventDraft({ kind, content, tags = [], created_at = null, 
     kind,
     content,
     tags: [...tags],
-    created_at: created_at ?? Math.floor(Date.now() / 1000),
+    created_at: Number.isFinite(created_at) ? created_at : Math.floor(Date.now() / 1000),
   };
 
   if (pubkey) {

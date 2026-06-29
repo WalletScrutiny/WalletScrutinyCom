@@ -6,7 +6,9 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir } from '../verifications.mjs';
+import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue } from '../verifications.mjs';
+import { initDb, closeDb, insert, findAll } from '../ddbbUtils.mjs';
+import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
 
 const debugBuildDir = fileURLToPath(new URL('../build_server_build_dir', import.meta.url));
@@ -144,6 +146,72 @@ describe('downloadAssetFilesToDir', () => {
     assert.equal(result.primaryHash, hash);
     assert.equal(fs.readFileSync(path.join(dir, 'app.apk'), 'utf8'), 'apk-bytes');
     assert.equal(fs.existsSync(path.join(dir, 'binary')), false);
+  });
+});
+
+describe('addJobToQueue forceRebuild', () => {
+  function baseAttemptRow(overrides = {}) {
+    return {
+      appId: 'com.example',
+      platform: 'linux',
+      version: '1.2.3',
+      arch: 'x86_64',
+      type: 'release',
+      verificationId: 'verif-1',
+      buildScriptEventId: 'script-1',
+      endResult: 'error',
+      ...overrides,
+    };
+  }
+
+  function baseJobArgs(overrides = {}) {
+    return {
+      verification: { id: 'verif-1' },
+      appId: 'com.example',
+      platform: 'linux',
+      newWalletVersion: '1.2.3',
+      architecture: 'x86_64',
+      type: 'release',
+      fileEventIdsForSHFiles: [],
+      jobType: 'release',
+      buildShFileEvent: {
+        id: 'script-1',
+        content: Buffer.from('#!/bin/bash\nexit 0').toString('base64'),
+      },
+      outputFileName: 'build.sh',
+      githubToken: 'token',
+      ...overrides,
+    };
+  }
+
+  test('does not queue again when a similar errored attempt exists', async () => {
+    closeDb();
+    initDb();
+    queue.pause();
+    insert(baseAttemptRow());
+
+    await addJobToQueue(baseJobArgs());
+
+    assert.equal(findAll().length, 1);
+    queue.clear();
+    queue.start();
+  });
+
+  test('queues again when forceRebuild matches appId and version', async () => {
+    closeDb();
+    initDb();
+    queue.pause();
+    insert(baseAttemptRow());
+    DEBUG_APP_IDS.forceRebuild = [{ appId: 'com.example', version: '1.2.3' }];
+
+    try {
+      await addJobToQueue(baseJobArgs());
+      assert.equal(findAll().length, 2);
+    } finally {
+      DEBUG_APP_IDS.forceRebuild = [];
+      queue.clear();
+      queue.start();
+    }
   });
 });
 

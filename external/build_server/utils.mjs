@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
-import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
   getAssetFileEntries,
@@ -219,7 +219,10 @@ export function getAppIdsFromVerifications(verifications) {
 }
 
 export function getFileAttachmentIDsForVerificationEvent(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]).filter(id => id.length === 64) || [];
+  return (event.tags ?? [])
+    .filter(tag => tag[0] === 'file-attachment')
+    .map(tag => tag[1])
+    .filter(id => id?.length === 64);
 }
 
 export async function filterVerificationsWithBuildScripts(verifications) {
@@ -289,17 +292,12 @@ export async function filterVerificationsWithBuildScripts(verifications) {
 export function filterAssetsWithoutVerification(assets, verifications) {
   const assetsWithoutVerification = [];
   const seenSha256 = new Set();
-  const debugPairs = new Set(
-    (DEBUG_APP_IDS.includeEvenWithVerification || []).map(
-      ({ appId, version }) => `${appId}\0${version}`
-    )
-  );
 
   for (const asset of assets) {
     const appId = getFirstTagValue(asset, 'i');
     const version = getFirstTagValue(asset, 'version');
     const platform = getFirstTagValue(asset, 'platform');
-    const isInDebugList = debugPairs.has(`${appId}\0${version}`);
+    const forceRebuild = shouldForceRebuild(appId, version);
 
     const fileEntries = getAssetFileEntries(asset);
     const allHashes = fileEntries.map(entry => entry.hash);
@@ -315,7 +313,7 @@ export function filterAssetsWithoutVerification(assets, verifications) {
         : (sha256 && verifications.has(sha256));
 
     const hasNoVerification = sha256 && !isVerified;
-    const shouldInclude = (hasNoVerification || isInDebugList) && sha256 && !seenSha256.has(sha256);
+    const shouldInclude = (hasNoVerification || forceRebuild) && sha256 && !seenSha256.has(sha256);
 
     if (shouldInclude) {
       seenSha256.add(sha256);

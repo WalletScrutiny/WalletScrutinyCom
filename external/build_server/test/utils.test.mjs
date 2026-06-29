@@ -341,15 +341,15 @@ describe('filterAssetsWithoutVerification', () => {
     assert.deepEqual(filterAssetsWithoutVerification([splitAsset], verifiedByZipHash), []);
   });
 
-  test('honours DEBUG_APP_IDS.includeEvenWithVerification', () => {
+  test('honours DEBUG_APP_IDS.forceRebuild', () => {
     const asset = makeAsset({ appId: 'com.example', platform: 'linux', version: '1.2.3', hashes: [HASH_A] });
     const verifications = new Map([[HASH_A, [makeVerification({ appId: 'com.example', platform: 'linux', version: '1.2.3' })]]]);
 
-    DEBUG_APP_IDS.includeEvenWithVerification = [{ appId: 'com.example', version: '1.2.3' }];
+    DEBUG_APP_IDS.forceRebuild = [{ appId: 'com.example', version: '1.2.3' }];
     try {
       assert.deepEqual(filterAssetsWithoutVerification([asset], verifications), [asset]);
     } finally {
-      DEBUG_APP_IDS.includeEvenWithVerification = [];
+      DEBUG_APP_IDS.forceRebuild = [];
     }
   });
 
