@@ -76,8 +76,14 @@ function sanitizeNostrEvent(event) {
   }
 }
 
-export function getNdk() {
-  return getPool();
+export { getPool } from '../../src/nostr-client.mjs';
+
+export function requireNostrPool() {
+  const pool = getPool();
+  if (!pool) {
+    throw new Error('Nostr pool is not initialized. Call connectToNostr() first.');
+  }
+  return pool;
 }
 
 export async function connectToNostr(nostrPrivateKey) {
@@ -103,7 +109,7 @@ export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Successfully connected to Nostr');
 }
 
-async function createAuthorizationEvent(_poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
   const event = createEventDraft({
     kind: 24242,
     content,
@@ -129,17 +135,15 @@ async function createAuthorizationEvent(_poolInstance, verb, content, xTags = []
   return signEvent(event);
 }
 
-async function createAuthorizationHeader(poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
-  const signedEvent = await createAuthorizationEvent(poolInstance, verb, content, xTags, serverUrl, tags);
+async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
+  const signedEvent = await createAuthorizationEvent(verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
   return 'Nostr ' + eventBase64;
 }
 
-export async function uploadBlobToBlossomServer(file, poolInstance = null) {
-  if (!getPool() && !poolInstance) {
-    throw new Error('Nostr pool is not initialized. Call connectToNostr() first or pass poolInstance parameter.');
-  }
+export async function uploadBlobToBlossomServer(file) {
+  requireNostrPool();
 
   const hash = await calculateFileHash(file);
   appLog.info(`Uploading cast file to Blossom: ${hash}`);
@@ -149,7 +153,7 @@ export async function uploadBlobToBlossomServer(file, poolInstance = null) {
     ['size', file.size.toString()],
   ];
 
-  const authHeader = await createAuthorizationHeader(poolInstance, 'upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
+  const authHeader = await createAuthorizationHeader('upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
 
   const headers = {
     'Content-Type': file.type || 'application/octet-stream',
@@ -250,7 +254,7 @@ export async function getEventsFromEventIds(eventIds) {
   return events;
 }
 
-export async function createVerification(_poolInstance, {
+export async function createVerification({
   hashes,
   description,
   content,

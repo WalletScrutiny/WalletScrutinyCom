@@ -4,7 +4,7 @@ import path from 'path';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import PQueue from 'p-queue';
-import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
+import { requireNostrPool, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
   filterVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
@@ -414,11 +414,8 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 
 export async function processNewReleaseVerification(verification, newWalletVersion, appInfo, wsBotVerifications, githubToken) {
   try {
-    // Capture ndk instance at the start to ensure it's available in async callbacks
-    const ndkInstance = getNdk();
-    if (!ndkInstance) {
-      throw new Error('NDK instance is not initialized');
-    }
+    // Ensure the relay pool is ready before any async callbacks run.
+    requireNostrPool();
 
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
@@ -864,10 +861,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
 export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, binaryFilePath = null, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
-  const ndkInstance = getNdk();
-  if (!ndkInstance) {
-    throw new Error('NDK instance is not initialized');
-  }
+  requireNostrPool();
 
   const comparisionResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
   if (!comparisionResults || !comparisionResults.verdict) {
@@ -889,7 +883,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
   let castFileHash = null;
   try {
-    castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
+    castFileHash = await uploadBlobToBlossomServer(castFile);
   } catch (error) {
     appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
@@ -938,7 +932,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
       appLog.info(`[QUEUE_INFO] Updated verification row before creating Nostr event: rowId=${dbVerificationRowId}, endResult=${verdict}`);
     }
 
-    const verificationEventId = await createVerification(ndkInstance, formData);
+    const verificationEventId = await createVerification(formData);
 
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId}`);
 
