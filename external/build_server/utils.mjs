@@ -20,6 +20,16 @@ const MAX_SCRIPTS_TO_TRY = 3;
 
 export { args, DEBUG, isDebugEnv };
 
+let shutdownRequested = false;
+
+export function requestShutdown() {
+  shutdownRequested = true;
+}
+
+export function isShutdownRequested() {
+  return shutdownRequested;
+}
+
 /**
  * Load a secret from a file referenced by an env var, falling back to a CLI
  * argument for local development. Throws if neither source is provided.

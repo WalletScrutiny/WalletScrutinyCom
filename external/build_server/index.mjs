@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 import WebSocket from 'ws';
-import { setupWebSocketForNode } from '../../src/nostr-client.mjs';
+import { setupWebSocketForNode, disconnectNostr } from '../../src/nostr-client.mjs';
 import {
   connectToNostr,
   getAllVerifications
@@ -18,9 +18,12 @@ import {
   getFileAttachmentIDsForVerificationEvent,
   loadSecret,
   DEBUG,
-  toLegacyPlatform
+  toLegacyPlatform,
+  requestShutdown,
+  isShutdownRequested
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
+import { closeDb } from './ddbbUtils.mjs';
 import {
   shouldProcessAppId,
   HOURS_BETWEEN_EXECUTIONS,
@@ -46,6 +49,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     appLog.info('[QUEUE_INFO] Waiting for queue to drain...');
     await queue.onIdle();
     appLog.info('[QUEUE_INFO] Queue idle - all jobs completed.');
+
+    if (isShutdownRequested()) {
+      return;
+    }
 
     if (!FEATURE_REFRESH_APPS) {
       // For now, we only reproduce assets from the Asset Registry (android, hardware, desktop).
@@ -161,13 +168,75 @@ appLog.info('======= Starting Build Server App =======');
 
 fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
-while (true) {
+let interruptSleep = null;
+let mainProcessRunning = null;
+let shutdownPromise = null;
+
+async function gracefulShutdown(signal) {
+  if (shutdownPromise) {
+    return shutdownPromise;
+  }
+
+  shutdownPromise = (async () => {
+    appLog.info(`Received ${signal}, shutting down gracefully...`);
+    requestShutdown();
+    interruptSleep?.();
+
+    if (mainProcessRunning) {
+      appLog.info('Waiting for current mainProcess cycle to finish...');
+      await mainProcessRunning;
+    }
+
+    appLog.info('[QUEUE_INFO] Waiting for queue to drain before exit...');
+    await queue.onIdle();
+
+    closeDb();
+
+    try {
+      await disconnectNostr();
+    } catch (error) {
+      appLog.warn('Error disconnecting from Nostr during shutdown:', error);
+    }
+
+    appLog.info('Shutdown complete.');
+    process.exit(0);
+  })();
+
+  return shutdownPromise;
+}
+
+process.on('SIGTERM', () => { void gracefulShutdown('SIGTERM'); });
+process.on('SIGINT', () => { void gracefulShutdown('SIGINT'); });
+
+async function sleepUntilNextCycle() {
+  return new Promise((resolve) => {
+    const timer = setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000);
+    interruptSleep = () => {
+      clearTimeout(timer);
+      resolve();
+    };
+  });
+}
+
+while (!isShutdownRequested()) {
   try {
-    await mainProcess(githubToken, wsBotNostrPrivateKey);
+    const run = mainProcess(githubToken, wsBotNostrPrivateKey);
+    mainProcessRunning = run;
+    await run;
   } catch (error) {
     appLog.error('Error during execution:', error);
+  } finally {
+    mainProcessRunning = null;
   }
-  
+
+  if (isShutdownRequested()) {
+    break;
+  }
+
   appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);
-  await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
+  await sleepUntilNextCycle();
+}
+
+if (shutdownPromise) {
+  await shutdownPromise;
 }

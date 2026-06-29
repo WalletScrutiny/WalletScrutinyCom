@@ -21,7 +21,8 @@ import {
   findArchAndTypeForFile,
   toLegacyPlatform,
   sanitizeFilesystemSegment,
-  isBuildScriptFileEvent
+  isBuildScriptFileEvent,
+  isShutdownRequested
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
@@ -282,6 +283,10 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
   appLog.debug(`# assetsWithoutVerification: ${assetsWithoutVerification.length}`);
 
   for (const asset of assetsWithoutVerification) {
+    if (isShutdownRequested()) {
+      appLog.info('Shutdown requested; stopping asset verification enqueueing.');
+      break;
+    }
     const appId = getFirstTagValue(asset, 'i');
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
@@ -529,6 +534,11 @@ export async function addJobToQueue({
   githubToken,
   onCompilationProblem
 }) {
+  if (isShutdownRequested()) {
+    appLog.info('[QUEUE_INFO] Shutdown requested; not queueing new job.');
+    return;
+  }
+
   const scriptPathForLog = jobType === 'asset'
     ? `${appId}_${fileHash}_script.sh`
     : outputFileName ?? 'script.sh';
