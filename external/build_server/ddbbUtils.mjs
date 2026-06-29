@@ -38,11 +38,7 @@ export function initDb() {
   return db;
 }
 
-/**
- * Get the database instance. Calls initDb() if not yet initialized.
- * @returns {Database.Database}
- */
-export function getDb() {
+function getDb() {
   return initDb();
 }
 
@@ -59,28 +55,6 @@ export function insert(row) {
   `);
   const result = stmt.run(row);
   return result.lastInsertRowid;
-}
-
-/**
- * Find a verification by its primary key id.
- * @param {number} id
- * @returns {Object|undefined}
- */
-export function findById(id) {
-  const database = getDb();
-  const stmt = database.prepare('SELECT * FROM verifications WHERE id = ?');
-  return stmt.get(id);
-}
-
-/**
- * Find a verification by verificationId.
- * @param {string} verificationId
- * @returns {Object|undefined}
- */
-export function findByVerificationId(verificationId) {
-  const database = getDb();
-  const stmt = database.prepare('SELECT * FROM verifications WHERE verificationId = ?');
-  return stmt.get(verificationId);
 }
 
 /**
@@ -126,39 +100,6 @@ export function findErroredAttemptByBuildScriptEventId(buildScriptEventId) {
 }
 
 /**
- * Find all verifications, optionally filtered by appId and/or platform.
- * @param {Object} [options] - { appId?, platform?, limit?, offset? }
- * @returns {Object[]}
- */
-export function findAll(options = {}) {
-  const database = getDb();
-  const { appId, platform, limit, offset } = options;
-  let sql = 'SELECT * FROM verifications WHERE 1=1';
-  const params = [];
-
-  if (appId != null) {
-    sql += ' AND appId = ?';
-    params.push(appId);
-  }
-  if (platform != null) {
-    sql += ' AND platform = ?';
-    params.push(platform);
-  }
-  sql += ' ORDER BY id DESC';
-  if (limit != null) {
-    sql += ' LIMIT ?';
-    params.push(limit);
-  }
-  if (offset != null) {
-    sql += ' OFFSET ?';
-    params.push(offset);
-  }
-
-  const stmt = database.prepare(sql);
-  return stmt.all(...params);
-}
-
-/**
  * Update a verification by id. Only provided fields are updated.
  * @param {number} id
  * @param {Object} updates - { appId?, platform?, version?, arch?, type?, verificationId?, buildScriptEventId?, endResult? }
@@ -183,18 +124,6 @@ export function update(id, updates) {
   const sql = `UPDATE verifications SET ${setParts.join(', ')} WHERE id = ?`;
   const stmt = database.prepare(sql);
   const result = stmt.run(...params);
-  return result.changes;
-}
-
-/**
- * Delete a verification by id.
- * @param {number} id
- * @returns {number} Number of rows deleted (0 or 1)
- */
-export function deleteById(id) {
-  const database = getDb();
-  const stmt = database.prepare('DELETE FROM verifications WHERE id = ?');
-  const result = stmt.run(id);
   return result.changes;
 }
 

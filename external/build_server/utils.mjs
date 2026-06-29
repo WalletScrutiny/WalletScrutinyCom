@@ -4,7 +4,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
-import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { args, DEBUG, isDebugEnv } from './config/argv.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
   getAssetFileEntries,
@@ -16,6 +17,35 @@ import {
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
+
+export { args, DEBUG, isDebugEnv };
+
+let shutdownRequested = false;
+
+export function requestShutdown() {
+  shutdownRequested = true;
+}
+
+export function isShutdownRequested() {
+  return shutdownRequested;
+}
+
+/**
+ * Load a secret from a file referenced by an env var, falling back to a CLI
+ * argument for local development. Throws if neither source is provided.
+ */
+export function loadSecret({ name, fileEnv, argName }) {
+  const filePath = process.env[fileEnv];
+  if (filePath) {
+    return fs.readFileSync(filePath, 'utf8').trim();
+  }
+  const argValue = args[argName];
+  if (argValue) {
+    console.warn(`Warning: Using ${name} from argv (dev only)`);
+    return argValue;
+  }
+  throw new Error(`${name} not provided`);
+}
 
 // Platforms whose verifications are bucketed under the legacy "desktop" label
 // used by Asset Registry consumers and the wallet config files.
@@ -225,6 +255,12 @@ export function getFileAttachmentIDsForVerificationEvent(event) {
     .filter(id => id?.length === 64);
 }
 
+export function isBuildScriptFileEvent(fileEvent) {
+  const fileName = getFirstTagValue(fileEvent, 'name');
+  const extension = getFirstTagValue(fileEvent, 'extension');
+  return (fileName + '.' + extension).endsWith('build.sh');
+}
+
 export async function filterVerificationsWithBuildScripts(verifications) {
   const fileAttachmentIds = [];
 
@@ -261,10 +297,7 @@ export async function filterVerificationsWithBuildScripts(verifications) {
   // of events that are build.sh files for verificationsCandidates
   const buildShFileEvents = new Map();
   for (const fileEvent of fileEvents) {
-    const fileName = getFirstTagValue(fileEvent, 'name');
-    const extension = getFirstTagValue(fileEvent, 'extension');
-    const scriptName = fileName + '.' + extension;
-    if (scriptName.endsWith('build.sh')) {
+    if (isBuildScriptFileEvent(fileEvent)) {
       buildShFileEvents.set(fileEvent.id, fileEvent);
     }
   }
@@ -342,17 +375,15 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
  * Remove a directory recursively.
  *
  * First tries a normal (non-sudo) deletion via fs.rmSync with retries.
- * If that fails and the directory is under /opt/build-server-builds,
+ * If that fails and the directory is under BUILD_DIR,
  * it falls back to a privileged removal via a hardened script (sudo).
  */
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
 
   // Safety check: never delete arbitrary paths.
-  // In production, the build artifacts live under /opt/build-server-builds.
-  // In debug mode, they live under external/build_server/build_server_build_dir.
-  const allowedProdBase = '/opt/build-server-builds';
-  const allowedDebugBase = fileURLToPath(new URL('./build_server_build_dir', import.meta.url));
+  const allowedProdBase = path.resolve(BUILD_DIR);
+  const allowedDebugBase = path.resolve(BUILD_DIR_DEBUG);
 
   const dirResolved = path.resolve(dir);
   const isUnderProdBase = dirResolved === allowedProdBase || dirResolved.startsWith(allowedProdBase + '/');

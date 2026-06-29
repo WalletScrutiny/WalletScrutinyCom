@@ -10,13 +10,9 @@ import {
   initDb,
   closeDb,
   insert,
-  findById,
-  findByVerificationId,
   findQueuedOrErroredSimilarAttempt,
   findErroredAttemptByBuildScriptEventId,
-  findAll,
   update,
-  deleteById
 } from '../ddbbUtils.mjs';
 
 function baseRow(overrides = {}) {
@@ -44,76 +40,32 @@ after(() => {
 });
 
 describe('ddbbUtils CRUD', () => {
-  test('insert returns a positive rowid and findById round-trips the row', () => {
+  test('insert returns a positive rowid and stores the row', () => {
     const id = insert(baseRow());
     assert.equal(typeof id, 'number');
     assert.ok(id > 0);
-    const row = findById(id);
+
+    const row = findQueuedOrErroredSimilarAttempt(baseRow());
     assert.ok(row);
+    assert.equal(row.id, id);
     assert.equal(row.appId, 'com.example');
     assert.equal(row.endResult, 'queued');
     assert.ok(row.createdAt);
     assert.ok(row.updatedAt);
   });
 
-  test('findByVerificationId returns the matching record', () => {
-    insert(baseRow({ verificationId: 'unique-id' }));
-    insert(baseRow({ verificationId: 'other-id' }));
-
-    const row = findByVerificationId('unique-id');
-    assert.ok(row);
-    assert.equal(row.verificationId, 'unique-id');
-    assert.equal(findByVerificationId('nope'), undefined);
-  });
-
-  test('update applies only allowed fields and changes updatedAt', () => {
+  test('update applies only allowed fields and clears queued/error lookup', () => {
     const id = insert(baseRow());
-    const before = findById(id);
 
     const changes = update(id, { endResult: 'reproducible', bogus: 'ignored' });
     assert.equal(changes, 1);
 
-    const after = findById(id);
-    assert.equal(after.endResult, 'reproducible');
-    assert.equal(after.appId, before.appId);
-    // updatedAt may equal before.updatedAt if the test runs sub-second, so only
-    // assert it's a non-empty string here.
-    assert.ok(typeof after.updatedAt === 'string' && after.updatedAt.length > 0);
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow()), undefined);
   });
 
   test('update returns 0 when no allowed field is provided', () => {
     const id = insert(baseRow());
     assert.equal(update(id, { bogus: 'ignored' }), 0);
-  });
-
-  test('deleteById removes the record', () => {
-    const id = insert(baseRow());
-    assert.equal(deleteById(id), 1);
-    assert.equal(findById(id), undefined);
-    assert.equal(deleteById(id), 0);
-  });
-});
-
-describe('findAll', () => {
-  test('filters by appId and/or platform and respects limit/offset', () => {
-    insert(baseRow({ appId: 'a', platform: 'linux', verificationId: '1' }));
-    insert(baseRow({ appId: 'a', platform: 'android', verificationId: '2' }));
-    insert(baseRow({ appId: 'b', platform: 'linux', verificationId: '3' }));
-
-    assert.equal(findAll({ appId: 'a' }).length, 2);
-    assert.equal(findAll({ platform: 'linux' }).length, 2);
-    assert.equal(findAll({ appId: 'a', platform: 'linux' }).length, 1);
-
-    const all = findAll();
-    assert.equal(all.length, 3);
-
-    const limited = findAll({ limit: 2 });
-    assert.equal(limited.length, 2);
-
-    const offset = findAll({ limit: 1, offset: 1 });
-    assert.equal(offset.length, 1);
-    // Results are ordered by id DESC, so offset 1 gives us the 2nd-newest row.
-    assert.equal(offset[0].verificationId, '2');
   });
 });
 

@@ -14,14 +14,12 @@ import {
   assetBundleRegistrationKind,
   eventRelayUrls,
   verificationEventsSinceTS,
-  wsBotPublicKey,
   nip89ClientTagD,
   mainRelayUrl
 } from './nostr-constants.mjs';
+import { BLOSSOM_SERVER_URL, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { appLog } from './logger.mjs';
 import { calculateFileHash, getFirstTagValue } from './utils.mjs';
-
-const blossomServerUrl = 'https://files.nostr.info';
 
 const purifyConfig = {
   ALLOWED_TAGS: [],
@@ -76,12 +74,12 @@ function sanitizeNostrEvent(event) {
   }
 }
 
-export function getNdk() {
-  return getPool();
-}
-
-export function getPoolInstance() {
-  return getPool();
+export function requireNostrPool() {
+  const pool = getPool();
+  if (!pool) {
+    throw new Error('Nostr pool is not initialized. Call connectToNostr() first.');
+  }
+  return pool;
 }
 
 export async function connectToNostr(nostrPrivateKey) {
@@ -107,7 +105,7 @@ export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Successfully connected to Nostr');
 }
 
-export async function createAuthorizationEvent(_poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
   const event = createEventDraft({
     kind: 24242,
     content,
@@ -133,17 +131,15 @@ export async function createAuthorizationEvent(_poolInstance, verb, content, xTa
   return signEvent(event);
 }
 
-export async function createAuthorizationHeader(poolInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
-  const signedEvent = await createAuthorizationEvent(poolInstance, verb, content, xTags, serverUrl, tags);
+async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
+  const signedEvent = await createAuthorizationEvent(verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
   return 'Nostr ' + eventBase64;
 }
 
-export async function uploadBlobToBlossomServer(file, poolInstance = null) {
-  if (!getPool() && !poolInstance) {
-    throw new Error('Nostr pool is not initialized. Call connectToNostr() first or pass poolInstance parameter.');
-  }
+export async function uploadBlobToBlossomServer(file) {
+  requireNostrPool();
 
   const hash = await calculateFileHash(file);
   appLog.info(`Uploading cast file to Blossom: ${hash}`);
@@ -153,7 +149,7 @@ export async function uploadBlobToBlossomServer(file, poolInstance = null) {
     ['size', file.size.toString()],
   ];
 
-  const authHeader = await createAuthorizationHeader(poolInstance, 'upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
+  const authHeader = await createAuthorizationHeader('upload', `Upload blob ${hash}`, [hash], BLOSSOM_SERVER_URL, tags);
 
   const headers = {
     'Content-Type': file.type || 'application/octet-stream',
@@ -161,7 +157,7 @@ export async function uploadBlobToBlossomServer(file, poolInstance = null) {
   };
 
   try {
-    const response = await fetch(`${blossomServerUrl}/upload`, {
+    const response = await fetch(`${BLOSSOM_SERVER_URL}/upload`, {
       method: 'PUT',
       headers: headers,
       body: file
@@ -254,7 +250,7 @@ export async function getEventsFromEventIds(eventIds) {
   return events;
 }
 
-export async function createVerification(_poolInstance, {
+export async function createVerification({
   hashes,
   description,
   content,
@@ -277,7 +273,7 @@ export async function createVerification(_poolInstance, {
     ["i", appId],
     ["version", version],
     ["platform", platform],
-    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
+    ["client", "WalletScrutiny.com", `31990:${WS_BOT_NOSTR_PUBKEY_HEX}:${nip89ClientTagD}`, mainRelayUrl],
     ["c", "walletscrutiny"]
   ];
 

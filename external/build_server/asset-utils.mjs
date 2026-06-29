@@ -1,13 +1,4 @@
-import {
-  assetRegistrationKind,
-  assetBundleRegistrationKind,
-} from './nostr-constants.mjs';
-
-export const assetRegistrationKinds = [assetRegistrationKind, assetBundleRegistrationKind];
-
-export function isAssetRegistrationKind(kind) {
-  return assetRegistrationKinds.includes(kind);
-}
+import { assetBundleRegistrationKind } from './nostr-constants.mjs';
 
 export function isAssetBundleRegistrationKind(kind) {
   return kind === assetBundleRegistrationKind;
@@ -91,14 +82,6 @@ export function getLegacyAssetLookupHash(asset) {
     return null;
   }
   return hashes.length > 1 ? hashes[1] : hashes[0];
-}
-
-export function getAssetIndexHashes(asset) {
-  if (asset.kind === assetBundleRegistrationKind) {
-    return getAssetFileEntries(asset).map(entry => entry.hash);
-  }
-  const lookup = getLegacyAssetLookupHash(asset);
-  return lookup ? [lookup] : [];
 }
 
 export function bundleHasFullVerification(asset, verificationsMap) {

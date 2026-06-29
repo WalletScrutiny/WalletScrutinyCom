@@ -4,7 +4,7 @@ import path from 'path';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import PQueue from 'p-queue';
-import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
+import { requireNostrPool, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
   filterVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
@@ -20,11 +20,13 @@ import {
   getScriptsToReproduce,
   findArchAndTypeForFile,
   toLegacyPlatform,
-  sanitizeFilesystemSegment
+  sanitizeFilesystemSegment,
+  isBuildScriptFileEvent,
+  isShutdownRequested
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 import {
@@ -281,6 +283,10 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
   appLog.debug(`# assetsWithoutVerification: ${assetsWithoutVerification.length}`);
 
   for (const asset of assetsWithoutVerification) {
+    if (isShutdownRequested()) {
+      appLog.info('Shutdown requested; stopping asset verification enqueueing.');
+      break;
+    }
     const appId = getFirstTagValue(asset, 'i');
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
@@ -414,11 +420,8 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 
 export async function processNewReleaseVerification(verification, newWalletVersion, appInfo, wsBotVerifications, githubToken) {
   try {
-    // Capture ndk instance at the start to ensure it's available in async callbacks
-    const ndkInstance = getNdk();
-    if (!ndkInstance) {
-      throw new Error('NDK instance is not initialized');
-    }
+    // Ensure the relay pool is ready before any async callbacks run.
+    requireNostrPool();
 
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
@@ -439,16 +442,13 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     let anyFileTried = false;
 
     for (const fileEvent of fileEvents) {
-      const fileName = getFirstTagValue(fileEvent, 'name');
-      const extension = getFirstTagValue(fileEvent, 'extension');
-
-      const scriptName = fileName + '.' + extension;
-      if (!scriptName.endsWith('build.sh')) {
+      if (!isBuildScriptFileEvent(fileEvent)) {
         continue;
       }
 
       anyFileTried = true;
 
+      const fileName = getFirstTagValue(fileEvent, 'name');
       const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
       if (!buildCombinations) {
         continue;
@@ -504,8 +504,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     }
 
     if (!anyFileTried) {
-      appLog.info(`   ** There are no files ending in .build.sh in the latest verification. Skipping... **`);
-      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in .build.sh in the latest verification. Skipping...`);
+      appLog.info(`   ** There are no files ending in build.sh in the latest verification. Skipping... **`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in build.sh in the latest verification. Skipping...`);
       return;
     }
 
@@ -534,6 +534,11 @@ export async function addJobToQueue({
   githubToken,
   onCompilationProblem
 }) {
+  if (isShutdownRequested()) {
+    appLog.info('[QUEUE_INFO] Shutdown requested; not queueing new job.');
+    return;
+  }
+
   const scriptPathForLog = jobType === 'asset'
     ? `${appId}_${fileHash}_script.sh`
     : outputFileName ?? 'script.sh';
@@ -627,7 +632,6 @@ export async function addJobToQueue({
       type,
       fileEventIdsForSHFiles,
       assetHashes?.length ? assetHashes : [verificationHash ?? fileHash].filter(Boolean),
-      binaryFilePath,
       dbVerificationRowId
     );
   }).catch(error => {
@@ -861,22 +865,19 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, binaryFilePath = null, dbVerificationRowId = null) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
-  const ndkInstance = getNdk();
-  if (!ndkInstance) {
-    throw new Error('NDK instance is not initialized');
-  }
+  requireNostrPool();
 
-  const comparisionResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
-  if (!comparisionResults || !comparisionResults.verdict) {
+  const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!comparisonResults || !comparisonResults.verdict) {
     appLog.error(`COMPARISON_RESULTS.yaml not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml not found in ${buildDirForThisVerification}`);
     return;
   }
 
-  const { verdict, scriptVersion, notes } = comparisionResults;
+  const { verdict, scriptVersion, notes } = comparisonResults;
 
   if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(verdict)) {
     appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
@@ -889,7 +890,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
   let castFileHash = null;
   try {
-    castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
+    castFileHash = await uploadBlobToBlossomServer(castFile);
   } catch (error) {
     appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
@@ -938,7 +939,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
       appLog.info(`[QUEUE_INFO] Updated verification row before creating Nostr event: rowId=${dbVerificationRowId}, endResult=${verdict}`);
     }
 
-    const verificationEventId = await createVerification(ndkInstance, formData);
+    const verificationEventId = await createVerification(formData);
 
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId}`);
 
