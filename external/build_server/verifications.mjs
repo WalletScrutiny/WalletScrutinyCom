@@ -24,7 +24,7 @@ import {
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR_PREFIX } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 import {
@@ -313,9 +313,19 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
           `buildScriptEventId=${candidate.buildShFileEvent.id}, verificationId=${candidate.verification.id}, ` +
           `version=${candidateVersion}`
         );
-        const erroredAttempt = findErroredAttemptByBuildScriptEventId(candidate.buildShFileEvent.id);
+        const forceRebuild = shouldForceRebuild(appId, version);
+        const erroredAttempt = forceRebuild
+          ? undefined
+          : findErroredAttemptByBuildScriptEventId(candidate.buildShFileEvent.id);
         if (!erroredAttempt) {
-          appLog.info(`     - build script ${candidate.buildShFileEvent.id} will be tried`);
+          if (forceRebuild) {
+            appLog.info(
+              `     - build script ${candidate.buildShFileEvent.id} will be retried ` +
+              `(forceRebuild for ${appId} ${version})`
+            );
+          } else {
+            appLog.info(`     - build script ${candidate.buildShFileEvent.id} will be tried`);
+          }
           return { candidate, nextIndex: index + 1 };
         }
         appLog.info(
@@ -558,7 +568,10 @@ export async function addJobToQueue({
     endResult: 'queued'
   };
 
-  const previousAttempt = findQueuedOrErroredSimilarAttempt(verificationAttemptRow);
+  const forceRebuild = shouldForceRebuild(appId, newWalletVersion);
+  const previousAttempt = forceRebuild
+    ? undefined
+    : findQueuedOrErroredSimilarAttempt(verificationAttemptRow);
   if (previousAttempt) {
     appLog.info(
       `[QUEUE_INFO] Similar compilation already attempted on date ${previousAttempt.createdAt} ` +
@@ -927,7 +940,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId.id}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification) && verdict === 'reproducible') {
       removeDirectoryRecursive(buildDirForThisVerification);

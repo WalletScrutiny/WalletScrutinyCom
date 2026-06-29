@@ -31,9 +31,16 @@ export const QUEUE_STATUS_INTERVAL_MINUTES = 5;
 export const DEBUG_APP_IDS = {
   include: [],  // If empty, process all except exclude. If has elements, process only these (minus any in exclude)
   exclude: [],   // Always skip these appIds
-  // Include these (appId, version) pairs even when they already have verifications (for re-build testing)
-  includeEvenWithVerification: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+  // Force rebuild for these (appId, version) pairs even when they already have
+  // verifications or a previous build attempt in the database (for re-build testing)
+  forceRebuild: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
+
+export function shouldForceRebuild(appId, version) {
+  return (DEBUG_APP_IDS.forceRebuild || []).some(
+    entry => entry.appId === appId && entry.version === version
+  );
+}
 
 export function shouldProcessAppId(appId) {
   if (DEBUG_APP_IDS.exclude.includes(appId)) return false;
