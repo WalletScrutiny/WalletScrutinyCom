@@ -11,9 +11,9 @@
   "dependencies": {
     "better-sqlite3": "^12.11.1",
     "isomorphic-dompurify": "^3.18.0",
-    "nostr-tools": "2.23.8",
-    "js-yaml": "^4.2.0",
+    "js-yaml": "^4.3.0",
     "minimist": "^1.2.8",
+    "nostr-tools": "2.23.8",
     "p-queue": "^9.3.0",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
