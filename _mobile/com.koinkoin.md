@@ -35,7 +35,7 @@ iphone:
   version: 2.4.1
   reviews: 1
   icon: com.koinkoin.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: KoinKoin Ltd
 

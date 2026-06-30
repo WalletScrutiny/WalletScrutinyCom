@@ -34,9 +34,9 @@ iphone:
   idd: '1634080733'
   appCountry: us
   released: 2023-01-18
-  updated: 2026-06-23
-  version: 2026.25.0
-  reviews: 5154
+  updated: 2026-06-25
+  version: 2026.26.0
+  reviews: 5178
   icon: com.robinhood.release.Gateway.jpg
   meta: ok
   verdict: nosource

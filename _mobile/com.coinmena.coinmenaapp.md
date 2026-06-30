@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-08-07
-  updated: 2026-05-19
-  version: 3.6.0
+  updated: 2026-06-14
+  version: 3.7.0
   reviews: 54
   icon: com.coinmena.coinmenaapp.png
   meta: ok

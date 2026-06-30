@@ -28,8 +28,8 @@ iphone:
   idd: '1541005487'
   appCountry: ca
   released: 2021-02-18
-  updated: 2026-06-10
-  version: 1.43.1
+  updated: 2026-06-26
+  version: 1.44.0
   reviews: 0
   icon: dev.com.gleecexchange.app.jpg
   meta: ok

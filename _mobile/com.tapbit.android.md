@@ -31,8 +31,8 @@ iphone:
   idd: '1610497530'
   appCountry: us
   released: 2022-03-01
-  updated: 2026-06-05
-  version: 4.3.8
+  updated: 2026-06-26
+  version: 4.3.9
   reviews: 52
   icon: com.billance.cn.jpg
   meta: ok

@@ -23,7 +23,7 @@ android:
   released: 2020-04-17
   updated: 2026-06-23
   version: 5.2.12
-  reviews: 680
+  reviews: 679
   icon: com.nicehash.metallum.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2020-04-29
   updated: 2026-06-23
   version: 7.1.13
-  reviews: 4571
+  reviews: 4572
   icon: com.nicehash.mobile.jpg
   meta: ok
   verdict: custodial

@@ -44,7 +44,7 @@ iphone:
   released: 2018-03-22
   updated: 2026-06-23
   version: 1.67.3
-  reviews: 2108
+  reviews: 2111
   icon: com.coinomi.wallet.jpg
   meta: ok
   verdict: nosource

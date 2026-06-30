@@ -33,9 +33,9 @@ iphone:
   idd: 1406825640
   appCountry: us
   released: 2019-01-30
-  updated: 2026-06-09
-  version: '4.17'
-  reviews: 7451
+  updated: 2026-06-29
+  version: 4.17.1
+  reviews: 7453
   icon: net.bitstamp.jpg
   meta: ok
   verdict: custodial

@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2016-01-20
 discontinued: 
-updated: 2026-06-24
-version: 1.91.178
+updated: 2026-06-26
+version: 1.91.180
 binaries: https://brave.com/download/
 provider: Brave Software
 providerWebsite: 

@@ -19,7 +19,7 @@ android:
   version: 1.3.1
   reviews: 4
   icon: com.quantum.wallet.app.jpg
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Nexus Payments Limited
 iphone:

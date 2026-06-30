@@ -18,7 +18,7 @@ android:
   released: 2020-07-21
   updated: 2026-06-18
   version: 5.4.2
-  reviews: 530
+  reviews: 541
   icon: com.blockabc.cctip.png
   meta: ok
   verdict: custodial

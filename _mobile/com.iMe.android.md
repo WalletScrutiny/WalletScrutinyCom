@@ -34,7 +34,7 @@ iphone:
   released: 2019-07-31
   updated: 2026-06-17
   version: 12.7.0
-  reviews: 8555
+  reviews: 8573
   icon: com.olcorporation.olai.jpg
   meta: ok
   verdict: nosource

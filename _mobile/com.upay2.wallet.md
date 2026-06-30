@@ -19,7 +19,7 @@ android:
   released: 2025-07-27
   updated: 2026-01-13
   version: 1.0.6
-  reviews: 4
+  reviews: 5
   icon: com.upay2.wallet.png
   meta: ok
   verdict: custodial

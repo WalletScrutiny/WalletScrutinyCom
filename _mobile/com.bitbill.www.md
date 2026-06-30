@@ -33,7 +33,7 @@ iphone:
   released: 2018-02-07
   updated: 2026-06-18
   version: 4.65.2
-  reviews: 149
+  reviews: 150
   icon: com.bitbill.wallet.jpg
   meta: ok
   verdict: nosource

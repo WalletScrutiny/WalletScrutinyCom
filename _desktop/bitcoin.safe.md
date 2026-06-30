@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2025-02-20
 discontinued: 
-updated: 2026-04-05
-version: 1.8.1
+updated: 2026-06-29
+version: 2.0.0
 binaries: https://github.com/andreasgriffin/bitcoin-safe/releases
 provider: Andreas Griffin
 providerWebsite: 

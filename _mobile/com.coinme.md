@@ -34,7 +34,7 @@ iphone:
   released: 2021-05-11
   updated: 2026-06-10
   version: 3.3.2
-  reviews: 6333
+  reviews: 6343
   icon: com.coinme.CoinMe.jpg
   meta: ok
   verdict: custodial

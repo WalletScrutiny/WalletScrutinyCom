@@ -26,7 +26,7 @@ android:
   icon: com.usenobi.png
   meta: ok
   verdict: custodial
-  developerName: usenobi
+  developerName: Bybit Indonesia
 iphone:
   appId: com.usenobi.ios
   idd: '1510269362'

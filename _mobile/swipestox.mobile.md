@@ -31,7 +31,7 @@ iphone:
   released: 2017-01-15
   updated: 2026-06-16
   version: 9.7.6
-  reviews: 65
+  reviews: 66
   icon: com.swipestox.app.jpg
   meta: ok
   verdict: nosendreceive

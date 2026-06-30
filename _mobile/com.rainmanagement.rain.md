@@ -19,8 +19,8 @@ android:
   appCountry: bh
   released: 2018-11-02
   updated: 2026-06-25
-  version: 3.14.2
-  reviews: 3341
+  version: 3.14.3
+  reviews: 3343
   icon: com.rainmanagement.rain.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-02
   updated: 2026-06-22
   version: 3.14.1
-  reviews: 2907
+  reviews: 2909
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

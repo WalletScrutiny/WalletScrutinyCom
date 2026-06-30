@@ -29,9 +29,9 @@ iphone:
   idd: 1517787269
   appCountry: in
   released: 2020-12-09
-  updated: 2026-06-15
-  version: 7.55.0002
-  reviews: 42827
+  updated: 2026-06-27
+  version: 7.56.0002
+  reviews: 43042
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

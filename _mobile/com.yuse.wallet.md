@@ -24,7 +24,7 @@ android:
   updated: 2025-07-02
   version: 80.0.0
   icon: com.yuse.wallet.jpg
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Web3 Innovations
 iphone:

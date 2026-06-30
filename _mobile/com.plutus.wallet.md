@@ -21,7 +21,7 @@ android:
   released: 2015-03-04
   updated: 2024-01-12
   version: '146.0'
-  reviews: 2893
+  reviews: 2892
   icon: com.plutus.wallet.png
   meta: obsolete
   verdict: custodial

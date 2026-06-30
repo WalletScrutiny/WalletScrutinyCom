@@ -23,7 +23,7 @@ android:
   released: 2023-04-23
   updated: 2025-10-06
   version: 1.0.34
-  reviews: 36
+  reviews: 35
   icon: org.autonomoussoftwarefoundation.verusmobile.android.png
   meta: ok
   verdict: sourceavailable

@@ -26,8 +26,8 @@ iphone:
   idd: '1495986023'
   appCountry: us
   released: 2020-01-30
-  updated: 2026-06-13
-  version: 1.23.1
+  updated: 2026-06-26
+  version: 1.23.2
   reviews: 5318
   icon: app.anchors.anchorusd.jpg
   meta: ok

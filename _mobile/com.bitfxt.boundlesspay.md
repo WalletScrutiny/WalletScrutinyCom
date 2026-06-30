@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-19
-  updated: 2026-06-23
-  version: 2.6.0
+  updated: 2026-06-30
+  version: 2.6.1
   reviews: 15
   icon: com.bitfxt.boundlesspay.png
   meta: ok

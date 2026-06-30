@@ -33,9 +33,9 @@ iphone:
   idd: 927362479
   appCountry: us
   released: 2014-11-03
-  updated: 2026-06-15
-  version: 8.110.2
-  reviews: 3644
+  updated: 2026-06-29
+  version: 8.111.0
+  reviews: 3645
   icon: za.co.Bitx.jpg
   meta: ok
   verdict: custodial

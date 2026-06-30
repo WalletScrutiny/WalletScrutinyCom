@@ -14,7 +14,7 @@ android:
   appCountry: us
   released: 2023-06-02
   updated: 2026-06-23
-  version: 2.92.1
+  version: 3.2.0
   icon: com.utorg.png
   meta: ok
   verdict: nosource

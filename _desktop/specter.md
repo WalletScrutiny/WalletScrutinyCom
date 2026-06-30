@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2020-06-30
 discontinued: 
-updated: 2026-05-18
-version: 2.1.9
+updated: 2026-06-29
+version: 2.1.10
 binaries: 
 provider: Crypto Advance GmbH
 providerWebsite: 

@@ -22,7 +22,7 @@ android:
   released: 2024-05-17
   updated: 2026-04-01
   version: 3.3.1
-  reviews: 124
+  reviews: 125
   icon: com.magiceden.wallet.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   released: 2024-07-31
   updated: 2026-04-01
   version: 3.3.1
-  reviews: 1971
+  reviews: 1970
   icon: com.magiceden.wallet.jpg
   meta: ok
   verdict: nosource

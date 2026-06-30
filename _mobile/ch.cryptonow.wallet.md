@@ -12,8 +12,8 @@ android:
   appId: ch.cryptonow.wallet
   users: 10000
   appCountry: us
-  updated: 2026-04-07
-  version: 2.3.0
+  updated: 2026-06-29
+  version: 2.3.1
   icon: ch.cryptonow.wallet.png
   meta: ok
   verdict: nosource
@@ -23,8 +23,8 @@ iphone:
   idd: '1607143703'
   appCountry: ch
   released: 2022-07-07
-  updated: 2026-04-07
-  version: 2.3.0
+  updated: 2026-06-29
+  version: 2.3.1
   reviews: 114
   icon: ch.cryptonow.wallet.jpg
   meta: ok

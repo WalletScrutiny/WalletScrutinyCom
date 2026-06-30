@@ -23,7 +23,7 @@ android:
   released: 2021-06-15
   updated: 2026-06-16
   version: 2.0.13
-  reviews: 553
+  reviews: 554
   icon: com.bitcoinira.png
   meta: ok
   verdict: custodial

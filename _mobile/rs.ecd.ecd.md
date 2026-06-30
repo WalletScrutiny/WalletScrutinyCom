@@ -30,9 +30,9 @@ iphone:
   idd: '1643391034'
   appCountry: rs
   released: 2023-04-18
-  updated: 2026-06-23
-  version: 1.2.58
-  reviews: 108
+  updated: 2026-06-28
+  version: 1.2.59
+  reviews: 111
   icon: rs.ecd.ECD.jpg
   meta: ok
   verdict: custodial

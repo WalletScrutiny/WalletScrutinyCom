@@ -28,7 +28,7 @@ iphone:
   version: 4.1.1
   reviews: 241
   icon: com.glamster.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: Glamster
 

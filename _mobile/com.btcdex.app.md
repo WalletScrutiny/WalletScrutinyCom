@@ -6,7 +6,7 @@ redirect_from:
 - /android/com.btcdex.app/
 android:
   appId: com.btcdex.app
-  users: 100
+  users: 500
   appCountry: us
   released: 2025-11-15
   updated: 2026-01-07

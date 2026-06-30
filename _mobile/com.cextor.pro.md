@@ -1,6 +1,6 @@
 ---
 wsId: cextorExchange
-title: Cextor - Buy Bitcoin & Crypto
+title: Moneque
 date: 2025-11-13
 authors:
 - danny
@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-10
-  updated: 2025-09-05
-  version: 1.0.0
+  updated: 2026-06-27
+  version: 2026.06.28
   reviews: 5
   icon: com.cextor.pro.png
   meta: ok

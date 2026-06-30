@@ -34,7 +34,7 @@ iphone:
   released: 2020-11-17
   updated: 2023-02-13
   version: '1.33'
-  reviews: 960
+  reviews: 959
   icon: com.buyucoin.jpg
   meta: obsolete
   verdict: custodial

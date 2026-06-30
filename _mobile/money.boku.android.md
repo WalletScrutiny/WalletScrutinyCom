@@ -18,7 +18,7 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-17
-  updated: 2026-06-03
+  updated: 2026-06-29
   version: 1.3.213
   reviews: 17
   icon: money.boku.android.jpg
@@ -32,7 +32,7 @@ iphone:
   released: 2025-04-03
   updated: 2026-06-15
   version: 1.11.39
-  reviews: 126
+  reviews: 131
   icon: money.boku.ios.jpg
   meta: ok
   verdict: nosendreceive

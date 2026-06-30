@@ -36,8 +36,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-07-07
-  updated: 2026-06-17
-  version: 13.1.0
+  updated: 2026-06-20
+  version: 13.1.1
   reviews: 39
   icon: app.zeusln.zeus.png
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
@@ -50,8 +50,8 @@ iphone:
   idd: 1456038895
   appCountry: us
   released: 2021-04-22
-  updated: 2026-06-17
-  version: v13.1.0
+  updated: 2026-06-26
+  version: v13.1.1
   reviews: 76
   icon: com.zeusln.zeus.jpg
   meta: ok

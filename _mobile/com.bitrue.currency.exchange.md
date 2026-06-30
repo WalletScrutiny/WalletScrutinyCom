@@ -19,7 +19,7 @@ android:
   released: 2018-07-18
   updated: 2026-01-17
   version: 6.1.22
-  reviews: 721
+  reviews: 720
   icon: com.bitrue.currency.exchange.png
   meta: ok
   verdict: custodial

@@ -28,7 +28,7 @@ iphone:
   released: 2021-01-05
   updated: 2026-06-16
   version: 3.0.6
-  reviews: 907
+  reviews: 909
   icon: io.gosats.jpg
   meta: ok
   verdict: custodial

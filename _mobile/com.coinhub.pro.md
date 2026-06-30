@@ -18,7 +18,7 @@ android:
   released: 2021-08-20
   updated: 2025-12-31
   version: 3.0.9
-  reviews: 9
+  reviews: 10
   icon: com.coinhub.pro.png
   meta: ok
   verdict: custodial

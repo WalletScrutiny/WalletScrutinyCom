@@ -14,7 +14,7 @@ android:
   appCountry: us
   released: 2019-11-18
   updated: 2026-06-26
-  version: 3.2.4.4
+  version: 3.2.4.6
   reviews: 559
   icon: com.pionex.client.jpg
   meta: ok

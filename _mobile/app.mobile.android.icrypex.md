@@ -23,7 +23,7 @@ android:
   version: '21.2'
   reviews: 10
   icon: app.mobile.android.icrypex.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 iphone:

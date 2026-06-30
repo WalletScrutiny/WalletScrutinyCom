@@ -9,8 +9,8 @@ iphone:
   idd: '6711352543'
   appCountry: us
   released: 2024-10-28
-  updated: 2026-06-15
-  version: 3.11.16
+  updated: 2026-06-29
+  version: 3.11.17
   reviews: 56
   icon: com.zmexglobal.app.jpg
   meta: ok

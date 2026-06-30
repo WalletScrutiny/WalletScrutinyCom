@@ -27,8 +27,8 @@ android:
   users: 500000
   appCountry: us
   released: 2015-05-01
-  updated: 2026-06-02
-  version: 6.28.0
+  updated: 2026-06-29
+  version: 6.29.0
   reviews: 110
   icon: com.coinspace.app.png
   meta: ok
@@ -43,7 +43,7 @@ iphone:
   released: 2015-12-14
   updated: 2026-06-04
   version: 6.28.0
-  reviews: 491
+  reviews: 492
   icon: com.coinspace.wallet.jpg
   meta: ok
   verdict: sourceavailable

@@ -31,9 +31,9 @@ iphone:
   idd: '1599893605'
   appCountry: us
   released: 2021-12-14
-  updated: 2026-06-09
-  version: '4.12'
-  reviews: 41
+  updated: 2026-06-26
+  version: '4.13'
+  reviews: 42
   icon: com.fasset.cashapp.jpg
   meta: ok
   verdict: custodial

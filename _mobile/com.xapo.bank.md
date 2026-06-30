@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-27
-  updated: 2026-06-17
-  version: 11.17.0
+  updated: 2026-06-29
+  version: 11.17.1
   reviews: 42
   icon: com.xapo.bank.png
   meta: ok
@@ -34,8 +34,8 @@ iphone:
   idd: '1560681080'
   appCountry: fi
   released: 2021-06-03
-  updated: 2026-06-17
-  version: 11.17.0
+  updated: 2026-06-27
+  version: 11.18.0
   reviews: 4
   icon: com.xapo.bank.jpg
   meta: ok

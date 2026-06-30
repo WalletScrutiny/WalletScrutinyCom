@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2023-03-12
 discontinued: 
-updated: 2026-02-11
-version: 2.4.4
+updated: 2026-06-26
+version: 2.6.0
 binaries: 
 provider: Cypher Stack
 providerWebsite: 

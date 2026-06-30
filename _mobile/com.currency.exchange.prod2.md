@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2019-04-15
   updated: 2026-06-25
-  version: 2.20.2
+  version: 2.21.2
   reviews: 1
   icon: com.currency.exchange.prod2.jpg
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: 1458917114
   appCountry: by
   released: 2019-04-23
-  updated: 2026-05-14
-  version: 2.20.2
-  reviews: 4501
+  updated: 2026-06-26
+  version: 2.21.2
+  reviews: 4504
   icon: com.currency.exchange.prod2.jpg
   meta: ok
   verdict: custodial

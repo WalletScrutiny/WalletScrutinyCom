@@ -24,7 +24,7 @@ android:
   released: 2015-12-22
   updated: 2026-06-18
   version: 12.45.0
-  reviews: 10970
+  reviews: 10969
   icon: io.cex.app.prod.png
   meta: ok
   verdict: custodial
@@ -34,9 +34,9 @@ iphone:
   idd: 1047225016
   appCountry: us
   released: 2015-12-22
-  updated: 2026-06-02
-  version: 12.45.0
-  reviews: 12924
+  updated: 2026-06-29
+  version: 12.46.0
+  reviews: 12925
   icon: io.cex.app.jpg
   meta: ok
   verdict: custodial

@@ -8,10 +8,10 @@ redirect_from:
 - /android/com.cheezeebit.exchange/
 android:
   appId: com.cheezeebit.exchange
-  users: 100000
+  users: 500000
   appCountry: us
-  updated: 2026-06-22
-  version: 1.3.8
+  updated: 2026-06-29
+  version: 1.3.8.1
   icon: com.cheezeebit.exchange.png
   meta: ok
   verdict: custodial

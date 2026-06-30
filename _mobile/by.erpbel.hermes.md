@@ -17,7 +17,7 @@ redirect_from:
 - /iphone/by.erpbel.hermes/
 android:
   appId: by.erpbel.hermes
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2022-10-06
   updated: 2026-06-11

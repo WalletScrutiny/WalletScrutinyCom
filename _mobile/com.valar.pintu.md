@@ -20,7 +20,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-01-25
-  updated: 2026-06-11
+  updated: 2026-06-26
   version: 3.98.0
   reviews: 191
   icon: com.valar.pintu.png

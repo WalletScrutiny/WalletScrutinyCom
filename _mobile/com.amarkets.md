@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2019-05-31
   updated: 2026-06-23
-  version: 2.1.138
+  version: 2.1.139
   reviews: 240
   icon: com.amarkets.png
   meta: ok

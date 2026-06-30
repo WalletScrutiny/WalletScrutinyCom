@@ -23,8 +23,8 @@ iphone:
   idd: '1503465220'
   appCountry: ch
   released: 2021-12-09
-  updated: 2025-10-24
-  version: 2.3.8
+  updated: 2026-06-25
+  version: 2.3.9
   reviews: 37
   icon: io.honesto.honesto.jpg
   meta: ok

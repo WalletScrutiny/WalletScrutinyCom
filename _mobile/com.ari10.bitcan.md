@@ -34,7 +34,7 @@ iphone:
   released: 2022-07-19
   updated: 2026-01-29
   version: 2.10.2
-  reviews: 164
+  reviews: 165
   icon: com.ari10.bitcan.jpg
   meta: ok
   verdict: custodial

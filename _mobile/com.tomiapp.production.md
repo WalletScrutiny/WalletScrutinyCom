@@ -34,7 +34,7 @@ iphone:
   released: 2022-10-25
   updated: 2026-02-07
   version: '220'
-  reviews: 14
+  reviews: 13
   icon: com.tomiapps.production.jpg
   meta: ok
   verdict: nosource

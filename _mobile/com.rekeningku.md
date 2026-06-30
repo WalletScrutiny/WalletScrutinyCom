@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-02-21
-  updated: 2026-06-24
+  updated: 2026-06-25
   version: 4.5.11
   reviews: 50
   icon: com.rekeningku.jpg

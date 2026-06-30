@@ -20,7 +20,7 @@ android:
   released: 2019-11-21
   updated: 2026-06-23
   version: 3.57.0
-  reviews: 1172
+  reviews: 1173
   icon: com.coinjar.riemann.png
   meta: ok
   verdict: custodial

@@ -34,7 +34,7 @@ iphone:
   released: 2018-08-02
   updated: 2026-06-24
   version: 5.17.0
-  reviews: 1215
+  reviews: 1214
   icon: com.casa.vault.jpg
   meta: ok
   verdict: nosource

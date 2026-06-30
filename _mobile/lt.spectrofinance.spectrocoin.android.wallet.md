@@ -22,7 +22,7 @@ android:
   released: 2014-12-05
   updated: 2026-05-28
   version: 2.11.0
-  reviews: 44
+  reviews: 43
   icon: lt.spectrofinance.spectrocoin.android.wallet.png
   meta: ok
   verdict: custodial

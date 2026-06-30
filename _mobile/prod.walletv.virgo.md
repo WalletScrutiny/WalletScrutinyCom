@@ -14,7 +14,7 @@ redirect_from:
 - /iphone/prod.walletv.virgo/
 android:
   appId: prod.walletv.virgo
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2025-04-03
   updated: 2026-04-29

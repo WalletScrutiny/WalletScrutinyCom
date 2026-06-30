@@ -29,7 +29,7 @@ android:
   released: 2016-10-01
   updated: 2026-06-23
   version: 14.43.3
-  reviews: 2309
+  reviews: 2310
   icon: com.bitpay.wallet.png
   meta: ok
   verdict: sourceavailable
@@ -43,7 +43,7 @@ iphone:
   released: 2016-10-24
   updated: 2026-06-23
   version: 14.43.4
-  reviews: 3573
+  reviews: 3572
   icon: com.bitpay.wallet.jpg
   meta: ok
   verdict: wip

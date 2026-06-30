@@ -14,9 +14,9 @@ android:
   users: 5000
   appCountry: us
   released: 2024-05-25
-  updated: 2026-06-19
-  version: 3.14.0
-  reviews: 15
+  updated: 2026-06-25
+  version: 3.15.0
+  reviews: 17
   icon: com.lavamobile.png
   meta: ok
   verdict: nosource
@@ -26,9 +26,9 @@ iphone:
   idd: '1661751123'
   appCountry: us
   released: 2024-04-29
-  updated: 2026-06-22
-  version: 3.14.0
-  reviews: 143
+  updated: 2026-06-26
+  version: 3.15.0
+  reviews: 147
   icon: xyz.lava.mobile.jpg
   meta: ok
   verdict: nosource

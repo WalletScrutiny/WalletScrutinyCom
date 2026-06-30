@@ -17,7 +17,7 @@ android:
   users: 500000
   appCountry: us
   released: 2022-06-21
-  updated: 2026-06-16
+  updated: 2026-06-26
   version: 1.109.3
   reviews: 5
   icon: br.com.mynt.png
@@ -29,8 +29,8 @@ iphone:
   idd: '1592181444'
   appCountry: br
   released: 2022-06-19
-  updated: 2026-06-17
-  version: 1.109.3
+  updated: 2026-06-29
+  version: 1.110.0
   reviews: 1900
   icon: br.com.mynt.jpg
   meta: ok

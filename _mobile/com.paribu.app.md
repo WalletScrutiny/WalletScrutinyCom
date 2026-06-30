@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-29
   updated: 2026-06-17
   version: 6.0.27
-  reviews: 304
+  reviews: 305
   icon: com.codevist.paribu.jpg
   meta: ok
   verdict: custodial

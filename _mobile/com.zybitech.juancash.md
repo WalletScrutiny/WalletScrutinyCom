@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-23
   updated: 2025-06-23
   version: 2.0.4
-  reviews: 57
+  reviews: 58
   icon: com.zybitechinc.juanworld.jpg
   meta: stale
   verdict: custodial

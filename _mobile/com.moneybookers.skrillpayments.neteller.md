@@ -31,7 +31,7 @@ iphone:
   released: 2016-05-02
   updated: 2026-06-17
   version: 3.187.0
-  reviews: 1146
+  reviews: 1147
   icon: com.skrill.NETELLER.jpg
   meta: ok
   verdict: custodial

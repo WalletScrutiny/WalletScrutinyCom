@@ -14,8 +14,8 @@ android:
   appCountry: tm
   released: 2020-12-10
   updated: 2026-06-25
-  version: 2.20.2
-  reviews: 291
+  version: 2.21.2
+  reviews: 292
   icon: com.currency.exchange.investsmart.png
   meta: ok
   verdict: custodial

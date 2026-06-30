@@ -1,7 +1,7 @@
 ---
 title: Arculus Wallet
 date: 2026-01-14
-website: https://www.arculus.co/
+website: https://www.arculus.co
 appCountry: us
 redirect_from:
 - /iphone/com.arculus.wallet/
@@ -10,9 +10,9 @@ iphone:
   idd: '1575425801'
   appCountry: us
   released: 2021-10-05
-  updated: 2026-06-11
-  version: 3.12.0
-  reviews: 1150
+  updated: 2026-06-30
+  version: 3.12.1
+  reviews: 1154
   icon: com.arculus.wallet.jpg
   meta: ok
   verdict: wip

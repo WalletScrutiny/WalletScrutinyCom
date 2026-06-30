@@ -32,8 +32,8 @@ iphone:
   idd: '6502544148'
   appCountry: us
   released: 2024-08-12
-  updated: 2026-05-15
-  version: 1.0.111
+  updated: 2026-06-29
+  version: 1.0.114
   reviews: 16
   icon: com.oppi.wallet.jpg
   meta: ok

@@ -1,6 +1,6 @@
 ---
 wsId: robinhoodCryptoAndStocks
-title: 'Robinhood: Stock Token, Crypto'
+title: Robinhood Crypto, Bitcoin, ETH
 date: 2025-12-08
 authors:
 - danny
@@ -18,8 +18,8 @@ android:
   appId: com.robinhood.global
   users: 100000
   appCountry: us
-  updated: 2026-06-24
-  version: 2026.25.0
+  updated: 2026-06-28
+  version: 2026.26.3
   icon: com.robinhood.global.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-06-25
-  version: 2026.26.0
-  reviews: 303
+  updated: 2026-06-29
+  version: 2026.26.1
+  reviews: 305
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
   verdict: custodial

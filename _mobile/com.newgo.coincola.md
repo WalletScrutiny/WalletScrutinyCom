@@ -23,7 +23,7 @@ android:
   version: 6.8.2
   reviews: 173
   icon: com.newgo.coincola.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: CoinCola Limited
 iphone:

@@ -16,7 +16,7 @@ android:
   released: 2020-12-27
   updated: 2026-03-25
   version: 8.1.1
-  reviews: 19
+  reviews: 20
   icon: com.profittrading.forkucoin.png
   meta: ok
   verdict: custodial

@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-01
-  updated: 2026-06-10
-  version: 1.80.0
+  updated: 2026-06-25
+  version: 2.0.0
   reviews: 30
   icon: com.hashkeypro.exchange.png
   meta: ok

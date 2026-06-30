@@ -23,7 +23,7 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-23
-  updated: 2026-06-04
+  updated: 2026-06-29
   version: 3.1.0
   reviews: 39
   icon: defisuisse.thorwallet.png
@@ -35,8 +35,8 @@ iphone:
   idd: '1592064324'
   appCountry: ch
   released: 2021-11-28
-  updated: 2026-06-08
-  version: 3.7.1
+  updated: 2026-06-29
+  version: 3.8.0
   reviews: 40
   icon: defisuisseag.thorwallet.jpg
   meta: ok
