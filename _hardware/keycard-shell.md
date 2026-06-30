@@ -26,7 +26,11 @@ signer:
 twitter: Keycard_
 social:
 - https://discord.com/invite/uJAXk7jFhZ
-builds: 
+builds:
+- arch: arm
+  types:
+    firmware:
+    - shellos-*.bin
 features:
 - airGapped
 - camera
