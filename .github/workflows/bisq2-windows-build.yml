@@ -8,10 +8,13 @@ on:
         required: true
         type: string
       jdk_version:
-        description: 'Pinned Zulu JDK version; workflow installs the matching non-CRaC 21.0.11 build'
+        description: 'Unused — JDK is pinned to zulu21.50.19-ca-jdk21.0.11 (non-CRaC). Kept for caller compatibility.'
         required: false
         type: string
         default: '21.0.11'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   build:
