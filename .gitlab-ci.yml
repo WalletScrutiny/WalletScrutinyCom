@@ -34,9 +34,9 @@ test:build-server:
     paths:
       - external/build_server/node_modules/
   before_script:
-    - cd external/build_server && npm ci
+    - npm ci --prefix external/build_server
   script:
-    - cd external/build_server && npm test
+    - npm test --prefix external/build_server
 
 refresh-apps:
   stage: maintenance
