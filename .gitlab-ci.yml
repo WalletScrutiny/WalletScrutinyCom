@@ -28,12 +28,19 @@ test:build-server:
   stage: test
   extends: .node-test-rules
   cache:
-    key:
-      files:
-        - external/build_server/package-lock.json
-    paths:
-      - external/build_server/node_modules/
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - node_modules/
+    - key:
+        files:
+          - external/build_server/package-lock.json
+      paths:
+        - external/build_server/node_modules/
   before_script:
+    # build_server imports shared modules from src/, which use root package.json deps
+    - npm ci
     - npm ci --prefix external/build_server
   script:
     - npm test --prefix external/build_server
