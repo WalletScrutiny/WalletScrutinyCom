@@ -1,12 +1,52 @@
- refresh-apps:
+stages:
+  - test
+  - maintenance
+
+default:
   image: node:22
+
+.node-test-rules:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+test:main:
+  stage: test
+  extends: .node-test-rules
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules/
+  before_script:
+    - npm ci
+  script:
+    - npm test
+
+test:build-server:
+  stage: test
+  extends: .node-test-rules
+  cache:
+    key:
+      files:
+        - external/build_server/package-lock.json
+    paths:
+      - external/build_server/node_modules/
+  before_script:
+    - cd external/build_server && npm ci
+  script:
+    - cd external/build_server && npm test
+
+refresh-apps:
+  stage: maintenance
   variables:
     LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
   script:
     - apt update
     - apt install -y imagemagick-6.q16 parallel
     - chmod +x ./refresh.sh
-    - ./refresh.sh -k $LN_KEY  > refresh_output.log
+    - ./refresh.sh -k $LN_KEY > refresh_output.log
   artifacts:
     paths:
       - refresh_output.log
