@@ -20,6 +20,7 @@ import {
 import { BLOSSOM_SERVER_URL, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
 import { appLog } from './logger.mjs';
 import { calculateFileHash, getFirstTagValue } from './utils.mjs';
+import { getVerificationReplaceableKey } from '../../src/verifications_common.mjs';
 
 const purifyConfig = {
   ALLOWED_TAGS: [],
@@ -270,6 +271,7 @@ export async function createVerification({
 
   const tags = [
     ["status", status],
+    ["d", getVerificationReplaceableKey(appId, version, platform, hashes)],
     ["i", appId],
     ["version", version],
     ["platform", platform],
