@@ -42,7 +42,7 @@ import {
   maxFileAttachmentContentLength
 } from "./nostr-constants.mjs";
 import { waitNostr } from 'nip07-awaiter';
-import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
+import { getFirstTagValue, getStatusText, getVerificationReplaceableKey } from './verifications_common.mjs';
 import {
   assetRegistrationKinds,
   getAssetFileEntries,
@@ -380,16 +380,7 @@ const createVerification = async function ({
     content: content,
   });
 
-  const tags = [["status", status]];
-
-  if (isDraft) {
-    let draftKey = '';
-    if (appId) {
-      draftKey += `${appId}:`;
-    }
-    draftKey += `${version}:${platform}`;
-    tags.push(["d", draftKey]);
-  }
+  const tags = [["status", status], ["d", getVerificationReplaceableKey(appId, version, platform, hashes)]];
 
   if (appId) {
     tags.push(["i", appId]);

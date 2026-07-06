@@ -8,6 +8,10 @@ import {
   signEvent,
   setPrivateKey,
 } from '../../../src/nostr-client.mjs';
+import { sha256 } from '@noble/hashes/sha2.js';
+import { bytesToHex } from '@noble/hashes/utils.js';
+
+import { getAssetHashesDigest, getVerificationReplaceableKey } from '../../../src/verifications_common.mjs';
 import { verificationKind } from '../nostr-constants.mjs';
 import { createVerification } from '../nostr-utils.mjs';
 
@@ -96,6 +100,19 @@ describe('createEventDraft', () => {
   });
 });
 
+describe('getAssetHashesDigest', () => {
+  test('returns the sole hash unchanged', () => {
+    assert.equal(getAssetHashesDigest([HASH]), HASH);
+  });
+
+  test('sorts, concatenates, and re-hashes multiple hashes', () => {
+    const hashA = 'a'.repeat(64);
+    const hashB = 'b'.repeat(64);
+    const expected = bytesToHex(sha256(new TextEncoder().encode(hashA + hashB)));
+    assert.equal(getAssetHashesDigest([hashB, hashA]), expected);
+  });
+});
+
 describe('createVerification', () => {
   test('builds a verification event with a valid created_at when createdAt is omitted', async () => {
     const capture = captureEventAndSign();
@@ -109,6 +126,10 @@ describe('createVerification', () => {
     assertValidCreatedAt(capture.event.created_at, 'verification event without createdAt');
     assert.equal(capture.event.tags.find(tag => tag[0] === 'status')?.[1], 'reproducible');
     assert.equal(capture.event.tags.find(tag => tag[0] === 'i')?.[1], 'app.zeusln.zeus');
+    assert.equal(
+      capture.event.tags.find(tag => tag[0] === 'd')?.[1],
+      getVerificationReplaceableKey('app.zeusln.zeus', '13.1.0', 'android', [HASH])
+    );
     assert.equal(capture.event.tags.find(tag => tag[0] === 'x')?.[1], HASH);
   });
 
