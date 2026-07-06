@@ -19,7 +19,11 @@ verdict: sourceavailable
 date: 2025-08-02
 twitter: adamant_im
 social: 
-builds: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+    appimage:
+    - ADAMANT-Messenger-*.AppImage
 features:
 - tradeAlts
 
