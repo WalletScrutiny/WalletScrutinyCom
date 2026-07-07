@@ -3,7 +3,10 @@ import { test, expect } from '@playwright/test';
 import {
   attachConsoleGuards,
   waitForNostrAssetInformation,
+  waitForHomepageQueryApplied,
+  measureHomepageSearchAfterDebounce,
   NOSTR_DATA_TIMEOUT_MS,
+  HOMEPAGE_COMMON_SEARCH_MAX_MS,
   assertNoLoadingSpinnerVisible,
 } from './helpers.mjs';
 
@@ -48,6 +51,32 @@ test.describe('Homepage', () => {
     const count = await visibleCards.count();
     expect(count).toBeGreaterThan(0);
     expect(count).toBeLessThanOrEqual(12);
+
+    assertNoConsoleErrors();
+  });
+
+  test('filters a common term within a performance budget', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/');
+    await expect(page.locator('.AppDisplayCard').first()).toBeVisible({ timeout: 30_000 });
+    await waitForNostrAssetInformation(page);
+    await page.waitForFunction(() => window.allWalletsLoaded === true, { timeout: 30_000 });
+
+    const searchInput = page.locator('#homepageSearch .query-string');
+    await searchInput.fill('bit');
+    const searchWorkMs = await measureHomepageSearchAfterDebounce(page, 'bit');
+
+    expect(
+      searchWorkMs,
+      `homepage filter+render for "bit" after debounce took ${searchWorkMs}ms`,
+    ).toBeLessThan(HOMEPAGE_COMMON_SEARCH_MAX_MS);
+
+    await waitForHomepageQueryApplied(page, 'bit');
+
+    const visibleCards = page.locator('.AppDisplayCard');
+    expect(await visibleCards.count()).toBeGreaterThan(0);
+    expect(await visibleCards.count()).toBeLessThanOrEqual(12);
 
     assertNoConsoleErrors();
   });
