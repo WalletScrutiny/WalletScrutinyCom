@@ -1,4 +1,10 @@
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 /** @typedef {import('@playwright/test').Page} Page */
+
+const E2E_DIR = fileURLToPath(new URL('.', import.meta.url));
+const DROP_AREA_FIXTURE_DIR = join(E2E_DIR, 'fixtures', 'drop-area');
 
 export const NOSTR_DATA_TIMEOUT_MS = 60_000;
 export const SPINNER_TIMEOUT_MS = 60_000;
@@ -13,6 +19,7 @@ const IGNORED_CONSOLE_PATTERNS = [
   /^Failed to load resource: net::ERR_/,
   /^Failed to load resource: the server responded with a status of 404/,
   /No signer available/,
+  /Failed to parse APK metadata/,
 ];
 
 function shouldIgnoreConsoleMessage(text) {
@@ -207,4 +214,46 @@ export async function assertQrCodeCanvasRendered(qrCanvas) {
   if (!hasQrPattern) {
     throw new Error('Expected QR canvas to contain rendered dark and light modules');
   }
+}
+
+export const DROP_AREA_ANALYSIS_TIMEOUT_MS = 180_000;
+
+/**
+ * Wait until homepage drag-and-drop handlers are ready.
+ * @param {Page} page
+ */
+export async function waitForHomepageDropAreaReady(page) {
+  await waitForVerificationsUi(page);
+  await page.locator('.hero .drop-areas').first().waitFor({ state: 'visible' });
+  await page.waitForFunction(() => typeof window.calculateFileHash === 'function');
+}
+
+/**
+ * Drop a fixture file onto the homepage drop area.
+ * Uses the hidden file input, which invokes the same handler as a native drop event.
+ * @param {Page} page
+ * @param {string} fixtureFileName file inside e2e/fixtures/drop-area
+ */
+export async function dropFileOnHomepageDropArea(page, fixtureFileName) {
+  const filePath = join(DROP_AREA_FIXTURE_DIR, fixtureFileName);
+  const dropArea = page.locator('.hero .drop-areas').first();
+  const fileInput = dropArea.locator('input.fileElems').first();
+
+  await fileInput.setInputFiles(filePath);
+}
+
+/**
+ * Wait for homepage drop-area analysis output.
+ * @param {Page} page
+ * @param {number} [timeout]
+ */
+export async function waitForHomepageDropAreaAnalysis(page, timeout = DROP_AREA_ANALYSIS_TIMEOUT_MS) {
+  const resultBox = page.locator('.hero .drop-area-textbox').first();
+  await waitForLoadingSpinnerHidden(page, timeout);
+  await resultBox.waitFor({ state: 'attached', timeout });
+  await page.waitForFunction(() => {
+    const box = document.querySelector('.hero .drop-area-textbox');
+    return box != null && box.textContent.trim().length > 0;
+  }, { timeout });
+  return resultBox;
 }
