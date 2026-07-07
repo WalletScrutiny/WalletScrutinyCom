@@ -1,6 +1,4 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-import { performSearch } from './searchWalletsUtils.mjs';
-
 const paginationLimit = 12;
 let hasRedirected = false;
 window.blockScrollingFocus = false;

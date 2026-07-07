@@ -117,11 +117,11 @@ const bundlePath = (prefix) => {
 <script type="text/javascript" defer src="{{ site.baseurl }}/dist/<%= bundlePath('font_awesome') %>"></script>
 
 {% if page.url == "/" %}
-<script type="module" src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>
-<script type="module" src="{{ site.baseurl }}/assets/js/landingPageWalletGrid.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
 
-{% unless page.url == "/" %}<script type="module" defer src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>{% endunless %}
+{% unless page.url == "/" %}<script type="text/javascript" defer src="{{ site.baseurl }}/assets/js/searchWallets.js"></script>{% endunless %}
 {% if page.layout == "reviewMobile" %}
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/mobilePlatformTabs.js"></script>
 {% endif %}
