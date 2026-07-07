@@ -29,7 +29,7 @@ iphone:
   version: 1.0.70
   reviews: 52
   icon: app.zupago.zp.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: VIZO TECHNOLOGY LIMITED
 

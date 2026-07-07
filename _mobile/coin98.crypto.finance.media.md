@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-12-19
-  updated: 2026-06-23
-  version: 16.13.2
-  reviews: 262
+  updated: 2026-07-05
+  version: 16.13.3
+  reviews: 261
   icon: coin98.crypto.finance.media.png
   meta: ok
   verdict: nosource
@@ -30,9 +30,9 @@ iphone:
   idd: '1561969966'
   appCountry: us
   released: 2021-05-14
-  updated: 2026-06-19
-  version: 16.13.1
-  reviews: 656
+  updated: 2026-07-05
+  version: 16.13.3
+  reviews: 657
   icon: coin98.crypto.finance.insights.jpg
   meta: ok
   verdict: nosource

@@ -20,7 +20,7 @@ android:
   released: 2020-05-31
   updated: 2026-06-08
   version: 9.3.6
-  reviews: 147821
+  reviews: 147753
   icon: com.coinswitch.kuber.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2020-12-01
   updated: 2026-06-25
   version: 9.4.1
-  reviews: 60911
+  reviews: 60938
   icon: com.coinswitch.kuber.jpg
   meta: ok
   verdict: nosendreceive

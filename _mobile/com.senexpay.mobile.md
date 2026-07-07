@@ -29,8 +29,8 @@ iphone:
   idd: '1627864145'
   appCountry: us
   released: 2022-08-18
-  updated: 2026-06-10
-  version: 1.5.4
+  updated: 2026-07-07
+  version: 1.5.6
   reviews: 9
   icon: com.senexpay.mobile.jpg
   meta: ok

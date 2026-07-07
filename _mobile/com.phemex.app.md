@@ -24,7 +24,7 @@ android:
   released: 2020-02-19
   updated: 2026-06-18
   version: 5.20.0
-  reviews: 1471
+  reviews: 1470
   icon: com.phemex.app.png
   meta: ok
   verdict: custodial
@@ -36,11 +36,11 @@ iphone:
   released: 2020-02-20
   updated: 2026-06-19
   version: 5.21.0
-  reviews: 2747
+  reviews: 2748
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial
-  developerName: JOIN MAGICP PTE. LTD.
+  developerName: Leading Magic Limited
 
 ---
 

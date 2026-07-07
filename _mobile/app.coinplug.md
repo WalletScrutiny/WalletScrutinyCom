@@ -20,7 +20,7 @@ android:
   version: 2.1.1
   reviews: 5
   icon: app.coinplug.jpg
-  meta: ok
+  meta: stale
   verdict: nosendreceive
   developerName: CoinPlug Digitals LTD
 iphone:
@@ -32,7 +32,7 @@ iphone:
   version: 2.1.1
   reviews: 10
   icon: app.coinplug.ng.jpg
-  meta: ok
+  meta: stale
   verdict: nosendreceive
   developerName: COINPLUG LTD
 

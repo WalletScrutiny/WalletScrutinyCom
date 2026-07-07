@@ -20,7 +20,7 @@ android:
   users: 500000
   appCountry: in
   released: 2021-05-17
-  updated: 2026-06-02
+  updated: 2026-06-30
   version: 3.1.7
   reviews: 3515
   icon: com.application.koinbazar.png

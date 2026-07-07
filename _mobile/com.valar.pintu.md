@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2020-01-25
   updated: 2026-06-26
-  version: 3.98.0
+  version: 3.99.0
   reviews: 191
   icon: com.valar.pintu.png
   meta: ok

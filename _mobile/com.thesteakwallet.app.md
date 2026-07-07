@@ -10,8 +10,8 @@ iphone:
   idd: '1569375204'
   appCountry: us
   released: 2021-06-18
-  updated: 2026-03-04
-  version: 3.8.2
+  updated: 2026-07-07
+  version: 4.1.3
   reviews: 97
   icon: com.thesteakwallet.app.jpg
   meta: ok

@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-07-01
-  updated: 2026-05-14
-  version: 2026.5.30
+  updated: 2026-06-25
+  version: 2026.6.36
   reviews: 8
   icon: com.finverselabs.openwallet.png
   meta: ok

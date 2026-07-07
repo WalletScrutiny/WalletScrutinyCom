@@ -17,8 +17,8 @@ android:
   appId: au.com.bitcoin.mobileapp
   users: 50000
   appCountry: us
-  updated: 2026-06-29
-  version: 15.1.0
+  updated: 2026-07-06
+  version: 15.2.0
   icon: au.com.bitcoin.mobileapp.png
   meta: ok
   verdict: custodial
@@ -28,9 +28,9 @@ iphone:
   idd: '6444394282'
   appCountry: au
   released: 2022-11-28
-  updated: 2026-06-30
-  version: 15.1.0
-  reviews: 1428
+  updated: 2026-07-07
+  version: 15.2.0
+  reviews: 1426
   icon: au.com.bitcoin.mobileapp.jpg
   meta: ok
   verdict: custodial

@@ -21,9 +21,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-02-14
-  updated: 2026-06-17
-  version: 2.2.9
-  reviews: 334
+  updated: 2026-07-02
+  version: 2.3.0
+  reviews: 329
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial
@@ -33,9 +33,9 @@ iphone:
   idd: '1660882885'
   appCountry: us
   released: 2023-02-13
-  updated: 2026-06-17
-  version: 2.2.9
-  reviews: 3794
+  updated: 2026-07-03
+  version: 2.3.0
+  reviews: 3804
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial

@@ -24,7 +24,7 @@ android:
   released: 2025-03-26
   updated: 2025-06-15
   version: '1.0'
-  reviews: 65
+  reviews: 66
   icon: app.herewallet.hot.png
   meta: stale
   verdict: nosource
@@ -36,7 +36,7 @@ iphone:
   released: 2025-01-31
   updated: 2026-01-15
   version: 1.0.3
-  reviews: 46
+  reviews: 47
   icon: app.here.dev.wallet.jpg
   meta: ok
   verdict: nosource

@@ -12,7 +12,7 @@ android:
   updated: 2024-07-16
   version: 1.0.0
   icon: com.gioexchange.app.png
-  meta: stale
+  meta: obsolete
   verdict: wip
   developerName: ANGELS
 

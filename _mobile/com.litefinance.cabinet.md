@@ -16,7 +16,7 @@ android:
   released: 2022-02-09
   updated: 2026-06-03
   version: v2.1.2032-cabinet-release
-  reviews: 84
+  reviews: 87
   icon: com.litefinance.cabinet.png
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2023-01-11
   updated: 2026-06-15
   version: 3.1.13
-  reviews: 93
+  reviews: 98
   icon: com.litefinance.cabinet.jpg
   meta: ok
   verdict: custodial

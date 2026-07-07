@@ -37,7 +37,7 @@ iphone:
   released: 2020-06-29
   updated: 2026-02-03
   version: 2.10.0
-  reviews: 2248
+  reviews: 2252
   icon: io.changenow.jpg
   meta: ok
   verdict: nosource

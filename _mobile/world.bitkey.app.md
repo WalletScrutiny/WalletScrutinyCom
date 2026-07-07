@@ -42,7 +42,7 @@ iphone:
   released: 2024-03-13
   updated: 2026-06-01
   version: 2026.10.0
-  reviews: 119
+  reviews: 121
   icon: world.bitkey.app.jpg
   meta: ok
   verdict: sourceavailable

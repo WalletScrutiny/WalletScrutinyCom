@@ -20,9 +20,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-06-30
-  version: 3.38.0
-  reviews: 37
+  updated: 2026-07-06
+  version: 3.39.0
+  reviews: 38
   icon: com.capital.trading.png
   meta: ok
   verdict: nosendreceive
@@ -32,8 +32,8 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-06-19
-  version: 3.38.0
+  updated: 2026-07-01
+  version: 3.39.0
   reviews: 325
   icon: com.capital.trading.jpg
   meta: ok

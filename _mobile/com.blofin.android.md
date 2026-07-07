@@ -26,9 +26,9 @@ iphone:
   idd: '1616804346'
   appCountry: us
   released: 2022-04-15
-  updated: 2026-06-13
-  version: 3.32.0
-  reviews: 1412
+  updated: 2026-07-02
+  version: 3.33.0
+  reviews: 1420
   icon: com.blofin.app.jpg
   meta: ok
   verdict: nosendreceive

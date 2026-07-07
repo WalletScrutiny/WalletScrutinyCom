@@ -22,7 +22,7 @@ android:
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14237
+  reviews: 14236
   icon: com.chivo.wallet.png
   meta: ok
   verdict: obfuscated

@@ -21,7 +21,7 @@ android:
   released: 2019-07-11
   updated: 2026-05-07
   version: 8.6.3
-  reviews: 117
+  reviews: 116
   icon: com.youhodler.youhodler.png
   meta: ok
   verdict: custodial
@@ -31,8 +31,8 @@ iphone:
   idd: 1469351696
   appCountry: jp
   released: 2019-07-25
-  updated: 2026-06-17
-  version: 8.6.4
+  updated: 2026-07-01
+  version: 8.6.5
   reviews: 11
   icon: com.youhodler.youhodler.jpg
   meta: ok

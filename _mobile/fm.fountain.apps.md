@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-08-02
-  updated: 2026-05-21
-  version: 1.5.4
+  updated: 2026-06-30
+  version: 1.5.5
   reviews: 261
   icon: fm.fountain.apps.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1576394424'
   appCountry: ph
   released: 2021-07-28
-  updated: 2026-05-21
-  version: 1.5.4
+  updated: 2026-07-06
+  version: 1.5.5
   reviews: 2
   icon: fm.fountain.apps.jpg
   meta: ok

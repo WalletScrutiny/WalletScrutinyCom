@@ -12,7 +12,7 @@ android:
   updated: 2025-07-06
   version: 1.0.4
   icon: united.network.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: Trend IT Services LLC
 

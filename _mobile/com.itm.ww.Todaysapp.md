@@ -14,7 +14,7 @@ iphone:
   version: '2'
   reviews: 1
   icon: com.itm.ww.Todaysapp.jpg
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: INTERNATIONAL TELEMETRY MACHINES
 

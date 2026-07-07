@@ -20,7 +20,7 @@ android:
   released: 2023-09-27
   updated: 2026-02-17
   version: 1.20.0
-  reviews: 240
+  reviews: 238
   icon: com.crypto.ab.wallet.app.png
   meta: ok
   verdict: nosource

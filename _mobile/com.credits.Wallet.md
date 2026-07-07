@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-10-26
-  updated: 2026-05-28
-  version: 10.6.2
+  updated: 2026-07-06
+  version: 10.6.5
   reviews: 6
   icon: com.credits.Wallet.png
   meta: ok

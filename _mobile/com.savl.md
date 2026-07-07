@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: ru
   released: 2018-07-24
-  updated: 2026-03-31
-  version: 9.2.0
+  updated: 2026-06-30
+  version: 9.3.0
   reviews: 207
   icon: com.savl.png
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: 1369912925
   appCountry: ru
   released: 2018-04-22
-  updated: 2026-04-06
-  version: '9.2'
-  reviews: 280
+  updated: 2026-07-02
+  version: '9.3'
+  reviews: 281
   icon: com.savl.savlapp.jpg
   meta: ok
   verdict: nosource

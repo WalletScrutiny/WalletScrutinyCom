@@ -22,7 +22,7 @@ android:
   version: 1.5.14
   reviews: 2
   icon: de.fuf.bitbucks.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: FUF // Frank und Freunde
 iphone:

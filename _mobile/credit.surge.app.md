@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2026-04-08
-  updated: 2026-06-12
-  version: 1.0.9
+  updated: 2026-07-06
+  version: 1.0.10
   reviews: 5
   icon: credit.surge.app.png
   meta: fewusers

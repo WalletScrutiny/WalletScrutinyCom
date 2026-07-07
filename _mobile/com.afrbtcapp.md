@@ -15,7 +15,7 @@ android:
   version: 4.2.2
   reviews: 140
   icon: com.afrbtcapp.png
-  meta: stale
+  meta: obsolete
   verdict: nosendreceive
   developerName: GiftCards Team
 

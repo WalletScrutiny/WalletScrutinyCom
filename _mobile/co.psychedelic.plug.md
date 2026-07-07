@@ -20,8 +20,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-07-01
-  updated: 2026-05-06
-  version: 2.8.0
+  updated: 2026-05-20
+  version: 2.8.1
   reviews: 17
   icon: co.psychedelic.plug.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1599570197'
   appCountry: us
   released: 2022-05-09
-  updated: 2026-05-07
-  version: 2.8.0
+  updated: 2026-07-03
+  version: 2.8.2
   reviews: 37
   icon: co.psychedelic.plug.jpg
   meta: ok

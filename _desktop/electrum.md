@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2011-11-05
 discontinued: 
-updated: 2026-04-01
-version: 4.7.2
+updated: 2026-07-02
+version: 4.8.0
 binaries: 
 provider: Thomas Voegtlin
 providerWebsite: 

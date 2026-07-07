@@ -32,9 +32,9 @@ iphone:
   idd: '1622624126'
   appCountry: ng
   released: 2022-06-22
-  updated: 2026-04-03
-  version: 2.3.6
-  reviews: 86
+  updated: 2026-07-05
+  version: 2.3.12
+  reviews: 87
   icon: com.wiseki.sekiapp.new.jpg
   meta: ok
   verdict: custodial

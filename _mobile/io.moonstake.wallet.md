@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-03-24
-  updated: 2026-05-28
-  version: 2.36.10
+  updated: 2026-07-06
+  version: 2.36.11
   reviews: 20
   icon: io.moonstake.wallet.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1502532651
   appCountry: us
   released: 2020-03-25
-  updated: 2026-05-28
-  version: 2.36.10
+  updated: 2026-07-02
+  version: 2.36.11
   reviews: 18
   icon: io.moonstake.wallet.jpg
   meta: ok

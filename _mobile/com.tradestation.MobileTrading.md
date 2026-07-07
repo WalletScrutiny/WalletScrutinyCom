@@ -19,7 +19,7 @@ android:
   released: 2013-09-09
   updated: 2026-05-26
   version: 9.5.1
-  reviews: 2062
+  reviews: 2063
   icon: com.tradestation.MobileTrading.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2012-12-10
   updated: 2026-06-08
   version: 9.6.0
-  reviews: 18345
+  reviews: 18346
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

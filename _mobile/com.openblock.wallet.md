@@ -25,8 +25,8 @@ iphone:
   idd: '6449669390'
   appCountry: us
   released: 2024-01-04
-  updated: 2026-03-16
-  version: 2.2.6
+  updated: 2026-07-02
+  version: 2.2.7
   reviews: 2
   icon: com.dssq.obwallet.jpg
   meta: ok

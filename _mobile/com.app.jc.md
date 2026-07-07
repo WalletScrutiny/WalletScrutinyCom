@@ -13,8 +13,8 @@ android:
   users: 100000
   appCountry: us
   released: 2025-01-13
-  updated: 2026-06-22
-  version: 3.3.18
+  updated: 2026-07-02
+  version: 3.3.19
   reviews: 12
   icon: com.app.jc.png
   meta: ok
@@ -25,8 +25,8 @@ iphone:
   idd: '6748295209'
   appCountry: us
   released: 2025-08-06
-  updated: 2026-06-26
-  version: 3.3.18
+  updated: 2026-07-03
+  version: 3.3.19
   reviews: 28
   icon: io.jubit.pro.jpg
   meta: ok

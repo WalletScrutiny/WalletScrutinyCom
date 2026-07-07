@@ -18,7 +18,7 @@ android:
   released: 2015-10-06
   updated: 2026-06-26
   version: 6.25.0
-  reviews: 267
+  reviews: 266
   icon: com.forex4you.android.png
   meta: ok
   verdict: nosendreceive

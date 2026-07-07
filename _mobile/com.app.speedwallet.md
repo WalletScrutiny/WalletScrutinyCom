@@ -21,9 +21,9 @@ android:
   users: 500000
   appCountry: us
   released: 2023-06-18
-  updated: 2026-06-15
-  version: 2.5.3.0.0.0.fp.gps
-  reviews: 1421
+  updated: 2026-07-03
+  version: 2.5.4.0.0.2.fp.gps
+  reviews: 1439
   icon: com.app.speedwallet.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2023-08-24
   updated: 2026-06-06
   version: 1.13.17
-  reviews: 1157
+  reviews: 1165
   icon: com.app.speed1.jpg
   meta: ok
   verdict: custodial

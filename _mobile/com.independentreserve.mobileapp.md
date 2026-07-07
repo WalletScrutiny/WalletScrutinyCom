@@ -24,8 +24,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-10-18
-  updated: 2026-06-29
-  version: 15.1.0
+  updated: 2026-07-06
+  version: 15.2.0
   reviews: 3
   icon: com.independentreserve.mobileapp.png
   meta: ok
@@ -36,9 +36,9 @@ iphone:
   idd: '1566499416'
   appCountry: au
   released: 2021-10-18
-  updated: 2026-06-30
-  version: 15.1.0
-  reviews: 2286
+  updated: 2026-07-07
+  version: 15.2.0
+  reviews: 2285
   icon: com.independentreserve.mobileapp.jpg
   meta: ok
   verdict: custodial

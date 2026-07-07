@@ -20,8 +20,8 @@ android:
   appCountry: in
   released: 2018-07-16
   updated: 2026-06-29
-  version: 4.6.2
-  reviews: 126311
+  version: '4.7'
+  reviews: 126296
   icon: com.wrx.wazirx.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2018-03-07
   updated: 2026-06-29
   version: '3.8'
-  reviews: 54016
+  reviews: 54021
   icon: com.wrx.wazirx.jpg
   meta: ok
   verdict: custodial

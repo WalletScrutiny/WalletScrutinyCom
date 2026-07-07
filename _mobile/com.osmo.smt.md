@@ -24,8 +24,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-07-01
-  updated: 2026-06-18
-  version: 4.9.18
+  updated: 2026-07-03
+  version: 4.9.19
   reviews: 45
   icon: com.osmo.smt.jpg
   meta: ok
@@ -36,9 +36,9 @@ iphone:
   idd: '1610776134'
   appCountry: us
   released: 2022-06-14
-  updated: 2026-06-18
-  version: 4.9.18
-  reviews: 148
+  updated: 2026-07-06
+  version: 4.9.19
+  reviews: 152
   icon: com.osmowallet.app.jpg
   meta: ok
   verdict: custodial

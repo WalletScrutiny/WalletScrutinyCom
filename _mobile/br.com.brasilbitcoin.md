@@ -19,7 +19,7 @@ android:
   released: 2021-02-17
   updated: 2026-06-22
   version: 5.0.01
-  reviews: 5648
+  reviews: 5650
   icon: br.com.brasilbitcoin.png
   meta: ok
   verdict: custodial

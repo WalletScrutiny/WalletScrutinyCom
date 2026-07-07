@@ -20,7 +20,7 @@ android:
   released: 2019-08-11
   updated: 2025-09-05
   version: 5.0.8
-  reviews: 1346
+  reviews: 1343
   icon: org.telegram.bananatok.png
   meta: ok
   verdict: custodial

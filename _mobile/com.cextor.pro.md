@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-10
-  updated: 2026-06-27
-  version: 2026.06.28
+  updated: 2026-07-02
+  version: 2026.07.02
   reviews: 5
   icon: com.cextor.pro.png
   meta: ok

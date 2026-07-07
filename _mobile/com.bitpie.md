@@ -36,9 +36,9 @@ iphone:
   idd: 1481314229
   appCountry: us
   released: 2019-10-01
-  updated: 2026-06-27
-  version: 5.0.234
-  reviews: 365
+  updated: 2026-07-03
+  version: 5.0.235
+  reviews: 368
   icon: com.bitpie.wallet.jpg
   meta: ok
   verdict: nosource

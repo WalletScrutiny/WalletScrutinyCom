@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2025-08-19
-  updated: 2026-06-08
-  version: 1.0.54
+  updated: 2026-07-04
+  version: 1.0.55
   icon: com.coinceeper.adl.png
   meta: fewusers
   verdict: wip

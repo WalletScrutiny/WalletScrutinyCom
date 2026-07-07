@@ -37,7 +37,7 @@ iphone:
   released: 2022-12-05
   updated: 2026-05-15
   version: '5.7'
-  reviews: 15
+  reviews: 16
   icon: com.app.Inocyx.jpg
   meta: ok
   verdict: custodial

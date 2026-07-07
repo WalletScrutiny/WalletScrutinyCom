@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-26
-  updated: 2026-02-09
-  version: 1.0.6
+  updated: 2026-07-01
+  version: 1.0.8
   icon: com.squirrelwallet.app.png
   meta: ok
   verdict: nosource
@@ -27,8 +27,8 @@ iphone:
   idd: '6739630128'
   appCountry: ca
   released: 2025-06-07
-  updated: 2026-02-16
-  version: 1.0.6
+  updated: 2026-07-02
+  version: 1.0.8
   reviews: 2
   icon: com.squirrelwallet.onekey.jpg
   meta: ok

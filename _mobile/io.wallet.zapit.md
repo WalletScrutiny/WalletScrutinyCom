@@ -19,7 +19,7 @@ android:
   released: 2021-03-23
   updated: 2025-08-29
   version: 0.9.67
-  reviews: 11
+  reviews: 12
   icon: io.wallet.zapit.png
   meta: ok
   verdict: custodial

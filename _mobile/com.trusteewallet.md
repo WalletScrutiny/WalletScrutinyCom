@@ -25,7 +25,7 @@ android:
   released: 2019-05-01
   updated: 2026-03-18
   version: 1.52.3
-  reviews: 62
+  reviews: 61
   icon: com.trusteewallet.png
   meta: ok
   verdict: sourceavailable

@@ -24,8 +24,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-02-10
-  updated: 2026-06-22
-  version: 0.57.1
+  updated: 2026-07-03
+  version: 0.57.2
   icon: cash.p.terminal.png
   alternativeStores:
   - fdroid

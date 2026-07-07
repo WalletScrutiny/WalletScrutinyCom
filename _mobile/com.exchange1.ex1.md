@@ -1,6 +1,6 @@
 ---
 wsId: exchange1India
-title: eXchange1:Crypto Trading App
+title: eXchange1:Trade Crypto Futures
 date: 2026-05-27
 authors:
 - danny

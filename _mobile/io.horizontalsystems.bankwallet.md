@@ -30,7 +30,7 @@ android:
   released: 2018-12-18
   updated: 2026-06-22
   version: 0.49.0
-  reviews: 135
+  reviews: 136
   icon: io.horizontalsystems.bankwallet.png
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
@@ -46,7 +46,7 @@ iphone:
   released: 2019-01-10
   updated: 2026-06-25
   version: '0.49'
-  reviews: 1316
+  reviews: 1318
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
   verdict: sourceavailable

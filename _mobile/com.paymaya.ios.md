@@ -19,9 +19,9 @@ iphone:
   idd: '991673877'
   appCountry: ph
   released: 2015-09-29
-  updated: 2026-06-11
-  version: 2.137.0
-  reviews: 230327
+  updated: 2026-07-02
+  version: 2.139.0
+  reviews: 230593
   icon: com.paymaya.ios.jpg
   meta: ok
   verdict: custodial

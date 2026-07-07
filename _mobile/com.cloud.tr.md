@@ -17,9 +17,9 @@ android:
   users: 5000000
   appCountry: tr
   released: 2021-07-16
-  updated: 2026-05-20
+  updated: 2026-07-03
   version: 4.3.2
-  reviews: 21593
+  reviews: 21607
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: '1548636153'
   appCountry: tr
   released: 2021-02-18
-  updated: 2026-05-12
-  version: 4.3.0
-  reviews: 176432
+  updated: 2026-07-04
+  version: 4.4.1
+  reviews: 176777
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
   verdict: custodial

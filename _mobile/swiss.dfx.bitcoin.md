@@ -1,6 +1,6 @@
 ---
 wsId: dfxBTCTaroWallet
-title: DFX Bitcoin
+title: DFX BTC Taro Wallet
 date: 2026-01-03
 authors:
 - danny
@@ -35,8 +35,8 @@ iphone:
   idd: '6466037617'
   appCountry: jp
   released: 2023-10-03
-  updated: 2025-07-24
-  version: 2.0.3
+  updated: 2026-07-02
+  version: 2.0.14
   reviews: 0
   icon: swiss.dfx.bitcoin.jpg
   meta: ok

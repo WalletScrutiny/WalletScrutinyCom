@@ -24,9 +24,9 @@ iphone:
   idd: '6468561188'
   appCountry: tw
   released: 2023-10-29
-  updated: 2026-06-23
-  version: 1.60.11
-  reviews: 4864
+  updated: 2026-07-07
+  version: 1.61.9
+  reviews: 4880
   icon: com.bitoex.bitopronew.jpg
   meta: ok
   verdict: custodial

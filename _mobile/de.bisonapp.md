@@ -17,8 +17,8 @@ android:
   appId: de.bisonapp
   users: 500000
   appCountry: us
-  updated: 2026-06-26
-  version: 4.33.1
+  updated: 2026-07-03
+  version: 5.0.1
   reviews: 3
   icon: de.bisonapp.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1362518159'
   appCountry: lv
   released: 2020-01-09
-  updated: 2026-06-29
-  version: 5.0.0
+  updated: 2026-07-06
+  version: 5.0.1
   reviews: 2
   icon: com.bisonapp.bison.jpg
   meta: ok

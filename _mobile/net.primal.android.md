@@ -27,9 +27,9 @@ iphone:
   idd: '1673134518'
   appCountry: us
   released: 2023-12-01
-  updated: 2026-05-09
-  version: 3.0.61
-  reviews: 917
+  updated: 2026-06-30
+  version: 3.5.52
+  reviews: 919
   icon: net.primal.iosapp.Primal.jpg
   meta: ok
   verdict: custodial

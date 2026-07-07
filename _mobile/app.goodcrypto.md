@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-20
-  updated: 2026-05-14
-  version: 2.5.0
+  updated: 2026-07-01
+  version: 2.5.1
   reviews: 151
   icon: app.goodcrypto.png
   meta: ok

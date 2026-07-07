@@ -20,8 +20,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-04-28
-  updated: 2026-06-19
-  version: 1.3.0
+  updated: 2026-06-26
+  version: 1.3.1
   reviews: 4
   icon: com.coinwebapp.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '6443891261'
   appCountry: us
   released: 2023-05-04
-  updated: 2026-06-23
-  version: 1.3.0
+  updated: 2026-07-01
+  version: 1.3.1
   reviews: 4
   icon: io.coinweb.wallet.jpg
   meta: ok

@@ -12,8 +12,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-01-03
-  updated: 2025-11-07
-  version: 5.0.1
+  updated: 2026-07-02
+  version: 5.0.2
   icon: com.bitcointry.com.png
   meta: ok
   verdict: custodial

@@ -13,8 +13,8 @@ android:
   appId: com.afridax.exchange
   users: 10000
   appCountry: us
-  updated: 2026-06-18
-  version: 1.2.3
+  updated: 2026-07-03
+  version: 1.3.0
   icon: com.afridax.exchange.png
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '6739197253'
   appCountry: za
   released: 2025-02-06
-  updated: 2026-06-18
-  version: 1.2.3
+  updated: 2026-07-06
+  version: 1.3.0
   reviews: 8
   icon: com.afridax.exchange.jpg
   meta: ok

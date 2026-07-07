@@ -22,8 +22,8 @@ android:
   appCountry: us
   released: 2019-10-31
   updated: 2026-06-26
-  version: 5.20.0
-  reviews: 7211
+  version: 5.20.5
+  reviews: 7215
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2020-01-06
   updated: 2026-06-27
   version: 5.20.5
-  reviews: 46926
+  reviews: 46951
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

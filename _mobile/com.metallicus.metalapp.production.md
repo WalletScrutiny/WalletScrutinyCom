@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2020-01-14
   updated: 2026-06-22
-  version: 3.1.213
+  version: 3.1.214
   reviews: 399
   icon: com.metallicus.metalapp.production.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-14
   updated: 2026-06-23
   version: 3.1.214
-  reviews: 4312
+  reviews: 4310
   icon: com.metallicus.metalpay.jpg
   meta: ok
   verdict: custodial

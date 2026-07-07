@@ -29,8 +29,8 @@ iphone:
   idd: '1334584229'
   appCountry: hk
   released: 2018-01-18
-  updated: 2026-06-01
-  version: 3.12.1
+  updated: 2026-07-01
+  version: 3.13.0
   reviews: 16
   icon: com.viabtc.pool2.jpg
   meta: ok

@@ -32,8 +32,8 @@ iphone:
   idd: 1533065700
   appCountry: il
   released: 2020-10-08
-  updated: 2026-06-04
-  version: '2.41'
+  updated: 2026-06-30
+  version: '2.42'
   reviews: 2
   icon: com.dok.wallet.jpg
   meta: ok

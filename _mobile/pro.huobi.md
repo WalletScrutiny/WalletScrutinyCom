@@ -21,9 +21,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-11-01
-  updated: 2026-06-29
-  version: 11.25.0
-  reviews: 541
+  updated: 2026-07-01
+  version: 11.26.0
+  reviews: 543
   icon: pro.huobi.png
   meta: ok
   verdict: custodial

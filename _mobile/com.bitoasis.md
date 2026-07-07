@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: ae
   released: 2020-08-20
-  updated: 2026-06-02
-  version: 4.3.0
+  updated: 2026-06-30
+  version: 4.3.1
   reviews: 669
   icon: com.bitoasis.png
   meta: ok

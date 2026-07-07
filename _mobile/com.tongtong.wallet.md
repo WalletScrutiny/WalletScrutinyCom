@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-21
-  updated: 2026-06-24
-  version: 2.1.21
+  updated: 2026-07-07
+  version: 2.1.22
   icon: com.tongtong.wallet.png
   meta: ok
   verdict: nosource

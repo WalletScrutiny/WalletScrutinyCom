@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-05-16
-  updated: 2026-06-01
-  version: 16.3.3
+  updated: 2026-06-30
+  version: 16.3.4
   reviews: 1387
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1350234503
   appCountry: us
   released: 2018-03-02
-  updated: 2026-06-11
-  version: 16.3.3
+  updated: 2026-07-03
+  version: 16.3.4
   reviews: 618
   icon: com.programonks.CoinMarketApp.jpg
   meta: ok

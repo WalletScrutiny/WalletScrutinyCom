@@ -9,8 +9,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-12-13
-  updated: 2025-12-20
-  version: 1.1.14
+  updated: 2026-07-04
+  version: 1.1.15
   icon: com.hedgerx.exchange.png
   meta: ok
   verdict: wip

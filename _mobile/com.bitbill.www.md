@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-03-22
-  updated: 2026-06-17
-  version: 4.66.1
+  updated: 2026-07-06
+  version: 4.66.2
   reviews: 14
   icon: com.bitbill.www.png
   meta: ok
@@ -37,7 +37,7 @@ iphone:
   icon: com.bitbill.wallet.jpg
   meta: ok
   verdict: nosource
-  developerName: BITBILL PTY LTD
+  developerName: BITTOOL PTE. LTD.
 
 ---
 

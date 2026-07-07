@@ -22,9 +22,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-12-22
-  updated: 2026-06-18
-  version: 12.45.0
-  reviews: 10969
+  updated: 2026-07-03
+  version: 12.47.0
+  reviews: 10958
   icon: io.cex.app.prod.png
   meta: ok
   verdict: custodial
@@ -34,9 +34,9 @@ iphone:
   idd: 1047225016
   appCountry: us
   released: 2015-12-22
-  updated: 2026-06-29
-  version: 12.46.0
-  reviews: 12925
+  updated: 2026-07-02
+  version: 12.47.1
+  reviews: 12922
   icon: io.cex.app.jpg
   meta: ok
   verdict: custodial

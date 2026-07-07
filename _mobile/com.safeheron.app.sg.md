@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-07-17
-  updated: 2026-06-01
-  version: 1.6.8
+  updated: 2026-07-02
+  version: 1.6.9
   icon: com.safeheron.app.sg.png
   meta: ok
   verdict: custodial

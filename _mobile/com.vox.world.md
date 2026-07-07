@@ -1,6 +1,6 @@
 ---
 wsId: vooxExchange
-title: 'VOOX Exchange: Buy BTC&Crypto'
+title: 'x.me Exchange: Buy BTC&Crypto'
 date: 2026-01-26
 authors:
 - danny
@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-07-09
-  updated: 2026-05-29
-  version: 1.5.5
+  updated: 2026-06-30
+  version: 2.0.0
   icon: com.vox.world.png
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '6670600403'
   appCountry: us
   released: 2024-10-10
-  updated: 2026-05-31
-  version: 1.5.5
+  updated: 2026-07-02
+  version: 2.0.1
   reviews: 6
   icon: com.voox.www.jpg
   meta: ok

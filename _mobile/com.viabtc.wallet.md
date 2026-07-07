@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-15
-  updated: 2026-06-25
-  version: 4.23.3
-  reviews: 62
+  updated: 2026-06-30
+  version: 4.23.5
+  reviews: 61
   icon: com.viabtc.wallet.png
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   icon: com.viabtc.ViaWallet.jpg
   meta: ok
   verdict: nosource
-  developerName: Viabtc Technology Limited
+  developerName: Coinex Global Limited
 
 ---
 

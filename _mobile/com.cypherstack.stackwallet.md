@@ -26,7 +26,7 @@ android:
   released: 2024-05-13
   updated: 2026-06-20
   version: 2.6.0
-  reviews: 14
+  reviews: 15
   icon: com.cypherstack.stackwallet.png
   meta: ok
   verdict: sourceavailable

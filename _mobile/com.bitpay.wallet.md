@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: 'BitPay: Buy BTC ETH & Solana'
+title: 'BitPay: Buy & Trade Bitcoin'
 date: 2023-03-13
 authors:
 - leo
@@ -27,9 +27,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-10-01
-  updated: 2026-06-23
-  version: 14.43.3
-  reviews: 2310
+  updated: 2026-07-02
+  version: 14.43.4
+  reviews: 2308
   icon: com.bitpay.wallet.png
   meta: ok
   verdict: sourceavailable
@@ -41,9 +41,9 @@ iphone:
   idd: 1149581638
   appCountry: us
   released: 2016-10-24
-  updated: 2026-06-23
-  version: 14.43.4
-  reviews: 3572
+  updated: 2026-07-06
+  version: 14.44.2
+  reviews: 3580
   icon: com.bitpay.wallet.jpg
   meta: ok
   verdict: wip

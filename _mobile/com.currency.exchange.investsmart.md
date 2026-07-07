@@ -15,11 +15,11 @@ android:
   released: 2020-12-10
   updated: 2026-06-25
   version: 2.21.2
-  reviews: 292
+  reviews: 293
   icon: com.currency.exchange.investsmart.png
   meta: ok
   verdict: custodial
-  developerName: Dzengi.com PL
+  developerName: Dzengi.com
 iphone:
   appId: com.currency.exchange.investsmart
   idd: 1499070397

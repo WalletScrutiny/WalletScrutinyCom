@@ -31,9 +31,9 @@ iphone:
   idd: '6449689356'
   appCountry: us
   released: 2023-06-13
-  updated: 2026-06-23
-  version: 3.9.1
-  reviews: 3608
+  updated: 2026-07-07
+  version: 3.10.0
+  reviews: 3659
   icon: com.redotpay.jpg
   meta: ok
   verdict: custodial

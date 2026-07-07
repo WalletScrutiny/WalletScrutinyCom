@@ -17,9 +17,9 @@ android:
   users: 500000
   appCountry: us
   released: 2021-04-13
-  updated: 2026-06-11
-  version: 7.2.493
-  reviews: 873
+  updated: 2026-07-01
+  version: 7.2.494
+  reviews: 876
   icon: com.prestmit.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 1581960714
   appCountry: us
   released: 2021-08-20
-  updated: 2026-06-04
-  version: 7.2.492
-  reviews: 7226
+  updated: 2026-07-02
+  version: 7.2.493
+  reviews: 7265
   icon: com.prestmit.app.jpg
   meta: ok
   verdict: nosendreceive

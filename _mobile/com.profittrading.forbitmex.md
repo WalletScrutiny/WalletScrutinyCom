@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2019-06-11
   updated: 2026-06-30
-  version: 8.2.0
+  version: 8.3.0
   reviews: 8
   icon: com.profittrading.forbitmex.png
   meta: ok

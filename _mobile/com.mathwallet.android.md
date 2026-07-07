@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-26
-  updated: 2026-04-17
-  version: 5.7.8
+  updated: 2026-07-06
+  version: 5.7.81
   reviews: 62
   icon: com.mathwallet.android.png
   meta: ok

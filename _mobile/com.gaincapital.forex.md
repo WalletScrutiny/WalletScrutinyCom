@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: gb
   released: 2021-01-11
-  updated: 2026-06-25
-  version: '1.260'
+  updated: 2026-06-30
+  version: '1.261'
   reviews: 38
   icon: com.gaincapital.forex.png
   meta: ok

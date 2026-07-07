@@ -30,8 +30,8 @@ iphone:
   idd: 1179978268
   appCountry: gb
   released: 2017-06-26
-  updated: 2026-06-25
-  version: 4.37.0
+  updated: 2026-07-02
+  version: 4.37.1
   reviews: 458
   icon: com.muchbetter.jpg
   meta: ok

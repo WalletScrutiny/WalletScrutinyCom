@@ -31,7 +31,7 @@ iphone:
   released: 2020-08-05
   updated: 2026-06-23
   version: 2.3.8
-  reviews: 117
+  reviews: 118
   icon: dev.spedn.ru.jpg
   meta: ok
   verdict: custodial

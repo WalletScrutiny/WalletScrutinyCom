@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: cn
   released: 2019-10-23
-  updated: 2026-06-20
-  version: 3.9.2
+  updated: 2026-07-03
+  version: 3.9.4
   reviews: 873
   icon: com.matrixport.mark.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1488557973
   appCountry: us
   released: 2019-11-25
-  updated: 2026-06-23
-  version: 4.6.50
+  updated: 2026-07-06
+  version: 4.6.70
   reviews: 54
   icon: com.matrixport.mark.jpg
   meta: ok

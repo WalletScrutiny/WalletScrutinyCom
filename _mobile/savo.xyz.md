@@ -9,9 +9,9 @@ iphone:
   idd: '6742020669'
   appCountry: us
   released: 2025-02-18
-  updated: 2026-06-23
-  version: 1.4.28
-  reviews: 224
+  updated: 2026-07-03
+  version: 1.5.0
+  reviews: 244
   icon: savo.xyz.jpg
   meta: ok
   verdict: wip

@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-04-04
-  updated: 2026-06-24
-  version: 26.0.29
+  updated: 2026-07-03
+  version: 26.0.30
   reviews: 7
   icon: com.multibank.app.png
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1592119946'
   appCountry: ae
   released: 2022-01-18
-  updated: 2026-06-24
-  version: 26.0.15
+  updated: 2026-07-06
+  version: 26.0.16
   reviews: 32
   icon: com.mexdigital.app.jpg
   meta: ok

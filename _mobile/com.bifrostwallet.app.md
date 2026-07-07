@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-09-09
-  updated: 2026-06-01
-  version: 0.7.48
+  updated: 2026-06-23
+  version: 0.7.51
   reviews: 108
   icon: com.bifrostwallet.app.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1577198351'
   appCountry: us
   released: 2021-09-21
-  updated: 2026-06-02
-  version: 0.7.48
+  updated: 2026-06-30
+  version: 0.7.51
   reviews: 211
   icon: com.bifrostwallet.app.jpg
   meta: ok

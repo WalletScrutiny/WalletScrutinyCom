@@ -14,7 +14,7 @@ android:
   icon: com.gk8.network.png
   meta: fewusers
   verdict: wip
-  developerName: GK8 by Galaxy
+  developerName: GalaxyInfra
 
 ---
 

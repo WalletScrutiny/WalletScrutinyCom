@@ -15,7 +15,7 @@ android:
   updated: 2026-05-02
   version: 3.8.5
   icon: com.bitstack.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Bitstack
 iphone:
@@ -25,7 +25,7 @@ iphone:
   released: 2022-07-05
   updated: 2026-06-26
   version: 3.10.0
-  reviews: 162
+  reviews: 164
   icon: com.bitstack.app.jpg
   meta: ok
   verdict: custodial

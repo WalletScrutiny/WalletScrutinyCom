@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-11-13
-  updated: 2026-06-24
-  version: 9.7.2
+  updated: 2026-07-01
+  version: 10.0.0
   reviews: 8
   icon: finance.hollox.app.png
   meta: ok

@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-07-22
-  updated: 2026-06-12
-  version: 12.7.4
-  reviews: 843
+  updated: 2026-07-02
+  version: 12.8.1
+  reviews: 844
   icon: com.iMe.android.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   released: 2019-07-31
   updated: 2026-06-17
   version: 12.7.0
-  reviews: 8573
+  reviews: 8608
   icon: com.olcorporation.olai.jpg
   meta: ok
   verdict: nosource

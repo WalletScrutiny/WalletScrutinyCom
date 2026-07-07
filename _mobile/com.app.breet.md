@@ -19,9 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-21
-  updated: 2026-04-28
-  version: 7.3.1
-  reviews: 208
+  updated: 2026-06-13
+  version: 7.3.2
+  reviews: 211
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-06-17
   version: 7.2.7
-  reviews: 1232
+  reviews: 1233
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive
