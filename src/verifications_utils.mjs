@@ -110,7 +110,7 @@ const nostrConnect = function () {
           console.debug(`Disconnected from relay: ${relay.url}`);
         },
         onRelayError: (relay, error) => {
-          console.error(`Relay error (${relay.url}):`, error);
+          console.debug(`Relay error (${relay.url}):`, error);
         },
       });
       console.log("Nostr connected successfully.");
