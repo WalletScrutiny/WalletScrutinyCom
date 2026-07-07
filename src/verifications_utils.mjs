@@ -1880,9 +1880,13 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
 };
 
 const loadDraftVerificationsNotifications = async function () {
-  const myPubkey = await getUserPubkey();
+  let myPubkey;
+  try {
+    myPubkey = await getUserPubkey();
+  } catch {
+    return;
+  }
   if (!myPubkey) {
-    console.error('No pubkey found');
     return;
   }
 
