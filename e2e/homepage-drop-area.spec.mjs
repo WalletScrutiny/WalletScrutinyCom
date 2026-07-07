@@ -78,7 +78,7 @@ test.describe('Homepage drop area', () => {
     await expect(resultBox).toContainText('SHA-256: 3610eae865c3689cf857ca41602a2f19a52c5bee5b0d2d20e0baf06e10360fdb');
     await expect(resultBox).toContainText('split_config.arm64_v8a.apk (6.35 MB)');
     await expect(resultBox).toContainText('SHA-256: f425367d89f9e91e67768f48f6be9d71d813c2c6ccaebbe5e7d0717694be2853');
-    await expect(resultBox).toContainText('split_config.en.apk (444.40 KB)');
+    await expect(resultBox).toContainText('split_config.en.apk (444.4 KB)');
     await expect(resultBox).toContainText('SHA-256: 543422b82b282671bb1deac0dc77b89296714fd62954b98bfecd8d01d7e1511f');
     await expect(resultBox).toContainText(
       'This is an APK for an unknown application. You can register it on Nostr so others can try to reproduce it. The ZIP contains 3 APK files whose hashes will be included if you register or verify this asset.',
