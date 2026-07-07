@@ -21,5 +21,8 @@ _includes/allProducts-precomputed.json
 assets/js/json/wallets-precomputed.json
 external/build_server/.env
 
+playwright-report/
+test-results/
+
 # Feature verifier cache (fetched text + LLM proposals — not for the repo)
 scripts/cache/

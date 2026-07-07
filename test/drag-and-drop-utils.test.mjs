@@ -7,11 +7,15 @@ import {
   getVersionFromFilename,
   getPlatformFromFilename,
   isAndroidApkFileName,
+  isAndroidApkUpload,
   hasCompleteAndroidApkMetadata,
+  processedFilesHaveCompleteAndroidMetadata,
+  processedFilesHaveAndroidPackage,
   canRegisterOrVerifyAndroidUpload,
   getAndroidUploadBlockingMessage,
   resolveCompleteApkInfoFromProcessedFiles,
   resolveApkInfoFromProcessedFiles,
+  isPageForAppId,
   ANDROID_APK_METADATA_MISSING_MESSAGE,
   ANDROID_APK_VERSION_MISSING_MESSAGE,
 } from '../src/drag-and-drop-utils.js';
@@ -138,5 +142,55 @@ describe('resolveApkInfoFromProcessedFiles', () => {
     const files = [{ apkInfo: { package: 'com.app' } }];
     assert.equal(resolveApkInfoFromProcessedFiles(files).package, 'com.app');
     assert.equal(resolveCompleteApkInfoFromProcessedFiles(files), null);
+  });
+});
+
+describe('isAndroidApkUpload', () => {
+  test('treats apk bundles as android uploads', () => {
+    assert.equal(isAndroidApkUpload([{ fileName: 'readme.txt' }], true), true);
+  });
+
+  test('requires a single apk/aab file for non-bundle uploads', () => {
+    assert.equal(isAndroidApkUpload([{ fileName: 'base.apk' }], false), true);
+    assert.equal(isAndroidApkUpload([{ fileName: 'base.apk' }, { fileName: 'split.apk' }], false), false);
+    assert.equal(isAndroidApkUpload([{ fileName: 'app.deb' }], false), false);
+  });
+});
+
+describe('processedFilesHaveCompleteAndroidMetadata', () => {
+  test('returns true when any entry has package and versionName', () => {
+    const files = [
+      { apkInfo: { package: 'com.app' } },
+      { apkInfo: { package: 'com.app', versionName: '1.2.3' } },
+    ];
+    assert.equal(processedFilesHaveCompleteAndroidMetadata(files), true);
+  });
+
+  test('returns false when no entry has complete metadata', () => {
+    assert.equal(processedFilesHaveCompleteAndroidMetadata([{ apkInfo: null }]), false);
+    assert.equal(processedFilesHaveCompleteAndroidMetadata([]), false);
+  });
+});
+
+describe('processedFilesHaveAndroidPackage', () => {
+  test('detects package name on any processed file', () => {
+    assert.equal(
+      processedFilesHaveAndroidPackage([{ apkInfo: { package: ' com.app ' } }]),
+      true,
+    );
+    assert.equal(processedFilesHaveAndroidPackage([{ apkInfo: { package: '  ' } }]), false);
+  });
+});
+
+describe('isPageForAppId', () => {
+  test('matches the current page app id', () => {
+    const previous = globalThis.window.pageAppId;
+    globalThis.window.pageAppId = 'com.example.wallet';
+    try {
+      assert.equal(isPageForAppId('com.example.wallet'), true);
+      assert.equal(isPageForAppId('com.other.wallet'), false);
+    } finally {
+      globalThis.window.pageAppId = previous;
+    }
   });
 });
