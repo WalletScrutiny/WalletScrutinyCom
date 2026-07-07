@@ -8,6 +8,9 @@ import {
   getProfileImageUrl,
   PROFILE_PLACEHOLDER_IMAGE,
   buildProfileCircleHtml,
+  profileImageFallback,
+  renderProfileCardHtml,
+  renderBigProfileCardHtml,
 } from '../src/nostr-profile.mjs';
 
 const PUBKEY = getPublicKey(generateSecretKey());
@@ -44,5 +47,67 @@ describe('buildProfileCircleHtml', () => {
     assert.match(html, /Verifier/);
     assert.match(html, new RegExp(PUBKEY));
     assert.match(html, /profile-circle/);
+  });
+});
+
+describe('profileImageFallback', () => {
+  test('replaces broken image src with placeholder', () => {
+    const img = {
+      src: 'https://cdn.example/broken.png',
+      dataset: { placeholder: PROFILE_PLACEHOLDER_IMAGE },
+      onerror: () => {},
+    };
+    profileImageFallback(img);
+    assert.equal(img.src, PROFILE_PLACEHOLDER_IMAGE);
+    assert.equal(img.onerror, null);
+  });
+
+  test('does nothing when image already uses placeholder', () => {
+    const img = {
+      src: PROFILE_PLACEHOLDER_IMAGE,
+      dataset: { placeholder: PROFILE_PLACEHOLDER_IMAGE },
+      onerror: () => {},
+    };
+    profileImageFallback(img);
+    assert.equal(img.src, PROFILE_PLACEHOLDER_IMAGE);
+    assert.notEqual(img.onerror, null);
+  });
+});
+
+describe('renderProfileCardHtml', () => {
+  test('includes profile name, image, and nip05 when available', () => {
+    const html = renderProfileCardHtml(PUBKEY, {
+      name: 'Alice',
+      nip05: 'alice@walletscrutiny.com',
+      image: 'https://cdn.example/alice.png',
+    });
+    assert.match(html, /Alice/);
+    assert.match(html, /alice@walletscrutiny\.com/);
+    assert.match(html, /profile-card/);
+    assert.match(html, new RegExp(PUBKEY));
+  });
+});
+
+describe('renderBigProfileCardHtml', () => {
+  test('renders large profile card markup', () => {
+    const html = renderBigProfileCardHtml(PUBKEY, { display_name: 'Bob' });
+    assert.match(html, /big-profile-card/);
+    assert.match(html, /Bob/);
+    assert.match(html, /200px/);
+  });
+});
+
+describe('getProfileImageUrl https upgrade', () => {
+  test('upgrades http image urls on https pages', () => {
+    const previousProtocol = globalThis.window.location.protocol;
+    globalThis.window.location.protocol = 'https:';
+    try {
+      assert.equal(
+        getProfileImageUrl({ image: 'http://cdn.example/avatar.png' }),
+        'https://cdn.example/avatar.png',
+      );
+    } finally {
+      globalThis.window.location.protocol = previousProtocol;
+    }
   });
 });
