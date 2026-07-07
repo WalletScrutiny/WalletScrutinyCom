@@ -35,9 +35,9 @@
     "postcss": "^8.5.16",
     "postcss-cli": "^11.0.1",
     "terser-webpack-plugin": "^5.6.1",
-    "webpack": "^5.108.3",
+    "webpack": "^5.108.4",
     "webpack-bundle-analyzer": "^5.3.0",
-    "webpack-cli": "^7.1.0",
+    "webpack-cli": "^7.2.1",
     "webpack-shell-plugin-next": "^2.3.3",
     "ws": "^8.21.0"
   },
