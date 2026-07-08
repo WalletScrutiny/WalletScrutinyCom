@@ -67,6 +67,7 @@ export function attachConsoleGuards(testInfo, page) {
 export async function waitForNostrAssetInformation(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
   await page.waitForFunction(
     () => typeof window.allAssetInformation !== 'undefined' && window.allAssetInformation !== null,
+    null,
     { timeout },
   );
 }
@@ -79,6 +80,7 @@ export async function waitForNostrAssetInformation(page, timeout = NOSTR_DATA_TI
 export async function waitForVerificationsUi(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
   await page.waitForFunction(
     () => typeof window.renderAssetsTable === 'function',
+    null,
     { timeout },
   );
 }
@@ -96,7 +98,7 @@ export async function waitForLoadingSpinnerHidden(page, timeout = SPINNER_TIMEOU
     }
     const style = window.getComputedStyle(spinner);
     return style.display === 'none' || style.visibility === 'hidden';
-  }, { timeout });
+  }, null, { timeout });
 }
 
 /**
@@ -111,7 +113,7 @@ export async function waitForSearchControlsIdle(page, timeout = SEARCH_WORKING_T
       return true;
     }
     return !controls.classList.contains('working');
-  }, { timeout });
+  }, null, { timeout });
 }
 
 /**
@@ -228,7 +230,11 @@ export const DROP_AREA_ANALYSIS_TIMEOUT_MS = 180_000;
 export async function waitForHomepageDropAreaReady(page) {
   await waitForVerificationsUi(page);
   await page.locator('.hero .drop-areas').first().waitFor({ state: 'visible' });
-  await page.waitForFunction(() => typeof window.calculateFileHash === 'function');
+  await page.waitForFunction(
+    () => typeof window.calculateFileHash === 'function',
+    null,
+    { timeout: NOSTR_DATA_TIMEOUT_MS },
+  );
 }
 
 /**
@@ -257,7 +263,7 @@ export async function waitForHomepageDropAreaAnalysis(page, timeout = DROP_AREA_
   await page.waitForFunction(() => {
     const box = document.querySelector('.hero .drop-area-textbox');
     return box != null && box.textContent.trim().length > 0;
-  }, { timeout });
+  }, null, { timeout });
   return resultBox;
 }
 
@@ -313,7 +319,7 @@ export async function waitForAsciinemaPlayerContent(page, timeout = NOSTR_DATA_T
   await page.waitForFunction(() => {
     const playerEl = document.getElementById('ascii_cast_player');
     return playerEl != null && playerEl.textContent.trim().length > 0;
-  }, { timeout });
+  }, null, { timeout });
 }
 
 function looksLikeNostrProfileFallback(text) {

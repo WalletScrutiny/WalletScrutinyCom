@@ -61,7 +61,7 @@ test.describe('Homepage', () => {
     await page.goto('/');
     await expect(page.locator('.AppDisplayCard').first()).toBeVisible({ timeout: 30_000 });
     await waitForNostrAssetInformation(page);
-    await page.waitForFunction(() => window.allWalletsLoaded === true, { timeout: 30_000 });
+    await page.waitForFunction(() => window.allWalletsLoaded === true, null, { timeout: 30_000 });
 
     const searchInput = page.locator('#homepageSearch .query-string');
     await searchInput.fill('bit');

@@ -12,6 +12,7 @@ test.describe('New verification form', () => {
     await waitForVerificationsUi(page);
     await page.waitForFunction(
       () => Array.isArray(window.wallets) && window.wallets.length > 0,
+      null,
       { timeout: 60_000 },
     );
     await waitForLoadingSpinnerHidden(page);
