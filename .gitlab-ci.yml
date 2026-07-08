@@ -24,6 +24,38 @@ test:main:
   script:
     - npm test
 
+test:e2e:
+  stage: test
+  extends: .node-test-rules
+  image: mcr.microsoft.com/playwright:v1.50.1-noble
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - node_modules/
+    - key:
+        files:
+          - Gemfile.lock
+      paths:
+        - vendor/bundle/
+  before_script:
+    - apt-get update && apt-get install -y ruby-full build-essential zlib1g-dev
+    - gem install bundler -v 2.4.12
+    - bundle config set --local deployment 'true'
+    - bundle config set --local path 'vendor/bundle'
+    - bundle install --jobs=4 --retry=3
+    - npm ci
+    - npm run playwright:install
+  script:
+    - npm run test:e2e
+  artifacts:
+    when: on_failure
+    paths:
+      - playwright-report/
+      - test-results/
+    expire_in: 1 week
+
 test:build-server:
   stage: test
   extends: .node-test-rules
