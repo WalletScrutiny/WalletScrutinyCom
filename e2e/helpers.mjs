@@ -257,3 +257,58 @@ export async function waitForHomepageDropAreaAnalysis(page, timeout = DROP_AREA_
   }, { timeout });
   return resultBox;
 }
+
+/**
+ * Wait until the verification modal is open and async sections have finished loading.
+ * @param {Page} page
+ * @param {{ requireBasedOn?: boolean, requireAttachments?: boolean, timeout?: number }} [options]
+ */
+export async function waitForVerificationModalReady(page, options = {}) {
+  const {
+    requireBasedOn = false,
+    requireAttachments = false,
+    timeout = NOSTR_DATA_TIMEOUT_MS,
+  } = options;
+
+  await page.waitForFunction(({ requireBasedOn, requireAttachments }) => {
+    const modal = document.getElementById('verificationModal');
+    if (!modal || modal.style.display !== 'flex') {
+      return false;
+    }
+
+    const attemptBy = document.getElementById('attempt-by');
+    if (!attemptBy || !attemptBy.textContent.trim()) {
+      return false;
+    }
+
+    if (requireBasedOn) {
+      const basedOn = document.getElementById('based-on-attempt-by');
+      if (!basedOn || !basedOn.textContent.trim()) {
+        return false;
+      }
+    }
+
+    if (requireAttachments) {
+      const attachmentsList = document.getElementById('verification-attachments-list');
+      if (!attachmentsList || /loading scripts/i.test(attachmentsList.textContent)) {
+        return false;
+      }
+    }
+
+    return true;
+  }, { requireBasedOn, requireAttachments }, { timeout });
+}
+
+/**
+ * Wait until the asciinema player is visible and shows terminal output.
+ * @param {Page} page
+ * @param {number} [timeout]
+ */
+export async function waitForAsciinemaPlayerContent(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
+  const player = page.locator('#ascii_cast_player');
+  await player.waitFor({ state: 'visible', timeout });
+  await page.waitForFunction(() => {
+    const playerEl = document.getElementById('ascii_cast_player');
+    return playerEl != null && playerEl.textContent.trim().length > 0;
+  }, { timeout });
+}
