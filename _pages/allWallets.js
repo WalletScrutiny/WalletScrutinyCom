@@ -102,5 +102,7 @@ permalink: /allWallets.js
     }
   });
   window.wallets = wallets;
-  window.versionTag();
+  if (typeof window.versionTag === 'function') {
+    window.versionTag();
+  }
 })();

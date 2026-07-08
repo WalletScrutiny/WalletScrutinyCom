@@ -1,12 +1,15 @@
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { expect } from '@playwright/test';
+
 /** @typedef {import('@playwright/test').Page} Page */
 
 const E2E_DIR = fileURLToPath(new URL('.', import.meta.url));
 const DROP_AREA_FIXTURE_DIR = join(E2E_DIR, 'fixtures', 'drop-area');
 
 export const NOSTR_DATA_TIMEOUT_MS = 60_000;
+export const NOSTR_PROFILE_TIMEOUT_MS = Number(process.env.NOSTR_PROFILE_TIMEOUT_MS || (process.env.CI ? 120_000 : 90_000));
 export const SPINNER_TIMEOUT_MS = 60_000;
 export const SEARCH_WORKING_TIMEOUT_MS = 30_000;
 /** Max time for homepage search work after the debounce fires (filter + re-render). */
@@ -256,4 +259,107 @@ export async function waitForHomepageDropAreaAnalysis(page, timeout = DROP_AREA_
     return box != null && box.textContent.trim().length > 0;
   }, { timeout });
   return resultBox;
+}
+
+/**
+ * Wait until the verification modal is open and async sections have finished loading.
+ * @param {Page} page
+ * @param {{ requireBasedOn?: boolean, requireAttachments?: boolean, timeout?: number }} [options]
+ */
+export async function waitForVerificationModalReady(page, options = {}) {
+  const {
+    requireBasedOn = false,
+    requireAttachments = false,
+    timeout = NOSTR_DATA_TIMEOUT_MS,
+  } = options;
+
+  await page.waitForFunction(({ requireBasedOn, requireAttachments }) => {
+    const modal = document.getElementById('verificationModal');
+    if (!modal || modal.style.display !== 'flex') {
+      return false;
+    }
+
+    const attemptBy = document.getElementById('attempt-by');
+    if (!attemptBy || !attemptBy.textContent.trim()) {
+      return false;
+    }
+
+    if (requireBasedOn) {
+      const basedOn = document.getElementById('based-on-attempt-by');
+      if (!basedOn || !basedOn.textContent.trim()) {
+        return false;
+      }
+    }
+
+    if (requireAttachments) {
+      const attachmentsList = document.getElementById('verification-attachments-list');
+      if (!attachmentsList || /loading scripts/i.test(attachmentsList.textContent)) {
+        return false;
+      }
+    }
+
+    return true;
+  }, { requireBasedOn, requireAttachments }, { timeout });
+}
+
+/**
+ * Wait until the asciinema player is visible and shows terminal output.
+ * @param {Page} page
+ * @param {number} [timeout]
+ */
+export async function waitForAsciinemaPlayerContent(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
+  const player = page.locator('#ascii_cast_player');
+  await player.waitFor({ state: 'visible', timeout });
+  await page.waitForFunction(() => {
+    const playerEl = document.getElementById('ascii_cast_player');
+    return playerEl != null && playerEl.textContent.trim().length > 0;
+  }, { timeout });
+}
+
+function looksLikeNostrProfileFallback(text) {
+  const value = String(text ?? '').trim();
+  return /^(npub1|nprofile1|[0-9a-f]{64})/i.test(value) || /…/.test(value);
+}
+
+/**
+ * Wait for a live Nostr profile display name, reloading once if stuck on npub/pubkey fallback.
+ * @param {Page} page
+ * @param {import('@playwright/test').Locator} locator
+ * @param {string} displayName
+ * @param {{ timeout?: number, reloadUrl?: string, reloadReady?: (page: Page) => Promise<void> }} [options]
+ */
+export async function waitForNostrDisplayName(page, locator, displayName, options = {}) {
+  const {
+    timeout = NOSTR_PROFILE_TIMEOUT_MS,
+    reloadUrl,
+    reloadReady,
+  } = options;
+
+  const deadline = Date.now() + timeout;
+  let reloaded = false;
+
+  while (Date.now() < deadline) {
+    const text = (await locator.textContent())?.trim() ?? '';
+    if (text.includes(displayName)) {
+      return;
+    }
+
+    const remaining = deadline - Date.now();
+    if (
+      looksLikeNostrProfileFallback(text) &&
+      reloadUrl &&
+      reloadReady &&
+      !reloaded &&
+      remaining > 30_000
+    ) {
+      await page.goto(reloadUrl);
+      await reloadReady(page);
+      reloaded = true;
+      continue;
+    }
+
+    await page.waitForTimeout(1_000);
+  }
+
+  await expect(locator).toContainText(displayName, { timeout: 5_000 });
 }
