@@ -51,12 +51,29 @@ test.describe('ZEUS verification detail page', () => {
     };
 
     await test.step('Verification general info', async () => {
+      await page.waitForFunction(() => window.currentVerification?.created_at != null);
+
+      const { expectedCreatedAt, createdAtIso } = await page.evaluate(() => {
+        const verification = window.currentVerification;
+        const createdAtIso = new Date(verification.created_at * 1000).toISOString();
+        const expectedCreatedAt = new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+        });
+        return { expectedCreatedAt, createdAtIso };
+      });
+
+      expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
+
       await expect.soft(content).toContainText(
         'Hash of the binary reproduced: 709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf',
       );
       await expect.soft(content).toContainText('Application: ZEUS Wallet');
       await expect.soft(content).toContainText('Version: 13.0.1');
-      await expect.soft(content).toContainText(/Created At:\s*(?:8\s+\w+\.?\s+2026,\s*18:59|May 8, 2026, 06:59 PM)/i);
+      await expect.soft(content).toContainText(`Created At: ${expectedCreatedAt}`);
       await expect.soft(content).toContainText('Build status:');
       await expect.soft(content).toContainText('Reproducible when tested');
       await expect.soft(content).toContainText(
