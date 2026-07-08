@@ -132,6 +132,16 @@ function normalizeProfileMetadata(metadata) {
   return normalized;
 }
 
+function hasUsableCachedProfileMetadata(metadata) {
+  if (!metadata) {
+    return false;
+  }
+  if (metadata.image || metadata.picture) {
+    return true;
+  }
+  return Boolean(String(metadata.name || metadata.displayName || metadata.display_name || '').trim());
+}
+
 function buildProfile(pubkey, metadata, profileEvent) {
   const normalized = normalizeProfileMetadata(metadata);
   if (!normalized) {
@@ -153,7 +163,7 @@ async function fetchKind0ProfileEvent(pubkey) {
   return pool.get(
     eventRelayUrls,
     { kinds: [0], authors: [pubkey], limit: 1 },
-    { maxWait: 4000 }
+    { maxWait: 10_000 }
   );
 }
 
@@ -170,7 +180,7 @@ export async function getNostrProfile(pubkey) {
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
     const normalizedCached = normalizeProfileMetadata(cached);
-    if (normalizedCached?.image || normalizedCached?.picture) {
+    if (hasUsableCachedProfileMetadata(normalizedCached)) {
       return { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null };
     }
   }

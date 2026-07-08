@@ -70,7 +70,7 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
   resolveNostrConnectInitiated = resolve;
 });
 
-const connectTimeout = 3;
+const connectTimeout = 5;
 const nip07WaitTimeoutMs = 3125;
 
 export const getNdk = async () => {

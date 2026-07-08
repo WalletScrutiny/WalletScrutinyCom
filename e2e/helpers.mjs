@@ -316,23 +316,13 @@ export async function waitForAsciinemaPlayerContent(page, timeout = NOSTR_DATA_T
   }, { timeout });
 }
 
-/**
- * Poll until a locator contains the expected text.
- * @param {import('@playwright/test').Locator} locator
- * @param {string|RegExp} text
- * @param {number} [timeout]
- */
-export async function waitForLocatorText(locator, text, timeout = NOSTR_PROFILE_TIMEOUT_MS) {
-  await expect(locator).toContainText(text, { timeout });
-}
-
 function looksLikeNostrProfileFallback(text) {
   const value = String(text ?? '').trim();
   return /^(npub1|nprofile1|[0-9a-f]{64})/i.test(value) || /…/.test(value);
 }
 
 /**
- * Wait for a Nostr profile display name, reloading once if the UI is stuck on npub/pubkey fallback.
+ * Wait for a live Nostr profile display name, reloading once if stuck on npub/pubkey fallback.
  * @param {Page} page
  * @param {import('@playwright/test').Locator} locator
  * @param {string} displayName

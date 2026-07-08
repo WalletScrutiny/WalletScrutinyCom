@@ -7,17 +7,16 @@ import {
   waitForVerificationModalReady,
   waitForAsciinemaPlayerContent,
   waitForNostrDisplayName,
-  NOSTR_PROFILE_TIMEOUT_MS,
 } from './helpers.mjs';
 
 const ZEUS_VERIFICATION_PATH =
   '/mobile/app.zeusln.zeus/#verificationId=e0d4f6afce7bff841dd6ed6a4d158baf9c98a5a547581e0969087202e6b248c9';
 
 test.describe('ZEUS verification detail page', () => {
-  test.describe.configure({ retries: process.env.CI ? 3 : 1 });
+  test.describe.configure({ retries: process.env.CI ? 2 : 0 });
 
   test('loads once and validates all verification sections', async ({ page }, testInfo) => {
-    test.setTimeout(180_000);
+    test.setTimeout(process.env.CI ? 300_000 : 180_000);
 
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
@@ -47,7 +46,6 @@ test.describe('ZEUS verification detail page', () => {
     };
 
     const nostrDisplayNameOptions = {
-      timeout: NOSTR_PROFILE_TIMEOUT_MS,
       reloadUrl: ZEUS_VERIFICATION_PATH,
       reloadReady: waitForZeusVerificationModal,
     };
