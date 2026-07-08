@@ -6,12 +6,16 @@ import {
   waitForLoadingSpinnerHidden,
   waitForVerificationModalReady,
   waitForAsciinemaPlayerContent,
+  waitForNostrDisplayName,
+  NOSTR_PROFILE_TIMEOUT_MS,
 } from './helpers.mjs';
 
 const ZEUS_VERIFICATION_PATH =
   '/mobile/app.zeusln.zeus/#verificationId=e0d4f6afce7bff841dd6ed6a4d158baf9c98a5a547581e0969087202e6b248c9';
 
 test.describe('ZEUS verification detail page', () => {
+  test.describe.configure({ retries: process.env.CI ? 3 : 1 });
+
   test('loads once and validates all verification sections', async ({ page }, testInfo) => {
     test.setTimeout(180_000);
 
@@ -30,6 +34,23 @@ test.describe('ZEUS verification detail page', () => {
       requireAttachments: true,
       timeout: 120_000,
     });
+
+    const waitForZeusVerificationModal = async (targetPage) => {
+      await waitForVerificationsUi(targetPage);
+      await waitForLoadingSpinnerHidden(targetPage);
+      await expect(targetPage.locator('#verificationModal')).toBeVisible({ timeout: 60_000 });
+      await waitForVerificationModalReady(targetPage, {
+        requireBasedOn: true,
+        requireAttachments: true,
+        timeout: 120_000,
+      });
+    };
+
+    const nostrDisplayNameOptions = {
+      timeout: NOSTR_PROFILE_TIMEOUT_MS,
+      reloadUrl: ZEUS_VERIFICATION_PATH,
+      reloadReady: waitForZeusVerificationModal,
+    };
 
     await test.step('Verification general info', async () => {
       await expect.soft(content).toContainText(
@@ -50,9 +71,11 @@ test.describe('ZEUS verification detail page', () => {
       const basedOnAttemptBy = content.locator('#based-on-attempt-by');
 
       await expect.soft(content).toContainText('Attempt by:');
+      await waitForNostrDisplayName(page, attemptBy, 'walletscrutiny_bot', nostrDisplayNameOptions);
       await expect.soft(attemptBy).toContainText('walletscrutiny_bot');
 
       await expect.soft(content).toContainText('Based on an attempt by:');
+      await waitForNostrDisplayName(page, basedOnAttemptBy, 'dannybuntu', nostrDisplayNameOptions);
       await expect.soft(basedOnAttemptBy).toContainText('dannybuntu');
     });
 
@@ -66,13 +89,23 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(attachmentsList.locator('[title="Preview zeus_build.sh"]')).toBeVisible();
     });
 
+    await test.step('Script preview works fine', async () => {
+      const previewButton = content.locator('[title="Preview zeus_build.sh"]');
+      const previewModal = page.locator('#attachmentPreviewModal');
+
+      await previewButton.click();
+      await expect.soft(previewModal).toBeVisible({ timeout: 30_000 });
+      await expect.soft(page.locator('#previewFileName')).toHaveText('zeus_build.sh');
+      await expect.soft(page.locator('#previewContent')).toContainText('SCRIPT_VERSION="v0.2.13"');
+    });
+
     await test.step('Comments', async () => {
       const commentsSection = content.locator('.comments-section');
+      const commentAuthor = commentsSection.locator('.comment-author-name');
 
       await expect.soft(commentsSection).toContainText('Comments');
-      await expect.soft(commentsSection.locator('.comment-author-name')).toContainText('btc_remnant', {
-        timeout: 60_000,
-      });
+      await waitForNostrDisplayName(page, commentAuthor, 'btc_remnant', nostrDisplayNameOptions);
+      await expect.soft(commentAuthor).toContainText('btc_remnant');
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
     });
 
