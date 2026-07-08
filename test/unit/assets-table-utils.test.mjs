@@ -7,8 +7,8 @@ import {
   formatCommentDate,
   getAttachmentInfo,
   getStatusIcon,
-} from '../src/assets-table-utils.js';
-import { codeSnippetKind } from '../src/nostr-constants.mjs';
+} from '../../src/assets-table-utils.js';
+import { codeSnippetKind } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 describe('formatZapAmount', () => {

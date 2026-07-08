@@ -241,7 +241,7 @@ export async function waitForHomepageDropAreaReady(page) {
  * Drop a fixture file onto the homepage drop area.
  * Uses the hidden file input, which invokes the same handler as a native drop event.
  * @param {Page} page
- * @param {string} fixtureFileName file inside e2e/fixtures/drop-area
+ * @param {string} fixtureFileName file inside test/e2e/fixtures/drop-area
  */
 export async function dropFileOnHomepageDropArea(page, fixtureFileName) {
   const filePath = join(DROP_AREA_FIXTURE_DIR, fixtureFileName);

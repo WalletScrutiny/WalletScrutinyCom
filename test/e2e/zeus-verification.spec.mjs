@@ -112,6 +112,14 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(previewModal).toBeVisible({ timeout: 30_000 });
       await expect.soft(page.locator('#previewFileName')).toHaveText('zeus_build.sh');
       await expect.soft(page.locator('#previewContent')).toContainText('SCRIPT_VERSION="v0.2.13"');
+
+      await page.evaluate(() => {
+        const preview = document.getElementById('attachmentPreviewModal');
+        if (preview) {
+          preview.style.display = 'none';
+        }
+      });
+      await expect.soft(previewModal).toBeHidden();
     });
 
     await test.step('Comments', async () => {
@@ -132,6 +140,43 @@ test.describe('ZEUS verification detail page', () => {
 
       await waitForAsciinemaPlayerContent(page, 120_000);
       await expect.soft(player).not.toBeEmpty();
+    });
+
+    await test.step('Test endorsement modal', async () => {
+      await expect(modal).toBeVisible();
+
+      const endorseButton = page.locator('#verificationModalToolbar button[title="Endorse this verification"]');
+      await endorseButton.click();
+
+      const endorsementModal = page.locator('#endorsementModal');
+      await expect.soft(endorsementModal).toBeVisible({ timeout: 10_000 });
+      await expect.soft(endorsementModal).toContainText('Endorsing a verification means');
+      await expect.soft(endorsementModal.locator('button')).toHaveCount(3);
+      await expect.soft(page.locator('#endorseValidBtn')).toBeVisible();
+      await expect.soft(page.locator('#endorseInvalidBtn')).toBeVisible();
+      await expect.soft(page.locator('#endorseCancelBtn')).toBeVisible();
+
+      await page.locator('#endorseCancelBtn').click();
+      await expect.soft(endorsementModal).toBeHidden();
+    });
+
+    await test.step('Test Share on Nostr modal', async () => {
+      await expect(modal).toBeVisible();
+
+      const shareContainer = page.locator('#verificationShareButtonContainer');
+      await shareContainer.getByRole('button', { name: 'Share' }).click();
+
+      const shareOnNostr = shareContainer.locator('.js-share-nostr-open');
+      await expect.soft(shareOnNostr).toBeVisible();
+      await shareOnNostr.click();
+
+      const shareNostrModal = page.locator('.share-nostr-modal').filter({ visible: true });
+      await expect.soft(shareNostrModal).toBeVisible({ timeout: 10_000 });
+      await expect.soft(shareNostrModal.locator('h2')).toHaveText('Share on Nostr');
+      await expect.soft(shareNostrModal.locator('.share-nostr-textarea')).toHaveValue(
+        /Check out this ZEUS Wallet v13\.0\.1 \(android\) verification!/,
+      );
+      await expect.soft(shareNostrModal.getByRole('button', { name: 'Share' })).toBeVisible();
     });
 
     assertNoConsoleErrors();

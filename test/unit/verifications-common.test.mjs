@@ -9,7 +9,7 @@ import {
   getAssetHashesDigest,
   getVerificationReplaceableKey,
   getStatusText,
-} from '../src/verifications_common.mjs';
+} from '../../src/verifications_common.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 const HASH = 'a'.repeat(64);

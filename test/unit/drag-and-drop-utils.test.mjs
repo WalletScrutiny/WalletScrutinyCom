@@ -18,7 +18,7 @@ import {
   isPageForAppId,
   ANDROID_APK_METADATA_MISSING_MESSAGE,
   ANDROID_APK_VERSION_MISSING_MESSAGE,
-} from '../src/drag-and-drop-utils.js';
+} from '../../src/drag-and-drop-utils.js';
 
 describe('formatFileSize', () => {
   test('formats zero bytes', () => {

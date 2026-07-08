@@ -7,11 +7,11 @@ import {
   getAppInfoFromEventInfo,
   getMaxAssetVersion,
   getFileAttachmentIDsForVerificationEvent,
-} from '../src/verifications_utils.mjs';
+} from '../../src/verifications_utils.mjs';
 import {
   assetRegistrationKind,
   verificationKind,
-} from '../src/nostr-constants.mjs';
+} from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, makeEvent, makeVerification } from './fixtures.mjs';
 
 const ATTACHMENT_ID_A = 'a'.repeat(64);

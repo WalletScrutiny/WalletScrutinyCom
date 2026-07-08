@@ -6,8 +6,8 @@ import {
   resetAttachmentState,
   storeAttachmentMetadata,
   buildAttachmentVerificationIndex,
-} from '../src/assets-table-attachments.js';
-import { codeSnippetKind } from '../src/nostr-constants.mjs';
+} from '../../src/assets-table-attachments.js';
+import { codeSnippetKind } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 describe('buildAttachmentVerificationIndex', () => {

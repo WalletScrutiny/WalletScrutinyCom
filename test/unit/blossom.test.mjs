@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { sha256, sha256FromBlob } from '../src/blossom.js';
+import { sha256, sha256FromBlob } from '../../src/blossom.js';
 
 describe('sha256', () => {
   test('hashes array buffer data', async () => {
