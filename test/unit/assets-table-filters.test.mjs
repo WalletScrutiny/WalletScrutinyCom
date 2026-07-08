@@ -2,8 +2,8 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { mergeBundleAssetRows, fingerprintAllAssetInformation } from '../src/assets-table-filters.js';
-import { assetBundleRegistrationKind } from '../src/nostr-constants.mjs';
+import { mergeBundleAssetRows, fingerprintAllAssetInformation } from '../../src/assets-table-filters.js';
+import { assetBundleRegistrationKind } from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, makeEvent } from './fixtures.mjs';
 
 function makeGroup({ sha256, items }) {

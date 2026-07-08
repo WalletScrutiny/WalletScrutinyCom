@@ -10,7 +10,7 @@ import {
   explicitRelayUrls,
   verificationReportKind,
   codeSnippetKind,
-} from '../src/nostr-constants.mjs';
+} from '../../src/nostr-constants.mjs';
 
 describe('isWalletScrutinySiteAdmin', () => {
   test('returns true for configured admin pubkeys', () => {

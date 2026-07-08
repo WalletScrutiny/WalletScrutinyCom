@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { formatDate } from '../src/format-utils.mjs';
+import { formatDate } from '../../src/format-utils.mjs';
 
 describe('formatDate', () => {
   test('formats unix timestamp with date and time by default', () => {

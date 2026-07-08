@@ -11,11 +11,11 @@ import {
   getLegacyAssetLookupHash,
   getAssetIndexHashes,
   bundleHasFullVerification,
-} from '../src/asset-utils.mjs';
+} from '../../src/asset-utils.mjs';
 import {
   assetRegistrationKind,
   assetBundleRegistrationKind,
-} from '../src/nostr-constants.mjs';
+} from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, HASH_C, makeAsset, makeVerification } from './fixtures.mjs';
 
 describe('isAssetRegistrationKind', () => {

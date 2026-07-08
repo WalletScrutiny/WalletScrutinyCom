@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import {
   getVerificationIdFromHash,
   findCachedGlobalAssetInfo,
-} from '../src/assets-table-hash.js';
+} from '../../src/assets-table-hash.js';
 import { HASH_A, makeVerification } from './fixtures.mjs';
 
 const originalLocation = globalThis.location;

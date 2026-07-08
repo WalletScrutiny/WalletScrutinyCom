@@ -9,7 +9,7 @@ import {
   createEventDraft,
   setPrivateKey,
   signEvent,
-} from '../src/nostr-client.mjs';
+} from '../../src/nostr-client.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 describe('getTagValue', () => {

@@ -44,7 +44,7 @@
     "ws": "^8.21.0"
   },
   "scripts": {
-    "test": "node --test --test-reporter=spec \"test/**/*.test.mjs\"",
+    "test": "node --test --test-reporter=spec \"test/unit/**/*.test.mjs\"",
     "build:e2e": "node scripts/build-e2e.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",

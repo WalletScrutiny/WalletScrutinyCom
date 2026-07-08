@@ -8,7 +8,7 @@ import {
   setOriginalUrlBeforeModal,
   getOriginalUrlBeforeModal,
   findVerificationByIdInMaps,
-} from '../src/assets-table-state.js';
+} from '../../src/assets-table-state.js';
 import { makeVerification } from './fixtures.mjs';
 
 describe('asset table response state', () => {

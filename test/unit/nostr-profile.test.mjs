@@ -11,7 +11,7 @@ import {
   profileImageFallback,
   renderProfileCardHtml,
   renderBigProfileCardHtml,
-} from '../src/nostr-profile.mjs';
+} from '../../src/nostr-profile.mjs';
 
 const PUBKEY = getPublicKey(generateSecretKey());
 

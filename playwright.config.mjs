@@ -5,7 +5,7 @@ const host = process.env.PLAYWRIGHT_HOST || '127.0.0.1';
 const baseURL = process.env.PLAYWRIGHT_BASE_URL || `http://${host}:${port}`;
 
 export default defineConfig({
-  testDir: './e2e',
+  testDir: './test/e2e',
   fullyParallel: false,
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 2 : 0,

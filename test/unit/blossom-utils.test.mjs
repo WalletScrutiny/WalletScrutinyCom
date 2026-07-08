@@ -6,7 +6,7 @@ import {
   getBlossomFileURL,
   getBlossomDownloadURL,
   blossomServerUrl,
-} from '../src/blossom-utils.js';
+} from '../../src/blossom-utils.js';
 
 describe('getBlossomFileURL', () => {
   test('builds direct file url from hash', () => {
