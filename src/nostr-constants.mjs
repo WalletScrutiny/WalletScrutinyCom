@@ -19,6 +19,25 @@ export const profileRelayUrl = "wss://purplepag.es/";
  */
 export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileRelayUrl);
 
+/**
+ * Relays for paginated verification history reads. The project relay holds the
+ * complete archive; other relays are synced in the background only.
+ * Initial bulk loads paginate mainRelayUrl only.
+ */
+
+/** Default LIMIT per paginated REQ when a relay has no entry in relayPaginationPageLimits. */
+export const defaultRelayPaginationPageLimit = 500;
+
+/**
+ * Max events per paginated filter REQ, keyed by relay URL.
+ * Match each relay's server-side response cap (e.g. strfry maxFilterLimit).
+ * For strfry, also raise relay.queryTimesliceBudgetMicroseconds or scans stop
+ * early and clients need many small pages despite a high limit.
+ */
+export const relayPaginationPageLimits = {
+  [mainRelayUrl]: 2000,
+};
+
 export const wsBotPublicKey = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
 export const nip89ClientTagD = '7703371760017';

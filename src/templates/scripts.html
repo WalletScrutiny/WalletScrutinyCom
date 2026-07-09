@@ -75,7 +75,6 @@ const bundlePath = (prefix) => {
 
       let loadedFromCache = false;
       window.allAssetInformation = await getAllAssetInformation({
-        months: 6,
         onCachedDataLoaded: (cachedData) => {
           console.log('Cached data loaded immediately!', cachedData);
           loadedFromCache = true;

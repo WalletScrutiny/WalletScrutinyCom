@@ -182,38 +182,137 @@ export async function fetchEvent(eventId, options = {}) {
   return pool.get(relayUrls, { ids: [eventId] }, { maxWait: options.maxWait ?? 3000 });
 }
 
-export async function fetchEventsWithPagination(filter) {
-  const allEvents = new Set();
-  let hasMoreEvents = true;
+const DEFAULT_PAGINATION_PAGE_LIMIT = 500;
+const DEFAULT_PAGINATION_MAX_WAIT_MS = 15_000;
+const DEFAULT_EMPTY_PAGE_RETRIES = 3;
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function resolvePaginationPageLimit(relayUrl, filter, options) {
+  if (filter.limit !== undefined) {
+    return filter.limit;
+  }
+  const relayLimit = options.relayPageLimits?.[relayUrl];
+  if (relayLimit !== undefined) {
+    return relayLimit;
+  }
+  if (options.pageLimit !== undefined) {
+    return options.pageLimit;
+  }
+  return DEFAULT_PAGINATION_PAGE_LIMIT;
+}
+
+function formatPaginationKindsLabel(filter) {
+  if (!filter.kinds?.length) {
+    return '';
+  }
+  return ` kinds=[${filter.kinds.join(',')}]`;
+}
+
+async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}) {
+  const pageLimit = resolvePaginationPageLimit(relayUrl, filter, options);
+  const maxWait = options.maxWait ?? DEFAULT_PAGINATION_MAX_WAIT_MS;
+  const maxEmptyRetries = options.maxEmptyRetries ?? DEFAULT_EMPTY_PAGE_RETRIES;
+  const since = filter.since;
+  const kindsLabel = formatPaginationKindsLabel(filter);
+
+  const relayEvents = new Map();
   let pageCount = 0;
-  const pageFilter = { ...filter };
+  let emptyPageRetries = 0;
+  const pageFilter = { ...filter, limit: pageLimit };
 
-  while (hasMoreEvents) {
+  while (true) {
     pageCount++;
+    let pageEvents;
+
     try {
-      const pageEvents = await fetchEvents(pageFilter);
-
-      if (pageEvents.size === 0) {
-        hasMoreEvents = false;
-        break;
-      }
-
-      let oldestCreatedAt = Infinity;
-      pageEvents.forEach(event => {
-        allEvents.add(event);
-        if (event.created_at < oldestCreatedAt) {
-          oldestCreatedAt = event.created_at;
-        }
-      });
-
-      pageFilter.until = oldestCreatedAt - 1;
+      pageEvents = await fetchEvents(pageFilter, { maxWait, relayUrls: [relayUrl] });
     } catch (error) {
-      console.error(`Error fetching page ${pageCount}:`, error);
+      console.error(`Error fetching page ${pageCount} from ${relayUrl}${kindsLabel}:`, error);
+      break;
+    }
+
+    if (pageEvents.size === 0) {
+      const hasMoreHistory = since === undefined
+        || pageFilter.until === undefined
+        || pageFilter.until >= since;
+
+      if (hasMoreHistory && emptyPageRetries < maxEmptyRetries) {
+        emptyPageRetries++;
+        await sleep(400 * emptyPageRetries);
+        continue;
+      }
+      break;
+    }
+
+    emptyPageRetries = 0;
+
+    let oldestCreatedAt = Infinity;
+    for (const event of pageEvents) {
+      relayEvents.set(event.id, event);
+      if (event.created_at < oldestCreatedAt) {
+        oldestCreatedAt = event.created_at;
+      }
+    }
+
+    const isFullPage = pageEvents.size >= pageLimit;
+
+    console.debug(
+      `fetchEventsWithPaginationFromRelay(${relayUrl})${kindsLabel}:`
+      + ` page ${pageCount} returned ${pageEvents.size} events`
+      + (isFullPage ? ' (full page)' : ' (partial page, stopping)')
+    );
+
+    if (since !== undefined && oldestCreatedAt <= since) {
+      break;
+    }
+
+    // A short page means the relay has no older matching events left.
+    if (!isFullPage) {
+      break;
+    }
+
+    pageFilter.until = oldestCreatedAt - 1;
+    if (since !== undefined && pageFilter.until < since) {
       break;
     }
   }
 
-  return allEvents;
+  console.debug(
+    `fetchEventsWithPaginationFromRelay(${relayUrl})${kindsLabel}:`
+    + ` ${relayEvents.size} events in ${pageCount} page(s), limit ${pageLimit}`
+  );
+
+  return relayEvents;
+}
+
+/**
+ * Fetches events backwards in time using `until` pagination.
+ * Each relay is paginated independently (a single shared cursor would skip
+ * events when relays each return their own limit-sized page) and results are
+ * merged by event id.
+ */
+export async function fetchEventsWithPagination(filter, options = {}) {
+  const urls = options.relayUrls ?? relayUrls;
+  const relayEventMaps = await Promise.all(
+    urls.map(relayUrl => fetchEventsWithPaginationFromRelay(relayUrl, filter, options))
+  );
+
+  const allEvents = new Map();
+  for (const relayEvents of relayEventMaps) {
+    relayEvents.forEach((event, id) => {
+      allEvents.set(id, event);
+    });
+  }
+
+  console.debug(
+    `fetchEventsWithPagination: ${allEvents.size} unique events from ${urls.length} relay(s)`
+    + (filter.since !== undefined ? ` (since ${filter.since})` : '')
+  );
+
+  return new Set(allEvents.values());
 }
 
 export async function signEvent(template) {

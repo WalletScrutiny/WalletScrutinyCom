@@ -37,6 +37,8 @@ import {
   eventRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
+  defaultRelayPaginationPageLimit,
+  relayPaginationPageLimits,
   nip89ClientTagD,
   wsBotPublicKey,
   maxFileAttachmentContentLength
@@ -762,9 +764,45 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
  * @param {Object} filter - Filter object to fetch events for
  * @returns {Promise<Set>} - Set of events
  */
-const fetchEventsWithPagination = async function(filter) {
-  return nostrFetchEventsWithPagination(filter);
+const fetchEventsWithPagination = async function(filter, options = {}) {
+  return nostrFetchEventsWithPagination(filter, options);
 };
+
+function buildRelayPaginationOptions(relayUrls) {
+  return {
+    relayUrls,
+    relayPageLimits: relayPaginationPageLimits,
+    pageLimit: defaultRelayPaginationPageLimit,
+  };
+}
+
+function getMainRelayPageLimit() {
+  return relayPaginationPageLimits[mainRelayUrl] ?? defaultRelayPaginationPageLimit;
+}
+
+async function fetchVerificationEventsWithPagination(baseFilter, options) {
+  const kindFilters = [verificationKind, verificationDraftKind].map(kind => ({
+    ...baseFilter,
+    kinds: [kind],
+  }));
+
+  const pages = await Promise.all(
+    kindFilters.map(kindFilter => fetchEventsWithPagination(kindFilter, options))
+  );
+
+  const merged = new Set();
+  for (const page of pages) {
+    for (const event of page) {
+      merged.add(event);
+    }
+  }
+  return merged;
+}
+
+const mainRelayPaginationOptions = buildRelayPaginationOptions([mainRelayUrl]);
+const supplementalRelayPaginationOptions = buildRelayPaginationOptions(
+  eventRelayUrls.filter(url => url !== mainRelayUrl)
+);
 
 // IndexedDB Helper Functions
 const dbName = 'WalletScrutinyDB';
@@ -1019,11 +1057,11 @@ const backgroundSyncEvents = async function() {
     const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
 
     if (newestVerification) {
-      const newVerifications = await fetchEventsWithPagination( {
+      const newVerifications = await fetchEventsWithPagination({
         kinds: [verificationKind, verificationDraftKind],
         since: newestVerification + 1,
         limit: SYNC_LIMIT
-      });
+      }, supplementalRelayPaginationOptions);
 
       if (newVerifications.size > 0) {
         await saveEventsToIDB(newVerifications);
@@ -1031,11 +1069,11 @@ const backgroundSyncEvents = async function() {
       }
     } else {
       // First time sync - fetch all verifications
-      const allVerifications = await fetchEventsWithPagination( {
+      const allVerifications = await fetchEventsWithPagination({
         kinds: [verificationKind, verificationDraftKind],
         since: verificationEventsSinceTS,
         limit: SYNC_LIMIT
-      });
+      }, supplementalRelayPaginationOptions);
 
       if (allVerifications.size > 0) {
         await saveEventsToIDB(allVerifications);
@@ -1047,12 +1085,12 @@ const backgroundSyncEvents = async function() {
     const { oldest: oldestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
 
     if (oldestVerification && oldestVerification > verificationEventsSinceTS) {
-      const olderVerifications = await fetchEventsWithPagination( {
+      const olderVerifications = await fetchEventsWithPagination({
         kinds: [verificationKind, verificationDraftKind],
         since: verificationEventsSinceTS,
         until: oldestVerification - 1,
         limit: SYNC_LIMIT
-      });
+      }, supplementalRelayPaginationOptions);
 
       if (olderVerifications.size > 0) {
         await saveEventsToIDB(olderVerifications);
@@ -1079,12 +1117,12 @@ const backgroundSyncEvents = async function() {
     if (appIds.size > 0) {
       const { newest: newestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
-      const newAssets = await fetchEventsWithPagination( {
+      const newAssets = await fetchEventsWithPagination({
         kinds: assetRegistrationKinds,
         '#i': Array.from(appIds),
         since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
         limit: SYNC_LIMIT
-      });
+      }, supplementalRelayPaginationOptions);
 
       if (newAssets.size > 0) {
         await saveEventsToIDB(newAssets);
@@ -1095,13 +1133,13 @@ const backgroundSyncEvents = async function() {
       const { oldest: oldestAsset } = await getIDBEventRange(assetRegistrationKinds);
 
       if (oldestAsset && oldestAsset > verificationEventsSinceTS) {
-        const olderAssets = await fetchEventsWithPagination( {
+        const olderAssets = await fetchEventsWithPagination({
           kinds: assetRegistrationKinds,
           '#i': Array.from(appIds),
           since: verificationEventsSinceTS,
           until: oldestAsset - 1,
           limit: SYNC_LIMIT
-        });
+        }, supplementalRelayPaginationOptions);
 
         if (olderAssets.size > 0) {
           await saveEventsToIDB(olderAssets);
@@ -1427,7 +1465,7 @@ const getAllAssetInformation = async function({ months,
     try {
       const newVerifications = singleBatch
         ? await nostrFetchEvents(verificationFilter)
-        : await fetchEventsWithPagination( verificationFilter);
+        : await fetchVerificationEventsWithPagination(verificationFilter, mainRelayPaginationOptions);
 
       newVerifications.forEach(e => newEvents.add(e));
       console.log(`Fetched ${newVerifications.size} verifications from network`);
@@ -1444,13 +1482,17 @@ const getAllAssetInformation = async function({ months,
         const assetFilter = {
           kinds: assetRegistrationKinds,
           '#i': Array.from(verificationAppIds),
-          since: filter.since
+          since: filter.since,
+          limit: getMainRelayPageLimit(),
         };
         if (filter.until) assetFilter.until = filter.until;
 
         const newAssets = singleBatch
           ? await nostrFetchEvents(assetFilter)
-          : await fetchEventsWithPagination( assetFilter);
+          : await nostrFetchEvents(assetFilter, {
+            relayUrls: [mainRelayUrl],
+            maxWait: 15_000,
+          });
 
         newAssets.forEach(e => newEvents.add(e));
         console.log(`Fetched ${newAssets.size} assets for ${verificationAppIds.size} appIds from network`);
@@ -1489,7 +1531,7 @@ const getAllAssetInformation = async function({ months,
       };
 
       try {
-        const gapEvents = await fetchEventsWithPagination( gapFilter);
+        const gapEvents = await fetchEventsWithPagination(gapFilter, mainRelayPaginationOptions);
         console.log(`Gap fill: fetched ${gapEvents.size} older events`);
         gapEvents.forEach(e => newEvents.add(e));
       } catch(e) {
