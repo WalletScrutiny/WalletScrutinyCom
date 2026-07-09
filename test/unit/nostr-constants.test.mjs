@@ -33,6 +33,14 @@ describe('relay URL lists', () => {
   });
 });
 
+describe('relayPaginationPageLimits', () => {
+  test('allows a higher page limit for the project relay', async () => {
+    const { mainRelayUrl, relayPaginationPageLimits, defaultRelayPaginationPageLimit } = await import('../../src/nostr-constants.mjs');
+    assert.equal(defaultRelayPaginationPageLimit, 500);
+    assert.ok(relayPaginationPageLimits[mainRelayUrl] > defaultRelayPaginationPageLimit);
+  });
+});
+
 describe('kind constants', () => {
   test('uses stable public kinds in production mode', () => {
     assert.equal(verificationReportKind, 1984);
