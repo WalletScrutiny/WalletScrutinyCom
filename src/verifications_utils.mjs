@@ -806,7 +806,7 @@ const supplementalRelayPaginationOptions = buildRelayPaginationOptions(
 
 // IndexedDB Helper Functions
 const dbName = 'WalletScrutinyDB';
-const dbVersion = 3;
+const dbVersion = 4;
 const eventsStoreName = 'events';
 const profilesStoreName = 'profiles';
 
@@ -831,6 +831,13 @@ const initDB = () => {
     request.onsuccess = (event) => resolve(event.target.result);
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
+      const oldVersion = event.oldVersion;
+
+      // v4: drop stale events from incomplete pre-pagination-fix syncs; profiles are kept.
+      if (oldVersion > 0 && oldVersion < 4 && db.objectStoreNames.contains(eventsStoreName)) {
+        db.deleteObjectStore(eventsStoreName);
+        console.log('Cleared events store for IDB v4 migration');
+      }
 
       // Create events store with indexes
       if (!db.objectStoreNames.contains(eventsStoreName)) {

@@ -4,7 +4,7 @@ import { ensureConnected, getPool } from './nostr-client.mjs';
 import { eventRelayUrls } from './nostr-constants.mjs';
 
 const DB_NAME = 'WalletScrutinyDB';
-const DB_VERSION = 3;
+const DB_VERSION = 4;
 const PROFILES_STORE = 'profiles';
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
 const PROFILE_CACHE_VERSION = 5;
