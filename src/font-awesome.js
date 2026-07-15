@@ -9,7 +9,8 @@ import {
   faGooglePlay,
   faGithub,
   faWindows,
-  faBitcoin
+  faBitcoin,
+  faApple
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faGlobe,
@@ -56,7 +57,9 @@ import {
   faClipboardCheck,
   faTags,
   faFolderOpen,
-  faCalendar
+  faCalendar,
+  faPen,
+  faLayerGroup
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -105,6 +108,8 @@ library.add(
   faTags,
   faFolderOpen,
   faCalendar,
+  faPen,
+  faLayerGroup,
   // Brands
   faSquareXTwitter,
   faXTwitter,
@@ -115,7 +120,8 @@ library.add(
   faGooglePlay,
   faGithub,
   faWindows,
-  faBitcoin
+  faBitcoin,
+  faApple
 );
 
 dom.watch();

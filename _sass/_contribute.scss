@@ -1,12 +1,15 @@
+.guide-page,
 .contribute-page {
   max-width: 960px;
   margin: 0 auto;
 }
 
+.guide-hero,
 .contribute-hero {
   text-align: center;
   margin-bottom: 2.5rem;
 
+  .guide-lead,
   .contribute-lead {
     font-size: 1.25rem;
     line-height: 1.65;
@@ -17,6 +20,7 @@
   }
 }
 
+.guide-actions,
 .contribute-actions {
   display: flex;
   justify-content: center;
@@ -108,7 +112,118 @@
   margin-top: 1rem;
 }
 
+.guide-section {
+  margin-bottom: 2.75rem;
+
+  > h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1.25rem;
+    font-size: 1.5rem;
+    font-weight: $title-font-weight;
+    line-height: 1.3;
+
+    .fa-google-play,
+    .fa-apple {
+      color: var(--accent-text);
+    }
+  }
+
+  > p {
+    margin: 0 0 1rem;
+    line-height: 1.6;
+    font-weight: $paragraph-font-weight;
+  }
+
+  > ul {
+    margin: 0 0 1rem;
+    padding-left: 1.35rem;
+    line-height: 1.6;
+    font-weight: $paragraph-font-weight;
+
+    li + li {
+      margin-top: 0.35rem;
+    }
+  }
+}
+
+.guide-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+
+  > li {
+    padding: 1.25rem 1.35rem;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px var(--shadow-3);
+    background: var(--body);
+  }
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    font-weight: $title-font-weight;
+    line-height: 1.35;
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    line-height: 1.55;
+    font-weight: $paragraph-font-weight;
+    color: var(--neutral-2);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin: 0 0 0.75rem;
+    padding-left: 1.25rem;
+    line-height: 1.55;
+    font-weight: $paragraph-font-weight;
+    color: var(--neutral-2);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  pre {
+    margin: 0.5rem 0 0;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    background: var(--neutral-6);
+    overflow-x: auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    code {
+      background: none;
+      padding: 0;
+      color: var(--text);
+    }
+  }
+
+  code:not(pre code) {
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
+    background: var(--neutral-6);
+    font-size: 0.9em;
+  }
+}
+
+.guide-note {
+  margin-top: 1rem;
+}
+
 // Override .archive a { text-decoration: underline } — cards are full-block links.
+.archive .guide-page a.contribute-card,
+.archive .guide-page a.contribute-card:hover,
+.archive .guide-page a.contribute-card:focus,
 .archive .contribute-page a.contribute-card,
 .archive .contribute-page a.contribute-card:hover,
 .archive .contribute-page a.contribute-card:focus {
