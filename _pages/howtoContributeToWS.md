@@ -14,12 +14,6 @@ author_profile: false
   </p>
 </div>
 
-<div class="contribute-actions">
-  <a href="{{ site.baseurl }}/verifications/" class="btn btn-medium btn-success">Build verifications</a>
-  <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom" class="btn btn-medium btn-success" target="_blank" rel="noopener noreferrer">GitLab repository</a>
-  <a href="{{ site.baseurl }}/donate/" class="btn btn-medium btn-success">Donate</a>
-</div>
-
 <div class="contribute-grid">
   {% for way in site.data.contributeWays %}
     {% if way.link %}
