@@ -25,6 +25,20 @@ const getVerificationLookupHash = event => {
 
 const isAssetRegistrationEvent = event => assetRegistrationKinds.includes(event.kind);
 
+function getAssetsTableColumnCount(hideConfig, showSeen = false) {
+  let count = 1; // Wallet or Version
+  count += 1; // Description
+  if (!hideConfig?.sha256) {
+    count += 1; // Hashes
+  }
+  count += 1; // Binary
+  count += 1; // Verifications
+  if (showSeen) {
+    count += 1; // Seen
+  }
+  return count;
+}
+
 const getPrimaryFileName = event => {
   const primaryFileTag = event.tags?.find(tag => tag[0] === 'file');
   if (primaryFileTag?.[1]) {
@@ -33,16 +47,43 @@ const getPrimaryFileName = event => {
   return getFirstTagValue(event, 'file-name');
 };
 
+const BLOSSOM_DOWNLOAD_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>`;
+
+const HASH_COPY_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>`;
+
+function renderHashCopyButton(hash, title = 'Copy hash to clipboard') {
+  return `
+    <button
+      type="button"
+      class="hash-copy-btn"
+      onclick="navigator.clipboard.writeText('${hash}').then(() => showToast('Hash copied to clipboard'))"
+      title="${title}"
+      aria-label="${title}"
+    >
+      <span class="hash-copy-btn__icon" aria-hidden="true">${HASH_COPY_ICON_SVG}</span>
+    </button>`;
+}
+
 function renderCopyAllHashesButton(allHashes) {
   if (allHashes.length <= 6) {
     return '';
   }
   const allHashesText = allHashes.map(hash => hash[1]).join('\n');
   const count = allHashes.length;
+  const title = `Copy all ${count} hashes to clipboard`;
   return `
     <div class="hash-list-more">...</div>
-    <div style="margin-top: 6px;">
-      <button onclick='navigator.clipboard.writeText(${JSON.stringify(allHashesText)}).then(() => showToast("Hashes copied to clipboard"))' class="copy-button" title="Copy all ${count} hashes to clipboard">📋 Copy all (${count})</button>
+    <div class="hash-copy-all-wrap">
+      <button
+        type="button"
+        class="hash-copy-all-btn"
+        onclick='navigator.clipboard.writeText(${JSON.stringify(allHashesText)}).then(() => showToast("Hashes copied to clipboard"))'
+        title="${title}"
+        aria-label="${title}"
+      >
+        <span class="hash-copy-all-btn__icon" aria-hidden="true">${HASH_COPY_ICON_SVG}</span>
+        <span>Copy all (${count})</span>
+      </button>
     </div>`;
 }
 
@@ -51,8 +92,8 @@ function renderMobileHashCells(sha256Hashes, allHashes = sha256Hashes) {
     return '-';
   }
   return sha256Hashes.map(hash => `
-    <div style="margin-bottom: 4px;">
-      <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
+    <div class="hash-row">
+      ${renderHashCopyButton(hash[1])}<span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
     </div>`).join('') + renderCopyAllHashesButton(allHashes);
 }
 
@@ -61,9 +102,9 @@ function renderDesktopHashCells(sha256Hashes, allHashes = sha256Hashes) {
     return '-';
   }
   return sha256Hashes.map(hash => `
-    <div style="margin-bottom: 4px;">
+    <div class="hash-row">
       <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
-      <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button>
+      ${renderHashCopyButton(hash[1])}
     </div>`).join('') + renderCopyAllHashesButton(allHashes);
 }
 
@@ -78,6 +119,141 @@ function parseItemDescription(binary) {
   }
 }
 
+function getVerificationStatusModifier(status) {
+  switch (status) {
+    case 'reproducible':
+      return 'reproducible';
+    case 'warning':
+    case 'notag':
+      return 'warning';
+    case 'not_reproducible':
+    case 'ftbfs':
+    case 'nosource':
+    case 'obfuscated':
+    case 'spam':
+      return 'negative';
+    default:
+      return 'neutral';
+  }
+}
+
+function renderVerificationActionLink({ identifier, version, platform, label }) {
+  return `<a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="verification-action-link" rel="noopener noreferrer">${label}</a>`;
+}
+
+function renderBlossomDownloadButton({
+  downloadHash,
+  identifier,
+  platform,
+  version,
+  sanitizedFileName,
+  bundleFilesAttr,
+  downloadTitle,
+  bundleFileCount,
+}) {
+  const bundleBadge = bundleFileCount > 1
+    ? `<span class="blossom-download-btn__badge">${bundleFileCount}</span>`
+    : '';
+  const ariaLabel = bundleFileCount > 1
+    ? `Download ${bundleFileCount} files from Blossom`
+    : 'Download from Blossom';
+
+  return `
+    <button
+      type="button"
+      id="blossom-${downloadHash}"
+      data-appid="${identifier}"
+      data-platform="${platform}"
+      data-version="${version}"
+      data-filename="${sanitizedFileName}"
+      ${bundleFilesAttr}
+      class="blossom-download blossom-download-btn"
+      style="display: none;"
+      title="${downloadTitle}"
+      aria-label="${ariaLabel}"
+    >
+      <span class="blossom-download-btn__icon" aria-hidden="true">${BLOSSOM_DOWNLOAD_ICON_SVG}</span>
+      ${bundleBadge}
+    </button>`;
+}
+
+function renderVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft }) {
+  const status = getFirstTagValue(attestation, 'status');
+  const attestationDate = formatDate(attestation.created_at);
+  const statusModifier = getVerificationStatusModifier(status);
+  const statusLabel = getStatusText(status, true);
+  const draftBadge = isMyDraft
+    ? '<span class="verification-draft-badge">Draft</span>'
+    : '';
+
+  return `
+    <div
+      class="verification-card attestation-link ${isMyDraft ? 'verification-card--draft' : ''}"
+      onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
+      onmouseenter="prefetchMarked()"
+      data-pubkey_verifiers="${attestation.pubkey}"
+      role="button"
+      tabindex="0"
+    >
+      <div class="verification-card__layout">
+        <div class="verification-card__avatar profile-${attestation.pubkey}"></div>
+        <div class="verification-card__body">
+          <div class="verification-card__meta">
+            <span class="verification-status-pill verification-status-pill--${statusModifier}">
+              <span class="verification-status-pill__dot" aria-hidden="true"></span>
+              <span class="attestation-status">${statusLabel}</span>
+            </span>
+            ${draftBadge}
+          </div>
+          <time class="verification-card__date">${attestationDate}</time>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderVerificationsCell({ attestations, sha256HashKey, identifier, platform, version, hideButtons }) {
+  if (!attestations.length) {
+    return `
+      <div class="verification-cell">
+        <div class="verification-empty">
+          <span class="verification-empty__label">No verifications yet</span>
+        </div>
+        ${hideButtons ? '' : renderVerificationActionLink({ identifier, version, platform, label: 'Create verification' })}
+      </div>`;
+  }
+
+  const latestVerificationsByUser = new Map();
+  for (const attestation of attestations) {
+    if (attestation.kind === verificationDraftKind) {
+      latestVerificationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
+    } else {
+      const existingAttestation = latestVerificationsByUser.get(attestation.pubkey);
+      if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
+        attestation.created_at > existingAttestation.created_at)) {
+        latestVerificationsByUser.set(attestation.pubkey, attestation);
+      }
+    }
+  }
+
+  const cards = [...latestVerificationsByUser.values()].map(attestation => {
+    const isMine = attestation.pubkey === window.userPubkey;
+    const isDraft = attestation.kind === verificationDraftKind;
+    return renderVerificationCard({
+      attestation,
+      sha256HashKey,
+      identifier,
+      platform,
+      isMyDraft: isDraft && isMine,
+    });
+  }).join('');
+
+  return `
+    <div class="verification-cell">
+      <div class="verification-cell__list">${cards}</div>
+      ${hideButtons ? '' : renderVerificationActionLink({ identifier, version, platform, label: 'Create another verification' })}
+    </div>`;
+}
+
 export function paintMainAssetsTable({
   assetInfo,
   htmlElementId,
@@ -90,6 +266,7 @@ export function paintMainAssetsTable({
   showProfilePictures,
   showAttachmentsTable = false,
   pubkey,
+  showSeen = false,
 }) {
   setAssetTableResponse(assetInfo);
 
@@ -205,6 +382,7 @@ export function paintMainAssetsTable({
 
   const table = document.createElement('table');
   table.id = 'assetsTable';
+  table.className = 'assets-table';
   table.innerHTML = `
     <thead>
       <tr>
@@ -214,9 +392,12 @@ export function paintMainAssetsTable({
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
         <th class="hide-on-mobile">Binary</th>
         <th>Verifications</th>
-        <th>Seen</th>
+        ${showSeen ? '<th>Seen</th>' : ''}
       </tr>
-    </thead>`;
+    </thead>
+    <tbody></tbody>`;
+
+  const tableBody = table.querySelector('tbody');
 
   let visibleRowIndex = 0;
 
@@ -263,51 +444,23 @@ export function paintMainAssetsTable({
       let verificationsList;
       if (hasVerifications) {
         hasVerificationsLocal = true;
-
-        const latestVerificationsByUser = new Map();
-        for (const attestation of attestations) {
-          if (attestation.kind === verificationDraftKind) {
-            latestVerificationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
-          } else {
-            const existingAttestation = latestVerificationsByUser.get(attestation.pubkey);
-            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
-              attestation.created_at > existingAttestation.created_at)) {
-              latestVerificationsByUser.set(attestation.pubkey, attestation);
-            }
-          }
-        }
-
-        let listItems = '';
-        for (const attestation of latestVerificationsByUser.values()) {
-          const attestationDate = formatDate(attestation.created_at);
-          const status = getFirstTagValue(attestation, 'status');
-          const isMine = attestation.pubkey === window.userPubkey;
-          const isDraft = attestation.kind === verificationDraftKind;
-          const isMyDraft = isDraft && isMine;
-          const draftBadge = isMyDraft ? `<span class="badge badge-warning">Draft</span>` : '';
-          const statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
-
-          listItems += `<span
-                            onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
-                            onmouseenter="prefetchMarked()"
-                            class="attestation-link ${isMyDraft ? 'draft-attestation' : ''}"
-                            data-pubkey_verifiers="${attestation.pubkey}"
-                            style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
-            <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
-              ${draftBadge}
-              <span class="profile-${attestation.pubkey}"></span>
-              ${statusText}
-              <small style="display: block;">(${attestationDate})</small>
-            </div>
-          </span>`;
-        }
-        verificationsList = `${listItems}
-        ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create another verification</a></div>`}`;
+        verificationsList = renderVerificationsCell({
+          attestations,
+          sha256HashKey,
+          identifier,
+          platform,
+          version,
+          hideButtons: hideConfig?.buttons,
+        });
       } else {
-        verificationsList = `No verifications yet.
-        ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create verification</a></div>`}`;
+        verificationsList = renderVerificationsCell({
+          attestations: [],
+          sha256HashKey,
+          identifier,
+          platform,
+          version,
+          hideButtons: hideConfig?.buttons,
+        });
       }
 
       const wallet = walletByAppId.get(identifier);
@@ -370,35 +523,55 @@ export function paintMainAssetsTable({
           </td>` : ''}
         <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">${desktopHashes}</td>`}
-        <td class="hide-on-mobile">
+        <td class="hide-on-mobile binary-cell">
           ${downloadHash ? `
-            <span id="blossom-${downloadHash}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}"${bundleFilesAttr} class="blossom-download" style="display: none; cursor: pointer;" title="${downloadTitle}">💾</span>
+            <div class="binary-cell__content">
+              ${renderBlossomDownloadButton({
+                downloadHash,
+                identifier,
+                platform,
+                version,
+                sanitizedFileName,
+                bundleFilesAttr,
+                downloadTitle,
+                bundleFileCount: bundleFilesForDownload.length,
+              })}
+            </div>
           ` : '-'}
         </td>
         <td>${verificationsList}</td>
-        <td>${date}</td>`;
-      table.appendChild(row);
+        ${showSeen ? `<td>${date}</td>` : ''}`;
+      tableBody.appendChild(row);
     });
 
     if (visibleRowIndex > showOnlyRows) {
       const showMoreRow = document.createElement('tr');
       showMoreRow.className = 'show-more-row';
       showMoreRow.id = 'show-more-row';
+      const columnCount = getAssetsTableColumnCount(hideConfig, showSeen);
       showMoreRow.innerHTML = `
-        <td colspan="8" style="text-align: center; padding: 15px;">
-          <button id="show-more-link" onclick="showMoreRows()" style="cursor: pointer; background: none; border: none; color: #0066cc; text-decoration: underline; font-size: inherit; padding: 5px 10px;">Show ${visibleRowIndex - showOnlyRows} more</button>
+        <td colspan="${columnCount}">
+          <button id="show-more-link" type="button" onclick="showMoreRows()">Show ${visibleRowIndex - showOnlyRows} more</button>
         </td>`;
-      table.appendChild(showMoreRow);
+      tableBody.appendChild(showMoreRow);
     }
   } else {
     const row = document.createElement('tr');
+    const columnCount = getAssetsTableColumnCount(hideConfig, showSeen);
     row.innerHTML = pubkey
-      ? '<td colspan="8">No verifications found for this user</td>'
-      : '<td colspan="8">No verifications found</td>';
-    table.appendChild(row);
+      ? `<td colspan="${columnCount}">No verifications found for this user</td>`
+      : `<td colspan="${columnCount}">No verifications found</td>`;
+    tableBody.appendChild(row);
   }
 
-  document.getElementById(htmlElementId).appendChild(table);
+  const host = document.getElementById(htmlElementId);
+  const tableFrame = document.createElement('div');
+  tableFrame.className = 'assets-table-frame';
+  const tableScroll = document.createElement('div');
+  tableScroll.className = 'assets-table-scroll';
+  tableScroll.appendChild(table);
+  tableFrame.appendChild(tableScroll);
+  host.appendChild(tableFrame);
 
   return {
     table,

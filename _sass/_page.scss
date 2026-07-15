@@ -92,7 +92,7 @@
     }
   }
 
-  a {
+  a:not(.verification-action-link) {
     text-decoration: underline;
 
     &:hover {
@@ -102,6 +102,11 @@
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
+  }
+
+  a.verification-action-link,
+  a.verification-action-link:hover {
+    text-decoration: none;
   }
 
   dt {

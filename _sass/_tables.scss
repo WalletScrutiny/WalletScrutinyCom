@@ -36,3 +36,19 @@ td {
 tr, td, th {
   vertical-align: middle;
 }
+
+// Wallet verification table: global table rules above use fixed light-gray
+// borders that stay bright in dark mode; reset them here (main.css loads first).
+.assets-table-widget .assets-table {
+  border: none;
+
+  thead {
+    border-bottom: none;
+    background-color: transparent;
+  }
+
+  th,
+  td {
+    border: none;
+  }
+}
