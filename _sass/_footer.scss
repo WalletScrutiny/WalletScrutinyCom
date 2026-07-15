@@ -95,6 +95,13 @@
   }
 }
 
+.site-footer__nav--home .site-footer__social {
+  @media (min-width: $small) {
+    padding-left: 0;
+    border-left: none;
+  }
+}
+
 .site-footer__link {
   display: inline-flex;
   align-items: center;

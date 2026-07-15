@@ -4,7 +4,8 @@
     <span class="site-footer__name">Wallet Scrutiny</span>
   </a>
 
-  <nav class="site-footer__nav" aria-label="Footer">
+  <nav class="site-footer__nav{% if include.is_home %} site-footer__nav--home{% endif %}" aria-label="Footer">
+    {% unless include.is_home %}
     <div class="site-footer__actions">
       <a class="site-footer__link site-footer__link--action" href="{{ site.baseurl }}/howtoContributeToWS/">
         <i class="fas fa-hands-helping" aria-hidden="true"></i>
@@ -15,6 +16,7 @@
         Donate
       </a>
     </div>
+    {% endunless %}
 
     <div class="site-footer__social">
       <a class="site-footer__link site-footer__link--icon" href="https://gitlab.com/walletscrutiny/walletScrutinyCom" title="GitLab" aria-label="GitLab">
