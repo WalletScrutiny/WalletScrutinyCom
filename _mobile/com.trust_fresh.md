@@ -28,7 +28,7 @@ iphone:
   version: 1.0.4
   reviews: 0
   icon: com.trustfresh.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Metgen Solution LTD
 

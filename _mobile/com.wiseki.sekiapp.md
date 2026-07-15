@@ -34,7 +34,7 @@ iphone:
   released: 2022-06-22
   updated: 2026-07-05
   version: 2.3.12
-  reviews: 87
+  reviews: 88
   icon: com.wiseki.sekiapp.new.jpg
   meta: ok
   verdict: custodial

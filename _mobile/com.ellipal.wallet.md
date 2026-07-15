@@ -27,9 +27,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-07-02
-  updated: 2026-06-09
-  version: 4.13.2
-  reviews: 554
+  updated: 2026-07-13
+  version: 4.14.0
+  reviews: 555
   icon: com.ellipal.wallet.png
   meta: ok
   verdict: nosource
@@ -39,9 +39,9 @@ iphone:
   idd: '1426179665'
   appCountry: us
   released: 2018-08-25
-  updated: 2026-06-10
-  version: 4.13.2
-  reviews: 2954
+  updated: 2026-07-13
+  version: 4.14.0
+  reviews: 2955
   icon: com.Ellipal.Ellipal.jpg
   meta: ok
   verdict: nosource

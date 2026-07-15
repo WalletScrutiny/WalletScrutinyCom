@@ -22,7 +22,7 @@ android:
   version: 1.21.3
   reviews: 64
   icon: com.ourbit.client.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Ourbit
 iphone:
@@ -32,7 +32,7 @@ iphone:
   released: 2024-07-28
   updated: 2026-07-07
   version: 1.22.0
-  reviews: 173
+  reviews: 174
   icon: com.ourbit.www.jpg
   meta: ok
   verdict: custodial

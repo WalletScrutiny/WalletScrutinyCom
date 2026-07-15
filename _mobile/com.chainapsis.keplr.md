@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-10-01
-  updated: 2026-06-18
-  version: 2.1.205
+  updated: 2026-07-10
+  version: 2.1.207
   reviews: 205
   icon: com.chainapsis.keplr.png
   meta: ok
@@ -27,13 +27,13 @@ iphone:
   idd: '1567851089'
   appCountry: us
   released: 2021-10-14
-  updated: 2026-06-23
-  version: 2.1.205
-  reviews: 271
+  updated: 2026-07-13
+  version: 2.1.207
+  reviews: 272
   icon: com.chainapsis.keplrwallet.jpg
   meta: ok
   verdict: nosource
-  developerName: chainapsis
+  developerName: Space Explorers Inc.
   repository: https://github.com/chainapsis/keplr-wallet
 
 ---

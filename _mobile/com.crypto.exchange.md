@@ -20,8 +20,8 @@ android:
   users: 1000000
   appCountry: nz
   released: 2021-05-26
-  updated: 2026-06-25
-  version: 3.8.0
+  updated: 2026-07-08
+  version: 3.9.0
   reviews: 16
   icon: com.crypto.exchange.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: 1569309855
   appCountry: nz
   released: 2021-06-15
-  updated: 2026-06-29
-  version: 3.8.0
+  updated: 2026-07-09
+  version: 3.9.0
   reviews: 111
   icon: crypto.com.exchange.jpg
   meta: ok

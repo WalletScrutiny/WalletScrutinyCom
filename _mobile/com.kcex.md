@@ -30,7 +30,7 @@ iphone:
   released: 2024-05-29
   updated: 2026-07-07
   version: 2.2.5
-  reviews: 2769
+  reviews: 2782
   icon: com.kcexfintech.kcex.jpg
   meta: ok
   verdict: custodial

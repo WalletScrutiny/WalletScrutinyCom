@@ -17,7 +17,7 @@ android:
   appCountry: us
   released: 2022-04-05
   updated: 2026-07-01
-  version: 2.9.16
+  version: 2.9.17
   reviews: 6
   icon: io.biscoint.lite.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2022-02-09
   updated: 2026-07-02
   version: 2.9.17
-  reviews: 8862
+  reviews: 8871
   icon: io.biscoint.lite.jpg
   meta: ok
   verdict: nosendreceive

@@ -1,27 +1,28 @@
 ---
 wsId: radarChat
-title: "Radar: Chat & Bitcoin"
+title: 'Radar: Chat & Bitcoin'
 date: 2026-07-08
 authors:
-  - danny
+- danny
 website: https://radar.chat
 twitter: RadarChat
 features:
-  - ln
-  - foss
+- ln
+- foss
 iphone:
   appId: com.cakelabs.signal
-  idd: "6753939776"
+  idd: '6753939776'
   appCountry: us
-  released: "2026-06-30"
-  updated: 2026-07-07
-  version: 1.0.3
-  reviews: 0
+  released: 2026-06-30
+  updated: 2026-07-08
+  version: 1.0.4
+  reviews: 9
   icon: com.cakelabs.signal.jpg
   meta: ok
   verdict: custodial
   developerName: Radar Chat
   repository: https://github.com/radar-labs/Radar
+
 ---
 
 {% include featureEvidence.html feature="ln" source="[generate_breez_config.sh#L24](https://github.com/radar-labs/Radar/blob/d997428ba36916d5466dc3451f31de703d2034be/Scripts/generate_breez_config.sh#L24)" quote="preferSparkOverLightning: true" %}

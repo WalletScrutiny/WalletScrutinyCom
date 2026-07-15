@@ -6,13 +6,13 @@ redirect_from:
 - /android/com.coinceeper.adl/
 android:
   appId: com.coinceeper.adl
-  users: 500
+  users: 1000
   appCountry: us
   released: 2025-08-19
-  updated: 2026-07-04
-  version: 1.0.55
+  updated: 2026-07-12
+  version: 1.0.56
   icon: com.coinceeper.adl.png
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: Taparam
 

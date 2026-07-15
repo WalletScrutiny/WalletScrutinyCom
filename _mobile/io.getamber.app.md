@@ -34,7 +34,7 @@ iphone:
   released: 2021-06-21
   updated: 2026-07-02
   version: 8.0.5
-  reviews: 289
+  reviews: 290
   icon: io.getamber.app.jpg
   meta: ok
   verdict: custodial

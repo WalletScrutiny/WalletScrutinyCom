@@ -16,8 +16,8 @@ iphone:
   idd: 1546698261
   appCountry: us
   released: 2021-01-05
-  updated: 2026-05-14
-  version: 3.2.5
+  updated: 2026-07-10
+  version: 3.2.6
   reviews: 0
   icon: id.metablockchain.metawallet.jpg
   meta: ok

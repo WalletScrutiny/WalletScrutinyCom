@@ -23,7 +23,7 @@ android:
   updated: 2025-07-16
   version: 5.1.11
   icon: app.difx.exchange.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: DIFX
 iphone:

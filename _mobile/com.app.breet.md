@@ -21,7 +21,7 @@ android:
   released: 2022-02-21
   updated: 2026-06-13
   version: 7.3.2
-  reviews: 211
+  reviews: 212
   icon: com.app.breet.jpg
   meta: ok
   verdict: nosendreceive

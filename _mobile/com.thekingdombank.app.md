@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-12-17
-  updated: 2026-06-12
-  version: 10.9.0
+  updated: 2026-07-13
+  version: 11.0.0
   reviews: 8
   icon: com.thekingdombank.app.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1626275936'
   appCountry: bg
   released: 2022-06-15
-  updated: 2026-06-25
-  version: 11.0.1
+  updated: 2026-07-14
+  version: 11.0.2
   reviews: 1
   icon: com.kingdom.TheKingdomBank.jpg
   meta: ok

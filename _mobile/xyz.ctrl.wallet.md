@@ -32,7 +32,7 @@ iphone:
   version: 3.3.2
   reviews: 9
   icon: xyz.ctrl.wallet.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: EMURGO Co., Ltd
 

@@ -30,7 +30,7 @@ iphone:
   released: 2020-06-18
   updated: 2026-06-30
   version: 3.6.26
-  reviews: 500
+  reviews: 501
   icon: com.criptan.app.jpg
   meta: ok
   verdict: custodial

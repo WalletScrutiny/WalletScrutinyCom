@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-02-24
-  updated: 2026-04-10
-  version: 2.0.5
+  updated: 2026-07-14
+  version: 2.0.0
   icon: com.dyorex.dyorex_mobile_app.png
   meta: ok
   verdict: custodial

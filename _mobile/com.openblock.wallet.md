@@ -17,7 +17,7 @@ android:
   updated: 2026-03-10
   version: 2.2.6
   icon: com.openblock.wallet.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: JXJL Inc.
 iphone:

@@ -14,8 +14,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-01-06
-  updated: 2026-06-30
-  version: 3.0.8
+  updated: 2026-07-10
+  version: 3.0.9
   reviews: 4
   icon: io.gosats.png
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '1536263998'
   appCountry: in
   released: 2021-01-05
-  updated: 2026-07-01
-  version: 3.0.7
-  reviews: 910
+  updated: 2026-07-11
+  version: 3.0.8
+  reviews: 912
   icon: io.gosats.jpg
   meta: ok
   verdict: custodial

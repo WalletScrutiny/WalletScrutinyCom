@@ -10,13 +10,13 @@ redirect_from:
 - /iphone/com.cregis/
 android:
   appId: com.cregis
-  users: 500
+  users: 1000
   appCountry: us
   released: 2023-04-05
-  updated: 2026-06-10
-  version: 3.7.3
+  updated: 2026-07-10
+  version: 3.7.4
   icon: com.cregis.png
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: Cregis
 iphone:
@@ -24,8 +24,8 @@ iphone:
   idd: '6447176492'
   appCountry: us
   released: 2023-04-04
-  updated: 2026-06-14
-  version: 3.7.3
+  updated: 2026-07-15
+  version: 3.7.4
   reviews: 3
   icon: com.cregis.jpg
   meta: ok

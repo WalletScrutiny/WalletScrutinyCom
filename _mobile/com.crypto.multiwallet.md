@@ -24,7 +24,7 @@ android:
   released: 2018-11-01
   updated: 2026-07-06
   version: 3.1.17
-  reviews: 560
+  reviews: 561
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource
@@ -36,7 +36,7 @@ iphone:
   released: 2018-12-01
   updated: 2026-06-29
   version: 3.1.15
-  reviews: 946
+  reviews: 947
   icon: com.crypto.multiwallet.jpg
   meta: ok
   verdict: nosource

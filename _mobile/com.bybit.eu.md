@@ -27,9 +27,9 @@ iphone:
   idd: '6745866031'
   appCountry: gr
   released: 2025-07-14
-  updated: 2026-06-24
-  version: 5.19.1
-  reviews: 191
+  updated: 2026-07-15
+  version: 5.19.2
+  reviews: 192
   icon: com.bybit.eu.jpg
   meta: ok
   verdict: custodial

@@ -18,7 +18,7 @@ android:
   released: 2015-10-06
   updated: 2026-06-26
   version: 6.25.0
-  reviews: 266
+  reviews: 265
   icon: com.forex4you.android.png
   meta: ok
   verdict: nosendreceive
@@ -30,7 +30,7 @@ iphone:
   released: 2015-10-11
   updated: 2026-06-19
   version: 6.23.0
-  reviews: 993
+  reviews: 994
   icon: com.forex4you.ios.jpg
   meta: ok
   verdict: nosendreceive

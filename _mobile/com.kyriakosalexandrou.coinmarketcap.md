@@ -19,7 +19,7 @@ android:
   released: 2015-05-16
   updated: 2026-06-30
   version: 16.3.4
-  reviews: 1387
+  reviews: 1386
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2018-03-02
   updated: 2026-07-03
   version: 16.3.4
-  reviews: 618
+  reviews: 617
   icon: com.programonks.CoinMarketApp.jpg
   meta: ok
   verdict: nosource

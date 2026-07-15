@@ -13,8 +13,8 @@ android:
   appId: com.afridax.exchange
   users: 10000
   appCountry: us
-  updated: 2026-07-03
-  version: 1.3.0
+  updated: 2026-07-13
+  version: 1.3.2
   icon: com.afridax.exchange.png
   meta: ok
   verdict: custodial

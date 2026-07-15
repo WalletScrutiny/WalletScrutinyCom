@@ -28,8 +28,8 @@ iphone:
   idd: '1375900638'
   appCountry: us
   released: 2018-06-11
-  updated: 2026-05-11
-  version: 5.1.80
+  updated: 2026-07-08
+  version: 5.1.89
   reviews: 0
   icon: com.mobiletradingpartners.lmaxdigital.jpg
   meta: ok

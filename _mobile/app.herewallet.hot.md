@@ -19,7 +19,7 @@ redirect_from:
 - /iphone/app.here.dev.wallet/
 android:
   appId: app.herewallet.hot
-  users: 100000
+  users: 500000
   appCountry: us
   released: 2025-03-26
   updated: 2025-06-15

@@ -33,7 +33,7 @@ iphone:
   released: 2023-06-13
   updated: 2026-07-07
   version: 3.10.0
-  reviews: 3659
+  reviews: 3699
   icon: com.redotpay.jpg
   meta: ok
   verdict: custodial

@@ -19,7 +19,7 @@ android:
   released: 2010-05-17
   updated: 2026-06-25
   version: 26.12.0
-  reviews: 356695
+  reviews: 357239
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: '351727428'
   appCountry: us
   released: 2010-04-03
-  updated: 2026-06-26
-  version: 26.12.0
-  reviews: 15466874
+  updated: 2026-07-09
+  version: 26.13.0
+  reviews: 15466953
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
   verdict: nosendreceive

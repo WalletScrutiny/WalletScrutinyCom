@@ -16,7 +16,7 @@ android:
   version: 1.41.0
   reviews: 62
   icon: com.bitvalve.android.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitValve Developer
 

@@ -16,8 +16,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-03-23
-  updated: 2026-07-03
-  version: 2.9.64
+  updated: 2026-07-10
+  version: 2.9.65
   reviews: 252
   icon: com.superex.ex.png
   meta: ok

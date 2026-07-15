@@ -13,7 +13,7 @@ android:
   version: '1.0'
   reviews: 2
   icon: com.app.boastcoast12.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: BoastCoast.com
 

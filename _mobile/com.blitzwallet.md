@@ -1,33 +1,34 @@
 ---
-title: "Blitz: Bitcoin Payments Wallet"
+title: 'Blitz: Bitcoin Payments Wallet'
 date: 2025-11-03
 authors:
-  - danny
+- danny
 website: https://blitzwalletapp.com/
 twitter: blitzwalletapp
 social:
-  - https://www.youtube.com/@BlitzWalletApp
+- https://www.youtube.com/@BlitzWalletApp
 features:
-  - camera
-  - fingerprint
-  - foss
-  - liquid
-  - ln
-  - multiAccount
+- camera
+- fingerprint
+- foss
+- liquid
+- ln
+- multiAccount
 redirect_from:
-  - /android/com.blitzwallet/
+- /android/com.blitzwallet/
 android:
   appId: com.blitzwallet
   users: 1000
   appCountry: us
   released: 2025-09-29
-  updated: 2026-06-28
-  version: 0.7.12
+  updated: 2026-07-13
+  version: 0.7.13
   icon: com.blitzwallet.png
   meta: ok
   verdict: custodial
   developerName: Blitz Wallet
   repository: https://github.com/BlitzWallet/BlitzWallet
+
 ---
 
 ## App Description

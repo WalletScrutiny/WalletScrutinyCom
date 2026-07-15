@@ -31,8 +31,8 @@ iphone:
   idd: '1321798216'
   appCountry: us
   released: 2018-02-07
-  updated: 2026-06-18
-  version: 4.65.2
+  updated: 2026-07-07
+  version: 4.66.0
   reviews: 150
   icon: com.bitbill.wallet.jpg
   meta: ok

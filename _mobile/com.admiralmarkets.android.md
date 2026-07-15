@@ -14,11 +14,11 @@ redirect_from:
 - /iphone/com.admiralmarkets.tradersroom/
 android:
   appId: com.admiralmarkets.android
-  users: 500000
+  users: 1000000
   appCountry: us
   released: 2020-10-07
-  updated: 2026-06-17
-  version: 1.13.9
+  updated: 2026-07-09
+  version: 1.13.10
   reviews: 4
   icon: com.admiralmarkets.android.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1222861799'
   appCountry: in
   released: 2017-06-28
-  updated: 2026-06-20
-  version: 5.63.0
+  updated: 2026-07-13
+  version: 5.64.0
   reviews: 3
   icon: com.admiralmarkets.tradersroom.jpg
   meta: ok

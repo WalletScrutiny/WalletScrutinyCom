@@ -28,8 +28,8 @@ android:
   users: 100
   appCountry: us
   released: 2026-02-06
-  updated: 2026-05-30
-  version: 1.1.15
+  updated: 2026-07-08
+  version: 1.1.20
   icon: com.mycelium.wallet.kmp.png
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: fewusers

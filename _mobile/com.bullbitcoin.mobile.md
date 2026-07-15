@@ -27,7 +27,7 @@ android:
   users: 10000
   appCountry: us
   released: 2023-10-31
-  updated: 2026-07-06
+  updated: 2026-07-13
   version: 6.11.1
   reviews: 7
   icon: com.bullbitcoin.mobile.png

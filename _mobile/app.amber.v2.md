@@ -14,7 +14,7 @@ iphone:
   version: 2.12.0
   reviews: 1
   icon: app.amber.v2.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: Amber Labs
 

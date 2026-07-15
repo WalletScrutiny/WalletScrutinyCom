@@ -9,7 +9,7 @@ android:
   users: 500
   appCountry: us
   released: 2024-08-12
-  updated: 2026-04-24
+  updated: 2026-07-09
   version: 1.12.1
   reviews: 4
   icon: com.stackatm.app.png

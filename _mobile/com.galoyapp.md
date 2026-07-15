@@ -36,8 +36,8 @@ iphone:
   idd: '1531383905'
   appCountry: ng
   released: 2020-11-11
-  updated: 2026-07-01
-  version: 3.0.1
+  updated: 2026-07-07
+  version: 3.0.4
   reviews: 68
   icon: io.galoy.bitcoinbeach.jpg
   meta: ok

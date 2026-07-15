@@ -1,5 +1,5 @@
 ---
-title: 'Flipster: Crypto Futures Trade'
+title: 'Flipster: Trade BTC & TradFi'
 date: 2023-06-14
 authors:
 - danny
@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-11-18
-  updated: 2026-06-26
-  version: 3.26.103
+  updated: 2026-07-10
+  version: 3.28.101
   reviews: 75
   icon: com.prestolabs.android.prex.png
   meta: ok

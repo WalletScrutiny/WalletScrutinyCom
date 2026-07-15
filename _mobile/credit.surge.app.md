@@ -21,8 +21,8 @@ iphone:
   idd: '6756261968'
   appCountry: us
   released: 2026-03-17
-  updated: 2026-06-24
-  version: 1.0.9
+  updated: 2026-07-08
+  version: 1.0.10
   reviews: 5
   icon: credit.surge.app.jpg
   meta: ok

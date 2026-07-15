@@ -21,7 +21,7 @@ android:
   released: 2022-08-17
   updated: 2026-06-28
   version: 3.31.1
-  reviews: 9
+  reviews: 8
   icon: com.cointr.jpg
   meta: ok
   verdict: custodial

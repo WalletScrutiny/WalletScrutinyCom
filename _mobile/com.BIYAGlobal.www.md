@@ -17,7 +17,7 @@ android:
   released: 2021-04-13
   updated: 2026-06-25
   version: 3.0.050
-  reviews: 16
+  reviews: 17
   icon: com.BIYAGlobal.www.png
   meta: ok
   verdict: custodial

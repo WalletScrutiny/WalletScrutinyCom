@@ -14,7 +14,7 @@ android:
   users: 10000
   appCountry: us
   released: 2019-07-31
-  updated: 2026-07-02
+  updated: 2026-07-10
   version: VARY
   reviews: 34
   icon: com.ogpay.png
@@ -28,7 +28,7 @@ iphone:
   released: 2019-08-03
   updated: 2026-07-03
   version: '15.9'
-  reviews: 265
+  reviews: 266
   icon: com.unifiedsignal.ogpaywallet.jpg
   meta: ok
   verdict: custodial

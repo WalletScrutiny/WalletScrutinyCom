@@ -10,9 +10,9 @@ iphone:
   idd: 957130004
   appCountry: jp
   released: 2015-01-21
-  updated: 2026-07-01
-  version: 4.20.4
-  reviews: 109564
+  updated: 2026-07-08
+  version: 4.20.5
+  reviews: 109597
   icon: jp.coincheck.ios.jpg
   meta: ok
   verdict: wip

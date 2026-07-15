@@ -28,8 +28,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-03-01
-  updated: 2026-06-04
-  version: 4.48.2
+  updated: 2026-07-07
+  version: 4.49.0
   reviews: 752
   icon: co.edgesecure.app.png
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
@@ -42,9 +42,9 @@ iphone:
   idd: '1344400091'
   appCountry: us
   released: 2018-02-09
-  updated: 2026-06-04
-  version: 4.48.2
-  reviews: 2999
+  updated: 2026-07-08
+  version: 4.49.0
+  reviews: 3027
   icon: co.edgesecure.app.jpg
   meta: ok
   verdict: sourceavailable

@@ -7,12 +7,12 @@ redirect_from:
 - /android/me.skycryptowallet.skymobile/
 android:
   appId: me.skycryptowallet.skymobile
-  users: 500
+  users: 1000
   appCountry: us
   updated: 2026-01-27
   version: 1.54.0
   icon: me.skycryptowallet.skymobile.png
-  meta: fewusers
+  meta: ok
   verdict: custodial
   developerName: Revens
 

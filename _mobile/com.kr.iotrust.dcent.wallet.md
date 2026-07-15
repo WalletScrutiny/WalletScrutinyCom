@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2018-10-16
-  updated: 2026-05-13
-  version: 9.1.0
-  reviews: 1010
+  updated: 2026-07-01
+  version: 9.2.0
+  reviews: 1011
   icon: com.kr.iotrust.dcent.wallet.png
   meta: ok
   verdict: nosource
@@ -35,8 +35,8 @@ iphone:
   idd: 1447206611
   appCountry: kr
   released: 2019-01-26
-  updated: 2026-05-18
-  version: 9.1.0
+  updated: 2026-07-13
+  version: 9.2.0
   reviews: 85
   icon: kr.iotrust.dcent.jpg
   meta: ok

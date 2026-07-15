@@ -30,8 +30,8 @@ iphone:
   idd: 1417802076
   appCountry: in
   released: 2018-08-09
-  updated: 2026-04-20
-  version: 2.0.152
+  updated: 2026-07-11
+  version: 2.1.3
   reviews: 3
   icon: com.quppy.wallet.jpg
   meta: ok

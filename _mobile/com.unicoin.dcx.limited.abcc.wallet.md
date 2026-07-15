@@ -8,8 +8,8 @@ android:
   appId: com.unicoin.dcx.limited.abcc.wallet
   users: 50
   appCountry: us
-  updated: 2026-04-17
-  version: 1.10.22
+  updated: 2026-07-09
+  version: 1.10.23
   icon: com.unicoin.dcx.limited.abcc.wallet.png
   meta: fewusers
   verdict: wip

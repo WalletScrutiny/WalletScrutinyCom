@@ -20,8 +20,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-10-30
-  updated: 2026-05-07
-  version: 2.6.1
+  updated: 2026-07-10
+  version: 2.6.3
   reviews: 3
   icon: is.begin.app.png
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1642488837'
   appCountry: us
   released: 2022-11-03
-  updated: 2026-05-07
-  version: 2.6.1
+  updated: 2026-07-10
+  version: 2.6.3
   reviews: 12
   icon: is.begin.app.jpg
   meta: ok

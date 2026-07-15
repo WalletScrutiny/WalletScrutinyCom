@@ -27,7 +27,7 @@ android:
   released: 2019-05-19
   updated: 2026-06-02
   version: 3.3.6
-  reviews: 234
+  reviews: 236
   icon: com.livingroomofsatoshi.wallet.png
   meta: ok
   verdict: custodial
@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-06-02
   version: 3.3.6
-  reviews: 39
+  reviews: 40
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok
   verdict: custodial

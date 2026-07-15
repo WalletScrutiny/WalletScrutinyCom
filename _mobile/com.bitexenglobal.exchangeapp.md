@@ -28,8 +28,8 @@ iphone:
   idd: '1634643482'
   appCountry: az
   released: 2022-09-30
-  updated: 2026-06-18
-  version: '2.28'
+  updated: 2026-07-11
+  version: '2.30'
   reviews: 1
   icon: com.bitexenglobal.exchangeapp.jpg
   meta: ok

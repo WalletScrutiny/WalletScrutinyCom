@@ -14,7 +14,7 @@ android:
   released: 2024-12-19
   updated: 2026-06-26
   version: 2.9.4(219)
-  reviews: 71
+  reviews: 72
   icon: com.cryptomus.bundle.jpg
   meta: ok
   verdict: custodial

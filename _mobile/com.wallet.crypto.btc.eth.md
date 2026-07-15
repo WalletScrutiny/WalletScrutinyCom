@@ -21,7 +21,7 @@ android:
   released: 2023-09-06
   updated: 2026-07-03
   version: 1.11.1
-  reviews: 74
+  reviews: 77
   icon: com.wallet.crypto.btc.eth.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   released: 2023-10-02
   updated: 2026-07-07
   version: 1.11.1
-  reviews: 48
+  reviews: 49
   icon: com.wallet.crypto.btc.eth.jpg
   meta: ok
   verdict: nosource

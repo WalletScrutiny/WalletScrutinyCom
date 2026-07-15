@@ -35,8 +35,8 @@ iphone:
   idd: 1462031389
   appCountry: us
   released: 2019-05-21
-  updated: 2026-06-08
-  version: 4.23.2
+  updated: 2026-07-14
+  version: 4.23.3
   reviews: 54
   icon: com.viabtc.ViaWallet.jpg
   meta: ok

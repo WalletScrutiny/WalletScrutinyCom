@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-05-31
   updated: 2026-06-27
-  version: 2.20.0
+  version: 2.21.0
   reviews: 243
   icon: im.token.app.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2018-06-07
   updated: 2026-07-03
   version: 2.21.0
-  reviews: 1140
+  reviews: 1141
   icon: im.token.app.jpg
   meta: ok
   verdict: nosource

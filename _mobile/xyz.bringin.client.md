@@ -1,39 +1,40 @@
 ---
 wsId: bringinApp
-title: "Bringin: Buy & spend Bitcoin"
+title: 'Bringin: Buy & spend Bitcoin'
 date: 2026-07-07
 authors:
-  - danny
-website: https://bringin.app
+- danny
+website: https://bit.ly/3wT0eSM
 twitter: bringinxyz
 social:
-  - https://www.linkedin.com/company/bringinxyz
-  - https://www.youtube.com/@bringinxyz
+- https://www.linkedin.com/company/bringinxyz
+- https://www.youtube.com/@bringinxyz
+features:
+- ln
 android:
   appId: xyz.bringin.client
   users: 1000
   appCountry: us
   released: 2025-08-31
-  updated: 2026-07-03
-  version: 2.2.5
+  updated: 2026-07-14
+  version: 2.2.9
   icon: xyz.bringin.client.png
   meta: ok
   verdict: nosource
   developerName: Bringin
 iphone:
   appId: xyz.bringin.client
-  idd: "6503239911"
+  idd: '6503239911'
   appCountry: bg
-  released: "2025-10-02"
-  updated: 2026-07-04
-  version: 2.2.5
+  released: 2025-10-02
+  updated: 2026-07-14
+  version: 2.2.9
   reviews: 0
   icon: xyz.bringin.client.jpg
   meta: ok
   verdict: nosource
   developerName: UAB Bringin
-features:
-  - ln
+
 ---
 
 ## App Description

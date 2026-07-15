@@ -20,7 +20,7 @@ android:
   users: 10000
   appCountry: us
   released: 2022-05-07
-  updated: 2026-06-07
+  updated: 2026-07-13
   version: 1.32.34
   reviews: 1
   icon: cz.anycoin.mobile.png
@@ -32,9 +32,9 @@ iphone:
   idd: '1616670336'
   appCountry: cz
   released: 2022-04-25
-  updated: 2026-06-06
-  version: 1.32.34
-  reviews: 92
+  updated: 2026-07-13
+  version: 1.32.40
+  reviews: 93
   icon: cz.anycoin.mobile.jpg
   meta: ok
   verdict: custodial

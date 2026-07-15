@@ -32,7 +32,7 @@ iphone:
   released: 2019-10-15
   updated: 2026-05-25
   version: 3.16.2
-  reviews: 9
+  reviews: 10
   icon: com.moneybrain.moneybrain.jpg
   meta: ok
   verdict: custodial

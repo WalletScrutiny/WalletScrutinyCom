@@ -31,7 +31,7 @@ iphone:
   released: 2021-01-27
   updated: 2026-07-07
   version: 3.0.48
-  reviews: 1116
+  reviews: 1117
   icon: com.giottus.app.jpg
   meta: ok
   verdict: nosource

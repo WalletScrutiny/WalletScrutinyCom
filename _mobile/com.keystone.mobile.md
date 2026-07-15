@@ -31,7 +31,7 @@ iphone:
   version: 1.4.0
   reviews: 36
   icon: keystone.mobile.jpg
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: YANSSIE HK LIMITED
 

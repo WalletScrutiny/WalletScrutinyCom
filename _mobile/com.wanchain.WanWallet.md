@@ -33,7 +33,7 @@ iphone:
   version: '6.0'
   reviews: 24
   icon: org.wanchain.WanWallet.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: Wanchain LTD
 

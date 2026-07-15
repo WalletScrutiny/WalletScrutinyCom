@@ -17,7 +17,7 @@ redirect_from:
 - /iphone/io.tether.wallet.official/
 android:
   appId: io.tether.wallet
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2026-03-19
   updated: 2026-06-30

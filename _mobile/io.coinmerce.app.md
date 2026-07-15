@@ -30,7 +30,7 @@ iphone:
   released: 2018-07-29
   updated: 2026-06-05
   version: 7.0.2
-  reviews: 514
+  reviews: 515
   icon: io.coinmerce.app.jpg
   meta: ok
   verdict: custodial

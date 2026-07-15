@@ -26,8 +26,8 @@ iphone:
   idd: '6502636684'
   appCountry: ee
   released: 2024-06-18
-  updated: 2026-06-14
-  version: '1.51'
+  updated: 2026-07-13
+  version: '1.53'
   reviews: 39
   icon: com.finverse-labs.openwallet-mainnet.jpg
   meta: ok

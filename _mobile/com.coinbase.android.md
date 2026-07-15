@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2013-03-01
   updated: 2026-06-25
-  version: 14.24.32
-  reviews: 117840
+  version: 14.25.17
+  reviews: 117915
   icon: com.coinbase.android.jpg
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: 886427730
   appCountry: us
   released: 2014-06-22
-  updated: 2026-07-06
-  version: 14.25.17
-  reviews: 1795125
+  updated: 2026-07-13
+  version: 14.26.20
+  reviews: 1795336
   icon: com.vilcsak.bitcoin2.jpg
   meta: ok
   verdict: custodial

@@ -17,8 +17,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-12-09
-  updated: 2026-06-25
-  version: 7.55.0002
+  updated: 2026-07-08
+  version: 7.56.0002
   reviews: 599
   icon: com.coindcx.btc.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1517787269
   appCountry: in
   released: 2020-12-09
-  updated: 2026-06-27
-  version: 7.56.0002
-  reviews: 43527
+  updated: 2026-07-15
+  version: 7.57.0003
+  reviews: 43732
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

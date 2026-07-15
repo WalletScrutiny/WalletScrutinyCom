@@ -20,7 +20,7 @@ android:
   released: 2025-09-01
   updated: 2026-04-10
   version: 1.2.2
-  reviews: 26
+  reviews: 27
   icon: app.easybitcoin.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2025-09-09
   updated: 2026-04-11
   version: 1.2.2
-  reviews: 11
+  reviews: 10
   icon: app.easybitcoin.jpg
   meta: ok
   verdict: custodial

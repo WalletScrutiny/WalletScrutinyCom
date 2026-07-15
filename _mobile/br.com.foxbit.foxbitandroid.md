@@ -20,7 +20,7 @@ android:
   released: 2019-01-28
   updated: 2026-06-10
   version: 3.44.1
-  reviews: 6399
+  reviews: 6401
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '1435319194'
   appCountry: br
   released: 2019-03-24
-  updated: 2026-06-11
-  version: 3.44.1
-  reviews: 5549
+  updated: 2026-07-10
+  version: 3.45.1
+  reviews: 5552
   icon: br.com.foxbit.jpg
   meta: ok
   verdict: custodial

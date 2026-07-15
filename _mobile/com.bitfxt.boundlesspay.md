@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-19
-  updated: 2026-07-03
-  version: 2.6.6
+  updated: 2026-07-07
+  version: 2.6.7
   reviews: 15
   icon: com.bitfxt.boundlesspay.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1598547096'
   appCountry: ng
   released: 2021-12-28
-  updated: 2026-07-04
-  version: 2.4.1
+  updated: 2026-07-07
+  version: 2.4.2
   reviews: 73
   icon: com.boundless.boundlesspay.jpg
   meta: ok

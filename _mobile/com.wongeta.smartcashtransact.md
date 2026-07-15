@@ -21,7 +21,7 @@ android:
   updated: 2025-07-12
   version: '200'
   icon: com.wongeta.smartcashtransact.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Wongeta
 

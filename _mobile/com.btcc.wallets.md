@@ -14,7 +14,7 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-16
-  updated: 2026-03-24
+  updated: 2026-06-04
   version: 3.5.42
   reviews: 16
   icon: com.btcc.wallets.png

@@ -14,12 +14,12 @@ redirect_from:
 - /iphone/com.pay99/
 android:
   appId: com.pay99.wallet
-  users: 1000000
+  users: 5000000
   appCountry: br
   released: 2021-09-23
   updated: 2026-07-02
-  version: 8.4.68
-  reviews: 9919
+  version: 8.4.72
+  reviews: 9944
   icon: com.pay99.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-02
   updated: 2026-07-03
   version: 8.4.72
-  reviews: 1987
+  reviews: 1993
   icon: com.pay99.jpg
   meta: ok
   verdict: nosendreceive

@@ -10,9 +10,9 @@ iphone:
   idd: '6743380972'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-06-15
-  version: 6.11.1
-  reviews: 15
+  updated: 2026-07-15
+  version: 6.12.2
+  reviews: 19
   icon: com.bullbitcoin.app.jpg
   meta: ok
   verdict: wip

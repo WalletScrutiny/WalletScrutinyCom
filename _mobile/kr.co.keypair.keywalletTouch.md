@@ -23,7 +23,7 @@ android:
   users: 10000
   appCountry: us
   released: 2018-05-13
-  updated: 2026-01-14
+  updated: 2026-07-13
   version: 3.0.60
   reviews: 16
   icon: kr.co.keypair.keywalletTouch.png
@@ -35,8 +35,8 @@ iphone:
   idd: 1473941321
   appCountry: us
   released: 2019-07-28
-  updated: 2025-12-14
-  version: 3.0.59
+  updated: 2026-07-13
+  version: 3.0.60
   reviews: 0
   icon: kr.co.keypair.keywalletTouchiOS.jpg
   meta: ok

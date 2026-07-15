@@ -29,8 +29,8 @@ iphone:
   idd: '6745806643'
   appCountry: us
   released: 2025-05-16
-  updated: 2026-01-14
-  version: 1.0.6
+  updated: 2026-07-07
+  version: 1.0.7
   reviews: 6
   icon: com.upay2.wallet.jpg
   meta: ok

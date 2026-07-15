@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2022-11-14
-  updated: 2026-04-28
-  version: 1.18.0
+  updated: 2026-07-08
+  version: 1.19.0
   icon: mobile.lmex.io.png
   meta: fewusers
   verdict: wip

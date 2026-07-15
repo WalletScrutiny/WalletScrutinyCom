@@ -12,7 +12,7 @@ android:
   updated: 2024-11-05
   version: 2.3.0
   icon: com.guardianlabs.keyper.png
-  meta: stale
+  meta: removed
   verdict: wip
   developerName: Guardian Labs
 

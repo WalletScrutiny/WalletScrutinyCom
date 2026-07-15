@@ -35,7 +35,7 @@ iphone:
   released: 2022-03-04
   updated: 2026-07-06
   version: 4.5.30
-  reviews: 1959
+  reviews: 1976
   icon: com.wake.weexprd.jpg
   meta: ok
   verdict: custodial

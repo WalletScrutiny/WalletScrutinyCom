@@ -14,7 +14,7 @@ iphone:
   version: 4.15.0
   reviews: 5743
   icon: com.coinex.trade.jpg
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: Coinex Global Limited
 

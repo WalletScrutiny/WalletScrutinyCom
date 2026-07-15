@@ -32,7 +32,7 @@ iphone:
   released: 2025-04-03
   updated: 2026-06-15
   version: 1.11.39
-  reviews: 130
+  reviews: 138
   icon: money.boku.ios.jpg
   meta: ok
   verdict: nosendreceive

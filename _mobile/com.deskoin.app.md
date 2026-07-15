@@ -28,7 +28,7 @@ iphone:
   released: 2023-12-02
   updated: 2026-06-12
   version: 7.7.5
-  reviews: 397
+  reviews: 398
   icon: com.deskoin.app.jpg
   meta: ok
   verdict: custodial

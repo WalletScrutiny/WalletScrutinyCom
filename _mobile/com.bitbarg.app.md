@@ -13,7 +13,7 @@ redirect_from:
 - /android/com.bitbarg.app/
 android:
   appId: com.bitbarg.app
-  users: 50000
+  users: 100000
   appCountry: us
   released: 2022-03-12
   updated: 2026-04-26

@@ -31,7 +31,7 @@ iphone:
   released: 2021-08-20
   updated: 2026-07-02
   version: 7.2.493
-  reviews: 7265
+  reviews: 7299
   icon: com.prestmit.app.jpg
   meta: ok
   verdict: nosendreceive

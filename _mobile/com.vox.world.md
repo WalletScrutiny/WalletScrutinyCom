@@ -24,8 +24,8 @@ iphone:
   idd: '6670600403'
   appCountry: us
   released: 2024-10-10
-  updated: 2026-07-02
-  version: 2.0.1
+  updated: 2026-07-10
+  version: 2.0.2
   reviews: 6
   icon: com.voox.www.jpg
   meta: ok

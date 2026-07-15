@@ -14,20 +14,20 @@ android:
   users: 50000
   appCountry: us
   released: 2023-05-19
-  updated: 2025-04-11
+  updated: 2026-07-10
   version: 0.2.44
   reviews: 37
   icon: com.jiggle.wallet.jpg
-  meta: stale
+  meta: ok
   verdict: wip
-  developerName: Appia Solutions DMCC
+  developerName: Appia Solutions FZCO
 iphone:
   appId: com.jiggle.cryptowallet
   idd: '6446089702'
   appCountry: us
   released: 2023-06-28
-  updated: 2026-06-24
-  version: 3.1.0
+  updated: 2026-07-08
+  version: 3.1.1
   reviews: 289
   icon: com.jiggle.cryptowallet.jpg
   meta: ok

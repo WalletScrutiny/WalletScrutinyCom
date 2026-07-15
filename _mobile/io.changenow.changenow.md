@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-09-07
-  updated: 2026-06-24
+  updated: 2026-07-13
   version: 2.0.5
-  reviews: 807
+  reviews: 808
   icon: io.changenow.changenow.png
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2020-06-29
   updated: 2026-02-03
   version: 2.10.0
-  reviews: 2252
+  reviews: 2256
   icon: io.changenow.jpg
   meta: ok
   verdict: nosource

@@ -34,7 +34,7 @@ iphone:
   released: 2022-05-09
   updated: 2026-07-03
   version: 2.8.2
-  reviews: 37
+  reviews: 36
   icon: co.psychedelic.plug.jpg
   meta: ok
   verdict: custodial

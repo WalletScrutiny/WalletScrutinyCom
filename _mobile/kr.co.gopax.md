@@ -25,8 +25,8 @@ iphone:
   idd: 1369896843
   appCountry: kr
   released: 2018-06-21
-  updated: 2026-06-24
-  version: 3.2.3
+  updated: 2026-07-15
+  version: 3.2.4
   reviews: 530
   icon: kr.co.gopax.jpg
   meta: ok

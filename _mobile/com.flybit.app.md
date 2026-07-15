@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-02-04
-  updated: 2026-06-10
-  version: 1.34.05
+  updated: 2026-07-01
+  version: 1.35.02
   icon: com.flybit.app.png
   meta: ok
   verdict: custodial
@@ -26,8 +26,8 @@ iphone:
   idd: 1570368673
   appCountry: kr
   released: 2021-07-07
-  updated: 2026-03-04
-  version: 1.26.2
+  updated: 2026-07-09
+  version: 1.27.1
   reviews: 18
   icon: com.koreadigit.flybit.jpg
   meta: ok

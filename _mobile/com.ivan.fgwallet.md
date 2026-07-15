@@ -27,8 +27,8 @@ iphone:
   idd: '1338808692'
   appCountry: us
   released: 2018-02-27
-  updated: 2026-06-12
-  version: 4.2.0
+  updated: 2026-07-10
+  version: 4.2.1
   reviews: 2
   icon: com.sfc.fgwallet.jpg
   meta: ok

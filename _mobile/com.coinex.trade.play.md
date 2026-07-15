@@ -19,9 +19,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-12-27
-  updated: 2026-06-26
-  version: 4.16.1
-  reviews: 885
+  updated: 2026-07-11
+  version: 4.17.0
+  reviews: 877
   icon: com.coinex.trade.play.png
   meta: ok
   verdict: custodial

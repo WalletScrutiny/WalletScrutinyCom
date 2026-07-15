@@ -18,9 +18,9 @@ android:
   users: 5000000
   appCountry: id
   released: 2020-10-19
-  updated: 2026-06-26
+  updated: 2026-07-13
   version: 2.35.1
-  reviews: 56496
+  reviews: 56561
   icon: com.binance.cloud.tokocrypto.png
   meta: ok
   verdict: custodial

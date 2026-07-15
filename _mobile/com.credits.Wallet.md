@@ -32,8 +32,8 @@ iphone:
   idd: '1502902555'
   appCountry: ch
   released: 2020-07-21
-  updated: 2026-06-02
-  version: 3.4.4
+  updated: 2026-07-09
+  version: 3.4.5
   reviews: 0
   icon: com.credits.CryptoWallet.jpg
   meta: ok

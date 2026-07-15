@@ -18,7 +18,7 @@ android:
   released: 2020-12-18
   updated: 2026-06-11
   version: 2.1.56
-  reviews: 2575
+  reviews: 2577
   icon: com.bitlo.bitloandroid.png
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2020-12-28
   updated: 2026-06-16
   version: 2.1.56
-  reviews: 4111
+  reviews: 4114
   icon: com.bitlo.jpg
   meta: ok
   verdict: custodial

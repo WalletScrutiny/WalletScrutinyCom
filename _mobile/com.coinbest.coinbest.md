@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2021-05-17
-  updated: 2026-01-30
-  version: 4.2.2
+  updated: 2026-07-13
+  version: 4.2.3
   icon: com.coinbest.coinbest.png
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '1512389431'
   appCountry: jp
   released: 2021-03-23
-  updated: 2026-01-19
-  version: 4.1.7
+  updated: 2026-07-09
+  version: 4.1.8
   reviews: 12
   icon: com.coinbest.bitcoinbestkk.jpg
   meta: ok

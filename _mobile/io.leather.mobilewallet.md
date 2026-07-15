@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-03-25
-  updated: 2026-05-12
-  version: 2.107.0
+  updated: 2026-07-13
+  version: 2.111.0
   reviews: 2
   icon: io.leather.mobilewallet.png
   meta: ok

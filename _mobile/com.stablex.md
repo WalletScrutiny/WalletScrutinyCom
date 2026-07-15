@@ -28,8 +28,8 @@ iphone:
   idd: '1591457284'
   appCountry: tr
   released: 2021-10-26
-  updated: 2026-06-27
-  version: 4.0.18
+  updated: 2026-07-14
+  version: 4.0.19
   reviews: 210
   icon: net.stablex.app.jpg
   meta: ok

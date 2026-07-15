@@ -24,7 +24,7 @@ android:
   version: '1.35'
   reviews: 1
   icon: com.arcticmobile.app.png
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: ARCTIC SOFTWARE OÜ
 iphone:

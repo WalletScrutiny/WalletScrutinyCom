@@ -16,7 +16,7 @@ android:
   updated: 2025-07-16
   version: '1.21'
   icon: com.haqabi.mobilewallet.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Haqqex Ltd
 iphone:

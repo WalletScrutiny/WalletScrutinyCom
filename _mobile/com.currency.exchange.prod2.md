@@ -23,7 +23,7 @@ android:
   released: 2019-04-15
   updated: 2026-06-25
   version: 2.21.2
-  reviews: 1
+  reviews: 2
   icon: com.currency.exchange.prod2.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2019-04-23
   updated: 2026-06-26
   version: 2.21.2
-  reviews: 4507
+  reviews: 4510
   icon: com.currency.exchange.prod2.jpg
   meta: ok
   verdict: custodial

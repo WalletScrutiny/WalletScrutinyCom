@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-10-26
-  updated: 2026-06-30
-  version: 2.5.7
+  updated: 2026-07-09
+  version: 2.5.8
   reviews: 39
   icon: com.lcx.app.png
   meta: ok

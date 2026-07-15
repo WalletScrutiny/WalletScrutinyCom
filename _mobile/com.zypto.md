@@ -38,7 +38,7 @@ iphone:
   released: 2024-06-04
   updated: 2026-06-18
   version: 1.28.0
-  reviews: 54
+  reviews: 55
   icon: com.zypto.zypto.jpg
   meta: ok
   verdict: nosource

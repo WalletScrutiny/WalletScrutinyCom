@@ -29,7 +29,7 @@ iphone:
   released: 2023-12-01
   updated: 2026-06-30
   version: 3.5.52
-  reviews: 919
+  reviews: 920
   icon: net.primal.iosapp.Primal.jpg
   meta: ok
   verdict: custodial

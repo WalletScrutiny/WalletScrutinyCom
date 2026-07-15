@@ -23,9 +23,9 @@ android:
   users: 500000
   appCountry: us
   released: 2025-04-29
-  updated: 2026-07-03
-  version: 3.41.0
-  reviews: 109
+  updated: 2026-07-11
+  version: 3.42.0
+  reviews: 112
   icon: bu.app.android.png
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-07-06
   version: 3.41.0
-  reviews: 685
+  reviews: 696
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

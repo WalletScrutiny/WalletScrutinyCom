@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-05-26
-  updated: 2026-05-06
+  updated: 2026-07-02
   version: 2.2.2.15
-  reviews: 1168
+  reviews: 1169
   icon: com.webull.pay.us.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-06-22
   version: 2.2.4
-  reviews: 25990
+  reviews: 26007
   icon: com.webull.pay.us.jpg
   meta: ok
   verdict: custodial
