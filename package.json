@@ -22,7 +22,7 @@
     "@perttu/app-store-scraper": "github:ktecho/app-store-scraper#main",
     "@playwright/test": "^1.50.1",
     "async-mutex": "^0.5.0",
-    "autoprefixer": "^10.5.3",
+    "autoprefixer": "^10.5.4",
     "axios": "^1.18.1",
     "babel-loader": "^10.1.1",
     "cssnano": "^8.0.2",
