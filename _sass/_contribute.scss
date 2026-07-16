@@ -148,18 +148,62 @@
   }
 }
 
+.guide-page,
+.info-landing-page {
+  p > code,
+  li > code,
+  td > code,
+  .contribute-lead code {
+    padding: 0.15rem 0.35rem;
+    font-size: 0.9em;
+    background: var(--neutral-6);
+    color: var(--text);
+    border: 1px solid var(--neutral-5);
+    border-radius: 4px;
+    box-shadow: none;
+  }
+}
+
 .guide-steps {
   margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
   gap: 1rem;
+  counter-reset: guide-step;
 
   > li {
+    display: grid;
+    grid-template-columns: 2.25rem 1fr;
+    column-gap: 0.85rem;
+    row-gap: 0.5rem;
+    align-items: start;
     padding: 1.25rem 1.35rem;
     border-radius: 12px;
     box-shadow: 0 0 0 1px var(--shadow-3);
     background: var(--body);
+    counter-increment: guide-step;
+
+    &::before {
+      content: counter(guide-step);
+      grid-column: 1;
+      grid-row: 1;
+      display: grid;
+      place-items: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--permanent-white);
+      font-size: 0.95rem;
+      font-weight: $title-font-weight;
+      line-height: 1;
+    }
+
+    > * {
+      grid-column: 2;
+      min-width: 0;
+    }
   }
 
   h3 {
@@ -212,6 +256,9 @@
     padding: 0.15rem 0.35rem;
     border-radius: 4px;
     background: var(--neutral-6);
+    color: var(--text);
+    border: 1px solid var(--neutral-5);
+    box-shadow: none;
     font-size: 0.9em;
   }
 }
