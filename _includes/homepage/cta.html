@@ -1,19 +1,27 @@
-<div class="flex">
-  <div class="text">
-    <h2>Support scrutiny.</h2>
-    <p>WalletScrutiny is an independent, non-profit entity that depends on volunteers and donations. Have a thorough understanding of open-source bitcoin and feel like helping us review some wallets? Great. We’d love to hear from you. Don’t know the first thing about code but want to support the people that do? Consider donating today. 
-    </p>
+<section class="home-section home-section--support">
+  <div class="home-section__layout">
+    <div class="home-section__copy">
+      <p class="home-section__eyebrow">Get involved</p>
+      <h2>Support scrutiny.</h2>
+      <p>WalletScrutiny is an independent, non-profit entity that depends on volunteers and donations. Have a thorough understanding of open-source bitcoin and feel like helping us review some wallets? Great. We'd love to hear from you. Don't know the first thing about code but want to support the people that do? Consider donating today.</p>
+    </div>
+    <nav class="home-cta-cards" aria-label="Support WalletScrutiny">
+      <a class="home-cta-card" href="{{ site.baseurl }}/howtoContributeToWS/" title="Help review wallets">
+        <span class="home-cta-card__icon" aria-hidden="true"><i class="fas fa-hands-helping"></i></span>
+        <span class="home-cta-card__copy">
+          <span class="home-cta-card__label">Contribute</span>
+          <span class="home-cta-card__hint">Help us review wallets</span>
+        </span>
+        <span class="home-cta-card__arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+      </a>
+      <a class="home-cta-card" href="/donate" title="Donate to WalletScrutiny">
+        <span class="home-cta-card__icon" aria-hidden="true"><i class="fas fa-donate"></i></span>
+        <span class="home-cta-card__copy">
+          <span class="home-cta-card__label">Donate</span>
+          <span class="home-cta-card__hint">Donate sats to the cause</span>
+        </span>
+        <span class="home-cta-card__arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+      </a>
+    </nav>
   </div>
-  <div class="cta">
-    <a class="action-tile" href="{{ site.baseurl }}/howtoContributeToWS/" title="Help review wallets">
-      <i class="contribute icon"></i>
-      <h2>Contribute</h2>
-      <p>Help us review wallets.</p>
-    </a>
-    <a class="action-tile" href="/donate" title="Donate to WalletScrutiny">
-      <i class="donate icon"></i>
-      <h2>Donate</h2>
-      <p>Donate sats to the cause.</p>
-    </a>
-  </div>
-</div>
+</section>

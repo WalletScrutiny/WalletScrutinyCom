@@ -1,0 +1,25 @@
+{%- assign totalReviewed = site.data.precomputed.totalReviewedProducts -%}
+{%- assign allPassed = site.data.precomputed.verdictGroupCounts.allPassed -%}
+{%- assign codeIssues = site.data.precomputed.verdictGroupCounts.codeIssues -%}
+{%- assign noSource = site.data.precomputed.verdictGroupCounts.noSource -%}
+{%- assign sourceIssues = codeIssues | plus: noSource -%}
+
+<section class="home-section home-section--stats-strip" aria-label="Review statistics">
+  <div class="home-stats-strip">
+    <div class="home-stat">
+      <span class="home-stat__value">{{ totalReviewed | thousands_separated }}</span>
+      <span class="home-stat__label">Wallets reviewed</span>
+      <span class="home-stat__hint">Across mobile, hardware, desktop, and more</span>
+    </div>
+    <div class="home-stat">
+      <span class="home-stat__value">{{ allPassed | thousands_separated }}</span>
+      <span class="home-stat__label">All tests passed</span>
+      <span class="home-stat__hint">Reproducible or not requiring binaries</span>
+    </div>
+    <div class="home-stat">
+      <span class="home-stat__value">{{ sourceIssues | thousands_separated }}</span>
+      <span class="home-stat__label">Source or build issues</span>
+      <span class="home-stat__hint">Missing source code or unverifiable builds</span>
+    </div>
+  </div>
+</section>
