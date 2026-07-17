@@ -100,14 +100,14 @@ permalink: /verifications/
   <ul class="verifications-copy-list">
     <li class="verifications-copy-row">
       <span class="verifications-copy-row__label">Hex pubkey</span>
-      <code class="verifications-copy-row__value">168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335</code>
+      <code class="verifications-copy-row__value" title="168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335">168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335</code>
       <button type="button" class="verifications-copy-btn" aria-label="Copy hex pubkey" onclick="navigator.clipboard.writeText('168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335').then(() => { if (typeof showToast === 'function') showToast('Hex pubkey copied', 'success'); })">
         <i class="fas fa-copy" aria-hidden="true"></i>
       </button>
     </li>
     <li class="verifications-copy-row">
       <span class="verifications-copy-row__label">npub</span>
-      <code class="verifications-copy-row__value">npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf</code>
+      <code class="verifications-copy-row__value" title="npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf">npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf</code>
       <button type="button" class="verifications-copy-btn" aria-label="Copy npub" onclick="navigator.clipboard.writeText('npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf').then(() => { if (typeof showToast === 'function') showToast('npub copied', 'success'); })">
         <i class="fas fa-copy" aria-hidden="true"></i>
       </button>

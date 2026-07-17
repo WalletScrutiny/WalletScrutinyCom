@@ -1,6 +1,8 @@
 .info-landing-page {
   max-width: 960px;
+  width: 100%;
   margin: 0 auto;
+  min-width: 0;
 }
 
 .verifications-drop-panel {
@@ -112,6 +114,12 @@
   margin: 0 0 1rem;
   padding: 0;
   list-style: none;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.guide-section .verifications-copy-list {
+  padding-left: 0;
 }
 
 .landing-copy-row,
@@ -123,6 +131,9 @@
   border-radius: 10px;
   box-shadow: 0 0 0 1px var(--shadow-3);
   background: var(--body);
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 
   &__label {
     flex: 0 0 auto;
@@ -132,8 +143,9 @@
   }
 
   &__value {
-    flex: 1 1 auto;
+    flex: 1 1 0;
     min-width: 0;
+    display: block;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -142,6 +154,8 @@
     font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
     font-size: 0.82em;
     background: none;
+    border: none;
+    box-shadow: none;
     color: var(--text);
   }
 }
