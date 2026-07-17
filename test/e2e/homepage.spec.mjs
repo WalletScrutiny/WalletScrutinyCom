@@ -5,8 +5,10 @@ import {
   waitForNostrAssetInformation,
   waitForHomepageQueryApplied,
   measureHomepageSearchAfterDebounce,
+  measureHomepagePagination,
   NOSTR_DATA_TIMEOUT_MS,
   HOMEPAGE_COMMON_SEARCH_MAX_MS,
+  HOMEPAGE_PAGINATION_MAX_MS,
   assertNoLoadingSpinnerVisible,
 } from './helpers.mjs';
 
@@ -73,6 +75,32 @@ test.describe('Homepage', () => {
     ).toBeLessThan(HOMEPAGE_COMMON_SEARCH_MAX_MS);
 
     await waitForHomepageQueryApplied(page, 'bit');
+
+    const visibleCards = page.locator('.AppDisplayCard');
+    expect(await visibleCards.count()).toBeGreaterThan(0);
+    expect(await visibleCards.count()).toBeLessThanOrEqual(12);
+
+    assertNoConsoleErrors();
+  });
+
+  test('paginates within a performance budget', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/?platform=allPlatforms&page=1');
+    await expect(page.locator('.AppDisplayCard').first()).toBeVisible({ timeout: 30_000 });
+    await waitForNostrAssetInformation(page);
+    await page.waitForFunction(() => window.allWalletsLoaded === true, null, { timeout: 30_000 });
+
+    await expect(page.locator('.pagination .click-target[data-index="1"]')).toBeVisible();
+
+    const paginationMs = await measureHomepagePagination(page, 2);
+
+    expect(
+      paginationMs,
+      `homepage pagination to page 2 with warm cache took ${paginationMs}ms`,
+    ).toBeLessThan(HOMEPAGE_PAGINATION_MAX_MS);
+
+    await expect(page).toHaveURL(/[?&]page=2(?:&|$)/);
 
     const visibleCards = page.locator('.AppDisplayCard');
     expect(await visibleCards.count()).toBeGreaterThan(0);

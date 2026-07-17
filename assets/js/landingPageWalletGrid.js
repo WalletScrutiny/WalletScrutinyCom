@@ -12,7 +12,28 @@ let hasRedirected = false;
 window.blockScrollingFocus = false;
 window.verdictCount = {};
 let isInitializing = true;
+let cachedSearchKey = null;
+let cachedWorkingArray = null;
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } };
+
+function getSearchCacheKey(platform, query) {
+  return `${platform}\0${query || ''}`;
+}
+
+function invalidateWalletGridSearchCache() {
+  cachedSearchKey = null;
+  cachedWorkingArray = null;
+}
+
+function getFilteredWallets(platform, query) {
+  const searchKey = getSearchCacheKey(platform, query);
+  if (cachedSearchKey === searchKey && cachedWorkingArray) {
+    return cachedWorkingArray;
+  }
+  cachedWorkingArray = performSearch(window.wallets, query, platform);
+  cachedSearchKey = searchKey;
+  return cachedWorkingArray;
+}
 
 for (const [key, value] of Object.entries(wfInputTargets)) {
   if (value.type === 'dropdown') {
@@ -52,9 +73,7 @@ function updateWalletGridInputOriginatingFromURL() {
 
 function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   query = decodeURI(query);
-  let workingArray = false;
-
-  workingArray = performSearch(window.wallets, query, platform);
+  const workingArray = getFilteredWallets(platform, query);
 
   generateAndAppendWalletTiles(workingArray, page, platform);
   generateAndAppendPagination(workingArray, page);
@@ -346,6 +365,7 @@ window.addEventListener("popstate", () => {
 });
 
 function onAllWalletsLoaded() {
+  invalidateWalletGridSearchCache();
   isInitializing = false;
   window.blockScrollingFocus = true;
   updateWalletGridInputOriginatingFromURL();
@@ -378,6 +398,7 @@ document.querySelector(".query-string").addEventListener("input", () => {
 });
 
 window.addEventListener('allAssetInformationLoaded', () => {
+  invalidateWalletGridSearchCache();
   isInitializing = false;
   updateWalletGridInputOriginatingFromURL();
 });
