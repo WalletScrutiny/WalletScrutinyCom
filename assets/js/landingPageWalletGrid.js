@@ -1,5 +1,13 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-const paginationLimit = 12;
+const PAGINATION_LIMIT_DESKTOP = 12;
+const PAGINATION_LIMIT_MOBILE = 6;
+const PAGINATION_MOBILE_MQ = window.matchMedia('(max-width: 756px)');
+
+function getPaginationLimit() {
+  return PAGINATION_MOBILE_MQ.matches ? PAGINATION_LIMIT_MOBILE : PAGINATION_LIMIT_DESKTOP;
+}
+
+let lastPaginationLimit = getPaginationLimit();
 let hasRedirected = false;
 window.blockScrollingFocus = false;
 window.verdictCount = {};
@@ -59,6 +67,7 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
 }
 
 function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
+  const paginationLimit = getPaginationLimit();
   const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
   var container = document.createElement("div");
@@ -103,6 +112,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
 }
 
 function generateAndAppendPagination(workingArray, pageNo) {
+  const paginationLimit = getPaginationLimit();
   if (isInitializing) return;
   if (workingArray.length >= paginationLimit && (Math.ceil(workingArray.length / paginationLimit) < pageNo)) {
     updateWalletGridInputOriginatingFromUI();
@@ -305,7 +315,32 @@ function setDropdown(parent, child) {
   }
 }
 
+function remapPageForPaginationLimitChange() {
+  const oldLimit = lastPaginationLimit;
+  const newLimit = getPaginationLimit();
+  if (oldLimit === newLimit) { return; }
+  lastPaginationLimit = newLimit;
+
+  const selected = document.querySelector('.pagination .click-target.selected');
+  const currentPage = selected ? Number(selected.getAttribute('data-index')) + 1 : 1;
+  const firstItemIndex = (currentPage - 1) * oldLimit;
+  const newPage = Math.floor(firstItemIndex / newLimit) + 1;
+
+  const platformElement = document.querySelector(".dropdown-platform .selected");
+  const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms";
+  const queryStringElement = document.querySelector(".query-string");
+  const queryRaw = queryStringElement.value.length > 0 ? encodeURI(queryStringElement.value) : "";
+  const newUrl = `/?platform=${platform}&page=${newPage}${queryRaw.length > 0 ? '&query-string=' + queryRaw : ''}`;
+  window.history.pushState('data', null, newUrl);
+  updateWalletGridInputOriginatingFromURL();
+}
+
 // ADD EVENTLISTENERS
+PAGINATION_MOBILE_MQ.addEventListener('change', () => {
+  if (isInitializing) { return; }
+  remapPageForPaginationLimitChange();
+});
+
 window.addEventListener("popstate", () => {
   updateWalletGridInputOriginatingFromURL();
 });

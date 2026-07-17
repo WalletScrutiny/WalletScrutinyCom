@@ -80,4 +80,21 @@ test.describe('Homepage', () => {
 
     assertNoConsoleErrors();
   });
+
+  test('shows at most 6 wallet cards on mobile viewport', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.setViewportSize({ width: 375, height: 812 });
+    await page.goto('/');
+    await expect(page.locator('.AppDisplayCard').first()).toBeVisible({ timeout: 30_000 });
+    await waitForNostrAssetInformation(page);
+    await page.waitForFunction(() => window.allWalletsLoaded === true, null, { timeout: 30_000 });
+
+    const visibleCards = page.locator('.AppDisplayCard');
+    const count = await visibleCards.count();
+    expect(count).toBeGreaterThan(0);
+    expect(count).toBeLessThanOrEqual(6);
+
+    assertNoConsoleErrors();
+  });
 });
