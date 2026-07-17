@@ -32,7 +32,7 @@
   ol {
     font-weight: $paragraph-font-weight;
   }
-  a:not(.verification-action-link) {
+  a:not(.verification-action-link):not(.AppDisplayCard) {
     text-decoration: underline;
 
     &:hover {

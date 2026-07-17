@@ -92,7 +92,7 @@
     }
   }
 
-  a:not(.verification-action-link):not(.home-cta-card) {
+  a:not(.verification-action-link):not(.home-cta-card):not(.AppDisplayCard) {
     text-decoration: underline;
 
     &:hover {
