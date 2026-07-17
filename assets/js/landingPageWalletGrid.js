@@ -215,7 +215,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts() {
-  document.querySelector(".query-string").setAttribute("placeholder", `Search ${window.full_wallet_count} security reviews — enter your wallet's name, or filter by platform and features`);
+  document.querySelector(".query-string").setAttribute("placeholder", `Enter your wallet's name, or filter by platform and features`);
 }
 
 function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {
