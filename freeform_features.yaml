@@ -1,6 +1,6 @@
 android/com.btc.trustless:
 - Coin Control
-- Non-Custodial
+- Non-Custodial (on-chain only; Lightning/Spark balance requires operator cooperation to exit)
 - Open Source
 - Network switching
 - Address tracking
@@ -74,7 +74,7 @@ hardware/twentytwo.portal:
 - supports BIP39
 iphone/com.btc.trustless:
 - Coin Control
-- Non-Custodial
+- Non-Custodial (on-chain only; Lightning/Spark balance requires operator cooperation to exit)
 - Open Source
 - Network switching
 - Address tracking
