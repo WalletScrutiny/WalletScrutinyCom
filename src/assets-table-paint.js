@@ -389,7 +389,7 @@ export function paintMainAssetsTable({
         ${hideConfig?.wallet ? '' : '<th style="max-width: 200px;">Wallet</th>'}
         ${hideConfig?.wallet ? '<th style="max-width: 200px;">Version</th>' : ''}
         <th class="hide-on-mobile" style="max-width: 300px;">Description</th>
-        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
+        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile hash-cell">Hashes</th>'}
         <th class="hide-on-mobile">Binary</th>
         <th>Verifications</th>
         ${showSeen ? '<th>Seen</th>' : ''}
@@ -522,7 +522,7 @@ export function paintMainAssetsTable({
           ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${mobileHashes}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
-        ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">${desktopHashes}</td>`}
+        ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile hash-cell">${desktopHashes}</td>`}
         <td class="hide-on-mobile binary-cell">
           ${downloadHash ? `
             <div class="binary-cell__content">

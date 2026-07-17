@@ -37,14 +37,6 @@
   color: var(--text);
 }
 
-.home-section__lead {
-  margin: 0;
-  max-width: 42rem;
-  font-size: clamp(1rem, 2vw, 1.125rem);
-  line-height: 1.55;
-  color: var(--neutral-2);
-}
-
 .home-section__layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
@@ -77,6 +69,7 @@
 }
 
 .home-section--band {
+  padding-top: clamp(2rem, 4vw, 3rem);
   background: var(--accent-50);
   border-radius: 20px;
   max-width: calc(1140px - 2.5rem);
@@ -142,6 +135,12 @@
 
 // Wallet directory
 .home-section--wallets {
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+
+  .home-section__header {
+    margin-bottom: clamp(0.75rem, 1.5vw, 1rem);
+  }
+
   .title-wrapper {
     margin-top: 0;
     width: 100%;
@@ -149,6 +148,7 @@
   }
 
   .filter {
+    padding-top: 0;
     gap: 0.75rem;
     justify-content: stretch;
     align-items: stretch;

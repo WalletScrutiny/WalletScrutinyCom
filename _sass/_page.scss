@@ -12,7 +12,7 @@
   // padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  width: 95vw !important;
+  width: 100% !important;
   flex: 1 0 auto;
   max-width: 100%;
   @media (min-width: 768px) {
@@ -92,7 +92,7 @@
     }
   }
 
-  a:not(.verification-action-link) {
+  a:not(.verification-action-link):not(.home-cta-card) {
     text-decoration: underline;
 
     &:hover {

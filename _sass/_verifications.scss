@@ -333,6 +333,20 @@ body.dark .assets-table-widget {
   background: var(--body);
 }
 
+.hash-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hash-cell .hash-row {
+  justify-content: center;
+}
+
+.hash-cell .hash-copy-all-wrap {
+  display: flex;
+  justify-content: center;
+}
+
 .binary-cell {
   text-align: center;
   vertical-align: middle;
