@@ -19,9 +19,9 @@ meta: ok
 verdict: sourceavailable
 date: 2025-09-01
 twitter: BitcoinSafeOrg
-social:
-- https://www.youtube.com/@BitcoinSafeOrg
-- https://web.archive.org/web/20250515053639/https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
+social: https://www.youtube.com/@BitcoinSafeOrg
+community: https://substr.network/s/bitcoin-safe
+translations: https://hosted.weblate.org/engage/bitcoin-safe/
 builds:
 - arch: x86_64-linux
   types:
