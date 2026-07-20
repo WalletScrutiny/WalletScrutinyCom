@@ -30,15 +30,20 @@
   {%- endif -%}
 {%- endif -%}
 
-{%- if metas.size > 0 -%}
-  {%- if metas contains eff_meta -%}
-    {%- assign product_matches_verdict_group = true -%}
-  {%- endif -%}
+{%- assign meta_match = false -%}
+{%- assign verdict_match = false -%}
+{%- if metas.size > 0 and metas contains eff_meta -%}
+  {%- assign meta_match = true -%}
 {%- endif -%}
-{%- if verdicts and eff_verdict != '' -%}
-  {%- if verdicts contains eff_verdict -%}
+{%- if verdicts and eff_verdict != '' and verdicts contains eff_verdict -%}
+  {%- assign verdict_match = true -%}
+{%- endif -%}
+{%- if include.verdict_group.match == 'all' -%}
+  {%- if meta_match and verdict_match -%}
     {%- assign product_matches_verdict_group = true -%}
   {%- endif -%}
+{%- elsif meta_match or verdict_match -%}
+  {%- assign product_matches_verdict_group = true -%}
 {%- endif -%}
 {%- assign product_listing_meta = eff_meta -%}
 {%- assign product_listing_verdict = eff_verdict -%}

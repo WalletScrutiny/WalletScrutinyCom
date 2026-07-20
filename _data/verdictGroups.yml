@@ -74,6 +74,8 @@
   verdicts:
   - wip
   metas:
+  - ok
+  match: all
   title: Pending review.
   short: Pending review
   abstract: Pending review

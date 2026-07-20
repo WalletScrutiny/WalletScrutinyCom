@@ -292,12 +292,17 @@ function computeEffectiveMetaVerdict(product, isMobile) {
 }
 
 function productMatchesVerdictGroup(eff_meta, eff_verdict, verdictGroup) {
-  if (verdictGroup.metas?.length > 0 && verdictGroup.metas.includes(eff_meta)) {
-    return true;
+  const hasMetas = verdictGroup.metas?.length > 0;
+  const hasVerdicts = verdictGroup.verdicts?.length > 0;
+  const metaMatch = hasMetas && verdictGroup.metas.includes(eff_meta);
+  const verdictMatch = hasVerdicts && eff_verdict !== '' && verdictGroup.verdicts.includes(eff_verdict);
+
+  if (verdictGroup.match === 'all') {
+    return metaMatch && verdictMatch;
   }
-  if (verdictGroup.verdicts?.length > 0 && eff_verdict !== '' && verdictGroup.verdicts.includes(eff_verdict)) {
-    return true;
-  }
+
+  if (metaMatch) return true;
+  if (verdictMatch) return true;
   return false;
 }
 
