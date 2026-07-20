@@ -309,6 +309,7 @@ function productMatchesVerdictGroup(eff_meta, eff_verdict, verdictGroup) {
 function buildVerdictGroupCounts(allWallets) {
   const counts = Object.fromEntries(verdictGroups.map(g => [g.key, 0]));
   let totalReviewedProducts = 0;
+  const exclusiveGroups = verdictGroups.filter((g) => g.exclusive);
 
   for (const platform of platforms) {
     const wallets = allWallets[platform] || [];
@@ -316,7 +317,16 @@ function buildVerdictGroupCounts(allWallets) {
     for (const wallet of wallets) {
       totalReviewedProducts++;
       const { eff_meta, eff_verdict } = computeEffectiveMetaVerdict(wallet, isMobile);
+      const exclusiveMatch = exclusiveGroups.find((group) =>
+        productMatchesVerdictGroup(eff_meta, eff_verdict, group)
+      );
+      if (exclusiveMatch) {
+        counts[exclusiveMatch.key]++;
+        continue;
+      }
+
       for (const group of verdictGroups) {
+        if (group.exclusive) continue;
         if (productMatchesVerdictGroup(eff_meta, eff_verdict, group)) {
           counts[group.key]++;
         }

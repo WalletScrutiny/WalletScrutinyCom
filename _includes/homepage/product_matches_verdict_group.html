@@ -38,6 +38,32 @@
 {%- if verdicts and eff_verdict != '' and verdicts contains eff_verdict -%}
   {%- assign verdict_match = true -%}
 {%- endif -%}
+
+{%- assign blocked_by_exclusive = false -%}
+{%- for exclusive_group in site.data.verdictGroups -%}
+  {%- unless exclusive_group.exclusive -%}
+    {%- continue -%}
+  {%- endunless -%}
+  {%- assign ex_verdicts = exclusive_group.verdicts -%}
+  {%- assign ex_metas = exclusive_group.metas -%}
+  {%- assign ex_meta_match = false -%}
+  {%- assign ex_verdict_match = false -%}
+  {%- if ex_metas.size > 0 and ex_metas contains eff_meta -%}
+    {%- assign ex_meta_match = true -%}
+  {%- endif -%}
+  {%- if ex_verdicts and eff_verdict != '' and ex_verdicts contains eff_verdict -%}
+    {%- assign ex_verdict_match = true -%}
+  {%- endif -%}
+  {%- if exclusive_group.match == 'all' -%}
+    {%- if ex_meta_match and ex_verdict_match -%}
+      {%- assign blocked_by_exclusive = true -%}
+    {%- endif -%}
+  {%- elsif ex_meta_match or ex_verdict_match -%}
+    {%- assign blocked_by_exclusive = true -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- unless blocked_by_exclusive and include.verdict_group.exclusive != true -%}
 {%- if include.verdict_group.match == 'all' -%}
   {%- if meta_match and verdict_match -%}
     {%- assign product_matches_verdict_group = true -%}
@@ -45,5 +71,6 @@
 {%- elsif meta_match or verdict_match -%}
   {%- assign product_matches_verdict_group = true -%}
 {%- endif -%}
+{%- endunless -%}
 {%- assign product_listing_meta = eff_meta -%}
 {%- assign product_listing_verdict = eff_verdict -%}

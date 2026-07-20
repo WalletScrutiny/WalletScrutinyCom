@@ -50,7 +50,6 @@
   - unreleased
   - nobtc
   - nowallet
-  - diy
   metas:
   - stale
   - obsolete
@@ -58,6 +57,8 @@
   - discontinued
   - deprecated
   - removed
+  - fewusers
+  exclusive: true
   title: Not relevant.
   short: Not relevant
   abstract: Usage statistics & relevance
