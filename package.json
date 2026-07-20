@@ -34,7 +34,7 @@
     "js-yaml": "^4.3.0",
     "minimist": "^1.2.8",
     "p-limit": "^7.3.0",
-    "postcss": "^8.5.19",
+    "postcss": "^8.5.20",
     "postcss-cli": "^11.0.1",
     "terser-webpack-plugin": "^5.6.1",
     "webpack": "^5.108.4",
