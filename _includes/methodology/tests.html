@@ -1,8 +1,10 @@
 {%- assign fixedGrouping = "hardware,iphone,android,bearer,desktop,others" | split: "," -%}
 
-<div class="test-subcat">
-  <div title="Test Categories" class="component component-test-categories">
-    <div class="dropdown-options dropdown-test-categories linear-switch">
+<div class="methodology-platform-nav">
+  <span class="methodology-platform-nav__label">Platform</span>
+  <div class="test-subcat">
+    <div title="Test Categories" class="component component-test-categories">
+      <div class="dropdown-options dropdown-test-categories linear-switch">
       {% for key in fixedGrouping %}
         {% include folderToName.html folder=key %}
 
@@ -13,6 +15,7 @@
         {% endif %}
         <div class="option {{key}} {{selected}}" data="{{key}} wallets" data-id="{{key}}"><span>{{name}}</span></div>
       {% endfor %}
+      </div>
     </div>
   </div>
 </div>
