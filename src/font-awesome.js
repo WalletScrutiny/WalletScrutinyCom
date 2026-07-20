@@ -61,7 +61,9 @@ import {
   faFolderOpen,
   faCalendar,
   faPen,
-  faLayerGroup
+  faLayerGroup,
+  faHome,
+  faHandPaper
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -114,6 +116,8 @@ library.add(
   faCalendar,
   faPen,
   faLayerGroup,
+  faHome,
+  faHandPaper,
   // Brands
   faSquareXTwitter,
   faXTwitter,
