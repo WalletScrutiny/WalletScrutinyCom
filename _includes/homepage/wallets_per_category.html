@@ -21,9 +21,11 @@
       <li
         class="home-breakdown__legend-item"
         data-key="{{ verdict_group.key }}">
-        <span class="home-breakdown__swatch home-breakdown__swatch--{{ verdict_group.key }}" aria-hidden="true"></span>
-        <span class="home-breakdown__legend-title">{{ verdict_group.title }}</span>
-        <span class="home-breakdown__legend-count">{{ total | thousands_separated }}</span>
+        <div class="home-breakdown__legend-heading">
+          <span class="home-breakdown__swatch home-breakdown__swatch--{{ verdict_group.key }}" aria-hidden="true"></span>
+          <span class="home-breakdown__legend-title">{{ verdict_group.title | replace_regex: '\.$', '' }}</span>
+          <span class="home-breakdown__legend-count">{{ total | thousands_separated }}</span>
+        </div>
         <span class="home-breakdown__legend-detail">{{ verdict_group.comment | markdownify }}</span>
       </li>
     {%- endfor -%}

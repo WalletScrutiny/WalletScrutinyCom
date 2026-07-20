@@ -416,10 +416,9 @@
 }
 
 .home-breakdown__legend-item {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 0.5rem 0.65rem;
-  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
   padding: 0.5rem 0.65rem;
   border-radius: 10px;
   border: 1px solid transparent;
@@ -450,13 +449,10 @@
   }
 }
 
-.dark .home-breakdown__legend-item {
-  &.is-highlighted,
-  &:hover {
-    background: rgba(28, 170, 137, 0.22);
-    border-color: var(--accent-text);
-    box-shadow: 0 0 0 1px var(--accent-text);
-  }
+.home-breakdown__legend-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .home-breakdown__swatch {
@@ -464,9 +460,17 @@
   height: 0.65rem;
   border-radius: 2px;
   flex-shrink: 0;
-  align-self: center;
-  grid-row: 1 / 3;
+  margin-top: 0.2em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dark .home-breakdown__legend-item {
+  &.is-highlighted,
+  &:hover {
+    background: rgba(28, 170, 137, 0.22);
+    border-color: var(--accent-text);
+    box-shadow: 0 0 0 1px var(--accent-text);
+  }
 }
 
 .home-breakdown__swatch--allPassed { background: var(--good); }
@@ -480,6 +484,8 @@
 .home-breakdown__swatch--wips { background: var(--accent); }
 
 .home-breakdown__legend-title {
+  flex: 1;
+  min-width: 0;
   font-size: 0.88rem;
   font-weight: $title-font-weight;
   line-height: 1.3;
@@ -487,6 +493,7 @@
 }
 
 .home-breakdown__legend-count {
+  flex-shrink: 0;
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
   color: var(--neutral-2);
@@ -494,7 +501,7 @@
 }
 
 .home-breakdown__legend-detail {
-  grid-column: 2 / 4;
+  padding-left: calc(0.65rem + 0.5rem);
   font-size: 0.78rem;
   line-height: 1.4;
   color: var(--neutral-3);
