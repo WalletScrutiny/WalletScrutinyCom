@@ -92,7 +92,7 @@
     }
   }
 
-  a:not(.verification-action-link):not(.home-cta-card):not(.AppDisplayCard) {
+  a:not(.verification-action-link):not(.home-cta-card):not(.AppDisplayCard):not(.about-team-member):not(.about-sponsor-card):not(.contribute-card) {
     text-decoration: underline;
 
     &:hover {

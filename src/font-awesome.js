@@ -63,7 +63,9 @@ import {
   faPen,
   faLayerGroup,
   faHome,
-  faHandPaper
+   faHandPaper,
+  faHandshake,
+  faUserFriends
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -118,6 +120,8 @@ library.add(
   faLayerGroup,
   faHome,
   faHandPaper,
+  faHandshake,
+  faUserFriends,
   // Brands
   faSquareXTwitter,
   faXTwitter,

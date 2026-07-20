@@ -1,37 +1,192 @@
 ---
 layout: default
 ---
-<div id="main" class="author" role="main">
-  <h2>{{ page.name }}</h2>
-  
-  {% if page.avatar %}<div class="author__avatar">
+<div id="main" class="author-page" role="main">
+  <div class="author-page__inner">
+    <a class="author-page__back" href="/about/">
+      <i class="fas fa-chevron-left" aria-hidden="true"></i>
+      Meet the team
+    </a>
+
     {% if page.avatar contains '://' %}
-      {% assign prefix = '' %}
+      {% assign avatar_prefix = '' %}
     {% elsif page.avatar.size > 0 %}
-      {% assign prefix = "/images/" %}
+      {% assign avatar_prefix = '/images/' %}
     {% else %}
-      {% assign prefix = "/images/avatarPlaceholder.jpg" %}
+      {% assign avatar_prefix = '/images/avatarPlaceholder.jpg' %}
     {% endif %}
 
-    <img src="{{prefix}}{{page.avatar}}" class="author__avatar" alt="avatar of {{ page.name }}">
-  </div>{% endif %}
-  
-  <p>{{ page.name }} has been contributing to the project since {{ page.since }}.</p>
-  
-  {{ content }}
+    <header class="author-profile">
+      <div class="author-profile__avatar-wrap">
+        <img
+          class="author-profile__avatar"
+          src="{{ avatar_prefix }}{{ page.avatar }}"
+          alt="Portrait of {{ page.name }}"
+          width="420"
+          height="420"
+          loading="lazy">
+      </div>
+
+      <h1 class="author-profile__name">{{ page.name }}</h1>
+
+      <div class="author-profile__meta">
+        {% if page.role %}
+          <p class="author-profile__role">{{ page.role }}</p>
+        {% endif %}
+
+        {% if page.since %}
+          <p class="author-profile__since">
+            <i class="fas fa-calendar" aria-hidden="true"></i>
+            Contributing since {{ page.since | date: '%B %Y' }}
+          </p>
+        {% endif %}
+      </div>
+    </header>
+
+    {% if content != '' %}
+      <section class="author-profile__bio" aria-label="About {{ page.name }}">
+        {{ content }}
+      </section>
+    {% endif %}
+  </div>
 </div>
-<style>
-#main {
+
+<style type="text/css">
+#main.author-page {
+  max-width: 900px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.25rem 2.5rem;
   text-align: center;
-  max-width: 600px !important;
 }
-h2 {
-  font-size: 48px;
-  font-weight: 500;
+.author-page__inner {
+  width: 100%;
 }
-.author__avatar {
-  display: grid;
+.author-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--accent-text);
+  text-decoration: none;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+.author-page__back:hover,
+.author-page__back:focus-visible {
+  color: var(--accent);
+  text-decoration: none;
+  transform: translateX(-3px);
+}
+.author-page__back .fa-chevron-left {
+  font-size: 0.78rem;
+}
+.author-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.75rem;
+  padding: 2rem 1.5rem 1.75rem;
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  background: var(--body);
+  text-align: center;
+  animation: intro 0.45s both;
+}
+.author-profile__avatar-wrap {
+  display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.35rem;
+}
+.author-profile__avatar {
+  width: clamp(280px, 58vw, 420px);
+  height: clamp(280px, 58vw, 420px);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 5px var(--accent-50), 0 0 0 7px var(--accent);
+}
+.author-profile__name {
+  width: 100%;
+  margin: 0 0 1rem;
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  text-align: center;
+}
+.author-profile__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+.author-profile__role {
+  display: inline-block;
+  margin: 0;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: var(--accent-50);
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--accent-text);
+}
+.author-profile__since {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  width: 100%;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--neutral-3);
+  font-weight: 400;
+}
+.author-profile__since .fa-calendar {
+  color: var(--accent-text);
+  font-size: 0.85rem;
+}
+.author-profile__bio {
+  padding: 1.35rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  background: var(--body);
+  text-align: left;
+  animation: intro 0.45s both;
+  animation-delay: 0.08s;
+}
+.author-profile__bio > :first-child {
+  margin-top: 0;
+}
+.author-profile__bio > :last-child {
+  margin-bottom: 0;
+}
+.author-profile__bio p,
+.author-profile__bio li {
+  line-height: 1.65;
+  color: var(--neutral-2);
+  font-weight: 400;
+}
+.author-profile__bio a {
+  color: var(--accent-text);
+  text-decoration: underline;
+}
+.author-profile__bio a:hover,
+.author-profile__bio a:focus-visible {
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .author-profile,
+  .author-profile__bio,
+  .author-page__back {
+    animation: none;
+    transition: none;
+  }
 }
 </style>
