@@ -145,7 +145,6 @@
     this.verdictLabelEl = root.querySelector("#heroVisualVerdictLabel");
     this.verdictDetailEl = root.querySelector("#heroVisualVerdictDetail");
     this.statusEl = root.querySelector("#heroVisualStatus");
-    this.badgesEl = root.querySelector("#heroVisualBadges");
     this.screenEl = root.querySelector("#heroVisualScreen");
     this.paused = false;
     this.reducedMotion = prefersReducedMotion();
@@ -249,18 +248,6 @@
     this.verdictEl.classList.add("is-visible");
     this.screenEl.classList.add("is-verdict-visible");
     this.root.classList.add("hero-visual--flash-pass");
-
-    if (!this.badgesEl || this.reducedMotion) {
-      return;
-    }
-
-    const badges = this.badgesEl.querySelectorAll(".hero-visual__badge--pass");
-    badges.forEach((badge, index) => {
-      badge.classList.remove("is-pulsing");
-      void badge.offsetWidth;
-      badge.style.setProperty("--pulse-delay", `${index * 120}ms`);
-      badge.classList.add("is-pulsing");
-    });
   };
 
   HeroVisualPlayer.prototype.run = async function () {

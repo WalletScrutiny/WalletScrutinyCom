@@ -37,20 +37,6 @@
   }
 }
 
-@keyframes hero-badge-pop {
-  0% {
-    opacity: 0;
-    transform: scale(0.4);
-  }
-  70% {
-    transform: scale(1.15);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 @keyframes hero-scanline {
   from {
     transform: translateY(-100%);
@@ -566,68 +552,6 @@
     max-width: 260px;
     line-height: 1.45;
   }
-
-  &__badges {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  &__badge {
-    position: absolute;
-    display: grid;
-    place-items: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    font-size: 0.85rem;
-    opacity: 0.25;
-    transition: opacity 0.2s ease;
-
-    &--pass {
-      color: var(--good);
-      background: rgba(0, 185, 0, 0.12);
-      box-shadow: 0 0 0 1px rgba(0, 185, 0, 0.35);
-
-      &:nth-child(1) {
-        top: 8%;
-        right: -4%;
-      }
-
-      &:nth-child(3) {
-        bottom: 14%;
-        left: -6%;
-      }
-
-      &:nth-child(5) {
-        top: 42%;
-        right: -10%;
-      }
-    }
-
-    &--fail {
-      color: var(--bad);
-      background: rgba(185, 0, 0, 0.12);
-      box-shadow: 0 0 0 1px rgba(185, 0, 0, 0.35);
-
-      &:nth-child(2) {
-        top: 18%;
-        left: -8%;
-      }
-
-      &:nth-child(4) {
-        bottom: 8%;
-        right: -2%;
-      }
-    }
-
-    &.is-pulsing {
-      opacity: 1;
-      animation: hero-badge-pop 0.5s cubic-bezier(0.34, 1.4, 0.64, 1) both;
-      animation-delay: var(--pulse-delay, 0s);
-    }
-  }
 }
 
 body.dark .hero-visual {
@@ -677,10 +601,5 @@ body.dark .hero-visual {
     animation: none;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-  }
-
-  .hero-visual__badge.is-pulsing {
-    animation: none;
-    opacity: 0.6;
   }
 }
