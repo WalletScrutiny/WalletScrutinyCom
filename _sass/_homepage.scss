@@ -356,20 +356,36 @@
   display: flex;
   width: 100%;
   height: 1.25rem;
+  margin-block: 0.35rem;
   border-radius: 999px;
-  overflow: hidden;
+  overflow: visible;
   background: var(--neutral-5);
   box-shadow: inset 0 1px 2px var(--shadow-1);
 }
 
 .home-breakdown__segment {
+  position: relative;
   min-width: 2px;
   height: 100%;
   transition:
     opacity 0.2s ease,
     filter 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
   cursor: default;
+  transform-origin: center;
+
+  &:first-child {
+    border-radius: 999px 0 0 999px;
+  }
+
+  &:last-child {
+    border-radius: 0 999px 999px 0;
+  }
+
+  &:first-child:last-child {
+    border-radius: 999px;
+  }
 
   .home-breakdown.is-dimmed &:not(.is-highlighted) {
     opacity: 0.18;
@@ -377,8 +393,11 @@
   }
 
   &.is-highlighted {
+    z-index: 1;
     opacity: 1;
     filter: brightness(1.35) saturate(1.25);
+    transform: scale(1.12, 1.7);
+    border-radius: 4px;
     box-shadow:
       inset 0 0 0 1px rgba(255, 255, 255, 0.55),
       0 0 10px rgba(255, 255, 255, 0.35);
