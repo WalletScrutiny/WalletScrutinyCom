@@ -47,6 +47,12 @@ describe('buildProfileCircleHtml', () => {
     assert.match(html, /Verifier/);
     assert.match(html, new RegExp(PUBKEY));
     assert.match(html, /profile-circle/);
+    assert.doesNotMatch(html, /profile-circle--placeholder/);
+  });
+
+  test('marks placeholder images with a dedicated class', () => {
+    const html = buildProfileCircleHtml(PUBKEY, null, PROFILE_PLACEHOLDER_IMAGE, PROFILE_PLACEHOLDER_IMAGE);
+    assert.match(html, /profile-circle profile-circle--placeholder/);
   });
 });
 
@@ -56,6 +62,7 @@ describe('profileImageFallback', () => {
       src: 'https://cdn.example/broken.png',
       dataset: { placeholder: PROFILE_PLACEHOLDER_IMAGE },
       onerror: () => {},
+      classList: { add() {} },
     };
     profileImageFallback(img);
     assert.equal(img.src, PROFILE_PLACEHOLDER_IMAGE);

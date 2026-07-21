@@ -1,22 +1,51 @@
 ---
+layout: archive
 title: "How to Contribute to WalletScrutiny"
 permalink: /howtoContributeToWS/
+author_profile: false
 ---
 
-WalletScrutiny aims to promote accountability and auditability in Bitcoin wallet security. Here’s how you can contribute:
+<div class="contribute-page">
 
-**Create Verifications:** Create verifications for wallets you have tried to verify. More info [here](/verifications/).
+<div class="contribute-hero">
+  <p class="contribute-lead">
+    WalletScrutiny promotes accountability and auditability in Bitcoin wallet security.
+    Whether you build from source, write reviews, or help spread the word, there are many ways to pitch in.
+  </p>
+</div>
 
-**Write Opinions:** Share your insights on Bitcoin apps or devices, including opposing views. Write an opinion on a wallet. It will be shared to NOSTR to extend discussions beyond this website.
+<div class="contribute-grid">
+  {% for way in site.data.contributeWays %}
+    {% if way.link %}
+      <a class="contribute-card" href="{{ way.link }}"{% if way.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+    {% else %}
+      <div class="contribute-card">
+    {% endif %}
+        <span class="contribute-card__icon" aria-hidden="true">
+          <i class="{% if way.iconBrand %}fab{% else %}fas{% endif %} {{ way.icon }}"></i>
+        </span>
+        <h2 class="contribute-card__title">{{ way.title }}</h2>
+        <p class="contribute-card__desc">{{ way.description }}</p>
+        {% if way.link and way.linkText %}
+          <span class="contribute-card__cta">
+            {{ way.linkText }}
+            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </span>
+        {% endif %}
+    {% if way.link %}
+      </a>
+    {% else %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
-**Spread the Word:** Engage with us on platforms like X.com, Nostr, Discord, Facebook, and Reddit. Open communication helps verify and improve reproducibility in wallet builds.
+<div class="infoBox contribute-wiki">
+  <p>
+    Looking for step-by-step instructions, field definitions, and advanced workflows?
+    See the full guide on the
+    <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-Contribute-to-WalletScrutiny" target="_blank" rel="noopener noreferrer">WalletScrutiny GitLab wiki</a>.
+  </p>
+</div>
 
-**Write Reviews:** If you find an existing review lacking, update it via GitLab by cloning the repository, making your changes, and submitting a merge request.
-
-**Add Products:** Wallet providers and third parties can add new products or reviews to our database. Detailed build instructions for source-available products are highly valued.
-
-**Contribute to Issue Tracker:** Help us track issues by creating, commenting on, or fixing issues in our [GitLab issue tracker](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues).
-
-**Fund the Project:** Support our work through donations or grants, ensuring the project and its contributors continue their vital security research.
-
-For more detailed information on how to contribute, please refer to the comprehensive version [here.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-Contribute-to-WalletScrutiny)
+</div>

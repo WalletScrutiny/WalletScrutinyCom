@@ -292,18 +292,24 @@ function computeEffectiveMetaVerdict(product, isMobile) {
 }
 
 function productMatchesVerdictGroup(eff_meta, eff_verdict, verdictGroup) {
-  if (verdictGroup.metas?.length > 0 && verdictGroup.metas.includes(eff_meta)) {
-    return true;
+  const hasMetas = verdictGroup.metas?.length > 0;
+  const hasVerdicts = verdictGroup.verdicts?.length > 0;
+  const metaMatch = hasMetas && verdictGroup.metas.includes(eff_meta);
+  const verdictMatch = hasVerdicts && eff_verdict !== '' && verdictGroup.verdicts.includes(eff_verdict);
+
+  if (verdictGroup.match === 'all') {
+    return metaMatch && verdictMatch;
   }
-  if (verdictGroup.verdicts?.length > 0 && eff_verdict !== '' && verdictGroup.verdicts.includes(eff_verdict)) {
-    return true;
-  }
+
+  if (metaMatch) return true;
+  if (verdictMatch) return true;
   return false;
 }
 
 function buildVerdictGroupCounts(allWallets) {
   const counts = Object.fromEntries(verdictGroups.map(g => [g.key, 0]));
   let totalReviewedProducts = 0;
+  const exclusiveGroups = verdictGroups.filter((g) => g.exclusive);
 
   for (const platform of platforms) {
     const wallets = allWallets[platform] || [];
@@ -311,7 +317,16 @@ function buildVerdictGroupCounts(allWallets) {
     for (const wallet of wallets) {
       totalReviewedProducts++;
       const { eff_meta, eff_verdict } = computeEffectiveMetaVerdict(wallet, isMobile);
+      const exclusiveMatch = exclusiveGroups.find((group) =>
+        productMatchesVerdictGroup(eff_meta, eff_verdict, group)
+      );
+      if (exclusiveMatch) {
+        counts[exclusiveMatch.key]++;
+        continue;
+      }
+
       for (const group of verdictGroups) {
+        if (group.exclusive) continue;
         if (productMatchesVerdictGroup(eff_meta, eff_verdict, group)) {
           counts[group.key]++;
         }

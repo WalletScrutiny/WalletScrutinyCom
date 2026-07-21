@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#dfe6e8"/><circle cx="32" cy="24" r="11" fill="#7f9a9e"/><ellipse cx="32" cy="52" rx="16" ry="11" fill="#7f9a9e"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+  <defs>
+    <linearGradient id="ph-bg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f3f7fb"/>
+      <stop offset="100%" stop-color="#d8e3ef"/>
+    </linearGradient>
+    <linearGradient id="ph-glow" x1="14" y1="10" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8ec0f0"/>
+      <stop offset="100%" stop-color="#5a8fd4"/>
+    </linearGradient>
+    <linearGradient id="ph-figure" x1="22" y1="16" x2="42" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#72aee8"/>
+      <stop offset="100%" stop-color="#4a7cc8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#ph-bg)"/>
+  <circle cx="21" cy="19" r="13" fill="url(#ph-glow)" opacity="0.2"/>
+  <circle cx="47" cy="43" r="11" fill="url(#ph-glow)" opacity="0.16"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="url(#ph-glow)" stroke-width="1.2" opacity="0.22"/>
+  <circle cx="32" cy="32" r="16" fill="none" stroke="url(#ph-glow)" stroke-width="1" opacity="0.14"/>
+  <circle cx="32" cy="25.5" r="7.5" fill="url(#ph-figure)"/>
+  <path d="M18.5 52.5c0-7 6.2-12.5 13.5-12.5s13.5 5.5 13.5 12.5" fill="url(#ph-figure)"/>
+  <ellipse cx="29" cy="22.5" rx="2.6" ry="1.8" fill="#fff" opacity="0.38"/>
+</svg>

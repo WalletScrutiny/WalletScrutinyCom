@@ -26,8 +26,12 @@ test:main:
 
 test:e2e:
   stage: test
-  extends: .node-test-rules
   image: mcr.microsoft.com/playwright:v1.50.1-noble
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: manual
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
   cache:
     - key:
         files:

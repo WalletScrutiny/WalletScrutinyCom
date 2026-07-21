@@ -280,14 +280,16 @@ export function profileImageFallback(img) {
   if (img.src !== placeholder) {
     img.onerror = null;
     img.src = placeholder;
+    img.classList.add('profile-circle--placeholder');
   }
 }
 
 export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl) {
   const displayName = getProfileDisplayName(profile, pubkey);
+  const placeholderClass = imageUrl === placeholderUrl ? ' profile-circle--placeholder' : '';
   return `
     <div class="profile-circle-container" data-name="${displayName}">
-      <img src="${imageUrl}" class="profile-circle" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
+      <img src="${imageUrl}" class="profile-circle${placeholderClass}" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
       <div class="profile-hover-modal">
         <div class="profile-modal-content">
           <img src="${imageUrl}" class="profile-modal-image" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>

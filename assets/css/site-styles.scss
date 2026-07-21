@@ -1,11 +1,11 @@
 ---
 ---
 
-@use "barlow.css";
-@use "styles.css";
-@use "notifications.css";
-@use "verifications.css";
-@use "user-profile.css";
+@use "barlow";
+@use "styles";
+@use "notifications";
+@use "verifications";
+@use "user-profile";
 
 /* Fix oversized cursor/text in asciicast player (#887) */
 .asciicast-player pre.ap-terminal {
