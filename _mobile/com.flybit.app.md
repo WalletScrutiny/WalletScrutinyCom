@@ -26,8 +26,8 @@ iphone:
   idd: 1570368673
   appCountry: kr
   released: 2021-07-07
-  updated: 2026-07-09
-  version: 1.27.1
+  updated: 2026-07-15
+  version: 1.27.2
   reviews: 18
   icon: com.koreadigit.flybit.jpg
   meta: ok

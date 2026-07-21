@@ -29,8 +29,8 @@ iphone:
   idd: '1362518159'
   appCountry: lv
   released: 2020-01-09
-  updated: 2026-07-07
-  version: 5.0.2
+  updated: 2026-07-15
+  version: 5.1.0
   reviews: 2
   icon: com.bisonapp.bison.jpg
   meta: ok

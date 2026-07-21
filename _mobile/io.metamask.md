@@ -26,7 +26,7 @@ android:
   released: 2020-09-01
   updated: 2026-07-11
   version: 8.2.0
-  reviews: 6674
+  reviews: 6678
   icon: io.metamask.png
   meta: ok
   verdict: sourceavailable
@@ -39,7 +39,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-07-14
   version: 8.2.0
-  reviews: 75585
+  reviews: 75645
   icon: io.metamask.MetaMask.jpg
   meta: ok
   verdict: sourceavailable

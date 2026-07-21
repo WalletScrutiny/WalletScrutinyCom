@@ -35,7 +35,7 @@ iphone:
   released: 2020-01-06
   updated: 2026-07-11
   version: 5.21.0
-  reviews: 47040
+  reviews: 47066
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

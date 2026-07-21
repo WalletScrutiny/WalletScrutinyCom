@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-09-21
-  updated: 2026-03-24
-  version: 3.7.0
+  updated: 2026-07-10
+  version: 3.7.5
   reviews: 240
   icon: io.ambergroup.amber.png
   meta: ok

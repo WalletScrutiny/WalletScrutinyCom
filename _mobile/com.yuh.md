@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-04-06
-  updated: 2026-07-08
-  version: 1.44.15
+  updated: 2026-07-20
+  version: 1.45.4
   reviews: 4
   icon: com.yuh.png
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '1493935010'
   appCountry: ch
   released: 2021-05-10
-  updated: 2026-07-13
-  version: 1.43.13
-  reviews: 21862
+  updated: 2026-07-20
+  version: 1.43.14
+  reviews: 21911
   icon: com.swissquote.Yuh.jpg
   meta: ok
   verdict: nosendreceive

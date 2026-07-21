@@ -21,7 +21,7 @@ iphone:
   released: 2015-09-29
   updated: 2026-07-12
   version: 2.140.0
-  reviews: 230846
+  reviews: 231034
   icon: com.paymaya.ios.jpg
   meta: ok
   verdict: custodial

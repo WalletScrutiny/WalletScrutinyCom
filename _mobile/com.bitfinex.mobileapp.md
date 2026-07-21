@@ -32,8 +32,8 @@ iphone:
   idd: 1436383182
   appCountry: us
   released: 2019-01-25
-  updated: 2026-02-06
-  version: 7.20.1
+  updated: 2026-07-16
+  version: 7.23.1
   reviews: 174
   icon: com.bitfinex.bfxprod.jpg
   meta: ok

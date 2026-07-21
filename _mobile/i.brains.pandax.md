@@ -14,7 +14,7 @@ android:
   users: 100000
   appCountry: us
   released: 2020-06-14
-  updated: 2026-06-17
+  updated: 2026-07-19
   version: 3.1.7
   reviews: 275
   icon: i.brains.pandax.png
@@ -28,7 +28,7 @@ iphone:
   released: 2021-04-20
   updated: 2026-06-18
   version: 1.9.11
-  reviews: 4771
+  reviews: 4769
   icon: ng.pandar.resource.jpg
   meta: ok
   verdict: nosendreceive

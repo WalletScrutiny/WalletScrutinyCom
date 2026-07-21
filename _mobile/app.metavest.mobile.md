@@ -36,7 +36,7 @@ iphone:
   version: 3.4.0
   reviews: 0
   icon: app.metavest.client.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Metavest Limited
 

@@ -16,8 +16,8 @@ android:
   appId: com.bitmex.app.android
   users: 100000
   appCountry: us
-  updated: 2026-07-01
-  version: 3.2.13
+  updated: 2026-07-15
+  version: 3.2.14
   icon: com.bitmex.app.android.png
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '1589023233'
   appCountry: bh
   released: 2022-04-11
-  updated: 2026-07-03
-  version: 3.2.13
+  updated: 2026-07-16
+  version: 3.2.14
   reviews: 0
   icon: com.bitmex.app.ios.jpg
   meta: ok

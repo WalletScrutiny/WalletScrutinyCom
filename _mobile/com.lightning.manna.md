@@ -18,7 +18,7 @@ android:
   released: 2025-05-14
   updated: 2026-04-28
   version: 1.1.9
-  reviews: 7
+  reviews: 8
   icon: com.lightning.manna.png
   meta: fewusers
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2025-05-16
   updated: 2026-05-06
   version: 1.1.9
-  reviews: 10
+  reviews: 11
   icon: com.lightning.manna.jpg
   meta: ok
   verdict: custodial

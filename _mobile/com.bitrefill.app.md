@@ -21,7 +21,7 @@ android:
   released: 2018-04-10
   updated: 2026-07-12
   version: 7.8.0
-  reviews: 286
+  reviews: 287
   icon: com.bitrefill.app.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2018-06-05
   updated: 2026-07-14
   version: 7.8.0
-  reviews: 487
+  reviews: 488
   icon: com.bitrefill.bitrefill.jpg
   meta: ok
   verdict: custodial

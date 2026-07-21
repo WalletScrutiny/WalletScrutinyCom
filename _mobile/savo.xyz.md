@@ -11,7 +11,7 @@ iphone:
   released: 2025-02-18
   updated: 2026-07-11
   version: 1.5.2
-  reviews: 264
+  reviews: 263
   icon: savo.xyz.jpg
   meta: ok
   verdict: wip

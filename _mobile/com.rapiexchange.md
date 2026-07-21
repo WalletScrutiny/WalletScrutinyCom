@@ -15,7 +15,7 @@ android:
   released: 2022-04-19
   updated: 2026-07-09
   version: '3.46'
-  reviews: 3
+  reviews: 4
   icon: com.rapiexchange.png
   meta: ok
   verdict: custodial

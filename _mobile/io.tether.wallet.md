@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2026-03-19
-  updated: 2026-06-30
-  version: 1.6.1
+  updated: 2026-07-16
+  version: 1.7.1
   reviews: 9
   icon: io.tether.wallet.png
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '6759002210'
   appCountry: us
   released: 2026-04-14
-  updated: 2026-07-01
-  version: 1.6.1
+  updated: 2026-07-17
+  version: 1.7.1
   reviews: 9
   icon: io.tether.wallet.official.jpg
   meta: ok

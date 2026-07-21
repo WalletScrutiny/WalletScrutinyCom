@@ -24,8 +24,8 @@ iphone:
   idd: '6739197253'
   appCountry: za
   released: 2025-02-06
-  updated: 2026-07-06
-  version: 1.3.0
+  updated: 2026-07-16
+  version: 1.3.2
   reviews: 8
   icon: com.afridax.exchange.jpg
   meta: ok

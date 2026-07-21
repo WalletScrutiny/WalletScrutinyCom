@@ -20,7 +20,7 @@ android:
   released: 2024-08-30
   updated: 2026-07-10
   version: 2.12.19
-  reviews: 26
+  reviews: 27
   icon: com.rhinoglobal.png
   meta: ok
   verdict: custodial

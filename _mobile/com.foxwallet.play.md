@@ -4,7 +4,7 @@ title: FoxWallet- Secure Crypto Asset
 date: 2025-07-21
 authors:
 - danny
-website: https://www.foxwallet.com/en
+website: https://www.foxwallet.com
 twitter: FoxWallet
 social:
 - https://t.me/FoxWallet_EN

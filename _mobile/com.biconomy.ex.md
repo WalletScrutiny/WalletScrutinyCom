@@ -33,7 +33,7 @@ iphone:
   released: 2019-11-06
   updated: 2026-06-01
   version: 2.4.10
-  reviews: 152
+  reviews: 151
   icon: com.biconomy.Innovation.jpg
   meta: ok
   verdict: custodial

@@ -19,7 +19,7 @@ android:
   released: 2022-04-21
   updated: 2026-05-21
   version: 5.1.1
-  reviews: 76
+  reviews: 75
   icon: com.coinlocally.android.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2020-01-28
   updated: 2025-12-12
   version: 3.1.6
-  reviews: 132
+  reviews: 133
   icon: com.coinlocally.app.jpg
   meta: ok
   verdict: custodial

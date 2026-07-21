@@ -35,7 +35,7 @@ iphone:
   released: 2024-11-10
   updated: 2026-06-11
   version: 1.5.6
-  reviews: 9
+  reviews: 10
   icon: wallet.ggp.jpg
   meta: ok
   verdict: nosource

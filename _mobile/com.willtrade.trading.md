@@ -12,7 +12,7 @@ android:
   released: 2021-08-19
   updated: 2026-06-30
   version: 1.3.50
-  reviews: 21
+  reviews: 22
   icon: com.willtrade.trading.png
   meta: ok
   verdict: custodial

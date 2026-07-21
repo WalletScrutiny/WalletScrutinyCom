@@ -33,7 +33,7 @@ android:
   released: 2020-01-01
   updated: 2026-06-08
   version: 6.2.1
-  reviews: 666
+  reviews: 667
   icon: com.cakewallet.cake_wallet.png
   meta: ok
   verdict: sourceavailable
@@ -46,7 +46,7 @@ iphone:
   released: 2018-01-19
   updated: 2026-06-10
   version: 6.2.1
-  reviews: 4211
+  reviews: 4213
   icon: com.fotolockr.cakewallet.jpg
   meta: ok
   verdict: sourceavailable

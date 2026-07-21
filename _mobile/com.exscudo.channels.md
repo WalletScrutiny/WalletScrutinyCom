@@ -24,7 +24,7 @@ android:
   released: 2018-05-17
   updated: 2026-06-09
   version: 3.33.2770
-  reviews: 49
+  reviews: 50
   icon: com.exscudo.channels.png
   meta: ok
   verdict: nosource

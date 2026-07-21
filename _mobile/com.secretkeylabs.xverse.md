@@ -22,9 +22,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2021-10-12
-  updated: 2026-07-08
-  version: 2.5.2
-  reviews: 1108
+  updated: 2026-07-17
+  version: 2.6.0
+  reviews: 1109
   icon: com.secretkeylabs.xverse.png
   meta: ok
   verdict: nosource
@@ -34,8 +34,8 @@ iphone:
   idd: 1552272513
   appCountry: gt
   released: 2021-10-15
-  updated: 2026-07-08
-  version: v2.5.2
+  updated: 2026-07-20
+  version: v2.6.0
   reviews: 1
   icon: com.secretkeylabs.xverse.jpg
   meta: ok

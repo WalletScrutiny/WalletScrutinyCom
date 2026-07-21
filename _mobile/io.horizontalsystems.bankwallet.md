@@ -46,7 +46,7 @@ iphone:
   released: 2019-01-10
   updated: 2026-07-09
   version: 0.49.1
-  reviews: 1322
+  reviews: 1326
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
   verdict: sourceavailable

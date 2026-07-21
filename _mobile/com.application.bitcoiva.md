@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-11-02
-  updated: 2026-07-02
-  version: 1.66.3
+  updated: 2026-07-20
+  version: 1.67.2
   reviews: 5
   icon: com.application.bitcoiva.png
   meta: ok

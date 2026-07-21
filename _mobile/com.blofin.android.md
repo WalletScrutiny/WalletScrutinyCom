@@ -28,7 +28,7 @@ iphone:
   released: 2022-04-15
   updated: 2026-07-02
   version: 3.33.0
-  reviews: 1424
+  reviews: 1425
   icon: com.blofin.app.jpg
   meta: ok
   verdict: nosendreceive

@@ -1,10 +1,10 @@
 ---
 wsId: iCMarkets
-title: IC
+title: IC Markets
 date: 2024-05-30
 authors:
 - danny
-website: https://ic.com
+website: https://icmarkets.com
 twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets
@@ -17,11 +17,11 @@ android:
   users: 500000
   appCountry: us
   released: 2022-01-19
-  updated: 2022-06-22
-  version: '2.0'
+  updated: 2026-07-15
+  version: '2.1'
   reviews: 11
   icon: com.icmarkets.mobileapp.png
-  meta: obsolete
+  meta: ok
   verdict: nosendreceive
   developerName: Raw Trading Ltd
 iphone:
@@ -31,7 +31,7 @@ iphone:
   released: 2021-02-24
   updated: 2022-06-09
   version: 1.1.2
-  reviews: 35
+  reviews: 36
   icon: com.ICMarkets.ICMarkets-app.jpg
   meta: obsolete
   verdict: nosendreceive

@@ -13,8 +13,8 @@ android:
   users: 100
   appCountry: us
   released: 2026-02-12
-  updated: 2026-05-28
-  version: 1.2.5
+  updated: 2026-07-15
+  version: 1.3.0
   icon: org.bitcoinppl.cove.png
   meta: fewusers
   verdict: wip
@@ -24,9 +24,9 @@ iphone:
   idd: '6642680364'
   appCountry: us
   released: 2025-06-11
-  updated: 2026-05-19
-  version: 1.2.3
-  reviews: 22
+  updated: 2026-07-16
+  version: 1.3.0
+  reviews: 23
   icon: org.bitcoinppl.cove.jpg
   meta: ok
   verdict: wip

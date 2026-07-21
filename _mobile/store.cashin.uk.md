@@ -31,7 +31,7 @@ iphone:
   version: '8.4'
   reviews: 0
   icon: com.cashin.store.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: BCP Technologies Ltd
 

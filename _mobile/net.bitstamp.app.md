@@ -35,7 +35,7 @@ iphone:
   released: 2019-01-30
   updated: 2026-07-06
   version: 4.17.2
-  reviews: 7455
+  reviews: 7457
   icon: net.bitstamp.jpg
   meta: ok
   verdict: custodial

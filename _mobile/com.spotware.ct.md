@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-02-10
-  updated: 2026-07-13
+  updated: 2026-07-17
   version: 5.9.190
   reviews: 389
   icon: com.spotware.ct.png

@@ -14,10 +14,10 @@ redirect_from:
 - /iphone/com.bybit.eu/
 android:
   appId: com.bybit.eu
-  users: 100000
+  users: 500000
   appCountry: us
-  updated: 2026-06-23
-  version: 5.19.1
+  updated: 2026-07-14
+  version: 5.19.2
   icon: com.bybit.eu.png
   meta: ok
   verdict: custodial

@@ -12,7 +12,7 @@ android:
   appId: com.capital.etf.trade
   users: 5000000
   appCountry: us
-  updated: 2026-07-10
+  updated: 2026-07-20
   version: 3.41.0
   reviews: 7
   icon: com.capital.etf.trade.png

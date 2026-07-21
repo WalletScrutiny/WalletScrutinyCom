@@ -19,9 +19,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-12-10
-  updated: 2026-07-14
-  version: 26.713.0
-  reviews: 8594
+  updated: 2026-07-21
+  version: 26.717.0
+  reviews: 8599
   icon: com.gemini.android.app.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1408914447
   appCountry: us
   released: 2018-12-11
-  updated: 2026-07-14
-  version: 26.710.0
-  reviews: 109354
+  updated: 2026-07-21
+  version: 26.717.0
+  reviews: 109422
   icon: com.gemini.ios.jpg
   meta: ok
   verdict: custodial

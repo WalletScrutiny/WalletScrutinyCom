@@ -12,7 +12,7 @@ iphone:
   released: 2021-09-20
   updated: 2026-07-09
   version: 1.7.31
-  reviews: 2865
+  reviews: 2862
   icon: com.paybis.jpg
   meta: ok
   verdict: wip

@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: gd
   released: 2019-07-11
-  updated: 2026-07-14
-  version: 4.3.3
+  updated: 2026-07-20
+  version: 4.3.4
   reviews: 3555
   icon: com.bitwala.app.png
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: 1454003161
   appCountry: de
   released: 2019-05-11
-  updated: 2026-07-15
-  version: 4.3.3
+  updated: 2026-07-21
+  version: 4.3.4
   reviews: 4106
   icon: com.bitwala.app.jpg
   meta: ok

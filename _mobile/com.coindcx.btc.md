@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2020-12-09
   updated: 2026-07-08
-  version: 7.56.0002
+  version: 7.57.0002
   reviews: 599
   icon: com.coindcx.btc.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2020-12-09
   updated: 2026-07-15
   version: 7.57.0003
-  reviews: 43732
+  reviews: 43843
   icon: com.coindcx.btc.jpg
   meta: ok
   verdict: custodial

@@ -12,7 +12,7 @@ iphone:
   released: 2021-10-05
   updated: 2026-06-30
   version: 3.12.1
-  reviews: 1170
+  reviews: 1181
   icon: com.arculus.wallet.jpg
   meta: ok
   verdict: wip

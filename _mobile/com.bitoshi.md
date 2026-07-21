@@ -33,7 +33,7 @@ iphone:
   released: 2022-10-17
   updated: 2026-04-16
   version: 1.5.0
-  reviews: 1835
+  reviews: 1832
   icon: com.bitoshi.jpg
   meta: ok
   verdict: custodial

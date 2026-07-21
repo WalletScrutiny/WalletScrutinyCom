@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: gb
   released: 2015-10-20
-  updated: 2026-06-18
-  version: 8.0.467
+  updated: 2026-07-17
+  version: 8.0.468
   reviews: 200
   icon: swipestox.mobile.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1182702365
   appCountry: in
   released: 2017-01-15
-  updated: 2026-07-06
-  version: 9.7.7
-  reviews: 70
+  updated: 2026-07-20
+  version: 9.8.0
+  reviews: 71
   icon: com.swipestox.app.jpg
   meta: ok
   verdict: nosendreceive

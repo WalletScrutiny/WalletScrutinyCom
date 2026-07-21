@@ -35,7 +35,7 @@ iphone:
   released: 2014-11-03
   updated: 2026-06-29
   version: 8.111.0
-  reviews: 3658
+  reviews: 3666
   icon: za.co.Bitx.jpg
   meta: ok
   verdict: custodial

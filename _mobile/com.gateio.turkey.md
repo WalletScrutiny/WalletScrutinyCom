@@ -15,8 +15,8 @@ android:
   appId: com.gateio.turkey
   users: 100000
   appCountry: us
-  updated: 2026-06-30
-  version: 6.15.45
+  updated: 2026-07-17
+  version: 6.15.46
   icon: com.gateio.turkey.png
   meta: ok
   verdict: custodial

@@ -19,9 +19,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-08-04
-  updated: 2026-07-01
-  version: 8.9.87
-  reviews: 4370
+  updated: 2026-07-16
+  version: 8.9.90
+  reviews: 4410
   icon: com.btcc.hy.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1462880009
   appCountry: us
   released: 2019-05-11
-  updated: 2026-07-02
-  version: 8.9.87
-  reviews: 5145
+  updated: 2026-07-21
+  version: 8.9.90
+  reviews: 5163
   icon: com.btcc.hy.jpg
   meta: ok
   verdict: custodial

@@ -37,7 +37,7 @@ iphone:
   version: 1.0.8
   reviews: 1
   icon: org.uniwallet.UniWallet.jpg
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.
 

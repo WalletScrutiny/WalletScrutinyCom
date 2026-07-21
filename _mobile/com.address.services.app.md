@@ -11,7 +11,7 @@ android:
   updated: 2025-07-24
   version: VARY
   icon: com.address.services.app.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: OnTab Inc.
 

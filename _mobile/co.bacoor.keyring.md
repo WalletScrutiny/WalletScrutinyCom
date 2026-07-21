@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: DeFi Wallet – KEYRING PRO
+title: Ethereum Wallet - KEYRING PRO
 date: 2021-11-17
 authors:
 - danny
@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-01-21
-  updated: 2026-03-16
-  version: 5.5.0
+  updated: 2026-07-15
+  version: 6.0.0
   reviews: 4
   icon: co.bacoor.keyring.png
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: '1546824976'
   appCountry: us
   released: 2021-01-25
-  updated: 2026-03-17
-  version: 5.5.0
+  updated: 2026-07-18
+  version: 6.0.0
   reviews: 11
   icon: co.bacoor.keyring.jpg
   meta: ok

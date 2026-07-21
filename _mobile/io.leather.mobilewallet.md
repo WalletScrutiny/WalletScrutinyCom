@@ -29,9 +29,9 @@ iphone:
   idd: '6499127775'
   appCountry: us
   released: 2025-05-28
-  updated: 2026-05-14
-  version: 2.107.0
-  reviews: 7
+  updated: 2026-07-16
+  version: 2.111.0
+  reviews: 8
   icon: io.leather.mobilewallet.jpg
   meta: ok
   verdict: sourceavailable

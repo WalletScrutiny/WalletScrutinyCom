@@ -1,6 +1,6 @@
 ---
 wsId: guapBitcoinWallet
-title: Guap - Bitcoin Wallet
+title: Guap - Stablecoin Wallet
 date: 2026-05-02
 authors:
 - danny
@@ -27,7 +27,7 @@ iphone:
   released: 2025-12-08
   updated: 2026-06-29
   version: 0.9.4
-  reviews: 2
+  reviews: 3
   icon: com.useguap.ios.rn.jpg
   meta: ok
   verdict: custodial

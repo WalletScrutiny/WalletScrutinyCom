@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-07-24
-  updated: 2026-07-10
-  version: 8.8.6
+  updated: 2026-07-17
+  version: 9.0.1
   reviews: 514
   icon: com.remitano.remitano.jpg
   meta: ok

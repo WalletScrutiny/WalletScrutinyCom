@@ -31,8 +31,8 @@ iphone:
   idd: 1326526995
   appCountry: kr
   released: 2018-03-27
-  updated: 2026-07-09
-  version: 5.33.0
+  updated: 2026-07-16
+  version: 5.33.1
   reviews: 1044
   icon: kr.co.coinone.officialapp.jpg
   meta: ok

@@ -42,7 +42,7 @@ iphone:
   released: 2022-07-14
   updated: 2026-07-08
   version: 2.3.0
-  reviews: 29
+  reviews: 30
   icon: com.foundationdevices.envoy.jpg
   meta: ok
   verdict: wip
