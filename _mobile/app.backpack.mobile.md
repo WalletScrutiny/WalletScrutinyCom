@@ -29,7 +29,7 @@ iphone:
   reviews: 224
   icon: app.backpack.mobile.jpg
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Backpack Technologies Ltd.
 
 ---
