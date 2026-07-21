@@ -114,37 +114,29 @@ function setupSearchUI(htmlElementId, {
 
   const searchContainer = document.createElement('div');
   searchContainer.className = 'assets-search-container';
-  searchContainer.style.marginBottom = '20px';
   searchContainer.style.display = enableSearch || enableDraftsFilter || enableAppPageSearch ? 'block' : 'none';
   searchContainer.innerHTML = `
-    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+    <div class="assets-search-toolbar">
       <input
         type="text"
         id="assetSearchInput"
+        class="assets-search-input"
         placeholder="Search by ${enableAppPageSearch ? 'version, description or hash' : 'wallet name or hash'}..."
-        style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch || enableAppPageSearch ? 'block' : 'none'};"
+        style="display: ${enableSearch || enableAppPageSearch ? 'block' : 'none'};"
       >
-      <div style="display: ${enableSearch ? 'flex' : 'none'}; gap: 15px; align-items: flex-start; flex-wrap: wrap;">
-        <style>
-          @media (max-width: 768px) {
-            .checkbox-container {
-              flex-direction: column !important;
-              gap: 0 !important;
-            }
-          }
-        </style>
-        <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
-          <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+      <div class="assets-search-filters" style="display: ${enableSearch ? 'flex' : 'none'};">
+        <div class="checkbox-container assets-search-checkboxes">
+          <label class="assets-search-checkbox-label">
             <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
             <span>Show latest version only</span>
           </label>
-          <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+          <label class="assets-search-checkbox-label">
             <input type="checkbox" id="showOnlyNoVerifications">
             <span>Show only untested assets</span>
           </label>
         </div>
       </div>
-      <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
+      <label class="assets-search-checkbox-label" style="display: ${enableDraftsFilter ? 'flex' : 'none'};">
         <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
         <span>Hide others' drafts</span>
       </label>
@@ -256,7 +248,8 @@ function removeAssetsTableDynamicContent(htmlElementId) {
     return;
   }
   host.querySelectorAll('.issue-tracker-container').forEach(el => el.remove());
-  host.querySelector('#assetsTable')?.remove();
+  host.querySelector('.assets-table-frame')?.remove();
+  host.querySelector('.assets-table-scroll')?.remove();
   host.querySelectorAll('.assets-table-attachments-wrap').forEach(el => el.remove());
 }
 
@@ -280,6 +273,7 @@ window.renderAssetsTable = async function({
   getDrafts = true,
   months,
   filterAppIds = null,
+  showSeen = false,
 }) {
   let hasAssets = false;
   let cachePaintFingerprint = null;
@@ -307,6 +301,11 @@ window.renderAssetsTable = async function({
     void userPubkeyPromise;
   }
 
+  const host = document.getElementById(htmlElementId);
+  if (host && hideConfig?.wallet) {
+    host.classList.add('assets-table-widget');
+  }
+
   ensureVerificationModal();
   ensureBlossomModals();
   setupSearchUI(htmlElementId, { enableSearch, enableDraftsFilter, enableAppPageSearch });
@@ -330,6 +329,7 @@ window.renderAssetsTable = async function({
     showProfilePictures,
     showAttachmentsTable,
     pubkey,
+    showSeen,
   };
 
   function runPaint(assetInfo) {

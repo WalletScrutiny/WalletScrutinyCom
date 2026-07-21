@@ -1,0 +1,278 @@
+.guide-page,
+.contribute-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.guide-hero,
+.contribute-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+
+  .guide-lead,
+  .contribute-lead {
+    font-size: 1.25rem;
+    line-height: 1.65;
+    color: var(--neutral-2);
+    max-width: 680px;
+    margin: 0 auto;
+    font-weight: $paragraph-font-weight;
+  }
+}
+
+.guide-actions,
+.contribute-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 2.75rem;
+}
+
+.contribute-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-bottom: 2.5rem;
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contribute-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  background: var(--body);
+  text-decoration: none;
+  color: var(--text);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 0 1px var(--accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: var(--text);
+
+    .contribute-card__cta {
+      color: var(--accent);
+    }
+  }
+
+  &__icon {
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--permanent-white);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: $title-font-weight;
+    line-height: 1.3;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.55;
+    font-weight: $paragraph-font-weight;
+    color: var(--neutral-2);
+    flex: 1;
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: auto;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--accent-text);
+    transition: color 0.15s ease;
+
+    .fa-arrow-right {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.contribute-wiki {
+  margin-top: 1rem;
+}
+
+.guide-section {
+  margin-bottom: 2.75rem;
+
+  > h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1.25rem;
+    font-size: 1.5rem;
+    font-weight: $title-font-weight;
+    line-height: 1.3;
+
+    .fa-google-play,
+    .fa-apple {
+      color: var(--accent-text);
+    }
+  }
+
+  > p {
+    margin: 0 0 1rem;
+    line-height: 1.6;
+    font-weight: $paragraph-font-weight;
+  }
+
+  > ul {
+    margin: 0 0 1rem;
+    padding-left: 1.35rem;
+    line-height: 1.6;
+    font-weight: $paragraph-font-weight;
+
+    li + li {
+      margin-top: 0.35rem;
+    }
+  }
+}
+
+.guide-page,
+.info-landing-page {
+  p > code,
+  li > code:not(.landing-copy-row__value):not(.verifications-copy-row__value),
+  td > code,
+  .contribute-lead code {
+    padding: 0.15rem 0.35rem;
+    font-size: 0.9em;
+    background: var(--neutral-6);
+    color: var(--text);
+    border: 1px solid var(--neutral-5);
+    border-radius: 4px;
+    box-shadow: none;
+  }
+}
+
+.guide-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  counter-reset: guide-step;
+
+  > li {
+    display: grid;
+    grid-template-columns: 2.25rem 1fr;
+    column-gap: 0.85rem;
+    row-gap: 0.5rem;
+    align-items: start;
+    padding: 1.25rem 1.35rem;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px var(--shadow-3);
+    background: var(--body);
+    counter-increment: guide-step;
+
+    &::before {
+      content: counter(guide-step);
+      grid-column: 1;
+      grid-row: 1;
+      display: grid;
+      place-items: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--permanent-white);
+      font-size: 0.95rem;
+      font-weight: $title-font-weight;
+      line-height: 1;
+    }
+
+    > * {
+      grid-column: 2;
+      min-width: 0;
+    }
+  }
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    font-weight: $title-font-weight;
+    line-height: 1.35;
+  }
+
+  p {
+    margin: 0 0 0.75rem;
+    line-height: 1.55;
+    font-weight: $paragraph-font-weight;
+    color: var(--neutral-2);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin: 0 0 0.75rem;
+    padding-left: 1.25rem;
+    line-height: 1.55;
+    font-weight: $paragraph-font-weight;
+    color: var(--neutral-2);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  pre {
+    margin: 0.5rem 0 0;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    background: var(--neutral-6);
+    overflow-x: auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    code {
+      background: none;
+      padding: 0;
+      color: var(--text);
+    }
+  }
+
+  code:not(pre code) {
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
+    background: var(--neutral-6);
+    color: var(--text);
+    border: 1px solid var(--neutral-5);
+    box-shadow: none;
+    font-size: 0.9em;
+  }
+}
+
+.guide-note {
+  margin-top: 1rem;
+}
+
+// Override .archive a { text-decoration: underline } — cards are full-block links.
+.archive .guide-page a.contribute-card,
+.archive .guide-page a.contribute-card:hover,
+.archive .guide-page a.contribute-card:focus,
+.archive .contribute-page a.contribute-card,
+.archive .contribute-page a.contribute-card:hover,
+.archive .contribute-page a.contribute-card:focus {
+  text-decoration: none;
+}

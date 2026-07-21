@@ -50,7 +50,6 @@
   - unreleased
   - nobtc
   - nowallet
-  - diy
   metas:
   - stale
   - obsolete
@@ -58,6 +57,8 @@
   - discontinued
   - deprecated
   - removed
+  - fewusers
+  exclusive: true
   title: Not relevant.
   short: Not relevant
   abstract: Usage statistics & relevance
@@ -74,6 +75,8 @@
   verdicts:
   - wip
   metas:
+  - ok
+  match: all
   title: Pending review.
   short: Pending review
   abstract: Pending review
