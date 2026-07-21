@@ -168,8 +168,17 @@
   }
 }
 
-.steps.linked .step .title .distribution-store-links .distribution-store-link:hover {
+.steps.linked .step .distribution-store-links .distribution-store-link:hover {
   text-decoration: none;
+}
+
+.steps .step .data .distribution-store-links {
+  margin-top: 0;
+  justify-content: flex-end;
+
+  .distribution-store-link {
+    font-size: 0.94em;
+  }
 }
 
 .version-number-ws {

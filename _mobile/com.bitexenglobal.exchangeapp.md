@@ -17,7 +17,7 @@ android:
   appId: com.bitexenglobal.exchangeapp
   users: 100000
   appCountry: us
-  updated: 2026-06-13
+  updated: 2026-07-13
   version: '2.22'
   icon: com.bitexenglobal.exchangeapp.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1634643482'
   appCountry: az
   released: 2022-09-30
-  updated: 2026-07-11
-  version: '2.30'
+  updated: 2026-07-15
+  version: '2.31'
   reviews: 1
   icon: com.bitexenglobal.exchangeapp.jpg
   meta: ok

@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-09
-  updated: 2026-07-09
-  version: 5.0.4
+  updated: 2026-07-17
+  version: 5.0.5
   reviews: 69
   icon: com.rocketsfintech.accrue.png
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '1604973055'
   appCountry: gh
   released: 2022-01-18
-  updated: 2026-07-09
-  version: 5.0.4
-  reviews: 3073
+  updated: 2026-07-18
+  version: 5.0.5
+  reviews: 3082
   icon: com.rocketsfintech.accrue-dca.jpg
   meta: ok
   verdict: custodial

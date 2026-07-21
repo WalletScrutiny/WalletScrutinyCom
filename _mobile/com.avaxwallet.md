@@ -21,9 +21,9 @@ android:
   users: 500000
   appCountry: us
   released: 2022-08-30
-  updated: 2026-07-08
-  version: 1.0.34
-  reviews: 137
+  updated: 2026-07-15
+  version: 1.0.35
+  reviews: 136
   icon: com.avaxwallet.png
   meta: ok
   verdict: nosource
@@ -33,8 +33,8 @@ iphone:
   idd: '6443685999'
   appCountry: us
   released: 2022-11-28
-  updated: 2026-07-10
-  version: 1.0.34
+  updated: 2026-07-16
+  version: 1.0.35
   reviews: 157
   icon: org.avalabs.corewallet.jpg
   meta: ok

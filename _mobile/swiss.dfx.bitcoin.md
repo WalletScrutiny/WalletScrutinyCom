@@ -26,7 +26,7 @@ android:
   updated: 2025-07-23
   version: 2.0.3
   icon: swiss.dfx.bitcoin.png
-  meta: ok
+  meta: stale
   verdict: sourceavailable
   developerName: DFX AG
   repository: https://github.com/DFXswiss/btc-wallet
@@ -35,8 +35,8 @@ iphone:
   idd: '6466037617'
   appCountry: jp
   released: 2023-10-03
-  updated: 2026-07-02
-  version: 2.0.14
+  updated: 2026-07-16
+  version: 2.0.18
   reviews: 0
   icon: swiss.dfx.bitcoin.jpg
   meta: ok

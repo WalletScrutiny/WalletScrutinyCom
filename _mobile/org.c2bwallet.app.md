@@ -27,7 +27,7 @@ iphone:
   released: 2024-06-26
   updated: 2026-01-14
   version: 1.6.0
-  reviews: 14
+  reviews: 13
   icon: org.c2bwallet.app.jpg
   meta: ok
   verdict: nosource

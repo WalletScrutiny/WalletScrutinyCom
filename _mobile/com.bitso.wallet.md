@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-02-19
   updated: 2026-07-09
-  version: 4.19.1
+  version: 4.20.0
   reviews: 310
   icon: com.bitso.wallet.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2018-02-19
   updated: 2026-07-09
   version: 4.20.0
-  reviews: 1037
+  reviews: 1038
   icon: com.bitso.wallet.jpg
   meta: ok
   verdict: custodial

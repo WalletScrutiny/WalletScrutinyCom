@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2022-02-24
   updated: 2026-07-14
-  version: 2.0.0
+  version: 2.0.6
   icon: com.dyorex.dyorex_mobile_app.png
   meta: ok
   verdict: custodial

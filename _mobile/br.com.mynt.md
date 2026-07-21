@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2022-06-21
   updated: 2026-07-10
-  version: 1.110.1
+  version: 1.111.0
   reviews: 5
   icon: br.com.mynt.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2022-06-19
   updated: 2026-07-13
   version: 1.111.0
-  reviews: 1902
+  reviews: 1903
   icon: br.com.mynt.jpg
   meta: ok
   verdict: custodial

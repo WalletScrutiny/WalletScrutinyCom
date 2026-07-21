@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-09
-  updated: 2026-07-03
+  updated: 2026-07-17
   version: 4.8.0
-  reviews: 3776
+  reviews: 3792
   icon: com.bitmart.bitmarket.png
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2018-08-02
   updated: 2026-07-14
   version: 4.8.1
-  reviews: 3426
+  reviews: 3438
   icon: com.bitmart.exchange.jpg
   meta: ok
   verdict: custodial

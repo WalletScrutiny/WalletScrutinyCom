@@ -10,9 +10,9 @@ iphone:
   idd: '6444625622'
   appCountry: us
   released: 2023-01-04
-  updated: 2026-06-18
-  version: 2.24.1
-  reviews: 733
+  updated: 2026-07-17
+  version: 2.25.0
+  reviews: 735
   icon: com.global.wallet.ios.jpg
   meta: ok
   verdict: wip

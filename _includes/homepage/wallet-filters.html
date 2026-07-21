@@ -14,13 +14,11 @@ const platformNotes = {
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count={% include /homepage/full_wallet_count.html %};</script>
-    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews…" spellcheck="false" />
+    <span class="home-search__icon" aria-hidden="true"><i class="fas fa-search"></i></span>
+    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews — enter your wallet's name, or filter by platform and features" spellcheck="false" />
   </div>
-  <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
+  <div title="Filters" class="advanced-search-toggle" onclick="advancedSearchToggle(this)">
     <i class="fas fa-filter"></i>
-  </div>
-  <div title="Advanced Search" class="filters-toggle advanced-search-toggle" onclick="advancedSearchToggle(this)" title="Advanced Search">
-    <i class="fas fa-sliders-h"></i>
   </div>
   <div title="Platform" class="component component-platform">
     <div class="dropdown-options dropdown-platform">
@@ -59,7 +57,6 @@ const platformNotes = {
     </div>
   </div>
 </div>
-<br>
 
 <div class="wallet-placeholder">
   <div class="loading-container">
@@ -69,14 +66,6 @@ const platformNotes = {
 </div>
 
 <script>
-  function filtersToggle(self){
-    if(self.parentNode.classList.contains('filters-visible')){
-      self.parentNode.classList.remove('filters-visible');
-      return;
-    }
-    self.parentNode.classList.add('filters-visible');
-  }
-
   function advancedSearchToggle(self){
     const panel = document.getElementById('advancedSearchPanel');
     if (!panel) return;

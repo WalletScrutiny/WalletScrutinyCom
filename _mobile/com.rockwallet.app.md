@@ -23,7 +23,7 @@ android:
   released: 2022-11-14
   updated: 2025-09-08
   version: 5.17.8
-  reviews: 285
+  reviews: 287
   icon: com.rockwallet.app.jpg
   meta: ok
   verdict: nosource
@@ -36,7 +36,7 @@ iphone:
   released: 2022-11-16
   updated: 2025-09-15
   version: 5.17.8
-  reviews: 784
+  reviews: 786
   icon: com.rockwallet.app.jpg
   meta: ok
   verdict: sourceavailable

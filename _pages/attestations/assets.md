@@ -38,6 +38,7 @@ permalink: /assets/
         showOnlyRegisteredAssets: true,
         getDrafts: false,
         filterAppIds: sourceAvailableAppIds,
+        showSeen: true,
         tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none')
       });
     } catch (error) {

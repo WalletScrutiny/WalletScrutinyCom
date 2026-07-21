@@ -19,7 +19,7 @@ android:
   released: 2020-07-28
   updated: 2026-06-22
   version: 2.3.8
-  reviews: 150
+  reviews: 152
   icon: ru.koshelek.png
   meta: ok
   verdict: custodial

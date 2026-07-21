@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: 'Gate: Trade BTC & ETH'
+title: 'Gate: Buy Bitcoin & Crypto'
 date: 2021-08-21
 authors:
 - danny
@@ -18,9 +18,9 @@ android:
   users: 10000000
   appCountry: id
   released: 2017-11-03
-  updated: 2026-07-11
-  version: 8.27.5
-  reviews: 7197
+  updated: 2026-07-16
+  version: 8.28.5
+  reviews: 7193
   icon: com.gateio.gateio.png
   meta: ok
   verdict: custodial

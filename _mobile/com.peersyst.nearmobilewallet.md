@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2023-02-21
-  updated: 2026-06-22
-  version: 3.10.0
+  updated: 2026-07-09
+  version: 3.11.0
   reviews: 1367
   icon: com.peersyst.nearmobilewallet.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '6443501225'
   appCountry: us
   released: 2023-03-20
-  updated: 2026-06-24
-  version: 3.10.0
+  updated: 2026-07-20
+  version: 3.11.0
   reviews: 831
   icon: com.peersyst.nearmobilewallet.jpg
   meta: ok

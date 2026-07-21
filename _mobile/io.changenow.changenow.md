@@ -24,7 +24,7 @@ android:
   appCountry: us
   released: 2018-09-07
   updated: 2026-07-13
-  version: 2.0.5
+  version: 2.0.6
   reviews: 808
   icon: io.changenow.changenow.png
   meta: ok
@@ -37,7 +37,7 @@ iphone:
   released: 2020-06-29
   updated: 2026-02-03
   version: 2.10.0
-  reviews: 2256
+  reviews: 2259
   icon: io.changenow.jpg
   meta: ok
   verdict: nosource

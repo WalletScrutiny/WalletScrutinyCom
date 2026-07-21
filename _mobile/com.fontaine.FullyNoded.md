@@ -24,7 +24,7 @@ iphone:
   released: 2018-10-03
   updated: 2026-01-06
   version: 2.3.1
-  reviews: 48
+  reviews: 49
   icon: com.fontaine.FullyNoded.jpg
   meta: ok
   verdict: sourceavailable

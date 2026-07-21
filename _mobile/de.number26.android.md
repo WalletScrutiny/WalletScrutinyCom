@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2015-01-23
   updated: 2026-07-13
-  version: '4.54'
-  reviews: 2173
+  version: '4.55'
+  reviews: 2175
   icon: de.number26.android.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-07-15
   version: 4.55.1
-  reviews: 11662
+  reviews: 11678
   icon: de.no26.Number26.jpg
   meta: ok
   verdict: custodial

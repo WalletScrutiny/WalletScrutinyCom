@@ -254,7 +254,7 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
             const availableHashes = hashesToCheck.filter((_, i) => checkResults[i]);
 
             if (availableHashes.length > 0) {
-              downloadIcon.style.display = 'inline';
+              downloadIcon.style.display = 'inline-flex';
               downloadIcon.onclick = async () => {
                 const context = {
                   appid: downloadIcon.getAttribute('data-appid'),

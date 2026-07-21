@@ -31,9 +31,9 @@ iphone:
   idd: 1278383455
   appCountry: us
   released: 2017-09-27
-  updated: 2026-07-13
-  version: '30.3'
-  reviews: 161432
+  updated: 2026-07-20
+  version: '30.4'
+  reviews: 161449
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

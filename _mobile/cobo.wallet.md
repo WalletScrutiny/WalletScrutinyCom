@@ -35,8 +35,8 @@ iphone:
   idd: '1406282615'
   appCountry: us
   released: 2018-08-05
-  updated: 2025-09-05
-  version: 5.19.17
+  updated: 2026-07-16
+  version: 5.19.19
   reviews: 6
   icon: cobo.wallet.jpg
   meta: ok

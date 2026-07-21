@@ -33,7 +33,7 @@ iphone:
   version: 1.1.6
   reviews: 236
   icon: com.kochure.kochure-app.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Kochure Technologies Limited
 

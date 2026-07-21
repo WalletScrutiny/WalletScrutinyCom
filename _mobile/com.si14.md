@@ -25,7 +25,7 @@ android:
   icon: com.si14.png
   meta: ok
   verdict: nosource
-  developerName: Si14 Bank
+  developerName: SMRT wallets
 iphone:
   appId: com.si14wallet
   idd: '6748298980'

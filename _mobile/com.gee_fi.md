@@ -16,7 +16,7 @@ android:
   released: 2025-03-18
   updated: 2026-01-14
   version: 1.1.5
-  reviews: 6
+  reviews: 7
   icon: com.gee_fi.png
   meta: ok
   verdict: nosource

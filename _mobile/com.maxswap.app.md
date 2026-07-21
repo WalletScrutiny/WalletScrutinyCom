@@ -18,7 +18,7 @@ android:
   updated: 2025-07-22
   version: 1.0.0
   icon: com.maxswap.app.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: MS Profit LTD
 iphone:

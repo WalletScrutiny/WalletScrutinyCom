@@ -19,7 +19,7 @@ android:
   icon: io.attlas.png
   meta: ok
   verdict: custodial
-  developerName: ATX GLOBAL
+  developerName: ATX FINANCE & INVESTMENT
 
 ---
 

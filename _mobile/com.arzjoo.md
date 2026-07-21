@@ -13,8 +13,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-04-25
-  updated: 2026-06-23
-  version: 1.9.2
+  updated: 2026-07-19
+  version: 1.9.3
   reviews: 50
   icon: com.arzjoo.png
   meta: ok

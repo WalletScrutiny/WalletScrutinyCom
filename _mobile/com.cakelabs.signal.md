@@ -16,7 +16,7 @@ iphone:
   released: 2026-06-30
   updated: 2026-07-08
   version: 1.0.4
-  reviews: 9
+  reviews: 11
   icon: com.cakelabs.signal.jpg
   meta: ok
   verdict: custodial

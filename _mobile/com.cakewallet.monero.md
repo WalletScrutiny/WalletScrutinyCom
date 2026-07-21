@@ -11,7 +11,7 @@ iphone:
   released: 2022-01-07
   updated: 2026-06-11
   version: 6.2.1
-  reviews: 374
+  reviews: 376
   icon: com.cakewallet.monero.jpg
   meta: ok
   verdict: wip

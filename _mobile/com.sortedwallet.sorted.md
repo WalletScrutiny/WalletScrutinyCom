@@ -3,7 +3,7 @@ title: 'Sorted: Send Money & Pay Bills'
 date: 2026-05-20
 authors:
 - danny
-website: https://sortedwallet.com
+website: https://www.sorted.io
 twitter: sortedwallet
 redirect_from:
 - /android/com.sortedwallet.sorted/
@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-12-11
-  updated: 2026-07-01
-  version: 1.0.23
+  updated: 2026-07-17
+  version: 1.0.24
   icon: com.sortedwallet.sorted.png
   meta: ok
   verdict: nosource

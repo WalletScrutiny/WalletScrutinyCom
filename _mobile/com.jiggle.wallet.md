@@ -14,8 +14,8 @@ android:
   users: 50000
   appCountry: us
   released: 2023-05-19
-  updated: 2026-07-10
-  version: 0.2.44
+  updated: 2026-07-17
+  version: 3.2.2
   reviews: 37
   icon: com.jiggle.wallet.jpg
   meta: ok

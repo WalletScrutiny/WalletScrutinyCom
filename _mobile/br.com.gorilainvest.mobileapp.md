@@ -33,7 +33,7 @@ iphone:
   released: 2019-01-27
   updated: 2026-07-13
   version: 8.8.0
-  reviews: 233
+  reviews: 234
   icon: br.com.gorilainvest.mobileapp.jpg
   meta: ok
   verdict: nosendreceive

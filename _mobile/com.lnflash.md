@@ -26,8 +26,8 @@ android:
   users: 1000
   appCountry: us
   released: 2024-01-07
-  updated: 2026-07-12
-  version: 0.6.0
+  updated: 2026-07-21
+  version: 0.6.1
   icon: com.lnflash.png
   meta: ok
   verdict: sourceavailable

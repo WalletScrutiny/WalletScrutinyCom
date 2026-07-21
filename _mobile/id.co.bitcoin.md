@@ -14,8 +14,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-12-15
-  updated: 2026-07-01
-  version: 5.9.1
+  updated: 2026-07-15
+  version: 5.9.2
   reviews: 493
   icon: id.co.bitcoin.png
   meta: ok

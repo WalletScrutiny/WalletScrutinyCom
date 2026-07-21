@@ -26,8 +26,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-06-07
-  updated: 2026-07-14
-  version: 2.3.2
+  updated: 2026-07-17
+  version: 2.4.0
   reviews: 3
   icon: to.bitkit.png
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
@@ -40,8 +40,8 @@ iphone:
   idd: '6502440655'
   appCountry: us
   released: 2024-06-12
-  updated: 2026-07-15
-  version: 2.3.2
+  updated: 2026-07-20
+  version: 2.4.0
   reviews: 10
   icon: to.bitkit.jpg
   meta: ok

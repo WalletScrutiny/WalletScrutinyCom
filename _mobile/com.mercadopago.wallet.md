@@ -17,9 +17,9 @@ android:
   users: 100000000
   appCountry: br
   released: 2014-12-09
-  updated: 2026-07-13
-  version: 2.444.4
-  reviews: 1097829
+  updated: 2026-07-20
+  version: 2.445.1
+  reviews: 1100425
   icon: com.mercadopago.wallet.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 925436649
   appCountry: br
   released: 2014-12-17
-  updated: 2026-07-14
-  version: 2.445.1
-  reviews: 2503235
+  updated: 2026-07-17
+  version: 2.445.2
+  reviews: 2503643
   icon: com.mercadopago.MercadoPago.jpg
   meta: ok
   verdict: nosendreceive

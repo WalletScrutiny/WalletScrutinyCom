@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2015-01-08
   updated: 2026-07-13
-  version: 3.69.6
+  version: 3.70.0
   reviews: 55
   icon: com.phonegap.bit2me.png
   meta: ok

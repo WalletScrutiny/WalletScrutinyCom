@@ -13,7 +13,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-07-15
-  updated: 2026-07-01
+  updated: 2026-07-16
   version: 2.101.0
   reviews: 40
   icon: coin.ajaib.co.id.png
@@ -25,9 +25,9 @@ iphone:
   idd: '1634168301'
   appCountry: id
   released: 2022-08-16
-  updated: 2026-07-10
-  version: 2.101.0
-  reviews: 4240
+  updated: 2026-07-17
+  version: 2.102.0
+  reviews: 4264
   icon: id.ajaib-coin.co.jpg
   meta: ok
   verdict: custodial

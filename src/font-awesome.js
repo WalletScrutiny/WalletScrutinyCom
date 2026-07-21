@@ -6,11 +6,11 @@ import {
   faLinkedin,
   faGitlab,
   faDiscord,
-  faReddit,
   faGooglePlay,
   faGithub,
   faWindows,
-  faBitcoin
+  faBitcoin,
+  faApple
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faGlobe,
@@ -55,9 +55,17 @@ import {
   faSearch,
   faArrowRight,
   faClipboardCheck,
+  faCompass,
+  faBookOpen,
   faTags,
   faFolderOpen,
-  faCalendar
+  faCalendar,
+  faPen,
+  faLayerGroup,
+  faHome,
+   faHandPaper,
+  faHandshake,
+  faUserFriends
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -103,9 +111,17 @@ library.add(
   faSearch,
   faArrowRight,
   faClipboardCheck,
+  faCompass,
+  faBookOpen,
   faTags,
   faFolderOpen,
   faCalendar,
+  faPen,
+  faLayerGroup,
+  faHome,
+  faHandPaper,
+  faHandshake,
+  faUserFriends,
   // Brands
   faSquareXTwitter,
   faXTwitter,
@@ -113,11 +129,11 @@ library.add(
   faLinkedin,
   faGitlab,
   faDiscord,
-  faReddit,
   faGooglePlay,
   faGithub,
   faWindows,
-  faBitcoin
+  faBitcoin,
+  faApple
 );
 
 dom.watch();

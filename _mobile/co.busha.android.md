@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2019-01-21
   updated: 2026-06-29
-  version: 10.1.10
-  reviews: 212
+  version: 10.1.11
+  reviews: 213
   icon: co.busha.android.png
   meta: ok
   verdict: custodial

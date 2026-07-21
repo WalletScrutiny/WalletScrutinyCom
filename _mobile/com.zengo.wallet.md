@@ -20,7 +20,7 @@ android:
   released: 2020-01-19
   updated: 2026-07-06
   version: 10.0.5
-  reviews: 602
+  reviews: 603
   icon: com.zengo.wallet.png
   meta: ok
   verdict: nosource

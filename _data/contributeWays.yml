@@ -1,0 +1,39 @@
+- title: Create Verifications
+  icon: fa-clipboard-check
+  description: Build wallets from source and publish signed build verifications on Nostr so others can trust reproducible binaries.
+  link: /verifications/
+  linkText: Explore verifications
+
+- title: Spread the Word
+  icon: fa-share-alt
+  description: Talk about WalletScrutiny on X, Nostr, and Discord. Open conversation helps verify and improve wallet builds.
+  link: https://x.com/WalletScrutiny
+  linkText: Follow on X
+  external: true
+
+- title: Add Products
+  icon: fa-plus
+  description: Wallet providers and third parties can add new products or reviews. Detailed build instructions for source-available apps are especially valuable.
+  link: /howtoWriteAnAnalysis/
+  linkText: How to write an analysis
+
+- title: Write Reviews
+  icon: fa-gitlab
+  iconBrand: true
+  description: Found a review that needs updating? Clone the repository on GitLab, edit the wallet file, and open a merge request.
+  link: https://gitlab.com/walletscrutiny/walletScrutinyCom
+  linkText: Open on GitLab
+  external: true
+
+- title: Issue Tracker
+  icon: fa-toolbox
+  description: Help us track problems by creating, commenting on, or fixing issues in the public GitLab issue tracker.
+  link: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues
+  linkText: Browse issues
+  external: true
+
+- title: Fund the Project
+  icon: fa-donate
+  description: Support independent wallet security research through donations or grants so contributors can keep the project running.
+  link: /donate/
+  linkText: Donate

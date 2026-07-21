@@ -29,9 +29,9 @@ iphone:
   idd: '1095647938'
   appCountry: gb
   released: 2016-05-02
-  updated: 2026-07-02
-  version: 3.188.0
-  reviews: 1152
+  updated: 2026-07-16
+  version: 3.189.0
+  reviews: 1155
   icon: com.skrill.NETELLER.jpg
   meta: ok
   verdict: custodial

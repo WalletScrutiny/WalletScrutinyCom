@@ -12,8 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-07-21
-  updated: 2026-07-02
-  version: 1.2.1
+  updated: 2026-07-16
+  version: 1.2.2
   icon: com.coinrabbit.png
   meta: ok
   verdict: custodial

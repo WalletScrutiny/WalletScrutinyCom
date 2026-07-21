@@ -1,5 +1,5 @@
 ---
-title: 'AvaTrade: Trading & Investing'
+title: 'AvaTrade: Trading App'
 date: 2021-08-21
 authors:
 - danny
@@ -16,7 +16,7 @@ android:
   appCountry: us
   released: 2017-05-23
   updated: 2026-07-14
-  version: '168.7'
+  version: '168.9'
   reviews: 11
   icon: com.avatrade.mobile.png
   meta: ok

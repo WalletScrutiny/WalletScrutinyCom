@@ -32,7 +32,7 @@ iphone:
   released: 2020-05-25
   updated: 2026-07-09
   version: 4.8.1
-  reviews: 2475
+  reviews: 2487
   icon: com.bitazza.ios.jpg
   meta: ok
   verdict: custodial

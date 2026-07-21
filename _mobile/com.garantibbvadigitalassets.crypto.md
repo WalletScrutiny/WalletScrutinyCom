@@ -27,9 +27,9 @@ iphone:
   idd: '521117624'
   appCountry: us
   released: 2012-04-28
-  updated: 2026-07-01
-  version: '19.0'
-  reviews: 14444
+  updated: 2026-07-20
+  version: '19.1'
+  reviews: 14529
   icon: com.garanti.cepsube.jpg
   meta: ok
   verdict: custodial

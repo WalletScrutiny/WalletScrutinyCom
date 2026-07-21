@@ -14,8 +14,12 @@ export const SPINNER_TIMEOUT_MS = 60_000;
 export const SEARCH_WORKING_TIMEOUT_MS = 30_000;
 /** Max time for homepage search work after the debounce fires (filter + re-render). */
 export const HOMEPAGE_COMMON_SEARCH_MAX_MS = Number(process.env.HOMEPAGE_SEARCH_MAX_MS || 500);
+/** Max time for homepage pagination with a warm search cache (click to new cards visible). */
+export const HOMEPAGE_PAGINATION_MAX_MS = Number(process.env.HOMEPAGE_PAGINATION_MAX_MS || 200);
 /** Upper bound while waiting for debounce + search to finish (not the performance assertion). */
 export const HOMEPAGE_SEARCH_WAIT_TIMEOUT_MS = 15_000;
+/** Upper bound while waiting for pagination to finish (not the performance assertion). */
+export const HOMEPAGE_PAGINATION_WAIT_TIMEOUT_MS = 15_000;
 
 const IGNORED_CONSOLE_PATTERNS = [
   /^WebSocket connection to/,
@@ -159,6 +163,25 @@ export async function measureHomepageSearchAfterDebounce(page, queryText, timeou
 
   const startedAt = Date.now();
   await page.waitForFunction(() => document.querySelectorAll('.AppDisplayCard').length > 0, null, { timeout });
+  return Date.now() - startedAt;
+}
+
+/**
+ * Measure homepage pagination work after the search cache is warm (click to new cards visible).
+ * @param {Page} page
+ * @param {number} targetPage 1-based page number to navigate to
+ * @param {number} [timeout]
+ * @returns {Promise<number>} milliseconds from click until the first card title changes
+ */
+export async function measureHomepagePagination(page, targetPage, timeout = HOMEPAGE_PAGINATION_WAIT_TIMEOUT_MS) {
+  const firstTitle = await page.locator('.AppDisplayCard h3').first().textContent();
+  const pageIndex = targetPage - 1;
+  const startedAt = Date.now();
+  await page.locator(`.pagination .click-target[data-index="${pageIndex}"]`).click();
+  await page.waitForFunction((prev) => {
+    const h3 = document.querySelector('.AppDisplayCard h3');
+    return h3 && h3.textContent !== prev;
+  }, firstTitle ?? '', { timeout });
   return Date.now() - startedAt;
 }
 

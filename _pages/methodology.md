@@ -5,13 +5,24 @@ permalink: /methodology/
 author_profile: true
 ---
 
-<div class="tabulation-scroll-container">
-<div class="tabulation">
-  <div class="tab">Introduction</div>
-  <div class="tab tests-we-run">Tests we run</div>
-  <div class="tab">FAQ</div>
+<div class="info-landing-page guide-page methodology-page">
+
+<div class="methodology-hero">
+  <p class="methodology-lead">
+    How WalletScrutiny evaluates wallets: what we test, what we do not cover,
+    and how community build verifications fit into the review process.
+  </p>
 </div>
-</div>
+
+<nav class="methodology-tabs" aria-label="Methodology sections">
+  <div class="tabulation-scroll-container">
+    <div class="tabulation" role="tablist">
+      <button type="button" class="tab" role="tab" aria-selected="false">Introduction</button>
+      <button type="button" class="tab tests-we-run" role="tab" aria-selected="false">Tests we run</button>
+      <button type="button" class="tab" role="tab" aria-selected="false">FAQ</button>
+    </div>
+  </div>
+</nav>
 
 {% capture faq %}
   {% include methodology/faq.md %}
@@ -21,56 +32,73 @@ author_profile: true
 {% endcapture %}
 
 <div class="tab-payloads">
-  <div class="tab-container">{{ introduction | markdownify }}</div>
-  <div class="tab-container">{% include methodology/tests.html %}</div>
-  <div class="tab-container">{{ faq | markdownify }}</div>
+  <div class="tab-container" role="tabpanel">{{ introduction | markdownify }}</div>
+  <div class="tab-container" role="tabpanel">{% include methodology/tests.html %}</div>
+  <div class="tab-container" role="tabpanel">{{ faq | markdownify }}</div>
+</div>
+
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  const tabs = Array.from(document.querySelectorAll('.methodology-page .tabulation .tab'));
   let lastQuery = false;
-  function url(){
-    let urlPlatformCategory = false;
-    let urlIndex = 1;
-    if(window.location.search.indexOf('?')>=0){
-      const query = window.location.search.split('?');
 
-      let urlIndexCounter = 1;
-      let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1];
-      for(const tab of document.querySelectorAll(".tabulation .tab")){
-        if(tabQuery===tab.innerHTML.replace(/ /g, '-').toLowerCase()){
-          urlIndex = urlIndexCounter;
-          break;
+  function tabSlug(tab) {
+    return tab.textContent.trim().replace(/ /g, '-').toLowerCase();
+  }
+
+  function setActiveIndex(index) {
+    document.body.setAttribute('data-active-index', String(index));
+    tabs.forEach((tab, i) => {
+      tab.setAttribute('aria-selected', i + 1 === index ? 'true' : 'false');
+    });
+  }
+
+  function syncFromUrl() {
+    let urlIndex = 1;
+    let urlPlatformCategory = false;
+
+    if (window.location.search.indexOf('?') >= 0) {
+      const query = window.location.search.split('?')[1];
+      const tabQuery = query.indexOf('/') > 0 ? query.split('/')[0] : query;
+
+      tabs.forEach((tab, i) => {
+        if (tabQuery === tabSlug(tab)) {
+          urlIndex = i + 1;
         }
-        urlIndexCounter++
-      }
-      urlPlatformCategory = query[1].indexOf("/")>0?query[1].split("/")[1]:false;
+      });
+
+      urlPlatformCategory = query.indexOf('/') > 0 ? query.split('/')[1] : false;
     }
-    if (urlIndex == 2) {
-      processSelectedSubcategory(urlPlatformCategory);
+
+    setActiveIndex(urlIndex);
+
+    if (urlIndex === 2 && typeof window.processSelectedSubcategory === 'function') {
+      window.processSelectedSubcategory(urlPlatformCategory || undefined);
     }
-    document.body.setAttribute("data-active-index", urlIndex);
+
     lastQuery = window.location.search.split('?')[1];
   }
 
-  let index = 1;
-  for (const tab of document.querySelectorAll(".tabulation .tab")) {
-    tab.setAttribute("data-index", index);
-    tab.addEventListener("click", (event) => {
-      document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"));
-      const newQuery = event.target.innerHTML.replace(/ /g, '-').toLowerCase();
+  tabs.forEach((tab, i) => {
+    tab.setAttribute('data-index', String(i + 1));
+    tab.addEventListener('click', (event) => {
+      const index = Number(event.currentTarget.getAttribute('data-index'));
+      setActiveIndex(index);
+      const newQuery = tabSlug(event.currentTarget);
       if (lastQuery !== newQuery) {
         window.history.pushState('data', null, `/methodology/?${newQuery}`);
       }
       lastQuery = window.location.search.split('?')[1];
     });
-    index++;
-  }
-  url();
-  window.addEventListener("popstate", (event) => {
-    console.log(event, lastQuery, window.location.search.split('?')[1]);
+  });
+
+  syncFromUrl();
+
+  window.addEventListener('popstate', () => {
     if (lastQuery !== window.location.search.split('?')[1]) {
-      url();
+      syncFromUrl();
     }
   });
 });

@@ -27,8 +27,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-11-11
-  updated: 2026-07-15
-  version: 2.7.0
+  updated: 2026-07-16
+  version: 2.7.1
   reviews: 43
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
@@ -43,7 +43,7 @@ iphone:
   released: 2021-12-16
   updated: 2026-07-14
   version: 2.7.0
-  reviews: 491
+  reviews: 493
   icon: io.nunchuk.ios.jpg
   meta: ok
   verdict: nosource
