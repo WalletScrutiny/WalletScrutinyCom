@@ -1,6 +1,6 @@
 ---
 title: Trust Vault Crypto Web3 Wallet
-date: 2026-01-14
+date: 2026-07-21
 website: http://trustvault-app.com
 redirect_from:
 - /android/com.trustvault.wallet/

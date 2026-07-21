@@ -1,6 +1,6 @@
 ---
 title: 'Backpack: Buy SOL, BTC, Crypto'
-date: 2025-11-09
+date: 2026-07-21
 authors:
 - danny
 website: https://backpack.app

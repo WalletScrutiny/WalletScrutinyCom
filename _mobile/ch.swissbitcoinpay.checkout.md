@@ -1,7 +1,7 @@
 ---
 wsId: swissBitcoinPay
 title: Swiss Bitcoin Pay
-date: 2024-02-28
+date: 2026-07-21
 authors:
 - danny
 - keraliss
@@ -43,7 +43,7 @@ iphone:
   reviews: 1
   icon: ch.swissbitcoinpay.checkout.jpg
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Swiss Bitcoin Pay Sarl
   repository: https://github.com/SwissBitcoinPay/app
 
@@ -64,9 +64,3 @@ The project is open source under the MIT License and is structured for cross-pla
 {% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2023 Swiss Bitcoin Pay Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
 
 An issue has been opened at [https://github.com/SwissBitcoinPay/app/issues/53](https://github.com/SwissBitcoinPay/app/issues/53)
-
----
-
-## iPhone
-
-{% include copyFromAndroid.html %}
