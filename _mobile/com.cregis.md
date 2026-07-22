@@ -34,8 +34,6 @@ iphone:
 
 ---
 
-## Android
-
 ## App Description
 
 Cregis is a digital asset wallet and payment application published by Cregis Technology Limited and distributed for Android and iOS under the identifier `com.cregis`. The developer describes it as an enterprise-oriented, self-custodial MPC wallet in which private keys are split into shards held across multiple user devices, supporting BTC, ETH, USDT and USDC across a stated 40+ networks. The store listings further describe a crypto payment engine with SDK and API access, a TRON energy purchasing service offered as an alternative to staking TRX, and a multi-user account management suite with role-based permissions.

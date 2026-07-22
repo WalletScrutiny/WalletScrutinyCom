@@ -35,8 +35,6 @@ iphone:
   developerName: Appia Solutions DMCC
 ---
 
-## Android
-
 ## App Description
 
 Jiggle Wallet is a closed-source cryptocurrency wallet supporting Bitcoin, Ethereum, Bitcoin Cash, Litecoin, USDT (ERC20), and USDC (ERC20). The app claims to use facial biometric security for wallet backup and restore, stating users can "restore at any time and only ever by you" without seed phrases or passwords.
@@ -53,13 +51,15 @@ Jiggle's support has stated they "do not store or have access to your private ke
 
 ## Previous Analysis Nov 2025
 
-Our [testing](https://x.com/BitcoinWalletz/status/1990967565913649310) shows that the app is in the process of deprecation. Once the app is installed, it simply redirects to their website. Hence, our analysis stops there.
+*The following reflects our November 2025 testing and no longer describes the current app. It is retained for historical context only; the current verdict is set by the retest in the Analysis section above.*
+
+Our [testing](https://x.com/BitcoinWalletz/status/1990967565913649310) at the time showed the app to be in the process of deprecation: once installed, it simply redirected to their website, and our analysis stopped there.
 
 However, a cursory search shows that there's quite a number of people who are not happy with this app.
 
 Multiple user reviews on [Trustpilot](https://www.trustpilot.com/review/jiggle.app) report permanent loss of funds after losing access to their QR code backups, with Jiggle support confirming they "do not store or have access to your private keys" and cannot assist in fund recovery.
 
-We're marking this app as deprecated, pending a new app as they announced.
+On that basis we had marked the app as deprecated, pending the new release they announced. The app has since returned to a functioning state and is assessed as **custodial** in the Analysis section above.
 
 **Some trustpilot reviews:**
 

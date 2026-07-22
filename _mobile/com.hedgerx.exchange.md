@@ -31,8 +31,6 @@ iphone:
 
 ---
 
-## Android
-
 ## App Description
 
 HedgerX is a digital asset trading application published by HedgerX, distributed for Android as `com.hedgerx.exchange` and for iOS as `com.hedgerx.Innovation`. The Google Play listing describes the product as a centralised exchange offering spot trading in BTC, ETH, SOL and XRP across more than ten trading pairs, and identifies perpetual contracts and other derivatives as its principal focus. The listing makes no claim that users control their own private keys, and describes no wallet backup, recovery phrase, or key export functionality.

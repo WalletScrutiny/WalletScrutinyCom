@@ -4,6 +4,7 @@ date: 2026-07-21
 website: https://coinceeper.com/
 redirect_from:
 - /android/com.coinceeper.adl/
+- /iphone/com.coinceeper.adl/
 android:
   appId: com.coinceeper.adl
   users: 1000
@@ -15,6 +16,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Taparam
+  repository: https://github.com/coinceeper/Coincepper-wallet
 iphone:
   appId: com.coinceeper.adl
   idd: '6749888477'
@@ -27,6 +29,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: TAPARAM ELIPTIK TEKNOLOJI VE YAZILIM ANONIM SIRKETI
+  repository: https://github.com/coinceeper/Coincepper-wallet
 
 ---
 
@@ -50,7 +53,7 @@ We assign the verdict **sourceavailable**: source for the app is published, but 
 
 ## Analysis
 
-Two findings from the published source require attention before any verdict is assigned.
+Beyond the `sourceavailable` verdict assigned above, two findings from the published source warrant attention on their own — they bear on user safety regardless of whether the source is shown to match the shipped binaries.
 
 **1. Undisclosed advertising-automation code.** The Flutter repository contains Android classes with no plausible role in a cryptocurrency wallet:
 
