@@ -46,7 +46,7 @@ iphone:
   reviews: 3592
   icon: com.bitpay.wallet.jpg
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: BitPay, Inc.
   repository: https://github.com/bitpay/bitpay-app
 

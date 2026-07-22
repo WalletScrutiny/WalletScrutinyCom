@@ -22,6 +22,7 @@ features:
 - segwit
 redirect_from:
 - /android/com.bullbitcoin.mobile/
+- /iphone/com.bullbitcoin.app/
 android:
   appId: com.bullbitcoin.mobile
   users: 10000
@@ -34,6 +35,19 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Bull Bitcoin
+  repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
+iphone:
+  appId: com.bullbitcoin.app
+  idd: '6743380972'
+  appCountry: us
+  released: 2025-09-29
+  updated: 2026-07-15
+  version: 6.12.2
+  reviews: 20
+  icon: com.bullbitcoin.app.jpg
+  meta: ok
+  verdict: sourceavailable
+  developerName: Satoshi Portal Inc
   repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 
 ---
