@@ -356,20 +356,36 @@
   display: flex;
   width: 100%;
   height: 1.25rem;
+  margin-block: 0.35rem;
   border-radius: 999px;
-  overflow: hidden;
+  overflow: visible;
   background: var(--neutral-5);
   box-shadow: inset 0 1px 2px var(--shadow-1);
 }
 
 .home-breakdown__segment {
+  position: relative;
   min-width: 2px;
   height: 100%;
   transition:
     opacity 0.2s ease,
     filter 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
   cursor: default;
+  transform-origin: center;
+
+  &:first-child {
+    border-radius: 999px 0 0 999px;
+  }
+
+  &:last-child {
+    border-radius: 0 999px 999px 0;
+  }
+
+  &:first-child:last-child {
+    border-radius: 999px;
+  }
 
   .home-breakdown.is-dimmed &:not(.is-highlighted) {
     opacity: 0.18;
@@ -377,8 +393,11 @@
   }
 
   &.is-highlighted {
+    z-index: 1;
     opacity: 1;
     filter: brightness(1.35) saturate(1.25);
+    transform: scale(1.12, 1.7);
+    border-radius: 4px;
     box-shadow:
       inset 0 0 0 1px rgba(255, 255, 255, 0.55),
       0 0 10px rgba(255, 255, 255, 0.35);
@@ -392,15 +411,15 @@
     0 0 12px rgba(255, 255, 255, 0.25);
 }
 
-.home-breakdown__segment--allPassed { background: var(--good); }
-.home-breakdown__segment--codeIssues { background: var(--orange); }
-.home-breakdown__segment--custodials { background: var(--indifferent); }
-.home-breakdown__segment--nonTransferable { background: var(--blue); }
-.home-breakdown__segment--noSource { background: var(--bad); }
-.home-breakdown__segment--keyHandling { background: var(--rust); }
-.home-breakdown__segment--notRelevant { background: var(--neutral-3); }
-.home-breakdown__segment--fakes { background: var(--cb-red); }
-.home-breakdown__segment--wips { background: var(--accent); }
+.home-breakdown__segment--allPassed { background: var(--breakdown-all-passed); }
+.home-breakdown__segment--codeIssues { background: var(--breakdown-code-issues); }
+.home-breakdown__segment--custodials { background: var(--breakdown-custodials); }
+.home-breakdown__segment--nonTransferable { background: var(--breakdown-non-transferable); }
+.home-breakdown__segment--noSource { background: var(--breakdown-no-source); }
+.home-breakdown__segment--keyHandling { background: var(--breakdown-key-handling); }
+.home-breakdown__segment--notRelevant { background: var(--breakdown-not-relevant); }
+.home-breakdown__segment--fakes { background: var(--breakdown-fakes); }
+.home-breakdown__segment--wips { background: var(--breakdown-wips); }
 
 .home-breakdown__legend {
   list-style: none;
@@ -473,15 +492,15 @@
   }
 }
 
-.home-breakdown__swatch--allPassed { background: var(--good); }
-.home-breakdown__swatch--codeIssues { background: var(--orange); }
-.home-breakdown__swatch--custodials { background: var(--indifferent); }
-.home-breakdown__swatch--nonTransferable { background: var(--blue); }
-.home-breakdown__swatch--noSource { background: var(--bad); }
-.home-breakdown__swatch--keyHandling { background: var(--rust); }
-.home-breakdown__swatch--notRelevant { background: var(--neutral-3); }
-.home-breakdown__swatch--fakes { background: var(--cb-red); }
-.home-breakdown__swatch--wips { background: var(--accent); }
+.home-breakdown__swatch--allPassed { background: var(--breakdown-all-passed); }
+.home-breakdown__swatch--codeIssues { background: var(--breakdown-code-issues); }
+.home-breakdown__swatch--custodials { background: var(--breakdown-custodials); }
+.home-breakdown__swatch--nonTransferable { background: var(--breakdown-non-transferable); }
+.home-breakdown__swatch--noSource { background: var(--breakdown-no-source); }
+.home-breakdown__swatch--keyHandling { background: var(--breakdown-key-handling); }
+.home-breakdown__swatch--notRelevant { background: var(--breakdown-not-relevant); }
+.home-breakdown__swatch--fakes { background: var(--breakdown-fakes); }
+.home-breakdown__swatch--wips { background: var(--breakdown-wips); }
 
 .home-breakdown__legend-title {
   flex: 1;
