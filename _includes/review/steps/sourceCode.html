@@ -4,6 +4,8 @@
     {% assign has_source_repo = true %}
   {% elsif page.iphone.repository and page.iphone.repository != '' %}
     {% assign has_source_repo = true %}
+  {% elsif page.repository and page.repository != '' %}
+    {% assign has_source_repo = true %}
   {% endif %}
   {% if has_source_repo %}
   <i class="i-code circle"></i>
@@ -46,6 +48,13 @@
       {% assign name = split[0] | split:"." %}
       {% assign name = name[0] %}
       <a href="{{ page.iphone.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.repository and page.repository != '' %}
+      {{'Public on '}}
+      {% assign string = page.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
     {% else %}
       {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
       {% assign step_verdict = include.verdict | default: page.verdict %}
