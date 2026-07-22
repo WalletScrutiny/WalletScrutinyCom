@@ -2,19 +2,18 @@ stages:
   - test
   - maintenance
 
+# Do not create pipelines on push/MR/schedule. Only when started from
+# CI/CD → Pipelines → Run pipeline (source: web).
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never
+
 default:
   image: node:22
 
-.node-test-rules:
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-      when: manual
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      when: manual
-
 test:main:
   stage: test
-  extends: .node-test-rules
   cache:
     key:
       files:
@@ -28,7 +27,6 @@ test:main:
 
 test:e2e:
   stage: test
-  extends: .node-test-rules
   image: mcr.microsoft.com/playwright:v1.50.1-noble
   cache:
     - key:
@@ -60,7 +58,6 @@ test:e2e:
 
 test:build-server:
   stage: test
-  extends: .node-test-rules
   cache:
     - key:
         files:
