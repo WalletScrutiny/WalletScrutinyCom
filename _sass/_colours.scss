@@ -39,6 +39,16 @@
   --light-blue: #0064ff;
   --reproducible-badge: url(/images/reproducible-2-dark.svg);
   --masthead-text: var(--neutral-0);
+  // Homepage verdict breakdown: distinct hues so adjacent legend items don't look alike
+  --breakdown-all-passed: var(--good);
+  --breakdown-code-issues: var(--orange);
+  --breakdown-custodials: #3b6ea8;
+  --breakdown-non-transferable: #7c3aed;
+  --breakdown-no-source: #d02222;
+  --breakdown-key-handling: #ca8a04;
+  --breakdown-not-relevant: var(--neutral-3);
+  --breakdown-fakes: #9f1239;
+  --breakdown-wips: var(--accent);
 }
 
 .light {
@@ -87,6 +97,15 @@
   --neutral-2: #c4c4c4;
   --neutral-1: #dddddd;
   --neutral-0: #fafafa;
+  --breakdown-all-passed: var(--good);
+  --breakdown-code-issues: var(--orange);
+  --breakdown-custodials: #60a5fa;
+  --breakdown-non-transferable: #c084fc;
+  --breakdown-no-source: #f87171;
+  --breakdown-key-handling: #fbbf24;
+  --breakdown-not-relevant: var(--neutral-3);
+  --breakdown-fakes: #be123c;
+  --breakdown-wips: var(--accent);
 }
 
 .grey {

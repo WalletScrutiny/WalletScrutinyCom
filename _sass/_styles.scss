@@ -765,7 +765,7 @@ table tr td label {
   align-items: center;
   font-weight: 500;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: 48px;
 }
 
@@ -911,8 +911,8 @@ table tr td label {
   grid-row: 1/2;
   display: grid;
   grid-auto-flow: row;
-  grid-row-gap: 10px;
-  align-content: start;
+  grid-row-gap: 18px;
+  align-content: center;
 }
 
 .app-summary-grid .app-sum-head .version {
