@@ -93,7 +93,8 @@ function renderMobileHashCells(sha256Hashes, allHashes = sha256Hashes) {
   }
   return sha256Hashes.map(hash => `
     <div class="hash-row">
-      ${renderHashCopyButton(hash[1])}<span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
+      <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
+      ${renderHashCopyButton(hash[1])}
     </div>`).join('') + renderCopyAllHashesButton(allHashes);
 }
 
@@ -516,10 +517,10 @@ export function paintMainAssetsTable({
 
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${mobileHashes}</span>` : walletTitle}
+          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${mobileHashes}</span>
+          ${version}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile hash-cell">${desktopHashes}</td>`}
