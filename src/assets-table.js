@@ -136,7 +136,7 @@ function setupSearchUI(htmlElementId, {
           </label>
         </div>
       </div>
-      <label class="assets-search-checkbox-label" style="display: ${enableDraftsFilter ? 'flex' : 'none'};">
+      <label class="assets-search-checkbox-label assets-hide-drafts-label" style="display: ${enableDraftsFilter ? 'flex' : 'none'};">
         <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
         <span>Hide others' drafts</span>
       </label>

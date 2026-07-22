@@ -130,6 +130,11 @@ body.dark .assets-table-widget {
     flex-direction: column;
     gap: 4px;
   }
+
+  // Inline display (enableDraftsFilter) must be overridden on mobile.
+  .assets-table-widget .assets-hide-drafts-label {
+    display: none !important;
+  }
 }
 
 .assets-table-widget .issue-tracker-container {
