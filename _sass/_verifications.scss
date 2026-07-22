@@ -130,6 +130,11 @@ body.dark .assets-table-widget {
     flex-direction: column;
     gap: 4px;
   }
+
+  // Inline display (enableDraftsFilter) must be overridden on mobile.
+  .assets-table-widget .assets-hide-drafts-label {
+    display: none !important;
+  }
 }
 
 .assets-table-widget .issue-tracker-container {
@@ -764,10 +769,57 @@ body.dark .verification-draft-badge {
 @media screen and (max-width: 480px) {
   .assets-table-widget .assets-table {
     font-size: 0.75em;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .assets-table-widget .assets-table thead th:not(.hide-on-mobile),
+  .assets-table-widget .assets-table tbody td:not(.hide-on-mobile) {
+    width: 50%;
+    // Override inline max-width on the wallet column.
+    max-width: 50% !important;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .assets-table-widget .assets-search-container {
     padding: 12px;
+  }
+
+  .assets-table-widget .asset-description-mobile {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 8px;
+  }
+
+  .assets-table-widget .verification-cell {
+    min-width: 0;
+  }
+
+  .assets-table-widget .verification-card {
+    width: 100%;
+  }
+
+  .assets-table-widget .verification-card__layout {
+    gap: 8px;
+    padding: 6px 8px;
+    min-height: 48px;
+  }
+
+  .assets-table-widget .hash-row {
+    --hash-row-height: 28px;
+    gap: 6px;
+    max-width: 100%;
+  }
+
+  // Fit sha256 into the first half-column (copy btn + truncated hash).
+  .assets-table-widget .hash-display {
+    flex: 1 1 auto;
+    max-width: none;
+    min-width: 0;
+    font-size: 0.82em;
+    padding: 0 6px;
   }
 }
 
@@ -1276,6 +1328,40 @@ body.dark .issue-tracker-container {
 .issue-tracker-container p {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.issue-tracker-container ul {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.issue-tracker-container li:last-child {
+  margin-bottom: 0;
+}
+
+.issue-tracker-container > small {
+  display: block;
+}
+
+.issue-tracker-date-short,
+.issue-tracker-url-short {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .issue-tracker-container > small {
+    line-height: 1.15;
+  }
+
+  .issue-tracker-date-full,
+  .issue-tracker-url-full {
+    display: none;
+  }
+
+  .issue-tracker-date-short,
+  .issue-tracker-url-short {
+    display: inline;
+  }
 }
 /* You Will Lose Endorsements Div */
 #youWillLoseEndorsements {

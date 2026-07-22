@@ -49,13 +49,50 @@
       .share-nostr-close { color: #535353; float: right; font-size: 44px; font-weight: bold; cursor: pointer; margin-top: -23px; }
       .share-nostr-close:hover { color: black; }
       .share-nostr-modal-content h2 { margin-top: 0; margin-bottom: 0; }
-      .shareButtonNetwork { text-decoration: none !important; margin-right: 10px; flex: 1; }
+      .shareButtonContainer:has(#rawShareButtons) {
+        display: block !important;
+        width: 100%;
+      }
+      .shareButtonNetwork {
+        text-decoration: none !important;
+        margin-right: 0;
+        flex: 1 1 0;
+        min-width: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+      }
       .share-buttons-container { display: flex; flex-direction: row; width: 100%; justify-content: space-between; margin: auto; padding: auto; justify-items: center; }
       .network-text { margin-left: 10px; }
-      @media (max-width: 768px) { .network-text { display: none; } }
-      #rawShareButtons { flex-direction: row; width: 100%; }
+      #rawShareButtons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 8px;
+        box-sizing: border-box;
+      }
       .shareButtonNetwork img, .shareButtonNetwork i { margin-right: 6px; }
       .shareButtonNetwork svg { font-size: 23px; }
+      @media (max-width: 768px) {
+        .network-text { display: none; }
+        #rawShareButtons { gap: 6px; }
+        .shareButtonNetwork.btn {
+          padding: 8px 4px;
+        }
+        .shareButtonNetwork img,
+        .shareButtonNetwork i {
+          margin-right: 0;
+        }
+        .shareButtonNetwork img {
+          width: 22px;
+          height: 22px;
+        }
+        .shareButtonNetwork svg {
+          font-size: 20px;
+        }
+      }
       .shareButtonContainer .dropdown { position: relative; display: inline-block; }
       .shareButtonContainer .share-dropdown-menu {
         display: none;
@@ -143,7 +180,10 @@
 
     let html = "";
     if (showRawButtons) {
-      html += `<h4 class="page__share-title">${showOnLabel}</h4><br/><div id="rawShareButtons">${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}</div>`;
+      const labelHtml = showOnLabel
+        ? `<h4 class="page__share-title">${showOnLabel}</h4>`
+        : "";
+      html += `${labelHtml}<div id="rawShareButtons">${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}</div>`;
     } else {
       const pulseClass = pulseAttention ? ' share-dropdown-trigger--pulse' : '';
       html += `
