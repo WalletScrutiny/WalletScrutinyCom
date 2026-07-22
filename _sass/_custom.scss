@@ -851,8 +851,7 @@
 }
 
 .methodology-tests-list {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  grid-column: 1 / -1;
   display: grid;
   gap: 2px;
   @media (max-width: 600px) {

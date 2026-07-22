@@ -1277,6 +1277,40 @@ body.dark .issue-tracker-container {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+.issue-tracker-container ul {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.issue-tracker-container li:last-child {
+  margin-bottom: 0;
+}
+
+.issue-tracker-container > small {
+  display: block;
+}
+
+.issue-tracker-date-short,
+.issue-tracker-url-short {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .issue-tracker-container > small {
+    line-height: 1.15;
+  }
+
+  .issue-tracker-date-full,
+  .issue-tracker-url-full {
+    display: none;
+  }
+
+  .issue-tracker-date-short,
+  .issue-tracker-url-short {
+    display: inline;
+  }
+}
 /* You Will Lose Endorsements Div */
 #youWillLoseEndorsements {
   margin-bottom: 15px;

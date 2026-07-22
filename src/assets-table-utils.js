@@ -102,6 +102,21 @@ function extractGitHubIssueInfo(url) {
   return null;
 }
 
+function extractIssueNumberFromUrl(url) {
+  try {
+    const segments = new URL(url).pathname.split('/').filter(Boolean);
+    const lastSegment = segments[segments.length - 1];
+    return /^\d+$/.test(lastSegment) ? lastSegment : null;
+  } catch {
+    return null;
+  }
+}
+
+function getIssueTrackerLinkLabel(url) {
+  const issueNumber = extractIssueNumberFromUrl(url);
+  return issueNumber ? `Issue #${issueNumber}` : url;
+}
+
 async function getGitHubIssueStatus(issueInfo) {
   try {
     const url = `https://api.github.com/repos/${issueInfo.owner}/${issueInfo.repo}/issues/${issueInfo.number}`;
@@ -192,12 +207,12 @@ export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlE
     issueTrackerContainer.className = 'issue-tracker-container';
     issueTrackerContainer.innerHTML = `
       <p>Issue Tracker Info</p>
-      <small>Issues opened by verifiers while reproducing different versions. Most recent first. Check before starting a new verification.</small>
+      <small>Issues opened by verifiers while reproducing different versions. Check before starting a new verification.</small>
       <ul id="issue-tracker-list">
         ${filteredIssues.map((info, index) => `
           <li id="issue-item-${index}">
-            ${formatDate(info.createdAt)} - ${info.version} - 
-            <a href="${info.issueTrackerUrl}" target="_blank">${info.issueTrackerUrl}</a>
+            <span class="issue-tracker-date-full">${formatDate(info.createdAt)}</span><span class="issue-tracker-date-short">${formatDate(info.createdAt, true)}</span> - ${info.version} -
+            <a href="${info.issueTrackerUrl}" target="_blank"><span class="issue-tracker-url-full">${info.issueTrackerUrl}</span><span class="issue-tracker-url-short">${getIssueTrackerLinkLabel(info.issueTrackerUrl)}</span></a>
           </li>
         `).join('')}
       </ul>`;

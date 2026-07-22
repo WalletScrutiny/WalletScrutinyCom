@@ -6,6 +6,9 @@
   margin: 10px 0;
   font-size: 17px;
   max-width: 80vw;
+  .steps .step & {
+    max-width: none;
+  }
   &.accordion-body {
     p:first-of-type {
       margin-top: 0;
@@ -174,7 +177,7 @@
 
 .steps .step .data .distribution-store-links {
   margin-top: 0;
-  justify-content: flex-end;
+  justify-content: flex-start;
 
   .distribution-store-link {
     font-size: 0.94em;
@@ -353,59 +356,41 @@
 }
 .steps {
   font-size: 17px;
-  &.linked {
-    position: relative;
-    &::before {
-      content: "";
-      height: calc(100% - 60px);
-      width: 1px;
-      position: absolute;
-      left: 20px;
-      top: 20px;
-      background: linear-gradient(transparent 50%, var(--text) 50%);
-      background-size: 10px 9px;
-      background-repeat: repeat-y;
-      z-index: -1;
-    }
-  }
   .step {
     display: grid;
-    grid-template: 1fr / 40px 1fr auto 16px;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
-    gap: 10px;
+    column-gap: 12px;
+    row-gap: 14px;
     position: relative;
-    .wide {
-      grid-column: 1/5;
+    padding: 8px 0 4px;
+
+    > *:not(.circle):not(.title):not(.data),
+    .wide,
+    .methodology-tests-list,
+    .mobile-platform-scope,
+    .mobile-platform-tabs {
+      grid-column: 1 / -1;
     }
+
     &:not(:last-of-type) {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
+      margin-bottom: 12px;
+      padding-bottom: 28px;
       &::after {
         content: "";
         position: absolute;
         height: 1px;
         background: var(--text);
-        width: calc(100% - 40px);
-        right: 0;
+        width: 100%;
+        left: 0;
         bottom: 0;
         opacity: 0.2;
       }
     }
-    &:last-of-type {
-      &::after {
-        content: "";
-        background: linear-gradient(var(--wallet-solid)-3000vh, var(--body));
-        position: absolute;
-        width: 3px;
-        height: 100%;
-        left: 19px;
-      }
-      &:not(:last-of-type) {
-        margin-bottom: 60px;
-      }
-    }
     .circle {
+      grid-column: 1;
+      grid-row: 1;
+      align-self: center;
       color: var(--body);
       font-size: 18px;
       text-align: center;
@@ -414,7 +399,6 @@
       height: 40px;
       width: 40px;
       line-height: 40px;
-      margin-bottom: auto;
       &::after {
         content: "";
         height: 100%;
@@ -436,9 +420,16 @@
       }
     }
     .title {
-      @media (max-width: 500px) {
-        grid-row: 1/2;
-        grid-column: 2/5;
+      // Let heading sit beside the icon; body content spans full width below.
+      display: contents;
+      > h2,
+      > h3 {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: center;
+      }
+      > *:not(h2):not(h3) {
+        grid-column: 1 / -1;
       }
       > h2 {
         font-size: 24px;
@@ -462,16 +453,14 @@
       }
     }
     .data {
-      @media (max-width: 500px) {
-        grid-row: 2/3;
-        grid-column: 2/5;
-        justify-content: start;
-      }
+      grid-column: 3;
+      grid-row: 1;
+      align-self: center;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       gap: 10px;
-      justify-content: end;
+      justify-content: flex-end;
       a {
         text-decoration: none;
         font-size: 17px;
@@ -483,12 +472,6 @@
         color: var(--accent-text);
       }
       &.score-data {
-        @media (max-width: 800px) {
-          position: absolute;
-          right: 10px;
-          top: 5px;
-          grid-row: 1/2 !important;
-        }
         .score {
           div {
             max-width: 40vw;
