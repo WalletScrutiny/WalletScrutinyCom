@@ -1,11 +1,19 @@
 ---
+layout: archive
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<h2 class="section-label">As featured on:</h2>
+
+<div class="publications-page">
+
+<div class="publications-hero">
+  <p class="publications-lead">
+    Podcasts, interviews, and media appearances about WalletScrutiny’s work on
+    open-source wallet scrutiny.
+  </p>
+</div>
 
 {% include press.html full="true" %}
 
-{% assign recent_posts = site.mobile | concat: site.hardware | concat: site.bearer | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
-
-
+</div>

@@ -1,265 +1,124 @@
 {% if include.full %}
-{% assign truncatedStyle = '' %}
 {% assign truncatedClass = '' %}
+{% assign controlsHidden = false %}
 {% else %}
-{% assign truncatedStyle = 'style="opacity:0;pointer-events:none;position: absolute;"' %}
 {% assign truncatedClass = 'truncated' %}
+{% assign controlsHidden = true %}
 {% endif %}
 
 <script>
-function fpress(el) {
-  document.querySelector(`.press-button-holder-${el}`).classList.toggle('activated');
-  document.querySelector(`#press_button_${el}`).classList.toggle('activated');
-  document.querySelectorAll(`.press.${el}`).forEach(elem => {
-    elem.classList.toggle('hidden');
+function syncPressLanguageFilters() {
+  const active = new Set();
+  document.querySelectorAll('.press-filter-btn').forEach(button => {
+    if (button.getAttribute('aria-pressed') === 'true') {
+      const lang = button.id.replace('press_button_', '');
+      if (lang) active.add(lang);
+    }
+  });
+
+  document.querySelectorAll('.press-card').forEach(card => {
+    const lang = ['EN', 'DE', 'NL', 'ES'].find(code => card.classList.contains(code));
+    const show = !lang || active.has(lang);
+    card.classList.toggle('press-card--filtered-out', !show);
   });
 }
 
-function showAllPublications(self){
-  self.style.display="none";
-  document.querySelector('.press-container.truncated').classList.remove('truncated');
-  document.querySelector('.press-controls').removeAttribute('style');
+function fpress(el) {
+  const holder = document.querySelector(`.press-button-holder-${el}`);
+  const button = document.querySelector(`#press_button_${el}`);
+  if (!holder || !button) return;
+
+  const isActive = holder.classList.toggle('activated');
+  button.classList.toggle('activated', isActive);
+  button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+  syncPressLanguageFilters();
+}
+
+function showAllPublications(self) {
+  self.style.display = 'none';
+  const container = document.querySelector('.press-container.truncated');
+  if (container) container.classList.remove('truncated');
+  const controls = document.querySelector('.press-controls');
+  if (controls) controls.classList.remove('press-controls--hidden');
 }
 </script>
 
-<div class="page-section" id="featuredOn">
-  <div {{truncatedStyle}} class="press-controls">
-    <div class="press-button-holder press-button-holder-EN activated">
-      <i class="fas fa-check check"></i>
-      <input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
+<div class="page-section press-section" id="featuredOn">
+  <div class="press-controls{% if controlsHidden %} press-controls--hidden{% endif %}" role="group" aria-label="Filter by publication language">
+    <p class="press-help-text">Filter by publication language.</p>
+    <div class="press-filters">
+      <div class="press-button-holder press-button-holder-EN activated">
+        <button type="button" class="press-filter-btn activated" id="press_button_EN" aria-pressed="true" onclick="fpress('EN');">
+          <i class="fas fa-check check" aria-hidden="true"></i>
+          English
+        </button>
+      </div>
+      <div class="press-button-holder press-button-holder-DE activated">
+        <button type="button" class="press-filter-btn activated" id="press_button_DE" aria-pressed="true" onclick="fpress('DE');">
+          <i class="fas fa-check check" aria-hidden="true"></i>
+          Deutsch
+        </button>
+      </div>
+      <div class="press-button-holder press-button-holder-NL activated">
+        <button type="button" class="press-filter-btn activated" id="press_button_NL" aria-pressed="true" onclick="fpress('NL');">
+          <i class="fas fa-check check" aria-hidden="true"></i>
+          Nederlands
+        </button>
+      </div>
+      <div class="press-button-holder press-button-holder-ES activated">
+        <button type="button" class="press-filter-btn activated" id="press_button_ES" aria-pressed="true" onclick="fpress('ES');">
+          <i class="fas fa-check check" aria-hidden="true"></i>
+          Español
+        </button>
+      </div>
     </div>
-    <div class="press-button-holder press-button-holder-DE activated">
-      <i class="fas fa-check check"></i>
-      <input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
-    </div>
-    <div class="press-button-holder press-button-holder-NL activated">
-      <i class="fas fa-check check"></i>
-      <input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
-    </div>
-    <div class="press-button-holder press-button-holder-ES activated">
-      <i class="fas fa-check check"></i>
-      <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
-    </div>
-    <span class="help-text">Filter by publication language.</span>
   </div>
 
-<div class="press-container {{truncatedClass}}">
+  <div class="press-container {{ truncatedClass }}">
 {% for p in site.press reversed %}
-<a class="press {{ p.language }} {{ p.format }}" href="{{ p.link }}" title="{{ p.platform }}
-{{ p.publicationName }}
-{{ p.date  | date: '%Y-%m-%d' }}
-published by {{ p.author }}
-language: {{ p.language }}
-format: {{ p.format }}
-{{ p.content | strip_html }}">
-  <div>
-    <span class="press-img"
-      style="background-image:url({{ site.baseurl }}/images/press/{{ p.image }});"
-      alt="{{ p.platform }} {{ p.publicationName }}"
-      ></span>
-    <span class="press-summary">
-    <span class="title">{{ p.platform }}</span> 
-      <span class="subtitle">{{p.publicationName }}</span> 
-      <span class="details">{{ p.content | strip_html }}</span>
-      <span class="info">
-        <span>Released: {{ p.date  | date: '%Y-%m-%d' }}</span>
-        <span class="{{ p.language }}"></span>
-        <span>Format: {{ p.format }}</span>
+{% assign language_label = p.language %}
+{% if p.language == 'EN' %}{% assign language_label = 'English' %}{% endif %}
+{% if p.language == 'DE' %}{% assign language_label = 'Deutsch' %}{% endif %}
+{% if p.language == 'NL' %}{% assign language_label = 'Nederlands' %}{% endif %}
+{% if p.language == 'ES' %}{% assign language_label = 'Español' %}{% endif %}
+{% assign details = p.content | strip_html | strip %}
+    <a class="press-card {{ p.language }} {{ p.format }}" href="{{ p.link }}" target="_blank" rel="noopener noreferrer">
+      <img
+        class="press-card__img"
+        src="{{ site.baseurl }}/images/press/{{ p.image }}"
+        alt="{{ p.platform }} — {{ p.publicationName }}"
+        loading="lazy"
+        width="200"
+        height="200"
+      >
+      <span class="press-card__body">
+        <span class="press-card__title">{{ p.platform }}</span>
+        <span class="press-card__subtitle">{{ p.publicationName }}</span>
+        {% if details != '' %}
+        <span class="press-card__details">{{ details }}</span>
+        {% endif %}
+        <span class="press-card__meta">
+          <span class="press-card__chip">{{ p.date | date: '%Y-%m-%d' }}</span>
+          <span class="press-card__chip">{{ language_label }}</span>
+          {% if p.format %}
+          <span class="press-card__chip press-card__chip--format">{{ p.format }}</span>
+          {% endif %}
+          {% if p.transcript %}
+          <span class="press-card__chip press-card__chip--transcript">Transcript</span>
+          {% endif %}
+        </span>
+        {% if p.author %}
+        <span class="press-card__author">by {{ p.author }}</span>
+        {% endif %}
       </span>
-    </span>
-  </div>
-</a>
+    </a>
 {% endfor %}
+  </div>
+
+{% unless include.full %}
+  <button type="button" class="press-view-all" onclick="showAllPublications(this)">
+    View all publications
+    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+  </button>
+{% endunless %}
 </div>
-{% if include.full %}
-{% else %}
-<a onclick="showAllPublications(this)" style="margin-top:20px;text-decoration: none;cursor: pointer;">View all publications</a>
-{% endif %}
-</div>
-
-<style>
-  /* PRESS */
-  .help-text{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem;
-    grid-column: 1/5;
-  }
-  
-.press-controls {
-  display: grid;
-  grid-template: 1fr auto / repeat(4, 1fr);
-  text-align: center;
-  width: 100%;
-  flex: 0 0 100%;
-}
-
-@media (max-width: 600px){
-  .press-controls {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
-.press-button-holder>.check {
-  display: none;
-  transition: .4s ease;
-  opacity: 0;
-  transform-origin: center;
-  transform: scale(0);
-}
-
-.press-button-holder.activated>.check {
-  display: block;
-  opacity: 1;
-  transform: scale(1);
-  color: var(--accent, var(--accent));
-  position: absolute;
-  left: 1rem;
-  top: .5rem;
-  pointer-events: none;
-}
-
-.press-button-holder {
-  border-radius: 5px;
-  padding: 4px 8px;
-  align-items: baseline;
-  flex-direction: row;
-  flex-wrap: wrap;
-  -webkit-column-gap: 4px;
-  -moz-column-gap: 4px;
-  column-gap: 4px;
-  -webkit-row-gap: 4px;
-  -moz-row-gap: 4px;
-  row-gap: 4px;
-  margin-right: 0.5rem;
-  margin-bottom: .5rem;
-  background: var(--neutral-6);
-  position: relative;
-}
-
-.press-button-holder input {
-  background: transparent;
-  width: 100%;
-}
-
-.press-button-holder:not(.activated) {
-  opacity: .8;
-}
-
-.press-button-holder.activated {
-  opacity: 1;
-}
-
-.press-button-holder.activated input {
-  color: var(--accent-text);
-  padding-left: 2rem;
-}
-
-.press-button-holder>input {
-  border: 0;
-  box-shadow: unset;
-  margin: 0;
-}
-
-.press {
-  text-decoration: none !important;
-  color: var(--text);
-}
-
-.press div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-@media (max-width: 500px) {
-  .press div {
-    justify-content: center;
-    text-align: center;
-  }
-}
-
-.press-img {
-  height:200px;
-  width: 200px;
-  background-size: cover;
-  background-position: 0% 0%;
-  border-radius: 10px;
-  margin: auto;
-}
-
-.press-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
-  gap: 20px;
-  width: 100%;
-  flex: 0 0 100%;
-}
-
-.press-summary {
-  display: grid;
-  margin: auto;
-  gap: 5px;
-  width: 400px;
-  max-width: 80vw;
-}
-
-.press-summary .title {
-  font-size: 27px;
-  font-weight: 500;
-}
-
-.press-summary .subtitle, .press-summary .details {
-  font-size: 19px;
-  font-weight: 400;
-}
-
-.press-summary .info {
-  display: grid;
-  font-size: 14px;
-  opacity: .5;
-}
-.press-container.truncated .press{
-  display:none;
-}
-.press-container.truncated .press:first-child,
-.press-container.truncated .press:nth-child(2){
-  display: unset !important;
-}
-
-
-.press::before {
-  position: absolute;
-  font-size: 0.5rem;
-  background: var(--accent-text, rgb(97, 200, 97));
-  padding: .1rem .5rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 4px;
-  border-radius: 100px;
-  color: var(--white);
-}
-
-.press .EN::before {
-  content: "Language: English";
-}
-
-.press .DE::before {
-  content: "Language: Deutsch";
-}
-
-.press .NL::before {
-  content: "Language: Nederlands";
-}
-
-.press .ES::before {
-  content: "Language: Español";
-}
-/* END PRESS */
-</style>

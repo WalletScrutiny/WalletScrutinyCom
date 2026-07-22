@@ -32,7 +32,7 @@
   ol {
     font-weight: $paragraph-font-weight;
   }
-  a:not(.verification-action-link):not(.AppDisplayCard):not(.about-team-member):not(.about-sponsor-card):not(.contribute-card) {
+  a:not(.verification-action-link):not(.AppDisplayCard):not(.about-team-member):not(.about-sponsor-card):not(.contribute-card):not(.press-card) {
     text-decoration: underline;
 
     &:hover {
