@@ -1,7 +1,7 @@
 ---
 wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
-date: 2023-01-11
+date: 2026-07-23
 authors:
 - leo
 - danny
@@ -12,6 +12,8 @@ social:
 redirect_from:
 - /android/vip.mytokenpocket/
 - /iphone/com.tp.ios/
+- /iphone/com.global.wallet.ios/
+- /mobile/com.global.wallet.ios/
 android:
   appId: vip.mytokenpocket
   users: 5000000
@@ -26,18 +28,26 @@ android:
   developerName: TP Global Ltd
   repository: https://github.com/TP-Lab/tp-android
 iphone:
-  appId: com.tp.ios
-  idd: 1436028697
-  released: 2018-09-23
-  updated: 2022-06-30
-  version: 1.8.5
-  reviews: 322
-  icon: com.tp.ios.jpg
-  meta: removed
+  appId: com.global.wallet.ios
+  idd: '6444625622'
+  appCountry: us
+  released: 2023-01-04
+  updated: 2026-07-17
+  version: 2.25.0
+  reviews: 735
+  icon: com.global.wallet.ios.jpg
+  meta: ok
   verdict: obfuscated
+  developerName: TP Global Ltd
   repository: https://github.com/TP-Lab/tp-ios
 
 ---
+
+## Update 2026-07-23
+
+The iOS app was re-listed. The original iPhone app `com.tp.ios` (idd 1436028697) was removed from the App Store and replaced by the current listing **`com.global.wallet.ios`** (idd 6444625622, store name "TP Global Wallet", same developer TP Global Ltd). The official [tokenpocket.pro download page](https://www.tokenpocket.pro/en/download/app) links to both this iOS app and the Android app `vip.mytokenpocket`, confirming they are the same product; the separate `wip` stub for the new iOS listing has been folded in here. The `obfuscated` verdict is unchanged.
+
+**Verdict re-validated (2026-07-23).** We re-checked the repositories these apps point to, and the `obfuscated` finding still holds — the shipped binaries are not built from the published source. The Android build is minified ([`minifyEnabled true`](https://github.com/TP-Lab/tp-android/blob/master/app/build.gradle#L17)), and the repository's own [`applicationId "com.tokenbank"`](https://github.com/TP-Lab/tp-android/blob/master/app/build.gradle#L7) matches **neither** the shipped `vip.mytokenpocket` (Android) **nor** `com.global.wallet.ios` (iOS). The [README](https://github.com/TP-Lab/tp-android/blob/master/README.md) further describes a different, early product — *"based on TokenPocket early version… Only supports SWTC Blockchain for now"* — while the shipped apps are multi-chain (BTC/ETH/…). Both repositories are long dormant ([`tp-android`](https://github.com/TP-Lab/tp-android) last pushed 2022-04-21, [`tp-ios`](https://github.com/TP-Lab/tp-ios) 2021-10-13) even though the apps were updated 2026-07-17 — so the "open source" claim is effectively false and the released binaries cannot be reproduced from the public code.
 
 ## Android
 

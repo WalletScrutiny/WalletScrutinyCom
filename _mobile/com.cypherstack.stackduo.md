@@ -1,7 +1,7 @@
 ---
 wsId: stackDuo
 title: Stack Duo
-date: 2024-05-31
+date: 2026-07-23
 authors:
 - danny
 website: https://stackwallet.com
@@ -23,9 +23,9 @@ android:
   version: 2.4.2
   icon: com.cypherstack.stackduo.png
   meta: fewusers
-  verdict: wip
+  verdict: sourceavailable
   developerName: Cypher Stack Team
-  repository: https://github.com/cypherstack/stack_duo
+  repository: https://github.com/cypherstack/stack_wallet
 iphone:
   appId: com.cypherstack.stackduo
   idd: '6446602017'
@@ -36,9 +36,9 @@ iphone:
   reviews: 7
   icon: com.cypherstack.stackduo.jpg
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Cypher Stack LLC
-  repository: https://github.com/cypherstack/stack_duo
+  repository: https://github.com/cypherstack/stack_wallet
 
 ---
 
@@ -57,7 +57,7 @@ iphone:
 
 ## Analysis 
 
-The app currently only has a few users. Its repository (**1.0.10**) is not as updated as its Play version **1.1.0**. Its 'Issues' tab on GitHub is hidden. Nevertheless, this app is **for verification**.
+Stack Duo is Cypher Stack's own Bitcoin-and-Monero-only edition of {% include walletLink.html wallet='mobile/com.cypherstack.stackwallet' verdict='true' %}. Its source code has been merged into the Stack Wallet repository: the official [build instructions](https://github.com/cypherstack/stack_wallet/blob/staging/docs/building.md) build it directly as an application target — `./build_app.sh -a stack_duo -p android` (and `-p ios`) — so the current app for both platforms is built from [cypherstack/stack_wallet](https://github.com/cypherstack/stack_wallet). The separate [stack_duo repository](https://github.com/cypherstack/stack_duo) is kept for release continuity — it still publishes releases up to the current **v2.4.2** — but its source tree is no longer where development happens. The wallet is fully open source and non-custodial (seeds stay on device), so it is **source-available** and a candidate **for verification**: reproduce it from the Stack Wallet repository with `build_app.sh -a stack_duo`.
 
 ---
 
