@@ -1,20 +1,19 @@
 window.updateDualMobileVerification = function (platform, info, elementId) {
   window._mobileVerParts = window._mobileVerParts || {};
   window._mobileVerParts[platform] = info;
-  if (!('android' in window._mobileVerParts) || !('iphone' in window._mobileVerParts)) return;
   const el = document.getElementById(elementId);
   if (!el) return;
   const fmt = (ver, date) => ver ? '<b>' + ver + '</b> <small>(' + date + ')</small>' : '';
   const fmtDual = (aV, aD, iV, iD) => aV && iV
     ? '<i class="fab fa-google-play" aria-hidden="true"></i> ' + fmt(aV, aD) + ' / <i class="i-app-store" aria-hidden="true"></i> ' + fmt(iV, iD)
     : fmt(aV || iV, aD || iD);
-  const a = window._mobileVerParts.android;
-  const i = window._mobileVerParts.iphone;
+  const a = window._mobileVerParts.android || {};
+  const i = window._mobileVerParts.iphone || {};
   let html = '';
   const last = fmtDual(a.lastVersion, a.lastVersionDate, i.lastVersion, i.lastVersionDate);
   if (last) html += 'Latest release found in a <b>Verification</b>: ' + last + '<br>';
-  const aR = a.lastVerifiedVersion !== a.lastVersion ? a.lastVerifiedVersion : null;
-  const iR = i.lastVerifiedVersion !== i.lastVersion ? i.lastVerifiedVersion : null;
+  const aR = a.lastVerifiedVersion && a.lastVerifiedVersion !== a.lastVersion ? a.lastVerifiedVersion : null;
+  const iR = i.lastVerifiedVersion && i.lastVerifiedVersion !== i.lastVersion ? i.lastVerifiedVersion : null;
   const repro = fmtDual(aR, aR ? a.lastVerifiedVersionDate : null, iR, iR ? i.lastVerifiedVersionDate : null);
   if (repro) html += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: ' + repro;
   if (html) el.innerHTML = '<p>' + html + '</p>';

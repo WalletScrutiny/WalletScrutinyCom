@@ -367,6 +367,17 @@ window.renderAssetsTable = async function({
     });
   }
 
+  function notifyTableLoaded(assetInfo, paintResult) {
+    if (typeof tableLoadedCallback !== 'function') {
+      return;
+    }
+    tableLoadedCallback({
+      info: assetInfo,
+      hasAssets: paintResult.hasAssets,
+      hasVerifications: paintResult.hasVerifications,
+    });
+  }
+
   function handleCachedAssetData(cachedData) {
     removeAssetsTableDynamicContent(htmlElementId);
     const pr = runPaint(cachedData);
@@ -375,9 +386,7 @@ window.renderAssetsTable = async function({
     cachePaintResult = pr;
     afterTablePaint(pr);
     tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
-    if (typeof tableLoadedCallback === 'function') {
-      tableLoadedCallback();
-    }
+    notifyTableLoaded(cachedData, pr);
   }
 
   const globalCachedAssetInfo = findCachedGlobalAssetInfo(effectiveAppId, verificationIdFromHash);
@@ -429,8 +438,8 @@ window.renderAssetsTable = async function({
 
   applyDraftRowMetadataToTable(table);
 
-  if (!skipRepaint && typeof tableLoadedCallback === 'function') {
-    tableLoadedCallback();
+  if (!skipRepaint) {
+    notifyTableLoaded(response, paintResult);
   }
 
   if (showIssueTracker) {

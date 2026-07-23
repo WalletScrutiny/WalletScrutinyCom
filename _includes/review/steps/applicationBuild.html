@@ -35,29 +35,25 @@
         <script>
           window.addEventListener('verificationsUILoaded', async () => {
             const pageVerdict = '{{ build_verdict }}';
-            const attestationsInfo = await renderAssetsTable({
-              htmlElementId: '{{ apps_table_id }}',
-              appId: '{{ build_app_id }}',
-              appPlatform: '{{ include.platform }}',
-              hideConfig: { wallet: true },
-              showOnlyRows: 5,
-              sortByVersion: true,
-              enableDraftsFilter: true,
-              enableAppPageSearch: true,
-              showIssueTracker: true
-            });
-
             const versionNumberElement = document.getElementById('{{ include.versionElementId | default: 'version-number' }}');
-            const versionInfo = getMaxAssetVersion(attestationsInfo.info);
             const mergeInto = '{{ include.mergeVerificationInto | default: '' }}';
+            const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
+            const skipVersionInfo = {{ include.skipVersionInfo | default: false | jsonify }};
 
-            if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
-              window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
-            } else if (versionNumberElement && !{{ include.skipVersionInfo | default: false | jsonify }}) {
+            const updateVersionInfo = (assetInfo) => {
+              const versionInfo = getMaxAssetVersion(assetInfo);
+
+              if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
+                window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
+                return;
+              }
+
+              if (!versionNumberElement || skipVersionInfo) {
+                return;
+              }
 
               let versionInfoText = '<p style="margin-top: 0;">';
 
-              const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
               if (!skipWsVersion) {
                 var wsVer = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
                   ? wsVersionAndroid
@@ -83,7 +79,25 @@
               if (!skipWsVersion || hasVerificationInfo) {
                 versionNumberElement.innerHTML = versionInfoText;
               }
-            }
+            };
+
+            const attestationsInfo = await renderAssetsTable({
+              htmlElementId: '{{ apps_table_id }}',
+              appId: '{{ build_app_id }}',
+              appPlatform: '{{ include.platform }}',
+              hideConfig: { wallet: true },
+              showOnlyRows: 5,
+              sortByVersion: true,
+              enableDraftsFilter: true,
+              enableAppPageSearch: true,
+              showIssueTracker: true,
+              tableLoadedCallback: ({ info }) => {
+                updateVersionInfo(info);
+              }
+            });
+
+            // Ensure final network data is reflected if the last paint was skipped as unchanged.
+            updateVersionInfo(attestationsInfo.info);
 
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {
