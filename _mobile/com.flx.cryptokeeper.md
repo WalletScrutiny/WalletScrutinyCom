@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet : BTC & Crypto'
-date: 2025-11-17
+date: 2026-07-23
 authors:
 - danny
 website: http://www.cryptokeeperllc.com
@@ -31,18 +31,14 @@ iphone:
   reviews: 72
   icon: com.flx.cryptokeeper.jpg
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Crypto Keeper
 
 ---
 
 ## App Description
 
-Crypto Keeper Bitcoin Wallet is a multi-cryptocurrency wallet that supports Bitcoin (BTC), Ethereum (ETH), and Tether (USDT). The app claims to be non-custodial with "AI-based encryption & security" and supports 12/24-word recovery phrases.
-
-Features include the ability to buy crypto via Google Pay or bank card, customizable transaction fees, fingerprint unlock, and compatibility with major wallets like Trust Wallet, MetaMask, and Electrum for wallet import.
-
-The Play Store listing states that Crypto Keeper is an **"open-source project."**
+Crypto Keeper ("Bitcoin Wallet : BTC & Crypto", `com.flx.cryptokeeper`, by Crypto Keeper LLC) is a closed-source multi-coin wallet on iOS and Android supporting Bitcoin, Ethereum and USDT. Its store listings claim it is non-custodial and "open source" and that users receive a 12/24-word recovery phrase, but no public source repository exists and testing showed the displayed Bitcoin address does not derive from that phrase. The app's own FAQ states private keys are not stored on the device and that KYC identity verification is required to send funds — i.e. an account-based custodial service.
 
 ## Analysis
 
@@ -71,6 +67,10 @@ Additionally, the [FAQ states](https://x.com/dannybuntu/status/19904014436400214
 We [tested](https://x.com/dannybuntu/status/1990395936246227077) the 24-word "recovery phrase" provided by Crypto Keeper by importing it into Electrum Desktop. The Bitcoin address shown in Crypto Keeper (`bc1qjk7lkwuh8adywrq9nx0d698tdpu6h5mak8s6q4`) did **not match any addresses** derived from the recovery phrase in Electrum using standard BIP39/BIP84 derivation.
 
 This confirms that the "recovery phrase" does not actually control the Bitcoin private keys - it appears to be for account recovery on Crypto Keeper's servers, not for independent wallet restoration.
+
+**Update 2026-07-23 — retested on a fresh install.**
+
+A new install produced a new 24-word recovery phrase (a valid BIP39 mnemonic, checksum verified) and displayed the receive address `bc1q0ny6jcsd8y7jrkx73urq25flsjrrgsk5r7utz8`. Importing that phrase into Electrum as native SegWit derives an entirely different address set — first receive `bc1qyklhmgdvph3j7f6xda7m5ptyg92v6w4n0jstg9` — and the app's displayed address appears in **none** of the first 20 receive or change addresses. Cross-checking BIP84/49/44 derivation with `bip_utils` reproduces the same result. This independently repeats the earlier finding on a different wallet: the "recovery phrase" does not control the Bitcoin shown in-app.
 
 **Verdict:**
 

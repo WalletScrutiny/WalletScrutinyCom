@@ -1,7 +1,7 @@
 ---
 wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
-date: 2024-03-02
+date: 2026-07-23
 authors:
 - danny
 website: https://www.coinsdo.com
@@ -12,6 +12,8 @@ social:
 redirect_from:
 - /android/com.coinsdo.wallet/
 - /iphone/com.coinsdo.wallet/
+- /iphone/com.coinsdo.coinsdowallet/
+- /mobile/com.coinsdo.coinsdowallet/
 android:
   appId: com.coinsdo.wallet
   users: 500000
@@ -25,19 +27,23 @@ android:
   verdict: nosource
   developerName: COINSDO
 iphone:
-  appId: com.coinsdo.wallet
-  idd: '1631258517'
+  appId: com.coinsdo.coinsdowallet
+  idd: '6479635869'
   appCountry: us
-  released: 2022-07-12
-  updated: 2023-12-27
-  version: 1.1.26
-  reviews: 16
-  icon: com.coinsdo.wallet.jpg
-  meta: removed
+  released: 2024-04-16
+  updated: 2026-06-29
+  version: 2.0.29
+  reviews: 91
+  icon: com.coinsdo.coinsdowallet.jpg
+  meta: ok
   verdict: nosource
   developerName: Tecstation Pte Ltd
 
 ---
+
+## Update 2026-07-23
+
+The original iOS listing (`com.coinsdo.wallet`, idd `1631258517`) was removed from the App Store and re-published as `com.coinsdo.coinsdowallet` (idd `6479635869`, "CoinsDo Wallet: BTC ETH Wallet", seller *Tecstation Pte Ltd*). It is the same product as the Android app: a self-custody MPC wallet by CoinsDo supporting BTC/ETH/USDT, shipping the same version (`2.0.29`) in the same week as the Google Play release. The source-code situation is unchanged, so the **source-unavailable** verdict carries over.
 
 ## Android
 
@@ -57,7 +63,7 @@ Nothing has changed in this app's repository. It is still **not source-available
 - The BTC wallet can send/receive 
 - The mnemonic phrase was provided
 - There's a claim that the product is Open Source, but we can find no links to the repository.
-- We found a GitHub organization for [CoinsDo](https://github.com/CoinsDo) with a similar name and logo, with 6 repositories but all these repositories are either empty or contain only a rudimentary text file but no code for a wallet.
+- The [CoinsDo GitHub account](https://github.com/CoinsDo) publishes several Go libraries, including a wallet SDK, but none contains the source of the published mobile app. Therefore, the app binary remains unverifiable.
 - We [tweeted](https://twitter.com/BitcoinWalletz/status/1672082520949522432) them about it and await their response.
 - Until they respond, we'll mark this as **source-unavailable.**
 
