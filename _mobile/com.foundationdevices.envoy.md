@@ -1,7 +1,7 @@
 ---
 wsId: envoyFoundation
 title: Envoy
-date: 2024-01-02
+date: 2026-07-23
 authors:
 - danny
 - keraliss
@@ -45,7 +45,7 @@ iphone:
   reviews: 30
   icon: com.foundationdevices.envoy.jpg
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Foundation Devices, Inc.
   repository: https://github.com/Foundation-Devices/envoy
 

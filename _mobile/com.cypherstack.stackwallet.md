@@ -1,7 +1,7 @@
 ---
 wsId: stackWallet
 title: Stack Wallet
-date: 2023-09-08
+date: 2026-07-23
 authors:
 - danny
 - keraliss
@@ -42,7 +42,7 @@ iphone:
   reviews: 25
   icon: com.cypherstack.stackwallet.jpg
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Cypher Stack LLC
   repository: https://github.com/cypherstack/stack_wallet
 
@@ -51,6 +51,11 @@ iphone:
 ## Android
 
 {% include featureEvidence.html feature="multiAccount" source="Review" quote="Multiple wallets are available, and the BTC wallet addresses can be re-generated." %}
+
+**Update 2026-07-23:**
+
+- iPhone verdict raised to `sourceavailable`: the repository ships a complete iOS build target. The official [build instructions](https://github.com/cypherstack/stack_wallet/blob/staging/docs/building.md) build it with `./build_app.sh -a stack_wallet -p ios`, so the app is buildable from source on iOS as well as Android.
+- This repository is now the **shared codebase for Cypher Stack's wallet family**: `build_app.sh` accepts both `stack_wallet` and `stack_duo` as application targets. Stack Duo's source was merged in here — see {% include walletLink.html wallet='mobile/com.cypherstack.stackduo' verdict='true' %}.
 
 **Update 2024-09-11:**
 
@@ -99,6 +104,7 @@ The Stack Wallet build was not successful due to the failure of the `build_app.s
 - We were provided with the seed phrases during wallet creation.
 - Multiple wallets are available, and the BTC wallet addresses can be re-generated.
 - They are Open Source, with an active GitHub repository.
+- The store highlight above still says "10 Different cryptocurrencies", but that count is stale. As of 2026-07-23 the current release supports **24 cryptocurrencies** per the repository's coin definitions ([`lib/wallets/crypto_currency/coins/`](https://github.com/cypherstack/stack_wallet/tree/staging/lib/wallets/crypto_currency/coins)): Bitcoin, Bitcoin Cash, eCash, Litecoin, Dogecoin, Dash, Firo, Namecoin, Peercoin, Particl, Fact0rn, Monero, Wownero, Salvium, Epic Cash, MimbleWimbleCoin, Ethereum, Solana, Stellar, Cardano, Tezos, Nano, Banano, and Xelis (a Bitcoin Frost variant brings the coin-definition file count to 25).
 - This app is slated **[for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/503)**.
 
 {% include featureEvidence.html feature="customNode" quote="Custom Nodes." source="Store" %}
