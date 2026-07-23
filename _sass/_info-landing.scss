@@ -200,6 +200,12 @@
   margin-bottom: 0;
 }
 
+// Full-width footer content inside contribute-card grid (e.g. /nostr/ extension links)
+.contribute-card .landing-card-links {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}
+
 .archive .info-landing-page a.contribute-card,
 .archive .info-landing-page a.contribute-card:hover,
 .archive .info-landing-page a.contribute-card:focus {
