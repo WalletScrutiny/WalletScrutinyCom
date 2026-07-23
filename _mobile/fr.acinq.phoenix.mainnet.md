@@ -1,6 +1,7 @@
 ---
 wsId: phoenix
 title: Phoenix - LN Bitcoin wallet
+bitcoinOrgId: phoenix
 date: 2024-07-05
 authors:
 - leo

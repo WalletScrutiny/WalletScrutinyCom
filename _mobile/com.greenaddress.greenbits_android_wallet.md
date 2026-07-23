@@ -1,6 +1,7 @@
 ---
 wsId: GreenBitcoinWallet
 title: Blockstream Bitcoin Wallet
+bitcoinOrgId: green
 date: 2020-12-19
 authors:
 - leo

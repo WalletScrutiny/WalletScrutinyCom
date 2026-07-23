@@ -1,7 +1,7 @@
 ---
 title: Jade
 appId: blockstreamjade
-bitcoinOrgId: jade
+bitcoinOrgId: jadeclassic
 authors:
 - kiwilamb
 - leo
