@@ -93,7 +93,6 @@
   ];
 
   const VERDICT = {
-    type: "pass",
     icon: "\u2713",
     label: "VERIFIED",
     detail: "Binary matches published source",
@@ -146,17 +145,10 @@
     this.verdictDetailEl = root.querySelector("#heroVisualVerdictDetail");
     this.statusEl = root.querySelector("#heroVisualStatus");
     this.screenEl = root.querySelector("#heroVisualScreen");
-    this.paused = false;
     this.reducedMotion = prefersReducedMotion();
     this.scrollY = 0;
     this.verdictShown = false;
   }
-
-  HeroVisualPlayer.prototype.waitWhilePaused = async function () {
-    while (this.paused) {
-      await sleep(250);
-    }
-  };
 
   HeroVisualPlayer.prototype.getViewportHeight = function () {
     return this.linesWrapEl ? this.linesWrapEl.clientHeight : 0;
@@ -206,8 +198,6 @@
   };
 
   HeroVisualPlayer.prototype.typeLine = async function (line) {
-    await this.waitWhilePaused();
-
     const row = document.createElement("div");
     row.className = `hero-visual__line hero-visual__line--${line.type}`;
     this.linesEl.appendChild(row);
@@ -225,7 +215,6 @@
     }
 
     for (let i = 0; i < line.text.length; i += 1) {
-      await this.waitWhilePaused();
       row.textContent += line.text.charAt(i);
       if (i % 3 === 0) {
         this.scrollToBottom();
@@ -239,8 +228,7 @@
   HeroVisualPlayer.prototype.showVerdict = function () {
     this.verdictShown = true;
     this.cursorEl.classList.add("is-hidden");
-    this.verdictEl.classList.remove("hero-visual__verdict--pass", "hero-visual__verdict--fail");
-    this.verdictEl.classList.add(`hero-visual__verdict--${VERDICT.type}`);
+    this.verdictEl.classList.add("hero-visual__verdict--pass");
     this.verdictIconEl.textContent = VERDICT.icon;
     this.verdictLabelEl.textContent = VERDICT.label;
     this.verdictDetailEl.textContent = VERDICT.detail;
@@ -264,20 +252,11 @@
 
     let index = 0;
     while (true) {
-      await this.waitWhilePaused();
       await this.typeLine(LOOP_LINES[index % LOOP_LINES.length]);
       this.pruneOldLines();
       await sleep(LINE_PAUSE_MS);
       index += 1;
     }
-  };
-
-  HeroVisualPlayer.prototype.pause = function () {
-    this.paused = true;
-  };
-
-  HeroVisualPlayer.prototype.resume = function () {
-    this.paused = false;
   };
 
   async function init() {
@@ -292,14 +271,6 @@
 
     const player = new HeroVisualPlayer(root);
     player.run();
-
-    document.addEventListener("visibilitychange", () => {
-      if (document.hidden) {
-        player.pause();
-      } else {
-        player.resume();
-      }
-    });
   }
 
   if (document.readyState === "loading") {
