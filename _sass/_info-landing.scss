@@ -200,6 +200,42 @@
   margin-bottom: 0;
 }
 
+// Compact header: icon + title on one row (verifications landing only)
+.info-landing-page > .contribute-grid .contribute-card,
+.verifications-explore-grid .contribute-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 0.85rem;
+  row-gap: 0.65rem;
+  align-items: center;
+
+  .contribute-card__icon {
+    grid-column: 1;
+    grid-row: 1;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .contribute-card__title {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .contribute-card__desc {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .contribute-card__cta {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 0;
+  }
+}
+
 .archive .info-landing-page a.contribute-card,
 .archive .info-landing-page a.contribute-card:hover,
 .archive .info-landing-page a.contribute-card:focus {
