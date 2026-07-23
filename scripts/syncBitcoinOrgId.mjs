@@ -56,9 +56,17 @@ const GENERIC_TITLES = new Set([
  *
  * bitcoinwallet: Bitcoin.org "Bitcoin Wallet" (Schildbach / de.schildbach.wallet).
  * Not Bitcoin Core (_desktop/bitcoincore.md uses bitcoinOrgId: bitcoincore).
+ *
+ * jadeclassic / jadeplus: Bitcoin.org replaced the single "jade" listing with
+ * Jade Classic, Jade Plus, and Jade Core (PR bitcoin-dot-org/Bitcoin.org#4728).
+ * All three share the same GitHub repo and product site, so fuzzy matching
+ * cannot pick a unique target. Jade DIY is not listed on bitcoin.org.
+ * jadecore has no WalletScrutiny page yet.
  */
 const HARDCODED_ASSIGNMENTS = {
-  bitcoinwallet: ['_mobile/de.schildbach.wallet.md']
+  bitcoinwallet: ['_mobile/de.schildbach.wallet.md'],
+  jadeclassic: ['_hardware/blockstreamjade.md'],
+  jadeplus: ['_hardware/blockstreamjadeplus.md']
 };
 
 const HARDCODED_ONLY_IDS = new Set(Object.keys(HARDCODED_ASSIGNMENTS));
@@ -617,11 +625,6 @@ function applyHardcodedAssignments(locals, targetBitcoinOrgId) {
   return targetBitcoinOrgId;
 }
 
-function getHardcodedPathsForId(bitcoinOrgId) {
-  const paths = HARDCODED_ASSIGNMENTS[bitcoinOrgId];
-  return paths ? new Set(paths) : null;
-}
-
 function getBitcoinOrgIdFromRaw(rawFm) {
   const m = rawFm.match(/^bitcoinOrgId:\s*(.+)\s*$/m);
   if (!m) return null;
@@ -733,25 +736,20 @@ async function main() {
 
     if (!existing) continue;
 
-    const hardcodedPaths = getHardcodedPathsForId(existing);
-    const shouldRemove =
-      !validIds.has(existing) ||
-      !target ||
-      target.bitcoinOrgId !== existing ||
-      (hardcodedPaths != null && !hardcodedPaths.has(local.relPath));
+    // Assigned (including renames like jade -> jadeclassic): first loop already
+    // wrote the target id. Do not remove afterwards.
+    if (target) continue;
 
-    if (shouldRemove) {
-      const result = applyRemoveBitcoinOrgId(local.filePath, dryRun);
-      if (result.action === 'remove') {
-        rows.push({
-          action: dryRun ? 'would_remove' : 'remove',
-          file: local.relPath,
-          appId: local.appId,
-          bitcoinOrgId: existing,
-          matchRule: '',
-          detail: !validIds.has(existing) ? 'id_removed_from_bitcoin_org' : 'no_longer_matches'
-        });
-      }
+    const result = applyRemoveBitcoinOrgId(local.filePath, dryRun);
+    if (result.action === 'remove') {
+      rows.push({
+        action: dryRun ? 'would_remove' : 'remove',
+        file: local.relPath,
+        appId: local.appId,
+        bitcoinOrgId: existing,
+        matchRule: '',
+        detail: !validIds.has(existing) ? 'id_removed_from_bitcoin_org' : 'no_longer_matches'
+      });
     }
   }
 
