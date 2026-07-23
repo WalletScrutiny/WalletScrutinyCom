@@ -1,5 +1,10 @@
 <script type="module">
-    const { expertOpinions } = await import('/assets/js/nostr-opinion.js');
+  // Defer until all page assets (images, CSS, other scripts) have finished loading
+  // so nostr-opinion.js does not compete for bandwidth during initial render.
+  if (document.readyState !== 'complete') {
+    await new Promise((resolve) => window.addEventListener('load', resolve, { once: true }));
+  }
+  await import('/assets/js/nostr-opinion.js');
 </script>
 
 {% assign nostr_collection = include.opinionSubject | default: page.collection %}
