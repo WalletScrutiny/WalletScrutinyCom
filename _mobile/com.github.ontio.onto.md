@@ -33,7 +33,7 @@ iphone:
   released: 2018-09-21
   updated: 2026-06-30
   version: 4.10.6
-  reviews: 88
+  reviews: 87
   icon: com.ontology.foundation.onto.jpg
   meta: ok
   verdict: nosource

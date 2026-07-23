@@ -18,9 +18,9 @@ android:
   users: 5000
   appCountry: us
   released: 2024-08-30
-  updated: 2026-07-10
-  version: 2.12.19
-  reviews: 27
+  updated: 2026-07-22
+  version: 2.12.20
+  reviews: 29
   icon: com.rhinoglobal.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '1564149079'
   appCountry: us
   released: 2022-06-29
-  updated: 2026-07-13
-  version: 2.12.19
-  reviews: 33
+  updated: 2026-07-23
+  version: 2.12.20
+  reviews: 34
   icon: com.Rhino.Global.jpg
   meta: ok
   verdict: custodial

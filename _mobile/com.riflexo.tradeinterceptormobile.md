@@ -30,8 +30,8 @@ iphone:
   idd: 329476057
   appCountry: us
   released: 2009-09-23
-  updated: 2026-07-15
-  version: 10.6.0
+  updated: 2026-07-23
+  version: 10.6.1
   reviews: 780
   icon: com.riflexo.TradeInterceptor.jpg
   meta: ok

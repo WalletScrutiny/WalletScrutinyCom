@@ -16,7 +16,7 @@ android:
   released: 2024-05-25
   updated: 2026-07-14
   version: 3.17.0
-  reviews: 21
+  reviews: 25
   icon: com.lavamobile.png
   meta: ok
   verdict: nosource
@@ -28,7 +28,7 @@ iphone:
   released: 2024-04-29
   updated: 2026-07-14
   version: 3.17.0
-  reviews: 162
+  reviews: 166
   icon: xyz.lava.mobile.jpg
   meta: ok
   verdict: nosource

@@ -33,7 +33,7 @@ iphone:
   released: 2019-06-04
   updated: 2026-07-13
   version: 3.70.0
-  reviews: 3791
+  reviews: 3794
   icon: com.bit2me.flutter-ios.jpg
   meta: ok
   verdict: custodial

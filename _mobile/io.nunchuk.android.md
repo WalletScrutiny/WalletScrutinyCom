@@ -41,8 +41,8 @@ iphone:
   idd: 1563190073
   appCountry: us
   released: 2021-12-16
-  updated: 2026-07-14
-  version: 2.7.0
+  updated: 2026-07-22
+  version: 2.7.1
   reviews: 493
   icon: io.nunchuk.ios.jpg
   meta: ok

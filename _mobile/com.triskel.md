@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-06-27
-  updated: 2026-01-03
-  version: '6.1'
+  updated: 2026-05-19
+  version: '6.2'
   icon: com.triskel.png
   meta: ok
   verdict: custodial

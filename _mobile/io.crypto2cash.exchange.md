@@ -23,7 +23,7 @@ android:
   version: 2.1.6
   reviews: 4
   icon: io.crypto2cash.exchange.jpg
-  meta: ok
+  meta: removed
   verdict: nosendreceive
   developerName: Crypto2Cash
 iphone:
@@ -35,7 +35,7 @@ iphone:
   version: 3.2.3
   reviews: 0
   icon: com.c2c.B.V.Crypto2Cash.jpg
-  meta: ok
+  meta: removed
   verdict: nosendreceive
   developerName: CtoC UAB
 

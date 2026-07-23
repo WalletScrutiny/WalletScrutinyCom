@@ -17,7 +17,7 @@ android:
   appCountry: cz
   released: 2021-01-20
   updated: 2026-07-20
-  version: 3.41.0
+  version: 3.42.1
   reviews: 32
   icon: com.kapital.trade.crypto.png
   meta: ok

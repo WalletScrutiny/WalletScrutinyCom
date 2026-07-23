@@ -25,7 +25,7 @@ android:
   appCountry: us
   released: 2018-11-07
   updated: 2026-07-16
-  version: 3.27.1
+  version: 3.28.0
   reviews: 18
   icon: com.bitpanda.bitpanda.png
   meta: ok
@@ -36,9 +36,9 @@ iphone:
   idd: '1449018960'
   appCountry: at
   released: 2019-11-29
-  updated: 2026-07-16
-  version: 3.28.0
-  reviews: 25853
+  updated: 2026-07-23
+  version: 3.28.1
+  reviews: 25860
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
   verdict: custodial

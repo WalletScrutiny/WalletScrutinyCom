@@ -29,9 +29,9 @@ iphone:
   idd: 1506581586
   appCountry: gb
   released: 2020-10-14
-  updated: 2026-07-16
-  version: 1.262.8036
-  reviews: 245
+  updated: 2026-07-22
+  version: 1.263.8048
+  reviews: 246
   icon: com.gaincapital.forex.jpg
   meta: ok
   verdict: nosendreceive

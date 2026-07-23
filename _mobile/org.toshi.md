@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-09-20
-  updated: 2026-07-10
-  version: 30.3.0
-  reviews: 14110
+  updated: 2026-07-17
+  version: 30.4.0
+  reviews: 14112
   icon: org.toshi.png
   meta: ok
   verdict: nosource
@@ -33,7 +33,7 @@ iphone:
   released: 2017-09-27
   updated: 2026-07-20
   version: '30.4'
-  reviews: 161449
+  reviews: 161451
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

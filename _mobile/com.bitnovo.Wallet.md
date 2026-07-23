@@ -19,7 +19,6 @@ android:
   released: 2021-10-27
   updated: 2026-06-23
   version: 3.0.84
-  reviews: 12
   icon: com.bitnovo.Wallet.png
   meta: ok
   verdict: nosource

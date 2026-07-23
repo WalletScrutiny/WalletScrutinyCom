@@ -19,7 +19,6 @@ android:
   released: 2021-05-15
   updated: 2025-06-13
   version: 1.51.8
-  reviews: 571
   icon: com.flitaa.app.png
   meta: stale
   verdict: custodial

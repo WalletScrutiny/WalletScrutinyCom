@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2017-08-31
-  updated: 2026-03-23
-  version: '4.47'
+  updated: 2026-07-22
+  version: '4.48'
   reviews: 16
   icon: com.sticpay.app.sticpay.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2017-09-05
   updated: 2026-03-31
   version: '4.02'
-  reviews: 27
+  reviews: 28
   icon: com.sticpay.app.jpg
   meta: ok
   verdict: custodial

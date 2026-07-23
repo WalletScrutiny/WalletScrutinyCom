@@ -22,7 +22,7 @@ android:
   version: 1.1.59
   reviews: 3
   icon: com.qmall.exchange.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Prof-IT Blockchain Limited
 iphone:

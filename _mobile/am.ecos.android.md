@@ -19,7 +19,7 @@ android:
   released: 2020-09-22
   updated: 2026-07-06
   version: 3.2.5
-  reviews: 260
+  reviews: 261
   icon: am.ecos.android.png
   meta: ok
   verdict: custodial

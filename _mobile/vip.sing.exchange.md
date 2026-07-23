@@ -18,7 +18,6 @@ android:
   released: 2021-05-11
   updated: 2026-07-16
   version: 4.3.3.33
-  reviews: 3
   icon: vip.sing.exchange.png
   meta: ok
   verdict: custodial

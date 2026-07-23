@@ -1,7 +1,6 @@
 ---
 wsId: GreenBitcoinWallet
 title: Blockstream Bitcoin Wallet
-bitcoinOrgId: green
 date: 2020-12-19
 authors:
 - leo
@@ -50,7 +49,7 @@ iphone:
   released: 2019-03-22
   updated: 2026-06-17
   version: 5.5.1
-  reviews: 1192
+  reviews: 1193
   icon: io.blockstream.green.jpg
   meta: ok
   verdict: sourceavailable

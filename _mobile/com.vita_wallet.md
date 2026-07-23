@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: cl
   released: 2019-10-16
-  updated: 2026-07-08
-  version: 7.3.18
+  updated: 2026-07-21
+  version: 7.3.19
   reviews: 903
   icon: com.vita_wallet.png
   meta: ok

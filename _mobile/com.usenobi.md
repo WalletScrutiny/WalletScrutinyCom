@@ -24,7 +24,7 @@ android:
   version: 3.6.11
   reviews: 5
   icon: com.usenobi.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Bybit Indonesia
 iphone:
@@ -36,7 +36,7 @@ iphone:
   version: 3.6.12
   reviews: 86
   icon: com.usenobi.ios.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Nobi
 

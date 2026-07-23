@@ -16,7 +16,6 @@ android:
   released: 2021-08-18
   updated: 2022-12-10
   version: VARY
-  reviews: 9
   icon: com.sessip.Sessipapp.png
   meta: obsolete
   verdict: custodial

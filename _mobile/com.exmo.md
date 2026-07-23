@@ -22,7 +22,6 @@ android:
   released: 2019-11-12
   updated: 2026-07-02
   version: 3.88.1
-  reviews: 96
   icon: com.exmo.png
   meta: ok
   verdict: custodial

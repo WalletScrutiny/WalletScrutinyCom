@@ -22,7 +22,6 @@ android:
   released: 2022-09-23
   updated: 2026-06-11
   version: 3.9.0
-  reviews: 3
   icon: com.bitqik.png
   meta: ok
   verdict: custodial

@@ -20,7 +20,7 @@ android:
   released: 2023-02-21
   updated: 2026-07-09
   version: 3.11.0
-  reviews: 1367
+  reviews: 1366
   icon: com.peersyst.nearmobilewallet.png
   meta: ok
   verdict: custodial

@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2018-08-01
 discontinued: 
-updated: 2026-06-27
-version: 2.8.0
+updated: 2026-07-22
+version: 2.8.1
 binaries: 
 provider: zkSNACKs Ltd.
 providerWebsite: https://zksnacks.com/

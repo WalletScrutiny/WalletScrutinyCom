@@ -12,8 +12,8 @@ iphone:
   idd: '6479732222'
   appCountry: us
   released: 2024-03-26
-  updated: 2026-07-13
-  version: 1.20.4
+  updated: 2026-07-22
+  version: 1.20.5
   reviews: 5
   icon: com.coinlinksec.jpg
   meta: ok

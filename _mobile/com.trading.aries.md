@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: ng
   released: 2021-06-23
-  updated: 2026-07-16
-  version: 4.0.2
+  updated: 2026-07-22
+  version: 4.0.4
   icon: com.trading.aries.png
   meta: ok
   verdict: nosendreceive

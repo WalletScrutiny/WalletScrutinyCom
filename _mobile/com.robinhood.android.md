@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2015-08-12
   updated: 2026-07-20
-  version: 2026.28.3
-  reviews: 267269
+  version: 2026.29.2
+  reviews: 267308
   icon: com.robinhood.android.png
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2014-12-11
   updated: 2026-07-20
   version: 2026.29.0
-  reviews: 4788713
+  reviews: 4789946
   icon: com.robinhood.release.Robinhood.jpg
   meta: ok
   verdict: nosendreceive

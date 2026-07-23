@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-11-28
-  updated: 2026-02-06
-  version: 1.9.8
+  updated: 2026-07-22
+  version: 1.10.3
   reviews: 10
   icon: com.scallopxledger.png
   meta: ok

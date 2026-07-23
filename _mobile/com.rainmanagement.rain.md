@@ -20,7 +20,7 @@ android:
   released: 2018-11-02
   updated: 2026-07-14
   version: 3.15.1
-  reviews: 3345
+  reviews: 3346
   icon: com.rainmanagement.rain.png
   meta: ok
   verdict: custodial

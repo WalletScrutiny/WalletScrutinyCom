@@ -22,7 +22,7 @@ android:
   version: 3.7.5
   reviews: 76
   icon: com.ascendex.exchange.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: AscendEX
 iphone:

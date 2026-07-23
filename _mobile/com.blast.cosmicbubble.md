@@ -1,5 +1,5 @@
 ---
-title: Bkexchange:Buy BTC & Crypto
+title: bkingexchange
 date: 2026-07-22
 website: https://www.bikingex.com
 redirect_from:

@@ -21,7 +21,7 @@ android:
   released: 2024-08-19
   updated: 2026-07-13
   version: 4.3.3
-  reviews: 106
+  reviews: 107
   icon: tech.coinflip.png
   meta: ok
   verdict: custodial

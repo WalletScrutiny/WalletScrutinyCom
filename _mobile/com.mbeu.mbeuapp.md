@@ -29,8 +29,8 @@ iphone:
   idd: '6468321511'
   appCountry: pt
   released: 2024-03-05
-  updated: 2026-07-04
-  version: 2.3.4
+  updated: 2026-07-23
+  version: 2.3.5
   reviews: 51
   icon: com.mbeu.mbeuapp.jpg
   meta: ok

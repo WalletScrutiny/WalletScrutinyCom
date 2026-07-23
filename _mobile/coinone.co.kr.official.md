@@ -21,7 +21,6 @@ android:
   released: 2018-01-28
   updated: 2026-07-06
   version: 5.33.0
-  reviews: 15
   icon: coinone.co.kr.official.png
   meta: ok
   verdict: custodial

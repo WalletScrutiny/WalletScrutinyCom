@@ -25,7 +25,7 @@ android:
   released: 2021-12-23
   updated: 2026-06-30
   version: 3.1.0
-  reviews: 39
+  reviews: 40
   icon: defisuisse.thorwallet.png
   meta: ok
   verdict: nosource

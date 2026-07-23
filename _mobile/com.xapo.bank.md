@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-27
-  updated: 2026-07-14
-  version: 11.20.0
+  updated: 2026-07-22
+  version: 11.21.0
   reviews: 42
   icon: com.xapo.bank.png
   meta: ok

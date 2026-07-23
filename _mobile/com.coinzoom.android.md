@@ -31,7 +31,7 @@ iphone:
   released: 2022-01-21
   updated: 2026-07-01
   version: 3.3.8
-  reviews: 777
+  reviews: 781
   icon: com.ios.coinzoomsimple.jpg
   meta: ok
   verdict: custodial

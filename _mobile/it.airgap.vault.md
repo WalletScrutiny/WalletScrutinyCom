@@ -33,7 +33,7 @@ android:
   released: 2018-08-06
   updated: 2026-03-24
   version: 3.34.4
-  reviews: 16
+  reviews: 17
   icon: it.airgap.vault.png
   signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
   meta: ok

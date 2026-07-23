@@ -1,13 +1,3 @@
-2026-07-07:
-- _mobile/com.ascendex.exchange
-- _mobile/com.blofin.android
-- _mobile/com.conglex.conglex
-- _mobile/com.redotpay
-- _mobile/com.spacelink.exchange
-- _mobile/com.usenobi
-- _mobile/com.wake.weexprd
-- _mobile/io.crypto2cash.exchange
-- _mobile/com.hashkeypro.exchange
 2026-07-15:
 - _mobile/app.backpack.mobile
 - _mobile/com.app.freedx.prod
@@ -28,3 +18,6 @@
 - _mobile/com.osmo.smt
 - _mobile/com.blockchaincommodities.hippo_wallet
 - _mobile/com.fxoro.app
+2026-07-23:
+- _mobile/com.core.app.flitpay
+- _mobile/com.superchain.lbankgoogle

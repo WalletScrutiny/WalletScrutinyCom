@@ -19,7 +19,6 @@ android:
   released: 2019-04-09
   updated: 2026-07-06
   version: 3.0.28
-  reviews: 10
   icon: com.bitsacard.BitsaApp.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +30,7 @@ iphone:
   released: 2019-04-12
   updated: 2026-07-07
   version: 3.0.28
-  reviews: 101
+  reviews: 102
   icon: com.bitsacard.BitsaApp.jpg
   meta: ok
   verdict: nosendreceive

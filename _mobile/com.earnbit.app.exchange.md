@@ -29,7 +29,7 @@ iphone:
   released: 2022-11-08
   updated: 2026-07-16
   version: 1.0.31
-  reviews: 0
+  reviews: 1
   icon: com.earnBit.exchange.app.jpg
   meta: ok
   verdict: custodial

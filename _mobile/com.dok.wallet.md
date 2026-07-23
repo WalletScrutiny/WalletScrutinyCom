@@ -22,7 +22,6 @@ android:
   released: 2020-09-28
   updated: 2026-06-27
   version: '3.21'
-  reviews: 15
   icon: com.dok.wallet.png
   meta: ok
   verdict: nosource

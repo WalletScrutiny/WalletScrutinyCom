@@ -44,7 +44,7 @@ iphone:
   released: 2023-07-17
   updated: 2026-07-10
   version: '2.100'
-  reviews: 360
+  reviews: 361
   icon: com.gemwallet.ios.jpg
   meta: ok
   verdict: wip

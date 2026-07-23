@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   released: 2021-11-11
-  updated: 2025-12-22
+  updated: 2026-07-21
   version: 1.0.57
   reviews: 34
   icon: com.mal.exchange.jpg
@@ -30,8 +30,8 @@ iphone:
   idd: '6443828002'
   appCountry: us
   released: 2023-02-13
-  updated: 2025-09-23
-  version: 1.8.0
+  updated: 2026-07-23
+  version: 1.9.0
   reviews: 4
   icon: io.mal.exchange.jpg
   meta: ok

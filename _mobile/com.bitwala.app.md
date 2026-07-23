@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: Bitwala - Buy Bitcoin & Ether
+title: 'Bitwala: Crypto Wallet & Card'
 date: 2024-07-17
 authors:
 - danny

@@ -20,7 +20,6 @@ android:
   released: 2020-08-31
   updated: 2021-10-27
   version: 1.3.18
-  reviews: 52
   icon: exchange.blackfort.wallet.png
   meta: obsolete
   verdict: nosource

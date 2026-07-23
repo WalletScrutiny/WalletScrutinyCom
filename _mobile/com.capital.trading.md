@@ -20,8 +20,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-07-17
-  version: 3.41.0
+  updated: 2026-07-20
+  version: 3.42.1
   reviews: 38
   icon: com.capital.trading.png
   meta: ok
@@ -34,7 +34,7 @@ iphone:
   released: 2019-12-10
   updated: 2026-07-20
   version: 3.42.0
-  reviews: 325
+  reviews: 326
   icon: com.capital.trading.jpg
   meta: ok
   verdict: nosendreceive

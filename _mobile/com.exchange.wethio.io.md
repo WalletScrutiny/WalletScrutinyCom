@@ -21,7 +21,6 @@ android:
   released: 2021-10-21
   updated: 2022-11-24
   version: 2.3.3
-  reviews: 4
   icon: com.exchange.wethio.io.png
   meta: obsolete
   verdict: custodial

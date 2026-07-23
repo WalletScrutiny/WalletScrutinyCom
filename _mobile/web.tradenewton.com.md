@@ -21,7 +21,6 @@ android:
   released: 2019-11-18
   updated: 2026-07-15
   version: 2.21.4
-  reviews: 4
   icon: web.tradenewton.com.png
   meta: ok
   verdict: custodial

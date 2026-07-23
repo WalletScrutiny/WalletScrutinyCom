@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-01-30
-  updated: 2026-07-15
-  version: 1.44.0
-  reviews: 5697
+  updated: 2026-07-20
+  version: 1.45.0
+  reviews: 5698
   icon: io.atomicwallet.png
   meta: ok
   verdict: obfuscated
@@ -29,9 +29,9 @@ iphone:
   idd: '1478257827'
   appCountry: us
   released: 2019-11-05
-  updated: 2026-07-17
-  version: 1.44.0
-  reviews: 18904
+  updated: 2026-07-22
+  version: 1.45.0
+  reviews: 18905
   icon: atomicwallet.jpg
   meta: ok
   verdict: obfuscated

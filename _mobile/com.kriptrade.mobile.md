@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-28
   updated: 2026-07-03
   version: 3.2.8
-  reviews: 43
+  reviews: 44
   icon: com.kriptrade.mobile.jpg
   meta: ok
   verdict: custodial

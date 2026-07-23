@@ -18,7 +18,6 @@ android:
   released: 2018-09-19
   updated: 2025-08-26
   version: 1.2.4
-  reviews: 6
   icon: com.everdreamsoft.casatookan.png
   meta: ok
   verdict: nosource

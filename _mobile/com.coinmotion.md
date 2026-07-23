@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: in
   released: 2020-08-20
-  updated: 2026-06-04
-  version: 1.13.7
+  updated: 2026-07-22
+  version: 1.14.0
   icon: com.coinmotion.png
   meta: ok
   verdict: custodial

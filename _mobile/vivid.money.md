@@ -15,8 +15,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-10-09
-  updated: 2026-07-14
-  version: 4.36.0
+  updated: 2026-07-21
+  version: 4.37.0
   reviews: 8
   icon: vivid.money.png
   meta: ok

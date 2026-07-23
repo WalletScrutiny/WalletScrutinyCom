@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-04-22
-  updated: 2026-04-24
-  version: 1.2.1
+  updated: 2026-07-22
+  version: 1.2.2
   icon: com.between.wallet.png
   meta: ok
   verdict: nosource

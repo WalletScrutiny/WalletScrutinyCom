@@ -24,7 +24,7 @@ android:
   released: 2015-12-22
   updated: 2026-07-14
   version: 12.48.0
-  reviews: 10929
+  reviews: 10930
   icon: io.cex.app.prod.png
   meta: ok
   verdict: custodial

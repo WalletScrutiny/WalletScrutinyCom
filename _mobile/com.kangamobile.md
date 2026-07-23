@@ -19,8 +19,8 @@ android:
   users: 50000
   appCountry: us
   released: 2020-01-03
-  updated: 2026-07-01
-  version: 1.30.1
+  updated: 2026-07-21
+  version: 1.30.2
   reviews: 6
   icon: com.kangamobile.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1471634153'
   appCountry: jp
   released: 2020-02-13
-  updated: 2026-07-01
-  version: 1.30.1
+  updated: 2026-07-22
+  version: 1.30.2
   reviews: 7
   icon: kanga.mobile.jpg
   meta: ok

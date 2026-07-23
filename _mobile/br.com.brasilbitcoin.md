@@ -31,7 +31,7 @@ iphone:
   released: 2020-07-27
   updated: 2026-07-20
   version: 5.0.03
-  reviews: 2285
+  reviews: 2287
   icon: br.com.brasilbitcoin.run.jpg
   meta: ok
   verdict: custodial

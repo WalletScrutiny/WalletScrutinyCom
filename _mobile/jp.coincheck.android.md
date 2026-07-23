@@ -14,8 +14,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-04-23
-  updated: 2026-07-03
-  version: 4.20.4
+  updated: 2026-07-15
+  version: 4.20.5
   reviews: 13
   icon: jp.coincheck.android.png
   meta: ok

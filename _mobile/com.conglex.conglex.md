@@ -19,7 +19,7 @@ android:
   updated: 2025-08-14
   version: 2.0.4
   icon: com.conglex.conglex.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Conglex Developers
 iphone:

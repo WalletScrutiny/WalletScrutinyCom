@@ -1,14 +1,14 @@
 ---
 wsId: jiggleCrypto
-title: "Jiggle: Crypto Wallet"
+title: 'Jiggle: Crypto Wallet'
 date: 2026-07-21
 authors:
-  - danny
+- danny
 website: https://jiggle.app
 twitter: jiggle_app
 redirect_from:
-  - /android/com.jiggle.wallet/
-  - /iphone/com.jiggle.cryptowallet/
+- /android/com.jiggle.wallet/
+- /iphone/com.jiggle.cryptowallet/
 android:
   appId: com.jiggle.wallet
   users: 50000
@@ -23,7 +23,7 @@ android:
   developerName: Appia Solutions FZCO
 iphone:
   appId: com.jiggle.cryptowallet
-  idd: "6446089702"
+  idd: '6446089702'
   appCountry: us
   released: 2023-06-28
   updated: 2026-07-08
@@ -32,7 +32,8 @@ iphone:
   icon: com.jiggle.cryptowallet.jpg
   meta: ok
   verdict: custodial
-  developerName: Appia Solutions DMCC
+  developerName: Appia Solutions FZCO
+
 ---
 
 ## App Description

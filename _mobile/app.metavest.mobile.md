@@ -24,7 +24,7 @@ android:
   updated: 2025-07-27
   version: 3.4.0
   icon: app.metavest.mobile.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Metavest
 iphone:

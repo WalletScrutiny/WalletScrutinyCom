@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-01
-  updated: 2026-07-06
-  version: 2.1.0
+  updated: 2026-07-17
+  version: 2.2.0
   reviews: 30
   icon: com.hashkeypro.exchange.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   version: 1.68.0
   reviews: 11
   icon: com.hashkey.global.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: HashKey Bermuda Limited
 

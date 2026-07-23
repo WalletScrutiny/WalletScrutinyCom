@@ -12,7 +12,7 @@ iphone:
   released: 2023-01-04
   updated: 2026-07-17
   version: 2.25.0
-  reviews: 735
+  reviews: 736
   icon: com.global.wallet.ios.jpg
   meta: ok
   verdict: wip

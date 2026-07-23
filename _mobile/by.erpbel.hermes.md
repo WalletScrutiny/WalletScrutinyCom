@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-10-06
-  updated: 2026-07-15
-  version: 2.13.53
+  updated: 2026-07-21
+  version: 2.13.55
   icon: by.erpbel.hermes.png
   meta: ok
   verdict: custodial
@@ -31,8 +31,8 @@ iphone:
   idd: '1629900361'
   appCountry: by
   released: 2023-04-17
-  updated: 2026-07-16
-  version: 2.13.53
+  updated: 2026-07-22
+  version: 2.13.55
   reviews: 95
   icon: by.erpbel.hermes.jpg
   meta: ok

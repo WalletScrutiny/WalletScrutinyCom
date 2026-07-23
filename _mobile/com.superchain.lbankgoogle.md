@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2020-05-08
   updated: 2026-07-17
-  version: 8.1.1
-  reviews: 683
+  version: 8.1.2
+  reviews: 684
   icon: com.superchain.lbankgoogle.png
   meta: ok
   verdict: custodial

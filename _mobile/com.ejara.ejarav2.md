@@ -18,7 +18,6 @@ android:
   released: 2021-03-08
   updated: 2026-06-12
   version: 4.0.1
-  reviews: 26
   icon: com.ejara.ejarav2.png
   meta: ok
   verdict: nosource

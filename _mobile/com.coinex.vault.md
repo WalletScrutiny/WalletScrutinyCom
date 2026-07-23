@@ -28,7 +28,7 @@ iphone:
   icon: com.coinex.vault.jpg
   meta: ok
   verdict: nosource
-  developerName: Coinex Global Limited
+  developerName: Viabtc Technology Limited
 
 ---
 

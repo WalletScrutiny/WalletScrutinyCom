@@ -18,9 +18,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-04-04
-  updated: 2025-09-22
-  version: 2.25.0
-  reviews: 30
+  updated: 2026-07-20
+  version: 2.26.0
   icon: com.holdings.choice.png
   meta: ok
   verdict: custodial
@@ -30,8 +29,8 @@ iphone:
   idd: '1563472237'
   appCountry: us
   released: 2021-08-05
-  updated: 2025-09-23
-  version: 2.25.0
+  updated: 2026-07-22
+  version: 2.26.0
   reviews: 1498
   icon: com.holdings.choice.jpg
   meta: ok

@@ -9,7 +9,7 @@ android:
   appId: com.noahwallet.signet
   users: 50
   appCountry: us
-  updated: 2026-06-04
+  updated: 2026-07-22
   version: VARY
   icon: com.noahwallet.signet.png
   meta: fewusers

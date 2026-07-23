@@ -15,8 +15,8 @@ android:
   appId: com.deskoin.app
   users: 10000
   appCountry: us
-  updated: 2026-06-09
-  version: 7.7.5
+  updated: 2026-07-21
+  version: 7.8.15
   icon: com.deskoin.app.png
   meta: ok
   verdict: custodial
@@ -26,8 +26,8 @@ iphone:
   idd: '6451258830'
   appCountry: fr
   released: 2023-12-02
-  updated: 2026-06-12
-  version: 7.7.5
+  updated: 2026-07-21
+  version: 7.8.15
   reviews: 398
   icon: com.deskoin.app.jpg
   meta: ok

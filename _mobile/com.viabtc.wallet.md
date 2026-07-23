@@ -25,7 +25,7 @@ android:
   released: 2019-05-15
   updated: 2026-06-30
   version: 4.23.5
-  reviews: 61
+  reviews: 60
   icon: com.viabtc.wallet.png
   meta: ok
   verdict: nosource

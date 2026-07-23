@@ -15,8 +15,8 @@ android:
   appId: com.maxwallet.cc
   users: 10000
   appCountry: us
-  updated: 2026-06-03
-  version: 1.2.4
+  updated: 2026-07-22
+  version: 1.5.2
   icon: com.maxwallet.cc.png
   meta: ok
   verdict: nosource

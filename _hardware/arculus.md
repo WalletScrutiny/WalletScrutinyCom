@@ -1,8 +1,6 @@
 ---
 title: Arculus
 appId: arculus
-redirect_from:
-- /iphone/com.arculus.wallet/
 authors:
 - danny
 released: 

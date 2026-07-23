@@ -31,7 +31,7 @@ iphone:
   released: 2014-05-30
   updated: 2026-05-05
   version: 7.0.25
-  reviews: 29
+  reviews: 28
   icon: com.triviologic.xtrader.jpg
   meta: ok
   verdict: custodial

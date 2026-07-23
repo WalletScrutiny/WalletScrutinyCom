@@ -27,7 +27,7 @@ iphone:
   released: 2022-11-15
   updated: 2026-07-11
   version: 2.0.18
-  reviews: 432
+  reviews: 437
   icon: com.bittime.currency.exchange.jpg
   meta: ok
   verdict: custodial
