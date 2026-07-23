@@ -19,11 +19,7 @@
         {% if review_repository != '' %}
         {% assign build_app_id = include.appId | default: page.appId %}
         {% assign apps_table_id = include.appsTableId | default: 'appsTable' %}
-        {% assign version_element_id = include.versionElementId | default: 'version-number' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
-        {% assign skip_ws_version = include.skipWsVersion %}
-        {% assign skip_version_info = include.skipVersionInfo %}
-        {% assign merge_verification_into = include.mergeVerificationInto | default: '' %}
 
         <div id="{{ apps_table_id }}" style="margin-top: 0.25em;"></div>
 
@@ -51,18 +47,17 @@
               showIssueTracker: true
             });
 
-            const versionNumberElement = document.getElementById('{{ version_element_id }}');
-            const skipVersionInfo = {{ skip_version_info | default: false | jsonify }};
+            const versionNumberElement = document.getElementById('{{ include.versionElementId | default: 'version-number' }}');
             const versionInfo = getMaxAssetVersion(attestationsInfo.info);
-            const mergeInto = '{{ merge_verification_into }}';
+            const mergeInto = '{{ include.mergeVerificationInto | default: '' }}';
 
             if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
-              window.updateDualMobileVerification('{{ include.platform }}', versionInfo);
-            } else if (versionNumberElement && !skipVersionInfo) {
+              window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
+            } else if (versionNumberElement && !{{ include.skipVersionInfo | default: false | jsonify }}) {
 
               let versionInfoText = '<p style="margin-top: 0;">';
 
-              const skipWsVersion = {{ skip_ws_version | default: false | jsonify }};
+              const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
               if (!skipWsVersion) {
                 var wsVer = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
                   ? wsVersionAndroid
@@ -108,10 +103,9 @@
           });
         </script>
         {% else %}
-        {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
         {% if build_verdict == 'sourceavailable' or build_verdict == 'diy' %}
         <small>Source repository URL is missing from this wallet page metadata.</small>
-        {% elsif sourceCheckedVerdicts contains build_verdict %}
+        {% elsif "nosource,obfuscated,sourceavailable,diy" | split: "," contains build_verdict %}
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>

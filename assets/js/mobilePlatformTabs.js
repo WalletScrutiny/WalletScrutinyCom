@@ -1,8 +1,8 @@
-window.updateDualMobileVerification = function (platform, info) {
+window.updateDualMobileVerification = function (platform, info, elementId) {
   window._mobileVerParts = window._mobileVerParts || {};
   window._mobileVerParts[platform] = info;
   if (!('android' in window._mobileVerParts) || !('iphone' in window._mobileVerParts)) return;
-  const el = document.getElementById('version-number-verification');
+  const el = document.getElementById(elementId);
   if (!el) return;
   const fmt = (ver, date) => ver ? '<b>' + ver + '</b> <small>(' + date + ')</small>' : '';
   const fmtDual = (aV, aD, iV, iD) => aV && iV
