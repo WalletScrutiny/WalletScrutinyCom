@@ -19,6 +19,7 @@ android:
   released: 2025-12-07
   updated: 2026-06-24
   version: 3.8.7
+  icon: com.gorunjinian.metrovault.jpg
   signer: 1245554ceb17cea21e9912af7bf60d38d716f5884d4b3664e5338462cc76fd03
   alternativeStores:
   - fdroid
