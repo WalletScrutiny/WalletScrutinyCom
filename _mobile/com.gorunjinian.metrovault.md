@@ -30,7 +30,7 @@ android:
 
 ---
 
-{% include featureEvidence.html feature="airGapped" source="[APK manifest, v3.8.7](https://f-droid.org/packages/com.gorunjinian.metrovault/)" quote="The v3.8.7 APK declares only CAMERA, USE_BIOMETRIC and USE_FINGERPRINT permissions. android.permission.INTERNET is absent, so the app cannot open a network connection." %}
+{% include featureEvidence.html feature="airGapped" source="[APK manifest, v3.8.7](https://f-droid.org/packages/com.gorunjinian.metrovault/)" quote="The v3.8.7 APK declares three Android permissions — CAMERA, USE_BIOMETRIC and USE_FINGERPRINT — plus its own package-scoped com.gorunjinian.metrovault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION. android.permission.INTERNET is absent, so the app cannot open a network connection." %}
 
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/gorunjinian/MetroVault#readme)" quote="Multi-Sig Support: Import and sign for collaborative custody wallets (2-of-3, 3-of-5, etc.)" %}
 
@@ -42,7 +42,7 @@ android:
 
 {% include featureEvidence.html feature="fingerprint" source="[APK manifest, v3.8.7](https://f-droid.org/packages/com.gorunjinian.metrovault/)" quote="android.permission.USE_BIOMETRIC and android.permission.USE_FINGERPRINT are declared, backing the app's biometric unlock." %}
 
-{% include featureEvidence.html feature="foss" source="[LICENSE](https://github.com/gorunjinian/MetroVault/blob/main/LICENSE)" quote="GNU General Public License v3.0. Confirmed as GPL-3.0 through the GitHub license endpoint for gorunjinian/MetroVault." %}
+{% include featureEvidence.html feature="foss" source="[LICENSE.txt](https://github.com/gorunjinian/MetroVault/blob/main/LICENSE.txt)" quote="GNU General Public License v3.0 or later (GPL-3.0-or-later), as stated in the repository's LICENSE.txt and on the app's F-Droid listing." %}
 
 ## App Description
 
@@ -65,6 +65,7 @@ addresses, balances and broadcasting. Everything crosses between them as QR code
 types are Native SegWit, Taproot, Nested SegWit, Legacy and Silent Payments (BIP-352), with a PSBT
 workflow covering BIP-174 and BIP-370 v2, and multisig signing for collaborative custody.
 
-Because the app declares no `INTERNET` permission, the air-gap is enforced by the Android permission
-model rather than only by user discipline — a claim that can be checked against the published APK
-rather than taken on the developer's word.
+Because the app declares no `INTERNET` permission, direct Internet access is blocked by the Android
+permission model rather than left to user discipline — a claim that can be checked against the
+published APK rather than taken on the developer's word. That is narrower than a full air gap, which
+also depends on the device's radio state and on what reaches the phone by other routes.
