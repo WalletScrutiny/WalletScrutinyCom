@@ -24,7 +24,7 @@ android:
   alternativeStores:
   - fdroid
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Gorun Jinian
   repository: https://github.com/gorunjinian/MetroVault
 
@@ -52,20 +52,36 @@ MetroVault is not distributed through Google Play. It is published on
 normally inherit from a Play listing were filled from the APK, the repository and the F-Droid index
 instead.
 
-The developer describes it as an offline signing device rather than a wallet in the usual sense:
+MetroVault is a signing device rather than a wallet that transacts on its own, and understanding that
+split is the key to reading everything below. The developer's own description is that it "turns your
+Android phone into a cold storage hardware wallet" and "acts as a signer for your watch-only wallets
+(like BlueWallet, Sparrow, or Electrum) running on online devices." Keys are generated and kept on
+the offline phone: the app supports BIP-39 mnemonics with an optional passphrase that can be saved or
+held in session memory only, includes a checksum calculator and validator, and offers BIP-85
+derivation of 12- or 24-word child seeds from a master seed. What leaves the device is an XPUB, which
+the user imports into a watch-only wallet on a separate online device; that companion sees balances
+and pushes transactions but holds no key material and cannot move funds. Spending therefore runs as a
+round trip: the online wallet builds a PSBT, the user carries it across by QR code, MetroVault signs
+or finalises it on a screen the network cannot reach, and the online wallet broadcasts the result.
+Receive addresses can be generated and confirmed on the trusted screen so they can be checked against
+what the online device displays. Supported script types are Native SegWit, Taproot, Nested SegWit,
+Legacy and Silent Payments (BIP-352), the PSBT workflow covers BIP-174 and BIP-370 v2, and multisig
+signing is supported for collaborative custody.
 
-> MetroVault is a secure, offline Android signing device application designed to turn your Android
-> phone into a cold storage hardware wallet. […] It acts as a signer for your watch-only wallets
-> (like BlueWallet, Sparrow, or Electrum) running on online devices. By keeping your keys on a device
-> that never connects to the internet (air-gapped), you significantly reduce the attack surface for
-> theft and malware.
+This means the app never sends or receives bitcoin over the network itself, which is by design rather
+than a limitation: it declares no `INTERNET` permission at all, so direct network access is blocked by
+the Android permission model rather than left to user discipline — a claim any reader can check
+against the published APK instead of taking on the developer's word. That is narrower than a full air
+gap, which also depends on the device's radio state and on what reaches the phone by other routes. The
+arrangement is the same one every hardware wallet uses: a Trezor, a BitBox02 or a Keystone 3 Pro is
+also a signer that never broadcasts and depends on a companion application, and custody follows the
+keys rather than the network connection. On that basis MetroVault is a self-custodial Bitcoin wallet
+whose transacting half happens to run on a different device.
 
-The app holds keys and signs; a companion watch-only wallet on a separate, online device handles
-addresses, balances and broadcasting. Everything crosses between them as QR codes. Supported script
-types are Native SegWit, Taproot, Nested SegWit, Legacy and Silent Payments (BIP-352), with a PSBT
-workflow covering BIP-174 and BIP-370 v2, and multisig signing for collaborative custody.
-
-Because the app declares no `INTERNET` permission, direct Internet access is blocked by the Android
-permission model rather than left to user discipline — a claim that can be checked against the
-published APK rather than taken on the developer's word. That is narrower than a full air gap, which
-also depends on the device's radio state and on what reaches the phone by other routes.
+The source is public at the repository above under GPL-3.0-or-later, and F-Droid builds the app from
+that source. Two independent distribution points agree on the artifact: the APK published on F-Droid
+and the APK attached to the corresponding GitHub release are byte-identical, and both carry the
+developer's own signing certificate rather than a re-signing key applied by the store. That is a
+promising starting point for a reproducibility check but is not one in itself, so this entry records
+the source as available and leaves the build verdict open until an independent rebuild has been
+attempted.
