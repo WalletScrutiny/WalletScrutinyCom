@@ -31,7 +31,7 @@ iphone:
   released: 2021-12-28
   updated: 2026-07-07
   version: 2.4.2
-  reviews: 73
+  reviews: 72
   icon: com.boundless.boundlesspay.jpg
   meta: ok
   verdict: custodial

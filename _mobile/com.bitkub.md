@@ -31,7 +31,7 @@ iphone:
   released: 2019-04-24
   updated: 2026-07-15
   version: 4.18.0
-  reviews: 18995
+  reviews: 18999
   icon: com.bitkub.app.jpg
   meta: ok
   verdict: custodial

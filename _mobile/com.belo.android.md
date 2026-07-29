@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-08-23
-  updated: 2026-06-16
-  version: 7.20.3
+  updated: 2026-07-20
+  version: 7.21.0
   reviews: 67
   icon: com.belo.android.png
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1575614708'
   appCountry: co
   released: 2021-09-08
-  updated: 2026-06-18
-  version: 7.20.3
+  updated: 2026-07-28
+  version: 7.21.0
   reviews: 47
   icon: com.belo.ios.jpg
   meta: ok

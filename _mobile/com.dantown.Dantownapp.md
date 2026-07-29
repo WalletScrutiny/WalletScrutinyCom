@@ -12,8 +12,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-03-27
-  updated: 2026-06-23
-  version: 2.0.83
+  updated: 2026-07-29
+  version: 2.0.84
   reviews: 44
   icon: com.dantown.Dantownapp.jpg
   meta: ok

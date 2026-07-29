@@ -16,9 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-07-21
-  updated: 2026-06-18
-  version: 5.4.2
-  reviews: 538
+  updated: 2026-07-03
+  version: 5.4.3
+  reviews: 541
   icon: com.blockabc.cctip.png
   meta: ok
   verdict: custodial

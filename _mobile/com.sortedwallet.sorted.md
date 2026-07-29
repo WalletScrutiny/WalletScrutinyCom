@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-12-11
-  updated: 2026-07-17
-  version: 1.0.24
+  updated: 2026-07-24
+  version: 1.0.25
   icon: com.sortedwallet.sorted.png
   meta: ok
   verdict: nosource

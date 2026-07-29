@@ -22,6 +22,7 @@ android:
   released: 2023-04-10
   updated: 2026-07-22
   version: 2.4.11
+  reviews: 1
   icon: io.puravidabitcoin.app.png
   meta: fewusers
   verdict: custodial

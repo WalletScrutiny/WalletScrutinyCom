@@ -1,5 +1,5 @@
 ---
-title: ZMEX- Crypto & Bitcoin Trading
+title: ZMEX
 date: 2026-07-24
 website: https://www.zmexglobal.com/
 appCountry: us

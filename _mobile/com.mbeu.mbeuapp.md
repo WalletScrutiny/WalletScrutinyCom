@@ -18,8 +18,8 @@ android:
   appId: com.mbeu.mbeuapp
   users: 10000
   appCountry: us
-  updated: 2026-07-03
-  version: 2.3.4
+  updated: 2026-07-28
+  version: 2.5.0
   icon: com.mbeu.mbeuapp.png
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '6468321511'
   appCountry: pt
   released: 2024-03-05
-  updated: 2026-07-23
-  version: 2.3.5
+  updated: 2026-07-28
+  version: 2.5.0
   reviews: 51
   icon: com.mbeu.mbeuapp.jpg
   meta: ok

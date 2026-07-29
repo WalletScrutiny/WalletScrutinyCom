@@ -16,7 +16,8 @@ android:
   appCountry: us
   released: 2017-10-23
   updated: 2026-07-07
-  version: 1.35.7
+  version: 1.35.8
+  reviews: 21
   icon: com.dunamu.exchange.png
   meta: ok
   verdict: custodial

@@ -30,9 +30,9 @@ iphone:
   idd: 1486999955
   appCountry: cl
   released: 2019-11-15
-  updated: 2026-07-09
-  version: 7.3.18
-  reviews: 285
+  updated: 2026-07-27
+  version: 7.3.19
+  reviews: 286
   icon: io.vitawallet.vitawallet.jpg
   meta: ok
   verdict: custodial

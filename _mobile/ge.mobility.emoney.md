@@ -30,7 +30,7 @@ iphone:
   released: 2020-04-19
   updated: 2026-03-05
   version: 11.5.10
-  reviews: 8
+  reviews: 9
   icon: ge.smatex.eMoney.jpg
   meta: ok
   verdict: custodial

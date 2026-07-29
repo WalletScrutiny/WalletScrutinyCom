@@ -33,7 +33,7 @@ iphone:
   released: 2017-01-20
   updated: 2026-01-26
   version: 3.5.40
-  reviews: 189
+  reviews: 188
   icon: com.btcc.BTCCReactNative.jpg
   meta: ok
   verdict: custodial

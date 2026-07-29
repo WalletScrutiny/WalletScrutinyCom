@@ -18,9 +18,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-28
-  updated: 2026-07-17
-  version: 7.6.3
-  reviews: 1888
+  updated: 2026-07-24
+  version: 7.7.0
+  reviews: 1891
   icon: com.nexowallet.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: 1455341917
   appCountry: us
   released: 2019-06-30
-  updated: 2026-07-13
-  version: 7.6.2
-  reviews: 1833
+  updated: 2026-07-27
+  version: 7.7.0
+  reviews: 1847
   icon: com.nexobank.wallet.jpg
   meta: ok
   verdict: custodial

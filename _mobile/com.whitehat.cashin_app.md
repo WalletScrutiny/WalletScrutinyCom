@@ -33,7 +33,7 @@ iphone:
   released: 2022-10-04
   updated: 2022-10-04
   version: '1.0'
-  reviews: 1287
+  reviews: 1288
   icon: com.macroblocs.cashinApp.jpg
   meta: obsolete
   verdict: nosendreceive

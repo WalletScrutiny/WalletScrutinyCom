@@ -29,7 +29,7 @@ iphone:
   released: 2025-07-14
   updated: 2026-07-15
   version: 5.19.2
-  reviews: 192
+  reviews: 194
   icon: com.bybit.eu.jpg
   meta: ok
   verdict: custodial

@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: gd
   released: 2019-07-11
-  updated: 2026-07-20
-  version: 4.3.4
+  updated: 2026-07-23
+  version: 4.3.5
   reviews: 3555
   icon: com.bitwala.app.png
   meta: ok

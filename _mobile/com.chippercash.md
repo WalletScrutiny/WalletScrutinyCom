@@ -17,7 +17,7 @@ android:
   released: 2018-07-07
   updated: 2026-07-09
   version: 1.156.0
-  reviews: 3278
+  reviews: 3279
   icon: com.chippercash.png
   meta: ok
   verdict: custodial

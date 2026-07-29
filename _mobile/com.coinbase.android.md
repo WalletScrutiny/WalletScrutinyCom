@@ -23,9 +23,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2013-03-01
-  updated: 2026-07-16
+  updated: 2026-07-23
   version: 14.27.28
-  reviews: 117972
+  reviews: 118027
   icon: com.coinbase.android.jpg
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: 886427730
   appCountry: us
   released: 2014-06-22
-  updated: 2026-07-20
-  version: 14.27.28
-  reviews: 1795610
+  updated: 2026-07-27
+  version: 14.28.33
+  reviews: 1795850
   icon: com.vilcsak.bitcoin2.jpg
   meta: ok
   verdict: custodial

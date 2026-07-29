@@ -21,7 +21,7 @@ android:
   released: 2018-04-10
   updated: 2026-07-12
   version: 7.8.0
-  reviews: 287
+  reviews: 288
   icon: com.bitrefill.app.png
   meta: ok
   verdict: custodial

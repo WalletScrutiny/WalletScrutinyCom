@@ -20,6 +20,7 @@ android:
   released: 2020-02-05
   updated: 2023-07-20
   version: 2.2.106
+  reviews: 6
   icon: com.exchangily.wallet.png
   meta: obsolete
   verdict: wip

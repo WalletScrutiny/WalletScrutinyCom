@@ -1,7 +1,7 @@
 ---
 title: Crypto & Bitcoin Wallet Paybis
 date: 2026-07-24
-website: https://paybis.com/
+website: https://paybis.com/contacts/
 appCountry: us
 redirect_from:
 - /android/com.paybis/
@@ -13,7 +13,7 @@ android:
   released: 2021-09-06
   updated: 2025-10-07
   version: 1.6.20
-  reviews: 398
+  reviews: 397
   icon: com.paybis.png
   meta: ok
   verdict: custodial
@@ -25,7 +25,7 @@ iphone:
   released: 2021-09-20
   updated: 2026-07-09
   version: 1.7.31
-  reviews: 2860
+  reviews: 2857
   icon: com.paybis.jpg
   meta: ok
   verdict: custodial

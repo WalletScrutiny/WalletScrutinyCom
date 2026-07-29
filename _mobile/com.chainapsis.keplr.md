@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-10-01
-  updated: 2026-07-10
-  version: 2.1.207
+  updated: 2026-07-20
+  version: 2.1.208
   reviews: 205
   icon: com.chainapsis.keplr.png
   meta: ok
@@ -27,8 +27,8 @@ iphone:
   idd: '1567851089'
   appCountry: us
   released: 2021-10-14
-  updated: 2026-07-13
-  version: 2.1.207
+  updated: 2026-07-24
+  version: 2.1.208
   reviews: 272
   icon: com.chainapsis.keplrwallet.jpg
   meta: ok

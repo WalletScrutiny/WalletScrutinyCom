@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-01-03
-  updated: 2026-07-21
-  version: 2.31.0
+  updated: 2026-07-24
+  version: 2.32.0
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.png
   meta: ok

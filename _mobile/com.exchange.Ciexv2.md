@@ -23,6 +23,7 @@ android:
   released: 2022-07-20
   updated: 2025-09-09
   version: 6.5.4
+  reviews: 4
   icon: com.exchange.Ciexv2.png
   meta: ok
   verdict: custodial

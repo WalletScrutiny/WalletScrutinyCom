@@ -10,7 +10,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2021-08-19
-  updated: 2026-06-30
+  updated: 2026-07-24
   version: 1.3.50
   reviews: 22
   icon: com.willtrade.trading.png

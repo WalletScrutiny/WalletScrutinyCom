@@ -18,10 +18,10 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-05-03
-  updated: 2026-07-17
-  version: 4.36.1
-  reviews: 5035
-  icon: com.kubi.kucoin.jpg
+  updated: 2026-07-23
+  version: 4.37.0
+  reviews: 5034
+  icon: com.kubi.kucoin.png
   meta: ok
   verdict: custodial
   developerName: Kugame Global Limited

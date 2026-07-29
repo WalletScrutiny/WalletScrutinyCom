@@ -31,7 +31,7 @@ iphone:
   released: 2014-03-28
   updated: 2018-09-21
   version: 2.4.12
-  reviews: 82
+  reviews: 81
   icon: co.airbitz.airbitz.jpg
   meta: obsolete
   verdict: sourceavailable

@@ -12,7 +12,7 @@ redirect_from:
 - /iphone/com.exchange1.exapp/
 android:
   appId: com.exchange1.ex1
-  users: 1000
+  users: 5000
   appCountry: us
   updated: 2026-05-05
   version: 1.1.4

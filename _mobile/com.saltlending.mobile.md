@@ -20,7 +20,7 @@ android:
   released: 2019-01-07
   updated: 2026-03-18
   version: 2.20.5
-  reviews: 44
+  reviews: 45
   icon: com.saltlending.mobile.png
   meta: ok
   verdict: custodial

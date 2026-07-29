@@ -20,7 +20,7 @@ android:
   released: 2020-01-19
   updated: 2026-07-22
   version: 10.1.0
-  reviews: 603
+  reviews: 604
   icon: com.zengo.wallet.png
   meta: ok
   verdict: nosource
@@ -30,8 +30,8 @@ iphone:
   idd: 1440147115
   appCountry: us
   released: 2019-06-07
-  updated: 2026-07-08
-  version: 10.0.5
+  updated: 2026-07-28
+  version: 10.1.0
   reviews: 4395
   icon: kzencorp.mobile.ios.jpg
   meta: ok

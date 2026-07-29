@@ -7,13 +7,13 @@ redirect_from:
 - /iphone/cash.velo.app/
 android:
   appId: cash.velo.app
-  users: 500
+  users: 1000
   appCountry: us
   released: 2025-12-16
   updated: 2026-01-02
   version: 1.0.8
   icon: cash.velo.app.png
-  meta: fewusers
+  meta: ok
   verdict: nosource
   developerName: Monica.cash
 iphone:

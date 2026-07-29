@@ -31,8 +31,8 @@ iphone:
   idd: '1459809738'
   appCountry: es
   released: 2019-06-04
-  updated: 2026-07-13
-  version: 3.70.0
+  updated: 2026-07-28
+  version: 3.71.0
   reviews: 3794
   icon: com.bit2me.flutter-ios.jpg
   meta: ok

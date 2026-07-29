@@ -16,8 +16,8 @@ android:
   users: 500
   appCountry: us
   released: 2025-05-14
-  updated: 2026-04-28
-  version: 1.1.9
+  updated: 2026-07-24
+  version: 1.1.12
   reviews: 8
   icon: com.lightning.manna.png
   meta: fewusers

@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-11
-  updated: 2026-07-10
-  version: 3.3.4
+  updated: 2026-07-29
+  version: 3.1.5
   reviews: 16
   icon: hkd.com.png
   meta: ok

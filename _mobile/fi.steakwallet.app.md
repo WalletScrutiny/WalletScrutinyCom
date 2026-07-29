@@ -1,8 +1,7 @@
 ---
 title: Omni Web3 Wallet
 date: 2026-07-24
-altTitle: Steakwallet
-website: https://omni.app/
+website: https://steakwallet.fi
 redirect_from:
 - /android/fi.steakwallet.app/
 - /iphone/com.thesteakwallet.app/

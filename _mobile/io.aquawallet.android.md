@@ -40,7 +40,7 @@ iphone:
   released: 2024-01-03
   updated: 2026-07-07
   version: 0.5.1
-  reviews: 74
+  reviews: 75
   icon: io.aquawallet.ios.jpg
   meta: ok
   verdict: wip

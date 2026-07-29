@@ -31,7 +31,7 @@ iphone:
   released: 2021-11-22
   updated: 2024-07-26
   version: 1.1.6
-  reviews: 236
+  reviews: 235
   icon: com.kochure.kochure-app.jpg
   meta: obsolete
   verdict: custodial

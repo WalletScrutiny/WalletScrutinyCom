@@ -19,7 +19,7 @@ android:
   released: 2020-07-28
   updated: 2026-06-22
   version: 2.3.8
-  reviews: 152
+  reviews: 151
   icon: ru.koshelek.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2020-08-05
   updated: 2026-06-23
   version: 2.3.8
-  reviews: 118
+  reviews: 119
   icon: dev.spedn.ru.jpg
   meta: ok
   verdict: custodial

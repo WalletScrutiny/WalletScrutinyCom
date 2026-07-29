@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-12-11
-  updated: 2026-03-19
-  version: 4.46.0
+  updated: 2026-07-28
+  version: 4.50.0
   reviews: 16
   icon: app.coinhubatm.wallet.png
   meta: ok

@@ -23,7 +23,7 @@ android:
   version: V2.0.3
   reviews: 3
   icon: com.zybitech.juancash.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Zybi Tech Inc
 iphone:

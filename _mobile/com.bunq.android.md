@@ -33,7 +33,7 @@ iphone:
   released: 2016-02-12
   updated: 2026-07-23
   version: 31.13.0
-  reviews: 14294
+  reviews: 14339
   icon: com.bunq.ios.jpg
   meta: ok
   verdict: nosendreceive

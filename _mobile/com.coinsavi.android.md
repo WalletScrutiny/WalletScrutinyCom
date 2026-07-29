@@ -28,7 +28,7 @@ iphone:
   released: 2023-09-07
   updated: 2025-11-17
   version: 0.70.8
-  reviews: 544
+  reviews: 545
   icon: com.coinsavi.app.jpg
   meta: ok
   verdict: custodial

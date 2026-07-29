@@ -19,6 +19,7 @@ android:
   released: 2018-06-23
   updated: 2026-07-22
   version: '3.48'
+  reviews: 2
   icon: w3axis.com.epocket.png
   meta: ok
   verdict: custodial

@@ -37,7 +37,7 @@ iphone:
   released: 2019-12-03
   updated: 2025-04-10
   version: 2.8.19
-  reviews: 979
+  reviews: 978
   icon: com.coinpaprika.Coins.jpg
   meta: stale
   verdict: nosource

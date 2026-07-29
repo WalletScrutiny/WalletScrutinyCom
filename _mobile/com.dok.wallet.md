@@ -20,8 +20,9 @@ android:
   users: 5000
   appCountry: il
   released: 2020-09-28
-  updated: 2026-06-27
-  version: '3.21'
+  updated: 2026-07-27
+  version: '3.23'
+  reviews: 15
   icon: com.dok.wallet.png
   meta: ok
   verdict: nosource
@@ -31,8 +32,8 @@ iphone:
   idd: 1533065700
   appCountry: il
   released: 2020-10-08
-  updated: 2026-06-30
-  version: '2.42'
+  updated: 2026-07-27
+  version: '2.44'
   reviews: 2
   icon: com.dok.wallet.jpg
   meta: ok

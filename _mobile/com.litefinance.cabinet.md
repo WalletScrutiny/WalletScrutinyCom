@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-02-09
-  updated: 2026-06-03
-  version: v2.1.2032-cabinet-release
+  updated: 2026-07-26
+  version: v2.1.2037-cabinet-release
   reviews: 86
   icon: com.litefinance.cabinet.png
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: '1661254805'
   appCountry: us
   released: 2023-01-11
-  updated: 2026-06-15
-  version: 3.1.13
+  updated: 2026-07-29
+  version: 3.1.15
   reviews: 104
   icon: com.litefinance.cabinet.jpg
   meta: ok

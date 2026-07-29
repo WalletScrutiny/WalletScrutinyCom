@@ -13,8 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-05-16
-  updated: 2026-07-10
-  version: 3.6.5
+  updated: 2026-07-26
+  version: 3.6.6
   reviews: 5
   icon: io.attlas.png
   meta: ok

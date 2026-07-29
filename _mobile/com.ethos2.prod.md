@@ -16,6 +16,7 @@ android:
   released: 2023-06-26
   updated: 2026-05-01
   version: 5.4.0
+  reviews: 21
   icon: com.ethos2.prod.png
   meta: ok
   verdict: nosource

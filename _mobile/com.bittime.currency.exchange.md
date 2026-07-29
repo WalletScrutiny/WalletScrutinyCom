@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-09-23
-  updated: 2026-07-10
-  version: 2.0.18
+  updated: 2026-07-24
+  version: 2.0.19
   icon: com.bittime.currency.exchange.png
   meta: ok
   verdict: custodial
@@ -25,9 +25,9 @@ iphone:
   idd: '1641059360'
   appCountry: id
   released: 2022-11-15
-  updated: 2026-07-11
-  version: 2.0.18
-  reviews: 437
+  updated: 2026-07-29
+  version: 2.0.19
+  reviews: 442
   icon: com.bittime.currency.exchange.jpg
   meta: ok
   verdict: custodial

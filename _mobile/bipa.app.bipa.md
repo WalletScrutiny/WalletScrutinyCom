@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-01-18
-  updated: 2026-07-21
-  version: 4.2.52
+  updated: 2026-07-28
+  version: 4.2.54
   reviews: 13
   icon: bipa.app.bipa.png
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: '1516842324'
   appCountry: br
   released: 2020-06-30
-  updated: 2026-07-21
-  version: 4.2.28
-  reviews: 9333
+  updated: 2026-07-28
+  version: 4.2.29
+  reviews: 9359
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial

@@ -14,7 +14,7 @@ android:
   appCountry: us
   released: 2025-01-13
   updated: 2026-07-22
-  version: 3.3.19
+  version: 3.3.18
   reviews: 12
   icon: com.app.jc.png
   meta: ok

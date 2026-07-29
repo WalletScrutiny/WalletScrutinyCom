@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-30
-  updated: 2026-07-20
-  version: 2.5.94
-  reviews: 908
+  updated: 2026-07-27
+  version: 2.5.95
+  reviews: 909
   icon: com.roqqu.app.png
   meta: ok
   verdict: custodial

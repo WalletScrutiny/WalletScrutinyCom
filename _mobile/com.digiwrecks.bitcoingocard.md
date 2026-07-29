@@ -11,7 +11,7 @@ android:
   updated: 2025-07-29
   version: 1.1.7
   icon: com.digiwrecks.bitcoingocard.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: Die SW-Factory GmbH
 

@@ -9,8 +9,8 @@ android:
   users: 50
   appCountry: us
   released: 2025-06-20
-  updated: 2025-12-15
-  version: 1.0.12
+  updated: 2026-07-23
+  version: 1.0.13
   icon: com.one80wallet.png
   meta: fewusers
   verdict: wip

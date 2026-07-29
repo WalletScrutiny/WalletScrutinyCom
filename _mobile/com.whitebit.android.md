@@ -20,8 +20,8 @@ android:
   appCountry: ua
   released: 2019-06-07
   updated: 2026-07-20
-  version: 3.78.1
-  reviews: 1371
+  version: 3.79.0
+  reviews: 1370
   icon: com.whitebit.android.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-21
   updated: 2026-07-22
   version: 3.79.1
-  reviews: 4051
+  reviews: 4065
   icon: com.whitebit.whitebitapp.jpg
   meta: ok
   verdict: custodial

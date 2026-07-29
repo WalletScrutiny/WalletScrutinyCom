@@ -39,7 +39,7 @@ iphone:
   released: 2022-08-26
   updated: 2026-06-26
   version: 2.6.0
-  reviews: 25
+  reviews: 26
   icon: com.cypherstack.stackwallet.jpg
   meta: ok
   verdict: sourceavailable

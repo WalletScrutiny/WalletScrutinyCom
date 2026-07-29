@@ -16,8 +16,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-03-08
-  updated: 2026-06-12
+  updated: 2026-07-24
   version: 4.0.1
+  reviews: 26
   icon: com.ejara.ejarav2.png
   meta: ok
   verdict: nosource

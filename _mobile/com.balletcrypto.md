@@ -18,7 +18,7 @@ android:
   released: 2019-08-08
   updated: 2026-06-18
   version: 2.28.0
-  reviews: 171
+  reviews: 172
   icon: com.balletcrypto.png
   meta: ok
   verdict: nosource
@@ -28,9 +28,9 @@ iphone:
   idd: '1474912942'
   appCountry: us
   released: 2019-09-11
-  updated: 2026-06-15
-  version: 2.28.0
-  reviews: 1537
+  updated: 2026-07-28
+  version: 3.0.0
+  reviews: 1538
   icon: com.balletcrypto.jpg
   meta: ok
   verdict: nosource

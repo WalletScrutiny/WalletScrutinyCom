@@ -21,6 +21,7 @@ android:
   released: 2022-10-13
   updated: 2026-04-16
   version: 1.5.0
+  reviews: 36
   icon: com.bitoshi.png
   meta: ok
   verdict: custodial
@@ -32,7 +33,7 @@ iphone:
   released: 2022-10-17
   updated: 2026-04-16
   version: 1.5.0
-  reviews: 1831
+  reviews: 1822
   icon: com.bitoshi.jpg
   meta: ok
   verdict: custodial

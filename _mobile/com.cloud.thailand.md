@@ -27,7 +27,7 @@ iphone:
   released: 2023-11-21
   updated: 2026-07-11
   version: 1.60.1
-  reviews: 16731
+  reviews: 16815
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
   verdict: custodial

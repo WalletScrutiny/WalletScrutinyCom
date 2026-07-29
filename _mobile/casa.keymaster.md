@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-03-01
-  updated: 2026-07-17
-  version: 5.20.0
+  updated: 2026-07-23
+  version: 5.21.0
   reviews: 28
   icon: casa.keymaster.png
   meta: ok
@@ -32,9 +32,9 @@ iphone:
   idd: 1314586706
   appCountry: us
   released: 2018-08-02
-  updated: 2026-07-20
-  version: 5.20.0
-  reviews: 1220
+  updated: 2026-07-25
+  version: 5.21.0
+  reviews: 1221
   icon: com.casa.vault.jpg
   meta: ok
   verdict: nosource

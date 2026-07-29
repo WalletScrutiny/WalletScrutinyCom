@@ -17,7 +17,7 @@ android:
   users: 100000000
   appCountry: us
   updated: 2026-07-16
-  version: 8.66.1
+  version: 8.67.1
   reviews: 549
   icon: com.iqoption.jpg
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2014-05-15
   updated: 2026-07-15
   version: '4.99'
-  reviews: 1281
+  reviews: 1280
   icon: com.trading.iqoption.jpg
   meta: ok
   verdict: nosendreceive

@@ -30,8 +30,8 @@ iphone:
   idd: '1453815920'
   appCountry: ph
   released: 2019-02-24
-  updated: 2026-03-20
-  version: 5.6.2
+  updated: 2026-07-23
+  version: 5.6.68
   reviews: 0
   icon: com.yykj.bitfree.en.jpg
   meta: ok

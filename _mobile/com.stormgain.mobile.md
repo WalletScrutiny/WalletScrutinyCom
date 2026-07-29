@@ -21,7 +21,7 @@ android:
   version: 1.52.1
   reviews: 967
   icon: com.stormgain.mobile.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Stormgain LLC
 iphone:

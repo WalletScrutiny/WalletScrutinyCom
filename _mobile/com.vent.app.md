@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-01-26
-  updated: 2026-06-29
-  version: 2.0.12
+  updated: 2026-07-23
+  version: 2.0.13
   reviews: 10
   icon: com.vent.app.png
   meta: ok

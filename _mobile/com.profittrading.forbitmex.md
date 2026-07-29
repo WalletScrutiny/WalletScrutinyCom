@@ -14,8 +14,8 @@ android:
   users: 50000
   appCountry: us
   released: 2019-06-11
-  updated: 2026-06-30
-  version: 8.3.0
+  updated: 2026-07-26
+  version: 8.3.1
   reviews: 8
   icon: com.profittrading.forbitmex.png
   meta: ok

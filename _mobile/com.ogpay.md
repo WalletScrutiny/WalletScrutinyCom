@@ -26,8 +26,8 @@ iphone:
   idd: 1471960731
   appCountry: us
   released: 2019-08-03
-  updated: 2026-07-15
-  version: '16.0'
+  updated: 2026-07-28
+  version: '16.1'
   reviews: 266
   icon: com.unifiedsignal.ogpaywallet.jpg
   meta: ok

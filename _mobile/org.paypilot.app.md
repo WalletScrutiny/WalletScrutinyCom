@@ -6,12 +6,12 @@ redirect_from:
 - /android/org.paypilot.app/
 android:
   appId: org.paypilot.app
-  users: 500
+  users: 1000
   appCountry: us
   updated: 2026-07-15
   version: 1.6.3
   icon: org.paypilot.app.png
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: PayPilot
 

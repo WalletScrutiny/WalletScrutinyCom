@@ -17,8 +17,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2014-10-02
-  updated: 2026-03-25
-  version: 7.0.24
+  updated: 2026-07-23
+  version: 7.1.1
   reviews: 76
   icon: com.xfr.xtrade.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 864027750
   appCountry: cl
   released: 2014-05-30
-  updated: 2026-05-05
-  version: 7.0.25
+  updated: 2026-07-29
+  version: 7.1.1
   reviews: 28
   icon: com.triviologic.xtrader.jpg
   meta: ok

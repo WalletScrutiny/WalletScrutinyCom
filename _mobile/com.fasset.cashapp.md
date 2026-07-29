@@ -21,7 +21,7 @@ android:
   released: 2021-12-14
   updated: 2026-07-17
   version: '6.11'
-  reviews: 48
+  reviews: 50
   icon: com.fasset.cashapp.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2021-12-14
   updated: 2026-07-19
   version: '4.15'
-  reviews: 46
+  reviews: 48
   icon: com.fasset.cashapp.jpg
   meta: ok
   verdict: custodial

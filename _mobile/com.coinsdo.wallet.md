@@ -33,7 +33,7 @@ iphone:
   released: 2024-04-16
   updated: 2026-06-29
   version: 2.0.29
-  reviews: 91
+  reviews: 89
   icon: com.coinsdo.coinsdowallet.jpg
   meta: ok
   verdict: nosource

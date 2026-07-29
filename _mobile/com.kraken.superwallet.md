@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-04-11
-  updated: 2026-06-03
-  version: 1.29.1 (1)
+  updated: 2026-07-24
+  version: 1.29.2 (1)
   reviews: 125
   icon: com.kraken.superwallet.png
   meta: ok
@@ -38,7 +38,7 @@ iphone:
   released: 2024-04-17
   updated: 2026-05-28
   version: 1.29.0
-  reviews: 1250
+  reviews: 1254
   icon: com.kraken.superwallet.app.jpg
   meta: ok
   verdict: sourceavailable

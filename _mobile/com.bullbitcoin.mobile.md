@@ -43,7 +43,7 @@ iphone:
   released: 2025-09-29
   updated: 2026-07-15
   version: 6.12.2
-  reviews: 20
+  reviews: 21
   icon: com.bullbitcoin.app.jpg
   meta: ok
   verdict: sourceavailable

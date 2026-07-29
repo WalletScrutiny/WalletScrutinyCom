@@ -28,9 +28,9 @@ iphone:
   idd: '1588152503'
   appCountry: br
   released: 2022-02-09
-  updated: 2026-07-02
-  version: 2.9.17
-  reviews: 8883
+  updated: 2026-07-28
+  version: 2.9.18
+  reviews: 8887
   icon: io.biscoint.lite.jpg
   meta: ok
   verdict: nosendreceive

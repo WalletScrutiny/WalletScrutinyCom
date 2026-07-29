@@ -20,8 +20,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-09-13
-  updated: 2026-06-26
-  version: 3.19.8
+  updated: 2026-07-28
+  version: 3.20.1
   reviews: 3
   icon: com.mpcvault.mobileapp.android.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1622756458'
   appCountry: us
   released: 2022-09-13
-  updated: 2026-06-30
-  version: 1.141.0
+  updated: 2026-07-29
+  version: 1.143.0
   reviews: 135
   icon: com.mpcvault.mobileapp.ios.jpg
   meta: ok

@@ -19,9 +19,9 @@ android:
   users: 100000000
   appCountry: us
   released: 2016-02-19
-  updated: 2026-07-18
+  updated: 2026-07-25
   version: 8.107.0
-  reviews: 439780
+  reviews: 439991
   icon: com.paypal.android.p2pmobile.png
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2019-02-03
   updated: 2026-06-11
   version: 8.107.2
-  reviews: 6298641
+  reviews: 6298624
   icon: com.yourcompany.PPClient.jpg
   meta: ok
   verdict: nosendreceive

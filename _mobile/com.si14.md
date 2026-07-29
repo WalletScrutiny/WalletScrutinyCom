@@ -20,8 +20,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-05-05
-  updated: 2025-10-09
-  version: 1.2.5
+  updated: 2026-05-15
+  version: 1.2.7
   icon: com.si14.png
   meta: ok
   verdict: nosource
@@ -31,8 +31,8 @@ iphone:
   idd: '6748298980'
   appCountry: ru
   released: 2025-09-24
-  updated: 2025-10-13
-  version: 1.2.5
+  updated: 2026-07-24
+  version: 1.2.7
   reviews: 3
   icon: com.si14wallet.jpg
   meta: ok

@@ -20,7 +20,7 @@ android:
   released: 2025-09-01
   updated: 2026-04-10
   version: 1.2.2
-  reviews: 27
+  reviews: 28
   icon: app.easybitcoin.png
   meta: ok
   verdict: custodial

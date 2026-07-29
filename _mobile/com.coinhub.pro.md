@@ -16,8 +16,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-08-20
-  updated: 2026-07-02
-  version: 3.1.6
+  updated: 2026-07-29
+  version: 3.1.7
   reviews: 10
   icon: com.coinhub.pro.png
   meta: ok

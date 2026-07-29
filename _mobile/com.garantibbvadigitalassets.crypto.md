@@ -29,7 +29,7 @@ iphone:
   released: 2012-04-28
   updated: 2026-07-20
   version: '19.1'
-  reviews: 14561
+  reviews: 14624
   icon: com.garanti.cepsube.jpg
   meta: ok
   verdict: custodial

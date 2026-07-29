@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-12-19
-  updated: 2026-04-20
-  version: 1.5.4
+  updated: 2026-07-21
+  version: 1.6.0
   icon: com.layerzwallet.mobile.jpg
   meta: fewusers
   verdict: wip

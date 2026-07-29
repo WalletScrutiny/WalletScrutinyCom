@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-10-04
-  updated: 2026-06-12
-  version: 3.9.2
+  updated: 2026-07-27
+  version: 3.9.3
   icon: com.bitmarkets.android.app.png
   meta: ok
   verdict: custodial

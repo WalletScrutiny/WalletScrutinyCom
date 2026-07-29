@@ -18,6 +18,7 @@ android:
   released: 2024-11-29
   updated: 2026-06-25
   version: 3.3.3
+  reviews: 4
   icon: xyz.ctrl.wallet.png
   meta: ok
   verdict: nosource

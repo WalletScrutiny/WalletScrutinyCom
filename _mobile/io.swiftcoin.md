@@ -23,6 +23,7 @@ android:
   released: 2022-09-12
   updated: 2025-09-30
   version: 3.1.10
+  reviews: 2
   icon: io.swiftcoin.png
   meta: ok
   verdict: custodial

@@ -20,7 +20,7 @@ android:
   released: 2023-04-24
   updated: 2026-07-14
   version: 3.28.6
-  reviews: 1855
+  reviews: 1856
   icon: app.simple.com.png
   meta: ok
   verdict: custodial

@@ -27,9 +27,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-05-11
-  updated: 2026-06-29
+  updated: 2026-07-15
   version: 2.50.4
-  reviews: 3788
+  reviews: 3789
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-07-08
   version: 2.50.4
-  reviews: 21643
+  reviews: 21703
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

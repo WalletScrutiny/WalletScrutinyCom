@@ -21,6 +21,7 @@ android:
   released: 2019-11-18
   updated: 2026-07-15
   version: 2.21.4
+  reviews: 4
   icon: web.tradenewton.com.png
   meta: ok
   verdict: custodial
@@ -32,7 +33,7 @@ iphone:
   released: 2018-10-03
   updated: 2026-07-16
   version: 2.21.4
-  reviews: 24477
+  reviews: 24476
   icon: co.newton.newtonios.jpg
   meta: ok
   verdict: custodial

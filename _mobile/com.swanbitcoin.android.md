@@ -34,7 +34,7 @@ iphone:
   released: 2022-08-25
   updated: 2026-07-20
   version: 3.25.0
-  reviews: 4010
+  reviews: 4012
   icon: com.swanbitcoin.app.jpg
   meta: ok
   verdict: custodial

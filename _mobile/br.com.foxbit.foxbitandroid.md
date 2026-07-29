@@ -18,9 +18,9 @@ android:
   users: 500000
   appCountry: br
   released: 2019-01-28
-  updated: 2026-07-15
+  updated: 2026-07-28
   version: 3.45.1
-  reviews: 6403
+  reviews: 6404
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: '1435319194'
   appCountry: br
   released: 2019-03-24
-  updated: 2026-07-10
-  version: 3.45.1
+  updated: 2026-07-24
+  version: 3.46.0
   reviews: 5552
   icon: br.com.foxbit.jpg
   meta: ok
