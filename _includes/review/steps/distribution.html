@@ -28,7 +28,9 @@
         </div>
       {% when 'android' %}
         <div class="distribution-store-links">
-          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+          {% unless page.android.playStore == false %}
+            <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+          {% endunless %}
           {% include /review/alternativeStoreLinks.html appId=dist_app_id alternativeStores=dist_alt_stores %}
           {% include /review/websiteDistributionLink.html %}
         </div>

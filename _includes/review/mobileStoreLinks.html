@@ -1,9 +1,11 @@
 {% assign app_country = include.appCountry | default: page.appCountry | default: 'us' %}
 <div class="distribution-store-links">
   {% if include.androidAppId %}
-    <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
-    </a>
+    {% unless page.android.playStore == false %}
+      <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
+      </a>
+    {% endunless %}
     {% if include.alternativeStores %}
       {% for store in include.alternativeStores %}
         {% assign alt = store | strip | downcase %}
