@@ -61708,17 +61708,21 @@ function OpinionCard(e, t) {
 	let n = () => store_get(localStore, "$localStore", s), r = () => store_get(ndkStore, "$ndk", s), a = () => store_get(ndkUser, "$ndkUser", s), o = () => store_get(theme, "$theme", s), [s, c] = setup_stores(), l = /* @__PURE__ */ mutable_source(), u = prop(t, "event", 12), f = prop(t, "profiles", 12), p = prop(t, "submit", 12, () => {}), m = prop(t, "opinionContent", 12), g = prop(t, "newOpinion", 12), _ = prop(t, "sentimentCount", 12), v = prop(t, "editLvl", 12), y = prop(t, "subject", 12), b = prop(t, "count", 12), x = prop(t, "deletedEventsArray", 28, () => []), S = prop(t, "trustedAuthors", 28, () => []), C = prop(t, "aTag", 12, "");
 	m(m().replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""));
 	let w = /* @__PURE__ */ mutable_source([]), T = [], E = /* @__PURE__ */ mutable_source(), D = /* @__PURE__ */ mutable_source(0), O = /* @__PURE__ */ mutable_source(0), k = /* @__PURE__ */ mutable_source(!1), A = /* @__PURE__ */ mutable_source(!1), j = /* @__PURE__ */ mutable_source(!1), M = /* @__PURE__ */ mutable_source(!0), N = /* @__PURE__ */ mutable_source(!1), P = /* @__PURE__ */ mutable_source(!1), F = /* @__PURE__ */ mutable_source(!1), I = /* @__PURE__ */ mutable_source(""), L = /* @__PURE__ */ mutable_source(void 0), R = /* @__PURE__ */ mutable_source(void 0), z = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), B = /* @__PURE__ */ mutable_source(!1), V = /* @__PURE__ */ mutable_source(u().content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")), H = get(V), U = /* @__PURE__ */ mutable_source([]), W = /* @__PURE__ */ mutable_source(), ee = 300, G = /* @__PURE__ */ mutable_source(!1);
-	v() === 0 && C(kindOpinion + ":" + u().pubkey + ":" + y());
-	function te() {
+	if (v() === 0) {
+		var te;
+		let e = ((te = u().tags.find((e) => e[0] === "d")) == null ? void 0 : te[1]) || y();
+		C(kindOpinion + ":" + u().pubkey + ":" + e);
+	}
+	function K() {
 		set(F, !get(F)), set(G, !get(G));
 	}
-	function K(e) {
+	function ne(e) {
 		g({
 			...g(),
 			sentiment: e
 		});
 	}
-	async function ne(e) {
+	async function q(e) {
 		let t = n().pk;
 		if (t ? !r().signer && await privkeyLogin(t) : !r().signer && await NDKlogin(), !a()) return;
 		let o = T.findIndex((e) => e.pubkey === a().pubkey);
@@ -61786,7 +61790,7 @@ function OpinionCard(e, t) {
 		let s = (e = u().tags.filter((e) => e[0] === "published_at")[0]) == null ? void 0 : e[1];
 		s && set(L, parseInt(s)), set(R, u().created_at);
 	})();
-	let q = async () => {
+	let J = async () => {
 		if (!a()) {
 			console.error("Can't submit reply. $ndkUser is undefined");
 			return;
@@ -61807,7 +61811,7 @@ function OpinionCard(e, t) {
 			e[0] === "p" ? t.tags.toString().includes(e.toString()) || t.tags.push(e) : e[0] === "e" && e[3] === "root" && t.tags.push(e);
 		}), await t.publish(NDKRelaySet.fromRelayUrls(z.write, r())), set(w, [...get(w), { ...t }]), m("");
 	};
-	function J(e) {
+	function re(e) {
 		let t = get(U).filter((t) => t === e)[0].url;
 		m(m().replace(t, "")), set(U, get(U).filter((t) => t !== e));
 	}
@@ -61842,7 +61846,7 @@ function OpinionCard(e, t) {
 			x([...x(), u()]);
 		}
 	}), legacy_pre_effect_reset();
-	var re = {
+	var Y = {
 		get event() {
 			return u();
 		},
@@ -61919,7 +61923,7 @@ function OpinionCard(e, t) {
 		$on: (e, n) => add_legacy_event_listener(t, e, n)
 	};
 	init();
-	var Y = comment(), ae = first_child(Y), oe = (e) => {
+	var ae = comment(), oe = first_child(ae), X = (e) => {
 		var t = comment(), r = first_child(t), s = (e) => {
 			var t = root_11(), r = child(t), s = child(r), c = child(s), x = child(c), T = (e) => {
 				Negative(e, {});
@@ -61937,7 +61941,7 @@ function OpinionCard(e, t) {
 			if_block(x, (e) => {
 				get(E) ? e(T) : get(z) ? e(M, 1) : v() === 1 && e(V, 2);
 			}), reset(c);
-			var ee = sibling(c, 2), re = (e) => {
+			var ee = sibling(c, 2), te = (e) => {
 				let t = /* @__PURE__ */ derived_safe_equal(() => (deep_read_state(f()), deep_read_state(u()), untrack(() => f()[u().pubkey])));
 				var n = root$3(), r = child(n), a = sibling(r, 2), o = child(a, !0);
 				reset(a), reset(n), template_effect((e) => {
@@ -61956,7 +61960,7 @@ function OpinionCard(e, t) {
 				}, [() => (get(l), untrack(() => get(l).slice(0, 8) + "..." + get(l).slice(-4)))]), append(e, t);
 			};
 			if_block(ee, (e) => {
-				deep_read_state(f()), deep_read_state(u()), untrack(() => f()[u().pubkey]) ? e(re) : e(Y, -1);
+				deep_read_state(f()), deep_read_state(u()), untrack(() => f()[u().pubkey]) ? e(te) : e(Y, -1);
 			});
 			var ae = sibling(ee, 2), oe = (e) => {
 				ApprovedBadge(e, {});
@@ -61988,7 +61992,7 @@ function OpinionCard(e, t) {
 				}), reset(n), bind_this(n, (e) => set(W, e), () => get(W));
 				var c = sibling(n, 2), l = (e) => {
 					var t = root_2$2(), n = child(t, !0);
-					reset(t), template_effect(() => set_text(n, get(F) ? "Read Less" : "Read More")), event("click", t, te), append(e, t);
+					reset(t), template_effect(() => set_text(n, get(F) ? "Read Less" : "Read More")), event("click", t, K), append(e, t);
 				};
 				if_block(c, (e) => {
 					get(G) && e(l);
@@ -62025,7 +62029,7 @@ function OpinionCard(e, t) {
 						get file() {
 							return get(t), untrack(() => get(t).files);
 						},
-						onDelete: () => J(get(t))
+						onDelete: () => re(get(t))
 					});
 				}), reset(b);
 				var x = sibling(b, 2), S = child(x);
@@ -62054,7 +62058,7 @@ function OpinionCard(e, t) {
 						dark: o() === "dark",
 						selected: g().sentiment === "-1"
 					}), S.disabled = !a();
-				}), event("click", l, preventDefault(() => K("1"))), event("click", f, preventDefault(() => K("0"))), event("click", v, preventDefault(() => K("-1"))), event("submit", n, preventDefault(() => p()((get(L) || Math.floor((/* @__PURE__ */ new Date()).getTime() / 1e3)).toString()))), transition(3, t, () => slide), append(e, t);
+				}), event("click", l, preventDefault(() => ne("1"))), event("click", f, preventDefault(() => ne("0"))), event("click", v, preventDefault(() => ne("-1"))), event("submit", n, preventDefault(() => p()((get(L) || Math.floor((/* @__PURE__ */ new Date()).getTime() / 1e3)).toString()))), transition(3, t, () => slide), append(e, t);
 			};
 			if_block(fe, (e) => {
 				get(k) ? e(me, -1) : e(pe);
@@ -62165,7 +62169,7 @@ function OpinionCard(e, t) {
 						get file() {
 							return get(t), untrack(() => get(t).files);
 						},
-						onDelete: () => J(get(t))
+						onDelete: () => re(get(t))
 					});
 				}), reset(r);
 				var o = sibling(r, 2), s = child(o);
@@ -62184,7 +62188,7 @@ function OpinionCard(e, t) {
 					},
 					$$legacy: !0
 				}), reset(o), reset(t), template_effect(() => s.disabled = !a()), event("click", s, () => {
-					q(), set(A, !1), set(j, !1);
+					J(), set(A, !1), set(j, !1);
 				}), transition(3, t, () => fade), append(e, t);
 			};
 			if_block(Pe, (e) => {
@@ -62243,7 +62247,7 @@ function OpinionCard(e, t) {
 			}), reset(t), template_effect(() => {
 				var e;
 				set_attribute(ue, "href", `https://njump.me/${(e = (deep_read_state(u()), untrack(() => u().id))) == null ? "" : e}`), set_text(de, get(I)), set_text(Se, get(D) || 0), set_text(De, get(O) || 0);
-			}), event("click", _e, () => ne("+")), event("click", Z, () => ne("-")), transition(3, t, () => slide), append(e, t);
+			}), event("click", _e, () => q("+")), event("click", Z, () => q("-")), transition(3, t, () => slide), append(e, t);
 		}, c = (e) => {
 			append(e, root_12());
 		};
@@ -62251,11 +62255,11 @@ function OpinionCard(e, t) {
 			!get(M) && get(E) ? e(s) : e(c, -1);
 		}), append(e, t);
 	};
-	if_block(ae, (e) => {
-		get(B) || e(oe);
-	}), append(e, Y);
-	var X = pop(re);
-	return c(), X;
+	if_block(oe, (e) => {
+		get(B) || e(X);
+	}), append(e, ae);
+	var se = pop(Y);
+	return c(), se;
 }
 create_custom_element(OpinionCard, {
 	event: {},
@@ -62427,35 +62431,44 @@ function App(e, t) {
 		...e
 	});
 	push(t, !1), append_styles(e, $$css);
-	let n = () => store_get(showMoreNewOpinions, "$showMoreNewOpinions", f), r = () => store_get(ndkStore, "$ndk", f), a = () => store_get(U, "$sub", f), o = () => store_get(profileUser, "$profileUser", f), s = () => store_get(localStore, "$localStore", f), c = () => store_get(ndkUser, "$ndkUser", f), l = () => store_get(isMine, "$isMine", f), u = () => store_get(theme, "$theme", f), [f, p] = setup_stores(), m = prop(t, "subject", 12), g = prop(t, "opinionTitle", 12), _ = prop(t, "opinionHeader", 28, g), v = prop(t, "opinionFooter", 12, void 0), y = prop(t, "opinionImage", 12, void 0), b = prop(t, "opinionTags", 12, "NostrOpinion"), x = prop(t, "summary", 28, () => `An opinion made about ${m()} generated using nostr-opinion-plugin.`), S = prop(t, "themeModeLocalStorageHandle", 12, "colour-scheme"), C = prop(t, "expertOpinionsConfig", 12), w = {
+	let n = () => store_get(showMoreNewOpinions, "$showMoreNewOpinions", f), r = () => store_get(ndkStore, "$ndk", f), a = () => store_get(G, "$sub", f), o = () => store_get(profileUser, "$profileUser", f), s = () => store_get(localStore, "$localStore", f), c = () => store_get(ndkUser, "$ndkUser", f), l = () => store_get(isMine, "$isMine", f), u = () => store_get(theme, "$theme", f), [f, p] = setup_stores(), m = prop(t, "subject", 12), g = prop(t, "subjects", 12, ""), _ = prop(t, "opinionTitle", 12), v = prop(t, "opinionHeader", 28, _), y = prop(t, "opinionFooter", 12, void 0), b = prop(t, "opinionImage", 12, void 0), x = prop(t, "opinionTags", 12, "NostrOpinion"), S = prop(t, "summary", 28, () => `An opinion made about ${m()} generated using nostr-opinion-plugin.`), C = prop(t, "themeModeLocalStorageHandle", 12, "colour-scheme"), w = prop(t, "expertOpinionsConfig", 12);
+	function T(e, t) {
+		let n = [e];
+		for (let e of (t || "").split(",")) {
+			let t = e.trim();
+			t && !n.includes(t) && n.push(t);
+		}
+		return n;
+	}
+	let E = T(m(), g()), D = {
 		headline: "",
 		description: "",
 		newOpinionDescription: "",
 		trustedAuthors: [],
 		trustedBadgeAuthors: [],
 		trustedBadges: [],
-		...JSON.parse(C())
-	}, T = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), E = /* @__PURE__ */ mutable_source([]), D = /* @__PURE__ */ mutable_source([]), O = /* @__PURE__ */ mutable_source([]), k = /* @__PURE__ */ mutable_source({}), A = 0, j = /* @__PURE__ */ mutable_source({
+		...JSON.parse(w())
+	}, O = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), k = /* @__PURE__ */ mutable_source([]), A = /* @__PURE__ */ mutable_source([]), j = /* @__PURE__ */ mutable_source([]), M = /* @__PURE__ */ mutable_source({}), N = 0, P = /* @__PURE__ */ mutable_source({
 		content: "",
 		sentiment: "0"
-	}), M = /* @__PURE__ */ mutable_source(""), N = /* @__PURE__ */ mutable_source(!0), P = /* @__PURE__ */ mutable_source({
+	}), F = /* @__PURE__ */ mutable_source(""), I = /* @__PURE__ */ mutable_source(!0), L = /* @__PURE__ */ mutable_source({
 		"-1": 0,
 		0: 0,
 		1: 0
-	}), F = /* @__PURE__ */ mutable_source("approved"), I = /* @__PURE__ */ mutable_source(0), L = /* @__PURE__ */ mutable_source([]), R = /* @__PURE__ */ mutable_source([]), z = /* @__PURE__ */ mutable_source(0), B = /* @__PURE__ */ mutable_source(0), V = /* @__PURE__ */ mutable_source(!1), H = {
+	}), R = /* @__PURE__ */ mutable_source("approved"), z = /* @__PURE__ */ mutable_source(0), B = /* @__PURE__ */ mutable_source([]), V = /* @__PURE__ */ mutable_source([]), H = /* @__PURE__ */ mutable_source(0), U = /* @__PURE__ */ mutable_source(0), W = /* @__PURE__ */ mutable_source(!1), ee = {
 		kinds: [kindOpinion],
-		"#d": [m()]
-	}, U = r().storeSubscribe(H, { closeOnEose: !1 }), W = setInterval(() => {
-		theme.set(localStorage.getItem(S()) || "light");
+		"#d": E
+	}, G = r().storeSubscribe(ee, { closeOnEose: !1 }), te = setInterval(() => {
+		theme.set(localStorage.getItem(C()) || "light");
 	}, 1e3);
 	onDestroy(() => {
-		clearInterval(W);
+		clearInterval(te);
 	});
-	let ee = async (e) => {
+	let K = async (e) => {
 		var t;
 		let n = s().pk;
-		if (n ? !r().signer && await privkeyLogin(n) : !r().signer && await NDKlogin(), !get(M) || !r().signer) return;
-		mutate(j, get(j).content = _() ? _() + opinionHeaderSeparator : ""), mutate(j, get(j).content += get(M) + opinionFooterSeparator);
+		if (n ? !r().signer && await privkeyLogin(n) : !r().signer && await NDKlogin(), !get(F) || !r().signer) return;
+		mutate(P, get(P).content = v() ? v() + opinionHeaderSeparator : ""), mutate(P, get(P).content += get(F) + opinionFooterSeparator);
 		let a = (t = await r().fetchEvent({
 			kinds: [30023],
 			authors: [c().pubkey]
@@ -62464,39 +62477,39 @@ function App(e, t) {
 		let o = new NDKEvent(r());
 		o.kind = kindOpinion, (!e || !e.length || e.length === 1) && (e = (Math.floor(Date.now() / 1e3) + 5).toString()), o.tags = [
 			["d", m()],
-			["sentiment", get(j).sentiment],
-			["summary", x()],
+			["sentiment", get(P).sentiment],
+			["summary", S()],
 			["published_at", e]
-		], g() && o.tags.push(["title", g()]), y() && o.tags.push(["image", y()]), b().split(",").map((e) => {
-			e == "" || !e || (o.tags.push(["t", e]), mutate(j, get(j).content += `#${e} `));
-		}), v() && mutate(j, get(j).content += "\n\n" + v()), o.content = get(j).content, o.publish(NDKRelaySet.fromRelayUrls(T.write, r())).then(() => {
-			let e = get(D).findIndex((e) => e.pubkey === o.pubkey);
-			e === -1 ? set(D, [{ ...o }, ...get(D)]) : mutate(D, get(D)[e] = { ...o }), G();
+		], _() && o.tags.push(["title", _()]), b() && o.tags.push(["image", b()]), x().split(",").map((e) => {
+			e == "" || !e || (o.tags.push(["t", e]), mutate(P, get(P).content += `#${e} `));
+		}), y() && mutate(P, get(P).content += "\n\n" + y()), o.content = get(P).content, o.publish(NDKRelaySet.fromRelayUrls(O.write, r())).then(() => {
+			let e = get(A).findIndex((e) => e.pubkey === o.pubkey);
+			e === -1 ? set(A, [{ ...o }, ...get(A)]) : mutate(A, get(A)[e] = { ...o }), ne();
 		});
-		let l = get(R).filter((e) => {
+		let l = get(V).filter((e) => {
 			var t;
 			return e.pubkey != ((t = c()) == null ? void 0 : t.pubkey);
 		});
-		set(R, [...l]), isMine.set(!0), showMoreNewOpinions.set(!1);
-	}, G = () => {
-		set(P, {
+		set(V, [...l]), isMine.set(!0), showMoreNewOpinions.set(!1);
+	}, ne = () => {
+		set(L, {
 			"-1": 0,
 			0: 0,
 			1: 0
-		}), set(O, get(D).filter((e) => {
+		}), set(j, get(A).filter((e) => {
 			var t;
-			if (get(F) === "approved" && !get(E).includes(e.pubkey)) return !1;
+			if (get(R) === "approved" && !get(k).includes(e.pubkey)) return !1;
 			let n = (t = e.tags.find((e) => e[0] === "sentiment")) == null ? void 0 : t[1];
-			return n && !get(R).includes(e) && mutate(P, get(P)[n] += 1), !0;
-		})), set(O, get(O).sort((e, t) => {
-			let n = get(E).includes(e.pubkey), r = get(E).includes(t.pubkey);
+			return n && !get(V).includes(e) && mutate(L, get(L)[n] += 1), !0;
+		})), set(j, get(j).sort((e, t) => {
+			let n = get(k).includes(e.pubkey), r = get(k).includes(t.pubkey);
 			if (n && !r) return -1;
 			if (!n && r) return 1;
 			let a = (e == null ? void 0 : e.created_at) || 0, o = (t == null ? void 0 : t.created_at) || 0;
 			return a > o ? -1 : +(a < o);
 		}));
 	};
-	async function te(e) {
+	async function q(e) {
 		if (!c()) {
 			console.info("Can't find user profile. $ndkUser is undefined");
 			return;
@@ -62508,20 +62521,20 @@ function App(e, t) {
 		}), t.image || (t.image = profileImageUrl + e), t.pubkey || (t.pubkey = e), { content: t };
 	}
 	(async () => {
-		themeModeLocalStorageObject.set(S());
+		themeModeLocalStorageObject.set(C());
 		try {
-			set(E, await initializeApprovedAuthors(w));
+			set(k, await initializeApprovedAuthors(D));
 			let e = s().lastUserLogged;
 			if (e && window) {
 				let t = r().getUser({ npub: e });
-				Y();
+				X();
 				let n = await r().fetchEvent({
 					kinds: [10002],
 					authors: [t.pubkey]
 				});
 				n && n.getMatchingTags("r").map((e) => {
-					T.read.includes(e[1]) || (e.length === 3 ? e[2] === "write" && !T.write.includes(e[1]) ? T.write.push(e[1]) : e[2] === "read" && !T.read.includes(e[1]) && T.read.push(e[1]) : e.length === 2 && (T.write.includes(e[1]) || T.write.push(e[1]), T.read.includes(e[1]) || T.read.push(e[1])));
-				}), ndkUser.set(t), c() && mutate(k, get(k)[c().pubkey] = await te(c().pubkey)), get(D).map((e) => {
+					O.read.includes(e[1]) || (e.length === 3 ? e[2] === "write" && !O.write.includes(e[1]) ? O.write.push(e[1]) : e[2] === "read" && !O.read.includes(e[1]) && O.read.push(e[1]) : e.length === 2 && (O.write.includes(e[1]) || O.write.push(e[1]), O.read.includes(e[1]) || O.read.push(e[1])));
+				}), ndkUser.set(t), c() && mutate(M, get(M)[c().pubkey] = await q(c().pubkey)), get(A).map((e) => {
 					var t;
 					e.pubkey === ((t = c()) == null ? void 0 : t.pubkey) && isMine.set(!0);
 				});
@@ -62529,152 +62542,163 @@ function App(e, t) {
 		} catch (e) {
 			console.error(e);
 		} finally {
-			set(N, !1);
+			set(I, !1);
 		}
 	})();
-	let K = /* @__PURE__ */ mutable_source(!1), ne = () => {
-		showMoreNewOpinions.set(!1), T = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), isMine.set(!1), logout(), set(M, "");
+	let J = /* @__PURE__ */ mutable_source(!1), re = () => {
+		showMoreNewOpinions.set(!1), O = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), isMine.set(!1), logout(), set(F, "");
 	};
-	function q() {
-		get(K) ? (set(F, "all"), G(), showMoreNewOpinions.set(!1)) : set(V, !0);
+	function Y() {
+		get(J) ? (set(R, "all"), ne(), showMoreNewOpinions.set(!1)) : set(W, !0);
 	}
-	async function J() {
+	async function ae() {
 		var e;
-		let t = [...new Set(get(D).filter((e) => !get(R).includes(e) && !get(k)[e.pubkey]).map((e) => e.pubkey))];
+		let t = [...new Set(get(A).filter((e) => !get(V).includes(e) && !get(M)[e.pubkey]).map((e) => e.pubkey))];
 		for (let e of t) try {
 			let t = { ...await fetchUserProfile(e) };
-			t.image || (t.image = profileImageUrl + e), t.pubkey || (t.pubkey = e), mutate(k, get(k)[e] = { content: t });
+			t.image || (t.image = profileImageUrl + e), t.pubkey || (t.pubkey = e), mutate(M, get(M)[e] = { content: t });
 		} catch (t) {
-			mutate(k, get(k)[e] = { content: {
+			mutate(M, get(M)[e] = { content: {
 				image: profileImageUrl + e,
 				pubkey: e
 			} });
 		}
-		t.length > 0 && set(k, { ...get(k) }), set(F, "all"), G(), showMoreNewOpinions.set(!1), set(V, !1), set(K, !0), (e = c()) != null && e.pubkey && localStorage.setItem(`userHasAgreed_${c().pubkey}`, "true");
+		t.length > 0 && set(M, { ...get(M) }), set(R, "all"), ne(), showMoreNewOpinions.set(!1), set(W, !1), set(J, !0), (e = c()) != null && e.pubkey && localStorage.setItem(`userHasAgreed_${c().pubkey}`, "true");
 	}
-	function re(e) {
-		let t = get(L).filter((t) => t === e)[0].url;
-		set(M, get(M).replace(t, "")), set(M, get(M).replace("![]()", "")), set(M, get(M).replace("![image]()", "")), set(L, get(L).filter((t) => t !== e));
+	function oe(e) {
+		let t = get(B).filter((t) => t === e)[0].url;
+		set(F, get(F).replace(t, "")), set(F, get(F).replace("![]()", "")), set(F, get(F).replace("![image]()", "")), set(B, get(B).filter((t) => t !== e));
 	}
-	let Y = async () => {
+	let X = async () => {
 		if (c()) {
-			var e, t;
-			let a = {
+			let l = await r().fetchEvents({
 				kinds: [kindOpinion],
-				"#d": [m()],
+				"#d": E,
 				authors: [c().pubkey]
-			}, o = await r().fetchEvent(a), s = {
-				kinds: [5],
-				"#a": [`${kindOpinion}:${c().pubkey}:${m()}`],
-				authors: [c().pubkey]
-			}, l = await r().fetchEvent(s);
-			if (((e = l == null ? void 0 : l.created_at) == null ? 0 : e) < ((t = o == null ? void 0 : o.created_at) == null ? 0 : t) || !l && o) {
+			}), u;
+			for (let n of l) {
+				var e, t, a, o, s;
+				let l = ((e = n.tags.find((e) => e[0] === "d")) == null ? void 0 : e[1]) || m(), f = await r().fetchEvent({
+					kinds: [5],
+					"#a": [`${kindOpinion}:${c().pubkey}:${l}`],
+					authors: [c().pubkey]
+				});
+				(((t = f == null ? void 0 : f.created_at) == null ? 0 : t) < ((a = n.created_at) == null ? 0 : a) || !f && n) && (!u || ((o = n.created_at) == null ? 0 : o) > ((s = u.created_at) == null ? 0 : s)) && (u = n);
+			}
+			if (u) {
 				isMine.set(!0);
-				let e = (o == null ? void 0 : o.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")) || "", t = (o == null ? void 0 : o.tagValue("sentiment")) || "0";
-				set(j, {
+				let e = u.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "") || "", t = u.tagValue("sentiment") || "0";
+				set(P, {
 					content: e,
 					sentiment: t
-				}), set(M, e);
-			} else n() && (isMine.set(!1), set(j, {
+				}), set(F, e);
+			} else n() && (isMine.set(!1), set(P, {
 				content: "",
 				sentiment: "0"
-			}), set(M, ""));
+			}), set(F, ""));
 		}
 	};
-	legacy_pre_effect(() => get(E), () => {
-		get(E) && G();
+	legacy_pre_effect(() => get(k), () => {
+		get(k) && ne();
 	}), legacy_pre_effect(() => n(), () => {
-		n(), Y();
-	}), legacy_pre_effect(() => (a(), get(D), get(k)), () => {
+		n(), X();
+	}), legacy_pre_effect(() => (a(), get(A), get(M)), () => {
 		a().forEach(async (e) => {
-			if (get(D).filter((t) => t.pubkey === e.pubkey).length) set(D, get(D).map((t) => t.pubkey === e.pubkey ? e : t));
+			let t = get(A).findIndex((t) => t.pubkey === e.pubkey);
+			if (t !== -1) (e.created_at || 0) >= (get(A)[t].created_at || 0) && (mutate(A, get(A)[t] = { ...e }), set(A, [...get(A)]));
 			else {
-				set(D, [...get(D), { ...e }]);
+				set(A, [...get(A), { ...e }]);
 				let t = await fetchUserProfile(e.pubkey);
-				t.image || (t.image = profileImageUrl + e.pubkey), t.pubkey || (t.pubkey = e.pubkey), get(k) || set(k, {}), mutate(k, get(k)[e.pubkey] = { content: t }), set(k, { ...get(k) });
+				t.image || (t.image = profileImageUrl + e.pubkey), t.pubkey || (t.pubkey = e.pubkey), get(M) || set(M, {}), mutate(M, get(M)[e.pubkey] = { content: t }), set(M, { ...get(M) });
 			}
-			G();
+			ne();
 		});
-	}), legacy_pre_effect(() => (get(D), get(R), get(O)), () => {
-		set(z, get(D).filter((e) => !get(R).includes(e)).length), set(B, get(O).filter((e) => !get(R).includes(e)).length);
-	}), legacy_pre_effect(() => (o(), get(k)), () => {
+	}), legacy_pre_effect(() => (get(A), get(V), get(j)), () => {
+		set(H, get(A).filter((e) => !get(V).includes(e)).length), set(U, get(j).filter((e) => !get(V).includes(e)).length);
+	}), legacy_pre_effect(() => (o(), get(M)), () => {
 		let e = {};
 		o().map((t) => {
 			var n;
 			if (Object.keys(t).includes("content") && (n = t.content) != null && n.pubkey) {
 				let n = t.content.pubkey;
-				get(k)[n] || (e[n] = t);
+				get(M)[n] || (e[n] = t);
 			}
-		}), Object.keys(e).length !== 0 && set(k, {
-			...get(k),
+		}), Object.keys(e).length !== 0 && set(M, {
+			...get(M),
 			...e
 		});
-	}), legacy_pre_effect(() => (c(), get(k)), () => {
+	}), legacy_pre_effect(() => (c(), get(M)), () => {
 		var e, t;
-		(e = c()) != null && e.pubkey && get(k)[(t = c()) == null ? void 0 : t.pubkey] ? set(K, localStorage.getItem(`userHasAgreed_${c().pubkey}`) === "true" || !1) : set(K, !1);
+		(e = c()) != null && e.pubkey && get(M)[(t = c()) == null ? void 0 : t.pubkey] ? set(J, localStorage.getItem(`userHasAgreed_${c().pubkey}`) === "true" || !1) : set(J, !1);
 	}), legacy_pre_effect_reset();
-	var ae = {
+	var se = {
 		get subject() {
 			return m();
 		},
 		set subject(e) {
 			m(e), flushSync();
 		},
-		get opinionTitle() {
+		get subjects() {
 			return g();
 		},
-		set opinionTitle(e) {
+		set subjects(e) {
 			g(e), flushSync();
 		},
-		get opinionHeader() {
+		get opinionTitle() {
 			return _();
 		},
-		set opinionHeader(e) {
+		set opinionTitle(e) {
 			_(e), flushSync();
 		},
-		get opinionFooter() {
+		get opinionHeader() {
 			return v();
 		},
-		set opinionFooter(e) {
+		set opinionHeader(e) {
 			v(e), flushSync();
 		},
-		get opinionImage() {
+		get opinionFooter() {
 			return y();
 		},
-		set opinionImage(e) {
+		set opinionFooter(e) {
 			y(e), flushSync();
 		},
-		get opinionTags() {
+		get opinionImage() {
 			return b();
 		},
-		set opinionTags(e) {
+		set opinionImage(e) {
 			b(e), flushSync();
 		},
-		get summary() {
+		get opinionTags() {
 			return x();
 		},
-		set summary(e) {
+		set opinionTags(e) {
 			x(e), flushSync();
 		},
-		get themeModeLocalStorageHandle() {
+		get summary() {
 			return S();
 		},
-		set themeModeLocalStorageHandle(e) {
+		set summary(e) {
 			S(e), flushSync();
 		},
-		get expertOpinionsConfig() {
+		get themeModeLocalStorageHandle() {
 			return C();
 		},
-		set expertOpinionsConfig(e) {
+		set themeModeLocalStorageHandle(e) {
 			C(e), flushSync();
+		},
+		get expertOpinionsConfig() {
+			return w();
+		},
+		set expertOpinionsConfig(e) {
+			w(e), flushSync();
 		},
 		$set: update_legacy_props,
 		$on: (e, n) => add_legacy_event_listener(t, e, n)
 	};
 	init();
-	var oe = root_3(), X = first_child(oe), se = (e) => {
+	var ce = root_3(), le = first_child(ce), ue = (e) => {
 		Loader(e, {});
-	}, ce = (e) => {
+	}, de = (e) => {
 		var t = root_2(), r = first_child(t), a = child(r, !0);
 		reset(r);
 		var o = sibling(r, 2), s = child(o, !0);
@@ -62685,11 +62709,11 @@ function App(e, t) {
 			var a = child(n);
 			reset(n), next(), reset(t), template_effect(() => {
 				var e;
-				r = set_class(n, 1, "svelte-1n46o8q", null, r, { "filter-active": get(F) === "approved" }), set_text(a, `Show ${(e = get(z)) == null ? "" : e} opinion${get(z) === 1 ? " of an unknown author" : "s of unknown authors"}.`);
-			}), event("click", n, q), append(e, t);
+				r = set_class(n, 1, "svelte-1n46o8q", null, r, { "filter-active": get(R) === "approved" }), set_text(a, `Show ${(e = get(H)) == null ? "" : e} opinion${get(H) === 1 ? " of an unknown author" : "s of unknown authors"}.`);
+			}), event("click", n, Y), append(e, t);
 		};
 		if_block(f, (e) => {
-			get(B) < 1 && get(z) >= 1 && get(F) === "approved" && e(p);
+			get(U) < 1 && get(H) >= 1 && get(R) === "approved" && e(p);
 		});
 		var g = sibling(f, 2), _ = child(g), v = child(_), y = child(v);
 		Positive(y, {});
@@ -62699,80 +62723,80 @@ function App(e, t) {
 		Neutral(S, {});
 		var C = sibling(S);
 		reset(x);
-		var T = sibling(x, 2), D = child(T);
-		Negative(D, {});
-		var A = sibling(D);
-		reset(T), reset(_);
-		var N = sibling(_, 2), V = child(N);
-		let H;
-		var U = sibling(V, 2);
+		var w = sibling(x, 2), T = child(w);
+		Negative(T, {});
+		var E = sibling(T);
+		reset(w), reset(_);
+		var O = sibling(_, 2), A = child(O);
+		let N;
+		var I = sibling(A, 2);
 		let W;
-		reset(N), reset(g);
-		var te = sibling(g, 2);
-		each(te, 5, () => get(O), (e) => e.id, (e, t) => {
+		reset(O), reset(g);
+		var ee = sibling(g, 2);
+		each(ee, 5, () => get(j), (e) => e.id, (e, t) => {
 			var n = comment(), r = first_child(n), a = (e) => {
 				OpinionCard(e, {
 					get event() {
 						return get(t);
 					},
 					get profiles() {
-						return get(k);
+						return get(M);
 					},
-					submit: ee,
+					submit: K,
 					editLvl: 0,
 					get subject() {
 						return m();
 					},
 					get sentimentCount() {
-						return get(P);
+						return get(L);
 					},
 					set sentimentCount(e) {
-						set(P, e);
+						set(L, e);
 					},
 					get opinionContent() {
-						return get(M);
+						return get(F);
 					},
 					set opinionContent(e) {
-						set(M, e);
+						set(F, e);
 					},
 					get newOpinion() {
-						return get(j);
+						return get(P);
 					},
 					set newOpinion(e) {
-						set(j, e);
+						set(P, e);
 					},
 					get count() {
-						return get(I);
+						return get(z);
 					},
 					set count(e) {
-						set(I, e);
+						set(z, e);
 					},
 					get deletedEventsArray() {
-						return get(R);
+						return get(V);
 					},
 					set deletedEventsArray(e) {
-						set(R, e);
+						set(V, e);
 					},
 					get trustedAuthors() {
-						return get(E);
+						return get(k);
 					},
 					set trustedAuthors(e) {
-						set(E, e);
+						set(k, e);
 					},
 					$$legacy: !0
 				});
-			}, o = /* @__PURE__ */ user_derived(() => (get(R), get(t), untrack(() => get(R).includes(get(t)) === !1)));
+			}, o = /* @__PURE__ */ user_derived(() => (get(V), get(t), untrack(() => get(V).includes(get(t)) === !1)));
 			if_block(r, (e) => {
 				get(o) && e(a);
 			}), append(e, n);
-		}), reset(te);
-		var K = sibling(te, 2), J = child(K);
-		reset(K);
-		var Y = sibling(K, 2), ae = (e) => {
+		}), reset(ee);
+		var G = sibling(ee, 2), te = child(G);
+		reset(G);
+		var q = sibling(G, 2), J = (e) => {
 			var t = root_1(), n = child(t), r = child(n);
 			reset(n);
 			var a = sibling(n, 2);
-			html$4(a, () => (deep_read_state(purify), untrack(() => purify.sanitize(w.newOpinionDescription))), !0), reset(a);
+			html$4(a, () => (deep_read_state(purify), untrack(() => purify.sanitize(D.newOpinionDescription))), !0), reset(a);
 			var o = sibling(a, 2), s = child(o);
 			reset(o);
 			var f = sibling(o, 2), p = sibling(f, 6), m = child(p), g = sibling(m, 2), _ = child(g, !0);
@@ -62780,130 +62804,131 @@ function App(e, t) {
 			var v = sibling(p, 2), y = child(v);
 			Editor_1(y, {
 				get fileArray() {
-					return get(L);
+					return get(B);
 				},
 				set fileArray(e) {
-					set(L, e);
+					set(B, e);
 				},
 				get opinionContent() {
-					return get(M);
+					return get(F);
 				},
 				set opinionContent(e) {
-					set(M, e);
+					set(F, e);
 				},
 				$$legacy: !0
 			});
 			var b = sibling(y, 2), x = sibling(child(b), 2), S = child(x);
 			let C;
 			Positive(child(S), {}), next(2), reset(S);
-			var T = sibling(S, 2);
-			let E;
-			Neutral(child(T), {}), next(2), reset(T);
-			var D = sibling(T, 2);
+			var w = sibling(S, 2);
+			let T;
+			Neutral(child(w), {}), next(2), reset(w);
+			var E = sibling(w, 2);
 			let O;
-			Negative(child(D), {}), next(2), reset(D), reset(x), reset(b);
-			var A = sibling(b, 2);
-			each(A, 5, () => get(L), (e) => e.url, (e, t) => {
+			Negative(child(E), {}), next(2), reset(E), reset(x), reset(b);
+			var k = sibling(b, 2);
+			each(k, 5, () => get(B), (e) => e.url, (e, t) => {
 				FilePreview(e, {
 					get file() {
 						return get(t), untrack(() => get(t).files);
 					},
-					onDelete: () => re(get(t))
+					onDelete: () => oe(get(t))
 				});
-			}), reset(A);
-			var N = sibling(A, 2), P = child(N);
-			Upload(sibling(P, 2), {
+			}), reset(k);
+			var A = sibling(k, 2), j = child(A);
+			Upload(sibling(j, 2), {
 				get fileArray() {
-					return get(L);
+					return get(B);
 				},
 				set fileArray(e) {
-					set(L, e);
+					set(B, e);
 				},
 				get opinionContent() {
-					return get(M);
+					return get(F);
 				},
 				set opinionContent(e) {
-					set(M, e);
+					set(F, e);
 				},
 				$$legacy: !0
-			}), reset(N), reset(v), reset(t), template_effect((e) => {
+			}), reset(A), reset(v), reset(t), template_effect((e) => {
 				var t;
 				set_text(r, `${l() ? "Edit" : "Add"} your opinion`), set_text(s, `Logged in as ${(t = (c(), untrack(() => {
 					var e;
 					return ((e = c()) == null ? void 0 : e.npub) || "0";
-				}))) == null ? "" : t}`), set_attribute(m, "src", (get(k), c(), untrack(() => {
+				}))) == null ? "" : t}`), set_attribute(m, "src", (get(M), c(), untrack(() => {
 					var e, t;
-					return (e = get(k)[(t = c()) == null ? void 0 : t.pubkey]) == null || (e = e.content) == null ? void 0 : e.image;
+					return (e = get(M)[(t = c()) == null ? void 0 : t.pubkey]) == null || (e = e.content) == null ? void 0 : e.image;
 				}))), set_text(_, e), C = set_class(S, 1, "btn-standard svelte-1n46o8q", null, C, {
 					dark: u() === "dark",
-					"selected-state": get(j).sentiment === "1"
-				}), E = set_class(T, 1, "btn-standard svelte-1n46o8q", null, E, {
+					"selected-state": get(P).sentiment === "1"
+				}), T = set_class(w, 1, "btn-standard svelte-1n46o8q", null, T, {
 					dark: u() === "dark",
-					"selected-state": get(j).sentiment === "0"
-				}), O = set_class(D, 1, "btn-standard svelte-1n46o8q", null, O, {
+					"selected-state": get(P).sentiment === "0"
+				}), O = set_class(E, 1, "btn-standard svelte-1n46o8q", null, O, {
 					dark: u() === "dark",
-					"selected-state": get(j).sentiment === "-1"
-				}), P.disabled = !c();
-			}, [() => (get(k), c(), untrack(() => {
+					"selected-state": get(P).sentiment === "-1"
+				}), j.disabled = !c();
+			}, [() => (get(M), c(), untrack(() => {
 				var e, t, n, r, a, o;
-				return !(!((e = get(k)[(t = c()) == null ? void 0 : t.pubkey]) == null || (e = e.content) == null) && e.name) || ((n = get(k)[(r = c()) == null ? void 0 : r.pubkey]) == null || (n = n.content) == null ? void 0 : n.name) == "" ? c().npub.slice(0, 4) + "..." + c().npub.slice(-4) : (a = get(k)[(o = c()) == null ? void 0 : o.pubkey]) == null || (a = a.content) == null ? void 0 : a.name;
-			}))]), event("click", f, ne), event("click", S, preventDefault(() => {
-				set(j, {
-					...get(j),
+				return !(!((e = get(M)[(t = c()) == null ? void 0 : t.pubkey]) == null || (e = e.content) == null) && e.name) || ((n = get(M)[(r = c()) == null ? void 0 : r.pubkey]) == null || (n = n.content) == null ? void 0 : n.name) == "" ? c().npub.slice(0, 4) + "..." + c().npub.slice(-4) : (a = get(M)[(o = c()) == null ? void 0 : o.pubkey]) == null || (a = a.content) == null ? void 0 : a.name;
+			}))]), event("click", f, re), event("click", S, preventDefault(() => {
+				set(P, {
+					...get(P),
 					sentiment: "1"
 				});
-			})), event("click", T, preventDefault(() => {
-				set(j, {
-					...get(j),
+			})), event("click", w, preventDefault(() => {
+				set(P, {
+					...get(P),
 					sentiment: "0"
 				});
-			})), event("click", D, preventDefault(() => {
-				set(j, {
-					...get(j),
+			})), event("click", E, preventDefault(() => {
+				set(P, {
+					...get(P),
 					sentiment: "-1"
 				});
 			})), event("submit", v, preventDefault(() => {
-				ee(" ");
+				K(" ");
 			})), transition(3, t, () => fade), append(e, t);
 		};
-		if_block(Y, (e) => {
-			n(), c(), get(k), untrack(() => {
+		if_block(q, (e) => {
+			n(), c(), get(M), untrack(() => {
 				var e, t;
-				return n() && ((e = c()) == null ? void 0 : e.pubkey) && get(k)[(t = c()) == null ? void 0 : t.pubkey];
-			}) && e(ae);
+				return n() && ((e = c()) == null ? void 0 : e.pubkey) && get(M)[(t = c()) == null ? void 0 : t.pubkey];
+			}) && e(J);
 		}), template_effect((e) => {
 			var t, n, r;
-			set_text(a, e), set_text(s, untrack(() => w.description)), set_text(b, ` ${(t = (get(P), untrack(() => get(P)[1]))) == null ? "" : t} positive`), set_text(C, ` ${(n = (get(P), untrack(() => get(P)[0]))) == null ? "" : n} neutral`), set_text(A, ` ${(r = (get(P), untrack(() => get(P)[-1]))) == null ? "" : r} negative`), H = set_class(V, 1, "blank-btn filter-btn svelte-1n46o8q", null, H, { "filter-active": get(F) === "approved" }), W = set_class(U, 1, "blank-btn filter-btn svelte-1n46o8q", null, W, { "filter-active": get(F) === "all" }), set_text(J, `${l() ? "Edit" : "Add"} your opinion`);
-		}, [() => (get(z), get(F), get(B), untrack(() => w.headline.replace("$$nAll$$", get(z).toString() || "0").replace("$$nTrusted$$", get(F) === "approved" ? get(B).toString() : get(z).toString())))]), event("click", V, () => {
-			set(F, "approved"), G(), showMoreNewOpinions.set(!1);
-		}), event("click", U, q), transition(3, g, () => fade), transition(3, te, () => slide), event("click", K, () => {
+			set_text(a, e), set_text(s, untrack(() => D.description)), set_text(b, ` ${(t = (get(L), untrack(() => get(L)[1]))) == null ? "" : t} positive`), set_text(C, ` ${(n = (get(L), untrack(() => get(L)[0]))) == null ? "" : n} neutral`), set_text(E, ` ${(r = (get(L), untrack(() => get(L)[-1]))) == null ? "" : r} negative`), N = set_class(A, 1, "blank-btn filter-btn svelte-1n46o8q", null, N, { "filter-active": get(R) === "approved" }), W = set_class(I, 1, "blank-btn filter-btn svelte-1n46o8q", null, W, { "filter-active": get(R) === "all" }), set_text(te, `${l() ? "Edit" : "Add"} your opinion`);
+		}, [() => (get(H), get(R), get(U), untrack(() => D.headline.replace("$$nAll$$", get(H).toString() || "0").replace("$$nTrusted$$", get(R) === "approved" ? get(U).toString() : get(H).toString())))]), event("click", A, () => {
+			set(R, "approved"), ne(), showMoreNewOpinions.set(!1);
+		}), event("click", I, Y), transition(3, g, () => fade), transition(3, ee, () => slide), event("click", G, () => {
 			var e, t;
-			showMoreNewOpinions.update((e) => !e), (e = c()) != null && e.pubkey && get(k)[(t = c()) == null ? void 0 : t.pubkey] || showAuthenticationModal.set(!0);
+			showMoreNewOpinions.update((e) => !e), (e = c()) != null && e.pubkey && get(M)[(t = c()) == null ? void 0 : t.pubkey] || showAuthenticationModal.set(!0);
 		}), append(e, t);
 	};
-	if_block(X, (e) => {
-		get(N) ? e(se) : e(ce, -1);
+	if_block(le, (e) => {
+		get(I) ? e(ue) : e(de, -1);
 	});
-	var le = sibling(X, 2), ue = (e) => {
+	var fe = sibling(le, 2), pe = (e) => {
 		ConfirmationModal(e, {
-			onAgreeButton: J,
+			onAgreeButton: ae,
 			onCancelButton: () => {
-				set(V, !1);
+				set(W, !1);
 			}
 		});
 	};
-	if_block(le, (e) => {
-		get(V) && e(ue);
+	if_block(fe, (e) => {
+		get(W) && e(pe);
 	});
-	var de = sibling(le, 2);
-	Login(de, {});
-	var fe = sibling(de, 2);
-	Register(fe, {}), Toast(sibling(fe, 2), {}), append(e, oe);
-	var pe = pop(ae);
-	return p(), pe;
+	var me = sibling(fe, 2);
+	Login(me, {});
+	var he = sibling(me, 2);
+	Register(he, {}), Toast(sibling(he, 2), {}), append(e, ce);
+	var ge = pop(se);
+	return p(), ge;
 }
 customElements.define("nostr-opinion", create_custom_element(App, {
 	subject: {},
+	subjects: {},
 	opinionTitle: {},
 	opinionHeader: {},
 	opinionFooter: {},

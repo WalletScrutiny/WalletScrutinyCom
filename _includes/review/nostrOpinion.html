@@ -9,8 +9,10 @@
 
 {% assign nostr_collection = include.opinionSubject | default: page.collection %}
 {% assign nostr_app_id = include.opinionAppId | default: page.appId %}
+{% assign nostr_subjects = include.opinionSubjects | default: '' %}
 <nostr-opinion
   subject="{{ nostr_collection }}/{{ nostr_app_id }}"
+  {% if nostr_subjects != '' %}subjects="{{ nostr_subjects }}"{% endif %}
   opinionHeader="******** Opinion about {{ page.title }} ({{ nostr_collection }})"
   opinionFooter="[Join the conversation!](https://walletscrutiny.com/{{ nostr_collection }}/{{ nostr_app_id }}/)"
   opinionTitle="Opinion about {{ page.title }}"

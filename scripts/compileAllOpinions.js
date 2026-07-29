@@ -3,11 +3,17 @@ const fs = require('fs/promises');
 const path = require('path');
 const yaml = require('js-yaml');
 
-async function mobileWalletNames () {
-  const names = [];
+/**
+ * Mobile pages use subject keys `mobile/{slug}`. Historical Nostr opinions still
+ * use `android/{appId}` / `iphone/{appId}`. Aggregate all known aliases under the
+ * canonical `mobile/{slug}` key that fewWallets.js / allWallets.js look up.
+ */
+async function mobileWalletTargets () {
+  const targets = [];
   const dir = '_mobile';
   for (const file of await fs.readdir(dir)) {
     if (!file.endsWith('.md')) continue;
+    const slug = file.replace(/\.md$/, '');
     const raw = await fs.readFile(path.join(dir, file), 'utf8');
     const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
     if (!m) continue;
@@ -17,30 +23,51 @@ async function mobileWalletNames () {
     } catch {
       continue;
     }
+    const keys = new Set([`mobile/${slug}`]);
     if (doc?.android?.appId) {
-      names.push(`android/${doc.android.appId}`);
+      keys.add(`android/${doc.android.appId}`);
     }
     if (doc?.iphone?.appId) {
-      names.push(`iphone/${doc.iphone.appId}`);
+      keys.add(`iphone/${doc.iphone.appId}`);
     }
+    targets.push({ outKey: `mobile/${slug}`, keys: [...keys] });
   }
-  return names;
+  return targets;
 }
 
-async function categoryNames (category) {
+async function categoryTargets (category) {
   const dir = `_${category}`;
   return (await fs.readdir(dir))
     .filter((n) => n.endsWith('.md'))
-    .map((n) => `${category}/${n.replace(/\.md$/, '')}`);
+    .map((n) => {
+      const id = n.replace(/\.md$/, '');
+      const key = `${category}/${id}`;
+      return { outKey: key, keys: [key] };
+    });
 }
 
-const getNames = async () => {
-  const mobile = await mobileWalletNames();
+const getTargets = async () => {
+  const mobile = await mobileWalletTargets();
   const other = await Promise.all(
-    ['hardware', 'bearer', 'desktop'].map(categoryNames)
+    ['hardware', 'bearer', 'desktop'].map(categoryTargets)
   );
   return [...mobile, ...other.flat()];
 };
+
+function mergeOpinionCounts (opinions) {
+  const merged = { positive: 0, neutral: 0, negative: 0 };
+  for (const opinion of opinions) {
+    for (const k of Object.keys(merged)) {
+      merged[k] += opinion[k] || 0;
+    }
+  }
+  for (const k of Object.keys(merged)) {
+    if (merged[k] === 0) {
+      delete merged[k];
+    }
+  }
+  return merged;
+}
 
 function isEmpty (obj) {
   for (const prop in obj) {
@@ -52,7 +79,7 @@ function isEmpty (obj) {
 }
 
 (async () => {
-  const names = await getNames();
+  const targets = await getTargets();
   // todo: shouldn't have to configure the trusted authors twice in this project
   const summariser = new Summariser({
     relay: 'wss://nos.lol',
@@ -66,15 +93,10 @@ function isEmpty (obj) {
 
   const all = {};
 
-  for (const n of names) {
-    const opinion = await summariser.get(n);
-    for (const k in opinion) {
-      if (opinion[k] === 0) {
-        delete opinion[k];
-      }
-    }
+  for (const { outKey, keys } of targets) {
+    const opinion = mergeOpinionCounts(keys.map((k) => summariser.get(k)));
     if (!isEmpty(opinion)) {
-      all[n] = opinion;
+      all[outKey] = opinion;
     }
   }
 
@@ -82,11 +104,11 @@ function isEmpty (obj) {
   const formatJson = (obj) => {
     const entries = Object.entries(obj);
     if (entries.length === 0) return '{}';
-    
-    const formattedEntries = entries.map(([key, value]) => 
+
+    const formattedEntries = entries.map(([key, value]) =>
       `  "${key}":${JSON.stringify(value)}`
     );
-    
+
     return `{\n${formattedEntries.join(',\n')}\n}`;
   };
 

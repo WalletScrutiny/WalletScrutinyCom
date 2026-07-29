@@ -86,9 +86,24 @@ layout: default
         {% include feature_alerts.html %}
       {%- endif -%}
 
+      {%- comment -%}
+        Canonical Nostr subject is mobile/{slug}. Pass legacy android/iphone d-tags
+        so historical opinions still appear in the widget.
+      {%- endcomment -%}
+      {%- assign nostr_legacy_subjects = '' -%}
+      {%- if page.android.appId -%}
+        {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: 'android/' | append: page.android.appId -%}
+      {%- endif -%}
+      {%- if page.iphone.appId -%}
+        {%- if nostr_legacy_subjects != '' -%}
+          {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: ',' -%}
+        {%- endif -%}
+        {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: 'iphone/' | append: page.iphone.appId -%}
+      {%- endif -%}
       {% include /review/nostrOpinion.html
         opinionSubject=page.collection
         opinionAppId=page.slug
+        opinionSubjects=nostr_legacy_subjects
       %}
 
       {% include_cached /review/ownResearch.html %}
