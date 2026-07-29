@@ -35,6 +35,7 @@ const PLATFORM_FIELD_ORDER = [
   'reviews',
   'icon',
   'signer',
+  'playStore',
   'alternativeStores',
   'builds',
   'meta',

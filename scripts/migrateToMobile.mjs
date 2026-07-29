@@ -67,6 +67,7 @@ const PLATFORM_METADATA_FIELDS = [
 
 const ANDROID_EXCLUSIVE_FIELDS = [
   'users',
+  'playStore',
   'alternativeStores',
   'builds',
 ];
@@ -103,6 +104,7 @@ const PLATFORM_FIELD_ORDER = [
   'reviews',
   'icon',
   'signer',
+  'playStore',
   'alternativeStores',
   'builds',
   'meta',

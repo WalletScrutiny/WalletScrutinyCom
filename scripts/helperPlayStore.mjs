@@ -24,7 +24,7 @@ const stats = {
 
 const category = 'android';
 const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
-                'appCountry released updated version reviews website repository ' +
+                'playStore appCountry released updated version reviews website repository ' +
                 'icon bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
 
@@ -53,6 +53,12 @@ function refreshFile (fileName, content, markRemoved) {
     }
     const appCountry = android.appCountry || mobile.appCountry || 'us';
     helper.checkHeaderKeys(android, headers);
+
+    if (android.playStore === false) {
+      stats.remaining--;
+      release();
+      return;
+    }
 
     const metaCtx = metaUpdateContext(mobile, 'android');
     const isDefunctOrRemoved = 'defunct,removed'.includes(android.meta);
