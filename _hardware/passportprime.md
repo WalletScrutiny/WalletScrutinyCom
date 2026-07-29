@@ -1,7 +1,6 @@
 ---
 title: Foundation Passport Prime
 appId: passportprime
-bitcoinOrgId: passport
 authors:
 - danny
 released: 2026-03-16
