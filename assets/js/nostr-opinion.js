@@ -865,10 +865,35 @@ function _hydrate_resolved_content() {
 	}
 }
 function _hydrate_failed_content(e) {
-	let t = _classPrivateFieldGet2(_props, this).failed;
-	t && _classPrivateFieldSet2(_failed_effect, this, branch(() => {
-		t(_classPrivateFieldGet2(_anchor, this), () => e, () => () => {});
+	let t = _classPrivateFieldGet2(_props, this).failed, { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
+	queue_micro_task(r), t && _classPrivateFieldSet2(_failed_effect, this, branch(() => {
+		t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
 	}));
+}
+function _create_reset(e) {
+	var t = !1, n = !1;
+	let r = () => {
+		if (t) {
+			svelte_boundary_reset_noop();
+			return;
+		}
+		t = !0, n && svelte_boundary_reset_onerror(), _classPrivateFieldGet2(_failed_effect, this) !== null && pause_effect(_classPrivateFieldGet2(_failed_effect, this), () => {
+			_classPrivateFieldSet2(_failed_effect, this, null);
+		}), _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
+			_assertClassBrand(_Boundary_brand, this, _render).call(this);
+		});
+	};
+	return {
+		reset: r,
+		invoke_onerror: () => {
+			try {
+				var t, a;
+				n = !0, (t = (a = _classPrivateFieldGet2(_props, this)).onerror) == null || t.call(a, e, r), n = !1;
+			} catch (e) {
+				invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
+			}
+		}
+	};
 }
 function _hydrate_pending_content() {
 	let e = _classPrivateFieldGet2(_props, this).pending;
@@ -921,30 +946,13 @@ function _update_pending_count(e, t) {
 }
 function _handle_error(e) {
 	_classPrivateFieldGet2(_main_effect, this) && (destroy_effect(_classPrivateFieldGet2(_main_effect, this)), _classPrivateFieldSet2(_main_effect, this, null)), _classPrivateFieldGet2(_pending_effect, this) && (destroy_effect(_classPrivateFieldGet2(_pending_effect, this)), _classPrivateFieldSet2(_pending_effect, this, null)), _classPrivateFieldGet2(_failed_effect, this) && (destroy_effect(_classPrivateFieldGet2(_failed_effect, this)), _classPrivateFieldSet2(_failed_effect, this, null)), hydrating && (set_hydrate_node(_classPrivateFieldGet2(_hydrate_open, this)), next(), set_hydrate_node(skip_nodes()));
-	var t = _classPrivateFieldGet2(_props, this).onerror;
-	let n = _classPrivateFieldGet2(_props, this).failed;
-	var r = !1, a = !1;
-	let o = () => {
-		if (r) {
-			svelte_boundary_reset_noop();
-			return;
-		}
-		r = !0, a && svelte_boundary_reset_onerror(), _classPrivateFieldGet2(_failed_effect, this) !== null && pause_effect(_classPrivateFieldGet2(_failed_effect, this), () => {
-			_classPrivateFieldSet2(_failed_effect, this, null);
-		}), _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
-			_assertClassBrand(_Boundary_brand, this, _render).call(this);
-		});
-	}, s = (e) => {
-		try {
-			a = !0, t == null || t(e, o), a = !1;
-		} catch (e) {
-			invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
-		}
-		n && _classPrivateFieldSet2(_failed_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
+	let t = _classPrivateFieldGet2(_props, this).failed, n = (e) => {
+		let { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
+		r(), t && _classPrivateFieldSet2(_failed_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
 			try {
 				return branch(() => {
-					var t = active_effect;
-					t.b = this, t.f |= 128, n(_classPrivateFieldGet2(_anchor, this), () => e, () => o);
+					var r = active_effect;
+					r.b = this, r.f |= 128, t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
 				});
 			} catch (e) {
 				return invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this).parent), null;
@@ -959,7 +967,7 @@ function _handle_error(e) {
 			invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
 			return;
 		}
-		typeof t == "object" && t && typeof t.then == "function" ? t.then(s, (e) => invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent)) : s(t);
+		typeof t == "object" && t && typeof t.then == "function" ? t.then(n, (e) => invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent)) : n(t);
 	});
 }
 //#endregion
