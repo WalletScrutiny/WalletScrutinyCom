@@ -39,7 +39,7 @@
     { text: "$ reproducible --attest --publish", type: "command" },
     { text: "Preparing signed verification payload...", type: "output" },
     { text: "Publishing to Nostr relays...", type: "output" },
-    { text: "wss://relay.damus.io: event accepted", type: "success" },
+    { text: "wss://relay.nostr.info/: event accepted", type: "success" },
     { text: "wss://nos.lol: event accepted", type: "success" },
     { text: "Build verification complete.", type: "success" },
   ];

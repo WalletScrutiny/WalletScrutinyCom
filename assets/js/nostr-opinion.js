@@ -20567,12 +20567,12 @@ function getIndexableTags(e) {
 //#endregion
 //#region src/stores/provider.ts
 var cacheAdapter, defaulRelaysUrls = [
+	"wss://relay.nostr.info/",
+	"wss://relay.ditto.pub/",
 	"wss://purplepag.es",
-	"wss://relay.nostr.band",
 	"wss://nos.lol",
 	"wss://offchain.pub/",
-	"wss://nostr-pub.wellorder.net",
-	"wss://nostr.mutinywallet.com "
+	"wss://nostr-pub.wellorder.net"
 ], CACHE_DB_NAME = "nostr-opinion-ndk-v15", OLD_CACHE_DB_NAMES = ["walletScrutiny", "nostr-opinion-cache"];
 function initCacheAdapter() {
 	if (!(typeof window > "u")) {

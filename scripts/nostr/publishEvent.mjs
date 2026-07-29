@@ -14,7 +14,9 @@ const RELAYS = [
   "wss://relay.nostr.info/",
   "wss://nostr.mom/",
   "wss://relay.primal.net/",
-  "wss://relay.damus.io/",
+  "wss://relay.ditto.pub/",
+  "wss://purplepag.es/",
+  "wss://nos.lol/",
 ];
 
 const PRIVATE_KEY = "";
