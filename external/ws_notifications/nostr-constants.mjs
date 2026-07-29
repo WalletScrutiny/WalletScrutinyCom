@@ -3,11 +3,11 @@ import { isDebugEnv } from './config/env.mjs';
 export const mainRelayUrl = 'wss://relay.nostr.info/';
 export const explicitRelayUrls = [
   mainRelayUrl,
-  'wss://nostr.mom/',
-  'wss://relay.primal.net/',
-  'wss://relay.damus.io/',
-  'wss://purplepag.es/',
-  'wss://nos.lol/',
+  "wss://nostr.mom/",                 // DE (rate-limited)
+  "wss://relay.primal.net/",          // CA
+  "wss://relay.ditto.pub/",
+  "wss://purplepag.es/",              // Profile-focused (NIP-77)
+  "wss://nos.lol/",
 ];
 
 export const profileRelayUrl = 'wss://purplepag.es/';

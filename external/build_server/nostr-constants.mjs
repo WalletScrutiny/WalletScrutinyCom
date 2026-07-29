@@ -5,7 +5,7 @@ export const explicitRelayUrls = [
   mainRelayUrl,                       // FI - Do not change
   "wss://nostr.mom/",                 // DE (rate-limited)
   "wss://relay.primal.net/",          // CA
-  "wss://relay.damus.io/",            // CA
+  "wss://relay.ditto.pub/",
   "wss://purplepag.es/",              // Profile-focused (NIP-77)
   "wss://nos.lol/",
 ];
