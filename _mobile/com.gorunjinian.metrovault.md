@@ -68,10 +68,11 @@ what the online device displays. Supported script types are Native SegWit, Tapro
 Legacy and Silent Payments (BIP-352), the PSBT workflow covers BIP-174 and BIP-370 v2, and multisig
 signing is supported for collaborative custody.
 
-This means the app never sends or receives bitcoin over the network itself, which is by design rather
-than a limitation: it declares no `INTERNET` permission at all, so direct network access is blocked by
-the Android permission model rather than left to user discipline — a claim any reader can check
-against the published APK instead of taking on the developer's word. That is narrower than a full air
+MetroVault therefore holds the keys and authorises every spend, while the broadcasting half of the
+job runs on a separate online device. Its own isolation is enforced rather than promised: the app
+declares no `INTERNET` permission at all, so direct network access is blocked by the Android
+permission model rather than left to user discipline — a claim any reader can check against the
+published APK instead of taking on the developer's word. That is narrower than a full air
 gap, which also depends on the device's radio state and on what reaches the phone by other routes. The
 arrangement is the same one every hardware wallet uses: a Trezor, a BitBox02 or a Keystone 3 Pro is
 also a signer that never broadcasts and depends on a companion application, and custody follows the
