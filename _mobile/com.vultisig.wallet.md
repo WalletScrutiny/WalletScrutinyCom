@@ -70,7 +70,7 @@ The app therefore allows self-custody. Recovery resilience remains a concern: th
 
 One security caveat found during this review, which does not affect custody: the password that protects the emailed server-share backup is sent to VultiServer at vault creation and again on every fast-signing request, so it is not a secret from the provider. The current server code derives the AES-GCM key with a single unsalted SHA-256 of that password, where the Android device-share backup uses PBKDF2 with 600,000 iterations and a random salt. Users should choose a strong, unique password for the Fast Vault backup.
 
-Our verdict is **sourceavailable**: the Android and iOS source is public, but we have not verified that a reproducible build matches either store release.
+Our verdict is **sourceavailable**: the Android and iOS source is public and we will follow up with reproducibility verifications.
 
 {% include featureEvidence.html feature="multiSig" quote="The first multi-chain, multi-asset, multi-signature wallet in the world for everyone." source="Website" %}
 
