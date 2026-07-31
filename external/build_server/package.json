@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^12.11.1",
-    "isomorphic-dompurify": "^3.20.0",
+    "isomorphic-dompurify": "^3.21.0",
     "js-yaml": "^4.3.0",
     "minimist": "^1.2.8",
     "nostr-tools": "2.23.8",
