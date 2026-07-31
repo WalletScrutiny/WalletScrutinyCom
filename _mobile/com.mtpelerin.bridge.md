@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-04-07
-  updated: 2026-06-28
-  version: '1.69'
+  updated: 2026-07-30
+  version: '1.71'
   reviews: 36
   icon: com.mtpelerin.bridge.png
   meta: ok
@@ -38,8 +38,8 @@ iphone:
   idd: 1481859680
   appCountry: us
   released: 2020-04-08
-  updated: 2026-06-29
-  version: '1.69'
+  updated: 2026-07-30
+  version: '1.70'
   reviews: 87
   icon: com.mtpelerin.bridge.jpg
   meta: ok

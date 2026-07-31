@@ -19,8 +19,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-09-15
-  updated: 2026-07-02
-  version: 2.22.0
+  updated: 2026-07-30
+  version: 2.22.1
   reviews: 27
   icon: com.oberton.app.png
   meta: ok

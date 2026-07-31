@@ -15,7 +15,7 @@ android:
   released: 2025-03-21
   updated: 2026-07-27
   version: 6.181.0
-  reviews: 51
+  reviews: 52
   icon: com.okx.wallet.png
   meta: ok
   verdict: nosource
@@ -27,7 +27,7 @@ iphone:
   released: 2025-04-15
   updated: 2026-07-22
   version: 6.180.1
-  reviews: 98
+  reviews: 97
   icon: com.okx.wallet.jpg
   meta: ok
   verdict: nosource

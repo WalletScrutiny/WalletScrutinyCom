@@ -21,7 +21,7 @@ android:
   version: 2.4.41
   reviews: 63
   icon: roseon.finance.png
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Roseon Finance
 iphone:

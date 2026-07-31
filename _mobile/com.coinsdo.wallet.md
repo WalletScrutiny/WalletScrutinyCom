@@ -19,8 +19,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-06-26
-  updated: 2026-06-24
-  version: 2.0.29
+  updated: 2026-07-29
+  version: 2.0.30
   reviews: 118
   icon: com.coinsdo.wallet.png
   meta: ok

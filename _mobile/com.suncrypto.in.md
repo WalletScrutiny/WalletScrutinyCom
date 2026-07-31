@@ -1,5 +1,5 @@
 ---
-title: 'Sun Crypto: Buy & Sell Crypto'
+title: 'SunCrypto: Best Crypto App'
 date: 2021-09-11
 website: https://suncrypto.in
 twitter: suncryptoin

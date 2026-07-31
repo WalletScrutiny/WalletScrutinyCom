@@ -14,7 +14,7 @@ android:
   appCountry: nl
   released: 2020-08-19
   updated: 2026-07-27
-  version: 2.117.0
+  version: 2.118.1
   reviews: 3674
   icon: com.bitvavo.android.png
   meta: ok
@@ -27,7 +27,7 @@ iphone:
   released: 2020-05-28
   updated: 2026-07-27
   version: 2.118.0
-  reviews: 8521
+  reviews: 8524
   icon: com.bitvavo.jpg
   meta: ok
   verdict: custodial

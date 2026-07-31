@@ -33,7 +33,7 @@ iphone:
   released: 2021-01-19
   updated: 2026-07-27
   version: 7.178.5
-  reviews: 8460
+  reviews: 8470
   icon: com.river.riverapp.jpg
   meta: ok
   verdict: custodial

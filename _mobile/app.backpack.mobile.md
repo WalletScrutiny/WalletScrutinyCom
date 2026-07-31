@@ -12,9 +12,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-02
-  updated: 2026-06-10
-  version: 2.76.0
-  reviews: 67
+  updated: 2026-07-24
+  version: 2.80.0
+  reviews: 69
   icon: app.backpack.mobile.png
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '6445964121'
   appCountry: us
   released: 2023-10-26
-  updated: 2026-07-24
-  version: 2.80.0
+  updated: 2026-07-30
+  version: 2.81.0
   reviews: 225
   icon: app.backpack.mobile.jpg
   meta: ok

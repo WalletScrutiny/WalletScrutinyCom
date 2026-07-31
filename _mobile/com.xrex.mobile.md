@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: au
   released: 2020-02-20
-  updated: 2026-07-03
-  version: 2.1.1034
+  updated: 2026-07-27
+  version: 2.1.1060
   icon: com.xrex.mobile.png
   meta: ok
   verdict: custodial

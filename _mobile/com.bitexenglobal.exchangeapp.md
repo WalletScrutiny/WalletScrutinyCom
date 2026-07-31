@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-07-27
-  version: '2.24'
+  version: '2.25'
   icon: com.bitexenglobal.exchangeapp.png
   meta: ok
   verdict: custodial

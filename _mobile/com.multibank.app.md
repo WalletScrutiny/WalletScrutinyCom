@@ -33,8 +33,8 @@ iphone:
   idd: '1592119946'
   appCountry: ae
   released: 2022-01-18
-  updated: 2026-07-27
-  version: 26.0.18
+  updated: 2026-07-31
+  version: 26.0.19
   reviews: 32
   icon: com.mexdigital.app.jpg
   meta: ok

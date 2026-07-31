@@ -1,17 +1,3 @@
-2026-07-15:
-- _mobile/app.backpack.mobile
-- _mobile/com.app.freedx.prod
-- _mobile/com.fastex.app
-- _mobile/com.moneybrain.moneybrain
-- _mobile/com.pionex.us.client
-- _mobile/com.quppy
-- _mobile/com.ripio.android
-- _mobile/com.truewallet.app
-- _mobile/org.telegram.bananatok
-- _mobile/roseon.finance
-- _mobile/com.union.cash
-- _mobile/io.unisat
-- _mobile/pro.bingbon.app
 2026-07-21:
 - _mobile/com.cextor.pro
 - _mobile/com.cryptooriented.exchanges
@@ -31,3 +17,14 @@
 - _mobile/micat.example.bergamo
 - _mobile/com.XcelTrip.XcelPay
 - _mobile/com.greencryptox.exchange
+2026-07-31:
+- _mobile/com.app.jc
+- _mobile/com.blockabc.cctip
+- _mobile/com.exchange.allin
+- _mobile/com.gorunjinian.metrovault
+- _mobile/com.hittechsexpertlimited.hitbtc
+- _mobile/com.fasset.cashapp
+- _mobile/com.senexpay.mobile
+- _mobile/com.splitloyalty.app.Split-Rewards
+- _mobile/de.fuf.bitbucks
+- _mobile/org.nativescript.knakenhybridapp

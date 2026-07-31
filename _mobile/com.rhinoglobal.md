@@ -20,7 +20,7 @@ android:
   released: 2024-08-30
   updated: 2026-07-22
   version: 2.12.20
-  reviews: 32
+  reviews: 33
   icon: com.rhinoglobal.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2022-06-29
   updated: 2026-07-23
   version: 2.12.20
-  reviews: 37
+  reviews: 38
   icon: com.Rhino.Global.jpg
   meta: ok
   verdict: custodial

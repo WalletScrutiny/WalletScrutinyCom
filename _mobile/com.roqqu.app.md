@@ -30,8 +30,8 @@ iphone:
   idd: 1505370687
   appCountry: de
   released: 2020-04-06
-  updated: 2026-07-20
-  version: 2.5.94
+  updated: 2026-07-29
+  version: 2.5.95
   reviews: 8
   icon: com.roqqu.ios.jpg
   meta: ok

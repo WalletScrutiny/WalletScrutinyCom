@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2022-09-20
   updated: 2026-07-27
-  version: 4.3.9
+  version: 4.4.1
   reviews: 32
   icon: com.tapbit.android.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1610497530'
   appCountry: us
   released: 2022-03-01
-  updated: 2026-07-04
-  version: 4.4.0
+  updated: 2026-07-30
+  version: 4.4.1
   reviews: 53
   icon: com.billance.cn.jpg
   meta: ok

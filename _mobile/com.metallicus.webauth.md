@@ -33,7 +33,7 @@ iphone:
   released: 2021-12-15
   updated: 2026-06-07
   version: 2.1.62
-  reviews: 221
+  reviews: 222
   icon: com.metallicus.webauth.jpg
   meta: ok
   verdict: nosource

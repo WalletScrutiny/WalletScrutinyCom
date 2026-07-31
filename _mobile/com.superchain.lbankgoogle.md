@@ -32,7 +32,7 @@ iphone:
   released: 2019-02-22
   updated: 2026-07-21
   version: 6.1.0
-  reviews: 728
+  reviews: 729
   icon: com.LBank.LBankNavApp.jpg
   meta: ok
   verdict: custodial

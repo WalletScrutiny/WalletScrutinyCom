@@ -22,8 +22,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-01
-  updated: 2026-07-28
-  version: 1.0.115
+  updated: 2026-07-30
+  version: 1.0.116
   reviews: 12
   icon: com.vultisig.wallet.png
   meta: ok

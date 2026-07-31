@@ -24,7 +24,7 @@ android:
   released: 2020-12-30
   updated: 2026-07-25
   version: 3.74.0
-  reviews: 8290
+  reviews: 8291
   icon: com.kraken.invest.app.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2021-06-01
   updated: 2026-07-28
   version: 3.74.0
-  reviews: 33306
+  reviews: 33350
   icon: com.kraken.invest.app.jpg
   meta: ok
   verdict: custodial

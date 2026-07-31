@@ -11,7 +11,7 @@ android:
   updated: 2025-12-20
   version: VARY
   icon: com.truewallet.app.png
-  meta: fewusers
+  meta: removed
   verdict: wip
   developerName: INRX CONSENSUS LLP
 

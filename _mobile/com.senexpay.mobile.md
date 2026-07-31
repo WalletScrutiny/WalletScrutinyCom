@@ -18,7 +18,7 @@ android:
   users: 1000
   appCountry: us
   released: 2022-08-16
-  updated: 2026-05-13
+  updated: 2026-07-30
   version: 1.8.7
   icon: com.senexpay.mobile.png
   meta: ok

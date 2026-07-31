@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-08-08
-  updated: 2026-06-18
-  version: 2.28.0
+  updated: 2026-07-24
+  version: 3.0.0
   reviews: 172
   icon: com.balletcrypto.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2019-09-11
   updated: 2026-07-28
   version: 3.0.0
-  reviews: 1538
+  reviews: 1539
   icon: com.balletcrypto.jpg
   meta: ok
   verdict: nosource

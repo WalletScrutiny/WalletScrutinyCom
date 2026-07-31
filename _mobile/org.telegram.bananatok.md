@@ -22,7 +22,7 @@ android:
   version: 5.0.8
   reviews: 1343
   icon: org.telegram.bananatok.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Bananatok
 iphone:

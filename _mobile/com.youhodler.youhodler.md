@@ -19,7 +19,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-07-11
-  updated: 2026-05-07
+  updated: 2026-07-28
   version: 8.6.3
   reviews: 116
   icon: com.youhodler.youhodler.png
@@ -31,8 +31,8 @@ iphone:
   idd: 1469351696
   appCountry: jp
   released: 2019-07-25
-  updated: 2026-07-01
-  version: 8.6.5
+  updated: 2026-07-31
+  version: 9.0.0
   reviews: 11
   icon: com.youhodler.youhodler.jpg
   meta: ok

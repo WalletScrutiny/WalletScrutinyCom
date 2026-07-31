@@ -20,7 +20,7 @@ android:
   released: 2019-01-21
   updated: 2026-07-27
   version: 10.1.11
-  reviews: 213
+  reviews: 212
   icon: co.busha.android.png
   meta: ok
   verdict: custodial

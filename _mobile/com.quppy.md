@@ -22,7 +22,7 @@ android:
   version: 2.0.149
   reviews: 42
   icon: com.quppy.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Quppy Europe OU
 iphone:

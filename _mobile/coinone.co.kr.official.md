@@ -1,6 +1,6 @@
 ---
 wsId: coinOneKr
-title: 코인원 - 가상자산 거래소(비트코인, 이더리움, 테더)
+title: 코인원 - 12년 보안 무사고, 안전한 가상자산 거래소
 date: 2021-08-21
 authors:
 - danny
@@ -19,8 +19,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-01-28
-  updated: 2026-07-06
-  version: 5.33.0
+  updated: 2026-07-31
+  version: 5.34.1
   reviews: 15
   icon: coinone.co.kr.official.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: 1326526995
   appCountry: kr
   released: 2018-03-27
-  updated: 2026-07-16
-  version: 5.33.1
+  updated: 2026-07-30
+  version: 5.34.0
   reviews: 1044
   icon: kr.co.coinone.officialapp.jpg
   meta: ok

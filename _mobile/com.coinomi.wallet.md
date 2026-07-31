@@ -31,8 +31,8 @@ android:
   appCountry: us
   released: 2014-01-31
   updated: 2026-07-24
-  version: 1.67.3
-  reviews: 2312
+  version: 1.67.4
+  reviews: 2313
   icon: com.coinomi.wallet.png
   meta: ok
   verdict: nosource

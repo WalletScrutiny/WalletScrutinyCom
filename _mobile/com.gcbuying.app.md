@@ -28,7 +28,7 @@ iphone:
   released: 2021-06-30
   updated: 2026-01-04
   version: 1.4.3
-  reviews: 166
+  reviews: 167
   icon: com.GCBuying.GCBuying.jpg
   meta: ok
   verdict: custodial

@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: cn
   released: 2019-07-06
-  updated: 2026-07-25
+  updated: 2026-07-29
   version: 4.06.0
-  reviews: 8281
+  reviews: 8271
   icon: cn.com.vau.png
   meta: ok
   verdict: nosendreceive

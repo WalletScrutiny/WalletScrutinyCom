@@ -22,7 +22,7 @@ android:
   released: 2020-05-25
   updated: 2026-03-23
   version: 1.190.2
-  reviews: 38
+  reviews: 39
   icon: com.app.bitnob.png
   meta: ok
   verdict: custodial

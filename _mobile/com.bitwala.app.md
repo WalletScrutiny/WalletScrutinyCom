@@ -28,7 +28,7 @@ iphone:
   released: 2019-05-11
   updated: 2026-07-21
   version: 4.3.4
-  reviews: 4106
+  reviews: 4105
   icon: com.bitwala.app.jpg
   meta: ok
   verdict: nosource

@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-06-20
-  updated: 2026-07-10
-  version: 0.3.68
+  updated: 2026-07-31
+  version: 0.3.72
   icon: com.qiewallet.png
   meta: ok
   verdict: nosource

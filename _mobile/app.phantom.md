@@ -25,7 +25,7 @@ android:
   released: 2022-04-12
   updated: 2026-07-27
   version: 26.22.0
-  reviews: 2328
+  reviews: 2327
   icon: app.phantom.png
   meta: ok
   verdict: nosource
@@ -35,9 +35,9 @@ iphone:
   idd: '1598432977'
   appCountry: us
   released: 2022-01-30
-  updated: 2026-07-22
-  version: 26.22.0
-  reviews: 64139
+  updated: 2026-07-30
+  version: 26.23.0
+  reviews: 64141
   icon: app.phantom.jpg
   meta: ok
   verdict: nosource

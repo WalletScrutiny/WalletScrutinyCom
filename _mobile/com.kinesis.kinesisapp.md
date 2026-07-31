@@ -31,8 +31,8 @@ iphone:
   idd: 1490483608
   appCountry: de
   released: 2020-02-28
-  updated: 2026-07-03
-  version: 2.19.0
+  updated: 2026-07-31
+  version: 2.19.1
   reviews: 10
   icon: com.kinesis.kinesis-app.jpg
   meta: ok

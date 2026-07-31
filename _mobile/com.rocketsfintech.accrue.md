@@ -28,9 +28,9 @@ iphone:
   idd: '1604973055'
   appCountry: gh
   released: 2022-01-18
-  updated: 2026-07-18
-  version: 5.0.5
-  reviews: 3094
+  updated: 2026-07-29
+  version: 5.0.6
+  reviews: 3100
   icon: com.rocketsfintech.accrue-dca.jpg
   meta: ok
   verdict: custodial

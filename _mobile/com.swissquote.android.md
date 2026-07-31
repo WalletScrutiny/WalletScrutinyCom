@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2010-06-17
   updated: 2026-07-24
-  version: 9.5.0
+  version: 9.6.0
   reviews: 43
   icon: com.swissquote.android.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '285691076'
   appCountry: ph
   released: 2019-02-12
-  updated: 2026-07-13
-  version: 11.33.0
+  updated: 2026-07-31
+  version: 11.34.0
   reviews: 20
   icon: com.swissquote.iphone.jpg
   meta: ok

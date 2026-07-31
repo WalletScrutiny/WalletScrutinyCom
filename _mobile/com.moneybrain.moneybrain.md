@@ -22,7 +22,7 @@ android:
   updated: 2026-05-23
   version: 3.16.2-retail
   icon: com.moneybrain.moneybrain.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Moneybrain LTD
 iphone:

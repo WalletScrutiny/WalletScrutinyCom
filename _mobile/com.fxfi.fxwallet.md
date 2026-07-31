@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-04-28
-  updated: 2026-07-04
-  version: 2.31.2
+  updated: 2026-07-31
+  version: 3.0.0
   reviews: 4
   icon: com.fxfi.fxwallet.png
   meta: ok

@@ -23,7 +23,7 @@ android:
   version: 1.42.2
   reviews: 12
   icon: com.fastex.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Fastex Europe
 iphone:

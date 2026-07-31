@@ -16,8 +16,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2017-09-26
-  updated: 2026-07-03
-  version: 3.8.7
+  updated: 2026-07-30
+  version: 3.8.8
   reviews: 73
   icon: com.btckorea.bithumb.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: 1299421592
   appCountry: kr
   released: 2017-12-05
-  updated: 2026-07-07
-  version: 3.2.2
+  updated: 2026-07-30
+  version: 3.2.3
   reviews: 5038
   icon: com.btckorea.bithumb.jpg
   meta: ok

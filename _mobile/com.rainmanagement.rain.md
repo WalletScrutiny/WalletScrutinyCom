@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-02
   updated: 2026-07-16
   version: 3.15.1
-  reviews: 2918
+  reviews: 2919
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

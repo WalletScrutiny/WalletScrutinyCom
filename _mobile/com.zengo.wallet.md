@@ -32,7 +32,7 @@ iphone:
   released: 2019-06-07
   updated: 2026-07-28
   version: 10.1.0
-  reviews: 4395
+  reviews: 4396
   icon: kzencorp.mobile.ios.jpg
   meta: ok
   verdict: nosource

@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-03-30
-  updated: 2026-07-02
-  version: 23.0.6
+  updated: 2026-07-20
+  version: 23.0.7
   reviews: 14
   icon: com.bitcimobile.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2019-04-17
   updated: 2026-07-21
   version: 23.0.7
-  reviews: 1383
+  reviews: 1382
   icon: com.bitcimobil.com.jpg
   meta: ok
   verdict: custodial

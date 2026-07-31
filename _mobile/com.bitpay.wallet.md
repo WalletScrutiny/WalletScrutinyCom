@@ -29,7 +29,7 @@ android:
   released: 2016-10-01
   updated: 2026-07-02
   version: 14.44.2
-  reviews: 2311
+  reviews: 2312
   icon: com.bitpay.wallet.png
   meta: ok
   verdict: sourceavailable

@@ -22,7 +22,7 @@ android:
   users: 1000
   appCountry: us
   updated: 2026-07-29
-  version: 5.0.2
+  version: 5.1.0
   icon: au.com.bitaroo.express.png
   meta: ok
   verdict: custodial

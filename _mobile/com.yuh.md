@@ -17,7 +17,7 @@ android:
   appCountry: us
   released: 2021-04-06
   updated: 2026-07-23
-  version: 1.45.6
+  version: 1.45.7
   reviews: 4
   icon: com.yuh.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2021-05-10
   updated: 2026-07-27
   version: 1.43.15
-  reviews: 21991
+  reviews: 22021
   icon: com.swissquote.Yuh.jpg
   meta: ok
   verdict: nosendreceive

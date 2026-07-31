@@ -22,7 +22,7 @@ android:
   released: 2018-05-24
   updated: 2026-07-27
   version: 5.3.1
-  reviews: 154
+  reviews: 153
   icon: one.mixin.messenger.png
   meta: ok
   verdict: sourceavailable
@@ -35,7 +35,7 @@ iphone:
   released: 2018-01-20
   updated: 2026-07-29
   version: 5.3.1
-  reviews: 1173
+  reviews: 1174
   icon: one.mixin.messenger.jpg
   meta: ok
   verdict: sourceavailable

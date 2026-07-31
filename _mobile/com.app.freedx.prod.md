@@ -20,7 +20,7 @@ android:
   updated: 2026-05-06
   version: 1.7.0
   icon: com.app.freedx.prod.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Freedx
 iphone:
@@ -32,7 +32,7 @@ iphone:
   version: 1.6.0
   reviews: 2
   icon: com.freedx.app.prod.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Freedx
 

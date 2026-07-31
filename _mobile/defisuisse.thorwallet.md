@@ -23,8 +23,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-23
-  updated: 2026-06-30
-  version: 3.1.0
+  updated: 2026-07-29
+  version: 3.9.0
   reviews: 40
   icon: defisuisse.thorwallet.png
   meta: ok

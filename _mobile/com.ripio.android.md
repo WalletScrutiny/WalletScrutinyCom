@@ -23,7 +23,7 @@ android:
   version: 7.0.1
   reviews: 178
   icon: com.ripio.android.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Ripio Holding
 

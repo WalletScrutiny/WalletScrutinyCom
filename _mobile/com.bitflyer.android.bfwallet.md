@@ -19,7 +19,7 @@ android:
   released: 2019-10-19
   updated: 2026-07-28
   version: 10.0.3
-  reviews: 1730
+  reviews: 1731
   icon: com.bitflyer.android.bfwallet.png
   meta: ok
   verdict: custodial

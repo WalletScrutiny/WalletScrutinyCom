@@ -20,8 +20,8 @@ android:
   appId: com.conio.wallet
   users: 100000
   appCountry: us
-  updated: 2026-07-09
-  version: 10.6.0
+  updated: 2026-07-29
+  version: 11.0.0
   icon: com.conio.wallet.png
   meta: ok
   verdict: custodial
