@@ -36,6 +36,10 @@ features:
 
 ---
 
+<div class="infoBox"><div>
+2026-08-02: The Mk 1 is not named in <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's seed-entropy advisory</a>, which covers the Mk 2, Mk 3, Mk 4, Mk 5 and Q. The affected firmware range begins at 4.0.1; this device is recorded here at v3.0.6. See the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
+</div> </div>
+
 {% include featureEvidence.html feature="hd" source="[Website](https://coldcard.com/)" quote="the 24-word seed phrase for your BIP39 wallet" %}
 {% include featureEvidence.html feature="multiSig" source="[Website](https://coldcard.com/)" quote="setup a multisig wallet between multiple cosigners, entirely on-device, and air gapped" %}
 {% include featureEvidence.html feature="airGapped" source="[Website](https://coldcard.com/)" quote="COLDCARD never needs to touch a computer. It can work entirely from a USB power pack or AC power adapter." %}

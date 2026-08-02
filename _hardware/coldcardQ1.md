@@ -44,6 +44,10 @@ features:
 
 ---
 
+<div class="alertBox"><div>
+⚠️ Warning (2026-08-02): Seeds generated on this device with firmware before 1.5.0Q (Edge 6.6.0QX) have as little as ~72 bits of entropy instead of the intended 128 and may be predictable. Coinkite advises updating the firmware and generating a new seed. Seeds created with 50 or more independent dice rolls are not affected. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
+</div> </div>
+
 ## Product Description 
 
 ## [View the Official Documentation](https://coldcard.com/docs/coldcard-q/)
