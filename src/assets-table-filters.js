@@ -12,6 +12,22 @@ const findMultiFileItemInGroup = group =>
   findBundleAssetInGroup(group) ||
   group.items.find(item => getAssetFileEntries(item).length > 1);
 
+// A row's lookup hashes come from its multi-file/bundle asset, never from whichever item happens
+// to be newest. mergeGroupItems sorts items newest-first, so a single-file verification landing at
+// items[0] would otherwise narrow the row to one hash and hide verifications - including warnings -
+// attached to the bundle's other files.
+export function getRowLookupHashes(group, fallbackHash) {
+  const multiFileItem = findMultiFileItemInGroup(group);
+  const bundleHashes = multiFileItem
+    ? getAssetFileEntries(multiFileItem).map(entry => entry.hash).filter(Boolean)
+    : [];
+  if (bundleHashes.length > 1) {
+    return bundleHashes;
+  }
+  const firstItemHashes = getAssetFileEntries(group.items[0]).map(entry => entry.hash);
+  return [fallbackHash || firstItemHashes[0]].filter(Boolean);
+}
+
 function getRowMergeKey(group) {
   const multiFileItem = findMultiFileItemInGroup(group);
   return multiFileItem ? getAssetBundleDedupKey(multiFileItem) : null;

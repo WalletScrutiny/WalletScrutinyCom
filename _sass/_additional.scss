@@ -162,6 +162,19 @@
   margin-left: 4px;
 }
 
+.version-warning-badge {
+  display: inline-block;
+  background: #bd0000;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 0.7em;
+  margin-top: 3px;
+  white-space: nowrap;
+  cursor: help;
+}
+
 .article-link {
   text-decoration: none;
   margin-top: 8px;
