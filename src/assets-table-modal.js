@@ -2,7 +2,7 @@ import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKin
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { getMarked } from './marked-loader.js';
+import { getMarked, prefetchMarked } from './marked-loader.js';
 import { renderCommentsSection } from './assets-table-comments.js';
 import {
   getAssetTableResponse,
@@ -16,7 +16,60 @@ import {
 import {
   populateVerificationAttachmentsList,
 } from "./assets-table-attachments.js";
+import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
 import './zapModal.js';
+
+export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
+  return htmlOf(el('button', {
+    type: 'button',
+    className: 'btn btn-info js-open-endorsement',
+    title: 'Endorse this verification',
+    dataset: {
+      verificationId: verificationId ?? '',
+      sha256: sha256Hash ?? '',
+    },
+  }, '👍 👎 Endorse this verification'));
+}
+
+export function buildOutputFileDownloadHtml(fileName, fileHash) {
+  return htmlOf(el('li', {},
+    fileName ?? '',
+    ' ',
+    el('span', {
+      className: 'js-download-blossom-file',
+      style: { cursor: 'pointer', marginLeft: '10px' },
+      title: `Download ${fileName ?? ''}`,
+      dataset: {
+        fileHash: fileHash ?? '',
+        fileName: fileName ?? '',
+      },
+    }, '💾'),
+  ));
+}
+
+export function buildDiffoscopeOpenButtonHtml(fileName, fileUrl) {
+  return htmlOf(el('button', {
+    type: 'button',
+    className: 'btn btn-small btn-info js-open-diffoscope',
+    style: { width: 'auto' },
+    dataset: { diffoscopeUrl: fileUrl ?? '' },
+  }, fileName ?? ''));
+}
+
+export function buildIssueTrackerLinkHtml(issueTrackerUrl) {
+  const safeUrl = sanitizeHttpUrl(issueTrackerUrl);
+  if (!safeUrl) {
+    return htmlOf(el('p', {},
+      el('strong', {}, 'Issue tracker url:'),
+      ' (invalid URL omitted)',
+    ));
+  }
+  return htmlOf(el('p', {},
+    el('strong', {}, 'Issue tracker url:'),
+    ' ',
+    el('a', { href: safeUrl, target: '_blank', rel: 'noopener noreferrer' }, safeUrl),
+  ));
+}
 
 let pendingVerificationReport = null;
 let verificationModalClickHandler = null;
@@ -441,22 +494,33 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   let title = '';
   let icon = '';
-  let basedOnParams = '';
   if (isMine) {
     title = isDraft ? 'Edit your draft' : 'Edit your verification';
     icon = '✏️';
   } else {
     title = isDraft ? 'Copy this draft' : 'Copy this verification';
     icon = '📋';
-    basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
   }
 
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
   toolbarRowHtml += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
-  toolbarRowHtml += `<button class="btn btn-info" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  const editParams = new URLSearchParams({ action: 'edit' });
+  if (isMyDraft) {
+    editParams.set('draftVerificationEventId', verification.id);
+  } else {
+    editParams.set('verificationEventId', verification.id);
+  }
+  if (!isMine && verification.id && verification.pubkey) {
+    editParams.set('basedOn', `${verification.id}:${verification.pubkey}`);
+  }
+  toolbarRowHtml += htmlOf(el('a', {
+    className: 'btn btn-info',
+    href: `/new_verification/?${editParams.toString()}`,
+    title,
+  }, `${icon} ${title}`));
   if (!isDraft && !isMine) {
-    toolbarRowHtml += `<button class="btn btn-info" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+    toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
   }
   toolbarRowHtml += `<div id="verificationActionButtons"></div>`;
   toolbarRowHtml += `<div id="verificationZapReportGroup" style="display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
@@ -514,7 +578,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const wallet = window.wallets.find(w => w.appId === identifier);
   const walletTitle = wallet ? wallet.title : identifier;
 
-  const verificationHashes = verification.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
+  const verificationHashes = verification.tags
+    .filter(tag => tag[0] === 'x')
+    .map(tag => tag[1])
+    .filter(id => isSha256Hex(id));
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
   const isVerifierOrAssetsPage = window.location.pathname.includes('/verifier/')
@@ -531,8 +598,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
       diffoscopeFiles.push(outputFile);
     }
-    outputFilesHTML += `<li>${outputFile[1]}
-      <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2]);
   }
 
   let attachmentsSectionHTML = '';
@@ -554,7 +620,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
                          <p>Diffoscope files attached (click to see report):</p>`;
     for (const file of diffoscopeFiles) {
-      diffoscopeHTML += `<button class="btn btn-small btn-info" style="width: auto;" onclick="openDiffoscopeModal('${getBlossomFileURL(file[2])}')">${file[1]}</button>`;
+      diffoscopeHTML += buildDiffoscopeOpenButtonHtml(file[1], getBlossomFileURL(file[2]));
     }
     diffoscopeHTML += '</div>';
   }
@@ -584,7 +650,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     <p style="display: none;" id="zaps"></p>
     <p style="display: none;" id="endorsements"></p>`;
   if (issueTrackerUrl) {
-    contentHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
+    contentHTML += buildIssueTrackerLinkHtml(issueTrackerUrl);
   }
   contentHTML += '<div id="comments-container"></div>';
   contentHTML += attachmentsSectionHTML;
@@ -839,4 +905,101 @@ function insertDiffoscopeAssets() {
 
 export function registerShowVerificationModal() {
   window.showVerificationModal = showVerificationModal;
+
+  if (window.__wsVerificationUiDelegationRegistered) {
+    return;
+  }
+  window.__wsVerificationUiDelegationRegistered = true;
+
+  document.addEventListener('click', (event) => {
+    const card = event.target.closest('.verification-card[data-verification-id]');
+    if (card) {
+      event.preventDefault();
+      window.showVerificationModal(
+        card.dataset.sha256Hash || '',
+        card.dataset.verificationId || '',
+        card.dataset.appId || '',
+        card.dataset.platform || '',
+      );
+      return;
+    }
+
+    const endorsementBtn = event.target.closest('.js-open-endorsement');
+    if (endorsementBtn) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (typeof window.openEndorsementModal === 'function') {
+        window.openEndorsementModal(
+          endorsementBtn.dataset.verificationId || '',
+          endorsementBtn.dataset.sha256 || '',
+        );
+      }
+      return;
+    }
+
+    const blossomFile = event.target.closest('.js-download-blossom-file');
+    if (blossomFile) {
+      event.preventDefault();
+      if (typeof window.downloadBlossomFile === 'function') {
+        window.downloadBlossomFile(
+          blossomFile.dataset.fileHash || '',
+          blossomFile.dataset.fileName || '',
+        );
+      }
+      return;
+    }
+
+    const diffoscopeBtn = event.target.closest('.js-open-diffoscope');
+    if (diffoscopeBtn) {
+      event.preventDefault();
+      if (typeof window.openDiffoscopeModal === 'function') {
+        window.openDiffoscopeModal(diffoscopeBtn.dataset.diffoscopeUrl || '');
+      }
+      return;
+    }
+
+    const copyHashBtn = event.target.closest('.js-copy-hash');
+    if (copyHashBtn) {
+      event.preventDefault();
+      const text = copyHashBtn.dataset.hash || '';
+      if (text && navigator.clipboard?.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          if (typeof window.showToast === 'function') {
+            window.showToast(text.includes('\n') ? 'Hashes copied to clipboard' : 'Hash copied to clipboard');
+          }
+        });
+      }
+      return;
+    }
+
+    if (event.target.closest('.js-show-more-rows')) {
+      event.preventDefault();
+      if (typeof window.showMoreRows === 'function') {
+        window.showMoreRows();
+      }
+    }
+  });
+
+  document.addEventListener('pointerover', (event) => {
+    if (event.target.closest?.('.verification-card')) {
+      prefetchMarked();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') {
+      return;
+    }
+    const card = event.target.closest?.('.verification-card[data-verification-id]');
+    if (!card || event.target !== card) {
+      return;
+    }
+    event.preventDefault();
+    window.showVerificationModal(
+      card.dataset.sha256Hash || '',
+      card.dataset.verificationId || '',
+      card.dataset.appId || '',
+      card.dataset.platform || '',
+    );
+  });
 }
