@@ -3,6 +3,7 @@ import { verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { getAttachmentInfo } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
+import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
 
 const attachmentDataStore = {};
 
@@ -22,6 +23,57 @@ export function resetAttachmentState() {
 
 export function waitForAttachmentsReady() {
   return attachmentsReadyPromise;
+}
+
+export function createAttachmentRowActions({ attachmentId, name, pubkey, date, sizeInKb }) {
+  const safePubkey = isSha256Hex(pubkey) ? pubkey : '';
+  return el('span', {},
+    name ?? '',
+    ' ',
+    el('small', {}, `(${sizeInKb} kB)`),
+    ' ',
+    el('span', {
+      className: 'js-attachment-download',
+      style: { cursor: 'pointer', marginLeft: '6px' },
+      title: `Download ${name ?? ''}`,
+      dataset: { attachmentId: attachmentId ?? '' },
+    }, '💾'),
+    ' ',
+    el('span', {
+      className: 'js-attachment-preview',
+      style: { cursor: 'pointer', marginLeft: '6px' },
+      title: `Preview ${name ?? ''}`,
+      dataset: { attachmentId: attachmentId ?? '' },
+    }, '👁️'),
+    el('br'),
+    el('small', {}, `Uploaded on ${date ?? ''} by`),
+    ' ',
+    el('span', {
+      style: { marginLeft: '4px' },
+      className: safePubkey ? `profile-${safePubkey}` : 'profile-unknown',
+    }, safePubkey),
+  );
+}
+
+export function buildAttachmentRowActionsHtml(options) {
+  return htmlOf(createAttachmentRowActions(options));
+}
+
+export function createAttachmentVerificationMeta({ walletTitle, identifier, platform, version }) {
+  return el('span', {},
+    walletTitle ?? identifier ?? '',
+    ' ',
+    el('br'),
+    el('small', {}, `(${platform ?? ''})`),
+    ' ',
+    el('br'),
+    version ?? '',
+    el('br'),
+  );
+}
+
+export function buildAttachmentVerificationMetaHtml(options) {
+  return htmlOf(createAttachmentVerificationMeta(options));
 }
 
 function decodeAttachmentContent(rawContent) {
@@ -112,18 +164,34 @@ export async function prefetchVerificationAttachments(verification) {
   });
 }
 
-function buildAttachmentListItemsHTML(verificationAttachments) {
-  let attachmentsHTML = '';
+function buildAttachmentListItems(verificationAttachments) {
+  const items = [];
   for (const attachment of verificationAttachments) {
     const attachmentId = attachment[1];
     const attachmentInfo = getAttachmentEntry(attachmentId);
     if (attachmentInfo) {
-      attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>
-        <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
-        <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+      items.push(el('li', {},
+        attachmentInfo.filename ?? '',
+        ' ',
+        el('small', {}, `(${attachmentInfo.sizeInKb} kB)`),
+        ' ',
+        el('span', {
+          className: 'js-attachment-download',
+          style: { cursor: 'pointer', marginLeft: '10px' },
+          title: `Download ${attachmentInfo.filename ?? ''}`,
+          dataset: { attachmentId: attachmentId ?? '' },
+        }, '💾'),
+        ' ',
+        el('span', {
+          className: 'js-attachment-preview',
+          style: { cursor: 'pointer', marginLeft: '10px' },
+          title: `Preview ${attachmentInfo.filename ?? ''}`,
+          dataset: { attachmentId: attachmentId ?? '' },
+        }, '👁️'),
+      ));
     }
   }
-  return attachmentsHTML;
+  return items;
 }
 
 export async function populateVerificationAttachmentsList(listEl, verificationAttachments) {
@@ -142,8 +210,8 @@ export async function populateVerificationAttachmentsList(listEl, verificationAt
     });
   }
 
-  const attachmentsHTML = buildAttachmentListItemsHTML(verificationAttachments);
-  listEl.innerHTML = attachmentsHTML || '<li>Scripts not available</li>';
+  const items = buildAttachmentListItems(verificationAttachments);
+  listEl.replaceChildren(...(items.length ? items : [el('li', {}, 'Scripts not available')]));
 }
 
 export function renderAttachmentsTable({
@@ -199,14 +267,16 @@ export function renderAttachmentsTable({
 
     const date = formatDate(attachment.created_at);
 
-    let rowHTML = `
-      <td>${name} <small>(${sizeInKb} kB)</small>
-        <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
-        <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
-        <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
-      </td>
-      <td>`;
+    const fileTd = el('td');
+    fileTd.appendChild(createAttachmentRowActions({
+      attachmentId: attachment.id,
+      name,
+      pubkey: attachment.pubkey,
+      date,
+      sizeInKb,
+    }));
 
+    const metaTd = el('td');
     if (verifications.length > 0) {
       for (const verification of verifications) {
         const version = getFirstTagValue(verification, 'version');
@@ -214,14 +284,19 @@ export function renderAttachmentsTable({
         const platform = getFirstTagValue(verification, 'platform');
         const wallet = walletByAppId.get(identifier);
         const walletTitle = wallet ? wallet.title : identifier;
-        rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+        metaTd.appendChild(createAttachmentVerificationMeta({
+          walletTitle,
+          identifier,
+          platform,
+          version,
+        }));
       }
     } else {
-      rowHTML += '-';
+      metaTd.textContent = '-';
     }
 
-    rowHTML += `</td>`;
-    row.innerHTML = rowHTML;
+    row.appendChild(fileTd);
+    row.appendChild(metaTd);
     attachmentsTable.appendChild(row);
   });
 
@@ -346,4 +421,21 @@ export function registerAttachmentHandlers() {
       showToast('Error creating preview.', 'error');
     }
   };
+
+  if (!window.__wsAttachmentUiDelegationRegistered) {
+    window.__wsAttachmentUiDelegationRegistered = true;
+    document.addEventListener('click', (event) => {
+      const downloadEl = event.target.closest('.js-attachment-download');
+      if (downloadEl) {
+        event.preventDefault();
+        window.handleAttachmentDownload(downloadEl.dataset.attachmentId || '');
+        return;
+      }
+      const previewEl = event.target.closest('.js-attachment-preview');
+      if (previewEl) {
+        event.preventDefault();
+        window.handleAttachmentPreview(previewEl.dataset.attachmentId || '');
+      }
+    });
+  }
 }
