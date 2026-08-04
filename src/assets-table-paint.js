@@ -231,18 +231,33 @@ export function selectCurrentRowVerifications(attestations) {
 }
 
 // Drafts never flag a row - an unpublished draft is not a public statement.
-export function hasWarningVerification(currentVerifications) {
+//
+// Two independent sources flag a row: a verifier publishing a verification whose own status is
+// 'warning', or a site admin attaching a warning report to someone else's verification.
+// warnedVerificationIds carries the second, already narrowed to verifications that survived the
+// hide pass.
+export function hasWarningVerification(currentVerifications, warnedVerificationIds = null) {
   return currentVerifications.some(attestation =>
     attestation.kind !== verificationDraftKind &&
-    getFirstTagValue(attestation, 'status') === 'warning');
+    (getFirstTagValue(attestation, 'status') === 'warning' ||
+      Boolean(attestation.id && warnedVerificationIds?.has(attestation.id))));
 }
 
-function renderVersionWarningBadge(currentVerifications) {
-  if (!hasWarningVerification(currentVerifications)) {
+export function renderVersionWarningBadge(currentVerifications, warnedVerificationIds = null) {
+  if (!hasWarningVerification(currentVerifications, warnedVerificationIds)) {
     return '';
   }
-  return '<br><span class="version-warning-badge" title="A verifier flagged a serious'
-    + ' problem with this version. See the Warning verification on this row.">⚠️ Warning</span>';
+  // Only point at a Warning verification when one actually exists on this row. A badge raised by an
+  // admin warning report leaves the target verification's status untouched, so no such card is
+  // rendered and directing the reader to it would send them looking for nothing.
+  const hasWarningCard = currentVerifications.some(attestation =>
+    attestation.kind !== verificationDraftKind &&
+    getFirstTagValue(attestation, 'status') === 'warning');
+  const title = hasWarningCard
+    ? 'A verifier flagged a serious problem with this version.'
+      + ' See the Warning verification on this row.'
+    : 'A verifier or WalletScrutiny admin flagged a serious problem with this version.';
+  return `<br><span class="version-warning-badge" title="${title}">⚠️ Warning</span>`;
 }
 
 function renderVerificationsCell({ attestations, sha256HashKey, identifier, platform, version, hideButtons }) {
@@ -290,6 +305,9 @@ export function paintMainAssetsTable({
   showSeen = false,
 }) {
   setAssetTableResponse(assetInfo);
+
+  // Admin warning reports, already narrowed to verifications that survived the hide filter.
+  const warnedVerificationIds = assetInfo?.warnedVerifications ?? null;
 
   let hasVerificationsLocal = false;
   let hasAssetsLocal = false;
@@ -458,7 +476,7 @@ export function paintMainAssetsTable({
       const lookupHashes = getRowLookupHashes(item, verificationLookupHash);
       const attestations = selectCurrentRowVerifications(collectAttestationsForHashes(lookupHashes));
       const hasVerifications = attestations.length > 0;
-      const versionWarningBadge = renderVersionWarningBadge(attestations);
+      const versionWarningBadge = renderVersionWarningBadge(attestations, warnedVerificationIds);
 
       let verificationsList;
       if (hasVerifications) {

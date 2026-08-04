@@ -446,25 +446,40 @@ const createVerification = async function ({
   return published ?? ndkEvent;
 }
 
-const REPORT_REASONS = new Set(['spam', 'incorrect']);
+// Reasons the site's own report form may publish.
+const REPORT_REASONS = new Set(['spam', 'incorrect', 'warning']);
+// Reasons that REMOVE a verification from the site.
+const HIDING_REPORT_REASONS = new Set(['spam', 'incorrect']);
+// Reason that FLAGS a verification while leaving it visible.
+const WARNING_REPORT_REASON = 'warning';
 const EVENT_ID_HEX_RE = /^[0-9a-f]{64}$/i;
 
 /**
- * Verification ids to hide from admin verification-report events.
+ * Sorts admin verification-report events into the verifications to hide and the ones to flag.
  * Non-admin authors, unknown reasons, and e tags outside requestedIds are ignored.
+ *
+ * The two sets are disjoint, with hiding winning: a hidden verification is not on the page, so a
+ * warning on it would have nothing to point at.
  */
-function reportedIdsFromReports(reportEvents, requestedIds) {
+function classifiedIdsFromReports(reportEvents, requestedIds) {
   const requested = new Set(requestedIds);
-  const reported = new Set();
+  const hidden = new Set();
+  const warned = new Set();
   if (!requested.size) {
-    return reported;
+    return { hidden, warned };
   }
 
   for (const ev of reportEvents) {
     if (!isWalletScrutinySiteAdmin(ev.pubkey)) {
       continue;
     }
-    if (!REPORT_REASONS.has(getFirstTagValue(ev, 'r', null))) {
+    const reason = getFirstTagValue(ev, 'r', null);
+    let target = null;
+    if (HIDING_REPORT_REASONS.has(reason)) {
+      target = hidden;
+    } else if (reason === WARNING_REPORT_REASON) {
+      target = warned;
+    } else {
       continue;
     }
     for (const t of ev.tags || []) {
@@ -473,11 +488,22 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
       }
       const eventId = t[1];
       if (eventId && EVENT_ID_HEX_RE.test(eventId) && requested.has(eventId)) {
-        reported.add(eventId);
+        target.add(eventId);
       }
     }
   }
-  return reported;
+  for (const eventId of hidden) {
+    warned.delete(eventId);
+  }
+  return { hidden, warned };
+}
+
+/**
+ * Verification ids to hide from admin verification-report events.
+ * Hiding-only view of classifiedIdsFromReports; semantics unchanged.
+ */
+function reportedIdsFromReports(reportEvents, requestedIds) {
+  return classifiedIdsFromReports(reportEvents, requestedIds).hidden;
 }
 
 /**
@@ -485,9 +511,10 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
  * Relay author filter is an optimization; pubkey and reason are re-checked client-side.
  */
 async function fetchReportsForVerificationIds(verificationEventIds) {
-  const reported = new Set();
+  const hidden = new Set();
+  const warned = new Set();
   if (!verificationEventIds.length) {
-    return reported;
+    return { hidden, warned };
   }
   await ensureNdkConnected();
   const CHUNK = 30;
@@ -500,14 +527,23 @@ async function fetchReportsForVerificationIds(verificationEventIds) {
         authors: siteAdminPubkeys,
         since: verificationEventsSinceTS
       });
-      for (const eventId of reportedIdsFromReports(batch, verificationEventIds)) {
-        reported.add(eventId);
+      const classified = classifiedIdsFromReports(batch, verificationEventIds);
+      for (const eventId of classified.hidden) {
+        hidden.add(eventId);
+      }
+      for (const eventId of classified.warned) {
+        warned.add(eventId);
       }
     } catch (e) {
       console.warn('fetchReportsForVerificationIds: chunk failed', e);
     }
   }
-  return reported;
+  // Hiding wins across chunks too: a verification warned in one chunk and hidden in another must
+  // not keep its badge.
+  for (const eventId of hidden) {
+    warned.delete(eventId);
+  }
+  return { hidden, warned };
 }
 
 function shouldLoadAdminVerificationReports({ appId, sha256, pubkey }) {
@@ -1285,7 +1321,12 @@ function getVerificationHashList(event) {
 }
 
 function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
-  const reported = reportedVerificationIds?.size ? reportedVerificationIds : null;
+  const hiddenIds = reportedVerificationIds?.hidden;
+  const warnedIds = reportedVerificationIds?.warned;
+  const reported = hiddenIds?.size ? hiddenIds : null;
+  // Only warnings on verifications that survived the hide filter are passed on, so a badge can
+  // never point at something that is not rendered.
+  const warnedVerifications = new Set();
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
@@ -1309,6 +1350,9 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
 
     if (kind === verificationKind && (!reported || !reported.has(event.id))) {
       verificationCount++;
+      if (warnedIds?.has(event.id)) {
+        warnedVerifications.add(event.id);
+      }
       for (const sha256FromEventTag of getVerificationHashList(event)) {
         const dedupKey = `${sha256FromEventTag}:${event.pubkey}`;
         const existing = verificationDeduplicationMap.get(dedupKey);
@@ -1346,6 +1390,7 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
     assets: assetsMap,
     verifications: verificationsMap,
     draftVerifications: draftVerificationsMap,
+    warnedVerifications,
     oldestEventTimestamp: oldestEventTimestamp
   };
 }
@@ -1367,7 +1412,7 @@ const getAllAssetInformation = async function({ months,
 
   const resolveReportedVerificationIds = async (eventSet) => {
     if (!shouldLoadAdminVerificationReports({ appId, sha256, pubkey })) {
-      return new Set();
+      return { hidden: new Set(), warned: new Set() };
     }
     const verificationEventIds = [...eventSet].filter(
       e => e.kind === verificationKind || e.kind === verificationDraftKind
@@ -1442,7 +1487,10 @@ const getAllAssetInformation = async function({ months,
 
       if (loadedFromIDB && onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, new Set());
+        const quickResult = processEventsToResult(
+          new Set(events),
+          oldestEventTimestamp,
+          { hidden: new Set(), warned: new Set() });
         onCachedDataLoaded(quickResult);
       }
     }
@@ -2403,4 +2451,5 @@ export {
   subscribeToZapReceipts,
   createAuthorizationEvent,
   reportedIdsFromReports,
+  classifiedIdsFromReports,
 };

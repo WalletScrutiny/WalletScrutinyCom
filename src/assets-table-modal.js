@@ -169,11 +169,19 @@ function openVerificationReportConfirmModal(verification, reason) {
     inner.style.color = window.theme === 'dark' ? '#fff' : '#000';
   }
   const text = document.getElementById('verificationReportConfirmText');
+  // A warning keeps the verification on the site and flags it; the other reasons remove it. The
+  // outcomes are opposite, so say which one is about to happen before it is published.
+  const effect = reason === 'warning'
+    ? '<p><strong>Effect:</strong> this verification stays visible and its version row is marked'
+      + ' with a warning badge on wallet, asset and verifier views.</p>'
+    : '<p><strong>Effect:</strong> this verification is removed from the site.</p>';
   text.innerHTML = [
     `<p>The following <strong>Nostr kind ${verificationReportKind}</strong> report will be sent to the configured relays:</p>`,
     `<p><strong>Verification event id (e):</strong> ${verification.id}</p>`,
     `<p><strong>Reported pubkey (p):</strong> ${verification.pubkey}</p>`,
-    `<p><strong>Reason (r):</strong> ${reason}</p>`
+    `<p><strong>Reason (r):</strong> ${reason}</p>`,
+    effect,
+    '<p>Reports cannot be retracted.</p>'
   ].join('');
   document.getElementById('verificationReportConfirmModal').style.display = 'block';
 }
@@ -464,10 +472,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
     </button>
     <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
-      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect</button>
-      <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
+      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report or warn</button>
+      <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 190px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
         <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
         <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
+        <button type="button" class="admin-report-reason" data-reason="warning" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Add a warning</button>
       </div>
     </span>
   </div>`;
