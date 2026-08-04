@@ -39,6 +39,10 @@ describe('getProfileImageUrl', () => {
     assert.equal(getProfileImageUrl(null), PROFILE_PLACEHOLDER_IMAGE);
     assert.equal(getProfileImageUrl({}), PROFILE_PLACEHOLDER_IMAGE);
   });
+
+  test('returns placeholder for non-http(s) image urls', () => {
+    assert.equal(getProfileImageUrl({ image: 'javascript:alert(1)' }), PROFILE_PLACEHOLDER_IMAGE);
+  });
 });
 
 describe('buildProfileCircleHtml', () => {

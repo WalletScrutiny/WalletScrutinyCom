@@ -2,6 +2,7 @@ import { codeSnippetKind } from "./nostr-constants.mjs";
 import { getFirstTagValue, getStatusText } from "./verifications_common.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { updateTableVisibility } from "./assets-table-filters.js";
+import { el, sanitizeHttpUrl } from "./html-utils.mjs";
 
 export { getStatusText };
 
@@ -205,17 +206,34 @@ export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlE
   if (filteredIssues.length > 0) {
     const issueTrackerContainer = document.createElement('div');
     issueTrackerContainer.className = 'issue-tracker-container';
-    issueTrackerContainer.innerHTML = `
-      <p>Issue Tracker Info</p>
-      <small>Issues opened by verifiers while reproducing different versions. Check before starting a new verification.</small>
-      <ul id="issue-tracker-list">
-        ${filteredIssues.map((info, index) => `
-          <li id="issue-item-${index}">
-            <span class="issue-tracker-date-full">${formatDate(info.createdAt)}</span><span class="issue-tracker-date-short">${formatDate(info.createdAt, true)}</span> - ${info.version} -
-            <a href="${info.issueTrackerUrl}" target="_blank"><span class="issue-tracker-url-full">${info.issueTrackerUrl}</span><span class="issue-tracker-url-short">${getIssueTrackerLinkLabel(info.issueTrackerUrl)}</span></a>
-          </li>
-        `).join('')}
-      </ul>`;
+
+    const list = el('ul', { id: 'issue-tracker-list' });
+    filteredIssues.forEach((info, index) => {
+      const safeUrl = sanitizeHttpUrl(info.issueTrackerUrl);
+      const versionText = info.version ?? '';
+      const liChildren = [
+        el('span', { className: 'issue-tracker-date-full' }, formatDate(info.createdAt)),
+        el('span', { className: 'issue-tracker-date-short' }, formatDate(info.createdAt, true)),
+        ` - ${versionText} - `,
+      ];
+      if (safeUrl) {
+        liChildren.push(
+          el('a', { href: safeUrl, target: '_blank', rel: 'noopener noreferrer' },
+            el('span', { className: 'issue-tracker-url-full' }, safeUrl),
+            el('span', { className: 'issue-tracker-url-short' }, getIssueTrackerLinkLabel(safeUrl)),
+          ),
+        );
+      } else {
+        liChildren.push('(invalid URL omitted)');
+      }
+      list.appendChild(el('li', { id: `issue-item-${index}` }, ...liChildren));
+    });
+
+    issueTrackerContainer.append(
+      el('p', {}, 'Issue Tracker Info'),
+      el('small', {}, 'Issues opened by verifiers while reproducing different versions. Check before starting a new verification.'),
+      list,
+    );
 
     const targetElement = document.getElementById(htmlElementId);
     

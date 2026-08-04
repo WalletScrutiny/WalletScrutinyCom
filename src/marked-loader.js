@@ -1,3 +1,5 @@
+import { sanitizeRichHtml } from './html-utils.mjs';
+
 let markedPromise;
 
 export function prefetchMarked() {
@@ -9,6 +11,16 @@ export function getMarked() {
   return markedPromise;
 }
 
+/**
+ * Parse markdown and sanitize the resulting HTML for safe assignment to innerHTML.
+ */
+export async function parseMarkdownToSafeHtml(markdown) {
+  const marked = await getMarked();
+  const rawHtml = marked.parse(String(markdown ?? ''));
+  return sanitizeRichHtml(rawHtml);
+}
+
 if (typeof window !== 'undefined') {
   window.prefetchMarked = prefetchMarked;
+  window.parseMarkdownToSafeHtml = parseMarkdownToSafeHtml;
 }

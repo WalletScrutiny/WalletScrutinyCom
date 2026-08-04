@@ -61,8 +61,10 @@ if (document.querySelector(".app_logo_big")) {
 
 window.addEventListener("hashchange", () => {
   try {
-    if (document.querySelector(`${location.hash}`)){
-      document.querySelector(`${location.hash}`).setAttribute("data-open", "true")
+    const id = decodeURIComponent(location.hash.slice(1));
+    const target = id ? document.getElementById(id) : null;
+    if (target) {
+      target.setAttribute("data-open", "true");
     }
   } catch (error) {}
 });

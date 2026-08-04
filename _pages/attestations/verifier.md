@@ -107,7 +107,9 @@ permalink: /verifier/
         zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
       }
 
-      document.getElementById('attestator').innerHTML = renderBigProfileCardHtml(pubkey, profile);
+      const attestatorEl = document.getElementById('attestator');
+      attestatorEl.innerHTML = renderBigProfileCardHtml(pubkey, profile);
+      wireBigProfileCardInteractions(attestatorEl);
     } catch (error) {
       console.error('Error loading profile:', error);
       document.getElementById('attestator').innerHTML = 'Error loading profile';

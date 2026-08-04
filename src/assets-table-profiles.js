@@ -125,6 +125,7 @@ export function renderProfilePictures(profilePubkeys) {
 
     profileElementsForThisPubkey.forEach(profileElement => {
       profileElement.innerHTML = buildProfileCircleHtml(pubkey, null, placeholderUrl, placeholderUrl);
+      wireProfileCircleInteractions(profileElement);
       const container = profileElement.querySelector('.profile-circle-container');
       if (container) {
         attachProfileHoverHandlers(container);
@@ -137,6 +138,7 @@ export function renderProfilePictures(profilePubkeys) {
 
       profileElementsForThisPubkey.forEach(profileElement => {
         profileElement.innerHTML = buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl);
+        wireProfileCircleInteractions(profileElement);
         const container = profileElement.querySelector('.profile-circle-container');
         if (container) {
           attachProfileHoverHandlers(container);

@@ -2,7 +2,7 @@ import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKin
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { getMarked, prefetchMarked } from './marked-loader.js';
+import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.js';
 import { renderCommentsSection } from './assets-table-comments.js';
 import {
   getAssetTableResponse,
@@ -282,17 +282,49 @@ function initVerificationAdminReportControls(verification) {
 function buildVerifierProfileCardHtml(profile, pubkey) {
   const imageUrl = getProfileImageUrl(profile);
   const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
+  const safePubkey = isSha256Hex(pubkey) ? pubkey : '';
   if (profile) {
-    return `
-    <div class="profile-card">
-      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" onerror="profileImageFallback(this)"/>
-      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
-        <div>${getProfileDisplayName(profile, pubkey)}</div>
-        ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-      </div>
-    </div>`;
+    const card = el('div', { className: 'profile-card' },
+      el('img', {
+        src: imageUrl,
+        className: 'profile-image',
+        alt: '',
+        dataset: {
+          placeholder: placeholderUrl,
+          ...(safePubkey ? { verifierPubkey: safePubkey } : {}),
+        },
+      }),
+      el('div', {
+        className: 'profile-info',
+        ...(safePubkey ? { dataset: { verifierPubkey: safePubkey } } : {}),
+      },
+        el('div', {}, getProfileDisplayName(profile, pubkey)),
+        profile.nip05 ? el('div', { className: 'profile-nip05' }, profile.nip05) : null,
+      ),
+    );
+    return htmlOf(card);
   }
   return getProfileDisplayName(null, pubkey);
+}
+
+function wireVerifierProfileCard(root) {
+  if (!root) {
+    return;
+  }
+  root.querySelectorAll('img.profile-image').forEach((img) => {
+    img.addEventListener('error', () => profileImageFallback(img));
+  });
+  root.querySelectorAll('[data-verifier-pubkey]').forEach((node) => {
+    const pubkey = node.dataset.verifierPubkey;
+    if (!isSha256Hex(pubkey)) {
+      return;
+    }
+    node.style.cursor = 'pointer';
+    node.addEventListener('click', (e) => {
+      e.stopPropagation();
+      window.location.href = `/verifier/?pubkey=${pubkey}`;
+    });
+  });
 }
 
 function setupZapButton(zapBtn, profile, verification) {
@@ -323,7 +355,7 @@ function setupZapButton(zapBtn, profile, verification) {
 
 export async function showVerificationModal(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
-  const markedLoadPromise = getMarked();
+  prefetchMarked();
 
   const response = getAssetTableResponse();
   if (!response) {
@@ -612,8 +644,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   const itemContent = JSON.parse(verification.content).content;
-  const marked = await markedLoadPromise;
-  const parsedMarkdown = marked.parse(itemContent);
+  const parsedMarkdown = await parseMarkdownToSafeHtml(itemContent);
 
   let diffoscopeHTML = '';
   if (diffoscopeFiles.length > 0) {
@@ -761,18 +792,19 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     const attemptByEl = document.getElementById('attempt-by');
     if (attemptByEl) {
       attemptByEl.innerHTML = buildVerifierProfileCardHtml(profile, verification.pubkey);
+      wireVerifierProfileCard(attemptByEl);
     }
     if (basedOn) {
       const basedOnEl = document.getElementById('based-on-attempt-by');
       if (basedOnEl) {
         basedOnEl.innerHTML = buildVerifierProfileCardHtml(basedOnProfile, basedOn.split(':')[1]);
+        wireVerifierProfileCard(basedOnEl);
       }
     }
     setupZapButton(document.getElementById('zapButton'), profile, verification);
   })();
 
   /* -------------------- Zap -------------------- */
-  let zapsHTML = '';
   const zapReceipts = [];
 
   subscribeToZapReceipts(verification, null, async (zapReceiptEvent) => {
@@ -794,6 +826,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         created_at: zapReceiptEvent.created_at
       });
 
+      const list = el('div');
       let zapTotalAmount = 0;
 
       zapReceipts.sort((a, b) => b.zapAmount - a.zapAmount).forEach((zap) => {
@@ -801,26 +834,53 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         const npub = getNpubFromPubkey(zap.zapperPubkey);
         const zapperImageUrl = getProfileImageUrl(zap.zapperProfile);
         const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
-        zapsHTML += `
-          <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
-            <img src="${zapperImageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}"
-                title="${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)}${zap.zapperProfile?.nip05 ? ` - ${zap.zapperProfile.nip05}` : ''} - Click to open in Njump.me"
-                onclick="window.open('https://njump.me/${npub}', '_blank')"
-                onerror="profileImageFallback(this)"
-            />
-            <div>
-              ${formatZapAmount(zap.zapAmount)} sats
-              <br>
-              Zapped by ${getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey)} on ${formatDate(zap.created_at, true)}
-              ${zap.content ? `<br>Message: ${zap.content}` : ''}
-            </div>
-          </div>`;
+        const displayName = getProfileDisplayName(zap.zapperProfile, zap.zapperPubkey);
+        const titleParts = [displayName];
+        if (zap.zapperProfile?.nip05) {
+          titleParts.push(zap.zapperProfile.nip05);
+        }
+        titleParts.push('Click to open in Njump.me');
+
+        const img = el('img', {
+          src: zapperImageUrl,
+          className: 'profile-image',
+          alt: '',
+          title: titleParts.join(' - '),
+          dataset: { placeholder: placeholderUrl },
+        });
+        img.addEventListener('error', () => profileImageFallback(img));
+        if (npub) {
+          img.style.cursor = 'pointer';
+          img.addEventListener('click', () => {
+            window.open(`https://njump.me/${npub}`, '_blank', 'noopener,noreferrer');
+          });
+        }
+
+        const details = el('div', {},
+          `${formatZapAmount(zap.zapAmount)} sats`,
+          el('br'),
+          `Zapped by ${displayName} on ${formatDate(zap.created_at, true)}`,
+        );
+        if (zap.content) {
+          details.appendChild(document.createElement('br'));
+          details.appendChild(document.createTextNode(`Message: ${zap.content}`));
+        }
+
+        list.appendChild(el('div', {
+          className: 'profile-card',
+          style: { marginLeft: '15px', fontSize: '14px', marginBottom: '13px' },
+        }, img, details));
       });
 
       const zapsElement = document.getElementById('zaps');
       zapsElement.style.display = 'block';
-      zapsElement.innerHTML = `<p><strong>Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):</strong> ${zapsHTML}</p>`;
-      zapsHTML = '';
+      zapsElement.replaceChildren(
+        el('p', {},
+          el('strong', {}, `Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):`),
+          ' ',
+          list,
+        ),
+      );
     }
   });
 
@@ -838,7 +898,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       endorsementsForThisVerification.map(endorsement => getNostrProfile(endorsement.pubkey))
     );
 
-    let endorsementsHTML = '';
+    const endorsementsList = el('div');
     const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
     for (let i = 0; i < endorsementsForThisVerification.length; i++) {
       const endorsement = endorsementsForThisVerification[i];
@@ -846,19 +906,41 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       const validity = getFirstTagValue(endorsement, 'validity');
       const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
       const endorserImageUrl = getProfileImageUrl(endorserProfile);
-      endorsementsHTML += `
-        <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
-          <img src="${endorserImageUrl}" class="profile-image" alt="" data-placeholder="${placeholderUrl}"
-              title="${getProfileDisplayName(endorserProfile, endorsement.pubkey)}${endorserProfile?.nip05 ? ` - ${endorserProfile.nip05}` : ''} - Click to open in Njump.me"
-              onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
-              onerror="profileImageFallback(this)"
-          />
-            ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})
-        </div>`;
+      const displayName = getProfileDisplayName(endorserProfile, endorsement.pubkey);
+      const titleParts = [displayName];
+      if (endorserProfile?.nip05) {
+        titleParts.push(endorserProfile.nip05);
+      }
+      titleParts.push('Click to open in Njump.me');
+
+      const img = el('img', {
+        src: endorserImageUrl,
+        className: 'profile-image',
+        alt: '',
+        title: titleParts.join(' - '),
+        dataset: { placeholder: placeholderUrl },
+      });
+      img.addEventListener('error', () => profileImageFallback(img));
+      if (endorserNpub) {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+          window.open(`https://njump.me/${endorserNpub}`, '_blank', 'noopener,noreferrer');
+        });
+      }
+
+      endorsementsList.appendChild(el('div', {
+        className: 'profile-card',
+        style: { marginTop: '5px', marginLeft: '15px' },
+      },
+        img,
+        ` ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})`,
+      ));
     }
     const endorsementsElement = document.getElementById('endorsements');
     endorsementsElement.style.display = 'block';
-    endorsementsElement.innerHTML = `<p><strong>Endorsements:</strong> ${endorsementsHTML}</p>`;
+    endorsementsElement.replaceChildren(
+      el('p', {}, el('strong', {}, 'Endorsements:'), ' ', endorsementsList),
+    );
   }
 
   renderNostrButton({

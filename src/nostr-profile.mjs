@@ -2,12 +2,13 @@ import DOMPurify from 'dompurify';
 import * as nip19 from 'nostr-tools/nip19';
 import { ensureConnected, getPool } from './nostr-client.mjs';
 import { eventRelayUrls } from './nostr-constants.mjs';
+import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from './html-utils.mjs';
 
 const DB_NAME = 'WalletScrutinyDB';
 const DB_VERSION = 4;
 const PROFILES_STORE = 'profiles';
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
-const PROFILE_CACHE_VERSION = 5;
+const PROFILE_CACHE_VERSION = 6;
 const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
 
 const purifyConfig = {
@@ -107,7 +108,7 @@ async function getProfileFromIDB(pubkey) {
 }
 
 function sanitizeProfileMediaUrl(url) {
-  return String(url ?? '').trim();
+  return sanitizeHttpUrl(url) ?? '';
 }
 
 function sanitizeProfileValue(key, value) {
@@ -115,7 +116,11 @@ function sanitizeProfileValue(key, value) {
   if (PROFILE_URL_KEYS.has(key)) {
     return sanitizeProfileMediaUrl(str);
   }
-  return DOMPurify.sanitize(str, purifyConfig);
+  // Text-only: strip tags. Attribute escaping is handled by el()/setAttribute at render.
+  if (DOMPurify.isSupported) {
+    return DOMPurify.sanitize(str, purifyConfig);
+  }
+  return str.replace(/<[^>]*>/g, '');
 }
 
 function normalizeProfileMetadata(metadata) {
@@ -256,18 +261,18 @@ export function getProfileDisplayName(profile, pubkey) {
 }
 
 function normalizeProfileImageUrl(url) {
-  const trimmed = String(url ?? '').trim();
-  if (!trimmed) {
+  const safe = sanitizeHttpUrl(url);
+  if (!safe) {
     return '';
   }
   if (
     typeof window !== 'undefined' &&
     window.location?.protocol === 'https:' &&
-    trimmed.startsWith('http://')
+    safe.startsWith('http://')
   ) {
-    return `https://${trimmed.slice('http://'.length)}`;
+    return `https://${safe.slice('http://'.length)}`;
   }
-  return trimmed;
+  return safe;
 }
 
 export function getProfileImageUrl(profile) {
@@ -284,48 +289,135 @@ export function profileImageFallback(img) {
   }
 }
 
+function wireProfileImageFallback(img) {
+  img.addEventListener('error', () => profileImageFallback(img));
+}
+
+function wireVerifierNavigation(node, pubkey) {
+  if (!isSha256Hex(pubkey)) {
+    return;
+  }
+  node.style.cursor = 'pointer';
+  node.addEventListener('click', (e) => {
+    e.stopPropagation();
+    window.location.href = `/verifier/?pubkey=${pubkey}`;
+  });
+}
+
+/**
+ * Build profile circle markup. Callers that insert via innerHTML should then call
+ * wireProfileCircleInteractions(container) so image fallback / navigation work without
+ * interpolating untrusted values into inline handlers.
+ */
 export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl) {
   const displayName = getProfileDisplayName(profile, pubkey);
-  const placeholderClass = imageUrl === placeholderUrl ? ' profile-circle--placeholder' : '';
-  return `
-    <div class="profile-circle-container" data-name="${displayName}">
-      <img src="${imageUrl}" class="profile-circle${placeholderClass}" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
-      <div class="profile-hover-modal">
-        <div class="profile-modal-content">
-          <img src="${imageUrl}" class="profile-modal-image" alt="" data-placeholder="${placeholderUrl}" onerror="profileImageFallback(this)"/>
-          <br>
-          <span>${displayName}</span>
-          <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
-        </div>
-      </div>
-    </div>
-  `;
+  const safeImageUrl = sanitizeHttpUrl(imageUrl) || placeholderUrl || PROFILE_PLACEHOLDER_IMAGE;
+  const safePlaceholder = placeholderUrl || PROFILE_PLACEHOLDER_IMAGE;
+  const placeholderClass = safeImageUrl === safePlaceholder ? ' profile-circle--placeholder' : '';
+  const safePubkey = isSha256Hex(pubkey) ? pubkey : '';
+
+  const container = el('div', {
+    className: 'profile-circle-container',
+    dataset: { name: displayName },
+  },
+    el('img', {
+      src: safeImageUrl,
+      className: `profile-circle${placeholderClass}`,
+      alt: '',
+      dataset: { placeholder: safePlaceholder },
+    }),
+    el('div', { className: 'profile-hover-modal' },
+      el('div', { className: 'profile-modal-content' },
+        el('img', {
+          src: safeImageUrl,
+          className: 'profile-modal-image',
+          alt: '',
+          dataset: { placeholder: safePlaceholder },
+        }),
+        el('br'),
+        el('span', {}, displayName),
+        el('button', {
+          type: 'button',
+          className: 'profile-page-btn',
+          ...(safePubkey ? { dataset: { verifierPubkey: safePubkey } } : {}),
+        }, 'Verifier Page'),
+      ),
+    ),
+  );
+
+  return htmlOf(container);
+}
+
+export function wireProfileCircleInteractions(root) {
+  if (!root) {
+    return;
+  }
+  root.querySelectorAll('img.profile-circle, img.profile-modal-image').forEach(wireProfileImageFallback);
+  root.querySelectorAll('.profile-page-btn[data-verifier-pubkey]').forEach((btn) => {
+    wireVerifierNavigation(btn, btn.dataset.verifierPubkey);
+  });
 }
 
 export function renderProfileCardHtml(pubkey, profile) {
   const displayName = getProfileDisplayName(profile, pubkey);
   const imageUrl = getProfileImageUrl(profile);
-  return `
-    <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'" style="cursor:pointer">
-      <img src="${imageUrl}" class="profile-image" alt="" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
-      <div class="profile-info">
-        <div>${displayName}</div>
-        ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-      </div>
-    </div>
-  `;
+  const safePubkey = isSha256Hex(pubkey) ? pubkey : '';
+  const card = el('div', {
+    className: 'profile-card',
+    style: { cursor: safePubkey ? 'pointer' : '' },
+    ...(safePubkey ? { dataset: { verifierPubkey: safePubkey } } : {}),
+  },
+    el('img', {
+      src: imageUrl,
+      className: 'profile-image',
+      alt: '',
+      dataset: { placeholder: PROFILE_PLACEHOLDER_IMAGE },
+    }),
+    el('div', { className: 'profile-info' },
+      el('div', {}, displayName),
+      profile?.nip05 ? el('div', { className: 'profile-nip05' }, profile.nip05) : null,
+    ),
+  );
+  return htmlOf(card);
+}
+
+export function wireProfileCardInteractions(root) {
+  if (!root) {
+    return;
+  }
+  root.querySelectorAll('img.profile-image').forEach(wireProfileImageFallback);
+  root.querySelectorAll('.profile-card[data-verifier-pubkey]').forEach((card) => {
+    wireVerifierNavigation(card, card.dataset.verifierPubkey);
+  });
 }
 
 export function renderBigProfileCardHtml(pubkey, profile) {
   const displayName = getProfileDisplayName(profile, pubkey);
   const imageUrl = getProfileImageUrl(profile);
-  return `
-    <div class="big-profile-card">
-      <img src="${imageUrl}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;" data-placeholder="${PROFILE_PLACEHOLDER_IMAGE}" onerror="profileImageFallback(this)"/>
-      <div style="font-size: 1.5em; font-weight: bold;">${displayName}</div>
-      ${profile?.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-    </div>
-  `;
+  const card = el('div', { className: 'big-profile-card' },
+    el('img', {
+      src: imageUrl,
+      alt: 'Profile Picture',
+      style: {
+        width: '200px',
+        height: '200px',
+        borderRadius: '50%',
+        marginBottom: '10px',
+        objectFit: 'cover',
+      },
+      dataset: { placeholder: PROFILE_PLACEHOLDER_IMAGE },
+    }),
+    el('div', { style: { fontSize: '1.5em', fontWeight: 'bold' } }, displayName),
+    profile?.nip05 ? el('div', { className: 'profile-nip05' }, profile.nip05) : null,
+  );
+  return htmlOf(card);
+}
+
+export function wireBigProfileCardInteractions(root) {
+  if (!root) {
+    return;
+  }
+  root.querySelectorAll('img').forEach(wireProfileImageFallback);
 }
 
 if (typeof window !== 'undefined') {
@@ -335,6 +427,9 @@ if (typeof window !== 'undefined') {
   window.PROFILE_PLACEHOLDER_IMAGE = PROFILE_PLACEHOLDER_IMAGE;
   window.profileImageFallback = profileImageFallback;
   window.buildProfileCircleHtml = buildProfileCircleHtml;
+  window.wireProfileCircleInteractions = wireProfileCircleInteractions;
   window.renderProfileCardHtml = renderProfileCardHtml;
+  window.wireProfileCardInteractions = wireProfileCardInteractions;
   window.renderBigProfileCardHtml = renderBigProfileCardHtml;
+  window.wireBigProfileCardInteractions = wireBigProfileCardInteractions;
 }
