@@ -54,6 +54,7 @@ import {
 } from './asset-utils.mjs';
 import { formatDate } from './format-utils.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
+import { isSha256Hex, stripHtmlTags } from './html-utils.mjs';
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -622,12 +623,23 @@ function sanitizeDangerousHTML(content) {
 
 const sanitizedEvents = new WeakSet();
 
+function canUseDomPurify() {
+  // linkedom can expose a sanitize() that is a no-op when isSupported is not true
+  return Boolean(DOMPurify?.isSupported && typeof DOMPurify.sanitize === 'function');
+}
+
+function purifyText(value) {
+  if (canUseDomPurify()) {
+    return DOMPurify.sanitize(value, purifyConfig);
+  }
+  // No DOM for DOMPurify (unit tests): strip tags, keep ordinary punctuation.
+  return stripHtmlTags(value);
+}
+
 function eventSanitize(event) {
   if (sanitizedEvents.has(event)) {
     return;
   }
-
-  const isBrowser = typeof window !== 'undefined';
 
   // Sanitize content
   if (isValidJSONObject(event.content)) {
@@ -641,7 +653,7 @@ function eventSanitize(event) {
         sanitizedContent = sanitizeDangerousHTML(contentObject[key]);
       } else {
         // For other fields like 'description', sanitize to strip any HTML.
-        sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key], purifyConfig) : contentObject[key];
+        sanitizedContent = purifyText(contentObject[key]);
       }
 
       if (key === 'description') {
@@ -655,16 +667,20 @@ function eventSanitize(event) {
 
     event.content = JSON.stringify(contentObject);
   } else {
-    event.content = isBrowser ? DOMPurify.sanitize(event.content, purifyConfig) : event.content;
+    event.content = purifyText(event.content);
     event.content = event.content.substring(0, 120);
   }
 
-  // Sanitize tags
+  // Sanitize tags (attribute-bound values: neutralize quote breakout chars)
   event.tags.forEach(tag => {
-    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1], purifyConfig) : tag[1];
+    if (tag[1] == null) {
+      return;
+    }
+    let sanitizedTag = purifyText(tag[1]);
 
-    // Remove any remaining double quotes from the sanitized tag
-    sanitizedTag = sanitizedTag.replace(/"/g, '');
+    // Tags are interpolated into HTML attributes / handlers historically; strip both
+    // quote types. Do not apply this to JSON content fields (see description above).
+    sanitizedTag = sanitizedTag.replace(/["']/g, '');
 
     if (tag[0] === 'i') {
       sanitizedTag = sanitizedTag.substring(0, 75);
@@ -1276,12 +1292,10 @@ const backgroundSyncEvents = async function() {
  * Helper function to process raw NDK events into our application structure
  * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
-function getVerificationHashList(event) {
-  const hashes = event.tags
-    ?.filter(tag => tag[0] === 'x')
-    .map(tag => tag[1])
-    .filter(id => id?.length === 64) ?? [];
-  return hashes.length > 0 ? hashes : [getFirstTagValue(event, 'x', null)].filter(Boolean);
+export function getVerificationHashList(event) {
+  return (event.tags ?? [])
+    .filter(tag => tag[0] === 'x' && isSha256Hex(tag[1]))
+    .map(tag => tag[1]);
 }
 
 function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
@@ -2403,4 +2417,5 @@ export {
   subscribeToZapReceipts,
   createAuthorizationEvent,
   reportedIdsFromReports,
+  eventSanitize,
 };

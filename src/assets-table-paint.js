@@ -9,6 +9,7 @@ import { getStatusText } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { mergeBundleAssetRows, getRowLookupHashes } from "./assets-table-filters.js";
 import { setAssetTableResponse } from "./assets-table-state.js";
+import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
 
 const getHashTags = event => {
   const entries = getAssetFileEntries(event);
@@ -51,62 +52,71 @@ const BLOSSOM_DOWNLOAD_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewB
 
 const HASH_COPY_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>`;
 
-function renderHashCopyButton(hash, title = 'Copy hash to clipboard') {
-  return `
-    <button
-      type="button"
-      class="hash-copy-btn"
-      onclick="navigator.clipboard.writeText('${hash}').then(() => showToast('Hash copied to clipboard'))"
-      title="${title}"
-      aria-label="${title}"
-    >
-      <span class="hash-copy-btn__icon" aria-hidden="true">${HASH_COPY_ICON_SVG}</span>
-    </button>`;
+function hexOrEmpty(value) {
+  return isSha256Hex(value) ? value : '';
 }
 
-function renderCopyAllHashesButton(allHashes) {
-  if (allHashes.length <= 6) {
-    return '';
+function getFileAttachmentIds(item) {
+  if (typeof window.getFileAttachmentIDsForVerificationEvent === 'function') {
+    return window.getFileAttachmentIDsForVerificationEvent(item);
   }
-  const allHashesText = allHashes.map(hash => hash[1]).join('\n');
+  return (item.tags || [])
+    .filter(tag => tag[0] === 'file-attachment' && isSha256Hex(tag[1]))
+    .map(tag => tag[1]);
+}
+
+function createHashCopyButton(hash, title = 'Copy hash to clipboard') {
+  return el('button', {
+    type: 'button',
+    className: 'hash-copy-btn js-copy-hash',
+    dataset: { hash: hexOrEmpty(hash) },
+    title,
+    'aria-label': title,
+  }, el('span', { className: 'hash-copy-btn__icon', 'aria-hidden': 'true', html: HASH_COPY_ICON_SVG }));
+}
+
+function createCopyAllHashesButton(allHashes) {
+  if (allHashes.length <= 6) {
+    return null;
+  }
+  const allHashesText = allHashes.map(entry => entry[1]).filter(isSha256Hex).join('\n');
   const count = allHashes.length;
   const title = `Copy all ${count} hashes to clipboard`;
-  return `
-    <div class="hash-list-more">...</div>
-    <div class="hash-copy-all-wrap">
-      <button
-        type="button"
-        class="hash-copy-all-btn"
-        onclick='navigator.clipboard.writeText(${JSON.stringify(allHashesText)}).then(() => showToast("Hashes copied to clipboard"))'
-        title="${title}"
-        aria-label="${title}"
-      >
-        <span class="hash-copy-all-btn__icon" aria-hidden="true">${HASH_COPY_ICON_SVG}</span>
-        <span>Copy all (${count})</span>
-      </button>
-    </div>`;
+  return el('div', { className: 'hash-copy-all-wrap' },
+    el('button', {
+      type: 'button',
+      className: 'hash-copy-all-btn js-copy-hash',
+      dataset: { hash: allHashesText },
+      title,
+      'aria-label': title,
+    },
+      el('span', { className: 'hash-copy-all-btn__icon', 'aria-hidden': 'true', html: HASH_COPY_ICON_SVG }),
+      el('span', {}, `Copy all (${count})`),
+    ),
+  );
 }
 
-function renderMobileHashCells(sha256Hashes, allHashes = sha256Hashes) {
+function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes) {
   if (sha256Hashes.length === 0) {
-    return '-';
+    cell.textContent = '-';
+    return;
   }
-  return sha256Hashes.map(hash => `
-    <div class="hash-row">
-      <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
-      ${renderHashCopyButton(hash[1])}
-    </div>`).join('') + renderCopyAllHashesButton(allHashes);
-}
-
-function renderDesktopHashCells(sha256Hashes, allHashes = sha256Hashes) {
-  if (sha256Hashes.length === 0) {
-    return '-';
+  for (const hash of sha256Hashes) {
+    const label = hash[2] ? `${hash[1]} (${hash[2]})` : hash[1];
+    cell.appendChild(
+      el('div', { className: 'hash-row' },
+        el('span', { className: 'hash-display', title: hash[1] || '' }, label),
+        createHashCopyButton(hash[1]),
+      ),
+    );
   }
-  return sha256Hashes.map(hash => `
-    <div class="hash-row">
-      <span class="hash-display" title="${hash[1]}">${hash[1]}${hash[2] ? ` (${hash[2]})` : ''}</span>
-      ${renderHashCopyButton(hash[1])}
-    </div>`).join('') + renderCopyAllHashesButton(allHashes);
+  if (allHashes.length > 6) {
+    cell.appendChild(el('div', { className: 'hash-list-more' }, '...'));
+    const copyAll = createCopyAllHashesButton(allHashes);
+    if (copyAll) {
+      cell.appendChild(copyAll);
+    }
+  }
 }
 
 function parseItemDescription(binary) {
@@ -138,11 +148,65 @@ function getVerificationStatusModifier(status) {
   }
 }
 
-function renderVerificationActionLink({ identifier, version, platform, label }) {
-  return `<a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="verification-action-link" rel="noopener noreferrer">${label}</a>`;
+export function createVerificationActionLink({ identifier, version, platform, label }) {
+  const params = new URLSearchParams({
+    appId: identifier ?? '',
+    version: version ?? '',
+    platform: platform ?? '',
+  });
+  return el('a', {
+    href: `/new_verification/?${params.toString()}`,
+    className: 'verification-action-link',
+    rel: 'noopener noreferrer',
+  }, label);
 }
 
-function renderBlossomDownloadButton({
+export function renderVerificationActionLink(options) {
+  return htmlOf(createVerificationActionLink(options));
+}
+
+export function createBlossomDownloadButton({
+  downloadHash,
+  identifier,
+  platform,
+  version,
+  sanitizedFileName,
+  bundleFilesJson,
+  downloadTitle,
+  bundleFileCount,
+}) {
+  const ariaLabel = bundleFileCount > 1
+    ? `Download ${bundleFileCount} files from Blossom`
+    : 'Download from Blossom';
+
+  const button = el('button', {
+    type: 'button',
+    id: isSha256Hex(downloadHash) ? `blossom-${downloadHash}` : undefined,
+    className: 'blossom-download blossom-download-btn',
+    style: { display: 'none' },
+    title: downloadTitle,
+    'aria-label': ariaLabel,
+    dataset: {
+      appid: identifier ?? '',
+      platform: platform ?? '',
+      version: version ?? '',
+      filename: sanitizedFileName ?? '',
+    },
+  },
+    el('span', { className: 'blossom-download-btn__icon', 'aria-hidden': 'true', html: BLOSSOM_DOWNLOAD_ICON_SVG }),
+    bundleFileCount > 1
+      ? el('span', { className: 'blossom-download-btn__badge' }, String(bundleFileCount))
+      : null,
+  );
+
+  if (bundleFilesJson) {
+    button.setAttribute('data-bundle-files', bundleFilesJson);
+  }
+
+  return button;
+}
+
+export function renderBlossomDownloadButton({
   downloadHash,
   identifier,
   platform,
@@ -152,64 +216,60 @@ function renderBlossomDownloadButton({
   downloadTitle,
   bundleFileCount,
 }) {
-  const bundleBadge = bundleFileCount > 1
-    ? `<span class="blossom-download-btn__badge">${bundleFileCount}</span>`
-    : '';
-  const ariaLabel = bundleFileCount > 1
-    ? `Download ${bundleFileCount} files from Blossom`
-    : 'Download from Blossom';
-
-  return `
-    <button
-      type="button"
-      id="blossom-${downloadHash}"
-      data-appid="${identifier}"
-      data-platform="${platform}"
-      data-version="${version}"
-      data-filename="${sanitizedFileName}"
-      ${bundleFilesAttr}
-      class="blossom-download blossom-download-btn"
-      style="display: none;"
-      title="${downloadTitle}"
-      aria-label="${ariaLabel}"
-    >
-      <span class="blossom-download-btn__icon" aria-hidden="true">${BLOSSOM_DOWNLOAD_ICON_SVG}</span>
-      ${bundleBadge}
-    </button>`;
+  let bundleFilesJson;
+  if (bundleFilesAttr) {
+    const match = /data-bundle-files="([^"]*)"/.exec(bundleFilesAttr);
+    bundleFilesJson = match?.[1];
+  }
+  return htmlOf(createBlossomDownloadButton({
+    downloadHash,
+    identifier,
+    platform,
+    version,
+    sanitizedFileName,
+    bundleFilesJson,
+    downloadTitle,
+    bundleFileCount,
+  }));
 }
 
-function renderVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft }) {
+export function createVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft }) {
   const status = getFirstTagValue(attestation, 'status');
   const attestationDate = formatDate(attestation.created_at);
   const statusModifier = getVerificationStatusModifier(status);
   const statusLabel = getStatusText(status, true);
-  const draftBadge = isMyDraft
-    ? '<span class="verification-draft-badge">Draft</span>'
-    : '';
+  const pubkey = hexOrEmpty(attestation.pubkey);
 
-  return `
-    <div
-      class="verification-card attestation-link ${isMyDraft ? 'verification-card--draft' : ''}"
-      onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
-      onmouseenter="prefetchMarked()"
-      data-pubkey_verifiers="${attestation.pubkey}"
-      role="button"
-      tabindex="0"
-    >
-      <div class="verification-card__layout">
-        <div class="verification-card__avatar profile-${attestation.pubkey}"></div>
-        <div class="verification-card__body">
-          <div class="verification-card__meta">
-            <span class="verification-status-pill verification-status-pill--${statusModifier}">
-              <span class="verification-status-pill__dot" aria-hidden="true"></span>
-              <span class="attestation-status">${statusLabel}</span>
-            </span>
-            ${draftBadge}
-          </div>
-          <time class="verification-card__date">${attestationDate}</time>
-        </div>
-      </div>
-    </div>`;
+  return el('div', {
+    className: `verification-card attestation-link${isMyDraft ? ' verification-card--draft' : ''}`,
+    role: 'button',
+    tabindex: '0',
+    dataset: {
+      sha256Hash: hexOrEmpty(sha256HashKey),
+      verificationId: hexOrEmpty(attestation.id),
+      appId: identifier ?? '',
+      platform: platform ?? '',
+      pubkey_verifiers: pubkey,
+    },
+  },
+    el('div', { className: 'verification-card__layout' },
+      el('div', { className: `verification-card__avatar ${pubkey ? `profile-${pubkey}` : 'profile-unknown'}` }),
+      el('div', { className: 'verification-card__body' },
+        el('div', { className: 'verification-card__meta' },
+          el('span', { className: `verification-status-pill verification-status-pill--${statusModifier}` },
+            el('span', { className: 'verification-status-pill__dot', 'aria-hidden': 'true' }),
+            el('span', { className: 'attestation-status' }, statusLabel),
+          ),
+          isMyDraft ? el('span', { className: 'verification-draft-badge' }, 'Draft') : null,
+        ),
+        el('time', { className: 'verification-card__date' }, attestationDate),
+      ),
+    ),
+  );
+}
+
+export function renderVerificationCard(options) {
+  return htmlOf(createVerificationCard(options));
 }
 
 // Single source of truth for which verifications represent a row: the latest published
@@ -237,42 +297,124 @@ export function hasWarningVerification(currentVerifications) {
     getFirstTagValue(attestation, 'status') === 'warning');
 }
 
-function renderVersionWarningBadge(currentVerifications) {
+export function createVersionWarningBadge(currentVerifications) {
   if (!hasWarningVerification(currentVerifications)) {
-    return '';
+    return null;
   }
-  return '<br><span class="version-warning-badge" title="A verifier flagged a serious'
-    + ' problem with this version. See the Warning verification on this row.">⚠️ Warning</span>';
+  return el('span', {
+    className: 'version-warning-badge',
+    title: 'A verifier flagged a serious problem with this version. See the Warning verification on this row.',
+  }, '⚠️ Warning');
 }
 
-function renderVerificationsCell({ attestations, sha256HashKey, identifier, platform, version, hideButtons }) {
-  if (!attestations.length) {
-    return `
-      <div class="verification-cell">
-        <div class="verification-empty">
-          <span class="verification-empty__label">No verifications yet</span>
-        </div>
-        ${hideButtons ? '' : renderVerificationActionLink({ identifier, version, platform, label: 'Create verification' })}
-      </div>`;
+export function renderVersionWarningBadge(currentVerifications) {
+  const badge = createVersionWarningBadge(currentVerifications);
+  return badge ? htmlOf(badge) : '';
+}
+
+/** Version + description fragments for tests and callers that still serialize to HTML. */
+export function renderAssetVersionDescriptionHtml({ version, itemDescription, versionWarningBadge = '' }) {
+  const versionHolder = el('div');
+  versionHolder.appendChild(document.createTextNode(version ?? ''));
+  if (versionWarningBadge) {
+    if (typeof versionWarningBadge !== 'string') {
+      versionHolder.appendChild(versionWarningBadge);
+    } else if (versionWarningBadge) {
+      const tmp = el('div', { html: versionWarningBadge });
+      while (tmp.firstChild) {
+        versionHolder.appendChild(tmp.firstChild);
+      }
+    }
   }
 
-  const cards = attestations.map(attestation => {
+  const mobile = el('span', { className: 'asset-description-mobile' }, itemDescription ?? '');
+  const descriptionCell = el('td', {
+    className: 'asset-description hide-on-mobile',
+    style: {
+      maxWidth: '300px',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'normal',
+      wordWrap: 'break-word',
+    },
+  }, itemDescription ?? '');
+
+  return {
+    versionFragment: versionHolder.innerHTML,
+    mobileDescription: htmlOf(mobile),
+    descriptionCell: htmlOf(descriptionCell),
+  };
+}
+
+export function createVerificationsCell({
+  attestations,
+  sha256HashKey,
+  identifier,
+  platform,
+  version,
+  hideButtons,
+}) {
+  const cell = el('div', { className: 'verification-cell' });
+
+  if (!attestations.length) {
+    cell.appendChild(
+      el('div', { className: 'verification-empty' },
+        el('span', { className: 'verification-empty__label' }, 'No verifications yet'),
+      ),
+    );
+    if (!hideButtons) {
+      cell.appendChild(createVerificationActionLink({
+        identifier,
+        version,
+        platform,
+        label: 'Create verification',
+      }));
+    }
+    return cell;
+  }
+
+  const list = el('div', { className: 'verification-cell__list' });
+  for (const attestation of attestations) {
     const isMine = attestation.pubkey === window.userPubkey;
     const isDraft = attestation.kind === verificationDraftKind;
-    return renderVerificationCard({
+    list.appendChild(createVerificationCard({
       attestation,
       sha256HashKey,
       identifier,
       platform,
       isMyDraft: isDraft && isMine,
-    });
-  }).join('');
+    }));
+  }
+  cell.appendChild(list);
 
-  return `
-    <div class="verification-cell">
-      <div class="verification-cell__list">${cards}</div>
-      ${hideButtons ? '' : renderVerificationActionLink({ identifier, version, platform, label: 'Create another verification' })}
-    </div>`;
+  if (!hideButtons) {
+    cell.appendChild(createVerificationActionLink({
+      identifier,
+      version,
+      platform,
+      label: 'Create another verification',
+    }));
+  }
+  return cell;
+}
+
+export function renderVerificationsCell(options) {
+  return htmlOf(createVerificationsCell(options));
+}
+
+function appendVersionBlock(parent, { version, warningBadge, itemDescription, hashCellContent }) {
+  parent.appendChild(document.createTextNode(version ?? ''));
+  if (warningBadge) {
+    parent.appendChild(document.createElement('br'));
+    parent.appendChild(warningBadge);
+  }
+  const mobileWrap = el('span', { className: 'show-on-mobile' });
+  mobileWrap.appendChild(document.createElement('br'));
+  mobileWrap.appendChild(el('span', { className: 'asset-description-mobile' }, itemDescription ?? ''));
+  if (hashCellContent) {
+    mobileWrap.appendChild(hashCellContent);
+  }
+  parent.appendChild(mobileWrap);
 }
 
 export function paintMainAssetsTable({
@@ -370,7 +512,7 @@ export function paintMainAssetsTable({
     sortedItems.forEach((itemsForThisSha256) => {
       itemsForThisSha256.items.forEach(item => {
         if (showAttachmentsTable && (item.kind === verificationKind || item.kind === verificationDraftKind)) {
-          for (const id of getFileAttachmentIDsForVerificationEvent(item)) {
+          for (const id of getFileAttachmentIds(item)) {
             attachmentEventIdSet.add(id);
           }
         }
@@ -401,24 +543,28 @@ export function paintMainAssetsTable({
     return collected;
   };
 
-  const table = document.createElement('table');
-  table.id = 'assetsTable';
-  table.className = 'assets-table';
-  table.innerHTML = `
-    <thead>
-      <tr>
-        ${hideConfig?.wallet ? '' : '<th style="max-width: 200px;">Wallet</th>'}
-        ${hideConfig?.wallet ? '<th style="max-width: 200px;">Version</th>' : ''}
-        <th class="hide-on-mobile" style="max-width: 300px;">Description</th>
-        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile hash-cell">Hashes</th>'}
-        <th class="hide-on-mobile">Binary</th>
-        <th>Verifications</th>
-        ${showSeen ? '<th>Seen</th>' : ''}
-      </tr>
-    </thead>
-    <tbody></tbody>`;
+  const table = el('table', { id: 'assetsTable', className: 'assets-table' });
+  const thead = el('thead');
+  const headerRow = el('tr');
+  if (!hideConfig?.wallet) {
+    headerRow.appendChild(el('th', { style: { maxWidth: '200px' } }, 'Wallet'));
+  } else {
+    headerRow.appendChild(el('th', { style: { maxWidth: '200px' } }, 'Version'));
+  }
+  headerRow.appendChild(el('th', { className: 'hide-on-mobile', style: { maxWidth: '300px' } }, 'Description'));
+  if (!hideConfig?.sha256) {
+    headerRow.appendChild(el('th', { className: 'hide-on-mobile hash-cell' }, 'Hashes'));
+  }
+  headerRow.appendChild(el('th', { className: 'hide-on-mobile' }, 'Binary'));
+  headerRow.appendChild(el('th', {}, 'Verifications'));
+  if (showSeen) {
+    headerRow.appendChild(el('th', {}, 'Seen'));
+  }
+  thead.appendChild(headerRow);
+  table.appendChild(thead);
 
-  const tableBody = table.querySelector('tbody');
+  const tableBody = el('tbody');
+  table.appendChild(tableBody);
 
   let visibleRowIndex = 0;
 
@@ -458,28 +604,10 @@ export function paintMainAssetsTable({
       const lookupHashes = getRowLookupHashes(item, verificationLookupHash);
       const attestations = selectCurrentRowVerifications(collectAttestationsForHashes(lookupHashes));
       const hasVerifications = attestations.length > 0;
-      const versionWarningBadge = renderVersionWarningBadge(attestations);
+      const warningBadge = createVersionWarningBadge(attestations);
 
-      let verificationsList;
       if (hasVerifications) {
         hasVerificationsLocal = true;
-        verificationsList = renderVerificationsCell({
-          attestations,
-          sha256HashKey,
-          identifier,
-          platform,
-          version,
-          hideButtons: hideConfig?.buttons,
-        });
-      } else {
-        verificationsList = renderVerificationsCell({
-          attestations: [],
-          sha256HashKey,
-          identifier,
-          platform,
-          version,
-          hideButtons: hideConfig?.buttons,
-        });
       }
 
       const wallet = walletByAppId.get(identifier);
@@ -509,85 +637,147 @@ export function paintMainAssetsTable({
       });
 
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
-      const bundleFilesAttr = bundleFilesForDownload.length > 0
-        ? ` data-bundle-files="${encodeURIComponent(JSON.stringify(bundleFilesForDownload))}"`
+      const bundleFilesJson = bundleFilesForDownload.length > 0
+        ? encodeURIComponent(JSON.stringify(bundleFilesForDownload))
         : '';
       const downloadTitle = bundleFilesForDownload.length > 1
         ? `Download ${bundleFilesForDownload.length} files from Blossom`
         : 'Download from Blossom';
 
-      const row = document.createElement('tr');
+      const row = el('tr');
       if (visibleRowIndex >= showOnlyRows) {
         row.classList.add('initially-hidden');
         row.style.display = 'none';
       }
       visibleRowIndex++;
 
-      const sanitizedVersion = version.replace(/\./g, '-');
-      row.setAttribute('id', `version-${sanitizedVersion}`);
+      row.id = `version-${String(version ?? '').replace(/\./g, '-')}`;
       row.dataset.sha256 = sha256HashKey || '';
       row.dataset.identifier = identifier || '';
       row.dataset.hasVerifications = hasVerifications ? 'true' : 'false';
       row.dataset.searchText = `${walletTitle} ${version} ${itemDescription}`.toLowerCase();
 
-      const mobileHashes = renderMobileHashCells(sha256Hashes, allSha256Hashes);
-      const desktopHashes = renderDesktopHashCells(sha256Hashes, allSha256Hashes);
+      const mobileHashMount = el('span');
+      fillHashCell(mobileHashMount, sha256Hashes, allSha256Hashes);
 
-      row.innerHTML = `
-        ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}${versionWarningBadge}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>` : walletTitle}
-          </td>`}
-        ${hideConfig?.wallet ? `<td>
-          ${version}${versionWarningBadge}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>
-          </td>` : ''}
-        <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
-        ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile hash-cell">${desktopHashes}</td>`}
-        <td class="hide-on-mobile binary-cell">
-          ${downloadHash ? `
-            <div class="binary-cell__content">
-              ${renderBlossomDownloadButton({
-                downloadHash,
-                identifier,
-                platform,
-                version,
-                sanitizedFileName,
-                bundleFilesAttr,
-                downloadTitle,
-                bundleFileCount: bundleFilesForDownload.length,
-              })}
-            </div>
-          ` : '-'}
-        </td>
-        <td>${verificationsList}</td>
-        ${showSeen ? `<td>${date}</td>` : ''}`;
+      // Wallet / version cell
+      const versionCell = el('td', {
+        style: hideConfig?.wallet
+          ? undefined
+          : {
+            maxWidth: '200px',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'normal',
+            wordWrap: 'break-word',
+          },
+      });
+
+      if (!hideConfig?.wallet && wallet) {
+        versionCell.appendChild(el('a', { href: wallet.url, rel: 'noopener noreferrer' }, walletTitle));
+        versionCell.appendChild(document.createElement('br'));
+        appendVersionBlock(versionCell, {
+          version,
+          warningBadge,
+          itemDescription,
+          hashCellContent: mobileHashMount,
+        });
+      } else if (!hideConfig?.wallet) {
+        versionCell.textContent = walletTitle ?? '';
+      } else {
+        appendVersionBlock(versionCell, {
+          version,
+          warningBadge,
+          itemDescription,
+          hashCellContent: mobileHashMount,
+        });
+      }
+      row.appendChild(versionCell);
+
+      // Description
+      row.appendChild(el('td', {
+        className: 'asset-description hide-on-mobile',
+        style: {
+          maxWidth: '300px',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis',
+          whiteSpace: 'normal',
+          wordWrap: 'break-word',
+        },
+      }, itemDescription ?? ''));
+
+      // Hashes
+      if (!hideConfig?.sha256) {
+        const hashCell = el('td', { className: 'hide-on-mobile hash-cell' });
+        fillHashCell(hashCell, sha256Hashes, allSha256Hashes);
+        row.appendChild(hashCell);
+      }
+
+      // Binary
+      const binaryCell = el('td', { className: 'hide-on-mobile binary-cell' });
+      if (downloadHash) {
+        binaryCell.appendChild(
+          el('div', { className: 'binary-cell__content' },
+            createBlossomDownloadButton({
+              downloadHash,
+              identifier,
+              platform,
+              version,
+              sanitizedFileName,
+              bundleFilesJson,
+              downloadTitle,
+              bundleFileCount: bundleFilesForDownload.length,
+            }),
+          ),
+        );
+      } else {
+        binaryCell.textContent = '-';
+      }
+      row.appendChild(binaryCell);
+
+      // Verifications
+      const verificationsTd = el('td');
+      verificationsTd.appendChild(createVerificationsCell({
+        attestations: hasVerifications ? attestations : [],
+        sha256HashKey,
+        identifier,
+        platform,
+        version,
+        hideButtons: hideConfig?.buttons,
+      }));
+      row.appendChild(verificationsTd);
+
+      if (showSeen) {
+        row.appendChild(el('td', {}, date));
+      }
+
       tableBody.appendChild(row);
     });
 
     if (visibleRowIndex > showOnlyRows) {
-      const showMoreRow = document.createElement('tr');
-      showMoreRow.className = 'show-more-row';
-      showMoreRow.id = 'show-more-row';
+      const showMoreRow = el('tr', { className: 'show-more-row', id: 'show-more-row' });
       const columnCount = getAssetsTableColumnCount(hideConfig, showSeen);
-      showMoreRow.innerHTML = `
-        <td colspan="${columnCount}">
-          <button id="show-more-link" type="button" onclick="showMoreRows()">Show ${visibleRowIndex - showOnlyRows} more</button>
-        </td>`;
+      const cell = el('td', { colspan: String(columnCount) });
+      cell.appendChild(el('button', {
+        id: 'show-more-link',
+        type: 'button',
+        className: 'js-show-more-rows',
+      }, `Show ${visibleRowIndex - showOnlyRows} more`));
+      showMoreRow.appendChild(cell);
       tableBody.appendChild(showMoreRow);
     }
   } else {
-    const row = document.createElement('tr');
+    const row = el('tr');
     const columnCount = getAssetsTableColumnCount(hideConfig, showSeen);
-    row.innerHTML = pubkey
-      ? `<td colspan="${columnCount}">No verifications found for this user</td>`
-      : `<td colspan="${columnCount}">No verifications found</td>`;
+    row.appendChild(el('td', { colspan: String(columnCount) },
+      pubkey ? 'No verifications found for this user' : 'No verifications found',
+    ));
     tableBody.appendChild(row);
   }
 
   const host = document.getElementById(htmlElementId);
-  const tableFrame = document.createElement('div');
-  tableFrame.className = 'assets-table-frame';
-  const tableScroll = document.createElement('div');
-  tableScroll.className = 'assets-table-scroll';
+  const tableFrame = el('div', { className: 'assets-table-frame' });
+  const tableScroll = el('div', { className: 'assets-table-scroll' });
   tableScroll.appendChild(table);
   tableFrame.appendChild(tableScroll);
   host.appendChild(tableFrame);

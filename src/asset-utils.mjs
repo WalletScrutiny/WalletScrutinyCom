@@ -2,6 +2,7 @@ import {
   assetRegistrationKind,
   assetBundleRegistrationKind,
 } from './nostr-constants.mjs';
+import { isSha256Hex } from './html-utils.mjs';
 
 export const assetRegistrationKinds = [assetRegistrationKind, assetBundleRegistrationKind];
 
@@ -24,11 +25,11 @@ export function getAssetFileEntries(event) {
 
   if (event.kind === assetBundleRegistrationKind) {
     return event.tags
-      .filter(tag => tag[0] === 'x' && tag[1]?.length === 64)
+      .filter(tag => tag[0] === 'x' && isSha256Hex(tag[1]))
       .map(tag => ({ hash: tag[1], fileName: tag[2] || null }));
   }
 
-  const xTags = event.tags.filter(tag => tag[0] === 'x' && tag[1]?.length === 64);
+  const xTags = event.tags.filter(tag => tag[0] === 'x' && isSha256Hex(tag[1]));
   if (xTags.length === 0) {
     return [];
   }
@@ -96,7 +97,7 @@ export function getLegacyAssetLookupHash(asset) {
   const hashes = asset.tags
     .filter(tag => tag[0] === 'x')
     .map(tag => tag[1])
-    .filter(id => id?.length === 64);
+    .filter(id => isSha256Hex(id));
   if (hashes.length === 0) {
     return null;
   }
@@ -128,7 +129,7 @@ export function bundleHasFullVerification(asset, verificationsMap) {
       const listed = verification.tags
         ?.filter(tag => tag[0] === 'x')
         .map(tag => tag[1])
-        .filter(id => id?.length === 64) ?? [];
+        .filter(id => isSha256Hex(id)) ?? [];
       if (required.every(hash => listed.includes(hash))) {
         return true;
       }
