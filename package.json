@@ -31,7 +31,7 @@
     "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "html-webpack-plugin": "^5.6.8",
     "http-server": "^14.1.1",
-    "js-yaml": "^4.3.0",
+    "js-yaml": "^4.3.1",
     "minimist": "^1.2.8",
     "p-limit": "^7.3.1",
     "postcss": "^8.5.25",
@@ -41,7 +41,7 @@
     "webpack-bundle-analyzer": "^5.3.1",
     "webpack-cli": "^7.2.2",
     "webpack-shell-plugin-next": "^2.3.3",
-    "ws": "^8.21.1"
+    "ws": "^8.21.2"
   },
   "scripts": {
     "test": "node --test --test-reporter=spec \"test/unit/**/*.test.mjs\"",
@@ -74,9 +74,9 @@
     "@noble/hashes": "2.0.1",
     "@scure/base": "2.0.0",
     "app-info-parser": "^1.1.6",
-    "dompurify": "^3.4.12",
+    "dompurify": "^3.4.13",
     "fflate": "^0.8.3",
-    "marked": "^18.0.7",
+    "marked": "^18.0.9",
     "nip07-awaiter": "^1.1.0",
     "nostr-tools": "2.23.8",
     "path-browserify": "^1.0.1",
