@@ -16,9 +16,11 @@ import { HASH_A, HASH_B, HASH_C, makeEvent } from './fixtures.mjs';
 
 // NOT COVERED HERE: that the badge is injected into both version-cell branches of row.innerHTML.
 // paintMainAssetsTable needs a real DOM (document.createElement, table rows) and this suite has
-// neither a document shim nor jsdom. The hideConfig.wallet:true branch - the one device pages use -
-// was confirmed manually against COLDCARD Mk4 6.5.0X on 2026-08-03. The hideConfig.wallet:false
-// branch remains unverified by either route.
+// neither a document shim nor jsdom. Both branches are confirmed manually against COLDCARD Mk4
+// 6.5.0X instead: hideConfig.wallet:true (wallet review pages, via applicationBuild.html) on
+// 2026-08-03, and hideConfig.wallet:false (the default - /asset/, /assets/, verifier pages,
+// new_verification) on 2026-08-04. Manual confirmation does not survive future edits to the
+// template; adding jsdom would close this properly.
 
 const ALICE = 'a'.repeat(64);
 const BOB = 'b'.repeat(64);
