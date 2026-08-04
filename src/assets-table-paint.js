@@ -7,7 +7,7 @@ import { assetBundleRegistrationKind, verificationKind, verificationDraftKind } 
 import { formatDate } from "./format-utils.mjs";
 import { getStatusText } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { mergeBundleAssetRows } from "./assets-table-filters.js";
+import { mergeBundleAssetRows, getRowLookupHashes } from "./assets-table-filters.js";
 import { setAssetTableResponse } from "./assets-table-state.js";
 
 const getHashTags = event => {
@@ -212,6 +212,39 @@ function renderVerificationCard({ attestation, sha256HashKey, identifier, platfo
     </div>`;
 }
 
+// Single source of truth for which verifications represent a row: the latest published
+// verification per verifier, plus every draft as its own entry. The cards and the warning badge
+// both read this, so they cannot disagree about what is current.
+export function selectCurrentRowVerifications(attestations) {
+  const latestByKey = new Map();
+  for (const attestation of attestations) {
+    if (attestation.kind === verificationDraftKind) {
+      latestByKey.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
+      continue;
+    }
+    const existing = latestByKey.get(attestation.pubkey);
+    if (!existing || attestation.created_at > existing.created_at) {
+      latestByKey.set(attestation.pubkey, attestation);
+    }
+  }
+  return [...latestByKey.values()];
+}
+
+// Drafts never flag a row - an unpublished draft is not a public statement.
+export function hasWarningVerification(currentVerifications) {
+  return currentVerifications.some(attestation =>
+    attestation.kind !== verificationDraftKind &&
+    getFirstTagValue(attestation, 'status') === 'warning');
+}
+
+function renderVersionWarningBadge(currentVerifications) {
+  if (!hasWarningVerification(currentVerifications)) {
+    return '';
+  }
+  return '<br><span class="version-warning-badge" title="A verifier flagged a serious'
+    + ' problem with this version. See the Warning verification on this row.">⚠️ Warning</span>';
+}
+
 function renderVerificationsCell({ attestations, sha256HashKey, identifier, platform, version, hideButtons }) {
   if (!attestations.length) {
     return `
@@ -223,20 +256,7 @@ function renderVerificationsCell({ attestations, sha256HashKey, identifier, plat
       </div>`;
   }
 
-  const latestVerificationsByUser = new Map();
-  for (const attestation of attestations) {
-    if (attestation.kind === verificationDraftKind) {
-      latestVerificationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
-    } else {
-      const existingAttestation = latestVerificationsByUser.get(attestation.pubkey);
-      if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
-        attestation.created_at > existingAttestation.created_at)) {
-        latestVerificationsByUser.set(attestation.pubkey, attestation);
-      }
-    }
-  }
-
-  const cards = [...latestVerificationsByUser.values()].map(attestation => {
+  const cards = attestations.map(attestation => {
     const isMine = attestation.pubkey === window.userPubkey;
     const isDraft = attestation.kind === verificationDraftKind;
     return renderVerificationCard({
@@ -435,12 +455,10 @@ export function paintMainAssetsTable({
       }
 
       const itemDescription = parseItemDescription(binary);
-      const bundleHashes = getAssetFileEntries(binary).map(entry => entry.hash);
-      const lookupHashes = bundleHashes.length > 1
-        ? bundleHashes
-        : [verificationLookupHash || bundleHashes[0]].filter(Boolean);
-      const attestations = collectAttestationsForHashes(lookupHashes);
+      const lookupHashes = getRowLookupHashes(item, verificationLookupHash);
+      const attestations = selectCurrentRowVerifications(collectAttestationsForHashes(lookupHashes));
       const hasVerifications = attestations.length > 0;
+      const versionWarningBadge = renderVersionWarningBadge(attestations);
 
       let verificationsList;
       if (hasVerifications) {
@@ -517,10 +535,10 @@ export function paintMainAssetsTable({
 
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>` : walletTitle}
+          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}${versionWarningBadge}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>
+          ${version}${versionWarningBadge}<span class="show-on-mobile"><br><span class="asset-description-mobile">${itemDescription}</span>${mobileHashes}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile hash-cell">${desktopHashes}</td>`}
