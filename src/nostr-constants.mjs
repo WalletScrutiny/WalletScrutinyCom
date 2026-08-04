@@ -53,13 +53,13 @@ export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
 export const maxFileAttachmentContentLength = 48235;
 
-/** NIP-56: reporting; used by site admins to flag bogus verifications. */
-export const verificationReportKind = 1984;
+/** NIP-56 reporting; debug uses a separate kind so local reports never hit production. */
+export const verificationReportKind = isDebugEnv() ? 11984 : 1984;
 
 /**
  * Hex pubkeys (64-char) of WalletScrutiny.com administrators.
- * Only these accounts see the in-app "Report as wrong/spam" control.
- * (Visibility of verifications uses any kind-1984 that references the event id.)
+ * Only these accounts see the in-app report control, and only their
+ * verification-report events can hide verifications on the site.
  */
 export const siteAdminPubkeys = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny

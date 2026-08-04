@@ -1,4 +1,4 @@
-import { verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
+import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
@@ -170,7 +170,7 @@ function openVerificationReportConfirmModal(verification, reason) {
   }
   const text = document.getElementById('verificationReportConfirmText');
   text.innerHTML = [
-    '<p>The following <strong>Nostr kind 1984</strong> report will be sent to the configured relays:</p>',
+    `<p>The following <strong>Nostr kind ${verificationReportKind}</strong> report will be sent to the configured relays:</p>`,
     `<p><strong>Verification event id (e):</strong> ${verification.id}</p>`,
     `<p><strong>Reported pubkey (p):</strong> ${verification.pubkey}</p>`,
     `<p><strong>Reason (r):</strong> ${reason}</p>`

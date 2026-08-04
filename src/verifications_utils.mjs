@@ -41,7 +41,9 @@ import {
   relayPaginationPageLimits,
   nip89ClientTagD,
   wsBotPublicKey,
-  maxFileAttachmentContentLength
+  maxFileAttachmentContentLength,
+  siteAdminPubkeys,
+  isWalletScrutinySiteAdmin,
 } from "./nostr-constants.mjs";
 import { waitNostr } from 'nip07-awaiter';
 import { getFirstTagValue, getStatusText, getVerificationReplaceableKey } from './verifications_common.mjs';
@@ -445,12 +447,42 @@ const createVerification = async function ({
 }
 
 const REPORT_REASONS = new Set(['spam', 'incorrect']);
+const EVENT_ID_HEX_RE = /^[0-9a-f]{64}$/i;
 
 /**
- * Fetches kind-1984 (NIP-56) reports that reference the given verification event ids.
- * Any author is considered for hiding matching verifications on the site.
- * @param {string[]} verificationEventIds
- * @returns {Promise<Set<string>>}
+ * Verification ids to hide from admin verification-report events.
+ * Non-admin authors, unknown reasons, and e tags outside requestedIds are ignored.
+ */
+function reportedIdsFromReports(reportEvents, requestedIds) {
+  const requested = new Set(requestedIds);
+  const reported = new Set();
+  if (!requested.size) {
+    return reported;
+  }
+
+  for (const ev of reportEvents) {
+    if (!isWalletScrutinySiteAdmin(ev.pubkey)) {
+      continue;
+    }
+    if (!REPORT_REASONS.has(getFirstTagValue(ev, 'r', null))) {
+      continue;
+    }
+    for (const t of ev.tags || []) {
+      if (t[0] !== 'e') {
+        continue;
+      }
+      const eventId = t[1];
+      if (eventId && EVENT_ID_HEX_RE.test(eventId) && requested.has(eventId)) {
+        reported.add(eventId);
+      }
+    }
+  }
+  return reported;
+}
+
+/**
+ * Fetches verification-report events for the given verification ids.
+ * Relay author filter is an optimization; pubkey and reason are re-checked client-side.
  */
 async function fetchReportsForVerificationIds(verificationEventIds) {
   const reported = new Set();
@@ -465,15 +497,11 @@ async function fetchReportsForVerificationIds(verificationEventIds) {
       const batch = await nostrFetchEvents({
         kinds: [verificationReportKind],
         '#e': chunk,
+        authors: siteAdminPubkeys,
         since: verificationEventsSinceTS
       });
-      for (const ev of batch) {
-        const eTags = ev.tags?.filter(t => t[0] === 'e') || [];
-        for (const t of eTags) {
-          if (t[1] && /^[0-9a-f]{64}$/i.test(t[1])) {
-            reported.add(t[1]);
-          }
-        }
+      for (const eventId of reportedIdsFromReports(batch, verificationEventIds)) {
+        reported.add(eventId);
       }
     } catch (e) {
       console.warn('fetchReportsForVerificationIds: chunk failed', e);
@@ -497,6 +525,10 @@ const createVerificationReport = async function ({
   }
   if (!REPORT_REASONS.has(reason)) {
     throw new Error('Invalid report reason');
+  }
+  const authorPubkey = await getUserPubkey();
+  if (!isWalletScrutinySiteAdmin(authorPubkey)) {
+    throw new Error('Only site admins can publish verification reports');
   }
 
   const tags = [
@@ -2369,5 +2401,6 @@ export {
   getEndorsementsFromVerificationEventIds,
   createZap,
   subscribeToZapReceipts,
-  createAuthorizationEvent
+  createAuthorizationEvent,
+  reportedIdsFromReports,
 };
