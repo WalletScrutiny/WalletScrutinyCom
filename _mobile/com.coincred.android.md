@@ -17,11 +17,11 @@ android:
   users: 100000
   appCountry: us
   released: 2021-09-01
-  updated: 2025-04-16
-  version: 2.5.5
+  updated: 2026-08-03
+  version: 2.5.6
   reviews: 26
   icon: com.coincred.android.png
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: CoinCRED
 iphone:

@@ -30,8 +30,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-01-31
-  updated: 2026-07-24
-  version: 1.67.4
+  updated: 2026-07-31
+  version: 1.67.6
   reviews: 2313
   icon: com.coinomi.wallet.png
   meta: ok
@@ -42,9 +42,9 @@ iphone:
   idd: 1333588809
   appCountry: us
   released: 2018-03-22
-  updated: 2026-06-23
-  version: 1.67.3
-  reviews: 2125
+  updated: 2026-08-03
+  version: 1.67.5
+  reviews: 2128
   icon: com.coinomi.wallet.jpg
   meta: ok
   verdict: nosource

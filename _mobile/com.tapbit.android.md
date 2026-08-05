@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   released: 2022-09-20
-  updated: 2026-07-27
+  updated: 2026-08-03
   version: 4.4.1
   reviews: 32
   icon: com.tapbit.android.png
@@ -31,8 +31,8 @@ iphone:
   idd: '1610497530'
   appCountry: us
   released: 2022-03-01
-  updated: 2026-07-30
-  version: 4.4.1
+  updated: 2026-08-01
+  version: 4.4.2
   reviews: 53
   icon: com.billance.cn.jpg
   meta: ok

@@ -14,8 +14,8 @@ android:
   users: 5000
   appCountry: us
   released: 2025-12-05
-  updated: 2026-06-23
-  version: 0.9.4
+  updated: 2026-07-31
+  version: 1.0.0
   icon: com.useguap.android.rn.png
   meta: ok
   verdict: custodial
@@ -27,7 +27,7 @@ iphone:
   released: 2025-12-08
   updated: 2026-06-29
   version: 0.9.4
-  reviews: 3
+  reviews: 4
   icon: com.useguap.ios.rn.jpg
   meta: ok
   verdict: custodial

@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2014-12-15
   updated: 2026-07-30
-  version: 5.9.2
+  version: 5.9.4
   reviews: 494
   icon: id.co.bitcoin.png
   meta: ok

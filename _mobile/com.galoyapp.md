@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2020-11-24
   updated: 2026-07-28
-  version: 3.0.7
-  reviews: 48
+  version: 3.0.16
+  reviews: 49
   icon: com.galoyapp.png
   meta: ok
   verdict: custodial

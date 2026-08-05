@@ -26,7 +26,7 @@ android:
   released: 2024-05-13
   updated: 2026-06-20
   version: 2.6.0
-  reviews: 15
+  reviews: 16
   icon: com.cypherstack.stackwallet.png
   meta: ok
   verdict: sourceavailable
@@ -39,7 +39,7 @@ iphone:
   released: 2022-08-26
   updated: 2026-06-26
   version: 2.6.0
-  reviews: 26
+  reviews: 27
   icon: com.cypherstack.stackwallet.jpg
   meta: ok
   verdict: sourceavailable

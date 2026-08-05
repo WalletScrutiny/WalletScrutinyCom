@@ -12,7 +12,7 @@ redirect_from:
 - /iphone/com.amaxg.bizapaywallet/
 android:
   appId: com.amaxg.bizapaywallet
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2025-01-13
   updated: 2026-02-06

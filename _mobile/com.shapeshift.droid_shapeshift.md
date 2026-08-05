@@ -42,7 +42,7 @@ iphone:
   released: 2015-06-09
   updated: 2026-02-20
   version: 3.7.2
-  reviews: 80
+  reviews: 81
   icon: com.shapeShift.shapeShift.jpg
   meta: ok
   verdict: nosource

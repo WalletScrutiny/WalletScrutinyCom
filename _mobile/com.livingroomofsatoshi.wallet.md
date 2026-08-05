@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-06-02
   version: 3.3.6
-  reviews: 43
+  reviews: 45
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok
   verdict: custodial

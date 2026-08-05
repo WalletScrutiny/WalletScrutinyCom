@@ -37,7 +37,7 @@ iphone:
   released: 2016-05-12
   updated: 2026-07-29
   version: 6.2.77
-  reviews: 1646
+  reviews: 1647
   icon: com.unocoin.mainapp.production.jpg
   meta: ok
   verdict: custodial

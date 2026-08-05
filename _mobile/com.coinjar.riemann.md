@@ -32,7 +32,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-07-30
   version: 3.62.0
-  reviews: 15218
+  reviews: 15219
   icon: com.coinjar.mobius.jpg
   meta: ok
   verdict: custodial

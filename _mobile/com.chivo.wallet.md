@@ -22,7 +22,7 @@ android:
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14248
+  reviews: 14250
   icon: com.chivo.wallet.png
   meta: ok
   verdict: obfuscated
@@ -34,7 +34,7 @@ iphone:
   released: 2021-09-07
   updated: 2025-08-28
   version: 3.1.0
-  reviews: 4265
+  reviews: 4266
   icon: com.chivo.wallet.jpg
   meta: ok
   verdict: obfuscated

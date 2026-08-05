@@ -19,8 +19,8 @@ android:
   users: 50000
   appCountry: us
   released: 2024-08-19
-  updated: 2026-07-24
-  version: 4.5.0
+  updated: 2026-07-30
+  version: 4.6.0
   reviews: 108
   icon: tech.coinflip.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2024-06-05
   updated: 2026-07-27
   version: '4.7'
-  reviews: 891
+  reviews: 893
   icon: tech.coinflip.CoinFlip.jpg
   meta: ok
   verdict: custodial

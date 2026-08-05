@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-12
   updated: 2026-07-19
   version: '9.02'
-  reviews: 5512
+  reviews: 5516
   icon: com.mudrex.ios.jpg
   meta: ok
   verdict: custodial

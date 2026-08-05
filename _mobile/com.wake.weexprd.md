@@ -33,9 +33,9 @@ iphone:
   idd: '1609350789'
   appCountry: us
   released: 2022-03-04
-  updated: 2026-07-21
-  version: 4.5.34
-  reviews: 2011
+  updated: 2026-08-01
+  version: 4.5.35
+  reviews: 2027
   icon: com.wake.weexprd.jpg
   meta: ok
   verdict: custodial

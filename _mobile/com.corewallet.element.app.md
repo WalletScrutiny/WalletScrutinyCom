@@ -15,7 +15,7 @@ android:
   released: 2024-06-05
   updated: 2025-04-02
   version: 1.13.0
-  reviews: 324
+  reviews: 325
   icon: com.corewallet.element.app.jpg
   meta: stale
   verdict: nosource
@@ -27,7 +27,7 @@ iphone:
   released: 2024-03-22
   updated: 2025-04-03
   version: 1.13.0
-  reviews: 172
+  reviews: 173
   icon: Element-com.elementwallet.app.jpg
   meta: stale
   verdict: nosource

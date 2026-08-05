@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-06-21
-  updated: 2026-07-16
-  version: 8.1.0
+  updated: 2026-08-04
+  version: 8.2.1
   reviews: 26
   icon: io.getamber.app.png
   meta: ok

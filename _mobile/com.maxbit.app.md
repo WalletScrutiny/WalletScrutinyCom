@@ -27,7 +27,7 @@ iphone:
   released: 2023-12-13
   updated: 2026-07-23
   version: v1.41.1
-  reviews: 360
+  reviews: 364
   icon: com.maxbit.app.jpg
   meta: ok
   verdict: custodial

@@ -30,8 +30,8 @@ iphone:
   idd: '6455259516'
   appCountry: us
   released: 2023-08-30
-  updated: 2026-07-19
-  version: 1.0.5
+  updated: 2026-08-02
+  version: 1.0.6
   reviews: 20
   icon: com.orangex.exchange.jpg
   meta: ok

@@ -35,8 +35,8 @@ iphone:
   idd: '1592064324'
   appCountry: ch
   released: 2021-11-28
-  updated: 2026-06-29
-  version: 3.8.0
+  updated: 2026-08-03
+  version: 3.9.0
   reviews: 40
   icon: defisuisseag.thorwallet.jpg
   meta: ok

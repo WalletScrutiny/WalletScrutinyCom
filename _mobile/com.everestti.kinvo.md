@@ -34,7 +34,7 @@ iphone:
   released: 2018-01-03
   updated: 2026-07-30
   version: 3.66.1
-  reviews: 19146
+  reviews: 19153
   icon: com.everest.kinvo.jpg
   meta: ok
   verdict: nosendreceive

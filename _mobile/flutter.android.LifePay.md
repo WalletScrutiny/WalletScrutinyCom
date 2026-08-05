@@ -35,7 +35,7 @@ iphone:
   version: 2.4.7
   reviews: 0
   icon: com.prominentwiselimited.lifpay.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: PROMINENTWISE LIMITED
 

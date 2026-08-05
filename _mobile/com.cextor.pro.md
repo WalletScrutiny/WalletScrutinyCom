@@ -16,7 +16,7 @@ android:
   version: 2026.07.02
   reviews: 5
   icon: com.cextor.pro.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: CEXTOR
 

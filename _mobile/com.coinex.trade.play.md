@@ -21,7 +21,7 @@ android:
   released: 2019-12-27
   updated: 2026-07-28
   version: 4.18.0
-  reviews: 876
+  reviews: 875
   icon: com.coinex.trade.play.png
   meta: ok
   verdict: custodial

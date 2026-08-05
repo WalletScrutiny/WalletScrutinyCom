@@ -1,6 +1,6 @@
 ---
 wsId: phantomlabs
-title: Phantom
+title: Phantom - Trade Markets
 date: 2023-12-21
 authors:
 - danny
@@ -23,9 +23,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2022-04-12
-  updated: 2026-07-27
-  version: 26.22.0
-  reviews: 2327
+  updated: 2026-07-31
+  version: 26.24.0
+  reviews: 2331
   icon: app.phantom.png
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2022-01-30
   updated: 2026-07-30
   version: 26.23.0
-  reviews: 64141
+  reviews: 64164
   icon: app.phantom.jpg
   meta: ok
   verdict: nosource

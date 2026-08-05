@@ -18,7 +18,7 @@ android:
   updated: 2025-08-06
   version: 1.3.0
   icon: com.frt.globe.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Globe Exchange
 iphone:

@@ -1,7 +1,6 @@
 ---
 title: Coinkite Coldcard Mk 2
 appId: coinkite.coldcard.mk2
-bitcoinOrgId: coldcard
 authors:
 - danny
 - mohammad

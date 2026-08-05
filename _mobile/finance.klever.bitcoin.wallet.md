@@ -27,7 +27,7 @@ android:
   appCountry: us
   released: 2023-01-16
   updated: 2026-07-20
-  version: 5.50.20
+  version: 5.50.24
   reviews: 204
   icon: finance.klever.bitcoin.wallet.png
   meta: ok
@@ -40,7 +40,7 @@ iphone:
   released: 2023-01-25
   updated: 2026-07-22
   version: 5.9.10
-  reviews: 1119
+  reviews: 1121
   icon: finance.klever.bitcoin.wallet.jpg
   meta: ok
   verdict: nosource

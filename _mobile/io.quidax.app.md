@@ -21,8 +21,8 @@ android:
   users: 50000
   appCountry: us
   released: 2025-04-21
-  updated: 2026-07-22
-  version: 1.2.19
+  updated: 2026-08-01
+  version: 1.2.20
   reviews: 12
   icon: io.quidax.app.png
   meta: ok
@@ -35,7 +35,7 @@ iphone:
   released: 2025-07-07
   updated: 2026-07-22
   version: 1.1.17
-  reviews: 589
+  reviews: 590
   icon: io.quidax.pro.jpg
   meta: ok
   verdict: custodial

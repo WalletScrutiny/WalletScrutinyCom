@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2014-12-23
   updated: 2026-07-31
-  version: 4.00.01
-  reviews: 88
+  version: 4.00.02
+  reviews: 87
   icon: zebpay.Application.png
   meta: ok
   verdict: custodial

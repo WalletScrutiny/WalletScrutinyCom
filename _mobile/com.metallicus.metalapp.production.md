@@ -30,9 +30,9 @@ iphone:
   idd: 1345101178
   appCountry: us
   released: 2018-09-14
-  updated: 2026-07-23
-  version: 3.1.219
-  reviews: 4311
+  updated: 2026-08-04
+  version: 3.1.221
+  reviews: 4320
   icon: com.metallicus.metalpay.jpg
   meta: ok
   verdict: custodial

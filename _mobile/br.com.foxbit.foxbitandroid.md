@@ -19,8 +19,8 @@ android:
   appCountry: br
   released: 2019-01-28
   updated: 2026-07-28
-  version: 3.45.1
-  reviews: 6404
+  version: 3.46.0
+  reviews: 6402
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-03-24
   updated: 2026-07-24
   version: 3.46.0
-  reviews: 5552
+  reviews: 5553
   icon: br.com.foxbit.jpg
   meta: ok
   verdict: custodial

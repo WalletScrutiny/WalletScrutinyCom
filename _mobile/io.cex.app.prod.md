@@ -36,7 +36,7 @@ iphone:
   released: 2015-12-22
   updated: 2026-07-30
   version: 12.50.0
-  reviews: 12913
+  reviews: 12911
   icon: io.cex.app.jpg
   meta: ok
   verdict: custodial

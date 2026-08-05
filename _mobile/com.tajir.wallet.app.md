@@ -24,7 +24,7 @@ iphone:
   released: 2025-12-03
   updated: 2026-07-08
   version: 2.1.9
-  reviews: 6
+  reviews: 7
   icon: com.tajir.wallet.app.jpg
   meta: ok
   verdict: nosource

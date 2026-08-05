@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-13
-  updated: 2026-07-18
-  version: 1.1.49
+  updated: 2026-07-31
+  version: 1.1.50
   reviews: 38
   icon: com.valr.app.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1453499428
   appCountry: jp
   released: 2019-09-27
-  updated: 2026-07-20
-  version: 1.1.49
+  updated: 2026-08-01
+  version: 1.1.50
   reviews: 1
   icon: com.valr.mobile.jpg
   meta: ok

@@ -36,9 +36,9 @@ iphone:
   idd: '1449018960'
   appCountry: at
   released: 2019-11-29
-  updated: 2026-07-29
-  version: 3.29.0
-  reviews: 25896
+  updated: 2026-07-31
+  version: 3.29.1
+  reviews: 25923
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
   verdict: custodial

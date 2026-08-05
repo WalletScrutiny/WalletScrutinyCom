@@ -19,8 +19,8 @@ android:
   users: 5000
   appCountry: us
   released: 2025-03-19
-  updated: 2026-07-27
-  version: 2.2.1
+  updated: 2026-08-01
+  version: 2.2.2
   icon: com.dswallet.app.png
   meta: ok
   verdict: nosource

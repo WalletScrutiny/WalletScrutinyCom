@@ -23,7 +23,7 @@ android:
   released: 2021-10-26
   updated: 2026-07-06
   version: 5.7.81
-  reviews: 62
+  reviews: 63
   icon: com.mathwallet.android.png
   meta: ok
   verdict: nosource

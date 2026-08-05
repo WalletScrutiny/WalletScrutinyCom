@@ -17,7 +17,7 @@ android:
   users: 500000
   appCountry: us
   updated: 2026-07-29
-  version: 5.19.2
+  version: 5.19.3
   icon: com.bybit.eu.png
   meta: ok
   verdict: custodial
@@ -29,7 +29,7 @@ iphone:
   released: 2025-07-14
   updated: 2026-07-30
   version: 5.19.3
-  reviews: 194
+  reviews: 198
   icon: com.bybit.eu.jpg
   meta: ok
   verdict: custodial

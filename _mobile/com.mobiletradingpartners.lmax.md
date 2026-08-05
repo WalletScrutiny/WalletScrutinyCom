@@ -29,8 +29,8 @@ iphone:
   idd: 884042608
   appCountry: hu
   released: 2014-06-06
-  updated: 2026-07-08
-  version: 5.1.89
+  updated: 2026-08-05
+  version: 5.1.96
   reviews: 0
   icon: mobiletradingpartners.lmax.exchange.iphone.jpg
   meta: ok

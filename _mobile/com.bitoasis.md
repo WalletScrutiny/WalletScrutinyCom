@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: ae
   released: 2020-08-20
-  updated: 2026-07-03
-  version: 4.3.2
+  updated: 2026-07-31
+  version: 4.3.3
   reviews: 669
   icon: com.bitoasis.png
   meta: ok
@@ -36,7 +36,7 @@ iphone:
   released: 2020-07-06
   updated: 2026-07-17
   version: 2.4.4
-  reviews: 4497
+  reviews: 4498
   icon: net.bitoasis.ios.com.jpg
   meta: ok
   verdict: custodial

@@ -1,5 +1,5 @@
 ---
-title: 'SunCrypto: Best Crypto App'
+title: 'Suncrypto: Best Crypto App'
 date: 2021-09-11
 website: https://suncrypto.in
 twitter: suncryptoin
@@ -10,7 +10,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-06-28
-  updated: 2026-06-29
+  updated: 2026-08-04
   version: '5.24'
   reviews: 274
   icon: com.suncrypto.in.png

@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-04-04
-  updated: 2026-07-24
-  version: 26.0.32
+  updated: 2026-08-03
+  version: 26.0.33
   reviews: 8
   icon: com.multibank.app.png
   meta: ok

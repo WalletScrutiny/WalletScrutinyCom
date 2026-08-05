@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-02-13
-  updated: 2026-07-17
-  version: 16.6.0
+  updated: 2026-08-04
+  version: 16.7.1
   reviews: 4
   icon: com.syfe.jpg
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1497156434'
   appCountry: sg
   released: 2020-02-24
-  updated: 2026-07-21
-  version: 16.6.0
+  updated: 2026-08-04
+  version: 16.7.1
   reviews: 627
   icon: com.syfe.jpg
   meta: ok

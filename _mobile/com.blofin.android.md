@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-05-13
-  updated: 2026-07-18
-  version: 3.34.0
+  updated: 2026-07-31
+  version: 3.35.0
   reviews: 119
   icon: com.blofin.android.png
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '1616804346'
   appCountry: us
   released: 2022-04-15
-  updated: 2026-07-22
-  version: 3.34.0
-  reviews: 1430
+  updated: 2026-08-02
+  version: 3.35.0
+  reviews: 1434
   icon: com.blofin.app.jpg
   meta: ok
   verdict: nosendreceive

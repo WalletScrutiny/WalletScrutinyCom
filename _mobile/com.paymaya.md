@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2016-06-05
   updated: 2026-07-30
-  version: 2.167.0
-  reviews: 1231
+  version: 2.168.0
+  reviews: 1235
   icon: com.paymaya.png
   meta: ok
   verdict: custodial

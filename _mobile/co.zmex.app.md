@@ -12,8 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2026-07-10
-  updated: 2026-07-10
-  version: 3.11.18
+  updated: 2026-07-30
+  version: 3.11.19
   icon: co.zmex.app.png
   meta: ok
   verdict: custodial
@@ -23,8 +23,8 @@ iphone:
   idd: '6711352543'
   appCountry: us
   released: 2024-10-28
-  updated: 2026-07-11
-  version: 3.11.18
+  updated: 2026-08-03
+  version: 3.11.19
   reviews: 60
   icon: com.zmexglobal.app.jpg
   meta: ok

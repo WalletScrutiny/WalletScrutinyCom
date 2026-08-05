@@ -19,7 +19,7 @@ android:
   released: 2021-08-02
   updated: 2026-06-30
   version: 1.5.5
-  reviews: 261
+  reviews: 262
   icon: fm.fountain.apps.png
   meta: ok
   verdict: custodial

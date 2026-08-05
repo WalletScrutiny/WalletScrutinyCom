@@ -15,8 +15,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-12-17
-  updated: 2026-07-27
-  version: 2.178.0
+  updated: 2026-08-03
+  version: 2.179.0
   reviews: 219
   icon: com.xtb.xmobile2.png
   meta: ok

@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2024-12-01
-  updated: 2026-07-28
-  version: 3.8.0
+  updated: 2026-08-05
+  version: 3.8.1
   reviews: 3
   icon: com.getmidas.crypto.png
   meta: ok

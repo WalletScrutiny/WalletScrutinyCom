@@ -32,7 +32,7 @@ iphone:
   released: 2022-02-09
   updated: 2026-07-13
   version: 5.0.3
-  reviews: 587
+  reviews: 588
   icon: com.margex.mobile.jpg
   meta: ok
   verdict: custodial

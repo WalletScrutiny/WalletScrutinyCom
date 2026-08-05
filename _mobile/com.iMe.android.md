@@ -21,7 +21,7 @@ android:
   released: 2019-07-22
   updated: 2026-07-28
   version: 12.9.0
-  reviews: 853
+  reviews: 854
   icon: com.iMe.android.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   released: 2019-07-31
   updated: 2026-07-26
   version: 12.8.1
-  reviews: 8707
+  reviews: 8733
   icon: com.olcorporation.olai.jpg
   meta: ok
   verdict: nosource

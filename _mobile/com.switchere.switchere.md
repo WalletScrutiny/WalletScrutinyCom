@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-11-15
-  updated: 2026-07-15
-  version: 1.1.29
+  updated: 2026-08-04
+  version: 1.1.30
   reviews: 49
   icon: com.switchere.switchere.png
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1550289857'
   appCountry: us
   released: 2021-11-15
-  updated: 2026-07-16
-  version: 1.1.29
+  updated: 2026-08-04
+  version: 1.1.30
   reviews: 78
   icon: com.switchere.switchere.jpg
   meta: ok

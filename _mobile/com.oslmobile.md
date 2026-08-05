@@ -18,8 +18,8 @@ android:
   appId: com.oslmobile
   users: 10000
   appCountry: CN
-  updated: 2026-07-26
-  version: 3.7.1
+  updated: 2026-08-01
+  version: 3.7.2
   reviews: 35
   icon: com.oslmobile.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '6468963677'
   appCountry: hk
   released: 2024-01-22
-  updated: 2026-07-27
-  version: 3.7.1
+  updated: 2026-08-04
+  version: 3.7.2
   reviews: 527
   icon: com.osl.mobile.OslMobile.jpg
   meta: ok

@@ -21,7 +21,7 @@ android:
   released: 2021-12-11
   updated: 2026-05-29
   version: 2.1.62
-  reviews: 90
+  reviews: 91
   icon: com.metallicus.webauth.png
   meta: ok
   verdict: nosource

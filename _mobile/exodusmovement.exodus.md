@@ -18,9 +18,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-06
-  updated: 2026-07-27
-  version: 26.7.23
-  reviews: 8673
+  updated: 2026-07-31
+  version: 26.7.30
+  reviews: 8678
   icon: exodusmovement.exodus.png
   meta: ok
   verdict: nosource
@@ -30,9 +30,9 @@ iphone:
   idd: 1414384820
   appCountry: us
   released: 2019-03-23
-  updated: 2026-07-29
-  version: 26.7.23
-  reviews: 36580
+  updated: 2026-08-03
+  version: 26.7.30
+  reviews: 36629
   icon: exodus-movement.exodus.jpg
   meta: ok
   verdict: nosource

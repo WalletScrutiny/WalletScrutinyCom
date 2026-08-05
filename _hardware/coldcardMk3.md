@@ -1,7 +1,6 @@
 ---
 title: Coldcard Mk3
 appId: coldcardMk3
-bitcoinOrgId: coldcard
 authors:
 - kiwilamb
 - leo

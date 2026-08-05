@@ -28,7 +28,7 @@ iphone:
   released: 2023-01-11
   updated: 2026-07-29
   version: 3.1.15
-  reviews: 105
+  reviews: 108
   icon: com.litefinance.cabinet.jpg
   meta: ok
   verdict: custodial

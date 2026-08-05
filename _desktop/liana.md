@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-07-20
 discontinued: 
-updated: 2026-04-17
-version: 14
+updated: 2026-08-01
+version: 15
 binaries: https://github.com/wizardsardine/liana/releases
 provider: Wizardsardine
 providerWebsite: 

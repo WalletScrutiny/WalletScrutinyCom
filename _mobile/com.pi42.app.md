@@ -11,7 +11,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-07-30
-  version: 2.3.08
+  version: 3.1.1
   icon: com.pi42.app.png
   meta: ok
   verdict: nosendreceive

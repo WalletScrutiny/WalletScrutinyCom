@@ -12,7 +12,7 @@ android:
   updated: 2022-01-10
   version: 1.0.0
   icon: com.cryptooriented.exchanges.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Transporter Lab GmbH
 

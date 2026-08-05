@@ -19,7 +19,7 @@ android:
   released: 2020-07-11
   updated: 2025-04-22
   version: 1.1.122
-  reviews: 14
+  reviews: 15
   icon: com.bitmama.bitmama.png
   meta: stale
   verdict: custodial

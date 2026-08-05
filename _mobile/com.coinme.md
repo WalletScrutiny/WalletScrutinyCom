@@ -22,7 +22,7 @@ android:
   released: 2021-05-06
   updated: 2026-07-23
   version: 3.4.1
-  reviews: 1156
+  reviews: 1157
   icon: com.coinme.png
   meta: ok
   verdict: custodial
@@ -34,7 +34,7 @@ iphone:
   released: 2021-05-11
   updated: 2026-07-24
   version: 3.4.1
-  reviews: 6491
+  reviews: 6504
   icon: com.coinme.CoinMe.jpg
   meta: ok
   verdict: custodial

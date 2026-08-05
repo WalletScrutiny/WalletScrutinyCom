@@ -24,7 +24,7 @@ android:
   released: 2020-02-19
   updated: 2026-07-23
   version: 5.22.0
-  reviews: 1466
+  reviews: 1467
   icon: com.phemex.app.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2020-02-20
   updated: 2026-07-24
   version: 5.23.0
-  reviews: 2755
+  reviews: 2757
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

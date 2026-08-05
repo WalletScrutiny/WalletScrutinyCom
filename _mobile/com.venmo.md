@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2010-05-17
   updated: 2026-07-29
-  version: 26.14.0
-  reviews: 358357
+  version: 26.14.1
+  reviews: 358723
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2010-04-03
   updated: 2026-07-28
   version: 26.14.1
-  reviews: 15467994
+  reviews: 15468375
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
   verdict: nosendreceive

@@ -1,6 +1,6 @@
 ---
 wsId: bitFlyer
-title: bitFlyer Crypto Exchange
+title: 'bitFlyer: Trade Crypto'
 date: 2021-08-27
 authors:
 - danny
@@ -19,7 +19,7 @@ android:
   released: 2019-10-19
   updated: 2026-07-28
   version: 10.0.3
-  reviews: 1731
+  reviews: 1734
   icon: com.bitflyer.android.bfwallet.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 1164758997
   appCountry: jp
   released: 2016-11-18
-  updated: 2026-07-29
-  version: 10.0.3
-  reviews: 133186
+  updated: 2026-08-04
+  version: 10.0.4
+  reviews: 133188
   icon: jp.bitflyer.wallet.jpg
   meta: ok
   verdict: custodial

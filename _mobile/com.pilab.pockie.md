@@ -23,7 +23,7 @@ android:
   version: 1.4.10
   reviews: 57
   icon: com.pilab.pockie.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: PiLab Technology
 iphone:

@@ -8,8 +8,8 @@ android:
   appId: nz.lightningpay.wallet
   users: 500
   appCountry: us
-  updated: 2026-07-23
-  version: 3.8.4
+  updated: 2026-08-04
+  version: 3.9.1
   icon: nz.lightningpay.wallet.png
   meta: fewusers
   verdict: wip

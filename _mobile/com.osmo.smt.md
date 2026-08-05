@@ -28,7 +28,7 @@ android:
   version: 4.9.19
   reviews: 45
   icon: com.osmo.smt.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: osmo
 iphone:
@@ -38,7 +38,7 @@ iphone:
   released: 2022-06-14
   updated: 2026-07-06
   version: 4.9.19
-  reviews: 159
+  reviews: 160
   icon: com.osmowallet.app.jpg
   meta: ok
   verdict: custodial

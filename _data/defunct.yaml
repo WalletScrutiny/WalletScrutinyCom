@@ -1,9 +1,3 @@
-2026-07-21:
-- _mobile/com.cextor.pro
-- _mobile/com.cryptooriented.exchanges
-- _mobile/com.osmo.smt
-- _mobile/com.blockchaincommodities.hippo_wallet
-- _mobile/com.fxoro.app
 2026-07-23:
 - _mobile/com.core.app.flitpay
 - _mobile/com.superchain.lbankgoogle
@@ -28,3 +22,13 @@
 - _mobile/com.splitloyalty.app.Split-Rewards
 - _mobile/de.fuf.bitbucks
 - _mobile/org.nativescript.knakenhybridapp
+2026-08-05:
+- _mobile/com.cakedefi.app
+- _mobile/com.kyrrex
+- _mobile/com.zapwallet.app
+- _mobile/com.bitbuy.mobileApp
+- _mobile/com.forex4you.android
+- _mobile/com.opz.dev
+- _mobile/com.union.cash
+- _mobile/exchange.delta
+- _mobile/io.unisat

@@ -18,8 +18,8 @@ android:
   appId: com.revolut.revolutx
   users: 500000
   appCountry: us
-  updated: 2026-07-28
-  version: '1.69'
+  updated: 2026-08-05
+  version: '1.70'
   reviews: 2
   icon: com.revolut.revolutx.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2025-03-18
   updated: 2026-07-29
   version: '1.70'
-  reviews: 2512
+  reviews: 2534
   icon: com.revolut.revolutx.jpg
   meta: ok
   verdict: custodial

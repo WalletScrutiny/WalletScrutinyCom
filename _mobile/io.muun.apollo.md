@@ -43,7 +43,7 @@ iphone:
   released: 2019-10-11
   updated: 2026-06-24
   version: 2.15.0
-  reviews: 334
+  reviews: 336
   icon: com.muun.falcon.jpg
   meta: ok
   verdict: sourceavailable

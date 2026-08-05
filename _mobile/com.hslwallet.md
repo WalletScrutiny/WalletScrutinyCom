@@ -9,10 +9,10 @@ android:
   users: 50
   appCountry: us
   released: 2021-08-04
-  updated: 2024-07-29
-  version: 7.7.2
+  updated: 2026-08-03
+  version: 7.14.84
   icon: com.hslwallet.png
-  meta: obsolete
+  meta: ok
   verdict: wip
   developerName: Hamilton Systems
 

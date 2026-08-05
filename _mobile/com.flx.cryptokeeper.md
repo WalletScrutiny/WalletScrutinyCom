@@ -28,7 +28,7 @@ iphone:
   released: 2025-07-22
   updated: 2026-02-21
   version: 6.0.0
-  reviews: 73
+  reviews: 95
   icon: com.flx.cryptokeeper.jpg
   meta: ok
   verdict: custodial

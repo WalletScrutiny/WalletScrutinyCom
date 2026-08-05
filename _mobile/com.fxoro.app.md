@@ -30,7 +30,7 @@ iphone:
   version: 1.6.3
   reviews: 0
   icon: com.compie.fxoro.jpg
-  meta: ok
+  meta: removed
   verdict: nosendreceive
   developerName: MCA INTELIFUNDS LIMITED
 

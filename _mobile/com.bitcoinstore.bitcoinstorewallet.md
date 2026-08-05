@@ -21,8 +21,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-01-03
-  updated: 2026-07-03
-  version: 1.0.56
+  updated: 2026-07-29
+  version: 1.0.57
   icon: com.bitcoinstore.bitcoinstorewallet.png
   meta: ok
   verdict: custodial
@@ -32,8 +32,8 @@ iphone:
   idd: '1661281314'
   appCountry: hr
   released: 2023-01-09
-  updated: 2026-07-10
-  version: 1.0.28
+  updated: 2026-08-03
+  version: 1.0.29
   reviews: 13
   icon: com.bitcoinstore.bitcoinstorewallet.jpg
   meta: ok

@@ -25,7 +25,7 @@ redirect_from:
 - /android/com.mycelium.wallet.kmp/
 android:
   appId: com.mycelium.wallet.kmp
-  users: 100
+  users: 500
   appCountry: us
   released: 2026-02-06
   updated: 2026-07-26

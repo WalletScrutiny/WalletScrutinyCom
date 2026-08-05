@@ -21,8 +21,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-12-09
-  updated: 2026-04-07
-  version: 6.10.5
+  updated: 2026-08-03
+  version: 6.10.8
   icon: com.chainup.hicoincloud.android.png
   meta: ok
   verdict: custodial

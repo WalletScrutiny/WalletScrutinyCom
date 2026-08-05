@@ -32,7 +32,7 @@ iphone:
   released: 2017-06-26
   updated: 2026-07-29
   version: 4.38.0
-  reviews: 458
+  reviews: 459
   icon: com.muchbetter.jpg
   meta: ok
   verdict: custodial

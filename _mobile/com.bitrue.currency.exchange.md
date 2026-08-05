@@ -31,11 +31,11 @@ iphone:
   released: 2018-09-16
   updated: 2026-07-30
   version: 6.1.34
-  reviews: 1122
+  reviews: 1123
   icon: com.cmcm.currency.exchange.jpg
   meta: ok
   verdict: custodial
-  developerName: BITRUE SINGAPORE PTE. LTD.
+  developerName: StraLink Innovations Technologies Limitada
 
 ---
 

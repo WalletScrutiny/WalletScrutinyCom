@@ -20,8 +20,8 @@ android:
   appId: com.coinpassmobile
   users: 1000
   appCountry: us
-  updated: 2026-05-13
-  version: 3.15.1-coinpass
+  updated: 2026-08-04
+  version: 3.16.1-coinpass
   icon: com.coinpassmobile.png
   meta: ok
   verdict: custodial
