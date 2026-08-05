@@ -1,4 +1,20 @@
+import DOMPurify from 'dompurify';
+
 const SHA256_HEX_RE = /^[0-9a-f]{64}$/i;
+
+/** Tags that must never appear in rendered markdown / rich HTML. */
+const RICH_HTML_FORBIDDEN_TAGS = new Set([
+  'script', 'iframe', 'object', 'embed', 'form', 'input', 'textarea', 'select',
+  'button', 'style', 'link', 'meta', 'base', 'svg', 'math', 'image', 'video',
+  'audio', 'source', 'track', 'frame', 'frameset', 'applet', 'foreignobject',
+]);
+
+/** DOMPurify config for markdown → HTML (HTML profile only; no SVG/MathML). */
+export const RICH_HTML_PURIFY_CONFIG = {
+  USE_PROFILES: { html: true },
+  FORBID_TAGS: [...RICH_HTML_FORBIDDEN_TAGS],
+  FORBID_ATTR: ['style'],
+};
 
 export function isSha256Hex(value) {
   return typeof value === 'string' && SHA256_HEX_RE.test(value);
@@ -26,6 +42,57 @@ export function sanitizeHttpUrl(value) {
   } catch {
     return null;
   }
+}
+
+function canUseDomPurify() {
+  return Boolean(DOMPurify?.isSupported && typeof DOMPurify.sanitize === 'function');
+}
+
+function isDangerousUrlAttr(name, value) {
+  if (!/^(href|src|xlink:href|formaction|action)$/i.test(name)) {
+    return false;
+  }
+  const trimmed = String(value ?? '').trim();
+  return /^\s*(?:javascript|vbscript|data):/i.test(trimmed);
+}
+
+/**
+ * DOM-tree sanitizer used when DOMPurify is unsupported (e.g. linkedom in unit tests).
+ * Removes forbidden tags, event-handler attributes, and javascript:/data: URLs.
+ */
+export function sanitizeRichHtmlWithDom(html) {
+  if (typeof document === 'undefined') {
+    return stripHtmlTags(html);
+  }
+  const wrap = document.createElement('div');
+  wrap.innerHTML = String(html ?? '');
+
+  for (const node of [...wrap.querySelectorAll('*')]) {
+    const tag = node.tagName?.toLowerCase?.() ?? '';
+    if (RICH_HTML_FORBIDDEN_TAGS.has(tag)) {
+      node.remove();
+      continue;
+    }
+    for (const attr of [...(node.attributes ?? [])]) {
+      if (/^on/i.test(attr.name) || isDangerousUrlAttr(attr.name, attr.value)) {
+        node.removeAttribute(attr.name);
+      }
+    }
+  }
+
+  return wrap.innerHTML;
+}
+
+/**
+ * Sanitize HTML produced from untrusted markdown (or any rich HTML sink).
+ * Prefer DOMPurify in the browser; fall back to a DOM walk when unsupported.
+ */
+export function sanitizeRichHtml(html) {
+  const raw = String(html ?? '');
+  if (canUseDomPurify()) {
+    return DOMPurify.sanitize(raw, RICH_HTML_PURIFY_CONFIG);
+  }
+  return sanitizeRichHtmlWithDom(raw);
 }
 
 /**

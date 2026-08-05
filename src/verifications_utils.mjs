@@ -586,39 +586,14 @@ function isValidJSONObject(str) {
 }
 
 /**
- * Sanitizes HTML content by removing potentially dangerous tags.
- * This allows various formatting tags to be kept, which is useful for rich content,
- * while mitigating risks from tags that can execute scripts or handle form submissions.
- * @param {string} content The HTML string to sanitize.
- * @returns {string} The sanitized HTML string.
+ * Markdown body of a verification is sanitized at render time (marked → sanitizeRichHtml).
+ * At ingest we only length-limit so legitimate markdown syntax is preserved.
  */
-function sanitizeDangerousHTML(content) {
+function sanitizeVerificationMarkdownContent(content) {
   if (!content) {
     return content;
   }
-
-  const forbiddenTags = [
-    'script', 'iframe', 'object', 'embed', 'form', 'input',
-    'textarea', 'select', 'button', 'img', 'style', 'link', 'image'
-  ];
-
-  let sanitizedContent = content;
-
-  forbiddenTags.forEach(tag => {
-    // This regex targets tags that enclose content, like <script>...</script>.
-    // It's case-insensitive (i) and global (g) to catch all occurrences.
-    // The 's' flag allows '.' to match newlines, to handle multi-line content.
-    const contentTagRegex = new RegExp(`<${tag}\\b[^>]*>.*?<\\/${tag}>`, 'gis');
-    sanitizedContent = sanitizedContent.replace(contentTagRegex, '');
-
-    // This second regex is for self-closing or standalone tags like <img ...> or <link ...>.
-    // It finds the tag and removes it. This is run after the first regex
-    // to clean up any remaining opening tags that didn't have a matching closing tag.
-    const selfClosingTagRegex = new RegExp(`<${tag}\\b[^>]*>`, 'gi');
-    sanitizedContent = sanitizedContent.replace(selfClosingTagRegex, '');
-  });
-
-  return sanitizedContent;
+  return String(content).substring(0, 60000);
 }
 
 const sanitizedEvents = new WeakSet();
@@ -648,9 +623,7 @@ function eventSanitize(event) {
     Object.keys(contentObject).forEach(key => {
       let sanitizedContent;
       if (key === 'content') {
-        // For 'content', sanitize to remove dangerous tags
-        // like <script>, but allow other (XML?) tags
-        sanitizedContent = sanitizeDangerousHTML(contentObject[key]);
+        sanitizedContent = sanitizeVerificationMarkdownContent(contentObject[key]);
       } else {
         // For other fields like 'description', sanitize to strip any HTML.
         sanitizedContent = purifyText(contentObject[key]);
@@ -658,8 +631,6 @@ function eventSanitize(event) {
 
       if (key === 'description') {
         sanitizedContent = sanitizedContent.substring(0, 120);
-      } else if (key === 'content') {
-        sanitizedContent = sanitizedContent.substring(0, 60000);
       }
 
       contentObject[key] = sanitizedContent;
@@ -1997,6 +1968,7 @@ const loadDraftVerificationsNotifications = async function () {
   }
 
   if (myDraftVerifications && myDraftVerifications.length > 0) {
+    ensureDraftNotificationClickHandler();
     myDraftVerifications.forEach(verification => {
       const identifier = getFirstTagValue(verification, 'i', 'Unknown');
       const version = getFirstTagValue(verification, 'version', null);
@@ -2008,10 +1980,26 @@ const loadDraftVerificationsNotifications = async function () {
       addNotificationToIndicator('Unpublished Verification',
         `${walletTitle} - ${version ? version+' -' : ''} ${formatDate(verification.created_at)} ${statusIcon}
         <br>
-        <button class="edit-button" onclick="doDraftVerificationAction('${verification.id}', 'edit')">Edit</button>
-        <button class="delete-button" onclick="doDraftVerificationAction('${verification.id}', 'delete')">Delete</button>`,'info')
+        ${isSha256Hex(verification.id) ? `<button class="edit-button" data-draft-id="${verification.id}" data-draft-action="edit">Edit</button>
+        <button class="delete-button" data-draft-id="${verification.id}" data-draft-action="delete">Delete</button>` : ''}`,'info')
     });
   }
+}
+
+function ensureDraftNotificationClickHandler() {
+  const list = document.querySelector('.notifications-list');
+  if (!list || list.dataset.draftActionsWired === '1') {
+    return;
+  }
+  list.dataset.draftActionsWired = '1';
+  list.addEventListener('click', (event) => {
+    const btn = event.target.closest('[data-draft-id][data-draft-action]');
+    if (!btn) {
+      return;
+    }
+    event.preventDefault();
+    doDraftVerificationAction(btn.dataset.draftId, btn.dataset.draftAction);
+  });
 }
 
 function doDraftVerificationAction(draftVerificationEventId, action) {

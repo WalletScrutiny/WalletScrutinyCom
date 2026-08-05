@@ -1,3 +1,5 @@
+import { el, isSha256Hex } from './html-utils.mjs';
+
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
@@ -267,12 +269,18 @@ export async function renderCommentsSection(container, verificationKey, authorPu
         <button class="comment-submit-btn">Post</button>
       </div>
       <div class="comments-list">
-        ${commentsForThisVerification.map((comment, index) => `
-          <div class="ws-v-comment comment-profile-${comment.pubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
+        ${commentsForThisVerification.map((comment, index) => {
+          const safePubkey = isSha256Hex(comment.pubkey) ? comment.pubkey : '';
+          const safeId = isSha256Hex(comment.id) ? comment.id : '';
+          if (!safePubkey) {
+            return '';
+          }
+          return `
+          <div class="ws-v-comment comment-profile-${safePubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
-              <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
-              ${window.userPubkey && comment.pubkey === window.userPubkey ? `
-              <button type="button" class="comment-delete-btn" data-comment-id="${comment.id}" title="Delete comment" aria-label="Delete comment">
+              <span class="comment-author-name" data-pubkey="${safePubkey}">${escapeHtml(comment.author)}</span>
+              ${window.userPubkey && safePubkey === window.userPubkey && safeId ? `
+              <button type="button" class="comment-delete-btn" data-comment-id="${safeId}" title="Delete comment" aria-label="Delete comment">
                 <i class="fas fa-trash-alt" aria-hidden="true"></i>
               </button>` : ''}
             </div>
@@ -280,10 +288,11 @@ export async function renderCommentsSection(container, verificationKey, authorPu
               <div class="comment-body">${escapeHtml(comment.content)}</div>
             </div>
             <div class="comment-date">
-              <span>${comment.date}</span>
+              <span>${escapeHtml(comment.date)}</span>
             </div>
           </div>
-        `).join('')}
+        `;
+        }).join('')}
         ${commentsForThisVerification.length > MAX_COMMENTS_TO_SHOW ? `
           <div class="see-more-container">
             <a href="#" class="see-more-link">See ${commentsForThisVerification.length - MAX_COMMENTS_TO_SHOW} more comments</a>
@@ -317,8 +326,19 @@ export async function renderCommentsSection(container, verificationKey, authorPu
         const commentAuthorName = profileElement.querySelector('.comment-author-name');
         if (commentAuthorName) {
           const displayName = profile?.name || pubkey;
-          const profileUrl = `https://njump.me/${npub}`;
-          commentAuthorName.innerHTML = `<a href="${profileUrl}" target="_blank" rel="noopener noreferrer">${displayName}</a>`;
+          const profileUrl = npub ? `https://njump.me/${npub}` : null;
+          commentAuthorName.replaceChildren();
+          if (profileUrl) {
+            commentAuthorName.appendChild(
+              el('a', {
+                href: profileUrl,
+                target: '_blank',
+                rel: 'noopener noreferrer',
+              }, displayName),
+            );
+          } else {
+            commentAuthorName.appendChild(document.createTextNode(String(displayName)));
+          }
         }
       });
 

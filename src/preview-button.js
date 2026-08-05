@@ -2,7 +2,7 @@
  * Preview tab for markdown content on the new verification form.
  */
 
-import { getMarked, prefetchMarked } from './marked-loader.js';
+import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.js';
 
 /**
  * Initialize the preview button functionality
@@ -58,8 +58,7 @@ function setupPreviewButtons() {
       previewArea.style.overflowY = 'auto';
 
       try {
-        const marked = await getMarked();
-        previewArea.innerHTML = marked.parse(contentArea.value);
+        previewArea.innerHTML = await parseMarkdownToSafeHtml(contentArea.value);
       } catch (error) {
         console.error('Error parsing markdown:', error);
         previewArea.innerHTML = '<p style="color: red;">Error parsing markdown content</p>';

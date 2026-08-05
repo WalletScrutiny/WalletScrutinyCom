@@ -145,6 +145,9 @@ permalink: /verifiers/
     `;
 
     document.getElementById(containerId).innerHTML = tableHTML;
+    document.querySelectorAll(`#${containerId} .attestator-card-column`).forEach((cell) => {
+      wireProfileCardInteractions(cell);
+    });
 
     // Load profiles concurrently — getNostrProfile dedupes in-flight fetches
     // across the parallel month tables that share verifiers.
@@ -153,6 +156,7 @@ permalink: /verifiers/
         const el = document.getElementById(`${idPrefix}-${pubkey}`);
         if (el) {
           el.innerHTML = renderProfileCardHtml(pubkey, profile);
+          wireProfileCardInteractions(el);
         }
       }).catch(() => {});
     });
