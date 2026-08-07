@@ -40,7 +40,7 @@ features:
 ---
 
 <div class="alertBox"><div>
-⚠️ Warning (2026-08-02): Seeds generated on this device with firmware before 5.6.0 (Edge 6.6.0X) have as little as ~72 bits of entropy instead of the intended 128 and may be predictable. Coinkite advises updating the firmware and generating a new seed. Seeds created with 50 or more independent dice rolls are not affected. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
+⚠️ Warning (2026-08-02): Seeds generated on this device with firmware before 5.6.0 (Edge 6.6.0X) have as little as ~72 bits of entropy instead of the intended 128 and may be predictable. Updating the firmware does not repair a seed that was already created — Coinkite advises updating, generating a new seed on the fixed firmware, and moving any funds to it. Seeds are not affected by this issue alone only if at least 50 fair, independent, private dice rolls were added when the seed was created, those rolls were never recorded or otherwise exposed, and the seed words used are the ones shown after adding them. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
 </div> </div>
 
 ## Product Description
