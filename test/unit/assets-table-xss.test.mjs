@@ -33,6 +33,7 @@ import {
   buildAttachmentVerificationMetaHtml,
   createAttachmentRowActions,
   createAttachmentVerificationMeta,
+  createAttachmentPreviewNode,
 } from '../../src/assets-table-attachments.js';
 import { verificationKind } from '../../src/nostr-constants.mjs';
 import { HASH_A, makeEvent } from './fixtures.mjs';
@@ -536,6 +537,16 @@ describe('attachment HTML builders — ids/names/meta must not break handlers or
     assertSafeElementTree(node);
     assert.equal(node.querySelectorAll('img').length, 0);
     assert.match(node.textContent, /onmouseover/);
+  });
+
+  test('attachment preview keeps HTML tags as text, not DOM nodes', () => {
+    const node = createAttachmentPreviewNode(
+      `echo ok\n${HTML_TAG_PAYLOAD}\n<a href="https://evil.example">click</a>`,
+    );
+    assert.equal(node.tagName, 'PRE');
+    assert.equal(node.querySelectorAll('img, a, script').length, 0);
+    assert.match(node.textContent, /onerror/);
+    assert.match(node.textContent, /<a href="https:\/\/evil\.example">click<\/a>/);
   });
 });
 /**
