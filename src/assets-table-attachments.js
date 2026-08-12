@@ -1,4 +1,3 @@
-import DOMPurify from 'dompurify';
 import { verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { getAttachmentInfo } from "./assets-table-utils.js";
@@ -74,6 +73,11 @@ export function createAttachmentVerificationMeta({ walletTitle, identifier, plat
 
 export function buildAttachmentVerificationMetaHtml(options) {
   return htmlOf(createAttachmentVerificationMeta(options));
+}
+
+/** Preview body as a text node inside <pre>. Do not pass Nostr attachment bytes through innerHTML. */
+export function createAttachmentPreviewNode(textContent) {
+  return el('pre', {}, textContent ?? '');
 }
 
 function decodeAttachmentContent(rawContent) {
@@ -374,10 +378,10 @@ export function registerAttachmentHandlers() {
     const copyButton = document.getElementById('previewCopyButton');
 
     previewFileName.textContent = attachmentData.filename;
-    previewContent.innerHTML = '';
+    previewContent.replaceChildren();
 
     try {
-      previewContent.innerHTML = `<pre>${DOMPurify.sanitize(textContent)}</pre>`;
+      previewContent.replaceChildren(createAttachmentPreviewNode(textContent));
 
       closeButton.onclick = function() {
         modal.style.display = 'none';
