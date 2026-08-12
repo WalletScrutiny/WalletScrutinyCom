@@ -1,5 +1,6 @@
 import { blossomServerHasBlob, uploadBlobWithProgress } from './blossom.js';
 import { updateDomElementInClass } from './drag-and-drop-utils.js';
+import { isSha256Hex } from './html-utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
 
@@ -109,7 +110,42 @@ export async function checkFileExistsInBlossom(hash, overrideCache = false) {
 }
 
 export function getBlossomFileURL(hash) {
+    if (!isSha256Hex(hash)) {
+        return '';
+    }
     return blossomServerUrl + '/' + hash;
+}
+
+/**
+ * True when url is an https Blossom blob path /<64-hex> on this site's server.
+ * Used before assigning iframe src so javascript: and third-party hosts cannot load.
+ */
+export function isSafeBlossomFileURL(value) {
+    if (value == null || value === '') {
+        return false;
+    }
+    try {
+        const url = new URL(String(value));
+        if (url.protocol !== 'https:') {
+            return false;
+        }
+        if (url.username || url.password) {
+            return false;
+        }
+        if (url.origin !== new URL(blossomServerUrl).origin) {
+            return false;
+        }
+        if (url.search !== '') {
+            return false;
+        }
+        const hash = url.pathname.replace(/^\//, '');
+        if (!isSha256Hex(hash) || url.pathname !== `/${hash}`) {
+            return false;
+        }
+        return true;
+    } catch {
+        return false;
+    }
 }
 
 /** URL for browser download with a suggested filename (requires server Content-Disposition support). */
@@ -125,6 +161,7 @@ if (typeof window !== 'undefined') {
     window.checkFileExistsInBlossom = checkFileExistsInBlossom;
     window.getBlossomFileURL = getBlossomFileURL;
     window.getBlossomDownloadURL = getBlossomDownloadURL;
+    window.isSafeBlossomFileURL = isSafeBlossomFileURL;
     window.uploadToBlossom = uploadToBlossom;
 }
 
