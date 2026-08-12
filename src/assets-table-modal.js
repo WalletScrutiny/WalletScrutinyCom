@@ -396,7 +396,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
             <span class="diffoscope-maximize" title="Maximize">⛶</span>
             <span class="diffoscope-close" title="Close">✖</span>
         </div>
-        <iframe id="diffoscopeFrame"></iframe>
+        <iframe id="diffoscopeFrame" sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe>
       </div>
     </div>`);
   }
@@ -627,7 +627,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
       firstAsciicastFileSHA256 = outputFile[2];
     }
-    if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
+    if (outputFile[1].includes('diffo') && outputFile[1].includes('html') && isSha256Hex(outputFile[2])) {
       diffoscopeFiles.push(outputFile);
     }
     outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2]);
@@ -651,7 +651,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
                          <p>Diffoscope files attached (click to see report):</p>`;
     for (const file of diffoscopeFiles) {
-      diffoscopeHTML += buildDiffoscopeOpenButtonHtml(file[1], getBlossomFileURL(file[2]));
+      const fileUrl = getBlossomFileURL(file[2]);
+      if (!fileUrl) {
+        continue;
+      }
+      diffoscopeHTML += buildDiffoscopeOpenButtonHtml(file[1], fileUrl);
     }
     diffoscopeHTML += '</div>';
   }

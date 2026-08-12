@@ -7,6 +7,16 @@ const diffoscopeIframe = document.getElementById('diffoscopeFrame');
 let isMaximized = false;
 
 window.openDiffoscopeModal = (link) => {
+  if (!diffoscopeIframe || !diffoscopeModal) {
+    return;
+  }
+  const isSafe = typeof window.isSafeBlossomFileURL === 'function'
+    && window.isSafeBlossomFileURL(link);
+  if (!isSafe) {
+    return;
+  }
+  diffoscopeIframe.setAttribute('sandbox', 'allow-scripts');
+  diffoscopeIframe.setAttribute('referrerpolicy', 'no-referrer');
   diffoscopeIframe.src = link;
   diffoscopeModal.style.display = 'flex';
 }
