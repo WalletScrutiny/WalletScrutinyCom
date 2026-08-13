@@ -20,7 +20,7 @@ android:
   released: 2023-09-27
   updated: 2026-02-17
   version: 1.20.0
-  reviews: 238
+  reviews: 235
   icon: com.crypto.ab.wallet.app.png
   meta: ok
   verdict: nosource
@@ -30,8 +30,8 @@ iphone:
   idd: '6467197622'
   appCountry: us
   released: 2023-12-05
-  updated: 2026-03-22
-  version: 1.20.0
+  updated: 2026-08-11
+  version: 1.21.0
   reviews: 206
   icon: com.ab.crypto.wallet.app.jpg
   meta: ok

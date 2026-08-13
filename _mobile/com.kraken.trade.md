@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-10-24
-  updated: 2026-07-31
-  version: 5.66.0
-  reviews: 4780
+  updated: 2026-08-07
+  version: 5.67.0
+  reviews: 4782
   icon: com.kraken.trade.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: 1473024338
   appCountry: us
   released: 2019-11-12
-  updated: 2026-07-27
-  version: 5.65.0
-  reviews: 25653
+  updated: 2026-08-06
+  version: 5.66.0
+  reviews: 25643
   icon: com.kraken.trade.app.jpg
   meta: ok
   verdict: custodial

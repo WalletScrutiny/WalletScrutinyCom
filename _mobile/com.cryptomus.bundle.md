@@ -12,7 +12,7 @@ android:
   users: 50000
   appCountry: us
   released: 2024-12-19
-  updated: 2026-07-22
+  updated: 2026-08-11
   version: 2.10.2(239)
   reviews: 72
   icon: com.cryptomus.bundle.jpg

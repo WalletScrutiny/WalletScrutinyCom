@@ -37,7 +37,7 @@ iphone:
   released: 2021-02-05
   updated: 2025-12-08
   version: 5.3.3
-  reviews: 5377
+  reviews: 5376
   icon: com.coinsquare.quicktrade.jpg
   meta: ok
   verdict: custodial

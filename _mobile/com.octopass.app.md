@@ -31,7 +31,7 @@ iphone:
   released: 2023-11-21
   updated: 2026-03-22
   version: 1.18.11
-  reviews: 1544
+  reviews: 1542
   icon: com.octopass.app.jpg
   meta: deprecated
   verdict: custodial

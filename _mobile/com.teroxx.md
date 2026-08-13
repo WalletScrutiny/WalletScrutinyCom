@@ -11,7 +11,7 @@ redirect_from:
 - /iphone/Teroxx/
 android:
   appId: com.teroxx
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2019-08-26
   updated: 2026-06-17

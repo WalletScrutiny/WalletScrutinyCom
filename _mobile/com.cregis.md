@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-04-05
-  updated: 2026-07-10
-  version: 3.7.4
+  updated: 2026-07-31
+  version: 3.7.5
   icon: com.cregis.png
   meta: ok
   verdict: custodial
@@ -24,9 +24,9 @@ iphone:
   idd: '6447176492'
   appCountry: us
   released: 2023-04-04
-  updated: 2026-07-15
-  version: 3.7.4
-  reviews: 3
+  updated: 2026-08-10
+  version: 3.7.5
+  reviews: 5
   icon: com.cregis.jpg
   meta: ok
   verdict: custodial

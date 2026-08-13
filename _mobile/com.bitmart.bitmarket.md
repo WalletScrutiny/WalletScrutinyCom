@@ -37,7 +37,7 @@ iphone:
   released: 2018-08-02
   updated: 2026-07-14
   version: 4.8.1
-  reviews: 3478
+  reviews: 3476
   icon: com.bitmart.exchange.jpg
   meta: ok
   verdict: custodial

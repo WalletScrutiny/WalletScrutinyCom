@@ -13,8 +13,8 @@ android:
   appId: com.deltaexchangeindia
   users: 5000000
   appCountry: us
-  updated: 2026-07-27
-  version: 2.27.5
+  updated: 2026-08-12
+  version: 2.28.7
   reviews: 1
   icon: com.deltaexchangeindia.png
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: '6478332344'
   appCountry: in
   released: 2024-08-16
-  updated: 2026-07-28
-  version: 2.28.0
-  reviews: 21667
+  updated: 2026-08-12
+  version: 2.28.7
+  reviews: 21809
   icon: app.deltaexchange.india.jpg
   meta: ok
   verdict: custodial

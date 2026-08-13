@@ -35,7 +35,7 @@ iphone:
   released: 2016-05-28
   updated: 2026-07-31
   version: 9.2.0
-  reviews: 378
+  reviews: 379
   icon: com.remitano.remitano.jpg
   meta: ok
   verdict: custodial

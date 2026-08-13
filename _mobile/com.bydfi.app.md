@@ -24,7 +24,7 @@ android:
   released: 2023-01-20
   updated: 2026-07-30
   version: 3.9.9
-  reviews: 432
+  reviews: 434
   icon: com.bydfi.app.png
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-07-30
   version: 3.9.9
-  reviews: 1198
+  reviews: 1200
   icon: com.bydfi.app.jpg
   meta: ok
   verdict: custodial

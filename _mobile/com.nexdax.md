@@ -18,8 +18,8 @@ android:
   appId: com.nexdax
   users: 10000
   appCountry: us
-  updated: 2026-06-05
-  version: '1.1'
+  updated: 2026-08-13
+  version: '1.5'
   icon: com.nexdax.png
   meta: ok
   verdict: custodial

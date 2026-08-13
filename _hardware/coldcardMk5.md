@@ -2,16 +2,16 @@
 title: Coldcard Mk5
 appId: coldcardMk5
 authors:
-  - danny
+- danny
 released: 2026-03-10
-discontinued:
+discontinued: 
 updated: 2026-07-31
 version: 5.6.0
 binaries: https://coldcard.com/downloads/mk
 dimensions:
-  - 86
-  - 50
-  - 9
+- 86
+- 50
+- 9
 weight: 55
 provider: Coinkite, Inc.
 providerWebsite: https://coinkite.com
@@ -25,18 +25,19 @@ bugbounty: https://coldcard.com/resources/security/report-a-security-issue
 meta: ok
 verdict: sourceavailable
 date: 2026-08-07
-signer:
+signer: 
 twitter: COLDCARDwallet
 social:
-  - https://t.me/coldcard
-  - https://www.linkedin.com/company/coinkite
-  - https://www.facebook.com/CoinKite
-builds:
+- https://t.me/coldcard
+- https://www.linkedin.com/company/coinkite
+- https://www.facebook.com/CoinKite
+builds: 
 features:
-  - hd
-  - multiSig
-  - nfc
-  - secEl
+- hd
+- multiSig
+- nfc
+- secEl
+
 ---
 
 <div class="alertBox"><div>

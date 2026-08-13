@@ -20,12 +20,12 @@ redirect_from:
 - /iphone/com.bitunix.ios-/
 android:
   appId: bu.app.android
-  users: 500000
+  users: 1000000
   appCountry: us
   released: 2025-04-29
-  updated: 2026-08-03
-  version: 3.45.0
-  reviews: 116
+  updated: 2026-08-07
+  version: 3.47.0
+  reviews: 118
   icon: bu.app.android.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: '6446243957'
   appCountry: us
   released: 2023-04-11
-  updated: 2026-07-06
-  version: 3.41.0
-  reviews: 722
+  updated: 2026-08-07
+  version: 3.46.0
+  reviews: 732
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial

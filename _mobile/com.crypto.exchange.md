@@ -32,8 +32,8 @@ iphone:
   idd: 1569309855
   appCountry: nz
   released: 2021-06-15
-  updated: 2026-07-28
-  version: 3.10.0
+  updated: 2026-08-11
+  version: 3.10.1
   reviews: 111
   icon: crypto.com.exchange.jpg
   meta: ok

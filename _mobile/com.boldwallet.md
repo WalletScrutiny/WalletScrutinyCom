@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-07-15
-  updated: 2026-07-14
-  version: 4.0.2
+  updated: 2026-08-06
+  version: 4.0.4
   icon: com.boldwallet.png
   meta: fewusers
   verdict: wip

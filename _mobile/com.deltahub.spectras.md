@@ -11,7 +11,7 @@ iphone:
   released: 2024-08-18
   updated: 2026-08-05
   version: 3.4.6
-  reviews: 2475
+  reviews: 2489
   icon: com.deltahub.spectras.jpg
   meta: ok
   verdict: custodial

@@ -14,7 +14,7 @@ android:
   released: 2021-03-27
   updated: 2026-07-29
   version: 2.0.84
-  reviews: 44
+  reviews: 45
   icon: com.dantown.Dantownapp.jpg
   meta: ok
   verdict: custodial

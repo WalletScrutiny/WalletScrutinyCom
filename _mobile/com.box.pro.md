@@ -32,7 +32,7 @@ iphone:
   released: 2020-04-08
   updated: 2023-11-02
   version: 5.3.0
-  reviews: 56
+  reviews: 55
   icon: com.biboxpro.release.jpg
   meta: obsolete
   verdict: custodial

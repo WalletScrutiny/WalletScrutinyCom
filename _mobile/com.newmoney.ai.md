@@ -25,7 +25,7 @@ android:
   version: 1.8.10
   reviews: 10
   icon: com.newmoney.ai.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: NewmoneyAI
 iphone:

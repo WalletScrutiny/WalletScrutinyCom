@@ -1,6 +1,6 @@
 ---
 wsId: gorilaInvest
-title: 'Gorila: gestão de investimento'
+title: 'Gorila: investimentos com IA'
 date: 2022-06-24
 authors:
 - danny
@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-13
-  updated: 2026-07-13
-  version: 8.8.0
+  updated: 2026-08-04
+  version: 8.9.0
   reviews: 25
   icon: br.com.gorilainvest.mobileapp.jpg
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1447950043'
   appCountry: us
   released: 2019-01-27
-  updated: 2026-07-13
-  version: 8.8.0
+  updated: 2026-08-06
+  version: 8.9.0
   reviews: 234
   icon: br.com.gorilainvest.mobileapp.jpg
   meta: ok

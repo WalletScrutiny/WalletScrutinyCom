@@ -17,8 +17,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-04-20
-  updated: 2026-07-10
-  version: 4.18.0
+  updated: 2026-08-01
+  version: 4.19.0
   reviews: 45
   icon: com.bitkub.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1437814700
   appCountry: th
   released: 2019-04-24
-  updated: 2026-07-15
-  version: 4.18.0
-  reviews: 19005
+  updated: 2026-08-06
+  version: 4.19.0
+  reviews: 19006
   icon: com.bitkub.app.jpg
   meta: ok
   verdict: custodial

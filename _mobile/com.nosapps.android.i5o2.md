@@ -12,7 +12,7 @@ android:
   updated: 2026-07-23
   version: 1.2.641
   icon: com.nosapps.android.i5o2.png
-  meta: fewusers
+  meta: removed
   verdict: wip
   developerName: 1502.app LLC
 

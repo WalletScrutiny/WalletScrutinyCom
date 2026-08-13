@@ -23,7 +23,7 @@ android:
   released: 2022-08-30
   updated: 2026-07-17
   version: 1.0.36
-  reviews: 136
+  reviews: 137
   icon: com.avaxwallet.png
   meta: ok
   verdict: nosource
@@ -35,7 +35,7 @@ iphone:
   released: 2022-11-28
   updated: 2026-07-21
   version: 1.0.36
-  reviews: 160
+  reviews: 159
   icon: org.avalabs.corewallet.jpg
   meta: ok
   verdict: nosource

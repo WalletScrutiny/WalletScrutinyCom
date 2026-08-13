@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-22
-  updated: 2026-04-17
-  version: 1.3.29
+  updated: 2026-08-05
+  version: 1.4.0
   icon: com.bitdance.bitpocket.google.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   icon: com.bitdance.bitpocket.jpg
   meta: ok
   verdict: nosource
-  developerName: BITDANCE LIMITED
+  developerName: BITDANCE HK LIMITED
 
 ---
 

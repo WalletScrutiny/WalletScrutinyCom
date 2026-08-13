@@ -24,9 +24,9 @@ iphone:
   idd: 1567213944
   appCountry: us
   released: 2021-05-22
-  updated: 2026-07-14
-  version: 2.1.8
-  reviews: 1209
+  updated: 2026-08-07
+  version: 2.1.9
+  reviews: 1207
   icon: com.pionex.lite.appstore.jpg
   meta: ok
   verdict: custodial

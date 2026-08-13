@@ -22,8 +22,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-06-03
-  updated: 2026-05-22
-  version: 1.34.2
+  updated: 2026-08-13
+  version: 1.34.3
   reviews: 9
   icon: com.payperless.wallet.png
   meta: ok

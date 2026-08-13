@@ -14,9 +14,9 @@ iphone:
   idd: '6753939776'
   appCountry: us
   released: 2026-06-30
-  updated: 2026-07-08
-  version: 1.0.4
-  reviews: 12
+  updated: 2026-08-11
+  version: 1.0.5
+  reviews: 13
   icon: com.cakelabs.signal.jpg
   meta: ok
   verdict: custodial

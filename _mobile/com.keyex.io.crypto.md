@@ -12,7 +12,7 @@ android:
   updated: 2025-08-13
   version: 1.1.39
   icon: com.keyex.io.crypto.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: Keyex Limited
 

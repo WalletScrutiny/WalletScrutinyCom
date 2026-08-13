@@ -28,7 +28,7 @@ iphone:
   version: 0.18.4
   reviews: 1
   icon: com.bitcoinrd.BitcoinRDexchange.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitcoinRD
 

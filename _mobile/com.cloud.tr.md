@@ -1,10 +1,10 @@
 ---
 wsId: BinanceTR
-title: 'Binance TR: Bitcoin and Crypto'
+title: 'Binance TR: Crypto Trading'
 date: 2021-10-21
 authors:
 - danny
-website: https://www.trbinance.com/
+website: https://www.binance.tr/
 twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR
@@ -17,9 +17,9 @@ android:
   users: 5000000
   appCountry: tr
   released: 2021-07-16
-  updated: 2026-07-03
+  updated: 2026-08-07
   version: 4.4.1
-  reviews: 21664
+  reviews: 21687
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: '1548636153'
   appCountry: tr
   released: 2021-02-18
-  updated: 2026-07-04
-  version: 4.4.1
-  reviews: 178211
+  updated: 2026-08-07
+  version: 4.5.0
+  reviews: 178469
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
   verdict: custodial

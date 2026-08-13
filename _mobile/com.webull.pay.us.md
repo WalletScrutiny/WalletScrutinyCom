@@ -17,21 +17,21 @@ android:
   users: 100000
   appCountry: us
   released: 2023-05-26
-  updated: 2026-07-02
-  version: 2.2.2.15
+  updated: 2026-08-12
+  version: 2.2.5.10
   reviews: 1175
   icon: com.webull.pay.us.png
   meta: ok
   verdict: custodial
-  developerName: Webull Pay LLC
+  developerName: Webull Pay Holdings Inc
 iphone:
   appId: com.webull.pay.us
   idd: '6449486592'
   appCountry: us
   released: 2023-06-27
-  updated: 2026-06-22
-  version: 2.2.4
-  reviews: 26068
+  updated: 2026-08-12
+  version: 2.2.6
+  reviews: 26072
   icon: com.webull.pay.us.jpg
   meta: ok
   verdict: custodial

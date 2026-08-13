@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-02-03
-  updated: 2026-05-18
-  version: 1.08.1122
+  updated: 2026-08-07
+  version: 1.08.1124
   reviews: 41
   icon: app.pagosalinstante.com.png
   meta: ok

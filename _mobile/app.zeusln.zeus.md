@@ -52,7 +52,7 @@ iphone:
   released: 2021-04-22
   updated: 2026-07-27
   version: v13.1.3
-  reviews: 78
+  reviews: 79
   icon: com.zeusln.zeus.jpg
   meta: ok
   verdict: sourceavailable

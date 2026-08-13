@@ -1,6 +1,6 @@
 ---
 wsId: lavaXYZ
-title: 'Lava: Bitcoin Loans & Card'
+title: 'Lava: Bitcoin Finance'
 date: 2025-05-22
 authors:
 - danny
@@ -14,8 +14,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-05-25
-  updated: 2026-07-31
-  version: 3.20.0
+  updated: 2026-08-07
+  version: 3.21.0
   reviews: 28
   icon: com.lavamobile.png
   meta: ok

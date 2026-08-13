@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2020-10-07
   updated: 2026-08-05
-  version: 1.13.10
+  version: 1.13.13
   reviews: 4
   icon: com.admiralmarkets.android.png
   meta: ok

@@ -26,8 +26,8 @@ iphone:
   idd: '6470782742'
   appCountry: us
   released: 2023-11-20
-  updated: 2026-01-29
-  version: 3.5.40
+  updated: 2026-08-07
+  version: 3.5.44
   reviews: 32
   icon: com.btcc.wallets.jpg
   meta: ok

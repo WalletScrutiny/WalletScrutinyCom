@@ -17,8 +17,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-02-19
-  updated: 2026-08-04
-  version: 4.21.2
+  updated: 2026-08-13
+  version: 4.22.0
   reviews: 310
   icon: com.bitso.wallet.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1292836438
   appCountry: us
   released: 2018-02-19
-  updated: 2026-08-04
-  version: 4.21.2
+  updated: 2026-08-06
+  version: 4.22.0
   reviews: 1038
   icon: com.bitso.wallet.jpg
   meta: ok

@@ -29,8 +29,8 @@ iphone:
   idd: '1576394424'
   appCountry: ph
   released: 2021-07-28
-  updated: 2026-07-06
-  version: 1.5.5
+  updated: 2026-08-11
+  version: 1.5.7
   reviews: 2
   icon: fm.fountain.apps.jpg
   meta: ok

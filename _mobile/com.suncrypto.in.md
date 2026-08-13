@@ -10,7 +10,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-06-28
-  updated: 2026-08-04
+  updated: 2026-08-06
   version: '5.24'
   reviews: 274
   icon: com.suncrypto.in.png

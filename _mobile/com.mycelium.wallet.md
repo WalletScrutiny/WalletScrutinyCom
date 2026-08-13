@@ -35,7 +35,7 @@ android:
   released: 2013-07-01
   updated: 2026-05-15
   version: 3.22.0.2
-  reviews: 1154
+  reviews: 1155
   icon: com.mycelium.wallet.jpg
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: ok
@@ -48,9 +48,9 @@ iphone:
   idd: 943912290
   appCountry: us
   released: 2014-12-17
-  updated: 2026-07-28
-  version: '2.9'
-  reviews: 2
+  updated: 2026-08-06
+  version: '2.10'
+  reviews: 5
   icon: com.mycelium.wallet-ios.jpg
   meta: ok
   verdict: sourceavailable

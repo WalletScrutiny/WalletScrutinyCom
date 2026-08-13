@@ -31,8 +31,8 @@ iphone:
   idd: '1530358553'
   appCountry: gb
   released: 2020-11-20
-  updated: 2026-05-19
-  version: 3.15.2
+  updated: 2026-08-10
+  version: 3.16.0
   reviews: 18
   icon: com.coinpasslimited.coinpassinstant.jpg
   meta: ok

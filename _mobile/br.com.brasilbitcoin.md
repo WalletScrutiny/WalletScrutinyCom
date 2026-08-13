@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: br
   released: 2021-02-17
-  updated: 2026-07-17
+  updated: 2026-08-06
   version: 5.0.01
-  reviews: 5659
+  reviews: 5662
   icon: br.com.brasilbitcoin.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: '1519300849'
   appCountry: br
   released: 2020-07-27
-  updated: 2026-07-20
-  version: 5.0.03
-  reviews: 2286
+  updated: 2026-08-12
+  version: 5.0.05
+  reviews: 2288
   icon: br.com.brasilbitcoin.run.jpg
   meta: ok
   verdict: custodial

@@ -21,7 +21,7 @@ android:
   released: 2022-11-17
   updated: 2026-04-14
   version: 3.5.41
-  reviews: 85
+  reviews: 86
   icon: com.btcc.BTCCReactNative.jpg
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2017-01-20
   updated: 2026-01-26
   version: 3.5.40
-  reviews: 189
+  reviews: 188
   icon: com.btcc.BTCCReactNative.jpg
   meta: ok
   verdict: custodial

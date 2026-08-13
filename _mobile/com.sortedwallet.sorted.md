@@ -1,5 +1,5 @@
 ---
-title: 'Sorted Wallet: Send & Cash Out'
+title: 'Sorted Wallet: Send Money Home'
 date: 2026-05-20
 authors:
 - danny

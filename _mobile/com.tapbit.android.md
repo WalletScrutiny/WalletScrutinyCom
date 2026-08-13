@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-01
   updated: 2026-08-01
   version: 4.4.2
-  reviews: 53
+  reviews: 52
   icon: com.billance.cn.jpg
   meta: ok
   verdict: custodial

@@ -30,7 +30,7 @@ iphone:
   released: 2024-02-22
   updated: 2026-03-05
   version: 2.1.0
-  reviews: 34
+  reviews: 32
   icon: com.bity.wallet.production.jpg
   meta: ok
   verdict: nosource

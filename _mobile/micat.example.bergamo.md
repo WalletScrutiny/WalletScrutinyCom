@@ -11,7 +11,7 @@ android:
   updated: 2024-08-14
   version: '1.0'
   icon: micat.example.bergamo.png
-  meta: stale
+  meta: removed
   verdict: wip
   developerName: entropia
 

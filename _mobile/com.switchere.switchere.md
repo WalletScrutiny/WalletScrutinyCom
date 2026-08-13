@@ -35,7 +35,7 @@ iphone:
   released: 2021-11-15
   updated: 2026-08-04
   version: 1.1.30
-  reviews: 78
+  reviews: 77
   icon: com.switchere.switchere.jpg
   meta: ok
   verdict: custodial

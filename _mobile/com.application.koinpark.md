@@ -36,7 +36,7 @@ iphone:
   released: 2023-05-10
   updated: 2026-04-06
   version: '5.9'
-  reviews: 82
+  reviews: 79
   icon: com.app.KoinParkios.jpg
   meta: ok
   verdict: custodial

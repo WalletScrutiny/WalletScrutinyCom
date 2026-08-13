@@ -19,7 +19,7 @@ android:
   released: 2021-11-13
   updated: 2026-02-17
   version: 1.2.3
-  reviews: 3
+  reviews: 4
   icon: com.kochure.kochureApp.png
   meta: ok
   verdict: custodial

@@ -35,7 +35,7 @@ iphone:
   released: 2021-08-30
   updated: 2026-05-29
   version: 5.5.4
-  reviews: 46
+  reviews: 45
   icon: com.mathglobal.mathwallet5.jpg
   meta: ok
   verdict: nosource

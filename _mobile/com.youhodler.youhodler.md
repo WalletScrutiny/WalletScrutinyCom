@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2019-07-11
   updated: 2026-07-28
-  version: 8.6.3
-  reviews: 116
+  version: 9.0.0
+  reviews: 115
   icon: com.youhodler.youhodler.png
   meta: ok
   verdict: custodial

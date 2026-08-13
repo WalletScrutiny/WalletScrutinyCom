@@ -30,7 +30,7 @@ iphone:
   released: 2020-12-28
   updated: 2026-07-20
   version: 2.1.57
-  reviews: 4126
+  reviews: 4129
   icon: com.bitlo.jpg
   meta: ok
   verdict: custodial

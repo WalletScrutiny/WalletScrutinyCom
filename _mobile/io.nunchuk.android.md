@@ -28,7 +28,7 @@ android:
   appCountry: us
   released: 2021-11-11
   updated: 2026-08-05
-  version: 2.7.4
+  version: 2.7.5
   reviews: 43
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
@@ -41,9 +41,9 @@ iphone:
   idd: 1563190073
   appCountry: us
   released: 2021-12-16
-  updated: 2026-07-22
-  version: 2.7.1
-  reviews: 533
+  updated: 2026-08-12
+  version: 2.7.2
+  reviews: 541
   icon: io.nunchuk.ios.jpg
   meta: ok
   verdict: nosource

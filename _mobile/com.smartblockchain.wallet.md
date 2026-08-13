@@ -15,8 +15,8 @@ android:
   users: 500000
   appCountry: us
   released: 2023-07-20
-  updated: 2026-04-27
-  version: 2.6.1
+  updated: 2026-08-05
+  version: 2.7.1
   reviews: 35
   icon: com.smartblockchain.wallet.png
   meta: ok
@@ -27,9 +27,9 @@ iphone:
   idd: '6463490400'
   appCountry: us
   released: 2023-09-20
-  updated: 2026-04-28
-  version: 2.6.1
-  reviews: 21
+  updated: 2026-08-11
+  version: 2.7.1
+  reviews: 20
   icon: com.smartblockchain.wallet.jpg
   meta: ok
   verdict: nosource

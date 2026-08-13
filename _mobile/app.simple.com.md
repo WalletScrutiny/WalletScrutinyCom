@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-04-24
-  updated: 2026-07-27
-  version: 3.28.7
-  reviews: 1856
+  updated: 2026-08-07
+  version: 3.29.0
+  reviews: 1858
   icon: app.simple.com.png
   meta: ok
   verdict: custodial

@@ -35,7 +35,7 @@ iphone:
   version: 1.4.10
   reviews: 10
   icon: com.pilab.pockie.jpg
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: PiLab Co.,Ltd
 

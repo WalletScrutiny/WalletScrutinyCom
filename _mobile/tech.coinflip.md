@@ -21,7 +21,7 @@ android:
   released: 2024-08-19
   updated: 2026-07-30
   version: 4.6.0
-  reviews: 108
+  reviews: 109
   icon: tech.coinflip.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2024-06-05
   updated: 2026-07-27
   version: '4.7'
-  reviews: 893
+  reviews: 895
   icon: tech.coinflip.CoinFlip.jpg
   meta: ok
   verdict: custodial

@@ -21,6 +21,7 @@ android:
   released: 2025-03-19
   updated: 2026-08-01
   version: 2.2.2
+  reviews: 214
   icon: com.dswallet.app.png
   meta: ok
   verdict: nosource
@@ -30,8 +31,8 @@ iphone:
   idd: '6740052686'
   appCountry: at
   released: 2025-01-16
-  updated: 2026-07-29
-  version: 2.2.1
+  updated: 2026-08-07
+  version: 2.2.2
   reviews: 0
   icon: com.digitalshield.walletapp.jpg
   meta: ok

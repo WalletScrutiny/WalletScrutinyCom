@@ -17,7 +17,7 @@ android:
   released: 2021-09-28
   updated: 2026-07-28
   version: 1.50.4
-  reviews: 602
+  reviews: 605
   icon: com.bitso.alpha.png
   meta: ok
   verdict: custodial

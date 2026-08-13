@@ -20,7 +20,7 @@ android:
   released: 2022-02-07
   updated: 2026-08-04
   version: 3.2.5
-  reviews: 48
+  reviews: 49
   icon: com.oobit.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2022-02-05
   updated: 2026-08-05
   version: 3.2.5
-  reviews: 1002
+  reviews: 1010
   icon: com.oobit.jpg
   meta: ok
   verdict: custodial

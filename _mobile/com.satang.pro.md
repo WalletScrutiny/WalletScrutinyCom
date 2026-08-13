@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2020-04-12
-  updated: 2026-07-17
-  version: 2.21.33
+  updated: 2026-08-07
+  version: 2.21.34
   reviews: 4
   icon: com.satang.pro.png
   meta: ok

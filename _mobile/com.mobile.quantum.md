@@ -15,7 +15,7 @@ android:
   version: 1.0.8
   reviews: 1
   icon: com.mobile.quantum.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Quan2um
 

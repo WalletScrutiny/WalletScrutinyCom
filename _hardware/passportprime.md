@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2026-03-16
 discontinued: 
-updated: 2026-07-17
-version: 1.3.0
+updated: 2026-08-07
+version: 1.3.1
 binaries: https://github.com/Foundation-Devices/KeyOS-Releases/releases
 dimensions:
 - 56

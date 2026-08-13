@@ -22,9 +22,9 @@ android:
   users: 100000
   appCountry: us
   released: 2024-03-12
-  updated: 2026-07-29
-  version: 2026.31.2
-  reviews: 224
+  updated: 2026-08-11
+  version: 2026.33.0
+  reviews: 234
   icon: com.robinhood.gateway.png
   meta: ok
   verdict: nosource
@@ -34,9 +34,9 @@ iphone:
   idd: '1634080733'
   appCountry: us
   released: 2023-01-18
-  updated: 2026-08-05
-  version: 2026.32.0
-  reviews: 5908
+  updated: 2026-08-11
+  version: 2026.33.0
+  reviews: 5972
   icon: com.robinhood.release.Gateway.jpg
   meta: ok
   verdict: nosource

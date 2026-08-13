@@ -31,7 +31,7 @@ iphone:
   released: 2021-11-10
   updated: 2026-07-02
   version: 5.5.25
-  reviews: 86
+  reviews: 84
   icon: com.foxwallet.app.jpg
   meta: ok
   verdict: nosource

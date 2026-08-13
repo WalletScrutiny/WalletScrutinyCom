@@ -19,8 +19,8 @@ android:
   users: 5000
   appCountry: us
   released: 2025-08-23
-  updated: 2026-06-10
-  version: 1.0.17
+  updated: 2026-08-07
+  version: 1.0.25
   reviews: 7
   icon: com.xspa.ai.png
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: '6749689372'
   appCountry: us
   released: 2025-08-17
-  updated: 2026-06-12
-  version: 1.0.16
-  reviews: 12
+  updated: 2026-08-10
+  version: 1.0.17
+  reviews: 11
   icon: com.xspa.ai.jpg
   meta: ok
   verdict: nosource

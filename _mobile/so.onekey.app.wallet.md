@@ -28,7 +28,7 @@ android:
   released: 2022-04-27
   updated: 2026-07-13
   version: 6.5.0
-  reviews: 98
+  reviews: 99
   icon: so.onekey.app.wallet.png
   meta: ok
   verdict: sourceavailable

@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-12-22
-  updated: 2026-03-27
-  version: 2.10.5
+  updated: 2026-08-13
+  version: 2.11.0
   icon: io.myabcwallet.mpc.png
   meta: ok
   verdict: custodial

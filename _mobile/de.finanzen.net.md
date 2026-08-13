@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2012-03-26
-  updated: 2026-07-31
-  version: 5.9.7
+  updated: 2026-08-11
+  version: 5.9.81
   reviews: 64
   icon: de.finanzen.net.png
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2008-11-21
   updated: 2026-08-03
   version: 8.3.4
-  reviews: 287
+  reviews: 288
   icon: de.smarthouse.finanzen.jpg
   meta: ok
   verdict: nosendreceive

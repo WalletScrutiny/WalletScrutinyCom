@@ -32,9 +32,9 @@ iphone:
   idd: '6444625622'
   appCountry: us
   released: 2023-01-04
-  updated: 2026-07-17
-  version: 2.25.0
-  reviews: 737
+  updated: 2026-08-13
+  version: 2.26.2
+  reviews: 723
   icon: com.global.wallet.ios.jpg
   meta: ok
   verdict: obfuscated

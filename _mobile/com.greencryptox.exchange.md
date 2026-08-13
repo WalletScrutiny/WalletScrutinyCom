@@ -18,7 +18,7 @@ android:
   updated: 2024-08-23
   version: 3.0.12
   icon: com.greencryptox.exchange.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: AOWS Business Services Pvt Ltd
 iphone:

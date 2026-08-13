@@ -27,7 +27,7 @@ iphone:
   released: 2018-06-21
   updated: 2026-07-29
   version: 3.2.5
-  reviews: 530
+  reviews: 531
   icon: kr.co.gopax.jpg
   meta: ok
   verdict: custodial

@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2017-12-16
-  updated: 2026-06-30
-  version: 3.15.1
+  updated: 2026-08-06
+  version: 3.16.1
   reviews: 256
   icon: com.viabtc.pool.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: '1334584229'
   appCountry: hk
   released: 2018-01-18
-  updated: 2026-07-01
-  version: 3.13.0
-  reviews: 16
+  updated: 2026-08-13
+  version: 3.14.0
+  reviews: 15
   icon: com.viabtc.pool2.jpg
   meta: ok
   verdict: custodial

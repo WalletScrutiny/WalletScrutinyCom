@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: br
   released: 2015-05-11
-  updated: 2026-07-29
-  version: 26.7.22
+  updated: 2026-08-13
+  version: 26.8.3
   reviews: 13
   icon: com.iggroup.android.cfd.png
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: '406492428'
   appCountry: sg
   released: 2011-01-24
-  updated: 2026-08-03
-  version: 10.3512.0
-  reviews: 2994
+  updated: 2026-08-13
+  version: 10.3546.0
+  reviews: 2997
   icon: com.igmarkets.ideal.jpg
   meta: ok
   verdict: nosendreceive

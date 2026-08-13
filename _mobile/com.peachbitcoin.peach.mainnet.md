@@ -22,7 +22,7 @@ android:
   appId: com.peachbitcoin.peach.mainnet
   users: 10000
   appCountry: us
-  updated: 2026-07-23
+  updated: 2026-08-12
   version: 0.69.0
   icon: com.peachbitcoin.peach.mainnet.png
   meta: ok

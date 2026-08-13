@@ -22,8 +22,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-03-02
-  updated: 2026-07-09
-  version: 4.8.0
+  updated: 2026-08-12
+  version: 4.8.1
   reviews: 368
   icon: org.electrum.electrum.png
   alternativeStores:

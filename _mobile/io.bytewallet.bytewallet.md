@@ -23,7 +23,7 @@ android:
   users: 10000
   appCountry: us
   released: 2021-07-20
-  updated: 2025-10-02
+  updated: 2026-08-08
   version: VARY
   reviews: 54
   icon: io.bytewallet.bytewallet.png

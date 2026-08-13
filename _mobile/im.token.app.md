@@ -20,7 +20,7 @@ android:
   released: 2018-05-31
   updated: 2026-06-27
   version: 2.21.0
-  reviews: 247
+  reviews: 246
   icon: im.token.app.png
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2018-06-07
   updated: 2026-07-03
   version: 2.21.0
-  reviews: 1151
+  reviews: 1135
   icon: im.token.app.jpg
   meta: ok
   verdict: nosource

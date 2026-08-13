@@ -6,10 +6,10 @@ redirect_from:
 - /android/com.unicoin.dcx.limited.abcc.wallet/
 android:
   appId: com.unicoin.dcx.limited.abcc.wallet
-  users: 50
+  users: 100
   appCountry: us
-  updated: 2026-07-24
-  version: 1.10.25
+  updated: 2026-08-07
+  version: 1.10.28
   icon: com.unicoin.dcx.limited.abcc.wallet.png
   meta: fewusers
   verdict: wip

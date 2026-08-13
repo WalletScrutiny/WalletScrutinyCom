@@ -29,7 +29,7 @@ iphone:
   released: 2024-05-17
   updated: 2026-04-29
   version: 1.0.11
-  reviews: 26
+  reviews: 25
   icon: com.ybit.app.jpg
   meta: ok
   verdict: nosource

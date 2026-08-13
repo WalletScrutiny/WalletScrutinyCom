@@ -33,7 +33,7 @@ iphone:
   released: 2021-12-14
   updated: 2026-08-03
   version: '4.16'
-  reviews: 48
+  reviews: 50
   icon: com.fasset.cashapp.jpg
   meta: ok
   verdict: custodial

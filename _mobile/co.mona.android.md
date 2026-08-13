@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: 'Crypto.com: Buy BTC, ETH & CRO'
+title: 'Crypto.com: Trade Every Market'
 date: 2021-10-24
 authors:
 - leo
@@ -25,9 +25,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-08-30
-  updated: 2026-07-27
-  version: 3.238.0
-  reviews: 56744
+  updated: 2026-08-04
+  version: 3.238.10
+  reviews: 56750
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial
@@ -37,9 +37,9 @@ iphone:
   idd: '1262148500'
   appCountry: us
   released: 2017-08-31
-  updated: 2026-07-29
-  version: '3.238'
-  reviews: 332164
+  updated: 2026-08-08
+  version: 3.238.11
+  reviews: 332418
   icon: co.mona.Monaco.jpg
   meta: ok
   verdict: custodial

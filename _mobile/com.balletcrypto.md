@@ -28,9 +28,9 @@ iphone:
   idd: '1474912942'
   appCountry: us
   released: 2019-09-11
-  updated: 2026-07-28
-  version: 3.0.0
-  reviews: 1539
+  updated: 2026-08-11
+  version: 3.0.1
+  reviews: 1542
   icon: com.balletcrypto.jpg
   meta: ok
   verdict: nosource

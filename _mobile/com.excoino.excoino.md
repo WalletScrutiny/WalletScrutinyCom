@@ -16,7 +16,7 @@ android:
   released: 2018-09-27
   updated: 2026-01-05
   version: 9.70.0
-  reviews: 252
+  reviews: 251
   icon: com.excoino.excoino.png
   meta: ok
   verdict: custodial

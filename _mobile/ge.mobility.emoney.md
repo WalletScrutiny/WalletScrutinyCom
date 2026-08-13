@@ -28,8 +28,8 @@ iphone:
   idd: '1084288470'
   appCountry: ge
   released: 2020-04-19
-  updated: 2026-03-05
-  version: 11.5.10
+  updated: 2026-08-10
+  version: 11.6.0
   reviews: 9
   icon: ge.smatex.eMoney.jpg
   meta: ok

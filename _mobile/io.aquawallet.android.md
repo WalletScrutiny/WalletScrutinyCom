@@ -27,7 +27,7 @@ android:
   released: 2024-01-02
   updated: 2026-07-04
   version: 0.5.1
-  reviews: 22
+  reviews: 21
   icon: io.aquawallet.android.png
   meta: ok
   verdict: nosource

@@ -25,7 +25,7 @@ iphone:
   released: 2021-05-05
   updated: 2026-08-02
   version: 3.0.0
-  reviews: 29
+  reviews: 28
   icon: com.fxfi.fxwallet.jpg
   meta: ok
   verdict: nosource

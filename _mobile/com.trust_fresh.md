@@ -16,7 +16,7 @@ android:
   updated: 2026-02-12
   version: 1.0.13
   icon: com.trust_fresh.png
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: NewEra Education Center
 iphone:

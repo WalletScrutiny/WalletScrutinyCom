@@ -23,8 +23,8 @@ iphone:
   idd: '6475605182'
   appCountry: us
   released: 2024-03-06
-  updated: 2026-01-29
-  version: 1.0.170
+  updated: 2026-08-12
+  version: '173'
   reviews: 1
   icon: com.hardwayder.bastionwallet.jpg
   meta: ok

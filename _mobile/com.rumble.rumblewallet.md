@@ -20,9 +20,9 @@ android:
   users: 10000
   appCountry: us
   released: 2026-01-19
-  updated: 2026-07-03
-  version: 2.5.0
-  reviews: 25
+  updated: 2026-08-05
+  version: 2.6.0
+  reviews: 26
   icon: com.rumble.rumblewallet.png
   meta: ok
   verdict: nosource
@@ -32,9 +32,9 @@ iphone:
   idd: '6748149951'
   appCountry: us
   released: 2025-12-15
-  updated: 2026-07-06
-  version: 2.5.0
-  reviews: 65
+  updated: 2026-08-07
+  version: 2.6.0
+  reviews: 77
   icon: com.rumble.wallet.jpg
   meta: ok
   verdict: nosource

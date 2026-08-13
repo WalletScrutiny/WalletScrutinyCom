@@ -14,8 +14,8 @@ android:
   appId: io.chainex.app
   users: 10000
   appCountry: us
-  updated: 2026-07-20
-  version: 3.0.5
+  updated: 2026-08-07
+  version: 3.0.8
   icon: io.chainex.app.png
   meta: ok
   verdict: custodial

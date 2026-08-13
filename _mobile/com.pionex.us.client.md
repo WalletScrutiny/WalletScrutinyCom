@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-25
-  updated: 2026-07-14
-  version: 2.1.8
+  updated: 2026-08-07
+  version: 2.1.9
   reviews: 652
   icon: com.pionex.us.client.png
   meta: ok

@@ -1,6 +1,6 @@
 ---
 wsId: mwallet
-title: 'Bitcoin.com Wallet: Buy, Sell'
+title: 'Bitcoin.com: Crypto Wallet'
 date: 2021-05-20
 authors:
 - leo
@@ -29,9 +29,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-06-19
-  updated: 2026-08-05
+  updated: 2026-08-07
   version: 9.32.5
-  reviews: 4232
+  reviews: 4241
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource
@@ -42,9 +42,9 @@ iphone:
   idd: '1252903728'
   appCountry: us
   released: 2017-07-11
-  updated: 2026-07-30
-  version: 9.32.0
-  reviews: 44623
+  updated: 2026-08-06
+  version: 9.33.0
+  reviews: 44720
   icon: com.bitcoin.mwallet.jpg
   meta: ok
   verdict: nosource

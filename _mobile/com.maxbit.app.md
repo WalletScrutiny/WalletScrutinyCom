@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-09-24
-  updated: 2026-07-20
-  version: 1.41.1
+  updated: 2026-08-07
+  version: 1.41.3
   icon: com.maxbit.app.png
   meta: ok
   verdict: custodial
@@ -25,9 +25,9 @@ iphone:
   idd: '1609576357'
   appCountry: th
   released: 2023-12-13
-  updated: 2026-07-23
-  version: v1.41.1
-  reviews: 364
+  updated: 2026-08-11
+  version: v1.41.3
+  reviews: 368
   icon: com.maxbit.app.jpg
   meta: ok
   verdict: custodial

@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-07-09
-  updated: 2026-07-31
-  version: 2.0.5
+  updated: 2026-08-10
+  version: 2.0.6
   icon: com.vox.world.png
   meta: ok
   verdict: custodial

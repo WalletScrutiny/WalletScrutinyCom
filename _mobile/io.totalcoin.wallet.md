@@ -19,8 +19,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-04-01
-  updated: 2026-07-09
-  version: 5.8.4.3312
+  updated: 2026-08-10
+  version: 5.8.5.3317
   reviews: 68
   icon: io.totalcoin.wallet.png
   meta: ok

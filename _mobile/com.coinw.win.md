@@ -31,8 +31,8 @@ iphone:
   idd: '1494077068'
   appCountry: us
   released: 2020-01-14
-  updated: 2026-08-01
-  version: 10.1.24
+  updated: 2026-08-08
+  version: 10.1.25
   reviews: 119
   icon: com.coinwapp.legend.jpg
   meta: ok

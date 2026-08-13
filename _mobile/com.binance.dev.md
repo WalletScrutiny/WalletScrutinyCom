@@ -20,9 +20,9 @@ android:
   users: 100000000
   appCountry: us
   released: 2017-10-25
-  updated: 2026-07-30
-  version: 3.18.4
-  reviews: 16929
+  updated: 2026-08-10
+  version: 3.19.3
+  reviews: 16958
   icon: com.binance.dev.png
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: 1436799971
   appCountry: jp
   released: 2018-10-06
-  updated: 2026-08-04
-  version: 3.18.5
-  reviews: 53047
+  updated: 2026-08-07
+  version: 3.19.1
+  reviews: 53087
   icon: com.czzhao.binance.jpg
   meta: ok
   verdict: custodial

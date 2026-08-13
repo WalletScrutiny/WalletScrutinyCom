@@ -13,7 +13,7 @@ android:
   updated: 2026-06-04
   version: 3.8.7
   icon: com.blast.cosmicbubble.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Cyberdoc Solutions
 iphone:
@@ -23,7 +23,7 @@ iphone:
   released: 2023-10-17
   updated: 2026-07-28
   version: 3.8.8
-  reviews: 39
+  reviews: 36
   icon: com.BKExchange.appstore.jpg
   meta: ok
   verdict: custodial

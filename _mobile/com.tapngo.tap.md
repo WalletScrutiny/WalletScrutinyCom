@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: gb
   released: 2019-12-19
-  updated: 2026-06-24
-  version: 3.8.6
+  updated: 2026-08-04
+  version: 3.8.7
   reviews: 301
   icon: com.tapngo.tap.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1492263993'
   appCountry: gb
   released: 2019-12-20
-  updated: 2026-06-25
-  version: 3.8.6
+  updated: 2026-08-06
+  version: 3.8.7
   reviews: 1912
   icon: com.TapGlobal.tap.jpg
   meta: ok

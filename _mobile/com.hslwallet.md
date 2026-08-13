@@ -12,7 +12,7 @@ android:
   updated: 2026-08-03
   version: 7.14.84
   icon: com.hslwallet.png
-  meta: ok
+  meta: fewusers
   verdict: wip
   developerName: Hamilton Systems
 

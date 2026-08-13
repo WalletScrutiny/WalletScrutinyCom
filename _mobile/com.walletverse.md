@@ -27,7 +27,7 @@ android:
   released: 2023-06-29
   updated: 2026-07-16
   version: 1.17.5
-  reviews: 17
+  reviews: 18
   icon: com.walletverse.png
   meta: ok
   verdict: nosource

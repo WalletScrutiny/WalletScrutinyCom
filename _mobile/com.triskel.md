@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-06-27
-  updated: 2026-05-19
-  version: '6.2'
+  updated: 2026-07-30
+  version: '6.6'
   icon: com.triskel.png
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '6449494626'
   appCountry: us
   released: 2023-07-17
-  updated: 2026-01-08
-  version: '3.9'
+  updated: 2026-08-10
+  version: '4.0'
   reviews: 2
   icon: com.triskelcapital.jpg
   meta: ok

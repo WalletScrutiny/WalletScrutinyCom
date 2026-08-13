@@ -23,11 +23,11 @@ redirect_from:
 - /iphone/com.lnflash/
 android:
   appId: com.lnflash
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2024-01-07
-  updated: 2026-07-24
-  version: 0.6.3
+  updated: 2026-08-12
+  version: 0.6.5
   icon: com.lnflash.png
   meta: ok
   verdict: sourceavailable
@@ -38,8 +38,8 @@ iphone:
   idd: '6451129095'
   appCountry: jm
   released: 2024-08-08
-  updated: 2026-07-25
-  version: 0.6.3
+  updated: 2026-08-12
+  version: 0.6.5
   reviews: 0
   icon: com.lnflash.jpg
   meta: ok

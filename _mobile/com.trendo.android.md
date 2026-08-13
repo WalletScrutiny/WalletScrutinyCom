@@ -28,7 +28,7 @@ iphone:
   released: 2020-09-29
   updated: 2026-08-04
   version: 5.0.56
-  reviews: 93
+  reviews: 96
   icon: ios.m3.Trendo.jpg
   meta: ok
   verdict: custodial

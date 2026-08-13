@@ -6,13 +6,13 @@ redirect_from:
 - /android/united.network/
 android:
   appId: united.network
-  users: 100
+  users: 500
   appCountry: us
   released: 2025-04-14
-  updated: 2025-07-06
-  version: 1.0.4
+  updated: 2026-08-07
+  version: 1.0.13
   icon: united.network.png
-  meta: stale
+  meta: fewusers
   verdict: wip
   developerName: Trend IT Services LLC
 

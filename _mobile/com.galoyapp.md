@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-11-24
-  updated: 2026-07-28
-  version: 3.0.16
+  updated: 2026-08-10
+  version: 3.0.25
   reviews: 49
   icon: com.galoyapp.png
   meta: ok

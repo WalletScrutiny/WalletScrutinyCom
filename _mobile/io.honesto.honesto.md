@@ -12,8 +12,8 @@ android:
   appId: io.honesto.honesto
   users: 10000
   appCountry: us
-  updated: 2026-07-14
-  version: 2.4.0
+  updated: 2026-08-10
+  version: 2.4.2
   icon: io.honesto.honesto.png
   meta: ok
   verdict: custodial
@@ -23,8 +23,8 @@ iphone:
   idd: '1503465220'
   appCountry: ch
   released: 2021-12-09
-  updated: 2026-07-06
-  version: 2.4.0
+  updated: 2026-08-11
+  version: 2.4.1
   reviews: 37
   icon: io.honesto.honesto.jpg
   meta: ok
