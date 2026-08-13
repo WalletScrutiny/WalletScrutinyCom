@@ -1558,7 +1558,6 @@ const getAllAssetInformation = async function({ months,
       // Extract appIds from these verifications
       const verificationAppIds = new Set();
       newVerifications.forEach(v => {
-        console.log('**************** v', v);
         const vAppId = v.tags?.find(t => t[0] === 'i')?.[1];
         if (vAppId) verificationAppIds.add(vAppId);
       });
