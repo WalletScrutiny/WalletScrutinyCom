@@ -73,11 +73,9 @@ const bundlePath = (prefix) => {
     (async function() {
       const ndkConnectPromise = nostrConnect();
 
-      let loadedFromCache = false;
       window.allAssetInformation = await getAllAssetInformation({
         onCachedDataLoaded: (cachedData) => {
           console.log('Cached data loaded immediately!', cachedData);
-          loadedFromCache = true;
           window.allAssetInformation = cachedData;
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
         }
@@ -85,9 +83,7 @@ const bundlePath = (prefix) => {
 
       await ndkConnectPromise.catch(() => {});
 
-      if (!loadedFromCache || {% if page.url == "/verifiers/" %}true{% else %}false{% endif %}) {
-        window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
-      }
+      window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
       loadDraftVerificationsNotifications();
 
       setTimeout(() => {

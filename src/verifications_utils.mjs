@@ -481,26 +481,54 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
   return reported;
 }
 
+const VERIFICATION_REPORT_FETCH_CHUNK = 30;
+
+/**
+ * Homepage loads every verification (no appId/sha256/pubkey). Chunking those ids
+ * into #e filters would mean dozens of relay queries. Fetch all admin reports
+ * instead and intersect client-side. Scoped wallet-page loads keep #e chunks.
+ */
+function buildVerificationReportFilters(verificationEventIds, { unscoped = false } = {}) {
+  if (!verificationEventIds.length) {
+    return [];
+  }
+  const baseFilter = {
+    kinds: [verificationReportKind],
+    authors: siteAdminPubkeys,
+    since: verificationEventsSinceTS
+  };
+  if (unscoped) {
+    return [baseFilter];
+  }
+  const filters = [];
+  for (let i = 0; i < verificationEventIds.length; i += VERIFICATION_REPORT_FETCH_CHUNK) {
+    filters.push({
+      ...baseFilter,
+      '#e': verificationEventIds.slice(i, i + VERIFICATION_REPORT_FETCH_CHUNK)
+    });
+  }
+  return filters;
+}
+
 /**
  * Fetches verification-report events for the given verification ids.
  * Relay author filter is an optimization; pubkey and reason are re-checked client-side.
  */
-async function fetchReportsForVerificationIds(verificationEventIds) {
+async function fetchReportsForVerificationIds(verificationEventIds, { unscoped = false } = {}) {
   const reported = new Set();
-  if (!verificationEventIds.length) {
+  const filters = buildVerificationReportFilters(verificationEventIds, { unscoped });
+  if (!filters.length) {
     return reported;
   }
   await ensureNdkConnected();
-  const CHUNK = 30;
-  for (let i = 0; i < verificationEventIds.length; i += CHUNK) {
-    const chunk = verificationEventIds.slice(i, i + CHUNK);
+  for (const filter of filters) {
     try {
-      const batch = await nostrFetchEvents({
-        kinds: [verificationReportKind],
-        '#e': chunk,
-        authors: siteAdminPubkeys,
-        since: verificationEventsSinceTS
-      });
+      const batch = await nostrFetchEvents(filter);
+      if (batch.size > 0) {
+        await saveEventsToIDB(batch).catch(e => {
+          console.warn('Failed to save verification reports to IDB', e);
+        });
+      }
       for (const eventId of reportedIdsFromReports(batch, verificationEventIds)) {
         reported.add(eventId);
       }
@@ -509,10 +537,6 @@ async function fetchReportsForVerificationIds(verificationEventIds) {
     }
   }
   return reported;
-}
-
-function shouldLoadAdminVerificationReports({ appId, sha256, pubkey }) {
-  return Boolean(appId || sha256 || pubkey);
 }
 
 const createVerificationReport = async function ({
@@ -541,7 +565,11 @@ const createVerificationReport = async function ({
   const ndkEvent = createNdkEvent(verificationReportKind, body, tags);
   eventSanitize(ndkEvent);
   const published = await publishNdkEvent(ndkEvent, 'verification report');
-  return published ?? ndkEvent;
+  const reportEvent = published ?? ndkEvent;
+  await saveEventsToIDB([reportEvent]).catch(e => {
+    console.warn('Failed to save verification report to IDB', e);
+  });
+  return reportEvent;
 };
 
 const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
@@ -1008,6 +1036,28 @@ const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limi
   });
 };
 
+function verificationIdsFromEvents(events) {
+  return [...events].filter(
+    e => e.kind === verificationKind || e.kind === verificationDraftKind
+  ).map(e => e.id);
+}
+
+async function loadCachedReportedVerificationIds(verificationEventIds, since) {
+  if (!verificationEventIds.length) {
+    return new Set();
+  }
+  try {
+    const cachedReports = await getEventsFromIDB({
+      kinds: [verificationReportKind],
+      since
+    });
+    return reportedIdsFromReports(cachedReports, verificationEventIds);
+  } catch (e) {
+    console.warn('Failed to load cached verification reports from IDB', e);
+    return new Set();
+  }
+}
+
 /**
  * Get timestamp range of cached events in IDB
  * @param {Array<number>} kinds - Optional kinds to check
@@ -1253,6 +1303,17 @@ const backgroundSyncEvents = async function() {
       console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
     }
 
+    const { newest: newestReport } = await getIDBEventRange([verificationReportKind]);
+    const newReports = await nostrFetchEvents({
+      kinds: [verificationReportKind],
+      authors: siteAdminPubkeys,
+      since: newestReport ? newestReport + 1 : verificationEventsSinceTS
+    });
+    if (newReports.size > 0) {
+      await saveEventsToIDB(newReports);
+      console.log(`Background sync: Saved ${newReports.size} new verification reports`);
+    }
+
     console.log('✅ Background sync complete - ALL event kinds synced');
   } catch (error) {
     console.warn('Background sync error:', error);
@@ -1351,13 +1412,9 @@ const getAllAssetInformation = async function({ months,
   console.time('getAllAssetInformation' + randomNumber);
 
   const resolveReportedVerificationIds = async (eventSet) => {
-    if (!shouldLoadAdminVerificationReports({ appId, sha256, pubkey })) {
-      return new Set();
-    }
-    const verificationEventIds = [...eventSet].filter(
-      e => e.kind === verificationKind || e.kind === verificationDraftKind
-    ).map(e => e.id);
-    return fetchReportsForVerificationIds(verificationEventIds);
+    const verificationEventIds = verificationIdsFromEvents(eventSet);
+    const unscoped = !appId && !sha256 && !pubkey;
+    return fetchReportsForVerificationIds(verificationEventIds, { unscoped });
   };
 
   let events = new Set();
@@ -1427,7 +1484,11 @@ const getAllAssetInformation = async function({ months,
 
       if (loadedFromIDB && onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, new Set());
+        const reportedFromCache = await loadCachedReportedVerificationIds(
+          verificationIdsFromEvents(events),
+          baseSince
+        );
+        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache);
         onCachedDataLoaded(quickResult);
       }
     }
@@ -1497,6 +1558,7 @@ const getAllAssetInformation = async function({ months,
       // Extract appIds from these verifications
       const verificationAppIds = new Set();
       newVerifications.forEach(v => {
+        console.log('**************** v', v);
         const vAppId = v.tags?.find(t => t[0] === 'i')?.[1];
         if (vAppId) verificationAppIds.add(vAppId);
       });
@@ -1587,7 +1649,12 @@ const getAllAssetInformation = async function({ months,
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
 
-  const reportedVerificationIds = await resolveReportedVerificationIds(events);
+  const reportedFromCache = await loadCachedReportedVerificationIds(
+    verificationIdsFromEvents(events),
+    baseSince
+  );
+  const reportedFromNetwork = await resolveReportedVerificationIds(events);
+  const reportedVerificationIds = new Set([...reportedFromCache, ...reportedFromNetwork]);
   const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds);
 
   console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
@@ -2405,5 +2472,6 @@ export {
   subscribeToZapReceipts,
   createAuthorizationEvent,
   reportedIdsFromReports,
+  buildVerificationReportFilters,
   eventSanitize,
 };
