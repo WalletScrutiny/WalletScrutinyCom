@@ -1,8 +1,8 @@
 import { sha256 } from '@noble/hashes/sha2.js';
 import { bytesToHex } from '@noble/hashes/utils.js';
+import * as nip19 from 'nostr-tools/nip19';
 
 function isDebugEnv() {
-  return false;
   if (typeof window === 'undefined') {
     return false;
   }
@@ -45,6 +45,15 @@ function getVerificationReplaceableKey(appId, version, platform, hashes = []) {
   return key;
 }
 
+function getNpubFromPubkey(pubkey) {
+  return nip19.npubEncode(pubkey);
+}
+
+function shortenNpub(npub) {
+  if (!npub || npub.length < 16) return npub;
+  return `${npub.substring(0, 10)}…${npub.substring(npub.length - 6)}`;
+}
+
 function getStatusText(status, short = false) {
   switch (status) {
     case 'reproducible':
@@ -73,6 +82,8 @@ export {
   getFirstTagValue,
   getAssetHashesDigest,
   getVerificationReplaceableKey,
+  getNpubFromPubkey,
+  shortenNpub,
   getStatusText,
 };
 
