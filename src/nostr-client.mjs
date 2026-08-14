@@ -3,6 +3,12 @@ import { finalizeEvent, getPublicKey } from 'nostr-tools/pure';
 import { hexToBytes } from '@noble/hashes/utils.js';
 import { bech32 } from '@scure/base';
 import * as nip19 from 'nostr-tools/nip19';
+import {
+  mainRelayUrl,
+  readRelayUrls,
+  relayPaginationPageLimits,
+  defaultRelayPaginationPageLimit,
+} from './nostr-constants.mjs';
 
 let nip04Promise;
 let nip57Promise;
@@ -160,7 +166,7 @@ export async function withEphemeralPool(urls, fn, { connectTimeoutMs = 3000 } = 
 export async function fetchEvents(filterOrFilters, options = {}) {
   await ensureConnected();
   const filters = Array.isArray(filterOrFilters) ? filterOrFilters : [filterOrFilters];
-  const urls = options.relayUrls ?? relayUrls;
+  const urls = options.relayUrls ?? readRelayUrls;
   const eventMap = new Map();
   const maxWait = options.maxWait ?? 3000;
 
@@ -179,10 +185,10 @@ export async function fetchEvents(filterOrFilters, options = {}) {
 
 export async function fetchEvent(eventId, options = {}) {
   await ensureConnected();
-  return pool.get(relayUrls, { ids: [eventId] }, { maxWait: options.maxWait ?? 3000 });
+  const urls = options.relayUrls ?? readRelayUrls;
+  return pool.get(urls, { ids: [eventId] }, { maxWait: options.maxWait ?? 3000 });
 }
 
-const DEFAULT_PAGINATION_PAGE_LIMIT = 500;
 const DEFAULT_PAGINATION_MAX_WAIT_MS = 15_000;
 const DEFAULT_EMPTY_PAGE_RETRIES = 3;
 
@@ -194,14 +200,14 @@ function resolvePaginationPageLimit(relayUrl, filter, options) {
   if (filter.limit !== undefined) {
     return filter.limit;
   }
-  const relayLimit = options.relayPageLimits?.[relayUrl];
+  const relayLimit = options.relayPageLimits?.[relayUrl] ?? relayPaginationPageLimits[relayUrl];
   if (relayLimit !== undefined) {
     return relayLimit;
   }
   if (options.pageLimit !== undefined) {
     return options.pageLimit;
   }
-  return DEFAULT_PAGINATION_PAGE_LIMIT;
+  return defaultRelayPaginationPageLimit;
 }
 
 function formatPaginationKindsLabel(filter) {
@@ -295,7 +301,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
  * merged by event id.
  */
 export async function fetchEventsWithPagination(filter, options = {}) {
-  const urls = options.relayUrls ?? relayUrls;
+  const urls = options.relayUrls ?? readRelayUrls;
   const relayEventMaps = await Promise.all(
     urls.map(relayUrl => fetchEventsWithPaginationFromRelay(relayUrl, filter, options))
   );
@@ -341,26 +347,57 @@ export async function getUserPubkeyFromSigner() {
   return getPublicKey(secretKey);
 }
 
+export function resolveWriteRelayUrls(urlsOverride) {
+  const urls = [...(urlsOverride ?? relayUrls)];
+  if (!urls.includes(mainRelayUrl)) {
+    urls.unshift(mainRelayUrl);
+  }
+  return urls;
+}
+
+export function requiredRelayPublishError(urls, results, requiredUrl = mainRelayUrl) {
+  const index = urls.indexOf(requiredUrl);
+  if (index === -1) {
+    return `Publish list is missing ${requiredUrl}`;
+  }
+  const result = results[index];
+  if (!result || result.status !== 'fulfilled') {
+    const reason = result?.reason?.message ?? String(result?.reason ?? 'unknown error');
+    return `Failed to publish to ${requiredUrl}: ${reason}`;
+  }
+  return null;
+}
+
 export async function publishEvent(event, urlsOverride) {
   await ensureConnected();
-  const urls = urlsOverride ?? relayUrls;
+  const urls = resolveWriteRelayUrls(urlsOverride);
   const results = await Promise.allSettled(pool.publish(urls, event));
+
+  const requiredError = requiredRelayPublishError(urls, results);
+  if (requiredError) {
+    throw new Error(requiredError);
+  }
+
   const successful = results.filter(result => result.status === 'fulfilled').length;
+  for (let i = 0; i < urls.length; i++) {
+    if (results[i].status === 'rejected' && urls[i] !== mainRelayUrl) {
+      console.warn(
+        `Publish to ${urls[i]} failed:`,
+        results[i].reason?.message ?? results[i].reason
+      );
+    }
+  }
+
   return { successful, total: urls.length, results };
 }
 
 export async function publishToRelays(event, urls, timeoutMs = 5000, minSuccess = 1) {
   const publishPromise = (async () => {
-    await ensureConnected();
-    const results = await Promise.allSettled(pool.publish(urls, event));
-    const fulfilled = results.filter(result => result.status === 'fulfilled').length;
-    if (fulfilled < minSuccess) {
-      const errors = results
-        .filter(result => result.status === 'rejected')
-        .map(result => result.reason?.message ?? String(result.reason));
-      throw new Error(`Published to ${fulfilled} relays, needed ${minSuccess}. Errors: ${errors.join('; ')}`);
+    const { successful } = await publishEvent(event, urls);
+    if (successful < minSuccess) {
+      throw new Error(`Published to ${successful} relays, needed ${minSuccess}.`);
     }
-    return fulfilled;
+    return successful;
   })();
 
   if (timeoutMs > 0) {
@@ -375,12 +412,12 @@ export async function publishToRelays(event, urls, timeoutMs = 5000, minSuccess 
   return publishPromise;
 }
 
-export function subscribeEvents(filter, { onevent, onclose, maxWait } = {}) {
+export function subscribeEvents(filter, { onevent, onclose, maxWait, relayUrls: urls } = {}) {
   if (!pool) {
     throw new Error('Pool not initialized');
   }
 
-  return pool.subscribe(relayUrls, filter, {
+  return pool.subscribe(urls ?? readRelayUrls, filter, {
     onevent,
     onclose,
     maxWait: maxWait ?? 3000,

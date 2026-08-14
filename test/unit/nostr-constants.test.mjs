@@ -31,6 +31,13 @@ describe('relay URL lists', () => {
       assert.equal(explicitRelayUrls.includes(url), true);
     }
   });
+
+  test('application-event reads use only the project relay', async () => {
+    const { mainRelayUrl, readRelayUrls, writeRelayUrls } = await import('../../src/nostr-constants.mjs');
+    assert.deepEqual(readRelayUrls, [mainRelayUrl]);
+    assert.equal(writeRelayUrls.includes(mainRelayUrl), true);
+    assert.ok(writeRelayUrls.length > readRelayUrls.length);
+  });
 });
 
 describe('relayPaginationPageLimits', () => {
