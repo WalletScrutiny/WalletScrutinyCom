@@ -9,7 +9,10 @@ import {
   getEventsFromIDB,
   getEventsByIdsFromIDB,
   getIDBEventRange,
+  getProfileRecord,
+  kindCreatedAtRangeArgs,
   missingEventIds,
+  putProfileRecord,
   saveEventsToIDB,
   deleteCachedEventById,
 } from '../../src/nostr-idb.mjs';
@@ -120,17 +123,59 @@ describe('eventTimeRange', () => {
   });
 });
 
+describe('kindCreatedAtRangeArgs', () => {
+  test('covers every timestamp for a kind when no time bounds are set', () => {
+    assert.deepEqual(kindCreatedAtRangeArgs(30301), {
+      lower: [30301],
+      upper: [30302],
+      lowerOpen: false,
+      upperOpen: true,
+    });
+  });
+
+  test('uses an inclusive time window when since and until are set', () => {
+    assert.deepEqual(kindCreatedAtRangeArgs(1, 100, 200), {
+      lower: [1, 100],
+      upper: [1, 200],
+      lowerOpen: false,
+      upperOpen: false,
+    });
+  });
+
+  test('uses an open upper bound of the next kind when only since is set', () => {
+    assert.deepEqual(kindCreatedAtRangeArgs(1, 100), {
+      lower: [1, 100],
+      upper: [2],
+      lowerOpen: false,
+      upperOpen: true,
+    });
+  });
+
+  test('uses the kind prefix as lower bound when only until is set', () => {
+    assert.deepEqual(kindCreatedAtRangeArgs(1, null, 200), {
+      lower: [1],
+      upper: [1, 200],
+      lowerOpen: false,
+      upperOpen: false,
+    });
+  });
+});
+
 describe('IndexedDB helpers without a browser DB', () => {
   test('read helpers return empty results', async () => {
     assert.deepEqual(await getEventsFromIDB({ kinds: [1] }), []);
+    assert.deepEqual(await getEventsFromIDB({ kinds: [] }), []);
     assert.deepEqual(await getEventsByIdsFromIDB(['a', 'b']), []);
     assert.deepEqual(await getEventsByIdsFromIDB([]), []);
     assert.deepEqual(await getIDBEventRange([1]), { oldest: null, newest: null, count: 0 });
+    assert.deepEqual(await getIDBEventRange([]), { oldest: null, newest: null, count: 0 });
+    assert.equal(await getProfileRecord('pk'), null);
   });
 
   test('write helpers no-op', async () => {
     assert.equal(await saveEventsToIDB([makeEvent({ id: 'x' })]), 0);
     await deleteCachedEventById('x');
     await deleteCachedEventById('');
+    await putProfileRecord({ pubkey: 'pk', profile: { name: 'Alice' } });
   });
 });

@@ -3,10 +3,8 @@ import * as nip19 from 'nostr-tools/nip19';
 import { ensureConnected, getPool } from './nostr-client.mjs';
 import { eventRelayUrls } from './nostr-constants.mjs';
 import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from './html-utils.mjs';
+import { getProfileRecord, putProfileRecord } from './nostr-idb.mjs';
 
-const DB_NAME = 'WalletScrutinyDB';
-const DB_VERSION = 4;
-const PROFILES_STORE = 'profiles';
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
 const PROFILE_CACHE_VERSION = 6;
 const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
@@ -23,88 +21,31 @@ const purifyConfig = {
 
 export const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
-let dbOpenPromise = null;
 const inFlightProfileFetches = new Map();
 
-function openProfilesDb() {
-  if (dbOpenPromise) {
-    return dbOpenPromise;
-  }
-
-  dbOpenPromise = new Promise((resolve, reject) => {
-    if (typeof window === 'undefined' || !window.indexedDB) {
-      dbOpenPromise = null;
-      reject(new Error('IndexedDB is not available'));
-      return;
-    }
-
-    const request = window.indexedDB.open(DB_NAME, DB_VERSION);
-    request.onerror = (event) => {
-      dbOpenPromise = null;
-      reject(`IndexedDB error: ${event.target.errorCode}`);
-    };
-    request.onsuccess = (event) => resolve(event.target.result);
-    request.onupgradeneeded = (event) => {
-      const db = event.target.result;
-      if (!db.objectStoreNames.contains(PROFILES_STORE)) {
-        const profilesStore = db.createObjectStore(PROFILES_STORE, { keyPath: 'pubkey' });
-        profilesStore.createIndex('cached_at', 'cached_at', { unique: false });
-      }
-    };
-  });
-
-  return dbOpenPromise;
-}
-
 async function saveProfileToIDB(pubkey, profile) {
-  const db = await openProfilesDb().catch(() => null);
-  if (!db) {
-    return;
-  }
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([PROFILES_STORE], 'readwrite');
-    const objectStore = transaction.objectStore(PROFILES_STORE);
-    const request = objectStore.put({
-      pubkey,
-      profile,
-      cached_at: Math.floor(Date.now() / 1000),
-      cache_version: PROFILE_CACHE_VERSION,
-    });
-    request.onsuccess = () => resolve();
-    request.onerror = () => reject('Error saving profile to IDB');
+  await putProfileRecord({
+    pubkey,
+    profile,
+    cached_at: Math.floor(Date.now() / 1000),
+    cache_version: PROFILE_CACHE_VERSION,
   });
 }
 
 async function getProfileFromIDB(pubkey) {
-  const db = await openProfilesDb().catch(() => null);
-  if (!db) {
+  const result = await getProfileRecord(pubkey);
+  if (!result) {
     return null;
   }
 
-  return new Promise((resolve) => {
-    const transaction = db.transaction([PROFILES_STORE], 'readonly');
-    const objectStore = transaction.objectStore(PROFILES_STORE);
-    const request = objectStore.get(pubkey);
-    request.onsuccess = () => {
-      const result = request.result;
-      if (!result) {
-        resolve(null);
-        return;
-      }
+  const now = Math.floor(Date.now() / 1000);
+  const age = now - result.cached_at;
+  const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
+  if (isEmpty || age > PROFILE_HIT_MAX_AGE || result.cache_version !== PROFILE_CACHE_VERSION) {
+    return null;
+  }
 
-      const now = Math.floor(Date.now() / 1000);
-      const age = now - result.cached_at;
-      const isEmpty = !result.profile || Object.keys(result.profile).length === 0;
-      if (isEmpty || age > PROFILE_HIT_MAX_AGE || result.cache_version !== PROFILE_CACHE_VERSION) {
-        resolve(null);
-        return;
-      }
-
-      resolve(result.profile);
-    };
-    request.onerror = () => resolve(null);
-  });
+  return result.profile;
 }
 
 function sanitizeProfileMediaUrl(url) {
