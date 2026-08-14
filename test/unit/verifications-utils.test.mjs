@@ -7,6 +7,7 @@ import {
   getAppInfoFromEventInfo,
   getMaxAssetVersion,
   getFileAttachmentIDsForVerificationEvent,
+  groupEndorsementsByVerificationId,
 } from '../../src/verifications_utils.mjs';
 import {
   assetRegistrationKind,
@@ -31,6 +32,39 @@ describe('shortenNpub', () => {
     assert.ok(shortened.length < npub.length);
     assert.equal(shortened.slice(0, 10), npub.slice(0, 10));
     assert.equal(shortened.slice(-6), npub.slice(-6));
+  });
+});
+
+describe('groupEndorsementsByVerificationId', () => {
+  test('groups endorsements by 64-character e tag', () => {
+    const endorsementA = makeEvent({
+      id: 'end-a',
+      tags: [['e', HASH_A], ['e', 'short']],
+    });
+    const endorsementB = makeEvent({
+      id: 'end-b',
+      tags: [['e', HASH_A]],
+    });
+    const endorsementC = makeEvent({
+      id: 'end-c',
+      tags: [['e', HASH_B]],
+    });
+    const skipped = makeEvent({
+      id: 'end-skip',
+      tags: [['e', 'not-an-event-id'], ['p', HASH_A]],
+    });
+
+    assert.deepEqual(
+      groupEndorsementsByVerificationId([endorsementA, endorsementB, endorsementC, skipped]),
+      {
+        [HASH_A]: [endorsementA, endorsementB],
+        [HASH_B]: [endorsementC],
+      }
+    );
+  });
+
+  test('returns an empty object for an empty list', () => {
+    assert.deepEqual(groupEndorsementsByVerificationId([]), {});
   });
 });
 

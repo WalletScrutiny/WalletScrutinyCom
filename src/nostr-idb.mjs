@@ -52,7 +52,27 @@ const initDB = () => {
   return dbOpenPromise;
 };
 
-export function eventMatchesQuery(event, { appId = null, sha256 = null, pubkey = null } = {}) {
+export function eventHasTagValue(event, tagName, values) {
+  const wanted = Array.isArray(values) ? values : [values];
+  if (!wanted.length) {
+    return false;
+  }
+  const wantedSet = new Set(wanted);
+  return (event.tags ?? []).some(tag => tag[0] === tagName && wantedSet.has(tag[1]));
+}
+
+export function missingEventIds(requestedIds, cachedEvents) {
+  const have = new Set((cachedEvents ?? []).map(event => event.id));
+  return [...new Set((requestedIds ?? []).filter(Boolean))].filter(id => !have.has(id));
+}
+
+export function eventMatchesQuery(event, {
+  appId = null,
+  sha256 = null,
+  pubkey = null,
+  tagName = null,
+  tagValues = null,
+} = {}) {
   if (pubkey && event.pubkey !== pubkey) {
     return false;
   }
@@ -68,6 +88,12 @@ export function eventMatchesQuery(event, { appId = null, sha256 = null, pubkey =
   if (sha256) {
     const hashes = event.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) ?? [];
     if (!hashes.includes(sha256)) {
+      return false;
+    }
+  }
+
+  if (tagName != null && tagValues != null) {
+    if (!eventHasTagValue(event, tagName, tagValues)) {
       return false;
     }
   }
@@ -167,13 +193,15 @@ export const getEventsFromIDB = async ({
   appId = null,
   sha256 = null,
   pubkey = null,
+  tagName = null,
+  tagValues = null,
 } = {}) => {
   const db = await initDB().catch(() => null);
   if (!db) {
     return [];
   }
 
-  const query = { appId, sha256, pubkey };
+  const query = { appId, sha256, pubkey, tagName, tagValues };
 
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([EVENTS_STORE], 'readonly');
@@ -269,5 +297,48 @@ export const getIDBEventRange = async (kinds = null) => {
       newestRequest.onerror = () => reject('Error reading newest event');
     };
     oldestRequest.onerror = () => reject('Error reading oldest event');
+  });
+};
+
+/**
+ * Lookup events by id. Missing ids are omitted from the result.
+ * @returns {Promise<Array>}
+ */
+export const getEventsByIdsFromIDB = async (ids) => {
+  const uniqueIds = [...new Set((ids ?? []).filter(Boolean))];
+  if (!uniqueIds.length) {
+    return [];
+  }
+
+  const db = await initDB().catch(() => null);
+  if (!db) {
+    return [];
+  }
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([EVENTS_STORE], 'readonly');
+    const objectStore = transaction.objectStore(EVENTS_STORE);
+    const found = [];
+    let pending = uniqueIds.length;
+
+    const finishIfDone = () => {
+      pending--;
+      if (pending <= 0) {
+        resolve(found);
+      }
+    };
+
+    uniqueIds.forEach(id => {
+      const request = objectStore.get(id);
+      request.onsuccess = () => {
+        if (request.result) {
+          found.push(request.result);
+        }
+        finishIfDone();
+      };
+      request.onerror = () => finishIfDone();
+    });
+
+    transaction.onerror = () => reject('Error reading events by id from IDB');
   });
 };

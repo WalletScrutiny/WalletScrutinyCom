@@ -55,7 +55,9 @@ import {
   saveEventsToIDB,
   deleteCachedEventById,
   getEventsFromIDB,
+  getEventsByIdsFromIDB,
   eventTimeRange,
+  missingEventIds,
 } from './nostr-idb.mjs';
 import { syncDelta } from './nostr-sync.mjs';
 
@@ -735,39 +737,121 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
 }
 
 const getEventsFromEventIds = async function(eventIds) {
-  await ensureNdkConnected();
-
-  if (!eventIds || eventIds.length === 0) {
-    console.debug(`No event-ids found on verification event ${eventIds}.`);
-    return [];
+  const ids = [...new Set((eventIds ?? []).filter(Boolean))];
+  if (ids.length === 0) {
+    console.debug('No event-ids found on verification event.');
+    return new Set();
   }
 
-  console.debug(`Fetching ${eventIds.length} events: ${eventIds.join(', ')}`);
+  const cached = await getEventsByIdsFromIDB(ids);
+  const missing = missingEventIds(ids, cached);
+  const events = new Map(cached.map(event => [event.id, event]));
 
-  return await nostrFetchEvents({
-    ids: eventIds
-  });
+  if (missing.length === 0) {
+    return new Set(ids.map(id => events.get(id)).filter(Boolean));
+  }
+
+  try {
+    await ensureNdkConnected();
+    console.debug(`Fetching ${missing.length} uncached events of ${ids.length} requested`);
+    const fetched = await fetchEventsByIdsFromNetwork(missing);
+    if (fetched.size > 0) {
+      await saveEventsToIDB(fetched).catch(error => {
+        console.warn('Failed to save events fetched by id to IDB', error);
+      });
+      fetched.forEach(event => events.set(event.id, event));
+    }
+  } catch (error) {
+    if (events.size === 0) {
+      throw error;
+    }
+    console.warn('Failed to fetch missing events from network, using cache', error);
+  }
+
+  return new Set(ids.map(id => events.get(id)).filter(Boolean));
+}
+
+const EVENT_ID_FETCH_BATCH = 100;
+
+async function fetchEventsByIdsFromNetwork(ids) {
+  const all = new Set();
+  for (let i = 0; i < ids.length; i += EVENT_ID_FETCH_BATCH) {
+    const batch = ids.slice(i, i + EVENT_ID_FETCH_BATCH);
+    const events = await nostrFetchEvents({ ids: batch });
+    events.forEach(event => all.add(event));
+  }
+  return all;
+}
+
+function groupEndorsementsByVerificationId(endorsements) {
+  const grouped = {};
+  for (const endorsement of endorsements) {
+    const eventId = endorsement.tags?.find(tag => tag[0] === 'e' && tag[1]?.length === 64)?.[1];
+    if (!eventId) {
+      continue;
+    }
+    if (!grouped[eventId]) {
+      grouped[eventId] = [];
+    }
+    grouped[eventId].push(endorsement);
+  }
+  return grouped;
+}
+
+const ENDORSEMENT_FETCH_BATCH = 100;
+
+async function fetchEndorsementsFromNetwork(verificationEventIds, since = null) {
+  const all = new Set();
+  for (let i = 0; i < verificationEventIds.length; i += ENDORSEMENT_FETCH_BATCH) {
+    const batch = verificationEventIds.slice(i, i + ENDORSEMENT_FETCH_BATCH);
+    const filter = {
+      kinds: [endorsementKind],
+      '#e': batch,
+    };
+    if (since != null) {
+      filter.since = since;
+    }
+    const events = await nostrFetchEvents(filter);
+    events.forEach(event => all.add(event));
+  }
+  return all;
 }
 
 const getEndorsementsFromVerificationEventIds = async function(verificationEventIds) {
-  await ensureNdkConnected();
-  const endorsements = await nostrFetchEvents({
-    kinds: [endorsementKind],
-    '#e': verificationEventIds
-  });
-
-  // Group endorsements by the value of the 'e' tag (verification event id)
-  const grouped = {};
-  for (const endorsement of endorsements) {
-    const eTag = endorsement.tags?.find(tag => tag[0] === 'e' && tag[1]?.length === 64);
-    if (eTag?.[1]) {
-      if (!grouped[eTag[1]]) {
-        grouped[eTag[1]] = [];
-      }
-      grouped[eTag[1]].push(endorsement);
-    }
+  if (!verificationEventIds?.length) {
+    return {};
   }
-  return grouped;
+
+  const cached = await getEventsFromIDB({
+    kinds: [endorsementKind],
+    tagName: 'e',
+    tagValues: verificationEventIds,
+  });
+  const { newest } = eventTimeRange(cached);
+  const knownIds = new Set(cached.map(event => event.id));
+  const endorsements = [...cached];
+
+  try {
+    await ensureNdkConnected();
+    const fetched = await fetchEndorsementsFromNetwork(
+      verificationEventIds,
+      newest != null ? newest + 1 : null
+    );
+    const fresh = [...fetched].filter(event => !knownIds.has(event.id));
+    if (fresh.length > 0) {
+      await saveEventsToIDB(fresh).catch(error => {
+        console.warn('Failed to save endorsements to IDB', error);
+      });
+      endorsements.push(...fresh);
+    }
+  } catch (error) {
+    if (cached.length === 0) {
+      throw error;
+    }
+    console.warn('Failed to refresh endorsements from network, using cache', error);
+  }
+
+  return groupEndorsementsByVerificationId(endorsements);
 }
 
 const getAllAttachmentsForAppId = async function(appId, appAssetInformation = null) {
@@ -855,7 +939,6 @@ const backgroundSyncEvents = async function() {
       { label: 'asset registrations', kinds: assetRegistrationKinds },
       { label: 'endorsements', kinds: [endorsementKind] },
       { label: 'comments', kinds: [verificationCommentKind] },
-      { label: 'code snippets', kinds: [codeSnippetKind] },
       {
         label: 'verification reports',
         kinds: [verificationReportKind],
@@ -883,8 +966,23 @@ const backgroundSyncEvents = async function() {
         verificationCommentKind,
       ],
     });
+
+    const cachedVerifications = cachedEvents.filter(
+      event => event.kind === verificationKind || event.kind === verificationDraftKind
+    );
+    const attachmentIds = [...new Set(
+      cachedVerifications.flatMap(event => getFileAttachmentIDsForVerificationEvent(event))
+    )];
+    const snippetEvents = [];
+    if (attachmentIds.length > 0) {
+      const snippets = await getEventsFromEventIds(attachmentIds);
+      snippetEvents.push(...snippets);
+      if (snippets.size > 0) {
+        console.log(`Background sync: Loaded ${snippets.size} code snippets by attachment id`);
+      }
+    }
     const uniquePubkeys = new Set(
-      cachedEvents.map(event => event.pubkey).filter(Boolean)
+      [...cachedEvents, ...snippetEvents].map(event => event.pubkey).filter(Boolean)
     );
     console.log(`Fetching profiles for ${uniquePubkeys.size} authors...`);
     for (const pubkey of uniquePubkeys) {
@@ -1234,18 +1332,43 @@ const getCommentsForVerification = async function(verificationKey) {
 
   // Remove last part of the verificationKey (the event id)
   const verificationKeyWithoutEventId = verificationKey.split(':').slice(0, -1).join(':');
+  const commentKeys = [verificationKey, verificationKeyWithoutEventId].filter(Boolean);
 
-  await ensureNdkConnected();
-  const comments = await nostrFetchEvents([
-    {
-      kinds: [verificationCommentKind],
-      '#v': [verificationKey]
-    },
-    {
-      kinds: [verificationCommentKind],
-      '#v': [verificationKeyWithoutEventId]
+  const cached = await getEventsFromIDB({
+    kinds: [verificationCommentKind],
+    tagName: 'v',
+    tagValues: commentKeys,
+  });
+  const { newest } = eventTimeRange(cached);
+  const knownIds = new Set(cached.map(event => event.id));
+  const comments = [...cached];
+
+  try {
+    await ensureNdkConnected();
+    const filters = commentKeys.map(key => {
+      const filter = {
+        kinds: [verificationCommentKind],
+        '#v': [key],
+      };
+      if (newest != null) {
+        filter.since = newest + 1;
+      }
+      return filter;
+    });
+    const fetched = await nostrFetchEvents(filters);
+    const fresh = [...fetched].filter(event => !knownIds.has(event.id));
+    if (fresh.length > 0) {
+      await saveEventsToIDB(fresh).catch(error => {
+        console.warn('Failed to save comments to IDB', error);
+      });
+      comments.push(...fresh);
     }
-  ]);
+  } catch (error) {
+    if (cached.length === 0) {
+      throw error;
+    }
+    console.warn('Failed to refresh comments from network, using cache', error);
+  }
 
   comments.forEach(comment => {
     comment.content = DOMPurify.sanitize(comment.content);
@@ -1254,7 +1377,7 @@ const getCommentsForVerification = async function(verificationKey) {
     });
   });
 
-  return Array.from(comments);
+  return comments;
 }
 
 const sendPrivateMessageToVerifier = async function(verifierPubkey, commentText) {
@@ -1940,4 +2063,5 @@ export {
   reportedIdsFromReports,
   buildVerificationReportFilters,
   eventSanitize,
+  groupEndorsementsByVerificationId,
 };
