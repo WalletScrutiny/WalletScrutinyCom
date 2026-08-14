@@ -3,10 +3,13 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  eventHasTagValue,
   eventMatchesQuery,
   eventTimeRange,
   getEventsFromIDB,
+  getEventsByIdsFromIDB,
   getIDBEventRange,
+  missingEventIds,
   saveEventsToIDB,
   deleteCachedEventById,
 } from '../../src/nostr-idb.mjs';
@@ -54,6 +57,48 @@ describe('eventMatchesQuery', () => {
       pubkey: 'pk-bob',
     }), false);
   });
+
+  test('filters by tag name and values', () => {
+    assert.equal(eventMatchesQuery(event, { tagName: 'i', tagValues: ['com.example.wallet'] }), true);
+    assert.equal(eventMatchesQuery(event, { tagName: 'e', tagValues: [HASH_A] }), false);
+    assert.equal(eventMatchesQuery(event, { tagName: 'x', tagValues: [HASH_B] }), true);
+  });
+});
+
+describe('eventHasTagValue', () => {
+  const event = makeEvent({
+    tags: [
+      ['e', HASH_A],
+      ['v', 'android:com.example:1'],
+    ],
+  });
+
+  test('matches a single tag value or a list', () => {
+    assert.equal(eventHasTagValue(event, 'e', HASH_A), true);
+    assert.equal(eventHasTagValue(event, 'e', [HASH_B, HASH_A]), true);
+    assert.equal(eventHasTagValue(event, 'v', ['android:com.example:1']), true);
+  });
+
+  test('rejects missing tags and empty value lists', () => {
+    assert.equal(eventHasTagValue(event, 'e', HASH_B), false);
+    assert.equal(eventHasTagValue(event, 'p', HASH_A), false);
+    assert.equal(eventHasTagValue(event, 'e', []), false);
+    assert.equal(eventHasTagValue({ tags: null }, 'e', HASH_A), false);
+  });
+});
+
+describe('missingEventIds', () => {
+  test('returns unique requested ids that are not in the cache', () => {
+    assert.deepEqual(
+      missingEventIds(['a', 'b', 'a', '', null], [{ id: 'b' }, { id: 'c' }]),
+      ['a']
+    );
+  });
+
+  test('returns all unique ids when the cache is empty', () => {
+    assert.deepEqual(missingEventIds(['a', 'b', 'a'], []), ['a', 'b']);
+    assert.deepEqual(missingEventIds(null, null), []);
+  });
 });
 
 describe('eventTimeRange', () => {
@@ -78,6 +123,8 @@ describe('eventTimeRange', () => {
 describe('IndexedDB helpers without a browser DB', () => {
   test('read helpers return empty results', async () => {
     assert.deepEqual(await getEventsFromIDB({ kinds: [1] }), []);
+    assert.deepEqual(await getEventsByIdsFromIDB(['a', 'b']), []);
+    assert.deepEqual(await getEventsByIdsFromIDB([]), []);
     assert.deepEqual(await getIDBEventRange([1]), { oldest: null, newest: null, count: 0 });
   });
 
