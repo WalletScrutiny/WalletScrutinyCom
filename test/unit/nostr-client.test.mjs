@@ -9,7 +9,10 @@ import {
   createEventDraft,
   setPrivateKey,
   signEvent,
+  resolveWriteRelayUrls,
+  requiredRelayPublishError,
 } from '../../src/nostr-client.mjs';
+import { mainRelayUrl } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 describe('getTagValue', () => {
@@ -62,5 +65,35 @@ describe('signEvent', () => {
     assert.equal(signed.pubkey, getPublicKey(secretKey));
     assert.equal(typeof signed.sig, 'string');
     assert.equal(signed.sig.length, 128);
+  });
+});
+
+describe('write relay publish rules', () => {
+  test('resolveWriteRelayUrls prepends the project relay when missing', () => {
+    const urls = resolveWriteRelayUrls(['wss://nos.lol/']);
+    assert.equal(urls[0], mainRelayUrl);
+    assert.deepEqual(urls, [mainRelayUrl, 'wss://nos.lol/']);
+  });
+
+  test('resolveWriteRelayUrls keeps the project relay if already present', () => {
+    const urls = resolveWriteRelayUrls([mainRelayUrl, 'wss://nos.lol/']);
+    assert.deepEqual(urls, [mainRelayUrl, 'wss://nos.lol/']);
+  });
+
+  test('requiredRelayPublishError is null when the project relay fulfilled', () => {
+    const error = requiredRelayPublishError(
+      [mainRelayUrl, 'wss://nos.lol/'],
+      [{ status: 'fulfilled', value: 'ok' }, { status: 'rejected', reason: new Error('timeout') }]
+    );
+    assert.equal(error, null);
+  });
+
+  test('requiredRelayPublishError reports a failed project relay', () => {
+    const error = requiredRelayPublishError(
+      ['wss://nos.lol/', mainRelayUrl],
+      [{ status: 'fulfilled', value: 'ok' }, { status: 'rejected', reason: new Error('connection refused') }]
+    );
+    assert.match(error, /relay\.nostr\.info/);
+    assert.match(error, /connection refused/);
   });
 });

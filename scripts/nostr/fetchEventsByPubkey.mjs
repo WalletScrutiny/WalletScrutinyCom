@@ -26,7 +26,7 @@ async function main() {
 
     console.log("Fetching events (this may take a while)...");
 
-    const events = await fetchEvents({ authors: [PUBKEY], kinds: [verificationKind] });
+    const events = await fetchEvents({ authors: [PUBKEY], kinds: [verificationKind] }, { relayUrls: eventRelayUrls });
 
     const eventsArray = Array.from(events);
 

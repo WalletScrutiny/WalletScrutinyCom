@@ -57,8 +57,8 @@ async function main() {
     console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
 
     const [verificationEvents, opinionEvents] = await Promise.all([
-      fetchEvents({ kinds: VERIFICATION_KINDS, since }),
-      fetchEvents({ kinds: [opinionKind], "#t": ["nostrOpinion"] }),
+      fetchEvents({ kinds: VERIFICATION_KINDS, since }, { relayUrls: eventRelayUrls }),
+      fetchEvents({ kinds: [opinionKind], "#t": ["nostrOpinion"] }, { relayUrls: eventRelayUrls }),
     ]);
 
     const events = [...verificationEvents, ...opinionEvents];

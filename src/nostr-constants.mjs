@@ -14,16 +14,17 @@ export const explicitRelayUrls = [
 export const profileRelayUrl = "wss://purplepag.es/";
 
 /**
- * Relays for reads (events and kind-0 profiles). Excludes profileRelayUrl, which
- * often never sends EOSE on id/kind filters and would block querySync until maxWait.
+ * Relays for writes, kind-0 profile fetches, and admin backup scripts.
+ * Application-event reads use readRelayUrls (the project relay only).
+ * Excludes profileRelayUrl, which often never sends EOSE on id/kind filters.
  */
 export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileRelayUrl);
 
-/**
- * Relays for paginated verification history reads. The project relay holds the
- * complete archive; other relays are synced in the background only.
- * Initial bulk loads paginate mainRelayUrl only.
- */
+/** Application-event reads (verifications, assets, comments, …). Not kind 0. */
+export const readRelayUrls = [mainRelayUrl];
+
+/** Writes go to every event relay; publish must succeed on mainRelayUrl. */
+export const writeRelayUrls = eventRelayUrls;
 
 /** Default LIMIT per paginated REQ when a relay has no entry in relayPaginationPageLimits. */
 export const defaultRelayPaginationPageLimit = 500;

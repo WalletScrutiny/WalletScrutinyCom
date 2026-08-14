@@ -7,10 +7,8 @@ import {
   getRelayUrls,
   fetchEvents as nostrFetchEvents,
   fetchEvent as nostrFetchEvent,
-  fetchEventsWithPagination as nostrFetchEventsWithPagination,
   signEvent,
   publishEvent,
-  publishToRelays,
   subscribeEvents,
   createDeletionRequest,
   createEncryptedDm,
@@ -33,12 +31,10 @@ import {
   verificationCommentKind,
   codeSnippetKind,
   verificationReportKind,
-  explicitRelayUrls,
   eventRelayUrls,
+  writeRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
-  defaultRelayPaginationPageLimit,
-  relayPaginationPageLimits,
   nip89ClientTagD,
   wsBotPublicKey,
   maxFileAttachmentContentLength,
@@ -55,6 +51,13 @@ import {
 import { formatDate } from './format-utils.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
 import { isSha256Hex, stripHtmlTags } from './html-utils.mjs';
+import {
+  saveEventsToIDB,
+  deleteCachedEventById,
+  getEventsFromIDB,
+  eventTimeRange,
+} from './nostr-idb.mjs';
+import { syncDelta } from './nostr-sync.mjs';
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -106,7 +109,7 @@ const nostrConnect = function () {
   ndkConnectionPromise = (async () => {
     try {
       await connectNostr({
-        relayUrls: eventRelayUrls,
+        relayUrls: writeRelayUrls,
         connectTimeoutMs: connectTimeout * 1000,
         onRelayConnect: (relay) => {
           console.debug(`Connected to relay: ${relay.url}`);
@@ -189,16 +192,11 @@ const getWSClientTags = function() {
 }
 
 async function publishNdkEvent(eventDraft, eventType = 'event') {
-  try {
-    await ensureSignerReady();
-    const signed = await signEvent(eventDraft);
-    const { successful } = await publishEvent(signed);
-    console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
-    return signed;
-  } catch (error) {
-    console.error(`Error publishing ${eventType} to relays`, error);
-    return null;
-  }
+  await ensureSignerReady();
+  const signed = await signEvent(eventDraft);
+  const { successful } = await publishEvent(signed);
+  console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
+  return signed;
 }
 
 function createNdkEvent(kind, content, tags = [], createdAt = null) {
@@ -806,235 +804,14 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
   return attachments;
 }
 
-/**
- * Fetches events with pagination support for a filter
- * @param {Object} filter - Filter object to fetch events for
- * @returns {Promise<Set>} - Set of events
- */
-const fetchEventsWithPagination = async function(filter, options = {}) {
-  return nostrFetchEventsWithPagination(filter, options);
-};
+const GAP_FILL_THRESHOLD_SECONDS = 86400;
 
-function buildRelayPaginationOptions(relayUrls) {
-  return {
-    relayUrls,
-    relayPageLimits: relayPaginationPageLimits,
-    pageLimit: defaultRelayPaginationPageLimit,
-  };
+function addEventsToSet(target, source) {
+  for (const event of source ?? []) {
+    target.add(event);
+  }
+  return target;
 }
-
-function getMainRelayPageLimit() {
-  return relayPaginationPageLimits[mainRelayUrl] ?? defaultRelayPaginationPageLimit;
-}
-
-async function fetchVerificationEventsWithPagination(baseFilter, options) {
-  const kindFilters = [verificationKind, verificationDraftKind].map(kind => ({
-    ...baseFilter,
-    kinds: [kind],
-  }));
-
-  const pages = await Promise.all(
-    kindFilters.map(kindFilter => fetchEventsWithPagination(kindFilter, options))
-  );
-
-  const merged = new Set();
-  for (const page of pages) {
-    for (const event of page) {
-      merged.add(event);
-    }
-  }
-  return merged;
-}
-
-const mainRelayPaginationOptions = buildRelayPaginationOptions([mainRelayUrl]);
-const supplementalRelayPaginationOptions = buildRelayPaginationOptions(
-  eventRelayUrls.filter(url => url !== mainRelayUrl)
-);
-
-// IndexedDB Helper Functions
-const dbName = 'WalletScrutinyDB';
-const dbVersion = 4;
-const eventsStoreName = 'events';
-const profilesStoreName = 'profiles';
-
-let dbOpenPromise = null;
-
-const initDB = () => {
-  if (dbOpenPromise) {
-    return dbOpenPromise;
-  }
-
-  dbOpenPromise = new Promise((resolve, reject) => {
-    if (typeof window === 'undefined' || !window.indexedDB) {
-      dbOpenPromise = null;
-      reject(new Error("IndexedDB is not available"));
-      return;
-    }
-    const request = window.indexedDB.open(dbName, dbVersion);
-    request.onerror = (event) => {
-      dbOpenPromise = null;
-      reject("IndexedDB error: " + event.target.errorCode);
-    };
-    request.onsuccess = (event) => resolve(event.target.result);
-    request.onupgradeneeded = (event) => {
-      const db = event.target.result;
-      const oldVersion = event.oldVersion;
-
-      // v4: drop stale events from incomplete pre-pagination-fix syncs; profiles are kept.
-      if (oldVersion > 0 && oldVersion < 4 && db.objectStoreNames.contains(eventsStoreName)) {
-        db.deleteObjectStore(eventsStoreName);
-        console.log('Cleared events store for IDB v4 migration');
-      }
-
-      // Create events store with indexes
-      if (!db.objectStoreNames.contains(eventsStoreName)) {
-        const eventsStore = db.createObjectStore(eventsStoreName, { keyPath: 'id' });
-        eventsStore.createIndex('created_at', 'created_at', { unique: false });
-        eventsStore.createIndex('kind', 'kind', { unique: false });
-        eventsStore.createIndex('kind_createdAt', ['kind', 'created_at'], { unique: false });
-        eventsStore.createIndex('pubkey', 'pubkey', { unique: false });
-        console.log('Created events object store with indexes');
-      }
-
-      // Create profiles store
-      if (!db.objectStoreNames.contains(profilesStoreName)) {
-        const profilesStore = db.createObjectStore(profilesStoreName, { keyPath: 'pubkey' });
-        profilesStore.createIndex('cached_at', 'cached_at', { unique: false });
-        console.log('Created profiles object store');
-      }
-    };
-  });
-
-  return dbOpenPromise;
-};
-
-/**
- * Save events to IDB - stores all events as-is
- * Deduplication is done application-side when reading (for verifications: by hash+pubkey)
- * @param {Array|Set} events - Events to save
- * @returns {Promise<number>} Number of events saved
- */
-const saveEventsToIDB = async (events) => {
-  const db = await initDB().catch(() => null);
-  if (!db) return 0;
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([eventsStoreName], "readwrite");
-    const objectStore = transaction.objectStore(eventsStoreName);
-
-    let savedCount = 0;
-    const eventsArray = Array.isArray(events) ? events : Array.from(events);
-
-    eventsArray.forEach(event => {
-      const rawEvent = event.rawEvent ? event.rawEvent() : (event.toNostrEvent ? event.toNostrEvent() : event);
-      const request = objectStore.put(rawEvent);
-      request.onsuccess = () => savedCount++;
-    });
-
-    transaction.oncomplete = () => {
-      console.debug(`Saved ${savedCount} events to IDB`);
-      resolve(savedCount);
-    };
-    transaction.onerror = () => reject("Error saving events to IDB");
-  });
-};
-
-/**
- * Removes a single Nostr event from the IndexedDB cache (events store keyPath: id).
- * Used after publishing a deletion (kind 5) so reload does not resurrect stale data.
- */
-const deleteCachedEventById = async (eventId) => {
-  if (!eventId) {
-    return;
-  }
-  const db = await initDB().catch(() => null);
-  if (!db) {
-    return;
-  }
-
-  return new Promise((resolve) => {
-    const transaction = db.transaction([eventsStoreName], 'readwrite');
-    const objectStore = transaction.objectStore(eventsStoreName);
-    const request = objectStore.delete(eventId);
-    request.onerror = () => {
-      console.warn('Failed to remove event from IDB cache:', eventId, request.error);
-    };
-    transaction.oncomplete = () => {
-      console.debug(`Removed event ${eventId} from IDB cache`);
-      resolve();
-    };
-    transaction.onerror = () => {
-      console.warn('IDB transaction error removing cached event:', eventId);
-      resolve();
-    };
-  });
-};
-
-/**
- * Get events from IDB with optional filtering
- * @param {Object} options - Filter options
- * @param {Array<number>} options.kinds - Event kinds to filter
- * @param {number} options.since - Timestamp to filter from (inclusive)
- * @param {number} options.until - Timestamp to filter until (inclusive)
- * @param {number} options.limit - Max number of events to return
- * @returns {Promise<Array>} Array of raw event objects sorted by created_at DESC (newest first)
- */
-const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limit = null } = {}) => {
-  const db = await initDB().catch(() => null);
-  if (!db) return [];
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([eventsStoreName], "readonly");
-    const objectStore = transaction.objectStore(eventsStoreName);
-    const results = [];
-
-    // Use created_at index to iterate in descending order (newest first)
-    const index = objectStore.index('created_at');
-
-    // Build IDBKeyRange based on since/until
-    let range = null;
-    if (since !== null && until !== null) {
-      range = IDBKeyRange.bound(since, until);
-    } else if (since !== null) {
-      range = IDBKeyRange.lowerBound(since);
-    } else if (until !== null) {
-      range = IDBKeyRange.upperBound(until);
-    }
-
-    // Open cursor in descending order (prev = newest first)
-    const request = index.openCursor(range, 'prev');
-
-    request.onsuccess = (event) => {
-      const cursor = event.target.result;
-      if (cursor) {
-        const eventData = cursor.value;
-
-        // Apply kind filter
-        let include = true;
-        if (kinds && !kinds.includes(eventData.kind)) {
-          include = false;
-        }
-
-        if (include) {
-          results.push(eventData);
-
-          // Stop if we've hit the limit
-          if (limit && results.length >= limit) {
-            resolve(results);
-            return;
-          }
-        }
-
-        cursor.continue();
-      } else {
-        // No more results, return what we have
-        resolve(results);
-      }
-    };
-
-    request.onerror = () => reject("Error reading events from IDB");
-  });
-};
 
 function verificationIdsFromEvents(events) {
   return [...events].filter(
@@ -1059,262 +836,69 @@ async function loadCachedReportedVerificationIds(verificationEventIds, since) {
 }
 
 /**
- * Get timestamp range of cached events in IDB
- * @param {Array<number>} kinds - Optional kinds to check
- * @returns {Promise<{oldest: number|null, newest: number|null, count: number}>}
- */
-const getIDBEventRange = async (kinds = null) => {
-  const db = await initDB().catch(() => null);
-  if (!db) return { oldest: null, newest: null, count: 0 };
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([eventsStoreName], "readonly");
-    const objectStore = transaction.objectStore(eventsStoreName);
-    const index = objectStore.index('created_at');
-
-    let oldest = null;
-    let newest = null;
-    let count = 0;
-
-    const countRequest = objectStore.count();
-    countRequest.onsuccess = () => {
-      count = countRequest.result;
-    };
-
-    // Get oldest
-    const oldestRequest = index.openCursor(null, 'next');
-    oldestRequest.onsuccess = (event) => {
-      const cursor = event.target.result;
-      if (cursor) {
-        const eventData = cursor.value;
-        if (!kinds || kinds.includes(eventData.kind)) {
-          oldest = eventData.created_at;
-        } else {
-          cursor.continue();
-          return;
-        }
-      }
-
-      // Get newest
-      const newestRequest = index.openCursor(null, 'prev');
-      newestRequest.onsuccess = (event) => {
-        const cursor = event.target.result;
-        if (cursor) {
-          const eventData = cursor.value;
-          if (!kinds || kinds.includes(eventData.kind)) {
-            newest = eventData.created_at;
-          } else {
-            cursor.continue();
-            return;
-          }
-        }
-
-        resolve({ oldest, newest, count });
-      };
-      newestRequest.onerror = () => reject("Error reading newest event");
-    };
-    oldestRequest.onerror = () => reject("Error reading oldest event");
-  });
-};
-
-
-/**
- * Background sync to keep IDB cache fresh - fetches ALL relevant event kinds
- * Runs in background after page is idle
+ * Independent archive fill of WalletScrutiny event kinds on the project relay.
+ * Not scoped to the page query: later UI (any wallet, comments, endorsements)
+ * should already be in IDB.
  */
 const backgroundSyncEvents = async function() {
   try {
     await ensureNdkConnected();
-    console.log('🔄 Background sync starting...');
+    console.log('Background sync starting...');
 
-    const SYNC_LIMIT = 500; // Max events per query (relay limit)
+    const archiveSync = {
+      sinceFloor: verificationEventsSinceTS,
+      fillGaps: true,
+    };
 
-    // 1. Sync verifications and drafts (newer events)
-    const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
+    const jobs = [
+      { label: 'verifications', kinds: [verificationKind, verificationDraftKind] },
+      { label: 'asset registrations', kinds: assetRegistrationKinds },
+      { label: 'endorsements', kinds: [endorsementKind] },
+      { label: 'comments', kinds: [verificationCommentKind] },
+      { label: 'code snippets', kinds: [codeSnippetKind] },
+      {
+        label: 'verification reports',
+        kinds: [verificationReportKind],
+        extraFilter: { authors: siteAdminPubkeys },
+      },
+    ];
 
-    if (newestVerification) {
-      const newVerifications = await fetchEventsWithPagination({
-        kinds: [verificationKind, verificationDraftKind],
-        since: newestVerification + 1,
-        limit: SYNC_LIMIT
-      }, supplementalRelayPaginationOptions);
-
-      if (newVerifications.size > 0) {
-        await saveEventsToIDB(newVerifications);
-        console.log(`✅ Background sync: Saved ${newVerifications.size} new verifications`);
-      }
-    } else {
-      // First time sync - fetch all verifications
-      const allVerifications = await fetchEventsWithPagination({
-        kinds: [verificationKind, verificationDraftKind],
-        since: verificationEventsSinceTS,
-        limit: SYNC_LIMIT
-      }, supplementalRelayPaginationOptions);
-
-      if (allVerifications.size > 0) {
-        await saveEventsToIDB(allVerifications);
-        console.log(`✅ Background sync: Initial load of ${allVerifications.size} verifications`);
-      }
-    }
-
-    // 2. Fill gaps (older events that might have been missed due to interruption)
-    const { oldest: oldestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
-
-    if (oldestVerification && oldestVerification > verificationEventsSinceTS) {
-      const olderVerifications = await fetchEventsWithPagination({
-        kinds: [verificationKind, verificationDraftKind],
-        since: verificationEventsSinceTS,
-        until: oldestVerification - 1,
-        limit: SYNC_LIMIT
-      }, supplementalRelayPaginationOptions);
-
-      if (olderVerifications.size > 0) {
-        await saveEventsToIDB(olderVerifications);
-        console.log(`✅ Background sync: Filled gap with ${olderVerifications.size} older verifications`);
+    for (const { label, kinds, extraFilter } of jobs) {
+      const events = await syncDelta({
+        kinds,
+        extraFilter,
+        ...archiveSync,
+      });
+      if (events.size > 0) {
+        console.log(`Background sync: Saved ${events.size} ${label}`);
       }
     }
 
-    // 3. Get all appIds and verification event IDs from cached verifications
-    const allCachedVerifications = await getEventsFromIDB({
-      kinds: [verificationKind, verificationDraftKind]
+    const cachedEvents = await getEventsFromIDB({
+      kinds: [
+        verificationKind,
+        verificationDraftKind,
+        ...assetRegistrationKinds,
+        endorsementKind,
+        verificationCommentKind,
+      ],
     });
-
-    const appIds = new Set();
-    const verificationEventIds = [];
-    allCachedVerifications.forEach(v => {
-      const appId = v.tags?.find(t => t[0] === 'i')?.[1];
-      if (appId) {
-        appIds.add(appId);
-      }
-      verificationEventIds.push(v.id);
-    });
-
-    // 4. Sync asset registrations for these appIds only
-    if (appIds.size > 0) {
-      const { newest: newestAsset } = await getIDBEventRange(assetRegistrationKinds);
-
-      const newAssets = await fetchEventsWithPagination({
-        kinds: assetRegistrationKinds,
-        '#i': Array.from(appIds),
-        since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
-        limit: SYNC_LIMIT
-      }, supplementalRelayPaginationOptions);
-
-      if (newAssets.size > 0) {
-        await saveEventsToIDB(newAssets);
-        console.log(`✅ Background sync: Saved ${newAssets.size} new asset registrations`);
-      }
-
-      // 5. Fill gaps for asset registrations
-      const { oldest: oldestAsset } = await getIDBEventRange(assetRegistrationKinds);
-
-      if (oldestAsset && oldestAsset > verificationEventsSinceTS) {
-        const olderAssets = await fetchEventsWithPagination({
-          kinds: assetRegistrationKinds,
-          '#i': Array.from(appIds),
-          since: verificationEventsSinceTS,
-          until: oldestAsset - 1,
-          limit: SYNC_LIMIT
-        }, supplementalRelayPaginationOptions);
-
-        if (olderAssets.size > 0) {
-          await saveEventsToIDB(olderAssets);
-          console.log(`✅ Background sync: Filled gap with ${olderAssets.size} older assets`);
-        }
-      }
-    }
-
-    // 6. Fetch and cache profiles for all verifiers
-    const uniquePubkeys = new Set();
-    allCachedVerifications.forEach(v => {
-      if (v.pubkey) uniquePubkeys.add(v.pubkey);
-    });
-
-    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
+    const uniquePubkeys = new Set(
+      cachedEvents.map(event => event.pubkey).filter(Boolean)
+    );
+    console.log(`Fetching profiles for ${uniquePubkeys.size} authors...`);
     for (const pubkey of uniquePubkeys) {
       try {
         await getNostrProfile(pubkey);
       } catch (e) {
         console.warn(
           `Failed to fetch profile for ${pubkey.substring(0, 8)}...`,
-          e && e.message ? e.message : e
+          e?.message ?? e
         );
       }
     }
 
-    // 7. Sync endorsements for cached verifications
-    if (verificationEventIds.length > 0) {
-      const { newest: newestEndorsement } = await getIDBEventRange([endorsementKind]);
-
-      // Fetch in batches of 100 verification IDs (relay limit)
-      const batchSize = 100;
-      for (let i = 0; i < verificationEventIds.length; i += batchSize) {
-        const batch = verificationEventIds.slice(i, i + batchSize);
-
-        const newEndorsements = await nostrFetchEvents({
-          kinds: [endorsementKind],
-          '#e': batch,
-          since: newestEndorsement ? newestEndorsement + 1 : verificationEventsSinceTS,
-          limit: SYNC_LIMIT
-        });
-
-        if (newEndorsements.size > 0) {
-          await saveEventsToIDB(newEndorsements);
-          console.log(`✅ Background sync: Saved ${newEndorsements.size} new endorsements (batch ${Math.floor(i/batchSize) + 1})`);
-        }
-      }
-    }
-
-    // 8. Sync comments for cached verifications (using 'v' tag)
-    if (verificationEventIds.length > 0) {
-      const { newest: newestComment } = await getIDBEventRange([verificationCommentKind]);
-
-      // Comments use 'v' tag, not 'e' tag
-      const batchSize = 100;
-      for (let i = 0; i < verificationEventIds.length; i += batchSize) {
-        const batch = verificationEventIds.slice(i, i + batchSize);
-
-        const newComments = await nostrFetchEvents({
-          kinds: [verificationCommentKind],
-          '#v': batch,
-          since: newestComment ? newestComment + 1 : verificationEventsSinceTS,
-          limit: SYNC_LIMIT
-        });
-
-        if (newComments.size > 0) {
-          await saveEventsToIDB(newComments);
-          console.log(`✅ Background sync: Saved ${newComments.size} new comments (batch ${Math.floor(i/batchSize) + 1})`);
-        }
-      }
-    }
-
-    // 9. Sync code snippets (file attachments) - these are referenced by verifications
-    // We'll fetch them on-demand when verifications are loaded, but cache what we find
-    const { newest: newestSnippet } = await getIDBEventRange([codeSnippetKind]);
-
-    const newSnippets = await nostrFetchEvents({
-      kinds: [codeSnippetKind],
-      since: newestSnippet ? newestSnippet + 1 : verificationEventsSinceTS,
-      limit: SYNC_LIMIT
-    });
-
-    if (newSnippets.size > 0) {
-      await saveEventsToIDB(newSnippets);
-      console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
-    }
-
-    const { newest: newestReport } = await getIDBEventRange([verificationReportKind]);
-    const newReports = await nostrFetchEvents({
-      kinds: [verificationReportKind],
-      authors: siteAdminPubkeys,
-      since: newestReport ? newestReport + 1 : verificationEventsSinceTS
-    });
-    if (newReports.size > 0) {
-      await saveEventsToIDB(newReports);
-      console.log(`Background sync: Saved ${newReports.size} new verification reports`);
-    }
-
-    console.log('✅ Background sync complete - ALL event kinds synced');
+    console.log('Background sync complete');
   } catch (error) {
     console.warn('Background sync error:', error);
   }
@@ -1408,19 +992,14 @@ const getAllAssetInformation = async function({ months,
                                                 onCachedDataLoaded = null,
                                                 getDrafts = true
                                               }) {
-  const randomNumber = Math.floor(Math.random() * 100);
-  console.time('getAllAssetInformation' + randomNumber);
+  const timerId = 'getAllAssetInformation' + Math.floor(Math.random() * 100);
+  console.time(timerId);
 
   const resolveReportedVerificationIds = async (eventSet) => {
     const verificationEventIds = verificationIdsFromEvents(eventSet);
     const unscoped = !appId && !sha256 && !pubkey;
     return fetchReportsForVerificationIds(verificationEventIds, { unscoped });
   };
-
-  let events = new Set();
-  let loadedFromIDB = false;
-  let oldestEventTimestamp = null;
-  let newestEventTimestamp = 0;
 
   const targetKinds = kinds || (getDrafts
     ? [...assetRegistrationKinds, verificationKind, verificationDraftKind]
@@ -1434,216 +1013,104 @@ const getAllAssetInformation = async function({ months,
     baseSince = since;
   }
 
-  // 1. Load from IDB
+  const events = new Set();
+  let loadedFromIDB = false;
+  let oldestEventTimestamp = null;
+  let newestEventTimestamp = null;
+
   try {
-    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds, since: baseSince });
-    if (cachedEvents && cachedEvents.length > 0) {
+    const cachedEvents = await getEventsFromIDB({
+      kinds: targetKinds,
+      since: baseSince,
+      appId,
+      sha256,
+      pubkey,
+    });
+    if (cachedEvents.length > 0) {
       console.debug(`Loaded ${cachedEvents.length} events from IDB (since ${baseSince})`);
+      addEventsToSet(events, cachedEvents);
+      ({ oldest: oldestEventTimestamp, newest: newestEventTimestamp } = eventTimeRange(cachedEvents));
+      loadedFromIDB = true;
 
-      cachedEvents.forEach(eventData => {
-        // Filter relevant events based on request parameters
-        let includeEvent = true;
-
-        // Filter by appId if specified
-        if (appId) {
-          const appIds = Array.isArray(appId) ? appId : [appId];
-          const eventAppId = eventData.tags?.find(t => t[0] === 'i')?.[1];
-          if (!eventAppId || !appIds.includes(eventAppId)) {
-            includeEvent = false;
-          }
-        }
-
-        // Filter by sha256 if specified
-        if (includeEvent && sha256) {
-          const eventHashes = eventData.tags?.filter(t => t[0] === 'x').map(t => t[1]) || [];
-          if (!eventHashes.includes(sha256)) {
-            includeEvent = false;
-          }
-        }
-
-        // Filter by pubkey if specified
-        if (includeEvent && pubkey && eventData.pubkey !== pubkey) {
-          includeEvent = false;
-        }
-
-        if (includeEvent) {
-          events.add(eventData);
-
-          if (eventData.created_at) {
-            if (newestEventTimestamp < eventData.created_at) {
-              newestEventTimestamp = eventData.created_at;
-            }
-            if (oldestEventTimestamp === null || eventData.created_at < oldestEventTimestamp) {
-              oldestEventTimestamp = eventData.created_at;
-            }
-          }
-        }
-      });
-
-      loadedFromIDB = events.size > 0;
-
-      if (loadedFromIDB && onCachedDataLoaded) {
+      if (onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
         const reportedFromCache = await loadCachedReportedVerificationIds(
           verificationIdsFromEvents(events),
           baseSince
         );
-        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache);
-        onCachedDataLoaded(quickResult);
+        onCachedDataLoaded(processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache));
       }
     }
   } catch (e) {
-    console.warn("Failed to load from IDB", e);
+    console.warn('Failed to load from IDB', e);
   }
 
-  // 2. Determine what to fetch from network
-  const filter = { kinds: targetKinds };
-
-  // Smart sync: fetch newer events
-  if (loadedFromIDB && !until && !singleBatch) {
-    // Fetch newer events (incremental sync)
-    filter.since = newestEventTimestamp + 1;
-    console.debug(`Incremental sync: Fetching events newer than ${newestEventTimestamp}`);
-
-    // Also check if we need to fetch older events (gap filling)
-    const DAY_IN_SECONDS = 86400;
-    if (oldestEventTimestamp && oldestEventTimestamp > baseSince + DAY_IN_SECONDS) {
-      console.debug(`Gap detected: IDB oldest=${oldestEventTimestamp}, expected=${baseSince}. Will fetch older events after new ones.`);
-    }
-  } else {
-    filter.since = baseSince;
-  }
-
-  if (until) {
-    filter.until = until;
-  }
-  if (limit) {
-    filter.limit = limit;
-  }
+  const extraFilter = {};
   if (pubkey) {
-    filter.authors = [pubkey];
+    extraFilter.authors = [pubkey];
   }
   if (appId) {
-    filter["#i"] = Array.isArray(appId) ? appId : [appId];
+    extraFilter['#i'] = Array.isArray(appId) ? appId : [appId];
   }
   if (sha256) {
-    filter["#x"] = [sha256];
+    extraFilter['#x'] = [sha256];
   }
 
-  // 3. Fetch from Network
-  let newEvents = new Set();
+  const incremental = loadedFromIDB && !until && !singleBatch;
+  const scoped = Boolean(appId || sha256 || pubkey);
+  const shouldFillGaps = incremental && !scoped && !months && !since;
+  const syncBase = {
+    sinceFloor: baseSince,
+    newest: incremental ? newestEventTimestamp : null,
+    oldest: loadedFromIDB ? oldestEventTimestamp : null,
+    until,
+    limit,
+    singleBatch,
+    fillGaps: false,
+  };
+
   await ensureNdkConnected();
+  const newEvents = new Set();
 
-  // Strategy: First fetch verifications, then fetch related assets and other events
-  // Only fetch assets for appIds that have verifications
-
-  // Step 3a: Fetch verifications first
-  if (!appId && !sha256 && !pubkey) {
-    // General query - fetch verifications first, then assets for those appIds only
-    const verificationFilter = {
-      kinds: [verificationKind, verificationDraftKind],
-      since: filter.since
-    };
-    if (filter.until) verificationFilter.until = filter.until;
-    if (filter.limit) verificationFilter.limit = filter.limit;
-
-    try {
-      const newVerifications = singleBatch
-        ? await nostrFetchEvents(verificationFilter)
-        : await fetchVerificationEventsWithPagination(verificationFilter, mainRelayPaginationOptions);
-
-      newVerifications.forEach(e => newEvents.add(e));
-      console.log(`Fetched ${newVerifications.size} verifications from network`);
-
-      // Extract appIds from these verifications
-      const verificationAppIds = new Set();
-      newVerifications.forEach(v => {
-        const vAppId = v.tags?.find(t => t[0] === 'i')?.[1];
-        if (vAppId) verificationAppIds.add(vAppId);
-      });
-
-      // Now fetch assets only for these appIds
-      if (verificationAppIds.size > 0) {
-        const assetFilter = {
-          kinds: assetRegistrationKinds,
-          '#i': Array.from(verificationAppIds),
-          since: filter.since,
-          limit: getMainRelayPageLimit(),
-        };
-        if (filter.until) assetFilter.until = filter.until;
-
-        const newAssets = singleBatch
-          ? await nostrFetchEvents(assetFilter)
-          : await nostrFetchEvents(assetFilter, {
-            relayUrls: [mainRelayUrl],
-            maxWait: 15_000,
-          });
-
-        newAssets.forEach(e => newEvents.add(e));
-        console.log(`Fetched ${newAssets.size} assets for ${verificationAppIds.size} appIds from network`);
-      }
-    } catch(e) {
-      console.error("Error fetching events:", e);
-      if (!loadedFromIDB) throw e;
-    }
-  } else {
-    // Specific query with appId/sha256/pubkey filters - use original filter
-    try {
-      if (singleBatch) {
-        console.debug(`Fetching single batch with filter:`, filter);
-        newEvents = await nostrFetchEvents(filter);
-      } else {
-        newEvents = await fetchEventsWithPagination( filter);
-      }
-
-      console.log(`Fetched ${newEvents.size} new events from network`);
-    } catch(e) {
-      console.error("Error fetching events:", e);
-      if (!loadedFromIDB) throw e;
-    }
-  }
-
-  // 4. Fetch older events to fill gaps (if needed and not limited by params)
-  if (loadedFromIDB && !until && !singleBatch && !pubkey && !appId && !sha256 && !months && !since) {
-    const DAY_IN_SECONDS = 86400;
-    if (oldestEventTimestamp && oldestEventTimestamp > baseSince + DAY_IN_SECONDS) {
-      console.debug(`Filling gap: fetching events between ${baseSince} and ${oldestEventTimestamp - 1}`);
-
-      const gapFilter = {
-        kinds: targetKinds,
-        since: baseSince,
-        until: oldestEventTimestamp - 1
-      };
-
-      try {
-        const gapEvents = await fetchEventsWithPagination(gapFilter, mainRelayPaginationOptions);
-        console.log(`Gap fill: fetched ${gapEvents.size} older events`);
-        gapEvents.forEach(e => newEvents.add(e));
-      } catch(e) {
-        console.warn("Error fetching gap events:", e);
-      }
-    }
-  }
-
-  // 5. Merge new events and update IDB
-  if (newEvents.size > 0) {
-    newEvents.forEach(e => {
-      events.add(e);
-      if (oldestEventTimestamp === null || e.created_at < oldestEventTimestamp) {
-        oldestEventTimestamp = e.created_at;
-      }
-      if (newestEventTimestamp < e.created_at) {
-        newestEventTimestamp = e.created_at;
-      }
+  try {
+    const fetched = await syncDelta({
+      ...syncBase,
+      kinds: targetKinds,
+      extraFilter,
     });
-
-    // Save to IDB
-    try {
-      await saveEventsToIDB(newEvents);
-      console.debug(`Saved ${newEvents.size} new events to IDB`);
-    } catch (e) {
-      console.warn("Failed to save to IDB", e);
+    addEventsToSet(newEvents, fetched);
+    console.log(`Fetched ${fetched.size} new events from network`);
+  } catch (e) {
+    console.error('Error fetching events:', e);
+    if (!loadedFromIDB) {
+      throw e;
     }
+  }
+
+  if (shouldFillGaps) {
+    try {
+      const gapEvents = await syncDelta({
+        kinds: targetKinds,
+        extraFilter,
+        sinceFloor: baseSince,
+        newest: newestEventTimestamp,
+        oldest: oldestEventTimestamp,
+        fetchNewer: false,
+        fillGaps: true,
+        gapThresholdSeconds: GAP_FILL_THRESHOLD_SECONDS,
+      });
+      addEventsToSet(newEvents, gapEvents);
+      if (gapEvents.size > 0) {
+        console.log(`Gap fill: fetched ${gapEvents.size} older events`);
+      }
+    } catch (e) {
+      console.warn('Error fetching gap events:', e);
+    }
+  }
+
+  if (newEvents.size > 0) {
+    addEventsToSet(events, newEvents);
+    ({ oldest: oldestEventTimestamp, newest: newestEventTimestamp } = eventTimeRange(events));
   }
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
@@ -1657,7 +1124,7 @@ const getAllAssetInformation = async function({ months,
   const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds);
 
   console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
-  console.timeEnd('getAllAssetInformation' + randomNumber);
+  console.timeEnd(timerId);
 
   return finalResult;
 }
@@ -1997,9 +1464,8 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
       return false;
     }
 
-    const deletionRequestEvent = await createDeletionRequest(commentEvent, reason, false);
     void showToast('Deleting comment, please wait...', 'info', 5000);
-    await publishToRelays(deletionRequestEvent, explicitRelayUrls, 5000, 1);
+    await createDeletionRequest(commentEvent, reason, true);
     showToast('Comment deleted successfully');
     await deleteCachedEventById(commentEventId);
 
@@ -2321,6 +1787,7 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
       '#e': [zapEvent.id],
     };
     const sub = subscribeEvents(filter, {
+      relayUrls: eventRelayUrls,
       onevent: async (event) => {
         console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
         if (currentZapInvoice) {
