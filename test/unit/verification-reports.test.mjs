@@ -2,8 +2,8 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { reportedIdsFromReports, buildVerificationReportFilters } from '../../src/verifications_utils.mjs';
-import { siteAdminPubkeys, verificationReportKind, verificationEventsSinceTS } from '../../src/nostr-constants.mjs';
+import { reportedIdsFromReports } from '../../src/verifications_utils.mjs';
+import { siteAdminPubkeys, verificationReportKind } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 
 const VERIFICATION_A = 'a'.repeat(64);
@@ -81,34 +81,5 @@ describe('reportedIdsFromReports', () => {
 
   test('returns empty set when there are no requested ids', () => {
     assert.equal(reportedIdsFromReports([makeReport()], []).size, 0);
-  });
-});
-
-describe('buildVerificationReportFilters', () => {
-  test('returns no filters when there are no verification ids', () => {
-    assert.deepEqual(buildVerificationReportFilters([]), []);
-    assert.deepEqual(buildVerificationReportFilters([], { unscoped: true }), []);
-  });
-
-  test('homepage unscoped load fetches all admin reports in one filter', () => {
-    const ids = [VERIFICATION_A, VERIFICATION_B, VERIFICATION_C];
-    const filters = buildVerificationReportFilters(ids, { unscoped: true });
-    assert.equal(filters.length, 1);
-    assert.deepEqual(filters[0], {
-      kinds: [verificationReportKind],
-      authors: siteAdminPubkeys,
-      since: verificationEventsSinceTS,
-    });
-    assert.equal(filters[0]['#e'], undefined);
-  });
-
-  test('scoped loads chunk verification ids into #e filters', () => {
-    const ids = Array.from({ length: 31 }, (_, i) => i.toString(16).padStart(64, '0'));
-    const filters = buildVerificationReportFilters(ids);
-    assert.equal(filters.length, 2);
-    assert.deepEqual(filters[0]['#e'], ids.slice(0, 30));
-    assert.deepEqual(filters[1]['#e'], ids.slice(30));
-    assert.deepEqual(filters[0].authors, siteAdminPubkeys);
-    assert.deepEqual(filters[0].kinds, [verificationReportKind]);
   });
 });

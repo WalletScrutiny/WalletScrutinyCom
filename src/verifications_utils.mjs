@@ -482,61 +482,94 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
 }
 
 const VERIFICATION_REPORT_FETCH_CHUNK = 30;
+const GAP_FILL_THRESHOLD_SECONDS = 86400;
 
-/**
- * Homepage loads every verification (no appId/sha256/pubkey). Chunking those ids
- * into #e filters would mean dozens of relay queries. Fetch all admin reports
- * instead and intersect client-side. Scoped wallet-page loads keep #e chunks.
- */
-function buildVerificationReportFilters(verificationEventIds, { unscoped = false } = {}) {
+async function readReportedVerificationIds(verificationEventIds, {
+  tagValues = null,
+} = {}) {
   if (!verificationEventIds.length) {
-    return [];
+    return new Set();
   }
-  const baseFilter = {
-    kinds: [verificationReportKind],
-    authors: siteAdminPubkeys,
-    since: verificationEventsSinceTS
-  };
-  if (unscoped) {
-    return [baseFilter];
-  }
-  const filters = [];
-  for (let i = 0; i < verificationEventIds.length; i += VERIFICATION_REPORT_FETCH_CHUNK) {
-    filters.push({
-      ...baseFilter,
-      '#e': verificationEventIds.slice(i, i + VERIFICATION_REPORT_FETCH_CHUNK)
+  try {
+    const cachedReports = await getEventsFromIDB({
+      kinds: [verificationReportKind],
+      since: verificationEventsSinceTS,
+      ...(tagValues ? { tagName: 'e', tagValues } : {}),
     });
+    return reportedIdsFromReports(cachedReports, verificationEventIds);
+  } catch (error) {
+    console.warn('Failed to load cached verification reports from IDB', error);
+    return new Set();
   }
-  return filters;
+}
+
+async function fetchScopedReportsFromNetwork(verificationEventIds, since = null) {
+  const all = new Set();
+  for (let i = 0; i < verificationEventIds.length; i += VERIFICATION_REPORT_FETCH_CHUNK) {
+    const batch = verificationEventIds.slice(i, i + VERIFICATION_REPORT_FETCH_CHUNK);
+    const filter = {
+      kinds: [verificationReportKind],
+      authors: siteAdminPubkeys,
+      '#e': batch,
+      since: since ?? verificationEventsSinceTS,
+    };
+    const events = await nostrFetchEvents(filter);
+    events.forEach(event => all.add(event));
+  }
+  return all;
 }
 
 /**
- * Fetches verification-report events for the given verification ids.
- * Relay author filter is an optimization; pubkey and reason are re-checked client-side.
+ * Cache-first reports. Homepage (unscoped) syncs the admin-report archive.
+ * Scoped wallet pages refresh by #e in chunks so relays are not asked for every id.
  */
-async function fetchReportsForVerificationIds(verificationEventIds, { unscoped = false } = {}) {
-  const reported = new Set();
-  const filters = buildVerificationReportFilters(verificationEventIds, { unscoped });
-  if (!filters.length) {
-    return reported;
+async function fetchReportsForVerificationIds(verificationEventIds, {
+  unscoped = false,
+  fillGaps = false,
+} = {}) {
+  if (!verificationEventIds.length) {
+    return new Set();
   }
-  await ensureNdkConnected();
-  for (const filter of filters) {
-    try {
-      const batch = await nostrFetchEvents(filter);
-      if (batch.size > 0) {
-        await saveEventsToIDB(batch).catch(e => {
-          console.warn('Failed to save verification reports to IDB', e);
+
+  try {
+    await ensureNdkConnected();
+    if (unscoped) {
+      await syncDelta({
+        kinds: [verificationReportKind],
+        extraFilter: { authors: siteAdminPubkeys },
+        sinceFloor: verificationEventsSinceTS,
+        fillGaps,
+        gapThresholdSeconds: GAP_FILL_THRESHOLD_SECONDS,
+      });
+    } else {
+      const cached = await getEventsFromIDB({
+        kinds: [verificationReportKind],
+        tagName: 'e',
+        tagValues: verificationEventIds,
+      });
+      const { newest } = eventTimeRange(cached);
+      const knownIds = new Set(cached.map(event => event.id));
+      const reports = [...cached];
+      const fetched = await fetchScopedReportsFromNetwork(
+        verificationEventIds,
+        newest != null ? newest + 1 : null
+      );
+      const fresh = [...fetched].filter(event => !knownIds.has(event.id));
+      if (fresh.length > 0) {
+        await saveEventsToIDB(fresh).catch(error => {
+          console.warn('Failed to save verification reports to IDB', error);
         });
+        reports.push(...fresh);
       }
-      for (const eventId of reportedIdsFromReports(batch, verificationEventIds)) {
-        reported.add(eventId);
-      }
-    } catch (e) {
-      console.warn('fetchReportsForVerificationIds: chunk failed', e);
+      return reportedIdsFromReports(reports, verificationEventIds);
     }
+  } catch (error) {
+    console.warn('Failed to refresh verification reports from network', error);
   }
-  return reported;
+
+  return readReportedVerificationIds(verificationEventIds, {
+    tagValues: unscoped ? null : verificationEventIds,
+  });
 }
 
 const createVerificationReport = async function ({
@@ -888,8 +921,6 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
   return attachments;
 }
 
-const GAP_FILL_THRESHOLD_SECONDS = 86400;
-
 function addEventsToSet(target, source) {
   for (const event of source ?? []) {
     target.add(event);
@@ -901,22 +932,6 @@ function verificationIdsFromEvents(events) {
   return [...events].filter(
     e => e.kind === verificationKind || e.kind === verificationDraftKind
   ).map(e => e.id);
-}
-
-async function loadCachedReportedVerificationIds(verificationEventIds, since) {
-  if (!verificationEventIds.length) {
-    return new Set();
-  }
-  try {
-    const cachedReports = await getEventsFromIDB({
-      kinds: [verificationReportKind],
-      since
-    });
-    return reportedIdsFromReports(cachedReports, verificationEventIds);
-  } catch (e) {
-    console.warn('Failed to load cached verification reports from IDB', e);
-    return new Set();
-  }
 }
 
 /**
@@ -1093,12 +1108,6 @@ const getAllAssetInformation = async function({ months,
   const timerId = 'getAllAssetInformation' + Math.floor(Math.random() * 100);
   console.time(timerId);
 
-  const resolveReportedVerificationIds = async (eventSet) => {
-    const verificationEventIds = verificationIdsFromEvents(eventSet);
-    const unscoped = !appId && !sha256 && !pubkey;
-    return fetchReportsForVerificationIds(verificationEventIds, { unscoped });
-  };
-
   const targetKinds = kinds || (getDrafts
     ? [...assetRegistrationKinds, verificationKind, verificationDraftKind]
     : [...assetRegistrationKinds, verificationKind]);
@@ -1132,9 +1141,8 @@ const getAllAssetInformation = async function({ months,
 
       if (onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const reportedFromCache = await loadCachedReportedVerificationIds(
-          verificationIdsFromEvents(events),
-          baseSince
+        const reportedFromCache = await readReportedVerificationIds(
+          verificationIdsFromEvents(events)
         );
         onCachedDataLoaded(processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache));
       }
@@ -1156,53 +1164,30 @@ const getAllAssetInformation = async function({ months,
 
   const incremental = loadedFromIDB && !until && !singleBatch;
   const scoped = Boolean(appId || sha256 || pubkey);
-  const shouldFillGaps = incremental && !scoped && !months && !since;
-  const syncBase = {
-    sinceFloor: baseSince,
-    newest: incremental ? newestEventTimestamp : null,
-    oldest: loadedFromIDB ? oldestEventTimestamp : null,
-    until,
-    limit,
-    singleBatch,
-    fillGaps: false,
-  };
+  const fillGaps = incremental && !scoped && !months && !since;
 
   await ensureNdkConnected();
   const newEvents = new Set();
 
   try {
     const fetched = await syncDelta({
-      ...syncBase,
       kinds: targetKinds,
       extraFilter,
+      sinceFloor: baseSince,
+      newest: incremental ? newestEventTimestamp : null,
+      oldest: loadedFromIDB ? oldestEventTimestamp : null,
+      until,
+      limit,
+      singleBatch,
+      fillGaps,
+      gapThresholdSeconds: GAP_FILL_THRESHOLD_SECONDS,
     });
     addEventsToSet(newEvents, fetched);
-    console.log(`Fetched ${fetched.size} new events from network`);
+    console.log(`Fetched ${fetched.size} events from network`);
   } catch (e) {
     console.error('Error fetching events:', e);
     if (!loadedFromIDB) {
       throw e;
-    }
-  }
-
-  if (shouldFillGaps) {
-    try {
-      const gapEvents = await syncDelta({
-        kinds: targetKinds,
-        extraFilter,
-        sinceFloor: baseSince,
-        newest: newestEventTimestamp,
-        oldest: oldestEventTimestamp,
-        fetchNewer: false,
-        fillGaps: true,
-        gapThresholdSeconds: GAP_FILL_THRESHOLD_SECONDS,
-      });
-      addEventsToSet(newEvents, gapEvents);
-      if (gapEvents.size > 0) {
-        console.log(`Gap fill: fetched ${gapEvents.size} older events`);
-      }
-    } catch (e) {
-      console.warn('Error fetching gap events:', e);
     }
   }
 
@@ -1213,12 +1198,10 @@ const getAllAssetInformation = async function({ months,
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
 
-  const reportedFromCache = await loadCachedReportedVerificationIds(
+  const reportedVerificationIds = await fetchReportsForVerificationIds(
     verificationIdsFromEvents(events),
-    baseSince
+    { unscoped: !scoped, fillGaps }
   );
-  const reportedFromNetwork = await resolveReportedVerificationIds(events);
-  const reportedVerificationIds = new Set([...reportedFromCache, ...reportedFromNetwork]);
   const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds);
 
   console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
@@ -2061,7 +2044,6 @@ export {
   subscribeToZapReceipts,
   createAuthorizationEvent,
   reportedIdsFromReports,
-  buildVerificationReportFilters,
   eventSanitize,
   groupEndorsementsByVerificationId,
 };
