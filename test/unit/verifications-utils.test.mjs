@@ -142,6 +142,23 @@ describe('getAppInfoFromEventInfo', () => {
     assert.equal(info.status, 'reproducible');
     assert.equal(info.url, '');
   });
+
+  test('falls back when verification content is not JSON', () => {
+    const event = makeEvent({
+      kind: verificationKind,
+      created_at: 1_700_000_100,
+      content: 'not-json',
+      tags: [
+        ['i', 'com.example.wallet'],
+        ['status', 'reproducible'],
+      ],
+    });
+
+    const info = getAppInfoFromEventInfo(event);
+    assert.equal(info.isAsset, false);
+    assert.equal(info.description, '');
+    assert.equal(info.content, 'not-json');
+  });
 });
 
 describe('getMaxAssetVersion', () => {

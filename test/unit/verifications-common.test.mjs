@@ -25,6 +25,11 @@ describe('getFirstTagValue', () => {
     assert.equal(getFirstTagValue(event, 'x'), '');
     assert.equal(getFirstTagValue(event, 'x', 'fallback'), 'fallback');
   });
+
+  test('returns default when tags are absent', () => {
+    assert.equal(getFirstTagValue({}, 'x'), '');
+    assert.equal(getFirstTagValue({ tags: undefined }, 'x', 'fallback'), 'fallback');
+  });
 });
 
 describe('getAssetHashesDigest', () => {

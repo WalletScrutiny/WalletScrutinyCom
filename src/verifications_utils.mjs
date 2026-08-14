@@ -1,6 +1,5 @@
 import * as nip19 from 'nostr-tools/nip19';
 import DOMPurify from 'dompurify';
-import { getTagValue } from './nostr-client.mjs';
 import { verificationKind } from './nostr-constants.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
 import { getNpubFromPubkey, shortenNpub, getStatusText } from './verifications_common.mjs';
@@ -22,10 +21,6 @@ import {
   createNostrCommentToVerification,
   sendPrivateMessageToVerifier,
   uploadFileAttachment,
-  getVerificationEvent,
-  deleteDraftVerification,
-  deletePublishedVerification,
-  deleteVerificationComment,
   createZap,
   subscribeToZapReceipts,
   createAuthorizationEvent,
@@ -44,11 +39,15 @@ import {
   getWeightForAppFromAssetInformation,
   reportedIdsFromReports,
   groupEndorsementsByVerificationId,
+  getVerificationEvent,
 } from './verifications-read.mjs';
 import {
   setupAppIdAutocomplete,
   loadDraftVerificationsNotifications,
   doDraftVerificationAction,
+  deleteDraftVerification,
+  deletePublishedVerification,
+  deleteVerificationComment,
 } from './verifications-ui.mjs';
 
 if (typeof window !== 'undefined') {
@@ -83,10 +82,11 @@ if (typeof window !== 'undefined') {
   window.getEventsFromEventIds = getEventsFromEventIds;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
   window.getMaxAssetVersion = getMaxAssetVersion;
-  window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
-  window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
+  window.getLastVerificationStatusForAppId = (appId, platform) =>
+    getLastVerificationStatusForAppId(window.allAssetInformation, appId, platform);
+  window.getWeightForAppFromAssetInformation = (appId) =>
+    getWeightForAppFromAssetInformation(window.allAssetInformation, appId);
   window.cleanupNostrSession = cleanupNostrSession;
-  window.cleanupNdkConnections = cleanupNostrSession;
   window.createNostrCommentToVerification = createNostrCommentToVerification;
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
@@ -94,7 +94,6 @@ if (typeof window !== 'undefined') {
   window.createZap = createZap;
   window.subscribeToZapReceipts = subscribeToZapReceipts;
   window.createAuthorizationEvent = createAuthorizationEvent;
-  window.getTagValue = getTagValue;
   window.addEventListener('beforeunload', () => {
     cleanupNostrSession();
   });
@@ -131,6 +130,8 @@ export {
   getEventsFromEventIds,
   getAllAttachmentsForAppId,
   getMaxAssetVersion,
+  getLastVerificationStatusForAppId,
+  getWeightForAppFromAssetInformation,
   createNostrCommentToVerification,
   getCommentsForVerification,
   sendPrivateMessageToVerifier,

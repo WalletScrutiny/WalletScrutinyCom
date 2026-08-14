@@ -73,6 +73,9 @@ export function isWalletScrutinySiteAdmin(pubkey) {
   return Boolean(pubkey && siteAdminPubkeys.includes(pubkey));
 }
 
+/** Allowed `r` tag values on NIP-56 verification reports. */
+export const REPORT_REASONS = new Set(['spam', 'incorrect']);
+
 // Opinions
 export const opinionKind = 30023; // Long-form Content (NIP-23)
 

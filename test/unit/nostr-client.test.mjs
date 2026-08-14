@@ -4,7 +4,6 @@ import assert from 'node:assert/strict';
 import { generateSecretKey, getPublicKey } from 'nostr-tools/pure';
 
 import {
-  getTagValue,
   getMatchingTags,
   createEventDraft,
   setPrivateKey,
@@ -14,14 +13,6 @@ import {
 } from '../../src/nostr-client.mjs';
 import { mainRelayUrl } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
-
-describe('getTagValue', () => {
-  test('returns first tag value or empty string', () => {
-    const event = makeEvent({ tags: [['d', 'key'], ['status', 'reproducible']] });
-    assert.equal(getTagValue(event, 'status'), 'reproducible');
-    assert.equal(getTagValue(event, 'missing'), '');
-  });
-});
 
 describe('getMatchingTags', () => {
   test('returns all tags with the given name', () => {

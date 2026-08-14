@@ -62,21 +62,11 @@ function getPrivateKeyBytes() {
   return privateKeyMaterial;
 }
 
-export function getTagValue(event, tagName) {
-  const tag = event.tags?.find(t => t[0] === tagName);
-  return tag?.[1] ?? '';
-}
-
 export function getMatchingTags(event, tagName) {
   return event.tags?.filter(t => t[0] === tagName) ?? [];
 }
 
 export function getPool() {
-  return pool;
-}
-
-/** @deprecated Use getPool() */
-export function getNdk() {
   return pool;
 }
 
@@ -561,18 +551,6 @@ export function createEventDraft({ kind, content, tags = [], created_at = null, 
   }
 
   return draft;
-}
-
-export async function signAndPublishEvent(template, eventType = 'event', urlsOverride) {
-  try {
-    const signed = await signEvent(template);
-    const { successful } = await publishEvent(signed, urlsOverride);
-    console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
-    return signed;
-  } catch (error) {
-    console.error(`Error publishing ${eventType} to relays`, error);
-    return null;
-  }
 }
 
 export { nip19 };

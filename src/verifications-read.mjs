@@ -1,6 +1,7 @@
 import DOMPurify from 'dompurify';
 import {
   fetchEvents as nostrFetchEvents,
+  fetchEvent as nostrFetchEvent,
   getMatchingTags,
 } from './nostr-client.mjs';
 import {
@@ -13,6 +14,7 @@ import {
   verificationEventsSinceTS,
   siteAdminPubkeys,
   isWalletScrutinySiteAdmin,
+  REPORT_REASONS,
 } from './nostr-constants.mjs';
 import { getFirstTagValue } from './verifications_common.mjs';
 import {
@@ -32,9 +34,8 @@ import {
 import { syncDelta } from './nostr-sync.mjs';
 import { eventSanitize, getVerificationHashList } from './nostr-sanitize.mjs';
 import { ensureNostrSession } from './nostr-session.mjs';
+import { isSha256Hex } from './html-utils.mjs';
 
-const REPORT_REASONS = new Set(['spam', 'incorrect']);
-const EVENT_ID_HEX_RE = /^[0-9a-f]{64}$/i;
 const VERIFICATION_REPORT_FETCH_CHUNK = 30;
 const GAP_FILL_THRESHOLD_SECONDS = 86400;
 const EVENT_ID_FETCH_BATCH = 100;
@@ -59,7 +60,7 @@ export function reportedIdsFromReports(reportEvents, requestedIds) {
         continue;
       }
       const eventId = t[1];
-      if (eventId && EVENT_ID_HEX_RE.test(eventId) && requested.has(eventId)) {
+      if (eventId && isSha256Hex(eventId) && requested.has(eventId)) {
         reported.add(eventId);
       }
     }
@@ -149,6 +150,15 @@ async function fetchReportsForVerificationIds(verificationEventIds, {
   return readReportedVerificationIds(verificationEventIds, {
     tagValues: unscoped ? null : verificationEventIds,
   });
+}
+
+export async function getVerificationEvent(verificationEventId) {
+  if (!verificationEventId) {
+    throw new Error('No verification event ID provided');
+  }
+
+  await ensureNostrSession();
+  return await nostrFetchEvent(verificationEventId);
 }
 
 export function getFileAttachmentIDsForVerificationEvent(event) {
@@ -377,7 +387,7 @@ export async function backgroundSyncEvents() {
       [...cachedEvents, ...snippetEvents].map(event => event.pubkey).filter(Boolean)
     );
     console.log(`Fetching profiles for ${uniquePubkeys.size} authors...`);
-    for (const pubkey of uniquePubkeys) {
+    await Promise.all([...uniquePubkeys].map(async (pubkey) => {
       try {
         await getNostrProfile(pubkey);
       } catch (e) {
@@ -386,7 +396,7 @@ export async function backgroundSyncEvents() {
           e?.message ?? e
         );
       }
-    }
+    }));
 
     console.log('Background sync complete');
   } catch (error) {
@@ -588,8 +598,18 @@ export function getAppInfoFromEventInfo(eventInfo) {
   const isAsset = assetRegistrationKinds.includes(eventInfo.kind);
 
   const createdAt = eventInfo.created_at;
-  const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
-  const content = isAsset ? eventInfo.content : JSON.parse(eventInfo.content).content;
+  let description = '';
+  let content = eventInfo.content;
+  if (!isAsset) {
+    try {
+      const parsed = JSON.parse(eventInfo.content);
+      description = parsed?.description ?? '';
+      content = parsed?.content ?? '';
+    } catch {
+      description = '';
+      content = eventInfo.content;
+    }
+  }
   const appId = getFirstTagValue(eventInfo, 'i');
   const version = getFirstTagValue(eventInfo, 'version');
   const platform = getFirstTagValue(eventInfo, 'platform');
@@ -729,11 +749,15 @@ function isSamePlatform(platform1, platform2) {
   return platform1 === platform2;
 }
 
-export function getLastVerificationStatusForAppId(appId, platform) {
+export function getLastVerificationStatusForAppId(assetInformation, appId, platform) {
+  if (!assetInformation?.verifications) {
+    return null;
+  }
+
   let verification = null;
   let maxVersion = null;
 
-  for (const assetArray of window.allAssetInformation.verifications.values()) {
+  for (const assetArray of assetInformation.verifications.values()) {
     for (const asset of assetArray) {
       const version = getFirstTagValue(asset, 'version', null);
       const appIdFromTag = getFirstTagValue(asset, 'i');
@@ -754,17 +778,17 @@ export function getLastVerificationStatusForAppId(appId, platform) {
   return null;
 }
 
-export function getWeightForAppFromAssetInformation(appId) {
-  if (!window.allAssetInformation) {
-    throw new Error('window.allAssetInformation is not defined yet');
+export function getWeightForAppFromAssetInformation(assetInformation, appId) {
+  if (!assetInformation) {
+    throw new Error('assetInformation is not defined yet');
   }
 
-  const { lastVersion, lastVerifiedVersion } = getMaxAssetVersion(window.allAssetInformation, appId);
+  const { lastVersion, lastVerifiedVersion } = getMaxAssetVersion(assetInformation, appId);
 
   let numberOfVerifications = 0;
   let numberOfReproducibleVerifications = 0;
 
-  for (const verifications of window.allAssetInformation.verifications.values()) {
+  for (const verifications of assetInformation.verifications.values()) {
     for (const verification of verifications) {
       const appIdCurrentVerification = getFirstTagValue(verification, 'i');
       const status = getFirstTagValue(verification, 'status');
