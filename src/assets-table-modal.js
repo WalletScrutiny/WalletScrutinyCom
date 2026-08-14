@@ -813,8 +813,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   subscribeToZapReceipts(verification, null, async (zapReceiptEvent) => {
     if (zapReceiptEvent) {
-      const zapReceiptInvoice = getTagValue(zapReceiptEvent, "bolt11");
-      const descriptionJSON = getTagValue(zapReceiptEvent, "description");
+      const zapReceiptInvoice = getFirstTagValue(zapReceiptEvent, "bolt11");
+      const descriptionJSON = getFirstTagValue(zapReceiptEvent, "description");
       const description = JSON.parse(descriptionJSON);
       const content = description.content;
       const zapRequest = zapReceiptEvent.zapRequest;

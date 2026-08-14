@@ -2,7 +2,12 @@ import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
 import { formatDate } from './format-utils.mjs';
 import { isSha256Hex } from './html-utils.mjs';
 import { getUserPubkey } from './nostr-session.mjs';
-import { deleteDraftVerification } from './verifications-publish.mjs';
+import { showToast } from './toast.mjs';
+import {
+  deleteDraftVerificationEvent,
+  deleteOwnPublishedVerification,
+  deleteOwnVerificationComment,
+} from './verifications-publish.mjs';
 
 export function setupAppIdAutocomplete(firstTime = true) {
   const appIdInput = document.getElementById('appId');
@@ -96,6 +101,71 @@ export function doDraftVerificationAction(draftVerificationEventId, action) {
     }
 
     deleteDraftVerification(draftVerificationEventId, goToURL);
+  }
+}
+
+export async function deleteDraftVerification(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
+  if (!draftVerificationEventId) {
+    showToast('No draft verification ID found', 'error');
+    return;
+  }
+
+  if (!confirm('Are you sure you want to delete this draft verification? This action cannot be undone.')) {
+    return;
+  }
+
+  try {
+    await deleteDraftVerificationEvent(draftVerificationEventId, reason);
+    showToast('Draft verification deleted successfully');
+
+    if (moveToURL) {
+      window.location.href = moveToURL;
+    } else {
+      window.location.reload();
+    }
+  } catch (error) {
+    showToast(error.message, 'error');
+  }
+}
+
+export async function deletePublishedVerification(verificationEventId, reason = 'User deleted verification via WalletScrutiny') {
+  if (!verificationEventId) {
+    showToast('No verification event ID found', 'error');
+    return;
+  }
+
+  if (!confirm('Are you sure you want to delete this verification? A Nostr deletion request (kind 5) will be sent to relays. This action cannot be undone.')) {
+    return;
+  }
+
+  try {
+    await deleteOwnPublishedVerification(verificationEventId, reason);
+    showToast('Verification deleted successfully');
+    window.location.reload();
+  } catch (error) {
+    showToast(error.message || String(error), 'error');
+  }
+}
+
+export async function deleteVerificationComment(commentEventId, reason = 'User deleted verification comment') {
+  if (!commentEventId) {
+    showToast('No comment event ID found', 'error');
+    return false;
+  }
+
+  if (!confirm('Do you want to delete this comment?')) {
+    return false;
+  }
+
+  try {
+    void showToast('Deleting comment, please wait...', 'info', 5000);
+    await deleteOwnVerificationComment(commentEventId, reason);
+    showToast('Comment deleted successfully');
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    window.location.reload();
+  } catch (error) {
+    showToast(error.message || String(error), 'error');
+    return false;
   }
 }
 

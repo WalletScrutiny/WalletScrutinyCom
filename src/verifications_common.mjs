@@ -2,6 +2,7 @@ import { sha256 } from '@noble/hashes/sha2.js';
 import { bytesToHex } from '@noble/hashes/utils.js';
 import * as nip19 from 'nostr-tools/nip19';
 
+/** True on localhost / beta / old hostnames unless `?forceProd=true`. Node (no window) is production. */
 function isDebugEnv() {
   if (typeof window === 'undefined') {
     return false;
@@ -13,7 +14,7 @@ function isDebugEnv() {
 }
 
 function getFirstTagValue(event, tagName, valueIfNull = '') {
-  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+  return event.tags?.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
 }
 
 /**

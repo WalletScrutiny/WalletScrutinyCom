@@ -2,22 +2,14 @@ import DOMPurify from 'dompurify';
 import * as nip19 from 'nostr-tools/nip19';
 import { ensureConnected, getPool } from './nostr-client.mjs';
 import { eventRelayUrls } from './nostr-constants.mjs';
-import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from './html-utils.mjs';
+import { el, htmlOf, isSha256Hex, sanitizeHttpUrl, stripHtmlTags } from './html-utils.mjs';
 import { getProfileRecord, putProfileRecord } from './nostr-idb.mjs';
+import { purifyConfig } from './nostr-sanitize.mjs';
+import { shortenNpub } from './verifications_common.mjs';
 
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
 const PROFILE_CACHE_VERSION = 6;
 const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
-
-const purifyConfig = {
-  ALLOWED_TAGS: ['div'],
-  ALLOWED_ATTR: ['id'],
-  SANITIZE_DOM: true,
-  WHOLE_DOCUMENT: false,
-  RETURN_DOM_FRAGMENT: false,
-  RETURN_DOM: false,
-  RETURN_TRUSTED_TYPE: false,
-};
 
 export const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
@@ -61,7 +53,7 @@ function sanitizeProfileValue(key, value) {
   if (DOMPurify.isSupported) {
     return DOMPurify.sanitize(str, purifyConfig);
   }
-  return str.replace(/<[^>]*>/g, '');
+  return stripHtmlTags(str);
 }
 
 function normalizeProfileMetadata(metadata) {
@@ -180,13 +172,6 @@ export async function getNostrProfile(pubkey) {
 
   inFlightProfileFetches.set(pubkey, fetchPromise);
   return fetchPromise;
-}
-
-function shortenNpub(npub) {
-  if (!npub || npub.length < 16) {
-    return npub;
-  }
-  return `${npub.substring(0, 10)}…${npub.substring(npub.length - 6)}`;
 }
 
 export function getProfileDisplayName(profile, pubkey) {

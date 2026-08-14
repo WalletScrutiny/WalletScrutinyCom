@@ -49,7 +49,7 @@ describe('relayPaginationPageLimits', () => {
 });
 
 describe('kind constants', () => {
-  test('uses stable public kinds in production mode', () => {
+  test('uses stable public kinds in production mode (Node has no window, so isDebugEnv is false)', () => {
     assert.equal(verificationReportKind, 1984);
     assert.equal(codeSnippetKind, 1337);
   });

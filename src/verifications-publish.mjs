@@ -1,5 +1,4 @@
 import {
-  fetchEvent as nostrFetchEvent,
   signEvent,
   publishEvent,
   subscribeEvents,
@@ -10,7 +9,6 @@ import {
   fetchLnInvoice,
   parseZapInvoiceFromReceipt,
   getNip57,
-  getTagValue,
   getRelayUrls,
 } from './nostr-client.mjs';
 import {
@@ -28,27 +26,27 @@ import {
   wsBotPublicKey,
   maxFileAttachmentContentLength,
   isWalletScrutinySiteAdmin,
+  REPORT_REASONS,
 } from './nostr-constants.mjs';
-import { getVerificationReplaceableKey } from './verifications_common.mjs';
+import { getFirstTagValue, getVerificationReplaceableKey } from './verifications_common.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
 import { saveEventsToIDB, deleteCachedEventById } from './nostr-idb.mjs';
 import { eventSanitize } from './nostr-sanitize.mjs';
-import { showToast } from './toast.mjs';
+import { isSha256Hex } from './html-utils.mjs';
 import {
   ensureNostrSession,
   ensureSignerReady,
   getUserPubkey,
   isNip07SignerAvailable,
 } from './nostr-session.mjs';
-
-const REPORT_REASONS = new Set(['spam', 'incorrect']);
+import { getVerificationEvent } from './verifications-read.mjs';
 
 function validateSHA256(hashes) {
   if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
     throw new Error("You must add at least one SHA256 hash");
   }
   for (const hash of hashes) {
-    if (!/^[0-9a-f]{64}$/i.test(hash)) {
+    if (!isSha256Hex(hash)) {
       throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string: " + hash);
     }
   }
@@ -138,7 +136,7 @@ export async function createAssetRegistration({
   eventSanitize(event);
 
   const published = await publishAppEvent(event, 'asset registration');
-  return published ?? event;
+  return published;
 }
 
 export async function createAssetBundleRegistration({
@@ -188,7 +186,7 @@ export async function createAssetBundleRegistration({
   eventSanitize(event);
 
   const published = await publishAppEvent(event, 'asset bundle registration');
-  return published ?? event;
+  return published;
 }
 
 export async function uploadFileAttachment({ fileName, fileType, fileSize, base64Data }) {
@@ -221,15 +219,6 @@ export async function uploadFileAttachment({ fileName, fileType, fileSize, base6
     console.error(`Error uploading file ${fileName}`, error);
     return { success: false, error: error, fileName: fileName };
   }
-}
-
-export async function getVerificationEvent(verificationEventId) {
-  if (!verificationEventId) {
-    throw new Error('No verification event ID provided');
-  }
-
-  await ensureNostrSession();
-  return await nostrFetchEvent(verificationEventId);
 }
 
 export async function createVerification({
@@ -353,7 +342,7 @@ export async function createVerification({
     await deleteCachedEventById(draftVerificationEventId);
   }
 
-  return published ?? event;
+  return published;
 }
 
 export async function createVerificationReport({
@@ -382,11 +371,10 @@ export async function createVerificationReport({
   const event = createAppEvent(verificationReportKind, body, tags);
   eventSanitize(event);
   const published = await publishAppEvent(event, 'verification report');
-  const reportEvent = published ?? event;
-  await saveEventsToIDB([reportEvent]).catch(e => {
+  await saveEventsToIDB([published]).catch(e => {
     console.warn('Failed to save verification report to IDB', e);
   });
-  return reportEvent;
+  return published;
 }
 
 export async function createEndorsement({ validity = null, verificationEventId, endorserNpubkey }) {
@@ -443,7 +431,7 @@ export async function sendPrivateMessageToVerifier(verifierPubkey, commentText) 
     throw new Error("Missing required parameters: verifierPubkey and commentText are required");
   }
 
-  if (!/^[0-9a-f]{64}$/i.test(verifierPubkey)) {
+  if (!isSha256Hex(verifierPubkey)) {
     throw new Error("Invalid verifier pubkey format");
   }
 
@@ -458,129 +446,79 @@ export async function sendPrivateMessageToVerifier(verifierPubkey, commentText) 
   }
 }
 
-export async function deleteDraftVerification(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
+export async function deleteDraftVerificationEvent(draftVerificationEventId, reason = 'user deleted draft verification') {
   if (!draftVerificationEventId) {
-    showToast('No draft verification ID found', 'error');
-    return;
+    throw new Error('No draft verification ID found');
   }
 
-  if (confirm('Are you sure you want to delete this draft verification? This action cannot be undone.')) {
-    try {
-      const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        await createDeletionRequest(draftVerificationEvent, reason, true);
-      }
-
-      await deleteCachedEventById(draftVerificationEventId);
-
-      showToast('Draft verification deleted successfully');
-
-      if (moveToURL) {
-        window.location.href = moveToURL;
-      } else {
-        window.location.reload();
-      }
-    } catch (error) {
-      showToast(error.message, 'error');
-    }
+  const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
+  if (draftVerificationEvent) {
+    await createDeletionRequest(draftVerificationEvent, reason, true);
   }
+  await deleteCachedEventById(draftVerificationEventId);
 }
 
-export async function deletePublishedVerification(verificationEventId, reason = 'User deleted verification via WalletScrutiny') {
+export async function deleteOwnPublishedVerification(verificationEventId, reason = 'User deleted verification via WalletScrutiny') {
   if (!verificationEventId) {
-    showToast('No verification event ID found', 'error');
-    return;
+    throw new Error('No verification event ID found');
   }
 
-  if (!confirm('Are you sure you want to delete this verification? A Nostr deletion request (kind 5) will be sent to relays. This action cannot be undone.')) {
-    return;
+  await ensureNostrSession();
+  const verificationEvent = await getVerificationEvent(verificationEventId);
+  if (!verificationEvent) {
+    throw new Error('Verification event not found on relays');
   }
 
+  if (verificationEvent.kind === verificationDraftKind) {
+    throw new Error('Draft verifications are removed with the draft delete action.');
+  }
+
+  let myPubkey;
   try {
-    await ensureNostrSession();
-    const verificationEvent = await getVerificationEvent(verificationEventId);
-    if (!verificationEvent) {
-      showToast('Verification event not found on relays', 'error');
-      return;
-    }
-
-    if (verificationEvent.kind === verificationDraftKind) {
-      showToast('Draft verifications are removed with the draft delete action.', 'error');
-      return;
-    }
-
-    let myPubkey;
-    try {
-      myPubkey = await getUserPubkey();
-    } catch {
-      showToast('You need a Nostr browser extension to delete a verification.', 'error');
-      return;
-    }
-
-    if (verificationEvent.pubkey !== myPubkey) {
-      showToast('You can only delete verifications you authored.', 'error');
-      return;
-    }
-
-    await createDeletionRequest(verificationEvent, reason, true);
-    await deleteCachedEventById(verificationEventId);
-    showToast('Verification deleted successfully');
-    window.location.reload();
-  } catch (error) {
-    showToast(error.message || String(error), 'error');
+    myPubkey = await getUserPubkey();
+  } catch {
+    throw new Error('You need a Nostr browser extension to delete a verification.');
   }
+
+  if (verificationEvent.pubkey !== myPubkey) {
+    throw new Error('You can only delete verifications you authored.');
+  }
+
+  await createDeletionRequest(verificationEvent, reason, true);
+  await deleteCachedEventById(verificationEventId);
 }
 
-export async function deleteVerificationComment(commentEventId, reason = 'User deleted verification comment') {
+export async function deleteOwnVerificationComment(commentEventId, reason = 'User deleted verification comment') {
   if (!commentEventId) {
-    showToast('No comment event ID found', 'error');
-    return false;
+    throw new Error('No comment event ID found');
   }
 
-  if (!confirm('Do you want to delete this comment?')) {
-    return false;
+  await ensureNostrSession();
+  const commentEvent = await getVerificationEvent(commentEventId);
+  if (!commentEvent) {
+    throw new Error('Comment not found on relays');
   }
 
+  if (commentEvent.kind !== verificationCommentKind) {
+    throw new Error('This event is not a verification comment.');
+  }
+
+  let myPubkey;
   try {
-    await ensureNostrSession();
-    const commentEvent = await nostrFetchEvent(commentEventId);
-    if (!commentEvent) {
-      showToast('Comment not found on relays', 'error');
-      return false;
-    }
-
-    if (commentEvent.kind !== verificationCommentKind) {
-      showToast('This event is not a verification comment.', 'error');
-      return false;
-    }
-
-    let myPubkey;
-    try {
-      myPubkey = await getUserPubkey();
-    } catch {
-      showToast('You need a Nostr browser extension to delete a comment.', 'error');
-      return false;
-    }
-
-    if (commentEvent.pubkey !== myPubkey) {
-      showToast('You can only delete comments you authored.', 'error');
-      return false;
-    }
-
-    void showToast('Deleting comment, please wait...', 'info', 5000);
-    await createDeletionRequest(commentEvent, reason, true);
-    showToast('Comment deleted successfully');
-    await deleteCachedEventById(commentEventId);
-
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    window.location.reload();
-  } catch (error) {
-    showToast(error.message || String(error), 'error');
-    return false;
+    myPubkey = await getUserPubkey();
+  } catch {
+    throw new Error('You need a Nostr browser extension to delete a comment.');
   }
+
+  if (commentEvent.pubkey !== myPubkey) {
+    throw new Error('You can only delete comments you authored.');
+  }
+
+  await createDeletionRequest(commentEvent, reason, true);
+  await deleteCachedEventById(commentEventId);
 }
 
-async function buildZapRequestEvent(lnurlSpec, recipientPubkey, amountMsat, relays, comment, extraTags) {
+async function buildZapRequestEvent(recipientPubkey, amountMsat, relays, comment, eventId) {
   const nip57Module = await getNip57();
 
   const zapRequest = nip57Module.makeZapRequest({
@@ -590,29 +528,12 @@ async function buildZapRequestEvent(lnurlSpec, recipientPubkey, amountMsat, rela
     relays: (relays || []).slice(0, 4),
   });
 
-  zapRequest.tags.push(['lnurl', lnurlSpec.callback]);
-  if (extraTags) {
-    zapRequest.tags = zapRequest.tags.concat(extraTags);
-  }
-
-  const eTaggedEvents = new Set();
-  const aTaggedEvents = new Set();
-  for (const tag of zapRequest.tags) {
-    if (tag[0] === 'e') {
-      eTaggedEvents.add(tag[1]);
-    } else if (tag[0] === 'a') {
-      aTaggedEvents.add(tag[1]);
-    }
-  }
-  if (eTaggedEvents.size > 1) {
-    throw new Error('Only one e-tag is allowed');
-  }
-  if (aTaggedEvents.size > 1) {
-    throw new Error('Only one a-tag is allowed');
-  }
-
-  zapRequest.tags = zapRequest.tags.filter((tag) => tag[0] !== 'p');
+  zapRequest.tags = zapRequest.tags.filter(
+    tag => tag[0] !== 'p' && tag[0] !== 'e' && tag[0] !== 'a' && tag[0] !== 'lnurl'
+  );
   zapRequest.tags.push(['p', recipientPubkey]);
+  zapRequest.tags.push(['e', eventId]);
+
   return signEvent(zapRequest);
 }
 
@@ -639,30 +560,19 @@ export async function createZap({ event, amount, comment = '' }) {
   }
 
   const relays = getRelayUrls().slice(0, 4);
-  const extraTags = [
-    ['p', zapTarget.pubkey],
-    ['e', zapTarget.id],
-  ];
 
   const zapRequestEvent = await buildZapRequestEvent(
-    lnurlSpec,
     zapTarget.pubkey,
     amount * 1000,
     relays,
     comment,
-    extraTags,
+    zapTarget.id,
   ).catch((err) => {
     console.log('Error: An error occurred in generating zap request!', err);
     return null;
   });
   if (!zapRequestEvent) throw new Error('Failed to generate zap request');
-  zapRequestEvent.content = comment;
   console.debug('createZap - zapRequestEvent', zapRequestEvent);
-
-  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'lnurl');
-  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'a');
-  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'e');
-  zapRequestEvent.tags.push(['e', zapTarget.id]);
 
   const invoice = await fetchLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
     console.log('Error: An error occurred in getting LnInvoice!', err);
@@ -685,14 +595,14 @@ export async function subscribeToZapReceipts(zapEvent, currentZapInvoice, receip
       onevent: async (event) => {
         console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
         if (currentZapInvoice) {
-          if (getTagValue(event, 'bolt11') === currentZapInvoice) {
+          if (getFirstTagValue(event, 'bolt11') === currentZapInvoice) {
             sub.close();
           } else {
             console.debug('    - subscribeToZapReceipts - a zap invoice was received that is not the current zap invoice we are waiting for, so skipping it');
             return;
           }
         }
-        const zapReceiptInvoice = getTagValue(event, 'bolt11');
+        const zapReceiptInvoice = getFirstTagValue(event, 'bolt11');
         console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
         if (zapReceiptInvoice) {
           const nip57Module = await getNip57();
