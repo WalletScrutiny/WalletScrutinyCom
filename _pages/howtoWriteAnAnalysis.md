@@ -36,8 +36,8 @@ git checkout -b add-wallet-example-app</code></pre>
       <h3>1. Find the Google Play app ID</h3>
       <p>Open the app on Google Play and copy the <code>id</code> parameter from the URL.</p>
       <pre><code>https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet
-                                              └────────────────────────────────────────┘
-                                                         app ID</code></pre>
+                                              └───────────────────────────────────────┘
+                                                               app ID</code></pre>
     </li>
     <li>
       <h3>2. Add the app with <code>addNewAndroidApps.mjs</code></h3>
@@ -63,8 +63,8 @@ git checkout -b add-wallet-example-app</code></pre>
       <h3>1. Find the App Store ID and country code</h3>
       <p>From an App Store URL, take the numeric ID after <code>/id</code> and the two-letter country code in the path.</p>
       <pre><code>https://apps.apple.com/us/app/blockstream-green/id1402243590
-                         └┘                              └─────────┘
-                      country                           App Store ID</code></pre>
+                       └┘                         └────────┘
+                    country                      App Store ID</code></pre>
     </li>
     <li>
       <h3>2. Add the app with <code>addNewIphoneApps.mjs</code></h3>
