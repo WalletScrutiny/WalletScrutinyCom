@@ -220,9 +220,11 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.add('working');
     document.querySelector('.search-controls').classList.add('edited');
   } else {
-    document.querySelector('.wallet-search').classList.remove('active');
     document.querySelector('.search-controls').classList.remove('working');
     document.querySelector('.search-controls').classList.remove('edited');
+    // below the 2-character search minimum nothing re-renders the results,
+    // so close the dropdown instead of leaving stale results on screen
+    exitSearchUI();
   }
 
   if (window.searchTerm) {
