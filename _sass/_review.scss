@@ -328,13 +328,19 @@
 
 .security-overview {
   font-weight: $paragraph-font-weight;
+  // 15px on the container, not on p, so lists, quotes and tables in the
+  // review body share the paragraph size instead of inheriting a bigger one
+  font-size: 15px;
   h2 {
     font-size: 21px;
     font-weight: $title-font-weight;
   }
-  p {
-    font-size: 15px;
-  }
+}
+
+// review content moved into the platform tabs by mobilePlatformTabs.js sits
+// inside .steps (17px); keep it at the review body size
+.mobile-content-panel {
+  font-size: 15px;
 }
 
 .spacer {
