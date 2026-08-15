@@ -303,14 +303,7 @@ promise, not an architecture. We don't assume that Casa is out to steal your
 keys but we stand by the mantra "Don't Trust. Verify!" and consider this wallet
 with or without multi-signature setup to be **not verifiable**.
 
-## Android
-
 {% include featureEvidence.html feature="multiSig" quote="Use multiple keys across devices and locations, with safe recovery if a phone or hardware wallet fails." source="Website" %}
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy and sell digital assets with low fees One tap to buy or sell. No switching apps, no pasting addresses." source="Website" %}
 
-## iPhone
-
-{% include featureEvidence.html feature="multiSig" quote="Casa uses multiple physical and digital keys (multisig) for greater protection than a single hardware device, browser extension or exchange." source="Store" %}
-
-{% include featureEvidence.html feature="buyWithCC" quote="Buy and sell digital assets with low fees One tap to buy or sell. No switching apps, no pasting addresses." source="Website" %}
