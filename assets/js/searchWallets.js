@@ -510,8 +510,10 @@ function getWalletSharedStampsHtml (wallet) {
 }
 
 function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
-  if (wallet.folder !== 'mobile' || platforms.length === 0) return false;
-  return platforms.length > 1 || Boolean(listPlatform);
+  // one layout for all mobile wallets: single-platform ones get the same
+  // store-header section as dual-platform ones instead of a flat row with
+  // an "Android:" text prefix
+  return wallet.folder === 'mobile' && platforms.length > 0;
 }
 
 function getWalletCardDetailsHtml (wallet, platformFilter) {

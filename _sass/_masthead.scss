@@ -348,7 +348,7 @@
           .stamp {
             &::after {
               content: attr(data-text);
-              color: var(--neutral-3);
+              color: var(--text);
             }
             // compact dropdown look: instead of the site-wide text pill, a
             // small dot in the verdict color (--verdict-color is set inline
