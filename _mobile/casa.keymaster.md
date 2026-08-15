@@ -44,9 +44,10 @@ iphone:
 
 ## Android
 
-**Update 2024-07-15**
-
-No changes in source code policy has been observed.
+**Update 2026-08-15**: Following
+[a discussion on Nostr](https://njump.me/note17fvthzcwgja4y5tqrylvrtpe6ku2enpqs92s8gh4f9hcytgu2eysgjw0tn#:~:text=the%20mobile%20key%20can%20technically%20be%20extracted)
+we took another look at the Mobile Key backup. The Devil's Advocate section
+below now cites Casa's own documentation on who can decrypt it.
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
 least version `2.27.10` and inspect the code or modify it to compile it back
@@ -213,16 +214,70 @@ and
 >    - Message us any time you have a question, need a free device replacement,
 >      or just want to chat.
 
-So if our assumption is correct that the client software is responsible for one
-of the keys in each setup, the above information leads us to grim conclusions.
+Back when we first wrote this review we had to assume that the client software
+was responsible for one of the keys in each setup. By now we don't have to
+assume anymore. Casa's
+[Wealth Security Protocol](https://docs.casa.io/wealth-security-protocol/chosen-key-schemes/2-of-3-basic-multisig#:~:text=An%20encrypted%20copy%20of%20the%20mobile%20key,The%20decryption%20key%20is%20kept%20by%20Casa)
+describes the default "3-Key Vault" (2-of-3: Mobile Key, hardware key, Casa
+Recovery Key) like this:
+
+> An encrypted copy of the mobile key is kept in the cloud storage offered by
+  the client's mobile provider (iCloud or Google Drive). The decryption key is
+  kept by Casa.
+
+Their
+[Mobile Key security overview](https://blog.casa.io/casa-keymaster-security-mobile-key-overview/#:~:text=At%20the%20time%20of%20seed%20phrase%20generation,store%20it%20in%20our%20database)
+explains how those two pieces end up where they are:
+
+> At the time of seed phrase generation on the mobile client, the client also
+  generates a long, random secret key [...] It sends that secret key to Casa's
+  server over https [...] then we securely store it in our database.
+
+and
+[where the ciphertext goes](https://blog.casa.io/casa-keymaster-security-mobile-key-overview/#:~:text=In%20the%20Android%20app,iCloud%20Key%20Value%20Store):
+
+> In the Android app, we encrypt the seed phrase with this random secret key
+  and send that ciphertext to Google Drive's App Private metadata storage [...]
+  For our iOS app, the process is very similar, but the encrypted backup goes
+  to the iCloud Key Value Store.
+
+The Casa app writes and restores these backups automatically on any device
+signed into the same Google or Apple account - that is how their seamless
+recovery works.
+
+To be clear about the threat model: this backup design is not what makes a
+malicious Casa dangerous. The app holds the plaintext Mobile Key for everyday
+signing, so a malicious update could exfiltrate it directly - the standard
+risk of any closed source wallet and the reason for our verdict. Casa
+co-founder Jameson Lopp
+[conceded as much](https://njump.me/note1q6lx2t9hc0vh38t8zcx7h90m0h4pjphmjv6m7laajquy8yfytezqj9e2ta#:~:text=you%20can%20opt%20to%20use%20a%20second%20hardware%20key)
+when a user on Nostr called the default setup "really a 1.5-1.5 key vault":
+
+> If you're worried about a malicious Casa app stealing the mobile key then
+  you can opt to use a second hardware key in lieu of the mobile key. What you
+  lose is the automatic encrypted key backup.
+
+That opt-out exists but Casa labels it
+["for advanced users only"](https://support.casa.io/knowledge/mobile-key#:~:text=for%20advanced%20users%20only),
+so the default is what most users run.
+
+What the backup design does add is an attack path that needs no malicious
+code and no access to your devices: the ciphertext sits with Google or Apple,
+the decryption key sits with Casa. Casa plus your cloud provider - through
+collusion or a legal order reaching both companies - can reconstruct the
+Mobile Key, and together with the Casa Recovery Key that is two of three
+keys, a spending quorum, without the user. Your hardware key protects
+against either party alone, not against both together. Lesser variants of
+the same path exist for outside attackers: whoever compromises both your
+cloud account and your Casa account can restore your Mobile Key onto their
+own device, as the blog post above openly discusses.
 
 Casa makes sure to always have control over the majority of your keys:
 
-* They obviously have control over the key they promote as being under their
-  control.
-* They avoid scrutiny of the software wallet that holds a second key. In this
-  configuration they invite you to "bring your own hardware device". It's only
-  one of three after all.
+* They obviously have control over the Casa Recovery Key which they promote as
+  being under their control.
+* The Mobile Key lives inside their closed source app and the key to decrypt
+  its cloud backup lives on their server.
 * Should you want to use more than one hardware wallets, they ask you to accept
   shipment through them, making you vulnerable to supply chain attacks.
 
@@ -245,9 +300,10 @@ backdoors capable of emptying all clients' wallets at once.
 
 # Our Perspective
 
-We don't assume that Casa is out to steal your keys but we stand by the mantra
-"Don't Trust. Verify!" and consider this wallet with or without multi-signature
-setup to be **not verifiable**.
+The FAQ's "Casa can **never** access your funds - even if we wanted to" is a
+promise, not an architecture. We don't assume that Casa is out to steal your
+keys but we stand by the mantra "Don't Trust. Verify!" and consider this wallet
+with or without multi-signature setup to be **not verifiable**.
 
 {% include featureEvidence.html feature="multiSig" quote="Use multiple keys across devices and locations, with safe recovery if a phone or hardware wallet fails." source="Website" %}
 
@@ -425,16 +481,70 @@ and
 >    - Message us any time you have a question, need a free device replacement,
 >      or just want to chat.
 
-So if our assumption is correct that the client software is responsible for one
-of the keys in each setup, the above information leads us to grim conclusions.
+Back when we first wrote this review we had to assume that the client software
+was responsible for one of the keys in each setup. By now we don't have to
+assume anymore. Casa's
+[Wealth Security Protocol](https://docs.casa.io/wealth-security-protocol/chosen-key-schemes/2-of-3-basic-multisig#:~:text=An%20encrypted%20copy%20of%20the%20mobile%20key,The%20decryption%20key%20is%20kept%20by%20Casa)
+describes the default "3-Key Vault" (2-of-3: Mobile Key, hardware key, Casa
+Recovery Key) like this:
+
+> An encrypted copy of the mobile key is kept in the cloud storage offered by
+  the client's mobile provider (iCloud or Google Drive). The decryption key is
+  kept by Casa.
+
+Their
+[Mobile Key security overview](https://blog.casa.io/casa-keymaster-security-mobile-key-overview/#:~:text=At%20the%20time%20of%20seed%20phrase%20generation,store%20it%20in%20our%20database)
+explains how those two pieces end up where they are:
+
+> At the time of seed phrase generation on the mobile client, the client also
+  generates a long, random secret key [...] It sends that secret key to Casa's
+  server over https [...] then we securely store it in our database.
+
+and
+[where the ciphertext goes](https://blog.casa.io/casa-keymaster-security-mobile-key-overview/#:~:text=In%20the%20Android%20app,iCloud%20Key%20Value%20Store):
+
+> In the Android app, we encrypt the seed phrase with this random secret key
+  and send that ciphertext to Google Drive's App Private metadata storage [...]
+  For our iOS app, the process is very similar, but the encrypted backup goes
+  to the iCloud Key Value Store.
+
+The Casa app writes and restores these backups automatically on any device
+signed into the same Google or Apple account - that is how their seamless
+recovery works.
+
+To be clear about the threat model: this backup design is not what makes a
+malicious Casa dangerous. The app holds the plaintext Mobile Key for everyday
+signing, so a malicious update could exfiltrate it directly - the standard
+risk of any closed source wallet and the reason for our verdict. Casa
+co-founder Jameson Lopp
+[conceded as much](https://njump.me/note1q6lx2t9hc0vh38t8zcx7h90m0h4pjphmjv6m7laajquy8yfytezqj9e2ta#:~:text=you%20can%20opt%20to%20use%20a%20second%20hardware%20key)
+when a user on Nostr called the default setup "really a 1.5-1.5 key vault":
+
+> If you're worried about a malicious Casa app stealing the mobile key then
+  you can opt to use a second hardware key in lieu of the mobile key. What you
+  lose is the automatic encrypted key backup.
+
+That opt-out exists but Casa labels it
+["for advanced users only"](https://support.casa.io/knowledge/mobile-key#:~:text=for%20advanced%20users%20only),
+so the default is what most users run.
+
+What the backup design does add is an attack path that needs no malicious
+code and no access to your devices: the ciphertext sits with Google or Apple,
+the decryption key sits with Casa. Casa plus your cloud provider - through
+collusion or a legal order reaching both companies - can reconstruct the
+Mobile Key, and together with the Casa Recovery Key that is two of three
+keys, a spending quorum, without the user. Your hardware key protects
+against either party alone, not against both together. Lesser variants of
+the same path exist for outside attackers: whoever compromises both your
+cloud account and your Casa account can restore your Mobile Key onto their
+own device, as the blog post above openly discusses.
 
 Casa makes sure to always have control over the majority of your keys:
 
-* They obviously have control over the key they promote as being under their
-  control.
-* They avoid scrutiny of the software wallet that holds a second key. In this
-  configuration they invite you to "bring your own hardware device". It's only
-  one of three after all.
+* They obviously have control over the Casa Recovery Key which they promote as
+  being under their control.
+* The Mobile Key lives inside their closed source app and the key to decrypt
+  its cloud backup lives on their server.
 * Should you want to use more than one hardware wallets, they ask you to accept
   shipment through them, making you vulnerable to supply chain attacks.
 
@@ -457,9 +567,10 @@ backdoors capable of emptying all clients' wallets at once.
 
 # Our Perspective
 
-We don't assume that Casa is out to steal your keys but we stand by the mantra
-"Don't Trust. Verify!" and consider this wallet with or without multi-signature
-setup to be **not verifiable**.
+The FAQ's "Casa can **never** access your funds - even if we wanted to" is a
+promise, not an architecture. We don't assume that Casa is out to steal your
+keys but we stand by the mantra "Don't Trust. Verify!" and consider this wallet
+with or without multi-signature setup to be **not verifiable**.
 
 {% include featureEvidence.html feature="multiSig" quote="Casa uses multiple physical and digital keys (multisig) for greater protection than a single hardware device, browser extension or exchange." source="Store" %}
 
