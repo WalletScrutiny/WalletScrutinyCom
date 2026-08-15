@@ -335,16 +335,37 @@
                   font-size: $font-xxs;
                 }
               }
+              // verdict and meta stamps are joined without whitespace in
+              // searchWallets.js; without a gap their ::after texts fuse
+              // ("Source AvailableRemoved!")
+              .stats-platform-stamps {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 8px;
+              }
             }
           }
           .stamp {
             &::after {
               content: attr(data-text);
-              color: var(--neutral-3);
+              color: var(--text);
             }
+            // compact dropdown look: instead of the site-wide text pill, a
+            // small dot in the verdict color (--verdict-color is set inline
+            // by renderStamp in searchWallets.js; neutral when verdict has
+            // no color)
             &::before {
-              display: none;
+              content: "";
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 4px;
+              margin-right: 4px;
+              background: var(--verdict-color, var(--neutral-4));
             }
+          }
+          .stamp-alert-feature::before {
+            display: none;
           }
           .score,
           .tests-passed {

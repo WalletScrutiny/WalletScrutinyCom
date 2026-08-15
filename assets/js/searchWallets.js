@@ -220,9 +220,11 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.add('working');
     document.querySelector('.search-controls').classList.add('edited');
   } else {
-    document.querySelector('.wallet-search').classList.remove('active');
     document.querySelector('.search-controls').classList.remove('working');
     document.querySelector('.search-controls').classList.remove('edited');
+    // below the 2-character search minimum nothing re-renders the results,
+    // so close the dropdown instead of leaving stale results on screen
+    exitSearchUI();
   }
 
   if (window.searchTerm) {
@@ -325,10 +327,18 @@ function walletHasVerdict (wallet, verdict) {
   return getWalletVerdictList(wallet).includes(verdict);
 }
 
+function renderStamp (key, text) {
+  const v = window.verdicts?.[key];
+  if (!v) return '';
+  const title = (v.title || '').replace(/"/g, '&quot;');
+  const color = v.color ? ` style="--verdict-color:${v.color}"` : '';
+  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color} alt=""></span>`;
+}
+
 function renderVerdictStamp (verdict, suffix) {
   if (!verdict || !window.verdicts?.[verdict]) return '';
   const text = suffix ? `${window.verdicts[verdict].short} (${suffix})` : window.verdicts[verdict].short;
-  return `<span data-text="${text}" class="stamp stamp-${verdict}" alt=""></span>`;
+  return renderStamp(verdict, text);
 }
 
 function getWalletVerdictStampsHtml (wallet, platformFilter) {
@@ -456,7 +466,7 @@ function walletPlatformSections (wallet, platformFilter) {
 function renderWalletPlatformMetaStamp (wallet, platform) {
   const meta = platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
   if (!meta || meta === 'ok' || !window.verdicts?.[meta]) return '';
-  return `<span data-text="${window.verdicts[meta].short}" class="stamp stamp-${meta}" alt=""></span>`;
+  return renderStamp(meta, window.verdicts[meta].short);
 }
 
 function renderWalletPlatformSection (wallet, platform) {
@@ -500,8 +510,10 @@ function getWalletSharedStampsHtml (wallet) {
 }
 
 function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
-  if (wallet.folder !== 'mobile' || platforms.length === 0) return false;
-  return platforms.length > 1 || Boolean(listPlatform);
+  // one layout for all mobile wallets: single-platform ones get the same
+  // store-header section as dual-platform ones instead of a flat row with
+  // an "Android:" text prefix
+  return wallet.folder === 'mobile' && platforms.length > 0;
 }
 
 function getWalletCardDetailsHtml (wallet, platformFilter) {
@@ -523,7 +535,7 @@ function getWalletCardDetailsHtml (wallet, platformFilter) {
   const verdictStampsHtml = getWalletVerdictStampsHtml(wallet, listPlatform);
   const scoreBlockHtml = getWalletScoreBlockHtml(wallet, listPlatform);
   const metaStamp = wallet.meta && wallet.meta !== 'ok'
-    ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
+    ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
     : '';
 
   return `
@@ -648,10 +660,10 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
       <span class="stats">
         ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
         ${getWalletVerdictStampsHtml(wallet, listPlatform)}
-        ${wallet.archived ? '' : verificationHTML}
         ${wallet.meta && wallet.meta !== 'ok'
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
+          ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
           : ''}
+        ${wallet.archived ? '' : verificationHTML}
         ${wallet.alertFeatures && wallet.alertFeatures.length > 0
           ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
           : ''}
