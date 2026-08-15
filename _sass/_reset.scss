@@ -9,10 +9,10 @@ html {
   box-sizing: border-box;
   background-color: $background-color;
   overflow-x: clip;
-  font-size: 16px;
+  font-size: 16px; // type-scale-exempt: root size, tokens are rem of this
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 18px; // type-scale-exempt: root size, tokens are rem of this
   }
 
   -webkit-text-size-adjust: 100%;

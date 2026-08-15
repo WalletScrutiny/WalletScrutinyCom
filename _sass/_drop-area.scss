@@ -1,5 +1,5 @@
 .drop-areas {
-  font-size: 17px;
+  font-size: $font-sm;
   border: 2px dashed #ccc;
   border-radius: 20px;
   display: inline-block;
@@ -31,11 +31,11 @@
   }
 
   #file-info {
-    font-size: 15px;
+    font-size: $font-sm;
 
     h3 {
       margin-top: 0;
-      font-size: 16px;
+      font-size: $font-sm;
     }
 
     &:empty {
@@ -70,7 +70,7 @@
 
 .blossom-upload-status p {
   font-weight: 400;
-  font-size: 21px;
+  font-size: $font-lg;
   margin: 0;
   text-align: center;
 }

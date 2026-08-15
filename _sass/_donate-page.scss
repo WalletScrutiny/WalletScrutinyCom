@@ -14,7 +14,7 @@
 
     > h2 {
       margin: 0 0 1.25rem;
-      font-size: 1.5rem;
+      font-size: $font-xl;
       font-weight: $title-font-weight;
       line-height: 1.3;
       text-align: center;
@@ -49,7 +49,7 @@
   #btcpay-input-price_7826565 {
     width: 100%;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: $font-md;
     padding: 11px 12px;
     border: 0;
     background: var(--neutral-5);
@@ -64,7 +64,7 @@
     min-width: 5.5rem;
     height: 100%;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: $font-md;
     padding: 11px 12px;
     border: 0;
     background: var(--neutral-5);
@@ -88,7 +88,7 @@
     color: var(--permanent-white);
     border: 0;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: $font-md;
     font-weight: 600;
   }
 
@@ -141,7 +141,7 @@
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: $font-md;
     text-align: left;
     margin-top: 20px;
     margin-bottom: 0;
@@ -152,7 +152,7 @@
 
     &__title {
       margin: 0 0 1rem;
-      font-size: 1.2rem;
+      font-size: $font-lg;
       font-weight: $title-font-weight;
       line-height: 1.3;
       text-align: center;
@@ -173,7 +173,7 @@
     border-collapse: separate;
     border-spacing: 0;
     margin: 0;
-    font-size: 0.95rem;
+    font-size: $font-sm;
 
     &,
     * {

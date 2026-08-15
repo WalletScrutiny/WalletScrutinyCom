@@ -4,7 +4,7 @@
   background-color: var(--neutral-6);
   padding: 15px 25px;
   margin: 10px 0;
-  font-size: 17px;
+  font-size: $font-sm;
   max-width: 80vw;
   .steps .step & {
     max-width: none;
@@ -32,7 +32,7 @@
     margin-bottom: 10px;
     h2 {
       margin: 0px;
-      font-size: 21px;
+      font-size: $font-lg;
     }
     .badge {
       margin: 0px 0px 0px auto;
@@ -65,7 +65,7 @@
       &::after {
         content: "Read more " "\f054";
         font-family: "Font Awesome 5 Free", "Barlow", "Arial", sans-serif;
-        font-size: 17px;
+        font-size: $font-sm;
         color: var(--accent-text);
       }
     }
@@ -84,7 +84,7 @@
   position: relative;
   z-index: 1;
   h1 {
-    font-size: 1.2rem;
+    font-size: $font-lg;
     margin-top: 0;
     font-weight: $paragraph-font-weight;
   }
@@ -97,13 +97,13 @@
     background: var(--indifferent);
     line-height: 2rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: $font-md;
     margin-right: 0.5rem;
     color: var(--permanent-white);
   }
   .fa-twitter {
     color: #1da1f2;
-    font-size: 1.3rem;
+    font-size: $font-lg;
     border-radius: 20%;
     margin-right: 0.5rem;
     padding: 0;
@@ -120,7 +120,7 @@
 
 .verdict-message {
   margin: 0;
-  font-size: 16px;
+  font-size: $font-sm;
   font-weight: $title-font-weight;
   transform: translate(0px, -5px);
 }
@@ -128,7 +128,7 @@
 .app-sum-head {
   grid-template: auto auto auto / 1fr;
   padding: 15px 0;
-  font-size: 17px;
+  font-size: $font-sm;
   font-weight: $paragraph-font-weight;
   .stamp span::before {
     display: none;
@@ -265,7 +265,7 @@
     color: var(--text);
     border-radius: 8px;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: $font-sm;
     font-weight: $title-font-weight;
     cursor: pointer;
     display: inline-flex;
@@ -323,16 +323,16 @@
 .subtle {
   text-decoration: none;
   color: inherit;
-  font-size: 13px;
+  font-size: $font-xxs;
 }
 
 .security-overview {
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
   // review body share the paragraph size instead of inheriting a bigger one
-  font-size: 15px;
+  font-size: $font-sm;
   h2 {
-    font-size: 21px;
+    font-size: $font-lg;
     font-weight: $title-font-weight;
   }
 }
@@ -340,7 +340,7 @@
 // review content moved into the platform tabs by mobilePlatformTabs.js sits
 // inside .steps (17px); keep it at the review body size
 .mobile-content-panel {
-  font-size: 15px;
+  font-size: $font-sm;
 }
 
 .spacer {
@@ -361,7 +361,7 @@
   text-transform: lowercase;
 }
 .steps {
-  font-size: 17px;
+  font-size: $font-sm;
   .step {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -398,7 +398,7 @@
       grid-row: 1;
       align-self: center;
       color: var(--body);
-      font-size: 18px;
+      font-size: $font-md;
       text-align: center;
       display: grid;
       position: relative;
@@ -438,17 +438,17 @@
         grid-column: 1 / -1;
       }
       > h2 {
-        font-size: 24px;
+        font-size: $font-xl;
         margin: 0;
         font-weight: $title-font-weight;
       }
       > h3 {
-        font-size: 14px;
+        font-size: $font-xs;
         margin: 0;
         font-weight: $title-font-weight;
       }
       > p {
-        font-size: 17px;
+        font-size: $font-sm;
         margin: 0;
       }
       a {
@@ -469,7 +469,7 @@
       justify-content: flex-end;
       a {
         text-decoration: none;
-        font-size: 17px;
+        font-size: $font-sm;
         &:hover {
           text-decoration: underline;
         }
@@ -504,7 +504,7 @@
   }
 }
 .previous-build-test-results {
-  font-size: 19px;
+  font-size: $font-md;
   border: none;
   td,
   tr,
@@ -585,11 +585,11 @@
     padding: 25px;
     border-radius: 15px;
     text-align: center;
-    font-size: 17px;
+    font-size: $font-sm;
     display: grid;
     gap: 15px;
     h2 {
-      font-size: 21px;
+      font-size: $font-lg;
       margin: 0;
       margin-top: auto;
     }
@@ -602,7 +602,7 @@
 
 .section {
   h1 {
-    font-size: 21px;
+    font-size: $font-lg;
     margin-top: 40px;
   }
 }
@@ -613,7 +613,7 @@
   margin-top: 60px;
   &::before {
     content: "See also";
-    font-size: 21px;
+    font-size: $font-lg;
     font-weight: 500;
     margin-bottom: 2px;
     position: relative;
@@ -626,7 +626,7 @@
     text-align: right;
     background-image: linear-gradient(var(--wallet-low-contrast), var(--wallet-low-contrast));
     background-color: var(--neutral-6);
-    font-size: 17px;
+    font-size: $font-sm;
     padding: 10px 20px 10px 10px;
     border-radius: 10px;
     gap: 10px;

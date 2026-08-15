@@ -1011,7 +1011,7 @@ body.dark #verificationModal {
   overflow-y: auto;
   overflow-x: auto;
   max-width: 100%;
-  font-size: 16px;
+  font-size: 16px; // type-scale-exempt: hand-tuned responsive ladder
   /* Styles for scrollbar */
   /* Styles for scrollbar - Firefox */
   scrollbar-width: thin;
@@ -1033,23 +1033,23 @@ body.dark #verificationModal {
 }
 @media screen and (max-width: 480px) {
   #verificationContent {
-    font-size: 14px;
+    font-size: 14px; // type-scale-exempt: hand-tuned responsive ladder
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #verificationContent {
-    font-size: 15px;
+    font-size: 15px; // type-scale-exempt: hand-tuned responsive ladder
   }
   #verificationContent pre code {
-    font-size: 14px;
+    font-size: 14px; // type-scale-exempt: hand-tuned responsive ladder
   }
 }
 @media screen and (min-width: 1200px) {
   #verificationContent {
-    font-size: 18px;
+    font-size: 18px; // type-scale-exempt: hand-tuned responsive ladder
   }
   #verificationContent pre code {
-    font-size: 15px;
+    font-size: 15px; // type-scale-exempt: hand-tuned responsive ladder
   }
 }
 
@@ -1063,7 +1063,7 @@ body.dark #verificationModal {
   position: fixed;
   top: 0;
   right: 17px;
-  font-size: 44px;
+  font-size: $font-hero;
   line-height: 1;
   z-index: 2;
   background: var(--body);
@@ -1107,7 +1107,7 @@ input[type=checkbox] {
 }
 
 label:not(.button-label) {
-  font-size: 1rem;
+  font-size: $font-md;
   line-height: 46px;
   display: flex;
   align-items: center;
@@ -1203,7 +1203,7 @@ input, textarea, select {
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none !important;
-  font-size: 16px;
+  font-size: $font-sm;
 }
 
 .btn-medium {
@@ -1216,7 +1216,7 @@ input, textarea, select {
 
 .btn-tiny {
   padding: 2px 4px;
-  font-size: 12px;
+  font-size: $font-xxs;
 }
 
 .btn-info {
@@ -1394,7 +1394,7 @@ body.dark #endorsementModalContent {
   position: absolute;
   top: 10px;
   right: 18px;
-  font-size: 33px;
+  font-size: $font-xxl;
   font-weight: bold;
   color: #aaa;
   cursor: pointer;
@@ -1403,7 +1403,7 @@ body.dark #endorsementModalContent {
 /* Verification modal: discreet delete action */
 .verification-modal-delete-link {
   margin-left: 10px;
-  font-size: 0.82rem;
+  font-size: $font-xs;
   font-weight: 400;
   color: #b84c4c;
   text-decoration: none;

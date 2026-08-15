@@ -81,7 +81,7 @@
     max-width: 550px;
     margin: auto;
     .searchbar {
-      font-size: 1rem;
+      font-size: $font-md;
       padding: 5px 10px;
       height: 35px;
       width: calc(100% - 2px);
@@ -216,11 +216,11 @@
             grid-column: 2/3;
           }
           > span {
-            font-size: 17px;
+            font-size: $font-sm;
             font-weight: 500;
           }
           small {
-            font-size: 13px;
+            font-size: $font-xxs;
             line-height: 13px;
             opacity: 0.6;
             margin-top: 5px;
@@ -305,7 +305,7 @@
           }
         }
         .stats {
-          font-size: 13px;
+          font-size: $font-xxs;
           display: flex;
           flex-direction: column;
           gap: 2px;
@@ -329,10 +329,10 @@
                 display: flex;
                 align-items: center;
                 gap: 5px;
-                font-size: 12px;
+                font-size: $font-xxs;
                 margin-bottom: 2px;
                 i {
-                  font-size: 13px;
+                  font-size: $font-xxs;
                 }
               }
             }
@@ -454,7 +454,7 @@
     content: "WalletScrutiny";
     display: block;
     line-height: 1;
-    font-size: 21px;
+    font-size: $font-lg;
     color: var(--accent-text);
   }
 }

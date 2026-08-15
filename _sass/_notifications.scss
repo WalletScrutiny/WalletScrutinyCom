@@ -22,7 +22,7 @@
 
 .notifications-header h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: $font-sm;
   font-weight: 600;
 }
 
@@ -85,7 +85,7 @@ body.dark .notification {
 }
 
 .notification-content .title-row span {
-  font-size: 16px;
+  font-size: $font-sm;
   font-weight: 600;
 }
 
@@ -95,12 +95,12 @@ body.dark .notification {
 }
 
 .notification-content .details-row span {
-  font-size: 12px;
+  font-size: $font-xxs;
   opacity: 0.8;
 }
 
 .notification-time {
-  font-size: 12px;
+  font-size: $font-xxs;
   color: var(--muted-text-color);
 }
 

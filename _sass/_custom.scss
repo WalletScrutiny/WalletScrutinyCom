@@ -70,7 +70,7 @@
   .click-target {
     background-color: var(--neutral-6);
     padding: 3px 6px;
-    font-size: 15px;
+    font-size: $font-sm;
     display: flex;
     aspect-ratio: 1/1;
     flex-shrink: 0;
@@ -219,7 +219,7 @@
   label {
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: $font-xxs;
     line-height: 12px;
     position: relative;
     z-index: 3;
@@ -228,7 +228,7 @@
     display: grid;
     cursor: pointer;
     font-weight: $paragraph-font-weight;
-    font-size: 17px;
+    font-size: $font-sm;
     margin: auto 0;
     overflow: hidden;
     .option {
@@ -246,7 +246,7 @@
         padding-top: 25px !important;
         opacity: 1 !important;
         pointer-events: none;
-        font-size: 13px;
+        font-size: $font-xxs;
         font-weight: 600;
       }
       &.selected {
@@ -258,7 +258,7 @@
       }
       small {
         display: block;
-        font-size: 17px;
+        font-size: $font-sm;
         opacity: 0.5;
       }
       &:hover {
@@ -469,7 +469,7 @@
         h3 {
           margin: 0;
           font-weight: $paragraph-font-weight;
-          font-size: 18px;
+          font-size: $font-md;
         }
       }
       .tests-passed {
@@ -481,7 +481,7 @@
         span {
           bottom: -13px;
           left: 0;
-          font-size: 12px;
+          font-size: $font-xxs;
           font-weight: $paragraph-font-weight;
           opacity: 0.7;
         }
@@ -504,7 +504,7 @@
         width: 440px;
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
-        font-size: 15px;
+        font-size: $font-sm;
         justify-items: center;
         align-items: center;
         margin: 0;
@@ -522,7 +522,7 @@
           width: 100%;
         }
         .star-rating {
-          font-size: 15px;
+          font-size: $font-sm;
         }
         .updated {
           position: relative;
@@ -531,7 +531,7 @@
           &::after {
             content: attr(data-text);
             position: relative;
-            font-size: 12px;
+            font-size: $font-xxs;
             text-transform: capitalize;
             font-weight: $paragraph-font-weight;
             opacity: 0.7;
@@ -539,7 +539,7 @@
             display: block;
             line-height: 11px;
             @media (max-width: 950px) {
-              font-size: 11px;
+              font-size: $font-min;
             }
           }
         }
@@ -548,14 +548,14 @@
         }
       }
       .wallet-details {
-        font-size: 15px;
+        font-size: $font-sm;
         display: grid;
         gap: 5px;
         font-weight: $title-font-weight;
         @media (max-width: 700px) {
           grid-column: 2/3;
           grid-row: 1/3;
-          font-size: 13px;
+          font-size: $font-xxs;
         }
       }
       .stamp {
@@ -563,7 +563,7 @@
         border-radius: 100px;
         margin-right: auto;
         @media (max-width: 700px) {
-          font-size: 11px;
+          font-size: $font-min;
         }
       }
     }
@@ -715,15 +715,15 @@
       }
       h3 {
         margin: 0;
-        font-size: 19px;
+        font-size: $font-md;
         font-weight: $label-font-weight;
         line-break: auto;
         @media (max-width: 700px) {
-          font-size: 16px;
+          font-size: $font-sm;
         }
       }
       .platform {
-        font-size: 12px;
+        font-size: $font-xxs;
         transform: translateY(-6px);
         font-weight: $paragraph-font-weight;
         display: block;
@@ -731,19 +731,19 @@
           margin-right: 4px;
         }
         @media (max-width: 700px) {
-          font-size: 11px;
+          font-size: $font-min;
         }
       }
     }
     .wallet-details {
-      font-size: 13px;
+      font-size: $font-xxs;
       display: grid;
       gap: 5px;
       justify-items: center;
       text-align: center;
       padding: 24px 5px 0px 5px;
       @media (max-width: 700px) {
-        font-size: 10px;
+        font-size: $font-min;
         padding: 10px 0 0 0;
         font-weight: $title-font-weight;
       }
@@ -773,11 +773,11 @@
         align-items: center;
         justify-content: center;
         gap: 6px;
-        font-size: 12px;
+        font-size: $font-xxs;
         font-weight: $title-font-weight;
         opacity: 0.9;
         i {
-          font-size: 14px;
+          font-size: $font-xs;
         }
       }
       .stamps {
@@ -813,7 +813,7 @@
 .stamp {
   &.in-article {
     text-decoration: none;
-    font-size: 18px;
+    font-size: $font-md;
     font-weight: 800;
     &:hover {
       .diy-info-circle {
@@ -833,7 +833,7 @@
     content: "i";
     font-family: Courier, monospace;
     font-style: normal;
-    font-size: 14px;
+    font-size: $font-xs;
     height: 18px;
     width: 18px;
     display: inline-grid;
@@ -926,7 +926,7 @@
   }
 
   .feature-pills-label {
-    font-size: 0.78rem;
+    font-size: $font-xs;
     font-weight: 600;
     color: var(--neutral-2);
     text-transform: uppercase;
@@ -938,7 +938,7 @@
     font-weight: 400;
     text-transform: none;
     letter-spacing: 0;
-    font-size: 0.75rem;
+    font-size: $font-xxs;
     color: var(--neutral-3);
   }
 
@@ -956,7 +956,7 @@
     border: 1px solid var(--neutral-4);
     background: var(--neutral-7);
     color: var(--neutral-1);
-    font-size: 0.82rem;
+    font-size: $font-xs;
     cursor: pointer;
     transition: background 0.12s, border-color 0.12s, color 0.12s, transform 0.1s;
     user-select: none;
@@ -992,7 +992,7 @@
   margin: 1rem 0;
   background: var(--accent-50);
   border-radius: 0 6px 6px 0;
-  font-size: 0.9rem;
+  font-size: $font-sm;
 
   &__label {
     font-weight: bold;
@@ -1009,14 +1009,14 @@
     border: none;
     font-style: italic;
     color: var(--neutral-1);
-    font-size: 0.88rem;
+    font-size: $font-xs;
     &::before { content: '\201C'; }
     &::after  { content: '\201D'; }
   }
 
   &__source {
     margin: 0.2rem 0 0 0;
-    font-size: 0.8rem;
+    font-size: $font-xs;
     color: var(--neutral-2);
     p { margin: 0; }
   }

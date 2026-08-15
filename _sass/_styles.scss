@@ -66,7 +66,7 @@ body, input {
 .page__date {
   margin-top: .25rem;
   opacity: .5;
-  font-size: 0.85rem;
+  font-size: $font-xs;
   margin-bottom: 0;
 }
 
@@ -157,7 +157,7 @@ body.modal-open {
   max-width: 860px;
   font-family: 'Monaco';
   font-weight: 400;
-  font-size: 13px;
+  font-size: $font-xxs;
 }
 
 .cb {
@@ -234,7 +234,7 @@ body.modal-open {
 }
 
 .results-list.quick-link .-pl>a>span {
-  font-size: 11px;
+  font-size: $font-min;
   text-align: left;
   text-align: left;
   width: 150px;
@@ -275,7 +275,7 @@ body.modal-open {
 }
 
 .help-text {
-  font-size: 12px;
+  font-size: $font-xxs;
   font-weight: 500;
   opacity: .9;
 }
@@ -323,7 +323,7 @@ body.modal-open {
 }
 
 .hero-cta .page__title {
-  font-size: 2.5rem;
+  font-size: $font-hero;
 }
 
 .hero-cta>div {
@@ -377,7 +377,7 @@ body.modal-open {
 .sidebar-search-container .walletSearch {
   padding: 10px;
   width: 100%;
-  font-size: .75rem;
+  font-size: $font-xxs;
 }
 
 .sidebar-search-container .walletSearch-parent {
@@ -409,23 +409,23 @@ body.modal-open {
 
 .cta-learn-more {
   color: inherit;
-  font-size: 1rem;
+  font-size: $font-md;
 }
 
 h1 {
   text-align: left;
-  font-size: 2.5rem;
+  font-size: $font-hero;
   margin-top: 4rem;
 }
 
 #collapsedReviews {
-  font-size: 1rem;
+  font-size: $font-md;
   margin: 0;
 }
 
 h2.section-label {
   text-align: center;
-  font-size: 48px;
+  font-size: $font-hero;
   margin-right: auto;
 }
 
@@ -539,7 +539,7 @@ h2.section-label>a:hover {
 
 table tr td count {
   display: block;
-  font-size: .9rem;
+  font-size: $font-sm;
   color: var(--text);
   border-radius: 5px;
 }
@@ -589,7 +589,7 @@ table tr td label {
 }
 
 .section-label.fragmented-controls {
-  font-size: 1.2rem;
+  font-size: $font-lg;
   margin: .25rem;
   line-height: 2;
 }
@@ -606,7 +606,7 @@ table tr td label {
 }
 
 .switch-link-btn-long-string {
-  font-size: .9rem;
+  font-size: $font-sm;
   opacity: .5;
   text-decoration: none !important;
   transition: .2s ease;
@@ -656,7 +656,7 @@ table tr td label {
   }
 
   table tr td label {
-    font-size: 1.2rem;
+    font-size: $font-lg;
   }
 }
 
@@ -766,7 +766,7 @@ table tr td label {
   font-weight: 500;
   gap: 10px;
   margin-bottom: 8px;
-  font-size: 48px;
+  font-size: $font-hero;
 }
 
 .star-rating {
@@ -776,7 +776,7 @@ table tr td label {
   color: transparent;
   background-repeat: no-repeat;
   margin-right: auto;
-  font-size: 1.4rem;
+  font-size: $font-xl;
 }
 
 .humanised-numbers {
@@ -792,7 +792,7 @@ table tr td label {
 }
 
 .humanised-numbers.-bold>l {
-  font-size: 6rem;
+  font-size: 6rem; // type-scale-exempt: display numeral
   font-weight: 900;
   line-height: 1;
 }
@@ -849,7 +849,7 @@ table tr td label {
 }
 
 .app-summary-grid .social-row a i {
-  font-size: 11px;
+  font-size: $font-min;
   line-height: 15px;
   transition: none;
 }
@@ -916,7 +916,7 @@ table tr td label {
 }
 
 .app-summary-grid .app-sum-head .version {
-  font-size: 18px;
+  font-size: $font-md;
   opacity: .5;
   font-weight: 400;
   margin-top: auto;
@@ -929,7 +929,7 @@ table tr td label {
 }
 
 /* .app-summary-grid .social-row ul li a i {
-  font-size: .9rem;
+  font-size: $font-sm;
 } */
 
 .app-summary-grid>.app-payload-flex {
@@ -1003,7 +1003,7 @@ table tr td label {
 .app-payload-flex>div>label {
   grid-column: 1/2;
   grid-row: 1/2;
-  font-size: 13px;
+  font-size: $font-xxs;
   font-weight: bold;
   cursor: unset;
   opacity: .5;
@@ -1012,7 +1012,7 @@ table tr td label {
 }
 
 .app-payload-flex>div>label>i {
-  font-size: 10px;
+  font-size: $font-min;
   transform: translateY(-2px);
 }
 
@@ -1025,7 +1025,7 @@ table tr td label {
 }
 
 .app-payload-flex>div>div * {
-  font-size: 18px;
+  font-size: $font-md;
   line-height: 20px;
 }
 
@@ -1086,7 +1086,7 @@ table tr td label {
 }
 
 .app-payload-flex>div>span {
-  font-size: 13px;
+  font-size: $font-xxs;
 }
 
 /* SIDEBAR UI MOBILE */
@@ -1118,7 +1118,7 @@ table tr td label {
 .platform-logo {
   position: absolute;
   top: 4px;
-  font-size: 22px;
+  font-size: $font-lg;
   right: 0px;
 }
 
@@ -1264,7 +1264,7 @@ html {
 .loading-text {
   margin-top: 1rem;
   font-family: Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: $font-lg;
   color: #666;
 }
 
