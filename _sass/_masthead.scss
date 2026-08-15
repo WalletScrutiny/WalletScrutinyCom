@@ -350,9 +350,22 @@
               content: attr(data-text);
               color: var(--neutral-3);
             }
+            // compact dropdown look: instead of the site-wide text pill, a
+            // small dot in the verdict color (--verdict-color is set inline
+            // by renderStamp in searchWallets.js; neutral when verdict has
+            // no color)
             &::before {
-              display: none;
+              content: "";
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 4px;
+              margin-right: 4px;
+              background: var(--verdict-color, var(--neutral-4));
             }
+          }
+          .stamp-alert-feature::before {
+            display: none;
           }
           .score,
           .tests-passed {

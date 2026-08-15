@@ -70,7 +70,11 @@ function omitEmptyAppFields(app) {
 
 function slimVerdictsForClient(allVerdicts) {
   return Object.fromEntries(
-    Object.entries(allVerdicts).map(([key, value]) => [key, { short: value.short }])
+    Object.entries(allVerdicts).map(([key, value]) => [key, {
+      short: value.short,
+      title: value.title,
+      ...(value.color ? { color: value.color } : {}),
+    }])
   );
 }
 
