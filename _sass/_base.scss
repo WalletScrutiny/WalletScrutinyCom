@@ -27,31 +27,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $font-xl;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $font-lg;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $font-md;
 }
 
 h4 {
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 }
 
 h5 {
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 }
 
 h6 {
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 }
 
 small, .small {
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 }
 
 p {
@@ -136,7 +136,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: $type-size-6;
+  font-size: $font-xxs;
   background: var(--permanent-white);
   border: 1px solid var(--permanent-white);
   border-radius: 4px;
@@ -235,7 +235,7 @@ figcaption {
   margin-bottom: 0.5em;
   color: mix(#fff, $text-color, 25%);
   font-family: $caption-font-family;
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 
   a {
     color: inherit;

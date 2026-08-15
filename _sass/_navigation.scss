@@ -8,7 +8,7 @@
 
 .greedy-nav {
   position: relative;
-  font-size: 16px;
+  font-size: $font-sm;
   color: var(--accent-text);
   width: 100%;
   display: flex;
@@ -108,7 +108,7 @@
     a {
       margin: 0;
       padding: 10px 20px;
-      font-size: $type-size-5;
+      font-size: $font-md;
       color: var(--accent);
 
       &:hover {
@@ -159,7 +159,7 @@
    ========================================================================== */
 
 .nav__list {
-  font-size: 1.25rem;
+  font-size: $font-lg;
 
   ul {
     margin-bottom: 1em;
@@ -194,7 +194,7 @@
   margin: 0;
   padding: 0.5rem 1rem;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $font-md;
   font-weight: bold;
 }
 
@@ -203,7 +203,7 @@
   margin: 0.5rem 0;
   padding: 0.5rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $font-xxs;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid var(--accent-text);
@@ -225,7 +225,7 @@
 
   .nav__title {
     color: var(--white);
-    font-size: $type-size-6;
+    font-size: $font-xxs;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -237,13 +237,13 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.8rem;
+  font-size: $font-xs;
 
   a {
     display: block;
     padding: 0.5rem 1rem;
     color: $gray;
-    font-size: $type-size-7;
+    font-size: $font-xxs;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid var(--accent-text);
@@ -319,7 +319,6 @@
 }
 
 .userCount {
-  font-size: smalller;
   text-align: right;
 }
 
@@ -402,7 +401,7 @@ thead {
 
 .btcpay-form .plus-minus {
   cursor: pointer;
-  font-size: 25px;
+  font-size: $font-xl;
   line-height: 25px;
   background: #dfe0e1;
   height: 30px;
@@ -438,7 +437,7 @@ thead {
   border: none;
   box-shadow: none;
   text-align: center;
-  font-size: 25px;
+  font-size: $font-xl;
   margin: auto;
   border-radius: 5px;
   line-height: 35px;

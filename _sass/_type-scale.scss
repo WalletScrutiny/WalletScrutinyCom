@@ -1,0 +1,16 @@
+/* Type scale. rem so text tracks the root font size (16px on small screens,
+   18px from $medium up, see _reset.scss) and the reader's browser preference.
+   Absolute font sizes must use these tokens; em stays reserved for sizes
+   relative to the surrounding text (inline code, icons, badges).
+   Pure variables only: this file is @use'd by the site-styles.scss partials
+   and @import'ed via _variables.scss for main.scss.
+                                       @16px root   @18px root */
+$font-hero                  : 2.75rem; //   44        49.5
+$font-xxl                   : 1.95rem; //   31.2      35.1
+$font-xl                    : 1.5rem;  //   24        27
+$font-lg                    : 1.22rem; //   19.5      22
+$font-md                    : 1rem;    //   16        18
+$font-sm                    : 0.94rem; //   15        16.9
+$font-xs                    : 0.83rem; //   13.3      14.9
+$font-xxs                   : 0.72rem; //   11.5      13
+$font-min                   : 0.63rem; //   10        11.3
