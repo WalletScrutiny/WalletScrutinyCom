@@ -751,12 +751,42 @@
         gap: 10px;
         width: 100%;
       }
+      > .stamps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 8px;
+        row-gap: 4px;
+      }
       .stamps--shared {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 4px;
+        column-gap: 8px;
+        row-gap: 4px;
       }
+    }
+    // same stamp treatment as the search dropdown (_masthead.scss):
+    // verdict/meta texts are joined without whitespace, so they need a gap,
+    // and ::before is a color dot (--verdict-color from renderStamp) instead
+    // of the site-wide hidden/text pill
+    .stamp {
+      &::after {
+        content: attr(data-text);
+        color: var(--text);
+      }
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        margin-right: 4px;
+        background: var(--verdict-color, var(--neutral-4));
+      }
+    }
+    .stamp-alert-feature::before {
+      display: none;
     }
     .wallet-platform-row {
       display: grid;
@@ -784,7 +814,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 4px;
+        column-gap: 8px;
+        row-gap: 4px;
       }
       .score {
         display: grid;
