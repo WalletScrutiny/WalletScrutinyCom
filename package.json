@@ -67,7 +67,8 @@
     "verify-features:apply": "node scripts/featureVerifier.mjs --apply --dry-run",
     "verify-features:commit": "node scripts/featureVerifier.mjs --apply",
     "deploy:prod": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
-    "deploy:beta": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/beta.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/beta.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\""
+    "deploy:beta": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/beta.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/beta.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
+    "deploy:old": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/old.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/old.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\""
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
