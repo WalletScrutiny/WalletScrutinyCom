@@ -1,6 +1,6 @@
 server {
     server_name beta.walletscrutiny.com;
-    root /home/leo/wsg_beta/www;
+    root /var/www/beta.walletscrutiny.com;
     index index.html;
     listen 443 ssl;
     http2 on;
