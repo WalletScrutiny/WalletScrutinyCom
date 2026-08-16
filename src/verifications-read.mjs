@@ -320,6 +320,37 @@ function addEventsToSet(target, source) {
   return target;
 }
 
+function appendEventsByHash(map, hashes, event) {
+  for (const hash of hashes) {
+    const list = map.get(hash);
+    if (list) {
+      list.push(event);
+    } else {
+      map.set(hash, [event]);
+    }
+  }
+}
+
+function emitPartialAssetInformation(callback, events, oldest) {
+  callback(processEventsToResult(events, oldest, null, { sanitize: false }));
+}
+
+function yieldToPaint() {
+  return new Promise(resolve => setTimeout(resolve, 0));
+}
+
+function eventSetHasAnyKind(events, kinds) {
+  if (!kinds?.length) {
+    return true;
+  }
+  for (const event of events) {
+    if (kinds.includes(event.kind)) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function verificationIdsFromEvents(events) {
   return [...events].filter(
     e => e.kind === verificationKind || e.kind === verificationDraftKind
@@ -404,7 +435,9 @@ export async function backgroundSyncEvents() {
   }
 }
 
-function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
+function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null, {
+  sanitize = true,
+} = {}) {
   const reported = reportedVerificationIds?.size ? reportedVerificationIds : null;
 
   const assetsMap = new Map();
@@ -414,16 +447,13 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
   let verificationCount = 0;
 
   for (const event of events) {
-    eventSanitize(event);
+    if (sanitize) {
+      eventSanitize(event);
+    }
     const kind = event.kind;
 
     if (assetRegistrationKinds.includes(kind)) {
-      for (const sha256FromEventTag of getAssetIndexHashes(event)) {
-        if (!assetsMap.has(sha256FromEventTag)) {
-          assetsMap.set(sha256FromEventTag, []);
-        }
-        assetsMap.get(sha256FromEventTag).push(event);
-      }
+      appendEventsByHash(assetsMap, getAssetIndexHashes(event), event);
       continue;
     }
 
@@ -442,22 +472,12 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
     if (kind === verificationDraftKind &&
         getFirstTagValue(event, 'client') === 'WalletScrutiny.com' &&
         (!reported || !reported.has(event.id))) {
-      for (const sha256FromEventTag of getVerificationHashList(event)) {
-        if (!draftVerificationsMap.has(sha256FromEventTag)) {
-          draftVerificationsMap.set(sha256FromEventTag, []);
-        }
-        draftVerificationsMap.get(sha256FromEventTag).push(event);
-      }
+      appendEventsByHash(draftVerificationsMap, getVerificationHashList(event), event);
     }
   }
 
   verificationDeduplicationMap.forEach(verification => {
-    for (const sha256FromEventTag of getVerificationHashList(verification)) {
-      if (!verificationsMap.has(sha256FromEventTag)) {
-        verificationsMap.set(sha256FromEventTag, []);
-      }
-      verificationsMap.get(sha256FromEventTag).push(verification);
-    }
+    appendEventsByHash(verificationsMap, getVerificationHashList(verification), verification);
   });
 
   console.debug(`Deduplicated ${verificationCount} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
@@ -487,6 +507,7 @@ export async function getAllAssetInformation({
   kinds = null,
   limit = null,
   onCachedDataLoaded = null,
+  notifyAfterPageKinds = null,
   getDrafts = true
 }) {
   const timerId = 'getAllAssetInformation' + Math.floor(Math.random() * 100);
@@ -507,7 +528,6 @@ export async function getAllAssetInformation({
   const events = new Set();
   let loadedFromIDB = false;
   let oldestEventTimestamp = null;
-  let newestEventTimestamp = null;
 
   try {
     const cachedEvents = await getEventsFromIDB({
@@ -520,15 +540,13 @@ export async function getAllAssetInformation({
     if (cachedEvents.length > 0) {
       console.debug(`Loaded ${cachedEvents.length} events from IDB (since ${baseSince})`);
       addEventsToSet(events, cachedEvents);
-      ({ oldest: oldestEventTimestamp, newest: newestEventTimestamp } = eventTimeRange(cachedEvents));
+      ({ oldest: oldestEventTimestamp } = eventTimeRange(cachedEvents));
       loadedFromIDB = true;
 
       if (onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const reportedFromCache = await readReportedVerificationIds(
-          verificationIdsFromEvents(events)
-        );
-        onCachedDataLoaded(processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache));
+        emitPartialAssetInformation(onCachedDataLoaded, events, oldestEventTimestamp);
+        await yieldToPaint();
       }
     }
   } catch (e) {
@@ -552,19 +570,34 @@ export async function getAllAssetInformation({
 
   await ensureNostrSession();
   const newEvents = new Set();
+  const paginationOptions = {};
+  if (onCachedDataLoaded && !loadedFromIDB && !singleBatch) {
+    paginationOptions.notifyAfterPage = 1;
+    paginationOptions.onPaginationProgress = (pageEvents) => {
+      addEventsToSet(events, pageEvents);
+      if (!eventSetHasAnyKind(pageEvents, notifyAfterPageKinds)) {
+        return;
+      }
+      const { oldest } = eventTimeRange(events);
+      console.debug(`Partial Nostr data after first page: ${events.size} events`);
+      emitPartialAssetInformation(onCachedDataLoaded, events, oldest);
+    };
+  }
 
   try {
+    // undefined = read per-kind IDB cursors; null = empty cache, fetch from sinceFloor
     const fetched = await syncDelta({
       kinds: targetKinds,
       extraFilter,
       sinceFloor: baseSince,
-      newest: incremental ? newestEventTimestamp : null,
-      oldest: loadedFromIDB ? oldestEventTimestamp : null,
+      newest: incremental ? undefined : null,
+      oldest: loadedFromIDB ? undefined : null,
       until,
       limit,
       singleBatch,
       fillGaps,
       gapThresholdSeconds: GAP_FILL_THRESHOLD_SECONDS,
+      paginationOptions,
     });
     addEventsToSet(newEvents, fetched);
     console.log(`Fetched ${fetched.size} events from network`);
@@ -577,7 +610,7 @@ export async function getAllAssetInformation({
 
   if (newEvents.size > 0) {
     addEventsToSet(events, newEvents);
-    ({ oldest: oldestEventTimestamp, newest: newestEventTimestamp } = eventTimeRange(events));
+    ({ oldest: oldestEventTimestamp } = eventTimeRange(events));
   }
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
@@ -704,42 +737,107 @@ function compareVersions(a, b) {
   return 0;
 }
 
+function emptyVersionInfo() {
+  return {
+    lastVersion: null,
+    lastVersionDate: null,
+    lastVerifiedVersion: null,
+    lastVerifiedVersionDate: null,
+  };
+}
+
+const assetInformationIndexCache = new WeakMap();
+
+function considerVersion(info, version, createdAt, status) {
+  if (!version) {
+    return;
+  }
+  if (!info.lastVersion || compareVersions(version, info.lastVersion) > 0) {
+    info.lastVersion = version;
+    info.lastVersionDate = formatDate(createdAt, true);
+  }
+  if (status === 'reproducible' &&
+      (!info.lastVerifiedVersion || compareVersions(version, info.lastVerifiedVersion) > 0)) {
+    info.lastVerifiedVersion = version;
+    info.lastVerifiedVersionDate = formatDate(createdAt, true);
+  }
+}
+
+function indexAssetInformation(assetInformation) {
+  const cached = assetInformationIndexCache.get(assetInformation);
+  if (cached) {
+    return cached;
+  }
+
+  const byAppId = new Map();
+  const global = emptyVersionInfo();
+
+  const statsFor = (appId) => {
+    let stats = byAppId.get(appId);
+    if (!stats) {
+      stats = {
+        numberOfVerifications: 0,
+        numberOfReproducibleVerifications: 0,
+        versionInfo: emptyVersionInfo(),
+        latestByPlatform: new Map(),
+      };
+      byAppId.set(appId, stats);
+    }
+    return stats;
+  };
+
+  const visit = (event, { countVerification }) => {
+    const version = getFirstTagValue(event, 'version', null);
+    const status = getFirstTagValue(event, 'status');
+    const appId = getFirstTagValue(event, 'i');
+    considerVersion(global, version, event.created_at, status);
+    if (!appId) {
+      return;
+    }
+    const stats = statsFor(appId);
+    considerVersion(stats.versionInfo, version, event.created_at, status);
+    if (!countVerification) {
+      return;
+    }
+    stats.numberOfVerifications += 1;
+    if (status === 'reproducible') {
+      stats.numberOfReproducibleVerifications += 1;
+    }
+    const platform = getFirstTagValue(event, 'platform');
+    if (platform && version) {
+      const current = stats.latestByPlatform.get(platform);
+      if (!current || compareVersions(version, current.version) > 0) {
+        stats.latestByPlatform.set(platform, { version, status });
+      }
+    }
+  };
+
+  for (const events of assetInformation.verifications.values()) {
+    for (const event of events) {
+      visit(event, { countVerification: true });
+    }
+  }
+  for (const events of assetInformation.assets?.values() ?? []) {
+    for (const event of events) {
+      visit(event, { countVerification: false });
+    }
+  }
+
+  const index = { byAppId, global };
+  assetInformationIndexCache.set(assetInformation, index);
+  return index;
+}
+
 export function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
   if (!getAllAssetInformationResult.verifications) {
     throw new Error('getAllAssetInformationResult.verifications is not defined');
   }
 
-  let maxVersion = null;
-  let maxDate = null;
-  let verifiedVersion = null;
-  let verifiedDate = null;
-
-  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
-  for (const assetArray of allAssetArrays) {
-    for (const asset of assetArray) {
-      const version = getFirstTagValue(asset, 'version');
-      const appIdFromTag = getFirstTagValue(asset, 'i');
-      if (version && (!appId || appIdFromTag === appId)) {
-        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
-          maxVersion = version;
-          maxDate = formatDate(asset.created_at, true);
-        }
-
-        const status = getFirstTagValue(asset, 'status');
-        if (status === 'reproducible' && (!verifiedVersion || compareVersions(version, verifiedVersion) > 0)) {
-          verifiedVersion = version;
-          verifiedDate = formatDate(asset.created_at, true);
-        }
-      }
-    }
+  const index = indexAssetInformation(getAllAssetInformationResult);
+  if (!appId) {
+    return { ...index.global };
   }
-
-  return {
-    lastVersion: maxVersion,
-    lastVersionDate: maxDate,
-    lastVerifiedVersion: verifiedVersion,
-    lastVerifiedVersionDate: verifiedDate
-  };
+  return { ...(index.byAppId.get(appId)?.versionInfo ?? emptyVersionInfo()) };
 }
 
 function isSamePlatform(platform1, platform2) {
@@ -754,28 +852,21 @@ export function getLastVerificationStatusForAppId(assetInformation, appId, platf
     return null;
   }
 
-  let verification = null;
-  let maxVersion = null;
+  const stats = indexAssetInformation(assetInformation).byAppId.get(appId);
+  if (!stats) {
+    return null;
+  }
 
-  for (const assetArray of assetInformation.verifications.values()) {
-    for (const asset of assetArray) {
-      const version = getFirstTagValue(asset, 'version', null);
-      const appIdFromTag = getFirstTagValue(asset, 'i');
-      const platformFromTag = getFirstTagValue(asset, 'platform');
-      if (version && (appIdFromTag === appId) && isSamePlatform(platform, platformFromTag)) {
-        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
-          verification = asset;
-          maxVersion = version;
-        }
-      }
+  let best = null;
+  for (const [eventPlatform, entry] of stats.latestByPlatform) {
+    if (!isSamePlatform(platform, eventPlatform)) {
+      continue;
+    }
+    if (!best || compareVersions(entry.version, best.version) > 0) {
+      best = entry;
     }
   }
-
-  if (verification) {
-    return getFirstTagValue(verification, 'status');
-  }
-
-  return null;
+  return best?.status ?? null;
 }
 
 export function getWeightForAppFromAssetInformation(assetInformation, appId) {
@@ -783,33 +874,14 @@ export function getWeightForAppFromAssetInformation(assetInformation, appId) {
     throw new Error('assetInformation is not defined yet');
   }
 
-  const { lastVersion, lastVerifiedVersion } = getMaxAssetVersion(assetInformation, appId);
-
-  let numberOfVerifications = 0;
-  let numberOfReproducibleVerifications = 0;
-
-  for (const verifications of assetInformation.verifications.values()) {
-    for (const verification of verifications) {
-      const appIdCurrentVerification = getFirstTagValue(verification, 'i');
-      const status = getFirstTagValue(verification, 'status');
-
-      if (appIdCurrentVerification === appId) {
-        numberOfVerifications += 1;
-
-        if (status === 'reproducible') {
-          numberOfReproducibleVerifications += 1;
-        }
-      }
-    }
-  }
-
-  let weight = numberOfReproducibleVerifications / numberOfVerifications;
-  if (isNaN(weight)) {
-    weight = 0;
-  }
+  const stats = indexAssetInformation(assetInformation).byAppId.get(appId);
+  const versionInfo = stats?.versionInfo ?? emptyVersionInfo();
+  const total = stats?.numberOfVerifications ?? 0;
+  const reproducible = stats?.numberOfReproducibleVerifications ?? 0;
 
   return {
-    weight,
-    lastVersionVerified: (lastVerifiedVersion && (lastVerifiedVersion === lastVersion)) ? 1 : -1
+    weight: total ? reproducible / total : 0,
+    lastVersionVerified: (versionInfo.lastVerifiedVersion &&
+      (versionInfo.lastVerifiedVersion === versionInfo.lastVersion)) ? 1 : -1
   };
 }

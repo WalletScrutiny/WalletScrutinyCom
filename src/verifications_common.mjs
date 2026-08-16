@@ -4,6 +4,7 @@ import * as nip19 from 'nostr-tools/nip19';
 
 /** True on localhost / beta / old hostnames unless `?forceProd=true`. Node (no window) is production. */
 function isDebugEnv() {
+  return false;
   if (typeof window === 'undefined') {
     return false;
   }

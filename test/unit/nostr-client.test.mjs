@@ -10,6 +10,9 @@ import {
   signEvent,
   resolveWriteRelayUrls,
   requiredRelayPublishError,
+  resolveConnectWaitRelayUrls,
+  shouldEmitPaginationProgress,
+  shouldRetryEmptyPaginationPage,
 } from '../../src/nostr-client.mjs';
 import { mainRelayUrl } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
@@ -56,6 +59,41 @@ describe('signEvent', () => {
     assert.equal(signed.pubkey, getPublicKey(secretKey));
     assert.equal(typeof signed.sig, 'string');
     assert.equal(signed.sig.length, 128);
+  });
+});
+
+describe('shouldEmitPaginationProgress', () => {
+  test('emits only on the requested filled page', () => {
+    assert.equal(shouldEmitPaginationProgress(1, 1), true);
+    assert.equal(shouldEmitPaginationProgress(2, 1), false);
+    assert.equal(shouldEmitPaginationProgress(1, 2), false);
+    assert.equal(shouldEmitPaginationProgress(1, undefined), false);
+    assert.equal(shouldEmitPaginationProgress(1, 0), false);
+  });
+});
+
+describe('shouldRetryEmptyPaginationPage', () => {
+  test('does not retry an empty first page', () => {
+    assert.equal(shouldRetryEmptyPaginationPage(undefined, 0, 3), false);
+  });
+
+  test('retries empty pages while walking backwards', () => {
+    assert.equal(shouldRetryEmptyPaginationPage(1_700_000_000, 0, 3), true);
+    assert.equal(shouldRetryEmptyPaginationPage(1_700_000_000, 2, 3), true);
+    assert.equal(shouldRetryEmptyPaginationPage(1_700_000_000, 3, 3), false);
+  });
+});
+
+describe('resolveConnectWaitRelayUrls', () => {
+  test('waits for every connect url when waitForRelayUrls is omitted', () => {
+    const connectUrls = [mainRelayUrl, 'wss://nos.lol/'];
+    assert.deepEqual(resolveConnectWaitRelayUrls(connectUrls), connectUrls);
+  });
+
+  test('waits only for the read relays when waitForRelayUrls is set', () => {
+    const connectUrls = [mainRelayUrl, 'wss://nos.lol/', 'wss://relay.primal.net/'];
+    const waitFor = [mainRelayUrl];
+    assert.deepEqual(resolveConnectWaitRelayUrls(connectUrls, waitFor), waitFor);
   });
 });
 

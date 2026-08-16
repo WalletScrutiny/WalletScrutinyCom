@@ -167,7 +167,36 @@ function createdAtRange(since, until) {
   return null;
 }
 
+function queryHasConstraints(query) {
+  return Boolean(
+    query.appId
+    || query.sha256
+    || query.pubkey
+    || (query.tagName != null && query.tagValues != null)
+  );
+}
+
 function scanEvents(db, { indexName, range, limit = null, query = {} }) {
+  if (limit) {
+    return scanEventsWithCursor(db, { indexName, range, limit, query });
+  }
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([EVENTS_STORE], 'readonly');
+    const index = transaction.objectStore(EVENTS_STORE).index(indexName);
+    const request = range ? index.getAll(range) : index.getAll();
+    request.onsuccess = () => {
+      const rows = queryHasConstraints(query)
+        ? request.result.filter(event => eventMatchesQuery(event, query))
+        : request.result;
+      rows.sort((a, b) => (b.created_at ?? 0) - (a.created_at ?? 0));
+      resolve(rows);
+    };
+    request.onerror = () => reject('Error reading events from IDB');
+  });
+}
+
+function scanEventsWithCursor(db, { indexName, range, limit, query }) {
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([EVENTS_STORE], 'readonly');
     const objectStore = transaction.objectStore(EVENTS_STORE);

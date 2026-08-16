@@ -4,7 +4,7 @@ import {
   getPool,
   getUserPubkeyFromSigner,
 } from './nostr-client.mjs';
-import { writeRelayUrls } from './nostr-constants.mjs';
+import { readRelayUrls, writeRelayUrls } from './nostr-constants.mjs';
 import { waitNostr } from 'nip07-awaiter';
 import { showToast } from './toast.mjs';
 
@@ -46,6 +46,7 @@ export function nostrConnect() {
     try {
       await connectNostr({
         relayUrls: writeRelayUrls,
+        waitForRelayUrls: readRelayUrls,
         connectTimeoutMs: connectTimeout * 1000,
         onRelayConnect: (relay) => {
           console.debug(`Connected to relay: ${relay.url}`);
@@ -57,7 +58,7 @@ export function nostrConnect() {
           console.debug(`Relay error (${relay.url}):`, error);
         },
       });
-      console.log("Nostr connected successfully.");
+      console.log("Nostr connected to the project relay. Additional relays are connecting in the background.");
       void assignSigner().finally(() => resolveSignerReady());
     } catch (e) {
       console.error("nostr connect failed", e);

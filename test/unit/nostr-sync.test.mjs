@@ -243,6 +243,31 @@ describe('syncDelta', () => {
       console.warn = originalWarn;
     }
   });
+
+  test('saves a pagination page before the kind fetch finishes', async () => {
+    const page = makeEvent({ id: 'p1', kind: 30301, created_at: 200 });
+    const saved = [];
+    const deps = {
+      getRange: async () => ({ oldest: null, newest: null, count: 0 }),
+      save: async (events) => {
+        saved.push([...events].map(event => event.id));
+        return events.size;
+      },
+      fetchEvents: async () => new Set(),
+      fetchEventsWithPagination: async (filter, options = {}) => {
+        await options.onPage?.(new Set([page]), { pageCount: 1 });
+        return new Set([page]);
+      },
+    };
+
+    await syncDelta({
+      kinds: [30301],
+      sinceFloor: 100,
+      newest: null,
+    }, deps);
+
+    assert.deepEqual(saved[0], ['p1']);
+  });
 });
 
 describe('syncDeltaInTagBatches', () => {

@@ -74,9 +74,10 @@ const bundlePath = (prefix) => {
       const ndkConnectPromise = nostrConnect();
 
       window.allAssetInformation = await getAllAssetInformation({
-        onCachedDataLoaded: (cachedData) => {
-          console.log('Cached data loaded immediately!', cachedData);
-          window.allAssetInformation = cachedData;
+        notifyAfterPageKinds: [verificationKind],
+        onCachedDataLoaded: (data) => {
+          window.allAssetInformation = data;
+          console.log('Nostr asset data ready for UI', data.verifications?.size, data.assets?.size);
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
         }
       });

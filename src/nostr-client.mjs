@@ -27,6 +27,7 @@ let pool = null;
 let relayUrls = [];
 let privateKeyMaterial = null;
 let connectionPromise = null;
+const relayConnectPromises = new Map();
 
 const relayListeners = {
   onConnect: null,
@@ -78,9 +79,42 @@ export function setPrivateKey(privateKey) {
   privateKeyMaterial = normalizePrivateKey(privateKey);
 }
 
+function addRelayUrls(urls) {
+  for (const url of urls ?? []) {
+    if (!relayUrls.includes(url)) {
+      relayUrls.push(url);
+    }
+  }
+}
+
+function startRelayConnect(url, connectTimeoutMs) {
+  const existing = relayConnectPromises.get(url);
+  if (existing) {
+    return existing;
+  }
+
+  const promise = (async () => {
+    try {
+      await pool.ensureRelay(url, { connectionTimeout: connectTimeoutMs });
+      relayListeners.onConnect?.({ url });
+    } catch (error) {
+      relayListeners.onError?.({ url }, error);
+    }
+  })();
+
+  relayConnectPromises.set(url, promise);
+  return promise;
+}
+
+/** Relays whose connection must finish before connectNostr() resolves. Others still connect in the background. */
+export function resolveConnectWaitRelayUrls(connectUrls, waitForRelayUrls) {
+  return waitForRelayUrls ?? connectUrls;
+}
+
 export async function connectNostr(options = {}) {
   const {
     relayUrls: urls,
+    waitForRelayUrls,
     connectTimeoutMs = 3000,
     privateKey = undefined,
     onRelayConnect,
@@ -96,30 +130,25 @@ export async function connectNostr(options = {}) {
     privateKeyMaterial = normalizePrivateKey(privateKey);
   }
 
-  if (urls) {
-    relayUrls = urls;
+  if (!pool) {
+    pool = new SimplePool();
   }
 
-  if (connectionPromise && pool) {
-    return connectionPromise;
+  const connectUrls = urls ?? relayUrls;
+  const waitUrls = resolveConnectWaitRelayUrls(connectUrls, waitForRelayUrls);
+  addRelayUrls(connectUrls);
+  addRelayUrls(waitUrls);
+
+  for (const url of connectUrls) {
+    startRelayConnect(url, connectTimeoutMs);
+  }
+  for (const url of waitUrls) {
+    startRelayConnect(url, connectTimeoutMs);
   }
 
-  connectionPromise = (async () => {
-    if (!pool) {
-      pool = new SimplePool();
-    }
-
-    await Promise.allSettled(
-      relayUrls.map(async (url) => {
-        try {
-          await pool.ensureRelay(url, { connectionTimeout: connectTimeoutMs });
-          relayListeners.onConnect?.({ url });
-        } catch (error) {
-          relayListeners.onError?.({ url }, error);
-        }
-      })
-    );
-  })();
+  connectionPromise = Promise.allSettled(
+    waitUrls.map(url => startRelayConnect(url, connectTimeoutMs))
+  ).then(() => undefined);
 
   return connectionPromise;
 }
@@ -139,6 +168,7 @@ export async function disconnectNostr() {
     pool = null;
   }
   connectionPromise = null;
+  relayConnectPromises.clear();
 }
 
 export async function withEphemeralPool(urls, fn, { connectTimeoutMs = 3000 } = {}) {
@@ -186,6 +216,31 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+async function notifyHandler(handler, label, ...args) {
+  if (!handler) {
+    return;
+  }
+  try {
+    await handler(...args);
+  } catch (error) {
+    console.warn(`${label} failed`, error);
+  }
+}
+
+/** True when this filled page should notify UI (newest-first pagination). */
+export function shouldEmitPaginationProgress(filledPageCount, notifyAfterPage) {
+  return Number.isInteger(notifyAfterPage) && notifyAfterPage > 0 && filledPageCount === notifyAfterPage;
+}
+
+/**
+ * Retry empty pages only while walking backwards (`until` set).
+ * An empty first page (incremental since-newest, or an empty kind) means the
+ * relay has nothing in this window; retrying it waits up to maxWait each time.
+ */
+export function shouldRetryEmptyPaginationPage(until, emptyPageRetries, maxEmptyRetries) {
+  return until !== undefined && emptyPageRetries < maxEmptyRetries;
+}
+
 function resolvePaginationPageLimit(relayUrl, filter, options) {
   if (filter.limit !== undefined) {
     return filter.limit;
@@ -216,6 +271,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
 
   const relayEvents = new Map();
   let pageCount = 0;
+  let filledPageCount = 0;
   let emptyPageRetries = 0;
   const pageFilter = { ...filter, limit: pageLimit };
 
@@ -231,11 +287,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
     }
 
     if (pageEvents.size === 0) {
-      const hasMoreHistory = since === undefined
-        || pageFilter.until === undefined
-        || pageFilter.until >= since;
-
-      if (hasMoreHistory && emptyPageRetries < maxEmptyRetries) {
+      if (shouldRetryEmptyPaginationPage(pageFilter.until, emptyPageRetries, maxEmptyRetries)) {
         emptyPageRetries++;
         await sleep(400 * emptyPageRetries);
         continue;
@@ -244,6 +296,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
     }
 
     emptyPageRetries = 0;
+    filledPageCount++;
 
     let oldestCreatedAt = Infinity;
     for (const event of pageEvents) {
@@ -259,6 +312,21 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
       `fetchEventsWithPaginationFromRelay(${relayUrl})${kindsLabel}:`
       + ` page ${pageCount} returned ${pageEvents.size} events`
       + (isFullPage ? ' (full page)' : ' (partial page, stopping)')
+    );
+
+    if (shouldEmitPaginationProgress(filledPageCount, options.notifyAfterPage)) {
+      await notifyHandler(
+        options.onPaginationProgress,
+        'onPaginationProgress',
+        new Set(relayEvents.values()),
+        { pageCount: filledPageCount, relayUrl },
+      );
+    }
+    await notifyHandler(
+      options.onPage,
+      'onPage',
+      pageEvents,
+      { pageCount: filledPageCount, relayUrl },
     );
 
     if (since !== undefined && oldestCreatedAt <= since) {

@@ -6,6 +6,8 @@ import {
   shortenNpub,
   getAppInfoFromEventInfo,
   getMaxAssetVersion,
+  getWeightForAppFromAssetInformation,
+  getLastVerificationStatusForAppId,
   getFileAttachmentIDsForVerificationEvent,
   groupEndorsementsByVerificationId,
 } from '../../src/verifications_utils.mjs';
@@ -258,5 +260,42 @@ describe('getMaxAssetVersion', () => {
     assert.equal(result.lastVerifiedVersion, null);
     assert.equal(result.lastVersionDate, null);
     assert.equal(result.lastVerifiedVersionDate, null);
+  });
+});
+
+describe('getWeightForAppFromAssetInformation', () => {
+  function makeInfo(verifications) {
+    const verificationsMap = new Map();
+    for (const entry of verifications) {
+      const hash = entry.tags.find(t => t[0] === 'x')?.[1] || HASH_A;
+      if (!verificationsMap.has(hash)) {
+        verificationsMap.set(hash, []);
+      }
+      verificationsMap.get(hash).push(entry);
+    }
+    return { verifications: verificationsMap, assets: new Map() };
+  }
+
+  test('indexes once and returns the reproducible ratio', () => {
+    const info = makeInfo([
+      makeVerification({
+        appId: 'com.app',
+        platform: 'android',
+        version: '1.0.0',
+        extraTags: [['status', 'reproducible'], ['x', HASH_A]],
+      }),
+      makeVerification({
+        appId: 'com.app',
+        platform: 'android',
+        version: '1.1.0',
+        extraTags: [['status', 'not_reproducible'], ['x', HASH_B]],
+      }),
+    ]);
+
+    const first = getWeightForAppFromAssetInformation(info, 'com.app');
+    const second = getWeightForAppFromAssetInformation(info, 'com.app');
+    assert.equal(first.weight, 0.5);
+    assert.deepEqual(second, first);
+    assert.equal(getLastVerificationStatusForAppId(info, 'com.app', 'android'), 'not_reproducible');
   });
 });

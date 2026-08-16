@@ -20,6 +20,28 @@ function addAll(target, source) {
   return target;
 }
 
+async function saveSafely(save, events) {
+  if (!events?.size) {
+    return;
+  }
+  try {
+    await save(events);
+  } catch (error) {
+    console.warn('Failed to save synced events to IDB', error);
+  }
+}
+
+function withPageSave(paginationOptions, save) {
+  const onPage = paginationOptions.onPage;
+  return {
+    ...paginationOptions,
+    onPage: async (pageEvents, meta) => {
+      await onPage?.(pageEvents, meta);
+      await saveSafely(save, pageEvents);
+    },
+  };
+}
+
 function buildFilter({ kinds, extraFilter, since, until, limit }) {
   const filter = { ...extraFilter, kinds, since };
   if (until != null) {
@@ -49,7 +71,7 @@ async function fetchEventWindow(filter, {
   if (singleBatch) {
     return deps.fetchEvents(filter, singleBatchFetchOptions(paginationOptions));
   }
-  return deps.fetchEventsWithPagination(filter, paginationOptions);
+  return deps.fetchEventsWithPagination(filter, withPageSave(paginationOptions, deps.save));
 }
 
 /**
@@ -147,11 +169,7 @@ export async function syncDelta({
   }
 
   if (fetched.size > 0) {
-    try {
-      await deps.save(fetched);
-    } catch (error) {
-      console.warn('Failed to save synced events to IDB', error);
-    }
+    await saveSafely(deps.save, fetched);
   }
 
   return fetched;
