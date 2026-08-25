@@ -13,7 +13,7 @@ android:
   released: 2021-09-06
   updated: 2025-10-07
   version: 1.6.20
-  reviews: 400
+  reviews: 404
   icon: com.paybis.png
   meta: ok
   verdict: custodial
@@ -25,7 +25,7 @@ iphone:
   released: 2021-09-20
   updated: 2026-08-13
   version: 1.7.32
-  reviews: 2853
+  reviews: 2849
   icon: com.paybis.jpg
   meta: ok
   verdict: custodial

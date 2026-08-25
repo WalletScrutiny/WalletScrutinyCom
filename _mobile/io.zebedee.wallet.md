@@ -18,7 +18,7 @@ android:
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10258
+  reviews: 10293
   icon: io.zebedee.wallet.png
   meta: ok
   verdict: custodial
@@ -28,9 +28,9 @@ iphone:
   idd: 1484394401
   appCountry: us
   released: 2020-11-28
-  updated: 2026-05-22
-  version: 4.30.5
-  reviews: 11758
+  updated: 2026-08-21
+  version: 4.30.6
+  reviews: 11849
   icon: io.zebedee.wallet.jpg
   meta: ok
   verdict: custodial

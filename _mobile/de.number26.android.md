@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2015-01-23
-  updated: 2026-08-07
+  updated: 2026-08-21
   version: '4.57'
-  reviews: 2176
+  reviews: 2177
   icon: de.number26.android.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-08-11
   version: '4.57'
-  reviews: 11759
+  reviews: 11798
   icon: de.no26.Number26.jpg
   meta: ok
   verdict: custodial

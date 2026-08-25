@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-05
-  updated: 2026-07-28
-  version: 1.0.176
+  updated: 2026-08-13
+  version: 1.0.177
   reviews: 10
   icon: com.digitra.digitraHB.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1577787451'
   appCountry: br
   released: 2022-03-12
-  updated: 2026-03-20
-  version: 1.0.169
+  updated: 2026-08-14
+  version: 1.0.170
   reviews: 33
   icon: com.digitra.digitraHB.jpg
   meta: ok

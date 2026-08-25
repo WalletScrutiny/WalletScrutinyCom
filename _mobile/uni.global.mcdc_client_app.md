@@ -6,7 +6,7 @@ redirect_from:
 - /android/uni.global.mcdc_client_app/
 android:
   appId: uni.global.mcdc_client_app
-  users: 100
+  users: 500
   appCountry: us
   released: 2022-01-24
   updated: 2025-08-31

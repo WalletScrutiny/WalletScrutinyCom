@@ -16,7 +16,7 @@ iphone:
   version: 4.4.4
   reviews: 3
   icon: com.splitloyalty.app.Split-Rewards.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Feed Incorporated
 

@@ -33,7 +33,7 @@ iphone:
   released: 2023-04-17
   updated: 2026-08-06
   version: 2.14.3
-  reviews: 103
+  reviews: 105
   icon: by.erpbel.hermes.jpg
   meta: ok
   verdict: custodial

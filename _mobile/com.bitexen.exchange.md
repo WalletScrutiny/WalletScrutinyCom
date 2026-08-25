@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-05-27
   updated: 2026-08-07
-  version: '1.41'
+  version: '1.42'
   reviews: 45
   icon: com.bitexen.exchange.jpg
   meta: ok

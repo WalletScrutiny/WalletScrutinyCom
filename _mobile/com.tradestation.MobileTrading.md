@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: us
   released: 2013-09-09
-  updated: 2026-08-11
-  version: 9.5.1
+  updated: 2026-08-19
+  version: 9.6.8
   reviews: 2066
   icon: com.tradestation.MobileTrading.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 581548081
   appCountry: us
   released: 2012-12-10
-  updated: 2026-07-23
-  version: 9.7.0
-  reviews: 18343
+  updated: 2026-08-20
+  version: 9.8.0
+  reviews: 18344
   icon: com.tradestation.MobileTrading.jpg
   meta: ok
   verdict: custodial

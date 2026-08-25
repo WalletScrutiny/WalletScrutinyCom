@@ -11,8 +11,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-07-23
-  updated: 2026-08-11
-  version: 2.12.1
+  updated: 2026-08-20
+  version: 2.13.0
   reviews: 173
   icon: com.btcdana.online.png
   meta: ok

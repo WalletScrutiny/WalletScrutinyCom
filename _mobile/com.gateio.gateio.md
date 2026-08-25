@@ -18,9 +18,9 @@ android:
   users: 10000000
   appCountry: id
   released: 2017-11-03
-  updated: 2026-08-04
-  version: 8.31.0
-  reviews: 7204
+  updated: 2026-08-19
+  version: 8.33.0
+  reviews: 7209
   icon: com.gateio.gateio.png
   meta: ok
   verdict: custodial

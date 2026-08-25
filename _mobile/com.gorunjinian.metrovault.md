@@ -23,7 +23,7 @@ android:
   signer: 1245554ceb17cea21e9912af7bf60d38d716f5884d4b3664e5338462cc76fd03
   alternativeStores:
   - fdroid
-  meta: ok
+  meta: removed
   verdict: sourceavailable
   developerName: Gorun Jinian
   repository: https://github.com/gorunjinian/MetroVault

@@ -16,8 +16,8 @@ android:
   appId: com.wallet.noworry
   users: 10000
   appCountry: us
-  updated: 2026-08-12
-  version: 5.8.29
+  updated: 2026-08-24
+  version: 5.8.38
   icon: com.wallet.noworry.png
   meta: ok
   verdict: custodial

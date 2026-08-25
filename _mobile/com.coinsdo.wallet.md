@@ -21,7 +21,7 @@ android:
   released: 2022-06-26
   updated: 2026-07-29
   version: 2.0.30
-  reviews: 118
+  reviews: 119
   icon: com.coinsdo.wallet.png
   meta: ok
   verdict: nosource

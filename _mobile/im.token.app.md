@@ -32,7 +32,7 @@ iphone:
   released: 2018-06-07
   updated: 2026-07-03
   version: 2.21.0
-  reviews: 1135
+  reviews: 1132
   icon: im.token.app.jpg
   meta: ok
   verdict: nosource

@@ -20,7 +20,7 @@ android:
   updated: 2025-08-29
   version: '4.35'
   icon: ilcbtc.wallet.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ILCOIN Dev Team
 

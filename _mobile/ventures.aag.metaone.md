@@ -24,7 +24,7 @@ android:
   version: 6.2.0
   reviews: 14
   icon: ventures.aag.metaone.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 iphone:

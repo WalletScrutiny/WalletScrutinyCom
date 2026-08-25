@@ -15,7 +15,7 @@ android:
   released: 2019-04-25
   updated: 2026-07-19
   version: 1.9.3
-  reviews: 50
+  reviews: 49
   icon: com.arzjoo.png
   meta: ok
   verdict: custodial

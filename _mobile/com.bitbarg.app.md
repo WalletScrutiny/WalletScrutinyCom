@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-12
-  updated: 2026-04-26
-  version: 3.5.3
+  updated: 2026-08-22
+  version: 3.6.2
   reviews: 41
   icon: com.bitbarg.app.png
   meta: ok

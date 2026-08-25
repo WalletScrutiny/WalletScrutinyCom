@@ -19,7 +19,7 @@ android:
   version: 0.9.007
   reviews: 12
   icon: com.qcan.mobile.bitcoin.wallet.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Qcan.com
 iphone:

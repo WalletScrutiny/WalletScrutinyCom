@@ -22,7 +22,7 @@ android:
   updated: 2026-04-24
   version: production/v4.2.62
   icon: com.kyrrex.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Kyrrex
 iphone:

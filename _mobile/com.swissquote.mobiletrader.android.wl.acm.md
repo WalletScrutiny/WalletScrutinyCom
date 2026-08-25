@@ -36,7 +36,7 @@ iphone:
   released: 2009-12-09
   updated: 2026-02-09
   version: 3.45.0
-  reviews: 690
+  reviews: 692
   icon: com.acm.Mobile-Trader.jpg
   meta: ok
   verdict: custodial

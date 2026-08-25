@@ -30,7 +30,7 @@ iphone:
   released: 2021-06-18
   updated: 2026-08-12
   version: 5.8.0
-  reviews: 1095
+  reviews: 1097
   icon: com.youngplatform.exchange.jpg
   meta: ok
   verdict: custodial

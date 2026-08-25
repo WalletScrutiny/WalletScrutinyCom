@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-07-24
-  updated: 2026-08-12
-  version: 1.0.31
+  updated: 2026-08-18
+  version: 1.0.32
   icon: com.tapwalletmobile.png
   meta: ok
   verdict: nosource
@@ -25,9 +25,9 @@ iphone:
   idd: '6748963003'
   appCountry: us
   released: 2025-08-05
-  updated: 2026-08-11
-  version: 1.0.8
-  reviews: 7
+  updated: 2026-08-20
+  version: 1.0.10
+  reviews: 8
   icon: com.tap-protocol.tapwallet.jpg
   meta: ok
   verdict: nosource

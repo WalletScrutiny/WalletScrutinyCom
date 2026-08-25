@@ -24,9 +24,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-09-21
-  updated: 2026-08-10
-  version: 8.35.8
-  reviews: 140
+  updated: 2026-08-19
+  version: 8.36.0
+  reviews: 141
   icon: com.zelcash.zelcore.png
   meta: ok
   verdict: nosource

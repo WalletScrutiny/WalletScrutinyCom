@@ -28,9 +28,9 @@ android:
   users: 10000
   appCountry: us
   released: 2023-10-31
-  updated: 2026-07-13
+  updated: 2026-08-20
   version: 6.12.2
-  reviews: 7
+  reviews: 8
   icon: com.bullbitcoin.mobile.png
   meta: ok
   verdict: sourceavailable
@@ -41,8 +41,8 @@ iphone:
   idd: '6743380972'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-07-15
-  version: 6.12.2
+  updated: 2026-08-21
+  version: 6.13.0
   reviews: 21
   icon: com.bullbitcoin.app.jpg
   meta: ok

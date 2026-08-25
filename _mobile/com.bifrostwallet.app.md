@@ -20,7 +20,7 @@ android:
   released: 2021-09-09
   updated: 2026-07-21
   version: 0.7.55
-  reviews: 112
+  reviews: 111
   icon: com.bifrostwallet.app.png
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2021-09-21
   updated: 2026-07-22
   version: 0.7.55
-  reviews: 212
+  reviews: 213
   icon: com.bifrostwallet.app.jpg
   meta: ok
   verdict: nosource

@@ -34,7 +34,7 @@ iphone:
   version: 3.1.2
   reviews: 1
   icon: com.icecorp.wallet.jpg
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: Ice Corporation
 

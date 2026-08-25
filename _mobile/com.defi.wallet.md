@@ -29,11 +29,11 @@ android:
   released: 2020-05-11
   updated: 2026-07-15
   version: 2.50.4
-  reviews: 3795
+  reviews: 3797
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource
-  developerName: Crypto.com Onchain Wallet
+  developerName: Cronos Technologies Limited
 iphone:
   appId: com.defi.wallet
   idd: 1512048310
@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-07-08
   version: 2.50.4
-  reviews: 21830
+  reviews: 21966
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

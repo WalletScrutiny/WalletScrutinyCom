@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2019-01-21
-  updated: 2026-08-07
-  version: 10.1.12
+  updated: 2026-08-18
+  version: 10.1.14
   reviews: 212
   icon: co.busha.android.png
   meta: ok

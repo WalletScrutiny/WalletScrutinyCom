@@ -16,7 +16,7 @@ android:
   updated: 2025-08-27
   version: 1.15.0
   icon: com.npbfx.app.jpg
-  meta: ok
+  meta: stale
   verdict: nosendreceive
   developerName: NMarkets Limited
 iphone:

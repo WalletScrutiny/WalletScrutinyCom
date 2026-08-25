@@ -35,8 +35,8 @@ iphone:
   idd: '1569062610'
   appCountry: us
   released: 2021-07-27
-  updated: 2025-10-02
-  version: 1.7.0.2
+  updated: 2026-08-18
+  version: 1.7.0.3
   reviews: 49
   icon: com.bytefederal.bytewallet.jpg
   meta: ok

@@ -9,7 +9,7 @@ android:
   users: 100
   appCountry: us
   released: 2022-06-08
-  updated: 2026-08-05
+  updated: 2026-08-19
   version: 3.7.0
   icon: com.getfexr.core.png
   meta: fewusers

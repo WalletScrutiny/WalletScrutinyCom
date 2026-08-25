@@ -17,7 +17,7 @@ android:
   released: 2015-05-22
   updated: 2026-07-22
   version: 2.59.0
-  reviews: 1268
+  reviews: 1269
   icon: org.fxclub.libertex.png
   meta: ok
   verdict: nosendreceive

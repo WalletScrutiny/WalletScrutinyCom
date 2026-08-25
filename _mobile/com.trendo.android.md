@@ -26,9 +26,9 @@ iphone:
   idd: 1530580389
   appCountry: in
   released: 2020-09-29
-  updated: 2026-08-04
-  version: 5.0.56
-  reviews: 96
+  updated: 2026-08-21
+  version: 5.0.58
+  reviews: 97
   icon: ios.m3.Trendo.jpg
   meta: ok
   verdict: custodial

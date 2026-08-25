@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-22
-  updated: 2026-07-24
-  version: 3.2.6
-  reviews: 280
+  updated: 2026-08-12
+  version: 3.2.7
+  reviews: 292
   icon: am.ecos.android.png
   meta: ok
   verdict: custodial

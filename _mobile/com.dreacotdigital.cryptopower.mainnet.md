@@ -14,7 +14,7 @@ android:
   updated: 2025-08-19
   version: 2.1.1
   icon: com.dreacotdigital.cryptopower.mainnet.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: Dreacot Digital Limited
   repository: https://github.com/crypto-power/cryptopower

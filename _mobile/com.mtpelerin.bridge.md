@@ -28,7 +28,7 @@ android:
   released: 2020-04-07
   updated: 2026-08-03
   version: '1.72'
-  reviews: 36
+  reviews: 37
   icon: com.mtpelerin.bridge.png
   meta: ok
   verdict: nosource

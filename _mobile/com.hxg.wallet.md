@@ -31,7 +31,7 @@ iphone:
   released: 2022-10-19
   updated: 2026-06-25
   version: 3.6.8
-  reviews: 84
+  reviews: 85
   icon: com.ULLA.wallet.WalletForiOS.jpg
   meta: ok
   verdict: nosource

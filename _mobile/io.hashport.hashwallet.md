@@ -9,8 +9,8 @@ iphone:
   idd: '6450660947'
   appCountry: us
   released: 2024-11-05
-  updated: 2026-07-28
-  version: 3.17.1
+  updated: 2026-08-17
+  version: 3.18.1
   reviews: 6
   icon: io.hashport.hashwallet.jpg
   meta: ok

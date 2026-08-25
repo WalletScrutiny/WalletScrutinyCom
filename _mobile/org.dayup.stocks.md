@@ -16,9 +16,9 @@ android:
   appId: org.dayup.stocks
   users: 10000000
   appCountry: us
-  updated: 2026-08-10
-  version: 12.2.6.27
-  reviews: 41695
+  updated: 2026-08-17
+  version: 12.3.2.65
+  reviews: 41719
   icon: org.dayup.stocks.png
   meta: ok
   verdict: nosendreceive
@@ -28,9 +28,9 @@ iphone:
   idd: 1179213067
   appCountry: us
   released: 2017-01-18
-  updated: 2026-07-31
-  version: 12.3.0
-  reviews: 339283
+  updated: 2026-08-21
+  version: 12.3.3
+  reviews: 339962
   icon: com.webull.trade.jpg
   meta: ok
   verdict: nosendreceive

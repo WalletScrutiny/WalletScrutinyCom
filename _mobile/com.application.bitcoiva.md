@@ -14,13 +14,13 @@ android:
   users: 100000
   appCountry: us
   released: 2020-11-02
-  updated: 2026-07-20
-  version: 1.67.2
+  updated: 2026-08-12
+  version: 1.68.0
   reviews: 5
   icon: com.application.bitcoiva.png
   meta: ok
   verdict: custodial
-  developerName: Hyperux Developers
+  developerName: Bitcoiva
 
 ---
 

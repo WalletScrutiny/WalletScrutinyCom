@@ -12,8 +12,8 @@ android:
   appId: by.bitcash.wallet
   users: 10000
   appCountry: us
-  updated: 2026-07-02
-  version: 1.1.2
+  updated: 2026-08-19
+  version: 1.1.3
   icon: by.bitcash.wallet.png
   meta: ok
   verdict: custodial
@@ -23,8 +23,8 @@ iphone:
   idd: '1602652484'
   appCountry: by
   released: 2022-01-12
-  updated: 2026-07-06
-  version: 1.1.2
+  updated: 2026-08-24
+  version: 1.1.3
   reviews: 21
   icon: by.bitcash.cryptowallet.jpg
   meta: ok

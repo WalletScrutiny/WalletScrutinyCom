@@ -26,8 +26,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-03-26
-  updated: 2026-04-11
-  version: 1.0.1
+  updated: 2026-08-24
+  version: 1.0.2
   reviews: 4
   icon: app.michaelwuensch.bitbanana.png
   signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884

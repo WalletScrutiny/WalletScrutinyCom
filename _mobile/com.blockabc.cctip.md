@@ -20,7 +20,7 @@ android:
   version: 5.4.3
   reviews: 541
   icon: com.blockabc.cctip.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Cwallet
 iphone:

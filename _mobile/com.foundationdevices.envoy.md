@@ -27,8 +27,8 @@ android:
   users: 1000
   appCountry: US
   released: 2022-04-01
-  updated: 2026-08-06
-  version: 2.3.1
+  updated: 2026-08-16
+  version: 2.3.2
   reviews: 6
   icon: com.foundationdevices.envoy.jpg
   meta: ok
@@ -40,8 +40,8 @@ iphone:
   idd: '1584811818'
   appCountry: us
   released: 2022-07-14
-  updated: 2026-08-11
-  version: 2.3.1
+  updated: 2026-08-20
+  version: 2.3.2
   reviews: 30
   icon: com.foundationdevices.envoy.jpg
   meta: ok

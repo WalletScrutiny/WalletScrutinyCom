@@ -19,9 +19,9 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-20
-  updated: 2026-08-11
-  version: 7.217.0
-  reviews: 322
+  updated: 2026-08-22
+  version: 7.258.2
+  reviews: 324
   icon: com.river.riverapp.png
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: '1536176542'
   appCountry: us
   released: 2021-01-19
-  updated: 2026-08-11
-  version: 7.217.0
-  reviews: 8567
+  updated: 2026-08-24
+  version: 7.258.2
+  reviews: 8656
   icon: com.river.riverapp.jpg
   meta: ok
   verdict: custodial

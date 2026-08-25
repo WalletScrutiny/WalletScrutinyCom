@@ -19,7 +19,7 @@ android:
   released: 2021-07-19
   updated: 2026-08-02
   version: 5.1.9
-  reviews: 175
+  reviews: 176
   icon: app.bitafrika.com.png
   meta: ok
   verdict: custodial

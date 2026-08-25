@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: th
   released: 2020-08-07
-  updated: 2026-07-17
-  version: 3.2.8
+  updated: 2026-08-12
+  version: 3.2.9
   reviews: 34
   icon: com.gmo.exchange.jpg
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1525862502
   appCountry: th
   released: 2020-08-09
-  updated: 2026-07-31
-  version: 3.2.8
+  updated: 2026-08-17
+  version: 3.2.9
   reviews: 31
   icon: com.gmo.exchange.jpg
   meta: ok

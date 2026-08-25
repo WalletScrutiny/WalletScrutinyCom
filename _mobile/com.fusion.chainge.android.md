@@ -31,7 +31,7 @@ iphone:
   released: 2021-08-04
   updated: 2024-10-14
   version: 0.8.3
-  reviews: 88
+  reviews: 87
   icon: com.chainge.finance.app.jpg
   meta: stale
   verdict: nosource

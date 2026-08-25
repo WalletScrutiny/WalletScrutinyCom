@@ -21,7 +21,7 @@ android:
   updated: 2025-08-25
   version: 2.20.5
   icon: vn.fiahub.app.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: DIGITEX PTE LTD
 iphone:

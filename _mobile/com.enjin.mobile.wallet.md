@@ -26,8 +26,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-01-01
-  updated: 2026-06-11
-  version: 3.5.21
+  updated: 2026-08-06
+  version: 3.6.7
   reviews: 1087
   icon: com.enjin.mobile.wallet.png
   meta: ok
@@ -38,8 +38,8 @@ iphone:
   idd: 1349078375
   appCountry: us
   released: 2018-03-12
-  updated: 2026-06-12
-  version: 3.5.6
+  updated: 2026-08-25
+  version: 3.6.1
   reviews: 1361
   icon: com.enjin.mobile.wallet.jpg
   meta: ok

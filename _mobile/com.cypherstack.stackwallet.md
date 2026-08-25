@@ -24,8 +24,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-06-20
-  version: 2.6.0
+  updated: 2026-08-21
+  version: 2.7.1
   reviews: 16
   icon: com.cypherstack.stackwallet.png
   meta: ok

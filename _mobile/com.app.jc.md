@@ -17,7 +17,7 @@ android:
   version: 3.3.18
   reviews: 12
   icon: com.app.jc.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: RONKB
 iphone:

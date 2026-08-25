@@ -24,8 +24,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-11-16
-  updated: 2026-07-07
-  version: 1.80.69
+  updated: 2026-08-24
+  version: 1.80.84
   icon: com.application.inocyx.png
   meta: ok
   verdict: custodial
@@ -35,8 +35,8 @@ iphone:
   idd: '6444437433'
   appCountry: in
   released: 2022-12-05
-  updated: 2026-07-08
-  version: '5.8'
+  updated: 2026-08-25
+  version: '6.0'
   reviews: 17
   icon: com.app.Inocyx.jpg
   meta: ok

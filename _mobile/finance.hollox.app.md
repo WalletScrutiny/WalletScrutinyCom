@@ -1,6 +1,6 @@
 ---
 wsId: holloxWallet
-title: 'Hollox: Crypto to Naira fast.'
+title: 'Hollox: Crypto, Naira & Loans'
 date: 2025-04-01
 authors:
 - danny
@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-11-13
-  updated: 2026-07-17
-  version: 12.0.0
+  updated: 2026-08-14
+  version: 12.5.0
   reviews: 8
   icon: finance.hollox.app.png
   meta: ok

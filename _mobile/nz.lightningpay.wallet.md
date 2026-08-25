@@ -8,12 +8,12 @@ android:
   appId: nz.lightningpay.wallet
   users: 500
   appCountry: us
-  updated: 2026-08-12
-  version: 3.10.2
+  updated: 2026-08-17
+  version: 3.11.2
   icon: nz.lightningpay.wallet.png
   meta: fewusers
   verdict: wip
-  developerName: Ones and Zeros Technology
+  developerName: Stacked Bitcoin
 
 ---
 

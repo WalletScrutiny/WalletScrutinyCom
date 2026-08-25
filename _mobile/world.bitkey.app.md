@@ -26,7 +26,7 @@ android:
   released: 2024-02-28
   updated: 2026-08-06
   version: 2026.11.2 (1)
-  reviews: 33
+  reviews: 32
   icon: world.bitkey.app.png
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   builds:
@@ -42,7 +42,7 @@ iphone:
   released: 2024-03-13
   updated: 2026-08-11
   version: 2026.11.2
-  reviews: 132
+  reviews: 133
   icon: world.bitkey.app.jpg
   meta: ok
   verdict: sourceavailable

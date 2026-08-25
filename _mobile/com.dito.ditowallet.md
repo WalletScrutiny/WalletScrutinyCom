@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-01-03
-  updated: 2026-05-08
-  version: 3.0.18
+  updated: 2026-08-24
+  version: 3.0.20
   reviews: 38
   icon: com.dito.ditowallet.png
   meta: ok

@@ -20,9 +20,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-25
-  updated: 2026-08-11
-  version: 3.27.0
-  reviews: 267
+  updated: 2026-08-19
+  version: 3.29.0
+  reviews: 269
   icon: com.swanbitcoin.android.png
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: '1576287352'
   appCountry: us
   released: 2022-08-25
-  updated: 2026-08-12
-  version: 3.28.0
-  reviews: 4021
+  updated: 2026-08-20
+  version: 3.29.0
+  reviews: 4032
   icon: com.swanbitcoin.app.jpg
   meta: ok
   verdict: custodial

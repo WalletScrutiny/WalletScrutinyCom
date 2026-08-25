@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-11-19
-  updated: 2026-08-05
-  version: 2.45.2
+  updated: 2026-08-16
+  version: 2.46.1
   reviews: 7
   icon: br.com.coinext.png
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: '1448731340'
   appCountry: br
   released: 2019-01-27
-  updated: 2026-08-05
-  version: 2.45.2
-  reviews: 5076
+  updated: 2026-08-19
+  version: 2.46.1
+  reviews: 5085
   icon: br.com.coinext.Coinext.jpg
   meta: ok
   verdict: custodial

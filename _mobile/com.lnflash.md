@@ -26,8 +26,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-01-07
-  updated: 2026-08-12
-  version: 0.6.5
+  updated: 2026-08-21
+  version: 0.6.7
   icon: com.lnflash.png
   meta: ok
   verdict: sourceavailable
@@ -38,8 +38,8 @@ iphone:
   idd: '6451129095'
   appCountry: jm
   released: 2024-08-08
-  updated: 2026-08-12
-  version: 0.6.5
+  updated: 2026-08-21
+  version: 0.6.7
   reviews: 0
   icon: com.lnflash.jpg
   meta: ok

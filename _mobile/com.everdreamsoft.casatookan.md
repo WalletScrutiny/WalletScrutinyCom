@@ -20,7 +20,7 @@ android:
   version: 1.2.4
   reviews: 6
   icon: com.everdreamsoft.casatookan.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: EverdreamSoft
 

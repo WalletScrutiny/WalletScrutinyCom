@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-10-18
-  updated: 2026-03-27
-  version: 2.5.28
+  updated: 2026-08-13
+  version: 2.5.29
   icon: com.zbx.app.png
   meta: ok
   verdict: custodial

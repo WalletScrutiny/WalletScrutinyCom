@@ -30,8 +30,8 @@ iphone:
   idd: '6443931838'
   appCountry: us
   released: 2022-11-09
-  updated: 2025-10-21
-  version: 6.5.2
+  updated: 2026-08-13
+  version: 6.5.4
   reviews: 270
   icon: com.fmine.zkeApp.jpg
   meta: ok

@@ -22,7 +22,7 @@ android:
   version: 7.4.0
   reviews: 196
   icon: com.cakedefi.app.png
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Bake
 iphone:

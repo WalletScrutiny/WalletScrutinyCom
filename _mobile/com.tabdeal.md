@@ -17,9 +17,9 @@ android:
   users: 500000
   appCountry: us
   released: 2021-08-14
-  updated: 2026-08-09
-  version: 7.3.1
-  reviews: 143
+  updated: 2026-08-23
+  version: 7.3.5
+  reviews: 144
   icon: com.tabdeal.png
   meta: ok
   verdict: custodial

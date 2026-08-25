@@ -29,8 +29,8 @@ iphone:
   idd: '1583801613'
   appCountry: us
   released: 2022-04-12
-  updated: 2026-06-03
-  version: 1.16.7
+  updated: 2026-08-24
+  version: 1.16.8
   reviews: 15
   icon: com.sfox.ios.jpg
   meta: ok

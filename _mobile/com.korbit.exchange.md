@@ -13,8 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-07-22
-  updated: 2026-07-31
-  version: 11.17.1
+  updated: 2026-08-24
+  version: 11.17.2
   reviews: 9
   icon: com.korbit.exchange.png
   meta: ok
@@ -25,13 +25,13 @@ iphone:
   idd: 1434511619
   appCountry: kr
   released: 2018-10-18
-  updated: 2026-07-30
-  version: 11.17.0
-  reviews: 632
+  updated: 2026-08-24
+  version: 11.17.1
+  reviews: 633
   icon: com.korbit.exchange.jpg
   meta: ok
   verdict: custodial
-  developerName: Korbit
+  developerName: Digital X Co., Ltd.
 
 ---
 

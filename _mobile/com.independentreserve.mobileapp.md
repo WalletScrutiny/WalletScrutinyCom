@@ -38,7 +38,7 @@ iphone:
   released: 2021-10-18
   updated: 2026-08-10
   version: 15.4.0
-  reviews: 2284
+  reviews: 2286
   icon: com.independentreserve.mobileapp.jpg
   meta: ok
   verdict: custodial

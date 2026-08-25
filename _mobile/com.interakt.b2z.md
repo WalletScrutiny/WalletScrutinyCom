@@ -15,8 +15,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-04-12
-  updated: 2026-06-05
-  version: 1.14.0
+  updated: 2026-08-17
+  version: 1.16.0
   icon: com.interakt.b2z.png
   meta: ok
   verdict: custodial

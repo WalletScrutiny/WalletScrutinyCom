@@ -12,7 +12,7 @@ android:
   released: 2021-09-22
   updated: 2026-02-08
   version: 2.31.0
-  reviews: 34
+  reviews: 35
   icon: app.banksocial.io.png
   meta: ok
   verdict: nosource

@@ -22,9 +22,9 @@ android:
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14252
+  reviews: 14257
   icon: com.chivo.wallet.png
-  meta: ok
+  meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador
 iphone:
@@ -36,7 +36,7 @@ iphone:
   version: 3.1.0
   reviews: 4266
   icon: com.chivo.wallet.jpg
-  meta: ok
+  meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador
 

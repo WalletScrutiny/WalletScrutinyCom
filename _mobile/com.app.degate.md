@@ -1,6 +1,6 @@
 ---
 wsId: deGate
-title: 'DeGate: Multichain wallet'
+title: 'DeGate Wallet: Crypto & Web3'
 date: 2026-05-27
 authors:
 - danny

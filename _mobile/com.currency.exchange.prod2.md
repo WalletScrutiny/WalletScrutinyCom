@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-04-15
-  updated: 2026-06-25
-  version: 2.21.2
+  updated: 2026-08-13
+  version: 2.22.2
   reviews: 2
   icon: com.currency.exchange.prod2.png
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: 1458917114
   appCountry: by
   released: 2019-04-23
-  updated: 2026-06-26
-  version: 2.21.2
-  reviews: 4503
+  updated: 2026-08-13
+  version: 2.22.2
+  reviews: 4508
   icon: com.currency.exchange.prod2.jpg
   meta: ok
   verdict: custodial

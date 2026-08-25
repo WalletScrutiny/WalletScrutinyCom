@@ -1,7 +1,6 @@
 ---
 title: Bitcoin Knots
 appId: bitcoinknots
-bitcoinOrgId: bitcoinknots
 authors:
 - danny
 released: 2009-01-04

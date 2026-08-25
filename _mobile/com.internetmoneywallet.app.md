@@ -1,6 +1,6 @@
 ---
 wsId: internetMoneyWallet
-title: Internet Money - Crypto Wallet
+title: 'Internet Money: Crypto Wallet'
 date: 2025-11-18
 authors:
 - danny
@@ -15,12 +15,12 @@ redirect_from:
 - /iphone/com.internetmoneywallet.app/
 android:
   appId: com.internetmoneywallet.app
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2022-11-12
-  updated: 2026-07-01
-  version: '3.2'
-  reviews: 89
+  updated: 2026-08-25
+  version: '4.0'
+  reviews: 88
   icon: com.internetmoneywallet.app.png
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2023-04-17
   updated: 2026-07-02
   version: '3.2'
-  reviews: 190
+  reviews: 189
   icon: com.internetmoneywallet.app.jpg
   meta: ok
   verdict: nosource

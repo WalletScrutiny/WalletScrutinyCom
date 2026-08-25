@@ -16,12 +16,12 @@ redirect_from:
 - /iphone/com.digitalshield.walletapp/
 android:
   appId: com.dswallet.app
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2025-03-19
-  updated: 2026-08-01
-  version: 2.2.2
-  reviews: 214
+  updated: 2026-08-17
+  version: 2.2.3
+  reviews: 221
   icon: com.dswallet.app.png
   meta: ok
   verdict: nosource
@@ -31,8 +31,8 @@ iphone:
   idd: '6740052686'
   appCountry: at
   released: 2025-01-16
-  updated: 2026-08-07
-  version: 2.2.2
+  updated: 2026-08-19
+  version: 2.2.3
   reviews: 0
   icon: com.digitalshield.walletapp.jpg
   meta: ok

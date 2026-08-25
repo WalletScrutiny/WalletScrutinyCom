@@ -21,7 +21,7 @@ android:
   updated: 2025-04-18
   version: 1.0.9
   icon: com.zapwallet.app.png
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Zap Technology
 iphone:
@@ -29,8 +29,8 @@ iphone:
   idd: '6474125933'
   appCountry: ng
   released: 2024-03-15
-  updated: 2026-08-11
-  version: 2.0.5
+  updated: 2026-08-18
+  version: 2.0.6
   reviews: 31
   icon: com.zapapp.jpg
   meta: ok

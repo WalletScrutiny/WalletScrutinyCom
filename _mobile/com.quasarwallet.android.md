@@ -20,7 +20,7 @@ android:
   version: '1.5'
   reviews: 10
   icon: com.quasarwallet.android.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Blaqclouds
 

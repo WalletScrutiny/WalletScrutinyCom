@@ -18,8 +18,8 @@ android:
   appCountry: tr
   released: 2021-07-16
   updated: 2026-08-07
-  version: 4.4.1
-  reviews: 21687
+  version: 4.5.0
+  reviews: 21720
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial
@@ -31,11 +31,11 @@ iphone:
   released: 2021-02-18
   updated: 2026-08-07
   version: 4.5.0
-  reviews: 178469
+  reviews: 179274
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
   verdict: custodial
-  developerName: BN TEKNOLOJİ ANONİM ŞİRKETİ
+  developerName: BINANCE TURKEY KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

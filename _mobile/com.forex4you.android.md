@@ -16,9 +16,9 @@ android:
   users: 100000
   appCountry: th
   released: 2015-10-06
-  updated: 2026-07-17
-  version: 6.26.0
-  reviews: 268
+  updated: 2026-08-09
+  version: 6.27.0
+  reviews: 269
   icon: com.forex4you.android.png
   meta: ok
   verdict: nosendreceive

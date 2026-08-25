@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2017-12-18
-  updated: 2026-08-12
-  version: 3.0.101
+  updated: 2026-08-19
+  version: 3.0.102
   reviews: 7
   icon: com.simplefx.app.png
   meta: ok

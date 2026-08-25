@@ -27,8 +27,8 @@ android:
   users: 100000
   appCountry: ae
   released: 2023-06-26
-  updated: 2026-08-04
-  version: 2.114.6
+  updated: 2026-08-21
+  version: 2.114.10
   reviews: 5
   icon: com.gemwallet.android.png
   alternativeStores:
@@ -42,9 +42,9 @@ iphone:
   idd: '6448712670'
   appCountry: us
   released: 2023-07-17
-  updated: 2026-08-09
-  version: 2.114.4
-  reviews: 356
+  updated: 2026-08-25
+  version: 2.114.10
+  reviews: 359
   icon: com.gemwallet.ios.jpg
   meta: ok
   verdict: sourceavailable

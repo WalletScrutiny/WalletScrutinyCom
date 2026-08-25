@@ -10,7 +10,7 @@ android:
   appId: com.pi42.app
   users: 100000
   appCountry: us
-  updated: 2026-08-12
+  updated: 2026-08-20
   version: 3.1.03
   icon: com.pi42.app.png
   meta: ok

@@ -21,7 +21,7 @@ android:
   updated: 2025-08-27
   version: 3.6.0
   icon: de.followmytrader.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: FELS Group GmbH
 iphone:
@@ -33,7 +33,7 @@ iphone:
   version: 3.6.0
   reviews: 0
   icon: de.followmytrader.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: FELS Group GmbH
 

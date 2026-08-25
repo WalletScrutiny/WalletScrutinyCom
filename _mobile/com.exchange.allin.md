@@ -16,7 +16,7 @@ android:
   updated: 2026-04-17
   version: 1.2.2
   icon: com.exchange.allin.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Allin Exchange
 iphone:

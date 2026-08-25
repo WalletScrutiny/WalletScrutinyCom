@@ -23,7 +23,7 @@ android:
   updated: 2025-08-25
   version: 2.4.8
   icon: flutter.android.LifePay.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ProminentWise
 iphone:

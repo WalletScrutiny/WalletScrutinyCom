@@ -15,7 +15,7 @@ android:
   released: 2020-12-10
   updated: 2026-06-25
   version: 2.21.2
-  reviews: 297
+  reviews: 299
   icon: com.currency.exchange.investsmart.png
   meta: ok
   verdict: custodial

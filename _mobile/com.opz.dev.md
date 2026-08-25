@@ -23,7 +23,7 @@ android:
   version: 2.12.1
   reviews: 31
   icon: com.opz.dev.png
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: OPZ
 iphone:

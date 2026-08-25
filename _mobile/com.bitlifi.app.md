@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-05-04
-  updated: 2025-12-22
-  version: 1.11.5
+  updated: 2026-08-19
+  version: 1.11.21
   icon: com.bitlifi.app.png
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '6448746690'
   appCountry: jp
   released: 2023-05-16
-  updated: 2025-12-23
-  version: 1.11.5
+  updated: 2026-08-22
+  version: 1.11.21
   reviews: 0
   icon: com.bitlifi.app.jpg
   meta: ok

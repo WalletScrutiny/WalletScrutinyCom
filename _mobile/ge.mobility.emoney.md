@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2015-08-22
-  updated: 2026-07-29
-  version: 11.6.0
+  updated: 2026-08-13
+  version: 11.6.1
   reviews: 33
   icon: ge.mobility.emoney.png
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '1084288470'
   appCountry: ge
   released: 2020-04-19
-  updated: 2026-08-10
-  version: 11.6.0
-  reviews: 9
+  updated: 2026-08-17
+  version: 11.6.1
+  reviews: 10
   icon: ge.smatex.eMoney.jpg
   meta: ok
   verdict: custodial

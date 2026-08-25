@@ -1,5 +1,5 @@
 ---
-title: 'Utorg: Crypto Wallet App'
+title: 'Utapp: Crypto Wallet & Card'
 date: 2025-12-24
 authors:
 - danny

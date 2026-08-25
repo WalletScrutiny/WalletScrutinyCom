@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-01-28
-  updated: 2026-07-20
-  version: 4.0.15
+  updated: 2026-08-11
+  version: 4.0.16
   icon: io.tux.wallet.png
   meta: ok
   verdict: nosource
@@ -27,8 +27,8 @@ iphone:
   idd: '1495945761'
   appCountry: kw
   released: 2020-02-04
-  updated: 2026-07-22
-  version: 4.0.15
+  updated: 2026-08-18
+  version: 4.0.16
   reviews: 0
   icon: net.tuxglobal.wallet.jpg
   meta: ok

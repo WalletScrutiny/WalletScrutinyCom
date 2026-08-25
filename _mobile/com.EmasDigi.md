@@ -11,7 +11,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2018-01-21
-  updated: 2026-08-03
+  updated: 2026-08-24
   version: 7.6.3
   reviews: 123
   icon: com.EmasDigi.png

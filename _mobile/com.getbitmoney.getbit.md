@@ -29,7 +29,7 @@ iphone:
   released: 2025-09-08
   updated: 2026-06-27
   version: 2.0.67
-  reviews: 14
+  reviews: 15
   icon: in.getbitmoney.getbit.jpg
   meta: ok
   verdict: custodial

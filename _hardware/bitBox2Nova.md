@@ -1,13 +1,13 @@
 ---
 title: BitBox02 Nova
 appId: bitBox2Nova
-bitcoinOrgId: bitbox
+bitcoinOrgId: bitboxnova
 authors:
 - danny
 released: 2025-06-21
 discontinued: 
-updated: 2026-07-09
-version: 9.26.4
+updated: 2026-08-17
+version: 9.26.5
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55

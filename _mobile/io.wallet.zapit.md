@@ -21,7 +21,7 @@ android:
   version: 0.9.67
   reviews: 12
   icon: io.wallet.zapit.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Zapit Web3 Platform
 iphone:

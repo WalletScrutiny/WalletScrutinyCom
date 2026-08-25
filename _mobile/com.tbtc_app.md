@@ -25,7 +25,7 @@ android:
   version: 0.1.37
   reviews: 20
   icon: com.tbtc_app.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: The Bitcoin Company
 iphone:

@@ -22,7 +22,7 @@ android:
   released: 2020-10-26
   updated: 2026-07-31
   version: 10.6.6
-  reviews: 6
+  reviews: 7
   icon: com.credits.Wallet.png
   meta: ok
   verdict: custodial

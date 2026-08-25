@@ -29,7 +29,7 @@ android:
   released: 2015-05-01
   updated: 2026-08-10
   version: 6.29.1
-  reviews: 111
+  reviews: 112
   icon: com.coinspace.app.png
   meta: ok
   verdict: sourceavailable
@@ -43,7 +43,7 @@ iphone:
   released: 2015-12-14
   updated: 2026-07-03
   version: 6.29.0
-  reviews: 496
+  reviews: 499
   icon: com.coinspace.wallet.jpg
   meta: ok
   verdict: sourceavailable

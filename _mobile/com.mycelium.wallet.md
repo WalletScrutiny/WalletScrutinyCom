@@ -50,7 +50,7 @@ iphone:
   released: 2014-12-17
   updated: 2026-08-06
   version: '2.10'
-  reviews: 5
+  reviews: 7
   icon: com.mycelium.wallet-ios.jpg
   meta: ok
   verdict: sourceavailable

@@ -34,7 +34,7 @@ iphone:
   released: 2022-06-15
   updated: 2026-08-03
   version: 11.1.1
-  reviews: 2
+  reviews: 3
   icon: com.kingdom.TheKingdomBank.jpg
   meta: ok
   verdict: custodial

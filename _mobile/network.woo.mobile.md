@@ -29,8 +29,8 @@ iphone:
   idd: '1576648404'
   appCountry: ph
   released: 2021-09-17
-  updated: 2026-05-22
-  version: 3.66.1
+  updated: 2026-08-17
+  version: 3.66.2
   reviews: 7
   icon: network.woo.mobile.jpg
   meta: ok

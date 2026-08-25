@@ -17,7 +17,7 @@ android:
   users: 5000
   appCountry: us
   released: 2021-11-13
-  updated: 2026-02-17
+  updated: 2026-08-23
   version: 1.2.3
   reviews: 4
   icon: com.kochure.kochureApp.png
@@ -31,7 +31,7 @@ iphone:
   released: 2021-11-22
   updated: 2024-07-26
   version: 1.1.6
-  reviews: 235
+  reviews: 236
   icon: com.kochure.kochure-app.jpg
   meta: obsolete
   verdict: custodial

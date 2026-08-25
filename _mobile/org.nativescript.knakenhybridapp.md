@@ -31,7 +31,7 @@ iphone:
   version: 5.11.1
   reviews: 245
   icon: nl.knaken.ios.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Knaken Cryptohandel B.V.
 

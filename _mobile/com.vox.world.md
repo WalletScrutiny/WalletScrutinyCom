@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-07-09
-  updated: 2026-08-10
-  version: 2.0.6
+  updated: 2026-08-14
+  version: 2.0.7
   icon: com.vox.world.png
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '6670600403'
   appCountry: us
   released: 2024-10-10
-  updated: 2026-08-04
-  version: 2.0.5
+  updated: 2026-08-20
+  version: 2.0.7
   reviews: 6
   icon: com.voox.www.jpg
   meta: ok

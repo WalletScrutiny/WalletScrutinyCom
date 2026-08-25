@@ -22,9 +22,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-12-29
-  updated: 2026-08-07
-  version: 6.100.2
-  reviews: 8324
+  updated: 2026-08-21
+  version: 6.102.0
+  reviews: 8339
   icon: com.uphold.wallet.png
   meta: ok
   verdict: custodial
@@ -34,9 +34,9 @@ iphone:
   idd: 1101145849
   appCountry: us
   released: 2016-04-19
-  updated: 2026-08-08
-  version: 6.101.1
-  reviews: 89846
+  updated: 2026-08-24
+  version: 6.103.0
+  reviews: 90080
   icon: com.uphold.wallet.ios.jpg
   meta: ok
   verdict: custodial

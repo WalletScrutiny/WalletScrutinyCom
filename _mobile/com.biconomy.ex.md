@@ -21,7 +21,7 @@ android:
   released: 2020-01-14
   updated: 2026-08-11
   version: 2.4.14
-  reviews: 160
+  reviews: 162
   icon: com.biconomy.ex.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2019-11-06
   updated: 2026-06-01
   version: 2.4.10
-  reviews: 150
+  reviews: 149
   icon: com.biconomy.Innovation.jpg
   meta: ok
   verdict: custodial

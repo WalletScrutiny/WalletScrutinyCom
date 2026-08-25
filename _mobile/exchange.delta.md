@@ -32,7 +32,7 @@ iphone:
   version: 1.8.1
   reviews: 0
   icon: exchange.delta.app.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Bit Protocol Ltd.
 

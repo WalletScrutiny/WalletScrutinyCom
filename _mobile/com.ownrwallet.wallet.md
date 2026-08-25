@@ -21,7 +21,7 @@ android:
   released: 2019-05-20
   updated: 2023-09-20
   version: 1.72.0
-  reviews: 107
+  reviews: 106
   icon: com.ownrwallet.wallet.png
   meta: obsolete
   verdict: nosource

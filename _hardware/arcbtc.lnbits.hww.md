@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-07-22
 discontinued: 
-updated: 2026-08-08
-version: 0.7.1
+updated: 2026-08-22
+version: 0.8.2
 binaries: 
 dimensions: 
 weight: 

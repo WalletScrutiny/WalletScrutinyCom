@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-02-10
-  updated: 2026-07-23
-  version: 4.44.4
+  updated: 2026-08-21
+  version: 4.45.3
   reviews: 68
   icon: com.primexbt.trade.png
   meta: ok

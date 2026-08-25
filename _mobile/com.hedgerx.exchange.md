@@ -7,7 +7,7 @@ redirect_from:
 - /iphone/com.hedgerx.Innovation/
 android:
   appId: com.hedgerx.exchange
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2025-12-13
   updated: 2026-07-04

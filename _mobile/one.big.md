@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-10-30
-  updated: 2026-07-16
-  version: 2.6.530
+  updated: 2026-08-19
+  version: 2.6.701
   reviews: 55
   icon: one.big.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1485385044'
   appCountry: us
   released: 2019-11-06
-  updated: 2026-08-06
-  version: 2.6.531
+  updated: 2026-08-22
+  version: 2.6.700
   reviews: 112
   icon: base.big.one.jpg
   meta: ok

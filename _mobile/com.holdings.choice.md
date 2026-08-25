@@ -20,7 +20,7 @@ android:
   released: 2022-04-04
   updated: 2026-08-05
   version: 2.27.0
-  reviews: 30
+  reviews: 31
   icon: com.holdings.choice.png
   meta: ok
   verdict: custodial

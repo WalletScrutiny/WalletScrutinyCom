@@ -34,7 +34,7 @@ iphone:
   version: 1.5.16
   reviews: 1
   icon: de.fuf.bitbucks-io.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: FUF // Frank und Freunde
 

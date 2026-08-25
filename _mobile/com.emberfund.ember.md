@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-01-24
-  updated: 2026-01-21
+  updated: 2026-08-18
   version: '38.0'
-  reviews: 2674
+  reviews: 2700
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2018-08-04
   updated: 2026-05-27
   version: '38.2'
-  reviews: 17756
+  reviews: 18102
   icon: com.emberfund.ember.jpg
   meta: ok
   verdict: nosource

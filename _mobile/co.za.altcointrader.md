@@ -28,7 +28,7 @@ iphone:
   released: 2020-02-21
   updated: 2020-02-22
   version: '1.0'
-  reviews: 83
+  reviews: 84
   icon: za.co.altcointrader.ios.jpg
   meta: obsolete
   verdict: custodial

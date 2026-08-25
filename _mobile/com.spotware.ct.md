@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-02-10
-  updated: 2026-08-12
-  version: 5.10.150
-  reviews: 390
+  updated: 2026-08-17
+  version: 5.10.160
+  reviews: 393
   icon: com.spotware.ct.png
   meta: ok
   verdict: nosendreceive
@@ -30,9 +30,9 @@ iphone:
   idd: '767428811'
   appCountry: my
   released: 2013-12-05
-  updated: 2026-08-13
-  version: 5.10.150
-  reviews: 820
+  updated: 2026-08-18
+  version: 5.10.160
+  reviews: 821
   icon: com.spotware.ct.jpg
   meta: ok
   verdict: nosendreceive

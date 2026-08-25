@@ -22,9 +22,9 @@ android:
   users: 5000
   appCountry: us
   released: 2024-09-16
-  updated: 2026-06-18
-  version: 2.0.2
-  reviews: 22
+  updated: 2026-08-17
+  version: 2.1.0
+  reviews: 23
   icon: com.getalby.mobile.png
   meta: ok
   verdict: sourceavailable
@@ -35,9 +35,9 @@ iphone:
   idd: '6471335774'
   appCountry: us
   released: 2024-09-18
-  updated: 2026-06-23
-  version: 2.0.2
-  reviews: 24
+  updated: 2026-08-20
+  version: 2.1.0
+  reviews: 25
   icon: com.getalby.mobile.jpg
   meta: ok
   verdict: sourceavailable

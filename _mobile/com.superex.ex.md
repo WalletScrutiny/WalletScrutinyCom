@@ -18,7 +18,7 @@ android:
   released: 2022-03-23
   updated: 2026-07-31
   version: 2.9.66
-  reviews: 252
+  reviews: 254
   icon: com.superex.ex.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: '1601589888'
   appCountry: us
   released: 2022-01-04
-  updated: 2026-08-08
-  version: 2.9.37
+  updated: 2026-08-14
+  version: 2.9.38
   reviews: 182
   icon: com.superex.ex.jpg
   meta: ok

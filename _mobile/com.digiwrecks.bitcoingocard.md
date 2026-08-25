@@ -8,10 +8,10 @@ android:
   users: 100
   appCountry: us
   released: 2022-02-01
-  updated: 2025-07-29
-  version: 1.1.7
+  updated: 2026-08-15
+  version: 1.1.9
   icon: com.digiwrecks.bitcoingocard.png
-  meta: stale
+  meta: fewusers
   verdict: wip
   developerName: Die SW-Factory GmbH
 

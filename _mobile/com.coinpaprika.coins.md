@@ -27,7 +27,7 @@ android:
   version: 1.17.18
   reviews: 94
   icon: com.coinpaprika.coins.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Coinpaprika
 iphone:
@@ -37,7 +37,7 @@ iphone:
   released: 2019-12-03
   updated: 2025-04-10
   version: 2.8.19
-  reviews: 979
+  reviews: 980
   icon: com.coinpaprika.Coins.jpg
   meta: stale
   verdict: nosource

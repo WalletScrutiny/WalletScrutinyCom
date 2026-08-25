@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-01-04
-  updated: 2026-08-10
-  version: 2026.6.5
+  updated: 2026-08-20
+  version: 2026.8.7
   reviews: 18
   icon: com.buda.crypto.jpg
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: 1321460860
   appCountry: ar
   released: 2018-01-04
-  updated: 2026-08-12
-  version: 2026.8.7
+  updated: 2026-08-20
+  version: 2026.8.10
   reviews: 1
   icon: com.buda.crypto.jpg
   meta: ok

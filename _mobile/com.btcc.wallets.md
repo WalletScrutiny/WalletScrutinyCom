@@ -14,9 +14,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-16
-  updated: 2026-07-28
-  version: 3.5.44
-  reviews: 16
+  updated: 2026-08-20
+  version: 3.5.45
+  reviews: 17
   icon: com.btcc.wallets.png
   meta: ok
   verdict: custodial
@@ -26,9 +26,9 @@ iphone:
   idd: '6470782742'
   appCountry: us
   released: 2023-11-20
-  updated: 2026-08-07
-  version: 3.5.44
-  reviews: 32
+  updated: 2026-08-24
+  version: 3.5.45
+  reviews: 33
   icon: com.btcc.wallets.jpg
   meta: ok
   verdict: custodial

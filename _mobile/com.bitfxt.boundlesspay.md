@@ -19,7 +19,7 @@ android:
   released: 2021-09-19
   updated: 2026-07-07
   version: 2.6.7
-  reviews: 15
+  reviews: 14
   icon: com.bitfxt.boundlesspay.png
   meta: ok
   verdict: custodial

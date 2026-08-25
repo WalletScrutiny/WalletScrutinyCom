@@ -9,9 +9,9 @@ iphone:
   idd: '6502897143'
   appCountry: us
   released: 2024-08-18
-  updated: 2026-08-05
-  version: 3.4.6
-  reviews: 2489
+  updated: 2026-08-14
+  version: 3.4.7
+  reviews: 2499
   icon: com.deltahub.spectras.jpg
   meta: ok
   verdict: custodial

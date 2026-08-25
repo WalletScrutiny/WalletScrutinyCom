@@ -18,7 +18,7 @@ android:
   appCountry: gb
   released: 2021-01-11
   updated: 2026-08-12
-  version: '1.261'
+  version: '1.265'
   reviews: 38
   icon: com.gaincapital.forex.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1506581586
   appCountry: gb
   released: 2020-10-14
-  updated: 2026-08-12
-  version: 1.265.8084
-  reviews: 253
+  updated: 2026-08-21
+  version: 1.266.8088
+  reviews: 255
   icon: com.gaincapital.forex.jpg
   meta: ok
   verdict: nosendreceive

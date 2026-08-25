@@ -11,10 +11,10 @@ redirect_from:
 - /android/com.coinstick.myapp/
 android:
   appId: com.coinstick.myapp
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2023-01-23
-  updated: 2026-07-23
+  updated: 2026-08-19
   version: 1.0.0
   reviews: 6
   icon: com.coinstick.myapp.png

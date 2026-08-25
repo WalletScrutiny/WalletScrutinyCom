@@ -21,8 +21,8 @@ android:
   users: 5000
   appCountry: pl
   released: 2021-09-21
-  updated: 2026-07-31
-  version: 3.3.3
+  updated: 2026-08-20
+  version: 3.3.4
   icon: com.bitcoinsuisse.online.png
   meta: ok
   verdict: custodial

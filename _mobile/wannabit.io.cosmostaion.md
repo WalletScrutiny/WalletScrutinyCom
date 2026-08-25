@@ -24,7 +24,7 @@ android:
   released: 2019-03-17
   updated: 2026-06-17
   version: 1.10.51
-  reviews: 136
+  reviews: 135
   icon: wannabit.io.cosmostaion.png
   meta: ok
   verdict: sourceavailable

@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-11-24
-  updated: 2026-08-10
-  version: 3.0.25
+  updated: 2026-08-24
+  version: 3.0.31
   reviews: 49
   icon: com.galoyapp.png
   meta: ok
@@ -36,8 +36,8 @@ iphone:
   idd: '1531383905'
   appCountry: ng
   released: 2020-11-11
-  updated: 2026-07-30
-  version: 3.0.16
+  updated: 2026-08-17
+  version: 3.0.25
   reviews: 68
   icon: io.galoy.bitcoinbeach.jpg
   meta: ok
