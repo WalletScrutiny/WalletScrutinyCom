@@ -5,6 +5,7 @@ node_modules/
 .jekyll-cache/
 .ruby-version
 .history
+.gems/*
 .settings/
 .project
 .bundle/
