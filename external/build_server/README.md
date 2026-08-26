@@ -123,7 +123,7 @@ sudo visudo
 
 Add the following line to the end of the file:
 ```bash
-build-server ALL=(ALL) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh
+build-server ALL=(root) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh *
 ```
 and save the file.
 
