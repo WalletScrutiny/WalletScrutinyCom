@@ -16,8 +16,10 @@ export function createGitHubRequest(token) {
   const baseURL = 'https://api.github.com';
 
   async function get(url, { params = {} } = {}) {
-    const query = new URLSearchParams(params).toString();
-    const fullUrl = query ? `${baseURL}${url}?${query}` : `${baseURL}${url}`;
+    const fullUrl = new URL(baseURL + url);
+    for (const [key, value] of Object.entries(params)) {
+      fullUrl.searchParams.append(key, value);
+    }
     let response;
     try {
       response = await fetch(fullUrl, {
