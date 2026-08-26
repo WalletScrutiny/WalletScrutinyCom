@@ -1,14 +1,11 @@
 import fs from "fs";
 import path from "path";
-import WebSocket from "ws";
 import { eventRelayUrls, wsBotPublicKey, verificationKind } from "../../src/nostr-constants.mjs";
 import {
-  setupWebSocketForNode,
   connectNostr,
   fetchEvents,
 } from "../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 const BASE_DIR = path.join(process.cwd(), "backup", "ws-bot-nostr-pubkey-events");
 

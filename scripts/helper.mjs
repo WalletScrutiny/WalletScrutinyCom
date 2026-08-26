@@ -3,7 +3,6 @@ import https from 'https';
 import { fileTypeFromFile } from 'file-type';
 import path from 'path';
 import yaml from 'js-yaml';
-import dateFormat from 'dateformat';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
@@ -164,7 +163,7 @@ function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
 
 function dateOrEmpty (d) {
   return d
-    ? dateFormat(d, 'yyyy-mm-dd')
+    ? new Date(d).toISOString().slice(0, 10)
     : '';
 }
 
@@ -250,6 +249,47 @@ function writeResult (folder, header, body) {
   fs
     .createWriteStream(`${folder}${header.appId}.md`)
     .write(getResult(header, body));
+}
+
+export function parseCliFlags (argv, { boolean = [], string = [], alias = {} } = {}) {
+  const values = {};
+  const canonical = key => {
+    if (boolean.includes(key) || string.includes(key)) return key;
+    for (const [short, long] of Object.entries(alias)) {
+      if (key === short || key === long) return long;
+    }
+    return null;
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (!arg.startsWith('-')) continue;
+    const key = canonical(arg.replace(/^-{1,2}/, ''));
+    if (!key) continue;
+    values[key] = string.includes(key) ? argv[++i] : true;
+  }
+  return values;
+}
+
+export class Semaphore {
+  constructor (concurrency) {
+    this._free = concurrency;
+    this._queue = [];
+  }
+
+  acquire () {
+    const grant = () => {
+      this._free--;
+      return [this._free, () => {
+        this._free++;
+        if (this._queue.length > 0) {
+          this._queue.shift()();
+        }
+      }];
+    };
+    return this._free > 0
+      ? Promise.resolve(grant())
+      : new Promise(resolve => this._queue.push(() => resolve(grant())));
+  }
 }
 
 export default {

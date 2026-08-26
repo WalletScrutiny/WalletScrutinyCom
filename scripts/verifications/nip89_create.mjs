@@ -1,7 +1,5 @@
-import WebSocket from "ws";
 import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls, wsBotPublicKey } from "../../src/nostr-constants.mjs";
 import {
-  setupWebSocketForNode,
   connectNostr,
   createEventDraft,
   signEvent,
@@ -9,7 +7,6 @@ import {
   setPrivateKey,
 } from "../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 const dIdentifier = Math.floor(Math.random() * 10000000000000);
 

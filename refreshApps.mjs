@@ -1,14 +1,13 @@
 import appStore from './scripts/helperAppStore.mjs';
 import playStore from './scripts/helperPlayStore.mjs';
 import fs from 'fs';
-import dateFormat from 'dateformat';
 import readline from 'readline';
 import yaml from 'js-yaml';
 const defunctsFile = '_data/defunct.yaml';
 process.env.TZ = 'UTC'; // fix timezone issues
 
 async function refresh (markRemoved, apps) {
-  const today = dateFormat(new Date(), 'yyyy-mm-dd');
+  const today = new Date().toISOString().slice(0, 10);
   const fileContents = fs.readFileSync(defunctsFile, 'utf8');
   const data = yaml.load(fileContents, { schema: yaml.FAILSAFE_SCHEMA });
   for (const key in data) {

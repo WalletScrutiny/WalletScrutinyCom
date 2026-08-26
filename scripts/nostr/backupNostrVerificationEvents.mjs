@@ -1,15 +1,12 @@
 import fs from "fs";
 import path from "path";
-import WebSocket from "ws";
 import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, eventRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
 import {
-  setupWebSocketForNode,
   connectNostr,
   fetchEvents,
 } from "../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 const KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
 const VERIFICATION_KINDS = KINDS.filter(kind => kind !== opinionKind);

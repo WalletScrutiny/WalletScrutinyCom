@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import WebSocket from 'ws';
-import { setupWebSocketForNode, disconnectNostr } from '../../src/nostr-client.mjs';
+import { disconnectNostr } from '../../src/nostr-client.mjs';
 import {
   connectToNostr,
   getAllVerifications
@@ -32,8 +31,6 @@ import {
   BUILD_DIR_PREFIX,
   FEATURE_REFRESH_APPS
 } from './config/config.mjs';
-
-setupWebSocketForNode(WebSocket);
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');

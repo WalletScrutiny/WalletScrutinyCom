@@ -6,7 +6,7 @@
  */
 
 import path from 'path';
-import minimist from 'minimist';
+import { parseCliFlags } from './helper.mjs';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
 import {
@@ -29,7 +29,7 @@ import {
 } from './github_common.mjs';
 
 // Parse command line arguments
-const args = minimist(process.argv.slice(2), {
+const args = parseCliFlags(process.argv.slice(2), {
   boolean: ['debug', 'help', 'dry-run'],
   string: ['github-token'],
   alias: {

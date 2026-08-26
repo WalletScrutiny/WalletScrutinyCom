@@ -1,14 +1,11 @@
 import fs from "fs";
-import WebSocket from "ws";
 import {
-  setupWebSocketForNode,
   connectNostr,
   signEvent,
   publishEvent,
   setPrivateKey,
 } from "../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 const RELAYS = [
   "wss://relay.nostr.info/",

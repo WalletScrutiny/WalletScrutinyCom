@@ -1,6 +1,5 @@
 import fs from 'fs/promises';
 import path from 'path';
-import axios from 'axios';
 import pLimit from 'p-limit';
 import helper from './helper.mjs';
 
@@ -60,8 +59,14 @@ async function isAppAvailable (appId, countryCode, retryCount = 0) {
   const url = `https://itunes.apple.com/lookup?id=${appId}&country=${countryCode}`;
   try {
     await new Promise((resolve) => setTimeout(resolve, 1000)); // 1 second delay between API calls
-    const response = await axios.get(url);
-    return response.data.resultCount > 0;
+    const response = await fetch(url);
+    if (!response.ok) {
+      const error = new Error(`Request failed with status code ${response.status}`);
+      error.response = { status: response.status };
+      throw error;
+    }
+    const data = await response.json();
+    return data.resultCount > 0;
   } catch (error) {
     if (error.response && error.response.status === 403 && retryCount < maxRetries) {
       const delay = baseDelay * Math.pow(2, retryCount);

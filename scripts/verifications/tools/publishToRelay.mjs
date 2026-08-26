@@ -8,7 +8,6 @@
  * The relay receives ["EVENT", signedEvent] and responds with ["OK", ...].
  */
 
-import WebSocket from "ws";
 import fs from "fs";
 import path from "path";
 
