@@ -7,14 +7,11 @@
  *   node scripts/verifications/tools/checkRelay.mjs  (checks all relays in nostr-constants.mjs)
  */
 
-import WebSocket from "ws";
 import { explicitRelayUrls, verificationKind } from "../../../src/nostr-constants.mjs";
 import {
-  setupWebSocketForNode,
   withEphemeralPool,
 } from "../../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 const CONNECT_TIMEOUT_MS = 5000;
 const FETCH_TIMEOUT_MS = 20000;

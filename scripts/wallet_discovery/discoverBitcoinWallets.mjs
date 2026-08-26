@@ -2,7 +2,7 @@ import gplay from 'google-play-scraper';
 import { app as appleApp, search } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import yaml from 'js-yaml';
-import { Semaphore } from 'async-mutex';
+import { Semaphore } from '../helper.mjs';
 
 const discoveredWalletsLogFile = 'bitcoin-wallet-discovery.yaml';
 

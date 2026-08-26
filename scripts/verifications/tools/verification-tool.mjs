@@ -4,18 +4,11 @@ import { UIRenderer } from './ui-renderer.mjs';
 import { AnalysisEngine } from './analysis-engine.mjs';
 import { generateMissingEventsReport } from './report-generator.mjs';
 import { publishToRelay, countBackupEvents, KIND_NAMES } from './publishToRelay.mjs';
-import WebSocket from "ws";
 import {
-  setupWebSocketForNode,
   withEphemeralPool,
 } from "../../../src/nostr-client.mjs";
-
-setupWebSocketForNode(WebSocket);
-import WebSocket from "ws";
 import fs from "fs";
 import path from "path";
-
-global.WebSocket = WebSocket;
 
 class VerificationTool {
   constructor() {

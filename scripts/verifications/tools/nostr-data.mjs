@@ -1,14 +1,11 @@
 
 import fs from "fs";
 import path from "path";
-import WebSocket from "ws";
 import { explicitRelayUrls, verificationKind } from "../../../src/nostr-constants.mjs";
 import {
-  setupWebSocketForNode,
   withEphemeralPool,
 } from "../../../src/nostr-client.mjs";
 
-setupWebSocketForNode(WebSocket);
 
 /**
  * Loads kind 30301 verification events from the local backup directory.

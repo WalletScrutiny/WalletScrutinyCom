@@ -11,7 +11,6 @@
  */
 
 import {
-  setupWebSocketForNode,
   connectNostr,
   fetchEvents,
   getPool,
@@ -19,7 +18,6 @@ import {
 } from "../../src/nostr-client.mjs";
 import fs from "fs";
 import path from "path";
-import WebSocket from "ws";
 import {
   eventRelayUrls,
   assetRegistrationKind,
@@ -329,8 +327,6 @@ async function main() {
 
   const uniqueIds = [...new Set(backupEvents.map(event => event.id))];
   console.log(`Loaded ${backupEvents.length} backup event file(s) (${uniqueIds.length} unique ids).`);
-
-  setupWebSocketForNode(WebSocket);
 
   console.log("\nConnecting to relays...");
   await connectNostr({ relayUrls: eventRelayUrls, connectTimeoutMs: CONNECT_TIMEOUT_MS });

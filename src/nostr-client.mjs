@@ -1,4 +1,4 @@
-import { SimplePool, useWebSocketImplementation } from 'nostr-tools/pool';
+import { SimplePool } from 'nostr-tools/pool';
 import { finalizeEvent, getPublicKey } from 'nostr-tools/pure';
 import { hexToBytes } from '@noble/hashes/utils.js';
 import { bech32 } from '@scure/base';
@@ -27,10 +27,6 @@ const relayListeners = {
   onDisconnect: null,
   onError: null,
 };
-
-export function setupWebSocketForNode(WebSocketImpl) {
-  useWebSocketImplementation(WebSocketImpl);
-}
 
 function normalizePrivateKey(key) {
   if (!key) {

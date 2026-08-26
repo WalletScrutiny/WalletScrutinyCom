@@ -3,7 +3,7 @@ import yaml from 'js-yaml';
 import readline from 'readline';
 import gplay from 'google-play-scraper';
 import { app } from '@perttu/app-store-scraper';
-import { Semaphore } from 'async-mutex';
+import { Semaphore } from '../helper.mjs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 

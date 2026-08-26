@@ -1,7 +1,7 @@
 import gplay from 'google-play-scraper';
 import fs from 'fs/promises';
 import path from 'path';
-import helper from './helper.mjs';
+import helper, { Semaphore } from './helper.mjs';
 import {
   MOBILE_DIR,
   loadMobileFromFile,
@@ -12,7 +12,6 @@ import {
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
 } from './mobileWalletStore.mjs';
-import { Semaphore } from 'async-mutex';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 const sem = new Semaphore(50);

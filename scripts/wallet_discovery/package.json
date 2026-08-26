@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "@perttu/app-store-scraper": "^2.1.0",
-    "async-mutex": "^0.5.0",
     "google-play-scraper": "github:facundoolano/google-play-scraper#df5df78730e6a47b64ed87128596666f04052db2",
     "js-yaml": "^4.3.1",
     "readline": "^1.3.0"
