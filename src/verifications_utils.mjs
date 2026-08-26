@@ -189,16 +189,14 @@ const getWSClientTags = function() {
 }
 
 async function publishNdkEvent(eventDraft, eventType = 'event') {
-  try {
-    await ensureSignerReady();
-    const signed = await signEvent(eventDraft);
-    const { successful } = await publishEvent(signed);
-    console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
-    return signed;
-  } catch (error) {
-    console.error(`Error publishing ${eventType} to relays`, error);
-    return null;
+  await ensureSignerReady();
+  const signed = await signEvent(eventDraft);
+  const { successful } = await publishEvent(signed);
+  if (successful < 1) {
+    throw new Error(`Failed to publish ${eventType} to any relay`);
   }
+  console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
+  return signed;
 }
 
 function createNdkEvent(kind, content, tags = [], createdAt = null) {
@@ -265,8 +263,7 @@ const createAssetRegistration = async function ({
   const ndkEvent = createNdkEvent(assetRegistrationKind, description, tags, createdAt);
   eventSanitize(ndkEvent);
 
-  const published = await publishNdkEvent(ndkEvent, 'asset registration');
-  return published ?? ndkEvent;
+  return await publishNdkEvent(ndkEvent, 'asset registration');
 }
 
 const createAssetBundleRegistration = async function ({
@@ -315,8 +312,7 @@ const createAssetBundleRegistration = async function ({
   const ndkEvent = createNdkEvent(assetBundleRegistrationKind, description, tags, createdAt);
   eventSanitize(ndkEvent);
 
-  const published = await publishNdkEvent(ndkEvent, 'asset bundle registration');
-  return published ?? ndkEvent;
+  return await publishNdkEvent(ndkEvent, 'asset bundle registration');
 }
 
 const createVerification = async function ({
@@ -444,7 +440,7 @@ const createVerification = async function ({
     await deleteCachedEventById(draftVerificationEventId);
   }
 
-  return published ?? ndkEvent;
+  return published;
 }
 
 const REPORT_REASONS = new Set(['spam', 'incorrect']);
@@ -564,8 +560,7 @@ const createVerificationReport = async function ({
   const body = `WalletScrutiny.com admin report: verification ${verificationEventId} as ${reason}.`;
   const ndkEvent = createNdkEvent(verificationReportKind, body, tags);
   eventSanitize(ndkEvent);
-  const published = await publishNdkEvent(ndkEvent, 'verification report');
-  const reportEvent = published ?? ndkEvent;
+  const reportEvent = await publishNdkEvent(ndkEvent, 'verification report');
   await saveEventsToIDB([reportEvent]).catch(e => {
     console.warn('Failed to save verification report to IDB', e);
   });
@@ -729,7 +724,7 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
 
   try {
     const published = await publishNdkEvent(ndkEvent, `file ${fileName}`);
-    return { success: true, eventId: published?.id, fileName: fileName };
+    return { success: true, eventId: published.id, fileName: fileName };
   } catch (error) {
     console.error(`Error uploading file ${fileName}`, error);
     return { success: false, error: error, fileName: fileName };
@@ -1740,7 +1735,7 @@ const createNostrNote = async function (message) {
 
   const ndkEvent = createNdkEvent(1, message);
   const published = await publishNdkEvent(ndkEvent, 'note');
-  return published?.id;
+  return published.id;
 }
 
 const createNostrCommentToVerification = async function(verificationKey, comment, commentAuthorPubkeys, messageCounter) {
@@ -1754,7 +1749,7 @@ const createNostrCommentToVerification = async function(verificationKey, comment
   ndkEvent.tags.push(['d', verificationKey + '-' + messageCounter.toString()]);
 
   const published = await publishNdkEvent(ndkEvent, 'comment to verification');
-  return published?.id;
+  return published.id;
 }
 
 const getCommentsForVerification = async function(verificationKey) {
