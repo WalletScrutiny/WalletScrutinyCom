@@ -88,7 +88,7 @@ function ensureBlossomModals() {
   if (!document.getElementById('attachmentPreviewModal')) {
     document.body.insertAdjacentHTML('beforeend', `
     <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
+      <div style="background-color: #fefefe; margin: 0 auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
           <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
           <div style="display: flex; align-items: center; gap: 15px;">
