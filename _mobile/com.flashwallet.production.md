@@ -23,7 +23,7 @@ android:
   icon: com.flashwallet.production.jpg
   meta: ok
   verdict: nosource
-  developerName: Flash Wallet
+  developerName: Flash Technologies LLC
 iphone:
   appId: flashwallet.org.production
   idd: '6461013442'

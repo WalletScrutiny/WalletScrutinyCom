@@ -31,7 +31,7 @@ iphone:
   released: 2013-10-29
   updated: 2026-08-11
   version: 3.191.0
-  reviews: 8930
+  reviews: 8935
   icon: com.skrill.ios.SkrillPayments.jpg
   meta: ok
   verdict: nosendreceive

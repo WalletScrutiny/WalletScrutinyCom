@@ -24,7 +24,7 @@ android:
   released: 2017-10-01
   updated: 2026-08-22
   version: 26.34.16
-  reviews: 21401
+  reviews: 21405
   icon: com.wallet.crypto.trustapp.png
   meta: ok
   verdict: nosource
@@ -36,7 +36,7 @@ iphone:
   released: 2017-09-27
   updated: 2026-08-24
   version: 26.34.11
-  reviews: 198510
+  reviews: 198535
   icon: com.sixdays.trust.jpg
   meta: ok
   verdict: nosource

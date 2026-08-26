@@ -31,8 +31,8 @@ iphone:
   idd: 1469351696
   appCountry: jp
   released: 2019-07-25
-  updated: 2026-07-31
-  version: 9.0.0
+  updated: 2026-08-25
+  version: 9.0.1
   reviews: 11
   icon: com.youhodler.youhodler.jpg
   meta: ok

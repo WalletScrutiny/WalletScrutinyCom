@@ -32,7 +32,7 @@ iphone:
   released: 2013-12-05
   updated: 2026-08-18
   version: 5.10.160
-  reviews: 821
+  reviews: 823
   icon: com.spotware.ct.jpg
   meta: ok
   verdict: nosendreceive

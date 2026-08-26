@@ -22,7 +22,7 @@ android:
   released: 2017-10-25
   updated: 2026-08-22
   version: 3.19.8
-  reviews: 17017
+  reviews: 17019
   icon: com.binance.dev.png
   meta: ok
   verdict: custodial
@@ -34,7 +34,7 @@ iphone:
   released: 2018-10-06
   updated: 2026-08-21
   version: 3.19.4
-  reviews: 53275
+  reviews: 53298
   icon: com.czzhao.binance.jpg
   meta: ok
   verdict: custodial

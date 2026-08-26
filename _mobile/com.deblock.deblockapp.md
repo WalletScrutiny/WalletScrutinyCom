@@ -29,7 +29,7 @@ iphone:
   released: 2024-04-02
   updated: 2026-08-21
   version: 6.4.0
-  reviews: 25763
+  reviews: 25852
   icon: com.deblock.deblockapp.production.jpg
   meta: ok
   verdict: custodial

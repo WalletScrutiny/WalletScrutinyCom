@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2017-12-28
-  updated: 2026-07-17
-  version: 5.0.8
+  updated: 2026-08-26
+  version: 5.0.9
   icon: com.ivan.fgwallet.png
   meta: ok
   verdict: nosource

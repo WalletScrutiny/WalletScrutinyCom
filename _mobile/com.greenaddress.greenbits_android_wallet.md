@@ -49,7 +49,7 @@ iphone:
   released: 2019-03-22
   updated: 2026-08-12
   version: 5.6.0
-  reviews: 1222
+  reviews: 1221
   icon: io.blockstream.green.jpg
   meta: ok
   verdict: sourceavailable

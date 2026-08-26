@@ -37,7 +37,7 @@ iphone:
   released: 2021-11-28
   updated: 2026-08-21
   version: 3.10.0
-  reviews: 40
+  reviews: 39
   icon: defisuisseag.thorwallet.jpg
   meta: ok
   verdict: nosource

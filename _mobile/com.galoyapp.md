@@ -42,7 +42,7 @@ iphone:
   icon: io.galoy.bitcoinbeach.jpg
   meta: ok
   verdict: custodial
-  developerName: Blink SA de CV
+  developerName: Blink El Salvador Sociedad Anonima de Capital Variable
   repository: https://github.com/GaloyMoney/galoy-mobile
 
 ---

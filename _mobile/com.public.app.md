@@ -22,7 +22,7 @@ android:
   released: 2019-09-06
   updated: 2026-08-24
   version: 3.260.0
-  reviews: 9568
+  reviews: 9569
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive
@@ -34,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-08-20
   version: 5.2.2
-  reviews: 84689
+  reviews: 84720
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

@@ -28,7 +28,7 @@ android:
   released: 2023-01-16
   updated: 2026-08-12
   version: 5.50.28
-  reviews: 205
+  reviews: 206
   icon: finance.klever.bitcoin.wallet.png
   meta: ok
   verdict: nosource

@@ -32,7 +32,7 @@ iphone:
   released: 2023-04-17
   updated: 2026-07-02
   version: '3.2'
-  reviews: 189
+  reviews: 192
   icon: com.internetmoneywallet.app.jpg
   meta: ok
   verdict: nosource

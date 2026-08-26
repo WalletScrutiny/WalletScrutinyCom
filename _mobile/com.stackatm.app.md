@@ -10,7 +10,7 @@ android:
   appCountry: us
   released: 2024-08-12
   updated: 2026-08-21
-  version: 1.13.1
+  version: 1.14.0
   reviews: 4
   icon: com.stackatm.app.png
   meta: fewusers

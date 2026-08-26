@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-12-05
-  updated: 2026-06-03
-  version: 3.13.7
+  updated: 2026-08-26
+  version: 3.13.8
   reviews: 8
   icon: io.ducatus.walnew.png
   meta: ok

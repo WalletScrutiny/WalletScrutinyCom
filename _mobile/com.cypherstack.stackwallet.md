@@ -37,8 +37,8 @@ iphone:
   idd: '1634811534'
   appCountry: us
   released: 2022-08-26
-  updated: 2026-06-26
-  version: 2.6.0
+  updated: 2026-08-26
+  version: 2.7.1
   reviews: 27
   icon: com.cypherstack.stackwallet.jpg
   meta: ok

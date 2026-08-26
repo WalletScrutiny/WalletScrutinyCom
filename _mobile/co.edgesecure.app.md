@@ -44,7 +44,7 @@ iphone:
   released: 2018-02-09
   updated: 2026-08-07
   version: 4.50.2
-  reviews: 3148
+  reviews: 3152
   icon: co.edgesecure.app.jpg
   meta: ok
   verdict: sourceavailable

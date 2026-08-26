@@ -31,8 +31,8 @@ iphone:
   idd: '285691076'
   appCountry: ph
   released: 2019-02-12
-  updated: 2026-08-20
-  version: 11.35.1
+  updated: 2026-08-25
+  version: 11.36.0
   reviews: 19
   icon: com.swissquote.iphone.jpg
   meta: ok

@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-12-17
-  updated: 2025-12-08
-  version: 3.65.1
+  updated: 2026-08-14
+  version: 3.66.2
   reviews: 10
   icon: network.woo.mobile.png
   meta: ok

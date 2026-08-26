@@ -34,7 +34,7 @@ iphone:
   released: 2024-07-31
   updated: 2026-04-01
   version: 3.3.1
-  reviews: 1965
+  reviews: 1964
   icon: com.magiceden.wallet.jpg
   meta: ok
   verdict: nosource

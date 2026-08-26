@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2020-02-11
   updated: 2026-08-20
-  version: 9.59.0
-  reviews: 3849
+  version: 9.60.1
+  reviews: 3850
   icon: com.bitkeep.wallet.png
   meta: ok
   verdict: nosource

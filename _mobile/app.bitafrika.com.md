@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: GH
   released: 2021-07-19
-  updated: 2026-08-02
-  version: 5.1.9
+  updated: 2026-08-25
+  version: 5.2.0
   reviews: 176
   icon: app.bitafrika.com.png
   meta: ok

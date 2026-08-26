@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2017-10-18
   updated: 2026-08-24
-  version: 3.46.0
+  version: 3.47.0
   reviews: 38
   icon: com.capital.trading.png
   meta: ok

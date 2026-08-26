@@ -18,7 +18,7 @@ android:
   version: 3.0.0
   reviews: 11
   icon: com.flx.cryptokeeper.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Crypto Keeper LLC
 iphone:

@@ -20,8 +20,8 @@ android:
   users: 5000
   appCountry: il
   released: 2020-09-28
-  updated: 2026-08-18
-  version: '3.26'
+  updated: 2026-08-26
+  version: '3.27'
   reviews: 15
   icon: com.dok.wallet.png
   meta: ok

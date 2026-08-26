@@ -33,8 +33,8 @@ iphone:
   idd: '1476730078'
   appCountry: us
   released: 2019-09-18
-  updated: 2026-06-08
-  version: 3.7.14
+  updated: 2026-08-25
+  version: 3.7.15
   reviews: 160
   icon: rockitcoinexchange.jpg
   meta: ok

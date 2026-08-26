@@ -31,7 +31,7 @@ iphone:
   released: 2025-05-16
   updated: 2026-07-07
   version: 1.0.7
-  reviews: 6
+  reviews: 7
   icon: com.upay2.wallet.jpg
   meta: ok
   verdict: custodial

@@ -22,8 +22,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-03-17
-  updated: 2026-06-24
-  version: 1.14.0
+  updated: 2026-08-25
+  version: 1.15.0
   reviews: 2
   icon: com.btcmarket.btcm.png
   meta: ok
@@ -34,9 +34,9 @@ iphone:
   idd: '1546957530'
   appCountry: au
   released: 2022-03-19
-  updated: 2026-06-23
-  version: 1.14.0
-  reviews: 289
+  updated: 2026-08-26
+  version: 1.15.0
+  reviews: 290
   icon: com.btcmarkets.btcm.jpg
   meta: ok
   verdict: custodial

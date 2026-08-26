@@ -14,7 +14,7 @@ android:
   released: 2023-11-02
   updated: 2026-08-21
   version: 2.84.0
-  reviews: 69
+  reviews: 70
   icon: app.backpack.mobile.png
   meta: ok
   verdict: custodial

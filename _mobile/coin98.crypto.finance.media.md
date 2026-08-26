@@ -32,7 +32,7 @@ iphone:
   released: 2021-05-14
   updated: 2026-08-17
   version: 16.14.1
-  reviews: 657
+  reviews: 658
   icon: coin98.crypto.finance.insights.jpg
   meta: ok
   verdict: nosource

@@ -30,7 +30,7 @@ iphone:
   released: 2021-08-27
   updated: 2025-10-29
   version: 1.0.25
-  reviews: 134
+  reviews: 135
   icon: com.core.ios.flitpay.jpg
   meta: ok
   verdict: custodial

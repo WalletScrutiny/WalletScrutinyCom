@@ -33,9 +33,9 @@ iphone:
   idd: 1322324266
   appCountry: us
   released: 2018-01-20
-  updated: 2026-08-18
-  version: 6.0.0
-  reviews: 1142
+  updated: 2026-08-26
+  version: 6.1.0
+  reviews: 1144
   icon: one.mixin.messenger.jpg
   meta: ok
   verdict: sourceavailable

@@ -38,7 +38,7 @@ iphone:
   released: 2022-08-01
   updated: 2026-08-03
   version: 3.3.0
-  reviews: 70
+  reviews: 69
   icon: com.revix.mobile.jpg
   meta: ok
   verdict: custodial

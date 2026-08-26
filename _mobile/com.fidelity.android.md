@@ -16,7 +16,7 @@ android:
   released: 2010-12-15
   updated: 2026-08-18
   version: '4.39'
-  reviews: 57501
+  reviews: 57521
   icon: com.fidelity.android.png
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2010-02-22
   updated: 2026-08-14
   version: '4.39'
-  reviews: 3280009
+  reviews: 3281501
   icon: com.fidelity.watchlist.jpg
   meta: ok
   verdict: custodial

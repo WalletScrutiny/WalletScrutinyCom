@@ -19,7 +19,7 @@ android:
   released: 2013-09-09
   updated: 2026-08-19
   version: 9.6.8
-  reviews: 2066
+  reviews: 2067
   icon: com.tradestation.MobileTrading.png
   meta: ok
   verdict: custodial

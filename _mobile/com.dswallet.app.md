@@ -21,7 +21,7 @@ android:
   released: 2025-03-19
   updated: 2026-08-17
   version: 2.2.3
-  reviews: 221
+  reviews: 222
   icon: com.dswallet.app.png
   meta: ok
   verdict: nosource

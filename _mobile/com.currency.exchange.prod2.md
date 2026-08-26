@@ -1,6 +1,6 @@
 ---
 wsId: dzengi
-title: 'Dzengi.com: Buy BTC & Crypto'
+title: 'Dzengi: Buy BTC & Crypto'
 date: 2024-01-23
 authors:
 - leo

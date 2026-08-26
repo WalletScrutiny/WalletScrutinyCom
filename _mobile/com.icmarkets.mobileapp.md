@@ -31,7 +31,7 @@ iphone:
   released: 2021-02-24
   updated: 2022-06-09
   version: 1.1.2
-  reviews: 38
+  reviews: 39
   icon: com.ICMarkets.ICMarkets-app.jpg
   meta: obsolete
   verdict: nosendreceive

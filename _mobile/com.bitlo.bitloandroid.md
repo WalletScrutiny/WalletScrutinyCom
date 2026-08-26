@@ -18,7 +18,7 @@ android:
   released: 2020-12-18
   updated: 2026-07-08
   version: 2.1.57
-  reviews: 2573
+  reviews: 2575
   icon: com.bitlo.bitloandroid.png
   meta: ok
   verdict: custodial

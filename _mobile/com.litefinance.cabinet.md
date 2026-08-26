@@ -26,9 +26,9 @@ iphone:
   idd: '1661254805'
   appCountry: us
   released: 2023-01-11
-  updated: 2026-07-29
-  version: 3.1.15
-  reviews: 124
+  updated: 2026-08-26
+  version: 3.1.16
+  reviews: 125
   icon: com.litefinance.cabinet.jpg
   meta: ok
   verdict: custodial

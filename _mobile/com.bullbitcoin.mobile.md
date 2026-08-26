@@ -29,7 +29,7 @@ android:
   appCountry: us
   released: 2023-10-31
   updated: 2026-08-20
-  version: 6.12.2
+  version: 6.13.0
   reviews: 8
   icon: com.bullbitcoin.mobile.png
   meta: ok

@@ -30,7 +30,7 @@ iphone:
   released: 2020-06-18
   updated: 2026-08-13
   version: 2.0.0
-  reviews: 3297
+  reviews: 3298
   icon: com.safello.iosapp.jpg
   meta: ok
   verdict: custodial

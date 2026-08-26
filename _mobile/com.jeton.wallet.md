@@ -19,7 +19,7 @@ android:
   version: 3.7.3
   reviews: 20
   icon: com.jeton.wallet.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Jeton Wallet
 iphone:

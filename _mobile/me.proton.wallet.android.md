@@ -25,7 +25,7 @@ android:
   users: 100000
   appCountry: us
   released: 2025-02-04
-  updated: 2026-08-05
+  updated: 2026-08-26
   version: 1.3.1
   reviews: 31
   icon: me.proton.wallet.android.png
@@ -41,7 +41,7 @@ iphone:
   released: 2025-02-10
   updated: 2026-08-06
   version: 1.3.1
-  reviews: 241
+  reviews: 242
   icon: me.proton.wallet.ios.jpg
   meta: ok
   verdict: sourceavailable

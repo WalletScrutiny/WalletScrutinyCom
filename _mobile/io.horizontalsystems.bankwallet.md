@@ -44,9 +44,9 @@ iphone:
   idd: 1447619907
   appCountry: us
   released: 2019-01-10
-  updated: 2026-07-29
-  version: 0.49.3
-  reviews: 1343
+  updated: 2026-08-25
+  version: '0.50'
+  reviews: 1342
   icon: io.horizontalsystems.bank-wallet.jpg
   meta: ok
   verdict: sourceavailable

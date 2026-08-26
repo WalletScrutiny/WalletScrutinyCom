@@ -32,9 +32,9 @@ iphone:
   idd: '1567887163'
   appCountry: ng
   released: 2021-06-18
-  updated: 2026-07-02
-  version: 4.1.10
-  reviews: 703
+  updated: 2026-08-08
+  version: 4.1.17
+  reviews: 713
   icon: africa.obiex.app.jpg
   meta: ok
   verdict: custodial

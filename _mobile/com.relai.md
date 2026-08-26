@@ -18,8 +18,8 @@ android:
   appId: com.relai
   users: 100000
   appCountry: us
-  updated: 2026-08-14
-  version: 3.18.0
+  updated: 2026-08-21
+  version: 3.18.1
   icon: com.relai.png
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-08-17
   version: 3.18.0
-  reviews: 3475
+  reviews: 3477
   icon: ch.relai.relai.jpg
   meta: ok
   verdict: nosource
