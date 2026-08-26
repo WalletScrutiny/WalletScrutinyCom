@@ -87,16 +87,16 @@ function ensureBlossomModals() {
 
   if (!document.getElementById('attachmentPreviewModal')) {
     document.body.insertAdjacentHTML('beforeend', `
-    <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 0 auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+    <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; background-color: rgba(0,0,0,0.6); align-items: center; justify-content: center;">
+      <div style="background-color: #fefefe; margin: 0; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: hidden; display: flex; flex-direction: column; box-sizing: border-box;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-shrink: 0;">
           <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
           <div style="display: flex; align-items: center; gap: 15px;">
             <span id="previewCopyButton" style="color: #555; font-size: 22px; cursor: pointer;" title="Copy to clipboard">📋</span>
             <span id="previewCloseButton" style="color: #aaa; font-size: 46px; font-weight: bold; cursor: pointer;">&times;</span>
           </div>
         </div>
-        <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
+        <div id="previewContent" style="text-align: left; overflow: auto; flex: 1 1 auto; min-height: 0;"></div>
       </div>
     </div>`);
   }
