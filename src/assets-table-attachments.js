@@ -77,7 +77,7 @@ export function buildAttachmentVerificationMetaHtml(options) {
 
 /** Preview body as a text node inside <pre>. Do not pass Nostr attachment bytes through innerHTML. */
 export function createAttachmentPreviewNode(textContent) {
-  return el('pre', {}, textContent ?? '');
+  return el('pre', { style: { margin: '0', overflow: 'visible' } }, textContent ?? '');
 }
 
 function decodeAttachmentContent(rawContent) {
@@ -409,7 +409,7 @@ export function registerAttachmentHandlers() {
         }
       };
 
-      modal.style.display = 'block';
+      modal.style.display = 'flex';
       previewContent.scrollTop = 0;
       previewContent.scrollLeft = 0;
 

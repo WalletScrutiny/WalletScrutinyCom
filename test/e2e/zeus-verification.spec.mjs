@@ -113,6 +113,24 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(page.locator('#previewFileName')).toHaveText('zeus_build.sh');
       await expect.soft(page.locator('#previewContent')).toContainText('SCRIPT_VERSION="v0.2.13"');
 
+      const previewScrollState = await page.evaluate(() => {
+        const overlay = document.getElementById('attachmentPreviewModal');
+        const panel = overlay?.firstElementChild;
+        const preview = document.getElementById('previewContent');
+        return {
+          overlayOverflowY: overlay ? getComputedStyle(overlay).overflowY : null,
+          panelOverflowY: panel ? getComputedStyle(panel).overflowY : null,
+          previewOverflowY: preview ? getComputedStyle(preview).overflowY : null,
+          overlayScrollable: overlay ? overlay.scrollHeight > overlay.clientHeight + 1 : null,
+          panelScrollable: panel ? panel.scrollHeight > panel.clientHeight + 1 : null,
+        };
+      });
+      expect.soft(previewScrollState.overlayOverflowY).toBe('hidden');
+      expect.soft(previewScrollState.panelOverflowY).toBe('hidden');
+      expect.soft(previewScrollState.previewOverflowY).toBe('auto');
+      expect.soft(previewScrollState.overlayScrollable).toBe(false);
+      expect.soft(previewScrollState.panelScrollable).toBe(false);
+
       await page.evaluate(() => {
         const preview = document.getElementById('attachmentPreviewModal');
         if (preview) {
