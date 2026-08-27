@@ -7,7 +7,7 @@ import {
   getBlossomDownloadURL,
   isSafeBlossomFileURL,
   blossomServerUrl,
-} from '../../src/blossom-utils.js';
+} from '../../src/blossom-utils.mjs';
 
 describe('getBlossomFileURL', () => {
   test('builds direct file url from hash', () => {

@@ -2,7 +2,7 @@ let apkParserPromise;
 let fflateUnzipPromise;
 
 function getApkParser() {
-  apkParserPromise ??= import('app-info-parser/src/apk').then((module) => module.default);
+  apkParserPromise ??= import('app-info-parser/src/apk.js').then((module) => module.default);
   return apkParserPromise;
 }
 

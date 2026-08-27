@@ -1,6 +1,6 @@
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { setAssetTableResponse, findVerificationByIdInMaps } from "./assets-table-state.js";
-import { prefetchVerificationAttachments } from "./assets-table-attachments.js";
+import { setAssetTableResponse, findVerificationByIdInMaps } from "./assets-table-state.mjs";
+import { prefetchVerificationAttachments } from "./assets-table-attachments.mjs";
 
 let hashVerificationModalOpened = false;
 let earlyHashOpenRegistered = false;

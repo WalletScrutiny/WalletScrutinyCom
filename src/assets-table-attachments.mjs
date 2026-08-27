@@ -1,6 +1,6 @@
 import { verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { getAttachmentInfo } from "./assets-table-utils.js";
+import { getAttachmentInfo } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
 

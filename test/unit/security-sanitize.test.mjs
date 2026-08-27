@@ -12,7 +12,7 @@ import {
   sanitizeHttpUrl,
   isSha256Hex,
 } from '../../src/html-utils.mjs';
-import { parseMarkdownToSafeHtml } from '../../src/marked-loader.js';
+import { parseMarkdownToSafeHtml } from '../../src/marked-loader.mjs';
 import {
   buildProfileCircleHtml,
   renderProfileCardHtml,
@@ -20,7 +20,7 @@ import {
   getProfileImageUrl,
   PROFILE_PLACEHOLDER_IMAGE,
 } from '../../src/nostr-profile.mjs';
-import { buildIssueTrackerLinkHtml } from '../../src/assets-table-modal.js';
+import { buildIssueTrackerLinkHtml } from '../../src/assets-table-modal.mjs';
 
 const PUBKEY = getPublicKey(generateSecretKey());
 

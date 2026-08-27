@@ -7,7 +7,7 @@ import {
   formatCommentDate,
   getAttachmentInfo,
   getStatusIcon,
-} from '../../src/assets-table-utils.js';
+} from '../../src/assets-table-utils.mjs';
 import { codeSnippetKind } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 

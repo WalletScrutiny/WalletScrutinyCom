@@ -7,7 +7,7 @@ import {
   setPendingEndorsementIds,
   loadEndorsementsForTable,
   loadEndorsementsForVerification,
-} from '../../src/assets-table-endorsements.js';
+} from '../../src/assets-table-endorsements.mjs';
 
 const VERIFICATION_ID = 'verification-1';
 

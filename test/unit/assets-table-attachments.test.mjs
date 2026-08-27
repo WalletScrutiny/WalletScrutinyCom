@@ -6,7 +6,7 @@ import {
   resetAttachmentState,
   storeAttachmentMetadata,
   buildAttachmentVerificationIndex,
-} from '../../src/assets-table-attachments.js';
+} from '../../src/assets-table-attachments.mjs';
 import { codeSnippetKind } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 

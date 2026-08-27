@@ -38,25 +38,25 @@ module.exports = (env, argv) => {
       },
       verifications_ui: {
         import: [
-          './src/drag-and-drop-utils.js',
-          './src/blossom.js',
-          './src/blossom-utils.js',
+          './src/drag-and-drop-utils.mjs',
+          './src/blossom.mjs',
+          './src/blossom-utils.mjs',
           './src/drag-and-drop.js',
-          './src/assets-table-utils.js',
-          './src/assets-table-comments.js',
-          './src/assets-table-state.js',
-          './src/assets-table-filters.js',
-          './src/assets-table-paint.js',
+          './src/assets-table-utils.mjs',
+          './src/assets-table-comments.mjs',
+          './src/assets-table-state.mjs',
+          './src/assets-table-filters.mjs',
+          './src/assets-table-paint.mjs',
           './src/assets-table-profiles.js',
-          './src/assets-table-endorsements.js',
-          './src/assets-table-attachments.js',
-          './src/assets-table-modal.js',
-          './src/assets-table-hash.js',
+          './src/assets-table-endorsements.mjs',
+          './src/assets-table-attachments.mjs',
+          './src/assets-table-modal.mjs',
+          './src/assets-table-hash.mjs',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',
           './src/renderNostrButton.js',
-          './src/zapModal.js'
+          './src/zapModal.mjs'
         ],
         dependOn: ['dom_sanitization', 'verifications_data'],
       },
@@ -81,7 +81,7 @@ module.exports = (env, argv) => {
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.m?js$/,
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',

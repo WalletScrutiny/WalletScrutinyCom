@@ -17,7 +17,7 @@ import {
   renderBlossomDownloadButton,
   renderVerificationsCell,
   renderAssetVersionDescriptionHtml,
-} from '../../src/assets-table-paint.js';
+} from '../../src/assets-table-paint.mjs';
 import {
   eventSanitize,
   getVerificationHashList,
@@ -27,14 +27,14 @@ import {
   buildOutputFileDownloadHtml,
   buildDiffoscopeOpenButtonHtml,
   buildIssueTrackerLinkHtml,
-} from '../../src/assets-table-modal.js';
+} from '../../src/assets-table-modal.mjs';
 import {
   buildAttachmentRowActionsHtml,
   buildAttachmentVerificationMetaHtml,
   createAttachmentRowActions,
   createAttachmentVerificationMeta,
   createAttachmentPreviewNode,
-} from '../../src/assets-table-attachments.js';
+} from '../../src/assets-table-attachments.mjs';
 import { verificationKind } from '../../src/nostr-constants.mjs';
 import { HASH_A, makeEvent } from './fixtures.mjs';
 

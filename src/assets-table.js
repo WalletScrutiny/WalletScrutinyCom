@@ -1,5 +1,5 @@
-import { showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
-import { paintMainAssetsTable } from "./assets-table-paint.js";
+import { showIssueTrackerHtmlWidget } from "./assets-table-utils.mjs";
+import { paintMainAssetsTable } from "./assets-table-paint.mjs";
 import {
   fingerprintAllAssetInformation,
   updateTableVisibility,
@@ -7,30 +7,30 @@ import {
   applyDraftRowMetadataToTable,
   disconnectBlossomObserver,
   setupBlossomDownloadObserverForTable,
-} from "./assets-table-filters.js";
+} from "./assets-table-filters.mjs";
 import {
   resetAttachmentState,
   loadAndStoreAttachments,
   buildAttachmentVerificationIndex,
   renderAttachmentsTable,
   registerAttachmentHandlers,
-} from "./assets-table-attachments.js";
+} from "./assets-table-attachments.mjs";
 import {
   resetEndorsementsState,
   setPendingEndorsementIds,
-} from "./assets-table-endorsements.js";
+} from "./assets-table-endorsements.mjs";
 import { renderProfilePictures } from "./assets-table-profiles.js";
-import { registerShowVerificationModal } from "./assets-table-modal.js";
+import { registerShowVerificationModal } from "./assets-table-modal.mjs";
 import {
   setAssetTableResponse,
-} from "./assets-table-state.js";
+} from "./assets-table-state.mjs";
 import {
   getVerificationIdFromHash,
   tryOpenHashVerification,
   setupEarlyHashVerificationOpen,
   findCachedGlobalAssetInfo,
   scheduleFinalHashVerificationOpen,
-} from "./assets-table-hash.js";
+} from "./assets-table-hash.mjs";
 
 registerAttachmentHandlers();
 registerShowVerificationModal();

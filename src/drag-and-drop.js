@@ -1,4 +1,4 @@
-import { uploadToBlossom } from './blossom-utils.js';
+import { uploadToBlossom } from './blossom-utils.mjs';
 import {
   formatFileSize,
   updateDomElementInClass,
@@ -15,7 +15,7 @@ import {
   canRegisterOrVerifyAndroidUpload,
   getAndroidUploadBlockingMessage,
   populateApkInfoForAndroidUpload
-} from './drag-and-drop-utils.js';
+} from './drag-and-drop-utils.mjs';
 import { isDebugEnv } from './verifications_common.mjs';
 
 const uploadsActivated = true;

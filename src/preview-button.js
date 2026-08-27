@@ -2,7 +2,7 @@
  * Preview tab for markdown content on the new verification form.
  */
 
-import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.js';
+import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
 
 /**
  * Initialize the preview button functionality

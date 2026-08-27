@@ -5,10 +5,10 @@ import {
 } from "./asset-utils.mjs";
 import { assetBundleRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { getStatusText } from "./assets-table-utils.js";
+import { getStatusText } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { mergeBundleAssetRows, getRowLookupHashes } from "./assets-table-filters.js";
-import { setAssetTableResponse } from "./assets-table-state.js";
+import { mergeBundleAssetRows, getRowLookupHashes } from "./assets-table-filters.mjs";
+import { setAssetTableResponse } from "./assets-table-state.mjs";
 import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
 
 const getHashTags = event => {

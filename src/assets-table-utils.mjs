@@ -1,7 +1,7 @@
 import { codeSnippetKind } from "./nostr-constants.mjs";
 import { getFirstTagValue, getStatusText } from "./verifications_common.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { updateTableVisibility } from "./assets-table-filters.js";
+import { updateTableVisibility } from "./assets-table-filters.mjs";
 import { el, sanitizeHttpUrl } from "./html-utils.mjs";
 
 export { getStatusText };

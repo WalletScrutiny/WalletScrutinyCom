@@ -5,8 +5,8 @@ import assert from 'node:assert/strict';
 import {
   selectCurrentRowVerifications,
   hasWarningVerification,
-} from '../../src/assets-table-paint.js';
-import { getRowLookupHashes } from '../../src/assets-table-filters.js';
+} from '../../src/assets-table-paint.mjs';
+import { getRowLookupHashes } from '../../src/assets-table-filters.mjs';
 import {
   verificationKind,
   verificationDraftKind,

@@ -1,23 +1,23 @@
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.js";
+import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.js';
-import { renderCommentsSection } from './assets-table-comments.js';
+import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
+import { renderCommentsSection } from './assets-table-comments.mjs';
 import {
   getAssetTableResponse,
   setOriginalUrlBeforeModal,
   getOriginalUrlBeforeModal,
   findVerificationByIdInMaps,
-} from "./assets-table-state.js";
+} from "./assets-table-state.mjs";
 import {
   loadEndorsementsForVerification,
-} from "./assets-table-endorsements.js";
+} from "./assets-table-endorsements.mjs";
 import {
   populateVerificationAttachmentsList,
-} from "./assets-table-attachments.js";
+} from "./assets-table-attachments.mjs";
 import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
-import './zapModal.js';
+import './zapModal.mjs';
 
 export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
   return htmlOf(el('button', {

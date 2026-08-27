@@ -1,5 +1,5 @@
-import { blossomServerHasBlob, uploadBlobWithProgress } from './blossom.js';
-import { updateDomElementInClass } from './drag-and-drop-utils.js';
+import { blossomServerHasBlob, uploadBlobWithProgress } from './blossom.mjs';
+import { updateDomElementInClass } from './drag-and-drop-utils.mjs';
 import { isSha256Hex } from './html-utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
