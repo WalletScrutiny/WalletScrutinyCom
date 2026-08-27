@@ -20634,15 +20634,16 @@ var ndk = new index_default({
 async function fetchUserProfile(e) {
 	try {
 		if (window) {
-			let t = await db.profiles.where("pubkey").equals(e).first();
-			if (t) return t;
+			let n = await db.profiles.where("pubkey").equals(e).first();
+			if (n) return n;
 			{
-				let t = get$1(ndkStore).getUser({ pubkey: e });
-				return await t.fetchProfile({
+				var t;
+				let n = get$1(ndkStore).getUser({ pubkey: e });
+				return await n.fetchProfile({
 					closeOnEose: !0,
 					groupable: !1,
 					groupableDelay: 200
-				}), t.profile;
+				}), (t = n.profile) == null ? {} : t;
 			}
 		}
 		return {};
@@ -60860,10 +60861,11 @@ function OpinionCard(e, t) {
 			kinds: [1],
 			"#a": [C()]
 		}), (await r().fetchEvents(t, { closeOnEose: !1 })).forEach(async (e) => {
+			var t;
 			if (v() === 1 && e.tags.flat().filter((e) => e[0] === "e").length > 1) return;
 			set(w, [...get(w), { ...e }]);
-			let t = await fetchUserProfile(e.pubkey);
-			t.image || (t.image = profileImageUrl + e.pubkey), t.pubkey || (t.pubkey = e.pubkey), f(f()[e.pubkey] = { content: t }, !0), f({ ...f() });
+			let n = (t = await fetchUserProfile(e.pubkey)) == null ? {} : t;
+			n.image || (n.image = profileImageUrl + e.pubkey), n.pubkey || (n.pubkey = e.pubkey), f(f()[e.pubkey] = { content: n }, !0), f({ ...f() });
 		});
 		let n = 0;
 		t = {
@@ -61709,8 +61711,9 @@ function App(e, t) {
 			let t = get(A).findIndex((t) => t.pubkey === e.pubkey);
 			if (t !== -1) (e.created_at || 0) >= (get(A)[t].created_at || 0) && (mutate(A, get(A)[t] = { ...e }), set(A, [...get(A)]));
 			else {
+				var n;
 				set(A, [...get(A), { ...e }]);
-				let t = await fetchUserProfile(e.pubkey);
+				let t = (n = await fetchUserProfile(e.pubkey)) == null ? {} : n;
 				t.image || (t.image = profileImageUrl + e.pubkey), t.pubkey || (t.pubkey = e.pubkey), get(M) || set(M, {}), mutate(M, get(M)[e.pubkey] = { content: t }), set(M, { ...get(M) });
 			}
 			ne();
