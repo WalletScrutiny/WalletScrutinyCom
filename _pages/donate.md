@@ -32,30 +32,33 @@ permalink: /donate/
 <section class="donate-form-panel" id="donate">
   <h2>Make a donation</h2>
 
-  <form name="payForm" method="POST" action="https://pos.btcpay.nz/api/v1/invoices"
-    class="btcpay-form btcpay-form--block">
-    <input type="hidden" name="storeId" value="7WhWPWK41yURwAUoY8SiAsrvVzkSXyndHfLJKX2aanAK" />
-    <input type="hidden" name="orderId" value="" />
-    <input type="hidden" name="checkoutDesc" value="Donation WalletScrutiny" />
-    <input type="hidden" name="browserRedirect" value="https://walletscrutiny.com/thanks/">
-
-    <div class="donate-form-fields">
-      <div class="donate-form-row">
-        <input id="btcpay-input-price_7826565" name="price" type="text" onInput="update()" placeholder="Enter an amount" />
-        <select name="currency">
-          <option value="USD" selected>USD</option>
-          <option value="GBP">GBP</option>
-          <option value="EUR">EUR</option>
-          <option value="BTC">BTC</option>
-        </select>
-      </div>
-      <button class="submit" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">Donate</button>
-    </div>
-  </form>
+  <ul class="donate-copy-list">
+    <li class="donate-copy-row">
+      <span class="donate-copy-row__label">Silent Payments</span>
+      <code class="donate-copy-row__value" title="sp1qq2y8m6s8kf35cu3x403lyrga477lpv0nnnckqwdyfu0xp5897a2zxq4jxsatfkr685289pr8j6xjls4hwzjjzgz6ughkeuje9k9zv4zpechngwts">sp1qq2y8m6s8kf35cu3x403lyrga477lpv0nnnckqwdyfu0xp5897a2zxq4jxsatfkr685289pr8j6xjls4hwzjjzgz6ughkeuje9k9zv4zpechngwts</code>
+      <button type="button" class="donate-copy-btn" aria-label="Copy Silent Payments address" onclick="navigator.clipboard.writeText('sp1qq2y8m6s8kf35cu3x403lyrga477lpv0nnnckqwdyfu0xp5897a2zxq4jxsatfkr685289pr8j6xjls4hwzjjzgz6ughkeuje9k9zv4zpechngwts').then(() => { if (typeof showToast === 'function') showToast('Silent Payments address copied', 'success'); })">
+        <i class="fas fa-copy" aria-hidden="true"></i>
+      </button>
+    </li>
+    <li class="donate-copy-row">
+      <span class="donate-copy-row__label">Bitcoin onchain</span>
+      <code class="donate-copy-row__value" title="bc1qdwc3d53mzze4jytv6kqm2ufl4qypndz8h89mm9">bc1qdwc3d53mzze4jytv6kqm2ufl4qypndz8h89mm9</code>
+      <button type="button" class="donate-copy-btn" aria-label="Copy Bitcoin onchain address" onclick="navigator.clipboard.writeText('bc1qdwc3d53mzze4jytv6kqm2ufl4qypndz8h89mm9').then(() => { if (typeof showToast === 'function') showToast('Bitcoin address copied', 'success'); })">
+        <i class="fas fa-copy" aria-hidden="true"></i>
+      </button>
+    </li>
+    <li class="donate-copy-row">
+      <span class="donate-copy-row__label">Lightning Network <span class="donate-copy-row__meta">only for small amounts</span></span>
+      <code class="donate-copy-row__value" title="vilewish26@walletofsatoshi.com">vilewish26@walletofsatoshi.com</code>
+      <button type="button" class="donate-copy-btn" aria-label="Copy Lightning address" onclick="navigator.clipboard.writeText('vilewish26@walletofsatoshi.com').then(() => { if (typeof showToast === 'function') showToast('Lightning address copied', 'success'); })">
+        <i class="fas fa-copy" aria-hidden="true"></i>
+      </button>
+    </li>
+  </ul>
 </section>
 
 <section class="guide-section" id="sponsor">
-  <p>The above donation form only allows anonymous donations. If you want to sponsor
+  <p>Donations sent to the addresses above are anonymous. If you want to sponsor
   the project or receive recognition for your contribution, please
   contact the developers via <a href="mailto:info@WalletScrutiny.com">email</a>,
   <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom">GitLab</a>,
@@ -63,19 +66,6 @@ permalink: /donate/
   <a href="https://njump.me/npub1j9kttlc86w63emmldd4h74rekyqpksqup6p9trhp5gjsf374qlyszvuswx" target="_blank" rel="noopener noreferrer">Nostr</a>.</p>
 </section>
 
-<section class="guide-section" id="recent-donations">
-  {% include donationSummary.html %}
-
-  <p class="note">Timestamps aren't specific to the minute so that blockchain analysis companies can't easily identify on-chain transactions.</p>
-</section>
-
 </div>
-
-<script type="text/javascript">
-  function update() {
-    let input = document.getElementById('btcpay-input-price_7826565');
-    input.value = input.value.replace(/\D/g, '');
-  }
-</script>
 
 <script src="/assets/js/review.js"></script>
