@@ -59,8 +59,18 @@ sudo loginctl enable-linger build-server
 sudo mkdir -p /opt/build-server/walletScrutinyCom
 ```
 
+### Deploy from your machine
+
+The ABS `WorkingDirectory` is `/opt/build-server/walletScrutinyCom/external/build_server` (`ExecStart=/usr/bin/node index.mjs`). Runtime imports `src/` and `scripts/` from the WalletScrutiny repo root, so each deploy copies the full project tree (excluding generated site assets, `images/`, `node_modules/`, and `.git`).
+
+```bash
+npm run deploy:build-server
+```
+
+Requires SSH to `build.walletscrutiny.com` as root (see `~/.ssh/config`).
+
 ### Install the application
-- Copy the application to the server:
+- Copy the application to the server (or use `npm run deploy:build-server` above):
 ```bash
 sudo cp -r walletScrutinyCom /opt/build-server/walletScrutinyCom
 ```
