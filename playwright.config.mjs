@@ -6,10 +6,10 @@ const baseURL = process.env.PLAYWRIGHT_BASE_URL || `http://${host}:${port}`;
 
 export default defineConfig({
   testDir: './test/e2e',
-  fullyParallel: false,
+  fullyParallel: true,
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 2 : 4,
+  workers: process.env.CI ? 2 : 8,
   reporter: process.env.CI ? [['list'], ['html', { open: 'never' }]] : [['list']],
   timeout: 90_000,
   expect: {
