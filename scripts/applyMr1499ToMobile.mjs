@@ -7,7 +7,7 @@
  *   node scripts/applyMr1499ToMobile.mjs --branch origin/wips/2026-05-27
  */
 
-import { execSync } from 'child_process';
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -23,6 +23,15 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const mobileDir = path.join(root, '_mobile');
+
+/** Combine baseDir with relPath, rejecting traversal segments before touching the filesystem. */
+function safeJoin(baseDir, relPath) {
+  const normalized = String(relPath).replace(/\\/g, '/');
+  if (normalized.split('/').includes('..') || normalized.startsWith('/')) {
+    throw new Error(`Refusing to access path outside ${baseDir}: ${relPath}`);
+  }
+  return `${baseDir}/${normalized}`;
+}
 
 const PAIRS = [
   ['com.app.degate.md', 'com.app.degate.md'],
@@ -53,7 +62,7 @@ function parseArgs(argv) {
 
 function gitShow(revision, repoPath) {
   try {
-    return execSync(`git show ${revision}:${repoPath}`, {
+    return execFileSync('git', ['show', `${revision}:${repoPath}`], {
       cwd: root,
       encoding: 'utf8',
       maxBuffer: 10 * 1024 * 1024,
@@ -64,7 +73,7 @@ function gitShow(revision, repoPath) {
 }
 
 function readRepoFile(repoPath, { branch, wipHead = 'HEAD' }) {
-  const full = path.join(root, repoPath);
+  const full = safeJoin(root, repoPath);
   if (fs.existsSync(full)) {
     const raw = fs.readFileSync(full, 'utf8');
     if (!raw.includes('<<<<<<<')) {
@@ -130,7 +139,7 @@ function writeMobile(outBasename, mobile, body) {
     console.error(`Skip ${outBasename}: missing title`);
     return false;
   }
-  const outPath = path.join(mobileDir, outBasename);
+  const outPath = safeJoin(mobileDir, outBasename);
   writeMobileFile(outPath, mobile, body || '');
   console.log(`Wrote ${outPath}`);
   return true;
@@ -193,7 +202,7 @@ function applyAndroidOnly(branch, basename) {
   const android = parseLegacyWallet(androidRaw);
   const { mobile: rawMobile } = buildMobileHeader(android.header, null);
   applyLegacyHeaderFields(rawMobile, android.header);
-  const mobilePath = path.join(mobileDir, basename);
+  const mobilePath = safeJoin(mobileDir, basename);
   let existingBody = '';
   let iphoneBasename = null;
   if (fs.existsSync(mobilePath)) {
@@ -239,7 +248,7 @@ function copyIphoneIcons(branch) {
       if (fs.existsSync(path.join(root, repoPath))) {
         continue;
       }
-      execSync(`git checkout ${branch} -- ${repoPath}`, { cwd: root, stdio: 'pipe' });
+      execFileSync('git', ['checkout', branch, '--', repoPath], { cwd: root, stdio: 'pipe' });
       console.log(`Copied ${repoPath}`);
     } catch {
       console.warn(`Skip missing ${repoPath}`);
@@ -249,7 +258,7 @@ function copyIphoneIcons(branch) {
 
 function main() {
   const { branch } = parseArgs(process.argv);
-  console.log(`Applying MR wallet updates from ${branch} to _mobile/\n`);
+  console.log('Applying MR wallet updates from ' + branch + ' to _mobile/\n');
 
   for (const [androidBasename, iphoneBasename] of PAIRS) {
     applyPair(branch, androidBasename, iphoneBasename);
