@@ -160,7 +160,7 @@
 .guide-page,
 .info-landing-page {
   p > code,
-  li > code:not(.landing-copy-row__value):not(.verifications-copy-row__value),
+  li > code:not(.landing-copy-row__value):not(.verifications-copy-row__value):not(.donate-copy-row__value),
   td > code,
   .contribute-lead code {
     padding: 0.15rem 0.35rem;

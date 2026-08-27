@@ -4,15 +4,13 @@
 # It updates app metadata from stores, syncs F-Droid alternativeStores on
 # Android source-available pages, syncs bitcoinOrgId from bitcoin.org _wallets,
 # refreshes desktop/hardware sources,
-# updates donations data, regenerates derived assets, feature verification,
-# and more.
+# regenerates derived assets, feature verification, and more.
 #
 # You don't need to run this script unless you are actively testing or maintaining
 # a fork of WalletScrutiny. It can make broad repository changes, trigger external
 # API calls, and regenerate many files that are not intended for routine local work.
 #
 # Parameters:
-# -k <btcPayKey>   BTCPay API key used by refreshDonations.mjs.
 # -a <apps>        Comma-separated store IDs or mobile slugs to refresh explicitly
 #                  (example: android/xx.yy.zz,iphone/aa.bb.cc,mobile/app.slug).
 #                  If omitted, all mobile wallets are refreshed.
@@ -29,13 +27,12 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$ROOT/scripts/refresh-ui.sh"
 
 # run this using Docker:
-# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY
+# docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh
 
-while getopts k:a:g: option
+while getopts a:g: option
 do
   case "${option}"
   in
-    k) btcPayKey=${OPTARG};;   # the api key for the BtcPayServer
     a) apps=${OPTARG};;        # android/xx.yy.zz, iphone/aa.bb.cc, mobile/slug
     g) githubToken=${OPTARG};; # GitHub token for Desktop and Hardware refresh
 
@@ -109,12 +106,6 @@ if [ -n "$githubToken" ]; then
   fi
 else
   print_refresh_note "Skipped — no GitHub token (-g) provided"
-fi
-
-print_refresh_section "Refreshing donations page from BTCPay"
-if ! node refreshDonations.mjs $btcPayKey; then
-  echo "ERROR: Failed to refresh donations page from BTCPay"
-  exit 1
 fi
 
 print_refresh_section "Update and resize images and icons"
