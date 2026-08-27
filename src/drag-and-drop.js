@@ -96,7 +96,47 @@ function setupHighlightEvents(element) {
   });
 }
 
+function countVerificationEvents(allAssetsInformation) {
+  if (!allAssetsInformation?.verifications) {
+    return 0;
+  }
+
+  let count = 0;
+  for (const events of allAssetsInformation.verifications.values()) {
+    count += events?.length ?? 0;
+  }
+  return count;
+}
+
+function viewVerificationsCtaHtml(hash, verificationCount) {
+  const countLabel = verificationCount === 1
+    ? '1 community attestation'
+    : `${verificationCount} community attestations`;
+  const hint = verificationCount > 0
+    ? `This binary already has ${countLabel}`
+    : 'This binary already has community attestations';
+
+  return `<a href="/asset/?sha256=${encodeURIComponent(hash)}" class="drop-area-verification-cta">
+      <span class="drop-area-verification-cta__icon" aria-hidden="true"><i class="fas fa-clipboard-check"></i></span>
+      <span class="drop-area-verification-cta__copy">
+        <span class="drop-area-verification-cta__label">View build verifications</span>
+        <span class="drop-area-verification-cta__hint">${hint}</span>
+      </span>
+      <span class="drop-area-verification-cta__arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+    </a>`;
+}
+
+function setHomepageHeroAnalysisMode(dropAreaElement, active) {
+  const hero = dropAreaElement.closest('.hero--dynamic');
+  if (!hero) {
+    return;
+  }
+  hero.classList.toggle('hero--analysis-active', active);
+}
+
 function disableHoverMode(dropAreaElement) {
+  setHomepageHeroAnalysisMode(dropAreaElement, true);
+
   const select = dropAreaElement.querySelector('#select');
   select.classList.remove('hover-mode');
   select.classList.add('always-visible');
@@ -190,6 +230,7 @@ async function processFiles(files, dropAreaElement) {
   ];
   const extension = files[0].name.split('.').pop().toLowerCase();
   if (forbiddenExtensions.includes(extension)) {
+    setHomepageHeroAnalysisMode(dropAreaElement, true);
     updateDomElementInClass('drop-area-textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
     return;
   }
@@ -444,7 +485,7 @@ async function displayAllInfo(dropAreaElement, {
     const bundleSuffix = isApkBundle ? ` The ZIP contains <b>${processedFiles.length}</b> APK files whose hashes will be included if you register or verify this asset.` : '';
     fileInfoHtml += '<br>' + (
       app ?
-        `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but nobody has verified this specific version yet.${bundleSuffix}</p>` :
+        `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but <b><u>nobody has verified this specific version yet</u></b>.${bundleSuffix}</p>` :
         `<p>This is an APK for an unknown application. You can register it on Nostr so others can try to reproduce it.${bundleSuffix}</p>`);
   } else if (isApkBundle) {
     fileInfoHtml += `<br><p>The ZIP contains <b>${processedFiles.length}</b> APK files. All of their hashes will be included if you register or verify this asset.</p>`;
@@ -457,6 +498,7 @@ async function displayAllInfo(dropAreaElement, {
 
   const hasAssets = allAssetsInformation.assets?.size > 0;
   const hasVerifications = allAssetsInformation.verifications?.size > 0;
+  const verificationCount = countVerificationEvents(allAssetsInformation);
 
   const platformFromFile = getPlatformFromFilename(primaryFile.fileName, apkInfo);
   const urlParams = buildActionUrlParams(hash, processedFiles, {
@@ -466,32 +508,37 @@ async function displayAllInfo(dropAreaElement, {
     fileName: isApkBundle ? sourceZip.name : file.name
   });
 
+  let actionsHtml = '';
+
   if (missingAndroidMetadata) {
     if (hasVerifications) {
-      fileInfoHtml += `<li>This file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>.</li>`;
+      fileInfoHtml += viewVerificationsCtaHtml(hash, verificationCount);
     } else if (hasAssets) {
-      fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>.</li>`;
+      actionsHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>.</li>`;
     }
   } else if (!hasAssets && !hasVerifications) {
     if (window.location.pathname !== '/new_asset/') {
-      fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
+      actionsHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
     }
-    fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
+    actionsHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
   } else if (hasAssets && !hasVerifications) {
-    fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet.`;
-    fileInfoHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
-    fileInfoHtml += `</li>`;
+    actionsHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet.`;
+    actionsHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
+    actionsHtml += `</li>`;
   } else if (hasVerifications) {
-    fileInfoHtml += `<li>Thi file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>`;
-    fileInfoHtml += `, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>`;
-    fileInfoHtml += `.</li>`;
+    fileInfoHtml += viewVerificationsCtaHtml(hash, verificationCount);
+    actionsHtml += `<li>You can also <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
   }
 
   if (app && !isPageForAppId(appId)) {
-    fileInfoHtml += `<li>You can go to the <a href="/${platformLegacy}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
+    actionsHtml += `<li>You can go to the <a href="/${platformLegacy}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
   }
 
-  fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
+  actionsHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
+
+  if (actionsHtml) {
+    fileInfoHtml += `<ul class="drop-area-actions">${actionsHtml}</ul>`;
+  }
 
   updateDomElementInClass('drop-area-textbox', fileInfoHtml, dropAreaElement);
 }

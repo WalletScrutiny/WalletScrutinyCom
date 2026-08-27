@@ -1,5 +1,9 @@
 <!-- Drag-and-Drop-Area Start -->
 <div class="drop-areas">
+    <div id="file-list">
+        <div id="file-info" class="textbox drop-area-textbox"></div>
+        <div class="textbox blossom-upload-status" style="display: none;"></div>
+    </div>
     <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
         <span class="drop-text bigScreenOnly">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
         {% assign randomId = 'now' | date: '%s%N' | append: '' | random %}
@@ -12,9 +16,5 @@
             <span style="font-size: 16px;" class="bigScreenOnly"><a href="/verifications/" target="_blank">Learn more</a></span>
         </div>
     </form>
-    <div id="file-list">
-        <div id="file-info" class="textbox drop-area-textbox"></div>
-        <div class="textbox blossom-upload-status" style="display: none;"></div>
-    </div>
 </div>
 <!-- Drag-and-Drop-Area End -->

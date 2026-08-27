@@ -28,6 +28,7 @@ test.describe('Homepage drop area', () => {
     const resultBox = await waitForHomepageDropAreaAnalysis(page);
 
     await expect(resultBox).toContainText(ANDROID_APK_METADATA_MISSING_MESSAGE);
+    await expect(page.locator('#heroVisual')).toBeHidden();
 
     assertNoConsoleErrors();
   });
