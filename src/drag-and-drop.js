@@ -96,7 +96,17 @@ function setupHighlightEvents(element) {
   });
 }
 
+function setHomepageHeroAnalysisMode(dropAreaElement, active) {
+  const hero = dropAreaElement.closest('.hero--dynamic');
+  if (!hero) {
+    return;
+  }
+  hero.classList.toggle('hero--analysis-active', active);
+}
+
 function disableHoverMode(dropAreaElement) {
+  setHomepageHeroAnalysisMode(dropAreaElement, true);
+
   const select = dropAreaElement.querySelector('#select');
   select.classList.remove('hover-mode');
   select.classList.add('always-visible');
@@ -190,6 +200,7 @@ async function processFiles(files, dropAreaElement) {
   ];
   const extension = files[0].name.split('.').pop().toLowerCase();
   if (forbiddenExtensions.includes(extension)) {
+    setHomepageHeroAnalysisMode(dropAreaElement, true);
     updateDomElementInClass('drop-area-textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
     return;
   }

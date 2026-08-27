@@ -32,6 +32,8 @@
 
   #file-info {
     font-size: $font-sm;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 
     h3 {
       margin-top: 0;

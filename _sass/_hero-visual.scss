@@ -70,6 +70,7 @@
   }
 
   .hero-text {
+    min-width: 0;
     max-width: none;
     margin: 0;
     text-align: left;
@@ -216,8 +217,23 @@
   }
 
   .drop-areas {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     border-radius: 12px;
     border-color: var(--shadow-3);
+    overflow-wrap: anywhere;
+  }
+
+  &.hero--analysis-active {
+    .hero__layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .hero-visual {
+      display: none;
+    }
   }
 }
 
