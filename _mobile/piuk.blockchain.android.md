@@ -28,7 +28,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-02-01
-  updated: 2026-08-25
+  updated: 2026-08-26
   version: 202608.2.4
   reviews: 6365
   icon: piuk.blockchain.android.png

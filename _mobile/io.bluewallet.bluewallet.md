@@ -38,7 +38,7 @@ android:
   released: 2018-11-01
   updated: 2026-07-20
   version: 8.0.1
-  reviews: 387
+  reviews: 386
   icon: io.bluewallet.bluewallet.png
   signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
   meta: ok

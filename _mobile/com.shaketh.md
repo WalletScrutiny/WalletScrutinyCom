@@ -17,7 +17,7 @@ android:
   users: 500000
   appCountry: us
   released: 2018-02-20
-  updated: 2026-08-17
+  updated: 2026-08-25
   version: 4.17.0
   reviews: 21
   icon: com.shaketh.png

@@ -21,7 +21,7 @@ android:
   released: 2019-06-07
   updated: 2026-08-18
   version: 3.81.0
-  reviews: 1381
+  reviews: 1383
   icon: com.whitebit.android.png
   meta: ok
   verdict: custodial

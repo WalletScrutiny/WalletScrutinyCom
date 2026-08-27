@@ -16,7 +16,7 @@ android:
   released: 2017-04-10
   updated: 2026-08-24
   version: 3.109.0
-  reviews: 21312
+  reviews: 21315
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive

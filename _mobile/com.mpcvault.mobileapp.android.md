@@ -20,7 +20,7 @@ android:
   users: 5000
   appCountry: us
   released: 2022-09-13
-  updated: 2026-08-18
+  updated: 2026-08-26
   version: 3.24.2
   reviews: 3
   icon: com.mpcvault.mobileapp.android.png

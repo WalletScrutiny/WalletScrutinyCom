@@ -25,9 +25,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-08-30
-  updated: 2026-08-15
-  version: 3.239.10
-  reviews: 56779
+  updated: 2026-08-25
+  version: 3.240.0
+  reviews: 56784
   icon: co.mona.android.jpg
   meta: ok
   verdict: custodial

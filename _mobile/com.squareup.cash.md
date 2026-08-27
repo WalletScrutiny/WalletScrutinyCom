@@ -19,7 +19,7 @@ android:
   released: 2013-10-15
   updated: 2026-08-21
   version: 5.65.0
-  reviews: 474752
+  reviews: 474847
   icon: com.squareup.cash.png
   meta: ok
   verdict: custodial

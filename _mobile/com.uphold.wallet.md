@@ -24,7 +24,7 @@ android:
   released: 2015-12-29
   updated: 2026-08-21
   version: 6.102.0
-  reviews: 8341
+  reviews: 8345
   icon: com.uphold.wallet.png
   meta: ok
   verdict: custodial

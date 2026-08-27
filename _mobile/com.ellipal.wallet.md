@@ -29,7 +29,7 @@ android:
   released: 2018-07-02
   updated: 2026-08-19
   version: 4.15.1
-  reviews: 559
+  reviews: 560
   icon: com.ellipal.wallet.png
   meta: ok
   verdict: nosource

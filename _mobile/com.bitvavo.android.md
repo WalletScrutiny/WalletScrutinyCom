@@ -15,7 +15,7 @@ android:
   released: 2020-08-19
   updated: 2026-08-21
   version: 2.122.0
-  reviews: 3684
+  reviews: 3685
   icon: com.bitvavo.android.png
   meta: ok
   verdict: custodial

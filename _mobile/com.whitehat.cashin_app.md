@@ -21,7 +21,7 @@ android:
   released: 2022-07-16
   updated: 2026-08-22
   version: 2.1.0
-  reviews: 124
+  reviews: 125
   icon: com.whitehat.cashin_app.png
   meta: ok
   verdict: nosendreceive

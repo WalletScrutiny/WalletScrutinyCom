@@ -20,7 +20,7 @@ android:
   updated: 2025-08-31
   version: 1.5.0
   icon: com.wota.app.png
-  meta: fewusers
+  meta: stale
   verdict: custodial
   developerName: WOTA LTD
 iphone:

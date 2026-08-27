@@ -20,7 +20,7 @@ android:
   released: 2020-05-31
   updated: 2026-08-13
   version: 9.5.2
-  reviews: 148737
+  reviews: 148776
   icon: com.coinswitch.kuber.png
   meta: ok
   verdict: nosendreceive

@@ -4,7 +4,7 @@ title: Flash Wallet
 date: 2025-11-14
 authors:
 - danny
-website: https://flash-wallet.com/
+website: https://flash-wallet.app/
 twitter: Flash_Techno_Of
 features:
 - fingerprint

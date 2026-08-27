@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-09-20
-  updated: 2026-06-08
-  version: 3.7.14
+  updated: 2026-08-26
+  version: 3.7.16
   reviews: 196
   icon: co.rockitcoinx.app.png
   meta: ok

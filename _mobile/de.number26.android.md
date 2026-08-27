@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2015-01-23
   updated: 2026-08-21
-  version: '4.57'
+  version: '4.58'
   reviews: 2178
   icon: de.number26.android.png
   meta: ok

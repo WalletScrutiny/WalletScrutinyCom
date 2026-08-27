@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2019-09-06
   updated: 2026-08-24
-  version: 3.260.0
+  version: 3.261.0
   reviews: 9569
   icon: com.public.app.jpg
   meta: ok

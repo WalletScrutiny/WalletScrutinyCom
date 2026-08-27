@@ -16,9 +16,9 @@ android:
   appId: org.dayup.stocks
   users: 10000000
   appCountry: us
-  updated: 2026-08-17
+  updated: 2026-08-24
   version: 12.3.2.65
-  reviews: 41720
+  reviews: 41721
   icon: org.dayup.stocks.png
   meta: ok
   verdict: nosendreceive

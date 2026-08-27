@@ -20,7 +20,7 @@ android:
   released: 2022-11-12
   updated: 2026-08-25
   version: '4.0'
-  reviews: 88
+  reviews: 89
   icon: com.internetmoneywallet.app.png
   meta: ok
   verdict: nosource

@@ -23,7 +23,7 @@ android:
   released: 2016-07-24
   updated: 2026-07-28
   version: 9.2.0
-  reviews: 514
+  reviews: 515
   icon: com.remitano.remitano.jpg
   meta: ok
   verdict: custodial

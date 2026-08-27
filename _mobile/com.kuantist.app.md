@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-18
-  updated: 2026-08-13
-  version: 1.0.56
+  updated: 2026-08-24
+  version: 1.0.57
   icon: com.kuantist.app.jpg
   meta: ok
   verdict: custodial

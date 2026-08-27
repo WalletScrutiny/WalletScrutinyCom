@@ -31,7 +31,7 @@ android:
   released: 2017-06-19
   updated: 2026-08-21
   version: 9.35.1
-  reviews: 4253
+  reviews: 4255
   icon: com.bitcoin.mwallet.png
   meta: ok
   verdict: nosource

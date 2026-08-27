@@ -13,8 +13,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-10-31
-  updated: 2026-08-20
-  version: 1.63.1
+  updated: 2026-08-26
+  version: 1.63.2
+  reviews: 5
   icon: com.cloud.thailand.jpg
   meta: ok
   verdict: custodial

@@ -16,7 +16,7 @@ android:
   released: 2010-12-15
   updated: 2026-08-18
   version: '4.39'
-  reviews: 57521
+  reviews: 57539
   icon: com.fidelity.android.png
   meta: ok
   verdict: custodial

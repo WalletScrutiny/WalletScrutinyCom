@@ -19,7 +19,7 @@ android:
   appCountry: br
   released: 2019-01-28
   updated: 2026-08-22
-  version: 3.47.0
+  version: 3.48.0
   reviews: 6402
   icon: br.com.foxbit.foxbitandroid.png
   meta: ok

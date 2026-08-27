@@ -21,7 +21,7 @@ android:
   released: 2020-08-04
   updated: 2026-08-10
   version: 8.9.93
-  reviews: 4582
+  reviews: 4600
   icon: com.btcc.hy.png
   meta: ok
   verdict: custodial

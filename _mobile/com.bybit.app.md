@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2019-10-31
   updated: 2026-08-20
-  version: 5.23.0
+  version: 5.23.5
   reviews: 7234
   icon: com.bybit.app.jpg
   meta: ok

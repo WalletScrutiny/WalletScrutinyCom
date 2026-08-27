@@ -30,7 +30,7 @@ android:
   released: 2018-03-01
   updated: 2026-08-06
   version: 4.50.2
-  reviews: 762
+  reviews: 761
   icon: co.edgesecure.app.png
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
   meta: ok

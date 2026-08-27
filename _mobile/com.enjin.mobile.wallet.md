@@ -28,7 +28,7 @@ android:
   released: 2018-01-01
   updated: 2026-08-06
   version: 3.6.7
-  reviews: 1087
+  reviews: 1086
   icon: com.enjin.mobile.wallet.png
   meta: ok
   verdict: nosource

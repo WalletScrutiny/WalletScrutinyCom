@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-02-21
   updated: 2026-08-07
-  version: 4.5.13
+  version: 4.5.14
   reviews: 50
   icon: com.rekeningku.jpg
   meta: ok

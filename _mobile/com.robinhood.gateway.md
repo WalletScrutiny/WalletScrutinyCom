@@ -24,7 +24,7 @@ android:
   released: 2024-03-12
   updated: 2026-08-25
   version: 2026.35.0
-  reviews: 237
+  reviews: 238
   icon: com.robinhood.gateway.png
   meta: ok
   verdict: nosource

@@ -1,6 +1,6 @@
 ---
 wsId: vultisig
-title: 'Vultisig: Seedless Wallet'
+title: 'Vultisig: Seedless MPC Wallet'
 date: 2026-07-28
 authors:
 - danny
@@ -22,8 +22,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-01
-  updated: 2026-08-14
-  version: 1.0.117
+  updated: 2026-08-26
+  version: 1.0.118
   reviews: 13
   icon: com.vultisig.wallet.png
   meta: ok

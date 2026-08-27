@@ -18,7 +18,7 @@ android:
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10300
+  reviews: 10305
   icon: io.zebedee.wallet.png
   meta: ok
   verdict: custodial

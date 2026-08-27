@@ -29,7 +29,7 @@ android:
   released: 2023-06-26
   updated: 2026-08-21
   version: 2.114.10
-  reviews: 5
+  reviews: 6
   icon: com.gemwallet.android.png
   alternativeStores:
   - fdroid

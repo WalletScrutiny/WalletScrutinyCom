@@ -12,7 +12,7 @@ android:
   updated: 2025-08-31
   version: 4.1.8
   icon: uni.global.mcdc_client_app.png
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: UNi.Global
 

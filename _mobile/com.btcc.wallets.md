@@ -16,7 +16,7 @@ android:
   released: 2023-11-16
   updated: 2026-08-20
   version: 3.5.45
-  reviews: 18
+  reviews: 16
   icon: com.btcc.wallets.png
   meta: ok
   verdict: custodial

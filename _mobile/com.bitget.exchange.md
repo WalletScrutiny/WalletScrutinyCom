@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2020-04-03
   updated: 2026-08-25
-  version: 2.91.1
-  reviews: 1721
+  version: 2.92.0
+  reviews: 1722
   icon: com.bitget.exchange.png
   meta: ok
   verdict: custodial

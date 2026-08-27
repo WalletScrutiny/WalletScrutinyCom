@@ -22,7 +22,7 @@ android:
   released: 2017-10-25
   updated: 2026-08-22
   version: 3.19.8
-  reviews: 17019
+  reviews: 17022
   icon: com.binance.dev.png
   meta: ok
   verdict: custodial

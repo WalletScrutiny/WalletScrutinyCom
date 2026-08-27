@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2010-05-17
   updated: 2026-08-21
-  version: 26.16.0
-  reviews: 360210
+  version: 26.17.0
+  reviews: 360275
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive

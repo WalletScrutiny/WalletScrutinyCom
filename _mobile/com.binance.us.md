@@ -24,7 +24,7 @@ android:
   appCountry: us
   released: 2019-12-23
   updated: 2026-08-14
-  version: 3.44.1
+  version: 3.45.0
   reviews: 6912
   icon: com.binance.us.png
   meta: ok

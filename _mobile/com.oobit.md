@@ -20,7 +20,7 @@ android:
   released: 2022-02-07
   updated: 2026-08-24
   version: 3.3.1
-  reviews: 49
+  reviews: 50
   icon: com.oobit.png
   meta: ok
   verdict: custodial
