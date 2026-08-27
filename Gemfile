@@ -29,3 +29,8 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem "webrick", "~> 1.8"
 gem 'sass-embedded', '1.79.6'
+
+# Ruby 4.0 moved these from default gems to bundled gems. Bundler will not
+# load them unless they are declared. Jekyll 4.4.1 still requires them as stdlib.
+gem "logger"
+gem "ostruct"
