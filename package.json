@@ -39,6 +39,7 @@
   },
   "scripts": {
     "test": "node --test --test-reporter=spec \"test/unit/**/*.test.mjs\"",
+    "test:all": "npm test && npm run test:e2e",
     "build:e2e": "node scripts/build-e2e.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
@@ -59,8 +60,8 @@
     "verify-features:verify": "PPQ_API_KEY=$PPQ_API_KEY node scripts/featureVerifier.mjs --verify",
     "verify-features:apply": "node scripts/featureVerifier.mjs --apply --dry-run",
     "verify-features:commit": "node scripts/featureVerifier.mjs --apply",
-    "deploy:prod": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
-    "deploy:beta": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/beta.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/beta.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
+    "deploy:prod": "npm run test:all && npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
+    "deploy:beta": "npm run test:all && npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/beta.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/beta.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
     "deploy:old": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/old.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/old.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\""
   },
   "dependencies": {
