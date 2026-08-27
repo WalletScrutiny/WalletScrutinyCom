@@ -60,8 +60,10 @@
         min-width: 0;
         display: inline-flex;
         align-items: center;
-        justify-content: center;
         box-sizing: border-box;
+      }
+      #rawShareButtons .shareButtonNetwork {
+        justify-content: center;
       }
       .share-buttons-container { display: flex; flex-direction: row; width: 100%; justify-content: space-between; margin: auto; padding: auto; justify-items: center; }
       .network-text { margin-left: 10px; }
@@ -114,6 +116,8 @@
         padding: 10px 16px;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        text-align: left;
         width: 100%;
         box-sizing: border-box;
         font-size: 25px;
