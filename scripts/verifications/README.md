@@ -34,6 +34,7 @@ This script checks for orphaned files in the Blossom blobs directory.
 
 ```bash
 node checkBlossomSpam.mjs
+node checkBlossomSpam.mjs --delete
 ```
 
-You'll get a list of orphaned files that can be safely deleted by an administrator from the Blossom blobs directory. You'll need SSH access to the Blossom server to run this script.
+You'll get a list of unreferenced blobs with their upload timestamps. Files older than the local Nostr event backup cannot be classified as true orphans; only blobs inside the backup coverage window are candidates for deletion. `--delete` removes those likely orphans from the Blossom blobs directory and sqlite database. You'll need SSH access to the Blossom server to run this script.
