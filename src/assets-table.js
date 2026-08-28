@@ -23,6 +23,7 @@ import { renderProfilePictures } from "./assets-table-profiles.js";
 import { registerShowVerificationModal } from "./assets-table-modal.mjs";
 import {
   setAssetTableResponse,
+  indexVerificationsFromAssetInfo,
 } from "./assets-table-state.mjs";
 import {
   getVerificationIdFromHash,
@@ -408,12 +409,19 @@ window.renderAssetsTable = async function({
     }
   });
 
-  setAssetTableResponse(response);
-
   let skipRepaint = cachePaintFingerprint !== null &&
     fingerprintAllAssetInformation(response) === cachePaintFingerprint;
   if (skipRepaint && !document.getElementById('assetsTable')) {
     skipRepaint = false;
+  }
+
+  // Keep the painted maps as the modal source of truth. Index the network
+  // result so later lookups still see any extra events without dropping ids
+  // that are already on screen (empty-cache first paint, dual tables, reports).
+  if (skipRepaint) {
+    indexVerificationsFromAssetInfo(response);
+  } else {
+    setAssetTableResponse(response);
   }
 
   if (!skipRepaint) {
