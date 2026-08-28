@@ -335,8 +335,13 @@ function renderStamp (key, text) {
   return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color} alt=""></span>`;
 }
 
-function renderVerdictStamp (verdict, suffix) {
-  if (!verdict || !window.verdicts?.[verdict]) return '';
+function shouldShowVerdictStamp (verdict, meta) {
+  if (!verdict) return false;
+  return !(verdict === 'wip' && meta === 'removed');
+}
+
+function renderVerdictStamp (verdict, suffix, meta) {
+  if (!window.verdicts?.[verdict] || !shouldShowVerdictStamp(verdict, meta)) return '';
   const text = suffix ? `${window.verdicts[verdict].short} (${suffix})` : window.verdicts[verdict].short;
   return renderStamp(verdict, text);
 }
@@ -347,16 +352,21 @@ function getWalletVerdictStampsHtml (wallet, platformFilter) {
     const showIphone = !platformFilter || platformFilter === 'iphone';
     const va = showAndroid ? wallet.verdictAndroid : '';
     const vi = showIphone ? wallet.verdictIphone : '';
+    const ma = showAndroid ? wallet.metaAndroid : '';
+    const mi = showIphone ? wallet.metaIphone : '';
     if (va && vi && va === vi) {
+      const showA = shouldShowVerdictStamp(va, ma);
+      const showI = shouldShowVerdictStamp(vi, mi);
+      if (!showA && !showI) return '';
       return renderVerdictStamp(va);
     }
     const dual = va && vi && va !== vi;
     const parts = [];
-    if (va) parts.push(renderVerdictStamp(va, dual ? 'Android' : null));
-    if (vi) parts.push(renderVerdictStamp(vi, dual ? 'iPhone' : null));
+    if (va) parts.push(renderVerdictStamp(va, dual ? 'Android' : null, ma));
+    if (vi) parts.push(renderVerdictStamp(vi, dual ? 'iPhone' : null, mi));
     return parts.join('');
   }
-  return wallet.verdict ? renderVerdictStamp(wallet.verdict) : '';
+  return renderVerdictStamp(wallet.verdict, null, wallet.meta);
 }
 
 function getWalletScoreIconsHtml (score) {
@@ -469,13 +479,21 @@ function renderWalletPlatformMetaStamp (wallet, platform) {
   return renderStamp(meta, window.verdicts[meta].short);
 }
 
-function renderWalletPlatformSection (wallet, platform) {
+function getWalletPlatformMeta (wallet, platform) {
+  return platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
+}
+
+function getWalletPlatformVerdictStampsHtml (wallet, platform) {
   const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
-  const score = platform === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-  const stamps = [
-    verdict ? renderVerdictStamp(verdict) : '',
+  return [
+    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform)),
     renderWalletPlatformMetaStamp(wallet, platform),
   ].filter(Boolean).join('');
+}
+
+function renderWalletPlatformSection (wallet, platform) {
+  const score = platform === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
+  const stamps = getWalletPlatformVerdictStampsHtml(wallet, platform);
   const verificationHtml = getWalletVerificationHtmlForPlatform(wallet, platform);
   let scoreHtml = '';
   if (score) {
@@ -626,12 +644,8 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
   if (usePlatformSections) {
     const shared = getWalletSharedStampsHtml(wallet);
     const sections = platforms.map((p) => {
-      const verdict = p === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
       const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-      const stamps = [
-        verdict ? renderVerdictStamp(verdict) : '',
-        renderWalletPlatformMetaStamp(wallet, p),
-      ].filter(Boolean).join('');
+      const stamps = getWalletPlatformVerdictStampsHtml(wallet, p);
       const verificationHTML = wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p);
       let sectionScoreHTML = '';
       if (score) {
