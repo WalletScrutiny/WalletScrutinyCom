@@ -1,5 +1,5 @@
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { setAssetTableResponse, findVerificationByIdInMaps } from "./assets-table-state.mjs";
+import { setAssetTableResponse, findVerificationByIdInMaps, resolveVerificationById } from "./assets-table-state.mjs";
 import { prefetchVerificationAttachments } from "./assets-table-attachments.mjs";
 
 let hashVerificationModalOpened = false;
@@ -39,7 +39,8 @@ function isVerificationModalVisible() {
 }
 
 function openVerificationFromHash(assetInfo, verificationId, { isFinalAttempt = false } = {}) {
-  const result = findVerificationByIdInMaps(assetInfo, verificationId);
+  const result = findVerificationByIdInMaps(assetInfo, verificationId)
+    || resolveVerificationById(verificationId);
   if (!result) {
     if (isFinalAttempt) {
       if (hashVerificationModalOpened || isVerificationModalVisible()) {

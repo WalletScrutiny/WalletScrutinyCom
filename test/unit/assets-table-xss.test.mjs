@@ -12,12 +12,13 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
-  renderVerificationCard,
-  renderVerificationActionLink,
-  renderBlossomDownloadButton,
-  renderVerificationsCell,
+  createVerificationCard,
+  createVerificationActionLink,
+  createBlossomDownloadButton,
+  createVerificationsCell,
   renderAssetVersionDescriptionHtml,
 } from '../../src/assets-table-paint.mjs';
+import { htmlOf } from '../../src/html-utils.mjs';
 import {
   eventSanitize,
   getVerificationHashList,
@@ -120,7 +121,23 @@ function makeAttestation(overrides = {}) {
   });
 }
 
-describe('renderVerificationCard — Nostr values must not break out of attributes', () => {
+function renderVerificationCard(options) {
+  return htmlOf(createVerificationCard(options));
+}
+
+function renderVerificationActionLink(options) {
+  return htmlOf(createVerificationActionLink(options));
+}
+
+function renderBlossomDownloadButton(options) {
+  return htmlOf(createBlossomDownloadButton(options));
+}
+
+function renderVerificationsCell(options) {
+  return htmlOf(createVerificationsCell(options));
+}
+
+describe('createVerificationCard — Nostr values must not break out of attributes', () => {
   test('identifier with single quote does not inject a new handler attribute', () => {
     const html = renderVerificationCard({
       attestation: makeAttestation(),
@@ -202,7 +219,7 @@ describe('renderVerificationCard — Nostr values must not break out of attribut
   });
 });
 
-describe('renderVerificationActionLink — query values must not break the href', () => {
+describe('createVerificationActionLink — query values must not break the href', () => {
   test('identifier with double quote does not inject attributes into the anchor', () => {
     const html = renderVerificationActionLink({
       identifier: DOUBLE_QUOTE_BREAKOUT,
@@ -235,7 +252,7 @@ describe('renderVerificationActionLink — query values must not break the href'
   });
 });
 
-describe('renderBlossomDownloadButton — data-* attributes must not break out', () => {
+describe('createBlossomDownloadButton — data-* attributes must not break out', () => {
   test('identifier with double quote does not inject handlers on the button', () => {
     const html = renderBlossomDownloadButton({
       downloadHash: SAFE_HASH,
@@ -243,7 +260,6 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
       platform: 'android',
       version: '1.2.3',
       sanitizedFileName: 'app.apk',
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });
@@ -257,7 +273,6 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
       platform: 'android',
       version: DOUBLE_QUOTE_BREAKOUT,
       sanitizedFileName: 'app.apk',
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });
@@ -271,7 +286,6 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
       platform: DOUBLE_QUOTE_BREAKOUT,
       version: '1.2.3',
       sanitizedFileName: 'app.apk',
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });
@@ -285,7 +299,6 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
       platform: 'android',
       version: '1.2.3',
       sanitizedFileName: DOUBLE_QUOTE_BREAKOUT,
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });
@@ -299,7 +312,6 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
       platform: 'android',
       version: '1.2.3',
       sanitizedFileName: 'app.apk',
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });
@@ -307,7 +319,7 @@ describe('renderBlossomDownloadButton — data-* attributes must not break out',
   });
 });
 
-describe('renderVerificationsCell — composed card + action link stay safe', () => {
+describe('createVerificationsCell — composed card + action link stay safe', () => {
   test('malicious identifier cannot inject handlers into the cell', () => {
     const html = renderVerificationsCell({
       attestations: [makeAttestation()],
@@ -658,7 +670,6 @@ describe('legitimate Nostr values must survive sanitize and remain usable in ren
       platform: LEGIT_PLATFORM,
       version: LEGIT_VERSION,
       sanitizedFileName: 'zeus-v0.9.0-rc1.apk',
-      bundleFilesAttr: '',
       downloadTitle: 'Download from Blossom',
       bundleFileCount: 1,
     });

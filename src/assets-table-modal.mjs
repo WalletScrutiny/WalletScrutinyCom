@@ -8,8 +8,9 @@ import {
   getAssetTableResponse,
   setOriginalUrlBeforeModal,
   getOriginalUrlBeforeModal,
-  findVerificationByIdInMaps,
+  resolveVerificationById,
 } from "./assets-table-state.mjs";
+import { getVerificationEvent } from "./verifications_utils.mjs";
 import {
   loadEndorsementsForVerification,
 } from "./assets-table-endorsements.mjs";
@@ -357,18 +358,30 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   document.body.classList.add("modal-open");
   prefetchMarked();
 
-  const response = getAssetTableResponse();
-  if (!response) {
-    console.error('showVerificationModal: asset data not loaded yet');
-    document.body.classList.remove("modal-open");
-    return;
+  let response = getAssetTableResponse();
+
+  let lookup = resolveVerificationById(verificationId);
+  if (!lookup && verificationId) {
+    const fetched = await getVerificationEvent(verificationId).catch(() => null);
+    if (fetched) {
+      lookup = {
+        verification: fetched,
+        sha256Hash: sha256Hash || getFirstTagValue(fetched, 'x'),
+      };
+    }
   }
 
-  const lookup = findVerificationByIdInMaps(response, verificationId);
   if (!lookup) {
     console.warn('showVerificationModal: verification not found:', verificationId);
     document.body.classList.remove("modal-open");
     return;
+  }
+
+  if (!response) {
+    response = {
+      verifications: new Map(),
+      draftVerifications: new Map(),
+    };
   }
 
   const verification = lookup.verification;
@@ -376,8 +389,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   const basedOn = getFirstTagValue(verification, 'based-on');
 
-  const verifications = response.verifications.get(sha256Hash) || [];
-  const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
+  const verifications = response.verifications?.get(sha256Hash) || [];
+  const draftVerifications = response.draftVerifications?.get(sha256Hash) || [];
   const allTheVerifications = [...verifications, ...draftVerifications];
   const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
