@@ -161,10 +161,6 @@ export function createVerificationActionLink({ identifier, version, platform, la
   }, label);
 }
 
-export function renderVerificationActionLink(options) {
-  return htmlOf(createVerificationActionLink(options));
-}
-
 export function createBlossomDownloadButton({
   downloadHash,
   identifier,
@@ -206,33 +202,6 @@ export function createBlossomDownloadButton({
   return button;
 }
 
-export function renderBlossomDownloadButton({
-  downloadHash,
-  identifier,
-  platform,
-  version,
-  sanitizedFileName,
-  bundleFilesAttr,
-  downloadTitle,
-  bundleFileCount,
-}) {
-  let bundleFilesJson;
-  if (bundleFilesAttr) {
-    const match = /data-bundle-files="([^"]*)"/.exec(bundleFilesAttr);
-    bundleFilesJson = match?.[1];
-  }
-  return htmlOf(createBlossomDownloadButton({
-    downloadHash,
-    identifier,
-    platform,
-    version,
-    sanitizedFileName,
-    bundleFilesJson,
-    downloadTitle,
-    bundleFileCount,
-  }));
-}
-
 export function createVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft }) {
   const status = getFirstTagValue(attestation, 'status');
   const attestationDate = formatDate(attestation.created_at);
@@ -268,10 +237,6 @@ export function createVerificationCard({ attestation, sha256HashKey, identifier,
   );
 }
 
-export function renderVerificationCard(options) {
-  return htmlOf(createVerificationCard(options));
-}
-
 // Single source of truth for which verifications represent a row: the latest published
 // verification per verifier, plus every draft as its own entry. The cards and the warning badge
 // both read this, so they cannot disagree about what is current.
@@ -305,11 +270,6 @@ export function createVersionWarningBadge(currentVerifications) {
     className: 'version-warning-badge',
     title: 'A verifier flagged a serious problem with this version. See the Warning verification on this row.',
   }, '⚠️ Warning');
-}
-
-export function renderVersionWarningBadge(currentVerifications) {
-  const badge = createVersionWarningBadge(currentVerifications);
-  return badge ? htmlOf(badge) : '';
 }
 
 /** Version + description fragments for tests and callers that still serialize to HTML. */
@@ -396,10 +356,6 @@ export function createVerificationsCell({
     }));
   }
   return cell;
-}
-
-export function renderVerificationsCell(options) {
-  return htmlOf(createVerificationsCell(options));
 }
 
 function appendVersionBlock(parent, { version, warningBadge, itemDescription, hashCellContent }) {

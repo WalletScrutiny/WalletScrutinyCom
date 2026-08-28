@@ -65,11 +65,6 @@ export function getPool() {
   return pool;
 }
 
-/** @deprecated Use getPool() */
-export function getNdk() {
-  return pool;
-}
-
 export function getRelayUrls() {
   return relayUrls;
 }

@@ -1,13 +1,12 @@
 import * as nip19 from 'nostr-tools/nip19';
 import {
   connectNostr,
-  ensureConnected,
   disconnectNostr,
-  getPool as getNostrPoolSync,
+  getPool,
   getRelayUrls,
   fetchEvents as nostrFetchEvents,
   fetchEvent as nostrFetchEvent,
-  fetchEventsWithPagination as nostrFetchEventsWithPagination,
+  fetchEventsWithPagination,
   signEvent,
   publishEvent,
   publishToRelays,
@@ -67,7 +66,7 @@ const purifyConfig = {
   RETURN_TRUSTED_TYPE: false
 };
 
-let ndkConnectionPromise = null;
+let nostrConnectionPromise = null;
 let signerReadyPromise = null;
 let hasNip07Signer = false;
 let resolveNostrConnectInitiated;
@@ -77,13 +76,6 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
 
 const connectTimeout = 5;
 const nip07WaitTimeoutMs = 3125;
-
-export const getNdk = async () => {
-  await ensureNdkConnected();
-  return getNostrPoolSync();
-};
-
-export const getNostrPool = getNdk;
 
 const assignSigner = async function() {
   const nip07 = await waitNostr(nip07WaitTimeoutMs);
@@ -103,7 +95,7 @@ const nostrConnect = function () {
     resolveSignerReady = resolve;
   });
 
-  ndkConnectionPromise = (async () => {
+  nostrConnectionPromise = (async () => {
     try {
       await connectNostr({
         relayUrls: eventRelayUrls,
@@ -131,23 +123,23 @@ const nostrConnect = function () {
   })();
 
   resolveNostrConnectInitiated();
-  console.debug("nostrConnect initiated, ndkConnectionPromise is set.");
+  console.debug("nostrConnect initiated, nostrConnectionPromise is set.");
 
-  return ndkConnectionPromise;
+  return nostrConnectionPromise;
 };
 
-const ensureNdkConnected = async () => {
-  if (!ndkConnectionPromise) {
+const ensureNostrConnected = async () => {
+  if (!nostrConnectionPromise) {
     await nostrConnectInitiatedPromise;
   }
-  await ndkConnectionPromise;
-  if (!getNostrPoolSync()) {
+  await nostrConnectionPromise;
+  if (!getPool()) {
     throw new Error("Nostr pool not initialized after connection.");
   }
 };
 
 const ensureSignerReady = async () => {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   if (signerReadyPromise) {
     await signerReadyPromise;
   }
@@ -188,7 +180,7 @@ const getWSClientTags = function() {
   ];
 }
 
-async function publishNdkEvent(eventDraft, eventType = 'event') {
+async function signAndPublish(eventDraft, eventType = 'event') {
   await ensureSignerReady();
   const signed = await signEvent(eventDraft);
   const { successful } = await publishEvent(signed);
@@ -199,7 +191,7 @@ async function publishNdkEvent(eventDraft, eventType = 'event') {
   return signed;
 }
 
-function createNdkEvent(kind, content, tags = [], createdAt = null) {
+function createNostrEvent(kind, content, tags = [], createdAt = null) {
   return createEventDraft({
     kind,
     content,
@@ -238,7 +230,7 @@ const createAssetRegistration = async function ({
                                                   fileName,
                                                   createdAt = null
                                                 }) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   validateSHA256([sha256]);
 
   if (!appId || !version || !description) {
@@ -260,10 +252,10 @@ const createAssetRegistration = async function ({
     tags.push(["file-name", fileName]);
   }
 
-  const ndkEvent = createNdkEvent(assetRegistrationKind, description, tags, createdAt);
-  eventSanitize(ndkEvent);
+  const eventDraft = createNostrEvent(assetRegistrationKind, description, tags, createdAt);
+  eventSanitize(eventDraft);
 
-  return await publishNdkEvent(ndkEvent, 'asset registration');
+  return await signAndPublish(eventDraft, 'asset registration');
 }
 
 const createAssetBundleRegistration = async function ({
@@ -274,7 +266,7 @@ const createAssetBundleRegistration = async function ({
   description,
   createdAt = null
 }) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
 
   if (!Array.isArray(files) || files.length === 0) {
     throw new Error('At least one file is required');
@@ -309,10 +301,10 @@ const createAssetBundleRegistration = async function ({
     tags.push(['x', file.sha256, file.fileName]);
   }
 
-  const ndkEvent = createNdkEvent(assetBundleRegistrationKind, description, tags, createdAt);
-  eventSanitize(ndkEvent);
+  const eventDraft = createNostrEvent(assetBundleRegistrationKind, description, tags, createdAt);
+  eventSanitize(eventDraft);
 
-  return await publishNdkEvent(ndkEvent, 'asset bundle registration');
+  return await signAndPublish(eventDraft, 'asset bundle registration');
 }
 
 const createVerification = async function ({
@@ -332,7 +324,7 @@ const createVerification = async function ({
                                              outputFiles = [],
                                              basedOn = null
                                            }) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   validateSHA256(hashes);
 
   if (!content || !status) {
@@ -422,15 +414,15 @@ const createVerification = async function ({
     tags.push(["based-on", basedOn]);
   }
 
-  const ndkEvent = createNdkEvent(
+  const eventDraft = createNostrEvent(
     isDraft ? verificationDraftKind : verificationKind,
     fullContent,
     tags,
     createdAt
   );
-  eventSanitize(ndkEvent);
+  eventSanitize(eventDraft);
 
-  const published = await publishNdkEvent(ndkEvent, 'verification');
+  const published = await signAndPublish(eventDraft, 'verification');
 
   if (!isDraft && draftVerificationEventId) {
     const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
@@ -516,7 +508,7 @@ async function fetchReportsForVerificationIds(verificationEventIds, { unscoped =
   if (!filters.length) {
     return reported;
   }
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   for (const filter of filters) {
     try {
       const batch = await nostrFetchEvents(filter);
@@ -540,7 +532,7 @@ const createVerificationReport = async function ({
   reportedPubkey,
   reason
 }) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   if (!verificationEventId || !reportedPubkey) {
     throw new Error('Missing required parameters');
   }
@@ -558,9 +550,9 @@ const createVerificationReport = async function ({
     ['r', reason]
   ];
   const body = `WalletScrutiny.com admin report: verification ${verificationEventId} as ${reason}.`;
-  const ndkEvent = createNdkEvent(verificationReportKind, body, tags);
-  eventSanitize(ndkEvent);
-  const reportEvent = await publishNdkEvent(ndkEvent, 'verification report');
+  const eventDraft = createNostrEvent(verificationReportKind, body, tags);
+  eventSanitize(eventDraft);
+  const reportEvent = await signAndPublish(eventDraft, 'verification report');
   await saveEventsToIDB([reportEvent]).catch(e => {
     console.warn('Failed to save verification report to IDB', e);
   });
@@ -568,7 +560,7 @@ const createVerificationReport = async function ({
 };
 
 const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   console.debug("Creating attestation (endorsement) for verification: ", verificationEventId);
 
   if (validity !== null && typeof validity !== 'boolean') {
@@ -585,8 +577,8 @@ const createEndorsement = async function ({validity = null, verificationEventId,
     ["validity", validity ? "valid" : "invalid"],
   ];
 
-  const ndkEvent = createNdkEvent(endorsementKind, '', tags);
-  await publishNdkEvent(ndkEvent, 'endorsement');
+  const eventDraft = createNostrEvent(endorsementKind, '', tags);
+  await signAndPublish(eventDraft, 'endorsement');
 }
 
 function getCreatedAt(createdAt) {
@@ -700,7 +692,7 @@ const getFileAttachmentIDsForVerificationEvent = function(event) {
 }
 
 const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
 
   if (!fileName || !fileType || !base64Data) {
     throw new Error("Missing required parameters for file upload");
@@ -720,10 +712,10 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
     ["size", fileSize.toString()]
   ];
 
-  const ndkEvent = createNdkEvent(codeSnippetKind, base64Data, tags);
+  const eventDraft = createNostrEvent(codeSnippetKind, base64Data, tags);
 
   try {
-    const published = await publishNdkEvent(ndkEvent, `file ${fileName}`);
+    const published = await signAndPublish(eventDraft, `file ${fileName}`);
     return { success: true, eventId: published.id, fileName: fileName };
   } catch (error) {
     console.error(`Error uploading file ${fileName}`, error);
@@ -732,7 +724,7 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
 }
 
 const getEventsFromEventIds = async function(eventIds) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
 
   if (!eventIds || eventIds.length === 0) {
     console.debug(`No event-ids found on verification event ${eventIds}.`);
@@ -747,7 +739,7 @@ const getEventsFromEventIds = async function(eventIds) {
 }
 
 const getEndorsementsFromVerificationEventIds = async function(verificationEventIds) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   const endorsements = await nostrFetchEvents({
     kinds: [endorsementKind],
     '#e': verificationEventIds
@@ -800,15 +792,6 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
 
   return attachments;
 }
-
-/**
- * Fetches events with pagination support for a filter
- * @param {Object} filter - Filter object to fetch events for
- * @returns {Promise<Set>} - Set of events
- */
-const fetchEventsWithPagination = async function(filter, options = {}) {
-  return nostrFetchEventsWithPagination(filter, options);
-};
 
 function buildRelayPaginationOptions(relayUrls) {
   return {
@@ -1119,7 +1102,7 @@ const getIDBEventRange = async (kinds = null) => {
  */
 const backgroundSyncEvents = async function() {
   try {
-    await ensureNdkConnected();
+    await ensureNostrConnected();
     console.log('🔄 Background sync starting...');
 
     const SYNC_LIMIT = 500; // Max events per query (relay limit)
@@ -1316,7 +1299,7 @@ const backgroundSyncEvents = async function() {
 };
 
 /**
- * Helper function to process raw NDK events into our application structure
+ * Helper function to process raw Nostr events into our application structure
  * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
 export function getVerificationHashList(event) {
@@ -1527,7 +1510,7 @@ const getAllAssetInformation = async function({ months,
 
   // 3. Fetch from Network
   let newEvents = new Set();
-  await ensureNdkConnected();
+  await ensureNostrConnected();
 
   // Strategy: First fetch verifications, then fetch related assets and other events
   // Only fetch assets for appIds that have verifications
@@ -1588,7 +1571,7 @@ const getAllAssetInformation = async function({ months,
         console.debug(`Fetching single batch with filter:`, filter);
         newEvents = await nostrFetchEvents(filter);
       } else {
-        newEvents = await fetchEventsWithPagination( filter);
+        newEvents = await fetchEventsWithPagination(filter);
       }
 
       console.log(`Fetched ${newEvents.size} new events from network`);
@@ -1728,27 +1711,27 @@ function showToast(message, type = 'success', duration = 4000) {
 }
 
 const createNostrNote = async function (message) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   if (!message) {
     throw new Error("Message is required");
   }
 
-  const ndkEvent = createNdkEvent(1, message);
-  const published = await publishNdkEvent(ndkEvent, 'note');
+  const eventDraft = createNostrEvent(1, message);
+  const published = await signAndPublish(eventDraft, 'note');
   return published.id;
 }
 
 const createNostrCommentToVerification = async function(verificationKey, comment, commentAuthorPubkeys, messageCounter) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
 
-  const ndkEvent = createNdkEvent(verificationCommentKind, comment);
-  ndkEvent.tags.push(['v', verificationKey]);
+  const eventDraft = createNostrEvent(verificationCommentKind, comment);
+  eventDraft.tags.push(['v', verificationKey]);
   commentAuthorPubkeys.forEach(pubkey => {
-    ndkEvent.tags.push(['p', pubkey]);
+    eventDraft.tags.push(['p', pubkey]);
   });
-  ndkEvent.tags.push(['d', verificationKey + '-' + messageCounter.toString()]);
+  eventDraft.tags.push(['d', verificationKey + '-' + messageCounter.toString()]);
 
-  const published = await publishNdkEvent(ndkEvent, 'comment to verification');
+  const published = await signAndPublish(eventDraft, 'comment to verification');
   return published.id;
 }
 
@@ -1763,7 +1746,7 @@ const getCommentsForVerification = async function(verificationKey) {
   // Remove last part of the verificationKey (the event id)
   const verificationKeyWithoutEventId = verificationKey.split(':').slice(0, -1).join(':');
 
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   const comments = await nostrFetchEvents([
     {
       kinds: [verificationCommentKind],
@@ -1879,7 +1862,7 @@ const getVerificationEvent = async function(verificationEventId) {
     throw new Error('No verification event ID provided');
   }
 
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   return await nostrFetchEvent(verificationEventId);
 }
 
@@ -1922,7 +1905,7 @@ const deletePublishedVerification = async function(verificationEventId, reason =
   }
 
   try {
-    await ensureNdkConnected();
+    await ensureNostrConnected();
     const verificationEvent = await getVerificationEvent(verificationEventId);
     if (!verificationEvent) {
       showToast('Verification event not found on relays', 'error');
@@ -1967,7 +1950,7 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
   }
 
   try {
-    await ensureNdkConnected();
+    await ensureNostrConnected();
     const commentEvent = await nostrFetchEvent(commentEventId);
     if (!commentEvent) {
       showToast('Comment not found on relays', 'error');
@@ -2200,10 +2183,10 @@ function getWeightForAppFromAssetInformation(appId) {
   };
 }
 
-const cleanupNdkConnections = function() {
+const cleanupNostrConnections = function() {
   try {
     disconnectNostr();
-    ndkConnectionPromise = null;
+    nostrConnectionPromise = null;
     signerReadyPromise = null;
     hasNip07Signer = false;
     console.warn("Nostr cleanup completed");
@@ -2352,7 +2335,7 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
 };
 
 const createAuthorizationEvent = async function(verb, content, xTags = [], serverUrl = '', tags = []) {
-  await ensureNdkConnected();
+  await ensureNostrConnected();
   const eventObject = {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
@@ -2414,7 +2397,7 @@ if (typeof window !== 'undefined') {
   window.getMaxAssetVersion = getMaxAssetVersion;
   window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
   window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
-  window.cleanupNdkConnections = cleanupNdkConnections;
+  window.cleanupNostrConnections = cleanupNostrConnections;
   window.createNostrCommentToVerification = createNostrCommentToVerification;
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
@@ -2424,7 +2407,7 @@ if (typeof window !== 'undefined') {
   window.createAuthorizationEvent = createAuthorizationEvent;
   window.getTagValue = getTagValue;
   window.addEventListener('beforeunload', () => {
-    cleanupNdkConnections();
+    cleanupNostrConnections();
   });
 }
 
