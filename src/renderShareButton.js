@@ -192,7 +192,7 @@
       const pulseClass = pulseAttention ? ' share-dropdown-trigger--pulse' : '';
       html += `
         <div class="dropdown">
-          <button type="button" class="btn btn-info share-dropdown-trigger${pulseClass}"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share</button>
+          <button type="button" class="btn btn-info share-dropdown-trigger${pulseClass}"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share <i class="fas fa-caret-down"></i></button>
           <div class="share-dropdown-menu">
             ${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}
           </div>

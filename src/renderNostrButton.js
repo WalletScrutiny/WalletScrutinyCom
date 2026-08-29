@@ -30,7 +30,7 @@ import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
 
     let html = `
       <div class="dropdown">
-        <button id="nostrBtn" class="btn btn-info"><img src="/images/nostr_logo.svg" alt="Nostr Logo"/>Nostr</button>
+        <button id="nostrBtn" class="btn btn-info"><img src="/images/nostr_logo.svg" alt="Nostr Logo"/>Nostr <i class="fas fa-caret-down"></i></button>
         <div id="nostrDropdown" class="dropdown-content2">
           <button id="openNjumpBtn" type="button">Open in Njump.me</button>
           <button id="copyEmbedBtn" type="button">Copy Nostr embed code</button>

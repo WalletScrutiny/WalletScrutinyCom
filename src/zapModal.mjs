@@ -155,11 +155,21 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
   `;
   document.body.appendChild(modal);
 
-  modal.querySelector('.zap-modal-close').onclick = () => {
+  const closeZapModal = () => {
     document.getElementById('loadingSpinner').style.display = 'none';
     modal.remove();
     if (onClose) onClose();
   };
+
+  modal.querySelector('.zap-modal-close').onclick = closeZapModal;
+
+  // Background click closes only the zap modal; the verification modal's own
+  // close handler already ignores clicks originating inside .zap-modal.
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      closeZapModal();
+    }
+  });
 
   const amounts = {
     "1000": "👍",

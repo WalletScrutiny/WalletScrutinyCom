@@ -280,6 +280,81 @@ function initVerificationAdminReportControls(verification) {
   };
 }
 
+export function buildWriteVerificationMenuHtml(verification, sha256Hash, editParams, isDraft) {
+  const appId = getFirstTagValue(verification, 'i') || '';
+  const version = getFirstTagValue(verification, 'version') || '';
+  const platform = getFirstTagValue(verification, 'platform') || '';
+
+  const artifactParams = new URLSearchParams();
+  if (isSha256Hex(sha256Hash)) {
+    artifactParams.set('sha256', sha256Hash);
+  }
+  verification.tags
+    .filter(tag => tag[0] === 'x' && isSha256Hex(tag[1]) && tag[1] !== sha256Hash)
+    .forEach(tag => artifactParams.append('hash', tag[1]));
+  if (appId) artifactParams.set('appId', appId);
+  if (version) artifactParams.set('version', version);
+  if (platform) artifactParams.set('platform', platform);
+
+  const productParams = new URLSearchParams();
+  if (appId) productParams.set('appId', appId);
+  if (platform) productParams.set('platform', platform);
+
+  const entries = [
+    { href: `/new_verification/?${editParams.toString()}`, label: isDraft ? 'From this draft' : 'From this verification' },
+    { href: `/new_verification/?${artifactParams.toString()}`, label: 'Of this artifact' },
+    { href: `/new_verification/?${productParams.toString()}`, label: 'Of this product' },
+    { href: '/new_verification/', label: 'New empty verification' },
+  ];
+
+  const items = entries.map(({ href, label }) => htmlOf(el('a', {
+    className: 'write-verification-option',
+    href,
+    style: { display: 'block', width: '100%', textAlign: 'left', padding: '8px 12px', textDecoration: 'none', fontSize: '16px' },
+  }, label))).join('');
+
+  return `<span id="writeVerificationWrap" style="display: inline-block; position: relative; vertical-align: middle;">
+    <button type="button" class="btn btn-info" id="writeVerificationBtn" style="margin: 0;">✏️ Write verification <i class="fas fa-caret-down"></i></button>
+    <div id="writeVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 220px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">${items}</div>
+  </span>`;
+}
+
+function initWriteVerificationMenuControls() {
+  const menu = document.getElementById('writeVerificationMenu');
+  const writeBtn = document.getElementById('writeVerificationBtn');
+  if (!menu || !writeBtn) {
+    return;
+  }
+  menu.style.display = 'none';
+
+  const applyWriteVerificationMenuTheme = () => {
+    const isDark = window.theme === 'dark';
+    menu.style.background = isDark ? '#2d2d2d' : '#fff';
+    menu.style.color = isDark ? '#fff' : '#000';
+    menu.style.borderColor = isDark ? '#555' : '#ccc';
+    const hoverBg = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
+    menu.querySelectorAll('.write-verification-option').forEach((el) => {
+      el.style.setProperty('color', isDark ? '#ffffff' : '#000000', 'important');
+      el.style.setProperty('background', 'transparent', 'important');
+      el.onmouseenter = () => {
+        el.style.setProperty('background', hoverBg, 'important');
+      };
+      el.onmouseleave = () => {
+        el.style.setProperty('background', 'transparent', 'important');
+      };
+    });
+  };
+
+  writeBtn.onclick = (e) => {
+    e.stopPropagation();
+    const opening = menu.style.display === 'none' || menu.style.display === '';
+    if (opening) {
+      applyWriteVerificationMenuTheme();
+    }
+    menu.style.display = opening ? 'block' : 'none';
+  };
+}
+
 function buildVerifierProfileCardHtml(profile, pubkey) {
   const imageUrl = getProfileImageUrl(profile);
   const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
@@ -537,16 +612,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const isDraft = verification.kind === verificationDraftKind;
   const isMyDraft = isDraft && isMine;
 
-  let title = '';
-  let icon = '';
-  if (isMine) {
-    title = isDraft ? 'Edit your draft' : 'Edit your verification';
-    icon = '✏️';
-  } else {
-    title = isDraft ? 'Copy this draft' : 'Copy this verification';
-    icon = '📋';
-  }
-
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
   toolbarRowHtml += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
@@ -556,14 +621,19 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   } else {
     editParams.set('verificationEventId', verification.id);
   }
-  if (!isMine && verification.id && verification.pubkey) {
-    editParams.set('basedOn', `${verification.id}:${verification.pubkey}`);
+  if (isMine) {
+    const title = isDraft ? 'Edit your draft' : 'Edit your verification';
+    toolbarRowHtml += htmlOf(el('a', {
+      className: 'btn btn-info',
+      href: `/new_verification/?${editParams.toString()}`,
+      title,
+    }, `✏️ ${title}`));
+  } else {
+    if (verification.id && verification.pubkey) {
+      editParams.set('basedOn', `${verification.id}:${verification.pubkey}`);
+    }
+    toolbarRowHtml += buildWriteVerificationMenuHtml(verification, sha256Hash, editParams, isDraft);
   }
-  toolbarRowHtml += htmlOf(el('a', {
-    className: 'btn btn-info',
-    href: `/new_verification/?${editParams.toString()}`,
-    title,
-  }, `${icon} ${title}`));
   if (!isDraft && !isMine) {
     toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
   }
@@ -573,7 +643,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
     </button>
     <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
-      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect</button>
+      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect <i class="fas fa-caret-down"></i></button>
       <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
         <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
         <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
@@ -769,6 +839,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
 
   initVerificationAdminReportControls(verification);
+  initWriteVerificationMenuControls();
 
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();

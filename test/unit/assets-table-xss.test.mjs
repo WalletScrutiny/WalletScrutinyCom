@@ -28,6 +28,7 @@ import {
   buildOutputFileDownloadHtml,
   buildDiffoscopeOpenButtonHtml,
   buildIssueTrackerLinkHtml,
+  buildWriteVerificationMenuHtml,
 } from '../../src/assets-table-modal.mjs';
 import {
   buildAttachmentRowActionsHtml,
@@ -37,7 +38,7 @@ import {
   createAttachmentPreviewNode,
 } from '../../src/assets-table-attachments.mjs';
 import { verificationKind } from '../../src/nostr-constants.mjs';
-import { HASH_A, makeEvent } from './fixtures.mjs';
+import { HASH_A, HASH_B, makeEvent } from './fixtures.mjs';
 
 const SAFE_HASH = HASH_A;
 const SAFE_ID = 'c'.repeat(64);
@@ -499,6 +500,28 @@ describe('modal HTML builders — Nostr-derived ids/names must not break handler
     const html = buildIssueTrackerLinkHtml(`javascript:alert(1)${DOUBLE_QUOTE_BREAKOUT}`);
     assertNoAttributeBreakout(html);
     assert.doesNotMatch(html, /javascript:/i);
+  });
+
+  test('write verification menu rejects breakout in event tag values', () => {
+    const event = makeEvent({
+      id: SAFE_ID,
+      pubkey: SAFE_PUBKEY,
+      tags: [
+        ['i', DOUBLE_QUOTE_BREAKOUT],
+        ['version', SINGLE_QUOTE_BREAKOUT],
+        ['platform', HTML_TAG_PAYLOAD],
+        ['x', HASH_B],
+        ['x', FAKE_HASH_WITH_QUOTE],
+      ],
+    });
+    const editParams = new URLSearchParams({ action: 'edit', verificationEventId: SAFE_ID });
+    const html = buildWriteVerificationMenuHtml(event, SAFE_HASH, editParams, false);
+    assertNoAttributeBreakout(html);
+    assertNoInlineHandlers(html);
+    assertNoRawHtmlPayload(html);
+    // Only valid hex hashes end up as artifact hash params.
+    assert.match(html, new RegExp(`hash=${HASH_B}`));
+    assert.match(html, new RegExp(`sha256=${SAFE_HASH}`));
   });
 });
 
