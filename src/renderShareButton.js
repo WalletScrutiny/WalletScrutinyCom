@@ -308,6 +308,18 @@
         }
       };
     }
+    if (el._shareKeydownHandler) {
+      window.removeEventListener("keydown", el._shareKeydownHandler, true);
+    }
+    // Capture phase + stopPropagation: an open overlay consumes Escape so the
+    // verification modal underneath stays open.
+    el._shareKeydownHandler = function (event) {
+      if (event.key === "Escape" && shareModal && shareModal.style.display === "block") {
+        event.stopPropagation();
+        closeShareNostrModal();
+      }
+    };
+    window.addEventListener("keydown", el._shareKeydownHandler, true);
     if (el._shareClickAwayHandler) {
       window.removeEventListener("click", el._shareClickAwayHandler);
     }
