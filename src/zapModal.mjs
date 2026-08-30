@@ -163,8 +163,6 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
 
   modal.querySelector('.zap-modal-close').onclick = closeZapModal;
 
-  // Background click closes only the zap modal; the verification modal's own
-  // close handler already ignores clicks originating inside .zap-modal.
   modal.addEventListener('click', (event) => {
     if (event.target === modal) {
       closeZapModal();
