@@ -19,7 +19,7 @@ android:
   icon: com.korbit.exchange.png
   meta: ok
   verdict: custodial
-  developerName: Korbit
+  developerName: 디지털엑스
 iphone:
   appId: com.korbit.exchange
   idd: 1434511619

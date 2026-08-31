@@ -19,7 +19,7 @@ android:
   released: 2023-05-26
   updated: 2026-08-12
   version: 2.2.5.10
-  reviews: 1175
+  reviews: 1177
   icon: com.webull.pay.us.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-08-12
   version: 2.2.6
-  reviews: 26145
+  reviews: 26175
   icon: com.webull.pay.us.jpg
   meta: ok
   verdict: custodial

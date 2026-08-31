@@ -37,8 +37,8 @@ iphone:
   idd: '6462672660'
   appCountry: us
   released: 2023-10-15
-  updated: 2026-08-21
-  version: 1.17.6
+  updated: 2026-08-31
+  version: 1.18.0
   reviews: 42
   icon: ilink.walletverse.jpg
   meta: ok

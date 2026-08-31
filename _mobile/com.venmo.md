@@ -17,9 +17,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2010-05-17
-  updated: 2026-08-21
-  version: 26.17.0
-  reviews: 360275
+  updated: 2026-08-28
+  version: 26.17.1
+  reviews: 360503
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: '351727428'
   appCountry: us
   released: 2010-04-03
-  updated: 2026-08-24
-  version: 26.17.0
-  reviews: 15469258
+  updated: 2026-08-28
+  version: 26.17.1
+  reviews: 15469503
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
   verdict: nosendreceive

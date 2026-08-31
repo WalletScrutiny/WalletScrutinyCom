@@ -32,7 +32,7 @@ iphone:
   released: 2023-03-29
   updated: 2026-08-18
   version: 1.33.0
-  reviews: 173
+  reviews: 172
   icon: io.noone.ioswallet.jpg
   meta: ok
   verdict: nosource

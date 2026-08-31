@@ -32,9 +32,9 @@ iphone:
   idd: '1204112719'
   appCountry: us
   released: 2017-03-13
-  updated: 2026-08-20
-  version: 5.2.2
-  reviews: 84720
+  updated: 2026-08-28
+  version: 5.3.1
+  reviews: 84806
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

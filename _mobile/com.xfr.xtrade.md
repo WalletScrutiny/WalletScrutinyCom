@@ -17,8 +17,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2014-10-02
-  updated: 2026-08-09
-  version: 7.2.1
+  updated: 2026-08-30
+  version: 7.2.2
   reviews: 76
   icon: com.xfr.xtrade.png
   meta: ok

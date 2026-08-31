@@ -26,7 +26,7 @@ android:
   version: 5.22.0
   reviews: 1467
   icon: com.phemex.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Leading Magic Limited
 iphone:
@@ -36,7 +36,7 @@ iphone:
   released: 2020-02-20
   updated: 2026-08-24
   version: 5.25.0
-  reviews: 2758
+  reviews: 2759
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

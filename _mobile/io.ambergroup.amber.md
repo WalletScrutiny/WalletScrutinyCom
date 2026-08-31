@@ -22,7 +22,7 @@ android:
   version: 3.7.5
   reviews: 240
   icon: io.ambergroup.amber.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Amber AI Limited
 iphone:

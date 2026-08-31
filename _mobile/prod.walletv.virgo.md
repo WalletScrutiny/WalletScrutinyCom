@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-04-03
-  updated: 2026-04-29
-  version: 1.2.6
+  updated: 2026-08-20
+  version: 1.2.9
   reviews: 3
   icon: prod.walletv.virgo.jpg
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '6743709480'
   appCountry: us
   released: 2025-04-02
-  updated: 2026-05-08
-  version: 1.2.6
+  updated: 2026-08-27
+  version: 1.2.9
   reviews: 5
   icon: prod.walletv.virgo.jpg
   meta: ok

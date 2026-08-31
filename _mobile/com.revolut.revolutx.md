@@ -30,9 +30,9 @@ iphone:
   idd: '6502614478'
   appCountry: gb
   released: 2025-03-18
-  updated: 2026-08-19
-  version: '1.73'
-  reviews: 2673
+  updated: 2026-08-26
+  version: '1.74'
+  reviews: 2720
   icon: com.revolut.revolutx.jpg
   meta: ok
   verdict: custodial

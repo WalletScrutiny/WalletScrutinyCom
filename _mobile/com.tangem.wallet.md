@@ -20,12 +20,12 @@ redirect_from:
 - /iphone/com.tangem.Tangem/
 android:
   appId: com.tangem.wallet
-  users: 100000
+  users: 500000
   appCountry: us
   released: 2018-10-24
-  updated: 2026-08-18
+  updated: 2026-08-25
   version: 6.1.3
-  reviews: 1884
+  reviews: 1886
   icon: com.tangem.wallet.png
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
@@ -37,9 +37,9 @@ iphone:
   idd: 1354868448
   appCountry: us
   released: 2018-04-28
-  updated: 2026-08-19
-  version: 6.1.3
-  reviews: 23966
+  updated: 2026-08-27
+  version: '6.2'
+  reviews: 24059
   icon: com.tangem.Tangem.jpg
   meta: ok
   verdict: nosource

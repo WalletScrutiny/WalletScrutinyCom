@@ -34,7 +34,7 @@ iphone:
   released: 2025-12-15
   updated: 2026-08-07
   version: 2.6.0
-  reviews: 117
+  reviews: 130
   icon: com.rumble.wallet.jpg
   meta: ok
   verdict: nosource

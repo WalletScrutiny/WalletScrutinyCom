@@ -1,6 +1,6 @@
 ---
 wsId: valr
-title: VALR Crypto Exchange
+title: VALR Crypto Exchange & Wallet
 date: 2021-04-13
 authors:
 - kiwilamb
@@ -30,8 +30,8 @@ iphone:
   idd: 1453499428
   appCountry: jp
   released: 2019-09-27
-  updated: 2026-08-25
-  version: 1.1.54
+  updated: 2026-08-26
+  version: 1.1.55
   reviews: 1
   icon: com.valr.mobile.jpg
   meta: ok

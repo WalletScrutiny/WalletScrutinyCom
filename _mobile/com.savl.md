@@ -23,7 +23,7 @@ android:
   released: 2018-07-24
   updated: 2026-07-31
   version: 9.4.0
-  reviews: 207
+  reviews: 208
   icon: com.savl.png
   meta: ok
   verdict: nosource

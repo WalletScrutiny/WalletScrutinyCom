@@ -17,7 +17,7 @@ android:
   released: 2019-05-26
   updated: 2026-08-12
   version: 4.11.8
-  reviews: 1149
+  reviews: 1153
   icon: io.safepal.wallet.png
   meta: ok
   verdict: nosource
@@ -29,7 +29,7 @@ iphone:
   released: 2021-01-11
   updated: 2026-08-17
   version: 4.11.8
-  reviews: 16837
+  reviews: 16884
   icon: walletapp.safepal.io.jpg
   meta: ok
   verdict: nosource

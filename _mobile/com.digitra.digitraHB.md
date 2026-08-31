@@ -31,8 +31,8 @@ iphone:
   idd: '1577787451'
   appCountry: br
   released: 2022-03-12
-  updated: 2026-08-14
-  version: 1.0.170
+  updated: 2026-08-28
+  version: 1.0.178
   reviews: 33
   icon: com.digitra.digitraHB.jpg
   meta: ok

@@ -32,8 +32,8 @@ iphone:
   idd: '1599570197'
   appCountry: us
   released: 2022-05-09
-  updated: 2026-08-03
-  version: 2.9.0
+  updated: 2026-08-26
+  version: 2.9.1
   reviews: 36
   icon: co.psychedelic.plug.jpg
   meta: ok

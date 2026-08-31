@@ -21,7 +21,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-11-01
-  updated: 2026-08-19
+  updated: 2026-08-27
   version: 8.114.1
   reviews: 1410
   icon: co.bitx.android.wallet.jpg
@@ -33,9 +33,9 @@ iphone:
   idd: 927362479
   appCountry: us
   released: 2014-11-03
-  updated: 2026-08-11
-  version: 8.114.0
-  reviews: 3686
+  updated: 2026-08-26
+  version: 8.115.0
+  reviews: 3687
   icon: za.co.Bitx.jpg
   meta: ok
   verdict: custodial

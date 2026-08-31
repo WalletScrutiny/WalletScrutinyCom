@@ -29,8 +29,8 @@ iphone:
   idd: 348823316
   appCountry: cn
   released: 2010-01-05
-  updated: 2026-07-15
-  version: 6.4.5
+  updated: 2026-08-27
+  version: 6.4.6
   reviews: 225
   icon: com.easyforex.trading.jpg
   meta: ok

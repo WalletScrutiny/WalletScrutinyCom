@@ -13,7 +13,7 @@ android:
   released: 2019-05-05
   updated: 2024-07-12
   version: 4.2.2
-  reviews: 140
+  reviews: 139
   icon: com.afrbtcapp.png
   meta: obsolete
   verdict: nosendreceive

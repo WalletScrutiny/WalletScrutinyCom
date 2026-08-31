@@ -30,8 +30,8 @@ iphone:
   idd: '1641771042'
   appCountry: us
   released: 2023-04-17
-  updated: 2026-07-02
-  version: '3.2'
+  updated: 2026-08-27
+  version: '4.0'
   reviews: 192
   icon: com.internetmoneywallet.app.jpg
   meta: ok

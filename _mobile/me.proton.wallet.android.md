@@ -27,7 +27,7 @@ android:
   released: 2025-02-04
   updated: 2026-08-26
   version: 1.3.1
-  reviews: 31
+  reviews: 32
   icon: me.proton.wallet.android.png
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   meta: ok
@@ -39,9 +39,9 @@ iphone:
   idd: '6479609548'
   appCountry: us
   released: 2025-02-10
-  updated: 2026-08-06
-  version: 1.3.1
-  reviews: 242
+  updated: 2026-08-27
+  version: 1.3.3
+  reviews: 245
   icon: me.proton.wallet.ios.jpg
   meta: ok
   verdict: sourceavailable

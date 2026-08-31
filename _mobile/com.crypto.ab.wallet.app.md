@@ -32,7 +32,7 @@ iphone:
   released: 2023-12-05
   updated: 2026-08-11
   version: 1.21.0
-  reviews: 205
+  reviews: 206
   icon: com.ab.crypto.wallet.app.jpg
   meta: ok
   verdict: nosource

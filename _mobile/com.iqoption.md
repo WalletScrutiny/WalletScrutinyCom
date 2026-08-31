@@ -28,8 +28,8 @@ iphone:
   idd: '871125783'
   appCountry: gb
   released: 2014-05-15
-  updated: 2026-08-20
-  version: '4.103'
+  updated: 2026-08-27
+  version: '4.104'
   reviews: 1281
   icon: com.trading.iqoption.jpg
   meta: ok

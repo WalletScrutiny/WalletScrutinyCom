@@ -19,7 +19,7 @@ android:
   version: 4.0.2
   reviews: 6
   icon: com.cetoex.cetoex.jpg
-  meta: ok
+  meta: stale
   verdict: nosendreceive
   developerName: CetoEx Labs
 

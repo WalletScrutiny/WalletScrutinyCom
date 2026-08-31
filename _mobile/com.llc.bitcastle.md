@@ -19,7 +19,7 @@ android:
   released: 2022-07-29
   updated: 2026-06-25
   version: 1.13.12
-  reviews: 17
+  reviews: 18
   icon: com.llc.bitcastle.png
   meta: ok
   verdict: custodial

@@ -33,9 +33,9 @@ iphone:
   idd: '1660882885'
   appCountry: us
   released: 2023-02-13
-  updated: 2026-08-20
-  version: 2.3.3
-  reviews: 3790
+  updated: 2026-08-28
+  version: 2.3.5
+  reviews: 3793
   icon: com.planet.toobit.jpg
   meta: ok
   verdict: custodial

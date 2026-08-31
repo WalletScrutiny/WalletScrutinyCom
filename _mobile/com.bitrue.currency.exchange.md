@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-07-18
-  updated: 2026-08-17
-  version: 6.1.34
+  updated: 2026-08-30
+  version: 6.1.35
   reviews: 719
   icon: com.bitrue.currency.exchange.png
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1435877386
   appCountry: us
   released: 2018-09-16
-  updated: 2026-08-18
-  version: 6.1.35
+  updated: 2026-08-31
+  version: 6.1.36
   reviews: 1124
   icon: com.cmcm.currency.exchange.jpg
   meta: ok

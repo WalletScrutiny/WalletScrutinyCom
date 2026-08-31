@@ -22,7 +22,7 @@ android:
   released: 2021-05-17
   updated: 2026-08-18
   version: 3.1.18
-  reviews: 3550
+  reviews: 3626
   icon: com.application.koinbazar.png
   meta: ok
   verdict: custodial
@@ -34,7 +34,7 @@ iphone:
   released: 2021-06-02
   updated: 2026-08-14
   version: 4.2.5
-  reviews: 164
+  reviews: 167
   icon: com.app.koinbazar.jpg
   meta: ok
   verdict: custodial

@@ -1,5 +1,5 @@
 ---
-title: CozyWallet
+title: COZY Wallet
 date: 2026-07-23
 appCountry: us
 redirect_from:
@@ -9,9 +9,9 @@ iphone:
   idd: '6502897143'
   appCountry: us
   released: 2024-08-18
-  updated: 2026-08-14
-  version: 3.4.7
-  reviews: 2502
+  updated: 2026-08-28
+  version: 3.4.8
+  reviews: 2509
   icon: com.deltahub.spectras.jpg
   meta: ok
   verdict: custodial

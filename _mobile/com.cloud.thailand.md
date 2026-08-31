@@ -25,9 +25,9 @@ iphone:
   idd: '6450774618'
   appCountry: th
   released: 2023-11-21
-  updated: 2026-08-20
-  version: 1.63.1
-  reviews: 17289
+  updated: 2026-08-27
+  version: 1.63.2
+  reviews: 17389
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
   verdict: custodial

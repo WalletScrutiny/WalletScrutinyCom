@@ -27,8 +27,8 @@ iphone:
   idd: '1546702297'
   appCountry: sn
   released: 2021-02-09
-  updated: 2026-08-17
-  version: 3.0.070
+  updated: 2026-08-27
+  version: 3.0.080
   reviews: 0
   icon: com.BiyaGlobal.Biya.jpg
   meta: ok

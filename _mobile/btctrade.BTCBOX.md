@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2016-04-18
-  updated: 2026-08-20
-  version: '1.290'
+  updated: 2026-08-29
+  version: '1.291'
   icon: btctrade.BTCBOX.png
   meta: ok
   verdict: custodial

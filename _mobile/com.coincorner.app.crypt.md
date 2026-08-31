@@ -31,8 +31,8 @@ iphone:
   idd: 917721788
   appCountry: gb
   released: 2014-09-22
-  updated: 2026-07-30
-  version: 5.2.8
+  updated: 2026-08-27
+  version: 5.2.9
   reviews: 309
   icon: com.coincorner.app.crypt.jpg
   meta: ok

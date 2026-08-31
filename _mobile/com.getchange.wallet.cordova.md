@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Buy Bitcoin & crypto'
+title: 'Change: Invest & Trade'
 date: 2020-05-29
 authors:
 - leo

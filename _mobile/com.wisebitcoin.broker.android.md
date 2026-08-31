@@ -16,7 +16,7 @@ android:
   released: 2021-01-04
   updated: 2026-07-22
   version: 5.8.4
-  reviews: 129
+  reviews: 128
   icon: com.wisebitcoin.broker.android.png
   meta: ok
   verdict: custodial

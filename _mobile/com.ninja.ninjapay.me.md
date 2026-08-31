@@ -12,7 +12,7 @@ android:
   updated: 2025-10-16
   version: 2.1.9
   icon: com.ninja.ninjapay.me.png
-  meta: fewusers
+  meta: removed
   verdict: wip
   developerName: Ninjapay
 

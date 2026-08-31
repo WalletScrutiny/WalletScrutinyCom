@@ -32,8 +32,8 @@ iphone:
   idd: '1555493299'
   appCountry: pl
   released: 2021-09-21
-  updated: 2026-08-03
-  version: 3.3.3
+  updated: 2026-08-31
+  version: 3.3.4
   reviews: 0
   icon: com.bitcoinsuisse.online.jpg
   meta: ok

@@ -35,7 +35,7 @@ iphone:
   released: 2025-07-07
   updated: 2026-08-06
   version: 1.1.18
-  reviews: 594
+  reviews: 595
   icon: io.quidax.pro.jpg
   meta: ok
   verdict: custodial

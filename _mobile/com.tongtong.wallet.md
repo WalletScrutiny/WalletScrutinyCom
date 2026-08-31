@@ -28,8 +28,8 @@ iphone:
   idd: '1618695778'
   appCountry: kr
   released: 2022-04-24
-  updated: 2026-07-27
-  version: 2.1.0
+  updated: 2026-08-26
+  version: 2.1.1
   reviews: 26
   icon: com.etomato.wallet.jpg
   meta: ok

@@ -28,7 +28,7 @@ iphone:
   released: 2020-01-02
   updated: 2025-12-09
   version: 101.5.0
-  reviews: 64
+  reviews: 63
   icon: com.hashcashconsultants.payBitoTrade.jpg
   meta: ok
   verdict: custodial

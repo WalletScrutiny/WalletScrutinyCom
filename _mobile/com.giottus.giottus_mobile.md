@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-02-01
-  updated: 2026-08-21
-  version: 3.0.53
+  updated: 2026-08-29
+  version: 3.0.54
   reviews: 26
   icon: com.giottus.giottus_mobile.png
   meta: ok

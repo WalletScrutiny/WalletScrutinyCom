@@ -1,5 +1,5 @@
 ---
-title: 'AScoin Wallet: Crypto & BTC'
+title: AIMint
 date: 2025-11-12
 authors:
 - danny
@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-04-03
-  updated: 2026-08-20
-  version: 1.1.85
+  updated: 2026-08-28
+  version: 2.0.0
   reviews: 7
   icon: com.artisan.pledge.png
   meta: ok

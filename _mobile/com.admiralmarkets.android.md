@@ -29,8 +29,8 @@ iphone:
   idd: '1222861799'
   appCountry: in
   released: 2017-06-28
-  updated: 2026-08-14
-  version: 5.65.0
+  updated: 2026-08-26
+  version: 5.66.0
   reviews: 3
   icon: com.admiralmarkets.tradersroom.jpg
   meta: ok

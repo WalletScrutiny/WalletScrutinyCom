@@ -1,7 +1,7 @@
 ---
-title: 'VeraBit : Bitcoin Wallet'
+title: 'SatPak : Bitcoin Wallet'
 date: 2026-01-14
-website: https://bitx-bitcoinwallet.com/privacy
+website: https://satpak.io
 appCountry: us
 redirect_from:
 - /iphone/com.bitxwalet.production/
@@ -10,9 +10,9 @@ iphone:
   idd: '6752948564'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-07-01
-  version: '2.0'
-  reviews: 81
+  updated: 2026-08-31
+  version: 2.0.1
+  reviews: 82
   icon: com.bitxwalet.production.jpg
   meta: ok
   verdict: nosource

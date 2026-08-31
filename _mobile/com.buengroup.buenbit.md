@@ -17,7 +17,7 @@ android:
   version: 3.55.0
   reviews: 32
   icon: com.buengroup.buenbit.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Fiat Flow Solutions
 iphone:

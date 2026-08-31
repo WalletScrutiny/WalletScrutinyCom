@@ -24,7 +24,7 @@ android:
   version: 5.13.0
   reviews: 30
   icon: com.nanovest.prod.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Nanovest
 iphone:

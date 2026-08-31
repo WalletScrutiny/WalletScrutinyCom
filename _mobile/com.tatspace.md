@@ -22,7 +22,7 @@ android:
   version: 1.4.9
   reviews: 10
   icon: com.tatspace.jpg
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Own the Earth LLC
 iphone:

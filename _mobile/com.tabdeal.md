@@ -19,7 +19,7 @@ android:
   released: 2021-08-14
   updated: 2026-08-23
   version: 7.3.5
-  reviews: 145
+  reviews: 146
   icon: com.tabdeal.png
   meta: ok
   verdict: custodial

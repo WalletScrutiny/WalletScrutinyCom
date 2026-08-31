@@ -23,7 +23,7 @@ android:
   released: 2022-02-10
   updated: 2026-08-21
   version: 4.45.3
-  reviews: 68
+  reviews: 67
   icon: com.primexbt.trade.png
   meta: ok
   verdict: custodial

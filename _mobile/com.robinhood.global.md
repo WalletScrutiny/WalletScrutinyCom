@@ -18,7 +18,7 @@ android:
   appId: com.robinhood.global
   users: 100000
   appCountry: us
-  updated: 2026-08-22
+  updated: 2026-08-31
   version: 2026.34.0
   icon: com.robinhood.global.png
   meta: ok

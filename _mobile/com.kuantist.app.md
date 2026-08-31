@@ -29,8 +29,8 @@ iphone:
   idd: '6502112789'
   appCountry: tr
   released: 2024-07-18
-  updated: 2026-08-17
-  version: 1.0.56
+  updated: 2026-08-26
+  version: 1.0.57
   reviews: 36
   icon: com.kuantist.jpg
   meta: ok

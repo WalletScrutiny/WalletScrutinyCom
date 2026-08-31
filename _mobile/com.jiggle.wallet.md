@@ -16,7 +16,7 @@ android:
   released: 2023-05-19
   updated: 2026-08-24
   version: 3.2.3
-  reviews: 37
+  reviews: 38
   icon: com.jiggle.wallet.jpg
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2023-06-28
   updated: 2026-08-25
   version: 3.2.3
-  reviews: 290
+  reviews: 289
   icon: com.jiggle.cryptowallet.jpg
   meta: ok
   verdict: custodial

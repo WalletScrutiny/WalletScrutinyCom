@@ -20,7 +20,7 @@ android:
   released: 2020-06-16
   updated: 2026-08-14
   version: 1.143.0
-  reviews: 985
+  reviews: 986
   icon: com.swissborg.android.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2020-03-31
   updated: 2026-08-17
   version: 1.143.0
-  reviews: 2695
+  reviews: 2700
   icon: com.swissborg.ios.jpg
   meta: ok
   verdict: custodial

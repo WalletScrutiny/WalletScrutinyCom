@@ -29,9 +29,9 @@ iphone:
   idd: '1513185997'
   appCountry: ch
   released: 2020-07-01
-  updated: 2026-08-17
-  version: 3.18.0
-  reviews: 3477
+  updated: 2026-08-27
+  version: 3.18.1
+  reviews: 3481
   icon: ch.relai.relai.jpg
   meta: ok
   verdict: nosource

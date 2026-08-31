@@ -13,7 +13,7 @@ android:
   released: 2021-09-06
   updated: 2025-10-07
   version: 1.6.20
-  reviews: 405
+  reviews: 407
   icon: com.paybis.png
   meta: ok
   verdict: custodial

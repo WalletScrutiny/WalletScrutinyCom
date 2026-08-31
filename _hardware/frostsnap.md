@@ -3,7 +3,7 @@ title: Frostsnap Frontier
 appId: frostsnap
 authors:
 - danny
-released:
+released: 
 discontinued: 
 updated: 2026-08-25
 version: 0.4.0

@@ -20,7 +20,7 @@ android:
   released: 2016-06-05
   updated: 2026-08-18
   version: 2.169.0
-  reviews: 1243
+  reviews: 1244
   icon: com.paymaya.png
   meta: ok
   verdict: custodial

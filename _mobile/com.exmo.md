@@ -24,7 +24,7 @@ android:
   version: 3.88.1
   reviews: 96
   icon: com.exmo.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Exmo Poland Sp. z o.o.
 iphone:

@@ -1,6 +1,6 @@
 ---
 wsId: phantomlabs
-title: Phantom - Trade Markets
+title: 'Phantom: Trading Wallet'
 date: 2023-12-21
 authors:
 - danny
@@ -25,7 +25,7 @@ android:
   released: 2022-04-12
   updated: 2026-08-25
   version: 26.27.2
-  reviews: 2351
+  reviews: 2353
   icon: app.phantom.png
   meta: ok
   verdict: nosource
@@ -35,9 +35,9 @@ iphone:
   idd: '1598432977'
   appCountry: us
   released: 2022-01-30
-  updated: 2026-08-19
-  version: 26.26.0
-  reviews: 64171
+  updated: 2026-08-26
+  version: 26.27.2
+  reviews: 64184
   icon: app.phantom.jpg
   meta: ok
   verdict: nosource

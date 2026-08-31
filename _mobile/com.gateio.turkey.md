@@ -28,9 +28,9 @@ iphone:
   released: 2022-08-25
   updated: 2025-09-04
   version: 6.15.28
-  reviews: 631
+  reviews: 630
   icon: com.gateio.GateTR.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Gate Teknoloji Anonim Sirketi
 

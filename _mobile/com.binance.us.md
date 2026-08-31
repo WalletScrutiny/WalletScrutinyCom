@@ -37,7 +37,7 @@ iphone:
   released: 2020-01-05
   updated: 2026-08-20
   version: 3.45.0
-  reviews: 111034
+  reviews: 111031
   icon: us.binance.fiat.jpg
   meta: ok
   verdict: custodial

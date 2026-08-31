@@ -24,7 +24,7 @@ android:
   released: 2024-09-16
   updated: 2026-08-17
   version: 2.1.0
-  reviews: 23
+  reviews: 24
   icon: com.getalby.mobile.png
   meta: ok
   verdict: sourceavailable

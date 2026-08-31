@@ -31,8 +31,8 @@ iphone:
   idd: '1195786666'
   appCountry: us
   released: 2017-01-20
-  updated: 2026-01-26
-  version: 3.5.40
+  updated: 2026-08-27
+  version: 3.5.45
   reviews: 190
   icon: com.btcc.BTCCReactNative.jpg
   meta: ok

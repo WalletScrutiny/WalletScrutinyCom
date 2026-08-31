@@ -19,7 +19,7 @@ android:
   released: 2019-05-20
   updated: 2026-08-24
   version: 2.5.2
-  reviews: 152
+  reviews: 153
   icon: app.goodcrypto.png
   meta: ok
   verdict: nosendreceive

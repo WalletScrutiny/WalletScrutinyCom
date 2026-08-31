@@ -29,8 +29,8 @@ iphone:
   idd: '1599698329'
   appCountry: nz
   released: 2022-03-04
-  updated: 2026-01-11
-  version: '9.0'
+  updated: 2026-08-29
+  version: '9.1'
   reviews: 0
   icon: io.trustody.wallet.jpg
   meta: ok

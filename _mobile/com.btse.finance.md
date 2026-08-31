@@ -19,8 +19,8 @@ android:
   users: 500000
   appCountry: ng
   released: 2020-11-30
-  updated: 2026-08-14
-  version: 1.133.0
+  updated: 2026-08-29
+  version: 1.134.0
   reviews: 75
   icon: com.btse.finance.png
   meta: ok

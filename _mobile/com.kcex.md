@@ -28,9 +28,9 @@ iphone:
   idd: '6470641783'
   appCountry: us
   released: 2024-05-29
-  updated: 2026-08-19
-  version: 2.3.4
-  reviews: 2806
+  updated: 2026-08-30
+  version: 2.3.5
+  reviews: 2812
   icon: com.kcexfintech.kcex.jpg
   meta: ok
   verdict: custodial

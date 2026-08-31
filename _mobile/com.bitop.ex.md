@@ -17,7 +17,7 @@ android:
   updated: 2024-09-09
   version: 1.0.21
   icon: com.bitop.ex.png
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: Bitop Ltd
 iphone:

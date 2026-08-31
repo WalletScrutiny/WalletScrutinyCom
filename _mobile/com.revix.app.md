@@ -25,8 +25,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-08-08
-  updated: 2026-07-29
-  version: 3.3.0
+  updated: 2026-08-27
+  version: 3.3.1
   icon: com.revix.app.png
   meta: ok
   verdict: custodial
@@ -38,7 +38,7 @@ iphone:
   released: 2022-08-01
   updated: 2026-08-03
   version: 3.3.0
-  reviews: 69
+  reviews: 70
   icon: com.revix.mobile.jpg
   meta: ok
   verdict: custodial

@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2024-12-01
-  updated: 2026-08-18
-  version: 3.11.0
+  updated: 2026-08-26
+  version: 3.12.0
   reviews: 3
   icon: com.getmidas.crypto.png
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '6505027440'
   appCountry: tr
   released: 2024-08-13
-  updated: 2026-08-20
-  version: 3.11.0
-  reviews: 2965
+  updated: 2026-08-27
+  version: 3.12.0
+  reviews: 2969
   icon: com.midas.crypto.jpg
   meta: ok
   verdict: custodial

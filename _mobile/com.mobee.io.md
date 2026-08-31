@@ -33,9 +33,9 @@ iphone:
   idd: '1643474845'
   appCountry: id
   released: 2023-07-19
-  updated: 2026-08-12
-  version: 2.0.27
-  reviews: 1010
+  updated: 2026-08-27
+  version: 2.0.28
+  reviews: 1011
   icon: io.mobee.finance.jpg
   meta: ok
   verdict: custodial

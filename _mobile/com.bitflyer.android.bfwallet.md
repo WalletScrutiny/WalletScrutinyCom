@@ -19,7 +19,7 @@ android:
   released: 2019-10-19
   updated: 2026-08-25
   version: 10.1.1
-  reviews: 1742
+  reviews: 1743
   icon: com.bitflyer.android.bfwallet.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2016-11-18
   updated: 2026-08-26
   version: 10.0.6
-  reviews: 133165
+  reviews: 133160
   icon: jp.bitflyer.wallet.jpg
   meta: ok
   verdict: custodial

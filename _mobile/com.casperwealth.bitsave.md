@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-04-01
-  updated: 2026-08-14
-  version: 1.30.0
+  updated: 2026-08-27
+  version: 1.30.1
   icon: com.casperwealth.bitsave.jpg
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '6446794637'
   appCountry: us
   released: 2023-04-13
-  updated: 2026-08-19
-  version: 1.30.0
+  updated: 2026-08-27
+  version: 1.30.1
   reviews: 0
   icon: com.casperwealth.bitsaveios.jpg
   meta: ok

@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   released: 2019-11-19
-  updated: 2026-08-16
+  updated: 2026-08-30
   version: 2.46.1
   reviews: 7
   icon: br.com.coinext.png
@@ -33,7 +33,7 @@ iphone:
   released: 2019-01-27
   updated: 2026-08-19
   version: 2.46.1
-  reviews: 5088
+  reviews: 5095
   icon: br.com.coinext.Coinext.jpg
   meta: ok
   verdict: custodial

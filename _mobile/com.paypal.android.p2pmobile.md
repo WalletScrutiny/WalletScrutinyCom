@@ -21,7 +21,7 @@ android:
   released: 2016-02-19
   updated: 2026-08-22
   version: 8.107.0
-  reviews: 441099
+  reviews: 441225
   icon: com.paypal.android.p2pmobile.png
   meta: ok
   verdict: nosendreceive
@@ -31,9 +31,9 @@ iphone:
   idd: 283646709
   appCountry: us
   released: 2019-02-03
-  updated: 2026-06-11
-  version: 8.107.2
-  reviews: 6298444
+  updated: 2026-08-27
+  version: 10.0.0
+  reviews: 6298462
   icon: com.yourcompany.PPClient.jpg
   meta: ok
   verdict: nosendreceive

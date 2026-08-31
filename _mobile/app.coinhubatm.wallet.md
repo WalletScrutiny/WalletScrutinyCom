@@ -22,7 +22,7 @@ android:
   released: 2022-12-11
   updated: 2026-07-28
   version: 4.50.0
-  reviews: 16
+  reviews: 17
   icon: app.coinhubatm.wallet.png
   meta: ok
   verdict: nosource

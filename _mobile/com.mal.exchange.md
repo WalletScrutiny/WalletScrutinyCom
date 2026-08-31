@@ -22,7 +22,7 @@ android:
   version: 1.0.57
   reviews: 34
   icon: com.mal.exchange.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: MAL finance مال
 iphone:

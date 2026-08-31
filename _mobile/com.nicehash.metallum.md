@@ -23,7 +23,7 @@ android:
   released: 2020-04-17
   updated: 2026-08-24
   version: 5.2.17
-  reviews: 684
+  reviews: 685
   icon: com.nicehash.metallum.png
   meta: ok
   verdict: custodial

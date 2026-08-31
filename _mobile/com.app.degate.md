@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-09
-  updated: 2026-08-06
-  version: 1.1.0
+  updated: 2026-08-26
+  version: 1.1.1
   icon: com.app.degate.png
   meta: ok
   verdict: nosource

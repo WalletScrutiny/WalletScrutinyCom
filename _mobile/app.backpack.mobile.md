@@ -24,8 +24,8 @@ iphone:
   idd: '6445964121'
   appCountry: us
   released: 2023-10-26
-  updated: 2026-08-21
-  version: 2.84.0
+  updated: 2026-08-29
+  version: 2.85.0
   reviews: 231
   icon: app.backpack.mobile.jpg
   meta: ok

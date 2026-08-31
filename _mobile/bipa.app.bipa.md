@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2021-01-18
   updated: 2026-08-24
-  version: 4.2.57
+  version: 4.2.63
   reviews: 13
   icon: bipa.app.bipa.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2020-06-30
   updated: 2026-08-24
   version: 4.2.32
-  reviews: 9428
+  reviews: 9444
   icon: bipa.app.Bipa.jpg
   meta: ok
   verdict: custodial
