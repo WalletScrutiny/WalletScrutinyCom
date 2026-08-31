@@ -155,11 +155,19 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
   `;
   document.body.appendChild(modal);
 
-  modal.querySelector('.zap-modal-close').onclick = () => {
+  const closeZapModal = () => {
     document.getElementById('loadingSpinner').style.display = 'none';
     modal.remove();
     if (onClose) onClose();
   };
+
+  modal.querySelector('.zap-modal-close').onclick = closeZapModal;
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      closeZapModal();
+    }
+  });
 
   const amounts = {
     "1000": "👍",
