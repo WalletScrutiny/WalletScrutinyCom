@@ -37,7 +37,7 @@ social:
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
-- arch: arm
+- arch: esp32
   types: jade
 features:
 - camera
