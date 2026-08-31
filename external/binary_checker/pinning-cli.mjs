@@ -10,6 +10,7 @@ import path from 'path';
 import minimist from 'minimist';
 import { cloneRepository } from './appAnalysis.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
+import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 import { DEFAULT_TEMP_DIR } from './config.mjs';
 
 const argv = minimist(process.argv.slice(2));
@@ -25,7 +26,8 @@ if (!cloned) {
   process.exit(1);
 }
 const results = analyzePinning(repoPath);
+const oob = analyzeOobDownloads(repoPath);
 if (argv.json) {
-  console.log('\n' + JSON.stringify({ repo: argv.repo, ref: argv.ref, results }, null, 2));
+  console.log('\n' + JSON.stringify({ repo: argv.repo, ref: argv.ref, results, oob }, null, 2));
 }
 fs.rmSync(repoPath, { recursive: true, force: true });

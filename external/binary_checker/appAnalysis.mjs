@@ -7,6 +7,7 @@ import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
+import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 
 /**
  * Detect the type of application based on dependency files
@@ -1593,6 +1594,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master',
   await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
   await analyzeObfuscation(repoPath);
   analyzePinning(repoPath);
+  analyzeOobDownloads(repoPath);
   
   // Cleanup
   try {
