@@ -266,6 +266,14 @@
       return;
     }
 
+    const closeDot = root.querySelector(".hero-visual__dot--close");
+    const monitor = root.querySelector(".hero-visual__monitor");
+    if (closeDot && monitor) {
+      closeDot.addEventListener("click", () => {
+        monitor.style.display = "none";
+      });
+    }
+
     createParticles(particles, prefersReducedMotion() ? 8 : 22);
     await waitForLayout();
 
