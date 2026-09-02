@@ -216,11 +216,12 @@ function analyzeGradle(repoPath) {
   const result = {
     ecosystem: 'gradle',
     lockfiles: verificationFiles.map(f => relative(repoPath, f)),
-    deps: { total: 0, hashPinned: 0, versionPinned: 0, floating: 0 },
+    deps: { total: 0, hashPinned: 0, versionPinned: 0, sourceRefPinned: 0, unversioned: 0, floating: 0 },
     gitOrTarballDeps: [],
     registries: [],
     resolutionNotes: [],
     floatingExamples: [],
+    sourceRefExamples: [],
   };
 
   // Hash tier exists only through dependency verification metadata.
@@ -258,14 +259,13 @@ function analyzeGradle(repoPath) {
       }
     }
   }
-  // Version-catalog TOML: count floating markers only (exact versions there are version-pinned already counted via usages)
+  // Version catalogs. A catalog entry (`alias = { module = "g:a", version.ref
+  // = "x" }`) is a real declaration, and on a catalog-based project it is where
+  // nearly all of them live: counting only the inline "g:a:v" literals above
+  // undercounts such a project several-fold.
   for (const toml of findFiles(repoPath, (name) => name === 'libs.versions.toml')) {
-    const text = fs.readFileSync(toml, 'utf8');
-    for (const m of text.matchAll(/^\s*[a-zA-Z0-9_-]+\s*=\s*["']([^"']*\+[^"']*)["']/gm)) {
-      result.deps.total++;
-      result.deps.floating++;
-      if (result.floatingExamples.length < 10) result.floatingExamples.push(`${relative(repoPath, toml)}: ${m[1]}`);
-    }
+    analyzeVersionCatalog(fs.readFileSync(toml, 'utf8'), relative(repoPath, toml),
+      result, seen, verifiedComponents);
   }
 
   result.registries = [...repoSet];
@@ -278,6 +278,64 @@ function analyzeGradle(repoPath) {
     result.resolutionNotes.push('multiple repositories, no verification-metadata.xml — declaration order decides resolution');
   }
   return result;
+}
+
+/** Text of one TOML section, up to the next `[header]`. */
+function tomlSection(text, name) {
+  // `[ \t]` rather than `\s`: a leading `\s*` would swallow the preceding
+  // newline into the match and leave the header itself inside the section.
+  const header = new RegExp(`^[ \\t]*\\[${name}\\][ \\t]*$`, 'm').exec(text);
+  if (!header) return '';
+  const rest = text.slice(header.index + header[0].length);
+  const end = rest.search(/^[ \t]*\[[a-zA-Z-]+\][ \t]*$/m);
+  return end === -1 ? rest : rest.slice(0, end);
+}
+
+/**
+ * Gradle version catalog. Adds the catalog's [libraries] entries to the tally,
+ * keyed by group:artifact so an entry also declared inline is not counted twice.
+ *
+ * A JitPack-style git ref (`com.github.owner:repo` at a commit) gets its own
+ * tier: the *source* is pinned immutably, which is stronger than a version
+ * string, but the bytes are still built by a third party, so it is not a hash.
+ */
+function analyzeVersionCatalog(text, relPath, result, seen, verifiedComponents) {
+  const versions = new Map();
+  for (const m of tomlSection(text, 'versions').matchAll(/^\s*([A-Za-z0-9_.-]+)\s*=\s*["']([^"']+)["']/gm)) {
+    versions.set(m[1], m[2]);
+  }
+  for (const line of tomlSection(text, 'libraries').split('\n')) {
+    const body = line.match(/^\s*[A-Za-z0-9_.-]+\s*=\s*\{(.*)\}\s*$/);
+    if (!body) continue;
+    const entry = body[1];
+    const module = entry.match(/module\s*=\s*["']([^"']+)["']/);
+    const group = entry.match(/group\s*=\s*["']([^"']+)["']/);
+    const name = entry.match(/name\s*=\s*["']([^"']+)["']/);
+    const key = module ? module[1] : (group && name ? `${group[1]}:${name[1]}` : null);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+
+    const refName = entry.match(/version\s*\.\s*ref\s*=\s*["']([^"']+)["']/);
+    const literal = entry.match(/version\s*=\s*["']([^"']+)["']/);
+    const version = refName ? versions.get(refName[1]) : (literal ? literal[1] : null);
+
+    result.deps.total++;
+    if (!version) {
+      result.deps.unversioned++;
+      continue; // version supplied by a BOM/platform declared elsewhere
+    }
+    if (version.includes('+') || version.startsWith('[') || version.startsWith('latest.')) {
+      result.deps.floating++;
+      if (result.floatingExamples.length < 10) result.floatingExamples.push(`${relPath}: ${key}:${version}`);
+    } else if (verifiedComponents > 0) {
+      result.deps.hashPinned++;
+    } else if (/^com\.github\./.test(key) && /^[0-9a-f]{7,40}$/.test(version)) {
+      result.deps.sourceRefPinned++;
+      if (result.sourceRefExamples.length < 10) result.sourceRefExamples.push(`${key}@${version}`);
+    } else {
+      result.deps.versionPinned++;
+    }
+  }
 }
 
 /* --------------------------------- cargo --------------------------------- */
@@ -330,12 +388,20 @@ export function analyzePinning(repoPath) {
   }
 
   for (const a of analyses) {
-    const { total, hashPinned, versionPinned, floating } = a.deps;
+    const { total, hashPinned, versionPinned, sourceRefPinned = 0, unversioned = 0, floating } = a.deps;
     const pct = (n) => total ? `${((n / total) * 100).toFixed(1)}%` : '-';
     console.log(`\n[${a.ecosystem}] lock/verification files: ${a.lockfiles.length ? a.lockfiles.join(', ') : 'NONE'}`);
     console.log(`  dependencies:    ${total}`);
     console.log(`  hash-pinned:     ${hashPinned} (${pct(hashPinned)})  — content hash recorded; registry swap detectable`);
     console.log(`  version-pinned:  ${versionPinned} (${pct(versionPinned)})  — exact version, registry trusted for bytes`);
+    if (sourceRefPinned) {
+      console.log(`  source-ref-pinned: ${sourceRefPinned} (${pct(sourceRefPinned)})  — pinned to an immutable git commit, ` +
+        'but the artifact is built by a third party (JitPack) from that source');
+      console.log(`    e.g. ${a.sourceRefExamples.slice(0, 5).join(', ')}`);
+    }
+    if (unversioned) {
+      console.log(`  unversioned:     ${unversioned} (${pct(unversioned)})  — version comes from a BOM/platform declared elsewhere`);
+    }
     console.log(`  floating:        ${floating} (${pct(floating)})  — build not fully defined`);
     if (a.floatingExamples.length) {
       console.log(`  floating examples: ${a.floatingExamples.join(', ')}`);

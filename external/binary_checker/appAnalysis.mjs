@@ -8,6 +8,7 @@ import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
+import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
 
 /**
  * Detect the type of application based on dependency files
@@ -1595,7 +1596,8 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master',
   await analyzeObfuscation(repoPath);
   analyzePinning(repoPath);
   analyzeOobDownloads(repoPath);
-  
+  analyzeCommittedBinaries(repoPath);
+
   // Cleanup
   try {
     fs.rmSync(repoPath, { recursive: true, force: true });
