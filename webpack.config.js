@@ -1,5 +1,4 @@
 const path = require("path");
-const webpack = require("webpack");
 const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -72,10 +71,12 @@ module.exports = (env, argv) => {
         debug: path.resolve(__dirname, 'src/debug-stub.js'),
       },
       fallback: {
-        path: require.resolve('path-browserify'),
+        // app-info-parser's zip.js has a `require('path')` call, but only in its
+        // Node-only branch (guarded by isBrowser()) — dead code in this bundle,
+        // so we don't need a real polyfill, just tell webpack not to error on it.
+        path: false,
         fs: false, // 'fs' is not supported in browsers, disable it
         zlib: false,
-        process: require.resolve('process/browser'),
       },
     },
     module: {
@@ -100,9 +101,6 @@ module.exports = (env, argv) => {
       usedExports: true
     },
     plugins: [
-      new webpack.ProvidePlugin({
-        process: 'process/browser',
-      }),
       new HtmlWebpackPlugin(
         {
           template: 'src/templates/scripts.html',
