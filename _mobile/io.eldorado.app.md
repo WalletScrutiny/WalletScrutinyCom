@@ -1,6 +1,6 @@
 ---
 wsId: elDoradoWalletExchange
-title: 'El Dorado: Cuenta en Dólares'
+title: 'El Dorado: Enviar Dinero y QR'
 date: 2023-07-18
 authors:
 - danny

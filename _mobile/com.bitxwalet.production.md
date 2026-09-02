@@ -12,7 +12,7 @@ iphone:
   released: 2025-09-29
   updated: 2026-08-31
   version: 2.0.1
-  reviews: 82
+  reviews: 83
   icon: com.bitxwalet.production.jpg
   meta: ok
   verdict: nosource

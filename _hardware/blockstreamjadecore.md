@@ -37,6 +37,7 @@ builds:
   types: jadecore
 features:
 - foss
+
 ---
 
 ## Device Description

@@ -13,7 +13,6 @@ android:
   released: 2021-09-30
   updated: 2026-02-26
   version: 1.49.3
-  reviews: 7
   icon: com.exchanger101.app.png
   meta: ok
   verdict: custodial

@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-07-07
-  updated: 2026-08-20
-  version: 2.7.8
+  updated: 2026-09-01
+  version: 2.7.9
   icon: com.futurance.futurex.png
   meta: ok
   verdict: custodial

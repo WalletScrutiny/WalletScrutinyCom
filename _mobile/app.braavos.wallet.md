@@ -21,7 +21,6 @@ android:
   released: 2022-07-12
   updated: 2026-02-04
   version: 4.19.6
-  reviews: 36
   icon: app.braavos.wallet.png
   meta: ok
   verdict: nosource

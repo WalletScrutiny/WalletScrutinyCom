@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2013-09-09
   updated: 2026-08-25
-  version: 9.6.8
+  version: 9.8.0
   reviews: 2069
   icon: com.tradestation.MobileTrading.png
   meta: ok

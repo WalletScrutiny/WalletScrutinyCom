@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-02-04
-  updated: 2025-10-28
-  version: 1.8.52
+  updated: 2026-08-31
+  version: 1.9.1
   icon: com.most.wallet.png
   meta: ok
   verdict: nosource

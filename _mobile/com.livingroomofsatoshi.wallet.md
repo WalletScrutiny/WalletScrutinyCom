@@ -26,7 +26,7 @@ android:
   appCountry: us
   released: 2019-05-19
   updated: 2026-08-30
-  version: 3.4.7
+  version: 3.4.8
   reviews: 242
   icon: com.livingroomofsatoshi.wallet.png
   meta: ok
@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-08-30
   version: 3.4.8
-  reviews: 50
+  reviews: 52
   icon: com.livingroomofsatoshi.wallet.jpg
   meta: ok
   verdict: custodial

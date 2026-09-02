@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-01-16
-  updated: 2026-08-28
-  version: 2.00.72
+  updated: 2026-09-02
+  version: 2.00.75
   icon: com.getbitmoney.getbit.png
   meta: ok
   verdict: custodial

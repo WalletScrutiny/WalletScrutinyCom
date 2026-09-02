@@ -28,8 +28,8 @@ iphone:
   idd: 1487443266
   appCountry: cz
   released: 2019-11-26
-  updated: 2026-08-26
-  version: 3.47.0
+  updated: 2026-08-31
+  version: 3.48.0
   reviews: 822
   icon: com.kapital.trade.crypto.jpg
   meta: ok

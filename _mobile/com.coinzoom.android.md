@@ -29,8 +29,8 @@ iphone:
   idd: '1575983875'
   appCountry: us
   released: 2022-01-21
-  updated: 2026-08-15
-  version: 3.3.12
+  updated: 2026-08-31
+  version: 3.3.13
   reviews: 807
   icon: com.ios.coinzoomsimple.jpg
   meta: ok

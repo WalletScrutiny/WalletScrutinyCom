@@ -20,7 +20,7 @@ android:
   released: 2020-09-29
   updated: 2026-07-21
   version: 4.11.1
-  reviews: 2520
+  reviews: 2521
   icon: com.bitazza.android.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2020-05-25
   updated: 2026-08-26
   version: 5.1.0
-  reviews: 2554
+  reviews: 2558
   icon: com.bitazza.ios.jpg
   meta: ok
   verdict: custodial

@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2014-10-01
   updated: 2026-08-26
-  version: 7.9.37.3
+  version: 7.9.38.0
   reviews: 553
   icon: asia.coins.mobile.png
   meta: ok

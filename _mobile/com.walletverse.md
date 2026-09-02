@@ -25,8 +25,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-06-29
-  updated: 2026-08-16
-  version: 1.17.6
+  updated: 2026-08-26
+  version: 1.18.0
   reviews: 19
   icon: com.walletverse.png
   meta: ok

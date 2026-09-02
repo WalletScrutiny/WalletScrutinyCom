@@ -30,8 +30,8 @@ iphone:
   idd: '1607974744'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-08-24
-  version: 5.0.6
+  updated: 2026-09-02
+  version: 5.1.1
   reviews: 591
   icon: com.margex.mobile.jpg
   meta: ok

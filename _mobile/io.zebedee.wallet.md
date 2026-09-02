@@ -18,7 +18,7 @@ android:
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10319
+  reviews: 10324
   icon: io.zebedee.wallet.png
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2020-11-28
   updated: 2026-08-21
   version: 4.30.6
-  reviews: 11899
+  reviews: 11913
   icon: io.zebedee.wallet.jpg
   meta: ok
   verdict: custodial

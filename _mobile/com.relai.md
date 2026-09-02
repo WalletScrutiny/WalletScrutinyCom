@@ -31,7 +31,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-08-27
   version: 3.18.1
-  reviews: 3481
+  reviews: 3482
   icon: ch.relai.relai.jpg
   meta: ok
   verdict: nosource

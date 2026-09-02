@@ -36,7 +36,7 @@ iphone:
   released: 2022-03-19
   updated: 2026-08-26
   version: 1.15.0
-  reviews: 291
+  reviews: 290
   icon: com.btcmarkets.btcm.jpg
   meta: ok
   verdict: custodial

@@ -29,8 +29,8 @@ iphone:
   idd: 864027750
   appCountry: cl
   released: 2014-05-30
-  updated: 2026-08-11
-  version: 7.2.1
+  updated: 2026-08-31
+  version: 7.2.2
   reviews: 28
   icon: com.triviologic.xtrader.jpg
   meta: ok

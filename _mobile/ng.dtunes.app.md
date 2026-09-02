@@ -4,7 +4,7 @@ title: Dtunes – Sell Crypto to Naira
 date: 2026-01-23
 authors:
 - danny
-website: https://dtunes.ng
+website: https://useswapto.com
 social:
 - https://www.facebook.com/DtunesApp
 redirect_from:
@@ -29,7 +29,7 @@ iphone:
   released: 2022-08-02
   updated: 2026-08-05
   version: 3.0.6
-  reviews: 492
+  reviews: 491
   icon: ng.dtunes.app.jpg
   meta: ok
   verdict: nosendreceive

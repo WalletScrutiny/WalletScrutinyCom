@@ -22,7 +22,7 @@ android:
   users: 100000
   appCountry: us
   released: 2018-05-06
-  updated: 2026-08-13
+  updated: 2026-09-02
   version: 5.29.1
   reviews: 22
   icon: com.coinhako.png

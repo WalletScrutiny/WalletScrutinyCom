@@ -23,7 +23,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-08-25
-  version: 2.10.3
+  version: 2.10.4
   icon: au.com.swyftx.png
   meta: ok
   verdict: custodial

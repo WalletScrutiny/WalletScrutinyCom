@@ -25,7 +25,7 @@ android:
   released: 2024-04-11
   updated: 2026-08-28
   version: 2.0.1 (2)
-  reviews: 131
+  reviews: 132
   icon: com.kraken.superwallet.png
   meta: ok
   verdict: sourceavailable
@@ -38,7 +38,7 @@ iphone:
   released: 2024-04-17
   updated: 2026-08-27
   version: 2.0.0
-  reviews: 1283
+  reviews: 1282
   icon: com.kraken.superwallet.app.jpg
   meta: ok
   verdict: sourceavailable

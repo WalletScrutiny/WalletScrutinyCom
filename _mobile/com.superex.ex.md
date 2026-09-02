@@ -16,8 +16,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-03-23
-  updated: 2026-07-31
-  version: 2.9.66
+  updated: 2026-08-31
+  version: 2.9.67
   reviews: 255
   icon: com.superex.ex.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1601589888'
   appCountry: us
   released: 2022-01-04
-  updated: 2026-08-14
-  version: 2.9.38
+  updated: 2026-08-31
+  version: 2.9.39
   reviews: 182
   icon: com.superex.ex.jpg
   meta: ok

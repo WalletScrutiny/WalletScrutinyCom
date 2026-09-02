@@ -25,8 +25,8 @@ android:
   users: 50000
   appCountry: us
   released: 2024-01-02
-  updated: 2026-08-15
-  version: 0.5.2
+  updated: 2026-08-30
+  version: 0.5.3
   reviews: 21
   icon: io.aquawallet.android.png
   meta: ok
@@ -38,8 +38,8 @@ iphone:
   idd: '6468594241'
   appCountry: us
   released: 2024-01-03
-  updated: 2026-08-16
-  version: 0.5.2
+  updated: 2026-09-01
+  version: 0.5.3
   reviews: 76
   icon: io.aquawallet.ios.jpg
   meta: ok

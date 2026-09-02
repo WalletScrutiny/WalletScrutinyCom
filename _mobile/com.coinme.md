@@ -22,7 +22,7 @@ android:
   released: 2021-05-06
   updated: 2026-08-10
   version: 3.4.2
-  reviews: 1160
+  reviews: 1161
   icon: com.coinme.png
   meta: ok
   verdict: custodial

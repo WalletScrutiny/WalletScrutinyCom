@@ -18,9 +18,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2016-06-05
-  updated: 2026-08-18
+  updated: 2026-09-01
   version: 2.169.0
-  reviews: 1244
+  reviews: 1243
   icon: com.paymaya.png
   meta: ok
   verdict: custodial

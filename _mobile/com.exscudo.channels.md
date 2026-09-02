@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: ru
   released: 2018-05-17
-  updated: 2026-08-21
-  version: 4.0.6-prd.6
+  updated: 2026-08-28
+  version: 4.0.6-prd.10
   reviews: 50
   icon: com.exscudo.channels.png
   meta: ok
@@ -34,8 +34,8 @@ iphone:
   idd: 1367425342
   appCountry: ru
   released: 2018-05-16
-  updated: 2026-08-21
-  version: 4.0.7
+  updated: 2026-09-01
+  version: 4.0.8
   reviews: 55
   icon: com.exscudo.channels.jpg
   meta: ok

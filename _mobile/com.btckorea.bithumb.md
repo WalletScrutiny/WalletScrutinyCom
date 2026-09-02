@@ -17,7 +17,7 @@ android:
   appCountry: us
   released: 2017-09-26
   updated: 2026-08-28
-  version: 3.8.9
+  version: 3.9.0
   reviews: 73
   icon: com.btckorea.bithumb.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2017-12-05
   updated: 2026-08-31
   version: 3.2.5
-  reviews: 5048
+  reviews: 5047
   icon: com.btckorea.bithumb.jpg
   meta: ok
   verdict: custodial

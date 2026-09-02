@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2018-06-29
-  updated: 2026-08-24
-  version: 2.26.0
+  updated: 2026-08-31
+  version: 2.26.1
   reviews: 633
   icon: vip.mytokenpocket.png
   meta: ok

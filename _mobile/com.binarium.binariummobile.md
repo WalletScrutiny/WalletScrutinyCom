@@ -13,8 +13,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-16
-  updated: 2026-08-06
-  version: 1.3.5
+  updated: 2026-09-02
+  version: 1.3.6
   reviews: 17
   icon: com.binarium.binariummobile.png
   meta: ok

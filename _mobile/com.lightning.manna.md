@@ -28,8 +28,8 @@ iphone:
   idd: '6745337602'
   appCountry: us
   released: 2025-05-16
-  updated: 2026-08-24
-  version: 1.1.20
+  updated: 2026-09-02
+  version: 1.1.22
   reviews: 11
   icon: com.lightning.manna.jpg
   meta: ok

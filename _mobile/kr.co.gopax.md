@@ -15,7 +15,7 @@ android:
   released: 2018-11-05
   updated: 2026-08-21
   version: 1.9.65.2b43
-  reviews: 1538
+  reviews: 1539
   icon: kr.co.gopax.png
   meta: ok
   verdict: custodial
@@ -27,7 +27,7 @@ iphone:
   released: 2018-06-21
   updated: 2026-08-25
   version: 3.2.7
-  reviews: 531
+  reviews: 530
   icon: kr.co.gopax.jpg
   meta: ok
   verdict: custodial

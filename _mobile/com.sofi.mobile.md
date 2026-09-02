@@ -1,6 +1,6 @@
 ---
 wsId: sofiBank
-title: 'SoFi: Bank, Investing & Crypto'
+title: 'SoFi: Bank, Invest & Crypto'
 date: 2026-01-23
 authors:
 - danny
@@ -16,7 +16,7 @@ android:
   released: 2017-04-10
   updated: 2026-08-28
   version: 3.110.1
-  reviews: 21331
+  reviews: 21344
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive
@@ -28,7 +28,7 @@ iphone:
   released: 2017-04-10
   updated: 2026-08-29
   version: 3.111.0
-  reviews: 385485
+  reviews: 385476
   icon: com.sofi.mobile.jpg
   meta: ok
   verdict: nosendreceive

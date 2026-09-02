@@ -20,7 +20,7 @@ android:
   released: 2017-11-03
   updated: 2026-08-26
   version: 8.34.0
-  reviews: 7230
+  reviews: 7232
   icon: com.gateio.gateio.png
   meta: ok
   verdict: custodial

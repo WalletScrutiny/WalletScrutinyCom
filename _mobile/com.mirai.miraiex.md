@@ -30,7 +30,7 @@ iphone:
   released: 2021-01-09
   updated: 2026-08-25
   version: 4.0.0
-  reviews: 10292
+  reviews: 10293
   icon: com.mirai.miraiex.jpg
   meta: ok
   verdict: custodial

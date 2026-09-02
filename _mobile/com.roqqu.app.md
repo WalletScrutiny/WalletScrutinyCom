@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-30
-  updated: 2026-08-25
-  version: 2.6.4
-  reviews: 913
+  updated: 2026-09-01
+  version: 2.6.5
+  reviews: 914
   icon: com.roqqu.app.png
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: 1505370687
   appCountry: de
   released: 2020-04-06
-  updated: 2026-08-26
-  version: 2.6.4
+  updated: 2026-09-01
+  version: 2.6.5
   reviews: 8
   icon: com.roqqu.ios.jpg
   meta: ok

@@ -22,7 +22,7 @@ android:
   released: 2021-05-17
   updated: 2026-08-18
   version: 3.1.18
-  reviews: 3626
+  reviews: 3656
   icon: com.application.koinbazar.png
   meta: ok
   verdict: custodial

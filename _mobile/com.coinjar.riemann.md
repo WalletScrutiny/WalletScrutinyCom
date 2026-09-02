@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: au
   released: 2019-11-21
-  updated: 2026-08-26
-  version: 3.64.0
+  updated: 2026-09-01
+  version: 3.66.0
   reviews: 1183
   icon: com.coinjar.riemann.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-08-28
   version: 3.64.0
-  reviews: 15239
+  reviews: 15238
   icon: com.coinjar.mobius.jpg
   meta: ok
   verdict: custodial

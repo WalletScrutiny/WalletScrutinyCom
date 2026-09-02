@@ -19,11 +19,11 @@ android:
   released: 2010-05-17
   updated: 2026-08-28
   version: 26.17.1
-  reviews: 360503
+  reviews: 360656
   icon: com.venmo.png
   meta: ok
   verdict: nosendreceive
-  developerName: Venmo
+  developerName: PayPal Mobile
 iphone:
   appId: net.kortina.labs.Venmo
   idd: '351727428'
@@ -31,7 +31,7 @@ iphone:
   released: 2010-04-03
   updated: 2026-08-28
   version: 26.17.1
-  reviews: 15469503
+  reviews: 15469632
   icon: net.kortina.labs.Venmo.jpg
   meta: ok
   verdict: nosendreceive

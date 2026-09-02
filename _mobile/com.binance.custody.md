@@ -29,8 +29,8 @@ iphone:
   idd: '1595828184'
   appCountry: sg
   released: 2021-12-01
-  updated: 2026-08-25
-  version: 5.15.1
+  updated: 2026-09-02
+  version: 5.16.0
   reviews: 0
   icon: com.binance.custody.jpg
   meta: ok

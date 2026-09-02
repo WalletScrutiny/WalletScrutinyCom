@@ -20,7 +20,7 @@ android:
   released: 2019-10-16
   updated: 2026-08-20
   version: 7.3.22
-  reviews: 913
+  reviews: 914
   icon: com.vita_wallet.png
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: 1486999955
   appCountry: cl
   released: 2019-11-15
-  updated: 2026-08-24
-  version: 7.3.21
+  updated: 2026-08-31
+  version: 7.3.22
   reviews: 290
   icon: io.vitawallet.vitawallet.jpg
   meta: ok

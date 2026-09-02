@@ -22,7 +22,7 @@ android:
   released: 2026-01-19
   updated: 2026-08-05
   version: 2.6.0
-  reviews: 30
+  reviews: 31
   icon: com.rumble.rumblewallet.png
   meta: ok
   verdict: nosource
@@ -34,7 +34,7 @@ iphone:
   released: 2025-12-15
   updated: 2026-08-07
   version: 2.6.0
-  reviews: 130
+  reviews: 134
   icon: com.rumble.wallet.jpg
   meta: ok
   verdict: nosource

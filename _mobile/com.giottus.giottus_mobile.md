@@ -29,8 +29,8 @@ iphone:
   idd: 1537068185
   appCountry: in
   released: 2021-01-27
-  updated: 2026-08-24
-  version: 3.0.53
+  updated: 2026-08-31
+  version: 3.0.54
   reviews: 1120
   icon: com.giottus.app.jpg
   meta: ok

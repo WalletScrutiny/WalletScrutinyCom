@@ -24,7 +24,7 @@ android:
   users: 500000
   appCountry: us
   released: 2017-04-25
-  updated: 2026-08-11
+  updated: 2026-08-28
   version: '55.8'
   reviews: 236
   icon: io.muun.apollo.png

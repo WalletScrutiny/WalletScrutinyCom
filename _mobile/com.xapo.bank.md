@@ -23,7 +23,7 @@ android:
   appCountry: us
   released: 2021-05-27
   updated: 2026-08-26
-  version: 11.26.1
+  version: 11.27.0
   reviews: 43
   icon: com.xapo.bank.png
   meta: ok

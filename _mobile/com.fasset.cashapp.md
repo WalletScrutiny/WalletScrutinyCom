@@ -21,7 +21,7 @@ android:
   released: 2021-12-14
   updated: 2026-08-21
   version: '6.11'
-  reviews: 58
+  reviews: 60
   icon: com.fasset.cashapp.png
   meta: ok
   verdict: custodial

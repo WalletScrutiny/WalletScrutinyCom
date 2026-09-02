@@ -14,8 +14,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-01-17
-  updated: 2026-08-27
-  version: 0.1.8
+  updated: 2026-09-01
+  version: 0.1.9
   icon: io.cypherbox.btc.png
   meta: fewusers
   verdict: wip
