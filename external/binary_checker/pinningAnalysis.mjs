@@ -216,12 +216,16 @@ function analyzeGradle(repoPath) {
   const result = {
     ecosystem: 'gradle',
     lockfiles: verificationFiles.map(f => relative(repoPath, f)),
-    deps: { total: 0, hashPinned: 0, versionPinned: 0, sourceRefPinned: 0, unversioned: 0, floating: 0 },
+    deps: {
+      total: 0, hashPinned: 0, versionPinned: 0,
+      sourceRefPinned: 0, buildServiceTag: 0, unversioned: 0, floating: 0,
+    },
     gitOrTarballDeps: [],
     registries: [],
     resolutionNotes: [],
     floatingExamples: [],
     sourceRefExamples: [],
+    buildServiceExamples: [],
   };
 
   // Hash tier exists only through dependency verification metadata.
@@ -248,15 +252,7 @@ function analyzeGradle(repoPath) {
       const key = `${group}:${artifact}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      result.deps.total++;
-      if (version.includes('+') || version.startsWith('[') || version.startsWith('latest.')) {
-        result.deps.floating++;
-        if (result.floatingExamples.length < 10) result.floatingExamples.push(`${key}:${version}`);
-      } else if (verifiedComponents > 0) {
-        result.deps.hashPinned++;
-      } else {
-        result.deps.versionPinned++;
-      }
+      classifyGradleDep(key, version, verifiedComponents, result, '');
     }
   }
   // Version catalogs. A catalog entry (`alias = { module = "g:a", version.ref
@@ -277,7 +273,45 @@ function analyzeGradle(repoPath) {
   } else if (repoSet.size > 1) {
     result.resolutionNotes.push('multiple repositories, no verification-metadata.xml — declaration order decides resolution');
   }
+  if ([...repoSet].some(r => /jitpack\.io/.test(r))) {
+    result.resolutionNotes.push('jitpack.io is in the resolution list, and this pass counts DECLARED dependencies only — ' +
+      'JitPack coordinates pulled in transitively by other libraries never appear in a manifest and are not counted here');
+  }
+  if (repoSet.has('mavenLocal()')) {
+    result.resolutionNotes.push('mavenLocal() in the resolution list — whatever is cached on the build machine can satisfy ' +
+      'a coordinate ahead of any registry, so the build is not defined by this repository alone');
+  }
   return result;
+}
+
+/**
+ * Place one gradle dependency in a tier.
+ *
+ * `com.github.<owner>:<repo>` is a JitPack coordinate: the artifact does not
+ * exist until a build service compiles it from that GitHub ref on demand. That
+ * is a different trust story from a registry release, and the ref itself makes
+ * it two different stories — a commit cannot move, a tag or version branch can
+ * (a pin against a moving branch is how a rebuild recipe silently rots).
+ */
+function classifyGradleDep(key, version, verifiedComponents, result, relPath) {
+  const label = relPath ? `${relPath}: ${key}:${version}` : `${key}:${version}`;
+  result.deps.total++;
+  if (version.includes('+') || version.startsWith('[') || version.startsWith('latest.')) {
+    result.deps.floating++;
+    if (result.floatingExamples.length < 10) result.floatingExamples.push(label);
+  } else if (verifiedComponents > 0) {
+    result.deps.hashPinned++;
+  } else if (/^com\.github\./.test(key)) {
+    if (/^[0-9a-f]{7,40}$/.test(version)) {
+      result.deps.sourceRefPinned++;
+      if (result.sourceRefExamples.length < 10) result.sourceRefExamples.push(`${key}@${version}`);
+    } else {
+      result.deps.buildServiceTag++;
+      if (result.buildServiceExamples.length < 10) result.buildServiceExamples.push(`${key}@${version}`);
+    }
+  } else {
+    result.deps.versionPinned++;
+  }
 }
 
 /** Text of one TOML section, up to the next `[header]`. */
@@ -319,22 +353,12 @@ function analyzeVersionCatalog(text, relPath, result, seen, verifiedComponents) 
     const literal = entry.match(/version\s*=\s*["']([^"']+)["']/);
     const version = refName ? versions.get(refName[1]) : (literal ? literal[1] : null);
 
-    result.deps.total++;
     if (!version) {
+      result.deps.total++;
       result.deps.unversioned++;
       continue; // version supplied by a BOM/platform declared elsewhere
     }
-    if (version.includes('+') || version.startsWith('[') || version.startsWith('latest.')) {
-      result.deps.floating++;
-      if (result.floatingExamples.length < 10) result.floatingExamples.push(`${relPath}: ${key}:${version}`);
-    } else if (verifiedComponents > 0) {
-      result.deps.hashPinned++;
-    } else if (/^com\.github\./.test(key) && /^[0-9a-f]{7,40}$/.test(version)) {
-      result.deps.sourceRefPinned++;
-      if (result.sourceRefExamples.length < 10) result.sourceRefExamples.push(`${key}@${version}`);
-    } else {
-      result.deps.versionPinned++;
-    }
+    classifyGradleDep(key, version, verifiedComponents, result, relPath);
   }
 }
 
@@ -388,7 +412,10 @@ export function analyzePinning(repoPath) {
   }
 
   for (const a of analyses) {
-    const { total, hashPinned, versionPinned, sourceRefPinned = 0, unversioned = 0, floating } = a.deps;
+    const {
+      total, hashPinned, versionPinned,
+      sourceRefPinned = 0, buildServiceTag = 0, unversioned = 0, floating,
+    } = a.deps;
     const pct = (n) => total ? `${((n / total) * 100).toFixed(1)}%` : '-';
     console.log(`\n[${a.ecosystem}] lock/verification files: ${a.lockfiles.length ? a.lockfiles.join(', ') : 'NONE'}`);
     console.log(`  dependencies:    ${total}`);
@@ -398,6 +425,11 @@ export function analyzePinning(repoPath) {
       console.log(`  source-ref-pinned: ${sourceRefPinned} (${pct(sourceRefPinned)})  — pinned to an immutable git commit, ` +
         'but the artifact is built by a third party (JitPack) from that source');
       console.log(`    e.g. ${a.sourceRefExamples.slice(0, 5).join(', ')}`);
+    }
+    if (buildServiceTag) {
+      console.log(`  build-service-tag: ${buildServiceTag} (${pct(buildServiceTag)})  — JitPack coordinate at a tag or ` +
+        'version branch: the ref can move and the bytes are produced on demand by a build service, not a registry');
+      console.log(`    e.g. ${a.buildServiceExamples.slice(0, 5).join(', ')}`);
     }
     if (unversioned) {
       console.log(`  unversioned:     ${unversioned} (${pct(unversioned)})  — version comes from a BOM/platform declared elsewhere`);
