@@ -96,19 +96,23 @@ function createCopyAllHashesButton(allHashes) {
   );
 }
 
-function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes) {
+export function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes) {
   if (sha256Hashes.length === 0) {
     cell.textContent = '-';
     return;
   }
   for (const hash of sha256Hashes) {
-    const label = hash[2] ? `${hash[1]} (${hash[2]})` : hash[1];
-    cell.appendChild(
+    const entry = el('div', { className: 'hash-entry' });
+    if (hash[2]) {
+      entry.appendChild(el('div', { className: 'hash-file-name', title: hash[2] }, hash[2]));
+    }
+    entry.appendChild(
       el('div', { className: 'hash-row' },
-        el('span', { className: 'hash-display', title: hash[1] || '' }, label),
+        el('span', { className: 'hash-display', title: hash[1] || '' }, hash[1]),
         createHashCopyButton(hash[1]),
       ),
     );
+    cell.appendChild(entry);
   }
   if (allHashes.length > 6) {
     cell.appendChild(el('div', { className: 'hash-list-more' }, '...'));
@@ -532,8 +536,6 @@ export function paintMainAssetsTable({
 
       const binary = item.items ? item.items[0] : item;
       const date = formatDate(binary.created_at);
-      const allSha256Hashes = getHashTags(binary);
-      const sha256Hashes = allSha256Hashes.slice(0, 5);
       const sha256HashKey = item.sha256;
       const downloadHash = sha256HashKey;
       const verificationLookupHash = item.sha256 || getVerificationLookupHash(binary);
@@ -571,6 +573,7 @@ export function paintMainAssetsTable({
 
       let fileName = '';
       let bundleFilesForDownload = [];
+      const registrationFileNamesByHash = new Map();
       item.items.forEach(assetEvent => {
         if (isAssetRegistrationEvent(assetEvent)) {
           const entries = getAssetFileEntries(assetEvent);
@@ -579,6 +582,11 @@ export function paintMainAssetsTable({
               hash: e.hash,
               fileName: e.fileName,
             }));
+            for (const entry of entries) {
+              if (entry.fileName && !registrationFileNamesByHash.has(entry.hash)) {
+                registrationFileNamesByHash.set(entry.hash, entry.fileName);
+              }
+            }
             const scriptBinary = pickScriptBinaryEntry(assetEvent);
             if (scriptBinary?.fileName) {
               fileName = scriptBinary.fileName.replace(/\s+/g, '-');
@@ -591,6 +599,12 @@ export function paintMainAssetsTable({
           }
         }
       });
+
+      // items[0] is the newest event for this row and is often a verification,
+      // whose x tags carry no file names — fall back to the registration's names.
+      const allSha256Hashes = getHashTags(binary).map(tag =>
+        tag[2] ? tag : ['x', tag[1], registrationFileNamesByHash.get(tag[1]) || null]);
+      const sha256Hashes = allSha256Hashes.slice(0, 5);
 
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
       const bundleFilesJson = bundleFilesForDownload.length > 0
@@ -611,7 +625,8 @@ export function paintMainAssetsTable({
       row.dataset.sha256 = sha256HashKey || '';
       row.dataset.identifier = identifier || '';
       row.dataset.hasVerifications = hasVerifications ? 'true' : 'false';
-      row.dataset.searchText = `${walletTitle} ${version} ${itemDescription}`.toLowerCase();
+      const fileNamesForSearch = allSha256Hashes.map(hash => hash[2]).filter(Boolean).join(' ');
+      row.dataset.searchText = `${walletTitle} ${version} ${itemDescription} ${fileNamesForSearch}`.toLowerCase();
 
       const mobileHashMount = el('span');
       fillHashCell(mobileHashMount, sha256Hashes, allSha256Hashes);

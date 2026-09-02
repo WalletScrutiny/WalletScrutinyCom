@@ -16,6 +16,7 @@ import {
   createVerificationActionLink,
   createBlossomDownloadButton,
   createVerificationsCell,
+  fillHashCell,
   renderAssetVersionDescriptionHtml,
 } from '../../src/assets-table-paint.mjs';
 import { htmlOf } from '../../src/html-utils.mjs';
@@ -317,6 +318,31 @@ describe('createBlossomDownloadButton — data-* attributes must not break out',
       bundleFileCount: 1,
     });
     assertNoAttributeBreakout(html);
+  });
+});
+
+describe('fillHashCell — file names from x tags render as text, not HTML', () => {
+  test('file name with HTML payload stays a text node', () => {
+    const cell = document.createElement('td');
+    fillHashCell(cell, [['x', SAFE_HASH, `${HTML_TAG_PAYLOAD}.apk`]]);
+    assertSafeElementTree(cell);
+    const nameNode = cell.querySelector('.hash-file-name');
+    assert.ok(nameNode, 'file name element missing');
+    assert.match(nameNode.textContent, /onerror/);
+  });
+
+  test('file name is shown and the hash chip keeps only the hash', () => {
+    const cell = document.createElement('td');
+    fillHashCell(cell, [['x', SAFE_HASH, 'Wasabi-2.8.2-arm64.deb']]);
+    assert.equal(cell.querySelector('.hash-file-name').textContent, 'Wasabi-2.8.2-arm64.deb');
+    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH);
+  });
+
+  test('entry without a file name renders no file name element', () => {
+    const cell = document.createElement('td');
+    fillHashCell(cell, [['x', SAFE_HASH]]);
+    assert.equal(cell.querySelector('.hash-file-name'), null);
+    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH);
   });
 });
 
