@@ -161,7 +161,7 @@ function updateTableVisibilityCore() {
     return;
   }
 
-  const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+  const rows = Array.from(assetsTableElement.querySelectorAll('tbody tr:not(.show-more-row)'));
 
   rows.forEach(row => {
     if (!row.classList.contains('initially-hidden')) {
@@ -326,13 +326,13 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
     threshold: 0.1
   });
 
-  const tableRows = tableForObserver.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  const tableRows = tableForObserver.querySelectorAll('tbody tr:not(.show-more-row)');
   tableRows.forEach(row => {
     assetsTableBlossomObserver.observe(row);
   });
 
   function updateObserverForVisibleRows() {
-    const visibleRows = Array.from(tableForObserver.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
+    const visibleRows = Array.from(tableForObserver.querySelectorAll('tbody tr:not([style*="display: none"]):not(.show-more-row)'));
     visibleRows.forEach(row => {
       assetsTableBlossomObserver.unobserve(row);
       assetsTableBlossomObserver.observe(row);
@@ -347,7 +347,7 @@ export function setupBlossomDownloadObserverForTable(tableForObserver, {
 }
 
 export function applyDraftRowMetadataToTable(tableEl) {
-  const rows = tableEl.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  const rows = tableEl.querySelectorAll('tbody tr:not(.show-more-row)');
   rows.forEach(row => {
     const verifications = Array.from(row.querySelectorAll('.attestation-link'));
     const pubkeyVerifications = [];
