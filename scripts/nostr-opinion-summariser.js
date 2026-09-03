@@ -1501,7 +1501,7 @@ var require_LRUCacheNode = __commonJS({
     exports2.LRUCacheNode = void 0;
     var LRUCacheNode = class {
       constructor(key, value, options) {
-        const { entryExpirationTimeInMS = null, next: next2 = null, prev = null, onEntryEvicted, onEntryMarkedAsMostRecentlyUsed, clone, cloneFn } = options !== null && options !== void 0 ? options : {};
+        const { entryExpirationTimeInMS = null, next = null, prev = null, onEntryEvicted, onEntryMarkedAsMostRecentlyUsed, clone, cloneFn } = options !== null && options !== void 0 ? options : {};
         if (typeof entryExpirationTimeInMS === "number" && (entryExpirationTimeInMS <= 0 || Number.isNaN(entryExpirationTimeInMS))) {
           throw new Error("entryExpirationTimeInMS must either be null (no expiry) or greater than 0");
         }
@@ -1511,7 +1511,7 @@ var require_LRUCacheNode = __commonJS({
         this.internalValue = this.clone ? this.cloneFn(value) : value;
         this.created = Date.now();
         this.entryExpirationTimeInMS = entryExpirationTimeInMS;
-        this.next = next2;
+        this.next = next;
         this.prev = prev;
         this.onEntryEvicted = onEntryEvicted;
         this.onEntryMarkedAsMostRecentlyUsed = onEntryMarkedAsMostRecentlyUsed;
@@ -1949,9 +1949,9 @@ var require_LRUCache = __commonJS({
         let node = this.head;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           const entry = this.mapNodeToEntry(node);
@@ -1988,9 +1988,9 @@ var require_LRUCache = __commonJS({
         let index = 0;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           callback(node.value, node.key, index);
@@ -2022,9 +2022,9 @@ var require_LRUCache = __commonJS({
         let node = this.head;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           yield node.value;
@@ -2055,9 +2055,9 @@ var require_LRUCache = __commonJS({
         let node = this.head;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           yield node.key;
@@ -2089,9 +2089,9 @@ var require_LRUCache = __commonJS({
         let node = this.head;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           yield this.mapNodeToEntry(node);
@@ -2123,9 +2123,9 @@ var require_LRUCache = __commonJS({
         let node = this.head;
         while (node) {
           if (node.isExpired) {
-            const next2 = node.next;
+            const next = node.next;
             this.removeNodeFromListAndLookupTable(node);
-            node = next2;
+            node = next;
             continue;
           }
           yield this.mapNodeToEntry(node);
@@ -2489,8 +2489,8 @@ var require_lib2 = __commonJS({
       encode(data) {
         let res = "";
         for (let i2 = 0; i2 < data.length; i2 += 8) {
-          const block2 = data.subarray(i2, i2 + 8);
-          res += exports2.base58.encode(block2).padStart(XMR_BLOCK_LEN[block2.length], "1");
+          const block = data.subarray(i2, i2 + 8);
+          res += exports2.base58.encode(block).padStart(XMR_BLOCK_LEN[block.length], "1");
         }
         return res;
       },
@@ -2499,12 +2499,12 @@ var require_lib2 = __commonJS({
         for (let i2 = 0; i2 < str.length; i2 += 11) {
           const slice = str.slice(i2, i2 + 11);
           const blockLen = XMR_BLOCK_LEN.indexOf(slice.length);
-          const block2 = exports2.base58.decode(slice);
-          for (let j = 0; j < block2.length - blockLen; j++) {
-            if (block2[j] !== 0)
+          const block = exports2.base58.decode(slice);
+          for (let j = 0; j < block.length - blockLen; j++) {
+            if (block[j] !== 0)
               throw new Error("base58xmr: wrong padding");
           }
-          res = res.concat(Array.from(block2.slice(block2.length - blockLen)));
+          res = res.concat(Array.from(block.slice(block.length - blockLen)));
         }
         return Uint8Array.from(res);
       }
@@ -7252,8 +7252,8 @@ var require_dexie = __commonJS({
         }, onSuccess = step(callNext), onError = step(doThrow);
         function step(getNext) {
           return function(val) {
-            var next2 = getNext(val), value = next2.value;
-            return next2.done ? value : !value || typeof value.then !== "function" ? isArray(value) ? Promise.all(value).then(onSuccess, onError) : onSuccess(value) : value.then(onSuccess, onError);
+            var next = getNext(val), value = next.value;
+            return next.done ? value : !value || typeof value.then !== "function" ? isArray(value) ? Promise.all(value).then(onSuccess, onError) : onSuccess(value) : value.then(onSuccess, onError);
           };
         }
         return step(callNext)();
@@ -9481,7 +9481,7 @@ function createHmacDrbg(hashLen, qByteLen, hmacFn) {
   let v = u8n(hashLen);
   let k = u8n(hashLen);
   let i2 = 0;
-  const reset = () => {
+  const reset2 = () => {
     v.fill(1);
     k.fill(0);
     i2 = 0;
@@ -9509,12 +9509,12 @@ function createHmacDrbg(hashLen, qByteLen, hmacFn) {
     return concatBytes(...out);
   };
   const genUntil = (seed, pred) => {
-    reset();
+    reset2();
     reseed(seed);
     let res = void 0;
     while (!(res = pred(gen())))
       reseed();
-    reset();
+    reset2();
     return res;
   };
   return genUntil;
@@ -12354,26 +12354,26 @@ var cbc = /* @__PURE__ */ wrapCipher({ blockSize: 16, nonceLength: 16 }, functio
 function isBytes32(a) {
   return a instanceof Uint32Array || ArrayBuffer.isView(a) && a.constructor.name === "Uint32Array";
 }
-function encryptBlock(xk, block2) {
-  abytes4(block2, 16, "block");
+function encryptBlock(xk, block) {
+  abytes4(block, 16, "block");
   if (!isBytes32(xk))
     throw new Error("_encryptBlock accepts result of expandKeyLE");
-  const b32 = u32(block2);
+  const b32 = u32(block);
   let { s0, s1, s2, s3 } = encrypt(xk, b32[0], b32[1], b32[2], b32[3]);
   b32[0] = s0, b32[1] = s1, b32[2] = s2, b32[3] = s3;
-  return block2;
+  return block;
 }
-function dbl(block2) {
+function dbl(block) {
   let carry = 0;
   for (let i2 = BLOCK_SIZE - 1; i2 >= 0; i2--) {
-    const newCarry = (block2[i2] & 128) >>> 7;
-    block2[i2] = block2[i2] << 1 | carry;
+    const newCarry = (block[i2] & 128) >>> 7;
+    block[i2] = block[i2] << 1 | carry;
     carry = newCarry;
   }
   if (carry) {
-    block2[BLOCK_SIZE - 1] ^= 135;
+    block[BLOCK_SIZE - 1] ^= 135;
   }
-  return block2;
+  return block;
 }
 function xorBlock(a, b) {
   if (a.length !== b.length)
@@ -12476,8 +12476,8 @@ var MAX_COUNTER = 2 ** 32 - 1;
 var U32_EMPTY = Uint32Array.of();
 function runCipher(core, sigma, key, nonce, data, output, counter, rounds) {
   const len = data.length;
-  const block2 = new Uint8Array(BLOCK_LEN);
-  const b32 = u32(block2);
+  const block = new Uint8Array(BLOCK_LEN);
+  const b32 = u32(block);
   const isAligned = isAligned322(data) && isAligned322(output);
   const d32 = isAligned ? u32(data) : U32_EMPTY;
   const o32 = isAligned ? u32(output) : U32_EMPTY;
@@ -12499,7 +12499,7 @@ function runCipher(core, sigma, key, nonce, data, output, counter, rounds) {
     }
     for (let j = 0, posj; j < take; j++) {
       posj = pos + j;
-      output[posj] = data[posj] ^ block2[j];
+      output[posj] = data[posj] ^ block[j];
     }
     pos += take;
   }
@@ -13281,46 +13281,46 @@ function mergeReverseSortedLists(list1, list2) {
   let i2 = 0;
   let sameTimestampIds = [];
   while (i1 < list1.length && i2 < list2.length) {
-    let next2;
+    let next;
     if (list1[i1]?.created_at > list2[i2]?.created_at) {
-      next2 = list1[i1];
+      next = list1[i1];
       i1++;
     } else {
-      next2 = list2[i2];
+      next = list2[i2];
       i2++;
     }
-    if (result.length > 0 && result[result.length - 1].created_at === next2.created_at) {
-      if (sameTimestampIds.includes(next2.id))
+    if (result.length > 0 && result[result.length - 1].created_at === next.created_at) {
+      if (sameTimestampIds.includes(next.id))
         continue;
     } else {
       sameTimestampIds.length = 0;
     }
-    result.push(next2);
-    sameTimestampIds.push(next2.id);
+    result.push(next);
+    sameTimestampIds.push(next.id);
   }
   while (i1 < list1.length) {
-    const next2 = list1[i1];
+    const next = list1[i1];
     i1++;
-    if (result.length > 0 && result[result.length - 1].created_at === next2.created_at) {
-      if (sameTimestampIds.includes(next2.id))
+    if (result.length > 0 && result[result.length - 1].created_at === next.created_at) {
+      if (sameTimestampIds.includes(next.id))
         continue;
     } else {
       sameTimestampIds.length = 0;
     }
-    result.push(next2);
-    sameTimestampIds.push(next2.id);
+    result.push(next);
+    sameTimestampIds.push(next.id);
   }
   while (i2 < list2.length) {
-    const next2 = list2[i2];
+    const next = list2[i2];
     i2++;
-    if (result.length > 0 && result[result.length - 1].created_at === next2.created_at) {
-      if (sameTimestampIds.includes(next2.id))
+    if (result.length > 0 && result[result.length - 1].created_at === next.created_at) {
+      if (sameTimestampIds.includes(next.id))
         continue;
     } else {
       sameTimestampIds.length = 0;
     }
-    result.push(next2);
-    sameTimestampIds.push(next2.id);
+    result.push(next);
+    sameTimestampIds.push(next.id);
   }
   return result;
 }
@@ -15271,12 +15271,12 @@ var Accumulator = class {
       let offset = i2 * 4;
       let orig = p.getUint32(offset, true);
       let otherV = po.getUint32(offset, true);
-      let next2 = orig;
-      next2 += currCarry;
-      next2 += otherV;
-      if (next2 > 4294967295)
+      let next = orig;
+      next += currCarry;
+      next += otherV;
+      if (next > 4294967295)
         nextCarry = 1;
-      p.setUint32(offset, next2 & 4294967295, true);
+      p.setUint32(offset, next & 4294967295, true);
       currCarry = nextCarry;
       nextCarry = 0;
     }
@@ -16323,7 +16323,7 @@ function createHmacDrbg2(hashLen, qByteLen, hmacFn) {
   let v = u8n(hashLen);
   let k = u8n(hashLen);
   let i2 = 0;
-  const reset = () => {
+  const reset2 = () => {
     v.fill(1);
     k.fill(0);
     i2 = 0;
@@ -16351,12 +16351,12 @@ function createHmacDrbg2(hashLen, qByteLen, hmacFn) {
     return concatBytes4(...out);
   };
   const genUntil = (seed, pred) => {
-    reset();
+    reset2();
     reseed(seed);
     let res = void 0;
     while (!(res = pred(gen())))
       reseed();
-    reset();
+    reset2();
     return res;
   };
   return genUntil;
@@ -28251,6 +28251,7 @@ var BLOCK_EFFECT = 1 << 4;
 var BRANCH_EFFECT = 1 << 5;
 var ROOT_EFFECT = 1 << 6;
 var BOUNDARY_EFFECT = 1 << 7;
+var PAUSED = 1 << 8;
 var CONNECTED = 1 << 9;
 var CLEAN = 1 << 10;
 var DIRTY = 1 << 11;
@@ -28297,9 +28298,6 @@ var ELEMENT_IS_INPUT = 1 << 2;
 
 // node_modules/svelte/src/internal/client/reactivity/status.js
 var STATUS_MASK = ~(DIRTY | MAYBE_DIRTY | CLEAN);
-
-// node_modules/svelte/src/internal/client/dom/blocks/boundary.js
-var flags = EFFECT_TRANSPARENT | EFFECT_PRESERVED;
 
 // node_modules/svelte/src/store/shared/index.js
 var subscriber_queue = [];

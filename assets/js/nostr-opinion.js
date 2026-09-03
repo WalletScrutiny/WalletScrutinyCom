@@ -56,7 +56,7 @@ function _defineProperty(e, t, n) {
 }
 //#endregion
 //#region node_modules/svelte/src/internal/client/constants.js
-var _globalThis$document, MANAGED_EFFECT = 1 << 24, CLEAN = 1024, DIRTY = 2048, MAYBE_DIRTY = 4096, INERT = 8192, DESTROYED = 16384, REACTION_RAN = 32768, DESTROYING = 1 << 25, EFFECT_TRANSPARENT = 65536, EAGER_EFFECT = 1 << 17, HEAD_EFFECT = 1 << 18, EFFECT_PRESERVED = 1 << 19, USER_EFFECT = 1 << 20, EFFECT_OFFSCREEN = 1 << 25, WAS_MARKED = 65536, REACTION_IS_UPDATING = 1 << 21, ASYNC = 1 << 22, ERROR_VALUE = 1 << 23, STATE_SYMBOL = Symbol("$state"), LEGACY_PROPS = Symbol("legacy props"), LOADING_ATTR_SYMBOL = Symbol(""), PROXY_PATH_SYMBOL = Symbol("proxy path"), ATTRIBUTES_CACHE = Symbol("attributes"), CLASS_CACHE = Symbol("class"), STYLE_CACHE = Symbol("style"), TEXT_CACHE = Symbol("text"), FORM_RESET_HANDLER = Symbol("form reset"), HMR_ANCHOR = Symbol("hmr anchor"), STALE_REACTION = new class extends Error {
+var _globalThis$document, MANAGED_EFFECT = 1 << 24, CLEAN = 1024, DIRTY = 2048, MAYBE_DIRTY = 4096, INERT = 8192, DESTROYED = 16384, REACTION_RAN = 32768, DESTROYING = 1 << 25, EFFECT_TRANSPARENT = 65536, EAGER_EFFECT = 1 << 17, HEAD_EFFECT = 1 << 18, EFFECT_PRESERVED = 1 << 19, USER_EFFECT = 1 << 20, EFFECT_OFFSCREEN = 1 << 25, WAS_MARKED = 65536, REACTION_IS_UPDATING = 1 << 21, ASYNC = 1 << 22, ERROR_VALUE = 1 << 23, STATE_SYMBOL = Symbol("$state"), COMPONENT_SYMBOL = Symbol("component"), LEGACY_PROPS = Symbol("legacy props"), LOADING_ATTR_SYMBOL = Symbol(""), PROXY_PATH_SYMBOL = Symbol("proxy path"), ATTRIBUTES_CACHE = Symbol("attributes"), CLASS_CACHE = Symbol("class"), STYLE_CACHE = Symbol("style"), TEXT_CACHE = Symbol("text"), FORM_RESET_HANDLER = Symbol("form reset"), HMR_ANCHOR = Symbol("hmr anchor"), STALE_REACTION = new class extends Error {
 	constructor(...e) {
 		super(...e), _defineProperty(this, "name", "StaleReactionError"), _defineProperty(this, "message", "The reaction that called `getAbortSignal()` was re-run or destroyed");
 	}
@@ -228,7 +228,10 @@ function pop(e) {
 		for (var r of n) create_user_effect(r);
 	}
 	if (e !== void 0 && (t.x = e), t.i = !0, component_context = t.p, 0) var a;
-	return e == null ? {} : e;
+	return mark_as_component(e);
+}
+function mark_as_component(e = {}) {
+	return define_property(e, COMPONENT_SYMBOL, { value: !0 }), e;
 }
 function is_runes() {
 	return !legacy_mode_flag || component_context !== null && component_context.l === null;
@@ -278,9 +281,6 @@ function lifecycle_double_unmount() {
 }
 function state_proxy_equality_mismatch(e) {
 	console.warn("https://svelte.dev/e/state_proxy_equality_mismatch");
-}
-function state_proxy_unmount() {
-	console.warn("https://svelte.dev/e/state_proxy_unmount");
 }
 function svelte_boundary_reset_noop() {
 	console.warn("https://svelte.dev/e/svelte_boundary_reset_noop");
@@ -335,7 +335,7 @@ function read_hydration_instruction(e) {
 //#region node_modules/svelte/src/internal/client/proxy.js
 var regex_is_valid_identifier = /^[a-zA-Z_$][a-zA-Z_$0-9]*$/;
 function proxy(e) {
-	if (typeof e != "object" || !e || STATE_SYMBOL in e) return e;
+	if (typeof e != "object" || !e || STATE_SYMBOL in e || COMPONENT_SYMBOL in e) return e;
 	let t = get_prototype_of(e);
 	if (t !== object_prototype && t !== array_prototype) return e;
 	var n = /* @__PURE__ */ new Map(), r = is_array(e), a = /* @__PURE__ */ state(0), o = null, s = update_version, c = (e) => {
@@ -550,6 +550,11 @@ function first_child(e, t = !1) {
 	}
 	return hydrate_node;
 }
+function only_child(e, t = !1) {
+	if (!hydrating) return /* @__PURE__ */ get_first_child(e);
+	var n = child(e, t);
+	return reset(e), n;
+}
 function sibling(e, t = 1, n = !1) {
 	let r = hydrating ? hydrate_node : e;
 	for (var a; t--;) a = r, r = /* @__PURE__ */ get_next_sibling(r);
@@ -589,7 +594,7 @@ function handle_error(e) {
 function invoke_error_boundary(e, t) {
 	if (!(t !== null && t.f & 16384)) {
 		for (; t !== null;) {
-			if (t.f & 128) {
+			if (t.f & 128 && !(t.f & 33570816)) {
 				if (!(t.f & 32768)) throw e;
 				try {
 					t.b.error(e);
@@ -767,212 +772,6 @@ function listen_to_event_and_reset_event(e, t, n, r = n) {
 	} : () => r(!0), add_form_reset_listener();
 }
 //#endregion
-//#region node_modules/svelte/src/reactivity/create-subscriber.js
-function createSubscriber(e) {
-	let t = 0, n = source(0), r;
-	return () => {
-		effect_tracking() && (get(n), render_effect(() => (t === 0 && (r = untrack(() => e(() => increment(n)))), t += 1, () => {
-			queue_micro_task(() => {
-				--t, t === 0 && (r == null || r(), r = void 0, increment(n));
-			});
-		})));
-	};
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/checkPrivateRedeclaration.js
-function _checkPrivateRedeclaration(e, t) {
-	if (t.has(e)) throw TypeError("Cannot initialize the same private elements twice on an object");
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateMethodInitSpec.js
-function _classPrivateMethodInitSpec(e, t) {
-	_checkPrivateRedeclaration(e, t), t.add(e);
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldInitSpec.js
-function _classPrivateFieldInitSpec(e, t, n) {
-	_checkPrivateRedeclaration(e, t), t.set(e, n);
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/assertClassBrand.js
-function _assertClassBrand(e, t, n) {
-	if (typeof e == "function" ? e === t : e.has(t)) return arguments.length < 3 ? t : n;
-	throw TypeError("Private element is not present on this object");
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldSet2.js
-function _classPrivateFieldSet2(e, t, n) {
-	return e.set(_assertClassBrand(e, t), n), n;
-}
-//#endregion
-//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldGet2.js
-function _classPrivateFieldGet2(e, t) {
-	return e.get(_assertClassBrand(e, t));
-}
-//#endregion
-//#region node_modules/svelte/src/internal/client/dom/blocks/boundary.js
-var flags = EFFECT_TRANSPARENT | EFFECT_PRESERVED;
-function boundary(e, t, n, r) {
-	new Boundary(e, t, n, r);
-}
-var _anchor = /* @__PURE__ */ new WeakMap(), _hydrate_open = /* @__PURE__ */ new WeakMap(), _props = /* @__PURE__ */ new WeakMap(), _children = /* @__PURE__ */ new WeakMap(), _effect = /* @__PURE__ */ new WeakMap(), _main_effect = /* @__PURE__ */ new WeakMap(), _pending_effect = /* @__PURE__ */ new WeakMap(), _failed_effect = /* @__PURE__ */ new WeakMap(), _offscreen_fragment = /* @__PURE__ */ new WeakMap(), _local_pending_count = /* @__PURE__ */ new WeakMap(), _pending_count = /* @__PURE__ */ new WeakMap(), _pending_count_update_queued = /* @__PURE__ */ new WeakMap(), _dirty_effects$1 = /* @__PURE__ */ new WeakMap(), _maybe_dirty_effects$1 = /* @__PURE__ */ new WeakMap(), _effect_pending = /* @__PURE__ */ new WeakMap(), _effect_pending_subscriber = /* @__PURE__ */ new WeakMap(), _Boundary_brand = /* @__PURE__ */ new WeakSet(), Boundary = class {
-	constructor(e, t, n, r) {
-		var a, o;
-		_classPrivateMethodInitSpec(this, _Boundary_brand), _defineProperty(this, "parent", void 0), _defineProperty(this, "is_pending", !1), _defineProperty(this, "transform_error", void 0), _classPrivateFieldInitSpec(this, _anchor, void 0), _classPrivateFieldInitSpec(this, _hydrate_open, hydrating ? hydrate_node : null), _classPrivateFieldInitSpec(this, _props, void 0), _classPrivateFieldInitSpec(this, _children, void 0), _classPrivateFieldInitSpec(this, _effect, void 0), _classPrivateFieldInitSpec(this, _main_effect, null), _classPrivateFieldInitSpec(this, _pending_effect, null), _classPrivateFieldInitSpec(this, _failed_effect, null), _classPrivateFieldInitSpec(this, _offscreen_fragment, null), _classPrivateFieldInitSpec(this, _local_pending_count, 0), _classPrivateFieldInitSpec(this, _pending_count, 0), _classPrivateFieldInitSpec(this, _pending_count_update_queued, !1), _classPrivateFieldInitSpec(this, _dirty_effects$1, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _maybe_dirty_effects$1, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _effect_pending, null), _classPrivateFieldInitSpec(this, _effect_pending_subscriber, createSubscriber(() => (_classPrivateFieldSet2(_effect_pending, this, source(_classPrivateFieldGet2(_local_pending_count, this))), () => {
-			_classPrivateFieldSet2(_effect_pending, this, null);
-		}))), _classPrivateFieldSet2(_anchor, this, e), _classPrivateFieldSet2(_props, this, t), _classPrivateFieldSet2(_children, this, (e) => {
-			var t = active_effect;
-			t.b = this, t.f |= 128, n(e);
-		}), this.parent = active_effect.b, this.transform_error = (a = r == null ? (o = this.parent) == null ? void 0 : o.transform_error : r) == null ? ((e) => e) : a, _classPrivateFieldSet2(_effect, this, block(() => {
-			if (hydrating) {
-				let e = _classPrivateFieldGet2(_hydrate_open, this);
-				hydrate_next();
-				let t = e.data === "[!";
-				if (e.data.startsWith("[?")) {
-					let t = JSON.parse(e.data.slice(2));
-					_assertClassBrand(_Boundary_brand, this, _hydrate_failed_content).call(this, t);
-				} else t ? _assertClassBrand(_Boundary_brand, this, _hydrate_pending_content).call(this) : _assertClassBrand(_Boundary_brand, this, _hydrate_resolved_content).call(this);
-			} else _assertClassBrand(_Boundary_brand, this, _render).call(this);
-		}, flags)), hydrating && _classPrivateFieldSet2(_anchor, this, hydrate_node);
-	}
-	defer_effect(e) {
-		defer_effect(e, _classPrivateFieldGet2(_dirty_effects$1, this), _classPrivateFieldGet2(_maybe_dirty_effects$1, this));
-	}
-	is_rendered() {
-		return !this.is_pending && (!this.parent || this.parent.is_rendered());
-	}
-	has_pending_snippet() {
-		return !!_classPrivateFieldGet2(_props, this).pending;
-	}
-	update_pending_count(e, t) {
-		_assertClassBrand(_Boundary_brand, this, _update_pending_count).call(this, e, t), _classPrivateFieldSet2(_local_pending_count, this, _classPrivateFieldGet2(_local_pending_count, this) + e), !(!_classPrivateFieldGet2(_effect_pending, this) || _classPrivateFieldGet2(_pending_count_update_queued, this)) && (_classPrivateFieldSet2(_pending_count_update_queued, this, !0), queue_micro_task(() => {
-			_classPrivateFieldSet2(_pending_count_update_queued, this, !1), _classPrivateFieldGet2(_effect_pending, this) && internal_set(_classPrivateFieldGet2(_effect_pending, this), _classPrivateFieldGet2(_local_pending_count, this));
-		}));
-	}
-	get_effect_pending() {
-		return _classPrivateFieldGet2(_effect_pending_subscriber, this).call(this), get(_classPrivateFieldGet2(_effect_pending, this));
-	}
-	error(e) {
-		if (!_classPrivateFieldGet2(_props, this).onerror && !_classPrivateFieldGet2(_props, this).failed) throw e;
-		current_batch != null && current_batch.is_fork ? (_classPrivateFieldGet2(_main_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_main_effect, this)), _classPrivateFieldGet2(_pending_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_pending_effect, this)), _classPrivateFieldGet2(_failed_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_failed_effect, this)), current_batch.oncommit(() => {
-			_assertClassBrand(_Boundary_brand, this, _handle_error).call(this, e);
-		})) : _assertClassBrand(_Boundary_brand, this, _handle_error).call(this, e);
-	}
-};
-function _hydrate_resolved_content() {
-	try {
-		_classPrivateFieldSet2(_main_effect, this, branch(() => _classPrivateFieldGet2(_children, this).call(this, _classPrivateFieldGet2(_anchor, this))));
-	} catch (e) {
-		this.error(e);
-	}
-}
-function _hydrate_failed_content(e) {
-	let t = _classPrivateFieldGet2(_props, this).failed, { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
-	queue_micro_task(r), t && _classPrivateFieldSet2(_failed_effect, this, branch(() => {
-		t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
-	}));
-}
-function _create_reset(e) {
-	var t = !1, n = !1;
-	let r = () => {
-		if (t) {
-			svelte_boundary_reset_noop();
-			return;
-		}
-		t = !0, n && svelte_boundary_reset_onerror(), _classPrivateFieldGet2(_failed_effect, this) !== null && pause_effect(_classPrivateFieldGet2(_failed_effect, this), () => {
-			_classPrivateFieldSet2(_failed_effect, this, null);
-		}), _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
-			_assertClassBrand(_Boundary_brand, this, _render).call(this);
-		});
-	};
-	return {
-		reset: r,
-		invoke_onerror: () => {
-			try {
-				var t, a;
-				n = !0, (t = (a = _classPrivateFieldGet2(_props, this)).onerror) == null || t.call(a, e, r), n = !1;
-			} catch (e) {
-				invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
-			}
-		}
-	};
-}
-function _hydrate_pending_content() {
-	let e = _classPrivateFieldGet2(_props, this).pending;
-	e && (this.is_pending = !0, _classPrivateFieldSet2(_pending_effect, this, branch(() => e(_classPrivateFieldGet2(_anchor, this)))), queue_micro_task(() => {
-		var e = _classPrivateFieldSet2(_offscreen_fragment, this, document.createDocumentFragment()), t = create_text();
-		e.append(t), _classPrivateFieldSet2(_main_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => branch(() => _classPrivateFieldGet2(_children, this).call(this, t)))), _classPrivateFieldGet2(_pending_count, this) === 0 && (_classPrivateFieldGet2(_anchor, this).before(e), _classPrivateFieldSet2(_offscreen_fragment, this, null), pause_effect(_classPrivateFieldGet2(_pending_effect, this), () => {
-			_classPrivateFieldSet2(_pending_effect, this, null);
-		}), _assertClassBrand(_Boundary_brand, this, _resolve).call(this, current_batch));
-	}));
-}
-function _render() {
-	try {
-		if (this.is_pending = this.has_pending_snippet(), _classPrivateFieldSet2(_pending_count, this, 0), _classPrivateFieldSet2(_local_pending_count, this, 0), _classPrivateFieldSet2(_main_effect, this, branch(() => {
-			_classPrivateFieldGet2(_children, this).call(this, _classPrivateFieldGet2(_anchor, this));
-		})), _classPrivateFieldGet2(_pending_count, this) > 0) {
-			var e = _classPrivateFieldSet2(_offscreen_fragment, this, document.createDocumentFragment());
-			move_effect(_classPrivateFieldGet2(_main_effect, this), e);
-			let t = _classPrivateFieldGet2(_props, this).pending;
-			_classPrivateFieldSet2(_pending_effect, this, branch(() => t(_classPrivateFieldGet2(_anchor, this))));
-		} else _assertClassBrand(_Boundary_brand, this, _resolve).call(this, current_batch);
-	} catch (e) {
-		this.error(e);
-	}
-}
-function _resolve(e) {
-	this.is_pending = !1, e.transfer_effects(_classPrivateFieldGet2(_dirty_effects$1, this), _classPrivateFieldGet2(_maybe_dirty_effects$1, this));
-}
-function _run(e) {
-	var t = active_effect, n = active_reaction, r = component_context;
-	set_active_effect(_classPrivateFieldGet2(_effect, this)), set_active_reaction(_classPrivateFieldGet2(_effect, this)), set_component_context(_classPrivateFieldGet2(_effect, this).ctx);
-	try {
-		return Batch.ensure(), e();
-	} catch (e) {
-		return handle_error(e), null;
-	} finally {
-		set_active_effect(t), set_active_reaction(n), set_component_context(r);
-	}
-}
-function _update_pending_count(e, t) {
-	if (!this.has_pending_snippet()) {
-		if (this.parent) {
-			var n;
-			_assertClassBrand(_Boundary_brand, n = this.parent, _update_pending_count).call(n, e, t);
-		}
-		return;
-	}
-	_classPrivateFieldSet2(_pending_count, this, _classPrivateFieldGet2(_pending_count, this) + e), _classPrivateFieldGet2(_pending_count, this) === 0 && (_assertClassBrand(_Boundary_brand, this, _resolve).call(this, t), _classPrivateFieldGet2(_pending_effect, this) && pause_effect(_classPrivateFieldGet2(_pending_effect, this), () => {
-		_classPrivateFieldSet2(_pending_effect, this, null);
-	}), _classPrivateFieldGet2(_offscreen_fragment, this) && (_classPrivateFieldGet2(_anchor, this).before(_classPrivateFieldGet2(_offscreen_fragment, this)), _classPrivateFieldSet2(_offscreen_fragment, this, null)));
-}
-function _handle_error(e) {
-	_classPrivateFieldGet2(_main_effect, this) && (destroy_effect(_classPrivateFieldGet2(_main_effect, this)), _classPrivateFieldSet2(_main_effect, this, null)), _classPrivateFieldGet2(_pending_effect, this) && (destroy_effect(_classPrivateFieldGet2(_pending_effect, this)), _classPrivateFieldSet2(_pending_effect, this, null)), _classPrivateFieldGet2(_failed_effect, this) && (destroy_effect(_classPrivateFieldGet2(_failed_effect, this)), _classPrivateFieldSet2(_failed_effect, this, null)), hydrating && (set_hydrate_node(_classPrivateFieldGet2(_hydrate_open, this)), next(), set_hydrate_node(skip_nodes()));
-	let t = _classPrivateFieldGet2(_props, this).failed, n = (e) => {
-		let { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
-		r(), t && _classPrivateFieldSet2(_failed_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
-			try {
-				return branch(() => {
-					var r = active_effect;
-					r.b = this, r.f |= 128, t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
-				});
-			} catch (e) {
-				return invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this).parent), null;
-			}
-		}));
-	};
-	queue_micro_task(() => {
-		var t;
-		try {
-			t = this.transform_error(e);
-		} catch (e) {
-			invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
-			return;
-		}
-		typeof t == "object" && t && typeof t.then == "function" ? t.then(n, (e) => invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent)) : n(t);
-	});
-}
-//#endregion
 //#region node_modules/svelte/src/internal/client/reactivity/async.js
 function flatten(e, t, n, r) {
 	let a = is_runes() ? derived : derived_safe_equal;
@@ -1012,6 +811,7 @@ function capture() {
 		set_active_effect(e), set_active_reaction(t), set_component_context(n), a && !(e.f & 16384) && (r == null || r.activate(), r == null || r.apply());
 	};
 }
+var restored = !1;
 function unset_context(e = !0) {
 	set_active_effect(null), set_active_reaction(null), set_component_context(null), e && (current_batch == null || current_batch.deactivate());
 }
@@ -1137,10 +937,41 @@ function unfreeze_derived_effects(e) {
 	if (e.effects !== null) for (let t of e.effects) t.teardown && t.fn !== null && update_effect(t);
 }
 //#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/checkPrivateRedeclaration.js
+function _checkPrivateRedeclaration(e, t) {
+	if (t.has(e)) throw TypeError("Cannot initialize the same private elements twice on an object");
+}
+//#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateMethodInitSpec.js
+function _classPrivateMethodInitSpec(e, t) {
+	_checkPrivateRedeclaration(e, t), t.add(e);
+}
+//#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldInitSpec.js
+function _classPrivateFieldInitSpec(e, t, n) {
+	_checkPrivateRedeclaration(e, t), t.set(e, n);
+}
+//#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/assertClassBrand.js
+function _assertClassBrand(e, t, n) {
+	if (typeof e == "function" ? e === t : e.has(t)) return arguments.length < 3 ? t : n;
+	throw TypeError("Private element is not present on this object");
+}
+//#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldSet2.js
+function _classPrivateFieldSet2(e, t, n) {
+	return e.set(_assertClassBrand(e, t), n), n;
+}
+//#endregion
+//#region \0@oxc-project+runtime@0.146.0/helpers/esm/classPrivateFieldGet2.js
+function _classPrivateFieldGet2(e, t) {
+	return e.get(_assertClassBrand(e, t));
+}
+//#endregion
 //#region node_modules/svelte/src/internal/client/reactivity/batch.js
-var _Batch, first_batch = null, last_batch = null, current_batch = null, previous_batch = null, batch_values = null, last_scheduled_effect = null, is_flushing_sync = !1, is_processing = !1, collected_effects = null, legacy_updates = null, flush_count = 0, source_stacks = /* @__PURE__ */ new Set(), uid = 1, _started = /* @__PURE__ */ new WeakMap(), _prev = /* @__PURE__ */ new WeakMap(), _next = /* @__PURE__ */ new WeakMap(), _commit_callbacks = /* @__PURE__ */ new WeakMap(), _discard_callbacks = /* @__PURE__ */ new WeakMap(), _pending = /* @__PURE__ */ new WeakMap(), _blocking_pending = /* @__PURE__ */ new WeakMap(), _deferred = /* @__PURE__ */ new WeakMap(), _roots = /* @__PURE__ */ new WeakMap(), _new_effects = /* @__PURE__ */ new WeakMap(), _dirty_effects = /* @__PURE__ */ new WeakMap(), _maybe_dirty_effects = /* @__PURE__ */ new WeakMap(), _skipped_branches = /* @__PURE__ */ new WeakMap(), _unskipped_branches = /* @__PURE__ */ new WeakMap(), _decrement_queued = /* @__PURE__ */ new WeakMap(), _Batch_brand = /* @__PURE__ */ new WeakSet(), Batch = class e {
+var _Batch, first_batch = null, last_batch = null, current_batch = null, previous_batch = null, batch_values = null, last_scheduled_effect = null, is_flushing_sync = !1, is_processing = !1, collected_effects = null, legacy_updates = null, flush_count = 0, source_stacks = /* @__PURE__ */ new Set(), uid = 1, _started = /* @__PURE__ */ new WeakMap(), _prev = /* @__PURE__ */ new WeakMap(), _next = /* @__PURE__ */ new WeakMap(), _commit_callbacks = /* @__PURE__ */ new WeakMap(), _discard_callbacks = /* @__PURE__ */ new WeakMap(), _pending = /* @__PURE__ */ new WeakMap(), _blocking_pending = /* @__PURE__ */ new WeakMap(), _deferred = /* @__PURE__ */ new WeakMap(), _roots = /* @__PURE__ */ new WeakMap(), _new_effects = /* @__PURE__ */ new WeakMap(), _dirty_effects$1 = /* @__PURE__ */ new WeakMap(), _maybe_dirty_effects$1 = /* @__PURE__ */ new WeakMap(), _skipped_branches = /* @__PURE__ */ new WeakMap(), _unskipped_branches = /* @__PURE__ */ new WeakMap(), _decrement_queued = /* @__PURE__ */ new WeakMap(), _Batch_brand = /* @__PURE__ */ new WeakSet(), Batch = class e {
 	constructor() {
-		_classPrivateMethodInitSpec(this, _Batch_brand), _defineProperty(this, "id", uid++), _classPrivateFieldInitSpec(this, _started, !1), _defineProperty(this, "linked", !0), _classPrivateFieldInitSpec(this, _prev, null), _classPrivateFieldInitSpec(this, _next, null), _defineProperty(this, "async_deriveds", /* @__PURE__ */ new Map()), _defineProperty(this, "current", /* @__PURE__ */ new Map()), _defineProperty(this, "previous", /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _commit_callbacks, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _discard_callbacks, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _pending, 0), _classPrivateFieldInitSpec(this, _blocking_pending, /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _deferred, null), _classPrivateFieldInitSpec(this, _roots, []), _classPrivateFieldInitSpec(this, _new_effects, []), _classPrivateFieldInitSpec(this, _dirty_effects, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _maybe_dirty_effects, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _skipped_branches, /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _unskipped_branches, /* @__PURE__ */ new Set()), _defineProperty(this, "is_fork", !1), _classPrivateFieldInitSpec(this, _decrement_queued, !1), last_batch === null ? first_batch = last_batch = this : (_classPrivateFieldSet2(_next, last_batch, this), _classPrivateFieldSet2(_prev, this, last_batch)), last_batch = this;
+		_classPrivateMethodInitSpec(this, _Batch_brand), _defineProperty(this, "id", uid++), _classPrivateFieldInitSpec(this, _started, !1), _defineProperty(this, "linked", !0), _classPrivateFieldInitSpec(this, _prev, null), _classPrivateFieldInitSpec(this, _next, null), _defineProperty(this, "async_deriveds", /* @__PURE__ */ new Map()), _defineProperty(this, "current", /* @__PURE__ */ new Map()), _defineProperty(this, "previous", /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _commit_callbacks, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _discard_callbacks, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _pending, 0), _classPrivateFieldInitSpec(this, _blocking_pending, /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _deferred, null), _classPrivateFieldInitSpec(this, _roots, []), _classPrivateFieldInitSpec(this, _new_effects, []), _classPrivateFieldInitSpec(this, _dirty_effects$1, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _maybe_dirty_effects$1, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _skipped_branches, /* @__PURE__ */ new Map()), _classPrivateFieldInitSpec(this, _unskipped_branches, /* @__PURE__ */ new Set()), _defineProperty(this, "is_fork", !1), _classPrivateFieldInitSpec(this, _decrement_queued, !1), last_batch === null ? first_batch = last_batch = this : (_classPrivateFieldSet2(_next, last_batch, this), _classPrivateFieldSet2(_prev, this, last_batch)), last_batch = this;
 	}
 	skip_effect(e) {
 		_classPrivateFieldGet2(_skipped_branches, this).has(e) || _classPrivateFieldGet2(_skipped_branches, this).set(e, {
@@ -1201,8 +1032,8 @@ var _Batch, first_batch = null, last_batch = null, current_batch = null, previou
 		}));
 	}
 	transfer_effects(e, t) {
-		for (let t of e) _classPrivateFieldGet2(_dirty_effects, this).add(t);
-		for (let e of t) _classPrivateFieldGet2(_maybe_dirty_effects, this).add(e);
+		for (let t of e) _classPrivateFieldGet2(_dirty_effects$1, this).add(t);
+		for (let e of t) _classPrivateFieldGet2(_maybe_dirty_effects$1, this).add(e);
 		e.clear(), t.clear();
 	}
 	oncommit(e) {
@@ -1278,8 +1109,8 @@ function _is_deferred() {
 function _process() {
 	var e;
 	_classPrivateFieldSet2(_started, this, !0), flush_count++ > 1e3 && (_assertClassBrand(_Batch_brand, this, _unlink).call(this), infinite_loop_guard());
-	for (let e of _classPrivateFieldGet2(_dirty_effects, this)) _classPrivateFieldGet2(_maybe_dirty_effects, this).delete(e), set_signal_status(e, DIRTY), this.schedule(e);
-	for (let e of _classPrivateFieldGet2(_maybe_dirty_effects, this)) set_signal_status(e, MAYBE_DIRTY), this.schedule(e);
+	for (let e of _classPrivateFieldGet2(_dirty_effects$1, this)) _classPrivateFieldGet2(_maybe_dirty_effects$1, this).delete(e), set_signal_status(e, DIRTY), this.schedule(e);
+	for (let e of _classPrivateFieldGet2(_maybe_dirty_effects$1, this)) set_signal_status(e, MAYBE_DIRTY), this.schedule(e);
 	let t = _classPrivateFieldGet2(_roots, this);
 	_classPrivateFieldSet2(_roots, this, []), this.apply();
 	var n = collected_effects = [], r = [], a = legacy_updates = [];
@@ -1303,7 +1134,7 @@ function _process() {
 		_assertClassBrand(_Batch_brand, this, _defer_effects).call(this, r), _assertClassBrand(_Batch_brand, this, _defer_effects).call(this, n), _assertClassBrand(_Batch_brand, s, _merge).call(s, this);
 		return;
 	}
-	_classPrivateFieldGet2(_dirty_effects, this).clear(), _classPrivateFieldGet2(_maybe_dirty_effects, this).clear();
+	_classPrivateFieldGet2(_dirty_effects$1, this).clear(), _classPrivateFieldGet2(_maybe_dirty_effects$1, this).clear();
 	for (let e of _classPrivateFieldGet2(_commit_callbacks, this)) e(this);
 	_classPrivateFieldGet2(_commit_callbacks, this).clear(), previous_batch = this, flush_queued_effects(r), flush_queued_effects(n), previous_batch = null, (e = _classPrivateFieldGet2(_deferred, this)) == null || e.resolve();
 	var c = current_batch;
@@ -1320,7 +1151,7 @@ function _traverse(e, t, n) {
 	for (var r = e.first; r !== null;) {
 		var a = r.f, o = !!(a & 96);
 		if (!(o && a & 1024 || a & 8192 || _classPrivateFieldGet2(_skipped_branches, this).has(r)) && r.fn !== null) {
-			o ? r.f ^= CLEAN : a & 4 ? t.push(r) : async_mode_flag && a & 16777224 ? n.push(r) : is_dirty(r) && (a & 16 && _classPrivateFieldGet2(_maybe_dirty_effects, this).add(r), update_effect(r));
+			o ? r.f ^= CLEAN : a & 4 ? t.push(r) : async_mode_flag && a & 16777224 ? n.push(r) : is_dirty(r) && (a & 16 && _classPrivateFieldGet2(_maybe_dirty_effects$1, this).add(r), update_effect(r));
 			var s = r.first;
 			if (s !== null) {
 				r = s;
@@ -1352,7 +1183,7 @@ function _merge(e) {
 		let e = this.async_deriveds.get(t);
 		e && n.promise.then(e.resolve).catch(e.reject);
 	}
-	e.async_deriveds.clear(), this.transfer_effects(_classPrivateFieldGet2(_dirty_effects, e), _classPrivateFieldGet2(_maybe_dirty_effects, e));
+	e.async_deriveds.clear(), this.transfer_effects(_classPrivateFieldGet2(_dirty_effects$1, e), _classPrivateFieldGet2(_maybe_dirty_effects$1, e));
 	let t = (e) => {
 		var n = e.reactions;
 		if (n !== null && !(e.f & 2 && !(e.f & 6144))) for (let e of n) {
@@ -1360,7 +1191,7 @@ function _merge(e) {
 			if (r & 2) t(e);
 			else {
 				var a = e;
-				r & 4194320 && !this.async_deriveds.has(a) && (_classPrivateFieldGet2(_maybe_dirty_effects, this).delete(a), set_signal_status(a, DIRTY), this.schedule(a));
+				r & 4194320 && !this.async_deriveds.has(a) && (_classPrivateFieldGet2(_maybe_dirty_effects$1, this).delete(a), set_signal_status(a, DIRTY), this.schedule(a));
 			}
 		}
 	};
@@ -1368,7 +1199,7 @@ function _merge(e) {
 	this.oncommit(() => e.discard()), _assertClassBrand(_Batch_brand, e, _unlink).call(e), current_batch = this, _assertClassBrand(_Batch_brand, this, _process).call(this);
 }
 function _defer_effects(e) {
-	for (var t = 0; t < e.length; t += 1) defer_effect(e[t], _classPrivateFieldGet2(_dirty_effects, this), _classPrivateFieldGet2(_maybe_dirty_effects, this));
+	for (var t = 0; t < e.length; t += 1) defer_effect(e[t], _classPrivateFieldGet2(_dirty_effects$1, this), _classPrivateFieldGet2(_maybe_dirty_effects$1, this));
 }
 function _commit$1() {
 	for (let f = first_batch; f !== null; f = _classPrivateFieldGet2(_next, f)) {
@@ -1401,7 +1232,7 @@ function _commit$1() {
 					let n = this.current.get(e);
 					return !n || n[0] !== t[0] || n[1] !== t[1];
 				}).map(([e]) => e);
-				if (l.length > 0) for (let e of _classPrivateFieldGet2(_new_effects, this)) !(e.f & 155648) && depends_on(e, l, s) && (e.f & 4194320 ? (set_signal_status(e, DIRTY), f.schedule(e)) : _classPrivateFieldGet2(_dirty_effects, f).add(e));
+				if (l.length > 0) for (let e of _classPrivateFieldGet2(_new_effects, this)) !(e.f & 155648) && depends_on(e, l, s) && (e.f & 4194320 ? (set_signal_status(e, DIRTY), f.schedule(e)) : _classPrivateFieldGet2(_dirty_effects$1, f).add(e));
 				if (_classPrivateFieldGet2(_roots, f).length > 0 && !_classPrivateFieldGet2(_decrement_queued, f)) {
 					f.apply();
 					for (var u of _classPrivateFieldGet2(_roots, f)) _assertClassBrand(_Batch_brand, f, _traverse).call(f, u, [], []);
@@ -1637,28 +1468,32 @@ function update_reaction(e) {
 		e.f |= REACTION_IS_UPDATING;
 		var f = e.fn, p = f();
 		e.f |= REACTION_RAN;
-		var m = e.deps, g = current_batch == null ? void 0 : current_batch.is_fork;
-		if (new_deps !== null) {
-			var _;
-			if (g || remove_reactions(e, skipped_deps), m !== null && skipped_deps > 0) for (m.length = skipped_deps + new_deps.length, _ = 0; _ < new_deps.length; _++) m[skipped_deps + _] = new_deps[_];
-			else e.deps = m = new_deps;
-			if (effect_tracking() && e.f & 512) for (_ = skipped_deps; _ < m.length; _++) {
-				var v, y;
-				((y = (v = m[_]).reactions) == null ? v.reactions = [] : y).push(e);
-			}
-		} else !g && m !== null && skipped_deps < m.length && (remove_reactions(e, skipped_deps), m.length = skipped_deps);
-		if (is_runes() && untracked_writes !== null && !untracking && m !== null && !(e.f & 6146)) for (_ = 0; _ < untracked_writes.length; _++) schedule_possible_effect_self_invalidation(untracked_writes[_], e);
+		var m = update_dependencies(e);
+		if (is_runes() && untracked_writes !== null && !untracking && m !== null && !(e.f & 6146)) for (var g = 0; g < untracked_writes.length; g++) schedule_possible_effect_self_invalidation(untracked_writes[g], e);
 		if (a !== null && a !== e) {
 			if (read_version++, a.deps !== null) for (let e = 0; e < n; e += 1) a.deps[e].rv = read_version;
 			if (t !== null) for (let e of t) e.rv = read_version;
 			untracked_writes !== null && (r === null ? r = untracked_writes : r.push(...untracked_writes));
 		}
 		return e.f & 8388608 && (e.f ^= ERROR_VALUE), p;
-	} catch (e) {
-		return handle_error(e);
+	} catch (t) {
+		return update_dependencies(e), handle_error(t);
 	} finally {
 		e.f ^= REACTION_IS_UPDATING, new_deps = t, skipped_deps = n, untracked_writes = r, active_reaction = a, current_sources = o, set_component_context(s), untracking = c, update_version = l;
 	}
+}
+function update_dependencies(e) {
+	var t = e.deps, n = current_batch == null ? void 0 : current_batch.is_fork;
+	if (new_deps !== null) {
+		var r;
+		if (n || remove_reactions(e, skipped_deps), t !== null && skipped_deps > 0) for (t.length = skipped_deps + new_deps.length, r = 0; r < new_deps.length; r++) t[skipped_deps + r] = new_deps[r];
+		else e.deps = t = new_deps;
+		if (effect_tracking() && e.f & 512) for (r = skipped_deps; r < t.length; r++) {
+			var a, o;
+			((o = (a = t[r]).reactions) == null ? a.reactions = [] : o).push(e);
+		}
+	} else !n && t !== null && skipped_deps < t.length && (remove_reactions(e, skipped_deps), t.length = skipped_deps);
+	return t;
 }
 function remove_reaction(e, t) {
 	let n = t.reactions;
@@ -1910,12 +1745,14 @@ function branch(e) {
 function execute_effect_teardown(e) {
 	var t = e.teardown;
 	if (t !== null) {
-		let e = is_destroying_effect, n = active_reaction;
+		let n = is_destroying_effect, r = active_reaction;
 		set_is_destroying_effect(!0), set_active_reaction(null);
 		try {
 			t.call(null);
+		} catch (t) {
+			invoke_error_boundary(t, e.parent);
 		} finally {
-			set_is_destroying_effect(e), set_active_reaction(n);
+			set_is_destroying_effect(n), set_active_reaction(r);
 		}
 	}
 }
@@ -1957,7 +1794,7 @@ function unlink_effect(e) {
 }
 function pause_effect(e, t, n = !0) {
 	var r = [];
-	pause_children(e, r, !0);
+	e.f |= 256, pause_children(e, r, !0);
 	var a = () => {
 		n && destroy_effect(e), t && t();
 	}, o = r.length;
@@ -1982,10 +1819,10 @@ function pause_children(e, t, n) {
 	}
 }
 function resume_effect(e) {
-	resume_children(e, !0);
+	e.f &= -257, resume_children(e, !0);
 }
 function resume_children(e, t) {
-	if (e.f & 8192) {
+	if (!(e.f & 256) && e.f & 8192) {
 		e.f ^= INERT, e.f & 1024 || (set_signal_status(e, DIRTY), Batch.ensure().schedule(e));
 		for (var n = e.first; n !== null;) {
 			var r = n.next, a = !!(n.f & 65536) || !!(n.f & 32);
@@ -2219,6 +2056,194 @@ function sanitize_location(e) {
 	return e == null ? void 0 : e.replace(/\//g, "/​");
 }
 //#endregion
+//#region node_modules/svelte/src/reactivity/create-subscriber.js
+function createSubscriber(e) {
+	let t = 0, n = source(0), r;
+	return () => {
+		effect_tracking() && (get(n), render_effect(() => (t === 0 && (r = untrack(() => e(() => increment(n)))), t += 1, () => {
+			queue_micro_task(() => {
+				--t, t === 0 && (r == null || r(), r = void 0, increment(n));
+			});
+		})));
+	};
+}
+//#endregion
+//#region node_modules/svelte/src/internal/client/dom/blocks/boundary.js
+var flags = EFFECT_TRANSPARENT | EFFECT_PRESERVED;
+function boundary(e, t, n, r) {
+	new Boundary(e, t, n, r);
+}
+var _anchor = /* @__PURE__ */ new WeakMap(), _hydrate_open = /* @__PURE__ */ new WeakMap(), _props = /* @__PURE__ */ new WeakMap(), _children = /* @__PURE__ */ new WeakMap(), _effect = /* @__PURE__ */ new WeakMap(), _main_effect = /* @__PURE__ */ new WeakMap(), _pending_effect = /* @__PURE__ */ new WeakMap(), _failed_effect = /* @__PURE__ */ new WeakMap(), _offscreen_fragment = /* @__PURE__ */ new WeakMap(), _local_pending_count = /* @__PURE__ */ new WeakMap(), _pending_count = /* @__PURE__ */ new WeakMap(), _pending_count_update_queued = /* @__PURE__ */ new WeakMap(), _dirty_effects = /* @__PURE__ */ new WeakMap(), _maybe_dirty_effects = /* @__PURE__ */ new WeakMap(), _effect_pending = /* @__PURE__ */ new WeakMap(), _effect_pending_subscriber = /* @__PURE__ */ new WeakMap(), _Boundary_brand = /* @__PURE__ */ new WeakSet(), Boundary = class {
+	constructor(e, t, n, r) {
+		var a, o;
+		_classPrivateMethodInitSpec(this, _Boundary_brand), _defineProperty(this, "parent", void 0), _defineProperty(this, "is_pending", !1), _defineProperty(this, "transform_error", void 0), _classPrivateFieldInitSpec(this, _anchor, void 0), _classPrivateFieldInitSpec(this, _hydrate_open, hydrating ? hydrate_node : null), _classPrivateFieldInitSpec(this, _props, void 0), _classPrivateFieldInitSpec(this, _children, void 0), _classPrivateFieldInitSpec(this, _effect, void 0), _classPrivateFieldInitSpec(this, _main_effect, null), _classPrivateFieldInitSpec(this, _pending_effect, null), _classPrivateFieldInitSpec(this, _failed_effect, null), _classPrivateFieldInitSpec(this, _offscreen_fragment, null), _classPrivateFieldInitSpec(this, _local_pending_count, 0), _classPrivateFieldInitSpec(this, _pending_count, 0), _classPrivateFieldInitSpec(this, _pending_count_update_queued, !1), _classPrivateFieldInitSpec(this, _dirty_effects, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _maybe_dirty_effects, /* @__PURE__ */ new Set()), _classPrivateFieldInitSpec(this, _effect_pending, null), _classPrivateFieldInitSpec(this, _effect_pending_subscriber, createSubscriber(() => (_classPrivateFieldSet2(_effect_pending, this, source(_classPrivateFieldGet2(_local_pending_count, this))), () => {
+			_classPrivateFieldSet2(_effect_pending, this, null);
+		}))), _classPrivateFieldSet2(_anchor, this, e), _classPrivateFieldSet2(_props, this, t), _classPrivateFieldSet2(_children, this, (e) => {
+			var t = active_effect;
+			t.b = this, t.f |= 128, n(e);
+		}), this.parent = active_effect.b, this.transform_error = (a = r == null ? (o = this.parent) == null ? void 0 : o.transform_error : r) == null ? ((e) => e) : a, _classPrivateFieldSet2(_effect, this, block(() => {
+			if (hydrating) {
+				let e = _classPrivateFieldGet2(_hydrate_open, this);
+				hydrate_next();
+				let t = e.data === "[!";
+				if (e.data.startsWith("[?")) {
+					let t = JSON.parse(e.data.slice(2));
+					_assertClassBrand(_Boundary_brand, this, _hydrate_failed_content).call(this, t);
+				} else t ? _assertClassBrand(_Boundary_brand, this, _hydrate_pending_content).call(this) : _assertClassBrand(_Boundary_brand, this, _hydrate_resolved_content).call(this);
+			} else _assertClassBrand(_Boundary_brand, this, _render).call(this);
+		}, flags)), hydrating && _classPrivateFieldSet2(_anchor, this, hydrate_node);
+	}
+	defer_effect(e) {
+		defer_effect(e, _classPrivateFieldGet2(_dirty_effects, this), _classPrivateFieldGet2(_maybe_dirty_effects, this));
+	}
+	is_rendered() {
+		return !this.is_pending && (!this.parent || this.parent.is_rendered());
+	}
+	has_pending_snippet() {
+		return !!_classPrivateFieldGet2(_props, this).pending;
+	}
+	update_pending_count(e, t) {
+		_assertClassBrand(_Boundary_brand, this, _update_pending_count).call(this, e, t), _classPrivateFieldSet2(_local_pending_count, this, _classPrivateFieldGet2(_local_pending_count, this) + e), !(!_classPrivateFieldGet2(_effect_pending, this) || _classPrivateFieldGet2(_pending_count_update_queued, this)) && (_classPrivateFieldSet2(_pending_count_update_queued, this, !0), queue_micro_task(() => {
+			_classPrivateFieldSet2(_pending_count_update_queued, this, !1), _classPrivateFieldGet2(_effect_pending, this) && internal_set(_classPrivateFieldGet2(_effect_pending, this), _classPrivateFieldGet2(_local_pending_count, this));
+		}));
+	}
+	get_effect_pending() {
+		return _classPrivateFieldGet2(_effect_pending_subscriber, this).call(this), get(_classPrivateFieldGet2(_effect_pending, this));
+	}
+	error(e) {
+		if (!_classPrivateFieldGet2(_props, this).onerror && !_classPrivateFieldGet2(_props, this).failed) throw e;
+		current_batch != null && current_batch.is_fork ? (_classPrivateFieldGet2(_main_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_main_effect, this)), _classPrivateFieldGet2(_pending_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_pending_effect, this)), _classPrivateFieldGet2(_failed_effect, this) && current_batch.skip_effect(_classPrivateFieldGet2(_failed_effect, this)), current_batch.oncommit(() => {
+			_assertClassBrand(_Boundary_brand, this, _handle_error).call(this, e);
+		})) : _assertClassBrand(_Boundary_brand, this, _handle_error).call(this, e);
+	}
+};
+function _hydrate_resolved_content() {
+	try {
+		_classPrivateFieldSet2(_main_effect, this, branch(() => _classPrivateFieldGet2(_children, this).call(this, _classPrivateFieldGet2(_anchor, this))));
+	} catch (e) {
+		this.error(e);
+	}
+}
+function _hydrate_failed_content(e) {
+	let t = _classPrivateFieldGet2(_props, this).failed, { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
+	queue_micro_task(r), t && _classPrivateFieldSet2(_failed_effect, this, branch(() => {
+		t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
+	}));
+}
+function _create_reset(e) {
+	var t = !1, n = !1;
+	let r = () => {
+		if (t) {
+			svelte_boundary_reset_noop();
+			return;
+		}
+		t = !0, n && svelte_boundary_reset_onerror(), _classPrivateFieldGet2(_failed_effect, this) !== null && pause_effect(_classPrivateFieldGet2(_failed_effect, this), () => {
+			_classPrivateFieldSet2(_failed_effect, this, null);
+		}), _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
+			_assertClassBrand(_Boundary_brand, this, _render).call(this);
+		});
+	};
+	return {
+		reset: r,
+		invoke_onerror: () => {
+			try {
+				var t, a;
+				n = !0, (t = (a = _classPrivateFieldGet2(_props, this)).onerror) == null || t.call(a, e, r), n = !1;
+			} catch (e) {
+				invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
+			}
+		}
+	};
+}
+function _hydrate_pending_content() {
+	let e = _classPrivateFieldGet2(_props, this).pending;
+	e && (this.is_pending = !0, _classPrivateFieldSet2(_pending_effect, this, branch(() => e(_classPrivateFieldGet2(_anchor, this)))), queue_micro_task(() => {
+		var e = _classPrivateFieldSet2(_offscreen_fragment, this, document.createDocumentFragment()), t = create_text(), n = !1;
+		if (e.append(t), _classPrivateFieldSet2(_main_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
+			try {
+				return branch(() => _classPrivateFieldGet2(_children, this).call(this, t));
+			} catch (e) {
+				try {
+					this.error(e), n = !0;
+				} catch (e) {
+					invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this).parent);
+				}
+				return null;
+			}
+		})), _classPrivateFieldGet2(_main_effect, this) === null) {
+			_classPrivateFieldSet2(_offscreen_fragment, this, null), n && _assertClassBrand(_Boundary_brand, this, _resolve).call(this, current_batch);
+			return;
+		}
+		_classPrivateFieldGet2(_pending_count, this) === 0 && (_classPrivateFieldGet2(_anchor, this).before(e), _classPrivateFieldSet2(_offscreen_fragment, this, null), pause_effect(_classPrivateFieldGet2(_pending_effect, this), () => {
+			_classPrivateFieldSet2(_pending_effect, this, null);
+		}), _assertClassBrand(_Boundary_brand, this, _resolve).call(this, current_batch));
+	}));
+}
+function _render() {
+	try {
+		if (this.is_pending = this.has_pending_snippet(), _classPrivateFieldSet2(_pending_count, this, 0), _classPrivateFieldSet2(_local_pending_count, this, 0), _classPrivateFieldSet2(_main_effect, this, branch(() => {
+			_classPrivateFieldGet2(_children, this).call(this, _classPrivateFieldGet2(_anchor, this));
+		})), _classPrivateFieldGet2(_pending_count, this) > 0) {
+			var e = _classPrivateFieldSet2(_offscreen_fragment, this, document.createDocumentFragment());
+			move_effect(_classPrivateFieldGet2(_main_effect, this), e);
+			let t = _classPrivateFieldGet2(_props, this).pending;
+			_classPrivateFieldSet2(_pending_effect, this, branch(() => t(_classPrivateFieldGet2(_anchor, this))));
+		} else _assertClassBrand(_Boundary_brand, this, _resolve).call(this, current_batch);
+	} catch (e) {
+		this.error(e);
+	}
+}
+function _resolve(e) {
+	this.is_pending = !1, e.transfer_effects(_classPrivateFieldGet2(_dirty_effects, this), _classPrivateFieldGet2(_maybe_dirty_effects, this));
+}
+function _run(e) {
+	var t = active_effect, n = active_reaction, r = component_context;
+	set_active_effect(_classPrivateFieldGet2(_effect, this)), set_active_reaction(_classPrivateFieldGet2(_effect, this)), set_component_context(_classPrivateFieldGet2(_effect, this).ctx);
+	try {
+		return Batch.ensure(), e();
+	} finally {
+		set_active_effect(t), set_active_reaction(n), set_component_context(r);
+	}
+}
+function _update_pending_count(e, t) {
+	if (!this.has_pending_snippet()) {
+		if (this.parent) {
+			var n;
+			_assertClassBrand(_Boundary_brand, n = this.parent, _update_pending_count).call(n, e, t);
+		}
+		return;
+	}
+	_classPrivateFieldSet2(_pending_count, this, _classPrivateFieldGet2(_pending_count, this) + e), _classPrivateFieldGet2(_pending_count, this) === 0 && (_assertClassBrand(_Boundary_brand, this, _resolve).call(this, t), _classPrivateFieldGet2(_pending_effect, this) && pause_effect(_classPrivateFieldGet2(_pending_effect, this), () => {
+		_classPrivateFieldSet2(_pending_effect, this, null);
+	}), _classPrivateFieldGet2(_offscreen_fragment, this) && (_classPrivateFieldGet2(_anchor, this).before(_classPrivateFieldGet2(_offscreen_fragment, this)), _classPrivateFieldSet2(_offscreen_fragment, this, null)));
+}
+function _handle_error(e) {
+	_classPrivateFieldGet2(_main_effect, this) && (destroy_effect(_classPrivateFieldGet2(_main_effect, this)), _classPrivateFieldSet2(_main_effect, this, null)), _classPrivateFieldGet2(_pending_effect, this) && (destroy_effect(_classPrivateFieldGet2(_pending_effect, this)), _classPrivateFieldSet2(_pending_effect, this, null)), _classPrivateFieldGet2(_failed_effect, this) && (destroy_effect(_classPrivateFieldGet2(_failed_effect, this)), _classPrivateFieldSet2(_failed_effect, this, null)), hydrating && (set_hydrate_node(_classPrivateFieldGet2(_hydrate_open, this)), next(), set_hydrate_node(skip_nodes()));
+	let t = _classPrivateFieldGet2(_props, this).failed, n = (e) => {
+		let { reset: n, invoke_onerror: r } = _assertClassBrand(_Boundary_brand, this, _create_reset).call(this, e);
+		r(), t && _classPrivateFieldSet2(_failed_effect, this, _assertClassBrand(_Boundary_brand, this, _run).call(this, () => {
+			try {
+				return branch(() => {
+					var r = active_effect;
+					r.b = this, r.f |= 128, t(_classPrivateFieldGet2(_anchor, this), () => e, () => n);
+				});
+			} catch (e) {
+				return invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this).parent), null;
+			}
+		}));
+	};
+	queue_micro_task(() => {
+		var t;
+		try {
+			t = this.transform_error(e);
+		} catch (e) {
+			invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent);
+			return;
+		}
+		typeof t == "object" && t && typeof t.then == "function" ? t.then(n, (e) => invoke_error_boundary(e, _classPrivateFieldGet2(_effect, this) && _classPrivateFieldGet2(_effect, this).parent)) : n(t);
+	});
+}
+//#endregion
 //#region node_modules/svelte/src/internal/client/render.js
 var should_intro = !0;
 function set_should_intro(e) {
@@ -2259,7 +2284,7 @@ function _mount(e, { target: t, anchor: n, props: r = {}, events: a, context: o,
 		boundary(u, { pending: () => {} }, (t) => {
 			push({});
 			var n = component_context;
-			if (o && (n.c = o), a && (r.$$events = a), hydrating && assign_nodes(t, null), should_intro = s, l = e(t, r) || {}, should_intro = !0, hydrating && (active_effect.nodes.end = hydrate_node, hydrate_node === null || hydrate_node.nodeType !== 8 || hydrate_node.data !== "]")) throw hydration_mismatch(), HYDRATION_ERROR;
+			if (o && (n.c = o), a && (r.$$events = a), hydrating && assign_nodes(t, null), should_intro = s, l = e(t, r) || mark_as_component(), should_intro = !0, hydrating && (active_effect.nodes.end = hydrate_node, hydrate_node === null || hydrate_node.nodeType !== 8 || hydrate_node.data !== "]")) throw hydration_mismatch(), HYDRATION_ERROR;
 			pop();
 		}, c);
 		var f = /* @__PURE__ */ new Set(), p = (e) => {
@@ -2741,10 +2766,17 @@ function html$4(e, t, n = !1, r = !1, a = !1, o = !1) {
 //#endregion
 //#region node_modules/svelte/src/internal/client/dom/blocks/slot.js
 function slot(e, t, n, r, a) {
-	var o;
-	hydrating && hydrate_next();
-	var s = (o = t.$$slots) == null ? void 0 : o[n], c = !1;
-	s === !0 && (s = t[n === "default" ? "children" : n], c = !0), s === void 0 ? a !== null && a(e) : s(e, c ? () => r : r);
+	var o, s;
+	if (hydrating && hydrate_next(), (o = t.$$host) != null && o.$$shadowRoot) {
+		let t = create_element("slot");
+		if (n !== "default" && (t.name = n), append(e, t), a !== null) {
+			let e = create_text();
+			t.append(e), a(e);
+		}
+		return;
+	}
+	var c = (s = t.$$slots) == null ? void 0 : s[n], l = !1;
+	c === !0 && (c = t[n === "default" ? "children" : n], l = !0), c === void 0 ? a !== null && a(e) : c(e, l ? () => r : r);
 }
 //#endregion
 //#region node_modules/svelte/src/internal/client/timing.js
@@ -2850,18 +2882,18 @@ function transition(e, t, n, r) {
 	}
 }
 function animate$1(e, t, n, r, a, o) {
-	var s = r === 1;
+	var s = r === 1, c = !1;
 	if (is_function(t)) {
-		var c, l = !1;
+		var l;
 		return queue_micro_task(() => {
-			l || (c = animate$1(e, t({ direction: s ? "in" : "out" }), n, r, a, o));
+			c || (l = animate$1(e, t({ direction: s ? "in" : "out" }), n, r, a, o));
 		}), {
 			abort: () => {
-				l = !0, c == null || c.abort();
+				c = !0, l == null || l.abort();
 			},
-			deactivate: () => c.deactivate(),
-			reset: () => c.reset(),
-			t: () => c.t()
+			deactivate: () => l.deactivate(),
+			reset: () => l.reset(),
+			t: () => l.t()
 		};
 	}
 	if (n == null || n.deactivate(), !(t != null && t.duration) && !(t != null && t.delay)) return a(), o(), {
@@ -2871,45 +2903,49 @@ function animate$1(e, t, n, r, a, o) {
 		t: () => r
 	};
 	let { delay: u = 0, css: f, tick: p, easing: m = linear$1 } = t;
-	var g = [];
-	if (s && n === void 0 && (p && p(0, 1), f)) {
-		var _ = css_to_keyframe(f(0, 1));
-		g.push(_, _);
-	}
-	var v = () => 1 - r, y = e.animate(g, {
-		duration: u,
-		fill: "forwards"
-	});
-	return y.onfinish = () => {
-		var s;
-		y.cancel(), a();
-		var c = (s = n == null ? void 0 : n.t()) == null ? 1 - r : s;
-		n == null || n.abort();
-		var l = r - c, u = t.duration * Math.abs(l), g = [];
-		if (u > 0) {
-			var _ = !1;
-			if (f) for (var b = Math.ceil(u / (1e3 / 60)), x = 0; x <= b; x += 1) {
-				var S = c + l * m(x / b), C = css_to_keyframe(f(S, 1 - S));
-				g.push(C), _ || (_ = C.overflow === "hidden");
+	var g, _ = () => 1 - r;
+	return queue_micro_task(() => {
+		if (!c) {
+			var l = [];
+			if (s && n === void 0 && (p && p(0, 1), f)) {
+				var v = css_to_keyframe(f(0, 1));
+				l.push(v, v);
 			}
-			_ && (e.style.overflow = "hidden"), v = () => {
-				var e = y.currentTime;
-				return c + l * m(e / u);
-			}, p && loop(() => {
-				if (y.playState !== "running") return !1;
-				var e = v();
-				return p(e, 1 - e), !0;
-			});
+			g = e.animate(l, {
+				duration: u,
+				fill: "forwards"
+			}), g.onfinish = () => {
+				var s;
+				g.cancel(), a();
+				var c = (s = n == null ? void 0 : n.t()) == null ? 1 - r : s;
+				n == null || n.abort();
+				var l = r - c, u = t.duration * Math.abs(l), v = [];
+				if (u > 0) {
+					var y = !1;
+					if (f) for (var b = Math.ceil(u / (1e3 / 60)), x = 0; x <= b; x += 1) {
+						var S = c + l * m(x / b), C = css_to_keyframe(f(S, 1 - S));
+						v.push(C), y || (y = C.overflow === "hidden");
+					}
+					y && (e.style.overflow = "hidden"), _ = () => {
+						var e = g.currentTime;
+						return c + l * m(e / u);
+					}, p && loop(() => {
+						if (g.playState !== "running") return !1;
+						var e = _();
+						return p(e, 1 - e), !0;
+					});
+				}
+				g = e.animate(v, {
+					duration: u,
+					fill: "forwards"
+				}), g.onfinish = () => {
+					_ = () => r, p == null || p(r, 1 - r), o();
+				};
+			};
 		}
-		y = e.animate(g, {
-			duration: u,
-			fill: "forwards"
-		}), y.onfinish = () => {
-			v = () => r, p == null || p(r, 1 - r), o();
-		};
-	}, {
+	}), {
 		abort: () => {
-			y && (y.cancel(), y.effect = null, y.onfinish = noop$1);
+			c = !0, g && (g.cancel(), g.effect = null, g.onfinish = noop$1);
 		},
 		deactivate: () => {
 			o = noop$1;
@@ -2917,7 +2953,7 @@ function animate$1(e, t, n, r, a, o) {
 		reset: () => {
 			r === 0 && (p == null || p(1, 0));
 		},
-		t: () => v()
+		t: () => _()
 	};
 }
 //#endregion
@@ -3034,7 +3070,7 @@ function set_attribute(e, t, n, r) {
 		r || check_src_in_dev_hydration(e, t, n == null ? "" : n);
 		return;
 	}
-	a[t] !== (a[t] = n) && (t === "loading" && (e[LOADING_ATTR_SYMBOL] = n), n == null ? e.removeAttribute(t) : typeof n != "string" && get_setters(e).includes(t) ? e[t] = n : e.setAttribute(t, n));
+	a[t] !== (a[t] = n) && (t === "loading" && (e[LOADING_ATTR_SYMBOL] = n), n == null ? e.removeAttribute(t) : typeof n != "string" && get_setters(e).has(t) ? e[t] = n : e.setAttribute(t, n));
 }
 function get_attributes(e) {
 	var t;
@@ -3047,9 +3083,9 @@ var setters_cache = /* @__PURE__ */ new Map();
 function get_setters(e) {
 	var t = e.getAttribute("is") || e.nodeName, n = setters_cache.get(t);
 	if (n) return n;
-	setters_cache.set(t, n = []);
+	setters_cache.set(t, n = /* @__PURE__ */ new Set());
 	for (var r, a = e, o = Element.prototype; o !== a;) {
-		for (var s in r = get_descriptors(a), r) r[s].set && s !== "innerHTML" && s !== "textContent" && s !== "innerText" && n.push(s);
+		for (var s in r = get_descriptors(a), r) r[s].set && s !== "innerHTML" && s !== "textContent" && s !== "innerText" && n.add(s);
 		a = get_prototype_of(a);
 	}
 	return n;
@@ -3126,7 +3162,7 @@ _defineProperty(ResizeObserverSingleton, "entries", /* @__PURE__ */ new WeakMap(
 function is_bound_this(e, t) {
 	return e === t || (e == null ? void 0 : e[STATE_SYMBOL]) === t;
 }
-function bind_this(e = {}, t, n, r) {
+function bind_this(e = mark_as_component(), t, n, r) {
 	var a = component_context.r, o = active_effect;
 	return effect(() => {
 		var s, c;
@@ -3468,6 +3504,9 @@ function split_css_unit(e) {
 	let t = typeof e == "string" && e.match(/^\s*(-?[\d.]+)([^\s]*)\s*$/);
 	return t ? [parseFloat(t[1]), t[2] || "px"] : [e, "px"];
 }
+function css_dimension(e, t, n) {
+	return Number.isNaN(t) ? "" : `${e}: ${n * t}px;`;
+}
 function fade(e, { delay: t = 0, duration: n = 400, easing: r = linear } = {}) {
 	let a = +getComputedStyle(e).opacity;
 	return {
@@ -3495,7 +3534,7 @@ function slide(e, { delay: t = 0, duration: n = 400, easing: r = cubic_out, axis
 		delay: t,
 		duration: n,
 		easing: r,
-		css: (e) => `overflow: hidden;opacity: ${Math.min(e * 20, 1) * s};${c}: ${e * l}px;padding-${u[0]}: ${e * p}px;padding-${u[1]}: ${e * m}px;margin-${u[0]}: ${e * g}px;margin-${u[1]}: ${e * _}px;border-${u[0]}-width: ${e * v}px;border-${u[1]}-width: ${e * y}px;min-${c}: 0`
+		css: (e) => `overflow: hidden;opacity: ${Math.min(e * 20, 1) * s};` + css_dimension(c, l, e) + css_dimension(`padding-${u[0]}`, p, e) + css_dimension(`padding-${u[1]}`, m, e) + css_dimension(`margin-${u[0]}`, g, e) + css_dimension(`margin-${u[1]}`, _, e) + css_dimension(`border-${u[0]}-width`, v, e) + css_dimension(`border-${u[1]}-width`, y, e) + `min-${c}: 0`
 	};
 }
 //#endregion
@@ -3574,8 +3613,8 @@ function GuestOrPrivateKeyModal(e, t) {
 	};
 	return init(), LoginModal(e, { $$slots: {
 		"back-button": (e, t) => {
-			var n = root$27(), a = child(n);
-			reset(n), event("click", a, r), append(e, n);
+			var n = root$27();
+			event("click", only_child(n), r), append(e, n);
 		},
 		heading: (e, t) => {
 			append(e, root_1$11());
@@ -3584,8 +3623,8 @@ function GuestOrPrivateKeyModal(e, t) {
 			append(e, root_2$9());
 		},
 		button: (e, t) => {
-			var r = root_3$7(), a = child(r), o = child(a);
-			reset(a), reset(r), event("click", o, n), append(e, r);
+			var r = root_3$7(), a = only_child(child(r));
+			reset(r), event("click", a, n), append(e, r);
 		}
 	} }), pop(a);
 }
@@ -20808,8 +20847,8 @@ function Nip07OrNsecBunkerModal(e, t) {
 	var u = root_6$1(), f = first_child(u), p = (e) => {
 		LoginModal(e, { $$slots: {
 			"back-button": (e, t) => {
-				var n = root$24(), r = child(n);
-				reset(n), event("click", r, c), append(e, n);
+				var n = root$24();
+				event("click", only_child(n), c), append(e, n);
 			},
 			heading: (e, t) => {
 				append(e, root_1$9());
@@ -20822,8 +20861,8 @@ function Nip07OrNsecBunkerModal(e, t) {
 				reset(r), reset(n), event("click", s, preventDefault(stopPropagation(a))), event("click", c, o), append(e, n);
 			},
 			showMore: (e, t) => {
-				var n = root_4$5(), r = child(n);
-				reset(n), event("click", r, s), append(e, n);
+				var n = root_4$5();
+				event("click", only_child(n), s), append(e, n);
 			}
 		} });
 	};
@@ -20893,8 +20932,8 @@ function PrivateKeyModal(e, t) {
 	var l = root_5$4(), u = first_child(l), f = (e) => {
 		LoginModal(e, { $$slots: {
 			"back-button": (e, t) => {
-				var n = root$23(), r = child(n);
-				reset(n), event("click", r, s), append(e, n);
+				var n = root$23();
+				event("click", only_child(n), s), append(e, n);
 			},
 			heading: (e, t) => {
 				append(e, root_1$8());
@@ -21009,8 +21048,8 @@ function SetupProfileModal(e, t) {
 				append(e, root_1$7());
 			},
 			button: (e, t) => {
-				var n = root_2$5(), r = child(n), a = child(r, !0);
-				reset(r), reset(n), template_effect(() => set_text(a, get(u))), append(e, n);
+				var n = root_2$5(), r = only_child(child(n), !0);
+				reset(n), template_effect(() => set_text(r, get(u))), append(e, n);
 			},
 			showMore: (e, t) => {
 				var n = root_3$4(), r = child(n), a = sibling(r, 2);
@@ -21064,8 +21103,8 @@ function RegistrationModal(e, t) {
 	var m = root_5$2(), g = first_child(m), _ = (e) => {
 		LoginModal(e, { $$slots: {
 			"back-button": (e, t) => {
-				var n = root$21(), r = child(n);
-				reset(n), event("click", r, f), append(e, n);
+				var n = root$21();
+				event("click", only_child(n), f), append(e, n);
 			},
 			heading: (e, t) => {
 				append(e, root_1$6());
@@ -21082,8 +21121,8 @@ function RegistrationModal(e, t) {
 				remove_input_defaults(o), reset(n), bind_value(r, () => get(s), (e) => set(s, e)), bind_value(a, () => get(c), (e) => set(c, e)), bind_value(o, () => get(l), (e) => set(l, e)), append(e, n);
 			},
 			showMore: (e, t) => {
-				var n = root_4$2(), r = child(n);
-				reset(n), event("click", r, u), append(e, n);
+				var n = root_4$2();
+				event("click", only_child(n), u), append(e, n);
 			}
 		} });
 	};
@@ -21155,8 +21194,8 @@ function NsecBunkerModal(e, t) {
 	var l = root_5$1(), u = first_child(l), f = (e) => {
 		LoginModal(e, { $$slots: {
 			"back-button": (e, t) => {
-				var n = root$20(), r = child(n);
-				reset(n), event("click", r, s), append(e, n);
+				var n = root$20();
+				event("click", only_child(n), s), append(e, n);
 			},
 			heading: (e, t) => {
 				append(e, root_1$5());
@@ -61047,20 +61086,20 @@ function OpinionCard(e, t) {
 			}), reset(c);
 			var ee = sibling(c, 2), te = (e) => {
 				let t = /* @__PURE__ */ derived_safe_equal(() => (deep_read_state(f()), deep_read_state(u()), untrack(() => f()[u().pubkey])));
-				var n = root$3(), r = child(n), a = sibling(r, 2), o = child(a, !0);
-				reset(a), reset(n), template_effect((e) => {
+				var n = root$3(), r = child(n), a = only_child(sibling(r, 2), !0);
+				reset(n), template_effect((e) => {
 					set_attribute(r, "src", (deep_read_state(get(t)), deep_read_state(profileImageUrl), deep_read_state(u()), untrack(() => {
 						var e, n;
 						return (e = get(t)) != null && (e = e.content) != null && e.image ? (n = get(t)) == null || (n = n.content) == null ? void 0 : n.image : profileImageUrl + u().pubkey;
-					}))), set_text(o, e);
+					}))), set_text(a, e);
 				}, [() => (deep_read_state(get(t)), get(l), untrack(() => {
 					var e;
 					return ((e = get(t)) == null || (e = e.content) == null ? void 0 : e.name) || get(l).slice(0, 10) + "..." + get(l).slice(-5);
 				}))]), append(e, n);
 			}, oe = (e) => {
-				var t = root_1$2(), n = child(t), r = sibling(n, 2), a = child(r, !0);
-				reset(r), reset(t), template_effect((e) => {
-					set_attribute(n, "src", (deep_read_state(profileImageUrl), deep_read_state(u()), untrack(() => profileImageUrl + u().pubkey))), set_text(a, e);
+				var t = root_1$2(), n = child(t), r = only_child(sibling(n, 2), !0);
+				reset(t), template_effect((e) => {
+					set_attribute(n, "src", (deep_read_state(profileImageUrl), deep_read_state(u()), untrack(() => profileImageUrl + u().pubkey))), set_text(r, e);
 				}, [() => (get(l), untrack(() => get(l).slice(0, 8) + "..." + get(l).slice(-4)))]), append(e, t);
 			};
 			if_block(ee, (e) => {
@@ -61078,8 +61117,8 @@ function OpinionCard(e, t) {
 			if_block(le, (e) => {
 				get(L) != null && get(R) != null && get(L) < get(R) && e(ue);
 			});
-			var de = sibling(le, 2), fe = child(de, !0);
-			reset(de), reset(ce), reset(r);
+			var de = sibling(le, 2), fe = only_child(de, !0);
+			reset(ce), reset(r);
 			var pe = sibling(r, 2), me = (e) => {
 				var t = root_3$1(), n = first_child(t);
 				let r;
@@ -61095,8 +61134,8 @@ function OpinionCard(e, t) {
 					v() == 1 ? e(o) : e(s, -1);
 				}), reset(n), bind_this(n, (e) => set(W, e), () => get(W));
 				var c = sibling(n, 2), l = (e) => {
-					var t = root_2$2(), n = child(t, !0);
-					reset(t), template_effect(() => set_text(n, get(F) ? "Read Less" : "Read More")), event("click", t, K), append(e, t);
+					var t = root_2$2(), n = only_child(t, !0);
+					template_effect(() => set_text(n, get(F) ? "Read Less" : "Read More")), event("click", t, K), append(e, t);
 				};
 				if_block(c, (e) => {
 					get(G) && e(l);
@@ -61175,20 +61214,20 @@ function OpinionCard(e, t) {
 			if_block(ye, (e) => {
 				get(N) === !0 ? e(be) : e(xe, -1);
 			}), reset(ve);
-			var Se = sibling(ve, 2), Ce = child(Se, !0);
-			reset(Se), reset(_e);
-			var we = sibling(_e, 2), X = child(we), Te = child(X), Ee = (e) => {
+			var Se = only_child(sibling(ve, 2), !0);
+			reset(_e);
+			var Ce = sibling(_e, 2), we = child(Ce), X = child(we), Te = (e) => {
 				DislikedButton(e, {});
-			}, De = (e) => {
+			}, Ee = (e) => {
 				DislikeButton(e, {});
 			};
-			if_block(Te, (e) => {
-				get(P) === !0 ? e(Ee) : e(De, -1);
-			}), reset(X);
-			var Z = sibling(X, 2), Oe = child(Z, !0);
-			reset(Z), reset(we);
-			var ke = sibling(we, 2), Ae = child(ke);
-			Tooltip(Ae, {
+			if_block(X, (e) => {
+				get(P) === !0 ? e(Te) : e(Ee, -1);
+			}), reset(we);
+			var De = only_child(sibling(we, 2), !0);
+			reset(Ce);
+			var Z = sibling(Ce, 2), Oe = child(Z);
+			Tooltip(Oe, {
 				children: (e, t) => {
 					var r = root_5();
 					ReplyButton(child(r), {}), reset(r), event("click", r, () => {
@@ -61201,10 +61240,10 @@ function OpinionCard(e, t) {
 						append(e, root_6());
 					}
 				}
-			}), Tooltip(sibling(Ae, 2), {
+			}), Tooltip(sibling(Oe, 2), {
 				children: (e, t) => {
-					var n = root_7(), r = child(n), a = child(r, !0);
-					reset(r), reset(n), template_effect(() => set_text(a, (get(w), untrack(() => get(w).length)))), event("click", n, () => {
+					var n = root_7(), r = only_child(child(n), !0);
+					reset(n), template_effect(() => set_text(r, (get(w), untrack(() => get(w).length)))), event("click", n, () => {
 						set(j, !get(j));
 					}), append(e, n);
 				},
@@ -61214,8 +61253,8 @@ function OpinionCard(e, t) {
 						append(e, root_8());
 					}
 				}
-			}), reset(ke);
-			var je = sibling(ke, 2), Me = (e) => {
+			}), reset(Z);
+			var ke = sibling(Z, 2), Ae = (e) => {
 				DeleteEventData(e, {
 					get eventID() {
 						return deep_read_state(u()), untrack(() => u().id);
@@ -61235,13 +61274,13 @@ function OpinionCard(e, t) {
 					$$legacy: !0
 				});
 			};
-			if_block(je, (e) => {
+			if_block(ke, (e) => {
 				a(), deep_read_state(u()), untrack(() => {
 					var e;
 					return ((e = a()) == null ? void 0 : e.pubkey) === u().pubkey;
-				}) && e(Me);
+				}) && e(Ae);
 			});
-			var Ne = sibling(je, 2), Pe = (e) => {
+			var je = sibling(ke, 2), Me = (e) => {
 				var t = root_9(), n = child(t);
 				OptionButton(child(n), {}), reset(n), reset(t), event("click", n, () => {
 					set(k, !get(k)), m(u().content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")), g({
@@ -61250,13 +61289,13 @@ function OpinionCard(e, t) {
 					}), set(A, !1), set(j, !1);
 				}), append(e, t);
 			};
-			if_block(Ne, (e) => {
+			if_block(je, (e) => {
 				a(), deep_read_state(u()), deep_read_state(v()), untrack(() => {
 					var e;
 					return ((e = a()) == null ? void 0 : e.pubkey) === u().pubkey && v() == 1;
-				}) && e(Pe);
+				}) && e(Me);
 			}), reset(ge);
-			var Fe = sibling(ge, 2), Ie = (e) => {
+			var Ne = sibling(ge, 2), Pe = (e) => {
 				var t = root_10(), n = child(t);
 				TextArea(n, {
 					get opinionContent() {
@@ -61295,10 +61334,10 @@ function OpinionCard(e, t) {
 					ae(), set(A, !1), set(j, !1);
 				}), transition(3, t, () => fade), append(e, t);
 			};
-			if_block(Fe, (e) => {
-				get(A) && e(Ie);
+			if_block(Ne, (e) => {
+				get(A) && e(Pe);
 			});
-			var Le = sibling(Fe, 2), Re = (e) => {
+			var Fe = sibling(Ne, 2), Ie = (e) => {
 				var t = comment();
 				each(first_child(t), 1, () => get(w), (e) => e.id, (e, t, n, r) => {
 					var a = comment();
@@ -61346,12 +61385,12 @@ function OpinionCard(e, t) {
 					}), append(e, a);
 				}), append(e, t);
 			};
-			if_block(Le, (e) => {
-				get(j) && e(Re);
+			if_block(Fe, (e) => {
+				get(j) && e(Ie);
 			}), reset(t), template_effect(() => {
 				var e;
-				set_attribute(de, "href", `https://njump.me/${(e = (deep_read_state(u()), untrack(() => u().id))) == null ? "" : e}`), set_text(fe, get(I)), set_text(Ce, get(D) || 0), set_text(Oe, get(O) || 0);
-			}), event("click", ve, () => re("+")), event("click", X, () => re("-")), transition(3, t, () => slide), append(e, t);
+				set_attribute(de, "href", `https://njump.me/${(e = (deep_read_state(u()), untrack(() => u().id))) == null ? "" : e}`), set_text(fe, get(I)), set_text(Se, get(D) || 0), set_text(De, get(O) || 0);
+			}), event("click", ve, () => re("+")), event("click", we, () => re("-")), transition(3, t, () => slide), append(e, t);
 		}, c = (e) => {
 			append(e, root_12());
 		};
@@ -61487,14 +61526,10 @@ function Toast(e, t) {
 	init();
 	var l = comment(), u = first_child(l), f = (e) => {
 		var t = root_2$1(), r = child(t), a = child(r), c = child(a), l = (e) => {
-			var t = root$1(), r = child(t), a = child(r, !0);
-			reset(r);
-			var s = sibling(r, 2);
+			var t = root$1(), r = child(t), a = only_child(r, !0), s = sibling(r, 2);
 			reset(t), template_effect(() => set_text(a, n().message)), event("click", s, () => set(o, !1)), append(e, t);
 		}, u = (e) => {
-			var t = root_1$1(), r = child(t), a = child(r, !0);
-			reset(r);
-			var s = sibling(r, 2);
+			var t = root_1$1(), r = child(t), a = only_child(r, !0), s = sibling(r, 2);
 			reset(t), template_effect(() => set_text(a, n().message)), event("click", s, () => set(o, !1)), append(e, t);
 		};
 		if_block(c, (e) => {
@@ -61804,15 +61839,11 @@ function App(e, t) {
 	var le = root_3(), ue = first_child(le), de = (e) => {
 		Loader(e, {});
 	}, fe = (e) => {
-		var t = root_2(), r = first_child(t), a = child(r, !0);
-		reset(r);
-		var o = sibling(r, 2), s = child(o, !0);
-		reset(o);
-		var f = sibling(o, 2), p = (e) => {
+		var t = root_2(), r = first_child(t), a = only_child(r, !0), o = sibling(r, 2), s = only_child(o, !0), f = sibling(o, 2), p = (e) => {
 			var t = root(), n = child(t);
 			let r;
-			var a = child(n);
-			reset(n), next(), reset(t), template_effect(() => {
+			var a = only_child(n);
+			next(), reset(t), template_effect(() => {
 				var e;
 				r = set_class(n, 1, "svelte-1n46o8q", null, r, { "filter-active": get(R) === "approved" }), set_text(a, `Show ${(e = get(H)) == null ? "" : e} opinion${get(H) === 1 ? " of an unknown author" : "s of unknown authors"}.`);
 			}), event("click", n, oe), append(e, t);
@@ -61895,19 +61926,13 @@ function App(e, t) {
 				get(o) && e(a);
 			}), append(e, n);
 		}), reset(ee);
-		var G = sibling(ee, 2), te = child(G);
-		reset(G);
-		var re = sibling(G, 2), ae = (e) => {
-			var t = root_1(), n = child(t), r = child(n);
-			reset(n);
-			var a = sibling(n, 2);
+		var G = sibling(ee, 2), te = only_child(G), re = sibling(G, 2), ae = (e) => {
+			var t = root_1(), n = child(t), r = only_child(n), a = sibling(n, 2);
 			html$4(a, () => (deep_read_state(purify), untrack(() => purify.sanitize(D.newOpinionDescription))), !0), reset(a);
-			var o = sibling(a, 2), s = child(o);
-			reset(o);
-			var f = sibling(o, 2), p = sibling(f, 6), m = child(p), g = sibling(m, 2), _ = child(g, !0);
-			reset(g), reset(p);
-			var v = sibling(p, 2), y = child(v);
-			Editor_1(y, {
+			var o = sibling(a, 2), s = only_child(o), f = sibling(o, 2), p = sibling(f, 6), m = child(p), g = only_child(sibling(m, 2), !0);
+			reset(p);
+			var _ = sibling(p, 2), v = child(_);
+			Editor_1(v, {
 				get fileArray() {
 					return get(B);
 				},
@@ -61922,26 +61947,26 @@ function App(e, t) {
 				},
 				$$legacy: !0
 			});
-			var b = sibling(y, 2), x = sibling(child(b), 2), S = child(x);
-			let C;
-			Positive(child(S), {}), next(2), reset(S);
-			var w = sibling(S, 2);
-			let T;
-			Neutral(child(w), {}), next(2), reset(w);
-			var E = sibling(w, 2);
-			let O;
-			Negative(child(E), {}), next(2), reset(E), reset(x), reset(b);
-			var k = sibling(b, 2);
-			each(k, 5, () => get(B), (e) => e.url, (e, t) => {
+			var y = sibling(v, 2), b = sibling(child(y), 2), x = child(b);
+			let S;
+			Positive(child(x), {}), next(2), reset(x);
+			var C = sibling(x, 2);
+			let w;
+			Neutral(child(C), {}), next(2), reset(C);
+			var T = sibling(C, 2);
+			let E;
+			Negative(child(T), {}), next(2), reset(T), reset(b), reset(y);
+			var O = sibling(y, 2);
+			each(O, 5, () => get(B), (e) => e.url, (e, t) => {
 				FilePreview(e, {
 					get file() {
 						return get(t), untrack(() => get(t).files);
 					},
 					onDelete: () => se(get(t))
 				});
-			}), reset(k);
-			var A = sibling(k, 2), j = child(A);
-			Upload(sibling(j, 2), {
+			}), reset(O);
+			var k = sibling(O, 2), A = child(k);
+			Upload(sibling(A, 2), {
 				get fileArray() {
 					return get(B);
 				},
@@ -61955,7 +61980,7 @@ function App(e, t) {
 					set(F, e);
 				},
 				$$legacy: !0
-			}), reset(A), reset(v), reset(t), template_effect((e) => {
+			}), reset(k), reset(_), reset(t), template_effect((e) => {
 				var t;
 				set_text(r, `${l() ? "Edit" : "Add"} your opinion`), set_text(s, `Logged in as ${(t = (c(), untrack(() => {
 					var e;
@@ -61963,35 +61988,35 @@ function App(e, t) {
 				}))) == null ? "" : t}`), set_attribute(m, "src", (get(M), c(), untrack(() => {
 					var e, t;
 					return (e = get(M)[(t = c()) == null ? void 0 : t.pubkey]) == null || (e = e.content) == null ? void 0 : e.image;
-				}))), set_text(_, e), C = set_class(S, 1, "btn-standard svelte-1n46o8q", null, C, {
+				}))), set_text(g, e), S = set_class(x, 1, "btn-standard svelte-1n46o8q", null, S, {
 					dark: u() === "dark",
 					"selected-state": get(P).sentiment === "1"
-				}), T = set_class(w, 1, "btn-standard svelte-1n46o8q", null, T, {
+				}), w = set_class(C, 1, "btn-standard svelte-1n46o8q", null, w, {
 					dark: u() === "dark",
 					"selected-state": get(P).sentiment === "0"
-				}), O = set_class(E, 1, "btn-standard svelte-1n46o8q", null, O, {
+				}), E = set_class(T, 1, "btn-standard svelte-1n46o8q", null, E, {
 					dark: u() === "dark",
 					"selected-state": get(P).sentiment === "-1"
-				}), j.disabled = !c();
+				}), A.disabled = !c();
 			}, [() => (get(M), c(), untrack(() => {
 				var e, t, n, r, a, o;
 				return !((e = get(M)[(t = c()) == null ? void 0 : t.pubkey]) != null && (e = e.content) != null && e.name) || ((n = get(M)[(r = c()) == null ? void 0 : r.pubkey]) == null || (n = n.content) == null ? void 0 : n.name) == "" ? c().npub.slice(0, 4) + "..." + c().npub.slice(-4) : (a = get(M)[(o = c()) == null ? void 0 : o.pubkey]) == null || (a = a.content) == null ? void 0 : a.name;
-			}))]), event("click", f, q), event("click", S, preventDefault(() => {
+			}))]), event("click", f, q), event("click", x, preventDefault(() => {
 				set(P, {
 					...get(P),
 					sentiment: "1"
 				});
-			})), event("click", w, preventDefault(() => {
+			})), event("click", C, preventDefault(() => {
 				set(P, {
 					...get(P),
 					sentiment: "0"
 				});
-			})), event("click", E, preventDefault(() => {
+			})), event("click", T, preventDefault(() => {
 				set(P, {
 					...get(P),
 					sentiment: "-1"
 				});
-			})), event("submit", v, preventDefault(() => {
+			})), event("submit", _, preventDefault(() => {
 				K(" ");
 			})), transition(3, t, () => fade), append(e, t);
 		};
