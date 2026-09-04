@@ -1,15 +1,15 @@
 ---
 title: HashPort Wallet
-date: 2026-09-03
+date: 2026-09-04
 website: https://wallet.hashport.com/
-appCountry: us
+appCountry: jp
 redirect_from:
 - /iphone/io.hashport.hashwallet/
 android:
   appId: io.hashport.hashwallet
   users: 100000
-  appCountry: us
-  released: Nov 4, 2024
+  appCountry: jp
+  released: 2023-10-13
   updated: 2026-08-10
   version: 3.18.1
   icon: io.hashport.hashwallet.png
@@ -19,11 +19,11 @@ android:
 iphone:
   appId: io.hashport.hashwallet
   idd: '6450660947'
-  appCountry: us
-  released: 2024-11-05
+  appCountry: jp
+  released: 2023-10-22
   updated: 2026-08-17
   version: 3.18.1
-  reviews: 6
+  reviews: 1388
   icon: io.hashport.hashwallet.jpg
   meta: ok
   verdict: nosource
@@ -33,13 +33,13 @@ iphone:
 
 ## App Description
 
-HashPort Wallet (`io.hashport.hashwallet` on both stores) is a multi-chain Web3 wallet published by HashPort Inc., a Japanese company. It is the continuation of the official Osaka-Kansai Expo wallet: the store listing states that "The Expo app 'EXPO2025 Digital Wallet' has been renewed as a new service, 'HashPort Wallet,' which will remain available even after the Expo ends", carrying over users' existing assets, NFTs and SBTs. It supports Ethereum, Polygon, Base, BNB Chain, Avalanche, Arbitrum and Aptos, over 500 tokens, the USDC and JPYC stablecoins, conversion of Japanese loyalty points such as Ponta and au PAY into digital assets, and access to decentralised exchanges.
+HashPort Wallet (`io.hashport.hashwallet` on both stores) is a multi-chain Web3 wallet published by HashPort Inc., a Japanese company. It is the continuation of the official Osaka-Kansai Expo wallet: the store listing states that "The Expo app 'EXPO2025 Digital Wallet' has been renewed as a new service, 'HashPort Wallet,' which will remain available even after the Expo ends", carrying over users' existing assets, NFTs and SBTs. It supports native Bitcoin, Ethereum, Polygon, Base, BNB Chain, Avalanche, Arbitrum and Aptos, over 500 tokens, the USDC and JPYC stablecoins, conversion of Japanese loyalty points such as Ponta and au PAY into digital assets, and access to decentralised exchanges.
 
 ## Testing and Analysis
 
-### It does support Bitcoin, despite the store listing
+### Native Bitcoin support
 
-Neither store listing mentions Bitcoin at all — the App Store description names only EVM chains and Aptos, and the Google Play page contains no occurrence of "Bitcoin", "BTC" or "ビットコイン". On the listings alone this would look like a wallet that does not handle BTC.
+The current [Japanese App Store listing](https://apps.apple.com/jp/app/id6450660947) names Bitcoin in its title, and its version history says version 3.15.1 added Bitcoin support. The body of the App Store description and the Google Play listing still name only EVM chains and Aptos, so neither explains whether this means native BTC or a wrapped token.
 
 The provider's own supported-currency table says otherwise. Its first row is BTC on the Bitcoin network, marked for both sending and receiving:
 
@@ -79,7 +79,9 @@ Neither can a recovery phrase. HashPort will import one from another wallet, but
 
 ("HashPort Wallet supports importing a recovery phrase, but does not support exporting one.")
 
-Source: [リカバリーフレーズとは？](https://help.wallet.hashport.com/hc/ja/articles/54048333031193). Funds can still be sent out to another address, so this is not a lock-in of the coins. It does mean the user has no way to reconstitute the wallet outside HashPort's app, and no way to check for themselves that the key is theirs. The passcode is also the single factor protecting the user's share, and six digits is a small space; the operator additionally states it cannot reset that passcode, so a forgotten PIN is not recoverable.
+Source: [リカバリーフレーズとは？](https://help.wallet.hashport.com/hc/ja/articles/54048333031193). HashPort documents sending support, so this is not a product that prohibits withdrawals by design. But that exit depends on HashPort's closed app and the passcode continuing to work; it is not equivalent to having a portable key or recovery phrase. The operator additionally states that it cannot reset the passcode, so a forgotten PIN is not recoverable.
+
+The practical risk appears in user reports. The [Japanese App Store](https://apps.apple.com/jp/app/id6450660947?see-all=reviews&platform=iphone) had 1,388 ratings averaging 3.8 stars when checked, rather than the six ratings shown by the US storefront. An [independent archive of its written reviews](https://mwm.ai/ja/apps/hashport-wallet/6450660947) includes a March 2026 report from a user who said the registration flow had not asked them to set a passcode, but signing a transfer later required one, leaving their JPYC inaccessible. Another reviewer reported failed JPYC conversions, lost transaction fees and being unable to cash out a token they called `cbBCT` despite a balance. These are individual reports, not proof that HashPort has custody or that native BTC withdrawals fail, but they demonstrate the consequence of having no independent recovery path when the app or passcode fails.
 
 ### None of it can be checked
 
