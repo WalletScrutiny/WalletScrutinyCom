@@ -22,7 +22,7 @@ import {
   isShutdownRequested
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
-import { closeDb } from './ddbbUtils.mjs';
+import { closeDb, markStaleQueuedAttemptsAsInterrupted } from './ddbbUtils.mjs';
 import {
   shouldProcessAppId,
   HOURS_BETWEEN_EXECUTIONS,
@@ -164,6 +164,11 @@ if (DEBUG) {
 appLog.info('======= Starting Build Server App =======');
 
 fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
+
+const staleQueuedAttempts = markStaleQueuedAttemptsAsInterrupted();
+if (staleQueuedAttempts > 0) {
+  appLog.warn(`[QUEUE_INFO] ${staleQueuedAttempts} verification row(s) were still 'queued' from a previous run; marked as 'interrupted' so they can be retried.`);
+}
 
 let interruptSleep = null;
 let mainProcessRunning = null;

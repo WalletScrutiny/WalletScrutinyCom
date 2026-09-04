@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
 import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue } from '../verifications.mjs';
-import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptByBuildScriptEventId } from '../ddbbUtils.mjs';
+import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
 
@@ -210,7 +210,7 @@ describe('addJobToQueue forceRebuild', () => {
       const queued = findQueuedOrErroredSimilarAttempt(baseAttemptRow({ endResult: 'queued' }));
       assert.ok(queued);
       assert.equal(queued.endResult, 'queued');
-      assert.ok(findErroredAttemptByBuildScriptEventId('script-1'));
+      assert.ok(findErroredAttemptForBuildScript(baseAttemptRow()));
     } finally {
       DEBUG_APP_IDS.forceRebuild = [];
       queue.clear();

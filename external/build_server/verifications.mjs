@@ -28,7 +28,7 @@ import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.mjs';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
-import { findErroredAttemptByBuildScriptEventId, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
+import { findErroredAttemptForBuildScript, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 import {
   getAssetFileEntries,
   pickScriptBinaryEntry,
@@ -310,7 +310,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       continue;
     }
 
-    const getNextVerificationCandidate = (startIndex = 0) => {
+    const getNextVerificationCandidate = (startIndex, { architecture, type }) => {
       for (let index = startIndex; index < verificationCandidates.length; index++) {
         const candidate = verificationCandidates[index];
         const candidateVersion = getFirstTagValue(candidate.verification, 'version');
@@ -322,7 +322,14 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
         const forceRebuild = shouldForceRebuild(appId, version);
         const erroredAttempt = forceRebuild
           ? undefined
-          : findErroredAttemptByBuildScriptEventId(candidate.buildShFileEvent.id);
+          : findErroredAttemptForBuildScript({
+            appId,
+            platform,
+            version,
+            arch: architecture ?? '',
+            type: type ?? '',
+            buildScriptEventId: candidate.buildShFileEvent.id
+          });
         if (!erroredAttempt) {
           if (forceRebuild) {
             appLog.info(
@@ -336,7 +343,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
         }
         appLog.info(
           `     - build script ${candidate.buildShFileEvent.id} from verification ${candidate.verification.id} ` +
-          `(${appId} ${candidateVersion}) already failed on date ${erroredAttempt.createdAt}; trying next script`
+          `(${appId} ${candidateVersion}) already failed for ${appId} ${version} on date ${erroredAttempt.createdAt}; trying next script`
         );
       }
       return null;
@@ -376,9 +383,9 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       ?? `${appId}_${sanitizeFilesystemSegment(version)}_${fileHash}_downloaded.apk`;
 
     const queueNextVerificationCandidate = async (startIndex = 0) => {
-      const nextVerificationCandidate = getNextVerificationCandidate(startIndex);
+      const nextVerificationCandidate = getNextVerificationCandidate(startIndex, { architecture, type });
       if (!nextVerificationCandidate) {
-        appLog.info(`   all scripts to reproduce appId=${appId}, version=${version}, and platform=${platform} already had an error; skipping asset`);
+        appLog.info(`   all scripts to reproduce appId=${appId}, version=${version}, and platform=${platform} already had an error for this version; skipping asset`);
         return;
       }
 

@@ -82,21 +82,45 @@ export function findQueuedOrErroredSimilarAttempt(row) {
 }
 
 /**
- * Find the latest failed attempt that used a given build script event.
- * @param {string} buildScriptEventId
+ * Find the latest failed attempt that used a given build script event for the
+ * same build target (app, platform, version, arch, type). A script that failed
+ * for one wallet version must still be tried for a newer version.
+ * @param {Object} row - { appId, platform, version, arch, type, buildScriptEventId }
  * @returns {Object|undefined}
  */
-export function findErroredAttemptByBuildScriptEventId(buildScriptEventId) {
+export function findErroredAttemptForBuildScript(row) {
   const database = getDb();
   const stmt = database.prepare(`
     SELECT *
     FROM verifications
-    WHERE buildScriptEventId = ?
+    WHERE appId = @appId
+      AND platform = @platform
+      AND version = @version
+      AND arch = @arch
+      AND type = @type
+      AND buildScriptEventId = @buildScriptEventId
       AND endResult = 'error'
     ORDER BY id DESC
     LIMIT 1
   `);
-  return stmt.get(buildScriptEventId);
+  return stmt.get(row);
+}
+
+/**
+ * Mark attempts still flagged as 'queued' as 'interrupted'. Meant to run once at
+ * process start: no job can be queued yet, so any 'queued' row belongs to a
+ * previous process that died before recording a result. Such rows would
+ * otherwise block the same build forever (see findQueuedOrErroredSimilarAttempt).
+ * @returns {number} Number of rows updated
+ */
+export function markStaleQueuedAttemptsAsInterrupted() {
+  const database = getDb();
+  const stmt = database.prepare(`
+    UPDATE verifications
+    SET endResult = 'interrupted', updatedAt = datetime('now')
+    WHERE endResult = 'queued'
+  `);
+  return stmt.run().changes;
 }
 
 /**
