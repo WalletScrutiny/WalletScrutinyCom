@@ -1,6 +1,7 @@
 ---
 title: BitcoinWallet.com
 appId: com.bitcoinwallet
+subtype: web
 authors:
 - danny
 icon: com.bitcoinwallet.png

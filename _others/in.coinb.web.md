@@ -1,6 +1,7 @@
 ---
 title: Coinb.in Web Wallet
 appId: in.coinb.web
+subtype: web
 authors:
 - danny
 icon: in.coinb.web.png

@@ -1,6 +1,7 @@
 ---
 title: Blockchair Extension for Chrome
 appId: ext.blockchair
+subtype: web
 authors:
 - danny
 icon: ext.blockchair.png

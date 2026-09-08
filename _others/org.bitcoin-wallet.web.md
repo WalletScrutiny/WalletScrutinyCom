@@ -1,6 +1,7 @@
 ---
 title: Bitcoin-Wallet.org Web App
 appId: org.bitcoin-wallet.web
+subtype: web
 authors:
 - danny
 icon: org.bitcoin-wallet.web.png

@@ -38,6 +38,18 @@ layout: default
           our established "platforms" and thus no methodology are filed in our
           catch-all "platform" "others" until we develop a methodology to test
           these.</p>
+        {% if page.subtype == "web" %}
+        <p>This product is a web wallet: a website delivers its code fresh to
+          your browser on every visit, and the server can change that code —
+          or serve different code to different users — at any moment, without
+          notice or version. There is no fixed, published binary to hash, pin,
+          or build reproducibly, and no way to prove which code a given user
+          actually ran. Because our verification depends on a stable artifact
+          we can rebuild and compare, that model does not apply to software
+          that can silently change between page loads. Prefer wallets you
+          install, where the running code is a fixed release we can
+          verify.</p>
+        {% endif %}
         <div class="spacer x2"></div>
         <div class="section">
           {{ content }}

@@ -1,6 +1,7 @@
 ---
 title: Freewallet Web
 appId: org.freewallet.web
+subtype: web
 authors:
 - danny
 icon: org.freewallet.web.png

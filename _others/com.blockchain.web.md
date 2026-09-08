@@ -1,6 +1,7 @@
 ---
 title: Blockchain.com Web Wallet
 appId: com.blockchain.web
+subtype: web
 authors:
 - danny
 icon: com.blockchain.web.png
