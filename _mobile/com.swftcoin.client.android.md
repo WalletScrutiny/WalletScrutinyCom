@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-28
   updated: 2026-08-06
   version: 6.10.6
-  reviews: 23
+  reviews: 22
   icon: com.SwftBlockChain.client.jpg
   meta: ok
   verdict: custodial

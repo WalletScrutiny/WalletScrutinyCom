@@ -38,7 +38,7 @@ iphone:
   released: 2019-11-29
   updated: 2026-08-27
   version: 3.31.0
-  reviews: 26060
+  reviews: 26101
   icon: com.bitpanda.bitpanda.jpg
   meta: ok
   verdict: custodial

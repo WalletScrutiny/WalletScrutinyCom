@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-02-08
 discontinued: 
-updated: 2026-08-20
-version: 1.5.1Q
+updated: 2026-09-03
+version: 1.5.2Q
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 120

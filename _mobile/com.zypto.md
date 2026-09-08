@@ -24,8 +24,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-04-26
-  updated: 2026-06-16
-  version: 1.28.0
+  updated: 2026-08-29
+  version: 1.29.0
   reviews: 42
   icon: com.zypto.png
   meta: ok
@@ -36,8 +36,8 @@ iphone:
   idd: '6463755992'
   appCountry: us
   released: 2024-06-04
-  updated: 2026-06-18
-  version: 1.28.0
+  updated: 2026-09-07
+  version: 1.29.0
   reviews: 55
   icon: com.zypto.zypto.jpg
   meta: ok

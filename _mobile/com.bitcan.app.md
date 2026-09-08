@@ -29,8 +29,8 @@ iphone:
   idd: 1004852205
   appCountry: us
   released: 2015-06-24
-  updated: 2026-05-28
-  version: 8.40.1
+  updated: 2026-09-03
+  version: 8.41.1
   reviews: 51
   icon: com.btckan.us.jpg
   meta: ok

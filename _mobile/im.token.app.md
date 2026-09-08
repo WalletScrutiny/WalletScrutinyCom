@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-31
-  updated: 2026-06-27
+  updated: 2026-09-01
   version: 2.21.0
   reviews: 246
   icon: im.token.app.png
@@ -30,9 +30,9 @@ iphone:
   idd: 1384798940
   appCountry: us
   released: 2018-06-07
-  updated: 2026-07-03
-  version: 2.21.0
-  reviews: 1127
+  updated: 2026-09-03
+  version: 2.22.0
+  reviews: 1128
   icon: im.token.app.jpg
   meta: ok
   verdict: nosource

@@ -22,8 +22,8 @@ iphone:
   idd: 1436425586
   appCountry: us
   released: 2018-10-03
-  updated: 2026-08-26
-  version: 2.3.3
+  updated: 2026-09-03
+  version: 2.3.4
   reviews: 49
   icon: com.fontaine.FullyNoded.jpg
   meta: ok

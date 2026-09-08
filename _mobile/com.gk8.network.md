@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2021-09-01
-  updated: 2026-07-14
-  version: 19.1.1
+  updated: 2026-09-03
+  version: 19.1.2
   icon: com.gk8.network.png
   meta: fewusers
   verdict: wip

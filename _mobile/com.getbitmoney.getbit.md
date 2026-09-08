@@ -27,8 +27,8 @@ iphone:
   idd: '6748333458'
   appCountry: in
   released: 2025-09-08
-  updated: 2026-08-28
-  version: 2.0.72
+  updated: 2026-09-02
+  version: 2.0.75
   reviews: 15
   icon: in.getbitmoney.getbit.jpg
   meta: ok

@@ -39,7 +39,7 @@ iphone:
   released: 2021-03-25
   updated: 2026-01-23
   version: 5.9.0
-  reviews: 64
+  reviews: 65
   icon: com.pundix.fx.connect.jpg
   meta: ok
   verdict: nosource

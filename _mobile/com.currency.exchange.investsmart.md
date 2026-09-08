@@ -1,6 +1,6 @@
 ---
 wsId: dzengiComInvesting
-title: 'Dzengi.com: Stock Investing'
+title: 'Dzengi: Инвестиции в токены'
 date: 2025-07-18
 authors:
 - danny
@@ -13,8 +13,8 @@ android:
   users: 100000
   appCountry: tm
   released: 2020-12-10
-  updated: 2026-06-25
-  version: 2.21.2
+  updated: 2026-08-13
+  version: 2.22.2
   reviews: 303
   icon: com.currency.exchange.investsmart.png
   meta: ok

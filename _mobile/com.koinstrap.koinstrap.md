@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2020-08-28
-  updated: 2026-03-26
-  version: 4.1.7
+  updated: 2026-09-05
+  version: 4.1.10
   icon: com.koinstrap.koinstrap.png
   meta: ok
   verdict: custodial

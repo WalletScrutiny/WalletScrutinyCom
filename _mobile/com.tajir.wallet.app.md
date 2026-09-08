@@ -22,8 +22,8 @@ iphone:
   idd: '6749449673'
   appCountry: us
   released: 2025-12-03
-  updated: 2026-08-31
-  version: 2.3.32
+  updated: 2026-09-02
+  version: 2.3.33
   reviews: 7
   icon: com.tajir.wallet.app.jpg
   meta: ok

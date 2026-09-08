@@ -26,7 +26,7 @@ iphone:
   released: 2023-10-29
   updated: 2026-09-01
   version: 1.65.2
-  reviews: 5069
+  reviews: 5078
   icon: com.bitoex.bitopronew.jpg
   meta: ok
   verdict: custodial

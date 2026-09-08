@@ -25,7 +25,7 @@ android:
   appCountry: us
   released: 2017-04-25
   updated: 2026-08-28
-  version: '55.8'
+  version: '55.11'
   reviews: 236
   icon: io.muun.apollo.png
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
@@ -41,9 +41,9 @@ iphone:
   idd: 1482037683
   appCountry: us
   released: 2019-10-11
-  updated: 2026-06-24
-  version: 2.15.0
-  reviews: 336
+  updated: 2026-09-07
+  version: 2.16.0
+  reviews: 338
   icon: com.muun.falcon.jpg
   meta: ok
   verdict: sourceavailable

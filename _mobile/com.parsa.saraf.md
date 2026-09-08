@@ -11,7 +11,7 @@ android:
   released: 2019-04-26
   updated: 2024-12-26
   version: 511.0.0
-  reviews: 273
+  reviews: 274
   icon: com.parsa.saraf.png
   meta: stale
   verdict: wip

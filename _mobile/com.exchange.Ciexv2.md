@@ -25,7 +25,7 @@ android:
   version: 6.5.4
   reviews: 4
   icon: com.exchange.Ciexv2.png
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Centurion Exchange
 iphone:

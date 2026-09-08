@@ -27,11 +27,11 @@ iphone:
   idd: 899478936
   appCountry: us
   released: 2014-07-25
-  updated: 2024-06-13
-  version: 2.1.4
+  updated: 2026-09-04
+  version: 2.1.5
   reviews: 61
   icon: net.bither.jpg
-  meta: obsolete
+  meta: ok
   verdict: obfuscated
   developerName: BITHER Limited
   repository: https://github.com/bither/bither-ios

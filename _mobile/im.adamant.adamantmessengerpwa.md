@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-06-13
-  updated: 2026-03-23
-  version: 4.11.1
+  updated: 2026-09-08
+  version: 4.12.0
   reviews: 16
   icon: im.adamant.adamantmessengerpwa.png
   meta: ok

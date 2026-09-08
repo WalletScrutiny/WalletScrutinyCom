@@ -17,8 +17,8 @@ android:
   appId: com.mirai.miraiex
   users: 100000
   appCountry: us
-  updated: 2026-08-24
-  version: 4.0.0
+  updated: 2026-09-08
+  version: 4.0.1
   icon: com.mirai.miraiex.png
   meta: ok
   verdict: custodial
@@ -28,9 +28,9 @@ iphone:
   idd: '1542108249'
   appCountry: 'no'
   released: 2021-01-09
-  updated: 2026-08-25
-  version: 4.0.0
-  reviews: 10293
+  updated: 2026-09-08
+  version: 4.0.1
+  reviews: 10295
   icon: com.mirai.miraiex.jpg
   meta: ok
   verdict: custodial

@@ -20,7 +20,7 @@ android:
   released: 2019-12-19
   updated: 2026-08-04
   version: 3.8.7
-  reviews: 301
+  reviews: 302
   icon: com.tapngo.tap.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-12-20
   updated: 2026-08-06
   version: 3.8.7
-  reviews: 1915
+  reviews: 1919
   icon: com.TapGlobal.tap.jpg
   meta: ok
   verdict: custodial

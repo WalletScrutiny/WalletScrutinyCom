@@ -34,8 +34,8 @@ iphone:
   idd: 1442083982
   appCountry: us
   released: 2018-12-01
-  updated: 2026-08-27
-  version: 3.2.0
+  updated: 2026-09-02
+  version: 3.2.1
   reviews: 949
   icon: com.crypto.multiwallet.jpg
   meta: ok

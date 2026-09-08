@@ -16,7 +16,7 @@ android:
   released: 2019-07-11
   updated: 2026-08-06
   version: 4.3.6
-  reviews: 3554
+  reviews: 3553
   icon: com.bitwala.app.png
   meta: ok
   verdict: nosource
@@ -28,7 +28,7 @@ iphone:
   released: 2019-05-11
   updated: 2026-08-07
   version: 4.3.6
-  reviews: 4101
+  reviews: 4100
   icon: com.bitwala.app.jpg
   meta: ok
   verdict: nosource

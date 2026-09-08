@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2016-04-18
-  updated: 2026-08-29
-  version: '1.291'
+  updated: 2026-09-07
+  version: '1.293'
   icon: btctrade.BTCBOX.png
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '1076075645'
   appCountry: jp
   released: 2016-01-22
-  updated: 2026-09-01
-  version: '1.252'
+  updated: 2026-09-08
+  version: '1.254'
   reviews: 16
   icon: btctrade.btcbox.jpg
   meta: ok

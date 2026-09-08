@@ -33,9 +33,9 @@ iphone:
   released: 2023-04-13
   updated: 2025-09-08
   version: 1.41.0
-  reviews: 246
+  reviews: 247
   icon: com.fastex.fastexapp.jpg
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: FastEX Europe
 

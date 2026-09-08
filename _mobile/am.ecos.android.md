@@ -29,8 +29,8 @@ iphone:
   idd: '1528964374'
   appCountry: us
   released: 2020-11-25
-  updated: 2026-08-31
-  version: 3.3.0
+  updated: 2026-09-07
+  version: 3.3.1
   reviews: 290
   icon: am.ecos.ios.production.jpg
   meta: ok

@@ -27,7 +27,7 @@ iphone:
   released: 2025-12-08
   updated: 2026-08-27
   version: 1.0.2
-  reviews: 4
+  reviews: 5
   icon: com.useguap.ios.rn.jpg
   meta: ok
   verdict: custodial

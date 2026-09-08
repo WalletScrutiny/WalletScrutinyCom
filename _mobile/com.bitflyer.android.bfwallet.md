@@ -29,9 +29,9 @@ iphone:
   idd: 1164758997
   appCountry: jp
   released: 2016-11-18
-  updated: 2026-08-26
-  version: 10.0.6
-  reviews: 133159
+  updated: 2026-09-02
+  version: 10.0.7
+  reviews: 133154
   icon: jp.bitflyer.wallet.jpg
   meta: ok
   verdict: custodial

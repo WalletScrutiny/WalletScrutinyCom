@@ -30,8 +30,8 @@ iphone:
   idd: 1383851676
   appCountry: us
   released: 2019-01-07
-  updated: 2026-03-23
-  version: 2.20.5
+  updated: 2026-09-02
+  version: 2.20.114
   reviews: 26
   icon: com.saltlending.mobile.jpg
   meta: ok

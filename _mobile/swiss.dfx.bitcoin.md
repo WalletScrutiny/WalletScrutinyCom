@@ -23,10 +23,10 @@ android:
   users: 1000
   appCountry: us
   released: 2023-09-25
-  updated: 2025-07-23
-  version: 2.0.3
+  updated: 2026-09-04
+  version: 2.0.27
   icon: swiss.dfx.bitcoin.png
-  meta: stale
+  meta: ok
   verdict: sourceavailable
   developerName: DFX AG
   repository: https://github.com/DFXswiss/btc-wallet

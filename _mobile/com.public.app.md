@@ -21,8 +21,8 @@ android:
   appCountry: us
   released: 2019-09-06
   updated: 2026-09-01
-  version: 3.261.0
-  reviews: 9569
+  version: 3.262.0
+  reviews: 9573
   icon: com.public.app.jpg
   meta: ok
   verdict: nosendreceive
@@ -32,9 +32,9 @@ iphone:
   idd: '1204112719'
   appCountry: us
   released: 2017-03-13
-  updated: 2026-08-28
-  version: 5.3.1
-  reviews: 84835
+  updated: 2026-09-02
+  version: 5.4.1
+  reviews: 84920
   icon: com.t3securities.matador.jpg
   meta: ok
   verdict: nosendreceive

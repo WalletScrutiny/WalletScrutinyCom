@@ -9,9 +9,9 @@ iphone:
   idd: '1605393003'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-09-02
-  version: 6.73.0
-  reviews: 8276
+  updated: 2026-09-04
+  version: 6.73.2
+  reviews: 8305
   icon: mobile.mexcglobal.www.jpg
   meta: ok
   verdict: wip

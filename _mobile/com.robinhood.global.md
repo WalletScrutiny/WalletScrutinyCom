@@ -18,8 +18,8 @@ android:
   appId: com.robinhood.global
   users: 100000
   appCountry: us
-  updated: 2026-08-31
-  version: 2026.34.0
+  updated: 2026-09-05
+  version: 2026.36.2
   icon: com.robinhood.global.png
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-08-25
-  version: 2026.35.0
-  reviews: 311
+  updated: 2026-09-06
+  version: 2026.36.1
+  reviews: 314
   icon: com.robinhood.release.RobinhoodGlobal.jpg
   meta: ok
   verdict: custodial

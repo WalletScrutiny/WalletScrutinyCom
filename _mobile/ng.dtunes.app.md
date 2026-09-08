@@ -1,6 +1,6 @@
 ---
 wsId: dtunesCrypto
-title: Dtunes – Sell Crypto to Naira
+title: Swapto ( Formerly Dtunes)
 date: 2026-01-23
 authors:
 - danny
@@ -15,21 +15,21 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-29
-  updated: 2026-08-04
-  version: 3.0.6
+  updated: 2026-09-01
+  version: 3.0.8
   reviews: 36
   icon: ng.dtunes.app.png
   meta: ok
   verdict: nosendreceive
-  developerName: Dtunes NG
+  developerName: Swapto Inc
 iphone:
   appId: ng.dtunes.app
   idd: '1603827120'
   appCountry: ng
   released: 2022-08-02
-  updated: 2026-08-05
-  version: 3.0.6
-  reviews: 491
+  updated: 2026-09-06
+  version: 3.0.8
+  reviews: 490
   icon: ng.dtunes.app.jpg
   meta: ok
   verdict: nosendreceive

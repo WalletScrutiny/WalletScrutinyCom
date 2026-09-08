@@ -24,7 +24,7 @@ android:
   released: 2016-03-02
   updated: 2026-08-12
   version: 4.8.1
-  reviews: 368
+  reviews: 367
   icon: org.electrum.electrum.png
   alternativeStores:
   - fdroid

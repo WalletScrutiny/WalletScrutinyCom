@@ -23,7 +23,7 @@ android:
   released: 2019-01-29
   updated: 2026-08-03
   version: 4.17.4
-  reviews: 677
+  reviews: 678
   icon: net.bitstamp.app.png
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2019-01-30
   updated: 2026-08-04
   version: 4.17.4
-  reviews: 7461
+  reviews: 7467
   icon: net.bitstamp.jpg
   meta: ok
   verdict: custodial

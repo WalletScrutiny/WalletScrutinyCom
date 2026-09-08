@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2023-05-04
   updated: 2026-08-19
-  version: 1.11.21
+  version: 1.11.22
   icon: com.bitlifi.app.png
   meta: ok
   verdict: custodial

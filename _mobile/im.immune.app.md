@@ -28,7 +28,7 @@ iphone:
   version: 2.2.2
   reviews: 4
   icon: im.immune.app.jpg
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: IMM Money Messenger Limited
 

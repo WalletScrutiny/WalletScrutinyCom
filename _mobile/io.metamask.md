@@ -24,9 +24,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-09-01
-  updated: 2026-08-29
-  version: 8.8.0
-  reviews: 6724
+  updated: 2026-09-07
+  version: 8.9.0
+  reviews: 6731
   icon: io.metamask.png
   meta: ok
   verdict: sourceavailable
@@ -37,9 +37,9 @@ iphone:
   idd: 1438144202
   appCountry: us
   released: 2020-09-03
-  updated: 2026-08-31
-  version: 8.9.0
-  reviews: 75965
+  updated: 2026-09-07
+  version: 8.10.1
+  reviews: 76050
   icon: io.metamask.MetaMask.jpg
   meta: ok
   verdict: sourceavailable

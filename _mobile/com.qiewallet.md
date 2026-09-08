@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-06-20
-  updated: 2026-08-27
-  version: 0.3.74
+  updated: 2026-09-03
+  version: 0.3.75
   icon: com.qiewallet.png
   meta: ok
   verdict: nosource
@@ -24,8 +24,8 @@ iphone:
   idd: '6445826746'
   appCountry: us
   released: 2024-05-31
-  updated: 2026-08-28
-  version: 2.7.9
+  updated: 2026-09-04
+  version: 2.8.0
   reviews: 1
   icon: org.reactjs.native.QIEWallet.jpg
   meta: ok

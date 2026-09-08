@@ -6,7 +6,7 @@ redirect_from:
 - /android/com.christonet.leobitcoin/
 android:
   appId: com.christonet.leobitcoin
-  users: 100
+  users: 500
   appCountry: us
   released: 2023-03-21
   updated: 2023-07-17

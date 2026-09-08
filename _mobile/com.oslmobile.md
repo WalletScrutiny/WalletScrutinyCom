@@ -32,7 +32,7 @@ iphone:
   released: 2024-01-22
   updated: 2026-09-02
   version: 3.7.4
-  reviews: 520
+  reviews: 519
   icon: com.osl.mobile.OslMobile.jpg
   meta: ok
   verdict: custodial

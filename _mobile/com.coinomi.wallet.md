@@ -42,9 +42,9 @@ iphone:
   idd: 1333588809
   appCountry: us
   released: 2018-03-22
-  updated: 2026-08-31
-  version: 1.67.8
-  reviews: 2133
+  updated: 2026-09-02
+  version: 1.67.9
+  reviews: 2137
   icon: com.coinomi.wallet.jpg
   meta: ok
   verdict: nosource

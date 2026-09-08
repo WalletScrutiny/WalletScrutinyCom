@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: cn
   released: 2019-07-06
-  updated: 2026-08-20
+  updated: 2026-09-04
   version: 4.09.0
-  reviews: 9597
+  reviews: 9484
   icon: cn.com.vau.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: 1457929724
   appCountry: ph
   released: 2019-07-20
-  updated: 2026-08-29
-  version: 4.09.0
-  reviews: 80
+  updated: 2026-09-07
+  version: 4.10.0
+  reviews: 81
   icon: com.vttech.VantageFX.jpg
   meta: ok
   verdict: nosendreceive

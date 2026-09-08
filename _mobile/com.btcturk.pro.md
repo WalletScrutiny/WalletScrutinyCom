@@ -1,5 +1,5 @@
 ---
-title: 'BtcTurk | Kripto: BTC|USDT|XRP'
+title: 'BtcTurk | Kripto : Buy Bitcoin'
 date: 2021-08-21
 authors:
 - danny
@@ -16,7 +16,7 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-09-10
-  updated: 2026-08-14
+  updated: 2026-09-01
   version: 2.48.0
   reviews: 232
   icon: com.btcturk.pro.png

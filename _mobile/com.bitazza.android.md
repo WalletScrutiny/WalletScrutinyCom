@@ -30,9 +30,9 @@ iphone:
   idd: '1476944844'
   appCountry: th
   released: 2020-05-25
-  updated: 2026-08-26
-  version: 5.1.0
-  reviews: 2558
+  updated: 2026-09-07
+  version: 5.1.1
+  reviews: 2568
   icon: com.bitazza.ios.jpg
   meta: ok
   verdict: custodial

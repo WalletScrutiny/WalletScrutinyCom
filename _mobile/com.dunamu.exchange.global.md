@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-11-06
   updated: 2026-08-25
-  version: 1.22.44
+  version: 1.22.45
   reviews: 34
   icon: com.dunamu.exchange.global.png
   meta: ok

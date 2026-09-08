@@ -21,7 +21,7 @@ android:
   released: 2022-07-16
   updated: 2026-08-22
   version: 2.1.0
-  reviews: 128
+  reviews: 129
   icon: com.whitehat.cashin_app.png
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2022-10-04
   updated: 2026-09-02
   version: 2.1.0
-  reviews: 1309
+  reviews: 1312
   icon: com.macroblocs.cashinApp.jpg
   meta: ok
   verdict: nosendreceive

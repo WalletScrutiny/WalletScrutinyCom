@@ -32,7 +32,7 @@ iphone:
   released: 2020-03-31
   updated: 2026-08-31
   version: 1.144.0
-  reviews: 2701
+  reviews: 2706
   icon: com.swissborg.ios.jpg
   meta: ok
   verdict: custodial

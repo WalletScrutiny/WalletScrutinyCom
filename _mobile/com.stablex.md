@@ -30,7 +30,7 @@ iphone:
   released: 2021-10-26
   updated: 2026-08-25
   version: 4.0.21
-  reviews: 215
+  reviews: 218
   icon: net.stablex.app.jpg
   meta: ok
   verdict: custodial

@@ -30,9 +30,9 @@ iphone:
   idd: 1414619890
   appCountry: bh
   released: 2018-09-02
-  updated: 2026-08-31
-  version: 3.17.0
-  reviews: 2929
+  updated: 2026-09-02
+  version: 3.17.1
+  reviews: 2934
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

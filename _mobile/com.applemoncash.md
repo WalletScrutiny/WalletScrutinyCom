@@ -27,7 +27,7 @@ iphone:
   released: 2020-03-24
   updated: 2026-09-01
   version: 3.0.15
-  reviews: 4123
+  reviews: 4125
   icon: org.reactjs.native.lemon.appLemonCash.jpg
   meta: ok
   verdict: custodial

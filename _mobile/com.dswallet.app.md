@@ -19,9 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2025-03-19
-  updated: 2026-08-17
-  version: 2.2.3
-  reviews: 219
+  updated: 2026-09-02
+  version: 2.2.4
+  reviews: 215
   icon: com.dswallet.app.png
   meta: ok
   verdict: nosource
@@ -31,8 +31,8 @@ iphone:
   idd: '6740052686'
   appCountry: at
   released: 2025-01-16
-  updated: 2026-08-19
-  version: 2.2.3
+  updated: 2026-09-03
+  version: 2.2.4
   reviews: 0
   icon: com.digitalshield.walletapp.jpg
   meta: ok

@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: ph
   released: 2021-01-18
-  updated: 2026-08-10
-  version: 14.14.0
-  reviews: 3727
+  updated: 2026-09-04
+  version: 14.14.1
+  reviews: 3730
   icon: ph.pdax.mobile.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: 1531246346
   appCountry: ph
   released: 2020-12-18
-  updated: 2026-08-13
-  version: 14.14.0
-  reviews: 1027
+  updated: 2026-09-07
+  version: 14.14.1
+  reviews: 1034
   icon: ph.pdax.mobile.jpg
   meta: ok
   verdict: custodial

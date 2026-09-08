@@ -15,9 +15,9 @@ android:
   users: 50000
   appCountry: us
   released: 2024-07-09
-  updated: 2026-07-29
-  version: 3.5.25
-  reviews: 32
+  updated: 2026-09-01
+  version: 3.5.27
+  reviews: 33
   icon: net.primal.android.png
   meta: ok
   verdict: custodial
@@ -27,9 +27,9 @@ iphone:
   idd: '1673134518'
   appCountry: us
   released: 2023-12-01
-  updated: 2026-07-29
-  version: 3.5.60
-  reviews: 928
+  updated: 2026-09-03
+  version: 3.5.61
+  reviews: 929
   icon: net.primal.iosapp.Primal.jpg
   meta: ok
   verdict: custodial

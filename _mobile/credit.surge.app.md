@@ -6,14 +6,14 @@ redirect_from:
 - /iphone/credit.surge.app/
 android:
   appId: credit.surge.app
-  users: 500
+  users: 1000
   appCountry: us
   released: 2026-04-08
   updated: 2026-08-13
   version: 1.0.13
   reviews: 5
   icon: credit.surge.app.png
-  meta: fewusers
+  meta: ok
   verdict: custodial
   developerName: Amby, Inc.
 iphone:

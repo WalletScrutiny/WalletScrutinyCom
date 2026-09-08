@@ -1,9 +1,9 @@
 ---
-title: TrustVault
+title: BE Custody
 date: 2023-12-15
 authors:
 - danny
-website: https://custody.bitpanda.com/about
+website: https://www.bitpanda.com/en/enterprise/products/custody
 features:
 - multiSig
 - secEl
@@ -15,8 +15,8 @@ iphone:
   idd: '1455959680'
   appCountry: ee
   released: 2019-08-23
-  updated: 2026-04-20
-  version: 2.24.7
+  updated: 2026-09-08
+  version: 3.0.0
   reviews: 0
   icon: io.trustology.trustvault.jpg
   meta: ok

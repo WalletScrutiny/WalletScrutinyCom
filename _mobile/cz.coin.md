@@ -9,8 +9,8 @@ android:
   users: 10
   appCountry: us
   released: 2025-10-01
-  updated: 2026-08-15
-  version: 1.6.1
+  updated: 2026-09-02
+  version: 1.7.3
   icon: cz.coin.png
   meta: fewusers
   verdict: wip

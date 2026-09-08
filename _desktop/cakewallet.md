@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2023-02-24
 discontinued: 
-updated: 2026-08-29
-version: 6.4.3
+updated: 2026-09-04
+version: 6.4.4
 binaries: 
 provider: Cake Labs
 providerWebsite: 

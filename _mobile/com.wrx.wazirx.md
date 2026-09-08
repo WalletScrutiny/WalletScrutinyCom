@@ -21,7 +21,7 @@ android:
   released: 2018-07-16
   updated: 2026-08-26
   version: 4.11.1
-  reviews: 127301
+  reviews: 127050
   icon: com.wrx.wazirx.png
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2018-03-07
   updated: 2026-08-22
   version: '3.12'
-  reviews: 54163
+  reviews: 54189
   icon: com.wrx.wazirx.jpg
   meta: ok
   verdict: custodial

@@ -34,9 +34,9 @@ iphone:
   idd: 1499601684
   appCountry: us
   released: 2020-02-20
-  updated: 2026-08-24
-  version: 5.25.0
-  reviews: 2759
+  updated: 2026-09-07
+  version: 5.27.0
+  reviews: 2762
   icon: com.phemex.submit.jpg
   meta: ok
   verdict: custodial

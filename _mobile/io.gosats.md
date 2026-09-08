@@ -16,7 +16,7 @@ android:
   released: 2021-01-06
   updated: 2026-08-28
   version: 3.1.3
-  reviews: 4
+  reviews: 5
   icon: io.gosats.png
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2021-01-05
   updated: 2026-08-28
   version: 3.1.3
-  reviews: 933
+  reviews: 935
   icon: io.gosats.jpg
   meta: ok
   verdict: custodial
