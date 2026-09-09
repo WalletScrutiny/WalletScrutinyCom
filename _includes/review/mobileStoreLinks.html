@@ -3,7 +3,7 @@
   {% if include.androidAppId %}
     {% unless page.android.playStore == false %}
       <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
+        {% include icon.html name="google-play" %} Google Play
       </a>
     {% endunless %}
     {% if include.alternativeStores %}

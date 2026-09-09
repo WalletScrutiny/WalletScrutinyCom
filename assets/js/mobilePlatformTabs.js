@@ -5,7 +5,7 @@ window.updateDualMobileVerification = function (platform, info, elementId) {
   if (!el) return;
   const fmt = (ver, date) => ver ? '<b>' + ver + '</b> <small>(' + date + ')</small>' : '';
   const fmtDual = (aV, aD, iV, iD) => aV && iV
-    ? '<i class="fab fa-google-play" aria-hidden="true"></i> ' + fmt(aV, aD) + ' / <i class="i-app-store" aria-hidden="true"></i> ' + fmt(iV, iD)
+    ? wsIcon('google-play') + ' ' + fmt(aV, aD) + ' / <i class="i-app-store" aria-hidden="true"></i> ' + fmt(iV, iD)
     : fmt(aV || iV, aD || iD);
   const a = window._mobileVerParts.android || {};
   const i = window._mobileVerParts.iphone || {};

@@ -504,7 +504,7 @@ function renderWalletPlatformSection (wallet, platform) {
   return `
     <div class="wallet-platform-row">
       <div class="wallet-platform-row__head">
-        <i class="${getIcon(platform)}" aria-hidden="true"></i>
+        ${getIcon(platform)}
         <span>${getPlatformStoreLabel(platform)}</span>
       </div>
       ${stamps ? `<div class="stamps">${stamps}</div>` : ''}
@@ -605,19 +605,20 @@ function getWalletListCategory (wallet, platformFilter) {
   return wallet.archived ? wallet.folder : wallet.category;
 }
 
+// Returns the icon markup for a platform: sprite icons via wsIcon() (global from site_main),
+// custom font icons (i-*) as before.
 function getIcon (name) {
-  let faCollection = ''
   switch (name) {
-    case 'all': faCollection = 'i-all-devices'; break;
-    case 'mobile': faCollection = 'fas fa-mobile-screen'; break;
-    case 'android': faCollection = 'fab fa-google-play'; break;
-    case 'iphone': faCollection = 'i-app-store'; break;
-    case 'hardware': faCollection = 'fas fa-toolbox'; break;
-    case 'bearer': faCollection = 'i-btc'; break;
-    case 'desktop': faCollection = 'fas fa-desktop'; break;
-    case 'others': faCollection = 'fas fa-calculator'; break;
+    case 'all': return '<i class="i-all-devices" aria-hidden="true"></i>';
+    case 'mobile': return wsIcon('mobile-screen');
+    case 'android': return wsIcon('google-play');
+    case 'iphone': return '<i class="i-app-store" aria-hidden="true"></i>';
+    case 'hardware': return wsIcon('toolbox');
+    case 'bearer': return '<i class="i-btc" aria-hidden="true"></i>';
+    case 'desktop': return wsIcon('desktop');
+    case 'others': return wsIcon('calculator');
   }
-  return faCollection;
+  return '';
 }
 
 function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
@@ -655,7 +656,7 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
       return `
         <div class="wallet-platform-row wallet-platform-row--compact">
           <div class="wallet-platform-row__head">
-            <i class="${getIcon(p)}" aria-hidden="true"></i>
+            ${getIcon(p)}
             <span>${getPlatformStoreLabel(p)}</span>
           </div>
           ${stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : ''}
@@ -692,7 +693,7 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
-          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
+          `<span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
         '</small>',
       '</span>',
       statsHTML,

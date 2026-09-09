@@ -88,7 +88,7 @@
     margin-top: 0;
     font-weight: $paragraph-font-weight;
   }
-  .fa-bullhorn {
+  .icon-bullhorn {
     transform-origin: center;
     transform: rotate(-20deg);
     height: 2rem;
@@ -101,7 +101,7 @@
     margin-right: 0.5rem;
     color: var(--permanent-white);
   }
-  .fa-twitter {
+  .icon-twitter {
     color: #1da1f2;
     font-size: $font-lg;
     border-radius: 20%;
@@ -660,23 +660,23 @@
     transform: translateY(5px);
     transition: 0.2s ease;
   }
-  .fa-caret-right,
-  .fa-caret-down {
+  .icon-caret-right,
+  .icon-caret-down {
     margin: auto auto auto 0;
   }
   &[data-open="false"] {
-    .fa-caret-right {
+    .icon-caret-right {
       display: inline-block;
     }
-    .fa-caret-down {
+    .icon-caret-down {
       display: none;
     }
   }
   &[data-open="true"] {
-    .fa-caret-right {
+    .icon-caret-right {
       display: none;
     }
-    .fa-caret-down {
+    .icon-caret-down {
       display: inline-block;
     }
     .accordion-body {

@@ -140,7 +140,7 @@
         cursor: pointer;
       }
       &.working {
-        .fa-circle-notch {
+        .icon-circle-notch {
           display: inline-block;
           animation: loader-spin 1s linear forwards infinite;
         }

@@ -1,0 +1,9 @@
+{%- comment -%}
+Inline SVG icon from assets/icons.svg. Parameters:
+  name  (required) symbol id in assets/icons.svg, e.g. "copy"
+  class (optional) extra classes, e.g. "icon-fw" or "icon-spin"
+  style (optional) inline style
+  title (optional) accessible label; without it the icon is aria-hidden
+Usage: {% include icon.html name="copy" %}
+{%- endcomment -%}
+<svg class="icon icon-{{ include.name }}{% if include.class %} {{ include.class }}{% endif %}"{% if include.title %} role="img" aria-label="{{ include.title }}"{% else %} aria-hidden="true"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %}>{% if include.title %}<title>{{ include.title }}</title>{% endif %}<use href="{{ site.baseurl }}{{ site.icons_sprite }}#{{ include.name }}"></use></svg>

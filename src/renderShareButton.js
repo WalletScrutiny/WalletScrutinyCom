@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 (function(){
   function renderShareButton({
     container,
@@ -166,10 +167,10 @@
     }
 
     const nostrButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-nostr-open"><img src="/images/nostr_logo.svg" style="width:25px;height:25px;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
-    const xButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-x-open"><i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
-    const fbButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-fb-open"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i><span class="network-text">Share on Facebook</span></a>`;
-    const linkedinButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-linkedin-open"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span class="network-text">Share on LinkedIn</span></a>`;
-    const copyUrlButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-copy-url"><i class="fas fa-copy" aria-hidden="true"></i><span class="network-text">Copy current URL</span></a>`;
+    const xButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-x-open">${wsIcon('square-x-twitter')}<span class="network-text">Share on X</span></a>`;
+    const fbButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-fb-open">${wsIcon('square-facebook')}<span class="network-text">Share on Facebook</span></a>`;
+    const linkedinButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-linkedin-open">${wsIcon('linkedin')}<span class="network-text">Share on LinkedIn</span></a>`;
+    const copyUrlButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-copy-url">${wsIcon('copy')}<span class="network-text">Copy current URL</span></a>`;
 
     const modalHTML = `
       <div class="share-nostr-modal">
@@ -192,7 +193,7 @@
       const pulseClass = pulseAttention ? ' share-dropdown-trigger--pulse' : '';
       html += `
         <div class="dropdown">
-          <button type="button" class="btn btn-info share-dropdown-trigger${pulseClass}"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share <i class="fas fa-caret-down"></i></button>
+          <button type="button" class="btn btn-info share-dropdown-trigger${pulseClass}">${wsIcon('share-nodes', '', 'margin-right:10px; font-size: 18px;')}Share ${wsIcon('caret-down')}</button>
           <div class="share-dropdown-menu">
             ${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}
           </div>

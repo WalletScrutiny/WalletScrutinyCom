@@ -1,41 +1,42 @@
+{% comment %}Sets iconName (a symbol id in assets/icons.svg, render with icon.html) or iconClass (a custom font icon class) for a platform.{% endcomment %}
 {% assign platform = include.platform %}
 {% assign store = include.store %}
 {% if store %}
 {% case platform %}
 {% when "android" %}
-{% assign iconClass = "fab fa-google-play" %}
+{% assign iconName = "google-play" %}{% assign iconClass = nil %}
 {% when "fdroid" %}
-{% assign iconClass = "fab fa-f-droid" %}
+{% assign iconClass = "fac fa-f-droid" %}{% assign iconName = nil %}
 {% when "iphone" %}
-{% assign iconClass = "i-app-store" %}
+{% assign iconClass = "i-app-store" %}{% assign iconName = nil %}
 {% when "hardware" %}
-{% assign iconClass = "fas fa-toolbox" %}
+{% assign iconName = "toolbox" %}{% assign iconClass = nil %}
 {% when "bearer" %}
-{% assign iconClass = "i-btc" %}
+{% assign iconClass = "i-btc" %}{% assign iconName = nil %}
 {% when "windows" %}
-{% assign iconClass = "fab fa-windows" %}
+{% assign iconName = "windows" %}{% assign iconClass = nil %}
 {% when "desktop" %}
-{% assign iconClass = "fas fa-desktop" %}
+{% assign iconName = "desktop" %}{% assign iconClass = nil %}
 {% when "others" %}
-{% assign iconClass = "fas fa-calculator" %}
+{% assign iconName = "calculator" %}{% assign iconClass = nil %}
 {% endcase %}
 {% else %}
 {% case platform %}
 {% when "android" %}
-{% assign iconClass = "i-android" %}
+{% assign iconClass = "i-android" %}{% assign iconName = nil %}
 {% when "fdroid" %}
-{% assign iconClass = "i-android" %}
+{% assign iconClass = "i-android" %}{% assign iconName = nil %}
 {% when "iphone" %}
-{% assign iconClass = "i-ios" %}
+{% assign iconClass = "i-ios" %}{% assign iconName = nil %}
 {% when "hardware" %}
-{% assign iconClass = "i-device" %}
+{% assign iconClass = "i-device" %}{% assign iconName = nil %}
 {% when "bearer" %}
-{% assign iconClass = "i-device" %}
+{% assign iconClass = "i-device" %}{% assign iconName = nil %}
 {% when "windows" %}
-{% assign iconClass = "fab fa-windows" %}
+{% assign iconName = "windows" %}{% assign iconClass = nil %}
 {% when "desktop" %}
-{% assign iconClass = "fas fa-desktop" %}
+{% assign iconName = "desktop" %}{% assign iconClass = nil %}
 {% when "others" %}
-{% assign iconClass = "fas fa-calculator" %}
+{% assign iconName = "calculator" %}{% assign iconClass = nil %}
 {% endcase %}
 {% endif %}

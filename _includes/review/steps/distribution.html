@@ -16,7 +16,7 @@
 {% if show_step %}
 <div class="step distribution">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    <i class="fas fa-download" style="z-index: 2; font-size: 23px;"></i>
+    {% include icon.html name="download" style="z-index: 2; font-size: 23px;" %}
   </i>
   <div class="title">
     <h3>Distribution</h3>
@@ -29,7 +29,7 @@
       {% when 'android' %}
         <div class="distribution-store-links">
           {% unless page.android.playStore == false %}
-            <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+            <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="google-play" %} Google Play</a>
           {% endunless %}
           {% include /review/alternativeStoreLinks.html appId=dist_app_id alternativeStores=dist_alt_stores %}
           {% include /review/websiteDistributionLink.html %}

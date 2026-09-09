@@ -4,7 +4,7 @@ layout: default
 <div id="main" class="author-page" role="main">
   <div class="author-page__inner">
     <a class="author-page__back" href="/about/">
-      <i class="fas fa-chevron-left" aria-hidden="true"></i>
+      {% include icon.html name="chevron-left" %}
       Meet the team
     </a>
 
@@ -36,7 +36,7 @@ layout: default
 
         {% if page.since %}
           <p class="author-profile__since">
-            <i class="fas fa-calendar" aria-hidden="true"></i>
+            {% include icon.html name="calendar" %}
             Contributing since {{ page.since | date: '%B %Y' }}
           </p>
         {% endif %}

@@ -1,17 +1,17 @@
 {% case include.verdict %}
-  {% when 'wip' %}                {% assign iconClass="fas fa-square" %}
-  {% when 'nowallet' %}           {% assign iconClass="i-wallet" %}
-  {% when 'nosendreceive' %}      {% assign iconClass="i-arrows" %}
-  {% when 'custodial', 'noita', 'ecash' %} {% assign iconClass="i-key" %}
-  {% when 'nosource' %}           {% assign iconClass="i-code" %}
-  {% when 'sourceavailable' %}    {% assign iconClass="i-sourceavailable" %}
-  {% when 'fake' %}               {% assign iconClass="fas fa-user-secret" %}
+  {% when 'wip' %}                {% assign iconName = "square" %}{% assign iconClass = nil %}
+  {% when 'nowallet' %}           {% assign iconClass = "i-wallet" %}{% assign iconName = nil %}
+  {% when 'nosendreceive' %}      {% assign iconClass = "i-arrows" %}{% assign iconName = nil %}
+  {% when 'custodial', 'noita', 'ecash' %} {% assign iconClass = "i-key" %}{% assign iconName = nil %}
+  {% when 'nosource' %}           {% assign iconClass = "i-code" %}{% assign iconName = nil %}
+  {% when 'sourceavailable' %}    {% assign iconClass = "i-sourceavailable" %}{% assign iconName = nil %}
+  {% when 'fake' %}               {% assign iconName = "user-secret" %}{% assign iconClass = nil %}
 {% endcase %}
 
-{% if iconClass %}
+{% if iconName or iconClass %}
 <div class="section-title">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    <i class="{{iconClass}}" style="z-index: 2; font-size: 21px;"></i>
+    {% if iconName %}{% include icon.html name=iconName style="z-index: 2; font-size: 21px;" %}{% else %}<i class="{{iconClass}}" style="z-index: 2; font-size: 21px;"></i>{% endif %}
   </i>
   <h3>{{include.title}}</h3>
 </div>

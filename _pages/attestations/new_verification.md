@@ -446,7 +446,7 @@ permalink: /new_verification/
             <div class="hash-input-container">
                 <input type="text" id="newHash" class="form-control" placeholder="Official download SHA-256 hash">
                 <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
-                    <i class="fas fa-plus"></i>
+                    {% include icon.html name="plus" %}
                 </button>
             </div>
             <div id="hashList" class="hash-list"></div>
@@ -492,7 +492,7 @@ permalink: /new_verification/
         <!-- End Blossom File Dropzone Area -->
 
         <div id="availableScriptsContainer" class="form-group available-scripts-container">
-            <label>If you've used a script created by another user in a different verification, mark it here with the <i class="fas fa-plus" style="color: green;"></i> icon:</label>
+            <label>If you've used a script created by another user in a different verification, mark it here with the {% include icon.html name="plus" style="color: green;" %} icon:</label>
             <div id="availableScriptsList" class="available-scripts-list"></div>
         </div>
 
@@ -563,7 +563,7 @@ permalink: /new_verification/
     hashItem.innerHTML = `
     <span>${hash}</span>
     <button type="button" class="remove-hash" title="Remove this hash from the list">
-      <i class="fas fa-minus"></i>
+      {% include icon.html name="minus" %}
     </button>
   `;
 
@@ -962,23 +962,23 @@ permalink: /new_verification/
             scriptItem.innerHTML = `
             <span>${name} ${sizeText}${provenance} - by <a href="${verifierHref}" class="pubkey-link" target="_blank" rel="noopener noreferrer">${pubkeyShort}</a></span>
             <button type="button" class="add-script" title="Mark this script as used in this verification">
-              <i class="fas fa-plus"></i>
+              {% include icon.html name="plus" %}
             </button>`;
 
             const addScriptButton = scriptItem.querySelector('.add-script');
-            const icon = addScriptButton.querySelector('i');
+            const setButtonIcon = (name) => { addScriptButton.innerHTML = wsIcon(name); };
+            const hasPlusIcon = () => Boolean(addScriptButton.querySelector('.icon-plus'));
             const attachmentId = attachment.id; // Store attachment id
 
             // Check if already added on load
             if (reusedFileIds.includes(attachmentId)) {
-              icon.classList.remove('fa-plus');
-              icon.classList.add('fa-minus');
+              setButtonIcon('minus');
               addScriptButton.title = "Remove this script from the verification";
               addScriptButton.style.color = 'red';
             }
 
             addScriptButton.addEventListener('click', () => {
-              const isAdding = icon.classList.contains('fa-plus');
+              const isAdding = hasPlusIcon();
               const fileSize = size ? parseInt(size) : new Blob([attachmentContent]).size;
 
               if (isAdding) {
@@ -994,16 +994,14 @@ permalink: /new_verification/
                 }
 
                 reusedFileIds.push(attachmentId);
-                icon.classList.remove('fa-plus');
-                icon.classList.add('fa-minus');
+                setButtonIcon('minus');
                 addScriptButton.title = "Remove this script from the verification";
                 addScriptButton.style.color = 'red'; // Change color to red
                 showToast(`Script "${name}" added to the verification.`, 'success');
               } else {
                 // Remove the ID from the reused list
                 reusedFileIds = reusedFileIds.filter(id => id !== attachmentId);
-                icon.classList.remove('fa-minus');
-                icon.classList.add('fa-plus');
+                setButtonIcon('plus');
                 addScriptButton.title = "Mark this script as used in this verification";
                 addScriptButton.style.color = 'green'; // Change color back to green
                 showToast(`Script "${name}" removed from the verification.`, 'info');

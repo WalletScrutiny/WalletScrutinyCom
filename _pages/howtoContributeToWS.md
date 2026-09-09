@@ -22,14 +22,14 @@ author_profile: false
       <div class="contribute-card">
     {% endif %}
         <span class="contribute-card__icon" aria-hidden="true">
-          <i class="{% if way.iconBrand %}fab{% else %}fas{% endif %} {{ way.icon }}"></i>
+          {% include icon.html name=way.icon %}
         </span>
         <h2 class="contribute-card__title">{{ way.title }}</h2>
         <p class="contribute-card__desc">{{ way.description }}</p>
         {% if way.link and way.linkText %}
           <span class="contribute-card__cta">
             {{ way.linkText }}
-            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            {% include icon.html name="arrow-right" %}
           </span>
         {% endif %}
     {% if way.link %}

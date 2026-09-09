@@ -2,7 +2,7 @@
 
 <div class="step operating-system">
   {% include iconClass.html platform=platform %}
-  <i class="{{iconClass}} circle"></i>
+  {% if iconName %}{% include icon.html name=iconName class="circle" %}{% else %}<i class="{{iconClass}} circle"></i>{% endif %}
   <div class="title">
     <h3>Platform notes</h3>
     <div class="textbox">

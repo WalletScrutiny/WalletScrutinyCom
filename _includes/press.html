@@ -49,25 +49,25 @@ function showAllPublications(self) {
     <div class="press-filters">
       <div class="press-button-holder press-button-holder-EN activated">
         <button type="button" class="press-filter-btn activated" id="press_button_EN" aria-pressed="true" onclick="fpress('EN');">
-          <i class="fas fa-check check" aria-hidden="true"></i>
+          {% include icon.html name="check" class="check" %}
           English
         </button>
       </div>
       <div class="press-button-holder press-button-holder-DE activated">
         <button type="button" class="press-filter-btn activated" id="press_button_DE" aria-pressed="true" onclick="fpress('DE');">
-          <i class="fas fa-check check" aria-hidden="true"></i>
+          {% include icon.html name="check" class="check" %}
           Deutsch
         </button>
       </div>
       <div class="press-button-holder press-button-holder-NL activated">
         <button type="button" class="press-filter-btn activated" id="press_button_NL" aria-pressed="true" onclick="fpress('NL');">
-          <i class="fas fa-check check" aria-hidden="true"></i>
+          {% include icon.html name="check" class="check" %}
           Nederlands
         </button>
       </div>
       <div class="press-button-holder press-button-holder-ES activated">
         <button type="button" class="press-filter-btn activated" id="press_button_ES" aria-pressed="true" onclick="fpress('ES');">
-          <i class="fas fa-check check" aria-hidden="true"></i>
+          {% include icon.html name="check" class="check" %}
           Español
         </button>
       </div>
@@ -118,7 +118,7 @@ function showAllPublications(self) {
 {% unless include.full %}
   <button type="button" class="press-view-all" onclick="showAllPublications(this)">
     View all publications
-    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+    {% include icon.html name="arrow-right" %}
   </button>
 {% endunless %}
 </div>

@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 import { uploadToBlossom } from './blossom-utils.mjs';
 import {
   formatFileSize,
@@ -117,12 +118,12 @@ function viewVerificationsCtaHtml(hash, verificationCount) {
     : 'This binary already has community attestations';
 
   return `<a href="/asset/?sha256=${encodeURIComponent(hash)}" class="drop-area-verification-cta">
-      <span class="drop-area-verification-cta__icon" aria-hidden="true"><i class="fas fa-clipboard-check"></i></span>
+      <span class="drop-area-verification-cta__icon" aria-hidden="true">${wsIcon('clipboard-check')}</span>
       <span class="drop-area-verification-cta__copy">
         <span class="drop-area-verification-cta__label">View build verifications</span>
         <span class="drop-area-verification-cta__hint">${hint}</span>
       </span>
-      <span class="drop-area-verification-cta__arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+      <span class="drop-area-verification-cta__arrow" aria-hidden="true">${wsIcon('arrow-right')}</span>
     </a>`;
 }
 

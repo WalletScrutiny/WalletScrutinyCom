@@ -59,9 +59,6 @@ module.exports = (env, argv) => {
         ],
         dependOn: ['dom_sanitization', 'verifications_data'],
       },
-      font_awesome: [
-        './src/font-awesome.js'
-      ]
     },
     output: {
       filename: argv.mode === 'production' ? '[name].[contenthash].bundle.min.js' : '[name].bundle.min.js',

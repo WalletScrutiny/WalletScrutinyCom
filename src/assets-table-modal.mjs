@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
@@ -314,7 +315,7 @@ export function buildWriteVerificationMenuHtml(verification, sha256Hash, editPar
   }, label))).join('');
 
   return `<span id="writeVerificationWrap" style="display: inline-block; position: relative; vertical-align: middle;">
-    <button type="button" class="btn btn-info" id="writeVerificationBtn" style="margin: 0;">✏️ Write verification <i class="fas fa-caret-down"></i></button>
+    <button type="button" class="btn btn-info" id="writeVerificationBtn" style="margin: 0;">✏️ Write verification ${wsIcon('caret-down')}</button>
     <div id="writeVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 220px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">${items}</div>
   </span>`;
 }
@@ -640,10 +641,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   toolbarRowHtml += `<div id="verificationActionButtons"></div>`;
   toolbarRowHtml += `<div id="verificationZapReportGroup" style="display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
     <button type="button" class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton">
-      <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
+      ${wsIcon('bitcoin', '', 'font-size: 23px;')} Zap this verification
     </button>
     <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
-      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect <i class="fas fa-caret-down"></i></button>
+      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect ${wsIcon('caret-down')}</button>
       <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
         <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
         <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>

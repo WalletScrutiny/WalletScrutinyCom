@@ -8,8 +8,8 @@
       <div class="wallet-search">
         <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
         <div class="search-controls">
-          <i class="fas fa-circle-notch"></i>
-          <i class="fas fa-times reset-search"></i>
+          {% include icon.html name="circle-notch" %}
+          {% include icon.html name="xmark" class="reset-search" %}
         </div>
         <ul class="search-results results-target exit-search-target"></ul>
       </div>
@@ -17,7 +17,7 @@
       <div class="desktop-only"></div>
       {% endif %}
       <nav id="site-nav" class="greedy-nav">
-        <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
+        <div class="mobile-search-shortcut">{% include icon.html name="magnifying-glass" %}</div>
         <ul class="visible-links">
           <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
           {% for link in site.data.navigation.main %}
@@ -28,8 +28,8 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications"><i class="fas fa-bell"></i></a></li>
-          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
+          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications">{% include icon.html name="bell" %}</a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme">{% include icon.html name="moon" %}{% include icon.html name="sun" %}</a></li>
         </ul>
         <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
@@ -45,7 +45,7 @@
 <div id="notificationsPanel" class="notifications-panel" style="display: none;">
   <div class="notifications-header">
     <h3>Notifications</h3>
-    <button class="close-notifications" onclick="hideNotifications()"><i class="fas fa-times"></i></button>
+    <button class="close-notifications" onclick="hideNotifications()">{% include icon.html name="xmark" %}</button>
   </div>
   <div class="notifications-list"></div>
 </div>
@@ -72,7 +72,7 @@
     notification.innerHTML = `
       <div class="notification-content">
         <div class="title-row">
-          <i class="fas fa-${type === 'info' ? 'info-circle' : type === 'warning' ? 'exclamation-triangle' : 'check-circle'}"></i>
+          ${wsIcon(type === 'info' ? 'circle-info' : type === 'warning' ? 'triangle-exclamation' : 'circle-check')}
           <span style="margin-left: 9px;">${title}</span>
         </div>
         <div class="details-row">

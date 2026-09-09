@@ -14,11 +14,11 @@ const platformNotes = {
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count={% include /homepage/full_wallet_count.html %};</script>
-    <span class="home-search__icon" aria-hidden="true"><i class="fas fa-search"></i></span>
+    <span class="home-search__icon" aria-hidden="true">{% include icon.html name="magnifying-glass" %}</span>
     <input class="search-filtered-wallets query-string" placeholder="Search all security reviews — enter your wallet's name, or filter by platform and features" spellcheck="false" />
   </div>
   <div title="Filters" class="advanced-search-toggle" onclick="advancedSearchToggle(this)">
-    <i class="fas fa-filter"></i>
+    {% include icon.html name="filter" %}
   </div>
   <div title="Platform" class="component component-platform">
     <div class="dropdown-options dropdown-platform">

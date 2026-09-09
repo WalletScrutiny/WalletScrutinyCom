@@ -1,7 +1,7 @@
 <div class="verdictMethodology textbox" id="{{include.category}}-{{include.verdict}}">
 <div class="verdict-methodology-head">
   <h2>{{ site.data.verdicts[include.verdict].question }}</h2>
-  <div class="chevron"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-down"></i></div>
+  <div class="chevron">{% include icon.html name="chevron-left" %}{% include icon.html name="chevron-down" %}</div>
 </div>
 
 <p>If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".</p>

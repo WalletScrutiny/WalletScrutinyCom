@@ -111,7 +111,7 @@
     color: var(--accent-text);
     transition: color 0.15s ease;
 
-    .fa-arrow-right {
+    .icon-arrow-right {
       font-size: $font-xs;
     }
   }
@@ -133,8 +133,8 @@
     font-weight: $title-font-weight;
     line-height: 1.3;
 
-    .fa-google-play,
-    .fa-apple {
+    .icon-google-play,
+    .icon-apple {
       color: var(--accent-text);
     }
   }
