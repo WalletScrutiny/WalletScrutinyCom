@@ -29,7 +29,7 @@ git checkout -b add-wallet-example-app</code></pre>
 </div>
 
 <div class="guide-section">
-  <h2><i class="fab fa-google-play" aria-hidden="true"></i> Adding a new Android app</h2>
+  <h2>{% include icon.html name="google-play" %} Adding a new Android app</h2>
 
   <ol class="guide-steps">
     <li>
@@ -56,7 +56,7 @@ git checkout -b add-wallet-example-app</code></pre>
 </div>
 
 <div class="guide-section">
-  <h2><i class="fab fa-apple" aria-hidden="true"></i> Adding a new iPhone app</h2>
+  <h2>{% include icon.html name="apple" %} Adding a new iPhone app</h2>
 
   <ol class="guide-steps">
     <li>
@@ -87,7 +87,7 @@ git checkout -b add-wallet-example-app</code></pre>
 </div>
 
 <div class="guide-section">
-  <h2><i class="fas fa-layer-group" aria-hidden="true"></i> Adding hardware, desktop, bearer, and other products</h2>
+  <h2>{% include icon.html name="layer-group" %} Adding hardware, desktop, bearer, and other products</h2>
   <p>There are no helper scripts for these categories. The usual workflow is to copy an existing review from the matching directory, rename it, and edit the contents:</p>
 
   <ol class="guide-steps">
@@ -117,7 +117,7 @@ git checkout -b add-wallet-example-app</code></pre>
 </div>
 
 <div class="guide-section">
-  <h2><i class="fas fa-pen" aria-hidden="true"></i> Writing the analysis</h2>
+  <h2>{% include icon.html name="pen" %} Writing the analysis</h2>
   <p>Once the file exists — whether created by a script or copied manually — open it and complete the review:</p>
   <ul>
     <li>Set <code>verdict</code> (for example <code>wip</code> while you work, then the final verdict).</li>

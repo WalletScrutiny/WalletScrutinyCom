@@ -27,7 +27,7 @@ On mobile pages, omit android/iphone entries merged into the current page.
       {% include iconClass.html platform=item.platform store='true' %}
       {% include folderToName.html folder=item.platform store='true' %}
       <span>{{ item.title | escape }}</span>
-      <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
+      <span>{% if iconName %}{% include icon.html name=iconName %}{% else %}<i class="{{iconClass}}"></i>{% endif %}&nbsp;{{name}}</span>
     </a>
   </div>
   {%- endunless -%}

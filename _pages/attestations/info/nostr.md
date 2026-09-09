@@ -8,7 +8,7 @@ permalink: /nostr/
 
 <div class="contribute-hero">
   <p class="contribute-lead">
-    Nostr is a protocol that allows users to communicate and share information without relying on centralized platforms. It uses public-key cryptography to ensure secure communication. Nostr is designed to be censorship-resistant and while best known for its use as a clone of <i class="fab fa-x-twitter" aria-hidden="true"></i>, it is also used in many other applications.
+    Nostr is a protocol that allows users to communicate and share information without relying on centralized platforms. It uses public-key cryptography to ensure secure communication. Nostr is designed to be censorship-resistant and while best known for its use as a clone of {% include icon.html name="x-twitter" %}, it is also used in many other applications.
   </p>
 </div>
 
@@ -22,7 +22,7 @@ permalink: /nostr/
 
       <div class="contribute-grid landing-explore-grid">
         <div class="contribute-card">
-          <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-pen"></i></span>
+          <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="pen" %}</span>
           <h2 class="contribute-card__title">nos2x</h2>
           <p class="contribute-card__desc">Simple and lightweight extension for Windows/Mac/Linux.</p>
           <ul class="landing-card-links">
@@ -31,7 +31,7 @@ permalink: /nostr/
           </ul>
         </div>
         <div class="contribute-card">
-          <span class="contribute-card__icon" aria-hidden="true"><i class="fab fa-bitcoin"></i></span>
+          <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="bitcoin" %}</span>
           <h2 class="contribute-card__title">Alby</h2>
           <p class="contribute-card__desc">Full-featured extension with Lightning Network integration for Windows/Mac/Linux.</p>
           <ul class="landing-card-links">
@@ -40,7 +40,7 @@ permalink: /nostr/
           </ul>
         </div>
         <div class="contribute-card">
-          <span class="contribute-card__icon" aria-hidden="true"><i class="fab fa-apple"></i></span>
+          <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="apple" %}</span>
           <h2 class="contribute-card__title">Nostash</h2>
           <p class="contribute-card__desc">Browser extension for iPhone/iPad/Mac.</p>
           <ul class="landing-card-links">

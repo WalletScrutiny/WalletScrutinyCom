@@ -43,10 +43,10 @@ permalink: /verifier/
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <button style="margin: 0; padding: 0; border: 0; background: transparent;" id="shareButtonContainerVerifier"></button>
   <button class="btn btn-info" style="margin-bottom: 0;" href="" target="_blank" id="njumpLink">
-    <i class="fas fa-external-link-alt" style="margin-right: 7px; font-size: 18px;"></i> Njump.me
+    {% include icon.html name="up-right-from-square" style="margin-right: 7px; font-size: 18px;" %} Njump.me
   </button>
   <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
-    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
+    {% include icon.html name="bitcoin" style="margin-right: 6px; font-size: 18px;" %} Zap this verifier
   </button>
 </div>
 

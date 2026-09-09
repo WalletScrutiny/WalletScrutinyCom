@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 import { showIssueTrackerHtmlWidget } from "./assets-table-utils.mjs";
 import { paintMainAssetsTable } from "./assets-table-paint.mjs";
 import {
@@ -78,7 +79,7 @@ function ensureBlossomModals() {
         <span id="blossomBundleCloseButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
         <h3 style="margin-top: 0;">Download asset files</h3>
         <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; text-align: left;">
-          <i class="fas fa-exclamation-triangle" style="color: #856404; font-size: 1.5em; flex-shrink: 0; margin-top: 2px;" aria-hidden="true"></i>
+          ${wsIcon('triangle-exclamation', '', 'color: #856404; font-size: 1.5em; flex-shrink: 0; margin-top: 2px;')}
           <p style="margin: 0; font-size: 0.95em;">These files were uploaded by third parties. Review before running.</p>
         </div>
         <ul id="blossomBundleFileList" style="list-style: none; padding: 0; margin: 0; text-align: left; max-width: 100%;"></ul>

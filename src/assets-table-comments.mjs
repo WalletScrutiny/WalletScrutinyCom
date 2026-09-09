@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 import { el, isSha256Hex } from './html-utils.mjs';
 
 let assetTableCommentsContainer = null;
@@ -281,7 +282,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
               <span class="comment-author-name" data-pubkey="${safePubkey}">${escapeHtml(comment.author)}</span>
               ${window.userPubkey && safePubkey === window.userPubkey && safeId ? `
               <button type="button" class="comment-delete-btn" data-comment-id="${safeId}" title="Delete comment" aria-label="Delete comment">
-                <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                ${wsIcon('trash-can')}
               </button>` : ''}
             </div>
             <div class="comment-content">

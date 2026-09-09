@@ -15,33 +15,33 @@ permalink: /verifications/
 
 <div class="contribute-grid">
   <a class="contribute-card" href="/assets/">
-    <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-folder-open"></i></span>
+    <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="folder-open" %}</span>
     <h2 class="contribute-card__title">Asset Registry</h2>
     <p class="contribute-card__desc">Browse wallet binaries registered on the network.</p>
-    <span class="contribute-card__cta">Open registry <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    <span class="contribute-card__cta">Open registry {% include icon.html name="arrow-right" %}</span>
   </a>
   <a class="contribute-card" href="/verifiers/">
-    <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-hands-helping"></i></span>
+    <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="handshake-angle" %}</span>
     <h2 class="contribute-card__title">Top Build Verifiers</h2>
     <p class="contribute-card__desc">See who is most active in reproducing wallet builds.</p>
-    <span class="contribute-card__cta">View verifiers <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    <span class="contribute-card__cta">View verifiers {% include icon.html name="arrow-right" %}</span>
   </a>
   <a class="contribute-card" href="/new_asset/">
-    <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+    <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="plus" %}</span>
     <h2 class="contribute-card__title">Register New Asset</h2>
     <p class="contribute-card__desc">Add a binary that is not yet in the registry.</p>
-    <span class="contribute-card__cta">Register asset <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    <span class="contribute-card__cta">Register asset {% include icon.html name="arrow-right" %}</span>
   </a>
   <a class="contribute-card" href="/new_verification/">
-    <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-clipboard-check"></i></span>
+    <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="clipboard-check" %}</span>
     <h2 class="contribute-card__title">New Verification</h2>
     <p class="contribute-card__desc">Publish a signed build verification for a known binary.</p>
-    <span class="contribute-card__cta">Start verification <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    <span class="contribute-card__cta">Start verification {% include icon.html name="arrow-right" %}</span>
   </a>
 </div>
 
 <section class="verifications-drop-panel" id="start">
-  <h2><i class="fas fa-download" aria-hidden="true"></i> Start with a binary</h2>
+  <h2>{% include icon.html name="download" %} Start with a binary</h2>
   <p class="bigScreenOnly">Drop a wallet binary here to look up existing verifications, calculate its SHA256 hash, or begin registering it.</p>
   <p class="smallScreenOnly">Select a wallet binary to look up existing verifications or calculate its SHA256 hash.</p>
 
@@ -60,10 +60,10 @@ permalink: /verifications/
   <p>Nostr Build Verifications let anyone compile software from source, compare the result to a distributed binary, and share a signed public record of what they found. Verifiers can attach scripts and build logs so others can reproduce the work themselves.</p>
 
   <ul class="verifications-benefits">
-    <li><i class="fas fa-circle-check" aria-hidden="true"></i> Verify builds independently</li>
-    <li><i class="fas fa-share-nodes" aria-hidden="true"></i> Store results on decentralized Nostr relays</li>
-    <li><i class="fas fa-globe" aria-hidden="true"></i> Make verification outcomes publicly accessible</li>
-    <li><i class="fas fa-handshake-angle" aria-hidden="true"></i> Build trust through community participation</li>
+    <li>{% include icon.html name="circle-check" %} Verify builds independently</li>
+    <li>{% include icon.html name="share-nodes" %} Store results on decentralized Nostr relays</li>
+    <li>{% include icon.html name="globe" %} Make verification outcomes publicly accessible</li>
+    <li>{% include icon.html name="handshake-angle" %} Build trust through community participation</li>
   </ul>
 
   <p>Some verifications are created automatically by the <a href="/automated-build-server/">WalletScrutiny Automated Build Server</a>, which re-runs community-published <code>build.sh</code> scripts when new binaries are registered. To make your script eligible for automatic runs, see the <a href="/automated-build-server/">ABS documentation</a> and the <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/docs/script_verifications.md" target="_blank" rel="noopener noreferrer">script rules on GitLab</a>.</p>
@@ -102,14 +102,14 @@ permalink: /verifications/
       <span class="verifications-copy-row__label">Hex pubkey</span>
       <code class="verifications-copy-row__value" title="168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335">168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335</code>
       <button type="button" class="verifications-copy-btn" aria-label="Copy hex pubkey" onclick="navigator.clipboard.writeText('168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335').then(() => { if (typeof showToast === 'function') showToast('Hex pubkey copied', 'success'); })">
-        <i class="fas fa-copy" aria-hidden="true"></i>
+        {% include icon.html name="copy" %}
       </button>
     </li>
     <li class="verifications-copy-row">
       <span class="verifications-copy-row__label">npub</span>
       <code class="verifications-copy-row__value" title="npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf">npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf</code>
       <button type="button" class="verifications-copy-btn" aria-label="Copy npub" onclick="navigator.clipboard.writeText('npub1z69h5txchwfqtsl4wn09gpsx6m6vgechc5ty73eh8lwvu2uu6v6sfwaukf').then(() => { if (typeof showToast === 'function') showToast('npub copied', 'success'); })">
-        <i class="fas fa-copy" aria-hidden="true"></i>
+        {% include icon.html name="copy" %}
       </button>
     </li>
   </ul>
@@ -124,19 +124,19 @@ permalink: /verifications/
 
   <div class="contribute-grid verifications-explore-grid">
     <a class="contribute-card" href="/assets/">
-      <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-tags"></i></span>
+      <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="tags" %}</span>
       <h2 class="contribute-card__title">Browse the Asset Registry</h2>
       <p class="contribute-card__desc">View wallet binaries that have been added to the network.</p>
-      <span class="contribute-card__cta">Browse assets <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+      <span class="contribute-card__cta">Browse assets {% include icon.html name="arrow-right" %}</span>
     </a>
     <a class="contribute-card" href="/verifiers/">
-      <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-user-secret"></i></span>
+      <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="user-secret" %}</span>
       <h2 class="contribute-card__title">Top Build Verifiers</h2>
       <p class="contribute-card__desc">See the most active community members who verify wallet builds.</p>
-      <span class="contribute-card__cta">View verifiers <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+      <span class="contribute-card__cta">View verifiers {% include icon.html name="arrow-right" %}</span>
     </a>
     <div class="contribute-card">
-      <span class="contribute-card__icon" aria-hidden="true"><i class="fas fa-magnifying-glass"></i></span>
+      <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="magnifying-glass" %}</span>
       <h2 class="contribute-card__title">Wallet Search</h2>
       <p class="contribute-card__desc">Use the search bar in the navigation to find verifications for a specific Bitcoin wallet.</p>
     </div>

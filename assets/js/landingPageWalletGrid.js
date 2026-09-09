@@ -114,7 +114,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
+        <span class="platform tile-view-only">${icon}<span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
       </div>
       ${walletDetailsHtml}
     </a>`;
@@ -191,10 +191,10 @@ function generateAndAppendPagination(workingArray, pageNo) {
       }
 
       if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) {
-        content += `&nbsp;<i class="fa-solid fa-angles-right"></i>`;
+        content += `&nbsp;${wsIcon('angles-right')}`;
       }
       if (!allowedTargets[index - 1] && page > (index + 3)) {
-        content = `<i class="fa-solid fa-angles-left"></i>&nbsp;` + content;
+        content = `${wsIcon('angles-left')}&nbsp;` + content;
       }
       
       clickTarget.innerHTML = content; // Set the final content

@@ -7,7 +7,7 @@
   {% if android_ver_norm == iphone_ver_norm %}
     <b>{{ android_ver }}</b>
   {% else %}
-    <i class="fab fa-google-play" aria-hidden="true"></i> <b>{{ android_ver }}</b>
+    {% include icon.html name="google-play" %} <b>{{ android_ver }}</b>
     /
     <i class="i-app-store" aria-hidden="true"></i> <b>{{ iphone_ver }}</b>
   {% endif %}

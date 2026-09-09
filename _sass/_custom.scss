@@ -890,12 +890,12 @@
   }
   a {
     text-decoration: none;
-    .fa-chevron-right {
+    .ws-icon-chevron-right {
       opacity: 0;
     }
     &:hover {
       text-decoration: underline;
-      .fa-chevron-right {
+      .ws-icon-chevron-right {
         transform: translateX(5px);
         opacity: 1;
       }

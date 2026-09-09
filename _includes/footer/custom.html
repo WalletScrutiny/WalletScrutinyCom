@@ -8,11 +8,11 @@
     {% unless include.is_home %}
     <div class="site-footer__actions">
       <a class="site-footer__link site-footer__link--action" href="{{ site.baseurl }}/howtoContributeToWS/">
-        <i class="fas fa-hands-helping" aria-hidden="true"></i>
+        {% include icon.html name="handshake-angle" %}
         Contribute
       </a>
       <a class="site-footer__link site-footer__link--action" href="{{ site.baseurl }}/donate/">
-        <i class="fas fa-donate" aria-hidden="true"></i>
+        {% include icon.html name="circle-dollar-to-slot" %}
         Donate
       </a>
     </div>
@@ -20,19 +20,19 @@
 
     <div class="site-footer__social">
       <a class="site-footer__link site-footer__link--icon" href="https://gitlab.com/walletscrutiny/walletScrutinyCom" title="GitLab" aria-label="GitLab">
-        <i class="fab fa-gitlab" aria-hidden="true"></i>
+        {% include icon.html name="gitlab" %}
       </a>
       <a class="site-footer__link site-footer__link--icon" href="https://discord.gg/yCNdcSJw9k" title="Discord" aria-label="Discord">
-        <i class="fab fa-discord" aria-hidden="true"></i>
+        {% include icon.html name="discord" %}
       </a>
       <a class="site-footer__link site-footer__link--icon" href="https://njump.me/npub1j9kttlc86w63emmldd4h74rekyqpksqup6p9trhp5gjsf374qlyszvuswx" title="Nostr" aria-label="Nostr">
         <span class="site-footer__icon site-footer__icon--nostr" aria-hidden="true"></span>
       </a>
       <a class="site-footer__link site-footer__link--icon" href="https://x.com/WalletScrutiny" title="X" aria-label="X">
-        <i class="fab fa-x-twitter" aria-hidden="true"></i>
+        {% include icon.html name="x-twitter" %}
       </a>
       <a class="site-footer__link site-footer__link--icon" href="mailto:info@WalletScrutiny.com" title="Email" aria-label="Email">
-        <i class="fas fa-envelope" aria-hidden="true"></i>
+        {% include icon.html name="envelope" %}
       </a>
     </div>
   </nav>
