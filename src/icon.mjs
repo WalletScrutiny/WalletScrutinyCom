@@ -2,8 +2,8 @@
  * Inline SVG icon markup from assets/icons.svg, the JavaScript twin of
  * _includes/icon.html. `name` is a <symbol> id in the sprite.
  *
- *   wsIcon('copy')                          -> <svg class="icon icon-copy" ...>
- *   wsIcon('spinner', 'icon-spin icon-fw')  -> extra classes
+ *   wsIcon('copy')                          -> <svg class="ws-icon ws-icon-copy" ...>
+ *   wsIcon('spinner', 'ws-icon-spin ws-icon-fw')  -> extra classes
  *   wsIcon('bitcoin', '', 'font-size: 23px') -> inline style
  */
 let spriteUrl = null;
@@ -21,7 +21,7 @@ function escapeAttr(value) {
 }
 
 export function wsIcon(name, className = '', style = '') {
-  const classes = `icon icon-${name}${className ? ` ${className}` : ''}`;
+  const classes = `ws-icon ws-icon-${name}${className ? ` ${className}` : ''}`;
   const styleAttr = style ? ` style="${escapeAttr(style)}"` : '';
   return `<svg class="${escapeAttr(classes)}" aria-hidden="true"${styleAttr}><use href="${getSpriteUrl()}#${encodeURIComponent(name)}"></use></svg>`;
 }

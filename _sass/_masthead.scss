@@ -140,7 +140,7 @@
         cursor: pointer;
       }
       &.working {
-        .icon-circle-notch {
+        .ws-icon-circle-notch {
           display: inline-block;
           animation: loader-spin 1s linear forwards infinite;
         }
@@ -197,7 +197,7 @@
             }
           }
         }
-        .icon-wrapper {
+        .ws-icon-wrapper {
           display: flex;
           background-color: var(--nav-contrast);
           height: 50px;

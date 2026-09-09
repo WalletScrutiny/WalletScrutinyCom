@@ -1,6 +1,7 @@
 /* Inline SVG icons from assets/icons.svg, emitted by _includes/icon.html and wsIcon() in src/icon.mjs.
-   Sized like text: 1em box, drawn in currentColor, so font-size and color apply as with icon fonts. */
-.icon {
+   Sized like Font Awesome did: 1em tall, drawn in currentColor, width = viewBox aspect ratio, so font-size and
+   color apply as with icon fonts. (Class prefix ws- avoids the theme's unrelated .icon rule in _utilities.scss.) */
+.ws-icon {
   display: inline-block;
   box-sizing: content-box;
   width: 1em;
@@ -10,19 +11,55 @@
   fill: currentColor;
 }
 
-.icon-fw {
+/* Non-square icons: width = viewBox width / height, as in the sprite. Add a line here when adding such an icon. */
+.ws-icon-apple { width: 0.75em; }
+.ws-icon-arrow-right { width: 0.875em; }
+.ws-icon-bell { width: 0.875em; }
+.ws-icon-book-open { width: 1.125em; }
+.ws-icon-calculator { width: 0.75em; }
+.ws-icon-calendar { width: 0.875em; }
+.ws-icon-caret-down { width: 0.625em; }
+.ws-icon-caret-right { width: 0.5em; }
+.ws-icon-check { width: 0.875em; }
+.ws-icon-chevron-left { width: 0.625em; }
+.ws-icon-clipboard-check { width: 0.75em; }
+.ws-icon-copy { width: 0.875em; }
+.ws-icon-desktop { width: 1.125em; }
+.ws-icon-discord { width: 1.25em; }
+.ws-icon-folder-open { width: 1.125em; }
+.ws-icon-github { width: 0.9688em; }
+.ws-icon-handshake { width: 1.25em; }
+.ws-icon-handshake-angle { width: 1.25em; }
+.ws-icon-house { width: 1.125em; }
+.ws-icon-layer-group { width: 1.125em; }
+.ws-icon-linkedin { width: 0.875em; }
+.ws-icon-minus { width: 0.875em; }
+.ws-icon-mobile-screen { width: 0.75em; }
+.ws-icon-moon { width: 0.75em; }
+.ws-icon-plus { width: 0.875em; }
+.ws-icon-share-nodes { width: 0.875em; }
+.ws-icon-square { width: 0.875em; }
+.ws-icon-square-facebook { width: 0.875em; }
+.ws-icon-square-x-twitter { width: 0.875em; }
+.ws-icon-trash-can { width: 0.875em; }
+.ws-icon-user-group { width: 1.25em; }
+.ws-icon-user-secret { width: 0.875em; }
+.ws-icon-windows { width: 0.875em; }
+.ws-icon-xmark { width: 0.75em; }
+
+.ws-icon-fw {
   width: 1.25em;
 }
 
-.icon-3x {
+.ws-icon-3x {
   font-size: 3em;
 }
 
-.icon-spin {
-  animation: icon-spin 2s linear infinite;
+.ws-icon-spin {
+  animation: ws-icon-spin 2s linear infinite;
 }
 
-@keyframes icon-spin {
+@keyframes ws-icon-spin {
   to {
     transform: rotate(360deg);
   }

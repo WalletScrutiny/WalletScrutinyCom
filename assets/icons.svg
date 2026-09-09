@@ -13,8 +13,10 @@
        https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs/{solid,brands}/<name>.svg
     2. Paste it here as <symbol id="<name>" viewBox="0 0 W H"><path d="..."/></symbol>,
        keeping the icons sorted by id.
+       If the viewBox is not square, add a width rule for it in _sass/_icons.scss
+       (width = viewBox width / height, in em).
     3. Bump the ?v= query of icons_sprite in _config.yml so cached copies refresh.
-  To remove an icon, delete its <symbol> and every usage of its name.
+  To remove an icon, delete its <symbol>, its width rule if any, and every usage of its name.
 
   Icons are from Font Awesome Free 6 (https://fontawesome.com), licensed CC BY 4.0
   (https://creativecommons.org/licenses/by/4.0/). Solid and Brands sets.

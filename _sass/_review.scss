@@ -88,7 +88,7 @@
     margin-top: 0;
     font-weight: $paragraph-font-weight;
   }
-  .icon-bullhorn {
+  .ws-icon-bullhorn {
     transform-origin: center;
     transform: rotate(-20deg);
     height: 2rem;
@@ -101,7 +101,7 @@
     margin-right: 0.5rem;
     color: var(--permanent-white);
   }
-  .icon-twitter {
+  .ws-icon-twitter {
     color: #1da1f2;
     font-size: $font-lg;
     border-radius: 20%;
@@ -660,23 +660,23 @@
     transform: translateY(5px);
     transition: 0.2s ease;
   }
-  .icon-caret-right,
-  .icon-caret-down {
+  .ws-icon-caret-right,
+  .ws-icon-caret-down {
     margin: auto auto auto 0;
   }
   &[data-open="false"] {
-    .icon-caret-right {
+    .ws-icon-caret-right {
       display: inline-block;
     }
-    .icon-caret-down {
+    .ws-icon-caret-down {
       display: none;
     }
   }
   &[data-open="true"] {
-    .icon-caret-right {
+    .ws-icon-caret-right {
       display: none;
     }
-    .icon-caret-down {
+    .ws-icon-caret-down {
       display: inline-block;
     }
     .accordion-body {

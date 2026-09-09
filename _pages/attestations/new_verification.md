@@ -967,7 +967,7 @@ permalink: /new_verification/
 
             const addScriptButton = scriptItem.querySelector('.add-script');
             const setButtonIcon = (name) => { addScriptButton.innerHTML = wsIcon(name); };
-            const hasPlusIcon = () => Boolean(addScriptButton.querySelector('.icon-plus'));
+            const hasPlusIcon = () => Boolean(addScriptButton.querySelector('.ws-icon-plus'));
             const attachmentId = attachment.id; // Store attachment id
 
             // Check if already added on load
