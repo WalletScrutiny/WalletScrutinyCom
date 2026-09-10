@@ -1,7 +1,6 @@
 ---
 title: Zebedee Extension
 appId: ext.zebedee
-subtype: web
 authors:
 - danny
 icon: ext.zebedee.png

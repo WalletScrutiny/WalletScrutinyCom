@@ -1,7 +1,6 @@
 ---
 title: Liquality Chrome Extension
 appId: ext.liquality
-subtype: web
 authors:
 - danny
 icon: ext.liquality.png

@@ -1,7 +1,6 @@
 ---
 title: Coinbase Wallet Extension for Chrome
 appId: ext.coinbase
-subtype: web
 authors:
 - danny
 icon: ext.coinbase.png
