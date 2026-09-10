@@ -1,6 +1,7 @@
 ---
 title: CoinSpace Web Wallet
 appId: coinspace.web
+subtype: web
 authors:
 - danny
 icon: coinspace.web.png

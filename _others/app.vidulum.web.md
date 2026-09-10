@@ -1,6 +1,7 @@
 ---
 title: Vidulum App Multi-Asset Crypto Storage
 appId: app.vidulum.web
+subtype: web
 authors:
 - danny
 icon: app.vidulum.web.png
