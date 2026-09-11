@@ -38,7 +38,11 @@ social:
 - https://www.youtube.com/playlist?list=PL0db5IfQ4iyriWCgby_rJKeG31BLoxW7k
 builds:
 - arch: arm
-  types: bitcoin
+  types:
+    bitcoin:
+    - Cypherock-Main-BTC.bin
+    multi:
+    - Cypherock-Main.bin
 features:
 - hd
 - nfc
