@@ -49,6 +49,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6444370155" author="overtorment" severity="critical" finding="Wallet login POSTs the twelve words to /auth. Public GitHub does the same. The UI says the seed never leaves." note="overtorment notes that the developers have since fixed this." %}
+
 ## Android
 
 {% include featureEvidence.html feature="nfc" source="[README](https://github.com/SwissBitcoinPay/app#readme)" quote="BoltCard support" %}

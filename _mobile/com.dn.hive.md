@@ -16,3 +16,5 @@ android:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-1581842233" author="overtorment" severity="critical" finding="Primary wallet is created server-side. The profile carries secrets. Listing says Hive has no access." %}
+

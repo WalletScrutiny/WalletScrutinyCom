@@ -24,6 +24,8 @@ android:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6447503215" author="overtorment" severity="high" finding="Create/import interpolates the mnemonic into a hidden ethers CDN WebView. DApps get the plaintext key. At rest, AES uses a hardcoded password." %}
+
 ## App Description
 
 The project claims FINTOKEN is a self-custodial Web3 wallet for storing and purchasing Bitcoin and other cryptocurrencies, with decentralized asset management across 100+ public blockchains and access to NFTs, DeFi, and DAOs. It also claims two additional features: FinLink, described as a private messaging system using wallet addresses in place of phone numbers or email, and FinYolo, described as a decentralized social and content-sharing platform resistant to centralized moderation.

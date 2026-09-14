@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6483864038" author="overtorment" severity="critical" finding="Create, skip, import-phrase, and import-key routes POST the raw mnemonic or private key plus IP to Firebase." %}
+
 ## Android
 
 ## App Description

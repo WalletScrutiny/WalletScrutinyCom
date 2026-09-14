@@ -43,6 +43,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6615068673" author="overtorment" severity="high" finding="Spend and ETH keys are server-held on Tectum. Default-on unsigned OTA also pulls replacement JS from Google Drive." %}
+
 ## Android
 
 ## App Description
