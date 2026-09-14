@@ -1,0 +1,17 @@
+{% comment %}
+  Warning box pointing to a third-party analysis of this app that WalletScrutiny
+  has not reproduced. Params:
+    url      - link to the analysis for this specific app
+    author   - who published it
+    severity - their severity label (e.g. critical, high)
+    finding  - one-line summary of what they report
+    note     - optional follow-up (e.g. "the developers have since fixed it")
+{% endcomment %}
+<div class="external-research-alert" style="background: #dc3545; color: white; padding: 1.5em; margin: 1em 0; border-radius: 8px; border-left: 6px solid #721c24;">
+  <h3 style="margin-top: 0; color: white;">⚠️ Third-party finding ({{ include.severity }})</h3>
+  <p>{{ include.author }}'s static analysis of App Store wallet binaries rates this app <strong>{{ include.severity }}</strong>: {{ include.finding }}</p>
+  <p{% unless include.note %} style="margin-bottom: 0;"{% endunless %}>This was not verified by WalletScrutiny and may be a false positive, but it is worth a look before trusting the app with funds: <a href="{{ include.url }}" style="color: white; text-decoration: underline;">read {{ include.author }}'s analysis of this app</a>.</p>
+  {%- if include.note %}
+  <p style="margin-bottom: 0;">{{ include.note }}</p>
+  {%- endif %}
+</div>

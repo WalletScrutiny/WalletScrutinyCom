@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6467651848" author="overtorment" severity="critical" finding="WalletMain automatically RSA-wraps and POSTs the mnemonic when the backend says the secret is not saved." %}
+
 ## Android
 
 ## App Description

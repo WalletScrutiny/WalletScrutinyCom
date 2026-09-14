@@ -39,6 +39,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6461013442" author="overtorment" severity="high" finding="Automatic shard POSTs go to Flash backends that can reconstruct the seed. The Drive backup file includes the decryption key." %}
+
 ## Android
 
 ## App Description

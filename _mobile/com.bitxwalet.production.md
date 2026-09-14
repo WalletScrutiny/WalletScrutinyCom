@@ -20,6 +20,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6752948564" author="overtorment" severity="critical" finding="CofferWalletClient POSTs mnemonic and WIF to satpak.dev. Supabase also gets connect keys and import-as-you-type drafts." %}
+
 ## App Description
 
 VeraBit is a closed-source Bitcoin wallet published for iOS by TATSEN PAZARLAMA GIDA SANAYI VE TICARET LIMITED SIRKETI. Its [App Store listing](https://apps.apple.com/us/app/verabit-bitcoin-wallet/id6752948564) describes it as a self-custody wallet that stores keys locally on the device, and claims support for Taproot, SegWit and Legacy address formats, biometric security, multi-signature, and importing existing wallets. We did not find an Android counterpart. Moreover, it's homepage is currently 404.

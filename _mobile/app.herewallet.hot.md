@@ -44,6 +44,8 @@ iphone:
 
 ---
 
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6740916148" author="overtorment" severity="high" finding="Unescaped deep-link text is interpolated into injectJavaScript on a path that can read Keychain master. The WebView also loads unsigned wallet JS from app.hot-labs.org." %}
+
 ## Android
 
 ## App Description
