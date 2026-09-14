@@ -35,6 +35,7 @@ import {
   isAssetBundleRegistrationKind,
 } from './asset-utils.mjs';
 import { buildScriptExecutionEnv } from './script-env.mjs';
+import { describeVersionOverride, resolveAndroidWalletVersion } from './apk-version.mjs';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -628,11 +629,18 @@ export async function addJobToQueue({
       return;
     }
     appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
-    const binaryFilePath = returnParamsFromCompilationJob.binaryFilePath ?? null;
+    const publishedVersion = returnParamsFromCompilationJob.newWalletVersion ?? newWalletVersion;
+    if (dbVerificationRowId !== null && publishedVersion !== newWalletVersion) {
+      updateVerificationRow(dbVerificationRowId, { version: publishedVersion });
+      appLog.info(
+        `[QUEUE_INFO] Updated verification row version from asset tag ${newWalletVersion} ` +
+        `to APK versionName ${publishedVersion}: rowId=${dbVerificationRowId}`
+      );
+    }
     await createVerificationAfterCompilation(
       returnParamsFromCompilationJob,
       verification,
-      newWalletVersion,
+      publishedVersion,
       appId,
       platform,
       architecture,
@@ -665,6 +673,7 @@ async function runJobWithPreparation({
   outputFileName,
   githubToken
 }) {
+  const claimedWalletVersion = newWalletVersion;
   const safeVersion = sanitizeFilesystemSegment(newWalletVersion);
   const buildDirForThisVerification = jobType === 'asset'
     ? path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + safeVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''))
@@ -698,6 +707,17 @@ async function runJobWithPreparation({
     }
   }
 
+  let effectiveVersion = claimedWalletVersion;
+  if (platform === 'android' && binaryFilePath) {
+    const apkVersion = await resolveAndroidWalletVersion({
+      binaryPath: binaryFilePath,
+      claimedVersion: claimedWalletVersion,
+    });
+    if (apkVersion) {
+      effectiveVersion = apkVersion;
+    }
+  }
+
   const scriptWithPath = jobType === 'asset'
     ? path.join(buildDirForThisVerification, `${appId}_${fileHash}_script.sh`)
     : path.join(buildDirForThisVerification, outputFileName);
@@ -705,8 +725,13 @@ async function runJobWithPreparation({
   appLog.debug(`     - saving script to ${scriptWithPath}`);
   saveScriptFromEventMakeExecutable(buildShFileEvent, scriptWithPath);
 
-  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId, githubToken);
-  return { ...result, binaryFilePath };
+  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, effectiveVersion, architecture, type, binaryFilePath, platform, appId, githubToken);
+  return {
+    ...result,
+    binaryFilePath,
+    newWalletVersion: effectiveVersion,
+    claimedWalletVersion,
+  };
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
@@ -915,8 +940,14 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     description += ` ${type}`;
   }
 
+  const claimedWalletVersion = returnParamsFromCompilationJob.claimedWalletVersion;
+  const versionOverrideNote = describeVersionOverride(claimedWalletVersion, newWalletVersion);
+
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}`;
+  if (versionOverrideNote) {
+    content += ` ${versionOverrideNote}`;
+  }
   if (scriptVersion) {
     content += ` - Script version: ${scriptVersion}.`;
   }
