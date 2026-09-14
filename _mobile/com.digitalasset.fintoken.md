@@ -10,6 +10,7 @@ social:
 - https://www.youtube.com/watch?v=5PuaSsLbt2U
 redirect_from:
 - /android/com.digitalasset.fintoken/
+- /iphone/com.digitalasset.fintoken/
 android:
   appId: com.digitalasset.fintoken
   users: 5000
@@ -21,6 +22,18 @@ android:
   meta: ok
   verdict: nosource
   developerName: WEBX SDN BHD
+iphone:
+  appId: com.digitalasset.fintoken
+  idd: '6447503215'
+  appCountry: us
+  released: '2023-06-30T07:00:00Z'
+  updated: 2025-11-20
+  version: 2.2.6
+  reviews: 0
+  icon: com.digitalasset.fintoken.jpg
+  meta: ok
+  verdict: wip
+  developerName: webxsdnbhd
 
 ---
 

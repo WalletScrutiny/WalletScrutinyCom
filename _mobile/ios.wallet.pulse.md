@@ -1,0 +1,20 @@
+---
+title: Pulse Wallet
+date: 2026-09-14
+website: https://linktr.ee/thepulsewallet
+iphone:
+  appId: ios.wallet.pulse
+  idd: '6458346951'
+  appCountry: us
+  released: '2023-12-20T08:00:00Z'
+  updated: 2026-07-07
+  version: 5.3.8
+  reviews: 27
+  icon: ios.wallet.pulse.jpg
+  meta: ok
+  verdict: wip
+  developerName: MMC Wallet
+
+---
+
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6458346951" author="overtorment" severity="high" finding="Social accounts download a private-key backup on Profile mount. Non-hex imports POST as recovery. MPC shares live on the Pulse API." %}

@@ -3,6 +3,7 @@ title: Hive - Send, Spend & Invest in
 date: 2023-08-25
 redirect_from:
 - /android/com.dn.hive/
+- /iphone/com.dn.hive/
 android:
   appId: com.dn.hive
   users: 1000
@@ -13,6 +14,18 @@ android:
   meta: removed
   verdict: wip
   developerName: HoneyCoin
+iphone:
+  appId: com.dn.hive
+  idd: '1581842233'
+  appCountry: us
+  released: '2021-09-15T07:00:00Z'
+  updated: 2023-02-17
+  version: 1.0.6
+  reviews: 4
+  icon: com.dn.hive.jpg
+  meta: obsolete
+  verdict: wip
+  developerName: HoneyCoin, Inc.
 
 ---
 

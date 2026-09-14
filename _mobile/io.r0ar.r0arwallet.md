@@ -1,0 +1,20 @@
+---
+title: R0AR Wallet
+date: 2026-09-14
+website: https://www.r0ar.io/r0ar-wallet
+iphone:
+  appId: io.r0ar.r0arwallet
+  idd: '6745417026'
+  appCountry: us
+  released: '2025-06-27T07:00:00Z'
+  updated: 2025-08-18
+  version: '1.2'
+  reviews: 5
+  icon: io.r0ar.r0arwallet.jpg
+  meta: stale
+  verdict: wip
+  developerName: Dustin Hedrick
+
+---
+
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6745417026" author="overtorment" severity="critical" finding="Home hook remaps seed and key to deviceDetail/deviceKey and POSTs them to a Heroku device API after a value gate." %}
