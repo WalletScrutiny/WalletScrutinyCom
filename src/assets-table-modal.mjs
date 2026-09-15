@@ -194,6 +194,14 @@ function ensureVerificationReportConfirmModal() {
       closeVerificationReportConfirmModal();
     }
   };
+  // Capture phase + stopPropagation: an open overlay consumes Escape so the
+  // verification modal underneath stays open.
+  window.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && wrap.style.display === 'block') {
+      event.stopPropagation();
+      closeVerificationReportConfirmModal();
+    }
+  }, true);
   document.getElementById('verificationReportConfirmYes').onclick = async () => {
     const pending = pendingVerificationReport;
     if (!pending) {
@@ -541,6 +549,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     const closeModal = () => {
       modal.style.display = 'none';
       document.body.classList.remove('modal-open');
+      window.removeEventListener('keydown', handleKeyDown, true);
     };
 
     newCancelBtn.onclick = closeModal;
@@ -549,14 +558,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       if (event.target === modal) closeModal();
     };
 
-    // ESC key closes modal
+    // Capture phase + stopPropagation: an open overlay consumes Escape so the
+    // verification modal underneath stays open.
     const handleKeyDown = function(event) {
       if (event.key === 'Escape') {
+        event.stopPropagation();
         closeModal();
-        window.removeEventListener('keydown', handleKeyDown);
       }
     };
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keydown', handleKeyDown, true);
 
     async function handleEndorsement(isValid) {
       try {
