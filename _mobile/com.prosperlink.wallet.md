@@ -1,6 +1,22 @@
 ---
-title: Prosper Wallet 2026
-date: 2026-09-14
+title: Prosper Wallet
+date: 2026-09-15
+website: https://prosperlink.co
+redirect_from:
+- /android/com.prosperlink.wallet/
+- /iphone/com.prosperlink.prosperwallet/
+- /mobile/com.prosperlink.prosperwallet/
+android:
+  appId: com.prosperlink.wallet
+  users: 100
+  appCountry: us
+  released: 2026-03-10
+  updated: 2026-08-28
+  version: 1.0.13
+  icon: com.prosperlink.wallet.png
+  meta: fewusers
+  verdict: wip
+  developerName: Prosperlink
 iphone:
   appId: com.prosperlink.prosperwallet
   idd: '6760371341'

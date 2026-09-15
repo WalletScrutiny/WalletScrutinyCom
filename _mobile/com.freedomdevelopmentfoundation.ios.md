@@ -1,6 +1,18 @@
 ---
 title: Freedom Pay Wallet
 date: 2026-09-14
+website: https://www.freedomdevelopmentfoundation.org/our-mission
+android:
+  appId: com.freedomdevelopmentfoundation.ios
+  users: 5000
+  appCountry: us
+  released: 2023-08-18
+  updated: 2026-07-13
+  version: '183'
+  icon: com.freedomdevelopmentfoundation.ios.png
+  meta: ok
+  verdict: wip
+  developerName: Freedom Pay
 iphone:
   appId: com.freedomdevelopmentfoundation.ios
   idd: '6448116005'

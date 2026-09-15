@@ -1,7 +1,22 @@
 ---
 title: Ramper Wallet
-date: 2026-09-14
+date: 2026-09-15
 website: https://www.ramper.xyz/
+redirect_from:
+- /android/ramper.wallet.crypto.finance/
+- /iphone/ramper.multichain.wallet.crypto/
+- /mobile/ramper.multichain.wallet.crypto/
+android:
+  appId: ramper.wallet.crypto.finance
+  users: 1000
+  appCountry: us
+  released: 2023-07-23
+  updated: 2025-02-17
+  version: 2.0.1
+  icon: ramper.wallet.crypto.finance.png
+  meta: stale
+  verdict: wip
+  developerName: Ramper Labs
 iphone:
   appId: ramper.multichain.wallet.crypto
   idd: '6461721561'

@@ -1,7 +1,22 @@
 ---
 title: Kraster Wallet
-date: 2026-09-14
+date: 2026-09-15
 website: https://krasterwallet.com
+redirect_from:
+- /android/com.krasterwallet/
+- /iphone/com.krasterwallet.krastertech/
+- /mobile/com.krasterwallet.krastertech/
+android:
+  appId: com.krasterwallet
+  users: 100
+  appCountry: us
+  released: 2025-10-08
+  updated: 2025-11-10
+  version: 1.0.2
+  icon: com.krasterwallet.png
+  meta: fewusers
+  verdict: wip
+  developerName: Kraster Wallet
 iphone:
   appId: com.krasterwallet.krastertech
   idd: '6753593627'

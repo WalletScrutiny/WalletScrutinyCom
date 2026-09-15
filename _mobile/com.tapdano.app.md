@@ -1,6 +1,22 @@
 ---
 title: TapDano
-date: 2026-09-14
+date: 2026-09-15
+website: https://tapdano.com
+redirect_from:
+- /android/com.tapdano.app/
+- /iphone/com.tapdano/
+- /mobile/com.tapdano/
+android:
+  appId: com.tapdano.app
+  users: 100
+  appCountry: us
+  released: 2025-09-15
+  updated: 2026-03-05
+  version: '1.42'
+  icon: com.tapdano.app.png
+  meta: fewusers
+  verdict: wip
+  developerName: TapDano
 iphone:
   appId: com.tapdano
   idd: '6752780931'

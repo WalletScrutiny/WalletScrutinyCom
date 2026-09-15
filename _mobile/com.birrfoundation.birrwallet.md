@@ -1,7 +1,22 @@
 ---
 title: BirrOS
-date: 2026-09-14
-website: https://birr.dev
+date: 2026-09-15
+website: https://birr.foundation
+redirect_from:
+- /android/com.birrfoundation.birrwallet/
+- /iphone/com.birrfoundation.birrnetwork/
+- /mobile/com.birrfoundation.birrnetwork/
+android:
+  appId: com.birrfoundation.birrwallet
+  users: 100
+  appCountry: us
+  released: 2026-07-10
+  updated: 2026-09-09
+  version: 2.5.3
+  icon: com.birrfoundation.birrwallet.png
+  meta: fewusers
+  verdict: wip
+  developerName: Birrfoundation
 iphone:
   appId: com.birrfoundation.birrnetwork
   idd: '6757838434'

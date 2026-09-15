@@ -1,7 +1,18 @@
 ---
 title: Solidum Wallet
 date: 2026-09-14
-website: https://solidumwallet.com/terms.html
+website: https://solidumwallet.com
+android:
+  appId: com.solidum.wallet
+  users: 10
+  appCountry: us
+  released: 2026-07-02
+  updated: 2026-09-09
+  version: 1.2.8
+  icon: com.solidum.wallet.jpg
+  meta: fewusers
+  verdict: wip
+  developerName: Nova Solidum
 iphone:
   appId: com.solidum.wallet
   idd: '6774024463'

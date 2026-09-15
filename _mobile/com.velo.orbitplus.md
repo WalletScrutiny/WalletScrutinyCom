@@ -1,6 +1,17 @@
 ---
 title: Orbit+ Wallet
 date: 2026-09-14
+website: https://velo.org
+android:
+  appId: com.velo.orbitplus
+  users: 100
+  appCountry: us
+  updated: 2026-09-11
+  version: 1.1.7
+  icon: com.velo.orbitplus.png
+  meta: fewusers
+  verdict: wip
+  developerName: LY Technology Pte. Ltd.
 iphone:
   appId: com.velo.orbitplus
   idd: '6751701440'
