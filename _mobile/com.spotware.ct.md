@@ -30,9 +30,9 @@ iphone:
   idd: '767428811'
   appCountry: my
   released: 2013-12-05
-  updated: 2026-09-07
-  version: 5.10.190
-  reviews: 827
+  updated: 2026-09-14
+  version: 5.10.191
+  reviews: 829
   icon: com.spotware.ct.jpg
   meta: ok
   verdict: nosendreceive

@@ -7,6 +7,7 @@
     finding  - one-line summary of what they report
     note     - optional follow-up (e.g. "the developers have since fixed it")
 {% endcomment %}
+<!-- external-research-alert:start -->
 <div class="external-research-alert" style="background: #dc3545; color: white; padding: 1.5em; margin: 1em 0; border-radius: 8px; border-left: 6px solid #721c24;">
   <h3 style="margin-top: 0; color: white;">⚠️ Third-party finding ({{ include.severity }})</h3>
   <p>{{ include.author }}'s static analysis of App Store wallet binaries rates this app <strong>{{ include.severity }}</strong>: {{ include.finding }}</p>
@@ -15,3 +16,4 @@
   <p style="margin-bottom: 0;">{{ include.note }}</p>
   {%- endif %}
 </div>
+<!-- external-research-alert:end -->

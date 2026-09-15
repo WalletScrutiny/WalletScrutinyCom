@@ -5,7 +5,7 @@ iphone:
   appId: app.uin.wallet
   idd: '6499209307'
   appCountry: us
-  released: '2024-06-03T07:00:00Z'
+  released: 2024-06-03
   updated: 2026-04-12
   version: 2.1.1
   reviews: 4

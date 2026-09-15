@@ -32,7 +32,7 @@ iphone:
   version: 2.2.0
   reviews: 37
   icon: com.rinnas.ajGlobal.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: AJ TRUST MERCHANTS GLOBAL LIMITED
 

@@ -20,7 +20,7 @@ android:
   released: 2022-04-19
   updated: 2026-08-28
   version: 1.3.2205
-  reviews: 488
+  reviews: 489
   icon: io.eldorado.app.png
   meta: ok
   verdict: custodial

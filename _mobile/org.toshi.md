@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: 'Base App: Built to Trade'
+title: 'Coinbase Wallet: Trade to Win'
 date: 2021-01-04
 authors:
 - leo
@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-09-20
-  updated: 2026-08-31
-  version: 30.10.1
-  reviews: 14146
+  updated: 2026-09-11
+  version: 30.12.0
+  reviews: 14153
   icon: org.toshi.png
   meta: ok
   verdict: nosource
@@ -31,9 +31,9 @@ iphone:
   idd: 1278383455
   appCountry: us
   released: 2017-09-27
-  updated: 2026-09-01
-  version: 30.10.1
-  reviews: 161413
+  updated: 2026-09-10
+  version: '30.11'
+  reviews: 161423
   icon: org.toshi.distribution.jpg
   meta: ok
   verdict: nosource

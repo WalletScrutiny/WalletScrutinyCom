@@ -14,9 +14,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2010-12-15
-  updated: 2026-09-02
+  updated: 2026-09-11
   version: '4.40'
-  reviews: 57615
+  reviews: 57668
   icon: com.fidelity.android.png
   meta: ok
   verdict: custodial
@@ -26,9 +26,9 @@ iphone:
   idd: '348177453'
   appCountry: us
   released: 2010-02-22
-  updated: 2026-08-28
-  version: '4.40'
-  reviews: 3300159
+  updated: 2026-09-10
+  version: '4.41'
+  reviews: 3307918
   icon: com.fidelity.watchlist.jpg
   meta: ok
   verdict: custodial

@@ -6,7 +6,7 @@ iphone:
   appId: com.blockchain0x.wallet
   idd: '6777918045'
   appCountry: us
-  released: '2026-06-18T07:00:00Z'
+  released: 2026-06-18
   updated: 2026-06-18
   version: '1.0'
   reviews: 0

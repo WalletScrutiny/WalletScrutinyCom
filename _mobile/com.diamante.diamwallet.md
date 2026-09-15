@@ -20,7 +20,7 @@ iphone:
   appId: com.diamante.diamwallet
   idd: '6450691849'
   appCountry: us
-  released: '2023-08-25T07:00:00Z'
+  released: 2023-08-25
   updated: 2025-12-07
   version: 4.4.9
   reviews: 53

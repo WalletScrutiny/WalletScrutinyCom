@@ -18,7 +18,7 @@ android:
   released: 2022-03-12
   updated: 2026-09-06
   version: 3.6.5
-  reviews: 41
+  reviews: 42
   icon: com.bitbarg.app.png
   meta: ok
   verdict: nosendreceive

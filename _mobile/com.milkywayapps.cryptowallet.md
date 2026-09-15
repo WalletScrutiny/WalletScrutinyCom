@@ -12,7 +12,7 @@ android:
   updated: 2024-03-19
   version: 1.2.1
   icon: com.milkywayapps.cryptowallet.png
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Milky Way Entertainment LLC
 

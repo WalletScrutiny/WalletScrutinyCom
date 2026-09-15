@@ -18,9 +18,9 @@ android:
   users: 100000
   appCountry: cl
   released: 2019-10-16
-  updated: 2026-09-03
-  version: 7.3.23
-  reviews: 916
+  updated: 2026-09-07
+  version: 8.0.0
+  reviews: 918
   icon: com.vita_wallet.png
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: 1486999955
   appCountry: cl
   released: 2019-11-15
-  updated: 2026-09-07
-  version: 7.3.23
-  reviews: 291
+  updated: 2026-09-08
+  version: 8.0.0
+  reviews: 292
   icon: io.vitawallet.vitawallet.jpg
   meta: ok
   verdict: custodial

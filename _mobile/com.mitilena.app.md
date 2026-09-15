@@ -17,7 +17,7 @@ iphone:
   appId: com.mitilena.app
   idd: '6443488723'
   appCountry: us
-  released: '2025-02-11T08:00:00Z'
+  released: 2025-02-11
   updated: 2026-09-13
   version: 5.1.6
   reviews: 0

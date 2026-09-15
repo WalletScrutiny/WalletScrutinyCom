@@ -6,7 +6,7 @@ iphone:
   appId: app.replit.xcryptowallet
   idd: '6758147798'
   appCountry: us
-  released: '2026-01-24T08:00:00Z'
+  released: 2026-01-24
   updated: 2026-07-30
   version: 26.07.25
   reviews: 13

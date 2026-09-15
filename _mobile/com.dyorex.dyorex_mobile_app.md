@@ -23,7 +23,7 @@ android:
   updated: 2026-07-14
   version: 2.0.6
   icon: com.dyorex.dyorex_mobile_app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Dyorex Exchange
 iphone:

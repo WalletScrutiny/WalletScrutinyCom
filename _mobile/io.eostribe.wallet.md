@@ -6,7 +6,7 @@ iphone:
   appId: io.eostribe.wallet
   idd: '1521532252'
   appCountry: us
-  released: '2020-07-03T07:00:00Z'
+  released: 2020-07-03
   updated: 2022-11-19
   version: '111'
   reviews: 6

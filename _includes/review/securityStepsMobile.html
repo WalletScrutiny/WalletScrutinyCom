@@ -23,6 +23,10 @@
   {% include /review/steps/sourceCode.html verdict=verdict %}
   {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
 
+  {%- if include.externalResearchAlert and include.externalResearchAlert != '' -%}
+    {{ include.externalResearchAlert }}
+  {%- endif -%}
+
   {% if has_android and has_iphone %}
   <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
     <div class="mobile-platform-scope__header">

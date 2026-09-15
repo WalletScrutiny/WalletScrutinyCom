@@ -16,8 +16,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-05-11
-  updated: 2026-07-29
-  version: 4.3.3.37
+  updated: 2026-09-11
+  version: 4.3.3.41
   reviews: 3
   icon: vip.sing.exchange.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1551746664'
   appCountry: us
   released: 2021-03-31
-  updated: 2026-08-06
-  version: 4.3.51
+  updated: 2026-09-10
+  version: 4.3.52
   reviews: 12
   icon: vip.sing.exchange.jpg
   meta: ok

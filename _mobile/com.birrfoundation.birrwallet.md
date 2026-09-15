@@ -21,7 +21,7 @@ iphone:
   appId: com.birrfoundation.birrnetwork
   idd: '6757838434'
   appCountry: us
-  released: '2026-06-05T07:00:00Z'
+  released: 2026-06-05
   updated: 2026-09-11
   version: 2.5.4
   reviews: 2

@@ -21,7 +21,7 @@ iphone:
   appId: com.tapdano
   idd: '6752780931'
   appCountry: us
-  released: '2025-09-24T07:00:00Z'
+  released: 2025-09-24
   updated: 2026-03-06
   version: '1.42'
   reviews: 0

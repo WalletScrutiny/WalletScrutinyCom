@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-07-18
   updated: 2026-09-06
-  version: 6.1.36
+  version: 6.1.37
   reviews: 719
   icon: com.bitrue.currency.exchange.png
   meta: ok

@@ -18,7 +18,7 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-06
-  updated: 2026-08-25
+  updated: 2026-09-08
   version: 1.22.45
   reviews: 34
   icon: com.dunamu.exchange.global.png

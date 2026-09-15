@@ -15,7 +15,7 @@ android:
   released: 2023-11-02
   updated: 2023-11-02
   version: 1.2.1
-  reviews: 54
+  reviews: 53
   icon: com.cheeleewallet.png
   meta: obsolete
   verdict: custodial

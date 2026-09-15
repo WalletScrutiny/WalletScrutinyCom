@@ -21,7 +21,7 @@ android:
   version: 1.0.6
   reviews: 5
   icon: com.upay2.wallet.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: UPay
 iphone:

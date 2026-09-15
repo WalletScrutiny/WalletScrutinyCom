@@ -29,9 +29,9 @@ iphone:
   idd: 1182702365
   appCountry: in
   released: 2017-01-15
-  updated: 2026-08-31
-  version: 9.8.6
-  reviews: 80
+  updated: 2026-09-08
+  version: 9.8.7
+  reviews: 81
   icon: com.swipestox.app.jpg
   meta: ok
   verdict: nosendreceive

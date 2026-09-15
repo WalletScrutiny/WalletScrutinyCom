@@ -157,9 +157,20 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
 
   const closeZapModal = () => {
     document.getElementById('loadingSpinner').style.display = 'none';
+    window.removeEventListener('keydown', zapModalKeyHandler, true);
     modal.remove();
     if (onClose) onClose();
   };
+
+  // Capture phase + stopPropagation: an open overlay consumes Escape so the
+  // verification modal underneath stays open.
+  const zapModalKeyHandler = (event) => {
+    if (event.key === 'Escape') {
+      event.stopPropagation();
+      closeZapModal();
+    }
+  };
+  window.addEventListener('keydown', zapModalKeyHandler, true);
 
   modal.querySelector('.zap-modal-close').onclick = closeZapModal;
 

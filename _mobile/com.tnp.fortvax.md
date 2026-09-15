@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2022-04-19
-  updated: 2026-08-12
-  version: 1.3.7
+  updated: 2026-09-13
+  version: 1.3.8
   icon: com.tnp.fortvax.png
   meta: fewusers
   verdict: wip

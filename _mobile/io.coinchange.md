@@ -34,7 +34,7 @@ iphone:
   version: 2.0.2
   reviews: 40
   icon: io.coinchange.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Coinchange Financials Inc
 

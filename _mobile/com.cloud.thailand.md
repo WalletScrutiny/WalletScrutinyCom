@@ -14,7 +14,7 @@ android:
   appCountry: us
   released: 2023-10-31
   updated: 2026-09-04
-  version: 1.63.2
+  version: 1.64.0
   reviews: 5
   icon: com.cloud.thailand.jpg
   meta: ok
@@ -27,7 +27,7 @@ iphone:
   released: 2023-11-21
   updated: 2026-09-07
   version: 1.64.0
-  reviews: 17501
+  reviews: 17621
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
   verdict: custodial

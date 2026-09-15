@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-15
-  updated: 2026-08-25
-  version: 4.23.8
-  reviews: 60
+  updated: 2026-09-15
+  version: 4.24.0
+  reviews: 61
   icon: com.viabtc.wallet.png
   meta: ok
   verdict: nosource

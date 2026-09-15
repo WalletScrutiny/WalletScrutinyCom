@@ -34,7 +34,7 @@ iphone:
   version: 7.4.0
   reviews: 0
   icon: com.cakedefi.app.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: GS Fintech UAB
 

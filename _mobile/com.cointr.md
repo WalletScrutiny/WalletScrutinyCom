@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-08-17
-  updated: 2026-08-27
-  version: 3.36.0
+  updated: 2026-09-11
+  version: 3.37.0
   reviews: 8
   icon: com.cointr.jpg
   meta: ok

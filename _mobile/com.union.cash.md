@@ -30,7 +30,7 @@ iphone:
   version: '1.40'
   reviews: 0
   icon: com.union.cash.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Unioncash EU UAB
 

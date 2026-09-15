@@ -15,8 +15,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-29
-  updated: 2026-09-01
-  version: 3.0.8
+  updated: 2026-09-09
+  version: 3.0.9
   reviews: 36
   icon: ng.dtunes.app.png
   meta: ok
@@ -27,8 +27,8 @@ iphone:
   idd: '1603827120'
   appCountry: ng
   released: 2022-08-02
-  updated: 2026-09-06
-  version: 3.0.8
+  updated: 2026-09-10
+  version: 3.0.9
   reviews: 490
   icon: ng.dtunes.app.jpg
   meta: ok

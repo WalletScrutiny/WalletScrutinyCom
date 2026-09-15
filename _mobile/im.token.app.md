@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-05-31
   updated: 2026-09-01
-  version: 2.21.0
+  version: 2.22.0
   reviews: 246
   icon: im.token.app.png
   meta: ok

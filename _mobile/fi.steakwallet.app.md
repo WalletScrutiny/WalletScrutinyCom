@@ -15,7 +15,7 @@ android:
   version: 4.0.1
   reviews: 28
   icon: fi.steakwallet.app.png
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Omni Wallet
 iphone:
@@ -27,7 +27,7 @@ iphone:
   version: 4.1.3
   reviews: 97
   icon: com.thesteakwallet.app.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Steakwallet
 

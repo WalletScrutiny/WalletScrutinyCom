@@ -16,7 +16,7 @@ iphone:
   version: 12.5.6
   reviews: 179
   icon: com.bitpay.copay.jpg
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: BitPay, Inc.
 

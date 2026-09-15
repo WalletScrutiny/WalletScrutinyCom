@@ -18,10 +18,10 @@ iphone:
   appId: com.zkp2p.mobile.dev
   idd: '6749191100'
   appCountry: us
-  released: '2025-11-06T08:00:00Z'
+  released: 2025-11-06
   updated: 2026-09-14
   version: 1.1.34
-  reviews: 21
+  reviews: 22
   icon: com.zkp2p.mobile.dev.jpg
   meta: ok
   verdict: wip

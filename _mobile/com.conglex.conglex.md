@@ -31,7 +31,7 @@ iphone:
   version: 2.0.4
   reviews: 0
   icon: com.conglex.mobile.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Conglex Limited
 

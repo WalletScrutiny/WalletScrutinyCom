@@ -28,7 +28,7 @@ iphone:
   version: 1.2.5
   reviews: 3
   icon: com.allin.exchange.appStore.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: TOP LINE DIGITAL MARKETING (PVT) LTD
 

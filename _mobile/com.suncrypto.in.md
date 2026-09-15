@@ -11,7 +11,7 @@ android:
   appCountry: us
   released: 2021-06-28
   updated: 2026-08-25
-  version: 5.10.4
+  version: 5.10.5
   reviews: 274
   icon: com.suncrypto.in.png
   meta: ok

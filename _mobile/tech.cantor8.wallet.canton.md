@@ -23,7 +23,7 @@ iphone:
   appId: tech.cantor8.wallet
   idd: '6758641279'
   appCountry: us
-  released: '2026-02-23T08:00:00Z'
+  released: 2026-02-23
   updated: 2026-09-11
   version: 2.0.0
   reviews: 1

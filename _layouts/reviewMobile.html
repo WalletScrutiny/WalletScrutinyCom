@@ -4,6 +4,23 @@ layout: default
 
 {%- assign alt_title = page.android.altTitle | default: page.iphone.altTitle -%}
 
+{%- comment -%}
+  review/externalResearchAlert.html wraps its box in marker comments. When the
+  page body contains exactly one such box, lift it out of the body and hand it to
+  the review steps, which render it after the tests summary and before the
+  per-platform verification section.
+{%- endcomment -%}
+{%- assign era_parts = content | split: '<!-- external-research-alert:start -->' -%}
+{%- assign review_body = content -%}
+{%- assign external_research_alert = '' -%}
+{%- if era_parts.size == 2 -%}
+  {%- assign era_tail = era_parts[1] | split: '<!-- external-research-alert:end -->' -%}
+  {%- if era_tail.size == 2 -%}
+    {%- assign external_research_alert = era_tail[0] -%}
+    {%- assign review_body = era_parts[0] | append: era_tail[1] -%}
+  {%- endif -%}
+{%- endif -%}
+
 <script>
   window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
   {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
@@ -73,11 +90,11 @@ layout: default
         </div>
       </div>
 
-      {% include /review/securityOverviewMobile.html wsId=page.wsId %}
+      {% include /review/securityOverviewMobile.html wsId=page.wsId externalResearchAlert=external_research_alert %}
 
       <div class="security-overview">
         <div class="section page__content" itemprop="text">
-          {{ content }}
+          {{ review_body }}
           {% include_cached /review/byAuthor.html authors=page.authors %}
         </div>
       </div>

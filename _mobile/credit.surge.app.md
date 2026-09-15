@@ -9,8 +9,8 @@ android:
   users: 1000
   appCountry: us
   released: 2026-04-08
-  updated: 2026-08-13
-  version: 1.0.13
+  updated: 2026-09-08
+  version: 1.0.14
   reviews: 5
   icon: credit.surge.app.png
   meta: ok
@@ -21,8 +21,8 @@ iphone:
   idd: '6756261968'
   appCountry: us
   released: 2026-03-17
-  updated: 2026-08-18
-  version: 1.0.13
+  updated: 2026-09-09
+  version: 1.0.14
   reviews: 5
   icon: credit.surge.app.jpg
   meta: ok

@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-31
-  updated: 2026-08-31
-  version: 2.5.1
+  updated: 2026-09-11
+  version: 2.5.5
   icon: xyz.bringin.client.png
   meta: ok
   verdict: nosource
@@ -27,8 +27,8 @@ iphone:
   idd: '6503239911'
   appCountry: bg
   released: 2025-10-02
-  updated: 2026-09-01
-  version: 2.5.1
+  updated: 2026-09-12
+  version: 2.5.5
   reviews: 0
   icon: xyz.bringin.client.jpg
   meta: ok

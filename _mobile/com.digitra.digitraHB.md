@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-05
-  updated: 2026-08-28
-  version: 1.0.179
+  updated: 2026-09-10
+  version: 1.0.182
   reviews: 10
   icon: com.digitra.digitraHB.png
   meta: ok

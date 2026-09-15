@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: nl
   released: 2018-06-07
-  updated: 2026-07-29
-  version: 30.67.5
+  updated: 2026-09-10
+  version: 30.67.7
   reviews: 23
   icon: com.getchange.wallet.cordova.png
   meta: ok

@@ -22,7 +22,7 @@ android:
   version: 104.0.0
   reviews: 152
   icon: com.etoro.wallet.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: eToroX
 iphone:

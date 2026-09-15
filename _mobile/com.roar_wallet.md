@@ -3,7 +3,7 @@ title: R0AR
 date: 2026-09-15
 authors:
 - danny
-website: https://www.r0ar.io/r0ar-wallet
+website: https://fiercelabs.io
 redirect_from:
 - /android/com.roar_wallet/
 - /iphone/io.r0ar.r0arwallet/
@@ -23,7 +23,7 @@ iphone:
   appId: io.r0ar.r0arwallet
   idd: '6745417026'
   appCountry: us
-  released: '2025-06-27T07:00:00Z'
+  released: 2025-06-27
   updated: 2025-08-18
   version: '1.2'
   reviews: 5

@@ -5,7 +5,7 @@ iphone:
   appId: com.production.locksy
   idd: '6751943201'
   appCountry: us
-  released: '2025-09-17T07:00:00Z'
+  released: 2025-09-17
   updated: 2026-04-03
   version: 1.9.0
   reviews: 0

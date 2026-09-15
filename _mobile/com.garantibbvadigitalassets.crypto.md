@@ -15,8 +15,8 @@ android:
   users: 500000
   appCountry: us
   released: 2023-12-11
-  updated: 2026-07-30
-  version: 1.17.0
+  updated: 2026-09-03
+  version: 1.18.0
   reviews: 3
   icon: com.garantibbvadigitalassets.crypto.png
   meta: ok
@@ -29,7 +29,7 @@ iphone:
   released: 2012-04-28
   updated: 2026-09-07
   version: '19.4'
-  reviews: 15108
+  reviews: 15203
   icon: com.garanti.cepsube.jpg
   meta: ok
   verdict: custodial

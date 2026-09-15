@@ -33,7 +33,7 @@ iphone:
   version: '3.74'
   reviews: 1363
   icon: hippotech.bank.ios.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Ziglu Limited
 

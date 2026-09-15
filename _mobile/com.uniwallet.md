@@ -25,7 +25,7 @@ android:
   version: 1.1.0
   reviews: 2
   icon: com.uniwallet.png
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.
 iphone:

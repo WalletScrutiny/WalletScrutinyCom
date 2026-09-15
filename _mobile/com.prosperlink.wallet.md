@@ -23,7 +23,7 @@ iphone:
   appId: com.prosperlink.prosperwallet
   idd: '6760371341'
   appCountry: us
-  released: '2026-03-24T07:00:00Z'
+  released: 2026-03-24
   updated: 2026-09-04
   version: 1.0.14
   reviews: 14

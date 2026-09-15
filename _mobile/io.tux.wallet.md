@@ -27,8 +27,8 @@ iphone:
   idd: '1495945761'
   appCountry: kw
   released: 2020-02-04
-  updated: 2026-08-18
-  version: 4.0.16
+  updated: 2026-09-14
+  version: 4.0.17
   reviews: 0
   icon: net.tuxglobal.wallet.jpg
   meta: ok

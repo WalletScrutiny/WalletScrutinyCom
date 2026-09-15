@@ -34,7 +34,7 @@ iphone:
   version: 2.1.9
   reviews: 20
   icon: com.dex-trade.ios.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Dex-trade
 

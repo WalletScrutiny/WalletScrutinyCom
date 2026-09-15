@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2017-12-10
-  updated: 2026-06-22
-  version: 5.55.15
+  updated: 2026-09-07
+  version: 5.55.25
   reviews: 90
   icon: app.coinmetro.png
   meta: ok

@@ -23,7 +23,7 @@ android:
   released: 2019-09-20
   updated: 2026-08-26
   version: 3.7.16
-  reviews: 198
+  reviews: 201
   icon: co.rockitcoinx.app.png
   meta: ok
   verdict: nosource

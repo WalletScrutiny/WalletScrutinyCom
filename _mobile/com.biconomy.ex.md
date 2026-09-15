@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-14
-  updated: 2026-08-11
-  version: 2.4.14
+  updated: 2026-09-12
+  version: 2.4.16
   reviews: 164
   icon: com.biconomy.ex.png
   meta: ok

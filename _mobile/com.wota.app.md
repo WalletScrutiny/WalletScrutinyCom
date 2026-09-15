@@ -14,7 +14,7 @@ redirect_from:
 - /iphone/com.enterwota.app/
 android:
   appId: com.wota.app
-  users: 500
+  users: 1000
   appCountry: us
   released: 2021-01-11
   updated: 2025-08-31

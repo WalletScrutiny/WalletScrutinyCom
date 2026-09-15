@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: th
   released: 2015-10-06
-  updated: 2026-08-09
-  version: 6.27.0
+  updated: 2026-08-27
+  version: 6.28.0
   reviews: 269
   icon: com.forex4you.android.png
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   version: 6.23.0
   reviews: 937
   icon: com.forex4you.ios.jpg
-  meta: ok
+  meta: removed
   verdict: nosendreceive
   developerName: E-Global Trade & Finance Group, Inc.
 

@@ -23,7 +23,7 @@ android:
   released: 2021-12-05
   updated: 2026-05-24
   version: 1.4.8
-  reviews: 1
+  reviews: 2
   icon: app.bitcoinjungle.mobile.png
   meta: ok
   verdict: custodial

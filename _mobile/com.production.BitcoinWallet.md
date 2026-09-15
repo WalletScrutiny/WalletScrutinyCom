@@ -5,7 +5,7 @@ iphone:
   appId: com.production.BitcoinWallet
   idd: '6749847943'
   appCountry: us
-  released: '2025-08-18T07:00:00Z'
+  released: 2025-08-18
   updated: 2026-07-10
   version: 27.27.60
   reviews: 89

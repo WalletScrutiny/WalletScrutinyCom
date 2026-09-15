@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-11-18
-  updated: 2026-08-22
-  version: 2.23.0
+  updated: 2026-09-10
+  version: 2.23.1
   reviews: 4
   icon: web.tradenewton.com.png
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2018-10-03
   updated: 2026-08-24
   version: 2.23.0
-  reviews: 24475
+  reviews: 24472
   icon: co.newton.newtonios.jpg
   meta: ok
   verdict: custodial

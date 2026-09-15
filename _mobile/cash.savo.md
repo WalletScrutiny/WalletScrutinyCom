@@ -4,7 +4,7 @@ title: 'SAVO: All-In-One Wallet'
 date: 2026-09-04
 authors:
 - danny
-website: https://savvvo.com
+website: https://savowallet.com
 twitter: SavoWallet
 appCountry: us
 redirect_from:
@@ -16,9 +16,9 @@ android:
   users: 10000
   appCountry: us
   released: 2025-03-10
-  updated: 2026-08-20
-  version: 1.5.12
-  reviews: 39
+  updated: 2026-09-11
+  version: 1.5.16
+  reviews: 40
   icon: cash.savo.png
   meta: ok
   verdict: custodial
@@ -28,9 +28,9 @@ iphone:
   idd: '6742020669'
   appCountry: us
   released: 2025-02-18
-  updated: 2026-08-27
-  version: 1.5.12
-  reviews: 275
+  updated: 2026-09-12
+  version: 1.5.16
+  reviews: 278
   icon: savo.xyz.jpg
   meta: ok
   verdict: custodial

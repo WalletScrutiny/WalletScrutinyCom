@@ -22,8 +22,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-11-15
-  updated: 2025-10-29
-  version: 2.6.5
+  updated: 2026-09-12
+  version: 2.6.6
   reviews: 3
   icon: ch.swissbitcoinpay.checkout.png
   signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
@@ -38,8 +38,8 @@ iphone:
   idd: '6444370155'
   appCountry: us
   released: 2022-11-19
-  updated: 2025-10-29
-  version: 2.6.4
+  updated: 2026-09-13
+  version: 2.6.6
   reviews: 1
   icon: ch.swissbitcoinpay.checkout.jpg
   meta: ok
@@ -49,7 +49,72 @@ iphone:
 
 ---
 
-{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6444370155" author="overtorment" severity="critical" finding="Wallet login POSTs the twelve words to /auth. Public GitHub does the same. The UI says the seed never leaves." note="overtorment notes that the developers have since fixed this." %}
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6444370155" author="overtorment" severity="critical" finding="Wallet login POSTs the twelve words to /auth. Public GitHub does the same. The UI says the seed never leaves." note="overtorment's research page is dated 2026-09-06; he announced it on X on 2026-09-12 at 11:43 UTC. The developers removed the recovery phrase from the login request in version 2.6.6, committed the same day at 18:33 UTC. Releases 2.5.16 to 2.6.5 are affected. See the timeline below." %}
+
+## Update 2026-09-15: recovery phrase sent at login, fix, and breach announcement
+
+All times are UTC. Every entry links to its source.
+
+### Timeline
+
+- **2025-07-19 10:56** – Commit [`dee8dd3`](https://github.com/SwissBitcoinPay/app/commit/dee8dd3dbd68ba618f364714384c45ec7d781fc3) ("Encrypt with password") adds the wallet's recovery phrase (`words`) to the login request that the app sends to `https://api.swiss-bitcoin-pay.ch/auth`:
+
+  ```ts
+  const signatureLoginData = {
+    messageToSign: message,
+    signature,
+    zPub,
+    words
+  };
+  ```
+
+  Before this commit the same request carried only `messageToSign` and `signature`, and the phrase was only stored on the device.
+- **2025-07-19 13:20** – [Release v2.5.16](https://github.com/SwissBitcoinPay/app/releases/tag/v2.5.16) is the first GitHub release that contains this commit. Every release up to and including v2.6.5 (2025-10-29) contains it.
+- **2026-09-06** – Date on overtorment's [research page](https://kek.lol/research/appstore-wallets/#app-6444370155). He analysed the App Store build of version 2.6.4 and reports: "Wallet login POSTs the twelve words to /auth. Public GitHub does the same. The UI says the seed never leaves."
+- **2026-09-12 11:43** – overtorment announces the research [on X](https://x.com/overtorment/status/2098739225105453192).
+- **2026-09-12 18:33** – Commit [`1a23cb2`](https://github.com/SwissBitcoinPay/app/commit/1a23cb2e811f584639bdfe01d78765705bdc2398), titled "minor security fix", removes `words` from the login request and raises the version from 2.6.5 to 2.6.6. Apart from the version number and a build-pipeline file (`codemagic.yaml`), it is the only change between v2.6.5 and v2.6.6:
+
+  ```diff
+         const signatureLoginData = {
+           messageToSign: message,
+           signature,
+  -        zPub,
+  -        words
+  +        zPub
+         };
+  ```
+
+- **2026-09-12 19:08** – [Release v2.6.6](https://github.com/SwissBitcoinPay/app/releases/tag/v2.6.6) is published on GitHub. Google Play shows the update at 19:16 and the App Store at 2026-09-13 00:41. The release notes in both stores read "Minor security fix" and do not mention the recovery phrase.
+- **2026-09-14 12:20** – Swiss Bitcoin Pay [announces on X](https://x.com/SwissBitcoinPay/status/2099473448162488618):
+
+  > A malicious user has likely gained access to Swiss Bitcoin Pay’s internal systems. As a precaution, we are temporarily shutting down our servers while we investigate and secure our infrastructure.
+  >
+  > At this stage, we believe they may have accessed customer email addresses, Bitcoin addresses and IBANs, transaction history, and hashed passwords. It is not yet clear whether any other information was accessed.
+  >
+  > User funds are safe, and any amounts owed to users will be fully returned.
+
+### Who is affected
+
+We checked this in the public source of v2.6.5. The recovery phrase goes into the login request on the **"Signature with 12 words"** login screen, where a merchant logs in by typing the 12 words of their wallet. That screen tells the user:
+
+> Your 12 words will stay on your device, to sign a message to authenticate you.
+
+In the same source we found no other request that carries the phrase:
+
+- Logging in with a hardware wallet, or with email and password, does not send a recovery phrase.
+- When a wallet is created in the app, the phrase is stored on the device. That flow tells the user the phrase "is never sent to our servers". The sign-up request does not contain it.
+- The address verification request (`/verify-signature`) receives only the message and signature.
+
+We did not check each intermediate release between v2.5.16 and v2.6.5 for other paths.
+
+### What is not known
+
+- The server code is not public, so we cannot tell whether the server stored or logged the phrases it received between v2.5.16 and v2.6.5.
+- The breach announcement lists what may have been accessed and does not mention recovery phrases.
+
+If you logged in with "Signature with 12 words" on any version from 2.5.16 to 2.6.5, the app sent your recovery phrase to Swiss Bitcoin Pay's server. Moving the funds to a new wallet with a new recovery phrase removes that exposure.
+
+The verdict remains **source-available**: the app's source code is public, and that code includes both the flaw and the fix.
 
 ## Android
 

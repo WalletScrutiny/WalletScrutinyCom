@@ -16,7 +16,7 @@ android:
   updated: 2025-09-15
   version: 2.7.0
   icon: com.coincorner.checkout.png
-  meta: fewusers
+  meta: stale
   verdict: custodial
   developerName: CoinCorner Ltd
 iphone:

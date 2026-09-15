@@ -5,7 +5,7 @@ iphone:
   appId: com.production.goldbitwallet
   idd: '6755364451'
   appCountry: us
-  released: '2025-12-23T08:00:00Z'
+  released: 2025-12-23
   updated: 2026-01-22
   version: '1.1'
   reviews: 0

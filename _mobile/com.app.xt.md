@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-04-14
-  updated: 2026-09-03
-  version: 5.32.0
-  reviews: 261
+  updated: 2026-09-08
+  version: 5.32.1
+  reviews: 262
   icon: com.app.xt.jpg
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-07
-  version: 5.32.0
-  reviews: 1383
+  updated: 2026-09-10
+  version: 5.32.1
+  reviews: 1382
   icon: com.xt.app.jpg
   meta: ok
   verdict: custodial

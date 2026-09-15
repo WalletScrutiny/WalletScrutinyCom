@@ -14,7 +14,7 @@ iphone:
   version: 2.0.0
   reviews: 1
   icon: jp.pronama.monawallet.jpg
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: Pronama LLC
 

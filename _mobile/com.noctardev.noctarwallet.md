@@ -5,7 +5,7 @@ iphone:
   appId: com.noctardev.noctarwallet
   idd: '6752936301'
   appCountry: us
-  released: '2025-09-26T07:00:00Z'
+  released: 2025-09-26
   updated: 2026-01-07
   version: '1.3'
   reviews: 2

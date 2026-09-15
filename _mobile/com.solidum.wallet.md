@@ -19,7 +19,7 @@ iphone:
   appId: com.solidum.wallet
   idd: '6774024463'
   appCountry: us
-  released: '2026-07-10T07:00:00Z'
+  released: 2026-07-10
   updated: 2026-09-09
   version: 1.0.7
   reviews: 0

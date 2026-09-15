@@ -25,7 +25,7 @@ android:
   version: 5.17.8
   reviews: 288
   icon: com.rockwallet.app.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: RockWallet
   repository: https://github.com/rockwalletcode/wallet-ios#deadLink
@@ -38,7 +38,7 @@ iphone:
   version: 5.17.8
   reviews: 801
   icon: com.rockwallet.app.jpg
-  meta: ok
+  meta: removed
   verdict: sourceavailable
   developerName: RockWallet, LLC
   repository: https://github.com/rockwalletcode/wallet-ios#deadLink

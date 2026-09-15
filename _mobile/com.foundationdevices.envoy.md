@@ -27,7 +27,7 @@ android:
   users: 1000
   appCountry: US
   released: 2022-04-01
-  updated: 2026-08-25
+  updated: 2026-09-08
   version: 2.3.3
   reviews: 6
   icon: com.foundationdevices.envoy.jpg

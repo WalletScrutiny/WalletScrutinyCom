@@ -17,8 +17,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2016-03-30
-  updated: 2026-09-03
-  version: 3.192.0-2026082413
+  updated: 2026-09-09
+  version: 3.192.1-2026090308
   reviews: 281
   icon: com.moneybookers.skrillpayments.neteller.png
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: '1095647938'
   appCountry: gb
   released: 2016-05-02
-  updated: 2026-08-26
-  version: 3.192.0
-  reviews: 1167
+  updated: 2026-09-10
+  version: 3.193.0
+  reviews: 1168
   icon: com.skrill.NETELLER.jpg
   meta: ok
   verdict: custodial
