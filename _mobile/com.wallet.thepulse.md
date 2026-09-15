@@ -1,7 +1,23 @@
 ---
-title: Pulse Wallet
-date: 2026-09-14
-website: https://linktr.ee/thepulsewallet
+title: 'Pulse Wallet: Crypto & Web3'
+date: 2026-09-15
+website: https://thepulsewallet.org/
+redirect_from:
+- /android/com.wallet.thepulse/
+- /iphone/ios.wallet.pulse/
+- /mobile/ios.wallet.pulse/
+android:
+  appId: com.wallet.thepulse
+  users: 5000
+  appCountry: us
+  released: 2023-08-08
+  updated: 2026-07-07
+  version: 5.3.9
+  reviews: 24
+  icon: com.wallet.thepulse.png
+  meta: ok
+  verdict: wip
+  developerName: THE PULSE WALLET
 iphone:
   appId: ios.wallet.pulse
   idd: '6458346951'
