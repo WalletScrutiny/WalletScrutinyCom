@@ -35,7 +35,7 @@ iphone:
   version: 2.12.1
   reviews: 1
   icon: com.opz.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: OPZ, LLC
 

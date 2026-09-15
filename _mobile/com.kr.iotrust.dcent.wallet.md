@@ -1,6 +1,6 @@
 ---
 wsId: dCent
-title: D’CENT Wallet - Secure Crypto
+title: DCENT Wallet - Secure Crypto
 date: 2022-01-10
 authors:
 - kiwilamb
@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2018-10-16
-  updated: 2026-07-14
-  version: 9.2.1
-  reviews: 1021
+  updated: 2026-08-27
+  version: 10.0.0
+  reviews: 1023
   icon: com.kr.iotrust.dcent.wallet.png
   meta: ok
   verdict: nosource
@@ -35,8 +35,8 @@ iphone:
   idd: 1447206611
   appCountry: kr
   released: 2019-01-26
-  updated: 2026-07-21
-  version: 9.2.1
+  updated: 2026-09-09
+  version: 10.0.0
   reviews: 85
   icon: kr.iotrust.dcent.jpg
   meta: ok

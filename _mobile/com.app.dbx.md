@@ -6,7 +6,7 @@ iphone:
   appId: com.app.dbx
   idd: '1615366149'
   appCountry: us
-  released: '2022-04-08T07:00:00Z'
+  released: 2022-04-08
   updated: 2026-08-09
   version: 2.0.5
   reviews: 3

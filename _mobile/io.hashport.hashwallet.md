@@ -12,6 +12,7 @@ android:
   released: 2023-10-13
   updated: 2026-08-10
   version: 3.18.1
+  reviews: 227
   icon: io.hashport.hashwallet.png
   meta: ok
   verdict: nosource
@@ -23,7 +24,7 @@ iphone:
   released: 2023-10-22
   updated: 2026-08-17
   version: 3.18.1
-  reviews: 1388
+  reviews: 1389
   icon: io.hashport.hashwallet.jpg
   meta: ok
   verdict: nosource

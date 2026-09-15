@@ -5,7 +5,7 @@ iphone:
   appId: com.mesiger.wlt
   idd: '6451153738'
   appCountry: us
-  released: '2023-07-31T07:00:00Z'
+  released: 2023-07-31
   updated: 2025-01-02
   version: 1.5.5
   reviews: 1

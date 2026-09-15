@@ -6,7 +6,7 @@ iphone:
   appId: com.pionechain.pionewallet
   idd: '6738914833'
   appCountry: us
-  released: '2025-03-07T08:00:00Z'
+  released: 2025-03-07
   updated: 2026-03-26
   version: 1.2.5
   reviews: 5

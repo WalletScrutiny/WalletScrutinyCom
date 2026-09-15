@@ -6,7 +6,7 @@ iphone:
   appId: com.redlineblockchain.wallet
   idd: '1607470682'
   appCountry: us
-  released: '2022-02-05T08:00:00Z'
+  released: 2022-02-05
   updated: 2024-07-16
   version: '19'
   reviews: 4

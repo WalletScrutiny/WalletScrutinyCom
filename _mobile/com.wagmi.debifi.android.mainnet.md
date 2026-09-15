@@ -7,8 +7,8 @@ android:
   users: 1000
   appCountry: us
   released: 2024-03-21
-  updated: 2026-08-15
-  version: 0.19.0-prod-mainnet
+  updated: 2026-09-08
+  version: 0.20.1-prod-mainnet
   icon: com.wagmi.debifi.android.mainnet.png
   meta: ok
   verdict: custodial
@@ -18,8 +18,8 @@ iphone:
   idd: '6738124778'
   appCountry: us
   released: 2024-11-18
-  updated: 2026-08-17
-  version: 0.20.0
+  updated: 2026-09-10
+  version: 0.21.0
   reviews: 3
   icon: com.debifi.ios.jpg
   meta: ok

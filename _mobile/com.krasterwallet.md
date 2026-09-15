@@ -21,7 +21,7 @@ iphone:
   appId: com.krasterwallet.krastertech
   idd: '6753593627'
   appCountry: kr
-  released: '2025-11-04T08:00:00Z'
+  released: 2025-11-04
   updated: 2025-11-27
   version: '2.0'
   reviews: 0

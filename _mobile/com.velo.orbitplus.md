@@ -16,7 +16,7 @@ iphone:
   appId: com.velo.orbitplus
   idd: '6751701440'
   appCountry: gb
-  released: '2025-11-11T08:00:00Z'
+  released: 2025-11-11
   updated: 2026-09-14
   version: 1.1.7
   reviews: 0

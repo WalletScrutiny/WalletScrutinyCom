@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-08-03
-  version: 1.0.119
+  updated: 2026-09-02
+  version: 1.0.123
   reviews: 10
   icon: com.oppi.wallet.png
   meta: ok

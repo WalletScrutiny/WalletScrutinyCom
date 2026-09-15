@@ -17,7 +17,7 @@ iphone:
   appId: com.celebit.perpex
   idd: '6761027014'
   appCountry: us
-  released: '2026-05-13T07:00:00Z'
+  released: 2026-05-13
   updated: 2026-08-05
   version: 1.3.0
   reviews: 2

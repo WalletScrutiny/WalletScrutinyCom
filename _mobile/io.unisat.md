@@ -34,7 +34,7 @@ iphone:
   version: 1.7.16
   reviews: 31
   icon: io.unisat.mobile.jpg
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: UniPro Technology Limited
 

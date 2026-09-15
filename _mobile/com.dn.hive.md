@@ -18,7 +18,7 @@ iphone:
   appId: com.dn.hive
   idd: '1581842233'
   appCountry: us
-  released: '2021-09-15T07:00:00Z'
+  released: 2021-09-15
   updated: 2023-02-17
   version: 1.0.6
   reviews: 4

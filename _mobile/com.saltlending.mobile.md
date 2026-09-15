@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-01-07
-  updated: 2026-08-31
-  version: 2.20.114
+  updated: 2026-09-10
+  version: 2.20.120
   reviews: 46
   icon: com.saltlending.mobile.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1383851676
   appCountry: us
   released: 2019-01-07
-  updated: 2026-09-02
-  version: 2.20.114
+  updated: 2026-09-11
+  version: 2.20.120
   reviews: 26
   icon: com.saltlending.mobile.jpg
   meta: ok

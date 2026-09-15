@@ -20,8 +20,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-05-23
-  updated: 2025-12-14
-  version: 3.5.2
+  updated: 2026-09-13
+  version: '3.6'
   reviews: 6
   icon: com.haxwallet.app.png
   meta: ok

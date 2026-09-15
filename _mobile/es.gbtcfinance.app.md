@@ -33,7 +33,7 @@ iphone:
   version: '1.03'
   reviews: 5
   icon: com.gbtc.finance.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: GBTC FINANCE S.L.
 

@@ -10,8 +10,8 @@ android:
   appId: com.cheezeebit.exchange
   users: 500000
   appCountry: us
-  updated: 2026-09-04
-  version: 1.5.0
+  updated: 2026-09-10
+  version: 1.5.2
   icon: com.cheezeebit.exchange.png
   meta: ok
   verdict: custodial

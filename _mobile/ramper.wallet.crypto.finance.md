@@ -21,7 +21,7 @@ iphone:
   appId: ramper.multichain.wallet.crypto
   idd: '6461721561'
   appCountry: us
-  released: '2023-09-15T07:00:00Z'
+  released: 2023-09-15
   updated: 2025-02-18
   version: 2.0.1
   reviews: 1

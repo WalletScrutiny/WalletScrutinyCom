@@ -17,7 +17,7 @@ iphone:
   appId: com.dexspace.dexspacemobile
   idd: '6751681180'
   appCountry: us
-  released: '2025-10-01T07:00:00Z'
+  released: 2025-10-01
   updated: 2026-03-05
   version: 0.1.11
   reviews: 0

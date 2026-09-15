@@ -18,8 +18,8 @@ android:
   users: 500
   appCountry: us
   released: 2019-11-01
-  updated: 2026-02-24
-  version: 1.6.1
+  updated: 2026-09-08
+  version: 1.6.2
   icon: io.bitrequest.app.png
   meta: fewusers
   verdict: nosendreceive
@@ -29,8 +29,8 @@ iphone:
   idd: '1484815377'
   appCountry: us
   released: 2019-11-15
-  updated: 2026-03-11
-  version: '1.30'
+  updated: 2026-09-08
+  version: '1.31'
   reviews: 1
   icon: io.bitrequest.app.jpg
   meta: ok

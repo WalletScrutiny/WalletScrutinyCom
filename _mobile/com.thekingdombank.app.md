@@ -24,7 +24,7 @@ android:
   version: 11.0.0
   reviews: 8
   icon: com.thekingdombank.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: TheKingdomBank
 iphone:
@@ -32,8 +32,8 @@ iphone:
   idd: '1626275936'
   appCountry: bg
   released: 2022-06-15
-  updated: 2026-09-07
-  version: 11.2.0
+  updated: 2026-09-12
+  version: 11.2.1
   reviews: 3
   icon: com.kingdom.TheKingdomBank.jpg
   meta: ok

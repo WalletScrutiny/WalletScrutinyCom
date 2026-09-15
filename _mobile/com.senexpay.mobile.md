@@ -33,7 +33,7 @@ iphone:
   version: 1.5.6
   reviews: 9
   icon: com.senexpay.mobile.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Senex Payment Services Limited
 

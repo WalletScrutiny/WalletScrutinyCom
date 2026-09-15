@@ -14,7 +14,7 @@ redirect_from:
 - /iphone/com.boundless.boundlesspay/
 android:
   appId: com.bitfxt.boundlesspay
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2021-09-19
   updated: 2026-07-07

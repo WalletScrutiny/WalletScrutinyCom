@@ -12,7 +12,7 @@ android:
   updated: 2024-09-21
   version: 1.0.1
   icon: com.vestbag.bitdd.png
-  meta: stale
+  meta: obsolete
   verdict: wip
   developerName: LA Colinares
 

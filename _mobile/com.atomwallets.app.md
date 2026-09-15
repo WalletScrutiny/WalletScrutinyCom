@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-10-10
-  updated: 2026-08-10
-  version: 2.3.7
+  updated: 2026-09-10
+  version: 2.3.8
   icon: com.atomwallets.app.png
   meta: ok
   verdict: nosource

@@ -6,7 +6,7 @@ iphone:
   appId: holdings.grey.wallet
   idd: '6776963238'
   appCountry: us
-  released: '2026-06-12T07:00:00Z'
+  released: 2026-06-12
   updated: 2026-07-14
   version: 1.0.8
   reviews: 1

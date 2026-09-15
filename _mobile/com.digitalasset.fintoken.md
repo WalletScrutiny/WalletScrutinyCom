@@ -26,7 +26,7 @@ iphone:
   appId: com.digitalasset.fintoken
   idd: '6447503215'
   appCountry: us
-  released: '2023-06-30T07:00:00Z'
+  released: 2023-06-30
   updated: 2025-11-20
   version: 2.2.6
   reviews: 0

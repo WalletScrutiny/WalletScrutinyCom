@@ -31,9 +31,9 @@ iphone:
   idd: 1500217666
   appCountry: us
   released: 2020-02-25
-  updated: 2026-08-29
-  version: 5.1.0
-  reviews: 3083
+  updated: 2026-09-08
+  version: 5.2.0
+  reviews: 3088
   icon: pro.bingbon.finance.jpg
   meta: ok
   verdict: custodial

@@ -17,7 +17,7 @@ iphone:
   appId: com.freedomdevelopmentfoundation.ios
   idd: '6448116005'
   appCountry: us
-  released: '2024-10-29T07:00:00Z'
+  released: 2024-10-29
   updated: 2026-07-16
   version: '2.4'
   reviews: 0

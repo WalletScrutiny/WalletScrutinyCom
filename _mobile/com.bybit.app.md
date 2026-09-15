@@ -21,8 +21,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-31
-  updated: 2026-08-29
-  version: 5.24.0
+  updated: 2026-09-09
+  version: 5.25.0
   reviews: 7240
   icon: com.bybit.app.jpg
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: 1488296980
   appCountry: us
   released: 2020-01-06
-  updated: 2026-08-29
-  version: 5.24.0
-  reviews: 46890
+  updated: 2026-09-11
+  version: 5.25.0
+  reviews: 46913
   icon: com.bybit.app.jpg
   meta: ok
   verdict: custodial

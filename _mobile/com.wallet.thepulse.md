@@ -22,7 +22,7 @@ iphone:
   appId: ios.wallet.pulse
   idd: '6458346951'
   appCountry: us
-  released: '2023-12-20T08:00:00Z'
+  released: 2023-12-20
   updated: 2026-07-07
   version: 5.3.8
   reviews: 27

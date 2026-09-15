@@ -31,7 +31,7 @@ iphone:
   version: 5.4.0
   reviews: 22
   icon: com.quarkchain.qpocket.jpg
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: QuarkChain Inc
   repository: https://github.com/QuarkChain/QPocket-Android

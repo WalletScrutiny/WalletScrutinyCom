@@ -16,9 +16,9 @@ android:
   appId: onl.coconut.wallet
   users: 1000
   appCountry: us
-  released: Jul 18, 2025
-  updated: 2026-08-28
-  version: 0.16.0
+  released: 2025-07-18
+  updated: 2026-09-05
+  version: 0.17.0
   icon: onl.coconut.wallet.jpg
   meta: ok
   verdict: sourceavailable

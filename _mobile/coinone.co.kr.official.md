@@ -33,7 +33,7 @@ iphone:
   released: 2018-03-27
   updated: 2026-09-03
   version: 5.36.0
-  reviews: 1051
+  reviews: 1052
   icon: kr.co.coinone.officialapp.jpg
   meta: ok
   verdict: custodial

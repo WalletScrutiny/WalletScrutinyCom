@@ -21,7 +21,7 @@ android:
   icon: com.ybit.app.png
   meta: ok
   verdict: nosource
-  developerName: WEEKWISE INNOVATIONS
+  developerName: WEEKWISE INNOVATIONS LLC
 iphone:
   appId: com.ybit.app
   idd: '6483864038'

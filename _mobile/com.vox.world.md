@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-07-09
-  updated: 2026-08-14
-  version: 2.0.7
+  updated: 2026-09-11
+  version: 2.0.9
   icon: com.vox.world.png
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   version: 2.0.8
   reviews: 6
   icon: com.voox.www.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: VOOX TECHNOLOGY PTE. LTD.
 

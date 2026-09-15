@@ -35,7 +35,7 @@ iphone:
   released: 2020-04-14
   updated: 2026-04-13
   version: 2.5.4
-  reviews: 85
+  reviews: 86
   icon: com.babbltd.babb-ios.jpg
   meta: ok
   verdict: custodial

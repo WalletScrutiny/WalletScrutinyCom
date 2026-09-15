@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-05-03
-  updated: 2025-12-24
-  version: 1.9.0
+  updated: 2026-09-11
+  version: 2.0.0
   reviews: 8
   icon: com.pocketmint.wallet.png
   meta: ok
@@ -25,8 +25,8 @@ iphone:
   idd: '6743178752'
   appCountry: us
   released: 2025-05-14
-  updated: 2025-12-29
-  version: 1.9.0
+  updated: 2026-09-13
+  version: 2.0.0
   reviews: 5
   icon: ai.pocketmint.jpg
   meta: ok

@@ -1,5 +1,5 @@
 ---
-title: 'Blitz: Bitcoin Payments Wallet'
+title: 'Blitz: Simple Bitcoin Wallet'
 date: 2025-11-03
 authors:
 - danny
@@ -21,8 +21,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-09-29
-  updated: 2026-07-27
-  version: 0.7.14
+  updated: 2026-08-29
+  version: 0.7.15
   icon: com.blitzwallet.png
   meta: ok
   verdict: custodial

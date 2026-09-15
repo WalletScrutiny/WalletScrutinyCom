@@ -32,11 +32,11 @@ iphone:
   idd: '6444903066'
   appCountry: us
   released: 2023-03-14
-  updated: 2025-02-06
-  version: 4.16.0
+  updated: 2026-09-08
+  version: 4.50.0
   reviews: 11
   icon: app.coinhubatm.wallet.jpg
-  meta: stale
+  meta: ok
   verdict: nosource
   developerName: CHB Holdings LLC
 

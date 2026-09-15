@@ -21,8 +21,8 @@ android:
   users: 500000
   appCountry: us
   released: 2019-01-29
-  updated: 2026-08-03
-  version: 4.17.4
+  updated: 2026-09-11
+  version: 4.17.5
   reviews: 678
   icon: net.bitstamp.app.png
   meta: ok

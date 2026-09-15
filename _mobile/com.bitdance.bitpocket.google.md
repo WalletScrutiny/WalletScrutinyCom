@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-22
-  updated: 2026-08-05
-  version: 1.4.0
+  updated: 2026-09-11
+  version: 1.4.2
   icon: com.bitdance.bitpocket.google.png
   meta: ok
   verdict: nosource
@@ -28,8 +28,8 @@ iphone:
   idd: '6746639763'
   appCountry: au
   released: 2025-06-14
-  updated: 2026-08-20
-  version: 1.4.1
+  updated: 2026-09-10
+  version: 1.4.2
   reviews: 1
   icon: com.bitdance.bitpocket.jpg
   meta: ok

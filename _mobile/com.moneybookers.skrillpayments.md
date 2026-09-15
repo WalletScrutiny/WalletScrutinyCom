@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-10-29
-  updated: 2026-09-03
-  version: 3.192.0-2026082413
-  reviews: 3975
+  updated: 2026-09-09
+  version: 3.192.1-2026090308
+  reviews: 3983
   icon: com.moneybookers.skrillpayments.png
   meta: ok
   verdict: nosendreceive
@@ -29,9 +29,9 @@ iphone:
   idd: '718248239'
   appCountry: gb
   released: 2013-10-29
-  updated: 2026-08-26
-  version: 3.192.0
-  reviews: 8956
+  updated: 2026-09-10
+  version: 3.193.0
+  reviews: 8965
   icon: com.skrill.ios.SkrillPayments.jpg
   meta: ok
   verdict: nosendreceive

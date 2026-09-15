@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: fr
   released: 2019-12-10
-  updated: 2026-06-17
-  version: 2.8.1
-  reviews: 10
+  updated: 2026-09-04
+  version: 2.8.2
+  reviews: 11
   icon: fr.acinq.phoenix.mainnet.png
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
   meta: ok
@@ -37,8 +37,8 @@ iphone:
   idd: '1544097028'
   appCountry: gb
   released: 2021-07-13
-  updated: 2026-06-18
-  version: 2.8.1
+  updated: 2026-09-08
+  version: 2.8.2
   reviews: 21
   icon: co.acinq.phoenix.jpg
   meta: ok

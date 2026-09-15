@@ -18,9 +18,9 @@ android:
   users: 500000
   appCountry: th
   released: 2020-09-29
-  updated: 2026-07-21
-  version: 4.11.1
-  reviews: 2521
+  updated: 2026-09-04
+  version: 4.12.0
+  reviews: 2524
   icon: com.bitazza.android.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2020-05-25
   updated: 2026-09-07
   version: 5.1.1
-  reviews: 2568
+  reviews: 2582
   icon: com.bitazza.ios.jpg
   meta: ok
   verdict: custodial

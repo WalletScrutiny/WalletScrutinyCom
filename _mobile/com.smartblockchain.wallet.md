@@ -17,7 +17,7 @@ android:
   released: 2023-07-20
   updated: 2026-08-05
   version: 2.7.1
-  reviews: 35
+  reviews: 36
   icon: com.smartblockchain.wallet.png
   meta: ok
   verdict: nosource

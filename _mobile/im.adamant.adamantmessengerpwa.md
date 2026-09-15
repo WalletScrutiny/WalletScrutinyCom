@@ -37,7 +37,7 @@ iphone:
   version: 3.10.1
   reviews: 18
   icon: im.adamant.adamant-messenger.jpg
-  meta: ok
+  meta: stale
   verdict: sourceavailable
   developerName: ADAMANT TECH LABS LP
   repository: https://github.com/Adamant-im/adamant-iOS

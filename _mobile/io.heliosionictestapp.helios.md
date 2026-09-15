@@ -5,7 +5,7 @@ iphone:
   appId: io.heliosionictestapp.helios
   idd: '6739870604'
   appCountry: us
-  released: '2025-02-18T08:00:00Z'
+  released: 2025-02-18
   updated: 2025-04-08
   version: 1.0.8
   reviews: 3

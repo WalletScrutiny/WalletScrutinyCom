@@ -22,8 +22,8 @@ android:
   users: 1000
   appCountry: UK
   released: 2022-12-12
-  updated: 2026-05-29
-  version: 2.5.13
+  updated: 2026-09-11
+  version: 2.5.14
   icon: io.hexawallet.bitcoinkeeper.png
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
   meta: ok
@@ -35,8 +35,8 @@ iphone:
   idd: '1545535925'
   appCountry: us
   released: 2022-10-19
-  updated: 2026-06-03
-  version: 2.5.13
+  updated: 2026-09-14
+  version: 2.5.14
   reviews: 22
   icon: io.hexawallet.keeper.jpg
   meta: ok

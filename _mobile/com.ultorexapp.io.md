@@ -32,7 +32,7 @@ iphone:
   version: 1.1.20
   reviews: 0
   icon: com.ultorex.io.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Ultorex LLC
 

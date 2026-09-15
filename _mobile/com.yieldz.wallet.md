@@ -17,7 +17,7 @@ iphone:
   appId: com.yieldz.wallet
   idd: '6757610225'
   appCountry: us
-  released: '2026-04-03T07:00:00Z'
+  released: 2026-04-03
   updated: 2026-04-29
   version: 1.4.5
   reviews: 0

@@ -32,7 +32,7 @@ iphone:
   version: '5.8'
   reviews: 24
   icon: com.fimarketbt.jpg
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: FUINRE, INC
   repository: https://github.com/fimark-coin/Smartcontract

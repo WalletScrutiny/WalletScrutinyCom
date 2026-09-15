@@ -16,7 +16,7 @@ android:
   updated: 2026-02-04
   version: 0.18.4
   icon: com.bitcoinrd.BitcoinRD.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitcoinRD
 iphone:

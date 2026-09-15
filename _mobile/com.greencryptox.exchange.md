@@ -30,7 +30,7 @@ iphone:
   version: 3.6.4
   reviews: 2
   icon: com.greencryptox.exchange.jpg
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: AOWS BUSINESS SERVICES PRIVATE LIMITED
 

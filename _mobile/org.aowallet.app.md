@@ -6,7 +6,7 @@ iphone:
   appId: org.aowallet.app
   idd: '6737453345'
   appCountry: us
-  released: '2024-11-05T08:00:00Z'
+  released: 2024-11-05
   updated: 2025-01-18
   version: 0.0.17
   reviews: 0

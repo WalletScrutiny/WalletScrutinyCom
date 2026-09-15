@@ -23,7 +23,7 @@ android:
   released: 2021-11-15
   updated: 2026-08-18
   version: 1.1.31
-  reviews: 49
+  reviews: 50
   icon: com.switchere.switchere.png
   meta: ok
   verdict: custodial

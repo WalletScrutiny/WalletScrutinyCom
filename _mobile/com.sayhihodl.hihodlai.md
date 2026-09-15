@@ -21,7 +21,7 @@ iphone:
   appId: com.sayhihodl.hihodlyes
   idd: '6755203065'
   appCountry: us
-  released: '2026-04-02T07:00:00Z'
+  released: 2026-04-02
   updated: 2026-05-13
   version: 1.5.3
   reviews: 1

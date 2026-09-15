@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-10-13
-  updated: 2026-04-16
-  version: 1.5.0
+  updated: 2026-09-13
+  version: 1.6.0
   reviews: 36
   icon: com.bitoshi.png
   meta: ok

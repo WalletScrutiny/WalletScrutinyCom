@@ -30,7 +30,7 @@ iphone:
   released: 2022-01-04
   updated: 2026-09-02
   version: 2.9.40
-  reviews: 182
+  reviews: 181
   icon: com.superex.ex.jpg
   meta: ok
   verdict: custodial

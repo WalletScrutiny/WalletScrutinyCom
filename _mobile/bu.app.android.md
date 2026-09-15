@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2025-04-29
-  updated: 2026-09-04
-  version: 3.50.0
-  reviews: 126
+  updated: 2026-09-11
+  version: 3.51.0
+  reviews: 128
   icon: bu.app.android.png
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: '6446243957'
   appCountry: us
   released: 2023-04-11
-  updated: 2026-08-20
-  version: 3.47.0
-  reviews: 797
+  updated: 2026-09-09
+  version: 3.49.0
+  reviews: 812
   icon: com.bitunix.ios-.jpg
   meta: ok
   verdict: custodial
