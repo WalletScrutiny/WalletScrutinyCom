@@ -140,11 +140,18 @@ and save the file.
 ### Install the service
 
 ```bash
-sudo cp external/build_server/config/build-server.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-builds-cleanup.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-builds-cleanup.timer /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-nix-gc.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-nix-gc.timer /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable build-server.service
-sudo systemctl start build-server.service
+sudo systemctl enable --now walletscrutiny-build-server.service
+sudo systemctl enable --now walletscrutiny-build-server-builds-cleanup.timer
+sudo systemctl enable --now walletscrutiny-build-server-nix-gc.timer
 ```
+
+`npm run deploy:build-server` copies these units and enables the service.
 
 ## Build Server admin
 

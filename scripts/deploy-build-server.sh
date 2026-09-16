@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 # Deploy the WalletScrutiny tree to build.walletscrutiny.com for the ABS.
 #
-# SSH config for that host uses User root. The systemd unit runs:
+# SSH config for that host uses User root. The systemd unit
+# walletscrutiny-build-server.service runs:
 #   ExecStart=/usr/bin/node index.mjs
 #   WorkingDirectory=/opt/build-server/walletScrutinyCom/external/build_server
 # ABS imports src/ and scripts/ from the repo root, so each deploy copies the
 # full project (not only external/build_server).
+# The unit is enabled on each deploy (not only started) so it comes back after reboot.
 #
 # Usage:
 #   scripts/deploy-build-server.sh
@@ -96,8 +98,10 @@ cp "${UNIT_DIR}/walletscrutiny-build-server-builds-cleanup.timer" /etc/systemd/s
 cp "${UNIT_DIR}/walletscrutiny-build-server-nix-gc.service" /etc/systemd/system/
 cp "${UNIT_DIR}/walletscrutiny-build-server-nix-gc.timer" /etc/systemd/system/
 systemctl daemon-reload
-echo "Starting ${SERVICE_NAME}..."
-systemctl start "${SERVICE_NAME}"
+echo "Enabling and starting ${SERVICE_NAME}..."
+systemctl enable --now "${SERVICE_NAME}"
+systemctl enable --now walletscrutiny-build-server-builds-cleanup.timer
+systemctl enable --now walletscrutiny-build-server-nix-gc.timer
 systemctl --no-pager --full status "${SERVICE_NAME}" | head -20
 
 echo "Verifying layout and imports..."
