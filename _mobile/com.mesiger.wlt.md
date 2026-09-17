@@ -22,7 +22,18 @@ iphone:
 
 ## App Description
 
-Mesiger's [App Store listing](https://apps.apple.com/us/app/mesiger-crypto-wallet/id6451153738) is a single sentence: "A cryptocurrency wallet that allows direct messaging between addresses, and multi-signature payments without the need for an intermediate guarantor." It names no blockchain and no asset. There is no seller website on the listing. The seller of record is WEI ONETECHNOLOGY COMPANY LIMITED.
+Mesiger's [App Store listing](https://apps.apple.com/us/app/mesiger-crypto-wallet/id6451153738) is a single sentence: "A cryptocurrency wallet that allows direct messaging between addresses, and multi-signature payments without the need for an intermediate guarantor." It names no blockchain and no asset. The seller of record is WEI ONETECHNOLOGY COMPANY LIMITED.
+
+**The store screenshots do name an asset, and only one.** The images on the App Store listing show
+USDT and nothing else. That is the only positive statement we have about what this wallet actually
+handles, since the written description makes none.
+
+**The developer's privacy policy could not be read.** The listing points to
+`https://mesiger.com/mesigerprivacy.html`. The domain still resolves — DNS returns an address in
+Amazon's Tokyo region — but nothing answers on it: both HTTP and HTTPS time out and ports 80 and 443
+are closed or filtered. So the policy exists as a published URL that a user tapping it today cannot
+open. We also could not fall back to an archived copy, because the Internet Archive was itself
+offline when we checked on 2026-09-17. This is worth retrying.
 
 The app has not been updated since 2025-01-02.
 
@@ -34,7 +45,11 @@ This assessment was recorded on 2026-09-17.
 
 We did not run this app. It is published only for iPhone, with no Android counterpart to install, and this review did not include an iOS runtime test.
 
-**The evidence here is thinner than for the other apps in this batch, and that is worth stating plainly.** For most apps we can compare the developer's own list of supported assets against a list derived from the shipped binary. Here the developer publishes no list at all — the one-sentence description names nothing — and overtorment's coin classification for this app is **empty**: his analysis of the binary surfaced no coin. So the two sources agree only in the weak sense that neither produces Bitcoin; nothing here positively establishes what this app does support.
+**The evidence here is thinner than for the other apps in this batch, and that is worth stating plainly.** For most apps we can compare the developer's own written list of supported assets against a list derived from the shipped binary. Here the written description names nothing at all, and overtorment's coin classification for this app is **empty**: his analysis of the binary surfaced no coin. Neither of those two sources produces Bitcoin, but neither positively establishes what the app does handle either.
+
+What we do have is the store screenshots, which we examined ourselves and which show **USDT only**. That is a weaker kind of evidence than a written specification — marketing images need not be complete, and they show a build at the time they were captured rather than the one now shipping — but it is a positive observation rather than an absence, and it is the only one available here. It points the same way as the other two sources.
+
+We did not run the app, and the developer's privacy policy, which might have named the networks involved, could not be retrieved (see above).
 
 We did not attempt to reproduce overtorment's security findings. The alert above is his work and is attributed to him; we have neither confirmed nor contradicted it.
 
@@ -44,4 +59,6 @@ No public source repository was found for this app. We searched by bundle identi
 
 ### Verdict: does not support Bitcoin (BTC)
 
-Neither the developer's description nor the coin classification taken from the shipped binary shows Bitcoin support. We therefore record **does not support Bitcoin (BTC)**, while noting that this rests on the absence of evidence of Bitcoin rather than on a positive account of what the app does handle. The review stops at the Bitcoin-support gate. If a runtime check on an iPhone later shows a Bitcoin address or a Bitcoin-network transaction flow, this verdict should be revisited.
+Nothing we can reach shows Bitcoin support: not the one-sentence description, not the coin classification taken from the shipped binary, and not the store screenshots, which show USDT alone. We therefore record **does not support Bitcoin (BTC)**.
+
+We would rather this page rested on more. The developer publishes no asset list, the privacy policy is unreachable, and the binary analysis surfaced no coin at all, so the verdict leans on store screenshots plus two silences. It points consistently in one direction, but a reader should know it is the thinnest evidence in this group of reviews. The review stops at the Bitcoin-support gate. If a runtime check on an iPhone later shows a Bitcoin address or a Bitcoin-network transaction flow, this verdict should be revisited.

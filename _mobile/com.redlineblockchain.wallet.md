@@ -27,18 +27,42 @@ RED Wallet is described on its [App Store listing](https://apps.apple.com/us/app
 
 The app has not been updated since 2024-07-16.
 
+**The project's website no longer exists.** `redlinewallet.io` has no DNS record — neither the bare
+domain nor `www`. The privacy-policy link the App Store listing still advertises,
+`redlinewallet.io/privacy-policy/`, is dead for the same reason. The address is kept in this page's
+metadata so another researcher knows where the project used to publish. The developer's other domain,
+`redlineblockchain.com`, does resolve but returns an anti-bot interstitial we did not get past, so we
+cannot say what it currently contains.
+
 ## Testing and Analysis
 
 This assessment was recorded on 2026-09-17.
 
 ### What we checked, and what we did not
 
-We did not run this app. It is published only for iPhone, with no Android counterpart to install, and this review did not include an iOS runtime test. Two independent descriptions of which assets the app handles are available:
+We did not run this app. It is published only for iPhone, with no Android counterpart to install, and this review did not include an iOS runtime test. Three descriptions of which assets the app handles are available:
 
 - **The store listing**, the developer's own claim, which names Polygon and the REDNFT ecosystem. Bitcoin is not mentioned.
-- **overtorment's coin classification**, derived from the shipped binary rather than the listing. For this app he records **MATIC, RLC, USDC, USDT, BUSD, DAI** — all Polygon-side assets.
+- **The store screenshots**, which we examined ourselves. They show the app's own asset screen, and it is the most direct account of the wallet's contents available without running it. See below.
+- **overtorment's coin classification**, derived from the shipped binary. For this app he records **MATIC, RLC, USDC, USDT, BUSD, DAI**.
 
-These agree. That agreement is the evidence for the verdict below, and it is not the same thing as having opened the app and looked at an asset list.
+All three agree that this is a Polygon wallet.
+
+### What the app's own screens say
+
+The listing's screenshots show a token list containing **MATIC, RLC, USDC, USDT, BUSD, DAI, UNI, WBTC, LINK, SAND and AAVE**, with the balance denominated in MATIC and a separate tab for NFTs. That is five assets more than the binary-derived list, which is unsurprising: a coin classification and a marketing screenshot are not measuring the same thing.
+
+More useful than the list is the notice the developer prints beneath it on every asset screen:
+
+> Only **Polygon Blockchain**. Transferring using other networks may result in token loss.
+
+That is the developer stating the wallet's scope inside the product itself, and warning users that sending from another network will lose their funds.
+
+### WBTC is not Bitcoin
+
+One entry in that list deserves to be named rather than passed over. **WBTC is Wrapped Bitcoin** — an ERC-20 style token, here on Polygon, that represents Bitcoin value on another chain. It is not BTC on the Bitcoin network, and by the app's own "Only Polygon Blockchain" notice it cannot be: the wallet does not transact outside Polygon.
+
+A reader scanning the screenshots could see "WBTC" and conclude this wallet handles Bitcoin. It does not. Holding WBTC means holding a Polygon token whose value tracks Bitcoin and whose redemption depends on the custodian who issued it; it does not give the user a Bitcoin address, a Bitcoin transaction, or Bitcoin held on the Bitcoin network. This is the same distinction recorded for Canton Bitcoin (cBTC) elsewhere in these reviews. That agreement is the evidence for the verdict below, and it is not the same thing as having opened the app and looked at an asset list.
 
 We did not attempt to reproduce overtorment's security findings. The alert above is his work and is attributed to him; we have neither confirmed nor contradicted it.
 
@@ -48,4 +72,6 @@ No public source repository was found for this app. We searched by bundle identi
 
 ### Verdict: does not support Bitcoin (BTC)
 
-The developer's own listing describes a Polygon and NFT wallet, and the coin classification taken from the shipped binary lists six Polygon-side assets and no Bitcoin. We therefore record **does not support Bitcoin (BTC)**. The review stops at the Bitcoin-support gate; this verdict should be revisited if a released build adds a Bitcoin address and Bitcoin-network transaction flow.
+The developer's listing describes a Polygon and NFT wallet, the coin classification taken from the shipped binary lists Polygon-side assets only, and the app's own screens declare "Only Polygon Blockchain". The single Bitcoin-named asset visible anywhere, WBTC, is a Polygon token representing Bitcoin rather than Bitcoin itself. We therefore record **does not support Bitcoin (BTC)**.
+
+The review stops at the Bitcoin-support gate. This verdict should be revisited if a released build exposes a Bitcoin address and a Bitcoin-network transaction flow — a wrapped token on another chain is not that.
