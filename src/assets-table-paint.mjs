@@ -7,7 +7,12 @@ import { assetBundleRegistrationKind, verificationKind, verificationDraftKind } 
 import { formatDate } from "./format-utils.mjs";
 import { getStatusText } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
-import { mergeBundleAssetRows, getRowLookupHashes } from "./assets-table-filters.mjs";
+import {
+  mergeBundleAssetRows,
+  getRowLookupHashes,
+  findMultiFileItemInGroup,
+  attestationMatchesRowHashes,
+} from "./assets-table-filters.mjs";
 import { setAssetTableResponse } from "./assets-table-state.mjs";
 import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
 
@@ -560,7 +565,10 @@ export function paintMainAssetsTable({
 
       const itemDescription = parseItemDescription(binary);
       const lookupHashes = getRowLookupHashes(item, verificationLookupHash);
-      const attestations = selectCurrentRowVerifications(collectAttestationsForHashes(lookupHashes));
+      const attestations = selectCurrentRowVerifications(
+        collectAttestationsForHashes(lookupHashes)
+          .filter(attestation => attestationMatchesRowHashes(attestation, lookupHashes)),
+      );
       const hasVerifications = attestations.length > 0;
       const warningBadge = createVersionWarningBadge(attestations);
 
@@ -600,9 +608,10 @@ export function paintMainAssetsTable({
         }
       });
 
-      // items[0] is the newest event for this row and is often a verification,
-      // whose x tags carry no file names — fall back to the registration's names.
-      const allSha256Hashes = getHashTags(binary).map(tag =>
+      // Prefer the bundle/multi-file item over items[0]: a newer verification can sort first
+      // and omit file names, or list a different overlapping hash set (#974).
+      const hashSource = findMultiFileItemInGroup(item) || binary;
+      const allSha256Hashes = getHashTags(hashSource).map(tag =>
         tag[2] ? tag : ['x', tag[1], registrationFileNamesByHash.get(tag[1]) || null]);
       const sha256Hashes = allSha256Hashes.slice(0, 5);
 

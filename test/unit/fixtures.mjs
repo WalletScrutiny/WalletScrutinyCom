@@ -3,8 +3,10 @@ import { assetBundleRegistrationKind } from '../../src/nostr-constants.mjs';
 const HASH_A = 'a'.repeat(64);
 const HASH_B = 'b'.repeat(64);
 const HASH_C = 'c'.repeat(64);
+const HASH_D = 'd'.repeat(64);
+const HASH_E = 'e'.repeat(64);
 
-export { HASH_A, HASH_B, HASH_C };
+export { HASH_A, HASH_B, HASH_C, HASH_D, HASH_E };
 
 export function makeEvent({
   id = 'evt',

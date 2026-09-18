@@ -8,9 +8,14 @@ import {
 const findBundleAssetInGroup = group =>
   group.items.find(item => item.kind === assetBundleRegistrationKind);
 
-const findMultiFileItemInGroup = group =>
-  findBundleAssetInGroup(group) ||
-  group.items.find(item => getAssetFileEntries(item).length > 1);
+export function findMultiFileItemInGroup(group) {
+  return findBundleAssetInGroup(group) ||
+    group.items.find(item => getAssetFileEntries(item).length > 1);
+}
+
+function getItemMergeKey(item) {
+  return getAssetFileEntries(item).length > 1 ? getAssetBundleDedupKey(item) : null;
+}
 
 // A row's lookup hashes come from its multi-file/bundle asset, never from whichever item happens
 // to be newest. mergeGroupItems sorts items newest-first, so a single-file verification landing at
@@ -28,9 +33,23 @@ export function getRowLookupHashes(group, fallbackHash) {
   return [fallbackHash || firstItemHashes[0]].filter(Boolean);
 }
 
-function getRowMergeKey(group) {
-  const multiFileItem = findMultiFileItemInGroup(group);
-  return multiFileItem ? getAssetBundleDedupKey(multiFileItem) : null;
+/** True when an attestation belongs to this row's artifact, not merely shares a file hash. */
+export function attestationMatchesRowHashes(attestation, rowHashes) {
+  const listed = [...new Set(
+    getAssetFileEntries(attestation).map(entry => entry.hash).filter(Boolean),
+  )];
+  const rowUnique = [...new Set((rowHashes || []).filter(Boolean))];
+  if (listed.length === 0 || rowUnique.length === 0) {
+    return false;
+  }
+  if (listed.length === 1) {
+    return rowUnique.includes(listed[0]);
+  }
+  if (listed.length !== rowUnique.length) {
+    return false;
+  }
+  const rowSet = new Set(rowUnique);
+  return listed.every(hash => rowSet.has(hash));
 }
 
 function mergeGroupItems(target, source) {
@@ -56,23 +75,59 @@ export function mergeBundleAssetRows(groups, requestedSha256) {
   const mergedBundles = new Map();
   const legacyGroups = [];
 
+  const addItem = (mergeKey, item, fallbackSha256, multiFileItem) => {
+    const existing = mergedBundles.get(mergeKey);
+    if (existing) {
+      mergeGroupItems(existing, { items: [item] });
+      existing.sha256 = pickCanonicalRowSha256(existing, multiFileItem, requestedSha256);
+      return;
+    }
+    mergedBundles.set(mergeKey, {
+      sha256: pickCanonicalRowSha256(
+        { sha256: fallbackSha256, items: [item] },
+        multiFileItem,
+        requestedSha256,
+      ),
+      items: [item],
+    });
+  };
+
   for (const group of groups) {
-    const mergeKey = getRowMergeKey(group);
-    if (!mergeKey) {
+    const itemsByMergeKey = new Map();
+    const singleFileItems = [];
+
+    for (const item of group.items) {
+      const mergeKey = getItemMergeKey(item);
+      if (!mergeKey) {
+        singleFileItems.push(item);
+        continue;
+      }
+      const bucket = itemsByMergeKey.get(mergeKey) || [];
+      bucket.push(item);
+      itemsByMergeKey.set(mergeKey, bucket);
+    }
+
+    if (itemsByMergeKey.size === 0) {
       legacyGroups.push(group);
       continue;
     }
 
-    const multiFileItem = findMultiFileItemInGroup(group);
-    const existing = mergedBundles.get(mergeKey);
-    if (existing) {
-      mergeGroupItems(existing, group);
-      existing.sha256 = pickCanonicalRowSha256(existing, multiFileItem, requestedSha256);
-    } else {
-      mergedBundles.set(mergeKey, {
-        sha256: pickCanonicalRowSha256(group, multiFileItem, requestedSha256),
-        items: [...group.items],
-      });
+    for (const [mergeKey, items] of itemsByMergeKey) {
+      const multiFileItem = items[0];
+      for (const item of items) {
+        addItem(mergeKey, item, group.sha256, multiFileItem);
+      }
+    }
+
+    // Single-file events stay on every overlapping bundle in this group that contains that hash.
+    for (const item of singleFileItems) {
+      const hash = getAssetFileEntries(item)[0]?.hash || group.sha256;
+      for (const [mergeKey, items] of itemsByMergeKey) {
+        const bundleHashes = getAssetFileEntries(items[0]).map(entry => entry.hash);
+        if (hash && bundleHashes.includes(hash)) {
+          addItem(mergeKey, item, group.sha256, items[0]);
+        }
+      }
     }
   }
 
