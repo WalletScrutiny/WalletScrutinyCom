@@ -29,7 +29,7 @@ iphone:
   version: 3.55.0
   reviews: 19
   icon: com.buengroup.buenbit.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Buenbit
 

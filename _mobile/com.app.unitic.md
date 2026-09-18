@@ -18,7 +18,7 @@ android:
   updated: 2026-03-30
   version: 0.2.0
   icon: com.app.unitic.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: UNITIC PRIVATE LIMITED
 

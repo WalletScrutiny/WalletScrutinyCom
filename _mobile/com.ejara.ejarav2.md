@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-03-08
-  updated: 2026-07-24
-  version: 4.0.1
+  updated: 2026-09-10
+  version: 4.0.2
   reviews: 26
   icon: com.ejara.ejarav2.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1541127587'
   appCountry: fr
   released: 2021-03-22
-  updated: 2026-06-11
-  version: 3.9.9+361
+  updated: 2026-09-16
+  version: 4.0.0+362
   reviews: 68
   icon: com.ejara.ejarav2.jpg
   meta: ok

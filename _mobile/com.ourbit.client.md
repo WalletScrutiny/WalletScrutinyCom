@@ -32,7 +32,7 @@ iphone:
   released: 2024-07-28
   updated: 2026-09-11
   version: 1.25.2
-  reviews: 213
+  reviews: 212
   icon: com.ourbit.www.jpg
   meta: ok
   verdict: custodial

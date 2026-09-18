@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2022-07-19
-  updated: 2026-08-31
-  version: 3.0.28
+  updated: 2026-09-16
+  version: 3.0.29
   icon: com.quantiamobile.png
   meta: fewusers
   verdict: wip

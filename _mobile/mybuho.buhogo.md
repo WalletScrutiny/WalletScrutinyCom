@@ -8,8 +8,8 @@ android:
   users: 50
   appCountry: us
   released: 2025-09-26
-  updated: 2026-08-22
-  version: 1.9.1
+  updated: 2026-09-16
+  version: 1.9.2
   icon: mybuho.buhogo.jpg
   meta: fewusers
   verdict: wip

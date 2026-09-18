@@ -1,6 +1,6 @@
 ---
 wsId: cryptoComDefi
-title: 'Crypto.com: Onchain Wallet'
+title: 'Ult: Trade Stocks & Crypto'
 date: 2021-10-24
 authors:
 - leo
@@ -27,9 +27,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-05-11
-  updated: 2026-07-15
-  version: 2.50.4
-  reviews: 3809
+  updated: 2026-09-15
+  version: 3.0.0
+  reviews: 3814
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource
@@ -39,9 +39,9 @@ iphone:
   idd: 1512048310
   appCountry: us
   released: 2020-05-20
-  updated: 2026-07-08
-  version: 2.50.4
-  reviews: 22207
+  updated: 2026-09-17
+  version: 3.0.0
+  reviews: 22239
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

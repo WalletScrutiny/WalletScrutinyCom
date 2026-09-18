@@ -19,8 +19,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2017-06-19
-  updated: 2026-08-05
-  version: 2.43.0
+  updated: 2026-09-15
+  version: 2.44.0
   reviews: 242
   icon: com.plunien.poloniex.png
   meta: ok

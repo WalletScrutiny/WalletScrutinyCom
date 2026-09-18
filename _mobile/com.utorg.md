@@ -13,7 +13,7 @@ android:
   users: 10000
   appCountry: us
   released: 2023-06-02
-  updated: 2026-07-23
+  updated: 2026-09-10
   version: 3.3.0
   icon: com.utorg.png
   meta: ok

@@ -24,9 +24,9 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-08-21
-  version: 2.7.1
-  reviews: 16
+  updated: 2026-09-17
+  version: 2.7.3
+  reviews: 15
   icon: com.cypherstack.stackwallet.png
   meta: ok
   verdict: sourceavailable
@@ -37,8 +37,8 @@ iphone:
   idd: '1634811534'
   appCountry: us
   released: 2022-08-26
-  updated: 2026-09-06
-  version: 2.7.2
+  updated: 2026-09-16
+  version: 2.7.3
   reviews: 27
   icon: com.cypherstack.stackwallet.jpg
   meta: ok

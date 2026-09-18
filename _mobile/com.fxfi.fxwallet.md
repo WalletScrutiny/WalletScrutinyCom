@@ -23,8 +23,8 @@ iphone:
   idd: '1560943983'
   appCountry: us
   released: 2021-05-05
-  updated: 2026-09-10
-  version: 3.2.0
+  updated: 2026-09-15
+  version: 3.2.1
   reviews: 29
   icon: com.fxfi.fxwallet.jpg
   meta: ok

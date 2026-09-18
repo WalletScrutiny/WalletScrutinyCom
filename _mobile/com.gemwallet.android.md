@@ -29,7 +29,7 @@ android:
   released: 2023-06-26
   updated: 2026-08-21
   version: 2.114.10
-  reviews: 6
+  reviews: 7
   icon: com.gemwallet.android.png
   alternativeStores:
   - fdroid
@@ -44,7 +44,7 @@ iphone:
   released: 2023-07-17
   updated: 2026-08-25
   version: 2.114.10
-  reviews: 358
+  reviews: 359
   icon: com.gemwallet.ios.jpg
   meta: ok
   verdict: sourceavailable

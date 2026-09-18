@@ -30,8 +30,8 @@ iphone:
   idd: '1397585225'
   appCountry: us
   released: 2018-07-25
-  updated: 2026-06-23
-  version: 5.55.15
+  updated: 2026-09-08
+  version: 5.55.25
   reviews: 369
   icon: app.coinmetro.jpg
   meta: ok

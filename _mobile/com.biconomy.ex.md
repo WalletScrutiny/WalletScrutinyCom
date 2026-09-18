@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-14
-  updated: 2026-09-12
-  version: 2.4.16
+  updated: 2026-09-17
+  version: 2.4.18
   reviews: 164
   icon: com.biconomy.ex.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1486151349'
   appCountry: us
   released: 2019-11-06
-  updated: 2026-06-01
-  version: 2.4.10
+  updated: 2026-09-15
+  version: 2.4.11
   reviews: 150
   icon: com.biconomy.Innovation.jpg
   meta: ok

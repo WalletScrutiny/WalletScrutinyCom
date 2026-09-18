@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-07-24
-  updated: 2026-08-31
-  version: 9.3.0
+  updated: 2026-09-15
+  version: 9.3.1
   reviews: 515
   icon: com.remitano.remitano.jpg
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: 1116327021
   appCountry: za
   released: 2016-05-28
-  updated: 2026-08-31
-  version: 9.3.0
+  updated: 2026-09-15
+  version: 9.3.1
   reviews: 379
   icon: com.remitano.remitano.jpg
   meta: ok

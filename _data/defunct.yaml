@@ -1,15 +1,3 @@
-2026-09-02:
-- _mobile/com.app.unitic
-- _mobile/com.bitcon
-- _mobile/io.kriptomat.app
-- _mobile/com.ari10.bitcan
-- _mobile/com.blockchaincommodities.hippo_wallet
-- _mobile/com.buengroup.buenbit
-- _mobile/com.capitalika.exhange
-- _mobile/com.oakk.starocket_wallet
-- _mobile/com.papaya.blackcatcard
-- _mobile/com.tomiapp.production
-- _mobile/com.zybitech.juancash
 2026-09-08:
 - _mobile/com.rezor
 - _mobile/de.followmytrader
@@ -19,3 +7,9 @@
 - _mobile/com.bitxwalet.production
 - _mobile/com.finverselabs.openwallet
 - _mobile/com.palwalletapp
+2026-09-18:
+- _mobile/com.XcelTrip.XcelPay
+- _mobile/com.bitmex.app.android
+- _mobile/com.coinceeper.adl
+- _mobile/com.kinesis.kinesisapp
+- _mobile/com.production.BitcoinWallet

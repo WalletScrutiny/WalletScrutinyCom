@@ -32,8 +32,8 @@ iphone:
   idd: '1638748643'
   appCountry: cy
   released: 2022-09-24
-  updated: 2026-09-03
-  version: 3.16.1
+  updated: 2026-09-14
+  version: 3.17.0
   reviews: 8
   icon: xbo.mobile.app.jpg
   meta: ok

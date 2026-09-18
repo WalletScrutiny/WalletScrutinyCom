@@ -6,14 +6,14 @@ redirect_from:
 - /android/com.stackatm.app/
 android:
   appId: com.stackatm.app
-  users: 500
+  users: 1000
   appCountry: us
   released: 2024-08-12
   updated: 2026-09-02
   version: 1.14.0
   reviews: 4
   icon: com.stackatm.app.png
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: Kalbas, Inc.
 

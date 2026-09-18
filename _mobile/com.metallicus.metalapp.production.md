@@ -20,7 +20,7 @@ android:
   released: 2020-01-14
   updated: 2026-08-17
   version: 3.1.221
-  reviews: 402
+  reviews: 403
   icon: com.metallicus.metalapp.production.png
   meta: ok
   verdict: custodial

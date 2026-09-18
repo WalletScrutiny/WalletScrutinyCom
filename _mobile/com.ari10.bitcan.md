@@ -24,7 +24,7 @@ android:
   updated: 2026-02-11
   version: 2.10.3
   icon: com.ari10.bitcan.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: ARI10
 iphone:

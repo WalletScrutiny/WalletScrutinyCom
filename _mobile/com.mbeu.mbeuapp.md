@@ -1,6 +1,6 @@
 ---
 wsId: mercadoPortugal
-title: Mercado Bitcoin Portugal
+title: MB Portugal
 date: 2026-02-25
 authors:
 - danny

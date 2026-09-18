@@ -31,9 +31,9 @@ iphone:
   idd: '1536176542'
   appCountry: us
   released: 2021-01-19
-  updated: 2026-09-10
-  version: 7.309.0
-  reviews: 8776
+  updated: 2026-09-16
+  version: 7.313.3
+  reviews: 8797
   icon: com.river.riverapp.jpg
   meta: ok
   verdict: custodial

@@ -13,7 +13,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-10-31
-  updated: 2026-09-04
+  updated: 2026-09-16
   version: 1.64.0
   reviews: 5
   icon: com.cloud.thailand.jpg
@@ -25,9 +25,9 @@ iphone:
   idd: '6450774618'
   appCountry: th
   released: 2023-11-21
-  updated: 2026-09-07
-  version: 1.64.0
-  reviews: 17621
+  updated: 2026-09-16
+  version: 1.65.0
+  reviews: 17683
   icon: com.tiger.cloudbase.thailand.jpg
   meta: ok
   verdict: custodial

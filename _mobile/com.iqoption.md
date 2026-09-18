@@ -16,7 +16,7 @@ android:
   appId: com.iqoption
   users: 100000000
   appCountry: us
-  updated: 2026-09-14
+  updated: 2026-09-16
   version: 8.67.4
   reviews: 556
   icon: com.iqoption.jpg

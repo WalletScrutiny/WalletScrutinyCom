@@ -1,10 +1,10 @@
 ---
 wsId: korbit
-title: 코빗 - 가상자산 거래소 (비트코인, 이더리움)
+title: 디지털엑스 - 디지털자산 거래소
 date: 2021-09-10
 authors:
 - danny
-website: https://www.korbit.co.kr
+website: https://digitalx.miraeasset.com/
 redirect_from:
 - /android/com.korbit.exchange/
 - /iphone/com.korbit.exchange/
@@ -13,8 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-07-22
-  updated: 2026-09-07
-  version: 11.17.3
+  updated: 2026-09-09
+  version: 11.17.5
   reviews: 9
   icon: com.korbit.exchange.png
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: 1434511619
   appCountry: kr
   released: 2018-10-18
-  updated: 2026-08-24
-  version: 11.17.1
-  reviews: 633
+  updated: 2026-09-17
+  version: 11.17.5
+  reviews: 631
   icon: com.korbit.exchange.jpg
   meta: ok
   verdict: custodial

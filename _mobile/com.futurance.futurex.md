@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-07-07
-  updated: 2026-09-01
-  version: 2.7.9
+  updated: 2026-09-17
+  version: 2.8.1
   icon: com.futurance.futurex.png
   meta: ok
   verdict: custodial
@@ -31,8 +31,8 @@ iphone:
   idd: '1583183728'
   appCountry: tr
   released: 2021-10-27
-  updated: 2026-09-08
-  version: 6.0.1
+  updated: 2026-09-15
+  version: 6.0.2
   reviews: 135
   icon: com.futurance.futurex.jpg
   meta: ok

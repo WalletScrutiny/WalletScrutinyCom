@@ -15,8 +15,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2017-05-23
-  updated: 2026-09-06
-  version: 168.13.0
+  updated: 2026-09-16
+  version: 168.14.3
   reviews: 11
   icon: com.avatrade.mobile.png
   meta: ok

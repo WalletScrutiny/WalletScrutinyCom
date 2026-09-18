@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-15
-  updated: 2026-09-15
-  version: 4.24.0
+  updated: 2026-09-18
+  version: 4.24.1
   reviews: 61
   icon: com.viabtc.wallet.png
   meta: ok
@@ -35,8 +35,8 @@ iphone:
   idd: 1462031389
   appCountry: us
   released: 2019-05-21
-  updated: 2026-07-14
-  version: 4.23.3
+  updated: 2026-09-17
+  version: 4.24.0
   reviews: 53
   icon: com.viabtc.ViaWallet.jpg
   meta: ok

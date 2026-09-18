@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2020-02-13
   updated: 2026-09-11
-  version: 17.1.1
+  version: 17.2.0
   reviews: 4
   icon: com.syfe.jpg
   meta: ok

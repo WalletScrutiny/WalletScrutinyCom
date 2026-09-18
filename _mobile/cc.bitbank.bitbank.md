@@ -14,8 +14,8 @@ android:
   appId: cc.bitbank.bitbank
   users: 500000
   appCountry: us
-  updated: 2026-09-04
-  version: 3.8.2
+  updated: 2026-09-16
+  version: 3.9.1
   reviews: 3
   icon: cc.bitbank.bitbank.png
   meta: ok

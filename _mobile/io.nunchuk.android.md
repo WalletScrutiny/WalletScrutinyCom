@@ -29,7 +29,7 @@ android:
   released: 2021-11-11
   updated: 2026-09-01
   version: 2.8.5
-  reviews: 44
+  reviews: 45
   icon: io.nunchuk.android.png
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   meta: ok
@@ -43,7 +43,7 @@ iphone:
   released: 2021-12-16
   updated: 2026-09-01
   version: 2.8.1
-  reviews: 560
+  reviews: 564
   icon: io.nunchuk.ios.jpg
   meta: ok
   verdict: nosource

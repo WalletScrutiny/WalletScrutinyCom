@@ -26,7 +26,7 @@ iphone:
   released: 2021-07-30
   updated: 2022-07-04
   version: 1.7.0
-  reviews: 0
+  reviews: 1
   icon: com.excelon.excelon.go.jpg
   meta: obsolete
   verdict: custodial

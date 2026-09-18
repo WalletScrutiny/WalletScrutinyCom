@@ -33,7 +33,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-09-09
   version: '4.59'
-  reviews: 11885
+  reviews: 11904
   icon: de.no26.Number26.jpg
   meta: ok
   verdict: custodial

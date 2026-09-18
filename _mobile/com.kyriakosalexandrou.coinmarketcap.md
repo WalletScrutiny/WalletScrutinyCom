@@ -19,7 +19,7 @@ android:
   released: 2015-05-16
   updated: 2026-08-20
   version: 16.4.0
-  reviews: 1385
+  reviews: 1383
   icon: com.kyriakosalexandrou.coinmarketcap.jpg
   meta: ok
   verdict: nosource

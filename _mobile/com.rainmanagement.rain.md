@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: bh
   released: 2018-11-02
-  updated: 2026-08-11
-  version: 3.16.1
+  updated: 2026-09-15
+  version: 3.18.0
   reviews: 3352
   icon: com.rainmanagement.rain.png
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: 1414619890
   appCountry: bh
   released: 2018-09-02
-  updated: 2026-09-08
-  version: 3.17.2
-  reviews: 2938
+  updated: 2026-09-17
+  version: 3.18.0
+  reviews: 2940
   icon: com.rainmanagement.rain.jpg
   meta: ok
   verdict: custodial

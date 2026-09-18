@@ -25,7 +25,7 @@ android:
   released: 2018-10-16
   updated: 2026-08-27
   version: 10.0.0
-  reviews: 1023
+  reviews: 1024
   icon: com.kr.iotrust.dcent.wallet.png
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2019-01-26
   updated: 2026-09-09
   version: 10.0.0
-  reviews: 85
+  reviews: 86
   icon: kr.iotrust.dcent.jpg
   meta: ok
   verdict: nosource

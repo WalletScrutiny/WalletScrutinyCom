@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-04-03
-  updated: 2026-09-09
-  version: 2.0.3
+  updated: 2026-09-15
+  version: 2.0.4
   reviews: 7
   icon: com.artisan.pledge.png
   meta: ok

@@ -28,8 +28,8 @@ iphone:
   idd: '1514429922'
   appCountry: se
   released: 2020-06-18
-  updated: 2026-09-11
-  version: 2.1.2
+  updated: 2026-09-17
+  version: 2.1.3
   reviews: 3299
   icon: com.safello.iosapp.jpg
   meta: ok

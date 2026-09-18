@@ -27,8 +27,8 @@ iphone:
   idd: '6503239911'
   appCountry: bg
   released: 2025-10-02
-  updated: 2026-09-12
-  version: 2.5.5
+  updated: 2026-09-18
+  version: 2.5.7
   reviews: 0
   icon: xyz.bringin.client.jpg
   meta: ok

@@ -23,7 +23,7 @@ android:
   released: 2014-11-01
   updated: 2026-09-09
   version: 8.116.1
-  reviews: 1410
+  reviews: 1409
   icon: co.bitx.android.wallet.jpg
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2014-11-03
   updated: 2026-09-08
   version: 8.116.0
-  reviews: 3689
+  reviews: 3688
   icon: za.co.Bitx.jpg
   meta: ok
   verdict: custodial

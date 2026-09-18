@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-10-26
-  updated: 2026-09-01
-  version: 10.6.8
+  updated: 2026-09-10
+  version: 10.7.0
   reviews: 7
   icon: com.credits.Wallet.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1502902555'
   appCountry: ch
   released: 2020-07-21
-  updated: 2026-09-02
-  version: 3.4.8
+  updated: 2026-09-15
+  version: 3.4.9
   reviews: 0
   icon: com.credits.CryptoWallet.jpg
   meta: ok

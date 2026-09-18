@@ -19,7 +19,7 @@ android:
   released: 2021-07-16
   updated: 2026-09-04
   version: 4.6.0
-  reviews: 21777
+  reviews: 21785
   icon: com.cloud.tr.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2021-02-18
   updated: 2026-09-05
   version: 4.6.0
-  reviews: 180614
+  reviews: 180832
   icon: com.binanceCloudTR.binance.jpg
   meta: ok
   verdict: custodial

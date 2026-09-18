@@ -24,7 +24,7 @@ android:
   released: 2016-09-01
   updated: 2019-03-17
   version: 0.1.9
-  reviews: 30
+  reviews: 31
   icon: io.freewallet.mobile.jpg
   meta: obsolete
   verdict: sourceavailable

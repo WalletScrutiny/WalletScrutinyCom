@@ -16,9 +16,9 @@ android:
   users: 1000000
   appCountry: dk
   released: 2017-05-17
-  updated: 2025-10-28
-  version: 1.0.66
-  reviews: 2892
+  updated: 2026-09-16
+  version: 2.1.11
+  reviews: 2899
   icon: com.core.app.flitpay.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: 1571975471
   appCountry: in
   released: 2021-08-27
-  updated: 2025-10-29
-  version: 1.0.25
+  updated: 2026-09-16
+  version: 2.1.0
   reviews: 135
   icon: com.core.ios.flitpay.jpg
   meta: ok

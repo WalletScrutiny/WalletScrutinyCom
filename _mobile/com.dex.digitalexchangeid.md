@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-09-04
-  updated: 2026-09-11
-  version: 1.3.42
+  updated: 2026-09-15
+  version: 1.3.43
   icon: com.dex.digitalexchangeid.png
   meta: ok
   verdict: custodial

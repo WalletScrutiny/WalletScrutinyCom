@@ -32,8 +32,8 @@ iphone:
   idd: '1616670336'
   appCountry: cz
   released: 2022-04-25
-  updated: 2026-07-13
-  version: 1.32.40
+  updated: 2026-09-17
+  version: 1.32.51
   reviews: 95
   icon: cz.anycoin.mobile.jpg
   meta: ok

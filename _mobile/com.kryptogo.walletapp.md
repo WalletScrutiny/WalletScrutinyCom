@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-12-28
-  updated: 2026-09-10
-  version: 3.99.0
+  updated: 2026-09-17
+  version: 3.100.0
   reviews: 3
   icon: com.kryptogo.walletapp.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1593830910'
   appCountry: us
   released: 2021-12-28
-  updated: 2026-09-10
-  version: 3.99.0
+  updated: 2026-09-17
+  version: 3.100.0
   reviews: 3
   icon: com.kryptogo.walletapp.jpg
   meta: ok

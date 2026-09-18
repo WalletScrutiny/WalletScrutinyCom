@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-12-05
-  updated: 2026-06-03
-  version: 1.8.8
+  updated: 2026-09-17
+  version: 1.9.2
   reviews: 1
   icon: ammer.wallet.png
   meta: ok

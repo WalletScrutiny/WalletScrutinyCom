@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2017-12-28
-  updated: 2026-09-11
-  version: 5.1.3
+  updated: 2026-09-18
+  version: 5.1.6
   icon: com.ivan.fgwallet.png
   meta: ok
   verdict: nosource
@@ -27,8 +27,8 @@ iphone:
   idd: '1338808692'
   appCountry: us
   released: 2018-02-27
-  updated: 2026-09-03
-  version: 4.2.4
+  updated: 2026-09-18
+  version: 4.2.5
   reviews: 2
   icon: com.sfc.fgwallet.jpg
   meta: ok

@@ -21,8 +21,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-01-03
-  updated: 2026-08-24
-  version: 1.0.58
+  updated: 2026-09-11
+  version: 1.0.59
   icon: com.bitcoinstore.bitcoinstorewallet.png
   meta: ok
   verdict: custodial

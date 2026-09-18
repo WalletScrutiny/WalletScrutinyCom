@@ -31,9 +31,9 @@ iphone:
   idd: '1627285591'
   appCountry: us
   released: 2022-10-17
-  updated: 2026-04-16
-  version: 1.5.0
-  reviews: 1763
+  updated: 2026-09-14
+  version: 1.6.0
+  reviews: 1760
   icon: com.bitoshi.jpg
   meta: ok
   verdict: custodial

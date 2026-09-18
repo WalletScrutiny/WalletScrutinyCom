@@ -19,7 +19,7 @@ android:
   users: 500000
   appCountry: us
   released: 2015-01-08
-  updated: 2026-08-21
+  updated: 2026-09-14
   version: 3.73.0
   reviews: 55
   icon: com.phonegap.bit2me.png
@@ -31,9 +31,9 @@ iphone:
   idd: '1459809738'
   appCountry: es
   released: 2019-06-04
-  updated: 2026-08-27
-  version: 3.73.0
-  reviews: 3818
+  updated: 2026-09-14
+  version: 3.74.0
+  reviews: 3817
   icon: com.bit2me.flutter-ios.jpg
   meta: ok
   verdict: custodial

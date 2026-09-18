@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-03-22
-  updated: 2026-08-10
-  version: 4.66.6
+  updated: 2026-09-17
+  version: 4.67.1
   reviews: 13
   icon: com.bitbill.www.png
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '1321798216'
   appCountry: us
   released: 2018-02-07
-  updated: 2026-09-07
-  version: 4.67.0
+  updated: 2026-09-15
+  version: 4.67.1
   reviews: 139
   icon: com.bitbill.wallet.jpg
   meta: ok

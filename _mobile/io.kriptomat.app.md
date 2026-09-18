@@ -20,7 +20,7 @@ android:
   updated: 2026-02-20
   version: 7.8.0
   icon: io.kriptomat.app.png
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Kriptomat
 iphone:
@@ -32,7 +32,7 @@ iphone:
   version: 7.8.0
   reviews: 94
   icon: io.kriptomat.app.jpg
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: FintechX OU
 

@@ -28,8 +28,8 @@ iphone:
   idd: '6444394282'
   appCountry: au
   released: 2022-11-28
-  updated: 2026-08-31
-  version: 16.0.0
+  updated: 2026-09-15
+  version: 16.1.0
   reviews: 1424
   icon: au.com.bitcoin.mobileapp.jpg
   meta: ok

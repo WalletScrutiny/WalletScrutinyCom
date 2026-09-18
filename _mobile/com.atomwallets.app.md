@@ -25,9 +25,9 @@ iphone:
   idd: '6754027418'
   appCountry: us
   released: 2025-11-07
-  updated: 2026-08-20
-  version: 2.3.7
-  reviews: 1
+  updated: 2026-09-17
+  version: 2.3.8
+  reviews: 2
   icon: ios.atomwallets.com.jpg
   meta: ok
   verdict: nosource

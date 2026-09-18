@@ -29,7 +29,7 @@ android:
   released: 2015-10-26
   updated: 2026-02-16
   version: 3.7.1
-  reviews: 510
+  reviews: 509
   icon: com.shapeshift.droid_shapeshift.png
   meta: ok
   verdict: sourceavailable

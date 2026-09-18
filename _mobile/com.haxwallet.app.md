@@ -32,8 +32,8 @@ iphone:
   idd: '6447614026'
   appCountry: us
   released: 2023-08-23
-  updated: 2025-12-15
-  version: 3.5.2
+  updated: 2026-09-15
+  version: '3.6'
   reviews: 415
   icon: com.haxwallet.app.jpg
   meta: ok

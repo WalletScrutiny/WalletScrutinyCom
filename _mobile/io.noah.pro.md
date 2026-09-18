@@ -12,9 +12,9 @@ android:
   users: 100000
   appCountry: us
   released: 2025-09-23
-  updated: 2026-08-28
-  version: 1.3.4
-  reviews: 22
+  updated: 2026-09-14
+  version: 1.3.5
+  reviews: 26
   icon: io.noah.pro.png
   meta: ok
   verdict: custodial

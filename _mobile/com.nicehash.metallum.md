@@ -35,7 +35,7 @@ iphone:
   released: 2020-04-29
   updated: 2026-09-10
   version: 7.1.20
-  reviews: 4568
+  reviews: 4569
   icon: com.nicehash.mobile.jpg
   meta: ok
   verdict: custodial

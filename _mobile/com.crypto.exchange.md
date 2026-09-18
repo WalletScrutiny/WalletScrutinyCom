@@ -34,7 +34,7 @@ iphone:
   released: 2021-06-15
   updated: 2026-09-09
   version: 3.10.4
-  reviews: 111
+  reviews: 110
   icon: crypto.com.exchange.jpg
   meta: ok
   verdict: custodial

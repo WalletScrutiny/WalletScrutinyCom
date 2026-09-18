@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: GI
   released: 2021-09-28
-  updated: 2026-09-09
-  version: 1.53.1
+  updated: 2026-09-16
+  version: 1.53.2
   reviews: 608
   icon: com.bitso.alpha.png
   meta: ok

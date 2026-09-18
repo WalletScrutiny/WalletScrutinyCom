@@ -19,7 +19,7 @@ android:
   appCountry: au
   released: 2021-08-31
   updated: 2026-09-08
-  version: 1.44.1
+  version: 1.45.0
   icon: com.hitbtc.wallet.jpg
   meta: ok
   verdict: custodial

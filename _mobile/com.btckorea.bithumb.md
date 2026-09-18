@@ -28,9 +28,9 @@ iphone:
   idd: 1299421592
   appCountry: kr
   released: 2017-12-05
-  updated: 2026-08-31
-  version: 3.2.5
-  reviews: 5076
+  updated: 2026-09-16
+  version: 3.2.6
+  reviews: 5078
   icon: com.btckorea.bithumb.jpg
   meta: ok
   verdict: custodial

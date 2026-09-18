@@ -24,7 +24,7 @@ android:
   released: 2021-10-12
   updated: 2026-09-09
   version: 2.9.1
-  reviews: 1118
+  reviews: 1122
   icon: com.secretkeylabs.xverse.png
   meta: ok
   verdict: nosource
@@ -34,8 +34,8 @@ iphone:
   idd: 1552272513
   appCountry: gt
   released: 2021-10-15
-  updated: 2026-09-10
-  version: v2.9.1
+  updated: 2026-09-17
+  version: v2.9.2
   reviews: 1
   icon: com.secretkeylabs.xverse.jpg
   meta: ok

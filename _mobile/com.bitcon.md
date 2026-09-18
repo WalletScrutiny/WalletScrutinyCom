@@ -12,7 +12,7 @@ android:
   updated: 2026-04-06
   version: 3.2.0
   icon: com.bitcon.png
-  meta: fewusers
+  meta: removed
   verdict: wip
   developerName: Spend The Bits Inc.
 

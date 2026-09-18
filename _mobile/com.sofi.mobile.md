@@ -15,8 +15,8 @@ android:
   appCountry: us
   released: 2017-04-10
   updated: 2026-09-11
-  version: 3.112.0
-  reviews: 21398
+  version: 3.113.0
+  reviews: 21410
   icon: com.sofi.mobile.png
   meta: ok
   verdict: nosendreceive
@@ -26,9 +26,9 @@ iphone:
   idd: '1191985736'
   appCountry: us
   released: 2017-04-10
-  updated: 2026-09-05
-  version: 3.112.0
-  reviews: 385475
+  updated: 2026-09-14
+  version: 3.113.0
+  reviews: 385446
   icon: com.sofi.mobile.jpg
   meta: ok
   verdict: nosendreceive

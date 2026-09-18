@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-02-19
-  updated: 2026-08-26
-  version: 2.9.0-Rabex
+  updated: 2026-09-15
+  version: 2.10.0-Rabex
   reviews: 10
   icon: com.rabin.rabex.png
   meta: ok

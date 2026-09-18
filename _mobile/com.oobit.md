@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-07
-  updated: 2026-09-10
-  version: 3.3.2
+  updated: 2026-09-16
+  version: 3.3.3
   reviews: 51
   icon: com.oobit.png
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '1598882898'
   appCountry: br
   released: 2022-02-05
-  updated: 2026-09-14
-  version: 3.3.2
+  updated: 2026-09-17
+  version: 3.3.3
   reviews: 1021
   icon: com.oobit.jpg
   meta: ok

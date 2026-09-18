@@ -31,7 +31,7 @@ iphone:
   released: 2015-01-21
   updated: 2026-07-08
   version: 4.20.5
-  reviews: 109761
+  reviews: 109771
   icon: jp.coincheck.ios.jpg
   meta: ok
   verdict: custodial

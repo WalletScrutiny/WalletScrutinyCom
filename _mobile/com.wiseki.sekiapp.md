@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-05-31
-  updated: 2026-09-08
-  version: 2.3.19
+  updated: 2026-09-15
+  version: 2.3.21
   reviews: 25
   icon: com.wiseki.sekiapp.png
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1622624126'
   appCountry: ng
   released: 2022-06-22
-  updated: 2026-07-05
-  version: 2.3.12
+  updated: 2026-09-17
+  version: 2.3.21
   reviews: 87
   icon: com.wiseki.sekiapp.new.jpg
   meta: ok

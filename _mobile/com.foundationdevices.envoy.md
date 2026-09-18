@@ -40,8 +40,8 @@ iphone:
   idd: '1584811818'
   appCountry: us
   released: 2022-07-14
-  updated: 2026-08-27
-  version: 2.3.3
+  updated: 2026-09-15
+  version: 2.3.4
   reviews: 30
   icon: com.foundationdevices.envoy.jpg
   meta: ok

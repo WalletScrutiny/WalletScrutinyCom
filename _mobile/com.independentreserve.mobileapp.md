@@ -36,9 +36,9 @@ iphone:
   idd: '1566499416'
   appCountry: au
   released: 2021-10-18
-  updated: 2026-08-31
-  version: 16.0.0
-  reviews: 2285
+  updated: 2026-09-15
+  version: 16.1.0
+  reviews: 2286
   icon: com.independentreserve.mobileapp.jpg
   meta: ok
   verdict: custodial

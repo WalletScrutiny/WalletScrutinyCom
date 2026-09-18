@@ -29,7 +29,7 @@ iphone:
   released: 2021-06-22
   updated: 2021-12-23
   version: 1.8.7
-  reviews: 154
+  reviews: 155
   icon: com.bitbns.bnspay.jpg
   meta: obsolete
   verdict: custodial

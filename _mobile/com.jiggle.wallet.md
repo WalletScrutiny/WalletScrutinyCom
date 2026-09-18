@@ -28,7 +28,7 @@ iphone:
   released: 2023-06-28
   updated: 2026-09-07
   version: 3.2.4
-  reviews: 291
+  reviews: 290
   icon: com.jiggle.cryptowallet.jpg
   meta: ok
   verdict: custodial

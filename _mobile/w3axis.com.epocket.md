@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-06-23
-  updated: 2026-09-11
-  version: '3.58'
+  updated: 2026-09-18
+  version: '3.59'
   reviews: 2
   icon: w3axis.com.epocket.png
   meta: ok

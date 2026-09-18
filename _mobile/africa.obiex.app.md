@@ -17,7 +17,7 @@ redirect_from:
 - /iphone/africa.obiex.app/
 android:
   appId: africa.obiex.app
-  users: 50000
+  users: 100000
   appCountry: us
   released: 2021-06-09
   updated: 2026-09-05

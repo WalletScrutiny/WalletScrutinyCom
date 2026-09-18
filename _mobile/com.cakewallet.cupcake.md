@@ -26,7 +26,7 @@ iphone:
   released: 2024-11-16
   updated: 2025-12-03
   version: 1.1.1
-  reviews: 9
+  reviews: 10
   icon: com.cakewallet.cupcake.jpg
   meta: ok
   verdict: sourceavailable

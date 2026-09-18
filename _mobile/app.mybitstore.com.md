@@ -18,11 +18,11 @@ android:
   users: 10000
   appCountry: us
   released: 2021-08-12
-  updated: 2025-06-05
-  version: 7.0.9
+  updated: 2026-09-16
+  version: 7.1.0
   reviews: 7
   icon: app.mybitstore.com.png
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: Mybitstore - Buy & Sell BTC
 iphone:
@@ -32,7 +32,7 @@ iphone:
   released: 2021-08-12
   updated: 2025-02-18
   version: 7.0.9
-  reviews: 487
+  reviews: 488
   icon: app.mybitstore.com.jpg
   meta: stale
   verdict: custodial

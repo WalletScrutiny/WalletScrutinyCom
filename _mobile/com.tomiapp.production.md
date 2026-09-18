@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-09-08
-  updated: 2026-02-06
-  version: '267.0'
+  updated: 2026-09-10
+  version: '268.0'
   reviews: 4
   icon: com.tomiapp.production.png
   meta: ok
