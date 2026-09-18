@@ -12,6 +12,14 @@ import {
   getRowLookupHashes,
   findMultiFileItemInGroup,
   attestationMatchesRowHashes,
+  buildHashVerdictIndex,
+  getUnverifiedRowHashHints,
+  HASH_HINT_REPRODUCIBLE_ELSEWHERE,
+  HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE,
+  HASH_HINT_UNATTEMPTED,
+  HASH_HINT_REPRODUCIBLE_TOOLTIP,
+  HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP,
+  HASH_HINT_UNATTEMPTED_TOOLTIP,
 } from "./assets-table-filters.mjs";
 import { setAssetTableResponse } from "./assets-table-state.mjs";
 import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
@@ -55,6 +63,12 @@ const getPrimaryFileName = event => {
 
 const BLOSSOM_DOWNLOAD_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>`;
 
+const HASH_HINT_CHECK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
+
+const HASH_HINT_X_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`;
+
+const HASH_HINT_QUESTION_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`;
+
 const HASH_COPY_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>`;
 
 function hexOrEmpty(value) {
@@ -68,6 +82,42 @@ function getFileAttachmentIds(item) {
   return (item.tags || [])
     .filter(tag => tag[0] === 'file-attachment' && isSha256Hex(tag[1]))
     .map(tag => tag[1]);
+}
+
+const HASH_HINT_ICONS = {
+  [HASH_HINT_REPRODUCIBLE_ELSEWHERE]: {
+    modifier: 'hash-hint--reproducible',
+    tooltip: HASH_HINT_REPRODUCIBLE_TOOLTIP,
+    svg: HASH_HINT_CHECK_SVG,
+  },
+  [HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE]: {
+    modifier: 'hash-hint--not-reproducible',
+    tooltip: HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP,
+    svg: HASH_HINT_X_SVG,
+  },
+  [HASH_HINT_UNATTEMPTED]: {
+    modifier: 'hash-hint--unattempted',
+    tooltip: HASH_HINT_UNATTEMPTED_TOOLTIP,
+    svg: HASH_HINT_QUESTION_SVG,
+  },
+};
+
+function createHashHintIcon(kind) {
+  const icon = HASH_HINT_ICONS[kind];
+  if (!icon) {
+    return null;
+  }
+  return el('span', {
+    className: `hash-hint ${icon.modifier}`,
+    dataset: { tooltip: icon.tooltip },
+    'aria-label': icon.tooltip,
+    role: 'img',
+    tabindex: '0',
+  }, el('span', {
+    className: 'hash-hint__icon',
+    'aria-hidden': 'true',
+    html: icon.svg,
+  }));
 }
 
 function createHashCopyButton(hash, title = 'Copy hash to clipboard') {
@@ -101,7 +151,7 @@ function createCopyAllHashesButton(allHashes) {
   );
 }
 
-export function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes) {
+export function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes, hashHints = null) {
   if (sha256Hashes.length === 0) {
     cell.textContent = '-';
     return;
@@ -111,10 +161,12 @@ export function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes) {
     if (hash[2]) {
       entry.appendChild(el('div', { className: 'hash-file-name', title: hash[2] }, hash[2]));
     }
+    const hintIcon = hashHints?.get(hash[1]);
     entry.appendChild(
       el('div', { className: 'hash-row' },
         el('span', { className: 'hash-display', title: hash[1] || '' }, hash[1]),
         createHashCopyButton(hash[1]),
+        hintIcon ? createHashHintIcon(hintIcon) : null,
       ),
     );
     cell.appendChild(entry);
@@ -508,6 +560,8 @@ export function paintMainAssetsTable({
     return collected;
   };
 
+  const hashVerdictIndex = buildHashVerdictIndex(assetInfo.verifications);
+
   const table = el('table', { id: 'assetsTable', className: 'assets-table' });
   const thead = el('thead');
   const headerRow = el('tr');
@@ -570,6 +624,9 @@ export function paintMainAssetsTable({
           .filter(attestation => attestationMatchesRowHashes(attestation, lookupHashes)),
       );
       const hasVerifications = attestations.length > 0;
+      const hashHints = hasVerifications
+        ? null
+        : getUnverifiedRowHashHints(lookupHashes, hashVerdictIndex);
       const warningBadge = createVersionWarningBadge(attestations);
 
       if (hasVerifications) {
@@ -638,7 +695,7 @@ export function paintMainAssetsTable({
       row.dataset.searchText = `${walletTitle} ${version} ${itemDescription} ${fileNamesForSearch}`.toLowerCase();
 
       const mobileHashMount = el('span');
-      fillHashCell(mobileHashMount, sha256Hashes, allSha256Hashes);
+      fillHashCell(mobileHashMount, sha256Hashes, allSha256Hashes, hashHints);
 
       // Wallet / version cell
       const versionCell = el('td', {
@@ -689,7 +746,7 @@ export function paintMainAssetsTable({
       // Hashes
       if (!hideConfig?.sha256) {
         const hashCell = el('td', { className: 'hide-on-mobile hash-cell' });
-        fillHashCell(hashCell, sha256Hashes, allSha256Hashes);
+        fillHashCell(hashCell, sha256Hashes, allSha256Hashes, hashHints);
         row.appendChild(hashCell);
       }
 

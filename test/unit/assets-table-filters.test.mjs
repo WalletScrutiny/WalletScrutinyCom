@@ -8,6 +8,11 @@ import {
   findMultiFileItemInGroup,
   getRowLookupHashes,
   attestationMatchesRowHashes,
+  buildHashVerdictIndex,
+  getUnverifiedRowHashHints,
+  HASH_HINT_REPRODUCIBLE_ELSEWHERE,
+  HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE,
+  HASH_HINT_UNATTEMPTED,
 } from '../../src/assets-table-filters.mjs';
 import { getAssetFileEntries } from '../../src/asset-utils.mjs';
 import { assetBundleRegistrationKind, verificationKind } from '../../src/nostr-constants.mjs';
@@ -190,6 +195,77 @@ describe('attestationMatchesRowHashes', () => {
     const verification = makeEvent({ kind: verificationKind, tags: [['x', HASH_A]] });
     assert.equal(attestationMatchesRowHashes(verification, []), false);
     assert.equal(attestationMatchesRowHashes(makeEvent({ tags: [] }), [HASH_A]), false);
+  });
+});
+
+describe('getUnverifiedRowHashHints', () => {
+  const rowHashes = [HASH_A, HASH_B, HASH_C, HASH_E];
+  const verification = (id, status, hashes) => makeEvent({
+    id,
+    kind: verificationKind,
+    tags: [['status', status], ...hashes.map(hash => ['x', hash])],
+  });
+  // Same shape as assetInfo.verifications: every listed hash keys the event.
+  const indexOf = (...events) => {
+    const map = new Map();
+    for (const event of events) {
+      for (const tag of event.tags.filter(t => t[0] === 'x')) {
+        map.set(tag[1], [...(map.get(tag[1]) || []), event]);
+      }
+    }
+    return buildHashVerdictIndex(map);
+  };
+
+  test('marks overlapping not-reproducible files and leaves the unattempted file as a question mark', () => {
+    const danny = verification('danny', 'not_reproducible', [HASH_A, HASH_B, HASH_C, HASH_D]);
+    const hints = getUnverifiedRowHashHints(rowHashes, indexOf(danny));
+    assert.equal(hints.get(HASH_A), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_B), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_C), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_E), HASH_HINT_UNATTEMPTED);
+    assert.equal(hints.has(HASH_D), false);
+  });
+
+  test('marks files that reproduced in another set with a check mark', () => {
+    const other = verification('other', 'reproducible', [HASH_A, HASH_B, HASH_C, HASH_D]);
+    const hints = getUnverifiedRowHashHints(rowHashes, indexOf(other));
+    assert.equal(hints.get(HASH_A), HASH_HINT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_B), HASH_HINT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_C), HASH_HINT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_E), HASH_HINT_UNATTEMPTED);
+    assert.equal(hints.size, 4);
+  });
+
+  test('a reproducible verdict outranks a not-reproducible one for the same file', () => {
+    const good = verification('good', 'reproducible', [HASH_A, HASH_D]);
+    const bad = verification('bad', 'not_reproducible', [HASH_A, HASH_B]);
+    const hints = getUnverifiedRowHashHints(rowHashes, indexOf(good, bad));
+    assert.equal(hints.get(HASH_A), HASH_HINT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_B), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+  });
+
+  test('ftbfs and other non-verdict statuses leave a file without a result', () => {
+    const broken = verification('broken', 'ftbfs', [HASH_A, HASH_B]);
+    const bad = verification('bad', 'not_reproducible', [HASH_C, HASH_D]);
+    const hints = getUnverifiedRowHashHints(rowHashes, indexOf(broken, bad));
+    assert.equal(hints.get(HASH_A), HASH_HINT_UNATTEMPTED);
+    assert.equal(hints.get(HASH_B), HASH_HINT_UNATTEMPTED);
+    assert.equal(hints.get(HASH_C), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+  });
+
+  test('returns no hints when no file has a verdict elsewhere', () => {
+    assert.equal(getUnverifiedRowHashHints(rowHashes, indexOf()).size, 0);
+    const broken = verification('broken', 'ftbfs', [HASH_A, HASH_B]);
+    assert.equal(getUnverifiedRowHashHints(rowHashes, indexOf(broken)).size, 0);
+    assert.equal(getUnverifiedRowHashHints([], indexOf(broken)).size, 0);
+  });
+
+  test('buildHashVerdictIndex visits an event once even though every hash keys it', () => {
+    const event = verification('once', 'reproducible', [HASH_A, HASH_B]);
+    const index = indexOf(event);
+    assert.equal(index.size, 2);
+    assert.deepEqual(index.get(HASH_A), { reproducible: true, notReproducible: false });
+    assert.equal(buildHashVerdictIndex(null).size, 0);
   });
 });
 

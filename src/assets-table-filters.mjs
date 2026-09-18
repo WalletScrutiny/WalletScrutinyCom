@@ -33,6 +33,79 @@ export function getRowLookupHashes(group, fallbackHash) {
   return [fallbackHash || firstItemHashes[0]].filter(Boolean);
 }
 
+export const HASH_HINT_REPRODUCIBLE_ELSEWHERE = 'reproducible_elsewhere';
+export const HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE = 'not_reproducible_elsewhere';
+export const HASH_HINT_UNATTEMPTED = 'unattempted';
+export const HASH_HINT_REPRODUCIBLE_TOOLTIP =
+  'Reproducible in a verification for another set of files';
+export const HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP =
+  'Not reproducible in a verification for another set of files';
+export const HASH_HINT_UNATTEMPTED_TOOLTIP = 'No build reproducibility result for this file yet';
+
+function getVerificationStatus(event) {
+  return event.tags?.find(tag => tag[0] === 'status')?.[1] || '';
+}
+
+/**
+ * hash -> { reproducible, notReproducible } over every published verification, built once per
+ * paint so each row is a lookup instead of a scan of all verifications. Only these two verdicts
+ * say something about a file; ftbfs, nosource etc. leave it without a result.
+ */
+export function buildHashVerdictIndex(verificationsMap) {
+  const index = new Map();
+  const seen = new Set();
+  for (const list of verificationsMap?.values() || []) {
+    for (const verification of list || []) {
+      if (!verification?.id || seen.has(verification.id)) {
+        continue;
+      }
+      seen.add(verification.id);
+      const status = getVerificationStatus(verification);
+      if (status !== 'reproducible' && status !== 'not_reproducible') {
+        continue;
+      }
+      for (const entry of getAssetFileEntries(verification)) {
+        if (!entry.hash) {
+          continue;
+        }
+        let verdicts = index.get(entry.hash);
+        if (!verdicts) {
+          verdicts = { reproducible: false, notReproducible: false };
+          index.set(entry.hash, verdicts);
+        }
+        verdicts[status === 'reproducible' ? 'reproducible' : 'notReproducible'] = true;
+      }
+    }
+  }
+  return index;
+}
+
+function getHashHintKind(verdicts) {
+  if (!verdicts) {
+    return HASH_HINT_UNATTEMPTED;
+  }
+  // A reproducible set vouches for every file in it; a not_reproducible set only says that some
+  // file in it differed. So a file that reproduced anywhere outranks a failure elsewhere.
+  return verdicts.reproducible
+    ? HASH_HINT_REPRODUCIBLE_ELSEWHERE
+    : HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE;
+}
+
+/**
+ * Icons for an unverified row whose files overlap another hash set.
+ * Only call this for rows without a matching verification of their own. Returns a map only when
+ * at least one file has a verdict elsewhere; files without one on that same row get a question mark.
+ */
+export function getUnverifiedRowHashHints(rowHashes, hashVerdictIndex) {
+  const rowUnique = [...new Set((rowHashes || []).filter(Boolean))];
+  const hints = new Map();
+  for (const hash of rowUnique) {
+    hints.set(hash, getHashHintKind(hashVerdictIndex?.get(hash)));
+  }
+  const hasVerdictElsewhere = [...hints.values()].some(kind => kind !== HASH_HINT_UNATTEMPTED);
+  return hasVerdictElsewhere ? hints : new Map();
+}
+
 /** True when an attestation belongs to this row's artifact, not merely shares a file hash. */
 export function attestationMatchesRowHashes(attestation, rowHashes) {
   const listed = [...new Set(
