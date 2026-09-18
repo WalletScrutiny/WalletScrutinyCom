@@ -11,6 +11,8 @@ import {
   getLegacyAssetLookupHash,
   getAssetIndexHashes,
   bundleHasFullVerification,
+  parseHashListInput,
+  buildVerificationHashTags,
 } from '../../src/asset-utils.mjs';
 import {
   assetRegistrationKind,
@@ -174,5 +176,74 @@ describe('bundleHasFullVerification', () => {
     });
     const map = new Map([[HASH_A, [verification]]]);
     assert.equal(bundleHasFullVerification(asset, map), false);
+  });
+});
+
+describe('parseHashListInput', () => {
+  const upperA = HASH_A.toUpperCase();
+
+  test('takes bare hashes, one per line, lower-cased and de-duplicated', () => {
+    const { entries, invalidLines } = parseHashListInput(`${upperA}\n\n${HASH_B}\n${HASH_A}\n`);
+    assert.deepEqual(entries, [
+      { sha256: HASH_A, fileName: null },
+      { sha256: HASH_B, fileName: null },
+    ]);
+    assert.deepEqual(invalidLines, []);
+  });
+
+  test('reads sha256sum output, including binary-mode markers', () => {
+    const { entries } = parseHashListInput(`${HASH_A}  base.apk\n${HASH_B} *split_config.arm64_v8a.apk`);
+    assert.deepEqual(entries, [
+      { sha256: HASH_A, fileName: 'base.apk' },
+      { sha256: HASH_B, fileName: 'split_config.arm64_v8a.apk' },
+    ]);
+  });
+
+  test('reads "file: hash" and BSD "SHA256 (file) = hash" forms', () => {
+    const { entries } = parseHashListInput(`wallet.dmg: ${HASH_A}\nSHA256 (wallet.deb) = ${HASH_B}`);
+    assert.deepEqual(entries, [
+      { sha256: HASH_A, fileName: 'wallet.dmg' },
+      { sha256: HASH_B, fileName: 'wallet.deb' },
+    ]);
+  });
+
+  test('several hashes on one line are all taken without a file name', () => {
+    const { entries } = parseHashListInput(`${HASH_A} ${HASH_B}, ${HASH_C}`);
+    assert.deepEqual(entries.map(entry => entry.sha256), [HASH_A, HASH_B, HASH_C]);
+    assert.ok(entries.every(entry => entry.fileName === null));
+  });
+
+  test('keeps the first file name seen for a repeated hash', () => {
+    const { entries } = parseHashListInput(`${HASH_A} base.apk\n${HASH_A} other.apk`);
+    assert.deepEqual(entries, [{ sha256: HASH_A, fileName: 'base.apk' }]);
+  });
+
+  test('reports lines without a hash as invalid and keeps going', () => {
+    const { entries, invalidLines } = parseHashListInput(`not a hash\n${HASH_A.slice(0, 63)}\n${HASH_B}`);
+    assert.deepEqual(entries, [{ sha256: HASH_B, fileName: null }]);
+    assert.deepEqual(invalidLines, ['not a hash', HASH_A.slice(0, 63)]);
+  });
+
+  test('tolerates empty input', () => {
+    assert.deepEqual(parseHashListInput(''), { entries: [], invalidLines: [] });
+    assert.deepEqual(parseHashListInput(null), { entries: [], invalidLines: [] });
+  });
+});
+
+describe('buildVerificationHashTags', () => {
+  test('adds the file name as third element only when one is known', () => {
+    assert.deepEqual(
+      buildVerificationHashTags([HASH_A, HASH_B], { [HASH_A]: 'base.apk', [HASH_B]: '   ' }),
+      [['x', HASH_A, 'base.apk'], ['x', HASH_B]],
+    );
+  });
+
+  test('accepts a Map and no names at all', () => {
+    assert.deepEqual(
+      buildVerificationHashTags([HASH_A], new Map([[HASH_A, 'a.bin']])),
+      [['x', HASH_A, 'a.bin']],
+    );
+    assert.deepEqual(buildVerificationHashTags([HASH_A]), [['x', HASH_A]]);
+    assert.deepEqual(buildVerificationHashTags([HASH_A], null), [['x', HASH_A]]);
   });
 });

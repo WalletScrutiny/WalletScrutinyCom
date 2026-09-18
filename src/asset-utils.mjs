@@ -137,3 +137,91 @@ export function bundleHasFullVerification(asset, verificationsMap) {
   }
   return false;
 }
+
+const SHA256_TOKEN_PATTERN = /^[a-fA-F0-9]{64}$/;
+// BSD style: "SHA256 (base.apk) = <hash>"
+const BSD_DIGEST_LINE = /^SHA-?256\s*\((.+)\)\s*=\s*([a-fA-F0-9]{64})$/i;
+
+function cleanFileNameToken(raw) {
+  if (!raw) {
+    return null;
+  }
+  // sha256sum marks binary-mode files with a leading '*'; shells and copy/paste add quotes.
+  const cleaned = raw.trim().replace(/^\*/, '').replace(/^["'`]+|["'`,;:]+$/g, '').trim();
+  return cleaned || null;
+}
+
+/**
+ * Parse free text typed or pasted into a hash field into asset file entries.
+ *
+ * Accepted per line: a bare hash, `sha256sum` output (`<hash>  <file>` or `<hash> *<file>`),
+ * the reversed `<file>: <hash>` / `<file> <hash>` form, and BSD `SHA256 (<file>) = <hash>`.
+ * Several hashes on one line are all taken (no file name). Hashes are lower-cased and
+ * de-duplicated; the first file name seen for a hash wins.
+ *
+ * @param {string} text
+ * @returns {{ entries: { sha256: string, fileName: string | null }[], invalidLines: string[] }}
+ */
+export function parseHashListInput(text) {
+  const entries = [];
+  const invalidLines = [];
+  const seen = new Set();
+
+  const push = (sha256, fileName) => {
+    const hash = sha256.toLowerCase();
+    if (seen.has(hash)) {
+      return;
+    }
+    seen.add(hash);
+    entries.push({ sha256: hash, fileName: cleanFileNameToken(fileName) });
+  };
+
+  for (const rawLine of String(text || '').split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) {
+      continue;
+    }
+
+    const bsd = line.match(BSD_DIGEST_LINE);
+    if (bsd) {
+      push(bsd[2], bsd[1]);
+      continue;
+    }
+
+    const tokens = line.split(/\s+/);
+    const hashTokens = tokens.filter(token => SHA256_TOKEN_PATTERN.test(token.replace(/[,;:]+$/, '')));
+    if (hashTokens.length === 0) {
+      invalidLines.push(line);
+      continue;
+    }
+    if (hashTokens.length > 1) {
+      hashTokens.forEach(token => push(token.replace(/[,;:]+$/, ''), null));
+      continue;
+    }
+
+    const hashIndex = tokens.findIndex(token => SHA256_TOKEN_PATTERN.test(token.replace(/[,;:]+$/, '')));
+    const rest = tokens.filter((_, index) => index !== hashIndex).join(' ');
+    push(tokens[hashIndex].replace(/[,;:]+$/, ''), rest);
+  }
+
+  return { entries, invalidLines };
+}
+
+/**
+ * Build the `x` tags of a verification event: `["x", hash]`, plus the file name as third
+ * element when one is known (same shape as kind 9401 asset bundle registrations).
+ *
+ * @param {string[]} hashes
+ * @param {Record<string, string> | Map<string, string> | null} fileNames hash -> file name
+ * @returns {string[][]}
+ */
+export function buildVerificationHashTags(hashes, fileNames = null) {
+  const lookup = fileNames instanceof Map
+    ? fileNames
+    : new Map(Object.entries(fileNames || {}));
+  return hashes.map(hash => {
+    const fileName = lookup.get(hash) || lookup.get(hash.toLowerCase());
+    const cleaned = typeof fileName === 'string' ? fileName.trim() : '';
+    return cleaned ? ['x', hash, cleaned] : ['x', hash];
+  });
+}

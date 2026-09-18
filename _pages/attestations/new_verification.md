@@ -161,9 +161,28 @@ permalink: /new_verification/
         font-size: 0.9em;
       }
     .hash-input-container {
-        display: flex;
-        gap: 10px;
         margin-bottom: 10px;
+        border-radius: 4px;
+    }
+    .hash-input-container.dragover textarea {
+        background-color: #e9ecef;
+        border: 2px dashed #aaa;
+    }
+    #hashFileInput {
+        display: none !important;
+    }
+    #newHash {
+        font-family: monospace;
+        font-size: 0.9em;
+        resize: vertical;
+    }
+    .hash-input-hint {
+        display: block;
+        min-height: 1.2em;
+        color: #c0392b;
+    }
+    .hash-input-hint:empty {
+        display: none;
     }
     .hash-list {
         display: flex;
@@ -183,9 +202,23 @@ permalink: /new_verification/
         padding: 5px;
         border-radius: 4px;
     }
-    .hash-item span {
+    .hash-item-main {
         flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .hash-item-hash {
         word-break: break-all;
+        font-family: monospace;
+        font-size: 0.9em;
+    }
+    .hash-item-name {
+        max-width: 28em;
+        font-size: 0.9em;
+        padding: 2px 6px;
+        height: auto;
     }
     .remove-hash {
         color: red;
@@ -193,6 +226,7 @@ permalink: /new_verification/
         border: none;
         background: none;
         padding: 0 5px;
+        flex-shrink: 0;
     }
     .drop-zone {
         background-color: #f8f9fa; /* Light background color */
@@ -442,15 +476,15 @@ permalink: /new_verification/
         </div>
 
         <div class="form-group">
-            <label id="hashesLabel"></label>
-            <div class="hash-input-container">
-                <input type="text" id="newHash" class="form-control" placeholder="Official download SHA-256 hash">
-                <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
-                    {% include icon.html name="plus" %}
-                </button>
+            <label for="newHash" id="hashesLabel"></label>
+            <div id="hashInputArea" class="hash-input-container">
+                <textarea id="newHash" class="form-control" rows="2" placeholder="Paste one or more official SHA-256 hashes here. sha256sum output (hash followed by file name) works too, or drop the official file(s) here."></textarea>
+                <small id="hashInputHint" class="form-text hash-input-hint" aria-live="polite"></small>
             </div>
+            <input type="file" id="hashFileInput" multiple hidden>
             <div id="hashList" class="hash-list"></div>
             <small class="form-text" id="hashesHelpText"></small>
+            <small class="form-text">Hashes are added to the list as soon as you paste or type them. You can also <a href="#" id="hashFileBrowse">pick the official file(s)</a> to compute hash and file name locally; nothing is uploaded.</small>
         </div>
 
         <!-- Script Usage Selector -->
@@ -509,6 +543,7 @@ permalink: /new_verification/
 
 <script>
   let otherHashes = [];
+  const hashFileNames = new Map(); // hash -> file name shown next to it on the assets table
   let newHashInputField;
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
@@ -521,13 +556,22 @@ permalink: /new_verification/
     return [...new Set([sha256, ...hashes].filter(Boolean))];
   }
 
-  const HASHES_HELP_BASE = 'Enter the original hash(es) of the asset you want to reproduce. Do not use the hash of your locally built artifact. For multi-file assets, add every hash. ';
+  const HASHES_HELP_BASE = 'Enter the original hash(es) of the asset you want to reproduce. Do not use the hash of your locally built artifact. For multi-file assets, add every hash. Give each hash its file name (e.g. base.apk) so people can tell the files apart. ';
 
   function loadHashesFromUrlParams(urlParams) {
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     const extraHashes = urlParams.getAll('hash')
       .map(hash => DOMPurify.sanitize(hash, purifyConfig))
       .filter(hash => hash && /^[a-fA-F0-9]{64}$/.test(hash) && hash !== sha256);
+
+    // Same shape as /new_asset/: one apkFileName per hash, in [sha256, ...hash] order,
+    // with a single fileName as fallback for a one-file asset.
+    const urlFileNames = urlParams.getAll('apkFileName')
+      .map(name => DOMPurify.sanitize(name, purifyConfig));
+    const fallbackFileName = DOMPurify.sanitize(urlParams.get('fileName'), purifyConfig);
+    const fileNameFor = (hash, index) => urlFileNames[index]
+      || (index === 0 && extraHashes.length === 0 ? fallbackFileName : '')
+      || null;
 
     const allUrlHashes = getUniqueVerificationHashes(sha256, extraHashes);
     const hashesLabel = document.getElementById('hashesLabel');
@@ -536,46 +580,174 @@ permalink: /new_verification/
     if (allUrlHashes.length > 1) {
       hashesLabel.textContent = 'Asset hashes:';
       hashesHelpText.textContent = HASHES_HELP_BASE;
-      allUrlHashes.forEach(hash => addHash(hash));
+      allUrlHashes.forEach((hash, index) => addHash(hash, fileNameFor(hash, index)));
     } else if (sha256) {
       hashesLabel.textContent = 'Asset hash:';
       hashesHelpText.textContent = HASHES_HELP_BASE;
-      addHash(sha256);
-      extraHashes.forEach(hash => addHash(hash));
+      addHash(sha256, fileNameFor(sha256, 0));
+      extraHashes.forEach((hash, index) => addHash(hash, fileNameFor(hash, index + 1)));
     } else {
       hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = `${HASHES_HELP_BASE} Press the (+) button to add each hash. Each hash must be 64 hexadecimal characters.`;
-      extraHashes.forEach(hash => addHash(hash));
+      hashesHelpText.textContent = `${HASHES_HELP_BASE} Each hash must be 64 hexadecimal characters.`;
+      extraHashes.forEach((hash, index) => addHash(hash, fileNameFor(hash, index)));
     }
 
     return sha256;
   }
 
-  function addHash(hash) {
+  function hashLineCanStillBecomeHash(line) {
+    return line.split(/\s+/).some(token => token.length < 64 && /^\*?[a-fA-F0-9]*$/.test(token));
+  }
+
+  /**
+   * Move every complete hash in the input field into the list. Lines that are not (yet) a
+   * hash stay in the field. While typing only clearly wrong lines (too long to be a hash)
+   * get an inline hint; on blur/submit (strict) every leftover line does.
+   * Returns the lines that were left behind.
+   */
+  function consumeHashInput({ strict = false } = {}) {
+    const hint = document.getElementById('hashInputHint');
+    const { entries, invalidLines } = parseHashListInput(newHashInputField.value);
+    entries.forEach(entry => addHash(entry.sha256, entry.fileName, { silent: true }));
+
+    if (entries.length > 0) {
+      newHashInputField.value = invalidLines.join('\n');
+    }
+    const hopeless = strict
+      ? invalidLines
+      : invalidLines.filter(line => !hashLineCanStillBecomeHash(line));
+    hint.textContent = hopeless.length > 0
+      ? `Not a SHA-256 hash (64 hexadecimal characters expected): ${hopeless.map(line => line.length > 40 ? line.slice(0, 40) + '…' : line).join(', ')}`
+      : '';
+    return invalidLines;
+  }
+
+  async function handleHashFiles(files) {
+    const incoming = Array.from(files || []);
+    if (incoming.length === 0) {
+      return;
+    }
+    const errors = [];
+    document.getElementById('loadingSpinner').style.display = 'block';
+    try {
+      for (const file of incoming) {
+        let members = [file];
+        try {
+          const expanded = await window.expandDroppedFile(file);
+          if (expanded.sourceZip && expanded.entries.length > 1) {
+            members = expanded.entries.map(entry => entry.file);
+          }
+        } catch (error) {
+          errors.push(`Could not read ZIP "${file.name}": ${error.message}`);
+          continue;
+        }
+        for (const member of members) {
+          try {
+            const hash = await calculateFileHash(member);
+            addHash(hash, member.name);
+          } catch (error) {
+            errors.push(`Could not calculate hash for "${member.name}": ${error.message}`);
+          }
+        }
+      }
+    } finally {
+      document.getElementById('loadingSpinner').style.display = 'none';
+    }
+    if (errors.length > 0) {
+      showToast(errors.join('\n'), 'error', 6000 + (errors.length * 2000));
+    }
+  }
+
+  function setupHashInput() {
+    const area = document.getElementById('hashInputArea');
+    const fileInput = document.getElementById('hashFileInput');
+    const browseLink = document.getElementById('hashFileBrowse');
+
+    newHashInputField.addEventListener('input', () => consumeHashInput());
+    newHashInputField.addEventListener('blur', () => consumeHashInput({ strict: true }));
+    newHashInputField.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        consumeHashInput({ strict: true });
+      }
+    });
+
+    browseLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      fileInput.click();
+    });
+    fileInput.addEventListener('change', async (e) => {
+      await handleHashFiles(e.target.files);
+      fileInput.value = '';
+    });
+
+    area.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      area.classList.add('dragover');
+    });
+    area.addEventListener('dragleave', () => area.classList.remove('dragover'));
+    area.addEventListener('drop', async (e) => {
+      area.classList.remove('dragover');
+      if (e.dataTransfer?.files?.length > 0) {
+        e.preventDefault();
+        await handleHashFiles(e.dataTransfer.files);
+      }
+      // Dropped text falls through to the textarea and is picked up by the input handler.
+    });
+  }
+
+  function addHash(hash, fileName = null, { silent = false } = {}) {
     if (!hash) return;
-    if (otherHashes.includes(hash)) {
-      showToast('This hash is already in the list', 'error');
+    // Keep the hash as given (event tags and URL parameters are already lower-case);
+    // only pasted text is normalised by parseHashListInput. Compare case-insensitively.
+    const existing = otherHashes.find(h => h.toLowerCase() === hash.toLowerCase());
+    if (existing) {
+      hash = existing;
+      if (fileName && !hashFileNames.get(hash)) {
+        hashFileNames.set(hash, fileName);
+        const existingInput = document.querySelector(`.hash-item[data-hash="${hash}"] .hash-item-name`);
+        if (existingInput) existingInput.value = fileName;
+      } else if (!silent) {
+        showToast('This hash is already in the list', 'error');
+      }
       return;
     }
 
     const hashItem = document.createElement('div');
     hashItem.className = 'hash-item';
+    hashItem.dataset.hash = hash;
     hashItem.innerHTML = `
-    <span>${hash}</span>
+    <div class="hash-item-main">
+      <span class="hash-item-hash">${hash}</span>
+      <input type="text" class="form-control hash-item-name" maxlength="255" autocomplete="off"
+             placeholder="File name, e.g. base.apk (recommended)" aria-label="File name for this hash">
+    </div>
     <button type="button" class="remove-hash" title="Remove this hash from the list">
       {% include icon.html name="minus" %}
     </button>
   `;
 
+    const nameInput = hashItem.querySelector('.hash-item-name');
+    nameInput.value = fileName || '';
+    nameInput.addEventListener('input', () => {
+      const value = nameInput.value.trim();
+      if (value) {
+        hashFileNames.set(hash, value);
+      } else {
+        hashFileNames.delete(hash);
+      }
+    });
+
     hashItem.querySelector('.remove-hash').addEventListener('click', () => {
       otherHashes = otherHashes.filter(h => h !== hash);
+      hashFileNames.delete(hash);
       hashItem.remove();
     });
 
     document.getElementById('hashList').appendChild(hashItem);
     otherHashes.push(hash);
-    if (newHashInputField) {
-      newHashInputField.value = '';
+    if (fileName) {
+      hashFileNames.set(hash, fileName);
     }
   }
 
@@ -835,8 +1007,8 @@ permalink: /new_verification/
         document.getElementById('content').value = eventContent.content || '';
         document.getElementById('issueTrackerUrl').value = getFirstTagValue(verificationEvent, 'issue-tracker-url') || '';
 
-        const hashes = verificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64) || [];
-        hashes.forEach(hash => addHash(hash));
+        const hashTags = verificationEvent.tags?.filter(tag => tag[0] === 'x' && tag[1]?.length === 64) || [];
+        hashTags.forEach(tag => addHash(tag[1], tag[2] || null));
       } else {
         showToast('Draft or verification not found', 'error');
       }
@@ -1091,10 +1263,19 @@ permalink: /new_verification/
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
     const basedOn = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('basedOn'), purifyConfig);
 
+    if (newHashInputField) {
+      const leftover = consumeHashInput({ strict: true });
+      if (leftover.length > 0) {
+        showToast(`The hash field contains text that is not a SHA-256 hash: ${leftover.join(' | ')}`, 'error');
+        return;
+      }
+    }
+
     const hashes = getUniqueVerificationHashes(sha256, otherHashes);
 
     const formData = {
       hashes: hashes,
+      fileNames: Object.fromEntries(hashFileNames),
       description: document.getElementById('description').value.trim(),
       content: document.getElementById('content').value.trim(),
       appId: document.getElementById('appId').value.trim(),
@@ -1184,7 +1365,7 @@ permalink: /new_verification/
 
     // Hash management
     newHashInputField = document.getElementById('newHash');
-    const addHashBtn = document.getElementById('addHash');
+    setupHashInput();
 
     const deleteDraftBtn = document.getElementById('deleteDraft');
     deleteDraftBtn.addEventListener('click', async function() {
@@ -1200,31 +1381,13 @@ permalink: /new_verification/
       await performAppIdRelatedActions(appId, scriptUsageSelector.value === 'reuse');
     });
 
-    addHashBtn.addEventListener('click', () => {
-      const hash = newHashInputField.value.trim();
-      if (!hash) {
-        showToast('Please enter a hash value', 'error');
-        return;
-      }
-      if (!/^[a-fA-F0-9]{64}$/.test(hash)) {
-        showToast('Invalid hash format. Must be 64 hexadecimal characters', 'error');
-        return;
-      }
-      addHash(hash);
-    });
-
-    newHashInputField.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        addHashBtn.click();
-      }
-    });
-
     initializePreviewButton();
   });
 
   window.addEventListener('allWalletsLoaded', async () => {
-    // Setup AutoComplete again, now with all the wallets loaded
+    // Setup AutoComplete again, now with all the wallets loaded. The wallet list can arrive
+    // before the verifications bundle defines the helper; the page init covers that case.
+    if (typeof setupAppIdAutocomplete !== 'function') return;
     setupAppIdAutocomplete(false);
   });
 </script>

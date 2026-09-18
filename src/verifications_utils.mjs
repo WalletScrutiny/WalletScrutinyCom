@@ -50,6 +50,8 @@ import {
   assetRegistrationKinds,
   getAssetFileEntries,
   getAssetIndexHashes,
+  parseHashListInput,
+  buildVerificationHashTags,
 } from './asset-utils.mjs';
 import { formatDate } from './format-utils.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
@@ -295,10 +297,9 @@ const createAssetBundleRegistration = async function ({
     tags.push(['platform', platform]);
   }
   for (const file of files) {
-    if (!file.fileName) {
-      throw new Error('Each file must have a fileName');
-    }
-    tags.push(['x', file.sha256, file.fileName]);
+    // File names are optional; they show up next to the hash on the assets table when present.
+    const fileName = typeof file.fileName === 'string' ? file.fileName.trim() : '';
+    tags.push(fileName ? ['x', file.sha256, fileName] : ['x', file.sha256]);
   }
 
   const eventDraft = createNostrEvent(assetBundleRegistrationKind, description, tags, createdAt);
@@ -322,10 +323,18 @@ const createVerification = async function ({
                                              uploadedFileData = [],
                                              reusedFileIds = [],
                                              outputFiles = [],
-                                             basedOn = null
+                                             basedOn = null,
+                                             fileNames = null
                                            }) {
   await ensureNostrConnected();
   validateSHA256(hashes);
+
+  const hashTags = buildVerificationHashTags(hashes, fileNames);
+  for (const tag of hashTags) {
+    if (tag[2]) {
+      validateParameterLengths({ fileName: tag[2] });
+    }
+  }
 
   if (!content || !status) {
     throw new Error("Missing required parameters");
@@ -384,9 +393,7 @@ const createVerification = async function ({
   if (platform) {
     tags.push(["platform", platform]);
   }
-  hashes.forEach(hash => {
-    tags.push(["x", hash]);
-  });
+  tags.push(...hashTags);
 
   // Add file event IDs as tags
   if (fileEventIds.length > 0) {
@@ -2406,6 +2413,7 @@ if (typeof window !== 'undefined') {
   window.subscribeToZapReceipts = subscribeToZapReceipts;
   window.createAuthorizationEvent = createAuthorizationEvent;
   window.getTagValue = getTagValue;
+  window.parseHashListInput = parseHashListInput;
   window.addEventListener('beforeunload', () => {
     cleanupNostrConnections();
   });
