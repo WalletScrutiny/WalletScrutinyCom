@@ -8,6 +8,9 @@ import {
   findMultiFileItemInGroup,
   getRowLookupHashes,
   attestationMatchesRowHashes,
+  getUnverifiedRowHashHints,
+  HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE,
+  HASH_HINT_UNATTEMPTED,
 } from '../../src/assets-table-filters.mjs';
 import { getAssetFileEntries } from '../../src/asset-utils.mjs';
 import { assetBundleRegistrationKind, verificationKind } from '../../src/nostr-constants.mjs';
@@ -190,6 +193,62 @@ describe('attestationMatchesRowHashes', () => {
     const verification = makeEvent({ kind: verificationKind, tags: [['x', HASH_A]] });
     assert.equal(attestationMatchesRowHashes(verification, []), false);
     assert.equal(attestationMatchesRowHashes(makeEvent({ tags: [] }), [HASH_A]), false);
+  });
+});
+
+describe('getUnverifiedRowHashHints', () => {
+  const rowHashes = [HASH_A, HASH_B, HASH_C, HASH_E];
+
+  test('marks overlapping not-reproducible files and leaves the unattempted file as a question mark', () => {
+    const danny = makeEvent({
+      id: 'danny',
+      kind: verificationKind,
+      tags: [
+        ['status', 'not_reproducible'],
+        ['x', HASH_A],
+        ['x', HASH_B],
+        ['x', HASH_C],
+        ['x', HASH_D],
+      ],
+    });
+    const hints = getUnverifiedRowHashHints(rowHashes, [danny]);
+    assert.equal(hints.get(HASH_A), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_B), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_C), HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    assert.equal(hints.get(HASH_E), HASH_HINT_UNATTEMPTED);
+    assert.equal(hints.has(HASH_D), false);
+  });
+
+  test('returns no hints when the row has its own matching verification', () => {
+    const own = makeEvent({
+      id: 'own',
+      kind: verificationKind,
+      tags: [
+        ['status', 'reproducible'],
+        ['x', HASH_A],
+        ['x', HASH_B],
+        ['x', HASH_C],
+        ['x', HASH_E],
+      ],
+    });
+    const hints = getUnverifiedRowHashHints(rowHashes, [own]);
+    assert.equal(hints.size, 0);
+  });
+
+  test('returns no hints when no other set was not reproducible', () => {
+    const other = makeEvent({
+      id: 'other',
+      kind: verificationKind,
+      tags: [
+        ['status', 'reproducible'],
+        ['x', HASH_A],
+        ['x', HASH_B],
+        ['x', HASH_C],
+        ['x', HASH_D],
+      ],
+    });
+    const hints = getUnverifiedRowHashHints(rowHashes, [other]);
+    assert.equal(hints.size, 0);
   });
 });
 

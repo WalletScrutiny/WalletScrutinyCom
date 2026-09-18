@@ -33,6 +33,77 @@ export function getRowLookupHashes(group, fallbackHash) {
   return [fallbackHash || firstItemHashes[0]].filter(Boolean);
 }
 
+export const HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE = 'not_reproducible_elsewhere';
+export const HASH_HINT_UNATTEMPTED = 'unattempted';
+export const HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP =
+  'Not reproducible in a verification for another set of files';
+export const HASH_HINT_UNATTEMPTED_TOOLTIP = 'Not tested for build reproducibility yet';
+
+export function listUniqueVerifications(verificationsMap) {
+  const byId = new Map();
+  if (!verificationsMap) {
+    return [];
+  }
+  for (const list of verificationsMap.values()) {
+    for (const event of list || []) {
+      if (event?.id && !byId.has(event.id)) {
+        byId.set(event.id, event);
+      }
+    }
+  }
+  return [...byId.values()];
+}
+
+function getVerificationStatus(event) {
+  return event.tags?.find(tag => tag[0] === 'status')?.[1] || '';
+}
+
+/**
+ * Icons for an unverified row whose files overlap another hash set.
+ * Returns a map only when at least one file was not_reproducible elsewhere;
+ * unattempted files on that same row get a question mark.
+ */
+export function getUnverifiedRowHashHints(rowHashes, publishedVerifications) {
+  const rowUnique = [...new Set((rowHashes || []).filter(Boolean))];
+  const hints = new Map();
+  if (rowUnique.length === 0) {
+    return hints;
+  }
+
+  const hashesTriedElsewhere = new Set();
+  const hashesNotReproducibleElsewhere = new Set();
+
+  for (const verification of publishedVerifications || []) {
+    if (attestationMatchesRowHashes(verification, rowUnique)) {
+      continue;
+    }
+    const listed = getAssetFileEntries(verification).map(entry => entry.hash).filter(Boolean);
+    if (listed.length === 0) {
+      continue;
+    }
+    const notReproducible = getVerificationStatus(verification) === 'not_reproducible';
+    for (const hash of listed) {
+      hashesTriedElsewhere.add(hash);
+      if (notReproducible) {
+        hashesNotReproducibleElsewhere.add(hash);
+      }
+    }
+  }
+
+  if (hashesNotReproducibleElsewhere.size === 0) {
+    return hints;
+  }
+
+  for (const hash of rowUnique) {
+    if (hashesNotReproducibleElsewhere.has(hash)) {
+      hints.set(hash, HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE);
+    } else if (!hashesTriedElsewhere.has(hash)) {
+      hints.set(hash, HASH_HINT_UNATTEMPTED);
+    }
+  }
+  return hints;
+}
+
 /** True when an attestation belongs to this row's artifact, not merely shares a file hash. */
 export function attestationMatchesRowHashes(attestation, rowHashes) {
   const listed = [...new Set(
