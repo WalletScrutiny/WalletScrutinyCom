@@ -15,6 +15,15 @@
         {% endcase %}
       {% endfor %}
     {% endif %}
+    {% comment %}The WalletScrutiny Android app only knows the wallets it was built with: sourceavailable ones with meta ok, deprecated or unset (scripts/updateAndroidWallets.mjs in the app repo).{% endcomment %}
+    {% assign ws_app_meta = page.android.meta | default: 'ok' %}
+    {% if page.android.verdict == 'sourceavailable' %}
+      {% if ws_app_meta == 'ok' or ws_app_meta == 'deprecated' %}
+        <a title="Check the build installed on your phone with the WalletScrutiny Android app" href="{{ site.baseurl }}/androidApp/" class="link-web subtle distribution-store-link">
+          {% include icon.html name="android" %} Check your install
+        </a>
+      {% endif %}
+    {% endif %}
   {% endif %}
   {% if include.iphoneAppId and include.idd %}
     <a title="App Store" href="https://apps.apple.com/{{ app_country }}/app/id{{ include.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
