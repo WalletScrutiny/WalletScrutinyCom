@@ -61,6 +61,13 @@ permalink: /new_asset/
   .file-item-size {
     white-space: nowrap;
   }
+  .file-item-name-input {
+    margin-top: 0.3rem;
+    max-width: 28em;
+    font-size: 0.9em;
+    padding: 2px 6px;
+    height: auto;
+  }
   .file-item-hash {
     margin-top: 0.4rem;
     font-size: 0.85em;
@@ -97,7 +104,7 @@ permalink: /new_asset/
     <div id="assetFilesDropzoneArea" class="form-group">
       <label for="assetFilesInput" id="assetFilesDropZone" class="drop-zone">
         <span class="drop-zone-text" style="width: 100%">
-          <p><b>Drag and drop</b> one or more files here, or use the button below. Hashes are calculated automatically.</p>
+          <p><b>Drag and drop</b> one or more files here, or click to pick them. Hashes are calculated automatically and the file name is taken from the file; you can edit it in the list below.</p>
         </span>
       </label>
       <input type="file" id="assetFilesInput" multiple>
@@ -169,10 +176,18 @@ permalink: /new_asset/
       fileItem.className = 'file-item';
       fileItem.innerHTML = `
         <div class="file-item-details">
-          <div class="file-item-name">${file.fileName} <span class="file-item-size">${sizeLabel}</span></div>
+          <div class="file-item-name"><span class="file-item-size">${sizeLabel}</span></div>
+          <input type="text" class="form-control file-item-name-input" maxlength="255" autocomplete="off"
+                 placeholder="File name (optional), e.g. base.apk" aria-label="File name" data-index="${index}">
           <div class="file-item-hash">${file.sha256}</div>
         </div>
         <button type="button" class="remove-file" title="Remove this file" data-index="${index}">×</button>`;
+
+      const nameInput = fileItem.querySelector('.file-item-name-input');
+      nameInput.value = file.fileName || '';
+      nameInput.addEventListener('input', () => {
+        file.fileName = nameInput.value.trim();
+      });
 
       fileItem.querySelector('.remove-file').addEventListener('click', (e) => {
         const indexToRemove = parseInt(e.currentTarget.getAttribute('data-index'), 10);
@@ -248,13 +263,11 @@ permalink: /new_asset/
       .filter(Boolean);
     const fallbackFileName = DOMPurify.sanitize(urlParams.get('fileName'), purifyConfig);
 
+    // No made-up placeholder names: an entry without a name gets an empty, optional name field.
     hashes.forEach((hash, index) => {
-      let fileName = apkFileNames[index];
-      if (!fileName) {
-        fileName = hashes.length === 1 && fallbackFileName
-          ? fallbackFileName
-          : `apk-${index + 1}.apk`;
-      }
+      const fileName = apkFileNames[index]
+        || (hashes.length === 1 ? fallbackFileName : '')
+        || '';
       addAssetFileEntry({ sha256: hash, fileName });
     });
 
@@ -370,7 +383,7 @@ permalink: /new_asset/
       version: document.getElementById('version').value.trim(),
       appId: document.getElementById('appId').value.trim(),
       platform: document.getElementById('platform').value,
-      files: assetFiles.map(f => ({ sha256: f.sha256, fileName: f.fileName }))
+      files: assetFiles.map(f => ({ sha256: f.sha256, fileName: (f.fileName || '').trim() || null }))
     };
 
     if (!formData.appId) delete formData.appId;
@@ -448,6 +461,9 @@ permalink: /new_asset/
   window.addEventListener('verificationsUILoaded', initializeNewAssetPage);
 
   window.addEventListener('allWalletsLoaded', async () => {
+    // The wallet list can arrive before the verifications bundle defines the helper;
+    // initializeNewAssetPage covers that case.
+    if (typeof setupAppIdAutocomplete !== 'function') return;
     setupAppIdAutocomplete(false);
   });
 </script>
