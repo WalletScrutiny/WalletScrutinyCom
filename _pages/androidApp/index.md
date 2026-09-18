@@ -28,8 +28,7 @@ author_profile: false
 </div>
 
 <p class="android-app-links">
-  <a href="{{ ws_app_repo }}" target="_blank" rel="noopener noreferrer">Source code</a> ·
-  <a href="{{ site.baseurl }}/androidApp/privacy/">Privacy policy</a>
+  <a href="{{ ws_app_repo }}" target="_blank" rel="noopener noreferrer">Source code</a>
 </p>
 
 </div>
