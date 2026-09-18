@@ -210,27 +210,13 @@
   text-decoration: none;
 }
 
-// /androidApp/: QR code next to its caption
-.android-app-share {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.25rem;
+// /androidApp/: two lead paragraphs, then source and privacy links under the buttons
+.android-app-page .guide-hero .guide-lead + .guide-lead {
+  margin-top: 1.25rem;
+}
 
-  img {
-    width: 9rem;
-    height: 9rem;
-    padding: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 0 1px var(--shadow-3);
-    background: var(--permanent-white);
-  }
-
-  p {
-    flex: 1 1 16rem;
-    margin: 0;
-    line-height: 1.6;
-    font-weight: $paragraph-font-weight;
-    color: var(--neutral-2);
-  }
+.android-app-links {
+  text-align: center;
+  color: var(--neutral-2);
+  font-weight: $paragraph-font-weight;
 }

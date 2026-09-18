@@ -50,20 +50,15 @@ test.describe('Navigation and read-only pages', () => {
     assertNoConsoleErrors();
   });
 
-  test('android app page links the latest release and the footer reaches it', async ({ page }, testInfo) => {
+  test('android app page links the stores and the footer reaches it', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
     await page.goto('/androidApp/');
 
     await expect(page.locator('h1.page__title')).toContainText(/android app/i);
 
-    const releaseBase = 'https://gitlab.com/walletscrutiny/walletscrutinyandroid/-/releases/permalink/latest/downloads/';
-    await expect(page.getByRole('link', { name: /download apk/i })).toHaveAttribute('href', `${releaseBase}walletscrutiny-arm.apk`);
-    await expect(page.getByRole('link', { name: /walletscrutiny-arm\.apk\.sha256/ })).toHaveAttribute('href', `${releaseBase}walletscrutiny-arm.apk.sha256`);
-    await expect(page.getByRole('link', { name: /add to obtainium/i })).toHaveAttribute('href', /obtainium:\/\/add\/https:\/\/gitlab\.com\/walletscrutiny\/walletscrutinyandroid$/);
-
-    await expect(page.locator('.landing-copy-row__value')).toHaveText('615bf6cba1c73c90b0515e74f871224ba4e7ed6d6355b9d5ee4a5d1c9d28cfb2');
-    await expect(page.locator('.android-app-share img')).toBeVisible();
+    await expect(page.getByRole('link', { name: /zapstore/i })).toHaveAttribute('href', 'https://zapstore.dev/apps/com.walletscrutiny.ng_app');
+    await expect(page.getByRole('link', { name: /download from gitlab/i })).toHaveAttribute('href', 'https://gitlab.com/walletscrutiny/walletscrutinyandroid/-/releases/permalink/latest');
 
     const footerLink = page.locator('.site-footer__social a[href$="/androidApp/"]');
     await expect(footerLink).toHaveAttribute('aria-label', 'Android app');
