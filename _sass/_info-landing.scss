@@ -209,3 +209,14 @@
 .archive .info-landing-page a.contribute-card:focus {
   text-decoration: none;
 }
+
+// /androidApp/: two lead paragraphs, then source and privacy links under the buttons
+.android-app-page .guide-hero .guide-lead + .guide-lead {
+  margin-top: 1.25rem;
+}
+
+.android-app-links {
+  text-align: center;
+  color: var(--neutral-2);
+  font-weight: $paragraph-font-weight;
+}

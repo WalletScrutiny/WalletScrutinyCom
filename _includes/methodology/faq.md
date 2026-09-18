@@ -76,3 +76,10 @@ might be compromised. And compromising code in ways that go unnoticed by an
 auditor is [kind of a sport](https://en.wikipedia.org/wiki/Underhanded_C_Contest).
 
 {% include tee.md %}
+
+## How do I check the wallet installed on my own phone?
+
+Install the [WalletScrutiny Android app](/androidApp/). It hashes the wallets
+on your phone, matches them against our verifications and shows whether the
+exact build you are running was reproduced. Builds nobody has tested yet are
+sent to the build server, so your update becomes a verification for everyone.

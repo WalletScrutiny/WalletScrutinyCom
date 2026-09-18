@@ -49,4 +49,33 @@ test.describe('Navigation and read-only pages', () => {
 
     assertNoConsoleErrors();
   });
+
+  test('android app page links the stores and the footer reaches it', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/androidApp/');
+
+    await expect(page.locator('h1.page__title')).toContainText(/android app/i);
+
+    await expect(page.getByRole('link', { name: /zapstore/i })).toHaveAttribute('href', 'https://zapstore.dev/apps/com.walletscrutiny.ng_app');
+    await expect(page.getByRole('link', { name: /download from gitlab/i })).toHaveAttribute('href', 'https://gitlab.com/walletscrutiny/walletscrutinyandroid/-/releases/permalink/latest');
+
+    const footerLink = page.locator('.site-footer__social a[href$="/androidApp/"]');
+    await expect(footerLink).toHaveAttribute('aria-label', 'Android app');
+    await expect(footerLink.locator('svg.ws-icon-android use')).toHaveAttribute('href', /#android$/);
+
+    assertNoConsoleErrors();
+  });
+
+  test('source-available wallet review links the android app', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/mobile/com.mycelium.wallet/');
+
+    const appLink = page.locator('.distribution-store-links a[href$="/androidApp/"]');
+    await expect(appLink).toHaveText(/check your install/i);
+    await expect(appLink.locator('svg.ws-icon-android')).toBeVisible();
+
+    assertNoConsoleErrors();
+  });
 });
