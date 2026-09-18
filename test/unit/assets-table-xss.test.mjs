@@ -39,10 +39,12 @@ import {
   createAttachmentPreviewNode,
 } from '../../src/assets-table-attachments.mjs';
 import { verificationKind } from '../../src/nostr-constants.mjs';
-import { HASH_A, HASH_B, HASH_E, makeEvent } from './fixtures.mjs';
+import { HASH_A, HASH_B, HASH_D, HASH_E, makeEvent } from './fixtures.mjs';
 import {
+  HASH_HINT_REPRODUCIBLE_ELSEWHERE,
   HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE,
   HASH_HINT_UNATTEMPTED,
+  HASH_HINT_REPRODUCIBLE_TOOLTIP,
   HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP,
   HASH_HINT_UNATTEMPTED_TOOLTIP,
 } from '../../src/assets-table-filters.mjs';
@@ -356,22 +358,27 @@ describe('fillHashCell — file names from x tags render as text, not HTML', () 
     const hints = new Map([
       [SAFE_HASH, HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE],
       [HASH_B, HASH_HINT_UNATTEMPTED],
+      [HASH_E, HASH_HINT_REPRODUCIBLE_ELSEWHERE],
     ]);
     fillHashCell(cell, [
       ['x', SAFE_HASH, 'base.apk'],
       ['x', HASH_B, 'split_config.es.apk'],
       ['x', HASH_E, 'split_config.en.apk'],
+      ['x', HASH_D, 'split_config.de.apk'],
     ], undefined, hints);
 
     const icons = [...cell.querySelectorAll('.hash-hint')];
-    assert.equal(icons.length, 2);
+    assert.equal(icons.length, 3);
     assert.equal(icons[0].classList.contains('hash-hint--not-reproducible'), true);
     assert.equal(icons[1].classList.contains('hash-hint--unattempted'), true);
+    assert.equal(icons[2].classList.contains('hash-hint--reproducible'), true);
     assert.equal(icons[0].getAttribute('data-tooltip'), HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP);
     assert.equal(icons[0].getAttribute('aria-label'), HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP);
     assert.equal(icons[1].getAttribute('data-tooltip'), HASH_HINT_UNATTEMPTED_TOOLTIP);
     assert.equal(icons[1].getAttribute('aria-label'), HASH_HINT_UNATTEMPTED_TOOLTIP);
-    assert.equal(cell.querySelectorAll('.hash-entry')[2].querySelector('.hash-hint'), null);
+    assert.equal(icons[2].getAttribute('data-tooltip'), HASH_HINT_REPRODUCIBLE_TOOLTIP);
+    assert.equal(icons[2].getAttribute('aria-label'), HASH_HINT_REPRODUCIBLE_TOOLTIP);
+    assert.equal(cell.querySelectorAll('.hash-entry')[3].querySelector('.hash-hint'), null);
   });
 
   test('omits hint icons when the row has no hint map', () => {

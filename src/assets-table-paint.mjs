@@ -12,10 +12,12 @@ import {
   getRowLookupHashes,
   findMultiFileItemInGroup,
   attestationMatchesRowHashes,
-  listUniqueVerifications,
+  buildHashVerdictIndex,
   getUnverifiedRowHashHints,
+  HASH_HINT_REPRODUCIBLE_ELSEWHERE,
   HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE,
   HASH_HINT_UNATTEMPTED,
+  HASH_HINT_REPRODUCIBLE_TOOLTIP,
   HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP,
   HASH_HINT_UNATTEMPTED_TOOLTIP,
 } from "./assets-table-filters.mjs";
@@ -61,6 +63,8 @@ const getPrimaryFileName = event => {
 
 const BLOSSOM_DOWNLOAD_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>`;
 
+const HASH_HINT_CHECK_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
+
 const HASH_HINT_X_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`;
 
 const HASH_HINT_QUESTION_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`;
@@ -80,24 +84,39 @@ function getFileAttachmentIds(item) {
     .map(tag => tag[1]);
 }
 
+const HASH_HINT_ICONS = {
+  [HASH_HINT_REPRODUCIBLE_ELSEWHERE]: {
+    modifier: 'hash-hint--reproducible',
+    tooltip: HASH_HINT_REPRODUCIBLE_TOOLTIP,
+    svg: HASH_HINT_CHECK_SVG,
+  },
+  [HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE]: {
+    modifier: 'hash-hint--not-reproducible',
+    tooltip: HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP,
+    svg: HASH_HINT_X_SVG,
+  },
+  [HASH_HINT_UNATTEMPTED]: {
+    modifier: 'hash-hint--unattempted',
+    tooltip: HASH_HINT_UNATTEMPTED_TOOLTIP,
+    svg: HASH_HINT_QUESTION_SVG,
+  },
+};
+
 function createHashHintIcon(kind) {
-  if (kind !== HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE && kind !== HASH_HINT_UNATTEMPTED) {
+  const icon = HASH_HINT_ICONS[kind];
+  if (!icon) {
     return null;
   }
-  const isNotReproducible = kind === HASH_HINT_NOT_REPRODUCIBLE_ELSEWHERE;
-  const tooltip = isNotReproducible
-    ? HASH_HINT_NOT_REPRODUCIBLE_TOOLTIP
-    : HASH_HINT_UNATTEMPTED_TOOLTIP;
   return el('span', {
-    className: `hash-hint ${isNotReproducible ? 'hash-hint--not-reproducible' : 'hash-hint--unattempted'}`,
-    dataset: { tooltip },
-    'aria-label': tooltip,
+    className: `hash-hint ${icon.modifier}`,
+    dataset: { tooltip: icon.tooltip },
+    'aria-label': icon.tooltip,
     role: 'img',
     tabindex: '0',
   }, el('span', {
     className: 'hash-hint__icon',
     'aria-hidden': 'true',
-    html: isNotReproducible ? HASH_HINT_X_SVG : HASH_HINT_QUESTION_SVG,
+    html: icon.svg,
   }));
 }
 
@@ -541,7 +560,7 @@ export function paintMainAssetsTable({
     return collected;
   };
 
-  const publishedVerifications = listUniqueVerifications(assetInfo.verifications);
+  const hashVerdictIndex = buildHashVerdictIndex(assetInfo.verifications);
 
   const table = el('table', { id: 'assetsTable', className: 'assets-table' });
   const thead = el('thead');
@@ -607,7 +626,7 @@ export function paintMainAssetsTable({
       const hasVerifications = attestations.length > 0;
       const hashHints = hasVerifications
         ? null
-        : getUnverifiedRowHashHints(lookupHashes, publishedVerifications);
+        : getUnverifiedRowHashHints(lookupHashes, hashVerdictIndex);
       const warningBadge = createVersionWarningBadge(attestations);
 
       if (hasVerifications) {

@@ -357,6 +357,10 @@ body.dark .assets-table-widget {
   height: 100%;
 }
 
+.assets-table .hash-hint--reproducible {
+  color: var(--good, #1bde1b);
+}
+
 .assets-table .hash-hint--not-reproducible {
   color: var(--bad, #d02222);
 }
