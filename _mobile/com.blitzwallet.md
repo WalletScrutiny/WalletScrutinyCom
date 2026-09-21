@@ -37,6 +37,54 @@ android:
 
 It supports on-chain Bitcoin and Lightning transactions.
 
+## Update 2026-09-21
+
+**Verdict remains `custodial`.** Blitz Wallet users [said on X](https://x.com/twiteis/status/2101449313465344014) that "the unilateral exit is already implemented", so we re-checked. It was implemented in the sense our 2026-08-20 update already describes: the app collects and exports the data an exit needs, and a third party's tool performs the exit. Nothing has changed since then. One statement of ours was broader than the code supports; it is corrected below.
+
+We compared the code our 2026-08-20 update is pinned to ([`BlitzWallet@b3891c86f`](https://github.com/BlitzWallet/BlitzWallet/tree/b3891c86f29c0afec6476c7437f831acc75b0208)) against the Android release on Google Play today ([`Android-v0.7.15`](https://github.com/BlitzWallet/BlitzWallet/tree/6cf1b7ce35751701329dc14d6a3f29e4ea2648ed), tagged 2026-09-04) and against Blitz Wallet's current `main` ([`8182853ef`](https://github.com/BlitzWallet/BlitzWallet/tree/8182853ef996e191a1aa01a8fd66bf9e8cf8c92d), 2026-09-09, an unreleased 0.7.16). Blink's tool was compared at its current head ([`1132b77f`](https://github.com/blinkbitcoin/spark-unilateral-exit/tree/1132b77f5e429680b70929324fb936ea74b6a159), 2026-09-09).
+
+### What has not changed
+
+- The exporter is identical. `git diff b3891c86f..8182853ef -- app/components/admin/homeComponents/settingsContent/leaves/` is empty, so the file-only output, the single global `hasAncestors` check and the 16,348-sat floor quoted below are still what ships.
+- The app still never constructs, signs or broadcasts an exit. `git grep constructUnilateralExitFeeBumpPackages` over the app's own code (`app/`, `context-store/`) on `main` returns nothing.
+- The Spark SDK dependency is still `^0.8.8`.
+- Blink's tool has one commit since our pin (it now detects an operator-initiated exit and pivots to its refund). Its documentation still describes recoveries only from bundles its own exporter produced, and mentions Blitz Wallet nowhere. **We still found no documented recovery, start to finish, from a file produced by Blitz Wallet.**
+- Blitz Wallet's own words on 2026-08-18, in the thread we cited: *"There is no unilateral exit directly in Blitz, you would need to use the recovery tool listed above."* That matches our reading.
+
+### Correction: the export's live request does have a time limit on most installs
+
+Point 3 under "What would change our verdict" says the export's first action is a live request "that nothing ever gives up on". We traced that on the app's native Spark runtime, and for that runtime it is true. But the app has two Spark runtimes, and the native one is not the default.
+
+The default is a WebView running a bundled copy of the SDK (`context-store/webViewContext.js:203`):
+
+```js
+let fallbackState = FALLBACK_STATE.WEBVIEW;
+```
+
+The native runtime is only entered when that bridge fails, either persistently after a failed bundle verification or after repeated bridge failures in one session ([`enterNative`, `setForceReactNative`, lines 677-707](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/context-store/webViewContext.js#L677-L707)).
+
+On the WebView runtime every bridge request carries a deadline. The leaves query is in the `longOperations` set ([`webViewContext.js:121`](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/context-store/webViewContext.js#L121)), which gets 90 seconds ([`webViewContext.js:1329-1341`](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/context-store/webViewContext.js#L1329-L1341)):
+
+```js
+    if (longOperations.has(action)) {
+      return 90000; // 90 seconds for payment operations
+    }
+```
+
+When the deadline passes the bridge answers with an error (`webViewContext.js:1557`), `getSparkLeaves` catches it and returns `undefined` ([`app/functions/spark/index.js:501-520`](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/app/functions/spark/index.js#L501-L520)), and the export continues from the cached leaves exactly as its comment promises ([`exportLeavesProgress.js:75-93`](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/app/components/admin/homeComponents/settingsContent/leaves/exportLeavesProgress.js#L75-L93)).
+
+So the indefinite wait we described exists only on installs that have fallen back to the native runtime. Point 3 is already met on the default runtime, and we now weigh it accordingly. It does not change the verdict: points 1 and 2 stand on their own.
+
+One more thing in Blitz Wallet's favour that we did not state explicitly: the automatic collection of exit records happens on both runtimes. A comment in the app says otherwise ([`index.js:532-533`](https://github.com/BlitzWallet/BlitzWallet/blob/b3891c86f29c0afec6476c7437f831acc75b0208/app/functions/spark/index.js#L532-L533): *"Native runtime only. Returns {} on the WebView path"*), but the shipped bundle (`android/app/src/main/assets/sparkContext.html`) implements the `getSparkLeafExitNodes` operation with the SDK's chain builder, and the SDK's "Exit chain is incomplete" error text is present in it. The comment is stale; the code does the right thing.
+
+### Why the verdict still stays `custodial`
+
+The test is the one below: can a user, with only what the app gives them and expecting help from nobody, actually force their money onto the Bitcoin blockchain? Today still no. The app writes a file. Recovery needs Blink's command-line tool, fee funding the user supplies, and weeks of waiting. The file's completeness is never checked leaf by leaf. Nobody has shown a recovery from a Blitz Wallet file. Balances below the exit floor cannot be recovered by this route at all.
+
+Items 1 and 2 of "What would change our verdict" are unchanged. Item 3 now concerns only the native fallback runtime.
+
+Housekeeping: Blitz Wallet removed Liquid and Rootstock from the app's user interface on `main` ([`c7ffda52e`](https://github.com/BlitzWallet/BlitzWallet/commit/c7ffda52e5d2bfe0c49f9fe141c50e94b1818f29), 2026-09-09). That is not in 0.7.15, so the `liquid` feature tag stays until the next release ships.
+
 ## Update to Verdict 2026-08-20
 
 **Verdict remains `custodial`, but for different reasons than we gave before. Part of our previous analysis is now wrong, and we correct it below.**
