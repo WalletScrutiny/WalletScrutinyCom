@@ -34,7 +34,7 @@ iphone:
   released: 2022-04-25
   updated: 2026-09-17
   version: 1.32.51
-  reviews: 95
+  reviews: 96
   icon: cz.anycoin.mobile.jpg
   meta: ok
   verdict: custodial

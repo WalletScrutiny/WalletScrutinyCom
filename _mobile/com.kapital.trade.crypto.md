@@ -16,8 +16,8 @@ android:
   users: 1000000
   appCountry: cz
   released: 2021-01-20
-  updated: 2026-09-14
-  version: 3.50.0
+  updated: 2026-09-18
+  version: 3.51.0
   reviews: 32
   icon: com.kapital.trade.crypto.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: 1487443266
   appCountry: cz
   released: 2019-11-26
-  updated: 2026-09-15
-  version: 3.50.0
+  updated: 2026-09-21
+  version: 3.51.0
   reviews: 822
   icon: com.kapital.trade.crypto.jpg
   meta: ok

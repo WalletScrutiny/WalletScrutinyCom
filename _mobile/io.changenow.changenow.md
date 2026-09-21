@@ -25,7 +25,7 @@ android:
   released: 2018-09-07
   updated: 2026-09-15
   version: 2.1.2
-  reviews: 811
+  reviews: 813
   icon: io.changenow.changenow.png
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2020-06-29
   updated: 2026-09-11
   version: 2.11.4
-  reviews: 2269
+  reviews: 2270
   icon: io.changenow.jpg
   meta: ok
   verdict: nosource

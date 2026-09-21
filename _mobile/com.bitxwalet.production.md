@@ -10,9 +10,9 @@ iphone:
   idd: '6752948564'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-08-31
-  version: 2.0.1
-  reviews: 85
+  updated: 2026-09-12
+  version: 2.0.2
+  reviews: 86
   icon: com.bitxwalet.production.jpg
   meta: ok
   verdict: nosource

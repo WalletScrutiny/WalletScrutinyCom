@@ -25,7 +25,7 @@ android:
   released: 2018-10-16
   updated: 2026-08-27
   version: 10.0.0
-  reviews: 1024
+  reviews: 1028
   icon: com.kr.iotrust.dcent.wallet.png
   meta: ok
   verdict: nosource

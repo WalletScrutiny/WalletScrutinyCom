@@ -1,12 +1,13 @@
 ---
 title: Trezor Safe 7
 appId: trezorSafe7
+bitcoinOrgId: trezorsafe7
 authors:
 - danny
 released: 2025-10-14
 discontinued: 
-updated: 2026-08-11
-version: 2.12.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: 
 dimensions:
 - 75

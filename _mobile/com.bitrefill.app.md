@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: Bitrefill - Shop with Crypto
+title: 'Bitrefill: Gift Card & Games'
 date: 2021-09-12
 authors:
 - leo
@@ -21,7 +21,7 @@ android:
   released: 2018-04-10
   updated: 2026-08-04
   version: 7.9.0
-  reviews: 289
+  reviews: 290
   icon: com.bitrefill.app.png
   meta: ok
   verdict: custodial

@@ -22,9 +22,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2021-10-12
-  updated: 2026-09-09
-  version: 2.9.1
-  reviews: 1122
+  updated: 2026-09-16
+  version: 2.9.2
+  reviews: 1124
   icon: com.secretkeylabs.xverse.png
   meta: ok
   verdict: nosource

@@ -1,13 +1,14 @@
 ---
 title: Trezor Safe 5
 appId: trezorSafe5
+bitcoinOrgId: trezorsafe5
 authors:
 - danny
 - keraliss
 released: 2024-06-14
 discontinued: 
-updated: 2026-08-11
-version: 2.12.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: https://data.trezor.io/firmware/t3t1/trezor-t3t1-2.8.3.bin
 dimensions:
 - 66

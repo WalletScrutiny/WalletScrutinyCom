@@ -20,7 +20,7 @@ android:
   released: 2019-06-28
   updated: 2026-09-11
   version: 7.12.0
-  reviews: 1909
+  reviews: 1911
   icon: com.nexowallet.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-06-30
   updated: 2026-09-14
   version: 7.12.0
-  reviews: 1922
+  reviews: 1933
   icon: com.nexobank.wallet.jpg
   meta: ok
   verdict: custodial

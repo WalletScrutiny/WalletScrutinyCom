@@ -33,7 +33,7 @@ iphone:
   released: 2018-01-04
   updated: 2026-09-15
   version: 6.189.0
-  reviews: 22632
+  reviews: 22679
   icon: com.okex.OKExAppstoreFull.jpg
   meta: ok
   verdict: custodial

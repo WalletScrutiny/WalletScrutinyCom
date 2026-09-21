@@ -22,8 +22,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-11-15
-  updated: 2026-09-12
-  version: 2.6.6
+  updated: 2026-09-19
+  version: 2.7.2
   reviews: 3
   icon: ch.swissbitcoinpay.checkout.png
   signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
@@ -38,8 +38,8 @@ iphone:
   idd: '6444370155'
   appCountry: us
   released: 2022-11-19
-  updated: 2026-09-13
-  version: 2.6.6
+  updated: 2026-09-20
+  version: 2.7.2
   reviews: 1
   icon: ch.swissbitcoinpay.checkout.jpg
   meta: ok

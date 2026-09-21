@@ -28,7 +28,7 @@ iphone:
   released: 2022-08-25
   updated: 2025-09-04
   version: 6.15.28
-  reviews: 629
+  reviews: 628
   icon: com.gateio.GateTR.jpg
   meta: stale
   verdict: custodial

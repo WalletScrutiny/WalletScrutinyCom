@@ -21,7 +21,7 @@ android:
   released: 2020-02-11
   updated: 2026-09-16
   version: 9.63.1
-  reviews: 3858
+  reviews: 3859
   icon: com.bitkeep.wallet.png
   meta: ok
   verdict: nosource
@@ -33,7 +33,7 @@ iphone:
   released: 2018-09-26
   updated: 2026-09-18
   version: 9.64.0
-  reviews: 5610
+  reviews: 5616
   icon: com.bitkeep.os.jpg
   meta: ok
   verdict: nosource

@@ -1,15 +1,14 @@
 ---
 title: Trezor Model T
 appId: trezorT
-bitcoinOrgId: trezormodelt
 authors:
 - leo
 - Mohammad
 - danny
 released: 2018-03-01
 discontinued: 
-updated: 2026-08-11
-version: 2.12.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64

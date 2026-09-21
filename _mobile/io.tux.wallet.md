@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-01-28
-  updated: 2026-08-11
-  version: 4.0.16
+  updated: 2026-09-10
+  version: 4.0.17
   icon: io.tux.wallet.png
   meta: ok
   verdict: nosource

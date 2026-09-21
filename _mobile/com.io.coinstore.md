@@ -30,8 +30,8 @@ iphone:
   idd: '1567160644'
   appCountry: us
   released: 2021-05-12
-  updated: 2026-09-04
-  version: 5.1.0
+  updated: 2026-09-19
+  version: 5.2.0
   reviews: 101
   icon: com.coinstore.sg.jpg
   meta: ok

@@ -20,7 +20,7 @@ android:
   released: 2021-01-18
   updated: 2026-09-04
   version: 14.14.1
-  reviews: 3733
+  reviews: 3735
   icon: ph.pdax.mobile.png
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2020-12-18
   updated: 2026-09-07
   version: 14.14.1
-  reviews: 1035
+  reviews: 1037
   icon: ph.pdax.mobile.jpg
   meta: ok
   verdict: custodial

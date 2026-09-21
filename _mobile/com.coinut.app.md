@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-02-04
-  updated: 2026-09-01
-  version: 0.8.8
+  updated: 2026-09-18
+  version: 0.8.9
   reviews: 15
   icon: com.coinut.app.png
   meta: ok

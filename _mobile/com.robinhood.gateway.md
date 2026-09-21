@@ -24,7 +24,7 @@ android:
   released: 2024-03-12
   updated: 2026-09-15
   version: 2026.38.1
-  reviews: 255
+  reviews: 256
   icon: com.robinhood.gateway.png
   meta: ok
   verdict: nosource
@@ -36,7 +36,7 @@ iphone:
   released: 2023-01-18
   updated: 2026-09-16
   version: 2026.38.1
-  reviews: 6706
+  reviews: 6764
   icon: com.robinhood.release.Gateway.jpg
   meta: ok
   verdict: nosource

@@ -19,7 +19,7 @@ android:
   released: 2025-04-03
   updated: 2026-08-20
   version: 1.2.9
-  reviews: 3
+  reviews: 4
   icon: prod.walletv.virgo.jpg
   meta: ok
   verdict: nosource

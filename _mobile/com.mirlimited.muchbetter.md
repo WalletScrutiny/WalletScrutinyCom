@@ -20,7 +20,7 @@ android:
   released: 2017-05-30
   updated: 2026-07-13
   version: 4.38.0
-  reviews: 171
+  reviews: 172
   icon: com.mirlimited.muchbetter.png
   meta: ok
   verdict: custodial

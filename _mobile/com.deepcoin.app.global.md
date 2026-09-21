@@ -17,7 +17,7 @@ android:
   released: 2020-12-08
   updated: 2026-09-09
   version: 7.6.97
-  reviews: 26
+  reviews: 31
   icon: com.deepcoin.app.global.png
   meta: ok
   verdict: custodial

@@ -19,7 +19,7 @@ android:
   released: 2019-05-31
   updated: 2026-09-16
   version: 2.1.148
-  reviews: 228
+  reviews: 230
   icon: com.amarkets.png
   meta: ok
   verdict: nosendreceive

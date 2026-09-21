@@ -22,7 +22,7 @@ android:
   appCountry: nz
   released: 2021-12-03
   updated: 2026-09-15
-  version: 3.7.2
+  version: 3.8.0
   reviews: 16
   icon: com.wirex.wallet.png
   meta: ok

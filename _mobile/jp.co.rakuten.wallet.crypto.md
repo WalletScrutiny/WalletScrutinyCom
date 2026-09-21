@@ -24,9 +24,9 @@ iphone:
   idd: '1472320399'
   appCountry: jp
   released: 2019-08-31
-  updated: 2026-09-02
-  version: 1.6.9
-  reviews: 9981
+  updated: 2026-09-20
+  version: 1.7.3
+  reviews: 10007
   icon: jp.co.rakuten.wallet.crypto.jpg
   meta: ok
   verdict: custodial

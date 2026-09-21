@@ -31,8 +31,8 @@ iphone:
   appCountry: us
   released: 2022-06-29
   updated: 2026-09-18
-  version: 2.13.0
-  reviews: 48
+  version: 2.13.1
+  reviews: 49
   icon: com.Rhino.Global.jpg
   meta: ok
   verdict: custodial

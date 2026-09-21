@@ -30,7 +30,7 @@ iphone:
   released: 2024-05-09
   updated: 2025-07-09
   version: 2.1.1
-  reviews: 10
+  reviews: 14
   icon: app.coinplug.ng.jpg
   meta: stale
   verdict: nosendreceive

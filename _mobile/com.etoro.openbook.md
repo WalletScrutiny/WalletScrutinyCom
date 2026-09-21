@@ -19,7 +19,7 @@ android:
   released: 2013-11-05
   updated: 2026-09-15
   version: 651.1323.6
-  reviews: 3816
+  reviews: 3817
   icon: com.etoro.openbook.png
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2017-06-26
   updated: 2026-09-17
   version: v651.1331.0
-  reviews: 9904
+  reviews: 9905
   icon: com.etoro.openbook.jpg
   meta: ok
   verdict: custodial

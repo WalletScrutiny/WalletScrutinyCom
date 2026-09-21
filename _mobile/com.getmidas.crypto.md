@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2024-12-01
   updated: 2026-09-17
-  version: 3.14.0
+  version: 3.15.1
   reviews: 3
   icon: com.getmidas.crypto.png
   meta: ok
@@ -28,7 +28,7 @@ iphone:
   released: 2024-08-13
   updated: 2026-09-17
   version: 3.15.0
-  reviews: 2973
+  reviews: 2974
   icon: com.midas.crypto.jpg
   meta: ok
   verdict: custodial

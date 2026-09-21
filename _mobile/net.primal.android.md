@@ -17,7 +17,7 @@ android:
   released: 2024-07-09
   updated: 2026-09-01
   version: 3.5.27
-  reviews: 33
+  reviews: 34
   icon: net.primal.android.png
   meta: ok
   verdict: custodial
@@ -29,7 +29,7 @@ iphone:
   released: 2023-12-01
   updated: 2026-09-03
   version: 3.5.61
-  reviews: 931
+  reviews: 932
   icon: net.primal.iosapp.Primal.jpg
   meta: ok
   verdict: custodial

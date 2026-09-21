@@ -35,7 +35,7 @@ iphone:
   released: 2018-04-22
   updated: 2026-09-18
   version: 9.7.0
-  reviews: 282
+  reviews: 283
   icon: com.savl.savlapp.jpg
   meta: ok
   verdict: nosource

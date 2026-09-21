@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-03-22
-  updated: 2026-09-17
-  version: 4.67.1
+  updated: 2026-09-20
+  version: 4.67.2
   reviews: 13
   icon: com.bitbill.www.png
   meta: ok

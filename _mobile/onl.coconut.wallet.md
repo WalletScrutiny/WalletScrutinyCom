@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-07-18
-  updated: 2026-09-05
-  version: 0.17.0
+  updated: 2026-09-19
+  version: 0.18.0
   icon: onl.coconut.wallet.jpg
   meta: ok
   verdict: sourceavailable
@@ -29,8 +29,8 @@ iphone:
   idd: '6745778545'
   appCountry: us
   released: 2025-07-22
-  updated: 2026-09-05
-  version: 0.17.0
+  updated: 2026-09-19
+  version: 0.18.0
   reviews: 2
   icon: onl.coconut.wallet.jpg
   meta: ok

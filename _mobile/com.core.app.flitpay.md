@@ -18,7 +18,7 @@ android:
   released: 2017-05-17
   updated: 2026-09-16
   version: 2.1.11
-  reviews: 2899
+  reviews: 2907
   icon: com.core.app.flitpay.png
   meta: ok
   verdict: custodial
@@ -28,8 +28,8 @@ iphone:
   idd: 1571975471
   appCountry: in
   released: 2021-08-27
-  updated: 2026-09-16
-  version: 2.1.0
+  updated: 2026-09-19
+  version: 2.1.1
   reviews: 135
   icon: com.core.ios.flitpay.jpg
   meta: ok

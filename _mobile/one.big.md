@@ -30,8 +30,8 @@ iphone:
   idd: '1485385044'
   appCountry: us
   released: 2019-11-06
-  updated: 2026-08-27
-  version: 2.6.701
+  updated: 2026-09-20
+  version: 2.6.800
   reviews: 112
   icon: base.big.one.jpg
   meta: ok

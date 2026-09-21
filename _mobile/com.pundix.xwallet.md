@@ -33,7 +33,7 @@ iphone:
   released: 2019-01-26
   updated: 2020-12-29
   version: 2.9.4
-  reviews: 86
+  reviews: 85
   icon: com.pundix.wallet.jpg
   meta: obsolete
   verdict: custodial

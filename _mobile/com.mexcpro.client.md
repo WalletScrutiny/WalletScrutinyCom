@@ -22,7 +22,7 @@ android:
   released: 2020-07-23
   updated: 2026-09-15
   version: 6.75.0
-  reviews: 3207
+  reviews: 3209
   icon: com.mexcpro.client.png
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: '1605393003'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-09-16
-  version: 6.75.1
-  reviews: 8347
+  updated: 2026-09-20
+  version: 6.75.2
+  reviews: 8364
   icon: mobile.mexcglobal.www.jpg
   meta: ok
   verdict: custodial

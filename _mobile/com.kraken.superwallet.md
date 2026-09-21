@@ -38,7 +38,7 @@ iphone:
   released: 2024-04-17
   updated: 2026-09-16
   version: 2.3.0
-  reviews: 1286
+  reviews: 1285
   icon: com.kraken.superwallet.app.jpg
   meta: ok
   verdict: sourceavailable

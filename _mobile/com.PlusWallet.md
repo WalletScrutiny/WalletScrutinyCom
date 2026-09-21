@@ -28,7 +28,7 @@ iphone:
   released: 2023-09-27
   updated: 2026-04-09
   version: '3.13'
-  reviews: 40
+  reviews: 41
   icon: com.PlusWallet.jpg
   meta: ok
   verdict: nosource

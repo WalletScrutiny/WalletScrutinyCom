@@ -14,8 +14,8 @@ android:
   users: 50000
   appCountry: us
   released: 2023-05-19
-  updated: 2026-09-03
-  version: 3.2.4
+  updated: 2026-09-18
+  version: 3.3.0
   reviews: 38
   icon: com.jiggle.wallet.jpg
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '6446089702'
   appCountry: us
   released: 2023-06-28
-  updated: 2026-09-07
-  version: 3.2.4
-  reviews: 290
+  updated: 2026-09-21
+  version: 3.3.0
+  reviews: 291
   icon: com.jiggle.cryptowallet.jpg
   meta: ok
   verdict: custodial

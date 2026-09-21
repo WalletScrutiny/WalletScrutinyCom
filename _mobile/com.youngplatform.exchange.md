@@ -17,7 +17,7 @@ android:
   appId: com.youngplatform.exchange
   users: 500000
   appCountry: us
-  updated: 2026-09-07
+  updated: 2026-09-18
   version: 5.9.0
   icon: com.youngplatform.exchange.png
   meta: ok
@@ -30,7 +30,7 @@ iphone:
   released: 2021-06-18
   updated: 2026-09-10
   version: 5.9.0
-  reviews: 1098
+  reviews: 1099
   icon: com.youngplatform.exchange.jpg
   meta: ok
   verdict: custodial

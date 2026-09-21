@@ -29,7 +29,7 @@ android:
   released: 2020-05-11
   updated: 2026-09-15
   version: 3.0.0
-  reviews: 3814
+  reviews: 3817
   icon: com.defi.wallet.png
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-09-17
   version: 3.0.0
-  reviews: 22239
+  reviews: 22268
   icon: com.defi.wallet.jpg
   meta: ok
   verdict: nosource

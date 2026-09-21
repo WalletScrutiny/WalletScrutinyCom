@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-03-10
-  updated: 2026-09-11
-  version: 1.5.16
+  updated: 2026-09-17
+  version: 1.5.18
   reviews: 40
   icon: cash.savo.png
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '6742020669'
   appCountry: us
   released: 2025-02-18
-  updated: 2026-09-12
-  version: 1.5.16
+  updated: 2026-09-19
+  version: 1.5.18
   reviews: 278
   icon: savo.xyz.jpg
   meta: ok

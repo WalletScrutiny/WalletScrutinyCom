@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-05
-  updated: 2026-09-11
-  version: 2.10.2
+  updated: 2026-09-17
+  version: 2.10.3
   reviews: 6
   icon: io.biscoint.lite.png
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '1588152503'
   appCountry: br
   released: 2022-02-09
-  updated: 2026-09-14
-  version: 2.10.2
-  reviews: 8952
+  updated: 2026-09-21
+  version: 2.10.3
+  reviews: 8954
   icon: io.biscoint.lite.jpg
   meta: ok
   verdict: nosendreceive

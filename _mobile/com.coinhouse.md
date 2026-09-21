@@ -12,8 +12,8 @@ android:
   users: 100000
   appCountry: us
   released: 2025-01-13
-  updated: 2026-09-11
-  version: 5.16.0
+  updated: 2026-09-20
+  version: 5.17.0
   icon: com.coinhouse.png
   meta: ok
   verdict: custodial

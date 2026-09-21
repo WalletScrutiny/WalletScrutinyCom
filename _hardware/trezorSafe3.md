@@ -1,14 +1,15 @@
 ---
 title: Trezor Safe 3
 appId: trezorSafe3
+bitcoinOrgId: trezorsafe3
 authors:
 - danny
 - leo
 - keraliss
 released: 2023-10-12
 discontinued: 
-updated: 2026-08-11
-version: 2.12.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
 - 59

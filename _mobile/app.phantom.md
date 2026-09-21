@@ -23,9 +23,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2022-04-12
-  updated: 2026-09-16
+  updated: 2026-09-18
   version: 26.30.2
-  reviews: 2365
+  reviews: 2370
   icon: app.phantom.png
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2022-01-30
   updated: 2026-09-17
   version: 26.30.2
-  reviews: 64214
+  reviews: 64216
   icon: app.phantom.jpg
   meta: ok
   verdict: nosource

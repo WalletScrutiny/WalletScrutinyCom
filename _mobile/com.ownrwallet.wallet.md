@@ -19,11 +19,11 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-20
-  updated: 2023-09-20
-  version: 1.72.0
+  updated: 2026-09-19
+  version: 2.2.3
   reviews: 106
   icon: com.ownrwallet.wallet.png
-  meta: obsolete
+  meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU
 iphone:

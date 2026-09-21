@@ -32,7 +32,7 @@ iphone:
   released: 2025-03-18
   updated: 2026-09-17
   version: '1.77'
-  reviews: 2862
+  reviews: 2886
   icon: com.revolut.revolutx.jpg
   meta: ok
   verdict: custodial

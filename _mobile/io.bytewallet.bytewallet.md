@@ -37,7 +37,7 @@ iphone:
   released: 2021-07-27
   updated: 2026-09-15
   version: 1.7.0.6
-  reviews: 49
+  reviews: 48
   icon: com.bytefederal.bytewallet.jpg
   meta: ok
   verdict: nosource

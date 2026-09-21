@@ -38,9 +38,9 @@ iphone:
   idd: 1349078375
   appCountry: us
   released: 2018-03-12
-  updated: 2026-08-25
-  version: 3.6.1
-  reviews: 1361
+  updated: 2026-09-21
+  version: 3.6.2
+  reviews: 1360
   icon: com.enjin.mobile.wallet.jpg
   meta: ok
   verdict: nosource

@@ -15,8 +15,8 @@ iphone:
   idd: '1455959680'
   appCountry: ee
   released: 2019-08-23
-  updated: 2026-09-08
-  version: 3.0.0
+  updated: 2026-09-18
+  version: 3.0.2
   reviews: 0
   icon: io.trustology.trustvault.jpg
   meta: ok

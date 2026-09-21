@@ -28,7 +28,7 @@ iphone:
   released: 2021-04-20
   updated: 2026-07-25
   version: 1.9.12
-  reviews: 4738
+  reviews: 4736
   icon: ng.pandar.resource.jpg
   meta: ok
   verdict: nosendreceive

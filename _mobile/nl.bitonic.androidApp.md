@@ -16,8 +16,8 @@ android:
   appId: nl.bitonic.androidApp
   users: 50000
   appCountry: us
-  updated: 2026-09-07
-  version: 3.28.4
+  updated: 2026-09-17
+  version: 3.28.5
   icon: nl.bitonic.androidApp.jpg
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '1503179166'
   appCountry: nl
   released: 2020-05-17
-  updated: 2026-09-10
-  version: 3.28.4
+  updated: 2026-09-21
+  version: 3.28.5
   reviews: 2582
   icon: nl.bitonic.Bitonic.jpg
   meta: ok

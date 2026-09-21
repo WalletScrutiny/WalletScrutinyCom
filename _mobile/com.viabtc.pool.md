@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2017-12-16
-  updated: 2026-08-14
-  version: 3.16.2
+  updated: 2026-09-18
+  version: 3.17.0
   reviews: 257
   icon: com.viabtc.pool.png
   meta: ok

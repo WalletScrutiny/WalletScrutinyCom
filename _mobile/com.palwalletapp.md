@@ -25,8 +25,8 @@ iphone:
   idd: '6470434294'
   appCountry: il
   released: 2024-01-14
-  updated: 2026-09-17
-  version: 1.0.50
+  updated: 2026-09-20
+  version: 1.0.51
   reviews: 4
   icon: com.app.palwalletprod.jpg
   meta: ok

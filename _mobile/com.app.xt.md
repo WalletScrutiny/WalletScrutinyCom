@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2021-04-14
   updated: 2026-09-16
-  version: 5.32.1
+  version: 5.33.0
   reviews: 262
   icon: com.app.xt.jpg
   meta: ok
@@ -32,9 +32,9 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-10
-  version: 5.32.1
-  reviews: 1380
+  updated: 2026-09-18
+  version: 5.33.0
+  reviews: 1371
   icon: com.xt.app.jpg
   meta: ok
   verdict: custodial
