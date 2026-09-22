@@ -9,7 +9,7 @@ import {
   fetchEventsWithPagination,
   signEvent,
   publishEvent,
-  publishToRelays,
+  assertRequiredRelaysAccepted,
   subscribeEvents,
   createDeletionRequest,
   createEncryptedDm,
@@ -32,7 +32,6 @@ import {
   verificationCommentKind,
   codeSnippetKind,
   verificationReportKind,
-  explicitRelayUrls,
   eventRelayUrls,
   readRelayUrls,
   reportRelayUrls,
@@ -185,14 +184,31 @@ const getWSClientTags = function() {
   ];
 }
 
+/**
+ * WalletScrutiny events are read from the project relay only (readRelayUrls),
+ * so a publish only counts when that relay accepted the event. Public relays
+ * still receive it, but their answers do not decide success.
+ */
+const requiredPublishRelayUrls = [mainRelayUrl];
+
 async function signAndPublish(eventDraft, eventType = 'event') {
   await ensureSignerReady();
   const signed = await signEvent(eventDraft);
-  const { successful } = await publishEvent(signed);
-  if (successful < 1) {
-    throw new Error(`Failed to publish ${eventType} to any relay`);
-  }
-  console.debug(`Published ${eventType} (id: ${signed.id}) to ${successful} relays`);
+  const summary = await publishEvent(signed, undefined, { requiredRelayUrls: requiredPublishRelayUrls });
+  assertRequiredRelaysAccepted(summary, eventType);
+  console.debug(`Published ${eventType} (id: ${signed.id}) to ${summary.successful} relays`);
+  return signed;
+}
+
+/**
+ * Signs and publishes a kind-5 deletion request for `targetEvent`. Like
+ * signAndPublish, the project relay must accept it: it is the only relay the
+ * site reads, so a deletion it rejects leaves the event visible to everyone.
+ */
+async function publishDeletionRequest(targetEvent, reason) {
+  const signed = await createDeletionRequest(targetEvent, reason, false);
+  const summary = await publishEvent(signed, undefined, { requiredRelayUrls: requiredPublishRelayUrls });
+  assertRequiredRelaysAccepted(summary, 'deletion request');
   return signed;
 }
 
@@ -437,7 +453,13 @@ const createVerification = async function ({
   if (!isDraft && draftVerificationEventId) {
     const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
     if (draftVerificationEvent) {
-      await createDeletionRequest(draftVerificationEvent, 'deleting draft, as verification was published', true);
+      // The verification is already out; a failed draft cleanup must not read as a failed publish.
+      try {
+        await publishDeletionRequest(draftVerificationEvent, 'deleting draft, as verification was published');
+      } catch (error) {
+        console.error('Verification published, but the draft could not be deleted', error);
+        showToast(`Verification published, but the draft could not be deleted: ${error.message}`, 'warning');
+      }
     }
     await deleteCachedEventById(draftVerificationEventId);
   }
@@ -1962,7 +1984,7 @@ const deleteDraftVerification = async function(draftVerificationEventId, moveToU
     try {
       const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
-        await createDeletionRequest(draftVerificationEvent, reason, true);
+        await publishDeletionRequest(draftVerificationEvent, reason);
       }
 
       await deleteCachedEventById(draftVerificationEventId);
@@ -2016,7 +2038,7 @@ const deletePublishedVerification = async function(verificationEventId, reason =
       return;
     }
 
-    await createDeletionRequest(verificationEvent, reason, true);
+    await publishDeletionRequest(verificationEvent, reason);
     await deleteCachedEventById(verificationEventId);
     showToast('Verification deleted successfully');
     window.location.reload();
@@ -2061,9 +2083,8 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
       return false;
     }
 
-    const deletionRequestEvent = await createDeletionRequest(commentEvent, reason, false);
     void showToast('Deleting comment, please wait...', 'info', 5000);
-    await publishToRelays(deletionRequestEvent, explicitRelayUrls, 5000, 1);
+    await publishDeletionRequest(commentEvent, reason);
     showToast('Comment deleted successfully');
     await deleteCachedEventById(commentEventId);
 
