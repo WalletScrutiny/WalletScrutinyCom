@@ -357,12 +357,85 @@ export async function getUserPubkeyFromSigner() {
   return getPublicKey(secretKey);
 }
 
-export async function publishEvent(event, urlsOverride) {
+function describePublishFailure(reason) {
+  return reason?.message ?? String(reason);
+}
+
+/**
+ * nostr-tools' SimplePool.publish resolves (not rejects) with this string when
+ * it could not connect to a relay, so a dead relay must not count as accepted.
+ */
+const CONNECTION_FAILURE_PREFIX = 'connection failure: ';
+
+function publishFailureOf(result) {
+  if (result.status === 'rejected') {
+    return describePublishFailure(result.reason);
+  }
+  if (typeof result.value === 'string' && result.value.startsWith(CONNECTION_FAILURE_PREFIX)) {
+    return result.value;
+  }
+  return null;
+}
+
+/**
+ * Summarizes the per-relay outcome of a publish. A relay counts as accepting
+ * only when it answered OK; a rejection, a timeout and a failed connection are
+ * failures. `requiredRelayUrls` lists the relays whose OK is mandatory: their
+ * failures are repeated in `rejectedRequired` even when other relays accepted.
+ */
+export function summarizePublishResults(urls, results, requiredRelayUrls = []) {
+  const failures = [];
+  results.forEach((result, index) => {
+    const error = publishFailureOf(result);
+    if (error !== null) {
+      failures.push({ url: urls[index], error });
+    }
+  });
+  const rejectedRequired = requiredRelayUrls.flatMap((url) => {
+    const index = urls.indexOf(url);
+    if (index === -1) {
+      return [{ url, error: 'relay is not in the publish set' }];
+    }
+    const failure = failures.find(entry => entry.url === url);
+    return failure ? [failure] : [];
+  });
+  return {
+    successful: results.length - failures.length,
+    total: urls.length,
+    results,
+    failures,
+    rejectedRequired,
+  };
+}
+
+/**
+ * Throws when a required relay did not accept the event. The message names the
+ * relay and quotes its reason, and says when the event already reached other
+ * relays (it cannot be unpublished from those).
+ */
+export function assertRequiredRelaysAccepted(summary, eventType = 'event') {
+  if (!summary.rejectedRequired.length) {
+    return;
+  }
+  const reasons = summary.rejectedRequired
+    .map(({ url, error }) => `${url} (${error})`)
+    .join(', ');
+  const reachedOthers = summary.successful > 0
+    ? ` It reached ${summary.successful} other relay(s), but it will not show on WalletScrutiny until that relay accepts it.`
+    : '';
+  throw new Error(`Failed to publish ${eventType}: not accepted by ${reasons}.${reachedOthers}`);
+}
+
+/**
+ * Publishes to `urlsOverride` (default: every configured relay). With
+ * `requiredRelayUrls`, the returned summary flags relays whose OK is mandatory;
+ * pass the summary to assertRequiredRelaysAccepted to turn that into an error.
+ */
+export async function publishEvent(event, urlsOverride, { requiredRelayUrls = [] } = {}) {
   await ensureConnected();
   const urls = urlsOverride ?? relayUrls;
   const results = await Promise.allSettled(pool.publish(urls, event));
-  const successful = results.filter(result => result.status === 'fulfilled').length;
-  return { successful, total: urls.length, results };
+  return summarizePublishResults(urls, results, requiredRelayUrls);
 }
 
 export async function publishToRelays(event, urls, timeoutMs = 5000, minSuccess = 1) {
