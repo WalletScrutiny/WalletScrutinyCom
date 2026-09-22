@@ -54,9 +54,8 @@ describe('read relay routing', () => {
     assert.deepEqual(readRelayUrls, [mainRelayUrl]);
   });
 
-  test('report reads stay on the public event relays until the project relay accepts kind 1984', async () => {
-    const { reportRelayUrls, eventRelayUrls, profileRelayUrl } = await import('../../src/nostr-constants.mjs');
-    assert.deepEqual(reportRelayUrls, eventRelayUrls);
-    assert.equal(reportRelayUrls.includes(profileRelayUrl), false);
+  test('report reads go to the project relay like every other WalletScrutiny kind', async () => {
+    const { reportRelayUrls, readRelayUrls } = await import('../../src/nostr-constants.mjs');
+    assert.deepEqual(reportRelayUrls, readRelayUrls);
   });
 });
