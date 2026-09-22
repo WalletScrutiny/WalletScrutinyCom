@@ -148,3 +148,15 @@ describe('resolveVerificationById', () => {
     assert.equal(found.sha256Hash, 'hash-global');
   });
 });
+
+describe('indexVerification', () => {
+  test('makes a directly fetched verification resolvable by id before any paint', async () => {
+    const { indexVerification, resolveVerificationById, clearVerificationIndex } = await import('../../src/assets-table-state.mjs');
+    clearVerificationIndex();
+    const verification = { id: 'direct-fetch-1', pubkey: 'p', tags: [['x', HASH_A]] };
+    assert.equal(resolveVerificationById('direct-fetch-1'), null);
+    indexVerification(verification, HASH_A);
+    assert.deepEqual(resolveVerificationById('DIRECT-FETCH-1'), { verification, sha256Hash: HASH_A });
+    clearVerificationIndex();
+  });
+});

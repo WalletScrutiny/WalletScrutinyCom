@@ -37,6 +37,7 @@ const bundlePath = (prefix) => {
   const shareUiSrc = '{{ site.baseurl }}/dist/<%= bundlePath('share_ui') %>';
   const loadVerificationsUi = {% if load_verifications_ui %}true{% else %}false{% endif %};
   const loadShareUi = {% if load_share_ui %}true{% else %}false{% endif %};
+  const deferSiteWideLoad = {% if page.layout contains "review" %}true{% else %}false{% endif %};
 
   function preloadScript(href) {
     const link = document.createElement('link');
@@ -72,6 +73,19 @@ const bundlePath = (prefix) => {
 
     (async function() {
       const ndkConnectPromise = nostrConnect();
+
+      if (deferSiteWideLoad) {
+        // Wallet pages paint their own table first. The site-wide load below
+        // pulls thousands of events and verifies their signatures on the main
+        // thread, which would delay that table and the verification modal.
+        await new Promise((resolve) => {
+          const timer = setTimeout(resolve, 4000);
+          window.addEventListener('assetsTableLoaded', () => {
+            clearTimeout(timer);
+            resolve();
+          }, { once: true });
+        });
+      }
 
       window.allAssetInformation = await getAllAssetInformation({
         onCachedDataLoaded: (cachedData) => {

@@ -370,6 +370,8 @@ window.renderAssetsTable = async function({
   }
 
   function notifyTableLoaded(assetInfo, paintResult) {
+    // Lets the page start heavier work (site-wide event load) after the first paint.
+    window.dispatchEvent(new CustomEvent('assetsTableLoaded'));
     if (typeof tableLoadedCallback !== 'function') {
       return;
     }

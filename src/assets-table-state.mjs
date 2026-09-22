@@ -32,6 +32,11 @@ function rememberVerification(verification, sha256Hash) {
   }
 }
 
+/** Makes a single verification resolvable by id before any table paint. */
+export function indexVerification(verification, sha256Hash) {
+  rememberVerification(verification, sha256Hash);
+}
+
 export function indexVerificationsFromAssetInfo(assetInfo) {
   if (!assetInfo) {
     return;

@@ -12,7 +12,8 @@ ALLOWED_KINDS = {
     30902, 30802,   # verification comment
     1337,           # code snippet
     31971, 31871,   # endorsement
-    30023           # opinion
+    30023,          # opinion
+    11984, 1984     # verification report (NIP-56); admin reports hide spam verifications on the site
 }
 
 def process_event(line):

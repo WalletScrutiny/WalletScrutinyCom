@@ -19,6 +19,7 @@ export function getNip57() {
 
 let pool = null;
 let relayUrls = [];
+let readRelayUrls = null;
 let privateKeyMaterial = null;
 let connectionPromise = null;
 
@@ -69,6 +70,11 @@ export function getRelayUrls() {
   return relayUrls;
 }
 
+/** Relays used by reads when a call passes no relayUrls; defaults to the write set. */
+export function getReadRelayUrls() {
+  return readRelayUrls ?? relayUrls;
+}
+
 export function setPrivateKey(privateKey) {
   privateKeyMaterial = normalizePrivateKey(privateKey);
 }
@@ -76,6 +82,7 @@ export function setPrivateKey(privateKey) {
 export async function connectNostr(options = {}) {
   const {
     relayUrls: urls,
+    readRelayUrls: readUrls,
     connectTimeoutMs = 3000,
     privateKey = undefined,
     onRelayConnect,
@@ -94,6 +101,9 @@ export async function connectNostr(options = {}) {
   if (urls) {
     relayUrls = urls;
   }
+  if (readUrls !== undefined) {
+    readRelayUrls = readUrls;
+  }
 
   if (connectionPromise && pool) {
     return connectionPromise;
@@ -104,16 +114,23 @@ export async function connectNostr(options = {}) {
       pool = new SimplePool();
     }
 
-    await Promise.allSettled(
-      relayUrls.map(async (url) => {
-        try {
-          await pool.ensureRelay(url, { connectionTimeout: connectTimeoutMs });
-          relayListeners.onConnect?.({ url });
-        } catch (error) {
-          relayListeners.onError?.({ url }, error);
-        }
-      })
-    );
+    const connect = async (url) => {
+      try {
+        await pool.ensureRelay(url, { connectionTimeout: connectTimeoutMs });
+        relayListeners.onConnect?.({ url });
+      } catch (error) {
+        relayListeners.onError?.({ url }, error);
+      }
+    };
+
+    // Reads only need the read relays; the first query must not wait for a
+    // slow or dead public relay. Write relays warm up in the background
+    // (publish() connects on demand anyway).
+    const readSet = new Set(getReadRelayUrls());
+    const readConnections = relayUrls.filter(url => readSet.has(url));
+    const otherConnections = relayUrls.filter(url => !readSet.has(url));
+    void Promise.allSettled(otherConnections.map(connect));
+    await Promise.allSettled(readConnections.map(connect));
   })();
 
   return connectionPromise;
@@ -151,7 +168,7 @@ export async function withEphemeralPool(urls, fn, { connectTimeoutMs = 3000 } = 
 export async function fetchEvents(filterOrFilters, options = {}) {
   await ensureConnected();
   const filters = Array.isArray(filterOrFilters) ? filterOrFilters : [filterOrFilters];
-  const urls = options.relayUrls ?? relayUrls;
+  const urls = options.relayUrls ?? getReadRelayUrls();
   const eventMap = new Map();
   const maxWait = options.maxWait ?? 3000;
 
@@ -170,7 +187,8 @@ export async function fetchEvents(filterOrFilters, options = {}) {
 
 export async function fetchEvent(eventId, options = {}) {
   await ensureConnected();
-  return pool.get(relayUrls, { ids: [eventId] }, { maxWait: options.maxWait ?? 3000 });
+  const urls = options.relayUrls ?? getReadRelayUrls();
+  return pool.get(urls, { ids: [eventId] }, { maxWait: options.maxWait ?? 3000 });
 }
 
 const DEFAULT_PAGINATION_PAGE_LIMIT = 500;
@@ -217,6 +235,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
   while (true) {
     pageCount++;
     let pageEvents;
+    const pageStartedAt = Date.now();
 
     try {
       pageEvents = await fetchEvents(pageFilter, { maxWait, relayUrls: [relayUrl] });
@@ -230,7 +249,13 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
         || pageFilter.until === undefined
         || pageFilter.until >= since;
 
-      if (hasMoreHistory && emptyPageRetries < maxEmptyRetries) {
+      // An empty page answered with a prompt EOSE is authoritative: the relay
+      // has nothing (more) for this filter. Retry only when the query ran into
+      // maxWait (no EOSE, e.g. a slow relay) or when the relay already returned
+      // events and may have cut a page short on its query time budget.
+      const timedOut = Date.now() - pageStartedAt >= maxWait - 50;
+      const hadEventsBefore = relayEvents.size > 0;
+      if ((timedOut || hadEventsBefore) && hasMoreHistory && emptyPageRetries < maxEmptyRetries) {
         emptyPageRetries++;
         await sleep(400 * emptyPageRetries);
         continue;
@@ -286,7 +311,7 @@ async function fetchEventsWithPaginationFromRelay(relayUrl, filter, options = {}
  * merged by event id.
  */
 export async function fetchEventsWithPagination(filter, options = {}) {
-  const urls = options.relayUrls ?? relayUrls;
+  const urls = options.relayUrls ?? getReadRelayUrls();
   const relayEventMaps = await Promise.all(
     urls.map(relayUrl => fetchEventsWithPaginationFromRelay(relayUrl, filter, options))
   );
@@ -366,12 +391,12 @@ export async function publishToRelays(event, urls, timeoutMs = 5000, minSuccess 
   return publishPromise;
 }
 
-export function subscribeEvents(filter, { onevent, onclose, maxWait } = {}) {
+export function subscribeEvents(filter, { onevent, onclose, maxWait, relayUrls: urls } = {}) {
   if (!pool) {
     throw new Error('Pool not initialized');
   }
 
-  return pool.subscribe(relayUrls, filter, {
+  return pool.subscribe(urls ?? relayUrls, filter, {
     onevent,
     onclose,
     maxWait: maxWait ?? 3000,

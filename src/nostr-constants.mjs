@@ -20,10 +20,23 @@ export const profileRelayUrl = "wss://purplepag.es/";
 export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileRelayUrl);
 
 /**
- * Relays for paginated verification history reads. The project relay holds the
- * complete archive; other relays are synced in the background only.
- * Initial bulk loads paginate mainRelayUrl only.
+ * Relays for reads of WalletScrutiny event kinds (verifications, assets,
+ * endorsements, comments, snippets, deletions). Reads go to the project relay
+ * only: nostr-tools resolves a query when every relay has sent EOSE, so adding
+ * public relays makes each read as slow as the slowest of them. Writes still go
+ * to every relay in explicitRelayUrls. Kind-0 profiles and zap receipts are the
+ * exceptions (the project relay rejects those kinds) and read eventRelayUrls.
  */
+export const readRelayUrls = [mainRelayUrl];
+
+/**
+ * Relays for kind-1984 admin verification reports. The project relay's write
+ * policy does not accept kind 1984 yet, so reports live on the public relays
+ * only. Switch this to readRelayUrls once the relay accepts 1984 and the
+ * existing reports were backfilled there.
+ */
+export const reportRelayUrls = eventRelayUrls;
+
 
 /** Default LIMIT per paginated REQ when a relay has no entry in relayPaginationPageLimits. */
 export const defaultRelayPaginationPageLimit = 500;
