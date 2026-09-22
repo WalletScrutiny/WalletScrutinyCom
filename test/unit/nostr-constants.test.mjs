@@ -47,3 +47,16 @@ describe('kind constants', () => {
     assert.equal(codeSnippetKind, 1337);
   });
 });
+
+describe('read relay routing', () => {
+  test('reads of WalletScrutiny kinds go to the project relay only', async () => {
+    const { readRelayUrls, mainRelayUrl } = await import('../../src/nostr-constants.mjs');
+    assert.deepEqual(readRelayUrls, [mainRelayUrl]);
+  });
+
+  test('report reads stay on the public event relays until the project relay accepts kind 1984', async () => {
+    const { reportRelayUrls, eventRelayUrls, profileRelayUrl } = await import('../../src/nostr-constants.mjs');
+    assert.deepEqual(reportRelayUrls, eventRelayUrls);
+    assert.equal(reportRelayUrls.includes(profileRelayUrl), false);
+  });
+});

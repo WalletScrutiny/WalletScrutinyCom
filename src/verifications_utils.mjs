@@ -34,6 +34,8 @@ import {
   verificationReportKind,
   explicitRelayUrls,
   eventRelayUrls,
+  readRelayUrls,
+  reportRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
   defaultRelayPaginationPageLimit,
@@ -101,6 +103,7 @@ const nostrConnect = function () {
     try {
       await connectNostr({
         relayUrls: eventRelayUrls,
+        readRelayUrls,
         connectTimeoutMs: connectTimeout * 1000,
         onRelayConnect: (relay) => {
           console.debug(`Connected to relay: ${relay.url}`);
@@ -518,7 +521,7 @@ async function fetchReportsForVerificationIds(verificationEventIds, { unscoped =
   await ensureNostrConnected();
   for (const filter of filters) {
     try {
-      const batch = await nostrFetchEvents(filter);
+      const batch = await nostrFetchEvents(filter, { relayUrls: reportRelayUrls });
       if (batch.size > 0) {
         await saveEventsToIDB(batch).catch(e => {
           console.warn('Failed to save verification reports to IDB', e);
@@ -532,6 +535,24 @@ async function fetchReportsForVerificationIds(verificationEventIds, { unscoped =
     }
   }
   return reported;
+}
+
+/**
+ * True when a site admin reported this verification (cache first, then the
+ * report relays). Used by the direct-link modal open, which bypasses the
+ * report filtering of the table maps.
+ */
+async function isVerificationReported(verificationEventId) {
+  if (!verificationEventId) {
+    return false;
+  }
+  const ids = [verificationEventId];
+  const cached = await loadCachedReportedVerificationIds(ids, verificationEventsSinceTS);
+  if (cached.has(verificationEventId)) {
+    return true;
+  }
+  const fromNetwork = await fetchReportsForVerificationIds(ids, { unscoped: false });
+  return fromNetwork.has(verificationEventId);
 }
 
 const createVerificationReport = async function ({
@@ -831,7 +852,7 @@ async function fetchVerificationEventsWithPagination(baseFilter, options) {
   return merged;
 }
 
-const mainRelayPaginationOptions = buildRelayPaginationOptions([mainRelayUrl]);
+const mainRelayPaginationOptions = buildRelayPaginationOptions(readRelayUrls);
 const supplementalRelayPaginationOptions = buildRelayPaginationOptions(
   eventRelayUrls.filter(url => url !== mainRelayUrl)
 );
@@ -968,14 +989,10 @@ const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limi
   const db = await initDB().catch(() => null);
   if (!db) return [];
 
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([eventsStoreName], "readonly");
-    const objectStore = transaction.objectStore(eventsStoreName);
-    const results = [];
+  const transaction = db.transaction([eventsStoreName], "readonly");
+  const objectStore = transaction.objectStore(eventsStoreName);
 
-    // Use created_at index to iterate in descending order (newest first)
-    const index = objectStore.index('created_at');
-
+  if (!kinds) {
     // Build IDBKeyRange based on since/until
     let range = null;
     if (since !== null && until !== null) {
@@ -985,39 +1002,52 @@ const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limi
     } else if (until !== null) {
       range = IDBKeyRange.upperBound(until);
     }
+    return readIndexNewestFirst(objectStore.index('created_at'), range, limit);
+  }
 
-    // Open cursor in descending order (prev = newest first)
+  // One bounded cursor per kind on the (kind, created_at) index: the store also
+  // holds endorsements, comments, snippets and reports, so scanning every event
+  // and filtering kinds in JS grows with the whole cache instead of the request.
+  const perKind = await Promise.all(kinds.map(kind => readIndexNewestFirst(
+    objectStore.index('kind_createdAt'),
+    IDBKeyRange.bound([kind, since ?? 0], [kind, until ?? Number.MAX_SAFE_INTEGER]),
+    limit
+  )));
+
+  const results = perKind.flat().sort((a, b) => b.created_at - a.created_at);
+  return limit ? results.slice(0, limit) : results;
+};
+
+/** Reads an index range newest first (cursor direction 'prev'), stopping at limit. */
+function readIndexNewestFirst(index, range, limit) {
+  return new Promise((resolve, reject) => {
+    const results = [];
     const request = index.openCursor(range, 'prev');
-
     request.onsuccess = (event) => {
       const cursor = event.target.result;
-      if (cursor) {
-        const eventData = cursor.value;
-
-        // Apply kind filter
-        let include = true;
-        if (kinds && !kinds.includes(eventData.kind)) {
-          include = false;
-        }
-
-        if (include) {
-          results.push(eventData);
-
-          // Stop if we've hit the limit
-          if (limit && results.length >= limit) {
-            resolve(results);
-            return;
-          }
-        }
-
-        cursor.continue();
-      } else {
-        // No more results, return what we have
+      if (!cursor) {
         resolve(results);
+        return;
       }
+      results.push(cursor.value);
+      if (limit && results.length >= limit) {
+        resolve(results);
+        return;
+      }
+      cursor.continue();
     };
-
     request.onerror = () => reject("Error reading events from IDB");
+  });
+}
+
+/** Reads a single cached event by id, or null. */
+const getEventFromIDB = async (eventId) => {
+  const db = await initDB().catch(() => null);
+  if (!db || !eventId) return null;
+  return new Promise((resolve) => {
+    const request = db.transaction([eventsStoreName], "readonly").objectStore(eventsStoreName).get(eventId);
+    request.onsuccess = () => resolve(request.result ?? null);
+    request.onerror = () => resolve(null);
   });
 };
 
@@ -1052,54 +1082,100 @@ const getIDBEventRange = async (kinds = null) => {
   const db = await initDB().catch(() => null);
   if (!db) return { oldest: null, newest: null, count: 0 };
 
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([eventsStoreName], "readonly");
-    const objectStore = transaction.objectStore(eventsStoreName);
-    const index = objectStore.index('created_at');
+  const transaction = db.transaction([eventsStoreName], "readonly");
+  const objectStore = transaction.objectStore(eventsStoreName);
 
-    let oldest = null;
-    let newest = null;
-    let count = 0;
-
+  const count = await new Promise((resolve, reject) => {
     const countRequest = objectStore.count();
-    countRequest.onsuccess = () => {
-      count = countRequest.result;
-    };
-
-    // Get oldest
-    const oldestRequest = index.openCursor(null, 'next');
-    oldestRequest.onsuccess = (event) => {
-      const cursor = event.target.result;
-      if (cursor) {
-        const eventData = cursor.value;
-        if (!kinds || kinds.includes(eventData.kind)) {
-          oldest = eventData.created_at;
-        } else {
-          cursor.continue();
-          return;
-        }
-      }
-
-      // Get newest
-      const newestRequest = index.openCursor(null, 'prev');
-      newestRequest.onsuccess = (event) => {
-        const cursor = event.target.result;
-        if (cursor) {
-          const eventData = cursor.value;
-          if (!kinds || kinds.includes(eventData.kind)) {
-            newest = eventData.created_at;
-          } else {
-            cursor.continue();
-            return;
-          }
-        }
-
-        resolve({ oldest, newest, count });
-      };
-      newestRequest.onerror = () => reject("Error reading newest event");
-    };
-    oldestRequest.onerror = () => reject("Error reading oldest event");
+    countRequest.onsuccess = () => resolve(countRequest.result);
+    countRequest.onerror = () => reject("Error counting events");
   });
+
+  // First key of a cursor over an index range, or null when the range is empty.
+  const edgeCreatedAt = (index, range, direction) => new Promise((resolve, reject) => {
+    const request = index.openKeyCursor(range, direction);
+    request.onsuccess = (event) => {
+      const cursor = event.target.result;
+      if (!cursor) {
+        resolve(null);
+        return;
+      }
+      const key = cursor.key;
+      resolve(Array.isArray(key) ? key[1] : key);
+    };
+    request.onerror = () => reject("Error reading event range");
+  });
+
+  if (!kinds) {
+    const index = objectStore.index('created_at');
+    const [oldest, newest] = await Promise.all([
+      edgeCreatedAt(index, null, 'next'),
+      edgeCreatedAt(index, null, 'prev'),
+    ]);
+    return { oldest, newest, count };
+  }
+
+  // Bounded lookups on (kind, created_at): a rare kind no longer forces a scan
+  // over every cached event of the other kinds.
+  const index = objectStore.index('kind_createdAt');
+  let oldest = null;
+  let newest = null;
+  for (const kind of kinds) {
+    const range = IDBKeyRange.bound([kind, 0], [kind, Number.MAX_SAFE_INTEGER]);
+    const [kindOldest, kindNewest] = await Promise.all([
+      edgeCreatedAt(index, range, 'next'),
+      edgeCreatedAt(index, range, 'prev'),
+    ]);
+    if (kindOldest !== null && (oldest === null || kindOldest < oldest)) {
+      oldest = kindOldest;
+    }
+    if (kindNewest !== null && (newest === null || kindNewest > newest)) {
+      newest = kindNewest;
+    }
+  }
+  return { oldest, newest, count };
+};
+
+const deletionRequestKind = 5;
+
+/**
+ * Removes cached events named by e tags of kind-5 deletion requests, when the
+ * request was signed by the author of the cached event (NIP-09).
+ */
+async function applyDeletionRequestsToCache(deletionEvents) {
+  let removed = 0;
+  for (const deletion of deletionEvents) {
+    for (const tag of deletion.tags ?? []) {
+      if (tag[0] !== 'e' || !EVENT_ID_HEX_RE.test(tag[1] ?? '')) {
+        continue;
+      }
+      const target = await getEventFromIDB(tag[1]);
+      if (!target || target.pubkey !== deletion.pubkey) {
+        continue;
+      }
+      await deleteCachedEventById(tag[1]);
+      removed++;
+    }
+  }
+  return removed;
+}
+
+/**
+ * The browser that deletes an event drops it from its own cache; every other
+ * visitor's cache only learns about it through the kind-5 requests on the relay.
+ */
+const syncDeletionRequests = async function() {
+  const { newest: newestDeletion } = await getIDBEventRange([deletionRequestKind]);
+  const deletions = await fetchEventsWithPagination({
+    kinds: [deletionRequestKind],
+    since: newestDeletion ? newestDeletion + 1 : verificationEventsSinceTS,
+  }, mainRelayPaginationOptions);
+  if (deletions.size === 0) {
+    return;
+  }
+  const removed = await applyDeletionRequestsToCache(deletions);
+  await saveEventsToIDB(deletions);
+  console.log(`Background sync: applied ${deletions.size} deletion request(s), removed ${removed} cached event(s)`);
 };
 
 
@@ -1288,12 +1364,15 @@ const backgroundSyncEvents = async function() {
       console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
     }
 
+    // 10. Apply deletion requests published since the last sync
+    await syncDeletionRequests();
+
     const { newest: newestReport } = await getIDBEventRange([verificationReportKind]);
     const newReports = await nostrFetchEvents({
       kinds: [verificationReportKind],
       authors: siteAdminPubkeys,
       since: newestReport ? newestReport + 1 : verificationEventsSinceTS
-    });
+    }, { relayUrls: reportRelayUrls });
     if (newReports.size > 0) {
       await saveEventsToIDB(newReports);
       console.log(`Background sync: Saved ${newReports.size} new verification reports`);
@@ -1578,7 +1657,7 @@ const getAllAssetInformation = async function({ months,
         console.debug(`Fetching single batch with filter:`, filter);
         newEvents = await nostrFetchEvents(filter);
       } else {
-        newEvents = await fetchEventsWithPagination(filter);
+        newEvents = await fetchEventsWithPagination(filter, mainRelayPaginationOptions);
       }
 
       console.log(`Fetched ${newEvents.size} new events from network`);
@@ -2459,4 +2538,5 @@ export {
   reportedIdsFromReports,
   buildVerificationReportFilters,
   eventSanitize,
+  isVerificationReported,
 };

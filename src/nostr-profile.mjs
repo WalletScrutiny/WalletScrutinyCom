@@ -10,6 +10,8 @@ const PROFILES_STORE = 'profiles';
 const PROFILE_HIT_MAX_AGE = 24 * 60 * 60;
 const PROFILE_CACHE_VERSION = 6;
 const PROFILE_URL_KEYS = new Set(['image', 'picture', 'banner']);
+const PROFILE_FETCH_MAX_WAIT_MS = 4000;
+const PROFILE_FETCH_GRACE_MS = 500;
 
 const purifyConfig = {
   ALLOWED_TAGS: ['div'],
@@ -159,17 +161,53 @@ function buildProfile(pubkey, metadata, profileEvent) {
   };
 }
 
+/**
+ * Kind-0 profiles live on the public relays (the project relay rejects kind 0).
+ * pool.get() would wait for every relay's EOSE or maxWait; instead take the
+ * newest event seen within a short grace period after the first hit.
+ */
 async function fetchKind0ProfileEvent(pubkey) {
   await ensureConnected();
   const pool = getPool();
   if (!pool) {
     return null;
   }
-  return pool.get(
-    eventRelayUrls,
-    { kinds: [0], authors: [pubkey], limit: 1 },
-    { maxWait: 10_000 }
-  );
+  return new Promise((resolve) => {
+    let newest = null;
+    let graceTimer = null;
+    let settled = false;
+    let subscription = null;
+
+    const finish = () => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      clearTimeout(graceTimer);
+      try {
+        subscription?.close('profile fetched');
+      } catch {
+        // already closed
+      }
+      resolve(newest);
+    };
+
+    subscription = pool.subscribe(
+      eventRelayUrls,
+      { kinds: [0], authors: [pubkey], limit: 1 },
+      {
+        maxWait: PROFILE_FETCH_MAX_WAIT_MS,
+        onevent: (event) => {
+          if (!newest || event.created_at > newest.created_at) {
+            newest = event;
+          }
+          graceTimer ??= setTimeout(finish, PROFILE_FETCH_GRACE_MS);
+        },
+        oneose: finish,
+        onclose: finish,
+      }
+    );
+  });
 }
 
 /**
