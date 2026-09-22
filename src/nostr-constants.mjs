@@ -30,12 +30,11 @@ export const eventRelayUrls = explicitRelayUrls.filter((url) => url !== profileR
 export const readRelayUrls = [mainRelayUrl];
 
 /**
- * Relays for kind-1984 admin verification reports. The project relay's write
- * policy does not accept kind 1984 yet, so reports live on the public relays
- * only. Switch this to readRelayUrls once the relay accepts 1984 and the
- * existing reports were backfilled there.
+ * Relays for kind-1984 admin verification reports. The project relay accepts
+ * kind 1984 since 2026-09-22 and the earlier reports were backfilled there, so
+ * reports read like every other WalletScrutiny kind.
  */
-export const reportRelayUrls = eventRelayUrls;
+export const reportRelayUrls = readRelayUrls;
 
 
 /** Default LIMIT per paginated REQ when a relay has no entry in relayPaginationPageLimits. */
