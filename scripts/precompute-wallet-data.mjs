@@ -11,8 +11,6 @@ import fs from 'fs';
 import path from 'path';
 import { createRequire } from 'module';
 import {
-  summarizeMobileStoreFields,
-  toStoreDateString,
   listingMetaForMobile,
   combineMobileMeta,
   platformMeta as getPlatformBlockMeta,
@@ -413,7 +411,6 @@ function loadMobileWallets() {
     const storePlatform = android.appId ? 'android' : (iphone.appId ? 'iphone' : 'android');
     const storeAppId = android.appId || iphone.appId || slug;
     const iconFolder = android.icon ? 'android' : (iphone.icon ? 'iphone' : storePlatform);
-    const storeFields = summarizeMobileStoreFields(android, iphone, { preferPlatform: storePlatform });
 
     const listingMeta = listingMetaForMobile(frontmatter, storePlatform);
     const combinedMeta = combineMobileMeta(android, iphone);
@@ -432,10 +429,6 @@ function loadMobileWallets() {
       altTitle: android.altTitle || iphone.altTitle || '',
       users: Math.max(Number(android.users) || 0, Number(iphone.users) || 0),
       reviews: Math.max(Number(android.reviews) || 0, Number(iphone.reviews) || 0),
-      released: storeFields.released,
-      updated: storeFields.updated,
-      version: storeFields.version,
-      date: toStoreDateString(frontmatter.date),
       meta: combinedMeta === 'obsolete' ? 'obsolete' : listingMeta,
       metaAndroid: getPlatformBlockMeta(android),
       metaIphone: getPlatformBlockMeta(iphone),
@@ -531,67 +524,6 @@ console.log(`  Wallet scores: ${Object.keys(precomputed.walletScores).length} un
 console.log(`  SeeAlso links: ${Object.keys(precomputed.seeAlso).length} wallets with cross-platform links`);
 console.log(`  Wallet links: ${Object.keys(precomputed.walletLinks).length} lookup keys`);
 console.log(`  Verdict group counts: ${precomputed.totalReviewedProducts} products across ${verdictGroups.length} groups`);
-
-// Generate wallets.json (replaces Liquid template generation)
-console.log('\nGenerating wallets.json...');
-const walletsJsonPlatforms = ['hardware', 'mobile', 'bearer', 'desktop', 'others'];
-const walletsJson = {};
-
-for (const platform of walletsJsonPlatforms) {
-  walletsJson[platform] = {};
-  const wallets = allWallets[platform] || [];
-  
-  for (const wallet of wallets) {
-    const isMobile = platform === 'mobile';
-    const verdictAndroid = isMobile ? (wallet.verdictAndroid || '') : '';
-    const verdictIphone = isMobile ? (wallet.verdictIphone || '') : '';
-    const primaryVerdict = isMobile
-      ? (verdictAndroid || verdictIphone || wallet.verdict || '')
-      : (wallet.verdict || '');
-    const scoreKey = `${platform}-${primaryVerdict}`;
-    const score = precomputed.walletScores[scoreKey] || { count: 0, total: 0 };
-    const verdictData = verdicts[primaryVerdict] || {};
-    const scoreAndroid = verdictAndroid
-      ? (precomputed.walletScores[`mobile-${verdictAndroid}`] || { count: 0, total: 0 })
-      : null;
-    const scoreIphone = verdictIphone
-      ? (precomputed.walletScores[`mobile-${verdictIphone}`] || { count: 0, total: 0 })
-      : null;
-
-    const passedText = score.count === score.total
-      ? `Passed all ${score.total} tests`
-      : `Passed ${score.count} of ${score.total} tests`;
-
-    const entry = {
-      wsId: wallet.wsId || '',
-      title: wallet.title || '',
-      appId: wallet.appId || '',
-      date: wallet.date || '',
-      verdict: primaryVerdict,
-      meta: wallet.meta || '',
-      version: wallet.version || '',
-      released: wallet.released || '',
-      updated: wallet.updated || '',
-      icon: wallet.icon || '',
-      developerName: wallet.android?.developerName || wallet.iphone?.developerName || '',
-      users: wallet.users || '',
-      score: { numerator: score.count, denominator: score.total },
-      passedText,
-      verdictText: verdictData.title || '',
-    };
-    if (isMobile) {
-      entry.verdictAndroid = verdictAndroid;
-      entry.verdictIphone = verdictIphone;
-      if (scoreAndroid) entry.scoreAndroid = { numerator: scoreAndroid.count, denominator: scoreAndroid.total };
-      if (scoreIphone) entry.scoreIphone = { numerator: scoreIphone.count, denominator: scoreIphone.total };
-    }
-    walletsJson[platform][wallet.appId] = entry;
-  }
-}
-
-const walletsJsonPath = path.join(ROOT, 'assets/js/json/wallets-precomputed.json');
-fs.writeFileSync(walletsJsonPath, JSON.stringify(walletsJson));
-console.log(`  Generated ${walletsJsonPath}`);
 
 // Generate allProducts.json (used by allWallets.js)
 console.log('\nGenerating allProducts.json...');
