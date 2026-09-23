@@ -12,7 +12,7 @@ provider: Piotr Narewski
 providerWebsite: 
 website: https://gocoin.pl/gocoin_manual_wallet.html
 repository: https://github.com/piotrnar/gocoin
-icon: gocoin.png
+icon: gocoin.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -12,7 +12,7 @@ android:
   released: 2019-07-26
   updated: 2020-07-02
   version: 4.5.7
-  icon: com.eyewallet.io.jpg
+  icon: com.eyewallet.io.webp
   meta: removed
   verdict: wip
   developerName: Eyeline Asociados S A

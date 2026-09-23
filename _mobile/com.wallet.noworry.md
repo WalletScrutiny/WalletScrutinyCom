@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-09-07
   version: 5.8.42
-  icon: com.wallet.noworry.png
+  icon: com.wallet.noworry.webp
   meta: ok
   verdict: custodial
   developerName: Nowory Labs

@@ -13,7 +13,7 @@ android:
   updated: 2020-08-07
   version: 2.0.22
   reviews: 154
-  icon: com.aos.wallet.token.png
+  icon: com.aos.wallet.token.webp
   meta: removed
   verdict: nosource
 

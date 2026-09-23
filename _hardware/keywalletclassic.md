@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: keywalletclassic.png
+icon: keywalletclassic.webp
 bugbounty: 
 meta: defunct
 verdict: wip

@@ -10,7 +10,7 @@ android:
   released: 2018-12-13
   updated: 2019-05-15
   version: 2.0.1
-  icon: io.centrys.synawallet.png
+  icon: io.centrys.synawallet.webp
   meta: removed
   verdict: wip
   developerName: Centrys Inc.

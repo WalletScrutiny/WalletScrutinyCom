@@ -14,7 +14,7 @@ iphone:
   updated: 2023-09-14
   version: 1.11.21
   reviews: 5869
-  icon: com.rebellionpay.app.jpg
+  icon: com.rebellionpay.app.webp
   meta: removed
   verdict: wip
   developerName: RBLDE Unconventional S.L.

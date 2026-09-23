@@ -10,7 +10,7 @@ android:
   released: 2021-03-31
   updated: 2021-03-31
   version: '1.0'
-  icon: com.vaival.sentipaywallet.png
+  icon: com.vaival.sentipaywallet.webp
   meta: removed
   verdict: wip
   developerName: Abdullah Choonara LLC

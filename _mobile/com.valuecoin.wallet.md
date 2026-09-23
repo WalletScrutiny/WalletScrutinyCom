@@ -10,7 +10,7 @@ android:
   released: 2020-04-20
   updated: 2022-08-24
   version: '3.4'
-  icon: com.valuecoin.wallet.png
+  icon: com.valuecoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: blockchainjapan

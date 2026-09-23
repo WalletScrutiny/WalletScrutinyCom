@@ -19,7 +19,7 @@ android:
   released: 2020-08-23
   updated: 2026-09-07
   version: 3.6.36
-  icon: com.criptan.app.png
+  icon: com.criptan.app.webp
   meta: ok
   verdict: custodial
   developerName: CRIPTAN
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-09
   version: 3.6.36
   reviews: 501
-  icon: com.criptan.app.jpg
+  icon: com.criptan.app.webp
   meta: ok
   verdict: custodial
   developerName: Criptan Trade SL

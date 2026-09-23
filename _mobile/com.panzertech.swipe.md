@@ -9,7 +9,7 @@ android:
   released: 2019-05-20
   updated: 2020-03-30
   version: '1.7'
-  icon: com.panzertech.swipe.png
+  icon: com.panzertech.swipe.webp
   meta: removed
   verdict: wip
   developerName: PanzerTech

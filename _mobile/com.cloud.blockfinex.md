@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2022-12-29
   version: 1.4.0
-  icon: com.cloud.blockfinex.png
+  icon: com.cloud.blockfinex.webp
   meta: removed
   verdict: wip
   developerName: Telechat Limited

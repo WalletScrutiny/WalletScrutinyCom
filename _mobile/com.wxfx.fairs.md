@@ -10,7 +10,7 @@ android:
   updated: 2022-07-21
   version: 1.2.9
   reviews: 7
-  icon: com.wxfx.fairs.jpg
+  icon: com.wxfx.fairs.webp
   meta: removed
   verdict: wip
 

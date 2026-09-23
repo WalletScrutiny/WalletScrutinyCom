@@ -10,7 +10,7 @@ android:
   released: 2022-02-23
   updated: 2022-04-19
   version: 1.0.13
-  icon: com.btcpari.app.png
+  icon: com.btcpari.app.webp
   meta: removed
   verdict: wip
 

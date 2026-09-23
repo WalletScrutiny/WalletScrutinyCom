@@ -10,7 +10,7 @@ android:
   released: 2019-08-05
   updated: 2019-08-16
   version: 1.0.5
-  icon: com.daiospay.png
+  icon: com.daiospay.webp
   meta: removed
   verdict: wip
   developerName: 다이브 주식회사

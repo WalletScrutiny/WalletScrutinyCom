@@ -15,7 +15,7 @@ iphone:
   updated: 2019-06-26
   version: 3.0.5
   reviews: 27
-  icon: com.studytodo.bitkey.jpg
+  icon: com.studytodo.bitkey.webp
   meta: removed
   verdict: nosource
   developerName: https://www.surroundingai.com/

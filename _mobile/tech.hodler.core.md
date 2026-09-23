@@ -13,7 +13,7 @@ android:
   released: 2018-09-02
   updated: 2019-10-29
   version: 0.4.6
-  icon: tech.hodler.core.png
+  icon: tech.hodler.core.webp
   meta: removed
   verdict: sourceavailable
   developerName: HODLER.TECH LTD

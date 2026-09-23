@@ -12,7 +12,7 @@ android:
   released: 2021-02-24
   updated: 2021-05-11
   version: 1.0.1
-  icon: com.coinzo.app.png
+  icon: com.coinzo.app.webp
   meta: removed
   verdict: wip
   developerName: Coinzo

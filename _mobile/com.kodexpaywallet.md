@@ -10,7 +10,7 @@ android:
   released: 2023-03-29
   updated: 2023-06-30
   version: 2.0.0
-  icon: com.kodexpaywallet.png
+  icon: com.kodexpaywallet.webp
   meta: removed
   verdict: wip
   developerName: EOST

@@ -9,7 +9,7 @@ android:
   released: 2021-06-15
   updated: 2021-06-16
   version: 1.0.0
-  icon: com.rainball.app.png
+  icon: com.rainball.app.webp
   meta: removed
   verdict: wip
   developerName: DEVFoXWallet

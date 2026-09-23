@@ -13,7 +13,7 @@ android:
   updated: 2021-08-29
   version: 1.0.3
   reviews: 33
-  icon: com.thunderbolt.wallet.png
+  icon: com.thunderbolt.wallet.webp
   meta: removed
   verdict: fake
   developerName: EncryptDR

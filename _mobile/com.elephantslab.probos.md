@@ -19,7 +19,7 @@ android:
   released: 2022-09-20
   updated: 2022-09-30
   version: 1.1.1
-  icon: com.elephantslab.probos.png
+  icon: com.elephantslab.probos.webp
   meta: removed
   verdict: nosource
   developerName: ElephantsLab, LLC
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-10-01
   version: '1.1'
   reviews: 1
-  icon: io.probos.support.jpg
+  icon: io.probos.support.webp
   meta: removed
   verdict: nosource
   developerName: ELEPHANTSLAB LP

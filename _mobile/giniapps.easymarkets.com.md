@@ -20,7 +20,7 @@ android:
   updated: 2026-08-25
   version: 3.4.2
   reviews: 40
-  icon: giniapps.easymarkets.com.png
+  icon: giniapps.easymarkets.com.webp
   meta: ok
   verdict: custodial
   developerName: easyMarkets
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-27
   version: 6.4.6
   reviews: 225
-  icon: com.easyforex.trading.jpg
+  icon: com.easyforex.trading.webp
   meta: ok
   verdict: custodial
   developerName: Blue Capital Markets Limited

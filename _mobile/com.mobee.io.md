@@ -24,7 +24,7 @@ android:
   updated: 2026-09-16
   version: 2.1.0
   reviews: 2
-  icon: com.mobee.io.png
+  icon: com.mobee.io.webp
   meta: ok
   verdict: custodial
   developerName: Mobee - PT CTXG Indonesia Berkarya
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-18
   version: 2.1.0
   reviews: 1024
-  icon: io.mobee.finance.jpg
+  icon: io.mobee.finance.webp
   meta: ok
   verdict: custodial
   developerName: PT CTXG Indonesia Berkarya

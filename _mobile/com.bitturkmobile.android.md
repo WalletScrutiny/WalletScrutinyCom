@@ -19,7 +19,7 @@ android:
   released: 2019-04-05
   updated: 2022-02-08
   version: '1.21'
-  icon: com.bitturkmobile.android.png
+  icon: com.bitturkmobile.android.webp
   meta: removed
   verdict: custodial
   developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-02-01
   version: '2.0'
   reviews: 30
-  icon: bitturkmobile.ios.jpg
+  icon: bitturkmobile.ios.webp
   meta: removed
   verdict: custodial
   developerName: BITTURK BILISIM VE TICARET A.S.

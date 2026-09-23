@@ -10,7 +10,7 @@ android:
   released: 2022-05-30
   updated: 2022-05-30
   version: '1.0'
-  icon: com.velesapp.png
+  icon: com.velesapp.webp
   meta: removed
   verdict: wip
   developerName: Royal Bytes

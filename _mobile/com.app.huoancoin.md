@@ -13,7 +13,7 @@ android:
   updated: 2022-01-24
   version: '1.0'
   reviews: 18
-  icon: com.app.huoancoin.png
+  icon: com.app.huoancoin.webp
   meta: removed
   verdict: wip
   developerName: TRED Studio

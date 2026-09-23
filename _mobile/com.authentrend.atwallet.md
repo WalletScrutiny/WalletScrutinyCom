@@ -11,7 +11,7 @@ android:
   released: 2020-07-13
   updated: 2023-09-28
   version: v2.0.12
-  icon: com.authentrend.atwallet.png
+  icon: com.authentrend.atwallet.webp
   meta: obsolete
   verdict: wip
   developerName: AuthenTrend Technology Inc.

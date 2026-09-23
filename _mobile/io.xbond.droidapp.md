@@ -10,7 +10,7 @@ android:
   released: 2021-08-14
   updated: 2021-10-14
   version: '1.1'
-  icon: io.xbond.droidapp.png
+  icon: io.xbond.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Wisepayy

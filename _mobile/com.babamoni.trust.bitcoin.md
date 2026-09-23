@@ -10,7 +10,7 @@ android:
   released: 2020-06-22
   updated: 2020-06-22
   version: '2'
-  icon: com.babamoni.trust.bitcoin.png
+  icon: com.babamoni.trust.bitcoin.webp
   meta: removed
   verdict: wip
   developerName: Baba moni

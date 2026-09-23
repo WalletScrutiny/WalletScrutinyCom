@@ -10,7 +10,7 @@ android:
   released: 2021-08-19
   updated: 2021-08-19
   version: 1.0.0
-  icon: io.bitdax.app.png
+  icon: io.bitdax.app.webp
   meta: removed
   verdict: wip
   developerName: BITDAX

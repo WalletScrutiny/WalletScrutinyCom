@@ -20,7 +20,7 @@ shop: https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for
 country: SG
 price: 229USD
 repository: 
-icon: ryder.one.png
+icon: ryder.one.webp
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -24,7 +24,7 @@ android:
   updated: 2026-09-01
   version: 1.0.38
   reviews: 138
-  icon: com.avaxwallet.png
+  icon: com.avaxwallet.webp
   meta: ok
   verdict: nosource
   developerName: Ava Labs, Inc.
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-02
   version: 1.0.38
   reviews: 168
-  icon: org.avalabs.corewallet.jpg
+  icon: org.avalabs.corewallet.webp
   meta: ok
   verdict: nosource
   developerName: Ava Labs, Incorporated

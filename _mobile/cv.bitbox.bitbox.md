@@ -10,7 +10,7 @@ android:
   released: 2021-12-18
   updated: 2022-03-10
   version: 1.3.9
-  icon: cv.bitbox.bitbox.png
+  icon: cv.bitbox.bitbox.webp
   meta: removed
   verdict: wip
   developerName: Bitbox Inc

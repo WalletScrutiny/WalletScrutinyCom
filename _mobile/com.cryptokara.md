@@ -15,7 +15,7 @@ android:
   updated: 2024-04-08
   version: 1.7.5
   reviews: 144
-  icon: com.cryptokara.jpg
+  icon: com.cryptokara.webp
   meta: removed
   verdict: nosource
   developerName: 'Eagle Network : Digital Currency For Phone'
@@ -27,7 +27,7 @@ iphone:
   updated: 2024-04-08
   version: 7.4.3
   reviews: 45
-  icon: com.cryptokara.app.jpg
+  icon: com.cryptokara.app.webp
   meta: removed
   verdict: nosource
   developerName: AUTOMATED CHAIN LIMITED

@@ -10,7 +10,7 @@ android:
   released: 2022-09-06
   updated: 2022-09-06
   version: 1.0.1
-  icon: com.payterminal.payterminal.jpg
+  icon: com.payterminal.payterminal.webp
   meta: removed
   verdict: wip
   developerName: Strongbox Tech

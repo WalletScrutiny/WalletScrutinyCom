@@ -18,7 +18,7 @@ android:
   updated: 2021-06-22
   version: 1.2.7
   reviews: 6
-  icon: com.bigomex.blockchain.jpg
+  icon: com.bigomex.blockchain.webp
   meta: removed
   verdict: custodial
   developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD

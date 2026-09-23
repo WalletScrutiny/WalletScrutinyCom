@@ -13,7 +13,7 @@ android:
   updated: 2026-09-10
   version: 1.3.53
   reviews: 22
-  icon: com.willtrade.trading.png
+  icon: com.willtrade.trading.webp
   meta: ok
   verdict: custodial
   developerName: TradeWill Global

@@ -10,7 +10,7 @@ android:
   released: 2022-02-21
   updated: 2022-04-02
   version: 0.0.4
-  icon: com.bitwyre.bitwyreapp.png
+  icon: com.bitwyre.bitwyreapp.webp
   meta: removed
   verdict: wip
   developerName: Bitwyre

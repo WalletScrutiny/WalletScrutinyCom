@@ -16,7 +16,7 @@ android:
   appCountry: us
   updated: 2024-12-21
   version: 7.0.32
-  icon: com.uptrend.ainvesting.png
+  icon: com.uptrend.ainvesting.webp
   meta: stale
   verdict: nosendreceive
   developerName: Up Trend LTD

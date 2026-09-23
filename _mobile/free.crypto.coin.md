@@ -12,7 +12,7 @@ android:
   updated: 2020-09-22
   version: 1.0.8
   reviews: 2
-  icon: free.crypto.coin.png
+  icon: free.crypto.coin.webp
   meta: removed
   verdict: wip
 

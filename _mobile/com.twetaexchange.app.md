@@ -10,7 +10,7 @@ android:
   released: 2021-12-01
   updated: 2021-12-01
   version: '1.0'
-  icon: com.twetaexchange.app.png
+  icon: com.twetaexchange.app.webp
   meta: removed
   verdict: wip
   developerName: Tweta International Network

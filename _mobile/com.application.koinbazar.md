@@ -23,7 +23,7 @@ android:
   updated: 2026-09-16
   version: 3.1.21
   reviews: 3647
-  icon: com.application.koinbazar.png
+  icon: com.application.koinbazar.webp
   meta: ok
   verdict: custodial
   developerName: KoinBX
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-19
   version: 4.2.7
   reviews: 167
-  icon: com.app.koinbazar.jpg
+  icon: com.app.koinbazar.webp
   meta: ok
   verdict: custodial
   developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED

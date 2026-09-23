@@ -13,7 +13,7 @@ android:
   released: 2022-02-04
   updated: 2026-08-31
   version: 1.9.1
-  icon: com.most.wallet.png
+  icon: com.most.wallet.webp
   meta: ok
   verdict: nosource
   developerName: SCI Technology Inc DE

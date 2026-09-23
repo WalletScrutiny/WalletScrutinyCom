@@ -27,7 +27,7 @@ android:
   updated: 2026-08-29
   version: 1.29.0
   reviews: 42
-  icon: com.zypto.png
+  icon: com.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-09-07
   version: 1.29.0
   reviews: 55
-  icon: com.zypto.zypto.jpg
+  icon: com.zypto.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto SP Z O O

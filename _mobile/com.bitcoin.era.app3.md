@@ -9,7 +9,7 @@ android:
   released: 2021-07-15
   updated: 2021-07-15
   version: 1.0.0
-  icon: com.bitcoin.era.app3.png
+  icon: com.bitcoin.era.app3.webp
   meta: removed
   verdict: wip
 

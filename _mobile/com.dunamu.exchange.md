@@ -18,7 +18,7 @@ android:
   updated: 2026-09-18
   version: 1.36.1
   reviews: 21
-  icon: com.dunamu.exchange.png
+  icon: com.dunamu.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Dunamu

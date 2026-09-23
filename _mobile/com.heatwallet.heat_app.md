@@ -10,7 +10,7 @@ android:
   released: 2024-10-24
   updated: 2025-02-07
   version: 2.5.2
-  icon: com.heatwallet.heat_app.png
+  icon: com.heatwallet.heat_app.webp
   meta: stale
   verdict: wip
   developerName: Tulipfox-Tech

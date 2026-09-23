@@ -18,7 +18,7 @@ android:
   updated: 2020-03-16
   version: 7.1.63
   reviews: 13
-  icon: com.chimpion.bcdpay.png
+  icon: com.chimpion.bcdpay.webp
   meta: removed
   verdict: nosource
   developerName: Chimpion

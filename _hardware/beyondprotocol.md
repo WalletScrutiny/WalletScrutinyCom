@@ -17,7 +17,7 @@ shop: https://beyond.link/preorder.html
 country: US
 price: 
 repository: 
-icon: beyondprotocol.png
+icon: beyondprotocol.webp
 bugbounty: 
 meta: ok
 verdict: vapor

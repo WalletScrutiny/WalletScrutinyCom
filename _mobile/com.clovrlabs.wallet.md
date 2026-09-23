@@ -9,7 +9,7 @@ android:
   released: 2022-12-08
   updated: 2023-03-11
   version: 1.0.4
-  icon: com.clovrlabs.wallet.png
+  icon: com.clovrlabs.wallet.webp
   meta: removed
   verdict: wip
   developerName: Clovr Labs

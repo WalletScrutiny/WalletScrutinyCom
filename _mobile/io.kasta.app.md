@@ -17,7 +17,7 @@ android:
   users: 10000
   updated: 2025-07-03
   version: 2.1.0
-  icon: io.kasta.app.png
+  icon: io.kasta.app.webp
   meta: removed
   verdict: custodial
   developerName: Kasta.io
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-06-07
   version: 2.0.5
   reviews: 2
-  icon: io.kasta.app.ios.jpg
+  icon: io.kasta.app.ios.webp
   meta: removed
   verdict: custodial
   developerName: Kasta CCHS LTD EOOD

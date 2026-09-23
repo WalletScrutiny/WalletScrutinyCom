@@ -20,7 +20,7 @@ shop: https://www.lubanso.com/x1
 country: CN
 price: 898 JPY
 repository: 
-icon: lubanso.png
+icon: lubanso.webp
 bugbounty: 
 meta: ok
 verdict: nosource

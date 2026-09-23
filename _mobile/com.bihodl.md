@@ -10,7 +10,7 @@ android:
   released: 2019-09-08
   updated: 2019-10-31
   version: 1.8.0
-  icon: com.bihodl.png
+  icon: com.bihodl.webp
   meta: removed
   verdict: wip
   developerName: Ockchain, Inc.

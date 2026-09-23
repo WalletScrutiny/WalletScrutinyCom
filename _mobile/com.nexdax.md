@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2026-08-13
   version: '1.5'
-  icon: com.nexdax.png
+  icon: com.nexdax.webp
   meta: ok
   verdict: custodial
   developerName: NexDAX Technology Company Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-08-16
   version: '1.1'
   reviews: 1
-  icon: com.nexdax.Nexdax.jpg
+  icon: com.nexdax.Nexdax.webp
   meta: obsolete
   verdict: custodial
   developerName: Nexdax Technology Company Limited

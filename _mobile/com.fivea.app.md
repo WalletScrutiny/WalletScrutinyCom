@@ -9,7 +9,7 @@ android:
   released: 2022-02-15
   updated: 2023-02-17
   version: 1.1.0
-  icon: com.fivea.app.jpg
+  icon: com.fivea.app.webp
   meta: removed
   verdict: wip
   developerName: 5A FINTECH

@@ -10,7 +10,7 @@ android:
   released: 2020-01-15
   updated: 2020-10-02
   version: '1.1'
-  icon: com.amanpuriexchange.png
+  icon: com.amanpuriexchange.webp
   meta: removed
   verdict: wip
   developerName: AMANPURI CO., LTD.

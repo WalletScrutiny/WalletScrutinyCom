@@ -20,7 +20,7 @@ shop: https://shop.ledger.com/products/ledger-nano-x
 country: FR
 price: 91999CLP
 repository: 
-icon: ledgerNanoX.png
+icon: ledgerNanoX.webp
 bugbounty: 
 meta: ok
 verdict: nosource

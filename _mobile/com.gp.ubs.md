@@ -9,7 +9,7 @@ android:
   updated: 2021-06-20
   version: 1.1.2
   reviews: 5
-  icon: com.gp.ubs.png
+  icon: com.gp.ubs.webp
   meta: removed
   verdict: wip
 

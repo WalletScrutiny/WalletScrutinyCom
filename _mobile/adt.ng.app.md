@@ -10,7 +10,7 @@ android:
   released: 2021-05-22
   updated: 2021-05-14
   version: '1.0'
-  icon: adt.ng.app.png
+  icon: adt.ng.app.webp
   meta: removed
   verdict: wip
   developerName: SAMORA BOT

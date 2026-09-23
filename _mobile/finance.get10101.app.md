@@ -13,7 +13,7 @@ android:
   users: 500
   updated: 2024-11-13
   version: VARY
-  icon: finance.get10101.app.png
+  icon: finance.get10101.app.webp
   meta: removed
   verdict: wip
   developerName: '10101'

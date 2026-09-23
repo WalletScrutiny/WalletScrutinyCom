@@ -17,7 +17,7 @@ android:
   released: 2024-06-19
   updated: 2025-07-22
   version: 1.0.0
-  icon: com.maxswap.app.jpg
+  icon: com.maxswap.app.webp
   meta: stale
   verdict: custodial
   developerName: MS Profit LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-12-14
   version: 1.0.1
   reviews: 0
-  icon: com.maxswap.app.jpg
+  icon: com.maxswap.app.webp
   meta: stale
   verdict: custodial
   developerName: MW Profit LTD

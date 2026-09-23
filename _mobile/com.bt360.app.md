@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2019-10-02
   version: 1.1.2
-  icon: com.bt360.app.png
+  icon: com.bt360.app.webp
   meta: removed
   verdict: wip
   developerName: BT360 Ltd.

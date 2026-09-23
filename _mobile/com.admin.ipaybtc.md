@@ -11,7 +11,7 @@ iphone:
   updated: 2025-11-18
   version: 3.1.4
   reviews: 8
-  icon: com.admin.ipaybtc.jpg
+  icon: com.admin.ipaybtc.webp
   meta: removed
   verdict: wip
   developerName: ipayBTC Technologies Inc

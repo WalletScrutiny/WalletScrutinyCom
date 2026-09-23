@@ -22,7 +22,7 @@ android:
   updated: 2026-08-13
   version: 4.7.0
   reviews: 114
-  icon: tech.coinflip.png
+  icon: tech.coinflip.webp
   meta: ok
   verdict: custodial
   developerName: GPD Holdings LLC
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-03
   version: 4.7.5
   reviews: 918
-  icon: tech.coinflip.CoinFlip.jpg
+  icon: tech.coinflip.CoinFlip.webp
   meta: ok
   verdict: custodial
   developerName: GPD Holdings, L.L.C.

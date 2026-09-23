@@ -20,7 +20,7 @@ android:
   updated: 2022-10-28
   version: R02.03.06.478
   reviews: 4
-  icon: com.hconline.iso.png
+  icon: com.hconline.iso.webp
   meta: removed
   verdict: nosource
   developerName: Start.io
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-11-09
   version: 02.00.25
   reviews: 9
-  icon: com.HCLT.Starteos.store.jpg
+  icon: com.HCLT.Starteos.store.webp
   meta: removed
   verdict: nosource
   developerName: Starteos Limited

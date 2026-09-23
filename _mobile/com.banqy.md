@@ -9,7 +9,7 @@ android:
   released: 2020-03-20
   updated: 2020-03-20
   version: 1.0.1209
-  icon: com.banqy.png
+  icon: com.banqy.webp
   meta: removed
   verdict: wip
 

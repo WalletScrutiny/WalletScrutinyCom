@@ -10,7 +10,7 @@ android:
   released: 2022-01-17
   updated: 2022-06-23
   version: 3.57.0
-  icon: com.afcashapp.app.png
+  icon: com.afcashapp.app.webp
   meta: removed
   verdict: wip
   developerName: AFRICUNIA

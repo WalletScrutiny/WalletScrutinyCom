@@ -10,7 +10,7 @@ android:
   updated: 2021-05-26
   version: '1.0'
   reviews: 71
-  icon: com.breet.app.png
+  icon: com.breet.app.webp
   meta: removed
   verdict: wip
 

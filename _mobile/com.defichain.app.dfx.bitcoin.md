@@ -10,7 +10,7 @@ android:
   released: 2023-02-23
   updated: 2023-08-18
   version: 2.1.1
-  icon: com.defichain.app.dfx.bitcoin.png
+  icon: com.defichain.app.dfx.bitcoin.webp
   meta: removed
   verdict: wip
   developerName: DFX AG

@@ -16,7 +16,7 @@ android:
   updated: 2019-10-16
   version: 4.0.3
   reviews: 61
-  icon: com.chameleon.wallet.png
+  icon: com.chameleon.wallet.webp
   meta: removed
   verdict: wip
 

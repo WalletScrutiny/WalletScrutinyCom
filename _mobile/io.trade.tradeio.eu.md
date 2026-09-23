@@ -13,7 +13,7 @@ android:
   updated: 2019-09-20
   version: 1.0.0
   reviews: 6
-  icon: io.trade.tradeio.eu.png
+  icon: io.trade.tradeio.eu.webp
   meta: removed
   verdict: wip
   developerName: Trade.io

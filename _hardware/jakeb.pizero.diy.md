@@ -20,7 +20,7 @@ shop:
 country: US
 price: 
 repository: https://github.com/jake-b/PiZeroWallet
-icon: jakeb.pizero.diy.png
+icon: jakeb.pizero.diy.webp
 bugbounty: 
 meta: defunct
 verdict: sourceavailable

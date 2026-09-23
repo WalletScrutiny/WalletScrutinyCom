@@ -21,7 +21,7 @@ android:
   updated: 2026-09-18
   version: 9.5.6
   reviews: 149240
-  icon: com.coinswitch.kuber.png
+  icon: com.coinswitch.kuber.webp
   meta: ok
   verdict: nosendreceive
   developerName: Bitkuber Investments Private Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-08
   version: 9.5.6
   reviews: 61280
-  icon: com.coinswitch.kuber.jpg
+  icon: com.coinswitch.kuber.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITKUBER INVESTMENTS PRIVATE LIMITED

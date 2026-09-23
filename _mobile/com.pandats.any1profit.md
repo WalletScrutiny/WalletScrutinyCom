@@ -10,7 +10,7 @@ android:
   released: 2019-05-02
   updated: 2019-05-02
   version: 1.0.1
-  icon: com.pandats.any1profit.png
+  icon: com.pandats.any1profit.webp
   meta: removed
   verdict: wip
 

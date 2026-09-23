@@ -9,7 +9,7 @@ android:
   released: 2021-01-11
   updated: 2021-01-11
   version: '1.3'
-  icon: com.app.eicapp.jpg
+  icon: com.app.eicapp.webp
   meta: removed
   verdict: wip
 

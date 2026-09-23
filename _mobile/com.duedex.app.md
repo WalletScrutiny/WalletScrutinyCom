@@ -13,7 +13,7 @@ android:
   updated: 2021-05-17
   version: 1.2.18
   reviews: 38
-  icon: com.duedex.app.png
+  icon: com.duedex.app.webp
   meta: removed
   verdict: wip
 

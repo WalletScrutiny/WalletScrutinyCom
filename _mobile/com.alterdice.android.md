@@ -18,7 +18,7 @@ android:
   released: 2018-09-24
   updated: 2018-11-22
   version: 1.3.7
-  icon: com.alterdice.android.png
+  icon: com.alterdice.android.webp
   meta: removed
   verdict: custodial
   developerName: Alterdice Developers

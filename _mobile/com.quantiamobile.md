@@ -11,7 +11,7 @@ android:
   released: 2022-07-19
   updated: 2026-09-16
   version: 3.0.29
-  icon: com.quantiamobile.png
+  icon: com.quantiamobile.webp
   meta: fewusers
   verdict: wip
   developerName: Quantia.io

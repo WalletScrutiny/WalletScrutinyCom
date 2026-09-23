@@ -20,7 +20,7 @@ android:
   updated: 2026-08-30
   version: 1.2.1.6826
   reviews: 128
-  icon: com.coinzoom.android.png
+  icon: com.coinzoom.android.webp
   meta: ok
   verdict: custodial
   developerName: CoinZoom
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-31
   version: 3.3.13
   reviews: 816
-  icon: com.ios.coinzoomsimple.jpg
+  icon: com.ios.coinzoomsimple.webp
   meta: ok
   verdict: custodial
   developerName: CoinZoom

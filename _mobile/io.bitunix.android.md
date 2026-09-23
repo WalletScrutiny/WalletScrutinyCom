@@ -19,7 +19,7 @@ android:
   updated: 2024-09-05
   version: 2024.0905.9712 (d802d97a)
   reviews: 34
-  icon: io.bitunix.android.png
+  icon: io.bitunix.android.webp
   meta: removed
   verdict: custodial
   developerName: Bitunix

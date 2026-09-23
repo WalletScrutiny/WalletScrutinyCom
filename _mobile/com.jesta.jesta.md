@@ -9,7 +9,7 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: 1.0.0
-  icon: com.jesta.jesta.png
+  icon: com.jesta.jesta.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,7 @@ android:
   updated: 2022-09-13
   version: 1.2.1
   reviews: 3
-  icon: com.profittrading.forftx.png
+  icon: com.profittrading.forftx.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

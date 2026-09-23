@@ -20,7 +20,7 @@ android:
   released: 2024-07-18
   updated: 2026-08-27
   version: 1.0.58
-  icon: com.kuantist.app.jpg
+  icon: com.kuantist.app.webp
   meta: ok
   verdict: custodial
   developerName: KUANTİST TEKNOLOJİ ANONİM ŞİRKETİ
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-31
   version: 1.0.58
   reviews: 36
-  icon: com.kuantist.jpg
+  icon: com.kuantist.webp
   meta: ok
   verdict: custodial
   developerName: Kuantist

@@ -19,7 +19,7 @@ android:
   updated: 2023-02-08
   version: 1.0.5
   reviews: 5
-  icon: com.crypto.treasure.png
+  icon: com.crypto.treasure.webp
   meta: obsolete
   verdict: nosource
   developerName: IT Work

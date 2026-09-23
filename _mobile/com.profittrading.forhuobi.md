@@ -15,7 +15,7 @@ android:
   released: 2018-11-21
   updated: 2021-12-03
   version: 3.0.2
-  icon: com.profittrading.forhuobi.png
+  icon: com.profittrading.forhuobi.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

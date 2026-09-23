@@ -21,7 +21,7 @@ shop: https://keyst.one/shop/products/keystone-3pro
 country: HK
 price: 129USD
 repository: https://github.com/KeystoneHQ/keystone3-firmware
-icon: keystone3.pro.png
+icon: keystone3.pro.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -20,7 +20,7 @@ android:
   updated: 2026-08-06
   version: 7.2.497
   reviews: 888
-  icon: com.prestmit.png
+  icon: com.prestmit.webp
   meta: ok
   verdict: nosendreceive
   developerName: Prestmit
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-18
   version: 7.2.496
   reviews: 7384
-  icon: com.prestmit.app.jpg
+  icon: com.prestmit.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Prestmit Technologies LTD.

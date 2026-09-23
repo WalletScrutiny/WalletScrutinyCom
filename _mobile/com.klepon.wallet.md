@@ -10,7 +10,7 @@ android:
   released: 2022-03-29
   updated: 2022-03-29
   version: '1.0'
-  icon: com.klepon.wallet.png
+  icon: com.klepon.wallet.webp
   meta: removed
   verdict: wip
   developerName: Klepon

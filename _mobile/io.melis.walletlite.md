@@ -14,7 +14,7 @@ android:
   released: 2019-06-03
   updated: 2019-06-03
   version: 0.4.0
-  icon: io.melis.walletlite.png
+  icon: io.melis.walletlite.webp
   meta: removed
   verdict: wip
   developerName: Melis

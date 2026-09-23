@@ -22,7 +22,7 @@ android:
   updated: 2026-09-16
   version: 3.83.4
   reviews: 1393
-  icon: com.whitebit.android.png
+  icon: com.whitebit.android.webp
   meta: ok
   verdict: custodial
   developerName: WhiteBit
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-17
   version: 3.83.4
   reviews: 4211
-  icon: com.whitebit.whitebitapp.jpg
+  icon: com.whitebit.whitebitapp.webp
   meta: ok
   verdict: custodial
   developerName: UAB Clear White Technologies

@@ -24,7 +24,7 @@ android:
   updated: 2025-08-26
   version: 0.1.37
   reviews: 20
-  icon: com.tbtc_app.png
+  icon: com.tbtc_app.webp
   meta: stale
   verdict: custodial
   developerName: The Bitcoin Company
@@ -36,7 +36,7 @@ iphone:
   updated: 2025-02-04
   version: '1.36'
   reviews: 29
-  icon: com.thebitcoincompany.app.ios.jpg
+  icon: com.thebitcoincompany.app.ios.webp
   meta: stale
   verdict: nosendreceive
   developerName: Two Twenty Two, Inc.

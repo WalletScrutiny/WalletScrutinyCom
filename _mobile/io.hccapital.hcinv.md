@@ -9,7 +9,7 @@ android:
   released: 2021-05-28
   updated: 2021-06-03
   version: 1.1.2
-  icon: io.hccapital.hcinv.png
+  icon: io.hccapital.hcinv.webp
   meta: removed
   verdict: wip
   developerName: BuenBitcoin

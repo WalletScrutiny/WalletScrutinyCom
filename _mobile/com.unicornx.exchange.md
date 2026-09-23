@@ -10,7 +10,7 @@ android:
   released: 2020-05-13
   updated: 2020-07-28
   version: 1.4.2
-  icon: com.unicornx.exchange.png
+  icon: com.unicornx.exchange.webp
   meta: removed
   verdict: wip
 

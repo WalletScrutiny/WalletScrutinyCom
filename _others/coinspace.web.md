@@ -4,7 +4,7 @@ appId: coinspace.web
 subtype: web
 authors:
 - danny
-icon: coinspace.web.png
+icon: coinspace.web.webp
 date: 2024-05-10
 website: https://coin.space
 twitter: CoinAppWallet

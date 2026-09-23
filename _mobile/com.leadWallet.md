@@ -20,7 +20,7 @@ android:
   updated: 2022-07-30
   version: 1.0.39
   reviews: 54
-  icon: com.leadWallet.png
+  icon: com.leadWallet.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/leadwallet/leadwallet-core#deadLink
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-04-15
   version: 1.0.32
   reviews: 19
-  icon: com.leadWallet.jpg
+  icon: com.leadWallet.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/leadwallet/leadwallet-core#deadLink

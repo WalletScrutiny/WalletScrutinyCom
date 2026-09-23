@@ -14,7 +14,7 @@ android:
   updated: 2026-04-03
   version: 1.1.7
   reviews: 12
-  icon: com.xchangeonio.png
+  icon: com.xchangeonio.webp
   meta: defunct
   verdict: wip
   developerName: Xchangeon

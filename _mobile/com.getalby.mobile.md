@@ -25,7 +25,7 @@ android:
   updated: 2026-08-17
   version: 2.1.0
   reviews: 24
-  icon: com.getalby.mobile.png
+  icon: com.getalby.mobile.webp
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-08-20
   version: 2.1.0
   reviews: 25
-  icon: com.getalby.mobile.jpg
+  icon: com.getalby.mobile.webp
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.

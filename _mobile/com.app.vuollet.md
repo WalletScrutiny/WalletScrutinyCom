@@ -17,7 +17,7 @@ android:
   released: 2021-10-27
   updated: 2022-04-29
   version: 2.0.5
-  icon: com.app.vuollet.png
+  icon: com.app.vuollet.webp
   meta: removed
   verdict: custodial
   developerName: Codego Limited
@@ -29,7 +29,7 @@ iphone:
   updated: 2022-04-28
   version: 2.0.5
   reviews: 0
-  icon: com.newapp.vuollet.jpg
+  icon: com.newapp.vuollet.webp
   meta: removed
   verdict: custodial
   developerName: Codego Ltd

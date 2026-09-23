@@ -18,7 +18,7 @@ android:
   released: 2025-06-16
   updated: 2026-05-02
   version: 1.0.10
-  icon: com.ybit.app.png
+  icon: com.ybit.app.webp
   meta: ok
   verdict: nosource
   developerName: WEEKWISE INNOVATIONS LLC
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-04-29
   version: 1.0.11
   reviews: 26
-  icon: com.ybit.app.jpg
+  icon: com.ybit.app.webp
   meta: ok
   verdict: nosource
   developerName: WEEKWISE INNOVATIONS LLC

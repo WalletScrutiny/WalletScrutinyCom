@@ -10,7 +10,7 @@ android:
   released: 2019-05-20
   updated: 2019-05-23
   version: 1.0.3
-  icon: com.nucex.app.png
+  icon: com.nucex.app.webp
   meta: removed
   verdict: wip
   developerName: Nusantara Crypto Exchange

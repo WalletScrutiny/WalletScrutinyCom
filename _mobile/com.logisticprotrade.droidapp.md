@@ -10,7 +10,7 @@ android:
   released: 2021-05-18
   updated: 2022-02-16
   version: '1.5'
-  icon: com.logisticprotrade.droidapp.jpg
+  icon: com.logisticprotrade.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Alt 5 Pro

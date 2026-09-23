@@ -19,7 +19,7 @@ android:
   updated: 2024-03-11
   version: 3.5.19
   reviews: 51
-  icon: zam.wallet.jpg
+  icon: zam.wallet.webp
   meta: removed
   verdict: nosource
   developerName: ZamZam Technology
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-12-10
   version: 3.3.8
   reviews: 73
-  icon: zamzam.wallet.app.jpg
+  icon: zamzam.wallet.app.webp
   meta: stale
   verdict: nosource
   developerName: Zamio Limited MMC

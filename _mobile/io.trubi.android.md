@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2021-01-25
   version: VARY
-  icon: io.trubi.android.png
+  icon: io.trubi.android.webp
   meta: removed
   verdict: wip
   developerName: trubi.io

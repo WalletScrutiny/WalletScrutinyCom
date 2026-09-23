@@ -9,7 +9,7 @@ android:
   released: 2018-07-26
   updated: 2018-07-26
   version: '1.0'
-  icon: net.koinone.app.png
+  icon: net.koinone.app.webp
   meta: removed
   verdict: wip
 

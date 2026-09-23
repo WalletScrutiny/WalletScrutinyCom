@@ -27,7 +27,7 @@ android:
   updated: 2026-09-09
   version: 3.32.0
   reviews: 18
-  icon: com.bitpanda.bitpanda.png
+  icon: com.bitpanda.bitpanda.webp
   meta: ok
   verdict: custodial
   developerName: Bitpanda GmbH
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-09-10
   version: 3.32.0
   reviews: 26155
-  icon: com.bitpanda.bitpanda.jpg
+  icon: com.bitpanda.bitpanda.webp
   meta: ok
   verdict: custodial
   developerName: Bitpanda GmbH

@@ -9,7 +9,7 @@ android:
   released: 2021-06-15
   updated: 2021-06-15
   version: '1.0'
-  icon: net.bitcoinheroes.crypto.earn.jpg
+  icon: net.bitcoinheroes.crypto.earn.webp
   meta: removed
   verdict: wip
 

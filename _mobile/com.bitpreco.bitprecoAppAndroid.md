@@ -20,7 +20,7 @@ android:
   updated: 2022-12-26
   version: 2.0.04
   reviews: 726
-  icon: com.bitpreco.bitprecoAppAndroid.png
+  icon: com.bitpreco.bitprecoAppAndroid.webp
   meta: removed
   verdict: custodial
   developerName: Bitpreço
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-01-22
   version: 2.0.04
   reviews: 665
-  icon: com.bitpreco.bitprecoApp.jpg
+  icon: com.bitpreco.bitprecoApp.webp
   meta: removed
   verdict: custodial
   developerName: BitPreço

@@ -10,7 +10,7 @@ android:
   updated: 2020-09-18
   version: '1.2'
   reviews: 7
-  icon: xyz.must.wallet.png
+  icon: xyz.must.wallet.webp
   meta: removed
   verdict: wip
 

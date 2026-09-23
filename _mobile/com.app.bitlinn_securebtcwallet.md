@@ -9,7 +9,7 @@ android:
   released: 2022-07-08
   updated: 2022-07-08
   version: '1.0'
-  icon: com.app.bitlinn_securebtcwallet.png
+  icon: com.app.bitlinn_securebtcwallet.webp
   meta: removed
   verdict: wip
   developerName: Linx GC Dev

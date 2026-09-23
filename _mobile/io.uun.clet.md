@@ -10,7 +10,7 @@ android:
   updated: 2019-11-11
   version: 1.17.1
   reviews: 360
-  icon: io.uun.clet.png
+  icon: io.uun.clet.webp
   meta: removed
   verdict: wip
 

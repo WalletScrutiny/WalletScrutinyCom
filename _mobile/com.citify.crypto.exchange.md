@@ -10,7 +10,7 @@ android:
   released: 2019-09-18
   updated: 2019-09-18
   version: '1.0'
-  icon: com.citify.crypto.exchange.png
+  icon: com.citify.crypto.exchange.webp
   meta: removed
   verdict: wip
   developerName: Citify

@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: xzen.png
+icon: xzen.webp
 bugbounty: 
 meta: defunct
 verdict: wip

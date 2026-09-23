@@ -14,7 +14,7 @@ android:
   updated: 2021-06-14
   version: 1.5.2
   reviews: 6
-  icon: com.atomicwallet.newapp.safe.png
+  icon: com.atomicwallet.newapp.safe.webp
   meta: removed
   verdict: fake
 

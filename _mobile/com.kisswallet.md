@@ -17,7 +17,7 @@ android:
   released: 2020-02-16
   updated: 2020-05-30
   version: 0.3.6
-  icon: com.kisswallet.png
+  icon: com.kisswallet.webp
   meta: removed
   verdict: wip
   developerName: Ferryman Fin LLC
@@ -30,7 +30,7 @@ iphone:
   updated: 2020-05-30
   version: 0.3.6
   reviews: 4
-  icon: com.kisswallet.jpg
+  icon: com.kisswallet.webp
   meta: obsolete
   verdict: wip
   developerName: Ferryman Fin LLC

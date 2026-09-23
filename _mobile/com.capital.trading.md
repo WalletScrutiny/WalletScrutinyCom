@@ -23,7 +23,7 @@ android:
   updated: 2026-09-18
   version: 3.51.0
   reviews: 38
-  icon: com.capital.trading.png
+  icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-31
   version: 3.48.0
   reviews: 328
-  icon: com.capital.trading.jpg
+  icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited

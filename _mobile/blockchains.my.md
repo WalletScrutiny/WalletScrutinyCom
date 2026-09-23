@@ -10,7 +10,7 @@ android:
   updated: 2019-01-07
   version: 1.0.0.18
   reviews: 268
-  icon: blockchains.my.png
+  icon: blockchains.my.webp
   meta: removed
   verdict: wip
 

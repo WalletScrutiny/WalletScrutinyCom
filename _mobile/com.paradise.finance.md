@@ -9,7 +9,7 @@ android:
   released: 2021-07-06
   updated: 2024-08-30
   version: 1.5.0
-  icon: com.paradise.finance.png
+  icon: com.paradise.finance.webp
   meta: removed
   verdict: wip
   developerName: Paradise.Exchange

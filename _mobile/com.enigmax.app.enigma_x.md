@@ -9,7 +9,7 @@ android:
   released: 2022-01-17
   updated: 2022-11-03
   version: '1.4'
-  icon: com.enigmax.app.enigma_x.png
+  icon: com.enigmax.app.enigma_x.webp
   meta: removed
   verdict: wip
   developerName: EnigmaX

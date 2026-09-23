@@ -21,7 +21,7 @@ android:
   updated: 2024-03-27
   version: 8.7.0
   reviews: 3
-  icon: com.gluwa.android.png
+  icon: com.gluwa.android.webp
   meta: removed
   verdict: nosource
   developerName: Gluwa
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-11-12
   version: 8.7.0
   reviews: 6
-  icon: com.gluwa.app.jpg
+  icon: com.gluwa.app.webp
   meta: removed
   verdict: nosource
   developerName: Gluwa Inc.

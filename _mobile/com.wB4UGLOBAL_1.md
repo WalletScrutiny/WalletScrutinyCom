@@ -10,7 +10,7 @@ android:
   released: 2020-08-17
   updated: 2021-04-16
   version: 1.2.92
-  icon: com.wB4UGLOBAL_1.png
+  icon: com.wB4UGLOBAL_1.webp
   meta: removed
   verdict: wip
   developerName: Hard Working Man

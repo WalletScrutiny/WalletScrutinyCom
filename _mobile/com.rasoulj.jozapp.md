@@ -10,7 +10,7 @@ android:
   released: 2021-07-17
   updated: 2022-05-20
   version: 1.0.7
-  icon: com.rasoulj.jozapp.png
+  icon: com.rasoulj.jozapp.webp
   meta: removed
   verdict: wip
   developerName: NNW

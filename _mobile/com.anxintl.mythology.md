@@ -12,7 +12,7 @@ android:
   released: 2016-04-18
   updated: 2016-10-29
   version: 1.3.3
-  icon: com.anxintl.mythology.png
+  icon: com.anxintl.mythology.webp
   meta: removed
   verdict: wip
   developerName: HASHIYADA TAKUYA

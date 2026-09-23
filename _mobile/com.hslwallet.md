@@ -11,7 +11,7 @@ android:
   released: 2021-08-04
   updated: 2026-08-03
   version: 7.14.84
-  icon: com.hslwallet.png
+  icon: com.hslwallet.webp
   meta: fewusers
   verdict: wip
   developerName: Hamilton Systems

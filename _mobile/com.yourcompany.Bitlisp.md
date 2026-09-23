@@ -9,7 +9,7 @@ android:
   released: 2020-04-14
   updated: 2020-04-14
   version: 1.0.0
-  icon: com.yourcompany.Bitlisp.png
+  icon: com.yourcompany.Bitlisp.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Lisp

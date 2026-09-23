@@ -11,7 +11,7 @@ android:
   updated: 2020-10-09
   version: 3.6.5
   reviews: 3
-  icon: com.beeex.broker.android.png
+  icon: com.beeex.broker.android.webp
   meta: removed
   verdict: wip
 

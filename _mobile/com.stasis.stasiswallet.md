@@ -22,7 +22,7 @@ android:
   updated: 2024-01-19
   version: 1.15.0
   reviews: 5
-  icon: com.stasis.stasiswallet.png
+  icon: com.stasis.stasiswallet.webp
   meta: removed
   verdict: custodial
   developerName: STSS Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-03-21
   version: 8.2.2
   reviews: 0
-  icon: net.stasis.mobile.jpg
+  icon: net.stasis.mobile.webp
   meta: removed
   verdict: custodial
   developerName: STSS LTD

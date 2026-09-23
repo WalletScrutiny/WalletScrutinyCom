@@ -10,7 +10,7 @@ android:
   released: 2021-08-27
   updated: 2022-04-07
   version: 1.0.4
-  icon: com.coinovy.coin.png
+  icon: com.coinovy.coin.webp
   meta: removed
   verdict: wip
 

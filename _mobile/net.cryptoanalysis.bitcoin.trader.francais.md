@@ -9,7 +9,7 @@ android:
   released: 2021-06-28
   updated: 2021-06-28
   version: '1.0'
-  icon: net.cryptoanalysis.bitcoin.trader.francais.png
+  icon: net.cryptoanalysis.bitcoin.trader.francais.webp
   meta: removed
   verdict: wip
 

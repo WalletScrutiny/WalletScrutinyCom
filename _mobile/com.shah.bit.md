@@ -9,7 +9,7 @@ android:
   released: 2022-08-17
   updated: 2022-08-25
   version: '8.2'
-  icon: com.shah.bit.png
+  icon: com.shah.bit.webp
   meta: removed
   verdict: wip
   developerName: Shah of crypto

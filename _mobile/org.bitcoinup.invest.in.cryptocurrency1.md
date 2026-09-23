@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: org.bitcoinup.invest.in.cryptocurrency1.jpg
+  icon: org.bitcoinup.invest.in.cryptocurrency1.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,7 @@ android:
   updated: 2026-09-09
   version: 2.106.0
   reviews: 40
-  icon: coin.ajaib.co.id.png
+  icon: coin.ajaib.co.id.webp
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-12
   version: 2.106.0
   reviews: 4489
-  icon: id.ajaib-coin.co.jpg
+  icon: id.ajaib-coin.co.webp
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies Corporation

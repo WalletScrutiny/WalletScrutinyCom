@@ -20,7 +20,7 @@ android:
   released: 2020-12-04
   updated: 2023-08-24
   version: '3.57'
-  icon: com.cappuu.png
+  icon: com.cappuu.webp
   meta: removed
   verdict: custodial
   developerName: PT Tujuhbelas Media Indonesia
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-12-28
   version: '3.56'
   reviews: 0
-  icon: com.cappuu.ios.jpg
+  icon: com.cappuu.ios.webp
   meta: removed
   verdict: custodial
   developerName: PT. TUJUHBELAS MEDIA INDONESIA

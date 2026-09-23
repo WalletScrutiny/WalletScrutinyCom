@@ -20,7 +20,7 @@ android:
   updated: 2026-07-15
   version: '2.1'
   reviews: 11
-  icon: com.icmarkets.mobileapp.png
+  icon: com.icmarkets.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Raw Trading Ltd
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-06-09
   version: 1.1.2
   reviews: 40
-  icon: com.ICMarkets.ICMarkets-app.jpg
+  icon: com.ICMarkets.ICMarkets-app.webp
   meta: obsolete
   verdict: nosendreceive
   developerName: Raw Trading Ltd

@@ -10,7 +10,7 @@ android:
   released: 2018-07-10
   updated: 2019-03-18
   version: 0.0.6
-  icon: org.safecoin.safecoinwallet.png
+  icon: org.safecoin.safecoinwallet.webp
   meta: removed
   verdict: wip
 

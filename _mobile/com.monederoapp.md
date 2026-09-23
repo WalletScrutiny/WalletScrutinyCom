@@ -16,7 +16,7 @@ android:
   released: 2020-03-13
   updated: 2021-06-25
   version: 4.1.0
-  icon: com.monederoapp.png
+  icon: com.monederoapp.webp
   meta: removed
   verdict: nosource
   developerName: Digital Assets Corporation

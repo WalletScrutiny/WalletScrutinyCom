@@ -9,7 +9,7 @@ android:
   released: 2021-11-29
   updated: 2021-11-29
   version: '1.0'
-  icon: comp.kippoiiiuyy.kuipf.jpg
+  icon: comp.kippoiiiuyy.kuipf.webp
   meta: removed
   verdict: wip
   developerName: Botrel Apps

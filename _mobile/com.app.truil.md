@@ -10,7 +10,7 @@ android:
   released: 2020-09-09
   updated: 2020-09-17
   version: 1.0.2
-  icon: com.app.truil.png
+  icon: com.app.truil.webp
   meta: removed
   verdict: wip
   developerName: TRUEUIL.COM

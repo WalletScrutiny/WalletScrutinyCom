@@ -9,7 +9,7 @@ android:
   released: 2019-12-25
   updated: 2019-12-25
   version: '1.0'
-  icon: com.piccoexchange.app.png
+  icon: com.piccoexchange.app.webp
   meta: removed
   verdict: wip
   developerName: Greenback Tech

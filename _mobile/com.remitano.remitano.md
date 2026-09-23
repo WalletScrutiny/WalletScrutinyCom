@@ -24,7 +24,7 @@ android:
   updated: 2026-09-15
   version: 9.3.1
   reviews: 515
-  icon: com.remitano.remitano.jpg
+  icon: com.remitano.remitano.webp
   meta: ok
   verdict: custodial
   developerName: Remitano
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-15
   version: 9.3.1
   reviews: 379
-  icon: com.remitano.remitano.jpg
+  icon: com.remitano.remitano.webp
   meta: ok
   verdict: custodial
   developerName: REMITANO PTY. LTD.

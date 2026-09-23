@@ -9,7 +9,7 @@ android:
   users: 1
   updated: 2022-10-05
   version: 1.0.0
-  icon: com.cryptoplatz.app.png
+  icon: com.cryptoplatz.app.webp
   meta: removed
   verdict: wip
   developerName: Crypto Platz

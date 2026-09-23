@@ -9,7 +9,7 @@ android:
   released: 2021-11-29
   updated: 2022-07-18
   version: 2.1.7
-  icon: com.botlnw.bot.png
+  icon: com.botlnw.bot.webp
   meta: removed
   verdict: wip
 

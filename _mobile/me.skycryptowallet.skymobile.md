@@ -11,7 +11,7 @@ android:
   appCountry: us
   updated: 2026-01-27
   version: 1.54.0
-  icon: me.skycryptowallet.skymobile.png
+  icon: me.skycryptowallet.skymobile.webp
   meta: ok
   verdict: custodial
   developerName: Revens

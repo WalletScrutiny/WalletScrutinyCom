@@ -26,7 +26,7 @@ android:
   updated: 2026-09-18
   version: 3.52.0
   reviews: 130
-  icon: bu.app.android.png
+  icon: bu.app.android.webp
   meta: ok
   verdict: custodial
   developerName: Bitunix Pro
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-09
   version: 3.49.0
   reviews: 830
-  icon: com.bitunix.ios-.jpg
+  icon: com.bitunix.ios-.webp
   meta: ok
   verdict: custodial
   developerName: Bitunix Global Limited

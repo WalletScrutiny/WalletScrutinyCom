@@ -21,7 +21,7 @@ android:
   updated: 2026-05-29
   version: 1.27.0
   reviews: 159
-  icon: team.noones.mobilemessenger.png
+  icon: team.noones.mobilemessenger.webp
   meta: ok
   verdict: custodial
   developerName: Eaton Consulting
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-09-18
   version: 1.5.7
   reviews: 17
-  icon: com.noones.marketplace.jpg
+  icon: com.noones.marketplace.webp
   meta: removed
   verdict: custodial
   developerName: Eaton Consulting FZE

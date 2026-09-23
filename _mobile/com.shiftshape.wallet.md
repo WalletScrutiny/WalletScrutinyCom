@@ -12,7 +12,7 @@ android:
   updated: 2021-07-16
   version: 1.0.0
   reviews: 18
-  icon: com.shiftshape.wallet.png
+  icon: com.shiftshape.wallet.webp
   meta: removed
   verdict: wip
 

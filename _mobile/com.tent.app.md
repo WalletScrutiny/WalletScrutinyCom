@@ -10,7 +10,7 @@ android:
   released: 2023-10-26
   updated: 2024-07-16
   version: 1.4.0
-  icon: com.tent.app.png
+  icon: com.tent.app.webp
   meta: removed
   verdict: wip
   developerName: TENT.COM

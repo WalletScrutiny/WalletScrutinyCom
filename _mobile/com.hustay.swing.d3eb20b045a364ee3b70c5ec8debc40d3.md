@@ -9,7 +9,7 @@ android:
   released: 2021-10-13
   updated: 2021-10-13
   version: '0.3'
-  icon: com.hustay.swing.d3eb20b045a364ee3b70c5ec8debc40d3.png
+  icon: com.hustay.swing.d3eb20b045a364ee3b70c5ec8debc40d3.webp
   meta: removed
   verdict: wip
   developerName: jeongsu jeong

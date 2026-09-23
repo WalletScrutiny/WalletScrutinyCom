@@ -10,7 +10,7 @@ android:
   released: 2021-03-12
   updated: 2021-10-14
   version: '4.0'
-  icon: fcm.dbx24.com.png
+  icon: fcm.dbx24.com.webp
   meta: removed
   verdict: wip
   developerName: 나정식

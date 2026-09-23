@@ -10,7 +10,7 @@ android:
   released: 2022-11-20
   updated: 2023-06-17
   version: 1.0.17
-  icon: cash.lemoon.png
+  icon: cash.lemoon.webp
   meta: removed
   verdict: wip
   developerName: Lemoon Wallet

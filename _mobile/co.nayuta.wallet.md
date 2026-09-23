@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2019-10-15
   version: Varies with device
-  icon: co.nayuta.wallet.png
+  icon: co.nayuta.wallet.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   released: 2022-10-23
   updated: 2022-10-23
   version: 1.0.0
-  icon: app.hovii.p2p.png
+  icon: app.hovii.p2p.webp
   meta: removed
   verdict: wip
   developerName: OxxLab

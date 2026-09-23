@@ -9,7 +9,7 @@ android:
   released: 2022-04-08
   updated: 2022-04-08
   version: '1.0'
-  icon: com.tyuiwfjnev2rf3e.rtrtefewccvdg.png
+  icon: com.tyuiwfjnev2rf3e.rtrtefewccvdg.webp
   meta: removed
   verdict: wip
 

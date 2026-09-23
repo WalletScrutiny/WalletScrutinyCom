@@ -17,7 +17,7 @@ android:
   updated: 2026-03-02
   version: 1.3.14
   reviews: 2285
-  icon: com.papaya.blackcatcard.png
+  icon: com.papaya.blackcatcard.webp
   meta: ok
   verdict: custodial
   developerName: PAPAYA LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-11-27
   version: 1.3.7
   reviews: 33
-  icon: com.papaya.blackcatcard.jpg
+  icon: com.papaya.blackcatcard.webp
   meta: ok
   verdict: custodial
   developerName: Papaya Ltd

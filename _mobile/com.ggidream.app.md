@@ -10,7 +10,7 @@ android:
   released: 2019-08-07
   updated: 2019-08-07
   version: 1.0.0
-  icon: com.ggidream.app.png
+  icon: com.ggidream.app.webp
   meta: removed
   verdict: wip
   developerName: 골덴글로리

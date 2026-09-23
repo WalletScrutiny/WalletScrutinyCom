@@ -10,7 +10,7 @@ android:
   released: 2020-05-18
   updated: 2023-01-19
   version: 0.1.7
-  icon: com.cryptoswapp.png
+  icon: com.cryptoswapp.webp
   meta: removed
   verdict: wip
 

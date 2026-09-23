@@ -8,7 +8,7 @@ android:
   users: 500
   updated: 2022-04-08
   version: '0.2'
-  icon: com.gtayo.crpt.jpg
+  icon: com.gtayo.crpt.webp
   meta: removed
   verdict: wip
 

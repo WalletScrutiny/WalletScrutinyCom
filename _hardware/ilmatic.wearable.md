@@ -17,7 +17,7 @@ shop:
 country: US
 price: 250USD
 repository: 
-icon: ilmatic.wearable.png
+icon: ilmatic.wearable.webp
 bugbounty: 
 meta: ok
 verdict: vapor

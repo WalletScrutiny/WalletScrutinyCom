@@ -13,7 +13,7 @@ iphone:
   updated: 2023-06-13
   version: 1.27.8
   reviews: 3
-  icon: com.nbltrust.jadewallet.jpg
+  icon: com.nbltrust.jadewallet.webp
   meta: removed
   verdict: custodial
   developerName: Tuolian (Shanghai) Co., Ltd.

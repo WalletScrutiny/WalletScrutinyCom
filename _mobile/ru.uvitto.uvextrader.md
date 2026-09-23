@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-04-05
   version: 2.0.2
-  icon: ru.uvitto.uvextrader.jpg
+  icon: ru.uvitto.uvextrader.webp
   meta: removed
   verdict: wip
   developerName: Uvitto Mobile

@@ -19,7 +19,7 @@ android:
   released: 2022-03-31
   updated: 2026-02-12
   version: 0.16.6
-  icon: org.maze2.sezamewallet.png
+  icon: org.maze2.sezamewallet.webp
   meta: fewusers
   verdict: nosource
   developerName: Maze 2 Techs
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-02-14
   version: 0.15.9
   reviews: 0
-  icon: com.maze2.sezamewallet.jpg
+  icon: com.maze2.sezamewallet.webp
   meta: ok
   verdict: nosource
   developerName: Maze 2 SA

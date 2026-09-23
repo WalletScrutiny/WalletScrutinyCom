@@ -11,7 +11,7 @@ android:
   updated: 2022-07-21
   version: 1.2.3
   reviews: 1
-  icon: com.BTC.BTC_BCH.png
+  icon: com.BTC.BTC_BCH.webp
   meta: removed
   verdict: wip
   developerName: Qalab Abbas

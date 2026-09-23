@@ -20,7 +20,7 @@ android:
   updated: 2023-02-15
   version: 1.6.9
   reviews: 19
-  icon: com.vog.bitvo.png
+  icon: com.vog.bitvo.webp
   meta: removed
   verdict: custodial
   developerName: Bitvo Inc
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-11-18
   version: 3.6.4
   reviews: 26
-  icon: com.bitvoapp.bitvo.jpg
+  icon: com.bitvoapp.bitvo.webp
   meta: removed
   verdict: custodial
   developerName: Bitvo

@@ -10,7 +10,7 @@ android:
   released: 2018-03-15
   updated: 2020-12-15
   version: 1.3.0
-  icon: com.coinplus.mobile.png
+  icon: com.coinplus.mobile.webp
   meta: removed
   verdict: wip
   developerName: Coinplus, Inc

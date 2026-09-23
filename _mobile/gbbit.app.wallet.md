@@ -12,7 +12,7 @@ android:
   released: 2017-12-11
   updated: 2020-05-07
   version: '10.61'
-  icon: gbbit.app.wallet.png
+  icon: gbbit.app.wallet.webp
   meta: removed
   verdict: wip
   developerName: GBBIT Technologies Private Limited

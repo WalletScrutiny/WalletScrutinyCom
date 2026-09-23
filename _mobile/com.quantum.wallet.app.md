@@ -18,7 +18,7 @@ android:
   updated: 2025-07-03
   version: 1.3.1
   reviews: 4
-  icon: com.quantum.wallet.app.jpg
+  icon: com.quantum.wallet.app.webp
   meta: stale
   verdict: nosource
   developerName: Nexus Payments Limited
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-01-15
   version: 1.19.0
   reviews: 0
-  icon: com.quantum.wallet.app.jpg
+  icon: com.quantum.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Nexus Payments Limited

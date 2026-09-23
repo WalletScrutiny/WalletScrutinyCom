@@ -17,7 +17,7 @@ shop:
 country: 'NO'
 price: 10USD
 repository: 
-icon: kaching.cards.png
+icon: kaching.cards.webp
 bugbounty: 
 meta: ok
 verdict: vapor

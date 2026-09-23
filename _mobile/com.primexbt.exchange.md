@@ -10,7 +10,7 @@ android:
   updated: 2020-07-16
   version: 144.5.0-release
   reviews: 471
-  icon: com.primexbt.exchange.png
+  icon: com.primexbt.exchange.webp
   meta: removed
   verdict: wip
 

@@ -14,7 +14,7 @@ android:
   released: 2018-07-09
   updated: 2021-04-29
   version: '3.0'
-  icon: io.algowave.algowaveapp.png
+  icon: io.algowave.algowaveapp.webp
   meta: removed
   verdict: wip
   developerName: Algowave LTD

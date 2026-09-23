@@ -16,7 +16,7 @@ android:
   updated: 2022-06-27
   version: 2.026.148-GooglePlay
   reviews: 2
-  icon: com.artarax.cryptoShop.wMZarin.png
+  icon: com.artarax.cryptoShop.wMZarin.webp
   meta: removed
   verdict: custodial
   developerName: DAVID JONS

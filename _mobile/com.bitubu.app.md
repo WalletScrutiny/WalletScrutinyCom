@@ -10,7 +10,7 @@ android:
   released: 2020-04-19
   updated: 2023-01-19
   version: 1.1.4
-  icon: com.bitubu.app.png
+  icon: com.bitubu.app.webp
   meta: removed
   verdict: wip
   developerName: Bitubu

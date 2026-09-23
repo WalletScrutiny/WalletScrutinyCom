@@ -10,7 +10,7 @@ android:
   released: 2023-01-18
   updated: 2023-01-18
   version: 1.0.0
-  icon: com.zodeak.exchange.png
+  icon: com.zodeak.exchange.webp
   meta: removed
   verdict: wip
   developerName: Trioangle Technologies

@@ -10,7 +10,7 @@ android:
   updated: 2023-05-17
   version: 1.5.9
   reviews: 5
-  icon: uni.PAC62A36.png
+  icon: uni.PAC62A36.webp
   meta: removed
   verdict: wip
   developerName: PacificKwallet

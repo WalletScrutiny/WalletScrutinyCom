@@ -10,7 +10,7 @@ android:
   released: 2021-04-01
   updated: 2022-10-10
   version: 1.0.3
-  icon: com.application.myeazywallet.jpg
+  icon: com.application.myeazywallet.webp
   meta: removed
   verdict: wip
   developerName: Eazy Technology Solutions Sdn Bhd

@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-07-27
   version: VARY
-  icon: com.spruceid.app.credible.png
+  icon: com.spruceid.app.credible.webp
   meta: removed
   verdict: wip
   developerName: Spruce Systems, Inc.

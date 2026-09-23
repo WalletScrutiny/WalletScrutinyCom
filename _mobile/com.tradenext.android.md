@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2023-06-26
   version: 1.7.0
-  icon: com.tradenext.android.png
+  icon: com.tradenext.android.webp
   meta: removed
   verdict: wip
   developerName: TradeNext

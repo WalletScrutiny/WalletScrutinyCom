@@ -23,7 +23,7 @@ android:
   released: 2022-12-09
   updated: 2026-09-09
   version: 6.11.0
-  icon: com.chainup.hicoincloud.android.png
+  icon: com.chainup.hicoincloud.android.webp
   meta: ok
   verdict: custodial
   developerName: KeySecure
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-15
   version: 6.11.0
   reviews: 3
-  icon: com.joycoin.hicoin.jpg
+  icon: com.joycoin.hicoin.webp
   meta: ok
   verdict: custodial
   developerName: YALASO PTE. LTD.

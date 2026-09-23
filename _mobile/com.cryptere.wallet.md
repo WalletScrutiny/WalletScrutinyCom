@@ -10,7 +10,7 @@ android:
   released: 2022-06-17
   updated: 2022-07-01
   version: 0.9.11
-  icon: com.cryptere.wallet.png
+  icon: com.cryptere.wallet.webp
   meta: removed
   verdict: wip
   developerName: Cryptere

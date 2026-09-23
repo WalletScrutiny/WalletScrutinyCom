@@ -10,7 +10,7 @@ android:
   released: 2019-11-26
   updated: 2020-08-19
   version: 2.0.3
-  icon: com.brick.wallet.png
+  icon: com.brick.wallet.webp
   meta: removed
   verdict: wip
 

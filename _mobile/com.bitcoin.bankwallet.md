@@ -13,7 +13,7 @@ android:
   updated: 2022-04-10
   version: 0.3.7
   reviews: 15
-  icon: com.bitcoin.bankwallet.png
+  icon: com.bitcoin.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Oriental Thang Long

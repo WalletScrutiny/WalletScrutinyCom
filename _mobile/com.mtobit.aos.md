@@ -12,7 +12,7 @@ android:
   released: 2020-02-22
   updated: 2020-09-29
   version: 1.1.6
-  icon: com.mtobit.aos.png
+  icon: com.mtobit.aos.webp
   meta: removed
   verdict: wip
   developerName: mtobit

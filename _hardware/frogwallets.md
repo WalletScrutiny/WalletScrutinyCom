@@ -17,7 +17,7 @@ shop: https://frogwallets.com/index.php?route=product/product&product_id=53
 country: US
 price: 9.95 USD
 repository: 
-icon: frogwallets.png
+icon: frogwallets.webp
 bugbounty: 
 meta: ok
 verdict: plainkey

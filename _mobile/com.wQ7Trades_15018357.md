@@ -10,7 +10,7 @@ android:
   released: 2022-01-13
   updated: 2022-01-13
   version: 1.0.2
-  icon: com.wQ7Trades_15018357.png
+  icon: com.wQ7Trades_15018357.webp
   meta: removed
   verdict: wip
   developerName: Decentralized Finance

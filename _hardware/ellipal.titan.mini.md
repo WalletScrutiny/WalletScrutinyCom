@@ -20,7 +20,7 @@ shop: https://www.ellipal.com/products/ellipal-titan-mini-premiere-edition
 country: CN
 price: 79USD
 repository: 
-icon: ellipal.titan.mini.png
+icon: ellipal.titan.mini.webp
 bugbounty: 
 meta: ok
 verdict: nosource

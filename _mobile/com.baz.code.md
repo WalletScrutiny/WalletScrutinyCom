@@ -9,7 +9,7 @@ android:
   released: 2022-06-23
   updated: 2022-09-28
   version: 3.1.1
-  icon: com.baz.code.png
+  icon: com.baz.code.webp
   meta: removed
   verdict: wip
   developerName: bitcoinyouth

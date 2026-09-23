@@ -12,7 +12,7 @@ android:
   updated: 2023-08-29
   version: 1.0.1
   reviews: 3
-  icon: com.crescentshine.monswallet.png
+  icon: com.crescentshine.monswallet.webp
   meta: obsolete
   verdict: wip
   developerName: Crescent Shine - OLD

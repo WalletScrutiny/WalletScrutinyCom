@@ -21,7 +21,7 @@ android:
   updated: 2026-09-16
   version: 3.7.5
   reviews: 35
-  icon: com.oslmobile.png
+  icon: com.oslmobile.webp
   meta: ok
   verdict: custodial
   developerName: BC Technology (HK) Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-18
   version: 3.7.5
   reviews: 519
-  icon: com.osl.mobile.OslMobile.jpg
+  icon: com.osl.mobile.OslMobile.webp
   meta: ok
   verdict: custodial
   developerName: BC Marketplace (HK) Limited

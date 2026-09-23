@@ -12,7 +12,7 @@ android:
   updated: 2024-12-26
   version: 511.0.0
   reviews: 274
-  icon: com.parsa.saraf.png
+  icon: com.parsa.saraf.webp
   meta: stale
   verdict: wip
   developerName: saraf company

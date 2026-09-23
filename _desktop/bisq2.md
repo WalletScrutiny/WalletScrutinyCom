@@ -12,7 +12,7 @@ provider: Bisq Network
 providerWebsite: 
 website: https://bisq.network
 repository: https://github.com/bisq-network/bisq2
-icon: bisq2.png
+icon: bisq2.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

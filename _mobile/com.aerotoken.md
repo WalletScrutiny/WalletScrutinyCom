@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-05-26
   version: VARY
-  icon: com.aerotoken.png
+  icon: com.aerotoken.webp
   meta: removed
   verdict: wip
 

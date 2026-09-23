@@ -10,7 +10,7 @@ android:
   released: 2020-01-24
   updated: 2020-02-02
   version: 1.0.7
-  icon: com.joydc.app.png
+  icon: com.joydc.app.webp
   meta: removed
   verdict: wip
   developerName: Creativecodez

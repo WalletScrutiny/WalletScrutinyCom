@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: org.cryptomarketsdaily.bitcoin.exchange.png
+  icon: org.cryptomarketsdaily.bitcoin.exchange.webp
   meta: removed
   verdict: wip
 

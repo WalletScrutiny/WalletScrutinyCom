@@ -11,7 +11,7 @@ android:
   updated: 2019-02-13
   version: 0.1.5
   reviews: 9
-  icon: in.koinex.android.png
+  icon: in.koinex.android.webp
   meta: removed
   verdict: wip
   developerName: Discidium Internet Labs Pvt. Ltd.

@@ -10,7 +10,7 @@ android:
   released: 2020-09-30
   updated: 2021-02-08
   version: 2.1.0
-  icon: io.cyclebit.wallet.png
+  icon: io.cyclebit.wallet.webp
   meta: removed
   verdict: wip
   developerName: ISS Technologies

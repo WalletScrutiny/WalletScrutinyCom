@@ -13,7 +13,7 @@ iphone:
   updated: 2021-11-25
   version: 4.2.5
   reviews: 39
-  icon: com.c3-soft.ElectronCash.jpg
+  icon: com.c3-soft.ElectronCash.webp
   meta: obsolete
   verdict: wip
   developerName: Electron Cash LLC

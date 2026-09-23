@@ -13,7 +13,7 @@ android:
   updated: 2022-09-02
   version: '2.0'
   reviews: 60
-  icon: com.jestaapp.wallet.png
+  icon: com.jestaapp.wallet.webp
   meta: removed
   verdict: wip
   developerName: GGTC GLOBAL

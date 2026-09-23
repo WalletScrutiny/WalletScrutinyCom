@@ -21,7 +21,7 @@ android:
   updated: 2026-09-16
   version: 7.1.0
   reviews: 7
-  icon: app.mybitstore.com.png
+  icon: app.mybitstore.com.webp
   meta: ok
   verdict: custodial
   developerName: Mybitstore - Buy & Sell BTC
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-02-18
   version: 7.0.9
   reviews: 488
-  icon: app.mybitstore.com.jpg
+  icon: app.mybitstore.com.webp
   meta: stale
   verdict: custodial
   developerName: MyBitStore Limited

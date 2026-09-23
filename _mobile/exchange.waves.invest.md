@@ -18,7 +18,7 @@ android:
   updated: 2022-12-19
   version: 1.10.10
   reviews: 5
-  icon: exchange.waves.invest.png
+  icon: exchange.waves.invest.webp
   meta: removed
   verdict: nosource
   developerName: WX Development LTD.
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-12-20
   version: 1.10.10
   reviews: 11
-  icon: exchange.waves.invest.jpg
+  icon: exchange.waves.invest.webp
   meta: removed
   verdict: nosource
   developerName: WX DEVELOPMENT LTD.

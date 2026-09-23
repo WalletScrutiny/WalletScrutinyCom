@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: 
-icon: eib.ai.png
+icon: eib.ai.webp
 bugbounty: 
 meta: ok
 verdict: vapor

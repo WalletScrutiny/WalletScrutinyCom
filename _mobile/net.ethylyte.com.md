@@ -13,7 +13,7 @@ android:
   updated: 2020-03-07
   version: '2.8'
   reviews: 6
-  icon: net.ethylyte.com.png
+  icon: net.ethylyte.com.webp
   meta: removed
   verdict: wip
   developerName: Ethlyte Crypto

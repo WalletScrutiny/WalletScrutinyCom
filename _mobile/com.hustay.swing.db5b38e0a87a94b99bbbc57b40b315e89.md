@@ -12,7 +12,7 @@ android:
   released: 2022-04-13
   updated: 2022-08-07
   version: '1.2'
-  icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
+  icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.webp
   meta: removed
   verdict: custodial
   developerName: SMI-HK.LLC

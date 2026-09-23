@@ -16,7 +16,7 @@ android:
   updated: 2021-09-30
   version: '5.0'
   reviews: 17
-  icon: com.fxwallet.png
+  icon: com.fxwallet.webp
   meta: removed
   verdict: custodial
 

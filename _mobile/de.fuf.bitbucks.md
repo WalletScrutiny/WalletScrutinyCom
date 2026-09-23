@@ -21,7 +21,7 @@ android:
   updated: 2025-10-06
   version: 1.5.14
   reviews: 2
-  icon: de.fuf.bitbucks.png
+  icon: de.fuf.bitbucks.webp
   meta: removed
   verdict: custodial
   developerName: FUF // Frank und Freunde
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-10-31
   version: 1.5.16
   reviews: 1
-  icon: de.fuf.bitbucks-io.jpg
+  icon: de.fuf.bitbucks-io.webp
   meta: removed
   verdict: custodial
   developerName: FUF // Frank und Freunde

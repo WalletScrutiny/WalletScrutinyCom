@@ -9,7 +9,7 @@ android:
   released: 2021-09-03
   updated: 2022-01-18
   version: '5.0'
-  icon: com.trustadx.bybit.png
+  icon: com.trustadx.bybit.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   released: 2020-10-20
   updated: 2020-10-20
   version: '8.0'
-  icon: io.app.forgingblock.png
+  icon: io.app.forgingblock.webp
   meta: removed
   verdict: wip
   developerName: ForgingBlock Team

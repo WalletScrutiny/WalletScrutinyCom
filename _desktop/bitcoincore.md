@@ -14,7 +14,7 @@ provider: Bitcoin Core Developers
 providerWebsite: 
 website: https://bitcoincore.org
 repository: https://github.com/bitcoin/bitcoin
-icon: bitcoincore.png
+icon: bitcoincore.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

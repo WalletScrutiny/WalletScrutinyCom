@@ -16,7 +16,7 @@ android:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 305
-  icon: com.currency.exchange.investsmart.png
+  icon: com.currency.exchange.investsmart.webp
   meta: ok
   verdict: custodial
   developerName: Dzengi.com
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-11-18
   version: 1.32.0
   reviews: 23
-  icon: com.currency.exchange.investsmart.jpg
+  icon: com.currency.exchange.investsmart.webp
   meta: removed
   verdict: custodial
   developerName: DZ INVESTMENTS POLAND Sp.z.o.o

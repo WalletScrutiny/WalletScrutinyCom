@@ -9,7 +9,7 @@ android:
   released: 2019-03-18
   updated: 2019-05-20
   version: 1.6.2
-  icon: com.foxone.exchange.png
+  icon: com.foxone.exchange.webp
   meta: removed
   verdict: wip
 

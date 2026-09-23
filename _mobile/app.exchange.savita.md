@@ -20,7 +20,7 @@ android:
   released: 2023-01-05
   updated: 2026-05-08
   version: 1.0.0
-  icon: app.exchange.savita.png
+  icon: app.exchange.savita.webp
   meta: ok
   verdict: custodial
   developerName: Savita Global Trading Ltd
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-07-20
   version: 1.7.0
   reviews: 0
-  icon: com.savita.savitaapp.jpg
+  icon: com.savita.savitaapp.webp
   meta: removed
   verdict: custodial
   developerName: Savita global

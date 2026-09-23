@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-08-26
   version: 0.6.2
-  icon: com.pibexa.png
+  icon: com.pibexa.webp
   meta: removed
   verdict: wip
   developerName: Pibexa

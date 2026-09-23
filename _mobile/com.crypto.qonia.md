@@ -9,7 +9,7 @@ android:
   released: 2021-05-21
   updated: 2021-05-26
   version: '1.1'
-  icon: com.crypto.qonia.png
+  icon: com.crypto.qonia.webp
   meta: removed
   verdict: wip
   developerName: Raskoz Helen

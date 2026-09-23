@@ -10,7 +10,7 @@ android:
   released: 2020-05-07
   updated: 2020-07-19
   version: '6771'
-  icon: com.ethegram.app.png
+  icon: com.ethegram.app.webp
   meta: removed
   verdict: wip
   developerName: 이더그램

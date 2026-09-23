@@ -17,7 +17,7 @@ android:
   updated: 2025-12-24
   version: 2.2.5
   reviews: 29
-  icon: com.matrixport.bit.png
+  icon: com.matrixport.bit.webp
   meta: removed
   verdict: custodial
   developerName: BIT Technologies Holding Company

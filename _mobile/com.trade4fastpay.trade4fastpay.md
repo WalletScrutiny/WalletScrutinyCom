@@ -10,7 +10,7 @@ android:
   released: 2021-10-15
   updated: 2023-04-15
   version: 1.0.0
-  icon: com.trade4fastpay.trade4fastpay.png
+  icon: com.trade4fastpay.trade4fastpay.webp
   meta: removed
   verdict: wip
   developerName: LucrativeTECH

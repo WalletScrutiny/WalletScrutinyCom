@@ -8,7 +8,7 @@ android:
   users: 500
   updated: 2020-01-19
   version: VARY
-  icon: com.nexus.trader.png
+  icon: com.nexus.trader.webp
   meta: removed
   verdict: wip
   developerName: Nexus Trader Team

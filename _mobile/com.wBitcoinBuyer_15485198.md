@@ -9,7 +9,7 @@ android:
   released: 2022-05-05
   updated: 2022-05-05
   version: '1.0'
-  icon: com.wBitcoinBuyer_15485198.jpg
+  icon: com.wBitcoinBuyer_15485198.webp
   meta: removed
   verdict: wip
 

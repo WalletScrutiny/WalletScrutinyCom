@@ -10,7 +10,7 @@ android:
   released: 2018-09-19
   updated: 2018-11-22
   version: 1.2.6
-  icon: io.mahfazah.png
+  icon: io.mahfazah.webp
   meta: removed
   verdict: wip
   developerName: Cryptocurrency Solutions OU

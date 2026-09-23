@@ -11,7 +11,7 @@ android:
   updated: 2020-12-10
   version: 1.1.0
   reviews: 1
-  icon: com.shapeshift.keepkey.png
+  icon: com.shapeshift.keepkey.webp
   meta: removed
   verdict: wip
   developerName: ShapeShift.com

@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: irikey.png
+icon: irikey.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

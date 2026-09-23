@@ -14,7 +14,7 @@ android:
   updated: 2019-09-16
   version: 1.5.17
   reviews: 205
-  icon: com.freaks.app.handcash.png
+  icon: com.freaks.app.handcash.webp
   meta: removed
   verdict: wip
 

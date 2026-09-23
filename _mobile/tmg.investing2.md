@@ -10,7 +10,7 @@ android:
   released: 2021-01-22
   updated: 2023-02-20
   version: '9.8'
-  icon: tmg.investing2.jpg
+  icon: tmg.investing2.webp
   meta: removed
   verdict: wip
   developerName: The Millionaires Group Limited

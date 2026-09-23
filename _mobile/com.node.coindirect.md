@@ -21,7 +21,7 @@ android:
   updated: 2021-07-07
   version: 1.3.0
   reviews: 31
-  icon: com.node.coindirect.png
+  icon: com.node.coindirect.webp
   meta: removed
   verdict: custodial
   developerName: Coin  Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2021-07-21
   version: 1.2.7
   reviews: 14
-  icon: com.node.coindirect.jpg
+  icon: com.node.coindirect.webp
   meta: removed
   verdict: custodial
 

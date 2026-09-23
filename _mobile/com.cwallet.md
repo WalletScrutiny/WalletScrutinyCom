@@ -18,7 +18,7 @@ android:
   updated: 2021-07-24
   version: 0.741.11
   reviews: 6
-  icon: com.cwallet.png
+  icon: com.cwallet.webp
   meta: removed
   verdict: custodial
   developerName: Cryptocurrency Wallet Development Team
@@ -29,7 +29,7 @@ iphone:
   updated: 2022-10-03
   version: 0.741.11
   reviews: 11
-  icon: com.cwallet.jpg
+  icon: com.cwallet.webp
   meta: removed
   verdict: custodial
   developerName: BHS Solutions

@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-08-05
   version: 1.2.5
-  icon: com.bitmelech.wallet.png
+  icon: com.bitmelech.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bitmelech

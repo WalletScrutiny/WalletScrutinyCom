@@ -21,7 +21,7 @@ android:
   updated: 2025-04-18
   version: 4.5.3
   reviews: 5
-  icon: com.ldvtech.tokero.png
+  icon: com.ldvtech.tokero.webp
   meta: removed
   verdict: custodial
   developerName: Globe Monnaie SRL
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-04-22
   version: '4.5'
   reviews: 25
-  icon: com.ldvtech.tokero.jpg
+  icon: com.ldvtech.tokero.webp
   meta: removed
   verdict: custodial
   developerName: Globe Monnaie SRL

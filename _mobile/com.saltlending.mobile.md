@@ -21,7 +21,7 @@ android:
   updated: 2026-09-10
   version: 2.20.120
   reviews: 46
-  icon: com.saltlending.mobile.png
+  icon: com.saltlending.mobile.webp
   meta: ok
   verdict: custodial
   developerName: SALT Blockchain, Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-11
   version: 2.20.120
   reviews: 26
-  icon: com.saltlending.mobile.jpg
+  icon: com.saltlending.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Salt Blockchain Inc.

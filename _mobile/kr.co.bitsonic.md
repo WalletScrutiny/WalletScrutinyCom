@@ -13,7 +13,7 @@ android:
   updated: 2021-03-24
   version: 1.9.6
   reviews: 3
-  icon: kr.co.bitsonic.png
+  icon: kr.co.bitsonic.webp
   meta: removed
   verdict: wip
   developerName: bitsonic

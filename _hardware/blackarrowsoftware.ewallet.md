@@ -20,7 +20,7 @@ shop: http://www.blackarrowsoftware.com/store/ewallet.html
 country: 
 price: 24.99GBP
 repository: 
-icon: blackarrowsoftware.ewallet.png
+icon: blackarrowsoftware.ewallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

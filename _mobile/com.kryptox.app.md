@@ -10,7 +10,7 @@ android:
   released: 2021-04-21
   updated: 2021-05-07
   version: '1.8'
-  icon: com.kryptox.app.png
+  icon: com.kryptox.app.webp
   meta: removed
   verdict: wip
   developerName: KryptoX

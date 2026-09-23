@@ -10,7 +10,7 @@ android:
   released: 2021-07-17
   updated: 2021-10-29
   version: 0.1.1
-  icon: com.coinshut.coinshut.jpg
+  icon: com.coinshut.coinshut.webp
   meta: removed
   verdict: wip
   developerName: Coinshut Africa

@@ -10,7 +10,7 @@ android:
   released: 2022-09-07
   updated: 2022-09-08
   version: '1.0'
-  icon: xyz.snazy.snazazizventures.bitdd.png
+  icon: xyz.snazy.snazazizventures.bitdd.webp
   meta: removed
   verdict: wip
   developerName: SNAZAZIZ VENTURES

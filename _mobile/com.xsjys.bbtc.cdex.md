@@ -11,7 +11,7 @@ android:
   released: 2022-05-24
   updated: 2023-06-07
   version: 1.5.0
-  icon: com.xsjys.bbtc.cdex.png
+  icon: com.xsjys.bbtc.cdex.webp
   meta: removed
   verdict: wip
   developerName: CD-Exgroup

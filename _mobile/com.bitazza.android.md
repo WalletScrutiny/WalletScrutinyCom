@@ -21,7 +21,7 @@ android:
   updated: 2026-09-04
   version: 4.12.0
   reviews: 2526
-  icon: com.bitazza.android.png
+  icon: com.bitazza.android.webp
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-15
   version: 5.1.2
   reviews: 2612
-  icon: com.bitazza.ios.jpg
+  icon: com.bitazza.ios.webp
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited

@@ -22,7 +22,7 @@ android:
   updated: 2024-03-28
   version: 10.3.7
   reviews: 4
-  icon: com.vowcurrency.vow.png
+  icon: com.vowcurrency.vow.webp
   meta: removed
   verdict: nosource
   developerName: Vow
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-04-09
   version: 1.3.4
   reviews: 6
-  icon: com.vowcurrency.vow.jpg
+  icon: com.vowcurrency.vow.webp
   meta: removed
   verdict: nosource
   developerName: Vow Limited

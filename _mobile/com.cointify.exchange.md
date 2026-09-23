@@ -10,7 +10,7 @@ android:
   released: 2019-04-29
   updated: 2019-06-24
   version: 1.0.2
-  icon: com.cointify.exchange.png
+  icon: com.cointify.exchange.webp
   meta: removed
   verdict: wip
   developerName: Cointify Team

@@ -9,7 +9,7 @@ android:
   released: 2022-05-23
   updated: 2023-04-18
   version: 7.0.0
-  icon: com.numiner.nuwallet.png
+  icon: com.numiner.nuwallet.webp
   meta: removed
   verdict: wip
   developerName: dadteach

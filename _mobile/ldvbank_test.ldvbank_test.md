@@ -10,7 +10,7 @@ android:
   released: 2020-12-20
   updated: 2020-08-26
   version: '1.0'
-  icon: ldvbank_test.ldvbank_test.png
+  icon: ldvbank_test.ldvbank_test.webp
   meta: removed
   verdict: wip
 

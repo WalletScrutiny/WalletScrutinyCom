@@ -9,7 +9,7 @@ android:
   released: 2020-05-17
   updated: 2021-08-06
   version: 1.20-testnet
-  icon: it.casatta.testnet.png
+  icon: it.casatta.testnet.webp
   meta: removed
   verdict: wip
   developerName: Riccardo Casatta

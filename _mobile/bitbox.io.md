@@ -11,7 +11,7 @@ android:
   released: 2019-05-16
   updated: 2019-07-30
   version: 1.0.4
-  icon: bitbox.io.png
+  icon: bitbox.io.webp
   meta: removed
   verdict: wip
   developerName: Cryptex PTE. LTD.

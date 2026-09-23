@@ -10,7 +10,7 @@ iphone:
   updated: 2026-03-26
   version: 1.2.5
   reviews: 5
-  icon: com.pionechain.pionewallet.jpg
+  icon: com.pionechain.pionewallet.webp
   meta: ok
   verdict: wip
   developerName: Pionechain

@@ -18,7 +18,7 @@ shop: https://zerotrace.org/product/zerotracepen/
 country: US
 price: 97USD
 repository: 
-icon: zerotrace.png
+icon: zerotrace.webp
 bugbounty: 
 meta: ok
 verdict: nosource

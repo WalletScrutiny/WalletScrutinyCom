@@ -10,7 +10,7 @@ android:
   released: 2018-12-04
   updated: 2020-02-28
   version: 2.9.10
-  icon: io.kaiser.kaiserwallet2.ble_reader.png
+  icon: io.kaiser.kaiserwallet2.ble_reader.webp
   meta: removed
   verdict: wip
   developerName: Bizblocks

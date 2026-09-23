@@ -13,7 +13,7 @@ iphone:
   updated: 2026-09-12
   version: 2.0.2
   reviews: 86
-  icon: com.bitxwalet.production.jpg
+  icon: com.bitxwalet.production.webp
   meta: ok
   verdict: nosource
   developerName: TATSEN PAZARLAMA GIDA SANAYI VE TICARET LIMITED SIRKETI

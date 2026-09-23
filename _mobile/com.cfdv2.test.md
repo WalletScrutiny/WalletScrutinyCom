@@ -9,7 +9,7 @@ android:
   users: 1
   updated: 2020-06-24
   version: 0.6.2
-  icon: com.cfdv2.test.png
+  icon: com.cfdv2.test.webp
   meta: removed
   verdict: wip
   developerName: Airsoftltd

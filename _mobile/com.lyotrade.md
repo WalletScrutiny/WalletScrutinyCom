@@ -19,7 +19,7 @@ android:
   released: 2022-06-30
   updated: 2023-12-17
   version: 3.0.2
-  icon: com.lyotrade.png
+  icon: com.lyotrade.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-03-14
   version: 1.8.0
   reviews: 0
-  icon: com.lyo.trade.jpg
+  icon: com.lyo.trade.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD

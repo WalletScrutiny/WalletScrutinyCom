@@ -10,7 +10,7 @@ android:
   released: 2018-10-01
   updated: 2018-10-02
   version: 1.0.6
-  icon: kr.co.binaries.bimaxbeta.png
+  icon: kr.co.binaries.bimaxbeta.webp
   meta: removed
   verdict: wip
   developerName: Binaries

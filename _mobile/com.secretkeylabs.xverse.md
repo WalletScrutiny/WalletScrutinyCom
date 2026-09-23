@@ -25,7 +25,7 @@ android:
   updated: 2026-09-16
   version: 2.9.2
   reviews: 1124
-  icon: com.secretkeylabs.xverse.png
+  icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-09-17
   version: v2.9.2
   reviews: 1
-  icon: com.secretkeylabs.xverse.jpg
+  icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs

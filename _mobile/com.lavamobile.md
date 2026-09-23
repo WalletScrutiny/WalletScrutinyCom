@@ -17,7 +17,7 @@ android:
   updated: 2026-09-14
   version: 3.24.0
   reviews: 29
-  icon: com.lavamobile.png
+  icon: com.lavamobile.webp
   meta: ok
   verdict: nosource
   developerName: Lava Global Inc.
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-15
   version: 3.24.0
   reviews: 175
-  icon: xyz.lava.mobile.jpg
+  icon: xyz.lava.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Lava Global Inc.

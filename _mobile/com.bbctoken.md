@@ -11,7 +11,7 @@ android:
   updated: 2020-09-16
   version: 1.0.54
   reviews: 9
-  icon: com.bbctoken.png
+  icon: com.bbctoken.webp
   meta: removed
   verdict: wip
   developerName: Okanetoma Lab

@@ -19,7 +19,7 @@ android:
   updated: 2026-09-09
   version: 1.46.0
   reviews: 4
-  icon: com.yuh.png
+  icon: com.yuh.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote Mobile
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-14
   version: 1.44.0
   reviews: 22553
-  icon: com.swissquote.Yuh.jpg
+  icon: com.swissquote.Yuh.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote

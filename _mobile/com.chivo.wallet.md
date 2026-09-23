@@ -23,7 +23,7 @@ android:
   updated: 2025-08-28
   version: 3.0.0
   reviews: 14260
-  icon: com.chivo.wallet.png
+  icon: com.chivo.wallet.webp
   meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador
@@ -35,7 +35,7 @@ iphone:
   updated: 2025-08-28
   version: 3.1.0
   reviews: 4268
-  icon: com.chivo.wallet.jpg
+  icon: com.chivo.wallet.webp
   meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador

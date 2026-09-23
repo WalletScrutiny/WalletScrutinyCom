@@ -11,7 +11,7 @@ android:
   users: 1000
   updated: 2021-02-19
   version: VARY
-  icon: digital.juwelis.app.png
+  icon: digital.juwelis.app.webp
   meta: removed
   verdict: nosource
   developerName: JUWELIS Digital

@@ -10,7 +10,7 @@ android:
   released: 2018-03-28
   updated: 2019-05-03
   version: 1.25.251
-  icon: com.bokka.ex.png
+  icon: com.bokka.ex.webp
   meta: removed
   verdict: wip
   developerName: Bokka

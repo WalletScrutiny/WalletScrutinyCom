@@ -14,7 +14,7 @@ android:
   updated: 2019-08-28
   version: '1.0'
   reviews: 11
-  icon: org.qbita.bitcoin_wallet.png
+  icon: org.qbita.bitcoin_wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Valzu

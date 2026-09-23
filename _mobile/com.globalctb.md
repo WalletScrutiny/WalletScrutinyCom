@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-04-07
   version: 0.6.3
-  icon: com.globalctb.png
+  icon: com.globalctb.webp
   meta: removed
   verdict: wip
   developerName: StarsDeveloper

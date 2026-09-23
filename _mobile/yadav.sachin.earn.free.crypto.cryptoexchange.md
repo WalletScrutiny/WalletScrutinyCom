@@ -10,7 +10,7 @@ android:
   released: 2022-08-25
   updated: 2023-01-07
   version: '3.0'
-  icon: yadav.sachin.earn.free.crypto.cryptoexchange.jpg
+  icon: yadav.sachin.earn.free.crypto.cryptoexchange.webp
   meta: obsolete
   verdict: wip
   developerName: Trinity Dev

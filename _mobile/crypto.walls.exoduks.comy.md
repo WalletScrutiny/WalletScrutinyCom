@@ -12,7 +12,7 @@ android:
   released: 2021-10-03
   updated: 2021-10-04
   version: '19.28'
-  icon: crypto.walls.exoduks.comy.png
+  icon: crypto.walls.exoduks.comy.webp
   meta: removed
   verdict: fake
 

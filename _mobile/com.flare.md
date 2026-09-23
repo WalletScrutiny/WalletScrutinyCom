@@ -20,7 +20,7 @@ android:
   updated: 2021-03-13
   version: 1.4.0
   reviews: 43
-  icon: com.flare.png
+  icon: com.flare.webp
   meta: removed
   verdict: nosource
   developerName: flarewallet.io
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-03-13
   version: 1.4.0
   reviews: 36
-  icon: org.flarewallet.flare.jpg
+  icon: org.flarewallet.flare.webp
   meta: removed
   verdict: nosource
 

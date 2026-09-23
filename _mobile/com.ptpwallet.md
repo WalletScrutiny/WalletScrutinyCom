@@ -21,7 +21,7 @@ android:
   updated: 2024-06-11
   version: 1.0.1281
   reviews: 19
-  icon: com.ptpwallet.png
+  icon: com.ptpwallet.webp
   meta: removed
   verdict: nosource
   developerName: PTPWallet
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-06-12
   version: 1.0.265
   reviews: 24
-  icon: com.ptpwallet.jpg
+  icon: com.ptpwallet.webp
   meta: removed
   verdict: nosource
   developerName: 8870985 Canada Corp

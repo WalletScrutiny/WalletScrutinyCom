@@ -23,7 +23,7 @@ android:
   appCountry: us
   updated: 2026-08-21
   version: 3.1.3
-  icon: co.coinfinity.coinfinity.mobile.png
+  icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Coinfinity
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-24
   version: 3.1.3
   reviews: 0
-  icon: co.coinfinity.coinfinity.mobile.jpg
+  icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Coinfinity GmbH

@@ -12,7 +12,7 @@ provider: Michael Hrenka
 providerWebsite: 
 website: https://app.bitboard-wallet.com
 repository: https://github.com/Radivis/bitboard-pwa-wallet
-icon: bitboard.png
+icon: bitboard.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

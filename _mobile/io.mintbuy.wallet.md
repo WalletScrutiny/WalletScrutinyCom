@@ -10,7 +10,7 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: 0.21.1
-  icon: io.mintbuy.wallet.png
+  icon: io.mintbuy.wallet.webp
   meta: removed
   verdict: wip
   developerName: Mint Community

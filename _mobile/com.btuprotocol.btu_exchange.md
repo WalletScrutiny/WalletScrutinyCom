@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-05-06
   version: 1.8.2
-  icon: com.btuprotocol.btu_exchange.png
+  icon: com.btuprotocol.btu_exchange.webp
   meta: removed
   verdict: wip
   developerName: Get Verso

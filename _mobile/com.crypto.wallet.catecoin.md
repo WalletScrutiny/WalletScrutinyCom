@@ -19,7 +19,7 @@ android:
   updated: 2023-07-01
   version: 2.1.0
   reviews: 45
-  icon: com.crypto.wallet.catecoin.png
+  icon: com.crypto.wallet.catecoin.webp
   meta: removed
   verdict: nosource
   developerName: Catecoin
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-12-03
   version: '8.7'
   reviews: 20
-  icon: com.catecoin.crypto.wallet.jpg
+  icon: com.catecoin.crypto.wallet.webp
   meta: removed
   verdict: nosource
   developerName: CateCoin

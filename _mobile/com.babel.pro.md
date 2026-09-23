@@ -10,7 +10,7 @@ android:
   released: 2021-09-27
   updated: 2022-05-30
   version: 1.7.2
-  icon: com.babel.pro.png
+  icon: com.babel.pro.webp
   meta: removed
   verdict: wip
 

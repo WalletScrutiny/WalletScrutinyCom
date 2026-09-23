@@ -10,7 +10,7 @@ android:
   released: 2022-02-21
   updated: 2022-02-21
   version: V1.0
-  icon: com.notch.token.png
+  icon: com.notch.token.webp
   meta: removed
   verdict: wip
   developerName: Notch Networks

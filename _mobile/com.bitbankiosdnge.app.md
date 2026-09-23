@@ -10,7 +10,7 @@ android:
   released: 2021-09-30
   updated: 2021-09-30
   version: '456'
-  icon: com.bitbankiosdnge.app.png
+  icon: com.bitbankiosdnge.app.webp
   meta: removed
   verdict: wip
   developerName: 24BITBANK

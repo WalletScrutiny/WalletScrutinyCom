@@ -20,7 +20,7 @@ shop: http://crypto-store.net/shop/hub-security-firewallet/
 country: UK
 price: 1700GBP
 repository: 
-icon: hubsecurity.firewallet.png
+icon: hubsecurity.firewallet.webp
 bugbounty: 
 meta: ok
 verdict: wip

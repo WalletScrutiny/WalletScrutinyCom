@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://ownrwallet.com
 repository: 
-icon: ownrwallet.png
+icon: ownrwallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource

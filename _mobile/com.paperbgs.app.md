@@ -10,7 +10,7 @@ android:
   released: 2021-02-04
   updated: 2021-02-04
   version: '1.9'
-  icon: com.paperbgs.app.jpg
+  icon: com.paperbgs.app.webp
   meta: removed
   verdict: wip
   developerName: PaperBGS

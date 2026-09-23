@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2023-02-23
   version: 1.3.13
-  icon: io.fmfw.wallet.png
+  icon: io.fmfw.wallet.webp
   meta: removed
   verdict: wip
   developerName: FMFW.io

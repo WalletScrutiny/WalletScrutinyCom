@@ -11,7 +11,7 @@ android:
   updated: 2022-07-22
   version: 2.3.82
   reviews: 4
-  icon: com.ruyiwallet.app.png
+  icon: com.ruyiwallet.app.webp
   meta: removed
   verdict: wip
 

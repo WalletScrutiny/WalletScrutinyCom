@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2020-02-28
   version: 4.3.1
-  icon: com.ecxx.png
+  icon: com.ecxx.webp
   meta: removed
   verdict: wip
 

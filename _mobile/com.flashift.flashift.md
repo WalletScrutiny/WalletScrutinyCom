@@ -10,7 +10,7 @@ android:
   released: 2021-01-17
   updated: 2021-01-17
   version: 1.0.1
-  icon: com.flashift.flashift.png
+  icon: com.flashift.flashift.webp
   meta: removed
   verdict: wip
   developerName: Flashift

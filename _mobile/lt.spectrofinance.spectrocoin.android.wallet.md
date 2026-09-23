@@ -23,7 +23,7 @@ android:
   updated: 2026-05-28
   version: 2.11.0
   reviews: 43
-  icon: lt.spectrofinance.spectrocoin.android.wallet.png
+  icon: lt.spectrofinance.spectrocoin.android.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Spectro Finance
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-06-19
   version: 2.11.0
   reviews: 11
-  icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
+  icon: lt.spectrofinance.spectrocoin.ios.wallet.webp
   meta: ok
   verdict: custodial
   developerName: UAB Spectro Finance

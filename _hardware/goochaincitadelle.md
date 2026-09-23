@@ -17,7 +17,7 @@ shop:
 country: FR
 price: 12€
 repository: 
-icon: goochaincitadelle.png
+icon: goochaincitadelle.webp
 bugbounty: 
 meta: ok
 verdict: vapor

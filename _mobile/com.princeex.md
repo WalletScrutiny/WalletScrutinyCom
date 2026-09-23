@@ -10,7 +10,7 @@ android:
   released: 2022-03-15
   updated: 2023-02-13
   version: 1.1.1
-  icon: com.princeex.png
+  icon: com.princeex.webp
   meta: removed
   verdict: wip
   developerName: PrinceEX

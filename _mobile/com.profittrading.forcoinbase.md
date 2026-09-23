@@ -16,7 +16,7 @@ android:
   updated: 2021-05-16
   version: VARY
   reviews: 27
-  icon: com.profittrading.forcoinbase.png
+  icon: com.profittrading.forcoinbase.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

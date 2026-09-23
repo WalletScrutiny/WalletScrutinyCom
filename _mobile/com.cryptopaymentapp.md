@@ -9,7 +9,7 @@ android:
   released: 2020-07-23
   updated: 2020-11-11
   version: 1.4.3
-  icon: com.cryptopaymentapp.jpg
+  icon: com.cryptopaymentapp.webp
   meta: removed
   verdict: wip
   developerName: Bitci Borsa Teknoloji Anonim Sirketi

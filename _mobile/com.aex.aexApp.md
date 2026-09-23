@@ -11,7 +11,7 @@ android:
   updated: 2022-09-21
   version: 3.36.4
   reviews: 11
-  icon: com.aex.aexApp.png
+  icon: com.aex.aexApp.webp
   meta: removed
   verdict: wip
   developerName: AEX

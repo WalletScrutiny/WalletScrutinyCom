@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-12-21
   version: 0.15.4
-  icon: be.flitz.flitz_mobile_production.png
+  icon: be.flitz.flitz_mobile_production.webp
   meta: removed
   verdict: wip
   developerName: Flitz Technologies

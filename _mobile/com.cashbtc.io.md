@@ -10,7 +10,7 @@ android:
   released: 2019-12-21
   updated: 2019-12-22
   version: '1.0'
-  icon: com.cashbtc.io.png
+  icon: com.cashbtc.io.webp
   meta: removed
   verdict: wip
   developerName: Just ESCROW

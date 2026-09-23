@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2022-08-01
   version: VARY
-  icon: com.inkafinance.android.inka.png
+  icon: com.inkafinance.android.inka.webp
   meta: removed
   verdict: wip
   developerName: INKA Finance Ltd

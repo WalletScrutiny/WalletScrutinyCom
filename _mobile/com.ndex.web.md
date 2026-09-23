@@ -12,7 +12,7 @@ android:
   released: 2018-10-10
   updated: 2020-04-02
   version: '1.1'
-  icon: com.ndex.web.png
+  icon: com.ndex.web.webp
   meta: removed
   verdict: wip
   developerName: ND-EX

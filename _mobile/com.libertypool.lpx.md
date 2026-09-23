@@ -10,7 +10,7 @@ android:
   released: 2020-01-01
   updated: 2020-01-01
   version: '1.0'
-  icon: com.libertypool.lpx.png
+  icon: com.libertypool.lpx.webp
   meta: removed
   verdict: wip
   developerName: Libertypool

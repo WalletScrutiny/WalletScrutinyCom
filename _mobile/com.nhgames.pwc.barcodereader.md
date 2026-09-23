@@ -9,7 +9,7 @@ android:
   updated: 2019-02-20
   version: '2.0'
   reviews: 51
-  icon: com.nhgames.pwc.barcodereader.png
+  icon: com.nhgames.pwc.barcodereader.webp
   meta: removed
   verdict: wip
 

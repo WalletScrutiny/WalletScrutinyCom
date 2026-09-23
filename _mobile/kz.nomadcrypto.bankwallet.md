@@ -10,7 +10,7 @@ android:
   updated: 2021-09-26
   version: 0.2.1
   reviews: 6
-  icon: kz.nomadcrypto.bankwallet.png
+  icon: kz.nomadcrypto.bankwallet.webp
   meta: removed
   verdict: wip
 

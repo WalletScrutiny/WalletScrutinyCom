@@ -16,7 +16,7 @@ android:
   updated: 2023-12-14
   version: 5.12.1
   reviews: 5
-  icon: net.chiliz.broker.android.png
+  icon: net.chiliz.broker.android.webp
   meta: removed
   verdict: custodial
   developerName: Mediarex Enterprises Limited

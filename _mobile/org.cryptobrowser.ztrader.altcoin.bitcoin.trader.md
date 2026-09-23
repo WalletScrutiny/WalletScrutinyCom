@@ -9,7 +9,7 @@ android:
   released: 2021-06-28
   updated: 2021-06-29
   version: '1.0'
-  icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.jpg
+  icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.webp
   meta: removed
   verdict: wip
 

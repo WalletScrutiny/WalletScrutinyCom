@@ -12,7 +12,7 @@ android:
   released: 2019-12-04
   updated: 2020-04-14
   version: 1.1.1
-  icon: com.bispex.bispex.png
+  icon: com.bispex.bispex.webp
   meta: removed
   verdict: custodial
   developerName: bispex

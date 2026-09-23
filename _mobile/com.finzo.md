@@ -13,7 +13,7 @@ android:
   updated: 2021-01-25
   version: '1.3'
   reviews: 66
-  icon: com.finzo.png
+  icon: com.finzo.webp
   meta: removed
   verdict: custodial
 

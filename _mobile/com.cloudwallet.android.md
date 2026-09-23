@@ -13,7 +13,7 @@ android:
   updated: 2020-01-22
   version: 2.0.16
   reviews: 176
-  icon: com.cloudwallet.android.png
+  icon: com.cloudwallet.android.webp
   meta: removed
   verdict: wip
   developerName: Cloud Technology & Investments

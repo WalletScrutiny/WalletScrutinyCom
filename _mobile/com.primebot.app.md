@@ -10,7 +10,7 @@ android:
   released: 2022-05-27
   updated: 2022-05-27
   version: 4.0.0
-  icon: com.primebot.app.png
+  icon: com.primebot.app.webp
   meta: removed
   verdict: wip
   developerName: GainBOT

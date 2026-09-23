@@ -9,7 +9,7 @@ android:
   released: 2022-03-25
   updated: 2022-04-05
   version: 1.0.3
-  icon: com.bonsystem.chain.eliac.png
+  icon: com.bonsystem.chain.eliac.webp
   meta: removed
   verdict: wip
   developerName: c&hsoft

@@ -13,7 +13,7 @@ android:
   updated: 2016-08-17
   version: 1.8.0
   reviews: 10
-  icon: com.anxbtc.android.png
+  icon: com.anxbtc.android.webp
   meta: removed
   verdict: wip
   developerName: ANX

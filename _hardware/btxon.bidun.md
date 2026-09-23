@@ -20,7 +20,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: btxon.bidun.png
+icon: btxon.bidun.webp
 bugbounty: 
 meta: ok
 verdict: vapor

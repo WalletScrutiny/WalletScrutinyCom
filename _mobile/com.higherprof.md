@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-11-12
   version: '1.0'
-  icon: com.higherprof.jpg
+  icon: com.higherprof.webp
   meta: removed
   verdict: wip
   developerName: R. MASHA SOLUTIONS

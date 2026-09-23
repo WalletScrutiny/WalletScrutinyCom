@@ -9,7 +9,7 @@ android:
   released: 2020-04-14
   updated: 2020-04-14
   version: '1.0'
-  icon: com.mineblockcraftapp.png
+  icon: com.mineblockcraftapp.webp
   meta: removed
   verdict: wip
   developerName: Master CuiMian

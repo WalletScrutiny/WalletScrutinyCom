@@ -13,7 +13,7 @@ android:
   updated: 2021-08-16
   version: 2.1.4
   reviews: 4
-  icon: com.bw.google.jpg
+  icon: com.bw.google.webp
   meta: removed
   verdict: wip
   developerName: bwexchange

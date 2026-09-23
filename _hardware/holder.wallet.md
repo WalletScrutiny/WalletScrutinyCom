@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: holder.wallet.png
+icon: holder.wallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

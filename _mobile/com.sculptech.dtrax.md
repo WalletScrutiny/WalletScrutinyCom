@@ -11,7 +11,7 @@ android:
   updated: 2020-05-24
   version: 1.2.2
   reviews: 7
-  icon: com.sculptech.dtrax.png
+  icon: com.sculptech.dtrax.webp
   meta: removed
   verdict: wip
 

@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2023-02-02
   version: 2.23.7
-  icon: com.xcritical.trading.png
+  icon: com.xcritical.trading.webp
   meta: obsolete
   verdict: custodial
   developerName: Xcritical Soft LTD
@@ -26,7 +26,7 @@ iphone:
   updated: 2023-01-23
   version: 2.23.6
   reviews: 0
-  icon: com.xcritical.trading.jpg
+  icon: com.xcritical.trading.webp
   meta: obsolete
   verdict: custodial
   developerName: XCRITICAL SOFT LTD EOOD

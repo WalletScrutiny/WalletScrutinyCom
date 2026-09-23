@@ -10,7 +10,7 @@ android:
   released: 2020-04-08
   updated: 2020-06-17
   version: '1.6'
-  icon: kr.co.gbckorea.map.png
+  icon: kr.co.gbckorea.map.webp
   meta: removed
   verdict: wip
 

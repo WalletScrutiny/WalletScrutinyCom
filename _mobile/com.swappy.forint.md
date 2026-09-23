@@ -10,7 +10,7 @@ android:
   released: 2022-05-16
   updated: 2023-04-12
   version: 0.0.20
-  icon: com.swappy.forint.png
+  icon: com.swappy.forint.webp
   meta: removed
   verdict: wip
   developerName: Forint Finance ltd

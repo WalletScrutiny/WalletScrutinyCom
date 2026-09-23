@@ -15,7 +15,7 @@ android:
   released: 2020-12-02
   updated: 2020-12-02
   version: '1.0'
-  icon: com.FrancExchange.png
+  icon: com.FrancExchange.webp
   meta: removed
   verdict: wip
   developerName: Franc IT Solutions
@@ -26,7 +26,7 @@ iphone:
   updated: 2020-12-10
   version: '1.0'
   reviews: 1
-  icon: com.FrancExchange.jpg
+  icon: com.FrancExchange.webp
   meta: removed
   verdict: wip
 

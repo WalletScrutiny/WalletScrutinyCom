@@ -9,7 +9,7 @@ android:
   released: 2022-03-01
   updated: 2022-07-12
   version: 1.0.8
-  icon: com.fido.wallet.png
+  icon: com.fido.wallet.webp
   meta: removed
   verdict: wip
 

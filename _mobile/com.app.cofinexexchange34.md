@@ -20,7 +20,7 @@ android:
   released: 2021-02-12
   updated: 2022-12-08
   version: '3.0'
-  icon: com.app.cofinexexchange34.png
+  icon: com.app.cofinexexchange34.webp
   meta: removed
   verdict: custodial
   developerName: Cofinex Inc Ltd.
@@ -30,7 +30,7 @@ iphone:
   released: 2021-08-12
   updated: 2021-08-12
   version: '1.0'
-  icon: com.cofinex.app.jpg
+  icon: com.cofinex.app.webp
   meta: removed
   verdict: custodial
 

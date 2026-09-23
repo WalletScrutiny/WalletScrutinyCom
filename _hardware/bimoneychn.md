@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: bimoneychn.png
+icon: bimoneychn.webp
 bugbounty: 
 meta: ok
 verdict: vapor

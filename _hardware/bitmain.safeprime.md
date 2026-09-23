@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: bitmain.safeprime.png
+icon: bitmain.safeprime.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey

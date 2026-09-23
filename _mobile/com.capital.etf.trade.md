@@ -15,7 +15,7 @@ android:
   updated: 2026-09-18
   version: 3.51.0
   reviews: 7
-  icon: com.capital.etf.trade.png
+  icon: com.capital.etf.trade.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com (UK) Limited

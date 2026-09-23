@@ -13,7 +13,7 @@ android:
   updated: 2020-06-05
   version: 1.0.6.7
   reviews: 5
-  icon: io.coinhe.png
+  icon: io.coinhe.webp
   meta: removed
   verdict: wip
   developerName: CHT Innovative Technology PTE.  LTD

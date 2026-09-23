@@ -13,7 +13,7 @@ android:
   released: 2019-06-05
   updated: 2022-03-29
   version: '5.2'
-  icon: crypto.base.baseexchange.png
+  icon: crypto.base.baseexchange.webp
   meta: removed
   verdict: custodial
   developerName: TechPay

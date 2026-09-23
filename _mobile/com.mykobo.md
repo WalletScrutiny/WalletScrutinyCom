@@ -10,7 +10,7 @@ android:
   released: 2020-10-29
   updated: 2023-07-04
   version: 2.0.15
-  icon: com.mykobo.png
+  icon: com.mykobo.webp
   meta: removed
   verdict: wip
   developerName: MyKobo

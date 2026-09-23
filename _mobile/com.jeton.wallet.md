@@ -18,7 +18,7 @@ android:
   updated: 2024-09-04
   version: 3.7.3
   reviews: 20
-  icon: com.jeton.wallet.png
+  icon: com.jeton.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Jeton Wallet
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-04-22
   version: 3.9.2
   reviews: 44
-  icon: jetonwallet.JetonWallet.jpg
+  icon: jetonwallet.JetonWallet.webp
   meta: removed
   verdict: custodial
   developerName: LA ORANGE LIMITED

@@ -19,7 +19,7 @@ android:
   updated: 2021-10-29
   version: 2.8.7
   reviews: 245
-  icon: com.bitnovo.app.png
+  icon: com.bitnovo.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-10-30
   version: 2.8.7
   reviews: 5
-  icon: com.bitnovo.app.jpg
+  icon: com.bitnovo.app.webp
   meta: removed
   verdict: custodial
 

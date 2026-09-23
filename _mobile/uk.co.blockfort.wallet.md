@@ -10,7 +10,7 @@ android:
   released: 2021-05-24
   updated: 2023-05-05
   version: 1.1.5
-  icon: uk.co.blockfort.wallet.jpg
+  icon: uk.co.blockfort.wallet.webp
   meta: removed
   verdict: wip
   developerName: Blockfort

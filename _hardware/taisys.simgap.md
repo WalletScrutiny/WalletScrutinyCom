@@ -17,7 +17,7 @@ shop:
 country: TW
 price: 
 repository: 
-icon: taisys.simgap.png
+icon: taisys.simgap.webp
 bugbounty: 
 meta: ok
 verdict: vapor

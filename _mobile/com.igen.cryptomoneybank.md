@@ -9,7 +9,7 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: 1.0.0
-  icon: com.igen.cryptomoneybank.png
+  icon: com.igen.cryptomoneybank.webp
   meta: removed
   verdict: wip
   developerName: CMB BLOCKCHAIN

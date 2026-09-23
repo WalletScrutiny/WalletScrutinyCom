@@ -13,7 +13,7 @@ android:
   released: 2021-12-21
   updated: 2022-10-20
   version: 1.2.10
-  icon: com.txtba.app.png
+  icon: com.txtba.app.webp
   meta: removed
   verdict: wip
   developerName: Txtba

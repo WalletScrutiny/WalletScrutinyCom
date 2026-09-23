@@ -10,7 +10,7 @@ android:
   released: 2023-01-26
   updated: 2023-01-26
   version: '1.0'
-  icon: com.solidimobileapp4.png
+  icon: com.solidimobileapp4.webp
   meta: removed
   verdict: wip
   developerName: Solidi Crypto Exchange

@@ -25,7 +25,7 @@ android:
   updated: 2026-02-06
   version: 3.13.0
   reviews: 4
-  icon: com.swissquote.mobiletrader.android.wl.acm.png
+  icon: com.swissquote.mobiletrader.android.wl.acm.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote Mobile
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-02-09
   version: 3.45.0
   reviews: 694
-  icon: com.acm.Mobile-Trader.jpg
+  icon: com.acm.Mobile-Trader.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote

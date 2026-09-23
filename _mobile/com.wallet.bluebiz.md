@@ -10,7 +10,7 @@ android:
   released: 2019-10-30
   updated: 2020-04-05
   version: 6.3.12
-  icon: com.wallet.bluebiz.png
+  icon: com.wallet.bluebiz.webp
   meta: removed
   verdict: wip
   developerName: OpenSecu

@@ -10,7 +10,7 @@ android:
   released: 2021-08-24
   updated: 2021-08-24
   version: 4.7.10
-  icon: pay.albrex.io.png
+  icon: pay.albrex.io.webp
   meta: removed
   verdict: wip
 

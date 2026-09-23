@@ -21,7 +21,7 @@ android:
   updated: 2026-09-18
   version: VARY
   reviews: 350
-  icon: com.riflexo.tradeinterceptormobile.png
+  icon: com.riflexo.tradeinterceptormobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: ThinkMarkets
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-15
   version: 11.4.0
   reviews: 791
-  icon: com.riflexo.TradeInterceptor.jpg
+  icon: com.riflexo.TradeInterceptor.webp
   meta: ok
   verdict: nosendreceive
   developerName: TF GLOBAL MARKETS (UK) LIMITED

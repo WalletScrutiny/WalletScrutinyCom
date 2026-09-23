@@ -13,7 +13,7 @@ android:
   released: 2021-07-22
   updated: 2024-12-17
   version: 2.0.0
-  icon: com.KeepserGroup.Keepser.png
+  icon: com.KeepserGroup.Keepser.webp
   meta: removed
   verdict: wip
   developerName: Freemindtronic SL

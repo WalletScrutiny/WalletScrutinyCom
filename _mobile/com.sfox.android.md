@@ -20,7 +20,7 @@ android:
   updated: 2024-11-15
   version: 1.3.0
   reviews: 3
-  icon: com.sfox.android.png
+  icon: com.sfox.android.webp
   meta: removed
   verdict: custodial
   developerName: SFOX Inc.
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-24
   version: 1.16.8
   reviews: 15
-  icon: com.sfox.ios.jpg
+  icon: com.sfox.ios.webp
   meta: ok
   verdict: custodial
   developerName: SFOX Inc

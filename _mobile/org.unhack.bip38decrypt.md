@@ -10,7 +10,7 @@ android:
   released: 2016-06-17
   updated: 2016-12-26
   version: 2.1.8
-  icon: org.unhack.bip38decrypt.png
+  icon: org.unhack.bip38decrypt.webp
   meta: removed
   verdict: wip
   developerName: Mike Butrimov

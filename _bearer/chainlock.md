@@ -17,7 +17,7 @@ shop: https://www.cardwallet.com/en/product/card-wallet-bitcoin/
 country: 
 price: 
 repository: 
-icon: chainlock.png
+icon: chainlock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

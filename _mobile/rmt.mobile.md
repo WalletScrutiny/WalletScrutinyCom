@@ -9,7 +9,7 @@ android:
   released: 2020-05-19
   updated: 2020-05-19
   version: 1.0.3
-  icon: rmt.mobile.png
+  icon: rmt.mobile.webp
   meta: removed
   verdict: wip
   developerName: RMTKOR

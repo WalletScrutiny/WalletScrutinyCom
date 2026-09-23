@@ -20,7 +20,7 @@ android:
   updated: 2026-08-03
   version: 2.5.6
   reviews: 26
-  icon: com.coincred.android.png
+  icon: com.coincred.android.webp
   meta: ok
   verdict: custodial
   developerName: CoinCRED
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-12-11
   version: '3.4'
   reviews: 118
-  icon: com.coincred.jpg
+  icon: com.coincred.webp
   meta: removed
   verdict: custodial
   developerName: CoinCRED

@@ -13,7 +13,7 @@ android:
   updated: 2021-07-07
   version: '1.0'
   reviews: 3
-  icon: com.cryptojournal.crypto.com.buy.bitcoin.now.png
+  icon: com.cryptojournal.crypto.com.buy.bitcoin.now.webp
   meta: removed
   verdict: fake
 

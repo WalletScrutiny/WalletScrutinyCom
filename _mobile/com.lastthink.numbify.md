@@ -10,7 +10,7 @@ android:
   released: 2018-01-24
   updated: 2018-01-30
   version: '1.12'
-  icon: com.lastthink.numbify.png
+  icon: com.lastthink.numbify.webp
   meta: removed
   verdict: wip
   developerName: Addevice

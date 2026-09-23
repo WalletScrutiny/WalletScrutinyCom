@@ -10,7 +10,7 @@ android:
   released: 2022-04-12
   updated: 2022-07-30
   version: 1.1.4
-  icon: com.firstWallet.png
+  icon: com.firstWallet.webp
   meta: removed
   verdict: wip
   developerName: First Wallet Lab

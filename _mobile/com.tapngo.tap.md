@@ -21,7 +21,7 @@ android:
   updated: 2026-09-15
   version: 3.8.8
   reviews: 303
-  icon: com.tapngo.tap.png
+  icon: com.tapngo.tap.webp
   meta: ok
   verdict: custodial
   developerName: Tap Global Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-16
   version: 3.8.8
   reviews: 1923
-  icon: com.TapGlobal.tap.jpg
+  icon: com.TapGlobal.tap.webp
   meta: ok
   verdict: custodial
   developerName: Tap Global Limited

@@ -17,7 +17,7 @@ shop:
 country: IL
 price: 
 repository: 
-icon: gk8.coldvault.png
+icon: gk8.coldvault.webp
 bugbounty: 
 meta: ok
 verdict: wip

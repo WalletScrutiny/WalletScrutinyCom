@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2019-08-07
   version: 1.0.5
-  icon: io.coiny.pro.png
+  icon: io.coiny.pro.webp
   meta: removed
   verdict: wip
   developerName: Coiny

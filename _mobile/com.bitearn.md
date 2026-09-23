@@ -10,7 +10,7 @@ android:
   released: 2022-07-25
   updated: 2022-09-01
   version: 1.0.17
-  icon: com.bitearn.png
+  icon: com.bitearn.webp
   meta: removed
   verdict: wip
   developerName: BITEARN

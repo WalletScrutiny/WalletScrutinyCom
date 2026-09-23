@@ -12,7 +12,7 @@ android:
   released: 2019-08-21
   updated: 2019-09-11
   version: 2.2.1
-  icon: com.cryptomaniac.cmrobot.png
+  icon: com.cryptomaniac.cmrobot.webp
   meta: removed
   verdict: wip
   developerName: PT. Eunomia Internasional Grup

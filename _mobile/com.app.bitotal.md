@@ -10,7 +10,7 @@ android:
   released: 2021-11-27
   updated: 2021-11-27
   version: '1.0'
-  icon: com.app.bitotal.png
+  icon: com.app.bitotal.webp
   meta: removed
   verdict: wip
   developerName: RAFVARONE LTD

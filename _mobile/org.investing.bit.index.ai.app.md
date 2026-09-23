@@ -9,7 +9,7 @@ android:
   released: 2023-01-24
   updated: 2023-01-24
   version: '1.0'
-  icon: org.investing.bit.index.ai.app.png
+  icon: org.investing.bit.index.ai.app.webp
   meta: removed
   verdict: wip
   developerName: ImmediateEdge™ OfficialApp

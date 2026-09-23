@@ -24,7 +24,7 @@ android:
   updated: 2026-09-18
   version: 4.46.2
   reviews: 67
-  icon: com.primexbt.trade.png
+  icon: com.primexbt.trade.webp
   meta: ok
   verdict: custodial
   developerName: Prime Technology LTD
@@ -36,7 +36,7 @@ iphone:
   updated: 2024-10-03
   version: 4.7.1
   reviews: 220
-  icon: primexbtcom.jpg
+  icon: primexbtcom.webp
   meta: removed
   verdict: custodial
   developerName: Prime XBT Trading Services Ltd.

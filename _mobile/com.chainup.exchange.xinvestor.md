@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-07-12
   version: 5.4.0_push_v2
-  icon: com.chainup.exchange.xinvestor.png
+  icon: com.chainup.exchange.xinvestor.webp
   meta: removed
   verdict: wip
   developerName: xINVESTOR

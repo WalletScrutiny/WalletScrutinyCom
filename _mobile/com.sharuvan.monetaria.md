@@ -10,7 +10,7 @@ android:
   released: 2021-12-26
   updated: 2021-12-23
   version: 1.0.2
-  icon: com.sharuvan.monetaria.png
+  icon: com.sharuvan.monetaria.webp
   meta: removed
   verdict: wip
   developerName: Ahmed Sharuvan

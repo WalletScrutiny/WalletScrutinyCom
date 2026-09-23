@@ -10,7 +10,7 @@ android:
   released: 2020-07-13
   updated: 2020-09-20
   version: '1.1'
-  icon: com.upaybusiness.png
+  icon: com.upaybusiness.webp
   meta: removed
   verdict: wip
   developerName: The Value Group Inc.

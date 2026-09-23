@@ -10,7 +10,7 @@ android:
   released: 2021-09-01
   updated: 2021-09-24
   version: 1.0.0
-  icon: cv.companion.png
+  icon: cv.companion.webp
   meta: removed
   verdict: wip
   developerName: Yanssie HK Limited

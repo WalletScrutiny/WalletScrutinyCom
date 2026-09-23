@@ -10,7 +10,7 @@ android:
   released: 2020-02-14
   updated: 2020-04-27
   version: 1.3.0
-  icon: io.space.tkey.jpg
+  icon: io.space.tkey.webp
   meta: removed
   verdict: wip
   developerName: TKEY Developers

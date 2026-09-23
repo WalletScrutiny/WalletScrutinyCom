@@ -9,7 +9,7 @@ android:
   released: 2021-09-26
   updated: 2022-03-05
   version: 2.0.0
-  icon: com.tropiky.png
+  icon: com.tropiky.webp
   meta: removed
   verdict: wip
 

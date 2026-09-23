@@ -10,7 +10,7 @@ android:
   released: 2021-05-17
   updated: 2021-06-02
   version: 1.0.2
-  icon: com.centerprime.madi.png
+  icon: com.centerprime.madi.webp
   meta: removed
   verdict: wip
   developerName: CenterPrime Ltd

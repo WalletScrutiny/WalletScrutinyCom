@@ -9,7 +9,7 @@ android:
   released: 2021-01-29
   updated: 2021-01-29
   version: 1.0.0
-  icon: com.iccbank.wallet.png
+  icon: com.iccbank.wallet.webp
   meta: removed
   verdict: wip
   developerName: DSSJDEV

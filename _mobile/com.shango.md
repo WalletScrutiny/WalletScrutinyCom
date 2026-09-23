@@ -16,7 +16,7 @@ android:
   users: 1000
   updated: 2019-06-01
   version: Varies with device
-  icon: com.shango.png
+  icon: com.shango.webp
   meta: removed
   verdict: nosource
 

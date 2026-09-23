@@ -10,7 +10,7 @@ android:
   released: 2018-06-07
   updated: 2020-07-16
   version: 1.27.2
-  icon: com.liquiditynetwork.wallet.png
+  icon: com.liquiditynetwork.wallet.webp
   meta: removed
   verdict: wip
 

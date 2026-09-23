@@ -14,7 +14,7 @@ android:
   updated: 2021-04-20
   version: 1.1.1
   reviews: 311
-  icon: com.btckorea.bithumba.png
+  icon: com.btckorea.bithumba.webp
   meta: removed
   verdict: custodial
 

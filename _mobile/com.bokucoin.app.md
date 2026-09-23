@@ -12,7 +12,7 @@ android:
   released: 2020-10-09
   updated: 2020-10-10
   version: '1.5'
-  icon: com.bokucoin.app.png
+  icon: com.bokucoin.app.webp
   meta: removed
   verdict: wip
   developerName: Bokucoin

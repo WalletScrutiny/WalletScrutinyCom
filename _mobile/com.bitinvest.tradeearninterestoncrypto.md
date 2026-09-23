@@ -9,7 +9,7 @@ android:
   released: 2021-10-25
   updated: 2021-10-25
   version: '9.03'
-  icon: com.bitinvest.tradeearninterestoncrypto.jpg
+  icon: com.bitinvest.tradeearninterestoncrypto.webp
   meta: removed
   verdict: wip
 

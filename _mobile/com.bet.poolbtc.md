@@ -9,7 +9,7 @@ android:
   released: 2020-05-07
   updated: 2020-05-07
   version: '1.0'
-  icon: com.bet.poolbtc.png
+  icon: com.bet.poolbtc.webp
   meta: removed
   verdict: wip
   developerName: POOLBTC CRYPTO LLC

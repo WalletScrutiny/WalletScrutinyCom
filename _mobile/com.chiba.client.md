@@ -12,7 +12,7 @@ android:
   released: 2018-04-19
   updated: 2018-05-08
   version: 1.0.11
-  icon: com.chiba.client.png
+  icon: com.chiba.client.webp
   meta: removed
   verdict: wip
   developerName: Chiba Markets

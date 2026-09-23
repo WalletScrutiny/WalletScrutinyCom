@@ -10,7 +10,7 @@ android:
   released: 2021-09-24
   updated: 2025-02-20
   version: '1.2'
-  icon: com.mine.sac_vip.png
+  icon: com.mine.sac_vip.webp
   meta: removed
   verdict: wip
   developerName: War of the Gods

@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-11-29
   version: 2.6.7
-  icon: com.marswap.io.png
+  icon: com.marswap.io.webp
   meta: removed
   verdict: wip
   developerName: META MARSWAP

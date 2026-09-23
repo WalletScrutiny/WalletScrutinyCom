@@ -10,7 +10,7 @@ android:
   released: 2020-10-16
   updated: 2020-10-16
   version: 1.0.0
-  icon: com.emoney_365.png
+  icon: com.emoney_365.webp
   meta: removed
   verdict: wip
   developerName: Servi Premium ®

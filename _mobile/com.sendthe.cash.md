@@ -10,7 +10,7 @@ android:
   released: 2022-08-17
   updated: 2023-01-11
   version: 2.0.0
-  icon: com.sendthe.cash.png
+  icon: com.sendthe.cash.webp
   meta: removed
   verdict: wip
   developerName: SendThe.Cash

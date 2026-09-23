@@ -20,7 +20,7 @@ android:
   updated: 2021-02-20
   version: 1.5.5
   reviews: 3
-  icon: org.coinid.vault.png
+  icon: org.coinid.vault.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-02-21
   version: 1.5.6
   reviews: 22
-  icon: org.coinid.jpg
+  icon: org.coinid.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group

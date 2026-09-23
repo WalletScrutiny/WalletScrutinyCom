@@ -16,7 +16,7 @@ android:
   released: 2020-08-26
   updated: 2022-04-21
   version: 2.15.2
-  icon: com.boquanhash.dotwallet.png
+  icon: com.boquanhash.dotwallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2023-05-23
   version: 2.1.6.42
   reviews: 3
-  icon: com.boquanhash.dotwallet.jpg
+  icon: com.boquanhash.dotwallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Fuzhou Boquan Network Science & Technology Co., Ltd.

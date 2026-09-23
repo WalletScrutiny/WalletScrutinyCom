@@ -9,7 +9,7 @@ android:
   released: 2021-12-29
   updated: 2021-12-29
   version: 1.0.0
-  icon: finance.orderbook.trade.png
+  icon: finance.orderbook.trade.webp
   meta: removed
   verdict: wip
   developerName: Plus65 Interactive

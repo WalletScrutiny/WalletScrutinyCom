@@ -9,7 +9,7 @@ android:
   released: 2021-04-14
   updated: 2021-04-14
   version: 6.5502.321
-  icon: com.wire.wirewalletapp.jpg
+  icon: com.wire.wirewalletapp.webp
   meta: removed
   verdict: wip
 

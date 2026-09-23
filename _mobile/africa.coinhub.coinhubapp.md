@@ -12,7 +12,7 @@ android:
   released: 2021-11-21
   updated: 2022-01-25
   version: '1.3'
-  icon: africa.coinhub.coinhubapp.png
+  icon: africa.coinhub.coinhubapp.webp
   meta: removed
   verdict: wip
   developerName: Coinhub Africa Developer

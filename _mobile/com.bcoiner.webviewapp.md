@@ -14,7 +14,7 @@ android:
   updated: 2018-01-05
   version: 1.3.2
   reviews: 1251
-  icon: com.bcoiner.webviewapp.png
+  icon: com.bcoiner.webviewapp.webp
   meta: removed
   verdict: nosource
 

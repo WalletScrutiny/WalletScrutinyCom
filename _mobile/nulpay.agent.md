@@ -10,7 +10,7 @@ android:
   released: 2022-09-02
   updated: 2022-09-02
   version: '1'
-  icon: nulpay.agent.jpg
+  icon: nulpay.agent.webp
   meta: removed
   verdict: wip
   developerName: Nulpay

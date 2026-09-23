@@ -10,7 +10,7 @@ android:
   released: 2021-10-20
   updated: 2021-12-28
   version: 1.9.4
-  icon: uni.UNI3DBC1A7.png
+  icon: uni.UNI3DBC1A7.webp
   meta: removed
   verdict: wip
   developerName: Finance Future Factory

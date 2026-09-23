@@ -9,7 +9,7 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: com.wCryptoExchanger_14131534.jpg
+  icon: com.wCryptoExchanger_14131534.webp
   meta: removed
   verdict: wip
   developerName: DEVILS

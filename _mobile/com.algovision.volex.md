@@ -10,7 +10,7 @@ android:
   released: 2021-10-04
   updated: 2022-02-02
   version: 1.2.2
-  icon: com.algovision.volex.png
+  icon: com.algovision.volex.webp
   meta: removed
   verdict: wip
 

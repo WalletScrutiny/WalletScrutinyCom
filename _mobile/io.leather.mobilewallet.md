@@ -19,7 +19,7 @@ android:
   updated: 2026-07-13
   version: 2.111.0
   reviews: 2
-  icon: io.leather.mobilewallet.png
+  icon: io.leather.mobilewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Leather Wallet LLC
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-07-16
   version: 2.111.0
   reviews: 8
-  icon: io.leather.mobilewallet.jpg
+  icon: io.leather.mobilewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Leather Wallet LLC

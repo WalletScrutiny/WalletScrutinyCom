@@ -10,7 +10,7 @@ android:
   released: 2021-08-26
   updated: 2021-09-14
   version: '2'
-  icon: com.profx.mining.png
+  icon: com.profx.mining.webp
   meta: removed
   verdict: wip
   developerName: classicdev

@@ -25,7 +25,7 @@ android:
   updated: 2026-09-15
   version: 2026.38.1
   reviews: 256
-  icon: com.robinhood.gateway.png
+  icon: com.robinhood.gateway.webp
   meta: ok
   verdict: nosource
   developerName: Robinhood
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-09-16
   version: 2026.38.1
   reviews: 6764
-  icon: com.robinhood.release.Gateway.jpg
+  icon: com.robinhood.release.Gateway.webp
   meta: ok
   verdict: nosource
   developerName: Robinhood Markets, Inc.

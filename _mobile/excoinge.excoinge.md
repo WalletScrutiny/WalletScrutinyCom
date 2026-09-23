@@ -10,7 +10,7 @@ android:
   released: 2017-12-04
   updated: 2018-05-13
   version: '1.020180512'
-  icon: excoinge.excoinge.png
+  icon: excoinge.excoinge.webp
   meta: removed
   verdict: wip
   developerName: Excoinge Ecommerce

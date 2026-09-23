@@ -9,7 +9,7 @@ android:
   released: 2021-06-27
   updated: 2021-06-28
   version: '1.0'
-  icon: net.cryptowallets.bitcoin.invest.india.png
+  icon: net.cryptowallets.bitcoin.invest.india.webp
   meta: removed
   verdict: wip
 

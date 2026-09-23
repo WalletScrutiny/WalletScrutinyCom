@@ -9,7 +9,7 @@ android:
   released: 2021-12-08
   updated: 2022-02-25
   version: 1.0.0.2
-  icon: com.whalecomp.whalecomp.png
+  icon: com.whalecomp.whalecomp.webp
   meta: removed
   verdict: wip
   developerName: MetaEarth

@@ -21,7 +21,7 @@ shop: https://satochip.io/product/satodime-original#deadLink
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool
-icon: satodime.png
+icon: satodime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

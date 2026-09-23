@@ -9,7 +9,7 @@ android:
   released: 2021-02-18
   updated: 2022-01-07
   version: 1.0.5
-  icon: com.timebit.exchange.png
+  icon: com.timebit.exchange.webp
   meta: removed
   verdict: wip
   developerName: Timebit pte. Ltd.

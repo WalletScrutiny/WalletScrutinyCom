@@ -10,7 +10,7 @@ android:
   released: 2022-03-08
   updated: 2022-03-18
   version: 1.0.0
-  icon: com.bitmetavest.crypto_investment.png
+  icon: com.bitmetavest.crypto_investment.webp
   meta: removed
   verdict: wip
   developerName: ALB Mucia Tech

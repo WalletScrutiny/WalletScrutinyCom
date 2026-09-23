@@ -15,7 +15,7 @@ android:
   updated: 2021-08-20
   version: '2.2'
   reviews: 18
-  icon: com.orbitnetwork.png
+  icon: com.orbitnetwork.webp
   meta: removed
   verdict: nosendreceive
   developerName: Orbit Network Limited
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-08-29
   version: '2.0'
   reviews: 105
-  icon: com.app.orbitnetwork.jpg
+  icon: com.app.orbitnetwork.webp
   meta: removed
   verdict: nosendreceive
   developerName: Orbit Network Inc

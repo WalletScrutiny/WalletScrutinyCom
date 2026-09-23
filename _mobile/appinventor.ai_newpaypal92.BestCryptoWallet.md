@@ -9,7 +9,7 @@ android:
   released: 2021-12-28
   updated: 2021-12-28
   version: '1.0'
-  icon: appinventor.ai_newpaypal92.BestCryptoWallet.jpg
+  icon: appinventor.ai_newpaypal92.BestCryptoWallet.webp
   meta: removed
   verdict: wip
   developerName: East Analytica

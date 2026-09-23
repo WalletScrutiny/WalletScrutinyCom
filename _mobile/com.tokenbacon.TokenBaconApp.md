@@ -10,7 +10,7 @@ android:
   released: 2019-10-07
   updated: 2020-07-29
   version: 0.8.6.3
-  icon: com.tokenbacon.TokenBaconApp.jpg
+  icon: com.tokenbacon.TokenBaconApp.webp
   meta: removed
   verdict: wip
   developerName: TokenBacon

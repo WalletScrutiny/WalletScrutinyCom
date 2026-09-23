@@ -10,7 +10,7 @@ android:
   released: 2021-10-31
   updated: 2021-10-31
   version: 2.0.1
-  icon: com.bankbeg.png
+  icon: com.bankbeg.webp
   meta: removed
   verdict: wip
   developerName: Opzop MarkPlace

@@ -10,7 +10,7 @@ android:
   released: 2018-05-27
   updated: 2018-12-27
   version: 1.0.7.1
-  icon: com.pentasecurity.pallet.png
+  icon: com.pentasecurity.pallet.webp
   meta: removed
   verdict: wip
 

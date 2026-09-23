@@ -29,7 +29,7 @@ android:
   updated: 2026-08-24
   version: 2.4.1
   reviews: 3
-  icon: to.bitkit.png
+  icon: to.bitkit.webp
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
   meta: ok
   verdict: sourceavailable
@@ -43,7 +43,7 @@ iphone:
   updated: 2026-08-31
   version: 2.4.1
   reviews: 10
-  icon: to.bitkit.jpg
+  icon: to.bitkit.webp
   meta: ok
   verdict: sourceavailable
   developerName: Synonym Software Ltd

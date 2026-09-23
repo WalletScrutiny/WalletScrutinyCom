@@ -16,7 +16,7 @@ android:
   updated: 2026-09-09
   version: 11.17.5
   reviews: 9
-  icon: com.korbit.exchange.png
+  icon: com.korbit.exchange.webp
   meta: ok
   verdict: custodial
   developerName: 디지털엑스
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-17
   version: 11.17.5
   reviews: 634
-  icon: com.korbit.exchange.jpg
+  icon: com.korbit.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Digital X Co., Ltd.

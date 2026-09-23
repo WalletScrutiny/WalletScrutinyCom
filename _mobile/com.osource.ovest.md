@@ -10,7 +10,7 @@ android:
   released: 2021-09-04
   updated: 2022-03-04
   version: 1.0.7
-  icon: com.osource.ovest.png
+  icon: com.osource.ovest.webp
   meta: removed
   verdict: wip
   developerName: OVest

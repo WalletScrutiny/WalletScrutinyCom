@@ -9,7 +9,7 @@ android:
   released: 2021-06-20
   updated: 2021-06-20
   version: '1.0'
-  icon: com.balletcrypto.bitcoin.invest.uk.jpg
+  icon: com.balletcrypto.bitcoin.invest.uk.webp
   meta: removed
   verdict: wip
 

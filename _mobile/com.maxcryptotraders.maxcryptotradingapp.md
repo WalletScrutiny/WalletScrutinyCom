@@ -12,7 +12,7 @@ android:
   released: 2022-06-06
   updated: 2022-06-06
   version: 1.0.0
-  icon: com.maxcryptotraders.maxcryptotradingapp.png
+  icon: com.maxcryptotraders.maxcryptotradingapp.webp
   meta: removed
   verdict: wip
   developerName: Max Crypto Traders

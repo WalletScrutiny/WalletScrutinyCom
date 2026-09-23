@@ -9,7 +9,7 @@ android:
   released: 2022-04-14
   updated: 2022-04-15
   version: '1.0'
-  icon: co.eliex.andrapp.png
+  icon: co.eliex.andrapp.webp
   meta: removed
   verdict: wip
 

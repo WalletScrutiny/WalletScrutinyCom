@@ -9,7 +9,7 @@ android:
   released: 2021-07-18
   updated: 2021-11-03
   version: 1.0.0
-  icon: com.fynzon.jpg
+  icon: com.fynzon.webp
   meta: removed
   verdict: wip
   developerName: Virtual Block Innovations Pvt. Ltd.

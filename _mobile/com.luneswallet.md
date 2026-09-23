@@ -15,7 +15,7 @@ android:
   updated: 2018-12-06
   version: '2.1'
   reviews: 184
-  icon: com.luneswallet.png
+  icon: com.luneswallet.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/Lunes-platform/Wallet-mobile

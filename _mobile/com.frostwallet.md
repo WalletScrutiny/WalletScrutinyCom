@@ -18,7 +18,7 @@ android:
   updated: 2025-01-24
   version: 2.5.23
   reviews: 1
-  icon: com.frostwallet.png
+  icon: com.frostwallet.webp
   meta: removed
   verdict: nosource
   developerName: Trustpool
@@ -30,7 +30,7 @@ iphone:
   updated: 2025-01-24
   version: 2.5.23
   reviews: 1
-  icon: ru.trustpool.wallet.jpg
+  icon: ru.trustpool.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Trustpool DOO

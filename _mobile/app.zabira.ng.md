@@ -20,7 +20,7 @@ android:
   updated: 2024-05-07
   version: 1.0.28
   reviews: 15
-  icon: app.zabira.ng.png
+  icon: app.zabira.ng.webp
   meta: removed
   verdict: custodial
   developerName: Zabira
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-10-18
   version: 1.0.28.1
   reviews: 43
-  icon: app.zabira.ng.jpg
+  icon: app.zabira.ng.webp
   meta: removed
   verdict: custodial
   developerName: Zabira Technologies

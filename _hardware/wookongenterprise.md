@@ -20,7 +20,7 @@ shop: https://wooko.ng/en/enterprise#deadLink
 country: CH
 price: 
 repository: 
-icon: wookongenterprise.png
+icon: wookongenterprise.webp
 bugbounty: 
 meta: defunct
 verdict: wip

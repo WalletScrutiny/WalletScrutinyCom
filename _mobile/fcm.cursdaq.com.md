@@ -10,7 +10,7 @@ android:
   released: 2021-08-01
   updated: 2021-08-02
   version: '1.1'
-  icon: fcm.cursdaq.com.jpg
+  icon: fcm.cursdaq.com.webp
   meta: removed
   verdict: wip
   developerName: 나정식

@@ -11,7 +11,7 @@ android:
   updated: 2019-11-05
   version: 1.0.6
   reviews: 8
-  icon: io.leveragedapp.leveraged.png
+  icon: io.leveragedapp.leveraged.webp
   meta: removed
   verdict: wip
   developerName: Leverage Apps

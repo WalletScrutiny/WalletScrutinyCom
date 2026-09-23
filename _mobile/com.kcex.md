@@ -19,7 +19,7 @@ android:
   updated: 2026-03-16
   version: 2.1.0
   reviews: 350
-  icon: com.kcex.png
+  icon: com.kcex.webp
   meta: removed
   verdict: custodial
   developerName: KCEX
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-14
   version: 2.3.8
   reviews: 2858
-  icon: com.kcexfintech.kcex.jpg
+  icon: com.kcexfintech.kcex.webp
   meta: ok
   verdict: custodial
   developerName: KCEX Fintech Limited

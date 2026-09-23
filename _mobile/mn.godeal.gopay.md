@@ -10,7 +10,7 @@ android:
   released: 2018-02-10
   updated: 2019-01-20
   version: 2.0.0
-  icon: mn.godeal.gopay.png
+  icon: mn.godeal.gopay.webp
   meta: removed
   verdict: wip
   developerName: Disrupt LLC

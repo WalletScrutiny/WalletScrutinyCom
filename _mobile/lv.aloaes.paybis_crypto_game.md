@@ -9,7 +9,7 @@ android:
   released: 2022-06-01
   updated: 2022-06-01
   version: 1.0.0
-  icon: lv.aloaes.paybis_crypto_game.png
+  icon: lv.aloaes.paybis_crypto_game.webp
   meta: removed
   verdict: wip
 

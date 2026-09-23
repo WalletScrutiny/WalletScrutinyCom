@@ -11,7 +11,7 @@ android:
   released: 2024-12-20
   updated: 2025-03-11
   version: 1.0.3
-  icon: fi.wonder.labs.wallet.png
+  icon: fi.wonder.labs.wallet.webp
   meta: stale
   verdict: wip
   developerName: WF - Bitbuy

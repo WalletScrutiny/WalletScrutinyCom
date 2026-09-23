@@ -10,7 +10,7 @@ android:
   released: 2022-05-04
   updated: 2022-06-03
   version: 0.0.36
-  icon: com.newToken.hubcoin.png
+  icon: com.newToken.hubcoin.webp
   meta: removed
   verdict: wip
 

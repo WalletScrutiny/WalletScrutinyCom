@@ -11,7 +11,7 @@ android:
   updated: 2021-03-11
   version: 1.4.1
   reviews: 7
-  icon: com.dssj.currencytradinggoogle.png
+  icon: com.dssj.currencytradinggoogle.webp
   meta: removed
   verdict: wip
   developerName: DSSJDEV

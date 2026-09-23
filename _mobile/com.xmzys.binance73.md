@@ -13,7 +13,7 @@ android:
   released: 2021-07-03
   updated: 2021-07-03
   version: '2.0'
-  icon: com.xmzys.binance73.png
+  icon: com.xmzys.binance73.webp
   meta: removed
   verdict: fake
 

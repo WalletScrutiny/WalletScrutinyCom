@@ -31,7 +31,7 @@ android:
   updated: 2026-08-31
   version: 4.50.3
   reviews: 763
-  icon: co.edgesecure.app.png
+  icon: co.edgesecure.app.webp
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
   meta: ok
   verdict: sourceavailable
@@ -45,7 +45,7 @@ iphone:
   updated: 2026-09-01
   version: 4.50.3
   reviews: 3239
-  icon: co.edgesecure.app.jpg
+  icon: co.edgesecure.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Airbitz Inc

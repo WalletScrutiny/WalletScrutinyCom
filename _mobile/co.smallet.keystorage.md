@@ -10,7 +10,7 @@ android:
   released: 2018-07-03
   updated: 2024-03-15
   version: 0.9.1.45
-  icon: co.smallet.keystorage.png
+  icon: co.smallet.keystorage.webp
   meta: removed
   verdict: wip
   developerName: Smallet Network Inc

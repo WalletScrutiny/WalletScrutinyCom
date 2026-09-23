@@ -18,7 +18,7 @@ android:
   updated: 2024-04-06
   version: 0.1.7
   reviews: 4
-  icon: company.satoshipayments.png
+  icon: company.satoshipayments.webp
   meta: removed
   verdict: custodial
   developerName: Satoshi Payments

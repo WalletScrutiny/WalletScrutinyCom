@@ -24,7 +24,7 @@ android:
   updated: 2026-09-09
   version: 8.116.1
   reviews: 1409
-  icon: co.bitx.android.wallet.jpg
+  icon: co.bitx.android.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Luno Group Holdings Ltd
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-21
   version: 8.117.0
   reviews: 3688
-  icon: za.co.Bitx.jpg
+  icon: za.co.Bitx.webp
   meta: ok
   verdict: custodial
   developerName: Luno Pte Ltd

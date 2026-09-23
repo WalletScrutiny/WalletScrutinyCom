@@ -10,7 +10,7 @@ android:
   released: 2023-02-23
   updated: 2023-02-23
   version: 1.2.7
-  icon: com.orading.myapplication.png
+  icon: com.orading.myapplication.webp
   meta: removed
   verdict: wip
   developerName: Orading

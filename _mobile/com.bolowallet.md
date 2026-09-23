@@ -8,7 +8,7 @@ android:
   users: 100
   updated: 2019-12-12
   version: VARY
-  icon: com.bolowallet.png
+  icon: com.bolowallet.webp
   meta: removed
   verdict: wip
   developerName: BWallet Team

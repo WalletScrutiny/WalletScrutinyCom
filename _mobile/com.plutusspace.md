@@ -10,7 +10,7 @@ android:
   released: 2022-01-22
   updated: 2022-01-22
   version: '1.0'
-  icon: com.plutusspace.jpg
+  icon: com.plutusspace.webp
   meta: removed
   verdict: wip
   developerName: Plutus Space LLC

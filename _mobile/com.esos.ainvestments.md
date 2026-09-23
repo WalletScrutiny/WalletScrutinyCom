@@ -9,7 +9,7 @@ android:
   users: 10000
   updated: 2020-05-22
   version: 7.0.3(1)
-  icon: com.esos.ainvestments.png
+  icon: com.esos.ainvestments.webp
   meta: removed
   verdict: wip
   developerName: ESOS INTERNATIONAL LTD

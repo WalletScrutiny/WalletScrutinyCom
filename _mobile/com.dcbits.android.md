@@ -10,7 +10,7 @@ android:
   released: 2022-08-02
   updated: 2023-01-23
   version: '1.5'
-  icon: com.dcbits.android.png
+  icon: com.dcbits.android.webp
   meta: removed
   verdict: wip
   developerName: DcBits Exchange

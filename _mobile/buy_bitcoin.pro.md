@@ -12,7 +12,7 @@ android:
   released: 2018-12-09
   updated: 2020-05-19
   version: 1.0.9
-  icon: buy_bitcoin.pro.png
+  icon: buy_bitcoin.pro.webp
   meta: removed
   verdict: wip
   developerName: AndreyAKor

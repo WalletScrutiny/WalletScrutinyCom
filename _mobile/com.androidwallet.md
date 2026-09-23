@@ -14,7 +14,7 @@ android:
   updated: 2020-04-09
   version: 1.1.20
   reviews: 12
-  icon: com.androidwallet.png
+  icon: com.androidwallet.webp
   meta: removed
   verdict: nosource
   developerName: dCipher Alexandru Dirman

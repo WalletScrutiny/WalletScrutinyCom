@@ -10,7 +10,7 @@ android:
   released: 2022-01-14
   updated: 2022-01-19
   version: 1.2.2
-  icon: com.lpswallet.png
+  icon: com.lpswallet.webp
   meta: removed
   verdict: wip
 

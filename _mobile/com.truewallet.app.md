@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2025-12-20
   version: VARY
-  icon: com.truewallet.app.png
+  icon: com.truewallet.app.webp
   meta: removed
   verdict: wip
   developerName: INRX CONSENSUS LLP

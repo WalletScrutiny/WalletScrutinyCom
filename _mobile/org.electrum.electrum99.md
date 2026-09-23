@@ -8,7 +8,7 @@ android:
   users: 10
   updated: 2021-04-18
   version: 5.3.6
-  icon: org.electrum.electrum99.png
+  icon: org.electrum.electrum99.webp
   meta: removed
   verdict: wip
 

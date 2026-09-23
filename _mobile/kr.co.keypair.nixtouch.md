@@ -10,7 +10,7 @@ android:
   released: 2018-10-19
   updated: 2019-12-27
   version: 1.0.0.65
-  icon: kr.co.keypair.nixtouch.png
+  icon: kr.co.keypair.nixtouch.webp
   meta: removed
   verdict: wip
   developerName: Keypair Co., Ltd.

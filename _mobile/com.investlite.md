@@ -14,7 +14,7 @@ android:
   updated: 2021-11-29
   version: 1.5.78-investlite
   reviews: 100
-  icon: com.investlite.png
+  icon: com.investlite.webp
   meta: removed
   verdict: nosendreceive
 

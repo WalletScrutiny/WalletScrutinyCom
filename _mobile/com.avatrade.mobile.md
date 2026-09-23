@@ -18,7 +18,7 @@ android:
   updated: 2026-09-16
   version: 168.14.3
   reviews: 11
-  icon: com.avatrade.mobile.png
+  icon: com.avatrade.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: Ava Financial Ltd

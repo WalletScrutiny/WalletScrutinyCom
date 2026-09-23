@@ -9,7 +9,7 @@ android:
   released: 2021-09-09
   updated: 2021-11-22
   version: 1.0.7
-  icon: com.tallin.wallet.png
+  icon: com.tallin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Paytechno OU

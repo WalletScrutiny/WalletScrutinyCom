@@ -9,7 +9,7 @@ android:
   released: 2021-05-08
   updated: 2022-01-13
   version: 1.3.2
-  icon: life.bbx.bbxpro.png
+  icon: life.bbx.bbxpro.webp
   meta: removed
   verdict: wip
   developerName: Bigbit tech

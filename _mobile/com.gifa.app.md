@@ -10,7 +10,7 @@ android:
   released: 2020-09-21
   updated: 2022-06-09
   version: 1.5.2
-  icon: com.gifa.app.png
+  icon: com.gifa.app.webp
   meta: removed
   verdict: wip
   developerName: GIFA Holdings LTD

@@ -10,7 +10,7 @@ android:
   released: 2022-08-12
   updated: 2022-08-23
   version: 1.0.3
-  icon: io.alamo.ex.jpg
+  icon: io.alamo.ex.webp
   meta: removed
   verdict: wip
   developerName: Alamo trading

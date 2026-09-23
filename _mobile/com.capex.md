@@ -18,7 +18,7 @@ android:
   released: 2022-02-15
   updated: 2023-09-21
   version: 2.0.2
-  icon: com.capex.png
+  icon: com.capex.webp
   meta: removed
   verdict: custodial
   developerName: Dataland LLC
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-09-19
   version: 2.0.2
   reviews: 0
-  icon: com.capexcapital.capex.jpg
+  icon: com.capexcapital.capex.webp
   meta: removed
   verdict: custodial
   developerName: Capex capital LLC

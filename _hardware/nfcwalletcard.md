@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: nfcwalletcard.png
+icon: nfcwalletcard.webp
 bugbounty: 
 meta: defunct
 verdict: wip

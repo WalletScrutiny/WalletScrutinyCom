@@ -19,7 +19,7 @@ android:
   updated: 2023-08-08
   version: 4.4.7
   reviews: 2
-  icon: com.bitoex.bitoproapp.png
+  icon: com.bitoex.bitoproapp.webp
   meta: removed
   verdict: custodial
   developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-08-09
   version: 4.4.7
   reviews: 5
-  icon: com.bitoex.bitopro.jpg
+  icon: com.bitoex.bitopro.webp
   meta: removed
   verdict: custodial
   developerName: BitoEX

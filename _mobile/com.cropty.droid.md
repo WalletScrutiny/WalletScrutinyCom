@@ -19,7 +19,7 @@ android:
   updated: 2026-03-03
   version: 2.11.1
   reviews: 59
-  icon: com.cropty.droid.jpg
+  icon: com.cropty.droid.webp
   meta: ok
   verdict: custodial
   developerName: Coinscatch
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-03-10
   version: 1.7.4
   reviews: 218
-  icon: com.cropty.app.jpg
+  icon: com.cropty.app.webp
   meta: ok
   verdict: custodial
   developerName: Coinscatch

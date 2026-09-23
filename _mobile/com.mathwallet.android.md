@@ -24,7 +24,7 @@ android:
   updated: 2026-07-06
   version: 5.7.81
   reviews: 63
-  icon: com.mathwallet.android.png
+  icon: com.mathwallet.android.webp
   meta: ok
   verdict: nosource
   developerName: Math Global
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-05-29
   version: 5.5.4
   reviews: 45
-  icon: com.mathglobal.mathwallet5.jpg
+  icon: com.mathglobal.mathwallet5.webp
   meta: ok
   verdict: nosource
   developerName: MATH GLOBAL FOUNDATION LTD.

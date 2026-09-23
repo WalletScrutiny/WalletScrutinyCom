@@ -9,7 +9,7 @@ android:
   released: 2020-02-22
   updated: 2020-02-23
   version: '1.0'
-  icon: kr.co.coin.be.png
+  icon: kr.co.coin.be.webp
   meta: removed
   verdict: wip
   developerName: 앱스토리 컴퍼니

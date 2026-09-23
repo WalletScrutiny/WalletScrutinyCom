@@ -10,7 +10,7 @@ android:
   released: 2021-03-27
   updated: 2021-03-27
   version: '1.0'
-  icon: com.app.exchanger12.png
+  icon: com.app.exchanger12.webp
   meta: removed
   verdict: wip
 

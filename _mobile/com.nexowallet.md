@@ -21,7 +21,7 @@ android:
   updated: 2026-09-11
   version: 7.12.0
   reviews: 1911
-  icon: com.nexowallet.png
+  icon: com.nexowallet.webp
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Incorporated
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-14
   version: 7.12.0
   reviews: 1933
-  icon: com.nexobank.wallet.jpg
+  icon: com.nexobank.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Inc.

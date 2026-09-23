@@ -21,7 +21,7 @@ android:
   updated: 2026-09-07
   version: 5.55.25
   reviews: 90
-  icon: app.coinmetro.png
+  icon: app.coinmetro.webp
   meta: ok
   verdict: custodial
   developerName: Coinmetro OU
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-08
   version: 5.55.25
   reviews: 369
-  icon: app.coinmetro.jpg
+  icon: app.coinmetro.webp
   meta: ok
   verdict: custodial
   developerName: CoinMetro OU

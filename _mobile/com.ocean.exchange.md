@@ -20,7 +20,7 @@ android:
   updated: 2023-08-24
   version: 2.0.4
   reviews: 15
-  icon: com.ocean.exchange.png
+  icon: com.ocean.exchange.webp
   meta: removed
   verdict: custodial
   developerName: OceanEx Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-10-19
   version: 1.5.4
   reviews: 0
-  icon: pro.oceanex.exapp.jpg
+  icon: pro.oceanex.exapp.webp
   meta: obsolete
   verdict: custodial
   developerName: OceanEx Limited

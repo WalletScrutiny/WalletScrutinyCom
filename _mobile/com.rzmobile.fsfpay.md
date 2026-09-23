@@ -10,7 +10,7 @@ android:
   released: 2021-07-25
   updated: 2021-07-25
   version: '1.0'
-  icon: com.rzmobile.fsfpay.png
+  icon: com.rzmobile.fsfpay.webp
   meta: removed
   verdict: wip
   developerName: FSFPAY

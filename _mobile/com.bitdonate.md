@@ -10,7 +10,7 @@ android:
   released: 2021-04-28
   updated: 2021-07-26
   version: '2.1'
-  icon: com.bitdonate.jpg
+  icon: com.bitdonate.webp
   meta: removed
   verdict: wip
   developerName: BitDonate LLC

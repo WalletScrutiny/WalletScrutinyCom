@@ -21,7 +21,7 @@ shop: https://get.keycard.tech/
 country: 
 price: 24.9EUR
 repository: https://github.com/status-im/status-keycard
-icon: keycard.png
+icon: keycard.webp
 bugbounty: 
 meta: ok
 verdict: noita

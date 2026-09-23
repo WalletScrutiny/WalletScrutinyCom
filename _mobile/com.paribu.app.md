@@ -22,7 +22,7 @@ android:
   updated: 2026-09-16
   version: 6.1.7
   reviews: 116
-  icon: com.paribu.app.png
+  icon: com.paribu.app.webp
   meta: ok
   verdict: custodial
   developerName: PARİBU
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-17
   version: 6.1.7
   reviews: 321
-  icon: com.codevist.paribu.jpg
+  icon: com.codevist.paribu.webp
   meta: ok
   verdict: custodial
   developerName: Paribu

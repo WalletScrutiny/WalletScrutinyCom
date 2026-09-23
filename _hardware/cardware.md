@@ -20,7 +20,7 @@ shop: https://www.cardwarewallet.com/btcproducts
 country: ZA
 price: 77USD
 repository: https://github.com/cardware-wallet/cardware-hardware
-icon: cardware.png
+icon: cardware.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -10,7 +10,7 @@ android:
   released: 2019-05-28
   updated: 2019-05-28
   version: '1.2'
-  icon: com.bvcrypto.png
+  icon: com.bvcrypto.webp
   meta: removed
   verdict: wip
   developerName: BV Teknoloji

@@ -12,7 +12,7 @@ android:
   released: 2019-06-16
   updated: 2019-11-24
   version: 2.0.3
-  icon: com.app.fffex.png
+  icon: com.app.fffex.webp
   meta: removed
   verdict: wip
   developerName: FFFEX

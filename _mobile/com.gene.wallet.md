@@ -13,7 +13,7 @@ android:
   released: 2018-03-06
   updated: 2019-02-08
   version: 1.4.1
-  icon: com.gene.wallet.png
+  icon: com.gene.wallet.webp
   meta: removed
   verdict: custodial
   developerName: PARKGENE

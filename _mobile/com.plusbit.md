@@ -10,7 +10,7 @@ android:
   released: 2020-04-07
   updated: 2020-07-12
   version: '1.0'
-  icon: com.plusbit.png
+  icon: com.plusbit.webp
   meta: removed
   verdict: wip
   developerName: PlusBit

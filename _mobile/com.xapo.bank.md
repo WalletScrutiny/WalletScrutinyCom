@@ -25,7 +25,7 @@ android:
   updated: 2026-09-17
   version: 11.29.0
   reviews: 43
-  icon: com.xapo.bank.png
+  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-09-17
   version: 11.30.0
   reviews: 4
-  icon: com.xapo.bank.jpg
+  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo Holdings Limited

@@ -12,7 +12,7 @@ android:
   released: 2020-02-19
   updated: 2020-04-08
   version: 2.0.6
-  icon: com.gamehub.playwallet2.png
+  icon: com.gamehub.playwallet2.webp
   meta: removed
   verdict: wip
   developerName: GAMEHUB

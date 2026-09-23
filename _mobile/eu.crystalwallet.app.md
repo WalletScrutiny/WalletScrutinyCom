@@ -17,7 +17,7 @@ android:
   updated: 2021-10-21
   version: '1.77'
   reviews: 9
-  icon: eu.crystalwallet.app.png
+  icon: eu.crystalwallet.app.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-10-23
   version: '1.78'
   reviews: 6
-  icon: eu.crystalwallet.app.jpg
+  icon: eu.crystalwallet.app.webp
   meta: removed
   verdict: nosource
 

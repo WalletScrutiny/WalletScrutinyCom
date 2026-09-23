@@ -12,7 +12,7 @@ provider: Thunderhub
 providerWebsite: 
 website: https://www.thunderhub.io
 repository: https://github.com/apotdevin/thunderhub
-icon: thunderhub.lnd.png
+icon: thunderhub.lnd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

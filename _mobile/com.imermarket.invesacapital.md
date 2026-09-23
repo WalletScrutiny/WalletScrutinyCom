@@ -9,7 +9,7 @@ android:
   users: 10000
   updated: 2025-07-04
   version: 2.8.5
-  icon: com.imermarket.invesacapital.png
+  icon: com.imermarket.invesacapital.webp
   meta: removed
   verdict: nosendreceive
   developerName: Imermarket (PTY) Ltd (Proprietary) Limited

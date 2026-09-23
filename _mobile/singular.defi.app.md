@@ -9,7 +9,7 @@ android:
   released: 2021-11-25
   updated: 2024-02-07
   version: '2.6'
-  icon: singular.defi.app.png
+  icon: singular.defi.app.webp
   meta: removed
   verdict: wip
   developerName: Singular Capital

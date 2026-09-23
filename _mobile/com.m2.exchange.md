@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2025-12-15
   version: 5.21.1
-  icon: com.m2.exchange.png
+  icon: com.m2.exchange.webp
   meta: ok
   verdict: custodial
   developerName: M2 Investments Limited
@@ -30,7 +30,7 @@ iphone:
   updated: 2025-12-15
   version: 5.21.0
   reviews: 71
-  icon: com.m2.exchange.jpg
+  icon: com.m2.exchange.webp
   meta: removed
   verdict: custodial
   developerName: M2 Investments Limited

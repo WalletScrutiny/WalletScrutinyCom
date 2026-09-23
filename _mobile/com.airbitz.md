@@ -20,7 +20,7 @@ android:
   updated: 2018-09-21
   version: 2.4.12
   reviews: 490
-  icon: com.airbitz.png
+  icon: com.airbitz.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/EdgeApp/airbitz-android-gui
@@ -32,7 +32,7 @@ iphone:
   updated: 2018-09-21
   version: 2.4.12
   reviews: 82
-  icon: co.airbitz.airbitz.jpg
+  icon: co.airbitz.airbitz.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Airbitz Inc

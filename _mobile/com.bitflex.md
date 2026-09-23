@@ -10,7 +10,7 @@ android:
   released: 2021-09-27
   updated: 2021-09-27
   version: 2.0-beta
-  icon: com.bitflex.png
+  icon: com.bitflex.webp
   meta: removed
   verdict: wip
   developerName: BITFLEX LLC

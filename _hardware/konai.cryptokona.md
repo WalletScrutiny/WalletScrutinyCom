@@ -20,7 +20,7 @@ shop:
 country: KR
 price: 
 repository: 
-icon: konai.cryptokona.png
+icon: konai.cryptokona.webp
 bugbounty: 
 meta: ok
 verdict: nosource

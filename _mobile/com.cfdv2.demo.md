@@ -10,7 +10,7 @@ android:
   released: 2020-02-13
   updated: 2020-02-14
   version: 0.6.2
-  icon: com.cfdv2.demo.png
+  icon: com.cfdv2.demo.webp
   meta: removed
   verdict: wip
   developerName: Airsoftltd

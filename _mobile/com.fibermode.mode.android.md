@@ -20,7 +20,7 @@ android:
   updated: 2023-01-26
   version: 3.0.9
   reviews: 187
-  icon: com.fibermode.mode.android.png
+  icon: com.fibermode.mode.android.webp
   meta: removed
   verdict: custodial
   developerName: Fibermode Limited
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-03-04
   version: 5.7.3
   reviews: 1018
-  icon: com.fibermode.Mode-Wallet.jpg
+  icon: com.fibermode.Mode-Wallet.webp
   meta: removed
   verdict: custodial
   developerName: Fibermode Limited

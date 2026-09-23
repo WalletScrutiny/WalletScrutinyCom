@@ -18,7 +18,7 @@ android:
   updated: 2022-01-28
   version: 2.2.11
   reviews: 213
-  icon: com.hashcash.paybito.png
+  icon: com.hashcash.paybito.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-12-09
   version: 101.5.0
   reviews: 63
-  icon: com.hashcashconsultants.payBitoTrade.jpg
+  icon: com.hashcashconsultants.payBitoTrade.webp
   meta: ok
   verdict: custodial
   developerName: HashCash Consultants LLC

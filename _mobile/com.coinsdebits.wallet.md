@@ -9,7 +9,7 @@ android:
   released: 2017-06-26
   updated: 2017-11-21
   version: 0.0.6
-  icon: com.coinsdebits.wallet.png
+  icon: com.coinsdebits.wallet.webp
   meta: removed
   verdict: wip
   developerName: coin debits

@@ -22,7 +22,7 @@ android:
   updated: 2023-03-31
   version: 9.6.4
   reviews: 5
-  icon: com.taurosapp.png
+  icon: com.taurosapp.webp
   meta: removed
   verdict: custodial
   developerName: Tauros Exchange S.A. de C.V.
@@ -34,7 +34,7 @@ iphone:
   updated: 2023-03-31
   version: 9.6.4
   reviews: 182
-  icon: com.taurosapp.jpg
+  icon: com.taurosapp.webp
   meta: removed
   verdict: custodial
   developerName: Tauros Exchange SA de CV

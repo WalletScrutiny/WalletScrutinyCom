@@ -10,7 +10,7 @@ android:
   released: 2022-06-11
   updated: 2022-06-11
   version: '1.0'
-  icon: com.crypto.exchange.trading.jpg
+  icon: com.crypto.exchange.trading.webp
   meta: removed
   verdict: wip
 

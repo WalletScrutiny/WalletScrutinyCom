@@ -11,7 +11,7 @@ android:
   released: 2022-06-03
   updated: 2026-07-23
   version: 1.2.641
-  icon: com.nosapps.android.i5o2.png
+  icon: com.nosapps.android.i5o2.webp
   meta: removed
   verdict: wip
   developerName: 1502.app LLC

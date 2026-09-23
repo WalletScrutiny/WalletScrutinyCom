@@ -16,7 +16,7 @@ android:
   users: 1000
   updated: 2019-10-16
   version: VARY
-  icon: com.greenaddress.abcore.png
+  icon: com.greenaddress.abcore.webp
   alternativeStores:
   - fdroid
   meta: removed

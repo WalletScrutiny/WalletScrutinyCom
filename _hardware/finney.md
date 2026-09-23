@@ -18,7 +18,7 @@ shop: https://shop.sirinlabs.com/products/finney
 country: UK
 price: 999USD
 repository: 
-icon: finney.png
+icon: finney.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

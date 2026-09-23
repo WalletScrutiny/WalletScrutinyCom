@@ -8,7 +8,7 @@ android:
   users: 1000
   updated: 2021-07-21
   version: '1.0'
-  icon: com.jingyang.eceapp.png
+  icon: com.jingyang.eceapp.webp
   meta: removed
   verdict: wip
   developerName: ECE LTD

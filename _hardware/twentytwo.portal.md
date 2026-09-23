@@ -20,7 +20,7 @@ shop: https://store.twenty-two.xyz/
 country: IT
 price: 89 EUR
 repository: https://github.com/TwentyTwoHW/portal-software
-icon: twentytwo.portal.png
+icon: twentytwo.portal.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

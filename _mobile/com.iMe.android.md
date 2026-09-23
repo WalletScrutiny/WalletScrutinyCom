@@ -22,7 +22,7 @@ android:
   updated: 2026-09-18
   version: 12.10.1
   reviews: 870
-  icon: com.iMe.android.png
+  icon: com.iMe.android.webp
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-07-26
   version: 12.8.1
   reviews: 8965
-  icon: com.olcorporation.olai.jpg
+  icon: com.olcorporation.olai.webp
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO

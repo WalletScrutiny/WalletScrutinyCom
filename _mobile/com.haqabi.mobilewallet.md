@@ -15,7 +15,7 @@ android:
   appCountry: us
   updated: 2025-07-16
   version: '1.21'
-  icon: com.haqabi.mobilewallet.png
+  icon: com.haqabi.mobilewallet.webp
   meta: stale
   verdict: custodial
   developerName: Haqqex Ltd
@@ -27,7 +27,7 @@ iphone:
   updated: 2025-07-16
   version: '1.21'
   reviews: 4
-  icon: com.haqabi.mobile-wallet.jpg
+  icon: com.haqabi.mobile-wallet.webp
   meta: removed
   verdict: custodial
   developerName: Haqqex Ltd

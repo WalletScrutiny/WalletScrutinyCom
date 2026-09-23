@@ -12,7 +12,7 @@ android:
   released: 2021-01-26
   updated: 2022-05-27
   version: 4.3.0
-  icon: com.betepal.wallet.png
+  icon: com.betepal.wallet.webp
   meta: removed
   verdict: wip
   developerName: Betepal

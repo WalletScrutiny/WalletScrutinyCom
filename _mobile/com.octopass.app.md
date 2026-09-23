@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2026-03-19
   version: prod-1.18.11
-  icon: com.octopass.app.png
+  icon: com.octopass.app.webp
   meta: deprecated
   verdict: custodial
   developerName: Dott Enterprises Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-03-22
   version: 1.18.11
   reviews: 1543
-  icon: com.octopass.app.jpg
+  icon: com.octopass.app.webp
   meta: deprecated
   verdict: custodial
   developerName: Dott Enterprises Ltd.

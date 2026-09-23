@@ -36,7 +36,7 @@ android:
   updated: 2026-05-15
   version: 3.22.0.2
   reviews: 1154
-  icon: com.mycelium.wallet.jpg
+  icon: com.mycelium.wallet.webp
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: ok
   verdict: sourceavailable
@@ -51,7 +51,7 @@ iphone:
   updated: 2026-09-11
   version: '2.11'
   reviews: 19
-  icon: com.mycelium.wallet-ios.jpg
+  icon: com.mycelium.wallet-ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: MRD X-Change GmbH

@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2022-12-27
   version: VARY
-  icon: com.tmdstudios.cryptoledgerkotlin.png
+  icon: com.tmdstudios.cryptoledgerkotlin.webp
   meta: removed
   verdict: wip
   developerName: TMD Studios

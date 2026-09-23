@@ -19,7 +19,7 @@ android:
   released: 2020-04-07
   updated: 2021-12-17
   version: '4.3'
-  icon: com.zyth.app.png
+  icon: com.zyth.app.webp
   meta: removed
   verdict: custodial
   developerName: Zyth Technology
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-12-18
   version: '4.0'
   reviews: 1
-  icon: com.zyth.app.jpg
+  icon: com.zyth.app.webp
   meta: removed
   verdict: custodial
   developerName: Zyth Technologies

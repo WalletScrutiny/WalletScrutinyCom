@@ -21,7 +21,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: walletio.png
+icon: walletio.webp
 bugbounty: 
 meta: ok
 verdict: vapor

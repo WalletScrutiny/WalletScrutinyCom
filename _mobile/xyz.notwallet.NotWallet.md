@@ -11,7 +11,7 @@ android:
   released: 2025-06-14
   updated: 2026-01-31
   version: 1.1.4
-  icon: xyz.notwallet.NotWallet.png
+  icon: xyz.notwallet.NotWallet.webp
   meta: fewusers
   verdict: wip
   developerName: Splitfire AB

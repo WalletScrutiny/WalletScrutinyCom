@@ -22,7 +22,7 @@ android:
   updated: 2026-09-17
   version: 6.188.0
   reviews: 4013
-  icon: com.okinc.okex.gp.png
+  icon: com.okinc.okex.gp.webp
   meta: ok
   verdict: custodial
   developerName: OKX INC.
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-15
   version: 6.189.0
   reviews: 22679
-  icon: com.okex.OKExAppstoreFull.jpg
+  icon: com.okex.OKExAppstoreFull.webp
   meta: ok
   verdict: custodial
   developerName: OKX Inc.

@@ -9,7 +9,7 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: buy.sell.trade.crypto1.jpg
+  icon: buy.sell.trade.crypto1.webp
   meta: removed
   verdict: wip
 

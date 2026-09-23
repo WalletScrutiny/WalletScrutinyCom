@@ -19,7 +19,7 @@ android:
   updated: 2025-04-17
   version: 2.9.56
   reviews: 6263
-  icon: com.sigen.sigen.png
+  icon: com.sigen.sigen.webp
   meta: removed
   verdict: custodial
   developerName: Lergen Style LLP
@@ -30,7 +30,7 @@ iphone:
   updated: 2025-07-03
   version: 2.9.63
   reviews: 3663
-  icon: com.sigen.sigenapp.jpg
+  icon: com.sigen.sigenapp.webp
   meta: removed
   verdict: custodial
   developerName: Lergen Style LP

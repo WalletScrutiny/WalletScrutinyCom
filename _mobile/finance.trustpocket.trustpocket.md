@@ -10,7 +10,7 @@ android:
   released: 2021-08-06
   updated: 2021-10-04
   version: 1.0.3
-  icon: finance.trustpocket.trustpocket.png
+  icon: finance.trustpocket.trustpocket.webp
   meta: removed
   verdict: wip
   developerName: Trust pocket

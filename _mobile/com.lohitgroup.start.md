@@ -12,7 +12,7 @@ android:
   released: 2020-05-04
   updated: 2020-10-05
   version: 0.1.5
-  icon: com.lohitgroup.start.png
+  icon: com.lohitgroup.start.webp
   meta: removed
   verdict: wip
   developerName: LOHIT ENTERPRISES PRIVATE LIMITED

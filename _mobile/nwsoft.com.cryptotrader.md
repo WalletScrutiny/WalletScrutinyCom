@@ -10,7 +10,7 @@ android:
   released: 2018-04-19
   updated: 2018-07-19
   version: 1.11ai
-  icon: nwsoft.com.cryptotrader.png
+  icon: nwsoft.com.cryptotrader.webp
   meta: removed
   verdict: wip
   developerName: DeveloperYou

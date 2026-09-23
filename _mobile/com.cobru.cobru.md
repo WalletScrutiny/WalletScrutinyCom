@@ -18,7 +18,7 @@ android:
   released: 2021-06-26
   updated: 2023-12-19
   version: 4.0.99
-  icon: com.cobru.cobru.png
+  icon: com.cobru.cobru.webp
   meta: removed
   verdict: custodial
   developerName: Cobru SAS
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-05-12
   version: 4.1.14
   reviews: 2
-  icon: com.cobru.cobru.jpg
+  icon: com.cobru.cobru.webp
   meta: ok
   verdict: custodial
   developerName: Cobru S.A.S.

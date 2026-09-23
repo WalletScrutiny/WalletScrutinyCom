@@ -16,7 +16,7 @@ android:
   updated: 2024-01-19
   version: 1.5.3
   reviews: 9
-  icon: com.rootone.wallet.png
+  icon: com.rootone.wallet.webp
   meta: removed
   verdict: custodial
   developerName: (주)루트원소프트
@@ -27,7 +27,7 @@ iphone:
   updated: 2023-02-01
   version: 1.4.2
   reviews: 7
-  icon: com.rootone.bitberry.jpg
+  icon: com.rootone.bitberry.webp
   meta: removed
   verdict: custodial
   developerName: RootOne

@@ -10,7 +10,7 @@ android:
   released: 2019-01-10
   updated: 2019-10-01
   version: 1.1.6
-  icon: kr.raistone.stonewallet.png
+  icon: kr.raistone.stonewallet.webp
   meta: removed
   verdict: wip
   developerName: raistone co., ltd

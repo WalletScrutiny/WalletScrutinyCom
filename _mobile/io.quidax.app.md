@@ -24,7 +24,7 @@ android:
   updated: 2026-09-19
   version: 1.3.0
   reviews: 13
-  icon: io.quidax.app.png
+  icon: io.quidax.app.webp
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-06
   version: 1.1.19
   reviews: 602
-  icon: io.quidax.pro.jpg
+  icon: io.quidax.pro.webp
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies

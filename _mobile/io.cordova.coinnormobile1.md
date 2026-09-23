@@ -10,7 +10,7 @@ android:
   released: 2018-07-08
   updated: 2018-07-08
   version: 1.0.0
-  icon: io.cordova.coinnormobile1.png
+  icon: io.cordova.coinnormobile1.webp
   meta: removed
   verdict: wip
   developerName: Bluedrive Solutions International SRL

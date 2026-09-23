@@ -11,7 +11,7 @@ android:
   updated: 2020-06-04
   version: '29'
   reviews: 14
-  icon: com.hena.henawallet.png
+  icon: com.hena.henawallet.webp
   meta: removed
   verdict: wip
   developerName: 해나플랫폼

@@ -10,7 +10,7 @@ android:
   released: 2022-04-13
   updated: 2022-04-19
   version: '3.0'
-  icon: com.runixcoin.com.runixcoin.png
+  icon: com.runixcoin.com.runixcoin.webp
   meta: removed
   verdict: wip
   developerName: Runixcoin

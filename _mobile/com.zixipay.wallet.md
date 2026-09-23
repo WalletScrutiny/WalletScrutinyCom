@@ -19,7 +19,7 @@ android:
   updated: 2026-05-16
   version: '2.00'
   reviews: 11
-  icon: com.zixipay.wallet.png
+  icon: com.zixipay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: ZixiPay LLC
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-04-28
   version: '2.00'
   reviews: 32
-  icon: com.zixipay.wallet.jpg
+  icon: com.zixipay.wallet.webp
   meta: ok
   verdict: custodial
   developerName: ZixiPay LLC

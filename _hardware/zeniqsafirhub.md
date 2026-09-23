@@ -17,7 +17,7 @@ shop:
 country: AE
 price: 1998EUR
 repository: 
-icon: zeniqsafirhub.png
+icon: zeniqsafirhub.webp
 bugbounty: 
 meta: ok
 verdict: nosource

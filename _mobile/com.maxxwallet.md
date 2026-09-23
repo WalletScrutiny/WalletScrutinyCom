@@ -13,7 +13,7 @@ android:
   released: 2019-03-25
   updated: 2019-06-12
   version: 3.7.3
-  icon: com.maxxwallet.png
+  icon: com.maxxwallet.webp
   meta: removed
   verdict: nosource
   developerName: MAX Wallet , Tov

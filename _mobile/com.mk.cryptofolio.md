@@ -14,7 +14,7 @@ android:
   released: 2018-05-02
   updated: 2020-08-19
   version: 1.0.51
-  icon: com.mk.cryptofolio.png
+  icon: com.mk.cryptofolio.webp
   meta: removed
   verdict: custodial
   developerName: The CryptoFolio App

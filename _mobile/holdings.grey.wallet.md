@@ -10,7 +10,7 @@ iphone:
   updated: 2026-07-14
   version: 1.0.8
   reviews: 1
-  icon: holdings.grey.wallet.jpg
+  icon: holdings.grey.wallet.webp
   meta: ok
   verdict: wip
   developerName: AirJIT Inc.

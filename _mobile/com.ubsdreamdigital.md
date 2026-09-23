@@ -10,7 +10,7 @@ android:
   released: 2021-02-17
   updated: 2021-03-12
   version: '1.01'
-  icon: com.ubsdreamdigital.png
+  icon: com.ubsdreamdigital.webp
   meta: removed
   verdict: wip
   developerName: Universal Border Solutions

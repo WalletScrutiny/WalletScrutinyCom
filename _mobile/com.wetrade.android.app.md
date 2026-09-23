@@ -10,7 +10,7 @@ android:
   released: 2022-05-11
   updated: 2022-12-23
   version: '1.1'
-  icon: com.wetrade.android.app.png
+  icon: com.wetrade.android.app.webp
   meta: removed
   verdict: wip
   developerName: weTrade

@@ -9,7 +9,7 @@ android:
   released: 2021-12-24
   updated: 2022-02-17
   version: '1.3'
-  icon: com.antier.rbul.jpg
+  icon: com.antier.rbul.webp
   meta: removed
   verdict: wip
   developerName: Redbul

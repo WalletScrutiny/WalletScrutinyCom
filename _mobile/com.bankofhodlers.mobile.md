@@ -21,7 +21,7 @@ android:
   updated: 2026-06-09
   version: 3.0.6
   reviews: 88
-  icon: com.bankofhodlers.mobile.png
+  icon: com.bankofhodlers.mobile.webp
   meta: ok
   verdict: custodial
   developerName: VauldGoogleDeveloper
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-11-09
   version: 2.9.0.1
   reviews: 299
-  icon: com.bankofhodlers.app.jpg
+  icon: com.bankofhodlers.app.webp
   meta: removed
   verdict: custodial
   developerName: DEFI TECHNOLOGIES PTE. LTD.

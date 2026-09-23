@@ -17,7 +17,7 @@ shop:
 country: DE
 price: 1USD
 repository: 
-icon: bitcard.de.png
+icon: bitcard.de.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled

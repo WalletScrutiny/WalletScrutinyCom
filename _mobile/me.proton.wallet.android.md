@@ -28,7 +28,7 @@ android:
   updated: 2026-08-26
   version: 1.3.1
   reviews: 33
-  icon: me.proton.wallet.android.png
+  icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   meta: ok
   verdict: sourceavailable
@@ -42,7 +42,7 @@ iphone:
   updated: 2026-08-27
   version: 1.3.3
   reviews: 252
-  icon: me.proton.wallet.ios.jpg
+  icon: me.proton.wallet.ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: Proton AG

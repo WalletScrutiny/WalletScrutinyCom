@@ -18,7 +18,7 @@ android:
   updated: 2023-05-04
   version: '3.7'
   reviews: 2
-  icon: com.web.unitedexchange.png
+  icon: com.web.unitedexchange.webp
   meta: removed
   verdict: custodial
   developerName: United Exchange
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-04-03
   version: '14.0'
   reviews: 1
-  icon: com.vsmart.UnitedExchange.jpg
+  icon: com.vsmart.UnitedExchange.webp
   meta: removed
   verdict: custodial
   developerName: Avner Brokers

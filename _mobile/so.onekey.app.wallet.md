@@ -29,7 +29,7 @@ android:
   updated: 2026-08-24
   version: 6.5.3
   reviews: 100
-  icon: so.onekey.app.wallet.png
+  icon: so.onekey.app.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
@@ -42,7 +42,7 @@ iphone:
   updated: 2026-08-24
   version: 6.5.2
   reviews: 682
-  icon: so.onekey.wallet.jpg
+  icon: so.onekey.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED

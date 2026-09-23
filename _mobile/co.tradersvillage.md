@@ -10,7 +10,7 @@ android:
   released: 2020-06-08
   updated: 2020-06-08
   version: 0.0.21
-  icon: co.tradersvillage.png
+  icon: co.tradersvillage.webp
   meta: removed
   verdict: wip
   developerName: tradersvillage.co

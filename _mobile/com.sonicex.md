@@ -10,7 +10,7 @@ android:
   released: 2019-08-05
   updated: 2020-04-15
   version: '1.6'
-  icon: com.sonicex.png
+  icon: com.sonicex.webp
   meta: removed
   verdict: wip
   developerName: SONICX FOUNDATION

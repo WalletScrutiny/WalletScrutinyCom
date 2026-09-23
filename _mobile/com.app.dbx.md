@@ -10,7 +10,7 @@ iphone:
   updated: 2026-08-09
   version: 2.0.5
   reviews: 3
-  icon: com.app.dbx.jpg
+  icon: com.app.dbx.webp
   meta: ok
   verdict: wip
   developerName: DBX GLOBAL CRYPTO NETWORK ELEKTRONIK TICARET VE YAZILIM ANONIM SIRKETI

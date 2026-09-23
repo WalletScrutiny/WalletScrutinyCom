@@ -15,7 +15,7 @@ android:
   released: 2021-03-18
   updated: 2021-03-22
   version: 0.9.5+205
-  icon: com.antareswallet.app.jpg
+  icon: com.antareswallet.app.webp
   meta: removed
   verdict: wip
   developerName: Online Invest
@@ -25,7 +25,7 @@ iphone:
   released: 2021-03-19
   updated: 2021-03-23
   version: '1.2'
-  icon: com.antareswallet.app.jpg
+  icon: com.antareswallet.app.webp
   meta: removed
   verdict: wip
 

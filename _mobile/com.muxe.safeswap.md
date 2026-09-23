@@ -10,7 +10,7 @@ android:
   released: 2021-10-14
   updated: 2022-12-31
   version: 2.1.1
-  icon: com.muxe.safeswap.png
+  icon: com.muxe.safeswap.webp
   meta: removed
   verdict: wip
   developerName: Safeswap Online

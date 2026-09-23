@@ -10,7 +10,7 @@ android:
   released: 2021-05-18
   updated: 2021-05-18
   version: 1.0.1
-  icon: com.cilia.wallet.png
+  icon: com.cilia.wallet.webp
   meta: removed
   verdict: wip
   developerName: Links and Strings

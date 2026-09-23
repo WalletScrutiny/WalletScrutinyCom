@@ -28,7 +28,7 @@ android:
   updated: 2026-09-08
   version: 3.241.0
   reviews: 56848
-  icon: co.mona.android.jpg
+  icon: co.mona.android.webp
   meta: ok
   verdict: custodial
   developerName: Crypto Technology Holdings Limited
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-09-09
   version: '3.241'
   reviews: 334306
-  icon: co.mona.Monaco.jpg
+  icon: co.mona.Monaco.webp
   meta: ok
   verdict: custodial
   developerName: Crypto.com

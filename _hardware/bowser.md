@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet
-icon: bowser.png
+icon: bowser.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

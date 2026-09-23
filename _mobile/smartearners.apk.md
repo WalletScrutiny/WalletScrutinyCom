@@ -10,7 +10,7 @@ android:
   released: 2022-08-11
   updated: 2022-08-11
   version: '9.8'
-  icon: smartearners.apk.jpg
+  icon: smartearners.apk.webp
   meta: removed
   verdict: wip
   developerName: FOYCAL SYSTEMS

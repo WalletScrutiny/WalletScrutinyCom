@@ -9,7 +9,7 @@ android:
   released: 2019-06-26
   updated: 2020-06-26
   version: 1.0.6
-  icon: com.cryptorabbitlite.cryptorabbitlite.png
+  icon: com.cryptorabbitlite.cryptorabbitlite.webp
   meta: removed
   verdict: wip
   developerName: sat.ldt12.12

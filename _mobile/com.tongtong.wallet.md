@@ -19,7 +19,7 @@ android:
   released: 2022-04-21
   updated: 2026-07-28
   version: 2.2.7
-  icon: com.tongtong.wallet.png
+  icon: com.tongtong.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Tomato Group
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-08-26
   version: 2.1.1
   reviews: 26
-  icon: com.etomato.wallet.jpg
+  icon: com.etomato.wallet.webp
   meta: ok
   verdict: nosource
   developerName: eTomato

@@ -10,7 +10,7 @@ android:
   released: 2018-10-14
   updated: 2019-03-22
   version: 1.0.2
-  icon: com.itm.ww.png
+  icon: com.itm.ww.webp
   meta: removed
   verdict: wip
   developerName: Wampum 1st. An ITM Business.

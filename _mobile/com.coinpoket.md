@@ -10,7 +10,7 @@ android:
   released: 2019-04-11
   updated: 2021-02-26
   version: 1.0.3
-  icon: com.coinpoket.png
+  icon: com.coinpoket.webp
   meta: removed
   verdict: wip
   developerName: Lakeba Corporation Apps

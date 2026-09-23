@@ -10,7 +10,7 @@ android:
   released: 2019-07-26
   updated: 2019-10-15
   version: '1.3'
-  icon: com.polynance.jpg
+  icon: com.polynance.webp
   meta: removed
   verdict: wip
 

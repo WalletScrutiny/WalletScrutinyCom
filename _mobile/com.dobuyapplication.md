@@ -12,7 +12,7 @@ android:
   released: 2021-06-21
   updated: 2021-11-30
   version: 1.0.1
-  icon: com.dobuyapplication.png
+  icon: com.dobuyapplication.webp
   meta: removed
   verdict: custodial
   developerName: Dobuy

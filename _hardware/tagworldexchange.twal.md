@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: 
-icon: tagworldexchange.twal.png
+icon: tagworldexchange.twal.webp
 bugbounty: 
 meta: ok
 verdict: vapor

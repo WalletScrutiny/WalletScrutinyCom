@@ -11,7 +11,7 @@ android:
   released: 2019-09-19
   updated: 2022-05-04
   version: '3.2'
-  icon: com.tomato.coinworld.png
+  icon: com.tomato.coinworld.webp
   meta: obsolete
   verdict: wip
   developerName: 소프트웨어메이크(주)

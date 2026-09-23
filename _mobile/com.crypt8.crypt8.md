@@ -10,7 +10,7 @@ android:
   released: 2022-05-06
   updated: 2023-08-28
   version: 1.0.6
-  icon: com.crypt8.crypt8.png
+  icon: com.crypt8.crypt8.webp
   meta: removed
   verdict: wip
   developerName: Crypt8

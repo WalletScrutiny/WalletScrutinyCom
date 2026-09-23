@@ -9,7 +9,7 @@ android:
   released: 2021-06-03
   updated: 2021-06-03
   version: 3.0.1
-  icon: com.mithilawallet.app.jpg
+  icon: com.mithilawallet.app.webp
   meta: removed
   verdict: wip
   developerName: HyperCompute

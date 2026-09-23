@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2025-08-21
   version: VARY
-  icon: cz.confirmo.app.pos.png
+  icon: cz.confirmo.app.pos.webp
   meta: removed
   verdict: wip
   developerName: Confirmo

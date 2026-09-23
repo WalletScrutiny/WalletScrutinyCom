@@ -11,7 +11,7 @@ android:
   updated: 2019-10-17
   version: 1.2.2
   reviews: 23
-  icon: exchange.einstein.mobile.release.png
+  icon: exchange.einstein.mobile.release.webp
   meta: removed
   verdict: wip
 

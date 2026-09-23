@@ -8,7 +8,7 @@ android:
   users: 5
   updated: 2022-06-15
   version: VARY
-  icon: com.wallet.serecoin.png
+  icon: com.wallet.serecoin.webp
   meta: removed
   verdict: wip
   developerName: SERE BLOCKCHAIN

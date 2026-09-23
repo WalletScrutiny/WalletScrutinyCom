@@ -15,7 +15,7 @@ android:
   updated: 2023-06-01
   version: 3.04.28
   reviews: 33
-  icon: com.bitcoinwallet.btclun.png
+  icon: com.bitcoinwallet.btclun.webp
   meta: removed
   verdict: nosource
   developerName: Bit Crypto Services

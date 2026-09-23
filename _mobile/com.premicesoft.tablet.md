@@ -10,7 +10,7 @@ android:
   released: 2022-06-16
   updated: 2023-01-04
   version: 1.2.0
-  icon: com.premicesoft.tablet.png
+  icon: com.premicesoft.tablet.webp
   meta: removed
   verdict: wip
   developerName: Premicesoft

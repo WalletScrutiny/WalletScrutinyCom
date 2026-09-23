@@ -9,7 +9,7 @@ android:
   released: 2022-04-21
   updated: 2022-04-21
   version: '1.0'
-  icon: com.jukai.tutou.png
+  icon: com.jukai.tutou.webp
   meta: removed
   verdict: wip
 

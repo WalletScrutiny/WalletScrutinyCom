@@ -17,7 +17,7 @@ shop: https://www.ebay.com/itm/173960390859
 country: IT
 price: 35EUR
 repository: 
-icon: jan7007it.nfccard.png
+icon: jan7007it.nfccard.webp
 bugbounty: 
 meta: ok
 verdict: noita

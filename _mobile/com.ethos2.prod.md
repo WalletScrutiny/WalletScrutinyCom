@@ -17,7 +17,7 @@ android:
   updated: 2026-05-01
   version: 5.4.0
   reviews: 22
-  icon: com.ethos2.prod.png
+  icon: com.ethos2.prod.webp
   meta: ok
   verdict: nosource
   developerName: Ethos.io
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-05-01
   version: 5.4.0
   reviews: 2
-  icon: com.ethos2.app.jpg
+  icon: com.ethos2.app.webp
   meta: ok
   verdict: nosource
   developerName: Ethos Corporation

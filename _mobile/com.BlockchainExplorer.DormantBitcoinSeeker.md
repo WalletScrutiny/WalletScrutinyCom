@@ -12,7 +12,7 @@ android:
   updated: 2023-01-15
   version: 1.0.9
   reviews: 2
-  icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
+  icon: com.BlockchainExplorer.DormantBitcoinSeeker.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Explorer

@@ -21,7 +21,7 @@ android:
   updated: 2023-12-13
   version: 1.03.02
   reviews: 18
-  icon: com.coinmama.png
+  icon: com.coinmama.webp
   meta: removed
   verdict: nosource
   developerName: Coinmama
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-04-18
   version: 1.3.0
   reviews: 28
-  icon: com.coinmama.coinmama.jpg
+  icon: com.coinmama.coinmama.webp
   meta: removed
   verdict: nosource
   developerName: Cmama Limited

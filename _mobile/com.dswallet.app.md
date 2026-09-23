@@ -22,7 +22,7 @@ android:
   updated: 2026-09-17
   version: 2.2.5
   reviews: 223
-  icon: com.dswallet.app.png
+  icon: com.dswallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Yoime Technologie
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-18
   version: 2.2.5
   reviews: 0
-  icon: com.digitalshield.walletapp.jpg
+  icon: com.digitalshield.walletapp.webp
   meta: ok
   verdict: nosource
   developerName: HONG KONG YUHENG NETWORK TECHNOLOGY CO., LIMITED

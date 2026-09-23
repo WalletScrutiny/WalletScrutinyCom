@@ -9,7 +9,7 @@ android:
   released: 2019-11-26
   updated: 2019-11-27
   version: 1.0.0
-  icon: com.aes.aesexchange.jpg
+  icon: com.aes.aesexchange.webp
   meta: removed
   verdict: wip
   developerName: AES Signatum

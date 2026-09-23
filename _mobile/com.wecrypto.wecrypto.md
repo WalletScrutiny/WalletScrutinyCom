@@ -10,7 +10,7 @@ android:
   released: 2018-01-12
   updated: 2018-01-12
   version: '1.0'
-  icon: com.wecrypto.wecrypto.png
+  icon: com.wecrypto.wecrypto.webp
   meta: removed
   verdict: wip
   developerName: AndSocialREW Gaming and Publishing

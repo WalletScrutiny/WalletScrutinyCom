@@ -13,7 +13,7 @@ android:
   users: 5000
   updated: 2024-06-18
   version: 1.0.0028
-  icon: com.arbismart.hotwallets.jpg
+  icon: com.arbismart.hotwallets.webp
   meta: removed
   verdict: custodial
   developerName: Arbismart
@@ -25,7 +25,7 @@ iphone:
   updated: 2023-05-13
   version: '2.0005'
   reviews: 0
-  icon: com.arbismart.hotwallets.jpg
+  icon: com.arbismart.hotwallets.webp
   meta: removed
   verdict: custodial
   developerName: Arbismart OU

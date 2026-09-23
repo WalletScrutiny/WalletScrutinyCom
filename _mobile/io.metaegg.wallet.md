@@ -20,7 +20,7 @@ android:
   updated: 2022-09-11
   version: 0.1.2
   reviews: 1
-  icon: io.metaegg.wallet.png
+  icon: io.metaegg.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Metaegg

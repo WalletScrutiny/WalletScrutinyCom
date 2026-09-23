@@ -19,7 +19,7 @@ android:
   updated: 2025-03-26
   version: 2.0.21
   reviews: 17
-  icon: com.tokenize.exchange.tradingapp.png
+  icon: com.tokenize.exchange.tradingapp.webp
   meta: removed
   verdict: custodial
   developerName: Tokenize Xchange
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-04-02
   version: 2.0.21
   reviews: 2
-  icon: com.tokenize.exchange.trading.jpg
+  icon: com.tokenize.exchange.trading.webp
   meta: removed
   verdict: custodial
   developerName: Tokenize Xchange Pte Ltd

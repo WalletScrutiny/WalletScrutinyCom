@@ -19,7 +19,7 @@ android:
   updated: 2023-01-19
   version: 1.7.0
   reviews: 6
-  icon: com.bitgo.mobile.jpg
+  icon: com.bitgo.mobile.webp
   meta: removed
   verdict: custodial
   developerName: BitGo, Inc
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-15
   version: 2.3.1
   reviews: 16
-  icon: com.bitgo.mobile.jpg
+  icon: com.bitgo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: BitGo

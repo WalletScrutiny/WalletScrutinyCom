@@ -10,7 +10,7 @@ android:
   released: 2020-08-05
   updated: 2020-08-05
   version: 3.0.0
-  icon: com.mathayo.mathayofunds.png
+  icon: com.mathayo.mathayofunds.webp
   meta: removed
   verdict: wip
   developerName: MathayoFunds Crypto Trading

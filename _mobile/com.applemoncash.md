@@ -16,7 +16,7 @@ android:
   updated: 2026-09-15
   version: 3.0.16
   reviews: 13
-  icon: com.applemoncash.png
+  icon: com.applemoncash.webp
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-15
   version: 3.0.16
   reviews: 4128
-  icon: org.reactjs.native.lemon.appLemonCash.jpg
+  icon: org.reactjs.native.lemon.appLemonCash.webp
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc

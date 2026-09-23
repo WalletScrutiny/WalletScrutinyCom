@@ -10,7 +10,7 @@ android:
   released: 2020-08-25
   updated: 2022-03-07
   version: '1.20'
-  icon: com.espsoft.ScarlettInvest.png
+  icon: com.espsoft.ScarlettInvest.webp
   meta: removed
   verdict: wip
   developerName: Barry Moore

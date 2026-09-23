@@ -18,7 +18,7 @@ android:
   updated: 2019-09-19
   version: 1.2.6.0
   reviews: 31
-  icon: com.xzen.wallet.png
+  icon: com.xzen.wallet.webp
   meta: removed
   verdict: custodial
 

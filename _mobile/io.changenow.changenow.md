@@ -26,7 +26,7 @@ android:
   updated: 2026-09-15
   version: 2.1.2
   reviews: 813
-  icon: io.changenow.changenow.png
+  icon: io.changenow.changenow.webp
   meta: ok
   verdict: nosource
   developerName: ChangeNOW
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-11
   version: 2.11.4
   reviews: 2270
-  icon: io.changenow.jpg
+  icon: io.changenow.webp
   meta: ok
   verdict: nosource
   developerName: CHN Group Limited

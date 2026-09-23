@@ -14,7 +14,7 @@ android:
   updated: 2023-05-18
   version: 2.7.9
   reviews: 31
-  icon: com.coinhub.wallet.png
+  icon: com.coinhub.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Coinhub

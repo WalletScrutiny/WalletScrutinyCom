@@ -9,7 +9,7 @@ android:
   released: 2019-04-19
   updated: 2019-04-19
   version: '1.1'
-  icon: com.exchange.bitcnex.png
+  icon: com.exchange.bitcnex.webp
   meta: removed
   verdict: wip
   developerName: Bitcnex Exchange

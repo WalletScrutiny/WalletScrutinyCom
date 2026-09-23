@@ -10,7 +10,7 @@ android:
   released: 2023-05-03
   updated: 2023-05-03
   version: '1.0'
-  icon: com.knca.ranwallet.png
+  icon: com.knca.ranwallet.webp
   meta: obsolete
   verdict: wip
   developerName: kncalab

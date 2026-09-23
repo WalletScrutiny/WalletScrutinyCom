@@ -10,7 +10,7 @@ android:
   released: 2021-11-24
   updated: 2022-09-15
   version: '1.2'
-  icon: com.hackenai.hpass.png
+  icon: com.hackenai.hpass.webp
   meta: removed
   verdict: wip
   developerName: Hacken OÜ

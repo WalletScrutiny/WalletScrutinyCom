@@ -13,7 +13,7 @@ android:
   released: 2020-07-07
   updated: 2026-06-08
   version: 1.0.13
-  icon: jp.co.monex.ms.mt_crypto.png
+  icon: jp.co.monex.ms.mt_crypto.webp
   meta: ok
   verdict: nosendreceive
   developerName: マネックス証券株式会社

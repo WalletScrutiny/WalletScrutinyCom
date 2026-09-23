@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: org.bitrtuubonline.invest.in.cryptocurrency.png
+  icon: org.bitrtuubonline.invest.in.cryptocurrency.webp
   meta: removed
   verdict: wip
 

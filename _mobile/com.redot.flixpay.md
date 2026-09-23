@@ -11,7 +11,7 @@ android:
   updated: 2022-05-02
   version: 1.3.3
   reviews: 140
-  icon: com.redot.flixpay.png
+  icon: com.redot.flixpay.webp
   meta: removed
   verdict: wip
 

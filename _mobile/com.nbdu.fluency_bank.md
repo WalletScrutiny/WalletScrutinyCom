@@ -13,7 +13,7 @@ android:
   updated: 2020-04-29
   version: 1.0.0
   reviews: 8
-  icon: com.nbdu.fluency_bank.png
+  icon: com.nbdu.fluency_bank.webp
   meta: removed
   verdict: custodial
   developerName: Fluency App Ltd.

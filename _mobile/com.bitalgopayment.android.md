@@ -10,7 +10,7 @@ android:
   released: 2020-09-10
   updated: 2020-09-10
   version: 1.0.0
-  icon: com.bitalgopayment.android.png
+  icon: com.bitalgopayment.android.webp
   meta: removed
   verdict: wip
   developerName: Mahakarya Infotech

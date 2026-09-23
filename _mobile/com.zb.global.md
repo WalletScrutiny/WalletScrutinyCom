@@ -12,7 +12,7 @@ android:
   released: 2021-07-17
   updated: 2022-06-24
   version: 1.3.2.1478
-  icon: com.zb.global.png
+  icon: com.zb.global.webp
   meta: removed
   verdict: wip
 

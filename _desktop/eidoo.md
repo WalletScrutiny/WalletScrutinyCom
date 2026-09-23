@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20220418212420/https://eidoo.io/desktop-download
 repository: 
-icon: eidoo.png
+icon: eidoo.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

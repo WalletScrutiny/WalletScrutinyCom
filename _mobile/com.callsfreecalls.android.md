@@ -16,7 +16,7 @@ android:
   updated: 2020-10-07
   version: 5.6.1
   reviews: 3745
-  icon: com.callsfreecalls.android.png
+  icon: com.callsfreecalls.android.webp
   meta: removed
   verdict: wip
 

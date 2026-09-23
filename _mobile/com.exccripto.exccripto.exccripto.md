@@ -10,7 +10,7 @@ android:
   released: 2018-11-04
   updated: 2018-11-05
   version: '1.0'
-  icon: com.exccripto.exccripto.exccripto.png
+  icon: com.exccripto.exccripto.exccripto.webp
   meta: removed
   verdict: wip
   developerName: Ronney Ribeiro

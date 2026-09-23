@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2026-05-05
   version: VARY
-  icon: com.cashuwallet.android.png
+  icon: com.cashuwallet.android.webp
   meta: fewusers
   verdict: wip
   developerName: raugfer

@@ -10,7 +10,7 @@ android:
   released: 2022-03-03
   updated: 2022-03-24
   version: 1.0.3
-  icon: mond.vision.png
+  icon: mond.vision.webp
   meta: removed
   verdict: wip
 

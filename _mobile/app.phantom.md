@@ -26,7 +26,7 @@ android:
   updated: 2026-09-18
   version: 26.30.2
   reviews: 2370
-  icon: app.phantom.png
+  icon: app.phantom.webp
   meta: ok
   verdict: nosource
   developerName: Phantom Technologies, Inc.
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-17
   version: 26.30.2
   reviews: 64216
-  icon: app.phantom.jpg
+  icon: app.phantom.webp
   meta: ok
   verdict: nosource
   developerName: Phantom Technologies Incorporated

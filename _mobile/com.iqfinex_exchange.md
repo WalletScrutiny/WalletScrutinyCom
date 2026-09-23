@@ -10,7 +10,7 @@ android:
   updated: 2019-10-30
   version: 1.0.4
   reviews: 3
-  icon: com.iqfinex_exchange.png
+  icon: com.iqfinex_exchange.webp
   meta: removed
   verdict: wip
 

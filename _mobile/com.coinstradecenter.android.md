@@ -9,7 +9,7 @@ android:
   users: 1
   updated: 2020-01-21
   version: VARY
-  icon: com.coinstradecenter.android.jpg
+  icon: com.coinstradecenter.android.webp
   meta: removed
   verdict: wip
   developerName: Kings Web App

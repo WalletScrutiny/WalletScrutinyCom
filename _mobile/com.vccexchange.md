@@ -18,7 +18,7 @@ android:
   updated: 2021-10-06
   version: 3.18.0
   reviews: 37
-  icon: com.vccexchange.png
+  icon: com.vccexchange.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-10-06
   version: 3.18.0
   reviews: 4
-  icon: exchange.vcce.jpg
+  icon: exchange.vcce.webp
   meta: removed
   verdict: custodial
 

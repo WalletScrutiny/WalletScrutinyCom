@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: https://github.com/arcbtc/hardware-wallet-babybowser
-icon: arcbtc.baby.bowser.png
+icon: arcbtc.baby.bowser.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

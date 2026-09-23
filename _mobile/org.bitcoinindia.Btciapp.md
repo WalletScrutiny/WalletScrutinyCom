@@ -12,7 +12,7 @@ android:
   appCountry: us
   updated: 2026-07-27
   version: 3.2.55
-  icon: org.bitcoinindia.Btciapp.jpg
+  icon: org.bitcoinindia.Btciapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITCOIN INDIA

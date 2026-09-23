@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: org.bitcoinup.crypto.invest.calculator.jpg
+  icon: org.bitcoinup.crypto.invest.calculator.webp
   meta: removed
   verdict: wip
 

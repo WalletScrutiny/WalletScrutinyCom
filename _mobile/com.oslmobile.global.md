@@ -18,7 +18,7 @@ android:
   released: 2025-05-08
   updated: 2026-07-10
   version: 1.10.17
-  icon: com.oslmobile.global.png
+  icon: com.oslmobile.global.webp
   meta: ok
   verdict: custodial
   developerName: BC Technology (HK) Limited

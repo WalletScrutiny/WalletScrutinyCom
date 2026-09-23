@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: net.bitcoinrevolution.bitcoin.buyand.sell.app.jpg
+  icon: net.bitcoinrevolution.bitcoin.buyand.sell.app.webp
   meta: removed
   verdict: wip
 

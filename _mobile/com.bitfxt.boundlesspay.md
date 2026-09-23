@@ -20,7 +20,7 @@ android:
   updated: 2026-07-07
   version: 2.6.7
   reviews: 14
-  icon: com.bitfxt.boundlesspay.png
+  icon: com.bitfxt.boundlesspay.webp
   meta: ok
   verdict: custodial
   developerName: Boundless Nexus
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-07-07
   version: 2.4.2
   reviews: 72
-  icon: com.boundless.boundlesspay.jpg
+  icon: com.boundless.boundlesspay.webp
   meta: ok
   verdict: custodial
   developerName: BOUNDLESS NEXUS LIMITED

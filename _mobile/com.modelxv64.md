@@ -19,7 +19,7 @@ android:
   released: 2020-05-29
   updated: 2021-03-18
   version: 1.6.9
-  icon: com.modelxv64.png
+  icon: com.modelxv64.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-03-17
   version: 1.6.9
   reviews: 0
-  icon: saw.stratumadvancedwallet.jpg
+  icon: saw.stratumadvancedwallet.webp
   meta: removed
   verdict: custodial
 

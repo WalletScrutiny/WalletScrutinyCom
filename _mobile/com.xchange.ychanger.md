@@ -14,7 +14,7 @@ android:
   released: 2021-06-08
   updated: 2024-07-31
   version: 4.2.1
-  icon: com.xchange.ychanger.png
+  icon: com.xchange.ychanger.webp
   meta: removed
   verdict: custodial
   developerName: XchangeCapitalGroup OU
@@ -26,7 +26,7 @@ iphone:
   updated: 2022-12-29
   version: 2.0.4
   reviews: 0
-  icon: com.xchange.ychanger.jpg
+  icon: com.xchange.ychanger.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup

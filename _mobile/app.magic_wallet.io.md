@@ -12,7 +12,7 @@ android:
   updated: 2021-06-06
   version: 1.0.0
   reviews: 170
-  icon: app.magic_wallet.io.png
+  icon: app.magic_wallet.io.webp
   meta: removed
   verdict: wip
 

@@ -18,7 +18,7 @@ android:
   updated: 2026-09-01
   version: 3.5.27
   reviews: 34
-  icon: net.primal.android.png
+  icon: net.primal.android.webp
   meta: ok
   verdict: custodial
   developerName: PRIMAL SYSTEMS INC.
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-03
   version: 3.5.61
   reviews: 932
-  icon: net.primal.iosapp.Primal.jpg
+  icon: net.primal.iosapp.Primal.webp
   meta: ok
   verdict: custodial
   developerName: Primal Systems Incorporated.

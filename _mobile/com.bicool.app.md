@@ -11,7 +11,7 @@ android:
   updated: 2022-07-28
   version: 1.2.8
   reviews: 125
-  icon: com.bicool.app.png
+  icon: com.bicool.app.webp
   meta: removed
   verdict: wip
 

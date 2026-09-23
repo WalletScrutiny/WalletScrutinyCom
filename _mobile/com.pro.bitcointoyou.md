@@ -19,7 +19,7 @@ android:
   updated: 2023-09-26
   version: 0.0.228
   reviews: 5
-  icon: com.pro.bitcointoyou.png
+  icon: com.pro.bitcointoyou.webp
   meta: removed
   verdict: custodial
   developerName: B2U Limited
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-09-27
   version: '2.4'
   reviews: 167
-  icon: com.pro.b2u.jpg
+  icon: com.pro.b2u.webp
   meta: removed
   verdict: custodial
   developerName: B2U Limited

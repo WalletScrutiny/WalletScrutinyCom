@@ -11,7 +11,7 @@ android:
   released: 2020-03-22
   updated: 2025-03-19
   version: 2.2.3
-  icon: com.secuxtech.mysecuxpay.png
+  icon: com.secuxtech.mysecuxpay.webp
   meta: stale
   verdict: wip
   developerName: SecuX

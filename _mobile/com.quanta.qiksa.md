@@ -10,7 +10,7 @@ android:
   released: 2020-05-03
   updated: 2020-09-07
   version: 1.1.0
-  icon: com.quanta.qiksa.png
+  icon: com.quanta.qiksa.webp
   meta: removed
   verdict: wip
   developerName: Quanta PLC

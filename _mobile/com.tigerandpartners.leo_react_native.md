@@ -16,7 +16,7 @@ android:
   released: 2022-06-14
   updated: 2024-09-02
   version: 2.1.6
-  icon: com.tigerandpartners.leo_react_native.png
+  icon: com.tigerandpartners.leo_react_native.webp
   meta: removed
   verdict: custodial
   developerName: Tiger and Partners Pty
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-06-20
   version: 2.0.7
   reviews: 0
-  icon: com.tigerandpartners.Leo.jpg
+  icon: com.tigerandpartners.Leo.webp
   meta: removed
   verdict: custodial
   developerName: TIGER AND PARTNERS

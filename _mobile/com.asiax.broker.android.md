@@ -10,7 +10,7 @@ android:
   updated: 2021-05-14
   version: 4.0.2
   reviews: 3
-  icon: com.asiax.broker.android.png
+  icon: com.asiax.broker.android.webp
   meta: removed
   verdict: wip
 

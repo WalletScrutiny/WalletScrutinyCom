@@ -13,7 +13,7 @@ android:
   updated: 2023-02-08
   version: 1.2.7
   reviews: 1
-  icon: com.ljkj.blockpay.png
+  icon: com.ljkj.blockpay.webp
   meta: removed
   verdict: custodial
   developerName: Block Easy Tech Limited

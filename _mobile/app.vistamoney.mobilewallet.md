@@ -10,7 +10,7 @@ android:
   released: 2021-04-29
   updated: 2021-04-30
   version: 0.0.4
-  icon: app.vistamoney.mobilewallet.png
+  icon: app.vistamoney.mobilewallet.webp
   meta: removed
   verdict: wip
   developerName: VistaMoney

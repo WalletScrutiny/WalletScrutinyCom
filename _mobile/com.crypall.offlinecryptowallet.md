@@ -9,7 +9,7 @@ android:
   released: 2019-06-12
   updated: 2019-07-12
   version: '2.2'
-  icon: com.crypall.offlinecryptowallet.png
+  icon: com.crypall.offlinecryptowallet.webp
   meta: removed
   verdict: wip
   developerName: CRYPall Ltd.

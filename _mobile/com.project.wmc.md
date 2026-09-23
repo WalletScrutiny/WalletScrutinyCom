@@ -11,7 +11,7 @@ android:
   released: 2019-09-30
   updated: 2020-03-25
   version: 1.0.4
-  icon: com.project.wmc.png
+  icon: com.project.wmc.webp
   meta: removed
   verdict: wip
   developerName: WorldMiningClub

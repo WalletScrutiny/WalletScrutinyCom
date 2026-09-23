@@ -17,7 +17,7 @@ shop:
 country: DE
 price: 
 repository: https://github.com/Satoshi-Engineering/tip-cards
-icon: lightning.tipcards.png
+icon: lightning.tipcards.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

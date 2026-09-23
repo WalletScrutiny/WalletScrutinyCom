@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2023-11-22
   version: 1.0.17
-  icon: nz.bitaroo.buy.png
+  icon: nz.bitaroo.buy.webp
   meta: removed
   verdict: wip
   developerName: Bitaroo

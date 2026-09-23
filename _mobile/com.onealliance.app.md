@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-09-28
   version: VARY
-  icon: com.onealliance.app.png
+  icon: com.onealliance.app.webp
   meta: removed
   verdict: wip
   developerName: GrupoWJ

@@ -18,7 +18,7 @@ android:
   updated: 2024-11-11
   version: 4.0.45
   reviews: 465
-  icon: com.capitalJ.onJuno.jpg
+  icon: com.capitalJ.onJuno.webp
   meta: removed
   verdict: custodial
   developerName: OnJuno Mobile Banking
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-11-12
   version: 4.3.0
   reviews: 1010
-  icon: com.capitalJ.onJuno.jpg
+  icon: com.capitalJ.onJuno.webp
   meta: removed
   verdict: custodial
   developerName: CapitalJ Inc

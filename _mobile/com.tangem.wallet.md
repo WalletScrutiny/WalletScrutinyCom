@@ -26,7 +26,7 @@ android:
   updated: 2026-09-15
   version: 6.3.1
   reviews: 1911
-  icon: com.tangem.wallet.png
+  icon: com.tangem.wallet.webp
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
   verdict: sourceavailable
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-09-16
   version: 6.3.1
   reviews: 24428
-  icon: com.tangem.Tangem.jpg
+  icon: com.tangem.Tangem.webp
   meta: ok
   verdict: nosource
   developerName: Tangem AG

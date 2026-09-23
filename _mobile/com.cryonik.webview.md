@@ -10,7 +10,7 @@ android:
   released: 2021-01-21
   updated: 2021-01-21
   version: '1.0'
-  icon: com.cryonik.webview.png
+  icon: com.cryonik.webview.webp
   meta: removed
   verdict: wip
 

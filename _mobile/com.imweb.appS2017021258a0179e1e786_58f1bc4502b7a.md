@@ -10,7 +10,7 @@ android:
   released: 2019-04-11
   updated: 2022-07-20
   version: 9.9.3.61
-  icon: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a.png
+  icon: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a.webp
   meta: removed
   verdict: wip
   developerName: BlackWall, Inc.

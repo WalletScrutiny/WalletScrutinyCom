@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2022-01-24
   version: VARY
-  icon: com.xeniosmarkets.png
+  icon: com.xeniosmarkets.webp
   meta: removed
   verdict: wip
   developerName: Xenios Project

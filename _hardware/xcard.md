@@ -17,7 +17,7 @@ shop:
 country: GI
 price: 
 repository: 
-icon: xcard.png
+icon: xcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

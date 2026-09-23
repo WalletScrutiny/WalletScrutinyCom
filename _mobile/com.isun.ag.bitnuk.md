@@ -10,7 +10,7 @@ android:
   released: 2020-02-16
   updated: 2020-03-09
   version: 1.0.1
-  icon: com.isun.ag.bitnuk.png
+  icon: com.isun.ag.bitnuk.webp
   meta: removed
   verdict: wip
   developerName: Bitnuk AG

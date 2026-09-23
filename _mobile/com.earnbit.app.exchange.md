@@ -18,7 +18,7 @@ android:
   released: 2022-10-30
   updated: 2026-05-25
   version: 1.0.27
-  icon: com.earnbit.app.exchange.png
+  icon: com.earnbit.app.exchange.webp
   meta: removed
   verdict: custodial
   developerName: EarnBit Corp.
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-15
   version: 1.0.37
   reviews: 1
-  icon: com.earnBit.exchange.app.jpg
+  icon: com.earnBit.exchange.app.webp
   meta: ok
   verdict: custodial
   developerName: EarnBit LLC

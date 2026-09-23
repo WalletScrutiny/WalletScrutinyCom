@@ -23,7 +23,7 @@ android:
   updated: 2025-02-15
   version: 4.1.8
   reviews: 2
-  icon: com.maskex.app.png
+  icon: com.maskex.app.webp
   meta: stale
   verdict: custodial
   developerName: Maskunion Investments L.L.C.
@@ -35,7 +35,7 @@ iphone:
   updated: 2024-06-03
   version: 2.0.8
   reviews: 8
-  icon: com.maskexnnew.app.jpg
+  icon: com.maskexnnew.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Mask Global Market Co., Ltd

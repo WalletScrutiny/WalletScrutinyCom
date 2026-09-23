@@ -11,7 +11,7 @@ android:
   released: 2023-03-21
   updated: 2023-07-17
   version: '1.0'
-  icon: com.christonet.leobitcoin.png
+  icon: com.christonet.leobitcoin.webp
   meta: obsolete
   verdict: wip
   developerName: Unex

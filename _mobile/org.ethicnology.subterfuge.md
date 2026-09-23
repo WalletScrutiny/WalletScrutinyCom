@@ -10,7 +10,7 @@ android:
   released: 2022-09-11
   updated: 2022-09-11
   version: 1.0.0
-  icon: org.ethicnology.subterfuge.png
+  icon: org.ethicnology.subterfuge.webp
   meta: removed
   verdict: wip
   developerName: ethicnology

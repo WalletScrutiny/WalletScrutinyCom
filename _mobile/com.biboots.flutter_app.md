@@ -19,7 +19,7 @@ android:
   updated: 2024-08-23
   version: 1.7.1
   reviews: 17
-  icon: com.biboots.flutter_app.png
+  icon: com.biboots.flutter_app.webp
   meta: removed
   verdict: custodial
   developerName: Fairdesk Technology Limited
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-02-10
   version: 1.7.0
   reviews: 14
-  icon: com.Fairdesk.fairdesk.jpg
+  icon: com.Fairdesk.fairdesk.webp
   meta: removed
   verdict: custodial
   developerName: FAIRDESK TECHNOLOGY LIMITED

@@ -10,7 +10,7 @@ android:
   released: 2022-02-28
   updated: 2022-03-01
   version: '1.0'
-  icon: com.app.bittrade.png
+  icon: com.app.bittrade.webp
   meta: removed
   verdict: wip
   developerName: AAROTA SOFT TECH

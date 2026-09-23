@@ -10,7 +10,7 @@ android:
   released: 2018-11-21
   updated: 2018-11-21
   version: '1.1'
-  icon: com.cryptex.www.binexhosting.png
+  icon: com.cryptex.www.binexhosting.webp
   meta: removed
   verdict: wip
   developerName: Cryptex PTE. LTD.

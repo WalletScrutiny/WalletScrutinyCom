@@ -10,7 +10,7 @@ android:
   released: 2021-10-20
   updated: 2021-10-20
   version: 1.6.9
-  icon: com.bigminebitcoin1rd0.app.png
+  icon: com.bigminebitcoin1rd0.app.webp
   meta: removed
   verdict: wip
   developerName: Hyperiapp

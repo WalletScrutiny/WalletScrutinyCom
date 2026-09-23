@@ -9,7 +9,7 @@ android:
   released: 2022-01-10
   updated: 2022-01-31
   version: 7.0.0
-  icon: se.example.starboyexchange.png
+  icon: se.example.starboyexchange.webp
   meta: removed
   verdict: wip
   developerName: PlayLoom Studios

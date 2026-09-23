@@ -10,7 +10,7 @@ android:
   released: 2021-03-31
   updated: 2021-03-31
   version: 1.4.6.17
-  icon: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app.png
+  icon: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app.webp
   meta: removed
   verdict: wip
   developerName: Courtesy Logistics

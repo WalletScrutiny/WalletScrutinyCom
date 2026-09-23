@@ -17,7 +17,7 @@ android:
   released: 2022-08-12
   updated: 2024-02-19
   version: 2.6.7
-  icon: com.mc900.mc900.jpg
+  icon: com.mc900.mc900.webp
   meta: removed
   verdict: custodial
   developerName: Headline.net
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-02-28
   version: 2.6.7
   reviews: 0
-  icon: com.mc900.mc900.jpg
+  icon: com.mc900.mc900.webp
   meta: obsolete
   verdict: custodial
   developerName: Magic Compass Ltd

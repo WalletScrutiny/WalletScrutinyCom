@@ -10,7 +10,7 @@ android:
   released: 2020-12-21
   updated: 2020-12-22
   version: 3.8.0
-  icon: com.bexfor.broker.android.png
+  icon: com.bexfor.broker.android.webp
   meta: removed
   verdict: wip
 

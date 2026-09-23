@@ -15,7 +15,7 @@ android:
   released: 2021-05-17
   updated: 2026-09-08
   version: 4.2.4
-  icon: com.coinbest.coinbest.png
+  icon: com.coinbest.coinbest.webp
   meta: ok
   verdict: custodial
   developerName: 暗号資産取引ならOSL Japan
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-09-10
   version: 4.1.9
   reviews: 12
-  icon: com.coinbest.bitcoinbestkk.jpg
+  icon: com.coinbest.bitcoinbestkk.webp
   meta: ok
   verdict: custodial
   developerName: OSL Japan Limited

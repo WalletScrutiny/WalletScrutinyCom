@@ -11,7 +11,7 @@ android:
   released: 2025-10-01
   updated: 2026-09-02
   version: 1.7.3
-  icon: cz.coin.png
+  icon: cz.coin.webp
   meta: fewusers
   verdict: wip
   developerName: GENERAL BYTES

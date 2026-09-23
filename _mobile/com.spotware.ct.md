@@ -21,7 +21,7 @@ android:
   updated: 2026-09-14
   version: 5.10.200
   reviews: 396
-  icon: com.spotware.ct.png
+  icon: com.spotware.ct.webp
   meta: ok
   verdict: nosendreceive
   developerName: Spotware
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-15
   version: 5.10.200
   reviews: 830
-  icon: com.spotware.ct.jpg
+  icon: com.spotware.ct.webp
   meta: ok
   verdict: nosendreceive
   developerName: Spotware

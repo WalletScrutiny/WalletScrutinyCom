@@ -22,7 +22,7 @@ android:
   updated: 2024-06-17
   version: 2.4.6
   reviews: 6
-  icon: io.hexawallet.hexa2.png
+  icon: io.hexawallet.hexa2.webp
   meta: removed
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
@@ -34,7 +34,7 @@ iphone:
   updated: 2025-01-20
   version: 2.4.8
   reviews: 9
-  icon: io.hexawallet.hexa2.jpg
+  icon: io.hexawallet.hexa2.webp
   meta: removed
   verdict: sourceavailable
   developerName: Bithyve

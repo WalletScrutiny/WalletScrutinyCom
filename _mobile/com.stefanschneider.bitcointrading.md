@@ -10,7 +10,7 @@ android:
   released: 2019-07-01
   updated: 2019-10-12
   version: 2.0.0
-  icon: com.stefanschneider.bitcointrading.png
+  icon: com.stefanschneider.bitcointrading.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Trading Global

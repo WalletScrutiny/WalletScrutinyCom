@@ -11,7 +11,7 @@ android:
   updated: 2022-06-13
   version: 1.0.9
   reviews: 7
-  icon: com.trdc.token.png
+  icon: com.trdc.token.webp
   meta: removed
   verdict: wip
   developerName: TRDC

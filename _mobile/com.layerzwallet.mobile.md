@@ -11,7 +11,7 @@ android:
   released: 2025-12-19
   updated: 2026-07-21
   version: 1.6.0
-  icon: com.layerzwallet.mobile.jpg
+  icon: com.layerzwallet.mobile.webp
   meta: fewusers
   verdict: wip
   developerName: Layerz Tec Ltd

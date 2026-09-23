@@ -10,7 +10,7 @@ android:
   released: 2022-01-16
   updated: 2022-01-16
   version: '1.5'
-  icon: com.astrolltd.astrollax.png
+  icon: com.astrolltd.astrollax.webp
   meta: removed
   verdict: wip
   developerName: Astrollax

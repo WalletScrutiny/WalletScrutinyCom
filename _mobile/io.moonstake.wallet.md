@@ -21,7 +21,7 @@ android:
   updated: 2026-07-06
   version: 2.36.11
   reviews: 20
-  icon: io.moonstake.wallet.png
+  icon: io.moonstake.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Moonstake Developer
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-07-02
   version: 2.36.11
   reviews: 18
-  icon: io.moonstake.wallet.jpg
+  icon: io.moonstake.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Moonstake Limited

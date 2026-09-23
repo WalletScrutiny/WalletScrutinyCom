@@ -12,7 +12,7 @@ android:
   released: 2021-11-10
   updated: 2022-09-09
   version: 1.0.1
-  icon: nuyandsellitcoin.marketplayceguidebinnace.png
+  icon: nuyandsellitcoin.marketplayceguidebinnace.webp
   meta: removed
   verdict: fake
   developerName: Lil99Campbell

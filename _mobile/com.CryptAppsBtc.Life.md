@@ -11,7 +11,7 @@ android:
   released: 2022-03-28
   updated: 2022-03-28
   version: '0.1'
-  icon: com.CryptAppsBtc.Life.png
+  icon: com.CryptAppsBtc.Life.webp
   meta: removed
   verdict: wip
   developerName: Lifestyle Aррs

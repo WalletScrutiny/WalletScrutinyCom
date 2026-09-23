@@ -17,7 +17,7 @@ android:
   users: 1000
   updated: 2024-06-18
   version: 2.1.50
-  icon: iforexcrypto.clients.android.png
+  icon: iforexcrypto.clients.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Formula Investments House LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-11-22
   version: 3.1.23
   reviews: 0
-  icon: com.bootleg.iforexCryptoWrapper.jpg
+  icon: com.bootleg.iforexCryptoWrapper.webp
   meta: removed
   verdict: nosendreceive
   developerName: Formula Investment House Ltd.

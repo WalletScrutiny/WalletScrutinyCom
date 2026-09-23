@@ -20,7 +20,7 @@ shop: https://satochip.io/product/seedkeeper/
 country: BE
 price: 25 EUR
 repository: https://github.com/Toporin/Seedkeeper-Applet
-icon: satochip.seedkeeper.png
+icon: satochip.seedkeeper.webp
 bugbounty: 
 meta: ok
 verdict: plainkey

@@ -19,7 +19,7 @@ android:
   updated: 2026-09-16
   version: 2.1.11
   reviews: 2907
-  icon: com.core.app.flitpay.png
+  icon: com.core.app.flitpay.webp
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-19
   version: 2.1.1
   reviews: 135
-  icon: com.core.ios.flitpay.jpg
+  icon: com.core.ios.flitpay.webp
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD

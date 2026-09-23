@@ -17,7 +17,7 @@ android:
   updated: 2021-10-22
   version: 8.9.3
   reviews: 78
-  icon: com.polispay.copay.png
+  icon: com.polispay.copay.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-10-22
   version: 8.9.3
   reviews: 7
-  icon: com.polispay.polispay.jpg
+  icon: com.polispay.polispay.webp
   meta: removed
   verdict: nosource
 

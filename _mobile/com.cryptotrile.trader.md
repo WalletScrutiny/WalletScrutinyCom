@@ -10,7 +10,7 @@ android:
   released: 2022-08-09
   updated: 2023-09-02
   version: 1.0.2
-  icon: com.cryptotrile.trader.png
+  icon: com.cryptotrile.trader.webp
   meta: removed
   verdict: wip
   developerName: Kryptsam

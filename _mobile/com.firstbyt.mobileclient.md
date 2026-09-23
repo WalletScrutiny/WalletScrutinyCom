@@ -10,7 +10,7 @@ android:
   released: 2022-11-02
   updated: 2022-11-02
   version: '1.0'
-  icon: com.firstbyt.mobileclient.jpg
+  icon: com.firstbyt.mobileclient.webp
   meta: removed
   verdict: wip
   developerName: FBYT

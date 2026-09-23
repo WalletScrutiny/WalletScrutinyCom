@@ -21,7 +21,7 @@ shop: https://shop.ledger.com/products/ledger-nano-s
 country: FR
 price: 45999CLP
 repository: https://github.com/LedgerHQ/app-bitcoin
-icon: ledgerNanoS.png
+icon: ledgerNanoS.webp
 bugbounty: 
 meta: ok
 verdict: nosource

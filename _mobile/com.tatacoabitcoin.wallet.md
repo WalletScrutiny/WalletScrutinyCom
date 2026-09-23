@@ -10,7 +10,7 @@ android:
   released: 2022-06-29
   updated: 2023-08-17
   version: 1.6.2
-  icon: com.tatacoabitcoin.wallet.png
+  icon: com.tatacoabitcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: CitizenFour

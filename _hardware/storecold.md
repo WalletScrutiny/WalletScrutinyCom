@@ -17,7 +17,7 @@ shop: https://www.storecold.io/checkout.html#deadLink
 country: 
 price: 350USD
 repository: 
-icon: storecold.png
+icon: storecold.webp
 bugbounty: 
 meta: stale
 verdict: vapor

@@ -12,7 +12,7 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 3.3.01
-  icon: com.pi42.app.png
+  icon: com.pi42.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Lightningnodes Technologies Pvt Ltd

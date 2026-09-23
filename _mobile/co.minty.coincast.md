@@ -21,7 +21,7 @@ android:
   updated: 2022-05-13
   version: 1.2.15
   reviews: 30
-  icon: co.minty.coincast.png
+  icon: co.minty.coincast.webp
   meta: removed
   verdict: nosource
   developerName: Minty Networks, LLC
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-05-08
   version: 1.2.14
   reviews: 25
-  icon: co.Minty.Coincast.jpg
+  icon: co.Minty.Coincast.webp
   meta: removed
   verdict: nosource
   developerName: Minty Networks, LLC.

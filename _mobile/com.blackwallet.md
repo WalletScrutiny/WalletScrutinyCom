@@ -11,7 +11,7 @@ android:
   updated: 2023-05-02
   version: '1.1'
   reviews: 4
-  icon: com.blackwallet.png
+  icon: com.blackwallet.webp
   meta: removed
   verdict: wip
   developerName: WAPCENTR.COM

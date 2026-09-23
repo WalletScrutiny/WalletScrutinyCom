@@ -16,7 +16,7 @@ android:
   updated: 2022-01-19
   version: 1.1.2
   reviews: 5
-  icon: com.blockcurators.coinkit.png
+  icon: com.blockcurators.coinkit.webp
   meta: removed
   verdict: custodial
   developerName: Blockcurators GmbH
@@ -28,7 +28,7 @@ iphone:
   updated: 2021-12-29
   version: 1.2.1
   reviews: 3
-  icon: com.blockcurators.coinkit.jpg
+  icon: com.blockcurators.coinkit.webp
   meta: obsolete
   verdict: custodial
   developerName: BLOCKCURATORS GMBH

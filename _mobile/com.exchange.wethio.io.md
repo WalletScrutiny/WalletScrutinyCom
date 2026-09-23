@@ -22,7 +22,7 @@ android:
   updated: 2022-11-24
   version: 2.3.3
   reviews: 4
-  icon: com.exchange.wethio.io.png
+  icon: com.exchange.wethio.io.webp
   meta: obsolete
   verdict: custodial
   developerName: Karim Ahmed BENABDELKADER
@@ -34,7 +34,7 @@ iphone:
   updated: 2023-01-31
   version: 3.0.6
   reviews: 4
-  icon: com.wethio.io.wethioX.jpg
+  icon: com.wethio.io.wethioX.webp
   meta: obsolete
   verdict: custodial
   developerName: Applinum

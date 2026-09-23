@@ -10,7 +10,7 @@ android:
   released: 2021-08-18
   updated: 2023-02-21
   version: 10.0.5
-  icon: com.dn.hive.png
+  icon: com.dn.hive.webp
   meta: removed
   verdict: wip
   developerName: HoneyCoin
@@ -22,7 +22,7 @@ iphone:
   updated: 2023-02-17
   version: 1.0.6
   reviews: 4
-  icon: com.dn.hive.jpg
+  icon: com.dn.hive.webp
   meta: obsolete
   verdict: wip
   developerName: HoneyCoin, Inc.

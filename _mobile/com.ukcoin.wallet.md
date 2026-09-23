@@ -12,7 +12,7 @@ android:
   released: 2020-07-16
   updated: 2020-07-16
   version: 1.0.0
-  icon: com.ukcoin.wallet.png
+  icon: com.ukcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: UKCOIN

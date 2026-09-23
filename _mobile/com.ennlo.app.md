@@ -10,7 +10,7 @@ android:
   released: 2019-08-01
   updated: 2019-09-11
   version: '1'
-  icon: com.ennlo.app.png
+  icon: com.ennlo.app.webp
   meta: removed
   verdict: wip
   developerName: Tencoins Ltd

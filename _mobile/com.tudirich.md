@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-09-25
   version: VARY
-  icon: com.tudirich.jpg
+  icon: com.tudirich.webp
   meta: removed
   verdict: wip
   developerName: Tudirich

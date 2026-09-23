@@ -21,7 +21,7 @@ android:
   updated: 2023-03-16
   version: 3.2.7
   reviews: 27
-  icon: com.trofi.png
+  icon: com.trofi.webp
   meta: removed
   verdict: custodial
   developerName: Trofi Group
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-05-29
   version: 1.1.0
   reviews: 0
-  icon: com.yield.demosp.jpg
+  icon: com.yield.demosp.webp
   meta: removed
   verdict: custodial
   developerName: Yield App

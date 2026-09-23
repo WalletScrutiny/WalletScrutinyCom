@@ -30,7 +30,7 @@ android:
   updated: 2026-09-15
   version: 3.0.0
   reviews: 3817
-  icon: com.defi.wallet.png
+  icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cronos Technologies Limited
@@ -42,7 +42,7 @@ iphone:
   updated: 2026-09-17
   version: 3.0.0
   reviews: 22268
-  icon: com.defi.wallet.jpg
+  icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cronos Technologies Limited

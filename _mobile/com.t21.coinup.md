@@ -13,7 +13,7 @@ iphone:
   updated: 2026-06-15
   version: '100035'
   reviews: 28
-  icon: com.t21.coinup.jpg
+  icon: com.t21.coinup.webp
   meta: removed
   verdict: wip
   developerName: CoinUp Global Limited

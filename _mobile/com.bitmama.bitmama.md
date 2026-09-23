@@ -20,7 +20,7 @@ android:
   updated: 2025-04-22
   version: 1.1.122
   reviews: 15
-  icon: com.bitmama.bitmama.png
+  icon: com.bitmama.bitmama.webp
   meta: stale
   verdict: custodial
   developerName: WIL Platform Grp.
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-04-26
   version: 1.0.77
   reviews: 2
-  icon: com.bitmama.bitmama.ios.jpg
+  icon: com.bitmama.bitmama.ios.webp
   meta: removed
   verdict: custodial
   developerName: Bitmama Inc

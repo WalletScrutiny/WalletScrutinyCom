@@ -8,7 +8,7 @@ android:
   users: 10
   updated: 2019-09-13
   version: VARY
-  icon: com.mocrow.png
+  icon: com.mocrow.webp
   meta: removed
   verdict: wip
   developerName: Cynotrust Intelligent Systems

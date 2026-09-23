@@ -21,7 +21,7 @@ android:
   updated: 2023-07-20
   version: 2.2.106
   reviews: 6
-  icon: com.exchangily.wallet.png
+  icon: com.exchangily.wallet.webp
   meta: obsolete
   verdict: wip
   developerName: Exchangily LLC
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-03-20
   version: 2.1.88
   reviews: 14
-  icon: com.exchangily.app.jpg
+  icon: com.exchangily.app.webp
   meta: defunct
   verdict: sourceavailable
   developerName: Exchangily LLC

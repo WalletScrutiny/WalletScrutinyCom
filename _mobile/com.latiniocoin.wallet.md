@@ -10,7 +10,7 @@ android:
   released: 2021-05-11
   updated: 2021-05-12
   version: v1.0.0
-  icon: com.latiniocoin.wallet.png
+  icon: com.latiniocoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Technology SAS

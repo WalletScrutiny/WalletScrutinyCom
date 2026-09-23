@@ -26,7 +26,7 @@ android:
   updated: 2026-08-24
   version: 3.0.31
   reviews: 49
-  icon: com.galoyapp.png
+  icon: com.galoyapp.webp
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador S.A. de C.V.
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-08-26
   version: 3.0.31
   reviews: 68
-  icon: io.galoy.bitcoinbeach.jpg
+  icon: io.galoy.bitcoinbeach.webp
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador Sociedad Anonima de Capital Variable

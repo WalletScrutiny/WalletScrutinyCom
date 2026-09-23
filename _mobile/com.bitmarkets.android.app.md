@@ -17,7 +17,7 @@ android:
   released: 2022-10-04
   updated: 2026-07-27
   version: 3.9.3
-  icon: com.bitmarkets.android.app.png
+  icon: com.bitmarkets.android.app.webp
   meta: ok
   verdict: custodial
   developerName: Unicorn Technologies Limited

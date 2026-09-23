@@ -13,7 +13,7 @@ android:
   released: 2020-09-07
   updated: 2020-11-05
   version: 1.3.2
-  icon: com.visionwallet.app.png
+  icon: com.visionwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: VISION WALLET LTD

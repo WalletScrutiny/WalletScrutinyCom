@@ -21,7 +21,7 @@ android:
   updated: 2023-10-23
   version: 0.9.1
   reviews: 61
-  icon: com.fibitpro.fibitapp.png
+  icon: com.fibitpro.fibitapp.webp
   meta: removed
   verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-09-08
   version: 1.1.3
   reviews: 10
-  icon: com.fibit.ios.jpg
+  icon: com.fibit.ios.webp
   meta: removed
   verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.

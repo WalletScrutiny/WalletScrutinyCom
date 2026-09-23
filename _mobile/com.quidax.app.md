@@ -21,7 +21,7 @@ android:
   updated: 2021-01-12
   version: 1.8.0
   reviews: 1584
-  icon: com.quidax.app.png
+  icon: com.quidax.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-01-15
   version: 1.8.0
   reviews: 103
-  icon: com.quidax.app.jpg
+  icon: com.quidax.app.webp
   meta: removed
   verdict: custodial
 

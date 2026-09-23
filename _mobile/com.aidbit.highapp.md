@@ -10,7 +10,7 @@ android:
   updated: 2022-02-23
   version: 1.2.4
   reviews: 29
-  icon: com.aidbit.highapp.png
+  icon: com.aidbit.highapp.webp
   meta: removed
   verdict: wip
 

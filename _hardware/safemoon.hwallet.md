@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: safemoon.hwallet.png
+icon: safemoon.hwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

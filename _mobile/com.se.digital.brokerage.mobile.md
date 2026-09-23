@@ -18,7 +18,7 @@ android:
   released: 2021-12-08
   updated: 2025-07-15
   version: 2.17.0
-  icon: com.se.digital.brokerage.mobile.png
+  icon: com.se.digital.brokerage.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XSpring Digital Co., Ltd.
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-09-26
   version: 2.0.10
   reviews: 1
-  icon: com.se.digital.brokerage.mobile.jpg
+  icon: com.se.digital.brokerage.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XSPRING DIGITAL COMPANY LIMITED

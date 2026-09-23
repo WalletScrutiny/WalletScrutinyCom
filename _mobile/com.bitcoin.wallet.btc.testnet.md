@@ -11,7 +11,7 @@ android:
   updated: 2019-07-05
   version: '1.0'
   reviews: 1
-  icon: com.bitcoin.wallet.btc.testnet.png
+  icon: com.bitcoin.wallet.btc.testnet.webp
   meta: removed
   verdict: wip
   developerName: InvoVN Solutions

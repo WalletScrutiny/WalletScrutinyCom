@@ -9,7 +9,7 @@ android:
   released: 2022-03-22
   updated: 2022-03-30
   version: 1.0.2
-  icon: bittdog.com.png
+  icon: bittdog.com.webp
   meta: removed
   verdict: wip
   developerName: Kate Jason

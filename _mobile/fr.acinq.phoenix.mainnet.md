@@ -26,7 +26,7 @@ android:
   updated: 2026-09-04
   version: 2.8.2
   reviews: 11
-  icon: fr.acinq.phoenix.mainnet.png
+  icon: fr.acinq.phoenix.mainnet.webp
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
   meta: ok
   verdict: sourceavailable
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-09-08
   version: 2.8.2
   reviews: 21
-  icon: co.acinq.phoenix.jpg
+  icon: co.acinq.phoenix.webp
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ

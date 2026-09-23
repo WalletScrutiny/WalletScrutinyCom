@@ -11,7 +11,7 @@ android:
   updated: 2019-06-19
   version: 1.0.3
   reviews: 5
-  icon: com.worldpay.wallet.png
+  icon: com.worldpay.wallet.webp
   meta: removed
   verdict: wip
   developerName: World Credit Savings Limited

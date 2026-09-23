@@ -22,7 +22,7 @@ android:
   updated: 2022-06-15
   version: 3.0.0
   reviews: 428
-  icon: com.liberty.jaxx.png
+  icon: com.liberty.jaxx.webp
   meta: removed
   verdict: nosource
   developerName: Decentral Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-06-20
   version: 3.0.0
   reviews: 1566
-  icon: com.liberty.jaxx.jpg
+  icon: com.liberty.jaxx.webp
   meta: removed
   verdict: nosource
   developerName: Decentral Inc.

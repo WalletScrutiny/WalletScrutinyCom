@@ -11,7 +11,7 @@ android:
   released: 2024-06-14
   updated: 2024-06-22
   version: '1.0'
-  icon: com.catshouse.bitcoinhelper.png
+  icon: com.catshouse.bitcoinhelper.webp
   meta: obsolete
   verdict: wip
   developerName: Cats' House Development

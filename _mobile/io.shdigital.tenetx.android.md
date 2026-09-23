@@ -10,7 +10,7 @@ android:
   released: 2022-07-09
   updated: 2022-12-28
   version: 1.0.19
-  icon: io.shdigital.tenetx.android.png
+  icon: io.shdigital.tenetx.android.webp
   meta: removed
   verdict: wip
   developerName: SHDigital

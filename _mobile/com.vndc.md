@@ -18,7 +18,7 @@ android:
   updated: 2026-03-08
   version: 6.4.7
   reviews: 1467
-  icon: com.vndc.png
+  icon: com.vndc.webp
   meta: removed
   verdict: custodial
   developerName: ONUS FINANCE UAB
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-04-20
   version: 6.0.7
   reviews: 1327
-  icon: com.vndc.app.jpg
+  icon: com.vndc.app.webp
   meta: removed
   verdict: custodial
   developerName: ONUS Finance UAB

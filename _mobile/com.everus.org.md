@@ -17,7 +17,7 @@ android:
   updated: 2021-03-07
   version: 1.2.9
   reviews: 229
-  icon: com.everus.org.png
+  icon: com.everus.org.webp
   meta: removed
   verdict: custodial
 

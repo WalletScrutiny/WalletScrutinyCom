@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2022-08-09
   version: 1.5.2
-  icon: trade.tiger.copytrading.png
+  icon: trade.tiger.copytrading.webp
   meta: removed
   verdict: wip
   developerName: Tiger.Trade

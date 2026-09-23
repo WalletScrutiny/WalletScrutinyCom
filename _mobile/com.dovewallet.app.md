@@ -17,7 +17,7 @@ android:
   updated: 2020-12-23
   version: 1.0.6
   reviews: 5
-  icon: com.dovewallet.app.png
+  icon: com.dovewallet.app.webp
   meta: removed
   verdict: custodial
 

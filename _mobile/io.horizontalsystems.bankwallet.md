@@ -31,7 +31,7 @@ android:
   updated: 2026-09-15
   version: 0.51.1
   reviews: 143
-  icon: io.horizontalsystems.bankwallet.png
+  icon: io.horizontalsystems.bankwallet.webp
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
   - fdroid
@@ -47,7 +47,7 @@ iphone:
   updated: 2026-09-16
   version: '0.51'
   reviews: 1359
-  icon: io.horizontalsystems.bank-wallet.jpg
+  icon: io.horizontalsystems.bank-wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Horizontal Systems

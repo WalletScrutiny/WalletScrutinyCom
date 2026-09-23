@@ -10,7 +10,7 @@ android:
   released: 2020-11-11
   updated: 2020-11-11
   version: '1.0'
-  icon: skyefly.net.png
+  icon: skyefly.net.webp
   meta: removed
   verdict: wip
   developerName: Omojowo Technologies

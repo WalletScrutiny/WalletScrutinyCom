@@ -11,7 +11,7 @@ android:
   updated: 2022-11-22
   version: 1.2.5
   reviews: 2
-  icon: uni.UNI8B7D0E0.jpg
+  icon: uni.UNI8B7D0E0.webp
   meta: removed
   verdict: wip
   developerName: Vitatoken

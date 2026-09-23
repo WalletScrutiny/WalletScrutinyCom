@@ -10,7 +10,7 @@ android:
   updated: 2019-12-20
   version: 1.3.0.1
   reviews: 304
-  icon: ch.btcfx.png
+  icon: ch.btcfx.webp
   meta: removed
   verdict: wip
 

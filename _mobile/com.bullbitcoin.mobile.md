@@ -31,7 +31,7 @@ android:
   updated: 2026-09-01
   version: 6.13.0
   reviews: 8
-  icon: com.bullbitcoin.mobile.png
+  icon: com.bullbitcoin.mobile.webp
   meta: ok
   verdict: sourceavailable
   developerName: Bull Bitcoin
@@ -44,7 +44,7 @@ iphone:
   updated: 2026-09-02
   version: 6.13.1
   reviews: 21
-  icon: com.bullbitcoin.app.jpg
+  icon: com.bullbitcoin.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Satoshi Portal Inc

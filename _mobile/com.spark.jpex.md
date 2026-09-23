@@ -18,7 +18,7 @@ android:
   released: 2020-07-30
   updated: 2023-08-02
   version: 2.83.848
-  icon: com.spark.jpex.jpg
+  icon: com.spark.jpex.webp
   meta: removed
   verdict: custodial
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-08-02
   version: 2.83.848
   reviews: 4
-  icon: io.jp-ex.iosapp2.jpg
+  icon: io.jp-ex.iosapp2.webp
   meta: removed
   verdict: custodial
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD

@@ -10,7 +10,7 @@ android:
   released: 2022-03-20
   updated: 2022-03-20
   version: '1.0'
-  icon: net.nominex.apps.android6236aebfec5fb.png
+  icon: net.nominex.apps.android6236aebfec5fb.webp
   meta: removed
   verdict: wip
 

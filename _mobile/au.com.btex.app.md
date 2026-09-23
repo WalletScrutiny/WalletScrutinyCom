@@ -10,7 +10,7 @@ android:
   released: 2020-01-15
   updated: 2020-01-19
   version: 1.0.2
-  icon: au.com.btex.app.png
+  icon: au.com.btex.app.webp
   meta: removed
   verdict: wip
   developerName: oziwebsite

@@ -21,7 +21,7 @@ android:
   users: 100000
   updated: 2026-03-09
   version: 3.5.0
-  icon: neutronpay.wallet.png
+  icon: neutronpay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Neutronpay Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-10-30
   version: 3.3.0
   reviews: 18
-  icon: neutronpay.wallet.jpg
+  icon: neutronpay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Neutronpay Inc.

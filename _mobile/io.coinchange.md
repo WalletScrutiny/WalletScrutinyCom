@@ -21,7 +21,7 @@ android:
   updated: 2023-11-29
   version: 2.1.0
   reviews: 154
-  icon: io.coinchange.png
+  icon: io.coinchange.webp
   meta: obsolete
   verdict: custodial
   developerName: Coinchange  Financials Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-04-18
   version: 2.0.2
   reviews: 40
-  icon: io.coinchange.jpg
+  icon: io.coinchange.webp
   meta: removed
   verdict: custodial
   developerName: Coinchange Financials Inc

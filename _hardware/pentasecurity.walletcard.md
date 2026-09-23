@@ -17,7 +17,7 @@ shop:
 country: KR
 price: 
 repository: 
-icon: pentasecurity.walletcard.png
+icon: pentasecurity.walletcard.webp
 bugbounty: 
 meta: ok
 verdict: noita

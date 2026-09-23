@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2018-09-04
   version: VARY
-  icon: com.feldrise.Atotupe.png
+  icon: com.feldrise.Atotupe.webp
   meta: removed
   verdict: wip
   developerName: Feldrise

@@ -9,7 +9,7 @@ android:
   released: 2020-10-24
   updated: 2020-10-24
   version: '0.6'
-  icon: com.Go9tro.newwallet.png
+  icon: com.Go9tro.newwallet.webp
   meta: removed
   verdict: wip
 

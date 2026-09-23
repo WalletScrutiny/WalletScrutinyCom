@@ -24,7 +24,7 @@ android:
   updated: 2025-12-19
   version: 3.18.0
   reviews: 5
-  icon: com.deribit.png
+  icon: com.deribit.webp
   meta: ok
   verdict: custodial
   developerName: Deribit
@@ -36,7 +36,7 @@ iphone:
   updated: 2025-12-22
   version: 3.18.0
   reviews: 6
-  icon: com.deribit.jpg
+  icon: com.deribit.webp
   meta: ok
   verdict: custodial
   developerName: Sentillia B.V.

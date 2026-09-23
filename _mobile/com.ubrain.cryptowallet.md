@@ -10,7 +10,7 @@ android:
   released: 2022-04-22
   updated: 2023-04-18
   version: '1.1'
-  icon: com.ubrain.cryptowallet.png
+  icon: com.ubrain.cryptowallet.webp
   meta: removed
   verdict: wip
   developerName: Mitul Bhadeshiya

@@ -9,7 +9,7 @@ android:
   released: 2022-12-11
   updated: 2022-12-12
   version: 1.0.0
-  icon: com.companyname.seedgenerator.png
+  icon: com.companyname.seedgenerator.webp
   meta: removed
   verdict: wip
   developerName: by Wabi Sabik

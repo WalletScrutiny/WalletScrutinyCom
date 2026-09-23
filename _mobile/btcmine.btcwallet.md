@@ -13,7 +13,7 @@ android:
   updated: 2017-08-13
   version: '1.1'
   reviews: 7
-  icon: btcmine.btcwallet.png
+  icon: btcmine.btcwallet.webp
   meta: removed
   verdict: custodial
 

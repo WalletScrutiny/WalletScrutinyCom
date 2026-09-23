@@ -18,7 +18,7 @@ android:
   released: 2021-07-04
   updated: 2022-05-27
   version: 2.2.5
-  icon: africa.talos.android.png
+  icon: africa.talos.android.webp
   meta: removed
   verdict: custodial
   developerName: Talos Africa

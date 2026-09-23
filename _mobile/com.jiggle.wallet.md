@@ -17,7 +17,7 @@ android:
   updated: 2026-09-18
   version: 3.3.0
   reviews: 38
-  icon: com.jiggle.wallet.jpg
+  icon: com.jiggle.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-21
   version: 3.3.0
   reviews: 291
-  icon: com.jiggle.cryptowallet.jpg
+  icon: com.jiggle.cryptowallet.webp
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO

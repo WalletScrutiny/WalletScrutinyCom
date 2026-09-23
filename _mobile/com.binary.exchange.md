@@ -10,7 +10,7 @@ android:
   released: 2020-08-19
   updated: 2020-09-27
   version: 4.0.0
-  icon: com.binary.exchange.png
+  icon: com.binary.exchange.webp
   meta: removed
   verdict: wip
 

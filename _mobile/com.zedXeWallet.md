@@ -20,7 +20,7 @@ android:
   released: 2020-05-07
   updated: 2020-06-11
   version: '1.8'
-  icon: com.zedXeWallet.png
+  icon: com.zedXeWallet.webp
   meta: removed
   verdict: nosource
   developerName: Zuf Info Tech, LDA

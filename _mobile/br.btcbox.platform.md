@@ -10,7 +10,7 @@ android:
   released: 2021-09-30
   updated: 2021-09-30
   version: '1.0'
-  icon: br.btcbox.platform.png
+  icon: br.btcbox.platform.webp
   meta: removed
   verdict: wip
   developerName: M&C Inovação

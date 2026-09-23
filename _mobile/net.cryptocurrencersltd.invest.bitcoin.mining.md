@@ -9,7 +9,7 @@ android:
   released: 2021-07-18
   updated: 2021-07-18
   version: '1.0'
-  icon: net.cryptocurrencersltd.invest.bitcoin.mining.png
+  icon: net.cryptocurrencersltd.invest.bitcoin.mining.webp
   meta: removed
   verdict: wip
 

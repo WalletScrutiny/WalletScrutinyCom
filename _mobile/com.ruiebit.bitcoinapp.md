@@ -12,7 +12,7 @@ iphone:
   updated: 2026-02-24
   version: 3.6.6
   reviews: 52
-  icon: com.ruiebit.bitcoinapp.jpg
+  icon: com.ruiebit.bitcoinapp.webp
   meta: removed
   verdict: wip
   developerName: DeBeque Youth

@@ -24,7 +24,7 @@ android:
   updated: 2026-05-24
   version: 1.4.8
   reviews: 2
-  icon: app.bitcoinjungle.mobile.png
+  icon: app.bitcoinjungle.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-05-28
   version: 1.4.8
   reviews: 18
-  icon: app.bitcoinjungle.ios.jpg
+  icon: app.bitcoinjungle.ios.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle LLC

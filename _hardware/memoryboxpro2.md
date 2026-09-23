@@ -18,7 +18,7 @@ shop:
 country: CH
 price: 
 repository: 
-icon: memoryboxpro2.png
+icon: memoryboxpro2.webp
 bugbounty: 
 meta: ok
 verdict: noita

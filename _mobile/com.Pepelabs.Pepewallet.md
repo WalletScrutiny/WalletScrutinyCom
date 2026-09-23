@@ -13,7 +13,7 @@ android:
   updated: 2023-12-29
   version: 2.1.2
   reviews: 69
-  icon: com.Pepelabs.Pepewallet.png
+  icon: com.Pepelabs.Pepewallet.webp
   meta: removed
   verdict: wip
   developerName: LusoLabs

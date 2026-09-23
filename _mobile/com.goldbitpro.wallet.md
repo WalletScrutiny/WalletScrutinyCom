@@ -10,7 +10,7 @@ android:
   released: 2021-03-14
   updated: 2024-03-06
   version: 3.5.15
-  icon: com.goldbitpro.wallet.png
+  icon: com.goldbitpro.wallet.webp
   meta: obsolete
   verdict: wip
   developerName: BSTYLE TECHNOLOGY INC.

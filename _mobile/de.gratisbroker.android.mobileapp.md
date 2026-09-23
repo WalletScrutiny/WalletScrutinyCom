@@ -20,7 +20,7 @@ android:
   updated: 2026-09-18
   version: 5.20.0
   reviews: 8
-  icon: de.gratisbroker.android.mobileapp.png
+  icon: de.gratisbroker.android.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-21
   version: 5.21.0
   reviews: 26846
-  icon: de.gratisbroker.ios.mobileapp.jpg
+  icon: de.gratisbroker.ios.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH

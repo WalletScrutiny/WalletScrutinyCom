@@ -21,7 +21,7 @@ android:
   updated: 2026-09-17
   version: 1.3.2230
   reviews: 490
-  icon: io.eldorado.app.png
+  icon: io.eldorado.app.webp
   meta: ok
   verdict: custodial
   developerName: eldorado.io
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-05-16
   version: 1.3.1492
   reviews: 6036
-  icon: io.eldorado.app.v1.jpg
+  icon: io.eldorado.app.v1.webp
   meta: removed
   verdict: custodial
   developerName: eldorado.io

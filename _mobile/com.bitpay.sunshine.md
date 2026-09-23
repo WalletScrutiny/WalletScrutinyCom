@@ -10,7 +10,7 @@ android:
   released: 2017-08-12
   updated: 2017-08-18
   version: 3.7.3
-  icon: com.bitpay.sunshine.png
+  icon: com.bitpay.sunshine.webp
   meta: removed
   verdict: wip
 

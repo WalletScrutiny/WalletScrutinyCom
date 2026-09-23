@@ -20,7 +20,7 @@ android:
   updated: 2026-09-10
   version: 2.2.6.008
   reviews: 1179
-  icon: com.webull.pay.us.png
+  icon: com.webull.pay.us.webp
   meta: ok
   verdict: custodial
   developerName: Webull Pay Holdings Inc
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-13
   version: 2.2.8
   reviews: 26239
-  icon: com.webull.pay.us.jpg
+  icon: com.webull.pay.us.webp
   meta: ok
   verdict: custodial
   developerName: WEBULL PAY PTE. LTD.

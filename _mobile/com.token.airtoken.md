@@ -12,7 +12,7 @@ android:
   released: 2019-06-18
   updated: 2019-07-11
   version: 1.0.18
-  icon: com.token.airtoken.png
+  icon: com.token.airtoken.webp
   meta: removed
   verdict: wip
   developerName: Air Token

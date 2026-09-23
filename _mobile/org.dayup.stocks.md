@@ -19,7 +19,7 @@ android:
   updated: 2026-09-11
   version: 12.3.5.27
   reviews: 41760
-  icon: org.dayup.stocks.png
+  icon: org.dayup.stocks.webp
   meta: ok
   verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-14
   version: 12.4.0
   reviews: 341218
-  icon: com.webull.trade.jpg
+  icon: com.webull.trade.webp
   meta: ok
   verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.

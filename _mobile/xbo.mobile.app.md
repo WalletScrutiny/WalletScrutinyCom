@@ -23,7 +23,7 @@ android:
   updated: 2026-03-03
   version: 3.7.1
   reviews: 16
-  icon: xbo.mobile.app.png
+  icon: xbo.mobile.app.webp
   meta: ok
   verdict: custodial
   developerName: Metafortune LTD
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-14
   version: 3.17.0
   reviews: 8
-  icon: xbo.mobile.app.jpg
+  icon: xbo.mobile.app.webp
   meta: ok
   verdict: custodial
   developerName: XBO

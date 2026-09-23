@@ -11,7 +11,7 @@ android:
   users: 500
   updated: 2019-03-01
   version: Varies with device
-  icon: org.freewallet.lite.android.png
+  icon: org.freewallet.lite.android.webp
   meta: removed
   verdict: wip
 

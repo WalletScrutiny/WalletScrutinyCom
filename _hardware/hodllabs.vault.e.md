@@ -20,7 +20,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: hodllabs.vault.e.png
+icon: hodllabs.vault.e.webp
 bugbounty: 
 meta: ok
 verdict: vapor

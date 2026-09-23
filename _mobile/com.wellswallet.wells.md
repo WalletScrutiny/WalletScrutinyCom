@@ -10,7 +10,7 @@ android:
   released: 2021-07-10
   updated: 2021-07-10
   version: 1.0.0
-  icon: com.wellswallet.wells.jpg
+  icon: com.wellswallet.wells.webp
   meta: removed
   verdict: wip
 

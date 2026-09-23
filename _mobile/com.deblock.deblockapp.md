@@ -18,7 +18,7 @@ android:
   updated: 2026-09-19
   version: 6.6.0
   reviews: 9
-  icon: com.deblock.deblockapp.png
+  icon: com.deblock.deblockapp.webp
   meta: ok
   verdict: custodial
   developerName: Deblock SAS
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-14
   version: 6.6.0
   reviews: 27995
-  icon: com.deblock.deblockapp.production.jpg
+  icon: com.deblock.deblockapp.production.webp
   meta: ok
   verdict: custodial
   developerName: Deblock

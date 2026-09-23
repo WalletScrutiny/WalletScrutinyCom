@@ -20,7 +20,7 @@ shop: https://bitkey.world/product
 country: US
 price: 250USD
 repository: https://github.com/proto-at-block/bitkey
-icon: bitkey2026.png
+icon: bitkey2026.webp
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: nosource

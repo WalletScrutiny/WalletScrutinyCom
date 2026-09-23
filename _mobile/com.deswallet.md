@@ -10,7 +10,7 @@ android:
   released: 2020-03-04
   updated: 2020-03-12
   version: '1.1'
-  icon: com.deswallet.png
+  icon: com.deswallet.webp
   meta: removed
   verdict: wip
   developerName: Delight Technology Inc

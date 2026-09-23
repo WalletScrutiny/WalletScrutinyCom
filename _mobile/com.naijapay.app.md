@@ -10,7 +10,7 @@ android:
   released: 2021-01-21
   updated: 2021-08-10
   version: 1.0.0
-  icon: com.naijapay.app.png
+  icon: com.naijapay.app.webp
   meta: removed
   verdict: wip
   developerName: CI Cryptosolutions

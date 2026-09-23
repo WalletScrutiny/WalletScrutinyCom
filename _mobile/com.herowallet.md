@@ -10,7 +10,7 @@ android:
   released: 2022-11-23
   updated: 2023-02-24
   version: 1.1.1
-  icon: com.herowallet.png
+  icon: com.herowallet.webp
   meta: removed
   verdict: wip
   developerName: Purchasa Pty Ltd

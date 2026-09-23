@@ -17,7 +17,7 @@ shop: https://www.rhy.zone/hardwallet/id/80
 country: SG
 price: 160USDT
 repository: 
-icon: cccoin.png
+icon: cccoin.webp
 bugbounty: 
 meta: defunct
 verdict: wip

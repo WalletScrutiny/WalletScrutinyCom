@@ -21,7 +21,7 @@ android:
   updated: 2025-11-11
   version: 2.10.1
   reviews: 127
-  icon: com.mercuryo.app.png
+  icon: com.mercuryo.app.webp
   meta: removed
   verdict: custodial
   developerName: Mercuryo
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-05-07
   version: 2.4.2
   reviews: 1142
-  icon: com.mercuryo.app.jpg
+  icon: com.mercuryo.app.webp
   meta: ok
   verdict: custodial
   developerName: MonayAmber UAB

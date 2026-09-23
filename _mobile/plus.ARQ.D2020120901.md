@@ -10,7 +10,7 @@ android:
   released: 2020-12-09
   updated: 2021-01-06
   version: '2021010601'
-  icon: plus.ARQ.D2020120901.png
+  icon: plus.ARQ.D2020120901.webp
   meta: removed
   verdict: wip
 

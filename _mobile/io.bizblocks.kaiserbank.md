@@ -12,7 +12,7 @@ android:
   released: 2019-01-04
   updated: 2022-10-23
   version: 0.30.27
-  icon: io.bizblocks.kaiserbank.png
+  icon: io.bizblocks.kaiserbank.webp
   meta: removed
   verdict: wip
   developerName: Bizblocks

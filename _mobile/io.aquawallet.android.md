@@ -28,7 +28,7 @@ android:
   updated: 2026-08-30
   version: 0.5.3
   reviews: 21
-  icon: io.aquawallet.android.png
+  icon: io.aquawallet.android.webp
   meta: ok
   verdict: nosource
   developerName: JAN3
@@ -41,7 +41,7 @@ iphone:
   updated: 2026-09-01
   version: 0.5.3
   reviews: 76
-  icon: io.aquawallet.ios.jpg
+  icon: io.aquawallet.ios.webp
   meta: ok
   verdict: wip
   developerName: Jan3 LLC

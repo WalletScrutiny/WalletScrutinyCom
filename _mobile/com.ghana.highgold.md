@@ -10,7 +10,7 @@ android:
   released: 2022-04-02
   updated: 2022-05-25
   version: 0.0.5
-  icon: com.ghana.highgold.png
+  icon: com.ghana.highgold.webp
   meta: removed
   verdict: wip
 

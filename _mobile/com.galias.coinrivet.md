@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-08-02
   version: 1.5.4.1252
-  icon: com.galias.coinrivet.png
+  icon: com.galias.coinrivet.webp
   meta: ok
   verdict: custodial
   developerName: Galias Services
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-02-04
   version: 1.3.23
   reviews: 0
-  icon: com.luxontech.coinrivet.jpg
+  icon: com.luxontech.coinrivet.webp
   meta: ok
   verdict: custodial
   developerName: GALIAS SERVICES UAB

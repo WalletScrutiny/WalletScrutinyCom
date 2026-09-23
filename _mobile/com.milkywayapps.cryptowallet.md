@@ -11,7 +11,7 @@ android:
   released: 2023-07-25
   updated: 2024-03-19
   version: 1.2.1
-  icon: com.milkywayapps.cryptowallet.png
+  icon: com.milkywayapps.cryptowallet.webp
   meta: removed
   verdict: wip
   developerName: Milky Way Entertainment LLC

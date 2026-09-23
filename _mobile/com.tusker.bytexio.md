@@ -22,7 +22,7 @@ android:
   released: 2022-04-28
   updated: 2022-11-25
   version: 1.0.9
-  icon: com.tusker.bytexio.png
+  icon: com.tusker.bytexio.webp
   meta: removed
   verdict: custodial
   developerName: ByteX Financial LTD.
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-04-22
   version: 1.0.10
   reviews: 0
-  icon: com.tusker.bytexio.jpg
+  icon: com.tusker.bytexio.webp
   meta: ok
   verdict: custodial
   developerName: ByteX Financial LTD.

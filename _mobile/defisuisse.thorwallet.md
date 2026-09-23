@@ -26,7 +26,7 @@ android:
   updated: 2026-09-10
   version: 3.11.0
   reviews: 40
-  icon: defisuisse.thorwallet.png
+  icon: defisuisse.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: EMM Ventures AG
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-10
   version: 3.11.0
   reviews: 39
-  icon: defisuisseag.thorwallet.jpg
+  icon: defisuisseag.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: DeFi Suisse AG

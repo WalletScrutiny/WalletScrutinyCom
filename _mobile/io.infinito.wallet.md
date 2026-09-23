@@ -21,7 +21,7 @@ android:
   updated: 2022-09-06
   version: 2.36.16
   reviews: 111
-  icon: io.infinito.wallet.png
+  icon: io.infinito.wallet.webp
   meta: removed
   verdict: nosource
   developerName: INFINITO SOLUTIONS PTE. LTD.
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-09-06
   version: 2.36.15
   reviews: 179
-  icon: io.infinito.wallet.jpg
+  icon: io.infinito.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Infinito Solution PTE

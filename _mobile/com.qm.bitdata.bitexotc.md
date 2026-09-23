@@ -18,7 +18,7 @@ android:
   released: 2021-08-18
   updated: 2024-08-22
   version: 1.8.6
-  icon: com.qm.bitdata.bitexotc.png
+  icon: com.qm.bitdata.bitexotc.webp
   meta: removed
   verdict: custodial
   developerName: BitDATA Exchange
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-10-17
   version: 1.8.8
   reviews: 8
-  icon: com.bitex.otc.jpg
+  icon: com.bitex.otc.webp
   meta: stale
   verdict: custodial
   developerName: BITDATA DIGITAL TECH PTE. LTD.

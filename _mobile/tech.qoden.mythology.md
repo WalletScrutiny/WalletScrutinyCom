@@ -10,7 +10,7 @@ android:
   released: 2020-01-31
   updated: 2020-01-31
   version: '1.0'
-  icon: tech.qoden.mythology.png
+  icon: tech.qoden.mythology.webp
   meta: removed
   verdict: wip
   developerName: CryptoEngine

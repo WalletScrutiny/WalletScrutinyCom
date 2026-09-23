@@ -10,7 +10,7 @@ android:
   released: 2019-11-29
   updated: 2021-02-26
   version: '2.4'
-  icon: com.gctech.fsswallet.png
+  icon: com.gctech.fsswallet.webp
   meta: removed
   verdict: wip
   developerName: Fourssh株式会社

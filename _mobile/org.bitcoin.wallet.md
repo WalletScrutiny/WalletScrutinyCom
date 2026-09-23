@@ -15,7 +15,7 @@ android:
   updated: 2021-02-09
   version: '1.0'
   reviews: 4
-  icon: org.bitcoin.wallet.png
+  icon: org.bitcoin.wallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile

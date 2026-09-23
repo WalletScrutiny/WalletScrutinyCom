@@ -10,7 +10,7 @@ android:
   released: 2016-04-26
   updated: 2020-02-19
   version: 1.1.16
-  icon: cryptodiggers.eu.pos4.png
+  icon: cryptodiggers.eu.pos4.webp
   meta: removed
   verdict: wip
   developerName: CryptoDiggers s.r.o.

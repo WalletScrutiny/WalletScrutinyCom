@@ -9,7 +9,7 @@ android:
   released: 2020-03-15
   updated: 2020-08-11
   version: '1.5'
-  icon: com.bitzapp.png
+  icon: com.bitzapp.webp
   meta: removed
   verdict: wip
   developerName: Bitzapp

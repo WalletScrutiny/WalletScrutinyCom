@@ -2,55 +2,19 @@ import fs from 'fs';
 import https from 'https';
 import { fileTypeFromFile } from 'file-type';
 import path from 'path';
+import { execFileSync } from 'child_process';
 import yaml from 'js-yaml';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
-// Removes metadata that only adds weight to a downloaded icon: EXIF/XMP/Photoshop blocks and comments in JPEGs,
-// text and time chunks in PNGs. Colour profiles (ICC) stay because they change how the icon renders. Pixel data
-// is copied byte for byte, so this never re-encodes the image. Some store icons carry 100-600 KB of such
-// metadata, more than the image itself.
-function stripImageMetadata (filePath, mimetype) {
-  const data = fs.readFileSync(filePath);
-  const kept = [];
-  let pos;
-  if (mimetype === 'image/png') {
-    const drop = new Set(['tEXt', 'zTXt', 'iTXt', 'eXIf', 'tIME']);
-    kept.push(data.subarray(0, 8));
-    pos = 8;
-    while (pos + 8 <= data.length) {
-      const length = data.readUInt32BE(pos);
-      const type = data.toString('latin1', pos + 4, pos + 8);
-      const end = pos + 12 + length;
-      if (end > data.length) return; // malformed: leave the file alone
-      if (!drop.has(type)) kept.push(data.subarray(pos, end));
-      pos = end;
-      if (type === 'IEND') break;
-    }
-  } else if (mimetype === 'image/jpeg' || mimetype === 'image/jpg') {
-    const drop = new Set([0xE1, 0xED, 0xFE]); // APP1 (EXIF, XMP), APP13 (Photoshop), COM
-    kept.push(data.subarray(0, 2));
-    pos = 2;
-    while (pos + 4 <= data.length && data[pos] === 0xFF) {
-      const marker = data[pos + 1];
-      if (marker === 0xFF) { pos += 1; continue; }
-      if (marker === 0xD8 || marker === 0x01 || (marker >= 0xD0 && marker <= 0xD7)) {
-        kept.push(data.subarray(pos, pos + 2));
-        pos += 2;
-        continue;
-      }
-      if (marker === 0xDA || marker === 0xD9) break; // image data starts here; copy the rest verbatim
-      const end = pos + 2 + data.readUInt16BE(pos + 2);
-      if (end > data.length) return;
-      if (!drop.has(marker)) kept.push(data.subarray(pos, end));
-      pos = end;
-    }
-  } else {
-    return;
-  }
-  kept.push(data.subarray(pos));
-  const stripped = Buffer.concat(kept);
-  if (stripped.length < data.length) fs.writeFileSync(filePath, stripped);
+// Every stored icon is a WebP of at most 512 px (see updateImages.sh, which derives small/ and tiny/ from it).
+// Store downloads arrive as PNG, JPEG or WebP; this re-encodes them with the same ImageMagick settings as
+// updateImages.sh, keeping the ICC profile (it changes how the icon renders) and dropping the EXIF/XMP/Photoshop
+// blocks that on some store icons weigh more than the image itself.
+function convertIconToWebp (sourcePath, targetPath) {
+  execFileSync('convert', [
+    sourcePath, '+profile', '!icc,*', '-resize', '512x512>', '-quality', '85', '-define', 'webp:method=6', targetPath
+  ], { stdio: ['ignore', 'ignore', 'pipe'] });
 }
 
 function downloadImageFile (url, iconPath, callback) {
@@ -78,30 +42,26 @@ function downloadImageFile (url, iconPath, callback) {
       return;
     }
     response.pipe(iconFile);
-    response.on('end', () => {
+    // 'finish' on the file stream, not 'end' on the response: the last chunk may still be in flight when the
+    // response ends, and the conversion below reads the file from disk.
+    iconFile.on('finish', () => {
       (async () => {
         try {
           const mimetype = ((await fileTypeFromFile(iconPath)) || { mime: 'undefined' }).mime;
-          let iconExtension = null;
-          if (mimetype === 'image/png') {
-            iconExtension = 'png';
-          } else if (mimetype === 'image/jpg' || mimetype === 'image/jpeg') {
-            iconExtension = 'jpg';
-          } else {
+          if (!['image/png', 'image/jpg', 'image/jpeg', 'image/webp'].includes(mimetype)) {
             console.error(`Icon wrong mime type ${mimetype} for ${iconPath}. Keeping previous icon.`);
             fs.unlink(iconPath, () => {});
             finish(null);
             return;
           }
-          stripImageMetadata(iconPath, mimetype);
-          fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
-            if (err) {
-              console.error(`ERROR renaming icon ${iconPath}: ${err}`);
-              finish(null);
-              return;
-            }
-            finish(iconExtension);
-          });
+          try {
+            convertIconToWebp(iconPath, `${iconPath}.webp`);
+          } catch (err) {
+            console.error(`ERROR converting icon ${iconPath} to WebP: ${err.message}. Keeping previous icon.`);
+            fs.unlink(iconPath, () => finish(null));
+            return;
+          }
+          fs.unlink(iconPath, () => finish('webp'));
         } catch (err) {
           console.error(`Icon processing failed for ${iconPath}: ${err}`);
           fs.unlink(iconPath, () => finish(null));
@@ -345,7 +305,6 @@ export default {
   checkHeaderKeys,
   dateOrEmpty,
   downloadImageFile,
-  stripImageMetadata,
   getEmptyHeader,
   getLastRemovedCheck,
   getResult,

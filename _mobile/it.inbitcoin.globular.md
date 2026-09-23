@@ -10,7 +10,7 @@ android:
   released: 2019-06-07
   updated: 2020-01-26
   version: 1.2.0
-  icon: it.inbitcoin.globular.png
+  icon: it.inbitcoin.globular.webp
   meta: removed
   verdict: wip
 

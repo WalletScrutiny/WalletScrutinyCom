@@ -9,7 +9,7 @@ android:
   released: 2021-06-15
   updated: 2021-06-15
   version: '1.0'
-  icon: org.cryptoleaders.crypto.investing.jpg
+  icon: org.cryptoleaders.crypto.investing.webp
   meta: removed
   verdict: wip
 

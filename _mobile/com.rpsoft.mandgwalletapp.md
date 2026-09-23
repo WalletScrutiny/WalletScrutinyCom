@@ -9,7 +9,7 @@ android:
   released: 2021-03-29
   updated: 2021-03-29
   version: '1.0'
-  icon: com.rpsoft.mandgwalletapp.png
+  icon: com.rpsoft.mandgwalletapp.webp
   meta: removed
   verdict: wip
   developerName: mandgwallet

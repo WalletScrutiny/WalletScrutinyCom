@@ -17,7 +17,7 @@ shop: https://shop.keyst.one/products/keystone-ultimate#deadLink
 country: HK
 price: 479USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
-icon: keystone.ultimate.png
+icon: keystone.ultimate.webp
 bugbounty: 
 meta: ok
 verdict: nosource

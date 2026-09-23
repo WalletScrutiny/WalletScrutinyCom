@@ -19,7 +19,7 @@ android:
   updated: 2021-11-17
   version: 1.14.0
   reviews: 12
-  icon: io.wallet.png
+  icon: io.wallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-11-19
   version: 1.14.1
   reviews: 21
-  icon: io.wallet.ios.jpg
+  icon: io.wallet.ios.webp
   meta: removed
   verdict: nosource
   developerName: Taiyi Technology Beijing Co., Ltd.

@@ -18,7 +18,7 @@ android:
   released: 2021-04-07
   updated: 2023-09-19
   version: 1.0.23
-  icon: io.goodpayglobal.wallet.png
+  icon: io.goodpayglobal.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Vaisen

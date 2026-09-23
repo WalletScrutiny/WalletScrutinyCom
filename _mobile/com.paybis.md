@@ -14,7 +14,7 @@ android:
   updated: 2025-10-07
   version: 1.6.20
   reviews: 412
-  icon: com.paybis.png
+  icon: com.paybis.webp
   meta: ok
   verdict: custodial
   developerName: PAYBIS
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-08-13
   version: 1.7.32
   reviews: 2847
-  icon: com.paybis.jpg
+  icon: com.paybis.webp
   meta: ok
   verdict: custodial
   developerName: Paybis LTD

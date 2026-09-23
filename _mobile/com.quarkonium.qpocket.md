@@ -17,7 +17,7 @@ android:
   updated: 2022-12-22
   version: 5.5.0
   reviews: 4
-  icon: com.quarkonium.qpocket.png
+  icon: com.quarkonium.qpocket.webp
   meta: removed
   verdict: nosource
   developerName: QUARKONIUM PTE. LTD.
@@ -30,7 +30,7 @@ iphone:
   updated: 2020-12-02
   version: 5.4.0
   reviews: 22
-  icon: com.quarkchain.qpocket.jpg
+  icon: com.quarkchain.qpocket.webp
   meta: removed
   verdict: nosource
   developerName: QuarkChain Inc

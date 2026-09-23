@@ -10,7 +10,7 @@ android:
   released: 2019-07-02
   updated: 2019-07-09
   version: 0.1.7
-  icon: com.ariston.Ariston.png
+  icon: com.ariston.Ariston.webp
   meta: removed
   verdict: wip
 

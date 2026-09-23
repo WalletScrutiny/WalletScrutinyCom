@@ -9,7 +9,7 @@ android:
   released: 2021-06-02
   updated: 2023-06-29
   version: 3.2.54
-  icon: cloud.accredited.wallet.jpg
+  icon: cloud.accredited.wallet.webp
   meta: removed
   verdict: wip
   developerName: Brainsfield Advisory

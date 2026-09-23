@@ -22,7 +22,7 @@ android:
   updated: 2020-01-28
   version: 3.2.7
   reviews: 149
-  icon: com.coinninja.coinkeeper.png
+  icon: com.coinninja.coinkeeper.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/coinninjadev/dropbit-android

@@ -17,7 +17,7 @@ android:
   updated: 2020-01-20
   version: 2.0.10
   reviews: 177
-  icon: com.bitlish.bitlish.png
+  icon: com.bitlish.bitlish.webp
   meta: removed
   verdict: custodial
 

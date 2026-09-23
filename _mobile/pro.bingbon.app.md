@@ -22,7 +22,7 @@ android:
   updated: 2026-05-19
   version: 4.84.0
   reviews: 1410
-  icon: pro.bingbon.app.png
+  icon: pro.bingbon.app.webp
   meta: removed
   verdict: custodial
   developerName: BINGX GROUP LIMITED
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-08
   version: 5.2.0
   reviews: 3097
-  icon: pro.bingbon.finance.jpg
+  icon: pro.bingbon.finance.webp
   meta: ok
   verdict: custodial
   developerName: BingX Group Limited

@@ -10,7 +10,7 @@ android:
   released: 2018-11-22
   updated: 2019-05-22
   version: '1.27'
-  icon: com.youseeme.bwallet.jpg
+  icon: com.youseeme.bwallet.webp
   meta: removed
   verdict: wip
   developerName: Youseeme

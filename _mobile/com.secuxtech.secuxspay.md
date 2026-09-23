@@ -10,7 +10,7 @@ android:
   released: 2020-11-07
   updated: 2022-01-12
   version: 1.0.4
-  icon: com.secuxtech.secuxspay.png
+  icon: com.secuxtech.secuxspay.webp
   meta: removed
   verdict: wip
 

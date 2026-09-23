@@ -17,7 +17,7 @@ android:
   updated: 2021-12-23
   version: 1.0.6
   reviews: 4
-  icon: com.umifi.app.png
+  icon: com.umifi.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-12-24
   version: 1.0.6
   reviews: 1
-  icon: com.umifi.app.jpg
+  icon: com.umifi.app.webp
   meta: removed
   verdict: custodial
 

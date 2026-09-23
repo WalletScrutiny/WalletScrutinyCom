@@ -10,7 +10,7 @@ android:
   released: 2021-09-11
   updated: 2021-10-07
   version: 1.0.5
-  icon: co.cryptoplane.app.cryptoplane.jpg
+  icon: co.cryptoplane.app.cryptoplane.webp
   meta: removed
   verdict: wip
   developerName: Crypto Plane Ltd

@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-08-23
   version: VARY
-  icon: com.coinsfera.png
+  icon: com.coinsfera.webp
   meta: removed
   verdict: wip
 

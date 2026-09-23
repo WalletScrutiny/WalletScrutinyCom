@@ -11,7 +11,7 @@ android:
   released: 2021-02-13
   updated: 2025-01-11
   version: 2.1.2
-  icon: com.ejfhp.bitonpaper.png
+  icon: com.ejfhp.bitonpaper.webp
   meta: stale
   verdict: wip
   developerName: Rabbit Hole Lab

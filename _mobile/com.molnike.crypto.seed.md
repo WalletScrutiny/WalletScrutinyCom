@@ -11,7 +11,7 @@ android:
   released: 2022-12-23
   updated: 2023-02-28
   version: '0.6'
-  icon: com.molnike.crypto.seed.png
+  icon: com.molnike.crypto.seed.webp
   meta: obsolete
   verdict: wip
   developerName: Mol Nike

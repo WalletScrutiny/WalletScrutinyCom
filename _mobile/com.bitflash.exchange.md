@@ -12,7 +12,7 @@ android:
   released: 2022-04-07
   updated: 2022-04-28
   version: '4.0'
-  icon: com.bitflash.exchange.png
+  icon: com.bitflash.exchange.webp
   meta: removed
   verdict: wip
   developerName: Bitflash Cryptocurrency Exchange

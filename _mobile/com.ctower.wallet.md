@@ -10,7 +10,7 @@ android:
   released: 2021-12-22
   updated: 2022-02-15
   version: 1.1.5
-  icon: com.ctower.wallet.png
+  icon: com.ctower.wallet.webp
   meta: removed
   verdict: wip
 

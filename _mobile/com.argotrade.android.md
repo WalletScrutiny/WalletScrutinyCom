@@ -11,7 +11,7 @@ android:
   released: 2020-10-16
   updated: 2024-09-05
   version: 1.16.1
-  icon: com.argotrade.android.png
+  icon: com.argotrade.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD

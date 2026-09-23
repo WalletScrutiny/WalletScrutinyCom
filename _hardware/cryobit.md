@@ -20,7 +20,7 @@ shop: https://www.cryobit.co/products/
 country: 
 price: 
 repository: 
-icon: cryobit.png
+icon: cryobit.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled

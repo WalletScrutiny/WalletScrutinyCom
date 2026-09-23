@@ -10,7 +10,7 @@ android:
   released: 2021-04-29
   updated: 2021-10-12
   version: 1.1.5
-  icon: com.flashxchanger.app.png
+  icon: com.flashxchanger.app.webp
   meta: removed
   verdict: wip
   developerName: Sapian Group LTD

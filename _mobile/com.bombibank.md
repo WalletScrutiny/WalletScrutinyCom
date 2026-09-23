@@ -9,7 +9,7 @@ android:
   released: 2022-01-21
   updated: 2022-01-21
   version: '1.0'
-  icon: com.bombibank.jpg
+  icon: com.bombibank.webp
   meta: removed
   verdict: wip
   developerName: isaac andrews

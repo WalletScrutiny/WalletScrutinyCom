@@ -22,7 +22,7 @@ android:
   updated: 2026-09-11
   version: 1.135.0
   reviews: 75
-  icon: com.btse.finance.png
+  icon: com.btse.finance.webp
   meta: ok
   verdict: custodial
   developerName: BTSE Holdings Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-08-19
   version: 1.93.0
   reviews: 13
-  icon: com.btse.BTSE.jpg
+  icon: com.btse.BTSE.webp
   meta: removed
   verdict: custodial
   developerName: BTSE Holdings Ltd.

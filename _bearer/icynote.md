@@ -17,7 +17,7 @@ shop:
 country: CH
 price: 
 repository: 
-icon: icynote.png
+icon: icynote.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

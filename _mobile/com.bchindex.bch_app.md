@@ -10,7 +10,7 @@ android:
   released: 2022-12-28
   updated: 2023-04-11
   version: 6.2.2
-  icon: com.bchindex.bch_app.png
+  icon: com.bchindex.bch_app.webp
   meta: removed
   verdict: wip
   developerName: BCH INDEX LIMITED

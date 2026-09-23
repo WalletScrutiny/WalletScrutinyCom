@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: shenzhenfeitianzhou.fitqian.png
+icon: shenzhenfeitianzhou.fitqian.webp
 bugbounty: 
 meta: ok
 verdict: nosource

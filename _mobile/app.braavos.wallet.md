@@ -22,7 +22,7 @@ android:
   updated: 2026-02-04
   version: 4.19.6
   reviews: 36
-  icon: app.braavos.wallet.png
+  icon: app.braavos.wallet.webp
   meta: ok
   verdict: nosource
   developerName: FreeBraavos
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-02-07
   version: 4.19.6
   reviews: 119
-  icon: app.braavos.wallet.jpg
+  icon: app.braavos.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Braavos LTD.

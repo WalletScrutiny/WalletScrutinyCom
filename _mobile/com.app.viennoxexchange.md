@@ -10,7 +10,7 @@ android:
   released: 2021-10-12
   updated: 2021-10-18
   version: '1.1'
-  icon: com.app.viennoxexchange.png
+  icon: com.app.viennoxexchange.webp
   meta: removed
   verdict: wip
   developerName: Viennox

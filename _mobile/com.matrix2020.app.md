@@ -10,7 +10,7 @@ android:
   released: 2022-03-24
   updated: 2022-04-27
   version: 1.6.0
-  icon: com.matrix2020.app.jpg
+  icon: com.matrix2020.app.webp
   meta: removed
   verdict: wip
   developerName: Matrix Inc

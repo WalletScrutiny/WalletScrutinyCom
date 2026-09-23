@@ -10,7 +10,7 @@ android:
   released: 2021-07-28
   updated: 2023-10-19
   version: 1.0.5
-  icon: com.digivault.authenticator.png
+  icon: com.digivault.authenticator.webp
   meta: removed
   verdict: wip
   developerName: Digivault Limited

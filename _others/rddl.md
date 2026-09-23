@@ -3,7 +3,7 @@ title: RDDL
 appId: rddl
 authors:
 - danny
-icon: rddl.png
+icon: rddl.webp
 date: 2024-01-05
 website: https://www.rddl.io/
 twitter: RDDLNetwork

@@ -17,7 +17,7 @@ shop: https://www.origokey.com/preorder
 country: HU
 price: 
 repository: 
-icon: bitorigo.origokey.png
+icon: bitorigo.origokey.webp
 bugbounty: 
 meta: ok
 verdict: vapor

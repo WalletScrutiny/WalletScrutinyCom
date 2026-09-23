@@ -25,7 +25,7 @@ android:
   updated: 2026-09-18
   version: 3.2.2
   reviews: 564
-  icon: com.crypto.multiwallet.jpg
+  icon: com.crypto.multiwallet.webp
   meta: ok
   verdict: nosource
   developerName: GUARDA
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-09-12
   version: 3.2.2
   reviews: 951
-  icon: com.crypto.multiwallet.jpg
+  icon: com.crypto.multiwallet.webp
   meta: ok
   verdict: nosource
   developerName: GUARDACO LDA

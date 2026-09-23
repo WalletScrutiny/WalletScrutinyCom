@@ -11,7 +11,7 @@ android:
   released: 2023-03-17
   updated: 2023-03-21
   version: '1.0001'
-  icon: com.ohj.berry.png
+  icon: com.ohj.berry.webp
   meta: removed
   verdict: wip
   developerName: AMANPREET KAURt

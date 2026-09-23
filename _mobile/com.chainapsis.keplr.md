@@ -17,7 +17,7 @@ android:
   updated: 2026-09-21
   version: 2.1.221
   reviews: 207
-  icon: com.chainapsis.keplr.png
+  icon: com.chainapsis.keplr.webp
   meta: ok
   verdict: nosource
   developerName: Team Keplr
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-21
   version: 2.1.221
   reviews: 273
-  icon: com.chainapsis.keplrwallet.jpg
+  icon: com.chainapsis.keplrwallet.webp
   meta: ok
   verdict: nosource
   developerName: Space Explorers Inc.

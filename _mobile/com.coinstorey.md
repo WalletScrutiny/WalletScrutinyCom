@@ -10,7 +10,7 @@ android:
   released: 2021-11-30
   updated: 2021-12-01
   version: '9.0'
-  icon: com.coinstorey.jpg
+  icon: com.coinstorey.webp
   meta: removed
   verdict: wip
   developerName: HANSIS IT SUPERVISION PRIVATE LIMITED

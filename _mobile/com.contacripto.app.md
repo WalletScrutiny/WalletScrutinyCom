@@ -10,7 +10,7 @@ android:
   released: 2022-06-07
   updated: 2022-06-08
   version: 1.0.0
-  icon: com.contacripto.app.png
+  icon: com.contacripto.app.webp
   meta: removed
   verdict: wip
   developerName: RAS SERVICOS DIGITAIS

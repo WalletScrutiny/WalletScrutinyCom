@@ -19,7 +19,7 @@ android:
   updated: 2024-08-07
   version: 1.44.0
   reviews: 6
-  icon: com.xcoex.mobile.png
+  icon: com.xcoex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XCOEX
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-08-12
   version: 1.44.0
   reviews: 0
-  icon: com.xcoex.mobile.jpg
+  icon: com.xcoex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XCOEX LIMITED

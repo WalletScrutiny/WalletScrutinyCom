@@ -9,7 +9,7 @@ android:
   released: 2021-11-20
   updated: 2021-11-21
   version: '9.8'
-  icon: volum.aplihqm.png
+  icon: volum.aplihqm.webp
   meta: removed
   verdict: wip
   developerName: Eipol ST

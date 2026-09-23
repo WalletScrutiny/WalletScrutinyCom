@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: https://github.com/mcudev/mcudev.github.io
-icon: mcudev.trezor.diy.devkit.png
+icon: mcudev.trezor.diy.devkit.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

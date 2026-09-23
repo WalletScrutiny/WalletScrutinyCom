@@ -22,7 +22,7 @@ shop: https://prokey.io/prokey-optimum
 country: MY
 price: 59USD
 repository: https://github.com/prokey-io/prokey-optimum-firmware
-icon: prokeyoptimum.png
+icon: prokeyoptimum.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

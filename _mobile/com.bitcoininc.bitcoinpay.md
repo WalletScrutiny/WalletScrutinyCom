@@ -13,7 +13,7 @@ android:
   updated: 2017-07-06
   version: 1.0.1
   reviews: 14
-  icon: com.bitcoininc.bitcoinpay.png
+  icon: com.bitcoininc.bitcoinpay.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Inc

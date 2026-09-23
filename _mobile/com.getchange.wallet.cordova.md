@@ -24,7 +24,7 @@ android:
   updated: 2026-09-10
   version: 30.67.7
   reviews: 23
-  icon: com.getchange.wallet.cordova.png
+  icon: com.getchange.wallet.cordova.webp
   meta: ok
   verdict: custodial
   developerName: Change Finance
@@ -35,7 +35,7 @@ iphone:
   updated: 2025-11-12
   version: 30.62.2
   reviews: 38
-  icon: com.getchange.dev.jpg
+  icon: com.getchange.dev.webp
   meta: removed
   verdict: custodial
   developerName: xChange AS

@@ -11,7 +11,7 @@ android:
   released: 2022-08-31
   updated: 2023-01-18
   version: 0.26.3
-  icon: io.solewallet.bankwallet.png
+  icon: io.solewallet.bankwallet.webp
   meta: removed
   verdict: nosource
   developerName: Blocktech Brew

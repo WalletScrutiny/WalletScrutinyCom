@@ -10,7 +10,7 @@ android:
   released: 2019-10-09
   updated: 2020-11-18
   version: 1.2.1
-  icon: com.ezbitcoin.wallet.png
+  icon: com.ezbitcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: CryptoCurrencyCommunications

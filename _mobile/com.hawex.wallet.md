@@ -18,7 +18,7 @@ android:
   released: 2023-06-06
   updated: 2024-05-06
   version: '2.1'
-  icon: com.hawex.wallet.png
+  icon: com.hawex.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Hawex Investment LLC
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-05-14
   version: 2.1 (18)
   reviews: 0
-  icon: com.hawex.cryptowallet.jpg
+  icon: com.hawex.cryptowallet.webp
   meta: removed
   verdict: nosource
   developerName: HAWEX INVESTMENT L.L.C

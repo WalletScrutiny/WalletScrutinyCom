@@ -10,7 +10,7 @@ android:
   released: 2022-04-09
   updated: 2022-06-06
   version: 0.0.5
-  icon: wallet.peach.com.png
+  icon: wallet.peach.com.webp
   meta: removed
   verdict: wip
   developerName: décript

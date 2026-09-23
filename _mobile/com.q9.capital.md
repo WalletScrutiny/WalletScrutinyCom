@@ -10,7 +10,7 @@ android:
   released: 2021-11-19
   updated: 2022-09-22
   version: 1.0.5
-  icon: com.q9.capital.png
+  icon: com.q9.capital.webp
   meta: removed
   verdict: wip
   developerName: Q9 Capital

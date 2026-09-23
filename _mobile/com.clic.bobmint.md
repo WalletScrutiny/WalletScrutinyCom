@@ -10,7 +10,7 @@ android:
   released: 2022-09-08
   updated: 2022-09-14
   version: '3.0'
-  icon: com.clic.bobmint.jpg
+  icon: com.clic.bobmint.webp
   meta: removed
   verdict: wip
   developerName: Bobmint

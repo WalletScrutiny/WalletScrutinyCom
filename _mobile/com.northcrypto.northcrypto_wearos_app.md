@@ -10,7 +10,7 @@ android:
   released: 2020-07-17
   updated: 2020-07-31
   version: 1.0.0
-  icon: com.northcrypto.northcrypto_wearos_app.png
+  icon: com.northcrypto.northcrypto_wearos_app.webp
   meta: removed
   verdict: wip
 

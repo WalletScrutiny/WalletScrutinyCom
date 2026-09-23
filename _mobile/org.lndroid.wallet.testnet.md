@@ -10,7 +10,7 @@ android:
   released: 2020-03-23
   updated: 2020-04-14
   version: 0.1.6-testnet
-  icon: org.lndroid.wallet.testnet.png
+  icon: org.lndroid.wallet.testnet.webp
   meta: removed
   verdict: wip
   developerName: Artur Briugeman

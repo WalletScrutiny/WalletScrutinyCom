@@ -20,7 +20,7 @@ shop: https://keypalwallet.mystrikingly.com/store/products/keypal-hardware-walle
 country: CN
 price: 110 USD
 repository: 
-icon: keypal.png
+icon: keypal.webp
 bugbounty: 
 meta: ok
 verdict: nosource

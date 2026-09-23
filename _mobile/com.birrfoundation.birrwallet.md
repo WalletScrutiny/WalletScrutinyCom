@@ -13,7 +13,7 @@ android:
   released: 2026-07-10
   updated: 2026-09-09
   version: 2.5.3
-  icon: com.birrfoundation.birrwallet.png
+  icon: com.birrfoundation.birrwallet.webp
   meta: fewusers
   verdict: wip
   developerName: Birrfoundation
@@ -25,7 +25,7 @@ iphone:
   updated: 2026-09-11
   version: 2.5.4
   reviews: 2
-  icon: com.birrfoundation.birrnetwork.jpg
+  icon: com.birrfoundation.birrnetwork.webp
   meta: ok
   verdict: wip
   developerName: Ermiyas Asfaw

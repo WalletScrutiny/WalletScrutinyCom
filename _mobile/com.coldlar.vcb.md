@@ -10,7 +10,7 @@ android:
   released: 2021-04-05
   updated: 2021-09-22
   version: 2.3.0
-  icon: com.coldlar.vcb.png
+  icon: com.coldlar.vcb.webp
   meta: removed
   verdict: wip
   developerName: VCB Information Technology PTY Ltd

@@ -18,7 +18,7 @@ android:
   released: 2019-12-09
   updated: 2023-09-07
   version: 1.6.0
-  icon: com.quanli.ibtc.png
+  icon: com.quanli.ibtc.webp
   meta: removed
   verdict: custodial
   developerName: iBTC Technology
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-05-18
   version: 1.6.0
   reviews: 0
-  icon: com.iBTC.trade.hk.jpg
+  icon: com.iBTC.trade.hk.webp
   meta: removed
   verdict: custodial
   developerName: iBTC Technology

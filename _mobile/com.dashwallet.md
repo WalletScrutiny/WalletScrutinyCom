@@ -10,7 +10,7 @@ android:
   released: 2020-04-05
   updated: 2020-11-30
   version: '1.6'
-  icon: com.dashwallet.png
+  icon: com.dashwallet.webp
   meta: removed
   verdict: wip
   developerName: rknakamura

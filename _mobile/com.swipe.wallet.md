@@ -19,7 +19,7 @@ android:
   updated: 2021-05-13
   version: '1.901'
   reviews: 1110
-  icon: com.swipe.wallet.png
+  icon: com.swipe.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-05-07
   version: '1.900'
   reviews: 939
-  icon: com.swipe.wallet.jpg
+  icon: com.swipe.wallet.webp
   meta: removed
   verdict: custodial
 

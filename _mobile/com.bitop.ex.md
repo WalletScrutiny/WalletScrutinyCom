@@ -16,7 +16,7 @@ android:
   released: 2023-12-04
   updated: 2024-09-09
   version: 1.0.21
-  icon: com.bitop.ex.png
+  icon: com.bitop.ex.webp
   meta: obsolete
   verdict: custodial
   developerName: Bitop Ltd
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-03-25
   version: 0.1.33
   reviews: 7
-  icon: com.bitop.exchange.prod.jpg
+  icon: com.bitop.exchange.prod.webp
   meta: ok
   verdict: custodial
   developerName: Bitop. Limited

@@ -9,7 +9,7 @@ android:
   released: 2021-10-13
   updated: 2022-11-04
   version: 1.1.11
-  icon: com.onpie.mobile.wallet.png
+  icon: com.onpie.mobile.wallet.webp
   meta: removed
   verdict: wip
   developerName: Metarium Global Limited

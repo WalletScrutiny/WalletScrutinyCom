@@ -10,7 +10,7 @@ android:
   released: 2022-09-15
   updated: 2022-11-24
   version: 1.0.1
-  icon: com.app.metafarm.png
+  icon: com.app.metafarm.webp
   meta: removed
   verdict: wip
   developerName: Meta Farm

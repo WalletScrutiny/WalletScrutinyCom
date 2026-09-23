@@ -10,7 +10,7 @@ android:
   released: 2019-08-19
   updated: 2021-04-30
   version: 2.2.3
-  icon: com.oasisexc.app.png
+  icon: com.oasisexc.app.webp
   meta: removed
   verdict: wip
 

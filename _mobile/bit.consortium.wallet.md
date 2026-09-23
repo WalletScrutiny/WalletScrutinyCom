@@ -9,7 +9,7 @@ android:
   released: 2021-08-10
   updated: 2021-08-10
   version: '9.02'
-  icon: bit.consortium.wallet.png
+  icon: bit.consortium.wallet.webp
   meta: removed
   verdict: wip
 

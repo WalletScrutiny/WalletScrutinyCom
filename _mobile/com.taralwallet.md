@@ -20,7 +20,7 @@ android:
   updated: 2024-12-19
   version: 13.5.0
   reviews: 4
-  icon: com.taralwallet.png
+  icon: com.taralwallet.webp
   meta: removed
   verdict: nosource
   developerName: Tarality Ecosystems Private Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-08-14
   version: '2.9'
   reviews: 1
-  icon: com.taralwallet.jpg
+  icon: com.taralwallet.webp
   meta: obsolete
   verdict: nosource
   developerName: TARALITY ECOSYSTEMS PRIVATE LIMITED

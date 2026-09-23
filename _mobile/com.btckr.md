@@ -9,7 +9,7 @@ android:
   released: 2019-09-11
   updated: 2019-09-11
   version: '1.0'
-  icon: com.btckr.jpg
+  icon: com.btckr.webp
   meta: removed
   verdict: wip
   developerName: BTCChina OÜ

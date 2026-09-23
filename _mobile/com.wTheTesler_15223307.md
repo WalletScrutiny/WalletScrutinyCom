@@ -9,7 +9,7 @@ android:
   released: 2022-02-24
   updated: 2022-02-24
   version: '1.0'
-  icon: com.wTheTesler_15223307.jpg
+  icon: com.wTheTesler_15223307.webp
   meta: removed
   verdict: wip
 

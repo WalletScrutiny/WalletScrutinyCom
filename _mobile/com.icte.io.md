@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2021-04-27
   version: VARY
-  icon: com.icte.io.jpg
+  icon: com.icte.io.webp
   meta: removed
   verdict: wip
   developerName: ICTE

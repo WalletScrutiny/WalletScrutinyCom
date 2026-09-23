@@ -10,7 +10,7 @@ android:
   released: 2021-05-10
   updated: 2021-05-10
   version: 1.0.0
-  icon: com.thisoption.extons.png
+  icon: com.thisoption.extons.webp
   meta: removed
   verdict: wip
   developerName: Thisoption LTD

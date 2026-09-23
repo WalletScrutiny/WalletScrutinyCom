@@ -9,7 +9,7 @@ android:
   released: 2021-07-01
   updated: 2021-07-01
   version: 1.2.0
-  icon: app.truste.wallet.png
+  icon: app.truste.wallet.webp
   meta: removed
   verdict: wip
 

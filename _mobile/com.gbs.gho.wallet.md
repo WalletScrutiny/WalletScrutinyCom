@@ -10,7 +10,7 @@ android:
   released: 2020-05-06
   updated: 2020-12-30
   version: 1.0.6
-  icon: com.gbs.gho.wallet.png
+  icon: com.gbs.gho.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sofdia Systems

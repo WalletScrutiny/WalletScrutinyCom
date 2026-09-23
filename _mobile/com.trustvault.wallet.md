@@ -11,7 +11,7 @@ android:
   released: 2025-12-08
   updated: 2026-02-02
   version: 1.0.0
-  icon: com.trustvault.wallet.png
+  icon: com.trustvault.wallet.webp
   meta: ok
   verdict: fake
   developerName: UNREAL VENTURES LLC

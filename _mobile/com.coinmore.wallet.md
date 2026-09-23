@@ -10,7 +10,7 @@ android:
   released: 2018-07-03
   updated: 2018-07-26
   version: 1.1.3
-  icon: com.coinmore.wallet.png
+  icon: com.coinmore.wallet.webp
   meta: removed
   verdict: wip
   developerName: Coinmore Developer

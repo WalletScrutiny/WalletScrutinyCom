@@ -10,7 +10,7 @@ android:
   released: 2018-04-18
   updated: 2021-10-09
   version: 2.1.2
-  icon: com.obolon9_mobile.jpg
+  icon: com.obolon9_mobile.webp
   meta: removed
   verdict: wip
   developerName: Obolon 9

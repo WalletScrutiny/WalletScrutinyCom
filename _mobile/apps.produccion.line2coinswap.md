@@ -10,7 +10,7 @@ android:
   released: 2022-07-22
   updated: 2022-07-24
   version: 1.0.0.4
-  icon: apps.produccion.line2coinswap.jpg
+  icon: apps.produccion.line2coinswap.webp
   meta: removed
   verdict: wip
   developerName: Backdoor Global, Inc.

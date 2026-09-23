@@ -21,7 +21,7 @@ android:
   updated: 2026-09-14
   version: 16.15.2
   reviews: 260
-  icon: coin98.crypto.finance.media.png
+  icon: coin98.crypto.finance.media.webp
   meta: ok
   verdict: nosource
   developerName: COIN98 WALLET LTD
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-14
   version: 16.15.2
   reviews: 658
-  icon: coin98.crypto.finance.insights.jpg
+  icon: coin98.crypto.finance.insights.webp
   meta: ok
   verdict: nosource
   developerName: COIN98 WALLET LTD

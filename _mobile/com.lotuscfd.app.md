@@ -10,7 +10,7 @@ android:
   released: 2019-09-28
   updated: 2019-09-25
   version: 1.0.14
-  icon: com.lotuscfd.app.png
+  icon: com.lotuscfd.app.webp
   meta: removed
   verdict: wip
   developerName: CITFRIX

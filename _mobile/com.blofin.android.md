@@ -17,7 +17,7 @@ android:
   updated: 2026-09-18
   version: 3.37.2
   reviews: 120
-  icon: com.blofin.android.png
+  icon: com.blofin.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: Blofin Inc.
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-20
   version: 3.38.0
   reviews: 1459
-  icon: com.blofin.app.jpg
+  icon: com.blofin.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Blofin Inc.

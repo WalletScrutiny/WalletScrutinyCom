@@ -20,7 +20,7 @@ android:
   updated: 2025-10-29
   version: 17.0.24
   reviews: 25
-  icon: io.nash.app.png
+  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: nash.io
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-11-03
   version: 17.0.24
   reviews: 106
-  icon: io.nash.app.jpg
+  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: Neon Exchange AG

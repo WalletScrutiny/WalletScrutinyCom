@@ -17,7 +17,7 @@ android:
   released: 2019-01-28
   updated: 2024-12-04
   version: 5.2.0_5210
-  icon: com.asiainnovations.ace.taiwan.png
+  icon: com.asiainnovations.ace.taiwan.webp
   meta: removed
   verdict: custodial
   developerName: ACE Exchange
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-03-20
   version: 51.0.0
   reviews: 2
-  icon: com.asiainnovations.ace.jpg
+  icon: com.asiainnovations.ace.webp
   meta: removed
   verdict: custodial
   developerName: 王牌數位創新股份有限公司

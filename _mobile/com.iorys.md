@@ -9,7 +9,7 @@ android:
   released: 2021-06-21
   updated: 2024-09-10
   version: 1.7.14
-  icon: com.iorys.png
+  icon: com.iorys.webp
   meta: removed
   verdict: wip
   developerName: Iorys Ltd

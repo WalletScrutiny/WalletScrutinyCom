@@ -10,7 +10,7 @@ android:
   released: 2021-10-06
   updated: 2022-02-19
   version: '40.0'
-  icon: com.mkgf_nr.png
+  icon: com.mkgf_nr.webp
   meta: removed
   verdict: wip
   developerName: The Cyber World

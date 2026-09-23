@@ -23,7 +23,7 @@ android:
   updated: 2026-09-16
   version: 5.33.0
   reviews: 262
-  icon: com.app.xt.jpg
+  icon: com.app.xt.webp
   meta: ok
   verdict: custodial
   developerName: XT.COM Inc.
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-18
   version: 5.33.0
   reviews: 1371
-  icon: com.xt.app.jpg
+  icon: com.xt.app.webp
   meta: ok
   verdict: custodial
   developerName: XT LTD, LLC

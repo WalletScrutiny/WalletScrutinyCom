@@ -14,7 +14,7 @@ android:
   updated: 2023-10-27
   version: '22.0'
   reviews: 3
-  icon: com.qfx.trillionerwallet.png
+  icon: com.qfx.trillionerwallet.webp
   meta: obsolete
   verdict: wip
   developerName: Trillioner Innovations

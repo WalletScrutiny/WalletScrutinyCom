@@ -10,7 +10,7 @@ android:
   updated: 2018-06-25
   version: 1.2.4
   reviews: 2
-  icon: pt.ipleiria.estg.dei.yabw.png
+  icon: pt.ipleiria.estg.dei.yabw.webp
   meta: removed
   verdict: wip
 

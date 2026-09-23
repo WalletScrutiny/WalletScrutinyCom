@@ -9,7 +9,7 @@ android:
   released: 2020-07-20
   updated: 2020-10-08
   version: 1.0.7
-  icon: com.nine.png
+  icon: com.nine.webp
   meta: removed
   verdict: wip
   developerName: Nine Develpoer Team

@@ -9,7 +9,7 @@ android:
   updated: 2021-02-23
   version: 1.0.2
   reviews: 9
-  icon: com.nbl.bitcoinchampionapp.png
+  icon: com.nbl.bitcoinchampionapp.webp
   meta: removed
   verdict: wip
 

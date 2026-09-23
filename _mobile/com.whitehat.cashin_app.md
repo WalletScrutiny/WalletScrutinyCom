@@ -22,7 +22,7 @@ android:
   updated: 2026-08-22
   version: 2.1.0
   reviews: 129
-  icon: com.whitehat.cashin_app.png
+  icon: com.whitehat.cashin_app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Macroblocs Ltd
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-02
   version: 2.1.0
   reviews: 1316
-  icon: com.macroblocs.cashinApp.jpg
+  icon: com.macroblocs.cashinApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Macroblocs Limited

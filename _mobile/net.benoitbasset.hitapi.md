@@ -12,7 +12,7 @@ android:
   updated: 2019-05-07
   version: 1.3.0
   reviews: 6
-  icon: net.benoitbasset.hitapi.png
+  icon: net.benoitbasset.hitapi.webp
   meta: removed
   verdict: wip
   developerName: Oblade

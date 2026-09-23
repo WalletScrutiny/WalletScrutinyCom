@@ -20,7 +20,7 @@ android:
   updated: 2026-09-14
   version: 4.21.1
   reviews: 45
-  icon: com.bitkub.png
+  icon: com.bitkub.webp
   meta: ok
   verdict: custodial
   developerName: Bitkub Online Co., Ltd. (Head Office)
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-16
   version: 4.21.1
   reviews: 19031
-  icon: com.bitkub.app.jpg
+  icon: com.bitkub.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitkub Online Co., Ltd

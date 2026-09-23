@@ -11,7 +11,7 @@ android:
   users: 10
   updated: 2021-02-22
   version: 2.0.3
-  icon: org.secuso.privacyfriendlyopiuycemanoper.png
+  icon: org.secuso.privacyfriendlyopiuycemanoper.webp
   meta: removed
   verdict: wip
 

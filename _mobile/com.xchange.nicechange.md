@@ -14,7 +14,7 @@ android:
   released: 2021-05-25
   updated: 2024-08-01
   version: 4.1.1
-  icon: com.xchange.nicechange.png
+  icon: com.xchange.nicechange.webp
   meta: removed
   verdict: custodial
   developerName: XchangeCapitalGroup OU
@@ -26,7 +26,7 @@ iphone:
   updated: 2022-12-29
   version: 1.0.9
   reviews: 0
-  icon: com.xchangecapital.nicechange.jpg
+  icon: com.xchangecapital.nicechange.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup

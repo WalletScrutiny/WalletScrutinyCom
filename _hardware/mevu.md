@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: mevu.png
+icon: mevu.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -10,7 +10,7 @@ android:
   released: 2020-10-13
   updated: 2020-10-13
   version: '1.0'
-  icon: com.am.flashtrade.png
+  icon: com.am.flashtrade.webp
   meta: removed
   verdict: wip
 

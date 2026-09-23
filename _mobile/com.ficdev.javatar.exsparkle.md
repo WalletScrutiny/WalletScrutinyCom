@@ -9,7 +9,7 @@ android:
   released: 2017-12-01
   updated: 2018-01-15
   version: 3.4.5
-  icon: com.ficdev.javatar.exsparkle.png
+  icon: com.ficdev.javatar.exsparkle.webp
   meta: removed
   verdict: wip
   developerName: FICTION DEVELOPER

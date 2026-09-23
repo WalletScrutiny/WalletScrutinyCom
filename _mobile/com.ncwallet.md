@@ -19,7 +19,7 @@ android:
   updated: 2026-08-31
   version: 4.387.0
   reviews: 958
-  icon: com.ncwallet.png
+  icon: com.ncwallet.webp
   meta: ok
   verdict: custodial
   developerName: NCW Team
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-04
   version: 4.386.0
   reviews: 331
-  icon: com.ncwallet.jpg
+  icon: com.ncwallet.webp
   meta: ok
   verdict: custodial
   developerName: Zafiro International Limited

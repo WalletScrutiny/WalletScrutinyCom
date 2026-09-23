@@ -10,7 +10,7 @@ android:
   released: 2021-03-09
   updated: 2021-04-13
   version: 1.0.3
-  icon: com.stiwallet.png
+  icon: com.stiwallet.webp
   meta: removed
   verdict: wip
   developerName: 아토유니버스

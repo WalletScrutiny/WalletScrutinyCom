@@ -19,7 +19,7 @@ android:
   updated: 2024-08-29
   version: '1.5'
   reviews: 10
-  icon: com.quasarwallet.android.png
+  icon: com.quasarwallet.android.webp
   meta: obsolete
   verdict: custodial
   developerName: Blaqclouds

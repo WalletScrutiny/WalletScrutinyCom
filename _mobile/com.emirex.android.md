@@ -18,7 +18,7 @@ android:
   released: 2022-08-08
   updated: 2022-08-08
   version: '1.1'
-  icon: com.emirex.android.png
+  icon: com.emirex.android.webp
   meta: removed
   verdict: custodial
   developerName: Emirex

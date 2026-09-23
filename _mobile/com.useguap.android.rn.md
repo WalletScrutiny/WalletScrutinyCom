@@ -16,7 +16,7 @@ android:
   released: 2025-12-05
   updated: 2026-08-26
   version: 1.0.2
-  icon: com.useguap.android.rn.png
+  icon: com.useguap.android.rn.webp
   meta: ok
   verdict: custodial
   developerName: Future Money Labs
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-08-27
   version: 1.0.2
   reviews: 5
-  icon: com.useguap.ios.rn.jpg
+  icon: com.useguap.ios.rn.webp
   meta: ok
   verdict: custodial
   developerName: Future Money Labs

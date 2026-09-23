@@ -9,7 +9,7 @@ android:
   released: 2021-05-20
   updated: 2021-05-20
   version: '1.0'
-  icon: com.fast.trustedupcryptoexchange.png
+  icon: com.fast.trustedupcryptoexchange.webp
   meta: removed
   verdict: wip
   developerName: Trustedup Financial

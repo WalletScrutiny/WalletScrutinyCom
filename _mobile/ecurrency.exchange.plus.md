@@ -10,7 +10,7 @@ android:
   updated: 2019-09-28
   version: v5.0
   reviews: 2
-  icon: ecurrency.exchange.plus.png
+  icon: ecurrency.exchange.plus.webp
   meta: removed
   verdict: wip
   developerName: Moghadam

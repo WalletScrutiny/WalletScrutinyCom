@@ -16,7 +16,7 @@ android:
   updated: 2021-04-08
   version: 1.1.2
   reviews: 1
-  icon: io.infipay.android.png
+  icon: io.infipay.android.webp
   meta: removed
   verdict: custodial
   developerName: infipay
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-04-09
   version: 1.1.2
   reviews: 0
-  icon: com.antier.infipay.jpg
+  icon: com.antier.infipay.webp
   meta: removed
   verdict: custodial
   developerName: Antier Solutions Private Limited

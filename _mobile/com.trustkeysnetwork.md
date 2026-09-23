@@ -20,7 +20,7 @@ android:
   updated: 2024-10-22
   version: 2.4.3
   reviews: 25
-  icon: com.trustkeysnetwork.png
+  icon: com.trustkeysnetwork.webp
   meta: stale
   verdict: nosource
   developerName: TrustKeys Finance
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-09-06
   version: 1.0.0
   reviews: 4
-  icon: org.openstars.tkblockchain.jpg
+  icon: org.openstars.tkblockchain.webp
   meta: removed
   verdict: nosource
 

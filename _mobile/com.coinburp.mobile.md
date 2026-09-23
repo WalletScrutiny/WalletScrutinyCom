@@ -18,7 +18,7 @@ android:
   released: 2020-06-17
   updated: 2022-01-05
   version: 1.0.15
-  icon: com.coinburp.mobile.png
+  icon: com.coinburp.mobile.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-01-05
   version: 1.0.16
   reviews: 5
-  icon: com.coinburp.mobile.jpg
+  icon: com.coinburp.mobile.webp
   meta: removed
   verdict: custodial
 

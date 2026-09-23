@@ -14,7 +14,7 @@ android:
   released: 2021-12-23
   updated: 2022-09-30
   version: 1.5.0
-  icon: com.bitkipi.png
+  icon: com.bitkipi.webp
   meta: removed
   verdict: nosource
   developerName: Pocket Bitcoin
@@ -26,7 +26,7 @@ iphone:
   updated: 2022-10-02
   version: 1.5.0
   reviews: 0
-  icon: com.bitkipi.bitkipi.jpg
+  icon: com.bitkipi.bitkipi.webp
   meta: removed
   verdict: nosource
   developerName: Pocket App AG

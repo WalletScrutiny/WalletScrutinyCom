@@ -20,7 +20,7 @@ android:
   released: 2021-06-02
   updated: 2024-03-02
   version: 1.8.9
-  icon: io.fgraph.shinobiwallet.png
+  icon: io.fgraph.shinobiwallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Mirai Finance
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-03-13
   version: 1.8.9
   reviews: 0
-  icon: io.fgraph.wallet.jpg
+  icon: io.fgraph.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: RISE LLC.

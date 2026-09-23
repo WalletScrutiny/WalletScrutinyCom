@@ -9,7 +9,7 @@ android:
   released: 2022-03-26
   updated: 2022-04-04
   version: 1.0.2
-  icon: net.appdevs.cryptodirect.png
+  icon: net.appdevs.cryptodirect.webp
   meta: removed
   verdict: wip
   developerName: Modiba Jones

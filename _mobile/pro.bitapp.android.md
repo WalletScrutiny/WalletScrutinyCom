@@ -14,7 +14,7 @@ android:
   updated: 2019-10-11
   version: v2.6.0
   reviews: 24
-  icon: pro.bitapp.android.png
+  icon: pro.bitapp.android.webp
   meta: removed
   verdict: wip
 

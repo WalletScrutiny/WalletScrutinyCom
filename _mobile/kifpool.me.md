@@ -18,7 +18,7 @@ android:
   updated: 2022-12-11
   version: '1.7'
   reviews: 10
-  icon: kifpool.me.png
+  icon: kifpool.me.webp
   meta: removed
   verdict: custodial
   developerName: zipboomlak

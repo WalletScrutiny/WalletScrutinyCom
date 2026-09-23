@@ -9,7 +9,7 @@ android:
   released: 2021-12-13
   updated: 2022-01-16
   version: 0.21.0
-  icon: com.spot.wallet.png
+  icon: com.spot.wallet.webp
   meta: removed
   verdict: wip
   developerName: The Crypto Spot

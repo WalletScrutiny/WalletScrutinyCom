@@ -9,7 +9,7 @@ android:
   released: 2021-04-10
   updated: 2021-04-13
   version: 1.0.3
-  icon: io.ok.wallet.png
+  icon: io.ok.wallet.webp
   meta: removed
   verdict: wip
   developerName: laowang

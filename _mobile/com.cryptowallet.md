@@ -8,7 +8,7 @@ android:
   users: 50
   updated: 2019-07-28
   version: VARY
-  icon: com.cryptowallet.png
+  icon: com.cryptowallet.webp
   meta: removed
   verdict: wip
   developerName: Crypto activos

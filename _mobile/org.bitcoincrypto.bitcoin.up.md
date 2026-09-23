@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: org.bitcoincrypto.bitcoin.up.png
+  icon: org.bitcoincrypto.bitcoin.up.webp
   meta: removed
   verdict: wip
 

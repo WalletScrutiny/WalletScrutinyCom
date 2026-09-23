@@ -9,7 +9,7 @@ android:
   released: 2021-06-29
   updated: 2021-06-29
   version: '1.0'
-  icon: net.cryptoearn.bitcoin.investment.hub.png
+  icon: net.cryptoearn.bitcoin.investment.hub.webp
   meta: removed
   verdict: wip
 

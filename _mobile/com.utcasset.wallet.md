@@ -9,7 +9,7 @@ android:
   released: 2021-08-26
   updated: 2021-08-27
   version: 0.21.0
-  icon: com.utcasset.wallet.jpg
+  icon: com.utcasset.wallet.webp
   meta: removed
   verdict: wip
   developerName: clambiz

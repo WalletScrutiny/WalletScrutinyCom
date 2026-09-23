@@ -12,7 +12,7 @@ android:
   updated: 2021-04-08
   version: '1.33'
   reviews: 10
-  icon: cloud.peer2.pungo_wallet.png
+  icon: cloud.peer2.pungo_wallet.webp
   meta: removed
   verdict: nosource
 

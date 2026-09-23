@@ -10,7 +10,7 @@ android:
   released: 2023-03-10
   updated: 2023-03-31
   version: '1.7'
-  icon: com.btcs.stakeseeker.png
+  icon: com.btcs.stakeseeker.webp
   meta: removed
   verdict: wip
   developerName: StakeSeeker by BTCS

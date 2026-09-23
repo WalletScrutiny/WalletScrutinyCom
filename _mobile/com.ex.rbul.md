@@ -10,7 +10,7 @@ android:
   released: 2022-01-11
   updated: 2022-02-15
   version: '1.6'
-  icon: com.ex.rbul.png
+  icon: com.ex.rbul.webp
   meta: removed
   verdict: wip
   developerName: Redbul

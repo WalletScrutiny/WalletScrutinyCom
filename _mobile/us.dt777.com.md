@@ -9,7 +9,7 @@ android:
   released: 2022-04-20
   updated: 2022-04-20
   version: 1.0.9
-  icon: us.dt777.com.png
+  icon: us.dt777.com.webp
   meta: removed
   verdict: wip
   developerName: CCUSD

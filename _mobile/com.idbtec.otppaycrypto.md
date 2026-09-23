@@ -16,7 +16,7 @@ android:
   updated: 2020-04-01
   version: '1.21'
   reviews: 4
-  icon: com.idbtec.otppaycrypto.png
+  icon: com.idbtec.otppaycrypto.webp
   meta: removed
   verdict: wip
   developerName: Otppay OU

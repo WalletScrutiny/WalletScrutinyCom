@@ -16,7 +16,7 @@ android:
   released: 2019-08-26
   updated: 2026-06-17
   version: 3.0.56
-  icon: com.teroxx.png
+  icon: com.teroxx.webp
   meta: ok
   verdict: custodial
   developerName: Teroxx
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-06-23
   version: 3.0.51
   reviews: 1
-  icon: Teroxx.jpg
+  icon: Teroxx.webp
   meta: ok
   verdict: custodial
   developerName: Teroxx Worldwide UAB

@@ -21,7 +21,7 @@ android:
   updated: 2022-01-30
   version: 0.8.0
   reviews: 290
-  icon: io.b21.invest.png
+  icon: io.b21.invest.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-02-01
   version: 0.8.0
   reviews: 66
-  icon: io.b21.invest.jpg
+  icon: io.b21.invest.webp
   meta: removed
   verdict: custodial
 

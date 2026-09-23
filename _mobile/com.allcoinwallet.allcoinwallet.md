@@ -13,7 +13,7 @@ android:
   updated: 2019-11-22
   version: 1.2.22
   reviews: 1
-  icon: com.allcoinwallet.allcoinwallet.png
+  icon: com.allcoinwallet.allcoinwallet.webp
   meta: removed
   verdict: wip
   developerName: All Coin Wallet

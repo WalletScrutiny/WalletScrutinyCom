@@ -23,7 +23,7 @@ android:
   appCountry: us
   updated: 2026-08-30
   version: 5.2.2
-  icon: au.com.bitaroo.express.png
+  icon: au.com.bitaroo.express.webp
   meta: ok
   verdict: custodial
   developerName: Bitaroo
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-30
   version: 5.2.2
   reviews: 26
-  icon: au.com.bitaroo.express.jpg
+  icon: au.com.bitaroo.express.webp
   meta: ok
   verdict: custodial
   developerName: Bitaroo

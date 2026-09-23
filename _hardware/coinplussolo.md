@@ -17,7 +17,7 @@ shop:
 country: LU
 price: 
 repository: 
-icon: coinplussolo.png
+icon: coinplussolo.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

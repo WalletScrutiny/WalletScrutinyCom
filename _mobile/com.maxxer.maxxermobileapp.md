@@ -10,7 +10,7 @@ android:
   released: 2022-07-09
   updated: 2022-12-06
   version: 1.0.28
-  icon: com.maxxer.maxxermobileapp.jpg
+  icon: com.maxxer.maxxermobileapp.webp
   meta: removed
   verdict: wip
   developerName: DXXR Holding BV

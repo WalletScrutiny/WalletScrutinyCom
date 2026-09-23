@@ -10,7 +10,7 @@ android:
   released: 2022-06-27
   updated: 2022-06-27
   version: 1.0.0
-  icon: com.harungoker.bitcrypto.png
+  icon: com.harungoker.bitcrypto.webp
   meta: removed
   verdict: wip
   developerName: Harun Göker

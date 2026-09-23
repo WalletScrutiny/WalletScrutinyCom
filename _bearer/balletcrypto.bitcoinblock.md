@@ -20,7 +20,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: balletcrypto.bitcoinblock.png
+icon: balletcrypto.bitcoinblock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

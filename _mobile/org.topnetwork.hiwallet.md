@@ -10,7 +10,7 @@ android:
   updated: 2021-08-13
   version: V2.3.2
   reviews: 28
-  icon: org.topnetwork.hiwallet.jpg
+  icon: org.topnetwork.hiwallet.webp
   meta: removed
   verdict: wip
 

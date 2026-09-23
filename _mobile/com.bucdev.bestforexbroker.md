@@ -12,7 +12,7 @@ android:
   released: 2018-04-17
   updated: 2020-10-09
   version: 1.1.3
-  icon: com.bucdev.bestforexbroker.png
+  icon: com.bucdev.bestforexbroker.webp
   meta: removed
   verdict: wip
   developerName: FinDev

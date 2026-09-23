@@ -9,7 +9,7 @@ android:
   released: 2020-06-15
   updated: 2020-06-15
   version: '1.0'
-  icon: com.swldeveloper.btcway.png
+  icon: com.swldeveloper.btcway.webp
   meta: removed
   verdict: wip
 

@@ -20,7 +20,7 @@ android:
   updated: 2026-08-24
   version: 1.14.0
   reviews: 4
-  icon: com.admiralmarkets.android.png
+  icon: com.admiralmarkets.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-26
   version: 5.66.0
   reviews: 3
-  icon: com.admiralmarkets.tradersroom.jpg
+  icon: com.admiralmarkets.tradersroom.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets AS

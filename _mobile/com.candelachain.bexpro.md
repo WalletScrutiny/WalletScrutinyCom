@@ -12,7 +12,7 @@ android:
   released: 2019-03-25
   updated: 2021-02-20
   version: 1.0.8
-  icon: com.candelachain.bexpro.png
+  icon: com.candelachain.bexpro.webp
   meta: removed
   verdict: wip
   developerName: bexpress

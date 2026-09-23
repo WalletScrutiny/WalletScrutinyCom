@@ -10,7 +10,7 @@ android:
   users: 10
   updated: 2019-04-11
   version: pre-alpha v0.2b
-  icon: com.mobileln.png
+  icon: com.mobileln.webp
   meta: removed
   verdict: wip
   repository: https://github.com/hihidev/MobileLN

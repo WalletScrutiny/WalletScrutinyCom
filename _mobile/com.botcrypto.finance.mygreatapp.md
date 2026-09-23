@@ -10,7 +10,7 @@ android:
   released: 2022-03-22
   updated: 2022-03-23
   version: '1.0'
-  icon: com.botcrypto.finance.mygreatapp.png
+  icon: com.botcrypto.finance.mygreatapp.webp
   meta: removed
   verdict: wip
 

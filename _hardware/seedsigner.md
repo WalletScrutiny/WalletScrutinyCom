@@ -19,7 +19,7 @@ shop: https://btc-hardware-solutions.square.site/product/orange_pill_kit/6?cs=tr
 country: US
 price: 93USD
 repository: https://github.com/SeedSigner/seedsigner
-icon: seedsigner.png
+icon: seedsigner.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

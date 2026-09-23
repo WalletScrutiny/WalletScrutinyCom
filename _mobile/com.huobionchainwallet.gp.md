@@ -17,7 +17,7 @@ android:
   updated: 2023-06-05
   version: 3.03.06.003
   reviews: 185
-  icon: com.huobionchainwallet.gp.png
+  icon: com.huobionchainwallet.gp.webp
   meta: removed
   verdict: nosource
   developerName: BlazekTech Internet Technology Service Limited

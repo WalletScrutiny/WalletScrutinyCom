@@ -24,7 +24,7 @@ android:
   updated: 2026-09-14
   version: 5.25.0
   reviews: 7238
-  icon: com.bybit.app.jpg
+  icon: com.bybit.app.webp
   meta: ok
   verdict: custodial
   developerName: Bybit
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-16
   version: 5.25.5
   reviews: 46918
-  icon: com.bybit.app.jpg
+  icon: com.bybit.app.webp
   meta: ok
   verdict: custodial
   developerName: Bybit Fintech Limited

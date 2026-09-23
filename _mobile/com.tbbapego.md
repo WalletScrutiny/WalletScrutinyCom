@@ -10,7 +10,7 @@ android:
   released: 2020-10-07
   updated: 2020-10-07
   version: '3.0'
-  icon: com.tbbapego.png
+  icon: com.tbbapego.webp
   meta: removed
   verdict: wip
   developerName: Nena Vuckovic

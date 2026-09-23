@@ -10,7 +10,7 @@ android:
   released: 2021-01-28
   updated: 2021-01-29
   version: 1.0.4
-  icon: bd.nazmul81.global_chain.png
+  icon: bd.nazmul81.global_chain.webp
   meta: removed
   verdict: wip
   developerName: blackrobot

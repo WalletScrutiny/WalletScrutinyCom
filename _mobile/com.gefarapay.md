@@ -10,7 +10,7 @@ android:
   released: 2018-08-02
   updated: 2021-03-03
   version: '1.21'
-  icon: com.gefarapay.png
+  icon: com.gefarapay.webp
   meta: removed
   verdict: wip
 

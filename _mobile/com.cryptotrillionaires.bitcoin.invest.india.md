@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: com.cryptotrillionaires.bitcoin.invest.india.png
+  icon: com.cryptotrillionaires.bitcoin.invest.india.webp
   meta: removed
   verdict: wip
 

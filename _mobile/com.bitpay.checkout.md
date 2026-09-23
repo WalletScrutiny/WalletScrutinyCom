@@ -10,7 +10,7 @@ android:
   updated: 2020-08-11
   version: 1.2.5
   reviews: 135
-  icon: com.bitpay.checkout.png
+  icon: com.bitpay.checkout.webp
   meta: removed
   verdict: wip
 

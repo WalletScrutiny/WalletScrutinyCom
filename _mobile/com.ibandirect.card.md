@@ -15,7 +15,7 @@ android:
   released: 2020-11-08
   updated: 2024-10-06
   version: 1.9.2
-  icon: com.ibandirect.card.png
+  icon: com.ibandirect.card.webp
   meta: removed
   verdict: custodial
   developerName: Ibandirect
@@ -27,7 +27,7 @@ iphone:
   updated: 2024-10-06
   version: 1.9.2
   reviews: 1
-  icon: com.ibandirect.cards.jpg
+  icon: com.ibandirect.cards.webp
   meta: removed
   verdict: custodial
   developerName: Ibandirect

@@ -13,7 +13,7 @@ android:
   users: 5000
   updated: 2022-12-21
   version: 1.1.0
-  icon: com.cloud.panthira.png
+  icon: com.cloud.panthira.webp
   meta: removed
   verdict: custodial
   developerName: Panthira Exchange

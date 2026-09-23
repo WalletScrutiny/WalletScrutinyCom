@@ -10,7 +10,7 @@ android:
   released: 2022-01-19
   updated: 2022-05-30
   version: 4.0.13
-  icon: com.my2can.cyclebit.png
+  icon: com.my2can.cyclebit.webp
   meta: removed
   verdict: wip
   developerName: Digital Alliance Holding AB

@@ -17,7 +17,7 @@ android:
   released: 2022-02-08
   updated: 2023-05-09
   version: 2.2.9
-  icon: com.tbit.android.png
+  icon: com.tbit.android.webp
   meta: removed
   verdict: custodial
   developerName: Tbit Global limited
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-05-05
   version: 2.2.9
   reviews: 1
-  icon: TbitApp.com.jpg
+  icon: TbitApp.com.webp
   meta: removed
   verdict: custodial
   developerName: Tbit Global Limited

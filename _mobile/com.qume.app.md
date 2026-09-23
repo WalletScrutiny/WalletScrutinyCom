@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2020-10-07
   version: '1.1'
-  icon: com.qume.app.png
+  icon: com.qume.app.webp
   meta: removed
   verdict: wip
   developerName: Karma Innovations PTE. LTD.

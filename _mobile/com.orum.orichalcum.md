@@ -9,7 +9,7 @@ android:
   released: 2019-09-19
   updated: 2019-09-20
   version: '1.0'
-  icon: com.orum.orichalcum.png
+  icon: com.orum.orichalcum.webp
   meta: removed
   verdict: wip
   developerName: Orichalcum

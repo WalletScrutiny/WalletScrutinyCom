@@ -21,7 +21,7 @@ android:
   updated: 2024-02-06
   version: 4.88.4
   reviews: 514
-  icon: com.spot.spot.png
+  icon: com.spot.spot.webp
   meta: removed
   verdict: nosource
   developerName: Spot crypto wallet
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-04-30
   version: '5.25'
   reviews: 6989
-  icon: tech.spotapp.spot.jpg
+  icon: tech.spotapp.spot.webp
   meta: removed
   verdict: nosource
   developerName: Spot

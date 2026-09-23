@@ -13,7 +13,7 @@ android:
   updated: 2021-05-07
   version: 2.9.6
   reviews: 4
-  icon: im.token.app99.png
+  icon: im.token.app99.webp
   meta: removed
   verdict: fake
 

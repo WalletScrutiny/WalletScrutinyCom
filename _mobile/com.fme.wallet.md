@@ -12,7 +12,7 @@ android:
   released: 2020-04-26
   updated: 2020-06-22
   version: 1.0.0
-  icon: com.fme.wallet.jpg
+  icon: com.fme.wallet.webp
   meta: removed
   verdict: wip
   developerName: fmetoken.io

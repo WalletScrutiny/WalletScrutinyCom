@@ -12,7 +12,7 @@ android:
   released: 2025-12-13
   updated: 2026-07-04
   version: 1.1.15
-  icon: com.hedgerx.exchange.png
+  icon: com.hedgerx.exchange.webp
   meta: ok
   verdict: custodial
   developerName: HedgerX
@@ -24,7 +24,7 @@ iphone:
   updated: 2026-07-10
   version: 1.1.15
   reviews: 0
-  icon: com.hedgerx.Innovation.jpg
+  icon: com.hedgerx.Innovation.webp
   meta: ok
   verdict: custodial
   developerName: HedgerX inc.

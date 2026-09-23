@@ -30,7 +30,7 @@ android:
   updated: 2026-02-16
   version: 3.7.1
   reviews: 509
-  icon: com.shapeshift.droid_shapeshift.png
+  icon: com.shapeshift.droid_shapeshift.webp
   meta: ok
   verdict: sourceavailable
   developerName: ShapeShift.com
@@ -43,7 +43,7 @@ iphone:
   updated: 2026-02-20
   version: 3.7.2
   reviews: 82
-  icon: com.shapeShift.shapeShift.jpg
+  icon: com.shapeShift.shapeShift.webp
   meta: ok
   verdict: nosource
   developerName: ShapeShift AG

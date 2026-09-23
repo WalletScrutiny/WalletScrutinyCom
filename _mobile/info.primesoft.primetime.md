@@ -13,7 +13,7 @@ android:
   updated: 2025-08-15
   version: 1.0.0
   reviews: 6
-  icon: info.primesoft.primetime.jpg
+  icon: info.primesoft.primetime.webp
   meta: defunct
   verdict: wip
   developerName: Globals Bank

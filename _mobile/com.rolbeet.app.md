@@ -10,7 +10,7 @@ android:
   released: 2020-06-04
   updated: 2020-10-28
   version: 1.4.0
-  icon: com.rolbeet.app.png
+  icon: com.rolbeet.app.webp
   meta: removed
   verdict: wip
 

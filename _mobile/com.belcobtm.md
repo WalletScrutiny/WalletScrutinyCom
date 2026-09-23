@@ -9,7 +9,7 @@ android:
   released: 2021-07-12
   updated: 2022-08-15
   version: 2.7.0
-  icon: com.belcobtm.png
+  icon: com.belcobtm.webp
   meta: removed
   verdict: wip
   developerName: ATUM Network LLC

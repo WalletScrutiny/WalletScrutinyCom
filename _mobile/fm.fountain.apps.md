@@ -20,7 +20,7 @@ android:
   updated: 2026-08-02
   version: 1.5.6
   reviews: 262
-  icon: fm.fountain.apps.png
+  icon: fm.fountain.apps.webp
   meta: ok
   verdict: custodial
   developerName: Fountain Labs Ltd
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-11
   version: 1.5.7
   reviews: 2
-  icon: fm.fountain.apps.jpg
+  icon: fm.fountain.apps.webp
   meta: ok
   verdict: custodial
   developerName: Fountain Labs Ltd.

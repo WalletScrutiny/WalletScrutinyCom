@@ -13,7 +13,7 @@ android:
   updated: 2021-04-28
   version: 1.1.3
   reviews: 58
-  icon: com.bitcoinofamerica.wallet.png
+  icon: com.bitcoinofamerica.wallet.webp
   meta: removed
   verdict: nosource
 

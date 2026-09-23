@@ -10,7 +10,7 @@ android:
   released: 2020-12-27
   updated: 2021-03-25
   version: 1.2.3 Release
-  icon: com.bitfairex.png
+  icon: com.bitfairex.webp
   meta: removed
   verdict: wip
   developerName: Bitfairex

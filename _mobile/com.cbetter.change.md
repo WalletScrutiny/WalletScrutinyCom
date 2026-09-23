@@ -10,7 +10,7 @@ android:
   released: 2021-09-29
   updated: 2022-11-24
   version: 1.1.1
-  icon: com.cbetter.change.png
+  icon: com.cbetter.change.webp
   meta: removed
   verdict: wip
   developerName: Intech Systems Of Tallahassee, Inc

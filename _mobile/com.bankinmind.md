@@ -10,7 +10,7 @@ android:
   released: 2022-06-16
   updated: 2023-05-01
   version: 1.0.71
-  icon: com.bankinmind.png
+  icon: com.bankinmind.webp
   meta: removed
   verdict: wip
   developerName: BIM GROUP L.L.C-FZ

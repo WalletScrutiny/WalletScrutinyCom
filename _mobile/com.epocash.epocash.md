@@ -10,7 +10,7 @@ android:
   released: 2020-09-20
   updated: 2020-10-21
   version: '1.1'
-  icon: com.epocash.epocash.jpg
+  icon: com.epocash.epocash.webp
   meta: removed
   verdict: wip
   developerName: EPO Cash

@@ -10,7 +10,7 @@ android:
   released: 2019-08-20
   updated: 2019-09-09
   version: '1.3'
-  icon: com.exchange.coinbims.png
+  icon: com.exchange.coinbims.webp
   meta: removed
   verdict: wip
   developerName: Cjy711352

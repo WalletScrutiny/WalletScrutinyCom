@@ -18,7 +18,7 @@ android:
   released: 2022-11-03
   updated: 2025-10-16
   version: 2.1.0
-  icon: com.covest.covestM.png
+  icon: com.covest.covestM.webp
   meta: ok
   verdict: custodial
   developerName: COVEST PRO
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-07-15
   version: '1.8'
   reviews: 0
-  icon: pro.covest.mapple.jpg
+  icon: pro.covest.mapple.webp
   meta: obsolete
   verdict: custodial
   developerName: COVEST LLC

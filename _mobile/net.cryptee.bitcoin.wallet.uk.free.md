@@ -9,7 +9,7 @@ android:
   released: 2021-06-19
   updated: 2021-06-19
   version: '1.0'
-  icon: net.cryptee.bitcoin.wallet.uk.free.jpg
+  icon: net.cryptee.bitcoin.wallet.uk.free.webp
   meta: removed
   verdict: wip
 

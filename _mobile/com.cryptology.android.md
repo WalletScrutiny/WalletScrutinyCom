@@ -19,7 +19,7 @@ android:
   updated: 2024-01-17
   version: 3.19.0
   reviews: 3
-  icon: com.cryptology.android.png
+  icon: com.cryptology.android.webp
   meta: removed
   verdict: custodial
   developerName: Cypher OÜ
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-09-23
   version: 3.15.3
   reviews: 6
-  icon: com.cryptology.ios.jpg
+  icon: com.cryptology.ios.webp
   meta: removed
   verdict: custodial
   developerName: Cypher OU

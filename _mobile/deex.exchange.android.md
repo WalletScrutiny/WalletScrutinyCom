@@ -19,7 +19,7 @@ android:
   released: 2019-11-29
   updated: 2020-04-21
   version: 0.3.9
-  icon: deex.exchange.android.png
+  icon: deex.exchange.android.webp
   meta: removed
   verdict: wip
   developerName: Deex Group

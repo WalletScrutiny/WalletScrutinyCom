@@ -18,7 +18,7 @@ android:
   updated: 2022-05-26
   version: 1.5.2
   reviews: 16
-  icon: com.ittrendex.liteforex.png
+  icon: com.ittrendex.liteforex.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-02-07
   version: '1.68'
   reviews: 21
-  icon: com.ittrendex.liteforex.jpg
+  icon: com.ittrendex.liteforex.webp
   meta: removed
   verdict: wip
   developerName: Liteforex (Europe) Limited

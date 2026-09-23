@@ -9,7 +9,7 @@ android:
   released: 2021-06-19
   updated: 2021-06-19
   version: '1.0'
-  icon: com.cryptodragons.get.real.bitcoin.free.jpg
+  icon: com.cryptodragons.get.real.bitcoin.free.webp
   meta: removed
   verdict: wip
 

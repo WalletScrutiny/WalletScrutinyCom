@@ -9,7 +9,7 @@ android:
   released: 2021-08-03
   updated: 2021-08-04
   version: 4.1.2
-  icon: be.homiex.broker.android.png
+  icon: be.homiex.broker.android.webp
   meta: removed
   verdict: wip
 

@@ -15,7 +15,7 @@ android:
   updated: 2023-06-28
   version: 4.1.1
   reviews: 6
-  icon: com.glamster.png
+  icon: com.glamster.webp
   meta: removed
   verdict: nosource
   developerName: Glamster
@@ -27,7 +27,7 @@ iphone:
   updated: 2023-06-30
   version: 4.1.1
   reviews: 241
-  icon: com.glamster.jpg
+  icon: com.glamster.webp
   meta: removed
   verdict: nosource
   developerName: Glamster

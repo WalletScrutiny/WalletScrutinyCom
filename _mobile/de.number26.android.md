@@ -22,7 +22,7 @@ android:
   updated: 2026-09-04
   version: '4.59'
   reviews: 2177
-  icon: de.number26.android.png
+  icon: de.number26.android.webp
   meta: ok
   verdict: custodial
   developerName: N26 AG
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-09
   version: '4.59'
   reviews: 11920
-  icon: de.no26.Number26.jpg
+  icon: de.no26.Number26.webp
   meta: ok
   verdict: custodial
   developerName: N26 SE

@@ -11,7 +11,7 @@ android:
   updated: 2021-09-13
   version: 1.0.15
   reviews: 7
-  icon: app.hashx.online.png
+  icon: app.hashx.online.webp
   meta: removed
   verdict: wip
 

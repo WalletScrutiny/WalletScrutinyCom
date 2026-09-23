@@ -9,7 +9,7 @@ android:
   released: 2022-05-13
   updated: 2022-05-13
   version: 1.4.1
-  icon: com.hujinsuo.DGCoin.png
+  icon: com.hujinsuo.DGCoin.webp
   meta: removed
   verdict: wip
 

@@ -21,7 +21,7 @@ android:
   updated: 2026-03-23
   version: 2.18.0
   reviews: 18
-  icon: com.letsbit.app.png
+  icon: com.letsbit.app.webp
   meta: removed
   verdict: custodial
   developerName: LB Finanzas
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-02
   version: 2.29.0
   reviews: 444
-  icon: com.letsbit.app.jpg
+  icon: com.letsbit.app.webp
   meta: ok
   verdict: custodial
   developerName: Let'sBit

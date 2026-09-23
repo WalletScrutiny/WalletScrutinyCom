@@ -10,7 +10,7 @@ android:
   released: 2021-06-25
   updated: 2023-08-22
   version: '1.2'
-  icon: com.novapago.novapagopay.png
+  icon: com.novapago.novapagopay.webp
   meta: removed
   verdict: wip
   developerName: Novapago

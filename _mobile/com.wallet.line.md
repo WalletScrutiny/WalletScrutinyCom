@@ -12,7 +12,7 @@ android:
   released: 2022-03-31
   updated: 2023-01-12
   version: 12.0.0
-  icon: com.wallet.line.png
+  icon: com.wallet.line.webp
   meta: removed
   verdict: wip
   developerName: Linechain Crypto Technology

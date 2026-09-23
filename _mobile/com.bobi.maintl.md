@@ -10,7 +10,7 @@ android:
   released: 2021-03-18
   updated: 2021-06-17
   version: 0.2.3
-  icon: com.bobi.maintl.png
+  icon: com.bobi.maintl.webp
   meta: removed
   verdict: wip
   developerName: BobiEX

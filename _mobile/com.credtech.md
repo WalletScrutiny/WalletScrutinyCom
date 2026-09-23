@@ -9,7 +9,7 @@ android:
   released: 2021-02-07
   updated: 2021-02-11
   version: '1.1'
-  icon: com.credtech.png
+  icon: com.credtech.webp
   meta: removed
   verdict: wip
   developerName: Block Cloud

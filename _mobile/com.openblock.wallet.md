@@ -16,7 +16,7 @@ android:
   released: 2023-02-06
   updated: 2026-03-10
   version: 2.2.6
-  icon: com.openblock.wallet.png
+  icon: com.openblock.wallet.webp
   meta: removed
   verdict: custodial
   developerName: JXJL Inc.
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-07-02
   version: 2.2.7
   reviews: 2
-  icon: com.dssq.obwallet.jpg
+  icon: com.dssq.obwallet.webp
   meta: ok
   verdict: custodial
   developerName: JXJL Inc.

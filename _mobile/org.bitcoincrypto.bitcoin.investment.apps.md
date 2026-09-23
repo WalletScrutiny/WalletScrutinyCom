@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: org.bitcoincrypto.bitcoin.investment.apps.png
+  icon: org.bitcoincrypto.bitcoin.investment.apps.webp
   meta: removed
   verdict: wip
 

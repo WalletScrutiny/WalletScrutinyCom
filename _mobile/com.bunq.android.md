@@ -22,7 +22,7 @@ android:
   updated: 2026-09-12
   version: 31.20.2
   reviews: 239
-  icon: com.bunq.android.png
+  icon: com.bunq.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: bunq
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-11
   version: 31.20.0
   reviews: 15024
-  icon: com.bunq.ios.jpg
+  icon: com.bunq.ios.webp
   meta: ok
   verdict: nosendreceive
   developerName: bunq

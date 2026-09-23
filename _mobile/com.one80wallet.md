@@ -11,7 +11,7 @@ android:
   released: 2025-06-20
   updated: 2026-07-23
   version: 1.0.13
-  icon: com.one80wallet.png
+  icon: com.one80wallet.webp
   meta: fewusers
   verdict: wip
   developerName: One80

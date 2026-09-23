@@ -17,7 +17,7 @@ android:
   released: 2022-08-22
   updated: 2022-08-22
   version: 1.1.0
-  icon: com.exchangedm.png
+  icon: com.exchangedm.webp
   meta: removed
   verdict: custodial
   developerName: Digital Money Ltd

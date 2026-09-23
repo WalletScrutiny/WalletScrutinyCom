@@ -10,7 +10,7 @@ android:
   released: 2020-07-13
   updated: 2020-08-07
   version: 1.0.0
-  icon: com.zab.lbc.app.png
+  icon: com.zab.lbc.app.webp
   meta: removed
   verdict: wip
   developerName: Zab Technologies

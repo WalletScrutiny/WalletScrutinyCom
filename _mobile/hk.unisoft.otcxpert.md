@@ -10,7 +10,7 @@ android:
   released: 2020-03-17
   updated: 2021-09-28
   version: 1.0.28
-  icon: hk.unisoft.otcxpert.png
+  icon: hk.unisoft.otcxpert.webp
   meta: removed
   verdict: wip
   developerName: YBEX Ltd.

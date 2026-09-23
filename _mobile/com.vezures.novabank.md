@@ -9,7 +9,7 @@ android:
   released: 2020-03-24
   updated: 2020-03-24
   version: 1.3.2
-  icon: com.vezures.novabank.jpg
+  icon: com.vezures.novabank.webp
   meta: removed
   verdict: wip
   developerName: Konzortia Capital

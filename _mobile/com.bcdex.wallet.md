@@ -10,7 +10,7 @@ android:
   released: 2018-05-17
   updated: 2018-05-29
   version: 1.0.0.93
-  icon: com.bcdex.wallet.png
+  icon: com.bcdex.wallet.webp
   meta: removed
   verdict: wip
   developerName: BCD EX Developer

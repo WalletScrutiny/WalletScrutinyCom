@@ -17,7 +17,7 @@ android:
   updated: 2023-02-16
   version: '2.512'
   reviews: 10
-  icon: com.fatbtc.App.png
+  icon: com.fatbtc.App.webp
   meta: removed
   verdict: custodial
   developerName: FatBTC Ltd.,
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-07-25
   version: '2.5'
   reviews: 2
-  icon: com.fatbtc.FatBTCApp.jpg
+  icon: com.fatbtc.FatBTCApp.webp
   meta: removed
   verdict: custodial
   developerName: FATBTC LTD

@@ -18,7 +18,7 @@ shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=411690
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-icon: onekeymini.png
+icon: onekeymini.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

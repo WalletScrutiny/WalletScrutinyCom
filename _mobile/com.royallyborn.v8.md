@@ -22,7 +22,7 @@ android:
   updated: 2025-12-22
   version: 1.2.5
   reviews: 17
-  icon: com.royallyborn.v8.jpg
+  icon: com.royallyborn.v8.webp
   meta: removed
   verdict: custodial
   developerName: 8v.com

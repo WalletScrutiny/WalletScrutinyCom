@@ -10,7 +10,7 @@ android:
   released: 2022-09-16
   updated: 2024-08-14
   version: '1.0'
-  icon: micat.example.bergamo.png
+  icon: micat.example.bergamo.webp
   meta: removed
   verdict: wip
   developerName: entropia

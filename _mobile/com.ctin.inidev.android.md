@@ -10,7 +10,7 @@ android:
   released: 2021-05-22
   updated: 2021-06-04
   version: 1.0.1
-  icon: com.ctin.inidev.android.png
+  icon: com.ctin.inidev.android.webp
   meta: removed
   verdict: wip
   developerName: Inindia Corporation

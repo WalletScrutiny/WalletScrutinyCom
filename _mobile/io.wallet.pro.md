@@ -19,7 +19,7 @@ android:
   released: 2019-07-14
   updated: 2021-08-04
   version: 1.2.9
-  icon: io.wallet.pro.png
+  icon: io.wallet.pro.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-08-06
   version: 1.2.9
   reviews: 0
-  icon: io.wallet.pro.jpg
+  icon: io.wallet.pro.webp
   meta: removed
   verdict: nosource
   developerName: Taiyi Technology Beijing Co., Ltd.

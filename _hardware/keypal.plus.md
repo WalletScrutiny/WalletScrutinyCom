@@ -20,7 +20,7 @@ shop: https://keypalwallet.mystrikingly.com/store/products/keypal-plus#deadLink
 country: CN
 price: 110 USD
 repository: 
-icon: keypal.plus.png
+icon: keypal.plus.webp
 bugbounty: 
 meta: ok
 verdict: nosource

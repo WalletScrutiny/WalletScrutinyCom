@@ -10,7 +10,7 @@ android:
   released: 2020-05-06
   updated: 2020-07-21
   version: 1.0.7
-  icon: com.btcboxpro.exchange.png
+  icon: com.btcboxpro.exchange.webp
   meta: removed
   verdict: wip
 

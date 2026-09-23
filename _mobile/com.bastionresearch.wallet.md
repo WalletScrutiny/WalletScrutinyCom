@@ -14,7 +14,7 @@ android:
   released: 2024-05-28
   updated: 2025-12-16
   version: 1.1.163
-  icon: com.bastionresearch.wallet.png
+  icon: com.bastionresearch.wallet.webp
   meta: fewusers
   verdict: nosource
   developerName: Bastion Research
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-08-12
   version: '173'
   reviews: 1
-  icon: com.hardwayder.bastionwallet.jpg
+  icon: com.hardwayder.bastionwallet.webp
   meta: ok
   verdict: nosource
   developerName: Bastion Research Ltd.

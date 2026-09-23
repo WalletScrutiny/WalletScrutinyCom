@@ -20,7 +20,7 @@ shop: https://store.coinkite.com/store/category/mk5
 country: CA
 price: 189USD
 repository: https://github.com/Coldcard/firmware
-icon: coldcardMk5.png
+icon: coldcardMk5.webp
 bugbounty: https://coldcard.com/resources/security/report-a-security-issue
 meta: ok
 verdict: sourceavailable

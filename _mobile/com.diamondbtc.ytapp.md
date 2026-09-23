@@ -10,7 +10,7 @@ android:
   released: 2021-03-13
   updated: 2021-03-13
   version: '1.0'
-  icon: com.diamondbtc.ytapp.png
+  icon: com.diamondbtc.ytapp.webp
   meta: removed
   verdict: wip
   developerName: Diamond Brokers

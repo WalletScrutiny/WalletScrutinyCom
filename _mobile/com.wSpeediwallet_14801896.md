@@ -10,7 +10,7 @@ android:
   released: 2021-12-08
   updated: 2021-12-08
   version: 1.0.2
-  icon: com.wSpeediwallet_14801896.png
+  icon: com.wSpeediwallet_14801896.webp
   meta: removed
   verdict: wip
   developerName: Invisible Designs

@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: altswitch.hardwallet.png
+icon: altswitch.hardwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

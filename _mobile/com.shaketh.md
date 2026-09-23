@@ -20,7 +20,7 @@ android:
   updated: 2026-09-04
   version: 4.19.0
   reviews: 21
-  icon: com.shaketh.png
+  icon: com.shaketh.webp
   meta: ok
   verdict: custodial
   developerName: Shakepay

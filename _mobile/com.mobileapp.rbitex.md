@@ -12,7 +12,7 @@ android:
   released: 2021-10-29
   updated: 2022-06-12
   version: 3.0.2
-  icon: com.mobileapp.rbitex.png
+  icon: com.mobileapp.rbitex.webp
   meta: removed
   verdict: custodial
   developerName: Rbitex Ventures Private Limited

@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2019-09-11
   version: VARY
-  icon: com.blackbox.tradingbot.png
+  icon: com.blackbox.tradingbot.webp
   meta: removed
   verdict: wip
   developerName: Black Box Apps

@@ -10,7 +10,7 @@ android:
   released: 2022-03-09
   updated: 2024-11-12
   version: 1.3.64
-  icon: com.keyex.crypto.png
+  icon: com.keyex.crypto.webp
   meta: removed
   verdict: wip
   developerName: DIGIFACTOR TEKNOLOJI ANONIM SIRKETI

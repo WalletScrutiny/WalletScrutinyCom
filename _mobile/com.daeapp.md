@@ -10,7 +10,7 @@ android:
   released: 2021-01-02
   updated: 2021-09-12
   version: '12.0'
-  icon: com.daeapp.jpg
+  icon: com.daeapp.webp
   meta: removed
   verdict: wip
   developerName: Data Analysis Empire

@@ -12,7 +12,7 @@ android:
   released: 2017-01-30
   updated: 2018-09-05
   version: '1.5'
-  icon: multico.in.btctrade.png
+  icon: multico.in.btctrade.webp
   meta: removed
   verdict: wip
   developerName: Smmarat

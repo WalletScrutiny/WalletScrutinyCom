@@ -10,7 +10,7 @@ android:
   released: 2021-04-07
   updated: 2021-05-05
   version: 0.0.8
-  icon: app.glions.wallet.png
+  icon: app.glions.wallet.webp
   meta: removed
   verdict: wip
   developerName: Glions Technology OÜ

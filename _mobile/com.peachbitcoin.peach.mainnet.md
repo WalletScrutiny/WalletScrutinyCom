@@ -24,7 +24,7 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 0.69.0
-  icon: com.peachbitcoin.peach.mainnet.png
+  icon: com.peachbitcoin.peach.mainnet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Peach Bitcoin

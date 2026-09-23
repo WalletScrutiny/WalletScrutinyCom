@@ -9,7 +9,7 @@ android:
   released: 2021-08-19
   updated: 2021-11-23
   version: 1.1.0
-  icon: key.cn.png
+  icon: key.cn.webp
   meta: removed
   verdict: wip
   developerName: zhizhi909

@@ -10,7 +10,7 @@ android:
   updated: 2021-06-21
   version: '1'
   reviews: 3
-  icon: com.upbots.demo.twa.png
+  icon: com.upbots.demo.twa.webp
   meta: removed
   verdict: wip
 

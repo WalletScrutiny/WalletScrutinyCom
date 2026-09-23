@@ -19,7 +19,7 @@ android:
   updated: 2026-04-17
   version: 4.30.5
   reviews: 10402
-  icon: io.zebedee.wallet.png
+  icon: io.zebedee.wallet.webp
   meta: ok
   verdict: custodial
   developerName: ZEBEDEE
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-08-21
   version: 4.30.6
   reviews: 12018
-  icon: io.zebedee.wallet.jpg
+  icon: io.zebedee.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Zebedee Inc.

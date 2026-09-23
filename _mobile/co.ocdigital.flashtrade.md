@@ -9,7 +9,7 @@ android:
   released: 2018-01-02
   updated: 2018-01-21
   version: 1.2.2
-  icon: co.ocdigital.flashtrade.png
+  icon: co.ocdigital.flashtrade.webp
   meta: removed
   verdict: wip
 

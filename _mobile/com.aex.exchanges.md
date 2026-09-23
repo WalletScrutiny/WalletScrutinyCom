@@ -20,7 +20,7 @@ android:
   updated: 2023-08-18
   version: 1.1.5
   reviews: 3
-  icon: com.aex.exchanges.png
+  icon: com.aex.exchanges.webp
   meta: removed
   verdict: custodial
   developerName: OPENEX TECHNOLOGY PTE.LTD.

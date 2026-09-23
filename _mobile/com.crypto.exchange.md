@@ -23,7 +23,7 @@ android:
   updated: 2026-09-07
   version: 3.10.4
   reviews: 16
-  icon: com.crypto.exchange.png
+  icon: com.crypto.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Crypto.com Exchange
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-09
   version: 3.10.4
   reviews: 110
-  icon: crypto.com.exchange.jpg
+  icon: crypto.com.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Foris DAX Limited

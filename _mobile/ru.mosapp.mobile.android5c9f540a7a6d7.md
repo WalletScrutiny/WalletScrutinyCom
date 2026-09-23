@@ -9,7 +9,7 @@ android:
   released: 2019-03-30
   updated: 2019-03-30
   version: '1.0'
-  icon: ru.mosapp.mobile.android5c9f540a7a6d7.png
+  icon: ru.mosapp.mobile.android5c9f540a7a6d7.webp
   meta: removed
   verdict: wip
   developerName: mobilapp

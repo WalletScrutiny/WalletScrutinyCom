@@ -10,7 +10,7 @@ android:
   released: 2021-05-09
   updated: 2021-05-09
   version: 1.1.2
-  icon: com.vimepaypeer2peer.png
+  icon: com.vimepaypeer2peer.webp
   meta: removed
   verdict: wip
 

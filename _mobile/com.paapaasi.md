@@ -10,7 +10,7 @@ android:
   released: 2021-08-24
   updated: 2021-09-15
   version: '1.0'
-  icon: com.paapaasi.png
+  icon: com.paapaasi.webp
   meta: removed
   verdict: wip
   developerName: Paapaasi Ltd

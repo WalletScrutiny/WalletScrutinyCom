@@ -17,7 +17,7 @@ shop:
 country: SG
 price: 
 repository: 
-icon: deviantcoin.png
+icon: deviantcoin.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -10,7 +10,7 @@ android:
   released: 2022-09-09
   updated: 2022-09-27
   version: 5.5.0_push_v2
-  icon: com.chainup.exchange.exchange365.png
+  icon: com.chainup.exchange.exchange365.webp
   meta: removed
   verdict: wip
   developerName: 365EX LTD.

@@ -10,7 +10,7 @@ android:
   released: 2019-12-10
   updated: 2020-10-25
   version: 0.1.0
-  icon: network.globaldao.goowallet.png
+  icon: network.globaldao.goowallet.webp
   meta: removed
   verdict: wip
   developerName: goo! Technology

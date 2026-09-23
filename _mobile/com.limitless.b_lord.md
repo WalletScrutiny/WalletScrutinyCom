@@ -9,7 +9,7 @@ android:
   released: 2020-11-04
   updated: 2020-11-04
   version: 1.0.4
-  icon: com.limitless.b_lord.png
+  icon: com.limitless.b_lord.webp
   meta: removed
   verdict: wip
 

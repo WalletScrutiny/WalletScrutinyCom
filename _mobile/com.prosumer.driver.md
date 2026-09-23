@@ -9,7 +9,7 @@ android:
   released: 2020-12-29
   updated: 2021-01-14
   version: 1.0.15
-  icon: com.prosumer.driver.png
+  icon: com.prosumer.driver.webp
   meta: removed
   verdict: wip
   developerName: Elyfran Vaz

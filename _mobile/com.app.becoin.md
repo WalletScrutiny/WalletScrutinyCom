@@ -10,7 +10,7 @@ android:
   released: 2022-10-01
   updated: 2022-10-01
   version: '1.0'
-  icon: com.app.becoin.png
+  icon: com.app.becoin.webp
   meta: removed
   verdict: wip
   developerName: LGA SOFT USA

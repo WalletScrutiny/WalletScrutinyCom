@@ -14,7 +14,7 @@ android:
   updated: 2019-11-02
   version: '1.1'
   reviews: 42
-  icon: info.mysecurewallet.wallet.png
+  icon: info.mysecurewallet.wallet.webp
   meta: removed
   verdict: custodial
 

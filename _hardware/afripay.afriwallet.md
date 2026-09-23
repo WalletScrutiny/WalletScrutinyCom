@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: afripay.afriwallet.png
+icon: afripay.afriwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

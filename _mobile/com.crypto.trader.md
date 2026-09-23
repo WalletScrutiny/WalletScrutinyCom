@@ -9,7 +9,7 @@ android:
   released: 2021-09-29
   updated: 2021-09-29
   version: 1.0.3
-  icon: com.crypto.trader.png
+  icon: com.crypto.trader.webp
   meta: removed
   verdict: wip
 

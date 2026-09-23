@@ -16,7 +16,7 @@ android:
   updated: 2026-07-19
   version: 1.9.3
   reviews: 50
-  icon: com.arzjoo.png
+  icon: com.arzjoo.webp
   meta: ok
   verdict: custodial
   developerName: A to Z Crypto

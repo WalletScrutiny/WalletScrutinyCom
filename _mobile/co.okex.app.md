@@ -15,7 +15,7 @@ android:
   updated: 2025-12-22
   version: 7.4.9
   reviews: 268
-  icon: co.okex.app.png
+  icon: co.okex.app.webp
   meta: ok
   verdict: custodial
   developerName: Technical team

@@ -22,7 +22,7 @@ android:
   released: 2022-09-21
   updated: 2022-11-09
   version: 1.0.5
-  icon: com.ruby.coin.png
+  icon: com.ruby.coin.webp
   meta: removed
   verdict: custodial
   developerName: rubycoin
@@ -34,7 +34,7 @@ iphone:
   updated: 2022-11-10
   version: '5.0'
   reviews: 0
-  icon: com.rubycoin.app.jpg
+  icon: com.rubycoin.app.webp
   meta: removed
   verdict: custodial
   developerName: Ruby Coin

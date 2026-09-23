@@ -9,7 +9,7 @@ android:
   released: 2022-04-21
   updated: 2022-04-22
   version: '1.0'
-  icon: group.immediate.edge.png
+  icon: group.immediate.edge.webp
   meta: removed
   verdict: wip
 

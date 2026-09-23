@@ -20,7 +20,7 @@ android:
   updated: 2026-04-13
   version: 15.0.0
   reviews: 10
-  icon: com.maicoin.maicoin.png
+  icon: com.maicoin.maicoin.webp
   meta: ok
   verdict: custodial
   developerName: MaiCoin Eng
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-04-12
   version: 4.0.0
   reviews: 10
-  icon: com.maicoin.maicoin.jpg
+  icon: com.maicoin.maicoin.webp
   meta: removed
   verdict: custodial
 

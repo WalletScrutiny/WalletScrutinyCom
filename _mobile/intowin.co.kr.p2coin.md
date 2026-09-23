@@ -10,7 +10,7 @@ android:
   released: 2018-08-30
   updated: 2018-08-31
   version: '1.0'
-  icon: intowin.co.kr.p2coin.png
+  icon: intowin.co.kr.p2coin.webp
   meta: removed
   verdict: wip
   developerName: Goodbit Korea

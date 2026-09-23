@@ -10,7 +10,7 @@ android:
   released: 2022-03-18
   updated: 2023-01-01
   version: 2.1.2
-  icon: com.wiztecbd.e_next_trading.png
+  icon: com.wiztecbd.e_next_trading.webp
   meta: removed
   verdict: wip
   developerName: Ginext

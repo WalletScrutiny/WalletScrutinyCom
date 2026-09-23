@@ -15,7 +15,7 @@ android:
   released: 2023-06-02
   updated: 2026-09-10
   version: 3.3.1
-  icon: com.utorg.png
+  icon: com.utorg.webp
   meta: ok
   verdict: nosource
   developerName: UTORG LABS HOLDING LTD

@@ -16,7 +16,7 @@ android:
   updated: 2023-12-06
   version: 2.0.2
   reviews: 26
-  icon: com.jackocoins.app.png
+  icon: com.jackocoins.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: Jackocoins

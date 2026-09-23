@@ -21,7 +21,7 @@ android:
   updated: 2024-11-06
   version: 2.19.1
   reviews: 10703
-  icon: com.hi.dollars.png
+  icon: com.hi.dollars.webp
   meta: removed
   verdict: custodial
   developerName: hi.com
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-10-28
   version: 2.19.0
   reviews: 279
-  icon: com.hidollars.app.jpg
+  icon: com.hidollars.app.webp
   meta: stale
   verdict: custodial
   developerName: HI

@@ -9,7 +9,7 @@ android:
   released: 2020-06-19
   updated: 2020-06-19
   version: '1.1'
-  icon: com.g3shanappz.claimerbox.jpg
+  icon: com.g3shanappz.claimerbox.webp
   meta: removed
   verdict: wip
 

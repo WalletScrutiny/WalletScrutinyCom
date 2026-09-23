@@ -10,7 +10,7 @@ android:
   released: 2018-08-19
   updated: 2018-08-20
   version: '1.0'
-  icon: com.gcointrading.app.png
+  icon: com.gcointrading.app.webp
   meta: removed
   verdict: wip
   developerName: GcointradingApp

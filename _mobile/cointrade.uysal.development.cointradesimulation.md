@@ -10,7 +10,7 @@ android:
   released: 2018-02-18
   updated: 2018-02-20
   version: '1.4'
-  icon: cointrade.uysal.development.cointradesimulation.png
+  icon: cointrade.uysal.development.cointradesimulation.webp
   meta: removed
   verdict: wip
   developerName: uysalokan

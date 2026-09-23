@@ -10,7 +10,7 @@ android:
   released: 2021-02-08
   updated: 2022-03-24
   version: '1.7'
-  icon: uk.co.globalblock.droidapp.jpg
+  icon: uk.co.globalblock.droidapp.webp
   meta: removed
   verdict: wip
 

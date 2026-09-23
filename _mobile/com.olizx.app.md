@@ -9,7 +9,7 @@ android:
   released: 2021-10-19
   updated: 2021-10-28
   version: '1.0'
-  icon: com.olizx.app.png
+  icon: com.olizx.app.webp
   meta: removed
   verdict: wip
   developerName: Olizx

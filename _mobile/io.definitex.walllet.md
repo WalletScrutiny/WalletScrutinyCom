@@ -11,7 +11,7 @@ android:
   updated: 2021-04-14
   version: 0.18.2
   reviews: 29
-  icon: io.definitex.walllet.png
+  icon: io.definitex.walllet.webp
   meta: removed
   verdict: wip
   developerName: Definitex

@@ -13,7 +13,7 @@ android:
   updated: 2021-11-17
   version: '1.18'
   reviews: 7
-  icon: com.liyeplimal.jpg
+  icon: com.liyeplimal.webp
   meta: removed
   verdict: wip
   developerName: GIT Dev

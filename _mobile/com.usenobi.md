@@ -23,7 +23,7 @@ android:
   updated: 2025-09-24
   version: 3.6.11
   reviews: 5
-  icon: com.usenobi.png
+  icon: com.usenobi.webp
   meta: removed
   verdict: custodial
   developerName: Bybit Indonesia
@@ -35,7 +35,7 @@ iphone:
   updated: 2025-11-06
   version: 3.6.12
   reviews: 86
-  icon: com.usenobi.ios.jpg
+  icon: com.usenobi.ios.webp
   meta: removed
   verdict: custodial
   developerName: Nobi

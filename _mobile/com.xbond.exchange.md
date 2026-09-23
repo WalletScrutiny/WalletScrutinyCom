@@ -10,7 +10,7 @@ android:
   updated: 2021-03-02
   version: '2.4'
   reviews: 4
-  icon: com.xbond.exchange.png
+  icon: com.xbond.exchange.webp
   meta: removed
   verdict: wip
 

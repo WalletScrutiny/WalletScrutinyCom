@@ -11,7 +11,7 @@ android:
   updated: 2021-04-25
   version: '2.5'
   reviews: 194
-  icon: jb.tech.blockchainpro.png
+  icon: jb.tech.blockchainpro.webp
   meta: removed
   verdict: wip
 

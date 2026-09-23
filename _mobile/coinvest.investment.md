@@ -11,7 +11,7 @@ android:
   released: 2020-12-12
   updated: 2020-12-18
   version: '9.8'
-  icon: coinvest.investment.png
+  icon: coinvest.investment.webp
   meta: removed
   verdict: wip
   developerName: MTB SMARTNET

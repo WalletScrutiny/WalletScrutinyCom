@@ -12,7 +12,7 @@ android:
   released: 2020-11-05
   updated: 2020-11-17
   version: 2.0.1
-  icon: com.huobilbn.appstore.png
+  icon: com.huobilbn.appstore.webp
   meta: removed
   verdict: wip
   developerName: Huobi Labuan Limited

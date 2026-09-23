@@ -10,7 +10,7 @@ android:
   released: 2021-11-08
   updated: 2021-11-18
   version: 3.40.5
-  icon: com.unirealchain.wallet.png
+  icon: com.unirealchain.wallet.webp
   meta: removed
   verdict: wip
   developerName: Unirealchain

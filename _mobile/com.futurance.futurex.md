@@ -22,7 +22,7 @@ android:
   released: 2022-07-07
   updated: 2026-09-17
   version: 2.8.1
-  icon: com.futurance.futurex.png
+  icon: com.futurance.futurex.webp
   meta: ok
   verdict: custodial
   developerName: Futurance Kripto Varlık Alım Satım Platformu
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-15
   version: 6.0.2
   reviews: 135
-  icon: com.futurance.futurex.jpg
+  icon: com.futurance.futurex.webp
   meta: ok
   verdict: custodial
   developerName: FUTURANCE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

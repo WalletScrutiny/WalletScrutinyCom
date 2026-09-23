@@ -23,7 +23,7 @@ android:
   updated: 2026-07-02
   version: 1.3.2
   reviews: 4
-  icon: com.coinwebapp.png
+  icon: com.coinwebapp.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-07-15
   version: 1.3.2
   reviews: 4
-  icon: io.coinweb.wallet.jpg
+  icon: io.coinweb.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb

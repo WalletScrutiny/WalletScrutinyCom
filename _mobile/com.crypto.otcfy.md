@@ -10,7 +10,7 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: '1.0'
-  icon: com.crypto.otcfy.png
+  icon: com.crypto.otcfy.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: com.makingmillionswithcrypto.bitcoin.investment.apps.jpg
+  icon: com.makingmillionswithcrypto.bitcoin.investment.apps.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,7 @@ shop: https://www.crptsecure.com/pricing#deadLink
 country: ZA
 price: 6USD
 repository: 
-icon: crptsecure.card.png
+icon: crptsecure.card.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

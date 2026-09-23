@@ -19,7 +19,7 @@ android:
   updated: 2026-09-11
   version: 2.49.0
   reviews: 232
-  icon: com.btcturk.pro.png
+  icon: com.btcturk.pro.webp
   meta: ok
   verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-11-30
   version: 1.54.1
   reviews: 1561
-  icon: com.btcturk.pro.jpg
+  icon: com.btcturk.pro.webp
   meta: removed
   verdict: wip
 

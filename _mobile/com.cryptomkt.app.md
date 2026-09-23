@@ -10,7 +10,7 @@ android:
   updated: 2020-07-20
   version: 3.2.1
   reviews: 323
-  icon: com.cryptomkt.app.png
+  icon: com.cryptomkt.app.webp
   meta: removed
   verdict: wip
 

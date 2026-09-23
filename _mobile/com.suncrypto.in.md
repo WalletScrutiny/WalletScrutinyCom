@@ -13,7 +13,7 @@ android:
   updated: 2026-08-25
   version: 5.10.5
   reviews: 275
-  icon: com.suncrypto.in.png
+  icon: com.suncrypto.in.webp
   meta: ok
   verdict: custodial
   developerName: SunCrypto

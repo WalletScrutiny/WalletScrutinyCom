@@ -17,7 +17,7 @@ android:
   updated: 2026-01-14
   version: 1.1.5
   reviews: 7
-  icon: com.gee_fi.png
+  icon: com.gee_fi.webp
   meta: ok
   verdict: nosource
   developerName: GeeFi Tech

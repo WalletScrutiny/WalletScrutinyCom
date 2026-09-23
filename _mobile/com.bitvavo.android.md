@@ -16,7 +16,7 @@ android:
   updated: 2026-09-18
   version: 2.125.0
   reviews: 3692
-  icon: com.bitvavo.android.png
+  icon: com.bitvavo.android.webp
   meta: ok
   verdict: custodial
   developerName: bitvavo
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-21
   version: 2.126.0
   reviews: 8531
-  icon: com.bitvavo.jpg
+  icon: com.bitvavo.webp
   meta: ok
   verdict: custodial
   developerName: Bitvavo B.V.

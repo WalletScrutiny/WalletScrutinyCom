@@ -10,7 +10,7 @@ android:
   released: 2022-02-16
   updated: 2022-02-25
   version: 1.0.2
-  icon: com.kmoxxllp.cryptozone.png
+  icon: com.kmoxxllp.cryptozone.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,7 @@ android:
   updated: 2020-06-08
   version: 1.4.2
   reviews: 58
-  icon: com.uwalletapp.png
+  icon: com.uwalletapp.webp
   meta: removed
   verdict: custodial
 

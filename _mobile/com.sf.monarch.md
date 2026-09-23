@@ -23,7 +23,7 @@ android:
   updated: 2023-11-21
   version: 2.6.3
   reviews: 132
-  icon: com.sf.monarch.png
+  icon: com.sf.monarch.webp
   meta: removed
   verdict: nosource
   developerName: Splash Factory
@@ -35,7 +35,7 @@ iphone:
   updated: 2024-05-22
   version: 2.0.6
   reviews: 394
-  icon: com.sf.monarch.jpg
+  icon: com.sf.monarch.webp
   meta: obsolete
   verdict: nosource
   developerName: Splash Factory

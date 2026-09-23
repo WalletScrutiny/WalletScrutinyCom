@@ -22,7 +22,7 @@ android:
   released: 2022-09-21
   updated: 2025-08-25
   version: 2.4.8
-  icon: flutter.android.LifePay.png
+  icon: flutter.android.LifePay.webp
   meta: stale
   verdict: custodial
   developerName: ProminentWise
@@ -34,7 +34,7 @@ iphone:
   updated: 2025-08-07
   version: 2.4.7
   reviews: 0
-  icon: com.prominentwiselimited.lifpay.jpg
+  icon: com.prominentwiselimited.lifpay.webp
   meta: stale
   verdict: custodial
   developerName: PROMINENTWISE LIMITED

@@ -12,7 +12,7 @@ android:
   released: 2021-09-10
   updated: 2021-09-10
   version: '1'
-  icon: com.frefcrypto.wallet6.png
+  icon: com.frefcrypto.wallet6.webp
   meta: removed
   verdict: fake
 

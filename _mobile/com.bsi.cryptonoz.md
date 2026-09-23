@@ -9,7 +9,7 @@ android:
   released: 2020-01-03
   updated: 2020-03-17
   version: '1.0'
-  icon: com.bsi.cryptonoz.png
+  icon: com.bsi.cryptonoz.webp
   meta: removed
   verdict: wip
   developerName: Cryptonoz Inc.

@@ -9,7 +9,7 @@ android:
   released: 2021-08-04
   updated: 2022-10-17
   version: 3.3.0
-  icon: com.probe.wallet.png
+  icon: com.probe.wallet.webp
   meta: removed
   verdict: wip
   developerName: PROBE EXCHANGE PTE. LTD.

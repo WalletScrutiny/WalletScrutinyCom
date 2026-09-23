@@ -24,7 +24,7 @@ android:
   updated: 2026-04-07
   version: 8.8.81
   reviews: 135
-  icon: com.pointpay.bank.png
+  icon: com.pointpay.bank.webp
   meta: removed
   verdict: custodial
   developerName: Point Pay OÜ
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-10
   version: 8.8.95
   reviews: 695
-  icon: com.pointpayio.PointPayBank.jpg
+  icon: com.pointpayio.PointPayBank.webp
   meta: ok
   verdict: custodial
   developerName: Point Pay LTD

@@ -9,7 +9,7 @@ android:
   released: 2018-05-26
   updated: 2022-05-02
   version: PRODUCTION (v1580502023)
-  icon: com.coinbucket.png
+  icon: com.coinbucket.webp
   meta: removed
   verdict: wip
 

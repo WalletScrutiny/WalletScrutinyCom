@@ -9,7 +9,7 @@ android:
   released: 2019-06-29
   updated: 2021-05-29
   version: '19.0'
-  icon: domain2.com.moneym.png
+  icon: domain2.com.moneym.webp
   meta: removed
   verdict: wip
 

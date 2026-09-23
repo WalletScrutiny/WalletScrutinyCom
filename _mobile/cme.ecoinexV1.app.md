@@ -9,7 +9,7 @@ android:
   released: 2018-12-19
   updated: 2018-12-19
   version: '1.01'
-  icon: cme.ecoinexV1.app.png
+  icon: cme.ecoinexV1.app.webp
   meta: removed
   verdict: wip
 

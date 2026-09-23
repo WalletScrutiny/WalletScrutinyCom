@@ -21,7 +21,7 @@ android:
   updated: 2025-09-05
   version: 5.0.8
   reviews: 1343
-  icon: org.telegram.bananatok.png
+  icon: org.telegram.bananatok.webp
   meta: removed
   verdict: custodial
   developerName: Bananatok
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-02-21
   version: 5.0.4
   reviews: 265
-  icon: com.xiangjiao.tg.jpg
+  icon: com.xiangjiao.tg.webp
   meta: defunct
   verdict: custodial
   developerName: Zoo Holdings Limited

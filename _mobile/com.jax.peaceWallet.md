@@ -10,7 +10,7 @@ android:
   released: 2022-03-14
   updated: 2023-10-05
   version: '2.0'
-  icon: com.jax.peaceWallet.png
+  icon: com.jax.peaceWallet.webp
   meta: removed
   verdict: wip
   developerName: PeaceWallet

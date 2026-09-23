@@ -11,7 +11,7 @@ android:
   updated: 2020-05-19
   version: '1.0'
   reviews: 4
-  icon: com.bitmex_trading.png
+  icon: com.bitmex_trading.webp
   meta: removed
   verdict: wip
   developerName: cNepho.com

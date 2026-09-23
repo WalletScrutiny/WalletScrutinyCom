@@ -13,7 +13,7 @@ android:
   released: 2020-07-02
   updated: 2020-07-02
   version: '1.0'
-  icon: com.niuupeak.app.png
+  icon: com.niuupeak.app.webp
   meta: removed
   verdict: wip
   developerName: Coins Deal

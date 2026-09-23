@@ -10,7 +10,7 @@ android:
   released: 2020-09-01
   updated: 2020-09-16
   version: '2.2'
-  icon: com.monabey.monachanger.png
+  icon: com.monabey.monachanger.webp
   meta: removed
   verdict: wip
   developerName: Monabey

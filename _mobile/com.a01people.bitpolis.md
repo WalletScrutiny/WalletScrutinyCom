@@ -10,7 +10,7 @@ android:
   released: 2019-10-31
   updated: 2020-05-19
   version: 0.1.2
-  icon: com.a01people.bitpolis.png
+  icon: com.a01people.bitpolis.webp
   meta: removed
   verdict: wip
   developerName: Arca Investments, a.s.

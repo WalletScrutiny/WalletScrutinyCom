@@ -19,7 +19,7 @@ android:
   updated: 2026-09-17
   version: 2.10.3
   reviews: 6
-  icon: io.biscoint.lite.png
+  icon: io.biscoint.lite.webp
   meta: ok
   verdict: nosendreceive
   developerName: bity.com.br
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-21
   version: 2.10.3
   reviews: 8954
-  icon: io.biscoint.lite.jpg
+  icon: io.biscoint.lite.webp
   meta: ok
   verdict: nosendreceive
   developerName: Biscoint

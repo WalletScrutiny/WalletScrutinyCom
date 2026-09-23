@@ -17,7 +17,7 @@ android:
   updated: 2026-08-31
   version: 3.0.104
   reviews: 7
-  icon: com.simplefx.app.png
+  icon: com.simplefx.app.webp
   meta: ok
   verdict: custodial
   developerName: SimpleFX Ltd.

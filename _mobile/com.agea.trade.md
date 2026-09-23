@@ -11,7 +11,7 @@ android:
   updated: 2020-08-26
   version: '1.3'
   reviews: 3
-  icon: com.agea.trade.png
+  icon: com.agea.trade.webp
   meta: removed
   verdict: wip
   developerName: AGEA International AD

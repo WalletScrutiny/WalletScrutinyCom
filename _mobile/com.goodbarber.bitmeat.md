@@ -12,7 +12,7 @@ android:
   updated: 2018-01-10
   version: '1.0'
   reviews: 4
-  icon: com.goodbarber.bitmeat.png
+  icon: com.goodbarber.bitmeat.webp
   meta: removed
   verdict: wip
 

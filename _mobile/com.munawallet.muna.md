@@ -19,7 +19,7 @@ android:
   updated: 2023-11-03
   version: 3.0.0
   reviews: 14
-  icon: com.munawallet.muna.png
+  icon: com.munawallet.muna.webp
   meta: removed
   verdict: custodial
   developerName: Quru Lab
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-03-25
   version: 2.5.2
   reviews: 3
-  icon: com.quru.muna.jpg
+  icon: com.quru.muna.webp
   meta: removed
   verdict: custodial
 

@@ -22,7 +22,7 @@ android:
   released: 2017-01-30
   updated: 2021-09-30
   version: 1.6.24
-  icon: io.melis.clientwallet.png
+  icon: io.melis.clientwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Melis
@@ -34,7 +34,7 @@ iphone:
   updated: 2021-05-08
   version: 1.6.21
   reviews: 0
-  icon: io.melis.clientwallet.jpg
+  icon: io.melis.clientwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Melis s.r.l.

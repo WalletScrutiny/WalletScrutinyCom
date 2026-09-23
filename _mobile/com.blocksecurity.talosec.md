@@ -10,7 +10,7 @@ android:
   released: 2020-05-28
   updated: 2020-06-14
   version: 2.0.0
-  icon: com.blocksecurity.talosec.png
+  icon: com.blocksecurity.talosec.webp
   meta: removed
   verdict: wip
   developerName: Block Security Limited

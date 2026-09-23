@@ -10,7 +10,7 @@ android:
   released: 2021-11-28
   updated: 2022-02-28
   version: 1.3.2
-  icon: com.pleiades.wallet.png
+  icon: com.pleiades.wallet.webp
   meta: removed
   verdict: wip
   developerName: Pleiades Technologies

@@ -10,7 +10,7 @@ android:
   released: 2018-07-19
   updated: 2018-07-19
   version: 1.0.0
-  icon: org.mediatec.coinsnex.png
+  icon: org.mediatec.coinsnex.webp
   meta: removed
   verdict: wip
   developerName: Mediatec Software

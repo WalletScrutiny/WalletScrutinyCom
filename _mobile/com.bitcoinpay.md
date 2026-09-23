@@ -11,7 +11,7 @@ android:
   released: 2021-01-24
   updated: 2025-09-12
   version: 2.1.5
-  icon: com.bitcoinpay.png
+  icon: com.bitcoinpay.webp
   meta: stale
   verdict: wip
   developerName: BitCoinPay Trade

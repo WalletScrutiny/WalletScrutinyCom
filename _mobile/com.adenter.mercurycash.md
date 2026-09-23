@@ -19,7 +19,7 @@ android:
   updated: 2022-09-06
   version: 4.4.3
   reviews: 17
-  icon: com.adenter.mercurycash.png
+  icon: com.adenter.mercurycash.webp
   meta: removed
   verdict: custodial
   developerName: IT Mercury Cash
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-04-19
   version: 4.5.0
   reviews: 68
-  icon: com.adenter.mercurycash.jpg
+  icon: com.adenter.mercurycash.webp
   meta: removed
   verdict: custodial
 

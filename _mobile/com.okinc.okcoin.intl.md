@@ -22,7 +22,7 @@ android:
   updated: 2024-04-30
   version: 5.3.120
   reviews: 629
-  icon: com.okinc.okcoin.intl.png
+  icon: com.okinc.okcoin.intl.webp
   meta: removed
   verdict: custodial
   developerName: OKCoin Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-06-20
   version: 5.3.110
   reviews: 3489
-  icon: com.okcoin.OKCoinAppstore.jpg
+  icon: com.okcoin.OKCoinAppstore.webp
   meta: removed
   verdict: custodial
   developerName: OKCoin USA Inc

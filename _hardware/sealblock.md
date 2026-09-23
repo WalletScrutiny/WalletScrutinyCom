@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: sealblock.png
+icon: sealblock.webp
 bugbounty: 
 meta: ok
 verdict: vapor

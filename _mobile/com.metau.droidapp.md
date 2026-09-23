@@ -10,7 +10,7 @@ android:
   released: 2022-04-10
   updated: 2022-04-10
   version: '1.0'
-  icon: com.metau.droidapp.png
+  icon: com.metau.droidapp.webp
   meta: removed
   verdict: wip
   developerName: MetaU Corp.

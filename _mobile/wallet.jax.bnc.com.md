@@ -13,7 +13,7 @@ android:
   released: 2021-07-14
   updated: 2021-07-14
   version: '1.0'
-  icon: wallet.jax.bnc.com.png
+  icon: wallet.jax.bnc.com.webp
   meta: removed
   verdict: fake
 

@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining.png
+  icon: net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining.webp
   meta: removed
   verdict: wip
 

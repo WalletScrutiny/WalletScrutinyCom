@@ -18,7 +18,7 @@ android:
   released: 2023-05-24
   updated: 2026-03-24
   version: 2.0.1
-  icon: com.digitalasset.fintoken.png
+  icon: com.digitalasset.fintoken.webp
   meta: ok
   verdict: nosource
   developerName: WEBX SDN BHD
@@ -30,7 +30,7 @@ iphone:
   updated: 2025-11-20
   version: 2.2.6
   reviews: 0
-  icon: com.digitalasset.fintoken.jpg
+  icon: com.digitalasset.fintoken.webp
   meta: ok
   verdict: wip
   developerName: webxsdnbhd

@@ -27,7 +27,7 @@ android:
   updated: 2026-09-10
   version: 16.1.0
   reviews: 3
-  icon: com.independentreserve.mobileapp.png
+  icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Independent Reserve
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-09-15
   version: 16.1.0
   reviews: 2286
-  icon: com.independentreserve.mobileapp.jpg
+  icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Independent Reserve

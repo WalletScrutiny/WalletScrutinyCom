@@ -14,7 +14,7 @@ android:
   released: 2020-11-06
   updated: 2023-08-23
   version: 1.1.2
-  icon: com.tomyaapp.android.png
+  icon: com.tomyaapp.android.webp
   meta: removed
   verdict: custodial
   developerName: Tomya Teknoloji A.Ş.
@@ -26,7 +26,7 @@ iphone:
   updated: 2022-07-29
   version: 1.2.5
   reviews: 21
-  icon: com.tomyaapp.ios.jpg
+  icon: com.tomyaapp.ios.webp
   meta: removed
   verdict: custodial
   developerName: TOMYA TEKNOLOJİ A.Ş.

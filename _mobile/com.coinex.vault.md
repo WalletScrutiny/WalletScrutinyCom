@@ -13,7 +13,7 @@ android:
   released: 2023-10-14
   updated: 2026-06-23
   version: 2.21.2
-  icon: com.viabtc.coldwallet.jpg
+  icon: com.viabtc.coldwallet.webp
   meta: ok
   verdict: nosource
   developerName: ViaBTC
@@ -25,7 +25,7 @@ iphone:
   updated: 2026-07-04
   version: 2.21.3
   reviews: 3
-  icon: com.coinex.vault.jpg
+  icon: com.coinex.vault.webp
   meta: ok
   verdict: nosource
   developerName: Viabtc Technology Limited

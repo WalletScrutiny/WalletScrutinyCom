@@ -18,7 +18,7 @@ android:
   released: 2017-12-28
   updated: 2026-09-18
   version: 5.1.6
-  icon: com.ivan.fgwallet.png
+  icon: com.ivan.fgwallet.webp
   meta: ok
   verdict: nosource
   developerName: BIB Holdings (M) Sdn Bhd
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-18
   version: 4.2.5
   reviews: 2
-  icon: com.sfc.fgwallet.jpg
+  icon: com.sfc.fgwallet.webp
   meta: ok
   verdict: nosource
   developerName: SRS FINTECH COMMERCE LTD

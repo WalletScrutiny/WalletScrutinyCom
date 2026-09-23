@@ -18,7 +18,7 @@ android:
   updated: 2021-12-02
   version: 4.2.1
   reviews: 2460
-  icon: wallet.gem.com.atoken.png
+  icon: wallet.gem.com.atoken.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2021-12-13
   version: 4.2.0
   reviews: 263
-  icon: com.jzbt.atoken.jpg
+  icon: com.jzbt.atoken.webp
   meta: removed
   verdict: nosource
 

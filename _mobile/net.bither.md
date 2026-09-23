@@ -17,7 +17,7 @@ android:
   updated: 2024-11-21
   version: 2.1.7
   reviews: 30
-  icon: net.bither.png
+  icon: net.bither.webp
   meta: removed
   verdict: obfuscated
   developerName: getcai
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-04
   version: 2.1.5
   reviews: 61
-  icon: net.bither.jpg
+  icon: net.bither.webp
   meta: ok
   verdict: obfuscated
   developerName: BITHER Limited

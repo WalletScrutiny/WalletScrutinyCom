@@ -9,7 +9,7 @@ android:
   released: 2019-09-21
   updated: 2019-09-26
   version: 1.0.4
-  icon: com.ckgdesigns.com.bitlord.png
+  icon: com.ckgdesigns.com.bitlord.webp
   meta: removed
   verdict: wip
   developerName: Store of Value

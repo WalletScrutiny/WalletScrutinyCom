@@ -11,7 +11,7 @@ android:
   released: 2022-05-31
   updated: 2022-05-31
   version: '1.5'
-  icon: com.devoioapps.trade6ix.png
+  icon: com.devoioapps.trade6ix.webp
   meta: obsolete
   verdict: wip
   developerName: DEVOIO GmbH

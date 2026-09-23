@@ -9,7 +9,7 @@ android:
   released: 2022-07-15
   updated: 2022-09-30
   version: '6.0'
-  icon: com.rightmoney.png
+  icon: com.rightmoney.webp
   meta: removed
   verdict: wip
   developerName: Omnilucid Pvt Ltd

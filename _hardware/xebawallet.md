@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: xebawallet.png
+icon: xebawallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

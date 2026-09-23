@@ -8,7 +8,7 @@ android:
   users: 1000
   updated: 2018-05-31
   version: Varies with device
-  icon: com.alpha.wallet.png
+  icon: com.alpha.wallet.webp
   meta: removed
   verdict: wip
 

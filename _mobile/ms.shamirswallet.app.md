@@ -10,7 +10,7 @@ android:
   released: 2020-07-28
   updated: 2020-12-04
   version: 1.3.1
-  icon: ms.shamirswallet.app.png
+  icon: ms.shamirswallet.app.webp
   meta: removed
   verdict: wip
 

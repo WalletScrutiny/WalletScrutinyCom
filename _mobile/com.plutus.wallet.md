@@ -22,7 +22,7 @@ android:
   updated: 2024-01-12
   version: '146.0'
   reviews: 2889
-  icon: com.plutus.wallet.png
+  icon: com.plutus.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Plutus Financial Inc
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-02-16
   version: 145.0.0
   reviews: 161
-  icon: com.goabra.abra.jpg
+  icon: com.goabra.abra.webp
   meta: removed
   verdict: custodial
   developerName: Plutus Financial

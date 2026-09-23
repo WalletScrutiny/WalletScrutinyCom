@@ -10,7 +10,7 @@ android:
   released: 2021-08-13
   updated: 2025-08-31
   version: 4.2.2
-  icon: com.krptic.png
+  icon: com.krptic.webp
   meta: defunct
   verdict: wip
   developerName: Finnovant

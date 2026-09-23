@@ -13,7 +13,7 @@ android:
   users: 1000
   updated: 2023-01-05
   version: 2.16.0
-  icon: com.cryptex24.png
+  icon: com.cryptex24.webp
   meta: removed
   verdict: custodial
   developerName: C24 WORLD  LTD
@@ -25,7 +25,7 @@ iphone:
   updated: 2022-12-05
   version: '1.6'
   reviews: 1
-  icon: io.cryptex24.mobile.jpg
+  icon: io.cryptex24.mobile.webp
   meta: removed
   verdict: custodial
   developerName: C24 WORLD LTD

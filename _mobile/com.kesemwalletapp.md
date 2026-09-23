@@ -10,7 +10,7 @@ android:
   released: 2019-01-09
   updated: 2019-05-15
   version: '2.17'
-  icon: com.kesemwalletapp.png
+  icon: com.kesemwalletapp.webp
   meta: removed
   verdict: wip
   developerName: Kesem

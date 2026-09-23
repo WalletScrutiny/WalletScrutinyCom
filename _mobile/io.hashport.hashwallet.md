@@ -13,7 +13,7 @@ android:
   updated: 2026-09-07
   version: 3.20.1
   reviews: 227
-  icon: io.hashport.hashwallet.png
+  icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource
   developerName: HashPort Inc.
@@ -25,7 +25,7 @@ iphone:
   updated: 2026-09-16
   version: 3.20.1
   reviews: 1389
-  icon: io.hashport.hashwallet.jpg
+  icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource
   developerName: HashPort Inc

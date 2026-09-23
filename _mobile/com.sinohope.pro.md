@@ -10,7 +10,7 @@ android:
   released: 2025-11-02
   updated: 2026-09-10
   version: 2.12.0
-  icon: com.sinohope.pro.png
+  icon: com.sinohope.pro.webp
   meta: fewusers
   verdict: wip
   developerName: 新火科技

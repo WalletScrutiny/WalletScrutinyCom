@@ -19,7 +19,7 @@ android:
   updated: 2023-04-13
   version: 3.0.391
   reviews: 17
-  icon: com.fluxpayment.png
+  icon: com.fluxpayment.webp
   meta: removed
   verdict: custodial
   developerName: Blueloop Inc.
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-04-15
   version: 3.0.391
   reviews: 93
-  icon: com.blueloopflux.app.jpg
+  icon: com.blueloopflux.app.webp
   meta: removed
   verdict: custodial
   developerName: Blueloop

@@ -13,7 +13,7 @@ android:
   released: 2019-05-18
   updated: 2020-04-08
   version: '1.0'
-  icon: bit7pay.com.bit7pay.png
+  icon: bit7pay.com.bit7pay.webp
   meta: removed
   verdict: wip
   developerName: Saizala Services Private Limited.

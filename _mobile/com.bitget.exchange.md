@@ -20,7 +20,7 @@ android:
   updated: 2026-09-15
   version: 2.93.2
   reviews: 1742
-  icon: com.bitget.exchange.png
+  icon: com.bitget.exchange.webp
   meta: ok
   verdict: custodial
   developerName: BG LIMITED
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-12
   version: 2.93.1
   reviews: 2303
-  icon: com.bitget.exchange.global.jpg
+  icon: com.bitget.exchange.global.webp
   meta: ok
   verdict: custodial
   developerName: BG LIMITED

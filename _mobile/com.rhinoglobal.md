@@ -21,7 +21,7 @@ android:
   updated: 2026-09-17
   version: 2.13.0
   reviews: 55
-  icon: com.rhinoglobal.png
+  icon: com.rhinoglobal.webp
   meta: ok
   verdict: custodial
   developerName: Rhino Bitcoin
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-18
   version: 2.13.1
   reviews: 49
-  icon: com.Rhino.Global.jpg
+  icon: com.Rhino.Global.webp
   meta: ok
   verdict: custodial
   developerName: Rhino Global Inc

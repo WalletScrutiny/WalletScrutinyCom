@@ -10,7 +10,7 @@ android:
   updated: 2020-10-17
   version: '1.0'
   reviews: 6
-  icon: bitcoin.bot.finaladstest.png
+  icon: bitcoin.bot.finaladstest.webp
   meta: removed
   verdict: wip
 

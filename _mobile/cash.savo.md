@@ -19,7 +19,7 @@ android:
   updated: 2026-09-17
   version: 1.5.18
   reviews: 40
-  icon: cash.savo.png
+  icon: cash.savo.webp
   meta: ok
   verdict: custodial
   developerName: SAVO, Inc.
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-19
   version: 1.5.18
   reviews: 278
-  icon: savo.xyz.jpg
+  icon: savo.xyz.webp
   meta: ok
   verdict: custodial
   developerName: SAVO, Inc.

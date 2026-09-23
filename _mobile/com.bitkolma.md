@@ -10,7 +10,7 @@ android:
   released: 2021-01-21
   updated: 2021-01-21
   version: '1.0'
-  icon: com.bitkolma.png
+  icon: com.bitkolma.webp
   meta: removed
   verdict: wip
   developerName: Og Software Solutions

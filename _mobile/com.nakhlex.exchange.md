@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2022-12-08
   version: 1.1.0
-  icon: com.nakhlex.exchange.png
+  icon: com.nakhlex.exchange.webp
   meta: removed
   verdict: wip
   developerName: Nakhlex

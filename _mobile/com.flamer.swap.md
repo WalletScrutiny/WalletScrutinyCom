@@ -10,7 +10,7 @@ android:
   released: 2021-09-25
   updated: 2021-09-25
   version: '4'
-  icon: com.flamer.swap.png
+  icon: com.flamer.swap.webp
   meta: removed
   verdict: wip
   developerName: Dev Crypto Holdings

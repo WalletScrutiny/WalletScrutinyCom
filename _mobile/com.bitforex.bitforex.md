@@ -13,7 +13,7 @@ android:
   updated: 2023-10-25
   version: 3.5.5
   reviews: 44
-  icon: com.bitforex.bitforex.png
+  icon: com.bitforex.bitforex.webp
   meta: removed
   verdict: custodial
   developerName: BITFOREX LTD.

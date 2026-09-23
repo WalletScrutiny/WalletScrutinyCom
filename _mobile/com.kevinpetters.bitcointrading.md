@@ -10,7 +10,7 @@ android:
   released: 2019-06-30
   updated: 2019-06-30
   version: 1.0.0
-  icon: com.kevinpetters.bitcointrading.png
+  icon: com.kevinpetters.bitcointrading.webp
   meta: removed
   verdict: wip
 

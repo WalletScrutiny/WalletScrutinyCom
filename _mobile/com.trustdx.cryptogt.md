@@ -10,7 +10,7 @@ android:
   released: 2021-07-02
   updated: 2021-08-13
   version: '3.0'
-  icon: com.trustdx.cryptogt.png
+  icon: com.trustdx.cryptogt.webp
   meta: removed
   verdict: fake
 

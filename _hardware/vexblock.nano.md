@@ -17,7 +17,7 @@ shop:
 country: 
 price: 29.9USD
 repository: 
-icon: vexblock.nano.png
+icon: vexblock.nano.webp
 bugbounty: 
 meta: defunct
 verdict: noita

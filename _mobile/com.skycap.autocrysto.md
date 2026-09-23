@@ -10,7 +10,7 @@ android:
   released: 2019-11-18
   updated: 2020-04-27
   version: 1.0.3
-  icon: com.skycap.autocrysto.png
+  icon: com.skycap.autocrysto.webp
   meta: removed
   verdict: wip
   developerName: Shibha Corporation

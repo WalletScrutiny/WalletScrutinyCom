@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-05-08
   version: 0.11.6
-  icon: com.thein1.app.jpg
+  icon: com.thein1.app.webp
   meta: removed
   verdict: custodial
   developerName: IN1 HOLDING LIMITED
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-05-11
   version: 0.11.6
   reviews: 287
-  icon: com.thein1.app.jpg
+  icon: com.thein1.app.webp
   meta: removed
   verdict: custodial
   developerName: IN1 HOLDING LIMITED

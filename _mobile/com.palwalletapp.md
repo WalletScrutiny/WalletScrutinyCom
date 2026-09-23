@@ -16,7 +16,7 @@ android:
   released: 2023-03-20
   updated: 2025-10-09
   version: 1.0.29
-  icon: com.palwalletapp.png
+  icon: com.palwalletapp.webp
   meta: ok
   verdict: custodial
   developerName: PalWallet LTD
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-20
   version: 1.0.51
   reviews: 4
-  icon: com.app.palwalletprod.jpg
+  icon: com.app.palwalletprod.webp
   meta: ok
   verdict: custodial
   developerName: PalWallet Limited

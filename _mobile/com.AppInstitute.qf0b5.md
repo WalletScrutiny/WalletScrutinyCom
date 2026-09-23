@@ -10,7 +10,7 @@ android:
   released: 2018-10-04
   updated: 2018-10-12
   version: 1.0.0
-  icon: com.AppInstitute.qf0b5.png
+  icon: com.AppInstitute.qf0b5.webp
   meta: removed
   verdict: wip
   developerName: BlockApps

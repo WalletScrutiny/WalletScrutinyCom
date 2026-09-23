@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2026-09-16
   version: 3.12.1
-  icon: nz.lightningpay.wallet.png
+  icon: nz.lightningpay.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Stacked Bitcoin

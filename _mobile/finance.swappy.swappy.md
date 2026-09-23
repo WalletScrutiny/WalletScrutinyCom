@@ -10,7 +10,7 @@ android:
   released: 2022-03-11
   updated: 2022-05-05
   version: 0.0.3
-  icon: finance.swappy.swappy.png
+  icon: finance.swappy.swappy.webp
   meta: removed
   verdict: wip
   developerName: Swappy Team

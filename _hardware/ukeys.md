@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: ukeys.png
+icon: ukeys.webp
 bugbounty: 
 meta: defunct
 verdict: wip

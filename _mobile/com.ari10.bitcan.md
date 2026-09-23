@@ -23,7 +23,7 @@ android:
   released: 2022-06-14
   updated: 2026-02-11
   version: 2.10.3
-  icon: com.ari10.bitcan.png
+  icon: com.ari10.bitcan.webp
   meta: removed
   verdict: custodial
   developerName: ARI10
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-01-29
   version: 2.10.2
   reviews: 165
-  icon: com.ari10.bitcan.jpg
+  icon: com.ari10.bitcan.webp
   meta: ok
   verdict: custodial
   developerName: BITCAN sp. z o.o.

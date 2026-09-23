@@ -12,7 +12,7 @@ android:
   updated: 2018-11-13
   version: 1.2.1
   reviews: 6
-  icon: net.benoitbasset.bittapi.png
+  icon: net.benoitbasset.bittapi.webp
   meta: removed
   verdict: wip
   developerName: Oblade

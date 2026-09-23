@@ -13,7 +13,7 @@ android:
   updated: 2020-08-03
   version: '2.7'
   reviews: 7
-  icon: com.hamrasta.hwallet.png
+  icon: com.hamrasta.hwallet.webp
   meta: removed
   verdict: wip
   developerName: Hamrasta

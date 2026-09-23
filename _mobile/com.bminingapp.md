@@ -12,7 +12,7 @@ android:
   released: 2020-08-20
   updated: 2020-09-18
   version: 1.4.1
-  icon: com.bminingapp.png
+  icon: com.bminingapp.webp
   meta: removed
   verdict: wip
   developerName: Bmining

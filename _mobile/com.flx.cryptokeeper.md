@@ -17,7 +17,7 @@ android:
   updated: 2025-08-30
   version: 3.0.0
   reviews: 11
-  icon: com.flx.cryptokeeper.png
+  icon: com.flx.cryptokeeper.webp
   meta: stale
   verdict: custodial
   developerName: Crypto Keeper LLC
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-02-21
   version: 6.0.0
   reviews: 80
-  icon: com.flx.cryptokeeper.jpg
+  icon: com.flx.cryptokeeper.webp
   meta: ok
   verdict: custodial
   developerName: Crypto Keeper

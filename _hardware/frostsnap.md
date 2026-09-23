@@ -20,7 +20,7 @@ shop: https://frostsnap.com/buy/
 country: AU
 price: 200000sats
 repository: https://github.com/frostsnap/frostsnap
-icon: frostsnap.png
+icon: frostsnap.webp
 bugbounty: https://github.com/frostsnap/frostsnap/blob/master/SECURITY.md
 meta: ok
 verdict: sourceavailable

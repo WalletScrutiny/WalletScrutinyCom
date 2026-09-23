@@ -24,7 +24,7 @@ android:
   updated: 2025-09-09
   version: 6.5.4
   reviews: 4
-  icon: com.exchange.Ciexv2.png
+  icon: com.exchange.Ciexv2.webp
   meta: stale
   verdict: custodial
   developerName: Centurion Exchange
@@ -36,7 +36,7 @@ iphone:
   updated: 2024-06-11
   version: '6'
   reviews: 0
-  icon: com.centurion.exchange.jpg
+  icon: com.centurion.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: Centurioninvest OU

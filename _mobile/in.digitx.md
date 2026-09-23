@@ -9,7 +9,7 @@ android:
   released: 2020-12-20
   updated: 2021-11-29
   version: 34.0.0
-  icon: in.digitx.png
+  icon: in.digitx.webp
   meta: removed
   verdict: wip
   developerName: Digital Techlab pvt ltd

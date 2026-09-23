@@ -22,7 +22,7 @@ android:
   updated: 2026-09-16
   version: 3.14.0
   reviews: 1305
-  icon: com.redotpay.png
+  icon: com.redotpay.webp
   meta: ok
   verdict: custodial
   developerName: Red Dot Technology Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-21
   version: 3.14.2
   reviews: 4093
-  icon: com.redotpay.jpg
+  icon: com.redotpay.webp
   meta: ok
   verdict: custodial
   developerName: Red Dot Technology Limited.

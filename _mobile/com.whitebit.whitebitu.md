@@ -10,7 +10,7 @@ android:
   released: 2023-04-06
   updated: 2023-06-23
   version: 0.9.65
-  icon: com.whitebit.whitebitu.png
+  icon: com.whitebit.whitebitu.webp
   meta: removed
   verdict: wip
   developerName: WhiteBit

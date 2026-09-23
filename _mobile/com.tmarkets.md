@@ -17,7 +17,7 @@ android:
   appCountry: us
   updated: 2021-12-01
   version: 1.5.78-tmarkets
-  icon: com.tmarkets.png
+  icon: com.tmarkets.webp
   meta: removed
   verdict: nosendreceive
   developerName: GCB LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-11-19
   version: 1.69.13
   reviews: 2
-  icon: com.gcb.T1.jpg
+  icon: com.gcb.T1.webp
   meta: removed
   verdict: nosendreceive
 

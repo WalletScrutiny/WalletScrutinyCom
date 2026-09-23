@@ -12,7 +12,7 @@ provider: LQWD Technologies Corp.
 providerWebsite: https://lqwdtech.com
 website: https://github.com/lqwdtech/SaturnZap
 repository: https://github.com/lqwdtech/SaturnZap
-icon: saturnzap.png
+icon: saturnzap.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

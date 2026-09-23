@@ -12,7 +12,7 @@ android:
   released: 2025-08-19
   updated: 2026-09-09
   version: 1.0.68
-  icon: com.coinceeper.adl.png
+  icon: com.coinceeper.adl.webp
   meta: ok
   verdict: sourceavailable
   developerName: Taparam
@@ -25,7 +25,7 @@ iphone:
   updated: 2026-07-13
   version: 1.0.56
   reviews: 0
-  icon: com.coinceeper.adl.jpg
+  icon: com.coinceeper.adl.webp
   meta: ok
   verdict: sourceavailable
   developerName: TAPARAM ELIPTIK TEKNOLOJI VE YAZILIM ANONIM SIRKETI

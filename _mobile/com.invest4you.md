@@ -10,7 +10,7 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: com.invest4you.png
+  icon: com.invest4you.webp
   meta: removed
   verdict: wip
   developerName: SimplyLab Inc.

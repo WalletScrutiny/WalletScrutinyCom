@@ -19,7 +19,7 @@ android:
   released: 2023-01-26
   updated: 2023-11-10
   version: 2.0.4
-  icon: ivendpay.com.png
+  icon: ivendpay.com.webp
   meta: removed
   verdict: custodial
   developerName: IVENDPAY
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-11-09
   version: 3.0.1
   reviews: 0
-  icon: ivendpay.com.jpg
+  icon: ivendpay.com.webp
   meta: stale
   verdict: custodial
   developerName: ivendPay

@@ -14,7 +14,7 @@ android:
   updated: 2026-09-15
   version: 2.0.4
   reviews: 7
-  icon: com.artisan.pledge.png
+  icon: com.artisan.pledge.webp
   meta: ok
   verdict: nosource
   developerName: CRYPASSURE PTE. LTD.

@@ -10,7 +10,7 @@ android:
   released: 2022-04-04
   updated: 2022-04-05
   version: 1.0.6
-  icon: com.xignal.android.exchange.png
+  icon: com.xignal.android.exchange.webp
   meta: removed
   verdict: wip
   developerName: xignal

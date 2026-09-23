@@ -21,7 +21,7 @@ android:
   released: 2020-07-15
   updated: 2025-05-09
   version: 1.4.0
-  icon: paybusiness.elegro.eu.jpg
+  icon: paybusiness.elegro.eu.webp
   meta: stale
   verdict: custodial
   developerName: Niko Technologies
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-05-15
   version: '4.1'
   reviews: 0
-  icon: paybusiness.elegro.eu.jpg
+  icon: paybusiness.elegro.eu.webp
   meta: stale
   verdict: custodial
   developerName: Niko Technologies

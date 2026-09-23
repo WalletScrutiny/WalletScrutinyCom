@@ -10,7 +10,7 @@ android:
   released: 2018-06-09
   updated: 2018-06-09
   version: 1.0.5
-  icon: com.idmid9e01m0afjvnmq1wu.png
+  icon: com.idmid9e01m0afjvnmq1wu.webp
   meta: removed
   verdict: wip
   developerName: Escb Foundation

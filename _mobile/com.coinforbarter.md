@@ -10,7 +10,7 @@ android:
   released: 2022-05-28
   updated: 2022-05-28
   version: '2.0'
-  icon: com.coinforbarter.png
+  icon: com.coinforbarter.webp
   meta: removed
   verdict: wip
   developerName: CoinForBarter

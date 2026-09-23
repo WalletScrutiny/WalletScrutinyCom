@@ -20,7 +20,7 @@ android:
   updated: 2026-08-21
   version: 4.21.1
   reviews: 13
-  icon: jp.coincheck.android.png
+  icon: jp.coincheck.android.webp
   meta: ok
   verdict: custodial
   developerName: Coincheck
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-07-08
   version: 4.20.5
   reviews: 109777
-  icon: jp.coincheck.ios.jpg
+  icon: jp.coincheck.ios.webp
   meta: ok
   verdict: custodial
   developerName: Coincheck, Inc.

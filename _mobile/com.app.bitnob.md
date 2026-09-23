@@ -23,7 +23,7 @@ android:
   updated: 2026-03-23
   version: 1.190.2
   reviews: 38
-  icon: com.app.bitnob.png
+  icon: com.app.bitnob.webp
   meta: ok
   verdict: custodial
   developerName: Bitnob Technologies
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-03-03
   version: 1.190.1
   reviews: 113
-  icon: com.app.bitnob.jpg
+  icon: com.app.bitnob.webp
   meta: removed
   verdict: custodial
   developerName: Bitnob Technologies

@@ -9,7 +9,7 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: com.cryptoidlemine.bitcoin.invest.uk.png
+  icon: com.cryptoidlemine.bitcoin.invest.uk.webp
   meta: removed
   verdict: wip
 

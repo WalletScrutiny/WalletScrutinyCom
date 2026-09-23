@@ -10,7 +10,7 @@ android:
   released: 2021-05-13
   updated: 2025-10-16
   version: 1.3.2
-  icon: com.rain.cryptoui.png
+  icon: com.rain.cryptoui.webp
   meta: removed
   verdict: wip
   developerName: Rain Infotech Private Limited

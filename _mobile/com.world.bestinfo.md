@@ -12,7 +12,7 @@ android:
   released: 2020-02-29
   updated: 2020-02-29
   version: '1.0'
-  icon: com.world.bestinfo.png
+  icon: com.world.bestinfo.webp
   meta: removed
   verdict: nosendreceive
   developerName: Neo Trade

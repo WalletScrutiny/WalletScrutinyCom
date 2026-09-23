@@ -9,7 +9,7 @@ android:
   released: 2020-09-23
   updated: 2020-09-24
   version: 1.0.0
-  icon: online.brotherscoin.dev.png
+  icon: online.brotherscoin.dev.webp
   meta: removed
   verdict: wip
 

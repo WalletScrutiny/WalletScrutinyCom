@@ -13,7 +13,7 @@ android:
   released: 2022-07-21
   updated: 2022-07-21
   version: '1.0'
-  icon: com.bitcoin_trader_932833.app.jpg
+  icon: com.bitcoin_trader_932833.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: NISHANT MAHESH KHARE

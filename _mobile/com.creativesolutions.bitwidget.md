@@ -9,7 +9,7 @@ android:
   released: 2021-04-25
   updated: 2021-04-29
   version: 1.2.7
-  icon: com.creativesolutions.bitwidget.png
+  icon: com.creativesolutions.bitwidget.webp
   meta: removed
   verdict: wip
   developerName: LOCUS DEV

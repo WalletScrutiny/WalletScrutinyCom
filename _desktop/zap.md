@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://www.zaphq.io
 repository: https://github.com/LN-Zap/zap-desktop
-icon: zap.png
+icon: zap.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

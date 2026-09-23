@@ -12,7 +12,7 @@ android:
   released: 2020-07-31
   updated: 2021-01-13
   version: 1.4.5
-  icon: com.bancryp.dmbank.user.png
+  icon: com.bancryp.dmbank.user.webp
   meta: removed
   verdict: wip
   developerName: The Digital Money

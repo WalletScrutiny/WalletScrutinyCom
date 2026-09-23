@@ -11,7 +11,7 @@ android:
   updated: 2020-01-19
   version: 1.14.1
   reviews: 8
-  icon: com.fcoin.exchange.png
+  icon: com.fcoin.exchange.webp
   meta: removed
   verdict: wip
 

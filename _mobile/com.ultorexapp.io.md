@@ -19,7 +19,7 @@ android:
   released: 2022-07-01
   updated: 2026-04-24
   version: 1.1.20
-  icon: com.ultorexapp.io.png
+  icon: com.ultorexapp.io.webp
   meta: ok
   verdict: custodial
   developerName: Ultorex
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-04-28
   version: 1.1.20
   reviews: 0
-  icon: com.ultorex.io.jpg
+  icon: com.ultorex.io.webp
   meta: removed
   verdict: custodial
   developerName: Ultorex LLC

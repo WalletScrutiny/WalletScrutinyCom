@@ -21,7 +21,7 @@ android:
   updated: 2022-07-16
   version: 0.2.9
   reviews: 17
-  icon: com.genesisblock.production.png
+  icon: com.genesisblock.production.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-05-23
   version: 0.5.3
   reviews: 56
-  icon: com.genesisblock.GenesisBlock.jpg
+  icon: com.genesisblock.GenesisBlock.webp
   meta: ok
   verdict: custodial
   developerName: Genesis Block

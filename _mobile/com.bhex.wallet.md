@@ -19,7 +19,7 @@ android:
   updated: 2021-09-19
   version: 1.3.5
   reviews: 4
-  icon: com.bhex.wallet.png
+  icon: com.bhex.wallet.webp
   meta: removed
   verdict: wip
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-10-23
   version: 1.3.4
   reviews: 1
-  icon: com.bluehelix.wallet.ios.jpg
+  icon: com.bluehelix.wallet.ios.webp
   meta: removed
   verdict: wip
 

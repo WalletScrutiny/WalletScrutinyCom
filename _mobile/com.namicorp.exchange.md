@@ -21,7 +21,7 @@ android:
   updated: 2026-03-17
   version: 3.0.3
   reviews: 11
-  icon: com.namicorp.exchange.png
+  icon: com.namicorp.exchange.webp
   meta: ok
   verdict: custodial
   developerName: NAMI EXCHANGE
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-05-31
   version: 2.2.2
   reviews: 20
-  icon: com.namicorp.exchange.jpg
+  icon: com.namicorp.exchange.webp
   meta: removed
   verdict: custodial
   developerName: NAMI TRADE PTE. LTD.

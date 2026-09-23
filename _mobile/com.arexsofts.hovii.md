@@ -9,7 +9,7 @@ android:
   released: 2022-04-22
   updated: 2022-04-22
   version: '1.0'
-  icon: com.arexsofts.hovii.png
+  icon: com.arexsofts.hovii.webp
   meta: removed
   verdict: wip
 

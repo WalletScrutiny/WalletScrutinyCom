@@ -12,7 +12,7 @@ android:
   released: 2020-11-11
   updated: 2021-03-26
   version: '1.12'
-  icon: com.global.trading.company.png
+  icon: com.global.trading.company.webp
   meta: removed
   verdict: wip
   developerName: Global Crypto Team

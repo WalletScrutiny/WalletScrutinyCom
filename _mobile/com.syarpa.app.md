@@ -10,7 +10,7 @@ android:
   released: 2022-09-30
   updated: 2024-09-11
   version: 2.0.0
-  icon: com.syarpa.app.png
+  icon: com.syarpa.app.webp
   meta: removed
   verdict: wip
   developerName: SYARPA LIMITED

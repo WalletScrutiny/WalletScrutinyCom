@@ -12,7 +12,7 @@ android:
   released: 2020-08-03
   updated: 2020-09-29
   version: '1.1'
-  icon: com.torexapp.png
+  icon: com.torexapp.webp
   meta: removed
   verdict: wip
   developerName: Torex.one

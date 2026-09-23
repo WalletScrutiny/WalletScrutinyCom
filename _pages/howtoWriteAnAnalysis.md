@@ -49,7 +49,7 @@ git checkout -b add-wallet-example-app</code></pre>
     </li>
     <li>
       <h3>3. Generate icon sizes with <code>updateImages.sh</code></h3>
-      <p>The add script saves a full-size icon under <code>images/wIcons/android/</code>. Run the image script to create the <code>small/</code> and <code>tiny/</code> variants used on the site:</p>
+      <p>The add script saves the store icon as a WebP under <code>images/wIcons/android/</code>. Run the image script to create the <code>small/</code> and <code>tiny/</code> variants used on the site:</p>
       <pre><code>./updateImages.sh</code></pre>
     </li>
   </ol>
@@ -108,7 +108,7 @@ git checkout -b add-wallet-example-app</code></pre>
     </li>
     <li>
       <h3>3. Add an icon</h3>
-      <p>Place a square PNG in the matching folder under <code>images/wIcons/</code> — for example <code>images/wIcons/hardware/my-new-wallet.png</code> — and set the <code>icon:</code> field in the front matter to match.</p>
+      <p>Place a square WebP of at most 512 px in the matching folder under <code>images/wIcons/</code> — for example <code>images/wIcons/hardware/my-new-wallet.webp</code> — and set the <code>icon:</code> field in the front matter to match. <code>convert icon.png -quality 85 icon.webp</code> (ImageMagick) turns a PNG or JPEG into one.</p>
       <pre><code>./updateImages.sh</code></pre>
     </li>
   </ol>

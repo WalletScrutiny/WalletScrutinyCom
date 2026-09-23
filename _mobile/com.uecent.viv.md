@@ -10,7 +10,7 @@ android:
   released: 2022-09-22
   updated: 2022-11-23
   version: 1.2.2
-  icon: com.uecent.viv.png
+  icon: com.uecent.viv.webp
   meta: removed
   verdict: wip
   developerName: VIV Tech

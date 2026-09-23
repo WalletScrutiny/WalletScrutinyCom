@@ -10,7 +10,7 @@ android:
   released: 2022-01-20
   updated: 2023-01-12
   version: 1.1.6
-  icon: com.depocket.app.png
+  icon: com.depocket.app.webp
   meta: removed
   verdict: wip
   developerName: DePocket

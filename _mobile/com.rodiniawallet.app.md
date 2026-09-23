@@ -10,7 +10,7 @@ android:
   released: 2021-08-15
   updated: 2021-11-21
   version: 1.3.0
-  icon: com.rodiniawallet.app.jpg
+  icon: com.rodiniawallet.app.webp
   meta: removed
   verdict: wip
   developerName: Denxa Corporation

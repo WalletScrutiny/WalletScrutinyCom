@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-06-02
   version: VARY
-  icon: com.minibits_wallet.png
+  icon: com.minibits_wallet.webp
   meta: ok
   verdict: custodial
   developerName: Bitango Technologies

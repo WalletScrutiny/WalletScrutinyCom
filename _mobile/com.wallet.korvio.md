@@ -12,7 +12,7 @@ android:
   released: 2019-06-21
   updated: 2021-03-18
   version: 1.0.25
-  icon: com.wallet.korvio.png
+  icon: com.wallet.korvio.webp
   meta: removed
   verdict: custodial
   developerName: korvio

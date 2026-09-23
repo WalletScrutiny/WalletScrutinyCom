@@ -13,7 +13,7 @@ android:
   updated: 2022-02-26
   version: 1.23.0
   reviews: 14
-  icon: sg.express.mobile.png
+  icon: sg.express.mobile.webp
   meta: removed
   verdict: custodial
 

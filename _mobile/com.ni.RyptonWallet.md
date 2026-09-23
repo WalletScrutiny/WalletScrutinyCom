@@ -10,7 +10,7 @@ android:
   released: 2020-04-13
   updated: 2020-04-13
   version: '1.0'
-  icon: com.ni.RyptonWallet.jpg
+  icon: com.ni.RyptonWallet.webp
   meta: removed
   verdict: wip
   developerName: DIGITAL INFO WORLD

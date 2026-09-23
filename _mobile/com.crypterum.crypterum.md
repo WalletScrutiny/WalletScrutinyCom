@@ -12,7 +12,7 @@ android:
   released: 2018-09-28
   updated: 2020-09-23
   version: 0.1.13
-  icon: com.crypterum.crypterum.png
+  icon: com.crypterum.crypterum.webp
   meta: removed
   verdict: wip
   developerName: Crypterum Exchange Service

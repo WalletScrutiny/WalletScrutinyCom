@@ -16,7 +16,7 @@ android:
   updated: 2026-08-13
   version: 3.6.10
   reviews: 5
-  icon: io.attlas.png
+  icon: io.attlas.webp
   meta: ok
   verdict: custodial
   developerName: ATX FINANCE & INVESTMENT

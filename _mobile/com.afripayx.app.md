@@ -9,7 +9,7 @@ android:
   released: 2022-01-04
   updated: 2022-04-21
   version: 1.0.0
-  icon: com.afripayx.app.png
+  icon: com.afripayx.app.webp
   meta: removed
   verdict: wip
   developerName: CodeBS

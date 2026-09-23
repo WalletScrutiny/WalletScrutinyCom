@@ -10,7 +10,7 @@ android:
   released: 2022-02-15
   updated: 2022-02-24
   version: '1.1'
-  icon: com.application.biexm.png
+  icon: com.application.biexm.webp
   meta: removed
   verdict: wip
   developerName: Neo Technology Hk limited

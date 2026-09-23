@@ -10,7 +10,7 @@ android:
   released: 2021-08-08
   updated: 2022-01-12
   version: 1.0.4
-  icon: com.gyliewallet.app.png
+  icon: com.gyliewallet.app.webp
   meta: removed
   verdict: wip
   developerName: SAVEURE LLC

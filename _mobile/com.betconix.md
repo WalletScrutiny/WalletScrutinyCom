@@ -16,7 +16,7 @@ android:
   updated: 2021-12-14
   version: '6.7'
   reviews: 2
-  icon: com.betconix.png
+  icon: com.betconix.webp
   meta: removed
   verdict: custodial
   developerName: GN Betconix ST s.r.o.

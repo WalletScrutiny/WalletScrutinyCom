@@ -10,7 +10,7 @@ android:
   released: 2020-03-01
   updated: 2021-11-14
   version: 1.0.16
-  icon: io.smartholdem.client.png
+  icon: io.smartholdem.client.webp
   meta: removed
   verdict: wip
   developerName: TechnoL0g

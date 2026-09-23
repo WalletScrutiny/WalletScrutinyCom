@@ -10,7 +10,7 @@ android:
   released: 2021-03-26
   updated: 2021-03-26
   version: 5.84.10
-  icon: xchange_coins.com.png
+  icon: xchange_coins.com.webp
   meta: removed
   verdict: wip
 

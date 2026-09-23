@@ -10,7 +10,7 @@ android:
   released: 2020-02-14
   updated: 2020-02-18
   version: '1.1'
-  icon: gfb.trading.group.jpg
+  icon: gfb.trading.group.webp
   meta: removed
   verdict: wip
   developerName: GFB Trading Group

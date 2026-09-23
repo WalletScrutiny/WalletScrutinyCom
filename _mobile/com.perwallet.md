@@ -10,7 +10,7 @@ android:
   released: 2020-11-10
   updated: 2021-06-14
   version: '2.0'
-  icon: com.perwallet.png
+  icon: com.perwallet.webp
   meta: removed
   verdict: wip
   developerName: cic community

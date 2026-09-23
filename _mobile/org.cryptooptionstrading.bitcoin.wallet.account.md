@@ -9,7 +9,7 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: org.cryptooptionstrading.bitcoin.wallet.account.jpg
+  icon: org.cryptooptionstrading.bitcoin.wallet.account.webp
   meta: removed
   verdict: wip
 

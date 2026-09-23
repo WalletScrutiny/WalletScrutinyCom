@@ -20,7 +20,7 @@ android:
   updated: 2025-06-11
   version: 4.4.7
   reviews: 13
-  icon: ai.blockbank.bbexpoapp.png
+  icon: ai.blockbank.bbexpoapp.webp
   meta: removed
   verdict: nosource
   developerName: UAB HODL SERVICES
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-04-26
   version: 3.3.6
   reviews: 13
-  icon: ai.blockbank.blockbankv2.jpg
+  icon: ai.blockbank.blockbankv2.webp
   meta: removed
   verdict: nosource
 

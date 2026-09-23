@@ -10,7 +10,7 @@ android:
   released: 2021-11-25
   updated: 2021-11-26
   version: '1.0'
-  icon: impily.app.png
+  icon: impily.app.webp
   meta: removed
   verdict: wip
   developerName: Impily.com

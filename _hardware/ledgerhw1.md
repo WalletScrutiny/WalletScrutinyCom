@@ -18,7 +18,7 @@ shop:
 country: FR
 price: 
 repository: 
-icon: ledgerhw1.png
+icon: ledgerhw1.webp
 bugbounty: 
 meta: defunct
 verdict: noita

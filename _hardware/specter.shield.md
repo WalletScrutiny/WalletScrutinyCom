@@ -17,7 +17,7 @@ shop: https://specter.solutions/shop/specter-shield
 country: 
 price: 350 EUR
 repository: https://github.com/cryptoadvance/specter-diy
-icon: specter.shield.png
+icon: specter.shield.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

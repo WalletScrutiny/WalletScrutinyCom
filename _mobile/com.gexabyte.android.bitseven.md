@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2021-10-18
   version: VARY
-  icon: com.gexabyte.android.bitseven.png
+  icon: com.gexabyte.android.bitseven.webp
   meta: removed
   verdict: wip
   developerName: TeсhСulture

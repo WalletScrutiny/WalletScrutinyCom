@@ -20,7 +20,7 @@ android:
   released: 2023-02-17
   updated: 2023-06-25
   version: '1.8'
-  icon: com.inflowchange.inflowchange.png
+  icon: com.inflowchange.inflowchange.webp
   meta: removed
   verdict: nosendreceive
   developerName: Paychatik Ltd.

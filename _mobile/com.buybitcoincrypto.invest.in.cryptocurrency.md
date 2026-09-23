@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: com.buybitcoincrypto.invest.in.cryptocurrency.png
+  icon: com.buybitcoincrypto.invest.in.cryptocurrency.webp
   meta: removed
   verdict: wip
 

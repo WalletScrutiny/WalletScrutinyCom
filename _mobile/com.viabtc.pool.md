@@ -20,7 +20,7 @@ android:
   updated: 2026-09-18
   version: 3.17.0
   reviews: 257
-  icon: com.viabtc.pool.png
+  icon: com.viabtc.pool.webp
   meta: ok
   verdict: custodial
   developerName: ViaBTC
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-15
   version: 3.17.0
   reviews: 15
-  icon: com.viabtc.pool2.jpg
+  icon: com.viabtc.pool2.webp
   meta: ok
   verdict: custodial
   developerName: Viabtc Technology Limited

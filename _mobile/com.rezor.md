@@ -19,7 +19,7 @@ android:
   updated: 2026-03-30
   version: '1'
   reviews: 10
-  icon: com.rezor.png
+  icon: com.rezor.webp
   meta: ok
   verdict: nosource
   developerName: saitaresilia
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-11-05
   version: 1.0.5
   reviews: 21
-  icon: com.rezor.jpg
+  icon: com.rezor.webp
   meta: ok
   verdict: nosource
   developerName: rezor foundation

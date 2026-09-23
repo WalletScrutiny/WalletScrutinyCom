@@ -12,7 +12,7 @@ provider: Atomex OÜ
 providerWebsite: https://atomex.me#deadLink
 website: 
 repository: 
-icon: atomex.png
+icon: atomex.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

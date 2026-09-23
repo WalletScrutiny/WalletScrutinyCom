@@ -10,7 +10,7 @@ android:
   released: 2022-04-28
   updated: 2022-07-20
   version: '4.2'
-  icon: com.yyjonin.test_joinin.png
+  icon: com.yyjonin.test_joinin.webp
   meta: removed
   verdict: wip
   developerName: Joinin.vip

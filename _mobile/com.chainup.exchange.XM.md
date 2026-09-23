@@ -10,7 +10,7 @@ android:
   released: 2022-09-05
   updated: 2023-02-14
   version: 5.7.0_push_v2
-  icon: com.chainup.exchange.XM.png
+  icon: com.chainup.exchange.XM.webp
   meta: removed
   verdict: wip
   developerName: 小米XM

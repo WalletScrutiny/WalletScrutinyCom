@@ -19,7 +19,7 @@ android:
   updated: 2023-05-30
   version: 5.7.8-play
   reviews: 43
-  icon: com.dcoin.exchange.png
+  icon: com.dcoin.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Dcoin
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-04-11
   version: 5.7.2
   reviews: 19
-  icon: com.dcoin.ios.jpg
+  icon: com.dcoin.ios.webp
   meta: removed
   verdict: custodial
   developerName: DAVOX TECH PTE. LTD.

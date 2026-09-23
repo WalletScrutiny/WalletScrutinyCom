@@ -24,7 +24,7 @@ android:
   released: 2022-12-12
   updated: 2026-09-17
   version: 2.3.15
-  icon: io.hexawallet.bitcoinkeeper.png
+  icon: io.hexawallet.bitcoinkeeper.webp
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
   meta: ok
   verdict: sourceavailable
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-14
   version: 2.5.14
   reviews: 22
-  icon: io.hexawallet.keeper.jpg
+  icon: io.hexawallet.keeper.webp
   meta: ok
   verdict: wip
   developerName: Bithyve

@@ -10,7 +10,7 @@ android:
   released: 2020-07-03
   updated: 2020-07-03
   version: 1.0.0
-  icon: com.cryptouniverse.app.png
+  icon: com.cryptouniverse.app.webp
   meta: removed
   verdict: wip
   developerName: CRYPTO UNIVERSE

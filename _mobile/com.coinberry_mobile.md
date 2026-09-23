@@ -20,7 +20,7 @@ android:
   updated: 2023-06-01
   version: 137.6.4
   reviews: 655
-  icon: com.coinberry_mobile.png
+  icon: com.coinberry_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Coinberry
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-06-20
   version: 137.6.3
   reviews: 5958
-  icon: com.coinberry.coinberry.jpg
+  icon: com.coinberry.coinberry.webp
   meta: removed
   verdict: custodial
   developerName: Coinberry

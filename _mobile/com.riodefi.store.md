@@ -21,7 +21,7 @@ android:
   updated: 2022-08-11
   version: 2.9.8
   reviews: 3
-  icon: com.riodefi.store.png
+  icon: com.riodefi.store.webp
   meta: removed
   verdict: nosource
   developerName: RioDeFi
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-02-20
   version: 2.9.7
   reviews: 5
-  icon: com.riodefi.jpg
+  icon: com.riodefi.webp
   meta: removed
   verdict: nosource
   developerName: RioDeFi

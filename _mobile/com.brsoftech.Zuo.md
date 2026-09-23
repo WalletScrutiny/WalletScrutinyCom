@@ -10,7 +10,7 @@ android:
   released: 2017-12-03
   updated: 2017-12-04
   version: '1.0'
-  icon: com.brsoftech.Zuo.jpg
+  icon: com.brsoftech.Zuo.webp
   meta: removed
   verdict: wip
   developerName: ZuoBox

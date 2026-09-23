@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2025-10-31
   version: 1.0.4
-  icon: com.ex5.exchange.png
+  icon: com.ex5.exchange.webp
   meta: fewusers
   verdict: wip
   developerName: EX5

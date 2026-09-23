@@ -13,7 +13,7 @@ android:
   updated: 2021-02-03
   version: 1.1.15
   reviews: 13
-  icon: com.torque.android.torquewallet.png
+  icon: com.torque.android.torquewallet.webp
   meta: removed
   verdict: wip
   developerName: Torque Group Holdings

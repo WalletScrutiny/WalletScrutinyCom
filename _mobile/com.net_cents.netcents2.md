@@ -20,7 +20,7 @@ android:
   updated: 2022-11-19
   version: 2.11.15
   reviews: 3
-  icon: com.net_cents.netcents2.png
+  icon: com.net_cents.netcents2.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-02-03
   version: 2.11.17
   reviews: 8
-  icon: com.net-cents.app.jpg
+  icon: com.net-cents.app.webp
   meta: removed
   verdict: custodial
   developerName: Net-Cents Technologies

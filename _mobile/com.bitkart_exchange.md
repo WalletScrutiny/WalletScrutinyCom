@@ -10,7 +10,7 @@ android:
   released: 2019-07-18
   updated: 2020-03-12
   version: '1.4'
-  icon: com.bitkart_exchange.png
+  icon: com.bitkart_exchange.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Community India

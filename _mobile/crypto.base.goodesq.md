@@ -10,7 +10,7 @@ android:
   released: 2019-06-06
   updated: 2019-06-06
   version: 1.0.0
-  icon: crypto.base.goodesq.png
+  icon: crypto.base.goodesq.webp
   meta: removed
   verdict: wip
   developerName: GOODESQ

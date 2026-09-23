@@ -13,7 +13,7 @@ android:
   updated: 2019-04-27
   version: 1.2.49
   reviews: 6
-  icon: org.bitanex.bitanex.png
+  icon: org.bitanex.bitanex.webp
   meta: removed
   verdict: wip
   developerName: BitAnex

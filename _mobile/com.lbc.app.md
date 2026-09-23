@@ -10,7 +10,7 @@ android:
   released: 2020-06-25
   updated: 2020-08-07
   version: 1.0.0
-  icon: com.lbc.app.png
+  icon: com.lbc.app.webp
   meta: removed
   verdict: wip
   developerName: Coins Clone

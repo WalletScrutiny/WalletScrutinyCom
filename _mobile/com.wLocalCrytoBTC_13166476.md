@@ -12,7 +12,7 @@ android:
   updated: 2021-08-05
   version: 1.0.26
   reviews: 30
-  icon: com.wLocalCrytoBTC_13166476.png
+  icon: com.wLocalCrytoBTC_13166476.webp
   meta: removed
   verdict: wip
 

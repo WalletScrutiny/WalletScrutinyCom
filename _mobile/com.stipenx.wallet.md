@@ -10,7 +10,7 @@ android:
   released: 2020-07-14
   updated: 2020-07-28
   version: '1.2'
-  icon: com.stipenx.wallet.png
+  icon: com.stipenx.wallet.webp
   meta: removed
   verdict: wip
   developerName: Fintek Labs Limited

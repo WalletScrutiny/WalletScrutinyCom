@@ -10,7 +10,7 @@ android:
   released: 2021-05-28
   updated: 2021-05-28
   version: 0.0.3
-  icon: demoapp.acceptify.mobilewallet.jpg
+  icon: demoapp.acceptify.mobilewallet.webp
   meta: removed
   verdict: wip
   developerName: Acceptify Limited

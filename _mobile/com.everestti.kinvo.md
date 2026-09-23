@@ -23,7 +23,7 @@ android:
   updated: 2026-09-15
   version: 3.67.0
   reviews: 7579
-  icon: com.everestti.kinvo.png
+  icon: com.everestti.kinvo.webp
   meta: ok
   verdict: nosendreceive
   developerName: Kinvo Tecnologia da Informação
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-16
   version: 3.67.0
   reviews: 19169
-  icon: com.everest.kinvo.jpg
+  icon: com.everest.kinvo.webp
   meta: ok
   verdict: nosendreceive
   developerName: EVEREST.TI

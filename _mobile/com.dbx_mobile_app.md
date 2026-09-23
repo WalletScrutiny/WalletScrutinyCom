@@ -10,7 +10,7 @@ android:
   released: 2022-04-03
   updated: 2022-07-01
   version: '18.1'
-  icon: com.dbx_mobile_app.png
+  icon: com.dbx_mobile_app.webp
   meta: removed
   verdict: wip
 

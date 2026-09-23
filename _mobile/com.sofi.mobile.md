@@ -17,7 +17,7 @@ android:
   updated: 2026-09-18
   version: 3.113.0
   reviews: 21421
-  icon: com.sofi.mobile.png
+  icon: com.sofi.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: Social Finance, LLC
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-18
   version: 3.114.0
   reviews: 385449
-  icon: com.sofi.mobile.jpg
+  icon: com.sofi.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: Social Finance, LLC

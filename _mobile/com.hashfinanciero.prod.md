@@ -10,7 +10,7 @@ android:
   released: 2020-02-08
   updated: 2020-02-08
   version: '1.0'
-  icon: com.hashfinanciero.prod.jpg
+  icon: com.hashfinanciero.prod.webp
   meta: removed
   verdict: wip
   developerName: DevPala

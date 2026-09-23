@@ -18,7 +18,7 @@ android:
   updated: 2024-07-09
   version: 2.0.64
   reviews: 58
-  icon: com.lanistar.png
+  icon: com.lanistar.webp
   meta: removed
   verdict: custodial
   developerName: Lanistar
@@ -30,7 +30,7 @@ iphone:
   updated: 2025-01-06
   version: 2.0.65
   reviews: 107
-  icon: com.lanistar.lanistarprod.jpg
+  icon: com.lanistar.lanistarprod.webp
   meta: removed
   verdict: custodial
   developerName: Lanistar Limited

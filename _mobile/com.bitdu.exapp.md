@@ -11,7 +11,7 @@ android:
   updated: 2023-10-31
   version: 3.0.3
   reviews: 6
-  icon: com.bitdu.exapp.png
+  icon: com.bitdu.exapp.webp
   meta: removed
   verdict: wip
   developerName: Bitdu

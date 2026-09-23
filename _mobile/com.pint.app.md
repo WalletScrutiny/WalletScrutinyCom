@@ -16,7 +16,7 @@ android:
   updated: 2021-03-06
   version: 2.0.32
   reviews: 10
-  icon: com.pint.app.png
+  icon: com.pint.app.webp
   meta: removed
   verdict: nosource
 

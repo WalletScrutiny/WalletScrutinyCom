@@ -15,7 +15,7 @@ android:
   released: 2020-11-10
   updated: 2021-04-14
   version: 0.01.18
-  icon: ai.azara.wallet.png
+  icon: ai.azara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Azara Processing LP
@@ -26,7 +26,7 @@ iphone:
   updated: 2021-04-14
   version: 0.01.18
   reviews: 0
-  icon: ai.azara.wallet.jpg
+  icon: ai.azara.wallet.webp
   meta: removed
   verdict: custodial
 

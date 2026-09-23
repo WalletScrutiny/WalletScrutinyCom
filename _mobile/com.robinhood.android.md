@@ -21,7 +21,7 @@ android:
   updated: 2026-09-16
   version: 2026.37.4
   reviews: 269409
-  icon: com.robinhood.android.png
+  icon: com.robinhood.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: Robinhood
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-14
   version: 2026.37.0
   reviews: 4846246
-  icon: com.robinhood.release.Robinhood.jpg
+  icon: com.robinhood.release.Robinhood.webp
   meta: ok
   verdict: nosendreceive
   developerName: Robinhood Markets, Inc.

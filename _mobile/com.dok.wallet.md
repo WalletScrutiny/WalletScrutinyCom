@@ -23,7 +23,7 @@ android:
   updated: 2026-09-21
   version: '3.31'
   reviews: 15
-  icon: com.dok.wallet.png
+  icon: com.dok.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Dok wallet
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-10
   version: '2.50'
   reviews: 2
-  icon: com.dok.wallet.jpg
+  icon: com.dok.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Moreover4u2 Ltd

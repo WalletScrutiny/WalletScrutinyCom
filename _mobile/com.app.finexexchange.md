@@ -10,7 +10,7 @@ android:
   released: 2022-07-18
   updated: 2022-11-30
   version: 11.5.0
-  icon: com.app.finexexchange.png
+  icon: com.app.finexexchange.webp
   meta: removed
   verdict: wip
   developerName: Finex Exchange

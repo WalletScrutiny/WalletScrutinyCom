@@ -13,7 +13,7 @@ android:
   updated: 2024-08-29
   version: 5.0.3
   reviews: 80
-  icon: com.arz8x.app.arz8x.png
+  icon: com.arz8x.app.arz8x.webp
   meta: removed
   verdict: custodial
   developerName: Arz8x

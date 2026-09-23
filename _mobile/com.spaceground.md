@@ -10,7 +10,7 @@ android:
   released: 2022-06-09
   updated: 2023-07-10
   version: 1.0.30
-  icon: com.spaceground.png
+  icon: com.spaceground.webp
   meta: removed
   verdict: wip
   developerName: Spaceground

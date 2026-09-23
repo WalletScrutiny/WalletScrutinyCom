@@ -13,7 +13,7 @@ android:
   updated: 2020-01-23
   version: '1.0'
   reviews: 2
-  icon: com.suponicexchange.app.png
+  icon: com.suponicexchange.app.webp
   meta: removed
   verdict: wip
   developerName: Suponic

@@ -10,7 +10,7 @@ android:
   released: 2021-02-22
   updated: 2023-07-11
   version: 1.2.2
-  icon: com.bullcoin.app.png
+  icon: com.bullcoin.app.webp
   meta: removed
   verdict: wip
   developerName: Lotus Bro

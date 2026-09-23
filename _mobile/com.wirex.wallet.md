@@ -24,7 +24,7 @@ android:
   updated: 2026-09-15
   version: 3.8.0
   reviews: 16
-  icon: com.wirex.wallet.png
+  icon: com.wirex.wallet.webp
   meta: ok
   verdict: nosource
   developerName: CCA LABS
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-15
   version: 3.8.0
   reviews: 10
-  icon: com.wirex.wallet.jpg
+  icon: com.wirex.wallet.webp
   meta: ok
   verdict: nosource
   developerName: CCA LABS - FZCO

@@ -25,7 +25,7 @@ android:
   updated: 2026-07-30
   version: 3.9.9
   reviews: 436
-  icon: com.bydfi.app.png
+  icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial
   developerName: BYDFi Fintech LTD
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-07-30
   version: 3.9.9
   reviews: 1208
-  icon: com.bydfi.app.jpg
+  icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial
   developerName: BYDFi Fintech LTD

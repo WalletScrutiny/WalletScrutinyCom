@@ -10,7 +10,7 @@ android:
   released: 2023-08-04
   updated: 2024-11-21
   version: '1.0'
-  icon: com.sato.hordes.png
+  icon: com.sato.hordes.webp
   meta: removed
   verdict: wip
   developerName: SATO Technologies Corp.

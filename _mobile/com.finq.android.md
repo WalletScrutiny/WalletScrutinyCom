@@ -16,7 +16,7 @@ android:
   updated: 2024-09-05
   version: 2.11.1
   reviews: 5
-  icon: com.finq.android.png
+  icon: com.finq.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD
@@ -28,7 +28,7 @@ iphone:
   updated: 2019-12-19
   version: '2.8'
   reviews: 40
-  icon: com.trader.finq.jpg
+  icon: com.trader.finq.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD

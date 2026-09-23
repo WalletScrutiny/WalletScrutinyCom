@@ -17,7 +17,7 @@ android:
   updated: 2022-03-04
   version: '1.1'
   reviews: 6
-  icon: exchange.btc6x.com.jpg
+  icon: exchange.btc6x.com.webp
   meta: removed
   verdict: custodial
   developerName: ZeroCash

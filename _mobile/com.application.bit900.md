@@ -10,7 +10,7 @@ android:
   released: 2019-10-22
   updated: 2020-06-26
   version: '1.24'
-  icon: com.application.bit900.png
+  icon: com.application.bit900.webp
   meta: removed
   verdict: wip
   developerName: Trackon BTC

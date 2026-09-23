@@ -18,7 +18,7 @@ android:
   updated: 2023-11-17
   version: 1.0.130
   reviews: 3
-  icon: doshi.app.png
+  icon: doshi.app.webp
   meta: removed
   verdict: nosource
   developerName: Doshi
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-05-31
   version: 1.0.130
   reviews: 16
-  icon: doshi.app.jpg
+  icon: doshi.app.webp
   meta: removed
   verdict: nosource
   developerName: Doshi App Limited

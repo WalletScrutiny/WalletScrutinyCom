@@ -9,7 +9,7 @@ android:
   released: 2021-06-21
   updated: 2021-06-21
   version: '1.0'
-  icon: com.cryptowallet.crypto.invest.jpg
+  icon: com.cryptowallet.crypto.invest.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: buy.crypto.uk1.jpg
+  icon: buy.crypto.uk1.webp
   meta: removed
   verdict: wip
 

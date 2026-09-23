@@ -9,7 +9,7 @@ android:
   released: 2021-02-10
   updated: 2021-03-06
   version: 1.0.0
-  icon: com.bitcoinblockchain.suyd.png
+  icon: com.bitcoinblockchain.suyd.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Blockchain

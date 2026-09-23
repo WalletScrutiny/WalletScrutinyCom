@@ -19,7 +19,7 @@ android:
   released: 2022-04-21
   updated: 2022-12-21
   version: '2.0'
-  icon: com.web.XFacia.png
+  icon: com.web.XFacia.webp
   meta: removed
   verdict: custodial
   developerName: Xfacia Labs Pvt Ltd
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-12-21
   version: '4.1'
   reviews: 0
-  icon: com.webcom.Xfacia.jpg
+  icon: com.webcom.Xfacia.webp
   meta: removed
   verdict: custodial
   developerName: Xfacia Labs Private Limited

@@ -9,7 +9,7 @@ android:
   released: 2020-11-12
   updated: 2020-11-12
   version: '1.0'
-  icon: org.vmining.bitcoininvestingblockchaintechnology.png
+  icon: org.vmining.bitcoininvestingblockchaintechnology.webp
   meta: removed
   verdict: wip
 

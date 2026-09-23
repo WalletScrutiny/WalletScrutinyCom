@@ -10,7 +10,7 @@ android:
   released: 2020-03-27
   updated: 2020-03-27
   version: 1.0.0
-  icon: io.fortuvest.fortuvest.png
+  icon: io.fortuvest.fortuvest.webp
   meta: removed
   verdict: wip
   developerName: Fortuvest Developer

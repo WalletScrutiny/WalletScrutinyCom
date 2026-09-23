@@ -24,7 +24,7 @@ android:
   updated: 2025-04-22
   version: 2.91.0
   reviews: 83
-  icon: com.XcelTrip.XcelPay.png
+  icon: com.XcelTrip.XcelPay.webp
   meta: stale
   verdict: custodial
   developerName: XcelTrip LLC
@@ -36,7 +36,7 @@ iphone:
   updated: 2025-04-23
   version: 2.91.0
   reviews: 64
-  icon: com.xcelpay.wallet.jpg
+  icon: com.xcelpay.wallet.webp
   meta: stale
   verdict: custodial
   developerName: XcelPay Limited

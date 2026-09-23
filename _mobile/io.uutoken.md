@@ -9,7 +9,7 @@ android:
   released: 2022-12-08
   updated: 2022-12-14
   version: 1.0.0
-  icon: io.uutoken.png
+  icon: io.uutoken.webp
   meta: removed
   verdict: wip
   developerName: DIGITAL FINANCE TRADER INC.

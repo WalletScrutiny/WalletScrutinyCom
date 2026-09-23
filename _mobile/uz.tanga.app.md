@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2020-09-17
   version: VARY
-  icon: uz.tanga.app.png
+  icon: uz.tanga.app.webp
   meta: removed
   verdict: wip
   developerName: Kash App

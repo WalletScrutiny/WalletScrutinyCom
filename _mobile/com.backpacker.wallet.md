@@ -10,7 +10,7 @@ android:
   released: 2019-11-16
   updated: 2019-11-20
   version: 1.0.1
-  icon: com.backpacker.wallet.png
+  icon: com.backpacker.wallet.webp
   meta: removed
   verdict: wip
   developerName: BPC coin

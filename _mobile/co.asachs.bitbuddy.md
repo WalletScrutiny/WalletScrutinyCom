@@ -12,7 +12,7 @@ android:
   released: 2019-09-19
   updated: 2020-09-28
   version: 2.0.1
-  icon: co.asachs.bitbuddy.png
+  icon: co.asachs.bitbuddy.webp
   meta: removed
   verdict: wip
   developerName: BitBuddy

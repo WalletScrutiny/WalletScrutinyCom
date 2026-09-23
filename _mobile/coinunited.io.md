@@ -17,7 +17,7 @@ android:
   updated: 2025-08-27
   version: 5.1.0
   reviews: 237
-  icon: coinunited.io.jpg
+  icon: coinunited.io.webp
   meta: removed
   verdict: custodial
   developerName: CoinU
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-11-15
   version: 4.0.2
   reviews: 282
-  icon: coinunited.io.jpg
+  icon: coinunited.io.webp
   meta: removed
   verdict: custodial
   developerName: CoinUnited Limited

@@ -13,7 +13,7 @@ android:
   updated: 2019-09-08
   version: 1.0.2
   reviews: 3
-  icon: cryptopia.mobile.png
+  icon: cryptopia.mobile.webp
   meta: removed
   verdict: nosource
   developerName: Smilestory Co., Ltd.

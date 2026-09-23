@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2021-11-29
   version: 1.5.78-etfinance
-  icon: com.etfinance.png
+  icon: com.etfinance.webp
   meta: removed
   verdict: wip
   developerName: Magnum FX (Cyprus) LTD

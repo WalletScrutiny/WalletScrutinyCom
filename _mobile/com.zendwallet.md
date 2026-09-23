@@ -10,7 +10,7 @@ android:
   released: 2017-10-17
   updated: 2017-11-15
   version: '1.0'
-  icon: com.zendwallet.png
+  icon: com.zendwallet.webp
   meta: removed
   verdict: wip
   developerName: ZendCreative

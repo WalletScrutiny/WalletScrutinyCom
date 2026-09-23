@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: net.advancedbitcoin.crypto.buy.bitcoin.png
+  icon: net.advancedbitcoin.crypto.buy.bitcoin.webp
   meta: removed
   verdict: wip
 

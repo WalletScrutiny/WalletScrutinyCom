@@ -10,7 +10,7 @@ android:
   released: 2021-10-20
   updated: 2021-10-25
   version: 1.1.1
-  icon: com.definance.app.png
+  icon: com.definance.app.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Software House

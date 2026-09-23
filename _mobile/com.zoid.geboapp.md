@@ -10,7 +10,7 @@ android:
   released: 2021-05-12
   updated: 2021-05-12
   version: 2.0.0
-  icon: com.zoid.geboapp.jpg
+  icon: com.zoid.geboapp.webp
   meta: removed
   verdict: wip
   developerName: ITBS LLC

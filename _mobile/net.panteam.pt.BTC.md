@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2023-02-22
   version: VARY
-  icon: net.panteam.pt.BTC.png
+  icon: net.panteam.pt.BTC.webp
   meta: removed
   verdict: wip
   developerName: Panteam

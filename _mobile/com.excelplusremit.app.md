@@ -10,7 +10,7 @@ android:
   released: 2021-03-17
   updated: 2022-07-12
   version: 3.0.8
-  icon: com.excelplusremit.app.png
+  icon: com.excelplusremit.app.webp
   meta: removed
   verdict: wip
   developerName: Excel Plus Remit

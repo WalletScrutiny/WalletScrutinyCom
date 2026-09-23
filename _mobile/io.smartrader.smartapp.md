@@ -10,7 +10,7 @@ android:
   released: 2022-01-25
   updated: 2022-08-17
   version: 0.3.5
-  icon: io.smartrader.smartapp.png
+  icon: io.smartrader.smartapp.webp
   meta: removed
   verdict: wip
   developerName: Smartrader

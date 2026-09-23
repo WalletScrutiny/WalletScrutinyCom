@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: https://github.com/littledivy/arienai
-icon: appliedem.bitboard.diy.png
+icon: appliedem.bitboard.diy.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

@@ -20,7 +20,7 @@ android:
   updated: 2023-02-08
   version: 0.1.65
   reviews: 37
-  icon: com.localbitcoins.app.android.png
+  icon: com.localbitcoins.app.android.webp
   meta: removed
   verdict: custodial
   developerName: LocalBitcoins Ltd.
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-02-10
   version: 1.0.65
   reviews: 53
-  icon: com.localbitcoins.app.ios.jpg
+  icon: com.localbitcoins.app.ios.webp
   meta: removed
   verdict: custodial
   developerName: LocalBitcoins Ltd

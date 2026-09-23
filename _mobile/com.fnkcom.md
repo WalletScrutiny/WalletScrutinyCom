@@ -12,7 +12,7 @@ android:
   updated: 2021-07-07
   version: 1.1.2
   reviews: 8
-  icon: com.fnkcom.jpg
+  icon: com.fnkcom.webp
   meta: removed
   verdict: wip
   developerName: FNK

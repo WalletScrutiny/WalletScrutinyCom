@@ -13,7 +13,7 @@ provider: Blockstream
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/green/
 repository: https://github.com/Blockstream/green_qt
-icon: blockstreamgreen.png
+icon: blockstreamgreen.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

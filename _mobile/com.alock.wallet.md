@@ -10,7 +10,7 @@ android:
   released: 2021-07-26
   updated: 2022-05-30
   version: 4.3.11
-  icon: com.alock.wallet.png
+  icon: com.alock.wallet.webp
   meta: removed
   verdict: wip
 

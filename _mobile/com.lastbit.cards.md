@@ -8,7 +8,7 @@ android:
   users: 500
   updated: 2021-08-28
   version: Varies with device
-  icon: com.lastbit.cards.png
+  icon: com.lastbit.cards.webp
   meta: removed
   verdict: wip
 

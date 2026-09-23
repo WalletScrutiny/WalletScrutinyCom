@@ -17,7 +17,7 @@ shop:
 country: 
 price: 169 USD
 repository: 
-icon: ukiss.hugware.h2.png
+icon: ukiss.hugware.h2.webp
 bugbounty: 
 meta: ok
 verdict: noita

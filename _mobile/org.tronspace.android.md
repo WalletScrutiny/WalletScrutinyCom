@@ -18,7 +18,7 @@ android:
   released: 2021-07-03
   updated: 2023-01-04
   version: 2.2.6
-  icon: org.tronspace.android.png
+  icon: org.tronspace.android.webp
   meta: obsolete
   verdict: custodial
   developerName: Kointrack Techsystems Private Limited

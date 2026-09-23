@@ -9,7 +9,7 @@ android:
   released: 2020-08-23
   updated: 2020-08-23
   version: '1.0'
-  icon: com.afc.afctrades.png
+  icon: com.afc.afctrades.webp
   meta: removed
   verdict: wip
   developerName: AFC Trading Group

@@ -10,7 +10,7 @@ android:
   released: 2022-04-04
   updated: 2022-06-02
   version: 1.5.0
-  icon: bynery.bce.png
+  icon: bynery.bce.webp
   meta: removed
   verdict: wip
   developerName: Bynery

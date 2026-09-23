@@ -12,7 +12,7 @@ android:
   released: 2019-11-10
   updated: 2019-11-16
   version: '1.2'
-  icon: br.com.treepart.genbit.jpg
+  icon: br.com.treepart.genbit.webp
   meta: removed
   verdict: wip
   developerName: TreePart HDN

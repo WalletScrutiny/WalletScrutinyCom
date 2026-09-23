@@ -14,7 +14,7 @@ android:
   users: 1
   updated: 2023-03-26
   version: VARY
-  icon: com.noid.cards.png
+  icon: com.noid.cards.webp
   meta: removed
   verdict: wip
   developerName: noID.cards

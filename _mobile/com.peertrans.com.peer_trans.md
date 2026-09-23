@@ -10,7 +10,7 @@ android:
   released: 2023-02-10
   updated: 2023-02-11
   version: 1.0.0
-  icon: com.peertrans.com.peer_trans.png
+  icon: com.peertrans.com.peer_trans.webp
   meta: removed
   verdict: wip
   developerName: Brain Bee Business Pvt Ltd

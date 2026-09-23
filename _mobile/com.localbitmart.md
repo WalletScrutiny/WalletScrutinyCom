@@ -9,7 +9,7 @@ android:
   released: 2020-03-09
   updated: 2020-03-09
   version: '1.0'
-  icon: com.localbitmart.png
+  icon: com.localbitmart.webp
   meta: removed
   verdict: wip
   developerName: Og Software Solutions

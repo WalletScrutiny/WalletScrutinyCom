@@ -13,7 +13,7 @@ android:
   updated: 2017-12-20
   version: '1.2'
   reviews: 60
-  icon: com.aegiswallet.png
+  icon: com.aegiswallet.webp
   meta: removed
   verdict: wip
   repository: https://github.com/bsimic0001/AegisWallet

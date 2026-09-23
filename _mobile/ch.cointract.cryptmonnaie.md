@@ -10,7 +10,7 @@ android:
   released: 2021-07-05
   updated: 2022-02-14
   version: 2.0.28
-  icon: ch.cointract.cryptmonnaie.png
+  icon: ch.cointract.cryptmonnaie.webp
   meta: removed
   verdict: wip
   developerName: Cointract AG

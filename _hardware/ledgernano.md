@@ -18,7 +18,7 @@ shop:
 country: FR
 price: 
 repository: 
-icon: ledgernano.png
+icon: ledgernano.webp
 bugbounty: 
 meta: defunct
 verdict: noita

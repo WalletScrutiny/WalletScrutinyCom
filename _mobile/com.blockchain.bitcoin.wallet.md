@@ -14,7 +14,7 @@ android:
   updated: 2023-08-26
   version: 2.0.2
   reviews: 65
-  icon: com.blockchain.bitcoin.wallet.png
+  icon: com.blockchain.bitcoin.wallet.webp
   meta: removed
   verdict: fake
   developerName: InvoVN Solutions

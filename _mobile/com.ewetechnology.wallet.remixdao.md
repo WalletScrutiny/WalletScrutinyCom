@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2025-11-26
   version: 1.2.0
-  icon: com.ewetechnology.wallet.remixdao.png
+  icon: com.ewetechnology.wallet.remixdao.webp
   meta: fewusers
   verdict: wip
   developerName: ewe technology

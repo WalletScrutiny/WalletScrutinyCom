@@ -15,7 +15,7 @@ android:
   released: 2022-02-25
   updated: 2022-07-07
   version: 3.0.2
-  icon: io.npaswallet.viichainteam.png
+  icon: io.npaswallet.viichainteam.webp
   meta: removed
   verdict: wip
   developerName: NPAS Wallet

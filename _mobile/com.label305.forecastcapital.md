@@ -10,7 +10,7 @@ android:
   released: 2020-12-24
   updated: 2022-03-29
   version: 1.2.2
-  icon: com.label305.forecastcapital.png
+  icon: com.label305.forecastcapital.webp
   meta: removed
   verdict: wip
   developerName: Forecast Capital BV

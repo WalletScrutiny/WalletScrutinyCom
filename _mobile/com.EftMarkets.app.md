@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2021-02-15
   version: 1.0.15
-  icon: com.EftMarkets.app.png
+  icon: com.EftMarkets.app.webp
   meta: removed
   verdict: wip
 

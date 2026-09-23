@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: org.cryptotreasures.bitcoin.invest.uk.png
+  icon: org.cryptotreasures.bitcoin.invest.uk.webp
   meta: removed
   verdict: wip
 

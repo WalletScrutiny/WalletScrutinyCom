@@ -10,7 +10,7 @@ android:
   released: 2022-07-26
   updated: 2023-08-23
   version: '16'
-  icon: com.arduprime.arducrypto.png
+  icon: com.arduprime.arducrypto.webp
   meta: removed
   verdict: wip
   developerName: Ardu Prime Investment Services SA

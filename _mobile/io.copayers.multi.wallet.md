@@ -10,7 +10,7 @@ android:
   released: 2021-12-16
   updated: 2021-12-16
   version: '0.21838'
-  icon: io.copayers.multi.wallet.png
+  icon: io.copayers.multi.wallet.webp
   meta: removed
   verdict: fake
 

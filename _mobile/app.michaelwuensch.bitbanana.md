@@ -29,7 +29,7 @@ android:
   updated: 2026-08-24
   version: 1.0.2
   reviews: 4
-  icon: app.michaelwuensch.bitbanana.png
+  icon: app.michaelwuensch.bitbanana.webp
   signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
   alternativeStores:
   - fdroid

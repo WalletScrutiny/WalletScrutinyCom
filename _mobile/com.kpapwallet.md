@@ -10,7 +10,7 @@ android:
   released: 2020-03-23
   updated: 2020-07-06
   version: 1.0.3
-  icon: com.kpapwallet.png
+  icon: com.kpapwallet.webp
   meta: removed
   verdict: wip
   developerName: BLUERIVER BANK

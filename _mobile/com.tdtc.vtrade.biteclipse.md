@@ -10,7 +10,7 @@ android:
   released: 2019-11-20
   updated: 2021-07-03
   version: 1.0.6
-  icon: com.tdtc.vtrade.biteclipse.png
+  icon: com.tdtc.vtrade.biteclipse.webp
   meta: removed
   verdict: wip
   developerName: BitEclipse

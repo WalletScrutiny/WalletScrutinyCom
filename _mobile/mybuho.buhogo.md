@@ -10,7 +10,7 @@ android:
   released: 2025-09-26
   updated: 2026-09-16
   version: 1.9.2
-  icon: mybuho.buhogo.jpg
+  icon: mybuho.buhogo.webp
   meta: fewusers
   verdict: wip
   developerName: Dr.Shift

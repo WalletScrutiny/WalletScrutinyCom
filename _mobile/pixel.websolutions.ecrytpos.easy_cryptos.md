@@ -10,7 +10,7 @@ android:
   released: 2022-02-10
   updated: 2022-02-10
   version: 1.0.0
-  icon: pixel.websolutions.ecrytpos.easy_cryptos.png
+  icon: pixel.websolutions.ecrytpos.easy_cryptos.webp
   meta: removed
   verdict: wip
   developerName: ntfs pokem ale

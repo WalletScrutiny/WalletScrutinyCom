@@ -10,7 +10,7 @@ android:
   released: 2018-10-13
   updated: 2021-04-17
   version: 3.0.0
-  icon: org.strayacoin.bitcoinpos.png
+  icon: org.strayacoin.bitcoinpos.webp
   meta: removed
   verdict: wip
 

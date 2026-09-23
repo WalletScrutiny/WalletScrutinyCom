@@ -12,7 +12,7 @@ android:
   released: 2021-09-09
   updated: 2022-03-11
   version: 1.2.19
-  icon: com.bxb.io.png
+  icon: com.bxb.io.webp
   meta: removed
   verdict: wip
   developerName: Teko Ecommerce Sdn Bhd

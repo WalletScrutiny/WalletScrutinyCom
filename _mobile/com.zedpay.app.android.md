@@ -24,7 +24,7 @@ android:
   released: 2022-10-25
   updated: 2026-05-14
   version: 2.0.0
-  icon: com.zedpay.app.android.png
+  icon: com.zedpay.app.android.webp
   meta: removed
   verdict: custodial
   developerName: ZedPay Company
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-05-05
   version: '1.7'
   reviews: 4
-  icon: com.zed-pay.app.ios.jpg
+  icon: com.zed-pay.app.ios.webp
   meta: removed
   verdict: custodial
   developerName: ZEDPAY

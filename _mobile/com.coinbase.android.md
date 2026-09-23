@@ -26,7 +26,7 @@ android:
   updated: 2026-09-18
   version: 14.35.30
   reviews: 118339
-  icon: com.coinbase.android.jpg
+  icon: com.coinbase.android.webp
   meta: ok
   verdict: custodial
   developerName: Coinbase Inc
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-14
   version: 14.35.29
   reviews: 1797456
-  icon: com.vilcsak.bitcoin2.jpg
+  icon: com.vilcsak.bitcoin2.webp
   meta: ok
   verdict: custodial
   developerName: Coinbase, Inc.

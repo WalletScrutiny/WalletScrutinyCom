@@ -16,7 +16,7 @@ android:
   updated: 2022-06-18
   version: 2.0.6
   reviews: 22
-  icon: com.exonyxapp.trader.png
+  icon: com.exonyxapp.trader.webp
   meta: removed
   verdict: custodial
   developerName: Exonyx

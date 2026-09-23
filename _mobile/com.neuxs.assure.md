@@ -12,7 +12,7 @@ android:
   updated: 2023-02-06
   version: 1.0.96
   reviews: 20
-  icon: com.neuxs.assure.png
+  icon: com.neuxs.assure.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   released: 2019-09-23
   updated: 2024-03-20
   version: 0.7.444.0
-  icon: com.geewallet.android.png
+  icon: com.geewallet.android.webp
   meta: removed
   verdict: wip
   developerName: Andres G. Aragoneses

@@ -14,7 +14,7 @@ android:
   users: 1000
   updated: 2020-04-07
   version: VARY
-  icon: com.finwhalex.png
+  icon: com.finwhalex.webp
   meta: removed
   verdict: wip
   developerName: FinWhaleX PTE. LTD.

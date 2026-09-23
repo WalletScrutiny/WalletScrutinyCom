@@ -10,7 +10,7 @@ android:
   released: 2020-06-25
   updated: 2020-06-25
   version: '1.0'
-  icon: appinventor.ai_mlmsolution88.Troquer.png
+  icon: appinventor.ai_mlmsolution88.Troquer.webp
   meta: removed
   verdict: wip
   developerName: Netallianz Ltd.

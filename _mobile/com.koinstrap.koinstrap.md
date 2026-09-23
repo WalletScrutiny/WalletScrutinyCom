@@ -19,7 +19,7 @@ android:
   released: 2020-08-28
   updated: 2026-09-05
   version: 4.1.10
-  icon: com.koinstrap.koinstrap.png
+  icon: com.koinstrap.koinstrap.webp
   meta: ok
   verdict: custodial
   developerName: Koinstrap, Inc
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-11-27
   version: 3.3.7
   reviews: 34
-  icon: com.koinstrap.koinstrap.jpg
+  icon: com.koinstrap.koinstrap.webp
   meta: removed
   verdict: custodial
   developerName: Koinstrap, Inc.

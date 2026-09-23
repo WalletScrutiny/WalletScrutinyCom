@@ -19,7 +19,7 @@ android:
   released: 2018-07-09
   updated: 2026-09-14
   version: 7.0.2
-  icon: io.coinmerce.app.png
+  icon: io.coinmerce.app.webp
   meta: ok
   verdict: custodial
   developerName: Coinmerce B.V. - Buy, sell & swap crypto
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-16
   version: 7.2.1
   reviews: 548
-  icon: io.coinmerce.app.jpg
+  icon: io.coinmerce.app.webp
   meta: ok
   verdict: custodial
   developerName: Coinmerce BV

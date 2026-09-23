@@ -12,7 +12,7 @@ android:
   released: 2020-06-14
   updated: 2020-09-17
   version: 1.2.0
-  icon: com.baanx.gcc.png
+  icon: com.baanx.gcc.webp
   meta: removed
   verdict: wip
   developerName: GCC GLOBAL PAYMENTS LIMITED

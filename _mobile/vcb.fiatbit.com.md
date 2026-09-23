@@ -10,7 +10,7 @@ android:
   released: 2019-09-12
   updated: 2023-03-03
   version: 2.5.3
-  icon: vcb.fiatbit.com.png
+  icon: vcb.fiatbit.com.webp
   meta: removed
   verdict: wip
   developerName: fiatbit

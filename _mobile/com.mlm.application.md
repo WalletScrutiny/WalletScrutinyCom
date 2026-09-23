@@ -12,7 +12,7 @@ android:
   released: 2021-03-25
   updated: 2022-04-20
   version: '2.6'
-  icon: com.mlm.application.png
+  icon: com.mlm.application.webp
   meta: removed
   verdict: wip
   developerName: SR Corporation

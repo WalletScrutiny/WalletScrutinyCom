@@ -9,7 +9,7 @@ android:
   released: 2021-09-20
   updated: 2021-09-20
   version: 1.1.0
-  icon: com.project.cipwallet.png
+  icon: com.project.cipwallet.webp
   meta: removed
   verdict: wip
   developerName: BENI DEV

@@ -17,7 +17,7 @@ android:
   updated: 2022-05-24
   version: '15'
   reviews: 43
-  icon: com.nordfx.png
+  icon: com.nordfx.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-05-25
   version: '15.0'
   reviews: 1
-  icon: com.nordfx.mobiletrading.jpg
+  icon: com.nordfx.mobiletrading.webp
   meta: removed
   verdict: nosendreceive
 

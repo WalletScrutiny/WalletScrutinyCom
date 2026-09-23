@@ -11,7 +11,7 @@ android:
   released: 2020-02-19
   updated: 2020-02-20
   version: 2.4.1
-  icon: com.bibo.exchange.jpg
+  icon: com.bibo.exchange.webp
   meta: removed
   verdict: wip
   developerName: Bibo Market Inc

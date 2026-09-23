@@ -17,7 +17,7 @@ android:
   updated: 2021-04-25
   version: 2.4.7
   reviews: 947
-  icon: io.bitmax.exchange.png
+  icon: io.bitmax.exchange.webp
   meta: removed
   verdict: custodial
 

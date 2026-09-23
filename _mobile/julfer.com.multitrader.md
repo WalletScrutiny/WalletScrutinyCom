@@ -10,7 +10,7 @@ android:
   released: 2017-09-15
   updated: 2021-01-15
   version: '1.10'
-  icon: julfer.com.multitrader.png
+  icon: julfer.com.multitrader.webp
   meta: removed
   verdict: wip
   developerName: Ferjy Games

@@ -10,7 +10,7 @@ android:
   released: 2020-03-20
   updated: 2020-04-24
   version: '1.4'
-  icon: com.application.betchips.png
+  icon: com.application.betchips.webp
   meta: removed
   verdict: wip
   developerName: Shri Rudra

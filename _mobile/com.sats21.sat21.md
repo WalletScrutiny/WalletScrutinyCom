@@ -9,7 +9,7 @@ android:
   released: 2020-12-30
   updated: 2021-01-13
   version: 0.8.5
-  icon: com.sats21.sat21.png
+  icon: com.sats21.sat21.webp
   meta: removed
   verdict: wip
   developerName: Matrix Network International B.V.

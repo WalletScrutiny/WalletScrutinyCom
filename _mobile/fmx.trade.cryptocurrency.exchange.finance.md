@@ -10,7 +10,7 @@ android:
   released: 2021-05-24
   updated: 2021-05-25
   version: 2.1.0
-  icon: fmx.trade.cryptocurrency.exchange.finance.png
+  icon: fmx.trade.cryptocurrency.exchange.finance.webp
   meta: removed
   verdict: wip
 

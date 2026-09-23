@@ -18,7 +18,7 @@ android:
   updated: 2024-05-05
   version: 2.1.3
   reviews: 30
-  icon: com.exbito.app.png
+  icon: com.exbito.app.webp
   meta: removed
   verdict: custodial
   developerName: Exbito

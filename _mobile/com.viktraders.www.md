@@ -10,7 +10,7 @@ android:
   released: 2019-06-24
   updated: 2019-06-25
   version: 1.0.0
-  icon: com.viktraders.www.png
+  icon: com.viktraders.www.webp
   meta: removed
   verdict: wip
 

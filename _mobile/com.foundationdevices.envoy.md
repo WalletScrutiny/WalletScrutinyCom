@@ -30,7 +30,7 @@ android:
   updated: 2026-09-08
   version: 2.3.3
   reviews: 6
-  icon: com.foundationdevices.envoy.jpg
+  icon: com.foundationdevices.envoy.webp
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices
@@ -43,7 +43,7 @@ iphone:
   updated: 2026-09-15
   version: 2.3.4
   reviews: 30
-  icon: com.foundationdevices.envoy.jpg
+  icon: com.foundationdevices.envoy.webp
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices, Inc.

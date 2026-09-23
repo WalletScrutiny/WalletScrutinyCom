@@ -17,7 +17,7 @@ android:
   released: 2022-07-12
   updated: 2022-07-12
   version: 1.0.0
-  icon: com.xeggex.wallet.jpg
+  icon: com.xeggex.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Dokdo

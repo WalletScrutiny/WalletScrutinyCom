@@ -10,7 +10,7 @@ android:
   released: 2022-04-27
   updated: 2022-06-07
   version: 1.0.12
-  icon: com.rinnas.pgold.jpg
+  icon: com.rinnas.pgold.webp
   meta: removed
   verdict: wip
 

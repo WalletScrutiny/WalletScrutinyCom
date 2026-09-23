@@ -18,7 +18,7 @@ android:
   updated: 2026-09-03
   version: 1.18.0
   reviews: 3
-  icon: com.garantibbvadigitalassets.crypto.png
+  icon: com.garantibbvadigitalassets.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-07
   version: '19.4'
   reviews: 15309
-  icon: com.garanti.cepsube.jpg
+  icon: com.garanti.cepsube.webp
   meta: ok
   verdict: custodial
   developerName: T. Garanti Bankasi A.S.

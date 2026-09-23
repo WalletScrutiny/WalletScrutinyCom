@@ -10,7 +10,7 @@ android:
   released: 2023-02-23
   updated: 2023-02-23
   version: 1.0.13
-  icon: com.EkoWallet.png
+  icon: com.EkoWallet.webp
   meta: removed
   verdict: wip
   developerName: ekowallet.com

@@ -10,7 +10,7 @@ android:
   released: 2019-07-29
   updated: 2019-07-29
   version: '1.0'
-  icon: com.app.paxnairaapp.png
+  icon: com.app.paxnairaapp.webp
   meta: removed
   verdict: wip
 

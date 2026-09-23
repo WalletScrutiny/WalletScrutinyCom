@@ -9,7 +9,7 @@ android:
   released: 2021-06-29
   updated: 2021-06-29
   version: '1.0'
-  icon: org.cryptodebitcard.bitcoin.investment.game.jpg
+  icon: org.cryptodebitcard.bitcoin.investment.game.webp
   meta: removed
   verdict: wip
 

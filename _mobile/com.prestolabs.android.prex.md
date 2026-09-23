@@ -21,7 +21,7 @@ android:
   updated: 2026-09-17
   version: 3.37.100
   reviews: 75
-  icon: com.prestolabs.android.prex.png
+  icon: com.prestolabs.android.prex.webp
   meta: ok
   verdict: custodial
   developerName: Flipster Exchange

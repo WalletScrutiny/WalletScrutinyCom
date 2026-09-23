@@ -9,7 +9,7 @@ android:
   released: 2022-10-28
   updated: 2022-11-08
   version: 1.0.build4
-  icon: com.fmdc.webview.png
+  icon: com.fmdc.webview.webp
   meta: removed
   verdict: wip
   developerName: FMDC App

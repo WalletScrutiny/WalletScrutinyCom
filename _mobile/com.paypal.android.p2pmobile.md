@@ -22,7 +22,7 @@ android:
   updated: 2026-09-12
   version: 10.13.0
   reviews: 442046
-  icon: com.paypal.android.p2pmobile.png
+  icon: com.paypal.android.p2pmobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: PayPal Mobile
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-17
   version: 10.3.1
   reviews: 6298667
-  icon: com.yourcompany.PPClient.jpg
+  icon: com.yourcompany.PPClient.webp
   meta: ok
   verdict: nosendreceive
   developerName: PayPal, Inc.

@@ -18,7 +18,7 @@ android:
   released: 2021-10-01
   updated: 2022-09-16
   version: 1.5.1
-  icon: net.polyx.wallet.png
+  icon: net.polyx.wallet.webp
   meta: removed
   verdict: wip
   developerName: Polygant Ltd
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-06-24
   version: 1.3.0
   reviews: 0
-  icon: net.polyx.wallet-app.jpg
+  icon: net.polyx.wallet-app.webp
   meta: removed
   verdict: wip
   developerName: Polyx

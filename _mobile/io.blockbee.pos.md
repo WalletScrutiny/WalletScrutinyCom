@@ -10,7 +10,7 @@ android:
   released: 2022-08-30
   updated: 2024-10-07
   version: 1.0.2.3
-  icon: io.blockbee.pos.png
+  icon: io.blockbee.pos.webp
   meta: removed
   verdict: wip
   developerName: BlockBee

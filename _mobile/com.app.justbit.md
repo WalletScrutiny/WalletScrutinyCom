@@ -12,7 +12,7 @@ android:
   released: 2022-06-24
   updated: 2022-10-20
   version: 1.1.0
-  icon: com.app.justbit.jpg
+  icon: com.app.justbit.webp
   meta: removed
   verdict: wip
   developerName: IMSelf Community

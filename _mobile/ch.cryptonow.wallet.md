@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2026-09-09
   version: 2.4.1
-  icon: ch.cryptonow.wallet.png
+  icon: ch.cryptonow.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-09-09
   version: 2.4.1
   reviews: 124
-  icon: ch.cryptonow.wallet.jpg
+  icon: ch.cryptonow.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG

@@ -10,7 +10,7 @@ android:
   released: 2021-09-24
   updated: 2021-09-24
   version: '1.0'
-  icon: com.arc.capital.arcmarket.png
+  icon: com.arc.capital.arcmarket.webp
   meta: removed
   verdict: wip
   developerName: ARC Market Capital

@@ -18,7 +18,7 @@ android:
   released: 2021-08-20
   updated: 2022-02-14
   version: 1.3.7
-  icon: com.tabank.png
+  icon: com.tabank.webp
   meta: removed
   verdict: wip
   developerName: Tabank Holding Pte. Ltd.
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-02-28
   version: 1.3.5
   reviews: 24
-  icon: com.tabank.jpg
+  icon: com.tabank.webp
   meta: removed
   verdict: wip
   developerName: TABANK HOLDING PTE. LTD.

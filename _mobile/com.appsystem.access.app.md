@@ -10,7 +10,7 @@ android:
   released: 2021-04-05
   updated: 2021-06-08
   version: 1.1.1
-  icon: com.appsystem.access.app.png
+  icon: com.appsystem.access.app.webp
   meta: removed
   verdict: wip
   developerName: ALL ROAD SYSTEM MANAGEMENT PRIVATE LIMITED

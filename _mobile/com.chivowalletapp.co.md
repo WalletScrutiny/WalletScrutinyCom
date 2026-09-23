@@ -13,7 +13,7 @@ android:
   updated: 2021-08-13
   version: '1.0'
   reviews: 46
-  icon: com.chivowalletapp.co.png
+  icon: com.chivowalletapp.co.webp
   meta: removed
   verdict: fake
 

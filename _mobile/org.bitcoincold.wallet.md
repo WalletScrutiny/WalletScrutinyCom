@@ -9,7 +9,7 @@ android:
   released: 2017-08-23
   updated: 2017-08-23
   version: 1.4.5
-  icon: org.bitcoincold.wallet.png
+  icon: org.bitcoincold.wallet.webp
   meta: removed
   verdict: wip
   developerName: Michael Wittmann

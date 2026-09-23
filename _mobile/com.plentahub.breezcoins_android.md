@@ -9,7 +9,7 @@ android:
   released: 2021-04-06
   updated: 2021-07-04
   version: 1.2.0
-  icon: com.plentahub.breezcoins_android.png
+  icon: com.plentahub.breezcoins_android.webp
   meta: removed
   verdict: wip
   developerName: Plenta Studio

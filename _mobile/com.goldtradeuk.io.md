@@ -10,7 +10,7 @@ android:
   released: 2022-05-24
   updated: 2022-05-29
   version: 2.0.0
-  icon: com.goldtradeuk.io.jpg
+  icon: com.goldtradeuk.io.webp
   meta: removed
   verdict: wip
   developerName: Gold Trade UK LTD

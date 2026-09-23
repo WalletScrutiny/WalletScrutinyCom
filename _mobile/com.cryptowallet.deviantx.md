@@ -17,7 +17,7 @@ android:
   released: 2018-11-12
   updated: 2019-08-01
   version: '2.6'
-  icon: com.cryptowallet.deviantx.jpg
+  icon: com.cryptowallet.deviantx.webp
   meta: removed
   verdict: nosource
   developerName: Deviant Coin

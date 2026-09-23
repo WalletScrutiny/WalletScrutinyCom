@@ -10,7 +10,7 @@ android:
   released: 2022-02-20
   updated: 2022-02-20
   version: '1'
-  icon: xyz.appmaker.mevpis.png
+  icon: xyz.appmaker.mevpis.webp
   meta: removed
   verdict: wip
   developerName: TINUDA Inc.

@@ -11,7 +11,7 @@ android:
   released: 2022-03-15
   updated: 2022-05-14
   version: 1.0.3
-  icon: web.xusdt.app.png
+  icon: web.xusdt.app.webp
   meta: removed
   verdict: wip
   developerName: XUSDT

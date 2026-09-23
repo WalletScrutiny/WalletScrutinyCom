@@ -13,7 +13,7 @@ android:
   updated: 2020-11-14
   version: Varies with device
   reviews: 2065
-  icon: com.swapwalletltd.swap.png
+  icon: com.swapwalletltd.swap.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -23,7 +23,7 @@ iphone:
   updated: 2020-12-24
   version: 2.9.0
   reviews: 30
-  icon: com.swap.wallet.jpg
+  icon: com.swap.wallet.webp
   meta: removed
   verdict: custodial
 

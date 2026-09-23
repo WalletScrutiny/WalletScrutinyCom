@@ -10,7 +10,7 @@ android:
   released: 2022-06-06
   updated: 2024-02-08
   version: 1.3.0
-  icon: io.rapidz.rapidzcheckout.png
+  icon: io.rapidz.rapidzcheckout.webp
   meta: removed
   verdict: wip
   developerName: UAB Rapidz Pay

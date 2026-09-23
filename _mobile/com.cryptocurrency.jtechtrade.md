@@ -10,7 +10,7 @@ android:
   updated: 2021-06-14
   version: 2.0.1
   reviews: 26
-  icon: com.cryptocurrency.jtechtrade.png
+  icon: com.cryptocurrency.jtechtrade.webp
   meta: removed
   verdict: wip
 

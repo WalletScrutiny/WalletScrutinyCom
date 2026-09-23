@@ -10,7 +10,7 @@ android:
   released: 2020-11-20
   updated: 2020-11-20
   version: '1.0'
-  icon: com.bitvirya.app.png
+  icon: com.bitvirya.app.webp
   meta: removed
   verdict: wip
   developerName: Profit Oak

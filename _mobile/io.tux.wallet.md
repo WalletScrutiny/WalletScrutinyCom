@@ -18,7 +18,7 @@ android:
   released: 2020-01-28
   updated: 2026-09-10
   version: 4.0.17
-  icon: io.tux.wallet.png
+  icon: io.tux.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinyex Co., Ltd.
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-14
   version: 4.0.17
   reviews: 0
-  icon: net.tuxglobal.wallet.jpg
+  icon: net.tuxglobal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinyex Co., Ltd.

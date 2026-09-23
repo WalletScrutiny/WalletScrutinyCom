@@ -9,7 +9,7 @@ android:
   released: 2020-02-25
   updated: 2020-02-26
   version: '1.0'
-  icon: kr.co.coin.bf.png
+  icon: kr.co.coin.bf.webp
   meta: removed
   verdict: wip
   developerName: fx렌트 fx마진거래 렌트서비스

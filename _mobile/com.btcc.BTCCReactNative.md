@@ -22,7 +22,7 @@ android:
   updated: 2026-08-24
   version: 3.5.45
   reviews: 87
-  icon: com.btcc.BTCCReactNative.jpg
+  icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial
   developerName: BTCC international
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-27
   version: 3.5.45
   reviews: 190
-  icon: com.btcc.BTCCReactNative.jpg
+  icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial
   developerName: BTCC Limited

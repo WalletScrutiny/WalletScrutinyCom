@@ -14,7 +14,7 @@ android:
   released: 2021-06-27
   updated: 2024-08-05
   version: 4.1.1
-  icon: com.prostocash.android_prostocash.png
+  icon: com.prostocash.android_prostocash.webp
   meta: removed
   verdict: custodial
   developerName: DVSOFT PTE LTD
@@ -26,7 +26,7 @@ iphone:
   updated: 2022-12-22
   version: 2.0.3
   reviews: 1
-  icon: com.xchangecapital.prostocash.jpg
+  icon: com.xchangecapital.prostocash.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup

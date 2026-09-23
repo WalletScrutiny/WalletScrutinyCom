@@ -3,7 +3,7 @@ title: Zebedee Extension
 appId: ext.zebedee
 authors:
 - danny
-icon: ext.zebedee.png
+icon: ext.zebedee.webp
 date: 2024-05-09
 updated: 2024-04-13
 version: 1.0.4

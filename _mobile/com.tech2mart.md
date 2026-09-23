@@ -10,7 +10,7 @@ android:
   released: 2020-04-23
   updated: 2020-04-23
   version: '1.0'
-  icon: com.tech2mart.png
+  icon: com.tech2mart.webp
   meta: removed
   verdict: wip
   developerName: T2m - tech2mart

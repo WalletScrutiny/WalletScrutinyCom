@@ -14,7 +14,7 @@ android:
   released: 2021-06-30
   updated: 2022-01-26
   version: 1.1.0
-  icon: com.mobile.BetaDeal.png
+  icon: com.mobile.BetaDeal.webp
   meta: removed
   verdict: custodial
 

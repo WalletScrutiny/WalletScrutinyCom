@@ -17,7 +17,7 @@ shop:
 country: 
 price: 200USD
 repository: 
-icon: mighty.coldwallet.png
+icon: mighty.coldwallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

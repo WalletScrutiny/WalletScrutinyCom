@@ -10,7 +10,7 @@ android:
   released: 2021-05-10
   updated: 2025-07-07
   version: '1.1'
-  icon: com.stss.bloxxwop.png
+  icon: com.stss.bloxxwop.webp
   meta: stale
   verdict: wip
   developerName: STSS Apps

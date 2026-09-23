@@ -19,7 +19,7 @@ android:
   updated: 2024-10-30
   version: 2.0.1
   reviews: 6
-  icon: com.plusblocks.boxtradex.png
+  icon: com.plusblocks.boxtradex.webp
   meta: stale
   verdict: custodial
   developerName: PlusBlocks Technology Ltd.
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-11-07
   version: 2.0.1
   reviews: 0
-  icon: com.plusblocks.exchange.jpg
+  icon: com.plusblocks.exchange.webp
   meta: stale
   verdict: custodial
   developerName: PlusBlocks Technology Limited

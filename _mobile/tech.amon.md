@@ -17,7 +17,7 @@ android:
   released: 2019-05-20
   updated: 2023-07-04
   version: 3.7.31
-  icon: tech.amon.png
+  icon: tech.amon.webp
   meta: removed
   verdict: custodial
   developerName: Amon OÜ
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-07-05
   version: 3.7.31
   reviews: 8
-  icon: tech.amon.jpg
+  icon: tech.amon.webp
   meta: removed
   verdict: custodial
   developerName: Amon OÜ

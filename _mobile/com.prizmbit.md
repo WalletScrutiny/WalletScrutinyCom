@@ -18,7 +18,7 @@ android:
   updated: 2021-09-16
   version: '1.5'
   reviews: 270
-  icon: com.prizmbit.png
+  icon: com.prizmbit.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2021-10-12
   version: 1.6.9
   reviews: 2
-  icon: prizmbit.com.jpg
+  icon: prizmbit.com.webp
   meta: removed
   verdict: custodial
 

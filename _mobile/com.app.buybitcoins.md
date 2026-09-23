@@ -10,7 +10,7 @@ android:
   released: 2021-03-20
   updated: 2021-04-08
   version: '1.3'
-  icon: com.app.buybitcoins.png
+  icon: com.app.buybitcoins.webp
   meta: removed
   verdict: wip
   developerName: 'Fetch - Local Pet Marketplace by : Darryl McGee'

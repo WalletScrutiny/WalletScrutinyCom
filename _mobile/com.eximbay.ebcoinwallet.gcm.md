@@ -10,7 +10,7 @@ android:
   updated: 2017-12-06
   version: '1.6'
   reviews: 1
-  icon: com.eximbay.ebcoinwallet.gcm.png
+  icon: com.eximbay.ebcoinwallet.gcm.webp
   meta: removed
   verdict: wip
 

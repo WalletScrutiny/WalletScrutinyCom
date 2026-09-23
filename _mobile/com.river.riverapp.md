@@ -22,7 +22,7 @@ android:
   updated: 2026-09-11
   version: 7.311.1
   reviews: 326
-  icon: com.river.riverapp.png
+  icon: com.river.riverapp.webp
   meta: ok
   verdict: custodial
   developerName: River Financial
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-16
   version: 7.313.3
   reviews: 8811
-  icon: com.river.riverapp.jpg
+  icon: com.river.riverapp.webp
   meta: ok
   verdict: custodial
   developerName: River Financial Inc.

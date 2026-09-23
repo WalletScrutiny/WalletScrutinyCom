@@ -15,7 +15,7 @@ android:
   updated: 2021-07-14
   version: 1.1.6
   reviews: 488
-  icon: com.ginprox.png
+  icon: com.ginprox.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,7 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: com.cryptolabllc.bitcoin.investment.app.jpg
+  icon: com.cryptolabllc.bitcoin.investment.app.webp
   meta: removed
   verdict: wip
 

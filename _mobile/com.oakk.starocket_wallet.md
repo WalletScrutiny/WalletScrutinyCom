@@ -26,7 +26,7 @@ android:
   updated: 2026-02-05
   version: 3.1.7
   reviews: 9
-  icon: com.oakk.starocket_wallet.png
+  icon: com.oakk.starocket_wallet.webp
   meta: ok
   verdict: custodial
   developerName: TruBit Ltd.
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-01-24
   version: 3.1.6
   reviews: 8
-  icon: com.oakk.starocket-wallet.jpg
+  icon: com.oakk.starocket-wallet.webp
   meta: ok
   verdict: custodial
   developerName: TruBit Ltd.

@@ -9,7 +9,7 @@ android:
   released: 2023-04-10
   updated: 2023-04-10
   version: '1.0'
-  icon: com.bitcifr.us.png
+  icon: com.bitcifr.us.webp
   meta: removed
   verdict: wip
   developerName: Everett Michael Jr Lucas-jones

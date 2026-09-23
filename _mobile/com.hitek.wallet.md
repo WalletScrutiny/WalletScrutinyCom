@@ -9,7 +9,7 @@ android:
   released: 2018-03-28
   updated: 2018-03-28
   version: v5.0.0
-  icon: com.hitek.wallet.png
+  icon: com.hitek.wallet.webp
   meta: removed
   verdict: wip
   developerName: Nextgen IT Services

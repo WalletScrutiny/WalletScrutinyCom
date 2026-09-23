@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/metaspartan/kronos
-icon: kronoswallet.png
+icon: kronoswallet.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

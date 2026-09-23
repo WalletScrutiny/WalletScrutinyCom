@@ -10,7 +10,7 @@ iphone:
   updated: 2026-07-30
   version: 26.07.25
   reviews: 13
-  icon: app.replit.xcryptowallet.jpg
+  icon: app.replit.xcryptowallet.webp
   meta: ok
   verdict: wip
   developerName: SAKOS CORPORATION

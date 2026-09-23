@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: net.crypto.swingalert.invest.on.bitcoin1.png
+  icon: net.crypto.swingalert.invest.on.bitcoin1.webp
   meta: removed
   verdict: wip
 

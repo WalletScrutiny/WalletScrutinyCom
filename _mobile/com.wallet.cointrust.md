@@ -10,7 +10,7 @@ android:
   updated: 2022-12-14
   version: '1.0'
   reviews: 9
-  icon: com.wallet.cointrust.jpg
+  icon: com.wallet.cointrust.webp
   meta: removed
   verdict: wip
   developerName: MintMyBitcoin | Cloud Services

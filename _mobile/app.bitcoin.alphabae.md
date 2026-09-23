@@ -9,7 +9,7 @@ android:
   released: 2020-10-19
   updated: 2021-07-10
   version: 1.1.34
-  icon: app.bitcoin.alphabae.png
+  icon: app.bitcoin.alphabae.webp
   meta: removed
   verdict: wip
   developerName: developerYaanis

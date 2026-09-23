@@ -20,7 +20,7 @@ android:
   updated: 2022-02-12
   version: '3.1'
   reviews: 13
-  icon: com.bitexuae.jpg
+  icon: com.bitexuae.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-02-13
   version: '2.8'
   reviews: 15
-  icon: org.bitex.exchange.jpg
+  icon: org.bitex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Trade Bit Commercial Brokers LLC

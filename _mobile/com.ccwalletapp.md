@@ -32,7 +32,7 @@ iphone:
   updated: 2020-07-30
   version: '1.1'
   reviews: 17
-  icon: ccx.wallet.jpg
+  icon: ccx.wallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/coincasso/ccwallet

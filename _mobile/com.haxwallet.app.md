@@ -23,7 +23,7 @@ android:
   updated: 2026-09-13
   version: '3.6'
   reviews: 6
-  icon: com.haxwallet.app.png
+  icon: com.haxwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: HaxSolutions
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-15
   version: '3.6'
   reviews: 415
-  icon: com.haxwallet.app.jpg
+  icon: com.haxwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: HaxSolutions, LLC

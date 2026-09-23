@@ -10,7 +10,7 @@ android:
   released: 2019-04-12
   updated: 2020-03-19
   version: 3.9.2
-  icon: com.tycotrader.myapplication.png
+  icon: com.tycotrader.myapplication.webp
   meta: removed
   verdict: wip
   developerName: Tyco Security Network

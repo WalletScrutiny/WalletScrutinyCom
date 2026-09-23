@@ -12,7 +12,7 @@ android:
   released: 2020-03-23
   updated: 2020-07-13
   version: '7.0'
-  icon: com.org.meeyinvest.png
+  icon: com.org.meeyinvest.webp
   meta: removed
   verdict: wip
   developerName: MEEY INVEST GLOBAL PTE. LTD

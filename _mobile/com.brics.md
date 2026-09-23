@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2026-03-25
   version: 0.0.11
-  icon: com.brics.png
+  icon: com.brics.webp
   meta: ok
   verdict: nosource
   developerName: NB PAY FZCO
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-03-12
   version: 0.0.15
   reviews: 0
-  icon: com.bricspay.jpg
+  icon: com.bricspay.webp
   meta: ok
   verdict: nosource
   developerName: NB PAY FZCO Dubai Silicon Oasis, DDP, Building A1, Dubai, UAE.

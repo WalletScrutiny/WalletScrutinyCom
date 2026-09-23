@@ -16,7 +16,7 @@ android:
   users: 10000
   updated: 2023-01-04
   version: 1.3.1
-  icon: com.tocce.vst.png
+  icon: com.tocce.vst.webp
   meta: removed
   verdict: custodial
   developerName: VSTMEX Technology PTE.LTD.
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-01-05
   version: 1.3.1
   reviews: 1
-  icon: com.vstmexvstmex1.vstmexvstmex.jpg
+  icon: com.vstmexvstmex1.vstmexvstmex.webp
   meta: removed
   verdict: custodial
 

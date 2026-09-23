@@ -19,7 +19,7 @@ android:
   updated: 2020-08-14
   version: 7.2.8
   reviews: 5
-  icon: org.safecoin.safepay.png
+  icon: org.safecoin.safepay.webp
   meta: removed
   verdict: nosource
   developerName: SafeCoin

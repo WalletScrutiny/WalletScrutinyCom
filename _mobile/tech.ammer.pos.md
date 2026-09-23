@@ -10,7 +10,7 @@ android:
   released: 2022-03-23
   updated: 2022-07-14
   version: 3.0.0
-  icon: tech.ammer.pos.png
+  icon: tech.ammer.pos.webp
   meta: removed
   verdict: wip
 

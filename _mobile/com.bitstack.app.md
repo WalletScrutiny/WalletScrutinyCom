@@ -14,7 +14,7 @@ android:
   users: 500000
   updated: 2026-05-02
   version: 3.8.5
-  icon: com.bitstack.app.png
+  icon: com.bitstack.app.webp
   meta: removed
   verdict: custodial
   developerName: Bitstack
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-09-17
   version: 4.2.0
   reviews: 183
-  icon: com.bitstack.app.jpg
+  icon: com.bitstack.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitstack Digital Assets SAS

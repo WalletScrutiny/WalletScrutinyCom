@@ -16,7 +16,7 @@ android:
   released: 2020-10-24
   updated: 2020-11-25
   version: '1.1'
-  icon: com.oxiinc.bmkoin.png
+  icon: com.oxiinc.bmkoin.webp
   meta: removed
   verdict: wip
   developerName: Bmkoin Digital Technology LLP

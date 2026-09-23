@@ -9,7 +9,7 @@ android:
   released: 2021-07-21
   updated: 2021-07-21
   version: '1.0'
-  icon: org.cryptomining.bitcoin.investment.south.africa.png
+  icon: org.cryptomining.bitcoin.investment.south.africa.webp
   meta: removed
   verdict: wip
 

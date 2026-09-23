@@ -9,7 +9,7 @@ android:
   updated: 2021-02-23
   version: 1.0.1
   reviews: 23
-  icon: com.nbl.bitcoinsystemapp.png
+  icon: com.nbl.bitcoinsystemapp.webp
   meta: removed
   verdict: wip
 

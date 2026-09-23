@@ -22,7 +22,7 @@ android:
   updated: 2026-09-10
   version: 1.0.182
   reviews: 10
-  icon: com.digitra.digitraHB.png
+  icon: com.digitra.digitraHB.webp
   meta: ok
   verdict: custodial
   developerName: Digitra.com
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-16
   version: 1.0.183
   reviews: 33
-  icon: com.digitra.digitraHB.jpg
+  icon: com.digitra.digitraHB.webp
   meta: ok
   verdict: custodial
   developerName: Digitra Ativos Digitais

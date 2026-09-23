@@ -10,7 +10,7 @@ android:
   released: 2022-04-13
   updated: 2023-02-23
   version: '3.0'
-  icon: com.infinitywalletapp.png
+  icon: com.infinitywalletapp.webp
   meta: removed
   verdict: wip
   developerName: Portal Infinity

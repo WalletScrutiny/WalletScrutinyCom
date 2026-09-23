@@ -16,7 +16,7 @@ android:
   released: 2025-10-10
   updated: 2026-09-10
   version: 2.3.8
-  icon: com.atomwallets.app.png
+  icon: com.atomwallets.app.webp
   meta: ok
   verdict: nosource
   developerName: PayAtom
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-17
   version: 2.3.8
   reviews: 2
-  icon: ios.atomwallets.com.jpg
+  icon: ios.atomwallets.com.webp
   meta: ok
   verdict: nosource
   developerName: Atom Wallets

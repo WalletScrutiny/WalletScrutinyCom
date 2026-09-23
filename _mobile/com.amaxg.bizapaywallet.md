@@ -17,7 +17,7 @@ android:
   released: 2025-01-13
   updated: 2026-02-06
   version: 1.1.1
-  icon: com.amaxg.bizapaywallet.png
+  icon: com.amaxg.bizapaywallet.webp
   meta: ok
   verdict: custodial
   developerName: BIZA Project
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-02-10
   version: 1.1.1
   reviews: 1
-  icon: com.amaxg.bizapaywallet.jpg
+  icon: com.amaxg.bizapaywallet.webp
   meta: ok
   verdict: custodial
   developerName: AMAXG

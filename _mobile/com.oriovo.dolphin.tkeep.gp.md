@@ -10,7 +10,7 @@ android:
   released: 2021-05-17
   updated: 2021-09-08
   version: 1.2.3
-  icon: com.oriovo.dolphin.tkeep.gp.png
+  icon: com.oriovo.dolphin.tkeep.gp.webp
   meta: removed
   verdict: wip
   developerName: BQEX Inc.

@@ -11,7 +11,7 @@ android:
   released: 2022-01-14
   updated: 2022-09-19
   version: 5.5.0_push_v2
-  icon: com.chainup.exchange.BKX.png
+  icon: com.chainup.exchange.BKX.webp
   meta: obsolete
   verdict: wip
   developerName: GUDAX LLC

@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2022-10-04
   version: VARY
-  icon: com.ecotx.platform.png
+  icon: com.ecotx.platform.webp
   meta: removed
   verdict: wip
   developerName: ECOTX L.L.C

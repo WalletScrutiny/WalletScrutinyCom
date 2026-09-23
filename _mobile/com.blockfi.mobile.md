@@ -19,7 +19,7 @@ android:
   updated: 2023-10-04
   version: 6.2.0
   reviews: 1544
-  icon: com.blockfi.mobile.png
+  icon: com.blockfi.mobile.webp
   meta: removed
   verdict: custodial
   developerName: BlockFi
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-10-10
   version: 5.12.15
   reviews: 1295
-  icon: com.blockfi.mobile.jpg
+  icon: com.blockfi.mobile.webp
   meta: removed
   verdict: wip
   developerName: BlockFi

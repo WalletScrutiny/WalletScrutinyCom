@@ -9,7 +9,7 @@ android:
   released: 2019-01-08
   updated: 2019-03-11
   version: 1.0.2
-  icon: com.coindoctor.your.png
+  icon: com.coindoctor.your.webp
   meta: removed
   verdict: wip
 

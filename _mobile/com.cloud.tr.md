@@ -20,7 +20,7 @@ android:
   updated: 2026-09-04
   version: 4.6.0
   reviews: 21787
-  icon: com.cloud.tr.png
+  icon: com.cloud.tr.webp
   meta: ok
   verdict: custodial
   developerName: Binance TR
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-05
   version: 4.6.0
   reviews: 181074
-  icon: com.binanceCloudTR.binance.jpg
+  icon: com.binanceCloudTR.binance.webp
   meta: ok
   verdict: custodial
   developerName: BINANCE TURKEY KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

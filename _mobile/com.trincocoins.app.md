@@ -10,7 +10,7 @@ android:
   released: 2022-02-21
   updated: 2022-02-21
   version: '1.2'
-  icon: com.trincocoins.app.png
+  icon: com.trincocoins.app.webp
   meta: removed
   verdict: wip
 

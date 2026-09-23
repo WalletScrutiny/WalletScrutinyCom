@@ -10,7 +10,7 @@ android:
   released: 2019-10-24
   updated: 2019-11-07
   version: 0.0.3
-  icon: io.metex.exchange.png
+  icon: io.metex.exchange.webp
   meta: removed
   verdict: wip
   developerName: Metex Corp

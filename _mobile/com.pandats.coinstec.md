@@ -10,7 +10,7 @@ android:
   released: 2017-12-24
   updated: 2018-01-04
   version: 10.0.2
-  icon: com.pandats.coinstec.png
+  icon: com.pandats.coinstec.webp
   meta: removed
   verdict: wip
   developerName: Coinstec

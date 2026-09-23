@@ -10,7 +10,7 @@ android:
   released: 2022-01-12
   updated: 2024-12-18
   version: 1.7.2
-  icon: com.im.tech.imcard.jpg
+  icon: com.im.tech.imcard.webp
   meta: removed
   verdict: wip
   developerName: IM Card

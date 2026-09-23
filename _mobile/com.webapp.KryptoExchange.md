@@ -10,7 +10,7 @@ android:
   released: 2019-11-02
   updated: 2019-11-02
   version: '1.0'
-  icon: com.webapp.KryptoExchange.png
+  icon: com.webapp.KryptoExchange.webp
   meta: removed
   verdict: wip
   developerName: AR Corp

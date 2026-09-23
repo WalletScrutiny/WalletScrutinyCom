@@ -21,7 +21,7 @@ android:
   updated: 2024-04-21
   version: 13.1.1
   reviews: 18
-  icon: com.lykkex.LykkeWallet.png
+  icon: com.lykkex.LykkeWallet.webp
   meta: removed
   verdict: custodial
   developerName: Lykke
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-08-28
   version: 7.45.0
   reviews: 32
-  icon: com.lykkex.Lykke-Wallet.jpg
+  icon: com.lykkex.Lykke-Wallet.webp
   meta: removed
   verdict: custodial
   developerName: Lykke Corp

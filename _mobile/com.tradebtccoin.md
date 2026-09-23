@@ -10,7 +10,7 @@ android:
   released: 2019-08-20
   updated: 2019-08-20
   version: 1.0.1
-  icon: com.tradebtccoin.png
+  icon: com.tradebtccoin.webp
   meta: removed
   verdict: wip
   developerName: tradebtccoin

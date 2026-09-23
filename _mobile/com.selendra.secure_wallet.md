@@ -15,7 +15,7 @@ android:
   updated: 2024-04-29
   version: 1.0.0
   reviews: 4
-  icon: com.selendra.secure_wallet.png
+  icon: com.selendra.secure_wallet.webp
   meta: defunct
   verdict: sourceavailable
   developerName: KOOMPI

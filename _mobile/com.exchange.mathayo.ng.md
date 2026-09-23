@@ -10,7 +10,7 @@ android:
   released: 2021-12-17
   updated: 2021-12-18
   version: 1.0.0
-  icon: com.exchange.mathayo.ng.png
+  icon: com.exchange.mathayo.ng.webp
   meta: removed
   verdict: wip
   developerName: Volbri Softwares Intl

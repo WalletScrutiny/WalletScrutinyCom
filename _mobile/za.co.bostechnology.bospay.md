@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2022-08-03
   version: VARY
-  icon: za.co.bostechnology.bospay.png
+  icon: za.co.bostechnology.bospay.webp
   meta: removed
   verdict: wip
   developerName: BOS Technology PTY Ltd

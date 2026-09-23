@@ -23,7 +23,7 @@ android:
   updated: 2026-09-19
   version: 3.264.1
   reviews: 9576
-  icon: com.public.app.jpg
+  icon: com.public.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Public Holdings, Inc.
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-15
   version: 5.5.1
   reviews: 85084
-  icon: com.t3securities.matador.jpg
+  icon: com.t3securities.matador.webp
   meta: ok
   verdict: nosendreceive
   developerName: Open to the Public Investing, Inc.

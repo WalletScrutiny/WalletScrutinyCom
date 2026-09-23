@@ -11,7 +11,7 @@ android:
   released: 2022-05-08
   updated: 2022-05-20
   version: 1.0.4
-  icon: com.mao.guiderun.png
+  icon: com.mao.guiderun.webp
   meta: removed
   verdict: nosource
   developerName: Fabian Cooper

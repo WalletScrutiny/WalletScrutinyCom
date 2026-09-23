@@ -13,7 +13,7 @@ provider: GingerPrivacy
 providerWebsite: https://gingerwallet.io
 website: https://gingerwallet.io
 repository: https://github.com/GingerPrivacy/GingerWallet
-icon: gingerwallet.jpg
+icon: gingerwallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

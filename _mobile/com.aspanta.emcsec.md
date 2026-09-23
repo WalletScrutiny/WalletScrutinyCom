@@ -18,7 +18,7 @@ android:
   released: 2017-11-28
   updated: 2018-12-25
   version: 1.2.1
-  icon: com.aspanta.emcsec.png
+  icon: com.aspanta.emcsec.webp
   meta: removed
   verdict: nosource
   developerName: olegarch

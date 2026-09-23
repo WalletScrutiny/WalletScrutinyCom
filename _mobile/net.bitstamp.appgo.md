@@ -20,7 +20,7 @@ android:
   updated: 2024-05-22
   version: '1.10'
   reviews: 26
-  icon: net.bitstamp.appgo.png
+  icon: net.bitstamp.appgo.webp
   meta: removed
   verdict: custodial
   developerName: Bitstamp
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-06-26
   version: '1.9'
   reviews: 262
-  icon: net.bitstamp.simple.jpg
+  icon: net.bitstamp.simple.webp
   meta: removed
   verdict: custodial
   developerName: Bitstamp Ltd.

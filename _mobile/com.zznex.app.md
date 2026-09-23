@@ -10,7 +10,7 @@ android:
   released: 2022-10-18
   updated: 2023-04-06
   version: 4.0.0
-  icon: com.zznex.app.png
+  icon: com.zznex.app.webp
   meta: removed
   verdict: wip
   developerName: zznex

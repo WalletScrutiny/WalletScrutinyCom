@@ -10,7 +10,7 @@ android:
   released: 2022-02-15
   updated: 2022-02-15
   version: 1.0.0
-  icon: com.corbito.app.png
+  icon: com.corbito.app.webp
   meta: removed
   verdict: wip
   developerName: Cobirto Global Company Ltd.

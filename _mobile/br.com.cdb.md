@@ -10,7 +10,7 @@ android:
   released: 2020-08-07
   updated: 2020-11-01
   version: 1.0.13
-  icon: br.com.cdb.png
+  icon: br.com.cdb.webp
   meta: removed
   verdict: wip
 

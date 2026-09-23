@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: safewise.png
+icon: safewise.webp
 bugbounty: 
 meta: ok
 verdict: vapor

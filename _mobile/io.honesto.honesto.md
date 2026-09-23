@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2026-08-10
   version: 2.4.2
-  icon: io.honesto.honesto.png
+  icon: io.honesto.honesto.webp
   meta: ok
   verdict: custodial
   developerName: Honesto AG Schweiz
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-08-11
   version: 2.4.1
   reviews: 37
-  icon: io.honesto.honesto.jpg
+  icon: io.honesto.honesto.webp
   meta: ok
   verdict: custodial
   developerName: Honesto AG

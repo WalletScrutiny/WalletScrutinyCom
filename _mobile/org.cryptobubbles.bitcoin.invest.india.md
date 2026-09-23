@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-18
   version: '1.0'
-  icon: org.cryptobubbles.bitcoin.invest.india.jpg
+  icon: org.cryptobubbles.bitcoin.invest.india.webp
   meta: removed
   verdict: wip
 

@@ -12,7 +12,7 @@ android:
   released: 2019-10-05
   updated: 2019-11-11
   version: '1.1'
-  icon: app.xpay.tehranramzarz.png
+  icon: app.xpay.tehranramzarz.webp
   meta: removed
   verdict: wip
   developerName: charset

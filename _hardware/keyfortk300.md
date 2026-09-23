@@ -17,7 +17,7 @@ shop:
 country: CH
 price: 
 repository: 
-icon: keyfortk300.png
+icon: keyfortk300.webp
 bugbounty: 
 meta: defunct
 verdict: wip

@@ -18,7 +18,7 @@ android:
   released: 2025-08-20
   updated: 2026-05-29
   version: 1.10.1
-  icon: com.ribbitnova.ribbit.png
+  icon: com.ribbitnova.ribbit.webp
   meta: ok
   verdict: nosource
   developerName: Ribbit Nova
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-03-11
   version: 1.9.2
   reviews: 1
-  icon: com.ribbitnova.ribbit.jpg
+  icon: com.ribbitnova.ribbit.webp
   meta: ok
   verdict: nosource
   developerName: Ribbitnova

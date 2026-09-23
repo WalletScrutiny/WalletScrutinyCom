@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2025-11-01
   version: '3.75'
-  icon: hippotech.bank.droid.png
+  icon: hippotech.bank.droid.webp
   meta: ok
   verdict: custodial
   developerName: Ziglu
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-05-06
   version: '3.74'
   reviews: 1363
-  icon: hippotech.bank.ios.jpg
+  icon: hippotech.bank.ios.webp
   meta: removed
   verdict: custodial
   developerName: Ziglu Limited

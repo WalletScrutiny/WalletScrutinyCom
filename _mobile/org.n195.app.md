@@ -9,7 +9,7 @@ android:
   released: 2019-07-01
   updated: 2019-07-01
   version: 1.0.1
-  icon: org.n195.app.png
+  icon: org.n195.app.webp
   meta: removed
   verdict: wip
   developerName: URCC PTE. LTD

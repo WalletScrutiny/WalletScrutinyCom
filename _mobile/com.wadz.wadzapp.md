@@ -22,7 +22,7 @@ android:
   released: 2020-12-29
   updated: 2022-06-26
   version: 2.1.1
-  icon: com.wadz.wadzapp.png
+  icon: com.wadz.wadzapp.webp
   meta: removed
   verdict: custodial
   developerName: 2020 WadzPay Worldwide Pte Ltd
@@ -34,7 +34,7 @@ iphone:
   updated: 2021-09-15
   version: 2.0.1
   reviews: 1
-  icon: com.wadz.wadzapp.jpg
+  icon: com.wadz.wadzapp.webp
   meta: removed
   verdict: custodial
   developerName: WadzPay Worldwide Pte Ltd

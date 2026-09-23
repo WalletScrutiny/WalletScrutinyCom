@@ -17,7 +17,7 @@ android:
   released: 2020-07-03
   updated: 2025-01-15
   version: 3.3.3
-  icon: com.pro.changelly.png
+  icon: com.pro.changelly.webp
   meta: stale
   verdict: custodial
   developerName: PRO – Cryptocurrency Trading Platform

@@ -10,7 +10,7 @@ android:
   released: 2022-03-27
   updated: 2022-03-27
   version: '9.8'
-  icon: cbc.wallet.png
+  icon: cbc.wallet.webp
   meta: removed
   verdict: wip
   developerName: CryptoBoxCoin

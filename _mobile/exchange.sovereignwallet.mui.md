@@ -20,7 +20,7 @@ android:
   updated: 2021-03-10
   version: 1.18.0
   reviews: 33
-  icon: exchange.sovereignwallet.mui.png
+  icon: exchange.sovereignwallet.mui.webp
   meta: removed
   verdict: wip
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-03-10
   version: 1.18.0
   reviews: 7
-  icon: exchange.sovereignwallet.mui.jpg
+  icon: exchange.sovereignwallet.mui.webp
   meta: removed
   verdict: wip
 

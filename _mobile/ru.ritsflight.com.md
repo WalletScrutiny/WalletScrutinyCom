@@ -10,7 +10,7 @@ android:
   released: 2022-01-09
   updated: 2022-01-10
   version: 1.0.0
-  icon: ru.ritsflight.com.png
+  icon: ru.ritsflight.com.webp
   meta: removed
   verdict: wip
 

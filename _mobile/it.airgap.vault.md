@@ -34,7 +34,7 @@ android:
   updated: 2026-03-24
   version: 3.34.4
   reviews: 18
-  icon: it.airgap.vault.png
+  icon: it.airgap.vault.webp
   signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
   meta: ok
   verdict: sourceavailable
@@ -48,7 +48,7 @@ iphone:
   updated: 2026-03-26
   version: 3.34.4
   reviews: 27
-  icon: it.airgap.vault.jpg
+  icon: it.airgap.vault.webp
   meta: ok
   verdict: sourceavailable
   developerName: Papers GmbH

@@ -11,7 +11,7 @@ android:
   released: 2018-12-11
   updated: 2018-12-11
   version: '0.1'
-  icon: app.hibana.hibana.png
+  icon: app.hibana.hibana.webp
   meta: removed
   verdict: wip
 

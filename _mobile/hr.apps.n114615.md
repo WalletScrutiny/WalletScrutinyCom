@@ -9,7 +9,7 @@ android:
   released: 2019-11-25
   updated: 2019-11-25
   version: 5.0.1
-  icon: hr.apps.n114615.png
+  icon: hr.apps.n114615.webp
   meta: removed
   verdict: wip
   developerName: Shoutem, Inc.

@@ -3,7 +3,7 @@ title: Trezor-Tropic01 Open Secure Element Chip
 appId: trezor.tropic01
 authors:
 - danny
-icon: trezor.tropic01.png
+icon: trezor.tropic01.webp
 date: 2023-12-06
 website: https://tropicsquare.com/
 twitter: tropicsquare

@@ -23,7 +23,7 @@ android:
   released: 2021-09-21
   updated: 2026-08-20
   version: 3.3.4
-  icon: com.bitcoinsuisse.online.png
+  icon: com.bitcoinsuisse.online.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Suisse AG
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-31
   version: 3.3.4
   reviews: 0
-  icon: com.bitcoinsuisse.online.jpg
+  icon: com.bitcoinsuisse.online.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Suisse

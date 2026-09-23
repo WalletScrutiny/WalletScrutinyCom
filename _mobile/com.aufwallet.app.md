@@ -9,7 +9,7 @@ android:
   released: 2023-04-21
   updated: 2025-07-03
   version: 1.0.0
-  icon: com.aufwallet.app.png
+  icon: com.aufwallet.app.webp
   meta: removed
   verdict: wip
   developerName: LightConsen

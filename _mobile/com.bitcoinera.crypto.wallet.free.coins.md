@@ -9,7 +9,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: com.bitcoinera.crypto.wallet.free.coins.jpg
+  icon: com.bitcoinera.crypto.wallet.free.coins.webp
   meta: removed
   verdict: wip
 

@@ -22,7 +22,7 @@ android:
   updated: 2024-09-27
   version: '1.54'
   reviews: 331
-  icon: com.saitapro.png
+  icon: com.saitapro.webp
   meta: removed
   verdict: nosource
   developerName: Saitama Technology LLC
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-06-18
   version: '1.95'
   reviews: 771
-  icon: com.saitapro.jpg
+  icon: com.saitapro.webp
   meta: removed
   verdict: nosource
   developerName: SAITACHAIN LTD

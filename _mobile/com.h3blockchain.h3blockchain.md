@@ -10,7 +10,7 @@ android:
   released: 2019-08-21
   updated: 2019-08-21
   version: '1.0'
-  icon: com.h3blockchain.h3blockchain.png
+  icon: com.h3blockchain.h3blockchain.webp
   meta: removed
   verdict: wip
   developerName: H3PLEX TECHNOLOGIES PVT LTD

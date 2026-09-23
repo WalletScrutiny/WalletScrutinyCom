@@ -10,7 +10,7 @@ android:
   released: 2019-11-25
   updated: 2019-11-25
   version: '19.02'
-  icon: mobi.androapp.asellmybitcoin4cash.c8927.jpg
+  icon: mobi.androapp.asellmybitcoin4cash.c8927.webp
   meta: removed
   verdict: wip
   developerName: DavidAps

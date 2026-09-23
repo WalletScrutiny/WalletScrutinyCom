@@ -18,7 +18,7 @@ android:
   released: 2021-02-21
   updated: 2024-11-19
   version: 13.0.2
-  icon: com.cexchange.app.png
+  icon: com.cexchange.app.webp
   meta: stale
   verdict: custodial
   developerName: NetMart Inc

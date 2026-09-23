@@ -9,7 +9,7 @@ android:
   released: 2018-03-29
   updated: 2018-03-29
   version: v5.0.0
-  icon: com.oryxcoin.wallet.png
+  icon: com.oryxcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Nextgen IT Services

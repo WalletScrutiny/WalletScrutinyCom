@@ -10,7 +10,7 @@ android:
   released: 2017-05-05
   updated: 2021-11-05
   version: 1.7.1
-  icon: io.melis.testwallet.png
+  icon: io.melis.testwallet.webp
   meta: removed
   verdict: wip
   developerName: Melis

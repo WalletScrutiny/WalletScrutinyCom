@@ -10,7 +10,7 @@ android:
   released: 2021-05-30
   updated: 2022-05-26
   version: 1.0.32
-  icon: be.myreportlive.binanceautotrade.png
+  icon: be.myreportlive.binanceautotrade.webp
   meta: removed
   verdict: wip
 

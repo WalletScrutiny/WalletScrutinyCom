@@ -10,7 +10,7 @@ android:
   released: 2021-09-22
   updated: 2021-10-09
   version: '1.3'
-  icon: com.app.honorfx.png
+  icon: com.app.honorfx.webp
   meta: removed
   verdict: wip
   developerName: HonorFX

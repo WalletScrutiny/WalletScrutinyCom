@@ -17,7 +17,7 @@ android:
   updated: 2024-05-20
   version: 1.0-prod2
   reviews: 60
-  icon: com.tbws.jpg
+  icon: com.tbws.webp
   meta: removed
   verdict: custodial
   developerName: The Black Wall Street Holdings, Inc.
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-07-14
   version: '2.0'
   reviews: 179
-  icon: com.tbws1.app.jpg
+  icon: com.tbws1.app.webp
   meta: removed
   verdict: custodial
   developerName: The Black Wall Street

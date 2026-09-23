@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-09-18
   version: 5.9.0
-  icon: com.youngplatform.exchange.png
+  icon: com.youngplatform.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Young Platform S.p.a
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-10
   version: 5.9.0
   reviews: 1099
-  icon: com.youngplatform.exchange.jpg
+  icon: com.youngplatform.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Young Agency S.R.L

@@ -10,7 +10,7 @@ android:
   released: 2021-07-15
   updated: 2023-05-12
   version: 1.4.0
-  icon: com.cloud.dli.app.png
+  icon: com.cloud.dli.app.webp
   meta: removed
   verdict: wip
   developerName: BolsaDX

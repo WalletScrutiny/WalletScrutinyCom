@@ -11,7 +11,7 @@ android:
   updated: 2025-10-09
   version: 1.0.7
   reviews: 3
-  icon: com.satoshiwallet.png
+  icon: com.satoshiwallet.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Developer

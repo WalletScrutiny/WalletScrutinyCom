@@ -10,7 +10,7 @@ android:
   released: 2024-03-11
   updated: 2024-03-11
   version: 0.28.7
-  icon: com.zinary.apps.png
+  icon: com.zinary.apps.webp
   meta: removed
   verdict: wip
   developerName: Zinary Analytica Limited

@@ -13,7 +13,7 @@ android:
   released: 2022-02-13
   updated: 2022-10-07
   version: 7.0.0.3
-  icon: com.bitcoke.activity.png
+  icon: com.bitcoke.activity.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoke

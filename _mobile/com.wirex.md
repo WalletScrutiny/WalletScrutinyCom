@@ -20,7 +20,7 @@ android:
   updated: 2026-06-08
   version: 4.12.80
   reviews: 1114
-  icon: com.wirex.png
+  icon: com.wirex.webp
   meta: ok
   verdict: custodial
   developerName: Wirex
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-01-23
   version: 4.11.75
   reviews: 844
-  icon: com.wirex.jpg
+  icon: com.wirex.webp
   meta: ok
   verdict: custodial
   developerName: Wirex Limited

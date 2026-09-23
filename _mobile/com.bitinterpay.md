@@ -10,7 +10,7 @@ android:
   released: 2020-08-26
   updated: 2020-09-17
   version: '1.0'
-  icon: com.bitinterpay.png
+  icon: com.bitinterpay.webp
   meta: removed
   verdict: wip
   developerName: Bitinterpay OÜ

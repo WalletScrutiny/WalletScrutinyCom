@@ -15,7 +15,7 @@ android:
   appCountry: us
   updated: 2026-02-12
   version: 3.2.23
-  icon: com.bitdenex.png
+  icon: com.bitdenex.webp
   meta: ok
   verdict: custodial
   developerName: Bitdenex
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-05-27
   version: 3.2.22
   reviews: 2
-  icon: com.bitdenex.app.jpg
+  icon: com.bitdenex.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitdenex B.V.

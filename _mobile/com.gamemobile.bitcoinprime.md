@@ -9,7 +9,7 @@ android:
   released: 2021-06-25
   updated: 2021-06-25
   version: 1.0.0
-  icon: com.gamemobile.bitcoinprime.png
+  icon: com.gamemobile.bitcoinprime.webp
   meta: removed
   verdict: wip
 

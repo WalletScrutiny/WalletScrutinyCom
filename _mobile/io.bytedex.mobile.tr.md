@@ -15,7 +15,7 @@ android:
   released: 2022-12-16
   updated: 2024-03-15
   version: 2.0.16
-  icon: io.bytedex.mobile.tr.png
+  icon: io.bytedex.mobile.tr.webp
   meta: removed
   verdict: custodial
   developerName: Bytedex Teknoloji A.ş.

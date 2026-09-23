@@ -9,7 +9,7 @@ android:
   released: 2020-07-09
   updated: 2020-08-21
   version: 1.3.4
-  icon: com.defiex.exchange.png
+  icon: com.defiex.exchange.webp
   meta: removed
   verdict: wip
   developerName: Defiex Limited

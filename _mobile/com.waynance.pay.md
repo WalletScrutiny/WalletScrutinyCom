@@ -10,7 +10,7 @@ android:
   released: 2022-04-16
   updated: 2022-04-16
   version: 1.0.0
-  icon: com.waynance.pay.png
+  icon: com.waynance.pay.webp
   meta: removed
   verdict: wip
   developerName: Waynance One Click

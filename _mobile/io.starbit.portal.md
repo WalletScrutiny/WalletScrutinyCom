@@ -10,7 +10,7 @@ android:
   released: 2019-09-10
   updated: 2020-03-15
   version: 1.1.6
-  icon: io.starbit.portal.png
+  icon: io.starbit.portal.webp
   meta: removed
   verdict: wip
   developerName: STAR_BIT_Innovation

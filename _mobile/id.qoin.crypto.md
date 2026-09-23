@@ -20,7 +20,7 @@ android:
   released: 2022-08-16
   updated: 2024-12-03
   version: 1.4.31
-  icon: id.qoin.crypto.png
+  icon: id.qoin.crypto.webp
   meta: removed
   verdict: nosource
   developerName: PT. Loyalty Program Indonesia
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-12-06
   version: 1.4.29
   reviews: 2
-  icon: id.qoin.crypto.jpg
+  icon: id.qoin.crypto.webp
   meta: removed
   verdict: nosource
   developerName: PT. Loyalty Program Indonesia

@@ -9,7 +9,7 @@ android:
   released: 2022-08-30
   updated: 2023-09-13
   version: 0.26.4.0
-  icon: io.coinbox.bankwallet.png
+  icon: io.coinbox.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Blocktech Brew

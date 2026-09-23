@@ -12,7 +12,7 @@ android:
   released: 2018-10-03
   updated: 2022-11-12
   version: 2.9.11
-  icon: io.kaiser.kaiserwallet2.png
+  icon: io.kaiser.kaiserwallet2.webp
   meta: removed
   verdict: wip
   developerName: Bizblocks

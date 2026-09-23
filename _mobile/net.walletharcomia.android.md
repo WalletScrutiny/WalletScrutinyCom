@@ -10,7 +10,7 @@ android:
   released: 2020-11-01
   updated: 2020-11-23
   version: 1.0.4
-  icon: net.walletharcomia.android.png
+  icon: net.walletharcomia.android.webp
   meta: removed
   verdict: wip
 

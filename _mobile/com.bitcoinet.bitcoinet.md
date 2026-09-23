@@ -10,7 +10,7 @@ android:
   released: 2020-06-25
   updated: 2020-06-20
   version: '5.0'
-  icon: com.bitcoinet.bitcoinet.png
+  icon: com.bitcoinet.bitcoinet.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   updated: 2021-09-08
   version: '1.0'
   reviews: 13
-  icon: com.cloudminingespapp.espapp.jpg
+  icon: com.cloudminingespapp.espapp.webp
   meta: removed
   verdict: wip
 
