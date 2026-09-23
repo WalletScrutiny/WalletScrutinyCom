@@ -14,7 +14,7 @@ android:
   users: 10
   updated: 2023-09-06
   version: VARY
-  icon: com.ettaln.png
+  icon: com.ettaln.webp
   meta: removed
   verdict: wip
   developerName: Rukundo

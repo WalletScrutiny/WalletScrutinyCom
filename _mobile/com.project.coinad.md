@@ -10,7 +10,7 @@ android:
   released: 2018-03-27
   updated: 2019-12-12
   version: '1.26'
-  icon: com.project.coinad.jpg
+  icon: com.project.coinad.webp
   meta: removed
   verdict: wip
 

@@ -20,7 +20,7 @@ android:
   released: 2021-11-24
   updated: 2026-01-20
   version: 2.0.59
-  icon: mn.ailab.corex.png
+  icon: mn.ailab.corex.webp
   meta: ok
   verdict: custodial
   developerName: Corex LLC
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-01-22
   version: 2.0.70
   reviews: 9
-  icon: mn.ailab.corex.jpg
+  icon: mn.ailab.corex.webp
   meta: ok
   verdict: custodial
   developerName: Corex LLC

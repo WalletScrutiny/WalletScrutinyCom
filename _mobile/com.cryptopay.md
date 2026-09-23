@@ -17,7 +17,7 @@ android:
   updated: 2019-02-14
   version: '1.5'
   reviews: 2
-  icon: com.cryptopay.png
+  icon: com.cryptopay.webp
   meta: removed
   verdict: nosource
 

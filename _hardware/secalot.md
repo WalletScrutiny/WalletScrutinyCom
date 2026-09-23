@@ -17,7 +17,7 @@ shop: https://www.secalot.com/product/secalot-dongle#deadLink
 country: 
 price: 50EUR
 repository: 
-icon: secalot.png
+icon: secalot.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

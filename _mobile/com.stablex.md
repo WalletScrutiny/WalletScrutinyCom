@@ -19,7 +19,7 @@ android:
   released: 2021-10-27
   updated: 2026-02-24
   version: 3.0.47
-  icon: com.stablex.png
+  icon: com.stablex.webp
   meta: removed
   verdict: custodial
   developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-08-25
   version: 4.0.21
   reviews: 218
-  icon: net.stablex.app.jpg
+  icon: net.stablex.app.webp
   meta: ok
   verdict: custodial
   developerName: STABLEX KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

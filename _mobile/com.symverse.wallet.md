@@ -10,7 +10,7 @@ android:
   released: 2019-10-29
   updated: 2021-04-20
   version: 1.2.1
-  icon: com.symverse.wallet.png
+  icon: com.symverse.wallet.webp
   meta: removed
   verdict: wip
   developerName: SymVerse

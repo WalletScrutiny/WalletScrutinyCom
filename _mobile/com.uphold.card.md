@@ -10,7 +10,7 @@ android:
   updated: 2021-05-28
   version: 1.2.1
   reviews: 192
-  icon: com.uphold.card.png
+  icon: com.uphold.card.webp
   meta: removed
   verdict: wip
 

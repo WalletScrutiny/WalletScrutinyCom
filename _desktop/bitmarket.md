@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://bitmarket.network/
 repository: https://github.com/BitMarketNetwork/client-desktop
-icon: bitmarket.png
+icon: bitmarket.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

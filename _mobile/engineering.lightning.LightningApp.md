@@ -10,7 +10,7 @@ android:
   released: 2019-06-18
   updated: 2020-02-07
   version: 0.2.6
-  icon: engineering.lightning.LightningApp.png
+  icon: engineering.lightning.LightningApp.webp
   meta: removed
   verdict: wip
 

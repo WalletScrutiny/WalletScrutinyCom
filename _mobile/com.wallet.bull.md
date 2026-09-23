@@ -20,7 +20,7 @@ android:
   updated: 2021-10-13
   version: 1.4.1-947
   reviews: 28
-  icon: com.wallet.bull.png
+  icon: com.wallet.bull.webp
   meta: removed
   verdict: nosource
   developerName: BULL FINANCE
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-10-16
   version: '1.24'
   reviews: 16
-  icon: com.Wallet.Bulls.jpg
+  icon: com.Wallet.Bulls.webp
   meta: removed
   verdict: nosource
 

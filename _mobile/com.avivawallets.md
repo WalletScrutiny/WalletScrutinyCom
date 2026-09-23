@@ -10,7 +10,7 @@ android:
   released: 2022-05-02
   updated: 2022-05-02
   version: '1.0'
-  icon: com.avivawallets.png
+  icon: com.avivawallets.webp
   meta: removed
   verdict: wip
   developerName: Ryan Davidd

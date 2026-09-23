@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2020-11-15
   version: '1.1'
-  icon: net.elquirex.elquirexapplication.png
+  icon: net.elquirex.elquirexapplication.webp
   meta: removed
   verdict: wip
   developerName: Elquirex

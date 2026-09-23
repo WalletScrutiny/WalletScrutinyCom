@@ -10,7 +10,7 @@ android:
   released: 2022-05-04
   updated: 2022-05-05
   version: '1.0'
-  icon: com.minertronba.aaminingtrone.png
+  icon: com.minertronba.aaminingtrone.webp
   meta: removed
   verdict: wip
 

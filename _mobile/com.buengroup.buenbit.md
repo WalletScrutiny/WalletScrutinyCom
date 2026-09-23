@@ -16,7 +16,7 @@ android:
   updated: 2026-04-06
   version: 3.55.0
   reviews: 32
-  icon: com.buengroup.buenbit.png
+  icon: com.buengroup.buenbit.webp
   meta: removed
   verdict: custodial
   developerName: Fiat Flow Solutions
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-04-07
   version: 3.55.0
   reviews: 19
-  icon: com.buengroup.buenbit.jpg
+  icon: com.buengroup.buenbit.webp
   meta: removed
   verdict: custodial
   developerName: Buenbit

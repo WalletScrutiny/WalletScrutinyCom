@@ -17,7 +17,7 @@ android:
   updated: 2026-09-11
   version: '4.41'
   reviews: 57694
-  icon: com.fidelity.android.png
+  icon: com.fidelity.android.webp
   meta: ok
   verdict: custodial
   developerName: Fidelity Investments
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-10
   version: '4.41'
   reviews: 3318040
-  icon: com.fidelity.watchlist.jpg
+  icon: com.fidelity.watchlist.webp
   meta: ok
   verdict: custodial
   developerName: Fidelity Investments

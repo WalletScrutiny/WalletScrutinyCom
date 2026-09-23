@@ -15,7 +15,7 @@ android:
   released: 2023-03-13
   updated: 2026-02-04
   version: 0.18.4
-  icon: com.bitcoinrd.BitcoinRD.png
+  icon: com.bitcoinrd.BitcoinRD.webp
   meta: removed
   verdict: custodial
   developerName: BitcoinRD
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-02-06
   version: 0.18.4
   reviews: 1
-  icon: com.bitcoinrd.BitcoinRDexchange.jpg
+  icon: com.bitcoinrd.BitcoinRDexchange.webp
   meta: removed
   verdict: custodial
   developerName: BitcoinRD

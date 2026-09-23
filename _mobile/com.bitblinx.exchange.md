@@ -11,7 +11,7 @@ android:
   updated: 2020-05-01
   version: '1.8'
   reviews: 5
-  icon: com.bitblinx.exchange.png
+  icon: com.bitblinx.exchange.webp
   meta: removed
   verdict: wip
   developerName: BitBlinx

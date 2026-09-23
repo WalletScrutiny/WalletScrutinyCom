@@ -13,7 +13,7 @@ android:
   released: 2024-01-20
   updated: 2025-08-19
   version: 2.1.1
-  icon: com.dreacotdigital.cryptopower.mainnet.png
+  icon: com.dreacotdigital.cryptopower.mainnet.webp
   meta: stale
   verdict: wip
   developerName: Dreacot Digital Limited

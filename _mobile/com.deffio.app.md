@@ -16,7 +16,7 @@ android:
   released: 2025-03-14
   updated: 2026-05-28
   version: 1.8.9
-  icon: com.deffio.app.png
+  icon: com.deffio.app.webp
   meta: ok
   verdict: nosource
   developerName: Deffio
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-06-01
   version: 1.8.9
   reviews: 23
-  icon: com.deffio.app.jpg
+  icon: com.deffio.app.webp
   meta: ok
   verdict: nosource
   developerName: BETELGEUSE CORPORATION LTD

@@ -24,7 +24,7 @@ android:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 2
-  icon: com.currency.exchange.prod2.png
+  icon: com.currency.exchange.prod2.webp
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 4519
-  icon: com.currency.exchange.prod2.jpg
+  icon: com.currency.exchange.prod2.webp
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC

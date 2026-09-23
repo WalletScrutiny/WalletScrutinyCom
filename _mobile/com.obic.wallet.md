@@ -10,7 +10,7 @@ android:
   released: 2021-07-14
   updated: 2023-05-18
   version: 3.5.3
-  icon: com.obic.wallet.png
+  icon: com.obic.wallet.webp
   meta: removed
   verdict: wip
   developerName: Obictrade

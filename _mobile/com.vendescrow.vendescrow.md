@@ -10,7 +10,7 @@ android:
   released: 2021-12-05
   updated: 2021-12-06
   version: 1.0.0
-  icon: com.vendescrow.vendescrow.png
+  icon: com.vendescrow.vendescrow.webp
   meta: removed
   verdict: wip
   developerName: mathemartins

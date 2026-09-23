@@ -12,7 +12,7 @@ android:
   released: 2022-02-21
   updated: 2022-11-01
   version: 2.0.9
-  icon: com.ftxmobile.ftxtr.png
+  icon: com.ftxmobile.ftxtr.webp
   meta: removed
   verdict: custodial
   developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI

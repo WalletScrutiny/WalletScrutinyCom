@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2022-07-20
   version: '188.5'
-  icon: com.solidus.x.png
+  icon: com.solidus.x.webp
   meta: removed
   verdict: wip
   developerName: DG LLC

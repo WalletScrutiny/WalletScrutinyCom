@@ -10,7 +10,7 @@ android:
   released: 2019-10-21
   updated: 2019-10-24
   version: 0.0.8
-  icon: com.ublex.png
+  icon: com.ublex.webp
   meta: removed
   verdict: wip
   developerName: UBX Global Trading Limited

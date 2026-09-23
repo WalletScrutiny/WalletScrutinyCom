@@ -10,7 +10,7 @@ android:
   released: 2021-11-16
   updated: 2021-11-22
   version: 1.2.0
-  icon: ir.egiby.bank.png
+  icon: ir.egiby.bank.webp
   meta: removed
   verdict: wip
   developerName: Egiby Company

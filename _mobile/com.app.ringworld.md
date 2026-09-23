@@ -10,7 +10,7 @@ android:
   released: 2022-02-26
   updated: 2022-02-27
   version: '1.0'
-  icon: com.app.ringworld.png
+  icon: com.app.ringworld.webp
   meta: removed
   verdict: wip
   developerName: LGA SOFT USA

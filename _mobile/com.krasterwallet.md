@@ -13,7 +13,7 @@ android:
   released: 2025-10-08
   updated: 2025-11-10
   version: 1.0.2
-  icon: com.krasterwallet.png
+  icon: com.krasterwallet.webp
   meta: fewusers
   verdict: wip
   developerName: Kraster Wallet
@@ -25,7 +25,7 @@ iphone:
   updated: 2025-11-27
   version: '2.0'
   reviews: 0
-  icon: com.krasterwallet.krastertech.jpg
+  icon: com.krasterwallet.krastertech.webp
   meta: ok
   verdict: wip
   developerName: Kraster Technology Solutions Limited

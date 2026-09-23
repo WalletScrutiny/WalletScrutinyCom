@@ -20,7 +20,7 @@ android:
   updated: 2021-08-02
   version: 1.5.51
   reviews: 215
-  icon: com.aximetria.aximetria.png
+  icon: com.aximetria.aximetria.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-08-02
   version: 2.1.3
   reviews: 13
-  icon: com.aximetria.aximetria.jpg
+  icon: com.aximetria.aximetria.webp
   meta: removed
   verdict: custodial
 

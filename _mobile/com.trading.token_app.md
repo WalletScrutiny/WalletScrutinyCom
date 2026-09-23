@@ -10,7 +10,7 @@ android:
   released: 2022-04-11
   updated: 2022-04-14
   version: 1.0.0
-  icon: com.trading.token_app.png
+  icon: com.trading.token_app.webp
   meta: removed
   verdict: wip
   developerName: Trading Token Team

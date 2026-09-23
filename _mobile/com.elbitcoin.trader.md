@@ -9,7 +9,7 @@ android:
   released: 2021-09-17
   updated: 2021-09-20
   version: 1.0.0
-  icon: com.elbitcoin.trader.png
+  icon: com.elbitcoin.trader.webp
   meta: removed
   verdict: wip
   developerName: Kilikya Teknoloji

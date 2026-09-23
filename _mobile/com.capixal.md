@@ -11,7 +11,7 @@ android:
   users: 1000
   updated: 2021-12-01
   version: 1.5.78-capixal
-  icon: com.capixal.png
+  icon: com.capixal.webp
   meta: removed
   verdict: nosendreceive
   developerName: IFC Investments

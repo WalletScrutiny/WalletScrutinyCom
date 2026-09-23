@@ -10,7 +10,7 @@ android:
   released: 2022-06-16
   updated: 2022-06-16
   version: 1.0.9
-  icon: com.flynncrypt.wallet.png
+  icon: com.flynncrypt.wallet.webp
   meta: removed
   verdict: wip
   developerName: FlynnCrypt Ltd

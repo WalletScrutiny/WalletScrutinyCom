@@ -10,7 +10,7 @@ android:
   released: 2020-08-19
   updated: 2020-09-09
   version: 1.1.8
-  icon: com.app.bitoption.png
+  icon: com.app.bitoption.webp
   meta: removed
   verdict: wip
 

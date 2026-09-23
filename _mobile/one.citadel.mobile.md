@@ -27,7 +27,7 @@ android:
   updated: 2026-01-24
   version: 2.13.2
   reviews: 15
-  icon: one.citadel.mobile.png
+  icon: one.citadel.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Citadel.one
@@ -39,7 +39,7 @@ iphone:
   updated: 2025-05-27
   version: 2.12.2
   reviews: 17
-  icon: one.citadel.mobile.jpg
+  icon: one.citadel.mobile.webp
   meta: removed
   verdict: nosource
   developerName: Citadel.one LTD

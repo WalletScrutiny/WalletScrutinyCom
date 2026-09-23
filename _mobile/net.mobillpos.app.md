@@ -10,7 +10,7 @@ android:
   released: 2019-10-04
   updated: 2020-12-18
   version: Version 2.1.40
-  icon: net.mobillpos.app.png
+  icon: net.mobillpos.app.webp
   meta: removed
   verdict: wip
   developerName: 서유테크

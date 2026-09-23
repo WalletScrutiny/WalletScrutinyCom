@@ -17,7 +17,7 @@ android:
   updated: 2026-09-18
   version: VARY
   reviews: 34
-  icon: com.ogpay.png
+  icon: com.ogpay.webp
   meta: ok
   verdict: custodial
   developerName: Original Digital Corporation
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-09-19
   version: '16.3'
   reviews: 267
-  icon: com.unifiedsignal.ogpaywallet.jpg
+  icon: com.unifiedsignal.ogpaywallet.webp
   meta: ok
   verdict: custodial
   developerName: Original Digital Corporation

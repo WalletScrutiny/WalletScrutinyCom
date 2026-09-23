@@ -9,7 +9,7 @@ android:
   released: 2020-12-27
   updated: 2021-01-05
   version: '1.4'
-  icon: net.apo.com.png
+  icon: net.apo.com.webp
   meta: removed
   verdict: wip
   developerName: Ifastbit Foreign Exchange

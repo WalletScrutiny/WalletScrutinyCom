@@ -13,7 +13,7 @@ android:
   updated: 2021-05-20
   version: '1.2'
   reviews: 3
-  icon: com.bitcoin.wallet.cryptopuce.png
+  icon: com.bitcoin.wallet.cryptopuce.webp
   meta: removed
   verdict: nosource
 

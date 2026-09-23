@@ -9,7 +9,7 @@ android:
   released: 2022-09-19
   updated: 2022-09-20
   version: '0.2'
-  icon: com.hustay.swing.d53f6367573fc4fcf858e808481838a50.png
+  icon: com.hustay.swing.d53f6367573fc4fcf858e808481838a50.webp
   meta: removed
   verdict: wip
   developerName: LogiTron

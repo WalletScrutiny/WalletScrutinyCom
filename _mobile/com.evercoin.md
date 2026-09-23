@@ -18,7 +18,7 @@ android:
   updated: 2020-11-22
   version: 2.8.8
   reviews: 59
-  icon: com.evercoin.png
+  icon: com.evercoin.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2020-11-30
   version: 1.9.5
   reviews: 2742
-  icon: com.evercoinInc.evercoin.jpg
+  icon: com.evercoinInc.evercoin.webp
   meta: removed
   verdict: nosource
 

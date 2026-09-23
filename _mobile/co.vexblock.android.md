@@ -13,7 +13,7 @@ android:
   updated: 2019-10-15
   version: 1.0.3
   reviews: 18
-  icon: co.vexblock.android.png
+  icon: co.vexblock.android.webp
   meta: removed
   verdict: wip
   developerName: Vex Capital And Technology LTD

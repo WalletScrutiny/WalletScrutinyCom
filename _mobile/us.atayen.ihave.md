@@ -10,7 +10,7 @@ android:
   released: 2022-05-24
   updated: 2023-04-24
   version: 1.5.4
-  icon: us.atayen.ihave.png
+  icon: us.atayen.ihave.webp
   meta: removed
   verdict: wip
   developerName: Atayen, Inc

@@ -21,7 +21,7 @@ android:
   updated: 2026-09-09
   version: 2.171.0
   reviews: 1253
-  icon: com.paymaya.png
+  icon: com.paymaya.webp
   meta: ok
   verdict: custodial
   developerName: Maya Philippines, Inc.

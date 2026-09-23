@@ -11,7 +11,7 @@ android:
   released: 2021-10-28
   updated: 2021-10-28
   version: '5.0'
-  icon: com.drbtb.btbmatcoinbuerqi.png
+  icon: com.drbtb.btbmatcoinbuerqi.webp
   meta: removed
   verdict: wip
 

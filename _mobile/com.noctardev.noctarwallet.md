@@ -9,7 +9,7 @@ iphone:
   updated: 2026-01-07
   version: '1.3'
   reviews: 2
-  icon: com.noctardev.noctarwallet.jpg
+  icon: com.noctardev.noctarwallet.webp
   meta: ok
   verdict: wip
   developerName: POKOWAVE LIMITED

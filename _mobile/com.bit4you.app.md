@@ -20,7 +20,7 @@ android:
   released: 2018-01-18
   updated: 2022-11-10
   version: 0.9.1
-  icon: com.bit4you.app.png
+  icon: com.bit4you.app.webp
   meta: removed
   verdict: custodial
   developerName: bit4you SA
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-11-12
   version: '3.2'
   reviews: 0
-  icon: app.bit4you.io.jpg
+  icon: app.bit4you.io.webp
   meta: removed
   verdict: custodial
   developerName: bit4you

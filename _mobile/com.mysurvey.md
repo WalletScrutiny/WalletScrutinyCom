@@ -10,7 +10,7 @@ android:
   released: 2019-10-22
   updated: 2019-11-12
   version: '1.2'
-  icon: com.mysurvey.png
+  icon: com.mysurvey.webp
   meta: removed
   verdict: wip
 

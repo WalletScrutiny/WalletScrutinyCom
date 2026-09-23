@@ -12,7 +12,7 @@ android:
   released: 2020-09-28
   updated: 2020-09-28
   version: 1.0.0
-  icon: coin24.mobile.png
+  icon: coin24.mobile.webp
   meta: removed
   verdict: wip
   developerName: 주식회사 블록첸

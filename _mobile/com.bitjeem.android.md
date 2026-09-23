@@ -10,7 +10,7 @@ android:
   released: 2020-11-16
   updated: 2022-12-03
   version: 1.11.0
-  icon: com.bitjeem.android.png
+  icon: com.bitjeem.android.webp
   meta: removed
   verdict: wip
   developerName: bitjeem

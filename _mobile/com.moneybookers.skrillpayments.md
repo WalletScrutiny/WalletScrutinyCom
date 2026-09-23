@@ -20,7 +20,7 @@ android:
   updated: 2026-09-09
   version: 3.193.0-2026090813
   reviews: 3988
-  icon: com.moneybookers.skrillpayments.png
+  icon: com.moneybookers.skrillpayments.webp
   meta: ok
   verdict: nosendreceive
   developerName: Paysafe Holdings UK Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-10
   version: 3.193.0
   reviews: 8975
-  icon: com.skrill.ios.SkrillPayments.jpg
+  icon: com.skrill.ios.SkrillPayments.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skrill Ltd.

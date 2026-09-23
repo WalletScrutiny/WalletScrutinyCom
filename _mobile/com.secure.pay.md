@@ -9,7 +9,7 @@ android:
   released: 2016-09-21
   updated: 2020-06-21
   version: '2.6'
-  icon: com.secure.pay.png
+  icon: com.secure.pay.webp
   meta: removed
   verdict: wip
   developerName: Secure Paymentz

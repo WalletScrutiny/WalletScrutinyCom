@@ -12,7 +12,7 @@ android:
   released: 2022-08-10
   updated: 2022-09-02
   version: '1.1'
-  icon: com.qwertynetworks.png
+  icon: com.qwertynetworks.webp
   meta: removed
   verdict: wip
   developerName: Qwerty Networks

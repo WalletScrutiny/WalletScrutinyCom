@@ -23,7 +23,7 @@ android:
   updated: 2026-08-03
   version: 2.9.1
   reviews: 17
-  icon: co.psychedelic.plug.png
+  icon: co.psychedelic.plug.webp
   meta: ok
   verdict: custodial
   developerName: Funded Labs
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-26
   version: 2.9.1
   reviews: 36
-  icon: co.psychedelic.plug.jpg
+  icon: co.psychedelic.plug.webp
   meta: ok
   verdict: custodial
   developerName: Crowd IC Ltd

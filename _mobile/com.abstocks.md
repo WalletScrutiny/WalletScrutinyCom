@@ -16,7 +16,7 @@ android:
   released: 2021-08-30
   updated: 2022-02-07
   version: 1.6.106
-  icon: com.abstocks.png
+  icon: com.abstocks.webp
   meta: removed
   verdict: wip
   developerName: ABStocks.com

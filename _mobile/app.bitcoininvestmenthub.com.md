@@ -13,7 +13,7 @@ android:
   updated: 2020-05-04
   version: 1.0.0
   reviews: 4
-  icon: app.bitcoininvestmenthub.com.png
+  icon: app.bitcoininvestmenthub.com.webp
   meta: removed
   verdict: wip
   developerName: Dhirrr

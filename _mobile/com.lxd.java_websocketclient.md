@@ -20,7 +20,7 @@ android:
   updated: 2021-11-12
   version: 2.7.0
   reviews: 11
-  icon: com.lxd.java_websocketclient.png
+  icon: com.lxd.java_websocketclient.webp
   meta: removed
   verdict: wip
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-11-12
   version: 2.7.0
   reviews: 8
-  icon: coinflex.com.appc.jpg
+  icon: coinflex.com.appc.webp
   meta: removed
   verdict: wip
 

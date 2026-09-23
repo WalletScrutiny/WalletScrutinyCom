@@ -9,7 +9,7 @@ android:
   released: 2022-10-24
   updated: 2022-10-24
   version: 1.0.0
-  icon: ca.ewallet.web3.mobile.png
+  icon: ca.ewallet.web3.mobile.webp
   meta: removed
   verdict: wip
   developerName: exir developers

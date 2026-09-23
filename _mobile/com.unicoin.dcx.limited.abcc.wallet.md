@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2026-09-11
   version: 1.10.31
-  icon: com.unicoin.dcx.limited.abcc.wallet.png
+  icon: com.unicoin.dcx.limited.abcc.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: ABCC Tech

@@ -20,7 +20,7 @@ android:
   released: 2021-10-20
   updated: 2026-07-31
   version: 3.2.9
-  icon: com.kriptrade.mobile.png
+  icon: com.kriptrade.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-03
   version: 3.2.9
   reviews: 44
-  icon: com.kriptrade.mobile.jpg
+  icon: com.kriptrade.mobile.webp
   meta: ok
   verdict: custodial
   developerName: KRIPTRADE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

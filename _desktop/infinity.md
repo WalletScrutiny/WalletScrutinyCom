@@ -12,7 +12,7 @@ provider: Sharddax Ltd.
 providerWebsite: 
 website: https://infinitywallet.io/
 repository: https://github.com/InfinityWallet/Releases#deadLink
-icon: infinity.png
+icon: infinity.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

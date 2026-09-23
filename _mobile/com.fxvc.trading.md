@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2022-02-23
   version: 1.8.0
-  icon: com.fxvc.trading.png
+  icon: com.fxvc.trading.webp
   meta: removed
   verdict: wip
   developerName: FXVC

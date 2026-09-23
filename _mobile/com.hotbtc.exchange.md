@@ -10,7 +10,7 @@ android:
   updated: 2020-08-19
   version: 1.1.0
   reviews: 19
-  icon: com.hotbtc.exchange.png
+  icon: com.hotbtc.exchange.webp
   meta: removed
   verdict: wip
 

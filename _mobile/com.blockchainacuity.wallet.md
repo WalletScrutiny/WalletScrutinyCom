@@ -9,7 +9,7 @@ android:
   released: 2018-08-01
   updated: 2018-08-01
   version: '5.37'
-  icon: com.blockchainacuity.wallet.jpg
+  icon: com.blockchainacuity.wallet.webp
   meta: removed
   verdict: wip
 

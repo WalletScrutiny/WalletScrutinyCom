@@ -11,7 +11,7 @@ android:
   updated: 2020-09-09
   version: 1.6.7
   reviews: 4
-  icon: com.bgg.bgg_exchange.png
+  icon: com.bgg.bgg_exchange.webp
   meta: removed
   verdict: wip
 

@@ -11,7 +11,7 @@ android:
   released: 2020-12-24
   updated: 2020-12-24
   version: 1.0.0
-  icon: com.aniket.my_paper_wallet.png
+  icon: com.aniket.my_paper_wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Aniket sindhu

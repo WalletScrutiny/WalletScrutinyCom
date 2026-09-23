@@ -10,7 +10,7 @@ android:
   released: 2022-06-05
   updated: 2023-09-26
   version: 1.0.15
-  icon: com.triunits.android.triunits.triunits.png
+  icon: com.triunits.android.triunits.triunits.webp
   meta: removed
   verdict: wip
   developerName: Triunits Infotech Pvt. Ltd.

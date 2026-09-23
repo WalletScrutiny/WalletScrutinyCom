@@ -12,7 +12,7 @@ android:
   appCountry: us
   updated: 2025-12-30
   version: VARY
-  icon: com.paywithflash.flash_wallet.beta.png
+  icon: com.paywithflash.flash_wallet.beta.webp
   meta: ok
   verdict: nosource
   developerName: Flash Lightning Solutions

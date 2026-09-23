@@ -17,7 +17,7 @@ shop:
 country: CA
 price: 
 repository: 
-icon: cryptotestament.png
+icon: cryptotestament.webp
 bugbounty: 
 meta: ok
 verdict: vapor

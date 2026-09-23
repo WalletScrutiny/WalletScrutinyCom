@@ -10,7 +10,7 @@ android:
   released: 2019-05-05
   updated: 2019-05-29
   version: 1.1.0.146
-  icon: com.octowallet.manager.png
+  icon: com.octowallet.manager.webp
   meta: removed
   verdict: wip
   developerName: Octowallet

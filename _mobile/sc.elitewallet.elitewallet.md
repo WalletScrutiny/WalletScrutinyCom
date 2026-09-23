@@ -18,7 +18,7 @@ android:
   updated: 2024-03-25
   version: 1.3.1
   reviews: 3
-  icon: sc.elitewallet.elitewallet.png
+  icon: sc.elitewallet.elitewallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Elite Lab
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-06-04
   version: 1.1.7
   reviews: 1
-  icon: sc.elitewallet.elite-wallet.jpg
+  icon: sc.elitewallet.elite-wallet.webp
   meta: removed
   verdict: wip
   developerName: Elite Lab

@@ -9,7 +9,7 @@ android:
   released: 2021-07-19
   updated: 2021-07-19
   version: '1.0'
-  icon: com.cryptominingapp.bitcoin.cash.wallet.jpg
+  icon: com.cryptominingapp.bitcoin.cash.wallet.webp
   meta: removed
   verdict: wip
 

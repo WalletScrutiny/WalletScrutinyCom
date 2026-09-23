@@ -25,7 +25,7 @@ android:
   updated: 2019-03-17
   version: 0.1.9
   reviews: 31
-  icon: io.freewallet.mobile.jpg
+  icon: io.freewallet.mobile.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Jeremy Johnson
@@ -38,7 +38,7 @@ iphone:
   updated: 2019-03-18
   version: 1.0.9
   reviews: 38
-  icon: io.freewallet.mobile.jpg
+  icon: io.freewallet.mobile.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Jeremy Johnson

@@ -9,7 +9,7 @@ android:
   released: 2020-04-25
   updated: 2020-04-25
   version: '1.0'
-  icon: com.mke.investcrypto.jpg
+  icon: com.mke.investcrypto.webp
   meta: removed
   verdict: wip
   developerName: Elie Muhiya

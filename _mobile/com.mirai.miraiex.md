@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-09-08
   version: 4.0.1
-  icon: com.mirai.miraiex.png
+  icon: com.mirai.miraiex.webp
   meta: ok
   verdict: custodial
   developerName: Firi
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-08
   version: 4.0.1
   reviews: 10301
-  icon: com.mirai.miraiex.jpg
+  icon: com.mirai.miraiex.webp
   meta: ok
   verdict: custodial
   developerName: Firi AS

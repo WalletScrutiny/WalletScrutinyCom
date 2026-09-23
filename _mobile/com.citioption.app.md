@@ -10,7 +10,7 @@ android:
   released: 2021-03-09
   updated: 2021-03-09
   version: '1.0'
-  icon: com.citioption.app.png
+  icon: com.citioption.app.webp
   meta: removed
   verdict: wip
   developerName: GRUPO CT OPTION TRADING

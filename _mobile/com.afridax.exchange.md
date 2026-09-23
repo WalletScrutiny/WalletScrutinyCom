@@ -15,7 +15,7 @@ android:
   appCountry: us
   updated: 2026-07-13
   version: 1.3.2
-  icon: com.afridax.exchange.png
+  icon: com.afridax.exchange.webp
   meta: ok
   verdict: custodial
   developerName: ExoGroup
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-07-16
   version: 1.3.2
   reviews: 8
-  icon: com.afridax.exchange.jpg
+  icon: com.afridax.exchange.webp
   meta: ok
   verdict: custodial
   developerName: AFRIDAX

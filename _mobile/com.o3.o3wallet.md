@@ -19,7 +19,7 @@ android:
   updated: 2023-05-18
   version: 3.4.1
   reviews: 13
-  icon: com.o3.o3wallet.png
+  icon: com.o3.o3wallet.webp
   meta: removed
   verdict: nosource
   developerName: O3 Labs Inc.
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-05-18
   version: 3.3.1
   reviews: 19
-  icon: com.fengsheng.new.o3Wallet.jpg
+  icon: com.fengsheng.new.o3Wallet.webp
   meta: removed
   verdict: nosource
   developerName: O3 Labs Inc

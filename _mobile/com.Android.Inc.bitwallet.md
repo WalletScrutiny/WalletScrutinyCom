@@ -20,7 +20,7 @@ android:
   updated: 2024-11-26
   version: 2.0.1
   reviews: 262
-  icon: com.Android.Inc.bitwallet.png
+  icon: com.Android.Inc.bitwallet.webp
   meta: removed
   verdict: custodial
   developerName: BitWallet, Incorporated
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-11-30
   version: 4.5.0
   reviews: 565
-  icon: Tissatech.Bit-Wallet.jpg
+  icon: Tissatech.Bit-Wallet.webp
   meta: removed
   verdict: custodial
   developerName: BitWallet, Inc.

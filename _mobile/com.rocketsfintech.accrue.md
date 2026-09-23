@@ -19,7 +19,7 @@ android:
   updated: 2026-09-14
   version: 5.1.5
   reviews: 69
-  icon: com.rocketsfintech.accrue.png
+  icon: com.rocketsfintech.accrue.webp
   meta: ok
   verdict: custodial
   developerName: Accrue Wealth Inc
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-08
   version: 5.1.3
   reviews: 3143
-  icon: com.rocketsfintech.accrue-dca.jpg
+  icon: com.rocketsfintech.accrue-dca.webp
   meta: ok
   verdict: custodial
   developerName: Accrue DCA Limited

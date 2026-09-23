@@ -10,7 +10,7 @@ android:
   released: 2019-09-03
   updated: 2021-05-04
   version: 1.0.81
-  icon: com.omnic.png
+  icon: com.omnic.webp
   meta: removed
   verdict: wip
   developerName: AIO Synergy Holdings Bhd

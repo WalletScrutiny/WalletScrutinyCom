@@ -22,7 +22,7 @@ android:
   updated: 2026-08-04
   version: 7.9.0
   reviews: 290
-  icon: com.bitrefill.app.png
+  icon: com.bitrefill.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitrefill
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-12
   version: 7.9.0
   reviews: 487
-  icon: com.bitrefill.bitrefill.jpg
+  icon: com.bitrefill.bitrefill.webp
   meta: ok
   verdict: custodial
   developerName: Bitrefill

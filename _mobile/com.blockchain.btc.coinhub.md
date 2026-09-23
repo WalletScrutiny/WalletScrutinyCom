@@ -13,7 +13,7 @@ android:
   updated: 2025-10-27
   version: 1.5.5
   reviews: 88
-  icon: com.blockchain.btc.coinhub.png
+  icon: com.blockchain.btc.coinhub.webp
   meta: ok
   verdict: fake
   developerName: TwiX

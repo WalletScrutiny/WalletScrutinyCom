@@ -10,7 +10,7 @@ android:
   released: 2020-02-20
   updated: 2020-07-23
   version: '1.5'
-  icon: com.walahala.paywala.png
+  icon: com.walahala.paywala.webp
   meta: removed
   verdict: wip
 

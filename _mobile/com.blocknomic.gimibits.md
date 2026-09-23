@@ -10,7 +10,7 @@ android:
   released: 2019-10-30
   updated: 2020-06-11
   version: 0.1.0
-  icon: com.blocknomic.gimibits.png
+  icon: com.blocknomic.gimibits.webp
   meta: removed
   verdict: wip
   developerName: Blocknomic technologies

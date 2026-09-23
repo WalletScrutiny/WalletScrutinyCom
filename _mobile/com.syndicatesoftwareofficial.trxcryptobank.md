@@ -11,7 +11,7 @@ android:
   updated: 2019-08-07
   version: '1.0'
   reviews: 1
-  icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
+  icon: com.syndicatesoftwareofficial.trxcryptobank.webp
   meta: removed
   verdict: wip
   developerName: TrxcryptoBank

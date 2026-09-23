@@ -15,7 +15,7 @@ android:
   released: 2022-03-01
   updated: 2023-11-07
   version: 1.5.6
-  icon: com.xsjys.bbtc.png
+  icon: com.xsjys.bbtc.webp
   meta: removed
   verdict: nosendreceive
   developerName: CDEX

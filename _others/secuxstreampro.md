@@ -3,7 +3,7 @@ title: SecuX StreamPro
 appId: secuxstreampro
 authors:
 - danny
-icon: secuxstreampro.png
+icon: secuxstreampro.webp
 date: 2022-05-17
 website: https://secuxtech.com/secux-payment-terminal
 twitter: SecuXwallet

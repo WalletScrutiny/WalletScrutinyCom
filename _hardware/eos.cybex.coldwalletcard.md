@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: eos.cybex.coldwalletcard.png
+icon: eos.cybex.coldwalletcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

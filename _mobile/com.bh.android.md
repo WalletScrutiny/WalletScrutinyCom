@@ -16,7 +16,7 @@ android:
   updated: 2021-10-11
   version: 4.2.2
   reviews: 21
-  icon: com.bh.android.png
+  icon: com.bh.android.webp
   meta: removed
   verdict: wip
 iphone:
@@ -26,7 +26,7 @@ iphone:
   updated: 2021-10-11
   version: 4.1.2
   reviews: 35
-  icon: io.bhex.app.jpg
+  icon: io.bhex.app.webp
   meta: removed
   verdict: wip
 

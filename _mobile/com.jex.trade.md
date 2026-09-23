@@ -13,7 +13,7 @@ android:
   updated: 2021-10-25
   version: 2.8.4
   reviews: 713
-  icon: com.jex.trade.png
+  icon: com.jex.trade.webp
   meta: removed
   verdict: custodial
 

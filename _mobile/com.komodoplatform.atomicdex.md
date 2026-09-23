@@ -22,7 +22,7 @@ android:
   updated: 2024-07-02
   version: 0.9.2
   reviews: 9
-  icon: com.komodoplatform.atomicdex.png
+  icon: com.komodoplatform.atomicdex.webp
   signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
   meta: removed
   verdict: sourceavailable

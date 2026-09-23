@@ -10,7 +10,7 @@ android:
   released: 2020-09-02
   updated: 2020-09-26
   version: 2.0.1
-  icon: com.ronbd.mGlobal.png
+  icon: com.ronbd.mGlobal.webp
   meta: removed
   verdict: wip
   developerName: Mine Globed Inc.

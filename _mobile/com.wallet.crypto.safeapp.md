@@ -9,7 +9,7 @@ android:
   released: 2020-05-23
   updated: 2020-05-24
   version: '1.0'
-  icon: com.wallet.crypto.safeapp.png
+  icon: com.wallet.crypto.safeapp.webp
   meta: removed
   verdict: wip
   developerName: Toufiq Elahy

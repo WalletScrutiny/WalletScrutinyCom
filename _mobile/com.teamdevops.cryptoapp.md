@@ -9,7 +9,7 @@ android:
   released: 2021-08-18
   updated: 2021-08-19
   version: 1.0.0
-  icon: com.teamdevops.cryptoapp.png
+  icon: com.teamdevops.cryptoapp.webp
   meta: removed
   verdict: wip
   developerName: Team DevOps

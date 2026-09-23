@@ -18,7 +18,7 @@ android:
   updated: 2019-06-21
   version: 0.0068beta
   reviews: 15
-  icon: tech.insense.sensewalet.png
+  icon: tech.insense.sensewalet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2021-09-09
   version: '2.35'
   reviews: 46
-  icon: com.iwallet.iwallet.jpg
+  icon: com.iwallet.iwallet.webp
   meta: removed
   verdict: nosource
 

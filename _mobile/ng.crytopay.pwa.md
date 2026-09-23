@@ -10,7 +10,7 @@ android:
   released: 2020-08-20
   updated: 2020-10-22
   version: '3.0'
-  icon: ng.crytopay.pwa.png
+  icon: ng.crytopay.pwa.webp
   meta: removed
   verdict: wip
   developerName: Cryptopay.ng

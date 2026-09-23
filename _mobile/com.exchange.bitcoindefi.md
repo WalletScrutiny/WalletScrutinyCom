@@ -10,7 +10,7 @@ android:
   released: 2021-08-26
   updated: 2021-08-26
   version: 1.0.0
-  icon: com.exchange.bitcoindefi.png
+  icon: com.exchange.bitcoindefi.webp
   meta: removed
   verdict: wip
   developerName: Stacey Herrin

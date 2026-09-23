@@ -16,7 +16,7 @@ android:
   released: 2022-07-17
   updated: 2026-09-07
   version: 1.6.11
-  icon: com.safeheron.app.sg.png
+  icon: com.safeheron.app.sg.webp
   meta: ok
   verdict: custodial
   developerName: Safeheron

@@ -12,7 +12,7 @@ android:
   released: 2020-03-09
   updated: 2021-07-01
   version: 2.0.2
-  icon: id.huobi.indonesia.png
+  icon: id.huobi.indonesia.webp
   meta: removed
   verdict: custodial
   developerName: huobi indonesia info

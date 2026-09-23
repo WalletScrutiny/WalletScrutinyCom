@@ -13,7 +13,7 @@ iphone:
   updated: 2019-04-10
   version: 2.0.0
   reviews: 1
-  icon: jp.pronama.monawallet.jpg
+  icon: jp.pronama.monawallet.webp
   meta: removed
   verdict: wip
   developerName: Pronama LLC

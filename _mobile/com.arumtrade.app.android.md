@@ -16,7 +16,7 @@ android:
   users: 1000
   updated: 2021-11-18
   version: 1.0.4
-  icon: com.arumtrade.app.android.png
+  icon: com.arumtrade.app.android.webp
   meta: removed
   verdict: wip
   developerName: Arum Trade Ltd

@@ -9,7 +9,7 @@ android:
   released: 2022-03-24
   updated: 2022-03-24
   version: 1.0.2
-  icon: com.bonsystem.chain.showgo.png
+  icon: com.bonsystem.chain.showgo.webp
   meta: removed
   verdict: wip
   developerName: SEEDREAM

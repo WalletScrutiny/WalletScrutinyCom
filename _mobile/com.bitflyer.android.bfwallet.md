@@ -20,7 +20,7 @@ android:
   updated: 2026-09-15
   version: 10.1.2
   reviews: 1747
-  icon: com.bitflyer.android.bfwallet.png
+  icon: com.bitflyer.android.bfwallet.webp
   meta: ok
   verdict: custodial
   developerName: bitFlyer
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-16
   version: 10.1.0
   reviews: 133140
-  icon: jp.bitflyer.wallet.jpg
+  icon: jp.bitflyer.wallet.webp
   meta: ok
   verdict: custodial
   developerName: bitFlyer, Inc.

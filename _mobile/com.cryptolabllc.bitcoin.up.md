@@ -9,7 +9,7 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: com.cryptolabllc.bitcoin.up.jpg
+  icon: com.cryptolabllc.bitcoin.up.webp
   meta: removed
   verdict: wip
 

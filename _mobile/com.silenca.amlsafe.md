@@ -19,7 +19,7 @@ android:
   updated: 2026-08-25
   version: '2.46'
   reviews: 2
-  icon: com.silenca.amlsafe.png
+  icon: com.silenca.amlsafe.webp
   meta: ok
   verdict: custodial
   developerName: Avelot Limited
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-08-25
   version: 2.46.835
   reviews: 51
-  icon: com.avelot.amlsafe.jpg
+  icon: com.avelot.amlsafe.webp
   meta: ok
   verdict: custodial
   developerName: Avelot Limited

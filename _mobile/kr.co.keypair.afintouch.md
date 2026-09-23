@@ -13,7 +13,7 @@ android:
   released: 2018-10-04
   updated: 2019-12-27
   version: 1.0.0.60
-  icon: kr.co.keypair.afintouch.png
+  icon: kr.co.keypair.afintouch.webp
   meta: removed
   verdict: wip
   developerName: Keypair Co., Ltd.

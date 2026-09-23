@@ -13,7 +13,7 @@ android:
   updated: 2022-07-10
   version: '1.1'
   reviews: 7
-  icon: app.cex_trade.io.png
+  icon: app.cex_trade.io.webp
   meta: removed
   verdict: fake
   developerName: Cex-Trade

@@ -17,7 +17,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: coinpass.bio.png
+icon: coinpass.bio.webp
 bugbounty: 
 meta: ok
 verdict: vapor

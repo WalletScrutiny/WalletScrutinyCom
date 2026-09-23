@@ -10,7 +10,7 @@ android:
   released: 2022-12-08
   updated: 2023-10-24
   version: 1.1.55
-  icon: com.tehranExchangeGroup.tehran_exchange.png
+  icon: com.tehranExchangeGroup.tehran_exchange.webp
   meta: removed
   verdict: wip
   developerName: Tehran Exchange Group

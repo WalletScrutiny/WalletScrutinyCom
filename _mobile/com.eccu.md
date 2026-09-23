@@ -10,7 +10,7 @@ android:
   released: 2020-07-06
   updated: 2020-11-06
   version: '1.12'
-  icon: com.eccu.png
+  icon: com.eccu.webp
   meta: removed
   verdict: wip
 

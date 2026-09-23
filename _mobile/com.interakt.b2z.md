@@ -17,7 +17,7 @@ android:
   released: 2022-04-12
   updated: 2026-08-17
   version: 1.16.0
-  icon: com.interakt.b2z.png
+  icon: com.interakt.b2z.webp
   meta: ok
   verdict: custodial
   developerName: Interakt India

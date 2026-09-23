@@ -12,7 +12,7 @@ android:
   released: 2019-02-27
   updated: 2021-06-24
   version: '3.0'
-  icon: com.liowallet.app.png
+  icon: com.liowallet.app.webp
   meta: removed
   verdict: nosource
   developerName: LIOCoin

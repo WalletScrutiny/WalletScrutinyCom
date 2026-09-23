@@ -10,7 +10,7 @@ android:
   released: 2020-11-02
   updated: 2021-09-22
   version: 1.0.10
-  icon: lk.suncapital.chp.png
+  icon: lk.suncapital.chp.webp
   meta: removed
   verdict: wip
   developerName: Sun Capital International

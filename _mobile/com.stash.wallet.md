@@ -8,7 +8,7 @@ android:
   users: 5000
   updated: 2018-12-03
   version: Varies with device
-  icon: com.stash.wallet.png
+  icon: com.stash.wallet.webp
   meta: removed
   verdict: wip
 

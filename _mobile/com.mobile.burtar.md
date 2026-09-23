@@ -13,7 +13,7 @@ android:
   updated: 2021-06-26
   version: '1.0'
   reviews: 8
-  icon: com.mobile.burtar.png
+  icon: com.mobile.burtar.webp
   meta: removed
   verdict: wip
 

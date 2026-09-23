@@ -16,7 +16,7 @@ android:
   updated: 2019-08-29
   version: 1.0.12
   reviews: 16
-  icon: com.magnum.wallet.png
+  icon: com.magnum.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Magnum Wallet

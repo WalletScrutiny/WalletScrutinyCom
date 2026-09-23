@@ -26,7 +26,7 @@ android:
   updated: 2025-03-12
   version: 0.4.1
   reviews: 9
-  icon: com.tastycrypto.png
+  icon: com.tastycrypto.webp
   meta: removed
   verdict: nosource
   developerName: tastycrypto
@@ -38,7 +38,7 @@ iphone:
   updated: 2025-10-22
   version: 0.4.26
   reviews: 20
-  icon: com.tastycrypto.jpg
+  icon: com.tastycrypto.webp
   meta: removed
   verdict: nosource
   developerName: Tasty

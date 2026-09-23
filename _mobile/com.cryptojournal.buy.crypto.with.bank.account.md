@@ -9,7 +9,7 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: '1.0'
-  icon: com.cryptojournal.buy.crypto.with.bank.account.png
+  icon: com.cryptojournal.buy.crypto.with.bank.account.webp
   meta: removed
   verdict: wip
 

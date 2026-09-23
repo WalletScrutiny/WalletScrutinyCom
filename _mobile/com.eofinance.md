@@ -11,7 +11,7 @@ android:
   updated: 2020-04-30
   version: 2.0.1
   reviews: 13
-  icon: com.eofinance.png
+  icon: com.eofinance.webp
   meta: removed
   verdict: wip
 

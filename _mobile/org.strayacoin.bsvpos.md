@@ -10,7 +10,7 @@ android:
   released: 2019-07-13
   updated: 2021-04-17
   version: 3.0.0
-  icon: org.strayacoin.bsvpos.png
+  icon: org.strayacoin.bsvpos.webp
   meta: removed
   verdict: wip
 

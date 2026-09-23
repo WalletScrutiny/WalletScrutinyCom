@@ -23,7 +23,7 @@ android:
   updated: 2026-09-15
   version: 2.3.21
   reviews: 25
-  icon: com.wiseki.sekiapp.png
+  icon: com.wiseki.sekiapp.webp
   meta: ok
   verdict: custodial
   developerName: SekiApp
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-17
   version: 2.3.21
   reviews: 87
-  icon: com.wiseki.sekiapp.new.jpg
+  icon: com.wiseki.sekiapp.new.webp
   meta: ok
   verdict: custodial
   developerName: Wiseki Technologies Limited

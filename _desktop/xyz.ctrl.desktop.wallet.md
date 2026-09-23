@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://ctrl.xyz/
 repository: 
-icon: xyz.ctrl.desktop.wallet.png
+icon: xyz.ctrl.desktop.wallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -3,7 +3,7 @@ title: Bitcoin-Gift.com
 appId: bitcoin.gift
 authors:
 - danny
-icon: bitcoin.gift.png
+icon: bitcoin.gift.webp
 date: 2022-05-17
 website: https://bitcoin-gift.com/
 provider: Bitcoin-Gift Shop

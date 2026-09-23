@@ -18,7 +18,7 @@ android:
   users: 1000
   updated: 2023-07-27
   version: 2.30.0
-  icon: com.aximetria.prod.png
+  icon: com.aximetria.prod.webp
   meta: removed
   verdict: custodial
   developerName: Aximetria GmbH
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-04-05
   version: 3.23.0
   reviews: 0
-  icon: com.aximetria.prod.jpg
+  icon: com.aximetria.prod.webp
   meta: removed
   verdict: custodial
   developerName: Aximetria

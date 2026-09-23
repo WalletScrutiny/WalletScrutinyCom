@@ -20,7 +20,7 @@ shop:
 country: SG
 price: 150USD
 repository: 
-icon: blocksane.png
+icon: blocksane.webp
 bugbounty: 
 meta: ok
 verdict: vapor

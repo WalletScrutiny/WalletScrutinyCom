@@ -9,7 +9,7 @@ android:
   released: 2020-10-09
   updated: 2020-10-09
   version: '1.0'
-  icon: com.btcltcwallet.cryptsaver.v2.png
+  icon: com.btcltcwallet.cryptsaver.v2.webp
   meta: removed
   verdict: wip
   developerName: Ezze Soft House

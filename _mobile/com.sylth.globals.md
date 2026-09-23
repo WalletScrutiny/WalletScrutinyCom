@@ -9,7 +9,7 @@ android:
   released: 2022-11-22
   updated: 2022-11-22
   version: 1.1.13
-  icon: com.sylth.globals.png
+  icon: com.sylth.globals.webp
   meta: removed
   verdict: wip
   developerName: Freda Smedley

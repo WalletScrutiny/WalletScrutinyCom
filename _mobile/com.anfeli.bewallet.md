@@ -10,7 +10,7 @@ android:
   released: 2018-11-05
   updated: 2019-05-28
   version: 1.2.24
-  icon: com.anfeli.bewallet.jpg
+  icon: com.anfeli.bewallet.webp
   meta: removed
   verdict: wip
   developerName: Anfeli ES

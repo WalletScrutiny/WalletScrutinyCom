@@ -16,7 +16,7 @@ android:
   released: 2020-07-27
   updated: 2023-09-21
   version: 3.9.0
-  icon: com.raido_wallet.png
+  icon: com.raido_wallet.webp
   meta: removed
   verdict: custodial
   developerName: Raido Exchange
@@ -27,7 +27,7 @@ iphone:
   updated: 2023-09-23
   version: 3.8.0
   reviews: 0
-  icon: com.raido.wallet.jpg
+  icon: com.raido.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Raidofinance OU

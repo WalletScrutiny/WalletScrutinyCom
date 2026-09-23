@@ -9,7 +9,7 @@ android:
   released: 2021-06-19
   updated: 2021-06-19
   version: '1.0'
-  icon: org.cryptosignals.bitcoin.investment.jpg
+  icon: org.cryptosignals.bitcoin.investment.webp
   meta: removed
   verdict: wip
 

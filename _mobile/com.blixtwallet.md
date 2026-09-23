@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2026-02-18
   version: VARY
-  icon: com.blixtwallet.png
+  icon: com.blixtwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Hampus Sjöberg

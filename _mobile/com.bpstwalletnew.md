@@ -10,7 +10,7 @@ android:
   released: 2019-10-16
   updated: 2021-07-09
   version: 1.44.1
-  icon: com.bpstwalletnew.png
+  icon: com.bpstwalletnew.webp
   meta: removed
   verdict: wip
   developerName: AEQUO ANIMO AG

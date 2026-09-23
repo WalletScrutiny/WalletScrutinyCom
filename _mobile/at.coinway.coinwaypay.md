@@ -10,7 +10,7 @@ android:
   released: 2019-02-06
   updated: 2021-10-11
   version: 1.4.0
-  icon: at.coinway.coinwaypay.png
+  icon: at.coinway.coinwaypay.webp
   meta: removed
   verdict: wip
   developerName: Dos Coinway GmbH

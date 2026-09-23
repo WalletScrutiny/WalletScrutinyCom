@@ -11,7 +11,7 @@ android:
   updated: 2022-04-11
   version: '2.1'
   reviews: 3
-  icon: com.meliWallet.png
+  icon: com.meliWallet.webp
   meta: removed
   verdict: wip
 

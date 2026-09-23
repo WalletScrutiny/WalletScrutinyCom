@@ -21,7 +21,7 @@ shop: https://sugi.io/#pricing
 country: BE
 price: 59.9EUR
 repository: 
-icon: sugi.png
+icon: sugi.webp
 bugbounty: 
 meta: ok
 verdict: noita

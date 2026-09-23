@@ -10,7 +10,7 @@ android:
   released: 2022-03-24
   updated: 2023-01-17
   version: v2.0.11
-  icon: com.pqi.wallet.png
+  icon: com.pqi.wallet.webp
   meta: removed
   verdict: wip
   developerName: Power Quotient International Co., Ltd.

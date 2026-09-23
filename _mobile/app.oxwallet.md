@@ -12,7 +12,7 @@ android:
   released: 2024-10-14
   updated: 2025-04-06
   version: 2.2.3
-  icon: app.oxwallet.png
+  icon: app.oxwallet.webp
   meta: defunct
   verdict: wip
   developerName: Oxlabs group

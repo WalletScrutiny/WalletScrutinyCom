@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-06-01
   version: VARY
-  icon: co.yopay.wallet.png
+  icon: co.yopay.wallet.webp
   meta: removed
   verdict: wip
   developerName: YoPay

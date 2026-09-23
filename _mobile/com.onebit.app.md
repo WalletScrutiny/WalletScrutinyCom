@@ -16,7 +16,7 @@ android:
   updated: 2020-11-11
   version: 3.25.1
   reviews: 575
-  icon: com.onebit.app.png
+  icon: com.onebit.app.webp
   meta: removed
   verdict: custodial
 

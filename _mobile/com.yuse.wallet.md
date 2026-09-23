@@ -23,7 +23,7 @@ android:
   released: 2023-05-19
   updated: 2025-07-02
   version: 80.0.0
-  icon: com.yuse.wallet.jpg
+  icon: com.yuse.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Web3 Innovations
@@ -35,7 +35,7 @@ iphone:
   updated: 2024-12-11
   version: 4.0.8
   reviews: 6
-  icon: io.yusewallet.jpg
+  icon: io.yusewallet.webp
   meta: removed
   verdict: nosource
   developerName: YUSEWallet

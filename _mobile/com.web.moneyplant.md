@@ -9,7 +9,7 @@ android:
   released: 2022-04-26
   updated: 2022-06-14
   version: '1.2'
-  icon: com.web.moneyplant.png
+  icon: com.web.moneyplant.webp
   meta: removed
   verdict: wip
   developerName: Anirudh1

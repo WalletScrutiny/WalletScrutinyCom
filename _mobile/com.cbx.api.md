@@ -10,7 +10,7 @@ android:
   released: 2018-12-05
   updated: 2021-01-25
   version: 2.2.5
-  icon: com.cbx.api.png
+  icon: com.cbx.api.webp
   meta: removed
   verdict: wip
   developerName: CBX

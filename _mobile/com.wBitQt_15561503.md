@@ -9,7 +9,7 @@ android:
   released: 2022-05-27
   updated: 2022-05-27
   version: '1.0'
-  icon: com.wBitQt_15561503.jpg
+  icon: com.wBitQt_15561503.webp
   meta: removed
   verdict: wip
 

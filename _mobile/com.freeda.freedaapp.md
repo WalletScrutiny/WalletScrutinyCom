@@ -17,7 +17,7 @@ android:
   updated: 2022-08-17
   version: 2.3.2
   reviews: 51
-  icon: com.freeda.freedaapp.png
+  icon: com.freeda.freedaapp.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-08-18
   version: 2.3.2
   reviews: 90
-  icon: com.freeda.freedawallet.jpg
+  icon: com.freeda.freedawallet.webp
   meta: removed
   verdict: custodial
 

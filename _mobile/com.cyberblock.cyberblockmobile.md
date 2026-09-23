@@ -10,7 +10,7 @@ android:
   updated: 2018-10-22
   version: '2.0'
   reviews: 2
-  icon: com.cyberblock.cyberblockmobile.png
+  icon: com.cyberblock.cyberblockmobile.webp
   meta: removed
   verdict: wip
 

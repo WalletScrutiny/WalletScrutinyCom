@@ -22,7 +22,7 @@ android:
   appCountry: us
   updated: 2026-08-10
   version: 11.1.0
-  icon: com.conio.wallet.png
+  icon: com.conio.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Conio Srl

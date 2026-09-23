@@ -24,7 +24,7 @@ android:
   updated: 2026-09-03
   version: 2026.8.14
   reviews: 18
-  icon: com.buda.crypto.jpg
+  icon: com.buda.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Buda.com
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-04
   version: 2026.9.4
   reviews: 1
-  icon: com.buda.crypto.jpg
+  icon: com.buda.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Buda.com

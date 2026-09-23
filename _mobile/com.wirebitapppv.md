@@ -10,7 +10,7 @@ android:
   released: 2022-04-28
   updated: 2022-08-29
   version: 1.2.6
-  icon: com.wirebitapppv.jpg
+  icon: com.wirebitapppv.webp
   meta: removed
   verdict: wip
   developerName: Wirebit S.A. de C.V.

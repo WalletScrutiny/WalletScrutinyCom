@@ -10,7 +10,7 @@ android:
   released: 2019-11-14
   updated: 2020-05-09
   version: 1.2.12
-  icon: com.beaconiex.trading.png
+  icon: com.beaconiex.trading.webp
   meta: removed
   verdict: wip
   developerName: Beaconiex, LLC

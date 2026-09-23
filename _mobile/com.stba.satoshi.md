@@ -12,7 +12,7 @@ iphone:
   updated: 2025-08-30
   version: 1.0.16
   reviews: 38
-  icon: com.stba.satoshi.jpg
+  icon: com.stba.satoshi.webp
   meta: removed
   verdict: wip
   developerName: Satoshi

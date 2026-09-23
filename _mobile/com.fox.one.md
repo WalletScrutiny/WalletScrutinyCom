@@ -16,7 +16,7 @@ android:
   updated: 2021-01-08
   version: 2.14.1
   reviews: 90
-  icon: com.fox.one.png
+  icon: com.fox.one.webp
   meta: removed
   verdict: wip
 iphone:
@@ -26,7 +26,7 @@ iphone:
   updated: 2021-04-07
   version: 2.14.2
   reviews: 198
-  icon: one.fox.foxapp.jpg
+  icon: one.fox.foxapp.webp
   meta: removed
   verdict: wip
 

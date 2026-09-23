@@ -9,7 +9,7 @@ android:
   released: 2020-04-28
   updated: 2020-06-20
   version: 1.0.2
-  icon: com.hashcash.tomya.png
+  icon: com.hashcash.tomya.webp
   meta: removed
   verdict: wip
   developerName: TOMYA TECHNOLOGY AS

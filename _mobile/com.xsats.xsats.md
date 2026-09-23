@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-02-22
   version: 1.1.7
-  icon: com.xsats.xsats.png
+  icon: com.xsats.xsats.webp
   meta: removed
   verdict: wip
 

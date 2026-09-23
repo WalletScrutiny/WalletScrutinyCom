@@ -17,7 +17,7 @@ android:
   updated: 2022-09-01
   version: '1.007'
   reviews: 5
-  icon: com.rahaexchange.app.png
+  icon: com.rahaexchange.app.webp
   meta: removed
   verdict: custodial
   developerName: RahaPay

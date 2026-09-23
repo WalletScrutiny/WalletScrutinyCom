@@ -18,7 +18,7 @@ android:
   updated: 2026-09-09
   version: 3.0.9
   reviews: 36
-  icon: ng.dtunes.app.png
+  icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swapto Inc
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-10
   version: 3.0.9
   reviews: 490
-  icon: ng.dtunes.app.jpg
+  icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Crand Technologies LLC

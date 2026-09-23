@@ -20,7 +20,7 @@ shop:
 country: US
 price: 50USD
 repository: 
-icon: nativault.png
+icon: nativault.webp
 bugbounty: 
 meta: ok
 verdict: vapor

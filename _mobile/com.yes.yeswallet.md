@@ -14,7 +14,7 @@ android:
   updated: 2019-04-24
   version: '1.0'
   reviews: 31
-  icon: com.yes.yeswallet.png
+  icon: com.yes.yeswallet.webp
   meta: removed
   verdict: custodial
 

@@ -21,7 +21,7 @@ android:
   released: 2019-10-28
   updated: 2025-06-16
   version: 5.13.1
-  icon: com.zumopay.core.png
+  icon: com.zumopay.core.webp
   meta: removed
   verdict: nosource
   developerName: Zumopay
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-06-17
   version: 5.13.1
   reviews: 307
-  icon: com.zumopay.core.jpg
+  icon: com.zumopay.core.webp
   meta: removed
   verdict: nosource
   developerName: Zumo Financial Services Limited

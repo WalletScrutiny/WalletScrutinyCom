@@ -22,7 +22,7 @@ android:
   updated: 2026-08-01
   version: 2.22.2
   reviews: 27
-  icon: com.oberton.app.png
+  icon: com.oberton.app.webp
   meta: ok
   verdict: nosource
   developerName: Bytehub, LLC
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-02
   version: 3.5.1
   reviews: 8
-  icon: io.oberton.jpg
+  icon: io.oberton.webp
   meta: ok
   verdict: nosource
   developerName: BYTEHUB, LLC

@@ -32,7 +32,7 @@ android:
   updated: 2026-09-21
   version: 9.37.3
   reviews: 4275
-  icon: com.bitcoin.mwallet.png
+  icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com Developer
@@ -45,7 +45,7 @@ iphone:
   updated: 2026-09-21
   version: 9.38.0
   reviews: 45264
-  icon: com.bitcoin.mwallet.jpg
+  icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com

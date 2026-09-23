@@ -10,7 +10,7 @@ android:
   released: 2022-02-27
   updated: 2024-03-08
   version: 1.0.14
-  icon: com.aem.aemplus.png
+  icon: com.aem.aemplus.webp
   meta: removed
   verdict: wip
   developerName: AEM Technologies

@@ -10,7 +10,7 @@ android:
   released: 2019-04-22
   updated: 2019-06-27
   version: 1.2.4
-  icon: com.turismobtc.app.png
+  icon: com.turismobtc.app.webp
   meta: removed
   verdict: wip
   developerName: TurismoBTC

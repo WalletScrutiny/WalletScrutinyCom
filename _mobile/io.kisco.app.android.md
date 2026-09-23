@@ -9,7 +9,7 @@ android:
   released: 2020-12-23
   updated: 2021-01-19
   version: 1.0.7
-  icon: io.kisco.app.android.png
+  icon: io.kisco.app.android.webp
   meta: removed
   verdict: wip
   developerName: 키스톤랩

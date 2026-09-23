@@ -10,7 +10,7 @@ android:
   released: 2022-01-19
   updated: 2022-02-17
   version: 1.0.0
-  icon: com.bit.finx.jpg
+  icon: com.bit.finx.webp
   meta: removed
   verdict: wip
   developerName: Bitfinix

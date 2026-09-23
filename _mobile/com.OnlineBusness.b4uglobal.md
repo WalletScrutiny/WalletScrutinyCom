@@ -11,7 +11,7 @@ android:
   released: 2021-01-04
   updated: 2021-01-22
   version: 1.0.3
-  icon: com.OnlineBusness.b4uglobal.png
+  icon: com.OnlineBusness.b4uglobal.webp
   meta: removed
   verdict: wip
   developerName: Intelli Logics

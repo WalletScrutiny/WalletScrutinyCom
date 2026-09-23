@@ -10,7 +10,7 @@ android:
   released: 2021-10-31
   updated: 2021-12-08
   version: 0.1.2
-  icon: com.nebbix.jpg
+  icon: com.nebbix.webp
   meta: removed
   verdict: wip
   developerName: NebianTech

@@ -16,7 +16,7 @@ android:
   released: 2022-09-23
   updated: 2026-09-11
   version: 2.0.22
-  icon: com.bittime.currency.exchange.png
+  icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Bittime Exchanges
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-14
   version: 2.0.22
   reviews: 443
-  icon: com.bittime.currency.exchange.jpg
+  icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: PT. UTAMA ASET DIGITAL INDONESIA

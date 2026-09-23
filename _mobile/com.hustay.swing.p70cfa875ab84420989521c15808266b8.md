@@ -9,7 +9,7 @@ android:
   released: 2021-02-07
   updated: 2021-02-08
   version: '0.3'
-  icon: com.hustay.swing.p70cfa875ab84420989521c15808266b8.png
+  icon: com.hustay.swing.p70cfa875ab84420989521c15808266b8.webp
   meta: removed
   verdict: wip
   developerName: 주식회사 일성그룹

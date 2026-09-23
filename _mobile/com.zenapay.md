@@ -20,7 +20,7 @@ iphone:
   updated: 2024-07-02
   version: '5.2'
   reviews: 0
-  icon: com.zenapay.jpg
+  icon: com.zenapay.webp
   meta: obsolete
   verdict: nosource
   developerName: Epazz

@@ -18,7 +18,7 @@ android:
   updated: 2026-07-28
   version: 1.4.20
   reviews: 4
-  icon: pouch.ph.png
+  icon: pouch.ph.webp
   meta: ok
   verdict: custodial
   developerName: Pouch PH Inc
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-10-02
   version: 1.0.13
   reviews: 5
-  icon: pouch.ph.jpg
+  icon: pouch.ph.webp
   meta: removed
   verdict: custodial
   developerName: Pouch PH Inc

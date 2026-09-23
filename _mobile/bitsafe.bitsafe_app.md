@@ -10,7 +10,7 @@ android:
   released: 2017-07-28
   updated: 2017-11-28
   version: '1.7'
-  icon: bitsafe.bitsafe_app.png
+  icon: bitsafe.bitsafe_app.webp
   meta: removed
   verdict: wip
   developerName: FINCRYPT GLOBAL LIMITED

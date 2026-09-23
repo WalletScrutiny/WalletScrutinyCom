@@ -10,7 +10,7 @@ android:
   released: 2020-06-29
   updated: 2021-10-26
   version: 2.1.1
-  icon: me.rentcoin.app.png
+  icon: me.rentcoin.app.webp
   meta: removed
   verdict: wip
   developerName: RS Sistemas Ltda

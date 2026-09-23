@@ -9,7 +9,7 @@ android:
   released: 2021-07-10
   updated: 2021-07-12
   version: 1.0.0
-  icon: igate.apps.crypto.png
+  icon: igate.apps.crypto.webp
   meta: removed
   verdict: wip
   developerName: iGATE YAZILIM TiC. LTD.

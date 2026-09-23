@@ -10,7 +10,7 @@ android:
   released: 2020-04-25
   updated: 2020-05-16
   version: 1.0.1
-  icon: com.crenzy.walletowner.png
+  icon: com.crenzy.walletowner.webp
   meta: removed
   verdict: wip
   developerName: Crenzy Company

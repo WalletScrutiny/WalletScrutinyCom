@@ -10,7 +10,7 @@ android:
   released: 2016-06-21
   updated: 2017-11-23
   version: 1.2.7
-  icon: com.bithappy.browser.v1.png
+  icon: com.bithappy.browser.v1.webp
   meta: removed
   verdict: wip
   developerName: S Lee

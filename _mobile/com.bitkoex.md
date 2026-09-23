@@ -10,7 +10,7 @@ android:
   released: 2018-09-30
   updated: 2021-03-01
   version: '2.19'
-  icon: com.bitkoex.png
+  icon: com.bitkoex.webp
   meta: removed
   verdict: wip
   developerName: GNDPLUS BITKOEX

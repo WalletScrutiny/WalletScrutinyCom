@@ -20,7 +20,7 @@ shop: https://foundation.xyz/buy-passport-prime/
 country: US
 price: 349USD
 repository: https://github.com/Foundation-Devices/KeyOS
-icon: passportprime.png
+icon: passportprime.webp
 bugbounty: https://foundation.xyz/security/
 meta: ok
 verdict: sourceavailable

@@ -13,7 +13,7 @@ iphone:
   updated: 2023-05-22
   version: '2'
   reviews: 1
-  icon: com.itm.ww.Todaysapp.jpg
+  icon: com.itm.ww.Todaysapp.webp
   meta: removed
   verdict: wip
   developerName: INTERNATIONAL TELEMETRY MACHINES

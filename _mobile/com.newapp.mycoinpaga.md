@@ -12,7 +12,7 @@ android:
   updated: 2020-12-07
   version: '1.11'
   reviews: 5
-  icon: com.newapp.mycoinpaga.png
+  icon: com.newapp.mycoinpaga.webp
   meta: removed
   verdict: wip
 

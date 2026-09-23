@@ -9,7 +9,7 @@ android:
   released: 2021-05-10
   updated: 2022-09-02
   version: 2.0.16
-  icon: com.sanctuaryex.wallet.png
+  icon: com.sanctuaryex.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sanctuary Dex Corp.

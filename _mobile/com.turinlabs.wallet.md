@@ -10,7 +10,7 @@ android:
   released: 2022-09-14
   updated: 2023-03-06
   version: 1.1.8
-  icon: com.turinlabs.wallet.png
+  icon: com.turinlabs.wallet.webp
   meta: removed
   verdict: wip
   developerName: TurinLabs

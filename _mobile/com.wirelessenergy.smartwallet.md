@@ -19,7 +19,7 @@ android:
   released: 2021-09-24
   updated: 2026-05-16
   version: 2.17.0
-  icon: com.wirelessenergy.smartwallet.png
+  icon: com.wirelessenergy.smartwallet.webp
   meta: fewusers
   verdict: nosource
   developerName: Smart Wallet Token Ltd
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-05-18
   version: 2.17.0
   reviews: 0
-  icon: com.wirelessenergy.smartwallet.jpg
+  icon: com.wirelessenergy.smartwallet.webp
   meta: ok
   verdict: nosource
   developerName: Smart Wallet Token

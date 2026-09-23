@@ -21,7 +21,7 @@ android:
   updated: 2026-09-16
   version: 26.9.18
   reviews: 12
-  icon: com.iggroup.android.cfd.png
+  icon: com.iggroup.android.cfd.webp
   meta: ok
   verdict: nosendreceive
   developerName: IG Group
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-21
   version: 10.3657.0
   reviews: 3011
-  icon: com.igmarkets.ideal.jpg
+  icon: com.igmarkets.ideal.webp
   meta: ok
   verdict: nosendreceive
   developerName: IG Group

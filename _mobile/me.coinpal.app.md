@@ -19,7 +19,7 @@ android:
   updated: 2018-06-27
   version: 4.1.4
   reviews: 53
-  icon: me.coinpal.app.png
+  icon: me.coinpal.app.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2018-06-26
   version: '1.0'
   reviews: 11
-  icon: me.coinpal.xapp.jpg
+  icon: me.coinpal.xapp.webp
   meta: removed
   verdict: nosource
   developerName: Coinpal Inc

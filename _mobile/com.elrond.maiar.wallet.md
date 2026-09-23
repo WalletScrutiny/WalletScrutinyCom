@@ -21,7 +21,7 @@ android:
   updated: 2026-09-14
   version: 2.101.16 (3227)
   reviews: 417
-  icon: com.elrond.maiar.wallet.png
+  icon: com.elrond.maiar.wallet.webp
   meta: ok
   verdict: nosource
   developerName: xPortal Labs
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-02-16
   version: 2.92.0
   reviews: 1811
-  icon: com.elrond.maiar.wallet.jpg
+  icon: com.elrond.maiar.wallet.webp
   meta: defunct
   verdict: nosource
   developerName: MultiversX Labs S.R.L.

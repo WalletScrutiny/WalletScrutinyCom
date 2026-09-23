@@ -12,7 +12,7 @@ android:
   released: 2020-06-11
   updated: 2020-11-20
   version: '1.9'
-  icon: com.publet.png
+  icon: com.publet.webp
   meta: removed
   verdict: wip
   developerName: Publet Pte. Ltd.

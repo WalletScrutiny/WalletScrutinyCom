@@ -18,7 +18,7 @@ android:
   released: 2025-06-26
   updated: 2026-07-01
   version: 1.0.8
-  icon: com.squirrelwallet.app.png
+  icon: com.squirrelwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Squirrel Wallet
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-07-02
   version: 1.0.8
   reviews: 2
-  icon: com.squirrelwallet.onekey.jpg
+  icon: com.squirrelwallet.onekey.webp
   meta: ok
   verdict: nosource
   developerName: Squirrel Wallet Inc

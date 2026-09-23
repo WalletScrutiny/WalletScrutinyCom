@@ -13,7 +13,7 @@ android:
   released: 2023-12-21
   updated: 2024-11-22
   version: 0.2.7
-  icon: com.wallet.blockchain.bitcoin.png
+  icon: com.wallet.blockchain.bitcoin.webp
   meta: stale
   verdict: fake
   developerName: TwiX

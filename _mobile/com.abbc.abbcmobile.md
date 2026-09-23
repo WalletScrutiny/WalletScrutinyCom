@@ -23,7 +23,7 @@ android:
   updated: 2023-07-02
   version: 1.3.4
   reviews: 7
-  icon: com.abbc.abbcmobile.png
+  icon: com.abbc.abbcmobile.webp
   meta: removed
   verdict: nosource
   developerName: ABBC PAYMENT SERVICES PROVIDER
@@ -35,7 +35,7 @@ iphone:
   updated: 2020-02-12
   version: 1.3.3
   reviews: 1
-  icon: com.abbc.wallet.jpg
+  icon: com.abbc.wallet.webp
   meta: removed
   verdict: nosource
   developerName: MC ABBC IT SOLUTION

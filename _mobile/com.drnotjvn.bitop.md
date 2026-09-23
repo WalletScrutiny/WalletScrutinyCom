@@ -9,7 +9,7 @@ android:
   released: 2021-10-12
   updated: 2021-10-13
   version: 1.0.0
-  icon: com.drnotjvn.bitop.png
+  icon: com.drnotjvn.bitop.webp
   meta: removed
   verdict: wip
 

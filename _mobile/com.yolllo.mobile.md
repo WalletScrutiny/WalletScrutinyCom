@@ -10,7 +10,7 @@ android:
   released: 2022-04-29
   updated: 2022-06-23
   version: '1.0'
-  icon: com.yolllo.mobile.png
+  icon: com.yolllo.mobile.webp
   meta: removed
   verdict: wip
   developerName: AVAPAY LTD

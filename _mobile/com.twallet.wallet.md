@@ -9,7 +9,7 @@ android:
   released: 2021-07-13
   updated: 2021-07-13
   version: 0.22.0
-  icon: com.twallet.wallet.jpg
+  icon: com.twallet.wallet.webp
   meta: removed
   verdict: wip
   developerName: clambiz

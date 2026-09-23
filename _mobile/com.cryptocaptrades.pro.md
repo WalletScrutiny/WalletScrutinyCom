@@ -9,7 +9,7 @@ android:
   released: 2021-07-23
   updated: 2021-08-16
   version: 1.0.2.210816
-  icon: com.cryptocaptrades.pro.png
+  icon: com.cryptocaptrades.pro.webp
   meta: removed
   verdict: wip
   developerName: Vuco World

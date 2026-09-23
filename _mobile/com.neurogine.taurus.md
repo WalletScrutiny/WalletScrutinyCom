@@ -10,7 +10,7 @@ android:
   released: 2021-09-27
   updated: 2022-04-27
   version: 1.0.8
-  icon: com.neurogine.taurus.png
+  icon: com.neurogine.taurus.webp
   meta: removed
   verdict: wip
   developerName: Neurogine

@@ -23,7 +23,7 @@ android:
   updated: 2026-07-13
   version: 11.0.0
   reviews: 8
-  icon: com.thekingdombank.app.png
+  icon: com.thekingdombank.app.webp
   meta: removed
   verdict: custodial
   developerName: TheKingdomBank
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-12
   version: 11.2.1
   reviews: 3
-  icon: com.kingdom.TheKingdomBank.jpg
+  icon: com.kingdom.TheKingdomBank.webp
   meta: ok
   verdict: custodial
   developerName: The Kingdom Bank Corporation

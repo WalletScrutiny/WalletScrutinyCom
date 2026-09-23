@@ -11,7 +11,7 @@ android:
   released: 2017-11-12
   updated: 2022-01-23
   version: 2.0.1
-  icon: com.unhappychoice.droidflyer.png
+  icon: com.unhappychoice.droidflyer.webp
   meta: obsolete
   verdict: wip
   developerName: Yuji Ueki

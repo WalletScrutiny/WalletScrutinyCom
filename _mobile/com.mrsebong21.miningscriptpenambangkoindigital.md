@@ -10,7 +10,7 @@ android:
   released: 2020-06-29
   updated: 2020-12-18
   version: 3.0.0
-  icon: com.mrsebong21.miningscriptpenambangkoindigital.png
+  icon: com.mrsebong21.miningscriptpenambangkoindigital.webp
   meta: removed
   verdict: wip
 

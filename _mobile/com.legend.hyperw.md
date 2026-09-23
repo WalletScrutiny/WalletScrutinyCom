@@ -9,7 +9,7 @@ android:
   users: 5000
   updated: 2021-12-29
   version: 2.4.1
-  icon: com.legend.hyperw.png
+  icon: com.legend.hyperw.webp
   meta: removed
   verdict: wip
 

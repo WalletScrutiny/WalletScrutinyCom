@@ -9,7 +9,7 @@ android:
   released: 2020-03-12
   updated: 2020-05-12
   version: 1.0.3
-  icon: infii.app.ionewallet.png
+  icon: infii.app.ionewallet.webp
   meta: removed
   verdict: wip
   developerName: INFII

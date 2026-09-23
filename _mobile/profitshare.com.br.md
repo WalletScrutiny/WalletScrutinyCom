@@ -10,7 +10,7 @@ android:
   released: 2021-09-29
   updated: 2022-04-23
   version: 1.0.8
-  icon: profitshare.com.br.png
+  icon: profitshare.com.br.webp
   meta: removed
   verdict: wip
   developerName: Fastcoin LTDA

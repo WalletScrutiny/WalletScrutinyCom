@@ -16,7 +16,7 @@ android:
   updated: 2026-09-11
   version: 2.0.0
   reviews: 8
-  icon: com.pocketmint.wallet.png
+  icon: com.pocketmint.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Pocketmint Solutions LLC
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-13
   version: 2.0.0
   reviews: 5
-  icon: ai.pocketmint.jpg
+  icon: ai.pocketmint.webp
   meta: ok
   verdict: custodial
   developerName: Pocketmint Solutions

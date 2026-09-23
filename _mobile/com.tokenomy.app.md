@@ -19,7 +19,7 @@ android:
   released: 2021-07-09
   updated: 2023-09-27
   version: 2.15.1
-  icon: com.tokenomy.app.png
+  icon: com.tokenomy.app.webp
   meta: removed
   verdict: custodial
   developerName: Tokenomy
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-09-27
   version: 2.16.0
   reviews: 0
-  icon: com.tokenomy.app.jpg
+  icon: com.tokenomy.app.webp
   meta: removed
   verdict: custodial
   developerName: Tennet technologies Inc.

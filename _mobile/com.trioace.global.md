@@ -9,7 +9,7 @@ android:
   released: 2022-01-02
   updated: 2022-01-03
   version: 1.0.1
-  icon: com.trioace.global.png
+  icon: com.trioace.global.webp
   meta: removed
   verdict: wip
   developerName: Trio Ace Global

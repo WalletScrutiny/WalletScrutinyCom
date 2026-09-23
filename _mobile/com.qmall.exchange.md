@@ -21,7 +21,7 @@ android:
   updated: 2024-07-31
   version: 1.1.59
   reviews: 3
-  icon: com.qmall.exchange.png
+  icon: com.qmall.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: Prof-IT Blockchain Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-08-01
   version: 1.1.59
   reviews: 9
-  icon: com.profit.qmall.exchange.jpg
+  icon: com.profit.qmall.exchange.webp
   meta: removed
   verdict: custodial
   developerName: QMALL Exchange

@@ -21,7 +21,7 @@ shop: https://bc-vault.com/shop/
 country: SI
 price: 132EUR
 repository: 
-icon: bcvaultone.png
+icon: bcvaultone.webp
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -9,7 +9,7 @@ android:
   released: 2019-05-11
   updated: 2019-12-06
   version: 1.1.1
-  icon: com.fastlocaltrade.fastlocaltrade.png
+  icon: com.fastlocaltrade.fastlocaltrade.webp
   meta: removed
   verdict: wip
   developerName: FLT

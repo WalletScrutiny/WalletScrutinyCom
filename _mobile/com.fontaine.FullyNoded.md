@@ -25,7 +25,7 @@ iphone:
   updated: 2026-09-03
   version: 2.3.4
   reviews: 50
-  icon: com.fontaine.FullyNoded.jpg
+  icon: com.fontaine.FullyNoded.webp
   meta: ok
   verdict: sourceavailable
   developerName: Denton LLC

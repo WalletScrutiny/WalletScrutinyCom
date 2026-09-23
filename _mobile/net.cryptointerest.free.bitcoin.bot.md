@@ -9,7 +9,7 @@ android:
   released: 2021-07-06
   updated: 2021-07-06
   version: '1.0'
-  icon: net.cryptointerest.free.bitcoin.bot.png
+  icon: net.cryptointerest.free.bitcoin.bot.webp
   meta: removed
   verdict: wip
 

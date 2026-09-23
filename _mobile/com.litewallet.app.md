@@ -10,7 +10,7 @@ android:
   released: 2022-03-29
   updated: 2022-06-28
   version: 1.1.1
-  icon: com.litewallet.app.png
+  icon: com.litewallet.app.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/META-1-Official/litewallet-native#deadLink

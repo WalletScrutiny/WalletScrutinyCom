@@ -11,7 +11,7 @@ android:
   updated: 2020-08-14
   version: 1.1.4
   reviews: 1329
-  icon: com.ie.option.png
+  icon: com.ie.option.webp
   meta: removed
   verdict: wip
 

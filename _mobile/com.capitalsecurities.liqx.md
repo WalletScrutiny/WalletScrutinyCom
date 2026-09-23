@@ -13,7 +13,7 @@ android:
   users: 10000
   updated: 2024-07-02
   version: 2.7.1
-  icon: com.capitalsecurities.liqx.png
+  icon: com.capitalsecurities.liqx.webp
   meta: removed
   verdict: nosendreceive
   developerName: Capital Securities S.A.
@@ -25,7 +25,7 @@ iphone:
   updated: 2024-04-04
   version: 2.6.8
   reviews: 0
-  icon: com.capitalsecurities.liqx.jpg
+  icon: com.capitalsecurities.liqx.webp
   meta: removed
   verdict: nosendreceive
   developerName: Capital Securities S.A.

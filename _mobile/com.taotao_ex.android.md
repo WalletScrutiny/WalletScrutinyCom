@@ -17,7 +17,7 @@ android:
   released: 2019-05-29
   updated: 2026-01-09
   version: 4.0.0
-  icon: com.taotao_ex.android.jpg
+  icon: com.taotao_ex.android.webp
   meta: removed
   verdict: custodial
   developerName: SBI VC Trade Co., Ltd.
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-01-28
   version: 4.0.0
   reviews: 602
-  icon: com.taotao-ex.TaotaoTrade.jpg
+  icon: com.taotao-ex.TaotaoTrade.webp
   meta: removed
   verdict: custodial
   developerName: SBI VC TRADE CO., LTD.

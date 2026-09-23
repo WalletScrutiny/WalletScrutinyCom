@@ -11,7 +11,7 @@ android:
   updated: 2024-07-22
   version: 1.4.2
   reviews: 10
-  icon: app.vipsats.vipsats.png
+  icon: app.vipsats.vipsats.webp
   meta: removed
   verdict: wip
   developerName: Vipsats

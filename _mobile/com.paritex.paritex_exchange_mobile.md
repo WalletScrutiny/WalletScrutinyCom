@@ -17,7 +17,7 @@ android:
   updated: 2022-08-30
   version: 3.1.17
   reviews: 106
-  icon: com.paritex.paritex_exchange_mobile.png
+  icon: com.paritex.paritex_exchange_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Paritex
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-08-30
   version: 3.1.17
   reviews: 83
-  icon: com.paritex.paritexapp.jpg
+  icon: com.paritex.paritexapp.webp
   meta: removed
   verdict: custodial
   developerName: Paritex Bilişim Teknolojileri Anonim Şirketi

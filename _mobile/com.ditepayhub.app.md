@@ -10,7 +10,7 @@ android:
   released: 2020-12-11
   updated: 2020-12-11
   version: '1.0'
-  icon: com.ditepayhub.app.png
+  icon: com.ditepayhub.app.webp
   meta: removed
   verdict: wip
   developerName: Abolly Web Solutions.

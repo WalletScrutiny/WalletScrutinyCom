@@ -9,7 +9,7 @@ android:
   released: 2021-12-06
   updated: 2023-03-27
   version: 3.5.43
-  icon: com.exchange.digicoins.cc.jpg
+  icon: com.exchange.digicoins.cc.webp
   meta: removed
   verdict: wip
   developerName: DIGICOINS TECHNOLOGY AND MANAGEMENT LIMITED

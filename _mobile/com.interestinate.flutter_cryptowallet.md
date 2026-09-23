@@ -10,7 +10,7 @@ android:
   released: 2020-01-06
   updated: 2020-01-06
   version: 1.0.0
-  icon: com.interestinate.flutter_cryptowallet.png
+  icon: com.interestinate.flutter_cryptowallet.webp
   meta: removed
   verdict: wip
   developerName: Interestinate AB

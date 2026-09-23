@@ -16,7 +16,7 @@ android:
   updated: 2026-07-09
   version: '3.46'
   reviews: 4
-  icon: com.rapiexchange.png
+  icon: com.rapiexchange.webp
   meta: ok
   verdict: custodial
   developerName: Rapixchange
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-03-21
   version: '2.4'
   reviews: 2
-  icon: com.rapixchangeapp.jpg
+  icon: com.rapixchangeapp.webp
   meta: removed
   verdict: custodial
   developerName: Money&Crypto Exchange Corporation

@@ -11,7 +11,7 @@ android:
   updated: 2021-10-27
   version: '3.0'
   reviews: 4
-  icon: com.cspmine.jpg
+  icon: com.cspmine.webp
   meta: removed
   verdict: wip
 

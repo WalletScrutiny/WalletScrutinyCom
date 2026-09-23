@@ -10,7 +10,7 @@ android:
   updated: 2021-09-04
   version: 1.3.2
   reviews: 141
-  icon: com.starlyware.bitreal.png
+  icon: com.starlyware.bitreal.webp
   meta: removed
   verdict: wip
 

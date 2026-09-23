@@ -20,7 +20,7 @@ android:
   released: 2022-08-16
   updated: 2026-09-15
   version: 1.8.7
-  icon: com.senexpay.mobile.png
+  icon: com.senexpay.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Senex Payment Services Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-07-07
   version: 1.5.6
   reviews: 9
-  icon: com.senexpay.mobile.jpg
+  icon: com.senexpay.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Senex Payment Services Limited

@@ -10,7 +10,7 @@ android:
   released: 2020-09-30
   updated: 2021-10-17
   version: '1.6'
-  icon: za.co.rockwallet.png
+  icon: za.co.rockwallet.webp
   meta: removed
   verdict: wip
   developerName: Rock Wallet

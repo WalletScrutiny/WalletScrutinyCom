@@ -11,7 +11,7 @@ android:
   updated: 2022-11-01
   version: 4.3.0
   reviews: 19
-  icon: org.unime.securesms.png
+  icon: org.unime.securesms.webp
   meta: removed
   verdict: wip
 

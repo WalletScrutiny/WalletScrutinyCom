@@ -10,7 +10,7 @@ android:
   released: 2021-09-05
   updated: 2021-10-26
   version: 1.0.3
-  icon: com.im.crypto.png
+  icon: com.im.crypto.webp
   meta: removed
   verdict: wip
   developerName: IM - Crypto Trading

@@ -9,7 +9,7 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: '1.0'
-  icon: com.cryptojournal.bitpay.buy.crypto.png
+  icon: com.cryptojournal.bitpay.buy.crypto.webp
   meta: removed
   verdict: wip
 

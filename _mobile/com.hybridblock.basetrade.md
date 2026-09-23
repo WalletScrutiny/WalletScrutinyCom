@@ -10,7 +10,7 @@ android:
   released: 2019-05-23
   updated: 2020-02-13
   version: '5.8'
-  icon: com.hybridblock.basetrade.jpg
+  icon: com.hybridblock.basetrade.webp
   meta: removed
   verdict: wip
   developerName: AdaxTech Limited

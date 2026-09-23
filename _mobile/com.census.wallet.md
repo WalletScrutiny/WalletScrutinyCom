@@ -10,7 +10,7 @@ android:
   released: 2020-02-04
   updated: 2020-07-10
   version: 1.2.10
-  icon: com.census.wallet.jpg
+  icon: com.census.wallet.webp
   meta: removed
   verdict: wip
   developerName: Census Card

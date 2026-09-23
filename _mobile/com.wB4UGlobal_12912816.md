@@ -9,7 +9,7 @@ android:
   released: 2020-12-29
   updated: 2021-01-09
   version: 1.0.2
-  icon: com.wB4UGlobal_12912816.jpg
+  icon: com.wB4UGlobal_12912816.webp
   meta: removed
   verdict: wip
 

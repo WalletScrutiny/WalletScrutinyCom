@@ -21,7 +21,7 @@ android:
   updated: 2026-03-28
   version: 2.17.0
   reviews: 110
-  icon: com.kinesis.kinesisapp.png
+  icon: com.kinesis.kinesisapp.webp
   meta: removed
   verdict: nosource
   developerName: Kinesis AG
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-24
   version: 2.20.0
   reviews: 10
-  icon: com.kinesis.kinesis-app.jpg
+  icon: com.kinesis.kinesis-app.webp
   meta: ok
   verdict: nosource
   developerName: Kinesis AG

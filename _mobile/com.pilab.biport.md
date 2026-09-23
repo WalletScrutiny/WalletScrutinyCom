@@ -18,7 +18,7 @@ android:
   updated: 2025-03-10
   version: '0.45'
   reviews: 7
-  icon: com.pilab.biport.png
+  icon: com.pilab.biport.webp
   meta: stale
   verdict: nosource
   developerName: PiLab Technology

@@ -16,7 +16,7 @@ android:
   updated: 2022-10-01
   version: 10.0.0.0
   reviews: 13
-  icon: com.zipwallet.app.png
+  icon: com.zipwallet.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-02-01
   version: '71'
   reviews: 1
-  icon: com.zipwallet.ios.jpg
+  icon: com.zipwallet.ios.webp
   meta: obsolete
   verdict: custodial
   developerName: ZIPWALLET INTERNATIONAL

@@ -10,7 +10,7 @@ android:
   updated: 2020-07-20
   version: 2.0.0
   reviews: 71
-  icon: com.bitforex.pro.png
+  icon: com.bitforex.pro.webp
   meta: removed
   verdict: wip
 

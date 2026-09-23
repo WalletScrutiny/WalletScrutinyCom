@@ -25,7 +25,7 @@ android:
   updated: 2026-09-18
   version: 6.106.0
   reviews: 8380
-  icon: com.uphold.wallet.png
+  icon: com.uphold.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Uphold
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-09-19
   version: 6.107.1
   reviews: 90478
-  icon: com.uphold.wallet.ios.jpg
+  icon: com.uphold.wallet.ios.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.

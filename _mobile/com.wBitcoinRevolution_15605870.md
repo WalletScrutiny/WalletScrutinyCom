@@ -9,7 +9,7 @@ android:
   released: 2022-06-09
   updated: 2022-06-09
   version: '1.0'
-  icon: com.wBitcoinRevolution_15605870.jpg
+  icon: com.wBitcoinRevolution_15605870.webp
   meta: removed
   verdict: wip
   developerName: yahsny tark tankky

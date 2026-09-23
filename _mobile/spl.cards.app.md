@@ -10,7 +10,7 @@ android:
   released: 2021-09-23
   updated: 2021-11-22
   version: 1.3.1
-  icon: spl.cards.app.jpg
+  icon: spl.cards.app.webp
   meta: removed
   verdict: wip
   developerName: SPL Cards

@@ -10,7 +10,7 @@ android:
   released: 2023-02-22
   updated: 2023-02-22
   version: 1.0.1
-  icon: cryptowallet.twt.blockchain.png
+  icon: cryptowallet.twt.blockchain.webp
   meta: removed
   verdict: wip
   developerName: agegaapps

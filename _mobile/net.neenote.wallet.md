@@ -10,7 +10,7 @@ android:
   released: 2021-04-26
   updated: 2021-04-26
   version: 4.0.4
-  icon: net.neenote.wallet.png
+  icon: net.neenote.wallet.webp
   meta: removed
   verdict: wip
   developerName: Neetek

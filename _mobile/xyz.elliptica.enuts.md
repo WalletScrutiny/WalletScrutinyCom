@@ -16,7 +16,7 @@ iphone:
   updated: 2024-02-14
   version: 0.3.0
   reviews: 1
-  icon: xyz.elliptica.enuts.jpg
+  icon: xyz.elliptica.enuts.webp
   meta: removed
   verdict: custodial
   developerName: Elliptica

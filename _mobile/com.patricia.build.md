@@ -17,7 +17,7 @@ iphone:
   updated: 2021-08-22
   version: 1.3.1
   reviews: 619
-  icon: com.patricia.build.jpg
+  icon: com.patricia.build.webp
   meta: removed
   verdict: custodial
 

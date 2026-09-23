@@ -17,7 +17,7 @@ shop:
 country: JP
 price: 
 repository: https://github.com/moriyasu/ApolloWalletNano#deadLink
-icon: moriyasu.apollo.arduinonano.diy.png
+icon: moriyasu.apollo.arduinonano.diy.webp
 bugbounty: 
 meta: defunct
 verdict: sourceavailable

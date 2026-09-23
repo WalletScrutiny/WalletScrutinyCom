@@ -16,7 +16,7 @@ android:
   updated: 2026-09-20
   version: 3.2.7.0
   reviews: 558
-  icon: com.pionex.client.jpg
+  icon: com.pionex.client.webp
   meta: ok
   verdict: custodial
   developerName: Pionex
@@ -28,7 +28,7 @@ iphone:
   updated: 2024-11-06
   version: 3.0.7
   reviews: 61
-  icon: org.pionex.jpg
+  icon: org.pionex.webp
   meta: removed
   verdict: custodial
   developerName: Bituniverse

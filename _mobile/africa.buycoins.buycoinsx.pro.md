@@ -17,7 +17,7 @@ android:
   updated: 2023-09-19
   version: 1.1.96
   reviews: 3
-  icon: africa.buycoins.buycoinsx.pro.png
+  icon: africa.buycoins.buycoinsx.pro.webp
   meta: obsolete
   verdict: custodial
   developerName: Bitkoin Africa Inc
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-05-18
   version: 1.1.85
   reviews: 23
-  icon: africa.buycoins.BuycoinsX.pro.jpg
+  icon: africa.buycoins.BuycoinsX.pro.webp
   meta: removed
   verdict: custodial
   developerName: Buycoins, Inc.

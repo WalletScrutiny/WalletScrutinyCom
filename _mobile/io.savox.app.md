@@ -10,7 +10,7 @@ android:
   released: 2022-07-26
   updated: 2022-10-17
   version: 1.0.7
-  icon: io.savox.app.png
+  icon: io.savox.app.webp
   meta: removed
   verdict: wip
   developerName: Savox Technologies Ltd

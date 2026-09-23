@@ -15,7 +15,7 @@ android:
   released: 2018-01-24
   updated: 2023-04-12
   version: 6.1.5
-  icon: com.tigerwit.forex.png
+  icon: com.tigerwit.forex.webp
   meta: removed
   verdict: nosendreceive
   developerName: TigerWit Limited

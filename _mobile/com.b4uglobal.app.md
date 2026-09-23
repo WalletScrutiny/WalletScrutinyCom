@@ -12,7 +12,7 @@ android:
   released: 2020-09-15
   updated: 2021-04-12
   version: 1.0.6
-  icon: com.b4uglobal.app.png
+  icon: com.b4uglobal.app.webp
   meta: removed
   verdict: wip
   developerName: b4u global

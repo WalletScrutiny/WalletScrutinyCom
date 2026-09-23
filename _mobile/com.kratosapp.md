@@ -10,7 +10,7 @@ android:
   released: 2021-02-01
   updated: 2021-02-01
   version: 1.0.0
-  icon: com.kratosapp.png
+  icon: com.kratosapp.webp
   meta: removed
   verdict: wip
 

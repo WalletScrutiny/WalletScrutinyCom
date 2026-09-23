@@ -10,7 +10,7 @@ android:
   released: 2019-04-23
   updated: 2019-06-20
   version: '1.2'
-  icon: org.snowcorp.login.png
+  icon: org.snowcorp.login.webp
   meta: removed
   verdict: wip
   developerName: Corporación Lemez. C.A.

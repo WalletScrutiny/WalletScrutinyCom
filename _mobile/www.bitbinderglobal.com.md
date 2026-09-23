@@ -10,7 +10,7 @@ android:
   released: 2022-01-19
   updated: 2022-01-19
   version: '1.0'
-  icon: www.bitbinderglobal.com.jpg
+  icon: www.bitbinderglobal.com.webp
   meta: removed
   verdict: wip
 

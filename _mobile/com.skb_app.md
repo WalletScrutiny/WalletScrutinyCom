@@ -10,7 +10,7 @@ android:
   released: 2018-07-21
   updated: 2020-10-21
   version: '3.25'
-  icon: com.skb_app.png
+  icon: com.skb_app.webp
   meta: removed
   verdict: wip
 

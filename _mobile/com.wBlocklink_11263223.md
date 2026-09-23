@@ -10,7 +10,7 @@ android:
   released: 2020-08-26
   updated: 2020-08-26
   version: '1.0'
-  icon: com.wBlocklink_11263223.png
+  icon: com.wBlocklink_11263223.webp
   meta: removed
   verdict: wip
   developerName: Analysis

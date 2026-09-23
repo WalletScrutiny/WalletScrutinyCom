@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-11-12
   version: 1.0.13
-  icon: com.app.bizonex.png
+  icon: com.app.bizonex.webp
   meta: removed
   verdict: wip
   developerName: Bizonex

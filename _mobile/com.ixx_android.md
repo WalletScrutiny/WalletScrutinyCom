@@ -10,7 +10,7 @@ android:
   updated: 2021-09-09
   version: 2.2.2
   reviews: 83
-  icon: com.ixx_android.png
+  icon: com.ixx_android.webp
   meta: removed
   verdict: wip
 

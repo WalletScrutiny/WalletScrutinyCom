@@ -16,7 +16,7 @@ android:
   updated: 2026-09-02
   version: 1.3.6
   reviews: 17
-  icon: com.binarium.binariummobile.png
+  icon: com.binarium.binariummobile.webp
   meta: ok
   verdict: custodial
   developerName: Binarium LTD

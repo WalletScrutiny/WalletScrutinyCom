@@ -16,7 +16,7 @@ android:
   updated: 2023-04-18
   version: 2.2.0
   reviews: 41
-  icon: com.stocksexchange.android.png
+  icon: com.stocksexchange.android.webp
   meta: removed
   verdict: custodial
   developerName: Data Protection Corporation
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-02-08
   version: '1.34'
   reviews: 29
-  icon: com.app.Stocks-exchanges.jpg
+  icon: com.app.Stocks-exchanges.webp
   meta: removed
   verdict: custodial
   developerName: DATA PROTECTION CORPORATION

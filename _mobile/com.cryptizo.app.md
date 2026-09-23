@@ -9,7 +9,7 @@ android:
   released: 2022-02-20
   updated: 2022-06-07
   version: 1.0.3
-  icon: com.cryptizo.app.png
+  icon: com.cryptizo.app.webp
   meta: removed
   verdict: wip
   developerName: Unblock Money

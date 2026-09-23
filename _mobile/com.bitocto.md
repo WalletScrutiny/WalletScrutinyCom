@@ -17,7 +17,7 @@ android:
   updated: 2023-05-29
   version: '3.23'
   reviews: 6
-  icon: com.bitocto.png
+  icon: com.bitocto.webp
   meta: removed
   verdict: custodial
   developerName: Bitocto

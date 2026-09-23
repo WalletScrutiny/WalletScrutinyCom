@@ -16,7 +16,7 @@ android:
   updated: 2023-12-07
   version: '3.3'
   reviews: 5
-  icon: io.sparkwallet.png
+  icon: io.sparkwallet.webp
   meta: removed
   verdict: custodial
   developerName: LumaSoft, LLC
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-12-13
   version: '3.2'
   reviews: 10
-  icon: io.sparkwallet.jpg
+  icon: io.sparkwallet.webp
   meta: removed
   verdict: custodial
   developerName: Lumasoft, LLC

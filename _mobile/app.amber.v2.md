@@ -13,7 +13,7 @@ iphone:
   updated: 2026-03-20
   version: 2.12.0
   reviews: 1
-  icon: app.amber.v2.jpg
+  icon: app.amber.v2.webp
   meta: removed
   verdict: wip
   developerName: Amber Labs

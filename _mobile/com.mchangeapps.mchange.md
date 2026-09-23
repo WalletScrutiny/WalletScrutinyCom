@@ -16,7 +16,7 @@ android:
   released: 2021-09-01
   updated: 2024-08-10
   version: 4.0.2
-  icon: com.mchangeapps.mchange.png
+  icon: com.mchangeapps.mchange.webp
   meta: removed
   verdict: custodial
   developerName: exmoneyapps
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-12-29
   version: 1.0.3
   reviews: 0
-  icon: com.xchange.mchange.jpg
+  icon: com.xchange.mchange.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup

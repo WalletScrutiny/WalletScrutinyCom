@@ -16,7 +16,7 @@ android:
   users: 100000
   updated: 2024-03-29
   version: VARY
-  icon: com.samourai.wallet.png
+  icon: com.samourai.wallet.webp
   signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
   meta: removed
   verdict: sourceavailable

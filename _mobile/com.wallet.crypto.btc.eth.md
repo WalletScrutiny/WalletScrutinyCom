@@ -22,7 +22,7 @@ android:
   updated: 2026-08-20
   version: 1.13.1
   reviews: 105
-  icon: com.wallet.crypto.btc.eth.png
+  icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-24
   version: 1.13.1
   reviews: 60
-  icon: com.wallet.crypto.btc.eth.jpg
+  icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT

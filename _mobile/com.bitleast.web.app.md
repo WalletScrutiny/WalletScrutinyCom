@@ -9,7 +9,7 @@ android:
   released: 2021-04-25
   updated: 2021-04-30
   version: 1.2.1
-  icon: com.bitleast.web.app.png
+  icon: com.bitleast.web.app.webp
   meta: removed
   verdict: wip
   developerName: RetrixDev

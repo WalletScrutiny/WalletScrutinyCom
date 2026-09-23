@@ -10,7 +10,7 @@ android:
   released: 2022-12-17
   updated: 2022-12-18
   version: 1.0.7
-  icon: com.blockchain.nft.explore.png
+  icon: com.blockchain.nft.explore.webp
   meta: removed
   verdict: wip
   developerName: InvoVN Solutions

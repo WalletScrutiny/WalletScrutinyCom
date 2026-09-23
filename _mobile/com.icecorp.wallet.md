@@ -21,7 +21,7 @@ android:
   released: 2022-08-24
   updated: 2025-01-15
   version: '2.8'
-  icon: com.icecorp.wallet.png
+  icon: com.icecorp.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Kentkart International LLP
@@ -33,7 +33,7 @@ iphone:
   updated: 2024-08-27
   version: 3.1.2
   reviews: 1
-  icon: com.icecorp.wallet.jpg
+  icon: com.icecorp.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Ice Corporation

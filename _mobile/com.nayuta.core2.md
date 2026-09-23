@@ -15,7 +15,7 @@ android:
   users: 1000
   updated: 2023-11-24
   version: VARY
-  icon: com.nayuta.core2.png
+  icon: com.nayuta.core2.webp
   meta: removed
   verdict: nosource
   developerName: Nayuta inc
@@ -28,7 +28,7 @@ iphone:
   updated: 2024-12-24
   version: 1.5.1
   reviews: 0
-  icon: com.nayuta.core2.jpg
+  icon: com.nayuta.core2.webp
   meta: removed
   verdict: sourceavailable
   developerName: Nayuta

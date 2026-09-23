@@ -17,7 +17,7 @@ shop: https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-si
 country: US
 price: 89.99USD
 repository: 
-icon: slimtech.cryptolite.png
+icon: slimtech.cryptolite.webp
 bugbounty: 
 meta: defunct
 verdict: noita

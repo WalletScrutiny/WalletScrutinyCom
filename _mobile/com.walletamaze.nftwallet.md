@@ -18,7 +18,7 @@ android:
   updated: 2024-01-18
   version: 1.1.8
   reviews: 1
-  icon: com.walletamaze.nftwallet.png
+  icon: com.walletamaze.nftwallet.webp
   meta: removed
   verdict: nosource
   developerName: AmazeWallet

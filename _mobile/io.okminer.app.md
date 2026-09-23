@@ -13,7 +13,7 @@ android:
   updated: 2021-10-13
   version: 1.2.8
   reviews: 117
-  icon: io.okminer.app.png
+  icon: io.okminer.app.webp
   meta: removed
   verdict: wip
 

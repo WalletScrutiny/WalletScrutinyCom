@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2020-11-12
   version: 2.6.0
-  icon: com.bluepipscapital.webviewapp.png
+  icon: com.bluepipscapital.webviewapp.webp
   meta: removed
   verdict: wip
   developerName: BluePips Capital

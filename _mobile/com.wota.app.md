@@ -19,7 +19,7 @@ android:
   released: 2021-01-11
   updated: 2025-08-31
   version: 1.5.0
-  icon: com.wota.app.png
+  icon: com.wota.app.webp
   meta: stale
   verdict: custodial
   developerName: WOTA LTD
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-05-01
   version: 1.3.1
   reviews: 0
-  icon: com.enterwota.app.jpg
+  icon: com.enterwota.app.webp
   meta: obsolete
   verdict: custodial
   developerName: WOTA LTD

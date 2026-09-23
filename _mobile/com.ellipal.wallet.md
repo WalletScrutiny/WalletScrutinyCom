@@ -30,7 +30,7 @@ android:
   updated: 2026-08-19
   version: 4.15.1
   reviews: 562
-  icon: com.ellipal.wallet.png
+  icon: com.ellipal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: ellipal
@@ -42,7 +42,7 @@ iphone:
   updated: 2026-08-24
   version: 4.15.1
   reviews: 2956
-  icon: com.Ellipal.Ellipal.jpg
+  icon: com.Ellipal.Ellipal.webp
   meta: ok
   verdict: nosource
   developerName: Ellipal

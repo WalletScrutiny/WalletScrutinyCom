@@ -13,7 +13,7 @@ android:
   released: 2020-07-15
   updated: 2023-01-17
   version: v2.0.11
-  icon: com.morix.wallet.png
+  icon: com.morix.wallet.webp
   meta: removed
   verdict: wip
   developerName: MoriX Co., Ltd.

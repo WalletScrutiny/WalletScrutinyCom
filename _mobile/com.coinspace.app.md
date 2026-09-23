@@ -30,7 +30,7 @@ android:
   updated: 2026-08-10
   version: 6.29.1
   reviews: 112
-  icon: com.coinspace.app.png
+  icon: com.coinspace.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
@@ -44,7 +44,7 @@ iphone:
   updated: 2026-07-03
   version: 6.29.0
   reviews: 502
-  icon: com.coinspace.wallet.jpg
+  icon: com.coinspace.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace

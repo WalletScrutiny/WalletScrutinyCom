@@ -20,7 +20,7 @@ android:
   released: 2019-10-18
   updated: 2026-09-11
   version: 2.5.32
-  icon: com.zbx.app.png
+  icon: com.zbx.app.webp
   meta: ok
   verdict: custodial
   developerName: ZBX
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-08-20
   version: 2.5.14
   reviews: 4
-  icon: com.zbx.www.jpg
+  icon: com.zbx.www.webp
   meta: removed
   verdict: custodial
   developerName: Zillion Bits AG

@@ -10,7 +10,7 @@ android:
   released: 2021-10-26
   updated: 2023-01-04
   version: 2.0.0
-  icon: ng.com.wmc.swiitex.png
+  icon: ng.com.wmc.swiitex.webp
   meta: removed
   verdict: wip
   developerName: Sweetwave Ltd

@@ -10,7 +10,7 @@ android:
   released: 2020-09-08
   updated: 2021-07-07
   version: 1.0.2
-  icon: app.paycaesar.mobilewallet.png
+  icon: app.paycaesar.mobilewallet.webp
   meta: removed
   verdict: wip
   developerName: Pay Caesar Limited

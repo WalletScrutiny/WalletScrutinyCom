@@ -10,7 +10,7 @@ android:
   released: 2020-11-03
   updated: 2020-11-17
   version: 1.0.1
-  icon: com.mntex.monetiumexchange.png
+  icon: com.mntex.monetiumexchange.webp
   meta: removed
   verdict: wip
   developerName: 모네티움

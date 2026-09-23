@@ -10,7 +10,7 @@ android:
   released: 2021-09-30
   updated: 2021-10-13
   version: 9120.10.10
-  icon: com.bitmate.wallet.png
+  icon: com.bitmate.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bitmate

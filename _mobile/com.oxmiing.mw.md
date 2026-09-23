@@ -13,7 +13,7 @@ android:
   updated: 2022-04-07
   version: 2.7.0
   reviews: 4
-  icon: com.oxmiing.mw.jpg
+  icon: com.oxmiing.mw.webp
   meta: removed
   verdict: fake
   developerName: haleiyun

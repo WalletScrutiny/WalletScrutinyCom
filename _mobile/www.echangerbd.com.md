@@ -13,7 +13,7 @@ android:
   released: 2020-03-21
   updated: 2020-04-23
   version: '2.0'
-  icon: www.echangerbd.com.png
+  icon: www.echangerbd.com.webp
   meta: obsolete
   verdict: wip
   developerName: exchangernet.com

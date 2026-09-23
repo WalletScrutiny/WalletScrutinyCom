@@ -20,7 +20,7 @@ android:
   updated: 2025-04-02
   version: 5.0.25
   reviews: 42
-  icon: com.coininn.wenwen.png
+  icon: com.coininn.wenwen.webp
   meta: removed
   verdict: custodial
   developerName: CoinInn Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-04-07
   version: 5.0.25
   reviews: 46
-  icon: com.coininn.yykik.jpg
+  icon: com.coininn.yykik.webp
   meta: removed
   verdict: custodial
   developerName: CoinInn Wealth UAB

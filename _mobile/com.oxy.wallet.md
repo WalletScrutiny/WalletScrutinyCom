@@ -10,7 +10,7 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: 0.21.3
-  icon: com.oxy.wallet.png
+  icon: com.oxy.wallet.webp
   meta: removed
   verdict: wip
   developerName: Oxystarter Team

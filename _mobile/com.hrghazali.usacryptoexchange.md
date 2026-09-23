@@ -9,7 +9,7 @@ android:
   released: 2021-09-14
   updated: 2021-09-14
   version: 1.0.0
-  icon: com.hrghazali.usacryptoexchange.png
+  icon: com.hrghazali.usacryptoexchange.webp
   meta: removed
   verdict: wip
   developerName: Islamic Books Urdu

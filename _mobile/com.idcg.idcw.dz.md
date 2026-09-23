@@ -10,7 +10,7 @@ android:
   released: 2019-03-25
   updated: 2024-05-15
   version: 5.4.9
-  icon: com.idcg.idcw.dz.png
+  icon: com.idcg.idcw.dz.webp
   meta: removed
   verdict: wip
   developerName: Klickl Global LLC

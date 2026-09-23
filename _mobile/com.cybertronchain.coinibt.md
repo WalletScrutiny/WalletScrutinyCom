@@ -13,7 +13,7 @@ android:
   updated: 2021-07-27
   version: '1.13'
   reviews: 4
-  icon: com.cybertronchain.coinibt.png
+  icon: com.cybertronchain.coinibt.webp
   meta: removed
   verdict: wip
   developerName: CyberTronChain (CTC)

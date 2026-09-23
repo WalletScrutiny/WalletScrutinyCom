@@ -21,7 +21,7 @@ android:
   updated: 2021-05-18
   version: 4.1.6
   reviews: 461
-  icon: com.coinbene.manbiwang.png
+  icon: com.coinbene.manbiwang.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-09-13
   version: 4.8.6
   reviews: 46
-  icon: br.com.coinbene.jpg
+  icon: br.com.coinbene.webp
   meta: removed
   verdict: custodial
 

@@ -9,7 +9,7 @@ android:
   released: 2021-05-21
   updated: 2021-11-16
   version: 1.2.0
-  icon: com.peiko.mobile.bitcoinaddition.jpg
+  icon: com.peiko.mobile.bitcoinaddition.webp
   meta: removed
   verdict: wip
   developerName: QUAN2UM

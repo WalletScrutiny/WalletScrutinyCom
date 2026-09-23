@@ -22,7 +22,7 @@ android:
   updated: 2023-10-02
   version: 1.7.6
   reviews: 2
-  icon: com.vipsfinstock.vipsapp.png
+  icon: com.vipsfinstock.vipsapp.webp
   meta: removed
   verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.
@@ -34,7 +34,7 @@ iphone:
   updated: 2023-10-02
   version: 1.9.4
   reviews: 0
-  icon: com.vips.vipsfinstock.jpg
+  icon: com.vips.vipsfinstock.webp
   meta: removed
   verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.

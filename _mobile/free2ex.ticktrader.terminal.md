@@ -12,7 +12,7 @@ android:
   updated: 2024-10-07
   version: 4.10.4.7877 (2024.09.20)
   reviews: 26
-  icon: free2ex.ticktrader.terminal.png
+  icon: free2ex.ticktrader.terminal.webp
   meta: stale
   verdict: wip
   developerName: FREE2EX Platform

@@ -16,7 +16,7 @@ android:
   updated: 2022-12-29
   version: 3.0.0-dreambit
   reviews: 9
-  icon: com.dreambit.png
+  icon: com.dreambit.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS
@@ -27,7 +27,7 @@ iphone:
   updated: 2024-04-27
   version: 1.0.5
   reviews: 0
-  icon: io.crypterium.minebest.jpg
+  icon: io.crypterium.minebest.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS

@@ -22,7 +22,7 @@ android:
   updated: 2026-09-15
   version: 2.44.0
   reviews: 242
-  icon: com.plunien.poloniex.png
+  icon: com.plunien.poloniex.webp
   meta: ok
   verdict: custodial
   developerName: poloniex
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-02-04
   version: 1.39.1
   reviews: 2030
-  icon: com.plunien.app.Poloniex.jpg
+  icon: com.plunien.app.Poloniex.webp
   meta: removed
   verdict: custodial
   developerName: Polo Digital Assets, Ltd

@@ -12,7 +12,7 @@ android:
   updated: 2022-04-01
   version: 2.6.7
   reviews: 5
-  icon: com.tedachain.app.png
+  icon: com.tedachain.app.webp
   meta: removed
   verdict: wip
   developerName: ggreysonccherry

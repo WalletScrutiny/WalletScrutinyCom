@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: 1.0.0
-  icon: com.bitnow.wallet.png
+  icon: com.bitnow.wallet.webp
   meta: removed
   verdict: wip
   developerName: bitnow.team

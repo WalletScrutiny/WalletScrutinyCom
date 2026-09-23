@@ -10,7 +10,7 @@ android:
   released: 2020-02-26
   updated: 2020-07-07
   version: '1.1'
-  icon: com.plutxwallet.png
+  icon: com.plutxwallet.webp
   meta: removed
   verdict: wip
   developerName: Infinity Blockchain Labs

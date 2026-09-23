@@ -17,7 +17,7 @@ android:
   updated: 2024-04-05
   version: 5.4.3
   reviews: 41
-  icon: ar.com.andinasmart.defiant.png
+  icon: ar.com.andinasmart.defiant.webp
   meta: removed
   verdict: nosource
   developerName: Andina DeFi Ltd
@@ -28,7 +28,7 @@ iphone:
   updated: 2024-04-05
   version: 5.4.3+304
   reviews: 21
-  icon: com.andinadefi.defiant.jpg
+  icon: com.andinadefi.defiant.webp
   meta: removed
   verdict: nosource
   developerName: Andina Defi Ltd

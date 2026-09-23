@@ -9,7 +9,7 @@ android:
   released: 2022-07-12
   updated: 2022-10-21
   version: 1.0.23
-  icon: com.coinmicro.app.png
+  icon: com.coinmicro.app.webp
   meta: removed
   verdict: wip
   developerName: CoinMicro

@@ -10,7 +10,7 @@ android:
   released: 2017-09-20
   updated: 2019-07-11
   version: 1.0.3
-  icon: com.andromo.dev630323.app659193.jpg
+  icon: com.andromo.dev630323.app659193.webp
   meta: removed
   verdict: wip
   developerName: FudMart Tech. Resources

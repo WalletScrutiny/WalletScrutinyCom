@@ -22,7 +22,7 @@ android:
   updated: 2022-04-07
   version: 4.0.0
   reviews: 3
-  icon: com.hashkey.hub.png
+  icon: com.hashkey.hub.webp
   meta: removed
   verdict: wip
   developerName: HASHKEY HUB LIMITED
@@ -34,7 +34,7 @@ iphone:
   updated: 2022-03-17
   version: 4.0.0
   reviews: 8
-  icon: io.hashkey.hub.jpg
+  icon: io.hashkey.hub.webp
   meta: removed
   verdict: wip
 

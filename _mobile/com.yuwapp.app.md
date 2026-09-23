@@ -10,7 +10,7 @@ android:
   released: 2022-07-02
   updated: 2022-07-28
   version: 1.0.0
-  icon: com.yuwapp.app.jpg
+  icon: com.yuwapp.app.webp
   meta: removed
   verdict: wip
   developerName: YUB!

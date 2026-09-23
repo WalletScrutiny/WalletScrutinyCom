@@ -9,7 +9,7 @@ android:
   released: 2021-06-28
   updated: 2021-06-29
   version: '1.0'
-  icon: org.cryptobrowser.bitcoin.trader.uk.app.jpg
+  icon: org.cryptobrowser.bitcoin.trader.uk.app.webp
   meta: removed
   verdict: wip
 

@@ -15,7 +15,7 @@ android:
   updated: 2021-09-18
   version: 1.1.20
   reviews: 26
-  icon: com.gaifang.ATM.png
+  icon: com.gaifang.ATM.webp
   meta: removed
   verdict: nosendreceive
 

@@ -10,7 +10,7 @@ android:
   released: 2021-10-29
   updated: 2021-12-30
   version: '1.4'
-  icon: com.web.instafx.png
+  icon: com.web.instafx.webp
   meta: removed
   verdict: wip
   developerName: InstaFx

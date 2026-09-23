@@ -9,7 +9,7 @@ android:
   released: 2021-07-17
   updated: 2021-07-18
   version: '1.0'
-  icon: org.cryptobubbles.invest.bitcoin.mining.png
+  icon: org.cryptobubbles.invest.bitcoin.mining.webp
   meta: removed
   verdict: wip
 

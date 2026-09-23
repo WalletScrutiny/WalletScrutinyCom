@@ -9,7 +9,7 @@ android:
   released: 2022-10-12
   updated: 2022-10-12
   version: 1.0.0
-  icon: com.tabanix.tade.png
+  icon: com.tabanix.tade.webp
   meta: removed
   verdict: wip
   developerName: Tabani INC

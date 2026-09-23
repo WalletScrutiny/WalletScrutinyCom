@@ -20,7 +20,7 @@ shop: https://ore-system.com/product/ore-system-coolwallet-pro#deadLink
 country: US
 price: 149USD
 repository: 
-icon: oresystem.coolwalletpro.png
+icon: oresystem.coolwalletpro.webp
 bugbounty: 
 meta: ok
 verdict: nosource

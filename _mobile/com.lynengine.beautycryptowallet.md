@@ -10,7 +10,7 @@ android:
   released: 2018-07-23
   updated: 2018-08-29
   version: '1.1'
-  icon: com.lynengine.beautycryptowallet.png
+  icon: com.lynengine.beautycryptowallet.webp
   meta: removed
   verdict: wip
 

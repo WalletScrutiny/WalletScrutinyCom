@@ -23,7 +23,7 @@ android:
   updated: 2026-07-10
   version: 2.6.3
   reviews: 3
-  icon: is.begin.app.png
+  icon: is.begin.app.webp
   meta: ok
   verdict: nosource
   developerName: Begin W
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-07-10
   version: 2.6.3
   reviews: 12
-  icon: is.begin.app.jpg
+  icon: is.begin.app.webp
   meta: ok
   verdict: nosource
   developerName: Begin W UG

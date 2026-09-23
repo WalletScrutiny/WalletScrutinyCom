@@ -10,7 +10,7 @@ android:
   released: 2022-04-02
   updated: 2022-04-02
   version: 1.0.0
-  icon: finance.tradepal.app.png
+  icon: finance.tradepal.app.webp
   meta: removed
   verdict: wip
   developerName: Zemin

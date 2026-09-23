@@ -8,7 +8,7 @@ android:
   users: 500
   updated: 2019-10-22
   version: Varies with device
-  icon: co.tippin.android.wallet.png
+  icon: co.tippin.android.wallet.webp
   meta: removed
   verdict: wip
 

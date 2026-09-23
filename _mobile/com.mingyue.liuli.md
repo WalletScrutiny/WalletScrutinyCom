@@ -10,7 +10,7 @@ android:
   released: 2021-06-04
   updated: 2021-08-20
   version: 4.2.2
-  icon: com.mingyue.liuli.png
+  icon: com.mingyue.liuli.webp
   meta: removed
   verdict: wip
 

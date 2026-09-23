@@ -22,7 +22,7 @@ android:
   updated: 2026-09-14
   version: 8.9.96
   reviews: 4755
-  icon: com.btcc.hy.png
+  icon: com.btcc.hy.webp
   meta: ok
   verdict: custodial
   developerName: BTCC.COM
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-18
   version: 8.9.96
   reviews: 5379
-  icon: com.btcc.hy.jpg
+  icon: com.btcc.hy.webp
   meta: ok
   verdict: custodial
   developerName: BTCC Global Limited

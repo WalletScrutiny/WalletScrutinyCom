@@ -10,7 +10,7 @@ android:
   released: 2022-11-16
   updated: 2022-11-16
   version: 1.0.0
-  icon: app.exchange.lemon.png
+  icon: app.exchange.lemon.webp
   meta: removed
   verdict: wip
   developerName: LemonExchange

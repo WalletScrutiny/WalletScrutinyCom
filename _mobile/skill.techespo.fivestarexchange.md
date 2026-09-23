@@ -11,7 +11,7 @@ android:
   released: 2020-08-26
   updated: 2020-08-27
   version: '1.0'
-  icon: skill.techespo.fivestarexchange.png
+  icon: skill.techespo.fivestarexchange.webp
   meta: removed
   verdict: custodial
   developerName: Pingulkars Technology Solutions Private Limited

@@ -20,7 +20,7 @@ android:
   updated: 2026-04-14
   version: 7.5.0
   reviews: 20
-  icon: co.sarwa.png
+  icon: co.sarwa.webp
   meta: removed
   verdict: nosendreceive
   developerName: Sarwa Digital Wealth
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-02-18
   version: 7.4.0
   reviews: 110
-  icon: co.sarwa.ios.jpg
+  icon: co.sarwa.ios.webp
   meta: removed
   verdict: nosendreceive
   developerName: Sarwa Digital Wealth Limited

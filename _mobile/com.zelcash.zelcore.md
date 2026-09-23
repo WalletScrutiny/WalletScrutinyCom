@@ -27,7 +27,7 @@ android:
   updated: 2026-09-04
   version: 8.37.0
   reviews: 141
-  icon: com.zelcash.zelcore.png
+  icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
   developerName: Influx Technologies Limited
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-09-01
   version: v8.36.0
   reviews: 24
-  icon: com.zelcash.zelcore.jpg
+  icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
   developerName: Influx Technologies Limited

@@ -16,7 +16,7 @@ android:
   appCountry: us
   updated: 2025-05-14
   version: VARY
-  icon: xyz.twenty_two.portal_manager.png
+  icon: xyz.twenty_two.portal_manager.webp
   meta: stale
   verdict: wip
   developerName: Portal Technologies Inc

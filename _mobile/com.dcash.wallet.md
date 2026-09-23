@@ -11,7 +11,7 @@ android:
   updated: 2020-07-27
   version: 1.7.6
   reviews: 2
-  icon: com.dcash.wallet.png
+  icon: com.dcash.wallet.webp
   meta: removed
   verdict: wip
 

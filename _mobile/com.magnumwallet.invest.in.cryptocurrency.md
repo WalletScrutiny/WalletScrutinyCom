@@ -9,7 +9,7 @@ android:
   released: 2021-07-18
   updated: 2021-07-18
   version: '1.0'
-  icon: com.magnumwallet.invest.in.cryptocurrency.png
+  icon: com.magnumwallet.invest.in.cryptocurrency.webp
   meta: removed
   verdict: wip
 

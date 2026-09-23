@@ -10,7 +10,7 @@ android:
   released: 2017-11-06
   updated: 2021-09-30
   version: 1.14.40.00000
-  icon: com.cryptotag.mobile.png
+  icon: com.cryptotag.mobile.webp
   meta: removed
   verdict: wip
   developerName: Crypto Tag

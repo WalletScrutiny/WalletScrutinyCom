@@ -21,7 +21,7 @@ android:
   updated: 2022-07-26
   version: 2.2.5
   reviews: 704
-  icon: net.novawallet.android.png
+  icon: net.novawallet.android.webp
   meta: removed
   verdict: nosource
   developerName: Nova Coin Ltd.
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-07-29
   version: 2.2.3
   reviews: 82
-  icon: net.novawallet.ios.jpg
+  icon: net.novawallet.ios.webp
   meta: removed
   verdict: nosource
   developerName: NOVA COIN LIMITED

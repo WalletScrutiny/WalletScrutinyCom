@@ -10,7 +10,7 @@ android:
   released: 2020-07-31
   updated: 2020-08-07
   version: 1.0.1
-  icon: com.MOTradingplatform.png
+  icon: com.MOTradingplatform.webp
   meta: removed
   verdict: wip
   developerName: 1minuteoptions

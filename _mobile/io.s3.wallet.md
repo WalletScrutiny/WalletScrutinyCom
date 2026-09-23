@@ -12,7 +12,7 @@ android:
   released: 2020-01-29
   updated: 2021-02-20
   version: 2.1.2
-  icon: io.s3.wallet.png
+  icon: io.s3.wallet.webp
   meta: removed
   verdict: wip
   developerName: S3 Global Technology Ltd

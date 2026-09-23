@@ -10,7 +10,7 @@ android:
   released: 2021-05-29
   updated: 2021-05-30
   version: 1.0.0
-  icon: mw.mwc.wallet.jpg
+  icon: mw.mwc.wallet.webp
   meta: removed
   verdict: wip
   developerName: MWC Developers

@@ -17,7 +17,7 @@ android:
   updated: 2020-08-23
   version: 1.0.7
   reviews: 15
-  icon: com.coinpay.png
+  icon: com.coinpay.webp
   meta: removed
   verdict: nosource
   developerName: Coinpay LLC
@@ -28,7 +28,7 @@ iphone:
   updated: 2021-10-21
   version: 2021.10.19
   reviews: 110
-  icon: com.coinpayapp.CoinPay.jpg
+  icon: com.coinpayapp.CoinPay.webp
   meta: removed
   verdict: nosource
 

@@ -10,7 +10,7 @@ android:
   released: 2022-10-28
   updated: 2023-02-23
   version: 1.0.6
-  icon: com.cloud.bitblaze.png
+  icon: com.cloud.bitblaze.webp
   meta: removed
   verdict: wip
   developerName: BitBlaze App

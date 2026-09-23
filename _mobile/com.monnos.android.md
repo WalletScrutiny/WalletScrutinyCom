@@ -21,7 +21,7 @@ android:
   updated: 2024-11-29
   version: 6.3.14
   reviews: 481
-  icon: com.monnos.android.png
+  icon: com.monnos.android.webp
   meta: stale
   verdict: custodial
   developerName: Monnos Global
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-10-01
   version: 6.3.9
   reviews: 228
-  icon: com.monnos.jpg
+  icon: com.monnos.webp
   meta: removed
   verdict: custodial
   developerName: KRYEG SOLUCOES DIGITAIS EIRELI

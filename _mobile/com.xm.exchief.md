@@ -9,7 +9,7 @@ android:
   released: 2019-12-18
   updated: 2020-01-28
   version: 4.1.1_exchief
-  icon: com.xm.exchief.png
+  icon: com.xm.exchief.webp
   meta: removed
   verdict: wip
 

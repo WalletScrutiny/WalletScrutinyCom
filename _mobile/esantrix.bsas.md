@@ -10,7 +10,7 @@ android:
   released: 2021-01-30
   updated: 2022-04-11
   version: '9.8'
-  icon: esantrix.bsas.png
+  icon: esantrix.bsas.webp
   meta: removed
   verdict: wip
   developerName: Santiago Celentano

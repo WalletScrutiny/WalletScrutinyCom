@@ -11,7 +11,7 @@ android:
   updated: 2020-08-14
   version: v1.0.4
   reviews: 8
-  icon: cc.slicex.png
+  icon: cc.slicex.webp
   meta: removed
   verdict: wip
 

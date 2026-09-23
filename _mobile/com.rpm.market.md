@@ -10,7 +10,7 @@ android:
   released: 2021-04-20
   updated: 2021-06-15
   version: 0.0.6
-  icon: com.rpm.market.png
+  icon: com.rpm.market.webp
   meta: removed
   verdict: wip
   developerName: RPM. Market

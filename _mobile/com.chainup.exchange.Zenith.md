@@ -12,7 +12,7 @@ android:
   released: 2022-03-06
   updated: 2022-11-19
   version: 5.5.2_push_v2
-  icon: com.chainup.exchange.Zenith.jpg
+  icon: com.chainup.exchange.Zenith.webp
   meta: removed
   verdict: wip
 

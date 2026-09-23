@@ -10,7 +10,7 @@ android:
   released: 2021-07-27
   updated: 2022-02-02
   version: 1.3.9
-  icon: net.plisio.app.png
+  icon: net.plisio.app.webp
   meta: removed
   verdict: wip
   developerName: Plisio

@@ -9,7 +9,7 @@ android:
   released: 2020-11-05
   updated: 2021-02-17
   version: 1.1.3
-  icon: io.bdb.bdbwallet.png
+  icon: io.bdb.bdbwallet.webp
   meta: removed
   verdict: wip
 

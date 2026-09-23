@@ -10,7 +10,7 @@ android:
   released: 2022-12-29
   updated: 2023-04-04
   version: 1.0.6
-  icon: com.poldot.png
+  icon: com.poldot.webp
   meta: removed
   verdict: wip
   developerName: Poldot Technology

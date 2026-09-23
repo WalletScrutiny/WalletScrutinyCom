@@ -9,7 +9,7 @@ android:
   released: 2018-11-05
   updated: 2018-11-05
   version: '1.0'
-  icon: com.gobaba.cryptopos.png
+  icon: com.gobaba.cryptopos.webp
   meta: removed
   verdict: wip
 

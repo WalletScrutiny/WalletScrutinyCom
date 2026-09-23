@@ -20,7 +20,7 @@ android:
   updated: 2026-09-09
   version: 3.193.0-2026090813
   reviews: 281
-  icon: com.moneybookers.skrillpayments.neteller.png
+  icon: com.moneybookers.skrillpayments.neteller.webp
   meta: ok
   verdict: custodial
   developerName: Paysafe Holdings UK Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-10
   version: 3.193.0
   reviews: 1170
-  icon: com.skrill.NETELLER.jpg
+  icon: com.skrill.NETELLER.webp
   meta: ok
   verdict: custodial
   developerName: Skrill Ltd.

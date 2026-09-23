@@ -9,7 +9,7 @@ android:
   released: 2022-03-27
   updated: 2022-03-27
   version: 1.0.0
-  icon: com.bestexchange.bestexchange.png
+  icon: com.bestexchange.bestexchange.webp
   meta: removed
   verdict: wip
   developerName: Best Exchange

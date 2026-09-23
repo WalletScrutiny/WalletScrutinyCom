@@ -9,7 +9,7 @@ android:
   released: 2021-10-23
   updated: 2021-10-24
   version: '1.0'
-  icon: com.agaegae.cryptotrader.png
+  icon: com.agaegae.cryptotrader.webp
   meta: removed
   verdict: wip
 

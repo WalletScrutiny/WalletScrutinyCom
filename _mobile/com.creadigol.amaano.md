@@ -10,7 +10,7 @@ android:
   released: 2022-02-14
   updated: 2026-03-30
   version: 1.6.2
-  icon: com.creadigol.amaano.png
+  icon: com.creadigol.amaano.webp
   meta: defunct
   verdict: wip
   developerName: amaano

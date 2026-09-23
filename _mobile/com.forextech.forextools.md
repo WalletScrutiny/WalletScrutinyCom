@@ -10,7 +10,7 @@ android:
   released: 2016-10-19
   updated: 2018-01-11
   version: '1.5'
-  icon: com.forextech.forextools.png
+  icon: com.forextech.forextools.webp
   meta: removed
   verdict: wip
   developerName: ForexTech

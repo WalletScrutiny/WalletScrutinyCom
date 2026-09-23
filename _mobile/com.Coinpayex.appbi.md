@@ -9,7 +9,7 @@ android:
   released: 2022-08-16
   updated: 2022-08-16
   version: '1.0'
-  icon: com.Coinpayex.appbi.jpg
+  icon: com.Coinpayex.appbi.webp
   meta: removed
   verdict: wip
   developerName: DELIA ENJAMBRE

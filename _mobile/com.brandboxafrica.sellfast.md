@@ -11,7 +11,7 @@ android:
   updated: 2021-03-15
   version: 1.0.0
   reviews: 1
-  icon: com.brandboxafrica.sellfast.png
+  icon: com.brandboxafrica.sellfast.webp
   meta: removed
   verdict: wip
   developerName: BRANDBOX AFRICA

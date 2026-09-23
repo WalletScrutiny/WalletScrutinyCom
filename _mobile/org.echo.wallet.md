@@ -10,7 +10,7 @@ android:
   released: 2019-04-04
   updated: 2019-11-21
   version: 1.13.2
-  icon: org.echo.wallet.png
+  icon: org.echo.wallet.webp
   meta: removed
   verdict: wip
   developerName: PixelPlex Apps

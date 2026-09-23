@@ -21,7 +21,7 @@ android:
   updated: 2026-07-13
   version: 4.38.0
   reviews: 172
-  icon: com.mirlimited.muchbetter.png
+  icon: com.mirlimited.muchbetter.webp
   meta: ok
   verdict: custodial
   developerName: Rtekk Holdings Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-07-29
   version: 4.38.0
   reviews: 459
-  icon: com.muchbetter.jpg
+  icon: com.muchbetter.webp
   meta: ok
   verdict: custodial
   developerName: MIR LIMITED

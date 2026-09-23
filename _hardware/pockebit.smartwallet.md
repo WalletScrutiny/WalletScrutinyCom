@@ -18,7 +18,7 @@ shop:
 country: JP
 price: 
 repository: 
-icon: pockebit.smartwallet.png
+icon: pockebit.smartwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

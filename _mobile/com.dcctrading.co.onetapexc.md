@@ -11,7 +11,7 @@ android:
   released: 2023-04-10
   updated: 2025-05-12
   version: '3.1'
-  icon: com.dcctrading.co.onetapexc.png
+  icon: com.dcctrading.co.onetapexc.webp
   meta: stale
   verdict: wip
   developerName: Tradingly AI

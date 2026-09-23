@@ -21,7 +21,7 @@ android:
   updated: 2026-09-07
   version: 8.0.0
   reviews: 919
-  icon: com.vita_wallet.png
+  icon: com.vita_wallet.webp
   meta: ok
   verdict: custodial
   developerName: Vita Solutions SpA
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-08
   version: 8.0.0
   reviews: 292
-  icon: io.vitawallet.vitawallet.jpg
+  icon: io.vitawallet.vitawallet.webp
   meta: ok
   verdict: custodial
   developerName: Vita Solutions S.p.A

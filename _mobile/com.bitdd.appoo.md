@@ -9,7 +9,7 @@ android:
   released: 2022-05-14
   updated: 2022-05-19
   version: 1.0.2
-  icon: com.bitdd.appoo.png
+  icon: com.bitdd.appoo.webp
   meta: removed
   verdict: wip
   developerName: bitddapp

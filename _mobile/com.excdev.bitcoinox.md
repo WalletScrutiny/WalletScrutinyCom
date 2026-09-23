@@ -14,7 +14,7 @@ iphone:
   updated: 2024-06-26
   version: 2.8.8
   reviews: 5
-  icon: com.excdev.bitcoinox.jpg
+  icon: com.excdev.bitcoinox.webp
   meta: obsolete
   verdict: wip
   developerName: Excdev

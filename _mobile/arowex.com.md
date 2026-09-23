@@ -10,7 +10,7 @@ android:
   released: 2021-07-16
   updated: 2021-07-17
   version: 0.0.0.1
-  icon: arowex.com.png
+  icon: arowex.com.webp
   meta: removed
   verdict: wip
   developerName: ArowEx

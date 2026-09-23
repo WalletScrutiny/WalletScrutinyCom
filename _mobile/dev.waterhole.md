@@ -10,7 +10,7 @@ android:
   released: 2018-09-14
   updated: 2021-07-08
   version: 3.0.0
-  icon: dev.waterhole.png
+  icon: dev.waterhole.webp
   meta: removed
   verdict: wip
 

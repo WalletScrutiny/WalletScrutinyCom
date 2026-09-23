@@ -15,7 +15,7 @@ android:
   released: 2025-07-02
   updated: 2026-02-12
   version: 1.0.13
-  icon: com.trust_fresh.png
+  icon: com.trust_fresh.webp
   meta: removed
   verdict: nosource
   developerName: NewEra Education Center
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-02-05
   version: 1.0.4
   reviews: 0
-  icon: com.trustfresh.jpg
+  icon: com.trustfresh.webp
   meta: removed
   verdict: nosource
   developerName: Metgen Solution LTD

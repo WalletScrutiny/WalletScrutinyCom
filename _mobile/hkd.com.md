@@ -21,7 +21,7 @@ android:
   updated: 2026-08-30
   version: 3.2.4
   reviews: 16
-  icon: hkd.com.png
+  icon: hkd.com.webp
   meta: ok
   verdict: custodial
   developerName: HKD.com Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-08-30
   version: 3.4.0
   reviews: 52
-  icon: com.hkd.hkdex.jpg
+  icon: com.hkd.hkdex.webp
   meta: ok
   verdict: custodial
   developerName: HKD.COM LIMITED

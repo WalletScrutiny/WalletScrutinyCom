@@ -16,7 +16,7 @@ android:
   updated: 2021-07-02
   version: 2.6.4
   reviews: 28
-  icon: com.wise.llc.wallet.app.png
+  icon: com.wise.llc.wallet.app.webp
   meta: removed
   verdict: nosource
   developerName: wise.win
@@ -27,7 +27,7 @@ iphone:
   updated: 2021-07-04
   version: 2.6.4
   reviews: 0
-  icon: com.wwise.llc.wallet.app.jpg
+  icon: com.wwise.llc.wallet.app.webp
   meta: removed
   verdict: nosource
 

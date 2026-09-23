@@ -10,7 +10,7 @@ android:
   released: 2019-08-31
   updated: 2019-10-07
   version: '1.3'
-  icon: com.traintechnical.ttgen.png
+  icon: com.traintechnical.ttgen.webp
   meta: removed
   verdict: wip
   developerName: Train Technical

@@ -24,7 +24,7 @@ android:
   updated: 2026-09-11
   version: 7.23.0
   reviews: 67
-  icon: com.belo.android.png
+  icon: com.belo.android.webp
   meta: ok
   verdict: custodial
   developerName: belo
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-15
   version: 7.23.0
   reviews: 47
-  icon: com.belo.ios.jpg
+  icon: com.belo.ios.webp
   meta: ok
   verdict: custodial
   developerName: belo

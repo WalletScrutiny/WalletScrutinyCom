@@ -10,7 +10,7 @@ android:
   released: 2023-01-29
   updated: 2023-02-02
   version: 1.0.6
-  icon: com.bonuspay.crypto.finance.png
+  icon: com.bonuspay.crypto.finance.webp
   meta: removed
   verdict: wip
   developerName: Bonus Technology

@@ -12,7 +12,7 @@ android:
   released: 2019-01-22
   updated: 2019-07-01
   version: 1.0.19
-  icon: com.btcckorea.png
+  icon: com.btcckorea.webp
   meta: removed
   verdict: wip
   developerName: BTCC KOREA

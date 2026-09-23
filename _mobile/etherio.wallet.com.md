@@ -11,7 +11,7 @@ android:
   released: 2021-04-28
   updated: 2021-04-28
   version: 3.30.1
-  icon: etherio.wallet.com.png
+  icon: etherio.wallet.com.webp
   meta: removed
   verdict: fake
   developerName: PayLink

@@ -10,7 +10,7 @@ android:
   released: 2022-12-29
   updated: 2022-12-30
   version: '2.0'
-  icon: com.otcfy.crypto.png
+  icon: com.otcfy.crypto.webp
   meta: removed
   verdict: wip
   developerName: ANYPE Tech. Pvt. Ltd.

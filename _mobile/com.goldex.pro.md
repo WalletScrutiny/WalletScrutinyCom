@@ -10,7 +10,7 @@ android:
   released: 2022-03-11
   updated: 2022-10-18
   version: 1.1.2
-  icon: com.goldex.pro.jpg
+  icon: com.goldex.pro.webp
   meta: removed
   verdict: wip
   developerName: Denxpro Software

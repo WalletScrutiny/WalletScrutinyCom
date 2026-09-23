@@ -9,7 +9,7 @@ android:
   released: 2019-12-01
   updated: 2025-01-27
   version: '6.11'
-  icon: app.codecellar.embitwallet.png
+  icon: app.codecellar.embitwallet.webp
   meta: removed
   verdict: wip
   developerName: Code Cellar

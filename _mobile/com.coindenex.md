@@ -10,7 +10,7 @@ android:
   released: 2021-05-02
   updated: 2021-05-02
   version: '2.0'
-  icon: com.coindenex.png
+  icon: com.coindenex.webp
   meta: removed
   verdict: wip
 

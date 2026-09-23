@@ -12,7 +12,7 @@ android:
   released: 2022-03-20
   updated: 2022-09-16
   version: 1.1.2
-  icon: app.excoin.com.png
+  icon: app.excoin.com.webp
   meta: removed
   verdict: nosendreceive
   developerName: betcoin

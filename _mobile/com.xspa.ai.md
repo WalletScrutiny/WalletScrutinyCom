@@ -22,7 +22,7 @@ android:
   updated: 2026-08-07
   version: 1.0.25
   reviews: 7
-  icon: com.xspa.ai.png
+  icon: com.xspa.ai.webp
   meta: ok
   verdict: nosource
   developerName: XSPA
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-10
   version: 1.0.17
   reviews: 11
-  icon: com.xspa.ai.jpg
+  icon: com.xspa.ai.webp
   meta: ok
   verdict: nosource
   developerName: XSPA

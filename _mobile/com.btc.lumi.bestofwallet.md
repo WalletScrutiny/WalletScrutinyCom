@@ -9,7 +9,7 @@ android:
   released: 2021-04-06
   updated: 2021-04-06
   version: 1.8.1
-  icon: com.btc.lumi.bestofwallet.png
+  icon: com.btc.lumi.bestofwallet.webp
   meta: removed
   verdict: wip
 

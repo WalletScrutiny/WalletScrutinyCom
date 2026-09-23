@@ -27,7 +27,7 @@ android:
   updated: 2026-09-18
   version: 8.11.0
   reviews: 6744
-  icon: io.metamask.png
+  icon: io.metamask.webp
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask Web3 Wallet
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-09-21
   version: 8.12.0
   reviews: 76223
-  icon: io.metamask.MetaMask.jpg
+  icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask

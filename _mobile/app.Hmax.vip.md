@@ -9,7 +9,7 @@ android:
   released: 2021-09-17
   updated: 2021-10-07
   version: 1.0.3
-  icon: app.Hmax.vip.png
+  icon: app.Hmax.vip.webp
   meta: removed
   verdict: wip
   developerName: Lorena Barr

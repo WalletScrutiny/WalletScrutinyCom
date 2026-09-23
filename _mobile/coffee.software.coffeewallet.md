@@ -23,7 +23,7 @@ android:
   updated: 2022-07-13
   version: '0.22'
   reviews: 7
-  icon: coffee.software.coffeewallet.png
+  icon: coffee.software.coffeewallet.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Coffee  Software

@@ -11,7 +11,7 @@ android:
   released: 2022-08-25
   updated: 2022-08-25
   version: '1.0'
-  icon: com.rapiexchange.merchant.png
+  icon: com.rapiexchange.merchant.webp
   meta: obsolete
   verdict: wip
   developerName: Rapixchange

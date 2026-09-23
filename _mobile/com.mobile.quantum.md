@@ -14,7 +14,7 @@ android:
   updated: 2025-10-02
   version: 1.0.8
   reviews: 1
-  icon: com.mobile.quantum.png
+  icon: com.mobile.quantum.webp
   meta: removed
   verdict: custodial
   developerName: Quan2um

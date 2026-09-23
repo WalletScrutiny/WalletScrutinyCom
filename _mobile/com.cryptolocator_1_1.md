@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2020-04-03
   version: 1.3.31
-  icon: com.cryptolocator_1_1.png
+  icon: com.cryptolocator_1_1.webp
   meta: removed
   verdict: wip
   developerName: Cryptolocator

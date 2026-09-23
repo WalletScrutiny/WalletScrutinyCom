@@ -10,7 +10,7 @@ android:
   released: 2023-06-26
   updated: 2025-12-18
   version: 7.11.0
-  icon: io.sowaka.avacus.png
+  icon: io.sowaka.avacus.webp
   meta: removed
   verdict: wip
   developerName: SOWAKA PTE.LTD.

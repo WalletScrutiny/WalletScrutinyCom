@@ -10,7 +10,7 @@ android:
   released: 2018-11-27
   updated: 2019-05-24
   version: 0.1.1
-  icon: io.wplus.png
+  icon: io.wplus.webp
   meta: removed
   verdict: wip
 

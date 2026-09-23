@@ -16,7 +16,7 @@ android:
   updated: 2026-09-16
   version: 1.64.0
   reviews: 5
-  icon: com.cloud.thailand.jpg
+  icon: com.cloud.thailand.webp
   meta: ok
   verdict: custodial
   developerName: Gulf Binance
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-16
   version: 1.65.0
   reviews: 17731
-  icon: com.tiger.cloudbase.thailand.jpg
+  icon: com.tiger.cloudbase.thailand.webp
   meta: ok
   verdict: custodial
   developerName: Gulf Binance Company Limited

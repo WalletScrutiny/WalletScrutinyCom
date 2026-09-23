@@ -10,7 +10,7 @@ android:
   released: 2022-10-30
   updated: 2024-03-09
   version: 1.7.1
-  icon: com.wootzapp.browser.png
+  icon: com.wootzapp.browser.webp
   meta: removed
   verdict: wip
   developerName: WootzApp

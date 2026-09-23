@@ -12,7 +12,7 @@ android:
   released: 2018-11-05
   updated: 2020-09-10
   version: '1.106'
-  icon: io.bsys.coinpiggy.png
+  icon: io.bsys.coinpiggy.webp
   meta: removed
   verdict: wip
   developerName: THE FORCE LAB

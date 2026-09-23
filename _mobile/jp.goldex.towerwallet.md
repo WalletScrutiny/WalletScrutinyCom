@@ -12,7 +12,7 @@ android:
   released: 2018-10-22
   updated: 2020-07-16
   version: 3.3.35
-  icon: jp.goldex.towerwallet.png
+  icon: jp.goldex.towerwallet.webp
   meta: removed
   verdict: nosource
   developerName: GOLDEX.,Inc.

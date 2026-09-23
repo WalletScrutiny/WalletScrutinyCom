@@ -19,7 +19,7 @@ android:
   updated: 2024-10-14
   version: 1.1.1
   reviews: 76
-  icon: com.papaya.gekkard.png
+  icon: com.papaya.gekkard.webp
   meta: stale
   verdict: custodial
   developerName: PAPAYA LTD
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-04-08
   version: 1.0.9
   reviews: 0
-  icon: com.papaya.gekkard.jpg
+  icon: com.papaya.gekkard.webp
   meta: stale
   verdict: custodial
   developerName: Papaya Ltd

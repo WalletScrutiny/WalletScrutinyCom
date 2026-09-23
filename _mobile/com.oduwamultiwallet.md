@@ -20,7 +20,7 @@ android:
   released: 2021-07-24
   updated: 2022-10-07
   version: 1.1.5
-  icon: com.oduwamultiwallet.png
+  icon: com.oduwamultiwallet.webp
   meta: removed
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTION
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-09-06
   version: 1.1.0
   reviews: 0
-  icon: com.oduwatrustwallet.ios.jpg
+  icon: com.oduwatrustwallet.ios.webp
   meta: obsolete
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTIONS LLC

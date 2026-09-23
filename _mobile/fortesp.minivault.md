@@ -9,7 +9,7 @@ android:
   released: 2020-10-18
   updated: 2020-11-25
   version: 1.3.1
-  icon: fortesp.minivault.png
+  icon: fortesp.minivault.webp
   meta: removed
   verdict: wip
   developerName: Pedro Fortes

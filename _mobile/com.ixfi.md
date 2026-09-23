@@ -25,7 +25,7 @@ android:
   updated: 2025-11-21
   version: 1.10.20
   reviews: 61
-  icon: com.ixfi.png
+  icon: com.ixfi.webp
   meta: ok
   verdict: custodial
   developerName: IXFI Crypto World
@@ -37,7 +37,7 @@ iphone:
   updated: 2025-11-24
   version: 1.7.43
   reviews: 99
-  icon: com.ixfi.app.jpg
+  icon: com.ixfi.app.webp
   meta: removed
   verdict: custodial
   developerName: IXFI Crypto World UAB

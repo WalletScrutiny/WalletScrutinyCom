@@ -13,7 +13,7 @@ iphone:
   updated: 2026-05-25
   version: 1.0.4
   reviews: 0
-  icon: cz.americanPos.bitcoinPOSThree.jpg
+  icon: cz.americanPos.bitcoinPOSThree.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinPOS

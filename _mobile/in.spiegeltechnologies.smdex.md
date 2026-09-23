@@ -17,7 +17,7 @@ android:
   released: 2022-03-07
   updated: 2022-04-01
   version: 1.0.5
-  icon: in.spiegeltechnologies.smdex.png
+  icon: in.spiegeltechnologies.smdex.webp
   meta: removed
   verdict: custodial
   developerName: Devsmdex

@@ -19,7 +19,7 @@ android:
   released: 2020-05-12
   updated: 2024-08-15
   version: 4.1.1
-  icon: com.xccg.xchange.jpg
+  icon: com.xccg.xchange.webp
   meta: removed
   verdict: custodial
   developerName: natamityaeva80
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-12-22
   version: 1.0.2
   reviews: 0
-  icon: com.xchangecapital.xchange.jpg
+  icon: com.xchangecapital.xchange.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup

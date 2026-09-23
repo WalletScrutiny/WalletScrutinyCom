@@ -25,7 +25,7 @@ android:
   updated: 2026-08-25
   version: 1.15.0
   reviews: 2
-  icon: com.btcmarket.btcm.png
+  icon: com.btcmarket.btcm.webp
   meta: ok
   verdict: custodial
   developerName: BTC Markets Pty Ltd
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-08-26
   version: 1.15.0
   reviews: 297
-  icon: com.btcmarkets.btcm.jpg
+  icon: com.btcmarkets.btcm.webp
   meta: ok
   verdict: custodial
   developerName: BTC Markets

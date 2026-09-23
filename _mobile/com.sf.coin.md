@@ -9,7 +9,7 @@ android:
   released: 2018-11-23
   updated: 2019-09-09
   version: 1.0.0
-  icon: com.sf.coin.png
+  icon: com.sf.coin.webp
   meta: removed
   verdict: wip
   developerName: Free dev

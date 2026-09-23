@@ -10,7 +10,7 @@ android:
   released: 2023-03-04
   updated: 2023-09-07
   version: 1.3.2
-  icon: adyone.in.pay2pal.png
+  icon: adyone.in.pay2pal.webp
   meta: removed
   verdict: wip
   developerName: PAY2PAL NETWORK LLP

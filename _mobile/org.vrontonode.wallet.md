@@ -12,7 +12,7 @@ android:
   released: 2019-11-29
   updated: 2019-11-29
   version: '1.0'
-  icon: org.vrontonode.wallet.png
+  icon: org.vrontonode.wallet.webp
   meta: removed
   verdict: wip
   developerName: VRONTO NODE & VRONTO TECH

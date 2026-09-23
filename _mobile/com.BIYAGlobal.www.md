@@ -18,7 +18,7 @@ android:
   updated: 2026-08-24
   version: 3.0.080
   reviews: 17
-  icon: com.BIYAGlobal.www.png
+  icon: com.BIYAGlobal.www.webp
   meta: ok
   verdict: custodial
   developerName: Biya Global
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-08-27
   version: 3.0.080
   reviews: 0
-  icon: com.BiyaGlobal.Biya.jpg
+  icon: com.BiyaGlobal.Biya.webp
   meta: ok
   verdict: custodial
   developerName: BIYA GLOBAL LLC

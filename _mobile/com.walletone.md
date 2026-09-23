@@ -10,7 +10,7 @@ android:
   released: 2020-07-01
   updated: 2020-07-01
   version: '1.1'
-  icon: com.walletone.png
+  icon: com.walletone.webp
   meta: removed
   verdict: wip
   developerName: W30 Apps

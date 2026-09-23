@@ -10,7 +10,7 @@ android:
   released: 2021-04-14
   updated: 2021-07-05
   version: 1.1.5
-  icon: com.firstunion.uncwallet.png
+  icon: com.firstunion.uncwallet.webp
   meta: removed
   verdict: wip
   developerName: FIRST UNION CAPITAL LTD.

@@ -9,7 +9,7 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: crypto.buy.india.jpg
+  icon: crypto.buy.india.webp
   meta: removed
   verdict: wip
 

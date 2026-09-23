@@ -20,7 +20,7 @@ android:
   released: 2019-11-01
   updated: 2026-09-08
   version: 1.6.2
-  icon: io.bitrequest.app.png
+  icon: io.bitrequest.app.webp
   meta: fewusers
   verdict: nosendreceive
   developerName: XpressZo
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-08
   version: '1.31'
   reviews: 1
-  icon: io.bitrequest.app.jpg
+  icon: io.bitrequest.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: XpressZo

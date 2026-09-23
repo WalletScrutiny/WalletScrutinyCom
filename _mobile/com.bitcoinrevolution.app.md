@@ -10,7 +10,7 @@ android:
   updated: 2021-05-11
   version: 1.0.0
   reviews: 4
-  icon: com.bitcoinrevolution.app.png
+  icon: com.bitcoinrevolution.app.webp
   meta: removed
   verdict: wip
 

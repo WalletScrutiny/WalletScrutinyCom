@@ -12,7 +12,7 @@ android:
   released: 2021-07-28
   updated: 2021-07-28
   version: '1.0'
-  icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
+  icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.webp
   meta: removed
   verdict: fake
 

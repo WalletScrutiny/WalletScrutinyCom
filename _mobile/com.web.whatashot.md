@@ -10,7 +10,7 @@ android:
   released: 2021-10-27
   updated: 2021-12-23
   version: '1.7'
-  icon: com.web.whatashot.png
+  icon: com.web.whatashot.webp
   meta: removed
   verdict: wip
   developerName: What a shot

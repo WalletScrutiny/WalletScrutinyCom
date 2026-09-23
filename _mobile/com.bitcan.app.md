@@ -20,7 +20,7 @@ android:
   updated: 2024-08-30
   version: 8.23.0.9
   reviews: 29
-  icon: com.bitcan.app.png
+  icon: com.bitcan.app.webp
   meta: removed
   verdict: custodial
   developerName: bitkan.com
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-03
   version: 8.41.1
   reviews: 51
-  icon: com.btckan.us.jpg
+  icon: com.btckan.us.webp
   meta: ok
   verdict: custodial
   developerName: LUMENRISE LIMITED

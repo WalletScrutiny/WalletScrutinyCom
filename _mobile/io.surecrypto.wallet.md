@@ -11,7 +11,7 @@ android:
   updated: 2021-11-12
   version: 2.2.0
   reviews: 27
-  icon: io.surecrypto.wallet.png
+  icon: io.surecrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: SureCrypto

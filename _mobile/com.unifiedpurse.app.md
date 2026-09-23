@@ -10,7 +10,7 @@ android:
   released: 2018-05-19
   updated: 2018-08-30
   version: 1.0.9
-  icon: com.unifiedpurse.app.png
+  icon: com.unifiedpurse.app.webp
   meta: removed
   verdict: wip
   developerName: Tormuto

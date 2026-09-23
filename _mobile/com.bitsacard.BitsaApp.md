@@ -20,7 +20,7 @@ android:
   updated: 2026-07-29
   version: 3.0.29
   reviews: 10
-  icon: com.bitsacard.BitsaApp.png
+  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: bitsacard
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-03
   version: 3.0.29
   reviews: 119
-  icon: com.bitsacard.BitsaApp.jpg
+  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITSA

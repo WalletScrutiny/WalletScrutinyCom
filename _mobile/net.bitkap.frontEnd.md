@@ -22,7 +22,7 @@ android:
   updated: 2025-04-21
   version: 2.0.4
   reviews: 20
-  icon: net.bitkap.frontEnd.jpg
+  icon: net.bitkap.frontEnd.webp
   meta: stale
   verdict: custodial
   developerName: bitkap group
@@ -34,7 +34,7 @@ iphone:
   updated: 2023-07-25
   version: 2.1.10
   reviews: 20
-  icon: net.bitkap.frondend.jpg
+  icon: net.bitkap.frondend.webp
   meta: removed
   verdict: custodial
   developerName: REAL TIME SARL

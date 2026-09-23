@@ -10,7 +10,7 @@ android:
   released: 2020-03-12
   updated: 2020-07-23
   version: '1.5'
-  icon: com.walahala.paywalamerchant.png
+  icon: com.walahala.paywalamerchant.webp
   meta: removed
   verdict: wip
 

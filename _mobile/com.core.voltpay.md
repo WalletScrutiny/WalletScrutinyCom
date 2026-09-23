@@ -10,7 +10,7 @@ android:
   released: 2022-04-07
   updated: 2023-11-07
   version: 1.2.24
-  icon: com.core.voltpay.png
+  icon: com.core.voltpay.webp
   meta: removed
   verdict: wip
   developerName: CoreWeb

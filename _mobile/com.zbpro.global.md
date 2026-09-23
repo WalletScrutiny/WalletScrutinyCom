@@ -21,7 +21,7 @@ android:
   released: 2022-08-30
   updated: 2022-10-30
   version: 1.4.0.1582
-  icon: com.zbpro.global.png
+  icon: com.zbpro.global.webp
   meta: removed
   verdict: custodial
   developerName: ZB GLOBAL COMPANY
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-10-31
   version: 1.4.0
   reviews: 22
-  icon: com.zb.international.jpg
+  icon: com.zb.international.webp
   meta: removed
   verdict: custodial
   developerName: ZB NETWORK PTE. LTD.

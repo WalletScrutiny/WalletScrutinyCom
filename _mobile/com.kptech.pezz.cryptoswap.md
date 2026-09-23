@@ -9,7 +9,7 @@ android:
   released: 2019-03-25
   updated: 2019-05-31
   version: '1.8'
-  icon: com.kptech.pezz.cryptoswap.png
+  icon: com.kptech.pezz.cryptoswap.webp
   meta: removed
   verdict: wip
 

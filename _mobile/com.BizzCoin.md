@@ -19,7 +19,7 @@ android:
   updated: 2021-10-28
   version: '1.21'
   reviews: 13
-  icon: com.BizzCoin.png
+  icon: com.BizzCoin.webp
   meta: removed
   verdict: nosource
   developerName: BizzCoin
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-11-01
   version: '1.10'
   reviews: 4
-  icon: com.bizz.bizzcoinWallet.jpg
+  icon: com.bizz.bizzcoinWallet.webp
   meta: removed
   verdict: nosource
 

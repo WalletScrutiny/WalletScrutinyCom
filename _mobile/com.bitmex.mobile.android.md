@@ -19,7 +19,7 @@ android:
   updated: 2022-01-05
   version: 1.1.13
   reviews: 1
-  icon: com.bitmex.mobile.android.png
+  icon: com.bitmex.mobile.android.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +28,7 @@ iphone:
   released: 2020-08-26
   updated: 2022-01-10
   version: 1.1.13
-  icon: com.bitmex.mobile.ios.jpg
+  icon: com.bitmex.mobile.ios.webp
   meta: removed
   verdict: custodial
 

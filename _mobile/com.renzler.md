@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2022-08-22
   version: VARY
-  icon: com.renzler.png
+  icon: com.renzler.webp
   meta: removed
   verdict: wip
   developerName: Peter Renz

@@ -11,7 +11,7 @@ android:
   released: 2023-12-29
   updated: 2026-03-22
   version: 2.1.1
-  icon: com.base8.png
+  icon: com.base8.webp
   meta: fewusers
   verdict: wip
   developerName: Base8 Inc.

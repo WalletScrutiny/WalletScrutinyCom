@@ -9,7 +9,7 @@ android:
   released: 2022-07-20
   updated: 2022-07-20
   version: 3.40.91
-  icon: com.eron.eronwallet.jpg
+  icon: com.eron.eronwallet.webp
   meta: removed
   verdict: wip
   developerName: Eron Project and Development SRL

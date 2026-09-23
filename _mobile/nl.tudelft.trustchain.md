@@ -8,7 +8,7 @@ android:
   users: 100
   updated: 2024-02-28
   version: VARY
-  icon: nl.tudelft.trustchain.png
+  icon: nl.tudelft.trustchain.webp
   meta: removed
   verdict: wip
   developerName: 'TUDelft: Delft University of Technology'

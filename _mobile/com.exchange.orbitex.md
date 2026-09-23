@@ -10,7 +10,7 @@ android:
   released: 2021-01-05
   updated: 2021-01-29
   version: 2.0.1
-  icon: com.exchange.orbitex.png
+  icon: com.exchange.orbitex.webp
   meta: removed
   verdict: wip
   developerName: Orbitex

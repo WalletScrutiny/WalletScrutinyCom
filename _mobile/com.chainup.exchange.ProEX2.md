@@ -17,7 +17,7 @@ android:
   released: 2022-04-06
   updated: 2023-11-28
   version: 5.9.1_push_v2
-  icon: com.chainup.exchange.ProEX2.png
+  icon: com.chainup.exchange.ProEX2.webp
   meta: removed
   verdict: custodial
   developerName: ProEX

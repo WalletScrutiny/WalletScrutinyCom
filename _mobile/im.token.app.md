@@ -21,7 +21,7 @@ android:
   updated: 2026-09-01
   version: 2.22.0
   reviews: 246
-  icon: im.token.app.png
+  icon: im.token.app.webp
   meta: ok
   verdict: nosource
   developerName: IMTOKEN PTE.LTD.
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-03
   version: 2.22.0
   reviews: 1130
-  icon: im.token.app.jpg
+  icon: im.token.app.webp
   meta: ok
   verdict: nosource
   developerName: IMTOKEN PTE. LTD.

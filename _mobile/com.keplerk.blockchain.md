@@ -16,7 +16,7 @@ android:
   released: 2020-02-14
   updated: 2022-06-21
   version: 3.5.4
-  icon: com.keplerk.blockchain.jpg
+  icon: com.keplerk.blockchain.webp
   meta: removed
   verdict: custodial
   developerName: BYKEP

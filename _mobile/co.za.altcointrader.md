@@ -17,7 +17,7 @@ android:
   updated: 2025-05-13
   version: 1.3.0
   reviews: 10
-  icon: co.za.altcointrader.png
+  icon: co.za.altcointrader.webp
   meta: stale
   verdict: custodial
   developerName: AltCoinTrader
@@ -29,7 +29,7 @@ iphone:
   updated: 2020-02-22
   version: '1.0'
   reviews: 84
-  icon: za.co.altcointrader.ios.jpg
+  icon: za.co.altcointrader.ios.webp
   meta: obsolete
   verdict: custodial
   developerName: AltCoinTrader

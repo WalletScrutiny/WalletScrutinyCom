@@ -25,7 +25,7 @@ android:
   updated: 2026-09-13
   version: 4.8.2
   reviews: 367
-  icon: org.electrum.electrum.png
+  icon: org.electrum.electrum.webp
   alternativeStores:
   - fdroid
   meta: ok

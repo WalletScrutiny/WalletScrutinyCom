@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-07-15
   version: 3.2.14
-  icon: com.bitmex.app.android.png
+  icon: com.bitmex.app.android.webp
   meta: ok
   verdict: custodial
   developerName: BitMEX
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-07-16
   version: 3.2.14
   reviews: 0
-  icon: com.bitmex.app.ios.jpg
+  icon: com.bitmex.app.ios.webp
   meta: ok
   verdict: custodial
   developerName: BitMEX

@@ -10,7 +10,7 @@ android:
   updated: 2019-03-26
   version: 1.4.3
   reviews: 7
-  icon: com.wowoonet.wallet.png
+  icon: com.wowoonet.wallet.webp
   meta: removed
   verdict: wip
 

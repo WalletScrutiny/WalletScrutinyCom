@@ -25,7 +25,7 @@ android:
   updated: 2025-10-06
   version: 3.3.1.727
   reviews: 1962
-  icon: com.paxful.wallet.png
+  icon: com.paxful.wallet.webp
   meta: removed
   verdict: custodial
   developerName: PaxfulDev
@@ -37,7 +37,7 @@ iphone:
   updated: 2024-11-04
   version: 3.0.2
   reviews: 3597
-  icon: com.paxful.wallet.jpg
+  icon: com.paxful.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Paxful Inc

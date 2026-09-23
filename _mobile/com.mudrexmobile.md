@@ -22,7 +22,7 @@ android:
   updated: 2026-09-09
   version: '13.30'
   reviews: 4
-  icon: com.mudrexmobile.png
+  icon: com.mudrexmobile.webp
   meta: ok
   verdict: custodial
   developerName: Mudrex Inc.
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-09
   version: '9.08'
   reviews: 5630
-  icon: com.mudrex.ios.jpg
+  icon: com.mudrex.ios.webp
   meta: ok
   verdict: custodial
   developerName: Mudrex

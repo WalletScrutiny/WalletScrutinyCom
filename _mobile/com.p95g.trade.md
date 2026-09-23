@@ -10,7 +10,7 @@ android:
   released: 2019-09-10
   updated: 2020-03-10
   version: 1.5.0
-  icon: com.p95g.trade.png
+  icon: com.p95g.trade.webp
   meta: removed
   verdict: wip
   developerName: Point95 Global

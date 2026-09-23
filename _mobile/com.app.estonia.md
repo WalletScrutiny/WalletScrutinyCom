@@ -10,7 +10,7 @@ android:
   released: 2022-11-18
   updated: 2022-12-04
   version: 1.0.3
-  icon: com.app.estonia.png
+  icon: com.app.estonia.webp
   meta: removed
   verdict: wip
   developerName: Bitay Global OU

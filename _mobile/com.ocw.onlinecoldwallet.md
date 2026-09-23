@@ -18,7 +18,7 @@ android:
   released: 2021-10-01
   updated: 2022-05-27
   version: 2.2.0
-  icon: com.ocw.onlinecoldwallet.png
+  icon: com.ocw.onlinecoldwallet.webp
   meta: removed
   verdict: wip
   developerName: Online Cold Wallet

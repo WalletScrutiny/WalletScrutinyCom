@@ -10,7 +10,7 @@ android:
   released: 2020-09-23
   updated: 2020-09-23
   version: '1.0'
-  icon: com.nfpfederal.investorsnfp.png
+  icon: com.nfpfederal.investorsnfp.webp
   meta: removed
   verdict: wip
   developerName: NFP Developer Team

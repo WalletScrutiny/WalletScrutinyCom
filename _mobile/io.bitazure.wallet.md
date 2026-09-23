@@ -10,7 +10,7 @@ android:
   released: 2020-10-01
   updated: 2021-07-20
   version: 1.0.1
-  icon: io.bitazure.wallet.png
+  icon: io.bitazure.wallet.webp
   meta: removed
   verdict: wip
   developerName: BitAzure Blockchain Technology

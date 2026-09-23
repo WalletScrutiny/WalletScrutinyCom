@@ -10,7 +10,7 @@ android:
   released: 2021-09-14
   updated: 2021-09-23
   version: 3.0.0
-  icon: com.dhruvar.bitsmoney.png
+  icon: com.dhruvar.bitsmoney.webp
   meta: removed
   verdict: wip
   developerName: fd

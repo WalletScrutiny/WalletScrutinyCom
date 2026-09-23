@@ -12,7 +12,7 @@ android:
   released: 2018-05-14
   updated: 2022-11-03
   version: 1.52.52
-  icon: semaphore.coinclient.png
+  icon: semaphore.coinclient.webp
   meta: defunct
   verdict: wip
   developerName: Tomato Group

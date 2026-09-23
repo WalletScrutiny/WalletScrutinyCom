@@ -10,7 +10,7 @@ android:
   released: 2020-08-17
   updated: 2022-07-11
   version: 2.7.3
-  icon: com.gungen.chainup.png
+  icon: com.gungen.chainup.webp
   meta: removed
   verdict: wip
 

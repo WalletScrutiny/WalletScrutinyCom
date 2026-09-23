@@ -10,7 +10,7 @@ android:
   released: 2021-07-24
   updated: 2021-11-18
   version: 1.3.0
-  icon: com.sold.wallet.png
+  icon: com.sold.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sold wallet

@@ -9,7 +9,7 @@ android:
   released: 2021-06-23
   updated: 2021-06-23
   version: '1.0'
-  icon: net.cryptonews.bitcoin.invest.app.jpg
+  icon: net.cryptonews.bitcoin.invest.app.webp
   meta: removed
   verdict: wip
 

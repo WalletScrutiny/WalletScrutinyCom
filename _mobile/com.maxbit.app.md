@@ -16,7 +16,7 @@ android:
   released: 2024-09-24
   updated: 2026-09-07
   version: 1.42.4
-  icon: com.maxbit.app.png
+  icon: com.maxbit.app.webp
   meta: ok
   verdict: custodial
   developerName: MAXBIT DIGITAL ASSET COMPANY LIMITED
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-08
   version: 1.42.4
   reviews: 389
-  icon: com.maxbit.app.jpg
+  icon: com.maxbit.app.webp
   meta: ok
   verdict: custodial
   developerName: Maxbit Digital Asset Company Limited

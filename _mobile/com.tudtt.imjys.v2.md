@@ -9,7 +9,7 @@ android:
   released: 2022-11-06
   updated: 2023-01-08
   version: '1.2'
-  icon: com.tudtt.imjys.v2.png
+  icon: com.tudtt.imjys.v2.webp
   meta: removed
   verdict: wip
   developerName: DOUGLAS HEATH  SIMPSON

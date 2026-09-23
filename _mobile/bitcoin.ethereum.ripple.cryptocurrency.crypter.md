@@ -10,7 +10,7 @@ android:
   updated: 2019-09-14
   version: 1.0.2
   reviews: 62
-  icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
+  icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.webp
   meta: removed
   verdict: wip
   developerName: Crytocurrency Master - Bitcoin & Ethereum Apps

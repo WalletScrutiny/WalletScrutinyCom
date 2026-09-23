@@ -23,7 +23,7 @@ android:
   updated: 2026-08-10
   version: 2.5.0
   reviews: 1
-  icon: io.puravidabitcoin.app.png
+  icon: io.puravidabitcoin.app.webp
   meta: fewusers
   verdict: custodial
   developerName: Pura Vida Technologies
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-08-11
   version: 2.5.0
   reviews: 26
-  icon: io.puravidabitcoin.app.jpg
+  icon: io.puravidabitcoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Pura Vida Technologies S.A.

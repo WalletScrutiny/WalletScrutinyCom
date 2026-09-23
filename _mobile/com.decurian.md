@@ -11,7 +11,7 @@ android:
   updated: 2022-03-02
   version: '2.0'
   reviews: 18
-  icon: com.decurian.jpg
+  icon: com.decurian.webp
   meta: removed
   verdict: wip
   developerName: Decurian Cryptocurrency

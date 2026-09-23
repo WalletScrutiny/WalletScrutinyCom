@@ -3,7 +3,7 @@ title: Casascius VFBitcoin Point of Sale
 appId: casascius.vfbitcoin
 authors:
 - danny
-icon: casascius.vfbitcoin.png
+icon: casascius.vfbitcoin.webp
 date: 2024-01-08
 released: 2011-10-02
 provider: Casascius

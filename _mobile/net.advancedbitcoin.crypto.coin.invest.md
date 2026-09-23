@@ -9,7 +9,7 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: net.advancedbitcoin.crypto.coin.invest.png
+  icon: net.advancedbitcoin.crypto.coin.invest.webp
   meta: removed
   verdict: wip
 

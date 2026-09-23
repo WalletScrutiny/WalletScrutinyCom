@@ -16,7 +16,7 @@ android:
   updated: 2026-09-17
   version: 6.189.0
   reviews: 60
-  icon: com.okx.wallet.png
+  icon: com.okx.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OKX Technology Inc.
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-15
   version: 6.189.0
   reviews: 106
-  icon: com.okx.wallet.jpg
+  icon: com.okx.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OKX Technology Inc

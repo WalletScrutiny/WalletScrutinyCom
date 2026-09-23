@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: noID.cards.png
+icon: noID.cards.webp
 bugbounty: 
 meta: ok
 verdict: noita

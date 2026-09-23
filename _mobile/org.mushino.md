@@ -10,7 +10,7 @@ android:
   released: 2020-07-01
   updated: 2021-07-05
   version: 1.0.83
-  icon: org.mushino.png
+  icon: org.mushino.webp
   meta: removed
   verdict: wip
   developerName: Everstrike

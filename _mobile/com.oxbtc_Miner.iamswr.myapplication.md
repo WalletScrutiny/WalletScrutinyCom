@@ -12,7 +12,7 @@ android:
   updated: 2021-09-14
   version: 2.1.0
   reviews: 28
-  icon: com.oxbtc_Miner.iamswr.myapplication.jpg
+  icon: com.oxbtc_Miner.iamswr.myapplication.webp
   meta: removed
   verdict: custodial
 

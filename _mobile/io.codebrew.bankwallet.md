@@ -9,7 +9,7 @@ android:
   released: 2022-08-30
   updated: 2022-08-30
   version: 0.26.1
-  icon: io.codebrew.bankwallet.png
+  icon: io.codebrew.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Code Brew Innovations

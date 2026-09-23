@@ -10,7 +10,7 @@ android:
   released: 2021-02-06
   updated: 2021-02-10
   version: '1.1'
-  icon: com.sonicx.payus.png
+  icon: com.sonicx.payus.webp
   meta: removed
   verdict: wip
   developerName: SONICX FOUNDATION

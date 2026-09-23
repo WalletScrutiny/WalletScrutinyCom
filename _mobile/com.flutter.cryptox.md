@@ -10,7 +10,7 @@ android:
   released: 2021-07-31
   updated: 2022-07-29
   version: 1.0.1
-  icon: com.flutter.cryptox.png
+  icon: com.flutter.cryptox.webp
   meta: removed
   verdict: wip
   developerName: Opus LabWorks

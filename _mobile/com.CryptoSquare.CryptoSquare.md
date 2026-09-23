@@ -9,7 +9,7 @@ android:
   released: 2021-08-16
   updated: 2021-08-16
   version: '1.0'
-  icon: com.CryptoSquare.CryptoSquare.png
+  icon: com.CryptoSquare.CryptoSquare.webp
   meta: removed
   verdict: wip
   developerName: Warn Wilson Jr.

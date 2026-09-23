@@ -10,7 +10,7 @@ android:
   released: 2018-01-24
   updated: 2018-01-31
   version: '1.1'
-  icon: com.imsofnet.apps.mycryptocoinwallet.png
+  icon: com.imsofnet.apps.mycryptocoinwallet.webp
   meta: removed
   verdict: wip
   developerName: Intrepid Multi-Cycle Softnet

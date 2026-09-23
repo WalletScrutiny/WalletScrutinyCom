@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2021-05-24
   version: VARY
-  icon: com.aic.cluster.png
+  icon: com.aic.cluster.webp
   meta: removed
   verdict: wip
   developerName: AIC LIMITED

@@ -10,7 +10,7 @@ android:
   released: 2021-04-20
   updated: 2021-04-27
   version: 1.1.85
-  icon: com.fiber.fiberwallet.png
+  icon: com.fiber.fiberwallet.webp
   meta: removed
   verdict: wip
 

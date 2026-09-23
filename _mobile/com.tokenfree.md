@@ -10,7 +10,7 @@ android:
   released: 2021-09-10
   updated: 2021-10-22
   version: '2.1'
-  icon: com.tokenfree.png
+  icon: com.tokenfree.webp
   meta: removed
   verdict: wip
   developerName: FunV Internet

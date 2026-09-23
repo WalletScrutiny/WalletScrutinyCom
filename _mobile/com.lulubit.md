@@ -19,7 +19,7 @@ android:
   updated: 2026-02-27
   version: 1.47.0
   reviews: 17
-  icon: com.lulubit.png
+  icon: com.lulubit.webp
   meta: removed
   verdict: custodial
   developerName: Lulubit
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-02
   version: 1.63.0
   reviews: 181
-  icon: lulubitLLC.lulubit.jpg
+  icon: lulubitLLC.lulubit.webp
   meta: ok
   verdict: custodial
   developerName: Lulubit

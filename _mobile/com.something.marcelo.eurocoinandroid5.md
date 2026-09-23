@@ -20,7 +20,7 @@ android:
   released: 2018-11-17
   updated: 2025-10-03
   version: '40.0'
-  icon: com.something.marcelo.eurocoinandroid5.png
+  icon: com.something.marcelo.eurocoinandroid5.webp
   meta: ok
   verdict: custodial
   developerName: EurocoinPay
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-03-28
   version: '6.11'
   reviews: 10
-  icon: EurocoinpayRN.jpg
+  icon: EurocoinpayRN.webp
   meta: stale
   verdict: custodial
   developerName: eurocoinpay

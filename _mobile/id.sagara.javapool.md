@@ -9,7 +9,7 @@ android:
   released: 2021-08-30
   updated: 2021-08-30
   version: 0.0.2
-  icon: id.sagara.javapool.png
+  icon: id.sagara.javapool.webp
   meta: removed
   verdict: wip
   developerName: JavaPool

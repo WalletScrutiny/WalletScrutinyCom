@@ -12,7 +12,7 @@ android:
   released: 2019-08-07
   updated: 2020-08-11
   version: 1.6.7
-  icon: com.shashank.doch.png
+  icon: com.shashank.doch.webp
   meta: removed
   verdict: wip
   developerName: DOCH LLC

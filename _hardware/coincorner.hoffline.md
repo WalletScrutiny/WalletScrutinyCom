@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: 
-icon: coincorner.hoffline.png
+icon: coincorner.hoffline.webp
 bugbounty: 
 meta: ok
 verdict: vapor

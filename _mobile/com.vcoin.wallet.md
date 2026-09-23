@@ -10,7 +10,7 @@ android:
   released: 2022-09-19
   updated: 2022-09-25
   version: '1.3'
-  icon: com.vcoin.wallet.png
+  icon: com.vcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: LMCorp

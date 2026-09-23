@@ -10,7 +10,7 @@ android:
   released: 2021-12-06
   updated: 2021-12-06
   version: 1.0.0
-  icon: com.swapcrypto.wallet.jpg
+  icon: com.swapcrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Trader Exchange

@@ -30,7 +30,7 @@ android:
   updated: 2026-08-21
   version: 2.114.10
   reviews: 7
-  icon: com.gemwallet.android.png
+  icon: com.gemwallet.android.webp
   alternativeStores:
   - fdroid
   meta: ok
@@ -45,7 +45,7 @@ iphone:
   updated: 2026-08-25
   version: 2.114.10
   reviews: 358
-  icon: com.gemwallet.ios.jpg
+  icon: com.gemwallet.ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: Gem Wallet LLC

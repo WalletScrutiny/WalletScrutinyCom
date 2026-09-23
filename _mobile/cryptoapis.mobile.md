@@ -10,7 +10,7 @@ android:
   released: 2021-11-11
   updated: 2022-02-24
   version: 1.1.6
-  icon: cryptoapis.mobile.png
+  icon: cryptoapis.mobile.webp
   meta: removed
   verdict: wip
   developerName: Crypto APIs

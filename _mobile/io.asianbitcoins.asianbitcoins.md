@@ -13,7 +13,7 @@ android:
   updated: 2020-08-11
   version: 1.0.0
   reviews: 113
-  icon: io.asianbitcoins.asianbitcoins.png
+  icon: io.asianbitcoins.asianbitcoins.webp
   meta: removed
   verdict: wip
   developerName: MAK International Inc, USA

@@ -10,7 +10,7 @@ android:
   released: 2022-05-18
   updated: 2022-05-18
   version: '1.0'
-  icon: com.bitswapltd.android.png
+  icon: com.bitswapltd.android.webp
   meta: removed
   verdict: wip
   developerName: Maksatov Daniyar

@@ -10,7 +10,7 @@ android:
   released: 2021-11-15
   updated: 2021-11-23
   version: 1.0.2
-  icon: io.antwallet.png
+  icon: io.antwallet.webp
   meta: removed
   verdict: wip
   developerName: Golden Horizon Technologies Pte Ltd

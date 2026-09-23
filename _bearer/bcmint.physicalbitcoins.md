@@ -17,7 +17,7 @@ shop:
 country: PH
 price: 24USD
 repository: 
-icon: bcmint.physicalbitcoins.png
+icon: bcmint.physicalbitcoins.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

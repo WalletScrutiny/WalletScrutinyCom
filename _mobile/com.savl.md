@@ -24,7 +24,7 @@ android:
   updated: 2026-09-17
   version: 9.7.0
   reviews: 208
-  icon: com.savl.png
+  icon: com.savl.webp
   meta: ok
   verdict: nosource
   developerName: Unity Software FZE
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-18
   version: 9.7.0
   reviews: 283
-  icon: com.savl.savlapp.jpg
+  icon: com.savl.savlapp.webp
   meta: ok
   verdict: nosource
   developerName: Unity Software FZE

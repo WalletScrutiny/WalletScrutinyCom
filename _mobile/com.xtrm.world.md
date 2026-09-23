@@ -9,7 +9,7 @@ android:
   released: 2020-02-16
   updated: 2020-06-09
   version: 1.2.6
-  icon: com.xtrm.world.png
+  icon: com.xtrm.world.webp
   meta: removed
   verdict: wip
   developerName: XTRM World

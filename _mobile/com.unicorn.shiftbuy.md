@@ -9,7 +9,7 @@ android:
   released: 2020-01-03
   updated: 2020-04-21
   version: 0.2.7.2
-  icon: com.unicorn.shiftbuy.png
+  icon: com.unicorn.shiftbuy.webp
   meta: removed
   verdict: wip
   developerName: Deex Group

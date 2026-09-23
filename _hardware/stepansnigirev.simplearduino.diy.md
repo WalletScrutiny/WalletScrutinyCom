@@ -17,7 +17,7 @@ shop:
 country: DE
 price: 
 repository: https://github.com/arduino-bitcoin/simple_hardware_wallet
-icon: stepansnigirev.simplearduino.diy.png
+icon: stepansnigirev.simplearduino.diy.webp
 bugbounty: 
 meta: defunct
 verdict: sourceavailable

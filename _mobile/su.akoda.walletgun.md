@@ -9,7 +9,7 @@ android:
   released: 2021-10-13
   updated: 2021-10-13
   version: 1.0.1
-  icon: su.akoda.walletgun.png
+  icon: su.akoda.walletgun.webp
   meta: removed
   verdict: wip
   developerName: AkodA

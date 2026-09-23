@@ -17,7 +17,7 @@ shop: https://onekey.so/products/onekey-lite-hardware-wallet/
 country: HK
 price: 19.99 USD
 repository: 
-icon: onekey.lite.png
+icon: onekey.lite.webp
 bugbounty: 
 meta: ok
 verdict: plainkey

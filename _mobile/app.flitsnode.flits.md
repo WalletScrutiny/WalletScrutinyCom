@@ -18,7 +18,7 @@ android:
   updated: 2021-02-09
   version: '4.4'
   reviews: 71
-  icon: app.flitsnode.flits.png
+  icon: app.flitsnode.flits.webp
   meta: removed
   verdict: nosource
   developerName: Decenomy
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-02-09
   version: '4.4'
   reviews: 73
-  icon: app.flitsnode.flits.jpg
+  icon: app.flitsnode.flits.webp
   meta: removed
   verdict: nosource
   developerName: Klimatas B.V.

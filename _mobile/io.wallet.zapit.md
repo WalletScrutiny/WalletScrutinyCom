@@ -20,7 +20,7 @@ android:
   updated: 2025-08-29
   version: 0.9.67
   reviews: 12
-  icon: io.wallet.zapit.png
+  icon: io.wallet.zapit.webp
   meta: stale
   verdict: custodial
   developerName: Zapit Web3 Platform
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-03-22
   version: v0.9.64
   reviews: 8
-  icon: io.zapit.wallet.jpg
+  icon: io.zapit.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Zapit Limited

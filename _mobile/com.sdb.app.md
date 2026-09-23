@@ -12,7 +12,7 @@ android:
   released: 2022-12-07
   updated: 2023-03-28
   version: 2023.03.27
-  icon: com.sdb.app.png
+  icon: com.sdb.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Milepost Power Holdings, LLC

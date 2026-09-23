@@ -18,7 +18,7 @@ android:
   updated: 2025-02-06
   version: '1.0'
   reviews: 31
-  icon: exchange.bitgert.app.png
+  icon: exchange.bitgert.app.webp
   meta: stale
   verdict: custodial
   developerName: Bitgert Technologies Ltd

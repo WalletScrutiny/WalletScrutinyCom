@@ -19,7 +19,7 @@ android:
   updated: 2023-05-22
   version: 5.2.0
   reviews: 51
-  icon: com.bchi.haruinvestapp.png
+  icon: com.bchi.haruinvestapp.webp
   meta: removed
   verdict: custodial
   developerName: Haru Invest
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-05-24
   version: 5.2.0
   reviews: 203
-  icon: com.bchi.haruinvestapp.jpg
+  icon: com.bchi.haruinvestapp.webp
   meta: removed
   verdict: custodial
   developerName: BCHI Limited

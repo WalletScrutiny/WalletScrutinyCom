@@ -10,7 +10,7 @@ android:
   released: 2022-02-27
   updated: 2021-11-01
   version: 1.0.1
-  icon: com.ubgtech.ubg.png
+  icon: com.ubgtech.ubg.webp
   meta: removed
   verdict: wip
   developerName: UBG Technology

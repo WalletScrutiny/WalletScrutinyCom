@@ -10,7 +10,7 @@ android:
   released: 2022-07-20
   updated: 2022-08-18
   version: '1.1'
-  icon: com.tech.cryptoocean.png
+  icon: com.tech.cryptoocean.webp
   meta: removed
   verdict: wip
   developerName: Crypto Ocean

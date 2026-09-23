@@ -14,7 +14,7 @@ android:
   released: 2019-08-14
   updated: 2019-08-14
   version: '1.5'
-  icon: com.app.folgory.png
+  icon: com.app.folgory.webp
   meta: removed
   verdict: wip
   developerName: Folgory

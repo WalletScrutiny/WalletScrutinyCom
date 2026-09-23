@@ -23,7 +23,7 @@ android:
   updated: 2026-09-17
   version: 3.100.0
   reviews: 3
-  icon: com.kryptogo.walletapp.png
+  icon: com.kryptogo.walletapp.webp
   meta: ok
   verdict: nosource
   developerName: KryptoGO
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-17
   version: 3.100.0
   reviews: 3
-  icon: com.kryptogo.walletapp.jpg
+  icon: com.kryptogo.walletapp.webp
   meta: ok
   verdict: nosource
   developerName: KryptoGO

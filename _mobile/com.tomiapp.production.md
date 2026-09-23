@@ -23,7 +23,7 @@ android:
   updated: 2026-09-10
   version: '268.0'
   reviews: 4
-  icon: com.tomiapp.production.png
+  icon: com.tomiapp.production.webp
   meta: ok
   verdict: nosource
   developerName: tomi.com
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-02-07
   version: '220'
   reviews: 13
-  icon: com.tomiapps.production.jpg
+  icon: com.tomiapps.production.webp
   meta: ok
   verdict: nosource
   developerName: Tomi technology LLC

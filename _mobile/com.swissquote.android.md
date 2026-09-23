@@ -22,7 +22,7 @@ android:
   updated: 2026-09-02
   version: 9.9.0
   reviews: 43
-  icon: com.swissquote.android.png
+  icon: com.swissquote.android.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote Mobile
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-07
   version: 11.37.0
   reviews: 19
-  icon: com.swissquote.iphone.jpg
+  icon: com.swissquote.iphone.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote

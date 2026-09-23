@@ -19,7 +19,7 @@ android:
   released: 2021-10-12
   updated: 2021-11-10
   version: 2.3.0
-  icon: com.clubswan.app2.clubswan.jpg
+  icon: com.clubswan.app2.clubswan.webp
   meta: removed
   verdict: custodial
   developerName: AU Card Ltd
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-12-16
   version: 2.4.0
   reviews: 1
-  icon: com.clubswan.app2.Clubswan.jpg
+  icon: com.clubswan.app2.Clubswan.webp
   meta: removed
   verdict: custodial
   developerName: AU CARD LIMITED

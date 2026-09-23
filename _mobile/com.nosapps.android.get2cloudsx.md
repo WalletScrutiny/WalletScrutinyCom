@@ -13,7 +13,7 @@ android:
   updated: 2023-08-15
   version: 1.1.603
   reviews: 3
-  icon: com.nosapps.android.get2cloudsx.png
+  icon: com.nosapps.android.get2cloudsx.webp
   meta: removed
   verdict: custodial
   developerName: NOS Microsystems Ltd

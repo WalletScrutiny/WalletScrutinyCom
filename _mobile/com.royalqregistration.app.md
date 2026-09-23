@@ -9,7 +9,7 @@ android:
   released: 2021-11-22
   updated: 2021-12-27
   version: '2.0'
-  icon: com.royalqregistration.app.png
+  icon: com.royalqregistration.app.webp
   meta: removed
   verdict: wip
   developerName: Infinit Tech

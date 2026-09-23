@@ -15,7 +15,7 @@ android:
   updated: 2026-09-16
   version: 2.11.401000000
   reviews: 72
-  icon: com.cryptomus.bundle.jpg
+  icon: com.cryptomus.bundle.webp
   meta: ok
   verdict: custodial
   developerName: Padel West S.A.

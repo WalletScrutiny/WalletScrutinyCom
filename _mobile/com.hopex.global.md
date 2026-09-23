@@ -9,7 +9,7 @@ android:
   released: 2022-08-01
   updated: 2023-01-19
   version: 4.2.3
-  icon: com.hopex.global.png
+  icon: com.hopex.global.webp
   meta: removed
   verdict: wip
   developerName: RUNQI TECHNOLOGY CO., LIMITED

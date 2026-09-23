@@ -9,7 +9,7 @@ android:
   released: 2021-04-17
   updated: 2021-04-28
   version: 4.5.1
-  icon: uni.payyoda.png
+  icon: uni.payyoda.webp
   meta: removed
   verdict: wip
 

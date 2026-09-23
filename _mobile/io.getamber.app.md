@@ -23,7 +23,7 @@ android:
   updated: 2026-09-09
   version: 8.4.2
   reviews: 26
-  icon: io.getamber.app.png
+  icon: io.getamber.app.webp
   meta: ok
   verdict: custodial
   developerName: AmberLabs
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-10
   version: 8.4.2
   reviews: 295
-  icon: io.getamber.app.jpg
+  icon: io.getamber.app.webp
   meta: ok
   verdict: custodial
   developerName: Amber Labs

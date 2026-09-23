@@ -14,7 +14,7 @@ android:
   released: 2018-03-22
   updated: 2020-10-04
   version: v4.0.0
-  icon: com.mfcoin.wallet.dev.png
+  icon: com.mfcoin.wallet.dev.webp
   meta: removed
   verdict: obfuscated
   developerName: FREELAND AGREEMENT LTD.

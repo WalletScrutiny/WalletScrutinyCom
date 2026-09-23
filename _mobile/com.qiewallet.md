@@ -15,7 +15,7 @@ android:
   released: 2023-06-20
   updated: 2026-09-18
   version: 0.3.77
-  icon: com.qiewallet.png
+  icon: com.qiewallet.webp
   meta: ok
   verdict: nosource
   developerName: VortX Capital Pty Ltd
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-09-18
   version: 2.8.2
   reviews: 1
-  icon: org.reactjs.native.QIEWallet.jpg
+  icon: org.reactjs.native.QIEWallet.webp
   meta: ok
   verdict: nosource
   developerName: VORTEX PAY (PTY) LTD

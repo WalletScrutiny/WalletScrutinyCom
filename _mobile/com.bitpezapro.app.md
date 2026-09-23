@@ -19,7 +19,7 @@ android:
   released: 2020-02-09
   updated: 2022-09-26
   version: 1.0.3
-  icon: com.bitpezapro.app.png
+  icon: com.bitpezapro.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Describe Innovations
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-09-16
   version: 1.0.0
   reviews: 0
-  icon: com.bekonta.app.jpg
+  icon: com.bekonta.app.webp
   meta: removed
   verdict: custodial
   developerName: Bitpeza Technology Limited

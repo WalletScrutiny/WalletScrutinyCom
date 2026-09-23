@@ -10,7 +10,7 @@ android:
   released: 2020-01-29
   updated: 2023-11-06
   version: 0.1.8
-  icon: com.econobit.app.png
+  icon: com.econobit.app.webp
   meta: removed
   verdict: wip
   developerName: Econobit

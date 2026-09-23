@@ -20,7 +20,7 @@ android:
   updated: 2026-09-18
   version: 5.9.81
   reviews: 64
-  icon: de.finanzen.net.png
+  icon: de.finanzen.net.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net GmbH
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-03
   version: 8.3.4
   reviews: 288
-  icon: de.smarthouse.finanzen.jpg
+  icon: de.smarthouse.finanzen.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net GmbH

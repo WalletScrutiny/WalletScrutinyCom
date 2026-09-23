@@ -19,7 +19,7 @@ android:
   updated: 2026-09-10
   version: 4.0.2
   reviews: 26
-  icon: com.ejara.ejarav2.png
+  icon: com.ejara.ejarav2.webp
   meta: ok
   verdict: nosource
   developerName: Ejara
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-16
   version: 4.0.0+362
   reviews: 68
-  icon: com.ejara.ejarav2.jpg
+  icon: com.ejara.ejarav2.webp
   meta: ok
   verdict: nosource
   developerName: Ejara

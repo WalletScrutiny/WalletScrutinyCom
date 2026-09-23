@@ -10,7 +10,7 @@ android:
   released: 2021-12-24
   updated: 2022-02-01
   version: '2.5'
-  icon: com.bltwallet.mobileapp.png
+  icon: com.bltwallet.mobileapp.webp
   meta: removed
   verdict: wip
 

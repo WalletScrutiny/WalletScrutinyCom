@@ -9,7 +9,7 @@ android:
   released: 2021-08-06
   updated: 2022-08-03
   version: 1.0.9.220803
-  icon: com.fcx.pro.png
+  icon: com.fcx.pro.webp
   meta: removed
   verdict: wip
   developerName: IDT Ruseto

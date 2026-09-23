@@ -12,7 +12,7 @@ android:
   released: 2016-12-15
   updated: 2020-08-26
   version: 0.12.3
-  icon: com.instaforex.bitcoin.png
+  icon: com.instaforex.bitcoin.webp
   meta: removed
   verdict: wip
   developerName: Instaforex

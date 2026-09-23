@@ -19,7 +19,7 @@ android:
   updated: 2025-08-26
   version: 1.2.4
   reviews: 6
-  icon: com.everdreamsoft.casatookan.png
+  icon: com.everdreamsoft.casatookan.webp
   meta: stale
   verdict: nosource
   developerName: EverdreamSoft

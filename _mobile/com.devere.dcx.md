@@ -19,7 +19,7 @@ android:
   updated: 2023-04-20
   version: 4.4.0
   reviews: 1
-  icon: com.devere.dcx.png
+  icon: com.devere.dcx.webp
   meta: removed
   verdict: nosendreceive
   developerName: deVere Group
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-01-20
   version: '5.1'
   reviews: 1
-  icon: com.devere.cryptoapp.jpg
+  icon: com.devere.cryptoapp.webp
   meta: removed
   verdict: nosendreceive
   developerName: DEVERE GROUP LIMITED

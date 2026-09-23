@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-09-10
   version: 2.1.2
-  icon: com.safello.androidsapp.png
+  icon: com.safello.androidsapp.webp
   meta: ok
   verdict: custodial
   developerName: Safello
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-17
   version: 2.1.3
   reviews: 3299
-  icon: com.safello.iosapp.jpg
+  icon: com.safello.iosapp.webp
   meta: ok
   verdict: custodial
   developerName: Safello AB

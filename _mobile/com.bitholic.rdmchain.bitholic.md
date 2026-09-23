@@ -14,7 +14,7 @@ android:
   released: 2019-01-20
   updated: 2021-08-02
   version: 1.1.1
-  icon: com.bitholic.rdmchain.bitholic.png
+  icon: com.bitholic.rdmchain.bitholic.webp
   meta: removed
   verdict: custodial
   developerName: RDMCHAIN.pte.ltd.

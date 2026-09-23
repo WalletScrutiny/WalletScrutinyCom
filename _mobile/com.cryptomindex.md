@@ -10,7 +10,7 @@ android:
   released: 2021-08-17
   updated: 2021-08-17
   version: '1.0'
-  icon: com.cryptomindex.png
+  icon: com.cryptomindex.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,7 @@ android:
   released: 2024-07-25
   updated: 2025-12-25
   version: 1.5.0
-  icon: org.c2bwallet.app.png
+  icon: org.c2bwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Cash2Bitcoin
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-01-14
   version: 1.6.0
   reviews: 13
-  icon: org.c2bwallet.app.jpg
+  icon: org.c2bwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Cash2Bitcoin

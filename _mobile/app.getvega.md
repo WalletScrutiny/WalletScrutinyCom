@@ -14,7 +14,7 @@ android:
   users: 50
   updated: 2019-05-22
   version: Varies with device
-  icon: app.getvega.png
+  icon: app.getvega.webp
   meta: removed
   verdict: wip
 

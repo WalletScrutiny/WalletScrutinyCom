@@ -11,7 +11,7 @@ android:
   released: 2022-08-19
   updated: 2022-08-19
   version: '1.0'
-  icon: mob.bit.alpha82102.png
+  icon: mob.bit.alpha82102.webp
   meta: removed
   verdict: nosendreceive
   developerName: NADIM BHUTTA

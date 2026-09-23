@@ -13,7 +13,7 @@ android:
   released: 2020-10-05
   updated: 2021-03-04
   version: 1.0.1
-  icon: com.aidapps.aiconwallet.png
+  icon: com.aidapps.aiconwallet.webp
   meta: removed
   verdict: wip
   developerName: AI-dapps

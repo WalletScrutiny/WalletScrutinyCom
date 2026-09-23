@@ -16,7 +16,7 @@ android:
   updated: 2026-09-15
   version: 1.9.75.38af
   reviews: 1542
-  icon: kr.co.gopax.png
+  icon: kr.co.gopax.webp
   meta: ok
   verdict: custodial
   developerName: Streami Inc.
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-15
   version: 3.3.0
   reviews: 534
-  icon: kr.co.gopax.jpg
+  icon: kr.co.gopax.webp
   meta: ok
   verdict: custodial
   developerName: Streami Inc.

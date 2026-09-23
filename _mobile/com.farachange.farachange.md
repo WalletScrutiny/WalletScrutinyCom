@@ -12,7 +12,7 @@ android:
   updated: 2022-11-23
   version: 1.1.20
   reviews: 26
-  icon: com.farachange.farachange.png
+  icon: com.farachange.farachange.webp
   meta: removed
   verdict: custodial
   developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'

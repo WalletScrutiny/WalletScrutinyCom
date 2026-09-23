@@ -12,7 +12,7 @@ android:
   released: 2020-12-09
   updated: 2021-06-10
   version: 1.0.3
-  icon: com.pandats.investxe.png
+  icon: com.pandats.investxe.webp
   meta: removed
   verdict: custodial
   developerName: InvestXE

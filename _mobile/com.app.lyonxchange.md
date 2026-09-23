@@ -10,7 +10,7 @@ android:
   released: 2020-04-29
   updated: 2020-04-30
   version: '1.0'
-  icon: com.app.lyonxchange.jpg
+  icon: com.app.lyonxchange.webp
   meta: removed
   verdict: wip
 

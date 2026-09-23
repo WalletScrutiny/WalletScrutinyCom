@@ -17,7 +17,7 @@ shop:
 country: KR
 price: 
 repository: 
-icon: pentasecurity.damokms.png
+icon: pentasecurity.damokms.webp
 bugbounty: 
 meta: ok
 verdict: nosource

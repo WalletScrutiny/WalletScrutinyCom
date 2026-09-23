@@ -10,7 +10,7 @@ android:
   released: 2021-01-29
   updated: 2024-01-29
   version: '1.9'
-  icon: xeliuqa.com.png
+  icon: xeliuqa.com.webp
   meta: removed
   verdict: wip
   developerName: Xeliuqa

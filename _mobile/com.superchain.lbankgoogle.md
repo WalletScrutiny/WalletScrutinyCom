@@ -21,7 +21,7 @@ android:
   updated: 2026-09-11
   version: 8.1.9
   reviews: 705
-  icon: com.superchain.lbankgoogle.png
+  icon: com.superchain.lbankgoogle.webp
   meta: ok
   verdict: custodial
   developerName: LBank
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-13
   version: 6.1.7
   reviews: 755
-  icon: com.LBank.LBankNavApp.jpg
+  icon: com.LBank.LBankNavApp.webp
   meta: ok
   verdict: custodial
   developerName: LBANK EXCHANGE UAB

@@ -11,7 +11,7 @@ android:
   released: 2021-10-10
   updated: 2026-03-31
   version: 1.9.0
-  icon: com.bitoket.app.png
+  icon: com.bitoket.app.webp
   meta: fewusers
   verdict: wip
   developerName: InfinityChain

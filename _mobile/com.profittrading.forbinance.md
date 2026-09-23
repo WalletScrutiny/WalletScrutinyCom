@@ -17,7 +17,7 @@ android:
   updated: 2026-07-02
   version: 18.3.2
   reviews: 123
-  icon: com.profittrading.forbinance.png
+  icon: com.profittrading.forbinance.webp
   meta: ok
   verdict: custodial
   developerName: ProfitTradingApp

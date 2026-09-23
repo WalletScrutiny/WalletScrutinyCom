@@ -18,7 +18,7 @@ android:
   released: 2020-09-16
   updated: 2022-01-27
   version: 1.1.25
-  icon: com.quantdart.app.png
+  icon: com.quantdart.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-01-27
   version: 1.1.25
   reviews: 0
-  icon: com.quantdart.ios.jpg
+  icon: com.quantdart.ios.webp
   meta: removed
   verdict: custodial
 

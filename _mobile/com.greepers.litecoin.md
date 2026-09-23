@@ -10,7 +10,7 @@ android:
   released: 2021-09-03
   updated: 2021-11-01
   version: 1.0.2
-  icon: com.greepers.litecoin.jpg
+  icon: com.greepers.litecoin.webp
   meta: removed
   verdict: wip
   developerName: 24litecoin

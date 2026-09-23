@@ -10,7 +10,7 @@ android:
   released: 2021-06-17
   updated: 2021-06-24
   version: 4.1.0
-  icon: com.oxisapp2.png
+  icon: com.oxisapp2.webp
   meta: removed
   verdict: wip
   developerName: Digital Assets Corporation

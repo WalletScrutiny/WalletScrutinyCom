@@ -20,7 +20,7 @@ android:
   updated: 2026-09-16
   version: 7.62.0007
   reviews: 599
-  icon: com.coindcx.btc.png
+  icon: com.coindcx.btc.webp
   meta: ok
   verdict: custodial
   developerName: CoinDCX Official
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-17
   version: 7.62.0007
   reviews: 44588
-  icon: com.coindcx.btc.jpg
+  icon: com.coindcx.btc.webp
   meta: ok
   verdict: custodial
   developerName: CoinDCX Official

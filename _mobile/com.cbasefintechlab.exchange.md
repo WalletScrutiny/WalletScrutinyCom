@@ -12,7 +12,7 @@ android:
   released: 2018-11-23
   updated: 2020-02-25
   version: 1.2.3
-  icon: com.cbasefintechlab.exchange.png
+  icon: com.cbasefintechlab.exchange.webp
   meta: removed
   verdict: wip
 

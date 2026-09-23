@@ -13,7 +13,7 @@ android:
   updated: 2019-02-26
   version: '1.28'
   reviews: 21
-  icon: com.secrypto.png
+  icon: com.secrypto.webp
   meta: removed
   verdict: nosource
 

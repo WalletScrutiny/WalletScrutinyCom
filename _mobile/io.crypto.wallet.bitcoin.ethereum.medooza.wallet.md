@@ -10,7 +10,7 @@ android:
   released: 2019-01-04
   updated: 2019-01-04
   version: '1.1'
-  icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
+  icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.webp
   meta: removed
   verdict: wip
   developerName: Medooza Ecosystem Apps

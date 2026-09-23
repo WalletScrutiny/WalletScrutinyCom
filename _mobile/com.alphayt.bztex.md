@@ -10,7 +10,7 @@ android:
   released: 2022-02-18
   updated: 2022-04-28
   version: 1.1.9
-  icon: com.alphayt.bztex.png
+  icon: com.alphayt.bztex.webp
   meta: removed
   verdict: wip
   developerName: BZTEX

@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2024-11-19
   version: 1.1.6
-  icon: com.itez.wallet.png
+  icon: com.itez.wallet.webp
   meta: stale
   verdict: wip
   developerName: itez

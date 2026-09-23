@@ -10,7 +10,7 @@ android:
   released: 2021-12-10
   updated: 2021-12-10
   version: 1.0.0
-  icon: com.AppInstitute.d3952.png
+  icon: com.AppInstitute.d3952.webp
   meta: removed
   verdict: wip
   developerName: Dispurse

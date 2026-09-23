@@ -12,7 +12,7 @@ android:
   released: 2022-03-28
   updated: 2023-02-13
   version: 1.1.3
-  icon: app.excointrades.com.jpg
+  icon: app.excointrades.com.webp
   meta: removed
   verdict: nosendreceive
   developerName: rocket trade Limited

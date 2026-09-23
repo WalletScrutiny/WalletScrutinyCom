@@ -18,7 +18,7 @@ android:
   updated: 2021-12-20
   version: 2.0.8.1
   reviews: 25
-  icon: com.midasprotocol.wallet.android.png
+  icon: com.midasprotocol.wallet.android.webp
   meta: removed
   verdict: custodial
   developerName: Midas Core Pte Ltd
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-11-12
   version: 2.0.8
   reviews: 90
-  icon: com.midasprotocol.wallet.ios.jpg
+  icon: com.midasprotocol.wallet.ios.webp
   meta: removed
   verdict: custodial
   developerName: Midas Core Pte Ltd

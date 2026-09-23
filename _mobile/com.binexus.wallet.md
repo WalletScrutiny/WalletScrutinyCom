@@ -10,7 +10,7 @@ android:
   released: 2018-03-28
   updated: 2018-03-29
   version: v5.0.0
-  icon: com.binexus.wallet.png
+  icon: com.binexus.wallet.webp
   meta: removed
   verdict: wip
   developerName: Binexus

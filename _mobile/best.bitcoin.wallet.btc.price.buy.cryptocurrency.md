@@ -12,7 +12,7 @@ android:
   updated: 2021-03-13
   version: '1.0'
   reviews: 27
-  icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.png
+  icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.webp
   meta: removed
   verdict: wip
 

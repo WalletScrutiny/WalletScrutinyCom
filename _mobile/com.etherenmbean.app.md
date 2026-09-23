@@ -9,7 +9,7 @@ android:
   released: 2022-06-01
   updated: 2022-08-30
   version: 11.6.6
-  icon: com.etherenmbean.app.png
+  icon: com.etherenmbean.app.webp
   meta: removed
   verdict: wip
 

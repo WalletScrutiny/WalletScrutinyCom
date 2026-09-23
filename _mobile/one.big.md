@@ -21,7 +21,7 @@ android:
   updated: 2026-09-18
   version: 2.6.8
   reviews: 55
-  icon: one.big.png
+  icon: one.big.webp
   meta: ok
   verdict: custodial
   developerName: BigONE
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-20
   version: 2.6.800
   reviews: 112
-  icon: base.big.one.jpg
+  icon: base.big.one.webp
   meta: ok
   verdict: custodial
   developerName: BigONE Investment Corporation

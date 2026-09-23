@@ -16,7 +16,7 @@ android:
   updated: 2025-12-12
   version: 2.0.7
   reviews: 12
-  icon: com.techbank_dwallet.jpg
+  icon: com.techbank_dwallet.webp
   meta: removed
   verdict: custodial
   developerName: Techbank
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-06-02
   version: 1.0.88
   reviews: 3
-  icon: com.techbank.dwallettb.jpg
+  icon: com.techbank.dwallettb.webp
   meta: ok
   verdict: custodial
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED

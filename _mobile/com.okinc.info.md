@@ -9,7 +9,7 @@ android:
   released: 2020-05-25
   updated: 2020-07-05
   version: 1.9.18
-  icon: com.okinc.info.jpg
+  icon: com.okinc.info.webp
   meta: removed
   verdict: wip
 

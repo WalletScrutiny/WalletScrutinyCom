@@ -14,7 +14,7 @@ android:
   updated: 2021-10-29
   version: 1.0.1.7
   reviews: 49
-  icon: com.bybt.bybtapp.jpg
+  icon: com.bybt.bybtapp.webp
   meta: removed
   verdict: fake
 

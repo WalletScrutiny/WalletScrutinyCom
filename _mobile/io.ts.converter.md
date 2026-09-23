@@ -18,7 +18,7 @@ android:
   updated: 2025-12-16
   version: 3.12.13
   reviews: 10
-  icon: io.ts.converter.png
+  icon: io.ts.converter.webp
   meta: ok
   verdict: nosendreceive
   developerName: TapSwap

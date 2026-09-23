@@ -34,7 +34,7 @@ android:
   appCountry: us
   updated: 2025-01-14
   version: VARY
-  icon: com.breez.client.png
+  icon: com.breez.client.webp
   meta: stale
   verdict: sourceavailable
   developerName: Breez Development LTD
@@ -47,7 +47,7 @@ iphone:
   updated: 2025-01-14
   version: 1.1.21
   reviews: 42
-  icon: technology.breez.client.jpg
+  icon: technology.breez.client.webp
   meta: stale
   verdict: sourceavailable
   developerName: BREEZ DEVELOPMENT LTD

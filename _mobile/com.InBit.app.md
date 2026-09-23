@@ -10,7 +10,7 @@ android:
   released: 2020-07-29
   updated: 2022-05-26
   version: 18.2.15
-  icon: com.InBit.app.png
+  icon: com.InBit.app.webp
   meta: removed
   verdict: wip
 

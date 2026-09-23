@@ -22,7 +22,7 @@ android:
   updated: 2025-05-16
   version: 2.12.1
   reviews: 31
-  icon: com.opz.dev.png
+  icon: com.opz.dev.webp
   meta: removed
   verdict: custodial
   developerName: OPZ
@@ -34,7 +34,7 @@ iphone:
   updated: 2025-05-08
   version: 2.12.1
   reviews: 1
-  icon: com.opz.jpg
+  icon: com.opz.webp
   meta: removed
   verdict: custodial
   developerName: OPZ, LLC

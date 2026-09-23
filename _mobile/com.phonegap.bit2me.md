@@ -22,7 +22,7 @@ android:
   updated: 2026-09-14
   version: 3.74.0
   reviews: 55
-  icon: com.phonegap.bit2me.png
+  icon: com.phonegap.bit2me.webp
   meta: ok
   verdict: custodial
   developerName: Bit2Me
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-14
   version: 3.74.0
   reviews: 3819
-  icon: com.bit2me.flutter-ios.jpg
+  icon: com.bit2me.flutter-ios.webp
   meta: ok
   verdict: custodial
   developerName: Bit2Me

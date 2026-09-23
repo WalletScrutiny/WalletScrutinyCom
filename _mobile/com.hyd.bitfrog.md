@@ -10,7 +10,7 @@ android:
   released: 2022-08-31
   updated: 2023-03-17
   version: 2.4.1
-  icon: com.hyd.bitfrog.png
+  icon: com.hyd.bitfrog.webp
   meta: removed
   verdict: wip
   developerName: Bitfrog

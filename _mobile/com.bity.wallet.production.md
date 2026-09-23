@@ -19,7 +19,7 @@ android:
   updated: 2026-02-02
   version: 2.0.1
   reviews: 2
-  icon: com.bity.wallet.production.jpg
+  icon: com.bity.wallet.production.webp
   meta: removed
   verdict: nosource
   developerName: Bity.com
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-03-05
   version: 2.1.0
   reviews: 32
-  icon: com.bity.wallet.production.jpg
+  icon: com.bity.wallet.production.webp
   meta: ok
   verdict: nosource
   developerName: Bity SA

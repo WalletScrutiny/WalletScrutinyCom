@@ -20,7 +20,7 @@ android:
   released: 2021-08-05
   updated: 2024-04-25
   version: 2.3.10
-  icon: com.ttmbank.wallet.app.png
+  icon: com.ttmbank.wallet.app.webp
   meta: obsolete
   verdict: nosource
   developerName: MDAO Wallet

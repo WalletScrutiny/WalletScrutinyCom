@@ -21,7 +21,7 @@ android:
   updated: 2026-04-10
   version: 1.2.2
   reviews: 28
-  icon: app.easybitcoin.png
+  icon: app.easybitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-04-11
   version: 1.2.2
   reviews: 10
-  icon: app.easybitcoin.jpg
+  icon: app.easybitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.

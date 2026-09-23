@@ -10,7 +10,7 @@ android:
   updated: 2019-02-20
   version: 5.3.2
   reviews: 51
-  icon: com.eyalabs.eyawallet.png
+  icon: com.eyalabs.eyawallet.webp
   meta: removed
   verdict: wip
 

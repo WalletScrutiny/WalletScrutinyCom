@@ -10,7 +10,7 @@ android:
   released: 2021-04-14
   updated: 2021-06-17
   version: 1.1.0
-  icon: com.ebanq.wallexcustody.png
+  icon: com.ebanq.wallexcustody.webp
   meta: removed
   verdict: wip
 

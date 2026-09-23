@@ -23,7 +23,7 @@ android:
   updated: 2026-04-01
   version: 3.3.1
   reviews: 125
-  icon: com.magiceden.wallet.png
+  icon: com.magiceden.wallet.webp
   meta: ok
   verdict: nosource
   developerName: MagicEden
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-04-01
   version: 3.3.1
   reviews: 1962
-  icon: com.magiceden.wallet.jpg
+  icon: com.magiceden.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Magic Eden

@@ -10,7 +10,7 @@ android:
   released: 2020-04-25
   updated: 2020-05-14
   version: 1.0.1
-  icon: com.crenzy.wallet.png
+  icon: com.crenzy.wallet.webp
   meta: removed
   verdict: wip
   developerName: Crenzy Company

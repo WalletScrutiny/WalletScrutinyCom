@@ -20,7 +20,7 @@ shop:
 country: UK
 price: 24.99 EUR
 repository: 
-icon: picash.hww.png
+icon: picash.hww.webp
 bugbounty: 
 meta: ok
 verdict: noita

@@ -16,7 +16,7 @@ android:
   updated: 2025-02-18
   version: 3.9.40_googleplay
   reviews: 72
-  icon: com.trendox.android.png
+  icon: com.trendox.android.webp
   meta: removed
   verdict: custodial
   developerName: Trendo Forex

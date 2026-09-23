@@ -10,7 +10,7 @@ android:
   released: 2021-08-23
   updated: 2021-08-24
   version: 1.0.0
-  icon: com.Duende.Duende.png
+  icon: com.Duende.Duende.webp
   meta: removed
   verdict: wip
   developerName: Duende

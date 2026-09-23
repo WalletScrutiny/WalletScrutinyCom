@@ -10,7 +10,7 @@ android:
   released: 2016-09-28
   updated: 2017-11-04
   version: 2.0.1
-  icon: com.bohdanuhryn.wallbtc.png
+  icon: com.bohdanuhryn.wallbtc.webp
   meta: removed
   verdict: wip
   developerName: WallBTC

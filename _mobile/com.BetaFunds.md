@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2020-05-18
   version: 2.1.2
-  icon: com.BetaFunds.png
+  icon: com.BetaFunds.webp
   meta: removed
   verdict: wip
   developerName: BetaFunds

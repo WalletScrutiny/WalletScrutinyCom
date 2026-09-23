@@ -12,7 +12,7 @@ android:
   released: 2021-07-19
   updated: 2021-08-03
   version: '1.3'
-  icon: com.futuretradelink.png
+  icon: com.futuretradelink.webp
   meta: removed
   verdict: wip
   developerName: Future Trade Link

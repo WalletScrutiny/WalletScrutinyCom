@@ -13,7 +13,7 @@ android:
   released: 2025-07-05
   updated: 2026-07-23
   version: 1.0.19
-  icon: com.xoibit.holdingsapp.jpg
+  icon: com.xoibit.holdingsapp.webp
   meta: ok
   verdict: custodial
   developerName: Xoibit

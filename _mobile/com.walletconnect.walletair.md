@@ -10,7 +10,7 @@ android:
   updated: 2021-08-23
   version: '1.0'
   reviews: 75
-  icon: com.walletconnect.walletair.png
+  icon: com.walletconnect.walletair.webp
   meta: removed
   verdict: wip
 

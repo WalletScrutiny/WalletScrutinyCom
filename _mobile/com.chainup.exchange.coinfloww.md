@@ -10,7 +10,7 @@ android:
   released: 2022-08-18
   updated: 2022-09-18
   version: 5.2.5_coinfloww
-  icon: com.chainup.exchange.coinfloww.jpg
+  icon: com.chainup.exchange.coinfloww.webp
   meta: removed
   verdict: wip
   developerName: CoinFloww Technologies

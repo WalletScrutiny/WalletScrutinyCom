@@ -20,7 +20,7 @@ android:
   updated: 2024-08-07
   version: 1.0.35
   reviews: 12
-  icon: com.chainwallet.app.png
+  icon: com.chainwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Chain.com
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-08-16
   version: 1.0.36
   reviews: 13
-  icon: com.chainwallet.app.jpg
+  icon: com.chainwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Chain Global Ltd

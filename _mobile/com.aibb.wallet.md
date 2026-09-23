@@ -19,7 +19,7 @@ android:
   updated: 2021-10-04
   version: 2.3.15
   reviews: 254
-  icon: com.aibb.wallet.jpg
+  icon: com.aibb.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-10-06
   version: 2.3.15
   reviews: 21
-  icon: com.aibb.wallet1.jpg
+  icon: com.aibb.wallet1.webp
   meta: removed
   verdict: custodial
 

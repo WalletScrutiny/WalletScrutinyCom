@@ -18,7 +18,7 @@ android:
   released: 2019-01-25
   updated: 2026-04-09
   version: 3.5.8
-  icon: com.kointra.kointra.png
+  icon: com.kointra.kointra.webp
   meta: removed
   verdict: custodial
   developerName: Kointra Bilişim ve Teknoloji A.Ş.
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-03-18
   version: 3.5.7(2)
   reviews: 32
-  icon: com.kointra.Kointra.V1.0.jpg
+  icon: com.kointra.Kointra.V1.0.webp
   meta: removed
   verdict: custodial
   developerName: Kointra A.S

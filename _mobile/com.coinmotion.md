@@ -19,7 +19,7 @@ android:
   released: 2020-08-20
   updated: 2026-09-09
   version: 1.14.1
-  icon: com.coinmotion.png
+  icon: com.coinmotion.webp
   meta: ok
   verdict: custodial
   developerName: Coinmotion Oy
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-11-12
   version: 1.11.6
   reviews: 0
-  icon: com.ios.coinmotion.app.jpg
+  icon: com.ios.coinmotion.app.webp
   meta: removed
   verdict: custodial
   developerName: Coinmotion Oy

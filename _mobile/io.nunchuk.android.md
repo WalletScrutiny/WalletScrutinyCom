@@ -30,7 +30,7 @@ android:
   updated: 2026-09-01
   version: 2.8.5
   reviews: 45
-  icon: io.nunchuk.android.png
+  icon: io.nunchuk.android.webp
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   meta: ok
   verdict: sourceavailable
@@ -44,7 +44,7 @@ iphone:
   updated: 2026-09-01
   version: 2.8.1
   reviews: 567
-  icon: io.nunchuk.ios.jpg
+  icon: io.nunchuk.ios.webp
   meta: ok
   verdict: nosource
   developerName: Nunchuk

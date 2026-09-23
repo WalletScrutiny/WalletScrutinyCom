@@ -21,7 +21,7 @@ shop:
 country: FR
 price: 229USD
 repository: https://github.com/LedgerHQ/ledger-blue
-icon: ledgerblue.png
+icon: ledgerblue.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

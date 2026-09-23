@@ -10,7 +10,7 @@ android:
   released: 2020-07-27
   updated: 2021-08-11
   version: '1.9'
-  icon: com.bbko.hcu_wallet.png
+  icon: com.bbko.hcu_wallet.webp
   meta: removed
   verdict: wip
 

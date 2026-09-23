@@ -23,7 +23,7 @@ android:
   updated: 2025-09-04
   version: 1.53.0
   reviews: 30
-  icon: com.ancryptoWallet.png
+  icon: com.ancryptoWallet.webp
   meta: removed
   verdict: nosource
   developerName: AWT Ltd
@@ -35,7 +35,7 @@ iphone:
   updated: 2025-09-09
   version: '50'
   reviews: 20
-  icon: com.antiersolutions.Ancrypto.jpg
+  icon: com.antiersolutions.Ancrypto.webp
   meta: removed
   verdict: nosource
   developerName: Ancrypto

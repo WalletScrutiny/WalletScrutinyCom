@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://verus.io
 repository: https://github.com/VerusCoin/Verus-Desktop
-icon: veruswallet.png
+icon: veruswallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -10,7 +10,7 @@ android:
   users: 1000
   updated: 2019-03-23
   version: VARY
-  icon: com.goodx.png
+  icon: com.goodx.webp
   meta: removed
   verdict: wip
   developerName: GoodX Technologies LP

@@ -10,7 +10,7 @@ android:
   released: 2022-07-14
   updated: 2022-09-26
   version: 0.21.11.0
-  icon: com.lnorb.orb.jpg
+  icon: com.lnorb.orb.webp
   meta: removed
   verdict: wip
   developerName: Orb Lightning

@@ -12,7 +12,7 @@ android:
   released: 2022-08-02
   updated: 2022-12-01
   version: 1.1.24
-  icon: com.exchangeworld.app.png
+  icon: com.exchangeworld.app.webp
   meta: removed
   verdict: custodial
   developerName: World exchange

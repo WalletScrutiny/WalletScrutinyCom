@@ -18,7 +18,7 @@ android:
   updated: 2023-07-18
   version: 1.14.2
   reviews: 5
-  icon: io.eidoo.android.app.jpg
+  icon: io.eidoo.android.app.webp
   meta: removed
   verdict: nosource
   developerName: Eidoo Tech
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-01-06
   version: 1.14.3
   reviews: 22
-  icon: io.eidoo.ios.app.jpg
+  icon: io.eidoo.ios.app.webp
   meta: removed
   verdict: nosource
   developerName: Eidoo Tech LTD

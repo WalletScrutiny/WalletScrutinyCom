@@ -10,7 +10,7 @@ android:
   released: 2021-04-18
   updated: 2021-04-21
   version: '2.0'
-  icon: com.pasaraset.dex.png
+  icon: com.pasaraset.dex.webp
   meta: removed
   verdict: wip
   developerName: Pasar Aset

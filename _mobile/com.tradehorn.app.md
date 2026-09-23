@@ -10,7 +10,7 @@ android:
   released: 2020-06-23
   updated: 2020-11-23
   version: '1.4'
-  icon: com.tradehorn.app.png
+  icon: com.tradehorn.app.webp
   meta: removed
   verdict: wip
   developerName: Team TradeHorn

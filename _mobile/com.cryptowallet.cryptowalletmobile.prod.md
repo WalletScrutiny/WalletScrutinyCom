@@ -21,7 +21,7 @@ android:
   updated: 2021-11-17
   version: 1.11.10
   reviews: 7
-  icon: com.cryptowallet.cryptowalletmobile.prod.png
+  icon: com.cryptowallet.cryptowalletmobile.prod.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-11-02
   version: 1.11.4
   reviews: 3
-  icon: com.cryptowallet.cryptowalletmobile.prod.jpg
+  icon: com.cryptowallet.cryptowalletmobile.prod.webp
   meta: removed
   verdict: wip
 

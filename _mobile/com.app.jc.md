@@ -16,7 +16,7 @@ android:
   updated: 2026-07-22
   version: 3.3.18
   reviews: 12
-  icon: com.app.jc.png
+  icon: com.app.jc.webp
   meta: removed
   verdict: custodial
   developerName: RONKB
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-07-29
   version: 3.3.20
   reviews: 29
-  icon: io.jubit.pro.jpg
+  icon: io.jubit.pro.webp
   meta: ok
   verdict: custodial
   developerName: JuCoin Pro INC

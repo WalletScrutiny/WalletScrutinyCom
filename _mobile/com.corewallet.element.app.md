@@ -16,7 +16,7 @@ android:
   updated: 2025-04-02
   version: 1.13.0
   reviews: 327
-  icon: com.corewallet.element.app.jpg
+  icon: com.corewallet.element.app.webp
   meta: stale
   verdict: nosource
   developerName: Element Wallet Inc
@@ -28,7 +28,7 @@ iphone:
   updated: 2025-04-03
   version: 1.13.0
   reviews: 175
-  icon: Element-com.elementwallet.app.jpg
+  icon: Element-com.elementwallet.app.webp
   meta: stale
   verdict: nosource
   developerName: Core Wallet Inc

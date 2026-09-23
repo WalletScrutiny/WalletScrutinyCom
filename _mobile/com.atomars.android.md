@@ -17,7 +17,7 @@ android:
   released: 2019-07-01
   updated: 2019-07-01
   version: 1.1.1
-  icon: com.atomars.android.png
+  icon: com.atomars.android.webp
   meta: removed
   verdict: custodial
   developerName: Atomars

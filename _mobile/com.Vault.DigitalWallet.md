@@ -9,7 +9,7 @@ android:
   released: 2022-12-13
   updated: 2023-04-28
   version: 1.3.4
-  icon: com.Vault.DigitalWallet.png
+  icon: com.Vault.DigitalWallet.webp
   meta: removed
   verdict: wip
   developerName: Vault Group Development

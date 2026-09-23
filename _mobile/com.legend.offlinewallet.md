@@ -10,7 +10,7 @@ android:
   released: 2020-05-09
   updated: 2020-07-25
   version: 1.0.5
-  icon: com.legend.offlinewallet.png
+  icon: com.legend.offlinewallet.webp
   meta: removed
   verdict: wip
   developerName: LEGEND INTERNET SERVICES PTY LTD

@@ -10,7 +10,7 @@ android:
   released: 2021-10-09
   updated: 2022-03-05
   version: '1.3'
-  icon: com.ligex.png
+  icon: com.ligex.webp
   meta: removed
   verdict: wip
   developerName: LIGEX EXCHANGE

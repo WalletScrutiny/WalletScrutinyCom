@@ -9,7 +9,7 @@ android:
   released: 2022-08-31
   updated: 2023-01-18
   version: 0.26.3
-  icon: io.quickOWallet.bankwallet.png
+  icon: io.quickOWallet.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Blocktech Brew

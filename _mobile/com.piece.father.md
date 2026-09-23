@@ -9,7 +9,7 @@ android:
   released: 2022-03-31
   updated: 2022-03-31
   version: 1.11.8
-  icon: com.piece.father.png
+  icon: com.piece.father.webp
   meta: removed
   verdict: wip
   developerName: pontv015

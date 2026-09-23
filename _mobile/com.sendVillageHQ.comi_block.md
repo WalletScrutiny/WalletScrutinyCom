@@ -10,7 +10,7 @@ android:
   released: 2022-09-11
   updated: 2023-08-27
   version: 1.1.6
-  icon: com.sendVillageHQ.comi_block.png
+  icon: com.sendVillageHQ.comi_block.webp
   meta: removed
   verdict: wip
   developerName: ComiBlock Capital

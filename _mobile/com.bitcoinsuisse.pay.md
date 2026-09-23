@@ -11,7 +11,7 @@ android:
   released: 2021-06-06
   updated: 2023-06-05
   version: 1.3.1
-  icon: com.bitcoinsuisse.pay.png
+  icon: com.bitcoinsuisse.pay.webp
   meta: obsolete
   verdict: wip
   developerName: Bitcoin Suisse AG

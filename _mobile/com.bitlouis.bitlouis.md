@@ -9,7 +9,7 @@ android:
   released: 2021-01-28
   updated: 2021-01-28
   version: '1.0'
-  icon: com.bitlouis.bitlouis.png
+  icon: com.bitlouis.bitlouis.webp
   meta: removed
   verdict: wip
   developerName: Bitlouis

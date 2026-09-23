@@ -22,7 +22,7 @@ android:
   updated: 2026-07-21
   version: 1.30.2
   reviews: 6
-  icon: com.kangamobile.png
+  icon: com.kangamobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Technologies
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-07-22
   version: 1.30.2
   reviews: 7
-  icon: kanga.mobile.jpg
+  icon: kanga.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Global

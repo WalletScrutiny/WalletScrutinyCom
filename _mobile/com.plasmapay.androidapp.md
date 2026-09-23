@@ -21,7 +21,7 @@ android:
   updated: 2021-10-07
   version: 2.0.4
   reviews: 17
-  icon: com.plasmapay.androidapp.png
+  icon: com.plasmapay.androidapp.webp
   meta: removed
   verdict: wip
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-06-08
   version: v3.1.8
   reviews: 2
-  icon: com.plasmaalliance.PlasmaPay.jpg
+  icon: com.plasmaalliance.PlasmaPay.webp
   meta: defunct
   verdict: wip
   developerName: Plasma Alliance OÜ

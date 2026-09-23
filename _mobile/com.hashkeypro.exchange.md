@@ -17,7 +17,7 @@ android:
   updated: 2026-09-10
   version: 2.7.0
   reviews: 31
-  icon: com.hashkeypro.exchange.png
+  icon: com.hashkeypro.exchange.webp
   meta: ok
   verdict: custodial
   developerName: HashKey Digital Asset Group Limited
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-06-16
   version: 1.68.0
   reviews: 11
-  icon: com.hashkey.global.jpg
+  icon: com.hashkey.global.webp
   meta: removed
   verdict: custodial
   developerName: HashKey Bermuda Limited

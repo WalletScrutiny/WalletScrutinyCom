@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: sidera.smartbit.png
+icon: sidera.smartbit.webp
 bugbounty: 
 meta: ok
 verdict: vapor

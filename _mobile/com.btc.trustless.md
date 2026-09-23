@@ -20,7 +20,7 @@ android:
   updated: 2026-05-12
   version: 2.0.0
   reviews: 0
-  icon: com.btc.trustless.png
+  icon: com.btc.trustless.webp
   meta: removed
   verdict: custodial
   developerName: pechen987
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-18
   version: 3.2.0
   reviews: 1
-  icon: com.btc.trustless.jpg
+  icon: com.btc.trustless.webp
   meta: fewusers
   verdict: custodial
   developerName: Igor Kruglov

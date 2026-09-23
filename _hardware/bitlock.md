@@ -20,7 +20,7 @@ shop:
 country: SG
 price: 79USD
 repository: 
-icon: bitlock.png
+icon: bitlock.webp
 bugbounty: 
 meta: ok
 verdict: vapor

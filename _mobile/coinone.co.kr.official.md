@@ -22,7 +22,7 @@ android:
   updated: 2026-09-14
   version: 5.37.0
   reviews: 15
-  icon: coinone.co.kr.official.png
+  icon: coinone.co.kr.official.webp
   meta: ok
   verdict: custodial
   developerName: Coinone
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-17
   version: 5.37.0
   reviews: 1055
-  icon: kr.co.coinone.officialapp.jpg
+  icon: kr.co.coinone.officialapp.webp
   meta: ok
   verdict: custodial
   developerName: Coinone

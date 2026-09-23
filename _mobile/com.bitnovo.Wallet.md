@@ -20,7 +20,7 @@ android:
   updated: 2026-06-23
   version: 3.0.84
   reviews: 12
-  icon: com.bitnovo.Wallet.png
+  icon: com.bitnovo.Wallet.webp
   meta: ok
   verdict: nosource
   developerName: BITNOVO
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-01-28
   version: 3.0.56
   reviews: 0
-  icon: com.bitnovo.Wallet.jpg
+  icon: com.bitnovo.Wallet.webp
   meta: removed
   verdict: nosource
   developerName: Bitnovo

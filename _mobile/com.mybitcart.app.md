@@ -10,7 +10,7 @@ android:
   released: 2020-04-23
   updated: 2020-04-24
   version: 1.0.0
-  icon: com.mybitcart.app.png
+  icon: com.mybitcart.app.webp
   meta: removed
   verdict: wip
   developerName: Sebastian Livingstone

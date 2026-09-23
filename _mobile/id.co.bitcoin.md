@@ -17,7 +17,7 @@ android:
   updated: 2026-09-17
   version: 5.9.8
   reviews: 493
-  icon: id.co.bitcoin.png
+  icon: id.co.bitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Indodax
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-06-29
   version: 3.3.6
   reviews: 8
-  icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
+  icon: id.co.bitcoin.Bitcoin-Trading-Platform.webp
   meta: removed
   verdict: custodial
 

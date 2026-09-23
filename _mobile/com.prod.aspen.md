@@ -13,7 +13,7 @@ android:
   released: 2022-06-28
   updated: 2025-09-22
   version: 2.1.20
-  icon: com.prod.aspen.png
+  icon: com.prod.aspen.webp
   meta: removed
   verdict: custodial
   developerName: Aspen Digital

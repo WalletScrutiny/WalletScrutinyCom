@@ -11,7 +11,7 @@ android:
   users: 10000
   updated: 2020-11-13
   version: 3.0.8
-  icon: com.gulftrader.png
+  icon: com.gulftrader.webp
   meta: removed
   verdict: wip
   developerName: Gulf Trader LTD

@@ -9,7 +9,7 @@ android:
   released: 2021-12-02
   updated: 2021-12-02
   version: 1.0.0
-  icon: com.lilliangreen.gdbeyhfy.png
+  icon: com.lilliangreen.gdbeyhfy.webp
   meta: removed
   verdict: wip
 

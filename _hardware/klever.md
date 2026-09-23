@@ -17,7 +17,7 @@ shop: https://kleversafe.io/cart/
 country: BR
 price: 199USD
 repository: 
-icon: klever.png
+icon: klever.webp
 bugbounty: 
 meta: ok
 verdict: noita

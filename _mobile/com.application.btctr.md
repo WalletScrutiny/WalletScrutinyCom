@@ -12,7 +12,7 @@ android:
   released: 2022-03-18
   updated: 2022-04-30
   version: 1.0.3
-  icon: com.application.btctr.png
+  icon: com.application.btctr.webp
   meta: removed
   verdict: wip
   developerName: Btchange Journal

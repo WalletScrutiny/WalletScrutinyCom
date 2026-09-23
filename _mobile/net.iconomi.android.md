@@ -22,7 +22,7 @@ android:
   updated: 2026-02-25
   version: 4.1.3
   reviews: 172
-  icon: net.iconomi.android.png
+  icon: net.iconomi.android.webp
   meta: ok
   verdict: custodial
   developerName: ICONOMI
@@ -34,7 +34,7 @@ iphone:
   updated: 2023-10-31
   version: 3.2.1
   reviews: 84
-  icon: net.iconomi.iconomi.jpg
+  icon: net.iconomi.iconomi.webp
   meta: obsolete
   verdict: custodial
   developerName: ICONOMI LTD

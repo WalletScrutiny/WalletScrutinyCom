@@ -10,7 +10,7 @@ android:
   released: 2022-10-19
   updated: 2023-07-24
   version: 1.4.3
-  icon: com.titanx_change.www.png
+  icon: com.titanx_change.www.webp
   meta: removed
   verdict: wip
   developerName: SRA Technologies Limited

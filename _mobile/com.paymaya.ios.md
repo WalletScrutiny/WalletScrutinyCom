@@ -22,7 +22,7 @@ iphone:
   updated: 2026-09-15
   version: 2.145.3
   reviews: 234844
-  icon: com.paymaya.ios.jpg
+  icon: com.paymaya.ios.webp
   meta: ok
   verdict: custodial
   developerName: Maya Philippines, Inc.

@@ -16,7 +16,7 @@ android:
   updated: 2026-09-19
   version: 2.29.7
   reviews: 1
-  icon: com.deltaexchangeindia.png
+  icon: com.deltaexchangeindia.webp
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-09-20
   version: 2.29.7
   reviews: 23021
-  icon: app.deltaexchange.india.jpg
+  icon: app.deltaexchange.india.webp
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India

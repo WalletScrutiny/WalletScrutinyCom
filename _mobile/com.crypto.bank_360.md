@@ -10,7 +10,7 @@ android:
   released: 2022-04-18
   updated: 2022-04-19
   version: 1.0.0
-  icon: com.crypto.bank_360.jpg
+  icon: com.crypto.bank_360.webp
   meta: removed
   verdict: wip
   developerName: RYDEUM Technologies, Inc.

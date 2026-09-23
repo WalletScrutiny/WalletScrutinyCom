@@ -22,7 +22,7 @@ shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
 country: KP
 price: 119USD
 repository: 
-icon: dcentbiometric.png
+icon: dcentbiometric.webp
 bugbounty: 
 meta: ok
 verdict: nosource

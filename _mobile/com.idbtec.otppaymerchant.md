@@ -10,7 +10,7 @@ android:
   released: 2018-12-05
   updated: 2019-06-18
   version: '1.4'
-  icon: com.idbtec.otppaymerchant.png
+  icon: com.idbtec.otppaymerchant.webp
   meta: removed
   verdict: wip
   developerName: Otppay OU

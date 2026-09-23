@@ -8,7 +8,7 @@ android:
   users: 10
   updated: 2021-12-01
   version: VARY
-  icon: com.raedahgroup.tradeagent.liveserver.png
+  icon: com.raedahgroup.tradeagent.liveserver.webp
   meta: removed
   verdict: wip
 

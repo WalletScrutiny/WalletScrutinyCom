@@ -10,7 +10,7 @@ android:
   released: 2020-07-13
   updated: 2020-07-15
   version: 0.16.1
-  icon: io.horizontalsystems.indexwallet.png
+  icon: io.horizontalsystems.indexwallet.webp
   meta: removed
   verdict: wip
   developerName: Optisecure

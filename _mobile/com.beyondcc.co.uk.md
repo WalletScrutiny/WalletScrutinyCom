@@ -10,7 +10,7 @@ android:
   released: 2019-10-21
   updated: 2019-10-21
   version: 0.0.1
-  icon: com.beyondcc.co.uk.png
+  icon: com.beyondcc.co.uk.webp
   meta: removed
   verdict: wip
   developerName: BeyondCC

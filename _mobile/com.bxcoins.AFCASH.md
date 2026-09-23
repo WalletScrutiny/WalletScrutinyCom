@@ -9,7 +9,7 @@ android:
   released: 2021-02-19
   updated: 2021-02-20
   version: 1.0.0
-  icon: com.bxcoins.AFCASH.png
+  icon: com.bxcoins.AFCASH.webp
   meta: removed
   verdict: wip
 

@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2023-11-23
   version: 1.9.1
-  icon: com.bitbnspay.png
+  icon: com.bitbnspay.webp
   meta: obsolete
   verdict: custodial
   developerName: Bitbns Cryptocurrency Trading Exchange India
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-12-23
   version: 1.8.7
   reviews: 155
-  icon: com.bitbns.bnspay.jpg
+  icon: com.bitbns.bnspay.webp
   meta: obsolete
   verdict: custodial
   developerName: Buyhatke Internet Private Limited

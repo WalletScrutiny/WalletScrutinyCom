@@ -9,7 +9,7 @@ android:
   released: 2021-05-19
   updated: 2021-06-21
   version: 1.0.2
-  icon: com.cntr.hadar.png
+  icon: com.cntr.hadar.webp
   meta: removed
   verdict: wip
   developerName: Centaur

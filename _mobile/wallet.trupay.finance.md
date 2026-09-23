@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-07-04
   version: VARY
-  icon: wallet.trupay.finance.png
+  icon: wallet.trupay.finance.webp
   meta: removed
   verdict: wip
   developerName: intrXn Technolabs Pvt Ltd

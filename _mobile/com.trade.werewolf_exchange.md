@@ -9,7 +9,7 @@ android:
   released: 2022-07-11
   updated: 2022-09-29
   version: 1.0.5
-  icon: com.trade.werewolf_exchange.png
+  icon: com.trade.werewolf_exchange.webp
   meta: removed
   verdict: wip
   developerName: CHAIN SENSE LTD

@@ -18,7 +18,7 @@ iphone:
   updated: 2026-09-18
   version: 3.0.2
   reviews: 0
-  icon: io.trustology.trustvault.jpg
+  icon: io.trustology.trustvault.webp
   meta: ok
   verdict: custodial
   developerName: Bitpanda Custody Ltd

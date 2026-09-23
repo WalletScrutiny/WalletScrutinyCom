@@ -10,7 +10,7 @@ android:
   released: 2022-02-25
   updated: 2022-02-25
   version: 0.21.0
-  icon: com.vance.wallet.jpg
+  icon: com.vance.wallet.webp
   meta: removed
   verdict: wip
   developerName: EVANCE Tech Inc.

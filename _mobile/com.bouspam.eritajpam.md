@@ -17,7 +17,7 @@ android:
   updated: 2026-09-14
   version: 3.2.3
   reviews: 24
-  icon: com.bouspam.eritajpam.png
+  icon: com.bouspam.eritajpam.webp
   meta: ok
   verdict: custodial
   developerName: Ezechias Caillot
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-08-20
   version: 2.4.7
   reviews: 1
-  icon: com.bouspam.eritajpam.jpg
+  icon: com.bouspam.eritajpam.webp
   meta: defunct
   verdict: custodial
   developerName: Eritajpam, LLC

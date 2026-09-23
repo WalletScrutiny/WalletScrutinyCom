@@ -3,7 +3,7 @@ title: Bitcoin Paper Wallet Treasure Chest
 appId: bitcoinpaperwallet.treasurechest
 authors:
 - danny
-icon: bitcoinpaperwallet.treasurechest.png
+icon: bitcoinpaperwallet.treasurechest.webp
 date: 2022-05-18
 website: https://blog.flo.cx/2014/02/bitcoin-paper-wallet-treasure-chest/
 repository: https://github.com/piperwallet/Piper

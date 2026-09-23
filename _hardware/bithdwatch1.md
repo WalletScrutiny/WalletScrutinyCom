@@ -22,7 +22,7 @@ shop: https://web.archive.org/web/20221125020552/https://bithd.com/BITHD-watch-1
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-icon: bithdwatch1.png
+icon: bithdwatch1.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

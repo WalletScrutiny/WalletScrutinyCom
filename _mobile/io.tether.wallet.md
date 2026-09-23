@@ -23,7 +23,7 @@ android:
   updated: 2026-09-11
   version: 1.10.0
   reviews: 10
-  icon: io.tether.wallet.png
+  icon: io.tether.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Tether Data
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-14
   version: 1.10.0
   reviews: 10
-  icon: io.tether.wallet.official.jpg
+  icon: io.tether.wallet.official.webp
   meta: ok
   verdict: nosource
   developerName: Tether Data

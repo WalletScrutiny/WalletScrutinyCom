@@ -10,7 +10,7 @@ android:
   released: 2020-08-13
   updated: 2026-04-09
   version: '15.1'
-  icon: com.webview.digitdax.png
+  icon: com.webview.digitdax.webp
   meta: fewusers
   verdict: wip
   developerName: Digitnesia

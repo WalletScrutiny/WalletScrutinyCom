@@ -25,7 +25,7 @@ android:
   updated: 2026-06-17
   version: 1.10.51
   reviews: 135
-  icon: wannabit.io.cosmostaion.png
+  icon: wannabit.io.cosmostaion.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-06-17
   version: v1.10.48
   reviews: 223
-  icon: io.wannabit.cosmostation.jpg
+  icon: io.wannabit.cosmostation.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper Co., Ltd.

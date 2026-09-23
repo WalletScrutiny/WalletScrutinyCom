@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: oixbio.png
+icon: oixbio.webp
 bugbounty: 
 meta: ok
 verdict: vapor

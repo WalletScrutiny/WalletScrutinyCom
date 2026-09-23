@@ -10,7 +10,7 @@ android:
   released: 2021-08-16
   updated: 2021-08-16
   version: 0.21.3
-  icon: com.dabblex.wallet.jpg
+  icon: com.dabblex.wallet.webp
   meta: removed
   verdict: wip
   developerName: Dabble X

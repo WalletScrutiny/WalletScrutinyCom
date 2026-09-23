@@ -21,7 +21,7 @@ android:
   updated: 2026-06-22
   version: 1.21.3
   reviews: 64
-  icon: com.ourbit.client.png
+  icon: com.ourbit.client.webp
   meta: removed
   verdict: custodial
   developerName: Ourbit
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-20
   version: 1.25.4
   reviews: 216
-  icon: com.ourbit.www.jpg
+  icon: com.ourbit.www.webp
   meta: ok
   verdict: custodial
   developerName: Ourbit Holdings Ltd

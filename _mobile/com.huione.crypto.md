@@ -13,7 +13,7 @@ android:
   released: 2022-05-30
   updated: 2024-05-16
   version: 2.3.0
-  icon: com.huione.crypto.png
+  icon: com.huione.crypto.webp
   meta: removed
   verdict: custodial
   developerName: Huione Group

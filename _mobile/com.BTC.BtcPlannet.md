@@ -10,7 +10,7 @@ android:
   released: 2022-06-20
   updated: 2022-06-20
   version: '5.0'
-  icon: com.BTC.BtcPlannet.png
+  icon: com.BTC.BtcPlannet.webp
   meta: removed
   verdict: wip
   developerName: Qalab Abbas

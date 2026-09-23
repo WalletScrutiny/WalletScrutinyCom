@@ -10,7 +10,7 @@ android:
   released: 2019-01-31
   updated: 2022-03-31
   version: 1.28.100
-  icon: sbivc.coolxwallet.png
+  icon: sbivc.coolxwallet.webp
   meta: removed
   verdict: wip
   developerName: SBI VC

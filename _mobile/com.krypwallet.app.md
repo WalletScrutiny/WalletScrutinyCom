@@ -10,7 +10,7 @@ android:
   released: 2021-05-06
   updated: 2021-08-31
   version: 1.0.0
-  icon: com.krypwallet.app.png
+  icon: com.krypwallet.app.webp
   meta: removed
   verdict: wip
   developerName: SHmining Tech

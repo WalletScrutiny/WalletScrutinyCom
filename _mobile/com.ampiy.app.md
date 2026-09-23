@@ -11,7 +11,7 @@ android:
   released: 2022-04-06
   updated: 2026-06-22
   version: 6.0.0
-  icon: com.ampiy.app.png
+  icon: com.ampiy.app.webp
   meta: fewusers
   verdict: wip
   developerName: Ampiy

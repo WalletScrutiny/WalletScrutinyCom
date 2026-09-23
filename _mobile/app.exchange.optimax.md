@@ -10,7 +10,7 @@ android:
   released: 2022-02-10
   updated: 2022-02-11
   version: 1.0.0
-  icon: app.exchange.optimax.png
+  icon: app.exchange.optimax.webp
   meta: removed
   verdict: wip
   developerName: Optimax crypto

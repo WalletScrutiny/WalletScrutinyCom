@@ -10,7 +10,7 @@ android:
   released: 2022-05-10
   updated: 2022-05-10
   version: 1.0.5
-  icon: com.cryptoexpress.apptrading.png
+  icon: com.cryptoexpress.apptrading.webp
   meta: removed
   verdict: wip
   developerName: Bitenium Exchange LLC

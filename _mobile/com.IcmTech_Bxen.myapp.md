@@ -10,7 +10,7 @@ android:
   released: 2019-09-28
   updated: 2019-09-28
   version: '1.0'
-  icon: com.IcmTech_Bxen.myapp.png
+  icon: com.IcmTech_Bxen.myapp.webp
   meta: removed
   verdict: wip
 

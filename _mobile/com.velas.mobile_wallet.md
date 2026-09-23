@@ -23,7 +23,7 @@ android:
   updated: 2024-01-31
   version: 2.3.19
   reviews: 22
-  icon: com.velas.mobile_wallet.png
+  icon: com.velas.mobile_wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: VELAS Network AG
@@ -35,7 +35,7 @@ iphone:
   updated: 2024-06-12
   version: 2.3.18
   reviews: 10
-  icon: com.velas.walletmobile.jpg
+  icon: com.velas.walletmobile.webp
   meta: obsolete
   verdict: nosource
   developerName: Velas

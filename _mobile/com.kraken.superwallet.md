@@ -26,7 +26,7 @@ android:
   updated: 2026-09-15
   version: 2.3.0 (19)
   reviews: 136
-  icon: com.kraken.superwallet.png
+  icon: com.kraken.superwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Payward, Inc.
@@ -39,7 +39,7 @@ iphone:
   updated: 2026-09-16
   version: 2.3.0
   reviews: 1285
-  icon: com.kraken.superwallet.app.jpg
+  icon: com.kraken.superwallet.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Kraken

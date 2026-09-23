@@ -17,7 +17,7 @@ android:
   users: 1000
   updated: 2024-06-03
   version: VARY
-  icon: io.vircap.main.png
+  icon: io.vircap.main.webp
   meta: removed
   verdict: custodial
   developerName: Vircap LLC
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-06-05
   version: 1.0.47
   reviews: 9
-  icon: io.vircap.main.jpg
+  icon: io.vircap.main.webp
   meta: removed
   verdict: custodial
   developerName: Vircap LLC

@@ -16,7 +16,7 @@ android:
   updated: 2023-11-06
   version: 0.117.0
   reviews: 19
-  icon: com.finbloxapp.finblox.jpg
+  icon: com.finbloxapp.finblox.webp
   meta: removed
   verdict: custodial
   developerName: Finblox

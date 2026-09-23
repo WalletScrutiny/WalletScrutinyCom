@@ -9,7 +9,7 @@ android:
   released: 2022-03-23
   updated: 2022-04-29
   version: 1.0.3
-  icon: com.instaspot.mobiletrader.png
+  icon: com.instaspot.mobiletrader.webp
   meta: removed
   verdict: wip
   developerName: InstaSpot

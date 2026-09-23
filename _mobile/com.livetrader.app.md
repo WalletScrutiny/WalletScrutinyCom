@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2023-01-05
   version: 1.1.93
-  icon: com.livetrader.app.png
+  icon: com.livetrader.app.webp
   meta: removed
   verdict: wip
   developerName: LiveTrader LTD

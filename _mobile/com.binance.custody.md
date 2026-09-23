@@ -20,7 +20,7 @@ android:
   updated: 2023-08-17
   version: 2.9.1
   reviews: 8
-  icon: com.binance.custody.png
+  icon: com.binance.custody.webp
   meta: removed
   verdict: custodial
   developerName: Binance Inc.
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-15
   version: 6.0.0
   reviews: 0
-  icon: com.binance.custody.jpg
+  icon: com.binance.custody.webp
   meta: ok
   verdict: custodial
   developerName: Block Technologies Pte Ltd

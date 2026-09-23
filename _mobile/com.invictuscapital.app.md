@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2022-03-28
   version: 1.0.9
-  icon: com.invictuscapital.app.jpg
+  icon: com.invictuscapital.app.webp
   meta: removed
   verdict: wip
   developerName: InvictusCapital

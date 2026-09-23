@@ -20,7 +20,7 @@ android:
   updated: 2022-02-15
   version: 2.12.3
   reviews: 10
-  icon: com.bixin.wallet.mainnet.png
+  icon: com.bixin.wallet.mainnet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-11-19
   version: 2.12.2
   reviews: 18
-  icon: com.onekey.wallet.jpg
+  icon: com.onekey.wallet.webp
   meta: removed
   verdict: nosource
 

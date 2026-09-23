@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: gildiwallet.png
+icon: gildiwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

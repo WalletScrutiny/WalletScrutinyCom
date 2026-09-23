@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: piwallet.png
+icon: piwallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip

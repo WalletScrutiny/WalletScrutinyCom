@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: 
-icon: meek.png
+icon: meek.webp
 bugbounty: 
 meta: ok
 verdict: vapor

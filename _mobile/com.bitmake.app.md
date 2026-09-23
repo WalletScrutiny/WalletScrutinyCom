@@ -20,7 +20,7 @@ android:
   released: 2022-07-04
   updated: 2024-01-26
   version: 1.4.3
-  icon: com.bitmake.app.png
+  icon: com.bitmake.app.webp
   meta: removed
   verdict: custodial
   developerName: BITMAKE TECHNOLOGY LLC

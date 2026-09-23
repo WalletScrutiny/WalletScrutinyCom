@@ -10,7 +10,7 @@ android:
   released: 2019-06-24
   updated: 2019-10-05
   version: '1.23'
-  icon: digiiblip.com.nobelhold.png
+  icon: digiiblip.com.nobelhold.webp
   meta: removed
   verdict: wip
 

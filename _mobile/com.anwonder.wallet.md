@@ -10,7 +10,7 @@ android:
   released: 2021-05-30
   updated: 2021-05-31
   version: 1.0.1
-  icon: com.anwonder.wallet.png
+  icon: com.anwonder.wallet.webp
   meta: removed
   verdict: wip
   developerName: Anwonder

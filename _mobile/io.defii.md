@@ -10,7 +10,7 @@ android:
   released: 2021-04-24
   updated: 2021-08-05
   version: 2.0.3
-  icon: io.defii.png
+  icon: io.defii.webp
   meta: removed
   verdict: wip
   developerName: CHT Innovative Technology PTE.  LTD

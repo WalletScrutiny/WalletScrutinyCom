@@ -10,7 +10,7 @@ android:
   updated: 2022-06-22
   version: '4.8'
   reviews: 12
-  icon: com.bitcoinmatak.tmki.jpg
+  icon: com.bitcoinmatak.tmki.webp
   meta: removed
   verdict: wip
   developerName: marc ferrell

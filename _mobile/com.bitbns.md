@@ -22,7 +22,7 @@ android:
   updated: 2026-04-06
   version: 6.21.0
   reviews: 44
-  icon: com.bitbns.png
+  icon: com.bitbns.webp
   meta: ok
   verdict: custodial
   developerName: Bitbns Cryptocurrency Trading Exchange India

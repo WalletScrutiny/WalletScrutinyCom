@@ -18,7 +18,7 @@ shop:
 country: 
 price: 
 repository: https://github.com/heneault/trezor-firmware
-icon: pitrezor.png
+icon: pitrezor.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

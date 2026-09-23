@@ -9,7 +9,7 @@ android:
   released: 2021-11-18
   updated: 2021-11-19
   version: '1.0'
-  icon: com.kryptrx.app.png
+  icon: com.kryptrx.app.webp
   meta: removed
   verdict: wip
   developerName: ETHERLIN

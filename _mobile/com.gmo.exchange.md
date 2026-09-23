@@ -20,7 +20,7 @@ android:
   updated: 2026-08-12
   version: 3.2.9
   reviews: 34
-  icon: com.gmo.exchange.jpg
+  icon: com.gmo.exchange.webp
   meta: ok
   verdict: custodial
   developerName: GMO-Z.com Cryptonomics Ltd. Thailand
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-17
   version: 3.2.9
   reviews: 31
-  icon: com.gmo.exchange.jpg
+  icon: com.gmo.exchange.webp
   meta: ok
   verdict: custodial
   developerName: GMO-Z.Com Cryptonomics (Thailand) Co.,Ltd

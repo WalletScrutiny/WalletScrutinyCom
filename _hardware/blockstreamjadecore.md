@@ -20,7 +20,7 @@ shop: https://store.blockstream.com/products/blockstream-jade-core
 country: CA
 price: 99USD
 repository: https://github.com/Blockstream/Jade
-icon: blockstreamjadecore.png
+icon: blockstreamjadecore.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

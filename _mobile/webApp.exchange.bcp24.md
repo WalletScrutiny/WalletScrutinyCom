@@ -10,7 +10,7 @@ android:
   released: 2021-05-28
   updated: 2021-05-28
   version: '1.0'
-  icon: webApp.exchange.bcp24.png
+  icon: webApp.exchange.bcp24.webp
   meta: removed
   verdict: wip
   developerName: PHU DIANET

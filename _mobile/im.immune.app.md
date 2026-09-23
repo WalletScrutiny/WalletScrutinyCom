@@ -15,7 +15,7 @@ android:
   released: 2019-11-29
   updated: 2025-02-28
   version: 2.2.1
-  icon: im.immune.app.png
+  icon: im.immune.app.webp
   meta: stale
   verdict: nosource
   developerName: IMM Money Messenger Limited
@@ -27,7 +27,7 @@ iphone:
   updated: 2025-09-08
   version: 2.2.2
   reviews: 4
-  icon: im.immune.app.jpg
+  icon: im.immune.app.webp
   meta: stale
   verdict: nosource
   developerName: IMM Money Messenger Limited

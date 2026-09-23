@@ -10,7 +10,7 @@ android:
   released: 2020-11-02
   updated: 2020-12-02
   version: 1.0.4
-  icon: com.pandats.goldenstanley.png
+  icon: com.pandats.goldenstanley.webp
   meta: removed
   verdict: wip
 

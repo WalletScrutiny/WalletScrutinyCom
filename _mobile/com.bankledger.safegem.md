@@ -9,7 +9,7 @@ android:
   released: 2019-08-15
   updated: 2019-08-20
   version: 1.2.0
-  icon: com.bankledger.safegem.png
+  icon: com.bankledger.safegem.webp
   meta: removed
   verdict: wip
   developerName: 银链团队

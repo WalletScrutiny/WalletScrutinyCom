@@ -9,7 +9,7 @@ iphone:
   updated: 2026-01-22
   version: '1.1'
   reviews: 0
-  icon: com.production.goldbitwallet.jpg
+  icon: com.production.goldbitwallet.webp
   meta: ok
   verdict: wip
   developerName: SAKOS CORPORATION

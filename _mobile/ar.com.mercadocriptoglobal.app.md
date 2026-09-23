@@ -10,7 +10,7 @@ android:
   released: 2018-03-21
   updated: 2018-03-21
   version: 2.4.1
-  icon: ar.com.mercadocriptoglobal.app.png
+  icon: ar.com.mercadocriptoglobal.app.webp
   meta: removed
   verdict: wip
   developerName: Pablo Martin San Cristobal

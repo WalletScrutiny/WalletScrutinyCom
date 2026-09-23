@@ -11,7 +11,7 @@ android:
   released: 2018-01-10
   updated: 2022-01-10
   version: 1.0.0
-  icon: com.cryptooriented.exchanges.png
+  icon: com.cryptooriented.exchanges.webp
   meta: removed
   verdict: wip
   developerName: Transporter Lab GmbH

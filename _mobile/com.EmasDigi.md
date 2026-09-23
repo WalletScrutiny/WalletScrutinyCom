@@ -14,7 +14,7 @@ android:
   updated: 2026-09-10
   version: 7.7.0
   reviews: 123
-  icon: com.EmasDigi.png
+  icon: com.EmasDigi.webp
   meta: ok
   verdict: nosendreceive
   developerName: pluang

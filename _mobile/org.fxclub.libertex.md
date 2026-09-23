@@ -18,7 +18,7 @@ android:
   updated: 2026-08-31
   version: 2.61.0
   reviews: 1271
-  icon: org.fxclub.libertex.png
+  icon: org.fxclub.libertex.webp
   meta: ok
   verdict: nosendreceive
   developerName: Libertex International Company LLC
@@ -29,7 +29,7 @@ iphone:
   updated: 2019-05-25
   version: 2.21.0
   reviews: 429
-  icon: org.fxclub.LibertexCL.jpg
+  icon: org.fxclub.LibertexCL.webp
   meta: removed
   verdict: nosendreceive
 

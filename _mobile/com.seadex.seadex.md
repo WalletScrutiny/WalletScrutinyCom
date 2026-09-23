@@ -12,7 +12,7 @@ android:
   released: 2018-08-11
   updated: 2018-09-05
   version: 1.2.0
-  icon: com.seadex.seadex.png
+  icon: com.seadex.seadex.webp
   meta: removed
   verdict: wip
   developerName: Southeast Asia Digital Exchange

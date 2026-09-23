@@ -10,7 +10,7 @@ android:
   users: 1000
   updated: 2020-06-17
   version: 1.7.2
-  icon: com.blockabc.abcwallet.png
+  icon: com.blockabc.abcwallet.webp
   meta: removed
   verdict: obfuscated
 

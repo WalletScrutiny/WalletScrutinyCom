@@ -20,7 +20,7 @@ android:
   updated: 2026-09-17
   version: 1.9.2
   reviews: 1
-  icon: ammer.wallet.png
+  icon: ammer.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Ammer Technologies AG
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-29
   version: '9.1'
   reviews: 0
-  icon: io.trustody.wallet.jpg
+  icon: io.trustody.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Ammer Technologies AG

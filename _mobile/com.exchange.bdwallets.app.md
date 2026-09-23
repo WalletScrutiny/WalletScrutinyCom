@@ -10,7 +10,7 @@ android:
   released: 2021-12-29
   updated: 2022-01-08
   version: 1.0.2
-  icon: com.exchange.bdwallets.app.png
+  icon: com.exchange.bdwallets.app.webp
   meta: removed
   verdict: wip
   developerName: BD Wallets

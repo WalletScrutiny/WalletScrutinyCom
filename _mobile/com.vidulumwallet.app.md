@@ -22,7 +22,7 @@ android:
   updated: 2024-01-24
   version: '4.0'
   reviews: 12
-  icon: com.vidulumwallet.app.png
+  icon: com.vidulumwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-02-07
   version: 1.6.1
   reviews: 16
-  icon: com.vidulum.app.jpg
+  icon: com.vidulum.app.webp
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC

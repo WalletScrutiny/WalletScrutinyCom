@@ -20,7 +20,7 @@ shop: https://web.archive.org/web/20231203073211/https://www.cryptocoinwalletcar
 country: US
 price: 5 USD
 repository: 
-icon: cryptocoins.walletcard.png
+icon: cryptocoins.walletcard.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled

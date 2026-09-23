@@ -23,7 +23,7 @@ android:
   updated: 2026-09-18
   version: 3.28.8
   reviews: 3
-  icon: com.mpcvault.mobileapp.android.png
+  icon: com.mpcvault.mobileapp.android.webp
   meta: ok
   verdict: custodial
   developerName: MetaLoop Inc
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-15
   version: 1.152.0
   reviews: 135
-  icon: com.mpcvault.mobileapp.ios.jpg
+  icon: com.mpcvault.mobileapp.ios.webp
   meta: ok
   verdict: custodial
   developerName: MetaLoop Inc

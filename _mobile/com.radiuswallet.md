@@ -10,7 +10,7 @@ android:
   released: 2022-05-06
   updated: 2023-02-03
   version: 1.4.1
-  icon: com.radiuswallet.png
+  icon: com.radiuswallet.webp
   meta: removed
   verdict: wip
   developerName: Creative Labs Limited

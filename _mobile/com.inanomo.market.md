@@ -15,7 +15,7 @@ android:
   released: 2021-04-06
   updated: 2022-08-23
   version: 1.1.0
-  icon: com.inanomo.market.png
+  icon: com.inanomo.market.webp
   meta: removed
   verdict: custodial
   developerName: Inanomo Technologies LLC

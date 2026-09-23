@@ -17,7 +17,7 @@ shop:
 country: UK
 price: 
 repository: 
-icon: digitalbank.vault.png
+icon: digitalbank.vault.webp
 bugbounty: 
 meta: ok
 verdict: vapor

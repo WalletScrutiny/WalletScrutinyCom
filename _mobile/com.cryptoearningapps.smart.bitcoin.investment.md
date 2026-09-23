@@ -9,7 +9,7 @@ android:
   released: 2021-06-29
   updated: 2021-06-29
   version: '1.0'
-  icon: com.cryptoearningapps.smart.bitcoin.investment.png
+  icon: com.cryptoearningapps.smart.bitcoin.investment.webp
   meta: removed
   verdict: wip
 

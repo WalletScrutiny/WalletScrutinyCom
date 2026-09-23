@@ -12,7 +12,7 @@ provider: Denton LLC
 providerWebsite: 
 website: https://fullynoded.app/
 repository: https://github.com/Fonta1n3/FullyNoded
-icon: fullynoded.png
+icon: fullynoded.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

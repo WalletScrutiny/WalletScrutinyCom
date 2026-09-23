@@ -17,7 +17,7 @@ shop: https://oton.club/purchase#deadLink
 country: SC
 price: 
 repository: https://github.com/OTONtechnology/oton-wallet-ext
-icon: oton.png
+icon: oton.webp
 bugbounty: 
 meta: ok
 verdict: vapor

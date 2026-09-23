@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20220423113429/https://cypra.io/
 repository: https://github.com/hexresearch/ergvein
-icon: ergvein.png
+icon: ergvein.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

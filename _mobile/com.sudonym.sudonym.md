@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2023-01-23
   version: 1.0.2
-  icon: com.sudonym.sudonym.png
+  icon: com.sudonym.sudonym.webp
   meta: removed
   verdict: wip
   developerName: sudonym

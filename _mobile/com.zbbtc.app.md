@@ -10,7 +10,7 @@ android:
   updated: 2022-04-09
   version: '1.0'
   reviews: 8
-  icon: com.zbbtc.app.png
+  icon: com.zbbtc.app.webp
   meta: removed
   verdict: wip
 

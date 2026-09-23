@@ -19,7 +19,7 @@ android:
   released: 2021-07-14
   updated: 2024-02-19
   version: 1.9.26
-  icon: com.yaolian.qoline.png
+  icon: com.yaolian.qoline.webp
   meta: obsolete
   verdict: wip
   developerName: V-byte
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-03-13
   version: 2.0.2
   reviews: 2
-  icon: com.sallet.walletBit.jpg
+  icon: com.sallet.walletBit.webp
   meta: removed
   verdict: wip
   developerName: sallet .Inc

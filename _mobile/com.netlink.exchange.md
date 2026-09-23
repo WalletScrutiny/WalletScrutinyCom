@@ -10,7 +10,7 @@ android:
   released: 2019-08-27
   updated: 2019-08-27
   version: 1.0.0
-  icon: com.netlink.exchange.png
+  icon: com.netlink.exchange.webp
   meta: removed
   verdict: wip
 

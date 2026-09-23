@@ -8,7 +8,7 @@ android:
   users: 10
   updated: 2021-07-21
   version: VARY
-  icon: com.bitprivetech.bpve.png
+  icon: com.bitprivetech.bpve.webp
   meta: removed
   verdict: wip
   developerName: Bitprive, LLC

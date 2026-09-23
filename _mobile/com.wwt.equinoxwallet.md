@@ -9,7 +9,7 @@ android:
   released: 2021-11-17
   updated: 2022-05-09
   version: 3.40.9
-  icon: com.wwt.equinoxwallet.png
+  icon: com.wwt.equinoxwallet.webp
   meta: removed
   verdict: wip
 

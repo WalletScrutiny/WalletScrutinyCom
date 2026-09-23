@@ -13,7 +13,7 @@ android:
   released: 2020-06-29
   updated: 2020-10-05
   version: 1.2.2
-  icon: com.paymintlabs.paymint.png
+  icon: com.paymintlabs.paymint.webp
   meta: removed
   verdict: wip
   developerName: Paymint Labs

@@ -10,7 +10,7 @@ android:
   released: 2018-08-21
   updated: 2019-02-15
   version: '1.0'
-  icon: com.saifu.png
+  icon: com.saifu.webp
   meta: removed
   verdict: wip
 

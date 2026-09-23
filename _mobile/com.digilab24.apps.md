@@ -20,7 +20,7 @@ android:
   released: 2022-04-06
   updated: 2023-05-18
   version: 1.9.18
-  icon: com.digilab24.apps.png
+  icon: com.digilab24.apps.webp
   meta: removed
   verdict: custodial
   developerName: C PASS
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-05-18
   version: 1.9.18
   reviews: 0
-  icon: com.digilab24.apps.jpg
+  icon: com.digilab24.apps.webp
   meta: removed
   verdict: custodial
   developerName: C PASS Inc.

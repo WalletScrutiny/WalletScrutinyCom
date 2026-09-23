@@ -9,7 +9,7 @@ android:
   released: 2021-10-15
   updated: 2021-11-18
   version: 1.0.3
-  icon: com.plato.mobile.app.png
+  icon: com.plato.mobile.app.webp
   meta: removed
   verdict: wip
   developerName: Plato Technologies Inc.

@@ -11,7 +11,7 @@ android:
   updated: 2022-12-08
   version: '1'
   reviews: 22
-  icon: app.vercel.buy_crypto.twa.jpg
+  icon: app.vercel.buy_crypto.twa.webp
   meta: removed
   verdict: wip
   developerName: Geek Family

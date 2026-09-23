@@ -17,7 +17,7 @@ android:
   released: 2022-03-29
   updated: 2023-05-22
   version: 1.5.0
-  icon: com.app.exchangejl.jpg
+  icon: com.app.exchangejl.webp
   meta: removed
   verdict: wip
   developerName: Krypterz Exchange

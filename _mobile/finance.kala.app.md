@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2021-10-05
   version: VARY
-  icon: finance.kala.app.png
+  icon: finance.kala.app.webp
   meta: removed
   verdict: wip
   developerName: Kala Labs

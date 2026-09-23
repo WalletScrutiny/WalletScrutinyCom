@@ -9,7 +9,7 @@ android:
   released: 2020-04-09
   updated: 2020-04-10
   version: '1.0'
-  icon: com.app.cpeddle.png
+  icon: com.app.cpeddle.webp
   meta: removed
   verdict: wip
   developerName: Multi_official

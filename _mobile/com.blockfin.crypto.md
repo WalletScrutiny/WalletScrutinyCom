@@ -10,7 +10,7 @@ android:
   released: 2022-04-17
   updated: 2022-04-17
   version: 1.0.0
-  icon: com.blockfin.crypto.png
+  icon: com.blockfin.crypto.webp
   meta: removed
   verdict: wip
 

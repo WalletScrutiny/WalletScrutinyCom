@@ -10,7 +10,7 @@ android:
   released: 2022-08-29
   updated: 2022-09-01
   version: 1.0.1
-  icon: com.miriswa.p2p.png
+  icon: com.miriswa.p2p.webp
   meta: removed
   verdict: wip
   developerName: MirisWallet

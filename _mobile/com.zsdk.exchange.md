@@ -16,7 +16,7 @@ android:
   updated: 2022-10-07
   version: 3.2.0
   reviews: 46
-  icon: com.zsdk.exchange.png
+  icon: com.zsdk.exchange.webp
   meta: removed
   verdict: custodial
   developerName: ZBG_exchange

@@ -19,7 +19,7 @@ android:
   released: 2025-05-16
   updated: 2026-02-24
   version: 5.7.0
-  icon: app.safex.vip.png
+  icon: app.safex.vip.webp
   meta: removed
   verdict: custodial
   developerName: SAFETRADING LTD
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-20
   version: 5.19.5
   reviews: 209
-  icon: co.safex.org.jpg
+  icon: co.safex.org.webp
   meta: ok
   verdict: custodial
   developerName: SAFETRADING LTD

@@ -24,7 +24,7 @@ android:
   updated: 2026-09-18
   version: 5.2.21
   reviews: 685
-  icon: com.nicehash.metallum.png
+  icon: com.nicehash.metallum.webp
   meta: ok
   verdict: custodial
   developerName: NiceHash AG
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-21
   version: 7.1.21
   reviews: 4570
-  icon: com.nicehash.mobile.jpg
+  icon: com.nicehash.mobile.webp
   meta: ok
   verdict: custodial
   developerName: NiceHash AG

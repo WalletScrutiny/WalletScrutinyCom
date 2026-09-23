@@ -17,7 +17,7 @@ android:
   updated: 2022-05-20
   version: 1.0.20
   reviews: 55
-  icon: com.application.nodawallet.png
+  icon: com.application.nodawallet.webp
   meta: removed
   verdict: nosource
   developerName: noda

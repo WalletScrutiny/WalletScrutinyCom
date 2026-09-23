@@ -9,7 +9,7 @@ android:
   released: 2020-06-07
   updated: 2020-07-17
   version: 1.1.2
-  icon: com.sg9e9.bitonewallet.png
+  icon: com.sg9e9.bitonewallet.webp
   meta: removed
   verdict: wip
   developerName: 9E9 DIGITAL ASSETS EXCHANGE PTE.LTD.

@@ -15,7 +15,7 @@ android:
   released: 2023-05-11
   updated: 2025-12-29
   version: 1.5.4
-  icon: ua.rubicon.crypto.wallet.png
+  icon: ua.rubicon.crypto.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Rubicoin Software Company OU
@@ -27,7 +27,7 @@ iphone:
   updated: 2025-12-30
   version: 1.5.4
   reviews: 16
-  icon: money.rubicoin.wallet.jpg
+  icon: money.rubicoin.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Rubicoin Software Company OU

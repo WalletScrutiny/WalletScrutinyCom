@@ -9,7 +9,7 @@ android:
   released: 2021-05-17
   updated: 2021-05-14
   version: '1.0'
-  icon: com.aeio.incoin.png
+  icon: com.aeio.incoin.webp
   meta: removed
   verdict: wip
   developerName: Fei2021

@@ -20,7 +20,7 @@ shop: https://www.quickxtouch.com/product/quickx-touch-card
 country: MT
 price: 149USD
 repository: 
-icon: quickxtouch.png
+icon: quickxtouch.webp
 bugbounty: 
 meta: ok
 verdict: noita

@@ -20,7 +20,7 @@ android:
   updated: 2026-09-15
   version: 26.19.0
   reviews: 361958
-  icon: com.venmo.png
+  icon: com.venmo.webp
   meta: ok
   verdict: nosendreceive
   developerName: PayPal Mobile
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-16
   version: 26.20.0
   reviews: 15471033
-  icon: net.kortina.labs.Venmo.jpg
+  icon: net.kortina.labs.Venmo.webp
   meta: ok
   verdict: nosendreceive
   developerName: Venmo

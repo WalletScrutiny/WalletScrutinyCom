@@ -12,7 +12,7 @@ android:
   updated: 2022-10-18
   version: 1.0.12
   reviews: 7
-  icon: sone.finance.wallet.png
+  icon: sone.finance.wallet.webp
   meta: removed
   verdict: wip
   developerName: S-ONE Finance

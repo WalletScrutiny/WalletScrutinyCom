@@ -28,7 +28,7 @@ android:
   updated: 2026-09-21
   version: 3.4.8
   reviews: 243
-  icon: com.livingroomofsatoshi.wallet.png
+  icon: com.livingroomofsatoshi.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Wallet of Satoshi
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-08-30
   version: 3.4.8
   reviews: 56
-  icon: com.livingroomofsatoshi.wallet.jpg
+  icon: com.livingroomofsatoshi.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Wallet of Satoshi

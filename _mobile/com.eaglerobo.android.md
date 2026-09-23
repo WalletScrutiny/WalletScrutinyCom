@@ -10,7 +10,7 @@ android:
   released: 2021-10-20
   updated: 2021-11-22
   version: 1.0.2
-  icon: com.eaglerobo.android.png
+  icon: com.eaglerobo.android.webp
   meta: removed
   verdict: wip
   developerName: eagle robo

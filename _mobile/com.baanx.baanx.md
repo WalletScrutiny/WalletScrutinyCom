@@ -18,7 +18,7 @@ android:
   released: 2019-10-10
   updated: 2023-02-02
   version: 3.1.1
-  icon: com.baanx.baanx.png
+  icon: com.baanx.baanx.webp
   meta: removed
   verdict: custodial
   developerName: Baanx.com Ltd
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-02-07
   version: 3.1.1
   reviews: 7
-  icon: com.baanx.baanxapp.jpg
+  icon: com.baanx.baanxapp.webp
   meta: removed
   verdict: custodial
   developerName: Baanx.com Ltd

@@ -16,7 +16,7 @@ android:
   released: 2025-07-24
   updated: 2026-08-18
   version: 1.0.32
-  icon: com.tapwalletmobile.png
+  icon: com.tapwalletmobile.webp
   meta: ok
   verdict: nosource
   developerName: Trac Systems
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-08-20
   version: 1.0.10
   reviews: 8
-  icon: com.tap-protocol.tapwallet.jpg
+  icon: com.tap-protocol.tapwallet.webp
   meta: ok
   verdict: nosource
   developerName: Trac Systems UG (haftungsbeschrankt)

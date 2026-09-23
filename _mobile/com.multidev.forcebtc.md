@@ -10,7 +10,7 @@ android:
   updated: 2021-01-08
   version: '1.0'
   reviews: 3
-  icon: com.multidev.forcebtc.png
+  icon: com.multidev.forcebtc.webp
   meta: removed
   verdict: wip
 

@@ -12,7 +12,7 @@ android:
   released: 2019-09-19
   updated: 2023-06-21
   version: 2.6.6
-  icon: com.ffk.paybank.png
+  icon: com.ffk.paybank.webp
   meta: removed
   verdict: custodial
   developerName: UAB Livil Pay

@@ -14,7 +14,7 @@ android:
   released: 2022-11-10
   updated: 2023-12-21
   version: 3.0.34
-  icon: com.qkex.png
+  icon: com.qkex.webp
   meta: removed
   verdict: custodial
   developerName: QKEx Android

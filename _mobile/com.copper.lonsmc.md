@@ -9,7 +9,7 @@ android:
   released: 2022-12-29
   updated: 2022-12-29
   version: '1.1'
-  icon: com.copper.lonsmc.png
+  icon: com.copper.lonsmc.webp
   meta: removed
   verdict: wip
   developerName: Stephanie Bronte

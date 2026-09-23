@@ -19,7 +19,7 @@ android:
   updated: 2021-10-20
   version: 0.22.1
   reviews: 9
-  icon: com.starbase.wallet.jpg
+  icon: com.starbase.wallet.webp
   meta: removed
   verdict: wip
   developerName: Starship Holdings, Inc

@@ -3,7 +3,7 @@ title: BitRef Firefox Extension
 appId: ext.bitref
 authors:
 - danny
-icon: ext.bitref.png
+icon: ext.bitref.webp
 date: 2024-05-09
 released: 2017-03-28
 updated: 2020-06-08

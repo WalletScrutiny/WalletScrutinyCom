@@ -9,7 +9,7 @@ android:
   users: 50
   updated: 2020-05-08
   version: VARY
-  icon: bitsblockchain.net.png
+  icon: bitsblockchain.net.webp
   meta: removed
   verdict: wip
   developerName: BITSBLOCKCHAIN FINTECH CORP

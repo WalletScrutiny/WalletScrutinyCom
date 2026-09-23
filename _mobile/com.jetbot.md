@@ -10,7 +10,7 @@ android:
   released: 2022-03-08
   updated: 2022-04-28
   version: '1.19'
-  icon: com.jetbot.png
+  icon: com.jetbot.webp
   meta: removed
   verdict: wip
   developerName: spare x

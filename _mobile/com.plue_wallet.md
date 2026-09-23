@@ -10,7 +10,7 @@ android:
   released: 2019-04-01
   updated: 2021-08-04
   version: 2.4.2
-  icon: com.plue_wallet.png
+  icon: com.plue_wallet.webp
   meta: removed
   verdict: wip
   developerName: Plue Wallet

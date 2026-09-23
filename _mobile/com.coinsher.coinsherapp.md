@@ -17,7 +17,7 @@ android:
   updated: 2025-12-27
   version: 1.5.2
   reviews: 9
-  icon: com.coinsher.coinsherapp.png
+  icon: com.coinsher.coinsherapp.webp
   meta: ok
   verdict: custodial
   developerName: Solidray

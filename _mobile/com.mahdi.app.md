@@ -9,7 +9,7 @@ android:
   released: 2022-07-02
   updated: 2022-11-06
   version: '1.1'
-  icon: com.mahdi.app.png
+  icon: com.mahdi.app.webp
   meta: removed
   verdict: wip
   developerName: CSCAB

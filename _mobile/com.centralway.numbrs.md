@@ -11,7 +11,7 @@ android:
   updated: 2022-04-14
   version: 7.4.0
   reviews: 6
-  icon: com.centralway.numbrs.png
+  icon: com.centralway.numbrs.webp
   meta: removed
   verdict: nosource
   developerName: Numbrs Personal Finance AG

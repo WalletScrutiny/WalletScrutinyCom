@@ -11,7 +11,7 @@ android:
   updated: 2021-05-03
   version: 1.99.15
   reviews: 1
-  icon: app.elaphant.wallets.png
+  icon: app.elaphant.wallets.webp
   meta: removed
   verdict: wip
 

@@ -21,7 +21,7 @@ android:
   updated: 2026-02-09
   version: 104.0.0
   reviews: 152
-  icon: com.etoro.wallet.png
+  icon: com.etoro.wallet.webp
   meta: removed
   verdict: custodial
   developerName: eToroX
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-02-12
   version: 104.0.0
   reviews: 181
-  icon: com.etoro.wallet.jpg
+  icon: com.etoro.wallet.webp
   meta: removed
   verdict: custodial
   developerName: eToro

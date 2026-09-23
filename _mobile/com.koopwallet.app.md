@@ -21,7 +21,7 @@ android:
   updated: 2023-07-11
   version: 21.0.0
   reviews: 5
-  icon: com.koopwallet.app.png
+  icon: com.koopwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: KOOP LABS LLC
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-04-20
   version: '20.0'
   reviews: 0
-  icon: com.koopwallet.app.jpg
+  icon: com.koopwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: KOOP Wallet

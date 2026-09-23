@@ -9,7 +9,7 @@ android:
   released: 2021-10-20
   updated: 2022-01-18
   version: 1.4.4
-  icon: io.coinsunion.production.png
+  icon: io.coinsunion.production.webp
   meta: removed
   verdict: wip
   developerName: Coins Union

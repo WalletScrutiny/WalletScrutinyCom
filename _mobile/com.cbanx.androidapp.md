@@ -10,7 +10,7 @@ android:
   released: 2018-08-25
   updated: 2019-06-25
   version: 2.1.20
-  icon: com.cbanx.androidapp.png
+  icon: com.cbanx.androidapp.webp
   meta: removed
   verdict: wip
   developerName: CBANX LTD

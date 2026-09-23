@@ -20,7 +20,7 @@ android:
   released: 2019-07-03
   updated: 2023-10-03
   version: 1.12.3
-  icon: com.bit.eu.png
+  icon: com.bit.eu.webp
   meta: obsolete
   verdict: custodial
   developerName: INTEBIX LTD
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-10-03
   version: 1.6.0
   reviews: 0
-  icon: com.idea-soft.biteeu.jpg
+  icon: com.idea-soft.biteeu.webp
   meta: removed
   verdict: custodial
   developerName: BITEEU LTD

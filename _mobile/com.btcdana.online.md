@@ -14,7 +14,7 @@ android:
   updated: 2026-09-15
   version: 2.15.0
   reviews: 174
-  icon: com.btcdana.online.png
+  icon: com.btcdana.online.webp
   meta: ok
   verdict: nosendreceive
   developerName: DanaByte Trading

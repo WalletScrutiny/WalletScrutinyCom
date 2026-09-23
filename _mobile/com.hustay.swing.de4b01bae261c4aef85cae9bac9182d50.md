@@ -10,7 +10,7 @@ android:
   released: 2021-06-28
   updated: 2021-06-28
   version: '0.6'
-  icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.png
+  icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.webp
   meta: removed
   verdict: wip
   developerName: Earnfinex Limited

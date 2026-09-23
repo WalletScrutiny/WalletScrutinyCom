@@ -14,7 +14,7 @@ android:
   updated: 2023-02-06
   version: 0.0.145 (7755)
   reviews: 9
-  icon: com.cryppter.app.release.png
+  icon: com.cryppter.app.release.webp
   meta: obsolete
   verdict: nosource
   developerName: Enex, LLC

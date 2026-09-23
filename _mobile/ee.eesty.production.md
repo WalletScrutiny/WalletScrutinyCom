@@ -14,7 +14,7 @@ iphone:
   updated: 2019-07-03
   version: '3.0'
   reviews: 8
-  icon: ee.eesty.production.jpg
+  icon: ee.eesty.production.webp
   meta: removed
   verdict: nosource
   developerName: blockhive

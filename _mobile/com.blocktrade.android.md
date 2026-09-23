@@ -20,7 +20,7 @@ android:
   updated: 2024-04-22
   version: 4.1.4
   reviews: 9
-  icon: com.blocktrade.android.png
+  icon: com.blocktrade.android.webp
   meta: removed
   verdict: custodial
   developerName: Blocktrade
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-03-27
   version: 4.1.3
   reviews: 30
-  icon: com.blocktrade.ios.jpg
+  icon: com.blocktrade.ios.webp
   meta: removed
   verdict: custodial
   developerName: BlocktradeOperations OU

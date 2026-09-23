@@ -9,7 +9,7 @@ android:
   released: 2020-11-14
   updated: 2021-06-16
   version: 0.7.8
-  icon: com.fluidcoins.fluidcoins.png
+  icon: com.fluidcoins.fluidcoins.webp
   meta: removed
   verdict: wip
 

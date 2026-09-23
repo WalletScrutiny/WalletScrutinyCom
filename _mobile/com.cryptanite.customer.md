@@ -11,7 +11,7 @@ android:
   updated: 2019-05-08
   version: 2.0.8
   reviews: 8
-  icon: com.cryptanite.customer.png
+  icon: com.cryptanite.customer.webp
   meta: removed
   verdict: wip
   developerName: cryptanite.com

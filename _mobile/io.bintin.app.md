@@ -10,7 +10,7 @@ android:
   released: 2021-08-18
   updated: 2022-03-16
   version: 1.0.0
-  icon: io.bintin.app.jpg
+  icon: io.bintin.app.webp
   meta: removed
   verdict: wip
   developerName: Bitledger solutions Ltd

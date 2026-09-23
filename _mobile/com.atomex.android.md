@@ -16,7 +16,7 @@ android:
   updated: 2023-02-24
   version: 1.25.0
   reviews: 5
-  icon: com.atomex.android.png
+  icon: com.atomex.android.webp
   meta: removed
   verdict: sourceavailable
   developerName: Atomex
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-02-19
   version: '1.24'
   reviews: 11
-  icon: com.atomex.ios.jpg
+  icon: com.atomex.ios.webp
   meta: removed
   verdict: sourceavailable
   developerName: Atomex OÜ

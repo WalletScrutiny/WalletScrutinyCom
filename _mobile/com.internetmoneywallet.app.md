@@ -21,7 +21,7 @@ android:
   updated: 2026-09-17
   version: '4.1'
   reviews: 89
-  icon: com.internetmoneywallet.app.png
+  icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Internet Money
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-17
   version: '4.1'
   reviews: 194
-  icon: com.internetmoneywallet.app.jpg
+  icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Decentralized Innovations, LLC

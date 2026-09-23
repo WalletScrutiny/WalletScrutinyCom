@@ -11,7 +11,7 @@ android:
   released: 2022-09-02
   updated: 2024-03-23
   version: '4'
-  icon: nulpay.merchant.jpg
+  icon: nulpay.merchant.webp
   meta: removed
   verdict: wip
   developerName: Nulpay

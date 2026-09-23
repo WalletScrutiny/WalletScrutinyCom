@@ -13,7 +13,7 @@ android:
   released: 2021-03-21
   updated: 2022-05-19
   version: 1.35.9
-  icon: jp.links.messenger.jpg
+  icon: jp.links.messenger.webp
   meta: removed
   verdict: wip
   developerName: Links K.K.

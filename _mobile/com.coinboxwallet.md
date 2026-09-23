@@ -12,7 +12,7 @@ android:
   released: 2022-08-13
   updated: 2023-03-02
   version: 1.0.2.6
-  icon: com.coinboxwallet.png
+  icon: com.coinboxwallet.webp
   meta: removed
   verdict: nosource
   developerName: CoinBox Finance Ecosystem

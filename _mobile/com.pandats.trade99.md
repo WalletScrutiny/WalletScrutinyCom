@@ -10,7 +10,7 @@ android:
   released: 2019-07-02
   updated: 2020-10-01
   version: 1.0.4
-  icon: com.pandats.trade99.png
+  icon: com.pandats.trade99.webp
   meta: removed
   verdict: wip
   developerName: Trade99

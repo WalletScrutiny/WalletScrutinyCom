@@ -9,7 +9,7 @@ android:
   released: 2021-04-14
   updated: 2021-04-21
   version: 1.0.0.4
-  icon: com.yawa.png
+  icon: com.yawa.webp
   meta: removed
   verdict: wip
   developerName: Viktor Yandolin

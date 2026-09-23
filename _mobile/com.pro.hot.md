@@ -13,7 +13,7 @@ android:
   updated: 2026-04-09
   version: 6.1.3
   reviews: 32
-  icon: com.pro.hot.png
+  icon: com.pro.hot.webp
   meta: defunct
   verdict: wip
   developerName: Hotcoin

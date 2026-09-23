@@ -23,7 +23,7 @@ android:
   updated: 2026-07-02
   version: 3.88.1
   reviews: 96
-  icon: com.exmo.png
+  icon: com.exmo.webp
   meta: removed
   verdict: custodial
   developerName: Exmo Poland Sp. z o.o.
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-05-25
   version: 2.28.27
   reviews: 86
-  icon: com.exmo.enfins.jpg
+  icon: com.exmo.enfins.webp
   meta: removed
   verdict: custodial
   developerName: EXMO EXCHANGE LTD

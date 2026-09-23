@@ -24,7 +24,7 @@ android:
   updated: 2026-08-26
   version: 3.7.16
   reviews: 201
-  icon: co.rockitcoinx.app.png
+  icon: co.rockitcoinx.app.webp
   meta: ok
   verdict: nosource
   developerName: RockItCoin
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-08-27
   version: 3.7.16
   reviews: 159
-  icon: rockitcoinexchange.jpg
+  icon: rockitcoinexchange.webp
   meta: ok
   verdict: nosource
   developerName: RockitCoin

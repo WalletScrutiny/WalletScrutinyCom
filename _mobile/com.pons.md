@@ -13,7 +13,7 @@ android:
   updated: 2020-12-26
   version: 1.0.0.11
   reviews: 11
-  icon: com.pons.jpg
+  icon: com.pons.webp
   meta: removed
   verdict: wip
 

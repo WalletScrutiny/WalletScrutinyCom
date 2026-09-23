@@ -11,7 +11,7 @@ android:
   updated: 2020-08-15
   version: '1.1'
   reviews: 51
-  icon: com.payfrequent.png
+  icon: com.payfrequent.webp
   meta: removed
   verdict: wip
 

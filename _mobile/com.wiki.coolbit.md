@@ -10,7 +10,7 @@ android:
   released: 2021-03-09
   updated: 2021-05-10
   version: 1.2.0
-  icon: com.wiki.coolbit.png
+  icon: com.wiki.coolbit.webp
   meta: removed
   verdict: wip
 

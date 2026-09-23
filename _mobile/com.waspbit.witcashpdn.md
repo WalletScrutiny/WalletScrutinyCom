@@ -12,7 +12,7 @@ android:
   released: 2018-12-10
   updated: 2021-07-14
   version: 2.0.9
-  icon: com.waspbit.witcashpdn.jpg
+  icon: com.waspbit.witcashpdn.webp
   meta: removed
   verdict: wip
   developerName: Witcash

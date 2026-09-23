@@ -20,7 +20,7 @@ shop:
 country: CH
 price: 19.90USD
 repository: 
-icon: tangemnote.png
+icon: tangemnote.webp
 bugbounty: 
 meta: defunct
 verdict: noita

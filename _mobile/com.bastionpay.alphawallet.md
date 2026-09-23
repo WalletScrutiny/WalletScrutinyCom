@@ -10,7 +10,7 @@ android:
   updated: 2019-09-04
   version: v2.0.5
   reviews: 14
-  icon: com.bastionpay.alphawallet.png
+  icon: com.bastionpay.alphawallet.webp
   meta: removed
   verdict: wip
 

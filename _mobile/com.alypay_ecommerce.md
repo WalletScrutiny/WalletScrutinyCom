@@ -9,7 +9,7 @@ android:
   released: 2021-01-24
   updated: 2021-08-24
   version: '1.0'
-  icon: com.alypay_ecommerce.png
+  icon: com.alypay_ecommerce.webp
   meta: removed
   verdict: wip
   developerName: AlySystem

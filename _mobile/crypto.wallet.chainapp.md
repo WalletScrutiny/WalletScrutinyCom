@@ -14,7 +14,7 @@ android:
   released: 2021-03-24
   updated: 2023-03-23
   version: 2.0.0
-  icon: crypto.wallet.chainapp.png
+  icon: crypto.wallet.chainapp.webp
   meta: removed
   verdict: nosource
   developerName: SUPERBRAIN LIMITED
@@ -26,7 +26,7 @@ iphone:
   updated: 2023-03-22
   version: 2.0.0
   reviews: 3
-  icon: crypto.wallet.chainapp.jpg
+  icon: crypto.wallet.chainapp.webp
   meta: removed
   verdict: nosource
   developerName: SUPERBRAIN LIMITED

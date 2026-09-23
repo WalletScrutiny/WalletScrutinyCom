@@ -10,7 +10,7 @@ android:
   released: 2019-10-07
   updated: 2019-10-07
   version: '1.0'
-  icon: net.cryptorobotics.app.png
+  icon: net.cryptorobotics.app.webp
   meta: removed
   verdict: wip
   developerName: CryptoRobotics Limited

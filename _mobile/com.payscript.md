@@ -10,7 +10,7 @@ android:
   released: 2020-10-13
   updated: 2022-09-15
   version: 0.3.6
-  icon: com.payscript.png
+  icon: com.payscript.webp
   meta: removed
   verdict: wip
   developerName: payscript

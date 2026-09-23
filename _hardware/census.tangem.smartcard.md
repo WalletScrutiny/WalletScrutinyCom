@@ -20,7 +20,7 @@ shop:
 country: 
 price: 39USD
 repository: 
-icon: census.tangem.smartcard.png
+icon: census.tangem.smartcard.webp
 bugbounty: 
 meta: defunct
 verdict: noita

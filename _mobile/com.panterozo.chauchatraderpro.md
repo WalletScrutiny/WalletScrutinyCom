@@ -10,7 +10,7 @@ android:
   released: 2018-01-19
   updated: 2022-07-31
   version: 4.3.1
-  icon: com.panterozo.chauchatraderpro.png
+  icon: com.panterozo.chauchatraderpro.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   released: 2022-04-30
   updated: 2024-11-15
   version: 2.0.8
-  icon: com.ofinans.miraclepos.jpg
+  icon: com.ofinans.miraclepos.webp
   meta: removed
   verdict: wip
   developerName: Ofinans App

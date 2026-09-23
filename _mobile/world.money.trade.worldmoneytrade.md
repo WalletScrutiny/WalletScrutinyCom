@@ -12,7 +12,7 @@ android:
   released: 2020-07-24
   updated: 2020-08-04
   version: '2.0'
-  icon: world.money.trade.worldmoneytrade.png
+  icon: world.money.trade.worldmoneytrade.webp
   meta: removed
   verdict: wip
   developerName: WorldMoneyTrade Inc.

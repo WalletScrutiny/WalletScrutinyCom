@@ -10,7 +10,7 @@ android:
   released: 2022-01-03
   updated: 2022-01-03
   version: '1.1'
-  icon: com.emc.elmaocoin.png
+  icon: com.emc.elmaocoin.webp
   meta: removed
   verdict: wip
 

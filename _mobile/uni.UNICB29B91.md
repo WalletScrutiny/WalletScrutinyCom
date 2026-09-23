@@ -9,7 +9,7 @@ android:
   released: 2021-10-29
   updated: 2021-10-29
   version: 1.0.1
-  icon: uni.UNICB29B91.png
+  icon: uni.UNICB29B91.webp
   meta: removed
   verdict: wip
 

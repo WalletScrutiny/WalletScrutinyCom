@@ -22,7 +22,7 @@ android:
   updated: 2026-09-11
   version: '4.12'
   reviews: 127507
-  icon: com.wrx.wazirx.png
+  icon: com.wrx.wazirx.webp
   meta: ok
   verdict: custodial
   developerName: Zanmai Labs Private Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-11
   version: '3.13'
   reviews: 54254
-  icon: com.wrx.wazirx.jpg
+  icon: com.wrx.wazirx.webp
   meta: ok
   verdict: custodial
   developerName: Zanmai Labs Private Limited

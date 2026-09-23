@@ -10,7 +10,7 @@ android:
   released: 2021-06-14
   updated: 2021-06-19
   version: 1.0.2
-  icon: com.a1in1.crypto_coin.jpg
+  icon: com.a1in1.crypto_coin.webp
   meta: removed
   verdict: wip
   developerName: Ceogrowser Ntem Kenyor

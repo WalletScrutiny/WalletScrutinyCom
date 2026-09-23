@@ -9,7 +9,7 @@ android:
   released: 2019-02-21
   updated: 2019-03-04
   version: 5.0.1
-  icon: io.cieloex.app.png
+  icon: io.cieloex.app.webp
   meta: removed
   verdict: wip
   developerName: CieloEX Limited

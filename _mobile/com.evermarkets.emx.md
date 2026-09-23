@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2020-04-08
   version: 1.0.2
-  icon: com.evermarkets.emx.png
+  icon: com.evermarkets.emx.webp
   meta: removed
   verdict: wip
   developerName: EverMarkets

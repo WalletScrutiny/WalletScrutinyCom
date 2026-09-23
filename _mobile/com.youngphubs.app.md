@@ -10,7 +10,7 @@ android:
   released: 2019-10-06
   updated: 2019-10-06
   version: '2.0'
-  icon: com.youngphubs.app.png
+  icon: com.youngphubs.app.webp
   meta: removed
   verdict: wip
   developerName: Coin Hub CryptoCurrency

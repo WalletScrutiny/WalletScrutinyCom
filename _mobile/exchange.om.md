@@ -10,7 +10,7 @@ android:
   released: 2022-10-23
   updated: 2022-10-23
   version: 1.0.1
-  icon: exchange.om.png
+  icon: exchange.om.webp
   meta: removed
   verdict: wip
   developerName: VEGER LABS LLP

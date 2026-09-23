@@ -12,7 +12,7 @@ android:
   released: 2020-10-23
   updated: 2020-11-13
   version: '1.4'
-  icon: com.factwallet.crypto.factwallet.png
+  icon: com.factwallet.crypto.factwallet.webp
   meta: removed
   verdict: wip
 

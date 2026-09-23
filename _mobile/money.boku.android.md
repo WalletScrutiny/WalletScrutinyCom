@@ -21,7 +21,7 @@ android:
   updated: 2026-09-19
   version: 1.6.11
   reviews: 24
-  icon: money.boku.android.jpg
+  icon: money.boku.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: neverless
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-11
   version: 1.11.45
   reviews: 197
-  icon: money.boku.ios.jpg
+  icon: money.boku.ios.webp
   meta: ok
   verdict: nosendreceive
   developerName: Boku Labs Ltd

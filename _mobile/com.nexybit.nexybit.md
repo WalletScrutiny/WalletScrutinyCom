@@ -12,7 +12,7 @@ android:
   released: 2018-12-31
   updated: 2019-02-18
   version: 1.0.4
-  icon: com.nexybit.nexybit.png
+  icon: com.nexybit.nexybit.webp
   meta: removed
   verdict: wip
   developerName: Nexybit

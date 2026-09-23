@@ -10,7 +10,7 @@ android:
   released: 2022-02-03
   updated: 2022-05-17
   version: 1.3.0
-  icon: com.onepago.app.png
+  icon: com.onepago.app.webp
   meta: removed
   verdict: wip
   developerName: OnePago

@@ -14,7 +14,7 @@ android:
   updated: 2026-09-04
   version: 3.13.9
   reviews: 8
-  icon: io.ducatus.walnew.png
+  icon: io.ducatus.walnew.webp
   meta: ok
   verdict: custodial
   developerName: Ducatus Commerce

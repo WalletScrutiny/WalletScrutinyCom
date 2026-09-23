@@ -13,7 +13,7 @@ android:
   updated: 2021-08-14
   version: 1.2.13
   reviews: 34
-  icon: com.kvadrowallet.png
+  icon: com.kvadrowallet.webp
   meta: removed
   verdict: wip
 

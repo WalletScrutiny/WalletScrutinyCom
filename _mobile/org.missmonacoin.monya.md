@@ -17,7 +17,7 @@ android:
   released: 2018-01-02
   updated: 2021-12-14
   version: 3.10.5
-  icon: org.missmonacoin.monya.png
+  icon: org.missmonacoin.monya.webp
   meta: removed
   verdict: sourceavailable
   developerName: 藤原出帆

@@ -10,7 +10,7 @@ android:
   released: 2021-12-22
   updated: 2023-10-10
   version: 1.0.8
-  icon: io.rubix.exchange.jpg
+  icon: io.rubix.exchange.webp
   meta: removed
   verdict: wip
   developerName: 'Rubix: Buy, Sell, and Trade Crypto'

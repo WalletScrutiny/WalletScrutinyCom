@@ -9,7 +9,7 @@ android:
   released: 2021-11-30
   updated: 2021-12-01
   version: 1.0.1
-  icon: com.reyesfields.wgxqwnizbv.png
+  icon: com.reyesfields.wgxqwnizbv.webp
   meta: removed
   verdict: wip
   developerName: ReyesFields

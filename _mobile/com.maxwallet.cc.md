@@ -17,7 +17,7 @@ android:
   appCountry: us
   updated: 2026-07-22
   version: 1.5.2
-  icon: com.maxwallet.cc.png
+  icon: com.maxwallet.cc.webp
   meta: ok
   verdict: nosource
   developerName: MaxWallet
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-07-23
   version: 1.5.2 (1)
   reviews: 96
-  icon: com.maxwallet.cc.jpg
+  icon: com.maxwallet.cc.webp
   meta: ok
   verdict: nosource
   developerName: MS PROFIT LTD

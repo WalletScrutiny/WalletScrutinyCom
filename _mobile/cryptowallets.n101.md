@@ -10,7 +10,7 @@ android:
   released: 2021-12-24
   updated: 2021-12-24
   version: '1.01'
-  icon: cryptowallets.n101.png
+  icon: cryptowallets.n101.webp
   meta: removed
   verdict: wip
 

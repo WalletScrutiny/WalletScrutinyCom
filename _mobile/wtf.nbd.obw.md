@@ -10,7 +10,7 @@ android:
   released: 2022-09-23
   updated: 2022-12-31
   version: 0.2.1
-  icon: wtf.nbd.obw.png
+  icon: wtf.nbd.obw.webp
   meta: removed
   verdict: wip
   developerName: No Big Deal (NBD)

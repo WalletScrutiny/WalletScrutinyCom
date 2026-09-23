@@ -9,7 +9,7 @@ android:
   updated: 2021-02-04
   version: 3.5.0
   reviews: 82
-  icon: com.mykey.id.png
+  icon: com.mykey.id.webp
   meta: removed
   verdict: wip
 

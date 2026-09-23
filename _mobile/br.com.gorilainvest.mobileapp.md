@@ -22,7 +22,7 @@ android:
   updated: 2026-09-02
   version: 8.11.0
   reviews: 25
-  icon: br.com.gorilainvest.mobileapp.jpg
+  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Gorila - gestão de carteira de investimentos
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-03
   version: 8.11.0
   reviews: 234
-  icon: br.com.gorilainvest.mobileapp.jpg
+  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA

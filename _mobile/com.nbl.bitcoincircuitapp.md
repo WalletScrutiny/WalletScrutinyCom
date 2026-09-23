@@ -9,7 +9,7 @@ android:
   updated: 2021-02-27
   version: 1.0.0
   reviews: 25
-  icon: com.nbl.bitcoincircuitapp.png
+  icon: com.nbl.bitcoincircuitapp.webp
   meta: removed
   verdict: wip
 

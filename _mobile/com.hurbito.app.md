@@ -10,7 +10,7 @@ android:
   released: 2021-01-20
   updated: 2021-01-20
   version: '1.5'
-  icon: com.hurbito.app.jpg
+  icon: com.hurbito.app.webp
   meta: removed
   verdict: wip
   developerName: Cobirto Global Company Ltd.

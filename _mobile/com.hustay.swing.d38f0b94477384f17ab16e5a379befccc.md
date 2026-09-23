@@ -9,7 +9,7 @@ android:
   released: 2021-10-12
   updated: 2021-10-12
   version: '0.6'
-  icon: com.hustay.swing.d38f0b94477384f17ab16e5a379befccc.png
+  icon: com.hustay.swing.d38f0b94477384f17ab16e5a379befccc.webp
   meta: removed
   verdict: wip
   developerName: hpmc8540

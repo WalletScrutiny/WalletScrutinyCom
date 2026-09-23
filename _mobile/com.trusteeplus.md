@@ -20,7 +20,7 @@ android:
   updated: 2026-04-23
   version: 1.32.52
   reviews: 26
-  icon: com.trusteeplus.png
+  icon: com.trusteeplus.webp
   meta: removed
   verdict: custodial
   developerName: UAB Trustee Global
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-11-27
   version: 1.32.36
   reviews: 114
-  icon: com.trusteeplus1.jpg
+  icon: com.trusteeplus1.webp
   meta: removed
   verdict: custodial
   developerName: Trustee Global

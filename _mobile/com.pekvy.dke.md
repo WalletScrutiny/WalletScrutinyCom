@@ -9,7 +9,7 @@ android:
   released: 2022-04-26
   updated: 2022-04-26
   version: 1.0.0
-  icon: com.pekvy.dke.png
+  icon: com.pekvy.dke.webp
   meta: removed
   verdict: wip
 

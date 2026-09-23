@@ -17,7 +17,7 @@ shop:
 country: DE
 price: 
 repository: https://github.com/micro-bitcoin/uBitcoin
-icon: stepansnigirev.microbitcoin.arduino.diy.png
+icon: stepansnigirev.microbitcoin.arduino.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

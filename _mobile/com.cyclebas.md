@@ -11,7 +11,7 @@ android:
   updated: 2022-10-06
   version: 3.0.16
   reviews: 93
-  icon: com.cyclebas.png
+  icon: com.cyclebas.webp
   meta: removed
   verdict: wip
 

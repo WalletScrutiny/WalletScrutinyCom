@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: keyois.capsule.png
+icon: keyois.capsule.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey

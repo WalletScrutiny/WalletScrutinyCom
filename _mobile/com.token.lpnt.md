@@ -18,7 +18,7 @@ android:
   updated: 2023-06-15
   version: '6.11'
   reviews: 4
-  icon: com.token.lpnt.png
+  icon: com.token.lpnt.webp
   meta: removed
   verdict: nosource
   developerName: LUXURIOUS PRO NETWORK GROUP

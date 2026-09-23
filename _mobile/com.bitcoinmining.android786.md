@@ -10,7 +10,7 @@ android:
   updated: 2021-06-01
   version: '1.0'
   reviews: 31
-  icon: com.bitcoinmining.android786.png
+  icon: com.bitcoinmining.android786.webp
   meta: removed
   verdict: wip
 

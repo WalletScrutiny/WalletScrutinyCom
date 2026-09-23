@@ -21,7 +21,7 @@ shop: https://tangem.com/en/pricing/
 country: CH
 price: 54.9
 repository: 
-icon: tangem.png
+icon: tangem.webp
 bugbounty: 
 meta: ok
 verdict: noita

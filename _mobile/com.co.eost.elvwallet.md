@@ -10,7 +10,7 @@ android:
   released: 2021-11-30
   updated: 2022-09-08
   version: 2.0.3
-  icon: com.co.eost.elvwallet.png
+  icon: com.co.eost.elvwallet.webp
   meta: removed
   verdict: wip
   developerName: Eleven Team

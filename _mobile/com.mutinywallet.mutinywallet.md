@@ -16,7 +16,7 @@ android:
   updated: 2024-09-03
   version: 1.8.0
   reviews: 5
-  icon: com.mutinywallet.mutinywallet.png
+  icon: com.mutinywallet.mutinywallet.webp
   meta: removed
   verdict: wip
   developerName: Mutiny Wallet
@@ -29,7 +29,7 @@ iphone:
   updated: 2024-09-04
   version: 1.8.0
   reviews: 18
-  icon: com.mutinywallet.mutiny.jpg
+  icon: com.mutinywallet.mutiny.webp
   meta: removed
   verdict: wip
   developerName: Mutiny Wallet, Inc.

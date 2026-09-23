@@ -21,7 +21,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: keywallettouch.png
+icon: keywallettouch.webp
 bugbounty: 
 meta: ok
 verdict: noita

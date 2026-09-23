@@ -16,7 +16,7 @@ android:
   updated: 2025-12-29
   version: 3.6.0
   reviews: 7
-  icon: com.pandats.axia.png
+  icon: com.pandats.axia.webp
   meta: removed
   verdict: nosendreceive
   developerName: Deloce LTD
@@ -28,7 +28,7 @@ iphone:
   updated: 2026-01-07
   version: 3.6.0
   reviews: 1
-  icon: com.pandats.axia.jpg
+  icon: com.pandats.axia.webp
   meta: ok
   verdict: nosendreceive
   developerName: Deloce LTD

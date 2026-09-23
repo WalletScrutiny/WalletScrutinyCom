@@ -10,7 +10,7 @@ android:
   released: 2021-08-20
   updated: 2021-10-25
   version: 3.17.27
-  icon: com.hopex.app.png
+  icon: com.hopex.app.webp
   meta: removed
   verdict: wip
 

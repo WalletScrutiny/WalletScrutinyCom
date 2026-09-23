@@ -16,7 +16,7 @@ android:
   released: 2018-01-07
   updated: 2021-03-01
   version: 2.1.5
-  icon: com.app.payble.png
+  icon: com.app.payble.webp
   meta: removed
   verdict: wip
   developerName: Payble

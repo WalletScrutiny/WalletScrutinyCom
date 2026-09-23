@@ -21,7 +21,7 @@ android:
   updated: 2026-09-04
   version: 3.29.4
   reviews: 1859
-  icon: app.simple.com.png
+  icon: app.simple.com.webp
   meta: ok
   verdict: custodial
   developerName: Simple Europe
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-05-22
   version: 3.27.2
   reviews: 222
-  icon: app.simple.com.jpg
+  icon: app.simple.com.webp
   meta: removed
   verdict: custodial
   developerName: Simple Europe UAB

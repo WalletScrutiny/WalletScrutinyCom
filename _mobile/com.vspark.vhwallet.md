@@ -12,7 +12,7 @@ android:
   released: 2018-06-07
   updated: 2019-10-04
   version: 6.4.13
-  icon: com.vspark.vhwallet.png
+  icon: com.vspark.vhwallet.webp
   meta: removed
   verdict: wip
   developerName: Vspark Group

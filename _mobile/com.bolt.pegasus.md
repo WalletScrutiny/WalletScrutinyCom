@@ -17,7 +17,7 @@ android:
   updated: 2023-07-20
   version: 1.23.1
   reviews: 21
-  icon: com.bolt.pegasus.png
+  icon: com.bolt.pegasus.webp
   meta: removed
   verdict: custodial
   developerName: Bolt Global

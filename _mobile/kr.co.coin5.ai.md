@@ -9,7 +9,7 @@ android:
   released: 2020-06-13
   updated: 2020-06-14
   version: '1.0'
-  icon: kr.co.coin5.ai.png
+  icon: kr.co.coin5.ai.webp
   meta: removed
   verdict: wip
   developerName: 비트코인 마진거래 소액재테크 플랫폼

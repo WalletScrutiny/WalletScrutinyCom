@@ -21,7 +21,7 @@ android:
   updated: 2026-09-18
   version: 1.23.0
   reviews: 34
-  icon: com.dunamu.exchange.global.png
+  icon: com.dunamu.exchange.global.webp
   meta: ok
   verdict: custodial
   developerName: Dunamu
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-11-16
   version: 1.7.20
   reviews: 24
-  icon: com.dunamu.upbit.global.jpg
+  icon: com.dunamu.upbit.global.webp
   meta: removed
   verdict: custodial
 

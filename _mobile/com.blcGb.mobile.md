@@ -9,7 +9,7 @@ android:
   released: 2023-02-14
   updated: 2023-02-23
   version: 1.0.1
-  icon: com.blcGb.mobile.png
+  icon: com.blcGb.mobile.webp
   meta: removed
   verdict: wip
   developerName: Bilimoria Nickesh G

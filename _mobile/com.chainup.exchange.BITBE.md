@@ -9,7 +9,7 @@ android:
   released: 2021-10-13
   updated: 2021-10-13
   version: 5.3.0
-  icon: com.chainup.exchange.BITBE.png
+  icon: com.chainup.exchange.BITBE.webp
   meta: removed
   verdict: wip
   developerName: KKOrange

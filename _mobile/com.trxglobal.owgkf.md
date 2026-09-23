@@ -11,7 +11,7 @@ android:
   released: 2022-03-27
   updated: 2022-09-05
   version: '1.3'
-  icon: com.trxglobal.owgkf.png
+  icon: com.trxglobal.owgkf.webp
   meta: removed
   verdict: wip
   developerName: hiu390hf

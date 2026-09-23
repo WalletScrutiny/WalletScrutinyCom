@@ -10,7 +10,7 @@ android:
   released: 2022-06-03
   updated: 2024-04-25
   version: 8.0.0
-  icon: kumo.africa.jpg
+  icon: kumo.africa.webp
   meta: removed
   verdict: wip
   developerName: Kumo Africa

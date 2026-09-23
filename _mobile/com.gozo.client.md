@@ -10,7 +10,7 @@ android:
   released: 2019-03-28
   updated: 2023-01-11
   version: 4.39.8
-  icon: com.gozo.client.png
+  icon: com.gozo.client.webp
   meta: removed
   verdict: wip
   developerName: GOZO Ltd

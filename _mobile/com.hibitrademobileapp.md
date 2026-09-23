@@ -10,7 +10,7 @@ android:
   released: 2022-08-25
   updated: 2022-09-06
   version: 2.0.36
-  icon: com.hibitrademobileapp.png
+  icon: com.hibitrademobileapp.webp
   meta: removed
   verdict: wip
   developerName: Hibi Markets Limited

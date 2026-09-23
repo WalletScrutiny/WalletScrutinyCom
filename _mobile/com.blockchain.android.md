@@ -10,7 +10,7 @@ android:
   updated: 2021-01-04
   version: 1.0.7.5
   reviews: 532
-  icon: com.blockchain.android.png
+  icon: com.blockchain.android.webp
   meta: removed
   verdict: obfuscated
   repository: https://github.com/hoanghiephui/Bitcoin-Wallet

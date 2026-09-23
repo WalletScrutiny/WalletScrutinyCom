@@ -20,7 +20,7 @@ android:
   updated: 2025-10-10
   version: 3.3.5
   reviews: 5
-  icon: com.hittechsexpertlimited.hitbtc.jpg
+  icon: com.hittechsexpertlimited.hitbtc.webp
   meta: removed
   verdict: custodial
   developerName: HitBTC Exchange

@@ -20,7 +20,7 @@ android:
   released: 2022-12-22
   updated: 2023-11-09
   version: '1.1'
-  icon: com.tarmex.tarmex.png
+  icon: com.tarmex.tarmex.webp
   meta: removed
   verdict: custodial
   developerName: Tarmex Exchange

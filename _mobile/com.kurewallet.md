@@ -12,7 +12,7 @@ android:
   updated: 2021-02-18
   version: 2.6.6
   reviews: 66
-  icon: com.kurewallet.jpg
+  icon: com.kurewallet.webp
   meta: removed
   verdict: wip
 

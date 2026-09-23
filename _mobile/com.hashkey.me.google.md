@@ -20,7 +20,7 @@ android:
   updated: 2023-07-08
   version: 4.1.0
   reviews: 1
-  icon: com.hashkey.me.google.png
+  icon: com.hashkey.me.google.webp
   meta: removed
   verdict: custodial
   developerName: HASHKEY HUB LIMITED
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-07-11
   version: 4.1.0
   reviews: 9
-  icon: com.hashkey.me.jpg
+  icon: com.hashkey.me.webp
   meta: removed
   verdict: custodial
   developerName: HASHKEY HUB LIMITED

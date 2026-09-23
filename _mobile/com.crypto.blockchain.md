@@ -14,7 +14,7 @@ android:
   updated: 2021-08-17
   version: 1.1.0
   reviews: 13
-  icon: com.crypto.blockchain.jpg
+  icon: com.crypto.blockchain.webp
   meta: removed
   verdict: fake
 

@@ -10,7 +10,7 @@ android:
   released: 2018-11-13
   updated: 2019-05-25
   version: '1.5'
-  icon: com.aievemobile.png
+  icon: com.aievemobile.webp
   meta: removed
   verdict: wip
   developerName: AIEVE Ltd

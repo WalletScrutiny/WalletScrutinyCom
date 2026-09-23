@@ -10,7 +10,7 @@ android:
   released: 2021-06-22
   updated: 2021-07-10
   version: 1.0.7
-  icon: com.unix.unix_finance.png
+  icon: com.unix.unix_finance.webp
   meta: removed
   verdict: wip
   developerName: Unix finance

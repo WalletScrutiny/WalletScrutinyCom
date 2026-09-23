@@ -10,7 +10,7 @@ android:
   released: 2022-07-10
   updated: 2023-05-03
   version: 1.1.4
-  icon: com.deltra.crypto.bot.png
+  icon: com.deltra.crypto.bot.webp
   meta: removed
   verdict: wip
   developerName: xR Studio LLP

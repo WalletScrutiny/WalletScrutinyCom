@@ -23,7 +23,7 @@ shop:
 country: US
 price: 
 repository: https://github.com/Foundation-Devices/passport2
-icon: passport.png
+icon: passport.webp
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
 verdict: sourceavailable

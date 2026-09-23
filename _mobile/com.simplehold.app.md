@@ -17,7 +17,7 @@ android:
   users: 10000
   updated: 2023-07-24
   version: '1.23'
-  icon: com.simplehold.app.jpg
+  icon: com.simplehold.app.webp
   meta: removed
   verdict: nosource
   developerName: Simple Swap LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-07-25
   version: '1.23'
   reviews: 2
-  icon: com.simplehold.app.jpg
+  icon: com.simplehold.app.webp
   meta: removed
   verdict: nosource
   developerName: Simple Swap LTD

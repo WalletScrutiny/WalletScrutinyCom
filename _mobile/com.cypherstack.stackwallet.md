@@ -27,7 +27,7 @@ android:
   updated: 2026-09-17
   version: 2.7.3
   reviews: 15
-  icon: com.cypherstack.stackwallet.png
+  icon: com.cypherstack.stackwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack Team
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-09-16
   version: 2.7.3
   reviews: 27
-  icon: com.cypherstack.stackwallet.jpg
+  icon: com.cypherstack.stackwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack LLC

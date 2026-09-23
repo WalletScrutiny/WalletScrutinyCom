@@ -20,7 +20,7 @@ android:
   updated: 2026-09-15
   version: 9.8.1
   reviews: 2068
-  icon: com.tradestation.MobileTrading.png
+  icon: com.tradestation.MobileTrading.webp
   meta: ok
   verdict: custodial
   developerName: TradeStation Technologies
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-20
   version: 9.8.0
   reviews: 18343
-  icon: com.tradestation.MobileTrading.jpg
+  icon: com.tradestation.MobileTrading.webp
   meta: ok
   verdict: custodial
   developerName: TradeStation Technologies

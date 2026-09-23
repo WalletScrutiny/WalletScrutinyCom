@@ -10,7 +10,7 @@ android:
   updated: 2019-11-26
   version: 1.3.0
   reviews: 121
-  icon: trade.iqforex.png
+  icon: trade.iqforex.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,7 @@ shop:
 country: DE
 price: 
 repository: 
-icon: youba.wallet.png
+icon: youba.wallet.webp
 bugbounty: 
 meta: ok
 verdict: noita

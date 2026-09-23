@@ -13,7 +13,7 @@ android:
   updated: 2021-12-10
   version: 5.4.0
   reviews: 6
-  icon: com.banqreactnative.png
+  icon: com.banqreactnative.webp
   meta: removed
   verdict: wip
   developerName: Banq, Inc.

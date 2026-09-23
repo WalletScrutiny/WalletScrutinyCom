@@ -12,7 +12,7 @@ android:
   released: 2021-12-21
   updated: 2022-02-26
   version: '1.5'
-  icon: com.cokkieswallet.mobileapp.png
+  icon: com.cokkieswallet.mobileapp.webp
   meta: removed
   verdict: wip
   developerName: Cokkies Wallet

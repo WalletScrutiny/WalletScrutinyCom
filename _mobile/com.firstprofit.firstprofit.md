@@ -9,7 +9,7 @@ android:
   released: 2020-08-31
   updated: 2020-09-25
   version: '2.1'
-  icon: com.firstprofit.firstprofit.png
+  icon: com.firstprofit.firstprofit.webp
   meta: removed
   verdict: wip
 

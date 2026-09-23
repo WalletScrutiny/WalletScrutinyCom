@@ -9,7 +9,7 @@ android:
   released: 2021-08-28
   updated: 2021-08-28
   version: '4.5'
-  icon: swapitway.com.jpg
+  icon: swapitway.com.webp
   meta: removed
   verdict: wip
 

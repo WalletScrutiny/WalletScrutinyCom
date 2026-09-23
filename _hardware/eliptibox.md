@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: eliptibox.png
+icon: eliptibox.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor

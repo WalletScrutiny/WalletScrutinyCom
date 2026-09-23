@@ -16,7 +16,7 @@ android:
   updated: 2024-06-04
   version: 1.0.2
   reviews: 48
-  icon: com.coinsbit.coinsbit.png
+  icon: com.coinsbit.coinsbit.webp
   meta: removed
   verdict: custodial
   developerName: Coinsbit

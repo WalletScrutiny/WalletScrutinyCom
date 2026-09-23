@@ -19,7 +19,7 @@ android:
   released: 2022-07-25
   updated: 2026-05-07
   version: 5.2.10
-  icon: com.rexsons.copaly_app.png
+  icon: com.rexsons.copaly_app.webp
   meta: ok
   verdict: custodial
   developerName: Copaly
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-05-13
   version: 5.2.10
   reviews: 3
-  icon: com.copalycompany.CopalyApp.jpg
+  icon: com.copalycompany.CopalyApp.webp
   meta: ok
   verdict: custodial
   developerName: Copaly Technologies Ltd

@@ -10,7 +10,7 @@ android:
   released: 2019-09-18
   updated: 2019-09-18
   version: '1.2'
-  icon: io.cryptocortex.trade.png
+  icon: io.cryptocortex.trade.webp
   meta: removed
   verdict: wip
   developerName: Deltix

@@ -11,7 +11,7 @@ android:
   released: 2025-01-09
   updated: 2025-01-09
   version: 1.0.0
-  icon: com.koub.wallet.png
+  icon: com.koub.wallet.webp
   meta: stale
   verdict: wip
   developerName: BFour Production

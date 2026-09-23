@@ -10,7 +10,7 @@ android:
   released: 2023-01-04
   updated: 2023-01-18
   version: 1.1.2
-  icon: com.bitbharat.png
+  icon: com.bitbharat.webp
   meta: removed
   verdict: wip
   developerName: Ursa Major Services Private Limited

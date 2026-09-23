@@ -12,7 +12,7 @@ android:
   updated: 2021-06-25
   version: '1.1'
   reviews: 6
-  icon: com.xbt.watcher.png
+  icon: com.xbt.watcher.webp
   meta: removed
   verdict: fake
   developerName: XBT Crypto Media

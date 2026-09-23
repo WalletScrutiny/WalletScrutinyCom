@@ -11,7 +11,7 @@ android:
   updated: 2021-12-31
   version: 1.3.0
   reviews: 12
-  icon: com.asin.app.png
+  icon: com.asin.app.webp
   meta: removed
   verdict: wip
   developerName: Asin Mining

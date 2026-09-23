@@ -9,7 +9,7 @@ android:
   released: 2021-05-10
   updated: 2021-05-10
   version: '1.0'
-  icon: com.hashcash.paybitocustody.png
+  icon: com.hashcash.paybitocustody.webp
   meta: removed
   verdict: wip
 

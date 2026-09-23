@@ -9,7 +9,7 @@ android:
   released: 2022-02-24
   updated: 2022-03-25
   version: 1.0.2
-  icon: com.blockproex.jpg
+  icon: com.blockproex.webp
   meta: removed
   verdict: wip
   developerName: BlockProEx Infotech

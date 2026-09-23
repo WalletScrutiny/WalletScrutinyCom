@@ -21,7 +21,7 @@ android:
   released: 2022-02-18
   updated: 2025-10-30
   version: 1.0.37
-  icon: com.funex.coin.png
+  icon: com.funex.coin.webp
   meta: ok
   verdict: custodial
   developerName: Funex Coin
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-01-04
   version: 1.0.26
   reviews: 0
-  icon: com.funex.coin.jpg
+  icon: com.funex.coin.webp
   meta: removed
   verdict: custodial
   developerName: FUNEX BLOCKCHAIN SERVICES PRIVATE LIMITED

@@ -12,7 +12,7 @@ android:
   updated: 2021-03-18
   version: '1.6'
   reviews: 27
-  icon: com.aglobetrading.png
+  icon: com.aglobetrading.webp
   meta: removed
   verdict: wip
 

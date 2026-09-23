@@ -9,7 +9,7 @@ android:
   released: 2021-12-03
   updated: 2025-10-21
   version: '1.017'
-  icon: kg.yaros.crypto.png
+  icon: kg.yaros.crypto.webp
   meta: removed
   verdict: wip
   developerName: Yaros-Ярославцев Александр Васильевич

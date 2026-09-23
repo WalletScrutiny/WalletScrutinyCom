@@ -10,7 +10,7 @@ android:
   released: 2022-02-10
   updated: 2022-05-07
   version: '3.0'
-  icon: com.bitcoin.trader2022.png
+  icon: com.bitcoin.trader2022.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Trader Exchange

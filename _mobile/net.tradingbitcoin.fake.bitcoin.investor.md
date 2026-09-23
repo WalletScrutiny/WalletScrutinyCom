@@ -12,7 +12,7 @@ android:
   updated: 2021-06-21
   version: '1.0'
   reviews: 3
-  icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
+  icon: net.tradingbitcoin.fake.bitcoin.investor.webp
   meta: removed
   verdict: wip
 

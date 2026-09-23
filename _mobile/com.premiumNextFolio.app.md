@@ -10,7 +10,7 @@ android:
   released: 2020-01-10
   updated: 2020-01-16
   version: '1.2'
-  icon: com.premiumNextFolio.app.png
+  icon: com.premiumNextFolio.app.webp
   meta: removed
   verdict: wip
   developerName: Nextazy Solutions Pvt Ltd

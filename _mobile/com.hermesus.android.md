@@ -13,7 +13,7 @@ android:
   released: 2022-04-17
   updated: 2022-04-17
   version: '1.1'
-  icon: com.hermesus.android.png
+  icon: com.hermesus.android.webp
   meta: removed
   verdict: custodial
   developerName: Hermesus Development

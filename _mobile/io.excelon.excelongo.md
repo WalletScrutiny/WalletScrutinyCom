@@ -15,7 +15,7 @@ android:
   released: 2021-08-09
   updated: 2025-11-23
   version: 1.0.101
-  icon: io.excelon.excelongo.png
+  icon: io.excelon.excelongo.webp
   meta: ok
   verdict: custodial
   developerName: Excelon
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-07-04
   version: 1.7.0
   reviews: 1
-  icon: com.excelon.excelon.go.jpg
+  icon: com.excelon.excelon.go.webp
   meta: obsolete
   verdict: custodial
   developerName: Excelon Financial Services Ltd

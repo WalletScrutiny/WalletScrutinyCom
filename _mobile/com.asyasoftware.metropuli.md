@@ -11,7 +11,7 @@ android:
   released: 2022-03-09
   updated: 2023-08-22
   version: 1.0.3
-  icon: com.asyasoftware.metropuli.png
+  icon: com.asyasoftware.metropuli.webp
   meta: obsolete
   verdict: wip
   developerName: Asya Software JSC

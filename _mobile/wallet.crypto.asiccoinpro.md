@@ -9,7 +9,7 @@ android:
   released: 2021-11-01
   updated: 2021-11-01
   version: '1.0'
-  icon: wallet.crypto.asiccoinpro.png
+  icon: wallet.crypto.asiccoinpro.webp
   meta: removed
   verdict: wip
   developerName: ASIC wallet

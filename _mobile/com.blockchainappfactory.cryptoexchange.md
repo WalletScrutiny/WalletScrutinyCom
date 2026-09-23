@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-04-13
   version: VARY
-  icon: com.blockchainappfactory.cryptoexchange.png
+  icon: com.blockchainappfactory.cryptoexchange.webp
   meta: removed
   verdict: wip
   developerName: Blockchain App Factory

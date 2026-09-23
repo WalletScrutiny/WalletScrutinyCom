@@ -18,7 +18,7 @@ android:
   released: 2020-12-19
   updated: 2022-08-02
   version: 1.2.2
-  icon: com.ctrade.mobile.png
+  icon: com.ctrade.mobile.webp
   meta: removed
   verdict: custodial
   developerName: C-Trade Global Limited
@@ -29,7 +29,7 @@ iphone:
   updated: 2022-08-03
   version: 1.2.2
   reviews: 17
-  icon: com.ctrade.mobile.jpg
+  icon: com.ctrade.mobile.webp
   meta: removed
   verdict: custodial
 

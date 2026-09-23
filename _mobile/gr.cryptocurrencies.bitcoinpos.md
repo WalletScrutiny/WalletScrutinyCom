@@ -10,7 +10,7 @@ android:
   updated: 2018-11-02
   version: 1.7.0
   reviews: 7
-  icon: gr.cryptocurrencies.bitcoinpos.png
+  icon: gr.cryptocurrencies.bitcoinpos.webp
   meta: removed
   verdict: wip
 

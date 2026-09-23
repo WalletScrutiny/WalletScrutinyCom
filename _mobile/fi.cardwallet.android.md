@@ -16,7 +16,7 @@ android:
   released: 2021-08-31
   updated: 2023-07-11
   version: '1.12'
-  icon: fi.cardwallet.android.png
+  icon: fi.cardwallet.android.webp
   meta: removed
   verdict: nosource
   developerName: CWallet
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-03-23
   version: '2.2'
   reviews: 1
-  icon: fi.cardwallet.jpg
+  icon: fi.cardwallet.webp
   meta: removed
   verdict: nosource
   developerName: CardSoft OU

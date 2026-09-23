@@ -11,7 +11,7 @@ android:
   released: 2022-12-14
   updated: 2025-08-11
   version: 1.4.1
-  icon: com.blockchaincommodities.enifex.png
+  icon: com.blockchaincommodities.enifex.webp
   meta: stale
   verdict: wip
   developerName: Blockchain Commodities

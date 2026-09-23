@@ -24,7 +24,7 @@ android:
   updated: 2023-07-28
   version: '1.8'
   reviews: 36
-  icon: com.shidowallet.png
+  icon: com.shidowallet.webp
   meta: removed
   verdict: nosource
   developerName: Shido Finance
@@ -36,7 +36,7 @@ iphone:
   updated: 2023-07-31
   version: '2.7'
   reviews: 55
-  icon: com.shido.wallet.jpg
+  icon: com.shido.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Shido Finance

@@ -17,7 +17,7 @@ shop:
 country: US
 price: 15USD
 repository: 
-icon: mycryptovaultnet.coins.png
+icon: mycryptovaultnet.coins.webp
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey

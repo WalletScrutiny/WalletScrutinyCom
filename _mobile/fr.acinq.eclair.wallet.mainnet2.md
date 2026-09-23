@@ -21,7 +21,7 @@ android:
   updated: 2022-03-01
   version: 0.4.18
   reviews: 42
-  icon: fr.acinq.eclair.wallet.mainnet2.jpg
+  icon: fr.acinq.eclair.wallet.mainnet2.webp
   meta: removed
   verdict: sourceavailable
   developerName: ACINQ

@@ -10,7 +10,7 @@ android:
   released: 2024-10-10
   updated: 2025-03-14
   version: 4.23.0
-  icon: com.cryptobasewallet.app.png
+  icon: com.cryptobasewallet.app.webp
   meta: removed
   verdict: wip
   developerName: Cryptobase, LLC

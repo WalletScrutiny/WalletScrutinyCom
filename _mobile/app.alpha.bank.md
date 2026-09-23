@@ -9,7 +9,7 @@ android:
   released: 2021-05-30
   updated: 2021-06-02
   version: 1.0.3
-  icon: app.alpha.bank.png
+  icon: app.alpha.bank.webp
   meta: removed
   verdict: wip
   developerName: ALPHA BANK

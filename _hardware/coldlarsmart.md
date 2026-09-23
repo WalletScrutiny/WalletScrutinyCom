@@ -18,7 +18,7 @@ shop:
 country: CN
 price: 
 repository: 
-icon: coldlarsmart.png
+icon: coldlarsmart.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

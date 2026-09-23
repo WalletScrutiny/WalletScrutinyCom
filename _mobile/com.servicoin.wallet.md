@@ -12,7 +12,7 @@ android:
   released: 2021-07-31
   updated: 2021-07-31
   version: 0.21.0
-  icon: com.servicoin.wallet.png
+  icon: com.servicoin.wallet.webp
   meta: removed
   verdict: custodial
   developerName: My Services Shop Inc.

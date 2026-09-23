@@ -10,7 +10,7 @@ android:
   released: 2018-08-03
   updated: 2020-06-16
   version: 3.0.3
-  icon: dashboard.elegro.io.png
+  icon: dashboard.elegro.io.webp
   meta: removed
   verdict: wip
   developerName: Niko Technologies

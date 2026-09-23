@@ -15,7 +15,7 @@ android:
   updated: 2023-08-24
   version: 1.3.5
   reviews: 15
-  icon: digital.awallet.app.gp.png
+  icon: digital.awallet.app.gp.webp
   meta: removed
   verdict: nosource
   developerName: Metaverse Network LLC

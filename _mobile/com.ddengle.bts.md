@@ -12,7 +12,7 @@ android:
   released: 2014-09-23
   updated: 2017-12-08
   version: 1.1.9
-  icon: com.ddengle.bts.png
+  icon: com.ddengle.bts.webp
   meta: removed
   verdict: wip
   developerName: 유빗

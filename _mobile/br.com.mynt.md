@@ -20,7 +20,7 @@ android:
   updated: 2026-09-09
   version: 1.114.5
   reviews: 5
-  icon: br.com.mynt.png
+  icon: br.com.mynt.webp
   meta: ok
   verdict: custodial
   developerName: MYNT TECNOLOGIA LTDA
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-10
   version: 1.114.5
   reviews: 1916
-  icon: br.com.mynt.jpg
+  icon: br.com.mynt.webp
   meta: ok
   verdict: custodial
   developerName: MYNT TECNOLOGIA LTDA

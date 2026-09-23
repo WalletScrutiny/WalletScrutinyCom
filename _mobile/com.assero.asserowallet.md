@@ -10,7 +10,7 @@ android:
   released: 2020-06-01
   updated: 2020-07-13
   version: '1.9'
-  icon: com.assero.asserowallet.png
+  icon: com.assero.asserowallet.webp
   meta: removed
   verdict: wip
   developerName: Assero Group

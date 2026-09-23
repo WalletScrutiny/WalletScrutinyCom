@@ -9,7 +9,7 @@ android:
   released: 2022-03-26
   updated: 2022-03-27
   version: '1.0'
-  icon: com.gdywgydggwf.wtewsd.jpg
+  icon: com.gdywgydggwf.wtewsd.webp
   meta: removed
   verdict: wip
 

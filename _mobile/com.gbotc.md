@@ -10,7 +10,7 @@ android:
   released: 2021-07-19
   updated: 2022-06-01
   version: 1.0.5
-  icon: com.gbotc.png
+  icon: com.gbotc.webp
   meta: removed
   verdict: wip
 

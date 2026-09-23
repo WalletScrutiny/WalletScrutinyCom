@@ -20,7 +20,7 @@ android:
   released: 2023-01-27
   updated: 2023-09-25
   version: 1.4.3
-  icon: io.timexapp.png
+  icon: io.timexapp.webp
   meta: removed
   verdict: custodial
   developerName: Chrono.Tech
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-01-11
   version: 1.4.3
   reviews: 0
-  icon: io.timexapp.jpg
+  icon: io.timexapp.webp
   meta: removed
   verdict: custodial
   developerName: Chrono.tech

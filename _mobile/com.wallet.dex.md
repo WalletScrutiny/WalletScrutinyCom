@@ -17,7 +17,7 @@ android:
   updated: 2023-02-08
   version: 1.3.1
   reviews: 12
-  icon: com.wallet.dex.png
+  icon: com.wallet.dex.webp
   meta: removed
   verdict: wip
   developerName: DexWallet Pvt. Limited

@@ -17,7 +17,7 @@ shop:
 country: US
 price: 98USD
 repository: 
-icon: vaulttel.intellichip.png
+icon: vaulttel.intellichip.webp
 bugbounty: 
 meta: ok
 verdict: vapor

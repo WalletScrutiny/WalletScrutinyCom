@@ -20,7 +20,7 @@ shop: https://bitkey.world/en-US/products/bitkey
 country: US
 price: 150USD
 repository: https://github.com/proto-at-block/bitkey
-icon: blockhww.png
+icon: blockhww.webp
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita

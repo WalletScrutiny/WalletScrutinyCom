@@ -16,7 +16,7 @@ android:
   appCountry: us
   updated: 2026-06-23
   version: 1.8.0
-  icon: com.matbea.png
+  icon: com.matbea.webp
   meta: ok
   verdict: custodial
   developerName: Matbea
@@ -28,7 +28,7 @@ iphone:
   updated: 2023-09-19
   version: 1.4.9
   reviews: 127
-  icon: org.Matbea.jpg
+  icon: org.Matbea.webp
   meta: removed
   verdict: custodial
   developerName: MATBEA LTD

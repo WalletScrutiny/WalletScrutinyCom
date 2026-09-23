@@ -10,7 +10,7 @@ android:
   released: 2022-04-26
   updated: 2022-06-06
   version: '1.2'
-  icon: com.etorexchange.png
+  icon: com.etorexchange.webp
   meta: removed
   verdict: wip
 

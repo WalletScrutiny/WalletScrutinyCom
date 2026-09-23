@@ -10,7 +10,7 @@ android:
   released: 2019-06-26
   updated: 2019-06-27
   version: 1.0-R
-  icon: kr.co.a131t.png
+  icon: kr.co.a131t.webp
   meta: removed
   verdict: wip
   developerName: kntec

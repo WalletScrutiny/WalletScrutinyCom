@@ -15,7 +15,7 @@ android:
   updated: 2023-09-09
   version: '2'
   reviews: 15
-  icon: com.arzif.android.jpg
+  icon: com.arzif.android.webp
   meta: obsolete
   verdict: custodial
   developerName: Arzifdev

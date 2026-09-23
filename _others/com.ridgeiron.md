@@ -3,7 +3,7 @@ title: Ridge Iron Damascus Steel Artisan Cold Wallet
 appId: com.ridgeiron
 authors:
 - danny
-icon: com.ridgeiron.png
+icon: com.ridgeiron.webp
 date: 2022-05-17
 released: 2019-01-25
 twitter: blockchainiron

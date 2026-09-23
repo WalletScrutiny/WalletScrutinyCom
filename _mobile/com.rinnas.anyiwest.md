@@ -10,7 +10,7 @@ android:
   released: 2021-06-04
   updated: 2021-06-20
   version: 1.0.2
-  icon: com.rinnas.anyiwest.png
+  icon: com.rinnas.anyiwest.webp
   meta: removed
   verdict: wip
   developerName: Anyiwest

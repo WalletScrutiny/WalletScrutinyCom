@@ -21,7 +21,7 @@ shop: https://fuzeway.com/products/fuzew-hardware-wallet
 country: KP
 price: 99USD
 repository: 
-icon: fuzew.png
+icon: fuzew.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource

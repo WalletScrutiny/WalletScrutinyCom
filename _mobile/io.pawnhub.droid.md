@@ -10,7 +10,7 @@ android:
   released: 2020-01-16
   updated: 2020-03-25
   version: '1.1'
-  icon: io.pawnhub.droid.png
+  icon: io.pawnhub.droid.webp
   meta: removed
   verdict: wip
 

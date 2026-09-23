@@ -21,7 +21,7 @@ android:
   updated: 2026-07-21
   version: 0.7.55
   reviews: 112
-  icon: com.bifrostwallet.app.png
+  icon: com.bifrostwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Bifrost Software Ltd
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-07-22
   version: 0.7.55
   reviews: 212
-  icon: com.bifrostwallet.app.jpg
+  icon: com.bifrostwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Bifrost Software Ltd

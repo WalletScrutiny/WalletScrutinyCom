@@ -10,7 +10,7 @@ android:
   released: 2022-08-08
   updated: 2022-08-02
   version: 1.0.0
-  icon: com.bidacoin.app.png
+  icon: com.bidacoin.app.webp
   meta: removed
   verdict: wip
   developerName: BIDACOIN

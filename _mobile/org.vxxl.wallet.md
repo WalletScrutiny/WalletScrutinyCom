@@ -9,7 +9,7 @@ android:
   released: 2022-09-26
   updated: 2023-03-02
   version: '1.4'
-  icon: org.vxxl.wallet.png
+  icon: org.vxxl.wallet.webp
   meta: removed
   verdict: wip
   developerName: vxxl

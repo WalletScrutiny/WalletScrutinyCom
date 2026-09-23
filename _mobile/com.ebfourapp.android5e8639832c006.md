@@ -10,7 +10,7 @@ android:
   released: 2020-06-24
   updated: 2020-08-10
   version: '2.5'
-  icon: com.ebfourapp.android5e8639832c006.png
+  icon: com.ebfourapp.android5e8639832c006.webp
   meta: removed
   verdict: wip
   developerName: LIV8 LLC

@@ -22,7 +22,7 @@ android:
   appCountry: us
   updated: 2026-09-08
   version: 3.18.0-coinpass
-  icon: com.coinpassmobile.png
+  icon: com.coinpassmobile.webp
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-26
   version: 3.17.0
   reviews: 18
-  icon: com.coinpasslimited.coinpassinstant.jpg
+  icon: com.coinpasslimited.coinpassinstant.webp
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited

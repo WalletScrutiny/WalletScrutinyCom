@@ -17,7 +17,7 @@ android:
   released: 2021-02-26
   updated: 2023-07-27
   version: 4.4.7
-  icon: com.coinpanion.mobileapp.jpg
+  icon: com.coinpanion.mobileapp.webp
   meta: removed
   verdict: nosendreceive
   developerName: Coinpanion
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-07-31
   version: 4.4.7
   reviews: 1
-  icon: com.coinpanion.mobileappios.jpg
+  icon: com.coinpanion.mobileappios.webp
   meta: removed
   verdict: nosendreceive
   developerName: Revix UK Ltd

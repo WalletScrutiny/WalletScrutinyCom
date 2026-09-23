@@ -22,7 +22,7 @@ android:
   updated: 2026-09-21
   version: 2.28.1
   reviews: 633
-  icon: vip.mytokenpocket.png
+  icon: vip.mytokenpocket.webp
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-21
   version: 2.29.0
   reviews: 737
-  icon: com.global.wallet.ios.jpg
+  icon: com.global.wallet.ios.webp
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd

@@ -20,7 +20,7 @@ android:
   updated: 2026-06-22
   version: 2.3.8
   reviews: 152
-  icon: ru.koshelek.png
+  icon: ru.koshelek.webp
   meta: ok
   verdict: custodial
   developerName: Кошелёк.ру
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-06-23
   version: 2.3.8
   reviews: 122
-  icon: dev.spedn.ru.jpg
+  icon: dev.spedn.ru.webp
   meta: ok
   verdict: custodial
   developerName: Кошелёк.ру

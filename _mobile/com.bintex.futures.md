@@ -10,7 +10,7 @@ android:
   released: 2021-03-10
   updated: 2021-03-10
   version: 0.19.0
-  icon: com.bintex.futures.png
+  icon: com.bintex.futures.webp
   meta: removed
   verdict: wip
 

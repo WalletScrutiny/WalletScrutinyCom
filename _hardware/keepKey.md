@@ -23,7 +23,7 @@ shop: https://shapeshift.com/keepkey#deadLink
 country: US
 price: 49USD
 repository: https://github.com/keepkey/keepkey-firmware
-icon: keepKey.png
+icon: keepKey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -10,7 +10,7 @@ android:
   released: 2020-02-11
   updated: 2020-03-06
   version: 1.2.4
-  icon: com.coin4sales.coin4sales.png
+  icon: com.coin4sales.coin4sales.webp
   meta: removed
   verdict: wip
   developerName: Kite Financial (Kite Tech Ltd UK)

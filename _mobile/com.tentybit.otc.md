@@ -10,7 +10,7 @@ android:
   released: 2019-06-12
   updated: 2019-06-21
   version: '1.2'
-  icon: com.tentybit.otc.png
+  icon: com.tentybit.otc.webp
   meta: removed
   verdict: wip
   developerName: Tentybit.com

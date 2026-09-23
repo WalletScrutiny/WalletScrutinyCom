@@ -10,7 +10,7 @@ android:
   released: 2020-08-13
   updated: 2020-09-04
   version: 1.0.7
-  icon: com.pulsedigital.finfreeotc.jpg
+  icon: com.pulsedigital.finfreeotc.webp
   meta: removed
   verdict: wip
   developerName: FinFreeOTC Corp.

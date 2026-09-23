@@ -9,7 +9,7 @@ android:
   released: 2021-12-31
   updated: 2021-12-31
   version: '1.3'
-  icon: com.cdmdefi.app.jpg
+  icon: com.cdmdefi.app.webp
   meta: removed
   verdict: wip
 

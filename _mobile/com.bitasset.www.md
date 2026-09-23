@@ -13,7 +13,7 @@ android:
   updated: 2021-03-23
   version: 3.4.12
   reviews: 29
-  icon: com.bitasset.www.png
+  icon: com.bitasset.www.webp
   meta: removed
   verdict: wip
 

@@ -25,7 +25,7 @@ android:
   updated: 2026-09-10
   version: 1.0.119
   reviews: 13
-  icon: com.vultisig.wallet.png
+  icon: com.vultisig.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Vulti Holdings Ltd.
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-07
   version: '1.46'
   reviews: 65
-  icon: com.vultisig.wallet.jpg
+  icon: com.vultisig.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Vulti Holdings Limited

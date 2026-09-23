@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: https://github.com/jondale/serpcoin
-icon: bitpiece.png
+icon: bitpiece.webp
 bugbounty: 
 meta: obsolete
 verdict: prefilled

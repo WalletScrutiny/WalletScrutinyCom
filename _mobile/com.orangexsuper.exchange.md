@@ -21,7 +21,7 @@ android:
   updated: 2026-04-09
   version: 1.0.1
   reviews: 5
-  icon: com.orangexsuper.exchange.png
+  icon: com.orangexsuper.exchange.webp
   meta: removed
   verdict: custodial
   developerName: OrangeX Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-20
   version: 1.1.2
   reviews: 21
-  icon: com.orangex.exchange.jpg
+  icon: com.orangex.exchange.webp
   meta: ok
   verdict: custodial
   developerName: OrangeX Fintech s.r.o.

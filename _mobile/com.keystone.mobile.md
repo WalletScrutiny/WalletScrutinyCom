@@ -18,7 +18,7 @@ android:
   updated: 2024-07-19
   version: 1.4.0
   reviews: 12
-  icon: com.keystone.mobile.png
+  icon: com.keystone.mobile.webp
   meta: removed
   verdict: nosource
   developerName: Yanssie HK Limited
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-07-22
   version: 1.4.0
   reviews: 36
-  icon: keystone.mobile.jpg
+  icon: keystone.mobile.webp
   meta: obsolete
   verdict: nosource
   developerName: YANSSIE HK LIMITED

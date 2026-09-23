@@ -14,7 +14,7 @@ android:
   updated: 2021-10-14
   version: '4'
   reviews: 5
-  icon: com.app.asbazar59.png
+  icon: com.app.asbazar59.webp
   meta: removed
   verdict: custodial
   developerName: ASBAZAR Group

@@ -9,7 +9,7 @@ android:
   released: 2022-07-11
   updated: 2022-07-12
   version: '1.0'
-  icon: app.Kudiro.io.png
+  icon: app.Kudiro.io.webp
   meta: removed
   verdict: wip
   developerName: Kudiro

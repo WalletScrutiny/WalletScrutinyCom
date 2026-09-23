@@ -9,7 +9,7 @@ android:
   released: 2022-04-11
   updated: 2023-02-16
   version: 1.0.4
-  icon: com.hashcash.hubkoin.png
+  icon: com.hashcash.hubkoin.webp
   meta: removed
   verdict: wip
   developerName: Hubkoin

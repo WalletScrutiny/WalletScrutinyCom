@@ -12,7 +12,7 @@ provider: Nunchuk Inc.
 providerWebsite: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-desktop
-icon: nunchuk.png
+icon: nunchuk.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

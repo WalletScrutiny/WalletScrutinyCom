@@ -25,7 +25,7 @@ android:
   updated: 2025-09-10
   version: 2.0.12
   reviews: 18
-  icon: com.cryptotrading.inx.png
+  icon: com.cryptotrading.inx.webp
   meta: removed
   verdict: custodial
   developerName: The INX Digital Company
@@ -37,7 +37,7 @@ iphone:
   updated: 2025-09-09
   version: 2.0.12
   reviews: 16
-  icon: inx.co.jpg
+  icon: inx.co.webp
   meta: removed
   verdict: custodial
   developerName: INX Limited

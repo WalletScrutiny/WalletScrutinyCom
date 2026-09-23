@@ -16,7 +16,7 @@ android:
   updated: 2021-07-19
   version: 1.1.7
   reviews: 4
-  icon: com.wyre.trade.png
+  icon: com.wyre.trade.webp
   meta: removed
   verdict: custodial
   developerName: REMITTY LLC

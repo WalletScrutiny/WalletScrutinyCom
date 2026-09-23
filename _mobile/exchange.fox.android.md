@@ -12,7 +12,7 @@ android:
   released: 2019-06-11
   updated: 2020-04-20
   version: 1.5.1
-  icon: exchange.fox.android.png
+  icon: exchange.fox.android.webp
   meta: removed
   verdict: wip
   developerName: Fox Exchange

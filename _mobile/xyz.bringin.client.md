@@ -18,7 +18,7 @@ android:
   released: 2025-08-31
   updated: 2026-09-17
   version: 2.5.7
-  icon: xyz.bringin.client.png
+  icon: xyz.bringin.client.webp
   meta: ok
   verdict: nosource
   developerName: Bringin
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-18
   version: 2.5.7
   reviews: 0
-  icon: xyz.bringin.client.jpg
+  icon: xyz.bringin.client.webp
   meta: ok
   verdict: nosource
   developerName: UAB Bringin

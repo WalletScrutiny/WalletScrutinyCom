@@ -10,7 +10,7 @@ android:
   released: 2022-08-13
   updated: 2022-10-05
   version: '1.1'
-  icon: app.vipsats.pos.png
+  icon: app.vipsats.pos.webp
   meta: removed
   verdict: wip
   developerName: Vipsats

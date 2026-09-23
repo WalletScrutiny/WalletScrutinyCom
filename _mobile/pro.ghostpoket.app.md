@@ -16,7 +16,7 @@ android:
   released: 2025-06-21
   updated: 2026-01-15
   version: 1.1.5
-  icon: pro.ghostpoket.app.png
+  icon: pro.ghostpoket.app.webp
   meta: ok
   verdict: nosource
   developerName: GhostWallet Global

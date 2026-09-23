@@ -9,7 +9,7 @@ android:
   released: 2022-06-19
   updated: 2022-06-19
   version: '1.0'
-  icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
+  icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.webp
   meta: removed
   verdict: wip
   developerName: devloox

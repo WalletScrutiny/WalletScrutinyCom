@@ -12,7 +12,7 @@ android:
   updated: 2021-08-04
   version: 1.0.0
   reviews: 3
-  icon: com.shiftshape.app.png
+  icon: com.shiftshape.app.webp
   meta: removed
   verdict: wip
 

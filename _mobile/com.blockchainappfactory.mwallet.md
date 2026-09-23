@@ -12,7 +12,7 @@ android:
   released: 2020-03-08
   updated: 2020-03-09
   version: '1.0'
-  icon: com.blockchainappfactory.mwallet.png
+  icon: com.blockchainappfactory.mwallet.webp
   meta: removed
   verdict: wip
   developerName: Blockchain App Factory

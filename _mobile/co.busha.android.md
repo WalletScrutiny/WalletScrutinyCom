@@ -21,7 +21,7 @@ android:
   updated: 2026-09-02
   version: 10.1.16
   reviews: 212
-  icon: co.busha.android.png
+  icon: co.busha.android.webp
   meta: ok
   verdict: custodial
   developerName: Busha, Inc.
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-05-11
   version: 10.1.9
   reviews: 2469
-  icon: co.busha.apple.jpg
+  icon: co.busha.apple.webp
   meta: removed
   verdict: custodial
   developerName: Busha Digital

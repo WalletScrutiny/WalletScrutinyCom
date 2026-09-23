@@ -17,7 +17,7 @@ shop:
 country: FI
 price: 49 EUR
 repository: 
-icon: xellox.zifer.png
+icon: xellox.zifer.webp
 bugbounty: 
 meta: ok
 verdict: vapor

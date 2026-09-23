@@ -4,7 +4,7 @@ appId: com.bitcoinwallet
 subtype: web
 authors:
 - danny
-icon: com.bitcoinwallet.png
+icon: com.bitcoinwallet.webp
 date: 2024-05-10
 website: http://bitcoinwallet.com
 twitter: bitcoinwaIIet

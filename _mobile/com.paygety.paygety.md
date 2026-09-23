@@ -10,7 +10,7 @@ android:
   released: 2018-06-04
   updated: 2018-10-31
   version: 1.5.5
-  icon: com.paygety.paygety.png
+  icon: com.paygety.paygety.webp
   meta: removed
   verdict: wip
   developerName: Paygety OU

@@ -10,7 +10,7 @@ android:
   released: 2022-05-13
   updated: 2023-08-16
   version: 1.4.5
-  icon: com.coinsate.droidapp.png
+  icon: com.coinsate.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Coinsate Dev Team

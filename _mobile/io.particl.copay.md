@@ -14,7 +14,7 @@ android:
   updated: 2020-05-30
   version: 5.5.1
   reviews: 17
-  icon: io.particl.copay.png
+  icon: io.particl.copay.webp
   meta: removed
   verdict: wip
   developerName: Particl Foundation

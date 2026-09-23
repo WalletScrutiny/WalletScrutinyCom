@@ -17,7 +17,7 @@ shop:
 country: CA
 price: 
 repository: 
-icon: nymiband.png
+icon: nymiband.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

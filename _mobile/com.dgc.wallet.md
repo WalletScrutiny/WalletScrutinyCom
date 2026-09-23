@@ -10,7 +10,7 @@ android:
   released: 2021-07-25
   updated: 2021-07-25
   version: 0.21.3
-  icon: com.dgc.wallet.png
+  icon: com.dgc.wallet.webp
   meta: removed
   verdict: wip
   developerName: Digital Gold Coin

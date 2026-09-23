@@ -18,7 +18,7 @@ android:
   updated: 2019-03-12
   version: 1.3.5
   reviews: 11
-  icon: com.optherium.wallet.png
+  icon: com.optherium.wallet.webp
   meta: removed
   verdict: wip
   developerName: Optherium Labs

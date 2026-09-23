@@ -18,7 +18,7 @@ android:
   released: 2019-10-14
   updated: 2024-03-05
   version: 3.12.48
-  icon: com.bitfyapp.png
+  icon: com.bitfyapp.webp
   meta: removed
   verdict: nosource
   developerName: Bitfy
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-02-27
   version: 3.12.45
   reviews: 117
-  icon: app.bitfy.jpg
+  icon: app.bitfy.webp
   meta: removed
   verdict: nosource
   developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA

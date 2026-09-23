@@ -21,7 +21,7 @@ android:
   updated: 2026-07-22
   version: '4.48'
   reviews: 16
-  icon: com.sticpay.app.sticpay.png
+  icon: com.sticpay.app.sticpay.webp
   meta: ok
   verdict: custodial
   developerName: STICPAY
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-03-31
   version: '4.02'
   reviews: 28
-  icon: com.sticpay.app.jpg
+  icon: com.sticpay.app.webp
   meta: ok
   verdict: custodial
   developerName: STIC FINANCIAL LTD.

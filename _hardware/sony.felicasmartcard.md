@@ -20,7 +20,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: sony.felicasmartcard.png
+icon: sony.felicasmartcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

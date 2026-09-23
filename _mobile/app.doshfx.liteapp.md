@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2024-03-29
   version: '4.5'
-  icon: app.doshfx.liteapp.png
+  icon: app.doshfx.liteapp.webp
   meta: removed
   verdict: wip
   developerName: DoshFx

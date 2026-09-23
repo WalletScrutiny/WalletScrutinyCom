@@ -14,7 +14,7 @@ android:
   updated: 2021-04-09
   version: 1.0.1
   reviews: 14
-  icon: folgory.folgory.png
+  icon: folgory.folgory.webp
   meta: removed
   verdict: wip
 

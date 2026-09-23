@@ -10,7 +10,7 @@ android:
   released: 2021-06-01
   updated: 2023-05-19
   version: '1.1'
-  icon: com.ferraripay.png
+  icon: com.ferraripay.webp
   meta: removed
   verdict: wip
   developerName: FERRARI-PAY SOFTWARE SOLUTION

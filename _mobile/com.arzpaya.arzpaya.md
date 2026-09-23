@@ -14,7 +14,7 @@ android:
   updated: 2025-11-10
   version: 4.08.17.02
   reviews: 5
-  icon: com.arzpaya.arzpaya.png
+  icon: com.arzpaya.arzpaya.webp
   meta: ok
   verdict: custodial
   developerName: ArzPaya

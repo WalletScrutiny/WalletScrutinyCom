@@ -10,7 +10,7 @@ android:
   released: 2021-06-02
   updated: 2024-03-08
   version: 2.0.92
-  icon: com.mesh.msamexexchange.jpg
+  icon: com.mesh.msamexexchange.webp
   meta: removed
   verdict: wip
   developerName: mSamex

@@ -20,7 +20,7 @@ shop: https://era-wallet.com/products
 country: 
 price: 219USD
 repository: https://github.com/ERAWLT/ERA-firmware-p
-icon: erawallet.png
+icon: erawallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource

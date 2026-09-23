@@ -9,7 +9,7 @@ android:
   released: 2021-08-16
   updated: 2023-12-18
   version: 2.2.7
-  icon: me.bvault.app.png
+  icon: me.bvault.app.webp
   meta: removed
   verdict: wip
   developerName: Wonder Information Tech.

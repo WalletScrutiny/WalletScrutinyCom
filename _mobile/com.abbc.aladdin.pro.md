@@ -20,7 +20,7 @@ android:
   updated: 2023-02-03
   version: 1.15.7
   reviews: 162
-  icon: com.abbc.aladdin.pro.png
+  icon: com.abbc.aladdin.pro.webp
   meta: removed
   verdict: custodial
   developerName: ABBC PAYMENT SERVICES PROVIDER
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-02-07
   version: 1.15.7
   reviews: 21
-  icon: com.aladdin.pro.jpg
+  icon: com.aladdin.pro.webp
   meta: removed
   verdict: custodial
   developerName: MC ABBC IT SOLUTION

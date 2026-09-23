@@ -12,7 +12,7 @@ android:
   released: 2021-10-16
   updated: 2021-10-17
   version: '2.0'
-  icon: com.infinitywallet.main.v8.png
+  icon: com.infinitywallet.main.v8.webp
   meta: removed
   verdict: fake
 

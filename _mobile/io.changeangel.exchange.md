@@ -10,7 +10,7 @@ android:
   released: 2022-05-24
   updated: 2024-08-30
   version: 1.1.2
-  icon: io.changeangel.exchange.png
+  icon: io.changeangel.exchange.webp
   meta: removed
   verdict: wip
   developerName: Changeangel

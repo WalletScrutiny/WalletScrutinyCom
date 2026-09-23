@@ -9,7 +9,7 @@ android:
   released: 2021-06-22
   updated: 2021-06-22
   version: '1.0'
-  icon: com.cryptoheroes.invest.in.bitcoin.jpg
+  icon: com.cryptoheroes.invest.in.bitcoin.webp
   meta: removed
   verdict: wip
 

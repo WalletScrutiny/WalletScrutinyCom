@@ -16,7 +16,7 @@ iphone:
   updated: 2026-08-26
   version: 2.7.9
   reviews: 5769
-  icon: com.xiandanxiaohai.Bybt.jpg
+  icon: com.xiandanxiaohai.Bybt.webp
   meta: ok
   verdict: fake
   developerName: DerivLab Limited

@@ -9,7 +9,7 @@ android:
   released: 2021-07-19
   updated: 2021-07-19
   version: '1.0'
-  icon: net.cryptonews.bitcoin.trading.jpg
+  icon: net.cryptonews.bitcoin.trading.webp
   meta: removed
   verdict: wip
 

@@ -20,7 +20,7 @@ android:
   released: 2018-08-29
   updated: 2023-04-28
   version: 2.0.0.1
-  icon: com.trade.unicoindcx.png
+  icon: com.trade.unicoindcx.webp
   meta: removed
   verdict: custodial
   developerName: Captain Infotech LLC
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-05-03
   version: 3.5.3
   reviews: 4
-  icon: com.unicoindcx.iphoneunicoindcx.jpg
+  icon: com.unicoindcx.iphoneunicoindcx.webp
   meta: stale
   verdict: custodial
   developerName: UNICOIN DCX SDN. BHD.

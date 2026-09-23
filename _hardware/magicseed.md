@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: magicseed.png
+icon: magicseed.webp
 bugbounty: 
 meta: ok
 verdict: vapor

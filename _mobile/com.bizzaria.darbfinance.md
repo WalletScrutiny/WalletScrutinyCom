@@ -10,7 +10,7 @@ android:
   released: 2019-10-02
   updated: 2019-10-07
   version: 1.3.3
-  icon: com.bizzaria.darbfinance.png
+  icon: com.bizzaria.darbfinance.webp
   meta: removed
   verdict: wip
   developerName: Darb Finance

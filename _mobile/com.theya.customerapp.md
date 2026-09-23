@@ -19,7 +19,7 @@ iphone:
   updated: 2025-03-16
   version: '1.46'
   reviews: 34
-  icon: com.theya.customerapp.jpg
+  icon: com.theya.customerapp.webp
   meta: stale
   verdict: wip
   developerName: Theya Inc.

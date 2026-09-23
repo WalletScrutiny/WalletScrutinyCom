@@ -33,7 +33,7 @@ android:
   updated: 2026-09-08
   version: 1.68.0
   reviews: 2317
-  icon: com.coinomi.wallet.png
+  icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinomi
@@ -45,7 +45,7 @@ iphone:
   updated: 2026-09-09
   version: 1.68.0
   reviews: 2138
-  icon: com.coinomi.wallet.jpg
+  icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Loksias SA

@@ -12,7 +12,7 @@ android:
   updated: 2023-02-06
   version: 0.8.5
   reviews: 9
-  icon: com.tweetoshi.client.png
+  icon: com.tweetoshi.client.webp
   meta: obsolete
   verdict: wip
   developerName: Tweetoshi

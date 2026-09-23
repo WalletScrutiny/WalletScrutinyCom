@@ -20,7 +20,7 @@ android:
   released: 2022-07-22
   updated: 2023-07-18
   version: 1.0.13
-  icon: com.biswap.mobile.png
+  icon: com.biswap.mobile.webp
   meta: obsolete
   verdict: nosource
   developerName: Exchangily LLC
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-07-11
   version: 1.0.12
   reviews: 5
-  icon: com.biswap.app.jpg
+  icon: com.biswap.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Exchangily LLC

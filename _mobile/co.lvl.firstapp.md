@@ -20,7 +20,7 @@ android:
   updated: 2021-09-09
   version: 1.0.5
   reviews: 62
-  icon: co.lvl.firstapp.png
+  icon: co.lvl.firstapp.webp
   meta: removed
   verdict: custodial
   developerName: Samsa Technologies Inc.
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-09-13
   version: 1.0.5
   reviews: 369
-  icon: co.lvl.firstapp.jpg
+  icon: co.lvl.firstapp.webp
   meta: removed
   verdict: custodial
 

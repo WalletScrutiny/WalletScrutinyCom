@@ -17,7 +17,7 @@ shop: https://card.mycelium.com/
 country: US
 price: 
 repository: 
-icon: myceliumcard.png
+icon: myceliumcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

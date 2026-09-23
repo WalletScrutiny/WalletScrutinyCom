@@ -10,7 +10,7 @@ android:
   updated: 2018-11-22
   version: 1.2.1
   reviews: 26
-  icon: sg.bcoin.app.png
+  icon: sg.bcoin.app.webp
   meta: removed
   verdict: wip
 

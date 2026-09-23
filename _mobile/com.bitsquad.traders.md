@@ -10,7 +10,7 @@ android:
   released: 2022-02-09
   updated: 2022-02-09
   version: 1.0.0
-  icon: com.bitsquad.traders.png
+  icon: com.bitsquad.traders.webp
   meta: removed
   verdict: wip
   developerName: bitsquadtraders

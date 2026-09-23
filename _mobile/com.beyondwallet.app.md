@@ -10,7 +10,7 @@ android:
   released: 2021-01-11
   updated: 2023-10-19
   version: VARY
-  icon: com.beyondwallet.app.png
+  icon: com.beyondwallet.app.webp
   meta: removed
   verdict: wip
   developerName: Frictionless Money LLC

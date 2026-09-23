@@ -21,7 +21,7 @@ android:
   updated: 2024-05-21
   version: 5.3.2
   reviews: 39
-  icon: com.box.pro.png
+  icon: com.box.pro.webp
   meta: removed
   verdict: custodial
   developerName: Bibox
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-11-02
   version: 5.3.0
   reviews: 55
-  icon: com.biboxpro.release.jpg
+  icon: com.biboxpro.release.webp
   meta: obsolete
   verdict: custodial
   developerName: Bibox Group Holdings Limited

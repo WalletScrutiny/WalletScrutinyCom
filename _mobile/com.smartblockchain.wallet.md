@@ -18,7 +18,7 @@ android:
   updated: 2026-08-05
   version: 2.7.1
   reviews: 36
-  icon: com.smartblockchain.wallet.png
+  icon: com.smartblockchain.wallet.webp
   meta: ok
   verdict: nosource
   developerName: YamaD LLC
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-08-11
   version: 2.7.1
   reviews: 20
-  icon: com.smartblockchain.wallet.jpg
+  icon: com.smartblockchain.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Yamad LLC

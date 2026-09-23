@@ -10,7 +10,7 @@ android:
   released: 2019-11-25
   updated: 2020-02-05
   version: '1.3'
-  icon: io.adara.client.png
+  icon: io.adara.client.webp
   meta: removed
   verdict: wip
   developerName: Adara

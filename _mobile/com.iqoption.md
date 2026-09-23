@@ -19,7 +19,7 @@ android:
   updated: 2026-09-16
   version: 8.67.4
   reviews: 556
-  icon: com.iqoption.jpg
+  icon: com.iqoption.webp
   meta: ok
   verdict: nosendreceive
   developerName: IQ Option
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-10
   version: '4.106'
   reviews: 1282
-  icon: com.trading.iqoption.jpg
+  icon: com.trading.iqoption.webp
   meta: ok
   verdict: nosendreceive
   developerName: IQOPTION EUROPE LTD

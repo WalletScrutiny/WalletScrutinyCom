@@ -12,7 +12,7 @@ android:
   released: 2019-08-11
   updated: 2019-11-04
   version: 1.0.2
-  icon: com.fxcrypto.wallet.png
+  icon: com.fxcrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: Artificial intelligence technology

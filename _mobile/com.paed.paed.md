@@ -9,7 +9,7 @@ android:
   released: 2022-02-18
   updated: 2022-02-25
   version: 1.0.0
-  icon: com.paed.paed.png
+  icon: com.paed.paed.webp
   meta: removed
   verdict: wip
   developerName: PAED Group

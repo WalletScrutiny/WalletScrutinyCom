@@ -17,7 +17,7 @@ shop: https://web.archive.org/web/20231129150507/http://tapwallet.com/store.html
 country: US
 price: 249USD
 repository: 
-icon: tapwallet.png
+icon: tapwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

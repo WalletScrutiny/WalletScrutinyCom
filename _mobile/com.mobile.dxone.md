@@ -10,7 +10,7 @@ android:
   released: 2022-07-27
   updated: 2022-09-27
   version: 1.0.9
-  icon: com.mobile.dxone.png
+  icon: com.mobile.dxone.webp
   meta: removed
   verdict: wip
   developerName: DXone Ltd.

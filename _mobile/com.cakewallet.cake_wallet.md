@@ -34,7 +34,7 @@ android:
   updated: 2026-09-20
   version: 6.4.4
   reviews: 673
-  icon: com.cakewallet.cake_wallet.png
+  icon: com.cakewallet.cake_wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cake Labs
@@ -47,7 +47,7 @@ iphone:
   updated: 2026-09-20
   version: 6.4.5
   reviews: 4213
-  icon: com.fotolockr.cakewallet.jpg
+  icon: com.fotolockr.cakewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cake Technologies, LLC

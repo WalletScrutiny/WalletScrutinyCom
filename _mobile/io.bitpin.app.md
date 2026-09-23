@@ -18,7 +18,7 @@ android:
   updated: 2025-06-09
   version: 1.3.0
   reviews: 103
-  icon: io.bitpin.app.png
+  icon: io.bitpin.app.webp
   meta: removed
   verdict: custodial
   developerName: Bitpin App Developer

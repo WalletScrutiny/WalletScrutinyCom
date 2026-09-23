@@ -13,7 +13,7 @@ provider:
 providerWebsite: 
 website: https://bitpay.com/
 repository: https://github.com/bitpay/wallet
-icon: bitpay.png
+icon: bitpay.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

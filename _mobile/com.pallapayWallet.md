@@ -20,7 +20,7 @@ android:
   released: 2021-10-06
   updated: 2022-03-02
   version: '1.3'
-  icon: com.pallapayWallet.png
+  icon: com.pallapayWallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-03-03
   version: '1.6'
   reviews: 9
-  icon: com.pallapayWallet.jpg
+  icon: com.pallapayWallet.webp
   meta: removed
   verdict: nosource
 

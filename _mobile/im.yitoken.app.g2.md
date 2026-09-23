@@ -10,7 +10,7 @@ android:
   released: 2021-06-15
   updated: 2023-08-24
   version: 1.3.5
-  icon: im.yitoken.app.g2.png
+  icon: im.yitoken.app.g2.webp
   meta: removed
   verdict: wip
   developerName: YiToken Labs

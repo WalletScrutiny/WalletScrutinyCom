@@ -10,7 +10,7 @@ android:
   updated: 2019-02-19
   version: 7.0.4
   reviews: 23
-  icon: com.uni.uniwallet.png
+  icon: com.uni.uniwallet.webp
   meta: removed
   verdict: wip
 

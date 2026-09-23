@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 3.28.5
-  icon: nl.bitonic.androidApp.jpg
+  icon: nl.bitonic.androidApp.webp
   meta: ok
   verdict: custodial
   developerName: Bitonic
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-21
   version: 3.28.5
   reviews: 2582
-  icon: nl.bitonic.Bitonic.jpg
+  icon: nl.bitonic.Bitonic.webp
   meta: ok
   verdict: custodial
   developerName: Bitonic B.V.

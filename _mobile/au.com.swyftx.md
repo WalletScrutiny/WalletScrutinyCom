@@ -24,7 +24,7 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 2.10.4
-  icon: au.com.swyftx.png
+  icon: au.com.swyftx.webp
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-17
   version: 2.11.0
   reviews: 6037
-  icon: au.com.swyftx.ios.jpg
+  icon: au.com.swyftx.ios.webp
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd

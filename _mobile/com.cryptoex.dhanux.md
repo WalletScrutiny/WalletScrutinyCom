@@ -14,7 +14,7 @@ android:
   released: 2022-03-02
   updated: 2023-01-12
   version: '4.2'
-  icon: com.cryptoex.dhanux.png
+  icon: com.cryptoex.dhanux.webp
   meta: removed
   verdict: custodial
   developerName: dhanux
@@ -26,7 +26,7 @@ iphone:
   updated: 2023-01-14
   version: 1.6.1
   reviews: 0
-  icon: com.dhanuX.jpg
+  icon: com.dhanuX.webp
   meta: removed
   verdict: custodial
   developerName: DHANU INNOVATIVE INFORMATION TECHNOLOGY NETWORK SERVICES CO.

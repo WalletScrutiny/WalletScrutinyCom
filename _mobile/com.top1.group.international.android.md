@@ -10,7 +10,7 @@ android:
   released: 2019-07-10
   updated: 2020-08-03
   version: 3.9.0
-  icon: com.top1.group.international.android.png
+  icon: com.top1.group.international.android.webp
   meta: removed
   verdict: wip
 

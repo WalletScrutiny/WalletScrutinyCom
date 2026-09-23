@@ -19,7 +19,7 @@ android:
   released: 2017-11-03
   updated: 2021-10-29
   version: 2.0.28
-  icon: br.com.coinbr.smartwallet.png
+  icon: br.com.coinbr.smartwallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +29,7 @@ iphone:
   updated: 2021-11-02
   version: 2.0.28
   reviews: 2
-  icon: br.com.coinbr.smartwallet.jpg
+  icon: br.com.coinbr.smartwallet.webp
   meta: removed
   verdict: custodial
 

@@ -20,7 +20,7 @@ android:
   updated: 2022-09-29
   version: 7.3.1
   reviews: 60
-  icon: com.trade360.png
+  icon: com.trade360.webp
   meta: removed
   verdict: nosendreceive
   developerName: Trade360 Ltd.
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-10-14
   version: 7.4.0
   reviews: 0
-  icon: com.toyga.trade360.jpg
+  icon: com.toyga.trade360.webp
   meta: removed
   verdict: nosendreceive
   developerName: Trade360 LTD

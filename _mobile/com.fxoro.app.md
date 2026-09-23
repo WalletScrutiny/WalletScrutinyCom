@@ -17,7 +17,7 @@ android:
   released: 2022-06-16
   updated: 2025-08-06
   version: 1.6.3
-  icon: com.fxoro.app.png
+  icon: com.fxoro.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: MCA Intelifunds LTD
@@ -29,7 +29,7 @@ iphone:
   updated: 2025-08-07
   version: 1.6.3
   reviews: 0
-  icon: com.compie.fxoro.jpg
+  icon: com.compie.fxoro.webp
   meta: removed
   verdict: nosendreceive
   developerName: MCA INTELIFUNDS LIMITED

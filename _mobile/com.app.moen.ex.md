@@ -9,7 +9,7 @@ android:
   released: 2022-04-28
   updated: 2022-05-06
   version: 1.0.1
-  icon: com.app.moen.ex.png
+  icon: com.app.moen.ex.webp
   meta: removed
   verdict: wip
   developerName: Future Blockchain

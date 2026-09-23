@@ -10,7 +10,7 @@ android:
   released: 2021-03-25
   updated: 2021-03-25
   version: 1.0.0
-  icon: com.holytransaction.png
+  icon: com.holytransaction.webp
   meta: removed
   verdict: wip
   developerName: HolyTransaction Android

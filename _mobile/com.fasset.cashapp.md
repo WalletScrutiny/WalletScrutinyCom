@@ -22,7 +22,7 @@ android:
   updated: 2026-08-21
   version: '6.11'
   reviews: 67
-  icon: com.fasset.cashapp.png
+  icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial
   developerName: Fasset Labuan Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-08-24
   version: '4.18'
   reviews: 54
-  icon: com.fasset.cashapp.jpg
+  icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial
   developerName: Fasset Ltd.

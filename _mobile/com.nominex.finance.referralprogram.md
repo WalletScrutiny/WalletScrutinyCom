@@ -10,7 +10,7 @@ android:
   released: 2022-05-19
   updated: 2022-05-19
   version: '1.0'
-  icon: com.nominex.finance.referralprogram.png
+  icon: com.nominex.finance.referralprogram.webp
   meta: removed
   verdict: wip
 

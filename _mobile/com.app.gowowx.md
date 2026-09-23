@@ -10,7 +10,7 @@ android:
   released: 2019-10-11
   updated: 2020-07-13
   version: 1.0.9
-  icon: com.app.gowowx.png
+  icon: com.app.gowowx.webp
   meta: removed
   verdict: wip
   developerName: wowexchange oü

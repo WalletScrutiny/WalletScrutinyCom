@@ -10,7 +10,7 @@ android:
   released: 2020-12-13
   updated: 2020-12-21
   version: 1.0.1
-  icon: com.usc.uscwallet.png
+  icon: com.usc.uscwallet.webp
   meta: removed
   verdict: wip
   developerName: 유성코인

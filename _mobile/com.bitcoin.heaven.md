@@ -9,7 +9,7 @@ android:
   released: 2020-07-14
   updated: 2020-07-14
   version: 1.0.0
-  icon: com.bitcoin.heaven.png
+  icon: com.bitcoin.heaven.webp
   meta: removed
   verdict: wip
 

@@ -11,7 +11,7 @@ android:
   users: 50000
   updated: 2024-05-02
   version: VARY
-  icon: com.tenet.eva.png
+  icon: com.tenet.eva.webp
   meta: removed
   verdict: wip
   developerName: NETTE TECHNOLOGIES

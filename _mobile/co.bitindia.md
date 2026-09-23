@@ -8,7 +8,7 @@ android:
   users: 1000
   updated: 2018-02-06
   version: Varies with device
-  icon: co.bitindia.png
+  icon: co.bitindia.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,7 @@ android:
   released: 2022-06-01
   updated: 2022-12-08
   version: 1.0.12
-  icon: com.cryptosimple.prod.png
+  icon: com.cryptosimple.prod.webp
   meta: removed
   verdict: wip
   developerName: CryptoSimple

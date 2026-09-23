@@ -12,7 +12,7 @@ android:
   released: 2022-05-05
   updated: 2025-02-28
   version: 1.1.22
-  icon: com.jeritex.exchange.png
+  icon: com.jeritex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Jeritex Inc.

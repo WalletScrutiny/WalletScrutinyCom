@@ -10,7 +10,7 @@ android:
   released: 2019-09-10
   updated: 2020-01-04
   version: 3.3.2
-  icon: io.kozjin.wallet.png
+  icon: io.kozjin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Kozjin International Pte. Ltd.

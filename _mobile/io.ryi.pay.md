@@ -11,7 +11,7 @@ android:
   updated: 2022-06-14
   version: 1.0.8
   reviews: 7
-  icon: io.ryi.pay.png
+  icon: io.ryi.pay.webp
   meta: removed
   verdict: wip
   developerName: RYI Unity

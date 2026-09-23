@@ -10,7 +10,7 @@ android:
   released: 2023-07-13
   updated: 2023-07-13
   version: '1.0'
-  icon: com.privatewallet.global.png
+  icon: com.privatewallet.global.webp
   meta: removed
   verdict: wip
   developerName: Digital needs

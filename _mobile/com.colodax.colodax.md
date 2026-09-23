@@ -19,7 +19,7 @@ android:
   released: 2020-01-31
   updated: 2021-09-17
   version: 1.7.2
-  icon: com.colodax.colodax.jpg
+  icon: com.colodax.colodax.webp
   meta: removed
   verdict: custodial
   developerName: Ganyt Solutions
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-09-17
   version: 1.7.2
   reviews: 2
-  icon: com.colodax.colodax.jpg
+  icon: com.colodax.colodax.webp
   meta: removed
   verdict: custodial
   developerName: Ganyt Solutions LLC

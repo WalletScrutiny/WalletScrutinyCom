@@ -15,7 +15,7 @@ android:
   updated: 2026-05-22
   version: 1.41.0
   reviews: 62
-  icon: com.bitvalve.android.png
+  icon: com.bitvalve.android.webp
   meta: removed
   verdict: custodial
   developerName: BitValve Developer

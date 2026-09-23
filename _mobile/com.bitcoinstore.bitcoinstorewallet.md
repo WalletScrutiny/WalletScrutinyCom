@@ -23,7 +23,7 @@ android:
   released: 2023-01-03
   updated: 2026-09-18
   version: 1.0.60
-  icon: com.bitcoinstore.bitcoinstorewallet.png
+  icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-21
   version: 1.0.31
   reviews: 13
-  icon: com.bitcoinstore.bitcoinstorewallet.jpg
+  icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o

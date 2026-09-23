@@ -10,7 +10,7 @@ android:
   released: 2019-04-21
   updated: 2019-09-16
   version: 1.0.0.6
-  icon: org.sucon.suworld.png
+  icon: org.sucon.suworld.webp
   meta: removed
   verdict: wip
 

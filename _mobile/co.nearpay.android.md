@@ -9,7 +9,7 @@ android:
   users: 10000
   updated: 2023-01-03
   version: 1.44.1
-  icon: co.nearpay.android.png
+  icon: co.nearpay.android.webp
   meta: removed
   verdict: wip
   developerName: Cryptopay Ltd

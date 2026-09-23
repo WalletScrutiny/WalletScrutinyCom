@@ -11,7 +11,7 @@ android:
   updated: 2021-11-08
   version: '1.05'
   reviews: 111
-  icon: com.bitni.androidapp.png
+  icon: com.bitni.androidapp.webp
   meta: removed
   verdict: wip
 

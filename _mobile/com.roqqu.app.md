@@ -21,7 +21,7 @@ android:
   updated: 2026-09-17
   version: 2.6.8
   reviews: 915
-  icon: com.roqqu.app.png
+  icon: com.roqqu.app.webp
   meta: ok
   verdict: custodial
   developerName: Roqqu
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-09-18
   version: 2.6.8
   reviews: 8
-  icon: com.roqqu.ios.jpg
+  icon: com.roqqu.ios.webp
   meta: ok
   verdict: custodial
   developerName: RedRaven Limited

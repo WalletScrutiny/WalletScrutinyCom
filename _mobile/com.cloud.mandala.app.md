@@ -12,7 +12,7 @@ android:
   updated: 2021-07-19
   version: 1.0.2
   reviews: 9
-  icon: com.cloud.mandala.app.png
+  icon: com.cloud.mandala.app.webp
   meta: removed
   verdict: wip
 

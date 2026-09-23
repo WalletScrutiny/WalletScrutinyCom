@@ -20,7 +20,7 @@ android:
   released: 2021-06-23
   updated: 2026-09-17
   version: 4.3.2
-  icon: com.trading.aries.png
+  icon: com.trading.aries.webp
   meta: ok
   verdict: nosendreceive
   developerName: Aries Financial, Inc.
@@ -31,7 +31,7 @@ iphone:
   updated: 2024-08-14
   version: 3.7.6
   reviews: 0
-  icon: com.tradearies.ariestrading.jpg
+  icon: com.tradearies.ariestrading.webp
   meta: removed
   verdict: nosendreceive
   developerName: Aries Financial, Inc.

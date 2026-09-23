@@ -10,7 +10,7 @@ android:
   updated: 2020-03-08
   version: 1.4.2
   reviews: 10
-  icon: xfolio.android.app.png
+  icon: xfolio.android.app.webp
   meta: removed
   verdict: wip
 

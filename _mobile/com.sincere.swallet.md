@@ -20,7 +20,7 @@ android:
   updated: 2023-04-21
   version: 2.6.0
   reviews: 28
-  icon: com.sincere.swallet.jpg
+  icon: com.sincere.swallet.webp
   meta: obsolete
   verdict: custodial
   developerName: SWallet OU
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-06-24
   version: 2.8.0
   reviews: 178
-  icon: com.sincere.swallet.jpg
+  icon: com.sincere.swallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Swallet OU

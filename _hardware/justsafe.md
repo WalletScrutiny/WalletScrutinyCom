@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: justsafe.png
+icon: justsafe.webp
 bugbounty: 
 meta: defunct
 verdict: wip

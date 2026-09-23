@@ -10,7 +10,7 @@ android:
   released: 2020-04-14
   updated: 2020-04-17
   version: 0.0.2
-  icon: com.geswallet.start.png
+  icon: com.geswallet.start.webp
   meta: removed
   verdict: wip
   developerName: Ges Ecosystem

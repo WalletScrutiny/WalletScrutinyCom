@@ -11,7 +11,7 @@ android:
   released: 2021-03-16
   updated: 2023-06-29
   version: 1.1.2
-  icon: ru.devroom.blockchain24.png
+  icon: ru.devroom.blockchain24.webp
   meta: obsolete
   verdict: wip
   developerName: Promedia Apps

@@ -10,7 +10,7 @@ android:
   released: 2021-08-16
   updated: 2022-05-19
   version: 1.0.4
-  icon: com.mobuyg.nmx.png
+  icon: com.mobuyg.nmx.webp
   meta: removed
   verdict: wip
 

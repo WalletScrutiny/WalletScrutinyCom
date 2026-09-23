@@ -10,7 +10,7 @@ android:
   released: 2022-10-20
   updated: 2022-11-28
   version: 1.0.1
-  icon: com.paily.wallet.png
+  icon: com.paily.wallet.webp
   meta: removed
   verdict: wip
   developerName: Paily Crypto Wallet

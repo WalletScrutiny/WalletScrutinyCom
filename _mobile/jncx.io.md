@@ -11,7 +11,7 @@ android:
   released: 2022-05-24
   updated: 2022-09-01
   version: 1.0.4
-  icon: jncx.io.png
+  icon: jncx.io.webp
   meta: removed
   verdict: wip
   developerName: JNC FINTECH

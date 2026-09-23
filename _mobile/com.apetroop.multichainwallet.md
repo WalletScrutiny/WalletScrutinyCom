@@ -10,7 +10,7 @@ android:
   released: 2020-08-10
   updated: 2020-09-04
   version: 1.0.3
-  icon: com.apetroop.multichainwallet.png
+  icon: com.apetroop.multichainwallet.webp
   meta: removed
   verdict: wip
   developerName: Global Token

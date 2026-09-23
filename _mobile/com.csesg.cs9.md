@@ -12,7 +12,7 @@ android:
   released: 2020-09-28
   updated: 2021-07-28
   version: 1.2.9
-  icon: com.csesg.cs9.png
+  icon: com.csesg.cs9.webp
   meta: removed
   verdict: custodial
   developerName: CSE

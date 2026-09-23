@@ -21,7 +21,7 @@ shop: https://shop.opolo.io/
 country: LU
 price: 198EUR
 repository: 
-icon: opolocosmos.png
+icon: opolocosmos.webp
 bugbounty: 
 meta: ok
 verdict: nosource

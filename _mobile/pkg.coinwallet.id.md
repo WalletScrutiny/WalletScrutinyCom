@@ -10,7 +10,7 @@ android:
   released: 2021-04-13
   updated: 2021-04-23
   version: 1.0.0
-  icon: pkg.coinwallet.id.png
+  icon: pkg.coinwallet.id.webp
   meta: removed
   verdict: wip
 

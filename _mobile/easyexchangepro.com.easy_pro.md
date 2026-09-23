@@ -9,7 +9,7 @@ android:
   users: 500
   updated: 2023-04-11
   version: 1.0.0
-  icon: easyexchangepro.com.easy_pro.png
+  icon: easyexchangepro.com.easy_pro.webp
   meta: removed
   verdict: wip
   developerName: EasyExchangePro

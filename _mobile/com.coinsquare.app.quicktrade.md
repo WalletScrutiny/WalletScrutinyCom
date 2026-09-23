@@ -26,7 +26,7 @@ android:
   updated: 2025-12-05
   version: 5.3.3
   reviews: 5
-  icon: com.coinsquare.app.quicktrade.png
+  icon: com.coinsquare.app.quicktrade.webp
   meta: ok
   verdict: custodial
   developerName: WF - Bitbuy
@@ -38,7 +38,7 @@ iphone:
   updated: 2025-12-08
   version: 5.3.3
   reviews: 5374
-  icon: com.coinsquare.quicktrade.jpg
+  icon: com.coinsquare.quicktrade.webp
   meta: ok
   verdict: custodial
   developerName: Coinsquare Ltd.

@@ -10,7 +10,7 @@ android:
   released: 2022-02-22
   updated: 2022-02-23
   version: 1.0.0
-  icon: com.bitcoincashsystems.app.png
+  icon: com.bitcoincashsystems.app.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,7 @@ android:
   updated: 2024-03-15
   version: 2.0.21
   reviews: 8
-  icon: com.probit.app.android2.release.korea.png
+  icon: com.probit.app.android2.release.korea.webp
   meta: removed
   verdict: custodial
   developerName: Oceans Inc

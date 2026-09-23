@@ -10,7 +10,7 @@ android:
   released: 2019-12-01
   updated: 2020-07-13
   version: 2.0.21
-  icon: com.cyphereco.openturnkey.png
+  icon: com.cyphereco.openturnkey.webp
   meta: removed
   verdict: wip
   developerName: Cyphereco OÜ

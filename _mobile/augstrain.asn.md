@@ -11,7 +11,7 @@ android:
   released: 2020-09-10
   updated: 2020-09-10
   version: '8.0'
-  icon: augstrain.asn.png
+  icon: augstrain.asn.webp
   meta: removed
   verdict: wip
 

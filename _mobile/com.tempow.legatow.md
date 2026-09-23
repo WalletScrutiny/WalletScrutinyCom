@@ -12,7 +12,7 @@ android:
   released: 2018-07-04
   updated: 2019-01-30
   version: 1.0.3
-  icon: com.tempow.legatow.png
+  icon: com.tempow.legatow.webp
   meta: removed
   verdict: wip
   developerName: Tempow Project

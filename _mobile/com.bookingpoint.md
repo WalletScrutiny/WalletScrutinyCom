@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2023-01-02
   version: 1.0.6
-  icon: com.bookingpoint.png
+  icon: com.bookingpoint.webp
   meta: removed
   verdict: wip
   developerName: booking point

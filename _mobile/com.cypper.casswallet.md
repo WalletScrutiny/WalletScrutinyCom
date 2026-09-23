@@ -10,7 +10,7 @@ android:
   released: 2019-10-29
   updated: 2019-12-07
   version: 2.0.7.6
-  icon: com.cypper.casswallet.png
+  icon: com.cypper.casswallet.webp
   meta: removed
   verdict: wip
   developerName: Chrixtopher Design

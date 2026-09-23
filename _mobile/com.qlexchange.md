@@ -9,7 +9,7 @@ android:
   users: 10
   updated: 2022-05-03
   version: VARY
-  icon: com.qlexchange.png
+  icon: com.qlexchange.webp
   meta: removed
   verdict: wip
   developerName: Qilin Lab

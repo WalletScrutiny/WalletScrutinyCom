@@ -10,7 +10,7 @@ android:
   released: 2020-02-02
   updated: 2020-02-03
   version: 1.0.0
-  icon: com.bcnex.png
+  icon: com.bcnex.webp
   meta: removed
   verdict: wip
   developerName: BCNEX

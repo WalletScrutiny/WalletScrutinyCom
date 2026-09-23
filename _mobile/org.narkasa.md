@@ -20,7 +20,7 @@ android:
   released: 2020-10-30
   updated: 2026-09-05
   version: 5.21.0
-  icon: org.narkasa.png
+  icon: org.narkasa.webp
   meta: ok
   verdict: custodial
   developerName: Bybit TR
@@ -32,7 +32,7 @@ iphone:
   updated: 2021-04-11
   version: '1.27'
   reviews: 0
-  icon: org.narkasa.jpg
+  icon: org.narkasa.webp
   meta: removed
   verdict: custodial
   developerName: Narkasa Yazılım ve Ticaret A.Ş.

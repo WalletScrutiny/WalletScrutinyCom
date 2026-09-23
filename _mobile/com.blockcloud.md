@@ -9,7 +9,7 @@ android:
   released: 2021-01-08
   updated: 2021-02-16
   version: '1.4'
-  icon: com.blockcloud.png
+  icon: com.blockcloud.webp
   meta: removed
   verdict: wip
   developerName: Block Cloud

@@ -20,7 +20,7 @@ shop: https://aercrypt.net/store
 country: 
 price: 
 repository: 
-icon: aercrypt.png
+icon: aercrypt.webp
 bugbounty: 
 meta: ok
 verdict: vapor

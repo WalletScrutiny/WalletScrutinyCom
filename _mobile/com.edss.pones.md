@@ -12,7 +12,7 @@ android:
   updated: 2021-04-29
   version: '1.0'
   reviews: 16
-  icon: com.edss.pones.png
+  icon: com.edss.pones.webp
   meta: removed
   verdict: fake
 

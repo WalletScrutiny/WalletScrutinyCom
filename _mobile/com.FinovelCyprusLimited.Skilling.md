@@ -20,7 +20,7 @@ android:
   updated: 2026-05-13
   version: 3.0.5
   reviews: 7
-  icon: com.FinovelCyprusLimited.Skilling.png
+  icon: com.FinovelCyprusLimited.Skilling.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skilling
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-05-14
   version: 3.0.5
   reviews: 11
-  icon: com.FinovelCyprusLimited.Skilling.jpg
+  icon: com.FinovelCyprusLimited.Skilling.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skilling Limited

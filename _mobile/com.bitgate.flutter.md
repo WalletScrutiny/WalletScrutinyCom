@@ -15,7 +15,7 @@ android:
   users: 500
   updated: 2023-04-14
   version: 0.9.4
-  icon: com.bitgate.flutter.png
+  icon: com.bitgate.flutter.webp
   meta: removed
   verdict: wip
   developerName: BitSpace

@@ -9,7 +9,7 @@ android:
   released: 2021-04-23
   updated: 2021-11-12
   version: 2.0.3
-  icon: com.finovation.fxvc.jpg
+  icon: com.finovation.fxvc.webp
   meta: removed
   verdict: wip
   developerName: FXVC

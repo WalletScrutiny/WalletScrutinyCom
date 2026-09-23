@@ -18,7 +18,7 @@ android:
   released: 2022-10-29
   updated: 2025-04-30
   version: 2.1.14
-  icon: ru.webtronics.touch_wallet.png
+  icon: ru.webtronics.touch_wallet.webp
   meta: stale
   verdict: custodial
   developerName: CLOUD FARMER L.L.C-FZ
@@ -30,7 +30,7 @@ iphone:
   updated: 2024-08-26
   version: 2.1.0
   reviews: 3
-  icon: ru.webtronics.touchwallet2.jpg
+  icon: ru.webtronics.touchwallet2.webp
   meta: removed
   verdict: custodial
   developerName: CLOUD FARMER L.L.C-FZ

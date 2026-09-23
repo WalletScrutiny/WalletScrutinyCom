@@ -10,7 +10,7 @@ android:
   released: 2022-09-27
   updated: 2024-07-05
   version: 1.1.2
-  icon: com.bitcoreex.app.png
+  icon: com.bitcoreex.app.webp
   meta: obsolete
   verdict: wip
   developerName: VALLIDGE CONSULTING PTE. LTD.

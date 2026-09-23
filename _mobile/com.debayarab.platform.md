@@ -10,7 +10,7 @@ android:
   released: 2019-12-16
   updated: 2020-02-28
   version: 1.2.3
-  icon: com.debayarab.platform.jpg
+  icon: com.debayarab.platform.webp
   meta: removed
   verdict: wip
   developerName: Debay

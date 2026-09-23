@@ -9,7 +9,7 @@ android:
   released: 2021-10-05
   updated: 2022-11-16
   version: 1.0.8
-  icon: com.hashcash.emetexchange.png
+  icon: com.hashcash.emetexchange.webp
   meta: removed
   verdict: wip
   developerName: GPOINT

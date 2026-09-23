@@ -12,7 +12,7 @@ android:
   users: 100000
   updated: 2022-06-14
   version: 1.9.3
-  icon: com.twogetherbank.app.png
+  icon: com.twogetherbank.app.webp
   meta: removed
   verdict: custodial
   developerName: 2gether global

@@ -10,7 +10,7 @@ android:
   released: 2019-05-06
   updated: 2019-10-23
   version: '1.2'
-  icon: com.application.morebit.png
+  icon: com.application.morebit.webp
   meta: removed
   verdict: wip
   developerName: Shafir 89 Pvt. Ltd.

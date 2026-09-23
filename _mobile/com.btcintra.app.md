@@ -10,7 +10,7 @@ android:
   released: 2021-11-03
   updated: 2021-12-15
   version: '1.0'
-  icon: com.btcintra.app.jpg
+  icon: com.btcintra.app.webp
   meta: removed
   verdict: wip
   developerName: Pyra Square Capital

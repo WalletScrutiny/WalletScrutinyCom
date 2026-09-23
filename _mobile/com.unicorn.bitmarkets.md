@@ -9,7 +9,7 @@ android:
   released: 2022-04-05
   updated: 2022-04-15
   version: 1.0.1
-  icon: com.unicorn.bitmarkets.png
+  icon: com.unicorn.bitmarkets.webp
   meta: removed
   verdict: wip
 

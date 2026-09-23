@@ -10,7 +10,7 @@ android:
   released: 2021-06-14
   updated: 2022-07-15
   version: 1.0.1
-  icon: com.snapresearch.snapbotmobile.png
+  icon: com.snapresearch.snapbotmobile.webp
   meta: removed
   verdict: wip
   developerName: SnapBots Limited

@@ -16,7 +16,7 @@ android:
   updated: 2022-05-18
   version: 1.1.85
   reviews: 18
-  icon: africa.buycoins.buycoinsx.basic.png
+  icon: africa.buycoins.buycoinsx.basic.webp
   meta: removed
   verdict: custodial
 

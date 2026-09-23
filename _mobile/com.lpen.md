@@ -10,7 +10,7 @@ android:
   released: 2022-04-01
   updated: 2022-04-15
   version: 1.0.1260
-  icon: com.lpen.png
+  icon: com.lpen.webp
   meta: removed
   verdict: wip
   developerName: LPEN

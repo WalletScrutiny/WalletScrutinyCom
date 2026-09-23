@@ -10,7 +10,7 @@ android:
   released: 2019-09-23
   updated: 2020-01-14
   version: 4.0.8
-  icon: com.exchange.XinBi.png
+  icon: com.exchange.XinBi.webp
   meta: removed
   verdict: wip
   developerName: XinBiPro

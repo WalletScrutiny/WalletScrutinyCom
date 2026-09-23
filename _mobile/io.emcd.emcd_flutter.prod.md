@@ -22,7 +22,7 @@ android:
   updated: 2026-09-18
   version: 2.40.0
   reviews: 36
-  icon: io.emcd.emcd_flutter.prod.png
+  icon: io.emcd.emcd_flutter.prod.webp
   meta: ok
   verdict: custodial
   developerName: EMCD Tech Limited
@@ -34,7 +34,7 @@ iphone:
   updated: 2024-09-24
   version: 2.5.0
   reviews: 0
-  icon: io.emcd.app.jpg
+  icon: io.emcd.app.webp
   meta: removed
   verdict: custodial
   developerName: Emcd Tech Limited

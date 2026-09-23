@@ -16,7 +16,7 @@ android:
   updated: 2023-12-22
   version: 1.58.6
   reviews: 78
-  icon: com.fbs.tpand.png
+  icon: com.fbs.tpand.webp
   meta: removed
   verdict: nosendreceive
   developerName: FBS.com

@@ -10,7 +10,7 @@ android:
   released: 2022-06-13
   updated: 2022-07-12
   version: 3.5.8
-  icon: com.app.quintex.png
+  icon: com.app.quintex.webp
   meta: removed
   verdict: wip
   developerName: Quintex Network

@@ -12,7 +12,7 @@ provider: Exodus Movement, Inc.
 providerWebsite: 
 website: https://www.exodus.com/
 repository: 
-icon: exodus.png
+icon: exodus.webp
 bugbounty: 
 meta: ok
 verdict: nosource

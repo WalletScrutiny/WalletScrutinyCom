@@ -10,7 +10,7 @@ android:
   released: 2019-03-29
   updated: 2021-10-25
   version: 1.1.1
-  icon: com.swissquote.epb.jpg
+  icon: com.swissquote.epb.webp
   meta: removed
   verdict: wip
   developerName: Swissquote Mobile

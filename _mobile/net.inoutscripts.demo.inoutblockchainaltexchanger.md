@@ -10,7 +10,7 @@ android:
   released: 2021-10-02
   updated: 2024-03-02
   version: '1.1'
-  icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
+  icon: net.inoutscripts.demo.inoutblockchainaltexchanger.webp
   meta: removed
   verdict: wip
   developerName: Nesote Technologies Private Limited

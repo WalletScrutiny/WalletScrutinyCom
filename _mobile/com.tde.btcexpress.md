@@ -9,7 +9,7 @@ android:
   released: 2020-06-10
   updated: 2020-06-17
   version: '1.1'
-  icon: com.tde.btcexpress.png
+  icon: com.tde.btcexpress.webp
   meta: removed
   verdict: wip
   developerName: Tde srl

@@ -9,7 +9,7 @@ android:
   released: 2020-07-03
   updated: 2020-08-31
   version: 1.0.2
-  icon: com.undertheactmedia.swipesurfer.png
+  icon: com.undertheactmedia.swipesurfer.webp
   meta: removed
   verdict: wip
   developerName: Under The Act Media

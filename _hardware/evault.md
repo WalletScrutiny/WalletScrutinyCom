@@ -17,7 +17,7 @@ shop:
 country: 
 price: 62.40GBP
 repository: 
-icon: evault.png
+icon: evault.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor

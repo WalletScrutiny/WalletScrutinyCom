@@ -11,7 +11,7 @@ android:
   released: 2020-05-07
   updated: 2024-07-16
   version: 1.0.0
-  icon: com.gioexchange.app.png
+  icon: com.gioexchange.app.webp
   meta: obsolete
   verdict: wip
   developerName: ANGELS

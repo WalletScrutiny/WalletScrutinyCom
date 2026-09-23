@@ -18,7 +18,7 @@ android:
   updated: 2025-03-17
   version: 3.2.2
   reviews: 20
-  icon: com.iqtrade.ex.app.png
+  icon: com.iqtrade.ex.app.webp
   meta: removed
   verdict: custodial
   developerName: I&Q Financial LLC

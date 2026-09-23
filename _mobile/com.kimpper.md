@@ -10,7 +10,7 @@ android:
   released: 2021-12-22
   updated: 2022-11-11
   version: 1.1.8
-  icon: com.kimpper.png
+  icon: com.kimpper.webp
   meta: removed
   verdict: wip
 

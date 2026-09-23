@@ -10,7 +10,7 @@ android:
   released: 2018-07-05
   updated: 2018-11-19
   version: 0.5 BETA
-  icon: com.fybsg.fybmobile.png
+  icon: com.fybsg.fybmobile.webp
   meta: removed
   verdict: wip
   developerName: FYB-SG

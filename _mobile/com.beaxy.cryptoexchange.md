@@ -20,7 +20,7 @@ android:
   updated: 2021-12-29
   version: '2.10'
   reviews: 26
-  icon: com.beaxy.cryptoexchange.png
+  icon: com.beaxy.cryptoexchange.webp
   meta: removed
   verdict: custodial
   developerName: Beaxy
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-12-29
   version: '2.10'
   reviews: 74
-  icon: com.beaxy.cryptoexchange.jpg
+  icon: com.beaxy.cryptoexchange.webp
   meta: removed
   verdict: custodial
   developerName: Beaxy

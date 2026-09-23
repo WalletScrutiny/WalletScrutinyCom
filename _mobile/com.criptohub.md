@@ -12,7 +12,7 @@ android:
   released: 2019-07-30
   updated: 2019-10-10
   version: 1.0.6
-  icon: com.criptohub.png
+  icon: com.criptohub.webp
   meta: removed
   verdict: wip
   developerName: CriptoHub

@@ -12,7 +12,7 @@ android:
   released: 2021-08-30
   updated: 2021-08-31
   version: '12.003'
-  icon: jax.wallet.liberty.png
+  icon: jax.wallet.liberty.webp
   meta: removed
   verdict: fake
 

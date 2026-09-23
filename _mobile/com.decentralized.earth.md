@@ -13,7 +13,7 @@ android:
   released: 2022-12-15
   updated: 2023-03-18
   version: 2.19.3
-  icon: com.decentralized.earth.png
+  icon: com.decentralized.earth.webp
   meta: removed
   verdict: fake
   developerName: sресtrum, l.l.С.

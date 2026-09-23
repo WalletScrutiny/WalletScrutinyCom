@@ -19,7 +19,7 @@ android:
   updated: 2024-12-02
   version: 2.1.1891
   reviews: 15
-  icon: kuna.beta.png
+  icon: kuna.beta.webp
   meta: removed
   verdict: custodial
   developerName: UAB Kuna Pro
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-01-08
   version: 5.6.4
   reviews: 10
-  icon: icecream.group.kuna.fintech.jpg
+  icon: icecream.group.kuna.fintech.webp
   meta: removed
   verdict: custodial
   developerName: Kuna.io - buy sell crypto

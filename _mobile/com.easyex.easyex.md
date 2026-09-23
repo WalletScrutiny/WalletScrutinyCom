@@ -10,7 +10,7 @@ android:
   released: 2022-05-17
   updated: 2022-10-12
   version: '35.0'
-  icon: com.easyex.easyex.png
+  icon: com.easyex.easyex.webp
   meta: removed
   verdict: wip
   developerName: Bitandpay

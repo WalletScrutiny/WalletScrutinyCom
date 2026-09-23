@@ -13,7 +13,7 @@ android:
   released: 2022-05-09
   updated: 2022-05-09
   version: '1.0'
-  icon: com.ittoken.app22.jpg
+  icon: com.ittoken.app22.webp
   meta: removed
   verdict: wip
   developerName: ii token

@@ -10,7 +10,7 @@ android:
   released: 2021-02-18
   updated: 2021-02-25
   version: 3.9.3
-  icon: co.bnbex.n.broker.android.png
+  icon: co.bnbex.n.broker.android.webp
   meta: removed
   verdict: wip
 

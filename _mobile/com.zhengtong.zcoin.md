@@ -22,7 +22,7 @@ android:
   updated: 2022-11-23
   version: 2.0.8
   reviews: 18
-  icon: com.zhengtong.zcoin.png
+  icon: com.zhengtong.zcoin.webp
   meta: removed
   verdict: custodial
   developerName: Glory Global Technology Limited

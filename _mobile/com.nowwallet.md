@@ -26,7 +26,7 @@ android:
   updated: 2026-09-09
   version: 3.19.1
   reviews: 204
-  icon: com.nowwallet.png
+  icon: com.nowwallet.webp
   meta: ok
   verdict: nosource
   developerName: ChangeNOW
@@ -38,7 +38,7 @@ iphone:
   updated: 2026-09-10
   version: 3.19.1
   reviews: 848
-  icon: io.changenow.wallet-now.jpg
+  icon: io.changenow.wallet-now.webp
   meta: ok
   verdict: nosource
   developerName: CHN Group Limited

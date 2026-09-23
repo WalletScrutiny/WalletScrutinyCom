@@ -20,7 +20,7 @@ shop: https://www.datisnetwork.com/shop/dorj-one
 country: IR
 price: 
 repository: 
-icon: dorj.one.png
+icon: dorj.one.webp
 bugbounty: 
 meta: ok
 verdict: wip

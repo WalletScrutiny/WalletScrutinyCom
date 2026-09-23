@@ -13,7 +13,7 @@ android:
   updated: 2021-12-05
   version: 1.9.124
   reviews: 14
-  icon: com.farhadmarket.app.png
+  icon: com.farhadmarket.app.webp
   meta: removed
   verdict: custodial
   developerName: Exbito

@@ -10,7 +10,7 @@ android:
   released: 2020-01-14
   updated: 2021-04-10
   version: 2.1.0
-  icon: com.github.samotari.paynoway.png
+  icon: com.github.samotari.paynoway.webp
   meta: removed
   verdict: wip
   developerName: Samotari

@@ -11,7 +11,7 @@ android:
   updated: 2023-02-01
   version: 1.0.0
   reviews: 1
-  icon: com.corewallet.png
+  icon: com.corewallet.webp
   meta: removed
   verdict: wip
   developerName: CORE Technology

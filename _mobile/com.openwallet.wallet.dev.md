@@ -9,7 +9,7 @@ android:
   updated: 2017-09-18
   version: v1.0.1
   reviews: 11
-  icon: com.openwallet.wallet.dev.png
+  icon: com.openwallet.wallet.dev.webp
   meta: removed
   verdict: wip
 

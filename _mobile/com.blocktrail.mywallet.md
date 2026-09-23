@@ -21,7 +21,7 @@ android:
   updated: 2019-04-03
   version: 4.4.7
   reviews: 3928
-  icon: com.blocktrail.mywallet.png
+  icon: com.blocktrail.mywallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/blocktrail/blocktrail-wallet
@@ -32,7 +32,7 @@ iphone:
   updated: 2019-04-13
   version: 4.4.9
   reviews: 424
-  icon: com.blocktrail.mywallet.jpg
+  icon: com.blocktrail.mywallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/blocktrail/blocktrail-wallet

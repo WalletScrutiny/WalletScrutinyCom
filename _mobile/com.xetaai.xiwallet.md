@@ -11,7 +11,7 @@ android:
   released: 2025-09-18
   updated: 2026-04-30
   version: 2.1.0
-  icon: com.xetaai.xiwallet.png
+  icon: com.xetaai.xiwallet.webp
   meta: removed
   verdict: wip
   developerName: XetaAI

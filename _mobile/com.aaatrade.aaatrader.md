@@ -11,7 +11,7 @@ android:
   users: 10000
   updated: 2023-09-22
   version: 1.1.10
-  icon: com.aaatrade.aaatrader.png
+  icon: com.aaatrade.aaatrader.webp
   meta: removed
   verdict: nosendreceive
   developerName: AAATrade

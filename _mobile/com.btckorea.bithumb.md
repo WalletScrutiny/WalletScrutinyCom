@@ -19,7 +19,7 @@ android:
   updated: 2026-09-18
   version: 3.9.1
   reviews: 73
-  icon: com.btckorea.bithumb.png
+  icon: com.btckorea.bithumb.webp
   meta: ok
   verdict: custodial
   developerName: Bithumb
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-21
   version: 3.2.7
   reviews: 5079
-  icon: com.btckorea.bithumb.jpg
+  icon: com.btckorea.bithumb.webp
   meta: ok
   verdict: custodial
   developerName: Bithumb Co., Ltd.

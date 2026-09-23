@@ -12,7 +12,7 @@ android:
   released: 2018-08-03
   updated: 2019-05-08
   version: '1.3'
-  icon: com.bithesap.app.png
+  icon: com.bithesap.app.webp
   meta: removed
   verdict: wip
   developerName: Online People

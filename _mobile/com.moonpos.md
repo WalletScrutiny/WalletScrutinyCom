@@ -10,7 +10,7 @@ android:
   released: 2018-05-04
   updated: 2024-08-12
   version: 1.2.8
-  icon: com.moonpos.png
+  icon: com.moonpos.webp
   meta: removed
   verdict: wip
   developerName: MoonPos

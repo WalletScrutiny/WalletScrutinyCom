@@ -10,7 +10,7 @@ android:
   released: 2020-06-23
   updated: 2020-06-23
   version: '1.0'
-  icon: com.cryptocrew.png
+  icon: com.cryptocrew.webp
   meta: removed
   verdict: wip
   developerName: LIV8 LLC

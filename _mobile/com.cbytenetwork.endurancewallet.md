@@ -10,7 +10,7 @@ android:
   released: 2023-02-27
   updated: 2023-02-27
   version: 0.01.0
-  icon: com.cbytenetwork.endurancewallet.png
+  icon: com.cbytenetwork.endurancewallet.webp
   meta: removed
   verdict: wip
   developerName: CBYTE Network

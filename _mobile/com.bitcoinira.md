@@ -24,7 +24,7 @@ android:
   updated: 2026-09-15
   version: 2.0.27
   reviews: 561
-  icon: com.bitcoinira.png
+  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-15
   version: 2.0.27
   reviews: 1219
-  icon: com.bitcoinira.jpg
+  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA

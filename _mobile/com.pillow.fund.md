@@ -18,7 +18,7 @@ android:
   updated: 2023-07-31
   version: '4.0'
   reviews: 68
-  icon: com.pillow.fund.png
+  icon: com.pillow.fund.webp
   meta: removed
   verdict: custodial
   developerName: Pillow Fund
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-08-01
   version: '5.0'
   reviews: 61
-  icon: com.pillow.fund.jpg
+  icon: com.pillow.fund.webp
   meta: removed
   verdict: custodial
   developerName: Pillow Digital Technologies Pte Ltd

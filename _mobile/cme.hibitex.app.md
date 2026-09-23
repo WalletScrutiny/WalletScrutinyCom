@@ -10,7 +10,7 @@ android:
   updated: 2018-11-14
   version: '1.02'
   reviews: 6
-  icon: cme.hibitex.app.png
+  icon: cme.hibitex.app.webp
   meta: removed
   verdict: wip
 

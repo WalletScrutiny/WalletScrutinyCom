@@ -10,7 +10,7 @@ android:
   released: 2022-10-24
   updated: 2023-10-06
   version: 1.1.5
-  icon: com.mobile.stablehouse.env.stablehouse.io.png
+  icon: com.mobile.stablehouse.env.stablehouse.io.webp
   meta: removed
   verdict: wip
   developerName: Stablehouse

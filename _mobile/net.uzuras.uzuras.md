@@ -10,7 +10,7 @@ android:
   released: 2019-02-01
   updated: 2021-10-15
   version: '4.0'
-  icon: net.uzuras.uzuras.png
+  icon: net.uzuras.uzuras.webp
   meta: removed
   verdict: wip
   developerName: UZURAS

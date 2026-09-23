@@ -19,7 +19,7 @@ android:
   updated: 2023-03-16
   version: 1.4.4
   reviews: 62
-  icon: com.delio.deliohybrid.png
+  icon: com.delio.deliohybrid.webp
   meta: removed
   verdict: custodial
   developerName: Delio Corporation
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-03-20
   version: 1.4.3
   reviews: 37
-  icon: io.DelioHybrid.jpg
+  icon: io.DelioHybrid.webp
   meta: removed
   verdict: custodial
   developerName: Delio

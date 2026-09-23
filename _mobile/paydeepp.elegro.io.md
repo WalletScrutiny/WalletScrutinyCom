@@ -19,7 +19,7 @@ android:
   updated: 2026-07-01
   version: 5.5.6
   reviews: 1
-  icon: paydeepp.elegro.io.jpg
+  icon: paydeepp.elegro.io.webp
   meta: ok
   verdict: custodial
   developerName: Niko Technologies

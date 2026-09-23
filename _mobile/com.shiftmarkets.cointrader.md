@@ -19,7 +19,7 @@ android:
   released: 2019-01-28
   updated: 2025-01-24
   version: 4.14.0
-  icon: com.shiftmarkets.cointrader.png
+  icon: com.shiftmarkets.cointrader.webp
   meta: removed
   verdict: custodial
   developerName: Shift Markets Ltd
@@ -31,7 +31,7 @@ iphone:
   updated: 2023-02-13
   version: 4.1.0
   reviews: 0
-  icon: com.shiftmarkets.cointrader.jpg
+  icon: com.shiftmarkets.cointrader.webp
   meta: removed
   verdict: custodial
   developerName: Shift Markets

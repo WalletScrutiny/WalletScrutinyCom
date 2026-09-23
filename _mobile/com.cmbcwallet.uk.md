@@ -12,7 +12,7 @@ android:
   released: 2019-06-10
   updated: 2019-07-02
   version: 1.0.3
-  icon: com.cmbcwallet.uk.png
+  icon: com.cmbcwallet.uk.webp
   meta: removed
   verdict: wip
   developerName: FFFEX

@@ -18,7 +18,7 @@ android:
   updated: 2026-09-16
   version: 4.11.10
   reviews: 1165
-  icon: io.safepal.wallet.png
+  icon: io.safepal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: SafePal Wallet
@@ -30,7 +30,7 @@ iphone:
   updated: 2026-09-20
   version: 4.11.11
   reviews: 17086
-  icon: walletapp.safepal.io.jpg
+  icon: walletapp.safepal.io.webp
   meta: ok
   verdict: nosource
   developerName: SAFEPAL LTD.

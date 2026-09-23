@@ -20,7 +20,7 @@ android:
   updated: 2026-09-18
   version: 0.8.9
   reviews: 15
-  icon: com.coinut.app.png
+  icon: com.coinut.app.webp
   meta: ok
   verdict: custodial
   developerName: COINUT PTE LTD
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-05-31
   version: 3.0.0
   reviews: 5
-  icon: com.coinut.app.jpg
+  icon: com.coinut.app.webp
   meta: removed
   verdict: custodial
   developerName: Coinut Pte. Ltd.

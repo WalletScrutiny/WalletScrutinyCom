@@ -10,7 +10,7 @@ android:
   released: 2021-08-20
   updated: 2021-08-21
   version: '1.0'
-  icon: com.trustdx.binance.png
+  icon: com.trustdx.binance.webp
   meta: removed
   verdict: fake
 

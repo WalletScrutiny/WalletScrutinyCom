@@ -24,7 +24,7 @@ android:
   updated: 2025-10-06
   version: 1.0.34
   reviews: 35
-  icon: org.autonomoussoftwarefoundation.verusmobile.android.png
+  icon: org.autonomoussoftwarefoundation.verusmobile.android.webp
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
@@ -37,7 +37,7 @@ iphone:
   updated: 2025-10-07
   version: 1.0.34
   reviews: 19
-  icon: org.autonomoussoftwarefoundation.verusmobile.ios.jpg
+  icon: org.autonomoussoftwarefoundation.verusmobile.ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation

@@ -10,7 +10,7 @@ android:
   released: 2021-10-22
   updated: 2021-10-22
   version: '1.0'
-  icon: com.httpsarearn.arearn.com.roywallet.jpg
+  icon: com.httpsarearn.arearn.com.roywallet.webp
   meta: removed
   verdict: wip
 

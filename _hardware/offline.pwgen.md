@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: https://github.com/FelixWeichselgartner/BitcoinOfflinePaperWalletGenerator
-icon: offline.pwgen.png
+icon: offline.pwgen.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

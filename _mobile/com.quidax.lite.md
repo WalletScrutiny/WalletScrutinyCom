@@ -19,7 +19,7 @@ android:
   updated: 2025-02-07
   version: 1.22.0
   reviews: 105
-  icon: com.quidax.lite.png
+  icon: com.quidax.lite.webp
   meta: removed
   verdict: custodial
   developerName: Quidax Technologies
@@ -31,7 +31,7 @@ iphone:
   updated: 2025-02-12
   version: 1.22.0
   reviews: 1829
-  icon: com.quidax.lite.jpg
+  icon: com.quidax.lite.webp
   meta: removed
   verdict: custodial
   developerName: Quidax Technologies

@@ -10,7 +10,7 @@ android:
   released: 2020-06-06
   updated: 2020-06-19
   version: '1.4'
-  icon: com.Bitplicity.Bitplicityapp.png
+  icon: com.Bitplicity.Bitplicityapp.webp
   meta: removed
   verdict: wip
   developerName: Bitplicity

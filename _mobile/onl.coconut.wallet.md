@@ -19,7 +19,7 @@ android:
   released: 2025-07-18
   updated: 2026-09-19
   version: 0.18.0
-  icon: onl.coconut.wallet.jpg
+  icon: onl.coconut.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Nonce Lab Inc.
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-19
   version: 0.18.0
   reviews: 2
-  icon: onl.coconut.wallet.jpg
+  icon: onl.coconut.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Nonce Lab Inc.

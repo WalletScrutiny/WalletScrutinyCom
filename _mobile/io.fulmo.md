@@ -10,7 +10,7 @@ android:
   updated: 2019-06-11
   version: 1.0.0
   reviews: 7
-  icon: io.fulmo.png
+  icon: io.fulmo.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,7 @@ android:
   released: 2021-07-14
   updated: 2021-07-14
   version: 0.1.3
-  icon: com.safeblast.wallet.png
+  icon: com.safeblast.wallet.webp
   meta: removed
   verdict: wip
   developerName: Febitak

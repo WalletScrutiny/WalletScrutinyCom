@@ -20,7 +20,7 @@ android:
   released: 2019-03-14
   updated: 2025-04-25
   version: 3.0.336
-  icon: io.kamix.kamix.png
+  icon: io.kamix.kamix.webp
   meta: stale
   verdict: custodial
   developerName: Kamix R&D
@@ -32,7 +32,7 @@ iphone:
   updated: 2025-04-27
   version: '2.8'
   reviews: 10
-  icon: io.kamix.app.jpg
+  icon: io.kamix.app.webp
   meta: removed
   verdict: custodial
   developerName: Kamix

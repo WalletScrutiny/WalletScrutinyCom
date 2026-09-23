@@ -17,7 +17,7 @@ android:
   released: 2022-03-05
   updated: 2024-04-03
   version: 2.0.46
-  icon: com.sonitix_mobility.png
+  icon: com.sonitix_mobility.webp
   meta: removed
   verdict: custodial
   developerName: Sonitix
@@ -29,7 +29,7 @@ iphone:
   updated: 2022-11-16
   version: '1.4'
   reviews: 24
-  icon: org.sonitix-private-limited-sonitix-mobility.jpg
+  icon: org.sonitix-private-limited-sonitix-mobility.webp
   meta: defunct
   verdict: custodial
   developerName: Sonitix Private Limited

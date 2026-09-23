@@ -12,7 +12,7 @@ android:
   released: 2019-10-07
   updated: 2020-03-24
   version: 1.1.2
-  icon: com.ddt.ddtmobile.png
+  icon: com.ddt.ddtmobile.webp
   meta: removed
   verdict: nosource
   developerName: DeepDive Digital Technologies International Inc.

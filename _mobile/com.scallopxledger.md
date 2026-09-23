@@ -22,7 +22,7 @@ android:
   updated: 2026-08-03
   version: 2.00.0
   reviews: 10
-  icon: com.scallopxledger.png
+  icon: com.scallopxledger.webp
   meta: ok
   verdict: custodial
   developerName: Scallop
@@ -34,7 +34,7 @@ iphone:
   updated: 2025-12-02
   version: 1.8.8
   reviews: 0
-  icon: com.scallop.app.jpg
+  icon: com.scallop.app.webp
   meta: ok
   verdict: custodial
   developerName: Scallop Group

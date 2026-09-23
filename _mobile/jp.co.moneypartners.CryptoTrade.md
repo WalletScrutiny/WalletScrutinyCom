@@ -13,7 +13,7 @@ android:
   released: 2021-11-23
   updated: 2026-05-12
   version: 1.8.0
-  icon: jp.co.moneypartners.CryptoTrade.png
+  icon: jp.co.moneypartners.CryptoTrade.webp
   meta: ok
   verdict: nosendreceive
   developerName: MONEY PARTNERS CO.,LTD.

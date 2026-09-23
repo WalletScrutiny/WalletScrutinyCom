@@ -13,7 +13,7 @@ iphone:
   updated: 2020-12-30
   version: 2.5.1
   reviews: 19
-  icon: com.anbi.safepal.jpg
+  icon: com.anbi.safepal.webp
   meta: removed
   verdict: wip
 

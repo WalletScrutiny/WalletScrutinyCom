@@ -10,7 +10,7 @@ android:
   released: 2020-02-28
   updated: 2020-02-28
   version: '1.1'
-  icon: com.empesa.e_mpesaexchange.png
+  icon: com.empesa.e_mpesaexchange.webp
   meta: removed
   verdict: wip
   developerName: BH Enterprises

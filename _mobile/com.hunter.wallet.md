@@ -10,7 +10,7 @@ android:
   released: 2021-03-25
   updated: 2022-10-12
   version: 1.4.2
-  icon: com.hunter.wallet.png
+  icon: com.hunter.wallet.webp
   meta: removed
   verdict: wip
   developerName: Hunter Solutions Limited

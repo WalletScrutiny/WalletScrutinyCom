@@ -10,7 +10,7 @@ android:
   released: 2020-09-10
   updated: 2020-11-15
   version: 1.1.0
-  icon: global.bitex.bitexpay.android.png
+  icon: global.bitex.bitexpay.android.webp
   meta: removed
   verdict: wip
   developerName: BITEX GLOBAL OÜ

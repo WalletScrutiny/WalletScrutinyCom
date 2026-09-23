@@ -22,7 +22,7 @@ android:
   released: 2023-07-10
   updated: 2025-10-13
   version: 1.9.11
-  icon: com.astrox.wizz.png
+  icon: com.astrox.wizz.webp
   meta: ok
   verdict: nosource
   developerName: AstroX Network
@@ -34,7 +34,7 @@ iphone:
   updated: 2025-10-15
   version: 1.9.11
   reviews: 16
-  icon: com.astrox.wizz.jpg
+  icon: com.astrox.wizz.webp
   meta: ok
   verdict: nosource
   developerName: AstroX Network

@@ -16,7 +16,7 @@ android:
   released: 2021-06-07
   updated: 2022-06-23
   version: 1.8.0
-  icon: com.cabital.cabital.png
+  icon: com.cabital.cabital.webp
   meta: removed
   verdict: custodial
 

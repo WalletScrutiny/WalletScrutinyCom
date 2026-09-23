@@ -10,7 +10,7 @@ android:
   updated: 2017-10-22
   version: '5.0'
   reviews: 13
-  icon: com.hqdevteam.bitcoinbxthailandpro.png
+  icon: com.hqdevteam.bitcoinbxthailandpro.webp
   meta: removed
   verdict: wip
 

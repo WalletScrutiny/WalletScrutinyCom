@@ -21,7 +21,7 @@ android:
   updated: 2026-08-16
   version: 1.7.20
   reviews: 19
-  icon: io.unisat.png
+  icon: io.unisat.webp
   meta: ok
   verdict: nosource
   developerName: UniSat
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-06-04
   version: 1.7.16
   reviews: 31
-  icon: io.unisat.mobile.jpg
+  icon: io.unisat.mobile.webp
   meta: removed
   verdict: nosource
   developerName: UniPro Technology Limited

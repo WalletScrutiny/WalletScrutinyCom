@@ -10,7 +10,7 @@ android:
   released: 2021-03-25
   updated: 2021-03-25
   version: '1.0'
-  icon: fx.compt.crypto.png
+  icon: fx.compt.crypto.webp
   meta: removed
   verdict: wip
   developerName: TheStoryApp

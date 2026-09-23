@@ -10,7 +10,7 @@ android:
   released: 2020-02-09
   updated: 2020-03-28
   version: 1.0.3
-  icon: com.bizonbit.png
+  icon: com.bizonbit.webp
   meta: removed
   verdict: wip
   developerName: ‌BizOnBit

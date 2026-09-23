@@ -10,7 +10,7 @@ android:
   released: 2020-03-02
   updated: 2020-03-02
   version: 1.0.1
-  icon: com.cluzstudio.marketbtc.png
+  icon: com.cluzstudio.marketbtc.webp
   meta: removed
   verdict: wip
 

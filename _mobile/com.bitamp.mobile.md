@@ -11,7 +11,7 @@ android:
   updated: 2021-04-27
   version: '2.0'
   reviews: 13
-  icon: com.bitamp.mobile.png
+  icon: com.bitamp.mobile.webp
   meta: removed
   verdict: wip
   developerName: bitampdev

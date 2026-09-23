@@ -17,7 +17,7 @@ shop: https://store.bulwarkcrypto.com#deadLink
 country: US
 price: 
 repository: 
-icon: bulwark.aegis.png
+icon: bulwark.aegis.webp
 bugbounty: 
 meta: ok
 verdict: vapor

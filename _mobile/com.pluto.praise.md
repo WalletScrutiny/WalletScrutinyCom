@@ -10,7 +10,7 @@ android:
   released: 2021-06-23
   updated: 2021-07-01
   version: '1.4'
-  icon: com.pluto.praise.png
+  icon: com.pluto.praise.webp
   meta: removed
   verdict: wip
   developerName: PRAISE Company

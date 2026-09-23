@@ -11,7 +11,7 @@ android:
   released: 2025-11-15
   updated: 2026-01-07
   version: 1.0.55
-  icon: com.btcdex.app.png
+  icon: com.btcdex.app.webp
   meta: fewusers
   verdict: wip
   developerName: HITDEX

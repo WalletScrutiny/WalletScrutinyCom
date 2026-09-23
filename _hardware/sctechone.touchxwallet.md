@@ -20,7 +20,7 @@ shop:
 country: KR
 price: 
 repository: 
-icon: sctechone.touchxwallet.png
+icon: sctechone.touchxwallet.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey

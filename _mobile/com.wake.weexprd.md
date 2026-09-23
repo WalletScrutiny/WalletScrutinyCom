@@ -24,7 +24,7 @@ android:
   updated: 2026-06-23
   version: 4.5.28
   reviews: 360
-  icon: com.wake.weexprd.png
+  icon: com.wake.weexprd.webp
   meta: removed
   verdict: custodial
   developerName: WEEX PRO
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-06
   version: 4.5.40
   reviews: 2109
-  icon: com.wake.weexprd.jpg
+  icon: com.wake.weexprd.webp
   meta: ok
   verdict: custodial
   developerName: Weex Virtual Currency Exchange LLC

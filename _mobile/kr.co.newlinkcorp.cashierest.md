@@ -14,7 +14,7 @@ android:
   released: 2022-10-27
   updated: 2023-10-18
   version: 4.24.6
-  icon: kr.co.newlinkcorp.cashierest.png
+  icon: kr.co.newlinkcorp.cashierest.webp
   meta: removed
   verdict: custodial
   developerName: Newlink
@@ -26,7 +26,7 @@ iphone:
   updated: 2023-10-18
   version: 4.24.3
   reviews: 35
-  icon: kr.co.newlinkcorp.cashierest.jpg
+  icon: kr.co.newlinkcorp.cashierest.webp
   meta: removed
   verdict: custodial
   developerName: Newlink

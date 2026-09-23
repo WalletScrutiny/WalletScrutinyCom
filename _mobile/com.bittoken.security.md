@@ -9,7 +9,7 @@ android:
   released: 2022-05-23
   updated: 2023-06-05
   version: 1.5.26
-  icon: com.bittoken.security.png
+  icon: com.bittoken.security.webp
   meta: removed
   verdict: wip
   developerName: BitToken Co., Limited

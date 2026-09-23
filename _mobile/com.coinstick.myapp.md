@@ -17,7 +17,7 @@ android:
   updated: 2026-08-19
   version: 1.0.0
   reviews: 6
-  icon: com.coinstick.myapp.png
+  icon: com.coinstick.myapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Coinstick

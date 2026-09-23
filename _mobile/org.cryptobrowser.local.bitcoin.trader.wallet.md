@@ -10,7 +10,7 @@ android:
   updated: 2021-06-29
   version: '1.0'
   reviews: 5
-  icon: org.cryptobrowser.local.bitcoin.trader.wallet.jpg
+  icon: org.cryptobrowser.local.bitcoin.trader.wallet.webp
   meta: removed
   verdict: wip
 

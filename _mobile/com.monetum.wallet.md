@@ -11,7 +11,7 @@ android:
   released: 2022-08-05
   updated: 2022-09-07
   version: 7.1.4
-  icon: com.monetum.wallet.png
+  icon: com.monetum.wallet.webp
   meta: obsolete
   verdict: wip
   developerName: Monetum Mobile

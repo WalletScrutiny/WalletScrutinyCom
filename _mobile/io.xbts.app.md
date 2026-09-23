@@ -15,7 +15,7 @@ android:
   updated: 2022-08-17
   version: 0.1.29
   reviews: 4
-  icon: io.xbts.app.png
+  icon: io.xbts.app.webp
   meta: removed
   verdict: wip
   developerName: TechnoL0g

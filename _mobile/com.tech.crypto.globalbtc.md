@@ -10,7 +10,7 @@ android:
   updated: 2018-07-03
   version: '1.9'
   reviews: 8
-  icon: com.tech.crypto.globalbtc.png
+  icon: com.tech.crypto.globalbtc.webp
   meta: removed
   verdict: wip
 

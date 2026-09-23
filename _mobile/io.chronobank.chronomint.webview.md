@@ -10,7 +10,7 @@ android:
   released: 2017-08-09
   updated: 2017-10-11
   version: 0.2.1
-  icon: io.chronobank.chronomint.webview.png
+  icon: io.chronobank.chronomint.webview.webp
   meta: removed
   verdict: wip
   developerName: LaborX

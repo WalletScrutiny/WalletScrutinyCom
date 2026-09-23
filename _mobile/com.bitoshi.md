@@ -22,7 +22,7 @@ android:
   updated: 2026-09-13
   version: 1.6.0
   reviews: 36
-  icon: com.bitoshi.png
+  icon: com.bitoshi.webp
   meta: ok
   verdict: custodial
   developerName: Bitoshi Africa
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-14
   version: 1.6.0
   reviews: 1756
-  icon: com.bitoshi.jpg
+  icon: com.bitoshi.webp
   meta: ok
   verdict: custodial
   developerName: Bitoshi Digital Services Limited

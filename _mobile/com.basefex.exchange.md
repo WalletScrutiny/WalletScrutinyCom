@@ -10,7 +10,7 @@ android:
   updated: 2020-08-13
   version: 2.5.67
   reviews: 5
-  icon: com.basefex.exchange.png
+  icon: com.basefex.exchange.webp
   meta: removed
   verdict: wip
 

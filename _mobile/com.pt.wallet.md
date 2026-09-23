@@ -9,7 +9,7 @@ android:
   released: 2020-10-14
   updated: 2021-02-25
   version: '1.27'
-  icon: com.pt.wallet.png
+  icon: com.pt.wallet.webp
   meta: removed
   verdict: wip
 

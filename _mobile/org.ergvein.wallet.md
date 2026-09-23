@@ -10,7 +10,7 @@ android:
   released: 2022-03-14
   updated: 2022-05-10
   version: Alpha
-  icon: org.ergvein.wallet.png
+  icon: org.ergvein.wallet.webp
   meta: removed
   verdict: wip
   developerName: Anton Gushcha

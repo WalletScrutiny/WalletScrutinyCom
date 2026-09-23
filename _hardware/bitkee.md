@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: bitkee.png
+icon: bitkee.webp
 bugbounty: 
 meta: defunct
 verdict: wip

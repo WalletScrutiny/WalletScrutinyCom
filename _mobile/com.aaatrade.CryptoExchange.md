@@ -10,7 +10,7 @@ android:
   released: 2018-09-20
   updated: 2021-03-19
   version: 1.2.5
-  icon: com.aaatrade.CryptoExchange.png
+  icon: com.aaatrade.CryptoExchange.webp
   meta: removed
   verdict: wip
   developerName: AAATrade

@@ -10,7 +10,7 @@ android:
   released: 2022-06-30
   updated: 2023-02-26
   version: 0.30.29
-  icon: com.renasnce.byt.png
+  icon: com.renasnce.byt.webp
   meta: removed
   verdict: wip
   developerName: Renasnce Studios

@@ -10,7 +10,7 @@ android:
   released: 2020-07-27
   updated: 2022-03-24
   version: '2.4'
-  icon: com.libertasfund.exchange.png
+  icon: com.libertasfund.exchange.webp
   meta: removed
   verdict: wip
   developerName: Libex Exchange

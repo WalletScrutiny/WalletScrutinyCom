@@ -18,7 +18,7 @@ android:
   updated: 2022-10-14
   version: 2.0.8
   reviews: 525
-  icon: com.ftxmobile.ftx.png
+  icon: com.ftxmobile.ftx.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +28,7 @@ iphone:
   updated: 2022-10-14
   version: 2.0.8
   reviews: 330
-  icon: org.reactjs.native.example.FTXMobile.FTX.jpg
+  icon: org.reactjs.native.example.FTXMobile.FTX.webp
   meta: removed
   verdict: custodial
 

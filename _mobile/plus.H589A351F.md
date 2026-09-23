@@ -9,7 +9,7 @@ android:
   released: 2023-03-29
   updated: 2023-04-18
   version: 2.0.1
-  icon: plus.H589A351F.png
+  icon: plus.H589A351F.webp
   meta: removed
   verdict: wip
   developerName: KieleAvingt

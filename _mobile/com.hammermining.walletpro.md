@@ -10,7 +10,7 @@ android:
   released: 2022-05-10
   updated: 2026-02-11
   version: 1.3.8
-  icon: com.hammermining.walletpro.png
+  icon: com.hammermining.walletpro.webp
   meta: fewusers
   verdict: wip
   developerName: VALLIDGE CONSULTING PTE. LTD.

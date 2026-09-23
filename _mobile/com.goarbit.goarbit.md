@@ -13,7 +13,7 @@ android:
   updated: 2021-08-13
   version: 3.0.1
   reviews: 3080
-  icon: com.goarbit.goarbit.png
+  icon: com.goarbit.goarbit.webp
   meta: removed
   verdict: wip
   developerName: GoArbit Inc

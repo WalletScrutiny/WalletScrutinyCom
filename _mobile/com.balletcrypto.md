@@ -19,7 +19,7 @@ android:
   updated: 2026-08-07
   version: 3.0.1
   reviews: 173
-  icon: com.balletcrypto.png
+  icon: com.balletcrypto.webp
   meta: ok
   verdict: nosource
   developerName: Ballet Global Inc.
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-08-11
   version: 3.0.1
   reviews: 1554
-  icon: com.balletcrypto.jpg
+  icon: com.balletcrypto.webp
   meta: ok
   verdict: nosource
   developerName: BALLET GLOBAL INC.

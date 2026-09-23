@@ -9,7 +9,7 @@ android:
   released: 2021-02-20
   updated: 2021-02-20
   version: 0.16.2
-  icon: io.tokonton.wallet.png
+  icon: io.tokonton.wallet.webp
   meta: removed
   verdict: wip
   developerName: tokonton ltd

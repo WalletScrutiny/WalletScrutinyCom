@@ -22,7 +22,7 @@ android:
   updated: 2022-10-27
   version: 4.0.14
   reviews: 46
-  icon: io.sylo.dapp.png
+  icon: io.sylo.dapp.webp
   meta: removed
   verdict: nosource
   developerName: Sylo Licensing Limited
@@ -33,7 +33,7 @@ iphone:
   updated: 2022-11-10
   version: 4.0.14
   reviews: 82
-  icon: io.sylo.dapp.jpg
+  icon: io.sylo.dapp.webp
   meta: removed
   verdict: nosource
   developerName: Sylo Licensing Limited

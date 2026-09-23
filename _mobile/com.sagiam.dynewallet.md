@@ -10,7 +10,7 @@ android:
   released: 2021-01-12
   updated: 2025-11-13
   version: '2.0'
-  icon: com.sagiam.dynewallet.png
+  icon: com.sagiam.dynewallet.webp
   meta: fewusers
   verdict: wip
   developerName: Dyne Coin

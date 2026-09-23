@@ -25,7 +25,7 @@ android:
   updated: 2026-08-13
   version: 1.34.3
   reviews: 9
-  icon: com.payperless.wallet.png
+  icon: com.payperless.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Payperless
@@ -37,7 +37,7 @@ iphone:
   updated: 2026-02-13
   version: '1.40'
   reviews: 0
-  icon: com.payperless.wallet.jpg
+  icon: com.payperless.wallet.webp
   meta: ok
   verdict: nosource
   developerName: COREDEV LAB

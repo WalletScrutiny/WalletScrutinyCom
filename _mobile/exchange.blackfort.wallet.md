@@ -21,7 +21,7 @@ android:
   updated: 2021-10-27
   version: 1.3.18
   reviews: 52
-  icon: exchange.blackfort.wallet.png
+  icon: exchange.blackfort.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Blackfort Technologies LLC
@@ -32,7 +32,7 @@ iphone:
   updated: 2021-10-27
   version: '1.8'
   reviews: 0
-  icon: exchange.blackfort.wallet.jpg
+  icon: exchange.blackfort.wallet.webp
   meta: removed
   verdict: nosource
   developerName: BlackFort

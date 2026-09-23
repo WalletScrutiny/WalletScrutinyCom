@@ -10,7 +10,7 @@ android:
   released: 2021-10-10
   updated: 2021-10-11
   version: '1.0'
-  icon: com.startxchange.apps.startxchange.jpg
+  icon: com.startxchange.apps.startxchange.webp
   meta: removed
   verdict: wip
   developerName: STARTUS TECHNOLOGIES

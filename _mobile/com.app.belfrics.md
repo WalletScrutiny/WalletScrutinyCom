@@ -19,7 +19,7 @@ android:
   updated: 2022-08-06
   version: 2.1.15
   reviews: 8
-  icon: com.app.belfrics.png
+  icon: com.app.belfrics.webp
   meta: removed
   verdict: custodial
   developerName: Belfrics Holding Ltd
@@ -30,7 +30,7 @@ iphone:
   updated: 2023-01-07
   version: 2.5.21
   reviews: 25
-  icon: com.belfrics.app.jpg
+  icon: com.belfrics.app.webp
   meta: removed
   verdict: custodial
   developerName: Belfrics Group

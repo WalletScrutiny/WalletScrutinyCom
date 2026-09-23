@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2023-09-14
   version: 1.0.0
-  icon: com.strade.app.png
+  icon: com.strade.app.webp
   meta: obsolete
   verdict: wip
   developerName: S-TRADE

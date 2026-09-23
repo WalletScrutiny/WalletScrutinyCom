@@ -10,7 +10,7 @@ android:
   released: 2021-06-29
   updated: 2022-06-27
   version: 3.6.0
-  icon: com.cuckoo.wallet.png
+  icon: com.cuckoo.wallet.webp
   meta: removed
   verdict: wip
   developerName: TYCO FINTECH TECHNOLOGY

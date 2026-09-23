@@ -21,7 +21,7 @@ android:
   updated: 2023-05-29
   version: 1.7.7
   reviews: 79
-  icon: com.app.coinloan.png
+  icon: com.app.coinloan.webp
   meta: removed
   verdict: custodial
   developerName: CoinLoan
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-06-03
   version: 1.7.7
   reviews: 394
-  icon: io.coinloan.coinloan.jpg
+  icon: io.coinloan.coinloan.webp
   meta: removed
   verdict: custodial
   developerName: CoinLoan OU

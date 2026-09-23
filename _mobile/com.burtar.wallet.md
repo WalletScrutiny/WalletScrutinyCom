@@ -13,7 +13,7 @@ android:
   updated: 2021-07-30
   version: '1.0'
   reviews: 63
-  icon: com.burtar.wallet.png
+  icon: com.burtar.wallet.webp
   meta: removed
   verdict: custodial
 

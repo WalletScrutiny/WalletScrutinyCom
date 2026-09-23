@@ -17,7 +17,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: sentinel.wallet.png
+icon: sentinel.wallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

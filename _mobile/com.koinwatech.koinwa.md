@@ -12,7 +12,7 @@ android:
   released: 2021-08-08
   updated: 2024-02-24
   version: 3.2.3
-  icon: com.koinwatech.koinwa.png
+  icon: com.koinwatech.koinwa.webp
   meta: removed
   verdict: custodial
   developerName: koinwa

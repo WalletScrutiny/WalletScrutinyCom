@@ -12,7 +12,7 @@ android:
   released: 2020-04-28
   updated: 2024-02-19
   version: 2.0.0
-  icon: com.uznex.app.png
+  icon: com.uznex.app.webp
   meta: removed
   verdict: custodial
   developerName: UZNEX

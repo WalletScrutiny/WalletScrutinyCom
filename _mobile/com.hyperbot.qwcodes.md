@@ -10,7 +10,7 @@ android:
   released: 2022-07-22
   updated: 2022-07-22
   version: 2.0.0
-  icon: com.hyperbot.qwcodes.png
+  icon: com.hyperbot.qwcodes.webp
   meta: removed
   verdict: wip
   developerName: JOHN MOXLEY

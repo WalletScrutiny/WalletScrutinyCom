@@ -17,7 +17,7 @@ android:
   released: 2022-06-11
   updated: 2024-08-15
   version: 2.2.2
-  icon: io.doex.app.png
+  icon: io.doex.app.webp
   meta: removed
   verdict: custodial
   developerName: ETERNA BEAUTY LLC

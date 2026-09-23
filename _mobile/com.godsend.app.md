@@ -9,7 +9,7 @@ android:
   released: 2022-01-24
   updated: 2022-02-21
   version: 1.0.8
-  icon: com.godsend.app.png
+  icon: com.godsend.app.webp
   meta: removed
   verdict: wip
   developerName: Godsend Vip

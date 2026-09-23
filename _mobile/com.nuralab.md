@@ -10,7 +10,7 @@ android:
   updated: 2025-08-03
   version: 2.1.0
   reviews: 8
-  icon: com.nuralab.png
+  icon: com.nuralab.webp
   meta: removed
   verdict: wip
   developerName: Nura labs

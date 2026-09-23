@@ -12,7 +12,7 @@ android:
   released: 2021-05-20
   updated: 2022-07-19
   version: 1.0.0.39-cryptoshark
-  icon: com.crypshark.png
+  icon: com.crypshark.webp
   meta: removed
   verdict: custodial
   developerName: FINCITY

@@ -27,7 +27,7 @@ android:
   updated: 2026-08-06
   version: 2026.11.2 (1)
   reviews: 31
-  icon: world.bitkey.app.png
+  icon: world.bitkey.app.webp
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   builds:
   - arch: arm64-v8a
@@ -43,7 +43,7 @@ iphone:
   updated: 2026-08-11
   version: 2026.11.2
   reviews: 135
-  icon: world.bitkey.app.jpg
+  icon: world.bitkey.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Block, Inc.

@@ -15,7 +15,7 @@ iphone:
   updated: 2026-08-13
   version: 2.6.607
   reviews: 4
-  icon: co.copper.custody.jpg
+  icon: co.copper.custody.webp
   meta: ok
   verdict: custodial
   developerName: COPPER TECHNOLOGIES (UK)

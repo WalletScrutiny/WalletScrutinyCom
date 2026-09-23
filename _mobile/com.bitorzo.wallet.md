@@ -19,7 +19,7 @@ android:
   released: 2020-07-22
   updated: 2021-01-03
   version: 3.1.3
-  icon: com.bitorzo.wallet.jpg
+  icon: com.bitorzo.wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Hodlers Team

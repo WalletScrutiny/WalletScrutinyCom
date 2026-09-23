@@ -11,7 +11,7 @@ android:
   released: 2022-10-13
   updated: 2024-08-31
   version: 1.0.1
-  icon: com.funex.pro.png
+  icon: com.funex.pro.webp
   meta: obsolete
   verdict: wip
   developerName: Funex Coin

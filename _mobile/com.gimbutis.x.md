@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2026-07-28
   version: 1.6.6
-  icon: com.gimbutis.x.png
+  icon: com.gimbutis.x.webp
   meta: fewusers
   verdict: wip
   developerName: unus nullus

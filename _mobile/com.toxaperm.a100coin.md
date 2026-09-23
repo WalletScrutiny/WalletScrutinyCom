@@ -10,7 +10,7 @@ android:
   released: 2019-08-20
   updated: 2019-08-20
   version: '1.0'
-  icon: com.toxaperm.a100coin.jpg
+  icon: com.toxaperm.a100coin.webp
   meta: removed
   verdict: wip
   developerName: Kriptolife@

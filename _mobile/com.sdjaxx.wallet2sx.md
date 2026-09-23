@@ -12,7 +12,7 @@ android:
   released: 2021-09-10
   updated: 2021-09-11
   version: '1'
-  icon: com.sdjaxx.wallet2sx.png
+  icon: com.sdjaxx.wallet2sx.webp
   meta: removed
   verdict: fake
 

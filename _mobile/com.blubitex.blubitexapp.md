@@ -19,7 +19,7 @@ android:
   updated: 2022-04-14
   version: 2.1.342
   reviews: 37
-  icon: com.blubitex.blubitexapp.png
+  icon: com.blubitex.blubitexapp.webp
   meta: removed
   verdict: nosource
   developerName: BLUBITEX LIMITED
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-04-15
   version: 3.1.341
   reviews: 3
-  icon: com.blubitex.blubitexapp.jpg
+  icon: com.blubitex.blubitexapp.webp
   meta: removed
   verdict: nosource
   developerName: BLUBITEX LIMITED

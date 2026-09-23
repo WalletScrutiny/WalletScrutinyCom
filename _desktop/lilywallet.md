@@ -12,7 +12,7 @@ provider: Lily Technologies, Inc.
 providerWebsite: 
 website: https://lily-wallet.com
 repository: https://github.com/Lily-Technologies/lily-wallet
-icon: lilywallet.png
+icon: lilywallet.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable

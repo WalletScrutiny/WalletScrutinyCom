@@ -10,7 +10,7 @@ android:
   updated: 2017-09-30
   version: 1.0.0
   reviews: 7
-  icon: com.bitcoin.dompets.png
+  icon: com.bitcoin.dompets.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: telxsim.png
+icon: telxsim.webp
 bugbounty: 
 meta: defunct
 verdict: wip

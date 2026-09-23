@@ -9,7 +9,7 @@ android:
   released: 2021-07-07
   updated: 2021-12-26
   version: 1.0.6
-  icon: com.xz.moonbase.png
+  icon: com.xz.moonbase.webp
   meta: removed
   verdict: wip
   developerName: 666科技有限公司

@@ -10,7 +10,7 @@ android:
   released: 2019-10-05
   updated: 2019-10-06
   version: '2.6'
-  icon: com.mahcard.mahcardapp.png
+  icon: com.mahcard.mahcardapp.webp
   meta: removed
   verdict: wip
   developerName: Mahcard Enterprise

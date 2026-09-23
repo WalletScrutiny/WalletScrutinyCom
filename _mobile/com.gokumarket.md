@@ -21,7 +21,7 @@ android:
   updated: 2022-04-29
   version: '1.35'
   reviews: 1228
-  icon: com.gokumarket.png
+  icon: com.gokumarket.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-05-03
   version: '1.28'
   reviews: 8
-  icon: com.united.gokumarket.jpg
+  icon: com.united.gokumarket.webp
   meta: removed
   verdict: custodial
 

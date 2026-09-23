@@ -9,7 +9,7 @@ android:
   released: 2021-05-17
   updated: 2021-05-24
   version: '1.1'
-  icon: com.crypto.cryptabis.png
+  icon: com.crypto.cryptabis.webp
   meta: removed
   verdict: wip
   developerName: Seagater Zond

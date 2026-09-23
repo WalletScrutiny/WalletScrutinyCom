@@ -20,7 +20,7 @@ android:
   appCountry: us
   updated: 2026-09-18
   version: 2026.38.2
-  icon: com.robinhood.global.png
+  icon: com.robinhood.global.webp
   meta: ok
   verdict: custodial
   developerName: Robinhood
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-17
   version: 2026.38.0
   reviews: 318
-  icon: com.robinhood.release.RobinhoodGlobal.jpg
+  icon: com.robinhood.release.RobinhoodGlobal.webp
   meta: ok
   verdict: custodial
   developerName: Robinhood Markets, Inc.

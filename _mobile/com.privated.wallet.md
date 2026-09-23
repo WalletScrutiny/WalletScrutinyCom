@@ -11,7 +11,7 @@ android:
   updated: 2023-04-15
   version: '1.1'
   reviews: 9
-  icon: com.privated.wallet.png
+  icon: com.privated.wallet.webp
   meta: removed
   verdict: wip
   developerName: Private Wallet

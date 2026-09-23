@@ -19,7 +19,7 @@ android:
   updated: 2020-07-15
   version: '3.09'
   reviews: 129
-  icon: com.spend.app.png
+  icon: com.spend.app.webp
   meta: removed
   verdict: custodial
   developerName: Spend CA Inc
@@ -30,7 +30,7 @@ iphone:
   updated: 2020-09-05
   version: 3.2.6
   reviews: 326
-  icon: com.DCS.SpendWallet.jpg
+  icon: com.DCS.SpendWallet.webp
   meta: removed
   verdict: custodial
   developerName: Spend Inc

@@ -22,7 +22,7 @@ android:
   updated: 2026-09-15
   version: 2.1.66
   reviews: 92
-  icon: com.metallicus.webauth.png
+  icon: com.metallicus.webauth.webp
   meta: ok
   verdict: nosource
   developerName: Metallicus Inc.
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-16
   version: 2.1.66
   reviews: 222
-  icon: com.metallicus.webauth.jpg
+  icon: com.metallicus.webauth.webp
   meta: ok
   verdict: nosource
   developerName: Metallicus, Inc.

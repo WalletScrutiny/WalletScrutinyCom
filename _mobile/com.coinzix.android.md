@@ -20,7 +20,7 @@ android:
   updated: 2023-06-02
   version: '1.96'
   reviews: 4
-  icon: com.coinzix.android.png
+  icon: com.coinzix.android.webp
   meta: removed
   verdict: custodial
   developerName: COINZIX LABS
@@ -32,7 +32,7 @@ iphone:
   updated: 2023-03-28
   version: '1.9'
   reviews: 14
-  icon: com.servotech.coinzix.jpg
+  icon: com.servotech.coinzix.webp
   meta: removed
   verdict: custodial
   developerName: COINZIX S.R.L.

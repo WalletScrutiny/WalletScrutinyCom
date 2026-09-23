@@ -10,7 +10,7 @@ android:
   released: 2022-07-22
   updated: 2022-07-22
   version: '1.0'
-  icon: com.info.bccl.png
+  icon: com.info.bccl.webp
   meta: removed
   verdict: wip
   developerName: BOT CRYPTO LOAN

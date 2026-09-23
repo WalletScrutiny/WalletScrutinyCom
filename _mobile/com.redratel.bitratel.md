@@ -10,7 +10,7 @@ android:
   released: 2019-09-10
   updated: 2021-05-14
   version: 1.4.1
-  icon: com.redratel.bitratel.png
+  icon: com.redratel.bitratel.webp
   meta: removed
   verdict: wip
   developerName: RedRatel

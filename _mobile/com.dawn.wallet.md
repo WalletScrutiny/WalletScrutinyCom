@@ -10,7 +10,7 @@ android:
   released: 2021-01-13
   updated: 2021-04-24
   version: 3.0.2
-  icon: com.dawn.wallet.png
+  icon: com.dawn.wallet.webp
   meta: removed
   verdict: wip
   developerName: Dawn Wallet Inc

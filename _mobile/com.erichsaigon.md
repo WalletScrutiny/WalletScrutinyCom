@@ -10,7 +10,7 @@ android:
   released: 2020-01-06
   updated: 2020-01-25
   version: '1.3'
-  icon: com.erichsaigon.jpg
+  icon: com.erichsaigon.webp
   meta: removed
   verdict: wip
   developerName: Erich Saigon Trading LLc

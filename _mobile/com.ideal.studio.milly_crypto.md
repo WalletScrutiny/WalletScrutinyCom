@@ -10,7 +10,7 @@ android:
   released: 2021-01-11
   updated: 2021-02-23
   version: 1.0.2
-  icon: com.ideal.studio.milly_crypto.png
+  icon: com.ideal.studio.milly_crypto.webp
   meta: removed
   verdict: wip
   developerName: Cryptosurge Technology Co., Ltd.

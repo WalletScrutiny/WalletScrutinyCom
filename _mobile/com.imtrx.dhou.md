@@ -11,7 +11,7 @@ android:
   released: 2022-04-11
   updated: 2022-09-13
   version: '1.2'
-  icon: com.imtrx.dhou.png
+  icon: com.imtrx.dhou.webp
   meta: removed
   verdict: wip
   developerName: g83ohv

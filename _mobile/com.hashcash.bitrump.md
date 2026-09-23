@@ -9,7 +9,7 @@ android:
   released: 2020-02-18
   updated: 2021-03-05
   version: 1.2.1
-  icon: com.hashcash.bitrump.png
+  icon: com.hashcash.bitrump.webp
   meta: removed
   verdict: wip
   developerName: Bitrump Inc.

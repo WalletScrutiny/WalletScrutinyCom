@@ -15,7 +15,7 @@ android:
   updated: 2020-12-20
   version: 0.0.4a
   reviews: 24
-  icon: com.gloath.portalsapp.png
+  icon: com.gloath.portalsapp.webp
   meta: obsolete
   verdict: nosource
   developerName: Gloath

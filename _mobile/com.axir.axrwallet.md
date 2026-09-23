@@ -11,7 +11,7 @@ android:
   released: 2024-05-22
   updated: 2025-01-15
   version: 0.2.37
-  icon: com.axir.axrwallet.png
+  icon: com.axir.axrwallet.webp
   meta: stale
   verdict: wip
   developerName: Axir Wallet

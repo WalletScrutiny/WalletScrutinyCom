@@ -10,7 +10,7 @@ android:
   released: 2021-03-22
   updated: 2023-12-04
   version: '1.0'
-  icon: com.app.Chainblock.png
+  icon: com.app.Chainblock.webp
   meta: removed
   verdict: wip
   developerName: Chainblock

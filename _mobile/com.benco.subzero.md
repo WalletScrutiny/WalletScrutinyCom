@@ -10,7 +10,7 @@ android:
   released: 2022-01-28
   updated: 2022-06-22
   version: 1.5.5
-  icon: com.benco.subzero.png
+  icon: com.benco.subzero.webp
   meta: removed
   verdict: wip
   developerName: SubZero Pay

@@ -21,7 +21,7 @@ shop: https://bitfi.com/order
 country: 
 price: 199USD
 repository: https://github.com/Bitfi/BitfiWallet
-icon: bitfiwallet.png
+icon: bitfiwallet.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

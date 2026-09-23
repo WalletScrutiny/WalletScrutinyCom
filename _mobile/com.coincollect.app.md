@@ -16,7 +16,7 @@ android:
   released: 2019-09-08
   updated: 2021-04-21
   version: 1.11.0
-  icon: com.coincollect.app.png
+  icon: com.coincollect.app.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +27,7 @@ iphone:
   updated: 2020-01-13
   version: 1.7.6
   reviews: 1
-  icon: cc.coincollect.app.jpg
+  icon: cc.coincollect.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Autonomous Software Foundation

@@ -10,7 +10,7 @@ android:
   updated: 2021-07-22
   version: '2.0'
   reviews: 2
-  icon: com.trust.airdrop.jpg
+  icon: com.trust.airdrop.webp
   meta: removed
   verdict: wip
 

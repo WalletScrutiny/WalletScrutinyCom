@@ -9,7 +9,7 @@ android:
   released: 2022-09-07
   updated: 2022-09-07
   version: '1.0'
-  icon: com.bitcoin.m.bitcoinbankbreaker.official.png
+  icon: com.bitcoin.m.bitcoinbankbreaker.official.webp
   meta: removed
   verdict: wip
   developerName: JIRARI Rol

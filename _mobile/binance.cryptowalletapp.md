@@ -9,7 +9,7 @@ android:
   updated: 2021-04-05
   version: '9.8'
   reviews: 11
-  icon: binance.cryptowalletapp.png
+  icon: binance.cryptowalletapp.webp
   meta: removed
   verdict: wip
 

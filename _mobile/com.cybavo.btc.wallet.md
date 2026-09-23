@@ -12,7 +12,7 @@ android:
   released: 2020-06-22
   updated: 2022-06-10
   version: 1.0.3200
-  icon: com.cybavo.btc.wallet.png
+  icon: com.cybavo.btc.wallet.webp
   meta: removed
   verdict: wip
   developerName: CYBAVO Inc.

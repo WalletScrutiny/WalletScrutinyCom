@@ -20,7 +20,7 @@ shop: https://store.coinkite.com/store/satscard
 country: CA
 price: 6.99 USD
 repository: 
-icon: coinkite.satscard.png
+icon: coinkite.satscard.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

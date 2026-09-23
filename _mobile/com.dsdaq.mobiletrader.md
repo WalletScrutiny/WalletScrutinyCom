@@ -19,7 +19,7 @@ android:
   updated: 2022-01-20
   version: 3.0.4
   reviews: 11
-  icon: com.dsdaq.mobiletrader.png
+  icon: com.dsdaq.mobiletrader.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.
@@ -30,7 +30,7 @@ iphone:
   updated: 2022-01-30
   version: 3.2.0
   reviews: 2
-  icon: com.dsdaq.ios.new.jpg
+  icon: com.dsdaq.ios.new.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.

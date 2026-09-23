@@ -14,7 +14,7 @@ android:
   released: 2018-09-18
   updated: 2019-03-11
   version: 1.13.0
-  icon: com.colover.coin.png
+  icon: com.colover.coin.webp
   meta: removed
   verdict: wip
   developerName: (주)코러버

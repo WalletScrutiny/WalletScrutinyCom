@@ -21,7 +21,7 @@ android:
   updated: 2022-06-02
   version: 2.1.7
   reviews: 7
-  icon: com.cointopay.app.png
+  icon: com.cointopay.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Cointopay.com
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-06-03
   version: 2.0.0
   reviews: 1
-  icon: com.cointopay.iosapp.jpg
+  icon: com.cointopay.iosapp.webp
   meta: removed
   verdict: custodial
   developerName: Cointopay International B.V.

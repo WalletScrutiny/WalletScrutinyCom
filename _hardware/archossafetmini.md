@@ -21,7 +21,7 @@ shop: https://web.archive.org/web/20220630171450/https://shop.archos.com/fr/hard
 country: FR
 price: 49.99EUR
 repository: 
-icon: archossafetmini.png
+icon: archossafetmini.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource

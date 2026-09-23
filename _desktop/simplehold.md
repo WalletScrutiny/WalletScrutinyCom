@@ -12,7 +12,7 @@ provider:
 providerWebsite: 
 website: 
 repository: 
-icon: simplehold.png
+icon: simplehold.webp
 bugbounty: 
 meta: ok
 verdict: nosource

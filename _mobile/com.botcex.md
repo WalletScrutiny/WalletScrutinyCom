@@ -10,7 +10,7 @@ android:
   released: 2021-05-29
   updated: 2021-05-30
   version: '1.3'
-  icon: com.botcex.png
+  icon: com.botcex.webp
   meta: removed
   verdict: wip
   developerName: Abelsis Yazılım Tic. Ltd. Şti.

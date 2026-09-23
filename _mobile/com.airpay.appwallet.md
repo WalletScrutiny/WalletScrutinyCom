@@ -16,7 +16,7 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: 1.0.8
-  icon: com.airpay.appwallet.png
+  icon: com.airpay.appwallet.webp
   meta: removed
   verdict: nosource
   developerName: AIRPAY.FINANCE

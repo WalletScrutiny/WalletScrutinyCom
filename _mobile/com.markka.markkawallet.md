@@ -11,7 +11,7 @@ android:
   released: 2022-02-06
   updated: 2025-02-07
   version: 2.5.1
-  icon: com.markka.markkawallet.png
+  icon: com.markka.markkawallet.webp
   meta: stale
   verdict: wip
   developerName: Tulipfox-Tech

@@ -14,7 +14,7 @@ android:
   updated: 2020-10-18
   version: 1.0.22
   reviews: 4
-  icon: com.paperwallet.top.png
+  icon: com.paperwallet.top.webp
   meta: removed
   verdict: wip
   developerName: TechnoL0g

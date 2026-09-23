@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2019-01-24
   version: VARY
-  icon: com.dopamineapps.exchangevalet.png
+  icon: com.dopamineapps.exchangevalet.webp
   meta: removed
   verdict: wip
   developerName: Dopamine Apps

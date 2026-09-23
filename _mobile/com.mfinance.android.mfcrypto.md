@@ -9,7 +9,7 @@ android:
   released: 2021-10-07
   updated: 2021-10-08
   version: '1.0'
-  icon: com.mfinance.android.mfcrypto.png
+  icon: com.mfinance.android.mfcrypto.webp
   meta: removed
   verdict: wip
   developerName: m-FINANCE Limited

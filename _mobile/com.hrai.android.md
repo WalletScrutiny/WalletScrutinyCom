@@ -11,7 +11,7 @@ android:
   released: 2022-04-26
   updated: 2022-05-26
   version: '1.2'
-  icon: com.hrai.android.png
+  icon: com.hrai.android.webp
   meta: removed
   verdict: wip
 

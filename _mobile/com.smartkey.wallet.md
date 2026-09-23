@@ -9,7 +9,7 @@ android:
   released: 2021-12-09
   updated: 2021-12-12
   version: 0.21.0
-  icon: com.smartkey.wallet.png
+  icon: com.smartkey.wallet.webp
   meta: removed
   verdict: wip
   developerName: Febitak

@@ -10,7 +10,7 @@ android:
   released: 2020-12-03
   updated: 2020-12-23
   version: 0.17.2
-  icon: rigel.finance.bankwallet.png
+  icon: rigel.finance.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Rigel Wallet Team

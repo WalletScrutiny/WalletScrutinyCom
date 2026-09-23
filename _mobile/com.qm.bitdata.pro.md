@@ -11,7 +11,7 @@ android:
   released: 2019-05-21
   updated: 2026-03-03
   version: 5.0.3
-  icon: com.qm.bitdata.pro.png
+  icon: com.qm.bitdata.pro.webp
   meta: fewusers
   verdict: wip
   developerName: BitDATA FINTECH Co., Limited

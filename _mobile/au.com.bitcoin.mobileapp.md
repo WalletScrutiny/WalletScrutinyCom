@@ -19,7 +19,7 @@ android:
   appCountry: us
   updated: 2026-09-15
   version: 16.1.0
-  icon: au.com.bitcoin.mobileapp.png
+  icon: au.com.bitcoin.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: bitcoin.com.au
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-15
   version: 16.1.0
   reviews: 1424
-  icon: au.com.bitcoin.mobileapp.jpg
+  icon: au.com.bitcoin.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin.com.au

@@ -11,7 +11,7 @@ android:
   updated: 2020-10-29
   version: 2.1.6
   reviews: 8
-  icon: com.nettechnocrats.hubrisone.hubrisone.png
+  icon: com.nettechnocrats.hubrisone.hubrisone.webp
   meta: removed
   verdict: wip
   developerName: HubrisOne Technologies

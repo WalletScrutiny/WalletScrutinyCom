@@ -21,7 +21,7 @@ android:
   updated: 2021-02-01
   version: 1.37.2
   reviews: 14
-  icon: com.paytomat.png
+  icon: com.paytomat.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-02-03
   version: 1.37.2
   reviews: 22
-  icon: com.app.paytomat.wallet.jpg
+  icon: com.app.paytomat.wallet.webp
   meta: removed
   verdict: nosource
 

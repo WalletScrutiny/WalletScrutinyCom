@@ -18,7 +18,7 @@ android:
   updated: 2025-09-04
   version: 4.0.2
   reviews: 6
-  icon: com.cetoex.cetoex.jpg
+  icon: com.cetoex.cetoex.webp
   meta: stale
   verdict: nosendreceive
   developerName: CetoEx Labs

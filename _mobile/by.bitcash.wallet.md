@@ -14,7 +14,7 @@ android:
   appCountry: us
   updated: 2026-08-19
   version: 1.1.3
-  icon: by.bitcash.wallet.png
+  icon: by.bitcash.wallet.webp
   meta: ok
   verdict: custodial
   developerName: LLC BITCASH
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-08-24
   version: 1.1.3
   reviews: 20
-  icon: by.bitcash.cryptowallet.jpg
+  icon: by.bitcash.cryptowallet.webp
   meta: ok
   verdict: custodial
   developerName: BITCASH Inc.

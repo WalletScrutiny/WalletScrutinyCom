@@ -22,7 +22,7 @@ android:
   released: 2025-05-05
   updated: 2026-05-15
   version: 1.2.7
-  icon: com.si14.png
+  icon: com.si14.webp
   meta: ok
   verdict: nosource
   developerName: SMRT wallets
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-07-24
   version: 1.2.7
   reviews: 3
-  icon: com.si14wallet.jpg
+  icon: com.si14wallet.webp
   meta: ok
   verdict: nosource
   developerName: Si14 AG

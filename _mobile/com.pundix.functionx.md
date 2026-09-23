@@ -27,7 +27,7 @@ android:
   updated: 2026-03-26
   version: 5.10.1
   reviews: 42
-  icon: com.pundix.functionx.png
+  icon: com.pundix.functionx.webp
   meta: ok
   verdict: nosource
   developerName: Pundi X Labs
@@ -40,7 +40,7 @@ iphone:
   updated: 2026-01-23
   version: 5.9.0
   reviews: 65
-  icon: com.pundix.fx.connect.jpg
+  icon: com.pundix.fx.connect.webp
   meta: ok
   verdict: nosource
   developerName: PUNDI X LABS

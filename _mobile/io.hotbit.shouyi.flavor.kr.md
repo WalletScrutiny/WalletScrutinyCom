@@ -17,7 +17,7 @@ android:
   updated: 2022-04-12
   version: 1.0.75
   reviews: 238
-  icon: io.hotbit.shouyi.flavor.kr.jpg
+  icon: io.hotbit.shouyi.flavor.kr.webp
   meta: removed
   verdict: custodial
   developerName: TresLab
@@ -29,7 +29,7 @@ iphone:
   updated: 2022-03-16
   version: 1.1.52
   reviews: 36
-  icon: io.hotbit.shouyi.flavor.korea.jpg
+  icon: io.hotbit.shouyi.flavor.korea.webp
   meta: removed
   verdict: custodial
 

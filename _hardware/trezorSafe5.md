@@ -22,7 +22,7 @@ shop: https://trezor.io/trezor-safe-5
 country: CZ
 price: 169USD
 repository: https://github.com/trezor/trezor-firmware
-icon: trezorSafe5.png
+icon: trezorSafe5.webp
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable

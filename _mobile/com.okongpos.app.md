@@ -10,7 +10,7 @@ android:
   released: 2020-11-25
   updated: 2020-11-26
   version: Version 2.2.1
-  icon: com.okongpos.app.png
+  icon: com.okongpos.app.webp
   meta: removed
   verdict: wip
   developerName: 서유테크

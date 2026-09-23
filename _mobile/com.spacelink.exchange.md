@@ -11,7 +11,7 @@ android:
   released: 2021-05-21
   updated: 2021-05-21
   version: '4'
-  icon: com.spacelink.exchange.png
+  icon: com.spacelink.exchange.webp
   meta: removed
   verdict: wip
   developerName: Space-link

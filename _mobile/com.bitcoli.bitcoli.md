@@ -15,7 +15,7 @@ android:
   updated: 2024-10-09
   version: 1.2.1
   reviews: 7
-  icon: com.bitcoli.bitcoli.jpg
+  icon: com.bitcoli.bitcoli.webp
   meta: removed
   verdict: custodial
   developerName: BitcoLi
@@ -27,7 +27,7 @@ iphone:
   updated: 2024-10-23
   version: 1.2.1
   reviews: 1
-  icon: com.bitcoli.bitcoli.jpg
+  icon: com.bitcoli.bitcoli.webp
   meta: removed
   verdict: custodial
   developerName: Jaroslav Bruzek

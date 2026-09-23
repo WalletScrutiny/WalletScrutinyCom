@@ -19,7 +19,7 @@ android:
   updated: 2026-09-08
   version: 2.1.59
   reviews: 2575
-  icon: com.bitlo.bitloandroid.png
+  icon: com.bitlo.bitloandroid.webp
   meta: ok
   verdict: custodial
   developerName: Bitlo Teknoloji A.Ş.
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-09-09
   version: 2.1.59
   reviews: 4166
-  icon: com.bitlo.jpg
+  icon: com.bitlo.webp
   meta: ok
   verdict: custodial
   developerName: Bitlo Kripto Varlik Alim Satim Platformu Anonim Sirketi

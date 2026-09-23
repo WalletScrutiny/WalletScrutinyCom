@@ -22,7 +22,7 @@ android:
   updated: 2026-09-16
   version: 9.63.1
   reviews: 3859
-  icon: com.bitkeep.wallet.png
+  icon: com.bitkeep.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Bitget Wallet
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-18
   version: 9.64.0
   reviews: 5616
-  icon: com.bitkeep.os.jpg
+  icon: com.bitkeep.os.webp
   meta: ok
   verdict: nosource
   developerName: BitKeep Global Inc.

@@ -10,7 +10,7 @@ android:
   released: 2022-10-20
   updated: 2023-05-04
   version: 3.4.0
-  icon: network.woo.tr.mobile.png
+  icon: network.woo.tr.mobile.webp
   meta: removed
   verdict: wip
   developerName: Wootech Limited

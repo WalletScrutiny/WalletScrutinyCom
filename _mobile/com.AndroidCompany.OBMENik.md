@@ -12,7 +12,7 @@ android:
   updated: 2020-11-18
   version: '1.0'
   reviews: 446
-  icon: com.AndroidCompany.OBMENik.png
+  icon: com.AndroidCompany.OBMENik.webp
   meta: removed
   verdict: wip
 

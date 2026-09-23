@@ -11,7 +11,7 @@ android:
   released: 2021-05-16
   updated: 2026-06-07
   version: 0.9.5
-  icon: com.gleec.gleecdex.png
+  icon: com.gleec.gleecdex.webp
   meta: fewusers
   verdict: wip
   developerName: Gleec Pay OU

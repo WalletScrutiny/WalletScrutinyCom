@@ -10,7 +10,7 @@ android:
   released: 2021-05-11
   updated: 2021-12-18
   version: 1.1.45
-  icon: com.wCryptoExchange_13708254.png
+  icon: com.wCryptoExchange_13708254.webp
   meta: removed
   verdict: wip
 

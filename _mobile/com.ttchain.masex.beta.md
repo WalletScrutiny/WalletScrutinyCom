@@ -9,7 +9,7 @@ android:
   released: 2020-08-13
   updated: 2020-10-30
   version: 1.0.102
-  icon: com.ttchain.masex.beta.png
+  icon: com.ttchain.masex.beta.webp
   meta: removed
   verdict: wip
   developerName: Sting Lin

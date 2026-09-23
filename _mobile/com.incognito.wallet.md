@@ -17,7 +17,7 @@ android:
   updated: 2023-09-07
   version: 5.14.0
   reviews: 64
-  icon: com.incognito.wallet.png
+  icon: com.incognito.wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Incognito Core Development Team
@@ -29,7 +29,7 @@ iphone:
   updated: 2023-09-08
   version: 5.14.0
   reviews: 115
-  icon: com.incognito.wallet.jpg
+  icon: com.incognito.wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Incognito Core Team LLC

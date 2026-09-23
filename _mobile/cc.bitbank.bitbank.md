@@ -17,7 +17,7 @@ android:
   updated: 2026-09-16
   version: 3.9.1
   reviews: 3
-  icon: cc.bitbank.bitbank.png
+  icon: cc.bitbank.bitbank.webp
   meta: ok
   verdict: custodial
   developerName: Bitbank, Inc.

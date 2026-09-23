@@ -14,7 +14,7 @@ android:
   updated: 2026-09-08
   version: 3.2.0
   reviews: 4
-  icon: com.fxfi.fxwallet.png
+  icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource
   developerName: ECHOINFI PTE. LTD.
@@ -26,7 +26,7 @@ iphone:
   updated: 2026-09-15
   version: 3.2.1
   reviews: 28
-  icon: com.fxfi.fxwallet.jpg
+  icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource
   developerName: DXP COMPUTING POWER FOUNDATION PTE. LTD.

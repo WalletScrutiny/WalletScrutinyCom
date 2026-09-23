@@ -10,7 +10,7 @@ android:
   released: 2019-05-23
   updated: 2019-05-23
   version: '1.0'
-  icon: com.troyintr.app.jpg
+  icon: com.troyintr.app.webp
   meta: removed
   verdict: wip
   developerName: MegaCard

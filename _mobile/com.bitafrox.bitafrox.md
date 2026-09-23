@@ -10,7 +10,7 @@ android:
   released: 2019-07-25
   updated: 2019-07-25
   version: '1.0'
-  icon: com.bitafrox.bitafrox.png
+  icon: com.bitafrox.bitafrox.webp
   meta: removed
   verdict: wip
   developerName: WaZaHUB

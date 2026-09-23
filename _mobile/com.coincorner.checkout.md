@@ -15,7 +15,7 @@ android:
   released: 2022-09-29
   updated: 2025-09-15
   version: 2.7.0
-  icon: com.coincorner.checkout.png
+  icon: com.coincorner.checkout.webp
   meta: stale
   verdict: custodial
   developerName: CoinCorner Ltd
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-03-26
   version: 2.1.0
   reviews: 0
-  icon: com.coincorner.checkout.jpg
+  icon: com.coincorner.checkout.webp
   meta: ok
   verdict: custodial
   developerName: CoinCorner Ltd

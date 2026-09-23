@@ -15,7 +15,7 @@ android:
   released: 2020-12-02
   updated: 2026-06-11
   version: 4.1.4
-  icon: com.coinrepublic.app.png
+  icon: com.coinrepublic.app.webp
   meta: ok
   verdict: custodial
   developerName: Coin Republic Pty Ltd
@@ -27,7 +27,7 @@ iphone:
   updated: 2026-03-11
   version: 4.1.2
   reviews: 6
-  icon: com.coinrepublic.app.jpg
+  icon: com.coinrepublic.app.webp
   meta: removed
   verdict: custodial
   developerName: COIN REPUBLIC PTY LTD

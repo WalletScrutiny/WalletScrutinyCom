@@ -10,7 +10,7 @@ android:
   released: 2021-08-20
   updated: 2021-08-20
   version: 1.0.0
-  icon: com.yyborsa.png
+  icon: com.yyborsa.webp
   meta: removed
   verdict: wip
   developerName: Aksoyhlc

@@ -9,7 +9,7 @@ android:
   released: 2021-05-27
   updated: 2021-06-02
   version: '1.1'
-  icon: com.project.cryptobank.png
+  icon: com.project.cryptobank.webp
   meta: removed
   verdict: wip
 

@@ -20,7 +20,7 @@ android:
   updated: 2026-09-11
   version: 8.4.92
   reviews: 10052
-  icon: com.pay99.wallet.png
+  icon: com.pay99.wallet.webp
   meta: ok
   verdict: nosendreceive
   developerName: 99 Tecnologia LTDA
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-09-14
   version: 8.4.92
   reviews: 1998
-  icon: com.pay99.jpg
+  icon: com.pay99.webp
   meta: ok
   verdict: nosendreceive
   developerName: 99Pay S.A

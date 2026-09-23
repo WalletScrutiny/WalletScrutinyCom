@@ -11,7 +11,7 @@ android:
   released: 2018-02-11
   updated: 2025-07-18
   version: 3.1.21
-  icon: com.netcents.merchantterminal.png
+  icon: com.netcents.merchantterminal.webp
   meta: stale
   verdict: wip
   developerName: NetCents Technology

@@ -11,7 +11,7 @@ android:
   updated: 2020-12-24
   version: 2.1.4
   reviews: 41
-  icon: com.coinsapp.mobile.jpg
+  icon: com.coinsapp.mobile.webp
   meta: removed
   verdict: wip
   developerName: Dan Holdings Limited

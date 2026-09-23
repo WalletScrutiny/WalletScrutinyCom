@@ -10,7 +10,7 @@ android:
   released: 2019-06-07
   updated: 2021-01-15
   version: 1.1.4
-  icon: com.kryptobot.png
+  icon: com.kryptobot.webp
   meta: removed
   verdict: wip
   developerName: KryptoBot Sp. z o.o.

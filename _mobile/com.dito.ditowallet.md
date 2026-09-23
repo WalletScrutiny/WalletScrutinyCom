@@ -18,7 +18,7 @@ android:
   updated: 2026-08-24
   version: 3.0.20
   reviews: 38
-  icon: com.dito.ditowallet.png
+  icon: com.dito.ditowallet.webp
   meta: ok
   verdict: custodial
   developerName: DitoBanx

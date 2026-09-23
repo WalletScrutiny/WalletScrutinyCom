@@ -10,7 +10,7 @@ android:
   updated: 2019-07-24
   version: 1.0.11
   reviews: 7
-  icon: com.app.bitstore.png
+  icon: com.app.bitstore.webp
   meta: removed
   verdict: wip
 

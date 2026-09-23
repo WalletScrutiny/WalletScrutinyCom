@@ -10,7 +10,7 @@ android:
   released: 2022-06-13
   updated: 2022-06-14
   version: 1.2.1
-  icon: com.bitdot_project_a6.bitdot.png
+  icon: com.bitdot_project_a6.bitdot.webp
   meta: removed
   verdict: wip
 

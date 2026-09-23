@@ -12,7 +12,7 @@ android:
   released: 2020-05-14
   updated: 2020-05-14
   version: 1.0.1
-  icon: com.ayrex.trading.dlvc.png
+  icon: com.ayrex.trading.dlvc.webp
   meta: removed
   verdict: wip
   developerName: Charu Prakash

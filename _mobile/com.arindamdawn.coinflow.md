@@ -11,7 +11,7 @@ android:
   released: 2017-07-26
   updated: 2017-07-27
   version: 1.0.1
-  icon: com.arindamdawn.coinflow.png
+  icon: com.arindamdawn.coinflow.webp
   meta: removed
   verdict: wip
 

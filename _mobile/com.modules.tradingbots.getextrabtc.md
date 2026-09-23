@@ -8,7 +8,7 @@ android:
   users: 100
   updated: 2018-12-04
   version: VARY
-  icon: com.modules.tradingbots.getextrabtc.png
+  icon: com.modules.tradingbots.getextrabtc.webp
   meta: removed
   verdict: wip
   developerName: GetExtraBTC LLC

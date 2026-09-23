@@ -10,7 +10,7 @@ android:
   released: 2021-11-03
   updated: 2022-02-02
   version: '1.0'
-  icon: com.vistabitz.app.png
+  icon: com.vistabitz.app.webp
   meta: removed
   verdict: wip
   developerName: Vistabitz

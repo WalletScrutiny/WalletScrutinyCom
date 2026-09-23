@@ -17,7 +17,7 @@ android:
   released: 2021-02-04
   updated: 2026-08-18
   version: 1.35.03
-  icon: com.flybit.app.png
+  icon: com.flybit.app.webp
   meta: ok
   verdict: custodial
   developerName: 한국디지털거래소
@@ -29,7 +29,7 @@ iphone:
   updated: 2026-07-15
   version: 1.27.2
   reviews: 18
-  icon: com.koreadigit.flybit.jpg
+  icon: com.koreadigit.flybit.webp
   meta: ok
   verdict: custodial
   developerName: Korea Digital Exchange Co., Ltd.

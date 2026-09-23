@@ -16,7 +16,7 @@ android:
   updated: 2021-03-24
   version: 5.24.0
   reviews: 5
-  icon: com.krakenfutures.png
+  icon: com.krakenfutures.webp
   meta: removed
   verdict: custodial
   developerName: Payward, Inc.

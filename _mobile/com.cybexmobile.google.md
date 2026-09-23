@@ -10,7 +10,7 @@ android:
   released: 2018-10-10
   updated: 2019-04-28
   version: 1.10.3
-  icon: com.cybexmobile.google.png
+  icon: com.cybexmobile.google.webp
   meta: removed
   verdict: wip
   developerName: Cybex

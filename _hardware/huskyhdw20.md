@@ -20,7 +20,7 @@ shop: https://www.huskywallet.com/shop/
 country: CA
 price: 129USD
 repository: 
-icon: huskyhdw20.png
+icon: huskyhdw20.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

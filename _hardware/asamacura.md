@@ -18,7 +18,7 @@ shop: https://www.amazon.com/dp/B07FKWKBJ2
 country: 
 price: 
 repository: 
-icon: asamacura.png
+icon: asamacura.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

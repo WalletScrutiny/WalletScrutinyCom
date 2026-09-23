@@ -17,7 +17,7 @@ shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 
 repository: 
-icon: inigma.card.png
+icon: inigma.card.webp
 bugbounty: 
 meta: ok
 verdict: vapor

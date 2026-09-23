@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2022-01-20
   version: VARY
-  icon: io.mcs.app.png
+  icon: io.mcs.app.webp
   meta: removed
   verdict: wip
   developerName: MKT Partners Ltd.

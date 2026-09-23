@@ -10,7 +10,7 @@ android:
   released: 2021-09-14
   updated: 2021-09-15
   version: 1.0.0
-  icon: com.xearth.cyrusmall.png
+  icon: com.xearth.cyrusmall.webp
   meta: removed
   verdict: wip
   developerName: XEARTH

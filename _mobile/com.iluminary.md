@@ -14,7 +14,7 @@ android:
   released: 2024-03-27
   updated: 2026-06-08
   version: 2.3.0
-  icon: com.iluminary.png
+  icon: com.iluminary.webp
   meta: ok
   verdict: nosource
   developerName: GESP IT SOLUTIONS

@@ -12,7 +12,7 @@ iphone:
   updated: 2022-07-21
   version: 1.3.6
   reviews: 3
-  icon: se.blockfirm.Pine.jpg
+  icon: se.blockfirm.Pine.webp
   meta: obsolete
   verdict: wip
   developerName: Pine Enterprises AB

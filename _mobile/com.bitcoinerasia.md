@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2016-11-25
   version: 1.0.18
-  icon: com.bitcoinerasia.png
+  icon: com.bitcoinerasia.webp
   meta: removed
   verdict: wip
   developerName: FIRD0US & FREED0M.1

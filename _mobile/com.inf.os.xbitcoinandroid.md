@@ -10,7 +10,7 @@ android:
   released: 2020-12-04
   updated: 2020-10-11
   version: '2.0'
-  icon: com.inf.os.xbitcoinandroid.png
+  icon: com.inf.os.xbitcoinandroid.webp
   meta: removed
   verdict: wip
   developerName: XB Soluções Digitais

@@ -11,7 +11,7 @@ android:
   released: 2019-10-22
   updated: 2020-09-02
   version: '1.7'
-  icon: com.keyperwallet.png
+  icon: com.keyperwallet.webp
   meta: removed
   verdict: wip
   developerName: keyper Inc.

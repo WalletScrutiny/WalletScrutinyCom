@@ -20,7 +20,7 @@ android:
   updated: 2022-07-31
   version: 2.0.0
   reviews: 14
-  icon: network.cri.criwallet.jpg
+  icon: network.cri.criwallet.webp
   meta: removed
   verdict: custodial
   developerName: COSMETA, INC.
@@ -32,7 +32,7 @@ iphone:
   updated: 2022-09-15
   version: 2.0.0
   reviews: 14
-  icon: network.cri.criwallet.jpg
+  icon: network.cri.criwallet.webp
   meta: removed
   verdict: custodial
   developerName: COSMETA Inc.

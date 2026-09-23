@@ -21,7 +21,7 @@ android:
   updated: 2023-08-31
   version: 1.4.3
   reviews: 1
-  icon: io.nexo.pro.png
+  icon: io.nexo.pro.webp
   meta: removed
   verdict: custodial
   developerName: Nexo Capital Incorporated
@@ -33,7 +33,7 @@ iphone:
   updated: 2023-09-12
   version: 1.2.0
   reviews: 0
-  icon: com.nexo.pro.jpg
+  icon: com.nexo.pro.webp
   meta: removed
   verdict: custodial
   developerName: Nexo Capital Inc.

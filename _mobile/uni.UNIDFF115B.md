@@ -9,7 +9,7 @@ android:
   released: 2022-02-09
   updated: 2022-01-25
   version: 1.0.0
-  icon: uni.UNIDFF115B.png
+  icon: uni.UNIDFF115B.webp
   meta: removed
   verdict: wip
   developerName: WPP Studio

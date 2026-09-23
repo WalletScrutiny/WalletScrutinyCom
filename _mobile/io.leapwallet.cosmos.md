@@ -19,7 +19,7 @@ android:
   updated: 2026-03-27
   version: 0.77.0
   reviews: 99
-  icon: io.leapwallet.cosmos.png
+  icon: io.leapwallet.cosmos.webp
   meta: removed
   verdict: nosource
   developerName: Leap Wallet
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-04-01
   version: 0.77.0
   reviews: 1136
-  icon: com.LeapCosmosWallet.jpg
+  icon: com.LeapCosmosWallet.webp
   meta: removed
   verdict: nosource
   developerName: Hyphen Labs Ltd.

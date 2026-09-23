@@ -21,7 +21,7 @@ android:
   updated: 2026-07-10
   version: 3.7.5
   reviews: 240
-  icon: io.ambergroup.amber.png
+  icon: io.ambergroup.amber.webp
   meta: removed
   verdict: custodial
   developerName: Amber AI Limited
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-03-03
   version: 3.6.5
   reviews: 192
-  icon: com.ambergroup.amberapp.jpg
+  icon: com.ambergroup.amberapp.webp
   meta: removed
   verdict: custodial
   developerName: AMBER AI LIMITED

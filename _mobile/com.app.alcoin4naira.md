@@ -10,7 +10,7 @@ android:
   released: 2022-04-04
   updated: 2022-04-04
   version: '1.0'
-  icon: com.app.alcoin4naira.png
+  icon: com.app.alcoin4naira.webp
   meta: removed
   verdict: wip
   developerName: Webzoft Web solution

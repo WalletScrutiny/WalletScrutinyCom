@@ -22,7 +22,7 @@ android:
   updated: 2025-03-24
   version: '2.0'
   reviews: 20
-  icon: network.privapp.wallet.jpg
+  icon: network.privapp.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Privapp Network

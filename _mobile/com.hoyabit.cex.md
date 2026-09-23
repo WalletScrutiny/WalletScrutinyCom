@@ -17,7 +17,7 @@ android:
   released: 2023-03-10
   updated: 2026-08-18
   version: 1.61.0
-  icon: com.hoyabit.cex.png
+  icon: com.hoyabit.cex.webp
   meta: ok
   verdict: custodial
   developerName: HOYA BIT Digital Technology Co., Ltd.

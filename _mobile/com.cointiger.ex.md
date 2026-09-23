@@ -20,7 +20,7 @@ android:
   updated: 2023-07-03
   version: 5.13.2
   reviews: 156
-  icon: com.cointiger.ex.png
+  icon: com.cointiger.ex.webp
   meta: removed
   verdict: custodial
   developerName: CoinTiger Inc.
@@ -31,7 +31,7 @@ iphone:
   updated: 2020-06-23
   version: 5.0.6
   reviews: 96
-  icon: com.cointiger.ex.jpg
+  icon: com.cointiger.ex.webp
   meta: removed
   verdict: custodial
 

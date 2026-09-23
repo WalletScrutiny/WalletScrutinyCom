@@ -10,7 +10,7 @@ android:
   released: 2021-10-25
   updated: 2021-10-25
   version: '2.0'
-  icon: com.mypaytrilversion2.mypaytrilversion2.jpg
+  icon: com.mypaytrilversion2.mypaytrilversion2.webp
   meta: removed
   verdict: wip
   developerName: PROYA INT.

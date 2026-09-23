@@ -10,7 +10,7 @@ android:
   released: 2021-10-27
   updated: 2021-11-18
   version: 0.0.3
-  icon: com.bop.indus91.jpg
+  icon: com.bop.indus91.webp
   meta: removed
   verdict: wip
   developerName: DragonFleet Games

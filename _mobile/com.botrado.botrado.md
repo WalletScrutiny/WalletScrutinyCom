@@ -10,7 +10,7 @@ android:
   released: 2021-05-01
   updated: 2021-05-01
   version: '2.0'
-  icon: com.botrado.botrado.png
+  icon: com.botrado.botrado.webp
   meta: removed
   verdict: wip
   developerName: DevNin

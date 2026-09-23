@@ -9,7 +9,7 @@ android:
   released: 2022-10-26
   updated: 2023-05-12
   version: 0.8.4
-  icon: uni.UNI869AEDF.png
+  icon: uni.UNI869AEDF.webp
   meta: removed
   verdict: wip
   developerName: coincryptowallet

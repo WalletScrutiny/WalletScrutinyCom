@@ -8,7 +8,7 @@ android:
   users: 50
   updated: 2022-03-01
   version: VARY
-  icon: at.frhlch.cdtm.bluewallet.png
+  icon: at.frhlch.cdtm.bluewallet.webp
   meta: removed
   verdict: wip
   developerName: M. Froehlich

@@ -10,7 +10,7 @@ android:
   appCountry: us
   updated: 2023-03-24
   version: 1.7.0
-  icon: com.monetum.quicktrade.png
+  icon: com.monetum.quicktrade.webp
   meta: obsolete
   verdict: wip
   developerName: Monetum Mobile

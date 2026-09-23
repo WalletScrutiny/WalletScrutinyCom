@@ -21,7 +21,7 @@ android:
   updated: 2025-09-10
   version: 3.4.10
   reviews: 13
-  icon: cz.hundredspires.wexo.png
+  icon: cz.hundredspires.wexo.webp
   meta: removed
   verdict: custodial
   developerName: CRYPTON DIGITAL, SE
@@ -33,7 +33,7 @@ iphone:
   updated: 2025-09-16
   version: 3.4.0
   reviews: 554
-  icon: com.wexopay.app.jpg
+  icon: com.wexopay.app.webp
   meta: removed
   verdict: custodial
   developerName: CRYPTON DIGITAL SE

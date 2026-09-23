@@ -10,7 +10,7 @@ android:
   released: 2022-07-11
   updated: 2022-12-04
   version: 1.0.1
-  icon: com.easyflip.io.png
+  icon: com.easyflip.io.webp
   meta: removed
   verdict: wip
   developerName: EasyFlip

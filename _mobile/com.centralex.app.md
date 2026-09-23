@@ -10,7 +10,7 @@ android:
   released: 2022-03-16
   updated: 2022-04-07
   version: '1.02'
-  icon: com.centralex.app.png
+  icon: com.centralex.app.webp
   meta: removed
   verdict: wip
   developerName: Centralex

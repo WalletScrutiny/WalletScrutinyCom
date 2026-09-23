@@ -12,7 +12,7 @@ android:
   released: 2021-05-24
   updated: 2021-11-30
   version: 1.0.1
-  icon: com.dexfin.dexfin.png
+  icon: com.dexfin.dexfin.webp
   meta: removed
   verdict: wip
   developerName: DEXFIN

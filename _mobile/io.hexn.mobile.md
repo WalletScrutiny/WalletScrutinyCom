@@ -18,7 +18,7 @@ android:
   updated: 2025-02-20
   version: 1.2.6
   reviews: 5
-  icon: io.hexn.mobile.png
+  icon: io.hexn.mobile.webp
   meta: stale
   verdict: custodial
   developerName: NuzlTech Limited

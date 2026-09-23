@@ -15,7 +15,7 @@ android:
   updated: 2023-07-27
   version: 4.6.9
   reviews: 371
-  icon: africa.bundle.mobile.app.png
+  icon: africa.bundle.mobile.app.webp
   meta: removed
   verdict: custodial
   developerName: BundleAfrica
@@ -26,7 +26,7 @@ iphone:
   updated: 2021-07-17
   version: 3.0.0
   reviews: 208
-  icon: com.bundlewallet.mobileApp.jpg
+  icon: com.bundlewallet.mobileApp.webp
   meta: removed
   verdict: custodial
 

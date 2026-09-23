@@ -12,7 +12,7 @@ provider: Coinomi
 providerWebsite: 
 website: https://www.coinomi.com/en/downloads
 repository: 
-icon: coinomi.png
+icon: coinomi.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource

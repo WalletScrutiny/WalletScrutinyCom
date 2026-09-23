@@ -9,7 +9,7 @@ android:
   released: 2018-07-26
   updated: 2018-07-30
   version: 1.1.b
-  icon: com.cryptoapp.app.png
+  icon: com.cryptoapp.app.webp
   meta: removed
   verdict: wip
   developerName: Crypto System IT Support

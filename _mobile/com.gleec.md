@@ -19,7 +19,7 @@ android:
   updated: 2026-01-23
   version: '31.0'
   reviews: 16
-  icon: com.gleec.png
+  icon: com.gleec.webp
   meta: defunct
   verdict: custodial
   developerName: Gleec Pay OU
@@ -31,7 +31,7 @@ iphone:
   updated: 2026-05-19
   version: '34.8'
   reviews: 1
-  icon: com.gleecard.ios.jpg
+  icon: com.gleecard.ios.webp
   meta: ok
   verdict: custodial
   developerName: Gleec-BTC OU

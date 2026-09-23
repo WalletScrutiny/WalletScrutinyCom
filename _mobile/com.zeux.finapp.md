@@ -20,7 +20,7 @@ android:
   updated: 2021-10-07
   version: 2.20.0
   reviews: 1233
-  icon: com.zeux.finapp.png
+  icon: com.zeux.finapp.webp
   meta: removed
   verdict: custodial
   developerName: Zeux Ltd
@@ -31,7 +31,7 @@ iphone:
   updated: 2021-11-09
   version: 2.20.2
   reviews: 324
-  icon: com.zeux.finapp.jpg
+  icon: com.zeux.finapp.webp
   meta: removed
   verdict: custodial
 

@@ -9,7 +9,7 @@ android:
   released: 2022-05-10
   updated: 2022-05-10
   version: '1.0'
-  icon: com.ittoken.appos.jpg
+  icon: com.ittoken.appos.webp
   meta: removed
   verdict: wip
   developerName: it token

@@ -16,7 +16,7 @@ android:
   released: 2018-10-30
   updated: 2024-05-07
   version: 2.0.39
-  icon: com.blocpal.wallet.png
+  icon: com.blocpal.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: BlocPal International Inc.
@@ -27,7 +27,7 @@ iphone:
   updated: 2022-01-19
   version: 2.0.38
   reviews: 1
-  icon: com.blocpal.wallet.jpg
+  icon: com.blocpal.wallet.webp
   meta: defunct
   verdict: nosource
   developerName: BlocPal International Inc.

@@ -22,7 +22,7 @@ android:
   updated: 2026-09-04
   version: 23.0.11
   reviews: 14
-  icon: com.bitcimobile.png
+  icon: com.bitcimobile.webp
   meta: ok
   verdict: custodial
   developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
@@ -34,7 +34,7 @@ iphone:
   updated: 2026-09-05
   version: 23.0.11
   reviews: 1383
-  icon: com.bitcimobil.com.jpg
+  icon: com.bitcimobil.com.webp
   meta: ok
   verdict: custodial
   developerName: Safebit Kripto Varlık AŞ

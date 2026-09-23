@@ -21,7 +21,7 @@ shop:
 country: CN
 price: 168CNY
 repository: https://github.com/BWallet/bwallet-mcu
-icon: mybwallet.png
+icon: mybwallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip

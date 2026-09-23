@@ -29,7 +29,7 @@ android:
   updated: 2026-09-17
   version: 5.50.28
   reviews: 205
-  icon: finance.klever.bitcoin.wallet.png
+  icon: finance.klever.bitcoin.wallet.webp
   meta: ok
   verdict: nosource
   developerName: 'Klever Wallet: BTC, ETH, TRX, KLV, SOL, and More'
@@ -41,7 +41,7 @@ iphone:
   updated: 2026-09-09
   version: 5.9.12
   reviews: 1125
-  icon: finance.klever.bitcoin.wallet.jpg
+  icon: finance.klever.bitcoin.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Klever Exchange

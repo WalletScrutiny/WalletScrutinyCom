@@ -9,7 +9,7 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: org.cryptoblastersltd.bitcoin.trading.app.jpg
+  icon: org.cryptoblastersltd.bitcoin.trading.app.webp
   meta: removed
   verdict: wip
 

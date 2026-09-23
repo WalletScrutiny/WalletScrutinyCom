@@ -17,7 +17,7 @@ android:
   updated: 2024-07-12
   version: 6.34.0003
   reviews: 111
-  icon: com.coindcx.png
+  icon: com.coindcx.webp
   meta: removed
   verdict: custodial
   developerName: CoinDCX Official

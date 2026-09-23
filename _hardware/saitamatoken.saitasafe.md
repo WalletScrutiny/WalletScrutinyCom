@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: saitamatoken.saitasafe.png
+icon: saitamatoken.saitasafe.webp
 bugbounty: 
 meta: ok
 verdict: vapor

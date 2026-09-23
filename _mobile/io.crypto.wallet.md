@@ -9,7 +9,7 @@ android:
   released: 2018-11-03
   updated: 2018-11-03
   version: 0.0.1
-  icon: io.crypto.wallet.png
+  icon: io.crypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: Online Custom

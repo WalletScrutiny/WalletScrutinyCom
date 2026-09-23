@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: cryptoring.png
+icon: cryptoring.webp
 bugbounty: 
 meta: defunct
 verdict: wip

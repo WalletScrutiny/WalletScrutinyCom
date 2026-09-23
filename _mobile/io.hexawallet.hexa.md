@@ -19,7 +19,7 @@ android:
   updated: 2021-12-03
   version: 1.7.4
   reviews: 14
-  icon: io.hexawallet.hexa.png
+  icon: io.hexawallet.hexa.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/bithyve/bitcointribe-classic
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-12-25
   version: 1.7.7
   reviews: 5
-  icon: io.hexawallet.hexa.jpg
+  icon: io.hexawallet.hexa.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/bithyve/bitcointribe-classic

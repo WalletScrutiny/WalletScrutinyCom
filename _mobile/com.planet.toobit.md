@@ -24,7 +24,7 @@ android:
   updated: 2026-09-04
   version: 2.3.7
   reviews: 324
-  icon: com.planet.toobit.jpg
+  icon: com.planet.toobit.webp
   meta: ok
   verdict: custodial
   developerName: TooBit Inc.
@@ -36,7 +36,7 @@ iphone:
   updated: 2026-09-05
   version: 2.3.7
   reviews: 3821
-  icon: com.planet.toobit.jpg
+  icon: com.planet.toobit.webp
   meta: ok
   verdict: custodial
   developerName: Hopeful Technology Co., Ltd.

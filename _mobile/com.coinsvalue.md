@@ -10,7 +10,7 @@ android:
   released: 2021-09-10
   updated: 2021-11-07
   version: '1.3'
-  icon: com.coinsvalue.png
+  icon: com.coinsvalue.webp
   meta: removed
   verdict: wip
   developerName: Zezo Softwares Pvt. Ltd.

@@ -20,7 +20,7 @@ android:
   updated: 2023-08-01
   version: 4.0.1
   reviews: 7
-  icon: com.xbank_rn.png
+  icon: com.xbank_rn.webp
   meta: removed
   verdict: custodial
   developerName: xbank.plus
@@ -32,7 +32,7 @@ iphone:
   updated: 2024-01-23
   version: 4.7.0
   reviews: 167
-  icon: com.tratao.xpocket.jpg
+  icon: com.tratao.xpocket.webp
   meta: removed
   verdict: custodial
   developerName: INITIAL BLOCKCHAIN TECH PTE. LTD.

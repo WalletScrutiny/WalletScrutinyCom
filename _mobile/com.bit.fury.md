@@ -10,7 +10,7 @@ android:
   released: 2022-10-17
   updated: 2023-02-26
   version: '1.4'
-  icon: com.bit.fury.png
+  icon: com.bit.fury.webp
   meta: removed
   verdict: wip
   developerName: Bitfury

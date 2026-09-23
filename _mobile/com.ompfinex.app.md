@@ -18,7 +18,7 @@ android:
   updated: 2024-04-21
   version: 3.7.0
   reviews: 58
-  icon: com.ompfinex.app.png
+  icon: com.ompfinex.app.webp
   meta: removed
   verdict: custodial
   developerName: Mammute.co

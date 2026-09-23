@@ -15,7 +15,7 @@ android:
   updated: 2024-08-26
   version: 3.2.20-Rovi Trading-rovi-genesis-month-
   reviews: 136
-  icon: com.money91.png
+  icon: com.money91.webp
   meta: removed
   verdict: wip
   developerName: Roviri International Pte Ltd

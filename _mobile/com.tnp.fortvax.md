@@ -11,7 +11,7 @@ android:
   released: 2022-04-19
   updated: 2026-09-13
   version: 1.3.8
-  icon: com.tnp.fortvax.png
+  icon: com.tnp.fortvax.webp
   meta: fewusers
   verdict: wip
   developerName: 台灣銘板

@@ -16,7 +16,7 @@ android:
   released: 2017-04-24
   updated: 2024-08-18
   version: 90.4.010
-  icon: com.gcmasia.pro.png
+  icon: com.gcmasia.pro.webp
   meta: removed
   verdict: nosendreceive
   developerName: GCM Europe Ltd

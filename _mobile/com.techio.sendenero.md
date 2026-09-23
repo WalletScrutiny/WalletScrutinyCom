@@ -10,7 +10,7 @@ android:
   released: 2021-02-24
   updated: 2022-05-02
   version: '3.0'
-  icon: com.techio.sendenero.png
+  icon: com.techio.sendenero.webp
   meta: removed
   verdict: wip
   developerName: Xaas Technology Limited

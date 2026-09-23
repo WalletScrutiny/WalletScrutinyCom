@@ -10,7 +10,7 @@ android:
   released: 2022-04-26
   updated: 2022-11-15
   version: 1.0.0
-  icon: com.paykoricrypto.app.png
+  icon: com.paykoricrypto.app.webp
   meta: removed
   verdict: wip
   developerName: Paykori

@@ -17,7 +17,7 @@ android:
   released: 2021-06-24
   updated: 2024-06-20
   version: 1.88.0
-  icon: org.sapien.wallet.png
+  icon: org.sapien.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Sapien Wallet
@@ -28,7 +28,7 @@ iphone:
   updated: 2024-03-15
   version: '1.27'
   reviews: 2
-  icon: com.sapien.sapienwallet.jpg
+  icon: com.sapien.sapienwallet.webp
   meta: removed
   verdict: nosource
   developerName: SEIPIEN TEKHNOLODZHIS, TOV

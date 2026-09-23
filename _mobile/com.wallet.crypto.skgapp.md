@@ -10,7 +10,7 @@ android:
   released: 2019-06-17
   updated: 2019-07-22
   version: 1.4.42
-  icon: com.wallet.crypto.skgapp.png
+  icon: com.wallet.crypto.skgapp.webp
   meta: removed
   verdict: wip
   developerName: SUPER KOREA

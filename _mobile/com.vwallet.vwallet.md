@@ -9,7 +9,7 @@ android:
   released: 2021-12-13
   updated: 2021-12-14
   version: 1.0.1
-  icon: com.vwallet.vwallet.png
+  icon: com.vwallet.vwallet.webp
   meta: removed
   verdict: wip
   developerName: VICTORIA TOKEN

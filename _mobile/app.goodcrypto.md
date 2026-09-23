@@ -20,7 +20,7 @@ android:
   updated: 2026-09-01
   version: 2.5.3
   reviews: 153
-  icon: app.goodcrypto.png
+  icon: app.goodcrypto.webp
   meta: ok
   verdict: nosendreceive
   developerName: GoodCrypto.App

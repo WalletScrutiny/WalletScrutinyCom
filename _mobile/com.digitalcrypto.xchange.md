@@ -11,7 +11,7 @@ android:
   released: 2021-09-06
   updated: 2021-09-17
   version: '1.04'
-  icon: com.digitalcrypto.xchange.png
+  icon: com.digitalcrypto.xchange.webp
   meta: removed
   verdict: wip
   developerName: Sunway Trading Company

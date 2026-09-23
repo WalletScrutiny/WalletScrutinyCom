@@ -20,7 +20,7 @@ shop:
 country: US
 price: 
 repository: 
-icon: xeeda.png
+icon: xeeda.webp
 bugbounty: 
 meta: ok
 verdict: vapor

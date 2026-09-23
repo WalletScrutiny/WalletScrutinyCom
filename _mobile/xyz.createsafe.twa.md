@@ -10,7 +10,7 @@ android:
   released: 2021-11-29
   updated: 2021-11-29
   version: 1.0.0.0
-  icon: xyz.createsafe.twa.png
+  icon: xyz.createsafe.twa.webp
   meta: removed
   verdict: wip
   developerName: CreateSafe

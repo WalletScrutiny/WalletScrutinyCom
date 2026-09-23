@@ -9,7 +9,7 @@ android:
   released: 2022-06-09
   updated: 2022-06-09
   version: '1.0'
-  icon: com.futur.png
+  icon: com.futur.webp
   meta: removed
   verdict: wip
   developerName: Appcinking

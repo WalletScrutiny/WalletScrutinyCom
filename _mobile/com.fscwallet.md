@@ -12,7 +12,7 @@ android:
   released: 2019-12-23
   updated: 2021-06-18
   version: 4.0.2
-  icon: com.fscwallet.png
+  icon: com.fscwallet.webp
   meta: removed
   verdict: wip
   developerName: FShares Wallet

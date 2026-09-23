@@ -10,7 +10,7 @@ android:
   released: 2017-08-09
   updated: 2017-11-13
   version: 1.0.8
-  icon: net.reactsoft.reactcoin.png
+  icon: net.reactsoft.reactcoin.webp
   meta: removed
   verdict: wip
   developerName: ReactSoft

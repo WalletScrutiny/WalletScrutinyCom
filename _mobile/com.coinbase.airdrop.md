@@ -12,7 +12,7 @@ android:
   updated: 2021-05-31
   version: '1.0'
   reviews: 6
-  icon: com.coinbase.airdrop.png
+  icon: com.coinbase.airdrop.webp
   meta: removed
   verdict: wip
 

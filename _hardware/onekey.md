@@ -23,7 +23,7 @@ shop: https://onekey.so/en-US/hardware
 country: SG
 price: 42USD
 repository: https://github.com/OneKeyHQ/firmware
-icon: onekey.png
+icon: onekey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

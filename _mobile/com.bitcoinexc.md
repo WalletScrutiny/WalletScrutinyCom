@@ -18,7 +18,7 @@ android:
   updated: 2025-07-11
   version: 1.22.4
   reviews: 69
-  icon: com.bitcoinexc.png
+  icon: com.bitcoinexc.webp
   meta: removed
   verdict: custodial
   developerName: FUINRE INC
@@ -31,7 +31,7 @@ iphone:
   updated: 2022-04-20
   version: '5.8'
   reviews: 24
-  icon: com.fimarketbt.jpg
+  icon: com.fimarketbt.webp
   meta: removed
   verdict: custodial
   developerName: FUINRE, INC

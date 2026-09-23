@@ -10,7 +10,7 @@ android:
   released: 2021-03-23
   updated: 2022-12-15
   version: 1.0.5
-  icon: prestopaybusiness.eu.jpg
+  icon: prestopaybusiness.eu.webp
   meta: removed
   verdict: wip
 

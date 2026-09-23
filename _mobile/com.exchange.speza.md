@@ -10,7 +10,7 @@ android:
   released: 2019-08-07
   updated: 2019-12-21
   version: 0.1.2
-  icon: com.exchange.speza.png
+  icon: com.exchange.speza.webp
   meta: removed
   verdict: wip
   developerName: SPEZA Inc

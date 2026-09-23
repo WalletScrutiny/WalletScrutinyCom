@@ -18,7 +18,7 @@ android:
   updated: 2024-02-27
   version: 2.0.0
   reviews: 4
-  icon: com.coininno.android.png
+  icon: com.coininno.android.webp
   meta: removed
   verdict: custodial
   developerName: Coininno

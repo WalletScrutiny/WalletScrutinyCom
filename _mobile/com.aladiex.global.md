@@ -15,7 +15,7 @@ android:
   released: 2020-07-04
   updated: 2021-04-27
   version: 1.7.9
-  icon: com.aladiex.global.png
+  icon: com.aladiex.global.webp
   meta: removed
   verdict: custodial
   developerName: AladiEx Global Holdings Limited

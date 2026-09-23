@@ -21,7 +21,7 @@ shop: https://shop.onekey.so/products/onekey-pro
 country: CN
 price: 270USD
 repository: https://github.com/OneKeyHQ/firmware-pro
-icon: onekey.pro.png
+icon: onekey.pro.webp
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
 verdict: sourceavailable

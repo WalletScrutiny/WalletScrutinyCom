@@ -10,7 +10,7 @@ android:
   released: 2022-08-10
   updated: 2022-08-10
   version: '1.2'
-  icon: com.vaultycrypto.wallet.png
+  icon: com.vaultycrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: CoinArmy

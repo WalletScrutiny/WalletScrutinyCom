@@ -21,7 +21,7 @@ shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/sallet-one-cold
-icon: sallet.one.png
+icon: sallet.one.webp
 bugbounty: 
 meta: defunct
 verdict: sourceavailable

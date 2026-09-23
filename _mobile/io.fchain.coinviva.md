@@ -10,7 +10,7 @@ android:
   released: 2020-02-21
   updated: 2020-08-17
   version: 1.1.0
-  icon: io.fchain.coinviva.png
+  icon: io.fchain.coinviva.webp
   meta: removed
   verdict: wip
   developerName: Point95 Global

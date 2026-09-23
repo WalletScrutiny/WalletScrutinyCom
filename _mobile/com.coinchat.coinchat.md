@@ -13,7 +13,7 @@ android:
   updated: 2020-03-11
   version: 2.0.2
   reviews: 29
-  icon: com.coinchat.coinchat.png
+  icon: com.coinchat.coinchat.webp
   meta: removed
   verdict: wip
   developerName: Biliao Foundation Ltd.

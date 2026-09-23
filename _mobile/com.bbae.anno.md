@@ -16,7 +16,7 @@ iphone:
   updated: 2026-06-03
   version: 7.2.2
   reviews: 865
-  icon: com.bbae.anno.jpg
+  icon: com.bbae.anno.webp
   meta: removed
   verdict: wip
   developerName: BBAE Holdings LLC

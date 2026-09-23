@@ -11,7 +11,7 @@ android:
   released: 2021-04-14
   updated: 2021-05-13
   version: '3.0'
-  icon: com.mitin.app.sw.png
+  icon: com.mitin.app.sw.webp
   meta: removed
   verdict: custodial
 

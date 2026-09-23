@@ -10,7 +10,7 @@ android:
   released: 2021-05-09
   updated: 2021-05-09
   version: 1.2.6
-  icon: com.alibitmobile.alibit.jpg
+  icon: com.alibitmobile.alibit.webp
   meta: removed
   verdict: wip
   developerName: Alibit Mobile

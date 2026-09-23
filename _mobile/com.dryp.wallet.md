@@ -10,7 +10,7 @@ android:
   released: 2021-11-18
   updated: 2021-11-18
   version: 0.0.1
-  icon: com.dryp.wallet.png
+  icon: com.dryp.wallet.webp
   meta: removed
   verdict: wip
   developerName: DONNIE NELSON

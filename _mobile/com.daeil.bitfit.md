@@ -9,7 +9,7 @@ android:
   released: 2019-09-10
   updated: 2019-09-11
   version: '1.0'
-  icon: com.daeil.bitfit.png
+  icon: com.daeil.bitfit.webp
   meta: removed
   verdict: wip
   developerName: BITFIT

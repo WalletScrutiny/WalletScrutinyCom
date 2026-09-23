@@ -10,7 +10,7 @@ android:
   released: 2021-12-01
   updated: 2022-08-12
   version: 2.0.0
-  icon: com.noblecoins.noble_coins.png
+  icon: com.noblecoins.noble_coins.webp
   meta: removed
   verdict: wip
   developerName: Devglobals Technology

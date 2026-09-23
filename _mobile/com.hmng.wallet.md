@@ -11,7 +11,7 @@ android:
   updated: 2022-08-31
   version: 1.0.8
   reviews: 7
-  icon: com.hmng.wallet.png
+  icon: com.hmng.wallet.webp
   meta: removed
   verdict: wip
   developerName: HMNG Development

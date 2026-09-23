@@ -20,7 +20,7 @@ android:
   released: 2025-03-11
   updated: 2025-04-18
   version: 1.0.9
-  icon: com.zapwallet.app.png
+  icon: com.zapwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Zap Technology
@@ -32,7 +32,7 @@ iphone:
   updated: 2026-08-18
   version: 2.0.6
   reviews: 31
-  icon: com.zapapp.jpg
+  icon: com.zapapp.webp
   meta: ok
   verdict: custodial
   developerName: Zap technology Limited

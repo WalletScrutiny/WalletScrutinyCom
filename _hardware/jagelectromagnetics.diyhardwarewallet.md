@@ -17,7 +17,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: jagelectromagnetics.diyhardwarewallet.png
+icon: jagelectromagnetics.diyhardwarewallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

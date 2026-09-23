@@ -21,7 +21,7 @@ android:
   appCountry: us
   updated: 2026-05-22
   version: 6.8.3
-  icon: com.weareblox.app.png
+  icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: BLOX (Weareblox) - bitcoin & other crypto currency
@@ -33,7 +33,7 @@ iphone:
   updated: 2026-06-19
   version: 6.8.3
   reviews: 5662
-  icon: com.weareblox.app.jpg
+  icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Blox B.V.

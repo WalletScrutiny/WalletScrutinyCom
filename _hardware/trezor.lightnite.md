@@ -20,7 +20,7 @@ shop:
 country: 
 price: 
 repository: 
-icon: trezor.lightnite.png
+icon: trezor.lightnite.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

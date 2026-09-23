@@ -10,7 +10,7 @@ android:
   released: 2021-12-30
   updated: 2023-11-10
   version: 16.1.0
-  icon: com.xbank247.app.png
+  icon: com.xbank247.app.webp
   meta: defunct
   verdict: wip
   developerName: Thang Nguyen Ngoc

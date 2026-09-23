@@ -10,7 +10,7 @@ android:
   released: 2019-09-25
   updated: 2020-02-05
   version: 0.1.0
-  icon: com.snark.wallet.jpg
+  icon: com.snark.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sound Fintech Solutions

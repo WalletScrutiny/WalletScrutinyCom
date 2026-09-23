@@ -11,7 +11,7 @@ android:
   updated: 2020-09-18
   version: 1.8.7
   reviews: 4
-  icon: io.menapay.png
+  icon: io.menapay.webp
   meta: removed
   verdict: wip
   developerName: MC Digital Tic. ve Bil. Hiz. LTD.

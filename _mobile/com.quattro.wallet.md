@@ -9,7 +9,7 @@ android:
   released: 2021-07-12
   updated: 2021-07-12
   version: 0.21.0
-  icon: com.quattro.wallet.png
+  icon: com.quattro.wallet.webp
   meta: removed
   verdict: wip
   developerName: Febitak

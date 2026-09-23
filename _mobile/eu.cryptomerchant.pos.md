@@ -10,7 +10,7 @@ android:
   released: 2019-03-04
   updated: 2023-10-19
   version: '1.6'
-  icon: eu.cryptomerchant.pos.png
+  icon: eu.cryptomerchant.pos.webp
   meta: removed
   verdict: wip
   developerName: Wayne Service Ltd

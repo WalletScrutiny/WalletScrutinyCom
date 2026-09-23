@@ -9,7 +9,7 @@ android:
   released: 2021-03-30
   updated: 2021-03-30
   version: 1.0.3.210330
-  icon: com.btcus.pro.png
+  icon: com.btcus.pro.webp
   meta: removed
   verdict: wip
 

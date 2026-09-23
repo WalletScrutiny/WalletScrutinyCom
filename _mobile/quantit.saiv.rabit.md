@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2023-02-13
   version: 1.2.4
-  icon: quantit.saiv.rabit.png
+  icon: quantit.saiv.rabit.webp
   meta: removed
   verdict: wip
   developerName: Quantfolio Pte. Ltd.

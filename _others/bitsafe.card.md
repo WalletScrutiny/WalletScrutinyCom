@@ -3,7 +3,7 @@ title: BitSafeCard
 appId: bitsafe.card
 authors:
 - danny
-icon: bitsafe.card.png
+icon: bitsafe.card.webp
 date: 2023-04-28
 released: 2021-12-28
 website: https://www.bitsafecard.com#deadLink

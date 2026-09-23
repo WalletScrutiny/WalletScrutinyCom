@@ -11,7 +11,7 @@ android:
   released: 2022-04-08
   updated: 2022-04-09
   version: '1.0'
-  icon: com.u8ex.app22.png
+  icon: com.u8ex.app22.webp
   meta: removed
   verdict: wip
   developerName: Georgette Roy

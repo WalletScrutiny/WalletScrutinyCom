@@ -23,7 +23,7 @@ android:
   updated: 2026-09-08
   version: 3.30.0
   reviews: 269
-  icon: com.swanbitcoin.android.png
+  icon: com.swanbitcoin.android.webp
   meta: ok
   verdict: custodial
   developerName: Swan Bitcoin
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-09-09
   version: 3.33.0
   reviews: 4047
-  icon: com.swanbitcoin.app.jpg
+  icon: com.swanbitcoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Swan Bitcoin

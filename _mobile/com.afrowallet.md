@@ -9,7 +9,7 @@ android:
   users: 100
   updated: 2021-02-18
   version: '1.2'
-  icon: com.afrowallet.png
+  icon: com.afrowallet.webp
   meta: removed
   verdict: wip
   developerName: AFRO FOUNDATION

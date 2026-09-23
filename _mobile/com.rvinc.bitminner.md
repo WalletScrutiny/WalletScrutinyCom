@@ -10,7 +10,7 @@ android:
   released: 2021-09-28
   updated: 2021-09-28
   version: '1.0'
-  icon: com.rvinc.bitminner.jpg
+  icon: com.rvinc.bitminner.webp
   meta: removed
   verdict: fake
 

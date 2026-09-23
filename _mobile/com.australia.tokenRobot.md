@@ -10,7 +10,7 @@ android:
   released: 2022-03-31
   updated: 2022-03-31
   version: 0.0.1
-  icon: com.australia.tokenRobot.png
+  icon: com.australia.tokenRobot.webp
   meta: removed
   verdict: wip
 

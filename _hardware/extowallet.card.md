@@ -17,7 +17,7 @@ shop: https://www.extowallet.com/product-page/extowallet-card#deadLink
 country: US
 price: 199.20USD
 repository: 
-icon: extowallet.card.png
+icon: extowallet.card.webp
 bugbounty: 
 meta: ok
 verdict: nosource

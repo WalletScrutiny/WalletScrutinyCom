@@ -23,7 +23,7 @@ android:
   updated: 2026-07-26
   version: 5.13.0
   reviews: 30
-  icon: com.nanovest.prod.png
+  icon: com.nanovest.prod.webp
   meta: removed
   verdict: custodial
   developerName: Nanovest
@@ -35,7 +35,7 @@ iphone:
   updated: 2026-05-20
   version: 5.8.0
   reviews: 16
-  icon: io.nanovest.jpg
+  icon: io.nanovest.webp
   meta: removed
   verdict: custodial
   developerName: PT. TUMBUH BERSAMA NANO

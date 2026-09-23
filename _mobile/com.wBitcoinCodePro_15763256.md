@@ -9,7 +9,7 @@ android:
   released: 2022-07-18
   updated: 2022-07-18
   version: '1.0'
-  icon: com.wBitcoinCodePro_15763256.png
+  icon: com.wBitcoinCodePro_15763256.webp
   meta: removed
   verdict: wip
   developerName: ABHISHEK SINGH2

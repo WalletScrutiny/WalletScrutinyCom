@@ -13,7 +13,7 @@ android:
   updated: 2026-09-17
   version: 2.4.46
   reviews: 3
-  icon: com.tajir.wallet.app.jpg
+  icon: com.tajir.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Tajir Web3 LTD
@@ -25,7 +25,7 @@ iphone:
   updated: 2026-09-17
   version: 2.4.46
   reviews: 7
-  icon: com.tajir.wallet.app.jpg
+  icon: com.tajir.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Tajir Holding Ltd

@@ -10,7 +10,7 @@ android:
   released: 2019-12-21
   updated: 2020-01-27
   version: '1.17'
-  icon: www.hitpaywallet.com.png
+  icon: www.hitpaywallet.com.webp
   meta: removed
   verdict: wip
   developerName: HitPay Payment Solutions Ltd.

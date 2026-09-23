@@ -17,7 +17,7 @@ shop: https://store.coinkite.com/store/tapsigner
 country: CA
 price: 39.99USD
 repository: https://github.com/coinkite/coinkite-tap-proto
-icon: coinkite.tapsigner.png
+icon: coinkite.tapsigner.webp
 bugbounty: 
 meta: ok
 verdict: noita

@@ -9,7 +9,7 @@ android:
   users: 1000
   updated: 2020-11-26
   version: VARY
-  icon: org.lunie.lunie.png
+  icon: org.lunie.lunie.webp
   meta: removed
   verdict: wip
   developerName: Lunie International Software Systems Inc.

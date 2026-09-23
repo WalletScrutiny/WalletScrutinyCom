@@ -15,7 +15,7 @@ android:
   updated: 2026-08-19
   version: 2.0.84
   reviews: 45
-  icon: com.dantown.Dantownapp.jpg
+  icon: com.dantown.Dantownapp.webp
   meta: ok
   verdict: custodial
   developerName: Dantown
