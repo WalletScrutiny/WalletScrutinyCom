@@ -2,7 +2,7 @@
 name: Heisenberg (bot)
 short: hb
 since: 2026-02-09
-avatar: heisenberg.png
+avatar: heisenberg.jpg
 role: assistant
 ---
 
