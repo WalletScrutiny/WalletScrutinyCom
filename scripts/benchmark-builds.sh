@@ -24,7 +24,7 @@ run_dev_build() {
     
     # Clean everything
     rm -rf _site .jekyll-cache .jekyll-metadata dist/ _data/precomputed.json 2>/dev/null || true
-    rm -f assets/js/json/wallets-precomputed.json _includes/allProducts-precomputed.json 2>/dev/null || true
+    rm -f _includes/allProducts-precomputed.json 2>/dev/null || true
     
     # Time the full dev build (stop after Jekyll finishes)
     {
@@ -64,7 +64,7 @@ run_prod_build() {
     
     # Clean everything
     rm -rf _site .jekyll-cache .jekyll-metadata dist/ _data/precomputed.json 2>/dev/null || true
-    rm -f assets/js/json/wallets-precomputed.json _includes/allProducts-precomputed.json 2>/dev/null || true
+    rm -f _includes/allProducts-precomputed.json 2>/dev/null || true
     
     # Run precompute if available
     npm run precompute 2>/dev/null || true

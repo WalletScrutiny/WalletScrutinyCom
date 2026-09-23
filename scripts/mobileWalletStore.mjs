@@ -65,42 +65,6 @@ function parseAsDate (value) {
   return isNaN(d.getTime()) ? null : d;
 }
 
-export function toStoreDateString (value) {
-  const d = parseAsDate(value);
-  if (!d) {
-    return value == null ? '' : String(value).trim();
-  }
-  return d.toISOString().slice(0, 10);
-}
-
-/**
- * Flatten per-store fields for JSON/search: oldest released, newest updated,
- * version from preferPlatform then android then iphone.
- */
-export function summarizeMobileStoreFields (android = {}, iphone = {}, { preferPlatform } = {}) {
-  const releasedDates = [android.released, iphone.released]
-    .map(parseAsDate)
-    .filter(Boolean);
-  const updatedDates = [android.updated, iphone.updated]
-    .map(parseAsDate)
-    .filter(Boolean);
-
-  const released = releasedDates.length
-    ? toStoreDateString(new Date(Math.min(...releasedDates.map((d) => d.getTime()))))
-    : '';
-  const updated = updatedDates.length
-    ? toStoreDateString(new Date(Math.max(...updatedDates.map((d) => d.getTime()))))
-    : '';
-
-  const version =
-    (preferPlatform === 'iphone' ? iphone.version : null) ||
-    android.version ||
-    iphone.version ||
-    '';
-
-  return { released, updated, version };
-}
-
 /** Platform `meta` (default ok when block exists). */
 export function platformMeta (block) {
   if (!block || typeof block !== 'object') return 'ok';
