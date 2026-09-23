@@ -138,7 +138,7 @@ redirect_from:
   json: false
 encoding: "utf-8"
 # SVG icon sprite used by _includes/icon.html and wsIcon(); bump ?v= when icons change
-icons_sprite: /assets/icons.svg?v=2
+icons_sprite: /assets/icons.svg?v=3
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
