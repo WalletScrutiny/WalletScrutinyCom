@@ -6,13 +6,14 @@ import {
   shortenNpub,
   getAppInfoFromEventInfo,
   getMaxAssetVersion,
+  isSamePlatform,
   getFileAttachmentIDsForVerificationEvent,
 } from '../../src/verifications_utils.mjs';
 import {
   assetRegistrationKind,
   verificationKind,
 } from '../../src/nostr-constants.mjs';
-import { HASH_A, HASH_B, makeEvent, makeVerification } from './fixtures.mjs';
+import { HASH_A, HASH_B, HASH_C, makeEvent, makeVerification } from './fixtures.mjs';
 
 const ATTACHMENT_ID_A = 'a'.repeat(64);
 const ATTACHMENT_ID_B = 'b'.repeat(64);
@@ -207,5 +208,119 @@ describe('getMaxAssetVersion', () => {
     assert.equal(result.lastVerifiedVersion, null);
     assert.equal(result.lastVersionDate, null);
     assert.equal(result.lastVerifiedVersionDate, null);
+  });
+
+  test('filters by platform when provided', () => {
+    const info = makeAssetInfo({
+      verifications: [
+        makeVerification({
+          appId: 'com.app',
+          platform: 'android',
+          version: '8.0.1',
+          created_at: 300,
+          extraTags: [['status', 'reproducible'], ['x', HASH_A]],
+        }),
+        makeVerification({
+          appId: 'com.app',
+          platform: 'iphone',
+          version: '2.0.0',
+          created_at: 200,
+          extraTags: [['status', 'reproducible'], ['x', HASH_B]],
+        }),
+      ],
+    });
+
+    const android = getMaxAssetVersion(info, 'com.app', 'android');
+    assert.equal(android.lastVersion, '8.0.1');
+    assert.equal(android.lastVerifiedVersion, '8.0.1');
+
+    const iphone = getMaxAssetVersion(info, 'com.app', 'iphone');
+    assert.equal(iphone.lastVersion, '2.0.0');
+    assert.equal(iphone.lastVerifiedVersion, '2.0.0');
+  });
+
+  test('reports nothing for a platform that shares its app id but has no events', () => {
+    // BlueWallet: android and iphone both use appId io.bluewallet.bluewallet,
+    // and only android has ever been verified.
+    const info = makeAssetInfo({
+      verifications: [
+        makeVerification({
+          appId: 'io.bluewallet.bluewallet',
+          platform: 'android',
+          version: '8.0.1',
+          created_at: 300,
+          extraTags: [['status', 'reproducible'], ['x', HASH_A]],
+        }),
+      ],
+      assets: [
+        makeEvent({
+          kind: assetRegistrationKind,
+          created_at: 310,
+          tags: [
+            ['i', 'io.bluewallet.bluewallet'],
+            ['version', '8.0.1'],
+            ['platform', 'android'],
+            ['x', HASH_B],
+          ],
+        }),
+      ],
+    });
+
+    const result = getMaxAssetVersion(info, 'io.bluewallet.bluewallet', 'iphone');
+    assert.equal(result.lastVersion, null);
+    assert.equal(result.lastVerifiedVersion, null);
+  });
+
+  test('a desktop page collects linux, windows, macos and desktop events', () => {
+    const info = makeAssetInfo({
+      verifications: [
+        makeVerification({
+          appId: 'com.app',
+          platform: 'linux',
+          version: '1.0.0',
+          created_at: 100,
+          extraTags: [['status', 'reproducible'], ['x', HASH_A]],
+        }),
+        makeVerification({
+          appId: 'com.app',
+          platform: 'desktop',
+          version: '1.4.0',
+          created_at: 200,
+          extraTags: [['status', 'reproducible'], ['x', HASH_B]],
+        }),
+        makeVerification({
+          appId: 'com.app',
+          platform: 'android',
+          version: '9.0.0',
+          created_at: 300,
+          extraTags: [['status', 'reproducible'], ['x', HASH_C]],
+        }),
+      ],
+    });
+
+    const result = getMaxAssetVersion(info, 'com.app', 'desktop');
+    assert.equal(result.lastVersion, '1.4.0');
+    assert.equal(result.lastVerifiedVersion, '1.4.0');
+  });
+});
+
+describe('isSamePlatform', () => {
+  test('matches identical platforms, including desktop itself', () => {
+    assert.equal(isSamePlatform('android', 'android'), true);
+    assert.equal(isSamePlatform('desktop', 'desktop'), true);
+    assert.equal(isSamePlatform('hardware', 'hardware'), true);
+  });
+
+  test('maps desktop onto the concrete desktop platforms', () => {
+    assert.equal(isSamePlatform('desktop', 'linux'), true);
+    assert.equal(isSamePlatform('desktop', 'windows'), true);
+    assert.equal(isSamePlatform('desktop', 'macos'), true);
+    assert.equal(isSamePlatform('desktop', 'android'), false);
+  });
+
+  test('does not match across platforms or a missing tag', () => {
+    assert.equal(isSamePlatform('iphone', 'android'), false);
+    assert.equal(isSamePlatform('linux', 'desktop'), false);
+    assert.equal(isSamePlatform('android', undefined), false);
   });
 });

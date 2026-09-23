@@ -2180,7 +2180,7 @@ function compareVersions(a, b) {
   return 0;
 }
 
-function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
+function getMaxAssetVersion(getAllAssetInformationResult, appId = null, platform = null) {
   // Check if getAllAssetInformationResult.verifications is defined
   if (!getAllAssetInformationResult.verifications) {
     throw new Error('getAllAssetInformationResult.verifications is not defined');
@@ -2196,7 +2196,9 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
     for (const asset of assetArray) {
       const version = getFirstTagValue(asset, 'version');
       const appIdFromTag = getFirstTagValue(asset, 'i');
-      if (version && (!appId || appIdFromTag === appId)) {
+      const platformFromTag = getFirstTagValue(asset, 'platform');
+      const platformMatches = !platform || isSamePlatform(platform, platformFromTag);
+      if (version && (!appId || appIdFromTag === appId) && platformMatches) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           maxVersion = version;
           maxDate = formatDate(asset.created_at, true);
@@ -2222,11 +2224,15 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
 // This function is made to mitigate the mess caused
 // by the fact that in the .md files we have 'desktop',
 // but in the assets/verifications we have 'linux', 'windows', 'macos'.
+// Events tagged 'desktop' exist too, so an exact match always counts.
 function isSamePlatform(platform1, platform2) {
+  if (platform1 === platform2) {
+    return true;
+  }
   if (platform1 === 'desktop') {
     return platform2 === 'linux' || platform2 === 'windows' || platform2 === 'macos';
   }
-  return platform1 === platform2;
+  return false;
 }
 
 function getLastVerificationStatusForAppId(appId, platform) {
@@ -2549,6 +2555,7 @@ export {
   getEventsFromEventIds,
   getAllAttachmentsForAppId,
   getMaxAssetVersion,
+  isSamePlatform,
   createNostrCommentToVerification,
   getCommentsForVerification,
   sendPrivateMessageToVerifier,

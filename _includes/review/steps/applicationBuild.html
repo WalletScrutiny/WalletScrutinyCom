@@ -41,7 +41,7 @@
             const skipVersionInfo = {{ include.skipVersionInfo | default: false | jsonify }};
 
             const updateVersionInfo = (assetInfo) => {
-              const versionInfo = getMaxAssetVersion(assetInfo);
+              const versionInfo = getMaxAssetVersion(assetInfo, '{{ build_app_id }}', '{{ include.platform }}');
 
               if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
                 window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
