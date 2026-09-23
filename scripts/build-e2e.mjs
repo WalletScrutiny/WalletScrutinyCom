@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Site build for Playwright E2E: precompute -> webpack -> redirect map -> jekyll (no compress).
+ * Site build for Playwright E2E: precompute -> webpack -> redirect map -> jekyll -> minify html (no compress).
  */
 
 import { spawn } from 'child_process';
@@ -30,6 +30,7 @@ async function main() {
   await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
   await run('node', ['scripts/generate-redirect-map.mjs']);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
+  await run('node', ['scripts/minify-html.mjs']);
 }
 
 main().catch((err) => {

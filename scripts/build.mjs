@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Production build: precompute -> webpack -> redirect map -> jekyll -> compress.
+ * Production build: precompute -> webpack -> redirect map -> jekyll -> minify html -> compress.
  * Runs each step sequentially so compress never races ahead of Jekyll.
  */
 
@@ -31,6 +31,7 @@ async function main() {
   await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
   await run('node', ['scripts/generate-redirect-map.mjs']);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
+  await run('node', ['scripts/minify-html.mjs']);
   await run('npm', ['run', 'compress']);
 }
 
