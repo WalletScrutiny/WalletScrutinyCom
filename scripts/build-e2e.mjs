@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Site build for Playwright E2E: precompute -> webpack -> jekyll (no compress).
+ * Site build for Playwright E2E: precompute -> webpack -> redirect map -> jekyll (no compress).
  */
 
 import { spawn } from 'child_process';
@@ -28,6 +28,7 @@ async function main() {
 
   await run('node', ['scripts/precompute-wallet-data.mjs']);
   await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
+  await run('node', ['scripts/generate-redirect-map.mjs']);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
 }
 

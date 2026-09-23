@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Production build: precompute -> webpack -> jekyll -> compress.
+ * Production build: precompute -> webpack -> redirect map -> jekyll -> compress.
  * Runs each step sequentially so compress never races ahead of Jekyll.
  */
 
@@ -29,6 +29,7 @@ async function main() {
 
   await run('node', ['scripts/precompute-wallet-data.mjs']);
   await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
+  await run('node', ['scripts/generate-redirect-map.mjs']);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
   await run('npm', ['run', 'compress']);
 }
