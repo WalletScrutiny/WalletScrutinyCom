@@ -22,6 +22,7 @@ module.exports = (env, argv) => {
         './assets/js/_main.js',
         './assets/js/ui-components.js',
       ],
+      loader: ['./src/loader.js'],
       dom_sanitization: ['dompurify'],
       verifications_data: {
         import: [
