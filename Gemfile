@@ -16,7 +16,6 @@ gem "jekyll", "~> 4.4.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-redirect-from'
   gem 'jekyll-include-cache'
 end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do

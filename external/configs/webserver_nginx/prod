@@ -22,6 +22,14 @@ server {
     open_file_cache_valid 15m;
     open_file_cache_min_uses 1;
 
+    # old URLs (redirect_from front matter) -> 301, see redirects-maps.conf
+    if ($ws_redirect_prod) {
+        return 301 $ws_redirect_prod;
+    }
+    location = /redirects.map {
+        return 404;
+    }
+
     error_page 404 /404.html;
     location = /404.html {
         internal;

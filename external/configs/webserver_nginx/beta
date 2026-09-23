@@ -9,6 +9,14 @@ server {
 
     access_log /var/log/nginx/access_walletscrutiny_beta.log;
 
+    # old URLs (redirect_from front matter) -> 301, see redirects-maps.conf
+    if ($ws_redirect_beta) {
+        return 301 $ws_redirect_beta;
+    }
+    location = /redirects.map {
+        return 404;
+    }
+
     error_page 404 /404.html;
     location = /404.html {
         internal;

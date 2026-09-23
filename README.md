@@ -62,6 +62,12 @@ This will also minify and brotlify css, js, and other file extensions. The
 result can be found in the `_site/` folder, and you can upload the content
 of this folder to your web server.
 
+Old URLs (`redirect_from` in a page's front matter) are not stub pages but
+one generated file, `_site/redirects.map`, that nginx loads as a `map` (see
+`external/configs/webserver_nginx/redirects-maps.conf`). Reload nginx after
+each deploy so new entries go live, and check a deployment with
+`node scripts/checkRedirects.mjs https://beta.walletscrutiny.com`.
+
 
 ## Verifying the reproducibility of a wallet
 
