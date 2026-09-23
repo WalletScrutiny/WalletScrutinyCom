@@ -1,6 +1,8 @@
 <script type="module">
   // Defer until all page assets (images, CSS, other scripts) have finished loading
   // so nostr-opinion.js does not compete for bandwidth during initial render.
+  // nostr-opinion.js fetches its sibling nostr-opinion-editor.js on demand (first
+  // time an opinion editor is opened), so both files must stay in assets/js/.
   if (document.readyState !== 'complete') {
     await new Promise((resolve) => window.addEventListener('load', resolve, { once: true }));
   }
