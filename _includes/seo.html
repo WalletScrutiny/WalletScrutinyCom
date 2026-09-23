@@ -31,10 +31,7 @@
 {% assign review_prefix = "Review of " | append: page.title %}
 {% case page.collection %}
   {% when 'mobile' %}
-    {% assign og_app_id = page.android.appId | default: page.iphone.appId | default: page.appId %}
-    {% if og_app_id %}
-      {% assign og_image = site.url | append: "/images/social/android/" | append: og_app_id | append: ".png" %}
-    {% endif %}
+    {% assign og_image = site.url | append: "/images/social/mobile/" | append: page.slug | append: ".png" %}
     {% if page.android.verdict and page.iphone.verdict and page.android.verdict != page.iphone.verdict %}
       {% assign seo_description = review_prefix | append: " (Android verdict: " | append: page.android.verdict | append: ", iPhone verdict: " | append: page.iphone.verdict | append: ")" %}
     {% elsif page.android.verdict or page.iphone.verdict %}
