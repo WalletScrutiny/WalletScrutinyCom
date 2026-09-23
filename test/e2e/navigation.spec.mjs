@@ -73,7 +73,7 @@ test.describe('Navigation and read-only pages', () => {
     await page.goto('/mobile/com.mycelium.wallet/');
 
     const appLink = page.locator('.distribution-store-links a[href$="/androidApp/"]');
-    await expect(appLink).toHaveText(/check your install/i);
+    await expect(appLink).toHaveText(/check your version/i);
     await expect(appLink.locator('svg.ws-icon-android')).toBeVisible();
 
     const storeLinks = page.locator('.distribution-store-links:has(a[href$="/androidApp/"]) a');
