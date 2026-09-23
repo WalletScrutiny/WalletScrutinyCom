@@ -38,13 +38,13 @@ async function loadWorkerResources() {
   
   if (pkg.GlobalFonts?.registerFromPath) {
     try {
-      pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
+      pkg.GlobalFonts.registerFromPath('scripts/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
       
       // Bundled Unicode fonts for consistent rendering across all systems
       const bundledFonts = [
-        ['assets/fonts/Noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
-        ['assets/fonts/DejaVu/DejaVuSans.ttf', 'DejaVuSans'],
-        ['assets/fonts/Liberation/LiberationSans-Regular.ttf', 'LiberationSans']
+        ['scripts/fonts/Noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
+        ['scripts/fonts/DejaVu/DejaVuSans.ttf', 'DejaVuSans'],
+        ['scripts/fonts/Liberation/LiberationSans-Regular.ttf', 'LiberationSans']
       ];
 
       for (const [fontPath, fontName] of bundledFonts) {

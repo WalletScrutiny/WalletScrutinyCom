@@ -108,6 +108,8 @@ exclude:
   - Rakefile
   - assets/js/_main.js
   - assets/js/ui-components.js
+  - assets/js/fit-vids.js
+  - assets/js/greedy-navigation.js
   - assets/js/plugins
   - assets/js/vendor
   - backup
@@ -125,11 +127,15 @@ exclude:
   - src
   - external
   - external_configs
+  - test
   - /*.sh
   - /*.mjs
 
 keep_files:
   - .git
+# jekyll-redirect-from: the per-page stubs are enough, do not also emit a 545 KB redirects.json
+redirect_from:
+  json: false
 encoding: "utf-8"
 # SVG icon sprite used by _includes/icon.html and wsIcon(); bump ?v= when icons change
 icons_sprite: /assets/icons.svg?v=2
