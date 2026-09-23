@@ -76,6 +76,11 @@ test.describe('Navigation and read-only pages', () => {
     await expect(appLink).toHaveText(/check your install/i);
     await expect(appLink.locator('svg.ws-icon-android')).toBeVisible();
 
+    const storeLinks = page.locator('.distribution-store-links:has(a[href$="/androidApp/"]) a');
+    const linkCount = await storeLinks.count();
+    expect(linkCount).toBeGreaterThan(1);
+    await expect(storeLinks.nth(linkCount - 1)).toHaveAttribute('href', /\/androidApp\/$/);
+
     assertNoConsoleErrors();
   });
 });

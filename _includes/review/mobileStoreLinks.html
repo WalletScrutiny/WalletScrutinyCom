@@ -15,6 +15,14 @@
         {% endcase %}
       {% endfor %}
     {% endif %}
+  {% endif %}
+  {% if include.iphoneAppId and include.idd %}
+    <a title="App Store" href="https://apps.apple.com/{{ app_country }}/app/id{{ include.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+      <i class="i-app-store" aria-hidden="true"></i> App Store
+    </a>
+  {% endif %}
+  {% include /review/websiteDistributionLink.html %}
+  {% if include.androidAppId %}
     {% comment %}The WalletScrutiny Android app only knows the wallets it was built with: sourceavailable ones with meta ok, deprecated or unset (scripts/updateAndroidWallets.mjs in the app repo).{% endcomment %}
     {% assign ws_app_meta = page.android.meta | default: 'ok' %}
     {% if page.android.verdict == 'sourceavailable' %}
@@ -25,10 +33,4 @@
       {% endif %}
     {% endif %}
   {% endif %}
-  {% if include.iphoneAppId and include.idd %}
-    <a title="App Store" href="https://apps.apple.com/{{ app_country }}/app/id{{ include.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
-      <i class="i-app-store" aria-hidden="true"></i> App Store
-    </a>
-  {% endif %}
-  {% include /review/websiteDistributionLink.html %}
 </div>
