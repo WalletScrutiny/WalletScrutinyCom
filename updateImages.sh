@@ -58,7 +58,10 @@ resizeDeterministically() {
   source=$2/$filename
   target=$3/$filename
   size=$4
-  convert -background none $source -resize ${size}x $target 2> /dev/null
+  # +profile keeps the colour profile (it changes how the icon renders) but drops EXIF/XMP/Photoshop blocks;
+  # the png define drops text and date chunks, which would otherwise make every output differ per run.
+  convert -background none $source +profile '!icc,*' -define png:exclude-chunks=date,tEXt,zTXt,iTXt,eXIf,tIME \
+    -resize ${size}x $target 2> /dev/null
 }
 
 resizeMany() {

@@ -6,6 +6,53 @@ import yaml from 'js-yaml';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
+// Removes metadata that only adds weight to a downloaded icon: EXIF/XMP/Photoshop blocks and comments in JPEGs,
+// text and time chunks in PNGs. Colour profiles (ICC) stay because they change how the icon renders. Pixel data
+// is copied byte for byte, so this never re-encodes the image. Some store icons carry 100-600 KB of such
+// metadata, more than the image itself.
+function stripImageMetadata (filePath, mimetype) {
+  const data = fs.readFileSync(filePath);
+  const kept = [];
+  let pos;
+  if (mimetype === 'image/png') {
+    const drop = new Set(['tEXt', 'zTXt', 'iTXt', 'eXIf', 'tIME']);
+    kept.push(data.subarray(0, 8));
+    pos = 8;
+    while (pos + 8 <= data.length) {
+      const length = data.readUInt32BE(pos);
+      const type = data.toString('latin1', pos + 4, pos + 8);
+      const end = pos + 12 + length;
+      if (end > data.length) return; // malformed: leave the file alone
+      if (!drop.has(type)) kept.push(data.subarray(pos, end));
+      pos = end;
+      if (type === 'IEND') break;
+    }
+  } else if (mimetype === 'image/jpeg' || mimetype === 'image/jpg') {
+    const drop = new Set([0xE1, 0xED, 0xFE]); // APP1 (EXIF, XMP), APP13 (Photoshop), COM
+    kept.push(data.subarray(0, 2));
+    pos = 2;
+    while (pos + 4 <= data.length && data[pos] === 0xFF) {
+      const marker = data[pos + 1];
+      if (marker === 0xFF) { pos += 1; continue; }
+      if (marker === 0xD8 || marker === 0x01 || (marker >= 0xD0 && marker <= 0xD7)) {
+        kept.push(data.subarray(pos, pos + 2));
+        pos += 2;
+        continue;
+      }
+      if (marker === 0xDA || marker === 0xD9) break; // image data starts here; copy the rest verbatim
+      const end = pos + 2 + data.readUInt16BE(pos + 2);
+      if (end > data.length) return;
+      if (!drop.has(marker)) kept.push(data.subarray(pos, end));
+      pos = end;
+    }
+  } else {
+    return;
+  }
+  kept.push(data.subarray(pos));
+  const stripped = Buffer.concat(kept);
+  if (stripped.length < data.length) fs.writeFileSync(filePath, stripped);
+}
+
 function downloadImageFile (url, iconPath, callback) {
   const finish = (iconExtension) => {
     try {
@@ -46,6 +93,7 @@ function downloadImageFile (url, iconPath, callback) {
             finish(null);
             return;
           }
+          stripImageMetadata(iconPath, mimetype);
           fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
             if (err) {
               console.error(`ERROR renaming icon ${iconPath}: ${err}`);
@@ -297,6 +345,7 @@ export default {
   checkHeaderKeys,
   dateOrEmpty,
   downloadImageFile,
+  stripImageMetadata,
   getEmptyHeader,
   getLastRemovedCheck,
   getResult,
