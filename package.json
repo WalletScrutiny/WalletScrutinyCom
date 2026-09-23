@@ -74,8 +74,7 @@
     "marked": "^18.0.13",
     "nip07-awaiter": "^1.1.0",
     "nostr-tools": "2.23.8",
-    "qrcode": "^1.5.4",
-    "webpack.config.js": "^0.0.0"
+    "qrcode": "^1.5.4"
   },
   "allowScripts": {
     "es5-ext": false
