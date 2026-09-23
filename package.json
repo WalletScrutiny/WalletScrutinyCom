@@ -48,6 +48,7 @@
     "build": "node scripts/build.mjs",
     "analyze": "webpack --mode production --no-watch --env analyze --output-path dist",
     "precompute": "node scripts/precompute-wallet-data.mjs",
+    "redirects": "node scripts/generate-redirect-map.mjs",
     "clean_dist": "rm -rf dist/*",
     "clean:full": "bundle exec jekyll clean && npm run clean_dist",
     "clean_assets": "npm run clean_dist",

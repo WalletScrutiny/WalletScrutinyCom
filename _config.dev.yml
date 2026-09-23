@@ -1,6 +1,3 @@
 # Develop override settings
 
 environment: development
-
-# Skip legacy redirect_from entries (6k old URLs) during local development: /redirects.map comes out empty.
-dev_skip_redirects: true
