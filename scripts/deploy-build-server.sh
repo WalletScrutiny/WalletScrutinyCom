@@ -97,7 +97,15 @@ cp "${UNIT_DIR}/walletscrutiny-build-server-builds-cleanup.service" /etc/systemd
 cp "${UNIT_DIR}/walletscrutiny-build-server-builds-cleanup.timer" /etc/systemd/system/
 cp "${UNIT_DIR}/walletscrutiny-build-server-nix-gc.service" /etc/systemd/system/
 cp "${UNIT_DIR}/walletscrutiny-build-server-nix-gc.timer" /etc/systemd/system/
-systemctl daemon-reload
+# PID 1 on this host can sit on a large set of leaked BPF fds, so
+# daemon-reload takes many minutes. The default bus timeout is 25s and
+# systemctl then reports "Connection timed out" while systemd is still
+# reloading. Wait long enough, and still start the service if reload fails:
+# the unit was stopped at the beginning of this deploy.
+export SYSTEMD_BUS_TIMEOUT=900
+if ! systemctl daemon-reload; then
+  echo "Warning: systemctl daemon-reload failed; starting the service anyway" >&2
+fi
 echo "Enabling and starting ${SERVICE_NAME}..."
 systemctl enable --now "${SERVICE_NAME}"
 systemctl enable --now walletscrutiny-build-server-builds-cleanup.timer
