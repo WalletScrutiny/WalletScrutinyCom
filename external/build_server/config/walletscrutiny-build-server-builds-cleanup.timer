@@ -1,5 +1,5 @@
 [Unit]
-Description=Daily cleanup of old directories in /opt/build-server-builds
+Description=Daily cleanup of old build directories and Podman and Docker containers and images
 
 [Timer]
 OnCalendar=daily

@@ -1,5 +1,5 @@
 [Unit]
-Description=Remove build directories under /opt/build-server-builds older than 7 days (by mtime)
+Description=Remove build directories and unused Podman and Docker containers and images older than 7 days
 Documentation=file:/opt/build-server/walletScrutinyCom/external/build_server/README.md
 
 [Service]
