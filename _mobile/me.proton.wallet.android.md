@@ -1,25 +1,24 @@
 ---
 wsId: protonWallet
-title: 'Proton Wallet: Secure Bitcoin'
+title: "Proton Wallet: Secure Bitcoin"
 date: 2025-05-20
 authors:
-- danny
+  - danny
 website: https://proton.me
 twitter: ProtonPrivacy
 social:
-- https://www.reddit.com/r/ProtonMail
-- https://www.instagram.com/protonprivacy
-- https://www.facebook.com/Proton
-- https://www.linkedin.com/company/protonprivacy
-- https://mastodon.social/@protonprivacy
+  - https://www.reddit.com/r/ProtonMail
+  - https://www.instagram.com/protonprivacy
+  - https://www.facebook.com/Proton
+  - https://www.linkedin.com/company/protonprivacy
+  - https://mastodon.social/@protonprivacy
 features:
-- foss
-- buyWithCC
-- hd
-- multiAccount
+  - buyWithCC
+  - hd
+  - multiAccount
 redirect_from:
-- /android/me.proton.wallet.android/
-- /iphone/me.proton.wallet.ios/
+  - /android/me.proton.wallet.android/
+  - /iphone/me.proton.wallet.ios/
 android:
   appId: me.proton.wallet.android
   users: 100000
@@ -31,12 +30,12 @@ android:
   icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
 iphone:
   appId: me.proton.wallet.ios
-  idd: '6479609548'
+  idd: "6479609548"
   appCountry: us
   released: 2025-02-10
   updated: 2026-08-27
@@ -44,19 +43,32 @@ iphone:
   reviews: 252
   icon: me.proton.wallet.ios.webp
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
-
 ---
 
 ## Android
+
+## Update 2026-09-25
+
+We could not find the public source code for the version of Proton Wallet that Google Play ships today.
+
+- The app we installed from Google Play is version 1.3.3 (build 122), released on 2026-08-26.
+- The newest version with public source code on [GitHub](https://github.com/ProtonWallet/flutter-app) is 1.3.0 (tag `v1.3.0+115`), from 2026-07-17.
+- The GitHub repository has not changed since late July 2026, so there is no public code for versions 1.3.1, 1.3.2 or 1.3.3.
+- The app's core Bitcoin code, a library called "andromeda", is also not fully public. The app points to a version of it stored on Proton's private server, and the [public copy on GitHub](https://github.com/ProtonWallet/andromeda) does not contain that version.
+- Because of this, no one outside Proton can check that the app on their phone was built from code they can read.
+
+For this to change, Proton needs to publish the source code for each release before it goes out, including the exact version of andromeda it uses.
+
+As of today, Proton Android is **not source available**.
 
 ## Update 2025-05-20
 
 Pursuant to the [GitHub issue we raised](https://github.com/ProtonWallet/flutter-app/issues/4), the Proton Android Wallet team has made build instructions plus a script that would help in building the app. At the time of this writing, we were able to build an apk and is in the process of building the AAB. Thus, any previous findings concerning the difficulties in building are now voided.
 
-This makes the app **sourceavailable**, and thus open **for verification**. 
+This makes the app **sourceavailable**, and thus open **for verification**.
 
 ## App Description from Play
 
@@ -68,11 +80,9 @@ From their terms:
 - View digital asset price information made available by third party service provider(s)
 - Broadcast digital asset transaction data to various blockchains supported by Proton Wallet without requiring to download or install the associated blockchain-based software on your local device.
 
-## Analysis 
+## Analysis
 
 As of 2024-07-25, the app is still in early access which would require an invite. If we go by its claims, then this app would be **for verification**
-
-{% include featureEvidence.html feature="foss" quote="The code and data files in this distribution are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See <https://www.gnu.org/licenses/> for a copy of this license." source="GitHub README" %}
 
 An issue has been opened at [https://github.com/ProtonWallet/flutter-app/issues/4](https://github.com/ProtonWallet/flutter-app/issues/4)
 
@@ -87,5 +97,3 @@ An issue has been opened at [https://github.com/ProtonWallet/flutter-app/issues/
 {% include featureEvidence.html feature="multiAccount" quote="Inside each wallet, you can also create multiple BTC accounts to organize and separate your assets for better privacy. After the default wallet, subsequent wallet creations support an optional passphrase as another layer of protection. Free users can have up to 3 wallets and 3 accounts per wallet." source="Store description" %}
 
 {% include featureEvidence.html feature="buyWithCC" quote="Proton Wallet allows you to easily acquire Bitcoin using credit cards or bank transfers from all around the world through our financial partners, with a particularly low friction process for smaller amounts." source="Website" %}
-
-{% include featureEvidence.html feature="foss" quote="Choose a crypto wallet that's transparent, open source, optimized for Bitcoin, and puts you in control." source="Store description" %}
