@@ -174,6 +174,19 @@ sudo systemctl status walletscrutiny-build-server.service
 sudo journalctl -u walletscrutiny-build-server.service -f
 ```
 
+### Retry a build the ABS already attempted
+
+The ABS skips a build whose earlier attempt with the same build script is `queued` or `error` in its database. To have it tried again (for example after an ABS fix), list the app's rows and delete the one that blocks it; the next pass picks the build up again.
+
+```bash
+cd /opt/build-server/walletScrutinyCom/external/build_server
+sudo -u build-server node scripts/verifications-db.mjs list com.example.wallet          # all versions
+sudo -u build-server node scripts/verifications-db.mjs list com.example.wallet 1.2.3    # one version
+sudo -u build-server node scripts/verifications-db.mjs delete 42                        # by row id
+```
+
+It uses the service's database (`/var/lib/walletscrutiny-build-server/verifications.db`) unless `--db <path>` or `BUILD_SERVER_DB_PATH` says otherwise. A newer build script (a new build script event) is tried without deleting anything, and a build that already has a published WS Bot verification is skipped whatever the database says.
+
 ## Technical notes
 
 - The application connects to the same relays as WalletScrutiny.com and publishes the results to Nostr as `WalletScrutiny Bot`
