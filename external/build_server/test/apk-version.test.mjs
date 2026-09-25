@@ -177,6 +177,12 @@ z.close()
 });
 
 describe('parseApkVersionName', () => {
+  test('keeps spaces and parentheses in versionName', async () => {
+    // Built with aapt2 from a manifest declaring android:versionName="2026.11.2 (1)" (Bitkey's format).
+    const apk = fileURLToPath(new URL('./fixtures/versionname-with-spaces.apk', import.meta.url));
+    assert.equal(await parseApkVersionName(apk), '2026.11.2 (1)');
+  });
+
   test('returns null for a file that is not an APK', async () => {
     const dir = makeTempDir('not-apk-parse');
     const apk = path.join(dir, 'app.apk');
