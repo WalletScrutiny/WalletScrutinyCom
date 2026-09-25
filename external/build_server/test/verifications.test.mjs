@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, buildVerificationDescription, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -31,6 +31,27 @@ afterEach(() => {
       fs.rmSync(dir, { recursive: true, force: true });
     }
   }
+});
+
+describe('buildVerificationDescription', () => {
+  test('keeps the plain description when there is no asset description', () => {
+    assert.equal(buildVerificationDescription({}), 'Automatic verification by WalletScrutiny Build Server');
+    assert.equal(buildVerificationDescription({ assetDescription: '   ' }), 'Automatic verification by WalletScrutiny Build Server');
+  });
+
+  test('appends architecture and type', () => {
+    assert.equal(
+      buildVerificationDescription({ architecture: 'x86_64', type: 'AppImage' }),
+      'Automatic verification by WalletScrutiny Build Server x86_64 / AppImage'
+    );
+  });
+
+  test('prepends the asset registration description on one line', () => {
+    assert.equal(
+      buildVerificationDescription({ assetDescription: 'Zeus v13.0.1 (uploaded by WalletScrutiny Android)\n' }),
+      'Zeus v13.0.1 (uploaded by WalletScrutiny Android) - Automatic verification by WalletScrutiny Build Server'
+    );
+  });
 });
 
 describe('readComparisonResults', () => {

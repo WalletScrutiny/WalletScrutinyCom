@@ -657,7 +657,8 @@ export async function addJobToQueue({
       type,
       fileEventIdsForSHFiles,
       assetHashes?.length ? assetHashes : [verificationHash ?? fileHash].filter(Boolean),
-      dbVerificationRowId
+      dbVerificationRowId,
+      asset?.content
     );
   }).catch(error => {
     markVerificationAttemptAsError();
@@ -920,7 +921,29 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, dbVerificationRowId = null) {
+/**
+ * The asset registration's content says where the binary came from and who uploaded it
+ * (e.g. "Zeus v13.0.1 (uploaded by WalletScrutiny Android)"). Keep it in front of our own
+ * text so the verification does not hide it.
+ */
+export function buildVerificationDescription({ assetDescription, architecture, type } = {}) {
+  let description = 'Automatic verification by WalletScrutiny Build Server';
+  if (architecture) {
+    description += ` ${architecture}`;
+  }
+  if (type) {
+    if (architecture) {
+      description += ' /';
+    }
+    description += ` ${type}`;
+  }
+  const assetText = typeof assetDescription === 'string'
+    ? assetDescription.replace(/\s+/g, ' ').trim()
+    : '';
+  return assetText ? `${assetText} - ${description}` : description;
+}
+
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, dbVerificationRowId = null, assetDescription = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   requireNostrPool();
@@ -952,16 +975,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
-  let description = 'Automatic verification by WalletScrutiny Build Server';
-  if (architecture) {
-    description += ` ${architecture}`;
-  }
-  if (type) {
-    if (architecture) {
-      description += ' /';
-    }
-    description += ` ${type}`;
-  }
+  const description = buildVerificationDescription({ assetDescription, architecture, type });
 
   const claimedWalletVersion = returnParamsFromCompilationJob.claimedWalletVersion;
   const versionOverrideNote = describeVersionOverride(claimedWalletVersion, newWalletVersion);
