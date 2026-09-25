@@ -82,6 +82,12 @@ if ! node scripts/fdroidSourceAvailableCheck.mjs; then
   exit 1
 fi
 
+print_refresh_section "Zapstore check (Android alternativeStores)"
+if ! node scripts/zapstoreCheck.mjs; then
+  echo "ERROR: Failed to run zapstoreCheck.mjs"
+  exit 1
+fi
+
 print_refresh_section "Sync bitcoinOrgId from bitcoin.org _wallets"
 if ! node scripts/syncBitcoinOrgId.mjs; then
   echo "ERROR: Failed to run syncBitcoinOrgId.mjs"
