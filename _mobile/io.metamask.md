@@ -21,6 +21,8 @@ redirect_from:
 - /iphone/io.metamask.MetaMask/
 android:
   appId: io.metamask
+  alternativeStores:
+  - zapstore
   users: 10000000
   appCountry: us
   released: 2020-09-01

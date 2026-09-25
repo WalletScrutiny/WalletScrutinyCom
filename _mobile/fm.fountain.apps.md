@@ -14,6 +14,8 @@ redirect_from:
 - /iphone/fm.fountain.apps/
 android:
   appId: fm.fountain.apps
+  alternativeStores:
+  - zapstore
   users: 100000
   appCountry: us
   released: 2021-08-02

@@ -20,6 +20,8 @@ redirect_from:
 - /iphone/co.acinq.phoenix/
 android:
   appId: fr.acinq.phoenix.mainnet
+  alternativeStores:
+  - zapstore
   users: 100000
   appCountry: fr
   released: 2019-12-10

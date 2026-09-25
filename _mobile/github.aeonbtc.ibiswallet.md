@@ -15,6 +15,8 @@ redirect_from:
 - /android/github.aeonbtc.ibiswallet/
 android:
   appId: github.aeonbtc.ibiswallet
+  alternativeStores:
+  - zapstore
   users: 0
   released: 2026-02-09
   updated: 2026-03-06

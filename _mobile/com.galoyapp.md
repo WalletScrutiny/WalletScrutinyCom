@@ -20,6 +20,8 @@ redirect_from:
 - /iphone/io.galoy.bitcoinbeach/
 android:
   appId: com.galoyapp
+  alternativeStores:
+  - zapstore
   users: 100000
   appCountry: us
   released: 2020-11-24

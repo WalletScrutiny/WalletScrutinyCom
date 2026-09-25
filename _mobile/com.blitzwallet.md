@@ -18,6 +18,8 @@ redirect_from:
 - /android/com.blitzwallet/
 android:
   appId: com.blitzwallet
+  alternativeStores:
+  - zapstore
   users: 1000
   appCountry: us
   released: 2025-09-29

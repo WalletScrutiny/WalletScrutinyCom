@@ -5,6 +5,8 @@ redirect_from:
 - /android/mybuho.buhogo/
 android:
   appId: mybuho.buhogo
+  alternativeStores:
+  - zapstore
   users: 50
   appCountry: us
   released: 2025-09-26

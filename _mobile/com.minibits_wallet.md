@@ -14,6 +14,8 @@ redirect_from:
 - /android/com.minibits_wallet/
 android:
   appId: com.minibits_wallet
+  alternativeStores:
+  - zapstore
   users: 1000
   appCountry: us
   updated: 2026-06-02

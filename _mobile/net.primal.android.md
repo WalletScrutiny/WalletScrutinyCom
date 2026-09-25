@@ -12,6 +12,8 @@ redirect_from:
 - /iphone/net.primal.iosapp.Primal/
 android:
   appId: net.primal.android
+  alternativeStores:
+  - zapstore
   users: 50000
   appCountry: us
   released: 2024-07-09

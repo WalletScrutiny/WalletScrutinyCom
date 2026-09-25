@@ -21,6 +21,8 @@ redirect_from:
 - /iphone/me.proton.wallet.ios/
 android:
   appId: me.proton.wallet.android
+  alternativeStores:
+  - zapstore
   users: 100000
   appCountry: us
   released: 2025-02-04

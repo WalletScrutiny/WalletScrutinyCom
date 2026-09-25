@@ -33,6 +33,8 @@ redirect_from:
 - /iphone/io.bluewallet.bluewallet/
 android:
   appId: io.bluewallet.bluewallet
+  alternativeStores:
+  - zapstore
   users: 1000000
   appCountry: us
   released: 2018-11-01

@@ -21,6 +21,8 @@ redirect_from:
 - /iphone/com.cypherstack.stackwallet/
 android:
   appId: com.cypherstack.stackwallet
+  alternativeStores:
+  - zapstore
   users: 10000
   appCountry: us
   released: 2024-05-13

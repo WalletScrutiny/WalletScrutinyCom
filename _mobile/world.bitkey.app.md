@@ -21,6 +21,8 @@ redirect_from:
 - /iphone/world.bitkey.app/
 android:
   appId: world.bitkey.app
+  alternativeStores:
+  - zapstore
   users: 10000
   appCountry: US
   released: 2024-02-28

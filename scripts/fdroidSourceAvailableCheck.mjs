@@ -38,6 +38,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
 import pLimit from 'p-limit';
+import { readAndroidAlternativeStores, setAndroidAlternativeStore } from './alternativeStoresFrontmatter.mjs';
 
 const fsp = fs.promises;
 
@@ -102,82 +103,6 @@ async function collectAndroidMarkdownPaths() {
   return paths.sort();
 }
 
-function extractAndroidBlock(rawFm) {
-  const m = rawFm.match(/^android:\n((?:[ \t].*\n)*)/m);
-  if (!m) return null;
-  return { prefix: 'android:\n', body: m[1], full: m[0] };
-}
-
-const FDROID_STORE_BLOCK_INDENTED = '  alternativeStores:\n  - fdroid';
-
-function insertAlternativeStoresFdroidInAndroidBlock(androidBody) {
-  if (/^  alternativeStores:\s*\n((?:[ \t].*\n)+)/m.test(androidBody)) {
-    const listHead = androidBody.match(/^  alternativeStores:\s*\n((?:[ \t].*\n)+)/m);
-    if (listHead && /^\s*-\s+fdroid\b/m.test(listHead[1])) {
-      return { androidBody, changed: false };
-    }
-    return { androidBody, changed: false, conflict: true };
-  }
-
-  if (/^  alternativeStores:\s*fdroid\s*$/m.test(androidBody)) {
-    return {
-      androidBody: androidBody.replace(/^  alternativeStores:\s*fdroid\s*$/m, FDROID_STORE_BLOCK_INDENTED),
-      changed: true
-    };
-  }
-
-  const appIdLine = androidBody.match(/^  appId:.*\n/m);
-  if (appIdLine) {
-    return {
-      androidBody: androidBody.replace(appIdLine[0], `${appIdLine[0]}${FDROID_STORE_BLOCK_INDENTED}\n`),
-      changed: true
-    };
-  }
-  return {
-    androidBody: `${androidBody.trimEnd()}\n${FDROID_STORE_BLOCK_INDENTED}\n`,
-    changed: true
-  };
-}
-
-function stripFdroidFromAndroidBlock(androidBody) {
-  const lines = androidBody.split('\n');
-  const out = [];
-  let i = 0;
-  let changed = false;
-
-  while (i < lines.length) {
-    const line = lines[i];
-
-    if (/^  alternativeStores:\s*fdroid\s*$/i.test(line)) {
-      changed = true;
-      i += 1;
-      continue;
-    }
-
-    if (/^  alternativeStores:\s*$/.test(line)) {
-      i += 1;
-      const itemLines = [];
-      while (i < lines.length && /^    -\s+.+$/.test(lines[i])) {
-        itemLines.push(lines[i]);
-        i += 1;
-      }
-      const kept = itemLines.filter((l) => !/^\s*-\s+fdroid\s*$/i.test(l));
-      if (itemLines.length !== kept.length) changed = true;
-      if (kept.length === 0) {
-        continue;
-      }
-      out.push('  alternativeStores:');
-      out.push(...kept);
-      continue;
-    }
-
-    out.push(line);
-    i += 1;
-  }
-
-  return { androidBody: out.join('\n'), changed };
-}
-
 async function fetchPackageStatus(appId, signal) {
   const url = `${F_DROID_ORIGIN}/packages/${encodeURIComponent(appId)}/`;
   const tryOnce = async () => {
@@ -223,18 +148,6 @@ function splitLeadingFrontmatter(content) {
 const FDROID_STORE_BLOCK = 'alternativeStores:\n- fdroid';
 
 function insertAlternativeStoresFdroid(rawFm) {
-  const androidSection = extractAndroidBlock(rawFm);
-  if (androidSection) {
-    const { androidBody, changed, conflict } = insertAlternativeStoresFdroidInAndroidBlock(androidSection.body);
-    if (conflict) return { rawFm, changed: false, conflict: true };
-    if (!changed) return { rawFm, changed: false };
-    const nextAndroid = `android:\n${androidBody}`;
-    return {
-      rawFm: rawFm.replace(androidSection.full, nextAndroid),
-      changed: true
-    };
-  }
-
   const listHead = rawFm.match(/^alternativeStores:\s*\n((?:[ \t]*-[^\n]+\n)+)/m);
   if (listHead && /^\s*-\s+fdroid\b/m.test(listHead[1])) {
     return { rawFm, changed: false };
@@ -260,17 +173,6 @@ function fmHasFdroidInAlternativeStores(fm) {
 }
 
 function stripFdroidFromAlternativeStoresRaw(rawFm) {
-  const androidSection = extractAndroidBlock(rawFm);
-  if (androidSection) {
-    const { androidBody, changed } = stripFdroidFromAndroidBlock(androidSection.body);
-    if (!changed) return { rawFm, changed: false };
-    const nextAndroid = `android:\n${androidBody}`;
-    return {
-      rawFm: rawFm.replace(androidSection.full, nextAndroid),
-      changed: true
-    };
-  }
-
   const lines = rawFm.split('\n');
   const out = [];
   let i = 0;
@@ -359,6 +261,12 @@ function stripFdroidFromAlternativeStoresRaw(rawFm) {
 
 function applyAlternativeStoresToFile(absPath, dryRun) {
   const content = fs.readFileSync(absPath, 'utf8');
+  const android = setAndroidAlternativeStore(content, 'fdroid', true);
+  if (android.status !== 'no_android_block') {
+    if (android.status !== 'added') return { status: android.status };
+    if (!dryRun) fs.writeFileSync(absPath, android.content, 'utf8');
+    return { status: dryRun ? 'would_update' : 'updated' };
+  }
   const parts = splitLeadingFrontmatter(content);
   if (!parts) return { status: 'no_frontmatter' };
   const { rawFm, open, close, body } = parts;
@@ -374,6 +282,15 @@ function applyAlternativeStoresToFile(absPath, dryRun) {
 
 function applyRemoveFdroidFromAlternativeStoresFile(absPath, dryRun) {
   const content = fs.readFileSync(absPath, 'utf8');
+  const android = setAndroidAlternativeStore(content, 'fdroid', false);
+  if (android.status !== 'no_android_block') {
+    if (android.status !== 'removed') return { status: android.status };
+    if (!dryRun) fs.writeFileSync(absPath, android.content, 'utf8');
+    if (readAndroidAlternativeStores(android.content).length === 0) {
+      return { status: dryRun ? 'would_remove_key' : 'removed_key' };
+    }
+    return { status: dryRun ? 'would_strip_fdroid' : 'stripped_fdroid' };
+  }
   const parts = splitLeadingFrontmatter(content);
   if (!parts) return { status: 'no_frontmatter' };
   const { rawFm, open, close, body } = parts;

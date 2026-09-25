@@ -24,6 +24,8 @@ redirect_from:
 - /iphone/com.foundationdevices.envoy/
 android:
   appId: com.foundationdevices.envoy
+  alternativeStores:
+  - zapstore
   users: 1000
   appCountry: US
   released: 2022-04-01

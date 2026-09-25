@@ -10,6 +10,8 @@ redirect_from:
 - /iphone/org.bitcoinppl.cove/
 android:
   appId: org.bitcoinppl.cove
+  alternativeStores:
+  - zapstore
   users: 100
   appCountry: us
   released: 2026-02-12

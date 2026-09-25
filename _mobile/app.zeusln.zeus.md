@@ -33,6 +33,8 @@ redirect_from:
 - /iphone/com.zeusln.zeus/
 android:
   appId: app.zeusln.zeus
+  alternativeStores:
+  - zapstore
   users: 10000
   appCountry: us
   released: 2020-07-07

@@ -33,6 +33,7 @@ android:
   icon: com.gemwallet.android.webp
   alternativeStores:
   - fdroid
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Gem Wallet LLC

@@ -28,6 +28,7 @@ android:
   icon: org.electrum.electrum.webp
   alternativeStores:
   - fdroid
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Electrum Technologies GmbH

@@ -22,6 +22,8 @@ redirect_from:
 - /iphone/io.aquawallet.ios/
 android:
   appId: io.aquawallet.android
+  alternativeStores:
+  - zapstore
   users: 50000
   appCountry: us
   released: 2024-01-02

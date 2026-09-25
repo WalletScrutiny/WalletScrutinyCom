@@ -23,6 +23,8 @@ redirect_from:
 - /iphone/to.bitkit/
 android:
   appId: to.bitkit
+  alternativeStores:
+  - zapstore
   users: 5000
   appCountry: us
   released: 2024-06-07

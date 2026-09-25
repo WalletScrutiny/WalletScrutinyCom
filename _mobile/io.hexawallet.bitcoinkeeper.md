@@ -19,6 +19,8 @@ redirect_from:
 - /iphone/io.hexawallet.keeper/
 android:
   appId: io.hexawallet.bitcoinkeeper
+  alternativeStores:
+  - zapstore
   users: 1000
   appCountry: UK
   released: 2022-12-12

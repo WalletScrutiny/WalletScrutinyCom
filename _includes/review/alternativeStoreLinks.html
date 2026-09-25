@@ -6,6 +6,8 @@
     {% case alt %}
       {% when 'fdroid' %}
         <a title="F-Droid" href="https://f-droid.org/packages/{{ alt_app_id }}/" class="link-web subtle distribution-store-link"><i class="fac fa-f-droid" aria-hidden="true"></i> F-Droid</a>
+      {% when 'zapstore' %}
+        <a title="Zapstore" href="https://zapstore.dev/apps/{{ alt_app_id }}" class="link-web subtle distribution-store-link">{% include icon.html name="zapstore" %} Zapstore</a>
     {% endcase %}
   {% endfor %}
 {% endif %}
