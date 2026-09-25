@@ -5,6 +5,12 @@ import './setup.mjs';
 
 import { describe, test, beforeEach, after } from 'node:test';
 import assert from 'node:assert/strict';
+import { execFileSync } from 'child_process';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import Database from 'better-sqlite3';
 
 import {
   initDb,
@@ -146,5 +152,95 @@ describe('markStaleQueuedAttemptsAsInterrupted', () => {
     assert.ok(findQueuedOrErroredSimilarAttempt(baseRow({ version: '3.0.0' })));
     // Nothing left to mark.
     assert.equal(markStaleQueuedAttemptsAsInterrupted(), 0);
+  });
+});
+
+describe('asset attempts are keyed by file set, not version', () => {
+  const EN_SET = 'e'.repeat(64);
+  const ES_SET = 'f'.repeat(64);
+  const assetRow = (overrides = {}) => baseRow({ platform: 'android', arch: '', type: '', assetKey: EN_SET, ...overrides });
+
+  test('an errored file set does not block another set of the same version', () => {
+    insert(assetRow({ buildScriptEventId: 'bs-1', endResult: 'error' }));
+
+    assert.ok(findQueuedOrErroredSimilarAttempt(assetRow({ buildScriptEventId: 'bs-1' })));
+    assert.ok(findErroredAttemptForBuildScript(assetRow({ buildScriptEventId: 'bs-1' })));
+    assert.equal(findQueuedOrErroredSimilarAttempt(assetRow({ buildScriptEventId: 'bs-1', assetKey: ES_SET })), undefined);
+    assert.equal(findErroredAttemptForBuildScript(assetRow({ buildScriptEventId: 'bs-1', assetKey: ES_SET })), undefined);
+  });
+
+  test('the same file set stays blocked when registered under another version tag', () => {
+    insert(assetRow({ buildScriptEventId: 'bs-1', version: '1.0.0', endResult: 'error' }));
+
+    assert.ok(findQueuedOrErroredSimilarAttempt(assetRow({ buildScriptEventId: 'bs-1', version: '1.0.0 (1)' })));
+    assert.ok(findErroredAttemptForBuildScript(assetRow({ buildScriptEventId: 'bs-1', version: '1.0.0 (1)' })));
+  });
+
+  test('rows without an asset key block only release builds of that version', () => {
+    // Rows written before assetKey existed look like this.
+    insert(baseRow({ buildScriptEventId: 'bs-1', endResult: 'error' }));
+
+    assert.ok(findErroredAttemptForBuildScript(baseRow({ buildScriptEventId: 'bs-1' })));
+    assert.equal(findErroredAttemptForBuildScript(baseRow({ buildScriptEventId: 'bs-1', assetKey: EN_SET })), undefined);
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow({ assetKey: EN_SET })), undefined);
+  });
+
+  test('an asset row does not block a release build of the same version', () => {
+    insert(baseRow({ buildScriptEventId: 'bs-1', assetKey: EN_SET, endResult: 'error' }));
+
+    assert.equal(findErroredAttemptForBuildScript(baseRow({ buildScriptEventId: 'bs-1' })), undefined);
+  });
+});
+
+describe('initDb migration', () => {
+  test('adds assetKey to a database created without it and keeps its rows', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'abs-ddbb-'));
+    const dbPath = path.join(dir, 'verifications.db');
+    try {
+      const old = new Database(dbPath);
+      old.exec(`
+        CREATE TABLE verifications (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          appId TEXT NOT NULL,
+          platform TEXT NOT NULL,
+          version TEXT NOT NULL,
+          arch TEXT NOT NULL,
+          type TEXT NOT NULL,
+          verificationId TEXT NOT NULL,
+          buildScriptEventId TEXT NOT NULL,
+          endResult TEXT NOT NULL,
+          createdAt TEXT DEFAULT (datetime('now')),
+          updatedAt TEXT DEFAULT (datetime('now'))
+        );
+        INSERT INTO verifications (appId, platform, version, arch, type, verificationId, buildScriptEventId, endResult)
+        VALUES ('com.example', 'linux', '1.0.0', 'x86_64', 'release', 'verif-1', 'script-1', 'error');
+      `);
+      old.close();
+
+      // DB_PATH is fixed at module load, so open the file from a fresh process.
+      const moduleUrl = new URL('../ddbbUtils.mjs', import.meta.url).href;
+      const script = `
+        const m = await import(${JSON.stringify(moduleUrl)});
+        const row = { appId: 'com.example', platform: 'linux', version: '1.0.0', arch: 'x86_64', type: 'release', verificationId: 'verif-1', buildScriptEventId: 'script-1' };
+        const legacy = m.findQueuedOrErroredSimilarAttempt(row);
+        const newId = m.insert({ ...row, assetKey: 'k', endResult: 'queued' });
+        const fresh = m.findQueuedOrErroredSimilarAttempt({ ...row, assetKey: 'k' });
+        m.closeDb();
+        m.initDb();
+        m.closeDb();
+        console.log(JSON.stringify({ legacyId: legacy?.id, legacyKey: legacy?.assetKey, newId, freshId: fresh?.id }));
+      `;
+      const output = execFileSync(process.execPath, ['--input-type=module', '-e', script], {
+        env: { ...process.env, BUILD_SERVER_DB_PATH: dbPath },
+        cwd: path.dirname(fileURLToPath(import.meta.url)),
+        encoding: 'utf8',
+      });
+      const result = JSON.parse(output.trim().split('\n').pop());
+      assert.equal(result.legacyId, 1);
+      assert.equal(result.legacyKey, '');
+      assert.equal(result.freshId, result.newId);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
   });
 });

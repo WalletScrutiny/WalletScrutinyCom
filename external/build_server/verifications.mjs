@@ -33,9 +33,14 @@ import {
   getAssetFileEntries,
   pickScriptBinaryEntry,
   isAssetBundleRegistrationKind,
+  getAssetAttemptKey,
 } from './asset-utils.mjs';
 import { buildScriptExecutionEnv } from './script-env.mjs';
 import { describeVersionOverride, resolveAndroidWalletVersion } from './apk-version.mjs';
+
+// Verdicts a build script may write to COMPARISON_RESULTS.yaml. Each one is
+// published to Nostr, whatever the script's exit code was.
+const PUBLISHABLE_VERDICTS = ['reproducible', 'not_reproducible', 'ftbfs'];
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -305,6 +310,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
+    const assetKey = getAssetAttemptKey(asset) ?? '';
     const verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
     if (verificationCandidates.length === 0) {
       appLog.debug(`   no script to reproduce appId=${appId}, version=${version}, and platform=${platform} found`);
@@ -329,7 +335,8 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
             version,
             arch: architecture ?? '',
             type: type ?? '',
-            buildScriptEventId: candidate.buildShFileEvent.id
+            buildScriptEventId: candidate.buildShFileEvent.id,
+            assetKey
           });
         if (!erroredAttempt) {
           if (forceRebuild) {
@@ -386,7 +393,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     const queueNextVerificationCandidate = async (startIndex = 0) => {
       const nextVerificationCandidate = getNextVerificationCandidate(startIndex, { architecture, type });
       if (!nextVerificationCandidate) {
-        appLog.info(`   all scripts to reproduce appId=${appId}, version=${version}, and platform=${platform} already had an error for this version; skipping asset`);
+        appLog.info(`   all scripts to reproduce appId=${appId}, version=${version}, and platform=${platform} already had an error for this asset (assetKey=${assetKey}); skipping asset`);
         return;
       }
 
@@ -405,6 +412,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
         fileEventIdsForSHFiles: [candidate.buildShFileEvent.id],
         fileHash,
         assetHashes,
+        assetKey,
         verificationHash,
         jobType: 'asset',
         asset,
@@ -533,6 +541,7 @@ export async function addJobToQueue({
   fileEventIdsForSHFiles,
   fileHash,
   assetHashes,
+  assetKey,
   verificationHash,
   jobType,
   asset,
@@ -578,6 +587,7 @@ export async function addJobToQueue({
     type: type ?? '',
     verificationId: verification.id,
     buildScriptEventId: buildShFileEvent?.id ?? '',
+    assetKey: assetKey ?? '',
     endResult: 'queued'
   };
 
@@ -594,7 +604,7 @@ export async function addJobToQueue({
   }
 
   const dbVerificationRowId = insertVerificationRow(verificationAttemptRow);
-  appLog.info(`[QUEUE_INFO] Added verification row to database before queueing job: rowId=${dbVerificationRowId}, verificationId=${verification.id}, buildScriptEventId=${buildShFileEvent?.id ?? ''}`);
+  appLog.info(`[QUEUE_INFO] Added verification row to database before queueing job: rowId=${dbVerificationRowId}, verificationId=${verification.id}, buildScriptEventId=${buildShFileEvent?.id ?? ''}, assetKey=${assetKey ?? ''}`);
 
   appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptPathForLog} ***`);
   const markVerificationAttemptAsError = () => {
@@ -870,8 +880,25 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       if (stderrStr) {
         appLog.warn(`[QUEUE_INFO] child close stderr (first 500 chars). ${jobInfo} -> ${stderrStr.slice(0, 500)}`);
       }
+      const compilationResult = {
+        castFileName: castFileName,
+        finalScriptExecutionCommand: finalScriptExecutionCommand,
+        buildDirForThisVerification: buildDirForThisVerification
+      };
+      const scriptFailed = (recordedScriptExitCode !== null && recordedScriptExitCode !== 0) || code !== 0;
+      // Scripts commonly exit non-zero after writing verdict ftbfs (or
+      // not_reproducible). That verdict is the result of the job and must be
+      // published, not treated as a server-side error.
+      const writtenVerdict = !signal && scriptFailed
+        ? readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type)?.verdict
+        : null;
       if (signal) {
         done(Object.assign(new Error(`Process killed: ${signal}`), { code: null, signal }), null);
+      } else if (PUBLISHABLE_VERDICTS.includes(writtenVerdict)) {
+        appLog.info(
+          `[QUEUE_INFO] Script exited with code ${recordedScriptExitCode ?? code} but wrote verdict ${writtenVerdict}; publishing it. ${jobInfo}`
+        );
+        done(null, compilationResult);
       } else if (recordedScriptExitCode !== null && recordedScriptExitCode !== 0) {
         done(
           Object.assign(
@@ -883,11 +910,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       } else if (code !== 0) {
         done(Object.assign(new Error(`Process exited with code ${code}${stderrStr ? `: ${stderrStr.slice(0, 200)}` : ''}`), { code, signal: null }), null);
       } else {
-        done(null, {
-          castFileName: castFileName,
-          finalScriptExecutionCommand: finalScriptExecutionCommand,
-          buildDirForThisVerification: buildDirForThisVerification
-        });
+        done(null, compilationResult);
       }
     });
     child.on('error', err => {
@@ -911,7 +934,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
   const { verdict, scriptVersion, notes } = comparisonResults;
 
-  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(verdict)) {
+  if (!PUBLISHABLE_VERDICTS.includes(verdict)) {
     appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Verdict ${verdict} is not in the list of allowed verdicts`);
     return null;
@@ -987,6 +1010,6 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')}`);
   }
 }

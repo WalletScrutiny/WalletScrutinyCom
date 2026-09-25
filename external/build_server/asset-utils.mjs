@@ -1,3 +1,4 @@
+import { createHash } from 'crypto';
 import { assetBundleRegistrationKind } from './nostr-constants.mjs';
 
 export function isAssetBundleRegistrationKind(kind) {
@@ -71,6 +72,25 @@ export function getAssetBundleDedupKey(asset) {
     return null;
   }
   return `bundle:${hashes.join(':')}`;
+}
+
+/**
+ * Key identifying the exact set of files a build attempt was made for: the
+ * file hash for a single-file asset, or the sha256 of the sorted file hashes
+ * (comma-joined) when the asset has several files, e.g. split APKs. Two
+ * registrations of the same version with different split sets get different
+ * keys, so a failed attempt on one does not block the other.
+ * @returns {string|null}
+ */
+export function getAssetAttemptKey(asset) {
+  const hashes = getAssetFileEntries(asset).map(entry => entry.hash).sort();
+  if (hashes.length === 0) {
+    return null;
+  }
+  if (hashes.length === 1) {
+    return hashes[0];
+  }
+  return createHash('sha256').update(hashes.join(',')).digest('hex');
 }
 
 export function getLegacyAssetLookupHash(asset) {
