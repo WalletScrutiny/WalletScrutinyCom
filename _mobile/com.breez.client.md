@@ -30,6 +30,8 @@ redirect_from:
 - /iphone/technology.breez.client/
 android:
   appId: com.breez.client
+  alternativeStores:
+  - zapstore
   users: 50000
   appCountry: us
   updated: 2025-01-14

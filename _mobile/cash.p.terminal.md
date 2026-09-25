@@ -29,6 +29,7 @@ android:
   icon: cash.p.terminal.webp
   alternativeStores:
   - fdroid
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: PirateCash and Cosanta foundation

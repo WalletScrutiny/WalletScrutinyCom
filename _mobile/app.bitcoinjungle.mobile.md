@@ -18,6 +18,8 @@ redirect_from:
 - /iphone/app.bitcoinjungle.ios/
 android:
   appId: app.bitcoinjungle.mobile
+  alternativeStores:
+  - zapstore
   users: 5000
   appCountry: us
   released: 2021-12-05

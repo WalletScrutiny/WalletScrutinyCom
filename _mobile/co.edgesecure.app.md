@@ -25,6 +25,8 @@ redirect_from:
 - /iphone/co.edgesecure.app/
 android:
   appId: co.edgesecure.app
+  alternativeStores:
+  - zapstore
   users: 500000
   appCountry: us
   released: 2018-03-01

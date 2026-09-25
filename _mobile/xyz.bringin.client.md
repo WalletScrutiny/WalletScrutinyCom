@@ -13,6 +13,8 @@ features:
 - ln
 android:
   appId: xyz.bringin.client
+  alternativeStores:
+  - zapstore
   users: 1000
   appCountry: us
   released: 2025-08-31

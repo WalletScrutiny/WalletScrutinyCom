@@ -24,6 +24,7 @@ android:
   signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
   alternativeStores:
   - fdroid
+  - zapstore
   meta: removed
   verdict: sourceavailable
   developerName: Bitcoin Wallet developers

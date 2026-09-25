@@ -24,6 +24,8 @@ redirect_from:
 - /iphone/io.nunchuk.ios/
 android:
   appId: io.nunchuk.android
+  alternativeStores:
+  - zapstore
   users: 10000
   appCountry: us
   released: 2021-11-11

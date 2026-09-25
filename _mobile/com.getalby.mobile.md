@@ -19,6 +19,8 @@ redirect_from:
 - /iphone/com.getalby.mobile/
 android:
   appId: com.getalby.mobile
+  alternativeStores:
+  - zapstore
   users: 5000
   appCountry: us
   released: 2024-09-16

@@ -28,6 +28,8 @@ redirect_from:
 - /iphone/com.fotolockr.cakewallet/
 android:
   appId: com.cakewallet.cake_wallet
+  alternativeStores:
+  - zapstore
   users: 100000
   appCountry: us
   released: 2020-01-01

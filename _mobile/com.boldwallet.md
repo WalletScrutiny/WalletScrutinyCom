@@ -6,6 +6,8 @@ redirect_from:
 - /android/com.boldwallet/
 android:
   appId: com.boldwallet
+  alternativeStores:
+  - zapstore
   users: 100
   appCountry: us
   released: 2025-07-15

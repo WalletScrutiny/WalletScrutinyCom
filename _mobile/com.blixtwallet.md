@@ -16,6 +16,8 @@ redirect_from:
 - /android/com.blixtwallet/
 android:
   appId: com.blixtwallet
+  alternativeStores:
+  - zapstore
   users: 5000
   appCountry: us
   updated: 2026-02-18

@@ -29,6 +29,7 @@ android:
   signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
   alternativeStores:
   - fdroid
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Swiss Bitcoin Pay

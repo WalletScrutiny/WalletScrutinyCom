@@ -35,6 +35,7 @@ android:
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
   - fdroid
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Horizontal Systems
