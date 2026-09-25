@@ -83,14 +83,39 @@ export function describeVersionOverride(claimedVersion, apkVersion) {
 let apkParserPromise;
 
 async function loadApkParser() {
-  apkParserPromise ??= import('app-info-parser/src/apk.js').then(module => module.default);
+  apkParserPromise ??= Promise.all([
+    import('app-info-parser/src/apk.js'),
+    import('app-info-parser/src/xml-parser/manifest.js'),
+  ]).then(([apk, manifest]) => ({ ApkParser: apk.default, ManifestXmlParser: manifest.default }));
   return apkParserPromise;
+}
+
+/**
+ * app-info-parser strips every character outside [\w\d-.] from versionName while reading
+ * the binary manifest, so "2026.11.2 (1)" came out as "2026.11.21". It does that by writing
+ * into its string pool, so hand it a pool that ignores writes once it has been read.
+ */
+function parseManifestWithRawVersionName(ManifestXmlParser, buffer) {
+  const manifestParser = new ManifestXmlParser(buffer, {
+    ignore: ['application.activity', 'application.service', 'application.receiver', 'application.provider', 'permission-group'],
+  });
+  const xmlParser = manifestParser.xmlParser;
+  const readStringPool = xmlParser.readStringPool;
+  xmlParser.readStringPool = function (...args) {
+    this.strings = this.rawStrings ?? this.strings;
+    const result = readStringPool.apply(this, args);
+    this.rawStrings = this.strings;
+    this.strings = new Proxy(this.rawStrings, { set: () => true });
+    return result;
+  };
+  return manifestParser.parse();
 }
 
 export async function parseApkVersionName(apkPath) {
   try {
-    const ApkParser = await loadApkParser();
+    const { ApkParser, ManifestXmlParser } = await loadApkParser();
     const parser = new ApkParser(apkPath);
+    parser._parseManifest = buffer => parseManifestWithRawVersionName(ManifestXmlParser, buffer);
     const info = await parser.parse();
     return normalizeVersionName(info?.versionName);
   } catch (error) {
