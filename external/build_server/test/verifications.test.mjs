@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue } from '../verifications.mjs';
+import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -272,5 +272,134 @@ describe('downloadFileFromBlossom', () => {
     assert.equal(result.success, false);
     assert.match(result.error, /^Stream failed:/);
     assert.equal(fs.existsSync(destination), false);
+  });
+});
+
+describe('startCompilationJob exit codes', () => {
+  // Stand-in for `asciinema rec --overwrite -c <command> <castFile>`: runs the
+  // command without its sleeps and writes its output to the cast file, which
+  // is where the real recorder leaves the scriptrc= marker.
+  function installFakeAsciinema() {
+    const binDir = makeTempDir('fake-asciinema-bin');
+    const fake = path.join(binDir, 'asciinema');
+    fs.writeFileSync(fake, [
+      '#!/bin/sh',
+      'cmd=$(printf "%s" "$4" | sed -e "s/sleep [0-9]* *;//g")',
+      'sh -c "$cmd" > "$5" 2>&1',
+      '',
+    ].join('\n'), { mode: 0o755 });
+    const originalPath = process.env.PATH;
+    process.env.PATH = `${binDir}:${originalPath}`;
+    return () => { process.env.PATH = originalPath; };
+  }
+
+  function writeScript(dir, body) {
+    const script = path.join(dir, 'test_build.sh');
+    fs.writeFileSync(script, `#!/bin/sh\n${body}\n`, { mode: 0o755 });
+    return script;
+  }
+
+  test('resolves when the script exits non-zero after writing verdict ftbfs', async () => {
+    const restorePath = installFakeAsciinema();
+    try {
+      const buildDir = makeTempDir('ftbfs-exit-1');
+      const script = writeScript(buildDir, 'printf "verdict: ftbfs\\n" > COMPARISON_RESULTS.yaml\nexit 1');
+
+      const result = await startCompilationJob(buildDir, script, '1.0.0', null, null, null, 'android', 'com.example');
+
+      assert.equal(result.buildDirForThisVerification, buildDir);
+      assert.equal(readComparisonResults(buildDir).verdict, 'ftbfs');
+    } finally {
+      restorePath();
+    }
+  });
+
+  test('rejects when the script exits non-zero without writing a verdict', async () => {
+    const restorePath = installFakeAsciinema();
+    try {
+      const buildDir = makeTempDir('no-verdict-exit-1');
+      const script = writeScript(buildDir, 'exit 3');
+
+      await assert.rejects(
+        startCompilationJob(buildDir, script, '1.0.0', null, null, null, 'android', 'com.example'),
+        /exited with code 3/
+      );
+    } finally {
+      restorePath();
+    }
+  });
+
+  test('rejects when the script writes a verdict the server does not publish', async () => {
+    const restorePath = installFakeAsciinema();
+    try {
+      const buildDir = makeTempDir('bad-verdict-exit-1');
+      const script = writeScript(buildDir, 'printf "verdict: maybe\\n" > COMPARISON_RESULTS.yaml\nexit 1');
+
+      await assert.rejects(
+        startCompilationJob(buildDir, script, '1.0.0', null, null, null, 'android', 'com.example'),
+        /exited with code 1/
+      );
+    } finally {
+      restorePath();
+    }
+  });
+});
+
+describe('addJobToQueue asset key', () => {
+  const EN_SET = 'e'.repeat(64);
+  const ES_SET = 'f'.repeat(64);
+
+  function assetJobArgs(overrides = {}) {
+    return {
+      verification: { id: 'verif-1' },
+      appId: 'world.bitkey.app',
+      platform: 'android',
+      newWalletVersion: '2026.11.2 (1)',
+      architecture: null,
+      type: null,
+      fileEventIdsForSHFiles: [],
+      jobType: 'asset',
+      assetKey: EN_SET,
+      buildShFileEvent: {
+        id: 'script-1',
+        content: Buffer.from('#!/bin/bash\nexit 0').toString('base64'),
+      },
+      githubToken: 'token',
+      ...overrides,
+    };
+  }
+
+  function attemptRow(overrides = {}) {
+    return {
+      appId: 'world.bitkey.app',
+      platform: 'android',
+      version: '2026.11.2 (1)',
+      arch: '',
+      type: '',
+      verificationId: 'verif-1',
+      buildScriptEventId: 'script-1',
+      ...overrides,
+    };
+  }
+
+  test('queues a second file set of a version whose first set errored', async () => {
+    closeDb();
+    initDb();
+    queue.pause();
+    try {
+      const erroredId = insert(attemptRow({ assetKey: EN_SET, endResult: 'error' }));
+
+      await addJobToQueue(assetJobArgs());
+      assert.equal(findQueuedOrErroredSimilarAttempt(attemptRow({ assetKey: EN_SET })).id, erroredId);
+
+      await addJobToQueue(assetJobArgs({ assetKey: ES_SET }));
+      const queued = findQueuedOrErroredSimilarAttempt(attemptRow({ assetKey: ES_SET }));
+      assert.ok(queued);
+      assert.equal(queued.endResult, 'queued');
+      assert.equal(queued.assetKey, ES_SET);
+    } finally {
+      queue.clear();
+      queue.start();
+    }
   });
 });

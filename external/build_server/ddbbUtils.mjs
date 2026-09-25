@@ -26,6 +26,7 @@ export function initDb() {
       type TEXT NOT NULL,
       verificationId TEXT NOT NULL,
       buildScriptEventId TEXT NOT NULL,
+      assetKey TEXT NOT NULL DEFAULT '',
       endResult TEXT NOT NULL,
       createdAt TEXT DEFAULT (datetime('now')),
       updatedAt TEXT DEFAULT (datetime('now'))
@@ -35,6 +36,16 @@ export function initDb() {
     CREATE INDEX IF NOT EXISTS idx_verifications_verification_id
       ON verifications(verificationId);
   `);
+  // Databases created before assetKey existed. Their rows keep assetKey = ''
+  // and only ever match lookups that have no asset (release builds).
+  const columns = db.prepare('PRAGMA table_info(verifications)').all();
+  if (!columns.some(column => column.name === 'assetKey')) {
+    db.exec("ALTER TABLE verifications ADD COLUMN assetKey TEXT NOT NULL DEFAULT ''");
+  }
+  db.exec(`
+    CREATE INDEX IF NOT EXISTS idx_verifications_asset_key
+      ON verifications(appId, platform, assetKey);
+  `);
   return db;
 }
 
@@ -42,24 +53,38 @@ function getDb() {
   return initDb();
 }
 
+// assetKey identifies the exact file set of an asset build (see
+// getAssetAttemptKey). Release builds have no asset and use ''.
+function withAssetKey(row) {
+  return { ...row, assetKey: row.assetKey ?? '' };
+}
+
+// An asset build is the same build when it is for the same file set, whatever
+// version tag the registration claims; the same version can be registered with
+// different files (e.g. another language split). Release builds have no files,
+// so they are keyed by version.
+const SAME_TARGET = `
+      ((@assetKey = '' AND assetKey = '' AND version = @version)
+        OR (@assetKey <> '' AND assetKey = @assetKey))`;
+
 /**
  * Insert a new verification record.
- * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, endResult }
+ * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey?, endResult }
  * @returns {number} The inserted row id
  */
 export function insert(row) {
   const database = getDb();
   const stmt = database.prepare(`
-    INSERT INTO verifications (appId, platform, version, arch, type, verificationId, buildScriptEventId, endResult)
-    VALUES (@appId, @platform, @version, @arch, @type, @verificationId, @buildScriptEventId, @endResult)
+    INSERT INTO verifications (appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey, endResult)
+    VALUES (@appId, @platform, @version, @arch, @type, @verificationId, @buildScriptEventId, @assetKey, @endResult)
   `);
-  const result = stmt.run(row);
+  const result = stmt.run(withAssetKey(row));
   return result.lastInsertRowid;
 }
 
 /**
  * Find a queued or errored verification attempt with the same build inputs.
- * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId }
+ * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey? }
  * @returns {Object|undefined}
  */
 export function findQueuedOrErroredSimilarAttempt(row) {
@@ -69,7 +94,7 @@ export function findQueuedOrErroredSimilarAttempt(row) {
     FROM verifications
     WHERE appId = @appId
       AND platform = @platform
-      AND version = @version
+      AND ${SAME_TARGET}
       AND arch = @arch
       AND type = @type
       AND verificationId = @verificationId
@@ -78,14 +103,15 @@ export function findQueuedOrErroredSimilarAttempt(row) {
     ORDER BY id DESC
     LIMIT 1
   `);
-  return stmt.get(row);
+  return stmt.get(withAssetKey(row));
 }
 
 /**
  * Find the latest failed attempt that used a given build script event for the
- * same build target (app, platform, version, arch, type). A script that failed
- * for one wallet version must still be tried for a newer version.
- * @param {Object} row - { appId, platform, version, arch, type, buildScriptEventId }
+ * same build target (app, platform, arch, type, and the asset's file set or,
+ * for release builds, the version). A script that failed for one wallet
+ * version or file set must still be tried for another.
+ * @param {Object} row - { appId, platform, version, arch, type, buildScriptEventId, assetKey? }
  * @returns {Object|undefined}
  */
 export function findErroredAttemptForBuildScript(row) {
@@ -95,7 +121,7 @@ export function findErroredAttemptForBuildScript(row) {
     FROM verifications
     WHERE appId = @appId
       AND platform = @platform
-      AND version = @version
+      AND ${SAME_TARGET}
       AND arch = @arch
       AND type = @type
       AND buildScriptEventId = @buildScriptEventId
@@ -103,7 +129,7 @@ export function findErroredAttemptForBuildScript(row) {
     ORDER BY id DESC
     LIMIT 1
   `);
-  return stmt.get(row);
+  return stmt.get(withAssetKey(row));
 }
 
 /**
