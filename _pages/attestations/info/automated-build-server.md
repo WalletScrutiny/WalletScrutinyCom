@@ -84,7 +84,7 @@ permalink: /automated-build-server/
 <section class="guide-section" id="recognizing-abs">
   <h2>Recognizing ABS verifications</h2>
 
-  <p>Automatic verifications are published by the <strong>WalletScrutiny Bot</strong>. Their description contains <em>"Automatic verification by WalletScrutiny Build Server"</em>, preceded by the description of the asset registration it verified (for example who uploaded the file and from where) and they reference the human verification whose <code>build.sh</code> script was reused. The terminal recording of the run is attached as an asciicast file.</p>
+  <p>Automatic verifications are published by the <strong>WalletScrutiny Bot</strong>. Their description starts with <em>"Automatic verification by WalletScrutiny Build Server"</em> and they reference the human verification whose <code>build.sh</code> script was reused. The terminal recording of the run is attached as an asciicast file.</p>
 
   <p>To view verifications for a wallet, search for it using the wallet search in the navigation bar. Its verifications appear on the wallet's review page.</p>
 </section>

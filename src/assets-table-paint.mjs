@@ -191,6 +191,30 @@ function parseItemDescription(binary) {
   }
 }
 
+const collapseWhitespace = text => (typeof text === 'string' ? text.replace(/\s+/g, ' ').trim() : '');
+
+/**
+ * The asset registration says where the binary came from and who uploaded it; the newest
+ * verification says who verified it. Show both, as "<asset> - <verification>".
+ * items are newest first.
+ */
+export function getRowDescription(items) {
+  const asset = items.find(isAssetRegistrationEvent);
+  const verification = items.find(item => !isAssetRegistrationEvent(item));
+  const assetText = asset ? collapseWhitespace(parseItemDescription(asset)) : '';
+  let verificationText = verification ? collapseWhitespace(parseItemDescription(verification)) : '';
+  // Build server verifications published between 2026-09-25 and the revert already
+  // carry the asset text in front of their own.
+  if (assetText && verificationText) {
+    if (assetText.startsWith(verificationText)) {
+      verificationText = '';
+    } else if (verificationText.startsWith(assetText)) {
+      verificationText = verificationText.slice(assetText.length).replace(/^\s*-\s*/, '');
+    }
+  }
+  return [assetText, verificationText].filter(Boolean).join(' - ');
+}
+
 function getVerificationStatusModifier(status) {
   switch (status) {
     case 'reproducible':
@@ -617,7 +641,7 @@ export function paintMainAssetsTable({
         hasAssetsLocal = true;
       }
 
-      const itemDescription = parseItemDescription(binary);
+      const itemDescription = getRowDescription(item.items);
       const lookupHashes = getRowLookupHashes(item, verificationLookupHash);
       const attestations = selectCurrentRowVerifications(
         collectAttestationsForHashes(lookupHashes)
