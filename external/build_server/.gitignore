@@ -2,6 +2,7 @@ node_modules/
 scripts/*
 !scripts/build-server-safe-rmdir.sh
 !scripts/cleanup-old-build-dirs.sh
+!scripts/verifications-db.mjs
 *.log
 .tmp/
 temp/

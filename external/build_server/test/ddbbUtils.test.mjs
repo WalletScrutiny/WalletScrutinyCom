@@ -20,6 +20,9 @@ import {
   findErroredAttemptForBuildScript,
   markStaleQueuedAttemptsAsInterrupted,
   update,
+  listByApp,
+  getById,
+  deleteById,
 } from '../ddbbUtils.mjs';
 
 function baseRow(overrides = {}) {
@@ -189,6 +192,106 @@ describe('asset attempts are keyed by file set, not version', () => {
     insert(baseRow({ buildScriptEventId: 'bs-1', assetKey: EN_SET, endResult: 'error' }));
 
     assert.equal(findErroredAttemptForBuildScript(baseRow({ buildScriptEventId: 'bs-1' })), undefined);
+  });
+});
+
+describe('listByApp and deleteById', () => {
+  test('lists an app oldest first, optionally narrowed to one version', () => {
+    const first = insert(baseRow({ version: '1.0.0' }));
+    const second = insert(baseRow({ version: '2.0.0', endResult: 'error' }));
+    const third = insert(baseRow({ version: '1.0.0', buildScriptEventId: 'script-2' }));
+    insert(baseRow({ appId: 'com.other' }));
+
+    assert.deepEqual(listByApp('com.example').map(row => row.id), [first, second, third]);
+    assert.deepEqual(listByApp('com.example', '1.0.0').map(row => row.id), [first, third]);
+    assert.deepEqual(listByApp('com.example', '3.0.0'), []);
+    assert.deepEqual(listByApp('com.missing'), []);
+  });
+
+  test('deleting the errored row lets the same build script be tried again', () => {
+    const id = insert(baseRow({ endResult: 'error' }));
+    assert.equal(findErroredAttemptForBuildScript(baseRow()).id, id);
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow()).id, id);
+
+    assert.equal(deleteById(id), 1);
+
+    assert.equal(getById(id), undefined);
+    assert.equal(findErroredAttemptForBuildScript(baseRow()), undefined);
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow()), undefined);
+    assert.equal(deleteById(id), 0);
+  });
+});
+
+describe('scripts/verifications-db.mjs', () => {
+  const scriptPath = fileURLToPath(new URL('../scripts/verifications-db.mjs', import.meta.url));
+  const run = (args, env = {}) => {
+    try {
+      const stdout = execFileSync(process.execPath, [scriptPath, ...args], {
+        env: { ...process.env, ...env },
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'pipe'],
+      });
+      return { status: 0, stdout, stderr: '' };
+    } catch (error) {
+      return { status: error.status, stdout: error.stdout, stderr: error.stderr };
+    }
+  };
+
+  test('lists and deletes rows of the database given with --db', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ws-verifications-cli-'));
+    const dbPath = path.join(dir, 'verifications.db');
+    try {
+      const seed = new Database(dbPath);
+      seed.exec(`
+        CREATE TABLE verifications (
+          id INTEGER PRIMARY KEY AUTOINCREMENT, appId TEXT NOT NULL, platform TEXT NOT NULL,
+          version TEXT NOT NULL, arch TEXT NOT NULL, type TEXT NOT NULL, verificationId TEXT NOT NULL,
+          buildScriptEventId TEXT NOT NULL, assetKey TEXT NOT NULL DEFAULT '', endResult TEXT NOT NULL,
+          createdAt TEXT DEFAULT (datetime('now')), updatedAt TEXT DEFAULT (datetime('now')));
+        INSERT INTO verifications (appId, platform, version, arch, type, verificationId, buildScriptEventId, endResult)
+        VALUES ('com.example', 'android', '1.0.0', '', '', 'v1', 's1', 'error'),
+               ('com.example', 'android', '2.0.0', '', '', 'v2', 's2', 'reproducible'),
+               ('com.other', 'android', '1.0.0', '', '', 'v3', 's3', 'error');
+      `);
+      seed.close();
+
+      const all = run(['--db', dbPath, 'list', 'com.example']);
+      assert.equal(all.status, 0);
+      assert.match(all.stdout, /^id\s+appId/);
+      assert.equal(all.stdout.trim().split('\n').length, 3);
+      assert.doesNotMatch(all.stdout, /com\.other/);
+
+      const one = run(['--db', dbPath, 'list', 'com.example', '2.0.0']);
+      assert.equal(one.stdout.trim().split('\n').length, 2);
+      assert.match(one.stdout, /\n2\s+com\.example\s+android\s+2\.0\.0/);
+
+      const deleted = run(['--db', dbPath, 'delete', '1']);
+      assert.equal(deleted.status, 0);
+      assert.match(deleted.stdout, /^Deleted:\n/);
+      assert.match(deleted.stdout, /\n1\s+com\.example/);
+
+      const check = new Database(dbPath, { readonly: true });
+      assert.deepEqual(check.prepare('SELECT id FROM verifications ORDER BY id').all().map(r => r.id), [2, 3]);
+      check.close();
+
+      const missingRow = run(['--db', dbPath, 'delete', '1']);
+      assert.equal(missingRow.status, 1);
+      assert.match(missingRow.stderr, /no row with id 1/);
+
+      assert.equal(run(['--db', dbPath, 'delete', 'abc']).status, 1);
+      assert.equal(run(['--db', dbPath, 'list']).status, 1);
+      assert.equal(run(['--db', dbPath, 'frobnicate']).status, 1);
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+    }
+  });
+
+  test('refuses a database path that does not exist instead of creating it', () => {
+    const missing = path.join(os.tmpdir(), `ws-no-such-db-${process.pid}.db`);
+    const result = run(['list', 'com.example'], { BUILD_SERVER_DB_PATH: missing });
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /database not found/);
+    assert.equal(fs.existsSync(missing), false);
   });
 });
 

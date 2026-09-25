@@ -178,6 +178,43 @@ export function update(id, updates) {
 }
 
 /**
+ * List verification attempts for an app, optionally for one version only.
+ * @param {string} appId
+ * @param {string} [version]
+ * @returns {Object[]} Rows, oldest first
+ */
+export function listByApp(appId, version) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    SELECT *
+    FROM verifications
+    WHERE appId = @appId
+      AND (@version IS NULL OR version = @version)
+    ORDER BY id
+  `);
+  return stmt.all({ appId, version: version ?? null });
+}
+
+/**
+ * Get one verification attempt by row id.
+ * @param {number} id
+ * @returns {Object|undefined}
+ */
+export function getById(id) {
+  return getDb().prepare('SELECT * FROM verifications WHERE id = ?').get(id);
+}
+
+/**
+ * Delete one verification attempt by row id, so the ABS no longer treats that
+ * build as already attempted.
+ * @param {number} id
+ * @returns {number} Number of rows deleted (0 or 1)
+ */
+export function deleteById(id) {
+  return getDb().prepare('DELETE FROM verifications WHERE id = ?').run(id).changes;
+}
+
+/**
  * Close the database connection. Call when shutting down the process.
  */
 export function closeDb() {
