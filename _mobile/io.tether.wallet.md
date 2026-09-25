@@ -35,7 +35,7 @@ iphone:
   released: 2026-04-14
   updated: 2026-09-14
   version: 1.10.0
-  reviews: 10
+  reviews: 11
   icon: io.tether.wallet.official.webp
   meta: ok
   verdict: nosource

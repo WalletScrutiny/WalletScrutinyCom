@@ -25,7 +25,7 @@ iphone:
   released: 2024-10-28
   updated: 2026-09-12
   version: 3.11.22
-  reviews: 63
+  reviews: 64
   icon: com.zmexglobal.app.webp
   meta: ok
   verdict: custodial

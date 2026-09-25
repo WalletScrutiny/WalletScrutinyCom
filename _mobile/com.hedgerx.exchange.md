@@ -10,8 +10,8 @@ android:
   users: 5000
   appCountry: us
   released: 2025-12-13
-  updated: 2026-07-04
-  version: 1.1.15
+  updated: 2026-09-23
+  version: 1.1.18
   icon: com.hedgerx.exchange.webp
   meta: ok
   verdict: custodial

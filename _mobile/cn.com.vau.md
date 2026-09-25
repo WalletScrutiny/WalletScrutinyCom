@@ -18,8 +18,8 @@ android:
   appCountry: cn
   released: 2019-07-06
   updated: 2026-09-17
-  version: 4.10.0
-  reviews: 9947
+  version: 4.11.0
+  reviews: 9995
   icon: cn.com.vau.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2019-07-20
   updated: 2026-09-20
   version: 4.11.0
-  reviews: 92
+  reviews: 93
   icon: com.vttech.VantageFX.webp
   meta: ok
   verdict: nosendreceive

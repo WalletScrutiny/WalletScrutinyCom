@@ -37,7 +37,7 @@ iphone:
   released: 2020-06-29
   updated: 2026-09-11
   version: 2.11.4
-  reviews: 2270
+  reviews: 2271
   icon: io.changenow.webp
   meta: ok
   verdict: nosource

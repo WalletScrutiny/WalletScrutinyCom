@@ -30,7 +30,7 @@ iphone:
   released: 2025-02-18
   updated: 2026-09-19
   version: 1.5.18
-  reviews: 278
+  reviews: 279
   icon: savo.xyz.webp
   meta: ok
   verdict: custodial

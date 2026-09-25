@@ -33,7 +33,7 @@ iphone:
   released: 2022-03-12
   updated: 2026-09-09
   version: '9.08'
-  reviews: 5630
+  reviews: 5646
   icon: com.mudrex.ios.webp
   meta: ok
   verdict: custodial

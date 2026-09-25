@@ -18,7 +18,7 @@ android:
   released: 2017-05-17
   updated: 2026-09-16
   version: 2.1.11
-  reviews: 2907
+  reviews: 2920
   icon: com.core.app.flitpay.webp
   meta: ok
   verdict: custodial

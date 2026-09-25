@@ -28,7 +28,7 @@ iphone:
   released: 2020-01-30
   updated: 2026-07-22
   version: 1.23.3
-  reviews: 5319
+  reviews: 5317
   icon: app.anchors.anchorusd.webp
   meta: ok
   verdict: custodial

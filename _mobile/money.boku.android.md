@@ -18,7 +18,7 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-17
-  updated: 2026-09-19
+  updated: 2026-09-21
   version: 1.6.11
   reviews: 24
   icon: money.boku.android.webp
@@ -30,9 +30,9 @@ iphone:
   idd: '1659648196'
   appCountry: us
   released: 2025-04-03
-  updated: 2026-09-11
-  version: 1.11.45
-  reviews: 197
+  updated: 2026-09-24
+  version: 1.11.46
+  reviews: 204
   icon: money.boku.ios.webp
   meta: ok
   verdict: nosendreceive

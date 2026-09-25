@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-09-24
-  updated: 2026-03-03
-  version: 3.7.1
+  updated: 2026-09-23
+  version: 3.17.0
   reviews: 16
   icon: xbo.mobile.app.webp
   meta: ok

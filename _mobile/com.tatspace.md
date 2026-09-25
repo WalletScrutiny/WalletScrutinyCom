@@ -32,7 +32,7 @@ iphone:
   released: 2022-06-21
   updated: 2024-01-06
   version: 1.17.6
-  reviews: 64
+  reviews: 63
   icon: com.tatspaceapp.webp
   meta: obsolete
   verdict: custodial

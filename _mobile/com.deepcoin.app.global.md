@@ -17,7 +17,7 @@ android:
   released: 2020-12-08
   updated: 2026-09-09
   version: 7.6.97
-  reviews: 31
+  reviews: 30
   icon: com.deepcoin.app.global.webp
   meta: ok
   verdict: custodial
@@ -29,7 +29,7 @@ iphone:
   released: 2022-02-26
   updated: 2026-09-07
   version: 7.6.95
-  reviews: 21
+  reviews: 22
   icon: com.dcglobal.app.webp
   meta: ok
   verdict: custodial

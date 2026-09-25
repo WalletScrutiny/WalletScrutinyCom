@@ -34,7 +34,7 @@ iphone:
   released: 2023-03-14
   updated: 2026-09-08
   version: 4.50.0
-  reviews: 12
+  reviews: 13
   icon: app.coinhubatm.wallet.webp
   meta: ok
   verdict: nosource

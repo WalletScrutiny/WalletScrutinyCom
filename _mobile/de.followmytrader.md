@@ -18,10 +18,10 @@ android:
   users: 10000
   appCountry: us
   released: 2020-03-09
-  updated: 2025-08-27
-  version: 3.6.0
+  updated: 2026-08-10
+  version: 3.6.1
   icon: de.followmytrader.webp
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: FELS Group GmbH
 iphone:

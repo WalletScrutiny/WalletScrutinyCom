@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-10-22
-  updated: 2026-07-09
-  version: 1.4.99
+  updated: 2026-09-23
+  version: 1.4.101
   icon: rs.ecd.ecd.webp
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '1643391034'
   appCountry: rs
   released: 2023-04-18
-  updated: 2026-07-09
-  version: 1.2.60
-  reviews: 119
+  updated: 2026-09-22
+  version: 1.2.62
+  reviews: 120
   icon: rs.ecd.ECD.webp
   meta: ok
   verdict: custodial

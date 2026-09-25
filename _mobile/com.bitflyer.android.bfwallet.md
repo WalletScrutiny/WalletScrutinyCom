@@ -31,7 +31,7 @@ iphone:
   released: 2016-11-18
   updated: 2026-09-16
   version: 10.1.0
-  reviews: 133140
+  reviews: 133144
   icon: jp.bitflyer.wallet.webp
   meta: ok
   verdict: custodial

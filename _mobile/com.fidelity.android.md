@@ -16,7 +16,7 @@ android:
   released: 2010-12-15
   updated: 2026-09-11
   version: '4.41'
-  reviews: 57694
+  reviews: 57713
   icon: com.fidelity.android.webp
   meta: ok
   verdict: custodial
@@ -26,9 +26,9 @@ iphone:
   idd: '348177453'
   appCountry: us
   released: 2010-02-22
-  updated: 2026-09-10
-  version: '4.41'
-  reviews: 3318040
+  updated: 2026-09-24
+  version: '4.42'
+  reviews: 3324497
   icon: com.fidelity.watchlist.webp
   meta: ok
   verdict: custodial

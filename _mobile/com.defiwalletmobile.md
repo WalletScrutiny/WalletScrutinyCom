@@ -23,7 +23,7 @@ android:
   released: 2021-12-13
   updated: 2024-06-01
   version: 1.26.2
-  reviews: 133
+  reviews: 132
   icon: com.defiwalletmobile.webp
   meta: obsolete
   verdict: nosource

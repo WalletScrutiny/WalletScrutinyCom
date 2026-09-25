@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-02-21
   updated: 2026-09-02
-  version: 4.5.14
+  version: 4.5.15
   reviews: 50
   icon: com.rekeningku.webp
   meta: ok

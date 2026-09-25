@@ -13,9 +13,9 @@ android:
   users: 1000000
   appCountry: nl
   released: 2020-08-19
-  updated: 2026-09-18
-  version: 2.125.0
-  reviews: 3692
+  updated: 2026-09-22
+  version: 2.126.1
+  reviews: 3693
   icon: com.bitvavo.android.webp
   meta: ok
   verdict: custodial

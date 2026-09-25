@@ -34,7 +34,7 @@ iphone:
   released: 2023-01-09
   updated: 2026-09-21
   version: 1.0.31
-  reviews: 13
+  reviews: 14
   icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial

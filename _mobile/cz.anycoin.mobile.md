@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-05-07
-  updated: 2026-07-13
-  version: 1.32.40
+  updated: 2026-09-22
+  version: 1.32.52
   reviews: 1
   icon: cz.anycoin.mobile.webp
   meta: ok

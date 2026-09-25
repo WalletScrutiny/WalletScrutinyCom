@@ -19,7 +19,7 @@ android:
   released: 2021-08-14
   updated: 2026-08-23
   version: 7.3.5
-  reviews: 148
+  reviews: 150
   icon: com.tabdeal.webp
   meta: ok
   verdict: custodial

@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: 'Bybit: Buy Bitcoin & Crypto'
+title: 'Bybit: New Financial Platform'
 date: 2021-02-09
 authors:
 - leo
@@ -21,9 +21,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-31
-  updated: 2026-09-14
-  version: 5.25.0
-  reviews: 7238
+  updated: 2026-09-23
+  version: 5.25.5
+  reviews: 7244
   icon: com.bybit.app.webp
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2020-01-06
   updated: 2026-09-16
   version: 5.25.5
-  reviews: 46918
+  reviews: 46927
   icon: com.bybit.app.webp
   meta: ok
   verdict: custodial

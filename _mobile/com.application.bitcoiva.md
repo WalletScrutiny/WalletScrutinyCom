@@ -14,8 +14,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-11-02
-  updated: 2026-08-12
-  version: 1.68.0
+  updated: 2026-09-19
+  version: 1.68.1
   reviews: 5
   icon: com.application.bitcoiva.webp
   meta: ok

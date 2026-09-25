@@ -11,8 +11,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-02-06
-  updated: 2025-11-10
-  version: 4.08.17.02
+  updated: 2026-09-22
+  version: 5.06.09.03
   reviews: 5
   icon: com.arzpaya.arzpaya.webp
   meta: ok

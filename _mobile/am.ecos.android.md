@@ -29,9 +29,9 @@ iphone:
   idd: '1528964374'
   appCountry: us
   released: 2020-11-25
-  updated: 2026-09-14
-  version: 3.3.2
-  reviews: 296
+  updated: 2026-09-21
+  version: 3.3.3
+  reviews: 298
   icon: am.ecos.ios.production.webp
   meta: ok
   verdict: custodial

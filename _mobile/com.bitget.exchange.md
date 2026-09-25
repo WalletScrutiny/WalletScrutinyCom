@@ -17,8 +17,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-04-03
-  updated: 2026-09-15
-  version: 2.93.2
+  updated: 2026-09-24
+  version: 2.94.0
   reviews: 1742
   icon: com.bitget.exchange.webp
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2018-11-29
   updated: 2026-09-12
   version: 2.93.1
-  reviews: 2303
+  reviews: 2307
   icon: com.bitget.exchange.global.webp
   meta: ok
   verdict: custodial

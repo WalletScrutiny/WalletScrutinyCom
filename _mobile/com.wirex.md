@@ -19,7 +19,7 @@ android:
   released: 2016-03-31
   updated: 2026-06-08
   version: 4.12.80
-  reviews: 1114
+  reviews: 1113
   icon: com.wirex.webp
   meta: ok
   verdict: custodial

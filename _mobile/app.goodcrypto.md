@@ -19,7 +19,7 @@ android:
   released: 2019-05-20
   updated: 2026-09-01
   version: 2.5.3
-  reviews: 153
+  reviews: 154
   icon: app.goodcrypto.webp
   meta: ok
   verdict: nosendreceive

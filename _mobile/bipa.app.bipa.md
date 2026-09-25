@@ -32,7 +32,7 @@ iphone:
   released: 2020-06-30
   updated: 2026-09-21
   version: 4.2.37
-  reviews: 9503
+  reviews: 9515
   icon: bipa.app.Bipa.webp
   meta: ok
   verdict: custodial

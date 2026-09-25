@@ -21,7 +21,7 @@ android:
   released: 2015-03-04
   updated: 2024-01-12
   version: '146.0'
-  reviews: 2889
+  reviews: 2888
   icon: com.plutus.wallet.webp
   meta: obsolete
   verdict: custodial

@@ -35,7 +35,7 @@ iphone:
   released: 2023-02-13
   updated: 2026-09-05
   version: 2.3.7
-  reviews: 3821
+  reviews: 3832
   icon: com.planet.toobit.webp
   meta: ok
   verdict: custodial

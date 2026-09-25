@@ -31,7 +31,7 @@ android:
   users: 100000
   appCountry: us
   released: 2015-01-01
-  updated: 2026-08-27
+  updated: 2026-09-24
   version: 5.6.1
   reviews: 151
   icon: com.greenaddress.greenbits_android_wallet.webp
@@ -49,7 +49,7 @@ iphone:
   released: 2019-03-22
   updated: 2026-08-28
   version: 5.6.1
-  reviews: 1230
+  reviews: 1231
   icon: io.blockstream.green.webp
   meta: ok
   verdict: sourceavailable

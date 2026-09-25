@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-16
-  updated: 2026-05-02
-  version: 1.0.10
+  updated: 2026-09-24
+  version: 1.0.11
   icon: com.ybit.app.webp
   meta: ok
   verdict: nosource

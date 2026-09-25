@@ -21,7 +21,7 @@ android:
   users: 500000
   appCountry: us
   released: 2019-01-29
-  updated: 2026-09-11
+  updated: 2026-09-23
   version: 4.17.5
   reviews: 678
   icon: net.bitstamp.app.webp
@@ -33,9 +33,9 @@ iphone:
   idd: 1406825640
   appCountry: us
   released: 2019-01-30
-  updated: 2026-08-04
-  version: 4.17.4
-  reviews: 7471
+  updated: 2026-09-24
+  version: '4.18'
+  reviews: 7474
   icon: net.bitstamp.webp
   meta: ok
   verdict: custodial

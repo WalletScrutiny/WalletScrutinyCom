@@ -33,7 +33,7 @@ iphone:
   released: 2022-10-04
   updated: 2026-09-02
   version: 2.1.0
-  reviews: 1316
+  reviews: 1317
   icon: com.macroblocs.cashinApp.webp
   meta: ok
   verdict: nosendreceive

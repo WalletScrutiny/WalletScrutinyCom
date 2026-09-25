@@ -21,8 +21,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-04-17
-  updated: 2026-09-18
-  version: 5.2.21
+  updated: 2026-09-23
+  version: 5.2.23
   reviews: 685
   icon: com.nicehash.metallum.webp
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1372054956'
   appCountry: us
   released: 2020-04-29
-  updated: 2026-09-21
-  version: 7.1.21
+  updated: 2026-09-24
+  version: 7.1.22
   reviews: 4570
   icon: com.nicehash.mobile.webp
   meta: ok

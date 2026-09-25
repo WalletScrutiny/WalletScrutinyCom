@@ -19,7 +19,7 @@ android:
   released: 2021-02-17
   updated: 2026-09-16
   version: 5.1.0
-  reviews: 5668
+  reviews: 5670
   icon: br.com.brasilbitcoin.webp
   meta: ok
   verdict: custodial

@@ -30,7 +30,7 @@ iphone:
   released: 2024-03-04
   updated: 2026-09-20
   version: 5.19.5
-  reviews: 209
+  reviews: 211
   icon: co.safex.org.webp
   meta: ok
   verdict: custodial

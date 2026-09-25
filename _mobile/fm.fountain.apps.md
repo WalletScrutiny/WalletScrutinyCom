@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-08-02
-  updated: 2026-08-02
-  version: 1.5.6
+  updated: 2026-09-09
+  version: 1.5.8
   reviews: 262
   icon: fm.fountain.apps.webp
   meta: ok

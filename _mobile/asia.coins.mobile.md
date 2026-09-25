@@ -21,7 +21,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-10-01
-  updated: 2026-09-08
+  updated: 2026-09-22
   version: 7.9.39.0
   reviews: 552
   icon: asia.coins.mobile.webp

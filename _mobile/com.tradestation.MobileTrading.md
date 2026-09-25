@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: us
   released: 2013-09-09
-  updated: 2026-09-15
-  version: 9.8.1
+  updated: 2026-09-22
+  version: 9.9.0
   reviews: 2068
   icon: com.tradestation.MobileTrading.webp
   meta: ok

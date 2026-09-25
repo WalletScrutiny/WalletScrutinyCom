@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2022-05-13
   updated: 2026-09-18
-  version: 3.37.2
+  version: 3.38.0
   reviews: 120
   icon: com.blofin.android.webp
   meta: ok
@@ -28,7 +28,7 @@ iphone:
   released: 2022-04-15
   updated: 2026-09-20
   version: 3.38.0
-  reviews: 1459
+  reviews: 1461
   icon: com.blofin.app.webp
   meta: ok
   verdict: nosendreceive

@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-04-30
-  updated: 2026-06-09
-  version: 3.0.6
+  updated: 2026-09-23
+  version: 3.0.7
   reviews: 88
   icon: com.bankofhodlers.mobile.webp
   meta: ok

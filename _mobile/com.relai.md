@@ -31,7 +31,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-09-09
   version: 3.19.0
-  reviews: 3501
+  reviews: 3506
   icon: ch.relai.relai.webp
   meta: ok
   verdict: nosource

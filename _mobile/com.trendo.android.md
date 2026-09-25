@@ -28,7 +28,7 @@ iphone:
   released: 2020-09-29
   updated: 2026-09-11
   version: 5.0.90
-  reviews: 100
+  reviews: 101
   icon: ios.m3.Trendo.webp
   meta: ok
   verdict: custodial

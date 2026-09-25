@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2010-06-17
-  updated: 2026-09-02
-  version: 9.9.0
+  updated: 2026-09-17
+  version: 9.10.0
   reviews: 43
   icon: com.swissquote.android.webp
   meta: ok

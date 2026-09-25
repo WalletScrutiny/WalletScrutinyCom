@@ -32,7 +32,7 @@ iphone:
   released: 2024-07-28
   updated: 2026-09-20
   version: 1.25.4
-  reviews: 216
+  reviews: 219
   icon: com.ourbit.www.webp
   meta: ok
   verdict: custodial

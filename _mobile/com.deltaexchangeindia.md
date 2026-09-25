@@ -27,7 +27,7 @@ iphone:
   released: 2024-08-16
   updated: 2026-09-20
   version: 2.29.7
-  reviews: 23021
+  reviews: 23147
   icon: app.deltaexchange.india.webp
   meta: ok
   verdict: custodial

@@ -32,7 +32,7 @@ iphone:
   released: 2023-03-20
   updated: 2026-07-20
   version: 3.11.0
-  reviews: 832
+  reviews: 831
   icon: com.peersyst.nearmobilewallet.webp
   meta: ok
   verdict: custodial

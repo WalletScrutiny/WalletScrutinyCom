@@ -20,7 +20,7 @@ android:
   released: 2019-11-21
   updated: 2026-09-15
   version: 3.68.0
-  reviews: 1187
+  reviews: 1186
   icon: com.coinjar.riemann.webp
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2015-02-04
   updated: 2026-09-15
   version: 3.68.0
-  reviews: 15258
+  reviews: 15257
   icon: com.coinjar.mobius.webp
   meta: ok
   verdict: custodial

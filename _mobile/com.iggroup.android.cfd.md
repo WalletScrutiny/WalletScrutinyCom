@@ -18,7 +18,7 @@ android:
   users: 1000000
   appCountry: br
   released: 2015-05-11
-  updated: 2026-09-16
+  updated: 2026-09-23
   version: 26.9.18
   reviews: 12
   icon: com.iggroup.android.cfd.webp
@@ -30,9 +30,9 @@ iphone:
   idd: '406492428'
   appCountry: sg
   released: 2011-01-24
-  updated: 2026-09-21
-  version: 10.3657.0
-  reviews: 3011
+  updated: 2026-09-23
+  version: 10.3665.0
+  reviews: 3013
   icon: com.igmarkets.ideal.webp
   meta: ok
   verdict: nosendreceive

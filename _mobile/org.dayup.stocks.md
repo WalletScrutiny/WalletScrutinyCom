@@ -18,7 +18,7 @@ android:
   appCountry: us
   updated: 2026-09-11
   version: 12.3.5.27
-  reviews: 41760
+  reviews: 41764
   icon: org.dayup.stocks.webp
   meta: ok
   verdict: nosendreceive
@@ -28,9 +28,9 @@ iphone:
   idd: 1179213067
   appCountry: us
   released: 2017-01-18
-  updated: 2026-09-14
-  version: 12.4.0
-  reviews: 341218
+  updated: 2026-09-23
+  version: 12.4.2
+  reviews: 341424
   icon: com.webull.trade.webp
   meta: ok
   verdict: nosendreceive

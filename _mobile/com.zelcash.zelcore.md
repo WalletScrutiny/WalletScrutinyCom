@@ -30,7 +30,7 @@ android:
   icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
-  developerName: Influx Technologies Limited
+  developerName: Influx Technologies USA
 iphone:
   appId: com.zelcash.zelcore
   idd: 1436296839

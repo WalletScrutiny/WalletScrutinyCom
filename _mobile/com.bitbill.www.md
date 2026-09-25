@@ -31,9 +31,9 @@ iphone:
   idd: '1321798216'
   appCountry: us
   released: 2018-02-07
-  updated: 2026-09-15
-  version: 4.67.1
-  reviews: 139
+  updated: 2026-09-21
+  version: 4.67.2
+  reviews: 138
   icon: com.bitbill.wallet.webp
   meta: ok
   verdict: nosource

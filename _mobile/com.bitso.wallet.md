@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-02-19
   updated: 2026-09-19
-  version: 4.24.6
+  version: 4.25.2
   reviews: 310
   icon: com.bitso.wallet.webp
   meta: ok

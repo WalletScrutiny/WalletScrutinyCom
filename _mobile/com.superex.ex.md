@@ -28,8 +28,8 @@ iphone:
   idd: '1601589888'
   appCountry: us
   released: 2022-01-04
-  updated: 2026-09-02
-  version: 2.9.40
+  updated: 2026-09-21
+  version: 2.9.41
   reviews: 181
   icon: com.superex.ex.webp
   meta: ok

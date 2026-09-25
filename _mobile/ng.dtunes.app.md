@@ -29,7 +29,7 @@ iphone:
   released: 2022-08-02
   updated: 2026-09-10
   version: 3.0.9
-  reviews: 490
+  reviews: 489
   icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive

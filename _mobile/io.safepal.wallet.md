@@ -29,7 +29,7 @@ iphone:
   released: 2021-01-11
   updated: 2026-09-20
   version: 4.11.11
-  reviews: 17086
+  reviews: 17129
   icon: walletapp.safepal.io.webp
   meta: ok
   verdict: nosource

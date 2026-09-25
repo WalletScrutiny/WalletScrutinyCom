@@ -19,7 +19,7 @@ android:
   released: 2025-04-03
   updated: 2026-08-20
   version: 1.2.9
-  reviews: 4
+  reviews: 3
   icon: prod.walletv.virgo.webp
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2025-04-02
   updated: 2026-08-27
   version: 1.2.9
-  reviews: 5
+  reviews: 6
   icon: prod.walletv.virgo.webp
   meta: ok
   verdict: nosource

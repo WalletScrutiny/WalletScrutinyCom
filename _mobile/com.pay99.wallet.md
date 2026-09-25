@@ -17,9 +17,9 @@ android:
   users: 5000000
   appCountry: br
   released: 2021-09-23
-  updated: 2026-09-11
+  updated: 2026-09-23
   version: 8.4.92
-  reviews: 10052
+  reviews: 10059
   icon: com.pay99.wallet.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-02
   updated: 2026-09-14
   version: 8.4.92
-  reviews: 1998
+  reviews: 1999
   icon: com.pay99.webp
   meta: ok
   verdict: nosendreceive

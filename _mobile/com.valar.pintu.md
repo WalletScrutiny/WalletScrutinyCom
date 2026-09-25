@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2020-01-25
   updated: 2026-09-16
-  version: 3.104.0
+  version: 3.105.0
   reviews: 191
   icon: com.valar.pintu.webp
   meta: ok

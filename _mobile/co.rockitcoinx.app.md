@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-09-20
-  updated: 2026-08-26
-  version: 3.7.16
+  updated: 2026-09-21
+  version: 3.7.17
   reviews: 201
   icon: co.rockitcoinx.app.webp
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: '1476730078'
   appCountry: us
   released: 2019-09-18
-  updated: 2026-08-27
-  version: 3.7.16
+  updated: 2026-09-21
+  version: 3.7.17
   reviews: 159
   icon: rockitcoinexchange.webp
   meta: ok

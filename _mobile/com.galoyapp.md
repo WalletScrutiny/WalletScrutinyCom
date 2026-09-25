@@ -25,7 +25,7 @@ android:
   released: 2020-11-24
   updated: 2026-08-24
   version: 3.0.31
-  reviews: 49
+  reviews: 50
   icon: com.galoyapp.webp
   meta: ok
   verdict: custodial

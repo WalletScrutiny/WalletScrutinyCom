@@ -27,7 +27,7 @@ iphone:
   released: 2024-03-22
   updated: 2025-04-03
   version: 1.13.0
-  reviews: 175
+  reviews: 176
   icon: Element-com.elementwallet.app.webp
   meta: stale
   verdict: nosource

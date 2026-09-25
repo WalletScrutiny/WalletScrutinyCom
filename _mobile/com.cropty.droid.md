@@ -30,7 +30,7 @@ iphone:
   released: 2022-08-04
   updated: 2026-03-10
   version: 1.7.4
-  reviews: 218
+  reviews: 219
   icon: com.cropty.app.webp
   meta: ok
   verdict: custodial

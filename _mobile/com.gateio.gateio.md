@@ -18,9 +18,9 @@ android:
   users: 10000000
   appCountry: id
   released: 2017-11-03
-  updated: 2026-09-16
+  updated: 2026-09-23
   version: 8.37.0
-  reviews: 7255
+  reviews: 7257
   icon: com.gateio.gateio.webp
   meta: ok
   verdict: custodial

@@ -32,7 +32,7 @@ iphone:
   released: 2014-06-22
   updated: 2022-03-23
   version: 4.18.0
-  reviews: 12166
+  reviews: 12165
   icon: org.voisine.breadwallet.webp
   meta: obsolete
   verdict: nosource

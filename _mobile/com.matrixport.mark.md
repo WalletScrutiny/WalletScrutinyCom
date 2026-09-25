@@ -32,7 +32,7 @@ iphone:
   released: 2019-11-25
   updated: 2026-09-20
   version: 4.7.70
-  reviews: 58
+  reviews: 59
   icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial

@@ -31,7 +31,7 @@ iphone:
   released: 2021-01-27
   updated: 2026-09-21
   version: 3.0.55
-  reviews: 1121
+  reviews: 1122
   icon: com.giottus.app.webp
   meta: ok
   verdict: nosource

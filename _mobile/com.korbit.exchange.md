@@ -27,7 +27,7 @@ iphone:
   released: 2018-10-18
   updated: 2026-09-17
   version: 11.17.5
-  reviews: 634
+  reviews: 636
   icon: com.korbit.exchange.webp
   meta: ok
   verdict: custodial

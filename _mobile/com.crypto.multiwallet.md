@@ -22,9 +22,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-01
-  updated: 2026-09-18
-  version: 3.2.2
-  reviews: 564
+  updated: 2026-09-21
+  version: 3.2.4
+  reviews: 566
   icon: com.crypto.multiwallet.webp
   meta: ok
   verdict: nosource
@@ -34,9 +34,9 @@ iphone:
   idd: 1442083982
   appCountry: us
   released: 2018-12-01
-  updated: 2026-09-12
-  version: 3.2.2
-  reviews: 951
+  updated: 2026-09-23
+  version: 3.2.4
+  reviews: 953
   icon: com.crypto.multiwallet.webp
   meta: ok
   verdict: nosource

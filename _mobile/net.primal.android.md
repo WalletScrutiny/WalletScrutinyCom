@@ -29,7 +29,7 @@ iphone:
   released: 2023-12-01
   updated: 2026-09-03
   version: 3.5.61
-  reviews: 932
+  reviews: 933
   icon: net.primal.iosapp.Primal.webp
   meta: ok
   verdict: custodial

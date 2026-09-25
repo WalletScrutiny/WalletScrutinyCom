@@ -15,8 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-03-10
-  updated: 2026-08-18
-  version: 1.61.0
+  updated: 2026-09-24
+  version: 1.62.1
   icon: com.hoyabit.cex.webp
   meta: ok
   verdict: custodial

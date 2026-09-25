@@ -12,8 +12,8 @@ iphone:
   idd: '1521814069'
   appCountry: us
   released: 2020-07-21
-  updated: 2026-08-13
-  version: 2.6.607
+  updated: 2026-09-24
+  version: 2.6.609
   reviews: 4
   icon: co.copper.custody.webp
   meta: ok

@@ -30,9 +30,9 @@ iphone:
   idd: '1644159531'
   appCountry: ar
   released: 2022-12-07
-  updated: 2026-09-02
-  version: 2.29.0
-  reviews: 444
+  updated: 2026-09-21
+  version: 2.36.0
+  reviews: 447
   icon: com.letsbit.app.webp
   meta: ok
   verdict: custodial

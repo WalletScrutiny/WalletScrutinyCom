@@ -27,9 +27,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-07-02
-  updated: 2026-08-19
+  updated: 2026-09-24
   version: 4.15.1
-  reviews: 562
+  reviews: 563
   icon: com.ellipal.wallet.webp
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   released: 2018-08-25
   updated: 2026-08-24
   version: 4.15.1
-  reviews: 2956
+  reviews: 2957
   icon: com.Ellipal.Ellipal.webp
   meta: ok
   verdict: nosource

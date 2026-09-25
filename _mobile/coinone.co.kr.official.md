@@ -1,6 +1,6 @@
 ---
 wsId: coinOneKr
-title: 코인원 - 12년 보안 무사고, 안전한 가상자산 거래소
+title: '코인원: 수수료 무료 바우처 지급, 12년 보안 무사고'
 date: 2021-08-21
 authors:
 - danny

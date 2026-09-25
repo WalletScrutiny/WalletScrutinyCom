@@ -24,7 +24,7 @@ android:
   released: 2020-08-20
   updated: 2026-09-11
   version: 4.3.7
-  reviews: 671
+  reviews: 672
   icon: com.bitoasis.webp
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2020-07-06
   updated: 2026-09-16
   version: 2.4.7
-  reviews: 4496
+  reviews: 4497
   icon: net.bitoasis.ios.com.webp
   meta: ok
   verdict: custodial

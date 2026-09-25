@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: in
   released: 2020-08-20
-  updated: 2026-09-09
-  version: 1.14.1
+  updated: 2026-09-23
+  version: 1.14.2
   icon: com.coinmotion.webp
   meta: ok
   verdict: custodial

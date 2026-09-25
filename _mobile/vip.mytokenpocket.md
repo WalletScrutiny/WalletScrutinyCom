@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2018-06-29
-  updated: 2026-09-21
-  version: 2.28.1
+  updated: 2026-09-24
+  version: 2.29.0
   reviews: 633
   icon: vip.mytokenpocket.webp
   meta: ok
@@ -32,9 +32,9 @@ iphone:
   idd: '6444625622'
   appCountry: us
   released: 2023-01-04
-  updated: 2026-09-21
-  version: 2.29.0
-  reviews: 737
+  updated: 2026-09-25
+  version: 2.30.0
+  reviews: 736
   icon: com.global.wallet.ios.webp
   meta: ok
   verdict: obfuscated

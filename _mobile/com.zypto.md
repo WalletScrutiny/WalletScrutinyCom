@@ -26,7 +26,7 @@ android:
   released: 2024-04-26
   updated: 2026-08-29
   version: 1.29.0
-  reviews: 42
+  reviews: 43
   icon: com.zypto.webp
   meta: ok
   verdict: nosource
@@ -38,7 +38,7 @@ iphone:
   released: 2024-06-04
   updated: 2026-09-07
   version: 1.29.0
-  reviews: 55
+  reviews: 56
   icon: com.zypto.zypto.webp
   meta: ok
   verdict: nosource

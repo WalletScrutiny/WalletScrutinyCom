@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-27
-  updated: 2026-08-24
-  version: 6.5.3
+  updated: 2026-09-23
+  version: 6.6.0
   reviews: 100
   icon: so.onekey.app.wallet.webp
   meta: ok

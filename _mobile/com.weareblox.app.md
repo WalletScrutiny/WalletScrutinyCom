@@ -32,7 +32,7 @@ iphone:
   released: 2019-01-16
   updated: 2026-06-19
   version: 6.8.3
-  reviews: 5662
+  reviews: 5665
   icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive

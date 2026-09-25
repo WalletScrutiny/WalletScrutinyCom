@@ -20,7 +20,7 @@ android:
   released: 2019-10-16
   updated: 2026-09-07
   version: 8.0.0
-  reviews: 919
+  reviews: 918
   icon: com.vita_wallet.webp
   meta: ok
   verdict: custodial

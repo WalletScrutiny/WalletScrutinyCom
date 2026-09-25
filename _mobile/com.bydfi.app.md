@@ -22,9 +22,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-01-20
-  updated: 2026-07-30
-  version: 3.9.9
-  reviews: 436
+  updated: 2026-09-10
+  version: 4.0.1
+  reviews: 438
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial
@@ -34,9 +34,9 @@ iphone:
   idd: '6444251506'
   appCountry: us
   released: 2023-02-09
-  updated: 2026-07-30
-  version: 3.9.9
-  reviews: 1208
+  updated: 2026-09-22
+  version: 4.0.1
+  reviews: 1212
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial

@@ -17,7 +17,7 @@ android:
   users: 500000
   appCountry: us
   updated: 2026-09-18
-  version: 5.21.6
+  version: 5.21.10
   icon: com.bybit.eu.webp
   meta: ok
   verdict: custodial

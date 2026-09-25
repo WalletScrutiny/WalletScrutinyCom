@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-03-01
-  updated: 2026-09-11
-  version: 5.26.0
+  updated: 2026-09-18
+  version: 5.27.0
   reviews: 28
   icon: casa.keymaster.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: 1314586706
   appCountry: us
   released: 2018-08-02
-  updated: 2026-09-15
-  version: 5.26.0
+  updated: 2026-09-21
+  version: 5.27.0
   reviews: 1249
   icon: com.casa.vault.webp
   meta: ok

@@ -32,8 +32,8 @@ android:
   appCountry: us
   released: 2020-01-01
   updated: 2026-09-20
-  version: 6.4.4
-  reviews: 673
+  version: 6.4.5
+  reviews: 674
   icon: com.cakewallet.cake_wallet.webp
   meta: ok
   verdict: sourceavailable
@@ -46,7 +46,7 @@ iphone:
   released: 2018-01-19
   updated: 2026-09-20
   version: 6.4.5
-  reviews: 4213
+  reviews: 4216
   icon: com.fotolockr.cakewallet.webp
   meta: ok
   verdict: sourceavailable

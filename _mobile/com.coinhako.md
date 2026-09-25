@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-05-06
-  updated: 2026-09-21
-  version: 5.30.3
+  updated: 2026-09-23
+  version: 5.31.1
   reviews: 22
   icon: com.coinhako.webp
   meta: ok
@@ -34,8 +34,8 @@ iphone:
   idd: 1137855704
   appCountry: us
   released: 2016-09-04
-  updated: 2026-09-11
-  version: 5.30.2
+  updated: 2026-09-23
+  version: 5.31.0
   reviews: 31
   icon: com.coinhako.app.webp
   meta: ok

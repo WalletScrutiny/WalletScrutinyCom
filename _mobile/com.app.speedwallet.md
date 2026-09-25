@@ -23,7 +23,7 @@ android:
   released: 2023-06-18
   updated: 2026-09-18
   version: 2.5.9.0.0.2.fp.gps
-  reviews: 1684
+  reviews: 1704
   icon: com.app.speedwallet.webp
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2023-08-24
   updated: 2026-09-18
   version: 1.13.21
-  reviews: 1232
+  reviews: 1236
   icon: com.app.speed1.webp
   meta: ok
   verdict: custodial

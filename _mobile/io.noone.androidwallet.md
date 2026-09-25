@@ -20,7 +20,7 @@ android:
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
-  reviews: 311
+  reviews: 312
   icon: io.noone.androidwallet.webp
   meta: ok
   verdict: nosource

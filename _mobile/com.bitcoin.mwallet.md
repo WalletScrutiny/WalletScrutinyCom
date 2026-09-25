@@ -30,8 +30,8 @@ android:
   appCountry: us
   released: 2017-06-19
   updated: 2026-09-21
-  version: 9.37.3
-  reviews: 4275
+  version: 9.38.2
+  reviews: 4274
   icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource
@@ -44,7 +44,7 @@ iphone:
   released: 2017-07-11
   updated: 2026-09-21
   version: 9.38.0
-  reviews: 45264
+  reviews: 45309
   icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource

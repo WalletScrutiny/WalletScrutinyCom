@@ -13,8 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2025-03-21
-  updated: 2026-09-17
-  version: 6.189.0
+  updated: 2026-09-21
+  version: 6.189.1
   reviews: 60
   icon: com.okx.wallet.webp
   meta: ok

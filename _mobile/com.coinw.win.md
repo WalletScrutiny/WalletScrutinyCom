@@ -33,7 +33,7 @@ iphone:
   released: 2020-01-14
   updated: 2026-09-20
   version: 10.1.33
-  reviews: 123
+  reviews: 124
   icon: com.coinwapp.legend.webp
   meta: ok
   verdict: custodial

@@ -26,8 +26,8 @@ iphone:
   idd: '6670610349'
   appCountry: ru
   released: 2025-01-06
-  updated: 2026-07-23
-  version: 1.5.2 (1)
+  updated: 2026-09-24
+  version: 1.6.0 (2)
   reviews: 96
   icon: com.maxwallet.cc.webp
   meta: ok

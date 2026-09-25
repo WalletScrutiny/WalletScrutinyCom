@@ -1,5 +1,5 @@
 ---
-title: 'Backpack: Buy SOL, BTC, Crypto'
+title: 'Backpack: Trade, Invest & Earn'
 date: 2026-07-21
 authors:
 - danny
@@ -12,8 +12,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-11-02
-  updated: 2026-08-28
-  version: 2.85.0
+  updated: 2026-09-17
+  version: 2.87.0
   reviews: 72
   icon: app.backpack.mobile.webp
   meta: ok
@@ -24,8 +24,8 @@ iphone:
   idd: '6445964121'
   appCountry: us
   released: 2023-10-26
-  updated: 2026-09-18
-  version: 2.86.0
+  updated: 2026-09-22
+  version: 2.87.0
   reviews: 232
   icon: app.backpack.mobile.webp
   meta: ok

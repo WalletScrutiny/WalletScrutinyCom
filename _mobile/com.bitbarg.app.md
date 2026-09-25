@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-03-12
-  updated: 2026-09-06
-  version: 3.6.5
+  updated: 2026-09-23
+  version: 3.6.6
   reviews: 42
   icon: com.bitbarg.app.webp
   meta: ok

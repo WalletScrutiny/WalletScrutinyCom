@@ -32,7 +32,7 @@ iphone:
   released: 2019-06-30
   updated: 2026-09-14
   version: 7.12.0
-  reviews: 1933
+  reviews: 1941
   icon: com.nexobank.wallet.webp
   meta: ok
   verdict: custodial

@@ -32,7 +32,7 @@ iphone:
   released: 2019-02-08
   updated: 2026-05-07
   version: 2.4.2
-  reviews: 1142
+  reviews: 1144
   icon: com.mercuryo.app.webp
   meta: ok
   verdict: custodial

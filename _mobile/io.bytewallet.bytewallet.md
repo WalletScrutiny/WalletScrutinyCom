@@ -23,7 +23,7 @@ android:
   users: 10000
   appCountry: us
   released: 2021-07-20
-  updated: 2026-09-14
+  updated: 2026-09-24
   version: VARY
   reviews: 54
   icon: io.bytewallet.bytewallet.webp
@@ -35,8 +35,8 @@ iphone:
   idd: '1569062610'
   appCountry: us
   released: 2021-07-27
-  updated: 2026-09-15
-  version: 1.7.0.6
+  updated: 2026-09-25
+  version: 1.7.0.7
   reviews: 48
   icon: com.bytefederal.bytewallet.webp
   meta: ok

@@ -1,31 +1,31 @@
 ---
 wsId: protonWallet
-title: "Proton Wallet: Secure Bitcoin"
+title: 'Proton Wallet: Secure Bitcoin'
 date: 2025-05-20
 authors:
-  - danny
+- danny
 website: https://proton.me
 twitter: ProtonPrivacy
 social:
-  - https://www.reddit.com/r/ProtonMail
-  - https://www.instagram.com/protonprivacy
-  - https://www.facebook.com/Proton
-  - https://www.linkedin.com/company/protonprivacy
-  - https://mastodon.social/@protonprivacy
+- https://www.reddit.com/r/ProtonMail
+- https://www.instagram.com/protonprivacy
+- https://www.facebook.com/Proton
+- https://www.linkedin.com/company/protonprivacy
+- https://mastodon.social/@protonprivacy
 features:
-  - buyWithCC
-  - hd
-  - multiAccount
+- buyWithCC
+- hd
+- multiAccount
 redirect_from:
-  - /android/me.proton.wallet.android/
-  - /iphone/me.proton.wallet.ios/
+- /android/me.proton.wallet.android/
+- /iphone/me.proton.wallet.ios/
 android:
   appId: me.proton.wallet.android
   users: 100000
   appCountry: us
   released: 2025-02-04
   updated: 2026-08-26
-  version: 1.3.1
+  version: 1.3.3
   reviews: 33
   icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
@@ -35,17 +35,18 @@ android:
   repository: https://github.com/ProtonWallet/flutter-app
 iphone:
   appId: me.proton.wallet.ios
-  idd: "6479609548"
+  idd: '6479609548'
   appCountry: us
   released: 2025-02-10
   updated: 2026-08-27
   version: 1.3.3
-  reviews: 252
+  reviews: 255
   icon: me.proton.wallet.ios.webp
   meta: ok
   verdict: nosource
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
+
 ---
 
 ## Android

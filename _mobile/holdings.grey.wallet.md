@@ -7,8 +7,8 @@ iphone:
   idd: '6776963238'
   appCountry: us
   released: 2026-06-12
-  updated: 2026-07-14
-  version: 1.0.8
+  updated: 2026-09-21
+  version: 1.0.9
   reviews: 1
   icon: holdings.grey.wallet.webp
   meta: ok

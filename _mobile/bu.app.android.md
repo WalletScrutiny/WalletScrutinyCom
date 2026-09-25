@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2025-04-29
   updated: 2026-09-18
-  version: 3.52.0
-  reviews: 130
+  version: 3.53.0
+  reviews: 131
   icon: bu.app.android.webp
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-09-09
   version: 3.49.0
-  reviews: 830
+  reviews: 841
   icon: com.bitunix.ios-.webp
   meta: ok
   verdict: custodial
