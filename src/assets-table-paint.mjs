@@ -613,10 +613,6 @@ export function paintMainAssetsTable({
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item) => {
-      if (showProfilePictures) {
-        profilePubkeySet.add(item.items[0].pubkey);
-      }
-
       const binary = item.items ? item.items[0] : item;
       const date = formatDate(binary.created_at);
       const sha256HashKey = item.sha256;
@@ -647,6 +643,9 @@ export function paintMainAssetsTable({
         collectAttestationsForHashes(lookupHashes)
           .filter(attestation => attestationMatchesRowHashes(attestation, lookupHashes)),
       );
+      if (showProfilePictures) {
+        attestations.forEach(attestation => profilePubkeySet.add(attestation.pubkey));
+      }
       const hasVerifications = attestations.length > 0;
       const hashHints = hasVerifications
         ? null

@@ -116,36 +116,55 @@ function attachProfileHoverHandlers(container) {
   });
 }
 
+// One profile lookup per pubkey for the page's lifetime. The table can be
+// repainted (cache paint, then network paint) while a lookup is in flight, so
+// every render re-queries the DOM instead of holding on to old nodes.
+const profileLookups = new Map();
+
+function lookupProfile(pubkey) {
+  if (!profileLookups.has(pubkey)) {
+    profileLookups.set(pubkey, getNostrProfile(pubkey).catch(error => {
+      console.error(`Error loading profile for ${pubkey}:`, error);
+      return null;
+    }));
+  }
+  return profileLookups.get(pubkey);
+}
+
+function paintProfileElement(profileElement, pubkey, profile, imageUrl, placeholderUrl) {
+  profileElement.innerHTML = buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl);
+  wireProfileCircleInteractions(profileElement);
+  const container = profileElement.querySelector('.profile-circle-container');
+  if (container) {
+    attachProfileHoverHandlers(container);
+  }
+}
+
+/**
+ * Fill every `.profile-<pubkey>` element currently in the document. Safe to call
+ * again after a repaint: elements that already show the resolved profile are
+ * left alone, new ones get it.
+ */
 export function renderProfilePictures(profilePubkeys) {
   ensureProfileStyles();
   const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
 
   profilePubkeys.forEach(async pubkey => {
-    const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
-
-    profileElementsForThisPubkey.forEach(profileElement => {
-      profileElement.innerHTML = buildProfileCircleHtml(pubkey, null, placeholderUrl, placeholderUrl);
-      wireProfileCircleInteractions(profileElement);
-      const container = profileElement.querySelector('.profile-circle-container');
-      if (container) {
-        attachProfileHoverHandlers(container);
+    document.querySelectorAll(`.profile-${pubkey}`).forEach(profileElement => {
+      if (!profileElement.dataset.profileState) {
+        paintProfileElement(profileElement, pubkey, null, placeholderUrl, placeholderUrl);
+        profileElement.dataset.profileState = 'placeholder';
       }
     });
 
-    try {
-      const profile = await getNostrProfile(pubkey);
-      const imageUrl = getProfileImageUrl(profile);
+    const profile = await lookupProfile(pubkey);
+    const imageUrl = getProfileImageUrl(profile);
 
-      profileElementsForThisPubkey.forEach(profileElement => {
-        profileElement.innerHTML = buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl);
-        wireProfileCircleInteractions(profileElement);
-        const container = profileElement.querySelector('.profile-circle-container');
-        if (container) {
-          attachProfileHoverHandlers(container);
-        }
-      });
-    } catch (error) {
-      console.error(`Error loading profile for ${pubkey}:`, error);
-    }
+    document.querySelectorAll(`.profile-${pubkey}`).forEach(profileElement => {
+      if (profileElement.dataset.profileState !== 'loaded') {
+        paintProfileElement(profileElement, pubkey, profile, imageUrl, placeholderUrl);
+        profileElement.dataset.profileState = 'loaded';
+      }
+    });
   });
 }
