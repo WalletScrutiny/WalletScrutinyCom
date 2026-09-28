@@ -344,17 +344,13 @@ window.renderAssetsTable = async function({
     return paintMainAssetsTable({ assetInfo, ...paintOptions });
   }
 
-  const profilePicturesStarted = new Set();
-
+  // Called after every paint: a repaint replaces the avatar nodes, and
+  // renderProfilePictures only fills the ones that are not filled yet.
   function maybeRenderProfilePictures(pubkeys) {
     if (!showProfilePictures || !pubkeys?.length) {
       return;
     }
-    const newPubkeys = pubkeys.filter(pubkey => !profilePicturesStarted.has(pubkey));
-    newPubkeys.forEach(pubkey => profilePicturesStarted.add(pubkey));
-    if (newPubkeys.length > 0) {
-      renderProfilePictures(newPubkeys);
-    }
+    renderProfilePictures(pubkeys);
   }
 
   function afterTablePaint(pr) {
