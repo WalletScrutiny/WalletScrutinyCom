@@ -343,23 +343,23 @@ describe('fillHashCell — file names from x tags render as text, not HTML', () 
     const cell = document.createElement('td');
     fillHashCell(cell, [['x', SAFE_HASH, 'Wasabi-2.8.2-arm64.deb']]);
     assert.equal(cell.querySelector('.hash-file-name').textContent, 'Wasabi-2.8.2-arm64.deb');
-    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH);
+    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH.slice(0, 8));
   });
 
-  test('the first 8 hash characters are a bold prefix, the rest follows as text', () => {
+  test('the chip shows the first 8 hash characters, the tooltip and copy button keep the full hash', () => {
     const cell = document.createElement('td');
     fillHashCell(cell, [['x', SAFE_HASH]]);
     const display = cell.querySelector('.hash-display');
-    assert.equal(display.querySelector('strong.hash-prefix').textContent, SAFE_HASH.slice(0, 8));
-    assert.equal(display.querySelector('.hash-rest').textContent, SAFE_HASH.slice(8));
+    assert.equal(display.textContent, SAFE_HASH.slice(0, 8));
     assert.equal(display.title, SAFE_HASH);
+    assert.equal(cell.querySelector('.js-copy-hash').dataset.hash, SAFE_HASH);
   });
 
   test('entry without a file name renders no file name element', () => {
     const cell = document.createElement('td');
     fillHashCell(cell, [['x', SAFE_HASH]]);
     assert.equal(cell.querySelector('.hash-file-name'), null);
-    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH);
+    assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH.slice(0, 8));
   });
 
   test('renders other-set verdict hints with distinct tooltips', () => {
