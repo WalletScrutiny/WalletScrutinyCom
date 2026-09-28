@@ -267,6 +267,10 @@ body.dark .assets-table-widget {
   border-color: var(--assets-table-outline);
 }
 
+.assets-table .hash-display .hash-prefix {
+  font-weight: 700;
+}
+
 .assets-table .hash-copy-btn {
   display: inline-flex;
   align-items: center;
@@ -1477,6 +1481,20 @@ body.dark #endorsementModalContent {
   font-weight: bold;
   color: #aaa;
   cursor: pointer;
+}
+
+/* Verification modal: the first 8 hex characters stand out, the rest steps back */
+.verification-modal-hash {
+  overflow-wrap: anywhere;
+}
+
+.verification-modal-hash .hash-prefix {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.verification-modal-hash .hash-rest {
+  font-size: 0.9em;
 }
 
 /* Verification modal: discreet delete action */

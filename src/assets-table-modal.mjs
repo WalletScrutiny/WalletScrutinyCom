@@ -18,7 +18,7 @@ import {
 import {
   populateVerificationAttachmentsList,
 } from "./assets-table-attachments.mjs";
-import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
+import { el, hashWithBoldPrefix, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
 import './zapModal.mjs';
 
 export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
@@ -761,10 +761,13 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
 
   let contentHTML = '';
+  const hashesHTML = verificationHashes
+    .map(hash => htmlOf(el('span', { className: 'verification-modal-hash' }, hashWithBoldPrefix(hash))))
+    .join('<br>');
   if (verificationHashes.length === 1) {
-    contentHTML += `<p><strong>Hash of the binary reproduced:</strong> ${verificationHashes[0]}</p>`;
+    contentHTML += `<p><strong>Hash of the binary reproduced:</strong> ${hashesHTML}</p>`;
   } else if (verificationHashes.length > 1) {
-    contentHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${verificationHashes.join('<br>')}</p>`;
+    contentHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${hashesHTML}</p>`;
   }
   contentHTML += `
     <p><strong>Application:</strong> ${walletTitle}</p>

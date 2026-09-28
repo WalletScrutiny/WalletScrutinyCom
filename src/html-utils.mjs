@@ -151,6 +151,18 @@ export function el(tagName, attrs = {}, ...children) {
 }
 
 /** Serialize a node built with el() / createElement for callers that still need HTML strings. */
+/** Leading hex characters of a hash that are shown in bold, so hashes can be compared at a glance. */
+export const HASH_PREFIX_LENGTH = 8;
+
+/** A hash as a bold prefix followed by the rest, both as text nodes. */
+export function hashWithBoldPrefix(hash) {
+  const text = String(hash ?? '');
+  return [
+    el('strong', { className: 'hash-prefix' }, text.slice(0, HASH_PREFIX_LENGTH)),
+    el('span', { className: 'hash-rest' }, text.slice(HASH_PREFIX_LENGTH)),
+  ];
+}
+
 export function htmlOf(node) {
   return node?.outerHTML ?? '';
 }
