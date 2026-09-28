@@ -247,7 +247,7 @@ body.dark .assets-table-widget {
 .assets-table .hash-display {
   display: block;
   box-sizing: border-box;
-  flex: 0 1 120px;
+  flex: 0 1 auto;
   min-width: 0;
   max-width: 120px;
   height: var(--hash-row-height);
@@ -265,10 +265,6 @@ body.dark .assets-table-widget {
 
 .assets-table-widget .hash-display {
   border-color: var(--assets-table-outline);
-}
-
-.assets-table .hash-display .hash-prefix {
-  font-weight: 700;
 }
 
 .assets-table .hash-copy-btn {
@@ -1491,6 +1487,7 @@ body.dark #endorsementModalContent {
 .verification-modal-hash .hash-prefix {
   font-size: 1.1em;
   font-weight: 700;
+  color: var(--accent-text);
 }
 
 .verification-modal-hash .hash-rest {
