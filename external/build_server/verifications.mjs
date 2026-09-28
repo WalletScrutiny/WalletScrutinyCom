@@ -45,6 +45,11 @@ const PUBLISHABLE_VERDICTS = ['reproducible', 'not_reproducible', 'ftbfs'];
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
 
+// Set when dequeue pauses because every queued job belongs to an app that is
+// already running. p-queue would otherwise call an untracked sleeper and never
+// pull the next job after a timeout. Cleared when that pause is lifted.
+let pausedForRunningApp = false;
+
 /**
  * Custom queue that ensures at most one job per appId runs at a time.
  * When a slot becomes free, it only picks jobs whose appId is not in runningAppIds.
@@ -93,8 +98,10 @@ class AppIdAwareQueue {
     const idx = this.#queue.findIndex((el) => !el.appId || !runningAppIds.has(el.appId));
     if (idx < 0) {
       const running = [...runningAppIds].join(', ');
-      appLog.info(`[QUEUE_INFO] Slot deferred: all ${this.#queue.length} queued jobs are from running apps (${running}). Retrying in 5s.`);
-      return () => new Promise((resolve) => setTimeout(resolve, 5000));
+      appLog.info(`[QUEUE_INFO] Slot deferred: all ${this.#queue.length} queued jobs are from running apps (${running}). Pausing until one finishes.`);
+      pausedForRunningApp = true;
+      queue.pause();
+      return () => {};
     }
     const [item] = this.#queue.splice(idx, 1);
     appLog.info(`[QUEUE_INFO] Picked job for appId=${item.appId ?? 'n/a'} from queue (${this.#queue.length} remaining).`);
@@ -118,6 +125,12 @@ export const queue = new PQueue({
 });
 queue.on('active', logQueueInfo);
 queue.on('next', logQueueInfo);
+queue.on('add', () => {
+  if (pausedForRunningApp) {
+    pausedForRunningApp = false;
+    queue.start();
+  }
+});
 queue.on('error', error => {
   appLog.error(error);
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error
@@ -626,6 +639,10 @@ export async function addJobToQueue({
         });
       } finally {
         runningAppIds.delete(appId);
+        if (pausedForRunningApp) {
+          pausedForRunningApp = false;
+          queue.start();
+        }
       }
     },
     {
