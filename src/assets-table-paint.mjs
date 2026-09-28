@@ -22,7 +22,7 @@ import {
   HASH_HINT_UNATTEMPTED_TOOLTIP,
 } from "./assets-table-filters.mjs";
 import { setAssetTableResponse } from "./assets-table-state.mjs";
-import { el, htmlOf, isSha256Hex } from "./html-utils.mjs";
+import { el, hashWithBoldPrefix, htmlOf, isSha256Hex } from "./html-utils.mjs";
 
 const getHashTags = event => {
   const entries = getAssetFileEntries(event);
@@ -164,7 +164,7 @@ export function fillHashCell(cell, sha256Hashes, allHashes = sha256Hashes, hashH
     const hintIcon = hashHints?.get(hash[1]);
     entry.appendChild(
       el('div', { className: 'hash-row' },
-        el('span', { className: 'hash-display', title: hash[1] || '' }, hash[1]),
+        el('span', { className: 'hash-display', title: hash[1] || '' }, hashWithBoldPrefix(hash[1])),
         createHashCopyButton(hash[1]),
         hintIcon ? createHashHintIcon(hintIcon) : null,
       ),

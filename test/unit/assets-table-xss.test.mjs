@@ -346,6 +346,15 @@ describe('fillHashCell — file names from x tags render as text, not HTML', () 
     assert.equal(cell.querySelector('.hash-display').textContent, SAFE_HASH);
   });
 
+  test('the first 8 hash characters are a bold prefix, the rest follows as text', () => {
+    const cell = document.createElement('td');
+    fillHashCell(cell, [['x', SAFE_HASH]]);
+    const display = cell.querySelector('.hash-display');
+    assert.equal(display.querySelector('strong.hash-prefix').textContent, SAFE_HASH.slice(0, 8));
+    assert.equal(display.querySelector('.hash-rest').textContent, SAFE_HASH.slice(8));
+    assert.equal(display.title, SAFE_HASH);
+  });
+
   test('entry without a file name renders no file name element', () => {
     const cell = document.createElement('td');
     fillHashCell(cell, [['x', SAFE_HASH]]);
