@@ -62,6 +62,23 @@ The script will:
 3. Show a summary at the end with success/failure counts
 4. Continue processing remaining apps even if one fails
 
+### Dependency set of one release (no clone of the watcher needed)
+
+`pinning-cli.mjs` runs the lockfile-based tests (10–12) on one repository at one ref. With `--app-id` and `--version` it also stores every resolved dependency of that release in `assets.db`; `--diff` prints what changed against an earlier stored release:
+
+```bash
+node pinning-cli.mjs --repo https://github.com/ZeusLN/zeus --ref v0.12.0 \
+  --app-id zeus-android --version v0.12.0 --diff v0.11.2
+```
+
+Which stored releases ship a package (the question a new advisory asks):
+
+```bash
+node pinning-cli.mjs --ships npm:lodash@4.17.15   # version optional
+```
+
+Nothing from the analysed repository is executed or installed for any of this: the rows come from `package-lock.json` / `yarn.lock` (classic and berry), `requirements*.txt`, gradle build files plus `gradle/verification-metadata.xml`, and `Cargo.lock`.
+
 ## How it works
 
 1. **GitHub Assets**: 
@@ -103,6 +120,34 @@ CREATE TABLE assets (
   UNIQUE(app_id, version, asset_name, source)
 );
 ```
+
+Resolved dependencies per release, filled by `pinning-cli.mjs --app-id … --version …` and by the watcher after a new release (`runSourceCodeAnalysis` with a `db`). `packages` holds one row per distinct package (consecutive releases share almost all of theirs), `app_dependencies` links a release to them:
+
+```sql
+CREATE TABLE packages (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  ecosystem TEXT NOT NULL,          -- npm | pip | gradle | cargo
+  name TEXT NOT NULL,               -- npm name, pip project, gradle group:artifact, crate
+  version TEXT NOT NULL DEFAULT '', -- resolved version ('' when the file does not pin one, then a range for floating rows)
+  resolved TEXT NOT NULL DEFAULT '',-- registry URL / git source / yarn resolution string
+  integrity TEXT NOT NULL DEFAULT '',-- sha512-… (npm), sha256:… (pip, gradle, cargo), '' when none recorded
+  UNIQUE(ecosystem, name, version, resolved, integrity)
+);
+
+CREATE TABLE app_dependencies (
+  app_id TEXT NOT NULL,
+  version TEXT NOT NULL,            -- the app release
+  package_id INTEGER NOT NULL REFERENCES packages(id),
+  lockfile TEXT NOT NULL,           -- file the row came from, relative to the repo root
+  direct INTEGER,                   -- 1 declared by the project, 0 pulled in by a dependency, NULL unknown
+  dev INTEGER,                      -- 1 build-time only (devDependencies), 0 shipped, NULL unknown
+  tier TEXT NOT NULL,               -- hash-pinned | version-pinned | source-ref-pinned | build-service-tag | unversioned | floating
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (app_id, version, package_id, lockfile)
+);
+```
+
+What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set only where `verification-metadata.xml` exists, otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
 
 ## Notification Procedure
 

@@ -35,8 +35,8 @@ export function backupDatabase() {
 }
 
 // Initialize database
-export function initDatabase() {
-  const db = new Database(DB_PATH);
+export function initDatabase(dbPath = DB_PATH) {
+  const db = new Database(dbPath);
 
   db.exec(`
     CREATE TABLE IF NOT EXISTS assets (
@@ -68,7 +68,128 @@ export function initDatabase() {
     CREATE INDEX IF NOT EXISTS idx_os ON assets(os);
   `);
 
+  // Resolved dependencies per (app_id, version), from lockfiles only.
+  // `packages` holds one row per unique (ecosystem, name, version, resolved,
+  // integrity) so consecutive releases, which share almost all of their
+  // packages, add join rows rather than package rows.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS packages (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL DEFAULT '',
+      resolved TEXT NOT NULL DEFAULT '',
+      integrity TEXT NOT NULL DEFAULT ''
+    );
+    CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_package ON packages(ecosystem, name, version, resolved, integrity);
+    CREATE INDEX IF NOT EXISTS idx_package_name ON packages(ecosystem, name);
+
+    CREATE TABLE IF NOT EXISTS app_dependencies (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      package_id INTEGER NOT NULL REFERENCES packages(id),
+      lockfile TEXT NOT NULL,
+      direct INTEGER,
+      dev INTEGER,
+      tier TEXT NOT NULL,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, version, package_id, lockfile)
+    );
+    CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
+  `);
+
   return db;
+}
+
+const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));
+
+// Replace the stored dependency set of (appId, version) with the entries of
+// the given pinning analyses (see pinningAnalysis.mjs makeEntry).
+// Returns the number of rows stored.
+export function saveDependencies(db, appId, version, analyses) {
+  const insertPackage = db.prepare(`
+    INSERT OR IGNORE INTO packages (ecosystem, name, version, resolved, integrity) VALUES (?, ?, ?, ?, ?)
+  `);
+  const selectPackage = db.prepare(`
+    SELECT id FROM packages WHERE ecosystem = ? AND name = ? AND version = ? AND resolved = ? AND integrity = ?
+  `);
+  const insertDependency = db.prepare(`
+    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, tier)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+  `);
+  const clear = db.prepare('DELETE FROM app_dependencies WHERE app_id = ? AND version = ?');
+
+  const run = db.transaction(() => {
+    clear.run(appId, version);
+    let count = 0;
+    for (const analysis of analyses) {
+      for (const e of analysis.entries || []) {
+        insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
+        const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
+        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), e.tier);
+        count++;
+      }
+    }
+    return count;
+  });
+  return run();
+}
+
+// Stored dependency rows of (appId, version), package fields joined in.
+export function getDependencies(db, appId, version) {
+  return db.prepare(`
+    SELECT p.ecosystem, p.name, p.version AS dep_version, p.resolved, p.integrity,
+           d.lockfile, d.direct, d.dev, d.tier
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE d.app_id = ? AND d.version = ?
+    ORDER BY p.ecosystem, d.lockfile, p.name, p.version
+  `).all(appId, version);
+}
+
+// Set difference between two stored versions, keyed by (ecosystem, lockfile,
+// name); a name resolved to several versions in one release is compared as
+// the set of its versions. Returns { added, removed, changed }; changed rows
+// carry from/to version lists and, for a version present on both sides, an
+// integrity or resolved change — the case worth an alert.
+export function diffDependencies(db, appId, fromVersion, toVersion) {
+  const group = (rows) => {
+    const map = new Map();
+    for (const r of rows) {
+      const k = `${r.ecosystem}\u0000${r.lockfile}\u0000${r.name}`;
+      if (!map.has(k)) map.set(k, { ecosystem: r.ecosystem, lockfile: r.lockfile, name: r.name, direct: r.direct, dev: r.dev, versions: new Map() });
+      const g = map.get(k);
+      g.direct = g.direct || r.direct;
+      g.versions.set(r.dep_version, r);
+    }
+    return map;
+  };
+  const before = group(getDependencies(db, appId, fromVersion));
+  const after = group(getDependencies(db, appId, toVersion));
+  const added = [], removed = [], changed = [];
+  const summary = (g) => ({ ecosystem: g.ecosystem, lockfile: g.lockfile, name: g.name, direct: g.direct, dev: g.dev, versions: [...g.versions.keys()] });
+  for (const [k, g] of after) {
+    const prev = before.get(k);
+    if (!prev) { added.push(summary(g)); continue; }
+    const from = [...prev.versions.keys()], to = [...g.versions.keys()];
+    const sameBytes = [...g.versions].filter(([v, r]) => prev.versions.has(v) &&
+      (prev.versions.get(v).integrity !== r.integrity || prev.versions.get(v).resolved !== r.resolved)).map(([v]) => v);
+    if (from.join() !== to.join() || sameBytes.length) {
+      changed.push({ ...summary(g), from, to, integrityChangedAtSameVersion: sameBytes });
+    }
+  }
+  for (const [k, g] of before) if (!after.has(k)) removed.push(summary(g));
+  return { added, removed, changed };
+}
+
+// Every (app_id, version) that ships a package: the retroactive lookup for a
+// new advisory. `version` null matches all versions of the package.
+export function findAppsShipping(db, ecosystem, name, version = null) {
+  return db.prepare(`
+    SELECT d.app_id, d.version, p.version AS dep_version, d.lockfile, d.direct, d.dev
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE p.ecosystem = ? AND p.name = ? AND (? IS NULL OR p.version = ?)
+    ORDER BY d.app_id, d.version
+  `).all(ecosystem, name, version, version);
 }
 
 // Returns true if the app already has at least one stored asset (not a baseline run)

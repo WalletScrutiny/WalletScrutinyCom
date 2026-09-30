@@ -54,7 +54,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       }
 
       if (mostRecentAsset) {
-        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles });
+        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
       } else {
         console.log('  No updates or not a GitHub repo...');
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
