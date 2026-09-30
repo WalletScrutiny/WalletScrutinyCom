@@ -41,6 +41,7 @@
   },
   "scripts": {
     "dev": "npm run clean_assets && webpack --mode development --watch",
+    "deploy:source-analysis": "bash scripts/deploy-source-analysis.sh",
     "build": "npm run clean_assets && webpack --mode production --no-watch && npm run compress",
     "clean_assets": "jekyll clean && rm -rf dist/*",
     "compress": "npm run minifyJs && npm run minifyCss && npm run brotlifyHtml && npm run brotlifyOthers",

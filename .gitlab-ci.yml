@@ -16,3 +16,20 @@
     - if: $CI_PIPELINE_SOURCE == "schedule"
       when: always
   allow_failure: true
+
+test:source-analysis:
+  image: node:22
+  cache:
+    key:
+      files:
+        - external/source_analysis/package-lock.json
+    paths:
+      - external/source_analysis/node_modules/
+  before_script:
+    - npm ci --prefix external/source_analysis
+  script:
+    - npm test --prefix external/source_analysis
+  rules:
+    - changes:
+        - external/source_analysis/**/*
+        - .gitlab-ci.yml
