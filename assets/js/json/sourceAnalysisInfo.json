@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+{%- comment -%}
+Consumed by external/source_analysis: which wallets exist and where their
+source lives. Only appId, platform and repository on purpose; the analyser
+reads versions from the repository itself, the site's version field lags.
+Records without a repository, and apps that are gone (removed, defunct,
+discontinued, deprecated), are left out.
+{%- endcomment -%}
+{%- assign platforms = "android,iphone,desktop,hardware,bearer" | split: "," -%}
+{%- assign goneMetas = "removed,defunct,discontinued,deprecated" | split: "," -%}
+{%- assign out = "" -%}
+{%- for platform in platforms -%}
+{%- for post in site[platform] -%}
+{%- assign repo = post.repository | strip -%}
+{%- if repo != "" -%}
+{%- unless goneMetas contains post.meta -%}
+{%- assign appIdJson = post.appId | jsonify -%}
+{%- assign repoJson = repo | jsonify -%}
+{%- assign out = out | append: ',{"appId":' | append: appIdJson | append: ',"platform":"' | append: platform | append: '","repository":' | append: repoJson | append: '}' -%}
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+[{{ out | remove_first: "," }}]

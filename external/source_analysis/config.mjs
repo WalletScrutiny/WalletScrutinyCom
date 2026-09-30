@@ -12,7 +12,12 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 export const DB_PATH = join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(__dirname, 'backup');
 
-// Apps Configuration
+// App list: which wallets exist and where their source lives, rendered by the
+// site from the wallet records (assets/js/json/sourceAnalysisInfo.json).
+// index.mjs fetches it on every run and keeps the last good copy in the database.
+export const APP_LIST_URL = 'https://walletscrutiny.com/assets/js/json/sourceAnalysisInfo.json';
+
+// Extra apps not covered by the site list, e.g. Docker images.
 // Add your apps here with appId, GitHub repository URL, and optionally Docker image name
 // dockerImage can be:
 //   - Simple name: 'user/image' (defaults to Docker Hub)
@@ -20,7 +25,7 @@ export const BACKUP_DIR = join(__dirname, 'backup');
 export const APPS = [
   // Example:
   // { appId: 'WalletScrutiny', repoUrl: 'https://gitlab.com/walletscrutiny/walletScrutinyCom' },
-  { appId: 'zeus-android', repoUrl: 'https://github.com/ZeusLN/zeus' },
+  // { appId: 'zeus-android', repoUrl: 'https://github.com/ZeusLN/zeus' },
   // { appId: 'specter-desktop', dockerImage: 'ghcr.io/cryptoadvance/specter-desktop' },
 ];
 
