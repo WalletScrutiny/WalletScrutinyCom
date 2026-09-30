@@ -2,8 +2,8 @@
 layout: compress
 ---
 {%- comment -%}
-Consumed by external/source_analysis: which wallets exist and where their
-source lives. Only appId, platform and repository on purpose; the analyser
+Which wallets exist and where their source lives; consumed by
+external/source_analysis. Only appId, platform and repository on purpose; the analyser
 reads versions from the repository itself, the site's version field lags.
 Records without a repository, and apps that are gone (removed, defunct,
 discontinued, deprecated), are left out.

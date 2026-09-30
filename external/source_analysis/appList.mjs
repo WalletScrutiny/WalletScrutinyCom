@@ -1,6 +1,6 @@
 // Which wallets to analyse and where their source lives.
 //
-// The site renders assets/js/json/sourceAnalysisInfo.json from the wallet
+// The site renders assets/js/json/appRepositories.json from the wallet
 // records: one {appId, platform, repository} per record that has a repository
 // and is not gone. This module fetches it, keeps the last good copy in SQLite
 // so a run survives the site being unreachable, and groups the entries by
