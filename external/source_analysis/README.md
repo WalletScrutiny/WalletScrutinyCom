@@ -11,6 +11,8 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports GitHub API token for higher rate limits
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
+- Clones the source of each new release and analyses it: dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
+- Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
 
 ## Installation (development)
 
@@ -224,6 +226,47 @@ Nothing from the analysed repository is executed or installed for any of this: t
    - Compares SHA256 values
    - If SHA256 changed, calls the notification procedure
    - Updates the database with the new SHA256
+
+5. **Source analysis**: see below.
+
+## Source analysis
+
+After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.mjs`)
+shallow-clones it into the temp directory and runs the tests below. When the pass
+added a new release, the clone is that release's tag and the resolved dependencies
+are stored in `assets.db`; when nothing new was found, it clones `master` and
+stores nothing. Docker-only apps get no source analysis. The ecosystem is detected
+from the repository root (`package.json` → npm, `build.gradle(.kts)` → gradle,
+`pom.xml` → maven, `requirements.txt`/`setup.py`/`pyproject.toml` → pip); an
+unknown type skips tests 2–12. The clone is deleted afterwards.
+
+Results go to the log (the journal for the service); only test 10 writes to the
+database. Tests 2–5 need the project's dependencies installed and run its own
+tooling (`npm`/`yarn install`, `pip install -r requirements.txt`, `./gradlew`,
+`mvn`), tests 10–12 only read files and execute nothing.
+
+| Test | What it reports | Ecosystems | File |
+|---|---|---|---|
+| 2 | Number of direct dependencies | npm, gradle, maven, pip | `appAnalysis.mjs` |
+| 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `appAnalysis.mjs` |
+| 4 | Known vulnerabilities from `npm audit` / `yarn audit` | npm (gradle, maven, pip: OWASP dependency-check or `safety check` runs when the project has it, but its result is not reported) | `appAnalysis.mjs` |
+| 5 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `appAnalysis.mjs` |
+| 9 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `appAnalysis.mjs` |
+| 7 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `appAnalysis.mjs` |
+| 8 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `appAnalysis.mjs` |
+| 10 | Supply-chain pinning per dependency: hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinningAnalysis.mjs` |
+| 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oobDownloadAnalysis.mjs` |
+| 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committedBinaryAnalysis.mjs` |
+
+The tests run in the order of the table. Test 1 (full dependency tree) exists
+but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
+any repository and ref (see above); with `--follow-deps` it also runs test 12 on
+each git-resolvable source dependency (test 12b), which the watcher does not do.
+
+Known blind spots, reported by the tests themselves: prebuilt blobs inside
+registry packages (test 10 reads lockfiles, not artifacts), URLs built at build
+time (test 11), and whether a documented recipe really reproduces committed bytes
+(test 12).
 
 ## Database Schema
 
