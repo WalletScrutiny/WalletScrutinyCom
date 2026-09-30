@@ -64,6 +64,7 @@
     "verify-features:apply": "node scripts/featureVerifier.mjs --apply --dry-run",
     "verify-features:commit": "node scripts/featureVerifier.mjs --apply",
     "deploy:build-server": "bash scripts/deploy-build-server.sh",
+    "deploy:source-analysis": "bash scripts/deploy-source-analysis.sh",
     "deploy:prod": "npm run test:all && npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
     "deploy:beta": "npm run test:all && npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/beta.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/beta.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\"",
     "deploy:old": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cf - _site/ | ssh $USER@walletscrutiny.com \"pigz -dc | pv | tar xf - -C /home/$USER/\" && ssh -t $USER@walletscrutiny.com \"sudo rm -rf /var/www/old.walletscrutiny.com/* && sudo mv /home/$USER/_site/* /var/www/old.walletscrutiny.com && sudo service nginx restart && rm -rf /home/$USER/_site\""

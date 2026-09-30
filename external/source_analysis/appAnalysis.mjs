@@ -5,7 +5,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
-import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
+import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
 import { saveDependencies } from './ddbbUtils.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
@@ -1349,11 +1349,11 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
     
     // Check if Semgrep image exists, if not pull it
     try {
-      execSync('docker image inspect semgrep/semgrep > /dev/null 2>&1', { stdio: 'pipe' });
+      execSync(`docker image inspect ${SEMGREP_IMAGE} > /dev/null 2>&1`, { stdio: 'pipe', timeout: 30000 });
     } catch (error) {
       // console.log('Pulling Semgrep Docker image (this may take a moment)...');
       try {
-        execSync('docker pull semgrep/semgrep', {
+        execSync(`docker pull ${SEMGREP_IMAGE}`, {
           stdio: 'inherit',
           timeout: 300000 // 5 minutes for pulling image
         });
@@ -1373,7 +1373,7 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
     let semgrepOutput;
     try {
       semgrepOutput = execSync(
-        `docker run --rm -v "${absoluteRepoPath}:/src" semgrep/semgrep semgrep --config=auto --json /src`,
+        `docker run --rm -v "${absoluteRepoPath}:/src" ${SEMGREP_IMAGE} semgrep --config=auto --json /src`,
         {
           cwd: repoPath,
           encoding: 'utf8',

@@ -8,9 +8,13 @@ const __dirname = dirname(__filename);
 export const GITHUB_API_BASE = 'https://api.github.com';
 export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 
-// Database Configuration
-export const DB_PATH = join(__dirname, 'assets.db');
-export const BACKUP_DIR = join(__dirname, 'backup');
+// Database Configuration.
+// Dev runs keep everything inside this folder; the systemd unit points the
+// service at its StateDirectory / CacheDirectory through these variables
+// (config/walletscrutiny-source-analysis.service).
+export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
+export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
+export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
 
 // App list: which wallets exist and where their source lives, rendered by the
 // site from the wallet records (assets/js/json/appRepositories.json).
@@ -30,7 +34,9 @@ export const APPS = [
 ];
 
 // Source Code Analysis Configuration
-export const DEFAULT_TEMP_DIR = join(__dirname, 'temp_repos');
+export const DEFAULT_TEMP_DIR = process.env.SOURCE_ANALYSIS_TEMP_DIR || join(__dirname, 'temp_repos');
+// Fully qualified so it resolves the same under docker and podman
+export const SEMGREP_IMAGE = 'docker.io/semgrep/semgrep';
 export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
 export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 

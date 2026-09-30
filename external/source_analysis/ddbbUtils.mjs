@@ -1,17 +1,17 @@
 import Database from 'better-sqlite3';
-import { existsSync, mkdirSync, copyFileSync } from 'fs';
-import { DB_PATH, BACKUP_DIR } from './config.mjs';
-import { join } from 'path';
+import { existsSync, mkdirSync, copyFileSync, readdirSync, unlinkSync } from 'fs';
+import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP } from './config.mjs';
+import { join, dirname } from 'path';
 
-// Backup database before processing
-export function backupDatabase() {
+// Backup database before processing. Keeps the newest `keep` copies.
+export function backupDatabase(dbPath = DB_PATH, backupDir = BACKUP_DIR, keep = BACKUPS_TO_KEEP) {
   // Ensure backup directory exists
-  if (!existsSync(BACKUP_DIR)) {
-    mkdirSync(BACKUP_DIR, { recursive: true });
+  if (!existsSync(backupDir)) {
+    mkdirSync(backupDir, { recursive: true });
   }
 
   // Check if database file exists
-  if (!existsSync(DB_PATH)) {
+  if (!existsSync(dbPath)) {
     console.log('Database file does not exist yet, skipping backup');
     return;
   }
@@ -24,18 +24,30 @@ export function backupDatabase() {
     .replace(/\..+/, '');
 
   const backupFilename = `assets_${timestamp}.db`;
-  const backupPath = join(BACKUP_DIR, backupFilename);
+  const backupPath = join(backupDir, backupFilename);
 
   try {
-    copyFileSync(DB_PATH, backupPath);
+    copyFileSync(dbPath, backupPath);
   } catch (error) {
     console.error(`Failed to create database backup: ${error.message}`);
     throw error;
+  }
+
+  // The timestamp sorts lexically, so the oldest copies come first
+  const old = readdirSync(backupDir)
+    .filter(f => /^assets_.*\.db$/.test(f))
+    .sort()
+    .slice(0, -keep);
+  for (const f of old) {
+    unlinkSync(join(backupDir, f));
   }
 }
 
 // Initialize database
 export function initDatabase(dbPath = DB_PATH) {
+  if (dbPath !== ':memory:') {
+    mkdirSync(dirname(dbPath), { recursive: true });
+  }
   const db = new Database(dbPath);
 
   db.exec(`
