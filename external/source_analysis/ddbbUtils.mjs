@@ -98,7 +98,34 @@ export function initDatabase(dbPath = DB_PATH) {
     CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
   `);
 
+  // Last good copy of the site's app list (see appList.mjs), one row per
+  // wallet record with a repository.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS apps (
+      app_id TEXT NOT NULL,
+      platform TEXT NOT NULL,
+      repository TEXT NOT NULL,
+      fetched_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, platform)
+    );
+  `);
+
   return db;
+}
+
+// Replace the cached app list with the given entries ({appId, platform, repository}).
+export function saveAppList(db, entries) {
+  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository) VALUES (?, ?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM apps').run();
+    for (const e of entries) insert.run(e.appId, e.platform, e.repository);
+  })();
+  return entries.length;
+}
+
+export function getAppList(db) {
+  return db.prepare('SELECT app_id, platform, repository FROM apps ORDER BY platform, app_id').all()
+    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
 }
 
 const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));

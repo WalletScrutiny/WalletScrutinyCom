@@ -19,9 +19,35 @@ cd external/source_analysis
 npm install
 ```
 
+## Which apps are analysed
+
+The list of wallets and their repositories comes from the site, not from this
+folder: `assets/js/json/appRepositories.json` is rendered at site build time
+from every wallet record that has a `repository:` line and is not gone
+(`meta` removed, defunct, discontinued or deprecated). Each entry is
+`{ "appId", "platform", "repository" }` and nothing else on purpose: the
+version to analyse is read from the repository itself, the site's version
+field lags behind releases.
+
+`index.mjs` fetches the list from `APP_LIST_URL` (config.mjs) on every run and
+keeps the last good copy in the `apps` table, so a run still works when the
+site is unreachable. Records that share a repository (typically the Android
+and iPhone entries of one wallet) become one job, keyed by the first record
+(android before iphone before desktop, hardware, bearer); the others are
+listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
+`/tags`, `/tree/...`, `www.`), and URLs that name no repository (user or
+organisation pages) are skipped with a warning.
+
+```bash
+node index.mjs --githubToken ghp_xxx                        # whole list
+node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus  # one job (appId or alias), repeatable
+node index.mjs --githubToken ghp_xxx --app-list ./list.json  # a local or alternative list
+```
+
 ## Configuration
 
-Edit the `APPS` array in `index.mjs` to configure the apps you want to track:
+Extra apps that are not on the site list (for example Docker images) go in
+the `APPS` array in `config.mjs`:
 
 ```javascript
 const APPS = [

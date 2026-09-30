@@ -4,7 +4,8 @@ import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis } from './appAnalysis.mjs';
-import { APPS } from './config.mjs';
+import { APPS, APP_LIST_URL } from './config.mjs';
+import { loadAppList, groupByRepository } from './appList.mjs';
 
 // Main function
 async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
@@ -99,12 +100,14 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 
 // Parse command line arguments with minimist
 const argv = minimist(process.argv.slice(2), {
-  string: ['githubToken', 'dockerToken'],
+  string: ['githubToken', 'dockerToken', 'appList', 'appId'],
   boolean: ['includeTestFiles'],
   alias: {
     githubToken: ['github-token', 'gh-token'],
     dockerToken: ['docker-token', 'docker-token'],
-    includeTestFiles: ['include-test-files', 'jsxray-include-tests']
+    includeTestFiles: ['include-test-files', 'jsxray-include-tests'],
+    appList: ['app-list'],
+    appId: ['app-id']
   }
 });
 
@@ -118,31 +121,48 @@ if (!githubToken && !dockerToken) {
   process.exit(1);
 }
 
-// Check if apps are configured
-if (APPS.length === 0) {
-  console.error('No apps configured. Please add apps to the APPS array in index.mjs');
-  console.error('\nExample:');
-  console.error('  const APPS = [');
-  console.error('    { appId: \'myapp\', repoUrl: \'https://github.com/user/repo\' },');
-  console.error('    { appId: \'myapp2\', repoUrl: \'https://github.com/user/repo2\', dockerImage: \'user/image\' },');
-  console.error('  ];');
-  process.exit(1);
-}
-
-console.log(`Processing ${APPS.length} app(s)...\n`);
-
 // Backup database before starting the process
 backupDatabase();
 
 // Initialize database
 const db = initDatabase();
 
+// The site's app list (one job per repository, records sharing a repository
+// become aliases of the first one) plus the manual extras from config.mjs.
+// --app-list <url|file> overrides the source, --app-id <id> (repeatable)
+// restricts the run to jobs whose appId or alias matches.
+let jobs;
+try {
+  const source = argv.appList || APP_LIST_URL;
+  const { entries, source: listSource, error } = await loadAppList(db, { source });
+  if (listSource === 'cache') {
+    console.warn(`Warning: could not fetch the app list from ${source} (${error}); using the cached copy`);
+  }
+  const { jobs: siteJobs, skipped } = groupByRepository(entries);
+  for (const e of skipped) {
+    console.warn(`Skipping ${e.appId} (${e.platform}): '${e.repository}' does not name a repository`);
+  }
+  console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped (from ${listSource})`);
+  jobs = [...siteJobs, ...APPS];
+} catch (error) {
+  console.error(`✗  ${error.message}`);
+  db.close();
+  process.exit(1);
+}
+
+const wantedIds = [].concat(argv.appId || []).filter(Boolean);
+if (wantedIds.length) {
+  jobs = jobs.filter(j => wantedIds.includes(j.appId) || (j.aliases || []).some(a => wantedIds.includes(a.appId)));
+}
+
+console.log(`Processing ${jobs.length} app(s)...\n`);
+
 try {
   let successCount = 0;
   let errorCount = 0;
 
   // Process each app
-  for (const app of APPS) {
+  for (const app of jobs) {
     if (!app.appId || (!app.repoUrl && !app.dockerImage)) {
       console.error(`\n✗  Skipping invalid app configuration:`, app);
       errorCount++;
@@ -150,6 +170,9 @@ try {
     }
 
     try {
+      if (app.aliases && app.aliases.length > 1) {
+        console.log(`  Also listed as: ${app.aliases.slice(1).map(a => `${a.appId} (${a.platform})`).join(', ')}`);
+      }
       // For ghcr.io, use GitHub token if docker token is not provided
       const appGithubToken = app.githubToken || githubToken;
       let effectiveDockerToken = app.dockerToken || dockerToken;
