@@ -1,6 +1,6 @@
 [Unit]
 Description=WalletScrutiny source analysis: release assets and source checks of the tracked wallets (oneshot)
-Documentation=file:/opt/build-server/walletScrutinyCom/external/source_analysis/README.md
+Documentation=file:/opt/source_analysis/README.md
 After=network-online.target
 Wants=network-online.target
 
@@ -8,7 +8,7 @@ Wants=network-online.target
 Type=oneshot
 User=build-server
 Group=build-server
-WorkingDirectory=/opt/build-server/walletScrutinyCom/external/source_analysis
+WorkingDirectory=/opt/source_analysis
 StateDirectory=walletscrutiny-source-analysis
 CacheDirectory=walletscrutiny-source-analysis
 

@@ -26,14 +26,17 @@ A dev run keeps its files in this folder: `assets.db`, `backup/` and `temp_repos
 
 ## Install and run as a systemd service
 
-The service runs on the build server, from the same tree, as the same user and
-with the same GitHub token as the Automated Build Server (`external/build_server`),
-as a oneshot unit fired by a timer every 6 hours:
+The service runs on the build server in its own tree, `/opt/source_analysis`,
+as the same user and with the same GitHub token as the Automated Build Server
+(`external/build_server`, deployed separately to `/opt/build-server`). Only this
+folder is deployed: the analysis imports nothing from the rest of the repository
+and gets the wallet list from the site over HTTPS. It is a oneshot unit fired by
+a timer every 6 hours:
 
 | | |
 |---|---|
 | units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer` |
-| working directory | `/opt/build-server/walletScrutinyCom/external/source_analysis` |
+| working directory | `/opt/source_analysis` |
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
 | clones and caches | `/var/cache/walletscrutiny-source-analysis/` (`SOURCE_ANALYSIS_TEMP_DIR`, `npm_config_cache`, `GRADLE_USER_HOME`) |
@@ -65,15 +68,21 @@ npm run deploy:source-analysis          # RUN_NOW=1 to start a run right after t
 ```
 
 Requires SSH to `build.walletscrutiny.com` as root (see `~/.ssh/config`). The
-script runs the tests locally, rsyncs the tree with the same rules as
-`npm run deploy:build-server` (the two deploys are independent and can run in
-any order), installs this folder's npm dependencies as `build-server`, copies
-the two units to `/etc/systemd/system/` and enables the timer.
+script runs this folder's tests first and a failure aborts the deploy (there is
+no switch to skip them). It then rsyncs this folder alone to
+`/opt/source_analysis` (dev state such as `assets.db`, `backup/`, `temp_repos/`
+and `node_modules/` excluded), installs the npm dependencies there as
+`build-server`, copies the two units to `/etc/systemd/system/` and enables the
+timer. It does not touch the Automated Build Server tree; the two deploys are
+independent and can run in any order.
 
 ### Install by hand
 
 ```bash
-cd /opt/build-server/walletScrutinyCom/external/source_analysis
+sudo rsync -a --exclude node_modules --exclude assets.db --exclude backup --exclude temp_repos \
+  external/source_analysis/ /opt/source_analysis/
+sudo chown -R build-server:build-server /opt/source_analysis
+cd /opt/source_analysis
 sudo -u build-server npm ci
 sudo cp config/walletscrutiny-source-analysis.service /etc/systemd/system/
 sudo cp config/walletscrutiny-source-analysis.timer /etc/systemd/system/
@@ -99,7 +108,7 @@ fires again, that firing is skipped.
 Query the service database with the CLI in this folder:
 
 ```bash
-cd /opt/build-server/walletScrutinyCom/external/source_analysis
+cd /opt/source_analysis
 sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db \
   node pinning-cli.mjs --ships npm:lodash@4.17.15
 ```
