@@ -131,7 +131,7 @@ if ! ./refreshResults.sh; then
 fi
 
 print_refresh_section "Generate allOpinions.json from Nostr"
-if ! node ./scripts/compileAllOpinions.js; then
+if ! node ./scripts/compileAllOpinions.mjs; then
   echo "ERROR: Failed to generate allOpinions.json from Nostr"
   exit 1
 fi
