@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the WalletScrutiny source analysis every 6 hours
+
+[Timer]
+OnCalendar=00/6:30
+Persistent=true
+Unit=walletscrutiny-source-analysis.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,37 @@
+[Unit]
+Description=WalletScrutiny source analysis: release assets and source checks of the tracked wallets (oneshot)
+Documentation=file:/opt/source_analysis/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=build-server
+Group=build-server
+WorkingDirectory=/opt/source_analysis
+StateDirectory=walletscrutiny-source-analysis
+CacheDirectory=walletscrutiny-source-analysis
+
+# Same GitHub token as the build server (see README to use a separate one)
+LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
+
+Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
+Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db
+Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/repos
+# The analysed repositories are untrusted: never run their npm lifecycle scripts,
+# and never wait on a credential prompt for a private or removed repository
+Environment=npm_config_ignore_scripts=true
+Environment=GIT_TERMINAL_PROMPT=0
+
+# npm / gradle caches of the analysed repositories go to the cache directory
+Environment=npm_config_cache=/var/cache/walletscrutiny-source-analysis/npm
+Environment=GRADLE_USER_HOME=/var/cache/walletscrutiny-source-analysis/gradle
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+
+ExecStart=/usr/bin/node index.mjs
+
+[Install]
+WantedBy=multi-user.target
