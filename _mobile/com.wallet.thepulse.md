@@ -8,7 +8,7 @@ redirect_from:
 - /mobile/ios.wallet.pulse/
 android:
   appId: com.wallet.thepulse
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2023-08-08
   updated: 2026-07-07

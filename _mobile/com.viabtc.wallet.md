@@ -37,7 +37,7 @@ iphone:
   released: 2019-05-21
   updated: 2026-09-17
   version: 4.24.0
-  reviews: 53
+  reviews: 54
   icon: com.viabtc.ViaWallet.webp
   meta: ok
   verdict: nosource

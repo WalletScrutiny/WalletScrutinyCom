@@ -14,8 +14,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-01-17
-  updated: 2026-09-16
-  version: 0.1.11
+  updated: 2026-09-26
+  version: 0.1.12
   icon: io.cypherbox.btc.webp
   meta: fewusers
   verdict: wip

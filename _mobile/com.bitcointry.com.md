@@ -15,7 +15,7 @@ android:
   updated: 2026-07-02
   version: 5.0.2
   icon: com.bitcointry.com.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Devcode Technology Ltd
 

@@ -18,7 +18,7 @@ android:
   users: 100000
   appCountry: us
   released: 2021-09-09
-  updated: 2026-07-21
+  updated: 2026-09-23
   version: 0.7.55
   reviews: 112
   icon: com.bifrostwallet.app.webp

@@ -10,9 +10,9 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-13
-  updated: 2026-09-24
-  version: 2.4.56
-  reviews: 3
+  updated: 2026-09-29
+  version: 2.4.58
+  reviews: 4
   icon: com.tajir.wallet.app.webp
   meta: ok
   verdict: nosource
@@ -22,8 +22,8 @@ iphone:
   idd: '6749449673'
   appCountry: us
   released: 2025-12-03
-  updated: 2026-09-24
-  version: 2.4.56
+  updated: 2026-09-29
+  version: 2.4.58
   reviews: 7
   icon: com.tajir.wallet.app.webp
   meta: ok

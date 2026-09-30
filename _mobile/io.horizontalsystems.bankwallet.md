@@ -47,7 +47,7 @@ iphone:
   released: 2019-01-10
   updated: 2026-09-16
   version: '0.51'
-  reviews: 1361
+  reviews: 1363
   icon: io.horizontalsystems.bank-wallet.webp
   meta: ok
   verdict: sourceavailable

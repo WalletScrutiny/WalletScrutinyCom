@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2020-02-11
   updated: 2026-09-24
-  version: 9.64.0
-  reviews: 3860
+  version: 9.65.1
+  reviews: 3861
   icon: com.bitkeep.wallet.webp
   meta: ok
   verdict: nosource
@@ -31,9 +31,9 @@ iphone:
   idd: 1395301115
   appCountry: us
   released: 2018-09-26
-  updated: 2026-09-24
-  version: 9.65.0
-  reviews: 5623
+  updated: 2026-09-26
+  version: 9.65.1
+  reviews: 5626
   icon: com.bitkeep.os.webp
   meta: ok
   verdict: nosource

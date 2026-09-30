@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2023-10-17
   updated: 2026-09-21
-  version: 1.6.11
+  version: 1.6.12
   reviews: 24
   icon: money.boku.android.webp
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: '1659648196'
   appCountry: us
   released: 2025-04-03
-  updated: 2026-09-24
-  version: 1.11.46
-  reviews: 204
+  updated: 2026-09-26
+  version: 1.11.48
+  reviews: 208
   icon: money.boku.ios.webp
   meta: ok
   verdict: nosendreceive

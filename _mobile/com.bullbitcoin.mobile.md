@@ -25,8 +25,6 @@ redirect_from:
 - /iphone/com.bullbitcoin.app/
 android:
   appId: com.bullbitcoin.mobile
-  alternativeStores:
-  - zapstore
   users: 10000
   appCountry: us
   released: 2023-10-31
@@ -34,6 +32,8 @@ android:
   version: 6.13.0
   reviews: 8
   icon: com.bullbitcoin.mobile.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Bull Bitcoin

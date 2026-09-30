@@ -21,8 +21,6 @@ redirect_from:
 - /iphone/com.cypherstack.stackwallet/
 android:
   appId: com.cypherstack.stackwallet
-  alternativeStores:
-  - zapstore
   users: 10000
   appCountry: us
   released: 2024-05-13
@@ -30,6 +28,8 @@ android:
   version: 2.7.3
   reviews: 15
   icon: com.cypherstack.stackwallet.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack Team

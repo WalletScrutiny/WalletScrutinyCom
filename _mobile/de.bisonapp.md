@@ -17,8 +17,8 @@ android:
   appId: de.bisonapp
   users: 500000
   appCountry: us
-  updated: 2026-09-11
-  version: 5.5.0
+  updated: 2026-09-25
+  version: 5.6.0
   reviews: 3
   icon: de.bisonapp.webp
   meta: ok

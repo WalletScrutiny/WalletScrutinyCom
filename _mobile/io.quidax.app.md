@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2025-04-21
   updated: 2026-09-19
-  version: 1.3.0
+  version: 1.3.2
   reviews: 13
   icon: io.quidax.app.webp
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: '6742988930'
   appCountry: ng
   released: 2025-07-07
-  updated: 2026-09-06
-  version: 1.1.19
-  reviews: 603
+  updated: 2026-09-28
+  version: 1.1.20
+  reviews: 605
   icon: io.quidax.pro.webp
   meta: ok
   verdict: custodial

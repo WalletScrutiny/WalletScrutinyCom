@@ -28,9 +28,9 @@ iphone:
   idd: '6745337602'
   appCountry: us
   released: 2025-05-16
-  updated: 2026-09-22
-  version: 1.2.25
-  reviews: 11
+  updated: 2026-09-29
+  version: 1.2.26
+  reviews: 10
   icon: com.lightning.manna.webp
   meta: ok
   verdict: custodial

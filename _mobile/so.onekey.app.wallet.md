@@ -39,8 +39,8 @@ iphone:
   idd: '1609559473'
   appCountry: us
   released: 2022-04-27
-  updated: 2026-08-24
-  version: 6.5.2
+  updated: 2026-09-25
+  version: 6.6.0
   reviews: 682
   icon: so.onekey.wallet.webp
   meta: ok

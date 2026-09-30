@@ -9,8 +9,8 @@ android:
   users: 10
   appCountry: us
   released: 2025-10-01
-  updated: 2026-09-02
-  version: 1.7.3
+  updated: 2026-09-21
+  version: 1.7.5
   icon: cz.coin.webp
   meta: fewusers
   verdict: wip

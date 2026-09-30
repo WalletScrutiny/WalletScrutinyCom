@@ -13,14 +13,14 @@ features:
 - ln
 android:
   appId: xyz.bringin.client
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: us
   released: 2025-08-31
-  updated: 2026-09-17
-  version: 2.5.7
+  updated: 2026-09-24
+  version: 2.5.8
   icon: xyz.bringin.client.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: nosource
   developerName: Bringin
@@ -29,8 +29,8 @@ iphone:
   idd: '6503239911'
   appCountry: bg
   released: 2025-10-02
-  updated: 2026-09-18
-  version: 2.5.7
+  updated: 2026-09-25
+  version: 2.5.8
   reviews: 0
   icon: xyz.bringin.client.webp
   meta: ok

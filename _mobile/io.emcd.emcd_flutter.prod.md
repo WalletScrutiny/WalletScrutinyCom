@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-01-03
-  updated: 2026-09-18
-  version: 2.40.0
+  updated: 2026-09-29
+  version: 2.41.1
   reviews: 36
   icon: io.emcd.emcd_flutter.prod.webp
   meta: ok

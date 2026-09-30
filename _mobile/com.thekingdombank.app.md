@@ -32,8 +32,8 @@ iphone:
   idd: '1626275936'
   appCountry: bg
   released: 2022-06-15
-  updated: 2026-09-12
-  version: 11.2.1
+  updated: 2026-09-28
+  version: 11.3.0
   reviews: 3
   icon: com.kingdom.TheKingdomBank.webp
   meta: ok

@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2016-06-05
   updated: 2026-09-23
-  version: 2.171.0
-  reviews: 1253
+  version: 2.172.0
+  reviews: 1254
   icon: com.paymaya.webp
   meta: ok
   verdict: custodial

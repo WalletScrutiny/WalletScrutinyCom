@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: 'Quantfury: Your Global Broker'
+title: 'Quantfury: Trading & Investing'
 date: 2021-11-01
 authors:
 - danny
@@ -14,8 +14,8 @@ android:
   users: 1000000
   appCountry: gb
   released: 2018-11-26
-  updated: 2026-09-16
-  version: v1.97.1.26414
+  updated: 2026-09-24
+  version: v1.98.0.26425
   reviews: 23
   icon: com.quantfury.webp
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: 1445564443
   appCountry: br
   released: 2018-12-15
-  updated: 2026-09-17
-  version: 1.97.1
+  updated: 2026-09-25
+  version: 1.98.0
   reviews: 83
   icon: com.quantfury.webp
   meta: ok

@@ -15,7 +15,7 @@ android:
   appCountry: us
   released: 2024-12-01
   updated: 2026-09-23
-  version: 3.15.1
+  version: 3.16.0
   reviews: 3
   icon: com.getmidas.crypto.webp
   meta: ok
@@ -28,7 +28,7 @@ iphone:
   released: 2024-08-13
   updated: 2026-09-23
   version: 3.16.0
-  reviews: 2977
+  reviews: 2978
   icon: com.midas.crypto.webp
   meta: ok
   verdict: custodial

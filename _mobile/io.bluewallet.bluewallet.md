@@ -33,16 +33,16 @@ redirect_from:
 - /iphone/io.bluewallet.bluewallet/
 android:
   appId: io.bluewallet.bluewallet
-  alternativeStores:
-  - zapstore
   users: 1000000
   appCountry: us
   released: 2018-11-01
   updated: 2026-07-20
   version: 8.0.1
-  reviews: 388
+  reviews: 389
   icon: io.bluewallet.bluewallet.webp
   signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: BlueWallet Services S. R. L.
@@ -54,7 +54,7 @@ iphone:
   released: 2018-05-27
   updated: 2026-07-21
   version: 8.0.1
-  reviews: 856
+  reviews: 855
   icon: io.bluewallet.bluewallet.webp
   meta: ok
   verdict: sourceavailable

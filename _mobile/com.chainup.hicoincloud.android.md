@@ -32,8 +32,8 @@ iphone:
   idd: '1438831143'
   appCountry: us
   released: 2018-12-13
-  updated: 2026-09-15
-  version: 6.11.0
+  updated: 2026-09-26
+  version: 6.11.1
   reviews: 3
   icon: com.joycoin.hicoin.webp
   meta: ok

@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-18
-  updated: 2026-09-16
-  version: 1.0.59
+  updated: 2026-09-28
+  version: 1.0.61
   icon: com.kuantist.app.webp
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '6502112789'
   appCountry: tr
   released: 2024-07-18
-  updated: 2026-09-21
-  version: 1.0.59
+  updated: 2026-09-29
+  version: 1.0.60
   reviews: 36
   icon: com.kuantist.webp
   meta: ok

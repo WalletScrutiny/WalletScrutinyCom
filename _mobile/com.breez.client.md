@@ -30,13 +30,13 @@ redirect_from:
 - /iphone/technology.breez.client/
 android:
   appId: com.breez.client
-  alternativeStores:
-  - zapstore
   users: 50000
   appCountry: us
   updated: 2025-01-14
   version: VARY
   icon: com.breez.client.webp
+  alternativeStores:
+  - zapstore
   meta: stale
   verdict: sourceavailable
   developerName: Breez Development LTD

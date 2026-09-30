@@ -21,8 +21,6 @@ redirect_from:
 - /iphone/world.bitkey.app/
 android:
   appId: world.bitkey.app
-  alternativeStores:
-  - zapstore
   users: 10000
   appCountry: US
   released: 2024-02-28
@@ -31,6 +29,8 @@ android:
   reviews: 31
   icon: world.bitkey.app.webp
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
+  alternativeStores:
+  - zapstore
   builds:
   - arch: arm64-v8a
   meta: ok

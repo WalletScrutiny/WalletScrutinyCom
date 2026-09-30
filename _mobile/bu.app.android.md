@@ -23,9 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2025-04-29
-  updated: 2026-09-18
+  updated: 2026-09-28
   version: 3.53.0
-  reviews: 131
+  reviews: 132
   icon: bu.app.android.webp
   meta: ok
   verdict: custodial
@@ -35,9 +35,9 @@ iphone:
   idd: '6446243957'
   appCountry: us
   released: 2023-04-11
-  updated: 2026-09-09
-  version: 3.49.0
-  reviews: 841
+  updated: 2026-09-29
+  version: 3.52.0
+  reviews: 850
   icon: com.bitunix.ios-.webp
   meta: ok
   verdict: custodial

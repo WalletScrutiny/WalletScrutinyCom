@@ -19,7 +19,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-12-14
-  updated: 2026-09-21
+  updated: 2026-09-27
   version: '6.11'
   reviews: 69
   icon: com.fasset.cashapp.webp
@@ -31,9 +31,9 @@ iphone:
   idd: '1599893605'
   appCountry: us
   released: 2021-12-14
-  updated: 2026-09-24
-  version: '4.19'
-  reviews: 57
+  updated: 2026-09-29
+  version: '4.20'
+  reviews: 58
   icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial

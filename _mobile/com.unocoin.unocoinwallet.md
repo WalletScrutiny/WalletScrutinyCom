@@ -35,9 +35,9 @@ iphone:
   idd: 1030422972
   appCountry: in
   released: 2016-05-12
-  updated: 2026-07-29
-  version: 6.2.77
-  reviews: 1704
+  updated: 2026-09-29
+  version: 6.2.79
+  reviews: 1706
   icon: com.unocoin.mainapp.production.webp
   meta: ok
   verdict: custodial

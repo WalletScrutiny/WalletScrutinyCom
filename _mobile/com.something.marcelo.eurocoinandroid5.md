@@ -21,7 +21,7 @@ android:
   updated: 2025-10-03
   version: '40.0'
   icon: com.something.marcelo.eurocoinandroid5.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: EurocoinPay
 iphone:

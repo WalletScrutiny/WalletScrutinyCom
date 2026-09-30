@@ -9,7 +9,7 @@ redirect_from:
 - /iphone/app.backpack.mobile/
 android:
   appId: app.backpack.mobile
-  users: 100000
+  users: 500000
   appCountry: us
   released: 2023-11-02
   updated: 2026-09-17
@@ -24,9 +24,9 @@ iphone:
   idd: '6445964121'
   appCountry: us
   released: 2023-10-26
-  updated: 2026-09-22
-  version: 2.87.0
-  reviews: 232
+  updated: 2026-09-29
+  version: 2.88.0
+  reviews: 233
   icon: app.backpack.mobile.webp
   meta: ok
   verdict: custodial

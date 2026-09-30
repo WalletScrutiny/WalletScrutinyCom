@@ -33,8 +33,6 @@ redirect_from:
 - /iphone/com.zeusln.zeus/
 android:
   appId: app.zeusln.zeus
-  alternativeStores:
-  - zapstore
   users: 10000
   appCountry: us
   released: 2020-07-07
@@ -43,6 +41,8 @@ android:
   reviews: 40
   icon: app.zeusln.zeus.webp
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Atlas 21 Inc.

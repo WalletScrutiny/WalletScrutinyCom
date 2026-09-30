@@ -27,8 +27,8 @@ android:
   users: 500000
   appCountry: us
   released: 2015-05-01
-  updated: 2026-08-10
-  version: 6.29.1
+  updated: 2026-09-29
+  version: 6.30.0
   reviews: 112
   icon: com.coinspace.app.webp
   meta: ok
@@ -41,9 +41,9 @@ iphone:
   idd: 980719434
   appCountry: us
   released: 2015-12-14
-  updated: 2026-07-03
-  version: 6.29.0
-  reviews: 502
+  updated: 2026-09-30
+  version: 6.30.0
+  reviews: 504
   icon: com.coinspace.wallet.webp
   meta: ok
   verdict: sourceavailable

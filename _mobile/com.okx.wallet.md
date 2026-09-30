@@ -10,11 +10,11 @@ redirect_from:
 - /iphone/com.okx.wallet/
 android:
   appId: com.okx.wallet
-  users: 500000
+  users: 1000000
   appCountry: us
   released: 2025-03-21
-  updated: 2026-09-21
-  version: 6.189.1
+  updated: 2026-09-30
+  version: 6.190.0
   reviews: 60
   icon: com.okx.wallet.webp
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: '6743309484'
   appCountry: us
   released: 2025-04-15
-  updated: 2026-09-15
-  version: 6.189.0
-  reviews: 106
+  updated: 2026-09-30
+  version: 6.191.0
+  reviews: 107
   icon: com.okx.wallet.webp
   meta: ok
   verdict: nosource

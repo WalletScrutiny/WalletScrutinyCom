@@ -19,9 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2022-10-13
-  updated: 2026-09-13
-  version: 1.6.0
-  reviews: 36
+  updated: 2026-09-25
+  version: 1.6.2
+  reviews: 37
   icon: com.bitoshi.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: '1627285591'
   appCountry: us
   released: 2022-10-17
-  updated: 2026-09-14
-  version: 1.6.0
-  reviews: 1756
+  updated: 2026-09-26
+  version: 1.6.2
+  reviews: 1747
   icon: com.bitoshi.webp
   meta: ok
   verdict: custodial

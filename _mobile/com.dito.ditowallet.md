@@ -17,7 +17,7 @@ android:
   released: 2023-01-03
   updated: 2026-08-24
   version: 3.0.20
-  reviews: 38
+  reviews: 39
   icon: com.dito.ditowallet.webp
   meta: ok
   verdict: custodial

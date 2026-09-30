@@ -19,7 +19,7 @@ android:
   released: 2019-04-20
   updated: 2026-09-14
   version: 4.21.1
-  reviews: 45
+  reviews: 46
   icon: com.bitkub.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2019-04-24
   updated: 2026-09-16
   version: 4.21.1
-  reviews: 19561
+  reviews: 19790
   icon: com.bitkub.app.webp
   meta: ok
   verdict: custodial

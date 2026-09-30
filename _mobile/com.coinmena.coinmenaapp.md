@@ -32,7 +32,7 @@ iphone:
   released: 2021-09-26
   updated: 2026-09-07
   version: 3.8.1
-  reviews: 21
+  reviews: 23
   icon: com.coinmena.coinmenaapp.webp
   meta: ok
   verdict: custodial

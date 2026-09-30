@@ -12,8 +12,6 @@ redirect_from:
 - /iphone/net.primal.iosapp.Primal/
 android:
   appId: net.primal.android
-  alternativeStores:
-  - zapstore
   users: 50000
   appCountry: us
   released: 2024-07-09
@@ -21,6 +19,8 @@ android:
   version: 3.5.27
   reviews: 34
   icon: net.primal.android.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: PRIMAL SYSTEMS INC.
@@ -31,7 +31,7 @@ iphone:
   released: 2023-12-01
   updated: 2026-09-03
   version: 3.5.61
-  reviews: 933
+  reviews: 934
   icon: net.primal.iosapp.Primal.webp
   meta: ok
   verdict: custodial

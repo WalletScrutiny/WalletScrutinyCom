@@ -5,7 +5,7 @@ date: 2025-12-16
 authors:
 - leo
 - danny
-website: https://support.metamask.io/
+website: https://support.metamask.com
 twitter: MetaMask
 social:
 - https://discord.com/invite/consensys
@@ -21,15 +21,15 @@ redirect_from:
 - /iphone/io.metamask.MetaMask/
 android:
   appId: io.metamask
-  alternativeStores:
-  - zapstore
   users: 10000000
   appCountry: us
   released: 2020-09-01
-  updated: 2026-09-18
+  updated: 2026-09-29
   version: 8.12.0
-  reviews: 6746
+  reviews: 6749
   icon: io.metamask.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask Web3 Wallet
@@ -39,9 +39,9 @@ iphone:
   idd: 1438144202
   appCountry: us
   released: 2020-09-03
-  updated: 2026-09-21
-  version: 8.12.0
-  reviews: 76275
+  updated: 2026-09-29
+  version: 8.13.0
+  reviews: 76331
   icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable

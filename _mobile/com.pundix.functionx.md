@@ -26,7 +26,7 @@ android:
   released: 2021-03-25
   updated: 2026-03-26
   version: 5.10.1
-  reviews: 42
+  reviews: 43
   icon: com.pundix.functionx.webp
   meta: ok
   verdict: nosource

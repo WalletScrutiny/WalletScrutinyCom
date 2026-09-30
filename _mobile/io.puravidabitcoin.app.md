@@ -34,7 +34,7 @@ iphone:
   released: 2023-03-29
   updated: 2026-08-11
   version: 2.5.0
-  reviews: 26
+  reviews: 27
   icon: io.puravidabitcoin.app.webp
   meta: ok
   verdict: custodial

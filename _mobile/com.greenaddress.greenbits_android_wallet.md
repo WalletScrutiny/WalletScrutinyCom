@@ -48,9 +48,9 @@ iphone:
   idd: 1402243590
   appCountry: us
   released: 2019-03-22
-  updated: 2026-08-28
-  version: 5.6.1
-  reviews: 1231
+  updated: 2026-09-28
+  version: 5.7.0
+  reviews: 1233
   icon: io.blockstream.green.webp
   meta: ok
   verdict: sourceavailable

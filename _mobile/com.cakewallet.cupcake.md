@@ -13,7 +13,7 @@ android:
   released: 2024-11-04
   updated: 2025-11-25
   version: 1.1.0
-  reviews: 3
+  reviews: 4
   icon: com.cakewallet.cupcake.webp
   meta: ok
   verdict: sourceavailable
@@ -26,7 +26,7 @@ iphone:
   released: 2024-11-16
   updated: 2025-12-03
   version: 1.1.1
-  reviews: 10
+  reviews: 11
   icon: com.cakewallet.cupcake.webp
   meta: ok
   verdict: sourceavailable

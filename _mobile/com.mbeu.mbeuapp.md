@@ -31,7 +31,7 @@ iphone:
   released: 2024-03-05
   updated: 2026-09-24
   version: 2.7.2
-  reviews: 52
+  reviews: 53
   icon: com.mbeu.mbeuapp.webp
   meta: ok
   verdict: custodial

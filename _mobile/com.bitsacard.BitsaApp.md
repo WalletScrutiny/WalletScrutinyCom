@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: gb
   released: 2019-04-09
-  updated: 2026-07-29
-  version: 3.0.29
+  updated: 2026-09-22
+  version: 3.0.30
   reviews: 10
   icon: com.bitsacard.BitsaApp.webp
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1458095544
   appCountry: de
   released: 2019-04-12
-  updated: 2026-08-03
-  version: 3.0.29
-  reviews: 119
+  updated: 2026-09-28
+  version: 3.0.30
+  reviews: 120
   icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive

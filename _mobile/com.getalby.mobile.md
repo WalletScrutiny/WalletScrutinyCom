@@ -19,8 +19,6 @@ redirect_from:
 - /iphone/com.getalby.mobile/
 android:
   appId: com.getalby.mobile
-  alternativeStores:
-  - zapstore
   users: 5000
   appCountry: us
   released: 2024-09-16
@@ -28,6 +26,8 @@ android:
   version: 2.1.0
   reviews: 24
   icon: com.getalby.mobile.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.

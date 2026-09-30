@@ -24,9 +24,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-09-21
-  updated: 2026-09-04
-  version: 8.37.0
-  reviews: 141
+  updated: 2026-09-25
+  version: 8.38.0
+  reviews: 140
   icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
@@ -36,8 +36,8 @@ iphone:
   idd: 1436296839
   appCountry: us
   released: 2018-09-23
-  updated: 2026-09-01
-  version: v8.36.0
+  updated: 2026-09-29
+  version: v8.38.0
   reviews: 24
   icon: com.zelcash.zelcore.webp
   meta: ok

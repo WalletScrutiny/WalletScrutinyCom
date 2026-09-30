@@ -12,7 +12,7 @@ android:
   updated: 2025-10-01
   version: 1.1.16
   icon: com.ansslimited.xwallet.webp
-  meta: fewusers
+  meta: stale
   verdict: wip
   developerName: AN-SystemStyle Limited
 

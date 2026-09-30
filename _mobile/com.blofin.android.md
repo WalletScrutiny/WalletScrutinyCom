@@ -16,7 +16,7 @@ android:
   released: 2022-05-13
   updated: 2026-09-18
   version: 3.38.0
-  reviews: 120
+  reviews: 121
   icon: com.blofin.android.webp
   meta: ok
   verdict: nosendreceive
@@ -28,7 +28,7 @@ iphone:
   released: 2022-04-15
   updated: 2026-09-20
   version: 3.38.0
-  reviews: 1461
+  reviews: 1464
   icon: com.blofin.app.webp
   meta: ok
   verdict: nosendreceive

@@ -29,7 +29,7 @@ android:
   released: 2020-05-11
   updated: 2026-09-22
   version: 3.0.1
-  reviews: 3822
+  reviews: 3828
   icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-09-24
   version: 3.0.1
-  reviews: 22297
+  reviews: 22354
   icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource

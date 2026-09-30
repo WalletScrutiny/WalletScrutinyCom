@@ -14,13 +14,13 @@ redirect_from:
 - /android/com.minibits_wallet/
 android:
   appId: com.minibits_wallet
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: us
   updated: 2026-06-02
   version: VARY
   icon: com.minibits_wallet.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: Bitango Technologies

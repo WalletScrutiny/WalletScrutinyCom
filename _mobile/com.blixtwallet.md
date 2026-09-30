@@ -16,13 +16,13 @@ redirect_from:
 - /android/com.blixtwallet/
 android:
   appId: com.blixtwallet
-  alternativeStores:
-  - zapstore
   users: 5000
   appCountry: us
   updated: 2026-02-18
   version: VARY
   icon: com.blixtwallet.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Hampus Sjöberg

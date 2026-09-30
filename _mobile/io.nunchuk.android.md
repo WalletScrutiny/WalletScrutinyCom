@@ -24,8 +24,6 @@ redirect_from:
 - /iphone/io.nunchuk.ios/
 android:
   appId: io.nunchuk.android
-  alternativeStores:
-  - zapstore
   users: 10000
   appCountry: us
   released: 2021-11-11
@@ -34,6 +32,8 @@ android:
   reviews: 45
   icon: io.nunchuk.android.webp
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Nunchuk Inc

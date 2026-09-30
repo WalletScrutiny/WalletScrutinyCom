@@ -20,6 +20,7 @@ android:
   released: 2018-12-31
   updated: 2025-07-12
   version: '200'
+  reviews: 1
   icon: com.wongeta.smartcashtransact.webp
   meta: stale
   verdict: custodial

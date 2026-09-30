@@ -27,7 +27,7 @@ iphone:
   released: 2022-08-16
   updated: 2026-09-24
   version: 2.107.0
-  reviews: 4493
+  reviews: 4500
   icon: id.ajaib-coin.co.webp
   meta: ok
   verdict: custodial

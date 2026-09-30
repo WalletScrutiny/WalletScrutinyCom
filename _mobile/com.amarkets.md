@@ -14,12 +14,12 @@ redirect_from:
 - /iphone/amarkets.app/
 android:
   appId: com.amarkets
-  users: 1000000
+  users: 5000000
   appCountry: us
   released: 2019-05-31
-  updated: 2026-09-16
+  updated: 2026-09-30
   version: 2.1.148
-  reviews: 230
+  reviews: 229
   icon: com.amarkets.webp
   meta: ok
   verdict: nosendreceive

@@ -20,8 +20,6 @@ redirect_from:
 - /iphone/io.galoy.bitcoinbeach/
 android:
   appId: com.galoyapp
-  alternativeStores:
-  - zapstore
   users: 100000
   appCountry: us
   released: 2020-11-24
@@ -29,6 +27,8 @@ android:
   version: 3.0.31
   reviews: 50
   icon: com.galoyapp.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador S.A. de C.V.

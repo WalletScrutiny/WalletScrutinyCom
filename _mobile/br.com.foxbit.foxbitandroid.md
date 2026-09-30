@@ -20,7 +20,7 @@ android:
   released: 2019-01-28
   updated: 2026-08-22
   version: 3.48.0
-  reviews: 6403
+  reviews: 6405
   icon: br.com.foxbit.foxbitandroid.webp
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-03-24
   updated: 2026-08-22
   version: 3.48.0
-  reviews: 5550
+  reviews: 5551
   icon: br.com.foxbit.webp
   meta: ok
   verdict: custodial

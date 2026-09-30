@@ -17,14 +17,14 @@ redirect_from:
 - /iphone/com.prominentwiselimited.lifpay/
 android:
   appId: flutter.android.LifePay
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: us
   released: 2022-09-21
   updated: 2025-08-25
   version: 2.4.8
   icon: flutter.android.LifePay.webp
+  alternativeStores:
+  - zapstore
   meta: stale
   verdict: custodial
   developerName: ProminentWise

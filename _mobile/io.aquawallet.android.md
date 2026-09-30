@@ -22,8 +22,6 @@ redirect_from:
 - /iphone/io.aquawallet.ios/
 android:
   appId: io.aquawallet.android
-  alternativeStores:
-  - zapstore
   users: 50000
   appCountry: us
   released: 2024-01-02
@@ -31,6 +29,8 @@ android:
   version: 0.5.3
   reviews: 21
   icon: io.aquawallet.android.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: nosource
   developerName: JAN3
@@ -42,7 +42,7 @@ iphone:
   released: 2024-01-03
   updated: 2026-09-01
   version: 0.5.3
-  reviews: 76
+  reviews: 77
   icon: io.aquawallet.ios.webp
   meta: ok
   verdict: wip

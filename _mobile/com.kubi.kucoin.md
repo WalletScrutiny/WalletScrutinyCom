@@ -20,7 +20,7 @@ android:
   released: 2018-05-03
   updated: 2026-09-17
   version: 4.45.0
-  reviews: 5039
+  reviews: 5037
   icon: com.kubi.kucoin.webp
   meta: ok
   verdict: custodial

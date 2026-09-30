@@ -30,7 +30,7 @@ iphone:
   version: '1.57'
   reviews: 39
   icon: com.finverse-labs.openwallet-mainnet.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Finverse Labs
 

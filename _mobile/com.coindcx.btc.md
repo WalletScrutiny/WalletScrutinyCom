@@ -31,7 +31,7 @@ iphone:
   released: 2020-12-09
   updated: 2026-09-17
   version: 7.62.0007
-  reviews: 44634
+  reviews: 44682
   icon: com.coindcx.btc.webp
   meta: ok
   verdict: custodial

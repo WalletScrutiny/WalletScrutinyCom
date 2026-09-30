@@ -13,7 +13,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-10-31
-  updated: 2026-09-16
+  updated: 2026-09-28
   version: 1.65.0
   reviews: 5
   icon: com.cloud.thailand.webp
@@ -27,7 +27,7 @@ iphone:
   released: 2023-11-21
   updated: 2026-09-16
   version: 1.65.0
-  reviews: 17825
+  reviews: 17907
   icon: com.tiger.cloudbase.thailand.webp
   meta: ok
   verdict: custodial

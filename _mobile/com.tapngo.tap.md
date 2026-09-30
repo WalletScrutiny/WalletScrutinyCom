@@ -20,7 +20,7 @@ android:
   released: 2019-12-19
   updated: 2026-09-15
   version: 3.8.8
-  reviews: 303
+  reviews: 304
   icon: com.tapngo.tap.webp
   meta: ok
   verdict: custodial

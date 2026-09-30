@@ -19,7 +19,7 @@ android:
   released: 2017-04-05
   updated: 2026-09-23
   version: 3.4.3
-  reviews: 40
+  reviews: 41
   icon: giniapps.easymarkets.com.webp
   meta: ok
   verdict: custodial

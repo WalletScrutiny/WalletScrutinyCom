@@ -32,9 +32,9 @@ iphone:
   idd: 1545440300
   appCountry: us
   released: 2021-05-11
-  updated: 2026-09-10
-  version: 3.4.3
-  reviews: 6600
+  updated: 2026-09-29
+  version: 3.4.4
+  reviews: 6611
   icon: com.coinme.CoinMe.webp
   meta: ok
   verdict: custodial

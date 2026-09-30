@@ -20,7 +20,7 @@ android:
   released: 2022-04-19
   updated: 2026-09-17
   version: 1.3.2230
-  reviews: 490
+  reviews: 491
   icon: io.eldorado.app.webp
   meta: ok
   verdict: custodial

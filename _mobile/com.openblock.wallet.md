@@ -27,7 +27,7 @@ iphone:
   released: 2024-01-04
   updated: 2026-07-02
   version: 2.2.7
-  reviews: 2
+  reviews: 3
   icon: com.dssq.obwallet.webp
   meta: ok
   verdict: custodial

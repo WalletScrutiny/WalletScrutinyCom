@@ -29,7 +29,7 @@ android:
   released: 2018-07-02
   updated: 2026-09-24
   version: 4.15.1
-  reviews: 563
+  reviews: 565
   icon: com.ellipal.wallet.webp
   meta: ok
   verdict: nosource
@@ -39,8 +39,8 @@ iphone:
   idd: '1426179665'
   appCountry: us
   released: 2018-08-25
-  updated: 2026-08-24
-  version: 4.15.1
+  updated: 2026-09-25
+  version: 5.0.0
   reviews: 2957
   icon: com.Ellipal.Ellipal.webp
   meta: ok

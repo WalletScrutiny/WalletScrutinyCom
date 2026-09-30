@@ -11,9 +11,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2018-01-21
-  updated: 2026-09-10
+  updated: 2026-09-28
   version: 7.7.0
-  reviews: 123
+  reviews: 124
   icon: com.EmasDigi.webp
   meta: ok
   verdict: nosendreceive

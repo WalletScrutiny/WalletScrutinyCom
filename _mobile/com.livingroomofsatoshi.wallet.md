@@ -26,7 +26,7 @@ android:
   appCountry: us
   released: 2019-05-19
   updated: 2026-09-21
-  version: 3.4.8
+  version: 3.4.10
   reviews: 243
   icon: com.livingroomofsatoshi.wallet.webp
   meta: ok
@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-09-23
   version: 3.4.10
-  reviews: 56
+  reviews: 57
   icon: com.livingroomofsatoshi.wallet.webp
   meta: ok
   verdict: custodial

@@ -15,7 +15,7 @@ android:
   users: 100000
   appCountry: GI
   released: 2021-09-28
-  updated: 2026-09-24
+  updated: 2026-09-25
   version: 1.53.2
   reviews: 608
   icon: com.bitso.alpha.webp

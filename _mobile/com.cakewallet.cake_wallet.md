@@ -28,8 +28,6 @@ redirect_from:
 - /iphone/com.fotolockr.cakewallet/
 android:
   appId: com.cakewallet.cake_wallet
-  alternativeStores:
-  - zapstore
   users: 100000
   appCountry: us
   released: 2020-01-01
@@ -37,6 +35,8 @@ android:
   version: 6.4.5
   reviews: 674
   icon: com.cakewallet.cake_wallet.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Cake Labs

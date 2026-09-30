@@ -11,8 +11,8 @@ android:
   users: 100
   appCountry: us
   released: 2026-07-10
-  updated: 2026-09-09
-  version: 2.5.3
+  updated: 2026-09-27
+  version: 2.5.5
   icon: com.birrfoundation.birrwallet.webp
   meta: fewusers
   verdict: wip

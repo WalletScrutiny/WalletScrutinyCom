@@ -18,14 +18,14 @@ redirect_from:
 - /android/com.blitzwallet/
 android:
   appId: com.blitzwallet
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: us
   released: 2025-09-29
   updated: 2026-08-29
   version: 0.7.15
   icon: com.blitzwallet.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: Blitz Wallet

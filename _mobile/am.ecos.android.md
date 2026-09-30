@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-22
-  updated: 2026-09-18
-  version: 3.3.3
-  reviews: 318
+  updated: 2026-09-29
+  version: 3.4.2
+  reviews: 329
   icon: am.ecos.android.webp
   meta: ok
   verdict: custodial

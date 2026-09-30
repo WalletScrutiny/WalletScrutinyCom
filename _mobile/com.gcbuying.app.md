@@ -26,8 +26,8 @@ iphone:
   idd: '1574175142'
   appCountry: ng
   released: 2021-06-30
-  updated: 2026-01-04
-  version: 1.4.3
+  updated: 2026-09-26
+  version: 1.5.0
   reviews: 171
   icon: com.GCBuying.GCBuying.webp
   meta: ok

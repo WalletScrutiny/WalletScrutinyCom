@@ -20,8 +20,6 @@ redirect_from:
 - /iphone/co.acinq.phoenix/
 android:
   appId: fr.acinq.phoenix.mainnet
-  alternativeStores:
-  - zapstore
   users: 100000
   appCountry: fr
   released: 2019-12-10
@@ -30,6 +28,8 @@ android:
   reviews: 11
   icon: fr.acinq.phoenix.mainnet.webp
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ

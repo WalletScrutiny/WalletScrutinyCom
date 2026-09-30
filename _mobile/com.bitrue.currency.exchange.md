@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-07-18
-  updated: 2026-09-06
+  updated: 2026-09-25
   version: 6.1.37
-  reviews: 719
+  reviews: 720
   icon: com.bitrue.currency.exchange.webp
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 1435877386
   appCountry: us
   released: 2018-09-16
-  updated: 2026-09-07
-  version: 6.1.37
-  reviews: 1125
+  updated: 2026-09-28
+  version: 6.1.38
+  reviews: 1124
   icon: com.cmcm.currency.exchange.webp
   meta: ok
   verdict: custodial

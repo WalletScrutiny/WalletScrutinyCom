@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-05-16
 discontinued: 
-updated: 2026-06-29
-version: 6.29.0
+updated: 2026-09-28
+version: 6.30.0
 binaries: 
 provider: Coin Wallet
 providerWebsite: 

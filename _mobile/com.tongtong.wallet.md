@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-21
-  updated: 2026-07-28
-  version: 2.2.7
+  updated: 2026-09-28
+  version: 2.3.0
   icon: com.tongtong.wallet.webp
   meta: ok
   verdict: nosource

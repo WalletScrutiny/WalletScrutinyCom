@@ -23,7 +23,7 @@ android:
   released: 2021-06-15
   updated: 2026-09-15
   version: 2.0.27
-  reviews: 562
+  reviews: 561
   icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2021-06-20
   updated: 2026-09-15
   version: 2.0.27
-  reviews: 1220
+  reviews: 1219
   icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial

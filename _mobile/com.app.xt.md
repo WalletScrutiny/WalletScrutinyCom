@@ -34,7 +34,7 @@ iphone:
   released: 2021-03-08
   updated: 2026-09-18
   version: 5.33.0
-  reviews: 1371
+  reviews: 1370
   icon: com.xt.app.webp
   meta: ok
   verdict: custodial

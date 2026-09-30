@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-05-08
-  updated: 2026-09-23
-  version: 8.1.9
-  reviews: 706
+  updated: 2026-09-29
+  version: 8.2.0
+  reviews: 709
   icon: com.superchain.lbankgoogle.webp
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '1437346368'
   appCountry: us
   released: 2019-02-22
-  updated: 2026-09-13
-  version: 6.1.7
-  reviews: 768
+  updated: 2026-09-26
+  version: 6.1.8
+  reviews: 771
   icon: com.LBank.LBankNavApp.webp
   meta: ok
   verdict: custodial

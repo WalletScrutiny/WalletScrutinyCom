@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-10-09
-  updated: 2026-09-22
-  version: 4.46.0
+  updated: 2026-09-29
+  version: 4.47.0
   reviews: 8
   icon: vivid.money.webp
   meta: ok

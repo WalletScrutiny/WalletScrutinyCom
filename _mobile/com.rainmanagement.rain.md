@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-02
   updated: 2026-09-17
   version: 3.18.0
-  reviews: 2947
+  reviews: 2949
   icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial

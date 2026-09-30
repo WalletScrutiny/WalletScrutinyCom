@@ -10,11 +10,11 @@ redirect_from:
 - /android/com.utorg/
 android:
   appId: com.utorg
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2023-06-02
   updated: 2026-09-22
-  version: 3.3.1
+  version: 3.4.0
   icon: com.utorg.webp
   meta: ok
   verdict: nosource

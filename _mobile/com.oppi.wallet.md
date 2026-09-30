@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-09-02
-  version: 1.0.123
+  updated: 2026-09-29
+  version: 1.0.124
   reviews: 10
   icon: com.oppi.wallet.webp
   meta: ok

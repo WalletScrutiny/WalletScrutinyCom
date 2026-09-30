@@ -19,7 +19,7 @@ android:
   released: 2021-09-23
   updated: 2026-09-23
   version: 8.4.92
-  reviews: 10059
+  reviews: 10065
   icon: com.pay99.wallet.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2021-10-02
   updated: 2026-09-14
   version: 8.4.92
-  reviews: 1999
+  reviews: 1997
   icon: com.pay99.webp
   meta: ok
   verdict: nosendreceive

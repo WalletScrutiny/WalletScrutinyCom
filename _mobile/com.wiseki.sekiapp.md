@@ -22,7 +22,7 @@ android:
   released: 2022-05-31
   updated: 2026-09-15
   version: 2.3.21
-  reviews: 25
+  reviews: 26
   icon: com.wiseki.sekiapp.webp
   meta: ok
   verdict: custodial

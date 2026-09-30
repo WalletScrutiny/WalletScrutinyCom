@@ -19,15 +19,15 @@ redirect_from:
 - /iphone/io.hexawallet.keeper/
 android:
   appId: io.hexawallet.bitcoinkeeper
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: UK
   released: 2022-12-12
-  updated: 2026-09-17
-  version: 2.3.15
+  updated: 2026-09-28
+  version: 2.5.16
   icon: io.hexawallet.bitcoinkeeper.webp
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
@@ -37,8 +37,8 @@ iphone:
   idd: '1545535925'
   appCountry: us
   released: 2022-10-19
-  updated: 2026-09-14
-  version: 2.5.14
+  updated: 2026-09-29
+  version: 2.5.16
   reviews: 22
   icon: io.hexawallet.keeper.webp
   meta: ok

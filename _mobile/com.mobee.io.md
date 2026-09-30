@@ -21,8 +21,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-11-14
-  updated: 2026-09-22
-  version: 2.1.1
+  updated: 2026-09-29
+  version: 2.1.2
   reviews: 2
   icon: com.mobee.io.webp
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: '1643474845'
   appCountry: id
   released: 2023-07-19
-  updated: 2026-09-22
-  version: 2.1.1
-  reviews: 1025
+  updated: 2026-09-29
+  version: 2.1.2
+  reviews: 1027
   icon: io.mobee.finance.webp
   meta: ok
   verdict: custodial

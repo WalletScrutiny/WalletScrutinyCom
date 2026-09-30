@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-03-20
-  updated: 2025-10-09
-  version: 1.0.29
+  updated: 2026-09-23
+  version: 1.0.52
   icon: com.palwalletapp.webp
   meta: ok
   verdict: custodial

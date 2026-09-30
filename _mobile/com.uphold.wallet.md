@@ -1,6 +1,6 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: 'Uphold: Buy BTC, ETH and 300+'
+title: 'Uphold: Trade crypto & stocks'
 date: 2020-10-12
 authors:
 - leo
@@ -22,9 +22,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-12-29
-  updated: 2026-09-18
+  updated: 2026-09-25
   version: 6.107.1
-  reviews: 8385
+  reviews: 8393
   icon: com.uphold.wallet.webp
   meta: ok
   verdict: custodial
@@ -34,9 +34,9 @@ iphone:
   idd: 1101145849
   appCountry: us
   released: 2016-04-19
-  updated: 2026-09-19
-  version: 6.107.1
-  reviews: 90554
+  updated: 2026-09-25
+  version: 6.108.1
+  reviews: 90619
   icon: com.uphold.wallet.ios.webp
   meta: ok
   verdict: custodial

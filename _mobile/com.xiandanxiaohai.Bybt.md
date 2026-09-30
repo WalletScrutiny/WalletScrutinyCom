@@ -1,5 +1,5 @@
 ---
-title: CoinGlass - Bitcoin & Crypto
+title: CoinGlass - Global Market Data
 date: 2021-11-02
 authors:
 - danny
@@ -13,9 +13,9 @@ iphone:
   idd: 1522250001
   appCountry: us
   released: 2020-07-08
-  updated: 2026-08-26
-  version: 2.7.9
-  reviews: 5786
+  updated: 2026-09-27
+  version: 2.8.0
+  reviews: 5808
   icon: com.xiandanxiaohai.Bybt.webp
   meta: ok
   verdict: fake

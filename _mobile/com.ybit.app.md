@@ -27,8 +27,8 @@ iphone:
   idd: '6483864038'
   appCountry: us
   released: 2024-05-17
-  updated: 2026-04-29
-  version: 1.0.11
+  updated: 2026-09-25
+  version: 1.0.12
   reviews: 26
   icon: com.ybit.app.webp
   meta: ok

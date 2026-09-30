@@ -24,8 +24,6 @@ redirect_from:
 - /iphone/com.foundationdevices.envoy/
 android:
   appId: com.foundationdevices.envoy
-  alternativeStores:
-  - zapstore
   users: 1000
   appCountry: US
   released: 2022-04-01
@@ -33,6 +31,8 @@ android:
   version: 2.3.3
   reviews: 6
   icon: com.foundationdevices.envoy.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices

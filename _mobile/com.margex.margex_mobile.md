@@ -30,9 +30,9 @@ iphone:
   idd: '1607974744'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-09-09
-  version: 5.2.2
-  reviews: 592
+  updated: 2026-09-30
+  version: 5.2.3
+  reviews: 593
   icon: com.margex.mobile.webp
   meta: ok
   verdict: custodial

@@ -33,8 +33,8 @@ iphone:
   idd: '1582612388'
   appCountry: us
   released: 2021-08-30
-  updated: 2026-05-29
-  version: 5.5.4
+  updated: 2026-09-28
+  version: 5.5.5
   reviews: 45
   icon: com.mathglobal.mathwallet5.webp
   meta: ok

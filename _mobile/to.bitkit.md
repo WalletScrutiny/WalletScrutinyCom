@@ -23,8 +23,6 @@ redirect_from:
 - /iphone/to.bitkit/
 android:
   appId: to.bitkit
-  alternativeStores:
-  - zapstore
   users: 5000
   appCountry: us
   released: 2024-06-07
@@ -33,6 +31,8 @@ android:
   reviews: 3
   icon: to.bitkit.webp
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Synonym

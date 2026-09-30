@@ -24,7 +24,7 @@ android:
   released: 2024-03-12
   updated: 2026-09-21
   version: 2026.39.0
-  reviews: 257
+  reviews: 261
   icon: com.robinhood.gateway.webp
   meta: ok
   verdict: nosource
@@ -34,9 +34,9 @@ iphone:
   idd: '1634080733'
   appCountry: us
   released: 2023-01-18
-  updated: 2026-09-22
-  version: 2026.39.0
-  reviews: 6810
+  updated: 2026-09-28
+  version: 2026.40.0
+  reviews: 6862
   icon: com.robinhood.release.Gateway.webp
   meta: ok
   verdict: nosource

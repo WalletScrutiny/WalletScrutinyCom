@@ -19,7 +19,7 @@ android:
   released: 2017-12-16
   updated: 2026-09-18
   version: 3.17.0
-  reviews: 257
+  reviews: 258
   icon: com.viabtc.pool.webp
   meta: ok
   verdict: custodial

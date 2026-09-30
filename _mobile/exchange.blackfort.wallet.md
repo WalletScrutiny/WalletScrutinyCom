@@ -20,7 +20,7 @@ android:
   released: 2020-08-31
   updated: 2021-10-27
   version: 1.3.18
-  reviews: 52
+  reviews: 53
   icon: exchange.blackfort.wallet.webp
   meta: obsolete
   verdict: nosource

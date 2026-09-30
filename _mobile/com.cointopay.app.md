@@ -18,11 +18,11 @@ android:
   users: 1000
   appCountry: us
   released: 2018-05-29
-  updated: 2022-06-02
-  version: 2.1.7
+  updated: 2026-09-28
+  version: 2.1.8
   reviews: 7
   icon: com.cointopay.app.webp
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: Cointopay.com
 iphone:

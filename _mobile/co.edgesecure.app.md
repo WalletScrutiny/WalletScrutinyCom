@@ -25,8 +25,6 @@ redirect_from:
 - /iphone/co.edgesecure.app/
 android:
   appId: co.edgesecure.app
-  alternativeStores:
-  - zapstore
   users: 500000
   appCountry: us
   released: 2018-03-01
@@ -35,6 +33,8 @@ android:
   reviews: 765
   icon: co.edgesecure.app.webp
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Edge (formerly Airbitz)
@@ -46,7 +46,7 @@ iphone:
   released: 2018-02-09
   updated: 2026-09-24
   version: 4.51.1
-  reviews: 3250
+  reviews: 3268
   icon: co.edgesecure.app.webp
   meta: ok
   verdict: sourceavailable

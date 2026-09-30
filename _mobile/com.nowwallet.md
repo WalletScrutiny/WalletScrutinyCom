@@ -25,7 +25,7 @@ android:
   released: 2021-10-20
   updated: 2026-09-09
   version: 3.19.1
-  reviews: 204
+  reviews: 205
   icon: com.nowwallet.webp
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2021-10-23
   updated: 2026-09-10
   version: 3.19.1
-  reviews: 849
+  reviews: 847
   icon: io.changenow.wallet-now.webp
   meta: ok
   verdict: nosource

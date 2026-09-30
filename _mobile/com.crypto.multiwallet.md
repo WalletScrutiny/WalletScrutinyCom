@@ -36,7 +36,7 @@ iphone:
   released: 2018-12-01
   updated: 2026-09-23
   version: 3.2.4
-  reviews: 953
+  reviews: 956
   icon: com.crypto.multiwallet.webp
   meta: ok
   verdict: nosource

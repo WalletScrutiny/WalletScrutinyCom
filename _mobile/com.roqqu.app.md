@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-30
-  updated: 2026-09-17
-  version: 2.6.8
+  updated: 2026-09-25
+  version: 2.6.9
   reviews: 915
   icon: com.roqqu.app.webp
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: 1505370687
   appCountry: de
   released: 2020-04-06
-  updated: 2026-09-18
-  version: 2.6.8
+  updated: 2026-09-25
+  version: 2.6.9
   reviews: 8
   icon: com.roqqu.ios.webp
   meta: ok

@@ -18,8 +18,6 @@ redirect_from:
 - /iphone/app.bitcoinjungle.ios/
 android:
   appId: app.bitcoinjungle.mobile
-  alternativeStores:
-  - zapstore
   users: 5000
   appCountry: us
   released: 2021-12-05
@@ -27,6 +25,8 @@ android:
   version: 1.4.8
   reviews: 2
   icon: app.bitcoinjungle.mobile.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle

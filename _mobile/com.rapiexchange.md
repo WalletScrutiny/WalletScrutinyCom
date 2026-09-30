@@ -13,8 +13,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-19
-  updated: 2026-07-09
-  version: '3.46'
+  updated: 2026-09-29
+  version: '3.47'
   reviews: 4
   icon: com.rapiexchange.webp
   meta: ok

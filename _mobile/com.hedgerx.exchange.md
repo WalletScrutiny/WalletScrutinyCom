@@ -21,9 +21,9 @@ iphone:
   idd: '6760335844'
   appCountry: us
   released: 2026-03-24
-  updated: 2026-07-10
-  version: 1.1.15
-  reviews: 0
+  updated: 2026-09-30
+  version: 1.1.16
+  reviews: 2
   icon: com.hedgerx.Innovation.webp
   meta: ok
   verdict: custodial

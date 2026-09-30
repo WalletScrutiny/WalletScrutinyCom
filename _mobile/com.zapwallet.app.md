@@ -29,8 +29,8 @@ iphone:
   idd: '6474125933'
   appCountry: ng
   released: 2024-03-15
-  updated: 2026-08-18
-  version: 2.0.6
+  updated: 2026-09-30
+  version: 2.0.7
   reviews: 31
   icon: com.zapapp.webp
   meta: ok

@@ -14,8 +14,6 @@ redirect_from:
 - /iphone/fm.fountain.apps/
 android:
   appId: fm.fountain.apps
-  alternativeStores:
-  - zapstore
   users: 100000
   appCountry: us
   released: 2021-08-02
@@ -23,6 +21,8 @@ android:
   version: 1.5.8
   reviews: 262
   icon: fm.fountain.apps.webp
+  alternativeStores:
+  - zapstore
   meta: ok
   verdict: custodial
   developerName: Fountain Labs Ltd
@@ -31,8 +31,8 @@ iphone:
   idd: '1576394424'
   appCountry: ph
   released: 2021-07-28
-  updated: 2026-08-11
-  version: 1.5.7
+  updated: 2026-09-27
+  version: 1.5.8
   reviews: 2
   icon: fm.fountain.apps.webp
   meta: ok

@@ -32,8 +32,8 @@ iphone:
   idd: 923696089
   appCountry: de
   released: 2014-12-30
-  updated: 2026-06-19
-  version: 2.11.0
+  updated: 2026-09-25
+  version: 2.12.0
   reviews: 11
   icon: lt.spectrofinance.spectrocoin.ios.wallet.webp
   meta: ok

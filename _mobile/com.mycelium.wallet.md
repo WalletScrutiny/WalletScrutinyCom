@@ -48,8 +48,8 @@ iphone:
   idd: 943912290
   appCountry: us
   released: 2014-12-17
-  updated: 2026-09-11
-  version: '2.11'
+  updated: 2026-09-25
+  version: '2.12'
   reviews: 21
   icon: com.mycelium.wallet-ios.webp
   meta: ok

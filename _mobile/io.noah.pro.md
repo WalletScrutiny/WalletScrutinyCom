@@ -12,8 +12,8 @@ android:
   users: 100000
   appCountry: us
   released: 2025-09-23
-  updated: 2026-09-14
-  version: 1.3.5
+  updated: 2026-09-28
+  version: 1.3.6
   reviews: 27
   icon: io.noah.pro.webp
   meta: ok
