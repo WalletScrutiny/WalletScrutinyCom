@@ -49,38 +49,55 @@ echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
 echo "... than last month: $( moreSince 'one.months.ago' )"
 
-# List missing icons (android/iphone: nested icon: in _mobile/*.md)
+# List missing icons (android/iphone: nested icon: in _mobile/*.md).
+# Icons are compared by stem: they were png/jpg once and are webp now.
+strip_icon_ext() {
+  sed -E 's/\.(webp|png|jpe?g)$//'
+}
 collect_mobile_icons() {
   local platform=$1
   awk -v plat="$platform" '
     $0 ~ "^" plat ":" { in_plat = 1; next }
     /^[a-zA-Z]/ { in_plat = 0 }
     in_plat && /^  icon: / { sub(/^  icon: /, ""); print }
-  ' _mobile/*.md 2>/dev/null | sed 's/\.png$//;s/\.jpg$//;s/\.jpeg$//' | sort -u
+  ' _mobile/*.md 2>/dev/null | strip_icon_ext | sort -u
 }
 
 print_refresh_subsection "Missing wallet icons"
-for platform in hardware bearer desktop android iphone; do
-  export platform=$platform
-  if [ "$platform" = "android" ] || [ "$platform" = "iphone" ]; then
-    referenced=$(collect_mobile_icons "$platform")
-  else
-    referenced=$(grep -l 'icon: .' _$platform/* 2>/dev/null \
-      | awk -F '/' '{print $2}' \
-      | sed 's/.md$//g' \
-      | sort)
-  fi
-  diff \
-    <(echo "$referenced") \
-    <(ls -1 images/wIcons/$platform/tiny/ 2>/dev/null \
-      | sed 's/.png$//g' \
-      | sed 's/.jpg$//g' \
-      | sort ) \
-    | grep '<' \
-    | awk '{print $2}' \
-    | xargs -r -n 1 bash -c 'echo -e "No icon found for $platform $0\n$( git log --summary | grep $0 )"' \
-    | grep -v bash
-done
+missingIcons=$(
+  for platform in hardware bearer desktop android iphone; do
+    if [ "$platform" = "android" ] || [ "$platform" = "iphone" ]; then
+      referenced=$(collect_mobile_icons "$platform")
+    else
+      referenced=$(grep -h '^icon: .' _$platform/* 2>/dev/null | sed 's/^icon: //' | strip_icon_ext | sort -u)
+    fi
+    comm -23 \
+      <(echo "$referenced") \
+      <(ls -1 images/wIcons/$platform/tiny/ 2>/dev/null | strip_icon_ext | sort -u) \
+      | sed "s|^|$platform |"
+  done
+)
+if [ -n "$missingIcons" ]; then
+  # One history walk over the icon folders for all missing icons. Running a full
+  # `git log --summary` per missing icon took seconds each and printed renameLimit warnings.
+  iconLog=$(mktemp)
+  git log --no-renames --summary --format='%h %ad %s' --date=short -- images/wIcons images/wallet_icons > "$iconLog"
+  while read -r platform name; do
+    echo "No icon found for $platform $name"
+    awk -v platform="$platform" -v name="$name" '
+      /^[0-9a-f]+ [0-9]+-[0-9]+-[0-9]+ / { header = $0; next }
+      /^ (create|delete) mode / {
+        n = split($NF, parts, "/")
+        if (parts[n-1] != platform && parts[n-2] != platform) next
+        stem = parts[n]
+        sub(/\.[^.]+$/, "", stem)
+        if (stem != name) next
+        if (header != "") { print "  " header; header = "" }
+        print
+      }' "$iconLog"
+  done <<< "$missingIcons"
+  rm -f "$iconLog"
+fi
 
 print_refresh_subsection "Reviews that probably need re-analysis"
 node scripts/findNeedsRB.mjs
