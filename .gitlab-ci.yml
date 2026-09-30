@@ -1,4 +1,4 @@
- refresh-apps:
+refresh-apps:
   image: node:20
   variables:
     LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
