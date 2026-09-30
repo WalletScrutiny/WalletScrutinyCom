@@ -1,5 +1,5 @@
 {
-  "name": "binary-checker",
+  "name": "source-analysis",
   "version": "1.0.0",
   "description": "Check and track binary assets from GitHub releases and Docker containers",
   "type": "module",
