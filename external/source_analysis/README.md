@@ -1,6 +1,6 @@
-# Binary Checker
+# Source Analysis
 
-A Node.js application that tracks binary assets from GitHub releases and Docker containers, storing their SHA256 hashes in a SQLite database and detecting changes.
+A Node.js application that watches GitHub releases and Docker images of the tracked wallets (SHA256, size, release author stored in SQLite, changes flagged) and analyses the source of each release: dependency pinning, out-of-band downloads, committed binaries, and the full resolved dependency set per release.
 
 ## Features
 
@@ -15,7 +15,7 @@ A Node.js application that tracks binary assets from GitHub releases and Docker 
 ## Installation
 
 ```bash
-cd external/binary_checker
+cd external/source_analysis
 npm install
 ```
 
