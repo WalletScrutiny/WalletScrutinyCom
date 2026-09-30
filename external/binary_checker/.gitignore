@@ -2,3 +2,4 @@ node_modules/
 assets.db
 .DS_Store
 temp_repos/
+backup/*.db

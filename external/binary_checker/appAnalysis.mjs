@@ -7,6 +7,7 @@ import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
+import { saveDependencies } from './ddbbUtils.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
 
@@ -1556,7 +1557,7 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
 /**
  * Run all tests for a specific app
  */
-export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master', includeTestFiles = false }) {
+export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master', includeTestFiles = false, db = null }) {
   console.log(`\n${'='.repeat(60)}`);
   console.log(`Testing: ${name} - Repository: ${repoUrl} ${`- Branch: ${version}`}`);
   console.log('='.repeat(60));
@@ -1594,7 +1595,11 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master',
   await analyzeCodeVulnerabilitiesSemgrep(repoPath);
   await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
   await analyzeObfuscation(repoPath);
-  analyzePinning(repoPath);
+  const pinning = analyzePinning(repoPath);
+  if (db) {
+    const stored = saveDependencies(db, name, version, pinning);
+    console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
+  }
   analyzeOobDownloads(repoPath);
   analyzeCommittedBinaries(repoPath);
 

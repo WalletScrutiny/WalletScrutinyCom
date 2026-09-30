@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
     "@nodesecure/js-x-ray": "^15.2.0",

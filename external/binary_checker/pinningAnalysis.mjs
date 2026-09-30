@@ -47,7 +47,90 @@ function relative(repoPath, file) {
   return path.relative(repoPath, file) || '.';
 }
 
+/**
+ * One row per resolved dependency: the unit ddbbUtils.saveDependencies
+ * stores. `direct` is true when the repository declares the package itself,
+ * false when another dependency pulled it in, null when the file format does
+ * not say. `dev` follows the same convention for build-time-only packages.
+ * `tier` is the pinning tier used by the report (hash-pinned, version-pinned,
+ * source-ref-pinned, build-service-tag, unversioned, floating).
+ */
+function makeEntry(ecosystem, lockfile, fields) {
+  return {
+    ecosystem,
+    lockfile,
+    name: fields.name,
+    version: fields.version || '',
+    resolved: fields.resolved || '',
+    integrity: fields.integrity || '',
+    direct: fields.direct ?? null,
+    dev: fields.dev ?? null,
+    tier: fields.tier,
+  };
+}
+
 /* ---------------------------------- npm ---------------------------------- */
+
+/**
+ * name -> { dev, range } for the packages a set of manifests declares. A
+ * lockfile is matched with the package.json beside it (the project it locks);
+ * a lockfile without one falls back to every manifest in the repository.
+ */
+function declaredNpmDeps(manifestObjects) {
+  const declared = new Map();
+  for (const pkg of manifestObjects) {
+    for (const [field, dev] of [['dependencies', false], ['optionalDependencies', false], ['devDependencies', true]]) {
+      for (const [name, range] of Object.entries(pkg[field] || {})) {
+        if (!declared.has(name) || !dev) declared.set(name, { dev, range: String(range).replace(/^npm:/, '') });
+      }
+    }
+  }
+  return declared;
+}
+
+function readJson(file) {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+function declaredBeside(lockFile, allManifests) {
+  const own = readJson(path.join(path.dirname(lockFile), 'package.json'));
+  return declaredNpmDeps(own ? [own] : allManifests);
+}
+
+/**
+ * yarn.lock entries, classic (v1) and berry. Both formats start an entry with
+ * a non-indented `"<name>@<range>", …:` line; v1 then has `version`,
+ * `resolved`, `integrity` lines, berry has `version:`, `resolution:`,
+ * `checksum:`.
+ */
+function parseYarnLock(text) {
+  const entries = [];
+  let current = null;
+  for (const line of text.split('\n')) {
+    if (/^[^#\s].*:\s*$/.test(line)) {
+      const spec = line.trim().replace(/:$/, '').split(',')[0].trim().replace(/^"|"$/g, '');
+      const at = spec.indexOf('@', 1); // scoped names start with '@'
+      const ranges = line.trim().replace(/:$/, '').split(',').map(part => {
+        const one = part.trim().replace(/^"|"$/g, '');
+        const i = one.indexOf('@', 1);
+        return i === -1 ? '' : one.slice(i + 1).replace(/^npm:/, '');
+      });
+      current = { name: at === -1 ? spec : spec.slice(0, at), ranges, version: '', resolved: '', integrity: '' };
+      if (current.name !== '__metadata') entries.push(current);
+      continue;
+    }
+    if (!current) continue;
+    let m;
+    if ((m = line.match(/^\s+version:?\s+"?([^"\s]+)"?/))) current.version = m[1];
+    else if ((m = line.match(/^\s+(?:resolved|resolution):?\s+"?([^"\s]+)"?/))) current.resolved = m[1];
+    else if ((m = line.match(/^\s+(?:integrity|checksum):?\s+"?([^"\s]+)"?/))) current.integrity = m[1];
+  }
+  return entries;
+}
 
 function analyzeNpm(repoPath) {
   const lockFiles = findFiles(repoPath, (name) => name === 'package-lock.json');
@@ -63,30 +146,40 @@ function analyzeNpm(repoPath) {
     registries: new Set(),
     resolutionNotes: [],
     floatingExamples: [],
+    entries: [],
   };
+  const allManifests = manifests.map(readJson).filter(Boolean);
 
   for (const lockFile of lockFiles) {
-    let lock;
-    try {
-      lock = JSON.parse(fs.readFileSync(lockFile, 'utf8'));
-    } catch {
-      continue;
-    }
+    const lock = readJson(lockFile);
+    if (!lock) continue;
     // lockfileVersion 2/3: "packages" map. v1: "dependencies" tree.
+    // A package is direct when a manifest declares it AND it sits at the top
+    // of the tree (`node_modules/<name>`, or depth 0 in a v1 tree): a nested
+    // copy of a declared name is another version some dependency asked for.
     const entries = [];
+    let declared;
     if (lock.packages) {
+      const roots = Object.entries(lock.packages)
+        .filter(([key, entry]) => !key.includes('node_modules/') && !entry.link)
+        .map(([, entry]) => entry);
+      declared = declaredNpmDeps(roots.length ? roots : allManifests);
       for (const [key, entry] of Object.entries(lock.packages)) {
-        if (key === '' || entry.link) continue; // root / workspace links
-        entries.push({ name: key.replace(/^.*node_modules\//, ''), ...entry });
+        if (!key.includes('node_modules/') || entry.link) continue; // root / workspaces / links
+        const name = key.replace(/^.*node_modules\//, '');
+        entries.push({ name, nested: /node_modules\/.*node_modules\//.test(key), ...entry });
       }
     } else if (lock.dependencies) {
-      const walk = (deps) => {
+      declared = declaredBeside(lockFile, allManifests);
+      const walk = (deps, depth) => {
         for (const [name, entry] of Object.entries(deps)) {
-          entries.push({ name, ...entry });
-          if (entry.dependencies) walk(entry.dependencies);
+          entries.push({ name, nested: depth > 0, ...entry });
+          if (entry.dependencies) walk(entry.dependencies, depth + 1);
         }
       };
-      walk(lock.dependencies);
+      walk(lock.dependencies, 0);
+    } else {
+      continue;
     }
     for (const entry of entries) {
       result.deps.total++;
@@ -101,11 +194,32 @@ function analyzeNpm(repoPath) {
       }
       if (entry.integrity) result.deps.hashPinned++;
       else result.deps.versionPinned++;
+      result.entries.push(makeEntry('npm', relative(repoPath, lockFile), {
+        name: entry.name,
+        version: entry.version,
+        resolved,
+        integrity: entry.integrity,
+        direct: declared.has(entry.name) && !entry.nested,
+        dev: entry.dev === true, // lockfile v1-v3 mark packages reachable only through devDependencies
+        tier: entry.integrity ? 'hash-pinned' : 'version-pinned',
+      }));
     }
   }
 
   for (const yarnLock of yarnLocks) {
     const text = fs.readFileSync(yarnLock, 'utf8');
+    const declared = declaredBeside(yarnLock, allManifests);
+    for (const { ranges, ...e } of parseYarnLock(text)) {
+      // yarn.lock keeps every requested range per resolution, so the direct
+      // one is the resolution whose ranges include what the manifest asked for
+      const direct = declared.has(e.name) && ranges.includes(declared.get(e.name).range);
+      result.entries.push(makeEntry('npm', relative(repoPath, yarnLock), {
+        ...e,
+        direct,
+        dev: direct ? declared.get(e.name).dev : null, // yarn.lock does not flag dev reachability
+        tier: e.integrity ? 'hash-pinned' : 'version-pinned',
+      }));
+    }
     // yarn v1: entry headers are non-indented lines ending in ':'
     const entryCount = (text.match(/^[^#\s].*:\s*$/gm) || []).length;
     const integrityCount = (text.match(/^\s+integrity /gm) || []).length;
@@ -121,17 +235,16 @@ function analyzeNpm(repoPath) {
   // Manifests without any lockfile → every range is floating.
   if (!lockFiles.length && !yarnLocks.length) {
     for (const manifest of manifests) {
-      let pkg;
-      try {
-        pkg = JSON.parse(fs.readFileSync(manifest, 'utf8'));
-      } catch {
-        continue;
-      }
+      const pkg = readJson(manifest);
+      if (!pkg) continue;
       const allDeps = { ...(pkg.dependencies || {}), ...(pkg.devDependencies || {}) };
       for (const [name, range] of Object.entries(allDeps)) {
         result.deps.total++;
         result.deps.floating++;
         if (result.floatingExamples.length < 10) result.floatingExamples.push(`${name}: ${range}`);
+        result.entries.push(makeEntry('npm', relative(repoPath, manifest), {
+          name, version: range, direct: true, dev: !(name in (pkg.dependencies || {})), tier: 'floating',
+        }));
       }
     }
     result.resolutionNotes.push('no lockfile found — all manifest ranges are floating');
@@ -168,6 +281,7 @@ function analyzePip(repoPath) {
     resolutionNotes: [],
     resolutionAmbiguous: false,
     floatingExamples: [],
+    entries: [],
   };
 
   for (const reqFile of reqFiles) {
@@ -187,18 +301,39 @@ function analyzePip(repoPath) {
         continue;
       }
       if (trimmed.startsWith('-')) continue; // other pip options
+      const hashes = [...trimmed.matchAll(/--hash=(\S+)/g)].map(m => m[1]).join(' ');
       if (/^(git\+|https?:\/\/|\.\/|\.\.\/|file:)/.test(trimmed)) {
         result.gitOrTarballDeps.push(trimmed.slice(0, 80));
         result.deps.total++;
+        const url = trimmed.split(/\s/)[0];
+        const egg = url.match(/#egg=([A-Za-z0-9_.-]+)/);
+        result.entries.push(makeEntry('pip', relative(repoPath, reqFile), {
+          name: egg ? egg[1] : url,
+          resolved: url,
+          integrity: hashes,
+          direct: true,
+          tier: hashes ? 'hash-pinned' : (/@[0-9a-f]{7,40}(#|$)/.test(url) ? 'source-ref-pinned' : 'floating'),
+        }));
         continue;
       }
       result.deps.total++;
-      if (/--hash=/.test(trimmed)) result.deps.hashPinned++;
-      else if (/==/.test(trimmed)) result.deps.versionPinned++;
+      const name = trimmed.split(/[\s=<>!~;[]/)[0];
+      const exact = trimmed.match(/==\s*([^\s;\\,]+)/);
+      let tier;
+      if (hashes) { result.deps.hashPinned++; tier = 'hash-pinned'; }
+      else if (exact) { result.deps.versionPinned++; tier = 'version-pinned'; }
       else {
         result.deps.floating++;
-        if (result.floatingExamples.length < 10) result.floatingExamples.push(trimmed.split(/\s/)[0]);
+        tier = 'floating';
+        if (result.floatingExamples.length < 10) result.floatingExamples.push(name);
       }
+      result.entries.push(makeEntry('pip', relative(repoPath, reqFile), {
+        name,
+        version: exact ? exact[1] : trimmed.slice(name.length).split(/[\s;]/)[0],
+        integrity: hashes,
+        direct: true,
+        tier,
+      }));
     }
   }
   return result;
@@ -226,6 +361,7 @@ function analyzeGradle(repoPath) {
     floatingExamples: [],
     sourceRefExamples: [],
     buildServiceExamples: [],
+    entries: [],
   };
 
   // Hash tier exists only through dependency verification metadata.
@@ -252,7 +388,7 @@ function analyzeGradle(repoPath) {
       const key = `${group}:${artifact}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      classifyGradleDep(key, version, verifiedComponents, result, '');
+      classifyGradleDep(key, version, verifiedComponents, result, '', relative(repoPath, file));
     }
   }
   // Version catalogs. A catalog entry (`alias = { module = "g:a", version.ref
@@ -263,6 +399,31 @@ function analyzeGradle(repoPath) {
     analyzeVersionCatalog(fs.readFileSync(toml, 'utf8'), relative(repoPath, toml),
       result, seen, verifiedComponents);
   }
+
+  // Verification metadata is the only place gradle records the *resolved* set
+  // (transitives included) with checksums. Where it exists it replaces the
+  // declaration rows for the coordinates it covers; declarations it does not
+  // cover (plugins, floating ranges) stay as declaration rows.
+  const declaredEntries = result.entries;
+  result.entries = [];
+  const covered = new Set();
+  for (const file of verificationFiles) {
+    const xml = fs.readFileSync(file, 'utf8');
+    for (const m of xml.matchAll(/<component\s+group="([^"]+)"\s+name="([^"]+)"\s+version="([^"]+)"[^>]*>([\s\S]*?)<\/component>/g)) {
+      const [, group, name, version, body] = m;
+      const key = `${group}:${name}`;
+      const sha = body.match(/<(sha256|sha512|sha1|md5)\s+value="([0-9a-fA-F]+)"/);
+      covered.add(key);
+      result.entries.push(makeEntry('gradle', relative(repoPath, file), {
+        name: key,
+        version,
+        integrity: sha ? `${sha[1]}:${sha[2].toLowerCase()}` : '',
+        direct: seen.has(key),
+        tier: sha ? 'hash-pinned' : 'version-pinned',
+      }));
+    }
+  }
+  for (const e of declaredEntries) if (!covered.has(e.name)) result.entries.push(e);
 
   result.registries = [...repoSet];
   // With >1 repository and no verification metadata, declaration order decides
@@ -293,25 +454,32 @@ function analyzeGradle(repoPath) {
  * it two different stories — a commit cannot move, a tag or version branch can
  * (a pin against a moving branch is how a rebuild recipe silently rots).
  */
-function classifyGradleDep(key, version, verifiedComponents, result, relPath) {
+function classifyGradleDep(key, version, verifiedComponents, result, relPath, lockfile = relPath) {
   const label = relPath ? `${relPath}: ${key}:${version}` : `${key}:${version}`;
   result.deps.total++;
+  let tier;
   if (version.includes('+') || version.startsWith('[') || version.startsWith('latest.')) {
     result.deps.floating++;
+    tier = 'floating';
     if (result.floatingExamples.length < 10) result.floatingExamples.push(label);
   } else if (verifiedComponents > 0) {
     result.deps.hashPinned++;
+    tier = 'hash-pinned';
   } else if (/^com\.github\./.test(key)) {
     if (/^[0-9a-f]{7,40}$/.test(version)) {
       result.deps.sourceRefPinned++;
+      tier = 'source-ref-pinned';
       if (result.sourceRefExamples.length < 10) result.sourceRefExamples.push(`${key}@${version}`);
     } else {
       result.deps.buildServiceTag++;
+      tier = 'build-service-tag';
       if (result.buildServiceExamples.length < 10) result.buildServiceExamples.push(`${key}@${version}`);
     }
   } else {
     result.deps.versionPinned++;
+    tier = 'version-pinned';
   }
+  result.entries.push(makeEntry('gradle', lockfile, { name: key, version, direct: true, dev: false, tier }));
 }
 
 /** Text of one TOML section, up to the next `[header]`. */
@@ -356,6 +524,7 @@ function analyzeVersionCatalog(text, relPath, result, seen, verifiedComponents) 
     if (!version) {
       result.deps.total++;
       result.deps.unversioned++;
+      result.entries.push(makeEntry('gradle', relPath, { name: key, direct: true, dev: false, tier: 'unversioned' }));
       continue; // version supplied by a BOM/platform declared elsewhere
     }
     classifyGradleDep(key, version, verifiedComponents, result, relPath);
@@ -377,19 +546,37 @@ function analyzeCargo(repoPath) {
     resolutionNotes: [],
     resolutionAmbiguous: false,
     floatingExamples: [],
+    entries: [],
   };
   for (const lockFile of lockFiles) {
     const text = fs.readFileSync(lockFile, 'utf8');
-    const blocks = text.split('[[package]]').slice(1);
+    const blocks = text.split('[[package]]').slice(1).map(block => ({
+      name: (block.match(/^name = "([^"]+)"/m) || [])[1] || '?',
+      version: (block.match(/^version = "([^"]+)"/m) || [])[1] || '',
+      source: (block.match(/^source = "([^"]+)"/m) || [])[1] || '',
+      checksum: (block.match(/^checksum = "([^"]+)"/m) || [])[1] || '',
+      // `dependencies = [ "name", "name 1.2.3", "name 1.2.3 (source)" ]`
+      dependencies: [...((block.match(/^dependencies = \[([\s\S]*?)^\]/m) || [])[1] || '').matchAll(/"([^"\s]+)/g)].map(m => m[1]),
+    }));
+    // Packages without a source are the workspace's own crates; what they
+    // list is the declared (direct) set, everything else is transitive.
+    const direct = new Set(blocks.filter(b => !b.source).flatMap(b => b.dependencies));
     for (const block of blocks) {
       result.deps.total++;
-      if (/^checksum = "/m.test(block)) result.deps.hashPinned++;
+      if (block.checksum) result.deps.hashPinned++;
       else {
-        const source = (block.match(/^source = "([^"]+)"/m) || [])[1] || 'path';
-        const name = (block.match(/^name = "([^"]+)"/m) || [])[1] || '?';
         result.deps.versionPinned++;
-        if (source.startsWith('git+')) result.gitOrTarballDeps.push(`${name} (${source.slice(0, 70)})`);
+        if (block.source.startsWith('git+')) result.gitOrTarballDeps.push(`${block.name} (${block.source.slice(0, 70)})`);
       }
+      if (!block.source) continue; // the app's own crates are not dependencies
+      result.entries.push(makeEntry('cargo', relative(repoPath, lockFile), {
+        name: block.name,
+        version: block.version,
+        resolved: block.source,
+        integrity: block.checksum ? `sha256:${block.checksum}` : '',
+        direct: direct.has(block.name),
+        tier: block.checksum ? 'hash-pinned' : (block.source.startsWith('git+') ? 'source-ref-pinned' : 'version-pinned'),
+      }));
     }
   }
   return result;
@@ -418,7 +605,7 @@ export function analyzePinning(repoPath) {
     } = a.deps;
     const pct = (n) => total ? `${((n / total) * 100).toFixed(1)}%` : '-';
     console.log(`\n[${a.ecosystem}] lock/verification files: ${a.lockfiles.length ? a.lockfiles.join(', ') : 'NONE'}`);
-    console.log(`  dependencies:    ${total}`);
+    console.log(`  dependencies:    ${total}` + (a.entries.length !== total ? `  (${a.entries.length} resolved rows recorded)` : ''));
     console.log(`  hash-pinned:     ${hashPinned} (${pct(hashPinned)})  — content hash recorded; registry swap detectable`);
     console.log(`  version-pinned:  ${versionPinned} (${pct(versionPinned)})  — exact version, registry trusted for bytes`);
     if (sourceRefPinned) {
