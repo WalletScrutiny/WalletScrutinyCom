@@ -3,7 +3,7 @@ title: Blockchair Extension for Chrome
 appId: ext.blockchair
 authors:
 - danny
-icon: ext.blockchair.png
+icon: ext.blockchair.webp
 date: 2024-05-09
 released: 2020-12-17
 updated: 2023-06-08

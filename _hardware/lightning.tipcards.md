@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-07-12
 discontinued: 
-updated: 2023-01-27
-version: 0.2.3
+updated: 2026-04-07
+version: 0.4.37
 binaries: 
 dimensions: 
 weight: 
@@ -16,20 +16,20 @@ website: https://tipcards.io
 shop: 
 country: DE
 price: 
-repository: https://github.com/Satoshi-Engineering/tip-cards/tags
-issue: 
-icon: lightning.tipcards.png
+repository: https://github.com/Satoshi-Engineering/tip-cards
+icon: lightning.tipcards.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2023-03-03
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: SatoshiEngTech
 social:
 - https://www.youtube.com/@satoshiengineering
 builds: 
-features: 
+features:
+- foss
+- ln
 
 ---
 
@@ -65,5 +65,6 @@ This project has its source publicly available and thus users can make their own
 
 This makes it a **do-it-yourself project.**
 
+{% include featureEvidence.html feature="ln" quote="Lightning Tip Cards are a tip (or gift) card system, where you can fund tip cards via the lightning network and the gifted person can redeem the funded cards." source="About Page" %}
 
-
+{% include featureEvidence.html feature="foss" quote="This project has its source publicly available and thus users can make their own implementations and redirect to their own urls instead of https://tipcards.io." source="Analysis" comment="Source available is noted, but the license type is not confirmed as OSI-approved. Omitting per conservative rules." %}

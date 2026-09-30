@@ -17,8 +17,7 @@ shop:
 country: ES
 price: 
 repository: 
-issue: 
-icon: kreypto.customqrkeychain.png
+icon: kreypto.customqrkeychain.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -17,8 +17,7 @@ shop:
 country: DE
 price: 
 repository: 
-issue: 
-icon: vr.bitcoingo.card.png
+icon: vr.bitcoingo.card.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

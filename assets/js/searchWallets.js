@@ -1,6 +1,11 @@
+const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'ecash', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
+const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'mobile', 'bearer', 'others'];
+const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct', 'fewusers'];
+
 // Core search functions
 function searchByWords(query, wallet) {
   const searchTermWords = query.length > 0 ? query.split(" ") : false;
+  const walletTitleUpper = String(wallet.title || '').toUpperCase();
   let walletAsStr = '';
   for (const [key, value] of Object.entries(wallet)) {
     walletAsStr += `${wallet.altTitle}${JSON.stringify(value)}${key}`;
@@ -14,7 +19,7 @@ function searchByWords(query, wallet) {
     const word2 =searchTermWords[i + 1] ? word + searchTermWords[i + 1] : false;
     const word3 =searchTermWords[i + 1] ? `${word} ${searchTermWords[i + 1]}` : false;
     const word4 = String(query);
-    if (wallet.title.indexOf(word4) >= 0) {
+    if (walletTitleUpper.indexOf(word4) >= 0) {
       result = wallet;
       wallet.matchRank = 0;
       wallet.matchData = "word4 title " + word4;
@@ -28,7 +33,7 @@ function searchByWords(query, wallet) {
     }
     if (walletAsStr.indexOf(word3) >= 0) {
       result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word4);
+      wallet.matchRank = walletAsStr.indexOf(word3);
       wallet.matchData = "word3 " + word3;
       break;
     }
@@ -48,24 +53,70 @@ function searchByWords(query, wallet) {
   return result;
 }
 
+// Parse f:key feature tokens from a query string.
+// Returns { featureKeys: string[], remainingQuery: string }
+function parseFeatureTokens(query) {
+  if (!query) return { featureKeys: [], remainingQuery: '' };
+  const featureKeys = [];
+  const words = query.split(/\s+/);
+  const remaining = [];
+  for (const word of words) {
+    if (word.toLowerCase().startsWith('f:')) {
+      const key = word.slice(2);
+      if (key.length > 0) featureKeys.push(key);
+    } else {
+      remaining.push(word);
+    }
+  }
+  return { featureKeys, remainingQuery: remaining.join(' ').trim() };
+}
+
+function walletMatchesPlatformFilter (wallet, platform) {
+  if (!platform || platform === 'allPlatforms') {
+    return true;
+  }
+  if (platform === 'android') {
+    return Boolean(
+      (wallet.folder === 'mobile' && wallet.hasAndroid) || wallet.folder === 'android' ||
+      (wallet.archived && wallet.folder === 'mobile'),
+    );
+  }
+  if (platform === 'iphone') {
+    return Boolean(
+      (wallet.folder === 'mobile' && wallet.hasIphone) || wallet.folder === 'iphone' ||
+      (wallet.archived && wallet.folder === 'mobile'),
+    );
+  }
+  return wallet.folder === platform;
+}
+
 function performSearch (wallets, query = false, platform = false) {
-  const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'ecash', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
-  const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
-  const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct'];
+  // Extract f:key tokens from query
+  const { featureKeys, remainingQuery } = parseFeatureTokens(query || '');
+  const textQuery = remainingQuery.length > 0 ? remainingQuery : false;
 
   const workingArray = [];
   let walletsTemp = false;
-  if (platform && platformOrder.includes(platform)) {
+  if (platform && platform !== 'allPlatforms') {
     walletsTemp = wallets.filter(function (w) {
-      return w.folder === platform;
+      return walletMatchesPlatformFilter(w, platform);
     });
   } else {
     walletsTemp = wallets;
   }
 
+  // Filter by features first (AND logic: must have ALL requested features)
+  // Case-insensitive: query is uppercased by the time it arrives here
+  if (featureKeys.length > 0) {
+    walletsTemp = walletsTemp.filter(w => {
+      const wf = (Array.isArray(w.features) ? w.features : []).filter(f => typeof f === 'string').map(f => f.toLowerCase());
+      return featureKeys.every(k => wf.includes(k.toLowerCase()));
+    });
+  }
+
   for (const wallet of walletsTemp) {
-    if (query && query.length > 0) {
-      const result = searchByWords(query, wallet);
+    if (textQuery && textQuery.length > 0) {
+      const result = searchByWords(textQuery, wallet);
       if (result) {
         workingArray.push(result);
       }
@@ -83,23 +134,25 @@ function performSearch (wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
-    if (a.verdict !== b.verdict && a.verdict && b.verdict) {
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
+    const aVerdict = getPrimaryWalletVerdict(a);
+    const bVerdict = getPrimaryWalletVerdict(b);
+    if (aVerdict !== bVerdict && aVerdict && bVerdict) {
+      return verdictOrder.indexOf(aVerdict) - verdictOrder.indexOf(bVerdict);
     }
     if (a.meta !== b.meta && a.meta && b.meta) {
       return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
     }
-    if (a.verdict === 'sourceavailable' && b.verdict === 'sourceavailable') {
+    if (walletHasVerdict(a, 'sourceavailable') && walletHasVerdict(b, 'sourceavailable')) {
       try {
         if (!window.allAssetInformation) {
           return 0;
         }
 
-        const resultA = getWeightForAppFromAssetInformation(a.appId);
+        const resultA = getWeightForAppFromAssetInformation(a.storeAppId || a.appId);
         const aWeight = resultA.weight;
         const aLastVersionVerified = resultA.lastVersionVerified;
 
-        const resultB = getWeightForAppFromAssetInformation(b.appId);
+        const resultB = getWeightForAppFromAssetInformation(b.storeAppId || b.appId);
         const bWeight = resultB.weight;
         const bLastVersionVerified = resultB.lastVersionVerified;
 
@@ -120,9 +173,6 @@ function performSearch (wallets, query = false, platform = false) {
     }
     if (a.users !== b.users) {
       return b.users - a.users;
-    }
-    if (a.ratings !== b.ratings) {
-      return b.ratings - a.ratings;
     }
     if (a.reviews !== b.reviews) {
       return b.reviews - a.reviews;
@@ -170,9 +220,11 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.add('working');
     document.querySelector('.search-controls').classList.add('edited');
   } else {
-    document.querySelector('.wallet-search').classList.remove('active');
     document.querySelector('.search-controls').classList.remove('working');
     document.querySelector('.search-controls').classList.remove('edited');
+    // below the 2-character search minimum nothing re-renders the results,
+    // so close the dropdown instead of leaving stale results on screen
+    exitSearchUI();
   }
 
   if (window.searchTerm) {
@@ -240,73 +292,411 @@ async function doNavBarSearch (input) {
   searchScrollToTop();
 }
 
-function getIcon (name) {
-  let faCollection = ''
-  switch (name) {
-    case 'all': faCollection = 'i-all-devices'; break;
-    case 'android': faCollection = 'fab fa-google-play'; break;
-    case 'iphone': faCollection = 'i-app-store'; break;
-    case 'hardware': faCollection = 'fas fa-toolbox'; break;
-    case 'bearer': faCollection = 'i-btc'; break;
-    case 'desktop': faCollection = 'fas fa-desktop'; break;
-    case 'others': faCollection = 'fas fa-calculator'; break;
-  }
-  return faCollection;
+function getWalletIconFolder (wallet) {
+  return wallet.iconFolder || wallet.folder;
 }
 
-function makeCompactResultsHTML (wallet, lazyLoad) {
-  const faCollection = getIcon(wallet.folder);
+function getWalletStoreAppId (wallet) {
+  return wallet.storeAppId || wallet.appId;
+}
+
+function getWalletStorePlatform (wallet) {
+  return wallet.storePlatform || wallet.folder;
+}
+
+function getWalletVerdictList (wallet) {
+  const list = [];
+  if (wallet.verdictAndroid) list.push(wallet.verdictAndroid);
+  if (wallet.verdictIphone) list.push(wallet.verdictIphone);
+  if (!list.length && wallet.verdict) list.push(wallet.verdict);
+  return list;
+}
+
+function getPrimaryWalletVerdict (wallet) {
+  const list = getWalletVerdictList(wallet);
+  if (!list.length) return wallet.verdict || '';
+  return list.reduce((best, v) => {
+    const vi = verdictOrder.indexOf(v);
+    const bi = verdictOrder.indexOf(best);
+    if (vi >= 0 && (bi < 0 || vi < bi)) return v;
+    return best;
+  }, list[0]);
+}
+
+function walletHasVerdict (wallet, verdict) {
+  return getWalletVerdictList(wallet).includes(verdict);
+}
+
+function renderStamp (key, text) {
+  const v = window.verdicts?.[key];
+  if (!v) return '';
+  const title = (v.title || '').replace(/"/g, '&quot;');
+  const color = v.color ? ` style="--verdict-color:${v.color}"` : '';
+  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color} alt=""></span>`;
+}
+
+function shouldShowVerdictStamp (verdict, meta) {
+  if (!verdict) return false;
+  return !(verdict === 'wip' && meta === 'removed');
+}
+
+function renderVerdictStamp (verdict, suffix, meta) {
+  if (!window.verdicts?.[verdict] || !shouldShowVerdictStamp(verdict, meta)) return '';
+  const text = suffix ? `${window.verdicts[verdict].short} (${suffix})` : window.verdicts[verdict].short;
+  return renderStamp(verdict, text);
+}
+
+function getWalletVerdictStampsHtml (wallet, platformFilter) {
+  if (wallet.verdictAndroid || wallet.verdictIphone) {
+    const showAndroid = !platformFilter || platformFilter === 'android';
+    const showIphone = !platformFilter || platformFilter === 'iphone';
+    const va = showAndroid ? wallet.verdictAndroid : '';
+    const vi = showIphone ? wallet.verdictIphone : '';
+    const ma = showAndroid ? wallet.metaAndroid : '';
+    const mi = showIphone ? wallet.metaIphone : '';
+    if (va && vi && va === vi) {
+      const showA = shouldShowVerdictStamp(va, ma);
+      const showI = shouldShowVerdictStamp(vi, mi);
+      if (!showA && !showI) return '';
+      return renderVerdictStamp(va);
+    }
+    const dual = va && vi && va !== vi;
+    const parts = [];
+    if (va) parts.push(renderVerdictStamp(va, dual ? 'Android' : null, ma));
+    if (vi) parts.push(renderVerdictStamp(vi, dual ? 'iPhone' : null, mi));
+    return parts.join('');
+  }
+  return renderVerdictStamp(wallet.verdict, null, wallet.meta);
+}
+
+function getWalletScoreIconsHtml (score) {
+  if (!score) return { passed: '', failed: '', text: '' };
+  let passed = '';
+  let failed = '';
+  for (let i = 0; i < score.numerator; i++) passed += '<i class="pass"></i>';
+  for (let i = 0; i < (score.denominator - score.numerator); i++) failed += '<i class="fail"></i>';
+  const text = `Passed ${score.numerator !== score.denominator ? score.numerator : 'all'} ${score.numerator !== score.denominator ? 'of' : ''} ${score.denominator} tests`;
+  return { passed, failed, text };
+}
+
+function scoresAreEqual (a, b) {
+  if (!a || !b) return false;
+  return a.numerator === b.numerator && a.denominator === b.denominator;
+}
+
+function getWalletScoreBlockHtml (wallet, platformFilter) {
+  if (wallet.scoreAndroid || wallet.scoreIphone) {
+    const showAndroid = !platformFilter || platformFilter === 'android';
+    const showIphone = !platformFilter || platformFilter === 'iphone';
+    const scoreAndroid = showAndroid ? wallet.scoreAndroid : null;
+    const scoreIphone = showIphone ? wallet.scoreIphone : null;
+    const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+    const sameScore = scoresAreEqual(scoreAndroid, scoreIphone);
+    const rows = [];
+    const addRow = (score, label) => {
+      if (!score) return;
+      const icons = getWalletScoreIconsHtml(score);
+      const prefix = dual && label ? `<small>${label}: </small>` : '';
+      rows.push(`${prefix}<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`);
+    };
+    if (scoreAndroid && scoreIphone && sameScore) addRow(scoreAndroid);
+    else {
+      if (scoreAndroid) addRow(scoreAndroid, 'Android');
+      if (scoreIphone) addRow(scoreIphone, 'iPhone');
+    }
+    return rows.join('<br>');
+  }
+  if (!wallet.score) return '';
+  const icons = getWalletScoreIconsHtml(wallet.score);
+  return `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
+}
+
+function getPlatformStoreLabel (platform) {
+  return platform === 'iphone' ? 'App Store' : 'Play Store';
+}
+
+function getWalletVerificationHtmlForPlatform (wallet, platform) {
+  if (!window.allAssetInformation) return '';
+  const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
+  const appId = platform === 'android' ? wallet.androidAppId : wallet.iphoneAppId;
+  if (verdict !== 'sourceavailable' || !appId) return '';
+  const status = getLastVerificationStatusForAppId(appId, platform);
+  if (!status) {
+    return '<span>❓ Not verified yet</span>';
+  }
+  return `<span>${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`;
+}
+
+function getWalletVerificationLinesHtml (wallet, platformFilter) {
+  if (!window.allAssetInformation) return '';
+  const lines = [];
+  const addLine = (verdict, appId, platform, label) => {
+    if (verdict !== 'sourceavailable' || !appId) return;
+    const status = getLastVerificationStatusForAppId(appId, platform);
+    const prefix = label ? `${label}: ` : '';
+    if (!status) {
+      lines.push(`<span>${prefix}❓ Not verified yet</span>`);
+      return;
+    }
+    lines.push(`<span>${prefix}${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`);
+  };
+  if (wallet.verdictAndroid || wallet.verdictIphone) {
+    addLine(wallet.verdictAndroid, wallet.androidAppId, 'android', wallet.verdictAndroid !== wallet.verdictIphone ? 'Android' : null);
+    addLine(wallet.verdictIphone, wallet.iphoneAppId, 'iphone', wallet.verdictAndroid !== wallet.verdictIphone ? 'iPhone' : null);
+    return lines.join('<br>');
+  }
+  if (walletHasVerdict(wallet, 'sourceavailable')) {
+    const target = getVerificationTarget(wallet, platformFilter);
+    addLine('sourceavailable', target.appId, target.platform, null);
+  }
+  return lines.join('<br>');
+}
+
+function walletHasAndroidStore (wallet) {
+  return Boolean(wallet.hasAndroid || wallet.androidAppId);
+}
+
+function walletHasIphoneStore (wallet) {
+  return Boolean(wallet.hasIphone || wallet.iphoneAppId);
+}
+
+function walletPlatformSections (wallet, platformFilter) {
+  if (wallet.folder !== 'mobile') return [];
+  const sections = [];
+  const filter = platformFilter || 'allPlatforms';
+  if (walletHasAndroidStore(wallet) && (filter === 'allPlatforms' || filter === 'android')) {
+    sections.push('android');
+  }
+  if (walletHasIphoneStore(wallet) && (filter === 'allPlatforms' || filter === 'iphone')) {
+    sections.push('iphone');
+  }
+  return sections;
+}
+
+function renderWalletPlatformMetaStamp (wallet, platform) {
+  const meta = platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
+  if (!meta || meta === 'ok' || !window.verdicts?.[meta]) return '';
+  return renderStamp(meta, window.verdicts[meta].short);
+}
+
+function getWalletPlatformMeta (wallet, platform) {
+  return platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
+}
+
+function getWalletPlatformVerdictStampsHtml (wallet, platform) {
+  const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
+  return [
+    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform)),
+    renderWalletPlatformMetaStamp(wallet, platform),
+  ].filter(Boolean).join('');
+}
+
+function renderWalletPlatformSection (wallet, platform) {
+  const score = platform === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
+  const stamps = getWalletPlatformVerdictStampsHtml(wallet, platform);
+  const verificationHtml = getWalletVerificationHtmlForPlatform(wallet, platform);
+  let scoreHtml = '';
+  if (score) {
+    const icons = getWalletScoreIconsHtml(score);
+    scoreHtml = `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
+  }
+  const body = [verificationHtml, scoreHtml].filter(Boolean).join('');
+  return `
+    <div class="wallet-platform-row">
+      <div class="wallet-platform-row__head">
+        ${getIcon(platform)}
+        <span>${getPlatformStoreLabel(platform)}</span>
+      </div>
+      ${stamps ? `<div class="stamps">${stamps}</div>` : ''}
+      ${body ? `<div class="score">${body}</div>` : ''}
+    </div>`;
+}
+
+function getWalletSharedStampsHtml (wallet) {
+  const parts = [];
+  if (wallet.archived) {
+    parts.push('<span class="stamp stamp-archived">Wallet Archived</span>');
+  }
+  if (wallet.alertFeatures?.length) {
+    parts.push(
+      wallet.alertFeatures.map((f) =>
+        `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`
+      ).join('')
+    );
+  }
+  return parts.join('');
+}
+
+function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
+  // one layout for all mobile wallets: single-platform ones get the same
+  // store-header section as dual-platform ones instead of a flat row with
+  // an "Android:" text prefix
+  return wallet.folder === 'mobile' && platforms.length > 0;
+}
+
+function getWalletCardDetailsHtml (wallet, platformFilter) {
+  const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
+  const platforms = walletPlatformSections(wallet, listPlatform);
+  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
+
+  if (usePlatformSections) {
+    const shared = getWalletSharedStampsHtml(wallet);
+    const sectionsHtml = platforms.map((p) => renderWalletPlatformSection(wallet, p)).join('');
+    return `
+      <div class="wallet-details wallet-details--by-platform">
+        ${shared ? `<div class="stamps stamps--shared">${shared}</div>` : ''}
+        ${sectionsHtml}
+      </div>`;
+  }
+
+  const verificationHtml = getWalletVerificationLinesHtml(wallet, listPlatform);
+  const verdictStampsHtml = getWalletVerdictStampsHtml(wallet, listPlatform);
+  const scoreBlockHtml = getWalletScoreBlockHtml(wallet, listPlatform);
+  const metaStamp = wallet.meta && wallet.meta !== 'ok'
+    ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
+    : '';
+
+  return `
+    <div class="wallet-details">
+      <div class="stamps">
+        ${getWalletSharedStampsHtml(wallet)}
+        ${verdictStampsHtml}
+        ${metaStamp}
+      </div>
+      ${scoreBlockHtml || wallet.score || verificationHtml
+        ? `<div class="score" data-numerator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).numerator || 0}" data-denominator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).denominator || 0}">
+          ${verificationHtml}
+          ${scoreBlockHtml || (wallet.score ? `<span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>` : '')}
+        </div>`
+        : ''}
+    </div>`;
+}
+
+function getVerificationTarget (wallet, platformFilter) {
+  if (platformFilter === 'iphone' && wallet.iphoneAppId) {
+    return { appId: wallet.iphoneAppId, platform: 'iphone' };
+  }
+  if (platformFilter === 'android' && wallet.androidAppId) {
+    return { appId: wallet.androidAppId, platform: 'android' };
+  }
+  return {
+    appId: getWalletStoreAppId(wallet),
+    platform: getWalletStorePlatform(wallet)
+  };
+}
+
+function getWalletListIcon (wallet, platformFilter) {
+  if (platformFilter === 'android' || platformFilter === 'iphone') {
+    return getIcon(platformFilter);
+  }
+  if (wallet.folder === 'mobile') {
+    return getIcon('mobile');
+  }
+  return getIcon(wallet.folder);
+}
+
+function getWalletListCategory (wallet, platformFilter) {
+  if (platformFilter === 'android') {
+    return 'Play Store';
+  }
+  if (platformFilter === 'iphone') {
+    return 'App Store';
+  }
+  return wallet.archived ? wallet.folder : wallet.category;
+}
+
+// Returns the icon markup for a platform: sprite icons via wsIcon() (global from site_main),
+// custom font icons (i-*) as before.
+function getIcon (name) {
+  switch (name) {
+    case 'all': return '<i class="i-all-devices" aria-hidden="true"></i>';
+    case 'mobile': return wsIcon('mobile-screen');
+    case 'android': return wsIcon('google-play');
+    case 'iphone': return '<i class="i-app-store" aria-hidden="true"></i>';
+    case 'hardware': return wsIcon('toolbox');
+    case 'bearer': return '<i class="i-btc" aria-hidden="true"></i>';
+    case 'desktop': return wsIcon('desktop');
+    case 'others': return wsIcon('calculator');
+  }
+  return '';
+}
+
+function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
+  const faCollection = getWalletListIcon(wallet, platformFilter);
   const basePath = wallet.base_path || '';
   const analysisUrl = `${basePath}${wallet.url}`;
-  
+  const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
+
   let scoreHTML = '';
-  if (wallet.score) {
-    const passCount = wallet.score.numerator;
-    const failCount = wallet.score.denominator - wallet.score.numerator;
-    
-    const passIcons = '<i class="pass"></i>'.repeat(passCount);
-    const failIcons = '<i class="fail"></i>'.repeat(failCount);
-    
-    const scoreText = passCount !== wallet.score.denominator 
-      ? `Passed ${passCount} of ${wallet.score.denominator} tests`
-      : `Passed all ${wallet.score.denominator} tests`;
-    
-    scoreHTML = `<div class="tests-passed" data-numerator="${passCount}" data-denominator="${wallet.score.denominator}">
-      <span>${scoreText}</span>
-      <div>${passIcons}${failIcons}</div>
+  const scoreBlock = getWalletScoreBlockHtml(wallet, listPlatform);
+  if (scoreBlock) {
+    const primaryScore = wallet.score || wallet.scoreAndroid || wallet.scoreIphone;
+    const num = primaryScore?.numerator ?? 0;
+    const den = primaryScore?.denominator ?? 0;
+    scoreHTML = `<div class="tests-passed" data-numerator="${num}" data-denominator="${den}">
+      ${scoreBlock}
     </div>`;
   }
 
-  let verificationHTML = '';
-  if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
-    const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
-    if (lastVerificationStatus) {
-      const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
-      verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
-    } else {
-      verificationHTML = '<span>❓ Not verified yet</span>';
-    }
+  const platforms = walletPlatformSections(wallet, listPlatform);
+  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
+  let statsHTML = '';
+
+  if (usePlatformSections) {
+    const shared = getWalletSharedStampsHtml(wallet);
+    const sections = platforms.map((p) => {
+      const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
+      const stamps = getWalletPlatformVerdictStampsHtml(wallet, p);
+      const verificationHTML = wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p);
+      let sectionScoreHTML = '';
+      if (score) {
+        const icons = getWalletScoreIconsHtml(score);
+        sectionScoreHTML = `<div class="tests-passed"><span>${icons.text}</span><div>${icons.passed}${icons.failed}</div></div>`;
+      }
+      return `
+        <div class="wallet-platform-row wallet-platform-row--compact">
+          <div class="wallet-platform-row__head">
+            ${getIcon(p)}
+            <span>${getPlatformStoreLabel(p)}</span>
+          </div>
+          ${stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : ''}
+          ${verificationHTML}
+          ${sectionScoreHTML}
+        </div>`;
+    }).join('');
+    statsHTML = `
+      <span class="stats stats--by-platform">
+        ${shared ? `<span class="stats-shared">${shared}</span>` : ''}
+        ${sections}
+      </span>`;
+  } else {
+    const verificationHTML = getWalletVerificationLinesHtml(wallet, platformFilter);
+    statsHTML = `
+      <span class="stats">
+        ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
+        ${getWalletVerdictStampsHtml(wallet, listPlatform)}
+        ${wallet.meta && wallet.meta !== 'ok'
+          ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
+          : ''}
+        ${wallet.archived ? '' : verificationHTML}
+        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
+          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
+          : ''}
+        ${scoreHTML}
+      </span>`;
   }
 
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return [
     `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
-      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
+      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
-          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>`,
+          `<span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
         '</small>',
       '</span>',
-      '<span class="stats">',
-        wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '',
-        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
-        wallet.archived ? '' : verificationHTML,
-        wallet.meta && wallet.meta !== 'ok'
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : '',
-        scoreHTML,
-      '</span>',
+      statsHTML,
     '</a>'
   ].join('');
 }
@@ -331,18 +721,20 @@ window.addEventListener('resize', () => {
 const versionTaggedWallets = [];
 
 window.versionTag = () => {
-  var readerRec = [];
   versionTaggedWallets.length = 0;
+  const wsIdIndex = new Map();
+  const seenAppIds = new Set();
   window.wallets.forEach(e => {
     if (e.wsId) {
       const wsId = e.wsId;
-      var i = readerRec.indexOf(wsId);
-      if (wsId.length > 0 && i < 0) {
+      if (wsId.length === 0) return;
+      if (!wsIdIndex.has(wsId)) {
+        wsIdIndex.set(wsId, versionTaggedWallets.length);
         versionTaggedWallets.push(e);
-        readerRec.push(wsId);
       } else {
         // If we already added a product with this wsId, we add the new one as a
         // 'version' of the prior one.
+        const i = wsIdIndex.get(wsId);
         const versionsI = versionTaggedWallets[i].versions || [];
         versionsI.push(e);
         versionTaggedWallets[i].versions = versionsI;
@@ -350,9 +742,9 @@ window.versionTag = () => {
     } else if (e.appId && e.appId.length > 0) {
       // making sure the appId doesn't match any wsId:
       const appId = `__${e.appId}__`;
-      if (!readerRec.includes(appId)) {
+      if (!seenAppIds.has(appId)) {
+        seenAppIds.add(appId);
         versionTaggedWallets.push(e);
-        readerRec.push(appId);
       }
     }
   });

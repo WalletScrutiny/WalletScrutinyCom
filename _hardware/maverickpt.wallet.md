@@ -17,12 +17,10 @@ shop:
 country: PT
 price: 
 repository: 
-issue: 
 icon: 
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: maverickpt

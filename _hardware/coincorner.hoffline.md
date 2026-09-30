@@ -17,12 +17,10 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
-icon: coincorner.hoffline.png
+icon: coincorner.hoffline.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-01-20
 signer: 
 twitter: CoinCorner

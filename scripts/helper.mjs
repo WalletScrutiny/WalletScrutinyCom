@@ -1,50 +1,82 @@
 import fs from 'fs';
 import https from 'https';
-import FileType from 'file-type';
+import { fileTypeFromFile } from 'file-type';
 import path from 'path';
+import { execFileSync } from 'child_process';
 import yaml from 'js-yaml';
-import dateFormat from 'dateformat';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
+// Every stored icon is a WebP of at most 512 px (see updateImages.sh, which derives small/ and tiny/ from it).
+// Store downloads arrive as PNG, JPEG or WebP; this re-encodes them with the same ImageMagick settings as
+// updateImages.sh, keeping the ICC profile (it changes how the icon renders) and dropping the EXIF/XMP/Photoshop
+// blocks that on some store icons weigh more than the image itself.
+function convertIconToWebp (sourcePath, targetPath) {
+  execFileSync('convert', [
+    sourcePath, '+profile', '!icc,*', '-resize', '512x512>', '-quality', '85', '-define', 'webp:method=6', targetPath
+  ], { stdio: ['ignore', 'ignore', 'pipe'] });
+}
+
 function downloadImageFile (url, iconPath, callback) {
+  const finish = (iconExtension) => {
+    try {
+      callback(iconExtension);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  if (!url || !String(url).startsWith('https://')) {
+    console.error(`Invalid icon URL for ${iconPath}: ${url}`);
+    finish(null);
+    return;
+  }
+
   const iconFile = fs.createWriteStream(iconPath);
-  const request = https.get(`${url}`, response => {
+  const request = https.get(url, response => {
+    if (response.statusCode && response.statusCode >= 400) {
+      console.error(`Icon HTTP ${response.statusCode} for ${iconPath}`);
+      iconFile.close(() => {
+        fs.unlink(iconPath, () => finish(null));
+      });
+      return;
+    }
     response.pipe(iconFile);
-    response.on('end', () => {
+    // 'finish' on the file stream, not 'end' on the response: the last chunk may still be in flight when the
+    // response ends, and the conversion below reads the file from disk.
+    iconFile.on('finish', () => {
       (async () => {
-        const mimetype = ((await FileType.fromFile(iconPath)) || { mime: 'undefined' }).mime;
-        var iconExtension = null;
-        if (mimetype === 'image/png') {
-          iconExtension = 'png';
-        } else if (mimetype === 'image/jpg' || mimetype === 'image/jpeg') {
-          iconExtension = 'jpg';
-        } else if (mimetype === 'text/html' || mimetype === 'text/plain') {
-          console.error(`Not writing results to ${iconPath}`);
-          console.error(`Icon wrong mime type ${mimetype}. Skipping.`);
-          return;
-        } else {
-          console.error(`Not writing results to ${iconPath}`);
-          console.error(`Icon wrong mime type ${mimetype}. Skipping.`);
-          return;
+        try {
+          const mimetype = ((await fileTypeFromFile(iconPath)) || { mime: 'undefined' }).mime;
+          if (!['image/png', 'image/jpg', 'image/jpeg', 'image/webp'].includes(mimetype)) {
+            console.error(`Icon wrong mime type ${mimetype} for ${iconPath}. Keeping previous icon.`);
+            fs.unlink(iconPath, () => {});
+            finish(null);
+            return;
+          }
+          try {
+            convertIconToWebp(iconPath, `${iconPath}.webp`);
+          } catch (err) {
+            console.error(`ERROR converting icon ${iconPath} to WebP: ${err.message}. Keeping previous icon.`);
+            fs.unlink(iconPath, () => finish(null));
+            return;
+          }
+          fs.unlink(iconPath, () => finish('webp'));
+        } catch (err) {
+          console.error(`Icon processing failed for ${iconPath}: ${err}`);
+          fs.unlink(iconPath, () => finish(null));
         }
-        callback(iconExtension);
-        fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
-          if (err) console.log('ERROR: ' + err);
-        });
       })();
     });
     response.on('error', err => {
       console.error(err);
+      finish(null);
     });
   });
   request.on('error', err => {
     console.error(err);
+    finish(null);
   });
-}
-
-function getMasterHead () {
-  return `${fs.readFileSync('.git/refs/heads/master')}`.trim();
 }
 
 const defunctFile = '_data/defunct.yaml';
@@ -54,12 +86,43 @@ function was404 (id) {
   return defuncts.match(line);
 }
 
-function addDefunctIfNew (id) {
+function addRemovedIfNew (id) {
   if (!was404(id)) {
     // newly defunct
     const line = `- ${id}\n`;
     defuncts += line;
     fs.appendFileSync(defunctFile, line);
+  }
+}
+
+const lastCheckFile = '_data/lastRemovedCheck.yml';
+const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
+const NOW_MS = new Date().getTime();
+const lastCheck = getLastRemovedCheck();
+const removedCheckDue = NOW_MS - lastCheck > TWO_WEEKS_MS;
+
+function getLastRemovedCheck() {
+  try {
+    if (fs.existsSync(lastCheckFile)) {
+      const content = fs.readFileSync(lastCheckFile, 'utf8');
+      const data = yaml.load(content);
+      if (data && data.date) {
+        return new Date(data.date).getTime();
+      }
+    }
+  } catch (err) {
+    console.error(`Error reading ${lastCheckFile}: ${err}`);
+  }
+  return 0;
+}
+
+function updateLastRemovedCheck() {
+  try {
+    const data = { date: new Date() };
+    const content = yaml.dump(data);
+    fs.writeFileSync(lastCheckFile, content);
+  } catch (err) {
+    console.error(`Error writing ${lastCheckFile}: ${err}`);
   }
 }
 
@@ -108,13 +171,7 @@ function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
 
 function dateOrEmpty (d) {
   return d
-    ? dateFormat(d, 'yyyy-mm-dd')
-    : '';
-}
-
-function stringOrEmpty (s) {
-  return s
-    ? `"${s}"`
+    ? new Date(d).toISOString().slice(0, 10)
     : '';
 }
 
@@ -159,12 +216,27 @@ function getEmptyHeader (headers) {
   return headers.reduce((a, v) => ({ ...a, [v]: null }), {});
 }
 
+/** Frontmatter keys listed in headers but omitted from output when empty. */
+const OMIT_IF_EMPTY = new Set(['bitcoinOrgId']);
+
+function omitEmptyOptionalHeaderFields (header) {
+  const out = { ...header };
+  for (const key of OMIT_IF_EMPTY) {
+    const v = out[key];
+    if (v == null || (typeof v === 'string' && v.trim() === '')) {
+      delete out[key];
+    }
+  }
+  return out;
+}
+
 function getResult (header, body) {
   const schema = yaml.DEFAULT_SCHEMA;
   schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function () { return ''; };
   schema.compiledTypeMap.scalar['tag:yaml.org,2002:timestamp'].represent = function (it) { return dateOrEmpty(it); };
+  const headerOut = omitEmptyOptionalHeaderFields(header);
   return `---
-${yaml.dump(header, {
+${yaml.dump(headerOut, {
   noArrayIndent: true,
   schema: schema,
   lineWidth: -1,
@@ -187,16 +259,59 @@ function writeResult (folder, header, body) {
     .write(getResult(header, body));
 }
 
+export function parseCliFlags (argv, { boolean = [], string = [], alias = {} } = {}) {
+  const values = {};
+  const canonical = key => {
+    if (boolean.includes(key) || string.includes(key)) return key;
+    for (const [short, long] of Object.entries(alias)) {
+      if (key === short || key === long) return long;
+    }
+    return null;
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (!arg.startsWith('-')) continue;
+    const key = canonical(arg.replace(/^-{1,2}/, ''));
+    if (!key) continue;
+    values[key] = string.includes(key) ? argv[++i] : true;
+  }
+  return values;
+}
+
+export class Semaphore {
+  constructor (concurrency) {
+    this._free = concurrency;
+    this._queue = [];
+  }
+
+  acquire () {
+    const grant = () => {
+      this._free--;
+      return [this._free, () => {
+        this._free++;
+        if (this._queue.length > 0) {
+          this._queue.shift()();
+        }
+      }];
+    };
+    return this._free > 0
+      ? Promise.resolve(grant())
+      : new Promise(resolve => this._queue.push(() => resolve(grant())));
+  }
+}
+
 export default {
-  addDefunctIfNew,
+  addRemovedIfNew,
   checkHeaderKeys,
   dateOrEmpty,
   downloadImageFile,
   getEmptyHeader,
+  getLastRemovedCheck,
   getResult,
   loadFromFile,
   migrateAll,
-  stringOrEmpty,
+  removedCheckDue,
+  updateLastRemovedCheck,
   updateMeta,
   was404,
   writeResult

@@ -1,13 +1,14 @@
 ---
 title: Trezor Safe 5
 appId: trezorSafe5
+bitcoinOrgId: trezorsafe5
 authors:
 - danny
 - keraliss
 released: 2024-06-14
 discontinued: 
-updated: 2025-11-18
-version: 2.9.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: https://data.trezor.io/firmware/t3t1/trezor-t3t1-2.8.3.bin
 dimensions:
 - 66
@@ -20,28 +21,29 @@ website: https://trezor.io
 shop: https://trezor.io/trezor-safe-5
 country: CZ
 price: 169USD
-repository: https://github.com/trezor/data/tree/master/firmware/t3t1
-issue: https://github.com/trezor/trezor-firmware/issues/4586
-icon: trezorSafe5.png
+repository: https://github.com/trezor/trezor-firmware
+icon: trezorSafe5.webp
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628
-- 14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de
-- 01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777
-- 6d932e5200927b6eeebc9b8700effde957a9880774944bcc028b0cbac85e7f6a
-- 9e1bc9773194df462a2350108da1cc4f5a70149b93affcb363c5b96c14b30a4d
 date: 2025-09-11
 signer: 
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
-builds: 
+builds:
+- arch: arm
+  types:
+    btc-only:
+    - trezor-t3t1-*-bitcoinonly.bin
+    universal:
+    - trezor-t3t1-*.bin
 features: 
 
 ---
+
+**Note:** Trezor's repository is structured in this way for this device: [trezor/data/tree/master/firmware/t3t1](https://github.com/trezor/data/tree/master/firmware/t3t1)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1EVzbNPn6bc?si=vv88okupfrEmtEff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -58,3 +60,7 @@ Built on the technology behind the {% include walletLink.html wallet='hardware/t
 - Shipped without firmware (can be installed through USB-C using Trezor Suite)  
 - Pin and passphrase protection
 - Bitcoin-only and Universal (1000 coins and tokens) variants
+
+{% include featureEvidence.html feature="selfBuild" comment="Not tagged selfBuild: unlike Trezor One/T, the Safe 5 hardware designs are not published in the trezor-hardware repo (which only contains One and T). The EAL 6+ Secure Element is the TROPIC01 chip by Tropic Square — open architecture and auditable, but sold to companies rather than individual builders, and no self-build instructions for the Safe 5 PCB exist." %}
+
+An issue has been opened at [https://github.com/trezor/trezor-firmware/issues/4586](https://github.com/trezor/trezor-firmware/issues/4586)

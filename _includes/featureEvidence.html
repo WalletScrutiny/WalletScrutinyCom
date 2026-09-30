@@ -1,0 +1,15 @@
+{% comment %}
+  Renders a feature citation added by the feature verifier script.
+  Parameters:
+    feature  - feature key (e.g. "taproot")
+    comment  - reasoning comment (always present)
+    source   - markdown link to source, e.g. "[Source name](url)" (optional)
+    quote    - verbatim quote from source (optional)
+{% endcomment %}
+{% assign f = site.data.features[include.feature] %}
+<div class="feature-evidence">
+  <span class="feature-evidence__label"><a href="/features/#{{ include.feature }}">{{ f.short | default: include.feature }}</a></span>
+  {% if include.quote %}<blockquote class="feature-evidence__quote">{{ include.quote }}</blockquote>{% endif %}
+  {% if include.comment %}<p class="feature-evidence__comment">{{ include.comment }}</p>{% endif %}
+  {% if include.source %}<p class="feature-evidence__source">Source: {{ include.source | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+</div>

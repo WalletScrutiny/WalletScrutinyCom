@@ -1,5 +1,5 @@
 ---
-title: Bitkey
+title: Bitkey (2024)
 appId: blockhww
 authors:
 - danny
@@ -20,12 +20,10 @@ shop: https://bitkey.world/en-US/products/bitkey
 country: US
 price: 150USD
 repository: https://github.com/proto-at-block/bitkey
-issue: 
-icon: blockhww.png
+icon: blockhww.webp
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita
-appHashes: 
 date: 2024-03-14
 signer: 
 twitter: Bitkeyofficial
@@ -35,7 +33,10 @@ social:
 - https://www.instagram.com/ownbitkey
 builds: 
 features:
-- multiSignature
+- fingerprint
+- foss
+- multiSig
+- nfc
 
 ---
 
@@ -43,7 +44,7 @@ features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pZ-Yi7A-o_A?si=cP6zKgW7r-JosAb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}.   
+This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}. For the 2026 hardware revision with OLED touchscreen, see {% include walletLink.html wallet='hardware/bitkey2026' verdict='true' %}.
 
 ## Update, 2024-03-04: The Bitkey Hardware Wallet is now officially released
 
@@ -114,3 +115,11 @@ Bitkey innovates with a combination of social recovery, biometrics, NFC and mult
 Absent a button and a screen, the device would be engaging in blind-signing. Users would be trusting the mobile device, and the app that is preparing the transaction. Attackers who have access to manipulating the software can just as easily alter details such as the address where the bitcoin would be sent. 
 
 For this reason, we give the device a verdict of having a **bad interface**.
+
+{% include featureEvidence.html feature="foss" quote="Software is licensed by Block, Inc. under the following MIT License (the &quot;License&quot;), and with no warranties or guarantees." source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Bitkey's 2-of-3 multisig setup is built into every wallet. You hold two keys: one on your Bitkey device and one in the app . A third is encrypted on a server and can't be used without one of your other keys." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fully Integrated Bitkey's app and hardware were built together from the ground up to eliminate the complexities of traditional hardware wallets. Compare prices across exchange partners before you buy, and relax knowing Bitkey's biometric hardware can protect every transaction in the app." source="Website" %}
+
+{% include featureEvidence.html feature="nfc" quote="Pair the hardware device with the app using NFC (no initial charging required)." source="Website" %}

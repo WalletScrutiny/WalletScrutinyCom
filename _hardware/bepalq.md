@@ -15,18 +15,16 @@ dimensions:
 - 6.4
 weight: 
 provider: BEPAL
-providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-q?type=Bepal%20Q
-shop: https://bepal.pro/bepal-q?type=Bepal%20Q
+providerWebsite: https://bepal.pro#deadLink
+website: https://bepal.pro/bepal-q?type=Bepal%20Q#deadLink
+shop: https://bepal.pro/bepal-q?type=Bepal%20Q#deadLink
 country: CH
 price: 598CNY
 repository: 
-issue: 
-icon: bepalq.png
+icon: bepalq.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-12-04
 signer: 
 twitter: 

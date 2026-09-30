@@ -1,12 +1,13 @@
 ---
 title: Jade Plus
 appId: blockstreamjadeplus
+bitcoinOrgId: jadeplus
 authors:
 - danny
 released: 2025-01-03
 discontinued: 
-updated: 2025-11-18
-version: 1.0.38
+updated: 2026-08-21
+version: 1.0.41
 binaries: 
 dimensions:
 - 65
@@ -20,12 +21,10 @@ shop: https://store.blockstream.com/products/jade-plus
 country: US
 price: 149USD
 repository: https://github.com/Blockstream/jade
-issue: 
-icon: blockstreamjadeplus.png
+icon: blockstreamjadeplus.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-08-04
 signer: 
 twitter: Blockstream
@@ -34,8 +33,13 @@ social:
 - https://www.facebook.com/Blockstream
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
-builds: 
-features: 
+builds:
+- arch: esp32s3
+  types: jadeplus
+features:
+- airGapped
+- camera
+- foss
 
 ---
 
@@ -68,10 +72,10 @@ Reproducibility is a **work-in-progress**.
 The Jade Plus appears to be using the same firmware codebase as the original Jade, but with different hardware based on the ESP32-S3 microcontroller (as opposed to the original ESP32 used in the first Jade).
 
 The repository contains configuration files specifically for Jade Plus, as seen in the configs and production directories with files containing "v2s3" (likely indicating Version 2 with ESP32-S3).
-  - Main config file: [sdkconfig_jade_v2s3.defaults](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults)
-  - Production config: [sdkconfig_jade_v2s3_prod.defaults](https://github.com/Blockstream/jade/blob/master/production/sdkconfig_jade_v2s3_prod.defaults)
+  - Main config file: [sdkconfig_jade_v2s3.defaults](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#deadLink)
+  - Production config: [sdkconfig_jade_v2s3_prod.defaults](https://github.com/Blockstream/jade/blob/master/production/sdkconfig_jade_v2s3_prod.defaults#deadLink)
 
-The firmware identifies itself as "Jade Plus" in the USB device descriptor string, as seen in the [configuration file](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#L84).
+The firmware identifies itself as "Jade Plus" in the USB device descriptor string, as seen in the [configuration file](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#L84&deadLink).
 
 Recent updates in the [changelog](https://github.com/Blockstream/jade/blob/master/CHANGELOG.md) show specific improvements for ESP32-S3 devices, including:
 - Improved BLE pairing/bonding
@@ -88,3 +92,10 @@ The device offers multiple connectivity options:
 - External Storage: For air-gapped firmware upgrades and transaction signing
 
 A notable accessory is the JadeLink, a low-profile USB-C storage drive designed specifically for the Jade Plus to facilitate air-gapped operations. It's available as part of a bundle with the Jade Plus for $169 USD.
+
+{% include featureEvidence.html feature="foss" quote="The collection is subject to GPL3 but individual source components can be used under their specific licenses." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="camera" quote="jade_v2: Jade Plus, with a larger screen and left/right selection buttons instead of a wheel or rocker." source="GitHub README" comment="Camera support is referenced in the README via qemu emulator with camera support and the jade_v2 target which corresponds to Jade Plus with camera, distinct from jade_v2c which is Jade Plus without camera and battery." %}
+
+{% include featureEvidence.html feature="airGapped" quote="Alternatively, to run the qemu emulator with display and camera support" source="GitHub README" %}

@@ -22,12 +22,10 @@ shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
 country: KP
 price: 119USD
 repository: 
-issue: https://github.com/DcentWallet/biometric-firmware/issues/3
-icon: dcentbiometric.png
+icon: dcentbiometric.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: DCENTwallets
@@ -78,7 +76,7 @@ The device can connect via BlueTooth or USB to an Android or iOS app by the same
 
 The device has a  1.1 inch OLED display (128x128 pixels)
 
-Watch [third party unboxing and setup video](https://www.youtube.com/watch?v=3J9j7vtb1Go)
+Watch [third party unboxing and setup video](https://www.youtube.com/watch?v=3J9j7vtb1Go#deadLink)
 
 ## Interface - ✔️
 
@@ -86,4 +84,6 @@ The device has a large enough display to show the public address of the wallet a
 
 ## Code and Reproducibility
 
-As with the associated mobile app, there are no outward claims that the D'CENT wallet is open source. While they do have [several repositories on GitHub](https://github.com/orgs/DcentWallet/repositories) and one pertaining to their '[Biometric Firmware](https://github.com/DcentWallet/biometric-firmware)', these merely include images or bin files that have no build instructions or other information. 
+As with the associated mobile app, there are no outward claims that the D'CENT wallet is open source. While they do have [several repositories on GitHub](https://github.com/orgs/DcentWallet/repositories) and one pertaining to their '[Biometric Firmware](https://github.com/DcentWallet/biometric-firmware)', these merely include images or bin files that have no build instructions or other information.
+
+An issue has been opened at [https://github.com/DcentWallet/biometric-firmware/issues/3](https://github.com/DcentWallet/biometric-firmware/issues/3)

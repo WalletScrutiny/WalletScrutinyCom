@@ -12,13 +12,12 @@ dimensions:
 weight: 
 provider: Inigma Co., Ltd. (Inigma Blockchain Services)
 providerWebsite: 
-website: https://web.archive.org/web/20200803150735/https://www.inigmasys.com/
+website: https://www.inigmasys.com#deadLink
 shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 
 repository: 
-issue: 
-icon: inigma.card.png
+icon: inigma.card.webp
 bugbounty: 
 meta: ok
 verdict: vapor
@@ -38,7 +37,7 @@ However, they [announced](https://www.kickstarter.com/projects/inigmacard/inigma
 
 The company is also known as "Inigma Blockchain Services" on its Google Play page.
 
-Their home page is no longer available but is still accessible via [archive.org](https://web.archive.org/web/20200803150735/https://www.inigmasys.com/)
+Their home page is no longer available but is still accessible via [archive.org](https://www.inigmasys.com#deadLink)
 
 ## Companion Apps 
 

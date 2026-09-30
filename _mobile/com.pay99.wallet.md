@@ -1,0 +1,57 @@
+---
+wsId: 99Pay
+title: 99Pay
+date: 2021-12-26
+authors:
+- leo
+twitter: voude99
+social:
+- https://www.linkedin.com/company/99app
+- https://www.facebook.com/voude99
+appCountry: br
+redirect_from:
+- /android/com.pay99.wallet/
+- /iphone/com.pay99/
+android:
+  appId: com.pay99.wallet
+  users: 5000000
+  appCountry: br
+  released: 2021-09-23
+  updated: 2026-09-23
+  version: 8.4.92
+  reviews: 10065
+  icon: com.pay99.wallet.webp
+  meta: ok
+  verdict: nosendreceive
+  developerName: 99 Tecnologia LTDA
+iphone:
+  appId: com.pay99
+  idd: 1588184260
+  appCountry: br
+  released: 2021-10-02
+  updated: 2026-09-14
+  version: 8.4.92
+  reviews: 1997
+  icon: com.pay99.webp
+  meta: ok
+  verdict: nosendreceive
+  developerName: 99Pay S.A
+
+---
+
+## Android
+
+This is the payment app for the ride sharing app "99" which is popular in
+Brazil. 99 was bought by "Didi Chuxing", the Chinese Ride Sharing giant.
+
+Their
+[details on Bitcoin](https://99app.com/99pay/novo-app/bitcoin#deadLink) section is not
+very explicit but for the lack of any inbound or outbound transactions being
+mentioned, we have to assume this app is only for what they talk about a lot -
+speculation on the price of bitcoin.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

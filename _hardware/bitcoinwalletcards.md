@@ -15,17 +15,15 @@ dimensions:
 weight: 
 provider: bitcoinwalletcards-com
 providerWebsite: 
-website: https://web.archive.org/web/20180513080340/http://www.bitcoinwalletcards.com/
+website: http://www.bitcoinwalletcards.com
 shop: 
 country: DE
 price: 
 repository: 
-issue: 
-icon: bitcoinwalletcards.png
+icon: bitcoinwalletcards.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: 

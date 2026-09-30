@@ -17,12 +17,10 @@ shop:
 country: IN
 price: 
 repository: 
-issue: 
-icon: vault0x.wearable.png
+icon: vault0x.wearable.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: vault0x

@@ -1,6 +1,6 @@
 # Build Server App
 
-This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found.
+This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found, or an asset has been registered by a user into our Asset Registry.
 
 ## What does it do?
 
@@ -14,7 +14,9 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 ## Requirements
 - Node.js >= 18.6.0
 - asciinema
-- GitHub token (to refresh the desktop and hardware apps)
+- docker.io and podman (for container-based verification scripts)
+- Nix with flakes enabled (for Nix-native verification scripts; optional but required when a script uses `nix develop` or `nix build`)
+- GitHub token (to refresh the desktop and hardware apps, and to download other assets and dependencies from GitHub)
 - Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage
@@ -57,8 +59,18 @@ sudo loginctl enable-linger build-server
 sudo mkdir -p /opt/build-server/walletScrutinyCom
 ```
 
+### Deploy from your machine
+
+The ABS `WorkingDirectory` is `/opt/build-server/walletScrutinyCom/external/build_server` (`ExecStart=/usr/bin/node index.mjs`). Runtime imports `src/` and `scripts/` from the WalletScrutiny repo root, so each deploy copies the full project tree (excluding generated site assets, `images/`, `node_modules/`, and `.git`).
+
+```bash
+npm run deploy:build-server
+```
+
+Requires SSH to `build.walletscrutiny.com` as root (see `~/.ssh/config`).
+
 ### Install the application
-- Copy the application to the server:
+- Copy the application to the server (or use `npm run deploy:build-server` above):
 ```bash
 sudo cp -r walletScrutinyCom /opt/build-server/walletScrutinyCom
 ```
@@ -70,20 +82,76 @@ sudo apt install asciinema docker.io podman nodejs npm -y
 
 Note: if the version of nodejs is not greater than or equal to 18.6.0, you can use `nodesource` distribution to install a newer version with `curl -fsSL https://deb.nodesource.com/setup_20.x | bash -` and then `sudo apt install -y nodejs` or install it globally: `bash -c "sudo npm install --global npm@latest"`
 
+### Install Nix (for Nix-native verification scripts)
+
+Some verification scripts follow a vendor-documented Nix recipe instead of wrapping the build in a container. Install Nix on the host so those scripts can run `nix develop` or `nix build` directly:
+
+```bash
+sudo bash external/build_server/scripts/install-nix.sh
+```
+
+Verify that the `build-server` user can use Nix:
+
+```bash
+sudo -u build-server nix --version
+sudo -u build-server nix flake metadata nixpkgs
+```
+
+The installer links Nix into `/usr/local/bin` because `sudo -u build-server` does not load `/etc/profile.d/nix.sh` (non-login shell). Without those symlinks, `nix: command not found` is expected even when Nix is installed.
+
+If verification still fails, check that Nix exists at `/nix/var/nix/profiles/default/bin/nix` and re-run `sudo bash external/build_server/scripts/install-nix.sh`.
+
+**Disk usage:** the `/nix/store` grows with each distinct build closure. Monitor free space; the first cold run of a Nix-based wallet can download several gigabytes. Parallel ABS jobs share the store safely (Nix handles locking).
+
+**Garbage collection:** the install script above also enables a weekly GC timer. To install it manually (from the deployed repo on the server):
+
+```bash
+sudo cp /opt/build-server/walletScrutinyCom/external/build_server/config/walletscrutiny-build-server-nix-gc.service /etc/systemd/system/
+sudo cp /opt/build-server/walletScrutinyCom/external/build_server/config/walletscrutiny-build-server-nix-gc.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now walletscrutiny-build-server-nix-gc.timer
+```
+
+To run GC manually: `sudo /opt/build-server/walletScrutinyCom/external/build_server/scripts/nix-store-gc.sh`
+
 - Install npm modules:
 ```bash
 cd /opt/build-server/walletScrutinyCom/external/build_server
 sudo npm install
 ```
 
+- Create the build directory and set the permissions for the build-server user:
+```bash
+sudo mkdir -p /opt/build-server-builds
+sudo chown -R build-server:build-server /opt/build-server-builds
+```
+
+- Add rm script to the visudo file:
+```bash
+sudo visudo
+```
+
+Add the following line to the end of the file:
+```bash
+build-server ALL=(root) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh *
+```
+and save the file.
+
 ### Install the service
 
 ```bash
-sudo cp external/build_server/config/build-server.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-builds-cleanup.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-builds-cleanup.timer /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-nix-gc.service /etc/systemd/system/
+sudo cp external/build_server/config/walletscrutiny-build-server-nix-gc.timer /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable build-server.service
-sudo systemctl start build-server.service
+sudo systemctl enable --now walletscrutiny-build-server.service
+sudo systemctl enable --now walletscrutiny-build-server-builds-cleanup.timer
+sudo systemctl enable --now walletscrutiny-build-server-nix-gc.timer
 ```
+
+`npm run deploy:build-server` copies these units and enables the service.
 
 ## Build Server admin
 
@@ -105,6 +173,19 @@ sudo systemctl status walletscrutiny-build-server.service
 ```bash
 sudo journalctl -u walletscrutiny-build-server.service -f
 ```
+
+### Retry a build the ABS already attempted
+
+The ABS skips a build whose earlier attempt with the same build script is `queued` or `error` in its database. To have it tried again (for example after an ABS fix), list the app's rows and delete the one that blocks it; the next pass picks the build up again.
+
+```bash
+cd /opt/build-server/walletScrutinyCom/external/build_server
+sudo -u build-server node scripts/verifications-db.mjs list com.example.wallet          # all versions
+sudo -u build-server node scripts/verifications-db.mjs list com.example.wallet 1.2.3    # one version
+sudo -u build-server node scripts/verifications-db.mjs delete 42                        # by row id
+```
+
+It uses the service's database (`/var/lib/walletscrutiny-build-server/verifications.db`) unless `--db <path>` or `BUILD_SERVER_DB_PATH` says otherwise. A newer build script (a new build script event) is tried without deleting anything, and a build that already has a published WS Bot verification is skipped whatever the database says.
 
 ## Technical notes
 

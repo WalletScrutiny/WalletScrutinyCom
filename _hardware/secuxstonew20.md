@@ -21,12 +21,10 @@ shop: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobil
 country: TW
 price: 119USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: 
-icon: secuxstonew20.png
+icon: secuxstonew20.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-11-01
 signer: 
 twitter: SecuXwallet
@@ -82,11 +80,11 @@ Pending the response of SecuX tech, I think it's worth the benefit of the doubt 
 
 The device can be paired with a mobile phone app via Bluetooth:
 
-{% include walletLink.html wallet='android/com.secux.mobile' verdict='true' %}
+{% include walletLinkArchived.html wallet='android/com.secux.mobile' %}
 
 ## Private keys can be created offline - ✔️
 
-From the [SecuX manual](https://secuxtech.com/secuxtech-download/User-Manual/SecuX-User-Manual-2020.pdf)
+From the [SecuX manual](https://secuxtech.com/secuxtech-download/User-Manual/SecuX-User-Manual-2020.pdf#deadLink)
 
 > 2. Device Initialization
 When the device leaves the factory, there is no private key pre-set in the device. You will be asked to generate your own unique private key or restore an existing private key (using recovery words) during device initialization.

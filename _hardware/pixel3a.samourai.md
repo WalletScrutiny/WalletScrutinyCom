@@ -20,13 +20,11 @@ shop:
 country: 
 price: 85GBP
 repository: 
-issue: 
-icon: pixel3a.samourai.png
+icon: pixel3a.samourai.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-05-03
+verdict: nosource
+date: 2026-02-27
 signer: 
 twitter: 
 social:
@@ -44,7 +42,7 @@ The seller on Telegram states that their Pixel Wallets use the GrapheneOS, a mob
 
 The actual wallets include: 
 - {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} 
-- {% include walletLink.html wallet='android/com.m2049r.xmrwallet' verdict='true' %} - a Monero wallet
+- {% include walletLinkArchived.html wallet='android/com.m2049r.xmrwallet' %} - a Monero wallet
 
 ## Product Description 
 

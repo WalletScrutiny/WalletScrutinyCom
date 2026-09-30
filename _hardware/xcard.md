@@ -17,12 +17,10 @@ shop:
 country: GI
 price: 
 repository: 
-issue: 
-icon: xcard.png
+icon: xcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: xcardbymobilum

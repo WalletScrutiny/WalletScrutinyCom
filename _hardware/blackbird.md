@@ -17,12 +17,10 @@ shop:
 country: LU
 price: 
 repository: 
-issue: 
-icon: blackbird.png
+icon: blackbird.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: blackbirdwallet

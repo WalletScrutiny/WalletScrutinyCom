@@ -9,13 +9,14 @@
   {% endif %}
   {% include /review/steps/sourceCode.html %}
     <!-- {% include /review/steps/privacy.html %} -->
-  {% include /review/steps/applicationBuild.html %}
-  {% if include.filterPlatform=='true' %}
-    <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
-    {% include /review/steps/distribution.html platform=platform %}
+  {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId versionElementId=include.versionElementId %}
+  {% if include.filterPlatform=='true' or include.platform == 'hardware' %}
+    {% include /review/steps/distribution.html platform=platform appId=include.appId idd=include.idd appCountry=include.appCountry alternativeStores=include.alternativeStores %}
   {% endif %}
-  {% include /review/steps/platformNotes.html platform=platform %}
+  {% include /review/bitcoinOrgFeatured.html %}
+  {% include_cached /review/steps/platformNotes.html platform=platform %}
   {% if verdict && meta %}
     {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
   {% endif %}
 </div>
+{% include_cached /review/deadLinkMarkers.html %}

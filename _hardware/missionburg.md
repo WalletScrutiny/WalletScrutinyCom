@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: missionburg.png
+icon: missionburg.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: missionburg

@@ -21,18 +21,19 @@ shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 country: CH
 price: 49.99USD
 repository: https://github.com/SafePalWallet/safepal-s1
-issue: 
-icon: safepals1.png
+icon: safepals1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-23
 signer: 
 twitter: iSafePal
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- secEl
 
 ---
 
@@ -73,3 +74,10 @@ In turn, SafePal stated that the hardware wallet's firmware "will be open-source
 > There have been a lot of debates about a wallet being open-sourced. Open-source enables the public to review the codes and inform the companies that own the code if there are any errors. It also allows malicious attempts such as copying and editing the code into a malicious version with a small effort. Considering this, open-source is a double-sided sword. SafePal has always taken this issue seriously and carefully. This year, SafePal will open-source the critical parts in the SafePal S1 Hardware Wallet for users to verify our security. Details will be disclosed when the time comes.
 
 As of 2022-05-27, the SafePal S1's source code is unforunately still **not available for review.**
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL6+ secure element" source="Website" %}
+
+{% include featureEvidence.html feature="camera" quote="Sign transactions via scanning QRcode" source="Website" %}
+
+
+{% include featureEvidence.html feature="airGapped" quote="Enjoy secure cold storage options with the fully air-gapped SafePal S1 line" source="Website" %}

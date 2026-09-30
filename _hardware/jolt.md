@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://joltwallet.com/
+website: http://joltwallet.com#deadLink
 shop: 
 country: US
 price: 
 repository: https://github.com/joltwallet/jolt_wallet
-issue: 
-icon: jolt.png
+icon: jolt.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: JoltWallet

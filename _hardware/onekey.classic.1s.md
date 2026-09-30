@@ -1,12 +1,13 @@
 ---
 title: OneKey Classic 1S
 appId: onekey.classic.1s
+bitcoinOrgId: onekeyclassic1s
 authors:
 - danny
 released: 2024-04-01
 discontinued: 
-updated: 2026-01-07
-version: 3.17.0-btc
+updated: 2026-09-01
+version: 3.20.0
 binaries: 
 dimensions:
 - 86
@@ -20,25 +21,24 @@ shop: https://shop.onekey.so/products/onekey-classic-1s
 country: SG
 price: 99USD
 repository: https://github.com/OneKeyHQ/firmware-classic1s
-issue: 
-icon: onekey.classic.1s.png
+icon: onekey.classic.1s.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-08-20
 signer: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
 ## Device Description
 
-The **OneKey Classic 1S** is the upgraded version of the original: {% include walletLink.html wallet='hardware/onekey' verdict='true' %} introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element)).
+The **OneKey Classic 1S** is the upgraded version of the original: {% include walletLink.html wallet='hardware/onekey' verdict='true' %} introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element#deadLink)).
 
 OneKey’s official product page notes: *“Each transaction, secured by EAL 6+ certified chips”*, highlighting the main difference from the original Classic which lacked this feature ([OneKey Product Page](https://onekey.so/products/onekey-classic-1s-hardware-wallet/)).
 
@@ -52,7 +52,7 @@ Independent reviewers confirm that the Classic 1S integrates **two secure chips 
 
 OneKey states that private keys are generated and stored entirely within the secure element, never leaving the device:  
 > “The private keys of OneKey are all created offline, avoid cyber attacks completely.”  
-([OneKey FAQ](https://help.onekey.so/hc/en-us/articles/6113121891599))
+([OneKey FAQ](https://help.onekey.so/hc/en-us/articles/6113121891599#deadLink))
 
 ### Private keys are not shared
 
@@ -81,3 +81,5 @@ According to a OneKey developer in the project’s Discord:
 (*Source: OneKey Discord, user “loatheb”, Aug 2025*)  
 
 This device is **source-available** and subject **for-verification**
+
+{% include featureEvidence.html feature="secEl" quote="Secured by EAL 6+ certified chips" source="Website" %}

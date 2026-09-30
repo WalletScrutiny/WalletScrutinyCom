@@ -19,12 +19,10 @@ shop:
 country: US
 price: 244USD
 repository: 
-issue: 
-icon: exodus1s.png
+icon: exodus1s.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2023-01-30
 signer: 
 twitter: htcexodus

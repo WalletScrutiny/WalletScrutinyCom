@@ -32,7 +32,7 @@
   ol {
     font-weight: $paragraph-font-weight;
   }
-  a {
+  a:not(.verification-action-link):not(.AppDisplayCard):not(.about-team-member):not(.about-sponsor-card):not(.contribute-card):not(.press-card) {
     text-decoration: underline;
 
     &:hover {
@@ -42,6 +42,11 @@
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
+  }
+
+  a.verification-action-link,
+  a.verification-action-link:hover {
+    text-decoration: none;
   }
   .methodology-container {
     display: grid;
@@ -109,7 +114,7 @@
         p,
         div:not(.verdict-methodology-head),
         .chevron,
-        .fa-chevron-down {
+        .ws-icon-chevron-down {
           display: block;
         }
         .verdict-methodology-head {
@@ -137,7 +142,7 @@
           display: none;
         }
         .chevron,
-        .fa-chevron-left {
+        .ws-icon-chevron-left {
           display: block !important;
         }
         .verdict-methodology-head {
@@ -161,7 +166,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $font-md;
   color: mix(#fff, $gray, 25%);
   border-bottom: 1px solid $border-color;
 
@@ -189,7 +194,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $font-xxs;
 
   & + p {
     text-indent: 0;
@@ -249,7 +254,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $font-md;
   }
 
   .archive__item-excerpt {
@@ -274,7 +279,7 @@
 
     .archive__item-excerpt {
       display: block;
-      font-size: $type-size-6;
+      font-size: $font-xxs;
     }
   }
 }
@@ -291,7 +296,7 @@
 
 .feature__item {
   margin-bottom: 2em;
-  font-size: 1.25rem;
+  font-size: $font-lg;
 
   @include breakpoint($small) {
     margin-bottom: 0;
@@ -305,7 +310,7 @@
 
   &--left {
     @include full();
-    font-size: 1.25rem;
+    font-size: $font-lg;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -326,7 +331,7 @@
 
   &--right {
     @include full();
-    font-size: 1.25rem;
+    font-size: $font-lg;
 
     .archive__item-teaser {
       margin-bottom: 2em;
@@ -349,7 +354,7 @@
 
   &--center {
     @include full();
-    font-size: 1.25rem;
+    font-size: $font-lg;
 
     .archive__item-teaser {
       margin-bottom: 2em;

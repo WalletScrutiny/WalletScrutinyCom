@@ -15,18 +15,16 @@ dimensions:
 - 5
 weight: 
 provider: WOOKONG
-providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/solo
-shop: https://wooko.ng/en/solo
+providerWebsite: https://wooko.ng/en#deadLink
+website: https://wooko.ng/en/solo#deadLink
+shop: https://wooko.ng/en/solo#deadLink
 country: CH
 price: 
 repository: 
-issue: 
-icon: wookongsolo.png
+icon: wookongsolo.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-11-26
 signer: 
 twitter: 

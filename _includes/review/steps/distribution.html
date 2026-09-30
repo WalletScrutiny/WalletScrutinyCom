@@ -1,45 +1,45 @@
+{% assign plat = include.platform %}
+{% assign dist_app_id = include.appId | default: page.appId %}
+{% assign dist_idd = include.idd | default: page.idd %}
+{% assign dist_app_country = include.appCountry | default: page.appCountry | default: 'us' %}
+{% assign dist_alt_stores = include.alternativeStores | default: page.alternativeStores %}
 
-{% if include.platform!='false' %}
+{% assign show_step = false %}
+{% if plat == 'iphone' or plat == 'android' %}
+  {% assign show_step = true %}
+{% elsif plat == 'desktop' or plat == 'hardware' %}
+  {% if page.repository contains 'github.com' or page.website and page.website != '' %}
+    {% assign show_step = true %}
+  {% endif %}
+{% endif %}
+
+{% if show_step %}
 <div class="step distribution">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-  {% if include.platform == 'iphone' %}
-    <i class="i-app-store" style="z-index: 2; font-size: 23px;"></i>
-  {% elsif include.platform == 'android' %}
-    <i class="fab fa-google-play" style="z-index: 2; font-size: 23px;"></i>
-  {% endif %}
+    {% include icon.html name="download" style="z-index: 2; font-size: 23px;" %}
   </i>
   <div class="title">
     <h3>Distribution</h3>
-      {% if include.platform == 'iphone' %}
-        <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle">App Store</a>
-      {% endif %}
-      {% if include.platform == 'android' %}
-        <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">Google Play</a>
-      {% endif %}
-  </div>
-  <div class="data">
-    <span>
-    {% if page.stars > 0 %}
-      {{ page.stars }}/5 stars 
-      {% if page.ratings %}
-        via <span class="important">{{ page.ratings }} ratings</span>
-      {% endif %}
-    {% endif %}
-    </span>
-  </div>
-  {% if page.tooltip.distribution %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.distribution %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.distribution | markdownify }}
-    </div>
-  {% endif %}
+    {% case plat %}
+      {% when 'iphone' %}
+        <div class="distribution-store-links">
+          <a title="App Store" href="https://apps.apple.com/{{ dist_app_country }}/app/id{{ dist_idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="i-app-store" aria-hidden="true"></i> App Store</a>
+          {% include /review/websiteDistributionLink.html %}
+        </div>
+      {% when 'android' %}
+        <div class="distribution-store-links">
+          {% unless page.android.playStore == false %}
+            <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ dist_app_id }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="google-play" %} Google Play</a>
+          {% endunless %}
+          {% include /review/alternativeStoreLinks.html appId=dist_app_id alternativeStores=dist_alt_stores %}
+          {% include /review/websiteDistributionLink.html %}
+        </div>
+      {% when 'desktop', 'hardware' %}
+        <div class="distribution-store-links">
+          {% include /review/githubDistributionLink.html %}
+          {% include /review/websiteDistributionLink.html %}
+        </div>
+    {% endcase %}
   </div>
 </div>
 {% endif %}

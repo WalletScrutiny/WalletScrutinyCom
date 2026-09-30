@@ -1,14 +1,15 @@
 ---
 title: KeepKey
 appId: keepKey
+bitcoinOrgId: keepkey
 authors:
 - leo
 - Mohammad
 - danny
 released: 2014-08-01
 discontinued: 
-updated: 2025-02-12
-version: 7.10.0
+updated: 2026-06-05
+version: 7.14.1
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -18,26 +19,27 @@ weight: 54
 provider: 
 providerWebsite: 
 website: https://shapeshift.com
-shop: https://shapeshift.com/keepkey
+shop: https://shapeshift.com/keepkey#deadLink
 country: US
 price: 49USD
 repository: https://github.com/keepkey/keepkey-firmware
-issue: https://github.com/keepkey/keepkey-firmware/issues/342
-icon: keepKey.png
+icon: keepKey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 518ad41643ee8a0aa6a6422f8534ac94f56cd65bc637aea4db7f3fdbb53255c3
 date: 2024-05-10
 signer: 
-twitter: ShapeShift_io
+twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 builds: 
-features: 
+features:
+- tradeAlts
+- foss
 
 ---
+
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://shapeshift.com)" quote="Trade 10,000+ assets for Bitcoin, Ethereum, DOGE, & more with one click." %}
 
 # Original Analysis with all our considerations
 
@@ -70,3 +72,7 @@ they also clarify:
   Take a look at our source code on [GitHub](https://github.com/keepkey) page!
 
 This device is **source available**.
+
+{% include featureEvidence.html feature="foss" quote="If license is not specified in the header of a file, it can be assumed that it is licensed under LGPLv3." source="GitHub README" comment="LGPLv3 is an OSI-approved FOSS license. The README confirms the default license is LGPLv3 with no Commons Clause or commercial-use restrictions mentioned." %}
+
+An issue has been opened at [https://github.com/keepkey/keepkey-firmware/issues/342](https://github.com/keepkey/keepkey-firmware/issues/342)

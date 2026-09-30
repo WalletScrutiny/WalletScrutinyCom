@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/Kevingislason/abacus_wallet
-issue: 
-icon: kevingislason.abacus.diy.png
+icon: kevingislason.abacus.diy.webp
 bugbounty: 
 meta: stale
-verdict: diy
-appHashes: 
-date: 2022-05-24
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social:

@@ -20,24 +20,22 @@ shop: https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for
 country: SG
 price: 229USD
 repository: 
-issue: 
-icon: ryder.one.png
+icon: ryder.one.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-11-03
 signer: 
 twitter: Ryder_ID
 social:
 - https://www.instagram.com/ryder.btc/
-- https://discord.gg/EA7SapF5hp
+- https://discord.gg/EA7SapF5hp#deadLink
 builds: 
 features: 
 
 ---
 
-This device's companion app is {% include walletLink.html wallet='android/id.ryder.ryderone' verdict='true' %}
+This device's companion app is {% include walletLinkArchived.html wallet='android/id.ryder.ryderone' %}
 
 ## Updated Analysis 2025-11-03
 

@@ -20,12 +20,10 @@ shop:
 country: UK
 price: 24.99 EUR
 repository: 
-issue: 
-icon: picash.cryptovault.png
+icon: picash.cryptovault.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-04-28
 signer: 
 twitter: ilinkeds

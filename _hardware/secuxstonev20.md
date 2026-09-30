@@ -22,12 +22,10 @@ shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobil
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: https://github.com/secuxtech/SecuXMCU/issues/18
-icon: secuxstonev20.png
+icon: secuxstonev20.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: SecuXwallet
@@ -67,7 +65,7 @@ It also claims to keep the key offline.
 ## Source Code and Reproducibility
 
 The
-[Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf)
+[Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf#deadLink)
 links to a GitHub account ["secuxtech."](https://github.com/secuxtech) and there
 is a
 [repository labeled "SecuX device firmware."](https://github.com/secuxtech/SecuXMCU)
@@ -91,3 +89,5 @@ compromised firmware, the product could generate backups/keys known to the
 provider.
 
 Without further information this product is **not verifiable**.
+
+An issue has been opened at [https://github.com/secuxtech/SecuXMCU/issues/18](https://github.com/secuxtech/SecuXMCU/issues/18)

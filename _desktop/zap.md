@@ -12,8 +12,7 @@ provider:
 providerWebsite: 
 website: https://www.zaphq.io
 repository: https://github.com/LN-Zap/zap-desktop
-issue: 
-icon: zap.png
+icon: zap.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
@@ -22,9 +21,16 @@ twitter: ln_zap
 social: 
 builds: 
 features:
+- foss
+- ownLN
+- ownFullNode
 - ln
 
 ---
+
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="MIT License" %}
+{% include featureEvidence.html feature="ownLN" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="connect to a custom lnd instance" %}
+{% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="run a full bitcoin node" %}
 
 ## App Description
 

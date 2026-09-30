@@ -43,10 +43,10 @@ permalink: /verifier/
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <button style="margin: 0; padding: 0; border: 0; background: transparent;" id="shareButtonContainerVerifier"></button>
   <button class="btn btn-info" style="margin-bottom: 0;" href="" target="_blank" id="njumpLink">
-    <i class="fas fa-external-link-alt" style="margin-right: 7px; font-size: 18px;"></i> Njump.me
+    {% include icon.html name="up-right-from-square" style="margin-right: 7px; font-size: 18px;" %} Njump.me
   </button>
   <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
-    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
+    {% include icon.html name="bitcoin" style="margin-right: 6px; font-size: 18px;" %} Zap this verifier
   </button>
 </div>
 
@@ -94,48 +94,39 @@ permalink: /verifier/
 
       const profile = await getNostrProfile(pubkey);
 
-      if (!profile) {
-        document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
-      } else {
-        if (profile && (profile.lud16 || profile.lud06)) {
-          try {
-            const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
-            window.profileEvent = profileEvent;
-            document.getElementById('zapButtonVerifier').style.display = 'inline-block';
-          } catch (error) {
-            console.error('Error parsing profile event:', error);
-          }
-        } else {
-          const zapBtn = document.getElementById('zapButtonVerifier');
-          zapBtn.style.display = 'inline-block';
-          zapBtn.disabled = true;
-          zapBtn.style.backgroundColor = '#ccc';
-          zapBtn.style.color = '#888';
-          zapBtn.style.cursor = 'not-allowed';
-          zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
-        }
-
-        if (profile.image || profile.name) {
-          document.getElementById('attestator').innerHTML = `
-            <div class="big-profile-card">
-              ${profile.image ? `<img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;" onerror="this.style.display='none'">` : ''}
-              ${profile.name ? `<div style="font-size: 1.5em; font-weight: bold;">${profile.name}</div>` : ''}
-              ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
-            </div>`;
-        }
+      if (profile && (profile.lud16 || profile.lud06) && profile.profileEvent) {
+        window.profileEvent = profile.profileEvent;
+        document.getElementById('zapButtonVerifier').style.display = 'inline-block';
+      } else if (profile) {
+        const zapBtn = document.getElementById('zapButtonVerifier');
+        zapBtn.style.display = 'inline-block';
+        zapBtn.disabled = true;
+        zapBtn.style.backgroundColor = '#ccc';
+        zapBtn.style.color = '#888';
+        zapBtn.style.cursor = 'not-allowed';
+        zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
       }
+
+      const attestatorEl = document.getElementById('attestator');
+      attestatorEl.innerHTML = renderBigProfileCardHtml(pubkey, profile);
+      wireBigProfileCardInteractions(attestatorEl);
     } catch (error) {
       console.error('Error loading profile:', error);
       document.getElementById('attestator').innerHTML = 'Error loading profile';
     }
 
     try {
-      await renderAssetsTable({htmlElementId:'binariesTable', pubkey, showProfilePictures: false});
+      await renderAssetsTable({
+        htmlElementId: 'binariesTable', 
+        pubkey, 
+        showProfilePictures: false,
+        showOnlyRows: 10,
+        tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none')
+      });
     } catch (error) {
       console.error('Error loading binaries:', error);
       document.getElementById('binariesTable').innerHTML = 'Error loading binaries';
+      document.getElementById('loadingSpinner').style.display = 'none';
     }
-
-    document.getElementById('loadingSpinner').style.display = 'none';
   });
 </script>

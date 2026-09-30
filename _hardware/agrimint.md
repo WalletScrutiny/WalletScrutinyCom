@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: Radoy Stoyanov
 providerWebsite: https://github.com/radoystoyanov
-website: https://makers.bolt.fun/story/announcing-agrimint-alpha-release--491
+website: https://makers.bolt.fun/story/announcing-agrimint-alpha-release--491#deadLink
 shop: 
 country: BG
 price: 
 repository: https://github.com/agrimint/hardwareWallet
-issue: 
-icon: agrimint.png
+icon: agrimint.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-18
 signer: 
 twitter: radoystoyanov

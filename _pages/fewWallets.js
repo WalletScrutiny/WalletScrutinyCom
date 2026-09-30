@@ -8,7 +8,9 @@ permalink: /fewWallets.js
   const data = {% include fewProducts.json %};
   const opinions = {% include allOpinions.json %};
   window.verdicts = data.verdicts;
-  const folders = ["hardware", "android", "iphone", "bearer", "desktop", "others"];
+  window.featureAlerts = data.featureAlerts || {};
+  window.featureAlertMessages = data.featureAlertMessages || {};
+  const folders = ["hardware", "mobile", "bearer", "desktop", "others"];
   folders.forEach(folder => {
     const folderData = data[folder];
     const category = folderData.category;

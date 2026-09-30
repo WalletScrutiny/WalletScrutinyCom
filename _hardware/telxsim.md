@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://www.telx.tech
+providerWebsite: https://web.archive.org/web/20230129034813/https://www.telx.tech/
 website: 
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: telxsim.png
+icon: telxsim.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-08-01
 signer: 
 twitter: 
@@ -32,4 +30,4 @@ features:
 
 ---
 
-The [provider's website](https://www.telx.tech) is inaccessible and we considered it defunct.
+The [provider's website](https://web.archive.org/web/20230129034813/https://www.telx.tech/) is inaccessible and we considered it defunct.

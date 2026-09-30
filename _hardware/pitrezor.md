@@ -6,8 +6,8 @@ authors:
 - leo
 released: 
 discontinued: 
-updated: 
-version: 
+updated: 2019-09-26
+version: 0.11.5
 binaries: 
 dimensions: 
 weight: 
@@ -18,18 +18,17 @@ shop:
 country: 
 price: 
 repository: https://github.com/heneault/trezor-firmware
-issue: 
-icon: pitrezor.png
+icon: pitrezor.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-04-11
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 

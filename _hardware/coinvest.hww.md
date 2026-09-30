@@ -17,12 +17,10 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
-icon: coinvest.hww.png
+icon: coinvest.hww.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-02-09
 signer: 
 twitter: 

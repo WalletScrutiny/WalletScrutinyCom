@@ -13,16 +13,14 @@ weight:
 provider: OPOLO Limited
 providerWebsite: https://www.opolo.io
 website: https://www.opolo.io/
-shop: https://shop.opolo.io/products/opolo-shard-backup-card-with-protection
+shop: https://web.archive.org/web/20241113030205/https://shop.opolo.io/products/opolo-shard-backup-card-with-protection
 country: LU
 price: 20 EUR
 repository: 
-issue: 
-icon: opolocosmos.card.png
+icon: opolocosmos.card.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2023-02-28
 signer: 
 twitter: opolowallet

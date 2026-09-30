@@ -1,0 +1,30 @@
+<div class="step developer">
+  <i class="i-person circle"></i>
+  <div class="title">
+    <h3>Developer</h3>
+    <p class="capitalise">
+    {% assign dev_android = page.android.developerName | default: '' | strip %}
+    {% assign dev_iphone = page.iphone.developerName | default: '' | strip %}
+    {% assign dev_root = page.developerName | default: '' | strip %}
+    {% if dev_android != '' and dev_iphone != '' %}
+      {% assign dev_android_key = dev_android | downcase %}
+      {% assign dev_iphone_key = dev_iphone | downcase %}
+      {% if dev_android_key == dev_iphone_key %}
+        {{ dev_android }}
+      {% else %}
+        <span>{{ dev_android }} (Android)</span><br>
+        <span>{{ dev_iphone }} (iPhone)</span>
+      {% endif %}
+    {% elsif dev_android != '' %}
+      {{ dev_android }}
+    {% elsif dev_iphone != '' %}
+      {{ dev_iphone }}
+    {% elsif dev_root != '' %}
+      {{ dev_root }}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+    {% include /review/developerSocialLinks.html %}
+  </div>
+</div>

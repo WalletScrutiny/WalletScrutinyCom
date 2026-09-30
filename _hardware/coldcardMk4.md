@@ -8,8 +8,8 @@ authors:
 - keraliss
 released: 2022-05-01
 discontinued: 
-updated: 2025-11-03
-version: 5.4.5
+updated: 2026-09-03
+version: 5.6.2
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 86
@@ -23,23 +23,30 @@ shop: https://store.coinkite.com/store/mk4
 country: CA
 price: 158USD
 repository: https://github.com/Coldcard/firmware
-issue: 
-icon: coldcardMk4.png
+icon: coldcardMk4.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 495f37ce7ddaba2e9fc3f03dec582f1646f258a3d0cec5e71c04d127357b2fa3
-- f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964
 date: 2025-09-26
 signer: 
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 builds: 
-features: 
+features:
+- multiSig
+- secEl
+- nfc
 
 ---
+
+<div class="alertBox"><div>
+⚠️ Warning (2026-08-02): Seeds generated on this device with firmware before 5.6.0 (Edge 6.6.0X) have as little as ~72 bits of entropy instead of the intended 128 and may be predictable. Updating the firmware does not repair a seed that was already created — Coinkite advises updating, generating a new seed on the fixed firmware, and moving any funds to it. Seeds are not affected by this issue alone only if at least 50 fair, independent, private dice rolls were added when the seed was created, those rolls were never recorded or otherwise exposed, and the seed words used are the ones shown after adding them. You must roll physical dice yourself and enter each result — the device does not generate the rolls for you. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
+</div> </div>
+
+{% include featureEvidence.html feature="multiSig" source="Review" quote="More multisig wallets possible" %}
+{% include featureEvidence.html feature="secEl" source="Review" quote="Even more security, Dual SE (Secure Elements)" %}
+{% include featureEvidence.html feature="nfc" source="Review" quote="NFC Tap for all data types, PSBT, Address, etc..." %}
 
 ## Product Description 
 

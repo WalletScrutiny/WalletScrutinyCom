@@ -17,12 +17,10 @@ shop: http://18.158.244.64/waiting-list/
 country: CH
 price: 
 repository: 
-issue: 
-icon: blnscard.png
+icon: blnscard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: blnswallet

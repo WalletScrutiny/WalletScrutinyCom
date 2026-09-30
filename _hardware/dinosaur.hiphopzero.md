@@ -17,13 +17,11 @@ shop:
 country: 
 price: 75USD
 repository: https://github.com/trezor/trezor-mcu
-issue: 
-icon: dinosaur.hiphopzero.png
+icon: dinosaur.hiphopzero.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-04-29
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: __gbg__
 social: 
@@ -39,7 +37,7 @@ features:
 
 This do-it-yourself Trezor Clone used the **[Trezor-MCU archived code](https://github.com/trezor/trezor-mcu/).**
 
-Build Instructions are available [here](https://dinosaur.hiphop/).
+Build Instructions are available [here](https://web.archive.org/web/20260114071831/http://dinosaur.hiphop/).
 
 Primary Components are: 
 

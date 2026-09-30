@@ -21,12 +21,10 @@ shop: https://sugi.io/#pricing
 country: BE
 price: 59.9EUR
 repository: 
-issue: 
-icon: sugi.png
+icon: sugi.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-03
 signer: 
 twitter: SugiCard

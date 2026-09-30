@@ -1,5 +1,12 @@
+import { sha256 } from '@noble/hashes/sha2.js';
+import { bytesToHex } from '@noble/hashes/utils.js';
+
 function isDebugEnv() {
+  return false;
   if (typeof window === 'undefined') {
+    return false;
+  }
+  if (new URLSearchParams(window.location.search).get('forceProd') === 'true') {
     return false;
   }
   return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
@@ -9,59 +16,67 @@ function getFirstTagValue(event, tagName, valueIfNull = '') {
   return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
 }
 
-const userHasBrowserExtension = function() {
-  return new Promise((resolve) => {
-    if (typeof window === 'undefined') {
-      resolve(false);
-      return;
-    }
-    
-    if (window.nostr) {
-      resolve(true);
-      return;
-    }
+/**
+ * Digest for asset hash(es) used in the NIP-33 replaceable key.
+ * One hash is used as-is; multiple hashes are sorted, concatenated, and re-hashed.
+ */
+function getAssetHashesDigest(hashes) {
+  if (!hashes?.length) {
+    return '';
+  }
+  if (hashes.length === 1) {
+    return hashes[0];
+  }
+  const concatenated = [...hashes].sort().join('');
+  return bytesToHex(sha256(new TextEncoder().encode(concatenated)));
+}
 
-    // Retry system: 125 attempts, 25ms per attempt
-    // The nostr extension is not available until the dom is fully loaded, but
-    // we start doing stuff way before that (if the user has a slow connection).
-    // That's why we need to start checking soon, but continue checking for a while.
-    // We cannot wait too long, though, as the user may not have a Nostr browser
-    // extension installed.
-    let attempts = 0;
-    const maxAttempts = 125;
-    const retryDelay = 25;
+/** NIP-33 replaceable key for verification and draft events (${appId}:${version}:${platform}:${hashDigest}). */
+function getVerificationReplaceableKey(appId, version, platform, hashes = []) {
+  let key = '';
+  if (appId) {
+    key += `${appId}:`;
+  }
+  key += `${version}:${platform}`;
+  const hashDigest = getAssetHashesDigest(hashes);
+  if (hashDigest) {
+    key += `:${hashDigest}`;
+  }
+  return key;
+}
 
-    const checkExtension = () => {
-      attempts++;
-      
-      if (window.nostr) {
-        console.debug("Browser extension found on attempt:", attempts);
-        resolve(true);
-        return;
-      }
-      
-      if (attempts >= maxAttempts) {
-        console.debug("Browser extension not found after", maxAttempts, "attempts");
-        resolve(false);
-        return;
-      }
-      
-      // Schedule next attempt
-      setTimeout(checkExtension, retryDelay);
-    };
-
-    // Start the retry process
-    setTimeout(checkExtension, retryDelay);
-  });
+function getStatusText(status, short = false) {
+  switch (status) {
+    case 'reproducible':
+      return 'Reproducible when tested';
+    case 'not_reproducible':
+      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
+    case 'ftbfs':
+      return short ? 'Failed to build from source' : 'Failed to build from source provided';
+    case 'spam':
+      return short ? 'Spam' : 'The application is spam';
+    case 'notag':
+      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
+    case 'nosource':
+      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
+    case 'obfuscated':
+      return short ? 'Source obfuscated' : 'Source code is obfuscated';
+    case 'warning':
+      return 'Warning';
+    default:
+      return status;
+  }
 }
 
 export {
   isDebugEnv,
   getFirstTagValue,
-  userHasBrowserExtension
+  getAssetHashesDigest,
+  getVerificationReplaceableKey,
+  getStatusText,
 };
 
 if (typeof window !== 'undefined') {
-  window.userHasBrowserExtension = userHasBrowserExtension;
   window.getFirstTagValue = getFirstTagValue;
+  window.getStatusText = getStatusText;
 }

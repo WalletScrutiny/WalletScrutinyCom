@@ -25,8 +25,7 @@ start, which probably is the case for some wallets, too.
 ## What we do not do
 
 * **<span id="noAudit">We do not</span>** provide a security audit of the wallet.
-  The empty row "Audited?" on [the landing page](/) is merely to emphasize
-  this fact. As any public source wallet gets potentially audited all the time
+  As any public source wallet gets potentially audited all the time
   and paid audits certainly help the team to improve their product, those audits
   do not help prevent exit scams or most other ways where all users lose all
   their funds at once, which we are mainly focused on.
@@ -58,7 +57,12 @@ Tests and verifications on WalletScrutiny are now primarily contributed by users
 
 Users can contribute their own verification results, which are then displayed on the wallet's page. This distributed approach ensures that no single entity is responsible for all verifications, increasing trust in the results.
 
-We encourage wallet users to [participate in the verification process](/verifications/) and contribute their findings to help the community.
+We encourage wallet users to [participate in the verification process](/verifications/) and
+contribute their findings to help the community. If you follow our
+[Script Guidelines](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/docs/script_verifications.md?ref_type=heads)
+when creating a script to reproduce a wallet, we will try to run it again automatically when
+a new version of the wallet is released, and add verifications to the wallet's page automatically,
+giving you the credit.
 
 ## Review process:
 

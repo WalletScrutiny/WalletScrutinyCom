@@ -20,12 +20,10 @@ shop: https://www.datisnetwork.com/shop/dorj-one
 country: IR
 price: 
 repository: 
-issue: 
-icon: dorj.one.png
+icon: dorj.one.webp
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2023-04-01
 signer: 
 twitter: dorjwa

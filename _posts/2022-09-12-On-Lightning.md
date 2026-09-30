@@ -8,7 +8,7 @@ authors:
 date: 2022-09-12
 ---
 
-![bitcoin-lightning](/images/blog/1/bitcoin-lightning-blog.png)
+![bitcoin-lightning](/images/blog/1/bitcoin-lightning-blog.jpg)
 
 We want all the world to use Bitcoin, yet Satoshi already remarked that it was
 not suited for microtransactions in

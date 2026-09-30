@@ -20,12 +20,10 @@ shop: https://www.excelsecu.com/productdetail/esecucarddispl.html
 country: CN
 price: 85USD
 repository: 
-issue: 
-icon: esecucards300.png
+icon: esecucards300.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-03-23
 signer: 
 twitter: 

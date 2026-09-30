@@ -12,8 +12,7 @@ provider:
 providerWebsite: 
 website: https://bitmarket.network/
 repository: https://github.com/BitMarketNetwork/client-desktop
-issue: 
-icon: bitmarket.png
+icon: bitmarket.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
@@ -21,9 +20,12 @@ date: 2025-04-22
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- foss
 
 ---
+
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/BitMarketNetwork/client-desktop/blob/master/LICENSE)" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" %}
 
 ## App Description
 

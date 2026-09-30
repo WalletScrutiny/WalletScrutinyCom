@@ -6,8 +6,8 @@ authors:
 - mohammad
 released: 2022-03-08
 discontinued: 
-updated: 2023-06-21
-version: 4.11.0
+updated: 2025-11-26
+version: 4.12.0
 binaries: 
 dimensions:
 - 88
@@ -21,18 +21,15 @@ shop: https://onekey.so/products/onekey-touch-hardware-wallet/
 country: SG
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
-icon: onekey.touch.png
+icon: onekey.touch.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- a4cdce143d400c185f24885c6848fdad398e34206850a3ea8bcc7e219b30e06f
 date: 2025-06-06
 signer: 
 twitter: OneKeyHQ
 social:
-- https://discord.com/invite/nwUJaTzjzv
+- https://discord.com/invite/nwUJaTzjzv#deadLink
 builds: 
 features: 
 
@@ -44,11 +41,11 @@ Note from Provider:
 
 Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}
 
-## [Operation Instructions](https://help.onekey.so/hc/en-us/articles/360002123856-OneKey-Hardware-Wallet-Quick-Start-Tutorial)
+## [Operation Instructions](https://help.onekey.so/hc/en-us/articles/360002123856-OneKey-Hardware-Wallet-Quick-Start-Tutorial#deadLink)
 
 1. Can the private keys be created offline?
 
-**Yes**. See [tutorial on seed generation](https://help.onekey.so/hc/en-us/articles/360004487195)
+**Yes**. See [tutorial on seed generation](https://help.onekey.so/hc/en-us/articles/360004487195#deadLink)
 
 2. Are the private keys shared?
 
@@ -72,3 +69,5 @@ We'll go by the assumption that the hardware wallet does not share the private k
 
 We followed the steps that provider sent to us and ran a script which is based on their
 [Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-touch.yml).
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406)

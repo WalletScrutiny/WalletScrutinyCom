@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: Jing Yan
 providerWebsite: 
-website: https://justsafe.io
+website: https://justsafe.io#deadLink
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: justsafe.png
+icon: justsafe.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2023-02-24
 signer: 
 twitter: Justsafe3

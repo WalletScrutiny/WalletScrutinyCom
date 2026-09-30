@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: confluxnetwork.bsim.png
+icon: confluxnetwork.bsim.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: Conflux_Network
@@ -30,7 +28,7 @@ social:
 - https://t.me/Conflux_English
 - https://www.reddit.com/r/Conflux_Network
 - https://www.youtube.com/@confluxnetwork
-- https://discord.com/invite/conflux-network-707952293412339843
+- https://web.archive.org/web/20260214120741/https://discord.com/invite/conflux-network-707952293412339843
 builds: 
 features: 
 

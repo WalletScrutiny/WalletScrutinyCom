@@ -17,12 +17,10 @@ shop: https://www.origokey.com/preorder
 country: HU
 price: 
 repository: 
-issue: 
-icon: bitorigo.origokey.png
+icon: bitorigo.origokey.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-29
 signer: 
 twitter: 

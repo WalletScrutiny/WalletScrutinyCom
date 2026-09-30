@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/AngainorDev/WALT_WALLET_BASIC
-issue: 
-icon: walt.png
+icon: walt.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2024-10-23
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: Angainor15
 social: 

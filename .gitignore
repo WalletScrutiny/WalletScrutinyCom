@@ -5,6 +5,7 @@ node_modules/
 .jekyll-cache/
 .ruby-version
 .history
+.gems/*
 .settings/
 .project
 .bundle/
@@ -12,7 +13,17 @@ node_modules/
 vendor/
 images/social/
 _data/git.yml
+_data/precomputed.json
 dist/
 backup/
 _includes/scripts.html
-external/build_server/build_server_build_dir/
+_includes/homepage-preloads.html
+_includes/allProducts-precomputed.json
+/redirects.map
+external/build_server/.env
+
+playwright-report/
+test-results/
+
+# Feature verifier cache (fetched text + LLM proposals — not for the repo)
+scripts/cache/

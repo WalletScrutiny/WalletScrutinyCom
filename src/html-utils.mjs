@@ -1,0 +1,168 @@
+import DOMPurify from 'dompurify';
+
+const SHA256_HEX_RE = /^[0-9a-f]{64}$/i;
+
+/** Tags that must never appear in rendered markdown / rich HTML. */
+const RICH_HTML_FORBIDDEN_TAGS = new Set([
+  'script', 'iframe', 'object', 'embed', 'form', 'input', 'textarea', 'select',
+  'button', 'style', 'link', 'meta', 'base', 'svg', 'math', 'image', 'video',
+  'audio', 'source', 'track', 'frame', 'frameset', 'applet', 'foreignobject',
+]);
+
+/** DOMPurify config for markdown → HTML (HTML profile only; no SVG/MathML). */
+export const RICH_HTML_PURIFY_CONFIG = {
+  USE_PROFILES: { html: true },
+  FORBID_TAGS: [...RICH_HTML_FORBIDDEN_TAGS],
+  FORBID_ATTR: ['style'],
+};
+
+export function isSha256Hex(value) {
+  return typeof value === 'string' && SHA256_HEX_RE.test(value);
+}
+
+/** Strip tags when DOMPurify has no DOM (unit tests). */
+export function stripHtmlTags(value) {
+  return String(value ?? '').replace(/<[^>]*>/g, '');
+}
+
+/**
+ * Allow only http(s) URLs for user-supplied links.
+ * @returns {string|null}
+ */
+export function sanitizeHttpUrl(value) {
+  if (value == null || value === '') {
+    return null;
+  }
+  try {
+    const url = new URL(String(value).trim());
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') {
+      return null;
+    }
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
+function canUseDomPurify() {
+  return Boolean(DOMPurify?.isSupported && typeof DOMPurify.sanitize === 'function');
+}
+
+function isDangerousUrlAttr(name, value) {
+  if (!/^(href|src|xlink:href|formaction|action)$/i.test(name)) {
+    return false;
+  }
+  const trimmed = String(value ?? '').trim();
+  return /^\s*(?:javascript|vbscript|data):/i.test(trimmed);
+}
+
+/**
+ * DOM-tree sanitizer used when DOMPurify is unsupported (e.g. linkedom in unit tests).
+ * Removes forbidden tags, event-handler attributes, and javascript:/data: URLs.
+ */
+export function sanitizeRichHtmlWithDom(html) {
+  if (typeof document === 'undefined') {
+    return stripHtmlTags(html);
+  }
+  const wrap = document.createElement('div');
+  wrap.innerHTML = String(html ?? '');
+
+  for (const node of [...wrap.querySelectorAll('*')]) {
+    const tag = node.tagName?.toLowerCase?.() ?? '';
+    if (RICH_HTML_FORBIDDEN_TAGS.has(tag)) {
+      node.remove();
+      continue;
+    }
+    for (const attr of [...(node.attributes ?? [])]) {
+      if (/^on/i.test(attr.name) || isDangerousUrlAttr(attr.name, attr.value)) {
+        node.removeAttribute(attr.name);
+      }
+    }
+  }
+
+  return wrap.innerHTML;
+}
+
+/**
+ * Sanitize HTML produced from untrusted markdown (or any rich HTML sink).
+ * Prefer DOMPurify in the browser; fall back to a DOM walk when unsupported.
+ */
+export function sanitizeRichHtml(html) {
+  const raw = String(html ?? '');
+  if (canUseDomPurify()) {
+    return DOMPurify.sanitize(raw, RICH_HTML_PURIFY_CONFIG);
+  }
+  return sanitizeRichHtmlWithDom(raw);
+}
+
+/**
+ * Build a DOM node. Attributes go through setAttribute (safe for untrusted values).
+ * String/number children become text nodes (safe). Element children are appended as-is.
+ *
+ * Special attrs:
+ * - className / class → className
+ * - dataset: { fooBar: 'x' } → data-foo-bar
+ * - style: object → style properties
+ * - html: trusted markup only (static icons, never Nostr data)
+ */
+export function el(tagName, attrs = {}, ...children) {
+  const node = document.createElement(tagName);
+
+  for (const [key, raw] of Object.entries(attrs ?? {})) {
+    if (raw == null || raw === false) {
+      continue;
+    }
+    if (key === 'className' || key === 'class') {
+      node.className = String(raw);
+      continue;
+    }
+    if (key === 'dataset' && typeof raw === 'object') {
+      for (const [dataKey, dataVal] of Object.entries(raw)) {
+        if (dataVal != null && dataVal !== false) {
+          node.dataset[dataKey] = String(dataVal);
+        }
+      }
+      continue;
+    }
+    if (key === 'style' && typeof raw === 'object') {
+      Object.assign(node.style, raw);
+      continue;
+    }
+    if (key === 'html') {
+      // Trusted static markup only (e.g. inline SVG constants).
+      node.innerHTML = String(raw);
+      continue;
+    }
+    node.setAttribute(key, raw === true ? '' : String(raw));
+  }
+
+  for (const child of children.flat(Infinity)) {
+    if (child == null || child === false) {
+      continue;
+    }
+    if (typeof child === 'string' || typeof child === 'number') {
+      node.appendChild(document.createTextNode(String(child)));
+      continue;
+    }
+    node.appendChild(child);
+  }
+
+  return node;
+}
+
+/** Serialize a node built with el() / createElement for callers that still need HTML strings. */
+/** Leading hex characters of a hash that are shown in bold, so hashes can be compared at a glance. */
+export const HASH_PREFIX_LENGTH = 8;
+
+/** A hash as a bold prefix followed by the rest, both as text nodes. */
+export function hashWithBoldPrefix(hash) {
+  const text = String(hash ?? '');
+  return [
+    el('strong', { className: 'hash-prefix' }, text.slice(0, HASH_PREFIX_LENGTH)),
+    el('span', { className: 'hash-rest' }, text.slice(HASH_PREFIX_LENGTH)),
+  ];
+}
+
+export function htmlOf(node) {
+  return node?.outerHTML ?? '';
+}

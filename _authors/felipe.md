@@ -2,7 +2,7 @@
 name: Felipe Jara
 short: fj
 since: 2021-07-10
-avatar: Felipe.png
+avatar: Felipe.jpg
 role: Wallet Reviewer
 ---
 

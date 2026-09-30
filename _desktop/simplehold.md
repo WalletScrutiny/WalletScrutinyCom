@@ -11,9 +11,8 @@ binaries:
 provider: 
 providerWebsite: 
 website: 
-repository: https://github.com/SimpleHold
-issue: 
-icon: simplehold.png
+repository: 
+icon: simplehold.webp
 bugbounty: 
 meta: ok
 verdict: nosource

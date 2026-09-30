@@ -12,8 +12,7 @@ provider:
 providerWebsite: 
 website: https://coinapp.io/
 repository: https://github.com/coinapp-io/desktop
-issue: 
-icon: coinapp.png
+icon: coinapp.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
@@ -21,9 +20,12 @@ date: 2025-04-22
 twitter: coin_with_us
 social: 
 builds: 
-features: 
+features:
+- customNode
 
 ---
+
+{% include featureEvidence.html feature="customNode" source="[README](https://github.com/coinapp-io/desktop#readme)" quote="CoinApp lets the user modify their connections to fit their own decentralized server." %}
 
 ## App Description
 

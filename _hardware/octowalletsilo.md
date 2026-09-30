@@ -16,16 +16,14 @@ weight:
 provider: Digital Silo Pty Ltd
 providerWebsite: 
 website: https://www.octowallet.com/
-shop: https://shop.octowallet.com/
+shop: https://shop.octowallet.com#deadLink
 country: AU
 price: 
 repository: 
-issue: 
-icon: octowalletsilo.png
+icon: octowalletsilo.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: octowallet

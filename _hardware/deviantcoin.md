@@ -17,12 +17,10 @@ shop:
 country: SG
 price: 
 repository: 
-issue: 
-icon: deviantcoin.png
+icon: deviantcoin.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: DeviantCoin

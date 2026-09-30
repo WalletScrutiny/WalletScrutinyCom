@@ -18,12 +18,10 @@ shop: https://www.amazon.com/dp/B07FKWKBJ2
 country: 
 price: 
 repository: 
-issue: 
-icon: asamacura.png
+icon: asamacura.webp
 bugbounty: 
 meta: discontinued
 verdict: noita
-appHashes: 
 date: 2023-02-13
 signer: 
 twitter: 

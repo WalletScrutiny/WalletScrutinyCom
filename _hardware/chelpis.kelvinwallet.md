@@ -15,23 +15,22 @@ dimensions:
 weight: 35
 provider: Chelpis Co., Ltd.
 providerWebsite: https://www.chelpis.com/
-website: https://www.kelvinwallet.com
-shop: https://www.kelvinwallet.com/product-page
+website: https://web.archive.org/web/20250714084324/https://www.kelvinwallet.com/
+shop: https://www.kelvinwallet.com/product-page#deadLink
 country: TW
 price: 3000TWD
 repository: 
-issue: 
-icon: chelpis.kelvinwallet.png
+icon: chelpis.kelvinwallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-11-25
 signer: 
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
@@ -43,7 +42,7 @@ Unfortunately, we did not receive a reply to our email. As there is still no evi
 
 ## Product Description 
 
-From the {{ page.title }} [homepage](https://www.kelvinwallet.com/):
+From the {{ page.title }} [homepage](https://web.archive.org/web/20250714084324/https://www.kelvinwallet.com/):
 
 > - "First Quantum Proof crypto-wallet"
 - Quantum-safe OS (Quantum-safe digital signature scheme)
@@ -65,6 +64,6 @@ We were able to locate what we assume to be [Chelpis' repository](https://github
 
 No mention was made about whether the device provides mnemonic backups. 
 
-We reached out to them via email since we could not verify if the Kelvin Wallet twitter account is actually theirs. We await their reply. At the interim, this project would do better to provide more transparency regarding their claims. 
+We reached out to them via email since we could not verify if the Kelvin Wallet twitter account is actually theirs. We await their reply. At the interim, this project would do better to provide more transparency regarding their claims.
 
-
+{% include featureEvidence.html feature="secEl" quote="Private keys never leave the device and are protected by a CC EAL5+ secure element, locked by your PIN, with sophisticated countermeasures against various kinds of physical attacks." source="Product Description" %}

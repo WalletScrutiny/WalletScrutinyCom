@@ -17,12 +17,10 @@ shop:
 country: RU
 price: 400XCW
 repository: 
-issue: 
-icon: cryptowatch.png
+icon: cryptowatch.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: thecryptowatchO

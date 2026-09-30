@@ -17,12 +17,10 @@ shop:
 country: CA
 price: 
 repository: 
-issue: 
-icon: jaxxicecube.png
+icon: jaxxicecube.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: jaxx_io

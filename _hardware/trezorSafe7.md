@@ -1,12 +1,13 @@
 ---
 title: Trezor Safe 7
 appId: trezorSafe7
+bitcoinOrgId: trezorsafe7
 authors:
 - danny
 released: 2025-10-14
 discontinued: 
-updated: 2025-10-14
-version: 2.9.3.0
+updated: 2026-09-15
+version: 2.12.5
 binaries: 
 dimensions:
 - 75
@@ -20,27 +21,27 @@ shop: https://trezor.io/trezor-safe-7
 country: CZ
 price: 249USD
 repository: https://github.com/trezor/trezor-firmware
-issue: 
-icon: trezorSafe7.png
+icon: trezorSafe7.webp
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-10-22
 signer: 
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
-builds: 
+builds:
+- arch: arm
+  types:
+    btc-only:
+    - trezor-t3w1-*-bitcoinonly.bin
+    universal:
+    - trezor-t3w1-*.bin
 features:
-- 2.5" color touchscreen
-- TROPIC01 secure element (TropicSquare)
-- 3.2V 330mAh battery
-- USB-C, Bluetooth, Qi2 wireless charging
-- BIP39 12/20/24-word, Shamir Secret Sharing
-- FIDO2, TOTP
-- Tor proxy support
+- foss
+- hd
+- secEl
 
 ---
 
@@ -77,3 +78,11 @@ The firmware follows the same reproducible build process as other Trezor Core de
 - [Trezor Safe 7: Quantum-Ready Hardware Wallet](https://trezor.io/guides/trezor-devices/trezor-safe-7/the-first-quantum-ready-hardware-wallet)
 - [TROPIC01 GitHub Repository](https://github.com/tropicsquare/tropic01)
 - [Trezor Firmware Repository](https://github.com/trezor/trezor-firmware)
+
+{% include featureEvidence.html feature="hd" quote="The device supports 12-, 20-, and 24-word BIP39 seed phrases and Shamir Secret Sharing (Multi-share Backup)." source="Device Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="The Trezor Safe 7 is a hardware wallet that uses the TROPIC01 secure element chip developed by TropicSquare." source="Device Description" %}
+
+
+{% include featureEvidence.html feature="foss" quote="The firmware source code is available in the trezor-firmware monorepo under the T3W1 model configuration." source="Firmware Information" %}
+{% include featureEvidence.html feature="selfBuild" comment="Not tagged selfBuild: hardware designs for the Safe 7 are not published (trezor-hardware repo only covers One and T). The Safe 7 uses dual secure elements including the TROPIC01 by Tropic Square — open-architecture RISC-V chip, auditable and used across multiple vendors, but not available for individual consumer purchase. No self-build instructions or open PCB designs exist for this model." source="[TROPIC01 GitHub](https://github.com/tropicsquare/tropic01), [trezor-hardware repo](https://github.com/trezor/trezor-hardware)" %}

@@ -1,0 +1,19 @@
+---
+title: Bitkru
+date: 2026-09-14
+iphone:
+  appId: com.production.BitcoinWallet
+  idd: '6749847943'
+  appCountry: us
+  released: 2025-08-18
+  updated: 2026-09-29
+  version: 28.28.40
+  reviews: 87
+  icon: com.production.BitcoinWallet.webp
+  meta: ok
+  verdict: wip
+  developerName: NWAY OO WATHAN TRADING COMPANY LIMITED
+
+---
+
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6749847943" author="overtorment" severity="critical" finding="Store build POSTs mnemonic, WIF, and vault phrases to AES-obfuscated coffer.agency. Public GitHub scan is local-only." %}

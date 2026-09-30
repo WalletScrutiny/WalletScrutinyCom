@@ -5,8 +5,8 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: 
-version: 
+updated: 2022-07-20
+version: 1.0.1
 binaries: 
 dimensions: 
 weight: 
@@ -17,18 +17,17 @@ shop:
 country: US
 price: 
 repository: https://github.com/anishathalye/notary
-issue: 
-icon: anishathalye.notary.png
+icon: anishathalye.notary.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2024-10-18
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: anishathalye
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 

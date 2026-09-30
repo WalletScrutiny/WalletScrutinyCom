@@ -3,7 +3,7 @@ title: Beginners Guide to Cryptocurrency USB Stick
 appId: beginnersguide.usb
 authors:
 - danny
-icon: beginnersguide.usb.png
+icon: beginnersguide.usb.webp
 date: 2023-12-15
 released: 2019-06-04
 weight: 11.3

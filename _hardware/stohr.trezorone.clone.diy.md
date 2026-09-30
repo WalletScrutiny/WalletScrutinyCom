@@ -17,13 +17,11 @@ shop:
 country: DE
 price: 
 repository: 
-issue: 
-icon: stohr.trezorone.clone.diy.png
+icon: stohr.trezorone.clone.diy.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-11-10
+verdict: nosource
+date: 2026-02-27
 signer: 
 twitter: _superhero1
 social: 

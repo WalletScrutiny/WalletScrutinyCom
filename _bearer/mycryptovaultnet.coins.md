@@ -12,13 +12,12 @@ dimensions:
 weight: 
 provider: MyCryptoVault
 providerWebsite: 
-website: https://web.archive.org/web/20160111002328/http://mycryptovault.net/
+website: http://mycryptovault.net
 shop: 
 country: US
 price: 15USD
 repository: 
-issue: 
-icon: mycryptovaultnet.coins.png
+icon: mycryptovaultnet.coins.webp
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey

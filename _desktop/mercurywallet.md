@@ -11,9 +11,8 @@ binaries:
 provider: 
 providerWebsite: 
 website: https://mercurywallet.com/
-repository: https://github.com/layer2tech/mercury-wallet
-issue: 
-icon: mercurywallet.png
+repository: https://github.com/layer2tech/mercury-wallet#deadLink
+icon: mercurywallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip

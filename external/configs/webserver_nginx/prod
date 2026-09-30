@@ -1,0 +1,68 @@
+server {
+    server_name walletscrutiny.com;
+    root /var/www/walletscrutiny.com;
+    index index.html;
+    listen 443 ssl;
+    http2 on;
+    server_tokens off;
+    brotli_static on;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+
+    ssl_certificate /etc/letsencrypt/live/walletscrutiny.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/walletscrutiny.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+    access_log /var/log/nginx/access_walletscrutiny.log;
+    error_log /var/log/nginx/error_walletscrutiny.log;
+
+    open_file_cache max=500 inactive=10m;
+    open_file_cache_valid 15m;
+    open_file_cache_min_uses 1;
+
+    # old URLs (redirect_from front matter) -> 301, see redirects-maps.conf
+    if ($ws_redirect_prod) {
+        return 301 $ws_redirect_prod;
+    }
+    location = /redirects.map {
+        return 404;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    location /.well-known/nostr.json {
+        add_header Access-Control-Allow-Origin "*";
+    }
+    location ~* \.(html|htm)$ {
+        expires 1h;
+    }
+    location ~* bundle\.min\.js$ {
+        expires 100y;
+    }
+    location ~* \.(css|js)$ {
+        expires 3h;
+    }
+    location ~* \.(jpg|jpeg|png|gif|ico|svg)$ {
+        expires 1d;
+    }
+    location ~* \.(woff|woff2|ttf)$ {
+        expires 1y;
+    }
+
+    set $csp "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src * data: blob:; font-src 'self'; connect-src *; worker-src 'self' blob:; object-src 'none'; frame-ancestors 'none'; frame-src 'self' https://www.youtube.com https://youtube.com https://files.nostr.info; base-uri 'self'; form-action 'self';";
+    add_header Content-Security-Policy $csp always;
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+}
+
+server {
+    server_name walletscrutiny.com;
+    listen 80;
+    return 301 https://$host$request_uri;
+}

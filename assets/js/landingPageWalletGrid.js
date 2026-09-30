@@ -1,10 +1,39 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-const paginationLimit = 12;
+const PAGINATION_LIMIT_DESKTOP = 12;
+const PAGINATION_LIMIT_MOBILE = 6;
+const PAGINATION_MOBILE_MQ = window.matchMedia('(max-width: 756px)');
+
+function getPaginationLimit() {
+  return PAGINATION_MOBILE_MQ.matches ? PAGINATION_LIMIT_MOBILE : PAGINATION_LIMIT_DESKTOP;
+}
+
+let lastPaginationLimit = getPaginationLimit();
 let hasRedirected = false;
 window.blockScrollingFocus = false;
 window.verdictCount = {};
 let isInitializing = true;
+let cachedSearchKey = null;
+let cachedWorkingArray = null;
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } };
+
+function getSearchCacheKey(platform, query) {
+  return `${platform}\0${query || ''}`;
+}
+
+function invalidateWalletGridSearchCache() {
+  cachedSearchKey = null;
+  cachedWorkingArray = null;
+}
+
+function getFilteredWallets(platform, query) {
+  const searchKey = getSearchCacheKey(platform, query);
+  if (cachedSearchKey === searchKey && cachedWorkingArray) {
+    return cachedWorkingArray;
+  }
+  cachedWorkingArray = performSearch(window.wallets, query, platform);
+  cachedSearchKey = searchKey;
+  return cachedWorkingArray;
+}
 
 for (const [key, value] of Object.entries(wfInputTargets)) {
   if (value.type === 'dropdown') {
@@ -44,11 +73,9 @@ function updateWalletGridInputOriginatingFromURL() {
 
 function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   query = decodeURI(query);
-  let workingArray = false;
+  const workingArray = getFilteredWallets(platform, query);
 
-  workingArray = performSearch(window.wallets, query, platform);
-
-  generateAndAppendWalletTiles(workingArray, page);
+  generateAndAppendWalletTiles(workingArray, page, platform);
   generateAndAppendPagination(workingArray, page);
   generateDropdownAndInputCounts(workingArray, platform);
   generateFeedbackText(workingArray, platform, queryRaw);
@@ -58,7 +85,9 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   
 }
 
-function generateAndAppendWalletTiles(workingArray, pageNo) {
+function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
+  const paginationLimit = getPaginationLimit();
+  const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
   var container = document.createElement("div");
   container.classList.add("wallet-placeholder");
@@ -72,45 +101,22 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 
     if (!wallet) { break }
 
-    let lastVerificationStatus = null;
-    if (window.allAssetInformation) {
-      lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
-    }
+    const walletDetailsHtml = typeof getWalletCardDetailsHtml === 'function'
+      ? getWalletCardDetailsHtml(wallet, listPlatform)
+      : '';
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
-    const icon = getIcon(wallet.folder);
-    const delay = (i + 1) * 80;
-    let passed = ``;
-    let failed = ``;
-    if (wallet.score) {
-      for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>`; }
-      for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>`; }
-    }
+    const tileHeadPlatform = wallet.folder === 'mobile' ? false : listPlatform;
+    const icon = getWalletListIcon(wallet, tileHeadPlatform);
     const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
-    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
+    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}">
       <div class="tile-head">
-        <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
+        <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>
+        <span class="platform tile-view-only">${icon}<span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
       </div>
-      <div class="wallet-details">
-        <div class="stamps">
-          ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-          <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-        ${wallet.meta && wallet.meta !== "ok"
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : ""}
-        </div>
-        ${wallet.score
-          ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-            ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<span>❓ Not verified yet</span>') : ''}
-            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-            <div>${passed}${failed}</div>
-          </div>`
-          : ''
-        }
-      </div>
+      ${walletDetailsHtml}
     </a>`;
   }
   flexListEle.innerHTML = `${badgesHtml}`;
@@ -125,6 +131,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 }
 
 function generateAndAppendPagination(workingArray, pageNo) {
+  const paginationLimit = getPaginationLimit();
   if (isInitializing) return;
   if (workingArray.length >= paginationLimit && (Math.ceil(workingArray.length / paginationLimit) < pageNo)) {
     updateWalletGridInputOriginatingFromUI();
@@ -184,10 +191,10 @@ function generateAndAppendPagination(workingArray, pageNo) {
       }
 
       if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) {
-        content += `&nbsp;<i class="fa-solid fa-angles-right"></i>`;
+        content += `&nbsp;${wsIcon('angles-right')}`;
       }
       if (!allowedTargets[index - 1] && page > (index + 3)) {
-        content = `<i class="fa-solid fa-angles-left"></i>&nbsp;` + content;
+        content = `${wsIcon('angles-left')}&nbsp;` + content;
       }
       
       clickTarget.innerHTML = content; // Set the final content
@@ -227,7 +234,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts() {
-  document.querySelector(".query-string").setAttribute("placeholder", `Search ${window.full_wallet_count} security reviews…`);
+  document.querySelector(".query-string").setAttribute("placeholder", `Enter your wallet's name, or filter by platform and features`);
 }
 
 function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {
@@ -292,7 +299,7 @@ async function processStyle(wallet) {
   let target = await document.querySelector(`.${domClass}`);
   if (!target) { return; }
   let imgObj = new Image();
-  imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
+  imgObj.src = `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`;
   imgObj.onload = function () {
     if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware' && wallet.folder !== 'desktop') {
       let instanceCanvas = document.createElement("canvas");
@@ -327,15 +334,51 @@ function setDropdown(parent, child) {
   }
 }
 
+function remapPageForPaginationLimitChange() {
+  const oldLimit = lastPaginationLimit;
+  const newLimit = getPaginationLimit();
+  if (oldLimit === newLimit) { return; }
+  lastPaginationLimit = newLimit;
+
+  const selected = document.querySelector('.pagination .click-target.selected');
+  const currentPage = selected ? Number(selected.getAttribute('data-index')) + 1 : 1;
+  const firstItemIndex = (currentPage - 1) * oldLimit;
+  const newPage = Math.floor(firstItemIndex / newLimit) + 1;
+
+  const platformElement = document.querySelector(".dropdown-platform .selected");
+  const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms";
+  const queryStringElement = document.querySelector(".query-string");
+  const queryRaw = queryStringElement.value.length > 0 ? encodeURI(queryStringElement.value) : "";
+  const newUrl = `/?platform=${platform}&page=${newPage}${queryRaw.length > 0 ? '&query-string=' + queryRaw : ''}`;
+  window.history.pushState('data', null, newUrl);
+  updateWalletGridInputOriginatingFromURL();
+}
+
 // ADD EVENTLISTENERS
+PAGINATION_MOBILE_MQ.addEventListener('change', () => {
+  if (isInitializing) { return; }
+  remapPageForPaginationLimitChange();
+});
+
 window.addEventListener("popstate", () => {
   updateWalletGridInputOriginatingFromURL();
 });
 
-window.addEventListener("load", () => {
+function onAllWalletsLoaded() {
+  invalidateWalletGridSearchCache();
+  isInitializing = false;
+  window.blockScrollingFocus = true;
   updateWalletGridInputOriginatingFromURL();
+}
+
+window.addEventListener("load", () => {
+  if (!window.allWalletsLoaded) {
+    updateWalletGridInputOriginatingFromURL();
+  }
   isInitializing = false;
 });
+
+// Feature filter pill sync is handled in wallet-filters.html inline script.
 
 window.queryStringTimeout = false;
 document.querySelector(".query-string").addEventListener("input", () => {
@@ -355,19 +398,13 @@ document.querySelector(".query-string").addEventListener("input", () => {
 });
 
 window.addEventListener('allAssetInformationLoaded', () => {
+  invalidateWalletGridSearchCache();
   isInitializing = false;
   updateWalletGridInputOriginatingFromURL();
 });
 
-window.addEventListener("allWalletsLoaded", () => {
-  isInitializing = false;
-  const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms";
-  const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1;
-  const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : "";
-  const query = queryRaw.toUpperCase();
-  const workingArray = performSearch(window.wallets, query, platform) || false;
+window.addEventListener("allWalletsLoaded", onAllWalletsLoaded);
 
-  window.blockScrollingFocus = true;
-
-  generateAndAppendPagination(workingArray, page);
-});
+if (window.allWalletsLoaded) {
+  onAllWalletsLoaded();
+}

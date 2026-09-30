@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/mcudev/mcudev.github.io
-issue: 
-icon: mcudev.trezor.diy.devkit.png
+icon: mcudev.trezor.diy.devkit.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-11-11
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: xebawallet.png
+icon: xebawallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: 

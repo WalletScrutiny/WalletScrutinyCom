@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: holder.wallet.png
+icon: holder.wallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-03-03
 signer: 
 twitter: 

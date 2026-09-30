@@ -17,13 +17,11 @@ shop:
 country: IN
 price: 
 repository: 
-issue: 
-icon: aiotize.cryptozip.png
+icon: aiotize.cryptozip.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-05-19
+verdict: nosource
+date: 2026-02-27
 signer: 
 twitter: aiotize
 social: 

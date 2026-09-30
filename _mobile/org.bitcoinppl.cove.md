@@ -1,0 +1,39 @@
+---
+wsId: coveBitcoinWallet
+title: Cove - Simple Bitcoin Wallet
+date: 2026-01-14
+authors:
+- danny
+website: https://covebitcoinwallet.com
+redirect_from:
+- /android/org.bitcoinppl.cove/
+- /iphone/org.bitcoinppl.cove/
+android:
+  appId: org.bitcoinppl.cove
+  users: 100
+  appCountry: us
+  released: 2026-02-12
+  updated: 2026-07-15
+  version: 1.3.0
+  icon: org.bitcoinppl.cove.webp
+  alternativeStores:
+  - zapstore
+  meta: fewusers
+  verdict: wip
+  developerName: InfraOps LLC
+iphone:
+  appId: org.bitcoinppl.cove
+  idd: '6642680364'
+  appCountry: us
+  released: 2025-06-11
+  updated: 2026-07-16
+  version: 1.3.0
+  reviews: 23
+  icon: org.bitcoinppl.cove.webp
+  meta: ok
+  verdict: wip
+  developerName: InfraOps LLC
+
+---
+
+{% include copyFromAndroid.html %}

@@ -1,20 +1,28 @@
-const webpack = require("webpack");
+const path = require("path");
 const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { spawn } = require("child_process");
-// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = (env, argv) => {
+  const analyze = Boolean(env && env.analyze);
+
   return {
-    devtool: 'source-map',
+    cache: {
+      type: 'filesystem',
+      buildDependencies: {
+        config: [__filename],
+      },
+    },
+    devtool: argv.mode === 'production' ? false : 'source-map',
     entry: {
       // Do not change the order of the entries
-      jquery: [
+      site_main: [
         './assets/js/_main.js',
-        './assets/js/plugins/jquery.fitvids.js',
-        './assets/js/plugins/jquery.greedy-navigation.js'
+        './assets/js/ui-components.js',
       ],
+      loader: ['./src/loader.js'],
       dom_sanitization: ['dompurify'],
       verifications_data: {
         import: [
@@ -22,43 +30,57 @@ module.exports = (env, argv) => {
         ],
         dependOn: ['dom_sanitization'],
       },
+      share_ui: {
+        import: [
+          './src/renderShareButton.js',
+          './src/renderNostrButton.js',
+        ],
+      },
       verifications_ui: {
         import: [
-          './src/drag-and-drop-utils.js',
-          './src/blossom.js',
-          './src/blossom-utils.js',
+          './src/drag-and-drop-utils.mjs',
+          './src/blossom.mjs',
+          './src/blossom-utils.mjs',
           './src/drag-and-drop.js',
-          './src/assets-table-utils.js',
-          './src/assets-table-comments.js',
+          './src/assets-table-utils.mjs',
+          './src/assets-table-comments.mjs',
+          './src/assets-table-state.mjs',
+          './src/assets-table-filters.mjs',
+          './src/assets-table-paint.mjs',
+          './src/assets-table-profiles.js',
+          './src/assets-table-endorsements.mjs',
+          './src/assets-table-attachments.mjs',
+          './src/assets-table-modal.mjs',
+          './src/assets-table-hash.mjs',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',
-          './src/renderNostrButton.js'
+          './src/renderNostrButton.js',
+          './src/zapModal.mjs'
         ],
-        dependOn: ['dom_sanitization'],
+        dependOn: ['dom_sanitization', 'verifications_data'],
       },
-      font_awesome: [
-        './src/font-awesome.js'
-      ]
     },
     output: {
       filename: argv.mode === 'production' ? '[name].[contenthash].bundle.min.js' : '[name].bundle.min.js',
     },
     resolve: {
+      alias: {
+        debug: path.resolve(__dirname, 'src/debug-stub.js'),
+      },
       fallback: {
-        path: require.resolve('path-browserify'),
+        // app-info-parser's zip.js has a `require('path')` call, but only in its
+        // Node-only branch (guarded by isBrowser()) — dead code in this bundle,
+        // so we don't need a real polyfill, just tell webpack not to error on it.
+        path: false,
         fs: false, // 'fs' is not supported in browsers, disable it
-        zlib: require.resolve('browserify-zlib'),
-        util: require.resolve('util/'),
-        stream: require.resolve('stream-browserify'),
-        assert: require.resolve('assert'),
-        process: require.resolve('process/browser'),
+        zlib: false,
       },
     },
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.m?js$/,
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader',
@@ -77,17 +99,17 @@ module.exports = (env, argv) => {
       usedExports: true
     },
     plugins: [
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery',
-        'window.jQuery': 'jquery',
-        'window.$': 'jquery',
-        process: 'process/browser',
-      }),
       new HtmlWebpackPlugin(
         {
           template: 'src/templates/scripts.html',
           filename: 'scripts.html',
+          inject: false
+        }
+      ),
+      new HtmlWebpackPlugin(
+        {
+          template: 'src/templates/homepage-preloads.html',
+          filename: 'homepage-preloads.html',
           inject: false
         }
       ),
@@ -103,6 +125,7 @@ module.exports = (env, argv) => {
         onAfterDone:  {
           scripts: [
             'mv dist/scripts.html _includes/scripts.html 2>/dev/null || true',
+            'mv dist/homepage-preloads.html _includes/homepage-preloads.html 2>/dev/null || true',
           ],
           blocking: false,
           parallel: false
@@ -116,11 +139,14 @@ module.exports = (env, argv) => {
             if (!firstRun) return;
             firstRun = false;
 
+            if (analyze) {
+              return;
+            }
+
             if (argv.mode === 'development') {
-              // Development build: just launch jekyll server
-              console.log("🚀 Launching Jekyll server...");
-    
-              const jekyll = spawn("bundle", [
+              console.log("Launching Jekyll server...");
+
+              spawn("bundle", [
                 "exec",
                 "jekyll",
                 "serve",
@@ -134,21 +160,15 @@ module.exports = (env, argv) => {
                 stdio: "inherit",
                 shell: true
               });
-            } else {
-              // Production build: build jekyll and then compress
-              spawn("bundle", [
-                "exec",
-                "jekyll",
-                "build",
-              ], {
-                stdio: "inherit",
-                shell: true
-              });
             }
           });
         },
       },
-      // new BundleAnalyzerPlugin()
+      ...(analyze ? [new BundleAnalyzerPlugin({
+        analyzerMode: 'static',
+        openAnalyzer: false,
+        reportFilename: 'bundle-report.html',
+      })] : []),
     ]
   }
 };

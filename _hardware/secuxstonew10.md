@@ -21,12 +21,10 @@ shop: https://shop.secuxtech.com/products/w10-hardware-wallet-for-computer/
 country: TW
 price: 69USD
 repository: 
-issue: 
-icon: secuxstonew10.png
+icon: secuxstonew10.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-11-24
 signer: 
 twitter: SecuXwallet
@@ -34,7 +32,9 @@ social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
 builds: 
-features: 
+features:
+- hd
+- secEl
 
 ---
 
@@ -52,7 +52,7 @@ features:
 
 - [The private keys can be created offline.](https://secuxtech.com/howitworks/device-setup_step_w10-new/) 
 - The device can connect to a web portal called [SecuXess](https://wallet.secuxtech.com/secuxess/#/) via USB  or Bluetooth (through a PC). 
-- More information about [SecuXess](https://secuxtech.com/howitworks/web/).
+- More information about [SecuXess](https://secuxtech.com/howitworks/web#deadLink).
 - The portal can be used to "Add Accounts, Send and Receive".
 
 ## Updated Review 2024-11-01
@@ -128,3 +128,7 @@ Furthermore the firmware update does not detail the location where the MCU and S
 > Until these issues are resolved, we have to list this product (and probably all three of their products) as closed source.
 
 Pending the response of SecuX tech, I think it's worth the benefit of the doubt to hear what they have to say.
+
+{% include featureEvidence.html feature="hd" quote="Compatible recoverability with BIP32, 39, 44, 49 standards" source="Product Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="Infineon Secure Element chip" source="Product Description" %}

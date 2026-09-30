@@ -18,12 +18,10 @@ shop:
 country: FR
 price: 
 repository: 
-issue: 
-icon: ledgerhw1.png
+icon: ledgerhw1.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-01-22
 signer: 
 twitter: Ledger

@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: Blockchain Labs / (Lightning ASIC Shenzhen Intelligent Company Limited) / Hong Kong BitExchange Co., Ltd.
 providerWebsite: 
-website: https://www.hardid.org/
+website: https://www.hardid.org#deadLink
 shop: https://www.lightningasic.com/product/Bitcoinminer/45.html
 country: CN
 price: 149USD
 repository: https://github.com/lightningasic/BitExchange-Hardware-Wallet
-issue: 
-icon: bitexchange.hardid.png
+icon: bitexchange.hardid.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2022-04-29
 signer: 
 twitter: 

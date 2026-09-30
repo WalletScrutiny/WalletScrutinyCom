@@ -1,13 +1,14 @@
-import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
-import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind, eventRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
+import {
+  connectNostr,
+  fetchEvents,
+} from "../../src/nostr-client.mjs";
 
-global.WebSocket = WebSocket;
 
-const KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
+const KINDS = [assetRegistrationKind, assetBundleRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
 const VERIFICATION_KINDS = KINDS.filter(kind => kind !== opinionKind);
 const BASE_DIR = path.join(process.cwd(), "backup");
 
@@ -19,11 +20,11 @@ function getTimestamp(months = 2) {
 
 function createDirectories() {
   fs.mkdirSync(BASE_DIR, { recursive: true });
-  
+
   VERIFICATION_KINDS.forEach(kind => {
     fs.mkdirSync(path.join(BASE_DIR, "nostr-verification-events", kind.toString()), { recursive: true });
   });
-  
+
   fs.mkdirSync(path.join(BASE_DIR, "nostr-opinion-events", opinionKind.toString()), { recursive: true });
 }
 
@@ -33,7 +34,7 @@ function isValidEvent(event) {
     const hasWalletScrutiny = event.tags.some(tag => tag[0] === 't' && (tag[1] === 'WalletScrutiny' || tag[1] === 'WalletScrutiny.com'));
     return hasNostrOpinion && hasWalletScrutiny;
   }
-  
+
   const clientTag = getFirstTagValue(event, 'client');
   return clientTag === 'WalletScrutiny.com';
 }
@@ -45,20 +46,18 @@ function getEventPath(event) {
 
 async function main() {
   try {
-    const ndk = new NDK({ explicitRelayUrls });
-    
     console.log("Connecting to relays...");
-    await ndk.connect(2000);
+    await connectNostr({ relayUrls: eventRelayUrls, connectTimeoutMs: 2000 });
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     const since = getTimestamp();
     console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
-    
+
     const [verificationEvents, opinionEvents] = await Promise.all([
-      ndk.fetchEvents({ kinds: VERIFICATION_KINDS, since }),
-      ndk.fetchEvents({ kinds: [opinionKind], "#t": ["nostrOpinion"] })
+      fetchEvents({ kinds: VERIFICATION_KINDS, since }),
+      fetchEvents({ kinds: [opinionKind], "#t": ["nostrOpinion"] }),
     ]);
-    
+
     const events = [...verificationEvents, ...opinionEvents];
 
     console.log("Creating output directories if they don't exist...");
@@ -66,20 +65,20 @@ async function main() {
 
     console.log("Saving events to files...");
     let saved = 0, skipped = 0;
-    
+
     for (const event of events) {
       if (!isValidEvent(event)) {
         skipped++;
         continue;
       }
-      
+
       const filePath = getEventPath(event);
       if (fs.existsSync(filePath)) {
         skipped++;
         continue;
       }
-      
-      fs.writeFileSync(filePath, JSON.stringify(event.rawEvent(), null, 2));
+
+      fs.writeFileSync(filePath, JSON.stringify(event, null, 2));
       console.log(`Saved event ${event.id}`);
       saved++;
     }

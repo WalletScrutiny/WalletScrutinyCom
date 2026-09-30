@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/stepansnigirev/m5stack_hardware_wallet
-issue: 
 icon: 
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-05-17
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

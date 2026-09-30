@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: mevu.png
+icon: mevu.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-01-15
 signer: 
 twitter: mevulab

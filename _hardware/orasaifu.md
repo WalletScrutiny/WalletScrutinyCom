@@ -14,18 +14,16 @@ dimensions:
 - 4.5
 weight: 65
 provider: OraSaifu Inc.
-providerWebsite: https://web.archive.org/web/20180812220227/https://orasaifu.io/
+providerWebsite: https://orasaifu.io
 website: 
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: orasaifu.png
+icon: orasaifu.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: OrasaifuWallet

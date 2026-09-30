@@ -3,7 +3,7 @@ title: Coinbase Wallet Extension for Chrome
 appId: ext.coinbase
 authors:
 - danny
-icon: ext.coinbase.png
+icon: ext.coinbase.webp
 date: 2024-05-09
 released: 2021-05-18
 updated: 2024-05-09

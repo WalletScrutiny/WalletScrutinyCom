@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: BiMoneyCHN
 providerWebsite: 
-website: https://bimoney.io
+website: https://bimoney.io#deadLink
 shop: 
 country: CN
 price: 
 repository: 
-issue: 
-icon: bimoneychn.png
+icon: bimoneychn.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: BiMoneyCHN

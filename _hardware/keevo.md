@@ -21,12 +21,10 @@ shop: https://www.keevowallet.com/products/keevo-model-1
 country: US
 price: 299USD
 repository: 
-issue: 
-icon: keevo.png
+icon: keevo.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-04-04
 signer: 
 twitter: keevowallet

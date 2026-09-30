@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: Xellox
 providerWebsite: https://xellox.io/
-website: https://xellox.io/products/zifer-pre-sale
+website: https://xellox.io/products/zifer-pre-sale#deadLink
 shop: 
 country: FI
 price: 49 EUR
 repository: 
-issue: 
-icon: xellox.zifer.png
+icon: xellox.zifer.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-06
 signer: 
 twitter: xelloxWallet

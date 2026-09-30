@@ -17,13 +17,11 @@ shop:
 country: FR
 price: 
 repository: https://github.com/mably/btchipJC
-issue: 
-icon: ykneo.btchip.png
+icon: ykneo.btchip.webp
 bugbounty: 
 meta: defunct
-verdict: diy
-appHashes: 
-date: 2022-05-20
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social:

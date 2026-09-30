@@ -17,12 +17,10 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
-icon: keyfortk300.png
+icon: keyfortk300.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-16
 signer: 
 twitter: 

@@ -14,12 +14,11 @@
   comment: Although some code was provided, we could not verify that the binary provided was generated from it.
 - key: custodials
   verdicts:
-  - ecash
   - custodial
   title: User only gets an IOU.
   short: Can Send & receive
   abstract: Key custody
-  comment: The provider might or might not hold BTC on behalf of the user.
+  comment: The provider holds BTC on behalf of the user.
 - key: nonTransferable
   verdicts:
   - nosendreceive
@@ -47,12 +46,10 @@
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - key: notRelevant
   verdicts:
-  - fewusers
   - vapor
   - unreleased
   - nobtc
   - nowallet
-  - diy
   metas:
   - stale
   - obsolete
@@ -60,6 +57,8 @@
   - discontinued
   - deprecated
   - removed
+  - fewusers
+  exclusive: true
   title: Not relevant.
   short: Not relevant
   abstract: Usage statistics & relevance
@@ -76,6 +75,8 @@
   verdicts:
   - wip
   metas:
+  - ok
+  match: all
   title: Pending review.
   short: Pending review
   abstract: Pending review

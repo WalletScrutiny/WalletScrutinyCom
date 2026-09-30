@@ -18,23 +18,27 @@ weight:
 provider: HyperPay
 providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.tech/hypermatepro/pro
-shop: https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
+shop: https://web.archive.org/web/20211026011641/https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
 country: HK
 price: 229USD
 repository: https://github.com/hyperpayorg/hardwallet
-issue: https://github.com/hyperpayorg/hardwallet/issues/4
-icon: hypermatepro.png
+icon: hypermatepro.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-12-12
 signer: 
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
-features: 
+features:
+- fingerprint
+- hd
+- multiSig
+- nfc
+- secEl
+- segwit
 
 ---
 
@@ -56,7 +60,7 @@ From [Is HyperPay Wallet safe?](https://hyperpayhelp.zendesk.com/hc/en-us/articl
 
 ## Device displays receive address for confirmation - ✔️
 
-Yes, this is [demonstrated](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409868364559/mceclip8.jpg) on this tutorial: "[Multisig Transaction](https://hyperpayhelp.zendesk.com/hc/en-us/articles/4409861125263-MULTISIG-TRANSACTION)" 
+Yes, this is [demonstrated](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409868364559/mceclip8.jpg#deadLink) on this tutorial: "[Multisig Transaction](https://hyperpayhelp.zendesk.com/hc/en-us/articles/4409861125263-MULTISIG-TRANSACTION)" 
 
 ## Interface - ✔️
 
@@ -87,3 +91,18 @@ The content of that folder is actually the "SDK" of
 
 With the missing build instructions but above all missing commits leading up to
 the latest release, we find this product to be **not verifiable**.
+
+{% include featureEvidence.html feature="segwit" quote="Reach BIP32/BIP39/ BIP44/BIP45 standard" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Compliant with BIP32/BIP39/BIP44/BIP45 Standard Supports 12/24 mnemonic words" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint Recognition Module FPC1025" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL 6+ Secure Element" source="Website" %}
+
+
+{% include featureEvidence.html feature="nfc" quote="Bluetooth 5.0" source="Website" %}
+
+An issue has been opened at [https://github.com/hyperpayorg/hardwallet/issues/4](https://github.com/hyperpayorg/hardwallet/issues/4)

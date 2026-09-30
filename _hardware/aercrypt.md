@@ -20,12 +20,10 @@ shop: https://aercrypt.net/store
 country: 
 price: 
 repository: 
-issue: 
-icon: aercrypt.png
+icon: aercrypt.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: AerCrypt

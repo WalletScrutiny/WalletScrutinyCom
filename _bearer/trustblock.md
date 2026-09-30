@@ -20,8 +20,7 @@ shop: https://www.trustblock.io/product/buy
 country: 
 price: 599USD
 repository: 
-issue: 
-icon: trustblock.png
+icon: trustblock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

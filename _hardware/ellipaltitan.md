@@ -18,12 +18,10 @@ shop: https://www.ellipal.com/products/ellipal-titan
 country: HK
 price: 139USD
 repository: 
-issue: 
-icon: ellipaltitan.png
+icon: ellipaltitan.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: ellipalwallet

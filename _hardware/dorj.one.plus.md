@@ -17,12 +17,10 @@ shop: https://dorj.io/product/dorjoneplus/
 country: IR
 price: 
 repository: 
-issue: 
-icon: dorj.one.plus.png
+icon: dorj.one.plus.webp
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2023-04-06
 signer: 
 twitter: dorjwa

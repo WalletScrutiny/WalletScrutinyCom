@@ -9,11 +9,10 @@ updated: 2023-09-28
 version: 1.3.8
 binaries: 
 provider: Atomex OÜ
-providerWebsite: https://atomex.me
+providerWebsite: https://atomex.me#deadLink
 website: 
 repository: 
-issue: 
-icon: atomex.png
+icon: atomex.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

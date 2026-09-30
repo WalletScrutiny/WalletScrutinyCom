@@ -16,16 +16,14 @@ weight: 53
 provider: Keypal
 providerWebsite: 
 website: https://www.keypal.pro
-shop: https://keypalwallet.mystrikingly.com/store/products/keypal-hardware-wallet
+shop: https://keypalwallet.mystrikingly.com/store/products/keypal-hardware-wallet#deadLink
 country: CN
 price: 110 USD
 repository: 
-issue: 
-icon: keypal.png
+icon: keypal.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-02-01
 signer: 
 twitter: KeyPalWallet

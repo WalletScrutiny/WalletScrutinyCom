@@ -1,6 +1,7 @@
 ---
 title: Ledger Nano S Plus
 appId: ledger.nano.splus
+bitcoinOrgId: ledgernanos
 authors:
 - danny
 released: 2022-04-05
@@ -20,12 +21,10 @@ shop: https://shop.ledger.com/products/ledger-nano-s-plus
 country: FR
 price: 79USD
 repository: https://github.com/LedgerHQ/app-bitcoin
-issue: 
-icon: ledger.nano.splus.png
+icon: ledger.nano.splus.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: Ledger

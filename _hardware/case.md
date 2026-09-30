@@ -18,12 +18,10 @@ shop: https://choosecase.com
 country: US
 price: 
 repository: 
-issue: 
-icon: case.png
+icon: case.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2024-01-04
 signer: 
 twitter: CaseWallet

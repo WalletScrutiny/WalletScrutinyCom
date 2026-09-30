@@ -21,12 +21,10 @@ shop: https://www.coldlar.com/productDetails/10062
 country: CN
 price: 620USD
 repository: 
-issue: 
-icon: coldlarpro3.png
+icon: coldlarpro3.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: Coldlar

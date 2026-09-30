@@ -13,24 +13,27 @@ binaries:
 dimensions: 
 weight: 115
 provider: Keystone
-providerWebsite: https://shop.keyst.one/products/keystone-essential
+providerWebsite: https://web.archive.org/web/20230707094146/https://shop.keyst.one/products/keystone-essential
 website: https://keyst.one/
 shop: 
 country: CH
 price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
-icon: cobovaultessential.png
+icon: cobovaultessential.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-02-18
 signer: 
 twitter: KeystoneWallet
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- foss
+- hd
+- secEl
 
 ---
 
@@ -116,3 +119,16 @@ signing an NDA. Signing an NDA means one may not disclose details found, which
 makes the effort pointless for us.
 
 For the time being we have to consider this product **not verifiable**.
+
+{% include featureEvidence.html feature="airGapped" quote="Keystone is an air-gapped, open source hardware wallet that uses completely transparent QR code data transmissions." source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="Interaction with the Secure Element (SE) via serial port, open source SE firmware can be found at keystone-se-firmware. Transaction data is signed by the Secure Element and the generated signature is sent back to the application." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under the GPL License. See the LICENSE file for details." source="License" %}
+
+{% include featureEvidence.html feature="hd" quote="Our BIP32, BIP39, and BIP44 compliant firmware is also open source." source="Existing WalletScrutiny review" %}
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380)

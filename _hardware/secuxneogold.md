@@ -20,12 +20,10 @@ shop: https://secuxtech.com/products/neo-series
 country: TW
 price: 119 USD
 repository: 
-issue: 
-icon: secuxneogold.png
+icon: secuxneogold.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-09-03
 signer: 
 twitter: SecuXwallet
@@ -33,14 +31,15 @@ social:
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fe2RwvDrnRY?si=ASHImhU03CbFR9J5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Its companion app is {% include walletLink.html wallet='android/com.secuxtech.secuxtwallet' verdict='true' %}
+Its companion app is {% include walletLinkArchived.html wallet='android/com.secuxtech.secuxtwallet' %}
 
 The Neo Gold line is very similar to the {% include walletLink.html wallet='hardware/secuxneox' verdict='true' %}, except that Gold doesn't support NFT display.
 
@@ -78,3 +77,4 @@ The guide to sending cryptocurrencies including Bitcoin is described [here](http
 
 Despite the existence of [SecuXtech's organization](https://github.com/secuxtech) page on GitHub, the device's firmware is **not source-available** and is proprietary.
 
+{% include featureEvidence.html feature="secEl" quote="Secure Element Chip: Infineon SLE 97" source="Product Specifications" %}

@@ -5,19 +5,55 @@
  * Common functions for interacting with GitHub API
  */
 
-import axios from 'axios';
-
 // Common GitHub API request configuration
 const DEFAULT_TIMEOUT = 10000;
 const DEFAULT_PER_PAGE = 100;
 
-// Create axios instance with common configuration
+// Minimal fetch-based client mimicking the axios instance interface used here:
+// github.get(url, { params }) resolves { data, headers, status, statusText }
+// and rejects with an error exposing .response.status / .response.headers.
 export function createGitHubRequest(token) {
-  return axios.create({
-    baseURL: 'https://api.github.com',
-    timeout: DEFAULT_TIMEOUT,
-    headers: token ? { 'Authorization': `token ${token}` } : {}
-  });
+  const baseURL = 'https://api.github.com';
+
+  async function get(url, { params = {} } = {}) {
+    const fullUrl = new URL(baseURL + url);
+    for (const [key, value] of Object.entries(params)) {
+      fullUrl.searchParams.append(key, value);
+    }
+    let response;
+    try {
+      response = await fetch(fullUrl, {
+        headers: token ? { 'Authorization': `token ${token}` } : {},
+        signal: AbortSignal.timeout(DEFAULT_TIMEOUT)
+      });
+    } catch (err) {
+      if (err?.name === 'TimeoutError' || err?.name === 'AbortError') {
+        const timeoutError = new Error('timeout of ' + DEFAULT_TIMEOUT + 'ms exceeded');
+        timeoutError.code = 'ECONNABORTED';
+        throw timeoutError;
+      }
+      throw err;
+    }
+
+    if (!response.ok) {
+      const requestError = new Error(`Request failed with status code ${response.status}`);
+      requestError.response = {
+        status: response.status,
+        statusText: response.statusText,
+        headers: Object.fromEntries(response.headers)
+      };
+      throw requestError;
+    }
+
+    return {
+      data: await response.json(),
+      headers: Object.fromEntries(response.headers),
+      status: response.status,
+      statusText: response.statusText
+    };
+  }
+
+  return { get, defaults: { baseURL } };
 }
 
 // Extract repository path from GitHub URL

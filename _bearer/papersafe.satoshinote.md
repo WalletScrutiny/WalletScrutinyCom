@@ -12,13 +12,12 @@ dimensions:
 weight: 
 provider: PaperSafe
 providerWebsite: 
-website: https://web.archive.org/web/20160111191704/http://papersafe.org/
+website: http://papersafe.org
 shop: 
 country: US
 price: 20USD
 repository: 
-issue: 
-icon: papersafe.satoshinote.png
+icon: papersafe.satoshinote.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled

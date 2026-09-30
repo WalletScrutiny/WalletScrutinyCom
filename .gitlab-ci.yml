@@ -1,18 +1,92 @@
- refresh-apps:
-  image: node:20
-  variables:
-    LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
+stages:
+  - test
+  - maintenance
+
+# Do not create pipelines on push/MR/schedule. Only when started from
+# CI/CD → Pipelines → Run pipeline (source: web).
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - when: never
+
+default:
+  image: node:22
+
+test:main:
+  stage: test
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules/
+  before_script:
+    - npm ci
+  script:
+    - npm test
+
+test:e2e:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.50.1-noble
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - node_modules/
+    - key:
+        files:
+          - Gemfile.lock
+      paths:
+        - vendor/bundle/
+  before_script:
+    - apt-get update && apt-get install -y ruby-full build-essential zlib1g-dev
+    - gem install bundler -v 2.4.12
+    - bundle config set --local deployment 'true'
+    - bundle config set --local path 'vendor/bundle'
+    - bundle install --jobs=4 --retry=3
+    - npm ci
+    - npm run playwright:install
+  script:
+    - npm run test:e2e
+  artifacts:
+    when: on_failure
+    paths:
+      - playwright-report/
+      - test-results/
+    expire_in: 1 week
+
+test:build-server:
+  stage: test
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - node_modules/
+    - key:
+        files:
+          - external/build_server/package-lock.json
+      paths:
+        - external/build_server/node_modules/
+  before_script:
+    # build_server imports shared modules from src/, which use root package.json deps
+    - npm ci
+    - npm ci --prefix external/build_server
+  script:
+    - npm test --prefix external/build_server
+
+refresh-apps:
+  stage: maintenance
   script:
     - apt update
     - apt install -y imagemagick-6.q16 parallel
     - chmod +x ./refresh.sh
-    - ./refresh.sh -k $LN_KEY  > refresh_output.log
+    - ./refresh.sh > refresh_output.log
   artifacts:
     paths:
       - refresh_output.log
     expire_in: 1 week
   rules:
     - when: manual
-    - if: $CI_PIPELINE_SOURCE == "schedule"
-      when: always
   allow_failure: true

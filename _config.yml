@@ -19,32 +19,6 @@ words_per_minute         : 100
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -54,13 +28,6 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
-twitter:
-  username               : WalletScrutiny # twitter handle without @
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : logo.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -140,13 +107,11 @@ exclude:
   - CONTRIBUTING.md
   - Rakefile
   - assets/js/_main.js
+  - assets/js/ui-components.js
+  - assets/js/fit-vids.js
+  - assets/js/greedy-navigation.js
   - assets/js/plugins
   - assets/js/vendor
-  - assets/css/barlow.css
-  - assets/css/styles.css
-  - assets/css/notifications.css
-  - assets/css/verifications.css
-  - assets/css/user-profile.css
   - backup
   - config
   - docs
@@ -162,12 +127,15 @@ exclude:
   - src
   - external
   - external_configs
+  - test
   - /*.sh
   - /*.mjs
 
 keep_files:
   - .git
 encoding: "utf-8"
+# SVG icon sprite used by _includes/icon.html and wsIcon(); bump ?v= when icons change
+icons_sprite: /assets/icons.svg?v=4
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -197,10 +165,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   press:
-  android:
-    output: true
-    permalink: /:collection/:path/
-  iphone:
+  mobile:
     output: true
     permalink: /:collection/:path/
   hardware:
@@ -237,23 +202,12 @@ defaults:
       type: "authors"
     values:
       layout: author
-  # _android
+  # _mobile
   - scope:
       path: ""
-      type: "android"
+      type: "mobile"
     values:
-      layout: reviewAndroid
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-  # iphone
-  - scope:
-      path: ""
-      type: "iphone"
-    values:
-      layout: reviewIPhone
+      layout: reviewMobile
       author_profile: true
       read_time: false
       comments: false
@@ -314,6 +268,7 @@ defaults:
 # Sass/SCSS
 sass:
   quiet_deps: true
+  sourcemap: development
 
 # Outputting
 permalink: /:categories/:title/
@@ -321,14 +276,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 # Plugins
 plugins:
-  - jekyll-redirect-from
   - jekyll-include-cache
 whitelist:
   - jekyll-feed
   - jemoji
-
-# HTML Compression - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: [development, production]

@@ -20,12 +20,10 @@ shop: https://secuxtech.com/products/shield-bio
 country: TW
 price: 149 USD
 repository: 
-issue: 
-icon: secuxshieldbio.png
+icon: secuxshieldbio.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-09-03
 signer: 
 twitter: SecuXwallet
@@ -33,7 +31,9 @@ social:
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology
 builds: 
-features: 
+features:
+- fingerprint
+- secEl
 
 ---
 
@@ -54,8 +54,8 @@ features:
 
 ## Companion Apps:
 
-- **Android:** {% include walletLink.html wallet='android/com.secuxapp' verdict='true' %}
-- **IPhone:** {% include walletLink.html wallet='iphone/com.secuxtech.secuxcess2' verdict='true' %}
+- **Android:** {% include walletLinkArchived.html wallet='android/com.secuxapp' %}
+- **IPhone:** {% include walletLinkArchived.html wallet='iphone/com.secuxtech.secuxcess2' %}
 
 ## Analysis
 
@@ -71,3 +71,6 @@ The device connects via bluetooth to the mobile app and the keys are not shared.
 
 Despite the existence of [SecuXtech's organization](https://github.com/secuxtech) page on GitHub, the device's firmware is **not source-available** and is proprietary.
 
+{% include featureEvidence.html feature="secEl" quote="Secure Element Chip: Infineon SLE 97" source="Product Specifications" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="The transaction confirmation commences after tapping &quot;confirm&quot; in the fingerprint pad" source="Analysis" %}

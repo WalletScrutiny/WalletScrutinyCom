@@ -14,18 +14,16 @@ dimensions:
 - 1
 weight: 1
 provider: Digital Systems a.s.
-providerWebsite: https://digitalsystems.eu
+providerWebsite: https://digitalsystems.eu#deadLink
 website: https://www.digitalsystems.eu/cyber-security/#ace
 shop: 
 country: SK
 price: 
 repository: 
-issue: 
-icon: acecardwallet.png
+icon: acecardwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: 

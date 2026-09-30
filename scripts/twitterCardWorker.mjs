@@ -17,28 +17,34 @@ import pkg from '@napi-rs/canvas';
 const { createCanvas, loadImage } = pkg;
 import yaml from 'js-yaml';
 import path from 'path';
+import { buildVerificationIndex, getReproducibilityHistory } from './nostrVerificationIndex.mjs';
 
 const fsp = fs.promises;
+const REPRODUCIBLE_GREEN = '#22c55e';
+const NOT_REPRODUCIBLE_RED = '#ef4444';
+// Most recent verification statuses to show on each card (history is oldest-to-newest).
+const MAX_REPRODUCIBILITY_SQUARES = 12;
 const fallbackIcon = 'images/smallNoicon.png';
 const platformNames = {
-  android: 'Android', iphone: 'iOS', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
+  android: 'Android', iphone: 'iOS', mobile: 'Mobile', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
 };
 
 // Worker-specific resources (loaded once per worker)
-let bgImage, platformIconImages = {}, redFlagImage;
+let bgImage, platformIconImages = {}, redFlagImage, verificationIndex;
 
 async function loadWorkerResources() {
+  verificationIndex = buildVerificationIndex();
   bgImage = await loadImage('images/twCard/new-ws-bg-800x450.png');
   
   if (pkg.GlobalFonts?.registerFromPath) {
     try {
-      pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
+      pkg.GlobalFonts.registerFromPath('scripts/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
       
       // Bundled Unicode fonts for consistent rendering across all systems
       const bundledFonts = [
-        ['assets/fonts/Noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
-        ['assets/fonts/DejaVu/DejaVuSans.ttf', 'DejaVuSans'],
-        ['assets/fonts/Liberation/LiberationSans-Regular.ttf', 'LiberationSans']
+        ['scripts/fonts/Noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
+        ['scripts/fonts/DejaVu/DejaVuSans.ttf', 'DejaVuSans'],
+        ['scripts/fonts/Liberation/LiberationSans-Regular.ttf', 'LiberationSans']
       ];
 
       for (const [fontPath, fontName] of bundledFonts) {
@@ -80,6 +86,27 @@ async function drawPlatformIcon(ctx, platform, x, y) {
   }
 
   ctx.restore();
+}
+
+function drawReproducibilityBar(ctx, x, y, statuses) {
+  const label = 'Verification history:';
+  const squareSize = 12;
+  const gap = 3;
+
+  ctx.fillStyle = '#CCCCCC';
+  ctx.font = '16px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText(label, x, y);
+
+  let squareX = x + ctx.measureText(`${label} `).width;
+  const squareY = y - squareSize + 3;
+
+  for (const status of statuses) {
+    ctx.fillStyle = status === 'reproducible' ? REPRODUCIBLE_GREEN : NOT_REPRODUCIBLE_RED;
+    ctx.fillRect(squareX, squareY, squareSize, squareSize);
+    squareX += squareSize + gap;
+  }
 }
 
 const wrapText = (text, length) => `${text}`.match(new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g')) || [];
@@ -172,8 +199,12 @@ async function drawOnCanvas(data, iconImage) {
     ctx.fillText(platformNames[data.platform], titleX + 20, platformY);
   }
 
+  const hasReproducibility = data.verdict === 'sourceavailable'
+    && data.reproducibilityStatuses?.length > 0;
+
   // Draw CTA section
-  const ctaY = platformY + 40, ctaPhrase = getCtaPhrase(data);
+  const ctaY = platformY + 40;
+  const ctaPhrase = getCtaPhrase(data);
   
   ctx.fillStyle = '#CCCCCC';
   ctx.font = '18px Barlow, "Noto Sans", "DejaVu Sans", "Arial Unicode MS", Arial, sans-serif';
@@ -198,6 +229,10 @@ async function drawOnCanvas(data, iconImage) {
   ctx.fillStyle = '#1f1911'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
   ctx.fillText(ctaPhrase.cta, ctaBadgeX + (ctaBadgeWidth / 2), ctaBadgeY + 13);
   ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
+
+  if (hasReproducibility) {
+    drawReproducibilityBar(ctx, titleX, ctaY + 35, data.reproducibilityStatuses);
+  }
 
   // Draw red flag for fake wallets
   if (data.verdict === 'fake' && redFlagImage) {
@@ -225,12 +260,43 @@ async function processCard(cardJob) {
     }
     
     const content = await fsp.readFile(path.join(mdFilesPath, file), 'utf-8');
-    const data = yaml.load(content.split('---')[1]);
-    data.platform = platform;
+    const fm = yaml.load(content.split('---')[1]);
+    const slug = file.replace(/\.md$/i, '');
+    const data = platform === 'mobile'
+      ? {
+          title: fm.title,
+          verdict: fm.android?.verdict || fm.iphone?.verdict || fm.verdict,
+          verdictAndroid: fm.android?.verdict || '',
+          verdictIphone: fm.iphone?.verdict || '',
+          meta: fm.android?.meta || fm.iphone?.meta || fm.meta,
+          platform: 'mobile',
+          appId: fm.android?.appId || fm.iphone?.appId || slug,
+          icon: fm.android?.icon || fm.iphone?.icon,
+        }
+      : { ...fm, platform };
+
+    const isSourceAvailable = platform === 'mobile'
+      ? (fm.android?.verdict === 'sourceavailable' || fm.iphone?.verdict === 'sourceavailable')
+      : data.verdict === 'sourceavailable';
+    if (isSourceAvailable) {
+      const reproAppId = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? fm.android?.appId : fm.iphone?.appId)
+        : data.appId;
+      const reproPlatform = platform === 'mobile'
+        ? (fm.android?.verdict === 'sourceavailable' ? 'android' : 'iphone')
+        : platform;
+      if (reproAppId) {
+        const history = getReproducibilityHistory(verificationIndex, reproAppId, reproPlatform);
+        data.reproducibilityStatuses = history.slice(-MAX_REPRODUCIBILITY_SQUARES);
+      }
+    }
 
     let iconImagePath = fallbackIcon;
     if (data.icon) {
-      const proposedPath = path.join('images', 'wIcons', platform, data.icon);
+      const iconPlatform = platform === 'mobile'
+        ? (fm.android?.icon ? 'android' : 'iphone')
+        : platform;
+      const proposedPath = path.join('images', 'wIcons', iconPlatform, data.icon);
       if (fs.existsSync(proposedPath)) iconImagePath = proposedPath;
     }
     const iconImage = await loadImage(iconImagePath);

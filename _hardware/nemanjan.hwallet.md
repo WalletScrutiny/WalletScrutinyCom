@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://gitlab.com/nemanjan/hwallet
-issue: 
-icon: nemanjan.hwallet.png
+icon: nemanjan.hwallet.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-04-11
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

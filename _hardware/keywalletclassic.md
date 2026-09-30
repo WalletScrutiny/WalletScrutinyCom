@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: keywalletclassic.png
+icon: keywalletclassic.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-10
 signer: 
 twitter: 

@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: shenzhenfeitianzhou.fitqian.png
+icon: shenzhenfeitianzhou.fitqian.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: 

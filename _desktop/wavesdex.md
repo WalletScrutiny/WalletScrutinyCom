@@ -12,13 +12,12 @@ provider: Elfronus Company Ltd
 providerWebsite: 
 website: https://waves.exchange
 repository: https://github.com/wavesplatform/WavesGUI
-issue: 
-icon: wavesdex.png
+icon: wavesdex.webp
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable
 date: 2025-04-12
-twitter: Waves_Exchange
+twitter: 
 social: 
 builds: 
 features: 

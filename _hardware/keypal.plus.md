@@ -16,16 +16,14 @@ weight: 63
 provider: Keypal
 providerWebsite: 
 website: https://www.keypal.pro
-shop: https://keypalwallet.mystrikingly.com/store/products/keypal-plus
+shop: https://keypalwallet.mystrikingly.com/store/products/keypal-plus#deadLink
 country: CN
 price: 110 USD
 repository: 
-issue: 
-icon: keypal.plus.png
+icon: keypal.plus.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-02-02
 signer: 
 twitter: KeyPalWallet

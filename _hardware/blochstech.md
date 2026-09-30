@@ -20,12 +20,10 @@ shop: http://www.blochstech.com/
 country: DK
 price: 19.95EUR
 repository: https://github.com/BlochsTech/BitcoinCardTerminal
-issue: 
-icon: blochstech.png
+icon: blochstech.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-appHashes: 
 date: 2021-08-08
 signer: 
 twitter: 

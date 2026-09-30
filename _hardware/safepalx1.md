@@ -20,12 +20,10 @@ shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 country: CH
 price: 69.99USD
 repository: https://github.com/SafePalWallet/safepal-x1
-issue: https://github.com/SafePalWallet/safepal-x1/issues/1
-icon: safepalx1.png
+icon: safepalx1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: iSafePal
@@ -36,7 +34,9 @@ social:
 - https://www.linkedin.com/company/14504410/admin/
 - https://www.facebook.com/iSafePal
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -58,3 +58,10 @@ features:
 Although we found a repository named "safepal-x1" we didn't find a complete README, build instructions, or even confirmation that this is in fact the official safepal-x1 firmware. Until further updates, this product is also **non-verifiable.**
 
 We sent them a friendly note on their GitHub [issues page](https://github.com/SafePalWallet/safepal-x1/issues/1).
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL6+ secure element" source="Website" %}
+
+
+{% include featureEvidence.html feature="nfc" quote="Sign transactions via Bluetooth connection" source="Website" comment="Actually Bluetooth, not NFC — omitting nfc." %}
+
+An issue has been opened at [https://github.com/SafePalWallet/safepal-x1/issues/1](https://github.com/SafePalWallet/safepal-x1/issues/1)

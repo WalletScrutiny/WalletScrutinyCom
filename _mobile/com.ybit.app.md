@@ -1,0 +1,56 @@
+---
+wsId: ybitBitcoinCrypto
+title: 'Ybit: Bitcoin & Crypto Wallet'
+date: 2026-05-02
+authors:
+- danny
+website: https://ybitwallet.com/
+twitter: YbitWallet
+social:
+- https://t.me/YbitWallet_Official
+redirect_from:
+- /android/com.ybit.app/
+- /iphone/com.ybit.app/
+android:
+  appId: com.ybit.app
+  users: 1000
+  appCountry: us
+  released: 2025-06-16
+  updated: 2026-09-24
+  version: 1.0.11
+  icon: com.ybit.app.webp
+  meta: ok
+  verdict: nosource
+  developerName: WEEKWISE INNOVATIONS LLC
+iphone:
+  appId: com.ybit.app
+  idd: '6483864038'
+  appCountry: us
+  released: 2024-05-17
+  updated: 2026-09-25
+  version: 1.0.12
+  reviews: 26
+  icon: com.ybit.app.webp
+  meta: ok
+  verdict: nosource
+  developerName: WEEKWISE INNOVATIONS LLC
+
+---
+
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6483864038" author="overtorment" severity="critical" finding="Create, skip, import-phrase, and import-key routes POST the raw mnemonic or private key plus IP to Firebase." %}
+
+## Android
+
+## App Description
+
+Ybit is presented as a non-custodial multi-chain wallet for Bitcoin and other digital assets. The Google Play listing says users can create or import wallets using a seed phrase or private key. The Terms of Service say transactions are executed directly on supported blockchain networks.
+
+## Testing and Analysis
+
+We [tested](https://x.com/BitcoinWalletz/status/2050426036576571833) the app and verified that a BTC wallet exists and were provided the seed phrases but I found [no public source](https://github.com/search?q=%22com.ybit.app%22&type=code) repository for the Android app on GitHub. **Without source code** for the current Android release, the app cannot be verified.
+
+---
+
+## iPhone
+
+{% include copyFromAndroid.html %}

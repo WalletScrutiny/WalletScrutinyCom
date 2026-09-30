@@ -20,12 +20,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: 1inch.hardwarewallet.png
+icon: 1inch.hardwarewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: 

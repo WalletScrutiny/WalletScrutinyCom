@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: firstbiometrics.png
+icon: firstbiometrics.webp
 bugbounty: 
 meta: stale
 verdict: vapor
-appHashes: 
 date: 2024-10-18
 signer: 
 twitter: FIRSTBiometrics
@@ -44,7 +42,7 @@ In the product page, {{ page.title }} claims to be a "Hardware Wallet with Biome
 
 > The First Biometrics Crypto Hardware Wallet is your all-in-one solution designed to be the vault for all your digital assets. Store and encrypt the top 30+ coins and keep all your passwords and digital keys in a secure location.
 
-There's no indication of a shop or online store to buy this product. It looks as though the wallet is currently unreleased, although there was an image of the card in the homepage and the ["prototypes"](https://firstbiometrics.com/prototypes) section.
+There's no indication of a shop or online store to buy this product. It looks as though the wallet is currently unreleased, although there was an image of the card in the homepage and the ["prototypes"](https://web.archive.org/web/20220813184359/https://firstbiometrics.com/prototypes) section.
 
 
 ## Analysis 

@@ -1,0 +1,45 @@
+<div class="distribution-store-links">
+  {% if page.website %}
+    <a href="{{ page.website }}" title="Website" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">Website</a>
+  {% endif %}
+  {% assign twitter_handle = page.twitter | default: page.android.twitter | default: page.iphone.twitter %}
+  {% if twitter_handle %}
+    <a href="https://x.com/{{ twitter_handle }}" title="X" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">X</a>
+  {% endif %}
+  {% if page.social %}
+    {% for link in page.social %}
+      {% if link contains "mailto:" %}
+        {% assign name = "E-Mail" %}
+      {% else %}
+        {% assign domain = link | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
+        {% case domain %}
+          {% when "bitcointalk" %}{% assign name = "Bitcoin Talk" %}
+          {% when "discord"     %}{% assign name = "Discord" %}
+          {% when "facebook"    %}{% assign name = "Facebook" %}
+          {% when "github"      %}{% assign name = "GitHub" %}
+          {% when "google"      %}{% assign name = "Google" %}
+          {% when "instagram"   %}{% assign name = "Instagram" %}
+          {% when "iris"        %}{% assign name = "Nostr" %}
+          {% when "keybase"     %}{% assign name = "Keybase" %}
+          {% when "linkedin"    %}{% assign name = "LinkedIn" %}
+          {% when "medium"      %}{% assign name = "Medium" %}
+          {% when "pinterest"   %}{% assign name = "Pinterest" %}
+          {% when "primal"      %}{% assign name = "Nostr" %}
+          {% when "reddit"      %}{% assign name = "Reddit" %}
+          {% when "slack"       %}{% assign name = "Slack" %}
+          {% when "t"           %}{% assign name = "Telegram" %}
+          {% when "tiktok"      %}{% assign name = "tiktok" %}
+          {% when "twitter"     %}{% assign name = "X" %}
+          {% when "vimeo"       %}{% assign name = "Vimeo" %}
+          {% when "vk"          %}{% assign name = "VK" %}
+          {% when "weibo"       %}{% assign name = "Weibo" %}
+          {% when "whatsapp"    %}{% assign name = "WhatsApp" %}
+          {% when "youtube"     %}{% assign name = "YouTube" %}
+          {% when "archive"     %}{% assign name = "Archived Website" %}
+          {% else               %}{% assign name = "Website" %}
+        {% endcase %}
+      {% endif %}
+      <a href="{{ link }}" title="{{ name }}" class="link-web subtle distribution-store-link capitalise" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+    {% endfor %}
+  {% endif %}
+</div>

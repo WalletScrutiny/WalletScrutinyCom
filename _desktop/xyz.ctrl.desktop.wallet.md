@@ -12,15 +12,14 @@ provider:
 providerWebsite: 
 website: https://ctrl.xyz/
 repository: 
-issue: 
-icon: xyz.ctrl.desktop.wallet.png
+icon: xyz.ctrl.desktop.wallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource
 date: 2025-04-24
 twitter: ctrl_wallet
 social:
-- https://discord.com/invite/ctrlwallet
+- https://discord.com/invite/ctrlwallet#deadLink
 - https://t.me/ctrl_wallet
 builds: 
 features: 

@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://gizadevice.com/
+website: https://web.archive.org/web/20240220230707/http://gizadevice.com/
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: gizadevice.png
+icon: gizadevice.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-10
 signer: 
 twitter: 

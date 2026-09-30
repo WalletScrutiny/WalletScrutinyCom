@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://goochain.net/citadelle/
+website: https://goochain.net/citadelle#deadLink
 shop: 
 country: FR
 price: 12€
 repository: 
-issue: 
-icon: goochaincitadelle.png
+icon: goochaincitadelle.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: 

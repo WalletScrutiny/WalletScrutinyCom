@@ -17,12 +17,10 @@ shop:
 country: US
 price: 159USD
 repository: 
-issue: 
-icon: bitstash.png
+icon: bitstash.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: bitstashCTO

@@ -20,12 +20,10 @@ shop: https://bizblocks.io/buy
 country: KR
 price: 
 repository: 
-issue: 
-icon: bizblockskaiser.png
+icon: bizblockskaiser.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-01-20
 signer: 
 twitter: bizblocks7

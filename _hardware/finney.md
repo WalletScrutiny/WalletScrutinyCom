@@ -18,12 +18,10 @@ shop: https://shop.sirinlabs.com/products/finney
 country: UK
 price: 999USD
 repository: 
-issue: 
-icon: finney.png
+icon: finney.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2025-03-19
 signer: 
 twitter: SIRINLABS
@@ -43,7 +41,7 @@ product as defunct.
 ⚠️ Warning: This product is associated with a company with a CEO with lawsuits arising out of the companies' <a href="https://www.coindesk.com/policy/2021/11/18/crypto-heavyweight-moshe-hogeg-reportedly-arrested-in-israel/">involvement with ICOs.</a>
 </div> </div>
 
-This app comes from the same providers as {% include walletLink.html wallet='hardware/sirinv3' verdict='true' %}
+This app comes from the same providers as {% include walletLinkArchived.html wallet='hardware/sirinv3' %}
 
 From [the product page:](https://shop.sirinlabs.com/products/finney)
 
@@ -65,7 +63,7 @@ On the support page, there is [information](https://shop.sirinlabs.com/pages/sup
 
 FINNEY's whitepaper was deleted from [Sirin Labs website](https://twitter.com/BitcoinWalletz/status/1464219115015397384), although we were able to find a presumed copy.
 
-The [whitepaper](https://cryptorating.eu/whitepapers/SIRIN-LABS/SIRINLABS_-_White_Paper.pdf) also has information on the "Safe Screen."
+The [whitepaper](https://cryptorating.eu/whitepapers/SIRIN-LABS/SIRINLABS_-_White_Paper.pdf#deadLink) also has information on the "Safe Screen."
 
 > FINNEY Wallet comprises an app that you use on your device’s main screen and a hardware Safe Screen that slides up at the top of your device.
 > - Send cryptocurrency

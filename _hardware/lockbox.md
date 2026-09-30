@@ -21,12 +21,10 @@ shop: https://www.blockchain.com/
 country: UK
 price: 
 repository: 
-issue: 
-icon: lockbox.png
+icon: lockbox.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: blockchain

@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: null
 permalink: /allVerdicts.js
 ---
 

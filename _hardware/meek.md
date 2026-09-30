@@ -17,12 +17,10 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
-icon: meek.png
+icon: meek.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-03-10
 signer: 
 twitter: cjdcosta

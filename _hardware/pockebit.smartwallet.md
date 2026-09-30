@@ -18,12 +18,10 @@ shop:
 country: JP
 price: 
 repository: 
-issue: 
-icon: pockebit.smartwallet.png
+icon: pockebit.smartwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-09-29
 signer: 
 twitter: 

@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/littledivy/arienai
-issue: 
-icon: appliedem.bitboard.diy.png
+icon: appliedem.bitboard.diy.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-05-23
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

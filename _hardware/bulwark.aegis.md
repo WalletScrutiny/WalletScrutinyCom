@@ -13,16 +13,14 @@ weight:
 provider: Bulwark Crypto
 providerWebsite: https://www.bulwarkcrypto.com/
 website: 
-shop: https://store.bulwarkcrypto.com/
+shop: https://store.bulwarkcrypto.com#deadLink
 country: US
 price: 
 repository: 
-issue: 
-icon: bulwark.aegis.png
+icon: bulwark.aegis.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: BulwarkCrypto

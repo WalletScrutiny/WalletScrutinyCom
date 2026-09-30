@@ -1,8 +1,17 @@
-import apple from 'app-store-scraper';
+import { app } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import path from 'path';
-import helper from './helper.mjs';
-import { Semaphore } from 'async-mutex';
+import helper, { Semaphore } from './helper.mjs';
+import {
+  MOBILE_DIR,
+  loadMobileFromFile,
+  writeMobileFile,
+  mobileDefunctKey,
+  ensurePlatformBlock,
+  metaUpdateContext,
+  resolveIphoneFilenames,
+  findMobileFileByIphoneAppId,
+} from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
@@ -14,60 +23,74 @@ const stats = {
 };
 
 const category = 'iphone';
-const folder = `_${category}/`;
-const headers = ('wsId title altTitle authors appId appCountry idd released ' +
-                'updated version stars reviews website repository issue ' +
-                'icon bugbounty meta verdict appHashes date signer ' +
+const headers = ('wsId title altTitle authors appId bitcoinOrgId appCountry idd released ' +
+                'updated version reviews website repository ' +
+                'icon bugbounty meta verdict signer ' +
                 'twitter social features developerName').split(' ');
 
-async function refreshAll (ids, markDefunct) {
-  var files;
-  if (ids) {
-    files = ids.map(it => `${it}.md`);
-  } else {
-    files = await fs.readdir(folder);
-  }
+async function refreshAll (ids, markRemoved) {
+  const files = await resolveIphoneFilenames(ids);
   console.log(`Updating ${files.length} 🍎 files ...`);
   stats.remaining = files.length;
-  files.forEach(file => { refreshFile(file, undefined, markDefunct); });
+  files.forEach(file => { refreshFile(file, undefined, markRemoved); });
+  helper.updateLastRemovedCheck();
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content, markRemoved) {
   sem.acquire().then(function ([, release]) {
+    const filePath = path.join(MOBILE_DIR, fileName);
     if (content === undefined) {
-      content = { header: helper.getEmptyHeader(headers), body: undefined };
-      helper.loadFromFile(path.join(folder, fileName), content);
+      const loaded = loadMobileFromFile(filePath);
+      content = { mobile: loaded.mobile, body: loaded.body, slug: loaded.slug };
     }
-    const header = content.header;
-    const body = content.body;
-    const appId = header.appId;
-    const idd = header.idd;
-    const appCountry = header.appCountry || 'us';
-    helper.checkHeaderKeys(header, headers);
-    if (!'defunct,removed'.includes(header.meta)) {
-      apple.app({
+    const { mobile, body, slug } = content;
+    const iphone = ensurePlatformBlock(mobile, 'iphone');
+    const appId = iphone.appId;
+    const idd = iphone.idd;
+    if (!idd && !appId) {
+      stats.remaining--;
+      release();
+      return;
+    }
+    const appCountry = iphone.appCountry || mobile.appCountry || 'us';
+    helper.checkHeaderKeys(iphone, headers);
+
+    const metaCtx = metaUpdateContext(mobile, 'iphone');
+    const isDefunctOrRemoved = 'defunct,removed'.includes(iphone.meta);
+    const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
+    const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
+
+    if (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved) {
+      app({
         id: idd,
         lang: 'en',
-        country: appCountry,
-        throttle: 2
-      }).then(app => {
-        const iconPath = `images/wIcons/iphone/${appId}`;
-        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-          header.icon = `${appId}.${iconExtension}`;
-          updateFromApp(header, app);
+        country: appCountry
+      }).then((appData) => {
+        updateFromApp(iphone, appData, mobile, appCountry);
+        if (iphone.meta === 'removed') {
+          iphone.meta = 'ok';
+          metaCtx.date = new Date();
+        }
+        const iconKey = appId || slug;
+        const iconPath = `images/wIcons/iphone/${iconKey}`;
+        helper.downloadImageFile(`${appData.icon}`, iconPath, iconExtension => {
+          if (iconExtension && appId) {
+            iphone.icon = `${appId}.${iconExtension}`;
+          }
           stats.updated++;
-          helper.writeResult(folder, header, body);
+          writeMobileFile(filePath, mobile, body);
           stats.remaining--;
           release();
         });
       }, (err) => {
-        if (`${err}`.search(/404/) > -1) {
-          if (markDefunct) {
-            header.meta = 'removed';
-            header.date = new Date();
-            helper.writeResult(folder, header, body);
-          } else {
-            helper.addDefunctIfNew(`_${category}/${appId}`);
+        const errText = `${err}`;
+        if (errText.search(/404/) > -1 || errText.includes('App not found')) {
+          if (iphone.meta === 'defunct' || markRemoved) {
+            iphone.meta = 'removed';
+            metaCtx.date = new Date();
+            writeMobileFile(filePath, mobile, body);
+          } else if (iphone.meta !== 'removed') {
+            helper.addRemovedIfNew(defunctKey);
           }
         } else {
           console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`);
@@ -77,38 +100,86 @@ function refreshFile (fileName, content, markDefunct) {
       });
     } else {
       stats.removed++;
-      helper.writeResult(folder, header, body);
+      writeMobileFile(filePath, mobile, body);
       stats.remaining--;
       release();
     }
   });
 }
 
-/**
- * Update the header from app
- **/
-function updateFromApp (header, app) {
+function updateFromApp (iphone, app, mobile, storeCountry) {
   if (app === undefined) {
     return;
   }
-  header.title = app.title || header.title;
-  header.version = (app.version || 'various').replace(/["\\]*/g, ''); // strip " and \ that won't be missed in the version string
-  header.meta = header.meta || 'ok';
-  // if api reports an older updated date than what we determined, keep our data
-  header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
-    ? header.updated
+  if (storeCountry) {
+    iphone.appCountry = storeCountry;
+  }
+  if (app.title && !mobile.android?.appId) {
+    mobile.title = app.title;
+  }
+  iphone.version = (app.version || 'various').replace(/["\\]*/g, '');
+  iphone.meta = iphone.meta || 'ok';
+  iphone.updated = iphone.updated && new Date(iphone.updated) > new Date(app.updated)
+    ? iphone.updated
     : new Date(app.updated);
-  header.released = header.released || app.released;
-  header.stars = app.score;
-  header.reviews = app.reviews;
-  header.website = app.developerWebsite || header.website || '';
-  header.date = header.date || new Date();
-  header.developerName = app.developer || header.developerName || 'Unknown Developer(s)';
-  helper.updateMeta(header);
+  iphone.released = iphone.released || app.released || null;
+  iphone.reviews = app.reviews;
+  if (app.developerWebsite && !mobile.android?.appId) {
+    mobile.website = app.developerWebsite;
+  }
+  const metaCtx = metaUpdateContext(mobile, 'iphone');
+  metaCtx.date = metaCtx.date || new Date();
+  iphone.developerName = app.developer || iphone.developerName || 'Unknown Developer(s)';
+  helper.updateMeta(metaCtx);
 }
 
-function add (newIdds) {
+function add (newIdds, options = {}) {
+  const { mergeInto } = options;
   console.log(`Adding skeletons for ${newIdds.length} apps ...`);
+
+  function refreshOrAdd (appId, iphone) {
+    if (mergeInto) {
+      const targetFile = `${mergeInto}.md`;
+      const targetPath = path.join(MOBILE_DIR, targetFile);
+      let loaded;
+      try {
+        loaded = loadMobileFromFile(targetPath);
+      } catch {
+        console.error(`Error: _mobile/${targetFile} not found.`);
+        return;
+      }
+      if (loaded.mobile.iphone) {
+        console.error(`Error: ${targetFile} already has an iphone block. Aborting --merge-into.`);
+        return;
+      }
+      if (!loaded.mobile.redirect_from) loaded.mobile.redirect_from = [];
+      const redirectEntry = `/iphone/${appId}/`;
+      if (!loaded.mobile.redirect_from.includes(redirectEntry)) {
+        loaded.mobile.redirect_from.push(redirectEntry);
+      }
+      loaded.mobile.iphone = iphone;
+      refreshFile(targetFile, loaded);
+      return;
+    }
+
+    findMobileFileByIphoneAppId(appId)
+      .then((file) => {
+        if (file) {
+          refreshFile(file);
+          return;
+        }
+        const fileName = `${appId}.md`;
+        const filePath = path.join(MOBILE_DIR, fileName);
+        return fs.access(filePath)
+          .then(() => {
+            const loaded = loadMobileFromFile(filePath);
+            loaded.mobile.iphone = iphone;
+            refreshFile(fileName, loaded);
+          }, () => {
+            refreshFile(fileName, { mobile: { title: null, iphone }, body: '', slug: appId });
+          });
+      });
+  }
 
   newIdds.forEach(param => {
     var idd, appId, country;
@@ -123,27 +194,20 @@ function add (newIdds) {
       idd = param;
     }
     if (appId) {
-      refreshFile(`${appId}.md`);
+      refreshOrAdd(appId, { appId, appCountry: country, meta: 'ok', verdict: 'wip' });
     } else {
-      apple.app({
+      app({
         id: idd,
         lang: 'en',
-        country: country || 'cl',
-        throttle: 20
-      }).then(app => {
-        const path = `_iphone/${app.appId}.md`;
-        fs.access(path)
-          .then(() => {
-            refreshFile(`${app.appId}.md`);
-          })
-          .catch(() => {
-            const header = helper.getEmptyHeader(headers);
-            header.appId = app.appId;
-            header.idd = idd;
-            header.appCountry = country;
-            header.verdict = 'wip';
-            refreshFile(`${app.appId}.md`, { header: header, body: '' });
-          });
+        country: country || 'cl'
+      }).then(storeApp => {
+        refreshOrAdd(storeApp.appId, {
+          appId: storeApp.appId,
+          idd,
+          appCountry: country,
+          meta: 'ok',
+          verdict: 'wip',
+        });
       }, err => {
         console.error(`Error with id ${idd}: ${JSON.stringify(err)}`);
       });

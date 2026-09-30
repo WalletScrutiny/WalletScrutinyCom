@@ -1,9 +1,10 @@
 ---
 title: Coinb.in Web Wallet
 appId: in.coinb.web
+subtype: web
 authors:
 - danny
-icon: in.coinb.web.png
+icon: in.coinb.web.webp
 date: 2024-05-10
 website: https://coinb.in
 provider: OutCast3k

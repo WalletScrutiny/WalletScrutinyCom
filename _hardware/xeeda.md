@@ -15,17 +15,15 @@ dimensions:
 weight: 47
 provider: 
 providerWebsite: 
-website: https://xeeda.io/
+website: https://xeeda.io#deadLink
 shop: 
 country: US
 price: 
 repository: 
-issue: 
-icon: xeeda.png
+icon: xeeda.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: xeedaofficial

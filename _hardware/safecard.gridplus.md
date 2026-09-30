@@ -17,12 +17,10 @@ shop:
 country: 
 price: 40USD
 repository: https://github.com/GridPlus/safe-card
-issue: 
-icon: safecard.gridplus.png
+icon: safecard.gridplus.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-05-03
 signer: 
 twitter: 
@@ -30,13 +28,16 @@ social:
 - https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ
 - https://www.reddit.com/r/GridPlus/
 builds: 
-features: 
+features:
+- hd
+- nfc
+- secEl
 
 ---
 
 ## Background
 
-[Here is an article](https://blog.gridplus.io/understanding-the-safecard-18fdd8722c7d) on Medium explaining how the {{ page.title }} works.
+[Here is an article](https://blog.gridplus.io/understanding-the-safecard-18fdd8722c7d#deadLink) on Medium explaining how the {{ page.title }} works.
 
 {{ page.title }} is a PIN-protected card meant to backup seeds offline. This card does not have a screen interface as it is meant to be used with {% include walletLink.html wallet='hardware/io.gridplus.lattice1' verdict='true' %}, a hardware wallet already hosting those features.
 
@@ -60,3 +61,8 @@ This is also confirmed on GridPlus' [documentation for the wallet.](https://docs
 
 The card doesn't primarily function as a wallet on its own as it **lacks an interface where you can sign transactions** and is designed to be used in conjunction with another hardware wallet.
 
+{% include featureEvidence.html feature="nfc" quote="It supports both NFC and ISO7816 physical interfaces, meaning that it is compatible with any Android phone equipped with NFC, and all USB Smartcard readers." source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="Keycard is a an implementation of a BIP-32 HD wallet running on Javacard 3.0.4+" source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="GridPlus can - the Lattice1 (and specifically a secure compute element inside) is the main interface for SafeCards." source="GitHub README" %}

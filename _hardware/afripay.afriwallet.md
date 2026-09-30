@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: afripay.afriwallet.png
+icon: afripay.afriwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-03
 signer: 
 twitter: afripay_io

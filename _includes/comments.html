@@ -1,5 +1,3 @@
-{% include base_path %}
-
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
@@ -8,10 +6,10 @@
     <section id="disqus_thread"></section>
   {% when "facebook" %}
     <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section class="fb-comments" data-href="{{ base_path }}{{ page.url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
+    <section class="fb-comments" data-href="{{ site.baseurl }}{{ page.url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
   {% when "google-plus" %}
     <h4 class="page__comments-title">{{ comments_label }}</h4>
-    <section class="g-comments" data-href="{{ base_path }}{{ page.url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
+    <section class="g-comments" data-href="{{ site.baseurl }}{{ page.url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
   {% when "staticman" %}
     <section id="comments">
       {% if site.repository and site.staticman.branch %}
@@ -38,7 +36,7 @@
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
         <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
           <div class="form__spinner">
-            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            {% include icon.html name="spinner" class="ws-icon-spin ws-icon-3x ws-icon-fw" %}
             <span class="sr-only">{{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}</span>
           </div>
 

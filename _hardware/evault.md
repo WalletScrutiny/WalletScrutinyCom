@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://evaultcompany.com
+website: https://evaultcompany.com#deadLink
 shop: 
 country: 
 price: 62.40GBP
 repository: 
-issue: 
-icon: evault.png
+icon: evault.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor
-appHashes: 
 date: 2024-05-29
 signer: 
 twitter: TheEVaultCo

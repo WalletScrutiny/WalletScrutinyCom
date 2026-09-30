@@ -15,17 +15,15 @@ dimensions:
 weight: 13g
 provider: Walahala OÜ
 providerWebsite: 
-website: https://walahala.com/walahala-wallet
-shop: https://walahala.com/Products
+website: https://web.archive.org/web/20241215001442/https://walahala.com/walahala-wallet
+shop: https://walahala.com/Products#deadLink
 country: EE
 price: 149USDT
 repository: 
-issue: 
-icon: walahala.png
+icon: walahala.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: walahala_dex
@@ -37,7 +35,8 @@ social:
 - https://t.me/WalahalaDex
 - https://walahala.slack.com/
 builds: 
-features: 
+features:
+- multiSig
 
 ---
 
@@ -59,7 +58,7 @@ We downloaded the app and was greeted with some infographic of some sort about W
 
 ## KYC for Hardware Wallet Manufacturer 
 
-The [Walahala KYC policy](https://walahala.com/kyc)
+The [Walahala KYC policy](https://web.archive.org/web/20240527065344/https://walahala.com/kyc)
 
 > Walahala shall perform a KYC for every natural or legal person, representative of the legal person, beneficial owner of the user or politically exposed person (“PEP”) or a person connected with PEP.
 
@@ -67,9 +66,10 @@ The [Walahala KYC policy](https://walahala.com/kyc)
 
 The technical specifications for the device are not forthcoming. From the few renders we see on the website, we are given the impression that it has **no interface and presumably can't confirm transactions.**
 
-This is from the Walahala [wallet page](https://walahala.com/walahala-wallet):
+This is from the Walahala [wallet page](https://web.archive.org/web/20241215001442/https://walahala.com/walahala-wallet):
 
 > Connected to a Live Exchange on a single click
 
 There are no references to the project being open source.
 
+{% include featureEvidence.html feature="multiSig" quote="They also claim that the wallet is a multi-signature wallet." source="Product Description" %}

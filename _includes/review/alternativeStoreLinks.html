@@ -1,0 +1,13 @@
+{% assign alt_app_id = include.appId | default: page.appId %}
+{% assign alt_stores = include.alternativeStores | default: page.alternativeStores %}
+{% if alt_stores %}
+  {% for store in alt_stores %}
+    {% assign alt = store | strip | downcase %}
+    {% case alt %}
+      {% when 'fdroid' %}
+        <a title="F-Droid" href="https://f-droid.org/packages/{{ alt_app_id }}/" class="link-web subtle distribution-store-link"><i class="fac fa-f-droid" aria-hidden="true"></i> F-Droid</a>
+      {% when 'zapstore' %}
+        <a title="Zapstore" href="https://zapstore.dev/apps/{{ alt_app_id }}" class="link-web subtle distribution-store-link">{% include icon.html name="zapstore" %} Zapstore</a>
+    {% endcase %}
+  {% endfor %}
+{% endif %}

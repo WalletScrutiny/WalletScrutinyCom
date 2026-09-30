@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-{% include base_path %}
-
 <div id="main" role="main">
 
   {% if page.url == "/" %}
@@ -38,13 +35,13 @@ layout: default
         {% if page.title %}<h1 class="page__title" itemprop="headline">
           {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         {% if page.modified %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+        <p class="page__date"><strong>{% include icon.html name="calendar" class="ws-icon-fw" %}
             {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
             datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
         {% if page.date %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+        <p class="page__date"><strong>{% include icon.html name="calendar" class="ws-icon-fw" %}
             {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
             datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
         </p>
@@ -54,7 +51,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% include /review/byAuthor.html %}
+        {% include_cached /review/byAuthor.html authors=page.authors %}
         {% if page.link %}<div><a href="{{ page.link }}"
             class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
@@ -67,9 +64,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}
         <div class="social-share active" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 10px;" id="shareButtonContainer"></div>
-      {% endif %}
     </div>
   </article>
 </div>

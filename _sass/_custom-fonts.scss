@@ -2,11 +2,7 @@
 
 @font-face {
   font-family: '#{$svg-font-family}';
-  src:  url('#{$svg-font-path}/#{$svg-font-family}.eot?8oel41');
-  src:  url('#{$svg-font-path}/#{$svg-font-family}.eot?8oel41#iefix') format('embedded-opentype'),
-    url('#{$svg-font-path}/#{$svg-font-family}.ttf?8oel41') format('truetype'),
-    url('#{$svg-font-path}/#{$svg-font-family}.woff?8oel41') format('woff'),
-    url('#{$svg-font-path}/#{$svg-font-family}.svg?8oel41##{$svg-font-family}') format('svg');
+  src:  url('#{$svg-font-path}/#{$svg-font-family}.woff2?8oel41') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: block;

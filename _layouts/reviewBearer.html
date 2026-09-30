@@ -21,11 +21,11 @@ layout: default
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
         {%- if page.icon -%}
-          {%- assign icon = base_path | append: '/images/wIcons/'
+          {%- assign icon = site.baseurl | append: '/images/wIcons/'
             | append: page.collection | append:  '/'
             | append: page.icon -%}
         {%- else -%}
-          {%- assign icon = base_path  | append: '/images/noimg.svg' -%}
+          {%- assign icon = site.baseurl  | append: '/images/noimg.svg' -%}
         {%- endif -%}
         <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">
@@ -40,29 +40,18 @@ layout: default
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='bearer' filterPlatform='false' %}
       
+      {%- if page.features -%}
+        {% include feature_alerts.html %}
+      {%- endif -%}
+      
       {% include /review/nostrOpinion.html %}
 
-      <div class="article-after disclaimer">
-        {% include /review/ownResearch.html %}
-      </div>
+      {% include_cached /review/ownResearch.html %}
 
-      {% if page.share %}
       <div class="spacer x2"></div>
 
-      <div class="tab-view">
-        <div class="labels">
-          <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
-          <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
-          <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
-        </div>
-        <div class="payloads">
-          <div class="social-share active" style="margin-bottom: 20px; align-items: center; gap: 10px;" id="shareButtonContainer"></div>
-          <div class="embed-widget">{% include embed_widget.html %}</div>
-          <div class="embed-image">{% include embed_image.html %}</div>
-        </div>
-      </div>
-      {% endif %}
-
+      <h2>Share on Social Media</h2>
+      <div style="margin-bottom: 20px; display: flex; align-items: center;" id="shareButtonContainer"></div>
     </div>
   </article>
 </div>
@@ -72,7 +61,8 @@ layout: default
       renderShareButton({
           container: "#shareButtonContainer",
           defaultMessage: "Check the {{page.title}} page on WalletScrutiny!",
-          showRawButtons: true
+          showRawButtons: true,
+          showOnLabel: ""
       });
   });
 </script>

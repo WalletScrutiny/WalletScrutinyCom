@@ -13,12 +13,11 @@ weight:
 provider: Värdex Suisse AG
 providerWebsite: https://cryptonow.ch
 website: https://www.cryptonow.ch/en-ch/secure-crypto-plattform
-shop: https://www.cryptonow.ch/en-ch/where-to-buy
+shop: https://www.cryptonow.ch/en-ch/where-to-buy#deadLink
 country: CH
 price: 
 repository: 
-issue: 
-icon: cryptonowcard.png
+icon: cryptonowcard.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

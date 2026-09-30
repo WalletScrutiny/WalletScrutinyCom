@@ -20,13 +20,11 @@ shop:
 country: PT
 price: 
 repository: https://github.com/hkjn/lnhw
-issue: 
-icon: blockchainhackathon2018.lnhw.diy.png
+icon: blockchainhackathon2018.lnhw.diy.webp
 bugbounty: 
 meta: defunct
-verdict: diy
-appHashes: 
-date: 2022-05-20
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: chainsmiths
 social: 

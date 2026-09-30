@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: HooFoo Inc
-providerWebsite: https://hoofoo.io
+providerWebsite: https://web.archive.org/web/20221212183201/https://hoofoo.io/
 website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 country: US
 price: 289USD
 repository: 
-issue: 
-icon: hoofoo.png
+icon: hoofoo.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-21
 signer: 
 twitter: hoofoowallet

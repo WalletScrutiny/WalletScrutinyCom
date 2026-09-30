@@ -17,12 +17,10 @@ shop:
 country: MY
 price: 
 repository: 
-issue: 
-icon: everusworld.hwallet.png
+icon: everusworld.hwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: EverusWorld

@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: bitmain.safeprime.png
+icon: bitmain.safeprime.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2023-04-06
 signer: 
 twitter: BITMAINtech

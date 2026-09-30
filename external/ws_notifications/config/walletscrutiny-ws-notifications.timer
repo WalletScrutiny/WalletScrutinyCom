@@ -1,0 +1,10 @@
+[Unit]
+Description=Hourly WalletScrutiny verification Nostr notifications
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=walletscrutiny-ws-notifications.service
+
+[Install]
+WantedBy=timers.target

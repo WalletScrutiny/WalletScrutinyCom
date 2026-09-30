@@ -20,12 +20,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: hardbit.png
+icon: hardbit.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-02-17
 signer: 
 twitter: 

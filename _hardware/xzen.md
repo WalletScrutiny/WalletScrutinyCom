@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: xzen.png
+icon: xzen.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-10
 signer: 
 twitter: 

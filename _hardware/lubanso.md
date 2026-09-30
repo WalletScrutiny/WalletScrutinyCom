@@ -20,12 +20,10 @@ shop: https://www.lubanso.com/x1
 country: CN
 price: 898 JPY
 repository: 
-issue: 
-icon: lubanso.png
+icon: lubanso.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-03-03
 signer: 
 twitter: lubanso
@@ -33,7 +31,10 @@ social:
 - https://t.me/lubanso
 - https://www.facebook.com/LUBANSO
 builds: 
-features: 
+features:
+- hd
+- secEl
+- segwit
 
 ---
 
@@ -73,4 +74,10 @@ features:
 3. Lubanso has not made any claims that it has publicly available source
 4. The device is plugged in to a desktop PC via USB and then connects to the Lubanso Manager App. 
 
-We are inclined to note the following details: the software is proprietary and the reliance on another device could pose some risks. 
+We are inclined to note the following details: the software is proprietary and the reliance on another device could pose some risks.
+
+{% include featureEvidence.html feature="hd" quote="Supports: BIP44, BIP49, BIP84, BIP39" source="Website" comment="BIP39 mnemonic backup and multiple derivation paths confirm HD wallet support recoverable on competitor products" %}
+
+{% include featureEvidence.html feature="segwit" quote="Supports: BIP44, BIP49, BIP84, BIP39" source="Website" comment="BIP49 (P2SH-P2WPKH) and BIP84 (native bech32) indicate full SegWit support" %}
+
+{% include featureEvidence.html feature="secEl" quote="Bank grade secure chip: EAL 4+" source="Website" %}

@@ -16,12 +16,11 @@ weight: 35
 provider: Ballet
 providerWebsite: https://www.balletcrypto.com
 website: https://www.balletcrypto.com/en/pro
-shop: https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
+shop: https://web.archive.org/web/20210921103922/https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
 country: US
 price: 179USD
 repository: 
-issue: 
-icon: balletcryptopro.png
+icon: balletcryptopro.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

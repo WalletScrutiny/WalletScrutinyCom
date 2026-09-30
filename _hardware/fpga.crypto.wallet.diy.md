@@ -20,13 +20,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/jmaldon1/Crypto_wallet
-issue: 
-icon: fpga.crypto.wallet.diy.png
+icon: fpga.crypto.wallet.diy.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-05-25
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

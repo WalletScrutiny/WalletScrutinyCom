@@ -1,14 +1,23 @@
-import { uploadToBlossom } from './blossom-utils.js';
+import { wsIcon } from './icon.mjs';
+import { uploadToBlossom } from './blossom-utils.mjs';
 import {
   formatFileSize,
   updateDomElementInClass,
   getVersionFromFilename,
   calculateFileHash,
   isPageForAppId,
-  getApkInfo,
-  getPlatformFromFilename
-} from './drag-and-drop-utils.js';
-import { isDebugEnv, userHasBrowserExtension } from './verifications_common.mjs';
+  getPlatformFromFilename,
+  expandDroppedFile,
+  resolveApkInfoFromProcessedFiles,
+  resolveCompleteApkInfoFromProcessedFiles,
+  PENDING_ASSET_FILES_KEY,
+  isAndroidApkUpload,
+  isAndroidApkFileName,
+  canRegisterOrVerifyAndroidUpload,
+  getAndroidUploadBlockingMessage,
+  populateApkInfoForAndroidUpload
+} from './drag-and-drop-utils.mjs';
+import { isDebugEnv } from './verifications_common.mjs';
 
 const uploadsActivated = true;
 const maxFileSize = 500;  // MB
@@ -88,7 +97,47 @@ function setupHighlightEvents(element) {
   });
 }
 
+function countVerificationEvents(allAssetsInformation) {
+  if (!allAssetsInformation?.verifications) {
+    return 0;
+  }
+
+  let count = 0;
+  for (const events of allAssetsInformation.verifications.values()) {
+    count += events?.length ?? 0;
+  }
+  return count;
+}
+
+function viewVerificationsCtaHtml(hash, verificationCount) {
+  const countLabel = verificationCount === 1
+    ? '1 community attestation'
+    : `${verificationCount} community attestations`;
+  const hint = verificationCount > 0
+    ? `This binary already has ${countLabel}`
+    : 'This binary already has community attestations';
+
+  return `<a href="/asset/?sha256=${encodeURIComponent(hash)}" class="drop-area-verification-cta">
+      <span class="drop-area-verification-cta__icon" aria-hidden="true">${wsIcon('clipboard-check')}</span>
+      <span class="drop-area-verification-cta__copy">
+        <span class="drop-area-verification-cta__label">View build verifications</span>
+        <span class="drop-area-verification-cta__hint">${hint}</span>
+      </span>
+      <span class="drop-area-verification-cta__arrow" aria-hidden="true">${wsIcon('arrow-right')}</span>
+    </a>`;
+}
+
+function setHomepageHeroAnalysisMode(dropAreaElement, active) {
+  const hero = dropAreaElement.closest('.hero--dynamic');
+  if (!hero) {
+    return;
+  }
+  hero.classList.toggle('hero--analysis-active', active);
+}
+
 function disableHoverMode(dropAreaElement) {
+  setHomepageHeroAnalysisMode(dropAreaElement, true);
+
   const select = dropAreaElement.querySelector('#select');
   select.classList.remove('hover-mode');
   select.classList.add('always-visible');
@@ -123,6 +172,43 @@ async function setFormFields(hash, fileName, apkInfo) {
   }
 }
 
+function getCurrentExtractedFiles() {
+  if (window.currentExtractedFiles?.length > 0) {
+    return window.currentExtractedFiles;
+  }
+  if (window.currentFile && window.currentHash) {
+    return [{
+      data: window.currentFile,
+      fileName: window.currentFile.name,
+      sha256: window.currentHash
+    }];
+  }
+  return [];
+}
+
+function buildActionUrlParams(primaryHash, processedFiles, { appId, version, platform, fileName }) {
+  let urlParams = `?sha256=${encodeURIComponent(primaryHash)}`;
+  for (const entry of processedFiles.slice(1)) {
+    urlParams += `&hash=${encodeURIComponent(entry.sha256)}`;
+  }
+  for (const entry of processedFiles) {
+    urlParams += `&apkFileName=${encodeURIComponent(entry.fileName)}`;
+  }
+  if (appId) {
+    urlParams += `&appId=${encodeURIComponent(appId)}`;
+  }
+  if (version) {
+    urlParams += `&version=${encodeURIComponent(version)}`;
+  }
+  if (platform) {
+    urlParams += `&platform=${encodeURIComponent(platform)}`;
+  }
+  if (fileName) {
+    urlParams += `&fileName=${encodeURIComponent(fileName)}`;
+  }
+  return urlParams;
+}
+
 async function processFiles(files, dropAreaElement) {
   if (files.length > 1) {
     alert('Please select or drop only one file at a time.');
@@ -145,78 +231,182 @@ async function processFiles(files, dropAreaElement) {
   ];
   const extension = files[0].name.split('.').pop().toLowerCase();
   if (forbiddenExtensions.includes(extension)) {
+    setHomepageHeroAnalysisMode(dropAreaElement, true);
     updateDomElementInClass('drop-area-textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
     return;
   }
 
   document.getElementById('loadingSpinner').style.display = 'block';
 
-  const file = files[0];
+  const droppedFile = files[0];
 
-  updateDomElementInClass('drop-area-textbox', '', dropAreaElement);    // Clear the drop-area before displaying new information
+  updateDomElementInClass('drop-area-textbox', '', dropAreaElement);
 
   disableHoverMode(dropAreaElement);
 
-  /////////////////////////////////////////////////////////////////////
-  // Get all the information about the file / hash / apk
-  /////////////////////////////////////////////////////////////////////
-  const [apkInfo, hash] = await Promise.all([
-    getApkInfo(file),
-    calculateFileHash(file)
-  ]);
-
-  const [allAssetsInformation, fileExistsInBlossomServer] = await Promise.all([
-    getAllAssetInformation({ sha256: hash }),
-    checkFileExistsInBlossom(hash, true)
-  ]);
-  /////////////////////////////////////////////////////////////////////
-
-  setFormFields(hash, file.name, apkInfo);
-
-  displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInformation, fileExistsInBlossomServer);
-
-  if (allAssetsInformation.assets?.size > 0 && !fileExistsInBlossomServer && (file.size / 1024 / 1024) <= maxFileSize) {
+  try {
+    let expanded;
     try {
-      document.getElementById('loadingSpinner').style.display = 'none';
-      await uploadToBlossom(file, hash);
+      expanded = await expandDroppedFile(droppedFile);
     } catch (error) {
-      console.error('Error uploading file to Blossom', error);
+      updateDomElementInClass(
+        'drop-area-textbox',
+        `<p style="color: red;">Could not read the ZIP file: ${error.message}</p>`,
+        dropAreaElement
+      );
+      return;
     }
-  }
 
-  // Store the file and hash for later use when registering the asset
-  if (uploadsActivated) {
-    window.currentFile = file;
-    window.currentHash = hash;
-  }
+    const processedFiles = [];
+    for (const entry of expanded.entries) {
+      const sha256 = await calculateFileHash(entry.file);
+      processedFiles.push({
+        data: entry.file,
+        fileName: entry.fileName,
+        sha256,
+        apkInfo: null
+      });
+    }
 
-  document.getElementById('loadingSpinner').style.display = 'none';
+    const isApkBundle = expanded.sourceZip != null && processedFiles.length > 1;
+
+    if (isAndroidApkUpload(processedFiles, isApkBundle)) {
+      await populateApkInfoForAndroidUpload(processedFiles);
+    }
+
+    const primaryFile = processedFiles[0];
+    const primaryHash = primaryFile.sha256;
+    const resolvedApkInfo = isAndroidApkUpload(processedFiles, isApkBundle)
+      ? resolveCompleteApkInfoFromProcessedFiles(processedFiles)
+      : resolveApkInfoFromProcessedFiles(processedFiles);
+
+    const blossomChecks = await Promise.all(
+      processedFiles.map(entry => checkFileExistsInBlossom(entry.sha256, true))
+    );
+    const allAssetsInformation = await getAllAssetInformation({
+      sha256: primaryHash,
+      singleBatch: true
+    });
+
+    setFormFields(primaryHash, primaryFile.fileName, resolvedApkInfo);
+
+    displayAllInfo(dropAreaElement, {
+      droppedFile,
+      sourceZip: expanded.sourceZip,
+      processedFiles,
+      isApkBundle,
+      allAssetsInformation,
+      blossomChecks
+    });
+
+    if (allAssetsInformation.assets?.size > 0) {
+      try {
+        for (const [index, entry] of processedFiles.entries()) {
+          if (
+            !blossomChecks[index] &&
+            (entry.data.size / 1024 / 1024) <= maxFileSize
+          ) {
+            await uploadToBlossom(entry.data, entry.sha256);
+          }
+        }
+      } catch (error) {
+        console.error('Error uploading file to Blossom', error);
+      }
+    }
+
+    if (uploadsActivated) {
+      if (canRegisterOrVerifyAndroidUpload(processedFiles, isApkBundle)) {
+        window.currentExtractedFiles = processedFiles;
+        window.currentFile = primaryFile.data;
+        window.currentHash = primaryHash;
+      } else {
+        window.currentExtractedFiles = [];
+        window.currentFile = null;
+        window.currentHash = null;
+      }
+    }
+  } catch (error) {
+    console.error('Error processing dropped file', error);
+    updateDomElementInClass(
+      'drop-area-textbox',
+      `<p style="color: red;">Could not process the file: ${error.message}</p>`,
+      dropAreaElement
+    );
+  } finally {
+    document.getElementById('loadingSpinner').style.display = 'none';
+  }
 }
 
 async function handleUploadAsset(urlParams) {
-  if (uploadsActivated) {
-    try {
-      const fileSize = window.currentFile.size / 1024 / 1024;
+  if (!uploadsActivated) {
+    return;
+  }
 
-      if (fileSize > maxFileSize) {
-        showToast('The file is too large to be uploaded, but you can still register it on Nostr.', 'info');
-        await new Promise(resolve => setTimeout(resolve, 6000));
-      } else {
-        document.getElementById('loadingSpinner').style.display = 'block';
-        await uploadToBlossom(window.currentFile, window.currentHash);
-        document.getElementById('loadingSpinner').style.display = 'none';
-        showToast('The file has been correctly uploaded to our server. You can now register it on Nostr.');
+  const filesToUpload = getCurrentExtractedFiles();
+  if (filesToUpload.length === 0) {
+    showToast('No file is available to upload. Please drop the file again.', 'error');
+    return;
+  }
+
+  const isApkBundle = filesToUpload.length > 1;
+  const blockingMessage = getAndroidUploadBlockingMessage(filesToUpload, isApkBundle);
+  if (blockingMessage) {
+    showToast(blockingMessage, 'error');
+    return;
+  }
+
+  try {
+    const oversizedFiles = filesToUpload.filter(file => (file.data.size / 1024 / 1024) > maxFileSize);
+    if (oversizedFiles.length > 0) {
+      showToast('Some files are too large to be uploaded, but you can still register them on Nostr.', 'info');
+      await new Promise(resolve => setTimeout(resolve, 6000));
+    } else {
+      document.getElementById('loadingSpinner').style.display = 'block';
+      for (const file of filesToUpload) {
+        if ((file.data.size / 1024 / 1024) <= maxFileSize) {
+          await uploadToBlossom(file.data, file.sha256);
+        }
       }
-
-      window.location.href = `/new_asset/${urlParams}`;
-    } catch (error) {
       document.getElementById('loadingSpinner').style.display = 'none';
-      showToast('It was impossible to upload the file to our server. Please try again.', 'error');
+      showToast(
+        filesToUpload.length > 1
+          ? 'The files have been correctly uploaded to our server. You can now register them on Nostr.'
+          : 'The file has been correctly uploaded to our server. You can now register it on Nostr.'
+      );
     }
+
+    sessionStorage.setItem(
+      PENDING_ASSET_FILES_KEY,
+      JSON.stringify(filesToUpload.map(file => ({
+        sha256: file.sha256,
+        fileName: file.fileName,
+        uploaded: oversizedFiles.length === 0
+      })))
+    );
+
+    window.location.href = `/new_asset/${urlParams}`;
+  } catch (error) {
+    document.getElementById('loadingSpinner').style.display = 'none';
+    showToast('It was impossible to upload the file to our server. Please try again.', 'error');
   }
 }
 
-async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInformation, fileExistsInBlossomServer) {
+async function displayAllInfo(dropAreaElement, {
+  droppedFile,
+  sourceZip,
+  processedFiles,
+  isApkBundle,
+  allAssetsInformation,
+  blossomChecks
+}) {
+  const primaryFile = processedFiles[0];
+  const hash = primaryFile.sha256;
+  const isAndroidUpload = isAndroidApkUpload(processedFiles, isApkBundle);
+  const blockingMessage = getAndroidUploadBlockingMessage(processedFiles, isApkBundle);
+  const completeApkInfo = resolveCompleteApkInfoFromProcessedFiles(processedFiles);
+  const apkInfo = isAndroidUpload ? completeApkInfo : resolveApkInfoFromProcessedFiles(processedFiles);
+  const file = droppedFile;
+  const fileExistsInBlossomServer = blossomChecks.every(exists => exists);
   let appTitle = null;
   let appId = null;
   let version = null;
@@ -237,15 +427,22 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
     scrollToVersion(appInfoFromNostr.version);
   }
 
-  appId       = appInfoFromNostr?.appId ?? apkInfo?.package ?? null;
+  if (appInfoFromNostr) {
+    appId = appInfoFromNostr.appId ?? null;
+    version = appInfoFromNostr.version ?? null;
+  } else if (apkInfo) {
+    appId = apkInfo.package ?? null;
+    version = apkInfo.versionName ?? null;
+  }
 
   const app = window.wallets.find(it => it.appId === appId) ?? null;  // Get internal info
 
-  version     = appInfoFromNostr?.version ?? apkInfo?.versionName ?? null;
   verdict     = appInfoFromNostr?.verdict ?? null;
   date        = appInfoFromNostr?.createdAt ?? null;
   platform    = appInfoFromNostr?.platform ?? app?.folder ?? null;
-  appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
+  appTitle    = apkInfo?.application?.label?.[0] ?? app?.title ?? appId;
+
+  const platformLegacy = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
   let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
 
@@ -262,19 +459,37 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
     fileInfoHtml += `<strong>Date:</strong> ${date}<br>`;
   }
 
-  fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
-  fileInfoHtml += `<strong>Size:</strong> ${formatFileSize(file.size) ?? 'N/A'} ${(file.size / 1024 / 1024) > maxFileSize ? ` <span style="color: red;">(upload size limit is ${maxFileSize} MB)</span>` : ''}<br>`;
-  fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
-
-  if (isDebugEnv()) {
-    fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
+  if (isApkBundle) {
+    fileInfoHtml += `<strong>Archive:</strong> ${sourceZip.name}<br>`;
+    fileInfoHtml += `<strong>APK files:</strong> ${processedFiles.length}<br>`;
+    fileInfoHtml += '<ul>';
+    for (const entry of processedFiles) {
+      const tooLarge = (entry.data.size / 1024 / 1024) > maxFileSize;
+      fileInfoHtml += `<li><strong>${entry.fileName}</strong> (${formatFileSize(entry.data.size)}${tooLarge ? ` <span style="color: red;">(upload size limit is ${maxFileSize} MB)</span>` : ''})<br><strong>SHA-256:</strong> ${entry.sha256}</li>`;
+    }
+    fileInfoHtml += '</ul>';
+  } else {
+    fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
+    fileInfoHtml += `<strong>Size:</strong> ${formatFileSize(file.size) ?? 'N/A'} ${(file.size / 1024 / 1024) > maxFileSize ? ` <span style="color: red;">(upload size limit is ${maxFileSize} MB)</span>` : ''}<br>`;
+    fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
   }
 
-  if (!appInfoFromNostr && apkInfo) {
+  if (isDebugEnv()) {
+    fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'All files exist in Blossom' : 'Some or all files are missing from Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
+  }
+
+  const missingAndroidMetadata = blockingMessage != null;
+
+  if (missingAndroidMetadata) {
+    fileInfoHtml += `<br><p style="color: red;">${blockingMessage}</p>`;
+  } else if (!appInfoFromNostr && apkInfo) {
+    const bundleSuffix = isApkBundle ? ` The ZIP contains <b>${processedFiles.length}</b> APK files whose hashes will be included if you register or verify this asset.` : '';
     fileInfoHtml += '<br>' + (
       app ?
-        `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but nobody has verified this specific version yet.</p>` :
-        `<p>This is an APK for an unknown application. You can register it on Nostr so others can try to reproduce it.</p>`);
+        `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but <b><u>nobody has verified this specific version yet</u></b>.${bundleSuffix}</p>` :
+        `<p>This is an APK for an unknown application. You can register it on Nostr so others can try to reproduce it.${bundleSuffix}</p>`);
+  } else if (isApkBundle) {
+    fileInfoHtml += `<br><p>The ZIP contains <b>${processedFiles.length}</b> APK files. All of their hashes will be included if you register or verify this asset.</p>`;
   }
 
   fileInfoHtml += '<br>';
@@ -284,49 +499,47 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
 
   const hasAssets = allAssetsInformation.assets?.size > 0;
   const hasVerifications = allAssetsInformation.verifications?.size > 0;
+  const verificationCount = countVerificationEvents(allAssetsInformation);
 
-  // Params to be used for new asset and new verification links
-  let urlParams = `?sha256=${encodeURIComponent(hash)}`;
-  if (appId) { urlParams += `&appId=${encodeURIComponent(appId)}`; }
-  if (version) { urlParams += `&version=${encodeURIComponent(version)}`; }
-  const platformFromFile = getPlatformFromFilename(file.name, apkInfo);
-  if (platformFromFile) {
-    urlParams += `&platform=${encodeURIComponent(platformFromFile ?? platform)}`;
-  }
+  const platformFromFile = getPlatformFromFilename(primaryFile.fileName, apkInfo);
+  const urlParams = buildActionUrlParams(hash, processedFiles, {
+    appId,
+    version,
+    platform: platformFromFile ?? platform,
+    fileName: isApkBundle ? sourceZip.name : file.name
+  });
 
-  const hasBrowserExtension = await userHasBrowserExtension();
+  let actionsHtml = '';
 
-  if (!hasBrowserExtension) {
-    fileInfoHtml += `<li style="color: red; font-weight: bold;">You need to install a Nostr browser extension to register assets and create verifications on Nostr (see more <a href="/nostr/" target="_blank">here</a>).</li>`;
-  }
-
-  if (!hasAssets && !hasVerifications ) {
-    if (hasBrowserExtension) {
-      if (window.location.pathname !== '/new_asset/') {
-        fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
-      }
-
-      fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
+  if (missingAndroidMetadata) {
+    if (hasVerifications) {
+      fileInfoHtml += viewVerificationsCtaHtml(hash, verificationCount);
+    } else if (hasAssets) {
+      actionsHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>.</li>`;
     }
+  } else if (!hasAssets && !hasVerifications) {
+    if (window.location.pathname !== '/new_asset/') {
+      actionsHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
+    }
+    actionsHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
   } else if (hasAssets && !hasVerifications) {
-    fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet.`;
-    if (hasBrowserExtension) {
-      fileInfoHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
-    }
-    fileInfoHtml += `</li>`;
+    actionsHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet.`;
+    actionsHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
+    actionsHtml += `</li>`;
   } else if (hasVerifications) {
-    fileInfoHtml += `<li>Thi file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>`;
-    if (hasBrowserExtension) {
-      fileInfoHtml += `, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>`;
-    }
-    fileInfoHtml += `.</li>`;
+    fileInfoHtml += viewVerificationsCtaHtml(hash, verificationCount);
+    actionsHtml += `<li>You can also <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
   }
 
   if (app && !isPageForAppId(appId)) {
-    fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
+    actionsHtml += `<li>You can go to the <a href="/${platformLegacy}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
   }
 
-  fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
+  actionsHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
+
+  if (actionsHtml) {
+    fileInfoHtml += `<ul class="drop-area-actions">${actionsHtml}</ul>`;
+  }
 
   updateDomElementInClass('drop-area-textbox', fileInfoHtml, dropAreaElement);
 }
@@ -334,3 +547,9 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
 window.handleUploadAsset = handleUploadAsset;
 window.maxFileSize = maxFileSize;
 window.calculateFileHash = calculateFileHash;
+window.expandDroppedFile = expandDroppedFile;
+window.PENDING_ASSET_FILES_KEY = PENDING_ASSET_FILES_KEY;
+window.isAndroidApkFileName = isAndroidApkFileName;
+window.populateApkInfoForAndroidUpload = populateApkInfoForAndroidUpload;
+window.getAndroidUploadBlockingMessage = getAndroidUploadBlockingMessage;
+window.canRegisterOrVerifyAndroidUpload = canRegisterOrVerifyAndroidUpload;

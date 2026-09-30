@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-03-05
 discontinued: 
-updated: 2025-12-17
-version: 4.18.0-btc
+updated: 2026-06-26
+version: 4.21.0-btc
 binaries: 
 dimensions:
 - 90
@@ -21,20 +21,21 @@ shop: https://shop.onekey.so/products/onekey-pro
 country: CN
 price: 270USD
 repository: https://github.com/OneKeyHQ/firmware-pro
-issue: https://github.com/OneKeyHQ/firmware-pro/issues/238
-icon: onekey.pro.png
+icon: onekey.pro.webp
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 2b8ce9dab486877b78ecfd9b7b5d0579e313197cb92e98f9bec20805072b7cdb
 date: 2025-09-10
 signer: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 - https://www.youtube.com/@onekeyhq
-builds: 
+builds:
+- arch: arm
+  types:
+    onekeypro:
+    - pro.*.signed.bin
 features: 
 
 ---
@@ -68,4 +69,6 @@ features:
 
 5. Is it reproducible? - **?**
 
-    For now, the device is **for verification**. 
+    For now, the device is **for verification**.
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware-pro/issues/238](https://github.com/OneKeyHQ/firmware-pro/issues/238)

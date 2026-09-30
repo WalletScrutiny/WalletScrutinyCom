@@ -1,0 +1,9 @@
+[Unit]
+Description=Weekly garbage collection of the Nix store on the build server
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

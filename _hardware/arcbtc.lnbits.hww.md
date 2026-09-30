@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-07-22
 discontinued: 
-updated: 2022-12-12
-version: '0.2'
+updated: 2026-09-13
+version: 0.8.3
 binaries: 
 dimensions: 
 weight: 
@@ -17,18 +17,19 @@ shop: https://shop.lnbits.com/product/lnbits-bitcoin-hardware-wallet
 country: UK
 price: 20 GBP
 repository: https://github.com/lnbits/hardware-wallet
-issue: 
-icon: arcbtc.lnbits.hww.png
+icon: arcbtc.lnbits.hww.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2023-02-14
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: arcbtc
 social: 
 builds: 
-features: 
+features:
+- selfBuild
+- airGapped
+- foss
 
 ---
 
@@ -64,3 +65,6 @@ From the [GitHub repo](https://github.com/lnbits/hardware-wallet)
 
 Although this kit is packaged as a device, it can still be classified as a **do-it-yourself** hardware wallet since the end user would have to perform some additional steps prior to making it work.
 
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2022 LNbits Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Run from SD Card (air-gapped) **Note**: the device is not fully airgapped when other communication mediums are enabled (wifi, bluetooth, serial-port, etc). In order to run from an SD Card one must:" source="GitHub README" %}

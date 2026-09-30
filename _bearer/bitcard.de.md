@@ -12,13 +12,12 @@ dimensions:
 weight: 
 provider: 5C-Basic GmbH & Co.
 providerWebsite: 
-website: https://web.archive.org/web/20141219044928/http://www.bit-card.de/
+website: http://www.bit-card.de
 shop: 
 country: DE
 price: 1USD
 repository: 
-issue: 
-icon: bitcard.de.png
+icon: bitcard.de.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled

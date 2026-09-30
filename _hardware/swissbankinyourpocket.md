@@ -17,12 +17,10 @@ shop: https://www.amazon.com/Swiss-Bank-Your-Pocket-SBIYP/dp/B0773KZCMK
 country: 
 price: 99USD
 repository: 
-issue: 
-icon: swissbankinyourpocket.png
+icon: swissbankinyourpocket.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-08-15
 signer: 
 twitter: 

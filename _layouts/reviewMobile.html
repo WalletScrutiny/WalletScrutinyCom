@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+{%- assign alt_title = page.android.altTitle | default: page.iphone.altTitle -%}
+
+{%- comment -%}
+  review/externalResearchAlert.html wraps its box in marker comments. When the
+  page body contains exactly one such box, lift it out of the body and hand it to
+  the review steps, which render it after the tests summary and before the
+  per-platform verification section.
+{%- endcomment -%}
+{%- assign era_parts = content | split: '<!-- external-research-alert:start -->' -%}
+{%- assign review_body = content -%}
+{%- assign external_research_alert = '' -%}
+{%- if era_parts.size == 2 -%}
+  {%- assign era_tail = era_parts[1] | split: '<!-- external-research-alert:end -->' -%}
+  {%- if era_tail.size == 2 -%}
+    {%- assign external_research_alert = era_tail[0] -%}
+    {%- assign review_body = era_parts[0] | append: era_tail[1] -%}
+  {%- endif -%}
+{%- endif -%}
+
+<script>
+  window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
+  {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
+  {% if page.android.version %}window.wsVersionAndroid = "{{ page.android.version }}";{% endif %}
+  {% if page.iphone.version %}window.wsVersionIphone = "{{ page.iphone.version }}";{% endif %}
+  {% if page.android.version %}window.wsVersion = "{{ page.android.version }}";{% elsif page.iphone.version %}window.wsVersion = "{{ page.iphone.version }}";{% endif %}
+</script>
+
+<div id="main" class="app-review{% if page.android.appId and page.iphone.appId %} app-review--dual-platform{% endif %}" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ alt_title | default: page.title | escape }}">
+    {% if page.excerpt %}
+      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}
+      <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      <div class="app-summary-grid">
+        {% if page.android.icon %}
+          <img src="/images/wIcons/android/{{ page.android.icon }}" class="app_logo_big" alt="Wallet Logo">
+        {% elsif page.iphone.icon %}
+          <img src="/images/wIcons/iphone/{{ page.iphone.icon }}" class="app_logo_big" alt="Wallet Logo">
+        {% else %}
+          <img src="{{ site.baseurl }}/images/noimg.svg" class="app_logo_big" alt="Wallet Logo">
+        {% endif %}
+        <div class="app-sum-head">
+
+          <h1 class="page__title -va-c" itemprop="headline">
+            {% if alt_title %}
+              {{ alt_title }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
+            {% else %}
+              {{ page.title | escape }}
+            {% endif %}
+          </h1>
+
+          {% include /review/mobileStoreLinks.html
+            androidAppId=page.android.appId
+            iphoneAppId=page.iphone.appId
+            idd=page.iphone.idd
+            appCountry=page.appCountry
+            alternativeStores=page.android.alternativeStores
+          %}
+
+          {% if page.android.appId and page.iphone.appId %}
+            <div class="secondary-text version-number-ws">
+              {% if page.android.version or page.iphone.version %}
+                {% include /review/mobileWalletScrutinyVersion.html %}
+              {% endif %}
+              <div id="version-number-verification"></div>
+            </div>
+          {% else %}
+            {% if page.android.version or page.iphone.version %}
+            <div class="secondary-text version-number-ws" id="version-number-ws">
+              {% include /review/mobileWalletScrutinyVersion.html %}
+            </div>
+            {% endif %}
+            {% if page.android.appId %}
+            <div class="secondary-text" id="version-number-android"></div>
+            {% endif %}
+            {% if page.iphone.appId %}
+            <div class="secondary-text" id="version-number-iphone"></div>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+
+      {% include /review/securityOverviewMobile.html wsId=page.wsId externalResearchAlert=external_research_alert %}
+
+      <div class="security-overview">
+        <div class="section page__content" itemprop="text">
+          {{ review_body }}
+          {% include_cached /review/byAuthor.html authors=page.authors %}
+        </div>
+      </div>
+
+      {%- if page.features -%}
+        {% include feature_alerts.html %}
+      {%- endif -%}
+
+      {%- comment -%}
+        Canonical Nostr subject is mobile/{slug}. Pass legacy android/iphone d-tags
+        so historical opinions still appear in the widget.
+      {%- endcomment -%}
+      {%- assign nostr_legacy_subjects = '' -%}
+      {%- if page.android.appId -%}
+        {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: 'android/' | append: page.android.appId -%}
+      {%- endif -%}
+      {%- if page.iphone.appId -%}
+        {%- if nostr_legacy_subjects != '' -%}
+          {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: ',' -%}
+        {%- endif -%}
+        {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: 'iphone/' | append: page.iphone.appId -%}
+      {%- endif -%}
+      {% include /review/nostrOpinion.html
+        opinionSubject=page.collection
+        opinionAppId=page.slug
+        opinionSubjects=nostr_legacy_subjects
+      %}
+
+      {% include_cached /review/ownResearch.html %}
+
+      <div class="spacer x2"></div>
+      <h2>Share on Social Media</h2>
+      <div style="margin-bottom: 20px; display: flex; align-items: center;" id="shareButtonContainer"></div>
+    </div>
+  </article>
+</div>
+
+<script>
+  window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Check the {{ page.title }} page on WalletScrutiny!",
+      showRawButtons: true,
+      showOnLabel: ""
+    });
+  });
+</script>

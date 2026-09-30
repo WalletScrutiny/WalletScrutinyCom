@@ -1,3 +1,27 @@
+mobile:
+  hidden_from_search: true
+  exclude_from_verification: true
+  description: >
+    Mobile wallet reviews on WalletScrutiny cover Android and iPhone apps in a
+    single page per product. Select the platform on each review to see
+    store-specific distribution, build verification, and app description.
+  verdicts:
+    - wip
+    - fake
+    - nowallet
+    - nobtc
+    - nosendreceive
+    - custodial
+    - nosource
+    - obfuscated
+    - sourceavailable
+  metas:
+    - defunct
+    - obsolete
+    - stale
+    - removed
+    - deprecated
+
 android:
   description: >
     On the Google Play Store, there are many apps that have Bitcoin in their
@@ -6,12 +30,10 @@ android:
     our findings.
   verdicts:
     - wip
-    - fewusers
     - fake
     - nowallet
     - nobtc
     - nosendreceive
-    - ecash
     - custodial
     - nosource
     - obfuscated
@@ -55,7 +77,6 @@ iphone:
     - nowallet
     - nobtc
     - nosendreceive
-    - ecash
     - custodial
     - nosource
     - obfuscated
@@ -169,7 +190,6 @@ desktop:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -193,7 +213,6 @@ linux:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -218,7 +237,6 @@ windows:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -243,7 +261,6 @@ macos:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable

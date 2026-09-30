@@ -19,21 +19,32 @@ shop:
 country: CA
 price: 119.97USD
 repository: https://github.com/Coldcard/firmware
-issue: 
-icon: coinkite.coldcard.mk2.png
+icon: coinkite.coldcard.mk2.webp
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: sourceavailable
-appHashes: 
 date: 2023-10-08
 signer: 
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 builds: 
-features: 
+features:
+- hd
+- multiSig
+- airGapped
+- secEl
 
 ---
+
+<div class="alertBox"><div>
+⚠️ Warning (2026-08-02): Seeds generated on this device with firmware 4.0.1 through 4.1.9 have roughly 40 bits of entropy instead of the intended 128 and are considered predictable. Updating the firmware does not repair a seed that was already created — Coinkite advises updating to 4.2.0 or later, generating a new seed on the fixed firmware, and moving any funds to it. Seeds are not affected by this issue alone only if at least 50 fair, independent, private dice rolls were added when the seed was created, those rolls were never recorded or otherwise exposed, and the seed words used are the ones shown after adding them. You must roll physical dice yourself and enter each result — the device does not generate the rolls for you. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
+</div> </div>
+
+{% include featureEvidence.html feature="hd" source="[Website](https://coldcard.com/)" quote="24-word seed phrase for your BIP39 wallet." %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://coldcard.com/)" quote="Advanced users can even setup a multisig wallet between multiple cosigners, entirely on-device, and air gapped" %}
+{% include featureEvidence.html feature="airGapped" source="[Website](https://coldcard.com/)" quote="COLDCARD never needs to touch a computer." %}
+{% include featureEvidence.html feature="secEl" source="[Website](https://coldcard.com/)" quote="COLDCARD uses two Secure Elements, from different vendors, to protect your Bitcoin." %}
 
 **Update 2023-10-08**: v4.1.9 is also reproducible
 

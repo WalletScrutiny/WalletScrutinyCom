@@ -20,9 +20,8 @@ website: https://satochip.io
 shop: https://satochip.io/shop
 country: BE
 price: 25EUR
-repository: https://github.com/Toporin
-issue: 
-icon: satochip.png
+repository: https://github.com/Toporin/SatochipApplet
+icon: satochip.webp
 bugbounty: 
 meta: ok
 verdict: sealed-noita

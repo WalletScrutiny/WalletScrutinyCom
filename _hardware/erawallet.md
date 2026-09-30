@@ -20,12 +20,10 @@ shop: https://era-wallet.com/products
 country: 
 price: 219USD
 repository: https://github.com/ERAWLT/ERA-firmware-p
-issue: 
-icon: erawallet.png
+icon: erawallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2025-12-03
 signer: 
 twitter: era_wallet
@@ -33,12 +31,13 @@ social:
 - https://t.me/erawlt
 builds: 
 features:
-- nfc
+- airGapped
 - camera
-- airgapped
-- wireless_charging
-- secure_element
-- multi_wallet
+- multiAccount
+- nfc
+- secEl
+- segwit
+- taproot
 
 ---
 
@@ -59,3 +58,13 @@ The repository is currently licensed under Business Source License 1.1 (non-FOSS
 Because those withheld components prevent a third party from reproducing or flashing the reviewed release from source, the firmware is not verifiable even though part of the tree is public.
 
 Therefore the current verdict stands until ERA releases every piece needed to build and load the shipping firmware, at which point it can graduate to `source-available`.
+
+{% include featureEvidence.html feature="segwit" quote="deposit screens that surface Bitcoin mainnet/testnet addresses across Taproot, Native SegWit, nested SegWit, and legacy formats" source="Product Description" %}
+
+{% include featureEvidence.html feature="taproot" quote="deposit screens that surface Bitcoin mainnet/testnet addresses across Taproot, Native SegWit, nested SegWit, and legacy formats" source="Product Description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Up to 10 Wallets on One Device" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="This firmware runs on the STM32H753xx MCU and incorporates the Microchip ATECC608 secure element." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Air-Gapped by Design No USB, Wi-Fi, or Bluetooth" source="Website" %}

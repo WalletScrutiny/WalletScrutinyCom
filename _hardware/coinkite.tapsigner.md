@@ -17,12 +17,10 @@ shop: https://store.coinkite.com/store/tapsigner
 country: CA
 price: 39.99USD
 repository: https://github.com/coinkite/coinkite-tap-proto
-issue: 
-icon: coinkite.tapsigner.png
+icon: coinkite.tapsigner.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-02-13
 signer: 
 twitter: TAPSIGNER
@@ -30,7 +28,9 @@ social:
 - https://www.facebook.com/CoinKite/
 - https://www.linkedin.com/company/coinkite/
 builds: 
-features: 
+features:
+- nfc
+- segwit
 
 ---
 
@@ -76,3 +76,7 @@ Unfortunately this card may fall victim to **blind transaction signing.** It is 
 >
 > However, the wallet you paired with the TAPSIGNER can ask the TAPSIGNER to sign any transaction. You can't verify what you're signing since the TAPSIGNER does not have a screen and, therefore, cannot display transaction information. We recommend the COLDCARD if this is a concern.
 
+{% include featureEvidence.html feature="nfc" quote="This Python library enables easy communication with TAPSIGNER, SATSCARD and SATSCHIP. Interact with SATSCARD and TAPSIGNER cards via NFC tap." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="segwit" quote="Current derivation: m/84h/0h/0h" source="GitHub README" %}

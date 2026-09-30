@@ -21,18 +21,22 @@ shop: https://get.keycard.tech/
 country: 
 price: 24.9EUR
 repository: https://github.com/status-im/status-keycard
-issue: 
-icon: keycard.png
+icon: keycard.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-03-23
 signer: 
 twitter: Keycard_
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- foss
+- hd
+- nfc
+- secEl
 
 ---
 
@@ -56,3 +60,15 @@ Its [affordability](https://keycard.tech/) also allows for physical value transf
 ## Previous 2021-08-08
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.
+
+{% include featureEvidence.html feature="hd" quote="Keycard is an implementation of a BIP-32 HD wallet running on Javacard 3.0.4+" source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="Keycard secure element has the highest level of certification provided by Common Criteria." source="Website" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Through Keycard Shell's camera or Keycard's contactless nature, our products can be airgapped." source="Website" %}
+
+{% include featureEvidence.html feature="camera" quote="Through Keycard Shell's camera or Keycard's contactless nature, our products can be airgapped." source="Website" %}
+
+{% include featureEvidence.html feature="nfc" quote="It supports both NFC and ISO7816 physical interfaces, meaning that it is compatible with any Android phone equipped with NFC, and all USB Smartcard readers." source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Fully open source Open-source code on an open framework, making it the most open way to design a secure element. View on GitHub" source="Website" %}

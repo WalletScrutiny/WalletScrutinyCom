@@ -18,18 +18,15 @@ shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=411690
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
-icon: onekeymini.png
+icon: onekeymini.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae
 date: 2025-05-16
 signer: 
 twitter: onekeyhq
 social:
-- https://discord.gg/onekey
+- https://discord.gg/onekey#deadLink
 - https://weibo.com/yourKeysyourBitcoin
 - https://www.reddit.com/r/OneKeyHQ/
 builds: 
@@ -110,7 +107,7 @@ We reported this problem in
 Sadly at the current state, This firmware is **not verifiable**.
 
 **Update 2022-12-28**: The provider sent us a
-[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
+[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599#deadLink).
 We have to check this.
 
 ## Product Description
@@ -123,9 +120,9 @@ According to the [FAQ](https://shop.onekey.so/pages/faq), even if the device was
 
 The private keys are created offline, secured and airgapped. The mnemonic phrase is provided during initial device setup.
 
-[One Key Mini User Manual](https://help.onekey.so/hc/en-us/articles/4408289773455-OneKey-Mini-hardware-wallet-activation-tutorial)
+[One Key Mini User Manual](https://help.onekey.so/hc/en-us/articles/4408289773455-OneKey-Mini-hardware-wallet-activation-tutorial#deadLink)
 
-OneKey repeatedly claims that their software and firmwares are Open Source. However, the repository linked from their website indicates that it is already [deprecated](https://github.com/OneKeyHQ/wallet-deprecated).
+OneKey repeatedly claims that their software and firmwares are Open Source. However, the repository linked from their website indicates that it is already [deprecated](https://github.com/OneKeyHQ/wallet-deprecated#deadLink).
 
 Digging deeper into their User Service Agreement, we find this:
 
@@ -134,3 +131,5 @@ Digging deeper into their User Service Agreement, we find this:
 The key word is "partial". Making the **source code only partially available** indicates that certain functions are not made public. This is noted in an [issue on OneKey's Github](https://github.com/OneKeyHQ/firmware/issues/17), but it has not received any attention.
 
 Whether it's a few lines of code that references a script downloaded from another source, users simply would not know.
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406)

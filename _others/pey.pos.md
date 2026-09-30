@@ -3,13 +3,13 @@ title: Pey PoS
 appId: pey.pos
 authors:
 - danny
-icon: pey.pos.png
+icon: pey.pos.webp
 date: 2024-01-15
 twitter: PEY
 social:
 - https://www.facebook.com/PEYapp
 provider: Ricardo Ferrer Rivero
-providerWebsite: https://pey.de
+providerWebsite: https://web.archive.org/web/20240906202400/https://pey.de/
 meta: ok
 verdict: vapor
 

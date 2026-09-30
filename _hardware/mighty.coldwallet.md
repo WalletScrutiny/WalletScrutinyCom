@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: Mighty Wallet, LLC
 providerWebsite: 
-website: https://web.archive.org/web/20180318012001/https://www.mightywallet.com/
+website: https://www.mightywallet.com
 shop: 
 country: 
 price: 200USD
 repository: 
-issue: 
-icon: mighty.coldwallet.png
+icon: mighty.coldwallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-appHashes: 
 date: 2022-05-17
 signer: 
 twitter: mightywalletc

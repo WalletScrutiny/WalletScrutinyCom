@@ -1,12 +1,13 @@
 ---
 title: Krux DIY Hardware Wallet
 appId: kruxdiyhw
+bitcoinOrgId: krux
 authors:
 - danny
 released: 2021-07-18
 discontinued: 
-updated: 2023-11-18
-version: 
+updated: 2026-08-04
+version: 26.08.0
 binaries: 
 dimensions: 
 weight: 
@@ -17,13 +18,11 @@ shop:
 country: 
 price: 50USD
 repository: https://github.com/selfcustody/krux
-issue: 
-icon: kruxdiyhw.png
+icon: kruxdiyhw.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2024-01-22
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: selfcustodykrux
 social:
@@ -31,7 +30,8 @@ social:
 - https://bitcointalk.org/index.php?topic=5350905.0
 builds: 
 features:
-- multiSignature
+- selfBuild
+- multiSig
 
 ---
 
@@ -61,11 +61,11 @@ features:
 No, the private keys are used for signing within the device and never get shared. It mainly uses its camera and optional thermal printer to produce or scan a QR code.
 It has two modes: single signature and multi-signature. 
 
-[More information](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1)
+[More information](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1&deadLink)
 
 ## Does the device display the receive address for confirmation?
 
-[Yes.](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1)
+[Yes.](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1&deadLink)
 
 ## Does the interface have a display screen and buttons which allows the user to confirm transaction details?
 
@@ -74,3 +74,5 @@ Yes.
 ## Code and Reproducibility
 
 This **diy project** requires the user to compile the code himself, so necessarily what ends up being installed on this device is **verifiable**.
+
+{% include featureEvidence.html feature="selfBuild" quote="Krux is open-source firmware that enables anyone to build their own Bitcoin signing device via off-the-shelf parts. It runs on Kendryte K210 devices such as the M5StickV and Maix Amigo, converting them into airgapped devices." source="[GitHub README](https://github.com/selfcustody/krux)" comment="Runs on commercially available M5StickV or Maix Amigo hardware. Firmware releases include binaries and signatures. Full build and flash instructions published." %}

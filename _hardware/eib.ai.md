@@ -17,12 +17,10 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
-icon: eib.ai.png
+icon: eib.ai.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-29
 signer: 
 twitter: EIB_Exchange

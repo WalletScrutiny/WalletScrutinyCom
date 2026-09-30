@@ -5,15 +5,14 @@ authors:
 - danny
 released: 2016-01-20
 discontinued: 
-updated: 2026-01-07
-version: 1.85.120
+updated: 2026-09-24
+version: 1.96.59
 binaries: https://brave.com/download/
 provider: Brave Software
 providerWebsite: 
 website: https://brave.com
 repository: https://github.com/brave/brave-browser
-issue: https://github.com/brave/brave-browser/issues/51721
-icon: brave.browser.png
+icon: brave.browser.webp
 bugbounty: https://hackerone.com/brave
 meta: ok
 verdict: sourceavailable
@@ -86,3 +85,5 @@ We did not attempt a like-for-like rebuild of the official Brave binaries, so re
 We filed a [GitHub issue](https://github.com/brave/brave-browser/issues/51721) regarding reproducibility in the brave repository. 
 
 This app is **for verification**.
+
+An issue has been opened at [https://github.com/brave/brave-browser/issues/51721](https://github.com/brave/brave-browser/issues/51721)

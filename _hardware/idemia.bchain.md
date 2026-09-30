@@ -17,12 +17,10 @@ shop: https://www.idemia.com/contact/?product=10013
 country: FR
 price: 
 repository: 
-issue: 
-icon: idemia.bchain.png
+icon: idemia.bchain.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2023-02-09
 signer: 
 twitter: idemiagroup

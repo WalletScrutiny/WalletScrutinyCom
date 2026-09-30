@@ -1,5 +1,6 @@
-// Hours between main process executions
-export const HOURS_BETWEEN_EXECUTIONS = 24;
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { isDebugEnv } from './argv.mjs';
 
 // Approved verifiers public keys (hex format)
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
@@ -9,13 +10,51 @@ export const APPROVED_VERIFIERS_PUBKEY_HEX = [
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
+// Hours between main process executions
+export const HOURS_BETWEEN_EXECUTIONS = 1;
+
+// Feature flag: when true, mainProcess also refreshes desktop/hardware wallet
+// versions and queues verifications for any new release found in the wallet
+// repos (in addition to assets registered in the Asset Registry).
+// Disabled by default until the new-release flow is finished and validated.
+export const FEATURE_REFRESH_APPS = false;
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
+// Debug: log when job runs longer than this (minutes). Set to 0 to disable. Helps investigate if processes finish without queue being notified.
+export const QUEUE_DEBUG_TIMEOUT_MINUTES = 30;
+// Interval (minutes) for periodic queue status logs
+export const QUEUE_STATUS_INTERVAL_MINUTES = 5;
 
-// Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
-export const DEBUG_APP_IDS = [
-    // Example: 'com.example.app', 'org.bitcoin.wallet', 'bitcoinknots'
-];
+// Debug filter: include = only these appIds (empty = all); exclude = never these appIds
+export const DEBUG_APP_IDS = {
+  include: [],  // If empty, process all except exclude. If has elements, process only these (minus any in exclude)
+  exclude: [],   // Always skip these appIds
+  // Force rebuild for these (appId, version) pairs even when they already have
+  // verifications or a previous build attempt in the database (for re-build testing)
+  forceRebuild: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+};
+
+export function shouldForceRebuild(appId, version) {
+  return (DEBUG_APP_IDS.forceRebuild || []).some(
+    entry => entry.appId === appId && entry.version === version
+  );
+}
+
+export function shouldProcessAppId(appId) {
+  if (DEBUG_APP_IDS.exclude.includes(appId)) return false;
+  if (DEBUG_APP_IDS.include.length === 0) return true;
+  return DEBUG_APP_IDS.include.includes(appId);
+}
 
 export const BUILD_DIR = '/opt/build-server-builds';
+
+// Resolves to external/build_server/build_server_build_dir when running in debug mode,
+// and to BUILD_DIR in production. Kept here (rather than in index.mjs) so it can be
+// imported by verifications.mjs and utils.mjs without creating a circular dependency.
+const BUILD_SERVER_ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+export const BUILD_DIR_DEBUG = path.join(BUILD_SERVER_ROOT, 'build_server_build_dir');
+export const BUILD_DIR_PREFIX = isDebugEnv() ? BUILD_DIR_DEBUG : BUILD_DIR;
+
+export const BLOSSOM_SERVER_URL = 'https://files.nostr.info';

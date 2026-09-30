@@ -20,12 +20,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: trezor.lightnite.png
+icon: trezor.lightnite.webp
 bugbounty: 
 meta: discontinued
 verdict: wip
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: lightnitegame

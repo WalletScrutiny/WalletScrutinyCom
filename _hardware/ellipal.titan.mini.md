@@ -20,12 +20,10 @@ shop: https://www.ellipal.com/products/ellipal-titan-mini-premiere-edition
 country: CN
 price: 79USD
 repository: 
-issue: 
-icon: ellipal.titan.mini.png
+icon: ellipal.titan.mini.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-11-15
 signer: 
 twitter: ellipalwallet
@@ -48,7 +46,7 @@ The device is notably airgapped. The only method for it to update is by download
 
 ## Analysis 
 
-The firmware updates are available for [download from Ellipal's website](https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip) but we could not find the source code of the firmware. This product is **not verifiable**.
+The firmware updates are available for [download from Ellipal's website](https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip#deadLink) but we could not find the source code of the firmware. This product is **not verifiable**.
 
 
 

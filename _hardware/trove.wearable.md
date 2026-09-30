@@ -17,12 +17,10 @@ shop:
 country: GB
 price: 
 repository: 
-issue: 
-icon: trove.wearable.png
+icon: trove.wearable.webp
 bugbounty: 
 meta: obsolete
 verdict: noita
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: layer_design

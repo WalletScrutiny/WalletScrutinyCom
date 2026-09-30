@@ -1,0 +1,53 @@
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-regular.woff2') format('woff2');
+}
+
+/* barlow-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-italic.woff2') format('woff2');
+}
+
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-500.woff2') format('woff2');
+}
+
+/* barlow-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-500italic.woff2') format('woff2');
+}
+
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-600.woff2') format('woff2');
+}
+
+/* barlow-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-600italic.woff2') format('woff2');
+}

@@ -16,19 +16,18 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/stakwork/sphinx-key/releases
-issue: 
+repository: https://github.com/stakwork/sphinx-key
 icon: 
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2024-10-23
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: stakwork
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 

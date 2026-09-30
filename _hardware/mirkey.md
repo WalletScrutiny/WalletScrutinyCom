@@ -21,12 +21,10 @@ shop: https://ellipticsecure.com/order.html
 country: US
 price: 49USD
 repository: 
-issue: 
-icon: mirkey.png
+icon: mirkey.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2021-12-04
 signer: 
 twitter: 

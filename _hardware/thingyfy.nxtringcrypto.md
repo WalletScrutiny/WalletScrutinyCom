@@ -12,17 +12,15 @@ dimensions:
 weight: 14
 provider: Thingyfy Inc.
 providerWebsite: 
-website: https://thingyfy.io/
+website: https://web.archive.org/web/20220629072850/http://thingyfy.io/
 shop: 
 country: HK
 price: 
 repository: 
-issue: 
-icon: thingyfy.nxtringcrypto.png
+icon: thingyfy.nxtringcrypto.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-05-10
 signer: 
 twitter: 

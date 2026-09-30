@@ -1,0 +1,20 @@
+---
+title: Quantia.io
+date: 2024-04-19
+website: https://quantia.io
+redirect_from:
+- /android/com.quantiamobile/
+android:
+  appId: com.quantiamobile
+  users: 500
+  appCountry: us
+  released: 2022-07-19
+  updated: 2026-09-24
+  version: 3.0.30
+  icon: com.quantiamobile.webp
+  meta: fewusers
+  verdict: wip
+  developerName: Quantia.io
+
+---
+

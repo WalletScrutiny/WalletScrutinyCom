@@ -17,12 +17,10 @@ shop:
 country: CA
 price: 
 repository: 
-issue: 
-icon: blockchainmind.png
+icon: blockchainmind.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-11-25
 signer: 
 twitter: blockchainmind_

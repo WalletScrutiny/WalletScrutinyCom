@@ -21,12 +21,10 @@ shop: https://securewallet.shop/products/secure-wallet
 country: SG
 price: 199USD
 repository: 
-issue: 
-icon: securewallet.png
+icon: securewallet.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2021-12-08
 signer: 
 twitter: ecomi_
@@ -42,7 +40,7 @@ features:
 
 > We're SOLD OUT - New Stock Arriving 2022
 
-This wallet has a companion app: {% include walletLink.html wallet='android/com.ecomi' verdict='true' %}
+This wallet has a companion app: {% include walletLinkArchived.html wallet='android/com.ecomi' %}
 
 ## Interface
 

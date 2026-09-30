@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://web.archive.org/web/20210518113430/https://quickx.io/index.html#products
+providerWebsite: https://quickx.io/index.html#products
 website: https://quickx.io
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: io.quickx.png
+icon: io.quickx.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-09-28
 signer: 
 twitter: quickxprotocol

@@ -1,0 +1,20 @@
+---
+title: Layerz Wallet
+date: 2026-01-14
+website: https://layerzwallet.com
+redirect_from:
+- /android/com.layerzwallet.mobile/
+android:
+  appId: com.layerzwallet.mobile
+  users: 500
+  appCountry: us
+  released: 2025-12-19
+  updated: 2026-07-21
+  version: 1.6.0
+  icon: com.layerzwallet.mobile.webp
+  meta: fewusers
+  verdict: wip
+  developerName: Layerz Tec Ltd
+
+---
+

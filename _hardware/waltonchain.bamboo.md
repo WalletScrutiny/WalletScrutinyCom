@@ -20,12 +20,10 @@ shop:
 country: CN
 price: 90 USD
 repository: https://github.com/WaltonChain/BambooWallet
-issue: 
-icon: waltonchain.bamboo.png
+icon: waltonchain.bamboo.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor
-appHashes: 
 date: 2022-12-07
 signer: 
 twitter: Waltonchain
@@ -48,7 +46,7 @@ Waltonchain is a cryptocurrency project with its own corresponding cryptocurrenc
 
 > There are only 200 Bamboo Wallets available; however, we will release other hardware wallets in the future.
 
-You can find this information on their [whitepaper](https://www.waltonchain.org/pdf/5ee1c6b5b10cf.pdf).
+You can find this information on their [whitepaper](https://www.waltonchain.org/pdf/5ee1c6b5b10cf.pdf#deadLink).
 
 > Waltonchain has its own mainnet (parent chain) and works on its extension and
 development. We have a blockchain explorer, user terminals, management tools and, on top of that, core hardware equipment of our own. We consider expansion of the existing technological base, ideas and architecture into a wider space.

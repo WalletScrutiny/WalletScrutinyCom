@@ -17,12 +17,10 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
-icon: sentinel.wallet.png
+icon: sentinel.wallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-22
 signer: 
 twitter: 

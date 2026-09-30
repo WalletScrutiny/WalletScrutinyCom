@@ -1,14 +1,13 @@
 import appStore from './scripts/helperAppStore.mjs';
 import playStore from './scripts/helperPlayStore.mjs';
 import fs from 'fs';
-import dateFormat from 'dateformat';
 import readline from 'readline';
 import yaml from 'js-yaml';
 const defunctsFile = '_data/defunct.yaml';
 process.env.TZ = 'UTC'; // fix timezone issues
 
-async function refresh (markDefunct, apps) {
-  const today = dateFormat(new Date(), 'yyyy-mm-dd');
+async function refresh (markRemoved, apps) {
+  const today = new Date().toISOString().slice(0, 10);
   const fileContents = fs.readFileSync(defunctsFile, 'utf8');
   const data = yaml.load(fileContents, { schema: yaml.FAILSAFE_SCHEMA });
   for (const key in data) {
@@ -26,32 +25,26 @@ async function refresh (markDefunct, apps) {
   fs.writeFileSync(defunctsFile, yamlStr, 'utf8');
   if (apps) {
     const ids = apps.split(',');
-    const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1]);
-    const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1]);
-    appStore.refreshAll(appStoreIds, markDefunct);
-    playStore.refreshAll(playStoreIds, markDefunct);
+    const mobileSlugs = ids.filter(it => it.startsWith('mobile/')).map(it => it.split('/')[1]);
+    const appStoreIds = ids.filter(it => it.startsWith('iphone/')).map(it => it.split('/')[1]);
+    const playStoreIds = ids.filter(it => it.startsWith('android/')).map(it => it.split('/')[1]);
+    const sharedSlugs = mobileSlugs.length > 0 ? mobileSlugs : [];
+    appStore.refreshAll([...appStoreIds, ...sharedSlugs], markRemoved);
+    playStore.refreshAll([...playStoreIds, ...sharedSlugs], markRemoved);
   } else {
     appStore.refreshAll();
     playStore.refreshAll();
   }
   const updateMillis = 500;
-  var msg = '';
-  var msgAgeMs = 0;
   const i = setInterval(() => {
-    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.removed}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.removed}, updated ${appStore.stats.updated}`;
+    const remaining = playStore.stats.remaining + appStore.stats.remaining;
+    const newMsg = `remaining: ${remaining}, 🤖: defunct ${playStore.stats.removed}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.removed}, updated ${appStore.stats.updated}`;
     readline.clearLine(process.stdout);
     readline.cursorTo(process.stdout, 0);
     process.stdout.write(newMsg);
-    readline.cursorTo(process.stdout, 0); // other console.out stuff should write over this.
-    if (msg === newMsg) {
-      msgAgeMs += updateMillis;
-    } else {
-      msg = newMsg;
-      msgAgeMs = 0;
-    }
-    if (playStore.stats.remaining + appStore.stats.remaining === 0 || msgAgeMs > 30000) {
-      console.log(`
-        Finished.`);
+    readline.cursorTo(process.stdout, 0);
+    if (remaining === 0) {
+      console.log('\nFinished.');
       clearInterval(i);
     }
   }, updateMillis);

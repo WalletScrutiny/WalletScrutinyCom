@@ -15,17 +15,15 @@ dimensions:
 weight: 20
 provider: Census Open Finance
 providerWebsite: 
-website: https://web.archive.org/web/20200605015542/https://www.census.cx/
+website: https://www.census.cx#deadLink
 shop: 
 country: 
 price: 39USD
 repository: 
-issue: 
-icon: census.tangem.smartcard.png
+icon: census.tangem.smartcard.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2022-05-03
 signer: 
 twitter: 

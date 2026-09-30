@@ -149,9 +149,9 @@ See [SEARCH_STRATEGIES.md](SEARCH_STRATEGIES.md) for detailed information about:
 ## Dependencies
 
 - `google-play-scraper` - Google Play Store API
-- `app-store-scraper` - Apple App Store API
+- `@perttu/app-store-scraper` - Apple App Store API ([plahteenlahti/app-store-scraper](https://github.com/plahteenlahti/app-store-scraper))
 - `js-yaml` - YAML processing
-- `async-mutex` - Rate limiting
+- `Semaphore` (in `../helper.mjs`) - Rate limiting
 
 ## Rate Limiting
 

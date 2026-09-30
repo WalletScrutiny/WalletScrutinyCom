@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: eliptibox.png
+icon: eliptibox.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor
-appHashes: 
 date: 2024-05-29
 signer: 
 twitter: 

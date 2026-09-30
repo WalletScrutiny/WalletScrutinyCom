@@ -17,12 +17,10 @@ shop:
 country: KR
 price: 
 repository: 
-issue: 
-icon: pentasecurity.damokms.png
+icon: pentasecurity.damokms.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: pentasecsystems

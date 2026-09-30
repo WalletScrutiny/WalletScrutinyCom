@@ -62,6 +62,12 @@ This will also minify and brotlify css, js, and other file extensions. The
 result can be found in the `_site/` folder, and you can upload the content
 of this folder to your web server.
 
+Old URLs (`redirect_from` in a page's front matter) are not stub pages but
+one generated file, `redirects.map` (`scripts/generate-redirect-map.mjs`, run by
+the build before Jekyll), that nginx loads as a `map` (see
+`external/configs/webserver_nginx/redirects-maps.conf`). Reload nginx after
+each deploy so new entries go live.
+
 
 ## Verifying the reproducibility of a wallet
 

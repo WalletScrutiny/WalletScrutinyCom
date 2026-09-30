@@ -20,13 +20,11 @@ shop:
 country: DE
 price: 
 repository: https://github.com/stepansnigirev/hw_class_f769
-issue: 
-icon: stepansnigirev.stm32f769disco.diy.png
+icon: stepansnigirev.stm32f769disco.diy.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-05-20
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: stepansnigirev
 social: 

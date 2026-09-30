@@ -15,18 +15,16 @@ dimensions:
 - 4
 weight: 12
 provider: Cerber Money Security
-providerWebsite: https://cerberwallet.ru
-website: https://cerberwallet.ru
-shop: https://cerberwallet.ru
+providerWebsite: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
+website: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
+shop: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
 country: RU
 price: 3500RUB
 repository: 
-issue: 
-icon: cerber.png
+icon: cerber.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-11-25
 signer: 
 twitter: 

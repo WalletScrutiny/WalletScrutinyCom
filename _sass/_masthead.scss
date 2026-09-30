@@ -81,7 +81,7 @@
     max-width: 550px;
     margin: auto;
     .searchbar {
-      font-size: 1rem;
+      font-size: $font-md;
       padding: 5px 10px;
       height: 35px;
       width: calc(100% - 2px);
@@ -140,7 +140,7 @@
         cursor: pointer;
       }
       &.working {
-        .fa-circle-notch {
+        .ws-icon-circle-notch {
           display: inline-block;
           animation: loader-spin 1s linear forwards infinite;
         }
@@ -216,11 +216,11 @@
             grid-column: 2/3;
           }
           > span {
-            font-size: 17px;
+            font-size: $font-sm;
             font-weight: 500;
           }
           small {
-            font-size: 13px;
+            font-size: $font-xxs;
             line-height: 13px;
             opacity: 0.6;
             margin-top: 5px;
@@ -305,7 +305,7 @@
           }
         }
         .stats {
-          font-size: 13px;
+          font-size: $font-xxs;
           display: flex;
           flex-direction: column;
           gap: 2px;
@@ -313,14 +313,59 @@
             grid-row: 2/3;
             grid-column: 2/3;
           }
+          &.stats--by-platform {
+            display: grid;
+            gap: 0;
+            .wallet-platform-row--compact {
+              padding-top: 6px;
+              margin-top: 6px;
+              border-top: 1px solid var(--shadow-3);
+              &:first-of-type {
+                padding-top: 0;
+                margin-top: 0;
+                border-top: none;
+              }
+              .wallet-platform-row__head {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: $font-xxs;
+                margin-bottom: 2px;
+                i {
+                  font-size: $font-xxs;
+                }
+              }
+              // verdict and meta stamps are joined without whitespace in
+              // searchWallets.js; without a gap their ::after texts fuse
+              // ("Source AvailableRemoved!")
+              .stats-platform-stamps {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 8px;
+              }
+            }
+          }
           .stamp {
             &::after {
               content: attr(data-text);
-              color: var(--neutral-3);
+              color: var(--text);
             }
+            // compact dropdown look: instead of the site-wide text pill, a
+            // small dot in the verdict color (--verdict-color is set inline
+            // by renderStamp in searchWallets.js; neutral when verdict has
+            // no color)
             &::before {
-              display: none;
+              content: "";
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 4px;
+              margin-right: 4px;
+              background: var(--verdict-color, var(--neutral-4));
             }
+          }
+          .stamp-alert-feature::before {
+            display: none;
           }
           .score,
           .tests-passed {
@@ -430,7 +475,7 @@
     content: "WalletScrutiny";
     display: block;
     line-height: 1;
-    font-size: 21px;
+    font-size: $font-lg;
     color: var(--accent-text);
   }
 }

@@ -36,9 +36,40 @@ Trust in verifications is built through:
 - Users can evaluate verifiers credibility and documentation quality
 - UI should display all verifications with their verification status
 
+### Artifact-Level Verdicts
+- Reproducibility verdicts apply to specific artifacts or artifact bundles, not automatically to a whole product version
+- If a product ships multiple artifacts, such as `.deb`, `.rpm`, `.exe`, `.dmg`, firmware variants, or Android split APKs, each artifact or required artifact set can have its own result
+- Product pages and social share images should summarize coverage, for example: "We verified N artifacts for this version; M were reproducible"
+- They should not imply that one artifact result is the final verdict for every file shipped under the same product version
+- For Android split APK sets, the verification should cover the full set of files described by the asset registration; if any required split fails, that split set is not reproducible
+- Artifacts not yet verified should be treated as `unverified`, not `not_reproducible`; never mark an artifact as failed because a different artifact in the same release failed
+- For Nostr verification events covering a multi-artifact set (such as Android split APKs), include one `x` tag per artifact hash; set `status` to the set-level verdict; document per-artifact results in the event `content`
+
 ### Event Types
 
-#### Asset Registration ([nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) / kind 1063)
+#### Asset Bundle Registration (WalletScrutiny / kind 9401)
+
+All **new** asset registrations use this kind (including if there is only a single file). Each file is a tag `["x", "<sha256>", "<filename>"]`. Verifications that cover the whole bundle should list every hash in their own `x` tags. Debug sites use kind **9605**.
+
+```json
+{
+  "id":      "<asset-event-id>",
+  "kind":    9401,
+  "tags":    [
+    ["i",        "<product-id>"],         // app.zeusln.zeus
+    ["version",  "<version>"],            // 1.2.3
+    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["x",        "<asset-hash-1>", "<file-name-1>"],
+    ["x",        "<asset-hash-2>", "<file-name-2>"]
+  ],
+  "content": "Asset description"
+}
+```
+
+#### Asset Registration — legacy ([nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) / kind 1063)
+
+Existing events only; do not use for new registrations.
+
 ```json
 {
   "id":      "<asset-event-id>",
@@ -49,7 +80,8 @@ Trust in verifications is built through:
     ["x",        "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["ox",       "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["m",        "<mime-type>"],          // application/vnd.android.package-archive
-    ["platform", "<asset-platform>"]      // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["file-name", "<file-name>"]          // name of the file attached to the asset
   ],
   "content": "Asset description"
 }
@@ -81,6 +113,8 @@ Trust in verifications is built through:
 }
 ```
 
+The `x` tags are a **join key** to the registered asset, not a reproducibility measurement: list the official **download** hash(es) the asset was registered under (the same values shown on the asset registration). Do not use the hash of your locally built artifact. For multi-file assets (kind 9401), include every file hash. Per-file comparison results and content digests belong in the event `content` and `output-file` tags, not here.
+
 * file-attachment - event_id of the event containing the file used to reproduce the binary (see below)
 * output-file - hash of the output logs of the reproduction process, or asciicast file, or diffoscope file, etc.
 
@@ -90,7 +124,7 @@ Note: for "based-on", we save the author-pubkey alongside the verification-event
 
 A user can endorse a verification by creating an event with the structure defined here: https://nostrhub.io/naddr1qvzqqqrcvypzp384u7n44r8rdq74988lqcmggww998jjg0rtzfd6dpufrxy9djk8qqxxzar5v4ehgct5d9hkuucwjpt8v
 
-Only the part of the specification for events with kind 31871 (Attestation)will be implemented.
+Only the part of the specification for events with kind 31871 (Attestation) will be implemented.
 
 #### Verification Draft
 
@@ -141,7 +175,7 @@ Comments added by users to verifications or verification drafts.
     ["content-type", "<mime-type>"],
     ["size", "<file-size>"]
   ],
-  "content": "<Base64 encoded file content>"
+  "content": "<Base64 encoded file content>"  // Max length is 48,235 bytes
 }
 ```
 
@@ -156,6 +190,12 @@ Max length of fields (chars):
 * Tag `status`: 16
 * Tag `output-file`: 64
 * Tag `file-attachment`: 64
+
+Calculations for the max length of File Attachments content field:
+- Max size of Nostr event is 65,536 bytes
+- The json object for the file attachment minus the content field is 900 bytes
+- The max length of the content field is 65,536 - 900 = 64,636
+- `"Base64 encodes 3 bytes into 4 ASCII characters, so the Base64 string is about 33% longer than the raw bytes (sometimes a little longer due to padding to a multiple of 4)"`. So the max length of the script that will be stored in base64 format is 64,636 / 1.34 = 48,235 bytes
 
 ## Functionality presented to users
 1. Assets Registry page: by default will show the latest assets reported by users, with search functionality that let users search

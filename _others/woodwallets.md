@@ -3,7 +3,7 @@ title: Woodwallets
 appId: woodwallets
 authors:
 - danny
-icon: woodwallets.png
+icon: woodwallets.webp
 date: 2022-05-19
 twitter: woodwallets
 provider: Woodwallets

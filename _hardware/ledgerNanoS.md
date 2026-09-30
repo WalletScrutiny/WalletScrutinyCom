@@ -1,6 +1,7 @@
 ---
 title: Ledger Nano S
 appId: ledgerNanoS
+bitcoinOrgId: ledgernanos
 authors:
 - leo
 released: 
@@ -20,12 +21,10 @@ shop: https://shop.ledger.com/products/ledger-nano-s
 country: FR
 price: 45999CLP
 repository: https://github.com/LedgerHQ/app-bitcoin
-issue: 
-icon: ledgerNanoS.png
+icon: ledgerNanoS.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: Ledger

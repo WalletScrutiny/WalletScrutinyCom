@@ -17,12 +17,10 @@ shop:
 country: 
 price: 8USD
 repository: 
-issue: 
-icon: sigsafe.png
+icon: sigsafe.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: PeterRizun

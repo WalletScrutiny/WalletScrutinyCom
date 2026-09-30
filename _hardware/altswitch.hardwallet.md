@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: altswitch.hardwallet.png
+icon: altswitch.hardwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-18
 signer: 
 twitter: altswitchglobal

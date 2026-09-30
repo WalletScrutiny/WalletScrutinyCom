@@ -15,17 +15,15 @@ dimensions:
 weight: 5
 provider: 
 providerWebsite: 
-website: https://nativault.com/
+website: https://nativault.com#deadLink
 shop: 
 country: US
 price: 50USD
 repository: 
-issue: 
-icon: nativault.png
+icon: nativault.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-21
 signer: 
 twitter: nati_vault
@@ -49,11 +47,11 @@ The provider markets this small USB device as containing "ZVC" or "Zero Vulnerab
 
 > ZVC technology is a product of intelligent futuristic design. It introduces 2 radical concepts: -Supra Operating System (SOS) software that completely obliterates the attack surface (US patent application 63/202,188, May 31, 2021), and an In-Computer Offline Storage (ICOS) hardware that isolates data in cold storage within the connected hardware wallet (US patent application 63/228,122, August 1, 2021). These design elements deliver a double blow to hackers, rendering the NV device cybersecure.
 
-According to their [website](https://nativault.com/#about), NV production is planned to begin in October 2022. 
+According to their [website](https://nativault.com/#about&deadLink), NV production is planned to begin in October 2022. 
 
 ## Whitepaper
 
-A copy of the whitepaper could be viewed [here](https://www.nativault.com/NV-WP11.0.pdf):
+A copy of the whitepaper could be viewed [here](https://www.nativault.com/NV-WP11.0.pdf#deadLink):
 
 > The Offline/Online status of the NV device
 is controlled by the device's owner

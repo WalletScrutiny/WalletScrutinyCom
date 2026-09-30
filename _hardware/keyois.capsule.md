@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: keyois.capsule.png
+icon: keyois.capsule.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2022-04-04
 signer: 
 twitter: 

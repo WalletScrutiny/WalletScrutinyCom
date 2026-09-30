@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: Dmitrij Popovich
-providerWebsite: http://www.glorymetaindustries.com/
+providerWebsite: https://web.archive.org/web/20231214162844/https://www.glorymetaindustries.com/
 website: 
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: com.glorymeta.atlas.png
+icon: com.glorymeta.atlas.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-06-22
 signer: 
 twitter: 

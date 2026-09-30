@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: 
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-21
 signer: 
 twitter: TheNeko_io

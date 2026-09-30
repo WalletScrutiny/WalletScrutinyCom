@@ -6,21 +6,7 @@ excerpt: "Not everyone is a developer. Not everyone has to be."
 author_profile: true
 ---
 
-{% include base_path %}
-
-<div class="title-wrapper">
-
-{% include homepage/wallet-filters.html %}
-
-  <!--
-    The content of this div gets replaced if JS is enabled.
-  -->
-  {% assign platform = "android" %}
-  {% assign verdicts = "sourceavailable" | split: "," %}
-  {% assign selectedVerdict = "sourceavailable" %}
-  <div class="page-section"></div>
-</div>
-
+{% include homepage/stats-strip.html %}
+{% include homepage/wallet-directory.html %}
 {% include homepage/stats.html %}
-
 {% include homepage/cta.html %}

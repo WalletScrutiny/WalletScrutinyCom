@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://nfcwalletcard.com
+providerWebsite: https://nfcwalletcard.com#deadLink
 website: 
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: nfcwalletcard.png
+icon: nfcwalletcard.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-08-01
 signer: 
 twitter: 
@@ -32,4 +30,4 @@ features:
 
 ---
 
-The [provider's website](https://nfcwalletcard.com) is inaccessible and we considered it defunct.
+The [provider's website](https://nfcwalletcard.com#deadLink) is inaccessible and we considered it defunct.

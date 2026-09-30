@@ -1,8 +1,8 @@
 import gplay from 'google-play-scraper';
-import apple from 'app-store-scraper';
+import { app as appleApp, search } from '@perttu/app-store-scraper';
 import fs from 'fs/promises';
 import yaml from 'js-yaml';
-import { Semaphore } from 'async-mutex';
+import { Semaphore } from '../helper.mjs';
 
 const discoveredWalletsLogFile = 'bitcoin-wallet-discovery.yaml';
 
@@ -366,7 +366,7 @@ class BitcoinWalletDiscovery {
         const [, release] = await appleSem.acquire();
         
         try {
-          const searchResults = await apple.search({
+          const searchResults = await search({
             term: strategy.term,
             num: 50,
             lang: 'en',
@@ -470,7 +470,6 @@ class BitcoinWalletDiscovery {
               minInstalls: details.minInstalls || 0,
               maxInstalls: details.maxInstalls || 0,
               userCount: details.minInstalls || 0,
-              ratings: details.ratings || 0,
               reviews: details.reviews || 0,
               score: details.score || app.score || 0
             });
@@ -482,7 +481,6 @@ class BitcoinWalletDiscovery {
               ...app,
               fullDescription: app.summary || app.description || 'Description not available',
               userCount: 0,
-              ratings: 0,
               reviews: 0
             });
           } finally {
@@ -492,12 +490,10 @@ class BitcoinWalletDiscovery {
         } else {
           const [, release] = await appleSem.acquire();
           try {
-            const details = await apple.app({ id: app.id });
+            const details = await appleApp({ id: app.id });
             enriched.push({
               ...app,
               fullDescription: details.description || app.description || '',
-              ratingsCount: details.ratings || 0,
-              ratings: details.ratings || 0,
               reviews: details.reviews || 0,
               score: details.score || app.score || 0
             });

@@ -15,17 +15,15 @@ dimensions:
 weight: 220
 provider: Joseph Schiarizzi
 providerWebsite: 
-website: https://www.gamewallet.gg/
+website: https://web.archive.org/web/20240813173238/https://www.gamewallet.gg/
 shop: 
 country: 
 price: 
 repository: https://github.com/UseKeyp/gamewallet
-issue: 
-icon: gamewallet.png
+icon: gamewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-21
 signer: 
 twitter: CupOJoseph

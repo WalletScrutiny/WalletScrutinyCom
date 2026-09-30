@@ -17,12 +17,10 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
-icon: safemoon.hwallet.png
+icon: safemoon.hwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-22
 signer: 
 twitter: safemoon
@@ -30,7 +28,7 @@ social:
 - https://www.linkedin.com/company/safemoon/
 - https://www.instagram.com/safemoonhq/
 - https://www.reddit.com/r/SafeMoon/
-- https://www.youtube.com/safemoonhq
+- https://www.youtube.com/safemoonhq#deadLink
 builds: 
 features: 
 

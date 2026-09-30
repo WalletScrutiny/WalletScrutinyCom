@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: bitkee.png
+icon: bitkee.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-08-01
 signer: 
 twitter: 

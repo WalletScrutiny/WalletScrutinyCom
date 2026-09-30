@@ -22,19 +22,20 @@ shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g
 country: HK
 price: 129USD
 repository: https://github.com/hyperpayorg/hardwallet
-issue: https://github.com/hyperpayorg/hardwallet/issues/4
-icon: hypermateg.png
+icon: hypermateg.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-12-12
 signer: 
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
-features: 
+features:
+- hd
+- multiSig
+- secEl
 
 ---
 
@@ -55,7 +56,7 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
  
  > Receiving payments can be done offline without connecting your HyperMate mobile application. Press “up” and “OK” together to enter the menu and select “My Address” and mainnet to find your receive address, and you can press “down” to display the QR code of your address.
  
- It also shows [a picture](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409734271759/mceclip0.jpg) of the receive address on this wallet's screen.
+ It also shows [a picture](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409734271759/mceclip0.jpg#deadLink) of the receive address on this wallet's screen.
  
  ## Code and Reproducibility
 
@@ -82,3 +83,11 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
 
  With the missing build instructions but above all missing commits leading up to
  the latest release, we find this product to be **not verifiable**.
+
+{% include featureEvidence.html feature="hd" quote="Compliant with BIP32/BIP39/BIP44/BIP45 Standards" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL 6+ graded secure element" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}
+
+An issue has been opened at [https://github.com/hyperpayorg/hardwallet/issues/4](https://github.com/hyperpayorg/hardwallet/issues/4)

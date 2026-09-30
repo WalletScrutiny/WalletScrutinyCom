@@ -1,0 +1,38 @@
+{% assign app_country = include.appCountry | default: page.appCountry | default: 'us' %}
+<div class="distribution-store-links">
+  {% if include.androidAppId %}
+    {% unless page.android.playStore == false %}
+      <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+        {% include icon.html name="google-play" %} Google Play
+      </a>
+    {% endunless %}
+    {% if include.alternativeStores %}
+      {% for store in include.alternativeStores %}
+        {% assign alt = store | strip | downcase %}
+        {% case alt %}
+          {% when 'fdroid' %}
+            <a title="F-Droid" href="https://f-droid.org/packages/{{ include.androidAppId }}/" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fac fa-f-droid" aria-hidden="true"></i> F-Droid</a>
+          {% when 'zapstore' %}
+            <a title="Zapstore" href="https://zapstore.dev/apps/{{ include.androidAppId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="zapstore" %} Zapstore</a>
+        {% endcase %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+  {% if include.iphoneAppId and include.idd %}
+    <a title="App Store" href="https://apps.apple.com/{{ app_country }}/app/id{{ include.idd }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+      <i class="i-app-store" aria-hidden="true"></i> App Store
+    </a>
+  {% endif %}
+  {% include /review/websiteDistributionLink.html %}
+  {% if include.androidAppId %}
+    {% comment %}The WalletScrutiny Android app only knows the wallets it was built with: sourceavailable ones with meta ok, deprecated or unset (scripts/updateAndroidWallets.mjs in the app repo).{% endcomment %}
+    {% assign ws_app_meta = page.android.meta | default: 'ok' %}
+    {% if page.android.verdict == 'sourceavailable' %}
+      {% if ws_app_meta == 'ok' or ws_app_meta == 'deprecated' %}
+        <a title="Check the build installed on your phone with the WalletScrutiny Android app" href="{{ site.baseurl }}/androidApp/" class="link-web subtle distribution-store-link">
+          {% include icon.html name="android" %} Check your version
+        </a>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+</div>

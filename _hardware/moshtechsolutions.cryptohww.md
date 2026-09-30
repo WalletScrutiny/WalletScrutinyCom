@@ -17,13 +17,11 @@ shop: https://www.ebay.com/itm/373644011632
 country: UK
 price: 65 GBP
 repository: 
-issue: 
-icon: moshtechsolutions.cryptohww.png
+icon: moshtechsolutions.cryptohww.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-11-10
+verdict: nosource
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

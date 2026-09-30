@@ -21,7 +21,7 @@ At its most basic, adding a platform starts with these steps:
 
     `$ touch bitcoincore.md`
 5. Populate the file with the frontmatter. For guidance, you may use some of the fields in the Android app less the irrelevant fields that you won't find in a desktop app such as Google Play reviews, etc. You may use the fields above, in the `Reviewing Android Apps` section.
-6. Put a 400x400 image in /images/wIcons/desktop
+6. Put a square WebP image of at most 512 px in /images/wIcons/desktop
 6. Modify `./updateImages` to also handle `desktop` products
 7. Run `./updateImages` script to automatically put a 250x250 copy of the image in 'small' and a 100x100 copy in 'tiny'.
 8. In **\_config.yml** duplicate then modify the following entries to match the category you are making:

@@ -3,7 +3,7 @@ title: BitCard®️
 appId: bitcards
 authors:
 - danny
-icon: bitcards.png
+icon: bitcards.webp
 date: 2022-05-17
 website: https://bitcards.com/
 twitter: Bitcard_US
@@ -25,7 +25,7 @@ Oddly, {{ page.title }} does not provide physical gift cards, but sends out e-gi
 
 ## Product Description 
 
-From the [FAQ](https://bitcards.com/faqs/):
+From the [FAQ](https://web.archive.org/web/20240914051934/https://bitcards.com/faqs/):
 
 > Are BitCard® safe?
 > When you buy a BitCard®, all cryptocurrencies are held in secure cold storage. All funds are FDIC insured 100% in Fiat currencies up to 130 million dollars. BitCard® has a state-of-the-art platform where you can track all your Bitcoin and business in real-time with total confidence.

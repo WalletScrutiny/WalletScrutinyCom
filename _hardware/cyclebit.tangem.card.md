@@ -20,12 +20,10 @@ shop: https://www.cyclebit.io/card
 country: SE
 price: 
 repository: 
-issue: 
-icon: cyclebit.tangem.card.png
+icon: cyclebit.tangem.card.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-03
 signer: 
 twitter: Cycle_bit

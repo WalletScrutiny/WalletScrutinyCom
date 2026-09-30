@@ -1,9 +1,10 @@
 ---
 title: Vidulum App Multi-Asset Crypto Storage
 appId: app.vidulum.web
+subtype: web
 authors:
 - danny
-icon: app.vidulum.web.png
+icon: app.vidulum.web.webp
 date: 2024-05-10
 website: https://wallet.vidulum.app
 twitter: VidulumApp

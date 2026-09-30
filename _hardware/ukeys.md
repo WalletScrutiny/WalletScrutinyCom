@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: ukeys.png
+icon: ukeys.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-03-08
 signer: 
 twitter: UnikeysTeam

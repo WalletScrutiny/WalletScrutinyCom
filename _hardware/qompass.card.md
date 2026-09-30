@@ -17,12 +17,10 @@ shop:
 country: HK
 price: 
 repository: 
-issue: 
-icon: qompass.card.png
+icon: qompass.card.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-04
 signer: 
 twitter: QompassMarkets

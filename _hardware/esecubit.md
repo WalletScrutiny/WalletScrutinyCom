@@ -11,18 +11,16 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://www.esecubit.com
+providerWebsite: https://web.archive.org/web/20200516203434/https://www.esecubit.com/
 website: 
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: esecubit.png
+icon: esecubit.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-07-16
 signer: 
 twitter: 
@@ -33,5 +31,5 @@ features:
 
 ---
 
-This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.esecubit.com).
+This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://web.archive.org/web/20200516203434/https://www.esecubit.com/).
 

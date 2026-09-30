@@ -17,12 +17,10 @@ shop:
 country: IE
 price: 
 repository: 
-issue: 
-icon: signatur.vault.png
+icon: signatur.vault.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: SignaturCo

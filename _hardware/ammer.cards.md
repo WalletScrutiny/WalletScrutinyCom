@@ -17,12 +17,10 @@ shop:
 country: CH
 price: 50 CHF
 repository: 
-issue: 
-icon: ammer.cards.png
+icon: ammer.cards.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-11-10
 signer: 
 twitter: AmmerCards
@@ -30,7 +28,9 @@ social:
 - https://www.facebook.com/ammercards
 - https://www.linkedin.com/showcase/ammer-cards/
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -48,3 +48,8 @@ features:
 ## Analysis 
 
 Like most NFC-enabled card hardware wallets it **does not have its own display or interface** to verify or confirm transactions.
+
+{% include featureEvidence.html feature="nfc" quote="Ammer Card is a multi-asset hardware wallet with an accessible shape of a bank card with NFC capability." source="Website" %}
+
+
+{% include featureEvidence.html feature="secEl" quote="Auto-generated keys stored exclusively in your card" source="Website" %}

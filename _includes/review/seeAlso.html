@@ -1,31 +1,42 @@
-{% assign html = '' %}
-{% if include.wsId %}
-  {% for folders in site.data.platformMeta %}
-    {% assign folder = folders[0] %}
-    {% if folder != include.platform %}
-      {% assign wallet = site[folder] | find: "wsId", include.wsId %}
-      {% if wallet %}
-        {% capture htmlInner %}
-          <div class="also-for">
-            <a href="/{{folder}}/{{wallet.appId}}">
-              <img class="app_logo {{folder}}"
-              src="/images/wIcons/{{folder}}/tiny/{{wallet.icon}}"
-              alt="Wallet Logo">
-              {% include iconClass.html platform=folder store='true' %}
-              {% include folderToName.html folder=folder store='true' %}
-              <span>{{ wallet.altTitle | default: wallet.title | escape }}</span>
-              <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
-              </a>
-          </div>
-        {% endcapture %}
-        {% assign html = html | append: htmlInner %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% if html.size > 0 %}
+{%- comment -%}
+SeeAlso: Show links to same wallet on other platforms.
+Uses precomputed.json for O(1) lookup instead of O(n) collection search.
+On mobile pages, omit android/iphone entries merged into the current page.
+{%- endcomment -%}
+{%- assign see_also_app_id = include.appId | default: page.appId -%}
+{%- assign key = include.platform | append: "/" | append: see_also_app_id -%}
+{%- assign seeAlsoData = site.data.precomputed.seeAlso[key] -%}
+{%- if seeAlsoData -%}
+{%- capture see_also_items -%}
+{%- for item in seeAlsoData -%}
+  {%- assign skip_merged_sibling = false -%}
+  {%- if page.collection == 'mobile' -%}
+    {%- if item.platform == 'android' and page.android.appId and item.appId == page.android.appId -%}
+      {%- assign skip_merged_sibling = true -%}
+    {%- endif -%}
+    {%- if item.platform == 'iphone' and page.iphone.appId and item.appId == page.iphone.appId -%}
+      {%- assign skip_merged_sibling = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- unless skip_merged_sibling -%}
+  <div class="also-for">
+    <a href="/{{ item.platform }}/{{ item.appId }}">
+      <img class="app_logo {{ item.platform }}"
+           src="/images/wIcons/{{ item.platform }}/tiny/{{ item.icon }}"
+           alt="Wallet Logo">
+      {% include iconClass.html platform=item.platform store='true' %}
+      {% include folderToName.html folder=item.platform store='true' %}
+      <span>{{ item.title | escape }}</span>
+      <span>{% if iconName %}{% include icon.html name=iconName %}{% else %}<i class="{{iconClass}}"></i>{% endif %}&nbsp;{{name}}</span>
+    </a>
+  </div>
+  {%- endunless -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign see_also_items = see_also_items | strip -%}
+{%- if see_also_items != '' -%}
 <div class="see-also-container">
-{{html}}
+{{ see_also_items }}
 </div>
-{% endif %}
+{%- endif -%}
+{%- endif -%}

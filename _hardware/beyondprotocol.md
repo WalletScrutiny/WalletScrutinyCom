@@ -17,12 +17,10 @@ shop: https://beyond.link/preorder.html
 country: US
 price: 
 repository: 
-issue: 
-icon: beyondprotocol.png
+icon: beyondprotocol.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-18
 signer: 
 twitter: beyondprotocol1
@@ -31,7 +29,7 @@ social:
 - https://www.facebook.com/beyondprotocol1
 - https://beyondprotocol.medium.com/
 - https://www.reddit.com/r/BEYONDprotocol
-- https://discord.me/beyondprotocolofficial
+- https://discord.me/beyondprotocolofficial#deadLink
 - https://www.instagram.com/beyondprotocol/?hl=en
 builds: 
 features: 

@@ -5,15 +5,14 @@ authors:
 - danny
 released: 2020-04-09
 discontinued: 
-updated: 2024-01-02
-version: 0.14.6
+updated: 2026-08-28
+version: 0.19.0
 binaries: 
 provider: Thunderhub
 providerWebsite: 
 website: https://www.thunderhub.io
 repository: https://github.com/apotdevin/thunderhub
-issue: 
-icon: thunderhub.lnd.png
+icon: thunderhub.lnd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
@@ -21,7 +20,15 @@ date: 2025-09-08
 twitter: thunderhubio
 social: 
 builds: 
-features: 
+features:
+- foss
+- ln
+- ownLN
 
 ---
 
+{% include featureEvidence.html feature="ln" quote="Send and Receive Send and receive both Lightning and Bitcoin payments in a simple and easy to use interface with both basic and advanced features." source="Website" %}
+
+{% include featureEvidence.html feature="ownLN" quote="Compatible with the latest LND node versions." source="Website" %}
+
+{% include featureEvidence.html feature="foss" quote="Open Source Don't trust anyone. Verify the code yourself." source="Website" %}

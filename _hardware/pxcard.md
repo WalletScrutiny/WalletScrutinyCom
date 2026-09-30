@@ -17,26 +17,26 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: pxcard.png
+icon: pxcard.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2024-10-22
 signer: 
 twitter: pxcard_official
 social:
 - https://www.youtube.com/channel/UCYsNryvy53XR1UYVKmyHR0g
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tlhId-1wjIQ?si=tOTnn5MWJzvMMX6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 It is paired with the {% include walletLink.html wallet='android/com.pundix.functionx' verdict='true' %}.
-It can also be used with {% include walletLink.html wallet='hardware/pundix.pos' verdict='true' %}
+It can also be used with {% include walletLinkArchived.html wallet='hardware/pundix.pos' %}
 
 ## Update 2024-10-22
 
@@ -73,6 +73,8 @@ The lack of a screen or control mechanism on the actual device means that it eng
 
 As of this review, it does not have an official store page yet.
 
-{{ page.title }} does not have a screen or buttons for confirming transactions and it appears to be able to connect via NFC. 
+{{ page.title }} does not have a screen or buttons for confirming transactions and it appears to be able to connect via NFC.
 
+{% include featureEvidence.html feature="nfc" quote="p(x)Card securely stores both your digital assets and your private key. When authorizing the withdrawal, you use p(x)Card to sign transactions via NFC technology." source="Existing WalletScrutiny review" %}
 
+{% include featureEvidence.html feature="secEl" quote="A hardwallet card built upon Infineon technologies SECORA™ Blockchain security solution and Function X network infrastructure" source="Existing WalletScrutiny review" %}

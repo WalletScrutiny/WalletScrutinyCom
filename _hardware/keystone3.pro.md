@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2026-01-08
-version: 2.3.4
+updated: 2026-09-17
+version: 3.1.0
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -21,14 +21,10 @@ shop: https://keyst.one/shop/products/keystone-3pro
 country: HK
 price: 129USD
 repository: https://github.com/KeystoneHQ/keystone3-firmware
-issue: 
-icon: keystone3.pro.png
+icon: keystone3.pro.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7
-- c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d
 date: 2025-09-18
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 twitter: KeystoneForBTC
@@ -37,8 +33,23 @@ social:
 - https://discord.com/invite/gpfaESrxu2
 - https://t.me/KeystoneWallet
 - https://www.reddit.com/r/KeystoneWallet
-builds: 
+builds:
+- arch: arm
+  types:
+    cypherpunk:
+    - keystone3.bin
+    multi:
+    - keystone3.bin
+    btc-only:
+    - keystone3.bin
 features:
+- airGapped
+- camera
+- fingerprint
+- foss
+- hd
+- multiSig
+- secEl
 - taproot
 
 ---
@@ -90,5 +101,19 @@ The hardware device then generates a QR code for the authorization.
 
 This hardware wallet is [**for verification.**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/524)
 
-We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md). 
+We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md).
 
+{% include featureEvidence.html feature="hd" quote="Multi Seed Phrase functionality, which enhances security and recovery options" source="GitHub README" comment="Device supports multiple seed phrases implying BIP39 mnemonic backup and HD derivation" %}
+
+{% include featureEvidence.html feature="secEl" quote="Triple-layer security with Three Secure Element Chips, ensuring top-notch protection of your digital assets." source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint verification" source="Existing WalletScrutiny review" comment="Listed under Other Features in the review body as a device feature" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Future multisig support" source="Existing WalletScrutiny review" comment="Listed under Other Features; noted as future/planned" %}
+
+{% include featureEvidence.html feature="camera" quote="It communicates to the bound app using QR codes." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="airGapped" quote="safeguards against blind signing to protect against unauthorized transactions" source="GitHub README" comment="Device communicates exclusively via QR codes with no USB/Bluetooth data connection, consistent with air-gapped operation as described in the review" %}
+
+
+{% include featureEvidence.html feature="foss" quote="The Keystone3 Firmware is an advanced, highly secure software specifically crafted for the Keystone3 product" source="GitHub README" comment="Source code is publicly available on GitHub; LICENSE.md returned 404 so FOSS status cannot be confirmed — omitting per rules" %}

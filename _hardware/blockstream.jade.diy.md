@@ -17,18 +17,18 @@ shop:
 country: 
 price: 
 repository: https://github.com/epiccurious/jade-diy
-issue: 
-icon: blockstream.jade.diy.png
+icon: blockstream.jade.diy.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2023-12-06
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: epic_curious
 social: 
 builds: 
-features: 
+features:
+- selfBuild
+- foss
 
 ---
 
@@ -49,3 +49,7 @@ This can be adapted for:
  - M5Stack FIRE v2.6
 
 This is a **do-it-yourself project**.
+
+{% include featureEvidence.html feature="foss" quote="The Blockstream Jade is a bitcoin-only hardware wallet that runs 100% on Open Source code." source="GitHub README" %}
+
+{% include featureEvidence.html feature="selfBuild" quote="This is a do-it-yourself project. The hardware consists of a M5Stack, which you can buy off-the-shelf, and a 3D printed case." source="[GitHub epiccurious/jade-diy](https://github.com/epiccurious/jade-diy)" comment="Uses M5Stack Core (commercially available). No binary releases — source available only. Self-build instructions published." %}

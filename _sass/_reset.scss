@@ -8,10 +8,11 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  overflow-x: clip;
+  font-size: 16px; // type-scale-exempt: root size, tokens are rem of this
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 18px; // type-scale-exempt: root size, tokens are rem of this
   }
 
   -webkit-text-size-adjust: 100%;

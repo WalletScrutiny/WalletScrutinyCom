@@ -17,19 +17,18 @@ shop: https://keybox.magicw.net/buyen.html
 country: CN
 price: 999 CNY
 repository: https://github.com/KeyboxWallet/keyboxd
-issue: 
-icon: magicw.keybox.png
+icon: magicw.keybox.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2023-03-03
 signer: 
 twitter: 
 social:
 - https://t.me/keyboxdev
 builds: 
-features: 
+features:
+- hd
 
 ---
 
@@ -94,4 +93,6 @@ Translated from Chinese:
 
 This is a very tall and sweeping statement. The user would simply have to trust this statement as if it were set in stone. But there are many things that are concerning about this. For one, the daemon: [keyboxd,](https://github.com/KeyboxWallet/keyboxd) that bridges the software and hardware aspects of the {{ page.title }} was last updated in 2018. 
 
-Secondly, the device is attached to another device - either a PC or an Android phone. It is not specified how the private keys are protected even from a hacked PC or phone. Without this detail, we assume that the private keys **are shared with another device**.    
+Secondly, the device is attached to another device - either a PC or an Android phone. It is not specified how the private keys are protected even from a hacked PC or phone. Without this detail, we assume that the private keys **are shared with another device**.
+
+{% include featureEvidence.html feature="hd" quote="Compatible with: BIP39, BIP32, BIP44, BIP49, SLIP48" source="web page" %}

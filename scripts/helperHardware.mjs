@@ -11,10 +11,10 @@ const stats = {
 
 const category = 'hardware';
 const folder = `_${category}/`;
-const headers = ('title appId authors released discontinued updated version ' +
+const headers = ('title appId bitcoinOrgId authors released discontinued updated version ' +
                 'binaries dimensions weight provider providerWebsite website ' +
-                'shop country price repository issue icon bugbounty meta ' +
-                'verdict appHashes date signer twitter social builds features').split(' ');
+                'shop country price repository icon bugbounty meta ' +
+                'verdict date signer twitter social builds features').split(' ');
 
 async function refreshAll () {
   fs.readdir(folder, async (err, files) => {

@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: BitCube
 providerWebsite: 
-website: https://www.bitcubewallet.com/
+website: https://web.archive.org/web/20211127191914/http://bitcubewallet.com/
 shop: https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
 country: CN
 price: 
 repository: 
-issue: 
-icon: bitcube.png
+icon: bitcube.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: BitCubeWallet

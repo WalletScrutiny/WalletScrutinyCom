@@ -3,9 +3,6 @@ permalink: /archived/
 layout: archive
 title: "Wallet Archived"
 ---
-
-{% include base_path %}
-
 <div id="archived-wallet-container"></div>
 
 <script>

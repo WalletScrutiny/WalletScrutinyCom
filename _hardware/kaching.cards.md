@@ -17,12 +17,10 @@ shop:
 country: 'NO'
 price: 10USD
 repository: 
-issue: 
-icon: kaching.cards.png
+icon: kaching.cards.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: KaChingCards

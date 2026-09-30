@@ -17,12 +17,10 @@ shop:
 country: 
 price: 169 USD
 repository: 
-issue: 
-icon: ukiss.hugware.h2.png
+icon: ukiss.hugware.h2.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-04-01
 signer: 
 twitter: UKISSTech
@@ -43,7 +41,7 @@ This is the second generation version of the:
 
 - {% include walletLink.html wallet='hardware/ukiss.hugware.h1' verdict='true' %}
 
-## Product Description from the [{{ page.title }} homepage](https://www.ukiss.io/h2bundle/)
+## Product Description from the [{{ page.title }} homepage](https://www.ukiss.io/h2bundle#deadLink)
 
 > Upgraded with the H2 chip, Hugware H2 supports networks that apply the ED25519 cryptographic algorithm (i.e., Solana and Cardano). Manage ED25519 blockchain cryptocurrencies on UKISS Hub V1.2 (launching Feb), and, soon, NFTs.
 > 

@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://hodler.tech/
+website: https://web.archive.org/web/20250822122845/https://hodler.tech/
 shop: 
 country: 
 price: 
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-issue: 
-icon: hodler.tech.png
+icon: hodler.tech.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: HODLER_TECH

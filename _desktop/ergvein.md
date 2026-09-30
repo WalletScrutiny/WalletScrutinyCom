@@ -12,8 +12,7 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20220423113429/https://cypra.io/
 repository: https://github.com/hexresearch/ergvein
-issue: 
-icon: ergvein.png
+icon: ergvein.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
@@ -22,7 +21,10 @@ twitter: hxr_team
 social:
 - https://www.facebook.com/hxr.team/
 builds: 
-features: 
+features:
+- bip158spv
 
 ---
+
+{% include featureEvidence.html feature="bip158spv" source="[Website](https://web.archive.org/web/20220423113429/https://cypra.io/)" quote="Filters follow BIP-158 ." %}
 

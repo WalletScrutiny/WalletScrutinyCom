@@ -1,30 +1,76 @@
+{% assign few_wallets_per_platform = 12 %}
 {
-  "verdicts": {{ site.data.verdicts | jsonify }},
-  "iphone": {
-    "category": "App Store",
-    "apps": [ 
-      {% assign iphone = site.iphone | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
-      {% for post in iphone %}
-      {% include wallet_score.html verdict = post.verdict platform='iphone' %}
-      {
-        "wsId": "{{ post.wsId }}",
-        "appId": "{{ post.appId }}",
-        "title": "{{ post.title | escape }}",      
-        "icon": "{{ post.icon }}",
-        "meta": "{{ post.meta }}",
-        "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
+  "verdicts": {
+    {%- for v in site.data.verdicts -%}
+    "{{ v[0] }}": {"short": {{ v[1].short | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  },
+  "featureAlerts": {
+    {% for f in site.data.features %}{% if f[1].alert %}"{{ f[0] }}": {{ f[1].short | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+  },
+  "featureAlertMessages": {
+    {% for f in site.data.features %}{% if f[1].alert %}"{{ f[0] }}": {{ f[1].alert | strip_html | strip_newlines | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+  },
+  "mobile": {
+    "category": "Mobile",
+    "apps": [
+      {%- assign mobile_count = 0 -%}
+      {%- for post in site.mobile -%}
+        {%- assign eff_meta = post.meta | default: 'ok' -%}
+        {%- assign eff_verdict = post.verdict | default: '' -%}
+        {%- if post.android.appId or post.iphone.appId or post.iphone.idd -%}
+          {%- assign am = post.android.meta | default: 'ok' -%}
+          {%- assign im = post.iphone.meta | default: 'ok' -%}
+          {%- if post.android.appId and post.iphone.appId -%}
+            {%- if am == 'obsolete' and im == 'obsolete' -%}
+              {%- assign eff_meta = 'obsolete' -%}
+            {%- else -%}
+              {%- assign eff_meta = am -%}
+            {%- endif -%}
+          {%- elsif post.android.appId -%}
+            {%- assign eff_meta = am -%}
+          {%- else -%}
+            {%- assign eff_meta = im -%}
+          {%- endif -%}
+          {%- if post.android.appId -%}
+            {%- assign eff_verdict = post.android.verdict | default: eff_verdict -%}
+          {%- elsif post.iphone.appId or post.iphone.idd -%}
+            {%- assign eff_verdict = post.iphone.verdict | default: eff_verdict -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- if eff_meta == 'ok' and eff_verdict == 'sourceavailable' and mobile_count < few_wallets_per_platform -%}
+          {%- if mobile_count > 0 -%},{%- endif -%}
+          {%- assign mobile_count = mobile_count | plus: 1 -%}
+          {%- include wallet_score.html verdict=eff_verdict platform='mobile' -%}
+          {%- assign mobile_slug = post.path | replace: '_mobile/', '' | replace: '.md', '' -%}
+          {%- assign mobile_icon_folder = 'android' -%}
+          {%- if post.android.icon -%}{%- assign mobile_icon_folder = 'android' -%}{%- elsif post.iphone.icon -%}{%- assign mobile_icon_folder = 'iphone' -%}{%- endif -%}
+          {
+            "wsId": "{{ post.wsId }}",
+            "appId": "{{ mobile_slug }}",
+            "storeAppId": "{{ post.android.appId | default: post.iphone.appId }}",
+            "storePlatform": "{% if post.android.appId %}android{% else %}iphone{% endif %}",
+            "iconFolder": "{{ mobile_icon_folder }}",
+            "title": "{{ post.title | escape }}",
+            "altTitle": "{{ post.android.altTitle | default: post.iphone.altTitle }}",
+            "icon": "{{ post.android.icon | default: post.iphone.icon }}",
+            "meta": "{{ eff_meta }}",
+            "verdict": "{{ eff_verdict }}",
+            "url": "{{ post.url }}",
+            "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+            "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
+            "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
+          }
+        {%- endif -%}
+      {%- endfor -%}
     ]
   },
   "hardware": {
     "category": "Hardware Wallet",
     "apps": [ 
-      {% assign hardware = site.hardware | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign hardware = site.hardware | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' | slice: 0, few_wallets_per_platform %}
       {% for post in hardware %}
-      {% include wallet_score.html verdict = post.verdict platform='hardware' %}
+      {% include wallet_score.html verdict=post.verdict platform='hardware' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -32,7 +78,9 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -40,9 +88,9 @@
   "bearer": {
     "category": "Bearer Token",
     "apps": [ 
-      {% assign bearer = site.bearer | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign bearer = site.bearer | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' | slice: 0, few_wallets_per_platform %}
       {% for post in bearer %}
-      {% include wallet_score.html verdict = post.verdict platform='bearer' %}
+      {% include wallet_score.html verdict=post.verdict platform='bearer' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -50,27 +98,9 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
-  },
-  "android": {
-    "category": "Play Store",
-    "apps": [ 
-      {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
-      {% for post in android %}
-      {% include wallet_score.html verdict = post.verdict platform='android' %}
-      {
-        "wsId": "{{ post.wsId }}",
-        "appId": "{{ post.appId }}",
-        "title": "{{ post.title | escape }}",
-        "altTitle": "{{ post.altTitle }}",
-        "icon": "{{ post.icon }}",
-        "meta": "{{ post.meta }}",
-        "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -78,9 +108,9 @@
   "desktop": {
     "category": "Desktop",
     "apps": [ 
-      {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' | slice: 0, few_wallets_per_platform %}
       {% for post in desktop %}
-      {% include wallet_score.html verdict = post.verdict platform='desktop' %}
+      {% include wallet_score.html verdict=post.verdict platform='desktop' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
@@ -88,7 +118,9 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -96,7 +128,7 @@
   "others": {
     "category": "Others",
     "apps": [ 
-      {% assign others = site.others | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
+      {% assign others = site.others | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' | slice: 0, few_wallets_per_platform %}
       {% for post in others %}
       {
         "appId": "{{ post.appId }}",

@@ -12,13 +12,12 @@ dimensions:
 weight: 
 provider: Keyream
 providerWebsite: 
-website: https://keyream.com
+website: https://keyream.com#deadLink
 shop: https://www.facebook.com/commerce/products/vaultsquare---carbon-black/1875980742506273
 country: US
 price: 19 USD
 repository: 
-issue: 
-icon: keyream.vaultsquare.png
+icon: keyream.vaultsquare.webp
 bugbounty: 
 meta: defunct
 verdict: wip

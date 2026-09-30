@@ -1,6 +1,13 @@
+{%- comment -%}
+Wallet score: Uses precomputed.json for O(1) lookup.
+Outputs: count, criteria (array), failText
+Accepts: platform, verdict
+Key is "platform-verdict" since score depends only on these two.
+{%- endcomment -%}
 {%- assign platform = include.platform -%}
 {%- assign verdict = include.verdict -%}
 
+{%- comment -%}Build criteria array (needed for display){%- endcomment -%}
 {%- assign criteria = "" | split: "" -%}
 {%- for c in site.data.platformMeta[platform].verdicts -%}
   {%- if site.data.verdicts[c].pass -%}
@@ -8,23 +15,24 @@
     {%- assign criteria = criteria | concat: c_array -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign count = 0 -%}
+
+{%- comment -%}Get precomputed score (keyed by platform-verdict){%- endcomment -%}
+{%- assign key = platform | append: "-" | append: verdict -%}
+{%- assign scoreData = site.data.precomputed.walletScores[key] -%}
+{%- if scoreData -%}
+  {%- assign count = scoreData.count -%}
+{%- else -%}
+  {%- assign count = 0 -%}
+{%- endif -%}
+
+{%- comment -%}Generate failText{%- endcomment -%}
 {%- if verdict == 'wip' -%}
   {%- capture failText -%}<br>We did not yet perform any tests.{%- endcapture -%}
-{%- else -%}
+{%- elsif verdict != 'sourceavailable' and verdict != 'diy' -%}
   {%- for criterion in criteria -%}
     {%- if verdict == criterion -%}
-      {%- case verdict -%}
-        {%- when "sourceavailable", "diy" -%}
-        {%- assign count = count | plus: 1 -%}
-      {%- else -%}
-        {%- capture failText -%}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{%- endcapture -%}
-        {%- break -%}
-      {%- endcase -%}
-    {%- endif -%}
-    {%- if count == criteria.size -%}
+      {%- capture failText -%}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{%- endcapture -%}
       {%- break -%}
     {%- endif -%}
-    {%- assign count = count | plus: 1 -%}
   {%- endfor -%}
 {%- endif -%}

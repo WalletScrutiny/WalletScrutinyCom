@@ -17,12 +17,11 @@ weight: 5
 provider: Satochip SRL
 providerWebsite: https://satochip.io
 website: https://satodime.io/
-shop: https://satochip.io/product/satodime-original/
+shop: https://satochip.io/product/satodime-original#deadLink
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool
-issue: 
-icon: satodime.png
+icon: satodime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
@@ -38,7 +37,7 @@ features:
 
 ---
 
-Link to companion app: {% include walletLink.html wallet='android/org.satochip.satodimeapp' verdict='true' %}
+Link to companion app: {% include walletLinkArchived.html wallet='android/org.satochip.satodimeapp' %}
 
 
 ## Product Description

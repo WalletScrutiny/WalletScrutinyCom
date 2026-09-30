@@ -1,0 +1,95 @@
+# Opinions hidden by the <nostr-opinion> widget (nostr-opinion-plugin).
+#
+# Both lists are passed into the widget's expertOpinionsConfig by
+# _includes/review/nostrOpinion.html. Blocked events are dropped before they reach the
+# widget's event list, so they appear neither under "All opinions" nor in the
+# "Community Opinions (n/m)" counts or the sentiment tallies.
+#
+# Adding an entry here needs no plugin release - only a site rebuild.
+#
+# Triage that produced this list: 149 opinions fetched from the plugin's default relays
+# with {kinds:[30023], "#t":["WalletScrutiny","nostrOpinion"]}, 2024-01-22 to 2026-09-06.
+
+# Individual spam opinions, by nostr event id.
+eventIds:
+  # recovery scam - iphone/com.blofin.app
+  - 1cdb44b147fd0dea1a6c1c8898747e85ca4514fccab7a7c55054bb9b918bdc17
+  # recovery scam - android/pro.huobi
+  - 7ec5e5d01911a697e37c3213906d6d3d0a8d79d1912063c8a1ac6fb9759ac803
+  # recovery scam - iphone/kanga.mobile
+  - e25746dcde3b33d8eb188dcba63763ac4472eca9e8925711a59d7ffb0254a759
+  # recovery scam - android/com.trendo.android
+  - 346e1aa1a59c0ad3bd05d2466428a289fb74e6800e43bdaf70c2eec27d1fbbba
+  # recovery scam - iphone/com.coinsuper.app
+  - 022449e741c0bfee95646bd750f00763ab7569b032c4e4df9c70bfb5b8dc24d4
+  # recovery scam - android/com.capecrypto
+  - b002c1af8c82cb9be53b78f1122d0e7709859e6d4fb19e36bc9371f3529d97ff
+  # recovery scam - android/com.brand101investing
+  - 0517fe96191da82848692d6c940aefdf7a110dd8812eb3e43b9eb06a1b435fbc
+  # recovery scam - android/com.mycelium.wallet
+  - 31677ae130013213b7dbe7e5b495adb1d88557d188166643719275cca0a1491d
+  # recovery scam - iphone/com.obrinvestment.obrinvest
+  - b3f1bf7055ce73a450fc81e4b389f11d981fabc2107bd5930c2f68bee32ca4d7
+  # recovery scam - mobile/com.wallet.korvio
+  - a1f1da15a8fffc6f4b96fc95f815cc864202d7bfd6cf678b358d60e1a59c6d20
+  # recovery scam - mobile/com.currency.exchange.prod2
+  - d6e48b4443d0cd05b88917580a8fc15a6830eab58938fe84142d1b8d651862b7
+  # recovery scam - mobile/com.bitcan.app
+  - 7b012621a37bd129ed21e739169fabc49478ed9c540797b8254eb64db7beccaf
+  # markdown probe, no content - android/tech.hodler.core
+  - bda5a77651b68dbb89953a150de1060952364476f426a23f919acc9557d32eed
+  # markdown probe, no content - hardware/bitcoincomfy.bitcoinMRE
+  - 28be9756ae33e902f7989cffae36935b65817b9ef0882305dc359dce6bba359e
+  # placeholder post - android/exodusmovement.exodus
+  - 2c2bfdcc4b43602c03105b844a56d7deab541b6e4cfae51dd66e249ceb49464e
+  # placeholder post - android/com.ruufpay.ruufpaymobileapp
+  - 0b8b3c998be2cb8e86ea55e0126cb15450edcb76bceb9cff9bd3df6f979ed8ee
+  # Freewallet campaign - android/btc.org.freewallet.app
+  - 81529542c44aa9cc52327f9d226463493bc5dae6ae1258ec9ba566f8c948d583
+  # Freewallet campaign - iphone/mw.org.freewallet.app
+  - 537b8d7fe732a2de3e19fe0a13112ef19c2eb8623e3b690a18cb2d14ce0d63de
+  # Freewallet campaign - iphone/mw.org.freewallet.app
+  - 0eb16a6c7188a05df982ee12417a22c0f49056d32605d5f21ed18709ce5fef7d
+  # Freewallet campaign - iphone/mw.org.freewallet.app
+  - ff8f7c90c445052ec092fbdec031239bf23efb70eda6195de40e434365d91411
+  # Freewallet campaign - iphone/mw.org.freewallet.app
+  - d8338bd7b41bbbee2aceb3385c1f5647f3724fd27b75fa33c8dab936f97c3645
+  # Freewallet campaign - iphone/mw.org.freewallet.app
+  - 7ad7a4b76f50db67ce5a4d2ab94e053ed0dbff8e6a8b710f6b4cb7226298a53d
+  # Freewallet campaign - iphone/btc.org.freewallet.app
+  - 9250a6365d5b75f5c80ca9788df495db1a7456b74f65d41b4afab903739a6246
+  # promo - android/com.ctower.mobile
+  - e71cded1f8ff09ceaec56c2d225b725e76d8279e0f786349e33c97655896063a
+  # promo - iphone/com.quppy.wallet
+  - 2b6124e11d688d47b4e245ab9ec059172a36c71ea2e893ac2c0648202da03d3f
+
+# Authors whose opinions are always hidden, as npub. Opinions are addressable events, so
+# a republished spam opinion gets a fresh event id - blocking the author is what survives
+# that. Only accounts whose every post is spam belong here.
+authors:
+  # 1 post: iphone/com.blofin.app
+  - npub1a4ygrkemep2dzefzeyg767tp4k3dr9vwaqaxwxtuzesqaf2t2l3qrzpnv2
+  # 1 post: android/pro.huobi
+  - npub1x2ek2wj67wnxglkcfklamqnpklkx0eg3h6yusqkycf9n65qd0apszueaj8
+  # 1 post: iphone/kanga.mobile
+  - npub1htv8yw8w08gzpd8kxmuhxvaumagh3xjracayl3q0kxvns85j5u6q0x3wma
+  # 1 post: android/com.trendo.android
+  - npub1w5h46y82a3q7mrn9ngvxdv4fta2ezr0gmwvp2zldp0hhazzfrkesfnra7q
+  # 1 post: iphone/com.coinsuper.app
+  - npub1azjasp85srt963cmk3yw7z4cul6xk42pz5y99cjkraqgd4vaa40qguv6rk
+  # 1 post: android/com.capecrypto
+  - npub12qqg974p9kf3vz5vx3mrxruuwnqw95s37zs5x4898fsnpntsh68qxy8y2t
+  # 2 posts: android/com.mycelium.wallet, android/com.brand101investing
+  - npub1vx5ptz7vphtrwrkr96yem4vvhajckxmxfnfxdfc4keazj8dqq8uqmxx9el
+  # 1 post: iphone/com.obrinvestment.obrinvest
+  - npub155sxphuwfwfh8m6fqvfefv8wrdhg6trd05233j8vd02zdhy54zvqpn253h
+  # 3 posts: mobile/com.bitcan.app, mobile/com.wallet.korvio, mobile/com.currency.exchange.prod2
+  - npub15zv47uy4w9z3npwv2t8ft2r5vq3she45w5rw085ly3svf2gmk48q883g8m
+  # 3 posts: iphone/mw.org.freewallet.app, android/btc.org.freewallet.app, iphone/mw.org.freewallet.app
+  - npub1te8pxztgn676nm467vq0jjvw6q66s888ms6mh0dg6u6uyytyyphqg9qkvx
+  # 1 post: iphone/mw.org.freewallet.app
+  - npub1zcwg2e8spwhsm49crn3v0d4qg2vef7a607qlsf40v0hgsttr8w2sjymvdn
+  # 1 post: iphone/mw.org.freewallet.app
+  - npub1azuxhsfy4qhzx56re2c2tylurckmv8ej6qgquau88kscydgrck8sq9jss6
+  # 2 posts: iphone/btc.org.freewallet.app, iphone/mw.org.freewallet.app
+  - npub1p049v4tahr87geg0eja9p8aafs6w5p9rcynvxg94gqd9nkyu5mcsxrar2z

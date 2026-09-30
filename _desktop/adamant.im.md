@@ -5,23 +5,29 @@ authors:
 - danny
 released: 2017-11-22
 discontinued: 
-updated: 2024-03-20
-version: 4.10.6
+updated: 2026-08-11
+version: 4.12.0
 binaries: 
 provider: Adamant
 providerWebsite: 
 website: https://adamant.im/
 repository: https://github.com/Adamant-im/adamant-im
-issue: 
-icon: adamant.im.png
+icon: adamant.im.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
 date: 2025-08-02
 twitter: adamant_im
 social: 
-builds: 
-features: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+    appimage:
+    - ADAMANT-Messenger-*.AppImage
+features:
+- tradeAlts
 
 ---
+
+{% include featureEvidence.html feature="tradeAlts" source="[README](https://github.com/Adamant-im/adamant-im#readme)" quote="ADAMANT Messenger has built-in crypto Exchanger and Adelina, an AI chat assistant based on ChatGPT." %}
 

@@ -1,17 +1,19 @@
-{% assign parts = include.wallet | split: "/"
-%}{% assign collection = site.collections | find: "label", parts[0]
-%}{% assign w = collection.docs | find: "appId", parts[1]
-%}{% unless w
-%}{{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}{% endunless
-%}{% if w.icon
-%}{% assign icon = base_path | append: '/images/wIcons/'
-  | append: w.collection | append:  '/tiny/' | append: w.icon
-%}{% else
-%}{% assign icon = base_path | append: '/images/tinyNoicon.png'
-%}{% endif
-%}<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{w.url}}">{{
-  w.altTitle | default: w.title | escape }}</a>{% if include.verdict %}&nbsp;{%
-  include verdictBadge.html verdict=w.verdict type="short"
-  %}{%if w.meta != "ok" %}{%
-  include verdictBadge.html verdict=w.meta type="short"
-  %}{% endif %}{% endif %}</span> 
+{%- comment -%}
+  O(1) wallet lookup via precomputed.json (see scripts/precompute-wallet-data.mjs).
+{%- endcomment -%}
+{% assign parts = include.wallet | split: "/" %}
+{% assign link_platform = parts[0] %}
+{% assign link_app_id = parts[1] %}
+{% assign lookup_key = link_platform | append: "/" | append: link_app_id %}
+{% assign w = site.data.precomputed.walletLinks[lookup_key] %}
+
+{% unless w %}
+{{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}
+{% endunless %}
+
+{% if w.icon_name != "" %}
+{% assign icon = site.baseurl | append: '/images/wIcons/' | append: w.icon_platform | append: '/tiny/' | append: w.icon_name %}
+{% else %}
+{% assign icon = site.baseurl | append: '/images/tinyNoicon.png' %}
+{% endif %}
+<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{ w.url }}">{{ w.title | escape }}</a>{% if include.verdict %}&nbsp;{% include verdictBadge.html verdict=w.verdict type="short" %}{% if w.meta != "ok" %}{% include verdictBadge.html verdict=w.meta type="short" %}{% endif %}{% endif %}{% for feat in w.alertFeatures %}<span class="alert-feature-badge" title="⚠️ {{ feat.short }}: {{ feat.message }}">{{ feat.short }}</span>{% endfor %}</span>

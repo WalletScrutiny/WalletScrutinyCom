@@ -17,8 +17,7 @@ shop:
 country: ID
 price: 
 repository: 
-issue: 
-icon: belibitcoin.png
+icon: belibitcoin.webp
 bugbounty: 
 meta: ok
 verdict: wip

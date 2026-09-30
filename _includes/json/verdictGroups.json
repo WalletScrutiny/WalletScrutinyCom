@@ -1,6 +1,0 @@
-{% assign verdictGroups = site.data.topVerdicts | concat: site.data.verdictGroups %}
-
-const verdictGroups = {
-{% for vg in verdictGroups %}"{{vg.key}}": {{vg | jsonify}}{% unless forloop.last %},{% endunless %}
-{% endfor %}
-}

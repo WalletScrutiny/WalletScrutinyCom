@@ -17,12 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: coinpass.bio.png
+icon: coinpass.bio.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-11-26
 signer: 
 twitter: FEITIAN_Tech

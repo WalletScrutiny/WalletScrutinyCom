@@ -1,0 +1,16 @@
+<section class="home-section home-section--wallets" id="wallet-directory">
+  <header class="home-section__header">
+    <h2 class="home-section__title">Search thousands of security reviews</h2>
+  </header>
+
+  <div class="title-wrapper">
+    {% include homepage/wallet-filters.html %}
+
+    {%- comment -%}
+      Legacy placeholder; content may be replaced when JS is enabled.
+    {%- endcomment -%}
+    {% assign platform = "android" %}
+    {% assign verdicts = "sourceavailable" | split: "," %}
+    {% assign selectedVerdict = "sourceavailable" %}
+  </div>
+</section>

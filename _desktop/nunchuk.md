@@ -5,15 +5,14 @@ authors:
 - danny
 released: 2021-06-03
 discontinued: 
-updated: 2025-12-29
-version: 2.1.1
+updated: 2026-08-20
+version: 2.6.6
 binaries: 
 provider: Nunchuk Inc.
 providerWebsite: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-desktop
-issue: https://github.com/nunchuk-io/nunchuk-desktop/issues/86
-icon: nunchuk.png
+icon: nunchuk.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
@@ -23,11 +22,10 @@ social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email
 builds: 
 features:
+- coinCtrl
+- foss
+- multiSig
 - taproot
-- multisig
-- inheritance
-- hardware integration
-- decoy wallet
 
 ---
 
@@ -51,3 +49,11 @@ From their [FAQ:](https://resources.nunchuk.io/faq/)
 > Nunchuk is a self-custodial wallet developed using open standards (seed phrase backup is defined in BIP39, while wallet configuration backup is defined in BIP129). That means you always have complete control over your funds. As long as you maintain proper backups, you can recover your Nunchuk wallets elsewhere. Please click here to see our recovery guides.
 
 It is also source-available and **for verification**
+
+{% include featureEvidence.html feature="multiSig" quote="It features multisig, group wallets, coin control and hardware support." source="Store" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="It features multisig, group wallets, coin control and hardware support." source="Store" %}
+
+{% include featureEvidence.html feature="foss" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" source="License" %}
+
+An issue has been opened at [https://github.com/nunchuk-io/nunchuk-desktop/issues/86](https://github.com/nunchuk-io/nunchuk-desktop/issues/86)

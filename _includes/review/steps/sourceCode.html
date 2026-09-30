@@ -1,5 +1,13 @@
 <div class="step source-code">
-  {% if page.repository %}
+  {% assign has_source_repo = false %}
+  {% if page.android.repository and page.android.repository != '' %}
+    {% assign has_source_repo = true %}
+  {% elsif page.iphone.repository and page.iphone.repository != '' %}
+    {% assign has_source_repo = true %}
+  {% elsif page.repository and page.repository != '' %}
+    {% assign has_source_repo = true %}
+  {% endif %}
+  {% if has_source_repo %}
   <i class="i-code circle"></i>
   {% else %}
   <i class="i-code circle disabled"></i>
@@ -8,32 +16,54 @@
   <div class="title">
     <h3>Source code</h3>
     <p>
-    {% if page.repository %}
-      {{'Public on '}} 
+    {% if page.android.repository and page.android.repository != '' and page.iphone.repository and page.iphone.repository != '' and page.android.repository == page.iphone.repository %}
+      {{'Public on '}}
+      {% assign string = page.android.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.android.repository and page.android.repository != '' and page.iphone.repository and page.iphone.repository != '' %}
+      Android: {% assign string = page.android.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>.
+      iPhone: {% assign string = page.iphone.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.iphone.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.android.repository and page.android.repository != '' %}
+      {{'Public on '}}
+      {% assign string = page.android.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.android.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.iphone.repository and page.iphone.repository != '' %}
+      {{'Public on '}}
+      {% assign string = page.iphone.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.iphone.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% elsif page.repository and page.repository != '' %}
+      {{'Public on '}}
       {% assign string = page.repository | replace: "https://", "" %}
       {% assign split = string | split:"/" %}
       {% assign name = split[0] | split:"." %}
       {% assign name = name[0] %}
       <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
     {% else %}
-      <!-- No repository provided, keeping this blank -->
+      {%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
+      {% assign step_verdict = include.verdict | default: page.verdict %}
+      {% unless sourceCheckedVerdicts contains step_verdict %}
+        <small>Not evaluated — our review stopped at an earlier step.</small>
+      {% endunless %}
     {% endif %}
     </p>
   </div>
   <div class="data">
-  </div>
-  {% if page.tooltip.source %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.source %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.source | markdownify }}
-    </div>
-  {% endif %}
   </div>
 </div>

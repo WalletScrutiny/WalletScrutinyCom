@@ -17,12 +17,10 @@ shop:
 country: CH
 price: 219 USD
 repository: 
-issue: 
-icon: uhodl.me.png
+icon: uhodl.me.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2023-03-08
 signer: 
 twitter: uhodl

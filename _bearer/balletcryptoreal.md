@@ -21,8 +21,7 @@ shop: https://www.balletcrypto.com/en/buy/
 country: US
 price: 35USD
 repository: 
-issue: 
-icon: balletcryptoreal.png
+icon: balletcryptoreal.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

@@ -18,12 +18,10 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
-icon: coldlarsmart.png
+icon: coldlarsmart.webp
 bugbounty: 
 meta: discontinued
 verdict: wip
-appHashes: 
 date: 2024-12-09
 signer: 
 twitter: Coldlar

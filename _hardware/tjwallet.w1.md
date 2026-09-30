@@ -17,12 +17,10 @@ shop: https://en.tjwallet.net/cart/
 country: HK
 price: 189USD
 repository: 
-issue: 
-icon: tjwallet.w1.png
+icon: tjwallet.w1.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2022-05-03
 signer: 
 twitter: TJ_Wallet

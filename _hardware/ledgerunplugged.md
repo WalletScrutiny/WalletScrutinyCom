@@ -17,12 +17,10 @@ shop:
 country: FR
 price: 
 repository: 
-issue: 
-icon: ledgerunplugged.png
+icon: ledgerunplugged.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-appHashes: 
 date: 2021-08-01
 signer: 
 twitter: Ledger

@@ -1,16 +1,21 @@
 ---
-layout: compress
 ---
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    {% include head.html %}
+    {% include_cached head-static.html %}
+    {% if page.url == "/" %}
+      <link rel="preload" href="{{ site.baseurl }}/fewWallets.js" as="script">
+      <link rel="preload" href="{{ site.baseurl }}/assets/js/searchWallets.js" as="script">
+      <link rel="preload" href="{{ site.baseurl }}/assets/js/landingPageWalletGrid.js" as="script">
+      {% include_cached homepage-preloads.html %}
+    {% endif %}
+    {% include seo.html %}
     {% include_cached head/custom.html %}
   </head>
 
   <body class="vibrant">
-    {% include_cached browser-upgrade.html %}
     {% if page.url == "/" %}{% assign is_home = true %}{% else %}{% assign is_home = false %}{% endif %}
     {% include_cached masthead.html is_home=is_home %}
 
@@ -18,7 +23,7 @@ layout: compress
 
     <div class="page__footer">
       <footer>
-        {% include_cached footer/custom.html %}
+        {% include_cached footer/custom.html is_home=is_home %}
         {% include_cached footer.html %}
       </footer>
     </div>

@@ -14,18 +14,16 @@ dimensions:
 - 5
 weight: 
 provider: WOOKONG
-providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/enterprise
-shop: https://wooko.ng/en/enterprise
+providerWebsite: https://wooko.ng/en#deadLink
+website: https://wooko.ng/en/enterprise#deadLink
+shop: https://wooko.ng/en/enterprise#deadLink
 country: CH
 price: 
 repository: 
-issue: 
-icon: wookongenterprise.png
+icon: wookongenterprise.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2022-02-17
 signer: 
 twitter: 

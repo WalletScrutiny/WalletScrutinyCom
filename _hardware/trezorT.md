@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2018-03-01
 discontinued: 
-updated: 2025-11-18
-version: 2.9.4
+updated: 2026-09-15
+version: 2.12.5
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -22,22 +22,28 @@ shop: https://shop.trezor.io/product/trezor-model-t
 country: CZ
 price: 159EUR
 repository: https://github.com/trezor/trezor-firmware
-issue: 
-icon: trezorT.png
+icon: trezorT.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
-- 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903
 date: 2025-09-11
 signer: 
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
-builds: 
-features: 
+builds:
+- arch: arm
+  types:
+    btc-only:
+    - trezor-t2t1-*-bitcoinonly.bin
+    universal:
+    - trezor-t2t1-*.bin
+features:
+- selfBuild
+- TOR
+- coinCtrl
+- segwit
 
 ---
 
@@ -50,3 +56,11 @@ The Trezor Model T is a hardware wallet for securely storing and managing crypto
 It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management. The device also allows uploading custom 240x240 pixel wallpapers. All security-sensitive actions, such as backup creation and recovery, must be confirmed directly on the device's touchscreen.
 
 This device is **source available**.
+
+{% include featureEvidence.html feature="segwit" quote="The Trezor Model T is a hardware wallet for securely storing and managing cryptocurrency." source="Device Description" comment="No explicit mention of SegWit in source text — omitting" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="coin control for granular transaction management" source="Device Description" %}
+
+
+{% include featureEvidence.html feature="TOR" quote="It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management." source="Device Description" %}
+{% include featureEvidence.html feature="selfBuild" quote="The content of this repo is dual licensed under the GNU Affero General Public License v3 and CERN Open Hardware Licence Version 2 - Strongly Reciprocal. OSHWA UID: CZ000005" source="[trezor-hardware README](https://github.com/trezor/trezor-hardware)" comment="Trezor Model T uses a standard STM32F429 MCU. Hardware schematics and case files (STL) are published under open hardware licenses and OSHWA-certified. The hardware repo contains case/trezor_model_t/ with 3D-printable files." %}

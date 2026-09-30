@@ -20,12 +20,10 @@ shop: https://store.twenty-two.xyz/
 country: IT
 price: 89 EUR
 repository: https://github.com/TwentyTwoHW/portal-software
-issue: 
-icon: twentytwo.portal.png
+icon: twentytwo.portal.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: TwentyTwoHW
@@ -34,13 +32,10 @@ social:
 - https://t.me/TwentyTwoHW
 builds: 
 features:
+- foss
+- hd
 - nfc
-- monochrome-display
-- tamper-evident packaging
-- single physical button
-- credit card form factor
-- bitcoin-only
-- supports BIP39
+- segwit
 
 ---
 
@@ -113,3 +108,9 @@ pub async fn handle_generate_seed(
 **5. Is it reproducible? - ❓**
 
 This hardware device's firmware is **for verification**
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under GPL 3.0 or later. You can find a full copy of the license in the LICENSE file." source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="let descriptor = WalletDescriptor::make_bip84(network);" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}
+
+{% include featureEvidence.html feature="hd" quote="let entropy = match num_words { model::NumWordsMnemonic::Words12 => &mut entropy[..16], model::NumWordsMnemonic::Words24 => &mut entropy[..32], };" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}

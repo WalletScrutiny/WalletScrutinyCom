@@ -1,13 +1,14 @@
 ---
 title: SeedSigner
 appId: seedsigner
+bitcoinOrgId: seedsigner
 authors:
 - danny
 - leo
 released: 2020-12-20
 discontinued: 
-updated: 2025-02-05
-version: 0.8.6
+updated: 2026-07-08
+version: 0.8.7
 binaries: https://github.com/SeedSigner/seedsigner/releases
 dimensions: 
 weight: 
@@ -18,16 +19,10 @@ shop: https://btc-hardware-solutions.square.site/product/orange_pill_kit/6?cs=tr
 country: US
 price: 93USD
 repository: https://github.com/SeedSigner/seedsigner
-issue: 
-icon: seedsigner.png
+icon: seedsigner.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e
-- 1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
-- 398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96
-- d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
 date: 2025-06-30
 signer: 
 twitter: SeedSigner
@@ -35,7 +30,14 @@ social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
 - https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
 builds: 
-features: 
+features:
+- selfBuild
+- airGapped
+- camera
+- foss
+- hd
+- multiSig
+- segwit
 
 ---
 
@@ -79,3 +81,17 @@ Yes.
 
 We had a little
 [back-and-forth with the provider on Twitter](https://twitter.com/WalletScrutiny/status/1507201398735220736).
+
+{% include featureEvidence.html feature="hd" quote="Calculate the final word (aka checksum) of a 12- or 24-word BIP39 seed phrase" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="The goal of SeedSigner is to lower the cost and complexity of Bitcoin multi-signature wallet use." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="SeedSigner offers anyone the opportunity to build a verifiably air-gapped, stateless Bitcoin signing device using inexpensive, publicly available hardware components" source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="Native Segwit Multisig XPUB generation" source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Sign transactions & transfer XPUB data using animated QR codes" source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="foss" quote="Starting with v0.7.0, the images distributed via GitHub are reproducible. This means you and others can verify the released images are byte-for-byte the same when built from source." source="GitHub README" %}
+{% include featureEvidence.html feature="selfBuild" quote="SeedSigner offers anyone the opportunity to build a verifiably air-gapped, stateless Bitcoin signing device using inexpensive, publicly available hardware components (Raspberry Pi Zero, a display HAT, and a camera module)." source="[GitHub README](https://github.com/SeedSigner/seedsigner)" comment="Hardware is entirely off-the-shelf (Raspberry Pi Zero, Waveshare display, camera module). Full assembly instructions published. No custom PCB required." %}

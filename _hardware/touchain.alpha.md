@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: touchain.alpha.png
+icon: touchain.alpha.webp
 bugbounty: 
 meta: defunct
 verdict: vapor
-appHashes: 
 date: 2023-03-03
 signer: 
 twitter: 
@@ -36,7 +34,7 @@ features:
 
 ## Product Description 
 
-The website https://touchain.io has been offline since 2022. 
+The website https://touchain.io#deadLink has been offline since 2022. 
 
 The product has been described as what seems to be a multi-purpose, multifunction device:
 

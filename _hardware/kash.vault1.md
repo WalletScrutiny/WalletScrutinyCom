@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.kashtech.io/
+website: https://www.kashtech.io#deadLink
 shop: 
 country: 
 price: 
 repository: 
-issue: 
-icon: kash.vault1.png
+icon: kash.vault1.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-27
 signer: 
 twitter: 

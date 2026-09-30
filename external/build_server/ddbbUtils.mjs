@@ -1,0 +1,225 @@
+import Database from 'better-sqlite3';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const DB_PATH = process.env.BUILD_SERVER_DB_PATH ?? join(__dirname, 'verifications.db');
+
+let db = null;
+
+/**
+ * Initialize the database and create the verifications table if it does not exist.
+ * @returns {Database.Database} The database instance
+ */
+export function initDb() {
+  if (db) return db;
+  db = new Database(DB_PATH);
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS verifications (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      appId TEXT NOT NULL,
+      platform TEXT NOT NULL,
+      version TEXT NOT NULL,
+      arch TEXT NOT NULL,
+      type TEXT NOT NULL,
+      verificationId TEXT NOT NULL,
+      buildScriptEventId TEXT NOT NULL,
+      assetKey TEXT NOT NULL DEFAULT '',
+      endResult TEXT NOT NULL,
+      createdAt TEXT DEFAULT (datetime('now')),
+      updatedAt TEXT DEFAULT (datetime('now'))
+    );
+    CREATE INDEX IF NOT EXISTS idx_verifications_app_platform_version
+      ON verifications(appId, platform, version);
+    CREATE INDEX IF NOT EXISTS idx_verifications_verification_id
+      ON verifications(verificationId);
+  `);
+  // Databases created before assetKey existed. Their rows keep assetKey = ''
+  // and only ever match lookups that have no asset (release builds).
+  const columns = db.prepare('PRAGMA table_info(verifications)').all();
+  if (!columns.some(column => column.name === 'assetKey')) {
+    db.exec("ALTER TABLE verifications ADD COLUMN assetKey TEXT NOT NULL DEFAULT ''");
+  }
+  db.exec(`
+    CREATE INDEX IF NOT EXISTS idx_verifications_asset_key
+      ON verifications(appId, platform, assetKey);
+  `);
+  return db;
+}
+
+function getDb() {
+  return initDb();
+}
+
+// assetKey identifies the exact file set of an asset build (see
+// getAssetAttemptKey). Release builds have no asset and use ''.
+function withAssetKey(row) {
+  return { ...row, assetKey: row.assetKey ?? '' };
+}
+
+// An asset build is the same build when it is for the same file set, whatever
+// version tag the registration claims; the same version can be registered with
+// different files (e.g. another language split). Release builds have no files,
+// so they are keyed by version.
+const SAME_TARGET = `
+      ((@assetKey = '' AND assetKey = '' AND version = @version)
+        OR (@assetKey <> '' AND assetKey = @assetKey))`;
+
+/**
+ * Insert a new verification record.
+ * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey?, endResult }
+ * @returns {number} The inserted row id
+ */
+export function insert(row) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    INSERT INTO verifications (appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey, endResult)
+    VALUES (@appId, @platform, @version, @arch, @type, @verificationId, @buildScriptEventId, @assetKey, @endResult)
+  `);
+  const result = stmt.run(withAssetKey(row));
+  return result.lastInsertRowid;
+}
+
+/**
+ * Find a queued or errored verification attempt with the same build inputs.
+ * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey? }
+ * @returns {Object|undefined}
+ */
+export function findQueuedOrErroredSimilarAttempt(row) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    SELECT *
+    FROM verifications
+    WHERE appId = @appId
+      AND platform = @platform
+      AND ${SAME_TARGET}
+      AND arch = @arch
+      AND type = @type
+      AND verificationId = @verificationId
+      AND buildScriptEventId = @buildScriptEventId
+      AND endResult IN ('queued', 'error')
+    ORDER BY id DESC
+    LIMIT 1
+  `);
+  return stmt.get(withAssetKey(row));
+}
+
+/**
+ * Find the latest failed attempt that used a given build script event for the
+ * same build target (app, platform, arch, type, and the asset's file set or,
+ * for release builds, the version). A script that failed for one wallet
+ * version or file set must still be tried for another.
+ * @param {Object} row - { appId, platform, version, arch, type, buildScriptEventId, assetKey? }
+ * @returns {Object|undefined}
+ */
+export function findErroredAttemptForBuildScript(row) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    SELECT *
+    FROM verifications
+    WHERE appId = @appId
+      AND platform = @platform
+      AND ${SAME_TARGET}
+      AND arch = @arch
+      AND type = @type
+      AND buildScriptEventId = @buildScriptEventId
+      AND endResult = 'error'
+    ORDER BY id DESC
+    LIMIT 1
+  `);
+  return stmt.get(withAssetKey(row));
+}
+
+/**
+ * Mark attempts still flagged as 'queued' as 'interrupted'. Meant to run once at
+ * process start: no job can be queued yet, so any 'queued' row belongs to a
+ * previous process that died before recording a result. Such rows would
+ * otherwise block the same build forever (see findQueuedOrErroredSimilarAttempt).
+ * @returns {number} Number of rows updated
+ */
+export function markStaleQueuedAttemptsAsInterrupted() {
+  const database = getDb();
+  const stmt = database.prepare(`
+    UPDATE verifications
+    SET endResult = 'interrupted', updatedAt = datetime('now')
+    WHERE endResult = 'queued'
+  `);
+  return stmt.run().changes;
+}
+
+/**
+ * Update a verification by id. Only provided fields are updated.
+ * @param {number} id
+ * @param {Object} updates - { appId?, platform?, version?, arch?, type?, verificationId?, buildScriptEventId?, endResult? }
+ * @returns {number} Number of rows updated (0 or 1)
+ */
+export function update(id, updates) {
+  const database = getDb();
+  const allowed = ['appId', 'platform', 'version', 'arch', 'type', 'verificationId', 'buildScriptEventId', 'endResult'];
+  const setParts = [];
+  const params = [];
+
+  for (const key of allowed) {
+    if (updates[key] !== undefined) {
+      setParts.push(`${key} = ?`);
+      params.push(updates[key]);
+    }
+  }
+  if (setParts.length === 0) return 0;
+
+  setParts.push("updatedAt = datetime('now')");
+  params.push(id);
+  const sql = `UPDATE verifications SET ${setParts.join(', ')} WHERE id = ?`;
+  const stmt = database.prepare(sql);
+  const result = stmt.run(...params);
+  return result.changes;
+}
+
+/**
+ * List verification attempts for an app, optionally for one version only.
+ * @param {string} appId
+ * @param {string} [version]
+ * @returns {Object[]} Rows, oldest first
+ */
+export function listByApp(appId, version) {
+  const database = getDb();
+  const stmt = database.prepare(`
+    SELECT *
+    FROM verifications
+    WHERE appId = @appId
+      AND (@version IS NULL OR version = @version)
+    ORDER BY id
+  `);
+  return stmt.all({ appId, version: version ?? null });
+}
+
+/**
+ * Get one verification attempt by row id.
+ * @param {number} id
+ * @returns {Object|undefined}
+ */
+export function getById(id) {
+  return getDb().prepare('SELECT * FROM verifications WHERE id = ?').get(id);
+}
+
+/**
+ * Delete one verification attempt by row id, so the ABS no longer treats that
+ * build as already attempted.
+ * @param {number} id
+ * @returns {number} Number of rows deleted (0 or 1)
+ */
+export function deleteById(id) {
+  return getDb().prepare('DELETE FROM verifications WHERE id = ?').run(id).changes;
+}
+
+/**
+ * Close the database connection. Call when shutting down the process.
+ */
+export function closeDb() {
+  if (db) {
+    db.close();
+    db = null;
+  }
+}

@@ -3,7 +3,7 @@ title: Crypto Wizard USB Cold Wallet
 appId: cryptowizard.usbcoldwallet
 authors:
 - danny
-icon: cryptowizard.usbcoldwallet.png
+icon: cryptowizard.usbcoldwallet.webp
 date: 2023-09-29
 released: 2022-05-02
 social:

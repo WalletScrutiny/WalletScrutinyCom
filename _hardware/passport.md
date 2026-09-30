@@ -1,6 +1,7 @@
 ---
 title: Foundation Passport - Founder's Edition
 appId: passport
+bitcoinOrgId: passport
 authors:
 - kiwilamb
 - '@sethforprivacy'
@@ -22,13 +23,10 @@ shop:
 country: US
 price: 
 repository: https://github.com/Foundation-Devices/passport2
-issue: 
-icon: passport.png
+icon: passport.webp
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
 verdict: sourceavailable
-appHashes:
-- db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de
 date: 2024-04-18
 signer: 
 twitter: FOUNDATIONdvcs
@@ -37,9 +35,18 @@ social:
 - https://t.me/foundationdevices
 - https://www.reddit.com/r/FoundationDevices/
 builds: 
-features: 
+features:
+- hd
+- airGapped
+- camera
+- secEl
 
 ---
+
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="word_list_gen - Simple utility for creating optimized word lookup metadata for BIP-39 and bytewords." %}
+{% include featureEvidence.html feature="airGapped" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="This is the new standard air-gapped wallets are expected to adopt moving forward." %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="Quirc is a QR decoding library that offers an embedded-friendly interface to process images from a camera for QR codes." %}
+{% include featureEvidence.html feature="secEl" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="bootloader C-based code that handles secure element initialization, firmware validation and updates, and system startup." %}
 
 {{ page.title }} is the original and now discontinued version of
 {% include walletLink.html wallet='hardware/passportb2' verdict='true' %}.

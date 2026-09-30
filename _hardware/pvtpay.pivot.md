@@ -12,17 +12,15 @@ dimensions:
 weight: 
 provider: PVT PAY
 providerWebsite: 
-website: https://pvtpay.eu/
+website: https://pvtpay.eu#deadLink
 shop: https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon
 country: DE
 price: 
 repository: 
-issue: 
-icon: pvtpay.pivot.png
+icon: pvtpay.pivot.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-22
 signer: 
 twitter: pvt_pay

@@ -6,4 +6,4 @@ avatar: https://gitlab.com/uploads/-/system/user/avatar/9400122/avatar.png?width
 role: Wallet Reviewer
 ---
 
-You can find Danny [on Twitter](https://twitter.com/dannybuntu). Danny also [sells bunkers](http://xrvive.com).
+You can find Danny [on Twitter](https://twitter.com/dannybuntu). Danny also aspires to be a serial [builder](https://github.com/xrviv) and startup founder.

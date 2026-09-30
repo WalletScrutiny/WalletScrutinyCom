@@ -5,16 +5,19 @@
   "type": "module",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "test": "BUILD_SERVER_TEST=1 BUILD_SERVER_DB_PATH=:memory: node --test --test-reporter=spec \"test/**/*.test.mjs\""
   },
   "dependencies": {
-    "@nostr-dev-kit/ndk": "^2.18.1",
-    "js-yaml": "^4.1.1",
-    "minimist": "^1.2.8",
-    "p-queue": "^9.0.0",
-    "winston": "^3.18.3",
+    "app-info-parser": "^1.1.6",
+    "better-sqlite3": "^12.11.1",
+    "isomorphic-dompurify": "^3.23.0",
+    "js-yaml": "^4.3.2",
+    "nostr-tools": "2.23.8",
+    "p-queue": "^9.3.3",
+    "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
-    "ws": "^8.18.3"
+    "yauzl": "^3.4.0"
   },
   "engines": {
     "node": ">= 18.6.0"

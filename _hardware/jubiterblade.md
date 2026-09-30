@@ -21,12 +21,10 @@ shop: https://www.amazon.com/gp/product/B07K446Y57
 country: CN
 price: 79USD
 repository: 
-issue: 
-icon: jubiterblade.png
+icon: jubiterblade.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2021-12-12
 signer: 
 twitter: JuBiterWallet

@@ -20,12 +20,10 @@ shop: https://www.cryobit.co/products/
 country: 
 price: 
 repository: 
-issue: 
-icon: cryobit.png
+icon: cryobit.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-appHashes: 
 date: 2022-03-11
 signer: 
 twitter: cryobit

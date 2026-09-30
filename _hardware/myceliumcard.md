@@ -17,12 +17,10 @@ shop: https://card.mycelium.com/
 country: US
 price: 
 repository: 
-issue: 
-icon: myceliumcard.png
+icon: myceliumcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: MyceliumCom

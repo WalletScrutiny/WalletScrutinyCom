@@ -17,13 +17,11 @@ shop:
 country: 
 price: 
 repository: https://github.com/DenisDx/openHW
-issue: 
-icon: denisdx.openhw.diy.png
+icon: denisdx.openhw.diy.webp
 bugbounty: 
 meta: obsolete
-verdict: diy
-appHashes: 
-date: 2022-05-26
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

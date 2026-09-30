@@ -3,7 +3,7 @@ import { Worker } from 'worker_threads';
 import os from 'os';
 
 const fsp = fs.promises;
-const mdFolders = ['_android', '_bearer', '_hardware', '_iphone', '_desktop'];
+const mdFolders = ['_mobile', '_bearer', '_hardware', '_desktop'];
 
 // Worker thread management
 const numWorkers = Math.max(8, os.cpus().length * 2); // At least 8 workers, or 2x CPU cores

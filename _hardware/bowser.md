@@ -17,18 +17,17 @@ shop:
 country: 
 price: 
 repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet
-issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
-icon: bowser.png
+icon: bowser.webp
 bugbounty: 
 meta: ok
-verdict: diy
-appHashes: 
-date: 2022-04-11
+verdict: sourceavailable
+date: 2026-02-27
 signer: 
 twitter: arcbtc
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 
@@ -66,4 +65,6 @@ Yes, but ... as can be seen in their
 
 ## Is it reproducible?
 
-Bowser is a **diy-project**. 
+Bowser is a **diy-project**.
+
+An issue has been opened at [https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13](https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13)

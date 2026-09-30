@@ -1,3 +1,13 @@
+map $arg_filename $blossom_safe_filename {
+    default "";
+    "~^([a-zA-Z0-9._ -]+)$" $1;
+}
+
+map $blossom_safe_filename $blossom_download_disposition {
+    default "";
+    "~.+$" "attachment; filename=\"$blossom_safe_filename\"";
+}
+
 server {
     server_name files.nostr.info;
     
@@ -19,6 +29,7 @@ server {
         proxy_cache_bypass $http_upgrade;
         client_max_body_size 500M;
 
+        add_header Content-Disposition $blossom_download_disposition always;
         add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
         add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization';
     }

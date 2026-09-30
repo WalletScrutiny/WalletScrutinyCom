@@ -15,17 +15,15 @@ dimensions:
 weight: 26
 provider: Shenzhen Feitianxia Technology Co, Ltd.
 providerWebsite: http://idiskk.com/idiskk_new/about/?53.html
-website: https://www.icoldwallet.com/
+website: https://www.icoldwallet.com#deadLink
 shop: https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
 country: CN
 price: 38.99USD
 repository: 
-issue: 
-icon: icoldwallet.png
+icon: icoldwallet.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-03-11
 signer: 
 twitter: 

@@ -16,23 +16,24 @@ weight: 6
 provider: ORE System
 providerWebsite: 
 website: https://ore-system.com/
-shop: https://ore-system.com/product/ore-system-coolwallet-pro/
+shop: https://ore-system.com/product/ore-system-coolwallet-pro#deadLink
 country: US
 price: 149USD
 repository: 
-issue: 
-icon: oresystem.coolwalletpro.png
+icon: oresystem.coolwalletpro.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: ORESystemNFT
 social:
 - https://www.facebook.com/oresystem/
 builds: 
-features: 
+features:
+- hd
+- multiAccount
+- secEl
 
 ---
 
@@ -80,8 +81,8 @@ As indicated in the {% include walletLink.html wallet='hardware/coolwalletpro' v
 
 We'd like to add that the device pairs with a mobile app. We've asked ORE System via Telegram whether their device pairs with the following apps or if they have their own: 
 
-* Android {% include walletLink.html wallet='android/com.coolbitx.cwsapp' %}
-* iPhone {% include walletLink.html wallet='iphone/com.coolbitx.coolwallets' %}
+* Android {% include walletLinkArchived.html wallet='android/com.coolbitx.cwsapp' %}
+* iPhone {% include walletLinkArchived.html wallet='iphone/com.coolbitx.coolwallets' %}
 
 CoolBitX (the manufacturer of the CoolWalletPro) disclosed in December 18, 2020, that the device has a [vulnerability](https://www.coolwallet.io/bluetooth-security-vulnerability-seed-replay-attack/) related to its Bluetooth pairing. The vulnerability exists given the following conditions: 
 
@@ -91,4 +92,10 @@ CoolBitX (the manufacturer of the CoolWalletPro) disclosed in December 18, 2020,
 
 This has since been patched. The url for this article describes this as a "Seed Replay Attack", which can only be executed provided the 3 conditions above are met. 
 
-While the [Javascript SDK](https://github.com/CoolBitX-Technology/coolwallet-sdk) for the CoolWallet Pro is available on their GitHub repositories, we were not able to find the firmware's repository. 
+While the [Javascript SDK](https://github.com/CoolBitX-Technology/coolwallet-sdk) for the CoolWallet Pro is available on their GitHub repositories, we were not able to find the firmware's repository.
+
+{% include featureEvidence.html feature="secEl" quote="EAL 6+ certified Secure Element" source="Product Description" %}
+
+{% include featureEvidence.html feature="hd" quote="BIP-32 : BIP-32 HD Wallets" source="Product Description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="BIP-44 : BIP-44 Support multiple coin type and accounts. Each account includes up to 232 external and internal Bitcoin transaction addresses" source="Product Description" %}

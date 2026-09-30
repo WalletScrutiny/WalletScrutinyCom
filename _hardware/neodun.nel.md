@@ -17,12 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/NewEconoLab/NeoDun
-issue: 
-icon: neodun.nel.png
+icon: neodun.nel.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2025-02-06
 signer: 
 twitter: neweconolab

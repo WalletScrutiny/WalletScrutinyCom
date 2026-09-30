@@ -1,9 +1,10 @@
 ---
 title: Freewallet Web
 appId: org.freewallet.web
+subtype: web
 authors:
 - danny
-icon: org.freewallet.web.png
+icon: org.freewallet.web.webp
 date: 2024-05-10
 website: https://app.freewallet.org
 twitter: freewalletorg

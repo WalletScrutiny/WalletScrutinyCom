@@ -21,12 +21,10 @@ shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/sallet-one-cold
-issue: https://github.com/SalletOne/sallet-one-cold/issues/6
-icon: sallet.one.png
+icon: sallet.one.webp
 bugbounty: 
 meta: defunct
 verdict: sourceavailable
-appHashes: []
 date: 2025-02-05
 signer: 
 twitter: SalletOne
@@ -35,9 +33,18 @@ social:
 - https://www.youtube.com/channel/UCBAbHtt_Uk47csOqMC94dEQ
 - https://medium.com/@Sallet_Atelas
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- hd
+- foss
 
 ---
+
+{% include featureEvidence.html feature="airGapped" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Supports only airgapped, opensource hardware wallets" %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Tx transfer only use QR code" %}
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Customize standard mnemonic" %}
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/SalletOne/sallet-one-cold/blob/master/LICENSE)" quote="Apache License Version 2.0" %}
 
 ## Update 2025-02-05
 
@@ -92,3 +99,5 @@ instructions. Together with the lack of actual product pictures or videos, the
 code being only two commits, the companion apps not having many users/ratings
 and the rather lacking documentation we have little hope for this product to be
 very interesting but for now simply consider it as **not verifiable**.
+
+An issue has been opened at [https://github.com/SalletOne/sallet-one-cold/issues/6](https://github.com/SalletOne/sallet-one-cold/issues/6)

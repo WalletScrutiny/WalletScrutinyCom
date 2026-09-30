@@ -1,9 +1,10 @@
 ---
 title: SwiftCash Web Wallet
 appId: cc.swiftcash.web
+subtype: web
 authors:
 - danny
-icon: cc.swiftcash.web.png
+icon: cc.swiftcash.web.webp
 date: 2024-05-10
 website: https://wallet.swiftcash.cc
 twitter: swiftcashcc

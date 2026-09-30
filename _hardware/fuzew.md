@@ -15,18 +15,16 @@ dimensions:
 - 0.84
 weight: 8.5
 provider: BrilliantTS
-providerWebsite: https://brilliantts.com/
+providerWebsite: https://web.archive.org/web/20251212225619/https://brilliantts.com/
 website: https://fuzeway.com/collections/fuzew-products
 shop: https://fuzeway.com/products/fuzew-hardware-wallet
 country: KP
 price: 99USD
 repository: 
-issue: 
-icon: fuzew.png
+icon: fuzew.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2021-12-03
 signer: 
 twitter: w_fuze
@@ -39,7 +37,7 @@ features:
 
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 
-It has a companion app for Android: {% include walletLink.html wallet='android/com.brilliantts.fuzew' verdict='true' %}
+It has a companion app for Android: {% include walletLinkArchived.html wallet='android/com.brilliantts.fuzew' %}
 
 From the [blog:](https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
 

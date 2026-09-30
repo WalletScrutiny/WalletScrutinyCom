@@ -21,12 +21,10 @@ shop: https://www.coolwallet.io/product/coolwallet/
 country: TW
 price: 99USD
 repository: 
-issue: 
-icon: coolwallets.png
+icon: coolwallets.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-appHashes: 
 date: 2021-12-08
 signer: 
 twitter: coolwallet
@@ -49,8 +47,8 @@ Thus, in [WalletScrutiny's methodology](https://walletscrutiny.com/methodology),
 
 This device, running weeks on a single charge connects to its companion app on
 
-* Android {% include walletLink.html wallet='android/com.coolbitx.cwsapp' %}
-* iPhone {% include walletLink.html wallet='iphone/com.coolbitx.coolwallets' %}
+* Android {% include walletLinkArchived.html wallet='android/com.coolbitx.cwsapp' %}
+* iPhone {% include walletLinkArchived.html wallet='iphone/com.coolbitx.coolwallets' %}
 
 via Bluetooth. It features a display and a button to confirm actions.
 
@@ -65,7 +63,7 @@ Searching for the firmware, latest updates thereof and the source code, we find
 which sounds like the firmware probably is closed source.d
 
 The device
-[uses open standards](https://help.coolwallet.io/article/58-can-i-recover-my-coolwallet-seed-to-another-wallet)
+[uses open standards](https://web.archive.org/web/20211128134859/https://help.coolwallet.io/article/58-can-i-recover-my-coolwallet-seed-to-another-wallet)
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki'>BIP 039</a>,
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki'>BIP 044</a> and
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki'>BIP 141</a> for SegWit and not

@@ -1,6 +1,6 @@
 <div class="step privacy">
   <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    <i class="fas fa-clock-rotate-left" style="z-index: 2; font-size: 22px;"></i>
+    {% include icon.html name="clock-rotate-left" style="z-index: 2; font-size: 22px;" %}
   </i>
   <div class="title">
     <h3>Released</h3>
@@ -16,19 +16,5 @@
     {% if page.released %}
     <span class="calculate-time-elapsed raw" data="{{ page.released | date: '%s' }}"></span>
     {% endif %}
-  </div>
-  {% if page.tooltip.releases %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.releases %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.releases | markdownify }}
-    </div>
-  {% endif %}
   </div>
 </div>

@@ -21,12 +21,10 @@ shop: https://shop.hito.xyz/products/hito-bitcoin-edition-beta
 country: US
 price: 150 USD
 repository: 
-issue: 
-icon: hito.png
+icon: hito.webp
 bugbounty: 
 meta: ok
 verdict: wip
-appHashes: 
 date: 2025-10-03
 signer: 
 twitter: hito_xyz
@@ -70,7 +68,7 @@ We will wait for further updates before changing our verdict.
 
 There are some changes to Hito's web presence:
 
-- Domain changed from https://gethito.com to https://hito.xyz
+- Domain changed from https://web.archive.org/web/20230209120050/http://www.gethito.com/ to https://hito.xyz
 - New social accounts
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">hardware wallet with 2&quot; super-bright touchscreen &gt; USB-ish device looking thingy<a href="https://t.co/8Wp7cIpMZd">https://t.co/8Wp7cIpMZd</a> <a href="https://t.co/eWVQmMHWJu">pic.twitter.com/eWVQmMHWJu</a></p>&mdash; Hito Hardware Wallet (@hitowallet) <a href="https://twitter.com/hitowallet/status/1585521883478269953?ref_src=twsrc%5Etfw">October 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -83,4 +81,4 @@ The verdict is unchanged.
 
 ## Previous Verdict 2021-08-08
 
-On the [provider’s website](https://gethito.com/) it suggests you join a wait list. It is assumed that this wallet is not currently available.
+On the [provider’s website](https://web.archive.org/web/20230209120050/http://www.gethito.com/) it suggests you join a wait list. It is assumed that this wallet is not currently available.

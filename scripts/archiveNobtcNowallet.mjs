@@ -1,12 +1,14 @@
-// This script scans markdown files in _android, _iphone, _hardware, bearer, _desktop and _others
+// This script scans markdown files in _mobile, _hardware, bearer, _desktop and _others
 // directories, identifies files with verdict "nobtc" or "nowallet", then archives them
 // by deleting their images, removing specified fields, and moving to _archived.
 
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath, pathToFileURL } from 'url';
 import helper from './helper.mjs';
+import { printRefreshSubsection } from './refresh-ui.mjs';
 
-const PLATFORMS = ['android', 'iphone', 'hardware', 'bearer', 'desktop', 'others'];
+const PLATFORMS = ['mobile', 'hardware', 'bearer', 'desktop', 'others'];
 const TARGET_VERDICTS = ['nobtc', 'nowallet'];
 const FIELDS_TO_KEEP = ['title', 'appId', 'meta', 'verdict'];
 
@@ -56,11 +58,42 @@ async function deleteImagesForFile(platform, icon) {
 function removeFields(header) {
   const updatedHeader = {};
   FIELDS_TO_KEEP.forEach(field => {
-    if (header.hasOwnProperty(field)) {
+    if (Object.prototype.hasOwnProperty.call(header, field)) {
       updatedHeader[field] = header[field];
     }
   });
   return updatedHeader;
+}
+
+function pickStoreField(mobile, field) {
+  const androidVal = mobile.android?.[field];
+  if (androidVal != null && androidVal !== '') {
+    return androidVal;
+  }
+  const iphoneVal = mobile.iphone?.[field];
+  if (iphoneVal != null && iphoneVal !== '') {
+    return iphoneVal;
+  }
+  const rootVal = mobile[field];
+  if (rootVal != null && rootVal !== '') {
+    return rootVal;
+  }
+  return undefined;
+}
+
+/** Flat archived frontmatter (title, appId, meta, verdict) from unified _mobile layout. */
+function buildArchivedMobileHeader(mobile) {
+  const archived = {};
+  if (mobile.title != null && mobile.title !== '') {
+    archived.title = mobile.title;
+  }
+  for (const field of ['appId', 'meta', 'verdict']) {
+    const value = pickStoreField(mobile, field);
+    if (value != null && value !== '') {
+      archived[field] = value;
+    }
+  }
+  return archived;
 }
 
 async function ensureArchiveDirectory(platform) {
@@ -101,7 +134,7 @@ async function updateFileReferences(filePath, walletIdentifier) {
     const content = await fs.readFile(filePath, 'utf8');
     const escapedWalletId = walletIdentifier.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const pattern = new RegExp(
-      `\\{%\\s*include\\s+walletLink\\.html\\s+wallet=['"]${escapedWalletId}['"]\\s+verdict=['"][^'"]*['"]\\s*%\\}`,
+      `\\{%\\s*include\\s+walletLink\\.html\\s+wallet=['"]${escapedWalletId}['"]\\s+verdict=(?:['"]?(?:true|false)['"]?)\\s*%\\}`,
       'g'
     );
     const newContent = content.replace(
@@ -146,7 +179,66 @@ function getWalletIdentifier(platform, fileName) {
   return `${platform}/${fileNameWithoutExt}`;
 }
 
+async function processMobileFile(fileName) {
+  const folder = '_mobile';
+  const filePath = path.join(folder, fileName);
+
+  try {
+    const content = helper.loadFromFile(filePath);
+    const { header, body } = content;
+
+    const matchesTarget = TARGET_VERDICTS.includes(header.verdict) ||
+      TARGET_VERDICTS.includes(header.android?.verdict) ||
+      TARGET_VERDICTS.includes(header.iphone?.verdict);
+    if (!matchesTarget) {
+      return { processed: false, reason: 'verdict does not match' };
+    }
+
+    const updatedHeader = buildArchivedMobileHeader(header);
+
+    let imagesDeleted = 0;
+    const imageErrors = [];
+    for (const storePlatform of ['android', 'iphone']) {
+      const icon = header[storePlatform]?.icon;
+      if (!icon?.trim()) continue;
+      const result = await deleteImagesForFile(storePlatform, icon);
+      imagesDeleted += result.deleted;
+      imageErrors.push(...result.errors);
+    }
+
+    const archiveDir = await ensureArchiveDirectory('mobile');
+    const archiveFilePath = path.join(archiveDir, fileName);
+    const updatedContent = helper.getResult(updatedHeader, '');
+    await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
+
+    const slug = fileName.replace(/\.md$/, '');
+    const walletIdentifier = `mobile/${slug}`;
+    const referenceUpdate = await updateWalletLinkReferences(walletIdentifier);
+
+    await fs.unlink(filePath);
+
+    return {
+      processed: true,
+      fileName,
+      imagesDeleted,
+      imageErrors,
+      referencesUpdated: referenceUpdate.totalUpdated,
+      referenceFiles: referenceUpdate.updatedFiles
+    };
+  } catch (error) {
+    return {
+      processed: false,
+      fileName,
+      error: error.message
+    };
+  }
+}
+
 async function processFile(platform, fileName) {
+  if (platform === 'mobile') {
+    return processMobileFile(fileName);
+  }
+
   const folder = `_${platform}`;
   const filePath = path.join(folder, fileName);
   
@@ -163,7 +255,7 @@ async function processFile(platform, fileName) {
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, body);
+    const updatedContent = helper.getResult(updatedHeader, '');
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const walletIdentifier = getWalletIdentifier(platform, fileName);
@@ -229,8 +321,7 @@ async function scanPlatform(platform) {
 }
 
 function printSummary(totalScanned, totalProcessed, allErrors) {
-  console.log('\n' + '='.repeat(50));
-  console.log('Summary:');
+  printRefreshSubsection('Summary');
   console.log(`  Total files scanned: ${totalScanned}`);
   console.log(`  Total files processed: ${totalProcessed}`);
   
@@ -251,9 +342,8 @@ async function main() {
   const allErrors = [];
 
   for (const platform of PLATFORMS) {
-    console.log(`\nProcessing platform: ${platform}`);
-    console.log('─'.repeat(50));
-    
+    printRefreshSubsection(`Processing platform: ${platform}`);
+
     const result = await scanPlatform(platform);
     totalScanned += result.scanned;
     totalProcessed += result.processed;
@@ -270,8 +360,16 @@ async function main() {
   console.log('\nArchive process completed.');
 }
 
-main().catch(error => {
-  console.error('Fatal error:', error);
-  process.exit(1);
-});
+export { buildArchivedMobileHeader, pickStoreField };
+
+const isArchiveNobtcCli =
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isArchiveNobtcCli) {
+  main().catch(error => {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  });
+}
 

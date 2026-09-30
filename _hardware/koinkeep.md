@@ -17,12 +17,10 @@ shop: https://web.archive.org/web/20200607031808/http://koinkeep.com/buy/
 country: US
 price: 100USD
 repository: https://github.com/KoinKeep/BitcoinSpoon
-issue: 
-icon: koinkeep.png
+icon: koinkeep.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: KoinKeep

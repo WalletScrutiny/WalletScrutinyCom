@@ -20,12 +20,10 @@ shop: https://www.amazon.com/gp/product/B00WIRLGH4/
 country: UK
 price: 29.99USD
 repository: 
-issue: 
-icon: mycelium.entropy.png
+icon: mycelium.entropy.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey
-appHashes: 
 date: 2024-11-15
 signer: 
 twitter: MyceliumCom

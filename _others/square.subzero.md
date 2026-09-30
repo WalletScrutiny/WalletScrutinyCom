@@ -3,7 +3,7 @@ title: Square Subzero HSM Based Cold Storage
 appId: square.subzero
 authors:
 - danny
-icon: square.subzero.png
+icon: square.subzero.webp
 date: 2022-05-26
 released: 2018-10-23
 updated: 2022-05-03

@@ -17,12 +17,10 @@ shop:
 country: EE
 price: 
 repository: 
-issue: 
-icon: scallop.png
+icon: scallop.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2024-10-22
 signer: 
 twitter: ScallopDefiBank

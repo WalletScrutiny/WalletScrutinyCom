@@ -17,18 +17,15 @@ dimensions:
 weight: 18
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-Razor.html
-shop: https://bithd.com/BITHD-Razor.html
+website: https://web.archive.org/web/20220928153643/https://bithd.com/BITHD-Razor.html
+shop: https://web.archive.org/web/20220928153643/https://bithd.com/BITHD-Razor.html
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-issue: 
-icon: bithdrazor.png
+icon: bithdrazor.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-appHashes:
-- 784c7448e0b713ef7952ebd454d4e809b15adffd23ac84cfdd3af06358e7cfe2
 date: 2022-11-25
 signer: 
 twitter: 

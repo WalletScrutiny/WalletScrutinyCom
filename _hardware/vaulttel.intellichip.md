@@ -17,12 +17,10 @@ shop:
 country: US
 price: 98USD
 repository: 
-issue: 
-icon: vaulttel.intellichip.png
+icon: vaulttel.intellichip.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-05-19
 signer: 
 twitter: vaulttel

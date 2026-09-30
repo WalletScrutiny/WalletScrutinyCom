@@ -14,7 +14,7 @@ then
     exit -1
 fi
 
-mkdir images/wIcons/{android,iphone,hardware,bearer,desktop,others}/{small,tiny}/ 2> /dev/null
+mkdir images/wIcons/{android,iphone,hardware,bearer,desktop,others,web}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
@@ -25,7 +25,9 @@ git --work-tree=$tmpDir checkout HEAD -- images/wIcons/
 logIfUnchanged() {
   changed=$1
   original=$tmpDir$changed
-  if [[ ! $changed =~ ^.*\.(jpg|png)$ ]]; then
+  if [ -d "$changed" ]; then
+    return
+  elif [[ ! $changed =~ ^.*\.(webp|jpg|png)$ ]]; then
     # if file is not a jpg or png, it is deleted.
     echo "Deleting unexpected $changed"
     rm $changed
@@ -39,7 +41,7 @@ logIfUnchanged() {
 export -f logIfUnchanged
 
 revertImagesThatDidNotChange() {
-  files=$( git status --porcelain -- images/wIcons/ | sed 's/^...//g' | tr '\n' ' ' )
+  files=$( git status --porcelain images/wIcons | awk '$1!="D"{print $2}' | tr '\n' ' ' )
   if [[ $files ]]; then parallel logIfUnchanged {} ::: $files; fi
   revertFiles=$( cat /tmp/revert.txt | paste -sd ' ' )
   if [[ $revertFiles ]]; then
@@ -56,7 +58,12 @@ resizeDeterministically() {
   source=$2/$filename
   target=$3/$filename
   size=$4
-  convert -background none $source -resize ${size}x $target 2> /dev/null
+  # +profile keeps the colour profile (it changes how the icon renders) but drops EXIF/XMP/Photoshop blocks;
+  # the png define drops text and date chunks, which would otherwise make every output differ per run.
+  # Icons are stored as WebP (quality 85, method 6 = slowest/smallest encoder); the same settings are used by
+  # helper.mjs when a store icon is downloaded, so a re-download of an unchanged icon encodes identically.
+  convert -background none $source +profile '!icc,*' -define png:exclude-chunks=date,tEXt,zTXt,iTXt,eXIf,tIME \
+    -quality 85 -define webp:method=6 -resize ${size}x $target 2> /dev/null
 }
 
 resizeMany() {
@@ -66,14 +73,14 @@ resizeMany() {
   if [ "$updateAllImages" ]; then
     files=$( ls $source/*.* )
   else
-    files=$( git status --porcelain -- $source/*.* | sed 's/^...//g' | tr '\n' ' ' )
+    files=$( git status --porcelain -- $source/*.* | awk '$1!="D"{print $2}' | tr '\n' ' ' )
   fi
   if [[ $files ]]; then parallel resizeDeterministically {/} $source $target $size ::: $files; fi
 }
 
 export -f resizeDeterministically
 
-for platform in android iphone hardware bearer desktop others; do
+for platform in android iphone hardware bearer desktop others web; do
   resizeMany images/wIcons/$platform images/wIcons/$platform/small 100
   resizeMany images/wIcons/$platform images/wIcons/$platform/tiny 25
 done
@@ -88,14 +95,28 @@ tmpFolder=/tmp/migrateImages
 rm -rf $tmpFolder 2> /dev/null
 mkdir --parents $tmpFolder/
 mv images/wIcons $tmpFolder
-mkdir --parents images/wIcons/{android,iphone,hardware,bearer,desktop,others}/{small,tiny}/ 2> /dev/null
+mkdir --parents images/wIcons/{android,iphone,hardware,bearer,desktop,others,web}/{small,tiny}/ 2> /dev/null
+# Icons for android/iphone live under nested blocks in _mobile/*.md (not _android/_iphone).
+collect_mobile_icons() {
+  local platform=$1
+  awk -v plat="$platform" '
+    $0 ~ "^" plat ":" { in_plat = 1; next }
+    /^[a-zA-Z]/ { in_plat = 0 }
+    in_plat && /^  icon: / { sub(/^  icon: /, ""); print }
+  ' _mobile/*.md 2>/dev/null | sort -u
+}
+
 folder='bearer'
-for folder in bearer android iphone hardware desktop others; do
-  icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename | sed 's/^icon: //g')
+for folder in bearer android iphone hardware desktop others web; do
+  if [ "$folder" = "android" ] || [ "$folder" = "iphone" ]; then
+    icons=$(collect_mobile_icons "$folder")
+  else
+    icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename 2>/dev/null | sed 's/^icon: //g')
+  fi
   for i in $icons; do
-    mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
+    [ -f "$tmpFolder/wIcons/${folder}/$i" ] && mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
     for s in small tiny; do
-      mv $tmpFolder/wIcons/${folder}/${s}/$i images/wIcons/${folder}/${s}/$i
+      [ -f "$tmpFolder/wIcons/${folder}/${s}/$i" ] && mv $tmpFolder/wIcons/${folder}/${s}/$i images/wIcons/${folder}/${s}/$i
     done
   done
 done

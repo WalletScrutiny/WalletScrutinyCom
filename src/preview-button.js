@@ -1,9 +1,8 @@
 /**
- * This module handles the preview button functionality for markdown content
- * It properly imports the marked library from node modules instead of using a CDN
+ * Preview tab for markdown content on the new verification form.
  */
 
-import {marked} from 'marked';
+import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
 
 /**
  * Initialize the preview button functionality
@@ -40,26 +39,32 @@ function setupPreviewButtons() {
       e.preventDefault();
       writeTab.classList.add('active');
       previewTab.classList.remove('active');
+      previewArea.style.height = '';
+      previewArea.style.overflowY = '';
       contentArea.style.display = 'block';
       previewArea.style.display = 'none';
     });
+
+    previewTab.addEventListener('mouseenter', prefetchMarked);
   
     // Set up Preview tab click handler
-    previewTab.addEventListener('click', (e) => {
+    previewTab.addEventListener('click', async (e) => {
       e.preventDefault();
       previewTab.classList.add('active');
       writeTab.classList.remove('active');
-      contentArea.style.display = 'none';
-      
+
+      const editorHeightPx = `${contentArea.offsetHeight}px`;
+      previewArea.style.height = editorHeightPx;
+      previewArea.style.overflowY = 'auto';
+
       try {
-        // Parse markdown content using the imported marked library
-        const markdownText = contentArea.value;
-        previewArea.innerHTML = marked.parse(markdownText);
+        previewArea.innerHTML = await parseMarkdownToSafeHtml(contentArea.value);
       } catch (error) {
         console.error('Error parsing markdown:', error);
         previewArea.innerHTML = '<p style="color: red;">Error parsing markdown content</p>';
       }
-      
+
+      contentArea.style.display = 'none';
       previewArea.style.display = 'block';
     });
 

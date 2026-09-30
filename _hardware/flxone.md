@@ -21,12 +21,10 @@ shop: https://www.amazon.com/FLX-One-Simple-use-Cryptocurrency/dp/B07JHMDV9X/ref
 country: US
 price: 69.99USD
 repository: 
-issue: 
-icon: flxone.png
+icon: flxone.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-appHashes: 
 date: 2021-12-08
 signer: 
 twitter: 

@@ -1,6 +1,7 @@
 ---
 title: Cypherock X1
 appId: cypherockx1
+bitcoinOrgId: cypherockx1
 authors:
 - kiwilamb
 - danny
@@ -10,8 +11,8 @@ authors:
 - keraliss
 released: 2022-04-07
 discontinued: 
-updated: 2025-12-31
-version: 0.6.3085
+updated: 2026-06-12
+version: 0.6.3331
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30
@@ -25,23 +26,35 @@ shop: https://shop.cypherock.com/
 country: IN
 price: 199USD
 repository: https://github.com/Cypherock/x1_wallet_firmware
-issue: 
-icon: cypherockx1.png
+icon: cypherockx1.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
-- cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562
 date: 2025-09-05
 signer: 
 twitter: CypherockWallet
 social:
 - https://www.linkedin.com/company/cypherockwallet
 - https://www.youtube.com/playlist?list=PL0db5IfQ4iyriWCgby_rJKeG31BLoxW7k
-builds: 
-features: 
+builds:
+- arch: arm
+  types:
+    bitcoin:
+    - Cypherock-Main-BTC.bin
+    multi:
+    - Cypherock-Main.bin
+features:
+- hd
+- nfc
+- secEl
+- tradeAlts
 
 ---
+
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="X1Wallet supports the feature to import any BIP39 compliant wallets" %}
+{% include featureEvidence.html feature="nfc" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="data exchange happens securely via NFC eliminating any risks of NFC spoofing" %}
+{% include featureEvidence.html feature="secEl" source="[Website](https://www.cypherock.com/)" quote="X1 Cards are encrypted NFC-based smartcards with EAL 6+ secure elements." %}
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://www.cypherock.com/)" quote="Experience fast and secure crypto swaps with Cypherock X1" %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4b8adc136ccda7863004060fb71745394ded985f/_hardware/cypherockx1.md)*
 

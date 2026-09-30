@@ -16,17 +16,15 @@ dimensions:
 weight: 12
 provider: Archos
 providerWebsite: https://www.archos.com/
-website: https://www.archos.com/products/crypto/archos_safetmini/index.html
-shop: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
+website: https://web.archive.org/web/20220529023758/http://www.archos.com/products/crypto/archos_safetmini/index.html
+shop: https://web.archive.org/web/20220630171450/https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
 country: FR
 price: 49.99EUR
 repository: 
-issue: 
-icon: archossafetmini.png
+icon: archossafetmini.webp
 bugbounty: 
 meta: obsolete
 verdict: nosource
-appHashes: 
 date: 2024-12-08
 signer: 
 twitter: ARCHOS

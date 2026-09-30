@@ -12,8 +12,7 @@ provider:
 providerWebsite: 
 website: https://ctrl.xyz/
 repository: 
-issue: 
-icon: xdefi_wallet.jpg
+icon: xdefi_wallet.webp
 bugbounty: 
 meta: deprecated
 verdict: nosource

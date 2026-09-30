@@ -6,7 +6,7 @@
  */
 
 import path from 'path';
-import minimist from 'minimist';
+import { parseCliFlags } from './helper.mjs';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
 import {
@@ -29,7 +29,7 @@ import {
 } from './github_common.mjs';
 
 // Parse command line arguments
-const args = minimist(process.argv.slice(2), {
+const args = parseCliFlags(process.argv.slice(2), {
   boolean: ['debug', 'help', 'dry-run'],
   string: ['github-token'],
   alias: {
@@ -279,10 +279,11 @@ async function fetchOneKeyVersion(model, repoPath, token) {
 
 async function fetchTrezorVersion(firmwareCode, token) {
   const modelMap = {
-    'trezor-one': 'LEGACY',
-    'trezor-t': 'T2T1', 
+    'trezor-one': 'T1B1',
+    'trezor-t': 'T2T1',
     'trezor-safe-3': 'T2B1',
-    'trezor-safe-5': 'T3T1'
+    'trezor-safe-5': 'T3T1',
+    'trezor-safe-7': 'T3W1'
   };
 
   const trezorModel = modelMap[firmwareCode];
@@ -398,6 +399,7 @@ async function getDeviceVersion(fileName, repoUrl, token) {
     else if (lowerFileName.includes('trezort.md')) trezorModelId = 'trezor-t';
     else if (lowerFileName.includes('trezorsafe3.md')) trezorModelId = 'trezor-safe-3';
     else if (lowerFileName.includes('trezorsafe5.md')) trezorModelId = 'trezor-safe-5'; // Assuming T3T1 maps to 'trezor-safe-5' for the modelMap
+    else if (lowerFileName.includes('trezorsafe7.md')) trezorModelId = 'trezor-safe-7'; // T3W1
     else {
       // Fallback for unknown Trezor models, though unlikely
       debugLog(`Unknown Trezor variant: ${fileName}, using generic fetch.`, args);

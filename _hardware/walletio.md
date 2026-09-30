@@ -21,12 +21,10 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
-icon: walletio.png
+icon: walletio.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-appHashes: 
 date: 2022-04-11
 signer: 
 twitter: io_wallet

@@ -17,25 +17,27 @@ shop: https://shop.cryptnox.com/
 country: CH
 price: 49CHF
 repository: https://github.com/Cryptnox-Software/cryptnoxpro
-issue: 
-icon: cryptnox.bg1card.png
+icon: cryptnox.bg1card.webp
 bugbounty: 
 meta: ok
 verdict: noita
-appHashes: 
 date: 2023-11-15
 signer: 
 twitter: cryptnox
 social: 
 builds: 
-features: 
+features:
+- foss
+- hd
+- nfc
+- secEl
 
 ---
 
 ## Updated Review 2023-11-15
 
 - Changed price to reflect price changes on the website
-- Added the companion app {% include walletLink.html wallet='iphone/com.cryptnox.companion' verdict='true' %} and {% include walletLink.html wallet='android/com.cryptnox.cryptnoxwallet' verdict='true' %}
+- Added the companion app {% include walletLinkArchived.html wallet='iphone/com.cryptnox.companion' %} and {% include walletLinkArchived.html wallet='android/com.cryptnox.cryptnoxwallet' %}
 
 ## Background 
 
@@ -97,7 +99,7 @@ Python3 CLI client for:
 [Documentation](https://cryptnox.com/get-software/) has been provided by the project
 
 ### Software
-- [The Crypnox Software](https://github.com/Cryptnox-Software)
+- [The Crypnox Software](https://web.archive.org/web/20251108141924/https://github.com/Cryptnox-Software)
 - [Cryptnox Py](https://github.com/Cryptnox-Software/cryptnoxpy)
 - [Cryptnox Card](https://github.com/Cryptnox-Software/cryptnoxcard)
 - [PyPi - Cryptnox Card](https://pypi.org/project/cryptnoxcard/)
@@ -127,3 +129,11 @@ The device noticeably has no display or means for the user to interact directly 
 
 Without a display, the user would not be able to approve transactions physically using the card. Transactions may be **signed blindly.**
 
+{% include featureEvidence.html feature="nfc" quote="Standard PC/SC Smart card Readers: either USB NFC reader or a USB smart card reader" source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="Standard 12/24 Words (BIP 39) - BIP32 & SLIP10 Key Derivation fully On-Card (no Parity Recovery needed) and Digital Signature" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="foss" quote="cryptnox-cli is dual-licensed: - **LGPL-3.0** for open-source projects and proprietary projects that comply with LGPL requirements" source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="secEl" quote="Common Criteria EAL6+ Certified Chipset" source="Existing WalletScrutiny review" %}

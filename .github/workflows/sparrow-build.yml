@@ -1,0 +1,59 @@
+name: Sparrow Reproducible Build (Windows)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Sparrow version (without leading v, e.g. 2.5.1)'
+        required: true
+        type: string
+      jdk_version:
+        description: 'Eclipse Temurin JDK version (e.g. 25.0.2)'
+        required: false
+        type: string
+        default: '25.0.2'
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout Sparrow
+        uses: actions/checkout@v4
+        with:
+          repository: sparrowwallet/sparrow
+          ref: ${{ inputs.version }}
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Clear Java tool-cache for reproducibility
+        shell: bash
+        run: rm -rf "$RUNNER_TOOL_CACHE/Java_*"
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: ${{ inputs.jdk_version }}
+
+      - name: Show Gradle version
+        run: ./gradlew -v
+
+      - name: Build with Gradle (jpackage)
+        run: ./gradlew jpackage
+
+      - name: Package Windows zip distribution
+        run: ./gradlew packageZipDistribution
+
+      - name: Upload MSI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sparrow-${{ inputs.version }}-win-msi
+          path: build/jpackage/*.msi
+          if-no-files-found: error
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sparrow-${{ inputs.version }}-win-zip
+          path: build/jpackage/*.zip
+          if-no-files-found: error
