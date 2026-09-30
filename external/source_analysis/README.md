@@ -12,11 +12,96 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
 
-## Installation
+## Installation (development)
 
 ```bash
 cd external/source_analysis
 npm install
+npm test
+node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus
+```
+
+A dev run keeps its files in this folder: `assets.db`, `backup/` and `temp_repos/`
+(all ignored by git). Nothing else is written.
+
+## Install and run as a systemd service
+
+The service runs on the build server, from the same tree, as the same user and
+with the same GitHub token as the Automated Build Server (`external/build_server`),
+as a oneshot unit fired by a timer every 6 hours:
+
+| | |
+|---|---|
+| units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer` |
+| working directory | `/opt/build-server/walletScrutinyCom/external/source_analysis` |
+| user | `build-server` |
+| database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
+| clones and caches | `/var/cache/walletscrutiny-source-analysis/` (`SOURCE_ANALYSIS_TEMP_DIR`, `npm_config_cache`, `GRADLE_USER_HOME`) |
+| GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
+| logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
+
+The state and cache directories are created by systemd (`StateDirectory`,
+`CacheDirectory`). The analysed repositories are untrusted, so the unit sets
+`npm_config_ignore_scripts=true` (their npm lifecycle scripts never run) and
+`GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of
+waiting for credentials).
+
+### Server preparation
+
+The build server is already prepared (user, docker group, node): see
+`external/build_server/README.md`. The only extra requirement is the GitHub
+token credential, which the build server already has. To give the source
+analysis its own token instead (separate API rate limit), create a second
+credential and point the two `build-server-gh-token` lines of the unit at it:
+
+```bash
+echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=source-analysis-gh-token - /etc/credstore.encrypted/source-analysis-gh-token
+```
+
+### Deploy from your machine
+
+```bash
+npm run deploy:source-analysis          # RUN_NOW=1 to start a run right after the deploy
+```
+
+Requires SSH to `build.walletscrutiny.com` as root (see `~/.ssh/config`). The
+script runs the tests locally, rsyncs the tree with the same rules as
+`npm run deploy:build-server` (the two deploys are independent and can run in
+any order), installs this folder's npm dependencies as `build-server`, copies
+the two units to `/etc/systemd/system/` and enables the timer.
+
+### Install by hand
+
+```bash
+cd /opt/build-server/walletScrutinyCom/external/source_analysis
+sudo -u build-server npm ci
+sudo cp config/walletscrutiny-source-analysis.service /etc/systemd/system/
+sudo cp config/walletscrutiny-source-analysis.timer /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now walletscrutiny-source-analysis.timer
+```
+
+## Source analysis admin
+
+```bash
+sudo systemctl list-timers walletscrutiny-source-analysis.timer    # next and last run
+sudo systemctl start walletscrutiny-source-analysis.service        # run now (blocks until the pass ends; add --no-block)
+sudo systemctl status walletscrutiny-source-analysis.service
+sudo journalctl -u walletscrutiny-source-analysis.service -f
+sudo systemctl stop walletscrutiny-source-analysis.service         # abort a running pass
+```
+
+A pass walks every repository of the site list; the first pass on an empty
+database analyses the latest release of each of them and takes hours, later
+passes only analyse new releases. If a pass is still running when the timer
+fires again, that firing is skipped.
+
+Query the service database with the CLI in this folder:
+
+```bash
+cd /opt/build-server/walletScrutinyCom/external/source_analysis
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db \
+  node pinning-cli.mjs --ships npm:lodash@4.17.15
 ```
 
 ## Which apps are analysed
@@ -39,7 +124,7 @@ listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
 organisation pages) are skipped with a warning.
 
 ```bash
-node index.mjs --githubToken ghp_xxx                        # whole list
+node index.mjs --githubToken ghp_xxx                        # whole list (the service: GITHUB_TOKEN_FILE=<file>)
 node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus  # one job (appId or alias), repeatable
 node index.mjs --githubToken ghp_xxx --app-list ./list.json  # a local or alternative list
 ```

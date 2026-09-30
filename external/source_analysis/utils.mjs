@@ -1,6 +1,22 @@
 import axios from 'axios';
+import { readFileSync } from 'fs';
 import { getPreviousReleases, getPreviousAssetVersions } from './ddbbUtils.mjs';
 import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT } from './config.mjs';
+
+// Secrets come from a file named by an environment variable (the systemd unit
+// passes its LoadCredential files this way, same as build_server), with the
+// command line as a dev-only fallback. Returns null when neither is set.
+export function loadSecret({ name, fileEnv, argValue = null, env = process.env }) {
+  const filePath = env[fileEnv];
+  if (filePath) {
+    return readFileSync(filePath, 'utf8').trim();
+  }
+  if (argValue) {
+    console.warn(`Warning: Using ${name} from argv (dev only)`);
+    return argValue;
+  }
+  return null;
+}
 
 // Extract repository path from GitHub URL
 export function extractRepoPath(repoUrl) {

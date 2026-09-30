@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist';
-import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset } from './utils.mjs';
+import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis } from './appAnalysis.mjs';
 import { APPS, APP_LIST_URL } from './config.mjs';
@@ -111,13 +111,13 @@ const argv = minimist(process.argv.slice(2), {
   }
 });
 
-// Extract token arguments
-const githubToken = argv.githubToken || null;
-const dockerToken = argv.dockerToken || null;
+// Tokens: GITHUB_TOKEN_FILE / DOCKER_TOKEN_FILE (the service), --githubToken / --dockerToken (dev)
+const githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE', argValue: argv.githubToken });
+const dockerToken = loadSecret({ name: 'DOCKER_TOKEN', fileEnv: 'DOCKER_TOKEN_FILE', argValue: argv.dockerToken });
 const includeTestFiles = Boolean(argv.includeTestFiles);
 
 if (!githubToken && !dockerToken) {
-  console.log('No tokens provided via command line');
+  console.error('No token provided: set GITHUB_TOKEN_FILE (or DOCKER_TOKEN_FILE), or pass --githubToken / --dockerToken');
   process.exit(1);
 }
 
