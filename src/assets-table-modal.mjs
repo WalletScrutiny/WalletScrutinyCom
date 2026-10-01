@@ -1,5 +1,6 @@
 import { wsIcon } from './icon.mjs';
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
+import { SELF_ATTESTATION_BADGE_TITLE } from "./assets-table-paint.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
@@ -11,7 +12,7 @@ import {
   getOriginalUrlBeforeModal,
   resolveVerificationById,
 } from "./assets-table-state.mjs";
-import { getVerificationEvent } from "./verifications_utils.mjs";
+import { getVerificationEvent, SELF_ATTESTATION_REPORT_REASON } from "./verifications_utils.mjs";
 import {
   loadEndorsementsForVerification,
 } from "./assets-table-endorsements.mjs";
@@ -241,19 +242,33 @@ function openVerificationReportConfirmModal(verification, reason) {
   document.getElementById('verificationReportConfirmModal').style.display = 'block';
 }
 
-function initVerificationAdminReportControls(verification) {
+function initVerificationAdminReportControls(verification, isSelfAttested = false) {
   const wrap = document.getElementById('adminReportVerificationWrap');
   const menu = document.getElementById('adminReportVerificationMenu');
   const reportBtn = document.getElementById('adminReportVerificationBtn');
+  const selfAttestationBtn = document.getElementById('adminMarkSelfAttestationBtn');
   if (!wrap || !menu || !reportBtn) {
     return;
   }
   menu.style.display = 'none';
   if (!isWalletScrutinySiteAdmin(window.userPubkey)) {
     wrap.style.display = 'none';
+    if (selfAttestationBtn) {
+      selfAttestationBtn.style.display = 'none';
+    }
     return;
   }
   wrap.style.display = 'inline-block';
+  if (selfAttestationBtn) {
+    selfAttestationBtn.style.display = 'inline-block';
+    selfAttestationBtn.disabled = isSelfAttested;
+    selfAttestationBtn.textContent = isSelfAttested ? 'Marked as self-attestation' : 'Mark as self-attestation';
+    selfAttestationBtn.onclick = (e) => {
+      e.stopPropagation();
+      menu.style.display = 'none';
+      openVerificationReportConfirmModal(verification, SELF_ATTESTATION_REPORT_REASON);
+    };
+  }
 
   const applyAdminReportMenuTheme = () => {
     const isDark = window.theme === 'dark';
@@ -622,9 +637,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const isMine = verification.pubkey === window.userPubkey;
   const isDraft = verification.kind === verificationDraftKind;
   const isMyDraft = isDraft && isMine;
+  const isSelfAttested = Boolean(response.selfAttestedVerificationIds?.has(verification.id));
 
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
   toolbarRowHtml += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  toolbarRowHtml += isSelfAttested
+    ? htmlOf(el('span', { className: 'verification-modal-self-attestation', title: SELF_ATTESTATION_BADGE_TITLE },
+        el('span', { className: 'verification-self-attestation-badge' }, 'Self-attestation'),
+        ' Signed by a developer of this app, as marked by WalletScrutiny admins. Not an independent reproduction.'))
+    : '';
   toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
   const editParams = new URLSearchParams({ action: 'edit' });
   if (isMyDraft) {
@@ -660,6 +681,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
       </div>
     </span>
+    <button type="button" class="btn btn-secondary" id="adminMarkSelfAttestationBtn" style="display: none; font-size: 16px; margin: 0;" title="${SELF_ATTESTATION_BADGE_TITLE}">Mark as self-attestation</button>
   </div>`;
   toolbarRowHtml += isMine
     ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
@@ -852,7 +874,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
 
-  initVerificationAdminReportControls(verification);
+  initVerificationAdminReportControls(verification, isSelfAttested);
   initWriteVerificationMenuControls();
 
   if (diffoscopeFiles.length > 0) {

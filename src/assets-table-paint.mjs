@@ -287,15 +287,19 @@ export function createBlossomDownloadButton({
   return button;
 }
 
-export function createVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft }) {
+export const SELF_ATTESTATION_BADGE_TITLE = 'Marked by WalletScrutiny admins: signed by a developer of this app. The signer controls the release key, so this is not an independent reproduction.';
+export const SELF_ATTESTATION_NOTE = 'Signed by the app developer. Independent reproduction still wanted.';
+
+export function createVerificationCard({ attestation, sha256HashKey, identifier, platform, isMyDraft, isSelfAttested = false }) {
   const status = getFirstTagValue(attestation, 'status');
   const attestationDate = formatDate(attestation.created_at);
   const statusModifier = getVerificationStatusModifier(status);
   const statusLabel = getStatusText(status, true);
   const pubkey = hexOrEmpty(attestation.pubkey);
+  const modifiers = `${isMyDraft ? ' verification-card--draft' : ''}${isSelfAttested ? ' verification-card--self-attestation' : ''}`;
 
   return el('div', {
-    className: `verification-card attestation-link${isMyDraft ? ' verification-card--draft' : ''}`,
+    className: `verification-card attestation-link${modifiers}`,
     role: 'button',
     tabindex: '0',
     dataset: {
@@ -315,8 +319,12 @@ export function createVerificationCard({ attestation, sha256HashKey, identifier,
             el('span', { className: 'attestation-status' }, statusLabel),
           ),
           isMyDraft ? el('span', { className: 'verification-draft-badge' }, 'Draft') : null,
+          isSelfAttested
+            ? el('span', { className: 'verification-self-attestation-badge', title: SELF_ATTESTATION_BADGE_TITLE }, 'Self-attestation')
+            : null,
         ),
         el('time', { className: 'verification-card__date' }, attestationDate),
+        isSelfAttested ? el('div', { className: 'verification-card__note' }, SELF_ATTESTATION_NOTE) : null,
       ),
     ),
   );
@@ -398,6 +406,7 @@ export function createVerificationsCell({
   platform,
   version,
   hideButtons,
+  selfAttestedVerificationIds = null,
 }) {
   const cell = el('div', { className: 'verification-cell' });
 
@@ -428,6 +437,7 @@ export function createVerificationsCell({
       identifier,
       platform,
       isMyDraft: isDraft && isMine,
+      isSelfAttested: Boolean(selfAttestedVerificationIds?.has(attestation.id)),
     }));
   }
   cell.appendChild(list);
@@ -804,6 +814,7 @@ export function paintMainAssetsTable({
         platform,
         version,
         hideButtons: hideConfig?.buttons,
+        selfAttestedVerificationIds: assetInfo.selfAttestedVerificationIds,
       }));
       row.appendChild(verificationsTd);
 

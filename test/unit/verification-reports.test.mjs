@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { reportedIdsFromReports, buildVerificationReportFilters } from '../../src/verifications_utils.mjs';
+import { reportedIdsFromReports, selfAttestedIdsFromReports, buildVerificationReportFilters } from '../../src/verifications_utils.mjs';
 import { siteAdminPubkeys, verificationReportKind, verificationEventsSinceTS } from '../../src/nostr-constants.mjs';
 import { makeEvent } from './fixtures.mjs';
 
@@ -81,6 +81,44 @@ describe('reportedIdsFromReports', () => {
 
   test('returns empty set when there are no requested ids', () => {
     assert.equal(reportedIdsFromReports([makeReport()], []).size, 0);
+  });
+
+  test('a self_attestation report does not hide the verification', () => {
+    const reported = reportedIdsFromReports(
+      [makeReport({ reason: 'self_attestation' })],
+      [VERIFICATION_A]
+    );
+    assert.equal(reported.size, 0);
+  });
+});
+
+describe('selfAttestedIdsFromReports', () => {
+  test('labels a verification an admin reported as self_attestation', () => {
+    const labelled = selfAttestedIdsFromReports(
+      [makeReport({ reason: 'self_attestation' })],
+      [VERIFICATION_A]
+    );
+    assert.deepEqual([...labelled], [VERIFICATION_A]);
+  });
+
+  test('ignores hide reasons and non-admin authors', () => {
+    const labelled = selfAttestedIdsFromReports(
+      [
+        makeReport({ reason: 'spam' }),
+        makeReport({ reason: 'incorrect' }),
+        makeReport({ reason: 'self_attestation', pubkey: NON_ADMIN }),
+      ],
+      [VERIFICATION_A]
+    );
+    assert.equal(labelled.size, 0);
+  });
+
+  test('intersects e tags with the requested ids', () => {
+    const labelled = selfAttestedIdsFromReports(
+      [makeReport({ reason: 'self_attestation', eTags: [VERIFICATION_A, VERIFICATION_B] })],
+      [VERIFICATION_B]
+    );
+    assert.deepEqual([...labelled], [VERIFICATION_B]);
   });
 });
 

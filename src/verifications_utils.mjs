@@ -467,14 +467,23 @@ const createVerification = async function ({
   return published;
 }
 
-const REPORT_REASONS = new Set(['spam', 'incorrect']);
+/** Admin report reasons that hide the verification from the site. */
+const HIDE_REPORT_REASONS = new Set(['spam', 'incorrect']);
+/**
+ * Admin report reason that keeps the verification visible but labels it as
+ * signed by a developer of the app (the signer controls the release key, so
+ * it is not an independent reproduction).
+ */
+const SELF_ATTESTATION_REPORT_REASON = 'self_attestation';
+const REPORT_REASONS = new Set([...HIDE_REPORT_REASONS, SELF_ATTESTATION_REPORT_REASON]);
 const EVENT_ID_HEX_RE = /^[0-9a-f]{64}$/i;
 
 /**
  * Verification ids to hide from admin verification-report events.
  * Non-admin authors, unknown reasons, and e tags outside requestedIds are ignored.
+ * `reasons` selects which report reasons count; the default is the hide set.
  */
-function reportedIdsFromReports(reportEvents, requestedIds) {
+function reportedIdsFromReports(reportEvents, requestedIds, reasons = HIDE_REPORT_REASONS) {
   const requested = new Set(requestedIds);
   const reported = new Set();
   if (!requested.size) {
@@ -485,7 +494,7 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
     if (!isWalletScrutinySiteAdmin(ev.pubkey)) {
       continue;
     }
-    if (!REPORT_REASONS.has(getFirstTagValue(ev, 'r', null))) {
+    if (!reasons.has(getFirstTagValue(ev, 'r', null))) {
       continue;
     }
     for (const t of ev.tags || []) {
@@ -499,6 +508,11 @@ function reportedIdsFromReports(reportEvents, requestedIds) {
     }
   }
   return reported;
+}
+
+/** Verification ids that site admins marked as self-attestations (shown, not hidden). */
+function selfAttestedIdsFromReports(reportEvents, requestedIds) {
+  return reportedIdsFromReports(reportEvents, requestedIds, new Set([SELF_ATTESTATION_REPORT_REASON]));
 }
 
 const VERIFICATION_REPORT_FETCH_CHUNK = 30;
@@ -531,14 +545,16 @@ function buildVerificationReportFilters(verificationEventIds, { unscoped = false
 }
 
 /**
- * Fetches verification-report events for the given verification ids.
+ * Fetches verification-report events for the given verification ids and
+ * splits them into ids to hide and ids to label as self-attestations.
  * Relay author filter is an optimization; pubkey and reason are re-checked client-side.
  */
-async function fetchReportsForVerificationIds(verificationEventIds, { unscoped = false } = {}) {
-  const reported = new Set();
+async function fetchVerificationReports(verificationEventIds, { unscoped = false } = {}) {
+  const hidden = new Set();
+  const selfAttested = new Set();
   const filters = buildVerificationReportFilters(verificationEventIds, { unscoped });
   if (!filters.length) {
-    return reported;
+    return { hidden, selfAttested };
   }
   await ensureNostrConnected();
   for (const filter of filters) {
@@ -550,13 +566,21 @@ async function fetchReportsForVerificationIds(verificationEventIds, { unscoped =
         });
       }
       for (const eventId of reportedIdsFromReports(batch, verificationEventIds)) {
-        reported.add(eventId);
+        hidden.add(eventId);
+      }
+      for (const eventId of selfAttestedIdsFromReports(batch, verificationEventIds)) {
+        selfAttested.add(eventId);
       }
     } catch (e) {
-      console.warn('fetchReportsForVerificationIds: chunk failed', e);
+      console.warn('fetchVerificationReports: chunk failed', e);
     }
   }
-  return reported;
+  return { hidden, selfAttested };
+}
+
+/** Verification ids hidden by admin reports (network). */
+async function fetchReportsForVerificationIds(verificationEventIds, options = {}) {
+  return (await fetchVerificationReports(verificationEventIds, options)).hidden;
 }
 
 /**
@@ -1079,20 +1103,28 @@ function verificationIdsFromEvents(events) {
   ).map(e => e.id);
 }
 
-async function loadCachedReportedVerificationIds(verificationEventIds, since) {
+/** Cached admin reports split into ids to hide and ids to label as self-attestations. */
+async function loadCachedVerificationReports(verificationEventIds, since) {
   if (!verificationEventIds.length) {
-    return new Set();
+    return { hidden: new Set(), selfAttested: new Set() };
   }
   try {
     const cachedReports = await getEventsFromIDB({
       kinds: [verificationReportKind],
       since
     });
-    return reportedIdsFromReports(cachedReports, verificationEventIds);
+    return {
+      hidden: reportedIdsFromReports(cachedReports, verificationEventIds),
+      selfAttested: selfAttestedIdsFromReports(cachedReports, verificationEventIds),
+    };
   } catch (e) {
     console.warn('Failed to load cached verification reports from IDB', e);
-    return new Set();
+    return { hidden: new Set(), selfAttested: new Set() };
   }
+}
+
+async function loadCachedReportedVerificationIds(verificationEventIds, since) {
+  return (await loadCachedVerificationReports(verificationEventIds, since)).hidden;
 }
 
 /**
@@ -1416,7 +1448,7 @@ export function getVerificationHashList(event) {
     .map(tag => tag[1]);
 }
 
-function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
+function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null, selfAttestedVerificationIds = null) {
   const reported = reportedVerificationIds?.size ? reportedVerificationIds : null;
 
   const assetsMap = new Map();
@@ -1478,6 +1510,7 @@ function processEventsToResult(events, oldestEventTimestamp, reportedVerificatio
     assets: assetsMap,
     verifications: verificationsMap,
     draftVerifications: draftVerificationsMap,
+    selfAttestedVerificationIds: new Set(selfAttestedVerificationIds || []),
     oldestEventTimestamp: oldestEventTimestamp
   };
 }
@@ -1497,10 +1530,10 @@ const getAllAssetInformation = async function({ months,
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
 
-  const resolveReportedVerificationIds = async (eventSet) => {
+  const resolveVerificationReports = async (eventSet) => {
     const verificationEventIds = verificationIdsFromEvents(eventSet);
     const unscoped = !appId && !sha256 && !pubkey;
-    return fetchReportsForVerificationIds(verificationEventIds, { unscoped });
+    return fetchVerificationReports(verificationEventIds, { unscoped });
   };
 
   let events = new Set();
@@ -1570,11 +1603,16 @@ const getAllAssetInformation = async function({ months,
 
       if (loadedFromIDB && onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const reportedFromCache = await loadCachedReportedVerificationIds(
+        const reportsFromCache = await loadCachedVerificationReports(
           verificationIdsFromEvents(events),
           baseSince
         );
-        const quickResult = processEventsToResult(new Set(events), oldestEventTimestamp, reportedFromCache);
+        const quickResult = processEventsToResult(
+          new Set(events),
+          oldestEventTimestamp,
+          reportsFromCache.hidden,
+          reportsFromCache.selfAttested
+        );
         onCachedDataLoaded(quickResult);
       }
     }
@@ -1734,13 +1772,14 @@ const getAllAssetInformation = async function({ months,
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
 
-  const reportedFromCache = await loadCachedReportedVerificationIds(
+  const reportsFromCache = await loadCachedVerificationReports(
     verificationIdsFromEvents(events),
     baseSince
   );
-  const reportedFromNetwork = await resolveReportedVerificationIds(events);
-  const reportedVerificationIds = new Set([...reportedFromCache, ...reportedFromNetwork]);
-  const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds);
+  const reportsFromNetwork = await resolveVerificationReports(events);
+  const reportedVerificationIds = new Set([...reportsFromCache.hidden, ...reportsFromNetwork.hidden]);
+  const selfAttestedVerificationIds = new Set([...reportsFromCache.selfAttested, ...reportsFromNetwork.selfAttested]);
+  const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds, selfAttestedVerificationIds);
 
   console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
   console.timeEnd('getAllAssetInformation' + randomNumber);
@@ -2564,6 +2603,8 @@ export {
   subscribeToZapReceipts,
   createAuthorizationEvent,
   reportedIdsFromReports,
+  selfAttestedIdsFromReports,
+  SELF_ATTESTATION_REPORT_REASON,
   buildVerificationReportFilters,
   eventSanitize,
   isVerificationReported,
