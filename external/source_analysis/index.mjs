@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
+import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis } from './appAnalysis.mjs';
-import { APPS, APP_LIST_URL } from './config.mjs';
+import { pruneCache } from './containerRunner.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR } from './config.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 
 // Main function
@@ -155,6 +157,10 @@ if (wantedIds.length) {
   jobs = jobs.filter(j => wantedIds.includes(j.appId) || (j.aliases || []).some(a => wantedIds.includes(a.appId)));
 }
 
+// Leftovers of an interrupted pass (each repository's scratch dir is deleted
+// when its analysis ends; a kill mid-way leaves one behind).
+fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
+
 console.log(`Processing ${jobs.length} app(s)...\n`);
 
 try {
@@ -206,6 +212,11 @@ try {
       // Continue with next app instead of stopping
     }
   }
+
+  // Scratch dirs are deleted per repository; the shared package caches only
+  // when they outgrow their cap.
+  fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
+  pruneCache();
 
   console.log(`\n${'='.repeat(50)}`);
   console.log(`Summary: ${successCount} succeeded, ${errorCount} failed`);

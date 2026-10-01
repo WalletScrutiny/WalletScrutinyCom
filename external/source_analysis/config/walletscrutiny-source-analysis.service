@@ -17,15 +17,19 @@ LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-ser
 
 Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
 Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db
+# Per-repository scratch (clone, node_modules, result), deleted after each repository
 Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/repos
-# The analysed repositories are untrusted: never run their npm lifecycle scripts,
-# and never wait on a credential prompt for a private or removed repository
-Environment=npm_config_ignore_scripts=true
-Environment=GIT_TERMINAL_PROMPT=0
-
-# npm / gradle caches of the analysed repositories go to the cache directory
-Environment=npm_config_cache=/var/cache/walletscrutiny-source-analysis/npm
-Environment=GRADLE_USER_HOME=/var/cache/walletscrutiny-source-analysis/gradle
+# npm/yarn/gradle/pip caches shared by the analysis containers, wiped past the cap
+Environment=SOURCE_ANALYSIS_CACHE_DIR=/var/cache/walletscrutiny-source-analysis/cache
+Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
+# The analysed repositories are untrusted: clone, install and checks run in a
+# throwaway container (containerRunner.mjs: no token, no database, no docker
+# socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;
+# npm lifecycle scripts disabled and no credential prompts inside). The process
+# here only drives docker. Image, limits and timeout: config.mjs, overridable with
+# SOURCE_ANALYSIS_IMAGE, SOURCE_ANALYSIS_CONTAINER_MEMORY, SOURCE_ANALYSIS_CONTAINER_CPUS,
+# SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN.
+Environment=SOURCE_ANALYSIS_CONTAINER_CLI=docker
 
 NoNewPrivileges=yes
 PrivateTmp=yes

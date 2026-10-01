@@ -37,6 +37,24 @@ export const APPS = [
 export const DEFAULT_TEMP_DIR = process.env.SOURCE_ANALYSIS_TEMP_DIR || join(__dirname, 'temp_repos');
 // Fully qualified so it resolves the same under docker and podman
 export const SEMGREP_IMAGE = 'docker.io/semgrep/semgrep';
+
+// Container the per-repository work runs in (containerRunner.mjs). Pinned by
+// digest: a third-party image that runs untrusted code in isolation, bumped
+// deliberately. mingc/android-build-box ships Android SDK platforms 28-35 +
+// NDK, JDK 8/11/17/21, Node 22, Python 3 and Flutter, which covers every
+// ecosystem the checks know (gradle, npm/yarn, pip; maven is not in it and no
+// tracked wallet uses it).
+export const ANALYSIS_IMAGE = process.env.SOURCE_ANALYSIS_IMAGE ||
+  'docker.io/mingc/android-build-box:1.29.0@sha256:f7d2376b3fe17c7cff946f4da41d2254dc40c4f7bacbe0dca7a3910b06bc2d21';
+export const CONTAINER_CLI = process.env.SOURCE_ANALYSIS_CONTAINER_CLI || 'docker'; // docker or podman
+export const CONTAINER_MEMORY = process.env.SOURCE_ANALYSIS_CONTAINER_MEMORY || '6g';
+export const CONTAINER_CPUS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_CPUS || 2);
+export const CONTAINER_PIDS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_PIDS || 2048); // counts threads too
+export const CONTAINER_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN || 45) * 60 * 1000; // per repository
+// Shared npm/yarn/gradle/pip caches mounted into every container; wiped when
+// they grow past the cap (index.mjs calls pruneCache after each pass).
+export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');
+export const CACHE_MAX_BYTES = Number(process.env.SOURCE_ANALYSIS_CACHE_MAX_GB || 20) * 1e9;
 export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
 export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
