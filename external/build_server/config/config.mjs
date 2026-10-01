@@ -13,6 +13,16 @@ export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717
 // Hours between main process executions
 export const HOURS_BETWEEN_EXECUTIONS = 1;
 
+// Asset Registry watch: a live relay subscription wakes the main loop early
+// when a new asset is registered, instead of waiting for the next scheduled
+// execution. The scheduled scan stays the source of truth.
+// Seconds to wait after the first new asset before waking (a bundle
+// registration arrives as several events in a row).
+export const ASSET_WATCH_DEBOUNCE_SECONDS = 30;
+// Minutes between watchdog checks that re-open the subscription on relays that
+// are disconnected (set to 0 to disable the watchdog).
+export const ASSET_WATCH_WATCHDOG_MINUTES = 5;
+
 // Feature flag: when true, mainProcess also refreshes desktop/hardware wallet
 // versions and queues verifications for any new release found in the wallet
 // repos (in addition to assets registered in the Asset Registry).
