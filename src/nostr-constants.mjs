@@ -75,7 +75,6 @@ export const verificationReportKind = isDebugEnv() ? 11984 : 1984;
  */
 export const siteAdminPubkeys = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
-  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
   '46fcbe3065eaf1ae7811465924e48923363ff3f526bd6f73d7c184b16bd8ce4d', // Leo
   '03b5036dc3db82604307c1964d2b926417a91c3b11ef75ba6ca55019e9b7a62a', // Luis
 ];

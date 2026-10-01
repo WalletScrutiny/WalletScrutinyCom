@@ -22,6 +22,11 @@ describe('isWalletScrutinySiteAdmin', () => {
     assert.equal(isWalletScrutinySiteAdmin(''), false);
     assert.equal(isWalletScrutinySiteAdmin(null), false);
   });
+
+  test('former team members are no longer admins', () => {
+    const keraliss = '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45';
+    assert.equal(isWalletScrutinySiteAdmin(keraliss), false);
+  });
 });
 
 describe('relay URL lists', () => {

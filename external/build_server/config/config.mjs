@@ -5,7 +5,6 @@ import { isDebugEnv } from './argv.mjs';
 // Approved verifiers public keys (hex format)
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
-  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
 ];
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
