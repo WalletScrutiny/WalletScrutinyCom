@@ -45,6 +45,8 @@ notes: |
 - `verdict`: the verdict of the verification
 - `notes`: (optional) any note that could be useful to understand the verdict, or a description of the differences that were expected to be reproducible, but did not affect the reproducibility verdict
 
+The build server publishes `notes` as plain text under the collapsed "Other information" section of the verification, one line per line of `notes`. Paths inside its build directory are shown relative to it, since nobody else can open them.
+
 Possible values for `verdict`:
   - `reproducible`: Reproducible
   - `not_reproducible`: Not Reproducible

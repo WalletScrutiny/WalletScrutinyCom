@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -31,6 +31,74 @@ afterEach(() => {
       fs.rmSync(dir, { recursive: true, force: true });
     }
   }
+});
+
+describe('buildVerificationContent', () => {
+  const buildDir = '/opt/build-server-builds/com.example_abc_1.2.3';
+  const base = {
+    version: '1.2.3',
+    hashes: ['ed61c19e'],
+    basedOnId: 'verif-id',
+    basedOnPubkey: 'verif-pubkey',
+    scriptVersion: 'v0.1.9',
+    command: `${buildDir}/com.example_abc_script.sh --binary ${buildDir}/base.apk`,
+    buildDir
+  };
+
+  test('opens with the verdict in plain words, then the official hash', () => {
+    const content = buildVerificationContent({ ...base, verdict: 'not_reproducible', architecture: 'arm64-v8a' });
+    const lines = content.split('\n');
+    assert.equal(lines[0], '**Not reproducible.** We built version 1.2.3 (arm64-v8a) from its public source code, and the result does not match the official app.');
+    assert.equal(lines[2], '**Official app (SHA-256):** `ed61c19e`');
+    assert.match(buildVerificationContent({ ...base, verdict: 'reproducible' }), /^\*\*Reproducible\.\*\* We built version 1\.2\.3 from/);
+    assert.match(buildVerificationContent({ ...base, verdict: 'ftbfs' }), /^\*\*Failed to build\.\*\* We could not build version 1\.2\.3 from/);
+  });
+
+  test('lists every official file hash when there are several', () => {
+    const content = buildVerificationContent({ ...base, verdict: 'reproducible', hashes: ['aa', 'bb'] });
+    assert.ok(content.includes('**Official files (SHA-256):**\n- `aa`\n- `bb`'));
+  });
+
+  test('puts the technical details in a collapsed block with build-dir paths made relative', () => {
+    const content = buildVerificationContent({
+      ...base,
+      verdict: 'ftbfs',
+      versionOverrideNote: 'The asset registration listed version 1.2; the APK versionName is 1.2.3.'
+    });
+    const details = content.slice(content.indexOf('<details>'));
+    assert.ok(details.startsWith('<details>\n<summary>Other information</summary>\n\n'));
+    assert.ok(details.includes('- Build script from verification `verif-id` by `verif-pubkey`'));
+    assert.ok(details.includes('- Script version: v0.1.9'));
+    assert.ok(details.includes('- Command: `com.example_abc_script.sh --binary base.apk`'));
+    assert.ok(details.includes('- The asset registration listed version 1.2; the APK versionName is 1.2.3.'));
+    assert.ok(!content.includes('/opt/build-server-builds'));
+    assert.ok(content.trimEnd().endsWith('</details>'));
+  });
+
+  test('keeps script note lines apart and renders them as plain text', () => {
+    const content = buildVerificationContent({
+      ...base,
+      verdict: 'not_reproducible',
+      notes: `Diff file: ${buildDir}/comparison/diff.txt\n\n# 3 *differences* in <binary>\n- META-INF/*: signing files\n----\n.\n`
+    });
+    const notes = content.slice(content.indexOf('**Notes from the script**'));
+    assert.equal(
+      notes,
+      '**Notes from the script**\n\n' +
+      'Diff file: comparison/diff.txt  \n' +
+      '\\# 3 \\*differences\\* in &lt;binary>  \n' +
+      '- META-INF/\\*: signing files  \n' +
+      '\\----\n\n' +
+      '</details>\n'
+    );
+  });
+
+  test('leaves out what is unknown', () => {
+    const content = buildVerificationContent({ verdict: 'reproducible', version: '1.0' });
+    assert.ok(!content.includes('SHA-256'));
+    assert.ok(!content.includes('Notes from the script'));
+    assert.ok(!content.includes('Script version'));
+  });
 });
 
 describe('readComparisonResults', () => {

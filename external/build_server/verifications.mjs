@@ -937,6 +937,98 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
+const VERDICT_HEADLINES = {
+  reproducible: (subject) => `**Reproducible.** We built ${subject} from its public source code and got the same app users download.`,
+  not_reproducible: (subject) => `**Not reproducible.** We built ${subject} from its public source code, and the result does not match the official app.`,
+  ftbfs: (subject) => `**Failed to build.** We could not build ${subject} from its public source code.`
+};
+
+/**
+ * Script output is plain text written for a terminal. Keep its line breaks and stop
+ * markdown from reading it as emphasis, headings, quotes or HTML (the site would drop
+ * "<binary>"). "- item" lines still render as lists.
+ */
+function plainTextToMarkdown(text) {
+  return text
+    .split('\n')
+    .map(line => line.trimEnd())
+    .filter(line => line.trim() !== '' && line.trim() !== '.')
+    .map(line => line
+      .replace(/[\\`*_]/g, '\\$&')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/^(\s*)([#>=+]|-(?! ))/, '$1\\$2'))
+    .join('  \n');
+}
+
+/**
+ * Markdown body of an automatic verification: the verdict in plain words and the official
+ * hashes first, then everything technical (command, script notes, ...) in a collapsed
+ * "Other information" block. Build-dir paths are made relative, since nobody outside the
+ * build server can open them.
+ */
+export function buildVerificationContent({
+  verdict,
+  version,
+  architecture,
+  type,
+  hashes = [],
+  basedOnId,
+  basedOnPubkey,
+  scriptVersion,
+  notes,
+  command,
+  buildDir,
+  versionOverrideNote
+}) {
+  const stripBuildDir = (text) => {
+    if (!buildDir) {
+      return text;
+    }
+    const prefix = buildDir.endsWith('/') ? buildDir : buildDir + '/';
+    return text.split(prefix).join('').split(buildDir).join('.');
+  };
+
+  const variant = [architecture, type].filter(Boolean).join(' / ');
+  const subject = `version ${version}${variant ? ` (${variant})` : ''}`;
+  const sections = [VERDICT_HEADLINES[verdict](subject)];
+
+  const officialHashes = (hashes ?? []).filter(Boolean);
+  if (officialHashes.length === 1) {
+    sections.push(`**Official app (SHA-256):** \`${officialHashes[0]}\``);
+  } else if (officialHashes.length > 1) {
+    sections.push(['**Official files (SHA-256):**', ...officialHashes.map(hash => `- \`${hash}\``)].join('\n'));
+  }
+
+  const details = [];
+  if (basedOnId) {
+    details.push(`- Build script from verification \`${basedOnId}\`${basedOnPubkey ? ` by \`${basedOnPubkey}\`` : ''}`);
+  }
+  if (scriptVersion) {
+    details.push(`- Script version: ${scriptVersion}`);
+  }
+  if (command) {
+    details.push(`- Command: \`${stripBuildDir(command).replace(/`/g, "'")}\``);
+  }
+  if (versionOverrideNote) {
+    details.push(`- ${versionOverrideNote}`);
+  }
+
+  const notesText = notes != null ? plainTextToMarkdown(stripBuildDir(String(notes))) : '';
+  const otherInformation = [
+    '<details>',
+    '<summary>Other information</summary>',
+    '',
+    details.join('\n'),
+    ...(notesText ? ['', '**Notes from the script**', '', notesText] : []),
+    '',
+    '</details>'
+  ];
+  sections.push(otherInformation.join('\n'));
+
+  return sections.join('\n\n') + '\n';
+}
+
 export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, hashes, dbVerificationRowId = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
@@ -981,19 +1073,20 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   const claimedWalletVersion = returnParamsFromCompilationJob.claimedWalletVersion;
-  const versionOverrideNote = describeVersionOverride(claimedWalletVersion, newWalletVersion);
-
-  let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
-  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}`;
-  if (versionOverrideNote) {
-    content += ` ${versionOverrideNote}`;
-  }
-  if (scriptVersion) {
-    content += ` - Script version: ${scriptVersion}.`;
-  }
-  if (notes) {
-    content += ` - Notes from the developer of the script: ${notes}.`;
-  }
+  const content = buildVerificationContent({
+    verdict,
+    version: newWalletVersion,
+    architecture,
+    type,
+    hashes,
+    basedOnId: verification.id,
+    basedOnPubkey: verification.pubkey,
+    scriptVersion,
+    notes,
+    command: finalScriptExecutionCommand,
+    buildDir: buildDirForThisVerification,
+    versionOverrideNote: describeVersionOverride(claimedWalletVersion, newWalletVersion)
+  });
 
   const formData = {
     // Changed values
