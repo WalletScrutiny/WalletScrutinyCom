@@ -11,7 +11,7 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports GitHub API token for higher rate limits
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
-- Clones the source of each new release and analyses it: dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
+- Clones the source of each new release and analyses it in a throwaway container: dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
 - Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
 
 ## Installation (development)
@@ -23,8 +23,10 @@ npm test
 node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus
 ```
 
-A dev run keeps its files in this folder: `assets.db`, `backup/` and `temp_repos/`
-(all ignored by git). Nothing else is written.
+A dev run keeps its files in this folder: `assets.db`, `backup/`, `temp_repos/`
+and `cache/` (all ignored by git). Nothing else is written. Docker (or podman,
+`SOURCE_ANALYSIS_CONTAINER_CLI=podman`) is required: every repository is
+analysed inside a container, see [Sandbox](#sandbox).
 
 ## Install and run as a systemd service
 
@@ -41,15 +43,16 @@ a timer every 6 hours:
 | working directory | `/opt/source_analysis` |
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
-| clones and caches | `/var/cache/walletscrutiny-source-analysis/` (`SOURCE_ANALYSIS_TEMP_DIR`, `npm_config_cache`, `GRADLE_USER_HOME`) |
+| per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
+| package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches shared by the analysis containers, wiped when they pass `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) |
+| analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
 | logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
 
 The state and cache directories are created by systemd (`StateDirectory`,
-`CacheDirectory`). The analysed repositories are untrusted, so the unit sets
-`npm_config_ignore_scripts=true` (their npm lifecycle scripts never run) and
-`GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of
-waiting for credentials).
+`CacheDirectory`). The analysed repositories are untrusted: nothing of them
+runs on the host, see [Sandbox](#sandbox). The service user needs to be in the
+`docker` group (it is, for the Automated Build Server).
 
 ### Server preparation
 
@@ -72,10 +75,11 @@ npm run deploy:source-analysis          # RUN_NOW=1 to start a run right after t
 Requires SSH to `build.walletscrutiny.com` as root (see `~/.ssh/config`). The
 script runs this folder's tests first and a failure aborts the deploy (there is
 no switch to skip them). It then rsyncs this folder alone to
-`/opt/source_analysis` (dev state such as `assets.db`, `backup/`, `temp_repos/`
-and `node_modules/` excluded), installs the npm dependencies there as
-`build-server`, copies the two units to `/etc/systemd/system/` and enables the
-timer. It does not touch the Automated Build Server tree; the two deploys are
+`/opt/source_analysis` (dev state such as `assets.db`, `backup/`, `temp_repos/`,
+`cache/` and `node_modules/` excluded), installs the npm dependencies there as
+`build-server`, pulls the analysis image and removes superseded copies of it,
+copies the two units to `/etc/systemd/system/` and enables the timer. It does
+not touch the Automated Build Server tree or its images; the two deploys are
 independent and can run in any order.
 
 ### Install by hand
@@ -232,18 +236,52 @@ Nothing from the analysed repository is executed or installed for any of this: t
 ## Source analysis
 
 After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.mjs`)
-shallow-clones it into the temp directory and runs the tests below. When the pass
-added a new release, the clone is that release's tag and the resolved dependencies
-are stored in `assets.db`; when nothing new was found, it clones `master` and
-stores nothing. Docker-only apps get no source analysis. The ecosystem is detected
-from the repository root (`package.json` → npm, `build.gradle(.kts)` → gradle,
-`pom.xml` → maven, `requirements.txt`/`setup.py`/`pyproject.toml` → pip); an
-unknown type skips tests 2–12. The clone is deleted afterwards.
+analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, dependency
+install, then the tests below. When the pass added a new release, the clone is that
+release's tag and the resolved dependencies are stored in `assets.db`; when nothing
+new was found, it clones the default branch and stores nothing. Docker-only apps get
+no source analysis. The ecosystem is detected from the repository root
+(`package.json` → npm, `build.gradle(.kts)` → gradle, `pom.xml` → maven,
+`requirements.txt`/`setup.py`/`pyproject.toml` → pip); an unknown type (Rust
+wallets, for example) skips the install and tests 2–5 and still gets the file-only
+tests 7–12. The scratch directory (clone, `node_modules`, result) is deleted
+afterwards.
 
 Results go to the log (the journal for the service); only test 10 writes to the
 database. Tests 2–5 need the project's dependencies installed and run its own
 tooling (`npm`/`yarn install`, `pip install -r requirements.txt`, `./gradlew`,
-`mvn`), tests 10–12 only read files and execute nothing.
+`mvn`) — inside the container; tests 10–12 only read files and execute nothing.
+
+### Sandbox
+
+`containerRunner.mjs` starts one container per repository from the image pinned by
+digest in `config.mjs` (`mingc/android-build-box`: Android SDK platforms 28–35 and
+NDK, JDK 8/11/17/21, Node 22, Python 3, Flutter — a maintained third-party image
+with a public Dockerfile, so there is no image of our own to maintain) and runs
+`containerEntry.mjs` in it. The host process only drives `docker`, stores the
+result and deletes the scratch directory; it never opens a file of the repository.
+
+| | |
+|---|---|
+| mounts | this folder read-only at `/analysis` (code and `node_modules`; the entry point loads only pure-JS packages), the per-repository scratch dir at `/work`, the shared package caches at `/cache` |
+| not in the container | the GitHub token, `assets.db`, the docker socket |
+| hardening | runs as the service user (`--user`), `--cap-drop ALL`, `--security-opt no-new-privileges`, read-only root with a tmpfs `/tmp`, `--memory 6g --cpus 2 --pids-limit 2048`, killed after 45 min (`SOURCE_ANALYSIS_CONTAINER_MEMORY`, `_CPUS`, `_PIDS`, `_TIMEOUT_MIN`) |
+| inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
+| result | `/work/result.json` (`ok`, `appType`, `pinning`, `error`); the log streams through to the journal |
+
+Semgrep (test 9) is its own container, started by the host on the checkout the
+first container leaves in the scratch dir. The image is the one place a hostile
+repository can reach: the network (its own installs need it) and the shared
+`/cache` (poisoning the npm/gradle cache for the next repository is possible;
+the caches are wiped past their size cap and can be set to a small cap for
+strict isolation at the price of re-downloads). Gradle projects needing an SDK
+platform the image lacks fail their gradle tests (the SDK directory in the image
+is not writable for the service user); they still get the lockfile-based tests.
+Flutter projects are detected as `unknown` and get the file-only tests.
+
+Dev run against another image or engine: `SOURCE_ANALYSIS_IMAGE=docker.io/library/node:22
+SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id …`
+(anything with `bash`, `git` and `node` works for npm repositories).
 
 | Test | What it reports | Ecosystems | File |
 |---|---|---|---|
@@ -258,8 +296,9 @@ tooling (`npm`/`yarn install`, `pip install -r requirements.txt`, `./gradlew`,
 | 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oobDownloadAnalysis.mjs` |
 | 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committedBinaryAnalysis.mjs` |
 
-The tests run in the order of the table. Test 1 (full dependency tree) exists
-but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
+The tests run in the order of the table (`runChecksOnCheckout()` in
+`appAnalysis.mjs`, inside the container; Semgrep from the host). Test 1 (full
+dependency tree) exists but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
 any repository and ref (see above); with `--follow-deps` it also runs test 12 on
 each git-resolvable source dependency (test 12b), which the watcher does not do.
 

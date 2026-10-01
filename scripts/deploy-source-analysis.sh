@@ -37,6 +37,7 @@ EXCLUDES=(
   "assets.db"
   "backup/"
   "temp_repos/"
+  "cache/"
   ".local/"
   ".DS_Store"
   "*.log"
@@ -99,9 +100,26 @@ systemctl enable --now "${TIMER_NAME}"
 
 echo "Verifying layout and imports..."
 test -f "${TARGET_DIR}/index.mjs"
+test -f "${TARGET_DIR}/containerEntry.mjs"
 test -d "${TARGET_DIR}/node_modules"
 cd "${TARGET_DIR}"
 runuser -u "${SERVICE_USER}" -- node --input-type=module -e 'await import("./config.mjs"); await import("./appAnalysis.mjs"); await import("better-sqlite3"); console.log("import check passed");'
+
+# The analysis container image (pinned by digest in config.mjs): pull it as the
+# service user now so the first pass does not, and drop superseded copies of it
+# (an image bump would otherwise leave the previous 4 GB behind). Other images
+# on the host (Automated Build Server, Semgrep) are not touched.
+IMAGE="$(runuser -u "${SERVICE_USER}" -- node --input-type=module -e 'const c = await import("./config.mjs"); console.log(c.ANALYSIS_IMAGE);')"
+echo "Pulling analysis image ${IMAGE}..."
+runuser -u "${SERVICE_USER}" -- docker pull --quiet "${IMAGE}"
+KEEP_ID="$(runuser -u "${SERVICE_USER}" -- docker image inspect --format '{{.Id}}' "${IMAGE}")"
+IMAGE_REPO="${IMAGE%%@*}"; IMAGE_REPO="${IMAGE_REPO%%:*}"
+for id in $(runuser -u "${SERVICE_USER}" -- docker images --filter "reference=${IMAGE_REPO}" --format '{{.ID}}' | sort -u); do
+  if ! runuser -u "${SERVICE_USER}" -- docker image inspect --format '{{.Id}}' "$id" | grep -qx "${KEEP_ID}"; then
+    echo "Removing superseded analysis image ${id}"
+    runuser -u "${SERVICE_USER}" -- docker rmi -f "$id" || true
+  fi
+done
 
 if [ "${RUN_NOW}" = "1" ]; then
   echo "Starting ${SERVICE_NAME} now (runs in the background, follow it with journalctl -u ${SERVICE_NAME} -f)..."
@@ -113,6 +131,8 @@ systemctl --no-pager --full status "${SERVICE_NAME}" | head -12 || true
 
 echo "Deployed tree size:"
 du -sh "${TARGET_DIR}" "${TARGET_DIR}/node_modules"
+echo "Analysis image:"
+runuser -u "${SERVICE_USER}" -- docker images --filter "reference=${IMAGE_REPO}" --format '{{.Repository}}:{{.Tag}} {{.Size}}'
 REMOTE
 
 log "Done. Target: ${TARGET_DIR}"

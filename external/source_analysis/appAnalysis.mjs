@@ -5,11 +5,14 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
-import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE } from './config.mjs';
+import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE, CONTAINER_CLI } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
-import { saveDependencies } from './ddbbUtils.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
+import { ensureImage, runInContainer } from './containerRunner.mjs';
+// ddbbUtils (better-sqlite3, a native module) is imported lazily by
+// runSourceCodeAnalysis only: this module is also loaded inside the analysis
+// container (containerEntry.mjs), where only pure-JS packages are available.
 
 /**
  * Detect the type of application based on dependency files
@@ -111,13 +114,14 @@ export async function installDependencies(repoPath, appType) {
 /**
  * Clone a git repository to a temporary directory
  */
-export async function cloneRepository(repoUrl, targetPath, tagName) {
-  console.log(`Cloning repository ${repoUrl} to ${targetPath} with tag ${tagName}...`);
+export async function cloneRepository(repoUrl, targetPath, tagName = null) {
+  console.log(`Cloning repository ${repoUrl} to ${targetPath} ${tagName ? `with tag ${tagName}` : 'at its default branch'}...`);
   try {
     fs.rmSync(targetPath, { recursive: true, force: true });
     fs.mkdirSync(path.dirname(targetPath), { recursive: true });
 
-    execSync(`git clone --branch ${tagName} --depth 1 ${repoUrl} "${targetPath}"`, {
+    const branch = tagName ? `--branch ${tagName} ` : '';
+    execSync(`git clone ${branch}--depth 1 ${repoUrl} "${targetPath}"`, {
       stdio: 'pipe',
       timeout: 60000
     });
@@ -1341,19 +1345,19 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
   try {
     // Check if Docker is available
     try {
-      execSync('docker --version', { stdio: 'pipe', timeout: 5000 });
+      execSync(`${CONTAINER_CLI} --version`, { stdio: 'pipe', timeout: 5000 });
     } catch (error) {
-      console.log('Docker is not available. Skipping Semgrep analysis.');
+      console.log(`${CONTAINER_CLI} is not available. Skipping Semgrep analysis.`);
       return null;
     }
     
     // Check if Semgrep image exists, if not pull it
     try {
-      execSync(`docker image inspect ${SEMGREP_IMAGE} > /dev/null 2>&1`, { stdio: 'pipe', timeout: 30000 });
+      execSync(`${CONTAINER_CLI} image inspect ${SEMGREP_IMAGE} > /dev/null 2>&1`, { stdio: 'pipe', timeout: 30000 });
     } catch (error) {
       // console.log('Pulling Semgrep Docker image (this may take a moment)...');
       try {
-        execSync(`docker pull ${SEMGREP_IMAGE}`, {
+        execSync(`${CONTAINER_CLI} pull ${SEMGREP_IMAGE}`, {
           stdio: 'inherit',
           timeout: 300000 // 5 minutes for pulling image
         });
@@ -1373,7 +1377,7 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
     let semgrepOutput;
     try {
       semgrepOutput = execSync(
-        `docker run --rm -v "${absoluteRepoPath}:/src" ${SEMGREP_IMAGE} semgrep --config=auto --json /src`,
+        `${CONTAINER_CLI} run --rm -v "${absoluteRepoPath}:/src" ${SEMGREP_IMAGE} semgrep --config=auto --json /src`,
         {
           cwd: repoPath,
           encoding: 'utf8',
@@ -1555,58 +1559,69 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
 }
 
 /**
- * Run all tests for a specific app
+ * The checks that run on a checkout, in order. Runs INSIDE the analysis
+ * container (containerEntry.mjs). Tests 2-5 need the project's dependencies
+ * installed and run its own tooling, so they only run for a known app type;
+ * js-x-ray, obfuscation, pinning, out-of-band downloads and committed
+ * binaries read files only and run for every repository. Semgrep is not here:
+ * it is its own container, started by the host on the same checkout.
+ * Returns what the host stores: the pinning analyses (resolved dependencies).
  */
-export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master', includeTestFiles = false, db = null }) {
-  console.log(`\n${'='.repeat(60)}`);
-  console.log(`Testing: ${name} - Repository: ${repoUrl} ${`- Branch: ${version}`}`);
-  console.log('='.repeat(60));
-
-  // Ensure temp directory exists
-  fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
-  fs.mkdirSync(DEFAULT_TEMP_DIR, { recursive: true });
-  
-  const repoPath = path.join(DEFAULT_TEMP_DIR, name.replace(/[^a-zA-Z0-9.-]/g, '_'));
-  
-  const cloned = await cloneRepository(repoUrl, repoPath, version);
-  if (!cloned) {
-    console.log('Failed to clone repository. Skipping...');
-    return;
+export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles = false } = {}) {
+  if (appType !== APP_TYPES.UNKNOWN) {
+    //await showDependencyTree(repoPath, appType);
+    await countDirectDependencies(repoPath, appType);
+    await listDependenciesWithoutFixedVersions(repoPath, appType);
+    await scanVulnerabilities(repoPath, appType);
+    await analyzeDependencies(repoPath, appType);
   }
-  
-  // Detect app type
-  const appType = detectAppType(repoPath);
-  console.log(`Detected app type: ${appType}`);
-  
-  if (appType === APP_TYPES.UNKNOWN) {
-    console.log('Unknown app type. Skipping tests...');
-    return;
-  }
-  
-  // Install dependencies once before running tests that require them
-  await installDependencies(repoPath, appType);
-  
-  // Run all tests
-  //await showDependencyTree(repoPath, appType);
-  await countDirectDependencies(repoPath, appType);
-  await listDependenciesWithoutFixedVersions(repoPath, appType);
-  await scanVulnerabilities(repoPath, appType);
-  await analyzeDependencies(repoPath, appType);
-  await analyzeCodeVulnerabilitiesSemgrep(repoPath);
   await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
   await analyzeObfuscation(repoPath);
   const pinning = analyzePinning(repoPath);
-  if (db) {
-    const stored = saveDependencies(db, name, version, pinning);
-    console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
-  }
   analyzeOobDownloads(repoPath);
   analyzeCommittedBinaries(repoPath);
+  return { pinning };
+}
 
-  // Cleanup
+/**
+ * Analyse one repository at one ref (the new release's tag, or the default
+ * branch when nothing new was found). Clone, install and checks run in a
+ * throwaway container (containerRunner.mjs); Semgrep runs in its own
+ * container on the checkout the first one leaves behind; the host only
+ * stores the result and deletes the scratch directory.
+ */
+export async function runSourceCodeAnalysis({ name, repoUrl, version = null, includeTestFiles = false, db = null }) {
+  console.log(`\n${'='.repeat(60)}`);
+  console.log(`Testing: ${name} - Repository: ${repoUrl} - ${version ? `Tag: ${version}` : 'default branch'}`);
+  console.log('='.repeat(60));
+
+  const workDir = path.join(DEFAULT_TEMP_DIR, name.replace(/[^a-zA-Z0-9.-]/g, '_'));
+  fs.rmSync(workDir, { recursive: true, force: true });
+  fs.mkdirSync(workDir, { recursive: true });
+
   try {
-    fs.rmSync(repoPath, { recursive: true, force: true });
+    ensureImage();
+    const result = await runInContainer({ name, repoUrl, ref: version, includeTestFiles, workDir });
+    if (!result.ok) {
+      console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
+      return;
+    }
+    if (result.appType !== APP_TYPES.UNKNOWN) {
+      await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
+    }
+    if (db && version && result.pinning) {
+      const { saveDependencies } = await import('./ddbbUtils.mjs');
+      const stored = saveDependencies(db, name, version, result.pinning);
+      console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
+    }
   } catch (error) {
-    console.error(`Error cleaning up ${repoPath}:`, error.message);
+    console.error(`Analysis of ${name} failed: ${error.message}`);
+  } finally {
+    // Clone, node_modules and result: nothing of it is needed after this point.
+    try {
+      fs.rmSync(workDir, { recursive: true, force: true });
+    } catch (error) {
+      console.error(`Error cleaning up ${workDir}:`, error.message);
+    }
   }
 }
