@@ -190,5 +190,6 @@ It uses the service's database (`/var/lib/walletscrutiny-build-server/verificati
 ## Technical notes
 
 - The application connects to the same relays as WalletScrutiny.com and publishes the results to Nostr as `WalletScrutiny Bot`
-- The application keeps running forever and loops so it runs once every 24 hours
+- The application keeps running forever and loops: it scans the Asset Registry, drains the build queue and then sleeps `HOURS_BETWEEN_EXECUTIONS` (config) before the next cycle
+- It also keeps a live subscription on the Asset Registry kinds; a new WalletScrutiny registration wakes the loop early (after `ASSET_WATCH_DEBOUNCE_SECONDS`), so a new version is normally picked up within a minute instead of at the next scheduled cycle. The subscription is self-healing (nostr-tools ping/reconnect plus a watchdog every `ASSET_WATCH_WATCHDOG_MINUTES`) but never load-bearing: the scheduled scan still runs
 - **Platform filter**: Excludes automatically verifications for macOS for compatibility with Linux servers

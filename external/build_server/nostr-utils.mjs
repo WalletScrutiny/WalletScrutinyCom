@@ -92,6 +92,9 @@ export async function connectToNostr(nostrPrivateKey) {
     relayUrls: eventRelayUrls,
     connectTimeoutMs: 2000,
     privateKey: nostrPrivateKey,
+    // Long-running process with a live subscription (asset-watch.mjs): detect
+    // dead sockets with pings and let nostr-tools reconnect and re-subscribe.
+    poolOptions: { enablePing: true, enableReconnect: true },
     onRelayConnect: (relay) => {
       appLog.info(`Connected to relay: ${relay.url}`);
     },
