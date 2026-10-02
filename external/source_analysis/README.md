@@ -11,8 +11,9 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports GitHub API token for higher rate limits
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
-- Clones the source of each new release and analyses it in a throwaway container: dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
+- Clones the source of each new release and analyses it in a throwaway container (for now only known vulnerabilities and the resolved dependencies run, see [Source analysis](#source-analysis)): dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
 - Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
+- Looks up the known vulnerabilities of those dependencies on OSV.dev (npm, PyPI, Maven/gradle, crates.io) and stores them per release
 
 ## Installation (development)
 
@@ -241,7 +242,8 @@ Nothing from the analysed repository is executed or installed for any of this: t
 
 After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.mjs`)
 analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, dependency
-install, then the tests below. When the pass added a new release, the clone is that
+install (off for now, see below), then the tests below; the host then looks up
+the known vulnerabilities of the resolved dependencies on OSV.dev (test 4). When the pass added a new release, the clone is that
 release's tag and the resolved dependencies are stored in `assets.db`; when nothing
 new was found, it clones the default branch and stores only the analysed commit
 (`default_branch_analyses`), so the next pass skips the repository until that
@@ -255,10 +257,13 @@ wallets, for example) skips the install and tests 2–5 and still gets the file-
 tests 7–12. The scratch directory (clone, `node_modules`, result) is deleted
 afterwards.
 
-Results go to the log (the journal for the service); only test 10 writes to the
-database. Tests 2–5 need the project's dependencies installed and run its own
+Results go to the log (the journal for the service); only tests 10 and 4 write
+to the database (`app_dependencies`, `app_vulnerabilities`), and only for
+releases. An OSV.dev lookup that fails counts as a failed analysis, so an
+unchanged default branch is retried rather than skipped without a result. Tests 2–5 need the project's dependencies installed and run its own
 tooling (`npm`/`yarn install`, `pip install -r requirements.txt`, `./gradlew`,
-`mvn`) — inside the container; tests 10–12 only read files and execute nothing.
+`mvn`) — inside the container; tests 10–12 only read files and execute nothing,
+except test 10b, which runs the project's gradle wrapper inside the container.
 
 ### Sandbox
 
@@ -295,14 +300,44 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 |---|---|---|---|
 | 2 | Number of direct dependencies | npm, gradle, maven, pip | `appAnalysis.mjs` |
 | 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `appAnalysis.mjs` |
-| 4 | Known vulnerabilities from `npm audit` / `yarn audit` | npm (gradle, maven, pip: OWASP dependency-check or `safety check` runs when the project has it, but its result is not reported) | `appAnalysis.mjs` |
+| 4 | Known vulnerabilities of every dependency test 10 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version (`scanVulnerabilities`) is commented out | npm, yarn, pip, gradle, cargo | `osvCheck.mjs` |
 | 5 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `appAnalysis.mjs` |
 | 9 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `appAnalysis.mjs` |
 | 7 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `appAnalysis.mjs` |
 | 8 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `appAnalysis.mjs` |
-| 10 | Supply-chain pinning per dependency: hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinningAnalysis.mjs` |
+| 10 | Supply-chain pinning per dependency (10b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinningAnalysis.mjs` |
 | 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oobDownloadAnalysis.mjs` |
 | 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committedBinaryAnalysis.mjs` |
+
+**For now only tests 10 and 4 run** (the resolved dependencies and their known
+vulnerabilities); the calls of the others are commented out in
+`runChecksOnCheckout()` and, for Semgrep, `runSourceCodeAnalysis()`, until we get
+back to code analysis. Neither needs the dependencies installed, so the install
+in `containerEntry.mjs` is commented out too.
+
+Test 4 is only as complete as test 10's rows: npm, yarn and cargo lockfiles list
+the transitive dependencies, so those are checked in full. pip is checked where
+`requirements*.txt` pins `==` versions.
+
+Gradle build files show only what a project declares as literals: no transitive
+dependencies, no versions built from variables or supplied by a BOM. So in the
+watcher, test 10b (`gradleResolution.mjs`) runs the project's own gradle wrapper
+in the container with an init script (`gradle/resolve-deps.init.gradle`) that
+resolves the graph of every classpath configuration (runtime, compile,
+annotation processors, buildscript) and lists the modules gradle selected. Only
+POM/module metadata is fetched; no artifact is downloaded and no task of the
+project runs (it runs `help`). The JDK follows the wrapper's gradle version
+(17 from 7.3, 11 from 5.0, else 8). Git submodules are fetched first (shallow),
+since a build that includes their projects does not configure without them. A
+module that pins an NDK the image lacks is pointed at the installed one: the
+SDK is read-only, and the NDK only matters for native compiles, not the graph. A resolved module replaces the declaration
+rows of the same `group:artifact`, keeps the hash of a `verification-metadata.xml`
+row at the same version, and is `dev` unless it is in a release runtime
+classpath (not test, not debug). A floating declaration stays tier `floating`
+but carries the version gradle picked, so test 4 checks it. When gradle fails
+to configure the project, the declaration rows stay and the reason is logged and
+added to the resolution notes. `pinning-cli.mjs` does not run it (it runs on the
+host and executes nothing).
 
 The tests run in the order of the table (`runChecksOnCheckout()` in
 `appAnalysis.mjs`, inside the container; Semgrep from the host). Test 1 (full
@@ -357,7 +392,30 @@ CREATE TABLE app_dependencies (
 );
 ```
 
-What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set only where `verification-metadata.xml` exists, otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
+What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 10b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
+
+Known vulnerabilities per release (test 4), as OSV.dev reported them when the release was analysed. A snapshot: an advisory published later is found with `findAppsShipping`, not here.
+
+```sql
+CREATE TABLE app_vulnerabilities (
+  app_id TEXT NOT NULL,
+  version TEXT NOT NULL,            -- the app release
+  ecosystem TEXT NOT NULL,          -- npm | pip | gradle | cargo
+  name TEXT NOT NULL,
+  dep_version TEXT NOT NULL,
+  vuln_id TEXT NOT NULL,            -- OSV id (GHSA-…, PYSEC-…, RUSTSEC-…, MAL-…); aliases of one issue are folded into one row
+  severity TEXT NOT NULL,           -- malicious | critical | high | moderate | low | unknown
+  aliases TEXT NOT NULL DEFAULT '', -- space separated, CVE ids among them
+  fixed TEXT NOT NULL DEFAULT '',   -- space separated versions the advisory lists as fixed for this package
+  summary TEXT NOT NULL DEFAULT '',
+  direct INTEGER,
+  dev INTEGER,
+  checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
+);
+```
+
+Helpers: `saveVulnerabilities`, `getVulnerabilities`.
 
 ## Notification Procedure
 

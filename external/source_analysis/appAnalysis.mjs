@@ -8,6 +8,8 @@ import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE, CONTAINER_CLI } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
+import { checkVulnerabilities } from './osvCheck.mjs';
+import { resolveGradleDependencies } from './gradleResolution.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
@@ -1591,18 +1593,24 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
  * Returns what the host stores: the pinning analyses (resolved dependencies).
  */
 export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles = false } = {}) {
+  // For now only the dependencies (test 10) run here, and the host looks up
+  // their known vulnerabilities on OSV.dev (test 4, osvCheck.mjs); the other
+  // checks are commented out until we get back to code analysis. The old
+  // test 4, scanVulnerabilities (npm/yarn audit), is replaced by the OSV
+  // lookup, which covers gradle, pip and cargo too.
   if (appType !== APP_TYPES.UNKNOWN) {
     //await showDependencyTree(repoPath, appType);
-    await countDirectDependencies(repoPath, appType);
-    await listDependenciesWithoutFixedVersions(repoPath, appType);
-    await scanVulnerabilities(repoPath, appType);
-    await analyzeDependencies(repoPath, appType);
+    //await countDirectDependencies(repoPath, appType);
+    //await listDependenciesWithoutFixedVersions(repoPath, appType);
+    //await scanVulnerabilities(repoPath, appType);
+    //await analyzeDependencies(repoPath, appType);
   }
-  await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
-  await analyzeObfuscation(repoPath);
+  //await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
+  //await analyzeObfuscation(repoPath);
   const pinning = analyzePinning(repoPath);
-  analyzeOobDownloads(repoPath);
-  analyzeCommittedBinaries(repoPath);
+  await resolveGradleDependencies(repoPath, pinning);
+  //analyzeOobDownloads(repoPath);
+  //analyzeCommittedBinaries(repoPath);
   return { pinning };
 }
 
@@ -1631,14 +1639,25 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
       return null;
     }
-    if (result.appType !== APP_TYPES.UNKNOWN) {
-      await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
-    }
+    // Semgrep (test 9) is off for now, with the other code-analysis checks
+    // (see runChecksOnCheckout).
+    //if (result.appType !== APP_TYPES.UNKNOWN) {
+    //  await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
+    //}
+    // Test 4: known vulnerabilities of what test 10 resolved. A failed lookup
+    // fails the analysis, so an unchanged default branch is retried next pass
+    // instead of being skipped without a vulnerability result.
+    result.vulnerabilities = await checkVulnerabilities(result.pinning || []);
     if (db && version && result.pinning) {
-      const { saveDependencies } = await import('./ddbbUtils.mjs');
+      const { saveDependencies, saveVulnerabilities } = await import('./ddbbUtils.mjs');
       const stored = saveDependencies(db, name, version, result.pinning);
       console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
+      if (result.vulnerabilities) {
+        const storedVulns = saveVulnerabilities(db, name, version, result.vulnerabilities);
+        console.log(`Stored ${storedVulns} vulnerability rows for ${name} ${version}`);
+      }
     }
+    if (!result.vulnerabilities) return null;
     return result;
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);

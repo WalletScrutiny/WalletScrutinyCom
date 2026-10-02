@@ -41,7 +41,9 @@ try {
     const { pinning } = await runChecksOnCheckout(repoPath, appType, { includeTestFiles: argv['include-test-files'] });
     result.pinning = pinning;
   } else {
-    await installDependencies(repoPath, appType);
+    // The install is off with the checks that need it (see runChecksOnCheckout):
+    // test 10 reads lockfiles and the vulnerability lookup runs on the host.
+    //await installDependencies(repoPath, appType);
     const { pinning } = await runChecksOnCheckout(repoPath, appType, { includeTestFiles: argv['include-test-files'] });
     result.pinning = pinning;
   }
