@@ -110,6 +110,30 @@ export function initDatabase(dbPath = DB_PATH) {
     CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
   `);
 
+  // Known vulnerabilities of a release's dependencies as OSV.dev reported them
+  // when the release was analysed (osvCheck.mjs), one row per advisory and
+  // package version. A snapshot: advisories published later show up through
+  // findAppsShipping, not here.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS app_vulnerabilities (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      dep_version TEXT NOT NULL,
+      vuln_id TEXT NOT NULL,
+      severity TEXT NOT NULL,
+      aliases TEXT NOT NULL DEFAULT '',
+      fixed TEXT NOT NULL DEFAULT '',
+      summary TEXT NOT NULL DEFAULT '',
+      direct INTEGER,
+      dev INTEGER,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_app_vulnerabilities_vuln ON app_vulnerabilities(vuln_id);
+  `);
+
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
   db.exec(`
@@ -192,6 +216,33 @@ export function saveDependencies(db, appId, version, analyses) {
     return count;
   });
   return run();
+}
+
+// Replace the stored vulnerability findings of (appId, version) with those of
+// an osvCheck.checkVulnerabilities result. Returns the number of rows stored.
+export function saveVulnerabilities(db, appId, version, { findings }) {
+  const insert = db.prepare(`
+    INSERT OR REPLACE INTO app_vulnerabilities
+      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+  return db.transaction(() => {
+    db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
+    for (const f of findings) {
+      insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev));
+    }
+    return findings.length;
+  })();
+}
+
+export function getVulnerabilities(db, appId, version) {
+  return db.prepare(`
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev
+    FROM app_vulnerabilities WHERE app_id = ? AND version = ?
+    ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
+      WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
+  `).all(appId, version);
 }
 
 // Stored dependency rows of (appId, version), package fields joined in.
