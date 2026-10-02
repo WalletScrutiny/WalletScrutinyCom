@@ -122,7 +122,27 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // Commit of the default branch the last successful analysis looked at, so a
+  // pass skips repositories whose default branch has not moved since.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS default_branch_analyses (
+      app_id TEXT PRIMARY KEY,
+      commit_sha TEXT NOT NULL,
+      analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+
   return db;
+}
+
+export function getAnalysedCommit(db, appId) {
+  const row = db.prepare('SELECT commit_sha FROM default_branch_analyses WHERE app_id = ?').get(appId);
+  return row ? row.commit_sha : null;
+}
+
+export function saveAnalysedCommit(db, appId, commitSha) {
+  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha) VALUES (?, ?)
+    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
 }
 
 // Replace the cached app list with the given entries ({appId, platform, repository}).

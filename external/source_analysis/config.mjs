@@ -51,6 +51,9 @@ export const CONTAINER_MEMORY = process.env.SOURCE_ANALYSIS_CONTAINER_MEMORY || 
 export const CONTAINER_CPUS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_CPUS || 2);
 export const CONTAINER_PIDS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_PIDS || 2048); // counts threads too
 export const CONTAINER_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN || 45) * 60 * 1000; // per repository
+// Repositories processed at the same time. Each one runs its own container
+// with the limits above (3 x 6 GB / 2 CPUs by default), next to the build server.
+export const CONCURRENCY = Math.max(1, Math.floor(Number(process.env.SOURCE_ANALYSIS_CONCURRENCY)) || 3);
 // Shared npm/yarn/gradle/pip caches mounted into every container; wiped when
 // they grow past the cap (index.mjs calls pruneCache after each pass).
 export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');

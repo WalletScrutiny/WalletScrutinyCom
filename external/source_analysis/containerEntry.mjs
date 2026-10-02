@@ -10,6 +10,7 @@
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
+import { execFileSync } from 'child_process';
 import { cloneRepository, detectAppType, installDependencies, runChecksOnCheckout } from './appAnalysis.mjs';
 import { APP_TYPES } from './config.mjs';
 
@@ -21,7 +22,7 @@ const workDir = process.env.SOURCE_ANALYSIS_WORK_DIR || '/work';
 const repoPath = path.join(workDir, 'repo');
 const resultPath = path.join(workDir, 'result.json');
 
-const result = { ok: false, name: argv.name, repoUrl: argv.repo, ref: argv.ref || null, appType: null, pinning: null, error: null };
+const result = { ok: false, name: argv.name, repoUrl: argv.repo, ref: argv.ref || null, commit: null, appType: null, pinning: null, error: null };
 
 try {
   if (!argv.name || !argv.repo) throw new Error('usage: containerEntry.mjs --name <appId> --repo <url> [--ref <tag>] [--include-test-files]');
@@ -29,6 +30,7 @@ try {
 
   const cloned = await cloneRepository(argv.repo, repoPath, argv.ref || null);
   if (!cloned) throw new Error('clone failed');
+  result.commit = execFileSync('git', ['-C', repoPath, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
 
   const appType = detectAppType(repoPath);
   result.appType = appType;

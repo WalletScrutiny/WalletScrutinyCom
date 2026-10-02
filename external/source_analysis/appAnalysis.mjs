@@ -2,7 +2,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import { execSync } from 'child_process';
+import { execSync, exec, execFile } from 'child_process';
+import { promisify } from 'util';
 import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE, CONTAINER_CLI } from './config.mjs';
@@ -129,6 +130,28 @@ export async function cloneRepository(repoUrl, targetPath, tagName = null) {
   } catch (error) {
     console.error(`Error cloning repository ${repoUrl}:`, error.message);
     return false;
+  }
+}
+
+/**
+ * Commit the remote's default branch (HEAD) points at, or null when it cannot
+ * be read. Runs on the host and only talks to the remote: nothing is checked out.
+ */
+export async function remoteHeadCommit(repoUrl, { timeoutMs = 60000 } = {}) {
+  try {
+    const { stdout } = await promisify(execFile)('git', ['ls-remote', '--', repoUrl, 'HEAD'], {
+      encoding: 'utf8',
+      timeout: timeoutMs,
+      env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+    });
+    // The pattern also matches refs ending in /HEAD (refs/pull/123/HEAD on
+    // Forgejo/Gitea), so pick the line for HEAD itself.
+    const line = stdout.split('\n').find(l => l.split('\t')[1] === 'HEAD');
+    const sha = line ? line.split('\t')[0] : null;
+    return /^[0-9a-f]{40}([0-9a-f]{24})?$/.test(sha) ? sha : null;
+  } catch (error) {
+    console.log(`Could not read the default branch of ${repoUrl}: ${error.message.split('\n')[0]}`);
+    return null;
   }
 }
 
@@ -1353,12 +1376,11 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
     
     // Check if Semgrep image exists, if not pull it
     try {
-      execSync(`${CONTAINER_CLI} image inspect ${SEMGREP_IMAGE} > /dev/null 2>&1`, { stdio: 'pipe', timeout: 30000 });
+      await promisify(exec)(`${CONTAINER_CLI} image inspect ${SEMGREP_IMAGE} > /dev/null 2>&1`, { timeout: 30000 });
     } catch (error) {
       // console.log('Pulling Semgrep Docker image (this may take a moment)...');
       try {
-        execSync(`${CONTAINER_CLI} pull ${SEMGREP_IMAGE}`, {
-          stdio: 'inherit',
+        await promisify(exec)(`${CONTAINER_CLI} pull ${SEMGREP_IMAGE}`, {
           timeout: 300000 // 5 minutes for pulling image
         });
       } catch (pullError) {
@@ -1376,16 +1398,17 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
     // Using --error to exit with non-zero on findings (but we catch this)
     let semgrepOutput;
     try {
-      semgrepOutput = execSync(
+      // Async: with several repositories in flight, a blocking call would
+      // freeze the other jobs (their output and timeouts) for the whole scan.
+      ({ stdout: semgrepOutput } = await promisify(exec)(
         `${CONTAINER_CLI} run --rm -v "${absoluteRepoPath}:/src" ${SEMGREP_IMAGE} semgrep --config=auto --json /src`,
         {
           cwd: repoPath,
           encoding: 'utf8',
           timeout: 300000, // 5 minutes timeout
-          stdio: ['pipe', 'pipe', 'pipe'],
           maxBuffer: 50 * 1024 * 1024 // 50MB buffer to handle large Semgrep JSON outputs
         }
-      );
+      ));
     } catch (error) {
       // Semgrep exits with non-zero when findings are detected, but still outputs JSON
       if (error.stdout) {
@@ -1589,6 +1612,8 @@ export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles 
  * throwaway container (containerRunner.mjs); Semgrep runs in its own
  * container on the checkout the first one leaves behind; the host only
  * stores the result and deletes the scratch directory.
+ * Resolves to the container's result (with the analysed `commit`) when the
+ * analysis ran, null when it failed; failures are logged, never thrown.
  */
 export async function runSourceCodeAnalysis({ name, repoUrl, version = null, includeTestFiles = false, db = null }) {
   console.log(`\n${'='.repeat(60)}`);
@@ -1604,7 +1629,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
     const result = await runInContainer({ name, repoUrl, ref: version, includeTestFiles, workDir });
     if (!result.ok) {
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
-      return;
+      return null;
     }
     if (result.appType !== APP_TYPES.UNKNOWN) {
       await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
@@ -1614,8 +1639,10 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       const stored = saveDependencies(db, name, version, result.pinning);
       console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
     }
+    return result;
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);
+    return null;
   } finally {
     // Clone, node_modules and result: nothing of it is needed after this point.
     try {

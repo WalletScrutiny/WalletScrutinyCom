@@ -44,6 +44,7 @@ a timer every 6 hours:
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
+| parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
 | package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches shared by the analysis containers, wiped when they pass `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
@@ -106,10 +107,13 @@ sudo journalctl -u walletscrutiny-source-analysis.service -f
 sudo systemctl stop walletscrutiny-source-analysis.service         # abort a running pass
 ```
 
-A pass walks every repository of the site list; the first pass on an empty
-database analyses the latest release of each of them and takes hours, later
-passes only analyse new releases. If a pass is still running when the timer
-fires again, that firing is skipped.
+A pass walks every repository of the site list, three at a time. A repository
+with a new release gets that release analysed; one without gets its default
+branch analysed, unless the branch still points at the commit the last
+successful analysis looked at (`git ls-remote`, no clone). The first pass on an
+empty database therefore analyses every repository and takes hours; later
+passes analyse new releases and the default branches that moved. If a pass is
+still running when the timer fires again, that firing is skipped.
 
 Query the service database with the CLI in this folder:
 
@@ -239,7 +243,11 @@ After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.m
 analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, dependency
 install, then the tests below. When the pass added a new release, the clone is that
 release's tag and the resolved dependencies are stored in `assets.db`; when nothing
-new was found, it clones the default branch and stores nothing. Docker-only apps get
+new was found, it clones the default branch and stores only the analysed commit
+(`default_branch_analyses`), so the next pass skips the repository until that
+branch moves. A failed analysis stores nothing and is retried on the next pass.
+To re-analyse unchanged branches (new checks deployed, say), delete the rows of
+`default_branch_analyses`. Docker-only apps get
 no source analysis. The ecosystem is detected from the repository root
 (`package.json` → npm, `build.gradle(.kts)` → gradle, `pom.xml` → maven,
 `requirements.txt`/`setup.py`/`pyproject.toml` → pip); an unknown type (Rust
@@ -267,7 +275,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 | not in the container | the GitHub token, `assets.db`, the docker socket |
 | hardening | runs as the service user (`--user`), `--cap-drop ALL`, `--security-opt no-new-privileges`, read-only root with a tmpfs `/tmp`, `--memory 6g --cpus 2 --pids-limit 2048`, killed after 45 min (`SOURCE_ANALYSIS_CONTAINER_MEMORY`, `_CPUS`, `_PIDS`, `_TIMEOUT_MIN`) |
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
-| result | `/work/result.json` (`ok`, `appType`, `pinning`, `error`); the log streams through to the journal |
+| result | `/work/result.json` (`ok`, `commit`, `appType`, `pinning`, `error`); the log streams through to the journal |
 
 Semgrep (test 9) is its own container, started by the host on the checkout the
 first container leaves in the scratch dir. The image is the one place a hostile

@@ -109,6 +109,7 @@ test('containerEntry: clone + checks on a repository without a known manifest, r
   assert.equal(result.ok, true);
   assert.equal(result.appType, 'unknown');
   assert.deepEqual(result.pinning, []);
+  assert.equal(result.commit, execFileSync('git', ['-C', repo, 'rev-parse', 'v1^{commit}'], { encoding: 'utf8' }).trim(), 'the analysed commit is reported');
   assert.ok(fs.existsSync(path.join(workDir, 'repo', 'README.md')), 'checkout left for the host (Semgrep) to use');
 });
 
