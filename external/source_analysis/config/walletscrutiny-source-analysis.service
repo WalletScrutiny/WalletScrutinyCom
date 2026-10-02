@@ -30,6 +30,8 @@ Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
 # SOURCE_ANALYSIS_IMAGE, SOURCE_ANALYSIS_CONTAINER_MEMORY, SOURCE_ANALYSIS_CONTAINER_CPUS,
 # SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN.
 Environment=SOURCE_ANALYSIS_CONTAINER_CLI=docker
+# Repositories analysed at the same time, each with the container limits above
+Environment=SOURCE_ANALYSIS_CONCURRENCY=3
 
 NoNewPrivileges=yes
 PrivateTmp=yes

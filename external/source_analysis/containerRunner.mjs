@@ -10,6 +10,7 @@
 // root, memory/cpu/pid limits and a hard timeout.
 import fs from 'fs';
 import path from 'path';
+import readline from 'readline';
 import { spawn, execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import {
@@ -101,7 +102,8 @@ export function ensureImage(image = ANALYSIS_IMAGE, cli = CONTAINER_CLI) {
 }
 
 // Run containerEntry.mjs for one repository. Output streams through to our
-// stdout/stderr (the journal for the service); the structured result comes
+// stdout/stderr (the journal for the service) line by line via console, so
+// the job's log tag (pool.mjs) applies to it too; the structured result comes
 // back through <workDir>/result.json. Rejects when the container fails, is
 // killed on timeout, or leaves no result.
 export function runInContainer({
@@ -121,13 +123,18 @@ export function runInContainer({
   const args = buildRunArgs({ image, name: cname, workDir, cacheDir, analysisDir, uid, gid, entryArgs });
 
   return new Promise((resolve, reject) => {
-    const child = spawn(cli, args, { stdio: ['ignore', 'inherit', 'inherit'] });
+    const child = spawn(cli, args, { stdio: ['ignore', 'pipe', 'pipe'] });
+    readline.createInterface({ input: child.stdout, crlfDelay: Infinity }).on('line', line => console.log(line));
+    readline.createInterface({ input: child.stderr, crlfDelay: Infinity }).on('line', line => console.error(line));
     let timedOut = false;
     const timer = setTimeout(() => {
       timedOut = true;
       console.error(`Container ${cname} exceeded ${Math.round(timeoutMs / 60000)} min, killing it`);
       try { execFileSync(cli, ['kill', cname], { stdio: 'pipe', timeout: 60000 }); } catch { /* already gone */ }
       child.kill('SIGKILL');
+      // Whatever still holds the pipes must not keep 'close' from firing.
+      child.stdout.destroy();
+      child.stderr.destroy();
     }, timeoutMs);
 
     child.on('error', (error) => { clearTimeout(timer); reject(error); });

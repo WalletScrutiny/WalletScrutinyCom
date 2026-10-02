@@ -3,11 +3,12 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
-import { runSourceCodeAnalysis } from './appAnalysis.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit } from './ddbbUtils.mjs';
+import { runSourceCodeAnalysis, remoteHeadCommit } from './appAnalysis.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY } from './config.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
+import { runPool, tagConsole } from './pool.mjs';
 
 // Main function
 async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
@@ -59,8 +60,18 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
       } else {
-        console.log('  No updates or not a GitHub repo...');
-        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
+        // No new release: analyse the default branch, unless it has not moved
+        // since the last successful analysis. An unreadable remote HEAD analyses.
+        const head = await remoteHeadCommit(repoUrl);
+        if (head && head === getAnalysedCommit(db, appId)) {
+          console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
+        } else {
+          console.log('  No new release: analysing the default branch...');
+          const result = await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
+          if (result && result.commit) {
+            saveAnalysedCommit(db, appId, result.commit);
+          }
+        }
       }
     }
 
@@ -161,18 +172,20 @@ if (wantedIds.length) {
 // when its analysis ends; a kill mid-way leaves one behind).
 fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
 
-console.log(`Processing ${jobs.length} app(s)...\n`);
+console.log(`Processing ${jobs.length} app(s), ${CONCURRENCY} at a time...\n`);
+tagConsole();
 
 try {
   let successCount = 0;
   let errorCount = 0;
 
-  // Process each app
-  for (const app of jobs) {
+  // Process the apps, CONCURRENCY at a time (each in its own container and
+  // scratch dir); every log line of a job is tagged with its appId.
+  await runPool(jobs, CONCURRENCY, async (app) => {
     if (!app.appId || (!app.repoUrl && !app.dockerImage)) {
       console.error(`\n✗  Skipping invalid app configuration:`, app);
       errorCount++;
-      continue;
+      return;
     }
 
     try {
@@ -211,7 +224,7 @@ try {
       errorCount++;
       // Continue with next app instead of stopping
     }
-  }
+  }, (app) => app.appId);
 
   // Scratch dirs are deleted per repository; the shared package caches only
   // when they outgrow their cap.
