@@ -9,6 +9,7 @@ import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE, CONTAINER_CLI } from './config.mjs';
 import { analyzePinning } from './pinningAnalysis.mjs';
 import { checkVulnerabilities } from './osvCheck.mjs';
+import { resolveGradleDependencies } from './gradleResolution.mjs';
 import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
 import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
@@ -1607,6 +1608,7 @@ export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles 
   //await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
   //await analyzeObfuscation(repoPath);
   const pinning = analyzePinning(repoPath);
+  await resolveGradleDependencies(repoPath, pinning);
   //analyzeOobDownloads(repoPath);
   //analyzeCommittedBinaries(repoPath);
   return { pinning };

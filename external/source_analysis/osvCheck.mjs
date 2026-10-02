@@ -34,7 +34,12 @@ const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unk
  */
 export function uncheckableReason(entry) {
   if (!OSV_ECOSYSTEMS[entry.ecosystem]) return 'ecosystem';
-  if (UNCHECKABLE_TIERS.has(entry.tier)) return entry.tier;
+  // A floating gradle declaration that gradle resolved (gradleResolution.mjs)
+  // carries the version gradle picked; an unresolved one still has its range
+  // (`1.+`, `[1.0,2.0)`, `latest.release`), which the version check below and
+  // the `+` check here reject.
+  const resolvedFloating = entry.tier === 'floating' && entry.ecosystem === 'gradle' && !(entry.version || '').includes('+');
+  if (UNCHECKABLE_TIERS.has(entry.tier) && !resolvedFloating) return entry.tier;
   const resolved = entry.resolved || '';
   if (/^(git\+|git:|github:|file:|link:|portal:|workspace:|patch:)/.test(resolved)) return 'git-or-path';
   // an npm registry tarball is `<registry>/<name>/-/<name>-<version>.tgz`; any other URL is a tarball from elsewhere

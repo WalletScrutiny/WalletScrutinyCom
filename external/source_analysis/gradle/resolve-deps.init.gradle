@@ -1,0 +1,71 @@
+// Init script for the gradle dependency resolution of test 10
+// (gradleResolution.mjs). Runs inside the analysis container only.
+//
+// After every project is configured, resolves the dependency graph of each
+// classpath configuration (runtime, compile, annotation processors) and of
+// each buildscript classpath, and writes one JSON line per resolved module to
+// the file named by -DwsDepsOut. Only the graph is resolved (POM/module
+// metadata), no artifact is downloaded and no task of the project runs.
+import groovy.json.JsonOutput
+import org.gradle.api.artifacts.component.ModuleComponentIdentifier
+import org.gradle.api.artifacts.result.ResolvedDependencyResult
+import org.gradle.api.artifacts.result.UnresolvedDependencyResult
+
+def out = new File(System.getProperty('wsDepsOut'))
+def wanted = ~/(?i).*(runtimeclasspath|compileclasspath|annotationprocessor|kapt|ksp).*/
+
+// An Android module that pins an NDK the image does not have fails to
+// configure, and the SDK is read-only, so AGP cannot download it. The NDK
+// only matters for compiling native code, not for the dependency graph, so
+// point such a module at an NDK that is installed.
+def sdkDir = System.getenv('ANDROID_HOME') ?: System.getenv('ANDROID_SDK_ROOT')
+def installedNdks = sdkDir ? (new File(sdkDir, 'ndk').listFiles()?.findAll { it.isDirectory() && it.name ==~ '[0-9.]+' }*.name ?: []) : []
+// highest version: compare as a zero-padded string, 28.0.13004108 > 27.2.12479018
+def fallbackNdk = installedNdks ? installedNdks.max { it.tokenize('.').collect { n -> n.padLeft(10, '0') }.join('.') } : null
+gradle.allprojects { p ->
+  p.pluginManager.withPlugin('com.android.base') {
+    def components = p.extensions.findByName('androidComponents')
+    if (!fallbackNdk || !components) return
+    try {
+      components.finalizeDsl { android ->
+        def pinnedNdk = android.ndkVersion
+        if (pinnedNdk && !installedNdks.contains(pinnedNdk)) {
+          println "ws-resolve: ${p.path} wants NDK ${pinnedNdk}, not installed; using ${fallbackNdk} to configure"
+          android.ndkVersion = fallbackNdk
+        }
+      }
+    } catch (Throwable ignored) { /* AGP before 7.0: no finalizeDsl */ }
+  }
+}
+
+gradle.projectsEvaluated {
+  out.withWriter('UTF-8') { w ->
+    def emit = { Map m -> w.println(JsonOutput.toJson(m)) }
+    gradle.rootProject.allprojects { p ->
+      def configurations = [:]
+      p.buildscript.configurations.findAll { it.canBeResolved }.each { configurations['buildscript:' + it.name] = it }
+      p.configurations.findAll { it.canBeResolved && it.name ==~ wanted }.each { configurations[it.name] = it }
+      configurations.each { name, c ->
+        try {
+          def result = c.incoming.resolutionResult
+          def direct = result.root.dependencies
+            .findAll { it instanceof ResolvedDependencyResult && it.selected.id instanceof ModuleComponentIdentifier }
+            .collect { it.selected.id.group + ':' + it.selected.id.module } as Set
+          result.allComponents.each { component ->
+            def id = component.id
+            if (id instanceof ModuleComponentIdentifier) {
+              emit(project: p.path, configuration: name, group: id.group, module: id.module, version: id.version,
+                direct: direct.contains(id.group + ':' + id.module))
+            }
+          }
+          result.allDependencies.findAll { it instanceof UnresolvedDependencyResult }.each { u ->
+            emit(project: p.path, configuration: name, unresolved: u.attempted.displayName,
+              reason: String.valueOf(u.failure?.message).take(300))
+          }
+        } catch (Throwable e) {
+          emit(project: p.path, configuration: name, error: String.valueOf(e.message).take(300))
+        }
+      }
+    }
+  }
+}
