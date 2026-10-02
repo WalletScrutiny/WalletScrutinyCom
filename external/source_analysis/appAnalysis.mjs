@@ -1591,18 +1591,21 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
  * Returns what the host stores: the pinning analyses (resolved dependencies).
  */
 export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles = false } = {}) {
+  // For now only the dependencies and their known vulnerabilities run (tests 4
+  // and 10); the other checks are commented out until we get back to code
+  // analysis.
   if (appType !== APP_TYPES.UNKNOWN) {
     //await showDependencyTree(repoPath, appType);
-    await countDirectDependencies(repoPath, appType);
-    await listDependenciesWithoutFixedVersions(repoPath, appType);
+    //await countDirectDependencies(repoPath, appType);
+    //await listDependenciesWithoutFixedVersions(repoPath, appType);
     await scanVulnerabilities(repoPath, appType);
-    await analyzeDependencies(repoPath, appType);
+    //await analyzeDependencies(repoPath, appType);
   }
-  await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
-  await analyzeObfuscation(repoPath);
+  //await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
+  //await analyzeObfuscation(repoPath);
   const pinning = analyzePinning(repoPath);
-  analyzeOobDownloads(repoPath);
-  analyzeCommittedBinaries(repoPath);
+  //analyzeOobDownloads(repoPath);
+  //analyzeCommittedBinaries(repoPath);
   return { pinning };
 }
 
@@ -1631,9 +1634,11 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
       return null;
     }
-    if (result.appType !== APP_TYPES.UNKNOWN) {
-      await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
-    }
+    // Semgrep (test 9) is off for now, with the other code-analysis checks
+    // (see runChecksOnCheckout).
+    //if (result.appType !== APP_TYPES.UNKNOWN) {
+    //  await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
+    //}
     if (db && version && result.pinning) {
       const { saveDependencies } = await import('./ddbbUtils.mjs');
       const stored = saveDependencies(db, name, version, result.pinning);

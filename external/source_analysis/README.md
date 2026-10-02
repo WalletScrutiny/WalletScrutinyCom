@@ -11,7 +11,7 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports GitHub API token for higher rate limits
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
-- Clones the source of each new release and analyses it in a throwaway container: dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
+- Clones the source of each new release and analyses it in a throwaway container (for now only known vulnerabilities and the resolved dependencies run, see [Source analysis](#source-analysis)): dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
 - Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
 
 ## Installation (development)
@@ -303,6 +303,11 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 | 10 | Supply-chain pinning per dependency: hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinningAnalysis.mjs` |
 | 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oobDownloadAnalysis.mjs` |
 | 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committedBinaryAnalysis.mjs` |
+
+**For now only tests 4 and 10 run** (known vulnerabilities and the resolved
+dependencies); the calls of the others are commented out in
+`runChecksOnCheckout()` and, for Semgrep, `runSourceCodeAnalysis()`, until we get
+back to code analysis.
 
 The tests run in the order of the table (`runChecksOnCheckout()` in
 `appAnalysis.mjs`, inside the container; Semgrep from the host). Test 1 (full
