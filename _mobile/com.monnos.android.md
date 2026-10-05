@@ -20,7 +20,7 @@ android:
   released: 2019-09-17
   updated: 2024-11-29
   version: 6.3.14
-  reviews: 481
+  reviews: 480
   icon: com.monnos.android.webp
   meta: stale
   verdict: custodial

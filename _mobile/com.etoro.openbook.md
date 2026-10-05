@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-11-05
-  updated: 2026-09-25
-  version: 651.1331.0
-  reviews: 3819
+  updated: 2026-10-01
+  version: 651.1334.1
+  reviews: 3820
   icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2017-06-26
   updated: 2026-09-27
   version: v651.1334.1
-  reviews: 9929
+  reviews: 9933
   icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial

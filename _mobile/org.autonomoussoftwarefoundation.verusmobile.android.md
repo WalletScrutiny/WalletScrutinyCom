@@ -25,7 +25,7 @@ android:
   version: 1.0.34
   reviews: 35
   icon: org.autonomoussoftwarefoundation.verusmobile.android.webp
-  meta: ok
+  meta: stale
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
   repository: https://github.com/VerusCoin/Verus-Mobile
@@ -38,7 +38,7 @@ iphone:
   version: 1.0.34
   reviews: 19
   icon: org.autonomoussoftwarefoundation.verusmobile.ios.webp
-  meta: ok
+  meta: stale
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
   repository: https://github.com/VerusCoin/Verus-Mobile

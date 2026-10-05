@@ -29,8 +29,8 @@ iphone:
   idd: 1442778704
   appCountry: ua
   released: 2018-11-29
-  updated: 2026-09-12
-  version: 2.93.1
+  updated: 2026-10-04
+  version: 2.94.0
   reviews: 2309
   icon: com.bitget.exchange.global.webp
   meta: ok

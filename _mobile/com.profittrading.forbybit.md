@@ -16,7 +16,7 @@ android:
   released: 2020-03-22
   updated: 2026-03-25
   version: 7.1.1
-  reviews: 8
+  reviews: 9
   icon: com.profittrading.forbybit.webp
   meta: ok
   verdict: custodial

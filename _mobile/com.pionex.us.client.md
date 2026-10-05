@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-25
-  updated: 2026-09-22
-  version: 2.2.4
+  updated: 2026-09-30
+  version: 2.2.5
   reviews: 654
   icon: com.pionex.us.client.webp
   meta: ok

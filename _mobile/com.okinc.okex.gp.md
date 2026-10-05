@@ -21,7 +21,7 @@ android:
   released: 2019-10-29
   updated: 2026-09-30
   version: 6.190.0
-  reviews: 4013
+  reviews: 4020
   icon: com.okinc.okex.gp.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1327268470
   appCountry: us
   released: 2018-01-04
-  updated: 2026-09-29
-  version: 6.191.0
-  reviews: 22756
+  updated: 2026-10-05
+  version: 6.192.0
+  reviews: 22813
   icon: com.okex.OKExAppstoreFull.webp
   meta: ok
   verdict: custodial

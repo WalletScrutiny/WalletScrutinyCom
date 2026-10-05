@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-10
-  version: 4.0.2
+  updated: 2026-09-30
+  version: 4.0.3
   reviews: 26
   icon: com.ejara.ejarav2.webp
   meta: ok

@@ -18,12 +18,12 @@ redirect_from:
 - /iphone/com.app.speed1/
 android:
   appId: com.app.speedwallet
-  users: 500000
+  users: 1000000
   appCountry: us
   released: 2023-06-18
-  updated: 2026-09-18
-  version: 2.5.9.0.0.2.fp.gps
-  reviews: 1729
+  updated: 2026-10-01
+  version: 2.5.10.0.0.0.fp.gps
+  reviews: 1751
   icon: com.app.speedwallet.webp
   meta: ok
   verdict: custodial

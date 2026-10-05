@@ -39,7 +39,7 @@ iphone:
   released: 2023-10-15
   updated: 2026-09-29
   version: 1.18.4
-  reviews: 42
+  reviews: 43
   icon: ilink.walletverse.webp
   meta: ok
   verdict: nosource

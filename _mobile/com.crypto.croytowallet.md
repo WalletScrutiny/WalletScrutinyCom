@@ -19,7 +19,7 @@ android:
   updated: 2025-10-10
   version: 13.2.10
   icon: com.crypto.croytowallet.webp
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Smart IoT Technology Co. Ltd
 iphone:

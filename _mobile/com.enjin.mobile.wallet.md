@@ -40,7 +40,7 @@ iphone:
   released: 2018-03-12
   updated: 2026-09-21
   version: 3.6.2
-  reviews: 1360
+  reviews: 1359
   icon: com.enjin.mobile.wallet.webp
   meta: ok
   verdict: nosource

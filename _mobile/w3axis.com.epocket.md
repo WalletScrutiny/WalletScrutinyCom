@@ -29,8 +29,8 @@ iphone:
   idd: '1445852225'
   appCountry: au
   released: 2018-12-19
-  updated: 2026-09-25
-  version: 3.4.10
+  updated: 2026-10-01
+  version: 3.4.11
   reviews: 38
   icon: com.live.epocket.webp
   meta: ok

@@ -27,8 +27,8 @@ android:
   users: 100000
   appCountry: ae
   released: 2023-06-26
-  updated: 2026-08-21
-  version: 2.114.10
+  updated: 2026-10-04
+  version: 2.114.60
   reviews: 6
   icon: com.gemwallet.android.webp
   alternativeStores:

@@ -35,8 +35,8 @@ iphone:
   idd: '1459830339'
   appCountry: us
   released: 2019-04-17
-  updated: 2026-06-17
-  version: v1.10.48
+  updated: 2026-10-01
+  version: v1.10.49
   reviews: 223
   icon: io.wannabit.cosmostation.webp
   meta: ok

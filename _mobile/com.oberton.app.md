@@ -19,8 +19,8 @@ android:
   users: 5000
   appCountry: us
   released: 2021-09-15
-  updated: 2026-09-29
-  version: 2.23.0
+  updated: 2026-10-05
+  version: 2.23.1
   reviews: 27
   icon: com.oberton.app.webp
   meta: ok

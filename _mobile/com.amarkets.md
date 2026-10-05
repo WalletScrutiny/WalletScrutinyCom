@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2019-05-31
   updated: 2026-09-30
-  version: 2.1.148
-  reviews: 229
+  version: 2.1.149
+  reviews: 231
   icon: com.amarkets.webp
   meta: ok
   verdict: nosendreceive

@@ -11,7 +11,7 @@ redirect_from:
 - /iphone/com.useguap.ios.rn/
 android:
   appId: com.useguap.android.rn
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2025-12-05
   updated: 2026-09-18

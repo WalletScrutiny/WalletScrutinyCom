@@ -17,8 +17,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-09
-  updated: 2026-08-26
-  version: 1.1.1
+  updated: 2026-10-01
+  version: 1.1.2
   icon: com.app.degate.webp
   meta: ok
   verdict: nosource
@@ -28,8 +28,8 @@ iphone:
   idd: '6742168343'
   appCountry: us
   released: 2025-06-17
-  updated: 2026-08-31
-  version: 1.1.1
+  updated: 2026-10-05
+  version: 1.1.2
   reviews: 8
   icon: com.app.degate.webp
   meta: ok

@@ -16,7 +16,7 @@ android:
   appId: com.iqoption
   users: 100000000
   appCountry: us
-  updated: 2026-09-28
+  updated: 2026-10-01
   version: 8.67.4
   reviews: 556
   icon: com.iqoption.webp

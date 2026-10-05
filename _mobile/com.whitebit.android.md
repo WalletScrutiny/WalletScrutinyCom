@@ -21,7 +21,7 @@ android:
   released: 2019-06-07
   updated: 2026-09-24
   version: 3.84.0
-  reviews: 1398
+  reviews: 1397
   icon: com.whitebit.android.webp
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-21
   updated: 2026-09-25
   version: 3.84.0
-  reviews: 4231
+  reviews: 4252
   icon: com.whitebit.whitebitapp.webp
   meta: ok
   verdict: custodial

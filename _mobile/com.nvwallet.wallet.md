@@ -6,13 +6,13 @@ redirect_from:
 - /android/com.nvwallet.wallet/
 android:
   appId: com.nvwallet.wallet
-  users: 500
+  users: 1000
   appCountry: us
   released: 2024-12-27
   updated: 2026-04-18
   version: 0.1.1
   icon: com.nvwallet.wallet.webp
-  meta: fewusers
+  meta: ok
   verdict: wip
   developerName: Aegea Holdings
 

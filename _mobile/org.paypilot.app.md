@@ -8,8 +8,8 @@ android:
   appId: org.paypilot.app
   users: 1000
   appCountry: us
-  updated: 2026-09-25
-  version: 1.9.0
+  updated: 2026-09-30
+  version: 1.9.3
   icon: org.paypilot.app.webp
   meta: ok
   verdict: wip

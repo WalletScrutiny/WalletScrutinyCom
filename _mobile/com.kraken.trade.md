@@ -25,7 +25,7 @@ android:
   released: 2019-10-24
   updated: 2026-09-25
   version: 5.74.0
-  reviews: 4804
+  reviews: 4807
   icon: com.kraken.trade.webp
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2019-11-12
   updated: 2026-09-28
   version: 5.74.0
-  reviews: 25669
+  reviews: 25668
   icon: com.kraken.trade.app.webp
   meta: ok
   verdict: custodial

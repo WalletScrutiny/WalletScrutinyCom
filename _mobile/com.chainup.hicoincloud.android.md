@@ -21,8 +21,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-12-09
-  updated: 2026-09-24
-  version: 6.11.1
+  updated: 2026-10-02
+  version: 6.11.3
   icon: com.chainup.hicoincloud.android.webp
   meta: ok
   verdict: custodial
@@ -32,8 +32,8 @@ iphone:
   idd: '1438831143'
   appCountry: us
   released: 2018-12-13
-  updated: 2026-09-26
-  version: 6.11.1
+  updated: 2026-10-03
+  version: 6.11.3
   reviews: 3
   icon: com.joycoin.hicoin.webp
   meta: ok

@@ -30,9 +30,9 @@ iphone:
   idd: 1442483481
   appCountry: gb
   released: 2020-03-31
-  updated: 2026-09-28
-  version: 1.146.0
-  reviews: 2725
+  updated: 2026-10-02
+  version: 1.146.1
+  reviews: 2737
   icon: com.swissborg.ios.webp
   meta: ok
   verdict: custodial

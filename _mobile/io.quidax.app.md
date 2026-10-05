@@ -23,7 +23,7 @@ android:
   released: 2025-04-21
   updated: 2026-09-19
   version: 1.3.2
-  reviews: 13
+  reviews: 14
   icon: io.quidax.app.webp
   meta: ok
   verdict: custodial
@@ -35,7 +35,7 @@ iphone:
   released: 2025-07-07
   updated: 2026-09-28
   version: 1.1.20
-  reviews: 605
+  reviews: 610
   icon: io.quidax.pro.webp
   meta: ok
   verdict: custodial

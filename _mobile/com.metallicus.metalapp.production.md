@@ -32,7 +32,7 @@ iphone:
   released: 2018-09-14
   updated: 2026-09-24
   version: 3.1.226
-  reviews: 4327
+  reviews: 4326
   icon: com.metallicus.metalpay.webp
   meta: ok
   verdict: custodial

@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-01-21
-  updated: 2026-08-28
-  version: 6.2.0
+  updated: 2026-09-30
+  version: 6.3.0
   reviews: 4
   icon: co.bacoor.keyring.webp
   meta: ok
@@ -26,8 +26,8 @@ iphone:
   idd: '1546824976'
   appCountry: us
   released: 2021-01-25
-  updated: 2026-08-29
-  version: 6.2.0
+  updated: 2026-10-01
+  version: 6.3.0
   reviews: 11
   icon: co.bacoor.keyring.webp
   meta: ok

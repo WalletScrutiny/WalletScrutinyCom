@@ -20,9 +20,9 @@ android:
   users: 500000
   appCountry: au
   released: 2020-10-07
-  updated: 2026-06-30
-  version: 3.11.7
-  reviews: 2214
+  updated: 2026-10-01
+  version: 3.11.14
+  reviews: 2218
   icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: 1541949985
   appCountry: au
   released: 2020-12-13
-  updated: 2026-07-02
-  version: 3.11.7
-  reviews: 45520
+  updated: 2026-10-04
+  version: 3.11.14
+  reviews: 45563
   icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial

@@ -23,7 +23,7 @@ android:
   released: 2014-10-01
   updated: 2026-09-30
   version: 7.9.40.1
-  reviews: 552
+  reviews: 551
   icon: asia.coins.mobile.webp
   meta: ok
   verdict: custodial

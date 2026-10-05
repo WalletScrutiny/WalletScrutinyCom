@@ -13,8 +13,8 @@ android:
   users: 50000
   appCountry: us
   released: 2023-06-02
-  updated: 2026-09-22
-  version: 3.4.0
+  updated: 2026-10-04
+  version: 3.4.1
   icon: com.utorg.webp
   meta: ok
   verdict: nosource

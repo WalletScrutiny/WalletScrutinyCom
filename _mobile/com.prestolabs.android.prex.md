@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2022-11-18
   updated: 2026-09-23
-  version: 3.38.101
+  version: 3.39.100
   reviews: 75
   icon: com.prestolabs.android.prex.webp
   meta: ok

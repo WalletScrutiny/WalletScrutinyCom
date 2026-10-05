@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-10-09
-  updated: 2026-09-29
-  version: 4.47.0
+  updated: 2026-09-30
+  version: 4.47.1
   reviews: 8
   icon: vivid.money.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1504417378
   appCountry: jp
   released: 2020-10-09
-  updated: 2026-09-24
-  version: 4.46.0
+  updated: 2026-10-01
+  version: 4.47.0
   reviews: 17
   icon: com.vivid.money.webp
   meta: ok

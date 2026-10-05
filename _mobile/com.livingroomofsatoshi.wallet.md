@@ -39,7 +39,7 @@ iphone:
   released: 2019-05-20
   updated: 2026-09-23
   version: 3.4.10
-  reviews: 57
+  reviews: 58
   icon: com.livingroomofsatoshi.wallet.webp
   meta: ok
   verdict: custodial

@@ -26,7 +26,7 @@ android:
   released: 2020-09-01
   updated: 2026-09-29
   version: 8.12.0
-  reviews: 6749
+  reviews: 6753
   icon: io.metamask.webp
   alternativeStores:
   - zapstore
@@ -41,7 +41,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-09-29
   version: 8.13.0
-  reviews: 76331
+  reviews: 76382
   icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable

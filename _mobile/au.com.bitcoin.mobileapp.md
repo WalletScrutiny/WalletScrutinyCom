@@ -30,7 +30,7 @@ iphone:
   released: 2022-11-28
   updated: 2026-09-27
   version: 17.0.1
-  reviews: 1423
+  reviews: 1422
   icon: au.com.bitcoin.mobileapp.webp
   meta: ok
   verdict: custodial

@@ -24,7 +24,7 @@ android:
   released: 2021-10-12
   updated: 2026-09-29
   version: 2.10.0
-  reviews: 1125
+  reviews: 1126
   icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource

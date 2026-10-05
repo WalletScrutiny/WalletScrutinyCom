@@ -17,9 +17,9 @@ android:
   users: 1000000
   appCountry: jp
   released: 2019-10-19
-  updated: 2026-09-28
-  version: 10.1.3
-  reviews: 1749
+  updated: 2026-10-01
+  version: 10.1.4
+  reviews: 1748
   icon: com.bitflyer.android.bfwallet.webp
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 1164758997
   appCountry: jp
   released: 2016-11-18
-  updated: 2026-09-16
-  version: 10.1.0
-  reviews: 133139
+  updated: 2026-10-05
+  version: 10.1.2
+  reviews: 133173
   icon: jp.bitflyer.wallet.webp
   meta: ok
   verdict: custodial

@@ -16,8 +16,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-08-20
-  updated: 2026-09-16
-  version: 3.1.8
+  updated: 2026-10-05
+  version: 3.1.9
   reviews: 10
   icon: com.coinhub.pro.webp
   meta: ok

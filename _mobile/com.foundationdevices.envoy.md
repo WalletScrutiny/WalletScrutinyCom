@@ -27,8 +27,8 @@ android:
   users: 1000
   appCountry: US
   released: 2022-04-01
-  updated: 2026-09-08
-  version: 2.3.3
+  updated: 2026-09-30
+  version: 2.3.4
   reviews: 6
   icon: com.foundationdevices.envoy.webp
   alternativeStores:
@@ -42,8 +42,8 @@ iphone:
   idd: '1584811818'
   appCountry: us
   released: 2022-07-14
-  updated: 2026-09-15
-  version: 2.3.4
+  updated: 2026-09-30
+  version: 2.3.5
   reviews: 30
   icon: com.foundationdevices.envoy.webp
   meta: ok

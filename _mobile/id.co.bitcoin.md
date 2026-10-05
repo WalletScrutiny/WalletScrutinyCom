@@ -14,8 +14,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-12-15
-  updated: 2026-09-17
-  version: 5.9.9
+  updated: 2026-10-01
+  version: 5.10.2
   reviews: 493
   icon: id.co.bitcoin.webp
   meta: ok

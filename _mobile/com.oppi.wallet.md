@@ -22,7 +22,7 @@ android:
   released: 2024-05-13
   updated: 2026-09-29
   version: 1.0.124
-  reviews: 10
+  reviews: 12
   icon: com.oppi.wallet.webp
   meta: ok
   verdict: nosource

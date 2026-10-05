@@ -14,9 +14,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2017-04-10
-  updated: 2026-09-25
-  version: 3.114.0
-  reviews: 21461
+  updated: 2026-10-02
+  version: 3.115.0
+  reviews: 21476
   icon: com.sofi.mobile.webp
   meta: ok
   verdict: nosendreceive
@@ -26,8 +26,8 @@ iphone:
   idd: '1191985736'
   appCountry: us
   released: 2017-04-10
-  updated: 2026-09-25
-  version: 3.115.0
+  updated: 2026-10-02
+  version: 3.116.0
   reviews: 385422
   icon: com.sofi.mobile.webp
   meta: ok

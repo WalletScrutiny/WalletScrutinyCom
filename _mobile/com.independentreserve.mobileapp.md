@@ -38,7 +38,7 @@ iphone:
   released: 2021-10-18
   updated: 2026-09-27
   version: 17.0.1
-  reviews: 2286
+  reviews: 2287
   icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial

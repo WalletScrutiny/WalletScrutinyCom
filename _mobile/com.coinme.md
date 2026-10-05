@@ -20,9 +20,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-06
-  updated: 2026-09-09
-  version: 3.4.3
-  reviews: 1165
+  updated: 2026-09-29
+  version: 3.4.4
+  reviews: 1169
   icon: com.coinme.webp
   meta: ok
   verdict: custodial
@@ -34,7 +34,7 @@ iphone:
   released: 2021-05-11
   updated: 2026-09-29
   version: 3.4.4
-  reviews: 6611
+  reviews: 6620
   icon: com.coinme.CoinMe.webp
   meta: ok
   verdict: custodial

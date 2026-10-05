@@ -32,7 +32,7 @@ iphone:
   released: 2019-12-20
   updated: 2026-09-16
   version: 3.8.8
-  reviews: 1923
+  reviews: 1925
   icon: com.TapGlobal.tap.webp
   meta: ok
   verdict: custodial

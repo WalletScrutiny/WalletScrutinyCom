@@ -15,7 +15,7 @@ android:
   released: 2018-11-05
   updated: 2026-09-29
   version: 1.9.80.1a4d
-  reviews: 1542
+  reviews: 1543
   icon: kr.co.gopax.webp
   meta: ok
   verdict: custodial

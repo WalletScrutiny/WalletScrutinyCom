@@ -36,7 +36,7 @@ iphone:
   released: 2020-07-06
   updated: 2026-09-16
   version: 2.4.7
-  reviews: 4497
+  reviews: 4498
   icon: net.bitoasis.ios.com.webp
   meta: ok
   verdict: custodial

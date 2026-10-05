@@ -37,7 +37,7 @@ iphone:
   version: 3.1.10
   reviews: 9
   icon: io.swiftcoin.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Swiftcoin Ltd
 

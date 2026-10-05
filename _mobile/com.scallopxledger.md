@@ -31,8 +31,8 @@ iphone:
   idd: '1599717690'
   appCountry: bg
   released: 2021-12-10
-  updated: 2025-12-02
-  version: 1.8.8
+  updated: 2026-09-30
+  version: 1.9.1
   reviews: 0
   icon: com.scallop.app.webp
   meta: ok

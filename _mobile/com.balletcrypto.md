@@ -30,7 +30,7 @@ iphone:
   released: 2019-09-11
   updated: 2026-09-22
   version: 3.0.2
-  reviews: 1557
+  reviews: 1559
   icon: com.balletcrypto.webp
   meta: ok
   verdict: nosource

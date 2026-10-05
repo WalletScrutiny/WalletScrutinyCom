@@ -43,7 +43,7 @@ iphone:
   released: 2015-12-14
   updated: 2026-09-30
   version: 6.30.0
-  reviews: 504
+  reviews: 505
   icon: com.coinspace.wallet.webp
   meta: ok
   verdict: sourceavailable

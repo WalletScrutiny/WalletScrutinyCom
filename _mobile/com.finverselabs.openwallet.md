@@ -16,7 +16,7 @@ android:
   released: 2024-07-01
   updated: 2026-06-25
   version: 2026.6.36
-  reviews: 8
+  reviews: 9
   icon: com.finverselabs.openwallet.webp
   meta: ok
   verdict: custodial

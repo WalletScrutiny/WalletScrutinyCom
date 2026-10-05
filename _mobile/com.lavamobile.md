@@ -14,8 +14,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-05-25
-  updated: 2026-09-23
-  version: 3.24.2
+  updated: 2026-10-01
+  version: 3.25.0
   reviews: 29
   icon: com.lavamobile.webp
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '1661751123'
   appCountry: us
   released: 2024-04-29
-  updated: 2026-09-24
-  version: 3.24.2
-  reviews: 177
+  updated: 2026-10-02
+  version: 3.25.0
+  reviews: 178
   icon: xyz.lava.mobile.webp
   meta: ok
   verdict: nosource

@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-09-23
-  updated: 2026-09-25
-  version: 2.0.23
+  updated: 2026-10-04
+  version: 2.0.24
   icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial
@@ -27,7 +27,7 @@ iphone:
   released: 2022-11-15
   updated: 2026-09-25
   version: 2.0.23
-  reviews: 443
+  reviews: 445
   icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial

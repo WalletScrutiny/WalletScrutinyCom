@@ -35,7 +35,7 @@ iphone:
   released: 2021-06-20
   updated: 2026-09-15
   version: 2.0.27
-  reviews: 1219
+  reviews: 1218
   icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial

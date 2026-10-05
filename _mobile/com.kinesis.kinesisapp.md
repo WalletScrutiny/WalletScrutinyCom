@@ -35,7 +35,7 @@ iphone:
   version: 2.20.0
   reviews: 10
   icon: com.kinesis.kinesis-app.webp
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Kinesis AG
   repository: https://github.com/KinesisNetwork/wallet-mobile

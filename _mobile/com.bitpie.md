@@ -38,7 +38,7 @@ iphone:
   released: 2019-10-01
   updated: 2026-09-16
   version: 5.0.246
-  reviews: 364
+  reviews: 363
   icon: com.bitpie.wallet.webp
   meta: ok
   verdict: nosource

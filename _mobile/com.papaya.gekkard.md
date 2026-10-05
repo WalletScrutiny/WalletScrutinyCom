@@ -16,11 +16,11 @@ android:
   users: 10000
   appCountry: mt
   released: 2020-01-30
-  updated: 2024-10-14
-  version: 1.1.1
+  updated: 2026-09-28
+  version: 1.1.3
   reviews: 76
   icon: com.papaya.gekkard.webp
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: PAPAYA LTD
 iphone:

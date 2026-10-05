@@ -13,8 +13,8 @@ android:
   appId: com.applemoncash
   users: 5000000
   appCountry: us
-  updated: 2026-09-24
-  version: 3.0.17
+  updated: 2026-09-30
+  version: 3.0.18
   reviews: 13
   icon: com.applemoncash.webp
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: '1499421511'
   appCountry: ar
   released: 2020-03-24
-  updated: 2026-09-25
-  version: 3.0.17
-  reviews: 4128
+  updated: 2026-10-01
+  version: 3.0.18
+  reviews: 4129
   icon: org.reactjs.native.lemon.appLemonCash.webp
   meta: ok
   verdict: custodial

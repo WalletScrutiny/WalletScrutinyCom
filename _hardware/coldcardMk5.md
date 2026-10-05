@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2026-03-10
 discontinued: 
-updated: 2026-09-03
-version: 5.6.2
+updated: 2026-09-30
+version: 5.6.3
 binaries: https://coldcard.com/downloads/mk
 dimensions:
 - 86

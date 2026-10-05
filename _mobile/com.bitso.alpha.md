@@ -16,8 +16,8 @@ android:
   appCountry: GI
   released: 2021-09-28
   updated: 2026-09-25
-  version: 1.53.2
-  reviews: 608
+  version: 1.55.0
+  reviews: 607
   icon: com.bitso.alpha.webp
   meta: ok
   verdict: custodial

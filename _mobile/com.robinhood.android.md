@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2015-08-12
   updated: 2026-09-28
-  version: 2026.38.6
-  reviews: 269723
+  version: 2026.39.2
+  reviews: 269880
   icon: com.robinhood.android.webp
   meta: ok
   verdict: nosendreceive
@@ -30,9 +30,9 @@ iphone:
   idd: 938003185
   appCountry: us
   released: 2014-12-11
-  updated: 2026-09-28
-  version: 2026.39.0
-  reviews: 4859671
+  updated: 2026-10-01
+  version: 2026.39.1
+  reviews: 4867137
   icon: com.robinhood.release.Robinhood.webp
   meta: ok
   verdict: nosendreceive

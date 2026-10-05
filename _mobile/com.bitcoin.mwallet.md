@@ -31,7 +31,7 @@ android:
   released: 2017-06-19
   updated: 2026-09-28
   version: 9.39.1
-  reviews: 4280
+  reviews: 4281
   icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource
@@ -44,7 +44,7 @@ iphone:
   released: 2017-07-11
   updated: 2026-09-30
   version: 9.39.1
-  reviews: 45371
+  reviews: 45415
   icon: com.bitcoin.mwallet.webp
   meta: ok
   verdict: nosource

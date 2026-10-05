@@ -20,7 +20,7 @@ android:
   released: 2020-01-19
   updated: 2026-09-17
   version: 10.2.0
-  reviews: 608
+  reviews: 607
   icon: com.zengo.wallet.webp
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2019-06-07
   updated: 2026-09-22
   version: 10.2.0
-  reviews: 4395
+  reviews: 4397
   icon: kzencorp.mobile.ios.webp
   meta: ok
   verdict: nosource

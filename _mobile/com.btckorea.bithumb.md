@@ -13,11 +13,11 @@ redirect_from:
 - /iphone/com.btckorea.bithumb/
 android:
   appId: com.btckorea.bithumb
-  users: 5000000
+  users: 10000000
   appCountry: us
   released: 2017-09-26
-  updated: 2026-09-18
-  version: 3.9.1
+  updated: 2026-09-29
+  version: 3.9.2
   reviews: 73
   icon: com.btckorea.bithumb.webp
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: 1299421592
   appCountry: kr
   released: 2017-12-05
-  updated: 2026-09-21
-  version: 3.2.7
-  reviews: 5083
+  updated: 2026-10-01
+  version: 3.2.8
+  reviews: 5089
   icon: com.btckorea.bithumb.webp
   meta: ok
   verdict: custodial

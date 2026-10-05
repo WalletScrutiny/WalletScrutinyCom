@@ -12,8 +12,8 @@ android:
   users: 500000
   appCountry: us
   released: 2019-09-11
-  updated: 2025-12-22
-  version: 7.4.9
+  updated: 2026-09-27
+  version: 7.5.3
   reviews: 270
   icon: co.okex.app.webp
   meta: ok

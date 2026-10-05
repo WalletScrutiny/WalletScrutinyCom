@@ -31,7 +31,7 @@ iphone:
   released: 2016-03-22
   updated: 2026-01-23
   version: 4.11.75
-  reviews: 844
+  reviews: 845
   icon: com.wirex.webp
   meta: ok
   verdict: custodial

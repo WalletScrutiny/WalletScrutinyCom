@@ -31,11 +31,11 @@ iphone:
   idd: 1238213050
   appCountry: si
   released: 2017-05-25
-  updated: 2023-10-31
-  version: 3.2.1
+  updated: 2026-10-03
+  version: 4.1.7
   reviews: 84
   icon: net.iconomi.iconomi.webp
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: ICONOMI LTD
 

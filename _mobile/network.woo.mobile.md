@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-12-17
-  updated: 2026-09-18
-  version: 3.66.5
+  updated: 2026-10-01
+  version: 3.66.6
   reviews: 10
   icon: network.woo.mobile.webp
   meta: ok

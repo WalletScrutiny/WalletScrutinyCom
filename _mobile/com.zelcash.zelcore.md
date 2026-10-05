@@ -36,8 +36,8 @@ iphone:
   idd: 1436296839
   appCountry: us
   released: 2018-09-23
-  updated: 2026-09-29
-  version: v8.38.0
+  updated: 2026-10-02
+  version: v8.38.1
   reviews: 24
   icon: com.zelcash.zelcore.webp
   meta: ok

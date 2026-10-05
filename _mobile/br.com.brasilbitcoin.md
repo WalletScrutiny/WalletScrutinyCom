@@ -17,9 +17,9 @@ android:
   users: 100000
   appCountry: br
   released: 2021-02-17
-  updated: 2026-09-28
+  updated: 2026-09-30
   version: 5.1.0
-  reviews: 5671
+  reviews: 5669
   icon: br.com.brasilbitcoin.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2020-07-27
   updated: 2026-09-15
   version: 5.0.07
-  reviews: 2291
+  reviews: 2292
   icon: br.com.brasilbitcoin.run.webp
   meta: ok
   verdict: custodial

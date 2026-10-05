@@ -25,9 +25,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-08-30
-  updated: 2026-09-28
-  version: 3.242.0
-  reviews: 56885
+  updated: 2026-09-30
+  version: 3.242.01
+  reviews: 56903
   icon: co.mona.android.webp
   meta: ok
   verdict: custodial
@@ -39,7 +39,7 @@ iphone:
   released: 2017-08-31
   updated: 2026-09-29
   version: '3.242'
-  reviews: 334713
+  reviews: 334992
   icon: co.mona.Monaco.webp
   meta: ok
   verdict: custodial

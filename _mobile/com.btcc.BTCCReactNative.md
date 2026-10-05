@@ -33,7 +33,7 @@ iphone:
   released: 2017-01-20
   updated: 2026-08-27
   version: 3.5.45
-  reviews: 191
+  reviews: 192
   icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial

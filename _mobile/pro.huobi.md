@@ -21,8 +21,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-11-01
-  updated: 2026-09-24
-  version: 11.38.0
+  updated: 2026-09-29
+  version: 11.38.1
   reviews: 543
   icon: pro.huobi.webp
   meta: ok

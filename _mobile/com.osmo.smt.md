@@ -38,7 +38,7 @@ iphone:
   released: 2022-06-14
   updated: 2026-09-25
   version: 4.9.21
-  reviews: 183
+  reviews: 184
   icon: com.osmowallet.app.webp
   meta: ok
   verdict: custodial

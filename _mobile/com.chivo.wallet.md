@@ -22,7 +22,7 @@ android:
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14265
+  reviews: 14269
   icon: com.chivo.wallet.webp
   meta: stale
   verdict: obfuscated

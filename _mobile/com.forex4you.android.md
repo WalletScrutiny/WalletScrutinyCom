@@ -18,7 +18,7 @@ android:
   released: 2015-10-06
   updated: 2026-08-27
   version: 6.28.0
-  reviews: 270
+  reviews: 269
   icon: com.forex4you.android.webp
   meta: ok
   verdict: nosendreceive

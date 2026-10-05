@@ -50,7 +50,7 @@ iphone:
   released: 2019-03-22
   updated: 2026-09-28
   version: 5.7.0
-  reviews: 1233
+  reviews: 1235
   icon: io.blockstream.green.webp
   meta: ok
   verdict: sourceavailable

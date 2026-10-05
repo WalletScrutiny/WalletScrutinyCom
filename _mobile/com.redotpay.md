@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2023-06-09
   updated: 2026-09-25
-  version: 3.14.2
-  reviews: 1319
+  version: 3.14.3
+  reviews: 1326
   icon: com.redotpay.webp
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2023-06-13
   updated: 2026-09-28
   version: 3.14.3
-  reviews: 4134
+  reviews: 4176
   icon: com.redotpay.webp
   meta: ok
   verdict: custodial

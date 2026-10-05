@@ -15,7 +15,7 @@ android:
   released: 2025-03-21
   updated: 2026-09-30
   version: 6.190.0
-  reviews: 60
+  reviews: 61
   icon: com.okx.wallet.webp
   meta: ok
   verdict: nosource

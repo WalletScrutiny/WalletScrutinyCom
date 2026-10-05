@@ -34,7 +34,7 @@ iphone:
   released: 2023-01-04
   updated: 2026-09-25
   version: 2.30.0
-  reviews: 736
+  reviews: 737
   icon: com.global.wallet.ios.webp
   meta: ok
   verdict: obfuscated

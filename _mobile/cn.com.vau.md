@@ -19,7 +19,7 @@ android:
   released: 2019-07-06
   updated: 2026-09-17
   version: 4.11.0
-  reviews: 10137
+  reviews: 10433
   icon: cn.com.vau.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2019-07-20
   updated: 2026-09-20
   version: 4.11.0
-  reviews: 98
+  reviews: 102
   icon: com.vttech.VantageFX.webp
   meta: ok
   verdict: nosendreceive

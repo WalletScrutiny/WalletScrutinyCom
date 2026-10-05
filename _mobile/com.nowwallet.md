@@ -23,7 +23,7 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-20
-  updated: 2026-09-09
+  updated: 2026-09-29
   version: 3.19.1
   reviews: 205
   icon: com.nowwallet.webp
@@ -35,9 +35,9 @@ iphone:
   idd: '1591216386'
   appCountry: us
   released: 2021-10-23
-  updated: 2026-09-10
-  version: 3.19.1
-  reviews: 847
+  updated: 2026-09-30
+  version: 3.19.2
+  reviews: 850
   icon: io.changenow.wallet-now.webp
   meta: ok
   verdict: nosource

@@ -24,7 +24,7 @@ android:
   released: 2023-01-20
   updated: 2026-09-28
   version: 4.0.2
-  reviews: 438
+  reviews: 440
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial
@@ -36,7 +36,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-09-29
   version: 4.0.2
-  reviews: 1216
+  reviews: 1217
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial

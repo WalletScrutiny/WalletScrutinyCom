@@ -1,9 +1,3 @@
-2026-09-18:
-- _mobile/com.XcelTrip.XcelPay
-- _mobile/com.bitmex.app.android
-- _mobile/com.coinceeper.adl
-- _mobile/com.kinesis.kinesisapp
-- _mobile/com.production.BitcoinWallet
 2026-09-21:
 - _mobile/com.ari10.bitcan
 - _mobile/com.blockchaincommodities.hippo_wallet
@@ -37,3 +31,10 @@
 - _mobile/com.taralwallet
 - _mobile/de.followmytrader
 - _mobile/pro.bingbon.app
+2026-10-05:
+- _mobile/com.bankofhodlers.mobile
+- _mobile/com.flx.cryptokeeper
+- _mobile/com.goldbitpro.wallet
+- _mobile/com.app.speedwallet
+- _mobile/com.wirelessenergy.smartwallet
+- _mobile/com.fasset.cashapp

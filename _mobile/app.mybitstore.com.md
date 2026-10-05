@@ -32,7 +32,7 @@ iphone:
   released: 2021-08-12
   updated: 2025-02-18
   version: 7.0.9
-  reviews: 488
+  reviews: 490
   icon: app.mybitstore.com.webp
   meta: stale
   verdict: custodial

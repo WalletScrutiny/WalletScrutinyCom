@@ -13,9 +13,9 @@ iphone:
   idd: 1522250001
   appCountry: us
   released: 2020-07-08
-  updated: 2026-09-27
-  version: 2.8.0
-  reviews: 5808
+  updated: 2026-10-01
+  version: 2.8.1
+  reviews: 5821
   icon: com.xiandanxiaohai.Bybt.webp
   meta: ok
   verdict: fake

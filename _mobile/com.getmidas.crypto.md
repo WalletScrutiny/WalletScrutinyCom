@@ -14,8 +14,8 @@ android:
   users: 500000
   appCountry: us
   released: 2024-12-01
-  updated: 2026-09-23
-  version: 3.16.0
+  updated: 2026-10-01
+  version: 3.17.1
   reviews: 3
   icon: com.getmidas.crypto.webp
   meta: ok
@@ -26,9 +26,9 @@ iphone:
   idd: '6505027440'
   appCountry: tr
   released: 2024-08-13
-  updated: 2026-09-23
-  version: 3.16.0
-  reviews: 2978
+  updated: 2026-10-01
+  version: 3.17.0
+  reviews: 2979
   icon: com.midas.crypto.webp
   meta: ok
   verdict: custodial

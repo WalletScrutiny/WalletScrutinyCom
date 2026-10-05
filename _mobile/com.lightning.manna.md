@@ -16,8 +16,8 @@ android:
   users: 500
   appCountry: us
   released: 2025-05-14
-  updated: 2026-09-18
-  version: 1.2.25
+  updated: 2026-10-03
+  version: 1.2.30
   reviews: 8
   icon: com.lightning.manna.webp
   meta: fewusers
@@ -28,9 +28,9 @@ iphone:
   idd: '6745337602'
   appCountry: us
   released: 2025-05-16
-  updated: 2026-09-29
-  version: 1.2.26
-  reviews: 10
+  updated: 2026-10-03
+  version: 1.2.30
+  reviews: 12
   icon: com.lightning.manna.webp
   meta: ok
   verdict: custodial

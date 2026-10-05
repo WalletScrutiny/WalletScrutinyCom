@@ -19,7 +19,7 @@ android:
   updated: 2026-07-15
   version: 3.2.14
   icon: com.bitmex.app.android.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitMEX
 iphone:
@@ -31,7 +31,7 @@ iphone:
   version: 3.2.14
   reviews: 0
   icon: com.bitmex.app.ios.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitMEX
 

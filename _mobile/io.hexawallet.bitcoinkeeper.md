@@ -22,8 +22,8 @@ android:
   users: 1000
   appCountry: UK
   released: 2022-12-12
-  updated: 2026-09-28
-  version: 2.5.16
+  updated: 2026-09-30
+  version: 2.5.17
   icon: io.hexawallet.bitcoinkeeper.webp
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
   alternativeStores:
@@ -37,8 +37,8 @@ iphone:
   idd: '1545535925'
   appCountry: us
   released: 2022-10-19
-  updated: 2026-09-29
-  version: 2.5.16
+  updated: 2026-10-01
+  version: 2.5.17
   reviews: 22
   icon: io.hexawallet.keeper.webp
   meta: ok

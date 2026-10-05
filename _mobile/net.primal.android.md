@@ -17,7 +17,7 @@ android:
   released: 2024-07-09
   updated: 2026-09-01
   version: 3.5.27
-  reviews: 34
+  reviews: 35
   icon: net.primal.android.webp
   alternativeStores:
   - zapstore

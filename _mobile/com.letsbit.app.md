@@ -32,7 +32,7 @@ iphone:
   released: 2022-12-07
   updated: 2026-09-21
   version: 2.36.0
-  reviews: 449
+  reviews: 451
   icon: com.letsbit.app.webp
   meta: ok
   verdict: custodial

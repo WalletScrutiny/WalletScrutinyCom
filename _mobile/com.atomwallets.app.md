@@ -27,7 +27,7 @@ iphone:
   released: 2025-11-07
   updated: 2026-09-17
   version: 2.3.8
-  reviews: 2
+  reviews: 1
   icon: ios.atomwallets.com.webp
   meta: ok
   verdict: nosource

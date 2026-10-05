@@ -35,7 +35,7 @@ android:
   released: 2013-07-01
   updated: 2026-05-15
   version: 3.22.0.2
-  reviews: 1154
+  reviews: 1155
   icon: com.mycelium.wallet.webp
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: ok
@@ -50,7 +50,7 @@ iphone:
   released: 2014-12-17
   updated: 2026-09-25
   version: '2.12'
-  reviews: 21
+  reviews: 22
   icon: com.mycelium.wallet-ios.webp
   meta: ok
   verdict: sourceavailable

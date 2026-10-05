@@ -27,8 +27,8 @@ iphone:
   idd: '1546702297'
   appCountry: sn
   released: 2021-02-09
-  updated: 2026-09-22
-  version: 3.0.090
+  updated: 2026-10-05
+  version: 3.0.092
   reviews: 0
   icon: com.BiyaGlobal.Biya.webp
   meta: ok

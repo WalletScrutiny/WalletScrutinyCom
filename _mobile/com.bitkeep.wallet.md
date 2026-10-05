@@ -21,7 +21,7 @@ android:
   released: 2020-02-11
   updated: 2026-09-24
   version: 9.65.1
-  reviews: 3861
+  reviews: 3862
   icon: com.bitkeep.wallet.webp
   meta: ok
   verdict: nosource

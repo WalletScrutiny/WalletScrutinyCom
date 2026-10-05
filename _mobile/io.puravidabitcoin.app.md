@@ -20,8 +20,8 @@ android:
   users: 500
   appCountry: us
   released: 2023-04-10
-  updated: 2026-08-10
-  version: 2.5.0
+  updated: 2026-09-30
+  version: 2.6.0
   reviews: 1
   icon: io.puravidabitcoin.app.webp
   meta: fewusers
@@ -32,8 +32,8 @@ iphone:
   idd: '6443837514'
   appCountry: us
   released: 2023-03-29
-  updated: 2026-08-11
-  version: 2.5.0
+  updated: 2026-10-01
+  version: 2.6.0
   reviews: 27
   icon: io.puravidabitcoin.app.webp
   meta: ok

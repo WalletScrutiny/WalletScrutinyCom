@@ -27,7 +27,7 @@ iphone:
   released: 2023-12-13
   updated: 2026-09-08
   version: 1.42.4
-  reviews: 415
+  reviews: 425
   icon: com.maxbit.app.webp
   meta: ok
   verdict: custodial

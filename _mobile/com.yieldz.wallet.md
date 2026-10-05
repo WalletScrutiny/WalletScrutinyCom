@@ -18,8 +18,8 @@ iphone:
   idd: '6757610225'
   appCountry: us
   released: 2026-04-03
-  updated: 2026-04-29
-  version: 1.4.5
+  updated: 2026-10-02
+  version: 2.0.0
   reviews: 0
   icon: com.yieldz.wallet.webp
   meta: ok

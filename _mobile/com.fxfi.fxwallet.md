@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-04-28
-  updated: 2026-09-24
-  version: 3.2.1
+  updated: 2026-10-02
+  version: 3.3.0
   reviews: 4
   icon: com.fxfi.fxwallet.webp
   meta: ok
@@ -23,9 +23,9 @@ iphone:
   idd: '1560943983'
   appCountry: us
   released: 2021-05-05
-  updated: 2026-09-15
-  version: 3.2.1
-  reviews: 28
+  updated: 2026-10-02
+  version: 3.3.0
+  reviews: 29
   icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource

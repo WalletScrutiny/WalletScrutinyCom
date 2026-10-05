@@ -5,7 +5,7 @@ redirect_from:
 - /android/com.cdcoding.securewallet/
 android:
   appId: com.cdcoding.securewallet
-  users: 10
+  users: 50
   appCountry: us
   released: 2024-07-05
   updated: 2026-01-11

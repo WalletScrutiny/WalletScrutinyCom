@@ -21,7 +21,7 @@ android:
   released: 2019-07-11
   updated: 2026-07-28
   version: 9.0.0
-  reviews: 115
+  reviews: 114
   icon: com.youhodler.youhodler.webp
   meta: ok
   verdict: custodial

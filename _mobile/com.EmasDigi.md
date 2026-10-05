@@ -13,7 +13,7 @@ android:
   released: 2018-01-21
   updated: 2026-09-28
   version: 7.7.0
-  reviews: 124
+  reviews: 123
   icon: com.EmasDigi.webp
   meta: ok
   verdict: nosendreceive

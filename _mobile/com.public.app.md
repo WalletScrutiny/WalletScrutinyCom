@@ -21,8 +21,8 @@ android:
   appCountry: us
   released: 2019-09-06
   updated: 2026-09-29
-  version: 3.265.0
-  reviews: 9579
+  version: 3.266.0
+  reviews: 9582
   icon: com.public.app.webp
   meta: ok
   verdict: nosendreceive
@@ -34,7 +34,7 @@ iphone:
   released: 2017-03-13
   updated: 2026-09-30
   version: 5.6.1
-  reviews: 85201
+  reviews: 85288
   icon: com.t3securities.matador.webp
   meta: ok
   verdict: nosendreceive

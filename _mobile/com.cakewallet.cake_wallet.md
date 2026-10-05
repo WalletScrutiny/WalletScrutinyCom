@@ -33,7 +33,7 @@ android:
   released: 2020-01-01
   updated: 2026-09-20
   version: 6.4.5
-  reviews: 674
+  reviews: 675
   icon: com.cakewallet.cake_wallet.webp
   alternativeStores:
   - zapstore

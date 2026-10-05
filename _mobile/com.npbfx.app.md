@@ -1,6 +1,6 @@
 ---
 wsId: npbfxCFD
-title: NPBFX
+title: NPB Markets
 date: 2024-10-28
 authors:
 - danny
@@ -13,10 +13,10 @@ android:
   users: 10000
   appCountry: us
   released: 2022-05-04
-  updated: 2025-08-27
-  version: 1.15.0
+  updated: 2026-09-29
+  version: 1.15.2
   icon: com.npbfx.app.webp
-  meta: stale
+  meta: ok
   verdict: nosendreceive
   developerName: NMarkets Limited
 iphone:

@@ -33,9 +33,9 @@ iphone:
   idd: 1322324266
   appCountry: us
   released: 2018-01-20
-  updated: 2026-09-29
-  version: 6.3.1
-  reviews: 1151
+  updated: 2026-10-01
+  version: 6.3.2
+  reviews: 1153
   icon: one.mixin.messenger.webp
   meta: ok
   verdict: sourceavailable

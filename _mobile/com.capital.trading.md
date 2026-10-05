@@ -20,7 +20,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-09-25
+  updated: 2026-10-02
   version: 3.52.0
   reviews: 38
   icon: com.capital.trading.webp
@@ -32,9 +32,9 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-08-31
-  version: 3.48.0
-  reviews: 327
+  updated: 2026-10-02
+  version: 3.52.0
+  reviews: 328
   icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive

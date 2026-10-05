@@ -12,8 +12,8 @@ android:
   users: 100000
   appCountry: us
   released: 2025-01-13
-  updated: 2026-09-25
-  version: 5.18.0
+  updated: 2026-10-02
+  version: 5.19.0
   icon: com.coinhouse.webp
   meta: ok
   verdict: custodial

@@ -35,7 +35,7 @@ iphone:
   released: 2023-07-19
   updated: 2026-09-29
   version: 2.1.2
-  reviews: 1027
+  reviews: 1032
   icon: io.mobee.finance.webp
   meta: ok
   verdict: custodial

@@ -29,8 +29,8 @@ iphone:
   idd: 1566536854
   appCountry: us
   released: 2021-06-08
-  updated: 2026-09-28
-  version: 6.25.0
+  updated: 2026-10-04
+  version: 6.25.2
   reviews: 20
   icon: com.nano.moonxbt.webp
   meta: ok

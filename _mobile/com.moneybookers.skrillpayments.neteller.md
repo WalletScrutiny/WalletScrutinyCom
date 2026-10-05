@@ -31,7 +31,7 @@ iphone:
   released: 2016-05-02
   updated: 2026-09-25
   version: 3.194.0
-  reviews: 1170
+  reviews: 1173
   icon: com.skrill.NETELLER.webp
   meta: ok
   verdict: custodial

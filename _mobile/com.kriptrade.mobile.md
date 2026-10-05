@@ -18,8 +18,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-10-20
-  updated: 2026-07-31
-  version: 3.2.9
+  updated: 2026-09-28
+  version: 3.2.10
   icon: com.kriptrade.mobile.webp
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '1591104692'
   appCountry: tr
   released: 2021-10-28
-  updated: 2026-08-03
-  version: 3.2.9
+  updated: 2026-10-01
+  version: 3.2.10
   reviews: 44
   icon: com.kriptrade.mobile.webp
   meta: ok

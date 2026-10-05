@@ -23,7 +23,7 @@ android:
   released: 2019-05-30
   updated: 2025-04-22
   version: 2.91.0
-  reviews: 83
+  reviews: 82
   icon: com.XcelTrip.XcelPay.webp
   meta: stale
   verdict: custodial

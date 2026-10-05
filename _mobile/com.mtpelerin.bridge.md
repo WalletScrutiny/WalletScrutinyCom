@@ -38,8 +38,8 @@ iphone:
   idd: 1481859680
   appCountry: us
   released: 2020-04-08
-  updated: 2026-08-04
-  version: '1.72'
+  updated: 2026-09-30
+  version: '1.73'
   reviews: 87
   icon: com.mtpelerin.bridge.webp
   meta: ok

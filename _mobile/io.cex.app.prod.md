@@ -34,9 +34,9 @@ iphone:
   idd: 1047225016
   appCountry: us
   released: 2015-12-22
-  updated: 2026-09-15
-  version: 12.55.1
-  reviews: 12860
+  updated: 2026-09-30
+  version: 12.55.2
+  reviews: 12855
   icon: io.cex.app.webp
   meta: ok
   verdict: custodial

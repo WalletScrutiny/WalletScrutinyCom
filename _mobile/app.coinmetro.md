@@ -32,7 +32,7 @@ iphone:
   released: 2018-07-25
   updated: 2026-09-08
   version: 5.55.25
-  reviews: 369
+  reviews: 370
   icon: app.coinmetro.webp
   meta: ok
   verdict: custodial

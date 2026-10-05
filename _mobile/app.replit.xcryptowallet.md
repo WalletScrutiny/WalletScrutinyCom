@@ -7,8 +7,8 @@ iphone:
   idd: '6758147798'
   appCountry: us
   released: 2026-01-24
-  updated: 2026-07-30
-  version: 26.07.25
+  updated: 2026-10-04
+  version: 26.09.11
   reviews: 13
   icon: app.replit.xcryptowallet.webp
   meta: ok
