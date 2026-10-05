@@ -6,6 +6,13 @@ tightened stays in LMDB until deleted here.  This script applies the exact
 same rule (it imports is_allowed() from kind-policy.py) to a dump of the
 database and prepares `strfry delete` commands for the events that fail it.
 
+Deletion requests (kind 5) are decided last: the policy keeps one only if
+its author has an event of ours stored (NIP-09 lets a pubkey delete only its
+own events, so nothing else could delete anything here).  The live policy
+asks the database; this script answers the same question from the dump, so
+it reads every kind even with --kinds, and the kind-5 verdicts come out
+after the last line was read.
+
 Run ON THE RELAY HOST, as the user that owns the database (see
 strfry.service), with the relay running or stopped:
 
@@ -22,14 +29,17 @@ strfry.service), with the relay running or stopped:
     drop.ids.txt            one event id per line
     drop.review.txt         what the drop set contains, for a human to check before
                             deleting: every pubkey that has WalletScrutiny events
-                            AND loses events (with each lost event listed), dropped
-                            deletions that point at a kept event (expected: none),
-                            and per kind the top authors and client tags being dropped
+                            AND loses events (with each lost event listed), the kept
+                            deletions per author, dropped deletions that point at a
+                            kept event (expected: none), and per kind the top authors
+                            and client tags being dropped
     delete-NNNN.filter.json strfry filters, CHUNK ids each
     delete.sh               the strfry commands
 
 Options:
-    --kinds 5,30301         only consider these kinds (default: every kind in the dump)
+    --kinds 5,30301         only plan deletes for these kinds (default: every kind in
+                            the dump); the other kinds are still read for the
+                            deletion author check
     --policy PATH           kind-policy.py to load (default: next to this script,
                             then /etc/strfry/kind-policy.py)
     --no-backup             skip drop.events.jsonl (it is as large as the data, ~0.7 GB
@@ -45,6 +55,7 @@ resulting delete.sh still has to run on the host.
 import argparse
 import collections
 import importlib.util
+import inspect
 import json
 import os
 import stat
@@ -53,6 +64,8 @@ import sys
 # Ids per `strfry delete --filter` call.  A 1,500-id filter is ~100 KB, under
 # Linux's 128 KB limit for a single command-line argument.
 CHUNK = 1500
+
+DELETION_KIND = 5
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 POLICY_CANDIDATES = [os.path.join(HERE, "kind-policy.py"), "/etc/strfry/kind-policy.py"]
@@ -73,12 +86,13 @@ def load_policy(path):
     spec = importlib.util.spec_from_file_location("kind_policy", path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    if not hasattr(module, "is_allowed"):
-        sys.exit(f"{path} has no is_allowed(); it is older than this script")
+    if not hasattr(module, "is_allowed") or \
+            "has_stored_events" not in inspect.signature(module.is_allowed).parameters:
+        sys.exit(f"{path} is older than this script: is_allowed(event, has_stored_events=...) expected")
     return module
 
 
-def read_events(stream, kinds):
+def read_events(stream):
     """Yield (event, size_in_bytes) for every JSON line that is an event."""
     for line in stream:
         line = line.strip()
@@ -90,8 +104,6 @@ def read_events(stream, kinds):
             print(f"skipping unparsable line: {line[:80]}", file=sys.stderr)
             continue
         if not isinstance(event, dict) or "id" not in event or "kind" not in event:
-            continue
-        if kinds and event["kind"] not in kinds:
             continue
         yield event, len(line)
 
@@ -120,7 +132,7 @@ def label(event):
 
 def when(event):
     import datetime
-    return datetime.datetime.utcfromtimestamp(event.get("created_at", 0)).strftime("%Y-%m-%d")
+    return datetime.datetime.fromtimestamp(event.get("created_at", 0), datetime.timezone.utc).strftime("%Y-%m-%d")
 
 
 class Review:
@@ -131,13 +143,16 @@ class Review:
     def __init__(self):
         self.kept_ids = set()
         self.kept_addr = set()
-        self.ws_authors = set()                    # pubkeys with a kept event of a tagged kind
+        self.ws_authors = set()                    # pubkeys with a kept event other than a deletion
+        self.kept_deletion = collections.Counter() # pubkey -> kept kind-5 events
         self.drop_author = collections.Counter()   # (pubkey, kind) -> n
         self.drop_client = collections.Counter()   # (kind, client) -> n
 
     def kept(self, event):
         self.kept_ids.add(event["id"])
-        if event["kind"] != 5:
+        if event["kind"] == DELETION_KIND:
+            self.kept_deletion[event["pubkey"]] += 1
+        else:
             self.ws_authors.add(event["pubkey"])
         for t in event.get("tags", []):
             if len(t) > 1 and t[0] == "d":
@@ -156,6 +171,10 @@ class Review:
         for p in losers:
             kinds = {k: n for (q, k), n in self.drop_author.items() if q == p}
             out.append(f"  {p}  " + ", ".join(f"kind {k}: {n}" for k, n in sorted(kinds.items())))
+        out.append(f"\n{sum(self.kept_deletion.values())} deletions kept, from {len(self.kept_deletion)} pubkeys "
+                   "that have WalletScrutiny events (the deletion author check):")
+        for p, n in sorted(self.kept_deletion.items(), key=lambda x: (-x[1], x[0])):
+            out.append(f"  {n:8d}  {p}")
         if backup_path:
             detail, pointing = collections.defaultdict(list), []
             with open(backup_path) as f:
@@ -196,20 +215,42 @@ def cmd_plan(args):
     stats = collections.defaultdict(lambda: [0, 0, 0])   # kind -> [keep, drop, drop bytes]
     ids = []
     review = Review()
+    deferred = []   # kind-5 events that pass the tag rule; decided once every author is known
     backup = None if args.no_backup else open(os.path.join(args.out, "drop.events.jsonl"), "w")
+
+    def decide(event, size, allowed):
+        entry = stats[event["kind"]]
+        if allowed:
+            entry[0] += 1
+            review.kept(event)
+            return
+        entry[1] += 1
+        entry[2] += size
+        ids.append(event["id"])
+        review.dropped(event)
+        if backup:
+            backup.write(json.dumps(event, separators=(",", ":")) + "\n")
+
     try:
-        for event, size in read_events(sys.stdin, kinds):
-            entry = stats[event["kind"]]
-            if policy.is_allowed(event):
-                entry[0] += 1
-                review.kept(event)
+        for event, size in read_events(sys.stdin):
+            in_scope = kinds is None or event["kind"] in kinds
+            if event["kind"] == DELETION_KIND:
+                # Tag rule now, author check at the end: the author's events may
+                # come later in the dump.
+                if not in_scope:
+                    continue
+                if policy.is_allowed(event, has_stored_events=lambda _pubkey: True):
+                    deferred.append((event, size))
+                else:
+                    decide(event, size, False)
                 continue
-            entry[1] += 1
-            entry[2] += size
-            ids.append(event["id"])
-            review.dropped(event)
-            if backup:
-                backup.write(json.dumps(event, separators=(",", ":")) + "\n")
+            allowed = policy.is_allowed(event)
+            if in_scope:
+                decide(event, size, allowed)
+            elif allowed:
+                review.ws_authors.add(event["pubkey"])   # out of scope, but counts for the author check
+        for event, size in deferred:
+            decide(event, size, event["pubkey"] in review.ws_authors)
     finally:
         if backup:
             backup.close()
