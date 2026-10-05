@@ -16,6 +16,10 @@ WalletScrutiny traffic:
 Everything else is rejected.  Rejected events never reach the database,
 so this is also the only thing that keeps the public relay from filling
 up with other apps' kind-30301 / 1337 / 30023 / 5 traffic.
+
+The relay answers every rejection with the same short, generic message
+on purpose: the OK reply must not tell a spammer which tag or kind
+would get an event stored.  The actual rules live only in this file.
 """
 
 import sys
@@ -68,28 +72,36 @@ def deletion_targets_allowed_kind(pairs):
     return False
 
 
-def rejection_reason(event):
-    """None when the event may be stored, otherwise the message sent to the client."""
+# One message for every rejection; see the module docstring for why it
+# says nothing about the kind or the missing tag.
+REJECT_MSG = "blocked: not accepted by this relay"
+
+
+def is_allowed(event):
+    """True when the event may be stored.
+
+    Rules (deliberately not echoed to the client):
+    * kind must be in ALLOWED_KINDS;
+    * WS_TAGGED_KINDS need ["client", "WalletScrutiny.com"] or ["c", "walletscrutiny"];
+    * kind 5 needs a ["k", kind] or ["a", "kind:pubkey:d"] tag naming an allowed kind;
+    * kind 30023 needs a ["t", ...] tag from OPINION_T_TAGS.
+    """
     kind = event.get("kind")
     if kind not in ALLOWED_KINDS:
-        return f"kind {kind} not permitted in this relay"
+        return False
 
     pairs = tag_pairs(event)
 
     if kind in WS_TAGGED_KINDS:
-        if pairs & WS_CLIENT_TAGS:
-            return None
-        return f"kind {kind} on this relay is reserved for WalletScrutiny.com events (missing client tag)"
+        return bool(pairs & WS_CLIENT_TAGS)
 
     if kind == DELETION_KIND:
-        if deletion_targets_allowed_kind(pairs):
-            return None
-        return "deletion requests must reference a kind permitted in this relay"
+        return deletion_targets_allowed_kind(pairs)
 
     if kind == OPINION_KIND:
-        if any(name == "t" and value in OPINION_T_TAGS for name, value in pairs):
-            return None
-        return f"kind {kind} on this relay is reserved for WalletScrutiny.com opinions (missing t tag)"
+        return any(name == "t" and value in OPINION_T_TAGS for name, value in pairs)
+
+    return False
 
 
 def process_event(line):
@@ -106,8 +118,7 @@ def process_event(line):
         event = {}
     event_id = event.get("id", "")
 
-    reason = rejection_reason(event)
-    if reason is None:
+    if is_allowed(event):
         return {
             "id": event_id,
             "action": "accept",
@@ -116,7 +127,7 @@ def process_event(line):
     return {
         "id": event_id,
         "action": "reject",
-        "msg": reason
+        "msg": REJECT_MSG
     }
 
 
