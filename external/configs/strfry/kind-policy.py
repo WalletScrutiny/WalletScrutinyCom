@@ -18,6 +18,10 @@ WalletScrutiny traffic:
 * opinions (kind 30023) are published by the nostr-opinion plugin without
   a client tag; they are identified by the ["t", ...] tags the plugin sets.
 
+Events arriving through `strfry import` (sourceType "Import") are accepted
+as they are: that is the operator restoring a backup from the host, see
+cleanup-rejected.py.
+
 Everything else is rejected.  Rejected events never reach the database,
 so this is also the only thing that keeps the public relay from filling
 up with other apps' kind-30301 / 1337 / 30023 / 5 traffic.
@@ -167,7 +171,12 @@ def process_event(line):
         event = {}
     event_id = event.get("id", "")
 
-    if is_allowed(event):
+    # strfry runs this plugin on `strfry import` as well, as sourceType "Import". An
+    # import only happens from a shell on the host (restoring cleanup-rejected.py's
+    # drop.events.jsonl backup, or any other dump the operator chose), so it is not
+    # subject to the rules below; without this, nothing the cleanup deleted could ever
+    # be put back.
+    if data.get("sourceType") == "Import" or is_allowed(event):
         return {
             "id": event_id,
             "action": "accept",
