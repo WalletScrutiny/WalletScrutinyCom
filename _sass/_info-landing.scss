@@ -220,3 +220,67 @@
   color: var(--neutral-2);
   font-weight: $paragraph-font-weight;
 }
+
+// /androidApp/: one big screenshot, thumbnails below it pick which one is shown
+.android-app-showcase {
+  margin: 0 auto 2.5rem;
+  max-width: 520px;
+}
+
+.android-app-showcase-main {
+  margin: 0;
+  text-align: center;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 0 0 1px var(--shadow-3);
+  }
+
+  figcaption {
+    min-height: 2.8em;
+    margin: 0.9rem auto 0;
+    max-width: 420px;
+    font-size: $font-sm;
+    line-height: 1.4;
+    color: var(--neutral-2);
+    font-weight: $paragraph-font-weight;
+  }
+}
+
+.android-app-showcase-thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.android-app-thumb {
+  flex: 0 1 72px;
+  min-width: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  opacity: 0.6;
+  transition: opacity 0.15s ease, box-shadow 0.15s ease;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+  }
+
+  &.is-active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+}
