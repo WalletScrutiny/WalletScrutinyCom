@@ -45,13 +45,46 @@ iphone:
   reviews: 77
   icon: io.aquawallet.ios.webp
   meta: ok
-  verdict: wip
+  verdict: nosource
   developerName: Jan3 LLC
   repository: https://github.com/AquaWallet/aqua-wallet
 
 ---
 
 ## Android
+
+## Update 2026-10-05
+
+AQUA is still **not source available**. We cloned the public repository at tag
+[v0.5.4](https://github.com/AquaWallet/aqua-wallet/releases/tag/v0.5.4) (2026-10-01), the newest release tag
+and one version ahead of the 0.5.3 listed on Google Play and the App Store.
+
+**What is missing:** the folder `lib/features/private_integrations/` is not in the repository, but
+16 files of the wallet's core import it. Among them are the app's router
+(`lib/config/router/go_router.dart`) and the send flow
+(`lib/features/send/providers/send_asset_transaction_provider.dart`). Without that folder the
+public code cannot compile.
+
+**History:** the folder used to be public. Version
+[0.3.0](https://github.com/AquaWallet/aqua-wallet/commit/0e0d50f) (2025-05-16) removed all 31 of its
+files: the Dolphin Card (debit card) code and the BTC Direct "Buy Bitcoin" integration.
+
+**Developer's position:** JAN3's own FAQ,
+[I Can't Build AQUA from Source](https://jan3.zendesk.com/hc/en-us/articles/41061834870811-I-Can-t-Build-AQUA-from-Source)
+(last updated 2025-10-24), says:
+
+> *"Currently, it's not possible to build AQUA from the public source code on GitHub. While AQUA's
+> non-custodial core is open-source, certain Marketplace features like the Dolphin Card and Buy
+> Bitcoin depend on closed-source code that isn't published to GitHub."*
+
+On 2025-10-15 the team declined a community pull request that restored the deleted files
+([#87](https://github.com/AquaWallet/aqua-wallet/pull/87)). They wrote that a fully buildable
+version "should be available within the next couple of releases". Nine releases later (0.3.6 to
+0.5.4), no such version exists: the repository has only a `main` branch, no separate
+buildable repository has been published, and AQUA is not on F-Droid. Issue
+[#80](https://github.com/AquaWallet/aqua-wallet/issues/80), "Project not compilable", is still open.
+
+The iPhone app is built from the same repository, so it is also **not source available**.
 
 ## Update 2025-07-11
 
