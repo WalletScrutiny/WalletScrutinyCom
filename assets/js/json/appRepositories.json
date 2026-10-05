@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: null
 ---
 {%- comment -%}
 Which wallets exist and where their source lives; consumed by
