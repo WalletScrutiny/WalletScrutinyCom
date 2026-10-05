@@ -20,6 +20,11 @@ strfry.service), with the relay running or stopped:
     drop.events.jsonl       full backup of every event to be deleted
                             (undo: strfry import < drop.events.jsonl)
     drop.ids.txt            one event id per line
+    drop.review.txt         what the drop set contains, for a human to check before
+                            deleting: every pubkey that has WalletScrutiny events
+                            AND loses events (with each lost event listed), dropped
+                            deletions that point at a kept event (expected: none),
+                            and per kind the top authors and client tags being dropped
     delete-NNNN.filter.json strfry filters, CHUNK ids each
     delete.sh               the strfry commands
 
@@ -101,6 +106,88 @@ def print_table(stats):
     print(f"{'total':>6} {tk:8d} {td:8d} {tb / 1e6:8.1f}")
 
 
+def label(event):
+    """One line a human can recognise an event by."""
+    tags = event.get("tags", [])
+    if event.get("kind") == 5:
+        return "deletes " + " ".join(f"{t[0]}={t[1][:20]}" for t in tags if len(t) > 1 and t[0] in ("e", "a", "k"))
+    for name in ("title", "alt", "name", "d"):
+        for t in tags:
+            if len(t) > 1 and t[0] == name and t[1]:
+                return f"{name}={t[1][:60]!r}"
+    return repr(event.get("content", "")[:60])
+
+
+def when(event):
+    import datetime
+    return datetime.datetime.utcfromtimestamp(event.get("created_at", 0)).strftime("%Y-%m-%d")
+
+
+class Review:
+    """Collect what is needed for drop.review.txt without holding the events."""
+
+    TOP = 5
+
+    def __init__(self):
+        self.kept_ids = set()
+        self.kept_addr = set()
+        self.ws_authors = set()                    # pubkeys with a kept event of a tagged kind
+        self.drop_author = collections.Counter()   # (pubkey, kind) -> n
+        self.drop_client = collections.Counter()   # (kind, client) -> n
+
+    def kept(self, event):
+        self.kept_ids.add(event["id"])
+        if event["kind"] != 5:
+            self.ws_authors.add(event["pubkey"])
+        for t in event.get("tags", []):
+            if len(t) > 1 and t[0] == "d":
+                self.kept_addr.add(f"{event['kind']}:{event['pubkey']}:{t[1]}")
+                break
+
+    def dropped(self, event):
+        self.drop_author[(event["pubkey"], event["kind"])] += 1
+        client = next((t[1] for t in event.get("tags", []) if len(t) > 1 and t[0] == "client"), "")
+        self.drop_client[(event["kind"], client)] += 1
+
+    def write(self, path, backup_path):
+        losers = sorted({p for p, _ in self.drop_author if p in self.ws_authors})
+        out = [f"{len(losers)} pubkeys with WalletScrutiny events also lose events "
+               f"({sum(n for (p, _), n in self.drop_author.items() if p in losers)} events):"]
+        for p in losers:
+            kinds = {k: n for (q, k), n in self.drop_author.items() if q == p}
+            out.append(f"  {p}  " + ", ".join(f"kind {k}: {n}" for k, n in sorted(kinds.items())))
+        if backup_path:
+            detail, pointing = collections.defaultdict(list), []
+            with open(backup_path) as f:
+                for line in f:
+                    ev = json.loads(line)
+                    if ev["pubkey"] in losers:
+                        detail[ev["pubkey"]].append(f"    {when(ev)} kind {ev['kind']:5d} {ev['id'][:12]}  {label(ev)}")
+                    if ev["kind"] == 5:
+                        refs = {t[1] for t in ev.get("tags", []) if len(t) > 1 and t[0] in ("e", "a")}
+                        if refs & self.kept_ids or refs & self.kept_addr:
+                            pointing.append(f"  {when(ev)} {ev['id']}  {label(ev)}")
+            for p in losers:
+                out.append(f"\n  {p}")
+                out.extend(sorted(detail[p]))
+            out.append(f"\n{len(pointing)} dropped deletions point at a kept event (expected 0):")
+            out.extend(pointing)
+        else:
+            out.append("\n(--no-backup: per-event detail and the deletion cross-check need drop.events.jsonl)")
+        for kind in sorted({k for _, k in self.drop_author}):
+            out.append(f"\nkind {kind}: top dropped authors")
+            for (p, k), n in sorted(((pk, n) for pk, n in self.drop_author.items() if pk[1] == kind),
+                                    key=lambda x: -x[1])[:self.TOP]:
+                out.append(f"  {n:8d}  {p}")
+            out.append(f"kind {kind}: top dropped client tags")
+            for (k, c), n in sorted(((kc, n) for kc, n in self.drop_client.items() if kc[0] == kind),
+                                    key=lambda x: -x[1])[:self.TOP]:
+                out.append(f"  {n:8d}  {c or '(none)'}")
+        with open(path, "w") as f:
+            f.write("\n".join(out) + "\n")
+        print(f"review: {out[0]}  details in {path}")
+
+
 def cmd_plan(args):
     policy = load_policy(args.policy)
     kinds = {int(k) for k in args.kinds.split(",")} if args.kinds else None
@@ -108,16 +195,19 @@ def cmd_plan(args):
     os.makedirs(args.out, exist_ok=True)
     stats = collections.defaultdict(lambda: [0, 0, 0])   # kind -> [keep, drop, drop bytes]
     ids = []
+    review = Review()
     backup = None if args.no_backup else open(os.path.join(args.out, "drop.events.jsonl"), "w")
     try:
         for event, size in read_events(sys.stdin, kinds):
             entry = stats[event["kind"]]
             if policy.is_allowed(event):
                 entry[0] += 1
+                review.kept(event)
                 continue
             entry[1] += 1
             entry[2] += size
             ids.append(event["id"])
+            review.dropped(event)
             if backup:
                 backup.write(json.dumps(event, separators=(",", ":")) + "\n")
     finally:
@@ -134,6 +224,7 @@ def cmd_plan(args):
     ids.sort()
     with open(os.path.join(args.out, "drop.ids.txt"), "w") as f:
         f.write("\n".join(ids) + "\n")
+    review.write(os.path.join(args.out, "drop.review.txt"), None if args.no_backup else backup.name)
 
     script = [DELETE_SH_HEAD]
     for n, start in enumerate(range(0, len(ids), CHUNK)):
