@@ -21,7 +21,7 @@ icon: diybitcoin.kisssigner.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-03
+date: 2026-10-05
 signer: 
 twitter: KISS_signer
 social:
@@ -78,6 +78,8 @@ Yes. All three supported boards have a touch screen. The sign screen shows every
 
 - The published `.bin` files are ECDSA-signed on the maintainer's machine, and the project's own `reproducible-build.yml` states that signatures are not deterministic, so the SHA-256 in `SHA256SUMS` can not be reproduced byte for byte. The project's answer is a `KISS_UNSIGNED=1` build; a comparison has to strip the signature block from the published image and compare the unsigned application.
 - ESP-IDF embeds a hash of the ELF, including debug sections, into the image, so the project reports a small expected difference between hosts of different architectures.
+
+The project's CI checks that difference rather than just stating it: `tools/check_repro_match.py` compares the unsigned amd64 and arm64 builds of each board and fails on any byte outside the embedded ELF hash and the two checksum fields that depend on it (the image checksum byte and the trailing image SHA-256). It also compares the bootloader, partition table and OTA data byte for byte. The encrypted-release build is built on amd64 only and is not part of this comparison. This is the project comparing two of its own builds, not an independent verification.
 
 Until someone outside the project has built and compared it, we make no claim either way.
 
