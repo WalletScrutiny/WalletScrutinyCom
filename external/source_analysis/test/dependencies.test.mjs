@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { analyzePinning } from '../pinningAnalysis.mjs';
+import { analyzePinning } from '../plugins/pinning.mjs';
 import { initDatabase, saveDependencies, getDependencies, diffDependencies, findAppsShipping } from '../ddbbUtils.mjs';
 
 function fixture(files) {

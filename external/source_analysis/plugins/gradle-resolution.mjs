@@ -9,7 +9,7 @@
  * graph of every classpath configuration and lists the modules it selected.
  *
  * That executes the repository's build scripts, so it runs INSIDE the
- * analysis container only (runChecksOnCheckout), never on the host:
+ * analysis container only (the gradle-resolution plugin), never on the host:
  * pinning-cli.mjs and the parse-only analyzePinning do not call it. Only
  * metadata is resolved (POM / module files); no artifact is downloaded and
  * no task of the project runs.
@@ -19,7 +19,7 @@ import path from 'path';
 import { execFile } from 'child_process';
 import { fileURLToPath } from 'url';
 
-const INIT_SCRIPT = path.join(path.dirname(fileURLToPath(import.meta.url)), 'gradle', 'resolve-deps.init.gradle');
+const INIT_SCRIPT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'gradle', 'resolve-deps.init.gradle');
 const IGNORED_DIRS = new Set(['node_modules', '.git', 'build', 'dist', 'Pods', 'vendor']);
 const MAX_SCAN_DEPTH = 3;
 const MAX_BUILDS = 3;
@@ -261,3 +261,13 @@ export async function resolveGradleDependencies(repoPath, pinning, options = {})
     analysis.resolutionNotes.push(`${builds.length} gradle builds found, only the first ${MAX_BUILDS} were resolved`);
   }
 }
+
+// Test 10b: runs the project's own gradle wrapper to resolve the full
+// dependency graph and completes the gradle rows of pinning's result in place.
+export default {
+  description: 'Test 10b: resolved gradle dependency graph',
+  requires: ['pinning'],
+  async container({ repoPath, results }) {
+    await resolveGradleDependencies(repoPath, results.pinning);
+  },
+};

@@ -451,3 +451,10 @@ export async function analyzeDependencyBinaries(repoPath, tempRoot) {
   return results;
 }
 
+// Test 12: compiled artifacts checked into the tree.
+export default {
+  description: 'Test 12: committed binaries',
+  container({ repoPath }) {
+    analyzeCommittedBinaries(repoPath);
+  },
+};

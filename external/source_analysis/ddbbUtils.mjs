@@ -111,7 +111,7 @@ export function initDatabase(dbPath = DB_PATH) {
   `);
 
   // Known vulnerabilities of a release's dependencies as OSV.dev reported them
-  // when the release was analysed (osvCheck.mjs), one row per advisory and
+  // when the release was analysed (plugins/osv.mjs), one row per advisory and
   // package version. A snapshot: advisories published later show up through
   // findAppsShipping, not here.
   db.exec(`
@@ -187,7 +187,7 @@ export function getAppList(db) {
 const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));
 
 // Replace the stored dependency set of (appId, version) with the entries of
-// the given pinning analyses (see pinningAnalysis.mjs makeEntry).
+// the given pinning analyses (see plugins/pinning.mjs makeEntry).
 // Returns the number of rows stored.
 export function saveDependencies(db, appId, version, analyses) {
   const insertPackage = db.prepare(`
@@ -219,7 +219,7 @@ export function saveDependencies(db, appId, version, analyses) {
 }
 
 // Replace the stored vulnerability findings of (appId, version) with those of
-// an osvCheck.checkVulnerabilities result. Returns the number of rows stored.
+// a checkVulnerabilities result (plugins/osv.mjs). Returns the number of rows stored.
 export function saveVulnerabilities(db, appId, version, { findings }) {
   const insert = db.prepare(`
     INSERT OR REPLACE INTO app_vulnerabilities

@@ -7,7 +7,7 @@ import os from 'os';
 import path from 'path';
 import {
   buildQueries, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason,
-} from '../osvCheck.mjs';
+} from '../plugins/osv.mjs';
 import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
 
 const quiet = async (fn) => {

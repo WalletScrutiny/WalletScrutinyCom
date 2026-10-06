@@ -22,9 +22,9 @@ import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
 import { cloneRepository } from './appAnalysis.mjs';
-import { analyzePinning } from './pinningAnalysis.mjs';
-import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
-import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './committedBinaryAnalysis.mjs';
+import { analyzePinning } from './plugins/pinning.mjs';
+import { analyzeOobDownloads } from './plugins/oob-downloads.mjs';
+import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './plugins/committed-binaries.mjs';
 import { DEFAULT_TEMP_DIR } from './config.mjs';
 import { backupDatabase, initDatabase, saveDependencies, diffDependencies, findAppsShipping } from './ddbbUtils.mjs';
 

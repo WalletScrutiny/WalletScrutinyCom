@@ -185,3 +185,12 @@ export function analyzeOobDownloads(repoPath) {
   console.log('(Blind spot: dynamically-constructed URLs and fetches performed by build-time code are not visible statically.)');
   return unique;
 }
+
+// Test 11: build inputs fetched outside the package manager (curl/wget,
+// Dockerfile FROM, cmake downloads, git clones in scripts and CI).
+export default {
+  description: 'Test 11: out-of-band downloads',
+  container({ repoPath }) {
+    analyzeOobDownloads(repoPath);
+  },
+};

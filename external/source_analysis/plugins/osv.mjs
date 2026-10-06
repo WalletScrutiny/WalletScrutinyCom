@@ -2,7 +2,7 @@
  * Test 4: known vulnerabilities, from OSV.dev.
  *
  * Takes the dependency rows test 10 resolved from the lockfiles (see
- * pinningAnalysis.mjs makeEntry) and asks OSV.dev which of those exact
+ * plugins/pinning.mjs makeEntry) and asks OSV.dev which of those exact
  * versions have advisories. One batch API covers npm, PyPI, Maven (gradle) and
  * crates.io, so every ecosystem test 10 reads gets the same check, and nothing
  * has to be installed for it. Runs on the host: it reads JSON the container
@@ -13,7 +13,7 @@
  * unchecked: an advisory for a registry package says nothing about a fork
  * built from somebody's git branch.
  */
-import { SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
+import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
 
 export const OSV_API = 'https://api.osv.dev/v1';
 const BATCH_SIZE = 1000; // querybatch limit
@@ -34,7 +34,7 @@ const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unk
  */
 export function uncheckableReason(entry) {
   if (!OSV_ECOSYSTEMS[entry.ecosystem]) return 'ecosystem';
-  // A floating gradle declaration that gradle resolved (gradleResolution.mjs)
+  // A floating gradle declaration that gradle resolved (plugins/gradle-resolution.mjs)
   // carries the version gradle picked; an unresolved one still has its range
   // (`1.+`, `[1.0,2.0)`, `latest.release`), which the version check below and
   // the `+` check here reject.
@@ -312,3 +312,23 @@ function report(queries, skipped, findings) {
     console.log(`  ... and ${findings.length - SHOW_ONLY_FIRST_X_ALERTS} more`);
   }
 }
+
+// Test 4: known vulnerabilities of every dependency pinning resolved to an
+// exact registry version, from OSV.dev, looked up from the host. A failed
+// lookup fails the analysis, so an unchanged default branch is retried next
+// pass instead of being skipped without a vulnerability result. Stored per
+// release (app_vulnerabilities).
+export default {
+  description: 'Test 4: known vulnerabilities (OSV.dev)',
+  requires: ['pinning'],
+  async host({ name, version, db, results }) {
+    const vulnerabilities = await checkVulnerabilities(results.pinning || []);
+    if (!vulnerabilities) throw new Error('the OSV.dev lookup failed');
+    if (db && version) {
+      const { saveVulnerabilities } = await import('../ddbbUtils.mjs');
+      const stored = saveVulnerabilities(db, name, version, vulnerabilities);
+      console.log(`Stored ${stored} vulnerability rows for ${name} ${version}`);
+    }
+    return vulnerabilities;
+  },
+};
