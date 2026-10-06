@@ -47,6 +47,8 @@
   {%- assign custody_verdict = page.android.verdict -%}
 {%- endif -%}
 {%- assign custody_state = 'self' -%}
+{%- assign has_alert_feature = false -%}
+{%- for f in page.features -%}{%- if site.data.features[f].alert -%}{%- assign has_alert_feature = true -%}{%- endif -%}{%- endfor -%}
 {%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
   {%- if custody_verdict == 'prefilled' -%}{%- assign custody_state = 'prefilled' -%}{%- endif -%}
 {%- else -%}
@@ -58,7 +60,7 @@
     {%- assign custody_state = 'not-evaluated' -%}
   {%- elsif custody_verdict == 'custodial' -%}
     {%- assign custody_state = 'custodial' -%}
-  {%- elsif page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' -%}
+  {%- elsif has_alert_feature -%}
     {%- assign custody_state = 'mixed' -%}
   {%- endif -%}
 {%- endif -%}

@@ -14,6 +14,7 @@ features:
 - liquid
 - ln
 - multiAccount
+- spark
 redirect_from:
 - /android/com.blitzwallet/
 android:

@@ -15,6 +15,7 @@ features:
 - foss
 - ln
 - nfc
+- spark
 redirect_from:
 - /android/com.galoyapp/
 - /iphone/io.galoy.bitcoinbeach/
