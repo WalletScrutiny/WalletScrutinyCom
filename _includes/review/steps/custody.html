@@ -3,6 +3,8 @@
 {% assign step_meta = include.meta | default: page.meta %}
 {% assign conjunctionText = 'But' %}
 {% assign prefilled_platforms = 'hardware,bearer' | split: ',' %}
+{%- assign has_alert_feature = false -%}
+{%- for f in page.features -%}{%- if site.data.features[f].alert -%}{%- assign has_alert_feature = true -%}{%- endif -%}{%- endfor -%}
 
 <div class="step custody">
   <i class="i-key circle"></i>
@@ -35,7 +37,7 @@
       {% elsif step_verdict == 'custodial' %}
         {{ site.data.verdicts[step_verdict].short }}
         {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts[step_verdict].title }}</strong>".<br><a href="#{{ step_verdict }}">Read more</a></p>{% endcapture %}
-      {% elsif page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' %}
+      {% elsif has_alert_feature %}
         ⚠️ Mixed custody model
         {% capture answer %}<p>This product has features that involve <strong>third-party custody</strong>. While you may hold keys for on-chain funds, some functionality depends on trusting external parties. <strong>See warnings below.</strong><br><a href="#custodial">Read more</a></p>{% endcapture %}
       {% else %}

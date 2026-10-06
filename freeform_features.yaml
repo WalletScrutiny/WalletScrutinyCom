@@ -7,8 +7,6 @@ android/com.btc.trustless:
 - Custom node connection
 - Address generation
 - BIP-44 change address generation
-android/com.livingroomofsatoshi.wallet:
-- spark
 android/com.mathwallet.android:
 - multiwallet
 android/id.ryder.ryderone:

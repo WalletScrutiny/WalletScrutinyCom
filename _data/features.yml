@@ -377,6 +377,40 @@ cashu:
     Unless you run your own mint, you are completely at their mercy — they can
     steal everything at any time with no recourse. Only use mints operated by
     people you personally know and trust.
+spark:
+  short: Spark (operator-dependent Lightning balance)
+  long: >
+    Spark is a Bitcoin layer run by a small set of operators (currently
+    Lightspark and Flashnet). A Spark balance is split into "leaves", each
+    locked to the user's key together with the operators' key, so payments
+    and withdrawals need the operators' signature next to the user's. Each
+    leaf also has pre-signed transactions that can move it back onto the
+    Bitcoin blockchain without the operators (a "unilateral exit").
+
+    <a href='https://docs.spark.money/learn/trust-model'>Learn more about Spark's trust model</a>.
+  benefit: >
+    * **Fast, cheap payments** — Spark transfers and Lightning payments settle
+      off-chain, with no Lightning channels for the user to open or manage.
+
+    * **An on-chain escape path** — every leaf has pre-signed transactions back
+      to the Bitcoin blockchain, which a wallet can use if the operators stop
+      answering.
+  drawback: >
+    * **Operators can freeze withdrawals.** They cannot spend your funds,
+      provided they deleted their share of the key each time a leaf changed
+      owner, which nobody can verify. If they stop answering, the only way out
+      is a unilateral exit.
+
+    * **The exit is slow and costly.** It needs exit data saved while the
+      operators were still online, fees paid from a separate on-chain coin,
+      and a timelock of about two weeks for new leaves. In the one public
+      mainnet test, about 90% of 100,000 sats came back at 1 sat/vB; small
+      leaves cost more to exit than they hold.
+  alert: >
+    <strong>A Spark balance depends on its operators.</strong> They co-sign
+    every payment and withdrawal and can freeze them. Getting the funds out
+    without them needs exit data saved in advance, a separate on-chain coin
+    for fees, and a wait of about two weeks.
 fedimint:
   short: Fedimint eCash
   long: >

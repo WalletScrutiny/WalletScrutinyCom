@@ -10,6 +10,8 @@ twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
 appCountry: it
+features:
+- spark
 redirect_from:
 - /android/com.btc.trustless/
 - /iphone/com.btc.trustless/

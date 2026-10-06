@@ -13,6 +13,7 @@ features:
 - ln
 - buyWithCC
 - nfc
+- spark
 redirect_from:
 - /walletofsatoshi/
 - /com.livingroomofsatoshi.wallet/
