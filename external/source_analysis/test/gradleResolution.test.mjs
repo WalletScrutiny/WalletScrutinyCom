@@ -8,8 +8,8 @@ import path from 'path';
 import {
   findGradleBuilds, wrapperGradleVersion, jdkForGradle, parseResolution, isShippedConfiguration, mergeResolved,
   RESOLVED_LOCKFILE_SUFFIX, resolveGradleDependencies,
-} from '../gradleResolution.mjs';
-import { uncheckableReason } from '../osvCheck.mjs';
+} from '../plugins/gradle-resolution.mjs';
+import { uncheckableReason } from '../plugins/osv.mjs';
 
 function fixture(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'gradle-res-'));
