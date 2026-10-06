@@ -25,6 +25,7 @@ features:
 - multiAccount
 - segwit
 - ln
+- spark
 redirect_from:
 - /android/com.cakewallet.cake_wallet/
 - /iphone/com.fotolockr.cakewallet/

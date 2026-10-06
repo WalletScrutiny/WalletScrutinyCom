@@ -34,6 +34,7 @@ features:
 - multiAccount
 - tradeAlts
 - ln
+- spark
 
 ---
 
