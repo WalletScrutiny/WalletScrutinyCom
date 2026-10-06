@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Entry point that runs INSIDE the analysis container (see containerRunner.mjs):
-// clone the repository into /work/repo, install its dependencies, run every
-// check, and leave the structured result in /work/result.json. Logs go to
-// stdout/stderr, which the host streams through.
+// clone the repository into /work/repo, run the plugins' container steps
+// (plugins.mjs), and leave the structured result in /work/result.json. Logs
+// go to stdout/stderr, which the host streams through.
 //
 // Imports nothing that needs the database or a native module: this folder is
 // mounted read-only with the host's node_modules, and only pure-JS packages are
@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
 import { execFileSync } from 'child_process';
-import { cloneRepository, detectAppType, installDependencies, runChecksOnCheckout } from './appAnalysis.mjs';
+import { cloneRepository, detectAppType, runChecksOnCheckout } from './appAnalysis.mjs';
 import { APP_TYPES } from './config.mjs';
 
 const argv = minimist(process.argv.slice(2), {
@@ -22,7 +22,7 @@ const workDir = process.env.SOURCE_ANALYSIS_WORK_DIR || '/work';
 const repoPath = path.join(workDir, 'repo');
 const resultPath = path.join(workDir, 'result.json');
 
-const result = { ok: false, name: argv.name, repoUrl: argv.repo, ref: argv.ref || null, commit: null, appType: null, pinning: null, error: null };
+const result = { ok: false, name: argv.name, repoUrl: argv.repo, ref: argv.ref || null, commit: null, appType: null, results: null, failed: null, error: null };
 
 try {
   if (!argv.name || !argv.repo) throw new Error('usage: containerEntry.mjs --name <appId> --repo <url> [--ref <tag>] [--include-test-files]');
@@ -35,18 +35,13 @@ try {
   const appType = detectAppType(repoPath);
   result.appType = appType;
   console.log(`Detected app type: ${appType}`);
+  if (appType === APP_TYPES.UNKNOWN) console.log('Unknown app type: skipping the plugins that need one');
 
-  if (appType === APP_TYPES.UNKNOWN) {
-    console.log('Unknown app type. Skipping dependency checks...');
-    const { pinning } = await runChecksOnCheckout(repoPath, appType, { includeTestFiles: argv['include-test-files'] });
-    result.pinning = pinning;
-  } else {
-    // The install is off with the checks that need it (see runChecksOnCheckout):
-    // test 10 reads lockfiles and the vulnerability lookup runs on the host.
-    //await installDependencies(repoPath, appType);
-    const { pinning } = await runChecksOnCheckout(repoPath, appType, { includeTestFiles: argv['include-test-files'] });
-    result.pinning = pinning;
-  }
+  // The plugins (PLUGINS in config.mjs); one that fails is reported in
+  // `failed` and fails the analysis on the host, the others still run.
+  const { results, failed } = await runChecksOnCheckout(repoPath, appType, { includeTestFiles: argv['include-test-files'] });
+  result.results = results;
+  result.failed = failed;
   result.ok = true;
 } catch (error) {
   result.error = error.message;

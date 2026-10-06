@@ -9,7 +9,7 @@
  * graph of every classpath configuration and lists the modules it selected.
  *
  * That executes the repository's build scripts, so it runs INSIDE the
- * analysis container only (runChecksOnCheckout), never on the host:
+ * analysis container only (the gradle-resolution plugin), never on the host:
  * pinning-cli.mjs and the parse-only analyzePinning do not call it. Only
  * metadata is resolved (POM / module files); no artifact is downloaded and
  * no task of the project runs.

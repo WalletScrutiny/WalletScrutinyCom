@@ -7,14 +7,10 @@ import { promisify } from 'util';
 import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS, SEMGREP_IMAGE, CONTAINER_CLI } from './config.mjs';
-import { analyzePinning } from './pinningAnalysis.mjs';
-import { checkVulnerabilities } from './osvCheck.mjs';
-import { resolveGradleDependencies } from './gradleResolution.mjs';
-import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
-import { analyzeCommittedBinaries } from './committedBinaryAnalysis.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
-// ddbbUtils (better-sqlite3, a native module) is imported lazily by
-// runSourceCodeAnalysis only: this module is also loaded inside the analysis
+import { loadPlugins, runPlugins } from './plugins.mjs';
+// ddbbUtils (better-sqlite3, a native module) is imported lazily, by the
+// plugins' host steps only: this module is also loaded inside the analysis
 // container (containerEntry.mjs), where only pure-JS packages are available.
 
 /**
@@ -1584,44 +1580,26 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
 }
 
 /**
- * The checks that run on a checkout, in order. Runs INSIDE the analysis
- * container (containerEntry.mjs). Tests 2-5 need the project's dependencies
- * installed and run its own tooling, so they only run for a known app type;
- * js-x-ray, obfuscation, pinning, out-of-band downloads and committed
- * binaries read files only and run for every repository. Semgrep is not here:
- * it is its own container, started by the host on the same checkout.
- * Returns what the host stores: the pinning analyses (resolved dependencies).
+ * The container steps of the enabled plugins (PLUGINS in config.mjs), on the
+ * checkout. Runs INSIDE the analysis container (containerEntry.mjs).
+ * Returns what goes back to the host: each plugin's result by name, and the
+ * plugins that failed.
  */
 export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles = false } = {}) {
-  // For now only the dependencies (test 10) run here, and the host looks up
-  // their known vulnerabilities on OSV.dev (test 4, osvCheck.mjs); the other
-  // checks are commented out until we get back to code analysis. The old
-  // test 4, scanVulnerabilities (npm/yarn audit), is replaced by the OSV
-  // lookup, which covers gradle, pip and cargo too.
-  if (appType !== APP_TYPES.UNKNOWN) {
-    //await showDependencyTree(repoPath, appType);
-    //await countDirectDependencies(repoPath, appType);
-    //await listDependenciesWithoutFixedVersions(repoPath, appType);
-    //await scanVulnerabilities(repoPath, appType);
-    //await analyzeDependencies(repoPath, appType);
-  }
-  //await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles });
-  //await analyzeObfuscation(repoPath);
-  const pinning = analyzePinning(repoPath);
-  await resolveGradleDependencies(repoPath, pinning);
-  //analyzeOobDownloads(repoPath);
-  //analyzeCommittedBinaries(repoPath);
-  return { pinning };
+  const plugins = await loadPlugins();
+  const { results, failed } = await runPlugins(plugins, 'container', { repoPath, appType, options: { includeTestFiles } });
+  return { results, failed };
 }
 
 /**
  * Analyse one repository at one ref (the new release's tag, or the default
- * branch when nothing new was found). Clone, install and checks run in a
- * throwaway container (containerRunner.mjs); Semgrep runs in its own
- * container on the checkout the first one leaves behind; the host only
- * stores the result and deletes the scratch directory.
- * Resolves to the container's result (with the analysed `commit`) when the
- * analysis ran, null when it failed; failures are logged, never thrown.
+ * branch when nothing new was found). Clone and the plugins' container steps
+ * run in a throwaway container (containerRunner.mjs); the plugins' host steps
+ * (OSV lookup, Semgrep, storing results) then run on the checkout and the
+ * results the container left behind; the host deletes the scratch directory.
+ * Resolves to the container's result (with the analysed `commit` and every
+ * plugin's `results`) when the analysis ran and no plugin failed, null
+ * otherwise; failures are logged, never thrown.
  */
 export async function runSourceCodeAnalysis({ name, repoUrl, version = null, includeTestFiles = false, db = null }) {
   console.log(`\n${'='.repeat(60)}`);
@@ -1633,32 +1611,23 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
   fs.mkdirSync(workDir, { recursive: true });
 
   try {
+    const plugins = await loadPlugins();
     ensureImage();
     const result = await runInContainer({ name, repoUrl, ref: version, includeTestFiles, workDir });
     if (!result.ok) {
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
       return null;
     }
-    // Semgrep (test 9) is off for now, with the other code-analysis checks
-    // (see runChecksOnCheckout).
-    //if (result.appType !== APP_TYPES.UNKNOWN) {
-    //  await analyzeCodeVulnerabilitiesSemgrep(path.join(workDir, 'repo'));
-    //}
-    // Test 4: known vulnerabilities of what test 10 resolved. A failed lookup
-    // fails the analysis, so an unchanged default branch is retried next pass
-    // instead of being skipped without a vulnerability result.
-    result.vulnerabilities = await checkVulnerabilities(result.pinning || []);
-    if (db && version && result.pinning) {
-      const { saveDependencies, saveVulnerabilities } = await import('./ddbbUtils.mjs');
-      const stored = saveDependencies(db, name, version, result.pinning);
-      console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
-      if (result.vulnerabilities) {
-        const storedVulns = saveVulnerabilities(db, name, version, result.vulnerabilities);
-        console.log(`Stored ${storedVulns} vulnerability rows for ${name} ${version}`);
-      }
+    const ctx = {
+      name, version, db, repoPath: path.join(workDir, 'repo'), appType: result.appType,
+      options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
+    };
+    await runPlugins(plugins, 'host', ctx);
+    if (ctx.failed.length) {
+      console.log(`Analysis of ${name} failed: ${ctx.failed.map(f => `${f.plugin} (${f.error})`).join(', ')}`);
+      return null;
     }
-    if (!result.vulnerabilities) return null;
-    return result;
+    return { ...result, results: ctx.results };
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);
     return null;

@@ -9,6 +9,7 @@ import { pruneCache } from './containerRunner.mjs';
 import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY } from './config.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
+import { loadPlugins } from './plugins.mjs';
 
 // Main function
 async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
@@ -131,6 +132,16 @@ const includeTestFiles = Boolean(argv.includeTestFiles);
 
 if (!githubToken && !dockerToken) {
   console.error('No token provided: set GITHUB_TOKEN_FILE (or DOCKER_TOKEN_FILE), or pass --githubToken / --dockerToken');
+  process.exit(1);
+}
+
+// A plugin configuration that cannot work (config.mjs PLUGINS) stops the run
+// here instead of failing every repository.
+try {
+  const plugins = await loadPlugins();
+  console.log(`Plugins: ${plugins.map(p => p.name).join(', ') || 'none'}`);
+} catch (error) {
+  console.error(`✗  ${error.message}`);
   process.exit(1);
 }
 

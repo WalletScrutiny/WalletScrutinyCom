@@ -241,9 +241,10 @@ Nothing from the analysed repository is executed or installed for any of this: t
 ## Source analysis
 
 After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.mjs`)
-analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, dependency
-install (off for now, see below), then the tests below; the host then looks up
-the known vulnerabilities of the resolved dependencies on OSV.dev (test 4). When the pass added a new release, the clone is that
+analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, then the
+[plugins](#plugins) that run on the checkout; the host then runs the plugins'
+host steps, such as looking up the known vulnerabilities of the resolved
+dependencies on OSV.dev (test 4). When the pass added a new release, the clone is that
 release's tag and the resolved dependencies are stored in `assets.db`; when nothing
 new was found, it clones the default branch and stores only the analysed commit
 (`default_branch_analyses`), so the next pass skips the repository until that
@@ -280,7 +281,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 | not in the container | the GitHub token, `assets.db`, the docker socket |
 | hardening | runs as the service user (`--user`), `--cap-drop ALL`, `--security-opt no-new-privileges`, read-only root with a tmpfs `/tmp`, `--memory 6g --cpus 2 --pids-limit 2048`, killed after 45 min (`SOURCE_ANALYSIS_CONTAINER_MEMORY`, `_CPUS`, `_PIDS`, `_TIMEOUT_MIN`) |
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
-| result | `/work/result.json` (`ok`, `commit`, `appType`, `pinning`, `error`); the log streams through to the journal |
+| result | `/work/result.json` (`ok`, `commit`, `appType`, `results` per plugin, `failed` plugins, `error`); the log streams through to the journal |
 
 Semgrep (test 9) is its own container, started by the host on the checkout the
 first container leaves in the scratch dir. The image is the one place a hostile
@@ -296,24 +297,60 @@ Dev run against another image or engine: `SOURCE_ANALYSIS_IMAGE=docker.io/librar
 SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id …`
 (anything with `bash`, `git` and `node` works for npm repositories).
 
-| Test | What it reports | Ecosystems | File |
+| Test | What it reports | Ecosystems | Plugin (code) |
 |---|---|---|---|
-| 2 | Number of direct dependencies | npm, gradle, maven, pip | `appAnalysis.mjs` |
-| 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `appAnalysis.mjs` |
-| 4 | Known vulnerabilities of every dependency test 10 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version (`scanVulnerabilities`) is commented out | npm, yarn, pip, gradle, cargo | `osvCheck.mjs` |
-| 5 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `appAnalysis.mjs` |
-| 9 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `appAnalysis.mjs` |
-| 7 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `appAnalysis.mjs` |
-| 8 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `appAnalysis.mjs` |
-| 10 | Supply-chain pinning per dependency (10b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinningAnalysis.mjs` |
-| 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oobDownloadAnalysis.mjs` |
-| 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committedBinaryAnalysis.mjs` |
+| 2 | Number of direct dependencies | npm, gradle, maven, pip | `direct-dependencies` (`appAnalysis.mjs`) |
+| 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `unfixed-versions` (`appAnalysis.mjs`) |
+| 4 | Known vulnerabilities of every dependency test 10 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo | `osv` (`osvCheck.mjs`) |
+| 5 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `outdated-dependencies` (`appAnalysis.mjs`) |
+| 9 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `semgrep` (`appAnalysis.mjs`) |
+| 7 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `jsxray` (`appAnalysis.mjs`) |
+| 8 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `obfuscation` (`appAnalysis.mjs`) |
+| 10 | Supply-chain pinning per dependency (10b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `pinning`, `gradle-resolution` (`pinningAnalysis.mjs`, `gradleResolution.mjs`) |
+| 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `oob-downloads` (`oobDownloadAnalysis.mjs`) |
+| 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `committed-binaries` (`committedBinaryAnalysis.mjs`) |
 
 **For now only tests 10 and 4 run** (the resolved dependencies and their known
-vulnerabilities); the calls of the others are commented out in
-`runChecksOnCheckout()` and, for Semgrep, `runSourceCodeAnalysis()`, until we get
-back to code analysis. Neither needs the dependencies installed, so the install
-in `containerEntry.mjs` is commented out too.
+vulnerabilities); the other plugins are switched off in `config.mjs` until we
+get back to code analysis. Neither needs the dependencies installed, so the
+`install-dependencies` plugin is off too.
+
+### Plugins
+
+Every check is a plugin: one file in `plugins/`, named after the plugin. The
+`PLUGINS` section at the top of `config.mjs` lists all of them in the order
+they run, each `true` (runs) or `false` (skipped); move a line to change the
+order:
+
+```javascript
+export const PLUGINS = {
+  'install-dependencies': false,
+  …
+  'pinning': true,
+  'gradle-resolution': true,
+  …
+  'osv': true,
+  'semgrep': false,
+};
+```
+
+A plugin file default-exports an object with a `container(ctx)` step, a
+`host(ctx)` step, or both (see `plugins.mjs`). The container steps of all
+enabled plugins run first, inside the analysis container, on the checkout
+(`ctx.repoPath`, `ctx.appType`, `ctx.options`); each one's return value lands in
+`ctx.results[<name>]` and travels back to the host in `result.json`, so it must
+be JSON. Then the host steps run in the same order, with the same `results`
+plus `ctx.name`, `ctx.version` and `ctx.db` (set for releases only; import
+`ddbbUtils.mjs` lazily, inside `host()`, as the container cannot load it).
+`requires: ['pinning']` declares that a plugin reads another one's result;
+`needsKnownAppType: true` skips it for repositories with no detected ecosystem.
+A step that throws is logged and fails the analysis (an unchanged default
+branch is retried next pass); the other plugins still run, except those that
+require the failed one.
+
+To add a check, add `plugins/<name>.mjs` and a line for it in `PLUGINS`. The
+run refuses to start when a plugin file is not listed, a listed plugin has no
+file, or a plugin runs before (or without) one it requires.
 
 Test 4 is only as complete as test 10's rows: npm, yarn and cargo lockfiles list
 the transitive dependencies, so those are checked in full. pip is checked where
@@ -339,9 +376,9 @@ to configure the project, the declaration rows stay and the reason is logged and
 added to the resolution notes. `pinning-cli.mjs` does not run it (it runs on the
 host and executes nothing).
 
-The tests run in the order of the table (`runChecksOnCheckout()` in
-`appAnalysis.mjs`, inside the container; Semgrep from the host). Test 1 (full
-dependency tree) exists but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
+The tests run in the order of `PLUGINS` (container steps inside the container,
+then host steps such as OSV.dev and Semgrep on the host). Test 1 (full
+dependency tree, `dependency-tree`) exists but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
 any repository and ref (see above); with `--follow-deps` it also runs test 12 on
 each git-resolvable source dependency (test 12b), which the watcher does not do.
 

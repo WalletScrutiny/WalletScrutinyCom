@@ -4,6 +4,29 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Source-analysis plugins: one file each in plugins/, run on every checked-out
+// repository in this order; true runs it, false skips it. Move a line to
+// change the order. Every file in plugins/ must be listed here, and a plugin
+// must come after the ones it requires (both checked at startup). Container
+// steps all run before host steps (see plugins.mjs). The test numbers are
+// the README's.
+export const PLUGINS = {
+  'install-dependencies': false,  // npm/yarn or pip install; tests 1-3 and 5 need it, keep it first
+  'dependency-tree': false,       // test 1
+  'direct-dependencies': false,   // test 2
+  'unfixed-versions': false,      // test 3
+  'npm-audit': false,             // the old test 4 (npm/yarn audit), replaced by osv
+  'outdated-dependencies': false, // test 5
+  'jsxray': false,                // test 7
+  'obfuscation': false,           // test 8
+  'pinning': true,                // test 10, stores the resolved dependencies
+  'gradle-resolution': true,      // test 10b, completes pinning's gradle rows
+  'oob-downloads': false,         // test 11
+  'committed-binaries': false,    // test 12
+  'osv': true,                    // test 4, host: known vulnerabilities of pinning's rows
+  'semgrep': false,               // test 9, host: its own container on the checkout
+};
+
 // API Configuration
 export const GITHUB_API_BASE = 'https://api.github.com';
 export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
