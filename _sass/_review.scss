@@ -217,6 +217,77 @@
   }
 }
 
+// "Featured on Bitcoin.org" badge at the end of the facts block; the
+// details open in a native <dialog>.
+.app-facts-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.app-facts-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent-50);
+  color: var(--accent-text);
+  font: inherit;
+  font-size: $font-xs;
+  font-weight: $title-font-weight;
+  line-height: 1.35;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent);
+    color: var(--permanent-white);
+  }
+}
+
+.app-facts-dialog {
+  max-width: min(32rem, calc(100vw - 2rem));
+  padding: 0;
+  border: 1px solid var(--neutral-4);
+  border-radius: $border-radius;
+  background: var(--neutral-7);
+  color: var(--text);
+  box-shadow: var(--shadow-3);
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  &__content {
+    position: relative;
+    padding: 1.25rem 2.75rem 1.25rem 1.25rem;
+    font-size: $font-sm;
+
+    h3 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.35rem;
+    border: 0;
+    background: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+  }
+}
+
 .version-number-ws {
   line-height: 1.35;
 

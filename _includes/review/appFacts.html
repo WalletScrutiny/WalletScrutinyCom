@@ -1,7 +1,8 @@
 {%- comment -%}
   Compact wallet facts shown in the page header, below the "Latest release
-  found by" line: Developer (with social links), Released and Source code.
-  Replaces the three former review steps of the same names.
+  found by" line: Developer (with social links), Released and Source code,
+  plus a "Featured on Bitcoin.org" badge that opens a modal with the details.
+  Replaces the former review steps of the same names.
   Parameters:
     skipWebsite  set when the header already shows the Website chip, so the
                  developer links do not repeat it
@@ -92,3 +93,24 @@
   </div>
   {%- endif %}
 </dl>
+{%- if page.bitcoinOrgId %}
+<div class="app-facts-badges">
+  <button type="button" class="app-facts-badge" aria-haspopup="dialog" onclick="this.nextElementSibling.showModal()">
+    {% include icon.html name="bitcoin" %} Featured on Bitcoin.org
+  </button>
+  <dialog class="app-facts-dialog" aria-labelledby="bitcoinOrgFeaturedTitle" onclick="if (event.target === this) this.close()">
+    <div class="app-facts-dialog__content">
+      <form method="dialog">
+        <button type="submit" class="app-facts-dialog__close" aria-label="Close" autofocus>{% include icon.html name="xmark" %}</button>
+      </form>
+      <h3 id="bitcoinOrgFeaturedTitle">Featured on Bitcoin.org</h3>
+      <p>
+        This wallet is listed in the
+        <a href="https://raw.githubusercontent.com/bitcoin-dot-org/Bitcoin.org/master/_wallets/{{ page.bitcoinOrgId }}.md" target="_blank" rel="noopener noreferrer">Bitcoin.org wallet directory</a>. It had to pass
+        <a href="https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/managing-wallets.md" target="_blank" rel="noopener noreferrer">these tests</a>
+        to be included.
+      </p>
+    </div>
+  </dialog>
+</div>
+{%- endif %}
