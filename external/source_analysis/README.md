@@ -244,7 +244,7 @@ After the binary pass of a repository, `runSourceCodeAnalysis()` (`appAnalysis.m
 analyses it inside a container (see [Sandbox](#sandbox)): shallow clone, then the
 [plugins](#plugins) that run on the checkout; the host then runs the plugins'
 host steps, such as looking up the known vulnerabilities of the resolved
-dependencies on OSV.dev (test 4). When the pass added a new release, the clone is that
+dependencies on OSV.dev (test 10). When the pass added a new release, the clone is that
 release's tag and the resolved dependencies are stored in `assets.db`; when nothing
 new was found, it clones the default branch and stores only the analysed commit
 (`default_branch_analyses`), so the next pass skips the repository until that
@@ -254,17 +254,17 @@ To re-analyse unchanged branches (new checks deployed, say), delete the rows of
 no source analysis. The ecosystem is detected from the repository root
 (`package.json` → npm, `build.gradle(.kts)` → gradle, `pom.xml` → maven,
 `requirements.txt`/`setup.py`/`pyproject.toml` → pip); an unknown type (Rust
-wallets, for example) skips the install and tests 2–5 and still gets the file-only
-tests 7–12. The scratch directory (clone, `node_modules`, result) is deleted
+wallets, for example) skips the install and tests 2–4 and still gets the file-only
+tests 5–9. The scratch directory (clone, `node_modules`, result) is deleted
 afterwards.
 
-Results go to the log (the journal for the service); only tests 10 and 4 write
+Results go to the log (the journal for the service); only tests 7 and 10 write
 to the database (`app_dependencies`, `app_vulnerabilities`), and only for
 releases. An OSV.dev lookup that fails counts as a failed analysis, so an
-unchanged default branch is retried rather than skipped without a result. Tests 2–5 need the project's dependencies installed and run its own
+unchanged default branch is retried rather than skipped without a result. Tests 2–4 need the project's dependencies installed and run its own
 tooling (`npm`/`yarn install`, `pip install -r requirements.txt`, `./gradlew`,
-`mvn`) — inside the container; tests 10–12 only read files and execute nothing,
-except test 10b, which runs the project's gradle wrapper inside the container.
+`mvn`) — inside the container; tests 7–9 only read files and execute nothing,
+except test 7b, which runs the project's gradle wrapper inside the container.
 
 ### Sandbox
 
@@ -283,7 +283,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
 | result | `/work/result.json` (`ok`, `commit`, `appType`, `results` per plugin, `failed` plugins, `error`); the log streams through to the journal |
 
-Semgrep (test 9) is its own container, started by the host on the checkout the
+Semgrep (test 11) is its own container, started by the host on the checkout the
 first container leaves in the scratch dir. The image is the one place a hostile
 repository can reach: the network (its own installs need it) and the shared
 `/cache` (poisoning the npm/gradle cache for the next repository is possible;
@@ -301,16 +301,16 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 |---|---|---|---|
 | 2 | Number of direct dependencies | npm, gradle, maven, pip | `plugins/direct-dependencies.mjs` |
 | 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `plugins/unfixed-versions.mjs` |
-| 4 | Known vulnerabilities of every dependency test 10 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo | `plugins/osv.mjs` |
-| 5 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `plugins/outdated-dependencies.mjs` |
-| 9 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `plugins/semgrep.mjs` |
-| 7 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `plugins/jsxray.mjs` |
-| 8 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `plugins/obfuscation.mjs` |
-| 10 | Supply-chain pinning per dependency (10b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
-| 11 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `plugins/oob-downloads.mjs` |
-| 12 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `plugins/committed-binaries.mjs` |
+| 4 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `plugins/outdated-dependencies.mjs` |
+| 5 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `plugins/jsxray.mjs` |
+| 6 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `plugins/obfuscation.mjs` |
+| 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
+| 8 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `plugins/oob-downloads.mjs` |
+| 9 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `plugins/committed-binaries.mjs` |
+| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo | `plugins/osv.mjs` |
+| 11 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `plugins/semgrep.mjs` |
 
-**For now only tests 10 and 4 run** (the resolved dependencies and their known
+**For now only tests 7 and 10 run** (the resolved dependencies and their known
 vulnerabilities); the other plugins are switched off in `config.mjs` until we
 get back to code analysis. Neither needs the dependencies installed, so the
 `install-dependencies` plugin is off too.
@@ -358,13 +358,13 @@ To add a check, add `plugins/<name>.mjs` and a line for it in `PLUGINS`. The
 run refuses to start when a plugin file is not listed, a listed plugin has no
 file, or a plugin runs before (or without) one it requires.
 
-Test 4 is only as complete as test 10's rows: npm, yarn and cargo lockfiles list
+Test 10 is only as complete as test 7's rows: npm, yarn and cargo lockfiles list
 the transitive dependencies, so those are checked in full. pip is checked where
 `requirements*.txt` pins `==` versions.
 
 Gradle build files show only what a project declares as literals: no transitive
 dependencies, no versions built from variables or supplied by a BOM. So in the
-watcher, test 10b (`plugins/gradle-resolution.mjs`) runs the project's own gradle wrapper
+watcher, test 7b (`plugins/gradle-resolution.mjs`) runs the project's own gradle wrapper
 in the container with an init script (`gradle/resolve-deps.init.gradle`) that
 resolves the graph of every classpath configuration (runtime, compile,
 annotation processors, buildscript) and lists the modules gradle selected. Only
@@ -377,21 +377,21 @@ SDK is read-only, and the NDK only matters for native compiles, not the graph. A
 rows of the same `group:artifact`, keeps the hash of a `verification-metadata.xml`
 row at the same version, and is `dev` unless it is in a release runtime
 classpath (not test, not debug). A floating declaration stays tier `floating`
-but carries the version gradle picked, so test 4 checks it. When gradle fails
+but carries the version gradle picked, so test 10 checks it. When gradle fails
 to configure the project, the declaration rows stay and the reason is logged and
 added to the resolution notes. `pinning-cli.mjs` does not run it (it runs on the
 host and executes nothing).
 
 The tests run in the order of `PLUGINS` (container steps inside the container,
 then host steps such as OSV.dev and Semgrep on the host). Test 1 (full
-dependency tree, `dependency-tree`) exists but is disabled; there is no test 6. `pinning-cli.mjs` runs tests 10–12 alone on
-any repository and ref (see above); with `--follow-deps` it also runs test 12 on
-each git-resolvable source dependency (test 12b), which the watcher does not do.
+dependency tree, `dependency-tree`) exists but is disabled. `pinning-cli.mjs` runs tests 7–9 alone on
+any repository and ref (see above); with `--follow-deps` it also runs test 9 on
+each git-resolvable source dependency (test 9b), which the watcher does not do.
 
 Known blind spots, reported by the tests themselves: prebuilt blobs inside
-registry packages (test 10 reads lockfiles, not artifacts), URLs built at build
-time (test 11), and whether a documented recipe really reproduces committed bytes
-(test 12).
+registry packages (test 7 reads lockfiles, not artifacts), URLs built at build
+time (test 8), and whether a documented recipe really reproduces committed bytes
+(test 9).
 
 ## Database Schema
 
@@ -435,9 +435,9 @@ CREATE TABLE app_dependencies (
 );
 ```
 
-What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 10b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
+What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
 
-Known vulnerabilities per release (test 4), as OSV.dev reported them when the release was analysed. A snapshot: an advisory published later is found with `findAppsShipping`, not here.
+Known vulnerabilities per release (test 10), as OSV.dev reported them when the release was analysed. A snapshot: an advisory published later is found with `findAppsShipping`, not here.
 
 ```sql
 CREATE TABLE app_vulnerabilities (

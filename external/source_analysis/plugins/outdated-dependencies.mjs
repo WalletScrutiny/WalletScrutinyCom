@@ -1,4 +1,4 @@
-// Test 5: packages without a release in YEARS_FOR_OUTDATED_CHECK years, and
+// Test 4: packages without a release in YEARS_FOR_OUTDATED_CHECK years, and
 // packages under MIN_DOWNLOADS_THRESHOLD monthly downloads.
 import fs from 'fs';
 import path from 'path';
@@ -6,7 +6,7 @@ import { execSync } from 'child_process';
 import { YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES } from '../config.mjs';
 
 /**
- * Test 5: Analyze dependencies to get
+ * Test 4: Analyze dependencies to get
  * - Dependencies not updated in the last X years
  * - Dependencies with little downloads in the last month (deprecated, unused or specifically crafted to be used in the app)
  */
@@ -257,7 +257,7 @@ export async function analyzeDependencies(repoPath, appType, yearsThreshold = YE
 }
 
 export default {
-  description: 'Test 5: outdated and little-used dependencies',
+  description: 'Test 4: outdated and little-used dependencies',
   needsKnownAppType: true,
   async container({ repoPath, appType }) {
     await analyzeDependencies(repoPath, appType);

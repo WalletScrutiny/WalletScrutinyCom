@@ -1,4 +1,4 @@
-// Test 7: js-x-ray warnings in JS/TS files; test files are skipped unless
+// Test 5: js-x-ray warnings in JS/TS files; test files are skipped unless
 // --include-test-files.
 import fs from 'fs';
 import path from 'path';
@@ -39,7 +39,7 @@ function isJavaScriptTestFile(relativePath) {
 }
 
 /**
- * Test 7: Analyze code vulnerabilities using js-x-ray
+ * Test 5: Analyze code vulnerabilities using js-x-ray
  * @param {string} repoPath
  * @param {{ includeTestFiles?: boolean }} [options] - includeTestFiles: also scan test files (default false)
  */
@@ -184,7 +184,7 @@ export async function analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFi
 }
 
 export default {
-  description: 'Test 7: js-x-ray',
+  description: 'Test 5: js-x-ray',
   async container({ repoPath, options }) {
     await analyzeCodeVulnerabilitiesJSXRay(repoPath, { includeTestFiles: options.includeTestFiles });
   },

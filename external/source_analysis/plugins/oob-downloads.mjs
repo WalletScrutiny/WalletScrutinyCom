@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * Test 11: Out-of-band download detection.
+ * Test 8: Out-of-band download detection.
  *
  * Statically finds build inputs that arrive OUTSIDE the package manager:
  * curl/wget in shell scripts, Dockerfiles and CI configs, cmake
@@ -95,7 +95,7 @@ function relative(repoPath, file) {
 }
 
 export function analyzeOobDownloads(repoPath) {
-  console.log('\n--- Test 11: Out-of-band download detection (static, nothing executed) ---');
+  console.log('\n--- Test 8: Out-of-band download detection (static, nothing executed) ---');
   const files = findFiles(repoPath);
   const findings = [];
 
@@ -186,10 +186,10 @@ export function analyzeOobDownloads(repoPath) {
   return unique;
 }
 
-// Test 11: build inputs fetched outside the package manager (curl/wget,
+// Test 8: build inputs fetched outside the package manager (curl/wget,
 // Dockerfile FROM, cmake downloads, git clones in scripts and CI).
 export default {
-  description: 'Test 11: out-of-band downloads',
+  description: 'Test 8: out-of-band downloads',
   container({ repoPath }) {
     analyzeOobDownloads(repoPath);
   },

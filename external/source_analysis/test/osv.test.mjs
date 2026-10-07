@@ -1,4 +1,4 @@
-// Test 4: OSV.dev lookup of the resolved dependencies, against a stubbed
+// Test 10: OSV.dev lookup of the resolved dependencies, against a stubbed
 // fetch. Nothing here talks to the network.
 import { test, beforeEach } from 'node:test';
 import assert from 'node:assert/strict';

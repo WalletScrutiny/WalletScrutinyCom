@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * Test 10: Supply-chain pinning analysis.
+ * Test 7: Supply-chain pinning analysis.
  *
  * Everything here is derived from manifest/lock files only — dependencies are
  * NEVER installed and no repository code is executed, so this test is safe to
@@ -585,7 +585,7 @@ function analyzeCargo(repoPath) {
 /* --------------------------------- report -------------------------------- */
 
 export function analyzePinning(repoPath) {
-  console.log('\n--- Test 10: Supply-chain pinning analysis (lockfile-based, nothing installed) ---');
+  console.log('\n--- Test 7: Supply-chain pinning analysis (lockfile-based, nothing installed) ---');
   const analyses = [
     analyzeNpm(repoPath),
     analyzePip(repoPath),
@@ -637,12 +637,12 @@ export function analyzePinning(repoPath) {
   return analyses;
 }
 
-// Test 10: supply-chain pinning of every dependency in the lock and manifest
+// Test 7: supply-chain pinning of every dependency in the lock and manifest
 // files. Its result (the pinning analyses, one per ecosystem) is what
 // gradle-resolution completes and osv checks; for a release, the host stores
 // the resolved rows (packages, app_dependencies).
 export default {
-  description: 'Test 10: supply-chain pinning',
+  description: 'Test 7: supply-chain pinning',
   container({ repoPath }) {
     return analyzePinning(repoPath);
   },

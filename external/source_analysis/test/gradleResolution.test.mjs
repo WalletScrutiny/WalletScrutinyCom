@@ -1,5 +1,5 @@
-// Test 10b: gradle dependency resolution. gradle itself is not run here; the
-// init script's output and the fold into test 10's rows are.
+// Test 7b: gradle dependency resolution. gradle itself is not run here; the
+// init script's output and the fold into test 7's rows are.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'fs';

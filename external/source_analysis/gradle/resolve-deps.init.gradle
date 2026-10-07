@@ -1,4 +1,4 @@
-// Init script for the gradle dependency resolution of test 10
+// Init script for the gradle dependency resolution of test 7
 // (plugins/gradle-resolution.mjs). Runs inside the analysis container only.
 //
 // After every project is configured, resolves the dependency graph of each

@@ -1,4 +1,4 @@
-// Test 8: obfuscated JS/TS files (obfuscation-detector).
+// Test 6: obfuscated JS/TS files (obfuscation-detector).
 import fs from 'fs';
 import path from 'path';
 import { detectObfuscation } from 'obfuscation-detector';
@@ -6,7 +6,7 @@ import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
 import { getJavaScriptFiles } from '../jsFiles.mjs';
 
 /**
- * Test 8: Analyze code for obfuscation using obfuscation-detector
+ * Test 6: Analyze code for obfuscation using obfuscation-detector
  */
 export async function analyzeObfuscation(repoPath) {
   console.log('\n=== Obfuscation Detection Analysis ===');
@@ -103,7 +103,7 @@ export async function analyzeObfuscation(repoPath) {
 }
 
 export default {
-  description: 'Test 8: obfuscated JS/TS files',
+  description: 'Test 6: obfuscated JS/TS files',
   async container({ repoPath }) {
     await analyzeObfuscation(repoPath);
   },

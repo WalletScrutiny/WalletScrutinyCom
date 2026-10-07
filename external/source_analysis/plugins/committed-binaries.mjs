@@ -3,7 +3,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 
 /**
- * Test 12: Committed binary artifacts.
+ * Test 9: Committed binary artifacts.
  *
  * Finds compiled artifacts that are checked into the source tree itself:
  * static/shared libraries, aar/jar bundles, executables. Nobody downloads
@@ -11,8 +11,8 @@ import { execSync } from 'child_process';
  * just links whatever bytes are already sitting in the checkout.
  *
  * This is a blind spot of both earlier tests by construction:
- *   Test 10 (pinning) only sees entries in lock/manifest files.
- *   Test 11 (out-of-band downloads) only sees fetch commands.
+ *   Test 7 (pinning) only sees entries in lock/manifest files.
+ *   Test 8 (out-of-band downloads) only sees fetch commands.
  * A committed .a is neither, so it scores clean in both while being the
  * least verifiable input in the build.
  *
@@ -240,7 +240,7 @@ function printGroups(groups, indent = '  ') {
  * Returns { artifacts, groups, totals } and prints a human-readable report.
  */
 export function analyzeCommittedBinaries(repoPath, { header = true } = {}) {
-  if (header) console.log('\n--- Test 12: Committed binary artifacts (static, nothing executed) ---');
+  if (header) console.log('\n--- Test 9: Committed binary artifacts (static, nothing executed) ---');
 
   const { files: all, source } = listCommittedFiles(repoPath);
   const artifacts = [];
@@ -369,13 +369,13 @@ function showFile(tmpDir, sha, filePath) {
 }
 
 /**
- * Run Test 12 against each git-resolvable dependency of the repo.
+ * Run Test 9 against each git-resolvable dependency of the repo.
  * This is where a wallet whose own tree is spotless stops looking spotless:
  * the artifacts are one repository down, and every single-repo scanner —
- * including Tests 10 and 11 — is standing in the wrong place to see them.
+ * including Tests 7 and 8 — is standing in the wrong place to see them.
  */
 export async function analyzeDependencyBinaries(repoPath, tempRoot) {
-  console.log('\n--- Test 12b: Committed binaries in source dependencies (one repository down) ---');
+  console.log('\n--- Test 9b: Committed binaries in source dependencies (one repository down) ---');
   const deps = resolveGitDependencies(repoPath);
   if (!deps.length) {
     console.log('No git-resolvable source dependencies found (v1 resolves com.github.* JitPack coordinates ' +
@@ -451,9 +451,9 @@ export async function analyzeDependencyBinaries(repoPath, tempRoot) {
   return results;
 }
 
-// Test 12: compiled artifacts checked into the tree.
+// Test 9: compiled artifacts checked into the tree.
 export default {
-  description: 'Test 12: committed binaries',
+  description: 'Test 9: committed binaries',
   container({ repoPath }) {
     analyzeCommittedBinaries(repoPath);
   },

@@ -1,6 +1,6 @@
 // Installs the repository's dependencies (npm/yarn install, pip install -r
-// requirements.txt; gradle and maven fetch theirs when tests 1-5 run them).
-// Tests 1-3 and 5 need it. A failed install is logged and does not fail the
+// requirements.txt; gradle and maven fetch theirs when tests 1-4 run them).
+// Tests 1-4 need it. A failed install is logged and does not fail the
 // analysis.
 import fs from 'fs';
 import path from 'path';

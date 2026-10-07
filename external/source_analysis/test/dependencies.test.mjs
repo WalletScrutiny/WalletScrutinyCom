@@ -1,4 +1,4 @@
-// Per-dependency rows from lockfiles (Test 10) and their SQLite storage.
+// Per-dependency rows from lockfiles (Test 7) and their SQLite storage.
 // Fixtures are written to a temp dir; nothing is cloned or installed.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
