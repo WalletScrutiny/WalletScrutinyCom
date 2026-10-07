@@ -4,6 +4,7 @@ import { formatDate } from "./format-utils.mjs";
 import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
+import { fillReportAuthors, shortenReportHashes, tidyBuildServerReport } from './build-server-report.mjs';
 import { renderCommentsSection } from './assets-table-comments.mjs';
 import {
   getAssetTableResponse,
@@ -738,7 +739,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   const itemContent = JSON.parse(verification.content).content;
-  const parsedMarkdown = await parseMarkdownToSafeHtml(itemContent);
+  const parsedMarkdown = shortenReportHashes(await parseMarkdownToSafeHtml(tidyBuildServerReport(itemContent)));
 
   let diffoscopeHTML = '';
   if (diffoscopeFiles.length > 0) {
@@ -801,6 +802,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   </div>`;
 
   content.innerHTML = contentHTML;
+  void fillReportAuthors(content, async pubkey => getProfileDisplayName(await getNostrProfile(pubkey), pubkey));
 
   if (firstAsciicastFileSHA256) {
     const castURL = getBlossomFileURL(firstAsciicastFileSHA256);
