@@ -41,6 +41,14 @@ describe('tidyBuildServerReport', () => {
     ));
     assert.ok(!tidy.includes('Command'));
     assert.ok(tidy.endsWith('identical builds.\n\n</details>\n'));
+    assert.ok(tidy.startsWith('**Reproducible.** We built version 2026.11.2 (1) from its public source code and got the same app users download.\n\n<details>\n'));
+  });
+
+  test('drops the list of official files too', () => {
+    const many = REPORT.replace(`**Official app (SHA-256):** \`${HASH}\``, `**Official files (SHA-256):**\n- \`${HASH}\`\n- \`${BASED_ON}\``);
+    const tidy = tidyBuildServerReport(many);
+    assert.ok(!tidy.includes('Official'));
+    assert.ok(tidy.includes('download.\n\n<details>\n'));
   });
 
   test('a report without notes still closes its details', () => {
@@ -58,7 +66,7 @@ describe('tidyBuildServerReport', () => {
 describe('shortenReportHashes', () => {
   test('hashes show 8 characters and copy in full; the author becomes a name slot', () => {
     const html = shortenReportHashes(marked.parse(tidyBuildServerReport(REPORT)));
-    assert.ok(html.includes(`<code class="js-copy-hash report-hash" data-hash="${HASH}" title="Copy hash" role="button">748c84c0</code>`));
+    assert.ok(shortenReportHashes(marked.parse(REPORT)).includes(`<code class="js-copy-hash report-hash" data-hash="${HASH}" title="Copy hash" role="button">748c84c0</code>`));
     assert.ok(html.includes(`data-hash="${BASED_ON}" title="Copy hash" role="button">6dbdacbe</code> by <span class="report-author" data-pubkey="${VERIFIER}">1f9e547c</span>`));
     assert.ok(!html.includes(`<code>${VERIFIER}</code>`));
   });

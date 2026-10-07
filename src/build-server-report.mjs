@@ -166,9 +166,9 @@ const OTHER = '<summary>Other information</summary>';
 const BASED_ON = /^- Build script from verification (`[0-9a-f]{64}`)(.*)$/;
 
 /**
- * The "Other information" list with the script version first, the build script's origin
- * in plainer words, and no command line, which says nothing to our users. Any other
- * report comes back unchanged.
+ * No official hashes, which the modal lists above the report, then the "Other information"
+ * list with the script version first, the build script's origin in plainer words, and no
+ * command line, which says nothing to our users. Any other report comes back unchanged.
  */
 export function tidyBuildServerReport(markdown) {
   const text = String(markdown ?? '');
@@ -189,7 +189,23 @@ export function tidyBuildServerReport(markdown) {
   const rest = items
     .filter(line => !version.includes(line) && !line.startsWith('- Command: '))
     .map(line => line.replace(BASED_ON, '- Build script taken from verification $1$2'));
-  return [...lines.slice(0, start + 1), '', ...version, ...rest, '', ...lines.slice(end)].join('\n');
+  return [...withoutOfficialHashes(lines.slice(0, start + 1)), '', ...version, ...rest, '', ...lines.slice(end)].join('\n');
+}
+
+/** The modal lists the official hashes above the report already. */
+function withoutOfficialHashes(head) {
+  const at = head.findIndex(line => line.startsWith('**Official app (SHA-256):** ') || line === '**Official files (SHA-256):**');
+  if (at < 0) {
+    return head;
+  }
+  let after = at + 1;
+  while (after < head.length && head[after].startsWith('- `')) {
+    after++;
+  }
+  if (after < head.length && head[after].trim() === '') {
+    after++;
+  }
+  return [...head.slice(0, at), ...head.slice(after)];
 }
 
 /**
