@@ -178,6 +178,9 @@
   grid-template-columns: max-content 1fr;
   column-gap: 16px;
   row-gap: 6px;
+  // Line each label up with the first line of its value, which may be a
+  // padded link chip rather than plain text.
+  align-items: baseline;
   margin: 0;
   font-size: $font-sm;
   line-height: 1.35;
@@ -191,7 +194,6 @@
     font-size: $font-xs;
     font-weight: $title-font-weight;
     line-height: inherit;
-    padding-top: 0.1em;
   }
 
   dd {
@@ -202,6 +204,10 @@
   .distribution-store-links {
     margin-top: 0.3rem;
     gap: 0.35rem 0.5rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     .distribution-store-link {
       font-size: 0.88em;
