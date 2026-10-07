@@ -58,8 +58,8 @@ describe('tidyBuildServerReport', () => {
 describe('shortenReportHashes', () => {
   test('hashes show 8 characters and copy in full; the author becomes a name slot', () => {
     const html = shortenReportHashes(marked.parse(tidyBuildServerReport(REPORT)));
-    assert.ok(html.includes(`<code class="js-copy-hash report-hash" data-hash="${HASH}" title="Copy hash" role="button">748c84c0…</code>`));
-    assert.ok(html.includes(`data-hash="${BASED_ON}" title="Copy hash" role="button">6dbdacbe…</code> by <span class="report-author" data-pubkey="${VERIFIER}">1f9e547c…</span>`));
+    assert.ok(html.includes(`<code class="js-copy-hash report-hash" data-hash="${HASH}" title="Copy hash" role="button">748c84c0</code>`));
+    assert.ok(html.includes(`data-hash="${BASED_ON}" title="Copy hash" role="button">6dbdacbe</code> by <span class="report-author" data-pubkey="${VERIFIER}">1f9e547c</span>`));
     assert.ok(!html.includes(`<code>${VERIFIER}</code>`));
   });
 

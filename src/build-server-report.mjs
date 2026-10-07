@@ -194,18 +194,18 @@ export function tidyBuildServerReport(markdown) {
 
 /**
  * Rendered report HTML with the build script's author as a name slot instead of a pubkey,
- * and every SHA-256 in `code` cut to its first 8 characters and "…". A tap copies the full
+ * and every SHA-256 in `code` cut to its first 8 characters. A tap copies the full
  * hash (the modal's .js-copy-hash handler). Fill the slots with [fillReportAuthors].
  */
 export function shortenReportHashes(html) {
   return String(html ?? '')
     .replace(
       /(Build script taken from verification <code>[0-9a-f]{64}<\/code>) by <code>([0-9a-f]{64})<\/code>/g,
-      (_, line, pubkey) => `${line} by <span class="report-author" data-pubkey="${pubkey}">${pubkey.slice(0, 8)}…</span>`,
+      (_, line, pubkey) => `${line} by <span class="report-author" data-pubkey="${pubkey}">${pubkey.slice(0, 8)}</span>`,
     )
     .replace(
       /<code>([0-9a-fA-F]{64})<\/code>/g,
-      (_, hash) => `<code class="js-copy-hash report-hash" data-hash="${hash}" title="Copy hash" role="button">${hash.slice(0, 8)}…</code>`,
+      (_, hash) => `<code class="js-copy-hash report-hash" data-hash="${hash}" title="Copy hash" role="button">${hash.slice(0, 8)}</code>`,
     );
 }
 
