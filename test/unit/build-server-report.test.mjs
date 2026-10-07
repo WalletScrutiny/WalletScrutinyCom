@@ -42,8 +42,6 @@ describe('tidyBuildServerReport', () => {
       '<details>',
       '<summary>Other information</summary>',
       '',
-      '**Notes from the script**',
-      '',
       'Bitkey verification reported identical builds.',
       '',
       '</details>',
@@ -61,6 +59,12 @@ describe('tidyBuildServerReport', () => {
   test('with nothing else there is no Other information', () => {
     const noNotes = REPORT.replace(/\n\*\*Notes from the script\*\*\n\nBitkey verification reported identical builds.\n/, '');
     assert.ok(tidyBuildServerReport(noNotes).endsWith(`download.\n\nScript version: v0.2.31\n\nBuild script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n`));
+  });
+
+  test('the notes keep their title next to a version-override note', () => {
+    const note = '- The asset registration listed version 0.9; the APK versionName is 1.';
+    const tidy = tidyBuildServerReport(REPORT.replace('- Command:', `${note}\n- Command:`));
+    assert.ok(tidy.includes(`${note}\n\n**Notes from the script**\n\nBitkey verification`));
   });
 
   test('the version-override note stays in Other information', () => {
@@ -138,7 +142,7 @@ describe('rewriteLegacyReport', () => {
 
   test('then gets the same tidy as a current report', () => {
     const tidy = tidyBuildServerReport(rewriteLegacyReport(bitkey, tags));
-    assert.ok(tidy.includes(`Script version: v0.2.31\n\nBuild script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n\n<details>\n<summary>Other information</summary>\n\n**Notes`));
+    assert.ok(tidy.includes(`Script version: v0.2.31\n\nBuild script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n\n<details>\n<summary>Other information</summary>\n\nBitkey verification`));
     assert.ok(!tidy.includes('Command'));
   });
 
