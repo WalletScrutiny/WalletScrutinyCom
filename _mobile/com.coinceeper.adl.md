@@ -14,7 +14,7 @@ android:
   version: 1.0.70
   icon: com.coinceeper.adl.webp
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Taparam
   repository: https://github.com/coinceeper/Coincepper-wallet
 iphone:
@@ -27,11 +27,55 @@ iphone:
   reviews: 0
   icon: com.coinceeper.adl.webp
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: TAPARAM ELIPTIK TEKNOLOJI VE YAZILIM ANONIM SIRKETI
   repository: https://github.com/coinceeper/Coincepper-wallet
 
 ---
+
+## Update 2026-10-07
+
+Coinceeper has **no public source code for the release users install**. We pulled the Google Play
+split set of version **1.0.70** (versionCode 141) from a phone and compared it with the public
+repository [`coinceeper/Coincepper-wallet`](https://github.com/coinceeper/Coincepper-wallet) at its
+only commit, `fba10267` (2026-06-22, `pubspec.yaml` version `1.0.52+118`). The app on Google Play was
+not built from that code.
+
+- **Version gap.** The repository stops at 1.0.52 while Google Play ships 1.0.70. Under our rules, a
+  release shipped without its matching source counts as closed source.
+- **Different app code.** The developer's own package `com.coinceeper.adl` contains only
+  `MainActivity`, `MyFirebaseMessagingService`, `UninstallReceiver` and `BuildConfig`, plus generated
+  resource classes. The app also carries `com.laxce.my_flutter_app.MainActivity`, a launcher class
+  from a different project.
+- **The repository's background agent is not in the app.** `TspAgentForegroundService`,
+  `TspAgentBootReceiver`, `PopunderHandler`, `HumanBehaviorSimulator`, `CookieRotator`,
+  `WebViewProxyInterceptor`, `TspNativeLoader` and `TspAgentBridge` appear nowhere in the compiled
+  code. The manifest declares no such service or receiver, and the arm64 split has no `libtspagent`
+  native library. The advertising-automation findings in the Analysis section below therefore
+  describe the repository, not the app people install.
+- **Advertising SDKs the repository does not declare.** The app ships AppLovin MAX mediation, Google
+  Mobile Ads and code from 14 more ad networks: Unity Ads, ironSource, Yandex, Meta Audience Network,
+  Chartboost, InMobi, Pangle, Vungle, Mintegral, Moloco, BidMachine, Fyber, myTarget and Bigo. It also
+  includes AppMetrica analytics and Google Play Billing. The repository's `pubspec.yaml` lists none of
+  these.
+- **Different permissions and Android versions.** The app runs on Android 7.0 (API 24) and up, where
+  the repository requires API 26, and targets API 36 instead of 35. It adds microphone access
+  (`RECORD_AUDIO`), storage access, full-screen notifications, Android's ad-attribution permissions and
+  in-app billing. It drops the repository's start-on-boot and battery-optimisation-exemption
+  permissions.
+- **Secrets readable by anyone.** The file `assets/flutter_assets/secrets/vm_api_keys.env` (17,268
+  bytes) holds about 170 plain-text entries: API keys for TronGrid, Helius, CoinGecko, BlockCypher,
+  Etherscan and other blockchain services, plus `CLIENT_HMAC_SECRET`, `TSP_OPS_INGEST_SECRET` and a TLS
+  certificate pin. Anyone who installs the app can extract them. We are not publishing the values.
+- **No build provenance.** `META-INF/version-control-info.textproto` reads `NO_SUPPORTED_VCS_FOUND`:
+  the app was built outside a git checkout, so it records no commit it came from.
+- **Files examined.** `base.apk` SHA-256
+  `62eca8c6e2ea185513c88a87f83b085011f6cf1d49d2b2efc317c0ea4920eba2`, signed by the certificate with
+  SHA-256 `a4d80411cc462a99620cf3a87947c1ed2485ae1923955064787e2b1236d1b756`.
+
+Since the repository does not contain the code users run, a reproducible build cannot be attempted.
+The iPhone app comes from the same repository and is also ahead of it (1.0.56 on the App Store), so
+both listings are now rated as having no source available.
 
 ## App Description
 
