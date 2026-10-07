@@ -1,5 +1,5 @@
 /**
- * Test 10, gradle part 2: the resolved dependency graph.
+ * Test 7, gradle part 2: the resolved dependency graph.
  *
  * Without a committed verification-metadata.xml the gradle build files only
  * show what a project declares as literals: no transitive dependencies, no
@@ -155,7 +155,7 @@ function runGradle(buildDir, outFile, { timeoutMs = GRADLE_TIMEOUT_MS, env = pro
 }
 
 /**
- * Fold the resolved modules of one build into the gradle analysis of test 10.
+ * Fold the resolved modules of one build into the gradle analysis of test 7.
  * A resolved module replaces the declaration rows of the same group:artifact
  * (the declaration may name another version, or a range, or none); a row from
  * verification-metadata.xml at the same version keeps its hash. Declarations
@@ -205,14 +205,14 @@ export function mergeResolved(analysis, modules, lockfile) {
 
 /**
  * Run the resolution on every gradle build of the checkout and merge it into
- * the gradle analysis of `pinning` (test 10's result), in place. A build that
+ * the gradle analysis of `pinning` (test 7's result), in place. A build that
  * fails to configure keeps its declaration rows; the reason goes to the log
  * and to the analysis' resolutionNotes.
  */
 export async function resolveGradleDependencies(repoPath, pinning, options = {}) {
   const analysis = pinning.find(a => a.ecosystem === 'gradle');
   if (!analysis) return;
-  console.log('\n--- Test 10b: gradle dependency resolution (runs the project\'s gradle wrapper in the container) ---');
+  console.log('\n--- Test 7b: gradle dependency resolution (runs the project\'s gradle wrapper in the container) ---');
   const builds = findGradleBuilds(repoPath);
   if (!builds.length) {
     const note = 'no gradle wrapper found — only the declared dependencies are known';
@@ -243,7 +243,7 @@ export async function resolveGradleDependencies(repoPath, pinning, options = {})
       continue;
     }
     const added = mergeResolved(analysis, modules, `${rel}${RESOLVED_LOCKFILE_SUFFIX}`);
-    // test 10's JitPack note assumes only declarations were counted
+    // test 7's JitPack note assumes only declarations were counted
     analysis.resolutionNotes = analysis.resolutionNotes.map(n => n.startsWith('jitpack.io is in the resolution list, and this pass counts DECLARED')
       ? 'jitpack.io is in the resolution list (transitive JitPack coordinates are included: gradle resolved the graph)' : n);
     const shipped = [...modules.values()].filter(m => m.shipped).length;
@@ -262,10 +262,10 @@ export async function resolveGradleDependencies(repoPath, pinning, options = {})
   }
 }
 
-// Test 10b: runs the project's own gradle wrapper to resolve the full
+// Test 7b: runs the project's own gradle wrapper to resolve the full
 // dependency graph and completes the gradle rows of pinning's result in place.
 export default {
-  description: 'Test 10b: resolved gradle dependency graph',
+  description: 'Test 7b: resolved gradle dependency graph',
   requires: ['pinning'],
   async container({ repoPath, results }) {
     await resolveGradleDependencies(repoPath, results.pinning);

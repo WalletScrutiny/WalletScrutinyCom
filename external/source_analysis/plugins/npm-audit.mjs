@@ -1,4 +1,4 @@
-// The old test 4: npm audit / yarn audit. Replaced by the osv plugin, which
+// The old test 10: npm audit / yarn audit. Replaced by the osv plugin, which
 // covers gradle, pip and cargo too.
 import fs from 'fs';
 import path from 'path';
@@ -76,7 +76,7 @@ function dedupeVulnerabilities(vulnerabilities) {
 }
 
 /**
- * Test 4: Execute vulnerability scan
+ * Old test 10: Execute vulnerability scan
  */
 export async function scanVulnerabilities(repoPath, appType) {
   console.log('\n=== Vulnerability Scan ===');
@@ -177,7 +177,7 @@ export async function scanVulnerabilities(repoPath, appType) {
 }
 
 export default {
-  description: 'Old test 4: npm/yarn audit',
+  description: 'Old test 10: npm/yarn audit',
   needsKnownAppType: true,
   async container({ repoPath, appType }) {
     await scanVulnerabilities(repoPath, appType);

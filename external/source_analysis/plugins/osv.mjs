@@ -1,10 +1,10 @@
 /**
- * Test 4: known vulnerabilities, from OSV.dev.
+ * Test 10: known vulnerabilities, from OSV.dev.
  *
- * Takes the dependency rows test 10 resolved from the lockfiles (see
+ * Takes the dependency rows test 7 resolved from the lockfiles (see
  * plugins/pinning.mjs makeEntry) and asks OSV.dev which of those exact
  * versions have advisories. One batch API covers npm, PyPI, Maven (gradle) and
- * crates.io, so every ecosystem test 10 reads gets the same check, and nothing
+ * crates.io, so every ecosystem test 7 reads gets the same check, and nothing
  * has to be installed for it. Runs on the host: it reads JSON the container
  * produced and talks to api.osv.dev, nothing from the repository runs.
  *
@@ -21,14 +21,14 @@ const DETAIL_CONCURRENCY = 8;
 const REQUEST_TIMEOUT_MS = 30000;
 const RETRIES = 2;
 
-// test 10 ecosystem -> OSV ecosystem
+// test 7 ecosystem -> OSV ecosystem
 const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io' };
 const UNCHECKABLE_TIERS = new Set(['floating', 'unversioned', 'source-ref-pinned']);
 const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 
 /**
  * Why a dependency row cannot be looked up, or null when it can. A version
- * must look like a release number: test 10 also records ranges (`^1.2.0`) and
+ * must look like a release number: test 7 also records ranges (`^1.2.0`) and
  * placeholders, which OSV would answer with "no advisories" and so read as
  * clean.
  */
@@ -257,7 +257,7 @@ function findingsFor(q, ids, details) {
  * clean result.
  */
 export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch } = {}) {
-  console.log('\n--- Test 4: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
+  console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);
   const skippedTotal = Object.values(skipped).reduce((a, b) => a + b, 0);
   if (!queries.length) {
@@ -313,13 +313,13 @@ function report(queries, skipped, findings) {
   }
 }
 
-// Test 4: known vulnerabilities of every dependency pinning resolved to an
+// Test 10: known vulnerabilities of every dependency pinning resolved to an
 // exact registry version, from OSV.dev, looked up from the host. A failed
 // lookup fails the analysis, so an unchanged default branch is retried next
 // pass instead of being skipped without a vulnerability result. Stored per
 // release (app_vulnerabilities).
 export default {
-  description: 'Test 4: known vulnerabilities (OSV.dev)',
+  description: 'Test 10: known vulnerabilities (OSV.dev)',
   requires: ['pinning'],
   async host({ name, version, db, results }) {
     const vulnerabilities = await checkVulnerabilities(results.pinning || []);

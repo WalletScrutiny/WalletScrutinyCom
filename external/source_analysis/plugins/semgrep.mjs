@@ -1,4 +1,4 @@
-// Test 9: Semgrep CE (--config=auto) in its own container (SEMGREP_IMAGE),
+// Test 11: Semgrep CE (--config=auto) in its own container (SEMGREP_IMAGE),
 // started by the host on the checkout the analysis container left behind.
 import path from 'path';
 import { execSync, exec } from 'child_process';
@@ -6,7 +6,7 @@ import { promisify } from 'util';
 import { SEMGREP_IMAGE, CONTAINER_CLI } from '../config.mjs';
 
 /**
- * Test 9: Analyze code vulnerabilities using Semgrep Community Edition
+ * Test 11: Analyze code vulnerabilities using Semgrep Community Edition
  */
 export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
   console.log('\n=== Semgrep Code Vulnerability Analysis ===');
@@ -228,7 +228,7 @@ export async function analyzeCodeVulnerabilitiesSemgrep(repoPath) {
 }
 
 export default {
-  description: 'Test 9: Semgrep',
+  description: 'Test 11: Semgrep',
   needsKnownAppType: true,
   async host({ repoPath }) {
     await analyzeCodeVulnerabilitiesSemgrep(repoPath);

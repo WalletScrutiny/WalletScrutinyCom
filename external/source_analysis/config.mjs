@@ -11,20 +11,20 @@ const __dirname = dirname(__filename);
 // steps all run before host steps (see plugins.mjs). The test numbers are
 // the README's.
 export const PLUGINS = {
-  'install-dependencies': false,  // npm/yarn or pip install; tests 1-3 and 5 need it, keep it first
+  'install-dependencies': false,  // npm/yarn or pip install; tests 1-4 need it, keep it first
   'dependency-tree': false,       // test 1
   'direct-dependencies': false,   // test 2
   'unfixed-versions': false,      // test 3
-  'npm-audit': false,             // the old test 4 (npm/yarn audit), replaced by osv
-  'outdated-dependencies': false, // test 5
-  'jsxray': false,                // test 7
-  'obfuscation': false,           // test 8
-  'pinning': true,                // test 10, stores the resolved dependencies
-  'gradle-resolution': true,      // test 10b, completes pinning's gradle rows
-  'oob-downloads': false,         // test 11
-  'committed-binaries': false,    // test 12
-  'osv': true,                    // test 4, host: known vulnerabilities of pinning's rows
-  'semgrep': false,               // test 9, host: its own container on the checkout
+  'npm-audit': false,             // the old test 10 (npm/yarn audit), replaced by osv
+  'outdated-dependencies': false, // test 4
+  'jsxray': false,                // test 5
+  'obfuscation': false,           // test 6
+  'pinning': true,                // test 7, stores the resolved dependencies
+  'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
+  'oob-downloads': false,         // test 8
+  'committed-binaries': false,    // test 9
+  'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
+  'semgrep': false,               // test 11, host: its own container on the checkout
 };
 
 // API Configuration
