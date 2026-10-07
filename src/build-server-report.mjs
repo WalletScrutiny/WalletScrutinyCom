@@ -163,12 +163,14 @@ export function rewriteLegacyReport(report, tags = []) {
 }
 
 const OTHER = '<summary>Other information</summary>';
+const NOTES_TITLE = '**Notes from the script**';
 const BASED_ON = /^- Build script from verification (`[0-9a-f]{64}`)(.*)$/;
 
 /**
  * No official hashes, which the modal lists above the report; the script version and where
  * the build script came from as paragraphs under the verdict; and an "Other information"
- * section only for what is left, the command aside, which says nothing to our users.
+ * section only for what is left, the command aside, which says nothing to our users, and
+ * the notes untitled when they are all that is left.
  * Any other report comes back unchanged.
  */
 export function tidyBuildServerReport(markdown) {
@@ -204,7 +206,9 @@ export function tidyBuildServerReport(markdown) {
     if (others.length > 0) {
       out.push(...others, '');
     }
-    out.push(...lines.slice(end));
+    // With nothing else in the section, the notes need no title of their own.
+    const untitled = others.length === 0 && lines[end] === NOTES_TITLE && lines[end + 1]?.trim() === '';
+    out.push(...lines.slice(untitled ? end + 2 : end));
   } else {
     out.push(...lines.slice(end + 1));
   }

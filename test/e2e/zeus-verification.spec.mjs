@@ -76,9 +76,12 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(content).toContainText(`Created At: ${expectedCreatedAt}`);
       await expect.soft(content).toContainText('Build status:');
       await expect.soft(content).toContainText('Reproducible when tested');
+      // The old one-paragraph build-server report, shown in today's layout.
       await expect.soft(content).toContainText(
-        'Automatic verification by WalletScrutiny Build Server for wallet version 13.0.1',
+        'Reproducible. We built version 13.0.1 from its public source code and got the same app users download.',
       );
+      await expect.soft(content).toContainText('Script version: v0.2.13');
+      await expect.soft(content).toContainText('Build script taken from verification 0cd139d8 by dannybuntu');
     });
 
     await test.step('Profile and based_on loading', async () => {
