@@ -64,7 +64,7 @@
         {%- assign released = page.android.released | default: page.iphone.released | default: page.released -%}
         {%- if released -%}
           {{ released | date_to_long_string: 'ordinal' }}
-          <span class="calculate-time-elapsed raw brackets secondary" data="{{ released | date: '%s' }}"></span>
+          <span class="calculate-time-elapsed raw brackets" data="{{ released | date: '%s' }}"></span>
         {%- else -%}
           Unknown
         {%- endif -%}
