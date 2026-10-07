@@ -17,10 +17,7 @@
 {% assign has_iphone = page.iphone.appId %}
 
 <div class="steps linked">
-  {% include /review/steps/developerMobile.html %}
-  {% include /review/steps/releasesMobile.html %}
   {% include /review/steps/custody.html platform=custody_platform meta=meta verdict=verdict %}
-  {% include /review/steps/sourceCode.html verdict=verdict %}
   {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=custody_platform %}
 
   {%- if include.externalResearchAlert and include.externalResearchAlert != '' -%}

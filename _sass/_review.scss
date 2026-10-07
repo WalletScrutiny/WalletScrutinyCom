@@ -171,16 +171,49 @@
   }
 }
 
-.steps.linked .step .distribution-store-links .distribution-store-link:hover {
-  text-decoration: none;
-}
+// Developer / Released / Source code facts in the page header, below the
+// "Latest release found by" line (replaces the former review steps).
+.app-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 16px;
+  row-gap: 6px;
+  margin: 0;
+  font-size: $font-sm;
+  line-height: 1.35;
 
-.steps .step .data .distribution-store-links {
-  margin-top: 0;
-  justify-content: flex-start;
+  &__item {
+    display: contents;
+  }
 
-  .distribution-store-link {
-    font-size: 0.94em;
+  dt {
+    grid-column: 1;
+    font-size: $font-xs;
+    font-weight: $title-font-weight;
+    line-height: inherit;
+    padding-top: 0.1em;
+  }
+
+  dd {
+    grid-column: 2;
+    margin: 0;
+  }
+
+  .distribution-store-links {
+    margin-top: 0.3rem;
+    gap: 0.35rem 0.5rem;
+
+    .distribution-store-link {
+      font-size: 0.88em;
+      padding: 0.2em 0.6em;
+    }
+  }
+
+  a:not(.distribution-store-link) {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

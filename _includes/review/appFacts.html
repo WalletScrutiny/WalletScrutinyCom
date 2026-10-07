@@ -1,0 +1,94 @@
+{%- comment -%}
+  Compact wallet facts shown in the page header, below the "Latest release
+  found by" line: Developer (with social links), Released and Source code.
+  Replaces the three former review steps of the same names.
+  Parameters:
+    skipWebsite  set when the header already shows the Website chip, so the
+                 developer links do not repeat it
+{%- endcomment -%}
+{%- assign dev_android = page.android.developerName | default: '' | strip -%}
+{%- assign dev_iphone = page.iphone.developerName | default: '' | strip -%}
+{%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- assign dev_android_key = dev_android | downcase -%}
+{%- assign dev_iphone_key = dev_iphone | downcase -%}
+{%- assign has_developer = false -%}
+{%- if dev_android != '' or dev_iphone != '' or dev_root != '' or page.website or page.twitter or page.android.twitter or page.iphone.twitter or page.social -%}
+  {%- assign has_developer = true -%}
+{%- endif -%}
+
+{%- assign repo_android = page.android.repository | default: '' -%}
+{%- assign repo_iphone = page.iphone.repository | default: '' -%}
+{%- assign repo_root = page.repository | default: '' -%}
+{%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
+{%- assign fact_verdict = page.verdict | default: page.android.verdict | default: page.iphone.verdict -%}
+{%- assign source_state = 'omit' -%}
+{%- if repo_android != '' or repo_iphone != '' or repo_root != '' -%}
+  {%- assign source_state = 'public' -%}
+{%- elsif sourceCheckedVerdicts contains fact_verdict -%}
+  {%- assign source_state = 'omit' -%}
+{%- else -%}
+  {%- assign source_state = 'not-evaluated' -%}
+{%- endif -%}
+
+<dl class="app-facts">
+  {%- if has_developer %}
+  <div class="app-facts__item">
+    <dt>Developer</dt>
+    <dd>
+      {%- if dev_android != '' and dev_iphone != '' -%}
+        {%- if dev_android_key == dev_iphone_key -%}
+          <span class="capitalise">{{ dev_android }}</span>
+        {%- else -%}
+          <span class="capitalise">{{ dev_android }}</span> <span class="secondary-text">(Android)</span><br>
+          <span class="capitalise">{{ dev_iphone }}</span> <span class="secondary-text">(iPhone)</span>
+        {%- endif -%}
+      {%- elsif dev_android != '' -%}
+        <span class="capitalise">{{ dev_android }}</span>
+      {%- elsif dev_iphone != '' -%}
+        <span class="capitalise">{{ dev_iphone }}</span>
+      {%- elsif dev_root != '' -%}
+        <span class="capitalise">{{ dev_root }}</span>
+      {%- endif -%}
+      {% include /review/developerSocialLinks.html skipWebsite=include.skipWebsite %}
+    </dd>
+  </div>
+  {%- endif %}
+  <div class="app-facts__item">
+    <dt>Released</dt>
+    <dd>
+      {%- if page.android.released and page.iphone.released and page.android.released != page.iphone.released -%}
+        <span class="secondary-text">Android:</span> {{ page.android.released | date_to_long_string: 'ordinal' }}<br>
+        <span class="secondary-text">iPhone:</span> {{ page.iphone.released | date_to_long_string: 'ordinal' }}
+      {%- else -%}
+        {%- assign released = page.android.released | default: page.iphone.released | default: page.released -%}
+        {%- if released -%}
+          {{ released | date_to_long_string: 'ordinal' }}
+          <span class="calculate-time-elapsed raw brackets secondary" data="{{ released | date: '%s' }}"></span>
+        {%- else -%}
+          Unknown
+        {%- endif -%}
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- if source_state != 'omit' %}
+  <div class="app-facts__item">
+    <dt>Source code</dt>
+    <dd>
+      {%- if source_state == 'not-evaluated' -%}
+        <span class="secondary-text">Not evaluated — our review stopped at an earlier step.</span>
+      {%- elsif repo_android != '' and repo_iphone != '' and repo_android != repo_iphone -%}
+        {%- assign host = repo_android | replace: "https://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">Android:</span> <a href="{{ repo_android }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a><br>
+        {%- assign host = repo_iphone | replace: "https://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">iPhone:</span> <a href="{{ repo_iphone }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>
+      {%- else -%}
+        {%- assign repo = repo_android -%}
+        {%- if repo == '' -%}{%- assign repo = repo_iphone -%}{%- endif -%}
+        {%- if repo == '' -%}{%- assign repo = repo_root -%}{%- endif -%}
+        {%- assign host = repo | replace: "https://", "" | split: "/" | first | split: "." | first -%}
+        Public on <a href="{{ repo }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- endif %}
+</dl>

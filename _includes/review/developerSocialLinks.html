@@ -1,5 +1,5 @@
 <div class="distribution-store-links">
-  {% if page.website %}
+  {% if page.website and include.skipWebsite != true %}
     <a href="{{ page.website }}" title="Website" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">Website</a>
   {% endif %}
   {% assign twitter_handle = page.twitter | default: page.android.twitter | default: page.iphone.twitter %}
