@@ -1105,6 +1105,10 @@
       font-size: $font-xs;
     }
     .praiseBox > div { margin: 0; }
+    // the last paragraph, list and list item keep their bottom margins
+    // otherwise, which collapse into the box padding and make the bottom
+    // gap look twice the top one
+    .praiseBox :last-child, .alertBox :last-child { margin-bottom: 0; }
   }
 
   &__title {
