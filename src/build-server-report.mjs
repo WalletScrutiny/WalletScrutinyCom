@@ -166,30 +166,47 @@ const OTHER = '<summary>Other information</summary>';
 const BASED_ON = /^- Build script from verification (`[0-9a-f]{64}`)(.*)$/;
 
 /**
- * No official hashes, which the modal lists above the report, then the "Other information"
- * list with the script version first, the build script's origin in plainer words, and no
- * command line, which says nothing to our users. Any other report comes back unchanged.
+ * No official hashes, which the modal lists above the report; the script version and where
+ * the build script came from as a list under the verdict; and an "Other information"
+ * section only for what is left, the command aside, which says nothing to our users.
+ * Any other report comes back unchanged.
  */
 export function tidyBuildServerReport(markdown) {
   const text = String(markdown ?? '');
   const lines = text.split('\n');
   const start = lines.indexOf(OTHER);
-  if (start < 0) {
+  if (start < 1 || lines[start - 1] !== '<details>') {
     return text;
   }
-  let end = lines.findIndex((line, i) => i > start && (line === '</details>' || line.startsWith('**')));
+  const end = lines.findIndex((line, i) => i > start && (line === '</details>' || line.startsWith('**')));
   if (end < 0) {
-    end = lines.length;
+    return text;
   }
   const items = lines.slice(start + 1, end).filter(line => line.trim() !== '');
   if (items.length === 0 || items.some(line => !line.startsWith('- '))) {
     return text;
   }
   const version = items.filter(line => line.startsWith('- Script version: '));
-  const rest = items
-    .filter(line => !version.includes(line) && !line.startsWith('- Command: '))
+  const basedOn = items
+    .filter(line => BASED_ON.test(line))
     .map(line => line.replace(BASED_ON, '- Build script taken from verification $1$2'));
-  return [...withoutOfficialHashes(lines.slice(0, start + 1)), '', ...version, ...rest, '', ...lines.slice(end)].join('\n');
+  const others = items.filter(line => !version.includes(line) && !BASED_ON.test(line) && !line.startsWith('- Command: '));
+  const hasNotes = lines[end] !== '</details>';
+
+  const out = [...withoutOfficialHashes(lines.slice(0, start - 1)), ...version, ...basedOn];
+  if (others.length > 0 || hasNotes) {
+    if (version.length > 0 || basedOn.length > 0) {
+      out.push('');
+    }
+    out.push('<details>', OTHER, '');
+    if (others.length > 0) {
+      out.push(...others, '');
+    }
+    out.push(...lines.slice(end));
+  } else {
+    out.push(...lines.slice(end + 1));
+  }
+  return out.join('\n');
 }
 
 /** The modal lists the official hashes above the report already. */
@@ -210,6 +227,7 @@ function withoutOfficialHashes(head) {
 
 /**
  * Rendered report HTML with the build script's author as a name slot instead of a pubkey,
+ * set off as code like the verification id next to it,
  * and every SHA-256 in `code` cut to its first 8 characters. A tap copies the full
  * hash (the modal's .js-copy-hash handler). Fill the slots with [fillReportAuthors].
  */
@@ -217,7 +235,7 @@ export function shortenReportHashes(html) {
   return String(html ?? '')
     .replace(
       /(Build script taken from verification <code>[0-9a-f]{64}<\/code>) by <code>([0-9a-f]{64})<\/code>/g,
-      (_, line, pubkey) => `${line} by <span class="report-author" data-pubkey="${pubkey}">${pubkey.slice(0, 8)}</span>`,
+      (_, line, pubkey) => `${line} by <code class="report-author" data-pubkey="${pubkey}">${pubkey.slice(0, 8)}</code>`,
     )
     .replace(
       /<code>([0-9a-fA-F]{64})<\/code>/g,
