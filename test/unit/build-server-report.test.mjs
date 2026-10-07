@@ -35,8 +35,9 @@ describe('tidyBuildServerReport', () => {
     assert.equal(tidyBuildServerReport(REPORT), [
       '**Reproducible.** We built version 2026.11.2 (1) from its public source code and got the same app users download.',
       '',
-      '- Script version: v0.2.31',
-      `- Build script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\``,
+      'Script version: v0.2.31',
+      '',
+      `Build script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\``,
       '',
       '<details>',
       '<summary>Other information</summary>',
@@ -54,12 +55,12 @@ describe('tidyBuildServerReport', () => {
     const many = REPORT.replace(`**Official app (SHA-256):** \`${HASH}\``, `**Official files (SHA-256):**\n- \`${HASH}\`\n- \`${BASED_ON}\``);
     const tidy = tidyBuildServerReport(many);
     assert.ok(!tidy.includes('Official'));
-    assert.ok(tidy.includes('download.\n\n- Script version: v0.2.31\n'));
+    assert.ok(tidy.includes('download.\n\nScript version: v0.2.31\n'));
   });
 
   test('with nothing else there is no Other information', () => {
     const noNotes = REPORT.replace(/\n\*\*Notes from the script\*\*\n\nBitkey verification reported identical builds.\n/, '');
-    assert.ok(tidyBuildServerReport(noNotes).endsWith(`download.\n\n- Script version: v0.2.31\n- Build script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n`));
+    assert.ok(tidyBuildServerReport(noNotes).endsWith(`download.\n\nScript version: v0.2.31\n\nBuild script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n`));
   });
 
   test('the version-override note stays in Other information', () => {
@@ -83,6 +84,8 @@ describe('shortenReportHashes', () => {
     assert.ok(shortenReportHashes(marked.parse(REPORT)).includes(`<code class="js-copy-hash report-hash" data-hash="${HASH}" title="Copy hash" role="button">748c84c0</code>`));
     assert.ok(html.includes(`data-hash="${BASED_ON}" title="Copy hash" role="button">6dbdacbe</code> by <code class="report-author" data-pubkey="${VERIFIER}">1f9e547c</code>`));
     assert.ok(!html.includes(`<code>${VERIFIER}</code>`));
+    assert.ok(html.includes('<p class="report-fact">Script version: v0.2.31</p>'));
+    assert.ok(html.includes('<p class="report-fact">Build script taken from verification <code'));
   });
 
   test('code that is not a hash stays as it is', () => {
@@ -135,7 +138,7 @@ describe('rewriteLegacyReport', () => {
 
   test('then gets the same tidy as a current report', () => {
     const tidy = tidyBuildServerReport(rewriteLegacyReport(bitkey, tags));
-    assert.ok(tidy.includes(`- Script version: v0.2.31\n- Build script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n\n<details>\n<summary>Other information</summary>\n\n**Notes`));
+    assert.ok(tidy.includes(`Script version: v0.2.31\n\nBuild script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n\n<details>\n<summary>Other information</summary>\n\n**Notes`));
     assert.ok(!tidy.includes('Command'));
   });
 
