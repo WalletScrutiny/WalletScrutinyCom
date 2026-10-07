@@ -1494,6 +1494,11 @@ body.dark #endorsementModalContent {
   font-size: 0.9em;
 }
 
+/* Verification report: the script facts under the verdict, a little apart */
+#verificationContent p.report-fact {
+  margin-top: 1em;
+}
+
 /* Verification report: a short hash copies the full one on a tap */
 .markdown-content .report-hash {
   cursor: pointer;

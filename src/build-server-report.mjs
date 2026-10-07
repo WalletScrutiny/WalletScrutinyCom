@@ -167,7 +167,7 @@ const BASED_ON = /^- Build script from verification (`[0-9a-f]{64}`)(.*)$/;
 
 /**
  * No official hashes, which the modal lists above the report; the script version and where
- * the build script came from as a list under the verdict; and an "Other information"
+ * the build script came from as paragraphs under the verdict; and an "Other information"
  * section only for what is left, the command aside, which says nothing to our users.
  * Any other report comes back unchanged.
  */
@@ -189,13 +189,15 @@ export function tidyBuildServerReport(markdown) {
   const version = items.filter(line => line.startsWith('- Script version: '));
   const basedOn = items
     .filter(line => BASED_ON.test(line))
-    .map(line => line.replace(BASED_ON, '- Build script taken from verification $1$2'));
+    .map(line => line.replace(BASED_ON, 'Build script taken from verification $1$2'));
   const others = items.filter(line => !version.includes(line) && !BASED_ON.test(line) && !line.startsWith('- Command: '));
   const hasNotes = lines[end] !== '</details>';
 
-  const out = [...withoutOfficialHashes(lines.slice(0, start - 1)), ...version, ...basedOn];
+  // Paragraphs, not a list: no bullets, and the verdict's spacing between them.
+  const facts = [...version.map(line => line.slice(2)), ...basedOn];
+  const out = [...withoutOfficialHashes(lines.slice(0, start - 1)), ...facts.flatMap((fact, i) => (i === 0 ? [fact] : ['', fact]))];
   if (others.length > 0 || hasNotes) {
-    if (version.length > 0 || basedOn.length > 0) {
+    if (facts.length > 0) {
       out.push('');
     }
     out.push('<details>', OTHER, '');
@@ -227,12 +229,13 @@ function withoutOfficialHashes(head) {
 
 /**
  * Rendered report HTML with the build script's author as a name slot instead of a pubkey,
- * set off as code like the verification id next to it,
+ * set off as code like the verification id next to it, the script facts spaced apart,
  * and every SHA-256 in `code` cut to its first 8 characters. A tap copies the full
  * hash (the modal's .js-copy-hash handler). Fill the slots with [fillReportAuthors].
  */
 export function shortenReportHashes(html) {
   return String(html ?? '')
+    .replace(/<p>(Script version: |Build script taken from verification )/g, '<p class="report-fact">$1')
     .replace(
       /(Build script taken from verification <code>[0-9a-f]{64}<\/code>) by <code>([0-9a-f]{64})<\/code>/g,
       (_, line, pubkey) => `${line} by <code class="report-author" data-pubkey="${pubkey}">${pubkey.slice(0, 8)}</code>`,
