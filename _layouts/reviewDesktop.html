@@ -39,9 +39,16 @@ layout: default
             {%- endif -%}
           </h1>
 
+          {% if page.repository contains 'github.com' or page.website and page.website != '' %}
+          <div class="distribution-store-links">
+            {% include /review/githubDistributionLink.html %}
+            {% include /review/websiteDistributionLink.html %}
+          </div>
+          {% endif %}
+
           <div class="secondary-text" id="version-number"></div>
 
-          {% include /review/appFacts.html %}
+          {% include /review/appFacts.html skipWebsite=true %}
         </div>
       </div>
 
