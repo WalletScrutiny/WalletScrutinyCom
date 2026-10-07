@@ -3,7 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { marked } from 'marked';
 
-import { fillReportAuthors, shortenReportHashes, tidyBuildServerReport } from '../../src/build-server-report.mjs';
+import { fillReportAuthors, rewriteLegacyReport, shortenReportHashes, tidyBuildServerReport } from '../../src/build-server-report.mjs';
 
 const HASH = '748c84c0ff5457b9b6a426a456984f0efbe78fb926f1b86d4e6c1ea146f74318';
 const BASED_ON = '6dbdacbeff5ebdcfbcaf7e54320749a887af6ed34796053d1a0b6cf1b0b76c07';
@@ -75,5 +75,60 @@ describe('fillReportAuthors', () => {
     await fillReportAuthors(root, async pubkey => (pubkey === VERIFIER ? 'Danny <b>' : null));
     assert.equal(root.querySelector('.report-author').textContent, 'Danny <b>');
     assert.equal(root.querySelector('.report-author b'), null);
+  });
+});
+
+describe('rewriteLegacyReport', () => {
+  const build = '/opt/build-server-builds/world.bitkey.app_748c84c0_2026.11.2__1_';
+  /** A real Bitkey report (event db55fe1c), with its build dir shortened. */
+  const bitkey = 'Automatic verification by WalletScrutiny Build Server for wallet version 2026.11.2 (1)  , ' +
+    `based on verification ${BASED_ON} by ${VERIFIER}. ` +
+    `The script was executed with these parameters: ${build}/world.bitkey.app_script.sh --binary ${build}/binary` +
+    ' - Script version: v0.2.31. - Notes from the developer of the script: Bitkey verification reported identical builds.\n' +
+    `Plain diff file: ${build}/bitkey_verification_auto_1790719480/comparison/diff-unzipped-apks.txt\n.`;
+  const tags = [['status', 'reproducible'], ['x', HASH], ['x', 'not a hash']];
+
+  test('an old report reads as the server writes it now (the same text as the app\'s AbsReport)', () => {
+    assert.equal(rewriteLegacyReport(bitkey, tags), [
+      '**Reproducible.** We built version 2026.11.2 (1) from its public source code and got the same app users download.',
+      '',
+      `**Official app (SHA-256):** \`${HASH}\``,
+      '',
+      '<details>',
+      '<summary>Other information</summary>',
+      '',
+      `- Build script from verification \`${BASED_ON}\` by \`${VERIFIER}\``,
+      '- Script version: v0.2.31',
+      '- Command: `world.bitkey.app_script.sh --binary binary`',
+      '',
+      '**Notes from the script**',
+      '',
+      'Bitkey verification reported identical builds.  ',
+      'Plain diff file: bitkey\\_verification\\_auto\\_1790719480/comparison/diff-unzipped-apks.txt',
+      '',
+      '</details>',
+      '',
+    ].join('\n'));
+  });
+
+  test('then gets the same tidy as a current report', () => {
+    const tidy = tidyBuildServerReport(rewriteLegacyReport(bitkey, tags));
+    assert.ok(tidy.includes(`- Script version: v0.2.31\n- Build script taken from verification \`${BASED_ON}\` by \`${VERIFIER}\`\n\n**Notes`));
+    assert.ok(!tidy.includes('Command'));
+  });
+
+  test('architecture, type, an override note and an unknown verdict', () => {
+    const report = 'Automatic verification by WalletScrutiny Build Server for wallet version 6.3.1  with architecture: x86_64-linux-gnu    type: tarball, ' +
+      `based on verification ${'a'.repeat(64)} by ${VERIFIER}. The script was executed with these parameters: /opt/b/x/s.sh --binary /opt/b/x/binary` +
+      ' The asset registration listed version 6.3.0; the APK versionName is 6.3.1. - Script version: v0.1.9.';
+    const out = rewriteLegacyReport(report, [['status', 'warning']]);
+    assert.ok(out.startsWith('<details>'));
+    assert.ok(out.includes('- Command: `s.sh --binary binary`\n- The asset registration listed version 6.3.0; the APK versionName is 6.3.1.\n'));
+    assert.ok(!out.includes('Notes from the script'));
+  });
+
+  test('other reports are left alone', () => {
+    assert.equal(rewriteLegacyReport('I built it myself and it matches.', tags), null);
+    assert.equal(rewriteLegacyReport(REPORT, tags), null);
   });
 });
