@@ -29,7 +29,6 @@
       {% if include.source %}<p class="feature-evidence__source">Source: {{ include.source | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
     </div>
     <div class="feature-evidence__footer">
-      <a href="/features/#{{ include.feature }}">All features we track &rarr;</a>
       <button type="button" class="feature-evidence__close" popovertarget="{{ fe_id }}" popovertargetaction="hide">Close</button>
     </div>
   </div>
