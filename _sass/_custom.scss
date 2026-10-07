@@ -1095,14 +1095,16 @@
 
     p { margin: 0 0 0.6rem 0; }
     ul { margin: 0 0 0.6rem 0; padding-left: 1.2rem; }
+    // benefit (green) and drawback (red) boxes share one look here
     .praiseBox, .alertBox {
       margin: 0.6rem 0;
+      padding: 0.6rem 0.9rem;
+      border: 0;
+      border-radius: 10px;
       font-weight: normal;
       font-size: $font-xs;
     }
-    .praiseBox { border-width: 1px; border-color: var(--neutral-4); }
-    .praiseBox > div { margin: 0.6rem 0.9rem; }
-    .alertBox { padding: 0.6rem 0.9rem; }
+    .praiseBox > div { margin: 0; }
   }
 
   &__title {
