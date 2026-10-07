@@ -86,6 +86,18 @@ test('loadAppList: caches a fetched list and falls back to the cache when the fe
   db.close();
 });
 
+test('loadAppList: two records claiming the same (appId, platform) are cached once', async () => {
+  // The legacy and the rewritten Mycelium records both list com.mycelium.wallet-ios.
+  const db = tmpDb();
+  const dup = { appId: 'com.mycelium.wallet-ios', platform: 'iphone', repository: 'https://github.com/mycelium-com/wallet-ios' };
+  const list = [dup, { ...dup }, { appId: 'com.mycelium.wallet-ios', platform: 'android', repository: 'https://github.com/x/y' }];
+  const loaded = await loadAppList(db, { source: 'https://example.invalid/list.json', get: async () => ({ data: list }) });
+  assert.equal(loaded.source, 'site');
+  assert.equal(loaded.entries.length, 2);
+  assert.equal(getAppList(db).length, 2);
+  db.close();
+});
+
 test('loadAppList: no list and no cache is an error', async () => {
   const db = tmpDb();
   await assert.rejects(loadAppList(db, { source: 'https://example.invalid/list.json', get: async () => { throw new Error('nope'); } }), /no cached copy/);

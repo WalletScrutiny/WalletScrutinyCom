@@ -49,7 +49,17 @@ function checkEntries(list) {
       throw new Error(`malformed app list entry: ${JSON.stringify(e)}`);
     }
   }
-  return list.map(e => ({ appId: e.appId, platform: e.platform, repository: e.repository }));
+  // Two wallet records can claim the same store listing (an app and its
+  // rewrite); the cache is keyed on (appId, platform), so keep the first.
+  const seen = new Set();
+  return list
+    .filter(e => {
+      const key = `${e.platform}\n${e.appId}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .map(e => ({ appId: e.appId, platform: e.platform, repository: e.repository }));
 }
 
 // Read the list from a URL or a local file (handy before the site publishes it).
