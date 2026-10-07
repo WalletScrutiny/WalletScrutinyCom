@@ -10,7 +10,6 @@
   {% if include.filterPlatform=='true' or include.platform == 'hardware' %}
     {% include /review/steps/distribution.html platform=platform appId=include.appId idd=include.idd appCountry=include.appCountry alternativeStores=include.alternativeStores %}
   {% endif %}
-  {% include /review/bitcoinOrgFeatured.html %}
   {% include_cached /review/steps/platformNotes.html platform=platform %}
   {% if verdict && meta %}
     {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
