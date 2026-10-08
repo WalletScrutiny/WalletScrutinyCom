@@ -284,8 +284,8 @@ body.dark .bv-panel {
 
 .bv-file {
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
   padding: 5px 6px;
   font-size: $font-xs;
   line-height: 1.5;
@@ -310,32 +310,23 @@ body.dark .bv-panel {
   }
 }
 
-/* Name, then the whole hash under it; the first 8 characters stand out as in the modal. */
+/* "name - 8 hash characters", with the copy (and download) icons right beside it. */
 .bv-file__text {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
+  flex: 0 1 auto;
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .bv-file__name {
   font-weight: 600;
-  overflow-wrap: anywhere;
 }
 
 .bv-file__hash-text {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: $font-xxs;
+  font-size: $font-xs;
   color: var(--neutral-2);
-  overflow-wrap: anywhere;
   background: none;
   padding: 0;
-
-  .hash-prefix {
-    font-weight: 700;
-    color: var(--accent-text);
-  }
 }
 
 .bv-file__hash {
