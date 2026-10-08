@@ -432,12 +432,9 @@ body.dark .bv-panel {
     padding: 12px 12px 10px;
   }
 
-  .bv-file__name {
-    flex-basis: 100%;
-  }
-
   .bv-file {
-    flex-wrap: wrap;
-    row-gap: 2px;
+    gap: 8px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
