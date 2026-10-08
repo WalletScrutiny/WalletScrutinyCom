@@ -10,8 +10,8 @@ screenshots:
     alt: "Your wallets: the installed wallets with their verdicts, such as Reproducible or Not reproducible, and the number of verifiers"
     caption: "The wallets installed on your phone, each with the verdict for the exact version you run."
   - file: screenshot-2.webp
-    alt: "Wallet details for ZEUS Wallet: who tested this version and with which result, and the verdicts of every version"
-    caption: "Who tested the installed version, with what result, and how older versions did."
+    alt: "Wallet details for ZEUS Wallet: the verifications for this version with their results, and the verdicts of every version"
+    caption: "The verifications for the installed version, their results, and how older versions did."
   - file: screenshot-3.webp
     alt: "Settings: upload only over Wi-Fi, background monitoring, app language and share logs"
     caption: "Uploads can be limited to Wi-Fi; monitoring runs in the background."
