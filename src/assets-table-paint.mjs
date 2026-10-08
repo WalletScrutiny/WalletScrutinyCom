@@ -696,6 +696,21 @@ export function paintMainAssetsTable({
       const sha256Hashes = allSha256Hashes.slice(0, 5);
 
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
+
+      // What this row is, for the wallet page's Build Verifications section (and anyone
+      // else reading sortedItems): DOM-free facts, the same ones the cells below show.
+      item.summary = {
+        version,
+        identifier,
+        platform,
+        description: itemDescription,
+        lookupHashes,
+        attestations,
+        hasAssets: thisHashHasAssets,
+        files: allSha256Hashes.map(tag => ({ hash: tag[1], fileName: tag[2] || null })),
+        downloadFileName: sanitizedFileName,
+      };
+
       const bundleFilesJson = bundleFilesForDownload.length > 0
         ? encodeURIComponent(JSON.stringify(bundleFilesForDownload))
         : '';

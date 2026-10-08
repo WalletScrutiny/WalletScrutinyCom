@@ -52,6 +52,7 @@ module.exports = (env, argv) => {
           './src/assets-table-attachments.mjs',
           './src/assets-table-modal.mjs',
           './src/assets-table-hash.mjs',
+          './src/build-verifications.mjs',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',

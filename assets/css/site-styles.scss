@@ -5,6 +5,7 @@
 @use "styles";
 @use "notifications";
 @use "verifications";
+@use "build-verifications";
 @use "user-profile";
 
 /* Fix oversized cursor/text in asciicast player (#887) */

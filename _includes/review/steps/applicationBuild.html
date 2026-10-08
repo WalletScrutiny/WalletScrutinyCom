@@ -20,8 +20,19 @@
         {% assign build_app_id = include.appId | default: page.appId %}
         {% assign apps_table_id = include.appsTableId | default: 'appsTable' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
+        {% assign build_verifications_id = 'buildVerifications-' | append: include.platform | default: 'app' %}
 
-        <div id="{{ apps_table_id }}" style="margin-top: 0.25em;"></div>
+        {%- comment -%}
+          Like the Android app's wallet page: every version as a stone, then who tested the
+          picked one and its files. renderBuildVerifications (src/build-verifications.mjs)
+          paints it from the same rows as the table below.
+        {%- endcomment -%}
+        <div id="{{ build_verifications_id }}" class="build-verifications" hidden></div>
+
+        <details id="{{ apps_table_id }}-details" class="build-verifications__table">
+          <summary>Every build as a table</summary>
+          <div id="{{ apps_table_id }}" style="margin-top: 0.25em;"></div>
+        </details>
 
         <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
         <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
@@ -39,6 +50,27 @@
             const mergeInto = '{{ include.mergeVerificationInto | default: '' }}';
             const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
             const skipVersionInfo = {{ include.skipVersionInfo | default: false | jsonify }};
+            const walletTitle = {{ page.title | jsonify }};
+
+            const paintBuildVerifications = (assetInfo, rows) => {
+              if (typeof window.renderBuildVerifications !== 'function' || !Array.isArray(rows)) {
+                return;
+              }
+              var storeVersion = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
+                ? wsVersionAndroid
+                : ((typeof wsVersionIphone !== 'undefined' && '{{ include.platform }}' === 'iphone' && wsVersionIphone)
+                  ? wsVersionIphone
+                  : '');
+              window.renderBuildVerifications({
+                host: document.getElementById('{{ build_verifications_id }}'),
+                rows,
+                assetInfo,
+                appId: '{{ build_app_id }}',
+                platform: '{{ include.platform }}',
+                walletTitle,
+                latestVersion: storeVersion,
+              });
+            };
 
             const updateVersionInfo = (assetInfo) => {
               const versionInfo = getMaxAssetVersion(assetInfo, '{{ build_app_id }}', '{{ include.platform }}');
@@ -91,8 +123,9 @@
               enableDraftsFilter: true,
               enableAppPageSearch: true,
               showIssueTracker: true,
-              tableLoadedCallback: ({ info }) => {
+              tableLoadedCallback: ({ info, rows }) => {
                 updateVersionInfo(info);
+                paintBuildVerifications(info, rows);
               }
             });
 
@@ -102,6 +135,7 @@
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {
                 document.getElementById('{{ apps_table_id }}').style.display = 'none';
+                document.getElementById('{{ apps_table_id }}-details').hidden = true;
               }
 
               const verificationMessageEl = document.getElementById('{{ verification_message_id }}');
