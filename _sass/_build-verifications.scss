@@ -265,7 +265,15 @@ body.dark .bv-panel {
 }
 
 .bv-build + .bv-build {
+  margin-top: 12px;
+  border-top: 1px solid var(--neutral-5);
+}
+
+/* Inside a build the files come first; the verifier rows sit under a divider. */
+.bv-build > .bv-files ~ .bv-rows,
+.bv-build > .bv-build__description ~ .bv-rows {
   margin-top: 6px;
+  border-top: 1px solid var(--neutral-5);
 }
 
 /* Files */
