@@ -3,11 +3,11 @@
 {% assign platform = include.platform %}
 <div class="steps linked">
   {% include_cached /review/steps/platformMeta.html meta=meta %}
-    <!-- {% include /review/steps/privacy.html %} -->
-  {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId versionElementId=include.versionElementId %}
-  {% include_cached /review/steps/platformNotes.html platform=platform %}
   {% if verdict && meta %}
     {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
   {% endif %}
+    <!-- {% include /review/steps/privacy.html %} -->
+  {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId versionElementId=include.versionElementId %}
+  {% include_cached /review/steps/platformNotes.html platform=platform %}
 </div>
 {% include_cached /review/deadLinkMarkers.html %}
