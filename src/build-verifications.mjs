@@ -13,7 +13,7 @@ import { renderProfilePictures } from './assets-table-profiles.js';
 import { getNostrProfile, getProfileDisplayName } from './nostr-profile.mjs';
 import { checkFileExistsInBlossom } from './blossom-utils.mjs';
 import { getVerificationIdFromHash } from './assets-table-hash.mjs';
-import { el, HASH_PREFIX_LENGTH, isSha256Hex } from './html-utils.mjs';
+import { el, HASH_PREFIX_LENGTH, hashWithBoldPrefix, isSha256Hex } from './html-utils.mjs';
 import {
   buildVersionTimeline,
   defaultVersionKey,
@@ -201,9 +201,11 @@ function fileRow(file, hashVerdictIndex) {
   }
   return el('li', { className: 'bv-file' },
     fileMark(fileVerdict(hash, hashVerdictIndex)),
-    el('span', { className: 'bv-file__name', title: name }, name || 'file'),
+    el('span', { className: 'bv-file__text' },
+      name ? el('span', { className: 'bv-file__name', title: name }, name) : null,
+      el('code', { className: 'bv-file__hash-text', title: hash }, hashWithBoldPrefix(hash)),
+    ),
     el('span', { className: 'hash-row bv-file__hash' },
-      el('span', { className: 'bv-file__hash-text', title: hash }, hash.slice(0, HASH_PREFIX_LENGTH)),
       el('button', {
         type: 'button',
         className: 'hash-copy-btn js-copy-hash',

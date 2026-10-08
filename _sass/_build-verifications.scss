@@ -263,13 +263,15 @@ body.dark .bv-panel {
   border-top: 1px solid var(--neutral-5);
 }
 
-/* Inside a build the files come first; the verifier rows are indented under them, with a
-   rule down the left, so they read as the verifications of that set of files. */
-.bv-build > .bv-files ~ .bv-rows,
-.bv-build > .bv-build__description ~ .bv-rows {
-  margin: 6px 0 0 14px;
-  padding-left: 12px;
-  border-left: 2px solid var(--neutral-5);
+/* Inside a build the files come first; the description and the verifier rows are indented
+   under them by plain space, so they read as belonging to that set of files. */
+.bv-build > .bv-files ~ .bv-build__description,
+.bv-build > .bv-files ~ .bv-rows {
+  margin-left: 26px;
+}
+
+.bv-build > .bv-files ~ .bv-rows {
+  margin-top: 4px;
 }
 
 /* Files */
@@ -282,10 +284,11 @@ body.dark .bv-panel {
 
 .bv-file {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   padding: 5px 6px;
   font-size: $font-xs;
+  line-height: 1.5;
 }
 
 .bv-file__mark {
@@ -307,13 +310,32 @@ body.dark .bv-panel {
   }
 }
 
-.bv-file__name {
+/* Name, then the whole hash under it; the first 8 characters stand out as in the modal. */
+.bv-file__text {
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+.bv-file__name {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.bv-file__hash-text {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  font-size: $font-xxs;
   color: var(--neutral-2);
+  overflow-wrap: anywhere;
+  background: none;
+  padding: 0;
+
+  .hash-prefix {
+    font-weight: 700;
+    color: var(--accent-text);
+  }
 }
 
 .bv-file__hash {
@@ -321,16 +343,6 @@ body.dark .bv-panel {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-
-  .bv-file__hash-text {
-    font-family: monospace;
-    font-size: $font-xs;
-    color: var(--neutral-2);
-    padding: 3px 8px;
-    border: 1px solid var(--neutral-5);
-    border-radius: 8px;
-    background: var(--body);
-  }
 
   .hash-copy-btn {
     display: inline-flex;
@@ -442,9 +454,8 @@ body.dark .bv-panel {
     padding-right: 0;
   }
 
-  .bv-build > .bv-files ~ .bv-rows,
-  .bv-build > .bv-build__description ~ .bv-rows {
-    margin-left: 6px;
-    padding-left: 8px;
+  .bv-build > .bv-files ~ .bv-build__description,
+  .bv-build > .bv-files ~ .bv-rows {
+    margin-left: 14px;
   }
 }
