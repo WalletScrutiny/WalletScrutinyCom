@@ -274,7 +274,7 @@ body.dark .bv-panel {
   margin-top: 4px;
 }
 
-/* Files */
+/* Files: one text-height line per file, so a six-file split bundle stays a short list. */
 
 .bv-files {
   list-style: none;
@@ -285,8 +285,9 @@ body.dark .bv-panel {
 .bv-file {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 5px 6px;
+  gap: 6px;
+  margin: 0;
+  padding: 0 6px;
   font-size: $font-xs;
   line-height: 1.5;
 }
@@ -333,25 +334,24 @@ body.dark .bv-panel {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px;
 
   .hash-copy-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
     padding: 0;
-    border: 1px solid var(--neutral-5);
-    border-radius: 8px;
-    background: var(--body);
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
     color: var(--accent-text);
     cursor: pointer;
 
     &:hover,
     &:focus-visible {
-      border-color: var(--accent);
       background: var(--accent-50);
       outline: none;
     }
@@ -361,8 +361,8 @@ body.dark .bv-panel {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 
     svg {
       width: 100%;
@@ -376,11 +376,12 @@ body.dark .bv-panel {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
+  margin-left: -4px;
   padding: 0;
-  border: 1px solid var(--neutral-5);
-  border-radius: 8px;
+  border: 0;
+  border-radius: 6px;
   background: transparent;
   color: var(--accent-text);
   cursor: pointer;
@@ -390,14 +391,14 @@ body.dark .bv-panel {
   }
 
   svg {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
   }
 
   &:hover,
   &:focus-visible {
-    border-color: var(--accent);
     background: var(--accent-50);
+    outline: none;
   }
 }
 
@@ -440,7 +441,6 @@ body.dark .bv-panel {
   }
 
   .bv-file {
-    gap: 8px;
     padding-left: 0;
     padding-right: 0;
   }
