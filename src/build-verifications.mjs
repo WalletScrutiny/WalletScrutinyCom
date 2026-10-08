@@ -229,7 +229,7 @@ function fileRow(file, hashVerdictIndex) {
     fileMark(fileVerdict(hash, hashVerdictIndex)),
     el('span', { className: 'bv-file__name', title: name }, name || 'file'),
     el('span', { className: 'hash-row bv-file__hash' },
-      el('span', { className: 'hash-display', title: hash }, hash.slice(0, HASH_PREFIX_LENGTH)),
+      el('span', { className: 'bv-file__hash-text', title: hash }, hash.slice(0, HASH_PREFIX_LENGTH)),
       el('button', {
         type: 'button',
         className: 'hash-copy-btn js-copy-hash',

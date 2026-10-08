@@ -176,6 +176,8 @@ body.dark .bv-panel {
 
 .build-verifications .verification-card.bv-row {
   display: block;
+  width: 100%;
+  max-width: none;
   margin: 0;
   padding: 0;
   border: 0;
@@ -316,7 +318,7 @@ body.dark .bv-panel {
   align-items: center;
   gap: 6px;
 
-  .hash-display {
+  .bv-file__hash-text {
     font-family: monospace;
     font-size: $font-xs;
     color: var(--neutral-2);
