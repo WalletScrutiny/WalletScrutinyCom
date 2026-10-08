@@ -201,6 +201,10 @@
     margin: 0;
   }
 
+  &__danger {
+    color: $danger-color;
+  }
+
   .distribution-store-links {
     margin-top: 0.3rem;
     gap: 0.35rem 0.5rem;

@@ -340,7 +340,7 @@ function buildVerdictGroupCounts(allWallets) {
 }
 
 /**
- * Custody step verdict indices (matches loop in _includes/review/steps/custody.html).
+ * Custody verdict indices (used by the Custody row in _includes/review/appFacts.html).
  */
 function computeVerdictIndices(platform, stepVerdict) {
   const verdictsList = platformMeta[platform]?.verdicts || [];

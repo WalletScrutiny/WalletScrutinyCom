@@ -2,9 +2,7 @@
 {% assign verdict = include.verdict %}
 {% assign platform = include.platform %}
 <div class="steps linked">
-  {% if verdict && meta %}
-    {% include /review/steps/custody.html platform=platform %}
-  {% endif %}
+  {% include_cached /review/steps/platformMeta.html meta=meta %}
     <!-- {% include /review/steps/privacy.html %} -->
   {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId versionElementId=include.versionElementId %}
   {% include_cached /review/steps/platformNotes.html platform=platform %}

@@ -1,11 +1,13 @@
 {%- comment -%}
   Compact wallet facts shown in the page header, below the "Latest release
-  found by" line: Developer (with social links), Released and Source code,
-  plus a "Featured on Bitcoin.org" badge that opens a modal with the details.
-  Replaces the former review steps of the same names.
+  found by" line: Developer (with social links), Released, Source code and
+  Custody, plus a "Featured on Bitcoin.org" badge that opens a modal with the
+  details. Replaces the former review steps of the same names.
   Parameters:
     skipWebsite  set when the header already shows the Website chip, so the
                  developer links do not repeat it
+    platform     hardware, desktop or bearer; omitted on mobile pages, where
+                 custody follows the Android verdict (iPhone if Android-less)
 {%- endcomment -%}
 {%- assign dev_android = page.android.developerName | default: '' | strip -%}
 {%- assign dev_iphone = page.iphone.developerName | default: '' | strip -%}
@@ -29,6 +31,33 @@
   {%- assign source_state = 'omit' -%}
 {%- else -%}
   {%- assign source_state = 'not-evaluated' -%}
+{%- endif -%}
+
+{%- if include.platform -%}
+  {%- assign custody_platform = include.platform -%}
+  {%- assign custody_verdict = page.verdict -%}
+{%- elsif page.android.appId == nil and page.iphone.appId -%}
+  {%- assign custody_platform = 'iphone' -%}
+  {%- assign custody_verdict = page.iphone.verdict -%}
+{%- else -%}
+  {%- assign custody_platform = 'android' -%}
+  {%- assign custody_verdict = page.android.verdict -%}
+{%- endif -%}
+{%- assign custody_state = 'self' -%}
+{%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
+  {%- if custody_verdict == 'prefilled' -%}{%- assign custody_state = 'prefilled' -%}{%- endif -%}
+{%- else -%}
+  {%- assign custody_indices_key = custody_platform | append: '-' | append: custody_verdict -%}
+  {%- assign custody_indices = site.data.precomputed.verdictIndices[custody_indices_key] -%}
+  {%- assign custody_index = custody_indices.custodyIndex | default: 0 -%}
+  {%- assign custody_verdict_index = custody_indices.verdictIndex | default: 0 -%}
+  {%- if custody_index > custody_verdict_index -%}
+    {%- assign custody_state = 'not-evaluated' -%}
+  {%- elsif custody_verdict == 'custodial' -%}
+    {%- assign custody_state = 'custodial' -%}
+  {%- elsif page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' -%}
+    {%- assign custody_state = 'mixed' -%}
+  {%- endif -%}
 {%- endif -%}
 
 <dl class="app-facts">
@@ -92,6 +121,25 @@
     </dd>
   </div>
   {%- endif %}
+  <div class="app-facts__item">
+    <dt>Custody</dt>
+    <dd>
+      {%- case custody_state -%}
+        {%- when 'custodial', 'prefilled' -%}
+          <span class="app-facts__danger">{{ site.data.verdicts[custody_state].title }}</span>
+        {%- when 'not-evaluated' -%}
+          <span class="secondary-text">Not evaluated — our review stopped at an earlier step.</span>
+        {%- when 'mixed' -%}
+          Mixed: some features rely on third-party custody
+        {%- else -%}
+          {%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
+            Private keys generated and held by the user
+          {%- else -%}
+            Self-custodial: The user holds the keys
+          {%- endif -%}
+      {%- endcase -%}
+    </dd>
+  </div>
 </dl>
 {%- if page.bitcoinOrgId %}
 <div class="app-facts-badges">
