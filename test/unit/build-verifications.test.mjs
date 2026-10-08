@@ -11,7 +11,6 @@ import {
   headlineFor,
   ledeFor,
   fileVerdict,
-  buildLabel,
 } from '../../src/build-verifications-model.mjs';
 import { buildHashVerdictIndex } from '../../src/assets-table-filters.mjs';
 import { verificationKind, verificationDraftKind } from '../../src/nostr-constants.mjs';
@@ -134,11 +133,5 @@ describe('files', () => {
     assert.equal(fileVerdict(HASH_A, index), 'not_reproducible');
     assert.equal(fileVerdict(HASH_B, index), 'reproducible');
     assert.equal(fileVerdict(HASH_C, index), null);
-  });
-
-  test('build label names the first file and its hash prefix', () => {
-    const build = { files: [{ hash: HASH_A, fileName: 'base.apk' }] };
-    assert.equal(buildLabel(build, 0, 2), 'Build 1 of 2 · base.apk aaaaaaaa');
-    assert.equal(buildLabel({ files: [{ hash: HASH_B, fileName: null }] }, 1, 2), 'Build 2 of 2 · file bbbbbbbb');
   });
 });

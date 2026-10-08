@@ -205,11 +205,3 @@ export function fileVerdict(hash, hashVerdictIndex) {
   }
   return verdicts.reproducible ? 'reproducible' : 'not_reproducible';
 }
-
-/** A build's one-line label when a version has several: its first file and that file's hash prefix. */
-export function buildLabel(build, index, count, hashPrefixLength = 8) {
-  const first = build.files[0];
-  const name = first?.fileName || 'file';
-  const prefix = first?.hash ? ` ${first.hash.slice(0, hashPrefixLength)}` : '';
-  return `Build ${index + 1} of ${count} · ${name}${prefix}`;
-}

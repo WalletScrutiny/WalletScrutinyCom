@@ -21,7 +21,6 @@ import {
   headlineFor,
   ledeFor,
   fileVerdict,
-  buildLabel,
   statusGroup,
 } from './build-verifications-model.mjs';
 
@@ -219,17 +218,15 @@ function fileRow(file, hashVerdictIndex) {
 
 // ---------------------------------------------------------------- who tested (files, then verifiers)
 
-// One build = one set of files and the verifications of that set. The files come first so a
-// verdict row is read against the files it is about.
-function buildBlock(build, index, version, context) {
+// One build = one set of files and the verifications of that set: the files, the asset's
+// description, then the verifier rows indented under them so they read as that set's.
+function buildBlock(build, context) {
   const { userPubkey, hashVerdictIndex } = context;
-  const multi = version.builds.length > 1;
   const shown = build.verifications.concat(build.drafts.filter(d => userPubkey && d.pubkey === userPubkey));
   const rows = shown.length
     ? shown.map(verification => verificationRow(verification, build, context))
     : [emptyRow({ builds: [build] })];
   return el('div', { className: 'bv-build' },
-    multi ? el('div', { className: 'bv-build-caption' }, buildLabel(build, index, version.builds.length, HASH_PREFIX_LENGTH)) : null,
     build.files.length ? el('ul', { className: 'bv-files' }, build.files.map(file => fileRow(file, hashVerdictIndex))) : null,
     build.description ? el('p', { className: 'bv-build__description', title: build.description }, build.description) : null,
     el('div', { className: 'bv-rows' }, rows),
@@ -238,7 +235,7 @@ function buildBlock(build, index, version, context) {
 
 function whoTested(version, context) {
   const blocks = version.builds.length
-    ? version.builds.map((build, index) => buildBlock(build, index, version, context))
+    ? version.builds.map(build => buildBlock(build, context))
     : [el('div', { className: 'bv-build' }, el('div', { className: 'bv-rows' }, emptyRow(version)))];
   return el('section', { className: 'bv-panel bv-who', 'aria-label': 'Who tested this version' },
     el('h4', { className: 'bv-caption' }, `Who tested ${context.walletTitle} ${version.name}`.trim()),

@@ -257,23 +257,19 @@ body.dark .bv-panel {
   color: var(--neutral-2);
 }
 
-.bv-build-caption {
-  margin: 10px 0 2px;
-  padding-left: 6px;
-  font-size: $font-xxs;
-  color: var(--neutral-3);
-}
-
 .bv-build + .bv-build {
   margin-top: 12px;
+  padding-top: 8px;
   border-top: 1px solid var(--neutral-5);
 }
 
-/* Inside a build the files come first; the verifier rows sit under a divider. */
+/* Inside a build the files come first; the verifier rows are indented under them, with a
+   rule down the left, so they read as the verifications of that set of files. */
 .bv-build > .bv-files ~ .bv-rows,
 .bv-build > .bv-build__description ~ .bv-rows {
-  margin-top: 6px;
-  border-top: 1px solid var(--neutral-5);
+  margin: 6px 0 0 14px;
+  padding-left: 12px;
+  border-left: 2px solid var(--neutral-5);
 }
 
 /* Files */
@@ -444,5 +440,11 @@ body.dark .bv-panel {
     gap: 8px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .bv-build > .bv-files ~ .bv-rows,
+  .bv-build > .bv-build__description ~ .bv-rows {
+    margin-left: 6px;
+    padding-left: 8px;
   }
 }
