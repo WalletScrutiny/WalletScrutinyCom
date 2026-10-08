@@ -239,8 +239,8 @@ function whoTested(version, context) {
   const blocks = version.builds.length
     ? version.builds.map(build => buildBlock(build, context))
     : [el('div', { className: 'bv-build' }, el('div', { className: 'bv-rows' }, emptyRow(version)))];
-  return el('section', { className: 'bv-panel bv-who', 'aria-label': 'Who tested this version' },
-    el('h4', { className: 'bv-caption' }, `Who tested ${context.walletTitle} ${version.name}`.trim()),
+  return el('section', { className: 'bv-panel bv-who', 'aria-label': 'Verifications for this version' },
+    el('h4', { className: 'bv-caption' }, `Verifications for ${context.walletTitle} ${version.name}`.trim()),
     blocks,
   );
 }
