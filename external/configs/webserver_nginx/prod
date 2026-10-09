@@ -6,6 +6,10 @@ server {
     http2 on;
     server_tokens off;
     brotli_static on;
+    # Browsers take the pre-compressed .br files above. Other clients only ask for
+    # gzip, and nginx's default gzip_types is text/html alone, so the api/ feeds
+    # (OkHttp in the Android app, curl, node) went out uncompressed.
+    gzip_types application/json;
     sendfile on;
     tcp_nopush on;
     tcp_nodelay on;

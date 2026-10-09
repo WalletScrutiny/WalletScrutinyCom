@@ -12,16 +12,15 @@ schemaVersion and tell the consumer's owner before changing a field.
 
 One entry per wallet the app tracks: the Android store entry has verdict
 sourceavailable and meta ok, deprecated or absent (the same filter the app's
-script applies). Fields per wallet:
+script applies). Only what the app shows, nothing to filter on: the filter is
+this file's. Fields per wallet:
   appId             Android package name
   title             altTitle (android block, then page) or title
   icon              filename under /images/wIcons/android/, or null
   users             Play Store install count as a number, or null
-  verdict, meta     the Android entry's values; meta is null when absent
   alternativeStores list from the Android entry, [] when absent (fdroid, zapstore, ...)
   bitcoinOrgId      the page's top-level field, or null; non-null means
                     "Featured on Bitcoin.org", the same key the site badge uses
-  repository        the Android entry's source repository, or null
 {%- endcomment -%}
 {%- assign okMetas = "ok,deprecated" | split: "," -%}
 {%- assign out = "" -%}
@@ -35,11 +34,8 @@ script applies). Fields per wallet:
 ,"title":{{ title | jsonify }}
 ,"icon":{{ store.icon | jsonify }}
 ,"users":{% if store.users %}{{ store.users | plus: 0 }}{% else %}null{% endif %}
-,"verdict":{{ store.verdict | jsonify }}
-,"meta":{{ store.meta | jsonify }}
 ,"alternativeStores":{% if store.alternativeStores %}{{ store.alternativeStores | jsonify }}{% else %}[]{% endif %}
-,"bitcoinOrgId":{{ post.bitcoinOrgId | jsonify }}
-,"repository":{{ store.repository | jsonify }}}
+,"bitcoinOrgId":{{ post.bitcoinOrgId | jsonify }}}
 {%- endcapture -%}
 {%- assign out = out | append: "," | append: entry -%}
 {%- endif -%}
