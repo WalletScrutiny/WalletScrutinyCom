@@ -1,6 +1,7 @@
 ---
 wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
+bitcoinOrgId: bluewallet
 date: 2023-12-30
 authors:
 - emanuel
