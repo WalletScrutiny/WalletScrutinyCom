@@ -1,7 +1,5 @@
 ---
 layout: null
-redirect_from:
-- /assets/js/json/buildServerInfo.json
 ---
 {%- comment -%}
 Consumer: the Automated Build Server (external/build_server, appInfoURL in

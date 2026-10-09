@@ -11,9 +11,6 @@
  *
  * Rules:
  * - every key gets a trailing slash so it matches the normalised $uri;
- * - targets are page URLs with a trailing slash, except for the files in api/
- *   (JSON feeds read by external software), whose redirect_from front matter
- *   maps an old path to the file itself;
  * - nginx map keys are case-insensitive, so sources that differ only by case
  *   are emitted as case-sensitive regex keys instead of plain strings;
  * - the same source pointing at two different targets fails the build, because
@@ -85,17 +82,6 @@ function* pages() {
         throw new Error(`${path.relative(ROOT, file)} has redirect_from but no permalink; add one so its URL is known`);
       }
       yield { file: path.relative(ROOT, file), url: normalise(fm.permalink), fm };
-    }
-  }
-  // Files served as-is at their own path: the target keeps the filename, no trailing slash.
-  const apiDir = path.join(ROOT, 'api');
-  if (fs.existsSync(apiDir)) {
-    for (const entry of fs.readdirSync(apiDir, { withFileTypes: true })) {
-      if (!entry.isFile()) continue;
-      const file = path.join(apiDir, entry.name);
-      const fm = parseFrontmatter(fs.readFileSync(file, 'utf8'));
-      if (!fm || !fm.redirect_from) continue;
-      yield { file: path.relative(ROOT, file), url: `/api/${entry.name}`, fm };
     }
   }
 }

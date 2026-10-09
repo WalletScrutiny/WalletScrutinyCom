@@ -1,7 +1,5 @@
 ---
 layout: null
-redirect_from:
-- /assets/js/json/appRepositories.json
 ---
 {%- comment -%}
 Consumer: the source-analysis service (external/source_analysis, APP_LIST_URL in
