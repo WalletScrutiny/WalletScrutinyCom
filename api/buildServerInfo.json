@@ -1,6 +1,18 @@
 ---
 layout: null
+redirect_from:
+- /assets/js/json/buildServerInfo.json
 ---
+{%- comment -%}
+Consumer: the Automated Build Server (external/build_server, appInfoURL in
+utils.mjs), fetched at the start of every build run. Everything in api/ is read
+by software outside the site; keep fields stable and tell the consumer's owner
+before changing them.
+
+Per platform and appId, the `builds` block of every wallet record that has one:
+which architectures and package types the server builds and the filename
+patterns that map the resulting assets.
+{%- endcomment -%}
 {
   "hardware": {
     {% assign hardware_with_builds = site.hardware | where_exp: "item", "item.builds" %}
