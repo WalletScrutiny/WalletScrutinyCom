@@ -1,6 +1,7 @@
 ---
 wsId: mycelium
 title: Mycelium Bitcoin Wallet
+bitcoinOrgId: mycelium
 date: 2025-03-07
 authors:
 - leo
@@ -42,7 +43,6 @@ android:
   verdict: sourceavailable
   developerName: Mycelium Developers
   repository: https://github.com/mycelium-com/wallet-android
-  bitcoinOrgId: mycelium
 iphone:
   appId: com.mycelium.wallet-ios
   idd: 943912290

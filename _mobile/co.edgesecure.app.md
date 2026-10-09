@@ -1,6 +1,7 @@
 ---
 wsId: edge
 title: Edge - Bitcoin & Crypto Wallet
+bitcoinOrgId: edgewallet
 date: 2022-03-13
 authors:
 - leo
