@@ -94,13 +94,14 @@ describe('buildVersionTimeline', () => {
     assert.deepEqual(timeline.map(v => v.name), ['1.2.0', '1.3.0']);
   });
 
-  test('marks alpha and beta versions as prereleases', () => {
+  test('marks alpha, beta and rc versions as prereleases', () => {
     const timeline = buildVersionTimeline([
       row({ version: '13.2.3-alpha1' }),
       row({ version: '2.0.0-BETA', sha256: HASH_B }),
       row({ version: '13.2.3-rc1', sha256: HASH_C }),
+      row({ version: '13.2.3', sha256: 'd'.repeat(64) }),
     ]);
-    assert.deepEqual(timeline.map(v => [v.name, v.prerelease]), [['2.0.0-BETA', true], ['13.2.3-alpha1', true], ['13.2.3-rc1', false]]);
+    assert.deepEqual(timeline.map(v => [v.name, v.prerelease]), [['2.0.0-BETA', true], ['13.2.3-alpha1', true], ['13.2.3-rc1', true], ['13.2.3', false]]);
   });
 
   test('flags a published warning', () => {
