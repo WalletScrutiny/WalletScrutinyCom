@@ -123,6 +123,7 @@ export function buildVersionTimeline(rows) {
     version.tally = tally(version.verifications);
     version.glass = version.tally.glass;
     version.hasWarning = version.verifications.some(v => getFirstTagValue(v, 'status') === 'warning');
+    version.prerelease = /alpha|beta/i.test(version.name);
   }
   timeline.sort((a, b) => compareVersionNames(a.name, b.name));
   return timeline;

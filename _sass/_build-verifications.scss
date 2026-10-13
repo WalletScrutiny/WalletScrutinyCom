@@ -105,6 +105,10 @@ body.dark .bv-panel {
   font-size: $font-xs;
   font-weight: 600;
   white-space: nowrap;
+
+  &--prerelease {
+    font-weight: 400;
+  }
 }
 
 .bv-stone--frosted .bv-stone__name {

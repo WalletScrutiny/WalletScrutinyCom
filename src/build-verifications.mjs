@@ -79,7 +79,7 @@ function stone(version, selected) {
     dataset: { versionKey: version.key },
   },
     el('span', { className: 'bv-stone__pill' },
-      el('span', { className: 'bv-stone__name' },
+      el('span', { className: `bv-stone__name${version.prerelease ? ' bv-stone__name--prerelease' : ''}` },
         version.name,
         version.hasWarning ? el('span', { className: 'bv-stone__warning', title: 'A verifier flagged a serious problem with this version' }, '⚠') : null,
       ),
