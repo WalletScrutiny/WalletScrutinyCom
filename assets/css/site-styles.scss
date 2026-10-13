@@ -6,12 +6,8 @@
 @use "notifications";
 @use "verifications";
 @use "build-verifications";
+@use "build-log";
 @use "user-profile";
-
-/* Fix oversized cursor/text in asciicast player (#887) */
-.asciicast-player pre.ap-terminal {
-  font-size: 14px !important;
-}
 
 // START Verdicts
 {% for verdict in site.data.verdicts %}
