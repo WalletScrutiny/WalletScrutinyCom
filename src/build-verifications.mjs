@@ -69,8 +69,7 @@ function stone(version, selected) {
   const pips = el('span', { className: 'bv-pips', 'aria-hidden': 'true' },
     current.map(v => el('span', { className: `bv-pip ${pipModifier(getFirstTagValue(v, 'status'))}`.trim() })),
   );
-  const tag = version.latest ? 'Latest' : '';
-  const label = `Version ${version.name}, ${headlineFor(version)}${tag ? `, ${tag.toLowerCase()} release` : ''}`;
+  const label = `Version ${version.name}, ${headlineFor(version)}`;
   return el('button', {
     type: 'button',
     className: `bv-stone bv-stone--${version.glass}`,
@@ -79,7 +78,6 @@ function stone(version, selected) {
     title: headlineFor(version),
     dataset: { versionKey: version.key },
   },
-    el('span', { className: `bv-stone__tag${tag ? ' bv-stone__tag--latest' : ''}` }, tag),
     el('span', { className: 'bv-stone__pill' },
       el('span', { className: 'bv-stone__name' },
         version.name,
@@ -278,12 +276,11 @@ export function renderBuildVerifications({
   appId,
   platform,
   walletTitle = '',
-  latestVersion = '',
 }) {
   if (!host) {
     return null;
   }
-  const timeline = buildVersionTimeline(rows, { latestVersion });
+  const timeline = buildVersionTimeline(rows);
   if (timeline.length === 0) {
     host.hidden = true;
     host.replaceChildren();

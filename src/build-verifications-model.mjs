@@ -80,11 +80,8 @@ function isDraft(event) {
  *
  * @param {Array<{ sha256: string, summary: object }>} rows the assets table's rows, each with
  *   the `summary` paintMainAssetsTable attaches
- * @param {{ latestVersion?: string }} options the version WalletScrutiny found in the store,
- *   so its stone can say so
  */
-export function buildVersionTimeline(rows, { latestVersion = '' } = {}) {
-  const latest = normalizeVersionName(latestVersion);
+export function buildVersionTimeline(rows) {
   const byName = new Map();
   for (const row of rows || []) {
     const summary = row?.summary;
@@ -126,7 +123,6 @@ export function buildVersionTimeline(rows, { latestVersion = '' } = {}) {
     version.tally = tally(version.verifications);
     version.glass = version.tally.glass;
     version.hasWarning = version.verifications.some(v => getFirstTagValue(v, 'status') === 'warning');
-    version.latest = latest !== '' && version.name === latest;
   }
   timeline.sort((a, b) => compareVersionNames(a.name, b.name));
   return timeline;

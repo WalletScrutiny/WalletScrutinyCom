@@ -85,13 +85,13 @@ describe('buildVersionTimeline', () => {
     assert.equal(versionKeyOfVerification(timeline, 'nope'), null);
   });
 
-  test('leaves out rows without a version and marks the store release', () => {
+  test('leaves out rows without a version', () => {
     const timeline = buildVersionTimeline([
       row({ version: '' }),
       row({ version: 'v1.2.0' }),
       row({ version: '1.3.0', sha256: HASH_B }),
-    ], { latestVersion: '1.2.0' });
-    assert.deepEqual(timeline.map(v => [v.name, v.latest]), [['1.2.0', true], ['1.3.0', false]]);
+    ]);
+    assert.deepEqual(timeline.map(v => v.name), ['1.2.0', '1.3.0']);
   });
 
   test('flags a published warning', () => {

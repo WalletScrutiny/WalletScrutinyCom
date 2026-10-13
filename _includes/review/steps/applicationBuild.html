@@ -68,11 +68,6 @@
               if (typeof window.renderBuildVerifications !== 'function' || !Array.isArray(rows)) {
                 return;
               }
-              var storeVersion = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
-                ? wsVersionAndroid
-                : ((typeof wsVersionIphone !== 'undefined' && '{{ include.platform }}' === 'iphone' && wsVersionIphone)
-                  ? wsVersionIphone
-                  : '');
               window.renderBuildVerifications({
                 host: document.getElementById('{{ build_verifications_id }}'),
                 rows,
@@ -80,7 +75,6 @@
                 appId: '{{ build_app_id }}',
                 platform: '{{ include.platform }}',
                 walletTitle,
-                latestVersion: storeVersion,
               });
             };
 

@@ -68,20 +68,6 @@ body.dark .bv-panel {
   cursor: pointer;
 }
 
-.bv-stone__tag {
-  min-height: 1.2em;
-  line-height: 1.2;
-  font-size: $font-min;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--neutral-3);
-
-  &--latest {
-    color: var(--accent-text);
-  }
-}
-
 .bv-stone__pill {
   display: flex;
   flex-direction: column;
