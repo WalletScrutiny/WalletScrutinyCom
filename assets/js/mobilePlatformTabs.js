@@ -52,6 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const wrapper = document.createElement('div');
     wrapper.className = 'mobile-content-panels';
 
+    // Whatever the review says before "## Android" applies to both apps, so it
+    // goes above the platform text and stays visible on either tab.
+    const commonPart = document.createElement('div');
+    commonPart.className = 'mobile-content-common';
+    while (content.firstElementChild && content.firstElementChild !== androidHeading) {
+      commonPart.appendChild(content.firstElementChild);
+    }
+    if (commonPart.firstElementChild) wrapper.appendChild(commonPart);
+
     const androidPanel = document.createElement('div');
     androidPanel.className = 'mobile-content-panel is-active';
     androidPanel.id = 'mobile-content-android';
