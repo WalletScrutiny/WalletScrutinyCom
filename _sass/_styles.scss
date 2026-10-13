@@ -969,9 +969,23 @@ table tr td label {
 }
 
 @media (max-width: 500px) {
+  .app-review .page {
+    margin-top: 24px;
+  }
+
   .app-summary-grid {
     display: flex !important;
     flex-direction: column;
+  }
+
+  .app-summary-grid>.app_logo_big {
+    float: none;
+    align-self: center;
+  }
+
+  .app-summary-grid .app-sum-head .page__title {
+    justify-content: center;
+    text-align: center;
   }
 
   .app-summary-grid>.app-payload-flex {
