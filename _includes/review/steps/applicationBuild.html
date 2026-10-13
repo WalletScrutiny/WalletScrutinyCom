@@ -8,6 +8,18 @@
     <div class="title">
         <h3>Build Verifications</h3>
 
+        {%- comment -%}
+          Nobody has reproduced an iPhone app so far (see the methodology FAQ),
+          so iPhone builds get a notice instead of the version list, the drop
+          area and the "Create verification" button.
+        {%- endcomment -%}
+        {% if include.platform == 'iphone' %}
+        <div class="infoBox">
+          <p>As far as we know, <b>iPhone apps cannot be reproduced</b>. Nobody has managed to build an iPhone app from its source code and get the same binary that the App Store delivers, so there is nothing to verify here.</p>
+          <p><a href="/methodology/?faq">Why are there no reproducible iPhone apps?</a></p>
+        </div>
+        {% else %}
+
         {% assign review_repository = '' %}
         {% if include.platform == 'android' and page.android.repository and page.android.repository != '' %}
           {% assign review_repository = page.android.repository %}
@@ -157,6 +169,7 @@
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>
+        {% endif %}
         {% endif %}
         {% endif %}
     </div>
