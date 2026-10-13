@@ -38,6 +38,11 @@ body.dark .bv-panel {
 
 /* Every version */
 
+.bv-panel.bv-versions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .bv-river {
   display: flex;
   align-items: flex-end;
@@ -438,6 +443,19 @@ body.dark .bv-panel {
 @media screen and (max-width: 480px) {
   .bv-panel {
     padding: 12px 12px 10px;
+  }
+
+  .bv-panel.bv-versions {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .bv-stone__pill {
+    padding: 6px 8px;
+  }
+
+  .bv-stone[aria-pressed="true"] .bv-stone__pill {
+    padding: 5px 7px;
   }
 
   .bv-file {
