@@ -37,14 +37,12 @@
         {%- comment -%}
           Like the Android app's wallet page: every version as a stone, then who tested the
           picked one and its files. renderBuildVerifications (src/build-verifications.mjs)
-          paints it from the same rows as the table below.
+          paints it from the rows renderAssetsTable loads. That loader also sets up the
+          verification modal, so it still needs a host to paint its table into; the host
+          stays hidden.
         {%- endcomment -%}
         <div id="{{ build_verifications_id }}" class="build-verifications" hidden></div>
-
-        <details id="{{ apps_table_id }}-details" class="build-verifications__table">
-          <summary>Every build as a table</summary>
-          <div id="{{ apps_table_id }}" style="margin-top: 0.25em;"></div>
-        </details>
+        <div id="{{ apps_table_id }}" hidden></div>
 
         <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
         <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
@@ -139,11 +137,6 @@
             updateVersionInfo(attestationsInfo.info);
 
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
-              if (!attestationsInfo.hasAssets) {
-                document.getElementById('{{ apps_table_id }}').style.display = 'none';
-                document.getElementById('{{ apps_table_id }}-details').hidden = true;
-              }
-
               const verificationMessageEl = document.getElementById('{{ verification_message_id }}');
               if (verificationMessageEl) {
                 if (pageVerdict === 'sourceavailable') {
